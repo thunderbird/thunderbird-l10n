@@ -30,12 +30,6 @@ calendar-dialog-attendees-row-icon =
 # Variables:
 #   $count (Number): Number of guests.
 calendar-dialog-attendee-count = { $count } khách mời
-# Variables:
-#   $going (Number): Number of guests that responded "attending".
-#   $maybe (Number): Number of guests that responded "maybe".
-#   $declined (Number): Number of guests that responded "declined".
-#   $pending (Number): Number of guests that response "pending".
-calendar-dialog-attendee-summary = { $going } sẽ tham dự, { $maybe } phân vân, { $declined } đã từ chối, { $pending } đang chờ phản hồi
 calendar-dialog-attendee-organizer = Người tổ chức
 calendar-dialog-attendee-optional = Không bắt buộc
 calendar-dialog-icon-attending =

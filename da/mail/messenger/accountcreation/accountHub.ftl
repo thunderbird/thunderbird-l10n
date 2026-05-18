@@ -274,21 +274,6 @@ account-hub-address-book-sync-books-data =
        *[other] { $addressBooks } adressebøger tilgængelige
     }
 account-hub-fetching-sync-accounts = Finder adressebøger og kalendere…
-# $addressBooks (Number) - The number of address books that can be synced.
-# $accounts (Number) - The number of accounts.
-account-hub-address-book-sync-option-data =
-    { $addressBooks ->
-        [one]
-            { $accounts ->
-                [one] Fandt 1 adressebog fra 1 konto
-               *[other] Fandt 1 adressebog fra { $accounts } konti
-            }
-       *[other]
-            { $accounts ->
-                [one] Fandt { $addressBooks } adressebøger fra 1 konto
-               *[other] Fandt { $addressBooks } adressebøger fra { $accounts } konti
-            }
-    }
 address-book-sync-existing-description = Henter eksisterende konti…
 account-hub-select-address-book-account = Vælg en konto med adressebøger
 # $synced (Number) - The number of address books that are synced.

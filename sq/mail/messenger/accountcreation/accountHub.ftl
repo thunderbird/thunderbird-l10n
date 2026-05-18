@@ -259,21 +259,6 @@ address-book-add-ldap-icon =
 address-book-add-ldap = Libër i Ri Adresash LDAP
 address-book-add-ldap-description = Lidheni me një libër adresash LDAP të largët
 account-hub-fetching-sync-accounts = Po pikasen libra adresash dhe kalendarë…
-# $addressBooks (Number) - The number of address books that can be synced.
-# $accounts (Number) - The number of accounts.
-account-hub-address-book-sync-option-data =
-    { $addressBooks ->
-        [one]
-            { $accounts ->
-                [one] Ka 1 libër adresash nga 1 llogari
-               *[other] Ka 1 libër adresash nga { $accounts } llogari
-            }
-       *[other]
-            { $accounts ->
-                [one] Ka libër adresash { $addressBooks } nga 1 llogari
-               *[other] Ka libra adresash { $addressBooks } nga { $accounts } llogari
-            }
-    }
 address-book-sync-existing-description = Po merren llogari ekzistuese…
 account-hub-select-address-book-account = Përzgjidhni një llogari me libra Adresash
 # $synced (Number) - The number of address books that are synced.

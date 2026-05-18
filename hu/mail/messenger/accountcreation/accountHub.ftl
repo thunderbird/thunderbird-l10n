@@ -274,21 +274,6 @@ account-hub-address-book-sync-books-data =
        *[other] { $addressBooks } címjegyzék érhető el
     }
 account-hub-fetching-sync-accounts = Címjegyzékek és naptárak felfedezése…
-# $addressBooks (Number) - The number of address books that can be synced.
-# $accounts (Number) - The number of accounts.
-account-hub-address-book-sync-option-data =
-    { $addressBooks ->
-        [one]
-            { $accounts ->
-                [one] 1 címjegyzék érhető el 1 fiókból
-               *[other] 1 címjegyzék érhető el { $accounts } fiókból
-            }
-       *[other]
-            { $accounts ->
-                [one] { $addressBooks } címjegyzék érhető el 1 fiókból
-               *[other] { $addressBooks } címjegyzék érhető el { $accounts } fiókból
-            }
-    }
 address-book-sync-existing-description = Meglévő fiókok lekérése…
 account-hub-select-address-book-account = Válasszon egy fiókot címjegyzékekkel
 # $synced (Number) - The number of address books that are synced.

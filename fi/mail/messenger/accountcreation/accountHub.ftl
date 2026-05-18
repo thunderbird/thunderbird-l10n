@@ -269,21 +269,6 @@ account-hub-address-book-sync-books-data =
        *[other] { $addressBooks } osoitekirjaa saatavilla
     }
 account-hub-fetching-sync-accounts = Havaitaan osoitekirjoja ja kalentereita…
-# $addressBooks (Number) - The number of address books that can be synced.
-# $accounts (Number) - The number of accounts.
-account-hub-address-book-sync-option-data =
-    { $addressBooks ->
-        [one]
-            { $accounts ->
-                [one] Yksi osoitekirja yhdeltä tililtä saatavilla
-               *[other] Yksi osoitekirja { $accounts } tililtä saatavilla
-            }
-       *[other]
-            { $accounts ->
-                [one] { $addressBooks } osoitekirjaa yhdeltä tililtä saatavilla
-               *[other] { $addressBooks } osoitekirjaa { $accounts } tililtä saatavilla
-            }
-    }
 address-book-sync-existing-description = Haetaan olemassa olevia tilejä…
 account-hub-select-address-book-account = Valitse tili, jossa on osoitekirjoja
 # $synced (Number) - The number of address books that are synced.

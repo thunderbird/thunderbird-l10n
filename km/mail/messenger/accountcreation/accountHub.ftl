@@ -7,21 +7,9 @@
 ### Account hub is where user can setup new accounts in Thunderbird.
 
 
-## Header
-
-
-## Footer
-
-
-## Initial setup page
-
-
 ## Email page
 
 account-hub-email-cancel-button = បោះបង់
-
-## Incoming/Outgoing authentication method options
-
 
 ## Incoming/Outgoing connection security options
 

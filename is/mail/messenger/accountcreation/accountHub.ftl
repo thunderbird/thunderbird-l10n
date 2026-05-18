@@ -274,21 +274,6 @@ account-hub-address-book-sync-books-data =
        *[other] { $addressBooks } nafnaskrár í boði
     }
 account-hub-fetching-sync-accounts = Finn nafnaskrár og dagatöl…
-# $addressBooks (Number) - The number of address books that can be synced.
-# $accounts (Number) - The number of accounts.
-account-hub-address-book-sync-option-data =
-    { $addressBooks ->
-        [one]
-            { $accounts ->
-                [one] 1 nafnaskrá frá 1 reikningi tiltæk
-               *[other] 1 nafnaskrá frá { $accounts } reikningum tiltæk
-            }
-       *[other]
-            { $accounts ->
-                [one] { $addressBooks } nafnaskrár frá 1 reikningi tiltækar
-               *[other] { $addressBooks } nafnaskrár frá { $accounts } reikningum tiltækar
-            }
-    }
 address-book-sync-existing-description = Sæki fyrirliggjandi reikninga…
 account-hub-select-address-book-account = Veldu reikning með nafnaskrám
 # $synced (Number) - The number of address books that are synced.

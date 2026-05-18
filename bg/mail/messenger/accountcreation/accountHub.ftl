@@ -259,21 +259,6 @@ address-book-add-ldap-icon =
 address-book-add-ldap = Нов LDAP адресник
 address-book-add-ldap-description = Свързване към отдалечен LDAP адресник
 account-hub-fetching-sync-accounts = Откриване на адресници и календари…
-# $addressBooks (Number) - The number of address books that can be synced.
-# $accounts (Number) - The number of accounts.
-account-hub-address-book-sync-option-data =
-    { $addressBooks ->
-        [one]
-            { $accounts ->
-                [one] Наличен е  { $addressBooks } адресник от { $accounts } профил
-               *[other] Наличен е  { $addressBooks } адресник от { $accounts } профила
-            }
-       *[other]
-            { $accounts ->
-                [one] Налични са  { $addressBooks } адресника от { $accounts } профил
-               *[other] Налични са  { $addressBooks } адресника от { $accounts } профила
-            }
-    }
 address-book-sync-existing-description = Извличане на съществуващи профили…
 account-hub-select-address-book-account = Избор на профил с Адресници
 # $synced (Number) - The number of address books that are synced.

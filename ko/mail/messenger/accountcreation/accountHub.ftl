@@ -230,9 +230,6 @@ address-book-add-ldap-icon =
 address-book-add-ldap = 새 LDAP  주소록
 address-book-add-ldap-description = 원격 LDAP 주소록에 연결
 account-hub-fetching-sync-accounts = 주소록과 캘린더를 찾는 중...
-# $addressBooks (Number) - The number of address books that can be synced.
-# $accounts (Number) - The number of accounts.
-account-hub-address-book-sync-option-data = { $accounts } 계정에서 { $addressBooks } 주소록 사용 가능
 address-book-sync-existing-description = 기존 계정을 검색하는 중…
 account-hub-select-address-book-account = 주소록이 있는 계정을 선택하세요
 # $synced (Number) - The number of address books that are synced.

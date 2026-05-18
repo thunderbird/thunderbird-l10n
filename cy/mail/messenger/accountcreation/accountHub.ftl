@@ -282,65 +282,6 @@ account-hub-address-book-sync-books-data =
        *[other] { $addressBooks } llyfr cyfeiriadau ar gael
     }
 account-hub-fetching-sync-accounts = Wrthi'n darganfod llyfrau cyfeiriadau a chalendrau…
-# $addressBooks (Number) - The number of address books that can be synced.
-# $accounts (Number) - The number of accounts.
-account-hub-address-book-sync-option-data =
-    { $addressBooks ->
-        [zero]
-            { $accounts ->
-                [zero] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
-                [one] { $addressBooks } llyfr cyfeiriadau o 1 cyfrif ar gael
-                [two] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
-                [few] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
-                [many] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
-               *[other] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
-            }
-        [one]
-            { $accounts ->
-                [zero] 1 llyfr cyfeiriadau o { $accounts } cyfrif ar gael
-                [one] 1 llyfr cyfeiriadau o 1 cyfrif ar gael
-                [two] 1 llyfr cyfeiriadau o { $accounts } cyfrif ar gael
-                [few] 1 llyfr cyfeiriadau o { $accounts } cyfrif ar gael
-                [many] 1 llyfr cyfeiriadau o { $accounts } cyfrif ar gael
-               *[other] 1 llyfr cyfeiriadau o { $accounts } cyfrif ar gael
-            }
-        [two]
-            { $accounts ->
-                [zero] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
-                [one] { $addressBooks } llyfr cyfeiriadau o 1 cyfrif ar gael
-                [two] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
-                [few] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
-                [many] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
-               *[other] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
-            }
-        [few]
-            { $accounts ->
-                [zero] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
-                [one] { $addressBooks } llyfr cyfeiriadau o 1 cyfrif ar gael
-                [two] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
-                [few] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
-                [many] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
-               *[other] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
-            }
-        [many]
-            { $accounts ->
-                [zero] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
-                [one] { $addressBooks } llyfr cyfeiriadau o 1 cyfrif ar gael
-                [two] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
-                [few] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
-                [many] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
-               *[other] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
-            }
-       *[other]
-            { $accounts ->
-                [zero] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
-                [one] { $addressBooks } llyfr cyfeiriadau o 1 cyfrif ar gael
-                [two] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
-                [few] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
-                [many] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
-               *[other] { $addressBooks } llyfr cyfeiriadau o { $accounts } cyfrif ar gael
-            }
-    }
 address-book-sync-existing-description = Wrthi'n nôl y cyfrifon presennol…
 account-hub-select-address-book-account = Dewiswch gyfrif gyda llyfrau Cyfeiriadau
 # $synced (Number) - The number of address books that are synced.

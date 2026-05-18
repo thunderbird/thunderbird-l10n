@@ -34,24 +34,6 @@ calendar-dialog-attendee-count =
         [one] { $count } ospite
        *[other] { $count } ospiti
     }
-# Variables:
-#   $going (Number): Number of guests that responded "attending".
-#   $maybe (Number): Number of guests that responded "maybe".
-#   $declined (Number): Number of guests that responded "declined".
-#   $pending (Number): Number of guests that response "pending".
-calendar-dialog-attendee-summary =
-    { $going ->
-        [one]
-            { $declined ->
-                [one] { $going } presente, { $maybe } forse, { $declined } rifiutato, { $pending } in attesa
-               *[other] { $going } presente, { $maybe } forse, { $declined } rifiutati, { $pending } in attesa
-            }
-       *[other]
-            { $declined ->
-                [one] { $going } presenti, { $maybe } forse, { $declined } rifiutato, { $pending } in attesa
-               *[other] { $going } presenti, { $maybe } forse, { $declined } rifiutati, { $pending } in attesa
-            }
-    }
 calendar-dialog-attendee-organizer = Organizzatore
 calendar-dialog-attendee-optional = Facoltativo
 calendar-dialog-icon-attending =

@@ -34,12 +34,6 @@ calendar-dialog-attendee-count =
         [one] { $count } vendég
        *[other] { $count } vendég
     }
-# Variables:
-#   $going (Number): Number of guests that responded "attending".
-#   $maybe (Number): Number of guests that responded "maybe".
-#   $declined (Number): Number of guests that responded "declined".
-#   $pending (Number): Number of guests that response "pending".
-calendar-dialog-attendee-summary = { $going } részt vesz, { $maybe } talán, { $declined } elutasította, { $pending } függőben
 calendar-dialog-attendee-organizer = Szervező
 calendar-dialog-attendee-optional = Nem kötelező
 calendar-dialog-icon-attending =

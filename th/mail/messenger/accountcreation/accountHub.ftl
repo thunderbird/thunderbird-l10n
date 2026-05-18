@@ -240,9 +240,6 @@ address-book-add-ldap-icon =
 address-book-add-ldap = สมุดรายชื่อ LDAP ใหม่
 address-book-add-ldap-description = เชื่อมต่อกับสมุดรายชื่อ LDAP ระยะไกล
 account-hub-fetching-sync-accounts = กำลังค้นพบสมุดรายชื่อและปฏิทิน…
-# $addressBooks (Number) - The number of address books that can be synced.
-# $accounts (Number) - The number of accounts.
-account-hub-address-book-sync-option-data = มีสมุดรายชื่อ { $addressBooks } เล่ม จากบัญชี { $accounts } บัญชีที่พร้อมใช้งาน
 address-book-sync-existing-description = กำลังดึงข้อมูลบัญชีที่มีอยู่...
 account-hub-select-address-book-account = เลือกบัญชีที่มีสมุดรายชื่อ
 # $synced (Number) - The number of address books that are synced.

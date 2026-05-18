@@ -274,21 +274,6 @@ account-hub-address-book-sync-books-data =
        *[other] { $addressBooks } адрестік кітапша қолжетімді
     }
 account-hub-fetching-sync-accounts = Адрестік кітапшалар мен күнтізбелер табылуда…
-# $addressBooks (Number) - The number of address books that can be synced.
-# $accounts (Number) - The number of accounts.
-account-hub-address-book-sync-option-data =
-    { $addressBooks ->
-        [one]
-            { $accounts ->
-                [one] 1 тіркелгіден 1 адрестік кітапша қолжетімді
-               *[other] { $accounts } тіркелгіден 1 адрестік кітапша қолжетімді
-            }
-       *[other]
-            { $accounts ->
-                [one] 1 тіркелгіден { $addressBooks } адрестік кітапша қолжетімді
-               *[other] { $accounts } тіркелгіден { $addressBooks } адрестік кітапша қолжетімді
-            }
-    }
 address-book-sync-existing-description = Бар болып тұрған тіркелгілерді алу…
 account-hub-select-address-book-account = Адрестік кітапшалары бар тіркелгіні таңдаңыз
 # $synced (Number) - The number of address books that are synced.

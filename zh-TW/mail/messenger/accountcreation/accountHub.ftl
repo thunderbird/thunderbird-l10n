@@ -272,15 +272,6 @@ account-hub-address-book-sync-books-data =
        *[other] 可使用 { $addressBooks } 本通訊錄
     }
 account-hub-fetching-sync-accounts = 正在尋找通訊錄與行事曆…
-# $addressBooks (Number) - The number of address books that can be synced.
-# $accounts (Number) - The number of accounts.
-account-hub-address-book-sync-option-data =
-    { $addressBooks ->
-       *[other]
-            { $accounts ->
-               *[other] 可從 { $accounts } 個帳號取得 { $addressBooks } 本通訊錄
-            }
-    }
 address-book-sync-existing-description = 正在取得現有帳號…
 account-hub-select-address-book-account = 選擇含有通訊錄的帳號
 # $synced (Number) - The number of address books that are synced.

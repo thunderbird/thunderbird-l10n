@@ -266,9 +266,6 @@ address-book-add-ldap-description = Kết nối với sổ địa chỉ LDAP t�
 # $addressBooks (Number) - The number of address books that can be synced from existing accounts.
 account-hub-address-book-sync-books-data = { $addressBooks } sổ địa chỉ có sẵn
 account-hub-fetching-sync-accounts = Đang khám phá sổ địa chỉ và lịch…
-# $addressBooks (Number) - The number of address books that can be synced.
-# $accounts (Number) - The number of accounts.
-account-hub-address-book-sync-option-data = { $addressBooks } sổ địa chỉ từ { $accounts } tài khoản có sẵn
 address-book-sync-existing-description = Đang truy xuất các tài khoản hiện có…
 account-hub-select-address-book-account = Chọn một tài khoản có sổ địa chỉ
 # $synced (Number) - The number of address books that are synced.

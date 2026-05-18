@@ -274,21 +274,6 @@ account-hub-address-book-sync-books-data =
        *[other] { $addressBooks } address books available
     }
 account-hub-fetching-sync-accounts = Discovering address books and calendars…
-# $addressBooks (Number) - The number of address books that can be synced.
-# $accounts (Number) - The number of accounts.
-account-hub-address-book-sync-option-data =
-    { $addressBooks ->
-        [one]
-            { $accounts ->
-                [one] 1 address book from 1 account available
-               *[other] 1 address book from { $accounts } accounts available
-            }
-       *[other]
-            { $accounts ->
-                [one] { $addressBooks } address books from 1 account available
-               *[other] { $addressBooks } address books from { $accounts } accounts available
-            }
-    }
 address-book-sync-existing-description = Retrieving existing accounts…
 account-hub-select-address-book-account = Select an account with Address books
 # $synced (Number) - The number of address books that are synced.

@@ -274,13 +274,6 @@ account-hub-address-book-sync-books-data =
        *[other] { $addressBooks } rubriche disponibili
     }
 account-hub-fetching-sync-accounts = Ricerca rubriche e calendari…
-# $addressBooks (Number) - The number of address books that can be synced.
-# $accounts (Number) - The number of accounts.
-account-hub-address-book-sync-option-data =
-    { $addressBooks ->
-        [one] Disponibile una rubrica da { $accounts } account
-       *[other] Disponibili { $addressBooks } rubriche da { $accounts } account
-    }
 address-book-sync-existing-description = Recupero account esistenti…
 account-hub-select-address-book-account = Seleziona un account con rubriche
 # $synced (Number) - The number of address books that are synced.

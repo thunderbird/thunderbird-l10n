@@ -274,21 +274,6 @@ account-hub-address-book-sync-books-data =
        *[other] { $addressBooks } წიგნაკია ხელმისაწვდომი
     }
 account-hub-fetching-sync-accounts = მისამართების წიგნაკებისა და კალენდრების მოძიება…
-# $addressBooks (Number) - The number of address books that can be synced.
-# $accounts (Number) - The number of accounts.
-account-hub-address-book-sync-option-data =
-    { $addressBooks ->
-        [one]
-            { $accounts ->
-                [one] 1 წიგნაკია ხელმისაწვდომი 1 ანგარიშიდან
-               *[other] 1 წიგნაკია ხელმისაწვდომი { $accounts } ანგარიშიდან
-            }
-       *[other]
-            { $accounts ->
-                [one] { $addressBooks } წიგნაკია ხელმისაწვდომი 1 ანგარიშიდან
-               *[other] { $addressBooks } წიგნაკია ხელმისაწვდომი { $accounts } ანგარიშიდან
-            }
-    }
 address-book-sync-existing-description = არსებული ანგარიშების მოპოვება…
 account-hub-select-address-book-account = აირჩიეთ ანგარიში მისამართების წიგნაკებით
 # $synced (Number) - The number of address books that are synced.

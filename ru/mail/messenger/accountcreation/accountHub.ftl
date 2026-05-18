@@ -276,29 +276,6 @@ account-hub-address-book-sync-books-data =
        *[many] Доступно { $addressBooks } адресных книг
     }
 account-hub-fetching-sync-accounts = Обнаружение адресных книг и календарей…
-# $addressBooks (Number) - The number of address books that can be synced.
-# $accounts (Number) - The number of accounts.
-account-hub-address-book-sync-option-data =
-    { $addressBooks ->
-        [one]
-            { $accounts ->
-                [one] Доступна 1 адресная книга из 1 учётной записи
-                [few] Доступна 1 адресная книга из { $accounts } учётных записей
-               *[many] Доступна 1 адресная книга из { $accounts } учётных записей
-            }
-        [few]
-            { $accounts ->
-                [one] Доступно { $addressBooks } адресных книги из 1 учётной записи
-                [few] Доступно { $addressBooks } адресных книги из { $accounts } учётных записей
-               *[many] Доступно { $addressBooks } адресных книги из { $accounts } учётных записей
-            }
-       *[many]
-            { $accounts ->
-                [one] Доступно { $addressBooks } адресных книг из 1 учётной записи
-                [few] Доступно { $addressBooks } адресных книг из { $accounts } учётных записей
-               *[many] Доступно { $addressBooks } адресных книг из { $accounts } учётных записей
-            }
-    }
 address-book-sync-existing-description = Получение существующих учётных записей…
 account-hub-select-address-book-account = Выберите учётную запись с адресными книгами
 # $synced (Number) - The number of address books that are synced.

@@ -261,21 +261,6 @@ address-book-add-ldap-icon =
 address-book-add-ldap = Novo livro de endereços LDAP
 address-book-add-ldap-description = Ligar a um livro de endereços LDAP remoto
 account-hub-fetching-sync-accounts = A descobrir livros de endereços e calendários…
-# $addressBooks (Number) - The number of address books that can be synced.
-# $accounts (Number) - The number of accounts.
-account-hub-address-book-sync-option-data =
-    { $addressBooks ->
-        [one]
-            { $accounts ->
-                [one] 1 livro de endereços disponível de 1 conta
-               *[other] 1 livro de endereços disponível de { $accounts } contas
-            }
-       *[other]
-            { $accounts ->
-                [one] { $addressBooks } livros de endereços disponíveis de 1 conta
-               *[other] { $addressBooks } livros de endereços disponíveis { $accounts } contas
-            }
-    }
 address-book-sync-existing-description = A obter contas existentes…
 account-hub-select-address-book-account = Selecione uma conta com livros de endereços
 # $synced (Number) - The number of address books that are synced.

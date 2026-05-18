@@ -274,21 +274,6 @@ account-hub-address-book-sync-books-data =
        *[other] { $addressBooks } διαθέσιμα βιβλία διευθύνσεων
     }
 account-hub-fetching-sync-accounts = Ανακάλυψη ευρετηρίων και ημερολογίων…
-# $addressBooks (Number) - The number of address books that can be synced.
-# $accounts (Number) - The number of accounts.
-account-hub-address-book-sync-option-data =
-    { $addressBooks ->
-        [one]
-            { $accounts ->
-                [one] Διατίθεται 1 ευρετήριο από 1 λογαριασμό
-               *[other] Διατίθεται 1 ευρετήριο από { $accounts } λογαριασμούς
-            }
-       *[other]
-            { $accounts ->
-                [one] Διατίθενται { $addressBooks } ευρετήρια από 1 λογαριασμό
-               *[other] Διατίθενται { $addressBooks } ευρετήρια από { $accounts } λογαριασμούς
-            }
-    }
 address-book-sync-existing-description = Ανάκτηση υπαρχόντων λογαριασμών…
 account-hub-select-address-book-account = Επιλέξτε έναν λογαριασμό με ευρετήρια
 # $synced (Number) - The number of address books that are synced.

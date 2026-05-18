@@ -255,9 +255,6 @@ address-book-add-ldap-icon =
 address-book-add-ldap = Buku Alamat LDAP Baru
 address-book-add-ldap-description = Sambungkan ke buku alamat LDAP jarak jauh
 account-hub-fetching-sync-accounts = Menemukan buku alamat dan kalender…
-# $addressBooks (Number) - The number of address books that can be synced.
-# $accounts (Number) - The number of accounts.
-account-hub-address-book-sync-option-data = { $addressBooks } buku alamat dari { $accounts } akun tersedia
 address-book-sync-existing-description = Mengambil akun yang ada…
 account-hub-select-address-book-account = Pilih akun dengan Buku alamat
 # $synced (Number) - The number of address books that are synced.

@@ -274,21 +274,6 @@ account-hub-address-book-sync-books-data =
        *[other] { $addressBooks } adresboeken beschikbaar
     }
 account-hub-fetching-sync-accounts = Adresboeken en agenda’s ontdekken…
-# $addressBooks (Number) - The number of address books that can be synced.
-# $accounts (Number) - The number of accounts.
-account-hub-address-book-sync-option-data =
-    { $addressBooks ->
-        [one]
-            { $accounts ->
-                [one] 1 adresboek van 1 account beschikbaar
-               *[other] 1 adresboek van { $accounts } accounts beschikbaar
-            }
-       *[other]
-            { $accounts ->
-                [one] { $addressBooks } adresboeken van 1 account beschikbaar
-               *[other] { $addressBooks } adresboeken van { $accounts } accounts beschikbaar
-            }
-    }
 address-book-sync-existing-description = Bestaande accounts ophalen…
 account-hub-select-address-book-account = Selecteer een account met Adresboeken
 # $synced (Number) - The number of address books that are synced.

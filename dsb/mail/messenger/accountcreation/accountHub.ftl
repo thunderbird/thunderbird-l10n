@@ -278,39 +278,6 @@ account-hub-address-book-sync-books-data =
        *[other] { $addressBooks } adresnikow k dispoziciji
     }
 account-hub-fetching-sync-accounts = Adresniki a kalendarje namakaś…
-# $addressBooks (Number) - The number of address books that can be synced.
-# $accounts (Number) - The number of accounts.
-account-hub-address-book-sync-option-data =
-    { $addressBooks ->
-        [one]
-            { $accounts ->
-                [one] { "{ $addressBooks } adresnik z { $accounts } konta k dispoziciji" }
-                [two] { "{ $addressBooks } adresnik z { $accounts } kontowu k dispoziciji" }
-                [few] { "{ $addressBooks } adresnik z { $accounts } kontow k dispoziciji" }
-               *[other] { "{ $addressBooks } adresnik z { $accounts } kontow k dispoziciji" }
-            }
-        [two]
-            { $accounts ->
-                [one] { "{ $addressBooks } adresnika z { $accounts } konta k dispoziciji" }
-                [two] { "{ $addressBooks } adresnika z { $accounts } kontowu k dispoziciji" }
-                [few] { "{ $addressBooks } adresnika z { $accounts } kontow k dispoziciji" }
-               *[other] { "{ $addressBooks } adresnika z { $accounts } kontow k dispoziciji" }
-            }
-        [few]
-            { $accounts ->
-                [one] { "{ $addressBooks } adresniki z { $accounts } konta k dispoziciji" }
-                [two] { "{ $addressBooks } adresniki z { $accounts } kontowu k dispoziciji" }
-                [few] { "{ $addressBooks } adresniki z { $accounts } kontow k dispoziciji" }
-               *[other] { "{ $addressBooks } adresniki z { $accounts } kontow k dispoziciji" }
-            }
-       *[other]
-            { $accounts ->
-                [one] { "{ $addressBooks } adresnikow z { $accounts } konta k dispoziciji" }
-                [two] { "{ $addressBooks } adresnikow z { $accounts } kontowu k dispoziciji" }
-                [few] { "{ $addressBooks } adresnikow z { $accounts } kontow k dispoziciji" }
-               *[other] { "{ $addressBooks } adresnikow z { $accounts } kontow k dispoziciji" }
-            }
-    }
 address-book-sync-existing-description = Eksistěrujuce konta se wótwołuju…
 account-hub-select-address-book-account = Wubjeŕśo konto z adresnikami
 # $synced (Number) - The number of address books that are synced.

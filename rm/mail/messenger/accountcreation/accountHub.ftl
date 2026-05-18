@@ -261,21 +261,6 @@ address-book-add-ldap-icon =
 address-book-add-ldap = Nov cudeschet d’adressas LDAP
 address-book-add-ldap-description = Connectar cun in cudeschet d’adressas LDAP lontan
 account-hub-fetching-sync-accounts = Scuvrir cudeschets d’adressas e chalenders…
-# $addressBooks (Number) - The number of address books that can be synced.
-# $accounts (Number) - The number of accounts.
-account-hub-address-book-sync-option-data =
-    { $addressBooks ->
-        [one]
-            { $accounts ->
-                [one] 1 cudeschet d’adressas disponibel da 1 conto
-               *[other] 1 cudeschet d’adressas disponibel da { $accounts } contos
-            }
-       *[other]
-            { $accounts ->
-                [one] { $addressBooks } cudeschets d’adressas disponibels dad 1 conto
-               *[other] { $addressBooks } cudeschets d’adressas disponibels da { $accounts } contos
-            }
-    }
 address-book-sync-existing-description = Recuperar ils contos existents…
 account-hub-select-address-book-account = Tscherna in conto cun cudeschets d’adressas
 # $synced (Number) - The number of address books that are synced.

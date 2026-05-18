@@ -274,21 +274,6 @@ account-hub-address-book-sync-books-data =
        *[other] { $addressBooks } libretas de direcciones disponibles
     }
 account-hub-fetching-sync-accounts = Descubrir libretas de direcciones y calendarios...
-# $addressBooks (Number) - The number of address books that can be synced.
-# $accounts (Number) - The number of accounts.
-account-hub-address-book-sync-option-data =
-    { $addressBooks ->
-        [one]
-            { $accounts ->
-                [one] 1 libreta de direcciones de 1 cuenta disponible
-               *[other] 1 libreta de direcciones de { $accounts } cuentas disponibles
-            }
-       *[other]
-            { $accounts ->
-                [one] { $addressBooks } libretas de direcciones de 1 cuenta disponible
-               *[other] { $addressBooks } libretas de direcciones de { $accounts } cuentas disponibles
-            }
-    }
 address-book-sync-existing-description = Recuperando cuentas existentes…
 account-hub-select-address-book-account = Seleccionar una cuenta con libretas de direcciones
 # $synced (Number) - The number of address books that are synced.

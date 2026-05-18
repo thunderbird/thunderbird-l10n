@@ -33,24 +33,6 @@ calendar-dialog-attendee-count =
     { $count ->
        *[other] { $count } 位參加者
     }
-# Variables:
-#   $going (Number): Number of guests that responded "attending".
-#   $maybe (Number): Number of guests that responded "maybe".
-#   $declined (Number): Number of guests that responded "declined".
-#   $pending (Number): Number of guests that response "pending".
-calendar-dialog-attendee-summary =
-    { $going ->
-       *[other]
-            { $maybe ->
-               *[other]
-                    { $declined ->
-                       *[other]
-                            { $pending ->
-                               *[other] { $going } 位參加、{ $maybe } 位可能參加、{ $declined } 位拒絕、{ $pending } 尚未決定
-                            }
-                    }
-            }
-    }
 calendar-dialog-attendee-organizer = 召集人
 calendar-dialog-attendee-optional = 非必要
 calendar-dialog-icon-attending =

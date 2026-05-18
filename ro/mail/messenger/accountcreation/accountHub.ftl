@@ -275,29 +275,6 @@ account-hub-address-book-sync-books-data =
        *[other] { $addressBooks } de agende de contacte disponibile
     }
 account-hub-fetching-sync-accounts = Se descoperă agende și calendare…
-# $addressBooks (Number) - The number of address books that can be synced.
-# $accounts (Number) - The number of accounts.
-account-hub-address-book-sync-option-data =
-    { $addressBooks ->
-        [one]
-            { $accounts ->
-                [one] 1 agendă de contacte din 1 cont disponibil
-                [few] 1 agendă de contacte din { $accounts } conturi disponibile
-               *[other] 1 agendă de contacte din { $accounts } de conturi disponibile
-            }
-        [few]
-            { $accounts ->
-                [one] { $addressBooks } agende de contacte din 1 cont disponibil
-                [few] { $addressBooks } agende de contacte din { $accounts } conturi disponibile
-               *[other] { $addressBooks } agende de contacte din { $accounts } de conturi disponibile
-            }
-       *[other]
-            { $accounts ->
-                [one] { $addressBooks } de agende de contacte din 1 cont disponibil
-                [few] { $addressBooks } de agende de contacte din { $accounts } conturi disponibile
-               *[other] { $addressBooks } de agende de contacte din { $accounts } de conturi disponibile
-            }
-    }
 address-book-sync-existing-description = Se preiau conturile existente…
 account-hub-select-address-book-account = Selectează un cont cu agende de contacte
 # $synced (Number) - The number of address books that are synced.

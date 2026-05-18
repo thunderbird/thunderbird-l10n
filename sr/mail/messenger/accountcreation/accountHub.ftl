@@ -276,21 +276,6 @@ account-hub-address-book-sync-books-data =
        *[other] { $addressBooks } доступних именика
     }
 account-hub-fetching-sync-accounts = Откривање именика и календара…
-# $addressBooks (Number) - The number of address books that can be synced.
-# $accounts (Number) - The number of accounts.
-account-hub-address-book-sync-option-data =
-    { $addressBooks ->
-        [one]
-            { $accounts ->
-                [one] Доступан је 1 именик са 1 налога
-               *[other] Доступан је 1 именик са { $accounts } налога
-            }
-       *[other]
-            { $accounts ->
-                [one] Доступно је { $addressBooks } именика са 1 налога
-               *[other] Доступно је { $addressBooks } именика са { $accounts } налога
-            }
-    }
 address-book-sync-existing-description = Преузимање постојећих налога…
 account-hub-select-address-book-account = Изаберите налог са именицима
 # $synced (Number) - The number of address books that are synced.
