@@ -9,14 +9,8 @@
 ## Always included in the page
 
 oauth-result-wordmark-alt = { -brand-full-name }
-oauth-result-footer-text = Trjebaće pomoc? Stajće so z teamom pomocy do zwiska.
+oauth-result-footer-text = Көмек керек пе? Қолдау қызметіне хабарласыңыз.
 
 ## Successful authentication
 
-oauth-success-title = Sće wšitko dočinił
-oauth-success-subtitle = Waše konto je so wěsće z { -brand-short-name } zwjazało.
-oauth-success-body = Móžeće tute wokno začinić.
-
-## Authentication error
-
-oauth-error-title = Přizjewjenje njeda so dokónčić
+oauth-success-title = Барлығы дайын
