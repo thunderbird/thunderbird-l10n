@@ -85,6 +85,7 @@ policy-RequestedLocales = Configura, in ordine di preferenza, l’elenco delle l
 policy-SanitizeOnShutdown2 = Elimina dati di navigazione alla chiusura.
 policy-SearchEngines = Configura le impostazioni relative ai motori di ricerca. Questo criterio è disponibile solo nella versione Extended Support Release (ESR).
 policy-SearchSuggestEnabled = Attiva o disattiva suggerimenti di ricerca.
+policy-SecurityDevices2 = Aggiungi o elimina moduli PKCS #11.
 # For more information, see https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
 policy-SecurityDevices = Installa moduli PKCS #11.
 policy-SSLVersionMax = Imposta la versione massima di SSL.

@@ -85,6 +85,7 @@ policy-RequestedLocales = Gosod y rhestr o locales gofynnol ar gyfer y rhaglen y
 policy-SanitizeOnShutdown2 = Clirio data llywio wrth gau.
 policy-SearchEngines = Ffurfweddu gosodiadau peiriannau chwilio. Dim ond yn y fersiwn Extended Support Release (ESR) mae'r polisi hwn ar gael.
 policy-SearchSuggestEnabled = Galluogi neu analluogi awgrymiadau chwilio.
+policy-SecurityDevices2 = Ychwanegu neu ddileu modiwlau PKCS #11.
 # For more information, see https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
 policy-SecurityDevices = Gosod modiwlau PKCS#11.
 policy-SSLVersionMax = Gosod y fersiwn SSL uchaf.

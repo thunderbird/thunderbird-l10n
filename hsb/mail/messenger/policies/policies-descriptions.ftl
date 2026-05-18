@@ -85,6 +85,7 @@ policy-RequestedLocales = Podajće lisćinu požadanych rěčow za nałoženje w
 policy-SanitizeOnShutdown2 = Nawigaciske daty při kónčenju zhašeć.
 policy-SearchEngines = Nastajenja pytawow konfigurować. Tute prawidło je jenož za wersiju Extended Support Release (ESR) k dispoziciji.
 policy-SearchSuggestEnabled = Pytanske namjety zmóžnić abo znjemóžnić.
+policy-SecurityDevices2 = Přidajće abo zhašejće module PKCS #11.
 # For more information, see https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
 policy-SecurityDevices = Module PKCS #11 instalować.
 policy-SSLVersionMax = Maksimalnu SSL-wersiju nastajić.

@@ -85,6 +85,7 @@ policy-RequestedLocales = 為應用程式設定使用的語系清單順序。
 policy-SanitizeOnShutdown2 = 關閉程式時，清除上網資料。
 policy-SearchEngines = 調整搜尋引擎設定。此原則僅對 Extended Support Release（ESR）版本有效。
 policy-SearchSuggestEnabled = 啟用或停用搜尋建議。
+policy-SecurityDevices2 = 新增或刪除 PKCS #11 模組。
 # For more information, see https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
 policy-SecurityDevices = 安裝 PKCS #11 模組。
 policy-SSLVersionMax = 設定最大 SSL 版本。
