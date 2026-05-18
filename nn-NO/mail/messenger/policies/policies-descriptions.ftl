@@ -85,6 +85,7 @@ policy-RequestedLocales = Vel rekkjefølgja av språk, som skal brukeast i progr
 policy-SanitizeOnShutdown2 = Fjern nettlesingsdata ved avslutting.
 policy-SearchEngines = Konfigurer søkjemotorinnstillingar. Denne policyen er kun tilgjengeleg for Extended Support Release (ESR).
 policy-SearchSuggestEnabled = Slå på/av søkjeforslag.
+policy-SecurityDevices2 = Legg til eller slett PKCS #11-modular.
 # For more information, see https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
 policy-SecurityDevices = Installer PKCS #11-modular.
 policy-SSLVersionMax = Still inn den maksimale SSL-versjonen.
