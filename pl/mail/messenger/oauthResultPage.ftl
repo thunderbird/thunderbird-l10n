@@ -27,4 +27,4 @@ oauth-error-subtitle = { -brand-short-name } nie mógł dokończyć logowania pr
 oauth-error-body =
     Wróć do programu { -brand-short-name }, sprawdź ustawienia konfiguracji konta i spróbuj ponownie.
     
-    Jeśli problem będzie się powtarzał, zapoznaj się z artykułem { $linkStart }Rozwiązywanie problemów z logowaniem do konta{ $linkEnd }, aby uzyskać pomoc.
+    Jeśli problem będzie się powtarzał, zapoznaj się z artykułem „{ $linkStart }Rozwiązywanie problemów z logowaniem do konta{ $linkEnd }”, aby uzyskać pomoc.
