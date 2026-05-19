@@ -85,6 +85,7 @@ policy-RequestedLocales = Uygulamada kullanılması istenen dilleri tercih sıra
 policy-SanitizeOnShutdown2 = Kapatırken gezinti verilerini temizle.
 policy-SearchEngines = Arama motoru ayarlarını yapılandır. Bu ilke yalnızca Extended Support Release (ESR) sürümünde geçerlidir.
 policy-SearchSuggestEnabled = Arama önerilerini etkinleştir veya devre dışı bırak.
+policy-SecurityDevices2 = PKCS #11 modülü ekle veya sil.
 # For more information, see https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
 policy-SecurityDevices = PKCS #11 modüllerini yükle.
 policy-SSLVersionMax = Maksimum SSL sürümünü ayarla.
