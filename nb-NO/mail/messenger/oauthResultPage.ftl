@@ -20,3 +20,4 @@ oauth-success-body = Du kan lukke dette vinduet.
 ## Authentication error
 
 oauth-error-title = Innloggingen kunne ikke fullføres
+oauth-error-subtitle = { -brand-short-name } klarte ikke å fullføre innloggingen med disse innstillingene.
