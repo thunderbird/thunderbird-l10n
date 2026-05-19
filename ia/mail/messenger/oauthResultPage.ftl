@@ -9,3 +9,9 @@
 ## Always included in the page
 
 oauth-result-wordmark-alt = { -brand-full-name }
+oauth-result-footer-text = Besonia tu de adjuta? Contacta assistentia.
+
+## Successful authentication
+
+oauth-success-title = Tu ha preparate toto
+oauth-success-body = Tu pote clauder iste fenestra.
