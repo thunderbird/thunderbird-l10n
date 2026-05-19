@@ -13,6 +13,8 @@ oauth-result-footer-text = Χρειάζεστε βοήθεια; Επικοινω
 
 ## Successful authentication
 
+oauth-success-title = Όλα έτοιμα
+oauth-success-subtitle = Ο λογαριασμός σας έχει συνδεθεί με ασφάλεια στο { -brand-short-name }.
 oauth-success-body = Μπορείτε να κλείσετε αυτό το παράθυρο.
 
 ## Authentication error
