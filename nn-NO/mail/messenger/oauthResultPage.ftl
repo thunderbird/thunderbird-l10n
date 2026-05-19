@@ -9,7 +9,15 @@
 ## Always included in the page
 
 oauth-result-wordmark-alt = { -brand-full-name }
+oauth-result-footer-text = Treng du hjelp? Kontakt kundestøtte.
 
 ## Successful authentication
 
+oauth-success-title = Du er klar
+oauth-success-subtitle = Kontoen din er no trygt tilkopla { -brand-short-name }.
 oauth-success-body = Du kan late att dette vindauget.
+
+## Authentication error
+
+oauth-error-title = Klarte ikkje å fullføre innlogginga
+oauth-error-subtitle = { -brand-short-name } klarte ikkje å fullføre innlogginga med desse innstillingane.
