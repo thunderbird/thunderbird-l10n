@@ -85,6 +85,7 @@ policy-RequestedLocales = Настраивает список запрашива
 policy-SanitizeOnShutdown2 = Удаляет данные веб-сёрфинга при закрытии клиента.
 policy-SearchEngines = Настраивает параметры поисковой системы. Эта политика доступна только в версии длительной поддержки (ESR).
 policy-SearchSuggestEnabled = Включает или отключает поисковые предложения.
+policy-SecurityDevices2 = Добавляет или удаляет модули PKCS #11.
 # For more information, see https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
 policy-SecurityDevices = Устанавливает модули PKCS #11.
 policy-SSLVersionMax = Устанавливает максимальную версию SSL.
