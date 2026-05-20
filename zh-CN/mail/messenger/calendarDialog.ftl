@@ -31,6 +31,7 @@ calendar-dialog-attendees-row-icon =
 #   $count (Number): Number of guests.
 calendar-dialog-attendee-count = { $count } 位来宾
 calendar-dialog-attendee-organizer = 组织者
+calendar-dialog-attendee-optional = 可选
 calendar-dialog-icon-attending =
     .alt = 参加
 calendar-dialog-icon-declined =
@@ -88,3 +89,12 @@ calendar-dialog-attachments-summary-label = { $count } 个附件
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going = { $count } 位参加
+# Variables:
+#   $count (Number): Number of guests that responded "maybe".
+calendar-dialog-attendee-summary-maybe = { $count } 位暂定
+# Variables:
+#   $count (Number): Number of guests that responded "declined".
+calendar-dialog-attendee-summary-declined = { $count } 位拒绝
+# Variables:
+#   $count (Number): Number of guests whose response is pending (didn't reply yet).
+calendar-dialog-attendee-summary-pending = { $count } 位待定
