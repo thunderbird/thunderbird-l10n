@@ -85,6 +85,7 @@ policy-RequestedLocales = De list fan frege locales foar de tapassing ynstelle, 
 policy-SanitizeOnShutdown2 = Navigaasjegegevens wiskje by ôfsluten.
 policy-SearchEngines = Ynstellingen foar sykmasinen konfigurearje. Dizze beliedsrigel is allinnich beskikber yn de Extended Support Release (ESR)-ferzje.
 policy-SearchSuggestEnabled = Syksuggestjes ynskeakelje of útskeakelje.
+policy-SecurityDevices2 = PKCS #11-modules tafoegje of fuortsmite.
 # For more information, see https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
 policy-SecurityDevices = PKCS #11-modules ynstallearje.
 policy-SSLVersionMax = De maksimale SSL-ferzje ynstelle.
