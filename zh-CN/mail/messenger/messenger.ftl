@@ -237,6 +237,10 @@ menu-move-copy-recent-destinations =
 menu-move-copy-favorites =
     .label = 我的收藏
     .accesskey = F
+menu-move-copy-no-recent =
+    .label = （暂无近期去向）
+menu-move-copy-no-favorites =
+    .label = （暂无收藏）
 
 ## AppMenu
 
@@ -668,3 +672,8 @@ allow-remote-content-resource =
 #    $count - the number of origins to allow
 remote-content-option-allow-all =
     .label = 允许上方列出的 { $count } 个来源的远程内容
+
+## OAuth2 loopback listener response page.
+
+oauth2-loopback-success = 您可以关闭此窗口。
+oauth2-loopback-failure = OAuth 重定向失败。

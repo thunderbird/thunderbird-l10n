@@ -5,7 +5,7 @@
 # Variables:
 #   $m - the number M in "M of N" items
 #   $n - the number N in "M of N" items
-items-m-of-n = 第 { $m } / { $n } 项
+items-m-of-n = { $m } / { $n } 项
 # Variables:
 #   $count - the number items
 facets-mode-to-list-all-label = 列出全部 { $count } 项
@@ -13,3 +13,7 @@ facets-mode-to-list-all-label = 列出全部 { $count } 项
 # Variables:
 #   $count - the number items
 facet-view-and-others = 其他 { $count } 项
+# Variables:
+#   $m - the number M in "M of N" items
+#   $n - the number N in "M of N" items
+item-count-m-of-n = { $m } / { $n } 项
