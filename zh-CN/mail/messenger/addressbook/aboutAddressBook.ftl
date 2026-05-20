@@ -16,6 +16,8 @@ about-addressbook-toolbar-add-ldap-address-book =
     .label = 添加 LDAP 通讯录
 books-pane-create-contact-button = 新建联系人
     .title = 新建联系人
+books-pane-add-book-button =
+    .title = 添加通讯录
 books-pane-create-book-button =
     .title = 新建通讯录
 books-pane-create-list-button =
@@ -61,6 +63,8 @@ about-addressbook-confirm-remove-remote-book-title = 移除通讯录
 # Variables:
 # $name (String) - Name of the remote address book to be removed.
 about-addressbook-confirm-remove-remote-book = 您确定要删除 { $name } 吗？
+address-book-list =
+    .aria-label = 通讯录列表
 
 ## Cards
 

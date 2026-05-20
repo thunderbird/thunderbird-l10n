@@ -51,6 +51,14 @@ appmenu-new-newsgroup =
     .label = 新闻组
     .accesskey = N
 
+## Add Account
+
+appmenu-add-account-panel-title =
+    .title = 添加账户
+appmenu-add-account-panel =
+    .label = 添加账户
+    .accesskey = N
+
 ## New Account / Address Book
 
 appmenu-newab-panel-title =
@@ -67,6 +75,11 @@ appmenu-new-carddav =
 appmenu-new-ldap =
     .label = LDAP 通讯录
     .accesskey = L
+appmenu-add-address-book-panel-title =
+    .title = 添加通讯录
+appmenu-add-address-book =
+    .label = 通讯录
+    .accesskey = A
 
 ## Create
 
