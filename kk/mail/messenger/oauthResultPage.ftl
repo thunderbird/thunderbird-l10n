@@ -14,3 +14,17 @@ oauth-result-footer-text = Көмек керек пе? Қолдау қызмет
 ## Successful authentication
 
 oauth-success-title = Барлығы дайын
+oauth-success-subtitle = Сіздің тіркелгіңіз { -brand-short-name } ішіне қауіпсіз түрде қосылды.
+oauth-success-body = Бұл терезені жаба аласыз.
+
+## Authentication error
+
+oauth-error-title = Кіруді аяқтау мүмкін емес
+oauth-error-subtitle = { -brand-short-name } осы баптаулармен кіруді аяқтай алмады.
+# New lines in the string will be converted into new lines in the output.
+# $linkStart (String) - Link prefix. Has to always be before $linkEnd. Has no visible content.
+# $linkEnd (String) - Link suffix. Has to always be after $linkStart. Has no visible content.
+oauth-error-body =
+    { -brand-short-name } ішіне оралып, тіркелгіңіздің конфигурация параметрлерін қарап шығыңыз және қайталап көріңіз.
+    
+    Егер мәселе шешілмесе, көмек алу үшін { $linkStart }Тіркелгіге кіру мәселелерін шешу{ $linkEnd } бөлімін қараңыз.
