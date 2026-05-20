@@ -151,6 +151,7 @@ toolbar-throbber =
 toolbar-create-contact-label = 新联系人
 toolbar-create-contact =
     .title = 新建联系人
+toolbar-add-address-book-label = 添加通讯录
 toolbar-create-address-book-label = 新通讯录
 toolbar-create-address-book =
     .title = 新建通讯录
