@@ -24,4 +24,7 @@ oauth-error-subtitle = { -brand-short-name } no pudo terminar de iniciar sesión
 # New lines in the string will be converted into new lines in the output.
 # $linkStart (String) - Link prefix. Has to always be before $linkEnd. Has no visible content.
 # $linkEnd (String) - Link suffix. Has to always be after $linkStart. Has no visible content.
-oauth-error-body = Vuelva a { -brand-short-name }, revise los ajustes de configuración de su cuenta e intente nuevamente.  Si el problema continúa, vea { $linkStart }Solucionar problemas de inicio de sesión en la cuenta{ $linkEnd } para obtener ayuda.
+oauth-error-body =
+    Vuelva a { -brand-short-name }, revise los ajustes de configuración de su cuenta e intente nuevamente.
+    
+    Si el problema continúa, vea { $linkStart }Solucionar problemas de inicio de sesión en la cuenta{ $linkEnd } para obtener ayuda.
