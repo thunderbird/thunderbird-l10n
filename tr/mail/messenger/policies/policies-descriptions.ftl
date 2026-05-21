@@ -12,7 +12,7 @@
 
 policy-3rdparty = WebExtension’ların chrome.storage.managed aracılığıyla ulaşabileceği ilkeleri ayarla.
 policy-AppAutoUpdate = Otomatik uygulama güncellemesini aç veya kapat.
-policy-AppUpdatePin = { -brand-short-name } yazılımının belirtilen sürümün üzerine güncellenmesini engelle.
+policy-AppUpdatePin = { -brand-short-name } uygulamasının belirtilen sürümün üzerine güncellenmesini engelle.
 policy-AppUpdateURL = Özel uygulama güncelleme URL’sini ayarla.
 policy-Authentication = Destekleyen web siteleri için bütünleşik kimlik doğrulamasını yapılandır.
 policy-BackgroundAppUpdate2 = Arka plan güncelleyicisini aç veya kapat.
@@ -70,7 +70,7 @@ policy-LocalFileLinks = Belirli web sitelerinin yerel dosyalara bağlantı verme
 policy-ManualAppUpdateOnly = Yalnızca elle güncellemeye izin ver ve kullanıcıyı güncellemeler hakkında bilgilendirme.
 policy-NetworkPrediction = Ağ tahminini (DNS prefetching) aç veya kapat.
 policy-OfferToSaveLogins = { -brand-short-name } uygulamasının kullanıcı adı ve parolaları kaydetmeyi önermesini ayarla. true veya false olarak ayarlanabilir.
-policy-OfferToSaveLoginsDefault = { -brand-short-name } yazılımının kullanıcı adı ve parolaları kaydetmeyi önermesi için varsayılan değeri ayarla. true veya false olarak ayarlanabilir.
+policy-OfferToSaveLoginsDefault = { -brand-short-name } uygulamasının kullanıcı adı ve parolaları kaydetmeyi önermesi için varsayılan değeri ayarla. true veya false olarak ayarlanabilir.
 policy-OverrideFirstRunPage = İlk açılış sayfasını değiştir. İlk açılış sayfasını devre dışı bırakmak istiyorsanız bu ilkeyi boş olarak ayarlayın.
 policy-OverridePostUpdatePage = Güncelleme sonrası “Yenilikler” sayfasını değiştir. Güncelleme sonrası sayfasını devre dışı bırakmak istiyorsanız bu ilkeyi boş olarak ayarlayabilirsiniz.
 policy-PasswordManagerEnabled = Parolaları parola yöneticisine kaydetmeyi etkinleştir.

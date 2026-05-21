@@ -404,6 +404,9 @@ key-does-not-expire = Anahtarın süresi dolmasın
 key-expired-date = Anahtarın süresi { $keyExpiry } tarihinde doldu
 key-expired-simple = Anahtarın süresi doldu
 key-revoked-simple = Anahtar iptal edildi
+# Variables:
+# $reason (String) - Key owner entered reason for revocation.
+key-revoked-revocation-reason = Anahtar sahibi tarafından belirtilen iptal nedeni: { $reason }
 key-do-you-accept = Dijital imzaları doğrulamak ve iletileri şifrelemek için bu anahtarı kabul ediyor musunuz?
 # Variables:
 # $addr (String) - Email address the key claims it belongs to.
