@@ -20,3 +20,4 @@ oauth-success-body = Μπορείτε να κλείσετε αυτό το παρ
 ## Authentication error
 
 oauth-error-title = Δεν ήταν δυνατή η ολοκλήρωση της σύνδεσης
+oauth-error-subtitle = Το { -brand-short-name } δεν μπόρεσε να ολοκληρώσει τη σύνδεση με αυτές τις ρυθμίσεις.
