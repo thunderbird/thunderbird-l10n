@@ -21,3 +21,10 @@ oauth-success-body = Μπορείτε να κλείσετε αυτό το παρ
 
 oauth-error-title = Δεν ήταν δυνατή η ολοκλήρωση της σύνδεσης
 oauth-error-subtitle = Το { -brand-short-name } δεν μπόρεσε να ολοκληρώσει τη σύνδεση με αυτές τις ρυθμίσεις.
+# New lines in the string will be converted into new lines in the output.
+# $linkStart (String) - Link prefix. Has to always be before $linkEnd. Has no visible content.
+# $linkEnd (String) - Link suffix. Has to always be after $linkStart. Has no visible content.
+oauth-error-body =
+    Επιστρέψτε στο { -brand-short-name }, ελέγξτε τις ρυθμίσεις του λογαριασμού σας και δοκιμάστε ξανά.
+    
+    Εάν το πρόβλημα παραμένει, δείτε το { $linkStart }Επίλυση προβλημάτων με τη σύνδεση σε λογαριασμούς{ $linkEnd } για βοήθεια.
