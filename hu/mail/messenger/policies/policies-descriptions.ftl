@@ -85,6 +85,7 @@ policy-RequestedLocales = A kért területi beállítások megadása az alkalmaz
 policy-SanitizeOnShutdown2 = Navigációs adatok törlése leállításkor.
 policy-SearchEngines = Keresőszolgáltatások beállításainak konfigurálása. Ez a házirend csak a kibővített támogatású kiadásban (ESR) érhető el.
 policy-SearchSuggestEnabled = A keresési javaslatok engedélyezése vagy letiltása.
+policy-SecurityDevices2 = PKCS #11 modulok hozzáadása vagy törlése.
 # For more information, see https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
 policy-SecurityDevices = PKCS #11 modulok telepítése.
 policy-SSLVersionMax = A maximális SSL-verzió megadása.
