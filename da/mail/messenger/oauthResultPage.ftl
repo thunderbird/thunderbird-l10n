@@ -9,3 +9,22 @@
 ## Always included in the page
 
 oauth-result-wordmark-alt = { -brand-full-name }
+oauth-result-footer-text = Brug for hjælp? Kontakt vores support.
+
+## Successful authentication
+
+oauth-success-title = Så er du klar
+oauth-success-subtitle = Din konto er blevet forbundet sikkert til { -brand-short-name }.
+oauth-success-body = Du kan lukke dette vindue.
+
+## Authentication error
+
+oauth-error-title = Kunne ikke gennemføre login.
+oauth-error-subtitle = { -brand-short-name } kunne ikke gennemføre login med disse indstillinger.
+# New lines in the string will be converted into new lines in the output.
+# $linkStart (String) - Link prefix. Has to always be before $linkEnd. Has no visible content.
+# $linkEnd (String) - Link suffix. Has to always be after $linkStart. Has no visible content.
+oauth-error-body =
+    Åbn { -brand-short-name }, gennemse kontoindstillingerne og forsøg igen.
+    
+    Hvis problemet ikke løses, kan du finde hjælp under { $linkStart }Fejlfinding af kontologin{ $linkEnd }.
