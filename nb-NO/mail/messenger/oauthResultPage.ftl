@@ -21,3 +21,10 @@ oauth-success-body = Du kan lukke dette vinduet.
 
 oauth-error-title = Innloggingen kunne ikke fullføres
 oauth-error-subtitle = { -brand-short-name } klarte ikke å fullføre innloggingen med disse innstillingene.
+# New lines in the string will be converted into new lines in the output.
+# $linkStart (String) - Link prefix. Has to always be before $linkEnd. Has no visible content.
+# $linkEnd (String) - Link suffix. Has to always be after $linkStart. Has no visible content.
+oauth-error-body =
+    Gå tilbake til { -brand-short-name }, se gjennom konfigurasjonsinnstillingene for kontoen din og prøv igjen.
+    
+    Hvis problemet vedvarer, kan du se { $linkStart }Feilsøk kontoinnlogging{ $linkEnd } for hjelp.
