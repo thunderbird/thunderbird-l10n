@@ -20,6 +20,10 @@ ask-save-title-event = Simpan Acara
 ask-save-title-task = Simpan Tugas
 ask-save-message-event = Acara belum disimpan. Apakah akan disimpan?
 ask-save-message-task = Tugas belum disimpan. Apakah akan disimpan?
+# All day checkbox label, used both for events and tasks
+calendar-item-all-day =
+    .label = Seharian
+    .accesskey = h
 # Event Dialog Warnings
 warning-end-before-start = Tanggal akhir yang dimasukkan terjadi sebelum tanggal awal
 warning-until-date-before-start = Tanggal sampai terjadi sebelum tanggal mulai

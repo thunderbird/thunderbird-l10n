@@ -5,6 +5,9 @@
 new-account-label = Akun Baru
 # Instant messaging account status window for Thunderbird
 accounts-window-title = Status perpesanan instan
+account-manager-add-account =
+    .label = { add-account-label }
+    .accesskey = A
 account-manager-new-account =
     .label = { new-account-label }
     .accesskey = A
