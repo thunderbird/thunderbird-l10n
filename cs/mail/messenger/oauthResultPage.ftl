@@ -10,3 +10,8 @@
 
 oauth-result-wordmark-alt = { -brand-full-name }
 oauth-result-footer-text = Potřebujete pomoc? Kontaktujte podporu.
+
+## Successful authentication
+
+oauth-success-title = Hotovo
+oauth-success-body = Toto okno můžete zavřít.
