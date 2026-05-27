@@ -404,6 +404,9 @@ key-does-not-expire = Anahtarın süresi dolmasın
 key-expired-date = Anahtarın süresi { $keyExpiry } tarihinde doldu
 key-expired-simple = Anahtarın süresi doldu
 key-revoked-simple = Anahtar iptal edildi
+key-revoked-revocation-code-superseded = Yerine yenisi geldiği için bu anahtar iptal edildi.
+key-revoked-revocation-code-compromised = Anahtar verilerinin ele geçirilmesi nedeniyle bu anahtar iptal edildi.
+key-revoked-revocation-code-retired = Bu anahtar kullanımdan kaldırıldığı ve artık kullanılmadığı için iptal edildi.
 # Variables:
 # $reason (String) - Key owner entered reason for revocation.
 key-revoked-revocation-reason = Anahtar sahibi tarafından belirtilen iptal nedeni: { $reason }
