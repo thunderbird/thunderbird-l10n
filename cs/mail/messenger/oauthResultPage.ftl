@@ -14,4 +14,14 @@ oauth-result-footer-text = Potřebujete pomoc? Kontaktujte podporu.
 ## Successful authentication
 
 oauth-success-title = Hotovo
+oauth-success-subtitle =
+    { -brand-short-name.case-status ->
+        [with-cases] Váš účet byl bezpečně propojen s { -brand-short-name(case: "ins") }.
+       *[no-cases] Váš účet byl bezpečně propojen s aplikací { -brand-short-name }.
+    }
 oauth-success-body = Toto okno můžete zavřít.
+
+## Authentication error
+
+oauth-error-title = Přihlášení se nepodařilo dokončit
+oauth-error-subtitle = { -brand-short-name } nemohl dokončit přihlášení s tímto nastavením.
