@@ -2,9 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-list-calendar-context-reload-menuitem =
-    .label = زامِن
-    .accesskey = ز
-calendar-item-context-menu-modify-menuitem =
-    .label = حرّر
-    .accesskey = ح
+calendar-print-range-to = إلى
+calendar-print-back-button = السابق
+calendar-print-next-button = التالي

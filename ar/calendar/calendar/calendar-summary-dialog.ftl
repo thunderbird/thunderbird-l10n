@@ -13,3 +13,5 @@ edit-button-context-menu-this-occurrence =
 edit-button-context-menu-all-occurrences =
     .label = حرّر كل التكرارات
     .accesskey = ك
+description-context-menu-copy-link-text =
+    .label = انسخ نصِّ الرابط

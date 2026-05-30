@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 calendar-recurrence-preview-label = معاينة
+calendar-recurrence-next = الشهر القادم
+calendar-recurrence-previous = الشهر الماضي
+calendar-recurrence-today = اليوم
 # Recurrence Dialog Widget Order
 # LOCALIZATION NOTE (monthly-order): Don't translate, Make sure there are no extra
 # words in this property, just variables. You can change the order of below params
