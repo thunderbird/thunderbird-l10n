@@ -16,3 +16,15 @@ oauth-result-footer-text = Þarftu hjálp? Hafðu samband við aðstoðarteymið
 oauth-success-title = Nú er allt tilbúið
 oauth-success-subtitle = Reikningurinn þinn hefur verið tengdur á öruggan hátt við { -brand-short-name }.
 oauth-success-body = Þú getur lokað þessum glugga.
+
+## Authentication error
+
+oauth-error-title = Ekki tókst að ljúka innskráningu
+oauth-error-subtitle = { -brand-short-name } gat ekki lokið innskráningu með þessum stillingum.
+# New lines in the string will be converted into new lines in the output.
+# $linkStart (String) - Link prefix. Has to always be before $linkEnd. Has no visible content.
+# $linkEnd (String) - Link suffix. Has to always be after $linkStart. Has no visible content.
+oauth-error-body =
+    Farðu aftur í { -brand-short-name }, yfirfarðu stillingar reikningsins og reyndu aftur.
+    
+    Ef vandamálið er viðvarandi skaltu skoða { $linkStart }Úrræðaleit við innskráningu á reikning{ $linkEnd } til að leysa málið.
