@@ -96,7 +96,7 @@ paste-items-only = Vkládáte schůzky a přidělené úkoly
 # LOCALIZATION NOTE (paste-notify-about): Text displayed if pasting an invitation
 # or assigned task
 # $pasteItem - pasteEvent* or pasteTask*
-paste-notify-about = { $pasteItem }. Chcete poslat informaci o změně každému, kde je zapojen?
+paste-notify-about = { $pasteItem }. Chcete poslat informaci o změně každému, kdo je zapojen?
 # LOCALIZATION NOTE (paste-and-notify-label): button label used in calendar prompt
 # of the pasted item has attendees
 paste-and-notify-label = Vložit a poslat
@@ -126,15 +126,15 @@ timezone-error = Při čtení kalendáře { $filePath } bylo nalezeno neznámé 
 #    $filePath will be replaced with a file path pointing to a calendar
 duplicate-error =
     { $count ->
-        [one] Jedna položka byly ignorována, protože existuje v cílovém kalendáři i v { $filePath }.
-        [few] { $count } položek bylo ignorováno, protože existují v cílovém kalendáři i v { $filePath }.
+        [one] Jedna položka byla ignorována, protože existuje v cílovém kalendáři i v { $filePath }.
+        [few] { $count } položky byly ignorovány, protože existují v cílovém kalendáři i v { $filePath }.
        *[other] { $count } položek bylo ignorováno, protože existují v cílovém kalendáři i v { $filePath }.
     }
 # $location unknown calendar location
 unable-to-create-provider = Při zpracování kalendáře umístěného na { $location } došlo k chybě. Kalendář bude proto nedostupný.
 # Sample: Unknown timezone "USPacific" in "Dentist Appt".  Using the 'floating' local timezone instead: 2008/02/28 14:00:00
 # $timezone timezone name, $title item title, $datetime date-time
-unknown-timezone-in-item = Neznámé časové pásmo „{ $timezone }“ v „{ $title }“. Zpracováno jako plovoucí časové písmo: { $datetime }
+unknown-timezone-in-item = Neznámé časové pásmo „{ $timezone }“ v „{ $title }“. Zpracováno jako plovoucí časové pásmo: { $datetime }
 timezone-errors-alert-title = Chybné časové pásmo
 timezone-errors-see-console = Neznámé časové pásmo je zpracováno jako plovoucí místní časové pásmo. Více v chybové konzoli.
 # The following strings are for the prompt to delete/unsubscribe from the calendar
@@ -239,7 +239,7 @@ proceed-modify =
 proceed-delete =
     .label = Smazat
 # $name calendar name
-dav-not-dav = Zdroj na { $name } není buďto DAV kolekce nebo je nedostupný
+dav-not-dav = Zdroj na { $name } není buď DAV kolekce nebo je nedostupný
 # $name calendar name
 dav-dav-not-cal-dav = Zdroj na { $name } je sice DAV kolekce, ale není CalDAV kalendář
 item-put-error = Při ukládání položky na server došlo k chybě.
@@ -353,13 +353,13 @@ tz-seems-to-matchos = Nastavená časová zóna se tento rok shoduje s časovou 
 #    $timezone will be replaced with the name of a timezone
 tz-fromos =
     Časová zóna aplikace byla nastavena na základě identifikátoru „{ $timezone }“
-    časové zóny operačního sytému.
+    časové zóny operačního systému.
 # Localization note (tz-from-locale): Substitute name of your locale language.
 tz-from-locale =
-    Časová zóna aplikace byla nastavena na základě souhlasu časové zóny operačního sytému
+    Časová zóna aplikace byla nastavena na základě souhlasu časové zóny operačního systému
     a časové zóny pro české uživatele.
 tz-from-known-timezones =
-    Časová zóna aplikace byla nastavena na základě souhlasu časové zóny operačního sytému
+    Časová zóna aplikace byla nastavena na základě souhlasu časové zóny operačního systému
     a známých časových zón v abecedním pořadí dle jejich id.
 # Print Layout
 tasks-with-no-due-date = Úkoly bez termínu

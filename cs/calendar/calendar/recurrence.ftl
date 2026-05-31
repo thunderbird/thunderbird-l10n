@@ -12,7 +12,7 @@ recurrence-daily-every-nth =
         [few] každé { $interval } dny
        *[other] každých { $interval } dnů
     }
-recurrence-every-weekday = každý víkend
+recurrence-every-weekday = každý pracovní den
 # Variables:
 #   $interval is a number, the recurrence interval
 #   $weekdays is a list of weekday names
