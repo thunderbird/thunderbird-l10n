@@ -11,3 +11,5 @@ atn-addons-heading-search-input =
 atn-addons-heading-search-button =
     .title = 搜索 addons.thunderbird.net
     .aria-label = 搜索 addons.thunderbird.net
+details-notification-suppressed-esr =
+    .message = 该附加组件使用了实验 API，因此已被禁用。这些 API 仅限 { -brand-product-name } ESR 使用，此版本 { -brand-product-name } 不支持。

@@ -18,6 +18,7 @@ account-manager-close-command =
     .key = a
 # This title must be short, displayed with a big font size
 account-manager-no-account-title = 还没有配置账号
+account-manager-no-accounts-description = 点击 { add-account-label } 按钮，让 { -brand-short-name } 引导您完成配置。
 account-manager-no-account-description = 点击 { new-account-label } 按钮让 { -brand-short-name } 指导您的配置过程。
 account-auto-sign-on =
     .label = 启动时登录
