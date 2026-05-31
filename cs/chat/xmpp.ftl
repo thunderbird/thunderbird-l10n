@@ -143,7 +143,7 @@ conversation-muc-invitation-without-reason-password = Uživatel { $inviter } vá
 # LOCALIZATION NOTE (conversation-message-join):
 #   This is displayed as a system message when a participant joins room.
 #   $participant is the nick of the participant.
-conversation-message-join = Uživatel { $participant } vstoupil do místnsti.
+conversation-message-join = Uživatel { $participant } vstoupil do místnosti.
 # LOCALIZATION NOTE (conversation-message-rejoined):
 #   This is displayed as a system message when a participant rejoins room after
 #   parting it.
@@ -225,7 +225,7 @@ conversation-message-removed-non-member-you-actor = Byli jste odebráni z místn
 # LOCALIZATION NOTE (conversation.message-muc-shutdown):
 #   These are displayed as a system message when a participant is removed from
 #   a room because of a system shutdown.
-conversation-message-muc-shutdown = Byli jste odebrání z místnosti, protože dojde k vypnutí systému.
+conversation-message-muc-shutdown = Byli jste odebraní z místnosti, protože dojde k vypnutí systému.
 # LOCALIZATION NOTE (conversation-message-version*):
 #   $user (String): is the name of the user whose version was requested.
 #   $clientName (String): is the client name response from the client.

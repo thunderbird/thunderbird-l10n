@@ -18,5 +18,5 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY showToday.tooltip "Přejde na dnešní den">
 <!ENTITY onedayforward.tooltip "Přejde na následující den">
-<!ENTITY onedaybackward.tooltip "Přejde na následující den">
+<!ENTITY onedaybackward.tooltip "Přejde na předchozí den">
 <!ENTITY showselectedday.tooltip "Zobrazí události pro zvolený den">

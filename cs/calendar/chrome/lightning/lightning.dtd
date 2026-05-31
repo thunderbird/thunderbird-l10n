@@ -54,7 +54,7 @@
 <!ENTITY lightning.imipbar.btnDeclineRecurrences.label "Odmítnout vše">
 <!ENTITY lightning.imipbar.btnDeclineRecurrences2.tooltiptext "Odmítne pozvání na všechna opakování události">
 <!ENTITY lightning.imipbar.btnDeclineCounter.label "Odmítnout">
-<!ENTITY lightning.imipbar.btnDeclineCounter.tooltiptext "Odmítnou protinávrh">
+<!ENTITY lightning.imipbar.btnDeclineCounter.tooltiptext "Odmítne protinávrh">
 <!ENTITY lightning.imipbar.btnDelete.label "Smazat">
 <!ENTITY lightning.imipbar.btnDelete.tooltiptext "Smaže z kalendáře">
 <!ENTITY lightning.imipbar.btnDetails.label "Podrobnosti…">

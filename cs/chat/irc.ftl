@@ -163,9 +163,9 @@ message-ban-masks = Uživatelé připojení z následujících adres mají zaká
 #    $place This will be followed by a list of ban masks.
 message-no-ban-masks = Ke kanálu { $place } neexistují žádné zakázané adresy.
 # $locationMatches Location matches; $nick Nickname of user
-message-ban-mask-added = Uživatelé připojeni z adres odpovídajících { $locationMatches } mají zakázán přístup ke kanálu { $nick }.
+message-ban-mask-added = Uživatelé připojení z adres odpovídajících { $locationMatches } mají zakázán přístup ke kanálu { $nick }.
 # $locationMatches Location matches; $nick Nickname of user
-message-ban-mask-removed = Uživatelé připojeni z adres odpovídajících { $locationMatches } již nemají zakázán přístup ke kanálu { $nick }.
+message-ban-mask-removed = Uživatelé připojení z adres odpovídajících { $locationMatches } již nemají zakázán přístup ke kanálu { $nick }.
 # $source is the nickname of the user or the server that was pinged.
 # $delay is the delay (in milliseconds).
 message-ping =
@@ -179,7 +179,7 @@ message-ping =
 # $name is the channel name.
 error-no-channel = Kanál „{ $name }“ neexistuje.
 #    $name is the channel name.
-error-too-many-channels = Nelze se připojit k { $name }; jste připojen v příliš mnoho kanálech.
+error-too-many-channels = Nelze se připojit k { $name }; jste připojen v příliš mnoha kanálech.
 #    $name is your new nick, $details is the kill message from the server.
 error-nick-collision = Přezdívka je používána, přezdívka změněna na { $name } [{ $details }].
 #    $name is the nickname or channel name that isn't available.

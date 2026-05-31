@@ -24,7 +24,7 @@ options-encryption-secret-storage = Tajné úložiště: { $status }
 # $status (String) a status
 options-encryption-key-backup = Záloha šifrovacího klíče: { $status }
 # $status (String) a status
-options-encryption-cross-signing = Křízový podpis: { $status }
+options-encryption-cross-signing = Křížový podpis: { $status }
 options-encryption-status-ok = ok
 options-encryption-status-not-ok = není připraveno
 options-encryption-need-backup-passphrase = Zadejte prosím v nastavení protokolu heslo pro zálohu svého bezpečnostního klíče.
@@ -140,7 +140,7 @@ command-kick = { $commandName } &lt;userId&gt; [&lt;důvod&gt;]: Vykopne uživat
 # $commandName is the command name
 command-nick = { $commandName } &lt;display_name&gt;: Změní vaše uživatelské jméno na display_name.
 # $commandName is the command name
-command-op = { $commandName }&lt;userId&gt; [&lt;úroveň oprávnění&gt;]: Definuje úroveň oprávnění uživatele. Zadejte celočíselnou hodnotu, Uživatel: 0, Moderátor: 50 a Správce: 100. Pokud není uvedena žádné hodnota, výchozí hodnota je 50. Vyžaduje oprávnění na změnu úrovní oprávnění uživatele. Nefunguje pro jiné správce kromě vás.
+command-op = { $commandName }&lt;userId&gt; [&lt;úroveň oprávnění&gt;]: Definuje úroveň oprávnění uživatele. Zadejte celočíselnou hodnotu, Uživatel: 0, Moderátor: 50 a Správce: 100. Pokud není uvedena žádná hodnota, výchozí hodnota je 50. Vyžaduje oprávnění na změnu úrovní oprávnění uživatele. Nefunguje pro jiné správce kromě vás.
 # $commandName is the command name
 command-deop = { $commandName }&lt;userId&gt;: Obnoví oprávnění uživatele na úroveň 0 (Uživatel). Vyžaduje oprávnění na změnu úrovní oprávnění uživatele. Nefunguje pro jiné správce kromě vás.
 # $commandName is the command name
@@ -239,11 +239,11 @@ message-guest-prevented = Uživatel { $user } zablokoval vstup hostů do této m
 #    $user is the name of the user who has made future room history visible to anyone.
 message-history-anyone = Uživatel { $user } zpřístupnil budoucí historii této místnosti komukoliv.
 #    $user is the name of the user who has made future room history visible to all room members.
-message-history-shared = Uživatel { $user } zpřístupnil budoucí historii této všem jejím členům.
+message-history-shared = Uživatel { $user } zpřístupnil budoucí historii této místnosti všem jejím členům.
 #    $user is the name of the user who has made future room history visible to all room members, from the point they are invited.
-message-history-invited = Uživatel { $user } zpřístupnil budoucí historii této všem jejím členům, počínaje okamžikem jejich pozvání.
+message-history-invited = Uživatel { $user } zpřístupnil budoucí historii této místnosti všem jejím členům, počínaje okamžikem jejich pozvání.
 #    $user is the name of the user who has made future room history visible to all room members, from the point they joined.
-message-history-joined = Uživatel { $user } zpřístupnil budoucí historii této všem jejím členům, počínaje okamžikem jejich vstupu.
+message-history-joined = Uživatel { $user } zpřístupnil budoucí historii této místnosti všem jejím členům, počínaje okamžikem jejich vstupu.
 #    $user is the name of the user who changed the address.
 #    $oldAddress is the old address.
 #    $newAddress is the new address.
@@ -257,7 +257,7 @@ message-alias-removed = Uživatel { $user } odebral následující alternativní
 #    $user is the name of the user that edited the alias addresses.
 #    $removedAddresses is a comma delimited list of removed addresses.
 #    $addedAddresses is a comma delmited list of added addresses.
-message-alias-removed-and-added = Uživatel { $user } změnil adresy této místnosti. Přidáno: { $removedAddresses }. Odebráno: { $addedAddresses }.
+message-alias-removed-and-added = Uživatel { $user } změnil adresy této místnosti. Přidáno: { $addedAddresses }. Odebráno: { $removedAddresses }.
 message-space-not-supported = Tato místnost není podporovaná.
 message-encryption-start = Zprávy v této konverzaci jsou nyní zašifrovány prostřednictvím koncového šifrování.
 #    $user is the name of the user who sent the verification request.
