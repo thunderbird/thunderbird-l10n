@@ -17,6 +17,9 @@ cert-error-not-yet-valid = Ni fydd tystysgrif { $hostname } yn ddilys tan { $not
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-untrusted-default = Nid yw tystysgrif { $hostname } yn dod o ffynhonnell ddibynadwy.
 # Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server.
+cert-error-ssl-connection-error = Bu gwall wrth gysylltu â { $hostname }.
+# Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-domain-mismatch =
     .title = Gwall cysylltu. Nid yw tystysgrif { $hostname } yn ddilys ar gyfer y gweinydd hwnnw. Gallai rhywun fod yn ceisio dynwared y gweinydd, peidiwch â pharhau. Cliciwch i agor gosodiadau diogelwch y gweinydd.
@@ -34,6 +37,10 @@ cert-error-inline-not-yet-valid =
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-untrusted-default =
     .title = Gwall cysylltu. Nid yw tystysgrif { $hostname } yn dod o ffynhonnell ddibynadwy. Cliciwch i agor gosodiadau diogelwch y gweinydd.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server.
+cert-error-inline-ssl-connection-error =
+    .title = Bu gwall wrth gysylltu â { $hostname }.
 certificate-check-test-button = Profi cysylltiad â gweinydd
 certificate-check-view-button = Darllen Tystysgrif
 certificate-check-add-exception-button = Ychwanegu Eithriad
