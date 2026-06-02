@@ -223,6 +223,7 @@ account-hub-result-graph-shortname = Exchange (Graph)
 account-hub-result-graph-description = Użyj interfejsu API Microsoft Graph do synchronizacji folderów i wiadomości e-mail
 account-hub-result-exchange-description = Synchronizuj foldery i wiadomości e-mail za pomocą programów Exchange lub Office 365
 account-hub-result-ews-text = Serwer
+account-hub-result-ews-expanded-text = Exchange Web Services
 account-hub-result-recommended-label = Zalecane
 account-hub-result-addon-label = Wymaga dodatku
 account-hub-edit-configuration = Edytuj konfigurację
