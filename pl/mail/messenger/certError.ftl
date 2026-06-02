@@ -17,6 +17,9 @@ cert-error-not-yet-valid = Certyfikat witryny „{ $hostname }” nie będzie wa
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-untrusted-default = Certyfikat witryny „{ $hostname }” nie pochodzi z zaufanego źródła.
 # Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server.
+cert-error-ssl-connection-error = Wystąpił błąd podczas łączenia się z { $hostname }.
+# Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-domain-mismatch =
     .title = Błąd połączenia. Certyfikat witryny „{ $hostname }” nie jest ważny dla tego serwera. Ktoś może próbować podszyć się pod serwer. Nie należy kontynuować. Kliknij, aby otworzyć ustawienia zabezpieczeń serwera.
@@ -34,6 +37,10 @@ cert-error-inline-not-yet-valid =
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-untrusted-default =
     .title = Błąd połączenia. Certyfikat witryny „{ $hostname }” nie pochodzi z zaufanego źródła. Kliknij, aby otworzyć ustawienia zabezpieczeń serwera.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server.
+cert-error-inline-ssl-connection-error =
+    .title = Wystąpił błąd podczas łączenia się z { $hostname }.
 certificate-check-test-button = Testuj połączenie z serwerem
 certificate-check-view-button = Wyświetl certyfikat
 certificate-check-add-exception-button = Dodaj wyjątek

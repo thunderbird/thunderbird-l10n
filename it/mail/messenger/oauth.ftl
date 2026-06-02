@@ -9,4 +9,4 @@
 oauth-reauthorize-title = Autorizza nuovamente l’accesso
 # $hostname (String) - The hostname the reauthorization will be for.
 # $username (String) - The username that should be used in the reauthorization.
-oauth-reauthorize-description = { $hostname } ha bisogno che tu confermi di nuovo l’accesso per continuare la sincronizzazione con il tuo account. Nome utente: { $username }
+oauth-reauthorize-description = Per continuare la sincronizzazione con il tuo account, { $hostname } richiede una nuova conferma di accesso. Nome utente: { $username }

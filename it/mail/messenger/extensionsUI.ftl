@@ -6,8 +6,8 @@ webext-experiment-warning = Un componente aggiuntivo malevolo è in grado di sot
 webext-perms-learn-more = Ulteriori informazioni
 # The "<>" is a placeholder for the add-on name, used by toolkit code which has
 # not yet been updated to use fluent placeholders.
-webext-install-suppressed-message-2 = Impossibile installare il componente aggiuntivo <> in quanto utilizza API legacy, che non sono supportate da questa versione di { -brand-product-name }.
-webext-install-suppressed-details-2 = I componenti aggiuntivi con API legacy possono modificare ogni parte di { -brand-product-name } e devono essere aggiornati, revisionati e approvati ogni volta che lo stesso { -brand-product-name } cambia. Queste API legacy sono quindi supportate solo da { -brand-product-name } ESR, che riceve meno modifiche al codice e rimane stabile per tutto il ciclo ESR di 1 anno.
+webext-install-suppressed-message-2 = Impossibile installare il componente aggiuntivo <> in quanto utilizza API legacy, non supportate da questa versione di { -brand-product-name }.
+webext-install-suppressed-details-2 = I componenti aggiuntivi che utilizzano API legacy possono modificare qualsiasi aspetto di { -brand-product-name } e devono essere aggiornati, controllati e approvati ogni volta che { -brand-product-name } viene modificato. Per questo motivo, queste API legacy sono supportate esclusivamente da { -brand-product-name } ESR, che subisce meno modifiche al codice e mantiene una maggiore stabilità durante l’intero ciclo ESR di un anno.
 webext-install-suppressed-message = Impossibile installare il componente aggiuntivo <> perché utilizza le API Experiment, non supportate da questa versione di Thunderbird.
 webext-install-suppressed-details = I componenti aggiuntivi con API Experiment sono supportati solo in { -brand-product-name } ESR.
 # Variables:
