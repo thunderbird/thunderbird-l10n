@@ -11,5 +11,7 @@ atn-addons-heading-search-input =
 atn-addons-heading-search-button =
     .title = Keresés az addons.thunderbird.net oldalon
     .aria-label = Keresés az addons.thunderbird.net oldalon
+details-notification-suppressed-esr-2 =
+    .message = A kiegészítő le lett tiltva, mert örökölt API-kat használ. A örökölt API-kat használó kiegészítők a { -brand-product-name } minden részét módosíthatják, és frissítésre, ellenőrzésre és jóváhagyásra van szükség, ha maga a { -brand-product-name } megváltozik. Az ilyen kiegészítőket ezért a { -brand-product-name } jelen verziója nem támogatja, csak a { -brand-product-name } ESR, amely kevesebb kódváltozást kap, és az egész 1 éves ESR ciklus alatt stabil marad.
 details-notification-suppressed-esr =
     .message = A kiegészítő le lett tiltva, mert kísérleti API-kat használ. Ezek az API-k a { -brand-product-name } ESR-re korlátozódnak, és a { -brand-product-name } ezen verziójában nem támogatottak.

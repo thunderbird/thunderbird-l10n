@@ -17,6 +17,9 @@ cert-error-not-yet-valid = A(z) { $hostname } tanúsítványa eddig nem lesz ér
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-untrusted-default = A(z) { $hostname } tanúsítványa nem megbízható forrásból származik.
 # Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server.
+cert-error-ssl-connection-error = Hiba történt a következőhöz való csatlakozás során: { $hostname }.
+# Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-domain-mismatch =
     .title = Kapcsolódási hiba. A(z) { $hostname } tanúsítványa nem érvényes erre a kiszolgálóra. Lehet, hogy valaki próbálja megszemélyesíteni a kiszolgálót, ezért Önnek nem kellene folytatnia. Kattintson a kiszolgáló biztonsági beállításainak megnyitásához.
@@ -34,6 +37,10 @@ cert-error-inline-not-yet-valid =
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-untrusted-default =
     .title = Kapcsolódási hiba. A(z) { $hostname } tanúsítványa nem biztonságos forrásból származik. Kattintson a kiszolgáló biztonsági beállításainak megnyitásához.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server.
+cert-error-inline-ssl-connection-error =
+    .title = Hiba történt a következőhöz való csatlakozás során: { $hostname }.
 certificate-check-test-button = A kiszolgálóval való kapcsolat tesztelése
 certificate-check-view-button = Tanúsítvány megtekintése
 certificate-check-add-exception-button = Kivétel hozzáadása
