@@ -4,6 +4,9 @@
 
 webext-experiment-warning = Złóstne přidatki móža waše priwatne daty kradnyć abo wašemu ličakej škodźić. Instalujće tutón přidatk jenož, hdyž žórłu dowěrjeće.
 webext-perms-learn-more = Dalše informacije
+# The "<>" is a placeholder for the add-on name, used by toolkit code which has
+# not yet been updated to use fluent placeholders.
+webext-install-suppressed-message-2 = Přidatk <> njeda so instalować, dokelž zestarjene API wužiwa, kotrež so přez tutu wersiju { -brand-product-name } njepodpěruja.
 webext-install-suppressed-message = Přidatk <> njeda so instalować, dokelž eksperimentowe API wužiwa, kotrež so přez tutu wersiju Thunderbird njepodpěruja.
 webext-install-suppressed-details = Přidatki z eksperimentowymi API so jenož na { -brand-product-name } ESR podpěruja.
 # Variables:
