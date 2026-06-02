@@ -11,5 +11,7 @@ atn-addons-heading-search-input =
 atn-addons-heading-search-button =
     .title = Szukaj na stronie addons.thunderbird.net
     .aria-label = Szukaj na stronie addons.thunderbird.net
+details-notification-suppressed-esr-2 =
+    .message = Dodatek został wyłączony, ponieważ korzysta z przestarzałych interfejsów API. Dodatki z przestarzałymi interfejsami API mogą modyfikować każdą część programu { -brand-product-name } i wymagają aktualizacji, przeglądu i zatwierdzenia za każdym razem, gdy zmienia się sam program { -brand-product-name }. Takie dodatki nie są zatem obsługiwane przez tę wersję programu { -brand-product-name }, a jedynie przez program { -brand-product-name } ESR, który otrzymuje mniej zmian w kodzie i pozostaje stabilny przez cały roczny cykl ESR.
 details-notification-suppressed-esr =
     .message = Dodatek został wyłączony, ponieważ korzysta z eksperymentalnych interfejsów API. Są one dostępne wyłącznie w programie { -brand-product-name } ESR i nie są obsługiwane w tej wersji programu { -brand-product-name }.
