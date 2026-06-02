@@ -5,5 +5,5 @@
 webext-experiment-warning = Extensões maliciosas podem roubar suas informações privativas ou comprometer seu computador. Só instale esta extensão se confiar na origem.
 webext-perms-learn-more = Saiba mais
 # Variables:
-#   $addonName (String): localized named of the extension that was just installed.
+#   $addonName (String): localized name of the extension that was just installed.
 addon-post-install-message = { $addonName } foi adicionado.

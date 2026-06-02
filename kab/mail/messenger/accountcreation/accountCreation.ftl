@@ -7,7 +7,7 @@
 ### This file has the strings, mostly error strings, for the logic / JS backend / model
 
 
-## Sanitizer.sys.mjs
+## InputSanitizer.sys.mjs
 
 hostname-syntax-error = Asenneftaɣ d ilem ɣeɣ yegber isekkilen yettwagedlen. Ala isekkilen n tira ilatiniyen, imḍanen, - akked . i yettwasergen.
 alphanumdash-error = Azrir yegber isekkilen ur nettusefrak ara. Ala isekkilen ilaṭiniyen, imḍanen, - akked _ i yettusirgen.

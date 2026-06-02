@@ -5,5 +5,5 @@
 webext-experiment-warning = Злонамерените добавки могат да откраднат личната ви информация или да компрометират компютъра ви. Инсталирайте тази добавка само ако имате доверие на източника.
 webext-perms-learn-more = Научете повече
 # Variables:
-#   $addonName (String): localized named of the extension that was just installed.
+#   $addonName (String): localized name of the extension that was just installed.
 addon-post-install-message = Разширението { $addonName } е добавено.

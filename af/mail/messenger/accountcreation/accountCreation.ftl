@@ -7,7 +7,7 @@
 ### This file has the strings, mostly error strings, for the logic / JS backend / model
 
 
-## Sanitizer.sys.mjs
+## InputSanitizer.sys.mjs
 
 hostname-syntax-error = Gasheernaam is leeg of bevat verbode karakters. Net letters, syfers, - en . word toegelaat.
 alphanumdash-error = String bevat nieondersteunde karakters. Net letters, syfers, - en _ word toegelaat.

@@ -7,5 +7,5 @@ webext-perms-learn-more = Көбірек білу
 webext-install-suppressed-message = <> қосымшасын орнату мүмкін болмады, себебі ол Thunderbird бағдарламасының осы нұсқасында қолдау көрсетілмейтін эксперименттік API интерфейстерін пайдаланады.
 webext-install-suppressed-details = Эксперименттік API интерфейстері бар қосымшаларға тек { -brand-product-name } ESR жүйесінде қолдау көрсетіледі.
 # Variables:
-#   $addonName (String): localized named of the extension that was just installed.
+#   $addonName (String): localized name of the extension that was just installed.
 addon-post-install-message = { $addonName } қосылды.

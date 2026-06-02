@@ -7,5 +7,5 @@ webext-perms-learn-more = Mear ynfo
 webext-install-suppressed-message = De add-on <> kin net ynstallearre wurde, omdat dizze eksperimint-API’s brûkt, dy’t net troch dizze ferzje fan Thunderbird stipe wurde.
 webext-install-suppressed-details = Add-ons mei eksperimint-API’s wurde allinnich stipe yn { -brand-product-name } ESR.
 # Variables:
-#   $addonName (String): localized named of the extension that was just installed.
+#   $addonName (String): localized name of the extension that was just installed.
 addon-post-install-message = { $addonName } is tafoege.

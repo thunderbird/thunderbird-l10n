@@ -7,5 +7,5 @@ webext-perms-learn-more = További tudnivalók
 webext-install-suppressed-message = A(z) <> kiegészítő nem volt telepíthető, mert kísérleti API-kat használ, amelyeket a Thunderbird ezen verziója nem támogat.
 webext-install-suppressed-details = A kísérleti API-t használó kiegészítők csak { -brand-product-name } ESR-en támogatottak.
 # Variables:
-#   $addonName (String): localized named of the extension that was just installed.
+#   $addonName (String): localized name of the extension that was just installed.
 addon-post-install-message = A(z) { $addonName } hozzá lett adva.

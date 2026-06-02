@@ -7,7 +7,7 @@
 ### This file has the strings, mostly error strings, for the logic / JS backend / model
 
 
-## Sanitizer.sys.mjs
+## InputSanitizer.sys.mjs
 
 hostname-syntax-error = Kowöl rupam ri rub'i' rajawal o eruk'wan itzel taq tz'ib'. Xa xe yek'ul taq tz'ib', taq ajilab'äl chuqa' taq chuq'.
 alphanumdash-error = Ri rucholajem tzij eruk'wan taq tz'ib' ri man nuk'äm ta. Xa xe ri taq tz'ib', taq ajilab'äl, - chuqa'_ yek'ulutäj.

@@ -7,7 +7,7 @@
 ### This file has the strings, mostly error strings, for the logic / JS backend / model
 
 
-## Sanitizer.sys.mjs
+## InputSanitizer.sys.mjs
 
 hostname-syntax-error = Naziv servera je prazan ili sadrži zabranjene znakove. Dopuštena su samo slova, brojevi, te . i -.
 alphanumdash-error = Strin sadrži nepodržane znakove. Dopuštena su samo slova, brojevi, te - i _.

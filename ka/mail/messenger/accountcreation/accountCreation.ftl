@@ -7,7 +7,7 @@
 ### This file has the strings, mostly error strings, for the logic / JS backend / model
 
 
-## Sanitizer.sys.mjs
+## InputSanitizer.sys.mjs
 
 hostname-syntax-error = ჰოსტის სახელი არ მითითებულა ან მიუღებელ სიმბოლოებს შეიცავს. მისაღებია მხოლოდ ასოები, ციფრები და სიმბოლოები «-» და «_».
 alphanumdash-error = ტექსტი მიუღებელ სიმბოლოებს შეიცავს. მისაღებია მხოლოდ ასოები, ციფრები და სიმბოლოები «-» და «_».

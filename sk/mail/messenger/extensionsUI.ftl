@@ -7,5 +7,5 @@ webext-perms-learn-more = Ďalšie informácie
 webext-install-suppressed-message = Doplnok <> sa nepodarilo nainštalovať, pretože používa rozhrania Experiment API, ktoré táto verzia Thunderbirdu nepodporuje.
 webext-install-suppressed-details = Doplnky s experimentálnymi API sú podporované iba vo vydaní { -brand-product-name } ESR.
 # Variables:
-#   $addonName (String): localized named of the extension that was just installed.
+#   $addonName (String): localized name of the extension that was just installed.
 addon-post-install-message = Doplnok { $addonName } bol pridaný.

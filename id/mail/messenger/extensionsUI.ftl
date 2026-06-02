@@ -5,5 +5,5 @@
 webext-experiment-warning = Pengaya berbahaya dapat mencuri informasi pribadi Anda atau membahayakan komputer Anda. Pasang pengaya ini hanya jika Anda mempercayai sumbernya.
 webext-perms-learn-more = Pelajari lebih lanjut
 # Variables:
-#   $addonName (String): localized named of the extension that was just installed.
+#   $addonName (String): localized name of the extension that was just installed.
 addon-post-install-message = { $addonName } telah ditambahkan.

@@ -7,5 +7,5 @@ webext-perms-learn-more = Μάθετε περισσότερα
 webext-install-suppressed-message = Δεν ήταν δυνατή η εγκατάσταση του προσθέτου <> επειδή χρησιμοποιεί Experiment API, τα οποία δεν υποστηρίζονται σε αυτήν την έκδοση του Thunderbird.
 webext-install-suppressed-details = Τα πρόσθετα με Experiment API υποστηρίζονται μόνο στο { -brand-product-name } ESR.
 # Variables:
-#   $addonName (String): localized named of the extension that was just installed.
+#   $addonName (String): localized name of the extension that was just installed.
 addon-post-install-message = Το { $addonName } προστέθηκε.

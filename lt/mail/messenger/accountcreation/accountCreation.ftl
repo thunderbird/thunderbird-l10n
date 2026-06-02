@@ -7,7 +7,7 @@
 ### This file has the strings, mostly error strings, for the logic / JS backend / model
 
 
-## Sanitizer.sys.mjs
+## InputSanitizer.sys.mjs
 
 hostname-syntax-error = Nenurodytas arba blogai nurodytas serverio vardas. Jame leistini simboliai – raidės, skaitmenys, brūkšnelis (-) ir taškas.
 alphanumdash-error = Simbolių eilutėje yra neleistinas simbolis. Leistini simboliai – raidės, skaitmenys, brūkšnelis (-) ir pabraukimo ženklas (_).

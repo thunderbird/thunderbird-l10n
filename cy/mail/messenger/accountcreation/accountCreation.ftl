@@ -7,7 +7,7 @@
 ### This file has the strings, mostly error strings, for the logic / JS backend / model
 
 
-## Sanitizer.sys.mjs
+## InputSanitizer.sys.mjs
 
 hostname-syntax-error = Mae'r enw gweinydd yn wag neu yn cynnwys nodau anghymeradwy. Dim ond llythrennau, rhifau, - a . sy'n cael eu caniatáu.
 alphanumdash-error = Mae'r llinyn yn cynnwys nodau anghymeradwy. Dim ond llythrennau, rhifau, - a . sy'n cael eu caniatáu.

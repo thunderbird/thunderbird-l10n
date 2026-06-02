@@ -7,7 +7,7 @@
 ### This file has the strings, mostly error strings, for the logic / JS backend / model
 
 
-## Sanitizer.sys.mjs
+## InputSanitizer.sys.mjs
 
 hostname-syntax-error = Palvelinkenttä on tyhjä tai sisältää kiellettyjä merkkejä. Vain kirjaimet, numerot, - ja . ovat sallittuja merkkejä.
 alphanumdash-error = Merkkijono sisältää merkkejä, joita ei tueta. Vain kirjaimet, numerot, - ja _ ovat sallittuja merkkejä.

@@ -7,7 +7,7 @@
 ### This file has the strings, mostly error strings, for the logic / JS backend / model
 
 
-## Sanitizer.sys.mjs
+## InputSanitizer.sys.mjs
 
 hostname-syntax-error = Servernamnet är tomt eller innehåller ogiltiga tecken. Endast bokstäver, nummer, - och . är tillåtna.
 alphanumdash-error = Textsträngen innehåller ogiltiga tecken. Endast bokstäver, nummer, - och _ är tillåtna.

@@ -7,5 +7,5 @@ webext-perms-learn-more = Dalše informacije
 webext-install-suppressed-message = Přidatk <> njeda so instalować, dokelž eksperimentowe API wužiwa, kotrež so přez tutu wersiju Thunderbird njepodpěruja.
 webext-install-suppressed-details = Přidatki z eksperimentowymi API so jenož na { -brand-product-name } ESR podpěruja.
 # Variables:
-#   $addonName (String): localized named of the extension that was just installed.
+#   $addonName (String): localized name of the extension that was just installed.
 addon-post-install-message = { $addonName } je so přidał.

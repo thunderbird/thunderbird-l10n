@@ -7,7 +7,7 @@
 ### This file has the strings, mostly error strings, for the logic / JS backend / model
 
 
-## Sanitizer.sys.mjs
+## InputSanitizer.sys.mjs
 
 hostname-syntax-error = Το όνομα κεντρικού υπολογιστή είναι κενό ή περιέχει μη έγκυρους χαρακτήρες. Επιτρέπονται μόνο γράμματα, αριθμοί, «-» και «.».
 alphanumdash-error = Το αλφαριθμητικό περιέχει μη υποστηριζόμενους χαρακτήρες. Επιτρέπονται μόνο γράμματα, αριθμοί, «-» και «_».

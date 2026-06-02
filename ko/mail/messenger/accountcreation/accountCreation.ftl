@@ -7,7 +7,7 @@
 ### This file has the strings, mostly error strings, for the logic / JS backend / model
 
 
-## Sanitizer.sys.mjs
+## InputSanitizer.sys.mjs
 
 hostname-syntax-error = 호스트 이름이 비었거나 사용할 수 없는 문자가 포함되어 있습니다. 영문자, 숫자, -, .만 가능합니다.
 alphanumdash-error = 사용할 수 없는 문자를 포함하고 있습니다. 영문자, 숫자, -와 .만 가능합니다.

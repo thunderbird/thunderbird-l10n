@@ -7,7 +7,7 @@
 ### This file has the strings, mostly error strings, for the logic / JS backend / model
 
 
-## Sanitizer.sys.mjs
+## InputSanitizer.sys.mjs
 
 hostname-syntax-error = Il champ per l'adressa dal server è vid u cuntegna caracters betg permess. Mo letras, numers, - e . èn lubids.
 alphanumdash-error = La chadaina da caracters cuntegna caracters betg sustegnids. Mo letras, numers, - e _ èn lubids.

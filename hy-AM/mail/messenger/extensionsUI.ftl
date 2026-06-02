@@ -5,5 +5,5 @@
 webext-experiment-warning = Զգուշացում. Այս հավելումը վավերացված չէ: Վնասագիր հավելումները կարող են գողանալ ձեր անձնական տեղեկությունները կամ վնասեն ձեր համակարգիչը: Տեղադրեք այն, եթե միայն վստահում եք աղբյուրին:
 webext-perms-learn-more = Իմանալ ավելին
 # Variables:
-#   $addonName (String): localized named of the extension that was just installed.
+#   $addonName (String): localized name of the extension that was just installed.
 addon-post-install-message = { $addonName }-ն ավելացվել է;

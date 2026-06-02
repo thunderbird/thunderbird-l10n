@@ -7,5 +7,5 @@ webext-perms-learn-more = ვრცლად
 webext-install-suppressed-message = დამატება <> ვერ დაყენდება, რადგან იყენებს საცდელ API-ებს, რომელთაც მხარს არ უჭერს მოცემული ვერსიის Thunderbird.
 webext-install-suppressed-details = საცდელი API-ების მქონე დამატებების მხარდაჭერითაა მხოლოდ { -brand-product-name } ESR.
 # Variables:
-#   $addonName (String): localized named of the extension that was just installed.
+#   $addonName (String): localized name of the extension that was just installed.
 addon-post-install-message = { $addonName } დამატებულია.

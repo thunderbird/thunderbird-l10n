@@ -7,7 +7,7 @@
 ### This file has the strings, mostly error strings, for the logic / JS backend / model
 
 
-## Sanitizer.sys.mjs
+## InputSanitizer.sys.mjs
 
 hostname-syntax-error = Хост аты бос немесе оның құрамында рұқсат етілмеген таңбалар бар. Тек әріптер, сандар, - және . таңбаларын қолдануға болады.
 alphanumdash-error = Жол құрамында рұқсат етілмеген таңбалар бар. Тек әріптер, сандар, - және . таңбаларын қолдануға болады.

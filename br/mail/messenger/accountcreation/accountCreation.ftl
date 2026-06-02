@@ -7,7 +7,7 @@
 ### This file has the strings, mostly error strings, for the logic / JS backend / model
 
 
-## Sanitizer.sys.mjs
+## InputSanitizer.sys.mjs
 
 hostname-syntax-error = An anv ostiz zo goullo pe a endalc'h arouezennoù difennet. Aotreet eo al lizherennoù, an niverennoù, - ha . nemetken.
 alphanumdash-error = An hedad a endalc'h arouezennoù anskoret. Aotreet eo al lizherennoù, an niverennoù, - ha . nemetken.

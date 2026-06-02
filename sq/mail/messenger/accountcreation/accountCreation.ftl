@@ -7,7 +7,7 @@
 ### This file has the strings, mostly error strings, for the logic / JS backend / model
 
 
-## Sanitizer.sys.mjs
+## InputSanitizer.sys.mjs
 
 hostname-syntax-error = Strehëemri është i zbrazët ose përmban shenja të ndaluara. Lejohen vetëm shkronja, numra, - dhe . .
 alphanumdash-error = Vargu përmban shenja të pambuluara ende. Lejohen vetëm shkronja, numra, - dhe . .

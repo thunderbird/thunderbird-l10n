@@ -7,7 +7,7 @@
 ### This file has the strings, mostly error strings, for the logic / JS backend / model
 
 
-## Sanitizer.sys.mjs
+## InputSanitizer.sys.mjs
 
 hostname-syntax-error = 主機名稱為空白的或者包含被禁止的字元。只有英文字母、數字、「-」和「.」是被允許的。
 alphanumdash-error = 包含了不支援的字元。只有英文字母、數字、「-」和「_」是被允許的。

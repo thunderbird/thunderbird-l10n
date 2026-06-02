@@ -7,7 +7,7 @@
 ### This file has the strings, mostly error strings, for the logic / JS backend / model
 
 
-## Sanitizer.sys.mjs
+## InputSanitizer.sys.mjs
 
 hostname-syntax-error = Հիւրընկալողի անունը դատարկ է կամ նշանները ընդունելի չեն։ Գրէք միայն տառեր եւ թուեր։
 alphanumdash-error = Կան չաջակցուող նշաններ։ Թոյղատրելի է միայն տառեր, թուեր, ֊ եւ _ ։

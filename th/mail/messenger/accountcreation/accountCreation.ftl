@@ -7,7 +7,7 @@
 ### This file has the strings, mostly error strings, for the logic / JS backend / model
 
 
-## Sanitizer.sys.mjs
+## InputSanitizer.sys.mjs
 
 hostname-syntax-error = ชื่อโฮสต์ว่างเปล่าหรือมีอักขระต้องห้าม อนุญาตให้ป้อนเฉพาะตัวอักษร ตัวเลข เครื่องหมาย - และ . เท่านั้น
 alphanumdash-error = สตริงมีอักขระที่ไม่รองรับ อนุญาตให้ป้อนเฉพาะตัวอักษร ตัวเลข เครื่องหมาย - และ _ เท่านั้น

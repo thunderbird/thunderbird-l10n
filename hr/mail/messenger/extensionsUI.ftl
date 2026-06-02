@@ -5,5 +5,5 @@
 webext-experiment-warning = Zlonamjerni dodaci mogu ukrasti vaše privatne podatke ili ugroziti vaše računalo. Instalirajte ovaj dodatak samo ukoliko vjerujete izvoru.
 webext-perms-learn-more = Saznaj više
 # Variables:
-#   $addonName (String): localized named of the extension that was just installed.
+#   $addonName (String): localized name of the extension that was just installed.
 addon-post-install-message = Proširenje { $addonName } je dodano.

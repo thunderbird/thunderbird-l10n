@@ -5,5 +5,5 @@
 webext-experiment-warning = Els complements maliciosos podrien robar informació privada o posar l'ordinador en risc. Instal·leu aquest complement únicament si confieu en la font.
 webext-perms-learn-more = Més informació
 # Variables:
-#   $addonName (String): localized named of the extension that was just installed.
+#   $addonName (String): localized name of the extension that was just installed.
 addon-post-install-message = S'ha afegit «{ $addonName }».

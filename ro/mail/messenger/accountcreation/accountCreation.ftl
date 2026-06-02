@@ -7,7 +7,7 @@
 ### This file has the strings, mostly error strings, for the logic / JS backend / model
 
 
-## Sanitizer.sys.mjs
+## InputSanitizer.sys.mjs
 
 hostname-syntax-error = Câmpul cu denumirea gazdei este gol sau conține caractere interzise. Sunt permise doar litere, cifre, cratimă și punct.
 alphanumdash-error = Șirul conține caractere neacceptate. Sunt permise doar litere, cifre, - și _.

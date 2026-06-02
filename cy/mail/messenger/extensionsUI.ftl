@@ -7,5 +7,5 @@ webext-perms-learn-more = Dysgu rhagor
 webext-install-suppressed-message = Doedd dim modd gosod yr ychwanegyn <> oherwydd ei fod yn defnyddio APIs Experiment, sydd ddim yn cael eu cefnogi gan y fersiwn hwn o Thunderbird.
 webext-install-suppressed-details = Dim ond ar { -brand-product-name } ESR y mae ychwanegion ag API Experiment yn cael eu cynnal.
 # Variables:
-#   $addonName (String): localized named of the extension that was just installed.
+#   $addonName (String): localized name of the extension that was just installed.
 addon-post-install-message = Ychwanegwyd { $addonName }

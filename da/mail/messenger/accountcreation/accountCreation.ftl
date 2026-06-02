@@ -7,7 +7,7 @@
 ### This file has the strings, mostly error strings, for the logic / JS backend / model
 
 
-## Sanitizer.sys.mjs
+## InputSanitizer.sys.mjs
 
 hostname-syntax-error = Servernavnet er ikke angivet, eller det indeholder forbudte tegn. Det er kun tilladt at bruge bogstaver tal, - (bindestreg) og . (punktum).
 alphanumdash-error = Strengen indeholder tegn, der ikke er understøttet. Det er kun tilladt at bruge bogstaver tal, - (bindestreg) og _ (understreg).

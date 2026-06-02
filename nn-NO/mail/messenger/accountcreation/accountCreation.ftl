@@ -7,7 +7,7 @@
 ### This file has the strings, mostly error strings, for the logic / JS backend / model
 
 
-## Sanitizer.sys.mjs
+## InputSanitizer.sys.mjs
 
 hostname-syntax-error = Nettadressa er tom eller inneheld ugyldige teikn. Berre bokstavar, tal, - og . er tillatne.
 alphanumdash-error = Ein tekst inneheld ugyldige teikn. Berre bokstavar, tal, - og _ er tillatne.

@@ -7,7 +7,7 @@
 ### This file has the strings, mostly error strings, for the logic / JS backend / model
 
 
-## Sanitizer.sys.mjs
+## InputSanitizer.sys.mjs
 
 hostname-syntax-error = El nom del servidor està buit o té caràcters no vàlids. Només es permeten lletres, números, guions (-) i punts.
 alphanumdash-error = El camp de text té caràcters no vàlids. Només es permeten lletres, números, guions (-) i guions baixos (_).

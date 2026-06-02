@@ -7,7 +7,7 @@
 ### This file has the strings, mostly error strings, for the logic / JS backend / model
 
 
-## Sanitizer.sys.mjs
+## InputSanitizer.sys.mjs
 
 hostname-syntax-error = اسم المضيف فارغ أو يحتوي على محارف ممنوعة. المسموح فقط هو الأحرف و النقطة . و الشرطة - و الأرقام.
 alphanumdash-error = النص يحتوي محارف غير مدعومة. لا يُسمح سوى بالأحرف والشرطة - والشرطة السفلية _ والأرقام.

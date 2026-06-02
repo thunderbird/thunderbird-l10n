@@ -7,7 +7,7 @@
 ### This file has the strings, mostly error strings, for the logic / JS backend / model
 
 
-## Sanitizer.sys.mjs
+## InputSanitizer.sys.mjs
 
 hostname-syntax-error = Tá an t-óstainm folamh nó tá carachtair neamhcheadaithe ann. Ní cheadaítear ach litreacha, uimhreacha, . agus -.
 alphanumdash-error = Tá carachtair sa teaghrán nach dtacaítear leo. Ní cheadaítear ach litreacha, uimhreacha, - agus _.

@@ -7,7 +7,7 @@
 ### This file has the strings, mostly error strings, for the logic / JS backend / model
 
 
-## Sanitizer.sys.mjs
+## InputSanitizer.sys.mjs
 
 hostname-syntax-error = Nazwa hosta jest pusta lub zawiera niedozwolone znaki. Wyłącznie litery, cyfry oraz znaki „-” i „.” są dozwolone.
 alphanumdash-error = Łańcuch zawiera niedozwolone znaki. Wyłącznie litery, cyfry oraz znaki „-” i „_” są dozwolone.

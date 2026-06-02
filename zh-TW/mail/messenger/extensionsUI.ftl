@@ -7,5 +7,5 @@ webext-perms-learn-more = 了解更多
 webext-install-suppressed-message = 因為 <> 附加元件使用不受此版本 Thunderbird 支援的實驗性 API，無法安裝。
 webext-install-suppressed-details = 使用實驗性 API 的附加元件僅在 { -brand-product-name } ESR 可用。
 # Variables:
-#   $addonName (String): localized named of the extension that was just installed.
+#   $addonName (String): localized name of the extension that was just installed.
 addon-post-install-message = 已安裝 { $addonName }。

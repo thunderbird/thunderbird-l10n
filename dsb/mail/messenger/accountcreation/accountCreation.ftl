@@ -7,7 +7,7 @@
 ### This file has the strings, mostly error strings, for the logic / JS backend / model
 
 
-## Sanitizer.sys.mjs
+## InputSanitizer.sys.mjs
 
 hostname-syntax-error = Serwerowe mě jo prozne abo wopśimujo zakazane znamuška. Jano pismiki, licby, - a . su dowólone.
 alphanumdash-error = Znamuškowy rjeśazk wopśimujo njepódpěrane znamuška. Jano pismiki, licby, - a _ su dowólone.

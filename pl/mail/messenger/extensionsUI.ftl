@@ -7,5 +7,5 @@ webext-perms-learn-more = Więcej informacji
 webext-install-suppressed-message = Dodatku <> nie można zainstalować, ponieważ korzysta on z eksperymentalnych interfejsów API, które nie są obsługiwane w tej wersji programu Thunderbird.
 webext-install-suppressed-details = Dodatki z eksperymentalnymi interfejsami API są obsługiwane wyłącznie w programie { -brand-product-name } ESR.
 # Variables:
-#   $addonName (String): localized named of the extension that was just installed.
+#   $addonName (String): localized name of the extension that was just installed.
 addon-post-install-message = Dodano rozszerzenie „{ $addonName }”.

@@ -7,7 +7,7 @@
 ### This file has the strings, mostly error strings, for the logic / JS backend / model
 
 
-## Sanitizer.sys.mjs
+## InputSanitizer.sys.mjs
 
 hostname-syntax-error = Názov hostiteľa je prázdny alebo obsahuje zakázané znaky. Povolené sú len písmená, čísla, pomlčka (-) a podčiarnik (_).
 alphanumdash-error = Reťazec obsahuje nepodporované znaky. Povolené sú len písmená, čísla, pomlčka (-) a podčiarnik (_).

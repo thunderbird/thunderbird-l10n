@@ -7,7 +7,7 @@
 ### This file has the strings, mostly error strings, for the logic / JS backend / model
 
 
-## Sanitizer.sys.mjs
+## InputSanitizer.sys.mjs
 
 hostname-syntax-error = Tên máy chủ trống hoặc chứa các ký tự bị cấm. Chỉ các chữ cái, số, - và . được cho phép.
 alphanumdash-error = Chuỗi chứa các kí tự không được hỗ trợ. Chỉ chữ cái, số, - và _ là được dùng.

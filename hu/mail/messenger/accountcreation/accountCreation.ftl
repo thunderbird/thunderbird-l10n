@@ -7,7 +7,7 @@
 ### This file has the strings, mostly error strings, for the logic / JS backend / model
 
 
-## Sanitizer.sys.mjs
+## InputSanitizer.sys.mjs
 
 hostname-syntax-error = A gépnév üres, vagy tiltott karaktereket tartalmaz. Csak betűk, számok és a . engedélyezett.
 alphanumdash-error = A karakterlánc nem támogatott karaktereket tartalmaz. Csak betűk, számok, a - és a _ engedélyezett.

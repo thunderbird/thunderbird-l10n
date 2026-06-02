@@ -5,5 +5,5 @@
 webext-experiment-warning = Shtesat keqdashëse mund të vjedhin të dhëna tuajat private ose të komprometojnë kompjuterin tuaj. Instalojeni këtë shtesë vetëm nëse e besoni burimin.
 webext-perms-learn-more = Mësoni më tepër
 # Variables:
-#   $addonName (String): localized named of the extension that was just installed.
+#   $addonName (String): localized name of the extension that was just installed.
 addon-post-install-message = { $addonName } u shtua.

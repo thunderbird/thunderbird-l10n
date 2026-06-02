@@ -7,7 +7,7 @@
 ### This file has the strings, mostly error strings, for the logic / JS backend / model
 
 
-## Sanitizer.sys.mjs
+## InputSanitizer.sys.mjs
 
 hostname-syntax-error = Le nomine del servitor es vacue o contine characteres prohibite. Solmente le litteras, numeros, - e . es permittite.
 alphanumdash-error = Le valor contine characteres non supportate. Solmente litteras, numeros, - e _ es permittite.

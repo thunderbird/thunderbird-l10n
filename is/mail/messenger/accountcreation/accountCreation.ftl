@@ -7,7 +7,7 @@
 ### This file has the strings, mostly error strings, for the logic / JS backend / model
 
 
-## Sanitizer.sys.mjs
+## InputSanitizer.sys.mjs
 
 hostname-syntax-error = Nafn netþjóns er tómt eða inniheldur ólöglega stafi. Aðeins er leyfilegt að hafa stafi, tölustafi, - og . í nafni netþjóns.
 alphanumdash-error = Strengur inniheldur óstudda stafi. Aðeins er leyfilegt að hafa stafi, tölustafi, - og _ í nafni netþjóns.

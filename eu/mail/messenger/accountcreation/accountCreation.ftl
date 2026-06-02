@@ -7,7 +7,7 @@
 ### This file has the strings, mostly error strings, for the logic / JS backend / model
 
 
-## Sanitizer.sys.mjs
+## InputSanitizer.sys.mjs
 
 hostname-syntax-error = Ostalari-izena hutsik dago edo debekatutako karaktereak ditu. Letrak, zenbakiak, - eta . onartzen dira soilik.
 alphanumdash-error = Karaktere-kateak onartzen ez diren karaktereak ditu. Letrak, zenbakiak, - eta _ onartzen dira soilik.

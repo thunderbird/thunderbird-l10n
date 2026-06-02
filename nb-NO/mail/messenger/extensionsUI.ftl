@@ -7,5 +7,5 @@ webext-perms-learn-more = Les mer
 webext-install-suppressed-message = Tillegget <> kunne ikke installeres fordi det bruker Experiment API-er, som ikke støttes av denne versjonen av Thunderbird.
 webext-install-suppressed-details = Tillegg med Experiment API-er støttes bare på { -brand-product-name } ESR.
 # Variables:
-#   $addonName (String): localized named of the extension that was just installed.
+#   $addonName (String): localized name of the extension that was just installed.
 addon-post-install-message = { $addonName } ble lagt til.

@@ -7,7 +7,7 @@
 ### This file has the strings, mostly error strings, for the logic / JS backend / model
 
 
-## Sanitizer.sys.mjs
+## InputSanitizer.sys.mjs
 
 hostname-syntax-error = Hostnamme is leech of befettet ferbeane karakters. Allinnich letters, sifers, - en . binne tastien.
 alphanumdash-error = String befettet net stipe karakters. Allinnich letters, sifers, - en _ binne tastien.

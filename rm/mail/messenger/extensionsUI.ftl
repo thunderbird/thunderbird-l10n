@@ -5,5 +5,5 @@
 webext-experiment-warning = Supplements donnegius pon engular infurmaziuns privatas u cumprometter tes computer. Installescha mo quest supplement sche ti ta fidas da la funtauna.
 webext-perms-learn-more = Ulteriuras infurmaziuns
 # Variables:
-#   $addonName (String): localized named of the extension that was just installed.
+#   $addonName (String): localized name of the extension that was just installed.
 addon-post-install-message = { $addonName } è vegnì agiuntà.
