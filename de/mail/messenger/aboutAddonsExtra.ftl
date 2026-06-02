@@ -11,5 +11,7 @@ atn-addons-heading-search-input =
 atn-addons-heading-search-button =
     .title = Auf addons.thunderbird.net suchen
     .aria-label = Auf addons.thunderbird.net suchen
+details-notification-suppressed-esr-2 =
+    .message = Das Add-on wurde deaktiviert, weil es ältere APIs verwendet. Add-ons mit älteren APIs können jeden Teil von { -brand-product-name } verändern und müssen aktualisiert, überprüft und freigeschaltet werden, wenn { -brand-product-name } sich ändert. Diese Add-ons werden daher von dieser Version von { -brand-product-name } nicht unterstützt, sondern nur von { -brand-product-name } ESR, das weniger Quelltext-Änderungen erhält und während des einjährigen ESR-Zyklus stabil bleibt.
 details-notification-suppressed-esr =
     .message = Das Add-on wurde deaktiviert, weil es Experiment-APIs verwendet. Diese APIs sind auf { -brand-product-name } ESR beschränkt und werden in dieser Version von { -brand-product-name } nicht unterstützt.
