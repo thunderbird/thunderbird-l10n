@@ -10,8 +10,8 @@ items-m-of-n = { $m } sur { $n }{ $m } sur { $n }
 #   $count - the number items
 facets-mode-to-list-all-label =
     { $count ->
-        [one] Lister les { $count }
-       *[other] Lister les { $count }
+        [1] Lister l’élément
+       *[other] Lister les { $count } éléments
     }
 # Last item in a a list like A, B, C and "3 others".
 # Variables:

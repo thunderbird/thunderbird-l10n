@@ -12,6 +12,6 @@ atn-addons-heading-search-button =
     .title = Поиск на addons.thunderbird.net
     .aria-label = Поиск на addons.thunderbird.net
 details-notification-suppressed-esr-2 =
-    .message = Дополнение было отключено, так как оно использует устаревшие API. Дополнения с устаревшими API могут изменять каждую часть { -brand-product-name }, и должны обновляться, проверяться и одобряться при каждом изменении самого { -brand-product-name }. Поэтому такие дополнения не поддерживаются этой версией { -brand-product-name }, а только { -brand-product-name } ESR, который получает меньше изменений кода и остается стабильным в течение 1-летнего цикла ESR.
+    .message = Дополнение было отключено, так как оно использует устаревшие API. Дополнения с устаревшими API могут изменять каждую часть { -brand-product-name }, и должны обновляться, проверяться и одобряться при каждом изменении самого { -brand-product-name }. Поэтому такие дополнения не поддерживаются этой версией { -brand-product-name }, а только { -brand-product-name } ESR, который получает меньше изменений кода и остается стабильным в течение годового цикла ESR.
 details-notification-suppressed-esr =
     .message = Дополнение было отключено, так как оно использует экспериментальные API. Эти API ограничены для { -brand-product-name } ESR и не поддерживаются в этой версии { -brand-product-name }.

@@ -6,7 +6,7 @@
 ## Prompt shown before reauthorization in external browser when it is triggered
 ## without user interaction.
 
-oauth-reauthorize-title = 重新授權存取
+oauth-reauthorize-title = Повторно авторизовать доступ
 # $hostname (String) - The hostname the reauthorization will be for.
 # $username (String) - The username that should be used in the reauthorization.
-oauth-reauthorize-description = { $hostname } 需要您再次確認存取，才能繼續與您的帳號進行同步。使用者名稱：{ $username }
+oauth-reauthorize-description = { $hostname } хочет, чтобы вы снова подтвердили доступ, чтобы продолжить синхронизацию с вашим аккаунтом. Имя пользователя: { $username }

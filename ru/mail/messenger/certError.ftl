@@ -17,6 +17,9 @@ cert-error-not-yet-valid = Сертификат для { $hostname } не буд
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-untrusted-default = К источнику, издавшему сертификат для { $hostname }, нет доверия.
 # Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server.
+cert-error-ssl-connection-error = При соединении с { $hostname } произошла ошибка.
+# Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-domain-mismatch =
     .title = Ошибка соединения. Сертификат для { $hostname } недействителен для этого сервера. Кто-то может пытаться подменить нужный вам сервер и вам лучше не продолжать. Нажмите, чтобы открыть настройки защиты сервера.
@@ -34,6 +37,10 @@ cert-error-inline-not-yet-valid =
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-untrusted-default =
     .title = Ошибка соединения. К источнику, издавшему сертификат для { $hostname }, нет доверия. Нажмите, чтобы открыть настройки защиты сервера.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server.
+cert-error-inline-ssl-connection-error =
+    .title = При соединении с { $hostname } произошла ошибка.
 certificate-check-test-button = Проверить соединение с сервером
 certificate-check-view-button = Просмотреть сертификат
 certificate-check-add-exception-button = Добавить исключение

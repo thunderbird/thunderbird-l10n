@@ -9,7 +9,7 @@
 ## Always included in the page
 
 oauth-result-wordmark-alt = { -brand-full-name }
-oauth-result-footer-text = Besoin d’aide ? Contacter l’assistance.
+oauth-result-footer-text = Besoin d’aide ? Contactez l’assistance.
 
 ## Successful authentication
 
@@ -19,9 +19,12 @@ oauth-success-body = Vous pouvez fermer cette fenêtre.
 
 ## Authentication error
 
-oauth-error-title = La connexion n’a pas pu être terminée
-oauth-error-subtitle = { -brand-short-name } n’a pas pu terminer la connexion avec ces paramètres.
+oauth-error-title = La connexion n’a pas pu aboutir
+oauth-error-subtitle = { -brand-short-name } n’a pas réussi à se connecter avec ces paramètres.
 # New lines in the string will be converted into new lines in the output.
 # $linkStart (String) - Link prefix. Has to always be before $linkEnd. Has no visible content.
 # $linkEnd (String) - Link suffix. Has to always be after $linkStart. Has no visible content.
-oauth-error-body = Retournez voir { -brand-short-name }, examinez les paramètres de configuration de votre compte et réessayez.  Si le problème persiste, consultez la page { $linkStart }Résoudre les problèmes de connexion à votre compte{ $linkEnd } pour obtenir de l’aide.
+oauth-error-body =
+    Retournez sur { -brand-short-name }, vérifiez les paramètres de configuration de votre compte, puis réessayez.
+    
+    Si le problème persiste, consultez { $linkStart }Dépanner la connexion à votre compte{ $linkEnd } pour obtenir de l’aide.
