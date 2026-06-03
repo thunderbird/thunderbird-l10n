@@ -208,6 +208,7 @@ account-hub-result-graph-shortname = Exchange (Graph)
 account-hub-result-graph-description = Usa le API de Microsoft Graph pro synchronisar plicas e e-mails
 account-hub-result-exchange-description = Synchronisar le plicas e le messages con Exchange o Office 365
 account-hub-result-ews-text = Servitor
+account-hub-result-graph-expanded-text = Graph API
 account-hub-result-recommended-label = Recommendate
 account-hub-result-addon-label = Besonia de additivo
 account-hub-edit-configuration = Modificar configuration
