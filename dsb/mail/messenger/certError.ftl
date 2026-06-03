@@ -17,6 +17,9 @@ cert-error-not-yet-valid = Certifikat za { $hostname } njebuźo płaśiwy až do
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-untrusted-default = Certifikat za { $hostname } z dowěry gódnego žrědła njepóchada.
 # Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server.
+cert-error-ssl-connection-error = Pśi zwězowanju z { $hostname } jo zmólka nastała.
+# Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-domain-mismatch =
     .title = Zwiskowa zmólka. Certifikat za { $hostname } njejo płaśiwy za ten serwer. Něchten mógał wopytaś, serwer napódobniś a wy njeměł pókšacowaś. Klikniśo, aby wěstotne nastajenja serwera wócynił.
@@ -34,6 +37,10 @@ cert-error-inline-not-yet-valid =
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-untrusted-default =
     .title = Zwiskowa zmólka. Certifikat za { $hostname } z dowěry gódnego žrědła njepśiźo. Klikniśo, aby wěstotne nastajenja serwera wócynił.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server.
+cert-error-inline-ssl-connection-error =
+    .title = Pśi zwězowanju z { $hostname } jo zmólka nastała.
 certificate-check-test-button = Zwisk ze serwerom testowaś
 certificate-check-view-button = Certifikat pokazaś
 certificate-check-add-exception-button = Wuwześe pśidaś
