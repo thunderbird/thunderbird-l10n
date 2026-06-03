@@ -11,5 +11,7 @@ atn-addons-heading-search-input =
 atn-addons-heading-search-button =
     .title = addons.thunderbird.net přepytać
     .aria-label = addons.thunderbird.net přepytać
+details-notification-suppressed-esr-2 =
+    .message = Tutón přidatk je so znjemóžnił, dokelž zestarjene API wužiwa. Přidatki ze zestarjenymi API móža kóždy dźěl { -brand-product-name } změnić a dyrbja so aktualizować, přepruwować a schwalić, hdyžkuli so { -brand-product-name } měnja. Tajke přidatki so tohodla přez tutu wersiju { -brand-product-name } njepodpěruje, ale jenož přez { -brand-product-name } ESR, kotryž mjenje kodowych změnow dóstawa a za jednolětny ESR-cyklus stabilny wostawa.
 details-notification-suppressed-esr =
     .message = Přidatk je so znjemóžnił, dokelž eksperimentowe API wužiwa. Tute API su na { -brand-product-name } ESR wobmjezowane a njepodpěruja so w tutej wersiji { -brand-product-name }.
