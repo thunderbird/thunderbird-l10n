@@ -7,6 +7,7 @@ webext-perms-learn-more = Dalšne informacije
 # The "<>" is a placeholder for the add-on name, used by toolkit code which has
 # not yet been updated to use fluent placeholders.
 webext-install-suppressed-message-2 = Dodank <> njedajo se instalěrowaś, dokulaž zestarjete API wužywa, kótarež se pśez toś tu wersiju { -brand-product-name } njepódpěraju.
+webext-install-suppressed-details-2 = Dodanki ze zestarjetymi API mógu kuždy źěl { -brand-product-name } změniś a muse se aktualizěrowaś, pśeglědowaś a pśizwóliś, gažkuli se { -brand-product-name } změnja. Toś te zestarjete API se togodla jano pśez { -brand-product-name } ESR pódpěra, kótaryž mjenjej kodowych změnow dostawa a za jadnolětny ESR-cyklus stabilny wóstawa.
 webext-install-suppressed-message = Dodank <> njedajo se instalěrowaś, dokulaž eksperimentowe API wužywa, kótarež se pśez toś tu wersiju Thunderbird njepódpěraju.
 webext-install-suppressed-details = Dodanki z eksperimentowymi API se jano na { -brand-product-name } ESR pódpěraju.
 # Variables:
