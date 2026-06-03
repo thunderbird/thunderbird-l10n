@@ -17,6 +17,9 @@ cert-error-not-yet-valid = Certifikát pro { $hostname } bude platný až od { $
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-untrusted-default = Certifikát pro { $hostname } nepochází z důvěryhodného zdroje.
 # Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server.
+cert-error-ssl-connection-error = Při připojování k { $hostname } nastala chyba.
+# Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-domain-mismatch =
     .title = Chyba připojení. Certifikát pro { $hostname } není pro tento server platný. Někdo se může pokoušet vydávat za server a neměli byste pokračovat. Klepnutím otevřete nastavení zabezpečení serveru.
@@ -34,6 +37,10 @@ cert-error-inline-not-yet-valid =
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-untrusted-default =
     .title = Chyba připojení. Certifikát pro { $hostname } nepochází z důvěryhodného zdroje. Klepnutím otevřete nastavení zabezpečení serveru.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server.
+cert-error-inline-ssl-connection-error =
+    .title = Při připojování k { $hostname } nastala chyba.
 certificate-check-test-button = Vyzkoušet spojení se serverem
 certificate-check-view-button = Zobrazit certifikát
 certificate-check-add-exception-button = Přidat výjimku
