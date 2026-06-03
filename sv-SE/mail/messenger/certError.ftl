@@ -17,6 +17,9 @@ cert-error-not-yet-valid = Certifikatet för { $hostname } kommer inte att vara 
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-untrusted-default = Certifikatet för { $hostname } kommer inte från en betrodd källa.
 # Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server.
+cert-error-ssl-connection-error = Ett fel uppstod vid anslutningen till { $hostname }.
+# Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-domain-mismatch =
     .title = Anslutningsfel. Certifikatet för { $hostname } är inte giltigt för den servern. Någon försöker att efterlikna servern och du borde inte fortsätta. Klicka för att öppna serverns säkerhetsinställningar.
@@ -34,6 +37,10 @@ cert-error-inline-not-yet-valid =
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-untrusted-default =
     .title = Anslutningsfel. Certifikatet för { $hostname } kommer inte från en betrodd källa. Klicka för att öppna serverns säkerhetsinställningar.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server.
+cert-error-inline-ssl-connection-error =
+    .title = Ett fel uppstod vid anslutningen till { $hostname }.
 certificate-check-test-button = Testa anslutningen till servern
 certificate-check-view-button = Visa certifikat
 certificate-check-add-exception-button = Lägg till undantag

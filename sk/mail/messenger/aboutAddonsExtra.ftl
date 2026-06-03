@@ -11,5 +11,7 @@ atn-addons-heading-search-input =
 atn-addons-heading-search-button =
     .title = Hľadať na addons.thunderbird.net
     .aria-label = Hľadať na addons.thunderbird.net
+details-notification-suppressed-esr-2 =
+    .message = Doplnok bol zakázaný, pretože používa staršie rozhrania API. Doplnky so staršími rozhraniami API môžu upravovať každú časť { -brand-product-name(case: "gen") } a je potrebné ich aktualizovať, skontrolovať a schváliť vždy, keď sa zmení samotný { -brand-product-name }. Takéto doplnky preto nie sú podporované touto verziou { -brand-product-name(case: "gen") }, ale iba verziou { -brand-product-name } ESR, ktorá dostáva menej zmien kódu a zostáva stabilná počas celého jednoročného cyklu ESR.
 details-notification-suppressed-esr =
     .message = Doplnok bol zakázaný, pretože používa experimentálne rozhrania API. Tieto rozhrania API sú obmedzené na vydanie { -brand-product-name } ESR a nie sú podporované v tejto verzii { -brand-product-name(case: "gen") }.
