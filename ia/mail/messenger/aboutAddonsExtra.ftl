@@ -11,5 +11,7 @@ atn-addons-heading-search-input =
 atn-addons-heading-search-button =
     .title = Cercar in addons.thunderbird.net
     .aria-label = Cercar in addons.thunderbird.net
+details-notification-suppressed-esr-2 =
+    .message = Le additivo era disactivate perque illo usa ancian APIs. Le additivos con ancian APIs pote modificar cata parte de { -brand-product-name } e debe esser actualisate, revidite e approbate quandocunque { -brand-product-name } mesme cambia. Tal additivos dunque non es supportate per iste version de { -brand-product-name }, ma solo per { -brand-product-name } ESR, que recipe minus cambiamentos de codification e sta stabile in omne parte del cyclo ESR de 1-anno.
 details-notification-suppressed-esr =
     .message = Le additivo era disactivate perque illo usa Experiment APIs. Iste APIs es limitate a { -brand-product-name } ESR e non es supportate in iste version de { -brand-product-name }.
