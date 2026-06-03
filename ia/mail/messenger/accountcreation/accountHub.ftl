@@ -54,6 +54,7 @@ account-hub-result-incoming-legend = Entrante
     .title = Entrante
 account-hub-result-outgoing-legend = Exiente
     .title = Exiente
+account-hub-all-servers-legend = Tote le servitores
 account-hub-incoming-server-legend = Servitor de arrivata
 account-hub-outgoing-server-legend = Servitor in exito
 account-hub-result-incoming-server-legend = Servitor de arrivata

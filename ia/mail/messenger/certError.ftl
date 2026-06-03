@@ -17,6 +17,9 @@ cert-error-not-yet-valid = Le certificato pro { $hostname } non sera valide usqu
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-untrusted-default = Le certificato pro { $hostname } non proveni de un fonte digne de fide.
 # Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server.
+cert-error-ssl-connection-error = Un error occurreva durante le connexion a { $hostname }.
+# Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-domain-mismatch =
     .title = Error de connexion. Le certificato pro { $hostname } non es valide pro ille servitor. Alicuno poterea tentar de impersonificar le servitor e tu non debe continuar. Clicca pro aperir le configuration de securitate del servitor.
@@ -34,6 +37,10 @@ cert-error-inline-not-yet-valid =
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-untrusted-default =
     .title = Error de connexion. Le certificato pro { $hostname } non veni de un fonte digne de fide. Clicca pro aperir le configuration de securitate del servitor.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server.
+cert-error-inline-ssl-connection-error =
+    .title = Un error occurreva durante le connexion a { $hostname }.
 certificate-check-test-button = Verificar connexion a servitor
 certificate-check-view-button = Vider certificato
 certificate-check-add-exception-button = Adder exception
