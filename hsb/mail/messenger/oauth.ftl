@@ -7,3 +7,6 @@
 ## without user interaction.
 
 oauth-reauthorize-title = Přistup znowa awtorizować
+# $hostname (String) - The hostname the reauthorization will be for.
+# $username (String) - The username that should be used in the reauthorization.
+oauth-reauthorize-description = { $hostname } sej žada, zo přistup znowa wobkrućeće, zo by so ze synchronizaciju pokročowało. Wužiwarske mjeno: { $username }
