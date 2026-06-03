@@ -6,7 +6,7 @@
 ## Prompt shown before reauthorization in external browser when it is triggered
 ## without user interaction.
 
-oauth-reauthorize-title = Ailawdurdodi mynediad
+oauth-reauthorize-title = Ail awdurdodi mynediad
 # $hostname (String) - The hostname the reauthorization will be for.
 # $username (String) - The username that should be used in the reauthorization.
-oauth-reauthorize-description = Mae { $hostname } angen i chi gadarnhau mynediad eto er mwyn parhau i gysoni â'ch cyfrif. Enw defnyddiwr: { $username }
+oauth-reauthorize-description = Mae { $hostname } angen i chi gadarnhau mynediad eto er mwyn parhau i gydweddu â'ch cyfrif. Enw defnyddiwr: { $username }
