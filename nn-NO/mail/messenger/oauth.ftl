@@ -7,3 +7,6 @@
 ## without user interaction.
 
 oauth-reauthorize-title = Godkjenn tilgang på nytt
+# $hostname (String) - The hostname the reauthorization will be for.
+# $username (String) - The username that should be used in the reauthorization.
+oauth-reauthorize-description = { $hostname } treng at du godkjenner tilgangen på nytt for å halde fram med å synkronisere med kontoen din. Brukarnamn: { $username }
