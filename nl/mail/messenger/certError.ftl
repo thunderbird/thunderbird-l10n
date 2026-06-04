@@ -17,6 +17,9 @@ cert-error-not-yet-valid = Het certificaat voor { $hostname } is pas geldig vana
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-untrusted-default = Het certificaat voor { $hostname } komt niet van een vertrouwde bron.
 # Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server.
+cert-error-ssl-connection-error = Er is een fout opgetreden bij het verbinden met { $hostname }.
+# Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-domain-mismatch =
     .title = Verbindingsfout. Het certificaat voor { $hostname } is niet geldig voor die server. Iemand kan proberen de server na te bootsen, en u kunt beter niet verdergaan. Klik om serverbeveiligingsinstellingen te openen.
@@ -34,6 +37,10 @@ cert-error-inline-not-yet-valid =
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-untrusted-default =
     .title = Verbindingsfout. Het certificaat voor { $hostname } komt niet van een vertrouwde bron. Klik om serverbeveiligingsinstellingen te openen.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server.
+cert-error-inline-ssl-connection-error =
+    .title = Er is een fout opgetreden bij het verbinden met { $hostname }.
 certificate-check-test-button = Verbinding met server testen
 certificate-check-view-button = Certificaat bekijken
 certificate-check-add-exception-button = Uitzondering toevoegen
