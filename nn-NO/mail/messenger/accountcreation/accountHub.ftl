@@ -227,6 +227,7 @@ account-hub-result-graph-shortname = Exchange (Graph)
 account-hub-result-graph-description = Bruk Microsoft Graph API til å synkronisere mapper og e-postar
 account-hub-result-exchange-description = Synkroniser mapper og e-postar med Exchange eller Office 365
 account-hub-result-ews-text = Server
+account-hub-result-ews-expanded-text = Exchange-webtenester
 account-hub-result-graph-expanded-text = Graph API
 account-hub-result-recommended-label = Tilrådd
 account-hub-result-addon-label = Krev tillegg
