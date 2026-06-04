@@ -17,6 +17,9 @@ cert-error-not-yet-valid = Sertifikatet for { $hostname } vil ikke være gyldig 
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-untrusted-default = Sertifikatet for { $hostname } kommer ikke fra en pålitelig kilde.
 # Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server.
+cert-error-ssl-connection-error = Det oppstod en feil ved tilkobling til { $hostname }.
+# Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-domain-mismatch =
     .title = Tilkoblingsfeil. Sertifikatet for { $hostname } er ikke gyldig for den serveren. Noen kan prøve å utgi seg for å være serveren, og du bør ikke fortsette. Klikk for å åpne serverens sikkerhetsinnstillinger.
@@ -34,6 +37,10 @@ cert-error-inline-not-yet-valid =
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-untrusted-default =
     .title = Tilkoblingsfeil. Sertifikatet for { $hostname } kommer ikke fra en pålitelig kilde. Klikk for å åpne serverens sikkerhetsinnstillinger.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server.
+cert-error-inline-ssl-connection-error =
+    .title = Det oppstod en feil ved tilkobling til { $hostname }.
 certificate-check-test-button = Test tilkobling til serveren
 certificate-check-view-button = Vis sertifikat
 certificate-check-add-exception-button = Legg til unntak
