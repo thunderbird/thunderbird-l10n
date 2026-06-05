@@ -17,6 +17,9 @@ cert-error-not-yet-valid = It sertifikaat foar { $hostname } is pas jildich fan 
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-untrusted-default = It sertifikaat foar { $hostname } komt net fan in fertroude boarne.
 # Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server.
+cert-error-ssl-connection-error = Der is in flater bard by it ferbinen mei { $hostname }.
+# Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-domain-mismatch =
     .title = Ferbiningsflater. It sertifikaat foar { $hostname } is net jildich foar dy server. Immen kin probearje de server oars foar te dwaan en jo kinne better net trochgean. Klik om serverbefeiligingsynstellingen te iepenjen.
@@ -34,6 +37,10 @@ cert-error-inline-not-yet-valid =
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-untrusted-default =
     .title = Ferbiningsflater. It sertifikaat foar { $hostname } komt net fan in fertroude boarne. Klik om de serverbefeiligensynstellingen te iepenjen.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server.
+cert-error-inline-ssl-connection-error =
+    .title = Der is in flater bard by it ferbinen mei { $hostname }.
 certificate-check-test-button = Ferbining mei server teste
 certificate-check-view-button = Sertifikaat besjen
 certificate-check-add-exception-button = Utsûndering tafoegje

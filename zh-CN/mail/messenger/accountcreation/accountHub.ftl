@@ -226,6 +226,7 @@ account-hub-result-graph-shortname = Exchange（Graph）
 account-hub-result-graph-description = 使用 Microsoft Graph API 同步文件夹和电子邮件
 account-hub-result-exchange-description = 与 Exchange 或 Office 365 同步文件夹和邮件
 account-hub-result-ews-text = 服务器
+account-hub-result-ews-expanded-text = Exchange Web 服务
 account-hub-result-graph-expanded-text = Graph API
 account-hub-result-recommended-label = 推荐
 account-hub-result-addon-label = 需要使用附加组件
