@@ -5,6 +5,9 @@
 new-account-label = บัญชีใหม่
 # Instant messaging account status window for Thunderbird
 accounts-window-title = สถานะข้อความโต้ตอบแบบทันที
+account-manager-add-account =
+    .label = { add-account-label }
+    .accesskey = พ
 account-manager-new-account =
     .label = { new-account-label }
     .accesskey = บ
@@ -15,6 +18,7 @@ account-manager-close-command =
     .key = a
 # This title must be short, displayed with a big font size
 account-manager-no-account-title = ยังไม่มีบัญชีที่กำหนดค่า
+account-manager-no-accounts-description = คลิกที่ปุ่ม { add-account-label } เพื่อให้ { -brand-short-name } แนะนำกระบวนการกำหนดค่าให้กับคุณ
 account-manager-no-account-description = คลิกที่ปุ่ม { new-account-label } เพื่อให้ { -brand-short-name } แนะนำกระบวนการกำหนดค่าให้กับคุณ
 account-auto-sign-on =
     .label = ลงชื่อเข้าเมื่อเริ่มการทำงาน
@@ -40,3 +44,4 @@ account-disconnecting =
     .value = กำลังตัดการเชื่อมต่อ…
 account-disconnected =
     .value = ไม่ได้เชื่อมต่อ
+add-account-label = เพิ่มบัญชี

@@ -20,6 +20,8 @@ calendar-enable-button = เปิดใช้งาน
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-context-button =
     .title = ตัวเลือกปฏิทิน { $calendarName }
+calendar-add-calendar = เพิ่มปฏิทิน…
+    .title = สร้างหรือบอกรับปฏิทิน
 calendar-import-new-calendar = ปฏิทินใหม่…
     .title = สร้างหรือสมัครรับข้อมูลปฏิทินใหม่
 calendar-refresh-calendars =
