@@ -76,6 +76,7 @@ items-pane-checkbox-address-books = Llibretes d'adreces
 items-pane-checkbox-calendars = Calendaris
 items-pane-checkbox-mail-messages = Missatges de correu
 items-pane-override = Les dades existents o idèntiques no se sobreescriuran.
+items-pane-nothing-to-import = No es pot importar res de la font seleccionada.
 
 ## Import from address book file steps
 
