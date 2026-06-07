@@ -51,6 +51,11 @@ appmenu-new-newsgroup =
     .label = Grupo de notícias
     .accesskey = n
 
+## Add Account
+
+appmenu-add-account-panel-title =
+    .title = Adicionar conta
+
 ## New Account / Address Book
 
 appmenu-newab-panel-title =

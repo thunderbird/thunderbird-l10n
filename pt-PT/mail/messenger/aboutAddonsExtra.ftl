@@ -5,8 +5,11 @@
 add-on-options-button =
     .title = Opções de complementos
 add-on-search-alternative-button-label = Procurar por um complemento alternativo
+add-on-learn-more-and-search-alternative-button-label = Saiba mais e encontre um complemento alternativo
 atn-addons-heading-search-input =
     .placeholder = Pesquisar addons.thunderbird.net
 atn-addons-heading-search-button =
     .title = Procurar em addons.thunderbird.net
     .aria-label = Procurar em addons.thunderbird.net
+details-notification-suppressed-esr =
+    .message = O complemento foi desativado porque utiliza API Experimentais. Estas API estão limitadas ao { -brand-product-name } ESR e já não são suportadas nesta versão do { -brand-product-name }.

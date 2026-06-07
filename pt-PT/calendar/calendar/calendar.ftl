@@ -24,6 +24,10 @@ ask-save-title-event = Guardar Evento
 ask-save-title-task = Guardar Tarefa
 ask-save-message-event = O evento não foi guardado. Deseja guardar o evento?
 ask-save-message-task = A tarefa não foi guardada. Deseja guardar a tarefa?
+# All day checkbox label, used both for events and tasks
+calendar-item-all-day =
+    .label = Todo o dia
+    .accesskey = d
 # Event Dialog Warnings
 warning-end-before-start = A data de fim é anterior à data de início
 warning-until-date-before-start = A data "Até" ocorre antes da data de início
