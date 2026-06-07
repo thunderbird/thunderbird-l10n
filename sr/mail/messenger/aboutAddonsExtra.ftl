@@ -11,5 +11,7 @@ atn-addons-heading-search-input =
 atn-addons-heading-search-button =
     .title = Претражи addons.thunderbird.net
     .aria-label = Претражи addons.thunderbird.net
+details-notification-suppressed-esr-2 =
+    .message = Додатак је онемогућен јер користи застареле API-је. Додаци са застарелим API-јима могу да измене сваки део { -brand-product-name } и потребно их је ажурирати, прегледати и одобрити кад год се сам { -brand-product-name } промени. Такви додаци стога нису подржани овим издањем { -brand-product-name }-а, већ само од стране { -brand-product-name } ESR-а, који добија мање промена кода и остаје стабилан током једногодишњег ESR циклуса.
 details-notification-suppressed-esr =
     .message = Додатак је онемогућен јер користи експерименталне API-је. Ови API-ји су ограничени на { -brand-product-name } ESR и нису подржани у овом издању { -brand-product-name }-а.
