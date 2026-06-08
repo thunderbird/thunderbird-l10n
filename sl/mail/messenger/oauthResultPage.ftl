@@ -20,3 +20,4 @@ oauth-success-body = To okno lahko zaprete.
 ## Authentication error
 
 oauth-error-title = Prijave ni bilo mogoče dokončati
+oauth-error-subtitle = { -brand-short-name } s temi nastavitvami ni uspel dokončati prijave.
