@@ -25,3 +25,10 @@ oauth-success-body = Toto okno můžete zavřít.
 
 oauth-error-title = Přihlášení se nepodařilo dokončit
 oauth-error-subtitle = { -brand-short-name } nemohl dokončit přihlášení s tímto nastavením.
+# New lines in the string will be converted into new lines in the output.
+# $linkStart (String) - Link prefix. Has to always be before $linkEnd. Has no visible content.
+# $linkEnd (String) - Link suffix. Has to always be after $linkStart. Has no visible content.
+oauth-error-body =
+    Vraťte se do { -brand-short-name(case: "gen") }, zkontrolujte nastavení svého účtu a zkuste to znovu.
+    
+    Pokud problém přetrvává, najdete pomoc v článku { $linkStart }Řešení problémů s přihlášením k účtu{ $linkEnd }.
