@@ -17,6 +17,9 @@ cert-error-not-yet-valid = Digitalno potrdilo za { $hostname } začne veljati { 
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-untrusted-default = Digitalno potrdilo za { $hostname } ne prihaja iz zaupanja vrednega vira.
 # Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server.
+cert-error-ssl-connection-error = Pri povezovanju z { $hostname } je prišlo do napake.
+# Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-domain-mismatch =
     .title = Napaka pri povezovanju. Digitalno potrdilo za { $hostname } ni veljavno za ta strežnik. Morda ga nekdo poskuša lažno predstavljati, zato ne nadaljujte. Kliknite, da odprete varnostne nastavitve strežnika.
@@ -34,6 +37,10 @@ cert-error-inline-not-yet-valid =
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-untrusted-default =
     .title = Napaka pri povezovanju. Digitalno potrdilo za { $hostname } ne prihaja iz zaupanja vrednega vira. Kliknite, da odprete varnostne nastavitve strežnika.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server.
+cert-error-inline-ssl-connection-error =
+    .title = Pri povezovanju z { $hostname } je prišlo do napake.
 certificate-check-test-button = Preizkusi povezavo s strežnikom
 certificate-check-view-button = Preglej digitalno potrdilo
 certificate-check-add-exception-button = Dodaj izjemo
