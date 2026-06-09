@@ -746,6 +746,12 @@ remote-content-option-allow-all =
 
 ## Tags
 
+tags-add-new =
+    .label = Nowe wobznamjenje…
+    .accesskey = N
+tags-manage =
+    .label = Wobznamjenja zastojaś…
+    .accesskey = W
 # Variables:
 #   $name (String) - The default or user-defined name of the tag.
 tags-format-without-accesskey =
