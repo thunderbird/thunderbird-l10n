@@ -303,6 +303,12 @@ remote-content-option-allow-all =
 
 ## Tags
 
+tags-add-new =
+    .label = Նոր պիտակ...
+    .accesskey = N
+tags-manage =
+    .label = Կառավարել պիտակները...
+    .accesskey = M
 # Variables:
 #   $name (String) - The default or user-defined name of the tag.
 tags-format-without-accesskey =
