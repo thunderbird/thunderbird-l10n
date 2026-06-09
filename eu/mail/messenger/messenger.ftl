@@ -145,6 +145,9 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Ikuspegi trinkoa
     .accesskey = t
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -527,12 +530,24 @@ openpgp-forget = Ahaztu OpenPGP pasa-esdaldiak
 quota-panel-percent-used = { $percent }% full
     .title = IMAP kuota: { $usage } erabilia { $limit } guztirako limitetik
 
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
 
 ## Actions for the New Mail Notification
 
@@ -579,6 +594,12 @@ and-others = eta beste
 
 prompt-dont-ask-again = Ez galdetu berriz.
 
+## Spam commands
+
+
+## Ignore threads
+
+
 ## Attachments
 
 # Variables:
@@ -603,3 +624,13 @@ remote-content-option-allow-all =
             [one] Baimendu urruneko edukia goian zerrendatutako { $count } jatorritik
            *[other] Baimendu urruneko edukiak goian zerrendatutako { $count } jatorrietatik
         }
+
+## Tags
+
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
+
+## OAuth2 loopback listener response page.
+
