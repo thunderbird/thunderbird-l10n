@@ -619,6 +619,9 @@ prompt-dont-ask-again = ไม่ต้องถามอีก
 spam-analysis-percentage = การวิเคราะห์สแปมเสร็จสมบูรณ์ { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") }
 spam-processing-message = กำลังประมวลผลข้อความสแปม
 
+## Ignore threads
+
+
 ## Attachments
 
 # Variables:
@@ -635,3 +638,13 @@ allow-remote-content-resource =
 #    $count - the number of origins to allow
 remote-content-option-allow-all =
     .label = อนุญาตเนื้อหาระยะไกลจาก { $count } ที่มาที่ระบุไว้ด้านบน
+
+## Tags
+
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
+
+## OAuth2 loopback listener response page.
+
