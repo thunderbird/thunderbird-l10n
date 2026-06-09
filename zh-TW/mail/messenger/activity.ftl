@@ -37,3 +37,14 @@ gloda-indexed-folder = 已建立 { $folder } 中 { $count } 封郵件的索引
 # Variables:
 #   $count - number of seconds
 gloda-indexed-folder-status = 費時 { $count } 秒
+# Status line shown under extension-send-activity-live, updated after every send.
+# Variables:
+#   $count (Number) - number of messages sent so far in this batch
+extension-send-activity-progress = 已寄出 { $count } 封訊息
+# Status line shown under extension-send-activity-event. Reports how many
+# messages were sent and the wall-clock time between the first and last send in
+# the batch (rounded to whole seconds, at least one).
+# Variables:
+#   $count (Number) - number of messages sent in this batch
+#   $seconds (Number) - elapsed seconds between the first and last send
+extension-send-activity-event-status = 於 { $seconds } 秒內傳送 { $count } 封訊息
