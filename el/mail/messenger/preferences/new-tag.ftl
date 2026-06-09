@@ -3,9 +3,11 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 tag-dialog-title = Νέα ετικέτα
+tag-edit-dialog-title = Επεξεργασία ετικέτας
 tag-name-label =
     .value = Όνομα ετικέτας:
     .accesskey = τ
 tag-color-label =
     .value = Χρώμα:
     .accesskey = Χ
+tag-already-exists = Υπάρχει ήδη ετικέτα με αυτό το όνομα.
