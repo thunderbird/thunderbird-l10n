@@ -3,9 +3,11 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 tag-dialog-title = Nova etiqueta
+tag-edit-dialog-title = Editar etiqueta
 tag-name-label =
     .value = Nome da etiqueta:
     .accesskey = t
 tag-color-label =
     .value = Cor:
     .accesskey = C
+tag-already-exists = Já existe uma etiqueta com este nome.
