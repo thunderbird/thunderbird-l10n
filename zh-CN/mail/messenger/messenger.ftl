@@ -673,6 +673,19 @@ allow-remote-content-resource =
 remote-content-option-allow-all =
     .label = 允许上方列出的 { $count } 个来源的远程内容
 
+## Tags
+
+tags-add-new =
+    .label = 新建标签…
+    .accesskey = N
+tags-manage =
+    .label = 管理标签…
+    .accesskey = M
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
+
 ## OAuth2 loopback listener response page.
 
 oauth2-loopback-success = 您可以关闭此窗口。
