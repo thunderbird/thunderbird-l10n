@@ -276,12 +276,26 @@ remote-content-option-allow-all =
 
 ## Tags
 
+tags-label-1 = Svarīgi
+tags-label-2 = Darbs
+tags-label-3 = Personīgs
+tags-label-4 = Darāmais
+tags-label-5 = Vēlāk
 tags-add-new =
     .label = Jauna birka…
     .accesskey = J
 tags-manage =
     .label = Pārvaldīt birkas…
     .accesskey = P
+tags-remove-all =
+    .label = Noņemt visas birkas
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
 # Variables:
 #   $name (String) - The default or user-defined name of the tag.
 tags-format-without-accesskey =
