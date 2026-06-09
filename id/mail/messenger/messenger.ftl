@@ -654,3 +654,13 @@ allow-remote-content-resource =
 #    $count - the number of origins to allow
 remote-content-option-allow-all =
     .label = Izinkan konten jarak jauh dari asal { $count } yang terdaftar di atas
+
+## Tags
+
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
+
+## OAuth2 loopback listener response page.
+
