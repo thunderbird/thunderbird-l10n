@@ -3,9 +3,11 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 tag-dialog-title = Нова мітка
+tag-edit-dialog-title = Змінити мітку
 tag-name-label =
     .value = Назва мітки:
     .accesskey = Н
 tag-color-label =
     .value = Колір:
     .accesskey = К
+tag-already-exists = Така мітка вже існує.
