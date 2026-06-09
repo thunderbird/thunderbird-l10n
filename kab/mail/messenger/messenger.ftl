@@ -530,12 +530,26 @@ remote-content-option-allow-all =
 
 ## Tags
 
+tags-label-1 = Aktar
+tags-label-2 = Amahil
+tags-label-3 = Udmawan
+tags-label-4 = Ad ittumeg
+tags-label-5 = Ticki
 tags-add-new =
     .label = Tabzimt tamaynut…
     .accesskey = b
 tags-manage =
     .label = Sefrek tibzimin…
     .accesskey = f
+tags-remove-all =
+    .label = Kkes akk tibzimin
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
 # Variables:
 #   $name (String) - The default or user-defined name of the tag.
 tags-format-without-accesskey =
