@@ -545,12 +545,26 @@ remote-content-option-allow-all =
 
 ## Tags
 
+tags-label-1 = Cudromach
+tags-label-2 = Obair
+tags-label-3 = Pearsanta
+tags-label-4 = Ri dhèanamh
+tags-label-5 = An ceann tamaill
 tags-add-new =
     .label = Taga ùr…
     .accesskey = T
 tags-manage =
     .label = Stiùirich na tagaichean…
     .accesskey = S
+tags-remove-all =
+    .label = Thoir air falbh a h-uile taga
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
 # Variables:
 #   $name (String) - The default or user-defined name of the tag.
 tags-format-without-accesskey =
