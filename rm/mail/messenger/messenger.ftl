@@ -619,12 +619,26 @@ remote-content-option-allow-all =
 
 ## Tags
 
+tags-label-1 = Impurtant
+tags-label-2 = Lavur
+tags-label-3 = Persunal
+tags-label-4 = Da far
+tags-label-5 = Pli tard
 tags-add-new =
     .label = Nova etichetta…
     .accesskey = N
 tags-manage =
     .label = Administrar las etichettas…
     .accesskey = M
+tags-remove-all =
+    .label = Allontanar tut las etichettas
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
 # Variables:
 #   $name (String) - The default or user-defined name of the tag.
 tags-format-without-accesskey =
