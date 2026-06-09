@@ -663,6 +663,9 @@ prompt-dont-ask-again = Não perguntar novamente.
 spam-analysis-percentage = Análise de spam { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } concluída
 spam-processing-message = Processando mensagens de spam
 
+## Ignore threads
+
+
 ## Attachments
 
 # Variables:
@@ -687,3 +690,13 @@ remote-content-option-allow-all =
             [one] Permitir o conteúdo remoto da { $count } origem listada acima
            *[other] Permitir o conteúdo remoto de todas as { $count } origens listadas acima
         }
+
+## Tags
+
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
+
+## OAuth2 loopback listener response page.
+
