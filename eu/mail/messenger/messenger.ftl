@@ -627,6 +627,26 @@ remote-content-option-allow-all =
 
 ## Tags
 
+tags-label-1 = Garrantzitsua
+tags-label-2 = Lanekoa
+tags-label-3 = Pertsonala
+tags-label-4 = Egiteke
+tags-label-5 = Geroago
+tags-add-new =
+    .label = Etiketa berria…
+    .accesskey = b
+tags-manage =
+    .label = Kudeatu etiketak…
+    .accesskey = K
+tags-remove-all =
+    .label = Ezabatu etiketa guztiak
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
 # Variables:
 #   $name (String) - The default or user-defined name of the tag.
 tags-format-without-accesskey =
