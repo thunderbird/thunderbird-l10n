@@ -69,3 +69,9 @@ gloda-indexed-folder-status =
         [one] { $count } secunda passate
        *[other] { $count } secundas passate
     }
+# Display line of the live Activity Manager process shown while a WebExtension
+# is actively sending messages via messages.sendMessage(). The running count is
+# shown in the status line below.
+# Variables:
+#   $extensionName (String) - the extension's name
+extension-send-activity-live = Le extension “{ $extensionName }” invia messages inexpectate.
