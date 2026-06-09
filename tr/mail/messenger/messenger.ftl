@@ -662,6 +662,9 @@ prompt-dont-ask-again = Tekrar sorma.
 spam-analysis-percentage = Spam analizi { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } tamamlandı
 spam-processing-message = Spam iletiler işleniyor
 
+## Ignore threads
+
+
 ## Attachments
 
 # Variables:
@@ -686,6 +689,13 @@ remote-content-option-allow-all =
             [one] Yukarıdaki { $count } kökenli uzak içeriğe izin ver
            *[other] Yukarıdaki { $count } kökenden gelen uzak içeriğe izin ver
         }
+
+## Tags
+
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
 
 ## OAuth2 loopback listener response page.
 
