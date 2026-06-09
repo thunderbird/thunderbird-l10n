@@ -967,7 +967,7 @@ sync-disconnected-turn-on-sync = Укључи синхронизацију…
 
 qr-export-pane-header = Извези налоге на { -brand-product-name } мобилни
 qr-export-description = Брзо пренесите подешавања вашег налога са рачунара на мобилни генерисањем КР кода. Изаберите налоге које желите да укључите, одлучите да ли желите да пренесете лозинку и скенирајте код својим мобилним уређајем. Брзо, безбедно и једноставно.
-qr-export-get-app = Још увек немате { -brand-product-name } на мобилном? <a data-l10n-name="app-link">Преузмите га на Google Play продавници</a>
+qr-export-get-app = Још увек немате { -brand-product-name } на мобилном? <a data-l10n-name="app-link">Преузмите га у Google Play продавници</a>
 qr-export-create = Направите КР код за извоз својих налога
 qr-export-select-accounts = Изаберите налоге за извоз:
 qr-export-no-accounts = Не видите све своје налоге? Неки налози могу бити онемогућени јер их { -brand-product-name } за Android не подржава. <a data-l10n-name="account-support-link">Подршка</a>

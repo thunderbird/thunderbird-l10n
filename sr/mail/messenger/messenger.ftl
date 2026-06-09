@@ -321,7 +321,7 @@ mail-context-menu-forward-as-attachment =
             [few] Као прилоге
            *[other] Као прилоге
         }
-    .accesskey = е
+    .accesskey = г
 mail-context-menu-organize =
     .label = Преуреди
     .accesskey = д
