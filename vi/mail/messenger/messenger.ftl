@@ -670,6 +670,13 @@ allow-remote-content-resource =
 remote-content-option-allow-all =
     .label = Cho phép nội dung từ xa từ tất cả { $count } nguồn gốc được liệt kê ở trên
 
+## Tags
+
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
+
 ## OAuth2 loopback listener response page.
 
 oauth2-loopback-success = Bạn có thể đóng cửa sổ này.
