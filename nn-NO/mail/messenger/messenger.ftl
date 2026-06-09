@@ -713,6 +713,20 @@ remote-content-option-allow-all =
 
 ## Tags
 
+tags-label-1 = Viktig
+tags-label-2 = Arbeid
+tags-label-3 = Personleg
+tags-label-4 = Å gjere
+tags-label-5 = Seinare
+tags-remove-all =
+    .label = Slett alle etikettar
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
 # Variables:
 #   $name (String) - The default or user-defined name of the tag.
 tags-format-without-accesskey =
