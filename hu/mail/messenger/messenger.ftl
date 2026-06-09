@@ -714,12 +714,26 @@ remote-content-option-allow-all =
 
 ## Tags
 
+tags-label-1 = Fontos
+tags-label-2 = Munka
+tags-label-3 = Személyes
+tags-label-4 = Teendők
+tags-label-5 = Később
 tags-add-new =
     .label = Új címke…
     .accesskey = c
 tags-manage =
     .label = Címkék kezelése…
     .accesskey = m
+tags-remove-all =
+    .label = Minden címke törlése
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
 # Variables:
 #   $name (String) - The default or user-defined name of the tag.
 tags-format-without-accesskey =
