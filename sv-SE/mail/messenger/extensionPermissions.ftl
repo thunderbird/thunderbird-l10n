@@ -26,6 +26,7 @@ webext-perms-description-messagesDelete = Ta bort dina e-postmeddelanden permane
 webext-perms-description-messagesRead2 = Läs dina e-postmeddelanden
 webext-perms-description-messagesUpdate = Ändra egenskaper och taggar för dina e-postmeddelanden
 webext-perms-description-messages-send = Skicka programmatiskt e-postmeddelanden i bulk åt dig, utan visuell feedback. Använd aktivitetshanteraren för att granska tilläggets sändningshistorik.
+webext-perms-description-messages-save = Spara e-postmeddelanden som utkast eller mallar programmatiskt, utan din interaktion
 webext-perms-description-messagesTags = Skapa, ändra och ta bort meddelandetaggar
 webext-perms-description-messagesTagsList = Lista meddelandetaggar
 webext-perms-description-sensitiveDataUpload = Överför känslig användardata (om åtkomst har beviljats) till en fjärrserver för vidare bearbetning
