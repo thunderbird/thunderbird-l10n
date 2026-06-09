@@ -249,12 +249,26 @@ attachment-view-attachment-count =
 
 ## Tags
 
+tags-label-1 = Importante
+tags-label-2 = Trabayu
+tags-label-3 = Personal
+tags-label-4 = Por facer
+tags-label-5 = Más sero
 tags-add-new =
     .label = Etiqueta nueva…
     .accesskey = N
 tags-manage =
     .label = Alministrar etiquetes…
     .accesskey = m
+tags-remove-all =
+    .label = Desaniciar toles etiquetes
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
 # Variables:
 #   $name (String) - The default or user-defined name of the tag.
 tags-format-without-accesskey =
