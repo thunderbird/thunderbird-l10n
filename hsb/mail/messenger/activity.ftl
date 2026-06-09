@@ -85,3 +85,32 @@ gloda-indexed-folder-status =
         [few] { $count } sekundy zańdźene
        *[other] { $count } sekundow zańdźenych
     }
+# Display line of the live Activity Manager process shown while a WebExtension
+# is actively sending messages via messages.sendMessage(). The running count is
+# shown in the status line below.
+# Variables:
+#   $extensionName (String) - the extension's name
+extension-send-activity-live = Rozšěrjenje “{ $extensionName }” njewočakowane powěsće sćele.
+# Status line shown under extension-send-activity-live, updated after every send.
+# Variables:
+#   $count (Number) - number of messages sent so far in this batch
+extension-send-activity-progress =
+    { $count ->
+        [one] { $count } powěsć pósłana
+        [two] { $count } powěsći pósłanej
+        [few] { $count } powěsće pósłane
+       *[other] { $count } powěsćow pósłane
+    }
+# Permanent Activity Manager entry written when the live send process is
+# finalized, 10 seconds after the last send in a batch. The count and elapsed
+# time are carried in the status line below (extension-send-activity-event-status).
+# Variables:
+#   $extensionName (String) - the extension's name
+#   $count (Number) - number of messages sent in this batch
+extension-send-activity-event =
+    { $count ->
+        [one] Rozšěrjenje “{ $extensionName }” jo { NUMBER($count) } njewočakowanu powěsć pósłało
+        [two] Rozšěrjenje “{ $extensionName }” jo { NUMBER($count) } njewočakowanej powěsći pósłało
+        [few] Rozšěrjenje “{ $extensionName }” jo { NUMBER($count) } njewočakowane powěsće pósłało
+       *[other] Rozšěrjenje “{ $extensionName }” jo { NUMBER($count) } njewočakowanych powěsćow pósłało
+    }
