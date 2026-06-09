@@ -411,6 +411,26 @@ remote-content-option-allow-all =
 
 ## Tags
 
+tags-label-1 = Svarbus
+tags-label-2 = Darbo
+tags-label-3 = Asmeninis
+tags-label-4 = Dabar
+tags-label-5 = Vėliau
+tags-add-new =
+    .label = Nauja gairė…
+    .accesskey = N
+tags-manage =
+    .label = Tvarkyti gaires…
+    .accesskey = T
+tags-remove-all =
+    .label = Pašalinti visas gaires
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
 # Variables:
 #   $name (String) - The default or user-defined name of the tag.
 tags-format-without-accesskey =
