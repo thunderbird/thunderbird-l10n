@@ -256,6 +256,12 @@ attachment-view-attachment-count = ឯកសារ​ភ្ជាប់ { $count
 
 ## Tags
 
+tags-add-new =
+    .label = Նոր պիտակ...
+    .accesskey = N
+tags-manage =
+    .label = គ្រប់គ្រង​ស្លាក...
+    .accesskey = M
 # Variables:
 #   $name (String) - The default or user-defined name of the tag.
 tags-format-without-accesskey =
