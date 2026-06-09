@@ -371,12 +371,26 @@ remote-content-option-allow-all =
 
 ## Tags
 
+tags-label-1 = K'atzinel
+tags-label-2 = Samaj
+tags-label-3 = Ichinan
+tags-label-4 = K'o chi Nib'an
+tags-label-5 = Jub'a' chik na
 tags-add-new =
     .label = K'ak'a' Etal…
     .accesskey = K
 tags-manage =
     .label = Kenuk'samajïx taq Etal…
     .accesskey = K
+tags-remove-all =
+    .label = Keyuj Ronojel taq Etal
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
 # Variables:
 #   $name (String) - The default or user-defined name of the tag.
 tags-format-without-accesskey =

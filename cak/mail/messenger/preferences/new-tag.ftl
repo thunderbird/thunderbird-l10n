@@ -3,6 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 tag-dialog-title = K'ak'a' Etal
+tag-edit-dialog-title = Tinuk' Etal
 tag-name-label =
     .value = Rub'i' Etal:
     .accesskey = E
+tag-already-exists = K'o chik jun yaketal ke re' rub'i'.
