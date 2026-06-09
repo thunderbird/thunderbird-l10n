@@ -3,6 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 tag-dialog-title = Новы тэг
+tag-edit-dialog-title = Рэдагаваць метку
 tag-name-label =
     .value = Назва меткі:
     .accesskey = м
+tag-already-exists = Метка з такою назваю ўжо існуе.

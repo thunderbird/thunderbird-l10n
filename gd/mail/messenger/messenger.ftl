@@ -151,6 +151,9 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Sealladh dùmhail
     .accesskey = S
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -333,6 +336,9 @@ no-reply-title = Chan eil taic ri freagairtean
 no-reply-message = Tha coltas nach eil duine sam bith a’ cumail sùil air an t-seòladh airson freagairtean, { $email }, agus tha e cha mhòr cinnteach nach leugh duine sam bith teachdaireachdan a chuirear gun t-seòladh seo.
 no-reply-reply-anyway-button = Cuir an fhreagairt co-dhiù
 
+## error messages
+
+
 ## Spaces toolbar
 
 spaces-toolbar-element =
@@ -444,12 +450,27 @@ openpgp-forget = Dìochuimhnich abairtean-faire OpenPGP
 quota-panel-percent-used = { $percent }% làn
     .title = Cuòta IMAP: { $usage } à { $limit } air a chleachdadh uile gu lèir
 
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
 
 ## Message list.
 
@@ -484,6 +505,15 @@ message-group-starred = Le rionnag ris
 # there are more; for the From column in the threadpane message list.
 and-others = et al.
 
+## Prompts
+
+
+## Spam commands
+
+
+## Ignore threads
+
+
 ## Attachments
 
 # Variables:
@@ -512,3 +542,33 @@ remote-content-option-allow-all =
             [few] Ceadaich susbaint chèin on na tùsan gu h‑àrd ({ $count })
            *[other] Ceadaich susbaint chèin on na tùsan gu h‑àrd ({ $count })
         }
+
+## Tags
+
+tags-label-1 = Cudromach
+tags-label-2 = Obair
+tags-label-3 = Pearsanta
+tags-label-4 = Ri dhèanamh
+tags-label-5 = An ceann tamaill
+tags-add-new =
+    .label = Taga ùr…
+    .accesskey = T
+tags-manage =
+    .label = Stiùirich na tagaichean…
+    .accesskey = S
+tags-remove-all =
+    .label = Thoir air falbh a h-uile taga
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
+
+## OAuth2 loopback listener response page.
+

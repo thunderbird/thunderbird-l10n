@@ -107,6 +107,9 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Ամփոփ տեսք
     .accesskey = Ա
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -257,6 +260,9 @@ no-reply-title = Պատասխանը չի աջակցուում
 no-reply-message = Պատասխանի հասցէն ({ $email }) կարծէս վերահսկուող հասցէ չէ: Այս հասցէին ուղղուած հաղորդագրութիւնները հաւանաբար ոչ ոք չի կարդայ:
 no-reply-reply-anyway-button = Պատասխանել ամէն դէպքում
 
+## error messages
+
+
 ## Spaces toolbar
 
 spaces-toolbar-element =
@@ -341,12 +347,33 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
+## OpenPGP
+
+
+## Quota panel.
+
+
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = թ
 mark-not-junk-key =
     .key = փ
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
 
 ## Message list.
 
@@ -381,6 +408,15 @@ message-group-starred = Աստղանշուած
 # there are more; for the From column in the threadpane message list.
 and-others = եւ այղոք
 
+## Prompts
+
+
+## Spam commands
+
+
+## Ignore threads
+
+
 ## Attachments
 
 # Variables:
@@ -401,3 +437,33 @@ allow-remote-content-resource =
 #    $count - the number of origins to allow
 remote-content-option-allow-all =
     .label = Թոյղատրել հեռակայ բովանդակութիւնը { $count } սկզբնականից։ Թոյղատրել հեռակայ բովանդակութիւնը { $count } սկզբնականներից
+
+## Tags
+
+tags-label-1 = Կարեւոր
+tags-label-2 = Աշխատանքային
+tags-label-3 = Անձնական
+tags-label-4 = Անել
+tags-label-5 = Աւելի ուշ
+tags-add-new =
+    .label = Նոր պիտակ…
+    .accesskey = Ն
+tags-manage =
+    .label = Կառաւարել պիտակները…
+    .accesskey = Կ
+tags-remove-all =
+    .label = Հեռացնել բոլոր պիտակները
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey }{ $name }
+    .accesskey = { $accesskey }
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
+
+## OAuth2 loopback listener response page.
+

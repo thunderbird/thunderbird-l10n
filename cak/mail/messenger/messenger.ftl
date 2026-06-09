@@ -45,6 +45,9 @@ open-tabs-warning-confirmation =
        *[other] Yejaq { $count } taq rutzijol rik'in jub'a' eqal. ¿La k'a nasamajij?
     }
 
+## Toolbar
+
+
 ## Folder Pane
 
 folder-pane-toolbar =
@@ -78,6 +81,9 @@ show-tags-folders-label =
 folder-toolbar-toggle-folder-compact-view =
     .label = Molk'ïy Tz'etoj
     .accesskey = M
+
+## Folder names
+
 
 ## File Menu
 
@@ -125,6 +131,9 @@ menu-edit-newsgroup-properties =
     .label = Kichinil Kimolaj Tzijol
     .accesskey = o
 
+## Message Menu
+
+
 ## Shared Menu Items
 
 menu-move-again =
@@ -168,6 +177,9 @@ mail-context-menu-forward-forward =
     .label = Jun chik
     .accesskey = J
 
+## Message header pane
+
+
 ## Message header customize panel
 
 message-header-button-style-default =
@@ -193,6 +205,12 @@ toolbar-context-menu-remove-extension =
 addon-removal-title = ¿La niyuj { $name }?
 addon-removal-confirmation-button = Tiyuj
 caret-browsing-prompt-title = Okem pa K'amaya'l Rik'in Retal Ch'oy
+
+## no-reply handling
+
+
+## error messages
+
 
 ## Spaces toolbar
 
@@ -256,12 +274,33 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
+## OpenPGP
+
+
+## Quota panel.
+
+
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = s
 mark-not-junk-key =
     .key = s
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
 
 ## Message list.
 
@@ -296,6 +335,15 @@ message-group-starred = Ya'on ruq'ij
 # there are more; for the From column in the threadpane message list.
 and-others = et al.
 
+## Prompts
+
+
+## Spam commands
+
+
+## Ignore threads
+
+
 ## Attachments
 
 # Variables:
@@ -320,3 +368,33 @@ remote-content-option-allow-all =
             [one] Tiya' q'ij chi re näj rupam ri { $count } rukupil cholajem ikim
            *[other] Tiya' q'ij chi ke näj rupam ri { $count } kikupil cholajem ikim
         }
+
+## Tags
+
+tags-label-1 = K'atzinel
+tags-label-2 = Samaj
+tags-label-3 = Ichinan
+tags-label-4 = K'o chi Nib'an
+tags-label-5 = Jub'a' chik na
+tags-add-new =
+    .label = K'ak'a' Etal…
+    .accesskey = K
+tags-manage =
+    .label = Kenuk'samajïx taq Etal…
+    .accesskey = K
+tags-remove-all =
+    .label = Keyuj Ronojel taq Etal
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
+
+## OAuth2 loopback listener response page.
+

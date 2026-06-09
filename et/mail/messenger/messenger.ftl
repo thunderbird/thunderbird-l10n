@@ -145,6 +145,9 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Kompaktne vaade
     .accesskey = v
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -523,12 +526,24 @@ openpgp-forget = Unusta OpenPGP paroolid
 quota-panel-percent-used = { $percent }% täis
     .title = IMAP kvoot: kasutusel { $usage }, kokku { $limit }
 
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
 
 ## Actions for the New Mail Notification
 
@@ -571,6 +586,15 @@ message-group-starred = Tähistatud
 # there are more; for the From column in the threadpane message list.
 and-others = jt
 
+## Prompts
+
+
+## Spam commands
+
+
+## Ignore threads
+
+
 ## Attachments
 
 # Variables:
@@ -595,3 +619,33 @@ remote-content-option-allow-all =
             [one] Luba väline sisu ülaltoodud allikast
            *[other] Luba väline sisu kõigist ülaltoodud { $count } allikast
         }
+
+## Tags
+
+tags-label-1 = Tähtis
+tags-label-2 = Töö
+tags-label-3 = Isiklik
+tags-label-4 = Ülesanne
+tags-label-5 = Hiljem
+tags-add-new =
+    .label = Uus silt…
+    .accesskey = U
+tags-manage =
+    .label = Halda silte…
+    .accesskey = H
+tags-remove-all =
+    .label = Eemalda kõik sildid
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
+
+## OAuth2 loopback listener response page.
+

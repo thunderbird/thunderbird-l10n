@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Window controls
+
+
 ## Content tabs
 
 
@@ -36,11 +39,20 @@ open-tabs-warning-confirmation =
        *[other] Otvaranje { $count } poruka može biti sporo. Nastaviti?
     }
 
+## Toolbar
+
+
+## Folder Pane
+
+
 ## Folder Toolbar Header Popup
 
 show-tags-folders-label =
     .label = Oznake
     .accesskey = T
+
+## Folder names
+
 
 ## File Menu
 
@@ -86,6 +98,9 @@ menu-edit-newsgroup-properties =
     .label = Svojstva novinske grupe
     .accesskey = o
 
+## Message Menu
+
+
 ## Shared Menu Items
 
 menu-move-again =
@@ -111,11 +126,41 @@ menu-copy-to =
     .label = Kopiraj u
     .accesskey = C
 
+## AppMenu
+
+
 ## Context menu
 
 mail-context-menu-forward-forward =
     .label = Proslijedi
     .accesskey = F
+
+## Message header pane
+
+
+## Message header customize panel
+
+
+## Action Button Context Menu
+
+
+## Add-on removal warning
+
+
+## no-reply handling
+
+
+## error messages
+
+
+## Spaces toolbar
+
+
+## Spaces toolbar pinned tab menupopup
+
+
+## Spaces toolbar customize panel
+
 
 ## Quick Filter Bar
 
@@ -129,12 +174,33 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
+## OpenPGP
+
+
+## Quota panel.
+
+
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
 
 ## Message list.
 
@@ -165,6 +231,15 @@ message-group-attachments = Prilozi
 message-group-not-starred = Bez zvjezdice
 message-group-starred = Označeno zvjezdicom
 
+## Prompts
+
+
+## Spam commands
+
+
+## Ignore threads
+
+
 ## Attachments
 
 # Variables:
@@ -191,3 +266,33 @@ remote-content-option-allow-all =
             [few] Dozvoli vanjski sadržaj od { $count } izvora navedenih iznad
            *[other] Dozvoli vanjski sadržaj od { $count } izvora navedenih iznad
         }
+
+## Tags
+
+tags-label-1 = Važno
+tags-label-2 = Posao
+tags-label-3 = Lično
+tags-label-4 = Za obaviti
+tags-label-5 = Kasnije
+tags-add-new =
+    .label = Nova oznaka…
+    .accesskey = N
+tags-manage =
+    .label = Upravljanje oznakama…
+    .accesskey = M
+tags-remove-all =
+    .label = Ukloni sve oznake
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
+
+## OAuth2 loopback listener response page.
+

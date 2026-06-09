@@ -712,6 +712,33 @@ remote-content-option-allow-all =
            *[other] Tillad eksternt indhold fra { $count } steder, vist ovenfor
         }
 
+## Tags
+
+tags-label-1 = Vigtig
+tags-label-2 = Arbejde
+tags-label-3 = Personlig
+tags-label-4 = Huskeliste
+tags-label-5 = Senere
+tags-add-new =
+    .label = Nyt mærkat…
+    .accesskey = m
+tags-manage =
+    .label = Håndter mærkater…
+    .accesskey = H
+tags-remove-all =
+    .label = Fjern alle mærkater
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
+
 ## OAuth2 loopback listener response page.
 
 oauth2-loopback-success = Du kan lukke dette vindue

@@ -711,6 +711,33 @@ remote-content-option-allow-all =
            *[other] Allow remote content from all { $count } origins listed above
         }
 
+## Tags
+
+tags-label-1 = Important
+tags-label-2 = Work
+tags-label-3 = Personal
+tags-label-4 = To Do
+tags-label-5 = Later
+tags-add-new =
+    .label = New Tag…
+    .accesskey = N
+tags-manage =
+    .label = Manage Tags…
+    .accesskey = M
+tags-remove-all =
+    .label = Remove All Tags
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
+
 ## OAuth2 loopback listener response page.
 
 oauth2-loopback-success = You can close this window.

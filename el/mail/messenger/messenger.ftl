@@ -711,6 +711,33 @@ remote-content-option-allow-all =
            *[other] Αποδοχή απομακρυσμένου περιεχομένου και από τις { $count } παραπάνω πηγές
         }
 
+## Tags
+
+tags-label-1 = Σημαντικό
+tags-label-2 = Εργασία
+tags-label-3 = Προσωπικό
+tags-label-4 = Εκκρεμότητα
+tags-label-5 = Αργότερα
+tags-add-new =
+    .label = Νέα ετικέτα…
+    .accesskey = Ν
+tags-manage =
+    .label = Διαχείριση ετικετών…
+    .accesskey = Τ
+tags-remove-all =
+    .label = Αφαίρεση όλων των ετικετών
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
+
 ## OAuth2 loopback listener response page.
 
 oauth2-loopback-success = Μπορείτε να κλείσετε αυτό το παράθυρο.

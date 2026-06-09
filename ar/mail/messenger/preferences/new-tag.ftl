@@ -3,6 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 tag-dialog-title = وسم جديد
+tag-edit-dialog-title = حرر الوسم
 tag-name-label =
     .value = اسم الوسْم:
     .accesskey = و
+tag-already-exists = يوجد بالفعل وسم بهذا الاسم.

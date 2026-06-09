@@ -535,12 +535,21 @@ quota-panel-percent-used = { $percent }% cheo
         IMAP quota: { $usage } used of { $limit } total
         Cota de IMAP: { $usage } usado dun total de { $limit }
 
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
 
 ## Message header.
 
@@ -597,6 +606,12 @@ and-others = e outros.
 
 prompt-dont-ask-again = Non preguntar de novo.
 
+## Spam commands
+
+
+## Ignore threads
+
+
 ## Attachments
 
 # Variables:
@@ -621,3 +636,33 @@ remote-content-option-allow-all =
             [one] Permitir o contido remoto da { $count } orixe da lista anterior
            *[other] Permitir contido remoto das { $count }orixes da lista anterior
         }
+
+## Tags
+
+tags-label-1 = Importante
+tags-label-2 = Traballo
+tags-label-3 = Persoal
+tags-label-4 = Pendente
+tags-label-5 = Máis tarde
+tags-add-new =
+    .label = Nova etiqueta…
+    .accesskey = N
+tags-manage =
+    .label = Xestionar etiquetas…
+    .accesskey = X
+tags-remove-all =
+    .label = Eliminar todas as etiquetas
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
+
+## OAuth2 loopback listener response page.
+

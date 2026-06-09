@@ -711,6 +711,33 @@ remote-content-option-allow-all =
            *[other] Жоғарыда тізілген барлық { $count } көзден қашықтағы құраманы рұқсат ету
         }
 
+## Tags
+
+tags-label-1 = Маңызды
+tags-label-2 = Жұмыс
+tags-label-3 = Жеке
+tags-label-4 = Жасау үшін
+tags-label-5 = Кейінірек
+tags-add-new =
+    .label = Жаңа тег…
+    .accesskey = Ж
+tags-manage =
+    .label = Тегтерді басқару…
+    .accesskey = б
+tags-remove-all =
+    .label = Барлық тегтерді өшіру
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
+
 ## OAuth2 loopback listener response page.
 
 oauth2-loopback-success = Бұл терезені жаба аласыз.

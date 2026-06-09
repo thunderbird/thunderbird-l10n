@@ -3,9 +3,11 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 tag-dialog-title = Նոր պիտակ
+tag-edit-dialog-title = Խմբագրել Պիտակը
 tag-name-label =
     .value = Պիտակի անուն․
     .accesskey = Պ
 tag-color-label =
     .value = Գոյնը:
     .accesskey = Գ
+tag-already-exists = Այդ անունով պիտակ արդէն գոյութիւն ունի։

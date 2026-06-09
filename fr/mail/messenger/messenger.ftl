@@ -715,6 +715,33 @@ remote-content-option-allow-all =
            *[other] Autoriser le contenu distant depuis les { $count } sources listées ci-dessus
         }
 
+## Tags
+
+tags-label-1 = Important
+tags-label-2 = Travail
+tags-label-3 = Personnel
+tags-label-4 = À faire
+tags-label-5 = En attente
+tags-add-new =
+    .label = Nouvelle étiquette…
+    .accesskey = N
+tags-manage =
+    .label = Gérer les étiquettes…
+    .accesskey = G
+tags-remove-all =
+    .label = Supprimer toutes les étiquettes
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
+
 ## OAuth2 loopback listener response page.
 
 oauth2-loopback-success = Vous pouvez fermer cette fenêtre.

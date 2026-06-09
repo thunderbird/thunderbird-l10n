@@ -730,6 +730,33 @@ remote-content-option-allow-all =
            *[many] Разрешить содержимое из Интернета с { $count } перечисленных выше источников
         }
 
+## Tags
+
+tags-label-1 = Важное
+tags-label-2 = Рабочее
+tags-label-3 = Личное
+tags-label-4 = К исполнению
+tags-label-5 = Отложено
+tags-add-new =
+    .label = Новая метка…
+    .accesskey = Н
+tags-manage =
+    .label = Управление метками…
+    .accesskey = п
+tags-remove-all =
+    .label = Удалить все метки
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
+
 ## OAuth2 loopback listener response page.
 
 oauth2-loopback-success = Вы можете закрыть это окно.

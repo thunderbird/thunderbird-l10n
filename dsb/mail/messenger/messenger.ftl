@@ -744,6 +744,33 @@ remote-content-option-allow-all =
            *[other] Daloke wopśimjeśe górjejce naspomnjetych póchadow { $count } zmóžniś
         }
 
+## Tags
+
+tags-label-1 = Wažny
+tags-label-2 = Źěło
+tags-label-3 = Wósobinski
+tags-label-4 = Nadawki
+tags-label-5 = Pózdźej
+tags-add-new =
+    .label = Nowe wobznamjenje…
+    .accesskey = N
+tags-manage =
+    .label = Wobznamjenja zastojaś…
+    .accesskey = W
+tags-remove-all =
+    .label = Wše wobznamjenja wótwónoźeś
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
+
 ## OAuth2 loopback listener response page.
 
 oauth2-loopback-success = Móžośo toś to wokno zacyniś.

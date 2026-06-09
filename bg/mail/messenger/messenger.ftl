@@ -664,6 +664,9 @@ prompt-dont-ask-again = Спиране на този въпрос.
 spam-analysis-percentage = Анализ на нежелана поща { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } завършен
 spam-processing-message = Обработване на нежелани съобщения
 
+## Ignore threads
+
+
 ## Attachments
 
 # Variables:
@@ -688,3 +691,33 @@ remote-content-option-allow-all =
             [one] Разрешаване на отдалечено съдържание от { $count } адрес по-горе
            *[other] Разрешаване на отдалечено съдържание от всички { $count } адреса по-горе
         }
+
+## Tags
+
+tags-label-1 = Важно
+tags-label-2 = Служебно
+tags-label-3 = Лично
+tags-label-4 = За изпълнение
+tags-label-5 = По-късно
+tags-add-new =
+    .label = Нов етикет…
+    .accesskey = Н
+tags-manage =
+    .label = Управление на етикети…
+    .accesskey = У
+tags-remove-all =
+    .label = Премахване на всички етикети
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
+
+## OAuth2 loopback listener response page.
+

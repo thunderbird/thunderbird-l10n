@@ -619,6 +619,9 @@ prompt-dont-ask-again = ไม่ต้องถามอีก
 spam-analysis-percentage = การวิเคราะห์สแปมเสร็จสมบูรณ์ { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") }
 spam-processing-message = กำลังประมวลผลข้อความสแปม
 
+## Ignore threads
+
+
 ## Attachments
 
 # Variables:
@@ -635,3 +638,33 @@ allow-remote-content-resource =
 #    $count - the number of origins to allow
 remote-content-option-allow-all =
     .label = อนุญาตเนื้อหาระยะไกลจาก { $count } ที่มาที่ระบุไว้ด้านบน
+
+## Tags
+
+tags-label-1 = สำคัญ
+tags-label-2 = ที่ทำงาน
+tags-label-3 = ส่วนบุคคล
+tags-label-4 = สิ่งที่ต้องทำ
+tags-label-5 = ภายหลัง
+tags-add-new =
+    .label = ป้ายกำกับใหม่…
+    .accesskey = ม
+tags-manage =
+    .label = จัดการป้ายกำกับ…
+    .accesskey = จ
+tags-remove-all =
+    .label = เอาป้ายกำกับทั้งหมดออก
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
+
+## OAuth2 loopback listener response page.
+

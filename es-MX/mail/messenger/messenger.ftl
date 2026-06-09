@@ -358,6 +358,9 @@ no-reply-title = Respuesta no admitida
 no-reply-message = La dirección de respuesta ({ $email }) no parece ser una dirección supervisada. Es probable que los mensajes a esta dirección no sean leídos por nadie.
 no-reply-reply-anyway-button = Responder de todos modos
 
+## error messages
+
+
 ## Spaces toolbar
 
 spaces-toolbar-element =
@@ -458,6 +461,9 @@ quick-filter-bar-show =
 
 openpgp-forget = Olvídate de las frases de contraseña de OpenPGP
 
+## Quota panel.
+
+
 ## Sort menu.
 
 sort-by-spam-status =
@@ -473,6 +479,15 @@ mark-as-junk-key =
     .key = b
 mark-not-junk-key =
     .key = l
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
 
 ## Actions for the New Mail Notification
 
@@ -514,6 +529,15 @@ message-group-starred = Destacado
 # there are more; for the From column in the threadpane message list.
 and-others = et al.
 
+## Prompts
+
+
+## Spam commands
+
+
+## Ignore threads
+
+
 ## Attachments
 
 # Variables:
@@ -538,3 +562,33 @@ remote-content-option-allow-all =
             [one] Permitir contenido remoto desde el { $count } origen enumerado arriba
            *[other] Permitir contenido remoto desde todos los { $count } orígenes enumerados arriba
         }
+
+## Tags
+
+tags-label-1 = Importante
+tags-label-2 = Trabajo
+tags-label-3 = Personales
+tags-label-4 = Para hacer
+tags-label-5 = Después
+tags-add-new =
+    .label = Nueva etiqueta…
+    .accesskey = N
+tags-manage =
+    .label = Administrar etiquetas…
+    .accesskey = A
+tags-remove-all =
+    .label = Eliminar todas las etiquetas
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
+
+## OAuth2 loopback listener response page.
+

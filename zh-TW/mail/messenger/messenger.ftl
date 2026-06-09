@@ -687,6 +687,33 @@ allow-remote-content-resource =
 remote-content-option-allow-all =
     .label = 允許上方列出的 { $count } 個來源的遠端內容
 
+## Tags
+
+tags-label-1 = 重要
+tags-label-2 = 商務
+tags-label-3 = 私人
+tags-label-4 = 待辦事項
+tags-label-5 = 稍後處理
+tags-add-new =
+    .label = 新標籤…
+    .accesskey = N
+tags-manage =
+    .label = 管理標籤…
+    .accesskey = M
+tags-remove-all =
+    .label = 移除所有標籤
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
+
 ## OAuth2 loopback listener response page.
 
 oauth2-loopback-success = 您可以關閉此視窗。

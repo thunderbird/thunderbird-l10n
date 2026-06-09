@@ -517,12 +517,24 @@ openpgp-forget = Unohda OpenPGP-salalauseet
 quota-panel-percent-used = { $percent } % täynnä
     .title = IMAP-kiintiö: Käytetty { $usage }/{ $limit }
 
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
 
 ## Actions for the New Mail Notification
 
@@ -580,6 +592,9 @@ prompt-dont-ask-again = Älä kysy uudestaan.
 spam-analysis-percentage = Roskapostianalyysi { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } valmis
 spam-processing-message = Käsitellään roskapostiviestejä
 
+## Ignore threads
+
+
 ## Attachments
 
 # Variables:
@@ -604,6 +619,33 @@ remote-content-option-allow-all =
             [one] Salli etäsisältö edellämainitusta lähteestä
            *[other] Salli etäsisältö { $count } edellämainitusta lähteestä
         }
+
+## Tags
+
+tags-label-1 = Tärkeä
+tags-label-2 = Työ
+tags-label-3 = Oma
+tags-label-4 = Tehtävä
+tags-label-5 = Myöhemmin
+tags-add-new =
+    .label = Uusi tunnus…
+    .accesskey = t
+tags-manage =
+    .label = Hallinnoi tunnuksia…
+    .accesskey = M
+tags-remove-all =
+    .label = Poista kaikki tunnukset
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
 
 ## OAuth2 loopback listener response page.
 

@@ -3,9 +3,11 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 tag-dialog-title = 새 태그
+tag-edit-dialog-title = 태그 수정
 tag-name-label =
     .value = 태그 이름:
     .accesskey = T
 tag-color-label =
     .value = 색상:
     .accesskey = C
+tag-already-exists = 이미 존재하는 태그명

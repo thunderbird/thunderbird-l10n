@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Window controls
+
+
 ## Content tabs
 
 
@@ -34,11 +37,20 @@ open-tabs-warning-confirmation =
        *[other] Opening { $count } messages may be slow. Continue?
     }
 
+## Toolbar
+
+
+## Folder Pane
+
+
 ## Folder Toolbar Header Popup
 
 show-tags-folders-label =
     .label = ਟੈਗ
     .accesskey = T
+
+## Folder names
+
 
 ## File Menu
 
@@ -83,6 +95,9 @@ menu-edit-newsgroup-properties =
     .label = Newsgroup Properties
     .accesskey = o
 
+## Message Menu
+
+
 ## Shared Menu Items
 
 menu-move-again =
@@ -108,11 +123,41 @@ menu-copy-to =
     .label = Copy To
     .accesskey = C
 
+## AppMenu
+
+
 ## Context menu
 
 mail-context-menu-forward-forward =
     .label = Forward
     .accesskey = F
+
+## Message header pane
+
+
+## Message header customize panel
+
+
+## Action Button Context Menu
+
+
+## Add-on removal warning
+
+
+## no-reply handling
+
+
+## error messages
+
+
+## Spaces toolbar
+
+
+## Spaces toolbar pinned tab menupopup
+
+
+## Spaces toolbar customize panel
+
 
 ## Quick Filter Bar
 
@@ -126,12 +171,33 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
+## OpenPGP
+
+
+## Quota panel.
+
+
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
 
 ## Message list.
 
@@ -159,6 +225,15 @@ message-group-attachments = Attachments
 message-group-not-starred = Not Starred
 message-group-starred = Starred
 
+## Prompts
+
+
+## Spam commands
+
+
+## Ignore threads
+
+
 ## Attachments
 
 # Variables:
@@ -168,3 +243,36 @@ attachment-view-attachment-count =
         [one] { $count } attachment
        *[other] { $count } attachments
     }
+
+## Remote content blocking
+
+
+## Tags
+
+tags-label-1 = Important
+tags-label-2 = Work
+tags-label-3 = Personal
+tags-label-4 = To Do
+tags-label-5 = Later
+tags-add-new =
+    .label = New Tag…
+    .accesskey = N
+tags-manage =
+    .label = Manage Tags…
+    .accesskey = M
+tags-remove-all =
+    .label = Remove All Tags
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
+
+## OAuth2 loopback listener response page.
+

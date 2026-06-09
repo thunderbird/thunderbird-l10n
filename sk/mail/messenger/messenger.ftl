@@ -735,6 +735,33 @@ remote-content-option-allow-all =
            *[other] Povoliť vzdialený obsah z { $count } zdrojov uvedených vyššie
         }
 
+## Tags
+
+tags-label-1 = Dôležité
+tags-label-2 = Zamestnanie
+tags-label-3 = Osobné
+tags-label-4 = Vybaviť
+tags-label-5 = Neskôr
+tags-add-new =
+    .label = Nový štítok…
+    .accesskey = N
+tags-manage =
+    .label = Spravovať štítky…
+    .accesskey = S
+tags-remove-all =
+    .label = Odstrániť všetky štítky
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
+
 ## OAuth2 loopback listener response page.
 
 oauth2-loopback-success = Toto okno môžete zavrieť.

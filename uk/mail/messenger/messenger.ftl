@@ -148,6 +148,9 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Компактне подання
     .accesskey = К
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -536,12 +539,24 @@ openpgp-forget = Забути парольні фрази OpenPGP
 quota-panel-percent-used = { $percent }% заповнено
     .title = Квота IMAP: Усього використано { $usage } з { $limit }
 
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
 
 ## Actions for the New Mail Notification
 
@@ -582,6 +597,15 @@ message-group-starred = З зіркою
 # there are more; for the From column in the threadpane message list.
 and-others = та ін.
 
+## Prompts
+
+
+## Spam commands
+
+
+## Ignore threads
+
+
 ## Attachments
 
 # Variables:
@@ -608,3 +632,33 @@ remote-content-option-allow-all =
             [few] Дозволити віддалений вміст з { $count } джерел, вказаних вище
            *[many] Дозволити віддалений вміст з { $count } джерел, вказаних вище
         }
+
+## Tags
+
+tags-label-1 = Важливе
+tags-label-2 = Робоче
+tags-label-3 = Особисте
+tags-label-4 = До виконання
+tags-label-5 = Відкладено
+tags-add-new =
+    .label = Нова мітка…
+    .accesskey = Н
+tags-manage =
+    .label = Керувати мітками…
+    .accesskey = К
+tags-remove-all =
+    .label = Прибрати всі мітки
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
+
+## OAuth2 loopback listener response page.
+

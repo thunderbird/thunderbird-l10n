@@ -767,6 +767,33 @@ remote-content-option-allow-all =
            *[other] Caniatáu cynnwys pell o'r { $count } ffynhonnell uchod
         }
 
+## Tags
+
+tags-label-1 = Pwysig
+tags-label-2 = Gwaith
+tags-label-3 = Personol
+tags-label-4 = I'w Gwneud
+tags-label-5 = Diweddarach
+tags-add-new =
+    .label = Tag Newydd…
+    .accesskey = T
+tags-manage =
+    .label = Rheoli Tagiau…
+    .accesskey = T
+tags-remove-all =
+    .label = Tynnu Pob Tag
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
+
 ## OAuth2 loopback listener response page.
 
 oauth2-loopback-success = Gallwch chi gau'r ffenestr hon.

@@ -3,9 +3,11 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 tag-dialog-title = Нова ознака
+tag-edit-dialog-title = Уреди ознаку
 tag-name-label =
     .value = Име ознаке:
     .accesskey = з
 tag-color-label =
     .value = Боја:
     .accesskey = Б
+tag-already-exists = Ознака са тим именом већ постоји.

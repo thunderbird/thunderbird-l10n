@@ -699,6 +699,33 @@ remote-content-option-allow-all =
            *[other] ვებშიგთავსის დაშვება ზემოთ აღნიშნული { $count } წყაროდან
         }
 
+## Tags
+
+tags-label-1 = მნიშვნელოვანი
+tags-label-2 = სამუშაო
+tags-label-3 = პირადი
+tags-label-4 = გასაკეთებელი
+tags-label-5 = გადადებული
+tags-add-new =
+    .label = ახალი ჭდე…
+    .accesskey = ჭ
+tags-manage =
+    .label = ჭდეების მართვა…
+    .accesskey = მ
+tags-remove-all =
+    .label = ყველა ჭდის მოცილება
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
+
 ## OAuth2 loopback listener response page.
 
 oauth2-loopback-success = შეგიძლიათ დახუროთ ეს ფანჯარა.

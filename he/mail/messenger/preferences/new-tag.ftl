@@ -3,6 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 tag-dialog-title = תגית חדשה
+tag-edit-dialog-title = ערוך תגית
 tag-name-label =
     .value = שם התווית:
     .accesskey = T
+tag-already-exists = תגית עם שם זה כבר קיימת.

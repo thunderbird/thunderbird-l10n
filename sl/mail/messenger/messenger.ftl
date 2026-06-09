@@ -581,6 +581,9 @@ openpgp-forget = Pozabi gesla za OpenPGP
 quota-panel-percent-used = { $percent }-% zasedeno
     .title = Kvota IMAP: zasedeno { $usage } od skupno { $limit }
 
+## Sort menu.
+
+
 ## Message menu.
 
 menu-mark-as-spam =
@@ -602,6 +605,9 @@ menu-delete-spam =
 folder-context-empty-spam =
     .label = Izprazni neželeno pošto
     .accesskey = I
+
+## Thread pane.
+
 
 ## Message header.
 
@@ -717,6 +723,33 @@ remote-content-option-allow-all =
             [few] Dovoli oddaljeno vsebino zgoraj navedenih { $count } virov
            *[other] Dovoli oddaljeno vsebino zgoraj navedenih { $count } virov
         }
+
+## Tags
+
+tags-label-1 = Pomembno
+tags-label-2 = Služba
+tags-label-3 = Osebno
+tags-label-4 = Opravek
+tags-label-5 = Kasneje
+tags-add-new =
+    .label = Nova oznaka …
+    .accesskey = N
+tags-manage =
+    .label = Upravljaj z oznakami …
+    .accesskey = U
+tags-remove-all =
+    .label = Odstrani vse oznake
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
 
 ## OAuth2 loopback listener response page.
 

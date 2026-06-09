@@ -145,6 +145,9 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Vista cumpacta
     .accesskey = c
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -523,12 +526,24 @@ openpgp-forget = Emblidar las frasas-clav OpenPGP
 quota-panel-percent-used = Occupà: { $percent }%
     .title = Quota IMAP: { $usage } occupà da  { $limit } en total
 
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
 
 ## Actions for the New Mail Notification
 
@@ -568,6 +583,15 @@ message-group-starred = Cun staila
 # there are more; for the From column in the threadpane message list.
 and-others = et al.
 
+## Prompts
+
+
+## Spam commands
+
+
+## Ignore threads
+
+
 ## Attachments
 
 # Variables:
@@ -592,3 +616,33 @@ remote-content-option-allow-all =
             [one] Permetter cuntegn extern da l'adressa en la glista survart
            *[other] Permetter cuntegn extern da las { $count } adressas en la glista survart
         }
+
+## Tags
+
+tags-label-1 = Impurtant
+tags-label-2 = Lavur
+tags-label-3 = Persunal
+tags-label-4 = Da far
+tags-label-5 = Pli tard
+tags-add-new =
+    .label = Nova etichetta…
+    .accesskey = N
+tags-manage =
+    .label = Administrar las etichettas…
+    .accesskey = M
+tags-remove-all =
+    .label = Allontanar tut las etichettas
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
+
+## OAuth2 loopback listener response page.
+

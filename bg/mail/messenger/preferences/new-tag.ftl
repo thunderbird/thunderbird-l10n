@@ -3,9 +3,11 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 tag-dialog-title = Нов етикет
+tag-edit-dialog-title = Редактиране на етикет
 tag-name-label =
     .value = Име на етикет:
     .accesskey = е
 tag-color-label =
     .value = Цвят:
     .accesskey = я
+tag-already-exists = Етикет с това име вече съществува.

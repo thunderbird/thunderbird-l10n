@@ -3,9 +3,11 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 tag-dialog-title = 新增標籤
+tag-edit-dialog-title = 編輯標籤
 tag-name-label =
     .value = 標籤名稱：
     .accesskey = T
 tag-color-label =
     .value = 色彩：
     .accesskey = C
+tag-already-exists = 此標籤名稱已存在。

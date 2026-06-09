@@ -712,6 +712,33 @@ remote-content-option-allow-all =
            *[other] Leyfa fjarlæg gögn frá { $count } hér fyrir ofan
         }
 
+## Tags
+
+tags-label-1 = Mikilvægt
+tags-label-2 = Vinna
+tags-label-3 = Persónulegt
+tags-label-4 = Verkþáttur
+tags-label-5 = Seinna
+tags-add-new =
+    .label = Nýtt merki…
+    .accesskey = N
+tags-manage =
+    .label = Sýsla með merki…
+    .accesskey = m
+tags-remove-all =
+    .label = Fjarlægja öll merki
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
+
 ## OAuth2 loopback listener response page.
 
 oauth2-loopback-success = Þú getur lokað þessum glugga.

@@ -712,6 +712,33 @@ remote-content-option-allow-all =
            *[other] Eksterne ynhâld fan alle boppe fermelde { $count } boarnen tastean
         }
 
+## Tags
+
+tags-label-1 = Wichtich
+tags-label-2 = Wurk
+tags-label-3 = Persoanlik
+tags-label-4 = Noch te dwaan
+tags-label-5 = Letter
+tags-add-new =
+    .label = Nij label…
+    .accesskey = N
+tags-manage =
+    .label = Labels beheare…
+    .accesskey = L
+tags-remove-all =
+    .label = Alle labels fuortsmite
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
+
 ## OAuth2 loopback listener response page.
 
 oauth2-loopback-success = Jo kinne dit finster slute.

@@ -670,6 +670,33 @@ allow-remote-content-resource =
 remote-content-option-allow-all =
     .label = Cho phép nội dung từ xa từ tất cả { $count } nguồn gốc được liệt kê ở trên
 
+## Tags
+
+tags-label-1 = Quan trọng
+tags-label-2 = Làm việc
+tags-label-3 = Cá nhân
+tags-label-4 = Sẽ làm
+tags-label-5 = Để sau
+tags-add-new =
+    .label = Nhãn mới…
+    .accesskey = N
+tags-manage =
+    .label = Quản lý nhãn…
+    .accesskey = M
+tags-remove-all =
+    .label = Xóa tất cả các nhãn
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
+
 ## OAuth2 loopback listener response page.
 
 oauth2-loopback-success = Bạn có thể đóng cửa sổ này.

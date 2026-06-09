@@ -744,6 +744,33 @@ remote-content-option-allow-all =
            *[other] Zdaleny wobsah horjeka naspomnjenych pochadow { $count } zmóžnić
         }
 
+## Tags
+
+tags-label-1 = Wažny
+tags-label-2 = Dźěło
+tags-label-3 = Wosobinski
+tags-label-4 = Nadawki
+tags-label-5 = Pozdźišo
+tags-add-new =
+    .label = Nowa značka…
+    .accesskey = N
+tags-manage =
+    .label = Znački zrjadować…
+    .accesskey = Z
+tags-remove-all =
+    .label = Wšě znački wotstronić
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
+
 ## OAuth2 loopback listener response page.
 
 oauth2-loopback-success = Móžeće tute wokno začinić.

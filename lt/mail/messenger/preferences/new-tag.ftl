@@ -3,9 +3,11 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 tag-dialog-title = Nauja gairė
+tag-edit-dialog-title = Gairės taisa
 tag-name-label =
     .value = Gairė:
     .accesskey = G
 tag-color-label =
     .value = Spalva:
     .accesskey = S
+tag-already-exists = Gairė tokiu vardu jau yra.
