@@ -74,6 +74,7 @@ account-hub-result-port-label = Port:
 account-hub-result-security-label = Sikkerhed:
 account-hub-result-authentication-type-label = Godkendelse:
 account-hub-result-auth-none = Ingen
+account-hub-result-auth-password = Almindelig adgangskode
 account-hub-result-auth-encrypted-password = Krypteret adgangskode
 account-hub-result-auth-gssapi = Kerberos
 account-hub-result-auth-ntlm = NTLM
