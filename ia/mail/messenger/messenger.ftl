@@ -711,6 +711,13 @@ remote-content-option-allow-all =
            *[other] Consentir contento remote de tote le { $count } fontes in le lista supra
         }
 
+## Tags
+
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
+
 ## OAuth2 loopback listener response page.
 
 oauth2-loopback-success = Tu pote clauder iste fenestra.
