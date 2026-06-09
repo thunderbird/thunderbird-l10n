@@ -641,12 +641,26 @@ remote-content-option-allow-all =
 
 ## Tags
 
+tags-label-1 = สำคัญ
+tags-label-2 = ที่ทำงาน
+tags-label-3 = ส่วนบุคคล
+tags-label-4 = สิ่งที่ต้องทำ
+tags-label-5 = ภายหลัง
 tags-add-new =
     .label = ป้ายกำกับใหม่…
     .accesskey = ม
 tags-manage =
     .label = จัดการป้ายกำกับ…
     .accesskey = จ
+tags-remove-all =
+    .label = เอาป้ายกำกับทั้งหมดออก
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
 # Variables:
 #   $name (String) - The default or user-defined name of the tag.
 tags-format-without-accesskey =
