@@ -622,12 +622,26 @@ remote-content-option-allow-all =
 
 ## Tags
 
+tags-label-1 = Tähtis
+tags-label-2 = Töö
+tags-label-3 = Isiklik
+tags-label-4 = Ülesanne
+tags-label-5 = Hiljem
 tags-add-new =
     .label = Uus silt…
     .accesskey = U
 tags-manage =
     .label = Halda silte…
     .accesskey = H
+tags-remove-all =
+    .label = Eemalda kõik sildid
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
 # Variables:
 #   $name (String) - The default or user-defined name of the tag.
 tags-format-without-accesskey =
