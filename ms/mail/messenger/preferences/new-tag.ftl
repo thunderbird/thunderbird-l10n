@@ -3,6 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 tag-dialog-title = Tag Baru
+tag-edit-dialog-title = Edit Tag
 tag-name-label =
     .value = Nama Tag:
     .accesskey = T
+tag-already-exists = Tag dengan nama ini sudah wujud.
