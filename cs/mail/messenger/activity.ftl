@@ -77,3 +77,13 @@ gloda-indexed-folder-status =
         [few] uplynuly { $count } sekundy
        *[other] uplynulo { $count } sekund
     }
+# Status line shown under extension-send-activity-live, updated after every send.
+# Variables:
+#   $count (Number) - number of messages sent so far in this batch
+extension-send-activity-progress =
+    { $count ->
+        [one] Odeslána { $count } zpráva
+        [few] Odeslány { $count } zprávy
+        [many] Odesláno { $count } zpráv
+       *[other] Odesláno { $count } zpráv
+    }
