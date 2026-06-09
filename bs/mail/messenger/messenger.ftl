@@ -269,6 +269,12 @@ remote-content-option-allow-all =
 
 ## Tags
 
+tags-add-new =
+    .label = Nova oznaka…
+    .accesskey = N
+tags-manage =
+    .label = Upravljanje oznakama…
+    .accesskey = M
 # Variables:
 #   $name (String) - The default or user-defined name of the tag.
 tags-format-without-accesskey =
