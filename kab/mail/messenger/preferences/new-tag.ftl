@@ -3,9 +3,11 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 tag-dialog-title = Tabzimt tamaynut
+tag-edit-dialog-title = Ẓreg tabzimt
 tag-name-label =
     .value = Isem n tebzimt:
     .accesskey = b
 tag-color-label =
     .value = Ini:
     .accesskey = C
+tag-already-exists = Tabzimt s yisem-agi tella yakan.
