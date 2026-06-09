@@ -145,6 +145,9 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Kompaktne vaade
     .accesskey = v
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -523,12 +526,24 @@ openpgp-forget = Unusta OpenPGP paroolid
 quota-panel-percent-used = { $percent }% täis
     .title = IMAP kvoot: kasutusel { $usage }, kokku { $limit }
 
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
 
 ## Actions for the New Mail Notification
 
@@ -571,6 +586,15 @@ message-group-starred = Tähistatud
 # there are more; for the From column in the threadpane message list.
 and-others = jt
 
+## Prompts
+
+
+## Spam commands
+
+
+## Ignore threads
+
+
 ## Attachments
 
 # Variables:
@@ -595,3 +619,19 @@ remote-content-option-allow-all =
             [one] Luba väline sisu ülaltoodud allikast
            *[other] Luba väline sisu kõigist ülaltoodud { $count } allikast
         }
+
+## Tags
+
+tags-add-new =
+    .label = Uus silt…
+    .accesskey = U
+tags-manage =
+    .label = Halda silte…
+    .accesskey = H
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
+
+## OAuth2 loopback listener response page.
+
