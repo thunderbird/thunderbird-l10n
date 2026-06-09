@@ -354,12 +354,26 @@ remote-content-option-allow-all =
 
 ## Tags
 
+tags-label-1 = A-bouez
+tags-label-2 = Labour
+tags-label-3 = Personel
+tags-label-4 = War Ober
+tags-label-5 = Diwezhatoc'h
 tags-add-new =
     .label = Merk nevez…
     .accesskey = n
 tags-manage =
     .label = Ardeiñ ar merkoù…
     .accesskey = A
+tags-remove-all =
+    .label = Dilemel an holl verkoù
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
 # Variables:
 #   $name (String) - The default or user-defined name of the tag.
 tags-format-without-accesskey =
