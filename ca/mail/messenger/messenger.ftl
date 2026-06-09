@@ -145,6 +145,9 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Visualització compacta
     .accesskey = c
 
+## Folder names
+
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -508,12 +511,27 @@ openpgp-forget = Oblida les frases de contrasenya de l'OpenPGP
 quota-panel-percent-used = { $percent }% ple
     .title = Quota d'IMAP: { $usage } en ús d'un total de { $limit }
 
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
 
 ## Message list.
 
@@ -548,6 +566,15 @@ message-group-starred = Destacats
 # there are more; for the From column in the threadpane message list.
 and-others = i altres
 
+## Prompts
+
+
+## Spam commands
+
+
+## Ignore threads
+
+
 ## Attachments
 
 # Variables:
@@ -572,3 +599,13 @@ remote-content-option-allow-all =
             [one] Permet el contingut remot d'{ $count } origen de la llista anterior
            *[other] Permet el contingut remot dels { $count } orígens de la llista anterior
         }
+
+## Tags
+
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
+
+## OAuth2 loopback listener response page.
+
