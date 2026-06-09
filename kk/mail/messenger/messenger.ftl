@@ -713,6 +713,12 @@ remote-content-option-allow-all =
 
 ## Tags
 
+tags-add-new =
+    .label = Жаңа тег…
+    .accesskey = Ж
+tags-manage =
+    .label = Тегтерді басқару…
+    .accesskey = б
 # Variables:
 #   $name (String) - The default or user-defined name of the tag.
 tags-format-without-accesskey =
