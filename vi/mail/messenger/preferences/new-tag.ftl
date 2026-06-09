@@ -3,9 +3,11 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 tag-dialog-title = Nhãn mới
+tag-edit-dialog-title = Chỉnh sửa nhãn
 tag-name-label =
     .value = Tên nhãn:
     .accesskey = T
 tag-color-label =
     .value = Màu:
     .accesskey = C
+tag-already-exists = Tên nhãn đã tồn tại.
