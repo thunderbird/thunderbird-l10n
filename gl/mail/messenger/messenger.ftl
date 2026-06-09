@@ -535,21 +535,12 @@ quota-panel-percent-used = { $percent }% cheo
         IMAP quota: { $usage } used of { $limit } total
         Cota de IMAP: { $usage } usado dun total de { $limit }
 
-## Sort menu.
-
-
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
-
-## Folder pane context.
-
-
-## Thread pane.
-
 
 ## Message header.
 
@@ -606,12 +597,6 @@ and-others = e outros.
 
 prompt-dont-ask-again = Non preguntar de novo.
 
-## Spam commands
-
-
-## Ignore threads
-
-
 ## Attachments
 
 # Variables:
@@ -663,6 +648,3 @@ tags-format-with-accesskey =
 #   $name (String) - The default or user-defined name of the tag.
 tags-format-without-accesskey =
     .label = { $name }
-
-## OAuth2 loopback listener response page.
-
