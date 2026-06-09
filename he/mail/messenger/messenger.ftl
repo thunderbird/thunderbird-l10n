@@ -250,7 +250,7 @@ tags-manage =
     .label = ניהול תגיות…
     .accesskey = נ
 tags-remove-all =
-    .label = הסר את כל התגיות
+    .label = הסרת כל התגיות
     .accesskey = 0
 # Variables:
 #   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.

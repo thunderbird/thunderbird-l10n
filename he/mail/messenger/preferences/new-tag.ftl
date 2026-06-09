@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 tag-dialog-title = תגית חדשה
-tag-edit-dialog-title = ערוך תגית
+tag-edit-dialog-title = עריכת תגית
 tag-name-label =
     .value = שם התווית:
     .accesskey = T
