@@ -709,12 +709,26 @@ remote-content-option-allow-all =
 
 ## Tags
 
+tags-label-1 = I rëndësishëm
+tags-label-2 = Pune
+tags-label-3 = Personal
+tags-label-4 = Për T’u Bërë
+tags-label-5 = Për më vonë
 tags-add-new =
     .label = Etiketë e Re…
     .accesskey = E
 tags-manage =
     .label = Administroni Etiketa…
     .accesskey = A
+tags-remove-all =
+    .label = Hiqi Tërë Etiketat
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
 # Variables:
 #   $name (String) - The default or user-defined name of the tag.
 tags-format-without-accesskey =
