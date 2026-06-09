@@ -283,12 +283,26 @@ remote-content-option-allow-all =
 
 ## Tags
 
+tags-label-1 = مهم
+tags-label-2 = العمل
+tags-label-3 = شخصي
+tags-label-4 = للقيام به
+tags-label-5 = لاحقًا
 tags-add-new =
     .label = وسم جديد…
     .accesskey = و
 tags-manage =
     .label = أدِر الوسوم…
     .accesskey = س
+tags-remove-all =
+    .label = احذف كل الوسوم
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = ‏{ $accesskey } ‏{ $name }
+    .accesskey = { $accesskey }
 # Variables:
 #   $name (String) - The default or user-defined name of the tag.
 tags-format-without-accesskey =
