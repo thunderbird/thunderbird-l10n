@@ -711,6 +711,13 @@ remote-content-option-allow-all =
            *[other] Allow remote content from all { $count } origins listed above
         }
 
+## Tags
+
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
+
 ## OAuth2 loopback listener response page.
 
 oauth2-loopback-success = You can close this window.
