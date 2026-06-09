@@ -709,6 +709,12 @@ remote-content-option-allow-all =
 
 ## Tags
 
+tags-add-new =
+    .label = Etiketë e Re…
+    .accesskey = E
+tags-manage =
+    .label = Administroni Etiketa…
+    .accesskey = A
 # Variables:
 #   $name (String) - The default or user-defined name of the tag.
 tags-format-without-accesskey =
