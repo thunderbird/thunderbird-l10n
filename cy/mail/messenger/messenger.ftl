@@ -767,6 +767,19 @@ remote-content-option-allow-all =
            *[other] Caniatáu cynnwys pell o'r { $count } ffynhonnell uchod
         }
 
+## Tags
+
+tags-add-new =
+    .label = Tag Newydd…
+    .accesskey = T
+tags-manage =
+    .label = Rheoli Tagiau…
+    .accesskey = T
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
+
 ## OAuth2 loopback listener response page.
 
 oauth2-loopback-success = Gallwch chi gau'r ffenestr hon.
