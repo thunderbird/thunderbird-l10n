@@ -3,9 +3,11 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 tag-dialog-title = Nyt mærkat
+tag-edit-dialog-title = Rediger mærkat
 tag-name-label =
     .value = Mærkatnavn:
     .accesskey = M
 tag-color-label =
     .value = Farve:
     .accesskey = F
+tag-already-exists = Et mærkat med samme navn eksisterer allerede.
