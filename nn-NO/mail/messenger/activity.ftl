@@ -75,3 +75,22 @@ gloda-indexed-folder-status =
 # Variables:
 #   $extensionName (String) - the extension's name
 extension-send-activity-live = Utvidinga «{ $extensionName }» sender uovervakte meldingar.
+# Status line shown under extension-send-activity-live, updated after every send.
+# Variables:
+#   $count (Number) - number of messages sent so far in this batch
+extension-send-activity-progress =
+    { $count ->
+        [one] { $count } melding sendt
+       *[other] { $count } meldingar sende
+    }
+# Permanent Activity Manager entry written when the live send process is
+# finalized, 10 seconds after the last send in a batch. The count and elapsed
+# time are carried in the status line below (extension-send-activity-event-status).
+# Variables:
+#   $extensionName (String) - the extension's name
+#   $count (Number) - number of messages sent in this batch
+extension-send-activity-event =
+    { $count ->
+        [one] Utvidinga «{ $extensionName }» sende ei uovervakt melding
+       *[other] Utvidinga «{ $extensionName }» sende fleire uovervakte meldingar
+    }
