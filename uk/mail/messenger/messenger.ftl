@@ -635,6 +635,12 @@ remote-content-option-allow-all =
 
 ## Tags
 
+tags-add-new =
+    .label = Нова мітка…
+    .accesskey = Н
+tags-manage =
+    .label = Керувати мітками…
+    .accesskey = К
 # Variables:
 #   $name (String) - The default or user-defined name of the tag.
 tags-format-without-accesskey =
