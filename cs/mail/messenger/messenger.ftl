@@ -741,6 +741,20 @@ remote-content-option-allow-all =
 
 ## Tags
 
+tags-label-1 = Důležité
+tags-label-2 = Pracovní
+tags-label-3 = Osobní
+tags-label-4 = K vyřízení
+tags-label-5 = Později
+tags-remove-all =
+    .label = Odstranit všechny štítky
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
 # Variables:
 #   $name (String) - The default or user-defined name of the tag.
 tags-format-without-accesskey =
