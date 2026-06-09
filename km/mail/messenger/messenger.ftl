@@ -256,12 +256,26 @@ attachment-view-attachment-count = ឯកសារ​ភ្ជាប់ { $count
 
 ## Tags
 
+tags-label-1 = សំខាន់
+tags-label-2 = ការងារ​
+tags-label-3 = ផ្ទាល់​ខ្លួន
+tags-label-4 = កិច្ចការ​ត្រូវ​ធ្វើ
+tags-label-5 = ពេលក្រោយ
 tags-add-new =
     .label = Նոր պիտակ...
     .accesskey = N
 tags-manage =
     .label = គ្រប់គ្រង​ស្លាក...
     .accesskey = M
+tags-remove-all =
+    .label = យក​ស្លាក​ទាំងអស់​ចេញ
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
 # Variables:
 #   $name (String) - The default or user-defined name of the tag.
 tags-format-without-accesskey =
