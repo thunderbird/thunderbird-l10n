@@ -17,6 +17,9 @@ cert-error-not-yet-valid = Chứng chỉ cho { $hostname } sẽ không có hiệ
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-untrusted-default = Chứng chỉ cho { $hostname } không đến từ một nguồn đáng tin cậy.
 # Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server.
+cert-error-ssl-connection-error = Đã xảy ra lỗi khi kết nối đến { $hostname }.
+# Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-domain-mismatch =
     .title = Lỗi kết nối. Chứng chỉ cho { $hostname } không hợp lệ cho máy chủ đó. Ai đó có thể đang cố gắng mạo danh máy chủ và bạn không nên tiếp tục. Nhấp để mở cài đặt bảo mật máy chủ.
@@ -34,6 +37,10 @@ cert-error-inline-not-yet-valid =
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-untrusted-default =
     .title = Lỗi kết nối. Chứng chỉ cho { $hostname } không đến từ nguồn đáng tin cậy. Nhấp để mở cài đặt bảo mật máy chủ.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server.
+cert-error-inline-ssl-connection-error =
+    .title = Đã xảy ra lỗi khi kết nối đến { $hostname }.
 certificate-check-test-button = Kiểm tra kết nối với máy chủ
 certificate-check-view-button = Xem chứng chỉ
 certificate-check-add-exception-button = Thêm ngoại lệ
