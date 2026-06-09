@@ -706,3 +706,13 @@ remote-content-option-allow-all =
             [one] Lejo lëndë të largët prej { $count } origjine të treguar më poshtë
            *[other] Lejo lëndë të largët prej krejt { $count } origjinave të treguara më poshtë
         }
+
+## Tags
+
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
+
+## OAuth2 loopback listener response page.
+
