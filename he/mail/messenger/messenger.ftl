@@ -295,6 +295,26 @@ allow-remote-content-resource =
 
 ## Tags
 
+tags-label-1 = חשוב
+tags-label-2 = עבודה
+tags-label-3 = אישי
+tags-label-4 = דברים לעשות
+tags-label-5 = מאוחר יותר
+tags-add-new =
+    .label = תווית חדשה…
+    .accesskey = ת
+tags-manage =
+    .label = ניהול תגיות…
+    .accesskey = נ
+tags-remove-all =
+    .label = הסר את כל התגיות
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
 # Variables:
 #   $name (String) - The default or user-defined name of the tag.
 tags-format-without-accesskey =
