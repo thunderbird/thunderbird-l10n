@@ -545,6 +545,9 @@ remote-content-option-allow-all =
 
 ## Tags
 
+tags-add-new =
+    .label = Taga ùr…
+    .accesskey = T
 tags-manage =
     .label = Stiùirich na tagaichean…
     .accesskey = S
