@@ -37,10 +37,27 @@ gloda-indexed-folder = 已建立 { $folder } 中 { $count } 封郵件的索引
 # Variables:
 #   $count - number of seconds
 gloda-indexed-folder-status = 費時 { $count } 秒
+# Display line of the live Activity Manager process shown while a WebExtension
+# is actively sending messages via messages.sendMessage(). The running count is
+# shown in the status line below.
+# Variables:
+#   $extensionName (String) - the extension's name
+extension-send-activity-live = 擴充套件「{ $extensionName }」正自動傳送訊息。
 # Status line shown under extension-send-activity-live, updated after every send.
 # Variables:
 #   $count (Number) - number of messages sent so far in this batch
 extension-send-activity-progress = 已寄出 { $count } 封訊息
+# Permanent Activity Manager entry written when the live send process is
+# finalized, 10 seconds after the last send in a batch. The count and elapsed
+# time are carried in the status line below (extension-send-activity-event-status).
+# Variables:
+#   $extensionName (String) - the extension's name
+#   $count (Number) - number of messages sent in this batch
+extension-send-activity-event =
+    { $count ->
+        [one] 擴充套件「{ $extensionName }」自動傳送了 1 封訊息。
+       *[other] 擴充套件「{ $extensionName }」自動傳送了多封訊息。
+    }
 # Status line shown under extension-send-activity-event. Reports how many
 # messages were sent and the wall-clock time between the first and last send in
 # the batch (rounded to whole seconds, at least one).
