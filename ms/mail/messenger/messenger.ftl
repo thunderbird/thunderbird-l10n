@@ -244,12 +244,26 @@ remote-content-option-allow-all =
 
 ## Tags
 
+tags-label-1 = Penting
+tags-label-2 = Kerja
+tags-label-3 = Peribadi
+tags-label-4 = Perlu Buat
+tags-label-5 = Kemudian
 tags-add-new =
     .label = Tag Baru…
     .accesskey = B
 tags-manage =
     .label = Urus Tag…
     .accesskey = U
+tags-remove-all =
+    .label = Buang Semua Tag
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
 # Variables:
 #   $name (String) - The default or user-defined name of the tag.
 tags-format-without-accesskey =
