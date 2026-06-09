@@ -708,12 +708,26 @@ remote-content-option-allow-all =
 
 ## Tags
 
+tags-label-1 = Važno
+tags-label-2 = Posao
+tags-label-3 = Osobno
+tags-label-4 = Za obaviti
+tags-label-5 = Kasnije
 tags-add-new =
     .label = Nova oznaka…
     .accesskey = N
 tags-manage =
     .label = Upravljanje oznakama…
     .accesskey = U
+tags-remove-all =
+    .label = Ukloni sve oznake
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
 # Variables:
 #   $name (String) - The default or user-defined name of the tag.
 tags-format-without-accesskey =
