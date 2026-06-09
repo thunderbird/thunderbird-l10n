@@ -3,9 +3,11 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 tag-dialog-title = Etichetă nouă
+tag-edit-dialog-title = Editează eticheta
 tag-name-label =
     .value = Denumirea etichetei:
     .accesskey = t
 tag-color-label =
     .value = Culoare:
     .accesskey = C
+tag-already-exists = Există deja o etichetă cu acest nume.
