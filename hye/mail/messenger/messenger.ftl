@@ -440,12 +440,26 @@ remote-content-option-allow-all =
 
 ## Tags
 
+tags-label-1 = Կարեւոր
+tags-label-2 = Աշխատանքային
+tags-label-3 = Անձնական
+tags-label-4 = Անել
+tags-label-5 = Աւելի ուշ
 tags-add-new =
     .label = Նոր պիտակ…
     .accesskey = Ն
 tags-manage =
     .label = Կառաւարել պիտակները…
     .accesskey = Կ
+tags-remove-all =
+    .label = Հեռացնել բոլոր պիտակները
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey }{ $name }
+    .accesskey = { $accesskey }
 # Variables:
 #   $name (String) - The default or user-defined name of the tag.
 tags-format-without-accesskey =
