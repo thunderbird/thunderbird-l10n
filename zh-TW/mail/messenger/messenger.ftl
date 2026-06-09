@@ -689,6 +689,20 @@ remote-content-option-allow-all =
 
 ## Tags
 
+tags-label-1 = 重要
+tags-label-2 = 商務
+tags-label-3 = 私人
+tags-label-4 = 待辦事項
+tags-label-5 = 稍後處理
+tags-remove-all =
+    .label = 移除所有標籤
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
 # Variables:
 #   $name (String) - The default or user-defined name of the tag.
 tags-format-without-accesskey =
