@@ -635,12 +635,26 @@ remote-content-option-allow-all =
 
 ## Tags
 
+tags-label-1 = Важливе
+tags-label-2 = Робоче
+tags-label-3 = Особисте
+tags-label-4 = До виконання
+tags-label-5 = Відкладено
 tags-add-new =
     .label = Нова мітка…
     .accesskey = Н
 tags-manage =
     .label = Керувати мітками…
     .accesskey = К
+tags-remove-all =
+    .label = Прибрати всі мітки
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
 # Variables:
 #   $name (String) - The default or user-defined name of the tag.
 tags-format-without-accesskey =
