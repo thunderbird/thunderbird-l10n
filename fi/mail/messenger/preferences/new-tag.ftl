@@ -3,9 +3,11 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 tag-dialog-title = Uusi tunnus
+tag-edit-dialog-title = Muokkaa tunnusta
 tag-name-label =
     .value = Tunnuksen nimi:
     .accesskey = T
 tag-color-label =
     .value = Väri:
     .accesskey = V
+tag-already-exists = Tämän niminen tunnus on jo olemassa.
