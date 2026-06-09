@@ -206,6 +206,23 @@ message-group-starred = Gevlag
 
 ## Tags
 
+tags-label-1 = Belangrik
+tags-label-2 = Werk
+tags-label-3 = Persoonlik
+tags-label-4 = Moetdoen
+tags-label-5 = Later
+tags-add-new =
+    .label = Nuwe merker…
+    .accesskey = N
+tags-remove-all =
+    .label = Verwyder alle merkers
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
 # Variables:
 #   $name (String) - The default or user-defined name of the tag.
 tags-format-without-accesskey =
