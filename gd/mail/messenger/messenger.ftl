@@ -545,6 +545,9 @@ remote-content-option-allow-all =
 
 ## Tags
 
+tags-manage =
+    .label = Stiùirich na tagaichean…
+    .accesskey = S
 # Variables:
 #   $name (String) - The default or user-defined name of the tag.
 tags-format-without-accesskey =
