@@ -664,6 +664,9 @@ prompt-dont-ask-again = Спиране на този въпрос.
 spam-analysis-percentage = Анализ на нежелана поща { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } завършен
 spam-processing-message = Обработване на нежелани съобщения
 
+## Ignore threads
+
+
 ## Attachments
 
 # Variables:
@@ -688,3 +691,13 @@ remote-content-option-allow-all =
             [one] Разрешаване на отдалечено съдържание от { $count } адрес по-горе
            *[other] Разрешаване на отдалечено съдържание от всички { $count } адреса по-горе
         }
+
+## Tags
+
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
+
+## OAuth2 loopback listener response page.
+
