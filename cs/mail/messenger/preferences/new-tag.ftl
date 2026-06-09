@@ -3,9 +3,11 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 tag-dialog-title = Nový štítek
+tag-edit-dialog-title = Upravit štítek
 tag-name-label =
     .value = Štítek:
     .accesskey = t
 tag-color-label =
     .value = Barva:
     .accesskey = B
+tag-already-exists = Štítek s tímto názvem již existuje
