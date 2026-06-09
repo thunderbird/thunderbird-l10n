@@ -713,6 +713,12 @@ remote-content-option-allow-all =
 
 ## Tags
 
+tags-add-new =
+    .label = Nove tag…
+    .accesskey = N
+tags-manage =
+    .label = Gerer le tags…
+    .accesskey = G
 # Variables:
 #   $name (String) - The default or user-defined name of the tag.
 tags-format-without-accesskey =
