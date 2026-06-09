@@ -69,3 +69,41 @@ gloda-indexed-folder-status =
         [one] { $count } Sekunde wurde benötigt
        *[other] { $count } Sekunden wurden benötigt
     }
+# Status line shown under extension-send-activity-live, updated after every send.
+# Variables:
+#   $count (Number) - number of messages sent so far in this batch
+extension-send-activity-progress =
+    { $count ->
+        [one] { $count } Nachricht gesendet
+       *[other] { $count } Nachrichten gesendet
+    }
+# Permanent Activity Manager entry written when the live send process is
+# finalized, 10 seconds after the last send in a batch. The count and elapsed
+# time are carried in the status line below (extension-send-activity-event-status).
+# Variables:
+#   $extensionName (String) - the extension's name
+#   $count (Number) - number of messages sent in this batch
+extension-send-activity-event =
+    { $count ->
+        [one] Die Erweiterung "{ $extensionName }" hat eine unbeaufsichtigte Nachricht gesendet
+       *[other] Die Erweiterung "{ $extensionName }" hat mehrere unbeaufsichtigte Nachrichten gesendet
+    }
+# Status line shown under extension-send-activity-event. Reports how many
+# messages were sent and the wall-clock time between the first and last send in
+# the batch (rounded to whole seconds, at least one).
+# Variables:
+#   $count (Number) - number of messages sent in this batch
+#   $seconds (Number) - elapsed seconds between the first and last send
+extension-send-activity-event-status =
+    { $count ->
+        [one]
+            { $seconds ->
+                [one] { $count } Nachricht in { $seconds } Sekunde
+               *[other] { $count } Nachricht in { $seconds } Sekunden
+            }
+       *[other]
+            { $seconds ->
+                [one] { $count } Nachrichten in { $seconds } Sekunde
+               *[other] { $count } Nachrichten in { $seconds } Sekunden
+            }
+    }
