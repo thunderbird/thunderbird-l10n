@@ -77,3 +77,30 @@ gloda-indexed-folder-status =
         [few] { $count } секунди је прошло
        *[other] { $count } секунди је прошло
     }
+# Display line of the live Activity Manager process shown while a WebExtension
+# is actively sending messages via messages.sendMessage(). The running count is
+# shown in the status line below.
+# Variables:
+#   $extensionName (String) - the extension's name
+extension-send-activity-live = Додатак „{ $extensionName }“ шаље поруке без надзора.
+# Status line shown under extension-send-activity-live, updated after every send.
+# Variables:
+#   $count (Number) - number of messages sent so far in this batch
+extension-send-activity-progress =
+    { $count ->
+        [one] Послата је { $count } порука
+        [few] Послате су { $count } поруке
+       *[other] Послато је { $count } порука
+    }
+# Permanent Activity Manager entry written when the live send process is
+# finalized, 10 seconds after the last send in a batch. The count and elapsed
+# time are carried in the status line below (extension-send-activity-event-status).
+# Variables:
+#   $extensionName (String) - the extension's name
+#   $count (Number) - number of messages sent in this batch
+extension-send-activity-event =
+    { $count ->
+        [one] Додатак „{ $extensionName }“ је послао поруку без надзора
+        [few] Додатак „{ $extensionName }“ је послао више порука без надзора
+       *[other] Додатак „{ $extensionName }“ је послао више порука без надзора
+    }
