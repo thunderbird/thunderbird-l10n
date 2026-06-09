@@ -717,6 +717,14 @@ remote-content-option-allow-all =
 
 ## Tags
 
+tags-label-1 = Important
+tags-label-2 = Travail
+tags-label-3 = Personnel
+tags-label-4 = À faire
+tags-label-5 = En attente
+tags-remove-all =
+    .label = Supprimer toutes les étiquettes
+    .accesskey = 0
 # Variables:
 #   $name (String) - The default or user-defined name of the tag.
 tags-format-without-accesskey =
