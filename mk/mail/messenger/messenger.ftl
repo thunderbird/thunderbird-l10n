@@ -202,6 +202,23 @@ message-group-starred = Набљудувани
 
 ## Tags
 
+tags-label-1 = Важна
+tags-label-2 = Работа
+tags-label-3 = Лична
+tags-label-4 = Задача
+tags-label-5 = Подоцна
+tags-add-new =
+    .label = Нова етикета…
+    .accesskey = Н
+tags-remove-all =
+    .label = Отстрани ги сите етикети
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
 # Variables:
 #   $name (String) - The default or user-defined name of the tag.
 tags-format-without-accesskey =
