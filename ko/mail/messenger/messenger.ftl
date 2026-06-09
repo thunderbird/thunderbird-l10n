@@ -637,12 +637,26 @@ remote-content-option-allow-all =
 
 ## Tags
 
+tags-label-1 = 중요
+tags-label-2 = 직장
+tags-label-3 = 개인
+tags-label-4 = 할일
+tags-label-5 = 연기
 tags-add-new =
     .label = 새 태그…
     .accesskey = N
 tags-manage =
     .label = 태그 관리하기…
     .accesskey = M
+tags-remove-all =
+    .label = 모든 태그 삭제
+    .accesskey = 0
+# Variables:
+#   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
+#   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
+tags-format-with-accesskey =
+    .label = { $accesskey } { $name }
+    .accesskey = { $accesskey }
 # Variables:
 #   $name (String) - The default or user-defined name of the tag.
 tags-format-without-accesskey =
