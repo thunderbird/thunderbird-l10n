@@ -726,6 +726,13 @@ remote-content-option-allow-all =
            *[other] Permite conținut aflat la distanță de la cele { $count } de surse de mai sus
         }
 
+## Tags
+
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
+
 ## OAuth2 loopback listener response page.
 
 oauth2-loopback-success = Poți închide fereastra.
