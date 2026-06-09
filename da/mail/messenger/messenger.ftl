@@ -714,6 +714,12 @@ remote-content-option-allow-all =
 
 ## Tags
 
+tags-add-new =
+    .label = Nyt mærkat…
+    .accesskey = m
+tags-manage =
+    .label = Håndter mærkater…
+    .accesskey = H
 # Variables:
 #   $name (String) - The default or user-defined name of the tag.
 tags-format-without-accesskey =
