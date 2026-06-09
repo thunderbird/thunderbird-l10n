@@ -581,6 +581,9 @@ openpgp-forget = Pozabi gesla za OpenPGP
 quota-panel-percent-used = { $percent }-% zasedeno
     .title = Kvota IMAP: zasedeno { $usage } od skupno { $limit }
 
+## Sort menu.
+
+
 ## Message menu.
 
 menu-mark-as-spam =
@@ -602,6 +605,9 @@ menu-delete-spam =
 folder-context-empty-spam =
     .label = Izprazni neželeno pošto
     .accesskey = I
+
+## Thread pane.
+
 
 ## Message header.
 
@@ -717,6 +723,13 @@ remote-content-option-allow-all =
             [few] Dovoli oddaljeno vsebino zgoraj navedenih { $count } virov
            *[other] Dovoli oddaljeno vsebino zgoraj navedenih { $count } virov
         }
+
+## Tags
+
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
 
 ## OAuth2 loopback listener response page.
 
