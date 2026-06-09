@@ -687,6 +687,13 @@ allow-remote-content-resource =
 remote-content-option-allow-all =
     .label = 允許上方列出的 { $count } 個來源的遠端內容
 
+## Tags
+
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
+
 ## OAuth2 loopback listener response page.
 
 oauth2-loopback-success = 您可以關閉此視窗。
