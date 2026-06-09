@@ -615,6 +615,9 @@ prompt-dont-ask-again = 다시 묻지 않기
 spam-analysis-percentage = 스팸 분석 { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } 완료됨
 spam-processing-message = 스팸 메시지 처리
 
+## Ignore threads
+
+
 ## Attachments
 
 # Variables:
@@ -631,3 +634,19 @@ allow-remote-content-resource =
 #    $count - the number of origins to allow
 remote-content-option-allow-all =
     .label = 위에 나열된 { $count } 출처의 원격 콘텐츠 허용
+
+## Tags
+
+tags-add-new =
+    .label = 새 태그…
+    .accesskey = N
+tags-manage =
+    .label = 태그 관리하기…
+    .accesskey = M
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
+
+## OAuth2 loopback listener response page.
+
