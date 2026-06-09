@@ -712,6 +712,19 @@ remote-content-option-allow-all =
            *[other] Leyfa fjarlæg gögn frá { $count } hér fyrir ofan
         }
 
+## Tags
+
+tags-add-new =
+    .label = Nýtt merki…
+    .accesskey = N
+tags-manage =
+    .label = Sýsla með merki…
+    .accesskey = m
+# Variables:
+#   $name (String) - The default or user-defined name of the tag.
+tags-format-without-accesskey =
+    .label = { $name }
+
 ## OAuth2 loopback listener response page.
 
 oauth2-loopback-success = Þú getur lokað þessum glugga.
