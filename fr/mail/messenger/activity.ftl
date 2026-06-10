@@ -74,7 +74,7 @@ gloda-indexed-folder-status =
 # shown in the status line below.
 # Variables:
 #   $extensionName (String) - the extension's name
-extension-send-activity-live = L’extension « { $extensionName } » envoie des messages sans surveillance.
+extension-send-activity-live = L’extension « { $extensionName } » envoie des messages automatiquement.
 # Status line shown under extension-send-activity-live, updated after every send.
 # Variables:
 #   $count (Number) - number of messages sent so far in this batch
@@ -91,8 +91,8 @@ extension-send-activity-progress =
 #   $count (Number) - number of messages sent in this batch
 extension-send-activity-event =
     { $count ->
-        [one] L’extension « { $extensionName } » a envoyé un message sans surveillance
-       *[other] L’extension « { $extensionName } » a envoyé plusieurs messages sans surveillance
+        [one] L’extension « { $extensionName } » a envoyé un message automatiquement
+       *[other] L’extension « { $extensionName } » a envoyé plusieurs messages automatiquement
     }
 # Status line shown under extension-send-activity-event. Reports how many
 # messages were sent and the wall-clock time between the first and last send in
@@ -104,8 +104,8 @@ extension-send-activity-event-status =
     { $count ->
         [one]
             { $seconds ->
-                [one] { $count } message par { $seconds } seconde
-               *[other] { $count } message dans { $seconds } secondes
+                [one] { $count } message en { $seconds } seconde
+               *[other] { $count } message en { $seconds } secondes
             }
        *[other]
             { $seconds ->
