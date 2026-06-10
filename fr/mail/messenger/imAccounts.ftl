@@ -8,6 +8,6 @@
 #   $count - the number of accounts that are suspected to have caused a crash
 notification-single-crash-label =
     { $count ->
-        [one] Une exécution précédente s’est arrêtée inopinément lors de la connexion d’un compte nouveau ou modifié. Elle ne s’est pas connectée alors vous pouvez modifier ses paramètres.
+        [one] Une exécution précédente s’est arrêtée inopinément lors de la connexion d’un compte nouveau ou modifié. Il n’a pas été connecté, vous pouvez donc modifier ses paramètres.
        *[other] Une exécution précédente s’est arrêtée inopinément lors de la connexion de { $count } comptes nouveaux ou modifiés. Ils n’ont pas été connectés, vous pouvez donc modifier leurs paramètres.
     }
