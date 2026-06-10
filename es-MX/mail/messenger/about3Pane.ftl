@@ -134,6 +134,10 @@ quick-filter-bar-boolean-mode-any =
 quick-filter-bar-boolean-mode-all =
     .label = Todos
     .title = Todos los criterios seleccionados deben coincidir
+# The None tagging mode.
+quick-filter-bar-tag-mode-none =
+    .label = Solo sin etiquetas
+    .title = Solo mensajes sin etiquetas
 # This label explains what the sender/recipients/subject/body buttons do.
 # This string should ideally be kept short because the label and the text
 # filter buttons share their bar (that appears when there is text in the text
@@ -188,6 +192,9 @@ folder-pane-show-total-toggle =
 # Context menu item to show or hide folder sizes
 folder-pane-header-toggle-folder-size =
     .label = Mostrar tamaño de carpeta
+# Context menu item to toggle display of full folder path in compact mode.
+folder-pane-header-toggle-full-path =
+    .label = Mostrar ruta completa
 folder-pane-header-hide-local-folders =
     .label = Ocultar carpetas locales
 folder-pane-mode-header-all = Todas las carpetas
@@ -305,6 +312,11 @@ threadpane-column-header-correspondents = Participantes
     .title = Ordenar por participantes
 threadpane-column-label-correspondents =
     .label = Participantes
+# Variables:
+# $title (String) - Message correspondents for tooltip.
+threadpane-cell-correspondents-title =
+    .aria-label = Corresponsales
+    .title = { $title }
 threadpane-column-header-a11y-subject =
     .aria-label = Asunto
 threadpane-column-header-subject = Asunto
@@ -333,6 +345,11 @@ threadpane-column-header-received = Recibido
     .title = Ordenar por fecha de recepción
 threadpane-column-label-received =
     .label = Recibido
+# Variables:
+# $title (String) - Message received date for tooltip.
+threadpane-cell-received-title =
+    .aria-label = Fecha de recepción
+    .title = { $title }
 threadpane-column-header-a11y-status =
     .aria-label = Estado
 threadpane-column-header-status = Estado
@@ -427,6 +444,11 @@ threadpane-column-header-id = Orden de recibido
     .title = Ordenar por orden de recepción
 threadpane-column-label-id =
     .label = Orden de recibido
+# Variables:
+# $title (String) - Message id for tooltip.
+threadpane-cell-id-title =
+    .aria-label = Pedido recibido
+    .title = { $title }
 threadpane-column-header-a11y-delete =
     .aria-label = Eliminar
 threadpane-column-header-delete =
