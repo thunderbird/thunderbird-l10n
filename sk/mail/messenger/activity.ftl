@@ -82,7 +82,7 @@ gloda-indexed-folder-status =
 # shown in the status line below.
 # Variables:
 #   $extensionName (String) - the extension's name
-extension-send-activity-live = Rozšírenie “{ $extensionName }” odosiela neobsluhované správy.
+extension-send-activity-live = Rozšírenie “{ $extensionName }” odosiela automatické správy.
 # Status line shown under extension-send-activity-live, updated after every send.
 # Variables:
 #   $count (Number) - number of messages sent so far in this batch
@@ -92,4 +92,54 @@ extension-send-activity-progress =
         [few] Odoslané { $count } správy
         [many] Odoslaných { $count } správ
        *[other] Odoslaných { $count } správ
+    }
+# Permanent Activity Manager entry written when the live send process is
+# finalized, 10 seconds after the last send in a batch. The count and elapsed
+# time are carried in the status line below (extension-send-activity-event-status).
+# Variables:
+#   $extensionName (String) - the extension's name
+#   $count (Number) - number of messages sent in this batch
+extension-send-activity-event =
+    { $count ->
+        [one] Rozšírenie “{ $extensionName }” odoslalo automatickú správu
+        [few] Rozšírenie “{ $extensionName }” odoslalo viacero automatických správ
+        [many] Rozšírenie “{ $extensionName }” odoslalo viacero automatických správ
+       *[other] Rozšírenie “{ $extensionName }” odoslalo viacero automatických správ
+    }
+# Status line shown under extension-send-activity-event. Reports how many
+# messages were sent and the wall-clock time between the first and last send in
+# the batch (rounded to whole seconds, at least one).
+# Variables:
+#   $count (Number) - number of messages sent in this batch
+#   $seconds (Number) - elapsed seconds between the first and last send
+extension-send-activity-event-status =
+    { $count ->
+        [one]
+            { $seconds ->
+                [one] { "{ $count } správa za { $seconds } sekundu" }
+                [few] { "{ $count } správa za { $seconds } sekundy" }
+                [many] { "{ $count } správa za { $seconds } sekúnd" }
+               *[other] { "{ $count } správa za { $seconds } sekúnd" }
+            }
+        [few]
+            { $seconds ->
+                [one] { "{ $count } správy za { $seconds } sekundu" }
+                [few] { "{ $count } správy za { $seconds } sekundy" }
+                [many] { "{ $count } správy za { $seconds } sekúnd" }
+               *[other] { "{ $count } správy za { $seconds } sekúnd" }
+            }
+        [many]
+            { $seconds ->
+                [one] { "{ $count } správ za { $seconds } sekundu" }
+                [few] { "{ $count } správ za { $seconds } sekundy" }
+                [many] { "{ $count } správ za { $seconds } sekúnd" }
+               *[other] { "{ $count } správ za { $seconds } sekúnd" }
+            }
+       *[other]
+            { $seconds ->
+                [one] { "{ $count } správ za { $seconds } sekundu" }
+                [few] { "{ $count } správ za { $seconds } sekundy" }
+                [many] { "{ $count } správ za { $seconds } sekúnd" }
+               *[other] { "{ $count } správ za { $seconds } sekúnd" }
+            }
     }
