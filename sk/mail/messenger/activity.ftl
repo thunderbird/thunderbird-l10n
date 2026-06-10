@@ -116,30 +116,30 @@ extension-send-activity-event-status =
     { $count ->
         [one]
             { $seconds ->
-                [one] { "{ $count } správa za { $seconds } sekundu" }
-                [few] { "{ $count } správa za { $seconds } sekundy" }
-                [many] { "{ $count } správa za { $seconds } sekúnd" }
-               *[other] { "{ $count } správa za { $seconds } sekúnd" }
+                [one] { $count } správa za { $seconds } sekundu
+                [few] { $count } správa za { $seconds } sekundy
+                [many] { $count } správa za { $seconds } sekúnd
+               *[other] { $count } správa za { $seconds } sekúnd
             }
         [few]
             { $seconds ->
-                [one] { "{ $count } správy za { $seconds } sekundu" }
-                [few] { "{ $count } správy za { $seconds } sekundy" }
-                [many] { "{ $count } správy za { $seconds } sekúnd" }
-               *[other] { "{ $count } správy za { $seconds } sekúnd" }
+                [one] { $count } správy za { $seconds } sekundu
+                [few] { $count } správy za { $seconds } sekundy
+                [many] { $count } správy za { $seconds } sekúnd
+               *[other] { $count } správy za { $seconds } sekúnd
             }
         [many]
             { $seconds ->
-                [one] { "{ $count } správ za { $seconds } sekundu" }
-                [few] { "{ $count } správ za { $seconds } sekundy" }
-                [many] { "{ $count } správ za { $seconds } sekúnd" }
-               *[other] { "{ $count } správ za { $seconds } sekúnd" }
+                [one] { $count } správ za { $seconds } sekundu
+                [few] { $count } správ za { $seconds } sekundy
+                [many] { $count } správ za { $seconds } sekúnd
+               *[other] { $count } správ za { $seconds } sekúnd
             }
        *[other]
             { $seconds ->
-                [one] { "{ $count } správ za { $seconds } sekundu" }
-                [few] { "{ $count } správ za { $seconds } sekundy" }
-                [many] { "{ $count } správ za { $seconds } sekúnd" }
-               *[other] { "{ $count } správ za { $seconds } sekúnd" }
+                [one] { $count } správ za { $seconds } sekundu
+                [few] { $count } správ za { $seconds } sekundy
+                [many] { $count } správ za { $seconds } sekúnd
+               *[other] { $count } správ za { $seconds } sekúnd
             }
     }
