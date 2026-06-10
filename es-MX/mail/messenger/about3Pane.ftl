@@ -517,6 +517,31 @@ apply-current-view-to-folder-message = ¿Aplicar la vista de la carpeta actual a
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = ¿Aplicar la vista de la carpeta actual a { $name } y sus elementos secundarios?
+# Variables:
+# $unread (Number) - Number of unread messages in thread.
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-unread-count =
+    { $unread ->
+        [one]
+            { $total ->
+                [one] <span>1</span> sin leer de <span>1</span> mensaje
+               *[other] <span>1</span> sin leer de <span>{ $total }</span> mensajes
+            }
+       *[other]
+            { $total ->
+                [one] <span>{ $unread }</span> sin leer de <span>1</span> mensaje
+               *[other] <span>{ $unread }</span> sin leer de <span>{ $total }</span> mensajes
+            }
+    }
+# Variables:
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-count =
+    { $total ->
+        [one] <span>1</span> mensaje
+       *[other] <span>{ $total }</span> mensajes
+    }
+threadpane-card-menu-button =
+    .title = Menú de mensajes
 message-list-placeholder-no-messages = Mensaje no encontrado
 message-list-placeholder-multiple-folders = Varias carpetas seleccionadas
 
@@ -531,3 +556,23 @@ folder-pane-context-mark-folder-read =
            *[other] Marcar carpeta como leída
         }
     .accesskey = k
+# Note: We also use the R accesskey for the Rename label but both can't be
+# visible at the same time, so it's safe.
+folder-pane-context-reset-sort =
+    .label = Restablecer orden de carpetas
+    .accesskey = R
+# Variables:
+# $count (Number) - One or more than one folder selected for compacting
+folder-pane-context-compact =
+    .label =
+        { $count ->
+            [1] Compactar carpeta
+            [one] Compactar carpetas
+           *[other] Compactar carpetas
+        }
+    .accesskey = F
+# One or more servers selected for compacting ALL their folders. Only this or
+# folder-pane-context-compact string will appear at a time, not both.
+folder-pane-context-compact-all =
+    .label = Compactar todas las carpetas
+    .accesskey = F
