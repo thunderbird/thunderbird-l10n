@@ -83,3 +83,13 @@ gloda-indexed-folder-status =
 # Variables:
 #   $extensionName (String) - the extension's name
 extension-send-activity-live = Rozšírenie “{ $extensionName }” odosiela neobsluhované správy.
+# Status line shown under extension-send-activity-live, updated after every send.
+# Variables:
+#   $count (Number) - number of messages sent so far in this batch
+extension-send-activity-progress =
+    { $count ->
+        [one] Odoslaná { $count } správa
+        [few] Odoslané { $count } správy
+        [many] Odoslaných { $count } správ
+       *[other] Odoslaných { $count } správ
+    }
