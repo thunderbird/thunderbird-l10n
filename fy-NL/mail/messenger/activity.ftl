@@ -75,3 +75,41 @@ gloda-indexed-folder-status =
 # Variables:
 #   $extensionName (String) - the extension's name
 extension-send-activity-live = Utwreiding ‘{ $extensionName }’ ferstjoert net-lêzen berjochten.
+# Status line shown under extension-send-activity-live, updated after every send.
+# Variables:
+#   $count (Number) - number of messages sent so far in this batch
+extension-send-activity-progress =
+    { $count ->
+        [one] { $count } berjocht ferstjoerd
+       *[other] { $count } berjochten ferstjoerd
+    }
+# Permanent Activity Manager entry written when the live send process is
+# finalized, 10 seconds after the last send in a batch. The count and elapsed
+# time are carried in the status line below (extension-send-activity-event-status).
+# Variables:
+#   $extensionName (String) - the extension's name
+#   $count (Number) - number of messages sent in this batch
+extension-send-activity-event =
+    { $count ->
+        [one] Utwreiding ‘{ $extensionName }’ hat in net-lêzen berjocht ferstjoerd
+       *[other] Utwreiding ‘{ $extensionName }’ hat meardere net-lêzen berjochten ferstjoerd
+    }
+# Status line shown under extension-send-activity-event. Reports how many
+# messages were sent and the wall-clock time between the first and last send in
+# the batch (rounded to whole seconds, at least one).
+# Variables:
+#   $count (Number) - number of messages sent in this batch
+#   $seconds (Number) - elapsed seconds between the first and last send
+extension-send-activity-event-status =
+    { $count ->
+        [one]
+            { $seconds ->
+                [one] { $count } berjocht yn { $seconds } sekonde
+               *[other] { $count } berjocht yn { $seconds } sekonden
+            }
+       *[other]
+            { $seconds ->
+                [one] { $count } berjochten yn { $seconds } sekonde
+               *[other] { $count } berjochten yn { $seconds } sekonden
+            }
+    }
