@@ -106,8 +106,8 @@ calendar-dialog-attachments-summary-label =
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =
     { $count ->
-        [one] { $count } participants
-       *[other] { $count } participants
+        [one] { $count } participant·e
+       *[other] { $count } participant·e·s
     }
 # Variables:
 #   $count (Number): Number of guests that responded "maybe".
