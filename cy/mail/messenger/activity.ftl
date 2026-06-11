@@ -78,3 +78,21 @@ gloda-indexed-folder-status =
         [one] { $count } eiliad wedi mynd heibio
        *[other] { $count } eiliad wedi mynd heibio
     }
+# Display line of the live Activity Manager process shown while a WebExtension
+# is actively sending messages via messages.sendMessage(). The running count is
+# shown in the status line below.
+# Variables:
+#   $extensionName (String) - the extension's name
+extension-send-activity-live = Mae estyniad " { $extensionName } " yn anfon negeseuon heb oruchwyliaeth.
+# Status line shown under extension-send-activity-live, updated after every send.
+# Variables:
+#   $count (Number) - number of messages sent so far in this batch
+extension-send-activity-progress =
+    { $count ->
+        [zero] { $count } negeseuon wedi'u hanfon
+        [one] { $count } neges wedi'i anfon
+        [two] { $count } neges wedi'u hanfon
+        [few] { $count } neges wedi'u hanfon
+        [many] { $count } neges wedi'u hanfon
+       *[other] { $count } neges wedi'u hanfon
+    }
