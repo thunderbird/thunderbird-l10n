@@ -96,3 +96,18 @@ extension-send-activity-progress =
         [many] { $count } neges wedi'u hanfon
        *[other] { $count } neges wedi'u hanfon
     }
+# Permanent Activity Manager entry written when the live send process is
+# finalized, 10 seconds after the last send in a batch. The count and elapsed
+# time are carried in the status line below (extension-send-activity-event-status).
+# Variables:
+#   $extensionName (String) - the extension's name
+#   $count (Number) - number of messages sent in this batch
+extension-send-activity-event =
+    { $count ->
+        [zero] Anfonodd estyniad “ { $extensionName } ” nifer o negeseuon heb oruchwyliaeth
+        [one] Anfonodd estyniad “ { $extensionName } ” neges heb oruchwyliaeth
+        [two] Anfonodd estyniad “ { $extensionName } ” nifer o negeseuon heb oruchwyliaeth
+        [few] Anfonodd estyniad “ { $extensionName } ” nifer o negeseuon heb oruchwyliaeth
+        [many] Anfonodd estyniad “ { $extensionName } ” nifer o negeseuon heb oruchwyliaeth
+       *[other] Anfonodd estyniad “ { $extensionName } ” nifer o negeseuon heb oruchwyliaeth
+    }
