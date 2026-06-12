@@ -17,6 +17,9 @@ cert-error-not-yet-valid = { $hostname } sertifikası { $not-before } tarihine k
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-untrusted-default = { $hostname } sertifikası güvenilir bir kaynaktan gelmiyor.
 # Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server.
+cert-error-ssl-connection-error = { $hostname } sunucusuna bağlanırken bir hata oluştu.
+# Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-domain-mismatch =
     .title = Bağlantı hatası. { $hostname } sertifikası bu sunucu için geçerli değil. Birisi sunucuyu taklit etmeye çalışıyor olabilir. Devam etmemelisiniz. Sunucu güvenlik ayarlarını açmak için tıklayın.
@@ -34,6 +37,10 @@ cert-error-inline-not-yet-valid =
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-untrusted-default =
     .title = Bağlantı hatası. { $hostname } sertifikası güvenilir bir kaynaktan gelmiyor. Sunucu güvenlik ayarlarını açmak için tıklayın.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server.
+cert-error-inline-ssl-connection-error =
+    .title = { $hostname } sunucusuna bağlanırken bir hata oluştu.
 certificate-check-test-button = Sunucu bağlantısını test et
 certificate-check-view-button = Sertifikayı göster
 certificate-check-add-exception-button = İstisna ekle
