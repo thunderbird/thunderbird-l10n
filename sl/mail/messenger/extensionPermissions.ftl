@@ -25,6 +25,7 @@ webext-perms-description-messagesMove = kopiranje ali premikanje e-poštnih spor
 webext-perms-description-messagesDelete = trajno brisanje e-poštnih sporočil
 webext-perms-description-messagesRead2 = branje e-poštnih sporočil
 webext-perms-description-messagesUpdate = spreminjanje lastnosti in oznak vaših e-poštnih sporočil
+webext-perms-description-messages-send = programirano množično pošilja sporočila v vašem imenu brez vizualnih povratnih informacij. Kaj je dodatek pošiljal, lahko pregledate v upravitelju dejavnosti.
 webext-perms-description-messages-save = programirano shranjuje sporočila kot osnutke ali predloge, brez vašega posredovanja
 webext-perms-description-messagesTags = ustvarjanje, spreminjanje in brisanje oznak sporočil
 webext-perms-description-messagesTagsList = navajanje oznak sporočil

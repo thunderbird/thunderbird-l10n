@@ -91,3 +91,13 @@ gloda-indexed-folder-status =
 # Variables:
 #   $extensionName (String) - the extension's name
 extension-send-activity-live = Razširitev "{ $extensionName }" nenadzorovano pošilja sporočila.
+# Status line shown under extension-send-activity-live, updated after every send.
+# Variables:
+#   $count (Number) - number of messages sent so far in this batch
+extension-send-activity-progress =
+    { $count ->
+        [one] { $count } poslano sporočilo
+        [two] { $count } poslani sporočili
+        [few] { $count } poslana sporočila
+       *[other] { $count } poslanih sporočil
+    }
