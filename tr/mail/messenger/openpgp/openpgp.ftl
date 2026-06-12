@@ -21,6 +21,8 @@ e2e-csr-button =
 e2e-csr-select-title = CSR algoritması
 # Do not translate: RSA, ECC, S/MIME
 e2e-csr-select-alg = ﻿﻿Yeni S/MIME sertifikası için şifreleme algoritmanız olarak RSA (önerilen) veya ECC arasından seçim yapın.
+# Do not translate: S/MIME
+e2e-csr-select-strength = Yeni S/MIME sertifikası için istediğiniz şifreleme gücünü seçin (düşük sayılarla daha hızlı işlem veya yüksek sayılarla daha iyi güvenlik) ya da varsayılan ayarı koruyun.
 # $type is a cryptographic algorithm like RSA or ECC
 # $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
 # $file A filename
@@ -454,16 +456,24 @@ converter-decrypt-body-failed =
 ## Strings filters.sys.mjs
 
 filter-folder-required = Bir hedef klasör seçmelisiniz.
+filter-decrypt-move-warn-experimental =
+    Uyarı: “Kalıcı olarak şifresini çöz” süzgeç eylemi iletilerin silinmesine neden olabilir.
+    Öncelikle “Şifresi çözülmüş kopya oluştur” süzgecini denemenizi, sonucu dikkatlice kontrol etmenizi ve sonuçtan memnun kaldıktan sonra bu süzgeci kullanmaya başlamanızı öneririz.
 filter-term-pgpencrypted-label = OpenPGP ile şifrelenmiş
 filter-key-required = Bir alıcı anahtarı seçmelisiniz.
 # Variables:
 # $desc (String) - Email address to look for a key of.
 filter-key-not-found = ‘{ $desc }’ için şifreleme anahtarı bulunamadı.
+# Variables:
+# $desc (String) - The ID of a secret key that is required to read the email after the user executes the current action.
+filter-warn-key-not-secret =
+    Uyarı: “Anahtara şifrele” süzgeç eylemi alıcıları değiştirir.
+    ‘{ $desc }’ için gizli anahtarınız yoksa e-postaları artık okuyamazsınız.
 
 ## Strings filtersWrapper.sys.mjs
 
 filter-decrypt-move-label = Kalıcı olarak şifresini çöz (OpenPGP)
-filter-decrypt-copy-label = Şifresi çözülmüş bir kopya oluştur (OpenPGP)
+filter-decrypt-copy-label = Şifresi çözülmüş kopya oluştur (OpenPGP)
 filter-encrypt-label = Anahtara şifrele (OpenPGP)
 
 ## Strings in enigmailKeyImportInfo.js
