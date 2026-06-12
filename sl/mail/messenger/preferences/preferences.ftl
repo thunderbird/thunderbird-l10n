@@ -464,6 +464,7 @@ account-hub-checkbox-description = Poskusni nov postopek ustvarjanja novih raču
 new-calendar-legend = Novo pogovorno okno koledarskega dogodka
 new-calendar-checkbox-label =
     .label = Koledarske dogodke prikaži v novem pogovornem oknu
+new-calendar-checkbox-description = Poskusno novo pogovorno okno koledarja za pregled dogodkov
 account-hub-ab-checkbox-label =
     .label = Ustvari imenike v novem središču za račune
     .accesskey = i

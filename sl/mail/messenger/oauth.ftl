@@ -7,3 +7,6 @@
 ## without user interaction.
 
 oauth-reauthorize-title = Ponovna pooblastitev dostopa
+# $hostname (String) - The hostname the reauthorization will be for.
+# $username (String) - The username that should be used in the reauthorization.
+oauth-reauthorize-description = { $hostname } zahteva, da za nadaljevanje sinhronizacije z računom ponovno potrdite dostop. Uporabniško ime: { $username }
