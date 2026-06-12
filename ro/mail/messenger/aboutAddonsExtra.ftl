@@ -11,5 +11,7 @@ atn-addons-heading-search-input =
 atn-addons-heading-search-button =
     .title = Caută pe addons.thunderbird.net
     .aria-label = Caută pe addons.thunderbird.net
+details-notification-suppressed-esr-2 =
+    .message = Suplimentul a fost dezactivat deoarece folosește API-uri vechi. Suplimentele care folosesc API-uri vechi pot modifica orice parte din { -brand-product-name } și trebuie actualizate, revizuite și aprobate ori de câte ori se modifică { -brand-product-name }. Prin urmare, astfel de suplimente nu sunt acceptate de această versiune { -brand-product-name }, ci doar de { -brand-product-name } ESR, care primește mai puține modificări de cod și rămâne stabil pe durata ciclului ESR de 1 an.
 details-notification-suppressed-esr =
     .message = Suplimentul a fost dezactivat pentru că folosește API-uri experimentale. Acestea sunt limitate la { -brand-product-name } ESR și nu au suport în această versiune { -brand-product-name }.

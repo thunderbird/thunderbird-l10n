@@ -17,6 +17,9 @@ cert-error-not-yet-valid = Certificatul pentru { $hostname } nu va fi valabil p�
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-untrusted-default = Certificatul pentru { $hostname } nu provine de la o sursă de încredere.
 # Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server.
+cert-error-ssl-connection-error = A apărut o eroare în timpul conectării la { $hostname }.
+# Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-domain-mismatch =
     .title = Eroare de conectare. Certificatul pentru { $hostname } nu este valid pentru acel server. Ar putea fi cineva care încearcă să uzurpe identitatea serverului și ar fi bine să nu mergi mai departe. Dă clic ca să deschizi setările de securitate ale serverului.
@@ -34,6 +37,10 @@ cert-error-inline-not-yet-valid =
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-untrusted-default =
     .title = Eroare de conexiune. Certificatul pentru { $hostname } nu provine dintr-o sursă de încredere. Dă clic ca să deschizi setările de securitate ale serverului.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server.
+cert-error-inline-ssl-connection-error =
+    .title = A apărut o eroare în timpul conectării la { $hostname }.
 certificate-check-test-button = Testează conexiunea la server
 certificate-check-view-button = Vezi certificatul
 certificate-check-add-exception-button = Adaugă excepție
