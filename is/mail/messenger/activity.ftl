@@ -69,3 +69,11 @@ gloda-indexed-folder-status =
         [one] { $count } sekúnda liðin
        *[other] { $count } sekúndur liðnar
     }
+# Status line shown under extension-send-activity-live, updated after every send.
+# Variables:
+#   $count (Number) - number of messages sent so far in this batch
+extension-send-activity-progress =
+    { $count ->
+        [one] { $count } skilaboð send
+       *[other] { $count } skilaboð send
+    }
