@@ -729,8 +729,8 @@ email-e2ee-enable-accounts-info = Configura contos email e identitates pro le cr
 email-e2ee-enable-info = Configura contos e identitates email pro cryptation de extremo-a-extremo in Parametros de conto.
 email-e2ee-automatism = Uso automatic del cryptation
 email-e2ee-automatism-pre =
-    { -brand-short-name } pote assister per automaticamente activar o disactivar le cryptation dum on scribe un email.
-    Activation/disactivation automatic es basate super le disponibilitate de claves o certificatos valide e acceptate per correspondente.
+    { -brand-short-name } pote assister per activar o disactivar automaticamente le cryptation durante le composition de un e-mail.
+    Le activation/disactivation automatic se basa sur le disponibilitate de claves o certificatos valide e acceptate del correspondentes.
 email-e2ee-auto-on =
     .label = Automaticamente activar le cryptation quando possibile
 email-e2ee-auto-off =
@@ -738,8 +738,8 @@ email-e2ee-auto-off =
 email-e2ee-auto-off-notify =
     .label = Monstrar un aviso quandocunque le cryptation es disactivate automaticamente
 email-e2ee-automatism-post =
-    On pote abrogar manualmente le decisiones automatic, per activar o disactivar le cryptation, dum on scribe le message.
-    Nota: cryptation es sempre automaticamente activate quando on responde a un message cryptate.
+    Le decisiones automatic pote esser annullate per activar o disactivar manualmente le cryptation durante le composition de un message.
+    Nota: le cryptation es sempre automaticamente activate quando on responde a un message cryptate.
 
 ## DoH Section
 
