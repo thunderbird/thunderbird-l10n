@@ -4,6 +4,9 @@
 
 webext-experiment-warning = Varasamar viðbætur geta stolið persónulegum upplýsingum eða notfært sér tölvuna þína. Þú ættir aðeins að setja inn viðbætur frá þeim vefsvæðum sem þú treystir.
 webext-perms-learn-more = Kanna nánar
+# The "<>" is a placeholder for the add-on name, used by toolkit code which has
+# not yet been updated to use fluent placeholders.
+webext-install-suppressed-message-2 = Ekki var hægt að setja upp viðbótina því hún notar eldra API-kerfisviðmót sem ekki eru stutt í þessari útgáfu af { -brand-product-name }.
 webext-install-suppressed-message = Viðbótin var gerð óvirk því hún notar tilrauna-API kerfisviðmót sem ekki eru studd í þessari útgáfu af Thunderbird.
 webext-install-suppressed-details = Viðbætur með tilrauna-API kerfisviðmótum eru aðeins studdar á { -brand-product-name } ESR.
 # Variables:

@@ -7,3 +7,6 @@
 ## without user interaction.
 
 oauth-reauthorize-title = Endurauðkenna aðgang
+# $hostname (String) - The hostname the reauthorization will be for.
+# $username (String) - The username that should be used in the reauthorization.
+oauth-reauthorize-description = { $hostname } þarfnast þess að þú staðfestir aðganginn aftur til að halda áfram að samstilla við reikninginn þinn. Notandanafn: { $username }
