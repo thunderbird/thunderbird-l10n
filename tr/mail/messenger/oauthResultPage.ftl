@@ -21,3 +21,10 @@ oauth-success-body = Bu pencereyi kapatabilirsiniz.
 
 oauth-error-title = Giriş tamamlanamadı
 oauth-error-subtitle = { -brand-short-name } bu ayarlarla giriş yapmayı tamamlayamadı.
+# New lines in the string will be converted into new lines in the output.
+# $linkStart (String) - Link prefix. Has to always be before $linkEnd. Has no visible content.
+# $linkEnd (String) - Link suffix. Has to always be after $linkStart. Has no visible content.
+oauth-error-body =
+    { -brand-short-name } uygulamasına dönüp hesap yapılandırma ayarlarınızı gözden geçirdikten sonra yeniden deneyin.
+    
+    Sorun devam ederse yardım için { $linkStart }Hesap girişi sorunlarını giderme{ $linkEnd } sayfasına bakın.

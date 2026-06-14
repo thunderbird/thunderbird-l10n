@@ -61,7 +61,7 @@ filter-action-log-pop3-leave = POP3 sunucusunda bırakıldı
 filter-action-log-spam = spam puanı
 filter-action-log-pop3-fetch = gövde POP3 sunucusundan alındı
 filter-action-log-tagged = etiketlendi
-filter-action-log-ignore-subthread = göz ardı edilmiş alt dizi
+filter-action-log-ignore-subthread = görmezden gelinmiş alt dizi
 filter-action-log-unread = okunmadı olarak işaretlenen
 # Variables:
 # $timestamp (String) - The timestamp of the log entry.

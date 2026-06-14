@@ -50,8 +50,8 @@ num-unread =
 #   $count - the number of ignored messages.
 num-ignored =
     { $count ->
-        [one] , { $count } görmezden gelindi
-       *[other] , { $count } görmezden gelindi
+        [one] , { $count } ileti görmezden gelindi
+       *[other] , { $count } ileti görmezden gelindi
     }
 # The number of ignored messages in a thread; meant to be appended to "num-messages".
 # Variables:
@@ -60,8 +60,8 @@ num-ignored =
 #       be more ignored messages than reported (or maybe not!).
 at-least-num-ignored =
     { $count ->
-        [one] , { $count }+ görmezden gelindi
-       *[other] , { $count }+ görmezden gelindi
+        [one] , { $count }+ ileti görmezden gelindi
+       *[other] , { $count }+ ileti görmezden gelindi
     }
 # What to display for a message if it has no subject.
 no-subject = (konu yok)

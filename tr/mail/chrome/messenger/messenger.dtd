@@ -196,7 +196,7 @@
 <!ENTITY threadsWithUnreadCmd.accesskey "m">
 <!ENTITY watchedThreadsWithUnreadCmd.label "Okunmamış içeren izlenen diziler">
 <!ENTITY watchedThreadsWithUnreadCmd.accesskey "z">
-<!ENTITY ignoredThreadsCmd.label "Göz ardı edilen diziler">
+<!ENTITY ignoredThreadsCmd.label "Görmezden gelinmiş diziler">
 <!ENTITY ignoredThreadsCmd.accesskey "l">
 <!ENTITY headersMenu.label "Üst bilgiler">
 <!ENTITY headersMenu.accesskey "B">
@@ -541,7 +541,7 @@
 <!ENTITY editRemoteContentSettingsUnix.label "Uzak içerik tercihlerini düzenle…">
 <!ENTITY editRemoteContentSettingsUnix.accesskey "d">
 <!-- Phishing Button Popup -->
-<!ENTITY phishingOptionIgnore.label "Bu ileti için uyarıyı göz ardı et">
+<!ENTITY phishingOptionIgnore.label "Bu ileti için uyarıyı görmezden gel">
 <!ENTITY phishingOptionIgnore.accesskey "u">
 <!ENTITY phishingOptionSettings.label "Sahtekârlık tespit seçeneklerini düzenle…">
 <!ENTITY phishingOptionSettings.accesskey "S">
@@ -699,7 +699,7 @@
 <!ENTITY contextMoveCopyMsgFavoritesMenu.accesskey "S">
 <!ENTITY contextCopyMsgMenu.label "Buraya kopyala">
 <!ENTITY contextCopyMsgMenu.accesskey "B">
-<!ENTITY contextKillThreadMenu.label "Diziyi göz ardı et">
+<!ENTITY contextKillThreadMenu.label "Diziyi görmezden gel">
 <!ENTITY contextKillSubthreadMenu.accesskey "d">
 <!ENTITY contextKillThreadMenu.accesskey "D">
 <!ENTITY contextKillSubthreadMenu.label "Alt diziyi görmezden gel">

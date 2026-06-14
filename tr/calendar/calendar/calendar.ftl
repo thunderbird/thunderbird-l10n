@@ -879,10 +879,10 @@ calendar-task-filter-overdue =
     .accesskey = r
 calendar-task-filter-completed =
     .label = Tamamlanmış görevler
-    .accesskey = m
+    .accesskey = n
 calendar-task-filter-open =
     .label = Tamamlanmamış görevler
-    .accesskey = m
+    .accesskey = ö
 # LOCALIZATION NOTE (calendar-task-filter-current):
 # "Current Tasks" shows all tasks except those starting in the future.
 calendar-task-filter-current =
