@@ -17,6 +17,9 @@ cert-error-not-yet-valid = Skilríkið fyrir { $hostname } mun ekki gilda fyrr e
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-untrusted-default = Skilríkið fyrir { $hostname } kemur ekki frá traustum útgefanda.
 # Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server.
+cert-error-ssl-connection-error = Villa kom upp við að tengjast { $hostname }.
+# Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-domain-mismatch =
     .title = Villa í tengingu. Skilríkið fyrir { $hostname } er ekki gilt fyrir þann netþjón. Einhver gæti verið að reyna að herma eftir þjóninum og þú ættir ekki að halda áfram.
@@ -34,6 +37,10 @@ cert-error-inline-not-yet-valid =
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-untrusted-default =
     .title = Villa í tengingu. Skilríkið fyrir { $hostname } kemur ekki frá treystum útgefanda. Smelltu til að opna öryggisstillingar netþjónsins.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server.
+cert-error-inline-ssl-connection-error =
+    .title = Villa kom upp við að tengjast { $hostname }.
 certificate-check-test-button = Prófa tengingu við netþjón
 certificate-check-view-button = Skoða skilríki
 certificate-check-add-exception-button = Bæta við undantekningu
