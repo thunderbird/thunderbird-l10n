@@ -69,3 +69,11 @@ gloda-indexed-folder-status =
         [one] πέρασε { $count } δευτερόλεπτο
        *[other] πέρασαν { $count } δευτερόλεπτα
     }
+# Status line shown under extension-send-activity-live, updated after every send.
+# Variables:
+#   $count (Number) - number of messages sent so far in this batch
+extension-send-activity-progress =
+    { $count ->
+        [one] Απεστάλη { $count } μήνυμα
+       *[other] Απεστάλησαν { $count } μηνύματα
+    }
