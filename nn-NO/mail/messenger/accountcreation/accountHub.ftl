@@ -232,6 +232,7 @@ account-hub-result-addon-label = Krev tillegg
 account-hub-edit-configuration = Rediger konfigurasjon
 account-hub-config-success-description-exchange = Fann konfigurasjon for ein Microsoft Exchange-server.
 account-hub-config-success-description-guess = Konfigurasjon funne ved å prøve vanlege servernamn.
+account-hub-config-success-description-isp = Konfigurasjon funnen hos e-postleverandøren.
 account-hub-config-success = Innstillingar funne i Mozilla ISPDB
 account-hub-config-success-exchange = Fann konfigurasjon for ein Microsoft Exchange-server
 account-hub-config-success-guess = Følgjande innstillingar vart funne ved å prøve vanlege tenarnamn
