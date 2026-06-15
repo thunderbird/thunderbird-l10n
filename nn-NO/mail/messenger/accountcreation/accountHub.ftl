@@ -205,6 +205,8 @@ account-hub-calendars-button = Kalendrar
 account-hub-thundermail-button = Logg inn med Thundermail
 # Used as part of a divider between sign in button and a sign in form.
 account-hub-thundermail-divider-text = eller
+account-hub-manual-config-incoming-legend = Innkomande server
+account-hub-manual-config-outgoing-legend = Utgåande server
 account-hub-notification-show-more = Vis meir
 account-hub-notification-show-less = Vis mindre
 account-hub-email-setup-header = Legg til e-postadressa di
@@ -228,6 +230,8 @@ account-hub-result-graph-expanded-text = Graph API
 account-hub-result-recommended-label = Tilrådd
 account-hub-result-addon-label = Krev tillegg
 account-hub-edit-configuration = Rediger konfigurasjon
+account-hub-config-success-description-exchange = Fann konfigurasjon for ein Microsoft Exchange-server.
+account-hub-config-success-description-guess = Konfigurasjon funne ved å prøve vanlege servernamn.
 account-hub-config-success = Innstillingar funne i Mozilla ISPDB
 account-hub-config-success-exchange = Fann konfigurasjon for ein Microsoft Exchange-server
 account-hub-config-success-guess = Følgjande innstillingar vart funne ved å prøve vanlege tenarnamn
