@@ -36,3 +36,13 @@ account-hub-error-server-exists = שרת דואר נכנס כבר קיים.
 account-hub-addon-install-title = התקנה
 account-hub-encryption-button = הצפנה מקצה לקצה
 account-hub-calendars-button = לוחות שנה
+account-hub-manual-config-incoming-legend = שרת דואר נכנס
+account-hub-manual-config-outgoing-legend = שרת דואר יוצא
+account-hub-email-connect-settings = חיבור הגדרות הדוא״ל שלך
+account-hub-config-success-title = הגדרות החשבון נמצאו באופן אוטומטי.
+account-hub-config-success-description-db = הגדרות התצורה נמצאו ב־Mozilla ISPDB.
+account-hub-config-success-description-exchange = הגדרות התצורה נמצאו עבור שרת Microsoft Exchange.
+account-hub-config-success-description-guess = הגדרות התצורה נמצאו באמצעות בדיקה של שמות שרת נפוצים.
+account-hub-config-success-description-disk = הגדרות התצורה נמצאו בהתקנה של { -brand-short-name }.
+account-hub-config-success-description-isp = הגדרות התצורה נמצאו בספק הדוא״ל.
+account-hub-config-success-description-read-more = באפשרותך <a data-l10n-name="automated-setup-link">לקרוא על כיצד עובדת הגדרה אוטומטית של דוא״ל.</a>
