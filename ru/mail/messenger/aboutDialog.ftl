@@ -5,6 +5,9 @@
 about-update-whats-new = Что нового
 about-dialog-title = О { -brand-full-name }
 release-notes-link = Примечания к выпуску
+about-dialog-meadow-logo =
+    .alt = Значок кодового наименования { -brand-short-name } Meadow
+    .title = { -brand-short-name } - Кодовое наименование Meadow
 update-internal-error = Не удалось проверить наличие обновлений из-за внутренней ошибки. Обновления доступны по адресу <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Проверить на обновления
     .accesskey = о
