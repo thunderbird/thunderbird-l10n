@@ -256,6 +256,10 @@ odnoklassniki-protocol-name = Odnoklassniki
 #  Google Talk was disabled on June 16, 2022. The message below is a localized
 #  error message to be displayed to users with Google Talk accounts.
 gtalk-disabled = 由於 Google 停用了 XMPP 閘道，將不再支援 Google Talk。
+# LOCALIZATION NOTE (odnoklassniki-disabled):
+#  Odnoklassniki disabled their XMPP gateway. The message below is a localized
+#  error message to be displayed to users with Odnoklassniki accounts.
+odnoklassniki-disabled = 由於 Odnoklassniki 停用了 XMPP 閘道將不再支援 Odnoklassniki。
 # LOCALIZATION NOTE (odnoklassniki-username-hint):
 #  This is displayed inside the accountUsernameInfoWithDescription
 #  string defined in imAccounts.properties when the user is

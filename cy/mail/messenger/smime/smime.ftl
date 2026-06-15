@@ -12,3 +12,10 @@ configured-cert-ok-sig = Llwyddodd y dystysgrif i basio'r prawf ac mae modd ei d
 configured-cert-failure-detail = Methodd dilysiad y dystysgrif gyda'r gwall canlynol: { $errorMsg }  (Cod Gwall: { $errorCodeStr })
 # $errorCode A numeric error code
 configured-cert-failure = Methodd dilysu'r dystysgrif gyda'r cod gwall { $errorCode }
+# $errorMsg A sentence that explains the error.
+# $errorCodeStr A human readable error code, e.g. SEC_ERROR_UNKNOWN_ISSUER
+# Note the initial empty line is necessary to preserve the line breaks.
+configured-cert-failure-use-anyway-detail-v2 = Mae problem gyda'r dystysgrif hon.  Methodd dilysu'r dystysgrif gyda'r gwall canlynol: { $errorMsg } (Cod Gwall: { $errorCodeStr }) Hoffech chi ddefnyddio'r dystysgrif hon beth bynnag?
+# $errorCode A numeric error code
+# Note the initial empty line is necessary to preserve the line breaks.
+configured-cert-failure-use-anyway-v2 = Mae problem gyda'r dystysgrif hon.  Methodd dilysu'r dystysgrif gyda'r cod gwall { $errorCode }.  Hoffech chi ddefnyddio'r dystysgrif hon beth bynnag?

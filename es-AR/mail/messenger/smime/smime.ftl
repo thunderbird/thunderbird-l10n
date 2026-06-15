@@ -12,3 +12,10 @@ configured-cert-ok-sig = El certificado pasó la prueba y puede usarse para firm
 configured-cert-failure-detail = La verificación del certificado falló con el siguiente error: { $errorMsg } (Código de error: { $errorCodeStr })
 # $errorCode A numeric error code
 configured-cert-failure = La verificación del certificado falló con el código de error { $errorCode }
+# $errorMsg A sentence that explains the error.
+# $errorCodeStr A human readable error code, e.g. SEC_ERROR_UNKNOWN_ISSUER
+# Note the initial empty line is necessary to preserve the line breaks.
+configured-cert-failure-use-anyway-detail-v2 = Hay un problema con este certificado.  La verificación del certificado falló con el siguiente error: { $errorMsg } (Código de error: { $errorCodeStr }) ¿Desea usar este certificado de todos modos?
+# $errorCode A numeric error code
+# Note the initial empty line is necessary to preserve the line breaks.
+configured-cert-failure-use-anyway-v2 = Hay un problema con este certificado.  La verificación del certificado falló con el código de error { $errorCode }.  ¿Desea usar este certificado de todos modos?

@@ -5,6 +5,9 @@
 about-update-whats-new = Nouveautés
 about-dialog-title = À propos de { -brand-full-name }
 release-notes-link = Notes de version
+about-dialog-meadow-logo =
+    .alt = { -brand-short-name } nom de code badge Meadow
+    .title = { -brand-short-name } - Codename Meadow
 update-internal-error = Une erreur interne empêche la vérification des mises à jour. Elles sont disponibles sur <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Rechercher des mises à jour
     .accesskey = R
