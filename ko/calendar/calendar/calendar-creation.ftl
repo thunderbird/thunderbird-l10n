@@ -4,7 +4,6 @@
 
 select-all-calendars = 모두 선택
 select-none-calendars = 선택 안 함
-calendar-creation-wizard-title = 새 캘린더 만들기
 calendar-creation-initial-description = 캘린더는 내 컴퓨터에 저장하거나 또는 다른 사람과 공유하기 위해 리모트 서버에 저장할 수 있습니다.
 calendar-creation-initial-computer =
     .label = 내 컴퓨터에 저장

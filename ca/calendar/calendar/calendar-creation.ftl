@@ -5,7 +5,6 @@
 select-all-calendars = Selecciona-ho tot
 select-none-calendars = No en seleccionis cap
 calendar-creation-dialog-title = Afegeix un calendari
-calendar-creation-wizard-title = Crea un calendari nou
 calendar-creation-initial-description = Podeu emmagatzemar el calendari a l'ordinador o en un servidor per poder accedir-hi remotament o compartir-lo amb els vostres amics o companys de feina.
 calendar-creation-initial-computer =
     .label = Al meu ordinador

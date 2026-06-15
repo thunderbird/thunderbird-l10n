@@ -2,7 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-calendar-creation-wizard-title = Napravi novi kalendar
 calendar-creation-initial-description = Kalendar može biti spremljen na vaš računar ili na server kako biste mu mogli pristupiti od bilo kuda ili ga dijeliti sa svojim prijateljima ili saradnicima.
 calendar-creation-initial-computer =
     .label = Na mom računaru

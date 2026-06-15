@@ -4,7 +4,6 @@
 
 select-all-calendars = Նշել Ֆայլը
 select-none-calendars = Ոչինչ չնշել
-calendar-creation-wizard-title = Նոր օրացույց
 calendar-creation-initial-description = Ձեր օրացույցը կարող է պահվել Ձեր համակարգչում, կամ սպասարկչում, հեռակա միանալու, Ձեր ընկերների կամ գործընկերների հետ կիսվելու համար։
 calendar-creation-initial-computer =
     .label = Իմ համակարգչում

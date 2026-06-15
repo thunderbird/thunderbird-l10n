@@ -4,7 +4,6 @@
 
 select-all-calendars = Tagh na h-uile
 select-none-calendars = Na tagh gin
-calendar-creation-wizard-title = A' cruthachadh mìosachan ùr
 calendar-creation-initial-description = 'S urrainn dhut am mìosachan agad a stòradh air a' choimpiutair agad no air frithealaiche gus inntrigeadh cèin a dhèanamh dha no a chleachdadh còmhla ri caraidean no co-obraichean.
 calendar-creation-initial-computer =
     .label = Air a' choimpiutair agam

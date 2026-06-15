@@ -4,7 +4,6 @@
 
 select-all-calendars = Vali kõik
 select-none-calendars = Eemalda valik
-calendar-creation-wizard-title = Uue kalendri loomine
 calendar-creation-initial-description = Kalender võib asuda nii sinu arvutis kui ka serveris, mis võimaldab kaugligipääsu sellele ning jagamist sõprade või töökaaslastega.
 calendar-creation-initial-computer =
     .label = minu arvutis

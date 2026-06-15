@@ -3,15 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # Variables:
-#   $m - the number M in "M of N" items
-#   $n - the number N in "M of N" items
-items-m-of-n =
-    { $m ->
-        [one] { $m } z { $n }{ $m } z { $n }
-        [few] { $m } z { $n }{ $m } z { $n }
-       *[many] { $m } z { $n }{ $m } z { $n }
-    }
-# Variables:
 #   $count - the number items
 facets-mode-to-list-all-label =
     { $count ->

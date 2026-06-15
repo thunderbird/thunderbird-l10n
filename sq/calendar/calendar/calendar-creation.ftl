@@ -4,7 +4,6 @@
 
 select-all-calendars = Përzgjidhe krejt
 select-none-calendars = Mos përzgjidh gjë
-calendar-creation-wizard-title = Krijoni Kalendar të Ri
 calendar-creation-initial-description = Kalendari juaj mund të depozitohet te kompjuteri juaj, ose te një shërbyes që të mund ta përdorni së largëti ose ta ndani me shokë apo kolegë tuajt.
 calendar-creation-initial-computer =
     .label = Në Kompjuterin Tim

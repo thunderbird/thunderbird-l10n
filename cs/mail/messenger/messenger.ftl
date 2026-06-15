@@ -765,8 +765,3 @@ tags-format-with-accesskey =
 #   $name (String) - The default or user-defined name of the tag.
 tags-format-without-accesskey =
     .label = { $name }
-
-## OAuth2 loopback listener response page.
-
-oauth2-loopback-success = Toto okno můžete zavřít.
-oauth2-loopback-failure = Přesměrování OAuth se nezdařilo.

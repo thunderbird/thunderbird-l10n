@@ -2,7 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-calendar-creation-wizard-title = Ստեղծել նոր աւրացոյց
 calendar-creation-initial-description = Ձեր աւրացոյցը կարող է պահպանուել Ձեր համակարգչում կամ սպասարկչում, հեռակայ միանալու, Ձեր ընկերների կամ գործընկերների հետ կիսուելու համար։
 calendar-creation-initial-computer =
     .label = Իմ համակարգչում

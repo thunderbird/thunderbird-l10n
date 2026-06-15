@@ -5,7 +5,6 @@
 select-all-calendars = ყველას მონიშვნა
 select-none-calendars = არცერთის მონიშვნა
 calendar-creation-dialog-title = კალენდრის დამატება
-calendar-creation-wizard-title = ახალი კალენდრის შექმნა
 calendar-creation-initial-description = თქვენი კალენდრის შენახვა შესაძლებელია როგორც თქვენს კომპიუტერში, ისე სერვერზე, რომ გარედან იყოს მისაწვდომი და მისი მეგობრებთან თუ თანამშრომლებთან გაზიარება შეძლოთ.
 calendar-creation-initial-computer =
     .label = ჩემს კომპიუტერში

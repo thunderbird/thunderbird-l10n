@@ -4,7 +4,6 @@
 
 select-all-calendars = Pažymėti viską
 select-none-calendars = Nanaikinti žymėjimus
-calendar-creation-wizard-title = Naujo kalendoriaus kūrimas
 calendar-creation-initial-description = Kalendorius gali būti saugomas jūsų kompiuteryje arba tinklo serveryje, jei norite jį pasiekti iš kitur, arba dalintis juo su draugais.
 calendar-creation-initial-computer =
     .label = Mano kompiuteryje

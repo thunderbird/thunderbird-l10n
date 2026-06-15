@@ -5,7 +5,6 @@
 select-all-calendars = Pilih semua
 select-none-calendars = Pilih tak satu pun
 calendar-creation-dialog-title = Tambahkan kalender
-calendar-creation-wizard-title = Buat Kalender Baru
 calendar-creation-initial-description = Kalender dapat disimpan dalam komputer Anda atau disimpan di komputer server agar dapat diakses jarak jauh atau dapat dibagikan dengan teman atau rekan kerja Anda.
 calendar-creation-initial-computer =
     .label = Pada Komputer Saya

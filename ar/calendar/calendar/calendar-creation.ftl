@@ -2,7 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-calendar-creation-wizard-title = أنشئ تقويمًا جديدًا
 calendar-creation-initial-description = يمكنك حفظ التقويم في الحاسوب أو الخادوم وذلك لتصل إليه من بعيد أو لتشاركه مع أصدقائك أو زملائك في العمل.
 calendar-creation-initial-computer =
     .label = في الحاسوب

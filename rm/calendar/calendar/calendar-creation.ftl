@@ -4,7 +4,6 @@
 
 select-all-calendars = Selecziunar tut
 select-none-calendars = Selecziunar nagut
-calendar-creation-wizard-title = Crear in nov chalender
 calendar-creation-initial-description = Ti pos memorisar tes chalender sin tes computer u sin in server per l'access a distanza e per al cundivider cun tes amis u collavuraturs.
 calendar-creation-initial-computer =
     .label = Sin mes computer

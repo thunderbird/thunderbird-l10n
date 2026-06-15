@@ -5,7 +5,6 @@
 select-all-calendars = เลือกทั้งหมด
 select-none-calendars = ไม่เลือกเลย
 calendar-creation-dialog-title = เพิ่มปฏิทิน
-calendar-creation-wizard-title = สร้างปฏิทินใหม่
 calendar-creation-initial-description = สามารถเก็บปฏิทินของคุณไว้ในคอมพิวเตอร์ของคุณหรือในเซิร์ฟเวอร์เพื่อให้สามารถเข้าถึงได้จากระยะไกลหรือแบ่งปันกับเพื่อนร่วมงานของคุณได้
 calendar-creation-initial-computer =
     .label = ในคอมพิวเตอร์ของฉัน
