@@ -205,6 +205,8 @@ account-hub-calendars-button = Kalendere
 account-hub-thundermail-button = Logg inn med Thundermail
 # Used as part of a divider between sign in button and a sign in form.
 account-hub-thundermail-divider-text = eller
+account-hub-manual-config-incoming-legend = Innkommende server
+account-hub-manual-config-outgoing-legend = Utgående server
 account-hub-notification-show-more = Vis mer
 account-hub-notification-show-less = Vis mindre
 account-hub-email-setup-header = Legg til e-postadressen din
