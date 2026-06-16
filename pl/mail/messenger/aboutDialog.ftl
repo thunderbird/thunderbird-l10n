@@ -5,6 +5,9 @@
 about-update-whats-new = Informacje o wydaniu
 about-dialog-title = O programie { -brand-full-name }
 release-notes-link = Informacje o wydaniu
+about-dialog-meadow-logo =
+    .alt = Plakietka kryptonimu „Meadow” programu { -brand-short-name }
+    .title = { -brand-short-name } — kryptonim „Meadow”
 update-internal-error = Nie można sprawdzić dostępności aktualizacji z powodu błędu wewnętrznego. Aktualizacje są dostępne na <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Sprawdź dostępność aktualizacji
     .accesskey = S
