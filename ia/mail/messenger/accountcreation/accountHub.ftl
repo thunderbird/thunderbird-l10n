@@ -232,10 +232,12 @@ account-hub-result-recommended-label = Recommendate
 account-hub-result-addon-label = Besonia de additivo
 account-hub-edit-configuration = Modificar configuration
 account-hub-config-success-title = Configurationes de conto automaticamente trovate.
+account-hub-config-success-description-db = Configuration trovate in Mozilla ISPDB.
 account-hub-config-success-description-exchange = Configuration trovate pro un servitor Microsoft Exchange.
 account-hub-config-success-description-guess = Configuration trovate tentante nomines de servitor commun.
 account-hub-config-success-description-disk = Configuration trovate in installation de { -brand-short-name }.
 account-hub-config-success-description-isp = Configuration trovate pro le fornitor de e-mail.
+account-hub-config-success-description-read-more = Tu pote <a data-l10n-name="automated-setup-link">leger re como functiona le installation automatisate de e-mail.</a>
 account-hub-config-success = Configuration trovate in Mozilla ISPDB
 account-hub-config-success-exchange = Configuration trovate in servitor Microsoft Exchange
 account-hub-config-success-guess = Configuration trovate probante nomines de servitores commun
