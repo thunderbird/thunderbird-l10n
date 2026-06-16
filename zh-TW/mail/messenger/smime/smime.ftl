@@ -15,7 +15,17 @@ configured-cert-failure = 憑證驗證失敗，錯誤代碼：{ $errorCode }
 # $errorMsg A sentence that explains the error.
 # $errorCodeStr A human readable error code, e.g. SEC_ERROR_UNKNOWN_ISSUER
 # Note the initial empty line is necessary to preserve the line breaks.
-configured-cert-failure-use-anyway-detail-v2 = 此憑證有問題。  憑證驗證失敗並產生下列錯誤: { $errorMsg }錯誤代碼: { $errorCodeStr }您還是想要使用此憑證嗎
+configured-cert-failure-use-anyway-detail-v2 =
+    此憑證有問題。
+    
+    憑證驗證失敗，遇到下列錯誤：{ $errorMsg }（錯誤代碼：{ $errorCodeStr }）
+    
+    您還是要使用這張憑證嗎？
 # $errorCode A numeric error code
 # Note the initial empty line is necessary to preserve the line breaks.
-configured-cert-failure-use-anyway-v2 = 此憑證有問題。  憑證驗證失敗錯誤代碼 { $errorCode }。  您還是想要使用此憑證嗎
+configured-cert-failure-use-anyway-v2 =
+    此憑證有問題。
+    
+    憑證驗證失敗，錯誤代碼為 { $errorCode }。
+    
+    您還是要使用這張憑證嗎？
