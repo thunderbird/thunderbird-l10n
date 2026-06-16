@@ -5,6 +5,9 @@
 about-update-whats-new = Có gì mới
 about-dialog-title = Giới thiệu về { -brand-full-name }
 release-notes-link = Ghi chú phát hành
+about-dialog-meadow-logo =
+    .alt = Huy hiệu tên mã Meadow của { -brand-short-name }
+    .title = { -brand-short-name } - Tên mã Meadow
 update-internal-error = Không thể kiểm tra các bản cập nhật do lỗi nội bộ. Bản cập nhật có sẵn tại <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Kiểm tra cập nhật
     .accesskey = C
