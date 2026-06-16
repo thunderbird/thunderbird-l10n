@@ -12,3 +12,20 @@ configured-cert-ok-sig = Certifikat je test wobstał a da so za e-mejlowe signow
 configured-cert-failure-detail = Přepruwowanje certifikata je so ze slědowacym zmylkom nimokuliło: { $errorMsg } (zmylkowy kod: { $errorCodeStr })
 # $errorCode A numeric error code
 configured-cert-failure = Přepruwowanje certifikata je so ze zmylkowym kodom { $errorCode } nimokuliło
+# $errorMsg A sentence that explains the error.
+# $errorCodeStr A human readable error code, e.g. SEC_ERROR_UNKNOWN_ISSUER
+# Note the initial empty line is necessary to preserve the line breaks.
+configured-cert-failure-use-anyway-detail-v2 =
+    Je problem z tutym certifikatom.
+    
+    Přepruwowanje certifikata je so ze slědowacym zmylkom nimokuliło: { $errorMsg } (Error Code: { $errorCodeStr })
+    
+    Chceće tutón certifikat najebać to wužiwać?
+# $errorCode A numeric error code
+# Note the initial empty line is necessary to preserve the line breaks.
+configured-cert-failure-use-anyway-v2 =
+    Je problem z tutym certifikatom.
+    
+    Přepruwowanje certifikata je so ze zmylkowym kodom nimokuliło: { $errorCode }.
+    
+    Chceće tutón certifikat najebać to wužiwać?
