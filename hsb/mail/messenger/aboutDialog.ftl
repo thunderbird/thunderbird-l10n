@@ -5,6 +5,9 @@
 about-update-whats-new = Nowe funkcije a změny
 about-dialog-title = Wo { -brand-full-name }
 release-notes-link = Wersijowe informacije
+about-dialog-meadow-logo =
+    .alt = Značka kodoweho mjena Meadow za { -brand-short-name }
+    .title = { -brand-short-name } – Kodowe mjeno Meadow
 update-internal-error = Interneho zmylka dla njeje móžno za aktualizacijemi pytać. Aktualizacije su na <a data-l10n-name="manual-link"/> k dispoziciji
 update-check-for-updates-button = Za aktualizacijemi pytać
     .accesskey = Z

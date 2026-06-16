@@ -12,3 +12,20 @@ configured-cert-ok-sig = Sertifikatet bestod testen og kan brukast til e-postsig
 configured-cert-failure-detail = Stadfestinga av sertifikatet mislykkast med følgjande feil: { $errorMsg } (Feilkode: { $errorCodeStr })
 # $errorCode A numeric error code
 configured-cert-failure = Stadfestinga av sertifikatet mislykkast med feilkode { $errorCode }
+# $errorMsg A sentence that explains the error.
+# $errorCodeStr A human readable error code, e.g. SEC_ERROR_UNKNOWN_ISSUER
+# Note the initial empty line is necessary to preserve the line breaks.
+configured-cert-failure-use-anyway-detail-v2 =
+    Det er eit problem med dette sertifikatet.
+    
+    Sertifikatverifiseringa mislykkast med følgjande feil: { $errorMsg } (feilkode: { $errorCodeStr })
+    
+    Vil du bruke dette sertifikatet likevel?
+# $errorCode A numeric error code
+# Note the initial empty line is necessary to preserve the line breaks.
+configured-cert-failure-use-anyway-v2 =
+    Det er eit problem med dette sertifikatet.
+    
+    Sertifikatverifiseringa mislykkast med feilkode { $errorCode }.
+    
+    Vil du bruke dette sertifikatet likevel?

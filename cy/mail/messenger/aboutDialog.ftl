@@ -6,7 +6,7 @@ about-update-whats-new = Be sy'n Newydd
 about-dialog-title = Ynghylch { -brand-full-name }
 release-notes-link = Nodiadau ryddhau
 about-dialog-meadow-logo =
-    .alt = Bathodyn Meadow codename { -brand-short-name }
+    .alt = Bathodyn enw cod Meadow { -brand-short-name }
     .title = { -brand-short-name } - Codename Meadow
 update-internal-error = Methu gwirio am ddiweddariadau oherwydd gwall mewnol. Diweddariadau ar gael yn <a data-l10n-name="manual-link">
 update-check-for-updates-button = Gwirio am Ddiweddariadau

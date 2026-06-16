@@ -259,7 +259,7 @@ gtalk-disabled = Nid yw Google Talk yn cael ei gefnogi bellach oherwydd bod Goog
 # LOCALIZATION NOTE (odnoklassniki-disabled):
 #  Odnoklassniki disabled their XMPP gateway. The message below is a localized
 #  error message to be displayed to users with Odnoklassniki accounts.
-odnoklassniki-disabled = Nid yw Odnoklassniki yn cael ei gefnogi mwyach oherwydd bod Odnoklassniki yn analluogi eu porth XMPP.
+odnoklassniki-disabled = Dyw Odnoklassniki ddim yn cael ei gefnogi nawr oherwydd bod Odnoklassniki yn analluogi eu porth XMPP.
 # LOCALIZATION NOTE (odnoklassniki-username-hint):
 #  This is displayed inside the accountUsernameInfoWithDescription
 #  string defined in imAccounts.properties when the user is

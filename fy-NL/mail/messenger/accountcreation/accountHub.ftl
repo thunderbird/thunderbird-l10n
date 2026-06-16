@@ -205,6 +205,8 @@ account-hub-calendars-button = Aginda's
 account-hub-thundermail-button = Oanmelde mei Thundermail
 # Used as part of a divider between sign in button and a sign in form.
 account-hub-thundermail-divider-text = of
+account-hub-manual-config-incoming-legend = Ynkommende server
+account-hub-manual-config-outgoing-legend = Utgeande server
 account-hub-notification-show-more = Mear toane
 account-hub-notification-show-less = Minder toane
 account-hub-email-setup-header = Jo e-mailadres tafoegje

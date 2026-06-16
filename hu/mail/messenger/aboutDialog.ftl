@@ -5,6 +5,9 @@
 about-update-whats-new = Újdonságok
 about-dialog-title = A { -brand-full-name } névjegye
 release-notes-link = Kiadási megjegyzések
+about-dialog-meadow-logo =
+    .alt = A { -brand-short-name } Meadow kódnevének kitűzője
+    .title = { -brand-short-name } – Kódnév: Meadow
 update-internal-error = Belső hiba miatt nem lehet frissítéseket keresni. A frissítések itt érhetők el: <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Frissítések keresése
     .accesskey = F

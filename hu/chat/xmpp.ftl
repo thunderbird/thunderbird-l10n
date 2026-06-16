@@ -256,6 +256,10 @@ odnoklassniki-protocol-name = Odnoklassniki
 #  Google Talk was disabled on June 16, 2022. The message below is a localized
 #  error message to be displayed to users with Google Talk accounts.
 gtalk-disabled = A Google Talk már nem támogatott, mert a Google kikapcsolta az XMPP átjárót.
+# LOCALIZATION NOTE (odnoklassniki-disabled):
+#  Odnoklassniki disabled their XMPP gateway. The message below is a localized
+#  error message to be displayed to users with Odnoklassniki accounts.
+odnoklassniki-disabled = Az Odnoklassniki már nem támogatott, mert az Odnoklassniki kikapcsolta az XMPP-átjáróját.
 # LOCALIZATION NOTE (odnoklassniki-username-hint):
 #  This is displayed inside the accountUsernameInfoWithDescription
 #  string defined in imAccounts.properties when the user is
