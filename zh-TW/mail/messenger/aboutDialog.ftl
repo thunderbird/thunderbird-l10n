@@ -7,7 +7,7 @@ about-dialog-title = 關於 { -brand-full-name }
 release-notes-link = 發行公告
 about-dialog-meadow-logo =
     .alt = { -brand-short-name } codename Meadow 徽章
-    .title = { -brand-short-name } - Codename 草地
+    .title = { -brand-short-name } - Codename Meadow
 update-internal-error = 發生內部錯誤，無法檢查更新。可到下列網址下載 <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = 檢查更新
     .accesskey = C

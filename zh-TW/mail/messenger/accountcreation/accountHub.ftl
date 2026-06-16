@@ -212,7 +212,7 @@ account-hub-notification-show-less = 顯示更少
 account-hub-email-setup-header = 新增您的電子郵件地址
 account-hub-email-setup-incoming = 收件伺服器選項
 account-hub-email-setup-outgoing = 寄件伺服器選項
-account-hub-email-connect-settings = 連結您的郵件設定
+account-hub-email-connect-settings = 連結您的郵件收發設定
 account-hub-email-config-found = 選擇您的電子郵件帳號類型
 account-hub-email-enter-password = 請輸入您的電子郵件帳號密碼
 account-hub-email-sync-accounts = 同步您的行事曆與通訊錄
@@ -232,12 +232,12 @@ account-hub-result-recommended-label = 推薦
 account-hub-result-addon-label = 需要安裝附加元件
 account-hub-edit-configuration = 編輯設定
 account-hub-config-success-title = 已自動找到帳號設定。
-account-hub-config-success-description-db = 從 Mozilla ISPDB 找到設定
+account-hub-config-success-description-db = 從 Mozilla ISPDB 找到設定。
 account-hub-config-success-description-exchange = 找到 Microsoft Exchange 伺服器的設定。
 account-hub-config-success-description-guess = 嘗試使用常用的伺服器名稱後，找到設定。
-account-hub-config-success-description-disk = 安裝時發現了 { -brand-short-name } 中的設定。
+account-hub-config-success-description-disk = 於 { -brand-short-name } 安裝找到設定。
 account-hub-config-success-description-isp = 從電子郵件服務供應商找到設定。
-account-hub-config-success-description-read-more = 您可以<a data-l10n-name=" automated-setup-link">了解電子郵件自動設定的原理。</a>
+account-hub-config-success-description-read-more = 您可以<a data-l10n-name=" automated-setup-link">在此了解電子郵件自動設定的原理。</a>
 account-hub-config-success = 從 Mozilla ISPDB 找到的設定
 account-hub-config-success-exchange = 找到 Microsoft Exchange 伺服器設定
 account-hub-config-success-guess = 測試常用的伺服器名稱之後找到以下設定
