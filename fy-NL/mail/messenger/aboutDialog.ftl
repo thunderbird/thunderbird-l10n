@@ -5,6 +5,9 @@
 about-update-whats-new = Wat is der nij
 about-dialog-title = Oer { -brand-full-name }
 release-notes-link = Utjefeopmerkingen
+about-dialog-meadow-logo =
+    .alt = { -brand-short-name } codename Meadow-badge
+    .title = { -brand-short-name } - Codename Meadow
 update-internal-error = Kin net kontrolearje op fernijingen fanwegen in ynterne flater. Fernijingen beskikber op <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Kontrolearje op fernijingen
     .accesskey = K
