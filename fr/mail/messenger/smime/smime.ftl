@@ -15,7 +15,12 @@ configured-cert-failure = La vérification du certificat n’a pas abouti, code 
 # $errorMsg A sentence that explains the error.
 # $errorCodeStr A human readable error code, e.g. SEC_ERROR_UNKNOWN_ISSUER
 # Note the initial empty line is necessary to preserve the line breaks.
-configured-cert-failure-use-anyway-detail-v2 = Il y a un problème avec ce certificat.  La vérification du certificat a échoué avec l’erreur suivante : { $errorMsg } (code d’erreur : { $errorCodeStr }) Voulez-vous utiliser ce certificat tout de même ?
+configured-cert-failure-use-anyway-detail-v2 =
+    Il y a un problème avec ce certificat.
+    
+    La vérification du certificat a échoué avec l’erreur suivante : { $errorMsg } (code d’erreur : { $errorCodeStr })
+    
+    Voulez-vous utiliser ce certificat tout de même ?
 # $errorCode A numeric error code
 # Note the initial empty line is necessary to preserve the line breaks.
 configured-cert-failure-use-anyway-v2 = Il y a un problème avec ce certificat.  La vérification du certificat a échoué avec le code d’erreur { $errorCode }.  Voulez-vous utiliser ce certificat tout de même ?
