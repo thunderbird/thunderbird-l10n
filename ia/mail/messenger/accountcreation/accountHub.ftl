@@ -205,6 +205,8 @@ account-hub-calendars-button = Agendas
 account-hub-thundermail-button = Acceder con Thundermail
 # Used as part of a divider between sign in button and a sign in form.
 account-hub-thundermail-divider-text = o
+account-hub-manual-config-incoming-legend = Servitor de arrivata
+account-hub-manual-config-outgoing-legend = Servitor in exito
 account-hub-notification-show-more = Monstrar plus
 account-hub-notification-show-less = Monstrar minus
 account-hub-email-setup-header = Adde tu adresse email
@@ -228,6 +230,7 @@ account-hub-result-graph-expanded-text = Graph API
 account-hub-result-recommended-label = Recommendate
 account-hub-result-addon-label = Besonia de additivo
 account-hub-edit-configuration = Modificar configuration
+account-hub-config-success-description-exchange = Configuration trovate pro un servitor Microsoft Exchange.
 account-hub-config-success = Configuration trovate in Mozilla ISPDB
 account-hub-config-success-exchange = Configuration trovate in servitor Microsoft Exchange
 account-hub-config-success-guess = Configuration trovate probante nomines de servitores commun
