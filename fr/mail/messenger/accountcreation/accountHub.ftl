@@ -237,7 +237,7 @@ account-hub-config-success-description-exchange = Configuration trouvée pour un
 account-hub-config-success-description-guess = Configuration trouvée en essayant les noms de serveur courants.
 account-hub-config-success-description-disk = Configuration trouvée dans l’installation de { -brand-short-name }.
 account-hub-config-success-description-isp = Configuration trouvée chez le fournisseur de messagerie.
-account-hub-config-success-description-read-more = Vous pouvez <a data-l10n-name="automated-setup-link">apprendre comment fonctionne la configuration automatisée des e-mails.</a>
+account-hub-config-success-description-read-more = Vous pouvez <a data-l10n-name="automated-setup-link">en savoir plus sur le fonctionnement de la configuration automatique des e-mails.</a>
 account-hub-config-success = Configuration trouvée dans la base de données des FAI de Mozilla.
 account-hub-config-success-exchange = Configuration détectée pour un serveur Microsoft Exchange
 account-hub-config-success-guess = Configuration trouvée en essayant des noms de serveurs courants

@@ -20,7 +20,12 @@ configured-cert-failure-use-anyway-detail-v2 =
     
     La vérification du certificat a échoué avec l’erreur suivante : { $errorMsg } (code d’erreur : { $errorCodeStr })
     
-    Voulez-vous utiliser ce certificat tout de même ?
+    Voulez-vous tout de même utiliser ce certificat ?
 # $errorCode A numeric error code
 # Note the initial empty line is necessary to preserve the line breaks.
-configured-cert-failure-use-anyway-v2 = Il y a un problème avec ce certificat.  La vérification du certificat a échoué avec le code d’erreur { $errorCode }.  Voulez-vous utiliser ce certificat tout de même ?
+configured-cert-failure-use-anyway-v2 =
+    Il y a un problème avec ce certificat.
+    
+    La vérification du certificat a échoué avec le code d’erreur { $errorCode }.
+    
+    Voulez-vous tout de même utiliser ce certificat ?
