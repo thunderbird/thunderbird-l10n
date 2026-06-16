@@ -237,6 +237,7 @@ account-hub-config-success-description-exchange = Configuratie gevonden voor een
 account-hub-config-success-description-guess = Configuratie gevonden door algemene servernamen te proberen.
 account-hub-config-success-description-disk = Configuratie gevonden in installatie van { -brand-short-name }.
 account-hub-config-success-description-isp = Configuratie gevonden bij e-mailprovider.
+account-hub-config-success-description-read-more = U kunt <a data-l10n-name="automated-setup-link">lezen hoe het automatisch instellen van e-mail werkt.</a>
 account-hub-config-success = Configuratie gevonden in de Mozilla-ISPDB
 account-hub-config-success-exchange = Configuratie gevonden voor een Microsoft Exchange-server
 account-hub-config-success-guess = Configuratie gevonden door veelvoorkomende servernamen te proberen
