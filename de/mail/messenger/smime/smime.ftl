@@ -12,3 +12,20 @@ configured-cert-ok-sig = Das Zertifikat hat den Test bestanden und kann zur E-Ma
 configured-cert-failure-detail = Die Zertifikat-Verifizierung ist mit folgendem Fehler fehlgeschlagen: { $errorMsg } (Fehlercode: { $errorCodeStr })
 # $errorCode A numeric error code
 configured-cert-failure = Die Zertifikat-Verifizierung ist mit dem Fehlercode { $errorCode } fehlgeschlagen.
+# $errorMsg A sentence that explains the error.
+# $errorCodeStr A human readable error code, e.g. SEC_ERROR_UNKNOWN_ISSUER
+# Note the initial empty line is necessary to preserve the line breaks.
+configured-cert-failure-use-anyway-detail-v2 =
+    Es gibt ein Problem mit diesem Zertifikat.
+    
+    Die Zertifikat-Verifizierung ist mit folgendem Fehler fehlgeschlagen: { $errorMsg } (Error Code: { $errorCodeStr })
+    
+    Soll dieses Zertifikat trotzdem verwendet werden?
+# $errorCode A numeric error code
+# Note the initial empty line is necessary to preserve the line breaks.
+configured-cert-failure-use-anyway-v2 =
+    Es gibt ein Problem mit diesem Zertifikat.
+    
+    Die Zertifikatsverifizierung ist mit dem Fehlercode { $errorCode } fehlgeschlagen.
+    
+    Soll dieses Zertifikat trotzdem verwendet werden?

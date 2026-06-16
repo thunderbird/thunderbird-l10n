@@ -5,6 +5,9 @@
 about-update-whats-new = Neue Funktionen und Änderungen
 about-dialog-title = Über { -brand-full-name }
 release-notes-link = Neue Funktionen und Änderungen
+about-dialog-meadow-logo =
+    .alt = { -brand-short-name } Codename-Meadow-Abzeichen
+    .title = { -brand-short-name } - Codename Meadow
 update-internal-error = Aufgrund eines internen Fehlers kann nicht nach Updates gesucht werden. Updates sind unter <a data-l10n-name="manual-link"/> verfügbar.
 update-check-for-updates-button = Nach Updates suchen
     .accesskey = N
