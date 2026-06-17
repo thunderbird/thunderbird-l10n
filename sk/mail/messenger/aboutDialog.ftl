@@ -5,6 +5,9 @@
 about-update-whats-new = Čo je nové
 about-dialog-title = O aplikácii { -brand-full-name }
 release-notes-link = Poznámky k vydaniu
+about-dialog-meadow-logo =
+    .alt = Odznak { -brand-short-name(case: "gen") } s kódovým označením Meadow
+    .title = { -brand-short-name } - kódové označenie Meadow
 update-internal-error = Nie je možné skontrolovať aktualizácie kvôli internej chybe. Aktualizácie sú k dispozícii na stránke <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Vyhľadať aktualizácie
     .accesskey = h
