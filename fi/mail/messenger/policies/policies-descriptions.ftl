@@ -85,6 +85,7 @@ policy-RequestedLocales = Aseta pyydetyt sovelluksen kielet suosituimmuusjärjes
 policy-SanitizeOnShutdown2 = Poista selailutiedot kun ohjelma suljetaan
 policy-SearchEngines = Muokkaa hakukoneiden asetuksia. Tämä käytäntö on saatavilla vain laajennetun tuen (ESR) julkaisulle .
 policy-SearchSuggestEnabled = Ota käyttöön tai poista käytöstä hakuehdotukset.
+policy-SecurityDevices2 = Lisää tai poista PKCS #11 -moduuleja.
 # For more information, see https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
 policy-SecurityDevices = Asenna PKCS #11 -moduulit.
 policy-SSLVersionMax = Aseta SSL:n enimmäisversio.

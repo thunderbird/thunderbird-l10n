@@ -69,3 +69,47 @@ gloda-indexed-folder-status =
         [one] Kulutettiin { $count } sekunti
        *[other] Kulutettiin { $count } sekuntia
     }
+# Display line of the live Activity Manager process shown while a WebExtension
+# is actively sending messages via messages.sendMessage(). The running count is
+# shown in the status line below.
+# Variables:
+#   $extensionName (String) - the extension's name
+extension-send-activity-live = Laajennus ”{ $extensionName }” lähettää valvomattomia viestejä.
+# Status line shown under extension-send-activity-live, updated after every send.
+# Variables:
+#   $count (Number) - number of messages sent so far in this batch
+extension-send-activity-progress =
+    { $count ->
+        [one] { $count } viesti lähetetty
+       *[other] { $count } viestiä lähetetty
+    }
+# Permanent Activity Manager entry written when the live send process is
+# finalized, 10 seconds after the last send in a batch. The count and elapsed
+# time are carried in the status line below (extension-send-activity-event-status).
+# Variables:
+#   $extensionName (String) - the extension's name
+#   $count (Number) - number of messages sent in this batch
+extension-send-activity-event =
+    { $count ->
+        [one] Laajennus ”{ $extensionName }” lähetti valvomattoman viestin
+       *[other] Laajennus ”{ $extensionName }” lähetti useita valvomattomia viestejä
+    }
+# Status line shown under extension-send-activity-event. Reports how many
+# messages were sent and the wall-clock time between the first and last send in
+# the batch (rounded to whole seconds, at least one).
+# Variables:
+#   $count (Number) - number of messages sent in this batch
+#   $seconds (Number) - elapsed seconds between the first and last send
+extension-send-activity-event-status =
+    { $count ->
+        [one]
+            { $seconds ->
+                [one] { $count } viesti lähetetty { $seconds } sekunnissa
+               *[other] { $count } viesti lähetetty { $seconds } sekunnissa
+            }
+       *[other]
+            { $seconds ->
+                [one] { $count } viestiä lähetetty { $seconds } sekunnissa
+               *[other] { $count } viestiä lähetetty { $seconds } sekunnissa
+            }
+    }
