@@ -212,6 +212,7 @@ account-hub-notification-show-less = Kevesebb megjelenítése
 account-hub-email-setup-header = E-mail-cím hozzáadása
 account-hub-email-setup-incoming = Bejövő kiszolgáló beállításai
 account-hub-email-setup-outgoing = Kimenő kiszolgáló beállításai
+account-hub-email-connect-settings = E-mail-beállítások összekapcsolása
 account-hub-email-config-found = Válassza ki az e-mail-fiók típusát
 account-hub-email-enter-password = Adja meg az e-mail-fiókja jelszavát
 account-hub-email-sync-accounts = Szinkronizálja naptárait és címjegyzékeit
@@ -236,6 +237,7 @@ account-hub-config-success-description-exchange = A Microsoft Exchange kiszolgá
 account-hub-config-success-description-guess = A beállítások a gyakori kiszolgálónevek kipróbálásával megtalálva.
 account-hub-config-success-description-disk = A konfiguráció megtalálva a { -brand-short-name } telepítésben.
 account-hub-config-success-description-isp = A konfiguráció megtalálva az e-mail-szolgáltatónál.
+account-hub-config-success-description-read-more = <a data-l10n-name="automated-setup-link">Olvashat az automatizált e-mail-beállítás működéséről.</a>
 account-hub-config-success = A konfiguráció megtalálva a Mozilla ISPDB-ben
 account-hub-config-success-exchange = A Microsoft Exchange kiszolgáló konfigurációja megtalálva
 account-hub-config-success-guess = Találtam egy konfigurációt a szokásos kiszolgálóneveket próbálgatva
