@@ -86,6 +86,7 @@ account-hub-auth-no-authentication-option =
     .label = Autentimine puudub
 account-hub-auth-label = Autentimise meetod
 account-hub-username-label = Kasutajanimi
+account-hub-address-book-name-label = Nimi
 account-hub-name-warning-icon =
     .title = Palun sisesta oma nimi
 account-hub-email-label = E-posti aadress
