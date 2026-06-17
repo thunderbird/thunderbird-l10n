@@ -5,6 +5,9 @@
 about-update-whats-new = Kva er nytt
 about-dialog-title = Om { -brand-full-name }
 release-notes-link = Versjonsnotat
+about-dialog-meadow-logo =
+    .alt = { -brand-short-name } kodenamn Meadow-merke
+    .title = { -brand-short-name } - kodenamn Meadow
 update-internal-error = Klarte ikkje å sjå etter oppdateringar på grunn av ein intern feil. Oppdateringar er tilgjengelege på <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Sjå etter oppdateringar
     .accesskey = S
