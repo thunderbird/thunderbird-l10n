@@ -2,9 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+folder-props-window-title = Յատկութիւններ
 
 ## General Information tab
 
+folder-props-general-tab =
+    .label = Ընդհանուր տեղեկութիւն
 folder-props-name =
     .value = Անուն՝
     .accesskey = N
@@ -24,9 +27,17 @@ folder-props-size-on-disk =
     .value = Չափը սկաւառակի վրայ՝
 folder-props-size-unknown =
     .value = անյայտ
+folder-props-rebuild-summary =
+    .label = Վերականգնել պանակը
+    .accesskey = Վ
+    .tooltiptext = Վերակառուցել վերջնական ֆայղի ցուցիչը
+folder-props-include-in-global-search =
+    .label = Ներառել հաղոդագրութիւները այս պանակում ՝ համաշխարհային որոնման արդիւնքների ներքոյ
+    .accesskey = Հ
 folder-props-check-for-new-messages =
     .label = Այս հաշուին նոր հաղորդագրութիւններ ստանալիս միշտ ստուգել այս թղթապանակը
     .accesskey = c
+folder-props-rebuild-summary-explanation = Երբեմն թղթապանակի ինդեքսի ֆայղը (.msf) վնասուում է եւ նամակները կարող են չերեւալ կամ ջնջուել, թղթապանակի վերականգնումը կարող է ուղղել այս սխալը։
 
 ## Retention tab (see retention.ftl)
 ##
