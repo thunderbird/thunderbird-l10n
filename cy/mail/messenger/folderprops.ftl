@@ -2,9 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+folder-props-window-title = Priodweddau
 
 ## General Information tab
 
+folder-props-general-tab =
+    .label = Gwybodaeth Gyffredinol
 folder-props-name =
     .value = Enw:
     .accesskey = E
@@ -24,9 +27,17 @@ folder-props-size-on-disk =
     .value = Maint ar ddisg:
 folder-props-size-unknown =
     .value = anhysbys
+folder-props-rebuild-summary =
+    .label = Trwsio'r Ffolder
+    .accesskey = T
+    .tooltiptext = Ailadeiladu'r Mynegai Ffeil Cryno
+folder-props-include-in-global-search =
+    .label = Cynnwys y negeseuon yn y ffolder yng nghanlyniadau'r Chwilio Eang
+    .accesskey = n
 folder-props-check-for-new-messages =
     .label = Wrth dderbyn negeseuon newydd ar gyfer y cyfrif hwn, gwirio'r ffolder bob tro
     .accesskey = g
+folder-props-rebuild-summary-explanation = Weithiau bydd y ffeil mynegai'r ffolder (..msf) yn cael ei difrodi ac mae modd i negeseuon sy'n ymddangos ar goll neu ffeiliau sydd wedi'u dileu parhau i gael eu dangos; gall drwsio'r ffolder ddatrys y problemau hyn.
 
 ## Retention tab (see retention.ftl)
 ##
