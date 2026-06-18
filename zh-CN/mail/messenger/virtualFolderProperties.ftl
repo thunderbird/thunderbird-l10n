@@ -10,6 +10,7 @@
 #   $count - number of chosen folders
 virtual-folder-sources-chosen = 已选中 { $count } 个文件夹
 virtual-folder-no-search-folders-selected = 要搜索即时搜索文件夹，请先选中一个文件夹。
+virtual-folder-properties-title = 新建即时搜索文件夹
 # Variables:
 #   $folderName (String): The name of the saved search folder.
 virtual-folder-properties-edit-title = 编辑即时搜索 { $folderName } 的属性
