@@ -2,9 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+folder-props-window-title = Veti
 
 ## General Information tab
 
+folder-props-general-tab =
+    .label = Hollësi të Përgjithshme
 folder-props-name =
     .value = Emër:
     .accesskey = E
@@ -24,9 +27,17 @@ folder-props-size-on-disk =
     .value = Madhësi në disk:
 folder-props-size-unknown =
     .value = e panjohur
+folder-props-rebuild-summary =
+    .label = Riparoje Dosjen
+    .accesskey = R
+    .tooltiptext = Riformo Treguesin për Përmbledhje Kartele
+folder-props-include-in-global-search =
+    .label = Përfshiji mesazhet e kësaj dosjeje në përfundime Kërkimi Global
+    .accesskey = P
 folder-props-check-for-new-messages =
     .label = Kur merren mesazhe të rinj për këtë llogari, kontrolloje përherë këtë dosje
     .accesskey = K
+folder-props-rebuild-summary-explanation = Ndonjëherë kartela e treguesit të dosjes (.msf) dëmtohet dhe mesazhet mund të duken sikur mungojnë, ose mesazhe të fshirë të vazhdojnë të duken; riparimi i dosjes mund ta ndreqë këtë punë.
 
 ## Retention tab (see retention.ftl)
 ##
