@@ -15,9 +15,19 @@ virtual-folder-sources-chosen =
        *[other] { $count } izvēlētas mapes
     }
 virtual-folder-no-search-folders-selected = Lai meklētu saglabāto meklēšanas mapi, jums jāizvēlas vismaz viena mape.
+virtual-folder-properties-title = Jauna saglabātā meklēšanas mape
 # Variables:
 #   $folderName (String): The name of the saved search folder.
 virtual-folder-properties-edit-title = Rediģēt { $folderName } saglabātās meklēšanas īpašības
+virtual-folder-search-online =
+    .label = Meklēt tiešsaistē (sniedz jaunākos rezultātus IMAP un News mapēm, bet palielina mapes atvēršanas laiku)
+    .accesskey = M
+virtual-folder-accept-button-create =
+    .label = Izveidot
+    .accesskey = I
+virtual-folder-accept-button-update =
+    .label = Atjaunot
+    .accesskey = A
 
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
