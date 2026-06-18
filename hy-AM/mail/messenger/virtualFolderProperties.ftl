@@ -13,7 +13,17 @@ virtual-folder-sources-chosen =
         [one] { $count } թղթապանակ է նշված
        *[other] { $count } թղթապանակներ են նշված
     }
+virtual-folder-no-search-folders-selected = Ընտրեք գոնե մեկ թղթապանակ՝ փնտրոելու համար։
 virtual-folder-properties-title = Նոր պահպանված փնտրվող թղթապանակը.
+virtual-folder-search-online =
+    .label = Որոնել առցանց (տալիս է IMAP-ի և նորությունների թղթապանակի վերջին արդյունքները, բայց մեծացնում է թղթապանակը բացելու ժամանակը)
+    .accesskey = Ո
+virtual-folder-accept-button-create =
+    .label = Ստեղծել
+    .accesskey = r
+virtual-folder-accept-button-update =
+    .label = Թարմացնել
+    .accesskey = Թ
 
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
