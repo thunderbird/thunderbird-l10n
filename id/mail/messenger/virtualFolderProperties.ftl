@@ -11,6 +11,13 @@
 virtual-folder-sources-chosen = folder { $count } dipilih
 virtual-folder-no-search-folders-selected = Paling tidak satu folder harus dipilih untuk dicari sebagai folder pencarian simpanan.
 virtual-folder-properties-title = Folder Pencarian Tersimpan Baru
+# Variables:
+#   $folderName (String): The name of the saved search folder.
+virtual-folder-properties-edit-title = Ubah Properti Pencarian Tersimpan untuk { $folderName }
+virtual-folder-name = Nama:
+    .accesskey = N
+virtual-folder-description = Buat sebagai subfolder dari:
+    .accesskey = B
 virtual-folder-folder-selection-caption = Pilih folder untuk dicari:
 virtual-folder-choose-folders-button =
     .label = Pilih…
@@ -29,3 +36,5 @@ virtual-folder-accept-button-update =
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
 
+virtual-folder-list-title = Pilih Folder
+virtual-folder-list-desc = Pilih folder untuk dicari:
