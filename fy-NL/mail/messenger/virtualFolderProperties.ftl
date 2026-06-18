@@ -13,6 +13,7 @@ virtual-folder-sources-chosen =
         [one] { $count } map keazen
        *[other] { $count } mappen keazen
     }
+virtual-folder-properties-title = Nije firtuele sykmap
 virtual-folder-search-online =
     .label = Online sykje (Jout up-to-date resultaten foar IMAP- en nijsmappen, mar it duorret langer om de map te iepenjen)
     .accesskey = O
