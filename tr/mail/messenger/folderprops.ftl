@@ -2,9 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+folder-props-window-title = Özellikler
 
 ## General Information tab
 
+folder-props-general-tab =
+    .label = Genel bilgiler
 folder-props-name =
     .value = Ad:
     .accesskey = A
@@ -24,9 +27,17 @@ folder-props-size-on-disk =
     .value = Diskteki boyut:
 folder-props-size-unknown =
     .value = bilinmiyor
+folder-props-rebuild-summary =
+    .label = Klasörü onar
+    .accesskey = r
+    .tooltiptext = Özet dosyası dizinini yeniden oluştur
+folder-props-include-in-global-search =
+    .label = Bu klasördeki iletileri global arama sonuçlarına dahil et
+    .accesskey = o
 folder-props-check-for-new-messages =
     .label = Bu hesap için yeni ileti alırken her zaman bu klasörü denetle
     .accesskey = y
+folder-props-rebuild-summary-explanation = Bazen klasörün dizin dosyası (.msf) hasar gördüğü için iletiler eksik görünebilir veya silinmiş iletiler görünmeye devam edebilir. Klasörü onarmak bu sorunları çözebilir.
 
 ## Retention tab (see retention.ftl)
 ##
