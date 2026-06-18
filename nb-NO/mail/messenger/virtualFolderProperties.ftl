@@ -2,6 +2,10 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at https://mozilla.org/MPL/2.0/.
 
+
+## Strings for the virtual folder properties dialog, which is used for both
+## creating and editing saved search folders.
+
 # Variables:
 #   $count - number of chosen folders
 virtual-folder-sources-chosen =
@@ -9,3 +13,32 @@ virtual-folder-sources-chosen =
         [one] { $count } mappe valgt
        *[other] { $count } mapper valgt
     }
+virtual-folder-no-search-folders-selected = Du må velge minst en mappe å søke i for det lagrede søket.
+virtual-folder-properties-title = Nytt lagret søk
+# Variables:
+#   $folderName (String): The name of the saved search folder.
+virtual-folder-properties-edit-title = Rediger lagret søk «{ $folderName }»
+virtual-folder-name = Navn:
+    .accesskey = N
+virtual-folder-description = Opprett som undermappe av:
+    .accesskey = O
+virtual-folder-folder-selection-caption = Velg mapper å søke i:
+virtual-folder-choose-folders-button =
+    .label = Velg …
+    .accesskey = V
+virtual-folder-search-online =
+    .label = Søk på ekstern server hver gang (gjør at det tar lengre tid å åpne mappen)
+    .accesskey = t
+virtual-folder-search-term-caption = Velg søkekriteriene for dette søket:
+virtual-folder-accept-button-create =
+    .label = Opprett
+    .accesskey = r
+virtual-folder-accept-button-update =
+    .label = Oppdater
+    .accesskey = d
+
+## The following are for the virtual folder list dialog, which is opened when
+## the user clicks the "Choose..." button to select folders.
+
+virtual-folder-list-title = Velg mapper
+virtual-folder-list-desc = Velg mapper å søke i:

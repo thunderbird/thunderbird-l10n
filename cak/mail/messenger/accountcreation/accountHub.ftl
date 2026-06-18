@@ -30,6 +30,9 @@ account-hub-email-back-button = Chi rij
 account-hub-email-continue-button = Titikïr chik el
 account-hub-email-confirm-button = Tijikib'äx
 
+## Incoming/Outgoing authentication method options
+
+
 ## Incoming/Outgoing connection security options
 
 account-hub-name-warning-icon =
@@ -41,6 +44,12 @@ account-hub-email-input =
 account-hub-email-warning-icon =
     .title = Man okel ta rochochib'al taqoya'l
 account-hub-installing-addon = Niqasäx chuqa' niyak tz'aqat…
+account-hub-result-security-no-encryption = Man Ewan ta Rusik'ixik
+    .title = Man Ewan ta Rusik'ixik
+account-hub-result-security-ssl = SSL/TLS
+    .title = SSL/TLS
+account-hub-result-security-starttls = STARTTLS
+    .title = STARTTLS
 account-hub-result-no-encryption = Man Ewan ta Rusik'ixik
 account-hub-result-ssl = SSL/TLS
 account-hub-result-starttls = STARTTLS
