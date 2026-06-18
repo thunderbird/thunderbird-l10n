@@ -16,6 +16,7 @@ virtual-folder-sources-chosen =
         [many] { $count } bhfillteán roghnaithe
        *[other] { $count } fillteán roghnaithe
     }
+virtual-folder-no-search-folders-selected = Caithfidh tú fillteán amháin ar a laghad a roghnú le cuardach don fhillteán cuardaigh shábháilte.
 virtual-folder-properties-title = Fillteán Nua Cuardaigh Shábháilte
 # Variables:
 #   $folderName (String): The name of the saved search folder.
