@@ -15,6 +15,10 @@ virtual-folder-sources-chosen =
        *[other] Wedi dewis { $count } ffolder
     }
 virtual-folder-properties-title = Ffolder Chwilio wedi'i Chadw Newydd
+virtual-folder-folder-selection-caption = Dewis ffolderi i'w chwilio:
+virtual-folder-choose-folders-button =
+    .label = Dewis…
+    .accesskey = D
 
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
