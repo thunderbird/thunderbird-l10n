@@ -2,9 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+folder-props-window-title = Уласцівасці
 
 ## General Information tab
 
+folder-props-general-tab =
+    .label = Агульныя звесткі
 folder-props-name =
     .value = Назва:
     .accesskey = Н
@@ -19,6 +22,13 @@ folder-props-size-on-disk =
     .value = Памер на дыску:
 folder-props-size-unknown =
     .value = невядомы
+folder-props-rebuild-summary =
+    .label = Выправіць папку
+    .accesskey = В
+    .tooltiptext = Перабудова паказальніка зводкавага файла
+folder-props-include-in-global-search =
+    .label = Уключыць лісты з гэтай папкі ў вынікі ўсеагульнага пошуку
+    .accesskey = ў
 folder-props-check-for-new-messages =
     .label = Заўсёды правяраць гэту папку пры атрыманні новых паведамленняў для гэтага ўліковага запісу
     .accesskey = п
