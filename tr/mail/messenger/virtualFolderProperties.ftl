@@ -14,15 +14,18 @@ virtual-folder-sources-chosen =
        *[other] { $count } klasör seçildi
     }
 virtual-folder-no-search-folders-selected = Kayıtlı arama klasörü araması yapmak için en az bir klasör seçmelisiniz.
+virtual-folder-properties-title = Yeni Kayıtlı Arama Klasörü
 # Variables:
 #   $folderName (String): The name of the saved search folder.
 virtual-folder-properties-edit-title = { $folderName } için Düzenleme Kayıt Arama Özellikleri
+virtual-folder-folder-selection-caption = Aranacak klasörleri seçin:
 virtual-folder-choose-folders-button =
     .label = Seçin…
     .accesskey = S
 virtual-folder-search-online =
     .label = Çevrimiçi ara (IMAP ve haber grubu klasörleri için güncel sonuçlar verir ama klasör açma süresini artırır)
     .accesskey = A
+virtual-folder-search-term-caption = Arama kriterini bu kayıtlı arama klasörü için yapılandır:
 virtual-folder-accept-button-create =
     .label = Oluştur
     .accesskey = u
