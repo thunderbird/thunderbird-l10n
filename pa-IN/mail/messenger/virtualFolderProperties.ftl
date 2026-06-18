@@ -6,7 +6,20 @@
 ## Strings for the virtual folder properties dialog, which is used for both
 ## creating and editing saved search folders.
 
+virtual-folder-no-search-folders-selected = You must choose at least one folder to search for the saved search folder.
 virtual-folder-properties-title = ਨਾਂ ਸੰਭਾਲ ਖੋਜ ਫੋਲਡਰ
+# Variables:
+#   $folderName (String): The name of the saved search folder.
+virtual-folder-properties-edit-title = Edit Saved Search Properties for { $folderName }
+virtual-folder-search-online =
+    .label = ਆਨਲਾਈਨ ਖੋਜ ( IMAP ਅਤੇ ਖਬਰ ਫੋਲਡਰਾਂ ਲਈ ਖੋਜ ਰੱਦ ਹੋ ਜਾਵੇਗੀ, ਪਰ ਫੋਲਡਰ ਖੋਲਣ ਲਈ ਵਧੇਰੇ ਸਮਾਂ ਲੱਗੇਗਾ)
+    .accesskey = O
+virtual-folder-accept-button-create =
+    .label = Create
+    .accesskey = r
+virtual-folder-accept-button-update =
+    .label = Update
+    .accesskey = U
 
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
