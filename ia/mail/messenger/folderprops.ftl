@@ -2,9 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+folder-props-window-title = Proprietates
 
 ## General Information tab
 
+folder-props-general-tab =
+    .label = Informationes general
 folder-props-name =
     .value = Nomine:
     .accesskey = N
@@ -24,9 +27,17 @@ folder-props-size-on-disk =
     .value = Dimension sur disco:
 folder-props-size-unknown =
     .value = incognite
+folder-props-rebuild-summary =
+    .label = Reparar dossier
+    .accesskey = R
+    .tooltiptext = Reconstruer le indice de summarios del dossier
+folder-props-include-in-global-search =
+    .label = Includer le messages de iste dossier in le resultatos de recerca global
+    .accesskey = g
 folder-props-check-for-new-messages =
     .label = Quando se recipe nove messages pro iste conto, sempre controlar iste dossier
     .accesskey = c
+folder-props-rebuild-summary-explanation = Alcun vices le file de indice del dossier (.msf) deveni damnificate e messages pote mancar o messages delite pote continuar a apparer; reparar le dossier pote solver iste problema.
 
 ## Retention tab (see retention.ftl)
 ##
