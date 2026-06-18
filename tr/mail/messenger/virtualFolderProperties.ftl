@@ -16,6 +16,15 @@ virtual-folder-sources-chosen =
 virtual-folder-choose-folders-button =
     .label = Seçin…
     .accesskey = S
+virtual-folder-search-online =
+    .label = Çevrimiçi ara (IMAP ve haber grubu klasörleri için güncel sonuçlar verir ama klasör açma süresini artırır)
+    .accesskey = A
+virtual-folder-accept-button-create =
+    .label = Oluştur
+    .accesskey = u
+virtual-folder-accept-button-update =
+    .label = Güncelle
+    .accesskey = G
 
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
