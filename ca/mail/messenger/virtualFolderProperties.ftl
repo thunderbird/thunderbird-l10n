@@ -18,6 +18,10 @@ virtual-folder-properties-title = Carpeta de cerca desada nova
 # Variables:
 #   $folderName (String): The name of the saved search folder.
 virtual-folder-properties-edit-title = Edita les propietats de la cerca desada per a { $folderName }
+virtual-folder-name = Nom:
+    .accesskey = N
+virtual-folder-description = Crea-la com a subcarpeta de:
+    .accesskey = C
 virtual-folder-folder-selection-caption = Seleccioneu les carpetes que voleu cercar:
 virtual-folder-choose-folders-button =
     .label = Trieu…
@@ -36,3 +40,5 @@ virtual-folder-accept-button-update =
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
 
+virtual-folder-list-title = Seleccioneu les carpetes
+virtual-folder-list-desc = Seleccioneu les carpetes que voleu cercar:
