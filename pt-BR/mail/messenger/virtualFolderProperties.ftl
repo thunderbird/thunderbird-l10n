@@ -13,7 +13,11 @@ virtual-folder-sources-chosen =
         [one] { $count } pasta escolhida
        *[other] { $count } pastas escolhidas
     }
+virtual-folder-no-search-folders-selected = A pasta de pesquisa precisa de pelo menos uma pasta para ser usada como fonte.
 virtual-folder-properties-title = Nova pasta de pesquisa
+virtual-folder-choose-folders-button =
+    .label = Selecionar…
+    .accesskey = S
 
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
