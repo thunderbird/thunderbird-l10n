@@ -13,10 +13,23 @@ virtual-folder-sources-chosen =
         [one] { $count } dossier seligite
        *[other] { $count } dossiers seligite
     }
+virtual-folder-no-search-folders-selected = Tu debe seliger al minus un dossier in le qual cercar pro le dossier de recerca salvate.
 virtual-folder-properties-title = Nove dossier de recerca salvate
+# Variables:
+#   $folderName (String): The name of the saved search folder.
+virtual-folder-properties-edit-title = Modificar le proprietates de recerca salvate pro { $folderName }
+virtual-folder-name = Nomine:
+    .accesskey = N
+virtual-folder-description = Crear como subdossier de:
+    .accesskey = C
+virtual-folder-folder-selection-caption = Selige le dossiers in le quales cercar:
+virtual-folder-choose-folders-button =
+    .label = Eliger…
+    .accesskey = E
 virtual-folder-search-online =
     .label = Cercar in linea (da resultatos actualisate pro dossiers IMAP e de gruppos ma augmenta le tempore necessari pro aperir le dossier)
     .accesskey = S
+virtual-folder-search-term-caption = Configurar le criterios de recerca usate pro iste dossier de recerca salvate:
 virtual-folder-accept-button-create =
     .label = Crear
     .accesskey = r
@@ -27,3 +40,5 @@ virtual-folder-accept-button-update =
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
 
+virtual-folder-list-title = Selige dossier(s)
+virtual-folder-list-desc = Selige le dossiers in le quales cercar:
