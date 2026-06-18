@@ -13,7 +13,24 @@ virtual-folder-sources-chosen =
         [one] { $count } dossier sélectionné
        *[other] { $count } dossiers sélectionnés
     }
+virtual-folder-no-search-folders-selected = Vous devez choisir au moins un dossier dans lequel rechercher pour le dossier virtuel.
 virtual-folder-properties-title = Nouveau dossier virtuel
+# Variables:
+#   $folderName (String): The name of the saved search folder.
+virtual-folder-properties-edit-title = Modifier les propriétés du dossier virtuel { $folderName }
+virtual-folder-folder-selection-caption = Choisir les dossiers dans lesquels rechercher :
+virtual-folder-choose-folders-button =
+    .label = Choisir…
+    .accesskey = h
+virtual-folder-search-online =
+    .label = Rechercher en ligne (donne des résultats à jour pour les dossiers IMAP et les dossiers de groupes mais augmente le temps d’ouverture du dossier)
+    .accesskey = l
+virtual-folder-accept-button-create =
+    .label = Créer
+    .accesskey = r
+virtual-folder-accept-button-update =
+    .label = Mettre à jour
+    .accesskey = M
 
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
