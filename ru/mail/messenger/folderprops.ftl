@@ -5,6 +5,12 @@
 
 ## General Information tab
 
+folder-props-number-unknown =
+    .value = неизвестно
+folder-props-size-on-disk =
+    .value = Размер на диске:
+folder-props-size-unknown =
+    .value = неизвестен
 folder-props-check-for-new-messages =
     .label = При получении новых сообщений для этой учётной записи всегда проверять эту папку
     .accesskey = о
