@@ -15,6 +15,9 @@ virtual-folder-sources-chosen =
        *[other] { $count } mapa odabrano
     }
 virtual-folder-properties-title = Novo spremljene mape za pretraživanje
+# Variables:
+#   $folderName (String): The name of the saved search folder.
+virtual-folder-properties-edit-title = Uredi postavke spremljene pretrage za { $folderName }
 virtual-folder-folder-selection-caption = Odaberite mape za pretraživanje:
 virtual-folder-choose-folders-button =
     .label = Odaberi…
