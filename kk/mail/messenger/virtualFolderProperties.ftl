@@ -15,6 +15,13 @@ virtual-folder-sources-chosen =
     }
 virtual-folder-no-search-folders-selected = Сақталған іздеу бумасы үшін кем дегенде бір буманы таңдау керек.
 virtual-folder-properties-title = Жаңа сақталған іздеу бумасы
+# Variables:
+#   $folderName (String): The name of the saved search folder.
+virtual-folder-properties-edit-title = { $folderName } үшін сақталған іздеу қасиеттерін түзету
+virtual-folder-name = Аты:
+    .accesskey = А
+virtual-folder-description = Келесінің ішкі бумасы ретінде жасау:
+    .accesskey = с
 virtual-folder-folder-selection-caption = Іздеу үшін бумаларды таңдаңыз:
 virtual-folder-choose-folders-button =
     .label = Таңдау…
@@ -33,3 +40,5 @@ virtual-folder-accept-button-update =
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
 
+virtual-folder-list-title = Бума(лар) таңдау
+virtual-folder-list-desc = Іздеу үшін бумаларды таңдаңыз:
