@@ -18,9 +18,18 @@ virtual-folder-properties-title = Gordetako bilaketa-karpeta berria
 # Variables:
 #   $folderName (String): The name of the saved search folder.
 virtual-folder-properties-edit-title = Editatu { $folderName }(r)en gordetako bilaketen propietateak
+virtual-folder-name = Izena:
+    .accesskey = I
+virtual-folder-description = Sortu honen azpikarpeta gisa:
+    .accesskey = S
+virtual-folder-folder-selection-caption = Hautatu zein karpetatan bilatu:
+virtual-folder-choose-folders-button =
+    .label = Aukeratu…
+    .accesskey = A
 virtual-folder-search-online =
     .label = Bilatu linean (eguneratutako emaitzak ematen ditu IMAP eta berrien karpetentzat baina karpeta irekitzeko denbora luzatzen du)
     .accesskey = B
+virtual-folder-search-term-caption = Konfiguratu karpeta birtual honetarako erabiliko den bilaketa-irizpidea:
 virtual-folder-accept-button-create =
     .label = Sortu
     .accesskey = S
@@ -31,3 +40,5 @@ virtual-folder-accept-button-update =
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
 
+virtual-folder-list-title = Hautatu karpeta(k)
+virtual-folder-list-desc = Hautatu zein karpetatan bilatu:
