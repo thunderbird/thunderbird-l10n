@@ -15,6 +15,7 @@ virtual-folder-sources-chosen =
         [few] Izbrane { $count } mape
        *[other] Izbranih { $count } map
     }
+virtual-folder-no-search-folders-selected = Izbrati morate najmanj eno mapo za iskanje v mapi s shranjenimi iskanji.
 virtual-folder-properties-title = Nova mapa za shranjeno iskanje
 # Variables:
 #   $folderName (String): The name of the saved search folder.
