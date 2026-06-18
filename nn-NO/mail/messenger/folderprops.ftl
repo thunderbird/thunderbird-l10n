@@ -3,6 +3,23 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## General Information tab
+
+folder-props-number-unknown =
+    .value = ukjend
+folder-props-size-on-disk =
+    .value = Diskplass:
+folder-props-size-unknown =
+    .value = ukjend
+
+## Retention tab (see retention.ftl)
+##
+## Synchronization tab
+
+
+## Sharing tab
+
+
 ## Quota tab
 
 # Variables:
