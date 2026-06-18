@@ -13,6 +13,7 @@ virtual-folder-sources-chosen =
         [one] { $count } map gekozen
        *[other] { $count } mappen gekozen
     }
+virtual-folder-no-search-folders-selected = U moet ten minste één map kiezen om naar de map voor een opgeslagen zoekopdracht te zoeken.
 virtual-folder-properties-title = Nieuwe virtuele zoekmap
 # Variables:
 #   $folderName (String): The name of the saved search folder.
