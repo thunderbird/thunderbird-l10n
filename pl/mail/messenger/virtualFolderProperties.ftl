@@ -15,9 +15,14 @@ virtual-folder-sources-chosen =
        *[many] Wybrano { $count } folderów
     }
 virtual-folder-properties-title = Nowy folder wyszukiwania
+virtual-folder-folder-selection-caption = Wybierz foldery do przeszukiwania:
+virtual-folder-choose-folders-button =
+    .label = Wybierz…
+    .accesskey = z
 virtual-folder-search-online =
     .label = Szukaj online (daje aktualne wyniki dla folderów IMAP i grup dyskusyjnych, ale przez to wydłuża się czas otwierania folderu)
     .accesskey = o
+virtual-folder-search-term-caption = Skonfiguruj kryteria wyszukiwania dla tego folderu wyszukiwania
 virtual-folder-accept-button-create =
     .label = Utwórz
     .accesskey = U
