@@ -19,7 +19,27 @@ virtual-folder-properties-title = Paieška įrašant radinius
 # Variables:
 #   $folderName (String): The name of the saved search folder.
 virtual-folder-properties-edit-title = Įrašytų radinių aplanko { $folderName } savybių taisa
+virtual-folder-name = Vardas aplanko, į kurį bus įrašomi radiniai:
+    .accesskey = V
+virtual-folder-description = Įdėti į šį aplanką:
+    .accesskey = d
+virtual-folder-folder-selection-caption = Parinkite aplankus, kuriuose bus atliekama paieška:
+virtual-folder-choose-folders-button =
+    .label = Parinkti…
+    .accesskey = r
+virtual-folder-search-online =
+    .label = Ieškoti prisijungus prie tinklo (gaunami naujausi paieškos IMAP ir naujienų grupių aplankuose rezultatai, tačiau aplankai atveriami lėčiau)
+    .accesskey = e
+virtual-folder-search-term-caption = Nurodykite paieškos sąlygas:
+virtual-folder-accept-button-create =
+    .label = Sukurti
+    .accesskey = k
+virtual-folder-accept-button-update =
+    .label = Atnaujinti
+    .accesskey = n
 
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
 
+virtual-folder-list-title = Aplanko(-ų) parinkimas
+virtual-folder-list-desc = Parinkite aplankus, kuriuose bus atliekama paeiška:
