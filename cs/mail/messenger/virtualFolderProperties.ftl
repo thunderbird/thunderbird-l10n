@@ -14,6 +14,7 @@ virtual-folder-sources-chosen =
         [few] Vybrány { $count } složky
        *[other] Vybráno { $count } složek
     }
+virtual-folder-no-search-folders-selected = Pro složku uloženého hledání musíte vybrat alespoň jednu složku, kterou chcete prohledávat.
 virtual-folder-properties-title = Nová složka uloženého hledání
 # Variables:
 #   $folderName (String): The name of the saved search folder.
