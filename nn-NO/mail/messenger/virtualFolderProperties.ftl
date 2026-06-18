@@ -13,7 +13,12 @@ virtual-folder-sources-chosen =
         [one] { $count } mappe vald
        *[other] { $count } mapper valde
     }
+virtual-folder-no-search-folders-selected = Du må velje minst ei mappe å søkje i for den lagra søkjemappa.
 virtual-folder-properties-title = Nytt lagra søk
+# Variables:
+#   $folderName (String): The name of the saved search folder.
+virtual-folder-properties-edit-title = Rediger lagra søk «{ $folderName }»
+virtual-folder-folder-selection-caption = Vel mapper å søkja i:
 
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
