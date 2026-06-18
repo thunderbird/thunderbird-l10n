@@ -14,7 +14,11 @@ virtual-folder-sources-chosen =
         [few] { $count } direktorija odabrano
        *[other] { $count } direktorija odabrano
     }
+virtual-folder-no-search-folders-selected = Morate odabrati najmanje jedan direktorij za traženje sačuvanog direktorija pretrage.
 virtual-folder-properties-title = Novi direktorij spašenih pretraga
+# Variables:
+#   $folderName (String): The name of the saved search folder.
+virtual-folder-properties-edit-title = Uredi postavke sačuvane pretrage za { $folderName }
 
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
