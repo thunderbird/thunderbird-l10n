@@ -14,7 +14,19 @@ virtual-folder-sources-chosen =
        *[other] { $count } carpetes seleccionades
     }
 virtual-folder-folder-selection-caption = Seleccioneu les carpetes que voleu cercar:
+virtual-folder-choose-folders-button =
+    .label = Trieu…
+    .accesskey = T
+virtual-folder-search-online =
+    .label = Cerca en línia (dóna resultats actualitzats de les carpetes d'IMAP i dels grups de discussió, però triga més temps a l'hora d'obrir la carpeta)
+    .accesskey = I
 virtual-folder-search-term-caption = Configureu el criteri de cerca que s'utilitza per a aquesta carpeta de cerca desada:
+virtual-folder-accept-button-create =
+    .label = Crea
+    .accesskey = r
+virtual-folder-accept-button-update =
+    .label = Actualitza
+    .accesskey = A
 
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
