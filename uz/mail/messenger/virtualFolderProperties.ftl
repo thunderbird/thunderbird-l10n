@@ -18,7 +18,27 @@ virtual-folder-properties-title = Yangi saqlangan izlash jildi
 # Variables:
 #   $folderName (String): The name of the saved search folder.
 virtual-folder-properties-edit-title = { $folderName } uchun saqlangan qidiruv xossalarini tahrirlash
+virtual-folder-name = Nomi:
+    .accesskey = N
+virtual-folder-description = Ichki jild kabi yaratish
+    .accesskey = y
+virtual-folder-folder-selection-caption = Izlash uchun jildlarni tanlang:
+virtual-folder-choose-folders-button =
+    .label = Tanlash…
+    .accesskey = T
+virtual-folder-search-online =
+    .label = Onlayn izlash (IMAP va Yangiliklar jildi uchun eng yangi natijalarni beradi, ammo jildni ochish vaqtini uzaytiradi)
+    .accesskey = i
+virtual-folder-search-term-caption = Qidiruv tamoyilini moslashdan ushbu saqlangan qidiruv jildi uchun foydalaniladi:
+virtual-folder-accept-button-create =
+    .label = Yaratish
+    .accesskey = Y
+virtual-folder-accept-button-update =
+    .label = Yangilash
+    .accesskey = Y
 
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
 
+virtual-folder-list-title = Jild(lar)ni tanlash
+virtual-folder-list-desc = Izlash uchun jildlarni tanlang:
