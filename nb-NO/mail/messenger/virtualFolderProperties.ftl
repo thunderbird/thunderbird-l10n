@@ -13,7 +13,25 @@ virtual-folder-sources-chosen =
         [one] { $count } mappe valgt
        *[other] { $count } mapper valgt
     }
+virtual-folder-no-search-folders-selected = Du må velge minst en mappe å søke i for det lagrede søket.
 virtual-folder-properties-title = Nytt lagret søk
+# Variables:
+#   $folderName (String): The name of the saved search folder.
+virtual-folder-properties-edit-title = Rediger lagret søk «{ $folderName }»
+virtual-folder-folder-selection-caption = Velg mapper å søke i:
+virtual-folder-choose-folders-button =
+    .label = Velg …
+    .accesskey = V
+virtual-folder-search-online =
+    .label = Søk på ekstern server hver gang (gjør at det tar lengre tid å åpne mappen)
+    .accesskey = t
+virtual-folder-search-term-caption = Velg søkekriteriene for dette søket:
+virtual-folder-accept-button-create =
+    .label = Opprett
+    .accesskey = r
+virtual-folder-accept-button-update =
+    .label = Oppdater
+    .accesskey = d
 
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
