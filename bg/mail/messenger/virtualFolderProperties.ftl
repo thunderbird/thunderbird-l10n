@@ -14,8 +14,21 @@ virtual-folder-sources-chosen =
        *[other] { $count } избрани папки
     }
 virtual-folder-no-search-folders-selected = Трябва да изберете поне една папка, за да откриете запазеното търсене.
+virtual-folder-properties-title = Нова папка за запазени търсения
 virtual-folder-folder-selection-caption = Изберете папки, в които да се търси:
+virtual-folder-choose-folders-button =
+    .label = Избиране…
+    .accesskey = б
+virtual-folder-search-online =
+    .label = Търсене в мрежата (дава актуални резултати за IMAP и новинарски папки, но увеличава времето за отварянето им)
+    .accesskey = м
 virtual-folder-search-term-caption = Конфигуриране на критерий за търсене:
+virtual-folder-accept-button-create =
+    .label = Създаване
+    .accesskey = ъ
+virtual-folder-accept-button-update =
+    .label = Обновяване
+    .accesskey = О
 
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
