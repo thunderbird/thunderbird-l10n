@@ -17,6 +17,9 @@ virtual-folder-sources-chosen =
         [many] { $count } مجلدا محددا
        *[other] { $count } مجلد محدد
     }
+# Variables:
+#   $folderName (String): The name of the saved search folder.
+virtual-folder-properties-edit-title = حرّر خصائص البحث المحفوظ لـ { $folderName }
 virtual-folder-choose-folders-button =
     .label = اختر…
     .accesskey = خ
