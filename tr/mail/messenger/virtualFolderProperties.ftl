@@ -18,6 +18,10 @@ virtual-folder-properties-title = Yeni Kayıtlı Arama Klasörü
 # Variables:
 #   $folderName (String): The name of the saved search folder.
 virtual-folder-properties-edit-title = { $folderName } için Düzenleme Kayıt Arama Özellikleri
+virtual-folder-name = Ad:
+    .accesskey = A
+virtual-folder-description = Buranın alt klasörü olarak oluştur:
+    .accesskey = u
 virtual-folder-folder-selection-caption = Aranacak klasörleri seçin:
 virtual-folder-choose-folders-button =
     .label = Seçin…
@@ -36,3 +40,5 @@ virtual-folder-accept-button-update =
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
 
+virtual-folder-list-title = Klasör Seçin
+virtual-folder-list-desc = Aranacak klasörleri seçin:
