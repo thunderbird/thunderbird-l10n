@@ -15,6 +15,7 @@ virtual-folder-sources-chosen =
         [few] Chaidh { $count } pasganan a thaghadh
        *[other] Chaidh { $count } pasgan a thaghadh
     }
+virtual-folder-no-search-folders-selected = Feumaidh tu aon phasgan a thaghadh a tha ri rannsachadh air a' char as lugha airson a' phasgain luirg a chaidh a shàbhaladh.
 virtual-folder-properties-title = Pasgan ùr airson lorg a chaidh a shàbhaladh
 # Variables:
 #   $folderName (String): The name of the saved search folder.
