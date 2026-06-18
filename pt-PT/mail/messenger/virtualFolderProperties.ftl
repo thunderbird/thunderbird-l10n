@@ -18,6 +18,10 @@ virtual-folder-properties-title = Nova pasta de pesquisa
 # Variables:
 #   $folderName (String): The name of the saved search folder.
 virtual-folder-properties-edit-title = Editar propriedades da pesquisa guardada para { $folderName }
+virtual-folder-name = Nome:
+    .accesskey = N
+virtual-folder-description = Criar como subpasta de:
+    .accesskey = C
 virtual-folder-folder-selection-caption = Selecione as pastas a pesquisar:
 virtual-folder-choose-folders-button =
     .label = Selecionar...
@@ -36,3 +40,5 @@ virtual-folder-accept-button-update =
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
 
+virtual-folder-list-title = Selecione a(s) pasta(s)
+virtual-folder-list-desc = Selecione as pastas a pesquisar:
