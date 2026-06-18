@@ -14,6 +14,15 @@ virtual-folder-sources-chosen =
        *[other] { $count } carpetas elegidas
     }
 virtual-folder-properties-title = Nueva carpeta de búsquedas guardadas
+virtual-folder-search-online =
+    .label = Buscar en línea (da resultados actualizados de carpetas IMAP y de noticias, pero aumenta el tiempo de apertura de la carpeta)
+    .accesskey = B
+virtual-folder-accept-button-create =
+    .label = Crear
+    .accesskey = e
+virtual-folder-accept-button-update =
+    .label = Actualizar
+    .accesskey = A
 
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
