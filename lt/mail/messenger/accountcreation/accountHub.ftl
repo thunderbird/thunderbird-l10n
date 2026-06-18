@@ -30,6 +30,12 @@ account-hub-address-book-setup-button = Adresų knyga
 account-hub-chat-setup-button = Pokalbiai
     .title = Sukurti pokalbių paskyrą
 
+## Email page
+
+
+## Incoming/Outgoing authentication method options
+
+
 ## Incoming/Outgoing connection security options
 
 account-hub-email-label = Elektroninio pašto adresas
@@ -46,6 +52,12 @@ account-hub-exchange-label = Jūsų prisijungimo vardas
 account-hub-installing-addon = Atsisiunčiamas ir įdiegiamas priedas …
 account-hub-success-addon = Priedas sėkmingai įdiegtas
 account-hub-success-half-manual = Tikrinant nurodytą serverį rasti šie nustatymai :
+account-hub-result-security-no-encryption = Be šifravimo
+    .title = Be šifravimo
+account-hub-result-security-ssl = SSL/TLS
+    .title = SSL/TLS
+account-hub-result-security-starttls = STARTTLS
+    .title = STARTTLS
 account-hub-result-no-encryption = Be šifravimo
 account-hub-result-ssl = SSL/TLS
 account-hub-result-starttls = STARTTLS
