@@ -14,6 +14,9 @@ virtual-folder-sources-chosen =
        *[other] Επιλέχθηκαν { $count } φάκελοι
     }
 virtual-folder-no-search-folders-selected = Θα πρέπει να επιλέξετε τουλάχιστον έναν φάκελο για να κάνετε αναζήτηση για τον αποθηκευμένο φάκελο αναζήτησης.
+# Variables:
+#   $folderName (String): The name of the saved search folder.
+virtual-folder-properties-edit-title = Επεξεργασία ιδιοτήτων αποθηκευμένης αναζήτησης για { $folderName }
 virtual-folder-name = Όνομα:
     .accesskey = ν
 virtual-folder-description = Δημιουργία ως υποφακέλου του:
