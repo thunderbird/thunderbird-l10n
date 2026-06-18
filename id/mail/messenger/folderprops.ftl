@@ -2,9 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+folder-props-window-title = Keterangan:
 
 ## General Information tab
 
+folder-props-general-tab =
+    .label = Informasi Umum
 folder-props-name =
     .value = Nama:
     .accesskey = N
@@ -24,9 +27,17 @@ folder-props-size-on-disk =
     .value = Ukuran pada diska:
 folder-props-size-unknown =
     .value = tidak diketahui
+folder-props-rebuild-summary =
+    .label = Perbaiki Folder
+    .accesskey = P
+    .tooltiptext = Buat Ulang Berkas Indeks Ringkasan
+folder-props-include-in-global-search =
+    .label = Sertakan pesan pada folder ini pada hasil Pencarian Global
+    .accesskey = G
 folder-props-check-for-new-messages =
     .label = Periksa pesan baru pada folder ini saat mengambil pesan baru
     .accesskey = P
+folder-props-rebuild-summary-explanation = Terkadang berkas indeks folder (.msf) rusak dan pesan mungkin tidak terlihat atau pesan yang dihapus masih tampak; proses perbaikan folder mungkin dapat mengatasi masalah ini.
 
 ## Retention tab (see retention.ftl)
 ##
