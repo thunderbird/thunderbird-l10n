@@ -18,6 +18,10 @@ virtual-folder-properties-title = Cartella ricerca appena salvata
 # Variables:
 #   $folderName (String): The name of the saved search folder.
 virtual-folder-properties-edit-title = Modificare le impostazioni di ricerca salvate per { $folderName }
+virtual-folder-name = Nome:
+    .accesskey = N
+virtual-folder-description = Crea come sottocartella di:
+    .accesskey = e
 virtual-folder-folder-selection-caption = Selezionare le cartelle in cui cercare:
 virtual-folder-choose-folders-button =
     .label = Scegli…
@@ -36,3 +40,5 @@ virtual-folder-accept-button-update =
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
 
+virtual-folder-list-title = Selezionare la/e cartella/e
+virtual-folder-list-desc = Selezionare le cartelle in cui cercare:
