@@ -15,9 +15,21 @@ virtual-folder-sources-chosen =
     }
 virtual-folder-no-search-folders-selected = Ընտրեք գոնե մեկ թղթապանակ՝ փնտրոելու համար։
 virtual-folder-properties-title = Նոր պահպանված փնտրվող թղթապանակը.
+# Variables:
+#   $folderName (String): The name of the saved search folder.
+virtual-folder-properties-edit-title = Խմբագրել փնտրման պահպանված ցուցիչները { $folderName }-ի համար
+virtual-folder-name = Անուն.
+    .accesskey = N
+virtual-folder-description = Ստեղծել որպես ենթաթղթապանակ՝
+    .accesskey = C
+virtual-folder-folder-selection-caption = Նշեք փնտրվող թղթապանակները.
+virtual-folder-choose-folders-button =
+    .label = Ընտրել…
+    .accesskey = h
 virtual-folder-search-online =
     .label = Որոնել առցանց (տալիս է IMAP-ի և նորությունների թղթապանակի վերջին արդյունքները, բայց մեծացնում է թղթապանակը բացելու ժամանակը)
     .accesskey = Ո
+virtual-folder-search-term-caption = Նշեք պահպանված փնտրվող այս թղթապանակի փնտրման կրիտերիան.
 virtual-folder-accept-button-create =
     .label = Ստեղծել
     .accesskey = r
@@ -28,3 +40,5 @@ virtual-folder-accept-button-update =
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
 
+virtual-folder-list-title = Ընտրեք թղթապանակները
+virtual-folder-list-desc = Ընտրեք փնտրվող թղթապանակները
