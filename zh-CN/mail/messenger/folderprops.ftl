@@ -2,9 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+folder-props-window-title = 属性
 
 ## General Information tab
 
+folder-props-general-tab =
+    .label = 基本信息
 folder-props-name =
     .value = 名称：
     .accesskey = N
@@ -24,9 +27,17 @@ folder-props-size-on-disk =
     .value = 磁盘上的大小：
 folder-props-size-unknown =
     .value = 未知
+folder-props-rebuild-summary =
+    .label = 修复文件夹
+    .accesskey = R
+    .tooltiptext = 重建概要文件索引
+folder-props-include-in-global-search =
+    .label = 在全局搜索结果中包含这个文件夹的邮件
+    .accesskey = G
 folder-props-check-for-new-messages =
     .label = 当获取此账户的新邮件时，一律查收此文件夹
     .accesskey = c
+folder-props-rebuild-summary-explanation = 有时候文件夹索引文件(.msf)被损坏并且出现邮件丢失或者已删除的邮件又重新出现的现象，修复此文件夹可以修复这类问题。
 
 ## Retention tab (see retention.ftl)
 ##
