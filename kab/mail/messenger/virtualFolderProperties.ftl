@@ -13,7 +13,11 @@ virtual-folder-sources-chosen =
         [one] { $count } akaram ittufernen
        *[other] { $count } ikaramen ittufernen
     }
+virtual-folder-no-search-folders-selected = Issefk ad tferneḍ ɣaṛsum yiwen ukaram i weklas n ukaram n unadi.
 virtual-folder-properties-title = Akaram n unadi amaynut yettwakelsen
+# Variables:
+#   $folderName (String): The name of the saved search folder.
+virtual-folder-properties-edit-title = Ẓreg taɣaṛa n unadi ikelsen i { $folderName }
 
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
