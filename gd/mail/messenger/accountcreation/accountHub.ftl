@@ -45,6 +45,9 @@ account-hub-email-back-button = Air ais
 account-hub-email-continue-button = Lean air adhart
 account-hub-email-confirm-button = Dearbh
 
+## Incoming/Outgoing authentication method options
+
+
 ## Incoming/Outgoing connection security options
 
 account-hub-name-warning-icon =
@@ -65,6 +68,12 @@ account-hub-exchange-label = An clàradh a-steach agad
 account-hub-installing-addon = A’ luchdadh a-nuas is a’ stàladh an tuilleadain…
 account-hub-success-addon = Chaidh an tuilleadan a stàladh
 account-hub-success-half-manual = Chaidh na roghainnean a leanas a lorg le bhith a’ probhadh an fhrithealaiche ann:
+account-hub-result-security-no-encryption = Gun chrioptachadh
+    .title = Gun chrioptachadh
+account-hub-result-security-ssl = SSL/TLS
+    .title = SSL/TLS
+account-hub-result-security-starttls = STARTTLS
+    .title = STARTTLS
 account-hub-result-no-encryption = Gun chrioptachadh
 account-hub-result-ssl = SSL/TLS
 account-hub-result-starttls = STARTTLS
