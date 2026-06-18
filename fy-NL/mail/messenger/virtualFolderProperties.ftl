@@ -13,6 +13,7 @@ virtual-folder-sources-chosen =
         [one] { $count } map keazen
        *[other] { $count } mappen keazen
     }
+virtual-folder-no-search-folders-selected = Jo moatte in map kieze om te sykjen nei de bewarre sykmap.
 virtual-folder-properties-title = Nije firtuele sykmap
 # Variables:
 #   $folderName (String): The name of the saved search folder.
