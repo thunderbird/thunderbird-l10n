@@ -9,7 +9,11 @@
 # Variables:
 #   $count - number of chosen folders
 virtual-folder-sources-chosen = เลือกแล้ว { $count } โฟลเดอร์
+virtual-folder-no-search-folders-selected = คุณต้องเลือกอย่างน้อยหนึ่งโฟลเดอร์เพื่อค้นหาโฟลเดอร์การค้นหาที่บันทึกไว้
 virtual-folder-properties-title = โฟลเดอร์การค้นหาที่บันทึกไว้ใหม่
+# Variables:
+#   $folderName (String): The name of the saved search folder.
+virtual-folder-properties-edit-title = แก้ไขคุณสมบัติการค้นหาที่บันทึกไว้สำหรับ { $folderName }
 virtual-folder-search-online =
     .label = ค้นหาออนไลน์ (ให้ผลลัพธ์ล่าสุดสำหรับโฟลเดอร์ IMAP และข่าว แต่จะใช้เวลาในการเปิดโฟลเดอร์นานขึ้น)
     .accesskey = ค
