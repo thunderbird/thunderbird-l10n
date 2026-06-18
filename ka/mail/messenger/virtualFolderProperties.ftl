@@ -2,6 +2,10 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at https://mozilla.org/MPL/2.0/.
 
+
+## Strings for the virtual folder properties dialog, which is used for both
+## creating and editing saved search folders.
+
 # Variables:
 #   $count - number of chosen folders
 virtual-folder-sources-chosen =
@@ -9,3 +13,19 @@ virtual-folder-sources-chosen =
         [one] შერჩეულია { $count } საქაღალდე
        *[other] შერჩეულია, { $count } საქაღალდე
     }
+virtual-folder-choose-folders-button =
+    .label = შერჩევა…
+    .accesskey = h
+virtual-folder-search-online =
+    .label = ძიება კავშირის რეჟიმში (იძლევა განახლებულ შედეგებს IMAP და სიახლეების საქაღალდეებიდან, თუმცა საქაღალდის გახსნის დრო იზრდება)
+    .accesskey = S
+virtual-folder-accept-button-create =
+    .label = შექმნა
+    .accesskey = r
+virtual-folder-accept-button-update =
+    .label = განახლება
+    .accesskey = U
+
+## The following are for the virtual folder list dialog, which is opened when
+## the user clicks the "Choose..." button to select folders.
+
