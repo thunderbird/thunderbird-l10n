@@ -19,6 +19,10 @@ virtual-folder-properties-title = Novo spremljene mape za pretraživanje
 # Variables:
 #   $folderName (String): The name of the saved search folder.
 virtual-folder-properties-edit-title = Uredi postavke spremljene pretrage za { $folderName }
+virtual-folder-name = Naziv:
+    .accesskey = N
+virtual-folder-description = Stvori kao podmapu od:
+    .accesskey = S
 virtual-folder-folder-selection-caption = Odaberite mape za pretraživanje:
 virtual-folder-choose-folders-button =
     .label = Odaberi…
@@ -37,3 +41,5 @@ virtual-folder-accept-button-update =
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
 
+virtual-folder-list-title = Odaberi mapu(e)
+virtual-folder-list-desc = Odaberite mape za pretraživanje:
