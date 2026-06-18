@@ -15,6 +15,9 @@ virtual-folder-sources-chosen =
        *[other] Vybráno { $count } složek
     }
 virtual-folder-properties-title = Nová složka uloženého hledání
+# Variables:
+#   $folderName (String): The name of the saved search folder.
+virtual-folder-properties-edit-title = Upravit vlastnosti uloženého hledání pro { $folderName }
 virtual-folder-search-online =
     .label = Hledat online (Vrací vždy aktuální výsledky u složek typu IMAP nebo Diskusní skupiny, ale zvyšuje čas potřebný k otevření složky)
     .accesskey = H
