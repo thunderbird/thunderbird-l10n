@@ -15,6 +15,9 @@ virtual-folder-sources-chosen =
     }
 virtual-folder-no-search-folders-selected = Трябва да изберете поне една папка, за да откриете запазеното търсене.
 virtual-folder-properties-title = Нова папка за запазени търсения
+# Variables:
+#   $folderName (String): The name of the saved search folder.
+virtual-folder-properties-edit-title = Промяна свойствата на запазено търсене { $folderName }
 virtual-folder-folder-selection-caption = Изберете папки, в които да се търси:
 virtual-folder-choose-folders-button =
     .label = Избиране…
