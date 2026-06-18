@@ -13,6 +13,7 @@ virtual-folder-sources-chosen =
         [one] { $count } Ordner ausgewählt
        *[other] { $count } Ordner ausgewählt
     }
+virtual-folder-no-search-folders-selected = Sie müssen mindestens einen Ordner angeben, der durchsucht werden soll.
 virtual-folder-properties-title = Neuer virtueller Ordner
 
 ## The following are for the virtual folder list dialog, which is opened when
