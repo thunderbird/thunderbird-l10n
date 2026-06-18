@@ -13,6 +13,8 @@ virtual-folder-sources-chosen =
         [one] { $count } pasta escolhida
        *[other] { $count } pastas escolhidas
     }
+virtual-folder-no-search-folders-selected = Tem de escolher, pelo menos, uma pasta para pesquisar as pesquisas guardadas.
+virtual-folder-properties-title = Nova pasta de pesquisa
 # Variables:
 #   $folderName (String): The name of the saved search folder.
 virtual-folder-properties-edit-title = Editar propriedades da pesquisa guardada para { $folderName }
@@ -20,7 +22,16 @@ virtual-folder-folder-selection-caption = Selecione as pastas a pesquisar:
 virtual-folder-choose-folders-button =
     .label = Selecionar...
     .accesskey = S
+virtual-folder-search-online =
+    .label = Pesquisar online (resultados atualizados para as pastas IMAP e de notícias, mas aumenta o tempo de abertura da pasta)
+    .accesskey = s
 virtual-folder-search-term-caption = Configurar critério de pesquisa utilizado para esta pesquisa guardada:
+virtual-folder-accept-button-create =
+    .label = Criar
+    .accesskey = r
+virtual-folder-accept-button-update =
+    .label = Atualizar
+    .accesskey = u
 
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
