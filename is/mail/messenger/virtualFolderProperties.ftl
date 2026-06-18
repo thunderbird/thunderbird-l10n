@@ -14,6 +14,7 @@ virtual-folder-sources-chosen =
        *[other] { $count } möppur valdar
     }
 virtual-folder-no-search-folders-selected = Þú verður að velja að minnsta eina möppu til að geta vistað möppuleit.
+virtual-folder-properties-title = Ný vistuð leit
 # Variables:
 #   $folderName (String): The name of the saved search folder.
 virtual-folder-properties-edit-title = Breyta eiginleikum vistaðrar leitar fyrir { $folderName }
