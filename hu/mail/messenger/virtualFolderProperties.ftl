@@ -21,7 +21,16 @@ virtual-folder-folder-selection-caption = Keresés a következő mappákban:
 virtual-folder-choose-folders-button =
     .label = Tallózás…
     .accesskey = T
+virtual-folder-search-online =
+    .label = Online keresés (naprakész eredményeket ad az IMAP- és News-mappákhoz, de megnövekszik a mappa megnyitásához szükséges idő)
+    .accesskey = s
 virtual-folder-search-term-caption = A mentett keresés keresési feltételének beállítása:
+virtual-folder-accept-button-create =
+    .label = Létrehozás
+    .accesskey = L
+virtual-folder-accept-button-update =
+    .label = Frissítés
+    .accesskey = F
 
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
