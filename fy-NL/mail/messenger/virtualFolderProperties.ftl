@@ -14,6 +14,12 @@ virtual-folder-sources-chosen =
        *[other] { $count } mappen keazen
     }
 virtual-folder-properties-title = Nije firtuele sykmap
+# Variables:
+#   $folderName (String): The name of the saved search folder.
+virtual-folder-properties-edit-title = Bewarre sykeigenskippen fan { $folderName } bewurkje
+virtual-folder-choose-folders-button =
+    .label = Kieze…
+    .accesskey = K
 virtual-folder-search-online =
     .label = Online sykje (Jout up-to-date resultaten foar IMAP- en nijsmappen, mar it duorret langer om de map te iepenjen)
     .accesskey = O
