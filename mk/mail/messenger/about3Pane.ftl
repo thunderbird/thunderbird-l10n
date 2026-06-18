@@ -3,12 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Message List Header Bar
-
-
-## Quick Filter Bar
-
-
 ## Folder pane
 
 folder-pane-mode-header-tags = Етикети
@@ -73,12 +67,3 @@ threadpane-column-header-a11y-id =
     .aria-label = Ред на пристигање
 threadpane-column-label-id =
     .label = Ред на пристигање
-
-## Message state variations
-
-
-## Apply columns confirmation dialog
-
-
-## Folder pane context menu
-
