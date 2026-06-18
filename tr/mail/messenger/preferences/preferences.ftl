@@ -146,7 +146,7 @@ mail-play-sound-label =
     .label =
         { PLATFORM() ->
             [macos] Aşağıdaki ses dosyasını çal:
-           *[other] Ses çıkar
+           *[other] Ses çal
         }
     .accesskey =
         { PLATFORM() ->

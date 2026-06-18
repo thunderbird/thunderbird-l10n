@@ -702,7 +702,7 @@ tags-manage =
     .accesskey = E
 tags-remove-all =
     .label = Tüm etiketleri sil
-    .accesskey = 0
+    .accesskey = m
 # Variables:
 #   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
 #   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
