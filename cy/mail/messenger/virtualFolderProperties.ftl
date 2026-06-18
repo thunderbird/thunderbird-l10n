@@ -14,10 +14,20 @@ virtual-folder-sources-chosen =
         [one] Wedi dewis { $count } ffolder
        *[other] Wedi dewis { $count } ffolder
     }
+virtual-folder-no-search-folders-selected = Rhaid dewis o leiaf un ffolder i chwilio am y ffolder chwilio a gadwyd.
 virtual-folder-properties-title = Ffolder Chwilio wedi'i Chadw Newydd
 virtual-folder-folder-selection-caption = Dewis ffolderi i'w chwilio:
 virtual-folder-choose-folders-button =
     .label = Dewis…
+    .accesskey = D
+virtual-folder-search-online =
+    .label = Chwilio Ar-lein (Mae'n cynnig y canlyniadau diweddaraf ar ffolderi IMAP a Newyddion ond mae'n cymryd mwy o amser i agor y ffolder)
+    .accesskey = A
+virtual-folder-accept-button-create =
+    .label = Creu
+    .accesskey = r
+virtual-folder-accept-button-update =
+    .label = Diweddaru
     .accesskey = D
 
 ## The following are for the virtual folder list dialog, which is opened when
