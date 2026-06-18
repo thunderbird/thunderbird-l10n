@@ -5,23 +5,59 @@
 
 ## General Information tab
 
+folder-props-name =
+    .value = Անունը.
+    .accesskey = N
+folder-props-location =
+    .value = Տեղը.
+    .accesskey = L
+folder-props-number-of-messages =
+    .value = ចំនួន​សារ៖
 folder-props-number-unknown =
     .value = មិន​ស្គាល់
 folder-props-size-on-disk =
     .value = ទំហំ​លើថាស៖
 folder-props-size-unknown =
     .value = មិន​ស្គាល់
+folder-props-check-for-new-messages =
+    .label = Այս փոստարկղի նոր նամակները ստանալիս միշտ ստուգել այս թղթապանակը
+    .accesskey = c
 
 ## Retention tab (see retention.ftl)
 ##
 ## Synchronization tab
 
+folder-props-synchronization-tab =
+    .label = Synchronization
+folder-props-select-for-offline =
+    .label = Ընտրել այս թղթապանակը «Ցանցից դուրս»-ի համար
+    .accesskey = S
+folder-props-download-now =
+    .label = Բեռնել
+    .accesskey = D
+folder-props-select-newsgroup-for-offline =
+    .label = Ընտրել այս նորությունները «Ցանցից դուրս»-ի համար
+    .accesskey = o
+folder-props-download-newsgroup-now =
+    .label = Բեռնել
+    .accesskey = D
 
 ## Sharing tab
 
+folder-props-sharing-tab =
+    .label = Sharing
+folder-props-privileges =
+    .label = Արտոնությունները…
+    .accesskey = P
+folder-props-permissions =
+    .value = You have the following permissions:
+folder-props-type =
+    .value = Folder Type:
 
 ## Quota tab
 
 # Variables:
 #   $percent (Number) - Usage percentage of the assigned IMAP quota.
 quota-percent-used = { $percent }% ពេញ​លេញ
+folder-props-quota-tab =
+    .label = Quota
