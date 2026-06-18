@@ -15,6 +15,11 @@ virtual-folder-sources-chosen =
        *[many] выбрано { $count } папок
     }
 virtual-folder-properties-title = Новая виртуальная папка
+virtual-folder-folder-selection-caption = Выберите папки, в которых будет производиться поиск:
+virtual-folder-choose-folders-button =
+    .label = Выбрать…
+    .accesskey = б
+virtual-folder-search-term-caption = Настроить критерии поиска, используемые для этой виртуальной папки:
 
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
