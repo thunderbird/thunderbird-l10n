@@ -6,7 +6,11 @@
 ## Strings for the virtual folder properties dialog, which is used for both
 ## creating and editing saved search folders.
 
+virtual-folder-no-search-folders-selected = U moet ten minste een vouer kies om te soek vir die gestoorde soektogvouer.
 virtual-folder-properties-title = Nuwe gestoorde soekvouer
+# Variables:
+#   $folderName (String): The name of the saved search folder.
+virtual-folder-properties-edit-title = Redigeer gestoorde soekeienskappe vir { $folderName }
 virtual-folder-choose-folders-button =
     .label = Kies…
     .accesskey = K
