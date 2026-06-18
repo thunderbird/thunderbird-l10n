@@ -14,6 +14,9 @@ virtual-folder-sources-chosen =
        *[other] { $count } klasör seçildi
     }
 virtual-folder-no-search-folders-selected = Kayıtlı arama klasörü araması yapmak için en az bir klasör seçmelisiniz.
+# Variables:
+#   $folderName (String): The name of the saved search folder.
+virtual-folder-properties-edit-title = { $folderName } için Düzenleme Kayıt Arama Özellikleri
 virtual-folder-choose-folders-button =
     .label = Seçin…
     .accesskey = S
