@@ -2,9 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+folder-props-window-title = Vlastnosti
 
 ## General Information tab
 
+folder-props-general-tab =
+    .label = Všeobecné informácie
 folder-props-name =
     .value = Názov:
     .accesskey = N
@@ -24,9 +27,17 @@ folder-props-size-on-disk =
     .value = Veľkosť na disku:
 folder-props-size-unknown =
     .value = neznáma
+folder-props-rebuild-summary =
+    .label = Opraviť priečinok
+    .accesskey = O
+    .tooltiptext = Vytvorí nový indexový súbor
+folder-props-include-in-global-search =
+    .label = Správy v tomto priečinku zahrnúť do výsledkov globálneho vyhľadávania
+    .accesskey = z
 folder-props-check-for-new-messages =
     .label = Pri získavaní nových správ pre tento účet vždy kontrolovať aj tento priečinok
     .accesskey = k
+folder-props-rebuild-summary-explanation = Indexový súbor priečinka (.msf) sa môže poškodiť, čo spôsobí, že niektoré správy sa nezobrazujú alebo už odstránené správy sú stále zobrazované. Opravením indexu priečinka tieto problémy odstránite.
 
 ## Retention tab (see retention.ftl)
 ##
