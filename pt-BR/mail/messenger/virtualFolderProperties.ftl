@@ -15,6 +15,9 @@ virtual-folder-sources-chosen =
     }
 virtual-folder-no-search-folders-selected = A pasta de pesquisa precisa de pelo menos uma pasta para ser usada como fonte.
 virtual-folder-properties-title = Nova pasta de pesquisa
+# Variables:
+#   $folderName (String): The name of the saved search folder.
+virtual-folder-properties-edit-title = Editar propriedades da pesquisa salva de { $folderName }
 virtual-folder-choose-folders-button =
     .label = Selecionar…
     .accesskey = S
