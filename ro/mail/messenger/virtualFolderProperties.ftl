@@ -16,6 +16,13 @@ virtual-folder-sources-chosen =
     }
 virtual-folder-no-search-folders-selected = Trebuie să alegi cel puțin un dosar în care să cauți pentru fișierele salvate.
 virtual-folder-properties-title = Dosar nou pentru o căutare salvată
+# Variables:
+#   $folderName (String): The name of the saved search folder.
+virtual-folder-properties-edit-title = Editare proprietăți pentru căutarea salvată după { $folderName }
+virtual-folder-name = Nume:
+    .accesskey = N
+virtual-folder-description = Creează ca dosar sub:
+    .accesskey = C
 virtual-folder-folder-selection-caption = Selectează dosarele în care se caută:
 virtual-folder-choose-folders-button =
     .label = Alege…
@@ -34,3 +41,5 @@ virtual-folder-accept-button-update =
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
 
+virtual-folder-list-title = Selectează dosarul(ele)
+virtual-folder-list-desc = Selectează dosarele pentru căutare:
