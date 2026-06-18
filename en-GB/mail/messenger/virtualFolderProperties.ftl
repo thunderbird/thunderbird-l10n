@@ -13,7 +13,11 @@ virtual-folder-sources-chosen =
         [one] { $count } folder chosen
        *[other] { $count } folders chosen
     }
+virtual-folder-no-search-folders-selected = You must choose at least one folder to search for the saved search folder.
 virtual-folder-properties-title = New Saved Search Folder
+# Variables:
+#   $folderName (String): The name of the saved search folder.
+virtual-folder-properties-edit-title = Edit Saved Search Properties for { $folderName }
 
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
