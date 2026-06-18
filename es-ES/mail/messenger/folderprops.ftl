@@ -2,9 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+folder-props-window-title = Propiedades
 
 ## General Information tab
 
+folder-props-general-tab =
+    .label = Información general
 folder-props-name =
     .value = Nombre:
     .accesskey = N
@@ -18,9 +21,23 @@ folder-props-location =
     .accesskey = U
 folder-props-number-of-messages =
     .value = Número de mensajes:
+folder-props-number-unknown =
+    .value = desconocido
+folder-props-size-on-disk =
+    .value = Tamaño en disco:
+folder-props-size-unknown =
+    .value = desconocido
+folder-props-rebuild-summary =
+    .label = Reparar carpeta
+    .accesskey = R
+    .tooltiptext = Reconstruir el archivo índice resumen
+folder-props-include-in-global-search =
+    .label = Incluir mensajes en esta carpeta en los resultados de la búsqueda global
+    .accesskey = I
 folder-props-check-for-new-messages =
     .label = Al obtener mensajes nuevos de esta cuenta, comprobar siempre esta carpeta
     .accesskey = b
+folder-props-rebuild-summary-explanation = Algunas veces el archivo índice de la carpeta (.msf) se daña y puede parecer que algunos mensajes válidos desaparecen mientras que otros eliminados siguen mostrándose; reparar la carpeta puede corregir estos problemas.
 
 ## Retention tab (see retention.ftl)
 ##
