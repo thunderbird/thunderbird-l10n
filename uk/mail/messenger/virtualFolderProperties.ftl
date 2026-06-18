@@ -14,6 +14,7 @@ virtual-folder-sources-chosen =
         [few] Вибрано { $count } теки
        *[many] Вибрано { $count } тек
     }
+virtual-folder-no-search-folders-selected = Ви повинні обрати щонайменше одну теку в якій проводитиметеся пошук для  створення віртуальної теки.
 virtual-folder-properties-title = Нова віртуальна тека
 
 ## The following are for the virtual folder list dialog, which is opened when
