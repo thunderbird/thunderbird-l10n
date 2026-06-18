@@ -2,9 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+folder-props-window-title = Eigenskippen
 
 ## General Information tab
 
+folder-props-general-tab =
+    .label = Algemiene ynformaasje
 folder-props-name =
     .value = Namme:
     .accesskey = m
@@ -24,9 +27,17 @@ folder-props-size-on-disk =
     .value = Diskromte:
 folder-props-size-unknown =
     .value = net bekend
+folder-props-rebuild-summary =
+    .label = Map reparearje
+    .accesskey = r
+    .tooltiptext = Gearfettingsbestân opnij meitsje
+folder-props-include-in-global-search =
+    .label = Berjochten yn dizze map meinimme yn globale sykresultaten
+    .accesskey = G
 folder-props-check-for-new-messages =
     .label = By it krijen fan nije berjochten foar dit account, kontrolearje altyd dizze map
     .accesskey = k
+folder-props-rebuild-summary-explanation = Somtiden wurdt it mapyndeksbestân (.msf) skansearre en liket it oft berjochten misse of fuortsmiten berjochten weromkomme; de map reparearje kin dit oplosse.
 
 ## Retention tab (see retention.ftl)
 ##
