@@ -2,9 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+folder-props-window-title = Eiginleikar
 
 ## General Information tab
 
+folder-props-general-tab =
+    .label = Almennar upplýsingar
 folder-props-name =
     .value = Nafn:
     .accesskey = N
@@ -24,9 +27,17 @@ folder-props-size-on-disk =
     .value = Stærð á diski:
 folder-props-size-unknown =
     .value = óþekkt
+folder-props-rebuild-summary =
+    .label = Laga möppu
+    .accesskey = L
+    .tooltiptext = Endurbyggja yfirlitsskrá
+folder-props-include-in-global-search =
+    .label = Nota póst í þessari möppu með í víðtækum leitarniðurstöðum
+    .accesskey = v
 folder-props-check-for-new-messages =
     .label = Alltaf athuga þessa möppu, þegar náð er í nýjan póst fyrir þennan reikning
     .accesskey = t
+folder-props-rebuild-summary-explanation = Stundum getur komið fyrir að yfirlitsskrá möppu (.msf) skemmist og póstur virðist vera týndur eða póst sem hefur verið eytt birtist áfram; ef þú endurbyggir möppuna er venjulega hægt að laga þessi vandamál.
 
 ## Retention tab (see retention.ftl)
 ##
