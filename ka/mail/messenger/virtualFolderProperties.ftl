@@ -14,9 +14,11 @@ virtual-folder-sources-chosen =
        *[other] შერჩეულია, { $count } საქაღალდე
     }
 virtual-folder-no-search-folders-selected = უნდა მიუთითოთ ერთი მაინც ძიების შენახული შედეგების საძიებო საქაღალდე.
+virtual-folder-properties-title = შენახული ახალი საძიებო საქაღალდე
 # Variables:
 #   $folderName (String): The name of the saved search folder.
 virtual-folder-properties-edit-title = შენახული ძიების შედეგების { $folderName } საქაღალდის ჩასწორება
+virtual-folder-folder-selection-caption = საძიებო საქაღალდეების შერჩევა:
 virtual-folder-choose-folders-button =
     .label = შერჩევა…
     .accesskey = h
