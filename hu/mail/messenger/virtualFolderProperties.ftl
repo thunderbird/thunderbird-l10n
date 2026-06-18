@@ -13,6 +13,7 @@ virtual-folder-sources-chosen =
         [one] { $count } mappa kiválasztva
        *[other] { $count } mappa kiválasztva
     }
+virtual-folder-no-search-folders-selected = Legalább egy mappát meg kell adni, amelyben a mentett keresés mappa keres.
 virtual-folder-properties-title = Új mentett keresés mappa
 # Variables:
 #   $folderName (String): The name of the saved search folder.
