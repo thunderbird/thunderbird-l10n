@@ -2,9 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+folder-props-window-title = Egenskaper
 
 ## General Information tab
 
+folder-props-general-tab =
+    .label = Generell informasjon
 folder-props-name =
     .value = Navn:
     .accesskey = N
@@ -24,9 +27,17 @@ folder-props-size-on-disk =
     .value = Diskplass:
 folder-props-size-unknown =
     .value = ukjent
+folder-props-rebuild-summary =
+    .label = Reparer mappe
+    .accesskey = R
+    .tooltiptext = Bygg opp oppsummeringsfil på nytt
+folder-props-include-in-global-search =
+    .label = Ta med meldinger i denne mappen i globalt søkeresultat
+    .accesskey = n
 folder-props-check-for-new-messages =
     .label = Ved nedlasting av nye meldinger for denne kontoen, kontroller alltid denne mappen
     .accesskey = d
+folder-props-rebuild-summary-explanation = Noen ganger kan oppsummeringsfilen (.msf) bli skadet, og meldinger kan se ut til å forsvinne, eller slettede meldinger kan bli vist. Å reparere mappen kan rette opp disse problemene.
 
 ## Retention tab (see retention.ftl)
 ##
