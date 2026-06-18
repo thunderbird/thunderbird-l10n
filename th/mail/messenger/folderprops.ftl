@@ -2,9 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+folder-props-window-title = คุณสมบัติ
 
 ## General Information tab
 
+folder-props-general-tab =
+    .label = ข้อมูลทั่วไป
 folder-props-name =
     .value = ชื่อ:
     .accesskey = ช
@@ -24,9 +27,17 @@ folder-props-size-on-disk =
     .value = ขนาดบนดิสก์:
 folder-props-size-unknown =
     .value = ไม่ทราบ
+folder-props-rebuild-summary =
+    .label = ซ่อมแซมโฟลเดอร์
+    .accesskey = ซ
+    .tooltiptext = สร้างดัชนีไฟล์ข้อมูลสรุปใหม่
+folder-props-include-in-global-search =
+    .label = รวมข้อความในโฟลเดอร์นี้ในผลการค้นหาส่วนกลาง
+    .accesskey = ว
 folder-props-check-for-new-messages =
     .label = เมื่อได้รับข้อความใหม่สำหรับบัญชีนี้ ให้ตรวจสอบโฟลเดอร์นี้เสมอ
     .accesskey = เ
+folder-props-rebuild-summary-explanation = บางครั้งไฟล์ดัชนีโฟลเดอร์ (.msf) อาจเสียหาย ส่งผลให้ข้อความอาจหายไปหรือข้อความที่ถูกลบแสดงขึ้น การซ่อมแซมโฟลเดอร์อาจซ่อมแซมปัญหาเหล่านี้ได้
 
 ## Retention tab (see retention.ftl)
 ##
