@@ -2,9 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+folder-props-window-title = Proprietà
 
 ## General Information tab
 
+folder-props-general-tab =
+    .label = Informazioni generali
 folder-props-name =
     .value = Nome:
     .accesskey = N
@@ -24,9 +27,17 @@ folder-props-size-on-disk =
     .value = Spazio sul disco:
 folder-props-size-unknown =
     .value = Sconosciuto
+folder-props-rebuild-summary =
+    .label = Ripara la cartella
+    .accesskey = R
+    .tooltiptext = Ricostruisci il file indice
+folder-props-include-in-global-search =
+    .label = Includi i messaggi di questa cartella nei risultati di Ricerca globale
+    .accesskey = I
 folder-props-check-for-new-messages =
     .label = Durante lo scaricamento dei nuovi messaggi per questo account controllare sempre questa cartella
     .accesskey = c
+folder-props-rebuild-summary-explanation = Può succedere che il file indice delle cartelle risulti danneggiato e qualche messaggio non venga visualizzato o messaggi già eliminati vengano comunque visualizzati; riparare la cartella può risolvere questo tipo di problema.
 
 ## Retention tab (see retention.ftl)
 ##
