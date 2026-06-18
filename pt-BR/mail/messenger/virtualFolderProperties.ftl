@@ -21,6 +21,15 @@ virtual-folder-properties-edit-title = Editar propriedades da pesquisa salva de 
 virtual-folder-choose-folders-button =
     .label = Selecionar…
     .accesskey = S
+virtual-folder-search-online =
+    .label = Pesquisa online (oferece resultados atualizados em pastas IMAP e News, mas aumenta o tempo para abrir a pasta)
+    .accesskey = P
+virtual-folder-accept-button-create =
+    .label = Criar
+    .accesskey = C
+virtual-folder-accept-button-update =
+    .label = Atualizar
+    .accesskey = A
 
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
