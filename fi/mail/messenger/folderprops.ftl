@@ -2,9 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+folder-props-window-title = Ominaisuudet
 
 ## General Information tab
 
+folder-props-general-tab =
+    .label = Yleiset tiedot
 folder-props-name =
     .value = Nimi:
     .accesskey = N
@@ -24,9 +27,17 @@ folder-props-size-on-disk =
     .value = Koko levyllä:
 folder-props-size-unknown =
     .value = tuntematon
+folder-props-rebuild-summary =
+    .label = Korjaa kansio
+    .accesskey = K
+    .tooltiptext = Kokoa hakemistot uudelleen
+folder-props-include-in-global-search =
+    .label = Kansion viestit ovat löydettävissä haulla
+    .accesskey = l
 folder-props-check-for-new-messages =
     .label = Tarkista tilille saapuvien viestien yhteydessä, onko tähän kansioon tullut uusia viestejä
     .accesskey = T
+folder-props-rebuild-summary-explanation = Joissain tilanteissa kansion hakemistotiedosto (.msf) vaurioituu ja tällöin jotkin tai kaikki kansion viestit voivat näyttää kadonneen tai jo poistetut viestit voivat palata listaukseen. Joissain tapauksissa kansion korjaaminen auttaa ongelmaan.
 
 ## Retention tab (see retention.ftl)
 ##
