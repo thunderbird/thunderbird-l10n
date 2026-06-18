@@ -18,7 +18,27 @@ virtual-folder-properties-title = Ný vistuð leit
 # Variables:
 #   $folderName (String): The name of the saved search folder.
 virtual-folder-properties-edit-title = Breyta eiginleikum vistaðrar leitar fyrir { $folderName }
+virtual-folder-name = Nafn:
+    .accesskey = n
+virtual-folder-description = Búa til sem undirmöppu af:
+    .accesskey = B
+virtual-folder-folder-selection-caption = Veldu möppur til að leita í:
+virtual-folder-choose-folders-button =
+    .label = Velja…
+    .accesskey = V
+virtual-folder-search-online =
+    .label = Leitar á netinu (Skilar uppfærðum niðurstöðum fyrir IMAP og fréttamöppur en lengir tímann sem tekur að opna möppu)
+    .accesskey = o
+virtual-folder-search-term-caption = Stilltu leitarskilyrðin fyrir vistaða leit:
+virtual-folder-accept-button-create =
+    .label = Búa til
+    .accesskey = a
+virtual-folder-accept-button-update =
+    .label = Uppfæra
+    .accesskey = U
 
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
 
+virtual-folder-list-title = Veldu möppu(r)
+virtual-folder-list-desc = Veldu möppur til að leita í:
