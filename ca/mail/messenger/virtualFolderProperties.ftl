@@ -13,6 +13,10 @@ virtual-folder-sources-chosen =
         [one] { $count } carpeta seleccionada
        *[other] { $count } carpetes seleccionades
     }
+virtual-folder-properties-title = Carpeta de cerca desada nova
+# Variables:
+#   $folderName (String): The name of the saved search folder.
+virtual-folder-properties-edit-title = Edita les propietats de la cerca desada per a { $folderName }
 virtual-folder-folder-selection-caption = Seleccioneu les carpetes que voleu cercar:
 virtual-folder-choose-folders-button =
     .label = Trieu…
