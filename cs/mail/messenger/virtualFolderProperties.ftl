@@ -15,6 +15,15 @@ virtual-folder-sources-chosen =
        *[other] Vybráno { $count } složek
     }
 virtual-folder-properties-title = Nová složka uloženého hledání
+virtual-folder-search-online =
+    .label = Hledat online (Vrací vždy aktuální výsledky u složek typu IMAP nebo Diskusní skupiny, ale zvyšuje čas potřebný k otevření složky)
+    .accesskey = H
+virtual-folder-accept-button-create =
+    .label = Vytvořit
+    .accesskey = t
+virtual-folder-accept-button-update =
+    .label = Aktualizovat
+    .accesskey = A
 
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
