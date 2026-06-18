@@ -2,6 +2,19 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at https://mozilla.org/MPL/2.0/.
 
+
+## Strings for the virtual folder properties dialog, which is used for both
+## creating and editing saved search folders.
+
 # Variables:
 #   $count - number of chosen folders
 virtual-folder-sources-chosen = { $count } folder yang dipilih
+virtual-folder-no-search-folders-selected = Anda mesti pilih sekurang-kurangnya satu folder untuk mencari folder carian yang disimpan.
+virtual-folder-properties-title = Folder Carian Disimpan Baru
+# Variables:
+#   $folderName (String): The name of the saved search folder.
+virtual-folder-properties-edit-title = Edit Sifat Carian yang Disimpan untuk { $folderName }
+
+## The following are for the virtual folder list dialog, which is opened when
+## the user clicks the "Choose..." button to select folders.
+
