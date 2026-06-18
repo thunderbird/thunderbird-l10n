@@ -205,6 +205,8 @@ account-hub-calendars-button = Ημερολόγια
 account-hub-thundermail-button = Σύνδεση μέσω Thundermail
 # Used as part of a divider between sign in button and a sign in form.
 account-hub-thundermail-divider-text = ή
+account-hub-manual-config-incoming-legend = Διακομιστής εισερχομένων
+account-hub-manual-config-outgoing-legend = Διακομιστής εξερχομένων
 account-hub-notification-show-more = Εμφάνιση περισσότερων
 account-hub-notification-show-less = Εμφάνιση λιγότερων
 account-hub-email-setup-header = Προσθήκη διεύθυνσης email
