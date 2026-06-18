@@ -2,9 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+folder-props-window-title = Omadused
 
 ## General Information tab
 
+folder-props-general-tab =
+    .label = Üldine info
 folder-props-name =
     .value = Nimi:
     .accesskey = N
@@ -24,9 +27,17 @@ folder-props-size-on-disk =
     .value = Suurus kettal:
 folder-props-size-unknown =
     .value = pole teada
+folder-props-rebuild-summary =
+    .label = Paranda kaust
+    .accesskey = P
+    .tooltiptext = Loo kokkuvõtte fail uuesti
+folder-props-include-in-global-search =
+    .label = Kirjad selles kaustas kaasatakse üldotsingu tulemustesse
+    .accesskey = K
 folder-props-check-for-new-messages =
     .label = Uute kirjade hankimisel kontrollitakse alati seda kausta
     .accesskey = U
+folder-props-rebuild-summary-explanation = Mõnikord saab kausta kokkuvõtte fail (.msf) kahjustada ja kirjad võivad näida kadununa või kustutatud kirjad jääda endiselt nähtavaks; kausta parandamine võib need probleemid lahendada.
 
 ## Retention tab (see retention.ftl)
 ##
