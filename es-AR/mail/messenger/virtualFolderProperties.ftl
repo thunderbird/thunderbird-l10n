@@ -18,6 +18,9 @@ virtual-folder-properties-title = Nueva carpeta de búsquedas guardadas
 # Variables:
 #   $folderName (String): The name of the saved search folder.
 virtual-folder-properties-edit-title = Editar las propiedades de la búsqueda { $folderName }
+virtual-folder-choose-folders-button =
+    .label = Seleccionar…
+    .accesskey = E
 virtual-folder-search-online =
     .label = Buscar en línea (da resultados actualizados de carpetas IMAP y de noticias, pero aumenta el tiempo de apertura de la carpeta)
     .accesskey = o
