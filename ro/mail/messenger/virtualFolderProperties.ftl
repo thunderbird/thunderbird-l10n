@@ -16,12 +16,14 @@ virtual-folder-sources-chosen =
     }
 virtual-folder-no-search-folders-selected = Trebuie să alegi cel puțin un dosar în care să cauți pentru fișierele salvate.
 virtual-folder-properties-title = Dosar nou pentru o căutare salvată
+virtual-folder-folder-selection-caption = Selectează dosarele în care se caută:
 virtual-folder-choose-folders-button =
     .label = Alege…
     .accesskey = h
 virtual-folder-search-online =
     .label = Caută online (rezultatele sunt obținute de pe server pentru dosare IMAP și Știri dar timpul de deschidere al dosarului crește)
     .accesskey = s
+virtual-folder-search-term-caption = Configurează criteriul de căutare folosit pentru acest dosar:
 virtual-folder-accept-button-create =
     .label = Creează
     .accesskey = r
