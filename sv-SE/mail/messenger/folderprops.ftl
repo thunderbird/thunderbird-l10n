@@ -2,9 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+folder-props-window-title = Egenskaper
 
 ## General Information tab
 
+folder-props-general-tab =
+    .label = Allmänt
 folder-props-name =
     .value = Namn:
     .accesskey = N
@@ -24,9 +27,17 @@ folder-props-size-on-disk =
     .value = Storlek på disk:
 folder-props-size-unknown =
     .value = okänd
+folder-props-rebuild-summary =
+    .label = Reparera mapp
+    .accesskey = R
+    .tooltiptext = Återskapa index för sammanfattningsfil
+folder-props-include-in-global-search =
+    .label = Inkludera meddelanden i den här mappen i globala sökresultat
+    .accesskey = I
 folder-props-check-for-new-messages =
     .label = Vid hämtning av nya meddelanden från kontot, kontrollera alltid den här mappen
     .accesskey = k
+folder-props-rebuild-summary-explanation = Ibland kan filen (.msf) för mappindexet skadas och göra att meddelanden saknas eller att borttagna meddelanden finns kvar; en reparation av mappen kan lösa dessa problem.
 
 ## Retention tab (see retention.ftl)
 ##
