@@ -2,9 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+folder-props-window-title = Īpašības
 
 ## General Information tab
 
+folder-props-general-tab =
+    .label = Galvenā informācija
 folder-props-name =
     .value = Nosaukums:
     .accesskey = N
@@ -24,9 +27,17 @@ folder-props-size-on-disk =
     .value = Izmērs diskā:
 folder-props-size-unknown =
     .value = nezināms
+folder-props-rebuild-summary =
+    .label = Salabot mapi
+    .accesskey = R
+    .tooltiptext = Pārbūvēt kopsavilkuma failu rādītāju
+folder-props-include-in-global-search =
+    .label = Iekļaut vēstules no šīs mapes globālās meklēšanas rezultātos
+    .accesskey = G
 folder-props-check-for-new-messages =
     .label = Saņemot jaunas vēstules šajā kontā, vienmēr pārbaudīt šo mapi
     .accesskey = S
+folder-props-rebuild-summary-explanation = Dažreiz mapes indeksa (.msf) fails sabojājas un vēstules var likties pazudušas vai var parādīties dzēstas vēstules; labojot mapi, šīs problēmas var novērst.
 
 ## Retention tab (see retention.ftl)
 ##
