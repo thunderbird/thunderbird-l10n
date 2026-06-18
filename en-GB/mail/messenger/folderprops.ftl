@@ -2,9 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+folder-props-window-title = Properties
 
 ## General Information tab
 
+folder-props-general-tab =
+    .label = General Information
 folder-props-name =
     .value = Name:
     .accesskey = N
@@ -24,9 +27,17 @@ folder-props-size-on-disk =
     .value = Size on disk:
 folder-props-size-unknown =
     .value = unknown
+folder-props-rebuild-summary =
+    .label = Repair Folder
+    .accesskey = R
+    .tooltiptext = Rebuild Summary File Index
+folder-props-include-in-global-search =
+    .label = Include messages in this folder in Global Search results
+    .accesskey = G
 folder-props-check-for-new-messages =
     .label = When getting new messages for this account, always check this folder
     .accesskey = c
+folder-props-rebuild-summary-explanation = Sometimes the folder index (.msf) file becomes damaged and messages may appear missing or deleted messages continue showing; repairing the folder may fix these issues.
 
 ## Retention tab (see retention.ftl)
 ##
