@@ -3,6 +3,25 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## General Information tab
+
+folder-props-check-for-new-messages =
+    .label = При получении новых сообщений для этой учётной записи всегда проверять эту папку
+    .accesskey = о
+
+## Retention tab (see retention.ftl)
+##
+## Synchronization tab
+
+folder-props-synchronization-tab =
+    .label = Синхронизация
+folder-props-select-for-offline =
+    .label = Выбрать эту папку для автономной работы
+    .accesskey = ы
+
+## Sharing tab
+
+
 ## Quota tab
 
 # Variables:
