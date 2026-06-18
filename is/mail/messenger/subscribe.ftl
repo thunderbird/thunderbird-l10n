@@ -4,6 +4,8 @@
 
 subscribe-server = Reikningur:
     .accesskey = R
+subscribe-namefield = Sýna atriði sem innihalda:
+    .accesskey = n
 subscribe-new-groups-tab =
     .label = Nýir hópar
     .accesskey = N
