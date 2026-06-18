@@ -7,6 +7,21 @@
 ### Account hub is where user can setup new accounts in Thunderbird.
 
 
+## Header
+
+
+## Footer
+
+
+## Initial setup page
+
+
+## Email page
+
+
+## Incoming/Outgoing authentication method options
+
+
 ## Incoming/Outgoing connection security options
 
 account-hub-name-warning-icon =
@@ -27,6 +42,12 @@ account-hub-exchange-label = Ձեր մուտքանունը
 account-hub-installing-addon = Յաւելասարքի ներբեռնում եւ տեղադրում…
 account-hub-success-addon = Յաւելասարքը յաջողութեամբ տեղադրուել է
 account-hub-success-half-manual = Յետեւեալ կարգաւորումները յայտնաբերուել են տուեալ սպասարկչի զոնդաւորման միջոցով.
+account-hub-result-security-no-encryption = Ծածկագրում չկայ
+    .title = Ծածկագրում չկայ
+account-hub-result-security-ssl = SSL/TLS
+    .title = SSL/TLS
+account-hub-result-security-starttls = STARTTLS
+    .title = STARTTLS
 account-hub-result-no-encryption = Ծածկագրում չկայ
 account-hub-result-ssl = SSL/TLS
 account-hub-result-starttls = STARTTLS
