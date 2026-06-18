@@ -14,7 +14,11 @@ virtual-folder-sources-chosen =
         [few] Zvolené { $count } priečinky
        *[other] Zvolených { $count } priečinkov
     }
+virtual-folder-no-search-folders-selected = Pre priečinky uloženého hľadania musíte vybrať aspoň jeden priečinok, ktorý chcete prehľadávať.
 virtual-folder-properties-title = Nový priečinok vyhľadávania
+# Variables:
+#   $folderName (String): The name of the saved search folder.
+virtual-folder-properties-edit-title = Upraviť vlastnosti uloženého hľadania pre { $folderName }
 
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
