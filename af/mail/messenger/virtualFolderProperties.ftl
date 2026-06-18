@@ -7,6 +7,12 @@
 ## creating and editing saved search folders.
 
 virtual-folder-properties-title = Nuwe gestoorde soekvouer
+virtual-folder-choose-folders-button =
+    .label = Kies…
+    .accesskey = K
+virtual-folder-search-online =
+    .label = Soek aanlyn (gee jou bygewerkte resultate vir IMAP- en nuusvouers maar neem langer om vouer te open)
+    .accesskey = S
 
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
