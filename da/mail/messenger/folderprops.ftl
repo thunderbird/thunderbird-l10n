@@ -2,9 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+folder-props-window-title = Egenskaber
 
 ## General Information tab
 
+folder-props-general-tab =
+    .label = Generel information
 folder-props-name =
     .value = Navn:
     .accesskey = N
@@ -24,9 +27,17 @@ folder-props-size-on-disk =
     .value = Størrelse på disken:
 folder-props-size-unknown =
     .value = ukendt
+folder-props-rebuild-summary =
+    .label = Reparer mappe
+    .accesskey = R
+    .tooltiptext = Genopbyg indeksfil
+folder-props-include-in-global-search =
+    .label = Medtag meddelelser i denne mappe i globale søgeresultater
+    .accesskey = M
 folder-props-check-for-new-messages =
     .label = Kontroller denne mappe for nye meddelelser
     .accesskey = K
+folder-props-rebuild-summary-explanation = I nogle tilfælde kan mappens indeksfil blive beskadiget, hvilket kan forårsage, at nogle mails ikke kan ses, eller at slettede mails atter dukker op. Reparering af mappen kan muligvis rette op på problemet.
 
 ## Retention tab (see retention.ftl)
 ##
