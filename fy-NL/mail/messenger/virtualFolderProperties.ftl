@@ -18,12 +18,18 @@ virtual-folder-properties-title = Nije firtuele sykmap
 # Variables:
 #   $folderName (String): The name of the saved search folder.
 virtual-folder-properties-edit-title = Bewarre sykeigenskippen fan { $folderName } bewurkje
+virtual-folder-name = Namme:
+    .accesskey = N
+virtual-folder-description = Meitsje as in submap fan:
+    .accesskey = M
+virtual-folder-folder-selection-caption = Selektearje de troch te sykjen mappen:
 virtual-folder-choose-folders-button =
     .label = Kieze…
     .accesskey = K
 virtual-folder-search-online =
     .label = Online sykje (Jout up-to-date resultaten foar IMAP- en nijsmappen, mar it duorret langer om de map te iepenjen)
     .accesskey = O
+virtual-folder-search-term-caption = Konfigurearje de brûkte sykkritearia foar dizze firtuele sykmap:
 virtual-folder-accept-button-create =
     .label = Meitsje
     .accesskey = M
@@ -34,3 +40,5 @@ virtual-folder-accept-button-update =
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
 
+virtual-folder-list-title = Map(pen) selektearje
+virtual-folder-list-desc = Selektearje de mappen om troch te sykjen:
