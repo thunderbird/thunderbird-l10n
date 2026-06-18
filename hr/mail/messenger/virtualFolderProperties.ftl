@@ -14,6 +14,7 @@ virtual-folder-sources-chosen =
         [few] { $count } mape odabrane
        *[other] { $count } mapa odabrano
     }
+virtual-folder-properties-title = Novo spremljene mape za pretraživanje
 virtual-folder-folder-selection-caption = Odaberite mape za pretraživanje:
 virtual-folder-choose-folders-button =
     .label = Odaberi…
