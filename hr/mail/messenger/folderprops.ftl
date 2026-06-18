@@ -5,23 +5,66 @@
 
 ## General Information tab
 
+folder-props-name =
+    .value = Naziv:
+    .accesskey = N
+folder-props-color =
+    .value = Boja ikone:
+    .accesskey = I
+folder-props-reset-color =
+    .tooltiptext = Vrati standardnu boju
+folder-props-location =
+    .value = Lokacija:
+    .accesskey = L
+folder-props-number-of-messages =
+    .value = Broj poruka:
 folder-props-number-unknown =
     .value = nepoznato
 folder-props-size-on-disk =
     .value = Zauzeće:
 folder-props-size-unknown =
     .value = nepoznato
+folder-props-check-for-new-messages =
+    .label = Prilikom primanja novih poruka za ovaj račun, uvijek provjeri ovu mapu
+    .accesskey = m
 
 ## Retention tab (see retention.ftl)
 ##
 ## Synchronization tab
 
+folder-props-synchronization-tab =
+    .label = Sinkronizacija
+folder-props-select-for-offline =
+    .label = Odaberi ovu mapu za izvanmrežno korištenje
+    .accesskey = v
+folder-props-download-now =
+    .label = Preuzmi sada
+    .accesskey = z
+folder-props-select-newsgroup-for-offline =
+    .label = Odaberi ovu interesnu grupu za izvanmrežno korištenje
+    .accesskey = O
+folder-props-download-newsgroup-now =
+    .label = Preuzmi sada
+    .accesskey = z
 
 ## Sharing tab
 
+folder-props-sharing-tab =
+    .label = Dijeljenje
+folder-props-privileges =
+    .label = Povlastice…
+    .accesskey = P
+folder-props-permissions =
+    .value = Imate sljedeće dozvole:
+folder-props-other-users =
+    .value = Ostali s pristupom na ovu mapu:
+folder-props-type =
+    .value = Vrsta mape:
 
 ## Quota tab
 
 # Variables:
 #   $percent (Number) - Usage percentage of the assigned IMAP quota.
 quota-percent-used = Iskorišteno { $percent }%
+folder-props-quota-tab =
+    .label = Kvota
