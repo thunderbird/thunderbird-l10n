@@ -3,8 +3,62 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## General Information tab
+
+folder-props-name =
+    .value = Nom :
+    .accesskey = N
+folder-props-color =
+    .value = Couleur de l’icône :
+    .accesskey = I
+folder-props-reset-color =
+    .tooltiptext = Restaurer la couleur par défaut
+folder-props-location =
+    .value = Emplacement :
+    .accesskey = E
+folder-props-number-of-messages =
+    .value = Nombre de messages :
+folder-props-check-for-new-messages =
+    .label = Lors de la réception de nouveaux messages pour ce compte, toujours vérifier ce dossier
+    .accesskey = L
+
+## Retention tab (see retention.ftl)
+##
+## Synchronization tab
+
+folder-props-synchronization-tab =
+    .label = Synchronisation
+folder-props-select-for-offline =
+    .label = Sélectionner ce dossier pour une utilisation hors connexion
+    .accesskey = l
+folder-props-download-now =
+    .label = Télécharger maintenant
+    .accesskey = h
+folder-props-select-newsgroup-for-offline =
+    .label = Sélectionner ce groupe pour une utilisation hors connexion
+    .accesskey = o
+folder-props-download-newsgroup-now =
+    .label = Télécharger maintenant
+    .accesskey = m
+
+## Sharing tab
+
+folder-props-sharing-tab =
+    .label = Partage
+folder-props-privileges =
+    .label = Privilèges…
+    .accesskey = P
+folder-props-permissions =
+    .value = Vous avez les permissions suivantes :
+folder-props-other-users =
+    .value = Autres personnes ayant accès à ce dossier :
+folder-props-type =
+    .value = Type de dossier :
+
 ## Quota tab
 
 # Variables:
 #   $percent (Number) - Usage percentage of the assigned IMAP quota.
 quota-percent-used = { $percent }% utilisés
+folder-props-quota-tab =
+    .label = Quotas
