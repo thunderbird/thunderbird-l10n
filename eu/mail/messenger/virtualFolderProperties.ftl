@@ -13,6 +13,7 @@ virtual-folder-sources-chosen =
         [one] { $count } karpeta aukeratua
        *[other] { $count } karpetak aukeratuak
     }
+virtual-folder-no-search-folders-selected = Behintzat bilaketa-karpeta bat aukeratu behar duzu gordetako bilaketen karpeta bilatzeko.
 virtual-folder-properties-title = Gordetako bilaketa-karpeta berria
 # Variables:
 #   $folderName (String): The name of the saved search folder.
