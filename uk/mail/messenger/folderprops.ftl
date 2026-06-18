@@ -2,9 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+folder-props-window-title = Властивості
 
 ## General Information tab
 
+folder-props-general-tab =
+    .label = Загальне
 folder-props-name =
     .value = Назва:
     .accesskey = а
@@ -24,9 +27,17 @@ folder-props-size-on-disk =
     .value = Розмір на диску:
 folder-props-size-unknown =
     .value = невідомо
+folder-props-rebuild-summary =
+    .label = Відремонтувати теку
+    .accesskey = о
+    .tooltiptext = Перебудувати файл індекса
+folder-props-include-in-global-search =
+    .label = Включати повідомлення цієї теки до результатів Глобального пошуку
+    .accesskey = Г
 folder-props-check-for-new-messages =
     .label = Отримуючи нові повідомлення облікового запису, завжди перевіряти цю теку
     .accesskey = п
+folder-props-rebuild-summary-explanation = Іноді файл індексу теки (.msf) пошкоджується, і може здатися, що нових повідомлень немає, а видалені повідомлення й надалі показуються. Відновлення теки може розв'язати ці проблеми.
 
 ## Retention tab (see retention.ftl)
 ##
