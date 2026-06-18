@@ -13,7 +13,11 @@ virtual-folder-sources-chosen =
         [one] { $count } cartella selezionata
        *[other] { $count } cartelle selezionate
     }
+virtual-folder-no-search-folders-selected = Si deve scegliere almeno una cartella per cercare la cartella di ricerca salvata.
 virtual-folder-properties-title = Cartella ricerca appena salvata
+# Variables:
+#   $folderName (String): The name of the saved search folder.
+virtual-folder-properties-edit-title = Modificare le impostazioni di ricerca salvate per { $folderName }
 virtual-folder-folder-selection-caption = Selezionare le cartelle in cui cercare:
 virtual-folder-choose-folders-button =
     .label = Scegli…
