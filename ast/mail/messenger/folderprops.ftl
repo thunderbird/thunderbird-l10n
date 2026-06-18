@@ -2,9 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+folder-props-window-title = Propiedaes
 
 ## General Information tab
 
+folder-props-general-tab =
+    .label = Información xeneral
 folder-props-name =
     .value = Nome:
     .accesskey = N
@@ -19,9 +22,17 @@ folder-props-size-on-disk =
     .value = Tamañu en discu:
 folder-props-size-unknown =
     .value = desconocíu
+folder-props-rebuild-summary =
+    .label = Iguar carpeta
+    .accesskey = I
+    .tooltiptext = Reconstruyir el ficheru índiz resume
+folder-props-include-in-global-search =
+    .label = Incluyir mensaxes nesta carpeta nos resultaos de la gueta global
+    .accesskey = I
 folder-props-check-for-new-messages =
     .label = Al obtener mensaxes nuevos d'esta cuenta, comprobar siempre esta carpeta
     .accesskey = b
+folder-props-rebuild-summary-explanation = Dalgunes vegaes, el ficheru índiz de la carpeta (.msf) fráñase y pue paecer que dalgunos mensaxes válidos desapaecen mentanto qu'otros desaniciaos siguen amosándose; iguar la carpeta pue correxir estos problemes.
 
 ## Retention tab (see retention.ftl)
 ##
