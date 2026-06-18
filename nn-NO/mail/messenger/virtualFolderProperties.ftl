@@ -18,6 +18,10 @@ virtual-folder-properties-title = Nytt lagra søk
 # Variables:
 #   $folderName (String): The name of the saved search folder.
 virtual-folder-properties-edit-title = Rediger lagra søk «{ $folderName }»
+virtual-folder-name = Namn:
+    .accesskey = N
+virtual-folder-description = Opprett som undermappe av:
+    .accesskey = O
 virtual-folder-folder-selection-caption = Vel mapper å søkja i:
 virtual-folder-choose-folders-button =
     .label = Vel…
@@ -25,6 +29,7 @@ virtual-folder-choose-folders-button =
 virtual-folder-search-online =
     .label = Søk på ekstern tenar kvar gong (gjer at det tek lengre tid å opne mappa).
     .accesskey = t
+virtual-folder-search-term-caption = Vel søkekriteria for dette søket:
 virtual-folder-accept-button-create =
     .label = Opprett
     .accesskey = r
@@ -35,3 +40,5 @@ virtual-folder-accept-button-update =
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
 
+virtual-folder-list-title = Vel mappe(r)
+virtual-folder-list-desc = Vel mapper å søka i:
