@@ -14,7 +14,15 @@ virtual-folder-sources-chosen =
         [few] Wybrano { $count } foldery
        *[many] Wybrano { $count } folderów
     }
+virtual-folder-no-search-folders-selected = Należy wybrać przynajmniej jeden folder do przeszukiwania.
 virtual-folder-properties-title = Nowy folder wyszukiwania
+# Variables:
+#   $folderName (String): The name of the saved search folder.
+virtual-folder-properties-edit-title = Edytuj właściwości folderu wyszukiwania { $folderName }
+virtual-folder-name = Nazwa:
+    .accesskey = N
+virtual-folder-description = Utwórz jako podfolder:
+    .accesskey = r
 virtual-folder-folder-selection-caption = Wybierz foldery do przeszukiwania:
 virtual-folder-choose-folders-button =
     .label = Wybierz…
@@ -33,3 +41,5 @@ virtual-folder-accept-button-update =
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
 
+virtual-folder-list-title = Wybierz folder(y)
+virtual-folder-list-desc = Wybierz foldery do przeszukiwania:
