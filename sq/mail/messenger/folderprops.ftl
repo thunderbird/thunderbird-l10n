@@ -3,8 +3,68 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## General Information tab
+
+folder-props-name =
+    .value = Emër:
+    .accesskey = E
+folder-props-color =
+    .value = Ngjyrë Ikonash:
+    .accesskey = I
+folder-props-reset-color =
+    .tooltiptext = Rikthe ngjyrën parazgjedhje
+folder-props-location =
+    .value = Vendndodhje:
+    .accesskey = V
+folder-props-number-of-messages =
+    .value = Numër mesazhesh:
+folder-props-number-unknown =
+    .value = i panjohur
+folder-props-size-on-disk =
+    .value = Madhësi në disk:
+folder-props-size-unknown =
+    .value = e panjohur
+folder-props-check-for-new-messages =
+    .label = Kur merren mesazhe të rinj për këtë llogari, kontrolloje përherë këtë dosje
+    .accesskey = K
+
+## Retention tab (see retention.ftl)
+##
+## Synchronization tab
+
+folder-props-synchronization-tab =
+    .label = Njëkohësim
+folder-props-select-for-offline =
+    .label = Përzgjidheni këtë dosje për përdorim jashtë linje
+    .accesskey = P
+folder-props-download-now =
+    .label = Shkarkoje Tani
+    .accesskey = S
+folder-props-select-newsgroup-for-offline =
+    .label = Përzgjidheni këtë grup lajmesh për jashtë linje
+    .accesskey = P
+folder-props-download-newsgroup-now =
+    .label = Shkarkoje Tani
+    .accesskey = S
+
+## Sharing tab
+
+folder-props-sharing-tab =
+    .label = Përndarje
+folder-props-privileges =
+    .label = Privilegje…
+    .accesskey = P
+folder-props-permissions =
+    .value = Keni lejet vijuese:
+folder-props-other-users =
+    .value = Të tjerë me hyrje në këtë dosje:
+folder-props-type =
+    .value = Lloj Dosjeje:
+
 ## Quota tab
 
 # Variables:
 #   $percent (Number) - Usage percentage of the assigned IMAP quota.
 quota-percent-used = { $percent }% plot
+folder-props-quota-tab =
+    .label = Kuota
