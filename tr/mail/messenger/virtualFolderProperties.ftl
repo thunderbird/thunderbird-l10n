@@ -13,6 +13,7 @@ virtual-folder-sources-chosen =
         [one] { $count } klasör seçildi
        *[other] { $count } klasör seçildi
     }
+virtual-folder-no-search-folders-selected = Kayıtlı arama klasörü araması yapmak için en az bir klasör seçmelisiniz.
 virtual-folder-choose-folders-button =
     .label = Seçin…
     .accesskey = S
