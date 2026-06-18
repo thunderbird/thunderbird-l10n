@@ -2,9 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+folder-props-window-title = პარამეტრები
 
 ## General Information tab
 
+folder-props-general-tab =
+    .label = ზოგადი ინფორმაცია
 folder-props-name =
     .value = სახელი:
     .accesskey = N
@@ -24,9 +27,17 @@ folder-props-size-on-disk =
     .value = ადგილი დისკზე:
 folder-props-size-unknown =
     .value = უცნობია
+folder-props-rebuild-summary =
+    .label = საქაღალდის აღდგენა
+    .accesskey = R
+    .tooltiptext = შეჯამების ფაილის ხელახლა ინდექსაცია
+folder-props-include-in-global-search =
+    .label = ამ საქაღალდის წერილების გათვალისწინება გლობალური ძიების შედეგებში
+    .accesskey = G
 folder-props-check-for-new-messages =
     .label = ამ საქაღალდის ახალ წერილებზე შემოწმება
     .accesskey = c
+folder-props-rebuild-summary-explanation = ზოგჯერ საქაღალდის ინდექსის (.msf) ფაილი ზიანდება და წერილები შესაძლოა არ აისახოს ან აისახოს წაშლილად; საქაღალდის აღდგენამ შესაძლოა მოხსნას ეს პრობლემა.
 
 ## Retention tab (see retention.ftl)
 ##
