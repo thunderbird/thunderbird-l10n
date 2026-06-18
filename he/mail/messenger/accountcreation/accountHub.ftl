@@ -7,21 +7,6 @@
 ### Account hub is where user can setup new accounts in Thunderbird.
 
 
-## Header
-
-
-## Footer
-
-
-## Initial setup page
-
-
-## Email page
-
-
-## Incoming/Outgoing authentication method options
-
-
 ## Incoming/Outgoing connection security options
 
 account-hub-name-warning-icon =

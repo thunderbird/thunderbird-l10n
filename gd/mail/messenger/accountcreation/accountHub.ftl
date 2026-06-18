@@ -45,9 +45,6 @@ account-hub-email-back-button = Air ais
 account-hub-email-continue-button = Lean air adhart
 account-hub-email-confirm-button = Dearbh
 
-## Incoming/Outgoing authentication method options
-
-
 ## Incoming/Outgoing connection security options
 
 account-hub-name-warning-icon =
