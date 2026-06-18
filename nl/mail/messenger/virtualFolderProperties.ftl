@@ -18,6 +18,10 @@ virtual-folder-properties-title = Nieuwe virtuele zoekmap
 # Variables:
 #   $folderName (String): The name of the saved search folder.
 virtual-folder-properties-edit-title = Eigenschappen van opgeslagen zoekopdracht voor { $folderName } bewerken
+virtual-folder-name = Naam:
+    .accesskey = N
+virtual-folder-description = Maken als een submap van:
+    .accesskey = M
 virtual-folder-folder-selection-caption = Selecteer de te doorzoeken mappen:
 virtual-folder-choose-folders-button =
     .label = Kiezen…
@@ -36,3 +40,5 @@ virtual-folder-accept-button-update =
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
 
+virtual-folder-list-title = Map(pen) selecteren
+virtual-folder-list-desc = Selecteer de mappen om te doorzoeken:
