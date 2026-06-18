@@ -13,6 +13,7 @@ virtual-folder-sources-chosen =
         [one] { $count } избрана папка
        *[other] { $count } избрани папки
     }
+virtual-folder-no-search-folders-selected = Трябва да изберете поне една папка, за да откриете запазеното търсене.
 virtual-folder-folder-selection-caption = Изберете папки, в които да се търси:
 virtual-folder-search-term-caption = Конфигуриране на критерий за търсене:
 
