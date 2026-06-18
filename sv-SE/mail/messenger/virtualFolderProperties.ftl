@@ -13,7 +13,11 @@ virtual-folder-sources-chosen =
         [one] { $count } mapp vald
        *[other] { $count } mappar valda
     }
+virtual-folder-no-search-folders-selected = Du måste välja minst en mapp att söka i för mappen för den sparade sökningen.
 virtual-folder-properties-title = Ny mapp för sparad sökning
+# Variables:
+#   $folderName (String): The name of the saved search folder.
+virtual-folder-properties-edit-title = Redigera egenskaperna för den sparade sökningen { $folderName }
 
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
