@@ -17,6 +17,8 @@ virtual-folder-sources-chosen =
         [many] { $count } مجلدا محددا
        *[other] { $count } مجلد محدد
     }
+virtual-folder-no-search-folders-selected = يجب أن تختار على الأقل مجلدا واحد لتبحث عن مجلد البحث المحفوظ.
+virtual-folder-properties-title = مجلد البحث المحفوظ الجديد
 # Variables:
 #   $folderName (String): The name of the saved search folder.
 virtual-folder-properties-edit-title = حرّر خصائص البحث المحفوظ لـ { $folderName }
