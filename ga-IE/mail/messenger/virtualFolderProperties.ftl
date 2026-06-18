@@ -17,6 +17,18 @@ virtual-folder-sources-chosen =
        *[other] { $count } fillteán roghnaithe
     }
 virtual-folder-properties-title = Fillteán Nua Cuardaigh Shábháilte
+# Variables:
+#   $folderName (String): The name of the saved search folder.
+virtual-folder-properties-edit-title = Cuir Airíonna an Chuardaigh Shábháilte do { $folderName } in Eagar
+virtual-folder-search-online =
+    .label = Cuardach ar líne (beidh na torthaí cothrom le dáta le haghaidh fillteán IMAP agus Nuachta ach beidh oscailt an fhillteáin níos moille)
+    .accesskey = C
+virtual-folder-accept-button-create =
+    .label = Cruthaigh
+    .accesskey = r
+virtual-folder-accept-button-update =
+    .label = Nuashonraigh
+    .accesskey = u
 
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
