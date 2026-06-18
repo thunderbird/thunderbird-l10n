@@ -3,7 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 charset-utf-8 = Unicode (UTF-8)
+charset-big5 = Chinês tradicional (Big5)
 charset-euc-kr = Coreano (EUC-KR)
+charset-gbk = Chinês simplificado (GBK)
 charset-koi8-r = Cirílico (KOI8-R)
 charset-iso-2022-jp = Japonês (ISO-2022-JP)
 charset-iso-8859-7 = Grego (ISO-8859-7)
