@@ -13,6 +13,7 @@ virtual-folder-sources-chosen =
         [one] { $count } carpeta seleccionada
        *[other] { $count } carpetes seleccionades
     }
+virtual-folder-no-search-folders-selected = Heu de triar com a mínim una carpeta per cercar per a la carpeta de cerca desada.
 virtual-folder-properties-title = Carpeta de cerca desada nova
 # Variables:
 #   $folderName (String): The name of the saved search folder.
