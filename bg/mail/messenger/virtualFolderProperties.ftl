@@ -18,6 +18,10 @@ virtual-folder-properties-title = Нова папка за запазени тъ
 # Variables:
 #   $folderName (String): The name of the saved search folder.
 virtual-folder-properties-edit-title = Промяна свойствата на запазено търсене { $folderName }
+virtual-folder-name = Име:
+    .accesskey = И
+virtual-folder-description = Създаване като подпапка на:
+    .accesskey = С
 virtual-folder-folder-selection-caption = Изберете папки, в които да се търси:
 virtual-folder-choose-folders-button =
     .label = Избиране…
@@ -36,3 +40,5 @@ virtual-folder-accept-button-update =
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
 
+virtual-folder-list-title = Избор на папка(и)
+virtual-folder-list-desc = Изберете папки за търсене:
