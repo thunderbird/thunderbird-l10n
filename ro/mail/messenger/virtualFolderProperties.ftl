@@ -14,7 +14,20 @@ virtual-folder-sources-chosen =
         [few] { $count } dosare alese
        *[other] { $count } dosare alese
     }
+virtual-folder-no-search-folders-selected = Trebuie să alegi cel puțin un dosar în care să cauți pentru fișierele salvate.
 virtual-folder-properties-title = Dosar nou pentru o căutare salvată
+virtual-folder-choose-folders-button =
+    .label = Alege…
+    .accesskey = h
+virtual-folder-search-online =
+    .label = Caută online (rezultatele sunt obținute de pe server pentru dosare IMAP și Știri dar timpul de deschidere al dosarului crește)
+    .accesskey = s
+virtual-folder-accept-button-create =
+    .label = Creează
+    .accesskey = r
+virtual-folder-accept-button-update =
+    .label = Actualizează
+    .accesskey = u
 
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
