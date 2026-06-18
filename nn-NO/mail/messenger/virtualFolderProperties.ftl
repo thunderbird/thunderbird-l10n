@@ -19,6 +19,9 @@ virtual-folder-properties-title = Nytt lagra søk
 #   $folderName (String): The name of the saved search folder.
 virtual-folder-properties-edit-title = Rediger lagra søk «{ $folderName }»
 virtual-folder-folder-selection-caption = Vel mapper å søkja i:
+virtual-folder-choose-folders-button =
+    .label = Vel…
+    .accesskey = V
 
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
