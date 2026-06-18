@@ -9,6 +9,13 @@
 # Variables:
 #   $count - number of chosen folders
 virtual-folder-sources-chosen = 選擇了 { $count } 個信件匣
+virtual-folder-no-search-folders-selected = 請先選取至少一個信件匣，才能建立即時搜尋信件匣。
+# Variables:
+#   $folderName (String): The name of the saved search folder.
+virtual-folder-properties-edit-title = 編輯即時搜尋 { $folderName } 的設定
+virtual-folder-choose-folders-button =
+    .label = 選擇…
+    .accesskey = h
 virtual-folder-search-online =
     .label = 線上即時搜尋（可取得 IMAP 與新聞群組中最新的內容，不過開啟信件匣時會比較慢）
     .accesskey = S
