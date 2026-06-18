@@ -14,12 +14,14 @@ virtual-folder-sources-chosen =
        *[other] { $count } cartelle selezionate
     }
 virtual-folder-properties-title = Cartella ricerca appena salvata
+virtual-folder-folder-selection-caption = Selezionare le cartelle in cui cercare:
 virtual-folder-choose-folders-button =
     .label = Scegli…
     .accesskey = c
 virtual-folder-search-online =
     .label = Ricerca in linea (fornisce risultati aggiornati per le cartelle IMAP o di news ma aumenta il tempo necessario per aprire la cartella)
     .accesskey = S
+virtual-folder-search-term-caption = Configurare il criterio di ricerca utilizzato per questa cartella di ricerca salvata:
 virtual-folder-accept-button-create =
     .label = Creare
     .accesskey = r
