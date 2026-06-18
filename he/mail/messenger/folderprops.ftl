@@ -2,9 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+folder-props-window-title = מאפיינים
 
 ## General Information tab
 
+folder-props-general-tab =
+    .label = מידע כללי
 folder-props-name =
     .value = שם:
     .accesskey = ש
@@ -24,9 +27,17 @@ folder-props-size-on-disk =
     .value = גודל בכונן:
 folder-props-size-unknown =
     .value = לא ידוע
+folder-props-rebuild-summary =
+    .label = תקן תיקייה
+    .accesskey = ת
+    .tooltiptext = בנה מחדש תקציר קובץ אינדקס
+folder-props-include-in-global-search =
+    .label = כלול הודעות מתיקייה זו בתוצאות החיפוש הגלובליות
+    .accesskey = ג
 folder-props-check-for-new-messages =
     .label = כאשר מקבלים הודעות חדשות לחשבון, בדוק תמיד תיקייה זו
     .accesskey = ב
+folder-props-rebuild-summary-explanation = לעיתים נפגם קובץ האינדקס של תיקייה (.msf) והודעות עשויות להיעלם או שהודעות שנמחקו תמשכנה להופיע; תיקון התיקייה עשוי לתקן מקרים אלו.
 
 ## Retention tab (see retention.ftl)
 ##
