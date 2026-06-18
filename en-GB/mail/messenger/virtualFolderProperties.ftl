@@ -18,7 +18,27 @@ virtual-folder-properties-title = New Saved Search Folder
 # Variables:
 #   $folderName (String): The name of the saved search folder.
 virtual-folder-properties-edit-title = Edit Saved Search Properties for { $folderName }
+virtual-folder-name = Name:
+    .accesskey = N
+virtual-folder-description = Create as a subfolder of:
+    .accesskey = C
+virtual-folder-folder-selection-caption = Select the folders to search:
+virtual-folder-choose-folders-button =
+    .label = Choose…
+    .accesskey = h
+virtual-folder-search-online =
+    .label = Search Online (Gives up-to-date results for IMAP and News folders but increases time to open the folder)
+    .accesskey = S
+virtual-folder-search-term-caption = Configure the search criteria used for this saved search folder:
+virtual-folder-accept-button-create =
+    .label = Create
+    .accesskey = r
+virtual-folder-accept-button-update =
+    .label = Update
+    .accesskey = U
 
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
 
+virtual-folder-list-title = Select Folder(s)
+virtual-folder-list-desc = Select the folders to search:
