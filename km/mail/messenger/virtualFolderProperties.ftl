@@ -9,7 +9,11 @@
 # Variables:
 #   $count - number of chosen folders
 virtual-folder-sources-chosen = បាន​ជ្រើស { $count } ថត
+virtual-folder-no-search-folders-selected = អ្នក​ត្រូវ​តែ​ជ្រើស​ថត​យ៉ាងហោចណាស់​មួយ ដើម្បី​ស្វែងរក​ថត​ដែល​បាន​រក្សាទុក។
 virtual-folder-properties-title = Նոր պահպանված փնտրվող թղթապանակը.
+# Variables:
+#   $folderName (String): The name of the saved search folder.
+virtual-folder-properties-edit-title = កែ​សម្រួល​លក្ខណសម្បត្តិ​​ការស្វែងរក​ដែល​បាន​រក្សាទុក​សម្រាប់ { $folderName }
 
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
