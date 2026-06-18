@@ -2,9 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+folder-props-window-title = Sifat
 
 ## General Information tab
 
+folder-props-general-tab =
+    .label = Maklumat Umum
 folder-props-name =
     .value = Nama:
     .accesskey = N
@@ -19,9 +22,17 @@ folder-props-size-on-disk =
     .value = Saiz dalam cakera:
 folder-props-size-unknown =
     .value = tidak diketahui
+folder-props-rebuild-summary =
+    .label = Pembaikan Folder
+    .accesskey = P
+    .tooltiptext = Bina semula Indeks Fail Ringkasan
+folder-props-include-in-global-search =
+    .label = Sertakan mesej yang ada dalam folder ini dalam hasil Carian Global
+    .accesskey = G
 folder-props-check-for-new-messages =
     .label = Apabila mendapatkan mesej baru untuk akaun ini, sentiasa semak folder ini
     .accesskey = s
+folder-props-rebuild-summary-explanation = Kadang-kala folder fail indeks (.msf) menjadi rosak, dan mesej mungkin nampak seperti sudah hilang atau mesej yang sudah dibuang akan terus dipaparkan; oleh itu tindakan membaiki folder dapat mengatasi isu ini.
 
 ## Retention tab (see retention.ftl)
 ##
