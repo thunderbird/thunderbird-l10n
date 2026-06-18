@@ -2,9 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+folder-props-window-title = Kajkosće
 
 ## General Information tab
 
+folder-props-general-tab =
+    .label = Powšitkowne informacije
 folder-props-name =
     .value = Mjeno:
     .accesskey = M
@@ -24,9 +27,17 @@ folder-props-size-on-disk =
     .value = Wulkosć na tačeli:
 folder-props-size-unknown =
     .value = njeznata
+folder-props-rebuild-summary =
+    .label = Rjadowak porjedźić
+    .accesskey = R
+    .tooltiptext = Indeks zjimanskeje dataje zaso natwarić
+folder-props-include-in-global-search =
+    .label = Powěsće z tutoho rjadowaka do wuslědkow globalneho pytanja zapřijeć
+    .accesskey = P
 folder-props-check-for-new-messages =
     .label = Při přijeću nowych powěsćow za tute konto, přepruwujće přeco tutón rjadowak
     .accesskey = P
+folder-props-rebuild-summary-explanation = Druhdy so dataja rjadowakoweho indeksa (.msf) so poškodźa a powěsće móhli so zhubić abo zhašene powěsće so dale pokazuja; porjedźenje rjadowaka móže tute problemy wotstronić.
 
 ## Retention tab (see retention.ftl)
 ##
