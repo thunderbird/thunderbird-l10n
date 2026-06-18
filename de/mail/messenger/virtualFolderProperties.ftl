@@ -18,7 +18,27 @@ virtual-folder-properties-title = Neuer virtueller Ordner
 # Variables:
 #   $folderName (String): The name of the saved search folder.
 virtual-folder-properties-edit-title = Virtuellen Ordner { $folderName } bearbeiten
+virtual-folder-name = Name des virtuellen Ordners:
+    .accesskey = N
+virtual-folder-description = Erstellen als Unterordner von:
+    .accesskey = s
+virtual-folder-folder-selection-caption = Diese Ordner durchsuchen:
+virtual-folder-choose-folders-button =
+    .label = Auswählen…
+    .accesskey = h
+virtual-folder-search-online =
+    .label = Online suchen (Aktuelle Ergebnisse bei IMAP- und News-Konten - Öffnen des virtuellen Ordners dauert länger)
+    .accesskey = O
+virtual-folder-search-term-caption = Kriterien für die Suche dieses virtuellen Ordners:
+virtual-folder-accept-button-create =
+    .label = Erstellen
+    .accesskey = E
+virtual-folder-accept-button-update =
+    .label = Aktualisieren
+    .accesskey = A
 
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
 
+virtual-folder-list-title = Ordner auswählen
+virtual-folder-list-desc = Diese Ordner durchsuchen:
