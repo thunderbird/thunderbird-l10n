@@ -14,6 +14,10 @@ virtual-folder-properties-title = 新建即时搜索文件夹
 # Variables:
 #   $folderName (String): The name of the saved search folder.
 virtual-folder-properties-edit-title = 编辑即时搜索 { $folderName } 的属性
+virtual-folder-name = 名称：
+    .accesskey = N
+virtual-folder-description = 在所选文件夹下创建子文件夹：
+    .accesskey = C
 virtual-folder-folder-selection-caption = 选择要搜索的文件夹：
 virtual-folder-choose-folders-button =
     .label = 选择…
@@ -32,3 +36,5 @@ virtual-folder-accept-button-update =
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
 
+virtual-folder-list-title = 选择文件夹
+virtual-folder-list-desc = 选择要搜索的文件夹：
