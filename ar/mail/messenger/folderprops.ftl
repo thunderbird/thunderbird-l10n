@@ -2,9 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+folder-props-window-title = الخصائص
 
 ## General Information tab
 
+folder-props-general-tab =
+    .label = معلومات عامة
 folder-props-name =
     .value = الاسم:
     .accesskey = س
@@ -19,9 +22,17 @@ folder-props-size-on-disk =
     .value = الحجم على القرص:
 folder-props-size-unknown =
     .value = غير معروف
+folder-props-rebuild-summary =
+    .label = أصلِح المجلد
+    .accesskey = ص
+    .tooltiptext = أعد بناء فهرس ملف الملخص
+folder-props-include-in-global-search =
+    .label = ضمّن رسائل هذا المجلد في نتائج البحث العمومي
+    .accesskey = ث
 folder-props-check-for-new-messages =
     .label = عند الحصول على رسائل جديدة، تحقق من هذا المجلد دائمًا
     .accesskey = ق
+folder-props-rebuild-summary-explanation = في بعض الأحيان، ملف فهرس المجلد (.msf) يتضرّر مما يؤدي إلى اختفاء بعض الرسائل أو ظهور الرسائل المحذوفة بعد حذفها. إصلاح المجلد قد يحلّ هذه المشكلات.
 
 ## Retention tab (see retention.ftl)
 ##
