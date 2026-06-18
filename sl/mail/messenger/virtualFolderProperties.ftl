@@ -16,6 +16,9 @@ virtual-folder-sources-chosen =
        *[other] Izbranih { $count } map
     }
 virtual-folder-properties-title = Nova mapa za shranjeno iskanje
+# Variables:
+#   $folderName (String): The name of the saved search folder.
+virtual-folder-properties-edit-title = Uredi lastnosti za shranjena iskanja za { $folderName }
 
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
