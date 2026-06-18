@@ -14,6 +14,14 @@ virtual-folder-sources-chosen =
        *[other] { $count } mappa kiválasztva
     }
 virtual-folder-properties-title = Új mentett keresés mappa
+# Variables:
+#   $folderName (String): The name of the saved search folder.
+virtual-folder-properties-edit-title = A(z) { $folderName } mentett keresései tulajdonságainak szerkesztése
+virtual-folder-folder-selection-caption = Keresés a következő mappákban:
+virtual-folder-choose-folders-button =
+    .label = Tallózás…
+    .accesskey = T
+virtual-folder-search-term-caption = A mentett keresés keresési feltételének beállítása:
 
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
