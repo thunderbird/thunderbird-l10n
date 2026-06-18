@@ -14,6 +14,7 @@ virtual-folder-sources-chosen =
         [two] { $count } a deuliadoù dibabet
        *[other] { $count } a deuliadoù dibabet
     }
+virtual-folder-no-search-folders-selected = Ret eo deoc'h dibab un teuliad da vihanañ da glask an teuliad klask enrollet.
 virtual-folder-properties-title = Teuliad klask nevez enrollet
 # Variables:
 #   $folderName (String): The name of the saved search folder.
