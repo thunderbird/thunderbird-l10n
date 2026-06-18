@@ -2,9 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+folder-props-window-title = Својства
 
 ## General Information tab
 
+folder-props-general-tab =
+    .label = Општи подаци
 folder-props-name =
     .value = Име:
     .accesskey = И
@@ -24,9 +27,17 @@ folder-props-size-on-disk =
     .value = Величина на диску:
 folder-props-size-unknown =
     .value = непозната
+folder-props-rebuild-summary =
+    .label = Поправи фасциклу
+    .accesskey = р
+    .tooltiptext = Изгради садржај резиме датотеке
+folder-props-include-in-global-search =
+    .label = Укључи поруке у овој фасцикли у резултате глобалне претраге
+    .accesskey = г
 folder-props-check-for-new-messages =
     .label = Приликом добијања нових порука на овом налогу, увек провери ову фасциклу
     .accesskey = ј
+folder-props-rebuild-summary-explanation = Понекад се датотека са садржајем фасцикле (.msf) оштети и онда поруке могу изгледати као да су нестале или се обрисане поруке појаве. Поправка фасцикле може оправити ове грешке.
 
 ## Retention tab (see retention.ftl)
 ##
