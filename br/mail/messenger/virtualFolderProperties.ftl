@@ -19,6 +19,18 @@ virtual-folder-properties-title = Teuliad klask nevez enrollet
 # Variables:
 #   $folderName (String): The name of the saved search folder.
 virtual-folder-properties-edit-title = Embann perzhioù ar c'hlask enrollet evit { $folderName }
+virtual-folder-name = Anv :
+    .accesskey = A
+virtual-folder-description = Krouiñ evel isteuliad unan all :
+    .accesskey = s
+virtual-folder-folder-selection-caption = Diuzañ an teuliadoù da glask :
+virtual-folder-choose-folders-button =
+    .label = Diuzañ…
+    .accesskey = D
+virtual-folder-search-online =
+    .label = Klask enlinenn (Reiñ a ra disoc'hoù eus ar gwellañ evit IMAP ha teuliadoù ar c'heleier met brasaet e vo an amzer da zigeriñ an teuliad)
+    .accesskey = e
+virtual-folder-search-term-caption = Kefluniañ an dezverkoù enklask implijet evit an teuliad enklask enrollet-se :
 virtual-folder-accept-button-create =
     .label = Krouiñ
     .accesskey = K
@@ -29,3 +41,5 @@ virtual-folder-accept-button-update =
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
 
+virtual-folder-list-title = Diuzañ teuliad(où)
+virtual-folder-list-desc = Diuzit an teuliadoù ma vo graet ar c'hlask enno :
