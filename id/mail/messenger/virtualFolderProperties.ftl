@@ -9,6 +9,7 @@
 # Variables:
 #   $count - number of chosen folders
 virtual-folder-sources-chosen = folder { $count } dipilih
+virtual-folder-no-search-folders-selected = Paling tidak satu folder harus dipilih untuk dicari sebagai folder pencarian simpanan.
 virtual-folder-properties-title = Folder Pencarian Tersimpan Baru
 virtual-folder-folder-selection-caption = Pilih folder untuk dicari:
 virtual-folder-choose-folders-button =
