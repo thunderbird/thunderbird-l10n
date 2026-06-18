@@ -2,9 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+folder-props-window-title = Propietateak
 
 ## General Information tab
 
+folder-props-general-tab =
+    .label = Argibide orokorrak
 folder-props-name =
     .value = Izena:
     .accesskey = I
@@ -24,9 +27,17 @@ folder-props-size-on-disk =
     .value = Tamaina diskoan:
 folder-props-size-unknown =
     .value = ezezaguna
+folder-props-rebuild-summary =
+    .label = Konpondu karpeta
+    .accesskey = K
+    .tooltiptext = Berreraiki laburpen-fitxategiaren indizea
+folder-props-include-in-global-search =
+    .label = Sartu karpeta honetako mezuak bilaketa globalaren emaitzetan
+    .accesskey = g
 folder-props-check-for-new-messages =
     .label = Kontu honetarako mezu berriak eskuratzean, egiaztatu beti karpeta hau
     .accesskey = K
+folder-props-rebuild-summary-explanation = Batzutan karpetaren indize-fitxategia (.msf) kaltetu egiten da eta mezuak faltan daudela edo ezabatutako mezuak oraindik erakusten direla eman lezake; karpeta konpontzeak arazo hauek desagerraraz ditzake.
 
 ## Retention tab (see retention.ftl)
 ##
