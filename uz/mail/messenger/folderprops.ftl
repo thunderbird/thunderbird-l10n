@@ -2,9 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+folder-props-window-title = Xossalari
 
 ## General Information tab
 
+folder-props-general-tab =
+    .label = Umumiy ma’lumot
 folder-props-name =
     .value = Nomi:
     .accesskey = N
@@ -19,9 +22,17 @@ folder-props-size-on-disk =
     .value = Disk sig‘imi:
 folder-props-size-unknown =
     .value = noma’lum
+folder-props-rebuild-summary =
+    .label = Tuzatish jildi
+    .accesskey = T
+    .tooltiptext = Xulosa fayli indeksini qayta tuzish
+folder-props-include-in-global-search =
+    .label = Xalqaro qidiruv natijalari ichidagi bu jilldagi xabarlarni qo‘shish
+    .accesskey = X
 folder-props-check-for-new-messages =
     .label = Bu hisob uchun yangi xabarlar olganingizda, doimo mana bu jildni tekshiring
     .accesskey = c
+folder-props-rebuild-summary-explanation = Ba’zida jild indeks (.msf) fayli buzilgan bo‘ladi va xabarlar yo‘q deb ko‘rsatiladi yoki o‘chirilgan fayllarni ko‘rsatishda davom etadi. Jildni tuzatishdan foydalansangiz, bu muammolar bartarf etilishi mumkin.
 
 ## Retention tab (see retention.ftl)
 ##
