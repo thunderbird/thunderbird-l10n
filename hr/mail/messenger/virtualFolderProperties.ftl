@@ -14,6 +14,7 @@ virtual-folder-sources-chosen =
         [few] { $count } mape odabrane
        *[other] { $count } mapa odabrano
     }
+virtual-folder-no-search-folders-selected = Morate odabrati najmanje jednu mapu za traženje spremljene mape pretrage.
 virtual-folder-properties-title = Novo spremljene mape za pretraživanje
 # Variables:
 #   $folderName (String): The name of the saved search folder.
