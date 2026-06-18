@@ -2,9 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+folder-props-window-title = Propietats
 
 ## General Information tab
 
+folder-props-general-tab =
+    .label = Informació general
 folder-props-name =
     .value = Nom:
     .accesskey = N
@@ -24,9 +27,17 @@ folder-props-size-on-disk =
     .value = Mida al disc:
 folder-props-size-unknown =
     .value = desconegut
+folder-props-rebuild-summary =
+    .label = Repara la carpeta
+    .accesskey = R
+    .tooltiptext = Reconstrueix l'índex del fitxer resum
+folder-props-include-in-global-search =
+    .label = Inclou els missatges d'aquesta carpeta als resultats de la Cerca global
+    .accesskey = g
 folder-props-check-for-new-messages =
     .label = Quan miris si hi ha missatges nous per aquest compte, comprova sempre aquesta carpeta
     .accesskey = c
+folder-props-rebuild-summary-explanation = De vegades el fitxer de l'índex de la carpeta (.msf) s'espatlla i els missatges sembla que es perdin o bé els missatges esborrats tornen a aparèixer; si es repara la carpeta potser que s'arreglin aquests problemes.
 
 ## Retention tab (see retention.ftl)
 ##
