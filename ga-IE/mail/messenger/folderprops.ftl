@@ -2,9 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+folder-props-window-title = Airíonna
 
 ## General Information tab
 
+folder-props-general-tab =
+    .label = Eolas Ginearálta
 folder-props-name =
     .value = Ainm:
     .accesskey = n
@@ -19,9 +22,17 @@ folder-props-size-on-disk =
     .value = Méid ar an diosca:
 folder-props-size-unknown =
     .value = anaithnid
+folder-props-rebuild-summary =
+    .label = Deisigh an Fillteán
+    .accesskey = D
+    .tooltiptext = Atóg an Comhad Achoimre
+folder-props-include-in-global-search =
+    .label = Cuir teachtaireachtaí as an bhfillteán seo san áireamh sa Chuardach Cuimsitheach
+    .accesskey = C
 folder-props-check-for-new-messages =
     .label = Seiceáil an fillteán seo i gcónaí agus teachtaireachtaí nua á bhfáil don chuntas seo
     .accesskey = c
+folder-props-rebuild-summary-explanation = Uaireanta, déantar dochar don chomhad innéacs (.msf) san fhillteán sa chaoi nach bhfeicfidh tú teachtaireachtaí áirithe agus feicfidh tú cinn eile tar éis dóibh a bheith scriosta.  Is féidir na fadhbanna seo a réiteach tríd an fillteán a dheisiú.
 
 ## Retention tab (see retention.ftl)
 ##
