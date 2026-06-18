@@ -19,9 +19,18 @@ virtual-folder-properties-title = Nová složka uloženého hledání
 # Variables:
 #   $folderName (String): The name of the saved search folder.
 virtual-folder-properties-edit-title = Upravit vlastnosti uloženého hledání pro { $folderName }
+virtual-folder-name = Název:
+    .accesskey = N
+virtual-folder-description = Vytvořit jako podsložku v:
+    .accesskey = p
+virtual-folder-folder-selection-caption = Zvolte složky k prohledávání:
+virtual-folder-choose-folders-button =
+    .label = Vybrat…
+    .accesskey = b
 virtual-folder-search-online =
     .label = Hledat online (Vrací vždy aktuální výsledky u složek typu IMAP nebo Diskusní skupiny, ale zvyšuje čas potřebný k otevření složky)
     .accesskey = H
+virtual-folder-search-term-caption = Upravit vyhledávací kritéria používaná pro tuto virtuální složku:
 virtual-folder-accept-button-create =
     .label = Vytvořit
     .accesskey = t
@@ -32,3 +41,5 @@ virtual-folder-accept-button-update =
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
 
+virtual-folder-list-title = Volba složek
+virtual-folder-list-desc = Zvolte složky k prohledávání:
