@@ -16,6 +16,11 @@ virtual-folder-sources-chosen =
 # Variables:
 #   $folderName (String): The name of the saved search folder.
 virtual-folder-properties-edit-title = Editar propriedades da pesquisa guardada para { $folderName }
+virtual-folder-folder-selection-caption = Selecione as pastas a pesquisar:
+virtual-folder-choose-folders-button =
+    .label = Selecionar...
+    .accesskey = S
+virtual-folder-search-term-caption = Configurar critério de pesquisa utilizado para esta pesquisa guardada:
 
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
