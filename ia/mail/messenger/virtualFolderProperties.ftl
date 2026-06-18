@@ -13,6 +13,10 @@ virtual-folder-sources-chosen =
         [one] { $count } dossier seligite
        *[other] { $count } dossiers seligite
     }
+virtual-folder-properties-title = Nove dossier de recerca salvate
+virtual-folder-search-online =
+    .label = Cercar in linea (da resultatos actualisate pro dossiers IMAP e de gruppos ma augmenta le tempore necessari pro aperir le dossier)
+    .accesskey = S
 virtual-folder-accept-button-create =
     .label = Crear
     .accesskey = r
