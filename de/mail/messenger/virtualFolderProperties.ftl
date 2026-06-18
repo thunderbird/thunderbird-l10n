@@ -15,6 +15,9 @@ virtual-folder-sources-chosen =
     }
 virtual-folder-no-search-folders-selected = Sie müssen mindestens einen Ordner angeben, der durchsucht werden soll.
 virtual-folder-properties-title = Neuer virtueller Ordner
+# Variables:
+#   $folderName (String): The name of the saved search folder.
+virtual-folder-properties-edit-title = Virtuellen Ordner { $folderName } bearbeiten
 
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
