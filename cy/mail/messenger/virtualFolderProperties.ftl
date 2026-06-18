@@ -16,6 +16,13 @@ virtual-folder-sources-chosen =
     }
 virtual-folder-no-search-folders-selected = Rhaid dewis o leiaf un ffolder i chwilio am y ffolder chwilio a gadwyd.
 virtual-folder-properties-title = Ffolder Chwilio wedi'i Chadw Newydd
+# Variables:
+#   $folderName (String): The name of the saved search folder.
+virtual-folder-properties-edit-title = Golygu Priodweddau Chwilio a Gadwyd ar gyfer { $folderName }
+virtual-folder-name = Enw:
+    .accesskey = E
+virtual-folder-description = Creu fel is-ffolder o:
+    .accesskey = i
 virtual-folder-folder-selection-caption = Dewis ffolderi i'w chwilio:
 virtual-folder-choose-folders-button =
     .label = Dewis…
@@ -23,6 +30,7 @@ virtual-folder-choose-folders-button =
 virtual-folder-search-online =
     .label = Chwilio Ar-lein (Mae'n cynnig y canlyniadau diweddaraf ar ffolderi IMAP a Newyddion ond mae'n cymryd mwy o amser i agor y ffolder)
     .accesskey = A
+virtual-folder-search-term-caption = Ffurfweddu'r meini prawf chwilio ar gyfer y ffolder chwilio a gadwyd:
 virtual-folder-accept-button-create =
     .label = Creu
     .accesskey = r
@@ -33,3 +41,5 @@ virtual-folder-accept-button-update =
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
 
+virtual-folder-list-title = Dewis Ffolder(i)
+virtual-folder-list-desc = Dewis ffolderi i'w chwilio:
