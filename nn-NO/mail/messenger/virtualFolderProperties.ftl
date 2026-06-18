@@ -22,6 +22,15 @@ virtual-folder-folder-selection-caption = Vel mapper å søkja i:
 virtual-folder-choose-folders-button =
     .label = Vel…
     .accesskey = V
+virtual-folder-search-online =
+    .label = Søk på ekstern tenar kvar gong (gjer at det tek lengre tid å opne mappa).
+    .accesskey = t
+virtual-folder-accept-button-create =
+    .label = Opprett
+    .accesskey = r
+virtual-folder-accept-button-update =
+    .label = Oppdater
+    .accesskey = d
 
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
