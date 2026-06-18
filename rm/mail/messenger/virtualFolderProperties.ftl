@@ -18,7 +18,27 @@ virtual-folder-properties-title = Nov orinatur da tschertgas memorisadas
 # Variables:
 #   $folderName (String): The name of the saved search folder.
 virtual-folder-properties-edit-title = Modifitgar las caracteristicas da l'ordinatur virtual { $folderName }
+virtual-folder-name = Num:
+    .accesskey = N
+virtual-folder-description = Crear sco sutordinatur da:
+    .accesskey = C
+virtual-folder-folder-selection-caption = Tscherner ils ordinaturs per tschertgar:
+virtual-folder-choose-folders-button =
+    .label = Tschertgar en...
+    .accesskey = h
+virtual-folder-search-online =
+    .label = Tschertgar online (furnescha resultats actuals da contos dad IMAP e da novitads, ma dovra dapli temp per avrir l'ordinatur)
+    .accesskey = S
+virtual-folder-search-term-caption = Configurar ils criteris da tschertga per quest ordinatur da tschertgas memoridadas:
+virtual-folder-accept-button-create =
+    .label = Crear
+    .accesskey = r
+virtual-folder-accept-button-update =
+    .label = Actualisar
+    .accesskey = U
 
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
 
+virtual-folder-list-title = Tscherner ordinatur(s)
+virtual-folder-list-desc = Tscherner ils ordinaturs per tschertgar:
