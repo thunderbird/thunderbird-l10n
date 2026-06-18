@@ -6,7 +6,11 @@
 ## Strings for the virtual folder properties dialog, which is used for both
 ## creating and editing saved search folders.
 
+virtual-folder-no-search-folders-selected = Вы мусіце вылучыць, прынамсі, адну папку, каб шукаць з дапамогаю захаванай папкі пошуку.
 virtual-folder-properties-title = Новая папка захованага пошуку
+# Variables:
+#   $folderName (String): The name of the saved search folder.
+virtual-folder-properties-edit-title = Правіць захаваныя ўласцівасці пошуку { $folderName }
 
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
