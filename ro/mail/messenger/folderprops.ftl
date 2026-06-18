@@ -2,9 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+folder-props-window-title = Proprietăți
 
 ## General Information tab
 
+folder-props-general-tab =
+    .label = Informații generale
 folder-props-name =
     .value = Nume:
     .accesskey = N
@@ -24,9 +27,17 @@ folder-props-size-on-disk =
     .value = Spațiu pe disc:
 folder-props-size-unknown =
     .value = necunoscut
+folder-props-rebuild-summary =
+    .label = Repară dosarul
+    .accesskey = R
+    .tooltiptext = Reconstruiește indecșii fișierului de sumar
+folder-props-include-in-global-search =
+    .label = Include mesajele din acest dosar în rezultatele căutării globale
+    .accesskey = g
 folder-props-check-for-new-messages =
     .label = La descărcarea mesajelor pentru acest cont, verifică întotdeauna dosarul acesta
     .accesskey = c
+folder-props-rebuild-summary-explanation = Uneori fișierul index de dosar (.msf) se deteriorează și aparent lipsesc mesaje sau apar mesaje care au fost șterse; aceste probleme pot fi rezolvate prin repararea dosarului.
 
 ## Retention tab (see retention.ftl)
 ##
