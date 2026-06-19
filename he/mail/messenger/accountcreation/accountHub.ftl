@@ -7,6 +7,23 @@
 ### Account hub is where user can setup new accounts in Thunderbird.
 
 
+## Email page
+
+account-hub-result-authentication-none = ללא
+    .title = ללא
+account-hub-result-authentication-password = ססמה רגילה
+    .title = ססמה רגילה
+account-hub-result-authentication-encrypted-password = ססמה מוצפנת
+    .title = ססמה מוצפנת
+account-hub-result-authentication-gssapi = Kerberos
+    .title = Kerberos
+account-hub-result-authentication-ntlm = NTLM
+    .title = NTLM
+account-hub-result-authentication-external = חיצוני
+    .title = חיצוני
+account-hub-result-authentication-oauth2 = OAuth2
+    .title = OAuth2
+
 ## Incoming/Outgoing connection security options
 
 account-hub-name-warning-icon =

@@ -17,19 +17,19 @@ virtual-folder-no-search-folders-selected = עליך לבחור לפחות תי�
 virtual-folder-properties-title = תיקייה חדשה של חיפוש שמור
 # Variables:
 #   $folderName (String): The name of the saved search folder.
-virtual-folder-properties-edit-title = ערוך מאפייני חיפוש שמור עבור { $folderName }
+virtual-folder-properties-edit-title = עריכת מאפייני חיפוש שמור עבור { $folderName }
 virtual-folder-name = שם:
     .accesskey = ש
-virtual-folder-description = צור כתת־תיקייה של:
+virtual-folder-description = יצירה כתת־תיקייה של:
     .accesskey = ת
-virtual-folder-folder-selection-caption = בחר את התיקיות לחיפוש:
+virtual-folder-folder-selection-caption = בחירה בתיקיות לחיפוש:
 virtual-folder-choose-folders-button =
     .label = בחירה…
     .accesskey = ב
 virtual-folder-search-online =
-    .label = חפש באופן מקוון (נותן תוצאות מעודכנות עבור IMAP ותיקיות קבוצות דיון, אולם מגדיל את הזמן הדרוש לפתיחת התיקייה)
+    .label = חיפוש באופן מקוון (נותן תוצאות מעודכנות עבור IMAP ותיקיות קבוצות דיון, אולם מגדיל את הזמן הדרוש לפתיחת התיקייה)
     .accesskey = ח
-virtual-folder-search-term-caption = הגדר את קריטריון החיפוש שבשימוש עבור תיקיית חיפוש זו:
+virtual-folder-search-term-caption = הגדרת קריטריון החיפוש שבשימוש עבור תיקיית חיפוש זו:
 virtual-folder-accept-button-create =
     .label = יצירה
     .accesskey = י
@@ -40,5 +40,5 @@ virtual-folder-accept-button-update =
 ## The following are for the virtual folder list dialog, which is opened when
 ## the user clicks the "Choose..." button to select folders.
 
-virtual-folder-list-title = בחר תיקייה(ות)
-virtual-folder-list-desc = בחר את התיקיות לחיפוש:
+virtual-folder-list-title = בחירת תיקייה (או תיקיות)
+virtual-folder-list-desc = בחירת התיקיות לחיפוש:
