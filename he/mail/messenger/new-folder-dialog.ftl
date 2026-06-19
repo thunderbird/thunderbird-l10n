@@ -4,14 +4,14 @@
 
 new-folder-dialog-title = תיקייה חדשה
 new-folder-dialog-accept-button =
-    .buttonlabelaccept = צור תיקייה
+    .buttonlabelaccept = יצירת תיקייה
     .buttonaccesskeyaccept = ת
 new-folder-name-label = שם:
     .accesskey = ש
-new-folder-description-label = צור כתת־תיקייה של:
+new-folder-description-label = יצירה כתת־תיקייה של:
     .accesskey = ת
 new-folder-restriction-1 = שרת זה מגביל תיקיות לשני סוגים מיוחדים.
-new-folder-restriction-2 = הרשה לתיקייה החדשה שלך להכיל:
+new-folder-restriction-2 = לאפשר לתיקייה החדשה שלך להכיל:
 new-folder-folders-only =
     .label = תיקיות בלבד
 new-folder-messages-only =

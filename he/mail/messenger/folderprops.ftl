@@ -28,16 +28,16 @@ folder-props-size-on-disk =
 folder-props-size-unknown =
     .value = לא ידוע
 folder-props-rebuild-summary =
-    .label = תקן תיקייה
+    .label = תיקון תיקייה
     .accesskey = ת
-    .tooltiptext = בנה מחדש תקציר קובץ אינדקס
+    .tooltiptext = בנייה מחדש של אינדקס קובץ התקציר
 folder-props-include-in-global-search =
-    .label = כלול הודעות מתיקייה זו בתוצאות החיפוש הגלובליות
+    .label = לכלול הודעות מתיקייה זו בתוצאות החיפוש הגלובליות
     .accesskey = ג
 folder-props-check-for-new-messages =
-    .label = כאשר מקבלים הודעות חדשות לחשבון, בדוק תמיד תיקייה זו
+    .label = כאשר הודעות חדשות מתקבלות בחשבון זה, תמיד לבדוק תיקייה זו
     .accesskey = ב
-folder-props-rebuild-summary-explanation = לעיתים נפגם קובץ האינדקס של תיקייה (.msf) והודעות עשויות להיעלם או שהודעות שנמחקו תמשכנה להופיע; תיקון התיקייה עשוי לתקן מקרים אלו.
+folder-props-rebuild-summary-explanation = לעיתים נפגם קובץ האינדקס של תיקייה (‎.msf) והודעות עשויות להיעלם או שהודעות שנמחקו תמשכנה להופיע; תיקון התיקייה עשוי לתקן בעיות אלו.
 
 ## Retention tab (see retention.ftl)
 ##
@@ -46,16 +46,16 @@ folder-props-rebuild-summary-explanation = לעיתים נפגם קובץ האי
 folder-props-synchronization-tab =
     .label = סינכרון
 folder-props-select-for-offline =
-    .label = בחר תיקייה זו לשימוש לא־מקוון
+    .label = בחירה בתיקייה זו לשימוש לא־מקוון
     .accesskey = ש
 folder-props-download-now =
-    .label = הורד עכשיו
+    .label = הורדה כעת
     .accesskey = ה
 folder-props-select-newsgroup-for-offline =
-    .label = בחר קבוצת דיון זו לשימוש לא־מקוון
+    .label = בחירה בקבוצת דיון זו לשימוש לא־מקוון
     .accesskey = ש
 folder-props-download-newsgroup-now =
-    .label = הורד עכשיו
+    .label = הורדה כעת
     .accesskey = ה
 
 ## Sharing tab
@@ -63,10 +63,10 @@ folder-props-download-newsgroup-now =
 folder-props-sharing-tab =
     .label = שיתוף
 folder-props-privileges =
-    .label = הרשאות...
-    .accesskey = P
+    .label = הרשאות…
+    .accesskey = ה
 folder-props-permissions =
-    .value = ברשותך ההרשאות הבאות:
+    .value = יש לך את ההרשאות הבאות:
 folder-props-other-users =
     .value = אחרים עם גישה לתיקייה זו:
 folder-props-type =

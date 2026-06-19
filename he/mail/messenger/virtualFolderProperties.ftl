@@ -29,12 +29,12 @@ virtual-folder-choose-folders-button =
 virtual-folder-search-online =
     .label = חיפוש באופן מקוון (נותן תוצאות מעודכנות עבור IMAP ותיקיות קבוצות דיון, אולם מגדיל את הזמן הדרוש לפתיחת התיקייה)
     .accesskey = ח
-virtual-folder-search-term-caption = הגדרת קריטריון החיפוש שבשימוש עבור תיקיית חיפוש זו:
+virtual-folder-search-term-caption = הגדרת קריטריון החיפוש שבשימוש עבור תיקיית חיפוש השמור הזו:
 virtual-folder-accept-button-create =
     .label = יצירה
     .accesskey = י
 virtual-folder-accept-button-update =
-    .label = עדכונים
+    .label = עדכון
     .accesskey = ע
 
 ## The following are for the virtual folder list dialog, which is opened when
