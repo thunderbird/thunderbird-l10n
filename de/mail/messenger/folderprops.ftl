@@ -7,7 +7,7 @@ folder-props-window-title = Eigenschaften
 ## General Information tab
 
 folder-props-general-tab =
-    .label = Allgemein
+    .label = Allgemeine Informationen
 folder-props-name =
     .value = Name des Ordners:
     .accesskey = O
@@ -28,7 +28,7 @@ folder-props-size-on-disk =
 folder-props-size-unknown =
     .value = unbekannt
 folder-props-rebuild-summary =
-    .label = Reparieren
+    .label = Ordner reparieren
     .accesskey = R
     .tooltiptext = Zusammenfassungsdatei (*.msf) neu erstellen
 folder-props-include-in-global-search =
@@ -61,7 +61,7 @@ folder-props-download-newsgroup-now =
 ## Sharing tab
 
 folder-props-sharing-tab =
-    .label = Freigabe
+    .label = Teilen
 folder-props-privileges =
     .label = Berechtigungen…
     .accesskey = B
