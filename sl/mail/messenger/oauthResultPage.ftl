@@ -21,3 +21,10 @@ oauth-success-body = To okno lahko zaprete.
 
 oauth-error-title = Prijave ni bilo mogoče dokončati
 oauth-error-subtitle = { -brand-short-name } s temi nastavitvami ni uspel dokončati prijave.
+# New lines in the string will be converted into new lines in the output.
+# $linkStart (String) - Link prefix. Has to always be before $linkEnd. Has no visible content.
+# $linkEnd (String) - Link suffix. Has to always be after $linkStart. Has no visible content.
+oauth-error-body =
+    Vrnite se v { -brand-short-name(sklon: "tozilnik") }, preglejte nastavitve računa in poskusite znova.
+    
+    Če težava vztraja, za pomoč glejte članek { $linkStart }Odpravljanje težav s prijavo v račun{ $linkEnd }.

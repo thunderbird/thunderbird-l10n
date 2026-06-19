@@ -225,6 +225,8 @@ account-hub-calendars-button = Koledarji
 account-hub-thundermail-button = Prijava s Thundermailom
 # Used as part of a divider between sign in button and a sign in form.
 account-hub-thundermail-divider-text = ali
+account-hub-manual-config-incoming-legend = Dohodni strežnik
+account-hub-manual-config-outgoing-legend = Odhodni strežnik
 account-hub-notification-show-more = Prikaži več
 account-hub-notification-show-less = Prikaži manj
 account-hub-email-setup-header = Dodajte e-poštni naslov
@@ -248,6 +250,13 @@ account-hub-result-graph-expanded-text = API Graph
 account-hub-result-recommended-label = Priporočeno
 account-hub-result-addon-label = Zahteva dodatek
 account-hub-edit-configuration = Uredi nastavitve
+account-hub-config-success-title = Nastavitve računa so bile samodejno najdene.
+account-hub-config-success-description-db = Nastavitve so bile najdene v Mozillini podatkovni zbirki ponudnikov.
+account-hub-config-success-description-exchange = Nastavitve so bile najdene za strežnik Microsoft Exchange.
+account-hub-config-success-description-guess = Nastavitve so bile najdene s preskušanjem običajnih imen strežnikov.
+account-hub-config-success-description-disk = Nastavitve so bile najdene v { -brand-short-name(sklon: "mestnik") }.
+account-hub-config-success-description-isp = Nastavitve so bile najdene pri ponudniku e-pošte.
+account-hub-config-success-description-read-more = <a data-l10n-name="automated-setup-link">Preberite, kako deluje samodejna nastavitev e-poštnega računa</a>.
 account-hub-config-success = Nastavitve so bile najdene v Mozillini podatkovni zbirki ponudnikov
 account-hub-config-success-exchange = Nastavitve so bile najdene za strežnik Microsoft Exchange
 account-hub-config-success-guess = Nastavitve so bile najdene s poskušanjem pogostih imen strežnikov

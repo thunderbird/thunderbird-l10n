@@ -5,6 +5,9 @@
 about-update-whats-new = Novosti
 about-dialog-title = O { -brand-full-name(sklon: "mestnik") }
 release-notes-link = Opombe ob izdaji
+about-dialog-meadow-logo =
+    .alt = Značka { -brand-short-name(sklon: "rodilnik") } s kodnim imenom Meadow
+    .title = { -brand-short-name } – kodno ime Meadow
 update-internal-error = Iskanje posodobitev ni uspelo zaradi notranje napake. Posodobitve so na voljo na <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Poišči posodobitve
     .accesskey = P
