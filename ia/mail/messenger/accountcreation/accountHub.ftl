@@ -50,7 +50,6 @@ account-hub-email-finish-button = Finir
 account-hub-email-manually-configure-button = Configurar manualmente
 account-hub-email-continue-button = Continuar
 account-hub-email-confirm-button = Confirmar
-account-hub-result-incoming-legend = Entrante
 account-hub-result-outgoing-legend = Exiente
 account-hub-all-servers-legend = Tote le servitores
 account-hub-incoming-server-legend = Servitor de arrivata
