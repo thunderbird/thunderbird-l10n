@@ -17,6 +17,9 @@ cert-error-not-yet-valid = Το πιστοποιητικό για το { $hostna
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-untrusted-default = Το πιστοποιητικό για το { $hostname } δεν προέρχεται από αξιόπιστη πηγή.
 # Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server.
+cert-error-ssl-connection-error = Προέκυψε σφάλμα κατά τη σύνδεση στο { $hostname }.
+# Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-domain-mismatch =
     .title = Σφάλμα σύνδεσης. Το πιστοποιητικό για το { $hostname } δεν είναι έγκυρο για αυτόν τον διακομιστή. Κάποιος ενδέχεται να προσπαθεί να μιμηθεί τον διακομιστή και δεν πρέπει να συνεχίσετε. Κάντε κλικ για να ανοίξετε τις ρυθμίσεις ασφαλείας του διακομιστή.
@@ -34,6 +37,10 @@ cert-error-inline-not-yet-valid =
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-untrusted-default =
     .title = Σφάλμα σύνδεσης. Το πιστοποιητικό για το { $hostname } δεν προέρχεται από έμπιστη πηγή. Κάντε κλικ για να ανοίξετε τις ρυθμίσεις ασφαλείας του διακομιστή.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server.
+cert-error-inline-ssl-connection-error =
+    .title = Προέκυψε σφάλμα κατά τη σύνδεση στο { $hostname }.
 certificate-check-test-button = Δοκιμή σύνδεσης με τον διακομιστή
 certificate-check-view-button = Προβολή πιστοποιητικού
 certificate-check-add-exception-button = Προσθήκη εξαίρεσης
