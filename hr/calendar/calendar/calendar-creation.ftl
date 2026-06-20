@@ -4,6 +4,7 @@
 
 select-all-calendars = Označi sve
 select-none-calendars = Nemoj odabrati ništa
+calendar-creation-dialog-title = Dodaj kalendar
 calendar-creation-initial-description = Kalendar može biti spremljen na vašem računalu ili na serveru kako biste mu mogli pristupiti od bilo kuda ili ga dijeliti sa svojim prijateljima ili suradnicima.
 calendar-creation-initial-computer =
     .label = Na mom računalu
