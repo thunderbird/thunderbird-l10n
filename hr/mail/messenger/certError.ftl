@@ -17,6 +17,9 @@ cert-error-not-yet-valid = Certifikat za { $hostname } neće biti valjan do { $n
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-untrusted-default = Certifikat za { $hostname } ne dolazi iz pouzdanog izvora.
 # Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server.
+cert-error-ssl-connection-error = Došlo je do pogreške prilikom povezivanja s { $hostname }.
+# Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-domain-mismatch =
     .title = Pogreška veze. Certifikat za { $hostname } nije valjan za taj poslužitelj. Netko možda pokušava lažno predstavljati poslužitelj i ne biste trebali nastaviti. Kliknite za otvaranje sigurnosnih postavki poslužitelja.
@@ -34,6 +37,10 @@ cert-error-inline-not-yet-valid =
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-untrusted-default =
     .title = Pogreška veze. Certifikat za { $hostname } ne dolazi iz pouzdanog izvora. Kliknite za otvaranje sigurnosnih postavki poslužitelja.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server.
+cert-error-inline-ssl-connection-error =
+    .title = Došlo je do pogreške prilikom povezivanja s { $hostname }.
 certificate-check-test-button = Testiraj vezu s poslužiteljem
 certificate-check-view-button = Pregled certifikata
 certificate-check-add-exception-button = Dodaj iznimku
