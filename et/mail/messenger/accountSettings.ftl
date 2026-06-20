@@ -4,6 +4,8 @@
 
 account-settings-color-label = Värv:
     .accesskey = V
+account-settings-reset-color-button =
+    .title = Lähtesta värv
 delete-account-button =
     .label = Kustuta
 default-account-button =

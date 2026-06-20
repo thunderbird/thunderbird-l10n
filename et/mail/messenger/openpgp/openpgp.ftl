@@ -8,6 +8,8 @@ e2e-intro-description-more = OpenPGP lubamiseks vali oma isiklik võti või isik
 e2e-csr-continue = Jätka
 # A label for a button that goes back one step
 e2e-csr-back = Tagasi
+# Do not translate: CSR
+e2e-csr-select-title = CSR-i algoritm
 e2e-signing-description = Digiallkiri võimaldab adressaatidel kontrollida, kas sõnumi saatsid sina ja selle sisu pole muudetud. Krüptitud kirjad allkirjastatakse alati vaikimisi.
 e2e-sign-message =
     .label = Krüptimata kirjad allkirjastatakse
@@ -269,6 +271,7 @@ openpgp-personal-no-label =
     .label = Ei, ära kasuta seda minu isikliku võtmena.
 openpgp-personal-yes-label =
     .label = Jah, käsitle seda võtit minu isikliku võtmena.
+openpgp-passphrase-status-unprotected = Kaitsmata
 openpgp-copy-cmd-label =
     .label = Kopeeri
 

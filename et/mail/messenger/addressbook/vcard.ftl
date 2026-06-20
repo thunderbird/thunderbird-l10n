@@ -72,6 +72,7 @@ vcard-tz-add = Lisa ajavöönd
 
 vcard-impp-add = Lisa kiirsuhtluse konto
 vcard-impp-label = Kiirsuhtluse konto
+vcard-impp-select = Protokoll
 vcard-impp-option-other = Muu
 
 # BDAY and ANNIVERSARY vCard field
@@ -111,6 +112,7 @@ vcard-org-add = Lisa organisatsiooni omadus
 vcard-org-title = Pealkiri
 vcard-org-role = Roll
 vcard-org-org = Organisatsioon
+vcard-org-org-unit = Osakond
 
 # Custom properties
 
