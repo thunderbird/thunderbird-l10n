@@ -2,11 +2,24 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Variables:
+#   $count - the number items
+facets-mode-to-list-all-label =
+    { $count ->
+        [one] Prikaži { $count }
+        [few] Prikaži { $count }
+       *[other] Prikaži { $count }
+    }
 # Last item in a a list like A, B, C and "3 others".
 # Variables:
 #   $count - the number items
 facet-view-and-others =
     { $count ->
         [one] još { $count }
+        [few] još { $count }
        *[other] još { $count }
     }
+# Variables:
+#   $m - the number M in "M of N" items
+#   $n - the number N in "M of N" items
+item-count-m-of-n = { $m } od { $n }
