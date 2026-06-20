@@ -5,6 +5,9 @@
 about-update-whats-new = Τι νέο υπάρχει
 about-dialog-title = Σχετικά με το { -brand-full-name }
 release-notes-link = Σημειώσεις έκδοσης
+about-dialog-meadow-logo =
+    .alt = Έμβλημα του { -brand-short-name } Meadow
+    .title = { -brand-short-name } (Κωδικό όνομα: Meadow)
 update-internal-error = Δεν είναι δυνατός ο έλεγχος για ενημερώσεις λόγω εσωτερικού σφάλματος. Οι ενημερώσεις διατίθενται στο <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Έλεγχος για ενημερώσεις
     .accesskey = λ
