@@ -12,3 +12,20 @@ configured-cert-ok-sig = Chứng chỉ đã vượt qua bài kiểm tra và có 
 configured-cert-failure-detail = Xác minh chứng chỉ không thành công với lỗi sau: { $errorMsg } (Mã lỗi: { $errorCodeStr })
 # $errorCode A numeric error code
 configured-cert-failure = Xác minh chứng chỉ không thành công với mã lỗi { $errorCode }
+# $errorMsg A sentence that explains the error.
+# $errorCodeStr A human readable error code, e.g. SEC_ERROR_UNKNOWN_ISSUER
+# Note the initial empty line is necessary to preserve the line breaks.
+configured-cert-failure-use-anyway-detail-v2 =
+    Có vấn đề với chứng chỉ này.
+    
+    Quá trình xác minh chứng chỉ không thành công với lỗi sau: { $errorMsg } (Mã lỗi: { $errorCodeStr })
+    
+    Bạn vẫn muốn sử dụng chứng chỉ này chứ?
+# $errorCode A numeric error code
+# Note the initial empty line is necessary to preserve the line breaks.
+configured-cert-failure-use-anyway-v2 =
+    Có vấn đề với chứng chỉ này.
+    
+    Quá trình xác minh chứng chỉ không thành công với mã lỗi { $errorCode }.
+    
+    Bạn vẫn muốn sử dụng chứng chỉ này chứ?
