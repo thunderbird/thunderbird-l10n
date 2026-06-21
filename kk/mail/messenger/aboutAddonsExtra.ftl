@@ -11,5 +11,7 @@ atn-addons-heading-search-input =
 atn-addons-heading-search-button =
     .title = addons.thunderbird.net сайтынан іздеу
     .aria-label = addons.thunderbird.net сайтынан іздеу
+details-notification-suppressed-esr-2 =
+    .message = Бұл қосымша ескірген API интерфейстерін қолданғандықтан сөндірілді. Ескірген API интерфейстері бар қосымшалар { -brand-product-name } өнімінің кез келген бөлігін өзгерте алады, сондықтан { -brand-product-name } өзі өзгерген сайын олар жаңартылып, тексеріліп және мақұлдануы керек. Сондықтан мұндай қосымшаларға { -brand-product-name } өнімінің бұл нұсқасында қолдау көрсетілмейді, олар тек код өзгерістерін аз алатын және 1 жылдық ESR циклі бойы тұрақты болып қалатын { -brand-product-name } ESR нұсқасында ғана қолдау табады.
 details-notification-suppressed-esr =
     .message = Бұл қосымша эксперименттік API интерфейстерін пайдаланатындықтан өшірілді. Бұл API интерфейстері { -brand-product-name } ESR интерфейсімен шектелген және оларға { -brand-product-name } осы нұсқасында қолдау көрсетілмейді.

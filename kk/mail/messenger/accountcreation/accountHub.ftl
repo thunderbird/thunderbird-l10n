@@ -225,6 +225,8 @@ account-hub-calendars-button = Күнтізбелер
 account-hub-thundermail-button = Thundermail арқылы кіру
 # Used as part of a divider between sign in button and a sign in form.
 account-hub-thundermail-divider-text = немесе
+account-hub-manual-config-incoming-legend = Кіріс сервері
+account-hub-manual-config-outgoing-legend = Шығыс сервері
 account-hub-notification-show-more = Көбірек көрсету
 account-hub-notification-show-less = Азырақ көрсету
 account-hub-email-setup-header = Эл. пошта адресіңізді қосыңыз
