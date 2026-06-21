@@ -4,6 +4,9 @@
 
 webext-experiment-warning = Τα κακόβουλα πρόσθετα μπορούν να κλέψουν τις προσωπικές σας πληροφορίες ή να θέσουν σε κίνδυνο τον υπολογιστή σας. Να εγκαταστήσετε αυτό το πρόσθετο μόνο αν εμπιστεύεστε την προέλευσή του.
 webext-perms-learn-more = Μάθετε περισσότερα
+# The "<>" is a placeholder for the add-on name, used by toolkit code which has
+# not yet been updated to use fluent placeholders.
+webext-install-suppressed-message-2 = Δεν ήταν δυνατή η εγκατάσταση του προσθέτου <> επειδή χρησιμοποιεί API παλαιού τύπου, τα οποία δεν υποστηρίζονται σε αυτήν την έκδοση του { -brand-product-name }.
 webext-install-suppressed-message = Δεν ήταν δυνατή η εγκατάσταση του προσθέτου <> επειδή χρησιμοποιεί Experiment API, τα οποία δεν υποστηρίζονται σε αυτήν την έκδοση του Thunderbird.
 webext-install-suppressed-details = Τα πρόσθετα με Experiment API υποστηρίζονται μόνο στο { -brand-product-name } ESR.
 # Variables:
