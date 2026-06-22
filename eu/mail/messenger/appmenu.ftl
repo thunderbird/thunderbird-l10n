@@ -51,6 +51,14 @@ appmenu-new-newsgroup =
     .label = Berri-taldea
     .accesskey = B
 
+## Add Account
+
+appmenu-add-account-panel-title =
+    .title = Gehitu kontua
+appmenu-add-account-panel =
+    .label = Gehitu kontua
+    .accesskey = n
+
 ## New Account / Address Book
 
 appmenu-newab-panel-title =
@@ -67,6 +75,11 @@ appmenu-new-carddav =
 appmenu-new-ldap =
     .label = LDAP helbide-liburua
     .accesskey = L
+appmenu-add-address-book-panel-title =
+    .title = Gehitu helbide-liburua
+appmenu-add-address-book =
+    .label = Helbide-liburua
+    .accesskey = A
 
 ## Create
 

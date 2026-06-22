@@ -16,6 +16,8 @@ about-addressbook-toolbar-add-ldap-address-book =
     .label = Gehitu LDAP helbide-liburua
 books-pane-create-contact-button = Kontaktu berria
     .title = Sortu kontaktu berria
+books-pane-add-book-button =
+    .title = Gehitu helbide-liburua
 books-pane-create-book-button =
     .title = Sortu helbide-liburu berria
 books-pane-create-list-button =
@@ -61,6 +63,8 @@ about-addressbook-confirm-remove-remote-book-title = Kendu helbide-liburua
 # Variables:
 # $name (String) - Name of the remote address book to be removed.
 about-addressbook-confirm-remove-remote-book = Ziur zaude{ $name } kendu nahi duzula?
+address-book-list =
+    .aria-label = helbide-liburuen zerrenda
 
 ## Cards
 
@@ -193,6 +197,8 @@ about-addressbook-cell-addrbook2 =
     .title = { $title }
 about-addressbook-cards-context-write =
     .label = Idatzi
+# A suggested file name (without extension) for when the user exports multiple contacts.
+about-addressbook-export-selected-filename = Kontaktuak
 about-addressbook-confirm-delete-mixed-title = Ezabatu kontaktuak eta posta-zerrendak
 # Variables:
 # $count (Number) - The number of contacts and lists to be deleted. Always greater than 1.
