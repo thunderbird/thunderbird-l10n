@@ -5,6 +5,9 @@
 new-account-label = Kontu berria
 # Instant messaging account status window for Thunderbird
 accounts-window-title = Berehalako mezularitzaren egoera
+account-manager-add-account =
+    .label = { add-account-label }
+    .accesskey = A
 account-manager-new-account =
     .label = { new-account-label }
     .accesskey = K
@@ -40,3 +43,4 @@ account-disconnecting =
     .value = Deskonektatzen…
 account-disconnected =
     .value = Konektatu gabe
+add-account-label = Gehitu kontua

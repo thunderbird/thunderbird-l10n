@@ -24,6 +24,10 @@ ask-save-title-event = Gorde gertaera
 ask-save-title-task = Gorde zeregina
 ask-save-message-event = Gertaera ez da gorde. Gertaera gordetzea nahi duzu?
 ask-save-message-task = Zeregina ez da gorde. Zeregina gordetzea nahi duzu?
+# All day checkbox label, used both for events and tasks
+calendar-item-all-day =
+    .label = Egun osoa
+    .accesskey = d
 # Event Dialog Warnings
 warning-end-before-start = Sartutako amaiera-data hasiera-data baino lehenagokoa da
 warning-until-date-before-start = Noiz arte data hasiera data aurretik dago

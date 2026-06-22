@@ -20,6 +20,8 @@ calendar-enable-button = Gaitu
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-context-button =
     .title = { $calendarName } egutegi aukerak
+calendar-add-calendar = Gehitu egutegia…
+    .title = Sortu edo harpidetu egutegi batera
 calendar-import-new-calendar = Egutegi berria…
     .title = Sortu edo harpidetu egutegi berri batera
 calendar-refresh-calendars =

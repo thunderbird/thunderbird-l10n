@@ -4,6 +4,7 @@
 
 select-all-calendars = Hautatu dena
 select-none-calendars = Hautatu bat
+calendar-creation-dialog-title = Gehitu egutegia
 calendar-creation-initial-description = Zure egutegia zure ordenagailuan gorde edo urruneko sarrera ziurtatzen duen zerbitzari batean gorde daiteke zure lagun edo lankideekin partekatzeko.
 calendar-creation-initial-computer =
     .label = Nire ordenagailuan
