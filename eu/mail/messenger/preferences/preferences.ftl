@@ -47,6 +47,7 @@ compose-html-style-title = HTML estiloa
 composition-addressing-header = Helbideratzea
 privacy-main-header = Pribatutasuna
 privacy-passwords-header = Pasahitzak
+privacy-spam-header = Spam
 privacy-junk-header = Zaborra
 collection-header = { -brand-short-name } datuen bilketa eta erabilera
 collection-description = Aukerak ematen ahalegintzen gara { -brand-short-name } denontzat hobetzeko behar ditugun datuak soilik biltzeko. Informazio pertsonala jaso aurretik zure baimena eskatzen dugu beti.
