@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 select-all-calendars = Pažymėti viską
-select-none-calendars = Nanaikinti žymėjimus
+select-none-calendars = Panaikinti žymėjimus
 calendar-creation-initial-description = Kalendorius gali būti saugomas jūsų kompiuteryje arba tinklo serveryje, jei norite jį pasiekti iš kitur, arba dalintis juo su draugais.
 calendar-creation-initial-computer =
     .label = Mano kompiuteryje
