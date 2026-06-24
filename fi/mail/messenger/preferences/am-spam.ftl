@@ -5,6 +5,9 @@
 spam-settings-title = Roskapostiasetukset
 dialog-header-title =
     .value = Roskapostiasetukset
+spam-level-checkbox =
+    .label = Käytä mukautuvaa roskapostin tunnistusta tällä tilillä
+    .accesskey = ä
 move-spam-message-menuitem =
     .label = Siirrä uudet roskapostiviestit kansioon:
     .accesskey = r

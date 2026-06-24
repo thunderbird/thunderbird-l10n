@@ -275,6 +275,12 @@ context-menu-mark-reply =
 context-menu-archive =
     .aria-label = Arkistoi
     .tooltiptext = Arkistoi
+context-menu-mark-spam =
+    .aria-label = Merkitse roskapostiksi
+    .tooltiptext = Merkitse roskapostiksi
+context-menu-mark-not-spam =
+    .aria-label = Merkitse ei roskapostiksi
+    .tooltiptext = Merkitse ei roskapostiksi
 context-menu-mark-junk =
     .aria-label = Merkitse roskapostiksi
     .tooltiptext = Merkitse roskapostiksi
@@ -517,12 +523,24 @@ openpgp-forget = Unohda OpenPGP-salalauseet
 quota-panel-percent-used = { $percent } % täynnä
     .title = IMAP-kiintiö: Käytetty { $usage }/{ $limit }
 
+## Sort menu.
+
+sort-by-spam-status =
+    .label = Roskapostin tila
+    .accesskey = s
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Message header.
+
+header-spam-button =
+    .label = Roskaposti
+    .tooltiptext = Merkitse tämä viesti roskapostiksi
 
 ## Actions for the New Mail Notification
 
@@ -532,6 +550,8 @@ mark-as-spam-action = Merkitse roskapostiksi
 
 ## Message list.
 
+menuitem-label-spam-status =
+    .label = Roskapostin tila
 message-priority-lowest = Matalin
 message-priority-low = Matala
 # Normal priority is often blank, depending on the consumers of these strings.
