@@ -62,6 +62,11 @@ customize-spaces-tabs =
 customize-main-toolbar-target =
     .aria-label = Peamine tööriistariba
 
+## Unified toolbar customization palette context menu
+
+customize-palette-add-everywhere =
+    .label = Lisa kõikidele tööriistaribadele
+
 ## Unified toolbar customization target context menu
 
 customize-target-forward =
@@ -74,3 +79,7 @@ customize-target-remove-everywhere =
     .label = Eemalda kõigilt tööriistaribadelt
 customize-target-add-everywhere =
     .label = Lisa kõikidele tööriistaribadele
+customize-target-start =
+    .label = Liiguta algusesse
+customize-target-end =
+    .label = Liiguta lõppu

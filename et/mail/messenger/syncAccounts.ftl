@@ -6,12 +6,16 @@
 ## These strings are shown in a desktop notification after the user requests we resend a verification email.
 
 sync-verification-sent-title = Kinnitusnõue on saadetud
+# Variables:
+# $userEmail (String) - Email address of the account used for sync.
+sync-verification-sent-body = Kinnituslink saadeti aadressile { $userEmail }.
 sync-verification-not-sent-title = Kinnitusnõude saatmine pole võimalik
 sync-verification-not-sent-body = Konto kinnitamist võimaldavat e-kirja polnud praegu võimalik saata, palun proovi hiljem uuesti.
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
 sync-signout-dialog-title = Kas logida kontost välja?
+sync-signout-dialog-body = Sünkroniseeritud andmed jäävad sinu kontole alles.
 sync-signout-dialog-button = Logi välja
 
 ## These strings are shown in a confirmation dialog when the user chooses to stop syncing.
