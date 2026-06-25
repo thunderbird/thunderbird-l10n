@@ -40,6 +40,21 @@ calendar-invitation-interval-all-day = { $startDate }
 # $endDay     (String) - The day of the month the interval ends.
 # $endYear    (String) - The year the interval ends.
 calendar-invitation-interval-all-day-between-years = { $startDay }. { $startMonth }ta { $startYear } - { $endDay }. { $endMonth }ta { $endYear }
+# Example: September 16 – 20, 2022
+# Variables:
+# $month      (String) - The month the interval is in.
+# $startDay   (String) - The day of the month the interval starts.
+# $endDay     (String) - The day of the month the interval ends.
+# $year       (String) - The year the interval is in.
+calendar-invitation-interval-all-day-in-month = { $startDay }-{ $endDay } { $month }ta { $year }
+# Example: September 16 – October 20, 2022
+# Variables:
+# $startMonth (String) - The month the interval starts.
+# $startDay   (String) - The day of the month the interval starts.
+# $endMonth   (String) - The month the interval ends.
+# $endDay     (String) - The day of the month the interval ends.
+# $year       (String) - The year the interval is in.
+calendar-invitation-interval-all-day-between-months = { $startDay } – { $endDay } { $startMonth }ta { $year }
 calendar-invitation-panel-prop-title-recurrence = Toistuu:
 calendar-invitation-panel-prop-title-attendees = Osallistujat:
 calendar-invitation-panel-prop-title-description = Kuvaus:

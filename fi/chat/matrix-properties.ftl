@@ -13,8 +13,14 @@ matrix-username-hint = Matrix-tunniste
 options-save-token = Tallenna käyttöoikeuspoletti
 options-device-display-name = Laitteen näyttönimi
 options-homeserver = Palvelin
+# LOCALIZATION NOTE (options-encryption-*):
+#   These are strings used to build the status information of the encryption
+#   storage, shown in the account manager. $status (String) is one of the statuses and the
+#   strings are combined with a pipe (|) between.
+options-encryption-enabled = Kryptografiset funktiot: { $status }
 # $status (String) a status
 options-encryption-key-backup = Salausavaimen varmuuskopio: { $status }
+options-encryption-status-ok = ok
 options-encryption-status-not-ok = ei valmis
 # $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
 options-encryption-session = { $sessionId } ({ $sessionDisplayName })
