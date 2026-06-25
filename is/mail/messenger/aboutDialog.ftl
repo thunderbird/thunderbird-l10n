@@ -5,6 +5,9 @@
 about-update-whats-new = Hvað er nýtt
 about-dialog-title = Um { -brand-full-name }
 release-notes-link = Útgáfuupplýsingar
+about-dialog-meadow-logo =
+    .alt = Merki fyrir { -brand-short-name } kóðanafn Meadow
+    .title = { -brand-short-name } - kóðanafn Meadow
 update-internal-error = Ekki er hægt að leita að uppfærslum vegna innri villu. Uppfærslur eru fáanlegar á <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Leita að uppfærslum
     .accesskey = L
