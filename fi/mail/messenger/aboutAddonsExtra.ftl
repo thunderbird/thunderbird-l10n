@@ -11,3 +11,5 @@ atn-addons-heading-search-input =
 atn-addons-heading-search-button =
     .title = Hae addons.thunderbird.netistä
     .aria-label = Hae addons.thunderbird.netistä
+details-notification-suppressed-esr =
+    .message = Lisäosa on poistettu käytöstä, koska se käyttää kokeellisia rajapintoja. Nämä rajapinnat toimivat pelkästään { -brand-product-name } ESR -julkaisussa, eikä niitä tueta tässä { -brand-product-name }-versiossa.

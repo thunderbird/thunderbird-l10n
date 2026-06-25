@@ -251,6 +251,8 @@ menu-move-copy-recent-destinations =
 menu-move-copy-favorites =
     .label = Suosikit
     .accesskey = o
+menu-move-copy-no-recent =
+    .label = (Ei viimeaikaisia kohteita)
 
 ## AppMenu
 
@@ -369,6 +371,9 @@ message-header-large-subject =
 message-header-all-headers =
     .label = Näytä kaikki otsakkeet
     .accesskey = a
+message-header-dark-message-toggle =
+    .label = Näytä tumman viestitilan vaihtokytkin
+    .accesskey = y
 
 ## Action Button Context Menu
 
@@ -535,6 +540,21 @@ mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+menu-recalculate-spam-score =
+    .label = Suorita roskapostin hallinta
+    .accesskey = h
+menu-run-spam-on-folder =
+    .label = Tunnista kansion roskapostit
+    .accesskey = T
+menu-delete-spam =
+    .label = Poista roskapostit kansiosta
+    .accesskey = P
+
+## Folder pane context.
+
+folder-context-empty-spam =
+    .label = Tyhjennä roskapostikansio
+    .accesskey = T
 
 ## Message header.
 
