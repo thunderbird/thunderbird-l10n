@@ -7,6 +7,7 @@ webext-perms-learn-more = Μάθετε περισσότερα
 # The "<>" is a placeholder for the add-on name, used by toolkit code which has
 # not yet been updated to use fluent placeholders.
 webext-install-suppressed-message-2 = Δεν ήταν δυνατή η εγκατάσταση του προσθέτου <> επειδή χρησιμοποιεί API παλαιού τύπου, τα οποία δεν υποστηρίζονται σε αυτήν την έκδοση του { -brand-product-name }.
+webext-install-suppressed-details-2 = Τα πρόσθετα με API παλαιού τύπου μπορούν να τροποποιήσουν κάθε μέρος του { -brand-product-name } και πρέπει να ενημερώνονται, να ελέγχονται και να εγκρίνονται κάθε φορά που αλλάζει το ίδιο το { -brand-product-name }. Επομένως, αυτά τα API παλαιού τύπου υποστηρίζονται μόνο από το { -brand-product-name } ESR, το οποίο λαμβάνει λιγότερες αλλαγές στον κώδικα και παραμένει σταθερό καθ' όλη τη διάρκεια του μονοετούς κύκλου του ESR.
 webext-install-suppressed-message = Δεν ήταν δυνατή η εγκατάσταση του προσθέτου <> επειδή χρησιμοποιεί Experiment API, τα οποία δεν υποστηρίζονται σε αυτήν την έκδοση του Thunderbird.
 webext-install-suppressed-details = Τα πρόσθετα με Experiment API υποστηρίζονται μόνο στο { -brand-product-name } ESR.
 # Variables:

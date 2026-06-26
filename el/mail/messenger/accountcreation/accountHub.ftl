@@ -232,6 +232,7 @@ account-hub-notification-show-less = Εμφάνιση λιγότερων
 account-hub-email-setup-header = Προσθήκη διεύθυνσης email
 account-hub-email-setup-incoming = Ρυθμίσεις διακομιστή εισερχομένων
 account-hub-email-setup-outgoing = Ρυθμίσεις διακομιστή εξερχομένων
+account-hub-email-connect-settings = Συνδέστε τις ρυθμίσεις email σας
 account-hub-email-config-found = Επιλέξτε τον τύπο του λογαριασμού email σας
 account-hub-email-enter-password = Εισαγάγετε τον κωδικό πρόσβασης του λογαριασμού email σας
 account-hub-email-sync-accounts = Συγχρονίστε τα ημερολόγια και τα ευρετήρια σας

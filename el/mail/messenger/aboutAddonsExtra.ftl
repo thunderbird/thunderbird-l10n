@@ -11,5 +11,7 @@ atn-addons-heading-search-input =
 atn-addons-heading-search-button =
     .title = Αναζήτηση στο addons.thunderbird.net
     .aria-label = Αναζήτηση στο addons.thunderbird.net
+details-notification-suppressed-esr-2 =
+    .message = Το πρόσθετο απενεργοποιήθηκε επειδή χρησιμοποιεί API παλαιού τύπου. Τα πρόσθετα με API παλαιού τύπου μπορούν να τροποποιήσουν κάθε μέρος του { -brand-product-name } και πρέπει να ενημερώνονται, να ελέγχονται και να εγκρίνονται κάθε φορά που αλλάζει το ίδιο το { -brand-product-name }. Επομένως, τέτοια πρόσθετα δεν υποστηρίζονται από αυτήν την έκδοση του { -brand-product-name }, αλλά μόνο από το { -brand-product-name } ESR, το οποίο λαμβάνει λιγότερες αλλαγές στον κώδικα και παραμένει σταθερό καθ' όλη τη διάρκεια του μονοετούς κύκλου του ESR.
 details-notification-suppressed-esr =
     .message = Το πρόσθετο απενεργοποιήθηκε επειδή χρησιμοποιεί Experiment API. Αυτά τα API περιορίζονται στο { -brand-product-name } ESR και δεν υποστηρίζονται σε αυτήν την έκδοση του { -brand-product-name }.
