@@ -40,3 +40,15 @@ task-tentative = Έχετε δεχθεί με επιφύλαξη να συμμε
 # This will be displayed as notification in the summary dialog if the user has
 # declined the assigned task
 task-declined = Έχετε απορρίψει τη συμμετοχή σε αυτήν την εργασία
+# This will be displayed as notification the summary dialog if the user has
+# delegated his/her assignment to one or more others (without attending / working on it his/herself)
+task-delegated = Έχετε αναθέσει την εργασία
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to the task assignment
+task-needs-action = Δεν έχετε απαντήσει ακόμα σε αυτήν την ανάθεση εργασίας
+# This will be displayed as notification in the summary dialog if the user
+# is working on an assigned task
+task-in-progress = Έχετε ξεκινήσει τη συμμετοχή σας σε αυτήν την ανατεθειμένη εργασία
+# This will be displayed as notification in the summary dialog if the user
+# has completed the work on this assigned task
+task-completed = Έχετε ολοκληρώσει τη συμμετοχή σας σε αυτήν την ανατεθειμένη εργασία
