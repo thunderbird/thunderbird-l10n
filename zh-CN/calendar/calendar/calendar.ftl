@@ -1007,5 +1007,21 @@ enter-link-location = 输入网页地址或文档位置。
 #   $providerName - The FileLink provider display name
 attach-via-filelink = 使用文件 { $providerName }
 select-a-file = 请选择要附加的文件
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } 已接受该邀请，但提出了不同意见：
+#   $name - The name of responding invitee.
+counter-tentative = { $name } 已暂且接受该邀请，并提出了不同意见：
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } 已拒绝该邀请，但提出了不同意见：
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } 已委托他人代为参与此邀请，但提出了不同意见：
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } 尚未决定是否参加，并提出了不同意见：
+counter-on-previous-version-notification = 这是一个此事件以前版本的不同意见。
+counter-on-counter-disallowed-notification = 您在发出邀请时设置了不接受意见。
 event-recurrence-forever =
     .label = 永远
