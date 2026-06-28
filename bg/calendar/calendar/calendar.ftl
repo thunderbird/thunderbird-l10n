@@ -1096,5 +1096,19 @@ counter-delegated = { $name } преотстъпва поканата, но пр
 counter-needs-action = { $name } не решил(а) дали да вземе участие и прави контрапредложение:
 counter-on-previous-version-notification = Това контрапредложение е за предишното издание на това събитие.
 counter-on-counter-disallowed-notification = При разпращане на поканите сте забранили контра предложенията.
+sendandclose-button =
+    .label = Запис и затваряне
+    .tooltiptext = Уведомете уастниците и затворете
+saveandsend-button =
+    .label = Запазване и изпращане
+    .tooltiptext = Запазване и уведяване на участниците
+saveandsend-menu =
+    .label = Запазване и изпращане
+sendandclose-menu =
+    .label = Запис и затваряне
 event-recurrence-forever =
     .label = Без крайна дата
+# $count - the number of attendees
+attendees-tab-label = Участници ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Прикачени файлове ({ $count }):
