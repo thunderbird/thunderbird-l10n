@@ -1069,3 +1069,7 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Тапсырма ретінде қосу
     .tooltiptext = Хабарламадан күнтізбелік ақпаратты шығарып, оны күнтізбеңізге тапсырма ретінде қосу
+# $count - the number of attendees
+attendees-tab-label = Қатысушылар ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Салынымдар ({ $count }):

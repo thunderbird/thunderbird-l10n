@@ -15,3 +15,28 @@ edit-button-context-menu-all-occurrences =
     .accesskey = а
 description-context-menu-copy-link-text =
     .label = Сілтеме мәтінін көшіру
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation.
+event-accepted = Сіз бұл шақыруды қабылдағансыз
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation tentatively
+event-tentative = Сіз бұл шақыруды мүмкін деп қабылдағансыз
+# This will be displayed as notification in the summary dialog if the user has
+# declined the event invitation.
+event-declined = Сіз бұл шақыруды тайдырғансыз
+# This will be displayed as notification in the summary dialog if the user has
+# delegated his/her participation to one or more other participants
+# (without attending / working on it his/herself)
+event-delegated = Сіз бұл шақыруды тағайындағансыз
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to an invitation
+event-needs-action = Сіз бұл шақыруға жауап берген жоқсыз
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the assigned task
+task-accepted = Сіз бұл тапсырманы жасауды қабылдағансыз
+# This will be displayed as notification in the summary dialog if the user has
+# accepted tentatively the assigned task.
+task-tentative = Сіз бұл тапсырманы жасауды мүмкін деп қабылдағансыз
+# This will be displayed as notification in the summary dialog if the user has
+# declined the assigned task
+task-declined = Сіз бұл тапсырманы жасауды тайдырғансыз
