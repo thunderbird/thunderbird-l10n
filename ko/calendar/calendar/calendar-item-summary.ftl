@@ -1,0 +1,51 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+calendar-item-summary-title = 제목:
+calendar-item-summary-calendar = 캘린더:
+calendar-item-summary-task-start = 착수일:
+calendar-item-summary-event-start = 시작일:
+calendar-item-summary-task-due = 마감일:
+calendar-item-summary-event-end = 종료일:
+calendar-item-summary-repeat = 되풀이:
+calendar-item-summary-location = 위치:
+calendar-item-summary-category = 분류:
+calendar-item-summary-organizer = 조직:
+calendar-item-summary-status = 상태:
+calendar-item-summary-reminder = 알림:
+calendar-item-summary-attachments = 첨부파일:
+calendar-item-summary-reminder-none =
+    .label = 알림 없음
+calendar-item-summary-reminder-0-minutes-before =
+    .label = 지금 바로
+calendar-item-summary-reminder-5-minutes-before =
+    .label = 5분 전
+calendar-item-summary-reminder-15-minutes-before =
+    .label = 15분 전
+calendar-item-summary-reminder-30-minutes-before =
+    .label = 30분 전
+calendar-item-summary-reminder-1-hour-before =
+    .label = 1시간 전
+calendar-item-summary-reminder-2-hours-before =
+    .label = 2시간 전
+calendar-item-summary-reminder-12-hours-before =
+    .label = 12시간 전
+calendar-item-summary-reminder-1-day-before =
+    .label = 1일 전
+calendar-item-summary-reminder-2-days-before =
+    .label = 2일 전
+calendar-item-summary-reminder-1-week-before =
+    .label = 1주 전
+calendar-item-summary-reminder-custom =
+    .label = 설정…
+calendar-item-summary-reminder-multiple =
+    .value = 다중 알림…
+calendar-item-summary-general =
+    .value = 일반
+calendar-item-summary-attendees =
+    .value = 참석자
+calendar-item-summary-description =
+    .value = 설명
+calendar-item-summary-link =
+    .value = 관련 링크
