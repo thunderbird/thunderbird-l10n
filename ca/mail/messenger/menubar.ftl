@@ -65,6 +65,11 @@ menu-quit =
 # This menu-quit-mac string is only used on macOS.
 menu-quit-mac =
     .label = Surt del { -brand-shorter-name }
+system-tray-menuitem-quit =
+    { PLATFORM() ->
+        [windows] Surt del { -brand-full-name }
+       *[other] Surt del { -brand-full-name }
+    }
 system-tray-menu-quit =
     .label =
         { PLATFORM() ->
