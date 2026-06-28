@@ -1066,3 +1066,23 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Bæta við verkefni
     .tooltiptext = Ná í dagsetningar úr póstinum og bæta við í dagatalið sem verkefni
+new-event-input =
+    .placeholder = Nýr atburður
+new-task-input =
+    .placeholder = Nýtt verkefni
+item-menu-label-event =
+    .label = Atburður
+    .accesskey = A
+item-menu-label-task =
+    .label = Verkefni
+    .accesskey = r
+# Link Location Dialog
+specify-link-location = Settu inn staðsetningu tengils
+enter-link-location = Settu inn vefslóð eða staðsetningu skjals.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Skrá með { $providerName }
+select-a-file = Veldu skrá(r) til að bæta við
+event-recurrence-forever =
+    .label = Að eilífu
