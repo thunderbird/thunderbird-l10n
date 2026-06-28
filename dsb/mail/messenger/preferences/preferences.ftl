@@ -138,6 +138,9 @@ adding-opensearch-provider-failed-title = Pśidawanje  póbitowarja OpenSearch n
 # Variables:
 # $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = Njejo móžno było, póbitowarja OpenSearch za { $url } pśidaś.
+close-to-tray-label =
+    .label = Gaž se { -brand-short-name } zacynja, jen do wótkładnice pśesunuś
+    .accesskey = z
 minimize-to-tray-label =
     .label = Gaž { -brand-short-name } jo miniměrowany, pśesuńśo jen do wótkładnice.
     .accesskey = m
