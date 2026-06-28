@@ -1001,5 +1001,21 @@ enter-link-location = Nurodykite tinklalapio ar dokumento adresą.
 #   $providerName - The FileLink provider display name
 attach-via-filelink = failą per „{ $providerName }“
 select-a-file = Parinkite failą(-us), kurį(-iuos) norite prisegti
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } priėmė kvietimą, bet pateikė alternatyvų pasiūlymą:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } preliminariai priėmė kvietimą ir pateikė alternatyvų pasiūlymą:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } atmetė kvietimą, bet pateikė alternatyvų pasiūlymą:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } delegavo kvietimą kitam asmeniui, bet pateikė alternatyvų pasiūlymą:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } dar nenusprendė, ar dalyvaus, ir pateikė alternatyvų pasiūlymą:
+counter-on-previous-version-notification = Tai yra alternatyvus pasiūlymas ankstesnei šio įvykio versijai.
+counter-on-counter-disallowed-notification = Siųsdami kvietimą, jūs neleidote teikti alternatyvių pasiūlymų.
 event-recurrence-forever =
     .label = Neterminuotai
