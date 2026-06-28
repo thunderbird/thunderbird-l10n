@@ -40,3 +40,15 @@ task-tentative = Ai acceptat provizoriu să lucrezi la această sarcină
 # This will be displayed as notification in the summary dialog if the user has
 # declined the assigned task
 task-declined = Ai refuzat să lucrezi la această sarcină
+# This will be displayed as notification the summary dialog if the user has
+# delegated his/her assignment to one or more others (without attending / working on it his/herself)
+task-delegated = Ai delegat lucrul la această sarcină
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to the task assignment
+task-needs-action = Încă nu ai răspuns la această alocare de sarcină
+# This will be displayed as notification in the summary dialog if the user
+# is working on an assigned task
+task-in-progress = Ai început să lucrezi la această sarcină alocată
+# This will be displayed as notification in the summary dialog if the user
+# has completed the work on this assigned task
+task-completed = Ai terminat de lucrat la această sarcină alocată

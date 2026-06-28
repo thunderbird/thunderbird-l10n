@@ -1118,6 +1118,16 @@ counter-delegated = { $name } a delegat invitația, dar a făcut o contrapropune
 counter-needs-action = { $name } nu s-a decis dacă va participa și a făcut o contrapropunere:
 counter-on-previous-version-notification = Aceasta este o contrapropunere la o versiune anterioară a acestui eveniment.
 counter-on-counter-disallowed-notification = Ai dezactivat posibilitatea de a face contrapropuneri la trimiterea invitației.
+sendandclose-button =
+    .label = Trimite și închide
+    .tooltiptext = Anunță participanții și închide
+saveandsend-button =
+    .label = Salvează și trimite
+    .tooltiptext = Salvează și anunță participanții
+saveandsend-menu =
+    .label = Salvează și trimite
+sendandclose-menu =
+    .label = Trimite și închide
 event-recurrence-forever =
     .label = Pentru totdeauna
 # $count - the number of attendees
