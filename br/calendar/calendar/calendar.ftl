@@ -883,3 +883,15 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Ouzhpennañ e-giz un trevell
     .tooltiptext = Eztennañ titouroù deiziataer diouzh ar gemennadenn-mañ hag ouzhpennañ anezho d’ho teiziataer evel un trevell
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } en deus asantet ar bededenn, met un enep-kinnig en deus savet:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } en deus nac'het ar bededenn, un enep-kinnig en deus savet avat:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } en deus dileuriet ar bededenn, un enep-kinnig en deus savet avat:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } a zo chomet hep divizout kemeret-perzh ha savet en deus un enep-kinnig:
