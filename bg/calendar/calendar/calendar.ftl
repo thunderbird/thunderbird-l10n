@@ -1062,3 +1062,23 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Добавяне на задача
     .tooltiptext = Извличане на календарната информация от съобщението и добавянето ѝ към вашия календар като задача
+new-event-input =
+    .placeholder = Ново събитие
+new-task-input =
+    .placeholder = Нова задача
+item-menu-label-event =
+    .label = Събитие
+    .accesskey = С
+item-menu-label-task =
+    .label = Задача
+    .accesskey = З
+# Link Location Dialog
+specify-link-location = Моля, въведете път на връзката
+enter-link-location = Въведете уеб страница или път до документ.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Файл, използващ { $providerName }
+select-a-file = Моля изберете файл(ове) за прикачване
+event-recurrence-forever =
+    .label = Без крайна дата
