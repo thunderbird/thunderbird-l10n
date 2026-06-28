@@ -15,3 +15,28 @@ edit-button-context-menu-all-occurrences =
     .accesskey = d
 description-context-menu-copy-link-text =
     .label = Wotkazowy tekst kopěrować
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation.
+event-accepted = Sće tute přeprošenje akceptował
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation tentatively
+event-tentative = Sće tute přeprošenje nachwilu akceptował
+# This will be displayed as notification in the summary dialog if the user has
+# declined the event invitation.
+event-declined = Sće tute přeprošenje wotpokazał
+# This will be displayed as notification in the summary dialog if the user has
+# delegated his/her participation to one or more other participants
+# (without attending / working on it his/herself)
+event-delegated = Sće tute přeprošenje delegował
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to an invitation
+event-needs-action = Njejsće hišće na tute přeprošenje wotmołwił
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the assigned task
+task-accepted = Sće akceptował na tutym nadawku dźěłać
+# This will be displayed as notification in the summary dialog if the user has
+# accepted tentatively the assigned task.
+task-tentative = Sće nachwilu akceptował na tutym nadawku dźěłać
+# This will be displayed as notification in the summary dialog if the user has
+# declined the assigned task
+task-declined = Sće wotpokazał na tutym nadawku dźěłać

@@ -1118,3 +1118,7 @@ counter-delegated = { $name } je přeprošenje delegował, ale je přećiwonamje
 counter-needs-action = { $name } njeje rozsudźił, hač so wobdźěli a je přećiwonamjet činił:
 counter-on-previous-version-notification = To je přećiwonamjet za předchadnu wersiju tutoho podawka.
 counter-on-counter-disallowed-notification = Sće činjenje přećiwonamjety zakazał, hdyž so přeprošenje sćele.
+# $count - the number of attendees
+attendees-tab-label = Wobdźělnicy ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Přiwěški ({ $count }):
