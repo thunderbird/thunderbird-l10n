@@ -1,0 +1,51 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+calendar-item-summary-title = Tajuk:
+calendar-item-summary-calendar = Kalendar:
+calendar-item-summary-task-start = Tarikh Mula:
+calendar-item-summary-event-start = Tarikh Mula:
+calendar-item-summary-task-due = Tarikh Tamat tempoh:
+calendar-item-summary-event-end = Tarikh Tamat:
+calendar-item-summary-repeat = Ulang:
+calendar-item-summary-location = Lokasi:
+calendar-item-summary-category = Kategori:
+calendar-item-summary-organizer = Penganjur:
+calendar-item-summary-status = Status:
+calendar-item-summary-reminder = Peringatan:
+calendar-item-summary-attachments = Lampiran:
+calendar-item-summary-reminder-none =
+    .label = Tiada peringatan
+calendar-item-summary-reminder-0-minutes-before =
+    .label = 0 minit sebelum
+calendar-item-summary-reminder-5-minutes-before =
+    .label = 5 minit sebelum
+calendar-item-summary-reminder-15-minutes-before =
+    .label = 15 minit sebelum
+calendar-item-summary-reminder-30-minutes-before =
+    .label = 30 minit sebelum
+calendar-item-summary-reminder-1-hour-before =
+    .label = 1 jam sebelum
+calendar-item-summary-reminder-2-hours-before =
+    .label = 2 jam sebelum
+calendar-item-summary-reminder-12-hours-before =
+    .label = 12 jam sebelum
+calendar-item-summary-reminder-1-day-before =
+    .label = 1 hari sebelum
+calendar-item-summary-reminder-2-days-before =
+    .label = 2 hari sebelum
+calendar-item-summary-reminder-1-week-before =
+    .label = 1 minggu sebelum
+calendar-item-summary-reminder-custom =
+    .label = Penyesuaian…
+calendar-item-summary-reminder-multiple =
+    .value = Berbilang Peringatan…
+calendar-item-summary-general =
+    .value = Umum
+calendar-item-summary-attendees =
+    .value = Peserta
+calendar-item-summary-description =
+    .value = Keterangan
+calendar-item-summary-link =
+    .value = Pautan Berkaitan
