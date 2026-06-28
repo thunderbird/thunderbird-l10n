@@ -1130,6 +1130,16 @@ counter-delegated = Dh’iomruin { $name } an cuireadh ach mhol iad rud eile:
 counter-needs-action = Cha do chuir { $name } romhpa fhathast an gabh iad pàirt agus mhol iad rud eile:
 counter-on-previous-version-notification = Seo moladh eile mu choinneamh tionndadh na bu tràithe dhen tachartas seo.
 counter-on-counter-disallowed-notification = Cha do cheadaich thu do dhaoine rudan eile a mholadh a thaobh a’ chuiridh.
+sendandclose-button =
+    .label = Cuir is dùin e
+    .tooltiptext = Cuir fios gu na freastalaichean is dùin e
+saveandsend-button =
+    .label = Sàbhail is cuir
+    .tooltiptext = Sàbhail is cuir fios gu na freastalaichean
+saveandsend-menu =
+    .label = Sàbhail is cuir
+sendandclose-menu =
+    .label = Cuir is dùin e
 event-recurrence-forever =
     .label = Gu sìorraidh bràth
 # $count - the number of attendees
