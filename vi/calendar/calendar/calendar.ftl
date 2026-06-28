@@ -998,3 +998,39 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Thêm dưới dạng nhiệm vụ
     .tooltiptext = Trích xuất thông tin lịch từ tin nhắn và thêm nó vào lịch của bạn như là một nhiệm vụ
+new-event-input =
+    .placeholder = Sự kiện mới
+new-task-input =
+    .placeholder = Tác vụ mới
+item-menu-label-event =
+    .label = Sự kiện
+    .accesskey = F
+item-menu-label-task =
+    .label = Tác vụ
+    .accesskey = F
+# Link Location Dialog
+specify-link-location = Vui lòng xác định địa chỉ liên kết
+enter-link-location = Nhập một trang web, hoặc địa chỉ tài liệu.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Tập tin sử dụng { $providerName }
+select-a-file = Vui lòng chọn tập tin đính kèm
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } đã chấp nhận lời mời, nhưng đưa ra đề xuất phản đối:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } chỉ chấp nhận tạm thời lời mời và đưa ra đề xuất phản đối:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } đã từ chối lời mời, nhưng đưa ra đề xuất phản đối:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } đã ủy quyền lời mời, nhưng đưa ra đề xuất phản đối:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } chưa quyết định có tham gia hay không và đưa ra đề xuất phản đối:
+counter-on-previous-version-notification = Đây là một đề xuất phản đối cho một phiên bản trước của sự kiện này.
+counter-on-counter-disallowed-notification = Bạn không được phép phản đối khi gửi lời mời.
+event-recurrence-forever =
+    .label = Mãi mãi
