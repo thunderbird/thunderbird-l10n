@@ -1132,3 +1132,7 @@ counter-on-previous-version-notification = Seo moladh eile mu choinneamh tionnda
 counter-on-counter-disallowed-notification = Cha do cheadaich thu do dhaoine rudan eile a mholadh a thaobh a’ chuiridh.
 event-recurrence-forever =
     .label = Gu sìorraidh bràth
+# $count - the number of attendees
+attendees-tab-label = Freastalaichean ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Ceanglachain ({ $count }):
