@@ -1,0 +1,51 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+calendar-item-summary-title = Judul:
+calendar-item-summary-calendar = Kalender:
+calendar-item-summary-task-start = Tanggal Mulai:
+calendar-item-summary-event-start = Tanggal Mulai:
+calendar-item-summary-task-due = Tanggal Berakhir:
+calendar-item-summary-event-end = Tanggal Selesai:
+calendar-item-summary-repeat = Perulangan:
+calendar-item-summary-location = Lokasi:
+calendar-item-summary-category = Kategori:
+calendar-item-summary-organizer = Penyelenggara:
+calendar-item-summary-status = Status:
+calendar-item-summary-reminder = Pengingat:
+calendar-item-summary-attachments = Lampiran:
+calendar-item-summary-reminder-none =
+    .label = Tidak ada pengingat
+calendar-item-summary-reminder-0-minutes-before =
+    .label = 0 menit sebelumnya
+calendar-item-summary-reminder-5-minutes-before =
+    .label = 5 menit sebelumnya
+calendar-item-summary-reminder-15-minutes-before =
+    .label = 15 menit sebelumnya
+calendar-item-summary-reminder-30-minutes-before =
+    .label = 30 menit sebelumnya
+calendar-item-summary-reminder-1-hour-before =
+    .label = 1 jam sebelumnya
+calendar-item-summary-reminder-2-hours-before =
+    .label = 2 jam sebelumnya
+calendar-item-summary-reminder-12-hours-before =
+    .label = 12 jam sebelumnya
+calendar-item-summary-reminder-1-day-before =
+    .label = 1 hari sebelumnya
+calendar-item-summary-reminder-2-days-before =
+    .label = 2 hari sebelumnya
+calendar-item-summary-reminder-1-week-before =
+    .label = 1 minggu sebelumnya
+calendar-item-summary-reminder-custom =
+    .label = Ubahsuai…
+calendar-item-summary-reminder-multiple =
+    .value = Pengingat Berganda…
+calendar-item-summary-general =
+    .value = Umum
+calendar-item-summary-attendees =
+    .value = Undangan
+calendar-item-summary-description =
+    .value = Keterangan
+calendar-item-summary-link =
+    .value = Tautan terkait
