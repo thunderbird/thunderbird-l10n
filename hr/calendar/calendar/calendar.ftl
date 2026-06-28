@@ -1116,3 +1116,7 @@ counter-on-previous-version-notification = Ovo je protuprijedlog za prethodnu in
 counter-on-counter-disallowed-notification = Niste omogućili protuprijedloge prilikom slanja poziva.
 event-recurrence-forever =
     .label = Zauvijek
+# $count - the number of attendees
+attendees-tab-label = Sudionici ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Privitci ({ $count }):
