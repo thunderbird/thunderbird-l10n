@@ -1102,6 +1102,16 @@ counter-delegated = { $name } a délégué l’invitation, mais a fait une contr
 counter-needs-action = { $name } n’a pas pris de décision sur sa participation et a fait une contre-proposition :
 counter-on-previous-version-notification = Cette contre-proposition concerne une version précédente de l’évènement.
 counter-on-counter-disallowed-notification = Vous n’avez pas autorisé les contre-propositions lors de l’envoi de l’invitation.
+sendandclose-button =
+    .label = Envoyer et fermer
+    .tooltiptext = Informer les participants et fermer
+saveandsend-button =
+    .label = Enregistrer et envoyer
+    .tooltiptext = Enregistrer et informer les participants
+saveandsend-menu =
+    .label = Enregistrer et envoyer
+sendandclose-menu =
+    .label = Envoyer et fermer
 event-recurrence-forever =
     .label = Tout le temps
 # $count - the number of attendees
