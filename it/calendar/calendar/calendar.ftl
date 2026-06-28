@@ -1066,6 +1066,16 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Aggiungi come attività
     .tooltiptext = Estrai le informazioni del calendario dal messaggio e aggiungile al calendario personale come attività
+sendandclose-button =
+    .label = Invia e chiudi
+    .tooltiptext = Notifica i partecipanti e chiudi
+saveandsend-button =
+    .label = Salva e invia
+    .tooltiptext = Salva e notifica i partecipanti
+saveandsend-menu =
+    .label = Salva e invia
+sendandclose-menu =
+    .label = Invia e chiudi
 # $count - the number of attendees
 attendees-tab-label = Partecipanti ({ $count }):
 # $count - the number of attachments

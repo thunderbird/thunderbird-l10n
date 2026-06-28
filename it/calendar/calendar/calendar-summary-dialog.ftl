@@ -15,3 +15,15 @@ edit-button-context-menu-all-occurrences =
     .accesskey = d
 description-context-menu-copy-link-text =
     .label = Copia testo del link
+# This will be displayed as notification the summary dialog if the user has
+# delegated his/her assignment to one or more others (without attending / working on it his/herself)
+task-delegated = Si è delegato il lavoro a questa attività
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to the task assignment
+task-needs-action = Non si è ancora risposto all’assegnazione di questa attività
+# This will be displayed as notification in the summary dialog if the user
+# is working on an assigned task
+task-in-progress = Il lavoro su questa attività assegnata è stato iniziato
+# This will be displayed as notification in the summary dialog if the user
+# has completed the work on this assigned task
+task-completed = Il lavoro su questa attività assegnata è stato completato
