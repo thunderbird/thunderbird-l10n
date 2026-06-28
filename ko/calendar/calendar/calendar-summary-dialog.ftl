@@ -40,3 +40,15 @@ task-tentative = 이 일의 작업을 미정으로 수락함
 # This will be displayed as notification in the summary dialog if the user has
 # declined the assigned task
 task-declined = 이 일의 작업을 거절함
+# This will be displayed as notification the summary dialog if the user has
+# delegated his/her assignment to one or more others (without attending / working on it his/herself)
+task-delegated = 이 일의 작업을 위임함
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to the task assignment
+task-needs-action = 이 일 할당에 아직 응답하지 않음
+# This will be displayed as notification in the summary dialog if the user
+# is working on an assigned task
+task-in-progress = 이 일 할당을 시작했음
+# This will be displayed as notification in the summary dialog if the user
+# has completed the work on this assigned task
+task-completed = 이 일 할당을 완료 했음

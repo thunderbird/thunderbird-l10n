@@ -1016,6 +1016,16 @@ counter-delegated = { $name } 가 초대를 위임하였지만, 반대 제안을
 counter-needs-action = { $name } 가 참여할지 아직 결정하지 않았으며, 반대 제안을 함:
 counter-on-previous-version-notification = 이 이벤트의 이전 버전에 대한 반대 제안입니다.
 counter-on-counter-disallowed-notification = 초대를 보낼 때, 반대를 허가하지 않습니다.
+sendandclose-button =
+    .label = 보내고 닫기
+    .tooltiptext = 참석자에게 알리고 닫기
+saveandsend-button =
+    .label = 저장하고 보내기
+    .tooltiptext = 저장하고 참삭자에게 알림
+saveandsend-menu =
+    .label = 저장하고 보내기
+sendandclose-menu =
+    .label = 저장하고 닫기
 event-recurrence-forever =
     .label = 끝나지 않음
 # $count - the number of attendees
