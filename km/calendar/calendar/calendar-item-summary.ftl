@@ -1,0 +1,54 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+calendar-item-summary-title = ចំណងជើង៖
+calendar-item-summary-calendar = ប្រតិទិន៖
+calendar-item-summary-task-start = ថ្ងៃចាប់ផ្តើម៖
+calendar-item-summary-event-start = ថ្ងៃចាប់ផ្តើម៖
+calendar-item-summary-task-due = ថ្ងៃផុតកំណត់៖
+calendar-item-summary-event-end = កាលបរិច្ឆេទបញ្ចប់៖
+calendar-item-summary-repeat = ធ្វើម្តងទៀត៖
+calendar-item-summary-location = ទីតាំង ៖
+calendar-item-summary-category = ប្រភេទ ៖
+calendar-item-summary-organizer = អ្នករៀបចំ៖
+calendar-item-summary-status = ស្ថានភាព៖
+calendar-item-summary-reminder = ការរំលឹក៖
+calendar-item-summary-attachments = ឯកសារ​ភ្ជាប់ ៖
+calendar-item-summary-event-status-cancelled = បាន​បោះបង់
+calendar-item-summary-todo-status-cancelled = បាន​បោះបង់
+calendar-item-summary-status-completed = បានបញ្ចប់នៅ
+calendar-item-summary-reminder-none =
+    .label = គ្មានការរំលឹកទេ
+calendar-item-summary-reminder-0-minutes-before =
+    .label = មុនពេល 0 នាទី
+calendar-item-summary-reminder-5-minutes-before =
+    .label = មុនពេល 5 នាទី
+calendar-item-summary-reminder-15-minutes-before =
+    .label = មុនពេល 15 នាទី
+calendar-item-summary-reminder-30-minutes-before =
+    .label = មុនពេល 30 នាទី
+calendar-item-summary-reminder-1-hour-before =
+    .label = មុនពេល 1 ម៉ោង
+calendar-item-summary-reminder-2-hours-before =
+    .label = មុនពេល 2 ម៉ោង
+calendar-item-summary-reminder-12-hours-before =
+    .label = មុនពេល 12 ម៉ោង
+calendar-item-summary-reminder-1-day-before =
+    .label = មុនពេល 1 ថ្ងៃ
+calendar-item-summary-reminder-2-days-before =
+    .label = មុនពេល 2 ថ្ងៃ
+calendar-item-summary-reminder-1-week-before =
+    .label = មុនពេល 1 សប្ដាហ៍
+calendar-item-summary-reminder-custom =
+    .label = ផ្ទាល់ខ្លួន…
+calendar-item-summary-reminder-multiple =
+    .value = ការរំលឹកច្រើន…
+calendar-item-summary-general =
+    .value = ទូទៅ
+calendar-item-summary-attendees =
+    .value = អ្នកចូលរួម
+calendar-item-summary-description =
+    .value = សេចក្ដី​ពិពណ៌នា
+calendar-item-summary-link =
+    .value = តំណភ្ជាប់ពាក់ព័ន្ធ
