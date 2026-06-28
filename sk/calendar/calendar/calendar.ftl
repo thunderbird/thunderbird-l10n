@@ -1125,6 +1125,16 @@ counter-delegated = Používateľ { $name } delegoval pozvanie ale vytvoril prot
 counter-needs-action = Používateľ { $name } sa nerozhodol, či sa zúčastní a vytvoril protinávrh:
 counter-on-previous-version-notification = Toto je protinávrh na predchádzajúcu verziu tejto udalosti.
 counter-on-counter-disallowed-notification = Pri odosielaní pozvánok ste zakázali vytváranie protinávrhov.
+sendandclose-button =
+    .label = Odoslať a zavrieť
+    .tooltiptext = Upozorní účastníkov a zavrie okno
+saveandsend-button =
+    .label = Uložiť a odoslať
+    .tooltiptext = Uloží udalosť a upozorní účastníkov
+saveandsend-menu =
+    .label = Uložiť a odoslať
+sendandclose-menu =
+    .label = Odoslať a zavrieť
 event-recurrence-forever =
     .label = Bez obmedzenia
 # $count - the number of attendees
