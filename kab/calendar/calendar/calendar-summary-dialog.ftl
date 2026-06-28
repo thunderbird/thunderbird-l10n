@@ -15,3 +15,28 @@ edit-button-context-menu-all-occurrences =
     .accesskey = a
 description-context-menu-copy-link-text =
     .label = Nɣel aḍris n useɣwen
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation.
+event-accepted = Tqebleḍ tunubga-agi
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation tentatively
+event-tentative = Tqebleḍ s wudem askudan tinubga-agi
+# This will be displayed as notification in the summary dialog if the user has
+# declined the event invitation.
+event-declined = Tugiḍ tinubga-agi
+# This will be displayed as notification in the summary dialog if the user has
+# delegated his/her participation to one or more other participants
+# (without attending / working on it his/herself)
+event-delegated = Tugiḍ tinubga-agi s wudem askudan
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to an invitation
+event-needs-action = UR terriḍ ara awal i tinubga-agi
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the assigned task
+task-accepted = Tqebleḍ ad txedmeḍ tawuri-agi
+# This will be displayed as notification in the summary dialog if the user has
+# accepted tentatively the assigned task.
+task-tentative = Tqebleḍ ad txedmeḍ tawuri-agi s wudem askudan
+# This will be displayed as notification in the summary dialog if the user has
+# declined the assigned task
+task-declined = Tugiḍ ad txedmeḍ tawuri-agi

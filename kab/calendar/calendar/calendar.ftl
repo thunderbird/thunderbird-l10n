@@ -1054,3 +1054,7 @@ counter-delegated = { $name } imud tinubga i wayeḍ, acukan ɣur-s asumer n ume
 counter-needs-action = { $name } ur yegzim ṛṛay ma yell ad ittekki neɣ ala udiɣ yesurmer-d amesmiḍan:
 counter-on-previous-version-notification = Asumer n umesmiḍan n lqem yezrin n tedyant.
 counter-on-counter-disallowed-notification = Ur testesirgeḍ ara asiḍen di tuzna n tinubga.
+# $count - the number of attendees
+attendees-tab-label = Imttekkiyen ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Ifuyla yeddan ({ $count }):
