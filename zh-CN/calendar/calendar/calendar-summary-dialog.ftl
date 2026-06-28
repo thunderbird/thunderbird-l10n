@@ -15,3 +15,28 @@ edit-button-context-menu-all-occurrences =
     .accesskey = a
 description-context-menu-copy-link-text =
     .label = 复制链接文本
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation.
+event-accepted = 您已接受此邀请
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation tentatively
+event-tentative = 您已暂时接受此邀请
+# This will be displayed as notification in the summary dialog if the user has
+# declined the event invitation.
+event-declined = 您已拒绝此邀请
+# This will be displayed as notification in the summary dialog if the user has
+# delegated his/her participation to one or more other participants
+# (without attending / working on it his/herself)
+event-delegated = 您已委托他人代为参与此邀请
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to an invitation
+event-needs-action = 您尚未回复此邀请
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the assigned task
+task-accepted = 您已接受此任务
+# This will be displayed as notification in the summary dialog if the user has
+# accepted tentatively the assigned task.
+task-tentative = 您已暂时接受此任务
+# This will be displayed as notification in the summary dialog if the user has
+# declined the assigned task
+task-declined = 您已拒绝此任务
