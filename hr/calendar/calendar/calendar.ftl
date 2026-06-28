@@ -1114,6 +1114,16 @@ counter-delegated = { $name } je delegirao poziv, ali je poslao protuprijedlog:
 counter-needs-action = { $name } nije odlučio da li sudjelovati, ali je poslao protuprijedlog:
 counter-on-previous-version-notification = Ovo je protuprijedlog za prethodnu inačicu ovog događaja.
 counter-on-counter-disallowed-notification = Niste omogućili protuprijedloge prilikom slanja poziva.
+sendandclose-button =
+    .label = Pošalji i zatvori
+    .tooltiptext = Obavijesti sudionike i zatvori
+saveandsend-button =
+    .label = Spremi i pošalji
+    .tooltiptext = Spremi i obavijesti sudionike
+saveandsend-menu =
+    .label = Spremi i pošalji
+sendandclose-menu =
+    .label = Pošalji i zatvori
 event-recurrence-forever =
     .label = Zauvijek
 # $count - the number of attendees
