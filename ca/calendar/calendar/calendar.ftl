@@ -1035,5 +1035,23 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Afegeix com a tasca
     .tooltiptext = Extreu la informació temporal del missatge i l'afegeix al calendari com a tasca
+new-event-input =
+    .placeholder = Cita nova
+new-task-input =
+    .placeholder = Tasca nova
+item-menu-label-event =
+    .label = Cita
+    .accesskey = C
+item-menu-label-task =
+    .label = Tasca
+    .accesskey = T
+# Link Location Dialog
+specify-link-location = Indiqueu l'adreça de l'enllaç
+enter-link-location = Escriviu l'adreça d'una pàgina web o la ubicació d'un document.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Fitxer mitjançant { $providerName }
+select-a-file = Seleccioneu els fitxers que voleu adjuntar
 event-recurrence-forever =
     .label = Per sempre
