@@ -1102,6 +1102,24 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Ako nadawk pśidaś
     .tooltiptext = Kalenderowe informacije z powěsći ekstrahěrowaś a je wašomu kalenderoju ako nadawk pśidaś
+new-event-input =
+    .placeholder = Nowe tšojenje
+new-task-input =
+    .placeholder = Nowy nadawk
+item-menu-label-event =
+    .label = Tšojenje
+    .accesskey = T
+item-menu-label-task =
+    .label = Nadawk
+    .accesskey = N
+# Link Location Dialog
+specify-link-location = pšosym pódajśo adresu wótkaza
+enter-link-location = Zapódajśo adresu webboka abo dokumenta.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Dataja z { $providerName }
+select-a-file = Pšosym wubjeŕśo dataje, kótarež maju se pśidaś
 # Variables:
 #   $name - The name of responding invitee.
 counter-accepted = { $name } jo pśepšosenje akceptěrował, ale jo pśeśiwonaraźenje cynił:
@@ -1118,6 +1136,18 @@ counter-delegated = { $name } jo pśepšosenje delegěrował, ale jo pśeśiwona
 counter-needs-action = { $name } njejo rozsuźił, lěc se wobźělijo a jo pśeśiwonaraźenje cynił:
 counter-on-previous-version-notification = To jo pśeśiwonaraźenje za pjerwjejšnu wersiju toś togo tšojenja.
 counter-on-counter-disallowed-notification = Sćo cynjenje pśeśiwonaraźenja zakazał, gaž se pśepšosenje sćelo.
+sendandclose-button =
+    .label = Pósłaś a zacyniś
+    .tooltiptext = Wobźělniki informěrowaś a zacyniś
+saveandsend-button =
+    .label = Składowaś a pósłaś
+    .tooltiptext = Składowaś a wobźělniki informěrowaś
+saveandsend-menu =
+    .label = Składowaś a pósłaś
+sendandclose-menu =
+    .label = Pósłaś a zacyniś
+event-recurrence-forever =
+    .label = Na pśecej
 # $count - the number of attendees
 attendees-tab-label = Wobźělniki ({ $count }):
 # $count - the number of attachments

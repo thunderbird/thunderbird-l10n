@@ -40,3 +40,15 @@ task-tentative = Sćo akceptěrował nachylu na toś tom nadawku źěłaś
 # This will be displayed as notification in the summary dialog if the user has
 # declined the assigned task
 task-declined = Sćo wótpokazał na toś tom nadawku źěłaś
+# This will be displayed as notification the summary dialog if the user has
+# delegated his/her assignment to one or more others (without attending / working on it his/herself)
+task-delegated = Sćo delegěrował źěło na toś tom nadawku
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to the task assignment
+task-needs-action = Na pśipokazanje toś togo nadawka njejsćo hyšći wótegronił
+# This will be displayed as notification in the summary dialog if the user
+# is working on an assigned task
+task-in-progress = Sćo zachopił, na toś tom pśipokazanem nadawku źěłaś
+# This will be displayed as notification in the summary dialog if the user
+# has completed the work on this assigned task
+task-completed = Sćo dokóńcył swójo źěło na toś tom pśipokazanem nadawku
