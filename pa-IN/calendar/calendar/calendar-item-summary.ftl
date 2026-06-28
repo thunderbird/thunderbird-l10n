@@ -1,0 +1,49 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+calendar-item-summary-title = ਟਾਈਟਲ:
+calendar-item-summary-task-start = Start Date:
+calendar-item-summary-event-start = Start Date:
+calendar-item-summary-task-due = Due Date:
+calendar-item-summary-event-end = End Date:
+calendar-item-summary-repeat = Repeat:
+calendar-item-summary-location = Location:
+calendar-item-summary-category = Category:
+calendar-item-summary-organizer = Organizer:
+calendar-item-summary-status = ਸਥਿਤੀ:
+calendar-item-summary-reminder = Reminder:
+calendar-item-summary-reminder-none =
+    .label = No reminder
+calendar-item-summary-reminder-0-minutes-before =
+    .label = 0 ਮਿੰਟ ਪਹਿਲਾਂ
+calendar-item-summary-reminder-5-minutes-before =
+    .label = 5 ਮਿੰਟ ਪਹਿਲਾਂ
+calendar-item-summary-reminder-15-minutes-before =
+    .label = 15 ਮਿੰਟ ਪਹਿਲਾਂ
+calendar-item-summary-reminder-30-minutes-before =
+    .label = 30 ਮਿੰਟ ਪਹਿਲਾਂ
+calendar-item-summary-reminder-1-hour-before =
+    .label = 1 ਘੰਟਾ ਪਹਿਲਾਂ
+calendar-item-summary-reminder-2-hours-before =
+    .label = 2 ਘੰਟੇ ਪਹਿਲਾਂ
+calendar-item-summary-reminder-12-hours-before =
+    .label = 12 ਘੰਟੇ ਪਹਿਲਾਂ
+calendar-item-summary-reminder-1-day-before =
+    .label = 1 ਦਿਨ ਪਹਿਲਾਂ
+calendar-item-summary-reminder-2-days-before =
+    .label = 2 ਦਿਨ ਪਹਿਲਾਂ
+calendar-item-summary-reminder-1-week-before =
+    .label = 1 ਹਫ਼ਤਾ ਪਹਿਲਾਂ
+calendar-item-summary-reminder-custom =
+    .label = ਕਸਟਮ...
+calendar-item-summary-reminder-multiple =
+    .value = Multiple Reminders…
+calendar-item-summary-general =
+    .value = ਆਮ
+calendar-item-summary-attendees =
+    .value = Attendees
+calendar-item-summary-description =
+    .value = Description
+calendar-item-summary-link =
+    .value = Related Link
