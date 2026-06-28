@@ -1066,3 +1066,39 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Lisää tehtäväksi
     .tooltiptext = Etsi aikataulutiedot viestistä ja lisää ne kalenteriin tehtäväksi
+new-event-input =
+    .placeholder = Uusi tapahtuma
+new-task-input =
+    .placeholder = Uusi tehtävä
+item-menu-label-event =
+    .label = Tapahtuma
+    .accesskey = T
+item-menu-label-task =
+    .label = Tehtävä
+    .accesskey = T
+# Link Location Dialog
+specify-link-location = Määritä linkin sijainti
+enter-link-location = Kirjoita verkkosivun tai asiakirjan sijainti.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Tallenna käyttäen { $providerName }
+select-a-file = Valitse liitettävät tiedostot
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } on hyväksynyt kutsun, mutta on tehnyt vastaehdotuksen:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } on hyväksynyt kutsun vain alustavasti ja tehnyt vastaehdotuksen:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } on hylännyt kutsun, mutta tehnyt vastaehdotuksen:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } on delegoinut kutsun, mutta on tehnyt vastaehdotuksen:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } ei ole päättänyt osallistumisesta ja on tehnyt vastaehdotuksen:
+counter-on-previous-version-notification = Tämä on vastaehdotus tapahtuman aikaisempaan versioon.
+counter-on-counter-disallowed-notification = Estit vastaehdotukset lähettäessäsi kutsua.
+event-recurrence-forever =
+    .label = Ikuisesti

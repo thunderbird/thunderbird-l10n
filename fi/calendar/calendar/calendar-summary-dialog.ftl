@@ -15,3 +15,28 @@ edit-button-context-menu-all-occurrences =
     .accesskey = u
 description-context-menu-copy-link-text =
     .label = Kopioi linkin teksti
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation.
+event-accepted = Olet hyväksynyt tämän kutsun
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation tentatively
+event-tentative = Olet alustavasti hyväksynyt tämän kutsun
+# This will be displayed as notification in the summary dialog if the user has
+# declined the event invitation.
+event-declined = Olet hylännyt tämän kutsun
+# This will be displayed as notification in the summary dialog if the user has
+# delegated his/her participation to one or more other participants
+# (without attending / working on it his/herself)
+event-delegated = Olet delegoinut tämän kutsun
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to an invitation
+event-needs-action = Et ole vielä vastannut tähän kutsuun
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the assigned task
+task-accepted = Olet ilmoittanut osallistuvasi tähän tehtävään
+# This will be displayed as notification in the summary dialog if the user has
+# accepted tentatively the assigned task.
+task-tentative = Olet alustavasti ilmoittanut osallistuvasi tähän tehtävään
+# This will be displayed as notification in the summary dialog if the user has
+# declined the assigned task
+task-declined = Olet hylännyt kutsun osallistua tähän tehtävään
