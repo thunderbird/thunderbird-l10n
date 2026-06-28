@@ -1062,3 +1062,23 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Adicionar como tarefa
     .tooltiptext = Extrair informações de agenda a partir da mensagem e adicionar à sua agenda como uma tarefa
+new-event-input =
+    .placeholder = Novo evento
+new-task-input =
+    .placeholder = Nova tarefa
+item-menu-label-event =
+    .label = Evento
+    .accesskey = v
+item-menu-label-task =
+    .label = Tarefa
+    .accesskey = F
+# Link Location Dialog
+specify-link-location = Favor especificar local do atalho
+enter-link-location = Digite uma página da internet, ou local de documento.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Arquivo usando { $providerName }
+select-a-file = Favor selecionar arquivo(s) para anexar
+event-recurrence-forever =
+    .label = Sempre
