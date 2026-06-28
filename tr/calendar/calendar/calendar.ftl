@@ -1080,5 +1080,21 @@ enter-link-location = Web sayfası veya belge adresini girin.
 #   $providerName - The FileLink provider display name
 attach-via-filelink = { $providerName } kullanarak dosyala
 select-a-file = Lütfen eklenecek dosyaları seçin
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } daveti kabul etti, ancak karşı teklifte bulundu:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } daveti geçici olarak kabul etti, ancak karşı teklifte bulundu:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } daveti reddetti, ancak karşı teklifte bulundu:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } daveti başkasına devretti, ancak karşı teklifte bulundu:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } katılıp katılmama kararı vermedi ve karşı teklifte bulundu:
+counter-on-previous-version-notification = Bu, bu etkinliğin önceki bir sürümü için yapılan bir karşı teklif.
+counter-on-counter-disallowed-notification = Daveti gönderirken davetin geri çevrilmesine izin vermediniz.
 event-recurrence-forever =
     .label = Sonsuz
