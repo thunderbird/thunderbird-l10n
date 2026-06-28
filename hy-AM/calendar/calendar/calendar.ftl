@@ -1031,3 +1031,33 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Ավելացնել որպես առաջադրանք
     .tooltiptext = Հանե՛ք օրացույցի տեղեկությունը հաղորդագրությունից և ավելացրե՛ք այն ձեր օրացույցում որպես առաջադրանք
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } - ը ընդունել է հրավերը, սակայն ուղարկել է պատասխան առաջարկ․
+#   $name - The name of responding invitee.
+counter-tentative = { $name }- ն ընդունել է հրավերը նախօրոք և պատասխան առաջարկ է արել.
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name }- ն մերժել է հրավերը, սակայն հակառակ առաջարկ է արել.
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } ֊ն պատվիրել է հրավեր, սակայն պատասխան առաջարկ է արել․
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } ֊ն չի որոշել իր մասնակցությունը, և պատասխան առաջարկ է արել․
+counter-on-previous-version-notification = Սա այս իրադարձության նախորդ տարբերակի պատասխան առաջարկն է:
+counter-on-counter-disallowed-notification = Դուք արգելել Եք հակազդումը, նամակը ուղարկելիս։
+sendandclose-button =
+    .label = Ուղարկել և փակել
+    .tooltiptext = Տեղեկացնել մասնակիցներին և փակել
+saveandsend-button =
+    .label = Պահել և ուղարկել
+    .tooltiptext = Պահել և տեղեկացնել մասնակիցներին
+saveandsend-menu =
+    .label = Պահել և ուղարկել
+sendandclose-menu =
+    .label = Ուղարկել և փակել
+# $count - the number of attendees
+attendees-tab-label = Մասնակիցներ ({ $count })․
+# $count - the number of attachments
+attachments-tab-label = Հավելվածներ ({ $count })․
