@@ -1035,3 +1035,5 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Afegeix com a tasca
     .tooltiptext = Extreu la informació temporal del missatge i l'afegeix al calendari com a tasca
+event-recurrence-forever =
+    .label = Per sempre
