@@ -1032,6 +1032,16 @@ counter-delegated = { $name } telah mendelegasikan undangan, tetapi membuat prop
 counter-needs-action = { $name } belum memutuskan ikut serta dan membuat proposal tandingan:
 counter-on-previous-version-notification = Ini adalah proposal tandingan untuk versi acara sebelumnya
 counter-on-counter-disallowed-notification = Anda mematikan penghitung ketika mengirimkan undangan
+sendandclose-button =
+    .label = Kirim dan Tutup
+    .tooltiptext = Beri tahu peserta dan tutup
+saveandsend-button =
+    .label = Simpan dan Kirim
+    .tooltiptext = Simpan dan beri tahu peserta
+saveandsend-menu =
+    .label = Simpan dan Kirim
+sendandclose-menu =
+    .label = Kirim dan Tutup
 event-recurrence-forever =
     .label = Selamanya
 # $count - the number of attendees
