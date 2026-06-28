@@ -40,3 +40,15 @@ task-tentative = Bạn đã chấp nhận tạm thời để làm tác vụ này
 # This will be displayed as notification in the summary dialog if the user has
 # declined the assigned task
 task-declined = Bạn đã từ chối làm tác vụ này
+# This will be displayed as notification the summary dialog if the user has
+# delegated his/her assignment to one or more others (without attending / working on it his/herself)
+task-delegated = Bạn đã ủy quyền công việc cho tác vụ này
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to the task assignment
+task-needs-action = Bạn chưa trả lời cho tác vụ này
+# This will be displayed as notification in the summary dialog if the user
+# is working on an assigned task
+task-in-progress = Bạn đã bắt đầu làm việc với tác vụ được giao này
+# This will be displayed as notification in the summary dialog if the user
+# has completed the work on this assigned task
+task-completed = Bạn đã hoàn thành công việc của mình trong tác vụ được giao này
