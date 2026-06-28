@@ -68,6 +68,11 @@ menu-quit =
 # This menu-quit-mac string is only used on macOS.
 menu-quit-mac =
     .label = { -brand-shorter-name } skónčić
+system-tray-menuitem-quit =
+    { PLATFORM() ->
+        [windows] { -brand-full-name } skónčić
+       *[other] { -brand-full-name } skónčić
+    }
 system-tray-menu-quit =
     .label =
         { PLATFORM() ->
