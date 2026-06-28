@@ -1100,6 +1100,16 @@ counter-delegated = { $name } har uddelegeret invitationen, men har samtidig for
 counter-needs-action = { $name } har endnu ikke besluttet sig for at deltage, men har foreslået ændringer:
 counter-on-previous-version-notification = Dette er et ændringsforslag til en tidligere udgave af denne begivenhed.
 counter-on-counter-disallowed-notification = Du har forbudt ændringsforslag, da du udsendte denne invitation.
+sendandclose-button =
+    .label = Send og luk
+    .tooltiptext = Send meddelelse til deltagerne og luk
+saveandsend-button =
+    .label = Gem og send
+    .tooltiptext = Gen og send meddelelse til deltagerne
+saveandsend-menu =
+    .label = Gem og send
+sendandclose-menu =
+    .label = Send og luk
 event-recurrence-forever =
     .label = For evigt
 # $count - the number of attendees

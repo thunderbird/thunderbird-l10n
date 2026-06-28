@@ -40,3 +40,15 @@ task-tentative = Du har midlertidigt accepteret at arbejde på denne opgave
 # This will be displayed as notification in the summary dialog if the user has
 # declined the assigned task
 task-declined = Du har afvist at arbejde på denne opgave
+# This will be displayed as notification the summary dialog if the user has
+# delegated his/her assignment to one or more others (without attending / working on it his/herself)
+task-delegated = Du har uddelegeret arbejdet på denne opgave
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to the task assignment
+task-needs-action = Du har endnu ikke svaret på denne opgavetildeling
+# This will be displayed as notification in the summary dialog if the user
+# is working on an assigned task
+task-in-progress = Du er begyndt at arbejde på denne tildelte opgave
+# This will be displayed as notification in the summary dialog if the user
+# has completed the work on this assigned task
+task-completed = Du har fuldført dit arbejde med denne tildelte opgave
