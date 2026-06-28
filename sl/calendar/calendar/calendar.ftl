@@ -1136,6 +1136,16 @@ counter-delegated = { $name } bo na dogodek poslal predstavnika, vendar ima nado
 counter-needs-action = { $name } se še ni odločil, ali se bo udeležil in ima nadomestni predlog:
 counter-on-previous-version-notification = To je nadomestni predlog za prejšnjo različico tega dogodka.
 counter-on-counter-disallowed-notification = Ko ste poslali povabilo, niste dovolili nadomestnih predlogov.
+sendandclose-button =
+    .label = Shrani in zapri
+    .tooltiptext = Obvesti udeležence in zapri
+saveandsend-button =
+    .label = Shrani in pošlji
+    .tooltiptext = Shrani in obvesti udeležence
+saveandsend-menu =
+    .label = Shrani in pošlji
+sendandclose-menu =
+    .label = Shrani in zapri
 event-recurrence-forever =
     .label = Vedno
 # $count - the number of attendees
