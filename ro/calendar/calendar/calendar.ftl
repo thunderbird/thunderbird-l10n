@@ -1102,5 +1102,21 @@ enter-link-location = Introdu o pagină web sau locația documentului.
 #   $providerName - The FileLink provider display name
 attach-via-filelink = Atașare fișier folosind { $providerName }
 select-a-file = Te rugăm să selectezi fișierul/fișierele de atașat
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } a acceptat invitația, dar a făcut o contrapropunere:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } a acceptat doar provizoriu invitația și făcut o contrapropunere:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } a refuzat invitația, dar a făcut o contrapropunere:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } a delegat invitația, dar a făcut o contrapropunere:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } nu s-a decis dacă va participa și a făcut o contrapropunere:
+counter-on-previous-version-notification = Aceasta este o contrapropunere la o versiune anterioară a acestui eveniment.
+counter-on-counter-disallowed-notification = Ai dezactivat posibilitatea de a face contrapropuneri la trimiterea invitației.
 event-recurrence-forever =
     .label = Pentru totdeauna
