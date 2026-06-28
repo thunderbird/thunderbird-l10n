@@ -15,3 +15,27 @@ edit-button-context-menu-all-occurrences =
     .accesskey = כ
 description-context-menu-copy-link-text =
     .label = העתקת הטקסט מהקישור
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation.
+event-accepted = קיבלת את ההזמנה הזאת
+# This will be displayed as notification in the summary dialog if the user has
+# declined the event invitation.
+event-declined = סירבת להזמנה הזאת
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to an invitation
+event-needs-action = עדיין לא הגבת להזמנה הזאת
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the assigned task
+task-accepted = הסכמת לעבוד על משימה זו
+# This will be displayed as notification in the summary dialog if the user has
+# declined the assigned task
+task-declined = סירבת לעבוד על משימה זו
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to the task assignment
+task-needs-action = לא הגבת להקצאת משימה זו
+# This will be displayed as notification in the summary dialog if the user
+# is working on an assigned task
+task-in-progress = התחלת לעבוד על משימה זו שהוקצתה
+# This will be displayed as notification in the summary dialog if the user
+# has completed the work on this assigned task
+task-completed = השלמת את עבודתך על משימה זו שהוקצתה
