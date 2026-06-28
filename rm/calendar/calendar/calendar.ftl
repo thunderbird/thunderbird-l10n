@@ -1078,3 +1078,7 @@ counter-delegated = { $name } ha delegà l'invitaziun, ma ha fatg ina cuntraprop
 counter-needs-action = { $name } n'ha betg decidì davart sia participaziun ed ha fatg ina cuntraproposta:
 counter-on-previous-version-notification = Quai è ina cuntraproposta per ina versiun precedenta da quest eveniment.
 counter-on-counter-disallowed-notification = Ti n'has betg permess cuntrapropostas cun trametter l'invitaziun.
+# $count - the number of attendees
+attendees-tab-label = Participants ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Agiuntas ({ $count }):
