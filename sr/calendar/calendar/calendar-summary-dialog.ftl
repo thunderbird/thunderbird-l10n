@@ -15,3 +15,28 @@ edit-button-context-menu-all-occurrences =
     .accesskey = a
 description-context-menu-copy-link-text =
     .label = Копирај текст везе
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation.
+event-accepted = Прихватили сте ову позивницу
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation tentatively
+event-tentative = Условно сте прихватили ову позивницу
+# This will be displayed as notification in the summary dialog if the user has
+# declined the event invitation.
+event-declined = Одбили сте ову позивницу
+# This will be displayed as notification in the summary dialog if the user has
+# delegated his/her participation to one or more other participants
+# (without attending / working on it his/herself)
+event-delegated = Делегирали сте ову позивницу
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to an invitation
+event-needs-action = Нисте још одговорили на ову позивницу
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the assigned task
+task-accepted = Прихватили сте да радите на овом задатку
+# This will be displayed as notification in the summary dialog if the user has
+# accepted tentatively the assigned task.
+task-tentative = Условно сте прихватили да радите на овом задатку
+# This will be displayed as notification in the summary dialog if the user has
+# declined the assigned task
+task-declined = Одбили сте да радите на овом задатку
