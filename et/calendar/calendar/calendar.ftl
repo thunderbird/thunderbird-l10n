@@ -1066,3 +1066,7 @@ counter-on-previous-version-notification = See on vastuettepanek selle sündmuse
 counter-on-counter-disallowed-notification = Keelasid vastuettepanekud kutse saatmisel.
 event-recurrence-forever =
     .label = igavesti
+# $count - the number of attendees
+attendees-tab-label = Osalejad ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Manused ({ $count }):
