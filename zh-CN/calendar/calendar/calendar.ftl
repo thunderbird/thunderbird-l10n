@@ -1035,3 +1035,7 @@ sendandclose-menu =
     .label = 发送并关闭
 event-recurrence-forever =
     .label = 永远
+# $count - the number of attendees
+attendees-tab-label = 参与者（{ $count } 名）
+# $count - the number of attachments
+attachments-tab-label = 附件（{ $count } 项）：
