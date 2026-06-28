@@ -983,3 +983,23 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Pridėti kaip darbą
     .tooltiptext = Išskirti iš laiško kalendorinę informaciją ir pridėti ją į kalendorių kaip darbą
+new-event-input =
+    .placeholder = Naujas įvykis
+new-task-input =
+    .placeholder = Naujas darbas
+item-menu-label-event =
+    .label = Įvykis
+    .accesskey = F
+item-menu-label-task =
+    .label = Darbas
+    .accesskey = F
+# Link Location Dialog
+specify-link-location = Nurodykite saito adresą
+enter-link-location = Nurodykite tinklalapio ar dokumento adresą.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = failą per „{ $providerName }“
+select-a-file = Parinkite failą(-us), kurį(-iuos) norite prisegti
+event-recurrence-forever =
+    .label = Neterminuotai
