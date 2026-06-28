@@ -1091,3 +1091,39 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Přidat jako úkol
     .tooltiptext = Vezme kalendářní informace ze zprávy a přidá je do vašeho kalendáře jako úkol
+new-event-input =
+    .placeholder = Nová událost
+new-task-input =
+    .placeholder = Nový úkol
+item-menu-label-event =
+    .label = Událost
+    .accesskey = U
+item-menu-label-task =
+    .label = Úkol
+    .accesskey = k
+# Link Location Dialog
+specify-link-location = Adresa webové stránky
+enter-link-location = Zadejte adresu webové stránky nebo dokumentu.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Soubor pomocí { $providerName }
+select-a-file = Zadejte soubor přílohy
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } přijal(a) pozvánku, ale vytvořil(a) protinávrh:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } přijal(a) pozvánku pouze předběžně a vytvořil(a) protinávrh:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } odmítl(a) pozvánku, ale vytvořil(a) protinávrh:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } delegoval(a) pozvánku, ale vytvořil(a) protinávrh:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } se nerozhodl(a), zda se zúčastní, a vytvořil(a) protinávrh:
+counter-on-previous-version-notification = Toto je protinávrh pro předchozí verzi této události.
+counter-on-counter-disallowed-notification = Zakázali jste vytváření protinávrhů při odesílání pozvánek.
+event-recurrence-forever =
+    .label = Navždy
