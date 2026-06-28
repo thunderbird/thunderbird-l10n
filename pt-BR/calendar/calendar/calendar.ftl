@@ -1080,5 +1080,21 @@ enter-link-location = Digite uma página da internet, ou local de documento.
 #   $providerName - The FileLink provider display name
 attach-via-filelink = Arquivo usando { $providerName }
 select-a-file = Favor selecionar arquivo(s) para anexar
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } aceitou o convite, mas fez uma sugestão:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } aceitou o convite apenas temporariamente e fez uma sugestão:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } recusou o convite, mas fez uma sugestão:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } delegou o convite, mas fez uma sugestão:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } não decidiu se participará e fez uma sugestão:
+counter-on-previous-version-notification = Essa é uma sugestão da versão anterior deste evento.
+counter-on-counter-disallowed-notification = Você não permitiu sugestões quando enviou o convite.
 event-recurrence-forever =
     .label = Sempre
