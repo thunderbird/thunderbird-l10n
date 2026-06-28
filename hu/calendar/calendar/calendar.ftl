@@ -1084,5 +1084,21 @@ enter-link-location = Írja be a weboldal vagy a dokumentum helyét.
 #   $providerName - The FileLink provider display name
 attach-via-filelink = Fájl { $providerName } használatával
 select-a-file = Jelölje ki a csatolandó fájlokat
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } elfogadta a meghívást, de ellenjavaslatot tett:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } csak feltételesen fogadta el a meghívást, és ellenjavaslatot tett:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } elutasította a meghívást, de ellenjavaslatot tett:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } delegálta a meghívást, de ellenjavaslatot tett:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } nem döntött, hogy részt vesz-e, és ellenjavaslatot tett:
+counter-on-previous-version-notification = Ez egy ellenjavaslat az esemény korábbi verziójához.
+counter-on-counter-disallowed-notification = A meghívó küldésekor nem engedélyezte az ellenjavaslat küldését.
 event-recurrence-forever =
     .label = Örökké
