@@ -1008,3 +1008,19 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = أضفها كمهمة
     .tooltiptext = استخرج معلومات التقويم من الرسالة وأضفها إلى تقويمي كمهمة
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = قبل { $name } الدعوة، لكن قدم عرضًا مضادًا:
+#   $name - The name of responding invitee.
+counter-tentative = قبل { $name } الدعوة مبدئيًا و قدم عرضًا مضادًا:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = رفض { $name } الدعوة، لكن قدم عرضًا مضادًا:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = أناب { $name } الدعوة، لكن قدم عرضًا مضادًا:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = لم يقرر { $name } إذا كان سيشارك أم لا و قدم عرضًا مضادًا:
+counter-on-previous-version-notification = هذا عرض مضاد لنسخة سابقة من هذا الحدث.
+counter-on-counter-disallowed-notification = لم تسمح بتقديم العروض المضادة عندما أرسلت الدعوة.
