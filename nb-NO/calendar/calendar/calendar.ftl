@@ -1066,3 +1066,23 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Legg til som oppgave
     .tooltiptext = Hent ut kalenderinfo fra meldingen og legg den til i kalenderen din som en oppgave
+new-event-input =
+    .placeholder = Ny hendelse
+new-task-input =
+    .placeholder = Ny oppgave
+item-menu-label-event =
+    .label = Hendelse
+    .accesskey = H
+item-menu-label-task =
+    .label = Oppgave
+    .accesskey = O
+# Link Location Dialog
+specify-link-location = Oppgi lenkeadresse
+enter-link-location = Skriv inn en nettadresse eller en dokumentplassering.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Fil med { $providerName }
+select-a-file = Velg filen(e) som skal legges ved
+event-recurrence-forever =
+    .label = For alltid
