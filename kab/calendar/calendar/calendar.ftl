@@ -1038,6 +1038,24 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Rnu tawuri
     .tooltiptext = Suffeɣ-d talɣut n uwitay seg izen sakin renu-tt d tawuri ɣer uwitay
+new-event-input =
+    .placeholder = Tadyant tamaynut
+new-task-input =
+    .placeholder = Tawuri tamaynut
+item-menu-label-event =
+    .label = Tadyant
+    .accesskey = T
+item-menu-label-task =
+    .label = Tawuri
+    .accesskey = W
+# Link Location Dialog
+specify-link-location = Ma ulac aɣilif, mudd-d adig n useɣwen
+enter-link-location = Sekcem asebter web, neɣ adig n isemli.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Seddu { $providerName }
+select-a-file = Ma ulac aɣilif fren afaylu(i-a) ara tsedduḍ
 # Variables:
 #   $name - The name of responding invitee.
 counter-accepted = { $name } yeqbel tinubga, acukan ɣur-s asumer n umesmiḍan:
@@ -1054,6 +1072,18 @@ counter-delegated = { $name } imud tinubga i wayeḍ, acukan ɣur-s asumer n ume
 counter-needs-action = { $name } ur yegzim ṛṛay ma yell ad ittekki neɣ ala udiɣ yesurmer-d amesmiḍan:
 counter-on-previous-version-notification = Asumer n umesmiḍan n lqem yezrin n tedyant.
 counter-on-counter-disallowed-notification = Ur testesirgeḍ ara asiḍen di tuzna n tinubga.
+sendandclose-button =
+    .label = Azen sakin Mdel
+    .tooltiptext = Lɣu imjerrden sakin mdel
+saveandsend-button =
+    .label = Sekles sakin azen
+    .tooltiptext = Sekles sakin lɣu imjerrden
+saveandsend-menu =
+    .label = Sekles sakin azen
+sendandclose-menu =
+    .label = Sekles sakin Mdel
+event-recurrence-forever =
+    .label = Ilebda
 # $count - the number of attendees
 attendees-tab-label = Imttekkiyen ({ $count }):
 # $count - the number of attachments
