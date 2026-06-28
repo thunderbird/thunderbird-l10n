@@ -922,6 +922,24 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Dodaj kao zadatak
     .tooltiptext = Izvezite kalendarske informacije iz poruke i dodajte ih u svoj kalendar kao zadatak
+new-event-input =
+    .placeholder = Novi događaj
+new-task-input =
+    .placeholder = Novi zadatak
+item-menu-label-event =
+    .label = Događaj
+    .accesskey = D
+item-menu-label-task =
+    .label = Zadatak
+    .accesskey = Z
+# Link Location Dialog
+specify-link-location = Navedite lokaciju veze
+enter-link-location = Upišite lokaciju web stranice ili dokumenta.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Datoteku koristeći { $providerName }
+select-a-file = Odaberite datoteke za priložiti
 # Variables:
 #   $name - The name of responding invitee.
 counter-accepted = { $name } je prihvatio poziv, ali je poslao protuprijedlog:
@@ -938,3 +956,15 @@ counter-delegated = { $name } je delegirao poziv, ali je poslao protuprijedlog:
 counter-needs-action = { $name } nije odlučio da li sudjelovati, ali je poslao protuprijedlog:
 counter-on-previous-version-notification = Ovo je protuprijedlog za prethodnu verziju ovog događaja.
 counter-on-counter-disallowed-notification = Niste omogućili protuprijedloge prilikom slanja poziva.
+sendandclose-button =
+    .label = Pošalji i zatvori
+    .tooltiptext = Obavijesti sudionike i zatvori
+saveandsend-button =
+    .label = Sačuvaj i pošalji
+    .tooltiptext = Sačuvaj i obavijesti sudionike
+saveandsend-menu =
+    .label = Sačuvaj i pošalji
+sendandclose-menu =
+    .label = Pošalji i zatvori
+event-recurrence-forever =
+    .label = Zauvijek
