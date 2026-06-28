@@ -1023,5 +1023,19 @@ item-menu-label-task =
 # Link Location Dialog
 specify-link-location = 請指定鏈結位置
 enter-link-location = 輸入網址或文件的位置。
+sendandclose-button =
+    .label = 傳送並關閉
+    .tooltiptext = 通知參與者並關閉
+saveandsend-button =
+    .label = 儲存並傳送
+    .tooltiptext = 儲存並通知參與者
+saveandsend-menu =
+    .label = 儲存並傳送
+sendandclose-menu =
+    .label = 傳送並關閉
 event-recurrence-forever =
     .label = 永遠
+# $count - the number of attendees
+attendees-tab-label = 與會者（{ $count }）:
+# $count - the number of attachments
+attachments-tab-label = 附件（{ $count }）:
