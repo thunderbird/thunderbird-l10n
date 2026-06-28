@@ -1100,5 +1100,19 @@ counter-delegated = { $name } har delegerat inbjudan, men gjort ett motförslag:
 counter-needs-action = { $name } har inte beslutat om att delta och gjort ett motförslag:
 counter-on-previous-version-notification = Detta är ett motförslag för en tidigare version av denna händelse.
 counter-on-counter-disallowed-notification = Du tillåter inte motförslag när du skickar ut inbjudan.
+sendandclose-button =
+    .label = Skicka och stäng
+    .tooltiptext = Meddela deltagare och stäng
+saveandsend-button =
+    .label = Spara och skicka
+    .tooltiptext = Spara och meddela deltagare
+saveandsend-menu =
+    .label = Spara och skicka
+sendandclose-menu =
+    .label = Skicka och stäng
 event-recurrence-forever =
     .label = För evigt
+# $count - the number of attendees
+attendees-tab-label = Deltagare ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Bilagor ({ $count }):
