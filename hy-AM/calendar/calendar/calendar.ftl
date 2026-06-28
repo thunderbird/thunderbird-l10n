@@ -1031,6 +1031,24 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Ավելացնել որպես առաջադրանք
     .tooltiptext = Հանե՛ք օրացույցի տեղեկությունը հաղորդագրությունից և ավելացրե՛ք այն ձեր օրացույցում որպես առաջադրանք
+new-event-input =
+    .placeholder = Նոր իրադարձություն
+new-task-input =
+    .placeholder = Նոր առաջադրանք
+item-menu-label-event =
+    .label = Իրադարձություն
+    .accesskey = T
+item-menu-label-task =
+    .label = Առաջադրանք
+    .accesskey = T
+# Link Location Dialog
+specify-link-location = Խնդրում ենք նշել հղման վայրը
+enter-link-location = Մուտքագրե՛ք վեբ էջ կամ փաստաթղթի դիրք:
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Նիշը օգտագործում է { $providerName }
+select-a-file = Խնդրում ենք ընտրել նիշ(եր)՝ կցելու համար
 # Variables:
 #   $name - The name of responding invitee.
 counter-accepted = { $name } - ը ընդունել է հրավերը, սակայն ուղարկել է պատասխան առաջարկ․
@@ -1057,6 +1075,8 @@ saveandsend-menu =
     .label = Պահել և ուղարկել
 sendandclose-menu =
     .label = Ուղարկել և փակել
+event-recurrence-forever =
+    .label = Ընդմիշտ
 # $count - the number of attendees
 attendees-tab-label = Մասնակիցներ ({ $count })․
 # $count - the number of attachments
