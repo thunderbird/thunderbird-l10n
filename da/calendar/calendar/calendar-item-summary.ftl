@@ -1,0 +1,51 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+calendar-item-summary-title = Titel:
+calendar-item-summary-calendar = Kalender:
+calendar-item-summary-task-start = Startdato:
+calendar-item-summary-event-start = Startdato:
+calendar-item-summary-task-due = Slutdato:
+calendar-item-summary-event-end = Slutdato:
+calendar-item-summary-repeat = Gentag:
+calendar-item-summary-location = Sted:
+calendar-item-summary-category = Kategori:
+calendar-item-summary-organizer = Arrangør:
+calendar-item-summary-status = Status:
+calendar-item-summary-reminder = Påmindelse:
+calendar-item-summary-attachments = Vedhæftede filer:
+calendar-item-summary-reminder-none =
+    .label = Ingen påmindelse
+calendar-item-summary-reminder-0-minutes-before =
+    .label = 0 minutter før
+calendar-item-summary-reminder-5-minutes-before =
+    .label = 5 minutter før
+calendar-item-summary-reminder-15-minutes-before =
+    .label = 15 minutter før
+calendar-item-summary-reminder-30-minutes-before =
+    .label = 30 minutter før
+calendar-item-summary-reminder-1-hour-before =
+    .label = 1 time før
+calendar-item-summary-reminder-2-hours-before =
+    .label = 2 timer før
+calendar-item-summary-reminder-12-hours-before =
+    .label = 12 timer før
+calendar-item-summary-reminder-1-day-before =
+    .label = 1 dag før
+calendar-item-summary-reminder-2-days-before =
+    .label = 2 dage før
+calendar-item-summary-reminder-1-week-before =
+    .label = 1 uge før
+calendar-item-summary-reminder-custom =
+    .label = Andet…
+calendar-item-summary-reminder-multiple =
+    .value = Flere påmindelser…
+calendar-item-summary-general =
+    .value = Generelt
+calendar-item-summary-attendees =
+    .value = Deltagere
+calendar-item-summary-description =
+    .value = Beskrivelse
+calendar-item-summary-link =
+    .value = Relateret link
