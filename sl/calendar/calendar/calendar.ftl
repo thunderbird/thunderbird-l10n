@@ -1138,3 +1138,7 @@ counter-on-previous-version-notification = To je nadomestni predlog za prejšnjo
 counter-on-counter-disallowed-notification = Ko ste poslali povabilo, niste dovolili nadomestnih predlogov.
 event-recurrence-forever =
     .label = Vedno
+# $count - the number of attendees
+attendees-tab-label = Udeleženci ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Priloge ({ $count }):
