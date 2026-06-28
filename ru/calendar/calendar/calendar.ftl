@@ -1104,3 +1104,7 @@ attach-via-filelink = Вложить файл с помощью { $providerName 
 select-a-file = Вложить файл(ы)
 event-recurrence-forever =
     .label = Всегда
+# $count - the number of attendees
+attendees-tab-label = Участники ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Вложения ({ $count }):
