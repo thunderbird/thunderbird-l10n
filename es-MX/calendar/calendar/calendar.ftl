@@ -1066,3 +1066,7 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Agregar como tarea
     .tooltiptext = Extraer información de calendario del mensaje y agregar a tu calendario como tarea
+# $count - the number of attendees
+attendees-tab-label = Participantes ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Adjuntos ({ $count }):
