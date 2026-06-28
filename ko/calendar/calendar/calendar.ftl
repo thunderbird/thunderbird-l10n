@@ -1018,3 +1018,7 @@ counter-on-previous-version-notification = 이 이벤트의 이전 버전에 대
 counter-on-counter-disallowed-notification = 초대를 보낼 때, 반대를 허가하지 않습니다.
 event-recurrence-forever =
     .label = 끝나지 않음
+# $count - the number of attendees
+attendees-tab-label = 참석자({ $count }):
+# $count - the number of attachments
+attachments-tab-label = 첨부파일({ $count }):

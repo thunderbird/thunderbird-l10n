@@ -15,3 +15,28 @@ edit-button-context-menu-all-occurrences =
     .accesskey = a
 description-context-menu-copy-link-text =
     .label = 링크 텍스트 복사
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation.
+event-accepted = 이 초대를 수락함
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation tentatively
+event-tentative = 이 초대를 미정으로 수락함
+# This will be displayed as notification in the summary dialog if the user has
+# declined the event invitation.
+event-declined = 이 초대를 거절함
+# This will be displayed as notification in the summary dialog if the user has
+# delegated his/her participation to one or more other participants
+# (without attending / working on it his/herself)
+event-delegated = 이 초대를 위임함
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to an invitation
+event-needs-action = 이 초대에 아직 응답하지 않음
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the assigned task
+task-accepted = 이 일의 작업을 수락함
+# This will be displayed as notification in the summary dialog if the user has
+# accepted tentatively the assigned task.
+task-tentative = 이 일의 작업을 미정으로 수락함
+# This will be displayed as notification in the summary dialog if the user has
+# declined the assigned task
+task-declined = 이 일의 작업을 거절함
