@@ -1070,3 +1070,53 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Toevoegen als taak
     .tooltiptext = Agendagegevens uit het bericht halen en deze aan uw agenda toevoegen als een taak
+new-event-input =
+    .placeholder = Nieuwe gebeurtenis
+new-task-input =
+    .placeholder = Nieuwe taak
+item-menu-label-event =
+    .label = Gebeurtenis
+    .accesskey = G
+item-menu-label-task =
+    .label = Taak
+    .accesskey = T
+# Link Location Dialog
+specify-link-location = Specificeer de koppelingslocatie
+enter-link-location = Voer een webpagina- of documentlocatie in.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Bestand via { $providerName }
+select-a-file = Selecteer de bestanden om te koppelen
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } heeft de uitnodiging geaccepteerd, maar een tegenvoorstel gedaan:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } heeft de uitnodiging voorlopig geaccepteerd en een tegenvoorstel gedaan:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } heeft de uitnodiging geweigerd, maar een tegenvoorstel gedaan:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } heeft de uitnodiging gedelegeerd, maar een tegenvoorstel gedaan:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } heeft nog niet besloten om deel te nemen en een tegenvoorstel gedaan:
+counter-on-previous-version-notification = Dit is een tegenvoorstel voor een eerdere versie van deze gebeurtenis.
+counter-on-counter-disallowed-notification = U hebt geen tegenvoorstellen toegestaan bij het verzenden van de uitnodiging.
+sendandclose-button =
+    .label = Verzenden en sluiten
+    .tooltiptext = Genodigden informeren en sluiten
+saveandsend-button =
+    .label = Opslaan en verzenden
+    .tooltiptext = Opslaan en genodigden informeren
+saveandsend-menu =
+    .label = Opslaan en verzenden
+sendandclose-menu =
+    .label = Verzenden en sluiten
+event-recurrence-forever =
+    .label = Voor altijd
+# $count - the number of attendees
+attendees-tab-label = Genodigden ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Bijlagen ({ $count }):
