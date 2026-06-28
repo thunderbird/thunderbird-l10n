@@ -1120,3 +1120,7 @@ counter-on-previous-version-notification = Aceasta este o contrapropunere la o v
 counter-on-counter-disallowed-notification = Ai dezactivat posibilitatea de a face contrapropuneri la trimiterea invitației.
 event-recurrence-forever =
     .label = Pentru totdeauna
+# $count - the number of attendees
+attendees-tab-label = Participanți ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Atașamente ({ $count }):
