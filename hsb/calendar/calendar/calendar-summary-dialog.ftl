@@ -40,3 +40,15 @@ task-tentative = Sće nachwilu akceptował na tutym nadawku dźěłać
 # This will be displayed as notification in the summary dialog if the user has
 # declined the assigned task
 task-declined = Sće wotpokazał na tutym nadawku dźěłać
+# This will be displayed as notification the summary dialog if the user has
+# delegated his/her assignment to one or more others (without attending / working on it his/herself)
+task-delegated = Sće dźěło na tutym nadawku delegował
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to the task assignment
+task-needs-action = Na připokazanje tutoho nadawka njejsće hišće wotmołwił
+# This will be displayed as notification in the summary dialog if the user
+# is working on an assigned task
+task-in-progress = Sće započał, na tutym připokazanym nadawku dźěłać
+# This will be displayed as notification in the summary dialog if the user
+# has completed the work on this assigned task
+task-completed = Sće swoje dźěło na tutym připokazanym nadawku dokónčił

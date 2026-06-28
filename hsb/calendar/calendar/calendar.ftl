@@ -1102,6 +1102,24 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Jako nadawk přidać
     .tooltiptext = Protykowe informacije z powěsće ekstrahować a je wašej protyce jako nadawk přidać
+new-event-input =
+    .placeholder = Nowy podawk
+new-task-input =
+    .placeholder = Nowy nadawk
+item-menu-label-event =
+    .label = Podawk
+    .accesskey = P
+item-menu-label-task =
+    .label = Nadawk
+    .accesskey = N
+# Link Location Dialog
+specify-link-location = Prošu podajće adresu wotkaza
+enter-link-location = Zapodajće adresu webstrony abo dokumenta.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Dataja z { $providerName }
+select-a-file = Prošu wubjerće dataje, kotrež maja so připowěsnyć
 # Variables:
 #   $name - The name of responding invitee.
 counter-accepted = { $name } je přeprošenje akceptował, ale je přećiwonamjet činił:
@@ -1118,6 +1136,18 @@ counter-delegated = { $name } je přeprošenje delegował, ale je přećiwonamje
 counter-needs-action = { $name } njeje rozsudźił, hač so wobdźěli a je přećiwonamjet činił:
 counter-on-previous-version-notification = To je přećiwonamjet za předchadnu wersiju tutoho podawka.
 counter-on-counter-disallowed-notification = Sće činjenje přećiwonamjety zakazał, hdyž so přeprošenje sćele.
+sendandclose-button =
+    .label = Pósłać a začinić
+    .tooltiptext = Wobdźělnikow informować a začinić
+saveandsend-button =
+    .label = Składować a pósłać
+    .tooltiptext = Składować a wobdźělnikow informować
+saveandsend-menu =
+    .label = Składować a pósłać
+sendandclose-menu =
+    .label = Pósłać a začinić
+event-recurrence-forever =
+    .label = Na přeco
 # $count - the number of attendees
 attendees-tab-label = Wobdźělnicy ({ $count }):
 # $count - the number of attachments
