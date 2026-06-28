@@ -68,6 +68,11 @@ menu-quit =
 # This menu-quit-mac string is only used on macOS.
 menu-quit-mac =
     .label = Lopeta { -brand-shorter-name }
+system-tray-menuitem-quit =
+    { PLATFORM() ->
+        [windows] Lopeta { -brand-full-name }
+       *[other] Lopeta { -brand-full-name }
+    }
 system-tray-menu-quit =
     .label =
         { PLATFORM() ->
