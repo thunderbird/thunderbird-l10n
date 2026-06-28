@@ -481,3 +481,17 @@ calendar-error-description =
     .value = Tzijoxkil:
 calendar-error-title =
     .title = Xk'ulwachitäj jun sachoj
+sendandclose-button =
+    .label = Titaq Chuqa' Titz'apïx
+    .tooltiptext = Tikitzijoj chike ri to'onela' chuqa' titz'apix
+saveandsend-button =
+    .label = Tiyaq Chuqa' Titaq
+    .tooltiptext = Tiyak chuqa' tikitzijoj chike ri to'onela'
+saveandsend-menu =
+    .label = Tiyak chuqa' Titaq
+sendandclose-menu =
+    .label = Titaq chuqa' Titz'apix
+# $count - the number of attendees
+attendees-tab-label = To'onela' ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Taq taqoj ({ $count }):
