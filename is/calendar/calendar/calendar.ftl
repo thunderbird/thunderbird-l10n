@@ -1084,5 +1084,21 @@ enter-link-location = Settu inn vefslóð eða staðsetningu skjals.
 #   $providerName - The FileLink provider display name
 attach-via-filelink = Skrá með { $providerName }
 select-a-file = Veldu skrá(r) til að bæta við
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } samþykkti fundarboðið, en kom með móttilboð:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } samþykkti fundarboð með fyrirvara og kom með móttilboð:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } hafnaði fundarboðinu, en kom með móttilboð:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } áframsendi fundarboðið, en kom með móttilboð:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } hefur ekki ákveðið hvort hann vil taka þátt og kom með móttilboð:
+counter-on-previous-version-notification = Þetta er móttilboð fyrir fyrri útgáfu af þessum atburði.
+counter-on-counter-disallowed-notification = Þú leyfðir ekki móttilboð þegar boðið var sent út.
 event-recurrence-forever =
     .label = Að eilífu
