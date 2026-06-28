@@ -895,3 +895,11 @@ counter-delegated = { $name } en deus dileuriet ar bededenn, un enep-kinnig en d
 # Variables:
 #   $name - The name of responding invitee.
 counter-needs-action = { $name } a zo chomet hep divizout kemeret-perzh ha savet en deus un enep-kinnig:
+saveandsend-menu =
+    .label = Enrollañ ha kas
+sendandclose-menu =
+    .label = Kas ha serriñ
+# $count - the number of attendees
+attendees-tab-label = Perzhidi ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Kenstagadurioù ({ $count }):
