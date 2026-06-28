@@ -1100,5 +1100,19 @@ counter-delegated = { $name } áframsendi fundarboðið, en kom með móttilboð
 counter-needs-action = { $name } hefur ekki ákveðið hvort hann vil taka þátt og kom með móttilboð:
 counter-on-previous-version-notification = Þetta er móttilboð fyrir fyrri útgáfu af þessum atburði.
 counter-on-counter-disallowed-notification = Þú leyfðir ekki móttilboð þegar boðið var sent út.
+sendandclose-button =
+    .label = Senda og loka
+    .tooltiptext = Látið þátttakendur vita og loka
+saveandsend-button =
+    .label = Vista og senda
+    .tooltiptext = Vista og láta þátttakendur vita
+saveandsend-menu =
+    .label = Vista og senda
+sendandclose-menu =
+    .label = Senda og loka
 event-recurrence-forever =
     .label = Að eilífu
+# $count - the number of attendees
+attendees-tab-label = Þátttakendur ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Viðhengi ({ $count }):
