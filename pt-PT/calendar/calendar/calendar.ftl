@@ -1066,5 +1066,39 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Adicionar como tarefa
     .tooltiptext = Extrair informações da mensagem e adicionar ao calendário como evento
+new-event-input =
+    .placeholder = Novo evento
+new-task-input =
+    .placeholder = Nova tarefa
+item-menu-label-event =
+    .label = Evento
+    .accesskey = n
+item-menu-label-task =
+    .label = Tarefa
+    .accesskey = T
+# Link Location Dialog
+specify-link-location = Por favor, especifique a localização da ligação
+enter-link-location = Introduza uma página web ou o local do documento.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Ficheiro utilizando { $providerName }
+select-a-file = Selecione o(s) ficheiro(s) a anexar
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } aceitou o convite, mas fez uma contra-proposta:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } aceitou o convite à experiência e fez uma contra-proposta:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } recusou o convite, mas fez uma contra-proposta:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } delegou o convite, mas fez uma contra-proposta:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } não decidiu se participaria no evento e fez uma contra-proposta:
+counter-on-previous-version-notification = Esta é uma contra-proposta a uma versão anterior deste evento.
+counter-on-counter-disallowed-notification = Você desativou as contra-propostas ao enviar o convite.
 event-recurrence-forever =
     .label = Eternamente
