@@ -60,6 +60,7 @@ menu-quit =
 # This menu-quit-mac string is only used on macOS.
 menu-quit-mac =
     .label = Esci da { -brand-shorter-name }
+system-tray-menuitem-quit = Esci da { -brand-full-name }
 system-tray-menu-quit =
     .label = Esci da { -brand-full-name }
 # Localization note: Do not translate unless your locale's keyboard layout
