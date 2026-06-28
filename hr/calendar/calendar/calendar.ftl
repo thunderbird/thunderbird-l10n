@@ -1080,3 +1080,23 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Dodaj kao zadatak
     .tooltiptext = Izvezite kalendarske informacije iz poruke i dodajte ih u svoj kalendar kao zadatak
+new-event-input =
+    .placeholder = Novi događaj
+new-task-input =
+    .placeholder = Novi zadatak
+item-menu-label-event =
+    .label = Događaj
+    .accesskey = D
+item-menu-label-task =
+    .label = Zadatak
+    .accesskey = Z
+# Link Location Dialog
+specify-link-location = Navedite lokaciju poveznice
+enter-link-location = Upišite lokaciju web stranice ili dokumenta.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Datoteku koristeći { $providerName }
+select-a-file = Odaberite datoteke za priložiti
+event-recurrence-forever =
+    .label = Zauvijek
