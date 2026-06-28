@@ -1102,3 +1102,7 @@ counter-on-previous-version-notification = Hau zeregin honen aurreko bertsio bat
 counter-on-counter-disallowed-notification = Gonbidapena egitean zuk kontraproposamenak desgaitu dituzu.
 event-recurrence-forever =
     .label = Beti
+# $count - the number of attendees
+attendees-tab-label = Gonbidatuak ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Eranskinak ({ $count }):
