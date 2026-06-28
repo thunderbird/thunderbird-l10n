@@ -1066,3 +1066,17 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Agregar como tarea
     .tooltiptext = Extraer información de calendario desde el mensaje y agregarlo como una tarea
+sendandclose-button =
+    .label = Enviar y cerrar
+    .tooltiptext = Notificar a los asistentes y cerrar
+saveandsend-button =
+    .label = Guardar y enviar
+    .tooltiptext = Guardar y notificar a los asistentes
+saveandsend-menu =
+    .label = Guardar y enviar
+sendandclose-menu =
+    .label = Guardar y cerrar
+# $count - the number of attendees
+attendees-tab-label = Asistentes ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Adjuntos ({ $count }):
