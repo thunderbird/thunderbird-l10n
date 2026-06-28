@@ -640,3 +640,47 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Дадаць як задачу
     .tooltiptext = Выцягнуць каляндарную інфармацыю з паведамлення і дадаць яе ў ваш каляндар як задачу
+new-event-input =
+    .placeholder = Новая падзея
+new-task-input =
+    .placeholder = Новая задача
+item-menu-label-event =
+    .label = Падзея
+    .accesskey = П
+item-menu-label-task =
+    .label = Задача
+    .accesskey = З
+enter-link-location = Увядзіце адрас вэб-старонкі або размяшчэнне дакумента.
+select-a-file = Калі ласка, выберыце файл(ы), які(я) трэба прымацаваць
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } прыняў запрашэнне, але зрабіў сустрэчную прапанову:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } папярэдне прыняў запрашэнне і зрабіў сустрэчную прапанову:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } адхіліў запрашэнне, але зрабіў сустрэчную прапанову:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } дэлегаваў запрашэнне, але зрабіў сустрэчную прапанову:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } не вырашыў, ці будзе ўдзельнічаць, але зрабіў сустрэчную прапанову:
+counter-on-previous-version-notification = Гэта сустрэчная прапанова для папярэдняй версіі гэтай падзеі.
+counter-on-counter-disallowed-notification = Вы забаранілі рабіць сустрэчныя прапановы, калі адпраўлялі гэта запрашэнне.
+sendandclose-button =
+    .label = Захаваць і закрыць
+    .tooltiptext = Апавясціць удзельнікаў і закрыць
+saveandsend-button =
+    .label = Захаваць і адправіць
+    .tooltiptext = Захаваць і апавясціць удзельнікаў
+saveandsend-menu =
+    .label = Захаваць і адправіць
+sendandclose-menu =
+    .label = Захаваць і закрыць
+event-recurrence-forever =
+    .label = Заўсёды
+# $count - the number of attendees
+attendees-tab-label = Удзельнікі ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Прымацаванні ({ $count }):
