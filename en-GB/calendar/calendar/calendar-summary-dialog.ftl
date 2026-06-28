@@ -40,3 +40,15 @@ task-tentative = You have tentatively accepted to work on this task
 # This will be displayed as notification in the summary dialog if the user has
 # declined the assigned task
 task-declined = You have declined to work on this task
+# This will be displayed as notification the summary dialog if the user has
+# delegated his/her assignment to one or more others (without attending / working on it his/herself)
+task-delegated = You have delegated the work on this task
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to the task assignment
+task-needs-action = You haven't yet responded to this task assignment
+# This will be displayed as notification in the summary dialog if the user
+# is working on an assigned task
+task-in-progress = You have started to work on this assigned task
+# This will be displayed as notification in the summary dialog if the user
+# has completed the work on this assigned task
+task-completed = You have completed your work on this assigned task

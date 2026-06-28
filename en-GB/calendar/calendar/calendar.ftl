@@ -1100,5 +1100,19 @@ counter-delegated = { $name } has delegated the invitation, but made a counter p
 counter-needs-action = { $name } hasn't decided whether to participate and made a counter proposal:
 counter-on-previous-version-notification = This is a counter proposal for a previous version of this event.
 counter-on-counter-disallowed-notification = You disallowed countering when sending out the invitation.
+sendandclose-button =
+    .label = Send And Close
+    .tooltiptext = Notify attendees and close
+saveandsend-button =
+    .label = Save And Send
+    .tooltiptext = Save and notify attendees
+saveandsend-menu =
+    .label = Save and Send
+sendandclose-menu =
+    .label = Send and Close
 event-recurrence-forever =
     .label = Forever
+# $count - the number of attendees
+attendees-tab-label = Attendees ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Attachments ({ $count }):
