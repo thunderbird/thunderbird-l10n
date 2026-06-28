@@ -1096,5 +1096,19 @@ counter-delegated = { $name } delegou o convite, mas fez uma sugestão:
 counter-needs-action = { $name } não decidiu se participará e fez uma sugestão:
 counter-on-previous-version-notification = Essa é uma sugestão da versão anterior deste evento.
 counter-on-counter-disallowed-notification = Você não permitiu sugestões quando enviou o convite.
+sendandclose-button =
+    .label = Enviar e fechar
+    .tooltiptext = Notificar participantes e fechar
+saveandsend-button =
+    .label = Salvar e enviar
+    .tooltiptext = Salvar e notificar participantes
+saveandsend-menu =
+    .label = Salvar e enviar
+sendandclose-menu =
+    .label = Salvar e fechar
 event-recurrence-forever =
     .label = Sempre
+# $count - the number of attendees
+attendees-tab-label = Participantes ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Anexos ({ $count }):
