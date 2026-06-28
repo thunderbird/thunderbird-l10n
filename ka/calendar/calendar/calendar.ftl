@@ -1098,3 +1098,7 @@ counter-on-previous-version-notification = მოცემული შემხ
 counter-on-counter-disallowed-notification = თქვენ შეზღუდული გაქვთ შემხვედრი შემოთავაზებები მოწვევის გაგზავნისას.
 event-recurrence-forever =
     .label = მუდამ
+# $count - the number of attendees
+attendees-tab-label = დამსწრე ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = დანართი ({ $count }):

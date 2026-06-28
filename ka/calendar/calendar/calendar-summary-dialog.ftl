@@ -15,3 +15,28 @@ edit-button-context-menu-all-occurrences =
     .accesskey = ყ
 description-context-menu-copy-link-text =
     .label = ბმულის წარწერის ასლი
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation.
+event-accepted = თქვენ მიღებული გაქვთ ეს მოწვევა
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation tentatively
+event-tentative = თქვენ სავარაუდო თანხმობა განაცხადეთ ამ მოწვევაზე
+# This will be displayed as notification in the summary dialog if the user has
+# declined the event invitation.
+event-declined = თქვენ უარყოფილი გაქვთ ეს მოწვევა
+# This will be displayed as notification in the summary dialog if the user has
+# delegated his/her participation to one or more other participants
+# (without attending / working on it his/herself)
+event-delegated = თქვენ წარმომადგენლისთვის გაქვთ გადაცემული ეს მოწვევა
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to an invitation
+event-needs-action = თქვენ ჯერ არ გაგიციათ პასუხი ამ მოწვევაზე
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the assigned task
+task-accepted = თქვენ მიღებული გაქვთ ეს დავალება სამუშაოდ
+# This will be displayed as notification in the summary dialog if the user has
+# accepted tentatively the assigned task.
+task-tentative = თქვენ სავარაუდო თანხმობა განაცხადეთ ამ დავალების შესრულებაზე
+# This will be displayed as notification in the summary dialog if the user has
+# declined the assigned task
+task-declined = თქვენ უარყოფილი გაქვთ ეს დავალება
