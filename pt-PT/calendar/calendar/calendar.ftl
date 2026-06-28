@@ -1100,6 +1100,16 @@ counter-delegated = { $name } delegou o convite, mas fez uma contra-proposta:
 counter-needs-action = { $name } não decidiu se participaria no evento e fez uma contra-proposta:
 counter-on-previous-version-notification = Esta é uma contra-proposta a uma versão anterior deste evento.
 counter-on-counter-disallowed-notification = Você desativou as contra-propostas ao enviar o convite.
+sendandclose-button =
+    .label = Enviar e fechar
+    .tooltiptext = Notificar os participantes e fechar
+saveandsend-button =
+    .label = Guardar e enviar
+    .tooltiptext = Guardar e notificar os participantes
+saveandsend-menu =
+    .label = Guardar e enviar
+sendandclose-menu =
+    .label = Guardar e fechar
 event-recurrence-forever =
     .label = Eternamente
 # $count - the number of attendees

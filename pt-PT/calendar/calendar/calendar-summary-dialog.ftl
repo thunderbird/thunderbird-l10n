@@ -40,3 +40,15 @@ task-tentative = Você aceitou provisoriamente trabalhar nesta tarefa
 # This will be displayed as notification in the summary dialog if the user has
 # declined the assigned task
 task-declined = Você recusou trabalhar nesta tarefa
+# This will be displayed as notification the summary dialog if the user has
+# delegated his/her assignment to one or more others (without attending / working on it his/herself)
+task-delegated = Você delegou o trabalho nesta tarefa
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to the task assignment
+task-needs-action = Você ainda não respondeu a esta atribuição de tarefa
+# This will be displayed as notification in the summary dialog if the user
+# is working on an assigned task
+task-in-progress = Você começou a trabalhar nesta tarefa atribuída
+# This will be displayed as notification in the summary dialog if the user
+# has completed the work on this assigned task
+task-completed = Você concluiu o seu trabalho nesta tarefa atribuída
