@@ -1096,3 +1096,21 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Cuir ris mar shaothair
     .tooltiptext = Tog fiosrachadh mìosachain on teachdaireachd is cuir ris a' mhìosachan e mar shaothair
+new-event-input =
+    .placeholder = Tachartas ùr
+new-task-input =
+    .placeholder = Saothair ùr
+item-menu-label-event =
+    .label = Tachartas
+    .accesskey = F
+item-menu-label-task =
+    .label = Saothair
+    .accesskey = F
+# Link Location Dialog
+specify-link-location = Sònraich seòladh a' cheangail
+enter-link-location = Cuir a-steach duilleag-lìn no seòladh de sgrìobhainn.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Cuir ris slighe { $providerName }
+select-a-file = Tagh na faidhlichean a tha thu airson an cur ris
