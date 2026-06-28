@@ -15,3 +15,28 @@ edit-button-context-menu-all-occurrences =
     .accesskey = t
 description-context-menu-copy-link-text =
     .label = Copiar il text da la colliaziun
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation.
+event-accepted = Ti has acceptà quest invit
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation tentatively
+event-tentative = Ti has acceptà provisoricamain quest invit
+# This will be displayed as notification in the summary dialog if the user has
+# declined the event invitation.
+event-declined = Ti has refusà quest invit
+# This will be displayed as notification in the summary dialog if the user has
+# delegated his/her participation to one or more other participants
+# (without attending / working on it his/herself)
+event-delegated = Ti has delegà quest invit
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to an invitation
+event-needs-action = Ti n'has anc betg respundì a quest invit
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the assigned task
+task-accepted = Ti has acceptà questa incumbensa
+# This will be displayed as notification in the summary dialog if the user has
+# accepted tentatively the assigned task.
+task-tentative = Ti has acceptà provisoricamain questa incumbensa
+# This will be displayed as notification in the summary dialog if the user has
+# declined the assigned task
+task-declined = Ti has refusà questa incumbensa

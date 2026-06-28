@@ -1062,3 +1062,19 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Agiuntar sco incumbensa
     .tooltiptext = Extrair infurmaziuns da chalender ord il messadi e las agiuntar a tes chalender sco incumbensa
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } ha acceptà l'invitaziun, ma ha fatg ina cuntraproposta:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } ha mo acceptà provisoricamain l'invitaziun ed ha fatg ina cuntraproposta:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } ha refusà l'invitaziun, ma ha fatg ina cuntraproposta:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } ha delegà l'invitaziun, ma ha fatg ina cuntraproposta:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } n'ha betg decidì davart sia participaziun ed ha fatg ina cuntraproposta:
+counter-on-previous-version-notification = Quai è ina cuntraproposta per ina versiun precedenta da quest eveniment.
+counter-on-counter-disallowed-notification = Ti n'has betg permess cuntrapropostas cun trametter l'invitaziun.
