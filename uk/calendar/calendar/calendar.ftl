@@ -1086,5 +1086,19 @@ counter-delegated = { $name } делегує запрошення, але роб
 counter-needs-action = { $name } не може прийняти рішення про участь і робить зустрічну пропозицію:
 counter-on-previous-version-notification = Це зустрічна пропозиція для попередньої версії цієї події.
 counter-on-counter-disallowed-notification = Ви заборонили зустрічні пропозиції при надсиланні запрошення.
+sendandclose-button =
+    .label = Надіслати й закрити
+    .tooltiptext = Сповістити учасників і закрити
+saveandsend-button =
+    .label = Зберегти й надіслати
+    .tooltiptext = Зберегти й сповістити учасників
+saveandsend-menu =
+    .label = Зберегти й надіслати
+sendandclose-menu =
+    .label = Надіслати й закрити
 event-recurrence-forever =
     .label = Завжди
+# $count - the number of attendees
+attendees-tab-label = Учасники ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Вкладення ({ $count }):
