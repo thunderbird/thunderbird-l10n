@@ -15,3 +15,28 @@ edit-button-context-menu-all-occurrences =
     .accesskey = t
 description-context-menu-copy-link-text =
     .label = Copiar texto da ligação
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation.
+event-accepted = Você aceitou este convite
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation tentatively
+event-tentative = Você aceitou este convite provisoriamente
+# This will be displayed as notification in the summary dialog if the user has
+# declined the event invitation.
+event-declined = Você recusou este convite
+# This will be displayed as notification in the summary dialog if the user has
+# delegated his/her participation to one or more other participants
+# (without attending / working on it his/herself)
+event-delegated = Você delegou este convite
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to an invitation
+event-needs-action = Você ainda não respondeu a este convite
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the assigned task
+task-accepted = Você aceitou trabalhar nesta tarefa
+# This will be displayed as notification in the summary dialog if the user has
+# accepted tentatively the assigned task.
+task-tentative = Você aceitou provisoriamente trabalhar nesta tarefa
+# This will be displayed as notification in the summary dialog if the user has
+# declined the assigned task
+task-declined = Você recusou trabalhar nesta tarefa
