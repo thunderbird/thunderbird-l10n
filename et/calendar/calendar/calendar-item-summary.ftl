@@ -2,7 +2,26 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+calendar-item-summary-title = Pealkiri:
+calendar-item-summary-calendar = Kalender:
+calendar-item-summary-task-start = Alguskuupäev:
+calendar-item-summary-event-start = Alguskuupäev
+calendar-item-summary-task-due = Tähtaeg:
+calendar-item-summary-event-end = Lõppkuupäev:
+calendar-item-summary-repeat = Kordumine:
+calendar-item-summary-location = Asukoht:
+calendar-item-summary-category = Kategooria:
+calendar-item-summary-organizer = Korraldaja:
 calendar-item-summary-status = Seisund:
+calendar-item-summary-reminder = Meeldetuletus:
+calendar-item-summary-attachments = Manused:
+calendar-item-summary-status-tentative = Kahtlev
+calendar-item-summary-status-confirmed = Aktsepteeritud
+calendar-item-summary-event-status-cancelled = Tühistatud
+calendar-item-summary-todo-status-cancelled = Tühistatud
+calendar-item-summary-status-needs-action = Vajab tähelepanu
+calendar-item-summary-status-in-process = Pooleli
+calendar-item-summary-status-completed = Lõpetatud
 calendar-item-summary-reminder-none =
     .label = puudub
 calendar-item-summary-reminder-0-minutes-before =
@@ -29,3 +48,11 @@ calendar-item-summary-reminder-custom =
     .label = kohandatud…
 calendar-item-summary-reminder-multiple =
     .value = Mitu meeldetuletust…
+calendar-item-summary-general =
+    .value = Üldine
+calendar-item-summary-attendees =
+    .value = Osalejad
+calendar-item-summary-description =
+    .value = Kirjeldus
+calendar-item-summary-link =
+    .value = Seotud viide
