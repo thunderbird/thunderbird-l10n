@@ -1120,5 +1120,21 @@ enter-link-location = Vnesite spletno stran ali mesto dokumenta.
 #   $providerName - The FileLink provider display name
 attach-via-filelink = Datoteko preko { $providerName }
 select-a-file = Izberite datoteke, ki jih želite pripeti
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } je sprejel povabilo, vendar ima nadomestni predlog:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } je okvirno sprejel vaše povabilo in ima nadomestni predlog:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } je odklonil povabilo, vendar ima nadomestni predlog:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } bo na dogodek poslal predstavnika, vendar ima nadomestni predlog:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } se še ni odločil, ali se bo udeležil in ima nadomestni predlog:
+counter-on-previous-version-notification = To je nadomestni predlog za prejšnjo različico tega dogodka.
+counter-on-counter-disallowed-notification = Ko ste poslali povabilo, niste dovolili nadomestnih predlogov.
 event-recurrence-forever =
     .label = Vedno
