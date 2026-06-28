@@ -1102,3 +1102,7 @@ counter-on-previous-version-notification = Dette er eit motforslag til ein tidle
 counter-on-counter-disallowed-notification = Du tillèt ikkje motforslag når du sender ut invitasjonen.
 event-recurrence-forever =
     .label = For alltid
+# $count - the number of attendees
+attendees-tab-label = Deltakarar ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Vedlegg ({ $count }):
