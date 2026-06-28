@@ -40,3 +40,15 @@ task-tentative = Ti has acceptà provisoricamain questa incumbensa
 # This will be displayed as notification in the summary dialog if the user has
 # declined the assigned task
 task-declined = Ti has refusà questa incumbensa
+# This will be displayed as notification the summary dialog if the user has
+# delegated his/her assignment to one or more others (without attending / working on it his/herself)
+task-delegated = Ti has delegà questa incumbensa
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to the task assignment
+task-needs-action = Ti n'has anc betg respundì a l'attribuziun da questa incumbensa
+# This will be displayed as notification in the summary dialog if the user
+# is working on an assigned task
+task-in-progress = Ti has cumenzà a lavurar vid questa incumbensa attribuida
+# This will be displayed as notification in the summary dialog if the user
+# has completed the work on this assigned task
+task-completed = Ti has finì l'incumbensa attribuida
