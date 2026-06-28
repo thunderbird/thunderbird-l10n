@@ -374,3 +374,53 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Աւելացնել որպէս առաջադրանք
     .tooltiptext = Հանէ՛ք աւրացոյցի տեղեկութիւնը հաղորդագրութիւնից եւ աւելացրէ՛ք այն ձեր աւրացոյցում որպէս առաջադրանք
+new-event-input =
+    .placeholder = Նոր իրադարձութիւն
+new-task-input =
+    .placeholder = Նոր առաջադրանք
+item-menu-label-event =
+    .label = Իրադարձութիւն
+    .accesskey = T
+item-menu-label-task =
+    .label = Առաջադրանք
+    .accesskey = T
+# Link Location Dialog
+specify-link-location = Խնդրում ենք յստակեցնել յղման տեղը
+enter-link-location = Գրէք վեբ էջը կամ փաստաթղթի տեղը։
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Նիշն աւգտագործում է { $providerName }
+select-a-file = Խնդրում ենք ընտրել նիշ(եր) կցելու համար
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } -ը ընդունել է հրաւէրը, սակայն ուղարկել է հակադարձ առաջարկ․
+#   $name - The name of responding invitee.
+counter-tentative = { $name }-ն ընդունել է հրաւէրը նախնական եւ փոխադարձ առաջարկ է արել.
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name }- ն մերժել է հրաւէրը, սակայն հակադարձ առաջարկ է արել.
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name }֊ը լիազաւրել է հրաւէր, սակայն փոխադարձ առաջարկ է արել․
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } ֊ն չի հաստատել իր մասնակցութիւնը, եւ փոխադարձ առաջարկ է արել․
+counter-on-previous-version-notification = Սա այս իրադարձութեան նախորդ տարբերակի փոխադարձ առաջարկն է։
+counter-on-counter-disallowed-notification = Հրաւէրն ուղարկելիս արգելափակել էք փոխադարձ պատասխանելու հնարաւորութիւնը։
+sendandclose-button =
+    .label = Ուղարկել եւ փակել
+    .tooltiptext = Տեղեկացնել մասնակիցներին եւ փակել
+saveandsend-button =
+    .label = Պահպանել եւ ուղարկել
+    .tooltiptext = Պահպանել եւ տեղեկացնել մասնակիցներին
+saveandsend-menu =
+    .label = Պահպանել եւ ուղարկել
+sendandclose-menu =
+    .label = Ուղարկել եւ փակել
+event-recurrence-forever =
+    .label = Ընդմիշտ
+# $count - the number of attendees
+attendees-tab-label = Մասնակիցներ ({ $count })․
+# $count - the number of attachments
+attachments-tab-label = Կցորդներ ({ $count })․
