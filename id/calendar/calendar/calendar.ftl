@@ -1034,3 +1034,7 @@ counter-on-previous-version-notification = Ini adalah proposal tandingan untuk v
 counter-on-counter-disallowed-notification = Anda mematikan penghitung ketika mengirimkan undangan
 event-recurrence-forever =
     .label = Selamanya
+# $count - the number of attendees
+attendees-tab-label = Peserta ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Lampiran ({ $count }):
