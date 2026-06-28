@@ -1062,3 +1062,23 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Görev olarak ekle
     .tooltiptext = Takvim bilgisini iletiden ayıklar ve takviminize görev olarak ekler
+new-event-input =
+    .placeholder = Yeni etkinlik
+new-task-input =
+    .placeholder = Yeni görev
+item-menu-label-event =
+    .label = Etkinlik
+    .accesskey = t
+item-menu-label-task =
+    .label = Görev
+    .accesskey = G
+# Link Location Dialog
+specify-link-location = Bağlantı konumunu girin
+enter-link-location = Web sayfası veya belge adresini girin.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = { $providerName } kullanarak dosyala
+select-a-file = Lütfen eklenecek dosyaları seçin
+event-recurrence-forever =
+    .label = Sonsuz
