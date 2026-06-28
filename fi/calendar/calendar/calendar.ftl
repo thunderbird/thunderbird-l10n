@@ -1102,3 +1102,7 @@ counter-on-previous-version-notification = Tämä on vastaehdotus tapahtuman aik
 counter-on-counter-disallowed-notification = Estit vastaehdotukset lähettäessäsi kutsua.
 event-recurrence-forever =
     .label = Ikuisesti
+# $count - the number of attendees
+attendees-tab-label = Osallistujat ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Liitteet ({ $count }):
