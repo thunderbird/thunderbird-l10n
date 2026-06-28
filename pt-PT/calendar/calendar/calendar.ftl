@@ -1102,3 +1102,7 @@ counter-on-previous-version-notification = Esta é uma contra-proposta a uma ver
 counter-on-counter-disallowed-notification = Você desativou as contra-propostas ao enviar o convite.
 event-recurrence-forever =
     .label = Eternamente
+# $count - the number of attendees
+attendees-tab-label = Participantes ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Anexos ({ $count }):
