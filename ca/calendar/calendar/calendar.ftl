@@ -1053,5 +1053,21 @@ enter-link-location = Escriviu l'adreça d'una pàgina web o la ubicació d'un d
 #   $providerName - The FileLink provider display name
 attach-via-filelink = Fitxer mitjançant { $providerName }
 select-a-file = Seleccioneu els fitxers que voleu adjuntar
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } ha acceptat la invitació, però ha fet una contraproposta:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } ha acceptat la invitació provisionalment i ha fet una contraproposta:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } ha declinat la invitació, però ha fet una contraproposta:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } ha delegat la invitació, però ha fet una contraproposta:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } no ha decidit si participarà i ha fet una contraproposta:
+counter-on-previous-version-notification = Aquesta és la contraproposta d'una versió anterior d'aquesta cita.
+counter-on-counter-disallowed-notification = Heu inhabilitat les contrapropostes quan heu enviat la invitació.
 event-recurrence-forever =
     .label = Per sempre
