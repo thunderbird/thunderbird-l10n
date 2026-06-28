@@ -1084,5 +1084,23 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Добавить как задачу
     .tooltiptext = Извлечь календарную информацию из сообщения и добавить в календарь как задачу
+new-event-input =
+    .placeholder = Новое событие
+new-task-input =
+    .placeholder = Новая задача
+item-menu-label-event =
+    .label = Событие
+    .accesskey = С
+item-menu-label-task =
+    .label = Задача
+    .accesskey = З
+# Link Location Dialog
+specify-link-location = Укажите адрес ссылки
+enter-link-location = Введите адрес веб-страницы или укажите расположение документа.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Вложить файл с помощью { $providerName }
+select-a-file = Вложить файл(ы)
 event-recurrence-forever =
     .label = Всегда
