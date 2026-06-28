@@ -886,3 +886,23 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Cuir leis mar thasc
     .tooltiptext = Bain faisnéis faoi thasc as an teachtaireacht agus cuir le d'fhéilire é
+new-event-input =
+    .placeholder = Imeacht Nua
+new-task-input =
+    .placeholder = Tasc Nua
+item-menu-label-event =
+    .label = Imeacht
+    .accesskey = I
+item-menu-label-task =
+    .label = Tasc
+    .accesskey = T
+# Link Location Dialog
+specify-link-location = Sonraigh suíomh an naisc, le do thoil
+enter-link-location = Cuir isteach leathanach Gréasáin, nó suíomh cáipéise.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Comhad le { $providerName }
+select-a-file = Roghnaigh comha(i)d le ceangal
+event-recurrence-forever =
+    .label = Go Brách
