@@ -1101,5 +1101,19 @@ counter-delegated = { $name } hat die Einladung weitergeleitet, aber einen Gegen
 counter-needs-action = { $name } hat sich noch nicht zur Teilnahme geäußert und einen Gegenvorschlag gemacht:
 counter-on-previous-version-notification = Dies ist ein Gegenvorschlag für eine ältere Version des Termins.
 counter-on-counter-disallowed-notification = Sie haben das Einreichen von Gegenvorschlägen beim Senden der Einladung verboten.
+sendandclose-button =
+    .label = Senden und schließen
+    .tooltiptext = Teilnehmer benachrichtigen und schließen
+saveandsend-button =
+    .label = Senden und speichern
+    .tooltiptext = Speichern und Teilnehmer benachrichtigen
+saveandsend-menu =
+    .label = Senden und speichern
+sendandclose-menu =
+    .label = Senden und schließen
 event-recurrence-forever =
     .label = Keins
+# $count - the number of attendees
+attendees-tab-label = Teilnehmer ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Anhänge ({ $count }):
