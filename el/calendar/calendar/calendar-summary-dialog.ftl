@@ -15,3 +15,28 @@ edit-button-context-menu-all-occurrences =
     .accesskey = ρ
 description-context-menu-copy-link-text =
     .label = Αντιγραφή κειμένου συνδέσμου
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation.
+event-accepted = Αποδεχθήκατε την πρόσκληση
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation tentatively
+event-tentative = Αποδεχθήκατε την πρόσκληση με επιφύλαξη
+# This will be displayed as notification in the summary dialog if the user has
+# declined the event invitation.
+event-declined = Απορρίψατε την πρόσκληση
+# This will be displayed as notification in the summary dialog if the user has
+# delegated his/her participation to one or more other participants
+# (without attending / working on it his/herself)
+event-delegated = Αναθέσατε την πρόσκληση
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to an invitation
+event-needs-action = Δεν έχετε απαντήσει ακόμα σε αυτήν την πρόσκληση
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the assigned task
+task-accepted = Έχετε δεχθεί να συμμετάσχετε σε αυτήν την εργασία
+# This will be displayed as notification in the summary dialog if the user has
+# accepted tentatively the assigned task.
+task-tentative = Έχετε δεχθεί με επιφύλαξη να συμμετάσχετε σε αυτήν την εργασία
+# This will be displayed as notification in the summary dialog if the user has
+# declined the assigned task
+task-declined = Έχετε απορρίψει τη συμμετοχή σε αυτήν την εργασία

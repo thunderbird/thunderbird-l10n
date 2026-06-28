@@ -1066,3 +1066,19 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Προσθήκη ως εργασία
     .tooltiptext = Εξαγωγή ημερολογιακών πληροφοριών από το μήνυμα και προσθήκη τους στο ημερολόγιό σας ως εργασία
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = Ο/Η { $name } αποδέχτηκε την πρόσκληση, αλλά έκανε μια αντιπρόταση:
+#   $name - The name of responding invitee.
+counter-tentative = Ο/Η { $name } αποδέχτηκε την πρόσκληση μόνο διστακτικά και έκανε μια αντιπρόταση:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = Ο/Η { $name } αρνήθηκε την πρόσκληση, αλλά έκανε μια αντιπρόταση:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = Ο/Η { $name } έχει αναθέσει την πρόσκληση, αλλά έκανε μια αντιπρόταση:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = Ο/Η { $name } δεν έχει αποφασίσει για το αν θα συμμετέχει και έκανε μια αντιπρόταση:
+counter-on-previous-version-notification = Αυτή είναι μια αντιπρόταση για μια προηγούμενη έκδοση της εκδήλωσης.
+counter-on-counter-disallowed-notification = Απαγορεύσατε την αντιπρόταση κατά την αποστολή της πρόσκλησης.
