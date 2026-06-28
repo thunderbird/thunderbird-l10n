@@ -15,3 +15,28 @@ edit-button-context-menu-all-occurrences =
     .accesskey = M
 description-context-menu-copy-link-text =
     .label = Hivatkozás szövegének másolása
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation.
+event-accepted = Elfogadta ezt a meghívót
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation tentatively
+event-tentative = Feltételesen elfogadta ezt a meghívót
+# This will be displayed as notification in the summary dialog if the user has
+# declined the event invitation.
+event-declined = Elutasította ezt a meghívót
+# This will be displayed as notification in the summary dialog if the user has
+# delegated his/her participation to one or more other participants
+# (without attending / working on it his/herself)
+event-delegated = Átadta ezt a meghívót
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to an invitation
+event-needs-action = Még nem válaszolt erre a meghívóra
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the assigned task
+task-accepted = Elfogadta, hogy dolgozik ezen a feladaton
+# This will be displayed as notification in the summary dialog if the user has
+# accepted tentatively the assigned task.
+task-tentative = Feltételesen elfogadta, hogy dolgozik ezen a feladaton
+# This will be displayed as notification in the summary dialog if the user has
+# declined the assigned task
+task-declined = Elutasította, hogy dolgozzon ezen a feladaton
