@@ -1137,3 +1137,21 @@ enter-link-location = Rhowch leoliad tudalen gwe neu ddogfen.
 #   $providerName - The FileLink provider display name
 attach-via-filelink = Ffeilio gan ddefnyddio { $providerName }
 select-a-file = Dewiswch ffeil(iau) i'w hatodi
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = Mae 0{ $name } wedi derbyn y gwahoddiad, ond wedi cyflwyno gwrthgynnig:
+#   $name - The name of responding invitee.
+counter-tentative = Mae 0{ $name } wedi derbyn y gwahoddiad yn amodol, ond wedi cyflwyno gwrthgynnig:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = Mae { $name } wedi gwrthod y gwahoddiad, ond wedi cynnig cyflwyno croes:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } wedi dirprwyo'r gwahoddiad, ond wedi cyflwyno gwrthgynnig:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = Nid yw { $name } wedi p'un ai i gymryd rhan ac wedi ac wedi cyflwyno gwrthgynnig:
+counter-on-previous-version-notification = Mae hyn yn gynnig croes i'r fersiwn blaenorol o'r digwyddiad hwn.
+counter-on-counter-disallowed-notification = Rydych wedi atal cynigion croes wrth anfon y gwahoddiad.
+event-recurrence-forever =
+    .label = Am Byth
