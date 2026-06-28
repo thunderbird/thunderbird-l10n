@@ -1066,3 +1066,23 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Gehitu zeregin gisa
     .tooltiptext = Erauzi egutegi-informazioa mezutik eta gehitu zure egutegian zeregin gisa
+new-event-input =
+    .placeholder = Gertaera berria
+new-task-input =
+    .placeholder = Zeregin berria
+item-menu-label-event =
+    .label = Gertaera
+    .accesskey = G
+item-menu-label-task =
+    .label = Zeregina
+    .accesskey = Z
+# Link Location Dialog
+specify-link-location = Zehaztu konexioaren kokapena
+enter-link-location = Sartu web orria edo dokumentuaren kokapena.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Fitxategia { $providerName } erabiliz
+select-a-file = Hautatu eransteko fitxategia(k)
+event-recurrence-forever =
+    .label = Beti
