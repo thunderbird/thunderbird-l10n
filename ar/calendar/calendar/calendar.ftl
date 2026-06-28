@@ -1008,6 +1008,24 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = أضفها كمهمة
     .tooltiptext = استخرج معلومات التقويم من الرسالة وأضفها إلى تقويمي كمهمة
+new-event-input =
+    .placeholder = حدث جديد
+new-task-input =
+    .placeholder = مهمة جديدة
+item-menu-label-event =
+    .label = حدث
+    .accesskey = ث
+item-menu-label-task =
+    .label = مهمة
+    .accesskey = ه
+# Link Location Dialog
+specify-link-location = من فضلك حدد مكان الرابط
+enter-link-location = أدخل صفحة وِب أو مكان المستند.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = أرفق باستخدام { $providerName }
+select-a-file = من فضلك حدد الملفات التي تريد إرفاقها
 # Variables:
 #   $name - The name of responding invitee.
 counter-accepted = قبل { $name } الدعوة، لكن قدم عرضًا مضادًا:
@@ -1034,6 +1052,8 @@ saveandsend-menu =
     .label = احفظ وأرسِل
 sendandclose-menu =
     .label = أرسِل وأغلِق
+event-recurrence-forever =
+    .label = للأبد
 # $count - the number of attendees
 attendees-tab-label = الحضور ({ $count }):
 # $count - the number of attachments
