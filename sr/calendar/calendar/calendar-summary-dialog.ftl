@@ -40,3 +40,15 @@ task-tentative = Условно сте прихватили да радите н
 # This will be displayed as notification in the summary dialog if the user has
 # declined the assigned task
 task-declined = Одбили сте да радите на овом задатку
+# This will be displayed as notification the summary dialog if the user has
+# delegated his/her assignment to one or more others (without attending / working on it his/herself)
+task-delegated = Делегирали сте рад на овом задатку
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to the task assignment
+task-needs-action = Нисте још одговорили на овај додељени задатак
+# This will be displayed as notification in the summary dialog if the user
+# is working on an assigned task
+task-in-progress = Започели сте рад на овом додељеном задатку
+# This will be displayed as notification in the summary dialog if the user
+# has completed the work on this assigned task
+task-completed = Завршили сте рад на овом додељеном задатку
