@@ -1069,6 +1069,52 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Тапсырма ретінде қосу
     .tooltiptext = Хабарламадан күнтізбелік ақпаратты шығарып, оны күнтізбеңізге тапсырма ретінде қосу
+new-event-input =
+    .placeholder = Жаңа оқиға
+new-task-input =
+    .placeholder = Жаңа тапсырма
+item-menu-label-event =
+    .label = Оқиға
+    .accesskey = и
+item-menu-label-task =
+    .label = Тапсырма
+    .accesskey = т
+# Link Location Dialog
+specify-link-location = Сілтеменің орналасуын көрсетіңіз
+enter-link-location = Веб парағын, немесе құжат орналасуын көрсетіңіз.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Файл, { $providerName } қолданып
+select-a-file = Тіркеу үшін файл(дар)ды таңдаңыз
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } шақыруды қабылдады, бірақ, кері ұсынысты жасады:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } шақыруды мүмкін деп қабылдады, бірақ, кері ұсынысты жасады:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } шақыруды тайдырды, бірақ, кері ұсынысты жасады:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } өз шақыруын басқаға берді, бірақ, кері ұсынысты жасады:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } өз қатысуы туралы шешпеді, бірақ, кері ұсынысты жасады:
+counter-on-previous-version-notification = Бұл - оқиғаның алдыңғы нұсқасына кері ұсыныс.
+counter-on-counter-disallowed-notification = Шақыруды жіберу кезінде сіз кері ұсыныстарды жіберуге тыйым салдыңыз.
+sendandclose-button =
+    .label = Жіберу және жабу
+    .tooltiptext = Қатысушыларды ескерту және жабу
+saveandsend-button =
+    .label = Сақтау және жіберу
+    .tooltiptext = Сақтау және қатысушыларды ескерту
+saveandsend-menu =
+    .label = Сақтау және жіберу
+sendandclose-menu =
+    .label = Жіберу және жабу
+event-recurrence-forever =
+    .label = Әрқашан
 # $count - the number of attendees
 attendees-tab-label = Қатысушылар ({ $count }):
 # $count - the number of attachments
