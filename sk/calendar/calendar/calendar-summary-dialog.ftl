@@ -15,3 +15,28 @@ edit-button-context-menu-all-occurrences =
     .accesskey = p
 description-context-menu-copy-link-text =
     .label = Kopírovať text odkazu
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation.
+event-accepted = Toto pozvanie ste prijali
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation tentatively
+event-tentative = Toto pozvanie ste predbežne prijali
+# This will be displayed as notification in the summary dialog if the user has
+# declined the event invitation.
+event-declined = Toto pozvanie ste odmietli
+# This will be displayed as notification in the summary dialog if the user has
+# delegated his/her participation to one or more other participants
+# (without attending / working on it his/herself)
+event-delegated = Poverili ste účasťou niekoho iného
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to an invitation
+event-needs-action = Na toto pozvanie ste ešte neodpovedali
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the assigned task
+task-accepted = Prácu na tejto úlohe ste prijali
+# This will be displayed as notification in the summary dialog if the user has
+# accepted tentatively the assigned task.
+task-tentative = Prácu na tejto úlohe ste predbežne prijali
+# This will be displayed as notification in the summary dialog if the user has
+# declined the assigned task
+task-declined = Prácu na tejto úlohe ste odmietli
