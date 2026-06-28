@@ -40,3 +40,15 @@ task-tentative = Bu görev üzerinde çalışmayı belirsiz olarak kabul ettiniz
 # This will be displayed as notification in the summary dialog if the user has
 # declined the assigned task
 task-declined = Bu görev üzerinde çalışmayı reddettiniz
+# This will be displayed as notification the summary dialog if the user has
+# delegated his/her assignment to one or more others (without attending / working on it his/herself)
+task-delegated = Bu görev için başkasını görevlendirdiniz
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to the task assignment
+task-needs-action = Bu görev atamasına henüz yanıt vermediniz
+# This will be displayed as notification in the summary dialog if the user
+# is working on an assigned task
+task-in-progress = Bu atanmış görev üzerinde çalışmaya başladınız
+# This will be displayed as notification in the summary dialog if the user
+# has completed the work on this assigned task
+task-completed = Bu atanmış görev üzerinde çalışmayı bitirdiniz

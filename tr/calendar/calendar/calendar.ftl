@@ -1096,6 +1096,16 @@ counter-delegated = { $name } daveti başkasına devretti, ancak karşı teklift
 counter-needs-action = { $name } katılıp katılmama kararı vermedi ve karşı teklifte bulundu:
 counter-on-previous-version-notification = Bu, bu etkinliğin önceki bir sürümü için yapılan bir karşı teklif.
 counter-on-counter-disallowed-notification = Daveti gönderirken davetin geri çevrilmesine izin vermediniz.
+sendandclose-button =
+    .label = Gönder ve kapat
+    .tooltiptext = Katılımcılara bildir ve kapat
+saveandsend-button =
+    .label = Kaydet ve gönder
+    .tooltiptext = Kaydet ve katılımcıları bilgilendir
+saveandsend-menu =
+    .label = Kaydet ve gönder
+sendandclose-menu =
+    .label = Gönder ve kapat
 event-recurrence-forever =
     .label = Sonsuz
 # $count - the number of attendees
