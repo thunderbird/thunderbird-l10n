@@ -15,3 +15,28 @@ edit-button-context-menu-all-occurrences =
     .accesskey = a
 description-context-menu-copy-link-text =
     .label = Copy Link Text
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation.
+event-accepted = You have accepted this invitation
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation tentatively
+event-tentative = You have accepted this invitation tentatively
+# This will be displayed as notification in the summary dialog if the user has
+# declined the event invitation.
+event-declined = You have declined this invitation
+# This will be displayed as notification in the summary dialog if the user has
+# delegated his/her participation to one or more other participants
+# (without attending / working on it his/herself)
+event-delegated = You have delegated this invitation
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to an invitation
+event-needs-action = You haven't yet responded to this invitation
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the assigned task
+task-accepted = You have accepted to work on this task
+# This will be displayed as notification in the summary dialog if the user has
+# accepted tentatively the assigned task.
+task-tentative = You have tentatively accepted to work on this task
+# This will be displayed as notification in the summary dialog if the user has
+# declined the assigned task
+task-declined = You have declined to work on this task
