@@ -1066,6 +1066,40 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Agregar como tarea
     .tooltiptext = Extraer información de calendario desde el mensaje y agregarlo como una tarea
+new-event-input =
+    .placeholder = Nuevo evento
+new-task-input =
+    .placeholder = Nueva tarea
+item-menu-label-event =
+    .label = Evento
+    .accesskey = F
+item-menu-label-task =
+    .label = Tarea
+    .accesskey = F
+# Link Location Dialog
+specify-link-location = Especifique la dirección de enlace
+enter-link-location = Ingrese una página web o ubicación del documento.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Archivo usando { $providerName }
+select-a-file = Seleccione archivo(s) a adjuntar
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } ha aceptado la invitación, pero ha hecho una contrapropuesta:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } ha aceptado la invitación solo tentativamente y ha hecho una contrapropuesta:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } ha declinado la invitación, pero ha hecho una contrapropuesta:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } ha delegado la invitación, pero ha hecho una contrapropuesta:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } no ha decidido si participará y ha hecho una contrapropuesta:
+counter-on-previous-version-notification = Esta es una contrapropuesta para una versión previa de este evento.
+counter-on-counter-disallowed-notification = Ha deshabilitado las contrapropuestas al enviar la invitación.
 sendandclose-button =
     .label = Enviar y cerrar
     .tooltiptext = Notificar a los asistentes y cerrar
@@ -1076,6 +1110,8 @@ saveandsend-menu =
     .label = Guardar y enviar
 sendandclose-menu =
     .label = Guardar y cerrar
+event-recurrence-forever =
+    .label = Para siempre
 # $count - the number of attendees
 attendees-tab-label = Asistentes ({ $count }):
 # $count - the number of attachments
