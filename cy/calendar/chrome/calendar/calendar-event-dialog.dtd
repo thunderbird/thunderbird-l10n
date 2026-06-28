@@ -361,6 +361,7 @@
 <!ENTITY read.only.repeat.label "Ailadrodd:">
 <!ENTITY read.only.location.label "Lleoliad:">
 <!ENTITY read.only.category.label "Categori:">
+<!-- Read-Only dialog -->
 <!ENTITY read.only.organizer.label "Trefnydd:">
 <!ENTITY read.only.reminder.label "Atgoffwr:">
 <!ENTITY read.only.attachments.label "Atodiadau:">

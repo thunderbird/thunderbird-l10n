@@ -267,6 +267,7 @@
 <!ENTITY read.only.repeat.label "Tikamulüx:">
 <!ENTITY read.only.location.label "K'ojlib'äl:">
 <!ENTITY read.only.category.label "Ruwäch:">
+<!-- Read-Only dialog -->
 <!ENTITY read.only.organizer.label "Ticholajïx:">
 <!ENTITY read.only.reminder.label "Natab'äl:">
 <!ENTITY read.only.attachments.label "Taq taqoj:">

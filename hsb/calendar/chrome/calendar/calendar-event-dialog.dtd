@@ -361,6 +361,7 @@
 <!ENTITY read.only.repeat.label "Wospjetować:">
 <!ENTITY read.only.location.label "Městno:">
 <!ENTITY read.only.category.label "Kategorija:">
+<!-- Read-Only dialog -->
 <!ENTITY read.only.organizer.label "Organizator:">
 <!ENTITY read.only.reminder.label "Dopomnjeće:">
 <!ENTITY read.only.attachments.label "Přiwěški:">

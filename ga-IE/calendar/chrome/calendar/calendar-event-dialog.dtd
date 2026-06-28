@@ -360,6 +360,7 @@
 <!ENTITY read.only.repeat.label "Athdhéan:">
 <!ENTITY read.only.location.label "Suíomh:">
 <!ENTITY read.only.category.label "Catagóir:">
+<!-- Read-Only dialog -->
 <!ENTITY read.only.organizer.label "Eagraí:">
 <!ENTITY read.only.reminder.label "Meabhrúchán:">
 <!ENTITY read.only.attachments.label "Iatáin:">

@@ -5,6 +5,8 @@
 about-update-whats-new = Novità
 about-dialog-title = Informazioni su { -brand-full-name }
 release-notes-link = Note di versione
+# This describes the codename logo shown in the About Thunderbird dialog for the current annual release.
+# Do not translate: Meadow
 about-dialog-meadow-logo =
     .alt = Badge per { -brand-short-name } Meadow
     .title = { -brand-short-name } - Codename Meadow

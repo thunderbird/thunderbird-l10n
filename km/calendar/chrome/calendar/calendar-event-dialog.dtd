@@ -166,6 +166,7 @@
 <!ENTITY read.only.repeat.label "ធ្វើម្តងទៀត៖">
 <!ENTITY read.only.location.label "ទីតាំង ៖">
 <!ENTITY read.only.category.label "ប្រភេទ ៖">
+<!-- Read-Only dialog -->
 <!ENTITY read.only.organizer.label "អ្នករៀបចំ៖">
 <!ENTITY read.only.reminder.label "ការរំលឹក៖">
 <!ENTITY read.only.attachments.label "ឯកសារ​ភ្ជាប់ ៖">

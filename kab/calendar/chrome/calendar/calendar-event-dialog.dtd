@@ -361,6 +361,7 @@
 <!ENTITY read.only.repeat.label "Tisnilas:">
 <!ENTITY read.only.location.label "Adig">
 <!ENTITY read.only.category.label "Taggayt:">
+<!-- Read-Only dialog -->
 <!ENTITY read.only.organizer.label "Suddes">
 <!ENTITY read.only.reminder.label "Asmekti:">
 <!ENTITY read.only.attachments.label "Imeddayen:">

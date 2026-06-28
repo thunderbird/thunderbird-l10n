@@ -357,6 +357,7 @@
 <!ENTITY read.only.repeat.label "Arren:">
 <!ENTITY read.only.location.label "Lec'hiadur:">
 <!ENTITY read.only.category.label "Rummad:">
+<!-- Read-Only dialog -->
 <!ENTITY read.only.organizer.label "Aozer:">
 <!ENTITY read.only.reminder.label "Koun:">
 <!ENTITY read.only.attachments.label "Kenstagadurioù:">

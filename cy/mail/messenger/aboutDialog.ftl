@@ -5,6 +5,8 @@
 about-update-whats-new = Be sy'n Newydd
 about-dialog-title = Ynghylch { -brand-full-name }
 release-notes-link = Nodiadau ryddhau
+# This describes the codename logo shown in the About Thunderbird dialog for the current annual release.
+# Do not translate: Meadow
 about-dialog-meadow-logo =
     .alt = Bathodyn enw cod Meadow { -brand-short-name }
     .title = { -brand-short-name } - Codename Meadow

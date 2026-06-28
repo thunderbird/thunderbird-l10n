@@ -5,6 +5,8 @@
 about-update-whats-new = Novosti
 about-dialog-title = O { -brand-full-name(sklon: "mestnik") }
 release-notes-link = Opombe ob izdaji
+# This describes the codename logo shown in the About Thunderbird dialog for the current annual release.
+# Do not translate: Meadow
 about-dialog-meadow-logo =
     .alt = Značka { -brand-short-name(sklon: "rodilnik") } s kodnim imenom Meadow
     .title = { -brand-short-name } – kodno ime Meadow

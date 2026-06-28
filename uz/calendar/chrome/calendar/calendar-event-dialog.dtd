@@ -339,6 +339,7 @@
 <!ENTITY read.only.repeat.label "Takrorlash:">
 <!ENTITY read.only.location.label "Joylashuvi:">
 <!ENTITY read.only.category.label "Turkum:">
+<!-- Read-Only dialog -->
 <!ENTITY read.only.organizer.label "Tashkilotchi:">
 <!ENTITY read.only.reminder.label "Eslatgich:">
 <!ENTITY read.only.attendees.label "Ishtirokchilar">

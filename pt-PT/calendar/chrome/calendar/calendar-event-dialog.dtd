@@ -361,6 +361,7 @@
 <!ENTITY read.only.repeat.label "Repetir:">
 <!ENTITY read.only.location.label "Localização:">
 <!ENTITY read.only.category.label "Categoria:">
+<!-- Read-Only dialog -->
 <!ENTITY read.only.organizer.label "Agenda:">
 <!ENTITY read.only.reminder.label "Lembrete:">
 <!ENTITY read.only.attachments.label "Anexos:">

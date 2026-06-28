@@ -5,6 +5,8 @@
 about-update-whats-new = Τι νέο υπάρχει
 about-dialog-title = Σχετικά με το { -brand-full-name }
 release-notes-link = Σημειώσεις έκδοσης
+# This describes the codename logo shown in the About Thunderbird dialog for the current annual release.
+# Do not translate: Meadow
 about-dialog-meadow-logo =
     .alt = Έμβλημα του { -brand-short-name } Meadow
     .title = { -brand-short-name } (Κωδικό όνομα: Meadow)

@@ -5,6 +5,8 @@
 about-update-whats-new = Hvað er nýtt
 about-dialog-title = Um { -brand-full-name }
 release-notes-link = Útgáfuupplýsingar
+# This describes the codename logo shown in the About Thunderbird dialog for the current annual release.
+# Do not translate: Meadow
 about-dialog-meadow-logo =
     .alt = Merki fyrir { -brand-short-name } kóðanafn Meadow
     .title = { -brand-short-name } - kóðanafn Meadow

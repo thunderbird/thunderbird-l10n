@@ -307,6 +307,7 @@
 <!ENTITY read.only.task.start.label "Дата пачатку:">
 <!ENTITY read.only.location.label "Месца:">
 <!ENTITY read.only.category.label "Катэгорыя:">
+<!-- Read-Only dialog -->
 <!ENTITY read.only.organizer.label "Арганізатар:">
 <!ENTITY read.only.reminder.label "Напамінак:">
 <!ENTITY read.only.attachments.label "Прымацаванні:">

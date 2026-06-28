@@ -355,6 +355,7 @@
 <!ENTITY read.only.repeat.label "חזרה:">
 <!ENTITY read.only.location.label "מיקום:">
 <!ENTITY read.only.category.label "קטגוריה:">
+<!-- Read-Only dialog -->
 <!ENTITY read.only.organizer.label "מארגן:">
 <!ENTITY read.only.reminder.label "תזכורת:">
 <!ENTITY read.only.attachments.label "קבצים מצורפים:">
