@@ -989,3 +989,23 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = 作为任务添加
     .tooltiptext = 从消息中提取日历信息并作为任务添加到你的日历中
+new-event-input =
+    .placeholder = 新建事件
+new-task-input =
+    .placeholder = 新任务
+item-menu-label-event =
+    .label = 事件
+    .accesskey = F
+item-menu-label-task =
+    .label = 任务
+    .accesskey = F
+# Link Location Dialog
+specify-link-location = 请指定链接位置
+enter-link-location = 输入网页地址或文档位置。
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = 使用文件 { $providerName }
+select-a-file = 请选择要附加的文件
+event-recurrence-forever =
+    .label = 永远
