@@ -68,6 +68,11 @@ menu-quit =
 # This menu-quit-mac string is only used on macOS.
 menu-quit-mac =
     .label = დაიხუროს { -brand-shorter-name }
+system-tray-menuitem-quit =
+    { PLATFORM() ->
+        [windows] დაიხუროს { -brand-full-name }
+       *[other] დაიხუროს { -brand-full-name }
+    }
 system-tray-menu-quit =
     .label =
         { PLATFORM() ->
