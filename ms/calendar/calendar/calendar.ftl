@@ -920,3 +920,7 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Tambah sebagai tugasan
     .tooltiptext = Ekstrak maklumat kalendar daripada mesej dan masukkan ke dalam kalender sebagai tugasan
+# $count - the number of attendees
+attendees-tab-label = Peserta ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Lampiran ({ $count }):
