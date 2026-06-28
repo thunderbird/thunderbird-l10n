@@ -1066,3 +1066,5 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Legg til som oppgåve
     .tooltiptext = Hent ut kalenderinfo frå meldinga og legg til i kalenderen din som ei oppgåve
+event-recurrence-forever =
+    .label = For alltid
