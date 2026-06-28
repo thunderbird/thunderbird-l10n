@@ -1119,3 +1119,21 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Ychwanegu fel tasg
     .tooltiptext = Tynnu gwybodaeth calendr o'r neges a'i ychwanegu i'ch calendr fel tasg
+new-event-input =
+    .placeholder = Digwyddiad Newydd
+new-task-input =
+    .placeholder = Tasg Newydd
+item-menu-label-event =
+    .label = Digwyddiad
+    .accesskey = D
+item-menu-label-task =
+    .label = Tasg
+    .accesskey = T
+# Link Location Dialog
+specify-link-location = Pennwch leoliad y ddolen
+enter-link-location = Rhowch leoliad tudalen gwe neu ddogfen.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Ffeilio gan ddefnyddio { $providerName }
+select-a-file = Dewiswch ffeil(iau) i'w hatodi
