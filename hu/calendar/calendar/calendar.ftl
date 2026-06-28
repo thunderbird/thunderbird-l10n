@@ -1066,3 +1066,23 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Felvétel feladatként
     .tooltiptext = Naptár-információk kinyerése az üzenetből, és azok felvétele a naptárba feladatként
+new-event-input =
+    .placeholder = Új esemény
+new-task-input =
+    .placeholder = Új feladat
+item-menu-label-event =
+    .label = Esemény
+    .accesskey = E
+item-menu-label-task =
+    .label = Feladat
+    .accesskey = F
+# Link Location Dialog
+specify-link-location = Adja meg a hivatkozás helyét
+enter-link-location = Írja be a weboldal vagy a dokumentum helyét.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Fájl { $providerName } használatával
+select-a-file = Jelölje ki a csatolandó fájlokat
+event-recurrence-forever =
+    .label = Örökké
