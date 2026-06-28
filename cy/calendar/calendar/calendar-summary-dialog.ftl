@@ -40,3 +40,15 @@ task-tentative = Rydych wedi derbyn gweithio ar y dasg hwn yn amodol
 # This will be displayed as notification in the summary dialog if the user has
 # declined the assigned task
 task-declined = Rydych wedi gwrthod gweithio ar y dasg hwn
+# This will be displayed as notification the summary dialog if the user has
+# delegated his/her assignment to one or more others (without attending / working on it his/herself)
+task-delegated = Rydych wedi dirprwyo gweithio ar y dasg hwn
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to the task assignment
+task-needs-action = Nid ydych wedi ymateb eto i'r gwahoddiad i'r aseiniad tasg yma
+# This will be displayed as notification in the summary dialog if the user
+# is working on an assigned task
+task-in-progress = Rydych wedi dechrau gweithio ar yr aseiniad tasg hwn
+# This will be displayed as notification in the summary dialog if the user
+# has completed the work on this assigned task
+task-completed = Rydych wedi cwblhau gweithio ar yr aseiniad tasg hwn

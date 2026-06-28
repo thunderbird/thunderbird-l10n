@@ -1153,5 +1153,19 @@ counter-delegated = { $name } wedi dirprwyo'r gwahoddiad, ond wedi cyflwyno gwrt
 counter-needs-action = Nid yw { $name } wedi p'un ai i gymryd rhan ac wedi ac wedi cyflwyno gwrthgynnig:
 counter-on-previous-version-notification = Mae hyn yn gynnig croes i'r fersiwn blaenorol o'r digwyddiad hwn.
 counter-on-counter-disallowed-notification = Rydych wedi atal cynigion croes wrth anfon y gwahoddiad.
+sendandclose-button =
+    .label = Anfon a Chau
+    .tooltiptext = Hysbysu'r mynychwr a chau
+saveandsend-button =
+    .label = Cadw ac Anfon
+    .tooltiptext = Cadw a hysbysu'r mynychwr
+saveandsend-menu =
+    .label = Cadw ac Anfon
+sendandclose-menu =
+    .label = Anfon a Chau
 event-recurrence-forever =
     .label = Am Byth
+# $count - the number of attendees
+attendees-tab-label = Mynychwyr ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Atodiadau ({ $count }):
