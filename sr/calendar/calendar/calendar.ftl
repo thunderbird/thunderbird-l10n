@@ -1084,3 +1084,7 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Додај као задатак
     .tooltiptext = Извуците календарске податке из поруке и додајте их као задатак у ваш календар
+# $count - the number of attendees
+attendees-tab-label = Учесници ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Прилози ({ $count }):
