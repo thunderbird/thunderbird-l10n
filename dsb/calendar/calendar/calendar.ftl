@@ -1118,3 +1118,7 @@ counter-delegated = { $name } jo pśepšosenje delegěrował, ale jo pśeśiwona
 counter-needs-action = { $name } njejo rozsuźił, lěc se wobźělijo a jo pśeśiwonaraźenje cynił:
 counter-on-previous-version-notification = To jo pśeśiwonaraźenje za pjerwjejšnu wersiju toś togo tšojenja.
 counter-on-counter-disallowed-notification = Sćo cynjenje pśeśiwonaraźenja zakazał, gaž se pśepšosenje sćelo.
+# $count - the number of attendees
+attendees-tab-label = Wobźělniki ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Pśidanki ({ $count }):

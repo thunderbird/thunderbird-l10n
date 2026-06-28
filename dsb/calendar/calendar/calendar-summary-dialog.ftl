@@ -15,3 +15,28 @@ edit-button-context-menu-all-occurrences =
     .accesskey = W
 description-context-menu-copy-link-text =
     .label = Wótkazowy tekst kopěrowaś
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation.
+event-accepted = Sćo akceptěrował toś to pśepšosenje
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation tentatively
+event-tentative = Sćo nachylu akceptěrował toś to pśepšosenje
+# This will be displayed as notification in the summary dialog if the user has
+# declined the event invitation.
+event-declined = Sćo wótpokazał toś to pśepšosenje
+# This will be displayed as notification in the summary dialog if the user has
+# delegated his/her participation to one or more other participants
+# (without attending / working on it his/herself)
+event-delegated = Sćo delegěrował toś to pśepšosenje
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to an invitation
+event-needs-action = Njejsćo hyšći wótegronił na toś to pśepšosenje
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the assigned task
+task-accepted = Sćo akceptěrował na toś tom nadawku źěłaś
+# This will be displayed as notification in the summary dialog if the user has
+# accepted tentatively the assigned task.
+task-tentative = Sćo akceptěrował nachylu na toś tom nadawku źěłaś
+# This will be displayed as notification in the summary dialog if the user has
+# declined the assigned task
+task-declined = Sćo wótpokazał na toś tom nadawku źěłaś
