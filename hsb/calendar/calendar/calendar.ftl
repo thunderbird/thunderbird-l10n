@@ -1102,3 +1102,19 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Jako nadawk přidać
     .tooltiptext = Protykowe informacije z powěsće ekstrahować a je wašej protyce jako nadawk přidać
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } je přeprošenje akceptował, ale je přećiwonamjet činił:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } je přeprošenje jenož nachwilu akceptował a je přećiwonamjet činił:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } je přeprošenje wotpokazał, ale je přećiwonamjet činił:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } je přeprošenje delegował, ale je přećiwonamjet činił:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } njeje rozsudźił, hač so wobdźěli a je přećiwonamjet činił:
+counter-on-previous-version-notification = To je přećiwonamjet za předchadnu wersiju tutoho podawka.
+counter-on-counter-disallowed-notification = Sće činjenje přećiwonamjety zakazał, hdyž so přeprošenje sćele.
