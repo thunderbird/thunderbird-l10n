@@ -1070,3 +1070,23 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Tafoegje as taak
     .tooltiptext = Helje aginda-ynformaasje út it berjocht en foegje it ta oan jo aginda as in taak
+new-event-input =
+    .placeholder = Nij barren
+new-task-input =
+    .placeholder = Nije taak
+item-menu-label-event =
+    .label = Barren
+    .accesskey = B
+item-menu-label-task =
+    .label = Taak
+    .accesskey = T
+# Link Location Dialog
+specify-link-location = Spesifisearje de keppelingslokaasje
+enter-link-location = Fier in webside- of dokumintlokaasje yn.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Bestân fia { $providerName }
+select-a-file = Selektearje de bestannen om te keppeljen
+event-recurrence-forever =
+    .label = Foar altyd
