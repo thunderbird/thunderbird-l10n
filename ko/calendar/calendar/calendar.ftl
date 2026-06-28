@@ -982,3 +982,39 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = 태스크 추가
     .tooltiptext = 메시지에서 날짜 정보를 추출하여 캘린더에 태스크로 추가
+new-event-input =
+    .placeholder = 새 이벤트
+new-task-input =
+    .placeholder = 새 태스크
+item-menu-label-event =
+    .label = 이벤트
+    .accesskey = F
+item-menu-label-task =
+    .label = 태스크
+    .accesskey = F
+# Link Location Dialog
+specify-link-location = 링크 위치를 지정 하십시오.
+enter-link-location = 웹 페이지나 문서 위치를 입력 하십시오.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = { $providerName }을 사용하고 있는 파일
+select-a-file = 첨부할 파일을 선택하십시오.
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } 가 초대를 수락하였지만, 반대 제안을 함:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } 가 임시로 초대를 수락하였고, 반대 제안을 함:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } 가 초대를 거절하였지만, 반대 제안을 함:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } 가 초대를 위임하였지만, 반대 제안을 함:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } 가 참여할지 아직 결정하지 않았으며, 반대 제안을 함:
+counter-on-previous-version-notification = 이 이벤트의 이전 버전에 대한 반대 제안입니다.
+counter-on-counter-disallowed-notification = 초대를 보낼 때, 반대를 허가하지 않습니다.
+event-recurrence-forever =
+    .label = 끝나지 않음
