@@ -1068,6 +1068,24 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Ajouter comme tâche
     .tooltiptext = Extraire les informations temporelles du message et les ajouter à votre agenda en tant que tâche
+new-event-input =
+    .placeholder = Nouvel évènement
+new-task-input =
+    .placeholder = Nouvelle tâche
+item-menu-label-event =
+    .label = Évènement
+    .accesskey = v
+item-menu-label-task =
+    .label = Tâche
+    .accesskey = T
+# Link Location Dialog
+specify-link-location = Veuillez spécifier l’adresse du lien
+enter-link-location = Saisissez l’adresse d’une page web ou d’un document
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Joindre à l’aide de { $providerName }
+select-a-file = Veuillez sélectionner le(s) fichier(s) à joindre
 # $count - the number of attendees
 attendees-tab-label = Participants ({ $count }) :
 # $count - the number of attachments
