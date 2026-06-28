@@ -1098,5 +1098,21 @@ enter-link-location = Upišite lokaciju web stranice ili dokumenta.
 #   $providerName - The FileLink provider display name
 attach-via-filelink = Datoteku koristeći { $providerName }
 select-a-file = Odaberite datoteke za priložiti
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } je prihvatio poziv, ali je poslao protuprijedlog:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } je privremeno prihvatio poziv, ali je poslao protuprijedlog:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } nije prihvatio poziv, ali je poslao protuprijedlog:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } je delegirao poziv, ali je poslao protuprijedlog:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } nije odlučio da li sudjelovati, ali je poslao protuprijedlog:
+counter-on-previous-version-notification = Ovo je protuprijedlog za prethodnu inačicu ovog događaja.
+counter-on-counter-disallowed-notification = Niste omogućili protuprijedloge prilikom slanja poziva.
 event-recurrence-forever =
     .label = Zauvijek
