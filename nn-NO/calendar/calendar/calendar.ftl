@@ -1084,5 +1084,21 @@ enter-link-location = Skriv inn ei nettadresse eller ei dokumentplassering.
 #   $providerName - The FileLink provider display name
 attach-via-filelink = Fil med { $providerName }
 select-a-file = Vel fila/filene som skal leggjast ved
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } har akseptert invitasjonen, men kom med eit motforslag:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } har foreløpig akseptert invitasjonen og kome med eit motforslag:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } har avslått invitasjonen, men kom med eit motforslag:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } har delegert invitasjonen, men kom med eit motforslag:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } har ikkje bestemt seg for om de vil delta, og kom med eit motforslag:
+counter-on-previous-version-notification = Dette er eit motforslag til ein tidlegare versjon av denne hendinga.
+counter-on-counter-disallowed-notification = Du tillèt ikkje motforslag når du sender ut invitasjonen.
 event-recurrence-forever =
     .label = For alltid
