@@ -1062,3 +1062,53 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Adicionar como tarefa
     .tooltiptext = Extrair informações de agenda a partir da mensagem e adicionar à sua agenda como uma tarefa
+new-event-input =
+    .placeholder = Novo evento
+new-task-input =
+    .placeholder = Nova tarefa
+item-menu-label-event =
+    .label = Evento
+    .accesskey = v
+item-menu-label-task =
+    .label = Tarefa
+    .accesskey = F
+# Link Location Dialog
+specify-link-location = Favor especificar local do atalho
+enter-link-location = Digite uma página da internet, ou local de documento.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Arquivo usando { $providerName }
+select-a-file = Favor selecionar arquivo(s) para anexar
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } aceitou o convite, mas fez uma sugestão:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } aceitou o convite apenas temporariamente e fez uma sugestão:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } recusou o convite, mas fez uma sugestão:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } delegou o convite, mas fez uma sugestão:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } não decidiu se participará e fez uma sugestão:
+counter-on-previous-version-notification = Essa é uma sugestão da versão anterior deste evento.
+counter-on-counter-disallowed-notification = Você não permitiu sugestões quando enviou o convite.
+sendandclose-button =
+    .label = Enviar e fechar
+    .tooltiptext = Notificar participantes e fechar
+saveandsend-button =
+    .label = Salvar e enviar
+    .tooltiptext = Salvar e notificar participantes
+saveandsend-menu =
+    .label = Salvar e enviar
+sendandclose-menu =
+    .label = Salvar e fechar
+event-recurrence-forever =
+    .label = Sempre
+# $count - the number of attendees
+attendees-tab-label = Participantes ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Anexos ({ $count }):

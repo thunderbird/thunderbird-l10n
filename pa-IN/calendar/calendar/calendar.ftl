@@ -788,3 +788,23 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Add as task
     .tooltiptext = Extract calendaring information from the message and add it to your calendar as a task
+new-event-input =
+    .placeholder = ਨਵਾਂ ਈਵੈਂਟ
+new-task-input =
+    .placeholder = ਨਵਾਂ ਟਾਸਕ
+item-menu-label-event =
+    .label = ਈਵੈਂਟ
+    .accesskey = T
+item-menu-label-task =
+    .label = ਟਾਸਕ
+    .accesskey = T
+# Link Location Dialog
+specify-link-location = Please specify the link location
+enter-link-location = Enter a web page, or document location.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = File using { $providerName }
+select-a-file = Please select the file(s) to attach
+event-recurrence-forever =
+    .label = ਹਮੇਸ਼ਾਂ

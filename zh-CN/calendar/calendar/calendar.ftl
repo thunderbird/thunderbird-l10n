@@ -989,3 +989,53 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = 作为任务添加
     .tooltiptext = 从消息中提取日历信息并作为任务添加到你的日历中
+new-event-input =
+    .placeholder = 新建事件
+new-task-input =
+    .placeholder = 新任务
+item-menu-label-event =
+    .label = 事件
+    .accesskey = F
+item-menu-label-task =
+    .label = 任务
+    .accesskey = F
+# Link Location Dialog
+specify-link-location = 请指定链接位置
+enter-link-location = 输入网页地址或文档位置。
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = 使用文件 { $providerName }
+select-a-file = 请选择要附加的文件
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } 已接受该邀请，但提出了不同意见：
+#   $name - The name of responding invitee.
+counter-tentative = { $name } 已暂且接受该邀请，并提出了不同意见：
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } 已拒绝该邀请，但提出了不同意见：
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } 已委托他人代为参与此邀请，但提出了不同意见：
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } 尚未决定是否参加，并提出了不同意见：
+counter-on-previous-version-notification = 这是一个此事件以前版本的不同意见。
+counter-on-counter-disallowed-notification = 您在发出邀请时设置了不接受意见。
+sendandclose-button =
+    .label = 发送并关闭
+    .tooltiptext = 通知参与人员并关闭
+saveandsend-button =
+    .label = 保存并发送
+    .tooltiptext = 保存并通知参与人员
+saveandsend-menu =
+    .label = 保存并发送
+sendandclose-menu =
+    .label = 发送并关闭
+event-recurrence-forever =
+    .label = 永远
+# $count - the number of attendees
+attendees-tab-label = 参与者（{ $count } 名）
+# $count - the number of attachments
+attachments-tab-label = 附件（{ $count } 项）：

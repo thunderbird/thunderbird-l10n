@@ -1066,3 +1066,53 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Lägg till som uppgift
     .tooltiptext = Plocka ut kalenderinformation från meddelandet och lägg till det i din kalender som en uppgift
+new-event-input =
+    .placeholder = Ny händelse
+new-task-input =
+    .placeholder = Ny uppgift
+item-menu-label-event =
+    .label = Händelse
+    .accesskey = H
+item-menu-label-task =
+    .label = Uppgift
+    .accesskey = U
+# Link Location Dialog
+specify-link-location = Ange adress till länk
+enter-link-location = Ange en webbplats eller sökväg till dokument.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Fil använder { $providerName }
+select-a-file = Välj fil(er) att bifoga
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } har accepterat inbjudan, men gjort ett motförslag:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } har endast preliminärt accepterat inbjudan och gjort ett motförslag:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } har avböjt inbjudan, men gjort ett motförslag:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } har delegerat inbjudan, men gjort ett motförslag:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } har inte beslutat om att delta och gjort ett motförslag:
+counter-on-previous-version-notification = Detta är ett motförslag för en tidigare version av denna händelse.
+counter-on-counter-disallowed-notification = Du tillåter inte motförslag när du skickar ut inbjudan.
+sendandclose-button =
+    .label = Skicka och stäng
+    .tooltiptext = Meddela deltagare och stäng
+saveandsend-button =
+    .label = Spara och skicka
+    .tooltiptext = Spara och meddela deltagare
+saveandsend-menu =
+    .label = Spara och skicka
+sendandclose-menu =
+    .label = Skicka och stäng
+event-recurrence-forever =
+    .label = För evigt
+# $count - the number of attendees
+attendees-tab-label = Deltagare ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Bilagor ({ $count }):

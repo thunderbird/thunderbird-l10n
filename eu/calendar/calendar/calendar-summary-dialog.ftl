@@ -15,3 +15,40 @@ edit-button-context-menu-all-occurrences =
     .accesskey = g
 description-context-menu-copy-link-text =
     .label = Kopiatu loturaren testua
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation.
+event-accepted = Gonbidapen hau onartu duzu
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation tentatively
+event-tentative = Gonbidapen hau behin-behinekoz onartu duzu
+# This will be displayed as notification in the summary dialog if the user has
+# declined the event invitation.
+event-declined = Gonbidapen hau baztertu duzu
+# This will be displayed as notification in the summary dialog if the user has
+# delegated his/her participation to one or more other participants
+# (without attending / working on it his/herself)
+event-delegated = Ordezkaria jarri duzu gonbidapenerako
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to an invitation
+event-needs-action = Ez duzu oraindik gonbidapena erantzun
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the assigned task
+task-accepted = Zeregin honetan lan egitea onartu duzu
+# This will be displayed as notification in the summary dialog if the user has
+# accepted tentatively the assigned task.
+task-tentative = Zeregin honetan lan egitea behin-behinekoz onartu duzu
+# This will be displayed as notification in the summary dialog if the user has
+# declined the assigned task
+task-declined = Zeregin honetan lan egitea baztertu duzu
+# This will be displayed as notification the summary dialog if the user has
+# delegated his/her assignment to one or more others (without attending / working on it his/herself)
+task-delegated = Zeregin honetan lan egiteko ordezkaria jarri duzu
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to the task assignment
+task-needs-action = Ez duzu oraindik zeregin honen esleipena erantzun
+# This will be displayed as notification in the summary dialog if the user
+# is working on an assigned task
+task-in-progress = Esleitutako zereginean lanean hasi zara
+# This will be displayed as notification in the summary dialog if the user
+# has completed the work on this assigned task
+task-completed = Esleitutako zeregineko lana amaitu duzu

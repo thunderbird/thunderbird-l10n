@@ -1091,3 +1091,53 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Pridať ako úlohu
     .tooltiptext = Extrahuje informácie o termínoch z e‑mailovej správy a pridá ich do kalendára ako úlohu
+new-event-input =
+    .placeholder = Nová udalosť
+new-task-input =
+    .placeholder = Nová úloha
+item-menu-label-event =
+    .label = Udalosť
+    .accesskey = o
+item-menu-label-task =
+    .label = Úloha
+    .accesskey = o
+# Link Location Dialog
+specify-link-location = Špecifikujte adresu odkazu
+enter-link-location = Zadajte webovú stránku alebo umiestnenie dokumentu.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Odoslať cez úložisko { $providerName }
+select-a-file = Vyberte súbory, ktoré chcete pripojiť
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = Používateľ { $name } prijal pozvanie ale vytvoril protinávrh:
+#   $name - The name of responding invitee.
+counter-tentative = Používateľ { $name } predbežne prijal pozvanie a vytvoril protinávrh:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = Používateľ { $name } neprijal pozvanie ale vytvoril protinávrh:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = Používateľ { $name } delegoval pozvanie ale vytvoril protinávrh:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = Používateľ { $name } sa nerozhodol, či sa zúčastní a vytvoril protinávrh:
+counter-on-previous-version-notification = Toto je protinávrh na predchádzajúcu verziu tejto udalosti.
+counter-on-counter-disallowed-notification = Pri odosielaní pozvánok ste zakázali vytváranie protinávrhov.
+sendandclose-button =
+    .label = Odoslať a zavrieť
+    .tooltiptext = Upozorní účastníkov a zavrie okno
+saveandsend-button =
+    .label = Uložiť a odoslať
+    .tooltiptext = Uloží udalosť a upozorní účastníkov
+saveandsend-menu =
+    .label = Uložiť a odoslať
+sendandclose-menu =
+    .label = Odoslať a zavrieť
+event-recurrence-forever =
+    .label = Bez obmedzenia
+# $count - the number of attendees
+attendees-tab-label = Účastníci ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Prílohy ({ $count }):

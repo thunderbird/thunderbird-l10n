@@ -1065,3 +1065,53 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Engadir como tarefa
     .tooltiptext = Extrae a información temporal da mensaxe e engádea ao calendario como unha tarefa
+new-event-input =
+    .placeholder = Novo evento
+new-task-input =
+    .placeholder = Nova tarefa
+item-menu-label-event =
+    .label = Evento
+    .accesskey = t
+item-menu-label-task =
+    .label = Tarefa
+    .accesskey = F
+# Link Location Dialog
+specify-link-location = Especifique a localización da ligazón
+enter-link-location = Introduza unha páxina web ou a localización dun documento.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Ficheiro usando { $providerName }
+select-a-file = Seleccione os ficheiros a anexar
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } aceptou o convite pero fixo unha contraproposta:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } aceptou o convite de xeito provisional e fixo unha contraproposta:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } declinou o convite pero fixo unha contraproposta:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } delegou o convite pero fixo unha contraproposta:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } non decidiu se participará e fixo unha contraproposta:
+counter-on-previous-version-notification = Esta é unha contraproposta dunha versión previa deste evento.
+counter-on-counter-disallowed-notification = Vostede desactivou as contrapropostas ao enviar o convite.
+sendandclose-button =
+    .label = Enviar e pechar
+    .tooltiptext = Notifica aos participantes e pecha
+saveandsend-button =
+    .label = Gardar e enviar
+    .tooltiptext = Garda e notifica aos participantes
+saveandsend-menu =
+    .label = Gardar e enviar
+sendandclose-menu =
+    .label = Enviar e pechar
+event-recurrence-forever =
+    .label = Indefinidamente
+# $count - the number of attendees
+attendees-tab-label = Participantes ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Anexos ({ $count }):

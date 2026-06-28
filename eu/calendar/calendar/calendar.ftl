@@ -1066,3 +1066,53 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Gehitu zeregin gisa
     .tooltiptext = Erauzi egutegi-informazioa mezutik eta gehitu zure egutegian zeregin gisa
+new-event-input =
+    .placeholder = Gertaera berria
+new-task-input =
+    .placeholder = Zeregin berria
+item-menu-label-event =
+    .label = Gertaera
+    .accesskey = G
+item-menu-label-task =
+    .label = Zeregina
+    .accesskey = Z
+# Link Location Dialog
+specify-link-location = Zehaztu konexioaren kokapena
+enter-link-location = Sartu web orria edo dokumentuaren kokapena.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Fitxategia { $providerName } erabiliz
+select-a-file = Hautatu eransteko fitxategia(k)
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name }k gonbidapena onartu du, baina kontraproposamena egin du:
+#   $name - The name of responding invitee.
+counter-tentative = { $name }k behin behinekoz onartu du gonbidapena eta kontraproposamena egin du:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name }k gonbidapenari baztertu du baina kontraproposamena egin du:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name }k gonbidapenera ordezkoa bidali du, baina kontraproposamena egin du:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name }k ez du erabaki parte hartuko duen eta kontraproposamena egin du:
+counter-on-previous-version-notification = Hau zeregin honen aurreko bertsio bateko kontraproposamena da.
+counter-on-counter-disallowed-notification = Gonbidapena egitean zuk kontraproposamenak desgaitu dituzu.
+sendandclose-button =
+    .label = Bidali eta itxi
+    .tooltiptext = Jakinarazi gonbidatuei eta itxi
+saveandsend-button =
+    .label = Gorde eta bidali
+    .tooltiptext = Gorde eta jakinarazi gonbidatuei
+saveandsend-menu =
+    .label = Gorde eta bidali
+sendandclose-menu =
+    .label = Bidali eta itxi
+event-recurrence-forever =
+    .label = Beti
+# $count - the number of attendees
+attendees-tab-label = Gonbidatuak ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Eranskinak ({ $count }):

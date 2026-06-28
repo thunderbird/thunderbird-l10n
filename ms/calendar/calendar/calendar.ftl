@@ -920,3 +920,53 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Tambah sebagai tugasan
     .tooltiptext = Ekstrak maklumat kalendar daripada mesej dan masukkan ke dalam kalender sebagai tugasan
+new-event-input =
+    .placeholder = Acara Baru
+new-task-input =
+    .placeholder = Tugasan Baru
+item-menu-label-event =
+    .label = Acara
+    .accesskey = A
+item-menu-label-task =
+    .label = Tugasan
+    .accesskey = T
+# Link Location Dialog
+specify-link-location = Sila tentukan lokasi pautan
+enter-link-location = Masukkan halaman web, atau lokasi dokumen.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Fail menggunakan { $providerName }
+select-a-file = Sila pilih fail untuk dilampirkan
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } telah menerima jemputan, tapi membuat cadangan balas:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } telah menerima jemputan hanya secara tentatif dan membuat cadangan balas:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } telah menolak jemputan, tapi membuat cadangan balas:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } telah mewakilkan jemputan, tapi membuat cadangan balas:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } masih belum buat keputusan untuk menyertai dan membuat cadangan balas:
+counter-on-previous-version-notification = Ini ialah cadangan balas bagi versi terdahulu acara ini.
+counter-on-counter-disallowed-notification = Anda tidak izinkan cadangan balas apabila menghantar jemputan ini.
+sendandclose-button =
+    .label = Hantar dan Tutup
+    .tooltiptext = Maklumkan peserta dan tutup
+saveandsend-button =
+    .label = Simpan dan Hantar
+    .tooltiptext = Simpan dan maklumkan peserta
+saveandsend-menu =
+    .label = Simpan dan Hantar
+sendandclose-menu =
+    .label = Hantar dan Tutup
+event-recurrence-forever =
+    .label = Selamanya
+# $count - the number of attendees
+attendees-tab-label = Peserta ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Lampiran ({ $count }):

@@ -15,3 +15,40 @@ edit-button-context-menu-all-occurrences =
     .accesskey = a
 description-context-menu-copy-link-text =
     .label = Copiar texto del enlace
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation.
+event-accepted = Ha aceptado esta invitación
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation tentatively
+event-tentative = Ha aceptado esta invitación provisionalmente
+# This will be displayed as notification in the summary dialog if the user has
+# declined the event invitation.
+event-declined = Ha declinado esta invitación
+# This will be displayed as notification in the summary dialog if the user has
+# delegated his/her participation to one or more other participants
+# (without attending / working on it his/herself)
+event-delegated = Ha delegado esta invitación
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to an invitation
+event-needs-action = Aún no ha respondido a esta invitación
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the assigned task
+task-accepted = Ha aceptado colaborar en esta tarea
+# This will be displayed as notification in the summary dialog if the user has
+# accepted tentatively the assigned task.
+task-tentative = Ha aceptado provisionalmente colaborar en esta tarea
+# This will be displayed as notification in the summary dialog if the user has
+# declined the assigned task
+task-declined = Ha declinado colaborar en esta tarea
+# This will be displayed as notification the summary dialog if the user has
+# delegated his/her assignment to one or more others (without attending / working on it his/herself)
+task-delegated = Ha delegado la colaboración en esta tarea
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to the task assignment
+task-needs-action = Aún no ha respondido a esta asignación de tarea
+# This will be displayed as notification in the summary dialog if the user
+# is working on an assigned task
+task-in-progress = Ha comenzado a colaborar en esta tarea asignada
+# This will be displayed as notification in the summary dialog if the user
+# has completed the work on this assigned task
+task-completed = Ha completado su colaboración en esta tarea asignada

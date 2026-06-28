@@ -1,0 +1,53 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+calendar-item-summary-title = B'i'aj:
+calendar-item-summary-calendar = Cholb'äl q'ij:
+calendar-item-summary-task-start = Tikirib'äl Q'ij:
+calendar-item-summary-event-start = Tikirib'äl Q'ij:
+calendar-item-summary-event-end = Ruk'isib'äl Q'ij:
+calendar-item-summary-repeat = Tikamulüx:
+calendar-item-summary-location = K'ojlib'äl:
+calendar-item-summary-category = Ruwäch:
+calendar-item-summary-organizer = Ticholajïx:
+calendar-item-summary-status = B'anikil:
+calendar-item-summary-reminder = Natab'äl:
+calendar-item-summary-attachments = Taq taqoj:
+calendar-item-summary-status-tentative = Tirayij
+calendar-item-summary-status-confirmed = Xjikib'äx
+calendar-item-summary-event-status-cancelled = Q'aton
+calendar-item-summary-todo-status-cancelled = Q'aton
+calendar-item-summary-status-needs-action = Nawajo' chi Nb'anatäj
+calendar-item-summary-status-in-process = Nitajin
+calendar-item-summary-status-completed = Xtz'aqatisäx pa
+calendar-item-summary-reminder-none =
+    .label = Majun natab'äl
+calendar-item-summary-reminder-0-minutes-before =
+    .label = 0 ch'utiramaj chuwäch
+calendar-item-summary-reminder-5-minutes-before =
+    .label = 5 ch'utiramaj chuwäch
+calendar-item-summary-reminder-15-minutes-before =
+    .label = 15 ch'utiramaj chuwäch
+calendar-item-summary-reminder-30-minutes-before =
+    .label = 30 ch'utiramaj chuwäch
+calendar-item-summary-reminder-1-hour-before =
+    .label = 1 ramaj chuwäch
+calendar-item-summary-reminder-2-hours-before =
+    .label = 2 ramaj chuwäch
+calendar-item-summary-reminder-12-hours-before =
+    .label = 12 ramaj chuwäch
+calendar-item-summary-reminder-1-day-before =
+    .label = 1 q'ij chuwäch
+calendar-item-summary-reminder-2-days-before =
+    .label = 2 q'ij chuwäch
+calendar-item-summary-reminder-1-week-before =
+    .label = 1 wuqq'ij chuwäch
+calendar-item-summary-reminder-custom =
+    .label = Ichinan…
+calendar-item-summary-general =
+    .value = Chijun
+calendar-item-summary-description =
+    .value = Tzijoxikil
+calendar-item-summary-link =
+    .value = Rachib'il Ximöy

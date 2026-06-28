@@ -1,0 +1,57 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+calendar-item-summary-title = Teideal:
+calendar-item-summary-task-start = Dáta Tosaithe:
+calendar-item-summary-event-start = Dáta Tosaithe:
+calendar-item-summary-task-due = Dáta Dlite:
+calendar-item-summary-event-end = Dáta Críochnaithe:
+calendar-item-summary-repeat = Athdhéan:
+calendar-item-summary-location = Suíomh:
+calendar-item-summary-category = Catagóir:
+calendar-item-summary-organizer = Eagraí:
+calendar-item-summary-status = Stádas:
+calendar-item-summary-reminder = Meabhrúchán:
+calendar-item-summary-attachments = Iatáin:
+calendar-item-summary-status-tentative = Sealadach
+calendar-item-summary-status-confirmed = Deimhnithe
+calendar-item-summary-event-status-cancelled = Cealaithe
+calendar-item-summary-todo-status-cancelled = Cealaithe
+calendar-item-summary-status-needs-action = Gníomhú De Dhíth
+calendar-item-summary-status-in-process = Idir Lámha
+calendar-item-summary-status-completed = Críochnaithe ar
+calendar-item-summary-reminder-none =
+    .label = Gan meabhrúchán
+calendar-item-summary-reminder-0-minutes-before =
+    .label = 0 nóiméad roimhe
+calendar-item-summary-reminder-5-minutes-before =
+    .label = 5 nóiméad roimhe
+calendar-item-summary-reminder-15-minutes-before =
+    .label = 15 nóiméad roimhe
+calendar-item-summary-reminder-30-minutes-before =
+    .label = 30 nóiméad roimhe
+calendar-item-summary-reminder-1-hour-before =
+    .label = Uair an chloig roimhe
+calendar-item-summary-reminder-2-hours-before =
+    .label = 2 uair an chloig roimhe
+calendar-item-summary-reminder-12-hours-before =
+    .label = 12 uair an chloig roimhe
+calendar-item-summary-reminder-1-day-before =
+    .label = Lá amháin roimhe
+calendar-item-summary-reminder-2-days-before =
+    .label = 2 lá roimhe
+calendar-item-summary-reminder-1-week-before =
+    .label = Seachtain roimhe
+calendar-item-summary-reminder-custom =
+    .label = Saincheaptha…
+calendar-item-summary-reminder-multiple =
+    .value = Meabhrúcháin iolracha…
+calendar-item-summary-general =
+    .value = Ginearálta
+calendar-item-summary-attendees =
+    .value = Rannpháirtithe
+calendar-item-summary-description =
+    .value = Cur Síos
+calendar-item-summary-link =
+    .value = Nasc Gaolta

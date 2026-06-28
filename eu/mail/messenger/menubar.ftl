@@ -68,6 +68,11 @@ menu-quit =
 # This menu-quit-mac string is only used on macOS.
 menu-quit-mac =
     .label = Irten { -brand-shorter-name }(e)tik
+system-tray-menuitem-quit =
+    { PLATFORM() ->
+        [windows] Irten { -brand-full-name }
+       *[other] Irten { -brand-full-name }
+    }
 system-tray-menu-quit =
     .label =
         { PLATFORM() ->

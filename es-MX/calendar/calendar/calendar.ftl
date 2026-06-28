@@ -1066,3 +1066,53 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Agregar como tarea
     .tooltiptext = Extraer información de calendario del mensaje y agregar a tu calendario como tarea
+new-event-input =
+    .placeholder = Nuevo evento
+new-task-input =
+    .placeholder = Nueva Tarea
+item-menu-label-event =
+    .label = Evento
+    .accesskey = T
+item-menu-label-task =
+    .label = Tarea
+    .accesskey = T
+# Link Location Dialog
+specify-link-location = Por favor, especifica la ubicación del enlace
+enter-link-location = Ingresa una página web o ubicación del documento.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Archivo usando { $providerName }
+select-a-file = Por favor, selecciona el archivo(s) a adjuntar
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } ha aceptado la invitación, pero ha hecho una contrapropuesta:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } ha aceptado la invitación sólo tentativamente e hizo una contrapropuesta:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } ha declinado la invitación, pero ha hecho una contrapropuesta:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } ha delegado la invitación, pero ha hecho una contrapropuesta:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } no ha decidido si participar y hacer una contrapropuesta:
+counter-on-previous-version-notification = Esta es una contrapropuesta a una versión previa de este evento.
+counter-on-counter-disallowed-notification = Tú deshabilitaste oponerse cuando enviaste la invitación.
+sendandclose-button =
+    .label = Enviar y cerrar
+    .tooltiptext = Notificar a los participantes y cerrar
+saveandsend-button =
+    .label = Guardar y enviar
+    .tooltiptext = Guardar y notificar a los participantes
+saveandsend-menu =
+    .label = Guardar y enviar
+sendandclose-menu =
+    .label = Enviar y cerrar
+event-recurrence-forever =
+    .label = Para siempre
+# $count - the number of attendees
+attendees-tab-label = Participantes ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Adjuntos ({ $count }):

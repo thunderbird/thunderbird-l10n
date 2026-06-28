@@ -1066,3 +1066,53 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Legg til som oppgåve
     .tooltiptext = Hent ut kalenderinfo frå meldinga og legg til i kalenderen din som ei oppgåve
+new-event-input =
+    .placeholder = Ny hending
+new-task-input =
+    .placeholder = Ny oppgåve
+item-menu-label-event =
+    .label = Hending
+    .accesskey = H
+item-menu-label-task =
+    .label = Oppgåve
+    .accesskey = O
+# Link Location Dialog
+specify-link-location = Spesifiser lenkeadresse
+enter-link-location = Skriv inn ei nettadresse eller ei dokumentplassering.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Fil med { $providerName }
+select-a-file = Vel fila/filene som skal leggjast ved
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } har akseptert invitasjonen, men kom med eit motforslag:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } har foreløpig akseptert invitasjonen og kome med eit motforslag:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } har avslått invitasjonen, men kom med eit motforslag:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } har delegert invitasjonen, men kom med eit motforslag:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } har ikkje bestemt seg for om de vil delta, og kom med eit motforslag:
+counter-on-previous-version-notification = Dette er eit motforslag til ein tidlegare versjon av denne hendinga.
+counter-on-counter-disallowed-notification = Du tillèt ikkje motforslag når du sender ut invitasjonen.
+sendandclose-button =
+    .label = Send og lat att
+    .tooltiptext = Varsle deltakarar og lat att
+saveandsend-button =
+    .label = Lagre og send
+    .tooltiptext = Lagre og varsle deltakarar
+saveandsend-menu =
+    .label = Lagre og send
+sendandclose-menu =
+    .label = Send og lat att
+event-recurrence-forever =
+    .label = For alltid
+# $count - the number of attendees
+attendees-tab-label = Deltakarar ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Vedlegg ({ $count }):

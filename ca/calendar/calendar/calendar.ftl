@@ -1035,3 +1035,53 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Afegeix com a tasca
     .tooltiptext = Extreu la informació temporal del missatge i l'afegeix al calendari com a tasca
+new-event-input =
+    .placeholder = Cita nova
+new-task-input =
+    .placeholder = Tasca nova
+item-menu-label-event =
+    .label = Cita
+    .accesskey = C
+item-menu-label-task =
+    .label = Tasca
+    .accesskey = T
+# Link Location Dialog
+specify-link-location = Indiqueu l'adreça de l'enllaç
+enter-link-location = Escriviu l'adreça d'una pàgina web o la ubicació d'un document.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Fitxer mitjançant { $providerName }
+select-a-file = Seleccioneu els fitxers que voleu adjuntar
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } ha acceptat la invitació, però ha fet una contraproposta:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } ha acceptat la invitació provisionalment i ha fet una contraproposta:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } ha declinat la invitació, però ha fet una contraproposta:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } ha delegat la invitació, però ha fet una contraproposta:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } no ha decidit si participarà i ha fet una contraproposta:
+counter-on-previous-version-notification = Aquesta és la contraproposta d'una versió anterior d'aquesta cita.
+counter-on-counter-disallowed-notification = Heu inhabilitat les contrapropostes quan heu enviat la invitació.
+sendandclose-button =
+    .label = Envia i tanca
+    .tooltiptext = Notifica els assistents i tanca
+saveandsend-button =
+    .label = Desa i tanca
+    .tooltiptext = Desa i notifica els assistents
+saveandsend-menu =
+    .label = Desa i tanca
+sendandclose-menu =
+    .label = Envia i tanca
+event-recurrence-forever =
+    .label = Per sempre
+# $count - the number of attendees
+attendees-tab-label = Assistents ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Adjuncions ({ $count }):

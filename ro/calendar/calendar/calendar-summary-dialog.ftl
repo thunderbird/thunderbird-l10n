@@ -15,3 +15,40 @@ edit-button-context-menu-all-occurrences =
     .accesskey = a
 description-context-menu-copy-link-text =
     .label = Copiază textul linkului
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation.
+event-accepted = Ai acceptat această invitație
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation tentatively
+event-tentative = Ai acceptat provizoriu această invitație
+# This will be displayed as notification in the summary dialog if the user has
+# declined the event invitation.
+event-declined = Ai refuzat această invitație
+# This will be displayed as notification in the summary dialog if the user has
+# delegated his/her participation to one or more other participants
+# (without attending / working on it his/herself)
+event-delegated = Ai delegat această invitație
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to an invitation
+event-needs-action = Încă nu ai răspuns la această invitație
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the assigned task
+task-accepted = Ai acceptat să lucrezi la această sarcină
+# This will be displayed as notification in the summary dialog if the user has
+# accepted tentatively the assigned task.
+task-tentative = Ai acceptat provizoriu să lucrezi la această sarcină
+# This will be displayed as notification in the summary dialog if the user has
+# declined the assigned task
+task-declined = Ai refuzat să lucrezi la această sarcină
+# This will be displayed as notification the summary dialog if the user has
+# delegated his/her assignment to one or more others (without attending / working on it his/herself)
+task-delegated = Ai delegat lucrul la această sarcină
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to the task assignment
+task-needs-action = Încă nu ai răspuns la această alocare de sarcină
+# This will be displayed as notification in the summary dialog if the user
+# is working on an assigned task
+task-in-progress = Ai început să lucrezi la această sarcină alocată
+# This will be displayed as notification in the summary dialog if the user
+# has completed the work on this assigned task
+task-completed = Ai terminat de lucrat la această sarcină alocată

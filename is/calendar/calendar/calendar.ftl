@@ -1066,3 +1066,53 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Bæta við verkefni
     .tooltiptext = Ná í dagsetningar úr póstinum og bæta við í dagatalið sem verkefni
+new-event-input =
+    .placeholder = Nýr atburður
+new-task-input =
+    .placeholder = Nýtt verkefni
+item-menu-label-event =
+    .label = Atburður
+    .accesskey = A
+item-menu-label-task =
+    .label = Verkefni
+    .accesskey = r
+# Link Location Dialog
+specify-link-location = Settu inn staðsetningu tengils
+enter-link-location = Settu inn vefslóð eða staðsetningu skjals.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Skrá með { $providerName }
+select-a-file = Veldu skrá(r) til að bæta við
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } samþykkti fundarboðið, en kom með móttilboð:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } samþykkti fundarboð með fyrirvara og kom með móttilboð:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } hafnaði fundarboðinu, en kom með móttilboð:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } áframsendi fundarboðið, en kom með móttilboð:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } hefur ekki ákveðið hvort hann vil taka þátt og kom með móttilboð:
+counter-on-previous-version-notification = Þetta er móttilboð fyrir fyrri útgáfu af þessum atburði.
+counter-on-counter-disallowed-notification = Þú leyfðir ekki móttilboð þegar boðið var sent út.
+sendandclose-button =
+    .label = Senda og loka
+    .tooltiptext = Látið þátttakendur vita og loka
+saveandsend-button =
+    .label = Vista og senda
+    .tooltiptext = Vista og láta þátttakendur vita
+saveandsend-menu =
+    .label = Vista og senda
+sendandclose-menu =
+    .label = Senda og loka
+event-recurrence-forever =
+    .label = Að eilífu
+# $count - the number of attendees
+attendees-tab-label = Þátttakendur ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Viðhengi ({ $count }):

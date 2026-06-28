@@ -1,0 +1,56 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+calendar-item-summary-title = Nomi:
+calendar-item-summary-task-start = Boshlanish sanasi:
+calendar-item-summary-event-start = Boshlanish sanasi:
+calendar-item-summary-task-due = Tugash sanasi:
+calendar-item-summary-event-end = Tugash sanasi
+calendar-item-summary-repeat = Takrorlash:
+calendar-item-summary-location = Joylashuvi:
+calendar-item-summary-category = Turkum:
+calendar-item-summary-organizer = Tashkilotchi:
+calendar-item-summary-status = Holati:
+calendar-item-summary-reminder = Eslatgich:
+calendar-item-summary-status-tentative = Noaniq
+calendar-item-summary-status-confirmed = Tasdiqlangan
+calendar-item-summary-event-status-cancelled = Bekor qilingan
+calendar-item-summary-todo-status-cancelled = Bekor qilindi
+calendar-item-summary-status-needs-action = Kerakli amallar
+calendar-item-summary-status-in-process = Amalda
+calendar-item-summary-status-completed = Tugagan
+calendar-item-summary-reminder-none =
+    .label = Eslatgichlar o‘rnatilmagan
+calendar-item-summary-reminder-0-minutes-before =
+    .label = 0 daqiqa oldin
+calendar-item-summary-reminder-5-minutes-before =
+    .label = 5 daqiqa oldin
+calendar-item-summary-reminder-15-minutes-before =
+    .label = 15 daqiqa oldin
+calendar-item-summary-reminder-30-minutes-before =
+    .label = 30 daqiqa oldin
+calendar-item-summary-reminder-1-hour-before =
+    .label = 1 soat oldin
+calendar-item-summary-reminder-2-hours-before =
+    .label = 2 soat oldin
+calendar-item-summary-reminder-12-hours-before =
+    .label = 12 soat oldin
+calendar-item-summary-reminder-1-day-before =
+    .label = 1 kun oldin
+calendar-item-summary-reminder-2-days-before =
+    .label = 2 kun oldin
+calendar-item-summary-reminder-1-week-before =
+    .label = 1 hafta oldin
+calendar-item-summary-reminder-custom =
+    .label = Boshqa…
+calendar-item-summary-reminder-multiple =
+    .value = Bir nechta eslatkichlar…
+calendar-item-summary-general =
+    .value = Umumiy
+calendar-item-summary-attendees =
+    .value = Ishtirokchilar
+calendar-item-summary-description =
+    .value = Ta’rifi
+calendar-item-summary-link =
+    .value = Aloqador havola

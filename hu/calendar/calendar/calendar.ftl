@@ -1066,3 +1066,53 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Felvétel feladatként
     .tooltiptext = Naptár-információk kinyerése az üzenetből, és azok felvétele a naptárba feladatként
+new-event-input =
+    .placeholder = Új esemény
+new-task-input =
+    .placeholder = Új feladat
+item-menu-label-event =
+    .label = Esemény
+    .accesskey = E
+item-menu-label-task =
+    .label = Feladat
+    .accesskey = F
+# Link Location Dialog
+specify-link-location = Adja meg a hivatkozás helyét
+enter-link-location = Írja be a weboldal vagy a dokumentum helyét.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Fájl { $providerName } használatával
+select-a-file = Jelölje ki a csatolandó fájlokat
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } elfogadta a meghívást, de ellenjavaslatot tett:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } csak feltételesen fogadta el a meghívást, és ellenjavaslatot tett:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } elutasította a meghívást, de ellenjavaslatot tett:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } delegálta a meghívást, de ellenjavaslatot tett:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } nem döntött, hogy részt vesz-e, és ellenjavaslatot tett:
+counter-on-previous-version-notification = Ez egy ellenjavaslat az esemény korábbi verziójához.
+counter-on-counter-disallowed-notification = A meghívó küldésekor nem engedélyezte az ellenjavaslat küldését.
+sendandclose-button =
+    .label = Küldés és bezárás
+    .tooltiptext = Részvevők értesítése és bezárás
+saveandsend-button =
+    .label = Mentés és küldés
+    .tooltiptext = Mentés és résztvevők értesítése
+saveandsend-menu =
+    .label = Mentés és küldés
+sendandclose-menu =
+    .label = Küldés és bezárás
+event-recurrence-forever =
+    .label = Örökké
+# $count - the number of attendees
+attendees-tab-label = Résztvevők ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Mellékletek ({ $count }):

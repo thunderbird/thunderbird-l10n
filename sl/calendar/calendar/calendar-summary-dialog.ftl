@@ -15,3 +15,40 @@ edit-button-context-menu-all-occurrences =
     .accesskey = v
 description-context-menu-copy-link-text =
     .label = Kopiraj besedilo povezave
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation.
+event-accepted = Sprejeli ste to povabilo
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation tentatively
+event-tentative = To povabilo ste pogojno sprejeli
+# This will be displayed as notification in the summary dialog if the user has
+# declined the event invitation.
+event-declined = Zavrnili ste to povabilo
+# This will be displayed as notification in the summary dialog if the user has
+# delegated his/her participation to one or more other participants
+# (without attending / working on it his/herself)
+event-delegated = Za udeležbo ste pooblastili nekoga drugega
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to an invitation
+event-needs-action = Niste se še odzvali povabilu
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the assigned task
+task-accepted = Sprejeli ste delo na tem opravilu
+# This will be displayed as notification in the summary dialog if the user has
+# accepted tentatively the assigned task.
+task-tentative = Pogojno ste sprejeli delo na tem opravilu
+# This will be displayed as notification in the summary dialog if the user has
+# declined the assigned task
+task-declined = Odklonili ste delo na tem opravilu
+# This will be displayed as notification the summary dialog if the user has
+# delegated his/her assignment to one or more others (without attending / working on it his/herself)
+task-delegated = Za delo na tem opravilu ste pooblastili nekoga drugega
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to the task assignment
+task-needs-action = Niste se še odzvali na dodelitev opravila
+# This will be displayed as notification in the summary dialog if the user
+# is working on an assigned task
+task-in-progress = Začeli ste delati na dodeljenem opravilu
+# This will be displayed as notification in the summary dialog if the user
+# has completed the work on this assigned task
+task-completed = Končali ste delo na dodeljenem opravilu

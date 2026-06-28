@@ -1062,3 +1062,53 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = დავალების სახით დამატება
     .tooltiptext = კალენდარული მონაცემის ამოღება გზავნილიდან და თქვენს კალენდარში, როგორც ამოცანის, დამატება
+new-event-input =
+    .placeholder = ახალი ღონისძიება
+new-task-input =
+    .placeholder = ახალი დავალება
+item-menu-label-event =
+    .label = ღონისძიება
+    .accesskey = ძ
+item-menu-label-task =
+    .label = დავალება
+    .accesskey = ვ
+# Link Location Dialog
+specify-link-location = გთხოვთ მიუთითოთ ბმულის მისამართი
+enter-link-location = მიუთითეთ ვებ გვერდი ან დოკუმენტის მისამართი.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = ფაილი { $providerName }-ით
+select-a-file = გთხოვთ შეარჩიოთ ფაილ(ებ)ი თანდასართავად
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } დათანხმდა მოწვევას, თუმცა შემხვედრი შემოთავაზებაც აქვს:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } დათანხმდა მოწვევას, მაგრამ მისი მონაწილეობა სათუოა და შემხვედრი შემოთავაზებაც აქვს:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } არ დათანხმდა მოწვევას, თუმცა შემხვედრი შემოთავაზებაც აქვს:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } წარმომადგენელს გადასცემს მოწვევას, თუმცა შემხვედრი შემოთავაზებაც აქვს:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } არ აქვს გადაწყვეტილი, მიიღებს თუ არა მონაწილეობას და შემხვედრი შემოთავაზებაც აქვს:
+counter-on-previous-version-notification = მოცემული შემხვედრი შეთავაზება, ამ ღონისძიების წინა ვერსიისთვისაა.
+counter-on-counter-disallowed-notification = თქვენ შეზღუდული გაქვთ შემხვედრი შემოთავაზებები მოწვევის გაგზავნისას.
+sendandclose-button =
+    .label = გაგზავნა და დახურვა
+    .tooltiptext = მონაწილეების შეტყობინება და დახურვა
+saveandsend-button =
+    .label = შენახვა და გაგზავნა
+    .tooltiptext = შენახვა და მონაწილეების შეტყობინება
+saveandsend-menu =
+    .label = შენახვა და გაგზავნა
+sendandclose-menu =
+    .label = გაგზავნა და დახურვა
+event-recurrence-forever =
+    .label = მუდამ
+# $count - the number of attendees
+attendees-tab-label = დამსწრე ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = დანართი ({ $count }):

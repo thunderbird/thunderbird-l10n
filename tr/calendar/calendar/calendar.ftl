@@ -1062,3 +1062,53 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Görev olarak ekle
     .tooltiptext = Takvim bilgisini iletiden ayıklar ve takviminize görev olarak ekler
+new-event-input =
+    .placeholder = Yeni etkinlik
+new-task-input =
+    .placeholder = Yeni görev
+item-menu-label-event =
+    .label = Etkinlik
+    .accesskey = t
+item-menu-label-task =
+    .label = Görev
+    .accesskey = G
+# Link Location Dialog
+specify-link-location = Bağlantı konumunu girin
+enter-link-location = Web sayfası veya belge adresini girin.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = { $providerName } kullanarak dosyala
+select-a-file = Lütfen eklenecek dosyaları seçin
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } daveti kabul etti, ancak karşı teklifte bulundu:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } daveti geçici olarak kabul etti, ancak karşı teklifte bulundu:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } daveti reddetti, ancak karşı teklifte bulundu:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } daveti başkasına devretti, ancak karşı teklifte bulundu:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } katılıp katılmama kararı vermedi ve karşı teklifte bulundu:
+counter-on-previous-version-notification = Bu, bu etkinliğin önceki bir sürümü için yapılan bir karşı teklif.
+counter-on-counter-disallowed-notification = Daveti gönderirken davetin geri çevrilmesine izin vermediniz.
+sendandclose-button =
+    .label = Gönder ve kapat
+    .tooltiptext = Katılımcılara bildir ve kapat
+saveandsend-button =
+    .label = Kaydet ve gönder
+    .tooltiptext = Kaydet ve katılımcıları bilgilendir
+saveandsend-menu =
+    .label = Kaydet ve gönder
+sendandclose-menu =
+    .label = Gönder ve kapat
+event-recurrence-forever =
+    .label = Sonsuz
+# $count - the number of attendees
+attendees-tab-label = Katılımcılar ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Ekler ({ $count }):

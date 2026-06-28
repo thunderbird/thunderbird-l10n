@@ -886,3 +886,39 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Cuir leis mar thasc
     .tooltiptext = Bain faisnéis faoi thasc as an teachtaireacht agus cuir le d'fhéilire é
+new-event-input =
+    .placeholder = Imeacht Nua
+new-task-input =
+    .placeholder = Tasc Nua
+item-menu-label-event =
+    .label = Imeacht
+    .accesskey = I
+item-menu-label-task =
+    .label = Tasc
+    .accesskey = T
+# Link Location Dialog
+specify-link-location = Sonraigh suíomh an naisc, le do thoil
+enter-link-location = Cuir isteach leathanach Gréasáin, nó suíomh cáipéise.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Comhad le { $providerName }
+select-a-file = Roghnaigh comha(i)d le ceangal
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = Ghlac { $name } leis an gcuireadh ach rinne sé/sí fritogra:
+#   $name - The name of responding invitee.
+counter-tentative = Ghlac { $name } leis an gcuireadh go sealadach, agus rinne sé/sí fritogra:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = Dhiúltaigh { $name } an cuireadh, ach rinne sé/sí fritogra:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = Tharmlig { $name } an cuireadh, ach rinne sé/sí fritogra:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = Tá { $name } idir dhá chomhairle maidir le páirt a ghlacadh fós, agus rinne sé/sí fritogra:
+counter-on-previous-version-notification = Seo é fritogra a bhaineann le seanleagan den imeacht seo.
+counter-on-counter-disallowed-notification = Níor cheadaigh tú fritograí nuair a sheol tú an cuireadh seo amach.
+event-recurrence-forever =
+    .label = Go Brách

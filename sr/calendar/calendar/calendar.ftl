@@ -1084,3 +1084,53 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Додај као задатак
     .tooltiptext = Извуците календарске податке из поруке и додајте их као задатак у ваш календар
+new-event-input =
+    .placeholder = Нови догађај
+new-task-input =
+    .placeholder = Нови задатак
+item-menu-label-event =
+    .label = Догађај
+    .accesskey = г
+item-menu-label-task =
+    .label = Задатак
+    .accesskey = д
+# Link Location Dialog
+specify-link-location = Наведите одредиште везе
+enter-link-location = Унесите веб страницу или локацију до документа.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Поднеси користећи { $providerName }
+select-a-file = Изаберите датотеке за качење
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } је прихватио позивницу али је направио и контра-предлог:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } је прихватио позивницу само условно и направио је контра-предлог:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } је одбио позивницу али је направио и контра-предлог:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } је одложио позивницу али је направио и контра-предлог:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } није одлучио да ли ће учествовати и направио је контра-предлог:
+counter-on-previous-version-notification = Ово је контра-предлог за претходно издање овог догађаја.
+counter-on-counter-disallowed-notification = Онемогућили сте контра-предлоге приликом слања позивнице.
+sendandclose-button =
+    .label = Пошаљи и затвори
+    .tooltiptext = Обавести учеснике и затвори
+saveandsend-button =
+    .label = Сачувај и затвори
+    .tooltiptext = Сачувај и обавести учеснике
+saveandsend-menu =
+    .label = Сачувај и пошаљи
+sendandclose-menu =
+    .label = Сачувај и затвори
+event-recurrence-forever =
+    .label = Заувек
+# $count - the number of attendees
+attendees-tab-label = Учесници ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Прилози ({ $count }):

@@ -1,0 +1,50 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+calendar-item-summary-title = Назва:
+calendar-item-summary-calendar = Каляндар:
+calendar-item-summary-task-start = Дата пачатку:
+calendar-item-summary-event-start = Дата пачатку:
+calendar-item-summary-location = Месца:
+calendar-item-summary-category = Катэгорыя:
+calendar-item-summary-organizer = Арганізатар:
+calendar-item-summary-status = Статус:
+calendar-item-summary-reminder = Напамінак:
+calendar-item-summary-attachments = Прымацаванні:
+calendar-item-summary-status-tentative = Пад пытаннем
+calendar-item-summary-status-confirmed = Пацверджана
+calendar-item-summary-event-status-cancelled = Скасавана
+calendar-item-summary-todo-status-cancelled = Скасавана
+calendar-item-summary-reminder-none =
+    .label = Без напамінку
+calendar-item-summary-reminder-0-minutes-before =
+    .label = за 0 хвілін
+calendar-item-summary-reminder-5-minutes-before =
+    .label = за 5 хвілін
+calendar-item-summary-reminder-15-minutes-before =
+    .label = за 15 хвілін
+calendar-item-summary-reminder-30-minutes-before =
+    .label = за 30 хвілін
+calendar-item-summary-reminder-1-hour-before =
+    .label = за 1 гадзіну
+calendar-item-summary-reminder-2-hours-before =
+    .label = за 2 гадзіны
+calendar-item-summary-reminder-12-hours-before =
+    .label = за 12 гадзін
+calendar-item-summary-reminder-1-day-before =
+    .label = за 1 дзень
+calendar-item-summary-reminder-2-days-before =
+    .label = за 2 дні
+calendar-item-summary-reminder-1-week-before =
+    .label = за 1 тыдзень
+calendar-item-summary-reminder-custom =
+    .label = Персаналізаваць…
+calendar-item-summary-reminder-multiple =
+    .value = Некалькі напамінкаў…
+calendar-item-summary-attendees =
+    .value = Удзельнікі
+calendar-item-summary-description =
+    .value = Апісанне
+calendar-item-summary-link =
+    .value = Звязаная спасылка

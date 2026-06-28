@@ -883,3 +883,43 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Ouzhpennañ e-giz un trevell
     .tooltiptext = Eztennañ titouroù deiziataer diouzh ar gemennadenn-mañ hag ouzhpennañ anezho d’ho teiziataer evel un trevell
+new-event-input =
+    .placeholder = Darvoud nevez
+new-task-input =
+    .placeholder = Trevell nevez
+item-menu-label-event =
+    .label = Darvoud
+    .accesskey = D
+item-menu-label-task =
+    .label = Trevell
+    .accesskey = T
+# Link Location Dialog
+specify-link-location = Erspizit lec'hiadur an ere mar plij
+enter-link-location = Enankit ur bajenn web, pe lec'hiadur un teul.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Restr oc'h arverañ { $providerName }
+select-a-file = Diuzit ar restr(où) da stagañ mar plij
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } en deus asantet ar bededenn, met un enep-kinnig en deus savet:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } en deus nac'het ar bededenn, un enep-kinnig en deus savet avat:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } en deus dileuriet ar bededenn, un enep-kinnig en deus savet avat:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } a zo chomet hep divizout kemeret-perzh ha savet en deus un enep-kinnig:
+saveandsend-menu =
+    .label = Enrollañ ha kas
+sendandclose-menu =
+    .label = Kas ha serriñ
+event-recurrence-forever =
+    .label = Bepred
+# $count - the number of attendees
+attendees-tab-label = Perzhidi ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Kenstagadurioù ({ $count }):

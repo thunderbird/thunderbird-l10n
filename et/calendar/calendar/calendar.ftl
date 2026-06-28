@@ -1030,3 +1030,53 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Lisa ülesandena
     .tooltiptext = Lisab kirjas oleva info põhjal kalendrisse ülesande
+new-event-input =
+    .placeholder = Uus sündmus
+new-task-input =
+    .placeholder = Uus ülesanne
+item-menu-label-event =
+    .label = Sündmus
+    .accesskey = S
+item-menu-label-task =
+    .label = Ülesanne
+    .accesskey = Ü
+# Link Location Dialog
+specify-link-location = Palun määra viite asukoht
+enter-link-location = Sisesta veebilehe aadress või dokumendi asukoht.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Lisa { $providerName } kasutades
+select-a-file = Faili(de) valimine
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } aktsepteeris kutse, kuid tegi vastuettepaneku:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } aktsepteeris kahtlevalt ja tegi vastuettepaneku:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } keeldus kutsest, kuid tegi vastuettepaneku:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } delegeeris kutse, kuid tegi vastuettepaneku:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } pole osalemist otsustanud ja tegi vastuettepaneku:
+counter-on-previous-version-notification = See on vastuettepanek selle sündmuse eelmisele versioonile.
+counter-on-counter-disallowed-notification = Keelasid vastuettepanekud kutse saatmisel.
+sendandclose-button =
+    .label = Saada ja sulge
+    .tooltiptext = Teavita osalejaid ja sulge
+saveandsend-button =
+    .label = Salvesta ja saada
+    .tooltiptext = Salvesta ja teavita osalejaid
+saveandsend-menu =
+    .label = Salvesta ja saada
+sendandclose-menu =
+    .label = Saada ja sulge
+event-recurrence-forever =
+    .label = igavesti
+# $count - the number of attendees
+attendees-tab-label = Osalejad ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Manused ({ $count }):

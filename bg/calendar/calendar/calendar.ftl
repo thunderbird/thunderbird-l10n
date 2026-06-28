@@ -1062,3 +1062,53 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Добавяне на задача
     .tooltiptext = Извличане на календарната информация от съобщението и добавянето ѝ към вашия календар като задача
+new-event-input =
+    .placeholder = Ново събитие
+new-task-input =
+    .placeholder = Нова задача
+item-menu-label-event =
+    .label = Събитие
+    .accesskey = С
+item-menu-label-task =
+    .label = Задача
+    .accesskey = З
+# Link Location Dialog
+specify-link-location = Моля, въведете път на връзката
+enter-link-location = Въведете уеб страница или път до документ.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Файл, използващ { $providerName }
+select-a-file = Моля изберете файл(ове) за прикачване
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } приема поканата, но прави контрапредложение:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } с колебание приема поканата и прави контрапредложение:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } отклонява поканата, но прави контрапредложение:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } преотстъпва поканата, но прави контрапредложение:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } не решил(а) дали да вземе участие и прави контрапредложение:
+counter-on-previous-version-notification = Това контрапредложение е за предишното издание на това събитие.
+counter-on-counter-disallowed-notification = При разпращане на поканите сте забранили контра предложенията.
+sendandclose-button =
+    .label = Запис и затваряне
+    .tooltiptext = Уведомете уастниците и затворете
+saveandsend-button =
+    .label = Запазване и изпращане
+    .tooltiptext = Запазване и уведяване на участниците
+saveandsend-menu =
+    .label = Запазване и изпращане
+sendandclose-menu =
+    .label = Запис и затваряне
+event-recurrence-forever =
+    .label = Без крайна дата
+# $count - the number of attendees
+attendees-tab-label = Участници ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Прикачени файлове ({ $count }):

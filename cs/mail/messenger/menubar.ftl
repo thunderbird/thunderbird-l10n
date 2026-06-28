@@ -68,6 +68,11 @@ menu-quit-mac =
             [with-cases] Ukončit { -brand-shorter-name(case: "acc") }
            *[no-cases] Ukončit aplikaci { -brand-shorter-name }
         }
+system-tray-menuitem-quit =
+    { PLATFORM() ->
+        [windows] Ukončit { -brand-full-name }
+       *[other] Ukončit { -brand-full-name }
+    }
 system-tray-menu-quit =
     .label =
         { PLATFORM() ->

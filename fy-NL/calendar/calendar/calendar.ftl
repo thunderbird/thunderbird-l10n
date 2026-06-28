@@ -1070,3 +1070,53 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Tafoegje as taak
     .tooltiptext = Helje aginda-ynformaasje út it berjocht en foegje it ta oan jo aginda as in taak
+new-event-input =
+    .placeholder = Nij barren
+new-task-input =
+    .placeholder = Nije taak
+item-menu-label-event =
+    .label = Barren
+    .accesskey = B
+item-menu-label-task =
+    .label = Taak
+    .accesskey = T
+# Link Location Dialog
+specify-link-location = Spesifisearje de keppelingslokaasje
+enter-link-location = Fier in webside- of dokumintlokaasje yn.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Bestân fia { $providerName }
+select-a-file = Selektearje de bestannen om te keppeljen
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } hat de útnûging akseptearre, mar hat in nij foarstel dien:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } hat de útnûging foarearst akseptearre en hat in nij foarstel dien:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } hat de útnûging wegere, mar hat in nij foarstel dien:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } hat de útnûging delegearre, mar hat in nij foarstel dien:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } wit noch net oft hy/sy dielnimt en hat in nij foarstel dien:
+counter-on-previous-version-notification = Dit is in nij foarstel foar in foarige ferzje fan dit evenemint.
+counter-on-counter-disallowed-notification = Jo hawwe de mooglikheid foar in nij foarstel útskeakele wylst it ferstjoeren fan de útnûging.
+sendandclose-button =
+    .label = Ferstjoere en slute
+    .tooltiptext = Dielnimmers ynformearje en slute
+saveandsend-button =
+    .label = Bewarje en ferstjoere
+    .tooltiptext = Bewarje en dielnimmers ynformearje
+saveandsend-menu =
+    .label = Bewarje en ferstjoere
+sendandclose-menu =
+    .label = Ferstjoere en slute
+event-recurrence-forever =
+    .label = Foar altyd
+# $count - the number of attendees
+attendees-tab-label = Oanwêzigen ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Bylagen ({ $count }):

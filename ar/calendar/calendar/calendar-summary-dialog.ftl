@@ -15,3 +15,40 @@ edit-button-context-menu-all-occurrences =
     .accesskey = ك
 description-context-menu-copy-link-text =
     .label = انسخ نصِّ الرابط
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation.
+event-accepted = قبلتَ هذه الدعوة
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation tentatively
+event-tentative = قبلتَ هذه الدعوة مبدئيًا
+# This will be displayed as notification in the summary dialog if the user has
+# declined the event invitation.
+event-declined = رفضتَ هذه الدعوة
+# This will be displayed as notification in the summary dialog if the user has
+# delegated his/her participation to one or more other participants
+# (without attending / working on it his/herself)
+event-delegated = فوّضتَ هذه الدعوة
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to an invitation
+event-needs-action = لم تردّ على هذه الدعوة بعد
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the assigned task
+task-accepted = قبلتَ العمل على هذه المهمة
+# This will be displayed as notification in the summary dialog if the user has
+# accepted tentatively the assigned task.
+task-tentative = قبلتَ (بتردّد) العمل على هذه المهمة
+# This will be displayed as notification in the summary dialog if the user has
+# declined the assigned task
+task-declined = رفضتَ العمل على هذه المهمة
+# This will be displayed as notification the summary dialog if the user has
+# delegated his/her assignment to one or more others (without attending / working on it his/herself)
+task-delegated = فوّضتَ العمل على هذه المهمة
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to the task assignment
+task-needs-action = لم تردّ على هذه المهمة الموكلة بعد
+# This will be displayed as notification in the summary dialog if the user
+# is working on an assigned task
+task-in-progress = بدأتَ العمل على هذه المهمة الموكلة
+# This will be displayed as notification in the summary dialog if the user
+# has completed the work on this assigned task
+task-completed = أتممتَ عملك على هذه المهمة الموكلة

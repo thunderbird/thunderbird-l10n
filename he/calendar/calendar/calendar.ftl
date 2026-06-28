@@ -928,3 +928,37 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = הוספה כמשימה
     .tooltiptext = חילוץ פרטי הצעת פגישה מההודעה והוספה ללוח השנה שלך כמשימה
+new-event-input =
+    .placeholder = אירוע חדש
+new-task-input =
+    .placeholder = משימה חדשה
+item-menu-label-event =
+    .label = אירוע
+    .accesskey = א
+item-menu-label-task =
+    .label = משימה
+    .accesskey = מ
+# Link Location Dialog
+specify-link-location = בבקשה ציין מיקום קישור
+enter-link-location = הכנס מיקום דף או מסמך.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = תיוק באמצעות { $providerName }
+select-a-file = בחר קובץ או קבצים לצירוף
+sendandclose-button =
+    .label = שליחה וסגירה
+    .tooltiptext = הודעה למשתתפים וסגירה
+saveandsend-button =
+    .label = שמירה וסגירה
+    .tooltiptext = שמירה והודעה למשתתפים
+saveandsend-menu =
+    .label = שמירה ושליחה
+sendandclose-menu =
+    .label = שמירה וסגירה
+event-recurrence-forever =
+    .label = לעד
+# $count - the number of attendees
+attendees-tab-label = משתתפים ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = קבצים מצורפים ({ $count }):

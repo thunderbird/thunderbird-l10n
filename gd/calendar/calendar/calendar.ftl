@@ -1096,3 +1096,53 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Cuir ris mar shaothair
     .tooltiptext = Tog fiosrachadh mìosachain on teachdaireachd is cuir ris a' mhìosachan e mar shaothair
+new-event-input =
+    .placeholder = Tachartas ùr
+new-task-input =
+    .placeholder = Saothair ùr
+item-menu-label-event =
+    .label = Tachartas
+    .accesskey = F
+item-menu-label-task =
+    .label = Saothair
+    .accesskey = F
+# Link Location Dialog
+specify-link-location = Sònraich seòladh a' cheangail
+enter-link-location = Cuir a-steach duilleag-lìn no seòladh de sgrìobhainn.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Cuir ris slighe { $providerName }
+select-a-file = Tagh na faidhlichean a tha thu airson an cur ris
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = Gabh { $name } ris a’ chuireadh ach mhol iad rud eile:
+#   $name - The name of responding invitee.
+counter-tentative = Gabh { $name } ris a’ chuireadh ach gun chinnt is mhol iad rud eile:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = Dhiùlt { $name } an cuireadh ach mhol iad rud eile:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = Dh’iomruin { $name } an cuireadh ach mhol iad rud eile:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = Cha do chuir { $name } romhpa fhathast an gabh iad pàirt agus mhol iad rud eile:
+counter-on-previous-version-notification = Seo moladh eile mu choinneamh tionndadh na bu tràithe dhen tachartas seo.
+counter-on-counter-disallowed-notification = Cha do cheadaich thu do dhaoine rudan eile a mholadh a thaobh a’ chuiridh.
+sendandclose-button =
+    .label = Cuir is dùin e
+    .tooltiptext = Cuir fios gu na freastalaichean is dùin e
+saveandsend-button =
+    .label = Sàbhail is cuir
+    .tooltiptext = Sàbhail is cuir fios gu na freastalaichean
+saveandsend-menu =
+    .label = Sàbhail is cuir
+sendandclose-menu =
+    .label = Cuir is dùin e
+event-recurrence-forever =
+    .label = Gu sìorraidh bràth
+# $count - the number of attendees
+attendees-tab-label = Freastalaichean ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Ceanglachain ({ $count }):

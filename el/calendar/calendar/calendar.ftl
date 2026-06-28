@@ -1066,3 +1066,53 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Προσθήκη ως εργασία
     .tooltiptext = Εξαγωγή ημερολογιακών πληροφοριών από το μήνυμα και προσθήκη τους στο ημερολόγιό σας ως εργασία
+new-event-input =
+    .placeholder = Νέα εκδήλωση
+new-task-input =
+    .placeholder = Νέα εργασία
+item-menu-label-event =
+    .label = Εκδήλωση
+    .accesskey = δ
+item-menu-label-task =
+    .label = Εργασία
+    .accesskey = Ρ
+# Link Location Dialog
+specify-link-location = Καθορίσετε την τοποθεσία συνδέσμου
+enter-link-location = Εισαγάγετε μια ιστοσελίδα ή τοποθεσία εγγράφου.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Αρχείο μέσω { $providerName }
+select-a-file = Επιλέξτε αρχεία προς επισύναψη
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = Ο/Η { $name } αποδέχτηκε την πρόσκληση, αλλά έκανε μια αντιπρόταση:
+#   $name - The name of responding invitee.
+counter-tentative = Ο/Η { $name } αποδέχτηκε την πρόσκληση μόνο διστακτικά και έκανε μια αντιπρόταση:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = Ο/Η { $name } αρνήθηκε την πρόσκληση, αλλά έκανε μια αντιπρόταση:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = Ο/Η { $name } έχει αναθέσει την πρόσκληση, αλλά έκανε μια αντιπρόταση:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = Ο/Η { $name } δεν έχει αποφασίσει για το αν θα συμμετέχει και έκανε μια αντιπρόταση:
+counter-on-previous-version-notification = Αυτή είναι μια αντιπρόταση για μια προηγούμενη έκδοση της εκδήλωσης.
+counter-on-counter-disallowed-notification = Απαγορεύσατε την αντιπρόταση κατά την αποστολή της πρόσκλησης.
+sendandclose-button =
+    .label = Αποστολή και κλείσιμο
+    .tooltiptext = Ειδοποίηση των συμμετεχόντων και κλείσιμο
+saveandsend-button =
+    .label = Αποθήκευση και αποστολή
+    .tooltiptext = Αποθήκευση και ειδοποίηση συμμετεχόντων
+saveandsend-menu =
+    .label = Αποθήκευση και αποστολή
+sendandclose-menu =
+    .label = Αποστολή και κλείσιμο
+event-recurrence-forever =
+    .label = Για πάντα
+# $count - the number of attendees
+attendees-tab-label = Συμμετέχοντες ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Συνημμένα ({ $count }):

@@ -1010,3 +1010,53 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = 新增為工作
     .tooltiptext = 從訊息中找出行事曆資訊，並新增為您的行事曆工作
+new-event-input =
+    .placeholder = 新增事件
+new-task-input =
+    .placeholder = 新增工作
+item-menu-label-event =
+    .label = 事件
+    .accesskey = T
+item-menu-label-task =
+    .label = 工作
+    .accesskey = T
+# Link Location Dialog
+specify-link-location = 請指定鏈結位置
+enter-link-location = 輸入網址或文件的位置。
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = 上傳至 { $providerName }
+select-a-file = 請選擇檔案來附加
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } 接受了邀請，但提出了反對提議：
+#   $name - The name of responding invitee.
+counter-tentative = { $name } 暫時接受了邀請，但提出了反對提議：
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } 拒絕了邀請，也提出了反對提議：
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } 指派代理參加邀請，但提出了反對提議：
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } 尚未決定是否參加，但提出了反對提議：
+counter-on-previous-version-notification = 此事件的先前版本能有反對提議。
+counter-on-counter-disallowed-notification = 您寄出邀請時已設定不允許反對。
+sendandclose-button =
+    .label = 傳送並關閉
+    .tooltiptext = 通知參與者並關閉
+saveandsend-button =
+    .label = 儲存並傳送
+    .tooltiptext = 儲存並通知參與者
+saveandsend-menu =
+    .label = 儲存並傳送
+sendandclose-menu =
+    .label = 傳送並關閉
+event-recurrence-forever =
+    .label = 永遠
+# $count - the number of attendees
+attendees-tab-label = 與會者（{ $count }）:
+# $count - the number of attachments
+attachments-tab-label = 附件（{ $count }）:

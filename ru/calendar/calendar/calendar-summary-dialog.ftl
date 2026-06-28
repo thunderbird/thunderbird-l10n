@@ -15,3 +15,40 @@ edit-button-context-menu-all-occurrences =
     .accesskey = е
 description-context-menu-copy-link-text =
     .label = Копировать текст ссылки
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation.
+event-accepted = Вы приняли это приглашение
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation tentatively
+event-tentative = Вы ориентировочно приняли это приглашение
+# This will be displayed as notification in the summary dialog if the user has
+# declined the event invitation.
+event-declined = Вы отклонили это приглашение
+# This will be displayed as notification in the summary dialog if the user has
+# delegated his/her participation to one or more other participants
+# (without attending / working on it his/herself)
+event-delegated = Вы делегировали это приглашение
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to an invitation
+event-needs-action = Вы пока не ответили на это приглашение
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the assigned task
+task-accepted = Вы приняли работу над этой задачей
+# This will be displayed as notification in the summary dialog if the user has
+# accepted tentatively the assigned task.
+task-tentative = Вы ориентировочно приняли работу над этой задачей
+# This will be displayed as notification in the summary dialog if the user has
+# declined the assigned task
+task-declined = Вы отклонили работу над этой задачей
+# This will be displayed as notification the summary dialog if the user has
+# delegated his/her assignment to one or more others (without attending / working on it his/herself)
+task-delegated = Вы делегировали работу над этой задачей
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to the task assignment
+task-needs-action = Вы пока не ответили на назначение этой задачи
+# This will be displayed as notification in the summary dialog if the user
+# is working on an assigned task
+task-in-progress = Вы начали работу над назначенной задачей
+# This will be displayed as notification in the summary dialog if the user
+# has completed the work on this assigned task
+task-completed = Вы завершили свою работу над назначенной задачей

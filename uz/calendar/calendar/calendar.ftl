@@ -844,3 +844,23 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Vazifa sifatida qo‘shish
     .tooltiptext = Taqvim ma’lumotini xabardan ajratib olish va uni taqvimga vazifa sifatida qo‘shish
+new-event-input =
+    .placeholder = Yangi tadbir
+new-task-input =
+    .placeholder = Yangi vazifa
+item-menu-label-event =
+    .label = Tadbir
+    .accesskey = T
+item-menu-label-task =
+    .label = Vazifa
+    .accesskey = T
+# Link Location Dialog
+specify-link-location = Marhamat, havola manzilini ko‘rsating
+enter-link-location = Veb sahifa yoki hujjat manzilini kiriting.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Fayl { $providerName }’dan foydalanmoqda
+select-a-file = Ilova qilinadigan fayllarni tanlasg
+event-recurrence-forever =
+    .label = Abadiy

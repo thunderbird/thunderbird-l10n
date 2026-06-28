@@ -983,3 +983,53 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Pridėti kaip darbą
     .tooltiptext = Išskirti iš laiško kalendorinę informaciją ir pridėti ją į kalendorių kaip darbą
+new-event-input =
+    .placeholder = Naujas įvykis
+new-task-input =
+    .placeholder = Naujas darbas
+item-menu-label-event =
+    .label = Įvykis
+    .accesskey = F
+item-menu-label-task =
+    .label = Darbas
+    .accesskey = F
+# Link Location Dialog
+specify-link-location = Nurodykite saito adresą
+enter-link-location = Nurodykite tinklalapio ar dokumento adresą.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = failą per „{ $providerName }“
+select-a-file = Parinkite failą(-us), kurį(-iuos) norite prisegti
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } priėmė kvietimą, bet pateikė alternatyvų pasiūlymą:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } preliminariai priėmė kvietimą ir pateikė alternatyvų pasiūlymą:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } atmetė kvietimą, bet pateikė alternatyvų pasiūlymą:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } delegavo kvietimą kitam asmeniui, bet pateikė alternatyvų pasiūlymą:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } dar nenusprendė, ar dalyvaus, ir pateikė alternatyvų pasiūlymą:
+counter-on-previous-version-notification = Tai yra alternatyvus pasiūlymas ankstesnei šio įvykio versijai.
+counter-on-counter-disallowed-notification = Siųsdami kvietimą, jūs neleidote teikti alternatyvių pasiūlymų.
+sendandclose-button =
+    .label = Siųsti ir uždaryti
+    .tooltiptext = Pranešti dalyviams ir uždaryti
+saveandsend-button =
+    .label = Išsaugoti ir siųsti
+    .tooltiptext = Išsaugoti ir pranešti dalyviams
+saveandsend-menu =
+    .label = Išsaugoti ir siųsti
+sendandclose-menu =
+    .label = Siųsti ir uždaryti
+event-recurrence-forever =
+    .label = Neterminuotai
+# $count - the number of attendees
+attendees-tab-label = Dalyviai ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Priedai ({ $count }):

@@ -1063,3 +1063,53 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Shtoje si punë
     .tooltiptext = Përftoni nga mesazhi të dhëna kalendarike dhe shtojini ato te kalendari juaj si një punë
+new-event-input =
+    .placeholder = Veprimtari e Re
+new-task-input =
+    .placeholder = Punë e Re
+item-menu-label-event =
+    .label = Veprimtari
+    .accesskey = F
+item-menu-label-task =
+    .label = Punë
+    .accesskey = F
+# Link Location Dialog
+specify-link-location = Ju lutemi, tregoni vendndodhjen e lidhjes
+enter-link-location = Jepni një faqe web, ose vendndodhje dokumenti.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Kartelë duke përdorur { $providerName }
+select-a-file = Ju lutemi, përzgjidhni kartelën(at) për bashkëngjitje
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } e ka pranuar ftesën, por bëri një kundërpropozim:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } e ka pranuar ftesën vetëm në cilësinë e një tentative dhe bëri një kundërpropozim:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } e ka hedhur poshtë ftesën, por bëri një kundërpropozim:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } e ka deleguar ftesën, por bëri një kundërpropozim:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } s’ka vendosur të marrë pjesë apo jo dhe bëri një kundërpropozim:
+counter-on-previous-version-notification = Ky është një kundërpropozim për një version të mëparshëm të kësaj veprimtarie.
+counter-on-counter-disallowed-notification = E keni çaktivizuar matjen e kohës kur dërgohen ftesa.
+sendandclose-button =
+    .label = Dërgoje Dhe Mbylle
+    .tooltiptext = Njofto pjesëmarrësit dhe mbylle
+saveandsend-button =
+    .label = Ruaje Dhe Dërgoje
+    .tooltiptext = Ruaje dhe njofto pjesëmarrësit
+saveandsend-menu =
+    .label = Ruaje dhe Dërgoje
+sendandclose-menu =
+    .label = Dërgoje dhe Mbylle
+event-recurrence-forever =
+    .label = Gjithmonë
+# $count - the number of attendees
+attendees-tab-label = Pjesëmarrës ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Bashkëngjitje ({ $count }):

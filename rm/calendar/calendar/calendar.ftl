@@ -1062,3 +1062,53 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Agiuntar sco incumbensa
     .tooltiptext = Extrair infurmaziuns da chalender ord il messadi e las agiuntar a tes chalender sco incumbensa
+new-event-input =
+    .placeholder = Nov eveniment
+new-task-input =
+    .placeholder = Nova incumbensa
+item-menu-label-event =
+    .label = Eveniment
+    .accesskey = T
+item-menu-label-task =
+    .label = Incumbensa
+    .accesskey = T
+# Link Location Dialog
+specify-link-location = Endatescha p.pl. l'adressa da la colliaziun
+enter-link-location = Endatescha ina pagina d'internet u l'emplazzament dad in document.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Datoteca cun { $providerName }
+select-a-file = Tscherna p.pl. la(s) datoteca(s) per agiuntar
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } ha acceptà l'invitaziun, ma ha fatg ina cuntraproposta:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } ha mo acceptà provisoricamain l'invitaziun ed ha fatg ina cuntraproposta:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } ha refusà l'invitaziun, ma ha fatg ina cuntraproposta:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } ha delegà l'invitaziun, ma ha fatg ina cuntraproposta:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } n'ha betg decidì davart sia participaziun ed ha fatg ina cuntraproposta:
+counter-on-previous-version-notification = Quai è ina cuntraproposta per ina versiun precedenta da quest eveniment.
+counter-on-counter-disallowed-notification = Ti n'has betg permess cuntrapropostas cun trametter l'invitaziun.
+sendandclose-button =
+    .label = Trametter e serrar
+    .tooltiptext = Infurmar ils participants e serrar
+saveandsend-button =
+    .label = Memorisar e trametter
+    .tooltiptext = Memorisar ed infurmar ils participants
+saveandsend-menu =
+    .label = Memorisar e trametter
+sendandclose-menu =
+    .label = Trametter e serrar
+event-recurrence-forever =
+    .label = Per adina
+# $count - the number of attendees
+attendees-tab-label = Participants ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Agiuntas ({ $count }):

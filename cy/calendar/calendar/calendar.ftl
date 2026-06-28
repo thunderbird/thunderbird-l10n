@@ -1119,3 +1119,53 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Ychwanegu fel tasg
     .tooltiptext = Tynnu gwybodaeth calendr o'r neges a'i ychwanegu i'ch calendr fel tasg
+new-event-input =
+    .placeholder = Digwyddiad Newydd
+new-task-input =
+    .placeholder = Tasg Newydd
+item-menu-label-event =
+    .label = Digwyddiad
+    .accesskey = D
+item-menu-label-task =
+    .label = Tasg
+    .accesskey = T
+# Link Location Dialog
+specify-link-location = Pennwch leoliad y ddolen
+enter-link-location = Rhowch leoliad tudalen gwe neu ddogfen.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Ffeilio gan ddefnyddio { $providerName }
+select-a-file = Dewiswch ffeil(iau) i'w hatodi
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = Mae 0{ $name } wedi derbyn y gwahoddiad, ond wedi cyflwyno gwrthgynnig:
+#   $name - The name of responding invitee.
+counter-tentative = Mae 0{ $name } wedi derbyn y gwahoddiad yn amodol, ond wedi cyflwyno gwrthgynnig:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = Mae { $name } wedi gwrthod y gwahoddiad, ond wedi cynnig cyflwyno croes:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } wedi dirprwyo'r gwahoddiad, ond wedi cyflwyno gwrthgynnig:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = Nid yw { $name } wedi p'un ai i gymryd rhan ac wedi ac wedi cyflwyno gwrthgynnig:
+counter-on-previous-version-notification = Mae hyn yn gynnig croes i'r fersiwn blaenorol o'r digwyddiad hwn.
+counter-on-counter-disallowed-notification = Rydych wedi atal cynigion croes wrth anfon y gwahoddiad.
+sendandclose-button =
+    .label = Anfon a Chau
+    .tooltiptext = Hysbysu'r mynychwr a chau
+saveandsend-button =
+    .label = Cadw ac Anfon
+    .tooltiptext = Cadw a hysbysu'r mynychwr
+saveandsend-menu =
+    .label = Cadw ac Anfon
+sendandclose-menu =
+    .label = Anfon a Chau
+event-recurrence-forever =
+    .label = Am Byth
+# $count - the number of attendees
+attendees-tab-label = Mynychwyr ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Atodiadau ({ $count }):

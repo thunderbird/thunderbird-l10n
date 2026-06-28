@@ -1084,3 +1084,53 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Добавить как задачу
     .tooltiptext = Извлечь календарную информацию из сообщения и добавить в календарь как задачу
+new-event-input =
+    .placeholder = Новое событие
+new-task-input =
+    .placeholder = Новая задача
+item-menu-label-event =
+    .label = Событие
+    .accesskey = С
+item-menu-label-task =
+    .label = Задача
+    .accesskey = З
+# Link Location Dialog
+specify-link-location = Укажите адрес ссылки
+enter-link-location = Введите адрес веб-страницы или укажите расположение документа.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Вложить файл с помощью { $providerName }
+select-a-file = Вложить файл(ы)
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } принимает приглашение, но делает встречное предложение:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } только ориентировочно принимает приглашение и делает встречное предложение:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } отклоняет приглашение, но делает встречное предложение:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } делегирует приглашение, но делает встречное предложение:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } не решил, участвовать ли, и сделал встречное предложение:
+counter-on-previous-version-notification = Это встречное предложение для предыдущей версии этого события.
+counter-on-counter-disallowed-notification = Вы запретили выдвигать встречные предложения при отправке этого приглашения.
+sendandclose-button =
+    .label = Отправить и закрыть
+    .tooltiptext = Уведомить участников и закрыть
+saveandsend-button =
+    .label = Сохранить и отправить
+    .tooltiptext = Сохранить и уведомить участников
+saveandsend-menu =
+    .label = Сохранить и отправить
+sendandclose-menu =
+    .label = Отправить и закрыть
+event-recurrence-forever =
+    .label = Всегда
+# $count - the number of attendees
+attendees-tab-label = Участники ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Вложения ({ $count }):

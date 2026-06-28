@@ -997,3 +997,53 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = เพิ่มเป็นงาน
     .tooltiptext = แยกข้อมูลปฏิทินจากข้อความและเพิ่มลงในปฏิทินของคุณเป็นงาน
+new-event-input =
+    .placeholder = เหตุการณ์ใหม่
+new-task-input =
+    .placeholder = งานใหม่
+item-menu-label-event =
+    .label = เหตุการณ์
+    .accesskey = ห
+item-menu-label-task =
+    .label = งาน
+    .accesskey = ง
+# Link Location Dialog
+specify-link-location = โปรดระบุตำแหน่งที่ตั้งลิงก์
+enter-link-location = ป้อนหน้าเว็บหรือตำแหน่งที่ตั้งเอกสาร
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = ไฟล์ที่ใช้ { $providerName }
+select-a-file = โปรดเลือกไฟล์ที่จะแนบ
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } ได้ยอมรับคำเชิญ แต่ได้สร้างการโต้แย้ง:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } ได้ยอมรับคำเชิญคร่าว ๆ และได้สร้างการโต้แย้ง:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } ได้ปฏิเสธคำเชิญ แต่ได้สร้างการโต้แย้ง:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } ได้มอบหมายคำเชิญ แต่ได้สร้างการโต้แย้ง:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } ไม่ได้ตัดสินใจว่าจะเข้าร่วมหรือไม่ และได้สร้างการโต้แย้ง:
+counter-on-previous-version-notification = นี่คือการโต้แย้งสำหรับรุ่นก่อนหน้าของเหตุการณ์นี้
+counter-on-counter-disallowed-notification = คุณเลิกอนุญาตการโต้แย้งเมื่อส่งคำเชิญแล้ว
+sendandclose-button =
+    .label = ส่งแล้วปิด
+    .tooltiptext = แจ้งเตือนผู้เข้าร่วมแล้วปิด
+saveandsend-button =
+    .label = บันทึกแล้วส่ง
+    .tooltiptext = บันทึกแล้วแจ้งเตือนผู้เข้าร่วม
+saveandsend-menu =
+    .label = บันทึกแล้วส่ง
+sendandclose-menu =
+    .label = ส่งแล้วปิด
+event-recurrence-forever =
+    .label = ตลอดไป
+# $count - the number of attendees
+attendees-tab-label = ผู้เข้าร่วม ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = ไฟล์แนบ ({ $count }):
