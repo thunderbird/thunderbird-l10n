@@ -15,3 +15,28 @@ edit-button-context-menu-all-occurrences =
     .accesskey = a
 description-context-menu-copy-link-text =
     .label = Copiază textul linkului
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation.
+event-accepted = Ai acceptat această invitație
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation tentatively
+event-tentative = Ai acceptat provizoriu această invitație
+# This will be displayed as notification in the summary dialog if the user has
+# declined the event invitation.
+event-declined = Ai refuzat această invitație
+# This will be displayed as notification in the summary dialog if the user has
+# delegated his/her participation to one or more other participants
+# (without attending / working on it his/herself)
+event-delegated = Ai delegat această invitație
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to an invitation
+event-needs-action = Încă nu ai răspuns la această invitație
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the assigned task
+task-accepted = Ai acceptat să lucrezi la această sarcină
+# This will be displayed as notification in the summary dialog if the user has
+# accepted tentatively the assigned task.
+task-tentative = Ai acceptat provizoriu să lucrezi la această sarcină
+# This will be displayed as notification in the summary dialog if the user has
+# declined the assigned task
+task-declined = Ai refuzat să lucrezi la această sarcină
