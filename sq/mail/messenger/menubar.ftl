@@ -68,6 +68,11 @@ menu-quit =
 # This menu-quit-mac string is only used on macOS.
 menu-quit-mac =
     .label = Dilni prej { -brand-shorter-name }-it
+system-tray-menuitem-quit =
+    { PLATFORM() ->
+        [windows] Dilni nga { -brand-full-name }-i
+       *[other] Mbylle { -brand-full-name }-in
+    }
 system-tray-menu-quit =
     .label =
         { PLATFORM() ->
