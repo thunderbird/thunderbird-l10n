@@ -1066,3 +1066,5 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Adicionar como tarefa
     .tooltiptext = Extrair informações da mensagem e adicionar ao calendário como evento
+event-recurrence-forever =
+    .label = Eternamente
