@@ -1,0 +1,51 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+calendar-item-summary-title = Наслов:
+calendar-item-summary-calendar = Календар:
+calendar-item-summary-task-start = Почетни датум:
+calendar-item-summary-event-start = Почетни датум:
+calendar-item-summary-task-due = Крајњи датум:
+calendar-item-summary-event-end = Завршни датум:
+calendar-item-summary-repeat = Понављање:
+calendar-item-summary-location = Место:
+calendar-item-summary-category = Категорија:
+calendar-item-summary-organizer = Организатор:
+calendar-item-summary-status = Стање:
+calendar-item-summary-reminder = Подсетник:
+calendar-item-summary-attachments = Прилози:
+calendar-item-summary-reminder-none =
+    .label = Без подсетника 
+calendar-item-summary-reminder-0-minutes-before =
+    .label = 0 минута пре
+calendar-item-summary-reminder-5-minutes-before =
+    .label = 5 минута пре
+calendar-item-summary-reminder-15-minutes-before =
+    .label = 15 минута пре
+calendar-item-summary-reminder-30-minutes-before =
+    .label = 30 минута пре
+calendar-item-summary-reminder-1-hour-before =
+    .label = 1 сат пре
+calendar-item-summary-reminder-2-hours-before =
+    .label = 2 сата пре
+calendar-item-summary-reminder-12-hours-before =
+    .label = 12 сати пре
+calendar-item-summary-reminder-1-day-before =
+    .label = 1 дан пре
+calendar-item-summary-reminder-2-days-before =
+    .label = 2 дана пре
+calendar-item-summary-reminder-1-week-before =
+    .label = 1 недеља пре
+calendar-item-summary-reminder-custom =
+    .label = Прилагођено…
+calendar-item-summary-reminder-multiple =
+    .value = Више подсетника…
+calendar-item-summary-general =
+    .value = Опште
+calendar-item-summary-attendees =
+    .value = Полазници
+calendar-item-summary-description =
+    .value = Опис
+calendar-item-summary-link =
+    .value = Сродна веза
