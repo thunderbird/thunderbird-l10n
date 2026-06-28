@@ -1016,5 +1016,21 @@ enter-link-location = Masukkan sebuah laman web atau lokasi dokumen
 #   $providerName - The FileLink provider display name
 attach-via-filelink = Berkas menggunakan { $providerName }
 select-a-file = Pilih berkas untuk dilampirkan
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } telah menerima undangan, tetapi membuat proposal tandingan:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } telah menerima undangan secara tentatif dan membuat proposal tandingan:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } telah menolak undangan, tetapi membuat proposal tandingan:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } telah mendelegasikan undangan, tetapi membuat proposal tandingan:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } belum memutuskan ikut serta dan membuat proposal tandingan:
+counter-on-previous-version-notification = Ini adalah proposal tandingan untuk versi acara sebelumnya
+counter-on-counter-disallowed-notification = Anda mematikan penghitung ketika mengirimkan undangan
 event-recurrence-forever =
     .label = Selamanya
