@@ -481,6 +481,40 @@ calendar-error-description =
     .value = Tzijoxkil:
 calendar-error-title =
     .title = Xk'ulwachitäj jun sachoj
+new-event-input =
+    .placeholder = K'ak'a' Molojri'ïl
+new-task-input =
+    .placeholder = K'ak'a' Samaj
+item-menu-label-event =
+    .label = Molojri'ïl
+    .accesskey = T
+item-menu-label-task =
+    .label = Samaj
+    .accesskey = T
+# Link Location Dialog
+specify-link-location = Tab'ana' utzil, tak'utu¡ ri ruk'ojlib'äl ri enlace
+enter-link-location = Tatz'ib'aj jun ruxaq k'amaya'l, chuqa' ri ruk'ojlib'äl jun wuj.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Samaj tajin nsamajïx { $providerName }
+select-a-file = Tab'ana' utzil tapitza' ri samaj (s) richin nayäk
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } xak'ul ri peyoj, chuqa' xab'an jun k'ak'a peraj:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } xak'ul ri peyoj xaxe' wi k'atzinel chuqa' xab'än jun k'ak'a' peraj:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } man xawajo' ta ri peyonïk, chuqa' xab'än jun k'ak'a' peraj:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } xak'ulb'ej chik jun peyoj, chuqa' xab'än jun k'ak'a' peraj:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } man awetaman ta wi nak'ul ri peyoj chuqa' xab'än jun k'ak'a' peraj:
+counter-on-previous-version-notification = Re re' xaxe' jun rub'eyal richin jun nab'eyal taqoj.
+counter-on-counter-disallowed-notification = Man tikirel ta naq'atab'a' toq nataq ri peyonïk.
 sendandclose-button =
     .label = Titaq Chuqa' Titz'apïx
     .tooltiptext = Tikitzijoj chike ri to'onela' chuqa' titz'apix
@@ -491,6 +525,8 @@ saveandsend-menu =
     .label = Tiyak chuqa' Titaq
 sendandclose-menu =
     .label = Titaq chuqa' Titz'apix
+event-recurrence-forever =
+    .label = Jantape'
 # $count - the number of attendees
 attendees-tab-label = To'onela' ({ $count }):
 # $count - the number of attachments
