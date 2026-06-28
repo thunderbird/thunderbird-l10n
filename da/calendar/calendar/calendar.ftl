@@ -1066,3 +1066,39 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Tilføj som opgave
     .tooltiptext = Hent kalenderdata fra en meddelelse, og føj den til din kalender som en opgave
+new-event-input =
+    .placeholder = Ny begivenhed
+new-task-input =
+    .placeholder = Ny opgave
+item-menu-label-event =
+    .label = Begivenhed
+    .accesskey = B
+item-menu-label-task =
+    .label = Opgave
+    .accesskey = O
+# Link Location Dialog
+specify-link-location = Angiv venligst linkadressen
+enter-link-location = Angiv en adresse til en webside eller en sti til et dokument.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Fil ved hjælp af { $providerName }
+select-a-file = Vælg vedhæftede fil(er)
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } har accepteret invitationen, men foreslår ændringer:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } har midlertidigt accepteret invitationen, men foreslår ændringer:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } har afslået invitationen og foreslår i stedet:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } har uddelegeret invitationen, men har samtidig foreslået ændringer:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } har endnu ikke besluttet sig for at deltage, men har foreslået ændringer:
+counter-on-previous-version-notification = Dette er et ændringsforslag til en tidligere udgave af denne begivenhed.
+counter-on-counter-disallowed-notification = Du har forbudt ændringsforslag, da du udsendte denne invitation.
+event-recurrence-forever =
+    .label = For evigt
