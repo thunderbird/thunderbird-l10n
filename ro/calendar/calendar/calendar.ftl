@@ -1084,3 +1084,23 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Adaugă ca sarcină
     .tooltiptext = Extrage informații tip calendar din mesaj și le adaugă în calendar ca sarcini
+new-event-input =
+    .placeholder = Eveniment nou
+new-task-input =
+    .placeholder = Sarcină nouă
+item-menu-label-event =
+    .label = Eveniment
+    .accesskey = F
+item-menu-label-task =
+    .label = Sarcină
+    .accesskey = F
+# Link Location Dialog
+specify-link-location = Te rugăm să specifici adresa linkului
+enter-link-location = Introdu o pagină web sau locația documentului.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Atașare fișier folosind { $providerName }
+select-a-file = Te rugăm să selectezi fișierul/fișierele de atașat
+event-recurrence-forever =
+    .label = Pentru totdeauna
