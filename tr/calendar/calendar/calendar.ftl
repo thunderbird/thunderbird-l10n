@@ -1098,3 +1098,7 @@ counter-on-previous-version-notification = Bu, bu etkinliğin önceki bir sürü
 counter-on-counter-disallowed-notification = Daveti gönderirken davetin geri çevrilmesine izin vermediniz.
 event-recurrence-forever =
     .label = Sonsuz
+# $count - the number of attendees
+attendees-tab-label = Katılımcılar ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Ekler ({ $count }):
