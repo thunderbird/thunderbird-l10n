@@ -40,3 +40,15 @@ task-tentative = Oled nõustunud selle ülesande täitmisega kahtlevalt
 # This will be displayed as notification in the summary dialog if the user has
 # declined the assigned task
 task-declined = Oled keeldunud selle ülesande täitmisest
+# This will be displayed as notification the summary dialog if the user has
+# delegated his/her assignment to one or more others (without attending / working on it his/herself)
+task-delegated = Oled selle ülesande delegeerinud
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to the task assignment
+task-needs-action = Sa pole selle ülesande määramisele veel vastanud
+# This will be displayed as notification in the summary dialog if the user
+# is working on an assigned task
+task-in-progress = Oled selle määratud ülesande täitmist alustanud
+# This will be displayed as notification in the summary dialog if the user
+# has completed the work on this assigned task
+task-completed = Oled selle määratud ülesande täitmise lõpetanud
