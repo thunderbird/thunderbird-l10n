@@ -1102,3 +1102,19 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Ako nadawk pśidaś
     .tooltiptext = Kalenderowe informacije z powěsći ekstrahěrowaś a je wašomu kalenderoju ako nadawk pśidaś
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } jo pśepšosenje akceptěrował, ale jo pśeśiwonaraźenje cynił:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } jo pśepšosenje janož nachylu akceptěrował a jo pśeśiwonaraźenje cynił:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } je pśepšosenje wótpokazał, ale jo pśeśiwonaraźenje cynił:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } jo pśepšosenje delegěrował, ale jo pśeśiwonaraźenje cynił:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } njejo rozsuźił, lěc se wobźělijo a jo pśeśiwonaraźenje cynił:
+counter-on-previous-version-notification = To jo pśeśiwonaraźenje za pjerwjejšnu wersiju toś togo tšojenja.
+counter-on-counter-disallowed-notification = Sćo cynjenje pśeśiwonaraźenja zakazał, gaž se pśepšosenje sćelo.
