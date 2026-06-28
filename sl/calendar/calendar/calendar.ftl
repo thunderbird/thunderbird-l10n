@@ -1102,3 +1102,23 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Dodaj kot opravilo
     .tooltiptext = Izvleci koledarske podatke iz sporočila in jih dodaj k svojemu koledarju kot opravilo
+new-event-input =
+    .placeholder = Nov dogodek
+new-task-input =
+    .placeholder = Novo opravilo
+item-menu-label-event =
+    .label = Dogodek
+    .accesskey = D
+item-menu-label-task =
+    .label = Opravilo
+    .accesskey = O
+# Link Location Dialog
+specify-link-location = Določite mesto povezave
+enter-link-location = Vnesite spletno stran ali mesto dokumenta.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Datoteko preko { $providerName }
+select-a-file = Izberite datoteke, ki jih želite pripeti
+event-recurrence-forever =
+    .label = Vedno
