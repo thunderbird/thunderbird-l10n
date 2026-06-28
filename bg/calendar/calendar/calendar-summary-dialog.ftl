@@ -15,3 +15,12 @@ edit-button-context-menu-all-occurrences =
     .accesskey = в
 description-context-menu-copy-link-text =
     .label = Копиране на текст на връзката
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation.
+event-accepted = Вие приехте поканата
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation tentatively
+event-tentative = Вие приехте поканата условно
+# This will be displayed as notification in the summary dialog if the user has
+# declined the event invitation.
+event-declined = Вие отказахте тази покана
