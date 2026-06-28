@@ -1066,6 +1066,24 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Προσθήκη ως εργασία
     .tooltiptext = Εξαγωγή ημερολογιακών πληροφοριών από το μήνυμα και προσθήκη τους στο ημερολόγιό σας ως εργασία
+new-event-input =
+    .placeholder = Νέα εκδήλωση
+new-task-input =
+    .placeholder = Νέα εργασία
+item-menu-label-event =
+    .label = Εκδήλωση
+    .accesskey = δ
+item-menu-label-task =
+    .label = Εργασία
+    .accesskey = Ρ
+# Link Location Dialog
+specify-link-location = Καθορίσετε την τοποθεσία συνδέσμου
+enter-link-location = Εισαγάγετε μια ιστοσελίδα ή τοποθεσία εγγράφου.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Αρχείο μέσω { $providerName }
+select-a-file = Επιλέξτε αρχεία προς επισύναψη
 # Variables:
 #   $name - The name of responding invitee.
 counter-accepted = Ο/Η { $name } αποδέχτηκε την πρόσκληση, αλλά έκανε μια αντιπρόταση:
@@ -1092,6 +1110,8 @@ saveandsend-menu =
     .label = Αποθήκευση και αποστολή
 sendandclose-menu =
     .label = Αποστολή και κλείσιμο
+event-recurrence-forever =
+    .label = Για πάντα
 # $count - the number of attendees
 attendees-tab-label = Συμμετέχοντες ({ $count }):
 # $count - the number of attachments
