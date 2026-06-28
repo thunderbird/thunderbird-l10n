@@ -1092,3 +1092,53 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Dodaj jako zadanie
     .tooltiptext = Wyodrębnij informacje o zadaniu z wiadomości i dodaj je do kalendarza
+new-event-input =
+    .placeholder = Nowe wydarzenie
+new-task-input =
+    .placeholder = Nowe zadanie
+item-menu-label-event =
+    .label = Wydarzenie
+    .accesskey = d
+item-menu-label-task =
+    .label = Zadanie
+    .accesskey = e
+# Link Location Dialog
+specify-link-location = Podaj adres odnośnika
+enter-link-location = Podaj adres strony internetowej lub miejsce położenia dokumentu
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Plik używając serwisu { $providerName }
+select-a-file = Proszę wybrać plik(i) do załączenia
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } przyjął zaproszenie, ale wysłał kontrpropozycję:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } wstępnie przyjął zaproszenie i wysłał kontrpropozycję:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } odrzucił zaproszenie, ale wysłał kontrpropozycję:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } oddelegował zaproszenie, ale wysłał kontrpropozycję:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } jeszcze nie zdecydował o uczestnictwie i wysłał kontrpropozycję:
+counter-on-previous-version-notification = To kontrpropozycja do poprzedniej wersji tego wydarzenia.
+counter-on-counter-disallowed-notification = Nie pozwolono na kontrpropozycje podczas wysyłania zaproszenia.
+sendandclose-button =
+    .label = Wyślij i zamknij
+    .tooltiptext = Powiadom uczestników i zamknij
+saveandsend-button =
+    .label = Zapisz i wyślij
+    .tooltiptext = Zapisz i powiadom uczestników
+saveandsend-menu =
+    .label = Zapisz i wyślij
+sendandclose-menu =
+    .label = Wyślij i zamknij
+event-recurrence-forever =
+    .label = Nigdy
+# $count - the number of attendees
+attendees-tab-label = Uczestnicy ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Załączniki ({ $count }):
