@@ -1023,6 +1023,27 @@ item-menu-label-task =
 # Link Location Dialog
 specify-link-location = 請指定鏈結位置
 enter-link-location = 輸入網址或文件的位置。
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = 上傳至 { $providerName }
+select-a-file = 請選擇檔案來附加
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } 接受了邀請，但提出了反對提議：
+#   $name - The name of responding invitee.
+counter-tentative = { $name } 暫時接受了邀請，但提出了反對提議：
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } 拒絕了邀請，也提出了反對提議：
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } 指派代理參加邀請，但提出了反對提議：
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } 尚未決定是否參加，但提出了反對提議：
+counter-on-previous-version-notification = 此事件的先前版本能有反對提議。
+counter-on-counter-disallowed-notification = 您寄出邀請時已設定不允許反對。
 sendandclose-button =
     .label = 傳送並關閉
     .tooltiptext = 通知參與者並關閉
