@@ -1069,6 +1069,16 @@ counter-delegated = { $name } ha delegat la invitació, però ha fet una contrap
 counter-needs-action = { $name } no ha decidit si participarà i ha fet una contraproposta:
 counter-on-previous-version-notification = Aquesta és la contraproposta d'una versió anterior d'aquesta cita.
 counter-on-counter-disallowed-notification = Heu inhabilitat les contrapropostes quan heu enviat la invitació.
+sendandclose-button =
+    .label = Envia i tanca
+    .tooltiptext = Notifica els assistents i tanca
+saveandsend-button =
+    .label = Desa i tanca
+    .tooltiptext = Desa i notifica els assistents
+saveandsend-menu =
+    .label = Desa i tanca
+sendandclose-menu =
+    .label = Envia i tanca
 event-recurrence-forever =
     .label = Per sempre
 # $count - the number of attendees

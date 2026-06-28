@@ -40,3 +40,15 @@ task-tentative = Heu acceptat provisionalment participar en aquesta tasca
 # This will be displayed as notification in the summary dialog if the user has
 # declined the assigned task
 task-declined = Heu declinat participar en aquesta tasca
+# This will be displayed as notification the summary dialog if the user has
+# delegated his/her assignment to one or more others (without attending / working on it his/herself)
+task-delegated = Heu delegat la participació en aquesta tasca
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to the task assignment
+task-needs-action = Encara no heu respost a l'assignació d'aquesta tasca
+# This will be displayed as notification in the summary dialog if the user
+# is working on an assigned task
+task-in-progress = Heu començat a participar en aquesta tasca assignada
+# This will be displayed as notification in the summary dialog if the user
+# has completed the work on this assigned task
+task-completed = Heu acabat la vostra participació en aquesta tasca assignada
