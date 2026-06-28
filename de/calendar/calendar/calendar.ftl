@@ -1067,3 +1067,39 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Als Aufgabe eintragen
     .tooltiptext = Kalenderinformationen aus der Nachricht auslesen und als Aufgabe zum Kalender hinzufügen
+new-event-input =
+    .placeholder = Neuer Termin
+new-task-input =
+    .placeholder = Neue Aufgabe
+item-menu-label-event =
+    .label = Termin
+    .accesskey = m
+item-menu-label-task =
+    .label = Aufgabe
+    .accesskey = u
+# Link Location Dialog
+specify-link-location = Bitte geben Sie die Link-Adresse an
+enter-link-location = Bitte geben Sie eine Webseite oder den Speicherort eines Dokuments ein.
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Datei mit { $providerName }
+select-a-file = Bitte anzuhängende Datei(en) auswählen
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } hat die Einladung angenommen, aber einen Gegenvorschlag gemacht:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } hat eine vorläufige Zusage zur Teilnahme gegeben und einen Gegenvorschlag gemacht:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } hat die Einladung abgelehnt, aber einen Gegenvorschlag gemacht:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } hat die Einladung weitergeleitet, aber einen Gegenvorschlag gemacht:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } hat sich noch nicht zur Teilnahme geäußert und einen Gegenvorschlag gemacht:
+counter-on-previous-version-notification = Dies ist ein Gegenvorschlag für eine ältere Version des Termins.
+counter-on-counter-disallowed-notification = Sie haben das Einreichen von Gegenvorschlägen beim Senden der Einladung verboten.
+event-recurrence-forever =
+    .label = Keins
