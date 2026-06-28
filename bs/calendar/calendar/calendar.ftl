@@ -922,3 +922,19 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Dodaj kao zadatak
     .tooltiptext = Izvezite kalendarske informacije iz poruke i dodajte ih u svoj kalendar kao zadatak
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } je prihvatio poziv, ali je poslao protuprijedlog:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } je privremeno prihvatio poziv, ali je poslao protuprijedlog:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } nije prihvatio poziv, ali je poslao protuprijedlog:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } je delegirao poziv, ali je poslao protuprijedlog:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } nije odlučio da li sudjelovati, ali je poslao protuprijedlog:
+counter-on-previous-version-notification = Ovo je protuprijedlog za prethodnu verziju ovog događaja.
+counter-on-counter-disallowed-notification = Niste omogućili protuprijedloge prilikom slanja poziva.
