@@ -1017,5 +1017,19 @@ counter-delegated = { $name } delegavo kvietimą kitam asmeniui, bet pateikė al
 counter-needs-action = { $name } dar nenusprendė, ar dalyvaus, ir pateikė alternatyvų pasiūlymą:
 counter-on-previous-version-notification = Tai yra alternatyvus pasiūlymas ankstesnei šio įvykio versijai.
 counter-on-counter-disallowed-notification = Siųsdami kvietimą, jūs neleidote teikti alternatyvių pasiūlymų.
+sendandclose-button =
+    .label = Siųsti ir uždaryti
+    .tooltiptext = Pranešti dalyviams ir uždaryti
+saveandsend-button =
+    .label = Išsaugoti ir siųsti
+    .tooltiptext = Išsaugoti ir pranešti dalyviams
+saveandsend-menu =
+    .label = Išsaugoti ir siųsti
+sendandclose-menu =
+    .label = Siųsti ir uždaryti
 event-recurrence-forever =
     .label = Neterminuotai
+# $count - the number of attendees
+attendees-tab-label = Dalyviai ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Priedai ({ $count }):
