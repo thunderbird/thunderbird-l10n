@@ -1102,3 +1102,7 @@ counter-on-previous-version-notification = Ez egy ellenjavaslat az esemény kor�
 counter-on-counter-disallowed-notification = A meghívó küldésekor nem engedélyezte az ellenjavaslat küldését.
 event-recurrence-forever =
     .label = Örökké
+# $count - the number of attendees
+attendees-tab-label = Résztvevők ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Mellékletek ({ $count }):
