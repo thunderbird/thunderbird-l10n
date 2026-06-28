@@ -1100,6 +1100,16 @@ counter-delegated = { $name } on delegoinut kutsun, mutta on tehnyt vastaehdotuk
 counter-needs-action = { $name } ei ole päättänyt osallistumisesta ja on tehnyt vastaehdotuksen:
 counter-on-previous-version-notification = Tämä on vastaehdotus tapahtuman aikaisempaan versioon.
 counter-on-counter-disallowed-notification = Estit vastaehdotukset lähettäessäsi kutsua.
+sendandclose-button =
+    .label = Lähetä ja sulje
+    .tooltiptext = Ilmoita osallistujille ja sulje
+saveandsend-button =
+    .label = Tallenna ja lähetä
+    .tooltiptext = Tallenna ja ilmoita osallistujille
+saveandsend-menu =
+    .label = Tallenna ja lähetä
+sendandclose-menu =
+    .label = Lähetä ja sulje
 event-recurrence-forever =
     .label = Ikuisesti
 # $count - the number of attendees
