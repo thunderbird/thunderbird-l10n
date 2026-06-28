@@ -40,3 +40,15 @@ task-tentative = Feltételesen elfogadta, hogy dolgozik ezen a feladaton
 # This will be displayed as notification in the summary dialog if the user has
 # declined the assigned task
 task-declined = Elutasította, hogy dolgozzon ezen a feladaton
+# This will be displayed as notification the summary dialog if the user has
+# delegated his/her assignment to one or more others (without attending / working on it his/herself)
+task-delegated = Az ezen a feladaton való munkát átadta
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to the task assignment
+task-needs-action = Még nem válaszolt erre a feladatkijelölésre
+# This will be displayed as notification in the summary dialog if the user
+# is working on an assigned task
+task-in-progress = Elkezdett dolgozni ezen a kijelölt feladaton
+# This will be displayed as notification in the summary dialog if the user
+# has completed the work on this assigned task
+task-completed = Elvégezte a munkát ezen a kijelölt feladaton

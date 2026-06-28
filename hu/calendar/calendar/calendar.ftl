@@ -1100,6 +1100,16 @@ counter-delegated = { $name } delegálta a meghívást, de ellenjavaslatot tett:
 counter-needs-action = { $name } nem döntött, hogy részt vesz-e, és ellenjavaslatot tett:
 counter-on-previous-version-notification = Ez egy ellenjavaslat az esemény korábbi verziójához.
 counter-on-counter-disallowed-notification = A meghívó küldésekor nem engedélyezte az ellenjavaslat küldését.
+sendandclose-button =
+    .label = Küldés és bezárás
+    .tooltiptext = Részvevők értesítése és bezárás
+saveandsend-button =
+    .label = Mentés és küldés
+    .tooltiptext = Mentés és résztvevők értesítése
+saveandsend-menu =
+    .label = Mentés és küldés
+sendandclose-menu =
+    .label = Küldés és bezárás
 event-recurrence-forever =
     .label = Örökké
 # $count - the number of attendees
