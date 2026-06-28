@@ -998,3 +998,23 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Tambahkan sebagai tugas
     .tooltiptext = Mengekstrak informasi kalender dari pesan dan menambahkannya ke dalam kalender Anda sebagai tugas
+new-event-input =
+    .placeholder = Acara Baru
+new-task-input =
+    .placeholder = Tugas Baru
+item-menu-label-event =
+    .label = Acara
+    .accesskey = T
+item-menu-label-task =
+    .label = Tugas
+    .accesskey = T
+# Link Location Dialog
+specify-link-location = Tentukan lokasi tautan
+enter-link-location = Masukkan sebuah laman web atau lokasi dokumen
+# Attach File Dialog
+# Variables:
+#   $providerName - The FileLink provider display name
+attach-via-filelink = Berkas menggunakan { $providerName }
+select-a-file = Pilih berkas untuk dilampirkan
+event-recurrence-forever =
+    .label = Selamanya
