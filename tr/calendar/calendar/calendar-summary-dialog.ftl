@@ -15,3 +15,28 @@ edit-button-context-menu-all-occurrences =
     .accesskey = T
 description-context-menu-copy-link-text =
     .label = Bağlantı metnini kopyala
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation.
+event-accepted = Bu daveti kabul ettiniz
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation tentatively
+event-tentative = Bu daveti kesin olmadan kabul ettiniz
+# This will be displayed as notification in the summary dialog if the user has
+# declined the event invitation.
+event-declined = Bu daveti reddettiniz
+# This will be displayed as notification in the summary dialog if the user has
+# delegated his/her participation to one or more other participants
+# (without attending / working on it his/herself)
+event-delegated = Bu davet için başkasını görevlendirdiniz
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to an invitation
+event-needs-action = Bu davete henüz yanıt vermediniz
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the assigned task
+task-accepted = Bu görev üzerinde çalışmayı kabul ettiniz
+# This will be displayed as notification in the summary dialog if the user has
+# accepted tentatively the assigned task.
+task-tentative = Bu görev üzerinde çalışmayı belirsiz olarak kabul ettiniz
+# This will be displayed as notification in the summary dialog if the user has
+# declined the assigned task
+task-declined = Bu görev üzerinde çalışmayı reddettiniz
