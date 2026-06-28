@@ -40,3 +40,15 @@ task-tentative = Вы ориентировочно приняли работу �
 # This will be displayed as notification in the summary dialog if the user has
 # declined the assigned task
 task-declined = Вы отклонили работу над этой задачей
+# This will be displayed as notification the summary dialog if the user has
+# delegated his/her assignment to one or more others (without attending / working on it his/herself)
+task-delegated = Вы делегировали работу над этой задачей
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to the task assignment
+task-needs-action = Вы пока не ответили на назначение этой задачи
+# This will be displayed as notification in the summary dialog if the user
+# is working on an assigned task
+task-in-progress = Вы начали работу над назначенной задачей
+# This will be displayed as notification in the summary dialog if the user
+# has completed the work on this assigned task
+task-completed = Вы завершили свою работу над назначенной задачей
