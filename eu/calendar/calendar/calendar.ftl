@@ -1084,5 +1084,21 @@ enter-link-location = Sartu web orria edo dokumentuaren kokapena.
 #   $providerName - The FileLink provider display name
 attach-via-filelink = Fitxategia { $providerName } erabiliz
 select-a-file = Hautatu eransteko fitxategia(k)
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name }k gonbidapena onartu du, baina kontraproposamena egin du:
+#   $name - The name of responding invitee.
+counter-tentative = { $name }k behin behinekoz onartu du gonbidapena eta kontraproposamena egin du:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name }k gonbidapenari baztertu du baina kontraproposamena egin du:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name }k gonbidapenera ordezkoa bidali du, baina kontraproposamena egin du:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name }k ez du erabaki parte hartuko duen eta kontraproposamena egin du:
+counter-on-previous-version-notification = Hau zeregin honen aurreko bertsio bateko kontraproposamena da.
+counter-on-counter-disallowed-notification = Gonbidapena egitean zuk kontraproposamenak desgaitu dituzu.
 event-recurrence-forever =
     .label = Beti
