@@ -1071,3 +1071,7 @@ counter-on-previous-version-notification = Aquesta és la contraproposta d'una v
 counter-on-counter-disallowed-notification = Heu inhabilitat les contrapropostes quan heu enviat la invitació.
 event-recurrence-forever =
     .label = Per sempre
+# $count - the number of attendees
+attendees-tab-label = Assistents ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Adjuncions ({ $count }):

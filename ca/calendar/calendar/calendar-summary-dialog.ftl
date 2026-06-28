@@ -15,3 +15,28 @@ edit-button-context-menu-all-occurrences =
     .accesskey = t
 description-context-menu-copy-link-text =
     .label = Copia el text de l'enllaç
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation.
+event-accepted = Heu acceptat aquesta invitació
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the event invitation tentatively
+event-tentative = Heu acceptat provisionalment aquesta invitació
+# This will be displayed as notification in the summary dialog if the user has
+# declined the event invitation.
+event-declined = Heu declinat aquesta invitació
+# This will be displayed as notification in the summary dialog if the user has
+# delegated his/her participation to one or more other participants
+# (without attending / working on it his/herself)
+event-delegated = Heu delegat aquesta invitació
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to an invitation
+event-needs-action = Encara no heu respost a aquesta invitació
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the assigned task
+task-accepted = Heu acceptat participar en aquesta tasca
+# This will be displayed as notification in the summary dialog if the user has
+# accepted tentatively the assigned task.
+task-tentative = Heu acceptat provisionalment participar en aquesta tasca
+# This will be displayed as notification in the summary dialog if the user has
+# declined the assigned task
+task-declined = Heu declinat participar en aquesta tasca
