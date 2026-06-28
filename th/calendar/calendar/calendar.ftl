@@ -997,3 +997,17 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = เพิ่มเป็นงาน
     .tooltiptext = แยกข้อมูลปฏิทินจากข้อความและเพิ่มลงในปฏิทินของคุณเป็นงาน
+sendandclose-button =
+    .label = ส่งแล้วปิด
+    .tooltiptext = แจ้งเตือนผู้เข้าร่วมแล้วปิด
+saveandsend-button =
+    .label = บันทึกแล้วส่ง
+    .tooltiptext = บันทึกแล้วแจ้งเตือนผู้เข้าร่วม
+saveandsend-menu =
+    .label = บันทึกแล้วส่ง
+sendandclose-menu =
+    .label = ส่งแล้วปิด
+# $count - the number of attendees
+attendees-tab-label = ผู้เข้าร่วม ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = ไฟล์แนบ ({ $count }):
