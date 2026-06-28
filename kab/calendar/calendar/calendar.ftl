@@ -1038,3 +1038,19 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Rnu tawuri
     .tooltiptext = Suffeɣ-d talɣut n uwitay seg izen sakin renu-tt d tawuri ɣer uwitay
+# Variables:
+#   $name - The name of responding invitee.
+counter-accepted = { $name } yeqbel tinubga, acukan ɣur-s asumer n umesmiḍan:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } yeqbel tinubga ma yezmer, udiɣ yesumer-d amesmiḍan:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } yugi tinubga, acukan ɣur-s asumer n umesmiḍan:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } imud tinubga i wayeḍ, acukan ɣur-s asumer n umesmiḍan:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } ur yegzim ṛṛay ma yell ad ittekki neɣ ala udiɣ yesurmer-d amesmiḍan:
+counter-on-previous-version-notification = Asumer n umesmiḍan n lqem yezrin n tedyant.
+counter-on-counter-disallowed-notification = Ur testesirgeḍ ara asiḍen di tuzna n tinubga.
