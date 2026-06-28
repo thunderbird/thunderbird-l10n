@@ -1100,6 +1100,16 @@ counter-delegated = { $name }k gonbidapenera ordezkoa bidali du, baina kontrapro
 counter-needs-action = { $name }k ez du erabaki parte hartuko duen eta kontraproposamena egin du:
 counter-on-previous-version-notification = Hau zeregin honen aurreko bertsio bateko kontraproposamena da.
 counter-on-counter-disallowed-notification = Gonbidapena egitean zuk kontraproposamenak desgaitu dituzu.
+sendandclose-button =
+    .label = Bidali eta itxi
+    .tooltiptext = Jakinarazi gonbidatuei eta itxi
+saveandsend-button =
+    .label = Gorde eta bidali
+    .tooltiptext = Gorde eta jakinarazi gonbidatuei
+saveandsend-menu =
+    .label = Gorde eta bidali
+sendandclose-menu =
+    .label = Bidali eta itxi
 event-recurrence-forever =
     .label = Beti
 # $count - the number of attendees
