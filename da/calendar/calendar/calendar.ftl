@@ -1102,3 +1102,7 @@ counter-on-previous-version-notification = Dette er et ændringsforslag til en t
 counter-on-counter-disallowed-notification = Du har forbudt ændringsforslag, da du udsendte denne invitation.
 event-recurrence-forever =
     .label = For evigt
+# $count - the number of attendees
+attendees-tab-label = Deltagere ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Vedhæftede filer ({ $count }):
