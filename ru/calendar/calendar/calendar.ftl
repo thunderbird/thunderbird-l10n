@@ -1084,3 +1084,5 @@ calendar-extract-event-button =
 calendar-extract-task-button =
     .label = Добавить как задачу
     .tooltiptext = Извлечь календарную информацию из сообщения и добавить в календарь как задачу
+event-recurrence-forever =
+    .label = Всегда
