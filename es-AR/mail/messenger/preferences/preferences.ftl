@@ -138,6 +138,12 @@ adding-opensearch-provider-failed-title = No se pudo agregar el proveedor OpenSe
 # Variables:
 # $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = No se pudo agregar el proveedor OpenSearch para { $url }.
+close-to-tray-label =
+    .label = Cuando { -brand-short-name } esté cerrado, moverlo a la bandeja
+    .accesskey = C
+start-in-tray-label =
+    .label = Start { -brand-short-name } in the tray
+    .accesskey = S
 minimize-to-tray-label =
     .label = Cuando { -brand-short-name } está minimizado, muévalo a la bandeja
     .accesskey = m

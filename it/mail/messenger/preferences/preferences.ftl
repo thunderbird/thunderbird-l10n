@@ -138,6 +138,12 @@ adding-opensearch-provider-failed-title = Aggiunta del motore di ricerca OpenSea
 # Variables:
 # $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = Impossibile aggiungere il motore di ricerca OpenSearch da { $url }.
+close-to-tray-label =
+    .label = Quando { -brand-short-name } è chiuso, spostalo nel vassoio
+    .accesskey = Q
+start-in-tray-label =
+    .label = Inizia { -brand-short-name } nella barra delle applicazioni
+    .accesskey = I
 minimize-to-tray-label =
     .label = Quando { -brand-short-name } è ridotto a icona, spostalo nell’area di notifica
     .accesskey = n

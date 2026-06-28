@@ -138,6 +138,12 @@ adding-opensearch-provider-failed-title = Methodd Ychwanegu Darparwr OpenSearch
 # Variables:
 # $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = Nid oedd modd ychwanegu OpenSearch Provider ar gyfer { $url }.
+close-to-tray-label =
+    .label = Pan fydd { -brand-short-name } ar gau, symudwch ef i'r hambwrdd
+    .accesskey = P
+start-in-tray-label =
+    .label = Cychwyn { -brand-short-name } yn yr hambwrdd
+    .accesskey = C
 minimize-to-tray-label =
     .label = Pan fydd { -brand-short-name } wedi ei leihau, ei symud i'r dror
     .accesskey = l
