@@ -139,10 +139,10 @@ adding-opensearch-provider-failed-title = Dodanie wyszukiwarki OpenSearch się n
 # $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = Nie można dodać wyszukiwarki OpenSearch dla adresu { $url }.
 close-to-tray-label =
-    .label = Zamknij program { -brand-short-name } do ikony w obszarze powiadomień
+    .label = Zamykaj program { -brand-short-name } do ikony w obszarze powiadomień
     .accesskey = i
 start-in-tray-label =
-    .label = Uruchom program { -brand-short-name } z ikoną w obszarze powiadomień
+    .label = Uruchamiaj program { -brand-short-name } z ikoną w obszarze powiadomień
     .accesskey = U
 minimize-to-tray-label =
     .label = Minimalizuj program { -brand-short-name } do ikony w obszarze powiadomień
