@@ -139,8 +139,8 @@ adding-opensearch-provider-failed-title = OpenSearch 搜尋引擎新增失敗
 # $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = 無法新增 { $url } 的 OpenSearch 搜尋引擎。
 close-to-tray-label =
-    .label = 關閉 { -brand-short-name } 時移動至工具列
-    .accesskey = 關
+    .label = 關閉 { -brand-short-name } 時，移動至工具列
+    .accesskey = c
 start-in-tray-label =
     .label = 位於工具列的啟動 { -brand-short-name }
     .accesskey = 位
