@@ -138,6 +138,12 @@ adding-opensearch-provider-failed-title = Αποτυχία προσθήκης π
 # Variables:
 # $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = Δεν ήταν δυνατή η προσθήκη παρόχου OpenSearch για το { $url }.
+close-to-tray-label =
+    .label = Όταν το { -brand-short-name } κλείνει, να γίνεται μετακίνηση στην περιοχή εικονιδίων συστήματος
+    .accesskey = κ
+start-in-tray-label =
+    .label = Εκκίνηση του { -brand-short-name } στην περιοχή εικονιδίων συστήματος
+    .accesskey = σ
 minimize-to-tray-label =
     .label = Μετακίνηση του { -brand-short-name } στην περιοχή ειδοποιήσεων όταν ελαχιστοποιείται
     .accesskey = κ
