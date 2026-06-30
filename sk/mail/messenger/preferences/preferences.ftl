@@ -138,6 +138,12 @@ adding-opensearch-provider-failed-title = Pridanie poskytovateľa OpenSearch zly
 # Variables:
 # $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = Nepodarilo sa pridať poskytovateľa OpenSearch pre adresu { $url }.
+close-to-tray-label =
+    .label = Pri zatvorení { -brand-short-name(case: "gen") } ho presunúť oblasti oznámení
+    .accesskey = P
+start-in-tray-label =
+    .label = Spúšťať { -brand-short-name(case: "acc") } v oblasti oznámení
+    .accesskey = b
 minimize-to-tray-label =
     .label = Ak je { -brand-short-name } minimalizovaný, presunúť ho oblasti oznámení
     .accesskey = m
