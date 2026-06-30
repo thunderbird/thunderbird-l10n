@@ -504,7 +504,7 @@ auto-save-end = minutt
 ##
 
 warn-on-send-accel-key =
-    .label = Bekreft når tastatursnarvei brukes for å sende meldinger
+    .label = Bekreft når hurtigtast brukes for å sende meldinger
     .accesskey = e
 add-link-previews =
     .label = Legg til forhåndsvisninger av lenker når du limer inn nettadresser
