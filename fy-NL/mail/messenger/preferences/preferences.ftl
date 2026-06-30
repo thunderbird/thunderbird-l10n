@@ -138,6 +138,12 @@ adding-opensearch-provider-failed-title = Tafoegjen fan OpenSearch-provider misl
 # Variables:
 # $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = Kin OpenSearch-provider foar { $url } net tafoegje.
+close-to-tray-label =
+    .label = Nei de systeembalke ferpleatse wannear’t { -brand-short-name } sletten wurdt
+    .accesskey = s
+start-in-tray-label =
+    .label = { -brand-short-name } yn de systeembalke starte
+    .accesskey = b
 minimize-to-tray-label =
     .label = Nei de systeembalke ferpleatse wannear { -brand-short-name } minimalisearre is
     .accesskey = m
