@@ -138,6 +138,12 @@ adding-opensearch-provider-failed-title = Mistókst að bæta við OpenSearch þ
 # Variables:
 # $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = Gat ekki bætt við OpenSearch þjónustu fyrir { $url }.
+close-to-tray-label =
+    .label = Þegar { -brand-short-name } er lokað skal færa það í kerfisbakkann
+    .accesskey = k
+start-in-tray-label =
+    .label = Ræsa { -brand-short-name } í kerfisbakkanum
+    .accesskey = s
 minimize-to-tray-label =
     .label = Þegar { -brand-short-name } er lágmarkað skal færa það í kerfisbakkann
     .accesskey = m
