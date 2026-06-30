@@ -13,7 +13,7 @@
 <!ENTITY viewNotDeleted.accesskey "I">
 <!ENTITY viewTags.label "Etiketter">
 <!ENTITY viewTags.accesskey "t">
-<!ENTITY viewCustomViews.label "Egendefinerte visninger">
+<!ENTITY viewCustomViews.label "Tilpassede visninger">
 <!ENTITY viewCustomViews.accesskey "E">
 <!ENTITY viewVirtualFolder.label "Lagre visning som mappe …">
 <!ENTITY viewVirtualFolder.accesskey "L">

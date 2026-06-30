@@ -318,10 +318,10 @@ about-addressbook-entry-name-role = Rolle
 about-addressbook-entry-name-organization = Organisasjon
 about-addressbook-entry-name-website = Nettsted
 about-addressbook-entry-name-time-zone = Tidssone
-about-addressbook-entry-name-custom1 = Egendefinert 1
-about-addressbook-entry-name-custom2 = Egendefinert 2
-about-addressbook-entry-name-custom3 = Egendefinert 3
-about-addressbook-entry-name-custom4 = Egendefinert 4
+about-addressbook-entry-name-custom1 = Tilpasset 1
+about-addressbook-entry-name-custom2 = Tilpasset 2
+about-addressbook-entry-name-custom3 = Tilpasset 3
+about-addressbook-entry-name-custom4 = Tilpasset 4
 about-addressbook-unsaved-changes-prompt-title = Ulagrede endringer
 about-addressbook-unsaved-changes-prompt = Vil du lagre endringene dine før du forlater redigeringsvisningen?
 

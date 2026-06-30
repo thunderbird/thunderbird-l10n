@@ -27,7 +27,7 @@
 <!ENTITY actualSizeRadio.label "Virkelig størrelse">
 <!ENTITY actualSizeRadio.accessKey "V">
 <!ENTITY actualSizeRadio.tooltip "Gå tilbake til bildets virkelige størrelse">
-<!ENTITY customSizeRadio.label "Egendefinert størrelse">
+<!ENTITY customSizeRadio.label "Tilpasset størrelse">
 <!ENTITY customSizeRadio.accessKey "E">
 <!ENTITY customSizeRadio.tooltip "Endre bildets størrelse som vist på siden">
 <!ENTITY heightEditField.label "Høyde:">

@@ -8,7 +8,7 @@
 <!ENTITY defaultColorsRadio.label "Leserens standardfarger (Ikke sett farger på siden)">
 <!ENTITY defaultColorsRadio.accessKey "L">
 <!ENTITY defaultColorsRadio.tooltip "Bruk kun fargevalgene i leserens nettleser">
-<!ENTITY customColorsRadio.label "Bruk egendefinerte farger:">
+<!ENTITY customColorsRadio.label "Bruk tilpassede farger:">
 <!ENTITY customColorsRadio.accessKey "e">
 <!ENTITY customColorsRadio.tooltip "Disse fargevalgene overstyrer nettleserens valg">
 <!ENTITY normalText.label "Normal tekst">

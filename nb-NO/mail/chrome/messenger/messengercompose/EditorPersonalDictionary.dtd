@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Window title -->
-<!ENTITY windowTitle.label "Egendefinert ordbok">
+<!ENTITY windowTitle.label "Tilpasset ordbok">
 <!ENTITY wordEditField.label "Nytt ord:">
 <!ENTITY wordEditField.accessKey "N">
 <!ENTITY AddButton.label "Legg til">

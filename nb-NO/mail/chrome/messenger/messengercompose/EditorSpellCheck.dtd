@@ -21,7 +21,7 @@
 <!ENTITY replaceAllButton.accessKey "a">
 <!ENTITY stopButton.label "Stopp">
 <!ENTITY stopButton.accessKey "t">
-<!ENTITY userDictionary.label "Egendefinert ordbok:">
+<!ENTITY userDictionary.label "Tilpasset ordbok:">
 <!ENTITY moreDictionaries.label "Last ned flere …">
 <!ENTITY addToUserDictionaryButton.label "Legg til ord">
 <!ENTITY addToUserDictionaryButton.accessKey "g">
