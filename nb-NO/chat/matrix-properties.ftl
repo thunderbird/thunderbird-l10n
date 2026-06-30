@@ -71,7 +71,7 @@ power-level-default = Standard
 power-level-moderator = Moderator
 power-level-admin = Administrator
 power-level-restricted = Begrenset
-power-level-custom = Selvvalgt
+power-level-custom = Tilpasset
 #    $powerLevelName is the power level name
 #    $powerLevelNumber is the power level number
 power-level-detailed = { $powerLevelName } ({ $powerLevelNumber })
