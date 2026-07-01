@@ -5,6 +5,11 @@
 about-update-whats-new = Ce este nou
 about-dialog-title = Despre { -brand-full-name }
 release-notes-link = Note privind versiunea
+# This describes the codename logo shown in the About Thunderbird dialog for the current annual release.
+# Do not translate: Meadow
+about-dialog-meadow-logo =
+    .alt = { -brand-short-name } nume de cod insigna Meadow
+    .title = { -brand-short-name } - Nume de cod Meadow
 update-internal-error = Nu a fost posibilă verificarea de actualizări din cauza unei erori interne. Actualizările sunt disponibile la <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Caută actualizări
     .accesskey = V

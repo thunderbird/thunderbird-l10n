@@ -12,3 +12,20 @@ configured-cert-ok-sig = Certificatul a trecut testul și poate fi folosit pentr
 configured-cert-failure-detail = Verificarea certificatului a eșuat, cu următoarea eroare: { $errorMsg } (Cod de eroare: { $errorCodeStr })
 # $errorCode A numeric error code
 configured-cert-failure = Verificarea certificatului a eșuat, cu codul de eroare { $errorCode }
+# $errorMsg A sentence that explains the error.
+# $errorCodeStr A human readable error code, e.g. SEC_ERROR_UNKNOWN_ISSUER
+# Note the initial empty line is necessary to preserve the line breaks.
+configured-cert-failure-use-anyway-detail-v2 =
+    E o problemă cu acest certificat.
+    
+    Verificarea certificatului a eșuat cu următoarea eroare: { $errorMsg } (Cod eroare: { $errorCodeStr })
+    
+    Vrei să folosești acest certificat oricum?
+# $errorCode A numeric error code
+# Note the initial empty line is necessary to preserve the line breaks.
+configured-cert-failure-use-anyway-v2 =
+    E o problemă cu acest certificat.
+    
+    Verificarea certificatului a eșuat cu codul de eroare { $errorCode }.
+    
+    Vrei să folosești acest certificat oricum?

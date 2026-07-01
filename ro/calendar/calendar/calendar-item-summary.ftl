@@ -2,6 +2,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+header-comment =
+    .value = Comentariu
 calendar-item-summary-title = Titlu:
 calendar-item-summary-calendar = Calendar:
 calendar-item-summary-task-start = Dată de început:
