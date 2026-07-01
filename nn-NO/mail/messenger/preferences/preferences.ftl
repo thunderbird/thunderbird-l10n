@@ -138,6 +138,12 @@ adding-opensearch-provider-failed-title = Klarte ikkje leggje til OpenSearch-til
 # Variables:
 # $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = Klarte ikke leggje til OpenSearch-tilbydar for { $url }.
+close-to-tray-label =
+    .label = Når { -brand-short-name } er attlaten, flytt han til systemstatusfeltet
+    .accesskey = N
+start-in-tray-label =
+    .label = Start { -brand-short-name } i systemstatusfeltet
+    .accesskey = S
 minimize-to-tray-label =
     .label = Når { -brand-short-name } er minimert, flytt han til systemstatusfeltet
     .accesskey = m
