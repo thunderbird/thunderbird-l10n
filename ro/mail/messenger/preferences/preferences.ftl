@@ -138,6 +138,12 @@ adding-opensearch-provider-failed-title = Adăugarea furnizorului OpenSearch a e
 # Variables:
 # $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = Nu a putut fi adăugat furnizorul OpenSearch pentru { $url }.
+close-to-tray-label =
+    .label = Când { -brand-short-name } este închis, mută-l în bara de sistem
+    .accesskey = c
+start-in-tray-label =
+    .label = Pornește { -brand-short-name } în bara de sistem
+    .accesskey = S
 minimize-to-tray-label =
     .label = Când { -brand-short-name } este minimalizat, mută-l în bara de sistem
     .accesskey = m
