@@ -21,3 +21,11 @@ configured-cert-failure-use-anyway-detail-v2 =
     Сертификатты тексеру келесі қатемен сәтсіз аяқталды: { $errorMsg } (Қате коды: { $errorCodeStr })
     
     Сонда да бұл сертификатты пайдаланғыңыз келе ме?
+# $errorCode A numeric error code
+# Note the initial empty line is necessary to preserve the line breaks.
+configured-cert-failure-use-anyway-v2 =
+    Бұл сертификатта мәселе бар.
+    
+    Сертификатты тексеру { $errorCode } қате кодымен сәтсіз аяқталды.
+    
+    Сонда да бұл сертификатты пайдаланғыңыз келе ме?
