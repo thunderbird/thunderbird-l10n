@@ -20,6 +20,10 @@ ask-save-title-event = 이벤트 저장
 ask-save-title-task = 태스크 저장
 ask-save-message-event = 이벤트를 저장하지 못했습니다. 다시 저장해 보시겠습니까?
 ask-save-message-task = 태스크를 저장하지 못했습니다. 다시 저장해 보시겠습니까?
+# All day checkbox label, used both for events and tasks
+calendar-item-all-day =
+    .label = 하루 종일
+    .accesskey = d
 # Event Dialog Warnings
 warning-end-before-start = 종료 일시를 시작 일시 이전으로 설정할 수 없습니다.
 warning-until-date-before-start = 시작일보다 종료일이 먼저입니다.
@@ -798,6 +802,7 @@ calendar-context-convert-to-message =
 calendar-context-convert-to-task =
     .label = 태스크…
     .accesskey = T
+calendar-task-filter-title2 = 태스크 분류
 calendar-task-filter-all =
     .label = 전체
     .accesskey = A
@@ -924,6 +929,14 @@ calendar-alarm-snooze-all-for =
 # $count (Number) - The number of minutes to snooze.
 calendar-alarm-snooze-preset-minutes =
     .label = { $count }분
+# Variables:
+# $count (Number) - The number of hours to snooze.
+calendar-alarm-snooze-preset-hours =
+    .label = { $count }시간
+# Variables:
+# $count (Number) - The number of days to snooze.
+calendar-alarm-snooze-preset-days =
+    .label = { $count }일
 # LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
 # This string is not visible in the UI. It is read by screen readers when the
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.

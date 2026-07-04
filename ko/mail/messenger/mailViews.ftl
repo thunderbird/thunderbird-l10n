@@ -5,4 +5,5 @@
 mail-view-known-people = 주소록에 있는 사람
 mail-view-recent = 최근 메일
 mail-view-last-five-days = 지난 5일간 메일
+mail-view-not-spam = 스팸 아님
 mail-view-has-attachments = 첨부 파일 메일

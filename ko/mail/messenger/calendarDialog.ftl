@@ -69,3 +69,32 @@ calendar-dialog-accept-tentative = 아마도
     .title = 아마도
 calendar-dialog-decline = 불참
     .title = 불참
+calendar-dialog-join-meeting-button = 회의 참가
+calendar-dialog-join-meeting-row-icon =
+    .alt = 회의 참가
+calendar-dialog-attachments-row-icon =
+    .alt = 첨부 파일
+calendar-dialog-attachments-label = 첨부 파일
+calendar-dialog-attachment-link-icon =
+    .alt = 링크된 첨부 파일
+calendar-dialog-attachments-expand-icon =
+    .alt = 모든 첨부 파일 보기
+# Variables:
+#   $count (Number): Number of attachments.
+calendar-dialog-attachments-summary-label = 첨부 파일 { $count }개
+
+## These strings are formatted as a list using Intl.Listformat,
+## resulting for example in "1 attending, 2 maybe, etc.".
+
+# Variables:
+#   $count (Number): Number of guests that responded "attending".
+calendar-dialog-attendee-summary-going = 참적 { $count }명
+# Variables:
+#   $count (Number): Number of guests that responded "maybe".
+calendar-dialog-attendee-summary-maybe = 아마도 { $count }명
+# Variables:
+#   $count (Number): Number of guests that responded "declined".
+calendar-dialog-attendee-summary-declined = 불참 { $count }명
+# Variables:
+#   $count (Number): Number of guests whose response is pending (didn't reply yet).
+calendar-dialog-attendee-summary-pending = 미정 { $count }명
