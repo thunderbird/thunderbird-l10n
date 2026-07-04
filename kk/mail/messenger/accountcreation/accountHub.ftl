@@ -257,6 +257,7 @@ account-hub-config-success-description-exchange = Конфигурация Micro
 account-hub-config-success-description-guess = Конфигурация сервердің жалпы атауларын қолданып көру арқылы табылды.
 account-hub-config-success-description-disk = Конфигурация { -brand-short-name } орнатуында табылды.
 account-hub-config-success-description-isp = Конфигурация эл. пошта провайдерінен табылды.
+account-hub-config-success-description-read-more = Сіз <a data-l10n-name="automated-setup-link">электрондық поштаны автоматты түрде баптаудың қалай жұмыс істейтіні туралы оқи аласыз.</a>
 account-hub-config-success = Конфигурация Mozilla ISPDB ішінен табылды
 account-hub-config-success-exchange = Microsoft Exchange сервері үшін конфигурация табылды
 account-hub-config-success-guess = Конфигурация сервердің жалпы атауларын қолданып көру арқылы табылды

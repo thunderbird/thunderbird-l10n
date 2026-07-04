@@ -138,6 +138,12 @@ adding-opensearch-provider-failed-title = OpenSearchпровайдерін қо�
 # Variables:
 # $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = { $url } үшін OpenSearch провайдерін қосу мүмкін болмады.
+close-to-tray-label =
+    .label = { -brand-short-name } жабылған кезде, оны трейге орналастыру
+    .accesskey = с
+start-in-tray-label =
+    .label = { -brand-short-name } трей ішінде іске қосу
+    .accesskey = с
 minimize-to-tray-label =
     .label = { -brand-short-name } қайырылған кезде, оны трейге орналастыру
     .accesskey = й

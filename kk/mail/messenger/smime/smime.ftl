@@ -12,3 +12,12 @@ configured-cert-ok-sig = Сертификат сынақтан өтті және
 configured-cert-failure-detail = Сертификатты тексеру келесі қатемен сәтсіз аяқталды: { $errorMsg } (Қате коды: { $errorCodeStr })
 # $errorCode A numeric error code
 configured-cert-failure = Сертификатты тексеру { $errorCode } қате кодымен сәтсіз аяқталды
+# $errorMsg A sentence that explains the error.
+# $errorCodeStr A human readable error code, e.g. SEC_ERROR_UNKNOWN_ISSUER
+# Note the initial empty line is necessary to preserve the line breaks.
+configured-cert-failure-use-anyway-detail-v2 =
+    Бұл сертификатта мәселе бар.
+    
+    Сертификатты тексеру келесі қатемен сәтсіз аяқталды: { $errorMsg } (Қате коды: { $errorCodeStr })
+    
+    Сонда да бұл сертификатты пайдаланғыңыз келе ме?

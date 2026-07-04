@@ -5,6 +5,11 @@
 about-update-whats-new = Не жаңалық
 about-dialog-title = { -brand-full-name } туралы
 release-notes-link = Шығарылым ескертпесі
+# This describes the codename logo shown in the About Thunderbird dialog for the current annual release.
+# Do not translate: Meadow
+about-dialog-meadow-logo =
+    .alt = { -brand-short-name } Meadow кодтық атауының таңбашасы
+    .title = { -brand-short-name } - кодтық атауы Meadow
 update-internal-error = Ішкі қатеге байланысты жаңартуларды тексеру мүмкін емес. Жаңартулар <a data-l10n-name="manual-link"/> адресі бойынша қолжетімді
 update-check-for-updates-button = Жаңартуларды тексеру
     .accesskey = к
