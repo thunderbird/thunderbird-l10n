@@ -5,6 +5,11 @@
 about-update-whats-new = Yeni neler var?
 about-dialog-title = { -brand-full-name } hakkında
 release-notes-link = Sürüm notları
+# This describes the codename logo shown in the About Thunderbird dialog for the current annual release.
+# Do not translate: Meadow
+about-dialog-meadow-logo =
+    .alt = { -brand-short-name } kod adı Meadow rozeti
+    .title = { -brand-short-name } - Kod adı Meadow
 update-internal-error = Dahili bir hata nedeniyle güncellemeler kontrol edilemiyor. Güncellemeleri <a data-l10n-name="manual-link"/> adresinde bulabilirsiniz.
 update-check-for-updates-button = Güncellemeleri denetle
     .accesskey = G

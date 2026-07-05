@@ -138,6 +138,12 @@ adding-opensearch-provider-failed-title = OpenSearch sağlayıcısı ekleme baş
 # Variables:
 # $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = { $url } için OpenSearch sağlayıcısı eklenemedi.
+close-to-tray-label =
+    .label = { -brand-short-name } kapatıldığında sistem tepsisine taşı
+    .accesskey = k
+start-in-tray-label =
+    .label = { -brand-short-name }’ü sistem tepsisinde başlat
+    .accesskey = s
 minimize-to-tray-label =
     .label = { -brand-short-name } simge durumuna küçültüldüğünde sistem tepsisine taşı
     .accesskey = m
