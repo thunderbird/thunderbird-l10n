@@ -138,6 +138,12 @@ adding-opensearch-provider-failed-title = Thêm nhà cung cấp OpenSearch khôn
 # Variables:
 # $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = Không thể thêm nhà cung cấp OpenSearch cho { $url }.
+close-to-tray-label =
+    .label = Khi đóng { -brand-short-name }, thu nhỏ vào khay hệ thống
+    .accesskey = c
+start-in-tray-label =
+    .label = Khởi chạy { -brand-short-name } trong khay hệ thống
+    .accesskey = S
 minimize-to-tray-label =
     .label = Khi { -brand-short-name } đã thu nhỏ, di chuyển nó vào khay
     .accesskey = m
