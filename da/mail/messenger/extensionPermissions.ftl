@@ -25,6 +25,7 @@ webext-perms-description-messagesMove = Kopiere eller flytte dine mails (herunde
 webext-perms-description-messagesDelete = Permanent slette dine mails
 webext-perms-description-messagesRead2 = Læse dine mails
 webext-perms-description-messagesUpdate = Skifte egenskaber og mærkater for dine mails
+webext-perms-description-messages-save = Gemme meddelelser som kladder eller skabeloner automatisk uden din indblanding.
 webext-perms-description-messagesTags = Oprette, ændre og slette meddelelsesmærkater
 webext-perms-description-messagesTagsList = Opliste meddelelsesmærkater
 webext-perms-description-sensitiveDataUpload = Overføre følsomme brugerdata (hvis der er givet tilladelse til at gøre det) til en ekstern server for yderligere behandling

@@ -135,6 +135,12 @@ adding-opensearch-provider-failed-title = Tilføjelse af OpenSearch-udbyder misl
 # Variables:
 # $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = Kunne ikke tilføje OpenSearch-udbyder for { $url }.
+close-to-tray-label =
+    .label = Flyt til systembakken, når { -brand-short-name } lukkes
+    .accesskey = l
+start-in-tray-label =
+    .label = Start { -brand-short-name } i systembakken
+    .accesskey = S
 minimize-to-tray-label =
     .label = Flyt { -brand-short-name } til systembakken, når programmet minimeres
     .accesskey = m

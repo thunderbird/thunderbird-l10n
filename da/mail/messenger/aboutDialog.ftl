@@ -5,6 +5,11 @@
 about-update-whats-new = Nyheder
 about-dialog-title = Om { -brand-full-name }
 release-notes-link = Udgivelsesnoter
+# This describes the codename logo shown in the About Thunderbird dialog for the current annual release.
+# Do not translate: Meadow
+about-dialog-meadow-logo =
+    .alt = { -brand-short-name } kodenavn Meadow-badge
+    .title = { -brand-short-name } - Kodenavn Meadow
 update-internal-error = Kunne ikke tjekke for opdateringer på grund af en intern fejl. Du kan finder opdateringer her: <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Søg efter opdateringer
     .accesskey = S
