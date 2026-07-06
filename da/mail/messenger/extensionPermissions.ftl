@@ -25,6 +25,7 @@ webext-perms-description-messagesMove = Kopiere eller flytte dine mails (herunde
 webext-perms-description-messagesDelete = Permanent slette dine mails
 webext-perms-description-messagesRead2 = Læse dine mails
 webext-perms-description-messagesUpdate = Skifte egenskaber og mærkater for dine mails
+webext-perms-description-messages-send = Automatisk masseudsende mails på dine vegne uden nogen visuel feedback. Brug Aktivitetsoversigt til at se udvidelsens afsendelseshistorik.
 webext-perms-description-messages-save = Gemme meddelelser som kladder eller skabeloner automatisk uden din indblanding.
 webext-perms-description-messagesTags = Oprette, ændre og slette meddelelsesmærkater
 webext-perms-description-messagesTagsList = Opliste meddelelsesmærkater

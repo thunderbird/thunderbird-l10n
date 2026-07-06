@@ -12,3 +12,20 @@ configured-cert-ok-sig = Certifikatet har bestået testen og kan bruges til sign
 configured-cert-failure-detail = Certifikatbekræftelsen mislykkedes med følgende fejl: { $errorMsg } (Fejlkode: { $errorCodeStr })
 # $errorCode A numeric error code
 configured-cert-failure = Certifikatbekræftelsen mislykkedes med fejlkoden { $errorCode }
+# $errorMsg A sentence that explains the error.
+# $errorCodeStr A human readable error code, e.g. SEC_ERROR_UNKNOWN_ISSUER
+# Note the initial empty line is necessary to preserve the line breaks.
+configured-cert-failure-use-anyway-detail-v2 =
+    Der er et problem med dette certifikat.
+    
+    Certifikatbekræftelsen mislykkedes med denne fejl: { $errorMsg } (Fejlkode: { $errorCodeStr })
+    
+    Vil du bruge certifikatet alligevel?
+# $errorCode A numeric error code
+# Note the initial empty line is necessary to preserve the line breaks.
+configured-cert-failure-use-anyway-v2 =
+    Der er et problem med dette certifikat.
+    
+    Certifikatbekræftelse mislykkedes med denne fejlkode: { $errorCodeStr }
+    
+    Vil du bruge certifikatet alligevel?
