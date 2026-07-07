@@ -337,6 +337,8 @@ context-menu-decrypt-to-folder2 =
 
 other-action-redirect-msg =
     .label = Uudelleenohjaa
+other-action-copy-message-link =
+    .label = Kopioi viestin linkki
 message-header-delete =
     .label = Poista
     .tooltiptext = Poista tämä viesti
@@ -569,6 +571,7 @@ header-spam-button =
 mark-as-read-action = Merkitse luetuksi
 delete-action = Poista
 mark-as-spam-action = Merkitse roskapostiksi
+archive-action = Arkistoi
 
 ## Message list.
 
