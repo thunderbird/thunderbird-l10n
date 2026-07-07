@@ -253,6 +253,8 @@ menu-move-copy-favorites =
     .accesskey = o
 menu-move-copy-no-recent =
     .label = (Ei viimeaikaisia kohteita)
+menu-move-copy-no-favorites =
+    .label = (Ei suosikkeja)
 
 ## AppMenu
 

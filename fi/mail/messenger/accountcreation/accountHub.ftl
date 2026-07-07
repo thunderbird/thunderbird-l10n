@@ -248,6 +248,10 @@ account-hub-result-ews-text = Palvelin
 account-hub-result-recommended-label = Suositeltu
 account-hub-result-addon-label = Vaatii lisäosan
 account-hub-edit-configuration = Muokkaa asetuksia
+account-hub-config-success-title = Tilin asetukset löytyivät automaattisesti.
+account-hub-config-success-description-db = Kokoonpanon määritys löytyi Mozillan ISP-tietokannasta.
+account-hub-config-success-description-exchange = Kokoonpanon määritykset löydettiin Microsoft Exchange -palvelimelle.
+account-hub-config-success-description-read-more = Voit <a data-l10n-name="automated-setup-link">lukea lisää siitä, miten automaattinen sähköpostin määritys toimii.</a>
 account-hub-config-success = Kokoonpanon määritys löytyi Mozillan ISP-tietokannasta
 account-hub-config-success-exchange = Kokoonpanon määritykset löydettiin Microsoft Exchange -palvelimelle
 account-hub-config-success-disk = Kokoonpanon määritys löytyi { -brand-short-name }-asennuksesta
