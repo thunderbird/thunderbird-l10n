@@ -437,7 +437,7 @@ spaces-customize-accent-background-color = Color de fondo del botón seleccionad
 # The icon color used on the buttons of the spaces toolbar when they are
 # `current`, meaning the related space/tab is active and visible.
 spaces-customize-accent-text-color = Color del botón seleccionado
-spaces-customize-button-restore = Restaurar predeterminados
+spaces-customize-button-restore = Restaurar valores predeterminados
     .accesskey = R
 customize-panel-button-save = Hecho
     .accesskey = D
