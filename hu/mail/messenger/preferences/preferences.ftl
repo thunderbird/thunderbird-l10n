@@ -138,6 +138,12 @@ adding-opensearch-provider-failed-title = Az OpenSearch szolgáltató hozzáadá
 # Variables:
 # $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = A cím alapján nem adható hozzá OpenSearch szolgáltató: { $url }.
+close-to-tray-label =
+    .label = Ha a { -brand-short-name } be van zárva, áthelyezés a tálcára
+    .accesskey = b
+start-in-tray-label =
+    .label = A { -brand-short-name } indítása a tálcán
+    .accesskey = i
 minimize-to-tray-label =
     .label = Ha a { -brand-short-name } minimalizálva van, áthelyezés a tálcára
     .accesskey = m
