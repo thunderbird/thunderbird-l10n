@@ -277,7 +277,7 @@ account-hub-deselect-all = Deselectează tot
 account-hub-sync-accounts-selected =
     { $count ->
         [one] { $count } selectat
-       *[other] { $count } selected
+       *[other] { $count } selectate
     }
 account-hub-no-address-books = Nu au fost găsite agende de contacte
 account-hub-no-calendars = Nu s-au găsit calendare
