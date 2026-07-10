@@ -1001,7 +1001,7 @@ qr-export-scan-progress =
 qr-export-scan-description =
     { $count ->
         [one] Scanează codul QR cu { -brand-product-name } pe dispozitivul mobil
-       *[other] Scanează codul QR cu { -brand-product-name } pe dispozitivul mobil
+       *[other] Scanează coduri QR cu { -brand-product-name } pe dispozitivul mobil
     }
 qr-export-scan-step1 = Deschide { -brand-product-name } pe dispozitivul mobil
 qr-export-scan-step2 = Mergi la setări
