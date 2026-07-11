@@ -138,6 +138,12 @@ adding-opensearch-provider-failed-title = Додавање OpenSearch добав
 # Variables:
 # $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = Није могуће додати OpenSearch добављача за { $url }.
+close-to-tray-label =
+    .label = Када се { -brand-short-name } затвори, преместите га у системску касету
+    .accesskey = з
+start-in-tray-label =
+    .label = Покрените { -brand-short-name } у системској касети
+    .accesskey = к
 minimize-to-tray-label =
     .label = Када је { -brand-short-name } минимизиран, помери исти у алатну траку
     .accesskey = м

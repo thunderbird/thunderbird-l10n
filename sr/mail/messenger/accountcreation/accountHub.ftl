@@ -252,6 +252,12 @@ account-hub-result-recommended-label = Препоручено
 account-hub-result-addon-label = Захтева додатак
 account-hub-edit-configuration = Уреди подешавање
 account-hub-config-success-title = Подешавања налога су самостално пронађена.
+account-hub-config-success-description-db = Подешавање пронађено у Mozilla ISPDB-у.
+account-hub-config-success-description-exchange = Пронађено је подешавање за Microsoft Exchange сервер.
+account-hub-config-success-description-guess = Пронађено је подешавање испробавањем уобичајених имена сервера.
+account-hub-config-success-description-disk = Подешавање пронађено у инсталацији { -brand-short-name }-а.
+account-hub-config-success-description-isp = Подешавање пронађено код пружаоца е-поште.
+account-hub-config-success-description-read-more = Можете <a data-l10n-name="automated-setup-link">прочитати о томе како ради самостално подешавање е-поште.</a>
 account-hub-config-success = Подешавање је пронађено у Mozilla ISPDB-у
 account-hub-config-success-exchange = Пронађено је подешавање за Microsoft Exchange сервер
 account-hub-config-success-guess = Пронађено је подешавање испробавањем уобичајених имена сервера
