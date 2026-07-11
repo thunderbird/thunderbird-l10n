@@ -104,3 +104,30 @@ extension-send-activity-event =
         [few] Додатак „{ $extensionName }“ је послао више порука без надзора
        *[other] Додатак „{ $extensionName }“ је послао више порука без надзора
     }
+# Status line shown under extension-send-activity-event. Reports how many
+# messages were sent and the wall-clock time between the first and last send in
+# the batch (rounded to whole seconds, at least one).
+# Variables:
+#   $count (Number) - number of messages sent in this batch
+#   $seconds (Number) - elapsed seconds between the first and last send
+extension-send-activity-event-status =
+    { $count ->
+        [one]
+            { $seconds ->
+                [one] { $count } порука за { $seconds } секунду
+                [few] { $count } порука за { $seconds } секунде
+               *[other] { $count } порука за { $seconds } секунди
+            }
+        [few]
+            { $seconds ->
+                [one] { $count } поруке за { $seconds } секунду
+                [few] { $count } поруке за { $seconds } секунде
+               *[other] { $count } поруке за { $seconds } секунди
+            }
+       *[other]
+            { $seconds ->
+                [one] { $count } порука за { $seconds } секунду
+                [few] { $count } порука за { $seconds } секунде
+               *[other] { $count } порука за { $seconds } секунди
+            }
+    }
