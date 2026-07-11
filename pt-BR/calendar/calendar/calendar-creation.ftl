@@ -4,6 +4,7 @@
 
 select-all-calendars = Selecionar todas
 select-none-calendars = Não selecionar nenhuma
+calendar-creation-dialog-title = Adicionar agenda
 calendar-creation-initial-description = Sua agenda pode ser armazenada no seu computador, ou em um servidor para poder acessar remotamente e compartilhar com seus colegas ou amigos.
 calendar-creation-initial-computer =
     .label = No meu computador
