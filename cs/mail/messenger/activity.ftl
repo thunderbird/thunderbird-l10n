@@ -77,6 +77,12 @@ gloda-indexed-folder-status =
         [few] uplynuly { $count } sekundy
        *[other] uplynulo { $count } sekund
     }
+# Display line of the live Activity Manager process shown while a WebExtension
+# is actively sending messages via messages.sendMessage(). The running count is
+# shown in the status line below.
+# Variables:
+#   $extensionName (String) - the extension's name
+extension-send-activity-live = Rozšíření “{ $extensionName }” odesílá automatické zprávy.
 # Status line shown under extension-send-activity-live, updated after every send.
 # Variables:
 #   $count (Number) - number of messages sent so far in this batch

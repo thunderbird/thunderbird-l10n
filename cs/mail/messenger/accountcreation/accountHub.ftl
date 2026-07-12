@@ -246,6 +246,7 @@ account-hub-notification-show-less = Zobrazit méně
 account-hub-email-setup-header = Přidat vaši e-mailovou adresu
 account-hub-email-setup-incoming = Nastavení příchozího serveru
 account-hub-email-setup-outgoing = Nastavení odchozího serveru
+account-hub-email-connect-settings = Připojit vaše nastavení e-mailu
 account-hub-email-config-found = Vyberte si typ poštovního účtu
 account-hub-email-enter-password = Zadejte heslo k poštovnímu účtu
 account-hub-email-sync-accounts = Synchronizace kalendářů a kontaktů
@@ -268,7 +269,13 @@ account-hub-config-success-title = Nastavení účtu bylo automaticky nalezeno.
 account-hub-config-success-description-db = Nastavení bylo nalezeno v Mozilla ISPDB.
 account-hub-config-success-description-exchange = Nastavení pro server Microsoft Exchange nalezeno.
 account-hub-config-success-description-guess = Testováním obvyklých názvů serverů bylo nalezeno následující nastavení:
+account-hub-config-success-description-disk =
+    { -brand-short-name.case-status ->
+        [with-cases] Konfigurace byla nalezena v instalaci { -brand-short-name(case: "gen") }.
+       *[no-cases] Konfigurace byla nalezena v instalaci aplikace { -brand-short-name }.
+    }
 account-hub-config-success-description-isp = U poskytovatele e-mailu bylo nalezeno následující nastavení.
+account-hub-config-success-description-read-more = Můžete si <a data-l10n-name="automated-setup-link">přečíst, jak funguje automatické nastavení e-mailu.</a>
 account-hub-config-success = Nastavení bylo nalezeno v Mozilla ISPDB
 account-hub-config-success-exchange = Nastavení pro server Microsoft Exchange nalezeno
 account-hub-config-success-guess = Testováním obvyklých jmen serverů bylo nalezeno následující nastavení
