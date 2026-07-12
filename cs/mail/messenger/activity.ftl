@@ -93,3 +93,16 @@ extension-send-activity-progress =
         [many] Odesláno { $count } zpráv
        *[other] Odesláno { $count } zpráv
     }
+# Permanent Activity Manager entry written when the live send process is
+# finalized, 10 seconds after the last send in a batch. The count and elapsed
+# time are carried in the status line below (extension-send-activity-event-status).
+# Variables:
+#   $extensionName (String) - the extension's name
+#   $count (Number) - number of messages sent in this batch
+extension-send-activity-event =
+    { $count ->
+        [one] Rozšíření “{ $extensionName }” odesílá automatickou zprávu
+        [few] Rozšíření “{ $extensionName }” odesílá více automatických zpráv
+        [many] Rozšíření “{ $extensionName }” odesílá více automatických zpráv
+       *[other] Rozšíření “{ $extensionName }” odesílá 0 automatických zpráv
+    }
