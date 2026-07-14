@@ -12,3 +12,20 @@ configured-cert-ok-sig = Certifikát prošel testem a může být použit pro po
 configured-cert-failure-detail = Ověření certifikátu selhalo s následující chybou: { $errorMsg } (kód chyby: { $errorCodeStr })
 # $errorCode A numeric error code
 configured-cert-failure = Ověření certifikátu selhalo s kódem chyby { $errorCode }
+# $errorMsg A sentence that explains the error.
+# $errorCodeStr A human readable error code, e.g. SEC_ERROR_UNKNOWN_ISSUER
+# Note the initial empty line is necessary to preserve the line breaks.
+configured-cert-failure-use-anyway-detail-v2 =
+    S tímto certifikátem je problém.
+    
+    Ověření certifikátu selhalo s následující chybou: { $errorMsg } (Kód chyby: { $errorCodeStr })
+    
+    Chcete tento certifikát přesto použít?
+# $errorCode A numeric error code
+# Note the initial empty line is necessary to preserve the line breaks.
+configured-cert-failure-use-anyway-v2 =
+    S tímto certifikátem je problém.
+    
+    Ověření certifikátu selhalo s chybovým kódem { $errorCode }.
+    
+    Chcete tento certifikát přesto použít?

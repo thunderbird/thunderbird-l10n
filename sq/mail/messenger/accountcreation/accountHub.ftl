@@ -80,7 +80,7 @@ account-hub-ssl-cleartext-password-option =
 account-hub-ssl-encrypted-password-option =
     .label = Fjalëkalim i fshehtëzuar
 
-## Incoming/Outgoing connection security options
+## Other Account Hub strings (sadly not sorted into sections)
 
 account-hub-ssl-noencryption-option =
     .label = Asnjë

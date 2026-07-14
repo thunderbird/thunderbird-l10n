@@ -50,6 +50,7 @@ account-hub-email-finish-button = Finir
 account-hub-email-manually-configure-button = Configurar manualmente
 account-hub-email-continue-button = Continuar
 account-hub-email-confirm-button = Confirmar
+account-hub-result-incoming-legend = Entrante
 account-hub-result-outgoing-legend = Exiente
 account-hub-all-servers-legend = Tote le servitores
 account-hub-incoming-server-legend = Servitor de arrivata
@@ -108,7 +109,7 @@ account-hub-ssl-cleartext-password-option =
 account-hub-ssl-encrypted-password-option =
     .label = Contrasigno cryptate
 
-## Incoming/Outgoing connection security options
+## Other Account Hub strings (sadly not sorted into sections)
 
 account-hub-ssl-noencryption-option =
     .label = Nulle

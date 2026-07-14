@@ -11,7 +11,7 @@
 
 account-hub-email-cancel-button = បោះបង់
 
-## Incoming/Outgoing connection security options
+## Other Account Hub strings (sadly not sorted into sections)
 
 account-hub-password-label = ពាក្យ​សម្ងាត់
     .accesskey = P

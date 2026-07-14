@@ -30,7 +30,7 @@ account-hub-address-book-setup-button = Adresų knyga
 account-hub-chat-setup-button = Pokalbiai
     .title = Sukurti pokalbių paskyrą
 
-## Incoming/Outgoing connection security options
+## Other Account Hub strings (sadly not sorted into sections)
 
 account-hub-email-label = Elektroninio pašto adresas
     .accesskey = E

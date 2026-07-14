@@ -7,7 +7,7 @@
 ### Account hub is where user can setup new accounts in Thunderbird.
 
 
-## Incoming/Outgoing connection security options
+## Other Account Hub strings (sadly not sorted into sections)
 
 account-hub-name-warning-icon =
     .title = Խնդրում ենք մուտքագրել Ձեր անունը

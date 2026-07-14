@@ -9,6 +9,11 @@ about-dialog-title =
        *[no-cases] O aplikaci { -brand-full-name }
     }
 release-notes-link = Poznámky k vydání
+# This describes the codename logo shown in the About Thunderbird dialog for the current annual release.
+# Do not translate: Meadow
+about-dialog-meadow-logo =
+    .alt = Odznak { -brand-short-name(case: "gen") } s kódovým označením Meadow
+    .title = { -brand-short-name } - kódové označení Meadow
 update-internal-error = Aktualizace se nepodařilo zkontrolovat kvůli vnitřní chybě. Aktualizace najdete na adrese <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Zkontrolovat aktualizace
     .accesskey = Z

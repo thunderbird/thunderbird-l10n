@@ -24,7 +24,7 @@ account-hub-result-authentication-external = חיצוני
 account-hub-result-authentication-oauth2 = OAuth2
     .title = OAuth2
 
-## Incoming/Outgoing connection security options
+## Other Account Hub strings (sadly not sorted into sections)
 
 account-hub-name-warning-icon =
     .title = נא להכניס את השם שלך

@@ -45,7 +45,7 @@ account-hub-email-back-button = Air ais
 account-hub-email-continue-button = Lean air adhart
 account-hub-email-confirm-button = Dearbh
 
-## Incoming/Outgoing connection security options
+## Other Account Hub strings (sadly not sorted into sections)
 
 account-hub-name-warning-icon =
     .title = Cuir a-steach d’ ainm

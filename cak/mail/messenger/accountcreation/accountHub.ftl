@@ -30,7 +30,7 @@ account-hub-email-back-button = Chi rij
 account-hub-email-continue-button = Titikïr chik el
 account-hub-email-confirm-button = Tijikib'äx
 
-## Incoming/Outgoing connection security options
+## Other Account Hub strings (sadly not sorted into sections)
 
 account-hub-name-warning-icon =
     .title = Tatz'ib'aj ab'i'
