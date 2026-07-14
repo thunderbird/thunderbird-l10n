@@ -18,7 +18,7 @@ virtual-folder-no-search-folders-selected = Pre priečinky uloženého hľadania
 virtual-folder-properties-title = Nový priečinok vyhľadávania
 # Variables:
 #   $folderName (String): The name of the saved search folder.
-virtual-folder-properties-edit-title = Upraviť vlastnosti uloženého hľadania pre { $folderName }
+virtual-folder-properties-edit-title = Upraviť vlastnosti uloženého vyhľadávania pre { $folderName }
 virtual-folder-name = Názov:
     .accesskey = N
 virtual-folder-description = Vytvoriť ako podpriečinok v:
