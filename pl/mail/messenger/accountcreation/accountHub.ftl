@@ -371,5 +371,7 @@ account-hub-exchange-type-username-hint = Zazwyczaj jest to adres e-mail lub naz
 account-hub-exchange-type-authentication = Metoda uwierzytelniania
 # Checkbox that can be unchecked to use a custom OAuth config.
 account-hub-exchange-type-default-oauth = Użyj domyślnych ustawień uwierzytelniania usługi Microsoft 365 Copilot
+account-hub-exchange-type-oauth-tenant = Identyfikator dzierżawy
+account-hub-exchange-type-oauth-app = Identyfikator aplikacji
 account-hub-exchange-type-advanced-config = Konfiguracja zaawansowana
 account-hub-exchange-type-title = Wybierz typ konta
