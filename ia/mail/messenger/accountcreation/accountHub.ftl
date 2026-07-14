@@ -228,16 +228,24 @@ account-hub-calendars-button = Agendas
 account-hub-thundermail-button = Acceder con Thundermail
 # Used as part of a divider between sign in button and a sign in form.
 account-hub-thundermail-divider-text = o
+account-hub-manual-config-imap-title = Configurationes de IMAP
+account-hub-manual-config-pop3-title = Configurationes de POP3
 account-hub-manual-config-incoming-legend = Servitor de arrivata
 account-hub-manual-config-outgoing-legend = Servitor in exito
+# Label for checkbox that will hide an outgoing username input if it's the same is the incoming
+account-hub-same-username-checkbox = Mesme nomine de usator que le servitor de arrivata
 account-hub-protocol-imap = Synchronisar inter apparatos
 account-hub-protocol-microsoft = Exchange o Microsoft 365
+account-hub-protocol-pop3 = Discargar a apparato
 account-hub-notification-show-more = Monstrar plus
 account-hub-notification-show-less = Monstrar minus
 account-hub-email-setup-header = Adde tu adresse email
 account-hub-email-setup-incoming = Parametros de servitor in arrivata
 account-hub-email-setup-outgoing = Parametros de servitor in exito
+account-hub-email-exchange-settings = Configurationes de Exchange
 account-hub-email-connect-settings = Connecte tu configurationes de e-mail
+account-hub-email-protocol-select-header = Elige un typo de conto e-mail
+account-hub-email-protocol-select-notification = Information additional es necesse pro configurar iste conto
 account-hub-email-config-found = Selige tu typo de conto email
 account-hub-email-enter-password = Insere le contrasigno de tu conto email
 account-hub-email-sync-accounts = Synchronisa tu agendas e libros de adresses
@@ -247,6 +255,8 @@ account-hub-result-imap-description = Mantener tu dossiers e messages synchronis
 account-hub-result-pop-description = Mantene tu plicas e emails sur tu computator
 account-hub-result-ews-shortname = Excambiar
 account-hub-result-ews-description = Usae Microsoft Exchange Web Services pro synchronisar tu plicas e emails
+account-hub-result-graph-api-shortname = API Microsoft Graph
+account-hub-result-graph-api-description = Usa le API Microsoft Graph pro synchronisar tu plicas e e-mails con Microsoft 365
 account-hub-result-graph-shortname = Exchange (Graph)
 account-hub-result-graph-description = Usa le API de Microsoft Graph pro synchronisar plicas e e-mails
 account-hub-result-exchange-description = Synchronisar le plicas e le messages con Exchange o Office 365
@@ -307,6 +317,8 @@ account-hub-add-address-book = Adder un libro de adresses
 address-book-sync-existing-icon =
     .alt = Synchronisar un libro de adresses ab un conto existente
 address-book-sync-existing = Synchronisar ab un conto existente
+address-book-add-remote-icon2 =
+    .alt = Adder a libro de adresses remote
 address-book-add-remote-icon =
     .alt = Adder un nove libro de adresses remote
 address-book-add-remote = Adder libro de adresses remote
@@ -316,6 +328,9 @@ address-book-add-local-icon =
     .alt = Crear un nove libro de adresses local
 address-book-add-local = Nove libro de adresses local
 address-book-add-local-description = Crear un nove libro de adresses local sur tu apparato
+address-book-add-ldap-icon2 =
+    .alt = Adder un libro del adresses LDAP
+address-book-add-ldap-button = Adder libro del adresses LDAP
 address-book-add-ldap-icon =
     .alt = Connecter se a un libro de adresses LDAP remote
 address-book-add-ldap = Nove libro del adresses LDAP
@@ -342,6 +357,20 @@ account-hub-new-remote-address-book = Nove libro de adresses remote
 
 ## Exchange Type Manual Config Step
 
+account-hub-exchange-type-account-type = Typo de conto
+account-hub-card-graph-title = Microsoft Graph
+account-hub-card-graph-description = Microsoft Graph es un moderne methodo de connexion pro Microsoft 365.
 account-hub-card-ews-title = Exchange Web Services
+account-hub-card-ews-tag = Ancian
+account-hub-card-ews-description = Exchange Web Services (EWS) se connecte a Microsoft Exchange pro synchronisar tu posta.
+# This is shown after the type description, so "it" is referring to the type (either Microsoft Graph or Exchange Web Services).
+account-hub-card-recommended-description = Illo es recommendate perque illo concorda con le URL de tu servicio.
 account-hub-exchange-type-username = Nomine de usator
+account-hub-exchange-type-username-hint = Typicamente tu adresse de e-mail o Directorio UPN active.
 account-hub-exchange-type-authentication = Methodo de authentication
+# Checkbox that can be unchecked to use a custom OAuth config.
+account-hub-exchange-type-default-oauth = Usar configurationes de authentication predefinite pro Copilot de Microsoft 365
+account-hub-exchange-type-oauth-tenant = ID tenant
+account-hub-exchange-type-oauth-app = ID del application
+account-hub-exchange-type-advanced-config = Configuration avantiate
+account-hub-exchange-type-title = Eliger un typo de conto
