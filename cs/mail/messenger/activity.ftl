@@ -106,3 +106,40 @@ extension-send-activity-event =
         [many] Rozšíření “{ $extensionName }” odesílá více automatických zpráv
        *[other] Rozšíření “{ $extensionName }” odesílá 0 automatických zpráv
     }
+# Status line shown under extension-send-activity-event. Reports how many
+# messages were sent and the wall-clock time between the first and last send in
+# the batch (rounded to whole seconds, at least one).
+# Variables:
+#   $count (Number) - number of messages sent in this batch
+#   $seconds (Number) - elapsed seconds between the first and last send
+extension-send-activity-event-status =
+    { $count ->
+        [one]
+            { $seconds ->
+                [one] { $count } zpráva za { $seconds } sekundu
+                [few] { $count } zpráva za { $seconds } sekundy
+                [many] { $count } zpráva za { $seconds } sekund
+               *[other] { $count } zpráva za { $seconds } sekund
+            }
+        [few]
+            { $seconds ->
+                [one] { $count } zprávy za { $seconds } sekundu
+                [few] { $count } zprávy za { $seconds } sekundy
+                [many] { $count } zprávy za { $seconds } sekund
+               *[other] { $count } zprávy za { $seconds } sekund
+            }
+        [many]
+            { $seconds ->
+                [one] { $count } zpráv za { $seconds } sekundu
+                [few] { $count } zpráv za { $seconds } sekundy
+                [many] { $count } zpráv za { $seconds } sekund
+               *[other] { $count } zpráv za { $seconds } sekund
+            }
+       *[other]
+            { $seconds ->
+                [one] { $count } zpráv za { $seconds } sekundu
+                [few] { $count } zpráv za { $seconds } sekundy
+                [many] { $count } zpráv za { $seconds } sekund
+               *[other] { $count } zpráv za { $seconds } sekund
+            }
+    }

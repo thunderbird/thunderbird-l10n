@@ -359,6 +359,7 @@ account-hub-card-graph-description = Microsoft Graph er ein moderne måte å kop
 account-hub-card-ews-title = Exchange-webtenester
 account-hub-exchange-type-username = Brukarnamn
 account-hub-exchange-type-authentication = Autentiseringsmåte
+account-hub-exchange-type-oauth-tenant = Tenant ID
 account-hub-exchange-type-oauth-app = App ID
 account-hub-exchange-type-advanced-config = Avanserte innstillingar
 account-hub-exchange-type-title = Vel ein kontotype
