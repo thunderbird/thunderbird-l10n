@@ -355,6 +355,8 @@ account-hub-new-remote-address-book = Ny ekstern adressebok
 
 account-hub-exchange-type-account-type = Kontotype
 account-hub-card-graph-title = Microsoft Graph
+account-hub-card-graph-description = Microsoft Graph er ein moderne måte å kople til Microsoft 365 på.
+account-hub-card-ews-title = Exchange-webtenester
 account-hub-exchange-type-username = Brukarnamn
 account-hub-exchange-type-authentication = Autentiseringsmåte
 account-hub-exchange-type-oauth-app = App ID
