@@ -70,8 +70,8 @@ menu-quit-mac =
     .label = Ukončiť { -brand-shorter-name(case: "acc") }
 system-tray-menuitem-quit =
     { PLATFORM() ->
-        [windows] Ukončiť { -brand-full-name }
-       *[other] Ukončiť { -brand-full-name }
+        [windows] Ukončiť { -brand-full-name(case: "acc") }
+       *[other] Ukončiť { -brand-full-name(case: "acc") }
     }
 system-tray-menu-quit =
     .label =
