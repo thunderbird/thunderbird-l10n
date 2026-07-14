@@ -363,6 +363,7 @@ account-hub-exchange-type-account-type = Typ konta
 account-hub-card-graph-title = Microsoft Graph
 account-hub-card-graph-description = Microsoft Graph to nowoczesna metoda łączenia się z usługą Microsoft 365.
 account-hub-card-ews-title = Exchange Web Services
+account-hub-card-ews-tag = Przestarzałe
 account-hub-card-ews-description = Exchange Web Services (EWS) łączy się z serwerem Microsoft Exchange w celu synchronizacji poczty.
 # This is shown after the type description, so "it" is referring to the type (either Microsoft Graph or Exchange Web Services).
 account-hub-card-recommended-description = Zalecane, ponieważ pasuje do adresu URL usługi.
