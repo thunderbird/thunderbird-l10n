@@ -49,7 +49,7 @@ account-hub-email-retest-button = Retester
 account-hub-email-finish-button = Terminer
 account-hub-email-manually-configure-button = Configurer manuellement
 account-hub-email-continue-button = Continuer
-account-hub-email-set-up-account-button = Créer un compte
+account-hub-email-set-up-account-button = Configurer un compte
 account-hub-email-confirm-button = Confirmer
 account-hub-email-find-settings-button = Trouver les paramètres
 account-hub-result-incoming-legend = Serveur entrant
@@ -373,7 +373,7 @@ account-hub-exchange-type-account-type = Type de compte
 account-hub-card-graph-title = Microsoft Graph
 account-hub-card-graph-description = Microsoft Graph est un moyen de connexion moderne conçu pour Microsoft 365.
 account-hub-card-ews-title = Exchange Web Services
-account-hub-card-ews-tag = Obsolètes
+account-hub-card-ews-tag = Obsolète
 account-hub-card-ews-description = Les services web Exchange (EWS) se connectent à Microsoft Exchange pour synchroniser vos messages.
 # This is shown after the type description, so "it" is referring to the type (either Microsoft Graph or Exchange Web Services).
 account-hub-card-recommended-description = Cette adresse est recommandée, car elle correspond à l'URL de votre service.
