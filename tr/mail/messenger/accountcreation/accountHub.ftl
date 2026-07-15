@@ -151,6 +151,7 @@ address-book-ldap-duplicate-error = LDAP dizin adı zaten mevcut. Lütfen farkl�
 address-book-ldap-creation-error = LDAP dizini oluşturulamadı.
 account-hub-email-setup-ews = Sunucu ayarları
 account-hub-result-exchange-url-label = Exchange uç nokta adresi
+account-hub-exchange-service-url-label = Hizmetin adresini girin
 account-hub-email-credentials-confirmation = Hesap yapılandırması
 account-hub-result-unknown-hostname = Bilinmeyen sunucu
 account-hub-result-unknown-cert = Doğrulanmamış sertifika
@@ -225,14 +226,22 @@ account-hub-calendars-button = Takvimler
 account-hub-thundermail-button = Thundermail ile giriş yap
 # Used as part of a divider between sign in button and a sign in form.
 account-hub-thundermail-divider-text = veya
+account-hub-manual-config-imap-title = IMAP Ayarları
+account-hub-manual-config-pop3-title = POP3 Ayarları
 account-hub-manual-config-incoming-legend = Gelen sunucusu
 account-hub-manual-config-outgoing-legend = Giden sunucusu
+# Label for checkbox that will hide an outgoing username input if it's the same is the incoming
+account-hub-same-username-checkbox = Gelen sunucusuyla aynı kullanıcı adı
+account-hub-protocol-microsoft = Exchange veya Microsoft 365
+account-hub-protocol-pop3 = Cihaza indir
 account-hub-notification-show-more = Daha fazla göster
 account-hub-notification-show-less = Daha az göster
 account-hub-email-setup-header = E-posta adresinizi ekleyin
 account-hub-email-setup-incoming = Gelen sunucusu ayarları
 account-hub-email-setup-outgoing = Giden sunucusu ayarları
+account-hub-email-exchange-settings = Exchange ayarları
 account-hub-email-connect-settings = E-posta ayarlarınızı bağlayın
+account-hub-email-protocol-select-header = Bir e-posta hesap türü seçin
 account-hub-email-config-found = E-posta hesabınızın türünü seçin
 account-hub-email-enter-password = E-posta hesabınızın parolasını girin
 account-hub-email-sync-accounts = Takvimlerinizi ve adres defterlerinizi eşitleyin
@@ -333,3 +342,8 @@ account-hub-local-address-book-label = Adres defteri adı
 account-hub-local-error-text = Lütfen bir adres defteri adı yazın
 account-hub-sync-address-books = Mevcut adres defterlerini eşitle
 account-hub-new-remote-address-book = Yeni uzak adres defteri
+
+## Exchange Type Manual Config Step
+
+account-hub-exchange-type-advanced-config = Gelişmiş yapılandırma
+account-hub-exchange-type-title = Hesap türü seçin
