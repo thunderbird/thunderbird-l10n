@@ -504,7 +504,7 @@ auto-save-end = minutt
 ##
 
 warn-on-send-accel-key =
-    .label = Stadfest når tastatursnarveg vert brukt for å sende meldingar
+    .label = Stadfest når hurtigtast vert brukt for å sende meldingar
     .accesskey = f
 add-link-previews =
     .label = Legg til førehandsvisning når du limer inn lenker
