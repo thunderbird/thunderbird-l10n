@@ -11,5 +11,5 @@
 <!ENTITY reminder.action.alert.label "In warskôging toane">
 <!ENTITY reminder.action.email.label "Stjoer in e-mail">
 <!ENTITY alarm.units.minutes "minuten">
-<!ENTITY alarm.units.hours "oer">
+<!ENTITY alarm.units.hours "oeren">
 <!ENTITY alarm.units.days "dagen">

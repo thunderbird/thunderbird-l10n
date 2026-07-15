@@ -9,8 +9,8 @@
 <!ENTITY clearTimeDuration.label "Tiidrek om te wiskjen: ">
 <!ENTITY clearTimeDuration.accesskey "T">
 <!ENTITY clearTimeDuration.lastHour "Lêste oer">
-<!ENTITY clearTimeDuration.last2Hours "Lêste twa oer">
-<!ENTITY clearTimeDuration.last4Hours "Lêste fjouwer oer">
+<!ENTITY clearTimeDuration.last2Hours "Lêste twa oeren">
+<!ENTITY clearTimeDuration.last4Hours "Lêste fjouwer oeren">
 <!ENTITY clearTimeDuration.today "Hjoed">
 <!ENTITY clearTimeDuration.everything "Alles">
 <!-- Localization note (clearTimeDuration.suffix) - trailing entity for languages

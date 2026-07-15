@@ -222,8 +222,8 @@
 <!ENTITY event.reminder.15minutes.before.label "15 minuten dêrfoar">
 <!ENTITY event.reminder.30minutes.before.label "30 minuten dêrfoar">
 <!ENTITY event.reminder.1hour.before.label "1 oer dêrfoar">
-<!ENTITY event.reminder.2hours.before.label "2 oer dêrfoar">
-<!ENTITY event.reminder.12hours.before.label "12 oer dêrfoar">
+<!ENTITY event.reminder.2hours.before.label "2 oeren dêrfoar">
+<!ENTITY event.reminder.12hours.before.label "12 oeren dêrfoar">
 <!ENTITY event.reminder.1day.before.label "1 dei dêrfoar">
 <!ENTITY event.reminder.2days.before.label "2 dagen dêrfoar">
 <!ENTITY event.reminder.1week.before.label "1 wike dêrfoar">

@@ -226,7 +226,7 @@
 <!ENTITY calendar.alarm.snooze.30minutes.label "30 minuten">
 <!ENTITY calendar.alarm.snooze.45minutes.label "45 minuten">
 <!ENTITY calendar.alarm.snooze.1hour.label "1 oer">
-<!ENTITY calendar.alarm.snooze.2hours.label "2 oer">
+<!ENTITY calendar.alarm.snooze.2hours.label "2 oeren">
 <!ENTITY calendar.alarm.snooze.1day.label "1 dei">
 <!-- LOCALIZATION NOTE (calendar.alarm.snooze.cancel)
      This string is not seen in the UI, it is read by screen readers when the

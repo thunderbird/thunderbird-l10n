@@ -529,8 +529,8 @@ due-in-days =
 # $count count
 due-in-hours =
     { $count ->
-        [one] { $count } oer
-       *[other] { $count } oer
+        [one] { $count } oere
+       *[other] { $count } oeren
     }
 due-in-less-than-one-hour = < 1 oer
 # LOCALIZATION NOTE (format-date-long):
@@ -614,8 +614,8 @@ event-duration-menuitem-count-minutes =
 # $count (Number) - Number of hours, also used to determine the correct plural form.
 unit-hours =
     { $count ->
-        [one] { $count } oer
-       *[other] { $count } oer
+        [one] { $count } oere
+       *[other] { $count } oeren
     }
 event-duration-menuitem-count-hours =
     .label = { unit-hours }

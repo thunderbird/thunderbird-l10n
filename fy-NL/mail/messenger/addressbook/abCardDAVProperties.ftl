@@ -21,8 +21,8 @@ carddav-refreshinterval-minutes-value =
 carddav-refreshinterval-hours-value =
     .label =
         { $hours ->
-            [one] elk oer
-           *[other] elke { $hours } oer
+            [one] elk oere
+           *[other] elke { $hours } oeren
         }
 carddav-readonly-label =
     .label = Allinnich-lêze
