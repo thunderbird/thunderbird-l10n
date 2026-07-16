@@ -25,7 +25,7 @@
 <!ENTITY buttons.find.accesskey "F">
 <!ENTITY buttons.back.label "Quay lại">
 <!ENTITY buttons.back.accesskey "B">
-<!ENTITY buttons.subscribe.label "Đăng kí">
+<!ENTITY buttons.subscribe.label "Đăng ký">
 <!ENTITY buttons.subscribe.accesskey "S">
 <!ENTITY calendartype.label "Kiểu lịch:">
 <!ENTITY location.label "Địa chỉ:">

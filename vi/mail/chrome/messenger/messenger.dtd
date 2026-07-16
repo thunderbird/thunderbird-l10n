@@ -194,7 +194,7 @@
 <!ENTITY unreadMsgsCmd.accesskey "U">
 <!ENTITY threadsWithUnreadCmd.label "Chủ đề có thư chưa đọc">
 <!ENTITY threadsWithUnreadCmd.accesskey "T">
-<!ENTITY watchedThreadsWithUnreadCmd.label "Chủ đề đã đăng kí có thư chưa đọc">
+<!ENTITY watchedThreadsWithUnreadCmd.label "Chủ đề đã theo dõi có thư chưa đọc">
 <!ENTITY watchedThreadsWithUnreadCmd.accesskey "W">
 <!ENTITY ignoredThreadsCmd.label "Chủ đề đã bỏ qua">
 <!ENTITY ignoredThreadsCmd.accesskey "i">

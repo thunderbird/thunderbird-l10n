@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Subscription Dialog -->
-<!ENTITY feedSubscriptions.label "Nguồn cấp đã đăng kí">
+<!ENTITY feedSubscriptions.label "Nguồn cấp đã theo dõi">
 <!ENTITY learnMore.label "Tìm hiểu thêm về nguồn cấp dữ liệu">
 <!ENTITY feedTitle.label "Tiêu đề:">
 <!ENTITY feedTitle.accesskey "T">

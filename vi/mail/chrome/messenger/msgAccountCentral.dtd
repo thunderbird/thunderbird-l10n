@@ -5,12 +5,12 @@
 <!ENTITY readMsgsLink.label "Thư đã đọc">
 <!ENTITY composeMsgLink.label "Viết thư mới">
 <!ENTITY newsSectionHdr.label "Nhóm tin">
-<!ENTITY subscribeNewsLink.label "Quản lí phần đăng kí nhóm tin">
+<!ENTITY subscribeNewsLink.label "Quản lí phần theo dõi nhóm tin">
 <!ENTITY feedsSectionHdr.label "Nguồn cấp">
-<!ENTITY subscribeFeeds.label "Quản lí đăng kí">
+<!ENTITY subscribeFeeds.label "Quản lí theo dõi">
 <!ENTITY chat.label "Trò chuyện">
 <!ENTITY accountsSectionHdr.label "Tài khoản">
-<!ENTITY subscribeImapFolders.label "Quản lí phần đăng kí thư mục">
+<!ENTITY subscribeImapFolders.label "Quản lí phần theo dõi thư mục">
 <!ENTITY settingsLink.label "Xem cài đặt cho tài khoản này">
 <!ENTITY setupNewAcct.label "Thiết lập một tài khoản:">
 <!ENTITY advFeaturesSectionHdr.label "Tính năng nâng cao">
