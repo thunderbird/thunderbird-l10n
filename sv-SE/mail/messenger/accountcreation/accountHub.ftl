@@ -362,3 +362,12 @@ account-hub-card-graph-title = Microsoft Graph
 account-hub-card-graph-description = Microsoft Graph är en modern anslutningsmetod för Microsoft 365.
 account-hub-card-ews-title = Exchange-webbtjänster
 account-hub-card-ews-description = Exchange Web Services (EWS) ansluter till Microsoft Exchange för att synkronisera din e-post.
+# This is shown after the type description, so "it" is referring to the type (either Microsoft Graph or Exchange Web Services).
+account-hub-card-recommended-description = Det rekommenderas eftersom det matchar din tjänst-URL.
+account-hub-exchange-type-username = Användarnamn
+account-hub-exchange-type-username-hint = Vanligtvis din e-postadress eller Active Directory UPN.
+account-hub-exchange-type-authentication = Autentiseringsmetod
+# Checkbox that can be unchecked to use a custom OAuth config.
+account-hub-exchange-type-default-oauth = Använd Microsoft 365 Copilot standardautentiseringsinställningar
+account-hub-exchange-type-oauth-tenant = Tenant-ID
+account-hub-exchange-type-oauth-app = App-ID
