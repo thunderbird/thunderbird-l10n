@@ -56,7 +56,7 @@ cancel-confirm = Bạn có chắc là bạn muốn hủy thư này?
 
 # Variables:
 # $newsgroup (String) - The name of the newsgroup.
-auto-subscribe-text = Bạn có muốn đăng kí { $newsgroup }?
+auto-subscribe-text = Bạn có muốn theo dõi { $newsgroup }?
 
 ## News Server Credentials
 

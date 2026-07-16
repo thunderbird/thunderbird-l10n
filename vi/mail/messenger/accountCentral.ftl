@@ -46,6 +46,6 @@ read = Đọc thư
 compose = Viết thư mới
 search = Tìm kiếm thư
 filter = Quản lí bộ lọc thư
-nntp-subscription = Quản lí đăng kí nhóm tin
+nntp-subscription = Quản lý phần theo dõi nhóm tin
 rss-subscription = Quản lý đăng ký theo dõi
 e2e = Mã hóa đầu cuối

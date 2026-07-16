@@ -52,7 +52,7 @@
 <!ENTITY getNextNMsgCmd2.accesskey "t">
 <!ENTITY sendUnsentCmd.label "Gửi các thư chưa gửi">
 <!ENTITY sendUnsentCmd.accesskey "d">
-<!ENTITY subscribeCmd.label "Đăng kí…">
+<!ENTITY subscribeCmd.label "Theo dõi…">
 <!ENTITY subscribeCmd.accesskey "b">
 <!ENTITY deleteFolder.label "Xóa thư mục">
 <!ENTITY deleteFolder.accesskey "e">
@@ -791,7 +791,7 @@
 <!ENTITY EditContact1.accesskey "E">
 <!ENTITY ViewContact.label "Xem liên hệ">
 <!ENTITY ViewContact.accesskey "H">
-<!ENTITY SubscribeToNewsgroup.label "Đăng kí theo dõi nhóm tin">
+<!ENTITY SubscribeToNewsgroup.label "Theo dõi theo dõi nhóm tin">
 <!ENTITY SubscribeToNewsgroup.accesskey "N">
 <!ENTITY SendMessageTo.label "Soạn thư đến">
 <!ENTITY SendMessageTo.accesskey "S">

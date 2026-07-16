@@ -4,7 +4,7 @@
 
 # Variables:
 #   $count - number of feeds
-subscribe-opml-import-unique-feeds = Đã nhập { $count } nguồn cấp mới mà bạn chưa từng đăng kí
+subscribe-opml-import-unique-feeds = Đã nhập { $count } nguồn cấp mới mà bạn chưa từng theo dõi
 # Variables:
 #   $count - total number of elements found in the file
 subscribe-opml-import-found-feeds = (trong { $count } mục được tìm thấy)
