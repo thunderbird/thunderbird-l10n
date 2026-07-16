@@ -73,6 +73,9 @@ openpgp-key-man-generate =
 openpgp-key-man-gen-revoke =
     .label = Chứng nhận thu hồi
     .accesskey = R
+openpgp-key-man-gen-revocation =
+    .label = Lưu chứng thư thu hồi vào tập tin
+    .accesskey = C
 openpgp-key-man-file-menu =
     .label = Tập tin
     .accesskey = F
@@ -596,6 +599,7 @@ key-trust-group = (nhóm)
 ## Strings used in commonWorkflows.js
 
 import-key-file = Nhập tập tin khóa OpenPGP
+import-rev-file = Nhập Tập tin thu hồi OpenPGP
 gnupg-file = Tập tin GnuPG
 import-keys-failed = Nhập khóa không thành công
 # Variables:
@@ -613,6 +617,9 @@ file-to-big-to-import = Tập tin này quá lớn. Vui lòng không nhập một
 
 ## Strings used in enigmailKeygen.js
 
+save-revoke-cert-as = Tạo & lưu chứng thư thu hồi
+revoke-cert-ok = Chứng thư thu hồi đã được tạo thành công. Bạn có thể sử dụng nó để vô hiệu hóa khóa công khai của mình, ví dụ như trong trường hợp bạn bị mất khóa bí mật.
+revoke-cert-failed = Không thể tạo chứng thư thu hồi.
 gen-going = Đã ở trong quá trình tạo khóa!
 keygen-missing-user-name = Không có tên được chỉ định cho tài khoản/danh tính đã chọn. Vui lòng nhập một giá trị vào trường  “Tên của bạn” trong cài đặt tài khoản.
 expiry-too-short = Khóa của bạn phải có giá trị trong ít nhất một ngày.
