@@ -366,8 +366,14 @@ account-hub-card-graph-title = Microsoft Graph
 account-hub-card-graph-description = Microsoft Graph je moderna zwiskowa metoda za Microsoft 365.
 account-hub-card-ews-title = Websłužby Exchange
 account-hub-card-ews-tag = Zestarjeny
+account-hub-card-ews-description = Exchange Web Services (EWS) z Microsoft Exchange zwjazuje, zo bychu wašu e-mejl synchronizował.
+# This is shown after the type description, so "it" is referring to the type (either Microsoft Graph or Exchange Web Services).
+account-hub-card-recommended-description = Poruča so, dokelž wašemu słužbnemu URL wotpowěduje.
 account-hub-exchange-type-username = Wužiwarske mjeno
+account-hub-exchange-type-username-hint = Zwjetša waša e-mejlowa adresa abo Active Directory UPN.
 account-hub-exchange-type-authentication = Awtentifikaciska metoda
+# Checkbox that can be unchecked to use a custom OAuth config.
+account-hub-exchange-type-default-oauth = Standardne nastajenja awtentifikacije Microsoft 365 Copilot wužiwać
 account-hub-exchange-type-oauth-tenant = ID tenanta
 account-hub-exchange-type-oauth-app = ID nałoženja
 account-hub-exchange-type-advanced-config = Rozšěrjena konfiguracija

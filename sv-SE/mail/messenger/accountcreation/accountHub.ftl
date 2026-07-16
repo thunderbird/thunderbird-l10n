@@ -317,14 +317,20 @@ account-hub-add-address-book = Lägg till en adressbok
 address-book-sync-existing-icon =
     .alt = Synkronisera en adressbok från ett befintligt konto
 address-book-sync-existing = Synkronisera från ett befintligt konto
+address-book-add-remote-icon2 =
+    .alt = Lägg till en fjärradressbok
 address-book-add-remote-icon =
     .alt = Lägg till en ny fjärradressbok
 address-book-add-remote = Lägg till fjärradressbok
+address-book-add-remote-carddav-description = Anslut till en CardDAV-adressbok
 address-book-add-remote-description = Anslut till en fjärransluten CardDav-adressbok
 address-book-add-local-icon =
     .alt = Skapa en ny lokal adressbok
 address-book-add-local = Ny lokal adressbok
 address-book-add-local-description = Skapa en ny lokal adressbok på din enhet
+address-book-add-ldap-icon2 =
+    .alt = Lägg till en LDAP-adressbok
+address-book-add-ldap-button = Lägg till LDAP-adressbok
 address-book-add-ldap-icon =
     .alt = Anslut till en fjärransluten LDAP-adressbok
 address-book-add-ldap = Ny LDAP-adressbok
@@ -348,3 +354,11 @@ account-hub-local-address-book-label = Namn på adressbok
 account-hub-local-error-text = Ange ett namn på adressboken
 account-hub-sync-address-books = Synkronisera befintliga adressböcker
 account-hub-new-remote-address-book = Ny fjärradressbok
+
+## Exchange Type Manual Config Step
+
+account-hub-exchange-type-account-type = Kontotyp
+account-hub-card-graph-title = Microsoft Graph
+account-hub-card-graph-description = Microsoft Graph är en modern anslutningsmetod för Microsoft 365.
+account-hub-card-ews-title = Exchange-webbtjänster
+account-hub-card-ews-description = Exchange Web Services (EWS) ansluter till Microsoft Exchange för att synkronisera din e-post.
