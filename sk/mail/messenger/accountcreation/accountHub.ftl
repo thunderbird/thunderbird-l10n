@@ -225,7 +225,7 @@ account-hub-addon-install-title = Nainštalovať
 account-hub-encryption-button = Obojstranné šifrovanie
 account-hub-address-books-button = Adresáre
 account-hub-calendars-button = Kalendáre
-account-hub-thundermail-button = Prihlásiť sa pomocou Thundermailu
+account-hub-thundermail-button = Prihláste sa pomocou Thundermailu
 # Used as part of a divider between sign in button and a sign in form.
 account-hub-thundermail-divider-text = alebo
 account-hub-manual-config-imap-title = Nastavenia IMAP
@@ -365,6 +365,7 @@ account-hub-exchange-type-account-type = Typ účtu
 account-hub-card-graph-title = Microsoft Graph
 account-hub-card-graph-description = Microsoft Graph je moderná metóda pripojenia pre Microsoft 365.
 account-hub-card-ews-title = Webové služby Exchange
+account-hub-card-ews-tag = Zastarané
 account-hub-card-ews-description = Webové služby Exchange (EWS) sa pripájajú k serveru Microsoft Exchange a synchronizujú vašu poštu.
 # This is shown after the type description, so "it" is referring to the type (either Microsoft Graph or Exchange Web Services).
 account-hub-card-recommended-description = Odporúča sa, pretože sa zhoduje s URL adresou vašej služby.
