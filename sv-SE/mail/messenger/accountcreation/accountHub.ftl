@@ -371,3 +371,5 @@ account-hub-exchange-type-authentication = Autentiseringsmetod
 account-hub-exchange-type-default-oauth = Använd Microsoft 365 Copilot standardautentiseringsinställningar
 account-hub-exchange-type-oauth-tenant = Tenant-ID
 account-hub-exchange-type-oauth-app = App-ID
+account-hub-exchange-type-advanced-config = Avancerad konfiguration
+account-hub-exchange-type-title = Välj en kontotyp

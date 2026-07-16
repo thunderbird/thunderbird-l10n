@@ -138,6 +138,12 @@ adding-opensearch-provider-failed-title = Det gick inte att lägga till OpenSear
 # Variables:
 # $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = Det gick inte att lägga till OpenSearch-leverantör för { $url }.
+close-to-tray-label =
+    .label = När { -brand-short-name } är stängt, flytta det till aktivitetsfältet
+    .accesskey = N
+start-in-tray-label =
+    .label = Starta { -brand-short-name } i aktivitetsfältet
+    .accesskey = S
 minimize-to-tray-label =
     .label = När { -brand-short-name } minimeras, flytta den till aktivitetsfält
     .accesskey = m
@@ -181,6 +187,9 @@ mail-browse-sound-button =
 enable-gloda-search-label =
     .label = Aktivera global sökning och indexering
     .accesskey = A
+gloda-show-results-as-list-label =
+    .label = Visa globala sökresultat som en lista som standard
+    .accesskey = V
 datetime-formatting-legend = Formatering av datum och tid
 language-selector-legend = Språk
 allow-hw-accel =
