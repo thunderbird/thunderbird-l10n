@@ -49,6 +49,7 @@ account-hub-email-retest-button = Yeniden test et
 account-hub-email-finish-button = Bitir
 account-hub-email-manually-configure-button = Manuel olarak yapılandır
 account-hub-email-continue-button = Devam et
+account-hub-email-set-up-account-button = Hesap kur
 account-hub-email-confirm-button = Onayla
 account-hub-result-incoming-legend = Gelen
 account-hub-result-outgoing-legend = Giden
