@@ -27,7 +27,7 @@
 <!ENTITY connectionSecurityType-0.label "Hiçbiri">
 <!ENTITY connectionSecurityType-2.label "STARTTLS">
 <!ENTITY connectionSecurityType-3.label "SSL/TLS">
-<!ENTITY authMethod.label "Yetkilendirme yöntemi:">
+<!ENTITY authMethod.label "Kimlik doğrulama yöntemi:">
 <!ENTITY authMethod.accesskey "Y">
 <!ENTITY leaveOnServer.label "İletileri sunucuda bırak">
 <!ENTITY leaveOnServer.accesskey "b">

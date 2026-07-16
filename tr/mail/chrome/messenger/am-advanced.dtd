@@ -23,4 +23,4 @@
 <!ENTITY serverPort.label "Port: ">
 <!ENTITY userName.label "Kullanıcı adı: ">
 <!ENTITY connectionSecurity.label "Bağlantı güvenliği: ">
-<!ENTITY authMethod.label "Yetkilendirme yöntemi: ">
+<!ENTITY authMethod.label "Kimlik doğrulama yöntemi: ">
