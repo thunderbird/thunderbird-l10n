@@ -13,6 +13,22 @@ message-header-cc-list-name = Cc
 message-header-bcc-list-name = Bcc
 message-header-newsgroups-list-name = Nhóm tin
 message-header-tags-list-name = Nhãn
+# List management header - RFC 2369.
+message-header-list-id = List-ID
+# List management header - RFC 2369.
+message-header-list-help = List-Help
+# List management header - RFC 2369.
+message-header-list-unsubscribe = List-Unsubscribe
+# List management header - RFC 2369.
+message-header-list-subscribe = List-Subscribe
+# List management header - RFC 2369.
+message-header-list-post = List-Post
+# List management header - RFC 2369.
+message-header-list-owner = List-Owner
+# List management header - RFC 2369.
+message-header-list-archive = List-Archive
+# Direct link to the archived form of an individual email message - RFC 5064.
+message-header-archived-at = Archived-At
 
 ## Other message headers.
 ## The field-separator is for screen readers to separate the field name from the field value.
@@ -22,9 +38,18 @@ message-header-organization-field = Tổ chức<span data-l10n-name="field-separ
 message-header-subject-field = Chủ đề<span data-l10n-name="field-separator">:</span>
 message-header-date-field = Ngày<span data-l10n-name="field-separator">:</span>
 message-header-user-agent-field = Chuỗi tác nhân người dùng<span data-l10n-name="field-separator">:</span>
+message-header-references-field = References<span data-l10n-name="field-separator">:</span>
 message-header-message-id-field = ID thư<span data-l10n-name="field-separator">:</span>
 message-header-in-reply-to-field = Trả lời đến<span data-l10n-name="field-separator">:</span>
 message-header-website-field = Trang web<span data-l10n-name="field-separator">:</span>
+message-header-list-id-field = List-ID<span data-l10n-name="field-separator">:</span>
+message-header-list-help-field = List-Help<span data-l10n-name="field-separator">:</span>
+message-header-list-unsubscribe-field = List-Unsubscribe<span data-l10n-name="field-separator">:</span>
+message-header-list-subscribe-field = List-Subscribe<span data-l10n-name="field-separator">:</span>
+message-header-list-post-field = List-Post<span data-l10n-name="field-separator">:</span>
+message-header-list-owner-field = List-Owner<span data-l10n-name="field-separator">:</span>
+message-header-list-archive-field = List-Archive<span data-l10n-name="field-separator">:</span>
+message-header-archived-at-field = Archived-At<span data-l10n-name="field-separator">:</span>
 # Describes (i.e. http or mailto URL) how to access help for the mailing list.
 list-id-context-list-help =
     .label = Nhận trợ giúp
