@@ -399,7 +399,7 @@ key-expiry-never = hiçbir zaman
 key-usage-encrypt = Şifrele
 key-usage-sign = İmzala
 key-usage-certify = Onayla
-key-usage-authentication = Yetkilendirme
+key-usage-authentication = Kimlik doğrulama
 key-does-not-expire = Anahtarın süresi dolmasın
 # Variables:
 # $keyExpiry (String) - Date the key expired on.

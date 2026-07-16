@@ -162,14 +162,14 @@ account-setup-outgoing-server-legend = Giden sunucusu
 ## Incoming/Outgoing SSL Authentication options
 
 ssl-autodetect-option = Otomatik algıla
-ssl-no-authentication-option = Yetkilendirme yok
+ssl-no-authentication-option = Kimlik doğrulama yok
 ssl-cleartext-password-option = Normal parola
 ssl-encrypted-password-option = Şifrelenmiş parola
 
 ## Incoming/Outgoing SSL options
 
 ssl-noencryption-option = Yok
-account-setup-auth-label = Yetkilendirme yöntemi:
+account-setup-auth-label = Kimlik doğrulama yöntemi:
 account-setup-username-label = Kullanıcı adı:
 account-setup-advanced-setup-button = Gelişmiş yapılandırma
     .accesskey = G
