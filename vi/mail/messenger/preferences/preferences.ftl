@@ -10,7 +10,7 @@ category-list =
 pane-general-title = Tổng quát
 category-general =
     .tooltiptext = { pane-general-title }
-pane-appearance-title = Giao diện
+pane-appearance-title = Diện mạo
 category-appearance =
     .tooltiptext = { pane-appearance-title }
 pane-compose-title = Soạn thảo
@@ -1020,7 +1020,7 @@ qr-export-more-accounts = Xuất tài khoản khác
 
 ## Appearance Tab
 
-appearance-category-header = Giao diện
+appearance-category-header = Diện mạo
 accent-color-legend = Màu nhấn (Accent color)
 accent-color-label =
     .value = Xác định màu sắc được sử dụng cho các nút chính và các phần tử được làm nổi bật:
