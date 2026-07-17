@@ -256,6 +256,7 @@ account-hub-result-pop-description = Wobchowajśo swóje zastojniki a mejlki na 
 account-hub-result-ews-shortname = Exchange
 account-hub-result-ews-description = Wužywajśo Microsoft Exchange Web Services, aby swóje zarědniki a mejlki synchronizěrował
 account-hub-result-graph-api-shortname = Microsoft Graph API
+account-hub-result-graph-api-description = Wužywajśo Microsoft Graph API, aby swóje zarědniki a mejlki z MIcrosoft 365 synchronizěrował
 account-hub-result-graph-shortname = Exchange (Graph)
 account-hub-result-graph-description = Wužywajśo Microsoft Graph API, aby swóje zarědniki a mejlki synchronizěrował
 account-hub-result-exchange-description = Zarědniki a mejlki z Exchange abo Office 365 synchronizěrowaś
@@ -318,14 +319,20 @@ account-hub-add-address-book = Adresnik pśidaś
 address-book-sync-existing-icon =
     .alt = Synchronizěrujśo adresnik z eksistěrujucego konta
 address-book-sync-existing = Synchronizěrujśo z eksistěrujucego konta
+address-book-add-remote-icon2 =
+    .alt = Zdalony adresnik pśidaś
 address-book-add-remote-icon =
     .alt = Nowy zdalony adresnik pśidaś
 address-book-add-remote = Zdalony adresnik pśidaś
+address-book-add-remote-carddav-description = Z CardDAV-adresnikom zwězaś
 address-book-add-remote-description = Ze zdalonym CardDAV-adresnikom zwězaś
 address-book-add-local-icon =
     .alt = Nowy lokalny adresnik załožyś
 address-book-add-local = Nowy lokalny adresnik
 address-book-add-local-description = Załožćo nowy lokalny adresnik na swójom rěźe
+address-book-add-ldap-icon2 =
+    .alt = Adresnik LDAP pśidaś
+address-book-add-ldap-button = Adresnik LDAP pśidaś
 address-book-add-ldap-icon =
     .alt = Ze zdalonym LDAP-adresnikom zwězaś
 address-book-add-ldap = Nowy LDAP-adresnik
@@ -351,3 +358,23 @@ account-hub-local-address-book-label = Mě adresnika
 account-hub-local-error-text = Pšosym zapódajśo mě adresnika
 account-hub-sync-address-books = Eksistěrujuce adresniki synchronizěrowaś
 account-hub-new-remote-address-book = Nowy zdalony adresnik pśidaś
+
+## Exchange Type Manual Config Step
+
+account-hub-exchange-type-account-type = Kontowy typ
+account-hub-card-graph-title = Microsoft Graph
+account-hub-card-graph-description = Microsoft Graph jo moderna zwiskowa metoda za Microsoft 365.
+account-hub-card-ews-title = Websłužby Exchange
+account-hub-card-ews-tag = Zestarjety
+account-hub-card-ews-description = Exchange Web Services (EWS) z Microsoft Exchange zwězujo, aby wašu e-mail synchronizěrował.
+# This is shown after the type description, so "it" is referring to the type (either Microsoft Graph or Exchange Web Services).
+account-hub-card-recommended-description = Póruca se, dokulaž wašomu słužbnemu URL wótpowědujo.
+account-hub-exchange-type-username = Wužywaŕske mě
+account-hub-exchange-type-username-hint = Zwětšego waša e-mailowa adresa abo Active Directory UPN.
+account-hub-exchange-type-authentication = Metoda awtentificěrowanja
+# Checkbox that can be unchecked to use a custom OAuth config.
+account-hub-exchange-type-default-oauth = Standardne nastajenja awtentificěrowanja Microsoft 365 Copilot wužywaś
+account-hub-exchange-type-oauth-tenant = ID tenanta
+account-hub-exchange-type-oauth-app = ID nałoženja
+account-hub-exchange-type-advanced-config = Rozšyrjona konfiguracija
+account-hub-exchange-type-title = Wubjeŕśo kontowy typ

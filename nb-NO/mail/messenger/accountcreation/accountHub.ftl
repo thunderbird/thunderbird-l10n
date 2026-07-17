@@ -153,6 +153,7 @@ address-book-ldap-duplicate-error = LDAP-katalognavnet finnes allerede. Skriv in
 address-book-ldap-creation-error = Kunne ikke opprette LDAP-katalog.
 account-hub-email-setup-ews = Serverinnstillinger
 account-hub-result-exchange-url-label = URL-adresse for Exchange-endepunkt
+account-hub-exchange-service-url-label = Skriv inn tjenesteadressen
 account-hub-email-credentials-confirmation = Kontokonfigurasjon
 account-hub-result-unknown-hostname = Ukjent hostnavn
 account-hub-result-unknown-cert = Ubekreftet sertifikat
@@ -231,6 +232,8 @@ account-hub-manual-config-imap-title = IMAP-innstillinger
 account-hub-manual-config-pop3-title = POP3-innstillinger
 account-hub-manual-config-incoming-legend = Innkommende server
 account-hub-manual-config-outgoing-legend = Utgående server
+# Label for checkbox that will hide an outgoing username input if it's the same is the incoming
+account-hub-same-username-checkbox = Samme brukernavn som innkommende server
 account-hub-protocol-imap = Synk på tvers av enheter
 account-hub-protocol-microsoft = Exchange eller Microsoft 365
 account-hub-protocol-pop3 = Last ned til enhet
@@ -359,8 +362,14 @@ account-hub-card-graph-title = Microsoft Graph
 account-hub-card-graph-description = Microsoft Graph er en moderne tilkoblingsmetode for Microsoft 365.
 account-hub-card-ews-title = Exchange-webtjenester
 account-hub-card-ews-tag = Utdatert
+account-hub-card-ews-description = Exchange Web Services (EWS) kobler seg til Microsoft Exchange for å synkronisere e-posten din.
+# This is shown after the type description, so "it" is referring to the type (either Microsoft Graph or Exchange Web Services).
+account-hub-card-recommended-description = Det anbefales fordi det samsvarer med tjeneste-adressen din.
 account-hub-exchange-type-username = Brukernavn
+account-hub-exchange-type-username-hint = Vanligvis e-postadressen din eller Active Directory UPN.
 account-hub-exchange-type-authentication = Autentiseringsmåte
+# Checkbox that can be unchecked to use a custom OAuth config.
+account-hub-exchange-type-default-oauth = Bruk Microsoft 365 Copilot standardautentiseringsinnstillinger
 account-hub-exchange-type-oauth-tenant = Tenant-ID
 account-hub-exchange-type-oauth-app = App-ID
 account-hub-exchange-type-advanced-config = Avanserte innstillinger
