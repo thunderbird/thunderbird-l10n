@@ -361,6 +361,7 @@ account-hub-exchange-type-account-type = Kontotyp
 account-hub-card-graph-title = Microsoft Graph
 account-hub-card-graph-description = Microsoft Graph är en modern anslutningsmetod för Microsoft 365.
 account-hub-card-ews-title = Exchange-webbtjänster
+account-hub-card-ews-tag = Arv
 account-hub-card-ews-description = Exchange Web Services (EWS) ansluter till Microsoft Exchange för att synkronisera din e-post.
 # This is shown after the type description, so "it" is referring to the type (either Microsoft Graph or Exchange Web Services).
 account-hub-card-recommended-description = Det rekommenderas eftersom det matchar din tjänst-URL.
