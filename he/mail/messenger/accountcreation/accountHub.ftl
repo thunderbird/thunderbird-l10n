@@ -7,10 +7,45 @@
 ### Account hub is where user can setup new accounts in Thunderbird.
 
 
+## Footer
+
+account-hub-support = תמיכה
+account-hub-donate = תרומה
+
+## Initial setup page
+
+account-hub-email-setup-button = חשבון דוא״ל
+    .title = הגדרת חשבון דוא״ל
+account-hub-calendar-setup-button = לוח שנה
+    .title = הגדרת לוח שנה מקומי או מרוחק
+account-hub-address-book-setup-button = פנקס כתובות
+    .title = הגדרת פנקס כתובות מקומי או מרוחק
+account-hub-import-setup-button = ייבוא
+    .title = ייבוא פרופיל מגובה
+
 ## Email page
 
+account-hub-add-email-title = הוספת החשבון שלך
+account-hub-email-cancel-button = ביטול
+account-hub-email-stop-button = עצירה
+account-hub-email-back-button = חזרה
+account-hub-email-retest-button = בדיקה חוזרת
+account-hub-email-finish-button = סיום
+account-hub-email-manually-configure-button = הגדרה ידנית
 account-hub-email-set-up-account-button = הגדרת חשבון
+account-hub-email-confirm-button = אישור
 account-hub-email-find-settings-button = חיפוש הגדרות
+account-hub-all-servers-legend = כל השרתים
+account-hub-protocol-label = פרוטוקול
+account-hub-hostname-label = שם מארח
+account-hub-result-hostname-label = שם מארח
+    .title = שם מארח
+account-hub-result-socket-type-label = אבטחת החיבור
+account-hub-servers-username-label = שם משתמש:
+account-hub-result-server-label = שרת:
+account-hub-result-port-label = פתחה:
+account-hub-result-security-label = אבטחה:
+account-hub-result-authentication-type-label = אימות:
 account-hub-result-authentication-none = ללא
     .title = ללא
 account-hub-result-authentication-password = ססמה רגילה
@@ -25,9 +60,34 @@ account-hub-result-authentication-external = חיצוני
     .title = חיצוני
 account-hub-result-authentication-oauth2 = OAuth2
     .title = OAuth2
+account-hub-result-auth-encrypted-password = ססמה מוצפנת
+    .title = ססמה מוצפנת
+account-hub-on-port-label = פתחה
+account-hub-result-authentication-label = אימות
+    .title = אימות
+account-hub-port-label = פתחה
+    .title = אפשר להגדיר את מספר הפתחה ל־0 כדי לזהות אותה אוטומטית
+account-hub-ssl-label = אבטחת החיבור
+
+## Incoming/Outgoing authentication method options
+
+account-hub-ssl-autodetect-option =
+    .label = זיהוי אוטומטי
+account-hub-ssl-no-authentication-option =
+    .label = ללא אימות
+account-hub-ssl-cleartext-password-option =
+    .label = סיסמה רגילה
+account-hub-ssl-encrypted-password-option =
+    .label = ססמה מוצפנת
 
 ## Other Account Hub strings (sadly not sorted into sections)
 
+account-hub-ssl-noencryption-option =
+    .label = ללא
+account-hub-auth-no-authentication-option =
+    .label = ללא אימות
+account-hub-auth-label = שיטת האימות
+account-hub-username-label = שם משתמש
 account-hub-exchange-service-url-label = נא להכניס את הכתובת האתר של השירות
 account-hub-name-warning-icon =
     .title = נא להכניס את השם שלך
@@ -54,6 +114,8 @@ account-hub-result-security-starttls = STARTTLS
 account-hub-result-no-encryption = ללא הצפנה
 account-hub-result-ssl = SSL/TLS
 account-hub-result-starttls = STARTTLS
+account-hub-name-label = שם מלא
+    .accesskey = ש
 account-hub-find-settings-failed = ‏{ -brand-short-name } נכשל באיתור ההגדרות לחשבון הדוא״ל שלך.
 account-hub-advanced-setup-button = הגדרות מתקדמות
     .accesskey = ה
