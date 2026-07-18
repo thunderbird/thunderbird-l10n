@@ -51,6 +51,14 @@ appmenu-new-newsgroup =
     .label = 뉴스그룹
     .accesskey = N
 
+## Add Account
+
+appmenu-add-account-panel-title =
+    .title = 계정 추가
+appmenu-add-account-panel =
+    .label = 계정 추가
+    .accesskey = N
+
 ## New Account / Address Book
 
 appmenu-newab-panel-title =
@@ -67,6 +75,11 @@ appmenu-new-carddav =
 appmenu-new-ldap =
     .label = LDAP 주소록
     .accesskey = L
+appmenu-add-address-book-panel-title =
+    .title = 주소록 추가
+appmenu-add-address-book =
+    .label = 주소록
+    .accesskey = A
 
 ## Create
 

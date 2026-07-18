@@ -4,6 +4,7 @@
 
 open-preferences-sidebar-button2 = { -brand-short-name } 설정
 open-addons-sidebar-button = 부가 기능과 테마
+account-tree-add-account-button = 계정 추가
 account-action-add-newsgroup-account =
     .label = 뉴스 그룹 계정 추가…
     .accesskey = N

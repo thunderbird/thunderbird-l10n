@@ -20,6 +20,8 @@ calendar-enable-button = 활성화
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-context-button =
     .title = { $calendarName } 캘린더 설정
+calendar-add-calendar = 캘린더 추가…
+    .title = 캘린더를 생성하거나 구독
 calendar-import-new-calendar = 새 캘린더…
     .title = 새 캘린더를 만들거나 구독
 calendar-refresh-calendars =

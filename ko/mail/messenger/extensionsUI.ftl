@@ -4,6 +4,8 @@
 
 webext-experiment-warning = 악의적인 목적으로 제작된 부가 기능은 개인 정보를 빼돌리거나 컴퓨터를 망가뜨릴 수 있습니다. 이 추가 기능의 출처를 신뢰할 수 있는 경우에만 설치하실 것을 권장합니다.
 webext-perms-learn-more = 더 알아보기
+webext-install-suppressed-message = <> 부가 기능은 이 Thunderbird 버전에서 지원하지 않는 시험 API를 사용하므로 설치할 수 없습니다.
+webext-install-suppressed-details = 시험 API를 사용하는 부가 기능은 { -brand-product-name } ESR에서만 지원합니다.
 # Variables:
 #   $addonName (String): localized name of the extension that was just installed.
 addon-post-install-message = { $addonName } 부가 기능이 추가되었습니다.

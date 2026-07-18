@@ -16,6 +16,8 @@ about-addressbook-toolbar-add-ldap-address-book =
     .label = LDAP 주소록 추가
 books-pane-create-contact-button = 새 연락처
     .title = 새 연락처 만들기
+books-pane-add-book-button =
+    .title = 주소록 추가
 books-pane-create-book-button =
     .title = 새 주소록 만들기
 books-pane-create-list-button =
@@ -61,6 +63,8 @@ about-addressbook-confirm-remove-remote-book-title = 주소록 삭제
 # Variables:
 # $name (String) - Name of the remote address book to be removed.
 about-addressbook-confirm-remove-remote-book = { $name } 주소록을 제거하시겠습니까?
+address-book-list =
+    .aria-label = 주소록 목록
 
 ## Cards
 
@@ -193,6 +197,8 @@ about-addressbook-cell-addrbook2 =
     .title = { $title }
 about-addressbook-cards-context-write =
     .label = 쓰기
+# A suggested file name (without extension) for when the user exports multiple contacts.
+about-addressbook-export-selected-filename = 연락처
 about-addressbook-confirm-delete-mixed-title = 연락처와 목록 삭제
 # Variables:
 # $count (Number) - The number of contacts and lists to be deleted. Always greater than 1.
