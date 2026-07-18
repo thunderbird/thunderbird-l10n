@@ -136,6 +136,8 @@ folder-toolbar-toggle-folder-compact-view =
 ## Folder names
 
 folder-name-spam = 스팸
+# Gmail's "All Mail" folder. Please make sure this is the same string used in the Gmail web UI for your language.
+folder-name-all-mail = 전체 편지함
 
 ## File Menu
 
@@ -145,6 +147,20 @@ menu-file-save-as-file =
 # Variables:
 #   $count - number of messages to get
 menu-file-get-next-n-news-msgs = 다음 { $count } 뉴스 메시지 받기
+# Variables:
+# $count (Number) - One or more than one folder selected for compacting
+menu-file-compact =
+    .label =
+        { $count ->
+            [1] 폴더 압축
+           *[other] 폴더 압축
+        }
+    .accesskey = F
+# One or more servers selected for compacting all their folders. Only this or
+# menu-file-compact string will appear at a time, not both.
+menu-file-compact-all =
+    .label = 모든 폴더 압축
+    .accesskey = F
 
 ## Edit Menu
 
@@ -218,6 +234,10 @@ menu-move-copy-recent-destinations =
 menu-move-copy-favorites =
     .label = 즐겨찾기
     .accesskey = F
+menu-move-copy-no-recent =
+    .label = (최근 대상 없음)
+menu-move-copy-no-favorites =
+    .label = (즐겨찾기 없음)
 
 ## AppMenu
 

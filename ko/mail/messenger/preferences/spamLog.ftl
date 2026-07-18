@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+spam-log-title = 적응형 스팸 기록
+spam-log-info-label =
+    .value = 적응형 스팸 관리 기록입니다.
 clear-log-button =
     .label = 기록 삭제
     .accesskey = C

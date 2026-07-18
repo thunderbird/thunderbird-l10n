@@ -28,7 +28,7 @@ child-folder-name-label = 받은 편지함 하위 폴더
 sibling-folder-name-label = 받은 편지함 형제 폴더
 # This should match the default name for the "Archives" folder.
 archive-folder-name =
-    .label = 기록 보관소
+    .label = 보관 메일
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name =
     .label = 받은 편지함

@@ -5,6 +5,10 @@
 
 ## Filter List Dialog
 
+run-filter-before-spam =
+    .label = 스팸 분류 전에 적용
+run-filter-after-spam =
+    .label = 스팸 분류 후에 적용
 # Variables:
 #   $minutes - the number of minutes
 run-periodically =
@@ -45,6 +49,7 @@ filter-action-log-forwarded = 포워딩
 filter-action-log-stop = 실행 중지
 filter-action-log-pop3-delete = POP3 서버에서 삭제
 filter-action-log-pop3-leave = POP3 서버에 남기기
+filter-action-log-spam = 스팸 점수
 filter-action-log-pop3-fetch = POP3 서버에서 본문 가져오기
 filter-action-log-tagged = 태그 추가하기
 filter-action-log-ignore-subthread = 하위 글타래 무시

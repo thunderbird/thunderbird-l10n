@@ -122,6 +122,10 @@ quick-filter-bar-boolean-mode-any =
 quick-filter-bar-boolean-mode-all =
     .label = 모두
     .title = 선택한 태그 제한조건이 모두 맞음
+# The None tagging mode.
+quick-filter-bar-tag-mode-none =
+    .label = 태그 없음만
+    .title = 태그가 없는 메시지만 표시
 # This label explains what the sender/recipients/subject/body buttons do.
 # This string should ideally be kept short because the label and the text
 # filter buttons share their bar (that appears when there is text in the text
@@ -176,6 +180,9 @@ folder-pane-show-total-toggle =
 # Context menu item to show or hide folder sizes
 folder-pane-header-toggle-folder-size =
     .label = 폴더 크기 표시
+# Context menu item to toggle display of full folder path in compact mode.
+folder-pane-header-toggle-full-path =
+    .label = 전체 경로 표시
 folder-pane-header-hide-local-folders =
     .label = 로컬 폴더 숨기기
 folder-pane-mode-header-all = 모든 폴더
@@ -510,3 +517,17 @@ folder-pane-context-mark-folder-read =
 folder-pane-context-reset-sort =
     .label = 폴더 순서 초기화
     .accesskey = R
+# Variables:
+# $count (Number) - One or more than one folder selected for compacting
+folder-pane-context-compact =
+    .label =
+        { $count ->
+            [1] 폴더 압축
+           *[other] 폴더 압축
+        }
+    .accesskey = F
+# One or more servers selected for compacting ALL their folders. Only this or
+# folder-pane-context-compact string will appear at a time, not both.
+folder-pane-context-compact-all =
+    .label = 모든 폴더 압축
+    .accesskey = F

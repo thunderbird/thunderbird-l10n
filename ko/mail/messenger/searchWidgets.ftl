@@ -155,6 +155,8 @@ rule-action-priority =
     .label = 중요도 설정
 rule-action-tag =
     .label = 태그 작성
+rule-action-set-spam-status =
+    .label = 스팸 상태 설정:
 rule-action-delete =
     .label = 메시지 삭제
 rule-action-delete-pop =
@@ -172,6 +174,10 @@ rule-action-stop =
 
 ## Rule Action Targets
 
+rule-menuitem-spam =
+    .label = 스팸
+rule-menuitem-not-spam =
+    .label = 스팸 아님
 rule-priority-highest =
     .label = 최상위
 rule-priority-high =

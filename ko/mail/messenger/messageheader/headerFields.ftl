@@ -105,3 +105,13 @@ dark-message-mode-toggle-enabled =
     .title = 다크 메시지 모드 비활성화
 dark-message-mode-toggle-disabled =
     .title = 다크 메시지 모드 활성화
+
+## Spam filter
+
+message-bar-spam = { -brand-short-name }에서 이 메시지를 스팸으로 추정했습니다.
+message-bar-not-spam-button =
+    .label = 스팸 아님
+    .accesskey = N
+message-bar-learn-more-button =
+    .label = 더 알아보기…
+    .accesskey = L

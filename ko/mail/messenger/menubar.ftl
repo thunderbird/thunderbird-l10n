@@ -99,6 +99,12 @@ toolbar-delete-button =
 toolbar-undelete-button =
     .label = 삭제 취소
     .tooltiptext = 선택한 메세지를 삭제 취소함
+toolbar-spam-button =
+    .label = 스팸
+    .tooltiptext = 선택한 메시지를 스팸으로 표시
+toolbar-not-spam-button =
+    .label = 스팸 아님
+    .tooltiptext = 선택한 메시지를 스팸 아님으로 표시
 
 ## View
 
