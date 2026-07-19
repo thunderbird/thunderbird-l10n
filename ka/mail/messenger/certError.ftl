@@ -17,6 +17,9 @@ cert-error-not-yet-valid = { $hostname } მისამართისთვი
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-untrusted-default = სერტიფიკატი მისამართისთვის { $hostname } არაა სანდო წყაროდან.
 # Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server.
+cert-error-ssl-connection-error = შეცდომა წარმოიშვა, როცა უკავშირდებოდა { $hostname }.
+# Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-domain-mismatch =
     .title = დაკავშირების შეცდომა. სერტიფიკატი მისამართისთვის { $hostname } არაა მოქმედი ამ სერვერისთვის. შესაძლოა, ვიღაც სხვა სერვერად გასაღებას ცდილობდეს და ჯობია, აღარ განაგრძობთ. დაწკაპეთ სერვერის უსაფრთხოების პარამეტრების გასახსნელად.
@@ -34,6 +37,10 @@ cert-error-inline-not-yet-valid =
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-untrusted-default =
     .title = დაკავშირების შეცდომა. სერტიფიკატი მისამართისთვის { $hostname } არაა მოწოდებული სანდო წყაროდან. დაწკაპეთ სერვერის უსაფრთხოების პარამეტრების გასახსნელად.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server.
+cert-error-inline-ssl-connection-error =
+    .title = შეცდომა წარმოიშვა, როცა უკავშირდებოდა { $hostname }.
 certificate-check-test-button = კავშირის შემოწმება სერვერთან
 certificate-check-view-button = სერტიფიკატის ნახვა
 certificate-check-add-exception-button = გამონაკლისის დამატება
