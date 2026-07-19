@@ -373,3 +373,11 @@ account-hub-card-ews-description = Exchange-Web-Services (EWS) უკავშ�
 # This is shown after the type description, so "it" is referring to the type (either Microsoft Graph or Exchange Web Services).
 account-hub-card-recommended-description = სასურველია, რადგან ემთხვევა თქვენი მომსახურების URL-ბმულს.
 account-hub-exchange-type-username = მომხმარებელი
+account-hub-exchange-type-username-hint = ჩვეულებრივ, თქვენი ელფოსტის მისამართი ან Active-Directory-UPN.
+account-hub-exchange-type-authentication = ანგარიშზე შესვლის გზა
+# Checkbox that can be unchecked to use a custom OAuth config.
+account-hub-exchange-type-default-oauth = გამოიყენეთ Microsoft-365-Copilot შესვლის დამოწმებისთვის ნაგულისხმევი პარამეტრებით
+account-hub-exchange-type-oauth-tenant = Tenant-ID
+account-hub-exchange-type-oauth-app = App-ID
+account-hub-exchange-type-advanced-config = დამატებითი გამართვა
+account-hub-exchange-type-title = აირჩიეთ ანგარიშის სახეობა
