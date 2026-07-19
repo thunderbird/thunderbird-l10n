@@ -5,6 +5,11 @@
 about-update-whats-new = რა სიახლეებია
 about-dialog-title = { -brand-full-name } – შესახებ
 release-notes-link = გამოშვების მონაცემები
+# This describes the codename logo shown in the About Thunderbird dialog for the current annual release.
+# Do not translate: Meadow
+about-dialog-meadow-logo =
+    .alt = { -brand-short-name } კოდური სახელით Meadow სამკერდე
+    .title = { -brand-short-name } – კოდური სახელი Meadow
 update-internal-error = ვერ მოწმდება განახლებებზე შიდა შეცდომის გამო. ხელით განახლებისთვის იხილეთ <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = განახლებების შემოწმება
     .accesskey = შ
