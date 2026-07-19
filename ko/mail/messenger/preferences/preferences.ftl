@@ -725,6 +725,7 @@ security-devices-button =
     .accesskey = D
 email-e2ee-header = 이메일 종단간 암호화
 account-settings = 계정 설정
+email-e2ee-enable-accounts-info = <a data-l10n-name="account-settings-url">계정 설정</a>에서 종단간 암호화를 위한 이메일 계정과 ID를 지정하세요.
 email-e2ee-enable-info = 계정 설정에서 종단간 암호화를 위한 이메일 및 ID를 설정하세요
 email-e2ee-automatism = 암호화 자동 사용
 email-e2ee-automatism-pre =
@@ -739,6 +740,32 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     메시지를 작성할 때 수동으로 암호화를 활성화 또는 비활성화하여 자동 결정을 재정의 할 수 있습니다.
     참고: 암호화는 암호화된 메시지에 회신할 때 항상 자동으로 활성화됩니다.
+
+## DoH Section
+
+preferences-doh-header = DNS over HTTPS
+preferences-doh-description = DNS over HTTPS (HTTPS를 통한 DNS)는 암호화된 연결을 통해 도메인 이름에 대한 요청을 전송하여 보안 DNS를 제공하고 다른 사람들이 사용자가 접근하려는 웹 사이트를 보기 어렵게 만듭니다.
+# Variables:
+#   $status (string) - The status of the DoH connection
+preferences-doh-status = 상태: { $status }
+# Variables:
+#   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
+preferences-doh-resolver = 공급자: { $name }
+# This is displayed instead of $name in preferences-doh-resolver
+# when the DoH URL is not a valid URL
+preferences-doh-bad-url = 잘못된 URL
+preferences-doh-steering-status = 로컬 공급자 사용 중
+preferences-doh-status-active = 활성화
+preferences-doh-status-disabled = 끔
+# Variables:
+#   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
+preferences-doh-status-not-active = 활성 안 됨 ({ $reason })
+preferences-doh-group-message = 다음을 사용하여 DNS over HTTPS 활성화:
+preferences-doh-expand-section =
+    .tooltiptext = 추가 정보
+preferences-doh-setting-default =
+    .label = 기본 보호
+    .accesskey = D
 
 ## Chat Tab
 

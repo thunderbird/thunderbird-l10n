@@ -3,3 +3,4 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 not-found-alert-title = 찾기
+not-found-alert-message = 입력한 내용을 찾을 수 없습니다.
