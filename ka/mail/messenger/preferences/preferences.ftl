@@ -138,6 +138,12 @@ adding-opensearch-provider-failed-title = OpenSearch-მომწოდებე
 # Variables:
 # $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = ვერ ხერხდება OpenSearch-მომწოდებლის დამატება ბმულზე { $url }.
+close-to-tray-label =
+    .label = როცა { -brand-short-name } დაიხურება, გადავიდეს სისტემის არეში
+    .accesskey = ხ
+start-in-tray-label =
+    .label = გაეშვას { -brand-short-name } სისტემის არეში
+    .accesskey = ტ
 minimize-to-tray-label =
     .label = როცა { -brand-short-name } ჩაიკეცება, გადავიდეს სისტემის არეში
     .accesskey = ჩ
@@ -185,6 +191,9 @@ mail-browse-sound-button =
 enable-gloda-search-label =
     .label = ერთიანი ძიებისა და გზავნილთა აღრიცხვის ჩართვა
     .accesskey = ე
+gloda-show-results-as-list-label =
+    .label = საერთო ძიების შედეგების სიის სახით ჩვენება ნაგულისხმევად
+    .accesskey = რ
 datetime-formatting-legend = თარიღისა და დროის გაფორმება
 language-selector-legend = ენა
 allow-hw-accel =
