@@ -51,6 +51,7 @@ account-hub-email-manually-configure-button = Manuel olarak yapılandır
 account-hub-email-continue-button = Devam et
 account-hub-email-set-up-account-button = Hesap kur
 account-hub-email-confirm-button = Onayla
+account-hub-email-find-settings-button = Ayarları bul
 account-hub-result-incoming-legend = Gelen
 account-hub-result-outgoing-legend = Giden
 account-hub-all-servers-legend = Tüm sunucular
@@ -362,6 +363,7 @@ account-hub-card-ews-title = Exchange Web Services
 account-hub-card-ews-tag = Eski
 account-hub-card-ews-description = Exchange Web Services (EWS), postalarınızı eşitlemek için Microsoft Exchange’e bağlanır.
 account-hub-exchange-type-username = Kullanıcı adı
+account-hub-exchange-type-username-hint = Genellikle e-posta adresiniz veya Active Directory UPN’niz.
 account-hub-exchange-type-authentication = Kimlik doğrulama yöntemi
 # Checkbox that can be unchecked to use a custom OAuth config.
 account-hub-exchange-type-default-oauth = Varsayılan Microsoft 365 Copilot kimlik doğrulama ayarlarını kullan
