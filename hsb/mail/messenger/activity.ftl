@@ -114,3 +114,40 @@ extension-send-activity-event =
         [few] Rozšěrjenje “{ $extensionName }” jo { NUMBER($count) } njewočakowane powěsće pósłało
        *[other] Rozšěrjenje “{ $extensionName }” jo { NUMBER($count) } njewočakowanych powěsćow pósłało
     }
+# Status line shown under extension-send-activity-event. Reports how many
+# messages were sent and the wall-clock time between the first and last send in
+# the batch (rounded to whole seconds, at least one).
+# Variables:
+#   $count (Number) - number of messages sent in this batch
+#   $seconds (Number) - elapsed seconds between the first and last send
+extension-send-activity-event-status =
+    { $count ->
+        [one]
+            { $seconds ->
+                [one] { $count } powěsć za { $seconds } sekundu
+                [two] { $count } powěsć za { $seconds } sekundźe
+                [few] { $count } powěsć za { $seconds } sekundy
+               *[other] { $count } powěsć za { $seconds } sekundow
+            }
+        [two]
+            { $seconds ->
+                [one] { $count } powěsći za { $seconds } sekundu
+                [two] { $count } powěsći za { $seconds } sekundźe
+                [few] { $count } powěsći za { $seconds } sekundy
+               *[other] { $count } powěsći za { $seconds } sekundow
+            }
+        [few]
+            { $seconds ->
+                [one] { $count } powěsće za { $seconds } sekundu
+                [two] { $count } powěsće za { $seconds } sekundźe
+                [few] { $count } powěsće za { $seconds } sekundy
+               *[other] { $count } powěsće za { $seconds } sekundow
+            }
+       *[other]
+            { $seconds ->
+                [one] { $count } powěsćow za { $seconds } sekundu
+                [two] { $count } powěsćow za { $seconds } sekundźe
+                [few] { $count } powěsćow za { $seconds } sekundy
+               *[other] { $count } powěsćow za { $seconds } sekundow
+            }
+    }

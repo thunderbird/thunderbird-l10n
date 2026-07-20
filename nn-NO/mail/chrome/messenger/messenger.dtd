@@ -845,7 +845,7 @@
 <!ENTITY hideOtherAppsCmdMac.modifiers "accel,alt">
 <!ENTITY showAllAppsCmdMac.label "Vis alle">
 <!-- Mac OS X Dock Icon pop-up menu -->
-<!ENTITY dockOptions.label "Innstillingar for app-ikon …">
+<!ENTITY dockOptions.label "Innstillingar for app-ikon…">
 <!ENTITY writeNewMessageDock.label "Skriv ny melding">
 <!ENTITY openAddressBookDock.label "Opne Adresseboka">
 <!-- Content tab Navigation buttons -->
