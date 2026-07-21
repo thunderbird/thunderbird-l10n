@@ -10,7 +10,7 @@ sync-verification-sent-title = Verificare trimisă
 # $userEmail (String) - Email address of the account used for sync.
 sync-verification-sent-body = A fost trimis un link de verificare către { $userEmail }.
 sync-verification-not-sent-title = Nu se poate trimite verificarea
-sync-verification-not-sent-body = Nu putem să trimitem un e-mail de verificare în acest moment, te rugăm să încerci din nou mai târziu.
+sync-verification-not-sent-body = Nu putem să trimitem un e-mail de verificare în acest moment. Te rugăm să încerci din nou mai târziu.
 
 ## These strings are shown in a confirmation dialog when the user chooses to sign out.
 
