@@ -18,6 +18,7 @@ account-manager-close-command =
     .key = a
 # This title must be short, displayed with a big font size
 account-manager-no-account-title = Belum ada akun yang disiapkan
+account-manager-no-accounts-description = Klik tombol { add-account-label } untuk mengizinkan { -brand-short-name } memandu Anda melalui proses konfigurasi.
 account-manager-no-account-description = Klik pada tombol { new-account-label } agar { -brand-short-name } memandu Anda melalui proses persiapannya.
 account-auto-sign-on =
     .label = Masuk saat mulai
@@ -43,3 +44,4 @@ account-disconnecting =
     .value = Memutuskan…
 account-disconnected =
     .value = Tidak Tersambung
+add-account-label = Tambahkan Akun
