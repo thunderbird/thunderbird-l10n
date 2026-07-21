@@ -49,6 +49,7 @@ account-hub-email-retest-button = Қайта тексеру
 account-hub-email-finish-button = Дайын
 account-hub-email-manually-configure-button = Қолдан баптау
 account-hub-email-continue-button = Жалғастыру
+account-hub-email-set-up-account-button = Тіркелгіні баптау
 account-hub-email-confirm-button = Растау
 account-hub-result-incoming-legend = Кіріс
 account-hub-result-outgoing-legend = Шығыс
