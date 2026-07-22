@@ -153,6 +153,7 @@ address-book-ldap-duplicate-error = Бұл LDAP бума атауы бар бо�
 address-book-ldap-creation-error = LDAP бумасын жасау мүмкін болмады.
 account-hub-email-setup-ews = Сервер баптаулары
 account-hub-result-exchange-url-label = Exchange соңғы нүктесінің URL адресі
+account-hub-exchange-service-url-label = Қызмет URL адресін енгізіңіз
 account-hub-email-credentials-confirmation = Тіркелгіні баптау
 account-hub-result-unknown-hostname = Белгісіз хост аты
 account-hub-result-unknown-cert = Тексерілмеген сертификат
@@ -227,8 +228,12 @@ account-hub-calendars-button = Күнтізбелер
 account-hub-thundermail-button = Thundermail арқылы кіру
 # Used as part of a divider between sign in button and a sign in form.
 account-hub-thundermail-divider-text = немесе
+account-hub-manual-config-imap-title = IMAP баптаулары
+account-hub-manual-config-pop3-title = POP3 баптаулары
 account-hub-manual-config-incoming-legend = Кіріс сервері
 account-hub-manual-config-outgoing-legend = Шығыс сервері
+# Label for checkbox that will hide an outgoing username input if it's the same is the incoming
+account-hub-same-username-checkbox = Кіріс серверімен бірдей пайдаланушы аты
 account-hub-notification-show-more = Көбірек көрсету
 account-hub-notification-show-less = Азырақ көрсету
 account-hub-email-setup-header = Эл. пошта адресіңізді қосыңыз
