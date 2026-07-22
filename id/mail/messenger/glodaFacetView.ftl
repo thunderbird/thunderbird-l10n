@@ -9,3 +9,7 @@ facets-mode-to-list-all-label = Daftar semua { $count }
 # Variables:
 #   $count - the number items
 facet-view-and-others = { $count } lainnya
+# Variables:
+#   $m - the number M in "M of N" items
+#   $n - the number N in "M of N" items
+item-count-m-of-n = { $m } dari { $n }
