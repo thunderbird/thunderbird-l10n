@@ -51,6 +51,7 @@ account-hub-email-manually-configure-button = Қолдан баптау
 account-hub-email-continue-button = Жалғастыру
 account-hub-email-set-up-account-button = Тіркелгіні баптау
 account-hub-email-confirm-button = Растау
+account-hub-email-find-settings-button = Баптауларды табу
 account-hub-result-incoming-legend = Кіріс
 account-hub-result-outgoing-legend = Шығыс
 account-hub-all-servers-legend = Барлық серверлер
