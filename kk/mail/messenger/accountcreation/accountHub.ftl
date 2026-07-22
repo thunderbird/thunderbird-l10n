@@ -360,3 +360,17 @@ account-hub-new-remote-address-book = Қашықтағы жаңа адресті
 account-hub-exchange-type-account-type = Тіркелгі түрі
 account-hub-card-graph-title = Microsoft Graph
 account-hub-card-graph-description = Microsoft Graph - Microsoft 365 үшін заманауи қосылу әдісі.
+account-hub-card-ews-title = Exchange веб-қызметтері
+account-hub-card-ews-tag = Классикалық
+account-hub-card-ews-description = Exchange веб-қызметтері (EWS) поштаңызды синхрондау үшін Microsoft Exchange қызметіне қосылады.
+# This is shown after the type description, so "it" is referring to the type (either Microsoft Graph or Exchange Web Services).
+account-hub-card-recommended-description = Бұл сіздің қызмет URL адресіне сәйкес келетіндіктен ұсынылады.
+account-hub-exchange-type-username = Пайдаланушы аты
+account-hub-exchange-type-username-hint = Әдетте сіздің электрондық пошта адресіңіз немесе Active Directory UPN.
+account-hub-exchange-type-authentication = Аутентификация тәсілі
+# Checkbox that can be unchecked to use a custom OAuth config.
+account-hub-exchange-type-default-oauth = Microsoft 365 Copilot үнсіз келісім бойынша аутентификация параметрлерін пайдалану
+account-hub-exchange-type-oauth-tenant = Клиент ID-і
+account-hub-exchange-type-oauth-app = Қолданба ID-і
+account-hub-exchange-type-advanced-config = Кеңейтілген баптаулар
+account-hub-exchange-type-title = Тіркелгі түрін таңдаңыз
