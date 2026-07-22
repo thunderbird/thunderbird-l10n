@@ -359,3 +359,4 @@ account-hub-new-remote-address-book = Қашықтағы жаңа адресті
 
 account-hub-exchange-type-account-type = Тіркелгі түрі
 account-hub-card-graph-title = Microsoft Graph
+account-hub-card-graph-description = Microsoft Graph - Microsoft 365 үшін заманауи қосылу әдісі.
