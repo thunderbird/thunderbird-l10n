@@ -151,6 +151,7 @@ toolbar-throbber =
 toolbar-create-contact-label = Kontak Baru
 toolbar-create-contact =
     .title = Buat kontak baru
+toolbar-add-address-book-label = Tambahkan Buku Alamat
 toolbar-create-address-book-label = Buku Alamat Baru
 toolbar-create-address-book =
     .title = Buat buku alamat baru
