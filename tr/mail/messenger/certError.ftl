@@ -8,7 +8,7 @@ cert-error-domain-mismatch = { $hostname } sertifikası bu sunucu için geçerli
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 #   $not-after (string) - Certificate is not valid after this time.
-cert-error-expired = { $hostname } sertifikasının süresi { $not-follow } tarihinde doldu.
+cert-error-expired = { $hostname } sertifikasının süresi { $not-after } tarihinde doldu.
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 #   $not-before (string) - Certificate is not valid before this time.
@@ -27,7 +27,7 @@ cert-error-inline-domain-mismatch =
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 #   $not-after (string) - Certificate is not valid after this time.
 cert-error-inline-expired =
-    .title = Bağlantı hatası. { $hostname } sertifikasının süresi { $not-follow } tarihinde doldu. Sunucu güvenlik ayarlarını açmak için tıklayın.
+    .title = Bağlantı hatası. { $hostname } sertifikasının süresi { $not-after } tarihinde doldu. Sunucu güvenlik ayarlarını açmak için tıklayın.
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 #   $not-before (string) - Certificate is not valid before this time.
