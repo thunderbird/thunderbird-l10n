@@ -69,3 +69,22 @@ gloda-indexed-folder-status =
         [one] Decorrido { $count } segundo
        *[other] Decorridos { $count } segundos
     }
+# Status line shown under extension-send-activity-event. Reports how many
+# messages were sent and the wall-clock time between the first and last send in
+# the batch (rounded to whole seconds, at least one).
+# Variables:
+#   $count (Number) - number of messages sent in this batch
+#   $seconds (Number) - elapsed seconds between the first and last send
+extension-send-activity-event-status =
+    { $count ->
+        [one]
+            { $seconds ->
+                [one] { $count } mensagem em { $seconds } segundo
+               *[other] { $count } mensagem em { $seconds } segundos
+            }
+       *[other]
+            { $seconds ->
+                [one] { $count } mensagens em { $seconds } segundo
+               *[other] { $count } mensagens em { $seconds } segundos
+            }
+    }
