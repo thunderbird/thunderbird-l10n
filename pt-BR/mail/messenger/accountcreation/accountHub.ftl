@@ -251,6 +251,8 @@ account-hub-email-setup-incoming = Configurações do servidor de recebimento
 account-hub-email-setup-outgoing = Configurações do servidor de envio
 account-hub-email-exchange-settings = Configurações do Exchange
 account-hub-email-connect-settings = Conecte suas configurações de email
+account-hub-email-protocol-select-header = Escolha um tipo de conta de email
+account-hub-email-protocol-select-notification = Informações adicionais são necessárias para configurar esta conta
 account-hub-email-config-found = Escolha o tipo de conta de email
 account-hub-email-enter-password = Digite a senha da sua conta de email
 account-hub-email-sync-accounts = Sincronizar suas agendas e catálogos de endereços
@@ -260,6 +262,8 @@ account-hub-result-imap-description = Manter seus emails e pastas sincronizados 
 account-hub-result-pop-description = Manter seus emails e pastas neste computador
 account-hub-result-ews-shortname = Exchange
 account-hub-result-ews-description = Use serviços web do Microsoft Exchange para sincronizar seus emails e pastas
+account-hub-result-graph-api-shortname = Microsoft Graph API
+account-hub-result-graph-api-description = Usar a Microsoft Graph API para sincronizar suas pastas e emails com o Microsoft 365
 account-hub-result-graph-shortname = Exchange (Graph)
 account-hub-result-graph-description = Usar a API Microsoft Graph para sincronizar suas pastas e emails
 account-hub-result-exchange-description = Sincronizar pastas e emails com Exchange ou Office 365
@@ -270,6 +274,12 @@ account-hub-result-recommended-label = Recomendado
 account-hub-result-addon-label = Requer extensão
 account-hub-edit-configuration = Editar configuração
 account-hub-config-success-title = Configurações da conta encontradas automaticamente.
+account-hub-config-success-description-db = Configuração encontrada no Mozilla ISPDB.
+account-hub-config-success-description-exchange = Encontrada configuração de um servidor Microsoft Exchange.
+account-hub-config-success-description-guess = Configuração encontrada ao experimentar nomes de servidor comuns.
+account-hub-config-success-description-disk = Configuração encontrada na instalação do { -brand-short-name }.
+account-hub-config-success-description-isp = Configuração encontrada no provedor de email.
+account-hub-config-success-description-read-more = Você pode <a data-l10n-name="automated-setup-link">ler sobre como funciona a configuração automática de email.</a>
 account-hub-config-success = Configuração encontrada na base de dados de configuração automática (Mozilla ISPDB)
 account-hub-config-success-exchange = Encontrada configuração de um servidor do Microsoft Exchange
 account-hub-config-success-guess = Encontrada configuração ao tentar os nomes comuns de servidores
@@ -313,18 +323,30 @@ account-hub-add-address-book = Adicionar um catálogo de endereços
 address-book-sync-existing-icon =
     .alt = Sincronizar um catálogo de endereços de uma conta existente
 address-book-sync-existing = Sincronizar de uma conta existente
+address-book-add-remote-icon2 =
+    .alt = Adicionar catálogo de endereços remoto
 address-book-add-remote-icon =
     .alt = Adicionar um novo catálogo de endereços remoto
 address-book-add-remote = Adicionar catálogo de endereços remoto
+address-book-add-remote-carddav-description = Conectar a um catálogo de endereços CardDAV
 address-book-add-remote-description = Conectar a um catálogo de endereços CardDav remoto
 address-book-add-local-icon =
     .alt = Criar um novo catálogo de endereços local
 address-book-add-local = Novo catálogo de endereços local
 address-book-add-local-description = Criar um novo catálogo de endereços local em seu dispositivo
+address-book-add-ldap-icon2 =
+    .alt = Adicionar catálogo de endereços LDAP
+address-book-add-ldap-button = Adicionar catálogo de endereços LDAP
 address-book-add-ldap-icon =
     .alt = Conectar a um catálogo de endereços LDAP remoto
 address-book-add-ldap = Novo catálogo de endereços LDAP
 address-book-add-ldap-description = Conectar a um catálogo de endereços LDAP remoto
+# $addressBooks (Number) - The number of address books that can be synced from existing accounts.
+account-hub-address-book-sync-books-data =
+    { $addressBooks ->
+        [one] 1 catálogo de endereços disponível
+       *[other] { $addressBooks } catálogos de endereços disponíveis
+    }
 account-hub-fetching-sync-accounts = Descobrindo catálogos de endereços e agendas…
 address-book-sync-existing-description = Obtendo contas existentes…
 account-hub-select-address-book-account = Selecione uma conta com catálogos de endereços
@@ -341,5 +363,16 @@ account-hub-new-remote-address-book = Novo catálogo de endereços remoto
 
 ## Exchange Type Manual Config Step
 
+account-hub-exchange-type-account-type = Tipo de conta
+account-hub-card-graph-title = Microsoft Graph
+account-hub-card-graph-description = Microsoft Graph é um método moderno de conexão ao Microsoft 365.
+account-hub-card-ews-title = Exchange Web Services
+account-hub-card-ews-tag = Legado
+account-hub-card-ews-description = Exchange Web Services  (EWS) se conecta ao Microsoft Exchange para sincronizar seus emails.
+# This is shown after the type description, so "it" is referring to the type (either Microsoft Graph or Exchange Web Services).
+account-hub-card-recommended-description = É recomendado porque corresponde à sua URL de serviço.
+account-hub-exchange-type-username = Nome de usuário
+account-hub-exchange-type-username-hint = Geralmente seu endereço de email ou UPN do Active Directory.
+account-hub-exchange-type-authentication = Método de autenticação
 account-hub-exchange-type-advanced-config = Configuração avançada
 account-hub-exchange-type-title = Escolha um tipo de conta
