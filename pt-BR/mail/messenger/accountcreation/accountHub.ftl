@@ -376,5 +376,6 @@ account-hub-exchange-type-username-hint = Geralmente seu endereço de email ou U
 account-hub-exchange-type-authentication = Método de autenticação
 # Checkbox that can be unchecked to use a custom OAuth config.
 account-hub-exchange-type-default-oauth = Usar configurações padrão de autenticação do Microsoft 365 Copitor
+account-hub-exchange-type-oauth-app = ID do aplicativo
 account-hub-exchange-type-advanced-config = Configuração avançada
 account-hub-exchange-type-title = Escolha um tipo de conta
