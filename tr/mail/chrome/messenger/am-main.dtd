@@ -13,7 +13,7 @@
 <!ENTITY name.accesskey "A">
 <!ENTITY email.label "E-posta adresi:">
 <!ENTITY email.accesskey "E">
-<!ENTITY catchAll.label "Teslim üst bilgileri eşleştiğinde bu kimlikten yanıt ver:">
+<!ENTITY catchAll.label "Teslim üst bilgileri yandakilerle eşleştiğinde bu kimlikten yanıt ver:">
 <!ENTITY catchAll.accesskey "ü">
 <!ENTITY replyTo.label "Yanıt adresi:">
 <!ENTITY replyTo.accesskey "Y">

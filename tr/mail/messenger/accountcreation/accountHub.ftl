@@ -234,6 +234,7 @@ account-hub-manual-config-incoming-legend = Gelen sunucusu
 account-hub-manual-config-outgoing-legend = Giden sunucusu
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
 account-hub-same-username-checkbox = Gelen sunucusuyla aynı kullanıcı adı
+account-hub-protocol-imap = Cihazlar arasında eşitle
 account-hub-protocol-microsoft = Exchange veya Microsoft 365
 account-hub-protocol-pop3 = Cihaza indir
 account-hub-notification-show-more = Daha fazla göster
@@ -362,6 +363,8 @@ account-hub-card-graph-description = Microsoft Graph, Microsoft 365 için modern
 account-hub-card-ews-title = Exchange Web Services
 account-hub-card-ews-tag = Eski
 account-hub-card-ews-description = Exchange Web Services (EWS), postalarınızı eşitlemek için Microsoft Exchange’e bağlanır.
+# This is shown after the type description, so "it" is referring to the type (either Microsoft Graph or Exchange Web Services).
+account-hub-card-recommended-description = Hizmet adresinizle eşleştiği için bu seçeneği öneriyoruz.
 account-hub-exchange-type-username = Kullanıcı adı
 account-hub-exchange-type-username-hint = Genellikle e-posta adresiniz veya Active Directory UPN’niz.
 account-hub-exchange-type-authentication = Kimlik doğrulama yöntemi
