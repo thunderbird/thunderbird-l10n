@@ -36,6 +36,8 @@ calendar-dialog-attendee-count =
     }
 calendar-dialog-attendee-organizer = Organizador
 calendar-dialog-attendee-optional = Opcional
+calendar-dialog-icon-attending =
+    .alt = Participação
 calendar-dialog-icon-declined =
     .alt = Recusado
 calendar-dialog-icon-maybe =
@@ -94,4 +96,36 @@ calendar-dialog-attachments-summary-label =
     { $count ->
         [one] { $count } anexo
        *[other] { $count } anexos
+    }
+
+## These strings are formatted as a list using Intl.Listformat,
+## resulting for example in "1 attending, 2 maybe, etc.".
+
+# Variables:
+#   $count (Number): Number of guests that responded "attending".
+calendar-dialog-attendee-summary-going =
+    { $count ->
+        [one] { $count } participando
+       *[other] { $count } participando
+    }
+# Variables:
+#   $count (Number): Number of guests that responded "maybe".
+calendar-dialog-attendee-summary-maybe =
+    { $count ->
+        [one] { $count } talvez
+       *[other] { $count } talvez
+    }
+# Variables:
+#   $count (Number): Number of guests that responded "declined".
+calendar-dialog-attendee-summary-declined =
+    { $count ->
+        [one] { $count } recusou
+       *[other] { $count } recusaram
+    }
+# Variables:
+#   $count (Number): Number of guests whose response is pending (didn't reply yet).
+calendar-dialog-attendee-summary-pending =
+    { $count ->
+        [one] { $count } pendente
+       *[other] { $count } pendentes
     }

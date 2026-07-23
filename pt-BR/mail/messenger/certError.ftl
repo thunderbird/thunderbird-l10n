@@ -17,6 +17,9 @@ cert-error-not-yet-valid = O certificado de { $hostname } só será válido a pa
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-untrusted-default = O certificado de { $hostname } não é de um emissor considerado confiável.
 # Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server.
+cert-error-ssl-connection-error = Houve um erro ao conectar com { $hostname }.
+# Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-domain-mismatch =
     .title = Erro de conexão. O certificado de { $hostname } não é válido para este servidor. Alguém pode estar tentando se passar pelo servidor, você não deve continuar. Clique para abrir as configurações de segurança do servidor.
@@ -34,6 +37,10 @@ cert-error-inline-not-yet-valid =
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-untrusted-default =
     .title = Erro de conexão. O certificado de { $hostname } não é de origem considerada confiável. Clique para abrir as configurações de segurança do servidor.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server.
+cert-error-inline-ssl-connection-error =
+    .title = Houve um erro ao conectar com { $hostname }.
 certificate-check-test-button = Testar conexão com o servidor
 certificate-check-view-button = Ver certificado
 certificate-check-add-exception-button = Adicionar exceção
