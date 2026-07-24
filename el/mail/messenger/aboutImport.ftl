@@ -140,8 +140,8 @@ error-message-no-profile = Δεν βρέθηκε προφίλ.
 
 csv-first-row-contains-headers = Η πρώτη σειρά περιέχει ονόματα πεδίων
 csv-source-field = Πεδίο πηγής
-csv-source-first-record = Πρώτη καταχώρηση
-csv-source-second-record = Δεύτερη καταχώρηση
+csv-source-first-record = Πρώτη καταχώριση
+csv-source-second-record = Δεύτερη καταχώριση
 csv-target-field = Πεδίο ευρετηρίου
 
 ## Export tab

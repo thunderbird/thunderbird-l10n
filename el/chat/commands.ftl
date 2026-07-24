@@ -13,7 +13,7 @@ no-command = Καμία εντολή «{ $command }».
 #  $command (String): is the command name the user typed.
 no-help-key = Κανένα μήνυμα βοήθειας για την εντολή «{ $command }», συγγνώμη!
 say-help-string = say &lt;μήνυμα&gt;: αποστολή μηνύματος χωρίς επεξεργασίας εντολών.
-raw-help-string = raw &lt;μήνυμα&gt;: αποστολή μηνύματος χωρίς διαφυγή καταχωρήσεων HTML.
+raw-help-string = raw &lt;μήνυμα&gt;: αποστολή μηνύματος χωρίς διαφυγή καταχωρίσεων HTML.
 help-help-string = help &lt;όνομα&gt;: εμφάνιση μηνύματος βοήθειας για την εντολή &lt;όνομα&gt; ή της λίστας των πιθανών εντολών, όταν χρησιμοποιείται χωρίς παράμετρο.
 # LOCALIZATION NOTE (status-command):
 #  $command (String): is replaced with a status command name (one of "back-key-key", "away-key-key", "busy-key-key", "dnd-key-key", or "offline-key-key").

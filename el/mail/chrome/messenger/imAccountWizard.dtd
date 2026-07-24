@@ -11,7 +11,7 @@
 <!ENTITY accountPasswordTitle.label "Κωδικός πρόσβασης">
 <!ENTITY accountPasswordInfo.label "Εισαγάγετε τον κωδικό πρόσβασής σας στο παρακάτω πλαίσιο.">
 <!ENTITY accountPasswordField.label "Κωδικός πρόσβασης:">
-<!ENTITY accountPasswordManager.label "Ο καταχωρημένος κωδικός πρόσβασης θα αποθηκευτεί στη Διαχείριση κωδικών πρόσβασης. Αφήστε αυτό το πλαίσιο κενό αν θέλετε να εισάγετε τον κωδικό πρόσβασης σας κάθε φορά που θα συνδέεστε σε αυτόν τον λογαριασμό.">
+<!ENTITY accountPasswordManager.label "Ο καταχωρισμένος κωδικός πρόσβασης θα αποθηκευτεί στη Διαχείριση κωδικών πρόσβασης. Αφήστε αυτό το πλαίσιο κενό αν θέλετε να εισάγετε τον κωδικό πρόσβασης σας κάθε φορά που θα συνδέεστε σε αυτόν τον λογαριασμό.">
 <!ENTITY accountAdvancedTitle.label "Σύνθετες επιλογές">
 <!ENTITY accountAdvancedInfo.label "Μπορείτε, αν θέλετε, να παρακάμψετε αυτό το βήμα.">
 <!ENTITY accountAdvanced.newMailNotification.label "Ειδοποίηση για νέα email">

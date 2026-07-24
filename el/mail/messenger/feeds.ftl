@@ -13,8 +13,8 @@ subscribe-opml-import-unique-feeds =
 #   $count - total number of elements found in the file
 subscribe-opml-import-found-feeds =
     { $count ->
-        [one] (από { $count } ευρεθείσα καταχώρηση)
-       *[other] (από { $count } συνολικά ευρεθείσες καταχωρήσεις)
+        [one] (από { $count } καταχώριση)
+       *[other] (από { $count } καταχωρίσεις συνολικά)
     }
 # Variables:
 #   $count - the count of new imported entries

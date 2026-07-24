@@ -17,6 +17,6 @@
 <!ENTITY cmd.removeFromHistory.accesskey "ι">
 <!ENTITY cmd.clearList.label "Απαλοιφή λίστας">
 <!ENTITY cmd.clearList.accesskey "Α">
-<!ENTITY cmd.clearList.tooltip "Αφαίρεση όλων των καταχωρήσεων από τη λίστα αποθηκευμένων αρχείων, εκτός από τις λήψεις σε εξέλιξη.">
+<!ENTITY cmd.clearList.tooltip "Αφαίρεση όλων των καταχωρίσεων από τη λίστα αποθηκευμένων αρχείων, εκτός από τις λήψεις σε εξέλιξη.">
 <!ENTITY cmd.searchDownloads.label "Αναζήτηση…">
 <!ENTITY cmd.searchDownloads.key "F">

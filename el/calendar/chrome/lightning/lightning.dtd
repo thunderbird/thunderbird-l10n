@@ -46,13 +46,13 @@
 <!ENTITY lightning.imipbar.btnAccept.label "Αποδοχή">
 <!ENTITY lightning.imipbar.btnAccept2.tooltiptext "Αποδοχή πρόσκλησης σε εκδήλωση">
 <!ENTITY lightning.imipbar.btnAcceptRecurrences.label "Αποδοχή όλων">
-<!ENTITY lightning.imipbar.btnAcceptRecurrences2.tooltiptext "Αποδοχή πρόσκλησης για όλες τις καταχωρήσεις της εκδήλωσης">
+<!ENTITY lightning.imipbar.btnAcceptRecurrences2.tooltiptext "Αποδοχή πρόσκλησης για όλες τις καταχωρίσεις της εκδήλωσης">
 <!ENTITY lightning.imipbar.btnAdd.label "Προσθήκη">
 <!ENTITY lightning.imipbar.btnAdd.tooltiptext "Προσθήκη εκδήλωσης στο ημερολόγιο">
 <!ENTITY lightning.imipbar.btnDecline.label "Απόρριψη">
 <!ENTITY lightning.imipbar.btnDecline2.tooltiptext "Απόρριψη πρόσκλησης σε εκδήλωση">
 <!ENTITY lightning.imipbar.btnDeclineRecurrences.label "Αρνητική απάντηση σε όλα">
-<!ENTITY lightning.imipbar.btnDeclineRecurrences2.tooltiptext "Απόρριψη πρόσκλησης για όλες τις καταχωρήσεις της εκδήλωσης">
+<!ENTITY lightning.imipbar.btnDeclineRecurrences2.tooltiptext "Απόρριψη πρόσκλησης για όλες τις καταχωρίσεις της εκδήλωσης">
 <!ENTITY lightning.imipbar.btnDeclineCounter.label "Απόρριψη">
 <!ENTITY lightning.imipbar.btnDeclineCounter.tooltiptext "Αρνητική απάντηση στην αντιπρόταση">
 <!ENTITY lightning.imipbar.btnDelete.label "Διαγραφή">
@@ -73,7 +73,7 @@
 <!ENTITY lightning.imipbar.btnTentative.label "Αβεβαιότητα">
 <!ENTITY lightning.imipbar.btnTentative2.tooltiptext "Επιφυλακτική αποδοχή πρόσκλησης σε εκδήλωση">
 <!ENTITY lightning.imipbar.btnTentativeRecurrences.label "Αβεβαιότητα για όλα">
-<!ENTITY lightning.imipbar.btnTentativeRecurrences2.tooltiptext "Επιφυλακτική αποδοχή πρόσκλησης για όλες τις καταχωρήσεις της εκδήλωσης">
+<!ENTITY lightning.imipbar.btnTentativeRecurrences2.tooltiptext "Επιφυλακτική αποδοχή πρόσκλησης για όλες τις καταχωρίσεις της εκδήλωσης">
 <!ENTITY lightning.imipbar.btnUpdate.label "Ενημέρωση">
 <!ENTITY lightning.imipbar.btnUpdate.tooltiptext "Ενημέρωση εκδήλωσης στο ημερολόγιο">
 <!ENTITY lightning.imipbar.description "Αυτό το μήνυμα περιέχει πρόσκληση σε εκδήλωση.">
