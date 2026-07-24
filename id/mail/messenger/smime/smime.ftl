@@ -12,3 +12,20 @@ configured-cert-ok-sig = Sertifikat lulus uji dan dapat digunakan untuk penandat
 configured-cert-failure-detail = Verifikasi sertifikat gagal dengan galat berikut: { $errorMsg } (Kode Kesalahan: { $errorCodeStr })
 # $errorCode A numeric error code
 configured-cert-failure = Verifikasi sertifikat gagal dengan kode kesalahan { $errorCode }
+# $errorMsg A sentence that explains the error.
+# $errorCodeStr A human readable error code, e.g. SEC_ERROR_UNKNOWN_ISSUER
+# Note the initial empty line is necessary to preserve the line breaks.
+configured-cert-failure-use-anyway-detail-v2 =
+    Ada masalah dengan sertifikat ini.
+    
+    Verifikasi sertifikat gagal dengan galat berikut: { $errorMsg } (Kode Kesalahan: { $errorCodeStr })
+    
+    Apakah Anda tetap ingin menggunakan sertifikat ini?
+# $errorCode A numeric error code
+# Note the initial empty line is necessary to preserve the line breaks.
+configured-cert-failure-use-anyway-v2 =
+    Ada masalah dengan sertifikat ini.
+    
+    Verifikasi sertifikat gagal dengan kode kesalahan { $errorCode }.
+    
+    Apakah Anda tetap ingin menggunakan sertifikat ini?

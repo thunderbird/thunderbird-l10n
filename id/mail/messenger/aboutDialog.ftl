@@ -5,6 +5,11 @@
 about-update-whats-new = Apa yang Baru
 about-dialog-title = Tentang { -brand-full-name }
 release-notes-link = Catatan rilis
+# This describes the codename logo shown in the About Thunderbird dialog for the current annual release.
+# Do not translate: Meadow
+about-dialog-meadow-logo =
+    .alt = Lencana { -brand-short-name } nama kode Meadow
+    .title = { -brand-short-name } - Nama Kode Meadow
 update-internal-error = Tidak dapat memeriksa pembaruan karena kesalahan internal. Pembaruan tersedia di <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Periksa Versi Baru
     .accesskey = C

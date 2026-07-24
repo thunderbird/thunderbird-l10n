@@ -85,6 +85,7 @@ policy-RequestedLocales = Atur daftar kode pelokalan yang diminta untuk aplikasi
 policy-SanitizeOnShutdown2 = Bersihkan data navigasi saat dimatikan
 policy-SearchEngines = Konfigurasikan setelan mesin pencari. Kebijakan ini hanya tersedia dalam versi Extended Support Release (ESR).
 policy-SearchSuggestEnabled = Aktifkan atau nonaktifkan saran pencarian.
+policy-SecurityDevices2 = Tambah atau hapus modul PKCS #11.
 # For more information, see https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
 policy-SecurityDevices = Pasang modul PKCS#11.
 policy-SSLVersionMax = Tetapkan versi SSL maksimum.
