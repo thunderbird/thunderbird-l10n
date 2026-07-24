@@ -4,6 +4,7 @@
 
 open-preferences-sidebar-button2 = Pengaturan { -brand-short-name }
 open-addons-sidebar-button = Pengaya dan Tema
+account-tree-add-account-button = Tambahkan Akun
 account-action-add-newsgroup-account =
     .label = Tambahkan Akun Newsgroup…
     .accesskey = N

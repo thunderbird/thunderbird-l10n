@@ -262,6 +262,8 @@ account-hub-result-imap-description = Tetap sinkronkan folder dan surel di serve
 account-hub-result-pop-description = Simpan folder dan surel Anda di komputer Anda
 account-hub-result-ews-shortname = Exchange
 account-hub-result-ews-description = Gunakan Microsoft Exchange Web Services untuk menyinkronkan folder dan surel Anda
+account-hub-result-graph-api-shortname = API Microsoft Graph
+account-hub-result-graph-api-description = Gunakan API Microsoft Graph untuk menyelaraskan folder dan surel Anda dengan Microsoft 365
 account-hub-result-graph-shortname = Exchange (Graph)
 account-hub-result-graph-description = Gunakan API Microsoft Graph untuk menyelaraskan folder dan surel Anda
 account-hub-result-exchange-description = Sinkronkan folder & surel dengan Exchange atau Office 365
@@ -277,6 +279,7 @@ account-hub-config-success-description-exchange = Konfigurasi ditemukan untuk se
 account-hub-config-success-description-guess = Konfigurasi ditemukan dengan mencoba nama server yang umum.
 account-hub-config-success-description-disk = Konfigurasi ditemukan dalam pemasangan { -brand-short-name }.
 account-hub-config-success-description-isp = Konfigurasi ditemukan di penyedia surel.
+account-hub-config-success-description-read-more = Anda dapat <a data-l10n-name="automated-setup-link">membaca tentang cara kerja penyiapan surel otomatis.</a>
 account-hub-config-success = Konfigurasi ditemukan di ISPDB Mozilla
 account-hub-config-success-exchange = Konfigurasi ditemukan untuk server Microsoft Exchange
 account-hub-config-success-guess = Konfigurasi ditemukan dengan mencoba nama server yang umum
@@ -317,18 +320,26 @@ account-hub-add-address-book = Tambahkan buku alamat
 address-book-sync-existing-icon =
     .alt = Sinkronkan buku alamat dari akun yang ada
 address-book-sync-existing = Sinkronkan dari akun yang ada
+address-book-add-remote-icon2 =
+    .alt = Tambahkan buku alamat jarak jauh
 address-book-add-remote-icon =
     .alt = Tambahkan buku alamat jarak jauh baru
 address-book-add-remote = Tambahkan Buku Alamat jarak jauh
+address-book-add-remote-carddav-description = Sambungkan ke buku alamat CardDAV
 address-book-add-remote-description = Sambungkan ke Buku Alamat CardDav jarak jauh
 address-book-add-local-icon =
     .alt = Buat buku alamat lokal baru
 address-book-add-local = Buku Alamat lokal baru
 address-book-add-local-description = Buat buku alamat lokal baru di perangkat Anda
+address-book-add-ldap-icon2 =
+    .alt = Tambahkan buku alamat LDAP
+address-book-add-ldap-button = Tambahkan Buku Alamat LDAP
 address-book-add-ldap-icon =
     .alt = Sambungkan ke buku alamat LDAP jarak jauh
 address-book-add-ldap = Buku Alamat LDAP Baru
 address-book-add-ldap-description = Sambungkan ke buku alamat LDAP jarak jauh
+# $addressBooks (Number) - The number of address books that can be synced from existing accounts.
+account-hub-address-book-sync-books-data = { $addressBooks } buku alamat tersedia
 account-hub-fetching-sync-accounts = Menemukan buku alamat dan kalender…
 address-book-sync-existing-description = Mengambil akun yang ada…
 account-hub-select-address-book-account = Pilih akun dengan Buku alamat
@@ -342,3 +353,23 @@ account-hub-local-address-book-label = Nama Buku Alamat
 account-hub-local-error-text = Masukkan nama buku alamat
 account-hub-sync-address-books = Sinkronkan buku alamat yang ada
 account-hub-new-remote-address-book = Buku Alamat jarak jauh baru
+
+## Exchange Type Manual Config Step
+
+account-hub-exchange-type-account-type = Jenis akun
+account-hub-card-graph-title = Microsoft Graph
+account-hub-card-graph-description = Microsoft Graph adalah metode koneksi modern untuk Microsoft 365.
+account-hub-card-ews-title = Layanan Web Exchange
+account-hub-card-ews-tag = Warisan
+account-hub-card-ews-description = Exchange Web Services (EWS) tersambung ke Microsoft Exchange untuk menyelaraskan surel Anda.
+# This is shown after the type description, so "it" is referring to the type (either Microsoft Graph or Exchange Web Services).
+account-hub-card-recommended-description = Disarankan karena cocok dengan URL Layanan Anda.
+account-hub-exchange-type-username = Nama pengguna
+account-hub-exchange-type-username-hint = Biasanya alamat surel Anda atau UPN Active Directory.
+account-hub-exchange-type-authentication = Metode Otentikasi
+# Checkbox that can be unchecked to use a custom OAuth config.
+account-hub-exchange-type-default-oauth = Gunakan pengaturan autentikasi Microsoft 365 Copilot default
+account-hub-exchange-type-oauth-tenant = ID Penyewa
+account-hub-exchange-type-oauth-app = ID Aplikasi
+account-hub-exchange-type-advanced-config = Konfigurasi Lanjutan
+account-hub-exchange-type-title = Pilih jenis akun

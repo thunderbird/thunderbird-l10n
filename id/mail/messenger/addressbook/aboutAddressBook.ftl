@@ -16,6 +16,8 @@ about-addressbook-toolbar-add-ldap-address-book =
     .label = Tambah Buku Alamat LDAP
 books-pane-create-contact-button = Kontak Baru
     .title = Buat kontak baru
+books-pane-add-book-button =
+    .title = Tambahkan buku alamat
 books-pane-create-book-button =
     .title = Buat buku alamat baru
 books-pane-create-list-button =
@@ -61,6 +63,8 @@ about-addressbook-confirm-remove-remote-book-title = Singkirkan Buku Alamat
 # Variables:
 # $name (String) - Name of the remote address book to be removed.
 about-addressbook-confirm-remove-remote-book = Yakin ingin menghapus { $name }?
+address-book-list =
+    .aria-label = Daftar buku alamat
 
 ## Cards
 

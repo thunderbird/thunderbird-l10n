@@ -17,6 +17,9 @@ cert-error-not-yet-valid = Sertifikat untuk { $hostname } tidak akan valid hingg
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-untrusted-default = Sertifikat untuk { $hostname } tidak berasal dari sumber tepercaya.
 # Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server.
+cert-error-ssl-connection-error = Terjadi kesalahan saat menyambungkan ke { $hostname }.
+# Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-domain-mismatch =
     .title = Kesalahan sambungan. Sertifikat untuk { $hostname } tidak valid untuk server tersebut. Seseorang mungkin mencoba menyamar sebagai server dan Anda tidak boleh melanjutkan. Klik untuk membuka pengaturan keamanan server.
@@ -34,6 +37,10 @@ cert-error-inline-not-yet-valid =
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-untrusted-default =
     .title = Kesalahan sambungan. Sertifikat untuk { $hostname } tidak berasal dari sumber tepercaya. Klik untuk membuka pengaturan keamanan server.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server.
+cert-error-inline-ssl-connection-error =
+    .title = Terjadi kesalahan saat menyambungkan ke { $hostname }.
 certificate-check-test-button = Uji koneksi ke server
 certificate-check-view-button = Lihat Sertifikat
 certificate-check-add-exception-button = Tambah Pengecualian
