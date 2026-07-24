@@ -54,7 +54,7 @@ aboutdialog-version-arch = { $version } ({ $arch })
 #   $arch (String): name of the architecture (arm, aarch64, etc.)
 aboutdialog-version-arch-nightly = { $version } ({ $isodate }) ({ $arch })
 aboutdialog-update-checking-failed = Échec de la vérification des mises à jour.
-community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> est une <a data-l10n-name="community-exp-credits-link">communauté mondiale</a> de contributeurs qui travaillent ensemble pour garder le Web ouvert, public et accessible à tous.
+community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> est une <a data-l10n-name="community-exp-credits-link">communauté mondiale</a> de contributeurs qui travaillent ensemble pour garder le Web ouvert, public et accessible à tout le monde.
 community-desc = { -brand-short-name } est conçu par <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, une communauté mondiale de <a data-l10n-name="community-credits-link">contributeurs</a> qui travaillent ensemble pour garder le Web ouvert, public et accessible à tous.
 about-donation = Vous souhaitez aider ? Vous pouvez <a data-l10n-name="helpus-donate-link">faire un don</a> or <a data-l10n-name="helpus-get-involved-link">participer</a>
 bottom-links-license = Informations de licence
