@@ -766,6 +766,54 @@ preferences-doh-expand-section =
 preferences-doh-setting-default =
     .label = 기본 보호
     .accesskey = D
+preferences-doh-default-desc = { -brand-short-name }가 보안 DNS를 사용하여 개인 정보를 보호할 때를 결정합니다.
+preferences-doh-default-detailed-desc-1 = 보안 DNS 사용이 가능하면 사용함
+preferences-doh-default-detailed-desc-2 = 보안 DNS 공급자에 문제가 있는 경우 기본 DNS 확인자 사용
+preferences-doh-default-detailed-desc-3 = 가능하면 로컬 공급자를 사용
+preferences-doh-default-detailed-desc-4 = VPN, 자녀 보호 또는 엔터프라이즈 정책이 활성화되면 끄기
+preferences-doh-default-detailed-desc-5 = 네트워크에서 { -brand-short-name }에 보안 DNS를 사용하지 말라고 하면 끄기
+preferences-doh-setting-enabled =
+    .label = 향상된 보호
+    .accesskey = I
+preferences-doh-enabled-desc = 보안 DNS를 사용할 때를 제어하고 공급자를 선택합니다.
+preferences-doh-enabled-detailed-desc-1 = 선택한 공급자 사용
+preferences-doh-enabled-detailed-desc-2 = 보안 DNS에 문제가 있는 경우에만 기본 DNS 확인자 사용
+preferences-doh-setting-strict =
+    .label = 최대 보호
+    .accesskey = M
+preferences-doh-strict-desc = { -brand-short-name }가 항상 보안 DNS를 사용합니다. 시스템 DNS를 사용하기 전에 보안 위험 경고가 표시됩니다.
+preferences-doh-strict-detailed-desc-1 = 선택한 공급자만 사용
+preferences-doh-strict-detailed-desc-2 = 보안 DNS를 사용할 수 없는 경우 항상 경고
+preferences-doh-strict-detailed-desc-3 = 보안 DNS를 사용할 수 없으면 사이트가 제대로 로드되지 않거나 작동하지 않음
+preferences-doh-setting-off =
+    .label = 끄기
+    .accesskey = O
+preferences-doh-off-desc = 기본 DNS 확인자 사용
+preferences-doh-checkbox-warn =
+    .label = 제3자가 보안 DNS를 차단하는 경우 경고
+    .accesskey = W
+preferences-doh-select-resolver = 공급자 선택:
+# Variables:
+#   $name (String) - Display name or URL for the DNS over HTTPS provider
+preferences-doh-url-default =
+    .label = { $name } (기본값)
+preferences-doh-url-custom =
+    .label = 사용자 지정
+    .accesskey = C
+
+## Keyservers
+
+email-e2ee-key-servers-legend = OpenPGP 키 서버
+email-e2ee-key-servers-intro =
+    키 서버는 기존 공개 키를 사용자에게 제공합니다.
+    사용자의 공개 키를 게시하고 다른 사용자의 키를 가져옵니다.
+email-e2ee-key-servers-use-following = 다음 키 서버 사용:
+email-e2ee-key-servers-add = 추가…
+email-e2ee-key-servers-reset = 서버 목록 초기화
+email-e2ee-key-servers-add-title = 키 서버 추가
+email-e2ee-key-servers-add-text = 추가할 키 서버의 URL을 입력하세요.
+email-e2ee-key-servers-add-failed-title = 키 서버 추가 실패
+email-e2ee-key-servers-add-failed-text = 제공된 URL로 키 서버에 연결할 수 없습니다.
 
 ## Chat Tab
 
@@ -964,6 +1012,24 @@ qr-export-more-accounts = 더 많은 계정 내보내기
 ## Appearance Tab
 
 appearance-category-header = 모양
+accent-color-legend = 강조색
+accent-color-label =
+    .value = 기본 버튼과 강조된 요소에 사용할 색상을 선택합니다:
+accent-color-os =
+    .label = 운영 체제 설정
+accent-color-thunderbird =
+    .label = Thunderbird 푸른색
+accent-color-purple =
+    .label = 보라색
+accent-color-orange =
+    .label = 주황색
+accent-color-pink =
+    .label = 분홍색
+accent-color-ink =
+    .label = 검은색
+accent-color-teal =
+    .label = 청록색
+accent-color-disabled-description = 고대비 모드에서는 강조색을 사용할 수 없습니다.
 default-message-list-legend = 메시지 목록
 appearance-view-style =
     .value = 보기 유형:
