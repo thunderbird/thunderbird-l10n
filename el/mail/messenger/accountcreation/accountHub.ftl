@@ -362,8 +362,15 @@ account-hub-card-graph-title = Microsoft Graph
 account-hub-card-graph-description = Το Microsoft Graph είναι μια σύγχρονη μέθοδος σύνδεσης για το Microsoft 365.
 account-hub-card-ews-title = Exchange Web Services
 account-hub-card-ews-tag = Παλαιού τύπου
+account-hub-card-ews-description = Το Exchange Web Services (EWS) συνδέεται στο Microsoft Exchange για τον συγχρονισμό της αλληλογραφίας σας.
+# This is shown after the type description, so "it" is referring to the type (either Microsoft Graph or Exchange Web Services).
+account-hub-card-recommended-description = Προτείνεται επειδή αντιστοιχεί στο URL της υπηρεσίας σας.
 account-hub-exchange-type-username = Όνομα χρήστη
+account-hub-exchange-type-username-hint = Συνήθως, είναι η διεύθυνση email ή το UPN της υπηρεσίας Active Directory.
 account-hub-exchange-type-authentication = Μέθοδος ταυτοποίησης
+# Checkbox that can be unchecked to use a custom OAuth config.
+account-hub-exchange-type-default-oauth = Χρήση των προεπιλεγμένων ρυθμίσεων ταυτοποίησης του Microsoft 365 Copilot
 account-hub-exchange-type-oauth-tenant = ID μισθωτή
 account-hub-exchange-type-oauth-app = ID εφαρμογής
 account-hub-exchange-type-advanced-config = Σύνθετη διαμόρφωση
+account-hub-exchange-type-title = Επιλογή τύπου λογαριασμού
