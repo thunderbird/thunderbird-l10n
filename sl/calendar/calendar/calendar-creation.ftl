@@ -47,3 +47,6 @@ calendar-creation-network-authfail = Poverilnice, ki ste jih vnesli, niso bile s
 calendar-creation-network-certerror = Na tem mestu ni bilo mogoče najti koledarjev zaradi težave z digitalnim potrdilom.
 calendar-creation-network-subscribe-single = Izberite koledarje, na katere se želite naročiti.
 calendar-creation-network-subscribe-multiple = Za to mesto je na voljo več vrst koledarjev. Izberite vrsto koledarja in nato označite koledarje, na katere se želite naročiti.
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = Vnesite svoje geslo za { $location }:
