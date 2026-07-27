@@ -101,6 +101,7 @@ imip-bar-reply-to-not-existing-item = Това съобщение съдържа
 
 ## Calendar email identity
 
+no-identity-selected-notification = Ако желаете да запазвате покани от и към вас в този календар трябва изберете адрес на ел. поща по-долу.
 
 ## Invitations panel
 
