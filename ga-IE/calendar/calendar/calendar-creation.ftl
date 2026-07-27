@@ -9,3 +9,6 @@ calendar-creation-initial-network =
     .label = Ar an Líonra
 calendar-creation-username =
     .value = Ainm úsáideora:
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = Iontráil d'fhocal faire le haghaidh { $location } le do thoil:
