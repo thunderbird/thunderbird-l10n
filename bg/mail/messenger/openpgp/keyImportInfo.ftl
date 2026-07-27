@@ -6,3 +6,7 @@ key-import-info-close =
     .label = Затваряне
     .accesskey = З
 import-info-dialog-title = Успех! Ключовете са внесени
+import-info-created = Дата на създаване
+import-info-fpr = Пръстов отпечатък
+import-info-details = Преглед на подробности и управление на приемането на ключове
+import-info-no-keys = Няма внесени ключове.
