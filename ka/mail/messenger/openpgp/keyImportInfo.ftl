@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+key-import-info-close =
+    .label = დახურვა
+    .accesskey = ხ
 import-info-dialog-title = წარმატებით გადმოტანილია გასაღებები.
 import-info-created = შექმნილი
 import-info-fpr = ანაბეჭდი
