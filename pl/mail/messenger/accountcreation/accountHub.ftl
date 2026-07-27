@@ -230,6 +230,7 @@ account-hub-thundermail-button = Zaloguj się za pomocą usługi Thundermail
 account-hub-thundermail-divider-text = lub
 account-hub-manual-config-imap-title = Ustawienia IMAP
 account-hub-manual-config-pop3-title = Ustawienia POP3
+account-hub-manual-config-review-settings-title = Przejrzyj zaktualizowane ustawienia
 account-hub-manual-config-incoming-legend = Serwer poczty przychodzącej
 account-hub-manual-config-outgoing-legend = Serwer poczty wychodzącej
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
@@ -237,6 +238,10 @@ account-hub-same-username-checkbox = Ta sama nazwa użytkownika co na serwerze p
 account-hub-protocol-imap = Synchronizuj między urządzeniami
 account-hub-protocol-microsoft = Exchange lub Microsoft 365
 account-hub-protocol-pop3 = Pobieraj na urządzenie
+account-hub-oauth-unsupported-title = Wymagana jest dodatkowa konfiguracja
+# Note: 'Advanced Configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
+# 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
+account-hub-oauth-unsupported-description = { -brand-short-name } nie może automatycznie skonfigurować OAuth2 dla tej nazwy hosta. Wybierz konfigurację zaawansowaną, aby utworzyć konto, a następnie dokończ konfigurację w ustawieniach konta. <a data-l10n-name="oauth-support-link">Uzyskaj pomoc dotyczącą konfiguracji OAuth2.</a>
 account-hub-notification-show-more = Więcej
 account-hub-notification-show-less = Mniej
 account-hub-email-setup-header = Dodaj adres e-mail
@@ -302,6 +307,7 @@ account-hub-port-error-text = Port musi być pomiędzy 1 a 65535
     .title = Port musi być pomiędzy 1 a 65535
 account-hub-username-error-text = Nazwa użytkownika jest wymagana
     .title = Nazwa użytkownika jest wymagana
+account-hub-manual-config-error-summary = Rozwiąż następujące problemy:
 account-hub-oauth-pending = Oczekiwanie na upoważnienie w wyskakującym oknie logowania…
 account-hub-addon-install-button = Zainstaluj
 account-hub-addon-install-needed = { -brand-short-name } nie obsługuje natywnie tego serwera. Aby uzyskać dostęp do poczty e-mail Exchange, <a data-l10n-name="addon-install"> zainstaluj dodatek zewnętrznego producenta, taki jak Owl (płatny).</a>

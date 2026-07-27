@@ -35,6 +35,7 @@ policy-DisableFormHistory = Wyłączenie zachowywania historii wyszukiwania i f
 policy-DisableMasterPasswordCreation = Wartość „prawda” powoduje, że nie można utworzyć hasła głównego.
 policy-DisablePasswordReveal = Wyłączenie możliwości wyświetlania haseł w zachowanych danych logowania.
 policy-DisableProfileImport = Wyłączenie polecenia menu do importowania danych z innego programu.
+policy-DisableQRExport = Wyłącz generowanie kodu QR w celu eksportu ustawień konta i danych logowania.
 policy-DisableSafeMode = Wyłączenie funkcji ponownego uruchomienia w trybie awaryjnym. Uwaga: użycie klawisza Shift do przejścia do trybu awaryjnego można wyłączyć w systemie Windows tylko za pomocą Group Policy.
 policy-DisableSecurityBypass = Uniemożliwienie użytkownikowi obejścia pewnych ostrzeżeń bezpieczeństwa.
 policy-DisableSystemAddonUpdate = Uniemożliwienie programowi { -brand-short-name } instalowania i aktualizowania dodatków systemowych.

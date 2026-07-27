@@ -165,6 +165,9 @@ week-title-label =
     .aria-label = { $title }. tydzień
 calendar-none =
     .label = Brak
+# Variables:
+#   $fileName (String) - The backup file name, e.g. 'local-2020-05-11T21-30-17.sqlite'.
+too-new-dbschema-error-text = Dane kalendarza są niezgodne z tą wersją programu { -brand-short-name }. Dane w profilu zostały uaktualnione przez nowszą wersję programu { -brand-short-name }. Utworzono kopię zapasową pliku z danymi o nazwie „{ $fileName }”. Działanie będzie kontynuowane z nowo utworzonym plikiem z danymi.
 imip-bar-unsupported-text = Ta wiadomość zawiera wydarzenie, którego ta wersja rozszerzenia { -brand-short-name } nie potrafi przetworzyć.
 # Error strings
 # @name UID_NOT_FOUND
@@ -1146,3 +1149,14 @@ event-recurrence-forever =
 attendees-tab-label = Uczestnicy ({ $count }):
 # $count - the number of attachments
 attachments-tab-label = Załączniki ({ $count }):
+# Variables:
+#   $docTitle (String) - The date or view label for the current calendar view.
+calendar-window-title = { $docTitle } — { -brand-full-name }
+calendar-window-title-base = { -brand-full-name }
+# Variables:
+#   $username (String) - The account username.
+#   $location (String) - The calendar server location.
+calendar-auth-enter-password-for = Wpisz hasło dla { $username } w { $location }
+# Variables:
+#   $location (String) - The calendar server location.
+calendar-auth-enter-user-password-for = { $location } prosi o podanie nazwy użytkownika i hasła.
