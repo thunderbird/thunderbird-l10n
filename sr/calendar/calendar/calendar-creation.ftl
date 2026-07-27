@@ -47,3 +47,6 @@ calendar-creation-network-authfail = Унети акредитиви нису п
 calendar-creation-network-certerror = Није могуће пронаћи календаре на овој локацији због проблема са сертификатом.
 calendar-creation-network-subscribe-single = Изаберите календаре на које се желите претплатити.
 calendar-creation-network-subscribe-multiple = Више врста календара је доступно за ово место. Изаберите врсту календара па онда означите календаре на које се желите претплатити.
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = Унесите лозинку за { $location }:
