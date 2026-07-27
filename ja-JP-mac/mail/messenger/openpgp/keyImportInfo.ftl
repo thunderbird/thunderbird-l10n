@@ -5,3 +5,8 @@
 key-import-info-close =
     .label = 閉じる
     .accesskey = C
+import-info-dialog-title = 成功！ 鍵を読み込みました
+import-info-created = 作成日
+import-info-fpr = フィンガープリント
+import-info-details = 詳細を表示し鍵の受け入れを管理
+import-info-no-keys = 鍵は読み込まれませんでした。
