@@ -115,6 +115,7 @@ imip-bar-reply-to-not-existing-item = Esta mensagem contém uma resposta referin
 
 ## Calendar email identity
 
+no-identity-selected-notification = Se você quer usar esta agenda para armazenar convites de ou para outras pessoas, deve atribuir abaixo uma identidade de email.
 
 ## Invitations panel
 
