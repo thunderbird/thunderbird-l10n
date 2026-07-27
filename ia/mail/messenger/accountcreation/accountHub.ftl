@@ -274,11 +274,6 @@ account-hub-config-success-description-disk = Configuration trovate in installat
 account-hub-config-success-description-isp = Configuration trovate pro le fornitor de e-mail.
 account-hub-config-success-description-read-more = Tu pote <a data-l10n-name="automated-setup-link">leger re como functiona le installation automatisate de e-mail.</a>
 account-hub-config-success = Configuration trovate in Mozilla ISPDB
-account-hub-config-success-exchange = Configuration trovate in servitor Microsoft Exchange
-account-hub-config-success-guess = Configuration trovate probante nomines de servitores commun
-account-hub-config-success-disk = Configuration trovate in le installation de { -brand-short-name }.
-account-hub-config-success-isp = Configuration trovate presso le fornitor de email
-account-hub-config-success-unknown = Configuration trovate
 account-hub-password-info = Tu credentiales sera reservate solo localmente su tu computator
 account-hub-creating-account = Creante conto…
 account-hub-sync-accounts-found = { -brand-short-name } discoperiva alcun servicios connexe

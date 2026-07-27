@@ -51,9 +51,6 @@ certificate-checking = { $hostname } серверіне қосылым текс�
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-test-success = { $hostname } серверіне қауіпсіз қосылым сәтті орнатылды.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-test-failure = { $hostname } серверіне қосылу сәтсіз аяқталды.
 certificate-check-exception-added = Сертификаттың ережеден тыс жағдайы қосылды.
 certificate-check-exception-removed = Сертификаттың ережеден тыс жағдайы өшірілді.
 # Variables:

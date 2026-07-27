@@ -274,11 +274,6 @@ account-hub-config-success-description-disk = Cấu hình được tìm thấy t
 account-hub-config-success-description-isp = Cấu hình được tìm thấy tại nhà cung cấp email.
 account-hub-config-success-description-read-more = Bạn co thể <a data-l10n-name="automated-setup-link">tìm hiểu về cách thiết lập email tự động hoạt động..</a>
 account-hub-config-success = Cấu hình được tìm thấy trong Mozilla ISPDB
-account-hub-config-success-exchange = Cấu hình được tìm thấy với máy chủ Microsoft Exchange
-account-hub-config-success-guess = Cấu hình được tìm thấy bằng cách thử các tên máy chủ thông thường
-account-hub-config-success-disk = Cấu hình được tìm thấy trong bộ cài đặt { -brand-short-name }.
-account-hub-config-success-isp = Cấu hình được tìm thấy tại nhà cung cấp email
-account-hub-config-success-unknown = Cấu hình được tìm thấy
 account-hub-password-info = Thông tin đăng nhập của bạn sẽ chỉ được lưu trữ cục bộ trên máy tính của bạn
 account-hub-creating-account = Đang tạo tài khoản…
 account-hub-sync-accounts-found = { -brand-short-name } tìm thấy một số dịch vụ được kết nối

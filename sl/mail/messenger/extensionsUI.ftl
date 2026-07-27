@@ -8,8 +8,6 @@ webext-perms-learn-more = Več o tem
 # not yet been updated to use fluent placeholders.
 webext-install-suppressed-message-2 = Dodatka <> ni bilo mogoče namestiti, ker uporablja starejše API-je, ki jih ta različica { -brand-product-name(sklon: "rodilnik") } ne podpira.
 webext-install-suppressed-details-2 = Dodatki s starejšimi API-ji lahko vplivajo na katerikoli del { -brand-product-name(sklon: "rodilnik") }, zato jih je treba posodobiti, pregledati in odobriti po vsaki večji spremembi samega { -brand-product-name(sklon: "rodilnik") }. Te zastarele API-je zato podpira samo { -brand-product-name } ESR, ki je deležen manj sprememb kode in ostaja nespremenljiv skozi enoletni cikel razširjene podpore.
-webext-install-suppressed-message = Dodatka <> ni bilo mogoče namestiti, ker uporablja API-je Experiment, ki jih ta različica Thunderbirda ne podpira.
-webext-install-suppressed-details = Dodatke z API-ji Experiment podpira samo { -brand-product-name } ESR.
 # Variables:
 #   $addonName (String): localized name of the extension that was just installed.
 addon-post-install-message = Razširitev { $addonName } je bila dodana.

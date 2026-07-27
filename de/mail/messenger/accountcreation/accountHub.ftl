@@ -274,11 +274,6 @@ account-hub-config-success-description-disk = Einstellungen wurden in der { -bra
 account-hub-config-success-description-isp = Einstellungen wurden beim E-Mail-Anbieter gefunden.
 account-hub-config-success-description-read-more = Sie können hier erfahren<a data-l10n-name="automated-setup-link">wie die automatische Einrichtung von E-Mails funktioniert.</a>
 account-hub-config-success = Einstellungen wurden in der Mozilla-ISPDB gefunden.
-account-hub-config-success-exchange = Einstellungen für Microsoft Exchange-Server wurden gefunden.
-account-hub-config-success-guess = Einstellungen wurden durch Ausprobieren typischer Serverbezeichnungen gefunden.
-account-hub-config-success-disk = Einstellungen wurden in der { -brand-short-name }-Installation gefunden.
-account-hub-config-success-isp = Einstellungen wurden bei Ihrem Anbieter des E-Mail-Diensts gefunden.
-account-hub-config-success-unknown = Einstellungen gefunden
 account-hub-password-info = Ihre Zugangsdaten werden nur lokal auf Ihrem Computer gespeichert.
 account-hub-creating-account = Konto wird erstellt…
 account-hub-sync-accounts-found = { -brand-short-name } hat verbundene Dienste gefunden

@@ -281,11 +281,6 @@ account-hub-config-success-description-disk = ნაპოვნი გამა
 account-hub-config-success-description-isp = ნაპოვნი გამართვის წყაროა ელფოსტის მომწოდებელი.
 account-hub-config-success-description-read-more = შეგიძლიათ <a data-l10n-name="automated-setup-link">გაეცნოთ, როგორ მუშაობს ელფოსტის ავტომატური გამართვა.</a>
 account-hub-config-success = ნაპოვნი გამართვის წყაროა Mozilla-ISPDB
-account-hub-config-success-exchange = ნაპოვნია გამართვის მონაცემები Microsoft-Exchange-სერვერისთვის
-account-hub-config-success-guess = ნაპოვნია გამართვის მონაცემები ცნობილი სერვერების დასახელებების მოსინჯვით
-account-hub-config-success-disk = ნაპოვნი გამართვის წყაროა დაყენებული { -brand-short-name }
-account-hub-config-success-isp = ნაპოვნი გამართვის წყაროა ელფოსტის მომწოდებელი
-account-hub-config-success-unknown = ნაპოვნია გამართვის მონაცემები
 account-hub-password-info = თქვენი ანგარიშის მონაცემები მხოლოდ ადგილობრივად შეინახება კომპიუტერში
 account-hub-creating-account = ანგარიში იქმნება…
 account-hub-sync-accounts-found = { -brand-short-name } ახერხებს ზოგიერთი მიერთებული მომსახურების პოვნას

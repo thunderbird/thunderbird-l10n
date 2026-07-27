@@ -274,11 +274,6 @@ account-hub-config-success-description-disk = Konfiguracja znaleziona w plikach
 account-hub-config-success-description-isp = Konfiguracja znaleziona u dostawcy usługi pocztowej.
 account-hub-config-success-description-read-more = Możesz <a data-l10n-name="automated-setup-link">przeczytać, jak działa automatyczna konfiguracja poczty e-mail.</a>
 account-hub-config-success = Konfiguracja znaleziona w bazie danych Mozilli
-account-hub-config-success-exchange = Konfiguracja znaleziona dla serwera Microsoft Exchange
-account-hub-config-success-guess = Konfiguracja znaleziona poprzez odpytywanie typowych adresów serwerów
-account-hub-config-success-disk = Konfiguracja znaleziona w plikach instalacyjnych programu { -brand-short-name }.
-account-hub-config-success-isp = Konfiguracja znaleziona u dostawcy usługi pocztowej
-account-hub-config-success-unknown = Znaleziono konfigurację
 account-hub-password-info = Dane logowania będą przechowywane wyłącznie lokalnie na komputerze użytkownika
 account-hub-creating-account = Tworzenie konta…
 account-hub-sync-accounts-found = { -brand-short-name } znalazł usługi połączone

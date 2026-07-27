@@ -144,8 +144,6 @@ account-hub-result-ews-text = Սպասարկիչ
 account-hub-result-recommended-label = Խորհուրդ է տրվում՝
 account-hub-edit-configuration = Խմբագրել կազմաձևը
 account-hub-config-success = Կազմաձևը գտնվել է Mozilla ISPDB-ում
-account-hub-config-success-guess = Կազմաձևը գտնվել է՝ փորձելով սպասարկիչի տարածված անունները
-account-hub-config-success-disk = { -brand-short-name } տեղադրման մեջ գտնվել է կազմաձև
 account-hub-select-all = Նշել բոլորը
 account-hub-deselect-all = Ապանշել բոլորը
 # $count (Number) - The number of sync accounts selected.

@@ -51,9 +51,6 @@ certificate-checking = A(z) { $hostname } kiszolgáló kapcsolatának tesztelés
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-test-success = Sikeresen biztonságos kapcsolatot hozott létre a következővel: { $hostname }.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-test-failure = A(z) { $hostname } kiszolgálóhoz való kapcsolódás sikertelen.
 certificate-check-exception-added = Tanúsítványkivétel hozzáadva.
 certificate-check-exception-removed = Tanúsítványkivétel eltávolítva.
 # Variables:

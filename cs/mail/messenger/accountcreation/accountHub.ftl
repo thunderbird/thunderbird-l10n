@@ -292,15 +292,6 @@ account-hub-config-success-description-disk =
 account-hub-config-success-description-isp = U poskytovatele e-mailu bylo nalezeno následující nastavení.
 account-hub-config-success-description-read-more = Můžete si <a data-l10n-name="automated-setup-link">přečíst, jak funguje automatické nastavení e-mailu.</a>
 account-hub-config-success = Nastavení bylo nalezeno v Mozilla ISPDB
-account-hub-config-success-exchange = Nastavení pro server Microsoft Exchange nalezeno
-account-hub-config-success-guess = Testováním obvyklých jmen serverů bylo nalezeno následující nastavení
-account-hub-config-success-disk =
-    { -brand-short-name.case-status ->
-        [with-cases] Konfigurace byla nalezena v instalaci { -brand-short-name(case: "gen") }
-       *[no-cases] Konfigurace byla nalezena v instalaci aplikace { -brand-short-name }
-    }
-account-hub-config-success-isp = U poskytovatele e-mailu bylo nalezeno následující nastavení
-account-hub-config-success-unknown = Konfigurace nalezena
 account-hub-password-info = Vaše přihlašovací údaje budou uloženy pouze na vašem počítači
 account-hub-creating-account = Vytváří se účet…
 account-hub-sync-accounts-found = { -brand-short-name } nalezl některé připojené služby

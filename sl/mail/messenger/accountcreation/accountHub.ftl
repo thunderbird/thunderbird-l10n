@@ -258,11 +258,6 @@ account-hub-config-success-description-disk = Nastavitve so bile najdene v { -br
 account-hub-config-success-description-isp = Nastavitve so bile najdene pri ponudniku e-pošte.
 account-hub-config-success-description-read-more = <a data-l10n-name="automated-setup-link">Preberite, kako deluje samodejna nastavitev e-poštnega računa</a>.
 account-hub-config-success = Nastavitve so bile najdene v Mozillini podatkovni zbirki ponudnikov
-account-hub-config-success-exchange = Nastavitve so bile najdene za strežnik Microsoft Exchange
-account-hub-config-success-guess = Nastavitve so bile najdene s poskušanjem pogostih imen strežnikov
-account-hub-config-success-disk = Nastavitve so bile najdene v { -brand-short-name(sklon: "mestnik") }
-account-hub-config-success-isp = Nastavitve so bile najdene pri ponudniku e-pošte
-account-hub-config-success-unknown = Nastavitve najdene
 account-hub-password-info = Poverilnice bodo shranjene izključno na vašem računalniku
 account-hub-creating-account = Ustvarjanje računa …
 account-hub-sync-accounts-found = { -brand-short-name } je odkril nekaj povezanih storitev

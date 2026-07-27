@@ -51,9 +51,6 @@ certificate-checking = Menguji sambungan ke server { $hostname }…
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-test-success = Berhasil menjalin sambungan aman ke { $hostname }.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-test-failure = Sambungan ke server { $hostname } gagal.
 certificate-check-exception-added = Pengecualian sertifikat ditambahkan.
 certificate-check-exception-removed = Pengecualian sertifikat dihapus.
 # Variables:

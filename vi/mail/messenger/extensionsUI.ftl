@@ -8,8 +8,6 @@ webext-perms-learn-more = Tìm hiểu thêm
 # not yet been updated to use fluent placeholders.
 webext-install-suppressed-message-2 = Không thể cài đặt tiện ích <> vì nó sử dụng các API cũ, nó không hỗ trợ trong phiên bản này của { -brand-product-name }.
 webext-install-suppressed-details-2 = Các tiện ích mở rộng với API cũ có thể sửa đổi mọi phần của { -brand-product-name } và cần được cập nhật, xem xét và phê duyệt bất cứ khi nào chính { -brand-product-name } thay đổi. Do đó, các API cũ này chỉ được hỗ trợ bởi { -brand-product-name } ESR, phiên bản này nhận được ít thay đổi mã hơn và duy trì tính ổn định trong suốt chu kỳ ESR 1 năm.
-webext-install-suppressed-message = Tiện ích <> không thể cài đặt vì nó sử dụng API thử nghiệm, vốn không được phiên bản Thunderbird này hỗ trợ.
-webext-install-suppressed-details = Các tiện ích với API thử nghiệm chỉ được hỗ trợ trên { -brand-product-name } ESR.
 # Variables:
 #   $addonName (String): localized name of the extension that was just installed.
 addon-post-install-message = Đã thêm { $addonName }.

@@ -51,9 +51,6 @@ certificate-checking = { $hostname } sunucusuna bağlantı test ediliyor…
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-test-success = { $hostname } ile güvenli bağlantı kuruldu.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-test-failure = { $hostname } sunucusuna bağlanılamadı.
 certificate-check-exception-added = Sertifika istisnası eklendi.
 certificate-check-exception-removed = Sertifika istisnası kaldırıldı.
 # Variables:

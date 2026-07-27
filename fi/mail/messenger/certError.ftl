@@ -44,9 +44,6 @@ certificate-checking = Testataan yhteyttä palvelimeen { $hostname }…
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-test-success = Suojattu yhteys palvelimeen { $hostname } muodostettiin onnistuneesti.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-test-failure = Yhteys palvelimeen { $hostname } epäonnistui.
 certificate-check-exception-added = Varmennepoikkeus lisätty.
 certificate-check-exception-removed = Varmennepoikkeus poistettu.
 # Variables:

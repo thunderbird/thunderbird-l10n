@@ -274,11 +274,6 @@ account-hub-config-success-description-disk = Найдена конфигура�
 account-hub-config-success-description-isp = Найдена конфигурация у провайдера электронной почты.
 account-hub-config-success-description-read-more = Вы можете <a data-l10n-name="automated-setup-link">прочитать о том, как работает автоматическая настройка электронной почты.</a>
 account-hub-config-success = Конфигурация найдена в Mozilla ISPDB
-account-hub-config-success-exchange = Найдена конфигурация для сервера Microsoft Exchange
-account-hub-config-success-guess = Конфигурация найдена при проверке типичных имён серверов
-account-hub-config-success-disk = Найдена конфигурация в установке { -brand-short-name }
-account-hub-config-success-isp = Конфигурация найдена у провайдера электронной почты
-account-hub-config-success-unknown = Конфигурация найдена
 account-hub-password-info = Ваши учётные данные будут храниться только локально на вашем компьютере
 account-hub-creating-account = Создание учётной записи…
 account-hub-sync-accounts-found = { -brand-short-name } обнаружил некоторые подключённые службы

@@ -13,26 +13,11 @@ imip-html-when = Кога:
 imip-html-organizer = Приредувач:
 imip-html-description = Опис:
 
-## iTIP processing result text
-
-
 ## iTIP bar labels
 
 imip-bar-request-text = Оваа порака содржи покана за настан.
 imip-bar-update-text = Оваа порака содржи нови информации за постоечки настан.
 imip-bar-reply-text = Оваа порака содржи одговор на покана за настан.
-
-## Sending invitation emails
-
-
-## Calendar email identity
-
-
-## Invitations panel
-
-
-## Process invitation confirmation prompt
-
 
 ## iTIP email subjects and bodies
 

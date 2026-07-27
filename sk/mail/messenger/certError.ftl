@@ -51,9 +51,6 @@ certificate-checking = Testovanie pripojenia k serveru { $hostname }…
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-test-success = Úspešne nadviazané zabezpečené pripojenie k { $hostname }.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-test-failure = Pripojenie k serveru { $hostname } zlyhalo.
 certificate-check-exception-added = Pridaná výnimka certifikátu.
 certificate-check-exception-removed = Výnimka certifikátu bola odstránená.
 # Variables:

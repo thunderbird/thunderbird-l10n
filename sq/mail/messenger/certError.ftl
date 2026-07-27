@@ -44,9 +44,6 @@ certificate-checking = Po provohet lidhja me shërbyesin { $hostname }…
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-test-success = U vendos me sukses një lidhje e siguruar me { $hostname }.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-test-failure = Lidhja me shërbyesin { $hostname } dështoi.
 certificate-check-exception-added = U shtua përjashtim për dëshminë.
 certificate-check-exception-removed = U hoq përjashtim për dëshminë.
 # Variables:

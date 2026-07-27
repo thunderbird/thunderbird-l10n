@@ -44,9 +44,6 @@ certificate-checking = Тестване на връзката със сървъ�
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-test-success = Установена е защитена връзка с  { $hostname }.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-test-failure = Защитената връзка с  { $hostname }  се провали.
 certificate-check-exception-added = Добавено е изключение за сертификат.
 certificate-check-exception-removed = Изключението за сертификата е премахнато.
 # Variables:

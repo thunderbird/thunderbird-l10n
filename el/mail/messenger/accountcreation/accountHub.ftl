@@ -274,11 +274,6 @@ account-hub-config-success-description-disk = Βρέθηκε διαμόρφωσ�
 account-hub-config-success-description-isp = Βρέθηκε διαμόρφωση στον πάροχο ηλεκτρονικού ταχυδρομείου.
 account-hub-config-success-description-read-more = Μπορείτε να <a data-l10n-name="automated-setup-link">διαβάσετε σχετικά με τον τρόπο λειτουργίας της αυτόματης ρύθμισης email.</a>
 account-hub-config-success = Βρέθηκαν ρυθμίσεις στη Mozilla ISPDB
-account-hub-config-success-exchange = Βρέθηκαν ρυθμίσεις για διακομιστή Microsoft Exchange
-account-hub-config-success-guess = Βρέθηκαν ρυθμίσεις με δοκιμή κοινών ονομάτων διακομιστών
-account-hub-config-success-disk = Βρέθηκαν ρυθμίσεις στην εγκατάσταση του { -brand-short-name }
-account-hub-config-success-isp = Βρέθηκαν ρυθμίσεις στον πάροχο ηλεκτρονικού ταχυδρομείου
-account-hub-config-success-unknown = Βρέθηκαν ρυθμίσεις
 account-hub-password-info = Τα διαπιστευτήριά σας θα αποθηκευτούν μόνο τοπικά, στον υπολογιστή σας
 account-hub-creating-account = Δημιουργία λογαριασμού…
 account-hub-sync-accounts-found = Το { -brand-short-name } βρήκε ορισμένες συνδεδεμένες υπηρεσίες

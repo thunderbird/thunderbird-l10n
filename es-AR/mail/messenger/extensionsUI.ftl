@@ -8,8 +8,6 @@ webext-perms-learn-more = Conocer más
 # not yet been updated to use fluent placeholders.
 webext-install-suppressed-message-2 = El complemento <> no se pudo instalar porque usa APIs heredadas, que no son compatibles con esta versión de { -brand-product-name }.
 webext-install-suppressed-details-2 = Los complementos con APIs heredadas pueden modificar cada parte de { -brand-product-name } y necesitan ser actualizados, revisados y aprobados cada vez que { -brand-product-name } cambie. Por lo tanto, estas API heredadas solo son compatibles con { -brand-product-name } ESR, que recibe menos cambios de código y se mantiene estable durante el ciclo de ESR de 1 año.
-webext-install-suppressed-message = El complemento <> no pudo instalarse porque usa APIs experimentales, que no son compatibles con esta versión de Thunderbird.
-webext-install-suppressed-details = Los complementos con APIs experimentales solo son compatibles con { -brand-product-name } ESR.
 # Variables:
 #   $addonName (String): localized name of the extension that was just installed.
 addon-post-install-message = { $addonName } fue agregada.

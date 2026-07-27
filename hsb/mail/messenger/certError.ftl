@@ -51,9 +51,6 @@ certificate-checking = Zwisk ze serwerom { $hostname } so testuje …
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-test-success = Wěsty zwisk z { $hostname } je so wuspěšnje nawjazał
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-test-failure = Zwisk ze serwerom { $hostname } njeje so poradźił.
 certificate-check-exception-added = Wuwzaće certifikata je so přidało.
 certificate-check-exception-removed = Wuwzaće certifikata je so wotstroniło.
 # Variables:

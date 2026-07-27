@@ -51,9 +51,6 @@ certificate-checking = Проверка соединения с сервером
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-test-success = Успешно установлено защищённое соединение с { $hostname }.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-test-failure = Ошибка соединения с сервером { $hostname }.
 certificate-check-exception-added = Добавлено исключение для сертификата.
 certificate-check-exception-removed = Исключение для сертификата удалено.
 # Variables:

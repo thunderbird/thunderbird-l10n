@@ -51,9 +51,6 @@ certificate-checking = Prófa tengingu við netþjóninn { $hostname }…
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-test-success = Tókst að koma á öruggri tengingu við { $hostname }.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-test-failure = Mistókst að koma á tengingu við netþjóninn { $hostname }.
 certificate-check-exception-added = Undantekningu vegna skilríkis bætt við.
 certificate-check-exception-removed = Undantekning vegna skilríkis fjarlægð.
 # Variables:

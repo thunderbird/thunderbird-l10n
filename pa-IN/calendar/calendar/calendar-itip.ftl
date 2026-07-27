@@ -50,9 +50,6 @@ imip-html-attendee-user-type-resource = { $attendee } (ਵਸੀਲਾ)
 #   $attendee (String) - Common name or email address of the attendee.
 imip-html-attendee-user-type-unknown = { $attendee }
 
-## iTIP processing result text
-
-
 ## iTIP bar labels
 
 imip-bar-cancel-text = This message contains an event cancellation.

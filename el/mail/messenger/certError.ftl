@@ -51,9 +51,6 @@ certificate-checking = Δοκιμή σύνδεσης με τον διακομι�
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-test-success = Επιτυχής δημιουργία ασφαλούς σύνδεσης με το { $hostname }.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-test-failure = Αποτυχία σύνδεσης με τον διακομιστή { $hostname }.
 certificate-check-exception-added = Η εξαίρεση του πιστοποιητικού προστέθηκε.
 certificate-check-exception-removed = Η εξαίρεση του πιστοποιητικού αφαιρέθηκε.
 # Variables:

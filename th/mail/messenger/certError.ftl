@@ -44,9 +44,6 @@ certificate-checking = กำลังทดสอบการเชื่อม
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-test-success = สร้างการเชื่อมต่อที่ปลอดภัยไปยัง { $hostname } สำเร็จแล้ว
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-test-failure = การเชื่อมต่อกับเซิร์ฟเวอร์ { $hostname } ล้มเหลว
 certificate-check-exception-added = เพิ่มข้อยกเว้นใบรับรองแล้ว
 certificate-check-exception-removed = ลบข้อยกเว้นใบรับรองแล้ว
 # Variables:

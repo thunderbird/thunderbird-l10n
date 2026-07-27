@@ -274,11 +274,6 @@ account-hub-config-success-description-disk = Konfigurácia bola nájdená v in�
 account-hub-config-success-description-isp = Konfigurácia bola nájdená u poskytovateľa e‑mailu.
 account-hub-config-success-description-read-more = Môžete si <a data-l10n-name="automated-setup-link">prečítať o tom, ako funguje automatické nastavenie e‑mailu</a>.
 account-hub-config-success = Konfigurácia bola nájdená v databáze Mozilla ISPDB
-account-hub-config-success-exchange = Nastavenia pre Microsoft Exchange server boli nájdené
-account-hub-config-success-guess = Nastavenia boli zistené skúšaním bežných názvov serverov
-account-hub-config-success-disk = Konfigurácia bola nájdená v inštalácii { -brand-short-name(case: "gen") }.
-account-hub-config-success-isp = Nastavenia boli nájdené na serveri poskytovateľa e‑mailovej služby
-account-hub-config-success-unknown = Konfigurácia bola nájdená
 account-hub-password-info = Vaše prihlasovacie údaje budú uložené iba lokálne vo vašom počítači
 account-hub-creating-account = Vytvára sa účet…
 account-hub-sync-accounts-found = { -brand-short-name } našiel nejaké pripojené služby

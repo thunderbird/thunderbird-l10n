@@ -39,24 +39,9 @@ imip-html-attendee-user-type-room = { $attendee } (nimajay)
 #   $attendee (String) - Common name or email address of the attendee.
 imip-html-attendee-user-type-unknown = { $attendee }
 
-## iTIP processing result text
-
-
-## iTIP bar labels
-
-
-## Sending invitation emails
-
-
 ## Calendar email identity
 
 imip-no-identity = Majun
-
-## Invitations panel
-
-
-## Process invitation confirmation prompt
-
 
 ## iTIP email subjects and bodies
 

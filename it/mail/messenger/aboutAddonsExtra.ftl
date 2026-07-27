@@ -13,5 +13,3 @@ atn-addons-heading-search-button =
     .aria-label = Cerca in addons.thunderbird.net
 details-notification-suppressed-esr-2 =
     .message = Il componente aggiuntivo è stato disattivato perché utilizza API legacy. I componenti aggiuntivi che utilizzano API legacy possono modificare qualsiasi aspetto di { -brand-product-name } e devono essere aggiornati, controllati e approvati ogni volta che { -brand-product-name } viene modificato. Per questo motivo, questi componenti aggiuntivi non sono supportati in questa versione di { -brand-product-name }, ma solo in { -brand-product-name } ESR, che riceve meno modifiche al codice e mantiene una maggiore stabilità durante l’intero ciclo ESR di un anno.
-details-notification-suppressed-esr =
-    .message = Il componente aggiuntivo è stato disattivato perché utilizza le API Experiment, disponibili solo su { -brand-product-name } ESR e non supportate in questa versione di { -brand-product-name }.

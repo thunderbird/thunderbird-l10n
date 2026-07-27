@@ -8,8 +8,6 @@ webext-perms-learn-more = Saper plus
 # not yet been updated to use fluent placeholders.
 webext-install-suppressed-message-2 = Le additivo <> non potev esser installate perque illo usa vetere APIs, que non es supportate per iste version de { -brand-product-name }.
 webext-install-suppressed-details-2 = Le additivos con ancian APIs pote modificar cata parte de { -brand-product-name } e debe esser actualisate, revidite e approbate quandocunque { -brand-product-name } mesme cambia. Tal additivos dunque non es supportate per iste version de { -brand-product-name }, ma solo per { -brand-product-name } ESR, que recipe minus cambiamentos de codification e sta stabile in omne parte del cyclo ESR de 1-anno.
-webext-install-suppressed-message = Le additivo <> non pote esser installate perque illo usa Experiment APIs, que non es supportate per iste version de Thunderbird.
-webext-install-suppressed-details = Le additivos con Experiment APIs es solo supportate sur { -brand-product-name } ESR.
 # Variables:
 #   $addonName (String): localized name of the extension that was just installed.
 addon-post-install-message = { $addonName } ha essite addite.

@@ -108,7 +108,7 @@ imip-bar-processed-needs-action = Tato zpráva obsahuje událost, na kterou jste
 imip-bar-processed-multiple-needs-action = Tato zpráva obsahuje několik událostí, na které jste ještě neodpověděli.
 imip-bar-processed-series-needs-action = Tato zpráva obsahuje sérii událostí, na kterou jste ještě neodpověděli.
 imip-bar-reply-text = Tato zpráva obsahuje odpověď na pozvání.
-imip-bar-reply-to-not-existing-item = Tato zpráva obsahuje odpověď na událost, která není ve vašem kalendáři.                       
+imip-bar-reply-to-not-existing-item = Tato zpráva obsahuje odpověď na událost, která není ve vašem kalendáři.{ "                       " }
 # Variables:
 #   $deletionTime (String) - The formatted time the event was removed from the calendar.
 imip-bar-reply-to-recently-removed-item = Tato zpráva obsahuje odpověď na událost, která byla z vašeho kalendáře odebrána { $deletionTime }.

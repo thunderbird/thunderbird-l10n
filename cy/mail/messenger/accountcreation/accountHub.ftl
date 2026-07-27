@@ -274,11 +274,6 @@ account-hub-config-success-description-disk = Wedi canfod y ffurfweddiad yng ngo
 account-hub-config-success-description-isp = Ffurfweddiad wedi'i ganfod yn y darparwr e-bost.
 account-hub-config-success-description-read-more = Gallwch <a data-l10n-name="automated-setup-link">ddarllen sut mae gosod e-byst awtomataidd yn gweithio.</a>
 account-hub-config-success = Canfuwyd y ffurfweddiad yn Mozilla ISPDB
-account-hub-config-success-exchange = Wedi canfod ffurfweddiad Microsoft Exchange
-account-hub-config-success-guess = Ffurfweddiad wedi'i ganfod drwy enwau gweinyddion cyffredin
-account-hub-config-success-disk = Ffurfweddiad wedi'i ganfod  yng ngosodiad { -brand-short-name }
-account-hub-config-success-isp = Ffurfweddiad wedi'i ganfod gan y darparwr e-bost
-account-hub-config-success-unknown = Wedi canfod ffurfweddiad
 account-hub-password-info = Bydd eich manylion yn cael eu cadw'n lleol dim ond ar eich cyfrifiadur chi
 account-hub-creating-account = Wrthi'n creu cyfrif…
 account-hub-sync-accounts-found = Daeth { -brand-short-name } o hyd i rai gwasanaethau cysylltiedig

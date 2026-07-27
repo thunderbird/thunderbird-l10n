@@ -23,9 +23,6 @@ imip-html-modified-occurrences = O‘zgartirilgan hodisalar:
 #   $location (String) - The new location of a modified occurrence.
 imip-html-new-location = Yangi manzil: { $location }
 
-## iTIP processing result text
-
-
 ## iTIP bar labels
 
 imip-bar-cancel-text = Ushbu xabarda tadbirni bekor qilish haqida ma’lumot bor.

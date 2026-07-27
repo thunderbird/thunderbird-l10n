@@ -44,9 +44,6 @@ certificate-checking = { $hostname } 서버 연결 테스트 중...
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-test-success = 성공적으로 { $hostname }로 보안 연결했습니다.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-test-failure = { $hostname } 서버 연결에 실패했습니다.
 certificate-check-exception-added = 인증서 예외가 추가되었습니다.
 certificate-check-exception-removed = 인증서 예외가 제거되었습니다.
 # Variables:

@@ -13,5 +13,3 @@ atn-addons-heading-search-button =
     .aria-label = Cari di addons.thunderbird.net
 details-notification-suppressed-esr-2 =
     .message = Add-on dinonaktifkan karena menggunakan API lama. Add-on dengan API lama dapat mengubah setiap bagian dari { -brand-product-name } dan perlu diperbarui, ditinjau, serta disetujui setiap kali ada perubahan pada { -brand-product-name }. Oleh karena itu, versi { -brand-product-name } ini tidak mendukung add-on tersebut; dukungan hanya tersedia pada ESR { -brand-product-name } yang dirancang untuk tetap stabil dengan lebih sedikit perubahan kode selama siklus ESR 1 tahun.
-details-notification-suppressed-esr =
-    .message = Add-on dinonaktifkan karena menggunakan API Eksperimen. API ini terbatas hanya untuk ESR { -brand-product-name } dan tidak didukung pada versi { -brand-product-name } ini.

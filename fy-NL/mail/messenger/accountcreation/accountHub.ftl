@@ -274,11 +274,6 @@ account-hub-config-success-description-disk = Konfiguraasje fûn yn ynstallaasje
 account-hub-config-success-description-isp = Konfiguraasje fûn by e-mailprovider.
 account-hub-config-success-description-read-more = Jo kinne <a data-l10n-name="automated-setup-link">lêze oer hoe’t it automatysk ynstellen fan e-mail wurket.</a>
 account-hub-config-success = Konfiguraasje fûn yn de Mozilla-ISPDB
-account-hub-config-success-exchange = Konfiguraasje fûn foar in Microsoft Exchange-server
-account-hub-config-success-guess = Konfiguraasje fûn troch algemiene servernammen te probearjen
-account-hub-config-success-disk = Konfiguraasje fûn yn ynstallaasje fan { -brand-short-name }.
-account-hub-config-success-isp = Konfiguraasje fûn fan e-mailprovider
-account-hub-config-success-unknown = Konfiguraasje fûn
 account-hub-password-info = Jo oanmeldgegevens wurde allinnich lokaal op jo kompjûter bewarre
 account-hub-creating-account = Account oanmeitsje…
 account-hub-sync-accounts-found = { -brand-short-name } hat inkelde ferbûne services fûn

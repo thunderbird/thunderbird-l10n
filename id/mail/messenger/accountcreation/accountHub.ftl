@@ -281,11 +281,6 @@ account-hub-config-success-description-disk = Konfigurasi ditemukan dalam pemasa
 account-hub-config-success-description-isp = Konfigurasi ditemukan di penyedia surel.
 account-hub-config-success-description-read-more = Anda dapat <a data-l10n-name="automated-setup-link">membaca tentang cara kerja penyiapan surel otomatis.</a>
 account-hub-config-success = Konfigurasi ditemukan di ISPDB Mozilla
-account-hub-config-success-exchange = Konfigurasi ditemukan untuk server Microsoft Exchange
-account-hub-config-success-guess = Konfigurasi ditemukan dengan mencoba nama server yang umum
-account-hub-config-success-disk = Konfigurasi ditemukan pada instalasi { -brand-short-name }.
-account-hub-config-success-isp = Konfigurasi ditemukan di penyedia surel
-account-hub-config-success-unknown = Konfigurasi ditemukan
 account-hub-password-info = Kredensial Anda hanya akan disimpan secara lokal di komputer Anda
 account-hub-creating-account = Membuat akun…
 account-hub-sync-accounts-found = { -brand-short-name } menemukan beberapa layanan terhubung

@@ -11,5 +11,3 @@ atn-addons-heading-search-input =
 atn-addons-heading-search-button =
     .title = addons.thunderbird.net 검색
     .aria-label = addons.thunderbird.net 검색
-details-notification-suppressed-esr =
-    .message = 부가 기능이 시험 API를 사용해서 비활성화되었습니다. 해당 API는 { -brand-product-name } ESR 전용이며 이 { -brand-product-name } 버전에서는 지원하지 않습니다.

@@ -274,11 +274,6 @@ account-hub-config-success-description-disk = A konfiguráció megtalálva a { -
 account-hub-config-success-description-isp = A konfiguráció megtalálva az e-mail-szolgáltatónál.
 account-hub-config-success-description-read-more = <a data-l10n-name="automated-setup-link">Olvashat az automatizált e-mail-beállítás működéséről.</a>
 account-hub-config-success = A konfiguráció megtalálva a Mozilla ISPDB-ben
-account-hub-config-success-exchange = A Microsoft Exchange kiszolgáló konfigurációja megtalálva
-account-hub-config-success-guess = Találtam egy konfigurációt a szokásos kiszolgálóneveket próbálgatva
-account-hub-config-success-disk = A konfiguráció megtalálható a { -brand-short-name } telepítésben
-account-hub-config-success-isp = A konfiguráció megtalálható az e-mail-szolgáltatónál
-account-hub-config-success-unknown = Konfiguráció megtalálva
 account-hub-password-info = A hitelesítő adatok csak helyben lesznek tárolva a számítógépen
 account-hub-creating-account = Fiók létrehozása…
 account-hub-sync-accounts-found = A { -brand-short-name } néhány kapcsolódó szolgáltatást talált

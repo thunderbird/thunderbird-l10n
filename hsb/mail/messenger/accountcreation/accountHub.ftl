@@ -274,11 +274,6 @@ account-hub-config-success-description-disk = Konfiguracija w instalaciji { -bra
 account-hub-config-success-description-isp = Konfiguracija při e-mejlowym poskićowarju namakana.
 account-hub-config-success-description-read-more = Móžeće <a data-l10n-name="automated-setup-link">čitać, kak awtomatizowana e-mejlowa konfiguracija funguje.</a>
 account-hub-config-success = Konfiguracija je so w Mozilla ISPDB namakała
-account-hub-config-success-exchange = Konfiguracija je so za serwer Microsoft Exchange namakał
-account-hub-config-success-guess = Konfiguracija přez probowanje zwučenych serwerowych mjenow namakana
-account-hub-config-success-disk = Konfiguracija w instalaciji { -brand-short-name } namakana
-account-hub-config-success-isp = Konfiguracija při e-mejlowym poskićowarju namakana
-account-hub-config-success-unknown = Konfiguracija je so namakała
 account-hub-password-info = Waše přizjewjenske daty budu so jenož lokalnje na wašim ličaku składować
 account-hub-creating-account = Konto so załožuje…
 account-hub-sync-accounts-found = { -brand-short-name } je někotre zwjazane słužby namakał

@@ -13,5 +13,3 @@ atn-addons-heading-search-button =
     .aria-label = Buscar en addons.thunderbird.net
 details-notification-suppressed-esr-2 =
     .message = El complemento se desactivó porque utiliza API heredadas. Los complementos con API heredadas pueden modificar cualquier parte de { -brand-product-name } y deben actualizarse, revisarse y aprobarse cada vez que { -brand-product-name } cambia. Por lo tanto, esta versión de { -brand-product-name } no admite estos complementos; solo son compatibles con { -brand-product-name } ESR, que recibe menos cambios de código y se mantiene estable durante todo el ciclo de 1 año de ESR.
-details-notification-suppressed-esr =
-    .message = El complemento se desactivó porque utiliza Experiment APIs. Estas API están limitadas a { -brand-product-name } ESR y no son compatibles con esta versión de { -brand-product-name }.

@@ -108,7 +108,7 @@ imip-bar-processed-needs-action = To sporočilo vsebuje dogodek, na katerega še
 imip-bar-processed-multiple-needs-action = To sporočilo vsebuje več dogodkov, na katere se še niste odzvali.
 imip-bar-processed-series-needs-action = To sporočilo vsebuje serijo dogodkov, na katere še niste odgovorili.
 imip-bar-reply-text = To sporočilo vsebuje odgovor na povabilo.
-imip-bar-reply-to-not-existing-item = To sporočilo vsebuje odgovor, ki se nanaša na dogodek, ki ni več v vašem koledarju.                       
+imip-bar-reply-to-not-existing-item = To sporočilo vsebuje odgovor, ki se nanaša na dogodek, ki ni več v vašem koledarju.{ "                       " }
 # Variables:
 #   $deletionTime (String) - The formatted time the event was removed from the calendar.
 imip-bar-reply-to-recently-removed-item = To sporočilo vsebuje odgovor, ki se nanaša na dogodek, ki je bil iz vašega koledarja odstranjen { $deletionTime }.

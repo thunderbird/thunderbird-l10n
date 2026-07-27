@@ -51,9 +51,6 @@ certificate-checking = Testování spojení se serverem { $hostname }…
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-test-success = Zabezpečené spojení se serverem { $hostname } bylo úspěšně navázáno.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-test-failure = Připojení k serveru { $hostname } se nezdařilo.
 certificate-check-exception-added = Výjimka pro certifikát byla přidána.
 certificate-check-exception-removed = Výjimka z certifikátu byla odebrána.
 # Variables:

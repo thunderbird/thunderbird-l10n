@@ -281,11 +281,6 @@ account-hub-config-success-description-disk = Configuração encontrada na insta
 account-hub-config-success-description-isp = Configuração encontrada no provedor de email.
 account-hub-config-success-description-read-more = Você pode <a data-l10n-name="automated-setup-link">ler sobre como funciona a configuração automática de email.</a>
 account-hub-config-success = Configuração encontrada na base de dados de configuração automática (Mozilla ISPDB)
-account-hub-config-success-exchange = Encontrada configuração de um servidor do Microsoft Exchange
-account-hub-config-success-guess = Encontrada configuração ao tentar os nomes comuns de servidores
-account-hub-config-success-disk = Encontrada configuração na instalação do { -brand-short-name }
-account-hub-config-success-isp = Encontrada configuração no provedor de email
-account-hub-config-success-unknown = Configuração encontrada
 account-hub-password-info = Suas credenciais só são armazenadas localmente neste computador
 account-hub-creating-account = Criando conta…
 account-hub-sync-accounts-found = O { -brand-short-name } encontrou alguns serviços conectados

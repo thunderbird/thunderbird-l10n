@@ -259,11 +259,6 @@ account-hub-config-success-description-disk = Stillingar fundust í { -brand-sho
 account-hub-config-success-description-isp = Stillingar fundust hjá tölvupóstveitu.
 account-hub-config-success-description-read-more = Þú getur <a data-l10n-name="automated-setup-link">lesið um hvernig sjálfvirk uppsetning tölvupósts virkar.</a>
 account-hub-config-success = Uppsetning fannst í ISP-gagnagrunni Mozilla.
-account-hub-config-success-exchange = Stillingar fundust fyrir Microsoft Exchange póstþjón
-account-hub-config-success-guess = Uppsetning fannst með því að prófa algeng nöfn póstþjóna
-account-hub-config-success-disk = Stillingar fundust í { -brand-short-name } uppsetningu
-account-hub-config-success-isp = Stillingar fundust hjá tölvupóstveitu
-account-hub-config-success-unknown = Stillingar fundust
 account-hub-password-info = Auðkennin þín verða einungis geymd inni á tölvunni þinni
 account-hub-creating-account = Bý til reikning...
 account-hub-sync-accounts-found = { -brand-short-name } fann nokkrar tengdar þjónustur

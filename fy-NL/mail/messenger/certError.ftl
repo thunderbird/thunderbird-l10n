@@ -51,9 +51,6 @@ certificate-checking = Ferbining mei server { $hostname } teste…
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-test-success = Der is mei sukses in befeilige ferbining mei { $hostname } ta stân brocht.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-test-failure = Ferbining mei server { $hostname } mislearre.
 certificate-check-exception-added = Sertifikaatútsûndering tafoege.
 certificate-check-exception-removed = Sertifikaatútsûndering fuortsmiten.
 # Variables:

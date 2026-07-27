@@ -274,11 +274,6 @@ account-hub-config-success-description-disk = Konfiguracija jo se namakała w in
 account-hub-config-success-description-isp = Konfiguracija jo se namakała pśi e-mailowem póbitowarju.
 account-hub-config-success-description-read-more = Móžośo <a data-l10n-name="automated-setup-link">cytaś, kak awtomatizěrowana e-mejlowa konfiguracija funkcioněrujo.</a>
 account-hub-config-success = Konfiguracija jo se namakała w Mozilla ISPDB
-account-hub-config-success-exchange = Konfiguracija jo se namakała za serwer Microsoft Exchange
-account-hub-config-success-guess = Konfiguracija jo se pśi wopytowanju zwuconych serwerowych mjenjow namakała
-account-hub-config-success-disk = Konfiguracija jo se namakała w instalaciji { -brand-short-name }.
-account-hub-config-success-isp = Konfiguracija jo se pśi e-mailowem póbitowarju namakała
-account-hub-config-success-unknown = Konfiguracija jo se namakała
 account-hub-password-info = Waše pśizjawjeńske daty budu se jano lokalnje na wašom licadle składowaś
 account-hub-creating-account = Konto se załožujo…
 account-hub-sync-accounts-found = { -brand-short-name } jo namakał někotare zwězane słužby

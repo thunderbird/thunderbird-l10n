@@ -51,9 +51,6 @@ certificate-checking = 正在测试与服务器 { $hostname } 的连接…
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-test-success = 已成功与 { $hostname } 建立安全连接。
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-test-failure = 连接服务器 { $hostname } 失败。
 certificate-check-exception-added = 已添加证书例外。
 certificate-check-exception-removed = 已移除证书例外。
 # Variables:

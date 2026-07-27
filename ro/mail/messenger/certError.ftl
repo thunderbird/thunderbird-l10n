@@ -51,9 +51,6 @@ certificate-checking = Se testează conexiunea la serverul { $hostname }…
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-test-success = Conexiune securizată la { $hostname } stabilită cu succes.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-test-failure = Conexiunea la serverul { $hostname } a eșuat.
 certificate-check-exception-added = Excepția de certificat a fost adăugată.
 certificate-check-exception-removed = Excepția de certificat a fost eliminată.
 # Variables:

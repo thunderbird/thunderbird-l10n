@@ -51,9 +51,6 @@ certificate-checking = Wrthi'n profi cysylltiad â gweinydd { $hostname }…
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-test-success = Llwyddwyd i osod cysylltiad diogel i { $hostname }.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-test-failure = Methwyd cysylltu â gweinydd { $hostname }.
 certificate-check-exception-added = Eithriad tystysgrif wedi'i ychwanegu.
 certificate-check-exception-removed = Eithriad tystysgrif wedi'i ddileu.
 # Variables:

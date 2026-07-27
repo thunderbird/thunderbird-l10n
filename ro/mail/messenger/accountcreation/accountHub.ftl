@@ -274,11 +274,6 @@ account-hub-config-success-description-disk = Configurația a fost găsită în 
 account-hub-config-success-description-isp = Configurație găsită la furnizorul de e-mail.
 account-hub-config-success-description-read-more = Poți <a data-l10n-name="automated-setup-link">citi despre cum funcționează configurarea automată a e-mailului.</a>
 account-hub-config-success = Configurație găsită în baza de date Mozilla ISP
-account-hub-config-success-exchange = S-a găsit configurația pentru un server Microsoft Exchange
-account-hub-config-success-guess = Configurație găsită prin încercarea denumirilor de server uzuale
-account-hub-config-success-disk = Configurație găsită în instalarea { -brand-short-name }
-account-hub-config-success-isp = Configurație găsită la furnizorul de e-mail
-account-hub-config-success-unknown = Configurație găsită
 account-hub-password-info = Datele tale de autentificare vor fi stocate doar local pe calculator
 account-hub-creating-account = Se creează contul…
 account-hub-sync-accounts-found = { -brand-short-name } a găsit câteva servicii conectate

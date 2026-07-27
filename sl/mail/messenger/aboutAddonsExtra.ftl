@@ -11,5 +11,3 @@ atn-addons-heading-search-input =
 atn-addons-heading-search-button =
     .title = Iskanje po addons.thunderbird.net
     .aria-label = Iskanje po addons.thunderbird.net
-details-notification-suppressed-esr =
-    .message = Dodatek je bil onemogočen, ker uporablja API-je Experiment. Ti API-ji so omejeni na { -brand-product-name } ESR in niso podprti v tej različici { -brand-product-name(sklon: "rodilnik") }.

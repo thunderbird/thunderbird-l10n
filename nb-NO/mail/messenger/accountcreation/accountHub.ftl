@@ -274,11 +274,6 @@ account-hub-config-success-description-disk = Innstillinger funnet i { -brand-sh
 account-hub-config-success-description-isp = Innstillinger funnet hos e-postleverandøren.
 account-hub-config-success-description-read-more = Du kan <a data-l10n-name="automated-setup-link">lese om hvordan automatisk oppsett av e-post fungerer.</a>
 account-hub-config-success = Innstillinger funnet i Mozilla ISPDB
-account-hub-config-success-exchange = Konfigurasjon ble funnet for en Microsoft Exchange-server
-account-hub-config-success-guess = Følgende innstillinger ble funnet ved å prøve vanlige servernavn
-account-hub-config-success-disk = Konfigurasjon funnet i { -brand-short-name }-installasjonen
-account-hub-config-success-isp = Konfigurasjon funnet hos e-postleverandøren
-account-hub-config-success-unknown = Konfigurasjon funnet
 account-hub-password-info = Påloggingsinformasjonen din lagres kun lokalt på datamaskinen din
 account-hub-creating-account = Oppretter konto …
 account-hub-sync-accounts-found = { -brand-short-name } fant noen tilkoblede tjenester

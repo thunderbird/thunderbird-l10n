@@ -274,11 +274,6 @@ account-hub-config-success-description-disk = Configurazione rilevata nell’ins
 account-hub-config-success-description-isp = Configurazione rilevata dal fornitore di posta elettronica.
 account-hub-config-success-description-read-more = Scopri come funziona la <a data-l10n-name="automated-setup-link">configurazione automatica della posta elettronica</a>.
 account-hub-config-success = Configurazione trovata in Mozilla ISPDB
-account-hub-config-success-exchange = Configurazione trovata per un server Microsoft Exchange
-account-hub-config-success-guess = Sono state rilevate le seguenti impostazioni provando nomi di server comunemente utilizzati
-account-hub-config-success-disk = Configurazione rilevata nell’installazione di { -brand-short-name }
-account-hub-config-success-isp = Configurazione rilevata nel fornitore di posta elettronica
-account-hub-config-success-unknown = Configurazione rilevata
 account-hub-password-info = Le tue credenziali verranno memorizzate solo sul tuo computer
 account-hub-creating-account = Creazione account…
 account-hub-sync-accounts-found = { -brand-short-name } ha rilevato alcuni servizi connessi

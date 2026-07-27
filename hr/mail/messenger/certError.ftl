@@ -51,9 +51,6 @@ certificate-checking = Testiranje veze s poslužiteljem { $hostname }…
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-test-success = Uspješno je uspostavljena sigurna veze s { $hostname }.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-test-failure = Povezivanje s poslužiteljem { $hostname } nije uspjelo.
 certificate-check-exception-added = Dodana je iznimka certifikata.
 certificate-check-exception-removed = Uklonjena je iznimka certifikata.
 # Variables:

@@ -259,11 +259,6 @@ account-hub-config-success-description-disk = Подешавање пронађ�
 account-hub-config-success-description-isp = Подешавање пронађено код пружаоца е-поште.
 account-hub-config-success-description-read-more = Можете <a data-l10n-name="automated-setup-link">прочитати о томе како ради самостално подешавање е-поште.</a>
 account-hub-config-success = Подешавање је пронађено у Mozilla ISPDB-у
-account-hub-config-success-exchange = Пронађено је подешавање за Microsoft Exchange сервер
-account-hub-config-success-guess = Пронађено је подешавање испробавањем уобичајених имена сервера
-account-hub-config-success-disk = Пронађено је подешавање у инсталацији { -brand-short-name }
-account-hub-config-success-isp = Подешавање је пронађено код добављача е-поште
-account-hub-config-success-unknown = Подешавање је пронађено
 account-hub-password-info = Ваши подаци за приступ биће сачувани само локално на вашем рачунару
 account-hub-creating-account = Прављење налога…
 account-hub-sync-accounts-found = { -brand-short-name } је пронашао неке повезане услуге

@@ -51,9 +51,6 @@ certificate-checking = Verificante connexion a servitor { $hostname }…
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-test-success = Establite con successo un connexion secur a { $hostname }.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-test-failure = Connexion a servitor { $hostname } fallite.
 certificate-check-exception-added = Exception addite pro certificato
 certificate-check-exception-removed = Exception removite pro certificato
 # Variables:

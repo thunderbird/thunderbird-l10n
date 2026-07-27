@@ -8,8 +8,6 @@ webext-perms-learn-more = Ulteriori informazioni
 # not yet been updated to use fluent placeholders.
 webext-install-suppressed-message-2 = Impossibile installare il componente aggiuntivo <> in quanto utilizza API legacy, non supportate da questa versione di { -brand-product-name }.
 webext-install-suppressed-details-2 = I componenti aggiuntivi che utilizzano API legacy possono modificare qualsiasi aspetto di { -brand-product-name } e devono essere aggiornati, controllati e approvati ogni volta che { -brand-product-name } viene modificato. Per questo motivo, queste API legacy sono supportate esclusivamente da { -brand-product-name } ESR, che subisce meno modifiche al codice e mantiene una maggiore stabilità durante l’intero ciclo ESR di un anno.
-webext-install-suppressed-message = Impossibile installare il componente aggiuntivo <> perché utilizza le API Experiment, non supportate da questa versione di Thunderbird.
-webext-install-suppressed-details = I componenti aggiuntivi con API Experiment sono supportati solo in { -brand-product-name } ESR.
 # Variables:
 #   $addonName (String): localized name of the extension that was just installed.
 addon-post-install-message = { $addonName } è stato installato.

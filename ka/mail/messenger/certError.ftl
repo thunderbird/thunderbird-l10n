@@ -51,9 +51,6 @@ certificate-checking = მოწმდება კავშირი სერ�
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-test-success = წარმატებით დამყარდა დაცული კავშირი კვანძთან { $hostname }.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-test-failure = { $hostname } სერვერთან დაკავშირება ვერ მოხერხდა.
 certificate-check-exception-added = სერტიფიკატის გამონაკლისი დამატებულია.
 certificate-check-exception-removed = სერტიფიკატის გამონაკლისი მოცილებულია.
 # Variables:

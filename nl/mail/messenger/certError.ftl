@@ -51,9 +51,6 @@ certificate-checking = Verbinding met server { $hostname } testen…
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-test-success = Er is met succes een beveiligde verbinding met { $hostname } tot stand gebracht.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-test-failure = Verbinding met server { $hostname } mislukt.
 certificate-check-exception-added = Certificaatuitzondering toegevoegd.
 certificate-check-exception-removed = Certificaatuitzondering verwijderd.
 # Variables:

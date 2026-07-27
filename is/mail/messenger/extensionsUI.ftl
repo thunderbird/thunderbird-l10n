@@ -8,8 +8,6 @@ webext-perms-learn-more = Kanna nánar
 # not yet been updated to use fluent placeholders.
 webext-install-suppressed-message-2 = Ekki var hægt að setja upp viðbótina því hún notar eldra API-kerfisviðmót sem ekki eru stutt í þessari útgáfu af { -brand-product-name }.
 webext-install-suppressed-details-2 = Viðbætur með eldra API-kerfisviðmóti geta breytt öllum þáttum { -brand-product-name } og þarf því að uppfæra, yfirfara og samþykkja í hvert skipti sem { -brand-product-name } sjálft breytist. Þess vegna eru þessi eldri kerfisviðmóti aðeins studd af { -brand-product-name } ESR, sem fær færri breytingar á kóða og helst stöðugt alla eins árs ESR hringrásina.
-webext-install-suppressed-message = Viðbótin var gerð óvirk því hún notar tilrauna-API kerfisviðmót sem ekki eru studd í þessari útgáfu af Thunderbird.
-webext-install-suppressed-details = Viðbætur með tilrauna-API kerfisviðmótum eru aðeins studdar á { -brand-product-name } ESR.
 # Variables:
 #   $addonName (String): localized name of the extension that was just installed.
 addon-post-install-message = { $addonName } var bætt við.

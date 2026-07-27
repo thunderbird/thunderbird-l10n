@@ -274,11 +274,6 @@ account-hub-config-success-description-disk = { -brand-short-name } kurulumunda 
 account-hub-config-success-description-isp = E-posta sağlayıcısında yapılandırma bulundu.
 account-hub-config-success-description-read-more = Otomatik e-posta kurulumunun nasıl çalıştığını <a data-l10n-name="automated-setup-link">buradan okuyabilirsiniz.</a>
 account-hub-config-success = Mozilla İSS veritabanında yapılandırma bulundu
-account-hub-config-success-exchange = Bir Microsoft Exchange sunucusuna ait yapılandırma bulundu
-account-hub-config-success-guess = Sık kullanılan sunucu adları denenerek yapılandırma bulundu
-account-hub-config-success-disk = { -brand-short-name } kurulumunda yapılandırma bulundu
-account-hub-config-success-isp = E-posta sağlayıcısında yapılandırma bulundu
-account-hub-config-success-unknown = Yapılandırma bulundu
 account-hub-password-info = Hesap bilgileriniz yalnızca yerel olarak bilgisayarınızda depolanır
 account-hub-creating-account = Hesap oluşturuluyor…
 account-hub-sync-accounts-found = { -brand-short-name } bazı bağlı servisler buldu

@@ -11,5 +11,3 @@ atn-addons-heading-search-input =
 atn-addons-heading-search-button =
     .title = Buscar en addons.thunderbird.net
     .aria-label = Buscar en addons.thunderbird.net
-details-notification-suppressed-esr =
-    .message = El complemento se ha desactivado porque utiliza API experimentales. Estas API están limitadas a { -brand-product-name } ESR y no son compatibles con esta versión de { -brand-product-name }.

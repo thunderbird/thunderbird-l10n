@@ -13,21 +13,6 @@ imip-html-new-location = ទីតាំងថ្មី៖ { $location }
 
 imip-canceled-item = ព្រឹត្តិការណ៍នេះត្រូវបានលុបចេញពីប្រតិទិនរបស់អ្នក។
 
-## iTIP bar labels
-
-
-## Sending invitation emails
-
-
-## Calendar email identity
-
-
-## Invitations panel
-
-
 ## Process invitation confirmation prompt
 
 confirm-process-invitation = អ្នកទើបតែលុបធាតុនេះចេញថ្មីៗនេះ តើអ្នកពិតជាចង់បន្តការអញ្ជើញនេះមែនទេ?
-
-## iTIP email subjects and bodies
-

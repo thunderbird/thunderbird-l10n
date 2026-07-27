@@ -51,9 +51,6 @@ certificate-checking = Testar tilkoplinga til serveren { $hostname }…
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-test-success = Eit sikkert samband til { $hostname } er oppretta.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-test-failure = Tilkopling til serveren { $hostname } mislykkast.
 certificate-check-exception-added = Sertifikat-unntak lagt til.
 certificate-check-exception-removed = Sertifikat-unntak fjerna.
 # Variables:

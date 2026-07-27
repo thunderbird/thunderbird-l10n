@@ -253,9 +253,6 @@ account-hub-config-success-description-db = Kokoonpanon määritys löytyi Mozil
 account-hub-config-success-description-exchange = Kokoonpanon määritykset löydettiin Microsoft Exchange -palvelimelle.
 account-hub-config-success-description-read-more = Voit <a data-l10n-name="automated-setup-link">lukea lisää siitä, miten automaattinen sähköpostin määritys toimii.</a>
 account-hub-config-success = Kokoonpanon määritys löytyi Mozillan ISP-tietokannasta
-account-hub-config-success-exchange = Kokoonpanon määritykset löydettiin Microsoft Exchange -palvelimelle
-account-hub-config-success-disk = Kokoonpanon määritys löytyi { -brand-short-name }-asennuksesta
-account-hub-config-success-unknown = Kokoonpanon määritys löytyi
 account-hub-password-info = Kirjautumistietosi tallennetaan vain paikallisesti tietokoneellesi
 account-hub-creating-account = Luodaan tiliä…
 account-hub-sync-accounts-found = { -brand-short-name } löysi joitain yhdistettyjä palveluita

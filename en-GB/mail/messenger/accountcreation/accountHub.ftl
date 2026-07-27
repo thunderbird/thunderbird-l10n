@@ -274,11 +274,6 @@ account-hub-config-success-description-disk = Configuration found in { -brand-sh
 account-hub-config-success-description-isp = Configuration found at email provider.
 account-hub-config-success-description-read-more = You can <a data-l10n-name="automated-setup-link">read about how automated email setup works.</a>
 account-hub-config-success = Configuration found in Mozilla ISPDB
-account-hub-config-success-exchange = Configuration found for a Microsoft Exchange server
-account-hub-config-success-guess = Configuration found by trying common server names
-account-hub-config-success-disk = Configuration found in { -brand-short-name } installation
-account-hub-config-success-isp = Configuration found at email provider
-account-hub-config-success-unknown = Configuration found
 account-hub-password-info = Your credentials will only be stored locally on your computer
 account-hub-creating-account = Creating account…
 account-hub-sync-accounts-found = { -brand-short-name } found some connected services

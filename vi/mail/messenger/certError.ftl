@@ -51,9 +51,6 @@ certificate-checking = Kiểm tra kết nối tới máy chủ { $hostname }…
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-test-success = Đã thiết lập thành công kết nối an toàn tới { $hostname }.
-# Variables:
-#   $hostname (string) - Hostname (and possibly port) of a server.
-certificate-test-failure = Kết nối tới máy chủ { $hostname } không thành công.
 certificate-check-exception-added = Đã thêm ngoại lệ cho chứng chỉ.
 certificate-check-exception-removed = Đã xoá ngoại lệ cho chứng chỉ.
 # Variables:
