@@ -49,3 +49,6 @@ calendar-creation-network-authfail = Podane dane logowania nie zostały przyjęt
 calendar-creation-network-certerror = Nie można odnaleźć kalendarzy w tym położeniu z powodu problemu z certyfikatem.
 calendar-creation-network-subscribe-single = Wybierz kalendarze do subskrypcji.
 calendar-creation-network-subscribe-multiple = Dla tego położenia dostępnych jest wiele typów kalendarza. Wybierz typ, a następnie oznacz kalendarze do subskrypcji.
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = Wprowadź hasło dla { $location }:
