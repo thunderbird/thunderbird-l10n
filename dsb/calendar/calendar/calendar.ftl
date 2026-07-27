@@ -162,6 +162,7 @@ week-title-label =
     .aria-label = Tyźeń { $title }
 calendar-none =
     .label = Žeden
+imip-bar-unsupported-text = Toś ta powěsć tšojenje wopśimujo, kótarež toś ta wersija { -brand-short-name } njamóžo pśeźěłaś.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
