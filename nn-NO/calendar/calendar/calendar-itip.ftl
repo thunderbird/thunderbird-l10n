@@ -109,19 +109,82 @@ imip-bar-processed-multiple-needs-action = Denne meldinga inneheld fleire hendin
 imip-bar-processed-series-needs-action = Denne meldinga inneheld ein hendingsserie som du enno ikkje har svara på.
 imip-bar-reply-text = Denne meldinga inneheld eit svar på ein invitasjon.
 imip-bar-reply-to-not-existing-item = Denne meldinga inneheld eit svar som viser til ei hending som ikkje finst i kalenderen din.
+# Variables:
+#   $deletionTime (String) - The formatted time the event was removed from the calendar.
+imip-bar-reply-to-recently-removed-item = Denne meldinga inneheld eit svar som viser til ei hending som vart fjerna frå kalenderen den { $deletionTime }.
+# Variables:
+#   $status (String) - The hexadecimal status code of the failed processing.
+imip-bar-processing-failed = Klarte ikkje å handsame meldinga. Status: { $status }.
+imip-bar-calendar-deactivated = Denne meldinga inneheld informasjon om hendingar. Aktiver ein kalender for å handsame han.
+imip-bar-not-writable = Ingen skrivbare kalendrar er konfigurerte for invitasjonar. Kontroller kalenderinnstillingane.
+imip-no-calendar-available = Ingen skrivbare kalendrar er tilgjengelege.
 
 ## Sending invitation emails
 
+imip-send-mail-title = Informer deltakarar på e-post
+imip-send-mail-text = Vil du sende ut kunngjeringar på e-post no?
 
 ## Calendar email identity
 
+imip-no-identity = Ingen
 no-identity-selected-notification = Viss du vil bruka denne kalenderen for å lagra innbydingar til eller frå andre personar, skal du tildela ein e-postidentitet nedanfor.
 
 ## Invitations panel
 
+# Variables:
+#   $count (Number) - The number of pending invitations.
+invitations-link-label = Invitasjonar: { $count }
 
 ## Process invitation confirmation prompt
 
+confirm-process-invitation = Du har nyleg sletta dette elementet. Er du viss på at du vil handsame denne invitasjonen?
+confirm-process-invitation-title = Handsame invitasjon?
 
 ## iTIP email subjects and bodies
 
+# Variables:
+#   $summary (String) - The event title.
+itip-request-subject = Invitasjon: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-request-updated-subject = Oppdatert: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-request-body = { $organizer } har invitert deg til { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-cancel-subject = Avbroten: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-cancel-body = { $organizer } har avlyst denne hendinga: { $summary }
+# Variables:
+#   $attendee (String) - The attendee who made the counterproposal.
+#   $summary (String) - The event title.
+itip-counter-body = { $attendee } har kome med eit motforslag for « { $summary } »:
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-decline-counter-body = { $organizer } har avslått motforslaget ditt om « { $summary } ».
+# Variables:
+#   $summary (String) - The event title.
+itip-decline-counter-subject = Motforslaget avvist: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject = Svar på invitasjon: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-accept = Akseptert: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-decline = Invitasjon avvist: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-tentative = Med atterhald: { $summary }
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-accept = { $attendee } har godteke invitasjonen din.
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-decline = { $attendee } har avslått invitasjonen din.
