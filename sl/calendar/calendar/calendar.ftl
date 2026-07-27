@@ -1097,6 +1097,7 @@ calendar-error-code =
     .value = Koda napake:
 calendar-error-description =
     .value = Opis:
+calendar-error-prompt-title = Prišlo je do napake
 calendar-error-title =
     .title = Prišlo je do napake
 calendar-extract-event-button =
