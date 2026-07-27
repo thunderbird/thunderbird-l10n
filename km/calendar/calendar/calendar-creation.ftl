@@ -8,3 +8,6 @@ calendar-creation-type =
     .value = ប្រភេទប្រតិទិន៖
 calendar-creation-location =
     .value = ទីតាំង ៖
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = Նշեք Ձեր գաղտնաբառը { $location }-ի համար.
