@@ -5,5 +5,8 @@
 key-import-info-close =
     .label = Clauder
     .accesskey = C
+import-info-dialog-title = Claves importate con successo
+import-info-created = Create
+import-info-fpr = Dactylogramma
 import-info-details = Vider detalios e gerer acceptation del clave
 import-info-no-keys = Nulle claves importate
