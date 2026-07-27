@@ -5,3 +5,8 @@
 key-import-info-close =
     .label = Close
     .accesskey = C
+import-info-dialog-title = Success! Keys imported
+import-info-created = Created
+import-info-fpr = Fingerprint
+import-info-details = View Details and manage key acceptance
+import-info-no-keys = No keys imported.
