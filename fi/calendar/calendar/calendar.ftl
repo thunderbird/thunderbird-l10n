@@ -158,6 +158,7 @@ week-title-label =
     .aria-label = Viikko { $title }
 calendar-none =
     .label = Ei mitään
+imip-bar-unsupported-text = Tässä viestissä on tapahtuma, jota nykyinen versio { -brand-short-name } ei voi käsitellä.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none

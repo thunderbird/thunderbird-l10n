@@ -47,3 +47,6 @@ calendar-creation-network-authfail = Syöttämiäsi kirjautumistietoja ei hyväk
 calendar-creation-network-certerror = Kalentereita ei löytynyt tästä sijainnista varmenneongelman vuoksi.
 calendar-creation-network-subscribe-single = Valitse kalenterit, jotka haluat tilata.
 calendar-creation-network-subscribe-multiple = Tässä sijainnissa on monen tyyppisiä kalentereita. Valitse ensin kalenterin tyyppi ja valitse sitten kalenterit, jotka haluat tilata.
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = Kirjoita salasana palvelimelle { $location }:
