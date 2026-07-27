@@ -74,18 +74,69 @@ imip-bar-processed-multiple-needs-action = הודעה זו מכילה מגוון
 imip-bar-processed-series-needs-action = הודעה זו מכילה סדרת אירועים שלא הגבת עליהם.
 imip-bar-reply-text = הודעה זו מכילה תגובה להזמנה.
 imip-bar-reply-to-not-existing-item = הודעה זו מכילה תגובה שמתייחסת לאירוע שאינו בלוח השנה שלך.
+# Variables:
+#   $deletionTime (String) - The formatted time the event was removed from the calendar.
+imip-bar-reply-to-recently-removed-item = הודעה זו מכילה תגובה שמתייחסת לאירוע שהוסר מלוח השנה שלך ב־{ $deletionTime }.
+# Variables:
+#   $status (String) - The hexadecimal status code of the failed processing.
+imip-bar-processing-failed = עיבוד ההודעה נכשל. מצב: { $status }.
+imip-bar-not-writable = לא הוגדרו לוחות שנה עם אפשרות לכתוב בהם לטובת קבלת הזמנות, נא לבדוק את מאפייני לוח השנה.
+imip-no-calendar-available = לא זמינים לוחות שנה הניתנים לכתיבה.
 
 ## Sending invitation emails
 
+imip-send-mail-title = יידוע בדוא״ל
+imip-send-mail-text = האם תרצה לשלוח יידוע בדוא״ל כעת?
 
 ## Calendar email identity
 
+imip-no-identity = ללא
+no-identity-selected-notification = אם ברצונך להשתמש בלוח השנה הזה כדי לאחסן הזמנות מאנשים אחרים עליך להקצות ישות דוא״ל להלן.
 
 ## Invitations panel
 
+# Variables:
+#   $count (Number) - The number of pending invitations.
+invitations-link-label = הזמנות: { $count }
 
 ## Process invitation confirmation prompt
 
+confirm-process-invitation = מחקת את הפריט הזה לא מזמן, להמשיך בעיבוד ההזמנה הזאת?
+confirm-process-invitation-title = לעבד את ההזמנה?
 
 ## iTIP email subjects and bodies
 
+# Variables:
+#   $summary (String) - The event title.
+itip-request-subject = הזמנה: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-request-updated-subject = עודכן: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-request-body = { $organizer } מזמין אותך לאירוע  { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-cancel-subject = בוטל: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-cancel-body = { $organizer } ביטל את האירוע « { $summary } »
+# Variables:
+#   $attendee (String) - The attendee who made the counterproposal.
+#   $summary (String) - The event title.
+itip-counter-body = הוגשה הצעה חלופית על־ידי { $attendee } לאירוע „{ $summary }”:
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-decline-counter-body = ההצעה החלופית שלך לאירוע „{ $summary }” נדחתה על־ידי { $organizer }.
+# Variables:
+#   $summary (String) - The event title.
+itip-decline-counter-subject = ההצעה הנגדית נדחתה: { $summary }
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-accept = { $attendee } קיבל את ההזמנה שלך לאירוע.
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-decline = { $attendee } דחה את ההזמנה שלך לאירוע.
