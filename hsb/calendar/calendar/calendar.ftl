@@ -162,6 +162,7 @@ week-title-label =
     .aria-label = Tydźeń { $title }
 calendar-none =
     .label = Žadyn
+imip-bar-unsupported-text = Tuta powěsć wobsahuje podawk, kotryž tuta wersija { -brand-short-name } njemóže předźěłać.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
