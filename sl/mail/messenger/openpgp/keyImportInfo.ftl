@@ -5,6 +5,7 @@
 key-import-info-close =
     .label = Zapri
     .accesskey = Z
+import-info-dialog-title = Ključi so uspešno uvoženi!
 import-info-created = Ustvarjen
 import-info-fpr = Prstni odtis
 import-info-details = Ogled podrobnosti in upravljanje sprejemanja ključev
