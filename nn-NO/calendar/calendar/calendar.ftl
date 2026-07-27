@@ -158,6 +158,7 @@ week-title-label =
     .aria-label = Veke { $title }
 calendar-none =
     .label = Ingen
+imip-bar-unsupported-text = Denne meldinga inneheld ei hending som denne versjonen av { -brand-short-name } ikkje kan handsame.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
