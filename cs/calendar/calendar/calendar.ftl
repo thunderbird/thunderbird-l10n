@@ -160,6 +160,7 @@ week-title-label =
     .aria-label = Týden { $title }
 calendar-none =
     .label = Žádná
+imip-bar-unsupported-text = Tato zpráva obsahuje akci, kterou nelze v této verzi aplikace { -brand-short-name } zpracovat.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
