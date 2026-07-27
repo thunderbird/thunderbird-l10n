@@ -109,19 +109,82 @@ imip-bar-processed-multiple-needs-action = Pesan ini mengandung berbagai acara y
 imip-bar-processed-series-needs-action = Pesan ini berisi seri acara yang belum Anda tanggapi.
 imip-bar-reply-text = Pesan ini berisi jawaban atas undangan acara.
 imip-bar-reply-to-not-existing-item = Pesan ini mengandung balasan yang merujuk pada acara yang tidak ada di kalender Anda.
+# Variables:
+#   $deletionTime (String) - The formatted time the event was removed from the calendar.
+imip-bar-reply-to-recently-removed-item = Pesan ini mengandung balasan yang merujuk pada acara yang telah dihapus dari kalender Anda pada { $deletionTime }.
+# Variables:
+#   $status (String) - The hexadecimal status code of the failed processing.
+imip-bar-processing-failed = Pemrosesan pesan gagal. Status: { $status }.
+imip-bar-calendar-deactivated = Pesan ini mengandung informasi acara. Aktifkan kalender untuk menanganinya.
+imip-bar-not-writable = Tidak ada kalender yang dapat ditulis yang dikonfigurasi untuk undangan, harap periksa properti kalender.
+imip-no-calendar-available = Tidak ada kalender yang dapat ditulus tersedia.
 
 ## Sending invitation emails
 
+imip-send-mail-title = Peringatan Lewat Email
+imip-send-mail-text = Apakah Anda ingin mengirim peringatan lewat Email sekarang?
 
 ## Calendar email identity
 
+imip-no-identity = Tidak Ada
 no-identity-selected-notification = Jika Anda ingin menggunakan kalender ini untuk menyimpan undangan ke atau dari orang lain, Anda harus menetapkan identitas surel berikut.
 
 ## Invitations panel
 
+# Variables:
+#   $count (Number) - The number of pending invitations.
+invitations-link-label = Undangan: { $count }
 
 ## Process invitation confirmation prompt
 
+confirm-process-invitation = Anda baru saja menghapus hal ini, apakah Anda yakin ingin memproses undangan ini?
+confirm-process-invitation-title = Proses Undangan?
 
 ## iTIP email subjects and bodies
 
+# Variables:
+#   $summary (String) - The event title.
+itip-request-subject = Undangan: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-request-updated-subject = Diperbarui: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-request-body = { $organizer } telah mengundang Anda pada acara { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-cancel-subject = Dibatalkan: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-cancel-body = { $organizer } telah membatalkan acara ini: { $summary }
+# Variables:
+#   $attendee (String) - The attendee who made the counterproposal.
+#   $summary (String) - The event title.
+itip-counter-body = { $attendee } telah membuat proposal tandingan untuk "{ $summary }":
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-decline-counter-body = { $organizer } telah menolak proposal tandingan Anda untuk "{ $summary }".
+# Variables:
+#   $summary (String) - The event title.
+itip-decline-counter-subject = Proposal Tandingan Ditolak: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject = Jawaban Undangan: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-accept = Diterima: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-decline = Undangan Ditolak: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-tentative = Tentatif: { $summary }
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-accept = { $attendee } telah menyetujui undangan acara Anda.
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-decline = { $attendee } telah menolak undangan acara Anda.
