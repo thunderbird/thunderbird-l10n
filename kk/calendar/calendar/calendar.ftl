@@ -158,6 +158,7 @@ week-title-label =
     .aria-label = { $title }-апта
 calendar-none =
     .label = Ешнәрсе
+imip-bar-unsupported-text = Бұл хабарламада { -brand-short-name } бұл нұсқасы өңдей алмайтын оқиға бар.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
