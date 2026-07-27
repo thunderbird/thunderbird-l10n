@@ -115,6 +115,7 @@ imip-bar-reply-to-not-existing-item = Pesan ini mengandung balasan yang merujuk 
 
 ## Calendar email identity
 
+no-identity-selected-notification = Jika Anda ingin menggunakan kalender ini untuk menyimpan undangan ke atau dari orang lain, Anda harus menetapkan identitas surel berikut.
 
 ## Invitations panel
 
