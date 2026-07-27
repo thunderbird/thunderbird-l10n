@@ -160,6 +160,7 @@ week-title-label =
     .aria-label = { $title }. týždeň
 calendar-none =
     .label = Žiadny
+imip-bar-unsupported-text = Táto správa obsahuje udalosť, ktorú táto verzia rozšírenia { -brand-short-name } nedokáže spracovať.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
