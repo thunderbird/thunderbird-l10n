@@ -5,6 +5,7 @@
 key-import-info-close =
     .label = Začinić
     .accesskey = Z
+import-info-dialog-title = Wuspěch! Kluče su so importowali
 import-info-created = Wutworjeny
 import-info-fpr = Porstowy wotćišć
 import-info-details = Podrobnosće pokazać a klučowu akceptancu rjadować
