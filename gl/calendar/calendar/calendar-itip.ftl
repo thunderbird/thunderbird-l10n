@@ -99,18 +99,82 @@ imip-bar-processed-multiple-needs-action = Esta mensaxe contén varios eventos a
 imip-bar-processed-series-needs-action = Esta mensaxe contén unha serie de eventos aos que aínda non respondeu.
 imip-bar-reply-text = Esta mensaxe contén unha resposta a un convite.
 imip-bar-reply-to-not-existing-item = Esta mensaxe contén unha resposta relacionada cun evento que non está no seu calendario.
+# Variables:
+#   $deletionTime (String) - The formatted time the event was removed from the calendar.
+imip-bar-reply-to-recently-removed-item = Esta mensaxe contén unha resposta relacionada cun evento que foi retirado do seu calendario o { $deletionTime }.
+# Variables:
+#   $status (String) - The hexadecimal status code of the failed processing.
+imip-bar-processing-failed = Produciuse un fallo ao procesar a mensaxe. Estado: { $status }.
+imip-bar-calendar-deactivated = Esta mensaxe contén información dun evento. Active un calendario para xestionalo.
+imip-bar-not-writable = Non hai ningún calendario modificable configurado para convites, comprobe as propiedades dos calendarios.
+imip-no-calendar-available = Ningún calendario dispoñíbel para escritura.
 
 ## Sending invitation emails
 
+imip-send-mail-title = Notificación por correo electrónico
+imip-send-mail-text = Gustaríalle enviar agora a mensaxe de notificación?
 
 ## Calendar email identity
 
+imip-no-identity = Ningunha
+no-identity-selected-notification = Se desexa usar este calendario para gardar convites a/ou doutras persoas, debería asignar unha identidade de correo electrónico a continuación.
 
 ## Invitations panel
 
+# Variables:
+#   $count (Number) - The number of pending invitations.
+invitations-link-label = Convites: { $count }
 
 ## Process invitation confirmation prompt
 
+confirm-process-invitation = Recentemente eliminou este elemento, confirma que quere enviar este convite?
+confirm-process-invitation-title = Enviar o convite?
 
 ## iTIP email subjects and bodies
 
+# Variables:
+#   $summary (String) - The event title.
+itip-request-subject = Convite: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-request-updated-subject = Actualizado: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-request-body = { $organizer } invitouno a { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-cancel-subject = Cancelado: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-cancel-body = { $organizer } cancelou este evento: « { $summary } »
+# Variables:
+#   $attendee (String) - The attendee who made the counterproposal.
+#   $summary (String) - The event title.
+itip-counter-body = { $attendee } fixo unha contraproposta para «{ $summary }»:
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-decline-counter-body = { $organizer } declinou a súa contraproposta para «{ $summary }».
+# Variables:
+#   $summary (String) - The event title.
+itip-decline-counter-subject = Contraproposta declinada: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject = Resposta ao convite: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-accept = Aceptada: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-decline = Convite declinado: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-tentative = Tentativa: { $summary }
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-accept = { $attendee } aceptou o seu convite ao evento.
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-decline = { $attendee } rexeitou o seu convite ao evento.
