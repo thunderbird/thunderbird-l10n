@@ -15,6 +15,15 @@ imip-html-location = Adresse:
 imip-html-when = Når:
 imip-html-organizer = Organisert av:
 imip-html-description = Skildring:
+imip-html-attachments = Vedlegg:
+imip-html-comment = Kommentar:
+imip-html-attendees = Deltakarar:
+imip-html-url = Relatert lenke:
+imip-html-canceled-occurrences = Kansellerte førekomstar:
+imip-html-modified-occurrences = Endra førekomstar:
+# Variables:
+#   $location (String) - The new location of a modified occurrence.
+imip-html-new-location = Ny stad: { $location }
 # Appended behind an attendee name in the email invitation preview.
 # Variables:
 #   $delegators (String) - A single delegator or a comma separated list of delegators.
