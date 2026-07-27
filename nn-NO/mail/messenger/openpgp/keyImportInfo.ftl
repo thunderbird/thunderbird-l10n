@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+key-import-info-close =
+    .label = Lat att
+    .accesskey = L
 import-info-fpr = Fingeravtrykk
 import-info-details = Vis detaljar og handsam nøkkelgodkjenning
 import-info-no-keys = Ingen nøklar importerte.
