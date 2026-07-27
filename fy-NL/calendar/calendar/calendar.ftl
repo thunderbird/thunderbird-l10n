@@ -158,6 +158,7 @@ week-title-label =
     .aria-label = Wike { $title }
 calendar-none =
     .label = Gjin
+imip-bar-unsupported-text = Dit berjocht befettet in barren dy’t dizze ferzje fan { -brand-short-name } net ferwurkje kin.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
