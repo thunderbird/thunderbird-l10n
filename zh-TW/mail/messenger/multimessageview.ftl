@@ -13,6 +13,9 @@ multi-message-delete-button =
 multi-message-undelete-button =
     .label = 反刪除
     .tooltiptext = 反刪除
+multi-message-flagged-button =
+    .title = 已標星號
+    .aria-label = 已標星號
 # Variables:
 #   $count - total number of conversations (threads or solitary messages) selected
 num-conversations = { $count } 個討論串

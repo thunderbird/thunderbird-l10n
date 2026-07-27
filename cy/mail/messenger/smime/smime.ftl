@@ -12,6 +12,15 @@ configured-cert-ok-sig = Llwyddodd y dystysgrif i basio'r prawf ac mae modd ei d
 configured-cert-failure-detail = Methodd dilysiad y dystysgrif gyda'r gwall canlynol: { $errorMsg }  (Cod Gwall: { $errorCodeStr })
 # $errorCode A numeric error code
 configured-cert-failure = Methodd dilysu'r dystysgrif gyda'r cod gwall { $errorCode }
+# Cryptographic details displayed in the message security popup
+smime-crypto-signature-algorithm = Algorithm llofnod:
+smime-crypto-digest-algorithm = Algorithm Crynhoad Llofnod:
+smime-crypto-cipher = Algorithm amgryptio:
+smime-crypto-key-encryption = Algorithm amgryptio allweddol:
+# $algorithm - The encryption algorithm name (e.g. "AES-GCM")
+# $keySize - The key size in bits (e.g. "256")
+smime-crypto-cipher-with-key-size = { $algorithm } ({ $keySize }-did)
+smime-crypto-details-summary = Algorithmau
 # $errorMsg A sentence that explains the error.
 # $errorCodeStr A human readable error code, e.g. SEC_ERROR_UNKNOWN_ISSUER
 # Note the initial empty line is necessary to preserve the line breaks.

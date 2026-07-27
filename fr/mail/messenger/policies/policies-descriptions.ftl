@@ -35,6 +35,7 @@ policy-DisableFormHistory = Désactiver la conservation de l’historique des re
 policy-DisableMasterPasswordCreation = Si la valeur est sur true, la création d’un mot de passe principal est impossible.
 policy-DisablePasswordReveal = Ne pas permettre de révéler les mots de passe dans les identifiants enregistrés.
 policy-DisableProfileImport = Désactiver la commande de menu pour importer des données depuis une autre application.
+policy-DisableQRExport = Désactiver la génération de code QR pour exporter les paramètres du compte et les identifiants.
 policy-DisableSafeMode = Désactiver le redémarrage en mode sans échec. Note : sous Windows, le passage en mode sans échec via la touche Majuscule ne peut être désactivé qu’à l’aide d’une stratégie de groupe.
 policy-DisableSecurityBypass = Empêcher l’utilisateur de contourner certains avertissements de sécurité.
 policy-DisableSystemAddonUpdate = Empêcher { -brand-short-name } d’installer et de mettre à jour des modules système.

@@ -230,6 +230,7 @@ account-hub-thundermail-button = Mewngofnodi gyda Thundermail
 account-hub-thundermail-divider-text = neu
 account-hub-manual-config-imap-title = Gosodiadau IMAP
 account-hub-manual-config-pop3-title = Gosodiadau POP3
+account-hub-manual-config-review-settings-title = Adolygu gosodiadau wedi'u diweddaru
 account-hub-manual-config-incoming-legend = Gweinydd derbyn
 account-hub-manual-config-outgoing-legend = Gweinydd anfon
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
@@ -237,6 +238,10 @@ account-hub-same-username-checkbox = Yr un enw defnyddiwr â'r gweinydd derbyn
 account-hub-protocol-imap = Cydweddu ar draws dyfeisiau
 account-hub-protocol-microsoft = Exchange neu Microsoft 365
 account-hub-protocol-pop3 = Llwytho i lawr i ddyfais
+account-hub-oauth-unsupported-title = Mae angen cyfluniad ychwanegol
+# Note: 'Advanced Configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
+# 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
+account-hub-oauth-unsupported-description = Ni all { -brand-short-name } ffurfweddu OAuth2 yn awtomatig ar gyfer yr enw gwesteiwr hwn. Dewiswch Ffurfweddiad Uwch i greu'r cyfrif, yna cwblhewch y gosodiad o Gosodiadau Cyfrif. <a data-l10n-name="oauth-support-link">Cael help gyda gosod OAuth2.</a>
 account-hub-notification-show-more = Dangos rhagor
 account-hub-notification-show-less = Dangos llai
 account-hub-email-setup-header = Ychwanegwch eich cyfeiriad e-bost
@@ -305,6 +310,7 @@ account-hub-port-error-text = Rhaid i'r porth fod rhwng 1 a 65535
     .title = Rhaid i'r porth fod rhwng 1 a 65535
 account-hub-username-error-text = Mae angen enw defnyddiwr
     .title = Mae angen enw defnyddiwr
+account-hub-manual-config-error-summary = Os gwelwch yn dda datrys y gwallau canlynol:
 account-hub-oauth-pending = Aros am awdurdodiad mewn llamlen mewngofnodi…
 account-hub-addon-install-button = Gosod
 account-hub-addon-install-needed = Nid yw { -brand-short-name } yn cefnogi'r gweinydd hwn yn frodorol. I gael mynediad at e-bost Exchange, <a data-l10n-name="addon-install"> gosodwch ychwanegyn trydydd parti fel Owl (taledig).</a>

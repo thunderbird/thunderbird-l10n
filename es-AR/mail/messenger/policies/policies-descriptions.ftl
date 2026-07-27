@@ -35,6 +35,7 @@ policy-DisableFormHistory = No recordar la búsqueda y el historial de formulari
 policy-DisableMasterPasswordCreation = Si es verdadero, no se puede crear una contraseña maestra.
 policy-DisablePasswordReveal = No permitir que se vean las contraseñas en los inicios de sesión guardados.
 policy-DisableProfileImport = Deshabilite el comando de menú para importar datos de otra aplicación.
+policy-DisableQRExport = Deshabilitar la generación del código QR para exportar la configuración de la cuenta y las credenciales.
 policy-DisableSafeMode = Deshabilitar la función para reiniciar en Modo seguro. Nota: la tecla Mayús para ingresar al Modo seguro solo se puede deshabilitar en Windows usando la política de grupo.
 policy-DisableSecurityBypass = Evita que el usuario omita ciertas advertencias de seguridad.
 policy-DisableSystemAddonUpdate = Evita que { -brand-short-name } instale y actualice los complementos del sistema.

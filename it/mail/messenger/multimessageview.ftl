@@ -13,6 +13,9 @@ multi-message-delete-button =
 multi-message-undelete-button =
     .label = Ripristina
     .tooltiptext = Ripristina
+multi-message-flagged-button =
+    .title = Speciale
+    .aria-label = Speciale
 # Variables:
 #   $count - total number of conversations (threads or solitary messages) selected
 num-conversations =

@@ -162,6 +162,9 @@ week-title-label =
     .aria-label = Wythnos { $title }
 calendar-none =
     .label = Dim
+# Variables:
+#   $fileName (String) - The backup file name, e.g. 'local-2020-05-11T21-30-17.sqlite'.
+too-new-dbschema-error-text = Nid yw eich data calendr yn gydnaws â'r fersiwn hwn o { -brand-short-name }. Diweddarwyd y data calendr yn eich proffil gan fersiwn mwy diweddar o { -brand-short-name }. Mae copi wrth gefn o'r ffeil ddata wedi'i greu, o'r enw “{ $fileName }”. Parhau gyda ffeil ddata newydd ei chreu.
 imip-bar-unsupported-text = Mae'r neges yn cynnwys digwyddiad nad yw'r fersiwn yma o { -brand-short-name } yn gallu ei brosesu.
 # Error strings
 # @name UID_NOT_FOUND
@@ -1173,3 +1176,14 @@ event-recurrence-forever =
 attendees-tab-label = Mynychwyr ({ $count }):
 # $count - the number of attachments
 attachments-tab-label = Atodiadau ({ $count }):
+# Variables:
+#   $docTitle (String) - The date or view label for the current calendar view.
+calendar-window-title = { $docTitle } - { -brand-full-name }
+calendar-window-title-base = { -brand-full-name }
+# Variables:
+#   $username (String) - The account username.
+#   $location (String) - The calendar server location.
+calendar-auth-enter-password-for = Rhowch gyfrinair ar gyfer { $username } ar { $location }
+# Variables:
+#   $location (String) - The calendar server location.
+calendar-auth-enter-user-password-for = Mae { $location } yn gofyn am eich enw defnyddiwr a chyfrinair.

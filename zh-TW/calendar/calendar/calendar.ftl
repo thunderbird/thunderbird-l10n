@@ -154,6 +154,9 @@ week-title-label =
     .aria-label = 第 { $title } 週
 calendar-none =
     .label = 無
+# Variables:
+#   $fileName (String) - The backup file name, e.g. 'local-2020-05-11T21-30-17.sqlite'.
+too-new-dbschema-error-text = 您的行事歷資料與此版本的 { -brand-short-name } 不相容。您個人資料當中的行事歷資料被較新版本的 { -brand-short-name } 所更新。已建立資料檔名為「{ $fileName }」的備份。使用已建立的資料檔繼續。
 imip-bar-unsupported-text = 此訊息包含這個版本的 { -brand-short-name } 無法處理的事件資訊。
 # Error strings
 # @name UID_NOT_FOUND
@@ -1064,3 +1067,14 @@ event-recurrence-forever =
 attendees-tab-label = 與會者（{ $count }）:
 # $count - the number of attachments
 attachments-tab-label = 附件（{ $count }）:
+# Variables:
+#   $docTitle (String) - The date or view label for the current calendar view.
+calendar-window-title = { $docTitle } - { -brand-full-name }
+calendar-window-title-base = { -brand-full-name }
+# Variables:
+#   $username (String) - The account username.
+#   $location (String) - The calendar server location.
+calendar-auth-enter-password-for = 請輸入 { $username } 在 { $location } 上的密碼
+# Variables:
+#   $location (String) - The calendar server location.
+calendar-auth-enter-user-password-for = { $location } 要求您輸入帳號與密碼。
