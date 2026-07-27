@@ -154,6 +154,7 @@ week-title-label =
     .aria-label = สัปดาห์ { $title }
 calendar-none =
     .label = ไม่มี
+imip-bar-unsupported-text = ข้อความนี้มีเหตุการณ์ที่ { -brand-short-name } รุ่นนี้ไม่สามารถประมวลผลได้
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
