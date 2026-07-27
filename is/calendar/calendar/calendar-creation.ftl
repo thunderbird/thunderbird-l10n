@@ -47,3 +47,6 @@ calendar-creation-network-authfail = Auðkennin sem þú settir inn voru ekki sa
 calendar-creation-network-certerror = Ekki tókst að finna dagatöl á þessum stað vegna vandamáls með skilríki.
 calendar-creation-network-subscribe-single = Veldu dagatölin sem þú vilt gerast áskrifandi að.
 calendar-creation-network-subscribe-multiple = Margar gerðir dagatala eru tiltækar fyrir þessa staðsetningu. Veldu gerð dagatalsins og merktu síðan dagatölin sem þú vilt gerast áskrifandi að.
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = Settu inn lykilorð fyrir { $location }:
