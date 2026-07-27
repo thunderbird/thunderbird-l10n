@@ -32,3 +32,6 @@ calendar-creation-type =
     .value = Ruwäch Cholb'äl Q'ij:
 calendar-creation-location =
     .value = Ochochib'al:
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = Tab'ana' utzil tatz'ib'aj ri ewan atzij richin { $location }:
