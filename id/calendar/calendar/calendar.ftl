@@ -154,6 +154,7 @@ week-title-label =
     .aria-label = Minggu { $title }
 calendar-none =
     .label = Tidak ada
+imip-bar-unsupported-text = Pesan ini mengandung acara yang oleh versi { -brand-short-name } ini tidak dapat diproses.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none

@@ -47,3 +47,6 @@ calendar-creation-network-authfail = Kredensial yang telah Anda masukkan tidak d
 calendar-creation-network-certerror = Tidak bisa menemukan kalender di lokasi ini karena suatu masalah sertifikat.
 calendar-creation-network-subscribe-single = Pilih kalender yang ingin Anda langgani.
 calendar-creation-network-subscribe-multiple = Berbagai tipe kalender tersedia untuk lokasi ini. Silakan memilih tipe kalender, lalu tandai kalender yang ingin Anda langgani.
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = Masukkan sandi Anda untuk { $location }:
