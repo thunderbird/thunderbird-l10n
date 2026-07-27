@@ -105,6 +105,7 @@ imip-bar-reply-to-not-existing-item = Poruka sadrži odgovor koji se odnosi na d
 
 ## Calendar email identity
 
+no-identity-selected-notification = Ako želite da koristite ovaj kalendar da biste skladištili poslate i dobijene pozivnice od drugih ljudi, trebalo bi da mu dodjelite mejl identitet ispod.
 
 ## Invitations panel
 
