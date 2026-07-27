@@ -154,6 +154,7 @@ week-title-label =
     .aria-label = setmana { $title }
 calendar-none =
     .label = Cap
+imip-bar-unsupported-text = Aquest missatge conté una cita que aquesta versió del { -brand-short-name } no ha pogut tractar.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
