@@ -2,9 +2,19 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Tab titles
+calendar-tab-title-calendar = Protyka
+calendar-tab-title-tasks = Nadawki
 
 ## Email invitation preview (HTML rendering of an iTIP invitation)
 
+imip-html-header = Přeprošenje na podawk
+# Field labels of the invitation preview table.
+imip-html-summary = Titul:
+imip-html-location = Městno:
+imip-html-when = Hdy:
+imip-html-organizer = Organizator:
+imip-html-description = Wopisanje:
 imip-html-attachments = Přiwěški:
 imip-html-comment = Komentar:
 imip-html-attendees = Wobdźělnicy:
@@ -99,19 +109,82 @@ imip-bar-processed-multiple-needs-action = Tuta powěsć wobsahuje wjacore podaw
 imip-bar-processed-series-needs-action = Tuta powěsć wobsahuje rjad podawkow, na kotryž njejsće hišće wotmołwił.
 imip-bar-reply-text = Tuta powěsć wobsahuje wotmołwu na přeprošenje.
 imip-bar-reply-to-not-existing-item = Tuta powěsć wobsahuje wotmołwu, kotrež so na podawk poćahuje, kotryž we wašej protyce njeje.
+# Variables:
+#   $deletionTime (String) - The formatted time the event was removed from the calendar.
+imip-bar-reply-to-recently-removed-item = Tuta powěsć wobsahuje wotmołwu, kontraž so na podawk poćahuje, kotryž je so { $deletionTime } z wašeje protyki wotstronił.
+# Variables:
+#   $status (String) - The hexadecimal status code of the failed processing.
+imip-bar-processing-failed = Předźěłowanje powěsće je so nimokuliło. Status: { $status }.
+imip-bar-calendar-deactivated = Tuta zdźělenka podawkowe informacije wobsahuje. Zmóžńće protyku, zo byšće z nimi wobchadźał.
+imip-bar-not-writable = Za přeprošenja njejsu so žane popisujomne protyki skonfigurowali, prošu přepruwujće protykowe kajkosće.
+imip-no-calendar-available = Popisujomne protyki k dispoziciji njejsu.
 
 ## Sending invitation emails
 
+imip-send-mail-title = E-mejlowa zdźělenka
+imip-send-mail-text = Chceće nětko zdźělensku e-mejlku pósłać?
 
 ## Calendar email identity
 
+imip-no-identity = Žana
 no-identity-selected-notification = Jeli chceće tutu protyku wužiwać, zo byšće přeprošenja na abo wot ludźi składował, měł wy deleka e-mejlowu identitu připokazać.
 
 ## Invitations panel
 
+# Variables:
+#   $count (Number) - The number of pending invitations.
+invitations-link-label = Přeprošenja: { $count }
 
 ## Process invitation confirmation prompt
 
+confirm-process-invitation = Sće njedawno tutón zapisk zhašał, chceće tute přeprošenje woprawdźe předźěłać?
+confirm-process-invitation-title = Přeprošenje předźěłać?
 
 ## iTIP email subjects and bodies
 
+# Variables:
+#   $summary (String) - The event title.
+itip-request-subject = Přeprošenje: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-request-updated-subject = Zaktualizowany: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-request-body = { $organizer } je was na { $summary } přeprosył
+# Variables:
+#   $summary (String) - The event title.
+itip-cancel-subject = Přetorhnjeny: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-cancel-body = { $organizer } je tutón podawk anulował: { $summary }
+# Variables:
+#   $attendee (String) - The attendee who made the counterproposal.
+#   $summary (String) - The event title.
+itip-counter-body = { $attendee } je přećiwonamjet za „{ $summary }“ činił:
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-decline-counter-body = { $organizer } je waš přećiwonamjet za „{ $summary }“ wotpokazał.
+# Variables:
+#   $summary (String) - The event title.
+itip-decline-counter-subject = Přećiwonamjet je so wotpokazał: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject = Přeprošenska wotmołwa: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-accept = Akceptowany: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-decline = Přeprošenje wotpokazane: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-tentative = Nachwilny: { $summary }
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-accept = { $attendee } je waše přeprošenje na podawk akceptował.
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-decline = { $attendee } je waše přeprošenje na podawk wotpokazał.
