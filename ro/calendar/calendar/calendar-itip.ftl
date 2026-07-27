@@ -109,19 +109,82 @@ imip-bar-processed-multiple-needs-action = Mesajul conține mai multe evenimente
 imip-bar-processed-series-needs-action = Mesajul conține o serie de evenimente la care încă nu ai răspuns.
 imip-bar-reply-text = Mesajul conține un răspuns la o invitație.
 imip-bar-reply-to-not-existing-item = Mesajul conține un răspuns cu referire la un eveniment care nu există în calendarul tău.
+# Variables:
+#   $deletionTime (String) - The formatted time the event was removed from the calendar.
+imip-bar-reply-to-recently-removed-item = Mesajul conține un răspuns cu referire la un eveniment care a fost scos din calendarul tău la { $deletionTime }.
+# Variables:
+#   $status (String) - The hexadecimal status code of the failed processing.
+imip-bar-processing-failed = Procesarea mesajului a eșuat. Stare: { $status }.
+imip-bar-calendar-deactivated = Acest mesaj conține informații despre un eveniment. Activează un calendar pentru a-l gestiona.
+imip-bar-not-writable = Niciun calendar nu este configurat pentru scrierea invitațiilor, te rugăm să verifici proprietățile calendarului.
+imip-no-calendar-available = Nu există niciun calendar disponibil pentru scriere.
 
 ## Sending invitation emails
 
+imip-send-mail-title = Notificare prin e-mail
+imip-send-mail-text = Vrei să trimiți notificările pe e-mail acum?
 
 ## Calendar email identity
 
+imip-no-identity = Niciuna
 no-identity-selected-notification = Dacă vrei să utilizezi acest calendar pentru păstrarea invitațiilor către sau de la alte persoane, trebuie să aloci o identitate de e-mail mai jos.
 
 ## Invitations panel
 
+# Variables:
+#   $count (Number) - The number of pending invitations.
+invitations-link-label = Invitații: { $count }
 
 ## Process invitation confirmation prompt
 
+confirm-process-invitation = Ai șters recent acest element, sigur vrei să prelucrezi această invitație?
+confirm-process-invitation-title = Prelucrez invitația?
 
 ## iTIP email subjects and bodies
 
+# Variables:
+#   $summary (String) - The event title.
+itip-request-subject = Invitație: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-request-updated-subject = Actualizată: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-request-body = { $organizer } v-a invitat la { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-cancel-subject = Anulată: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-cancel-body = { $organizer } a anulat acest eveniment: { $summary }
+# Variables:
+#   $attendee (String) - The attendee who made the counterproposal.
+#   $summary (String) - The event title.
+itip-counter-body = { $attendee } a făcut o contrapropunere pentru „{ $summary }”:
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-decline-counter-body = { $organizer } a refuzat contrapropunerea ta pentru „{ $summary }”.
+# Variables:
+#   $summary (String) - The event title.
+itip-decline-counter-subject = Contrapropunere refuzată: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject = Răspuns la invitație: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-accept = Acceptată: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-decline = Invitație refuzată: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-tentative = Provizoriu: { $summary }
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-accept = { $attendee } a acceptat invitația ta la eveniment.
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-decline = { $attendee } a refuzat invitația ta la eveniment.
