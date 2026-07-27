@@ -154,6 +154,7 @@ week-title-label =
     .aria-label = Dduṛt { $title }
 calendar-none =
     .label = Ulac
+imip-bar-unsupported-text = Izen-a yegber tadyant ur yezmir ara lqem n { -brand-short-name } ad tt-issefrek.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none

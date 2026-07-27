@@ -45,3 +45,6 @@ calendar-creation-network-notfound = Ur izmir ara ad d-yaf awitay deg tansa-a. W
 calendar-creation-network-authfail = Inekcam n tuqqna yettaskecmen ur ttwaqeblen ara. Wali iɣewwaṛen.
 calendar-creation-network-subscribe-single = Ma ulac aɣilif, fren iwitayen aniɣer i tebɣiḍ ad tjerrdeḍ.
 calendar-creation-network-subscribe-multiple = Ddeqs n wanawen n yiwitayen llan di tansa-a. Fren anaw n uwitay, sakin fren iwitayen aniɣer tebɣiḍ ad tjerrdeḍ.
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = Ma ulac aɣilif mudd awal-ik uffir i { $location }:
