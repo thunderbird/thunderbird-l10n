@@ -56,6 +56,7 @@ imip-html-attendee-part-stat-declined = Ο/Η { $attendee } αρνήθηκε ν�
 
 ## Calendar email identity
 
+no-identity-selected-notification = Αν θέλετε να χρησιμοποιήσετε αυτό το ημερολόγιο για να αποθηκεύσετε προσκλήσεις προς ή από άλλα άτομα, θα πρέπει να αναθέσετε μια ταυτότητα email παρακάτω.
 
 ## Invitations panel
 
