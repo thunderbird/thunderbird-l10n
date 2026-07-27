@@ -9,3 +9,6 @@ calendar-creation-initial-network =
     .label = Tarmoqda
 calendar-creation-username =
     .value = Foydalanuvchi:
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = { $location } uchun parolni kiriting:
