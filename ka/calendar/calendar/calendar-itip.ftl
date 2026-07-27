@@ -93,6 +93,22 @@ imip-bar-cancel-text = გზავნილი ღონისძიები�
 imip-bar-counter-error-text = გზავნილი შეიცავს შემხვედრ შეთავაზებას მოწვევაზე, რომლის დამუშავებაც ვერ ხერხდება.
 imip-bar-counter-previous-version-text = გზავნილი შეიცავს შემხვედრ შემოთავაზებას, მოწვევის წინა ვერსიაზე.
 imip-bar-counter-text = გზავნილი შეიცავს შემხვედრ შემოთავაზებას, მოწვევაზე.
+imip-bar-disallowed-counter-text = გზავნილი შეიცავს შემხვედრ შემოთავაზებას, მაგრამ თქვენ აკრძალული გაქვთ ამ ღონისძიებისთვის მსგავსი შემოთავაზებები.
+imip-bar-decline-counter-text = გზავნილში მოცემულია პასუხი, თქვენს შემხვედრ შეთავაზებაზე.
+imip-bar-refresh-text = გზავნილში მოთხოვნილია, ღონისძიების განახლება.
+imip-bar-publish-text = გზავნილში მოცემულია ღონისძიება.
+imip-bar-request-text = გზავნილი შეიცავს ღონისძიებაზე მოწვევას.
+imip-bar-sent-text = გზავნილი შეიცავს, გაგზავნილ ღონისძიებას.
+imip-bar-sent-but-removed-text = გზავნილი შეიცავს გაგზავნილ ღონისძიებას, რომელიც თქვენს კალენდარზე აღარაა აღნიშნული.
+imip-bar-update-text = გზავნილი გამცნობთ, არსებული ღონისძიების განახლების შესახებ.
+imip-bar-update-multiple-text = გზავნილი შეიცავს განახლებებს, მრავალი არსებული ღონისძიებისთვის.
+imip-bar-update-series-text = გზავნილი გამცნობთ, არსებული მთელი რიგი ღონისძიების განახლების შესახებ.
+imip-bar-already-processed-text = გზავნილი შეიცავს ღონისძიებას, რომელიც უკვე შესრულდა.
+imip-bar-processed-needs-action = გზავნილი შეიცავს ღონისძიებაზე მოწვევას, რომელზე პასუხიც ჯერ არ გაგიციათ.
+imip-bar-processed-multiple-needs-action = გზავნილი შეიცავს რამდენიმე ღონისძიებას, რომელზე პასუხიც ჯერ არ გაგიციათ.
+imip-bar-processed-series-needs-action = გზავნილი შეიცავს მთელ რიგ ღონისძიებებზე მოწვევას, რომელზე პასუხიც ჯერ არ გაგიციათ.
+imip-bar-reply-text = ეს გზავნილი მოწვევის პასუხს შეიცავს.
+imip-bar-reply-to-not-existing-item = გზავნილიში მოცემულია პასუხი იმ ღონისძიებასთან დაკავშირებით, რომელიც არაა თქვენს კალენდარზე.
 # Variables:
 #   $deletionTime (String) - The formatted time the event was removed from the calendar.
 imip-bar-reply-to-recently-removed-item = გზავნილიში მოცემულია პასუხი იმ ღონისძიებასთან დაკავშირებით, რომელიც წაიშალა თქვენი კალენდრიდან { $deletionTime } თარიღზე.
