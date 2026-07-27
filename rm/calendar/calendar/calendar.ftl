@@ -154,6 +154,7 @@ week-title-label =
     .aria-label = Emna { $title }
 calendar-none =
     .label = Nagin
+imip-bar-unsupported-text = Quest messadi cuntegna in eveniment che questa versiun da { -brand-short-name } na po betg elavurar.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
