@@ -635,6 +635,7 @@ calendar-error-code =
     .value = Код памылкі:
 calendar-error-description =
     .value = Апісанне:
+calendar-error-prompt-title = Узнікла памылка
 calendar-error-title =
     .title = Узнікла памылка
 calendar-extract-event-button =
