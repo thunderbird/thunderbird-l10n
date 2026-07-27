@@ -5,3 +5,8 @@
 key-import-info-close =
     .label = Închide
     .accesskey = c
+import-info-dialog-title = Succes! Cheia a fost importată
+import-info-created = Creată
+import-info-fpr = Amprentă
+import-info-details = Vezi detaliile și gestionează acceptarea cheii
+import-info-no-keys = Nu a fost importată nicio cheie.
