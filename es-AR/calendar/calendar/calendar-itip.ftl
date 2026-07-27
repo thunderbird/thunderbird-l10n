@@ -15,6 +15,15 @@ imip-html-location = Dirección:
 imip-html-when = Cuando:
 imip-html-organizer = Organizador:
 imip-html-description = Descripción:
+imip-html-attachments = Adjuntos:
+imip-html-comment = Comentario:
+imip-html-attendees = Asistentes:
+imip-html-url = Enlace relacionado:
+imip-html-canceled-occurrences = Apariciones canceladas:
+imip-html-modified-occurrences = Apariciones modificadas:
+# Variables:
+#   $location (String) - The new location of a modified occurrence.
+imip-html-new-location = Nueva dirección: { $location }
 # Appended behind an attendee name in the email invitation preview.
 # Variables:
 #   $delegators (String) - A single delegator or a comma separated list of delegators.
@@ -106,6 +115,7 @@ imip-bar-reply-to-not-existing-item = Este mensaje contiene una respuesta que re
 
 ## Calendar email identity
 
+no-identity-selected-notification = Si desea usar este calendario para guardar invitaciones hacia o desde otras personas debería asignar un correo electrónico de identidad debajo.
 
 ## Invitations panel
 
