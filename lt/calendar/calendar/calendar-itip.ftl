@@ -115,6 +115,7 @@ imip-bar-reply-to-not-existing-item = Su šiuo laišku atsiųstas atsakymas, sus
 
 ## Calendar email identity
 
+no-identity-selected-notification = Jei šiame kalendoriuje norite bendrinti kvietimus ar juos priimti, turite jam priskirti el. pašto paskyrą.
 
 ## Invitations panel
 
