@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+key-import-info-close =
+    .label = Затвори
+    .accesskey = З
 import-info-dialog-title = Успех! Кључеви су увезени
 import-info-created = Направљено
 import-info-fpr = Отисак прста
