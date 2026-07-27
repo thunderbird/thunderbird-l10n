@@ -105,6 +105,7 @@ imip-bar-reply-to-not-existing-item = Mae'r neges hon yn cynnwys ateb sy'n cyfei
 
 ## Calendar email identity
 
+no-identity-selected-notification = Os hoffech chi ddefnyddio'rcalendr hwn i gadwgwahoddiadau i neu at bobl eraill, dylech ddynodi hunaniaeth e-bost isod.
 
 ## Invitations panel
 
