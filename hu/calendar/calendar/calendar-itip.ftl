@@ -105,6 +105,7 @@ imip-bar-reply-to-not-existing-item = Ez az üzenet a naptárában nem szereplő
 
 ## Calendar email identity
 
+no-identity-selected-notification = Ha szeretné hogy ez a naptár kezelje a meghívásait, akkor rendeljen hozzá e-mail személyazonosságot lent.
 
 ## Invitations panel
 
