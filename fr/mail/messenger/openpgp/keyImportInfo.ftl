@@ -5,3 +5,8 @@
 key-import-info-close =
     .label = Fermer
     .accesskey = F
+import-info-dialog-title = Clés correctement importées
+import-info-created = Date de création
+import-info-fpr = Empreinte
+import-info-details = Afficher les détails et gérer l’acceptation des clés
+import-info-no-keys = Aucune clé importée.
