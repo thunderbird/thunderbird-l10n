@@ -154,6 +154,7 @@ week-title-label =
     .aria-label = { $title }주
 calendar-none =
     .label = 없음
+imip-bar-unsupported-text = 이 메시지는 현재 버전의 { -brand-short-name }이 처리할 수 없는 이벤트를 포함하고 있습니다.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none

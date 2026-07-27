@@ -47,3 +47,6 @@ calendar-creation-network-authfail = 입력한 자격 증명이 받아들여지�
 calendar-creation-network-certerror = 인증서 문제로 인해 이 위치에서 달력을 찾을 수 없습니다.
 calendar-creation-network-subscribe-single = 구독하려는 캘린더를 선택해 주세요.
 calendar-creation-network-subscribe-multiple = 이 위치에서는 여러개의 캘린더 형식이 가능합니다. 캘린더 형식을 선택하고 구독하려는 캘린더를 표시해 주세요.
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = { $location } 계정에 대한 비밀번호를 입력하십시오:
