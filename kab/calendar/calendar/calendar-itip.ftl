@@ -2,9 +2,19 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Tab titles
+calendar-tab-title-calendar = Awitay
+calendar-tab-title-tasks = Tiwuriwin
 
 ## Email invitation preview (HTML rendering of an iTIP invitation)
 
+imip-html-header = Tinnubga n tedyant
+# Field labels of the invitation preview table.
+imip-html-summary = Azwel:
+imip-html-location = Adig:
+imip-html-when = Anida:
+imip-html-organizer = Amsuddes:
+imip-html-description = Aglam:
 imip-html-attachments = Imeddayen:
 imip-html-comment = Awennit:
 imip-html-attendees = Imttekkiyen:
@@ -99,19 +109,82 @@ imip-bar-processed-multiple-needs-action = Izen-agi yegber nddeqs n tidyanin imu
 imip-bar-processed-series-needs-action = Izen-agi yegber tagrumman n tidyanin imumi ur terriḍ yakan awal.
 imip-bar-reply-text = Izen-agi yegber tiririt i tedyant.
 imip-bar-reply-to-not-existing-item = Izen-agi yegber tiririt i d-yemmalen tadyant ur nelli ara deg uwitay inek.
+# Variables:
+#   $deletionTime (String) - The formatted time the event was removed from the calendar.
+imip-bar-reply-to-recently-removed-item = Izen-agi yegber tiririt igebren tamsisɣelt n tedyant ur nelli ara deg uwitay { $deletionTime }.
+# Variables:
+#   $status (String) - The hexadecimal status code of the failed processing.
+imip-bar-processing-failed = Asesfer n yizen ur yeddi ara. Addad : { $status }.
+imip-bar-calendar-deactivated = Izen-a yegber talɣut n uneḍru. Rmed awitay akken ad tesferkeḍ-t.
+imip-bar-not-writable = Ulac iwitayen i tzemred ad tesnifleḍ i yettusewlen yakan i tu=innubgiwin, ma ulac aɣilif senqed timezliyin n uwitay.
+imip-no-calendar-available = Ulac iwitayen aniɣer i tzemred ad taruḍ tura.
 
 ## Sending invitation emails
 
+imip-send-mail-title = Alɣu s yimayl
+imip-send-mail-text = Tebɣiḍ ad tazneḍ alɣu s yimayl akka tura?
 
 ## Calendar email identity
 
+imip-no-identity = Ulac
 no-identity-selected-notification = Ma triḍ ad tesqedceḍ awitay-agi akken ad teskelseḍ tinecdiwin yettwaremsen neɣyettwaznen, yessefk ad s-tsedduḍ tansa taliktrunant ddaw-a.
 
 ## Invitations panel
 
+# Variables:
+#   $count (Number) - The number of pending invitations.
+invitations-link-label = Tinnubgiwin: { $count }
 
 ## Process invitation confirmation prompt
 
+confirm-process-invitation = Tekkseḍ tineggura-agi afedis-agi, tebɣiḍ ad ttusesfer tinnubga-agi?
+confirm-process-invitation-title = Sesfer tinnubga?
 
 ## iTIP email subjects and bodies
 
+# Variables:
+#   $summary (String) - The event title.
+itip-request-subject = Tanecda: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-request-updated-subject = Yettwalqem: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-request-body = { $organizer } yuzen-ak-d tinnubga ɣeṛ { $summary }.
+# Variables:
+#   $summary (String) - The event title.
+itip-cancel-subject = Yefsex: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-cancel-body = { $organizer } isefsex tadyant-agi: { $summary }
+# Variables:
+#   $attendee (String) - The attendee who made the counterproposal.
+#   $summary (String) - The event title.
+itip-counter-body = { $attendee } imudd-d amgal-asumer n "{ $summary }":
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-decline-counter-body = { $organizer } yuggi amgal-asumer n "{ $summary }".
+# Variables:
+#   $summary (String) - The event title.
+itip-decline-counter-subject = Amgal-asumer yettwaggi: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject = Tiririt i tnecda: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-accept = Yettwaqbel: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-decline = Tanecda tettwagi: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-tentative = Aɛraḍ: { $summary }
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-accept = { $attendee } yeqqbel tinnubga yinek ɣer tedyant.
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-decline = { $attendee } yugwi tinubga yinek ɣer tedyant.
