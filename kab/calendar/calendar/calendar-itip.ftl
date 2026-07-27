@@ -105,6 +105,7 @@ imip-bar-reply-to-not-existing-item = Izen-agi yegber tiririt i d-yemmalen tadya
 
 ## Calendar email identity
 
+no-identity-selected-notification = Ma triḍ ad tesqedceḍ awitay-agi akken ad teskelseḍ tinecdiwin yettwaremsen neɣyettwaznen, yessefk ad s-tsedduḍ tansa taliktrunant ddaw-a.
 
 ## Invitations panel
 
