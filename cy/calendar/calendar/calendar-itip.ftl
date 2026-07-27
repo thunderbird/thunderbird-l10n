@@ -2,9 +2,19 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Tab titles
+calendar-tab-title-calendar = Calendr
+calendar-tab-title-tasks = Tasgau
 
 ## Email invitation preview (HTML rendering of an iTIP invitation)
 
+imip-html-header = Gwahoddiad i Ddigwyddiad
+# Field labels of the invitation preview table.
+imip-html-summary = Teitl:
+imip-html-location = Lleoliad:
+imip-html-when = Pryd:
+imip-html-organizer = Trefnydd:
+imip-html-description = Disgrifiad:
 imip-html-attachments = Atodiadau:
 imip-html-comment = Sylwadau:
 imip-html-attendees = Mynychwyr:
