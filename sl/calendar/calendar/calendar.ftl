@@ -162,6 +162,7 @@ week-title-label =
     .aria-label = { $title }. teden
 calendar-none =
     .label = brez
+imip-bar-unsupported-text = To sporočilo vsebuje dogodek, ki ga ta različica dodatka { -brand-short-name }a ne more obdelati.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
