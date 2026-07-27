@@ -158,6 +158,7 @@ week-title-label =
     .aria-label = { $title }. hét
 calendar-none =
     .label = Nincs
+imip-bar-unsupported-text = Ez az üzenet egy olyan eseményt tartalmaz, amelyet a { -brand-short-name } ezen verziója nem tud feldolgozni.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
