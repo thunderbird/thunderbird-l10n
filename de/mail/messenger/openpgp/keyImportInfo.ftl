@@ -5,3 +5,8 @@
 key-import-info-close =
     .label = Schließen
     .accesskey = c
+import-info-dialog-title = Schlüssel erfolgreich importiert
+import-info-created = Erstellt am
+import-info-fpr = Fingerabdruck
+import-info-details = Details anzeigen und Schlüsselakzeptanz verwalten
+import-info-no-keys = Keine Schlüssel importiert
