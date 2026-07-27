@@ -5,3 +5,8 @@
 key-import-info-close =
     .label = 关闭
     .accesskey = C
+import-info-dialog-title = 成功！已导入密钥
+import-info-created = 创建于
+import-info-fpr = 指纹
+import-info-details = 查看详细信息并管理密钥接受度
+import-info-no-keys = 未导入密钥。
