@@ -47,3 +47,6 @@ calendar-creation-network-authfail = The credentials you have entered were not a
 calendar-creation-network-certerror = Could not find calendars at this location because of a certificate problem.
 calendar-creation-network-subscribe-single = Please select the calendars you would like to subscribe to.
 calendar-creation-network-subscribe-multiple = Multiple calendar types are available for this location. Please select the calendar type, then mark the calendars you would like to subscribe to.
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = Please enter your password for { $location }:
