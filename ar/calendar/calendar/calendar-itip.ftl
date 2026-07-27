@@ -2,9 +2,19 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Tab titles
+calendar-tab-title-calendar = التقويم
+calendar-tab-title-tasks = المهام
 
 ## Email invitation preview (HTML rendering of an iTIP invitation)
 
+imip-html-header = دعوة لحدث
+# Field labels of the invitation preview table.
+imip-html-summary = الاسم:
+imip-html-location = المكان:
+imip-html-when = متى:
+imip-html-organizer = المنظّم:
+imip-html-description = الوصف:
 imip-html-attachments = المرفقات:
 imip-html-comment = تعليق:
 imip-html-attendees = الحضور:
@@ -99,19 +109,82 @@ imip-bar-processed-multiple-needs-action = تحتوي هذه الرسالة عل
 imip-bar-processed-series-needs-action = تحتوي هذه الرسالة على سلسلة من الأحداث لم تردّ عليها للآن.
 imip-bar-reply-text = تحتوي هذه الرسالة ردًا على دعوة.
 imip-bar-reply-to-not-existing-item = تحتوي هذه الرسالة ردًا يشير إلى حدث ليس في تقويمك.
+# Variables:
+#   $deletionTime (String) - The formatted time the event was removed from the calendar.
+imip-bar-reply-to-recently-removed-item = تحتوي هذه الرسالة ردًا يشير إلى حدث أزيل من تقويمك في { $deletionTime }.
+# Variables:
+#   $status (String) - The hexadecimal status code of the failed processing.
+imip-bar-processing-failed = فشلت معالجة الرسالة. الحالة: { $status }.
+imip-bar-calendar-deactivated = تحتوي هذه الرسالة على معلومات لحدث. فعّل أحد التقاويم للتعامل معه.
+imip-bar-not-writable = لم يُضبط أي تقويم قابل للكتابة للدعوات، من فضلك تحقق من خصائص التقويم.
+imip-no-calendar-available = لا يوجد تقويمات قابلة للكتابة.
 
 ## Sending invitation emails
 
+imip-send-mail-title = إخطار بريد إلكتروني
+imip-send-mail-text = أتريد إرسال إخطار بالبريد الإلكتروني الآن؟
 
 ## Calendar email identity
 
+imip-no-identity = لا شيء
 no-identity-selected-notification = إن أردت استعمال هذا التقويم لتخزين الدعوات من الناس أو منك إلى الناس، فعليك ضبط هوية بريدك إلكتروني أسفله.
 
 ## Invitations panel
 
+# Variables:
+#   $count (Number) - The number of pending invitations.
+invitations-link-label = دعوات: { $count }
 
 ## Process invitation confirmation prompt
 
+confirm-process-invitation = لقد حذفت هذا العنصر مؤخّرًا، أتريد حقا معالجة هذه الدعوة؟
+confirm-process-invitation-title = أأعالج الدعوة؟
 
 ## iTIP email subjects and bodies
 
+# Variables:
+#   $summary (String) - The event title.
+itip-request-subject = دعوة: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-request-updated-subject = حدّث: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-request-body = دعاك { $organizer } إلى { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-cancel-subject = ألغى: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-cancel-body = ألغى { $organizer } هذا الحدث: { $summary }
+# Variables:
+#   $attendee (String) - The attendee who made the counterproposal.
+#   $summary (String) - The event title.
+itip-counter-body = قدم { $attendee } عرضًا مضادًا على ”{ $summary }“:
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-decline-counter-body = رفض { $organizer } عرض المضاد على ”{ $summary }“.
+# Variables:
+#   $summary (String) - The event title.
+itip-decline-counter-subject = رُفِض العرض المضاد: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject = ردّ على الدعوة: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-accept = قبلَ: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-decline = رُفضت الدعوة: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-tentative = قبلَ مبدئيًا: { $summary }
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-accept = قبل { $attendee } دعوة الحدث.
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-decline = رفض { $attendee } دعوة الحدث.
