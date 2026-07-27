@@ -115,6 +115,7 @@ imip-bar-reply-to-not-existing-item = Mezu honek zure egutegian ez dagoen gertae
 
 ## Calendar email identity
 
+no-identity-selected-notification = Egutegi hau beste batzuen gonbidapenak gordetzeko erabili nahi baduzu, azpian posta elektroniko bat esleitu behar duzu.
 
 ## Invitations panel
 
