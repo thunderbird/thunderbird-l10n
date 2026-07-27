@@ -2,9 +2,19 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Tab titles
+calendar-tab-title-calendar = Kalender
+calendar-tab-title-tasks = Nadawki
 
 ## Email invitation preview (HTML rendering of an iTIP invitation)
 
+imip-html-header = Pśepšosenje na tšojenje
+# Field labels of the invitation preview table.
+imip-html-summary = Titel:
+imip-html-location = Městno:
+imip-html-when = Gdy:
+imip-html-organizer = Organizator:
+imip-html-description = Wopisanje:
 imip-html-attachments = Pśidanki:
 imip-html-comment = Komentar:
 imip-html-attendees = Wobźělniki:
@@ -117,6 +127,7 @@ imip-send-mail-text = Cośo něnto zdźěleńsku mejlku pósłaś?
 ## Calendar email identity
 
 imip-no-identity = Žedna
+no-identity-selected-notification = Jolic cośo toś ten kalendaŕ wužywaś, aby pśepšosenja na abo wót luźi składował, měł wy dołojce e-mailowu identitu pśipokazaś.
 
 ## Invitations panel
 
