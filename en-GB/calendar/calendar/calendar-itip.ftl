@@ -2,9 +2,19 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Tab titles
+calendar-tab-title-calendar = Calendar
+calendar-tab-title-tasks = Tasks
 
 ## Email invitation preview (HTML rendering of an iTIP invitation)
 
+imip-html-header = Event Invitation
+# Field labels of the invitation preview table.
+imip-html-summary = Title:
+imip-html-location = Location:
+imip-html-when = When:
+imip-html-organizer = Organiser:
+imip-html-description = Description:
 imip-html-attachments = Attachments:
 imip-html-comment = Comment:
 imip-html-attendees = Attendees:
@@ -99,19 +109,82 @@ imip-bar-processed-multiple-needs-action = This message contains multiple events
 imip-bar-processed-series-needs-action = This message contains an event series that you have not yet responded to.
 imip-bar-reply-text = This message contains a reply to an invitation.
 imip-bar-reply-to-not-existing-item = This message contains a reply referring to an event that is not in your calendar.
+# Variables:
+#   $deletionTime (String) - The formatted time the event was removed from the calendar.
+imip-bar-reply-to-recently-removed-item = This message contains a reply referring to an event that was removed from your calendar at { $deletionTime }.
+# Variables:
+#   $status (String) - The hexadecimal status code of the failed processing.
+imip-bar-processing-failed = Processing message failed. Status: { $status }.
+imip-bar-calendar-deactivated = This message contains event information. Enable a calendar to handle it.
+imip-bar-not-writable = No writable calendars are configured for invitations, please check the calendar properties.
+imip-no-calendar-available = There are no writable calendars available.
 
 ## Sending invitation emails
 
+imip-send-mail-title = Email Notification
+imip-send-mail-text = Would you like to send out notification Email now?
 
 ## Calendar email identity
 
+imip-no-identity = None
 no-identity-selected-notification = If you want to use this calendar to store invitations to or from other people you should assign an email identity below.
 
 ## Invitations panel
 
+# Variables:
+#   $count (Number) - The number of pending invitations.
+invitations-link-label = Invitations: { $count }
 
 ## Process invitation confirmation prompt
 
+confirm-process-invitation = You have recently deleted this item, are you sure you want to process this invitation?
+confirm-process-invitation-title = Process Invitation?
 
 ## iTIP email subjects and bodies
 
+# Variables:
+#   $summary (String) - The event title.
+itip-request-subject = Invitation: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-request-updated-subject = Updated: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-request-body = { $organizer } has invited you to { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-cancel-subject = Cancelled: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-cancel-body = { $organizer } has cancelled this event: « { $summary } »
+# Variables:
+#   $attendee (String) - The attendee who made the counterproposal.
+#   $summary (String) - The event title.
+itip-counter-body = { $attendee } has made a counterproposal for "{ $summary }":
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-decline-counter-body = { $organizer } has declined your counterproposal for "{ $summary }".
+# Variables:
+#   $summary (String) - The event title.
+itip-decline-counter-subject = Counterproposal Declined: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject = Invitation Reply: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-accept = Accepted: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-decline = Invitation Declined: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-tentative = Tentative: { $summary }
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-accept = { $attendee } has accepted your event invitation.
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-decline = { $attendee } has declined your event invitation.
