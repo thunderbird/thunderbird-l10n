@@ -109,19 +109,82 @@ imip-bar-processed-multiple-needs-action = Oraindik erantzun ez duzun hainbat ge
 imip-bar-processed-series-needs-action = Oraindik erantzun ez duzun gertaera serie bat dauka mezu honek.
 imip-bar-reply-text = Mezu honek gonbidapen bati egindako erantzuna dauka.
 imip-bar-reply-to-not-existing-item = Mezu honek zure egutegian ez dagoen gertaera baten erantzuna dauka.
+# Variables:
+#   $deletionTime (String) - The formatted time the event was removed from the calendar.
+imip-bar-reply-to-recently-removed-item = Mezu honek zure egutegitik { $deletionTime }an ezabatu zen gertaera baten erantzuna dauka.
+# Variables:
+#   $status (String) - The hexadecimal status code of the failed processing.
+imip-bar-processing-failed = Mezua prozesatzean huts egin du. Egoera: { $status }.
+imip-bar-calendar-deactivated = Mezu honek gertaeren informazio dauka. Gaitu egutegi bat erabili ahal izateko.
+imip-bar-not-writable = Ez da egutegi idazgarririk konfiguratu gonbidapenetarako, egiaztatu egutegiaren propietateak.
+imip-no-calendar-available = Ez dago egutegi idazkorrik erabilgarri.
 
 ## Sending invitation emails
 
+imip-send-mail-title = E-posta jakinarazpena
+imip-send-mail-text = E-posta jakinarazpena orain bidaltzea nahi ahal duzu?
 
 ## Calendar email identity
 
+imip-no-identity = Bat ere ez
 no-identity-selected-notification = Egutegi hau beste batzuen gonbidapenak gordetzeko erabili nahi baduzu, azpian posta elektroniko bat esleitu behar duzu.
 
 ## Invitations panel
 
+# Variables:
+#   $count (Number) - The number of pending invitations.
+invitations-link-label = Gonbidapenak: { $count }
 
 ## Process invitation confirmation prompt
 
+confirm-process-invitation = Duela gutxi ezabatu duzu elementu hau, ziur zaude gonbidapena prozesatu nahi duzula?
+confirm-process-invitation-title = Prozesatu gonbidapena?
 
 ## iTIP email subjects and bodies
 
+# Variables:
+#   $summary (String) - The event title.
+itip-request-subject = Gonbidapena: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-request-updated-subject = Eguneratua: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-request-body = { $organizer }(e)k { $summary }(e)ra gonbidatu zaitu
+# Variables:
+#   $summary (String) - The event title.
+itip-cancel-subject = Ezeztatua: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-cancel-body = { $organizer }k gertaera hau bertan behera utzi du: { $summary }
+# Variables:
+#   $attendee (String) - The attendee who made the counterproposal.
+#   $summary (String) - The event title.
+itip-counter-body = { $attendee }k kontraproposamena egin du honentzat "{ $summary }":
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-decline-counter-body = { $organizer }k kontraproposamen hau baztertu du "{ $summary }".
+# Variables:
+#   $summary (String) - The event title.
+itip-decline-counter-subject = Kontraproposamen baztertua: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject = Gonbidapenari erantzuna: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-accept = Onartua: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-decline = Gonbidapen baztertua: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-tentative = Behin behinekoa: { $summary }
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-accept = { $attendee }(e)k zure gertaera gonbidapena onartu du.
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-decline = { $attendee }(e)k zure gertaera baztertu du.
