@@ -104,19 +104,87 @@ imip-bar-update-text = Это письмо содержит обновление
 imip-bar-update-multiple-text = Это письмо содержит обновления нескольких существующих событий.
 imip-bar-update-series-text = Это письмо содержит обновление существующей серии событий.
 imip-bar-already-processed-text = Это письмо содержит событие, которое уже обработано.
+imip-bar-processed-needs-action = Это письмо содержит событие, на которое вы ещё не отреагировали.
+imip-bar-processed-multiple-needs-action = Это письмо содержит несколько событий, на которые вы ещё не отреагировали.
+imip-bar-processed-series-needs-action = Это письмо содержит серию событий, на которую вы ещё не отреагировали.
+imip-bar-reply-text = Это письмо содержит ответ на приглашение..
+imip-bar-reply-to-not-existing-item = Это письмо содержит ответ, относящийся к событию, которого нет в вашем календаре.
+# Variables:
+#   $deletionTime (String) - The formatted time the event was removed from the calendar.
+imip-bar-reply-to-recently-removed-item = Это письмо содержит ответ, относящийся к событию, которое было удалено из вашего календаря { $deletionTime }.
+# Variables:
+#   $status (String) - The hexadecimal status code of the failed processing.
+imip-bar-processing-failed = Ошибка обработки письма. Состояние: { $status }.
+imip-bar-calendar-deactivated = Это сообщение содержит информацию о событии. Откройте календарь, чтобы занести его.
+imip-bar-not-writable = Нет календарей доступных для записи настроенных для приглашений, проверьте настройки календаря.
+imip-no-calendar-available = Нет календарей доступных для записи.
 
 ## Sending invitation emails
 
+imip-send-mail-title = Уведомление участников
+imip-send-mail-text = Вы хотите отправить уведомление по электронной почте?
 
 ## Calendar email identity
 
+imip-no-identity = Нет
 no-identity-selected-notification = Если вы хотите использовать этот календарь для хранений приглашений другим людям или от других людей, вам следует указать ниже адрес электронной почты.
 
 ## Invitations panel
 
+# Variables:
+#   $count (Number) - The number of pending invitations.
+invitations-link-label = Приглашения: { $count }
 
 ## Process invitation confirmation prompt
 
+confirm-process-invitation = Вы недавно удалили этот пункт, вы уверены, что вы хотите обработать это приглашение?
+confirm-process-invitation-title = Обработать приглашение?
 
 ## iTIP email subjects and bodies
 
+# Variables:
+#   $summary (String) - The event title.
+itip-request-subject = Приглашение: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-request-updated-subject = Обновлено: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-request-body = { $organizer } приглашает Вас на { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-cancel-subject = Отменено: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-cancel-body = { $organizer } отменил это событие: « { $summary } »
+# Variables:
+#   $attendee (String) - The attendee who made the counterproposal.
+#   $summary (String) - The event title.
+itip-counter-body = { $attendee } сделал встречное предложение для «{ $summary }»:
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-decline-counter-body = { $organizer } отклонил ваше встречное предложение для «{ $summary }».
+# Variables:
+#   $summary (String) - The event title.
+itip-decline-counter-subject = Встречное предложение отклонено: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject = Ответ на приглашение: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-accept = Принято: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-decline = Приглашение отклонено: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-tentative = Ориентировочно принято: { $summary }
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-accept = { $attendee } принимает ваше приглашение на событие.
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-decline = { $attendee } отклоняет ваше приглашение на событие.
