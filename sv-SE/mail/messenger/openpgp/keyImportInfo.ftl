@@ -5,3 +5,8 @@
 key-import-info-close =
     .label = Stäng
     .accesskey = S
+import-info-dialog-title = Nycklar har importerats!
+import-info-created = Skapad
+import-info-fpr = Fingeravtryck
+import-info-details = Visa detaljer och hantera nyckelacceptans
+import-info-no-keys = Inga nycklar importerade.
