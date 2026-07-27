@@ -109,19 +109,82 @@ imip-bar-processed-multiple-needs-action = Šiame pranešime yra keli įvykiai, 
 imip-bar-processed-series-needs-action = Šiame pranešime yra įvykių serija, į kurią dar neatsakėte.
 imip-bar-reply-text = Su šiuo laišku atsiųstas atsakymas į kvietimą.
 imip-bar-reply-to-not-existing-item = Su šiuo laišku atsiųstas atsakymas, susijęs su įvykiu, kurio nėra jūsų kalendoriuje.
+# Variables:
+#   $deletionTime (String) - The formatted time the event was removed from the calendar.
+imip-bar-reply-to-recently-removed-item = Su šiuo laišku atsiųstas atsakymas, susijęs su įvykiu, pašalintu iš jūsų kalendoriaus { $deletionTime }.
+# Variables:
+#   $status (String) - The hexadecimal status code of the failed processing.
+imip-bar-processing-failed = Laiško apdoroti nepavyko. Pranešimas: { $status }.
+imip-bar-calendar-deactivated = Šiame pranešime yra informacija apie įvykį. Kad būtų galima ją apdoroti, įgalinkite kalendorių .
+imip-bar-not-writable = Kvietimams nėra priskirtas joks rašymui prieinamas kalendorius. Patikrinkite kalendoriaus nuostatas.
+imip-no-calendar-available = Nėra nė vieno kalendoriaus, į kurį būtų galima rašyti.
 
 ## Sending invitation emails
 
+imip-send-mail-title = Pranešimas dalyviams
+imip-send-mail-text = Ar norite išsiųsti pranešimus elektroniniu paštu?
 
 ## Calendar email identity
 
+imip-no-identity = Joks
 no-identity-selected-notification = Jei šiame kalendoriuje norite bendrinti kvietimus ar juos priimti, turite jam priskirti el. pašto paskyrą.
 
 ## Invitations panel
 
+# Variables:
+#   $count (Number) - The number of pending invitations.
+invitations-link-label = Kvietimai: { $count }
 
 ## Process invitation confirmation prompt
 
+confirm-process-invitation = Neseniai šį elementą jūs pašalinote. Ar tikrai norite apdoroti šį pakvietimą?
+confirm-process-invitation-title = Apdoroti pakvietimą?
 
 ## iTIP email subjects and bodies
 
+# Variables:
+#   $summary (String) - The event title.
+itip-request-subject = Kvietimas: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-request-updated-subject = Atnaujinta: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-request-body = { $organizer } jus pakvietė į įvykį: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-cancel-subject = Atšaukta: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-cancel-body = { $organizer } atšaukė šį įvykį: { $summary }
+# Variables:
+#   $attendee (String) - The attendee who made the counterproposal.
+#   $summary (String) - The event title.
+itip-counter-body = { $attendee } pateikė alternatyvų pasiūlymą įvykiui „{ $summary }“:
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-decline-counter-body = { $organizer } atmetė jūsų alternatyvų pasiūlymą įvykiui „{ $summary }“.
+# Variables:
+#   $summary (String) - The event title.
+itip-decline-counter-subject = Alternatyvus pasiūlymas atmestas: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject = Atsakymas į kvietimą: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-accept = Kvietimas priimtas: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-decline = Kvietimas atmestas: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-tentative = Preliminariai priimta: { $summary }
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-accept = { $attendee } priėmė jūsų kvietimą į įvykį.
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-decline = { $attendee } atmetė jūsų kvietimą į įvykį.
