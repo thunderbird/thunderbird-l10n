@@ -47,3 +47,6 @@ calendar-creation-network-authfail = თქვენ მიერ შეყვ�
 calendar-creation-network-certerror = ამ მისამართზე კალენდრები ვერ მოიძებნა სერტიფიკატის ხარვეზის გამო.
 calendar-creation-network-subscribe-single = გთხოვთ, მიუთითოთ კალენდრები, რომელთა გამოწერაც გსურთ.
 calendar-creation-network-subscribe-multiple = ამ მისამართზე მრავალი სხვადასხვა სახის კალენდარია ხელმისაწვდომი. გთხოვთ, აირჩიოთ სასურველი სახის კალენდარი და შემდეგ მონიშნოთ ის კალენდრები, რომელთა გამოწერაც გსურთ.
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = { $location } – გთხოვთ მიუთითოთ თქვენი პაროლი:
