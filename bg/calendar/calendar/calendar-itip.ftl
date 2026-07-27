@@ -5,6 +5,15 @@
 
 ## Email invitation preview (HTML rendering of an iTIP invitation)
 
+imip-html-attachments = Прикачени файлове:
+imip-html-comment = Коментар:
+imip-html-attendees = Участници:
+imip-html-url = Сродна връзка:
+imip-html-canceled-occurrences = Отменени  събития:
+imip-html-modified-occurrences = Променени събития:
+# Variables:
+#   $location (String) - The new location of a modified occurrence.
+imip-html-new-location = Ново местоположение: { $location }
 # Tooltip for the attendee icon, composed from the role and the participation
 # status sentences.
 # Variables:
