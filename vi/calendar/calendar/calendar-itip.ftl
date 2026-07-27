@@ -109,18 +109,82 @@ imip-bar-processed-multiple-needs-action = Thư này chứa nhiều sự kiện 
 imip-bar-processed-series-needs-action = Thư này chứa một chuỗi sự kiện mà bạn chưa phản hồi.
 imip-bar-reply-text = Thư này chứa trả lời cho một lời mời.
 imip-bar-reply-to-not-existing-item = Thư này chứa một câu trả lời đề cập đến một sự kiện không có trong lịch của bạn.
+# Variables:
+#   $deletionTime (String) - The formatted time the event was removed from the calendar.
+imip-bar-reply-to-recently-removed-item = Thư này chứa một câu trả lời đề cập đến một sự kiện đã bị xóa khỏi lịch của bạn ở { $deletionTime }.
+# Variables:
+#   $status (String) - The hexadecimal status code of the failed processing.
+imip-bar-processing-failed = Thất bại khi xử lí thư. Trạng thái: { $status }.
+imip-bar-calendar-deactivated = Thông báo này chứa thông tin sự kiện. Cho phép một lịch để xử lý nó.
+imip-bar-not-writable = Không có lịch nago có thể ghi được cấu hình cho lời mời, vui lòng kiểm tra các thuộc tính lịch.
+imip-no-calendar-available = Không có trang lịch nào có thể ghi được.
 
 ## Sending invitation emails
 
+imip-send-mail-title = Thông báo Email
+imip-send-mail-text = Bạn có muốn gửi thông báo Email ngay bây giờ không?
 
 ## Calendar email identity
 
+imip-no-identity = Không có
+no-identity-selected-notification = Nếu bạn muốn sử dụng lịch này để lưu trữ lời mời đến hoặc từ những người khác, bạn nên chỉ định một danh tính email bên dưới.
 
 ## Invitations panel
 
+# Variables:
+#   $count (Number) - The number of pending invitations.
+invitations-link-label = Lời mời: { $count }
 
 ## Process invitation confirmation prompt
 
+confirm-process-invitation = Gần đây bạn đã xóa mục này, bạn có chắc chắn muốn xử lý lời mời này?
+confirm-process-invitation-title = Bạn có muốn tiếp tục mời?
 
 ## iTIP email subjects and bodies
 
+# Variables:
+#   $summary (String) - The event title.
+itip-request-subject = Lời mời: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-request-updated-subject = Đã cập nhật: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-request-body = { $organizer } mời bạn tham dự { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-cancel-subject = Đã hủy bỏ: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-cancel-body = { $organizer } đã hủy bỏ sự kiện này: { $summary }
+# Variables:
+#   $attendee (String) - The attendee who made the counterproposal.
+#   $summary (String) - The event title.
+itip-counter-body = { $attendee } đã đưa ra phản hồi cho "{ $summary }":
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-decline-counter-body = { $organizer } đã từ chối phản hồi của bạn cho "{ $summary }".
+# Variables:
+#   $summary (String) - The event title.
+itip-decline-counter-subject = Từ chối phản hồi: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject = Trả lời lời mời: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-accept = Đã chấp nhận: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-decline = Lời mời bị từ chối: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-tentative = Dự kiến: { $summary }
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-accept = { $attendee } đã chấp nhận thư mời tham dự sự kiện của bạn.
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-decline = { $attendee } đã từ chối thư mời tham dự sự kiện của bạn.
