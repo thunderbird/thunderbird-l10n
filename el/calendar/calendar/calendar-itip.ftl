@@ -50,19 +50,82 @@ imip-html-attendee-part-stat-declined = Ο/Η { $attendee } αρνήθηκε ν�
 
 ## iTIP bar labels
 
+# Variables:
+#   $deletionTime (String) - The formatted time the event was removed from the calendar.
+imip-bar-reply-to-recently-removed-item = Αυτό το μήνυμα περιέχει απάντηση που αναφέρεται σε εκδήλωση που αφαιρέθηκε από το ημερολόγιό σας στις { $deletionTime }.
+# Variables:
+#   $status (String) - The hexadecimal status code of the failed processing.
+imip-bar-processing-failed = Η επεξεργασία του μηνύματος απέτυχε. Κατάσταση: { $status }.
+imip-bar-calendar-deactivated = Αυτό το μήνυμα περιέχει πληροφορίες εκδήλωσης. Ενεργοποιήστε ένα ημερολόγιο για διαχείριση.
+imip-bar-not-writable = Δεν υπάρχουν ημερολόγια με δυνατότητα εγγραφής που να έχουν ρυθμιστεί για προσκλήσεις, ελέγξτε τις ιδιότητες του ημερολογίου.
+imip-no-calendar-available = Δεν υπάρχουν εγγράψιμα ημερολόγια διαθέσιμα.
 
 ## Sending invitation emails
 
+imip-send-mail-title = Ειδοποίηση email
+imip-send-mail-text = Θα θέλατε να στείλετε ειδοποίηση μέσω email τώρα;
 
 ## Calendar email identity
 
+imip-no-identity = Κανένα
 no-identity-selected-notification = Αν θέλετε να χρησιμοποιήσετε αυτό το ημερολόγιο για να αποθηκεύσετε προσκλήσεις προς ή από άλλα άτομα, θα πρέπει να αναθέσετε μια ταυτότητα email παρακάτω.
 
 ## Invitations panel
 
+# Variables:
+#   $count (Number) - The number of pending invitations.
+invitations-link-label = Προσκλήσεις: { $count }
 
 ## Process invitation confirmation prompt
 
+confirm-process-invitation = Έχετε διαγράψει πρόσφατα αυτό το στοιχείο, θέλετε σίγουρα να επεξεργαστείτε αυτήν την πρόσκληση;
+confirm-process-invitation-title = Επεξεργασία πρόσκλησης;
 
 ## iTIP email subjects and bodies
 
+# Variables:
+#   $summary (String) - The event title.
+itip-request-subject = Πρόσκληση: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-request-updated-subject = Ενημερώθηκε: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-request-body = { $organizer } σας έχει προσκαλέσει στο { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-cancel-subject = Ακυρώθηκε: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-cancel-body = Ο/Η { $organizer } ακύρωσε αυτήν την εκδήλωση: { $summary }
+# Variables:
+#   $attendee (String) - The attendee who made the counterproposal.
+#   $summary (String) - The event title.
+itip-counter-body = Ο/Η { $attendee } έχει κάνει αντιπρόταση για το «{ $summary }»:
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-decline-counter-body = Ο/Η { $organizer } απέρριψε την αντιπρότασή σας για το «{ $summary }».
+# Variables:
+#   $summary (String) - The event title.
+itip-decline-counter-subject = Η αντιπρόταση απορρίφθηκε: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject = Απάντηση πρόσκλησης: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-accept = Αποδέχτηκε: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-decline = Η πρόσκληση απορρίφθηκε: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-tentative = Αβέβαιος: { $summary }
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-accept = Ο/Η { $attendee } αποδέχτηκε την πρόσκλησή σας στην εκδήλωση.
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-decline = Ο/Η { $attendee } αρνήθηκε την πρόσκλησή σας στην εκδήλωση.
