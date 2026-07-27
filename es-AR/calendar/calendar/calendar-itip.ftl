@@ -1,0 +1,117 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+# Tab titles
+calendar-tab-title-calendar = Calendario
+calendar-tab-title-tasks = Tareas
+
+## Email invitation preview (HTML rendering of an iTIP invitation)
+
+imip-html-header = Invitación a evento
+# Field labels of the invitation preview table.
+imip-html-summary = Título:
+imip-html-location = Dirección:
+imip-html-when = Cuando:
+imip-html-organizer = Organizador:
+imip-html-description = Descripción:
+# Appended behind an attendee name in the email invitation preview.
+# Variables:
+#   $delegators (String) - A single delegator or a comma separated list of delegators.
+imip-html-attendee-delegated-from = (delegado de { $delegators })
+# Tooltip for the attendee icon, composed from the role and the participation
+# status sentences.
+# Variables:
+#   $role (String) - One of the imip-html-attendee-role-* strings.
+#   $partStat (String) - One of the imip-html-attendee-part-stat-* strings.
+imip-html-attendee-combined = { $role } { $partStat }
+# Attendee roles. Composed into imip-html-attendee-combined.
+# Variables:
+#   $userType (String) - One of the imip-html-attendee-user-type-* strings.
+imip-html-attendee-role-chair = { $userType } preside el evento.
+# Variables:
+#   $userType (String) - One of the imip-html-attendee-user-type-* strings.
+imip-html-attendee-role-non-participant = { $userType } es no-partícipe.
+# Variables:
+#   $userType (String) - One of the imip-html-attendee-user-type-* strings.
+imip-html-attendee-role-opt-participant = { $userType } es partícipe opcional.
+# Variables:
+#   $userType (String) - One of the imip-html-attendee-user-type-* strings.
+imip-html-attendee-role-req-participant = { $userType } es partícipe requerido.
+# Attendee participation statuses. Composed into imip-html-attendee-combined.
+# Variables:
+#   $attendee (String) - Common name or email address of the attendee.
+imip-html-attendee-part-stat-accepted = { $attendee } ha confirmado asistencia.
+# Variables:
+#   $attendee (String) - Common name or email address of the attendee.
+imip-html-attendee-part-stat-declined = { $attendee } ha declinado asistencia.
+# Variables:
+#   $attendee (String) - Common name or email address of the attendee.
+#   $delegatees (String) - A single delegatee or a comma separated list of delegatees.
+imip-html-attendee-part-stat-delegated = { $attendee } ha delegado asistencia a { $delegatees }.
+# Variables:
+#   $attendee (String) - Common name or email address of the attendee.
+imip-html-attendee-part-stat-needs-action = { $attendee } aún necesita responder.
+# Variables:
+#   $attendee (String) - Common name or email address of the attendee.
+imip-html-attendee-part-stat-tentative = { $attendee } ha confirmado asistencia tentativamente.
+# Attendee user types. Composed into imip-html-attendee-role-*.
+# Variables:
+#   $attendee (String) - Email address or common name <email address> of the attendee.
+imip-html-attendee-user-type-individual = { $attendee }
+# Variables:
+#   $attendee (String) - Common name or email address of the attendee.
+imip-html-attendee-user-type-group = { $attendee } (grupo)
+# Variables:
+#   $attendee (String) - Common name or email address of the attendee.
+imip-html-attendee-user-type-resource = { $attendee } (recurso)
+# Variables:
+#   $attendee (String) - Common name or email address of the attendee.
+imip-html-attendee-user-type-room = { $attendee } (salón)
+# Variables:
+#   $attendee (String) - Common name or email address of the attendee.
+imip-html-attendee-user-type-unknown = { $attendee }
+
+## iTIP processing result text
+
+imip-added-item-to-cal = El evento ha sido agregado al calendario.
+imip-canceled-item = El evento ha sido borrado del calendario.
+imip-updated-item = El evento ha sido actualizado.
+
+## iTIP bar labels
+
+imip-bar-cancel-text = Este mensaje contiene la cancelación de un evento.
+imip-bar-counter-error-text = Este mensaje contiene una contrapropuesta a una invitación que no puede ser procesada.
+imip-bar-counter-previous-version-text = Este mensaje contiene una contrapropuesta a una versión previa de una invitación.
+imip-bar-counter-text = Este mensaje contiene una contrapropuesta a una invitación.
+imip-bar-disallowed-counter-text = Ete mensaje contiene una contrapropuesta aunque se ha deshabilitado para este evento.
+imip-bar-decline-counter-text = Este mensaje contiene una respuesta a una contrapropuesta.
+imip-bar-refresh-text = Este mensaje solicita una actualización de un evento.
+imip-bar-publish-text = Este mensaje contiene un evento.
+imip-bar-request-text = Este mensaje contiene una invitación a un evento.
+imip-bar-sent-text = Este mensaje contiene un evento enviado.
+imip-bar-sent-but-removed-text = Este mensaje contiene un evento enviado que ya no está en el calendario.
+imip-bar-update-text = Este mensaje contiene una actualizaciþn a un evento existente.
+imip-bar-update-multiple-text = Este mensaje contiene actualzaciones para múltiples eventos existentes.
+imip-bar-update-series-text = Este mensaje contiene una actualización para una serie de eventos existente.
+imip-bar-already-processed-text = Este mensaje contiene un evento que ya ha sido procesdo.
+imip-bar-processed-needs-action = Este mensaje contiene un evento al que no ha respondido.
+imip-bar-processed-multiple-needs-action = Este mensaje contiene múltiples eventos que aún no han sido respondidos.
+imip-bar-processed-series-needs-action = Este mensaje contiene una serie de eventos que aún no han sido respondidos.
+imip-bar-reply-text = Este mensaje contiene una respuesta a una invitación.
+imip-bar-reply-to-not-existing-item = Este mensaje contiene una respuesta que refiere a un evento que no está en el calendario.                       
+
+## Sending invitation emails
+
+
+## Calendar email identity
+
+
+## Invitations panel
+
+
+## Process invitation confirmation prompt
+
+
+## iTIP email subjects and bodies
+
