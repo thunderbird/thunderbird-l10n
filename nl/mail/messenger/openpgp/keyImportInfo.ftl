@@ -5,3 +5,8 @@
 key-import-info-close =
     .label = Sluiten
     .accesskey = S
+import-info-dialog-title = Succes! Sleutels geïmporteerd
+import-info-created = Aangemaakt
+import-info-fpr = Vingerafdruk
+import-info-details = Details bekijken en sleutelacceptatie beheren
+import-info-no-keys = Geen sleutels geïmporteerd.
