@@ -5,6 +5,8 @@
 key-import-info-close =
     .label = Lat att
     .accesskey = L
+import-info-dialog-title = Nøklar importerte!
+import-info-created = Laga
 import-info-fpr = Fingeravtrykk
 import-info-details = Vis detaljar og handsam nøkkelgodkjenning
 import-info-no-keys = Ingen nøklar importerte.
