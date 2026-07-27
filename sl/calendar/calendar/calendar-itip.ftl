@@ -109,19 +109,82 @@ imip-bar-processed-multiple-needs-action = To sporočilo vsebuje več dogodkov, 
 imip-bar-processed-series-needs-action = To sporočilo vsebuje serijo dogodkov, na katere še niste odgovorili.
 imip-bar-reply-text = To sporočilo vsebuje odgovor na povabilo.
 imip-bar-reply-to-not-existing-item = To sporočilo vsebuje odgovor, ki se nanaša na dogodek, ki ni več v vašem koledarju.                       
+# Variables:
+#   $deletionTime (String) - The formatted time the event was removed from the calendar.
+imip-bar-reply-to-recently-removed-item = To sporočilo vsebuje odgovor, ki se nanaša na dogodek, ki je bil iz vašega koledarja odstranjen { $deletionTime }.
+# Variables:
+#   $status (String) - The hexadecimal status code of the failed processing.
+imip-bar-processing-failed = Obdelava sporočila ni uspela. Stanje: { $status }.
+imip-bar-calendar-deactivated = To sporočilo vsebuje podatke o dogodku. Za upravljanje omogočite koledar.
+imip-bar-not-writable = Noben zapisljiv koledar ni nastavljen za povabila, preverite lastnosti koledarja.
+imip-no-calendar-available = Na voljo ni koledarjev za zapisovanje.
 
 ## Sending invitation emails
 
+imip-send-mail-title = Obvesti udeležence
+imip-send-mail-text = Želite zdaj odposlati obvestila po e-pošti?
 
 ## Calendar email identity
 
+imip-no-identity = Brez
 no-identity-selected-notification = Če želite ta koledar uporabiti za shranjevanje povabil, spodaj dodelite e-poštno identiteto.
 
 ## Invitations panel
 
+# Variables:
+#   $count (Number) - The number of pending invitations.
+invitations-link-label = Povabila: { $count }
 
 ## Process invitation confirmation prompt
 
+confirm-process-invitation = Pred kratkim ste izbrisali ta predmet, ali res želite obdelati povabilo?
+confirm-process-invitation-title = Obdelaj povabilo?
 
 ## iTIP email subjects and bodies
 
+# Variables:
+#   $summary (String) - The event title.
+itip-request-subject = Povabilo: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-request-updated-subject = Posodobljeno: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-request-body = { $organizer } vas je povabil(a) na { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-cancel-subject = Preklicano: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-cancel-body = { $organizer } je preklical(a) naslednji dogodek: « { $summary } »
+# Variables:
+#   $attendee (String) - The attendee who made the counterproposal.
+#   $summary (String) - The event title.
+itip-counter-body = { $attendee } ima nadomestni predlog za «{ $summary }»:
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-decline-counter-body = { $organizer } je zavrnil vaš nadomestni predlog za «{ $summary }».
+# Variables:
+#   $summary (String) - The event title.
+itip-decline-counter-subject = Nadomestni predlog je bil zavrnjen: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject = Odgovor na povabilo: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-accept = Sprejeto: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-decline = Povabilo zavrnjeno: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-tentative = Pogojno: { $summary }
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-accept = { $attendee } je sprejel(a) vaše povabilo na dogodek.
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-decline = { $attendee } je odklonil(a) vaše povabilo na dogodek.
