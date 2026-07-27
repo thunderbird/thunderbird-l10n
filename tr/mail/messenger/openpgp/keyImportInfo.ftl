@@ -5,3 +5,8 @@
 key-import-info-close =
     .label = Kapat
     .accesskey = K
+import-info-dialog-title = Anahtarlar başarıyla içe aktarıldı!
+import-info-created = Oluşturma
+import-info-fpr = Parmak izi
+import-info-details = Ayrıntıları görüntüle ve anahtar kabulünü yönet
+import-info-no-keys = İçe aktarılmış anahtar yok.
