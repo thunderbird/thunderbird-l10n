@@ -115,6 +115,7 @@ imip-bar-reply-to-not-existing-item = Mesajul conține un răspuns cu referire l
 
 ## Calendar email identity
 
+no-identity-selected-notification = Dacă vrei să utilizezi acest calendar pentru păstrarea invitațiilor către sau de la alte persoane, trebuie să aloci o identitate de e-mail mai jos.
 
 ## Invitations panel
 
