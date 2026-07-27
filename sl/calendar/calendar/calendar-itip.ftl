@@ -15,18 +15,107 @@ imip-html-location = Kje:
 imip-html-when = Kdaj:
 imip-html-organizer = Organizator:
 imip-html-description = Opis:
+imip-html-attachments = Priponke:
+imip-html-comment = Komentar:
+imip-html-attendees = Udeleženci:
+imip-html-url = Sorodna povezava:
+imip-html-canceled-occurrences = Preklicane ponovitve:
+imip-html-modified-occurrences = Spremenjene ponovitve:
+# Variables:
+#   $location (String) - The new location of a modified occurrence.
+imip-html-new-location = Nov kraj: { $location }
+# Appended behind an attendee name in the email invitation preview.
+# Variables:
+#   $delegators (String) - A single delegator or a comma separated list of delegators.
+imip-html-attendee-delegated-from = (pooblaščen od { $delegators })
+# Tooltip for the attendee icon, composed from the role and the participation
+# status sentences.
+# Variables:
+#   $role (String) - One of the imip-html-attendee-role-* strings.
+#   $partStat (String) - One of the imip-html-attendee-part-stat-* strings.
+imip-html-attendee-combined = { $role } { $partStat }
+# Attendee roles. Composed into imip-html-attendee-combined.
+# Variables:
+#   $userType (String) - One of the imip-html-attendee-user-type-* strings.
+imip-html-attendee-role-chair = { $userType } predseduje dogodku.
+# Variables:
+#   $userType (String) - One of the imip-html-attendee-user-type-* strings.
+imip-html-attendee-role-non-participant = { $userType } ni udeleženec.
+# Variables:
+#   $userType (String) - One of the imip-html-attendee-user-type-* strings.
+imip-html-attendee-role-opt-participant = { $userType } je izbirni udeleženec.
+# Variables:
+#   $userType (String) - One of the imip-html-attendee-user-type-* strings.
+imip-html-attendee-role-req-participant = { $userType } je zahtevani udeleženec.
+# Attendee participation statuses. Composed into imip-html-attendee-combined.
+# Variables:
+#   $attendee (String) - Common name or email address of the attendee.
+imip-html-attendee-part-stat-accepted = { $attendee } je potrdil udeležbo.
+# Variables:
+#   $attendee (String) - Common name or email address of the attendee.
+imip-html-attendee-part-stat-declined = { $attendee } je zavrnil udeležbo.
+# Variables:
+#   $attendee (String) - Common name or email address of the attendee.
+#   $delegatees (String) - A single delegatee or a comma separated list of delegatees.
+imip-html-attendee-part-stat-delegated = { $attendee } je za dogodek pooblastil { $delegatees }.
+# Variables:
+#   $attendee (String) - Common name or email address of the attendee.
+imip-html-attendee-part-stat-needs-action = { $attendee } še mora odgovoriti.
+# Variables:
+#   $attendee (String) - Common name or email address of the attendee.
+imip-html-attendee-part-stat-tentative = { $attendee } je okvirno potrdil udeležbo.
+# Attendee user types. Composed into imip-html-attendee-role-*.
+# Variables:
+#   $attendee (String) - Email address or common name <email address> of the attendee.
+imip-html-attendee-user-type-individual = { $attendee }
+# Variables:
+#   $attendee (String) - Common name or email address of the attendee.
+imip-html-attendee-user-type-group = { $attendee } (skupina)
+# Variables:
+#   $attendee (String) - Common name or email address of the attendee.
+imip-html-attendee-user-type-resource = { $attendee } (vir)
+# Variables:
+#   $attendee (String) - Common name or email address of the attendee.
+imip-html-attendee-user-type-room = { $attendee } (soba)
+# Variables:
+#   $attendee (String) - Common name or email address of the attendee.
+imip-html-attendee-user-type-unknown = { $attendee }
 
 ## iTIP processing result text
 
+imip-added-item-to-cal = Dogodek je bil dodan v vaš koledar.
+imip-canceled-item = Dogodek je bil izbrisan iz vašega koledarja.
+imip-updated-item = Dogodek je bil posodobljen.
 
 ## iTIP bar labels
 
+imip-bar-cancel-text = To sporočilo vsebuje odpoved dogodka.
+imip-bar-counter-error-text = To sporočilo vsebuje nadomestni predlog k povabilu, ki ga ni mogoče obdelati.
+imip-bar-counter-previous-version-text = To sporočilo vsebuje nadomestni predlog k prejšnji različici povabila.
+imip-bar-counter-text = To sporočilo vsebuje nadomestni predlog k povabilu.
+imip-bar-disallowed-counter-text = To sporočilo vsebuje nadomestni predlog, čeprav jih niste dovolili za ta dogodek.
+imip-bar-decline-counter-text = To sporočilo vsebuje odgovor na vaš nadomestni predlog.
+imip-bar-refresh-text = To sporočilo sprašuje po posodobitvi dogodka.
+imip-bar-publish-text = To sporočilo vsebuje dogodek.
+imip-bar-request-text = To sporočilo vsebuje povabilo na dogodek.
+imip-bar-sent-text = To sporočilo vsebuje dogodek.
+imip-bar-sent-but-removed-text = To sporočilo vsebuje dogodek, ki ni več v vašem koledarju.
+imip-bar-update-text = To sporočilo vsebuje posodobitev obstoječega dogodka.
+imip-bar-update-multiple-text = To sporočilo vsebuje posodobitve za več obstoječih dogodkov.
+imip-bar-update-series-text = To sporočilo vsebuje posodobitev obstoječe serije dogodkov.
+imip-bar-already-processed-text = To sporočilo vsebuje dogodek, ki je že obdelan.
+imip-bar-processed-needs-action = To sporočilo vsebuje dogodek, na katerega še niste odgovorili.
+imip-bar-processed-multiple-needs-action = To sporočilo vsebuje več dogodkov, na katere se še niste odzvali.
+imip-bar-processed-series-needs-action = To sporočilo vsebuje serijo dogodkov, na katere še niste odgovorili.
+imip-bar-reply-text = To sporočilo vsebuje odgovor na povabilo.
+imip-bar-reply-to-not-existing-item = To sporočilo vsebuje odgovor, ki se nanaša na dogodek, ki ni več v vašem koledarju.                       
 
 ## Sending invitation emails
 
 
 ## Calendar email identity
 
+no-identity-selected-notification = Če želite ta koledar uporabiti za shranjevanje povabil, spodaj dodelite e-poštno identiteto.
 
 ## Invitations panel
 
