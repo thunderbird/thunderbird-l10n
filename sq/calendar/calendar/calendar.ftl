@@ -154,6 +154,7 @@ week-title-label =
     .aria-label = Java e { $title }
 calendar-none =
     .label = Asnjë
+imip-bar-unsupported-text = Ky mesazh përmban veprimtari të cilën ky version i { -brand-short-name }-ut s’e përpunon dot.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
