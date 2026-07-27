@@ -5,3 +5,8 @@
 key-import-info-close =
     .label = Zavrieť
     .accesskey = Z
+import-info-dialog-title = Importovanie bolo úspešné!
+import-info-created = Vytvorený
+import-info-fpr = Odtlačok
+import-info-details = Zobraziť podrobnosti a spravovať prijatie kľúča
+import-info-no-keys = Žiadne kľúče neboli importované.
