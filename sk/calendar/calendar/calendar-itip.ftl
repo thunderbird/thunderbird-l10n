@@ -15,6 +15,15 @@ imip-html-location = Miesto konania:
 imip-html-when = Kedy:
 imip-html-organizer = Organizátor:
 imip-html-description = Popis:
+imip-html-attachments = Prílohy:
+imip-html-comment = Komentár:
+imip-html-attendees = Účastníci:
+imip-html-url = Súvisiaci odkaz:
+imip-html-canceled-occurrences = Zrušené výskyty:
+imip-html-modified-occurrences = Upravené výskyty:
+# Variables:
+#   $location (String) - The new location of a modified occurrence.
+imip-html-new-location = Nové umiestnenie: { $location }
 # Appended behind an attendee name in the email invitation preview.
 # Variables:
 #   $delegators (String) - A single delegator or a comma separated list of delegators.
@@ -106,6 +115,7 @@ imip-bar-reply-to-not-existing-item = Táto správa obsahuje odpoveď týkajúcu
 
 ## Calendar email identity
 
+no-identity-selected-notification = Ak chcete tento kalendár používať na ukladanie prijatých alebo odoslaných pozvánok, priraďte mu požadovanú identitu nižšie.
 
 ## Invitations panel
 
