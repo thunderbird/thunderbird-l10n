@@ -5,3 +5,8 @@
 key-import-info-close =
     .label = Cerrar
     .accesskey = C
+import-info-dialog-title = ¡Claves importadas correctamente!
+import-info-created = Creado
+import-info-fpr = Huella digital
+import-info-details = Ver detalles y administrar la aceptación de claves
+import-info-no-keys = No se importaron claves.
