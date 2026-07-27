@@ -158,6 +158,7 @@ week-title-label =
     .aria-label = Vika { $title }
 calendar-none =
     .label = Engin
+imip-bar-unsupported-text = Þessi skilaboð innihalda atburð sem þessi útgáfa af { -brand-short-name } getur ekki unnið úr.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
