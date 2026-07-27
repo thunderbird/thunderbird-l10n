@@ -922,6 +922,7 @@ calendar-error-code =
     .value = קוד שגיאה:
 calendar-error-description =
     .value = תיאור:
+calendar-error-prompt-title = אירעה שגיאה
 calendar-error-title =
     .title = אירעה שגיאה
 calendar-extract-event-button =
