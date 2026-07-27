@@ -47,3 +47,6 @@ calendar-creation-network-authfail = Podaci za prijavu koje ste unijeli nisu pri
 calendar-creation-network-certerror = Nije moguće pronaći kalendare na ovoj lokaciji zbog problema s certifikatom.
 calendar-creation-network-subscribe-single = Odaberite kalendare na koje se želite pretplatiti.
 calendar-creation-network-subscribe-multiple = Više tipova kalendara je dostupno na ovoj lokaciji. Odaberite tip kalendara i onda označite kalendare na koje se želite pretplatiti.
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = Upiši svoju lozinku za { $location }:
