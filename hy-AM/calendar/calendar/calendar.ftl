@@ -154,6 +154,7 @@ week-title-label =
     .aria-label = Շաբաթ { $title }
 calendar-none =
     .label = Չկա
+imip-bar-unsupported-text = Այս հաղորդագրւթյունը պարունակում է իրադարձություն, որը { -brand-short-name }-ի այս տարբերակում չի կարող կատարվել։
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
