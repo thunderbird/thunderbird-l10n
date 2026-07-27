@@ -165,6 +165,7 @@ week-title-label =
     .aria-label = { $title }. tydzień
 calendar-none =
     .label = Brak
+imip-bar-unsupported-text = Ta wiadomość zawiera wydarzenie, którego ta wersja rozszerzenia { -brand-short-name } nie potrafi przetworzyć.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
