@@ -47,3 +47,6 @@ calendar-creation-network-authfail = Τα διαπιστευτήρια που έ
 calendar-creation-network-certerror = Δεν ήταν δυνατή η εύρεση ημερολογίων σε αυτήν την τοποθεσία λόγω προβλήματος με το πιστοποιητικό.
 calendar-creation-network-subscribe-single = Επιλέξτε τα ημερολόγια στα οποία θέλετε να εγγραφείτε.
 calendar-creation-network-subscribe-multiple = Διατίθενται πολλαπλοί τύποι ημερολογίων σε αυτήν την τοποθεσία. Επιλέξτε τον τύπο ημερολογίου και έπειτα, επιλέξτε τα ημερολόγια που θέλετε να εγγραφείτε.
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = Εισαγάγετε τον κωδικό πρόσβασής σας για το «{ $location }»:
