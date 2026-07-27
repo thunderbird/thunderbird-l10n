@@ -2,9 +2,19 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Tab titles
+calendar-tab-title-calendar = Календар
+calendar-tab-title-tasks = Задачи
 
 ## Email invitation preview (HTML rendering of an iTIP invitation)
 
+imip-html-header = Покана за събитие
+# Field labels of the invitation preview table.
+imip-html-summary = Заглавие:
+imip-html-location = Местоположение:
+imip-html-when = Кога:
+imip-html-organizer = Организатор:
+imip-html-description = Описание:
 imip-html-attachments = Прикачени файлове:
 imip-html-comment = Коментар:
 imip-html-attendees = Участници:
@@ -14,6 +24,10 @@ imip-html-modified-occurrences = Променени събития:
 # Variables:
 #   $location (String) - The new location of a modified occurrence.
 imip-html-new-location = Ново местоположение: { $location }
+# Appended behind an attendee name in the email invitation preview.
+# Variables:
+#   $delegators (String) - A single delegator or a comma separated list of delegators.
+imip-html-attendee-delegated-from = (преотстъпен/а от { $delegators })
 # Tooltip for the attendee icon, composed from the role and the participation
 # status sentences.
 # Variables:
