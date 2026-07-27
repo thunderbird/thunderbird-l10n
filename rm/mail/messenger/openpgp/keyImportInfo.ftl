@@ -5,4 +5,8 @@
 key-import-info-close =
     .label = Serrar
     .accesskey = S
+import-info-dialog-title = Importà las clavs cun success
+import-info-created = Creà
+import-info-fpr = Impronta
+import-info-details = Mussar ils detagls ed administrar l'acceptaziun da las clavs
 import-info-no-keys = Importà naginas clavs.
