@@ -155,6 +155,7 @@ week-title-label =
     .aria-label = { $title } savaitė
 calendar-none =
     .label = Joks
+imip-bar-unsupported-text = Šiame pranešime yra įvykis, kurio ši „{ -brand-short-name }“ versija negali apdoroti.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
