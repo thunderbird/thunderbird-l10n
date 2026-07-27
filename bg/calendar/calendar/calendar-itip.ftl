@@ -95,19 +95,82 @@ imip-bar-processed-multiple-needs-action = Това съобщение съдъ�
 imip-bar-processed-series-needs-action = Това съобщение съдържа множество събития, на които все още не е отговорено.
 imip-bar-reply-text = Писмото съдържа отговор на покана.
 imip-bar-reply-to-not-existing-item = Това съобщение съдържа отговор на събитие, което вече не е във вашия календар.                       
+# Variables:
+#   $deletionTime (String) - The formatted time the event was removed from the calendar.
+imip-bar-reply-to-recently-removed-item = Това съобщение съдържа отговор на събитие, което вече е премахнато от вашия календар на { $deletionTime }.
+# Variables:
+#   $status (String) - The hexadecimal status code of the failed processing.
+imip-bar-processing-failed = Неуспешна обработка на писмо. Статус: { $status }.
+imip-bar-calendar-deactivated = Това съобщение съдържа информация за събитието. Включете календар, за да го обработите.
+imip-bar-not-writable = Няма настроени календари, в които да бъдат запазвани покани. Моля, проверете настройките.
+imip-no-calendar-available = Няма достъпни календари, които могат да бъдат променяни.
 
 ## Sending invitation emails
 
+imip-send-mail-title = Известяване по мейл
+imip-send-mail-text = Искате ли да изпратите уведомителен мейл сега?
 
 ## Calendar email identity
 
+imip-no-identity = Никой
 no-identity-selected-notification = Ако желаете да запазвате покани от и към вас в този календар трябва изберете адрес на ел. поща по-долу.
 
 ## Invitations panel
 
+# Variables:
+#   $count (Number) - The number of pending invitations.
+invitations-link-label = Покани: { $count }
 
 ## Process invitation confirmation prompt
 
+confirm-process-invitation = Това събитие беше наскоро изтрито, сигурен ли сте, че искате да обработите поканата?
+confirm-process-invitation-title = Обработване на поканата?
 
 ## iTIP email subjects and bodies
 
+# Variables:
+#   $summary (String) - The event title.
+itip-request-subject = Покана: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-request-updated-subject = Актуализирана: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-request-body = { $organizer } ви покани на { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-cancel-subject = Отменена: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-cancel-body = { $organizer } отмени това събитие: « { $summary } »
+# Variables:
+#   $attendee (String) - The attendee who made the counterproposal.
+#   $summary (String) - The event title.
+itip-counter-body = { $attendee } направи контрапредложение за „{ $summary }“:
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-decline-counter-body = { $organizer } отклони контрапредложението ви за „{ $summary }“.
+# Variables:
+#   $summary (String) - The event title.
+itip-decline-counter-subject = Контрапредложението е отклонено: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject = Отговор на покана: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-accept = Приета покана: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-decline = Отхвърлена покана: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-tentative = Ориентировъчно: { $summary }
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-accept = Вашата покана беше приета от { $attendee }.
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-decline = Вашата покана беше отказана от { $attendee }.
