@@ -46,3 +46,6 @@ calendar-creation-network-authfail = Las infurmaziuns d'annunzia che ti has enda
 calendar-creation-network-certerror = I n’è betg reussì da chattar chalenders en quest lieu causa in problem da certificats.
 calendar-creation-network-subscribe-single = Tscherna per plaschair ils chalenders che ti vuls abunar.
 calendar-creation-network-subscribe-multiple = Plirs tips da chalender èn disponibels en quest lieu. Tscherna per plaschair il tip da chalender e lura ils chalenders che ti vuls abunar.
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = Endatescha per plaschair tes pled-clav per { $location }:
