@@ -5,3 +5,8 @@
 key-import-info-close =
     .label = Tutup
     .accesskey = T
+import-info-dialog-title = Sukses! Kunci diimpor
+import-info-created = Dibuat
+import-info-fpr = Sidik Jari
+import-info-details = Lihat Rincian dan kelola penerimaan kunci
+import-info-no-keys = Tidak ada kunci yang diimpor.
