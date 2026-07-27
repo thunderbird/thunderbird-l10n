@@ -15,6 +15,10 @@ imip-html-location = Local:
 imip-html-when = Quando:
 imip-html-organizer = Organizador:
 imip-html-description = Descrição:
+# Appended behind an attendee name in the email invitation preview.
+# Variables:
+#   $delegators (String) - A single delegator or a comma separated list of delegators.
+imip-html-attendee-delegated-from = (delegado a { $delegators })
 
 ## iTIP processing result text
 
