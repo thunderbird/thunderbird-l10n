@@ -5,3 +5,8 @@
 key-import-info-close =
     .label = 닫기
     .accesskey = C
+import-info-dialog-title = 성공! 키 가져오기 완료
+import-info-created = 생성일
+import-info-fpr = 지문
+import-info-details = 세부 정보보기 및 키 수락 관리
+import-info-no-keys = 가져온 키 없음
