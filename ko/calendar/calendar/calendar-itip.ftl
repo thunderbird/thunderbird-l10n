@@ -109,19 +109,82 @@ imip-bar-processed-multiple-needs-action = 이 메시지는 아직 응답하지 
 imip-bar-processed-series-needs-action = 이 메시지는 아직 응답하지 않은 이벤트 시리즈를 포함하고 있습니다.
 imip-bar-reply-text = 이 메시지는 이벤트에 대한 응답을 포함하고 있습니다.
 imip-bar-reply-to-not-existing-item = 이 메시지는 달력에 기록되지 않은 이벤트를 참조하는 답변을 포함하고 있습니다.
+# Variables:
+#   $deletionTime (String) - The formatted time the event was removed from the calendar.
+imip-bar-reply-to-recently-removed-item = 이 메시지는 { $deletionTime }에 달력에서 삭제된 이벤트를 참조하는 답변을 포함하고 있습니다.
+# Variables:
+#   $status (String) - The hexadecimal status code of the failed processing.
+imip-bar-processing-failed = 메시지 처리 실패. 상태: { $status }.
+imip-bar-calendar-deactivated = 이 메시지에는 이벤트 정보가 포함되어 있습니다. 캘린더가 처리 할 수 있도록합니다.
+imip-bar-not-writable = 초대가 설정된 쓰기 가능한 달력이 없습니다. 달력 속성을 확인해 보십시오.
+imip-no-calendar-available = 쓰기 가능한 캘린더가 없습니다.
 
 ## Sending invitation emails
 
+imip-send-mail-title = 이 메일 통지
+imip-send-mail-text = 이메일 통지를 발송 하시겠습니까?
 
 ## Calendar email identity
 
+imip-no-identity = 없음
 no-identity-selected-notification = 이 달력이 다른 사람의 초대를 저장하게 하려면 아래의 이메일 확인을 설정해야 합니다.
 
 ## Invitations panel
 
+# Variables:
+#   $count (Number) - The number of pending invitations.
+invitations-link-label = 초대: { $count }
 
 ## Process invitation confirmation prompt
 
+confirm-process-invitation = 최근에 삭제하신 항목입니다. 초대를 계속하시겠습니까?
+confirm-process-invitation-title = 초대를 계속할까요?
 
 ## iTIP email subjects and bodies
 
+# Variables:
+#   $summary (String) - The event title.
+itip-request-subject = 초대: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-request-updated-subject = 수정됨: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-request-body = { $organizer } 님이 { $summary } (으)로 초대했습니다.
+# Variables:
+#   $summary (String) - The event title.
+itip-cancel-subject = 취소됨: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-cancel-body = { $organizer } 님이 이 이벤트를 취소했습니다: < { $summary } >
+# Variables:
+#   $attendee (String) - The attendee who made the counterproposal.
+#   $summary (String) - The event title.
+itip-counter-body = { $attendee } 님이 "{ $summary }"에 대한 반대 의견을 만들었음:
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-decline-counter-body = { $organizer } 님이 "{ $summary }"에 대한 반대 의견을 거절하였습니다.
+# Variables:
+#   $summary (String) - The event title.
+itip-decline-counter-subject = 반대의견 거절됨: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject = 초대 응답: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-accept = 승낙됨: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-decline = 초대 거절됨: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-tentative = 미정: { $summary }
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-accept = { $attendee } 님이 이벤트 초대를 허가했습니다.
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-decline = { $attendee } 님이 이벤트 초대를 거부했습니다.
