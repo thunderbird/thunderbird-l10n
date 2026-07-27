@@ -5,3 +5,8 @@
 key-import-info-close =
     .label = Cau
     .accesskey = C
+import-info-dialog-title = Llwyddiant! Allweddi wedi'u mewnforio
+import-info-created = Crëwyd
+import-info-fpr = Bysbrint
+import-info-details = Gweld Manylion a rheoli derbyniad allweddi
+import-info-no-keys = Dim allweddi wedi'u mewnforio.
