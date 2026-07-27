@@ -5,3 +5,8 @@
 key-import-info-close =
     .label = Закрити
     .accesskey = З
+import-info-dialog-title = Ключі успішно імпортовано
+import-info-created = Створено
+import-info-fpr = Цифровий відбиток
+import-info-details = Перегляд деталей та керування затвердженням ключа
+import-info-no-keys = Жодного ключа не імпортовано.
