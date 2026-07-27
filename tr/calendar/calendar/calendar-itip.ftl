@@ -115,6 +115,7 @@ imip-bar-reply-to-not-existing-item = Bu ileti takviminizde yer almayan bir etki
 
 ## Calendar email identity
 
+no-identity-selected-notification = Bu takvimi gelen veya giden davetiyeleri depolamak için kullanmak istiyorsanız bir e-posta kimliği atamalısınız.
 
 ## Invitations panel
 
