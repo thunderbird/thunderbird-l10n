@@ -1065,6 +1065,7 @@ calendar-error-code =
     .value = Flaterkoade:
 calendar-error-description =
     .value = Beskriuwing:
+calendar-error-prompt-title = Der is in flater bard
 calendar-error-title =
     .title = Der is in flater bard
 calendar-extract-event-button =
