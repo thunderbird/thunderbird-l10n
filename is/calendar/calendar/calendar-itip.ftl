@@ -109,18 +109,82 @@ imip-bar-processed-multiple-needs-action = Þessi skilaboð innihalda marga atbu
 imip-bar-processed-series-needs-action = Þessi skilaboð innihalda atburðaröð sem þú hefur ekki enn svarað.
 imip-bar-reply-text = Þessi tölvupóstur inniheldur svar fyrir fundarboð.
 imip-bar-reply-to-not-existing-item = Þessi skilaboð innihalda svar sem vísa í atburð sem er ekki til í dagatalinu.
+# Variables:
+#   $deletionTime (String) - The formatted time the event was removed from the calendar.
+imip-bar-reply-to-recently-removed-item = Þessi skilaboð innihalda svar sem vísa í atburð sem var fjarlægður úr dagatali þann { $deletionTime }.
+# Variables:
+#   $status (String) - The hexadecimal status code of the failed processing.
+imip-bar-processing-failed = Meðhöndlun á pósti mistókst. Staða: { $status }.
+imip-bar-calendar-deactivated = Þessi skilaboð innihalda upplýsingar um atburði. Virkjaðu dagatal til að sjá um það.
+imip-bar-not-writable = Engin skrifanleg dagatöl eru skilgreind fyrir fundarboð, athugaðu stillingar dagatals.
+imip-no-calendar-available = Engin skrifanleg dagatöl eru tiltæk.
 
 ## Sending invitation emails
 
+imip-send-mail-title = Tilkynna þátttakendum
+imip-send-mail-text = Viltu senda út tilkynningapóst núna?
 
 ## Calendar email identity
 
+imip-no-identity = Enginn
+no-identity-selected-notification = Ef þú vilt nota þetta dagatal til að geyma boð til eða frá öðru fólki ættirðu að úthluta tölvupóstauðkenni hér að neðan.
 
 ## Invitations panel
 
+# Variables:
+#   $count (Number) - The number of pending invitations.
+invitations-link-label = Fundarboð: { $count }
 
 ## Process invitation confirmation prompt
 
+confirm-process-invitation = Þú hefur nýlega eytt þessu, ertu viss um að þú viljir skrá þetta fundarboð?
+confirm-process-invitation-title = Skrá fundarboð?
 
 ## iTIP email subjects and bodies
 
+# Variables:
+#   $summary (String) - The event title.
+itip-request-subject = Boð: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-request-updated-subject = Uppfært: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-request-body = { $organizer } hefur boðið þér á fund { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-cancel-subject = Hætt við: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-cancel-body = { $organizer } hefur hætt við atburð: { $summary }
+# Variables:
+#   $attendee (String) - The attendee who made the counterproposal.
+#   $summary (String) - The event title.
+itip-counter-body = { $attendee } gerði móttilboð fyrir "{ $summary }":
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-decline-counter-body = { $organizer } hafnaði móttilboðinu þínu fyrir "{ $summary }".
+# Variables:
+#   $summary (String) - The event title.
+itip-decline-counter-subject = Móttilboði hafnað: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject = Svar við boði: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-accept = Samþykkt: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-decline = Boði hafnað: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-tentative = Með fyrirvara: { $summary }
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-accept = { $attendee } samþykkti fundarboðið.
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-decline = { $attendee } hafnaði fundarboði.
