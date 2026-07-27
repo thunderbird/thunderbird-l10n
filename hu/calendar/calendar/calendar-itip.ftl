@@ -2,9 +2,19 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Tab titles
+calendar-tab-title-calendar = Naptár
+calendar-tab-title-tasks = Feladatok
 
 ## Email invitation preview (HTML rendering of an iTIP invitation)
 
+imip-html-header = Eseménymeghívó
+# Field labels of the invitation preview table.
+imip-html-summary = Cím:
+imip-html-location = Hely:
+imip-html-when = Mikor:
+imip-html-organizer = Szervező:
+imip-html-description = Leírás:
 imip-html-attachments = Mellékletek:
 imip-html-comment = Megjegyzés:
 imip-html-attendees = Résztvevők:
@@ -99,19 +109,82 @@ imip-bar-processed-multiple-needs-action = Ez az üzenet több megválaszolatlan
 imip-bar-processed-series-needs-action = Ez az üzenet megválaszolatlan eseménysorozatot tartalmaz.
 imip-bar-reply-text = Ez az üzenet egy meghívóra küldött választ tartalmaz.
 imip-bar-reply-to-not-existing-item = Ez az üzenet a naptárában nem szereplő eseményre hivatkozó választ tartalmaz.
+# Variables:
+#   $deletionTime (String) - The formatted time the event was removed from the calendar.
+imip-bar-reply-to-recently-removed-item = Ez az üzenet egy olyan eseményre hivatkozó választ tartalmaz, amely el lett távolítva a naptárából ekkor: { $deletionTime }.
+# Variables:
+#   $status (String) - The hexadecimal status code of the failed processing.
+imip-bar-processing-failed = Az üzenet feldolgozása sikertelen. Állapot: { $status }.
+imip-bar-calendar-deactivated = Ez az üzenet eseményinformációkat tartalmaz. A kezeléséhez engedélyezze a naptárat.
+imip-bar-not-writable = Nincsenek beállítva írható naptárak a meghívókhoz, ellenőrizze a naptár beállításait.
+imip-no-calendar-available = Nincsenek írható naptárak.
 
 ## Sending invitation emails
 
+imip-send-mail-title = E-mail értesítés
+imip-send-mail-text = Szeretné most szétküldeni az értesítő e-mailt?
 
 ## Calendar email identity
 
+imip-no-identity = Nincs
 no-identity-selected-notification = Ha szeretné hogy ez a naptár kezelje a meghívásait, akkor rendeljen hozzá e-mail személyazonosságot lent.
 
 ## Invitations panel
 
+# Variables:
+#   $count (Number) - The number of pending invitations.
+invitations-link-label = Meghívók: { $count }
 
 ## Process invitation confirmation prompt
 
+confirm-process-invitation = Nemrég törölte ezt az elemet, valóban feldolgozza ezt a meghívást?
+confirm-process-invitation-title = Feldolgozza a meghívást?
 
 ## iTIP email subjects and bodies
 
+# Variables:
+#   $summary (String) - The event title.
+itip-request-subject = Meghívó: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-request-updated-subject = Frissítve: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-request-body = { $organizer } meghívta Önt erre az eseményre: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-cancel-subject = Lemondva: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-cancel-body = { $organizer } törölte ezt az eseményt: { $summary }
+# Variables:
+#   $attendee (String) - The attendee who made the counterproposal.
+#   $summary (String) - The event title.
+itip-counter-body = { $attendee } ellenjavaslatot tett erre: { $summary }:
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-decline-counter-body = { $organizer } visszautasította az ellenjavaslatát ehhez: { $summary }.
+# Variables:
+#   $summary (String) - The event title.
+itip-decline-counter-subject = Ellenjavaslat visszautasítva: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject = Meghívó válasza: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-accept = Elfogadva: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-decline = Meghívó visszautasítva: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-tentative = Feltételes: { $summary }
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-accept = { $attendee } elfogadta a meghívót az eseményre.
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-decline = { $attendee } nem fogadta el a meghívót az eseményre.
