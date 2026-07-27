@@ -1061,6 +1061,7 @@ calendar-error-code =
     .value = Fejlkode:
 calendar-error-description =
     .value = Beskrivelse:
+calendar-error-prompt-title = Der opstod en fejl
 calendar-error-title =
     .title = Der opstod en fejl
 calendar-extract-event-button =
