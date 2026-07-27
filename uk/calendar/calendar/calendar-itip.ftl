@@ -2,9 +2,19 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Tab titles
+calendar-tab-title-calendar = Календар
+calendar-tab-title-tasks = Завдання
 
 ## Email invitation preview (HTML rendering of an iTIP invitation)
 
+imip-html-header = Запрошення на подію
+# Field labels of the invitation preview table.
+imip-html-summary = Назва:
+imip-html-location = Місце:
+imip-html-when = Коли:
+imip-html-organizer = Організатор:
+imip-html-description = Опис:
 imip-html-attachments = Вкладення:
 imip-html-comment = Коментар:
 imip-html-attendees = Учасники:
