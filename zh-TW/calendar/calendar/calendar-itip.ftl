@@ -102,6 +102,7 @@ imip-bar-reply-to-not-existing-item = 此訊息包含提到不在您行事曆當
 
 ## Calendar email identity
 
+no-identity-selected-notification = 若您想使用這本行事曆儲存發給別人或來自別人的邀請，請在下方指定郵件身分。
 
 ## Invitations panel
 
