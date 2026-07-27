@@ -105,6 +105,7 @@ imip-bar-reply-to-not-existing-item = Tha freagairt san teachdaireachd seo a tha
 
 ## Calendar email identity
 
+no-identity-selected-notification = Ma tha thu airson am mìosachan seo a chleachdadh airson cuiridhean o dhaoine eile no gu daoine eile, bu chòir dhut dearbh-aithne puist-d iomruineadh gu h-ìosal.
 
 ## Invitations panel
 
