@@ -5,3 +5,8 @@
 key-import-info-close =
     .label = Sulje
     .accesskey = S
+import-info-dialog-title = Onnistui! Avaimet tuotu
+import-info-created = Luotu
+import-info-fpr = Sormenjälki
+import-info-details = Näytä yksityiskohdat ja hallitse avaimen hyväksyntää
+import-info-no-keys = Avaimia ei ole tuotu.
