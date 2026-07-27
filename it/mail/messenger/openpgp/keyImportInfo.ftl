@@ -5,6 +5,7 @@
 key-import-info-close =
     .label = Chiudi
     .accesskey = C
+import-info-dialog-title = Chiavi importate correttamente.
 import-info-created = Data di creazione
 import-info-fpr = Impronta digitale
 import-info-details = Visualizza i dettagli e gestisci l’accettazione delle chiavi
