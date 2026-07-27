@@ -5,3 +5,8 @@
 key-import-info-close =
     .label = Mdel
     .accesskey = M
+import-info-dialog-title = Tisura ttwaketrent akken iwata
+import-info-created = Yettwarna
+import-info-fpr = Adsil umḍin
+import-info-details = Sken talqayt daɣen sefrek aqbayl n tsura
+import-info-no-keys = Ulac tisura i d-yettwaketren.
