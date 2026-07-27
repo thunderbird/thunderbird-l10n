@@ -1057,6 +1057,7 @@ calendar-error-code =
     .value = Hata kodu:
 calendar-error-description =
     .value = Açıklama:
+calendar-error-prompt-title = Bir hata oluştu
 calendar-error-title =
     .title = Bir hata oluştu
 calendar-extract-event-button =
