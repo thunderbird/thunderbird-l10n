@@ -158,6 +158,7 @@ week-title-label =
     .aria-label = { $title } astea
 calendar-none =
     .label = Bat ere ez
+imip-bar-unsupported-text = Mezu honen gertaera, { -brand-short-name }-(e)n bertsio honek ezin du prozesatu.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
