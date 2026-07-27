@@ -1063,6 +1063,7 @@ calendar-error-code =
     .value = Code d’erreur :
 calendar-error-description =
     .value = Description :
+calendar-error-prompt-title = Une erreur est survenue
 calendar-error-title =
     .title = Une erreur est survenue
 calendar-extract-event-button =
