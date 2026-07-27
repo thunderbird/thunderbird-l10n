@@ -154,6 +154,7 @@ week-title-label =
     .aria-label = { $title }. nädal
 calendar-none =
     .label = puudub
+imip-bar-unsupported-text = Kiri sisaldab sündmust, mida { -brand-short-name }i praegune versioon töödelda ei suuda.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
