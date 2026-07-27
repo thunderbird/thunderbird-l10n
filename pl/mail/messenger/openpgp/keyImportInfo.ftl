@@ -5,3 +5,8 @@
 key-import-info-close =
     .label = Zamknij
     .accesskey = Z
+import-info-dialog-title = Pomyślnie zaimportowano klucze
+import-info-created = Utworzono
+import-info-fpr = Odcisk klucza
+import-info-details = Wyświetl informacje i zarządzaj akceptacją kluczy
+import-info-no-keys = Nie zaimportowano żadnych kluczy.
