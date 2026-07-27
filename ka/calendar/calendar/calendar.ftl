@@ -158,6 +158,7 @@ week-title-label =
     .aria-label = კვირა { $title }
 calendar-none =
     .label = არცერთი
+imip-bar-unsupported-text = გზავნილი შეიცავს ღონისძიებას, რომელსაც ამ ვერსიის { -brand-short-name } ვერ ამუშავებს.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
