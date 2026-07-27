@@ -99,19 +99,82 @@ imip-bar-processed-multiple-needs-action = Mae'r neges yn cynnwys cyfres o digwy
 imip-bar-processed-series-needs-action = Mae'r neges yn cynnwys cyfres o ddigwyddiad nad ydych wedi ymateb iddynt eto.
 imip-bar-reply-text = Mae'r neges yn cynnwys ymateb i wahoddiad.
 imip-bar-reply-to-not-existing-item = Mae'r neges hon yn cynnwys ateb sy'n cyfeirio at ddigwyddiad nad yw yn eich calendr.
+# Variables:
+#   $deletionTime (String) - The formatted time the event was removed from the calendar.
+imip-bar-reply-to-recently-removed-item = Mae'r neges hon yn cynnwys ateb sy'n cyfeirio at ddigwyddiad dynnwyd oddi ar eich calendr ar { $deletionTime }.
+# Variables:
+#   $status (String) - The hexadecimal status code of the failed processing.
+imip-bar-processing-failed = Methodd prosesu'r neges. Statws: { $status }.
+imip-bar-calendar-deactivated = Mae'r neges hon yn cynnwys gwybodaeth am ddigwyddiadau. Mae angen galluogi  calendr i'w drin.
+imip-bar-not-writable = Nid oes calendrau ysgrifenedig wedi'u ffurfweddu ar gyfer gwahoddiadau, gwiriwch briodweddau'r calendr.
+imip-no-calendar-available = Nid oes calendrau ysgrifenadwy ar gael.
 
 ## Sending invitation emails
 
+imip-send-mail-title = Hysbysiad E-bost
+imip-send-mail-text = Hoffech chi anfon yr e-bost hysbysu nawr?
 
 ## Calendar email identity
 
+imip-no-identity = Dim
 no-identity-selected-notification = Os hoffech chi ddefnyddio'rcalendr hwn i gadwgwahoddiadau i neu at bobl eraill, dylech ddynodi hunaniaeth e-bost isod.
 
 ## Invitations panel
 
+# Variables:
+#   $count (Number) - The number of pending invitations.
+invitations-link-label = Gwahoddiadau: { $count }
 
 ## Process invitation confirmation prompt
 
+confirm-process-invitation = Rydych wedi dileu'r eitem yma yn ddiweddar, ydych chi'n siŵr eich bod am brosesu'r gwahoddiad?
+confirm-process-invitation-title = Prosesu'r gwahoddiad?
 
 ## iTIP email subjects and bodies
 
+# Variables:
+#   $summary (String) - The event title.
+itip-request-subject = Gwahoddiad: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-request-updated-subject = Diweddarwyd: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-request-body = Mae { $organizer } wedi eich gwahodd i { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-cancel-subject = Diddymwyd: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-cancel-body = Mae { $organizer } wedi diddymu'r digwyddiad: { $summary }
+# Variables:
+#   $attendee (String) - The attendee who made the counterproposal.
+#   $summary (String) - The event title.
+itip-counter-body = Mae { $attendee } wedi gwneud gwrthgynnig ar gyfer "{ $summary }":
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-decline-counter-body = Mae { $organizer } wedi gwrthod eich gwrthgynnig ar gyfer "{ $summary }".
+# Variables:
+#   $summary (String) - The event title.
+itip-decline-counter-subject = Gwrthodwyd y Gwrthgynnig: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject = Ateb Gwahoddiad: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-accept = Derbyniwyd: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-decline = Gwrthodwyd y Gwahoddiad: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-tentative = Amodol: { $summary }
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-accept = Mae { $attendee } wedi derbyn eich gwahoddiad i ddigwyddiad.
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-decline = Mae { $attendee } wedi gwrthod eich gwahoddiad i ddigwyddiad.
