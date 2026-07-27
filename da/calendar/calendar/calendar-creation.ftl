@@ -47,3 +47,6 @@ calendar-creation-network-authfail = De indtastede loginoplysninger blev ikke ac
 calendar-creation-network-certerror = Kunne ikke finde kalendere på denne placering på grund af et problem med certifikatet.
 calendar-creation-network-subscribe-single = Vælg de kalendere, du vil abonnere på.
 calendar-creation-network-subscribe-multiple = Flere kalendere er tilgængelige på denne adresse. Vælg kalendertype, og markér de kalendere, du vil abonnere på.
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = Indtast din adgangskode for { $location }:

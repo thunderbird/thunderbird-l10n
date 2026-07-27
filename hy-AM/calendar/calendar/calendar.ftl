@@ -154,6 +154,7 @@ week-title-label =
     .aria-label = Շաբաթ { $title }
 calendar-none =
     .label = Չկա
+imip-bar-unsupported-text = Այս հաղորդագրւթյունը պարունակում է իրադարձություն, որը { -brand-short-name }-ի այս տարբերակում չի կարող կատարվել։
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
@@ -1006,10 +1007,12 @@ calendar-todaypane-button =
     .tooltiptext = Ցուցադրել օրվա իրադարձությունը
 calendar-search-options-searchfor =
     .value = պարունակում է
+calendar-properties-dialog-title = Խմբագրել օրացույցը
 calendar-server-dialog-title-edit =
     .title = Խմբագրել օրացույցը
 calendar-server-dialog-name-label =
     .value = Օրացույցի անուն՝
+calendar-publish-dialog-window-title = Հրապարակել օրացույց
 calendar-publish-dialog-title =
     .title = Հրապարակել օրացույց
 calendar-publish-url-label = Հրապարակվում է URL
@@ -1023,6 +1026,7 @@ calendar-error-code =
     .value = Սխալի կոդ՝
 calendar-error-description =
     .value = Բովանդակություն՝
+calendar-error-prompt-title = Հայտնվեց սխալ
 calendar-error-title =
     .title = Հայտնվեց սխալ
 calendar-extract-event-button =

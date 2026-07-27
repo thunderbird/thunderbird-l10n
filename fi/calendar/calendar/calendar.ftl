@@ -158,6 +158,7 @@ week-title-label =
     .aria-label = Viikko { $title }
 calendar-none =
     .label = Ei mitään
+imip-bar-unsupported-text = Tässä viestissä on tapahtuma, jota nykyinen versio { -brand-short-name } ei voi käsitellä.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
@@ -1041,10 +1042,12 @@ calendar-todaypane-button =
     .tooltiptext = Näytä tänään-ruutu
 calendar-search-options-searchfor =
     .value = sisältää
+calendar-properties-dialog-title = Muokkaa kalenteria
 calendar-server-dialog-title-edit =
     .title = Muokkaa kalenteria
 calendar-server-dialog-name-label =
     .value = Kalenterin nimi:
+calendar-publish-dialog-window-title = Julkaise kalenteri
 calendar-publish-dialog-title =
     .title = Julkaise kalenteri
 calendar-publish-url-label = Julkaisuosoite
@@ -1058,6 +1061,7 @@ calendar-error-code =
     .value = Virhekoodi:
 calendar-error-description =
     .value = Kuvaus:
+calendar-error-prompt-title = Tapahtui virhe
 calendar-error-title =
     .title = Tapahtui virhe
 calendar-extract-event-button =

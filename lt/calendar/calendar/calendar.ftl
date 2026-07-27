@@ -155,6 +155,7 @@ week-title-label =
     .aria-label = { $title } savaitė
 calendar-none =
     .label = Joks
+imip-bar-unsupported-text = Šiame pranešime yra įvykis, kurio ši „{ -brand-short-name }“ versija negali apdoroti.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
@@ -958,10 +959,12 @@ calendar-todaypane-button =
     .tooltiptext = Rodyti šiandienos polangį
 calendar-search-options-searchfor =
     .value = turintys:
+calendar-properties-dialog-title = Kalendoriaus aprašo taisymas
 calendar-server-dialog-title-edit =
     .title = Kalendoriaus aprašo taisymas
 calendar-server-dialog-name-label =
     .value = Kalendoriaus pavadinimas:
+calendar-publish-dialog-window-title = Kalendoriaus publikavimas
 calendar-publish-dialog-title =
     .title = Kalendoriaus publikavimas
 calendar-publish-url-label = URL publikavimui:
@@ -975,6 +978,7 @@ calendar-error-code =
     .value = Klaidos kodas:
 calendar-error-description =
     .value = Aprašas:
+calendar-error-prompt-title = Įvyko klaida
 calendar-error-title =
     .title = Įvyko klaida
 calendar-extract-event-button =

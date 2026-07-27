@@ -154,6 +154,7 @@ week-title-label =
     .aria-label = Semana { $title }
 calendar-none =
     .label = Ningunha
+imip-bar-unsupported-text = Esta mensaxe contén un evento que esta versión do { -brand-short-name } non pode procesar.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
@@ -1040,10 +1041,12 @@ calendar-todaypane-button =
     .tooltiptext = Amosar o panel de hoxe
 calendar-search-options-searchfor =
     .value = conteñen
+calendar-properties-dialog-title = Editar calendario
 calendar-server-dialog-title-edit =
     .title = Editar calendario
 calendar-server-dialog-name-label =
     .value = Nome do calendario:
+calendar-publish-dialog-window-title = Publicar calendario
 calendar-publish-dialog-title =
     .title = Publicar calendario
 calendar-publish-url-label = Publicando URL
@@ -1057,6 +1060,7 @@ calendar-error-code =
     .value = Código do erro:
 calendar-error-description =
     .value = Descrición:
+calendar-error-prompt-title = Produciuse un erro
 calendar-error-title =
     .title = Produciuse un erro
 calendar-extract-event-button =

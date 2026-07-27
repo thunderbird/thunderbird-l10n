@@ -158,6 +158,7 @@ week-title-label =
     .aria-label = { $title }-апта
 calendar-none =
     .label = Ешнәрсе
+imip-bar-unsupported-text = Бұл хабарламада { -brand-short-name } бұл нұсқасы өңдей алмайтын оқиға бар.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
@@ -1044,10 +1045,12 @@ calendar-todaypane-button =
     .tooltiptext = Бүгіннің панелін көрсету
 calendar-search-options-searchfor =
     .value = құрамында бар
+calendar-properties-dialog-title = Күнтізбені түзету
 calendar-server-dialog-title-edit =
     .title = Күнтізбені түзету
 calendar-server-dialog-name-label =
     .value = Күнтізбе аты:
+calendar-publish-dialog-window-title = Күнтізбені жариялау
 calendar-publish-dialog-title =
     .title = Күнтізбені жариялау
 calendar-publish-url-label = Жариялау сілтемесі
@@ -1061,6 +1064,7 @@ calendar-error-code =
     .value = Қате коды:
 calendar-error-description =
     .value = Сипаттамасы:
+calendar-error-prompt-title = Қате орын алды
 calendar-error-title =
     .title = Қате орын алды
 calendar-extract-event-button =

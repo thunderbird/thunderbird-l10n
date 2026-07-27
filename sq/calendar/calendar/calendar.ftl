@@ -154,6 +154,7 @@ week-title-label =
     .aria-label = Java e { $title }
 calendar-none =
     .label = Asnjë
+imip-bar-unsupported-text = Ky mesazh përmban veprimtari të cilën ky version i { -brand-short-name }-ut s’e përpunon dot.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
@@ -1038,10 +1039,12 @@ calendar-todaypane-button =
     .tooltiptext = Shfaqni Kuadratin për të Sotmen
 calendar-search-options-searchfor =
     .value = përmban
+calendar-properties-dialog-title = Përpunoni Kalendar
 calendar-server-dialog-title-edit =
     .title = Përpunoni Kalendar
 calendar-server-dialog-name-label =
     .value = Emër Kalendari:
+calendar-publish-dialog-window-title = Botoni Kalendar
 calendar-publish-dialog-title =
     .title = Botoni Kalendar
 calendar-publish-url-label = URL Botimi
@@ -1055,6 +1058,7 @@ calendar-error-code =
     .value = Kod gabimi:
 calendar-error-description =
     .value = Përshkrim:
+calendar-error-prompt-title = Ndodhi një gabim
 calendar-error-title =
     .title = Ndodhi një gabim
 calendar-extract-event-button =

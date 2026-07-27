@@ -43,3 +43,6 @@ calendar-creation-network-notfound = Tidak dapat mencari kalendar di lokasi ini.
 calendar-creation-network-authfail = Kelayakan yang anda masukkan tidak diterima. Sila semak tetapan anda.
 calendar-creation-network-subscribe-single = Sila pilih kalendar yang anda mahu langgan.
 calendar-creation-network-subscribe-multiple = Pelbagai jenis kalendar ada disediakan di lokasi ini. Sila pilih jenis kalendar, kemudian tandakan kalendar yang anda mahu langgan.
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = Sila masukkan kata laluan anda untuk { $location }:

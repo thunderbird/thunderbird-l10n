@@ -47,3 +47,6 @@ calendar-creation-network-authfail = Сіз енгізген тіркелу мә
 calendar-creation-network-certerror = Сертификат мәселесіне байланысты бұл жерде күнтізбелер табылмады.
 calendar-creation-network-subscribe-single = Жазылғыңыз келетін күнтізбелерді таңдаңыз.
 calendar-creation-network-subscribe-multiple = Бұл орналасу үшін бірнеше түрлі күнтізбелер қолжетімді. Күнтізбе түрін таңдап, жазылғыңыз келетін күнтізбелерді белгілеңіз.
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = { $location } үшін пароліңізді енгізіңіз:

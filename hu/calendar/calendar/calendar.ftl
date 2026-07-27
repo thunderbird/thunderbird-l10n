@@ -158,6 +158,7 @@ week-title-label =
     .aria-label = { $title }. hét
 calendar-none =
     .label = Nincs
+imip-bar-unsupported-text = Ez az üzenet egy olyan eseményt tartalmaz, amelyet a { -brand-short-name } ezen verziója nem tud feldolgozni.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
@@ -1041,10 +1042,12 @@ calendar-todaypane-button =
     .tooltiptext = Ma ablaktábla megjelenítése
 calendar-search-options-searchfor =
     .value = ha tartalmazza
+calendar-properties-dialog-title = Naptár szerkesztése
 calendar-server-dialog-title-edit =
     .title = Naptár szerkesztése
 calendar-server-dialog-name-label =
     .value = Naptár neve:
+calendar-publish-dialog-window-title = Naptár közzététele
 calendar-publish-dialog-title =
     .title = Naptár közzététele
 calendar-publish-url-label = Közzétételi webcím
@@ -1058,6 +1061,7 @@ calendar-error-code =
     .value = Hibakód:
 calendar-error-description =
     .value = Leírás:
+calendar-error-prompt-title = Hiba történt
 calendar-error-title =
     .title = Hiba történt
 calendar-extract-event-button =

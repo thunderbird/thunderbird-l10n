@@ -158,6 +158,7 @@ week-title-label =
     .aria-label = Woche { $title }
 calendar-none =
     .label = Keine
+imip-bar-unsupported-text = Diese Nachricht enthält einen Termin, der mit dieser Version von { -brand-short-name } nicht verarbeitet werden kann.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
@@ -1042,10 +1043,12 @@ calendar-todaypane-button =
     .tooltiptext = Tagesplan anzeigen
 calendar-search-options-searchfor =
     .value = enthalten
+calendar-properties-dialog-title = Kalender bearbeiten
 calendar-server-dialog-title-edit =
     .title = Kalender bearbeiten
 calendar-server-dialog-name-label =
     .value = Kalendername:
+calendar-publish-dialog-window-title = Kalender veröffentlichen
 calendar-publish-dialog-title =
     .title = Kalender veröffentlichen
 calendar-publish-url-label = URL zum Veröffentlichen
@@ -1059,6 +1062,7 @@ calendar-error-code =
     .value = Fehlercode:
 calendar-error-description =
     .value = Beschreibung:
+calendar-error-prompt-title = Ein Fehler ist aufgetreten
 calendar-error-title =
     .title = Ein Fehler ist aufgetreten
 calendar-extract-event-button =

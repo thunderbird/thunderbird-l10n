@@ -46,3 +46,6 @@ calendar-creation-network-notfound = No s'ha trobat cap calendari en aquesta ubi
 calendar-creation-network-authfail = No s'han acceptat les credencials que heu introduït. Comproveu els paràmetres.
 calendar-creation-network-subscribe-single = Seleccioneu els calendaris als quals us voleu subscriure.
 calendar-creation-network-subscribe-multiple = Hi ha diversos tipus de calendari disponibles en aquesta ubicació. Seleccioneu el tipus de calendari i, a continuació, marqueu els calendaris als quals us voleu subscriure.
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = Introduïu la vostra contrasenya per a { $location }:

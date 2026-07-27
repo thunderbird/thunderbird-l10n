@@ -47,3 +47,6 @@ calendar-creation-network-authfail = A megadott hitelesítő adatok nem lettek e
 calendar-creation-network-certerror = Tanúsítványhiba miatt nem találhatók naptárak ezen a helyen.
 calendar-creation-network-subscribe-single = Válassza ki a naptárakat, amelyekre fel szeretne iratkozni.
 calendar-creation-network-subscribe-multiple = Több naptártípus is elérhető ehhez a helyhez. Válasszon egy naptártípust, és jelölje meg a naptárakat, amelyekre fel akar iratkozni.
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = Adja meg a jelszavát a következőhöz: { $location }:

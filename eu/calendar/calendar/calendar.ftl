@@ -158,6 +158,7 @@ week-title-label =
     .aria-label = { $title } astea
 calendar-none =
     .label = Bat ere ez
+imip-bar-unsupported-text = Mezu honen gertaera, { -brand-short-name }-(e)n bertsio honek ezin du prozesatu.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
@@ -1041,10 +1042,12 @@ calendar-todaypane-button =
     .tooltiptext = Erakutsi gaurko panela
 calendar-search-options-searchfor =
     .value = edukia
+calendar-properties-dialog-title = Editatu egutegia
 calendar-server-dialog-title-edit =
     .title = Editatu egutegia
 calendar-server-dialog-name-label =
     .value = Egutegi-izena:
+calendar-publish-dialog-window-title = Argitaratu egutegia
 calendar-publish-dialog-title =
     .title = Argitaratu egutegia
 calendar-publish-url-label = Argitaratzeko URLa
@@ -1058,6 +1061,7 @@ calendar-error-code =
     .value = Errore-kodea:
 calendar-error-description =
     .value = Azalpena:
+calendar-error-prompt-title = Errore bat gertatu da
 calendar-error-title =
     .title = Errore bat gertatu da
 calendar-extract-event-button =

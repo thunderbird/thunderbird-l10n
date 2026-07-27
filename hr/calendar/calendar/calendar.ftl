@@ -156,6 +156,7 @@ week-title-label =
     .aria-label = Tjedan { $title }
 calendar-none =
     .label = Nijedan
+imip-bar-unsupported-text = Ova poruka sadrži događaj koji ova { -brand-short-name } verzija ne može obraditi.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
@@ -1055,10 +1056,12 @@ calendar-todaypane-button =
     .tooltiptext = Prikaži okno današnjih događaja
 calendar-search-options-searchfor =
     .value = sadrži
+calendar-properties-dialog-title = Uredi kalendar
 calendar-server-dialog-title-edit =
     .title = Uredi kalendar
 calendar-server-dialog-name-label =
     .value = Naziv kalendara:
+calendar-publish-dialog-window-title = Objavi kalendar
 calendar-publish-dialog-title =
     .title = Objavi kalendar
 calendar-publish-url-label = Objava URL-a
@@ -1072,6 +1075,7 @@ calendar-error-code =
     .value = Šifra greške:
 calendar-error-description =
     .value = Opis:
+calendar-error-prompt-title = Došlo je do greške
 calendar-error-title =
     .title = Došlo je do greške
 calendar-extract-event-button =

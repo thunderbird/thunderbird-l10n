@@ -47,3 +47,6 @@ calendar-creation-network-authfail = Přizjewjenske daty, kotrež sće zapodał,
 calendar-creation-network-certerror = Problema z certifikatom dla njedachu so protyki na tutym městnje namakać.
 calendar-creation-network-subscribe-single = Prošu wubjerće protyki, kotrež byšće rady abonował.
 calendar-creation-network-subscribe-multiple = Za tute městno su wjacore protykowe typy k dispoziciji. Prošu wubjerće protykowy typ a markěrujće potom protyki, kotrež chceće abonować.
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = Prošu zapisajće swoje hesło za { $location }:

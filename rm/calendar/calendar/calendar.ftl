@@ -154,6 +154,7 @@ week-title-label =
     .aria-label = Emna { $title }
 calendar-none =
     .label = Nagin
+imip-bar-unsupported-text = Quest messadi cuntegna in eveniment che questa versiun da { -brand-short-name } na po betg elavurar.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
@@ -1037,10 +1038,12 @@ calendar-todaypane-button =
     .tooltiptext = Mussar la lastra dad oz
 calendar-search-options-searchfor =
     .value = cuntegna
+calendar-properties-dialog-title = Modifitgar il chalender
 calendar-server-dialog-title-edit =
     .title = Modifitgar il chalender
 calendar-server-dialog-name-label =
     .value = Num dal chalender:
+calendar-publish-dialog-window-title = Publitgar il chalender
 calendar-publish-dialog-title =
     .title = Publitgar il chalender
 calendar-publish-url-label = URL da publicaziun
@@ -1054,6 +1057,7 @@ calendar-error-code =
     .value = Code d'errur:
 calendar-error-description =
     .value = Descripziun:
+calendar-error-prompt-title = Ina errur è succedida
 calendar-error-title =
     .title = Ina errur è succedida
 calendar-extract-event-button =

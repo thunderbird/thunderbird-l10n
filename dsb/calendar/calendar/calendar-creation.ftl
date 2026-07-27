@@ -47,3 +47,6 @@ calendar-creation-network-authfail = Pśizjawjeńske daty, kótarež sćo zapód
 calendar-creation-network-certerror = Problema z certifikatom dla njejsu se kalendarje na toś tom městnje namakaś.
 calendar-creation-network-subscribe-single = Pšosym wubjeŕśo kalendery, kótarež wy by rady aboněrował.
 calendar-creation-network-subscribe-multiple = Za toś to městno su někotare kalenderowe typy k dispoziciji. Pšosym wubjeŕśo kalenderowy typ a markěrujśo pón kalendery, kótarež cośo aboněrowaś.
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = Zapódajśo pšosym swójo gronidło za { $location }:

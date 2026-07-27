@@ -47,3 +47,6 @@ calendar-creation-network-authfail = As credenciais que você inseriu não foram
 calendar-creation-network-certerror = Não foi possível encontrar agendas neste local devido a um problema de certificado.
 calendar-creation-network-subscribe-single = Selecione as agendas em que quer se inscrever.
 calendar-creation-network-subscribe-multiple = Vários tipos de agenda estão disponíveis neste local. Selecione um tipo, depois marque as agendas em que quer se inscrever.
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = Insira sua senha para { $location }:

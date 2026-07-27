@@ -47,3 +47,6 @@ calendar-creation-network-authfail = Innloggingen du spesifiserte fungerte ikke.
 calendar-creation-network-certerror = Finner ikke kalendere på denne plasseringen på grunn av et sertifikatproblem.
 calendar-creation-network-subscribe-single = Velg kalendrene du vil abonnere på.
 calendar-creation-network-subscribe-multiple = Flere kalendertyper er tilgjengelig på denne adressen. Velg en kalendertype og marker kalendrene du vil abonnere på.
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = Skriv inn passordet for { $location }:

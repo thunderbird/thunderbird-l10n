@@ -47,3 +47,6 @@ calendar-creation-network-authfail = De ynfierde referinsjes waarden net aksepte
 calendar-creation-network-certerror = Kin gjin aginda’s op dizze lokaasje fine, fanwegen in sertifikaatprobleem.
 calendar-creation-network-subscribe-single = Selektearje de aginda’s wêrop jo jo abonnearje wolle.
 calendar-creation-network-subscribe-multiple = Foar dizze lokaasje binne mear agindatypen beskikber. Selektearje it agindatype, en markearje dêrnei de aginda’s wêrop jo jo abonnearje wolle.
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = Fier jo wachtwurd yn foar { $location }:

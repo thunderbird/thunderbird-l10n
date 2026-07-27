@@ -154,6 +154,7 @@ week-title-label =
     .aria-label = 周 { $title }
 calendar-none =
     .label = 无
+imip-bar-unsupported-text = 此消息包含此版本 { -brand-short-name } 无法处理的事件。
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
@@ -964,10 +965,12 @@ calendar-todaypane-button =
     .tooltiptext = 显示今日窗格
 calendar-search-options-searchfor =
     .value = 包含
+calendar-properties-dialog-title = 编辑日历
 calendar-server-dialog-title-edit =
     .title = 编辑日历
 calendar-server-dialog-name-label =
     .value = 日历名称：
+calendar-publish-dialog-window-title = 发布日历
 calendar-publish-dialog-title =
     .title = 发布日历
 calendar-publish-url-label = 发布 URL
@@ -981,6 +984,7 @@ calendar-error-code =
     .value = 错误码：
 calendar-error-description =
     .value = 描述：
+calendar-error-prompt-title = 发生错误
 calendar-error-title =
     .title = 发生错误
 calendar-extract-event-button =

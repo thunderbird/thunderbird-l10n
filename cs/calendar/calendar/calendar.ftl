@@ -160,6 +160,7 @@ week-title-label =
     .aria-label = Týden { $title }
 calendar-none =
     .label = Žádná
+imip-bar-unsupported-text = Tato zpráva obsahuje akci, kterou nelze v této verzi aplikace { -brand-short-name } zpracovat.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
@@ -1066,10 +1067,12 @@ calendar-todaypane-button =
     .tooltiptext = Zobrazí dnešní panel
 calendar-search-options-searchfor =
     .value = obsahuje
+calendar-properties-dialog-title = Úprava kalendáře
 calendar-server-dialog-title-edit =
     .title = Úprava kalendáře
 calendar-server-dialog-name-label =
     .value = Název kalendáře:
+calendar-publish-dialog-window-title = Publikování kalendáře
 calendar-publish-dialog-title =
     .title = Publikování kalendáře
 calendar-publish-url-label = Adresa k publikování
@@ -1083,6 +1086,7 @@ calendar-error-code =
     .value = Kód chyby:
 calendar-error-description =
     .value = Popis:
+calendar-error-prompt-title = Vyskytla se chyba
 calendar-error-title =
     .title = Vyskytla se chyba
 calendar-extract-event-button =

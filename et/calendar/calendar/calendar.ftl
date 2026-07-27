@@ -154,6 +154,7 @@ week-title-label =
     .aria-label = { $title }. nädal
 calendar-none =
     .label = puudub
+imip-bar-unsupported-text = Kiri sisaldab sündmust, mida { -brand-short-name }i praegune versioon töödelda ei suuda.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
@@ -1005,10 +1006,12 @@ calendar-todaypane-button =
     .tooltiptext = Näita tänaste tegemiste paneeli
 calendar-search-options-searchfor =
     .value = milles sisaldub
+calendar-properties-dialog-title = Kalendri omadused
 calendar-server-dialog-title-edit =
     .title = Kalendri omadused
 calendar-server-dialog-name-label =
     .value = Kalendri nimi:
+calendar-publish-dialog-window-title = Kalendri avaldamine
 calendar-publish-dialog-title =
     .title = Kalendri avaldamine
 calendar-publish-url-label = Avaldamise URL
@@ -1022,6 +1025,7 @@ calendar-error-code =
     .value = Veakood:
 calendar-error-description =
     .value = Kirjeldus:
+calendar-error-prompt-title = Tekkis viga
 calendar-error-title =
     .title = Tekkis viga
 calendar-extract-event-button =

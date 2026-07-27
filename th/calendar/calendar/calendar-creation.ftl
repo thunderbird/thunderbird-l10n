@@ -47,3 +47,6 @@ calendar-creation-network-authfail = ไม่ยอมรับข้อมู�
 calendar-creation-network-certerror = ไม่พบปฏิทินที่ตำแหน่งที่ตั้งนี้เนื่องจากปัญหาเกี่ยวกับใบรับรอง
 calendar-creation-network-subscribe-single = โปรดเลือกปฏิทินที่คุณต้องการบอกรับ
 calendar-creation-network-subscribe-multiple = มีปฏิทินหลายชนิดสำหรับตำแหน่งที่ตั้งนี้ โปรดเลือกชนิดปฏิทิน จากนั้นทำเครื่องหมายปฏิทินที่คุณต้องการบอกรับ
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = โปรดป้อนรหัสผ่านของคุณสำหรับ { $location }:

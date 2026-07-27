@@ -136,6 +136,7 @@ week-title-label =
     .aria-label = Тыдзень { $title }
 calendar-none =
     .label = Няма
+imip-bar-unsupported-text = Гэта паведамленне змяшчае падзею, якую не можа апрацаваць гэта версія { -brand-short-name }.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
@@ -615,10 +616,12 @@ calendar-todaypane-button =
     .tooltiptext = Паказаць панэль мерапрыемстваў
 calendar-search-options-searchfor =
     .value = змяшчаюць
+calendar-properties-dialog-title = Рэдагаваць каляндар
 calendar-server-dialog-title-edit =
     .title = Рэдагаваць каляндар
 calendar-server-dialog-name-label =
     .value = Назва календара:
+calendar-publish-dialog-window-title = Апублікаваць каляндар
 calendar-publish-dialog-title =
     .title = Апублікаваць каляндар
 calendar-publish-url-label = URL публікацыі
@@ -632,6 +635,7 @@ calendar-error-code =
     .value = Код памылкі:
 calendar-error-description =
     .value = Апісанне:
+calendar-error-prompt-title = Узнікла памылка
 calendar-error-title =
     .title = Узнікла памылка
 calendar-extract-event-button =

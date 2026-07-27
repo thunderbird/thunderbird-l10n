@@ -156,6 +156,7 @@ week-title-label =
     .aria-label = Тиждень { $title }
 calendar-none =
     .label = немає
+imip-bar-unsupported-text = Це повідомлення містить подію, яку ця версія { -brand-short-name } не може обробити.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
@@ -1027,10 +1028,12 @@ calendar-todaypane-button =
     .tooltiptext = Показати сьогоднішні справи
 calendar-search-options-searchfor =
     .value = містять
+calendar-properties-dialog-title = Редагувати календар
 calendar-server-dialog-title-edit =
     .title = Редагувати календар
 calendar-server-dialog-name-label =
     .value = Назва календаря:
+calendar-publish-dialog-window-title = Опублікувати календар
 calendar-publish-dialog-title =
     .title = Опублікувати календар
 calendar-publish-url-label = Опублікувати URL
@@ -1044,6 +1047,7 @@ calendar-error-code =
     .value = Код помилки:
 calendar-error-description =
     .value = Опис:
+calendar-error-prompt-title = Сталась помилка
 calendar-error-title =
     .title = Сталась помилка
 calendar-extract-event-button =

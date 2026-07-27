@@ -47,3 +47,6 @@ calendar-creation-network-authfail = Datele de autentificare introduse nu au fos
 calendar-creation-network-certerror = Nu s-au găsit calendare în această locație din cauza unei probleme cu certificatul.
 calendar-creation-network-subscribe-single = Te rugăm să selectezi calendarele la care dorești să te abonezi.
 calendar-creation-network-subscribe-multiple = În această locație sunt disponibile mai multe calendare. Alege tipul de calendar, apoi marchează calendarele la care dorești să te abonezi.
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = Te rugăm să introduci parola pentru { $location }:

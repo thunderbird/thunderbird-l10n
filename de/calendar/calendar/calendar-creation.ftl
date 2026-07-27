@@ -47,3 +47,9 @@ calendar-creation-network-authfail = Die eingegebenen Zugangsdaten wurden abgele
 calendar-creation-network-certerror = An dieser Adresse wurden aufgrund eines Zertifikatsproblems keine Kalender gefunden.
 calendar-creation-network-subscribe-single = Bitte die zu abonnierenden Kalender auswählen.
 calendar-creation-network-subscribe-multiple = Unter dieser Adresse stehen verschiedene Kalendertypen zur Auswahl. Wählen Sie zuerst den Kalendertyp und anschließend die zu abonnierenden Kalender.
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text =
+    Bitte geben Sie Ihr Passwort ein für:
+    
+    { $location }

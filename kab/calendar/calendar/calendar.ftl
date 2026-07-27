@@ -154,6 +154,7 @@ week-title-label =
     .aria-label = Dduṛt { $title }
 calendar-none =
     .label = Ulac
+imip-bar-unsupported-text = Izen-a yegber tadyant ur yezmir ara lqem n { -brand-short-name } ad tt-issefrek.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
@@ -1013,10 +1014,12 @@ calendar-todaypane-button =
     .tooltiptext = Sken agalis n Ass-a
 calendar-search-options-searchfor =
     .value = igebren
+calendar-properties-dialog-title = Ẓreg awitay
 calendar-server-dialog-title-edit =
     .title = Ẓreg awitay
 calendar-server-dialog-name-label =
     .value = Isem n uwitay:
+calendar-publish-dialog-window-title = Suffeɣ-d awitay
 calendar-publish-dialog-title =
     .title = Suffeɣ-d awitay
 calendar-publish-url-label = Tansa n usuffeɣ
@@ -1030,6 +1033,7 @@ calendar-error-code =
     .value = Tangalt n tuccḍa:
 calendar-error-description =
     .value = Aglam:
+calendar-error-prompt-title = Tedra-d tuccḍa
 calendar-error-title =
     .title = Tedra-d tuccḍa
 calendar-extract-event-button =

@@ -158,6 +158,7 @@ week-title-label =
     .aria-label = Vika { $title }
 calendar-none =
     .label = Engin
+imip-bar-unsupported-text = Þessi skilaboð innihalda atburð sem þessi útgáfa af { -brand-short-name } getur ekki unnið úr.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
@@ -1041,10 +1042,12 @@ calendar-todaypane-button =
     .tooltiptext = Sýn dagsins í dag
 calendar-search-options-searchfor =
     .value = inniheldur
+calendar-properties-dialog-title = Breyta dagatali
 calendar-server-dialog-title-edit =
     .title = Breyta dagatali
 calendar-server-dialog-name-label =
     .value = Nafn dagatals:
+calendar-publish-dialog-window-title = Gefa út dagatal
 calendar-publish-dialog-title =
     .title = Gefa út dagatal
 calendar-publish-url-label = Útgáfuslóð
@@ -1058,6 +1061,7 @@ calendar-error-code =
     .value = Villunúmer:
 calendar-error-description =
     .value = Lýsing:
+calendar-error-prompt-title = Villa kom upp
 calendar-error-title =
     .title = Villa kom upp
 calendar-extract-event-button =

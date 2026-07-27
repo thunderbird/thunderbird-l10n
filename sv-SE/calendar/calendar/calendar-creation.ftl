@@ -47,3 +47,6 @@ calendar-creation-network-authfail = De inloggningsuppgifter du angav godkändes
 calendar-creation-network-certerror = Det gick inte att hitta kalendrar på den här platsen på grund av ett certifikatproblem.
 calendar-creation-network-subscribe-single = Välj de kalendrar du vill prenumerera på.
 calendar-creation-network-subscribe-multiple = Flera kalendertyper är tillgängliga för den här platsen. Välj kalendertyp och markera sedan de kalendrar du vill prenumerera på.
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = Skriv in ditt lösenord för { $location }:

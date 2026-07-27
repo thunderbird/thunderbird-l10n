@@ -9,3 +9,6 @@ calendar-creation-initial-network =
     .label = ਨੈਟਵਰਕ ਤੇ
 calendar-creation-username =
     .value = ਵਰਤੋਂਕਾਰ ਨਾਂ:
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = { $location } ਲਈ ਆਪਣਾ ਪਾਸਵਰਡ ਦਿਓ ਜੀ:

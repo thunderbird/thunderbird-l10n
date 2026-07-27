@@ -162,6 +162,7 @@ week-title-label =
     .aria-label = { $title }. teden
 calendar-none =
     .label = brez
+imip-bar-unsupported-text = To sporočilo vsebuje dogodek, ki ga ta različica dodatka { -brand-short-name }a ne more obdelati.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
@@ -1077,10 +1078,12 @@ calendar-todaypane-button =
     .tooltiptext = Prikaži današnji dan
 calendar-search-options-searchfor =
     .value = vsebuje(jo)
+calendar-properties-dialog-title = Uredi koledar
 calendar-server-dialog-title-edit =
     .title = Uredi koledar
 calendar-server-dialog-name-label =
     .value = Ime koledarja:
+calendar-publish-dialog-window-title = Objavi koledar
 calendar-publish-dialog-title =
     .title = Objavi koledar
 calendar-publish-url-label = URL za objavo koledarja:
@@ -1094,6 +1097,7 @@ calendar-error-code =
     .value = Koda napake:
 calendar-error-description =
     .value = Opis:
+calendar-error-prompt-title = Prišlo je do napake
 calendar-error-title =
     .title = Prišlo je do napake
 calendar-extract-event-button =

@@ -158,6 +158,7 @@ week-title-label =
     .aria-label = Uge { $title }
 calendar-none =
     .label = Ingen
+imip-bar-unsupported-text = Denne meddelelse indeholder en begivenhed, som denne version af { -brand-short-name } ikke kan håndtere.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
@@ -1041,10 +1042,12 @@ calendar-todaypane-button =
     .tooltiptext = Vis i dag-panel
 calendar-search-options-searchfor =
     .value = som indeholder
+calendar-properties-dialog-title = Rediger kalender
 calendar-server-dialog-title-edit =
     .title = Rediger kalender
 calendar-server-dialog-name-label =
     .value = Kalendernavn:
+calendar-publish-dialog-window-title = Udgiv kalender
 calendar-publish-dialog-title =
     .title = Udgiv kalender
 calendar-publish-url-label = Udgivelsesadresse
@@ -1058,6 +1061,7 @@ calendar-error-code =
     .value = Fejlkode:
 calendar-error-description =
     .value = Beskrivelse:
+calendar-error-prompt-title = Der opstod en fejl
 calendar-error-title =
     .title = Der opstod en fejl
 calendar-extract-event-button =

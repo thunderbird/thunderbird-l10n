@@ -45,3 +45,6 @@ calendar-creation-network-notfound = Nurodytoje vietoje nepavyko rasti kalendori
 calendar-creation-network-authfail = Jūsų įvesti kredencialai buvo atmesti. Patikrinkite nustatymus.
 calendar-creation-network-subscribe-single = Pasirinkite kalendorius, kuriuos norėtumėte prenumeruoti.
 calendar-creation-network-subscribe-multiple = Čia siūlomi kelis kalendoriaus tipai. Pasirinkite kalendoriaus tipą ir tada pažymėkite kalendorius, kuriuos norėtumėte užsiprenumeruoti.
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = Prašom surinkti „{ $location }“ slaptažodį:

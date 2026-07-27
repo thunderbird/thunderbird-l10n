@@ -158,6 +158,7 @@ week-title-label =
     .aria-label = الأسبوع { $title }
 calendar-none =
     .label = بلا
+imip-bar-unsupported-text = تحتوي هذه الرسالة على حدث لا تستطيع إصدارة { -brand-short-name } هذه معالجته.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
@@ -983,10 +984,12 @@ calendar-todaypane-button =
     .tooltiptext = أظهر لوحة اليوم
 calendar-search-options-searchfor =
     .value = التي تحوي
+calendar-properties-dialog-title = تحرير التقويم
 calendar-server-dialog-title-edit =
     .title = تحرير التقويم
 calendar-server-dialog-name-label =
     .value = اسم التقويم:
+calendar-publish-dialog-window-title = نشر التقويم
 calendar-publish-dialog-title =
     .title = نشر التقويم
 calendar-publish-url-label = عنوان النشر
@@ -1000,6 +1003,7 @@ calendar-error-code =
     .value = رمز الخطأ:
 calendar-error-description =
     .value = الوصف:
+calendar-error-prompt-title = حدث خطأ
 calendar-error-title =
     .title = حدث خطأ
 calendar-extract-event-button =

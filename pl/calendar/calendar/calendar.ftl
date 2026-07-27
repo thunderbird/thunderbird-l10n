@@ -165,6 +165,7 @@ week-title-label =
     .aria-label = { $title }. tydzień
 calendar-none =
     .label = Brak
+imip-bar-unsupported-text = Ta wiadomość zawiera wydarzenie, którego ta wersja rozszerzenia { -brand-short-name } nie potrafi przetworzyć.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
@@ -1067,10 +1068,12 @@ calendar-todaypane-button =
     .tooltiptext = Pokaż panel bieżących spraw
 calendar-search-options-searchfor =
     .value = zawiera:
+calendar-properties-dialog-title = Właściwości kalendarza
 calendar-server-dialog-title-edit =
     .title = Właściwości kalendarza
 calendar-server-dialog-name-label =
     .value = Nazwa kalendarza:
+calendar-publish-dialog-window-title = Publikacja kalendarza
 calendar-publish-dialog-title =
     .title = Publikacja kalendarza
 calendar-publish-url-label = URL publikacji:
@@ -1084,6 +1087,7 @@ calendar-error-code =
     .value = Kod błędu:
 calendar-error-description =
     .value = Opis:
+calendar-error-prompt-title = Wystąpił błąd
 calendar-error-title =
     .title = Wystąpił błąd
 calendar-extract-event-button =

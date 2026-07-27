@@ -160,6 +160,7 @@ week-title-label =
     .aria-label = Неделя { $title }
 calendar-none =
     .label = нет
+imip-bar-unsupported-text = Это письмо содержит событие, которое эта версия { -brand-short-name } не может обработать.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
@@ -1059,10 +1060,12 @@ calendar-todaypane-button =
     .tooltiptext = Показать мероприятия на сегодня
 calendar-search-options-searchfor =
     .value = содержат
+calendar-properties-dialog-title = Изменить календарь
 calendar-server-dialog-title-edit =
     .title = Изменить календарь
 calendar-server-dialog-name-label =
     .value = Название календаря:
+calendar-publish-dialog-window-title = Публикация календаря
 calendar-publish-dialog-title =
     .title = Публикация календаря
 calendar-publish-url-label = URL публикации
@@ -1076,6 +1079,7 @@ calendar-error-code =
     .value = Код ошибки:
 calendar-error-description =
     .value = Описание:
+calendar-error-prompt-title = Произошла ошибка
 calendar-error-title =
     .title = Произошла ошибка
 calendar-extract-event-button =

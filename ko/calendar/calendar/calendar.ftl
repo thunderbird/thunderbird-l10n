@@ -154,6 +154,7 @@ week-title-label =
     .aria-label = { $title }주
 calendar-none =
     .label = 없음
+imip-bar-unsupported-text = 이 메시지는 현재 버전의 { -brand-short-name }이 처리할 수 없는 이벤트를 포함하고 있습니다.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
@@ -970,10 +971,12 @@ calendar-todaypane-button =
     .tooltiptext = 오늘 일정창을 표시합니다
 calendar-search-options-searchfor =
     .value = 포함
+calendar-properties-dialog-title = 캘린더 편집
 calendar-server-dialog-title-edit =
     .title = 캘린더 편집
 calendar-server-dialog-name-label =
     .value = 캘린더 이름:
+calendar-publish-dialog-window-title = 캘린더 게시
 calendar-publish-dialog-title =
     .title = 캘린더 게시
 calendar-publish-url-label = 게시할 주소(URL)
@@ -987,6 +990,7 @@ calendar-error-code =
     .value = 오류 번호:
 calendar-error-description =
     .value = 설명:
+calendar-error-prompt-title = 오류가 발생하였습니다.
 calendar-error-title =
     .title = 오류가 발생하였습니다.
 calendar-extract-event-button =

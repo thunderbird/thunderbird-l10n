@@ -158,6 +158,7 @@ week-title-label =
     .aria-label = Hafta { $title }
 calendar-none =
     .label = Yok
+imip-bar-unsupported-text = Bu ileti, { -brand-short-name } uygulamasının bu sürümünün işleyemeyeceği bir etkinlik içeriyor.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
@@ -1037,10 +1038,12 @@ calendar-todaypane-button =
     .tooltiptext = Bugün bölmesini göster
 calendar-search-options-searchfor =
     .value = süzgeç
+calendar-properties-dialog-title = Takvimi düzenle
 calendar-server-dialog-title-edit =
     .title = Takvimi düzenle
 calendar-server-dialog-name-label =
     .value = Takvim adı:
+calendar-publish-dialog-window-title = Takvimi yayımla
 calendar-publish-dialog-title =
     .title = Takvimi yayımla
 calendar-publish-url-label = Yayınlanma adresi
@@ -1054,6 +1057,7 @@ calendar-error-code =
     .value = Hata kodu:
 calendar-error-description =
     .value = Açıklama:
+calendar-error-prompt-title = Bir hata oluştu
 calendar-error-title =
     .title = Bir hata oluştu
 calendar-extract-event-button =

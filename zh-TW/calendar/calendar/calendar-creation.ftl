@@ -47,3 +47,6 @@ calendar-creation-network-authfail = 您輸入的帳號密碼未被接受，請�
 calendar-creation-network-certerror = 因憑證問題，無法在此位置找到行事曆。
 calendar-creation-network-subscribe-single = 請選擇您要訂閱的行事曆。
 calendar-creation-network-subscribe-multiple = 此位置有多種不同的行事曆。請先選擇要訂閱的類型，再勾選想要訂閱的行事曆。
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = 請輸入「{ $location }」的密碼:

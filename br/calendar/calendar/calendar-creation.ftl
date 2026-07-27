@@ -43,3 +43,6 @@ calendar-creation-network-notfound = Deiziataer ebet er chomlec'h-mañ. Gwirit a
 calendar-creation-network-authfail = N'eo ket bet degemeret an anaouadadurioù kevreañ seziset. Gwirit hoc'h arventennoù mar plij.
 calendar-creation-network-subscribe-single = Diuzit an deiziataerioù ho pefe c'hoant kevreañ outo.
 calendar-creation-network-subscribe-multiple = Meur a zoare deiziataer a zo hegerz evit ar chomlec'h. Diuzit an doare deiziataer mar plij, diuzit da c'houde an deiziataerioù ho peus c'hoant koumanantiñ dezho.
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = Roit ho ker-tremen mar plij evit { $location } :

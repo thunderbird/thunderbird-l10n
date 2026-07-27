@@ -45,3 +45,6 @@ calendar-creation-network-notfound = Այդտեղ օրացույց չգտնվե�
 calendar-creation-network-authfail = Ձեր մուտքագրած հավատարմությունը չի ընդունվել։ Խնդրում ենք ստուգել Ձեր կարգավորումները։
 calendar-creation-network-subscribe-single = Ընտրե՛ք օրացույցեր, որոնց ցանկանում Եք գրանցվել։
 calendar-creation-network-subscribe-multiple = Օրացույցերի բազում տարբերակներ հասանելի են այստեղ։ Ընտրե՛ք օրացույցի տեսակը, ինչից հետո նշե՛ք օրացույցեր որոնց կցանկանաք գրանցվել։
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = Նշեք Ձեր գաղտնաբառը { $location }-ի համար.

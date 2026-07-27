@@ -43,3 +43,6 @@ calendar-creation-network-notfound = Այդտեղ աւրացոյց չգտնու�
 calendar-creation-network-authfail = Ձեր գրանցած տուեալները չեն ընդունուել։ Խնդրում եմ ստուգել կարգաւորումները։
 calendar-creation-network-subscribe-single = Ընտրէք աւրացոյցներ, որոնց ցանկանում էք բաժանորդագրուել։
 calendar-creation-network-subscribe-multiple = Աւրացոյցների բազմաթիւ տարբերակներ հասանելի են այստեղ։ Ընտրէք աւրացոյցի տեսակը, ինչից յետոյ նշէք աւրացոյցներ, որոնց կը ցանկանաք բաժանորդագրուել։
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = Նշեք Ձեր գաղտնաբառը { $location }-ի համար.

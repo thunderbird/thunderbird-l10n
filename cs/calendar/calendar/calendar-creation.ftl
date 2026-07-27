@@ -47,3 +47,6 @@ calendar-creation-network-authfail = Zadané přihlašovací údaje nebyly přij
 calendar-creation-network-certerror = V tomto umístění nebylo možné najít kalendáře kvůli problému s certifikátem.
 calendar-creation-network-subscribe-single = Vyberte prosím kalendář, který chcete přidat.
 calendar-creation-network-subscribe-multiple = V tomto umístění se nachází více typů kalendářů. Vyberte prosím typ kalendáře a pak označte ty, které chcete přidat.
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = Zadejte prosím své heslo pro { $location }:

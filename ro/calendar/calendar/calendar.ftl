@@ -160,6 +160,7 @@ week-title-label =
     .aria-label = Săptămâna { $title }
 calendar-none =
     .label = Fără
+imip-bar-unsupported-text = Acest mesaj conține un eveniment pe care această versiune de { -brand-short-name } nu îl poate procesa.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
@@ -1059,10 +1060,12 @@ calendar-todaypane-button =
     .tooltiptext = Afișează panoul zilei de astăzi
 calendar-search-options-searchfor =
     .value = care conține
+calendar-properties-dialog-title = Editează calendarul
 calendar-server-dialog-title-edit =
     .title = Editează calendarul
 calendar-server-dialog-name-label =
     .value = Denumire calendar:
+calendar-publish-dialog-window-title = Publicare calendar
 calendar-publish-dialog-title =
     .title = Publicare calendar
 calendar-publish-url-label = URL de publicare
@@ -1076,6 +1079,7 @@ calendar-error-code =
     .value = Codul erorii:
 calendar-error-description =
     .value = Descriere:
+calendar-error-prompt-title = A apărut o eroare
 calendar-error-title =
     .title = A apărut o eroare
 calendar-extract-event-button =

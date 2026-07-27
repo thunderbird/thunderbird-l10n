@@ -47,3 +47,6 @@ calendar-creation-network-authfail = Nid yw'r manylion rydych wedi'u cynnig wedi
 calendar-creation-network-certerror = Methu dod o hyd i galendrau yn y lleoliad hwn oherwydd problem tystysgrif.
 calendar-creation-network-subscribe-single = Dewiswch y calendrau'r hoffech danysgrifio iddyn nhw.
 calendar-creation-network-subscribe-multiple = Mae mathau lluosog o galendr ar gael ar gyfer y lleoliad hwn. Dewiswch y math o galendr, yna nodi'r calendrau yr hoffech chi danysgrifio iddyn nhw.
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = Rhowch gyfrinair ar gyfer { $location }:

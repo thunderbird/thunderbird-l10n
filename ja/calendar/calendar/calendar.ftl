@@ -154,6 +154,7 @@ week-title-label =
     .aria-label = 第{ $title }週
 calendar-none =
     .label = なし
+imip-bar-unsupported-text = このメッセージにこのバージョンの { -brand-short-name } では処理できない予定が含まれています。
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
@@ -967,10 +968,12 @@ calendar-todaypane-button =
     .tooltiptext = Today ペインを表示します
 calendar-search-options-searchfor =
     .value = に含まれる
+calendar-properties-dialog-title = カレンダーの編集
 calendar-server-dialog-title-edit =
     .title = カレンダーの編集
 calendar-server-dialog-name-label =
     .value = カレンダー名:
+calendar-publish-dialog-window-title = カレンダーの公開
 calendar-publish-dialog-title =
     .title = カレンダーの公開
 calendar-publish-url-label = 公開 URL
@@ -984,6 +987,7 @@ calendar-error-code =
     .value = エラーコード:
 calendar-error-description =
     .value = 説明:
+calendar-error-prompt-title = エラーが発生しました
 calendar-error-title =
     .title = エラーが発生しました
 calendar-extract-event-button =

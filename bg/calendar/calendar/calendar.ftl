@@ -154,6 +154,7 @@ week-title-label =
     .aria-label = Седмица { $title }
 calendar-none =
     .label = Никой
+imip-bar-unsupported-text = Това съобщение съдържа събитие, което това издание на { -brand-short-name } не може да обработи.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
@@ -1037,10 +1038,12 @@ calendar-todaypane-button =
     .tooltiptext = Показване на дневния график
 calendar-search-options-searchfor =
     .value = съдържащи
+calendar-properties-dialog-title = Редактиране на календар
 calendar-server-dialog-title-edit =
     .title = Редактиране на календар
 calendar-server-dialog-name-label =
     .value = Име на календар:
+calendar-publish-dialog-window-title = Публикуване на календар
 calendar-publish-dialog-title =
     .title = Публикуване на календар
 calendar-publish-url-label = Публикуване на URL
@@ -1054,6 +1057,7 @@ calendar-error-code =
     .value = Код на грешка:
 calendar-error-description =
     .value = Описание:
+calendar-error-prompt-title = Възникна грешка
 calendar-error-title =
     .title = Възникна грешка
 calendar-extract-event-button =

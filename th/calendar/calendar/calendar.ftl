@@ -154,6 +154,7 @@ week-title-label =
     .aria-label = สัปดาห์ { $title }
 calendar-none =
     .label = ไม่มี
+imip-bar-unsupported-text = ข้อความนี้มีเหตุการณ์ที่ { -brand-short-name } รุ่นนี้ไม่สามารถประมวลผลได้
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
@@ -972,10 +973,12 @@ calendar-todaypane-button =
     .tooltiptext = แสดงบานหน้าต่างวันนี้
 calendar-search-options-searchfor =
     .value = มี
+calendar-properties-dialog-title = แก้ไขปฏิทิน
 calendar-server-dialog-title-edit =
     .title = แก้ไขปฏิทิน
 calendar-server-dialog-name-label =
     .value = ชื่อปฏิทิน:
+calendar-publish-dialog-window-title = เผยแพร่ปฏิทิน
 calendar-publish-dialog-title =
     .title = เผยแพร่ปฏิทิน
 calendar-publish-url-label = URL การเผยแพร่
@@ -989,6 +992,7 @@ calendar-error-code =
     .value = รหัสข้อผิดพลาด:
 calendar-error-description =
     .value = คำอธิบาย:
+calendar-error-prompt-title = เกิดข้อผิดพลาด
 calendar-error-title =
     .title = เกิดข้อผิดพลาด
 calendar-extract-event-button =

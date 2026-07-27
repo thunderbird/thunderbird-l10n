@@ -46,3 +46,6 @@ calendar-creation-network-authfail = Kredencialet që keni dhënë nuk u pranuan
 calendar-creation-network-certerror = S’u gjetën dot kalendarë te kjo vendndodhje, për shkak të një problemi dëshmie.
 calendar-creation-network-subscribe-single = Ju lutemi, përzgjidhni kalendarët te të cilët do të donit të pajtoheshit.
 calendar-creation-network-subscribe-multiple = Ka disa lloje kalendarësh të gatshëm për këtë vend. Ju lutemi, përzgjidhni llojin e kalendarit, mandej vëruni shenjë kalendarëve te të cilët do të donit të pajtoheshit.
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = Ju lutemi, jepni fjalëkalimin tuaj për { $location }:

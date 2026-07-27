@@ -162,6 +162,7 @@ week-title-label =
     .aria-label = Wythnos { $title }
 calendar-none =
     .label = Dim
+imip-bar-unsupported-text = Mae'r neges yn cynnwys digwyddiad nad yw'r fersiwn yma o { -brand-short-name } yn gallu ei brosesu.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
@@ -1094,10 +1095,12 @@ calendar-todaypane-button =
     .tooltiptext = Dangos Paen Heddiw
 calendar-search-options-searchfor =
     .value = yn cynnwys
+calendar-properties-dialog-title = Golygu'r Calendr
 calendar-server-dialog-title-edit =
     .title = Golygu'r Calendr
 calendar-server-dialog-name-label =
     .value = Enw'r Calendr:
+calendar-publish-dialog-window-title = Cyhoeddi Calendr
 calendar-publish-dialog-title =
     .title = Cyhoeddi Calendr
 calendar-publish-url-label = URL Cyhoeddi
@@ -1111,6 +1114,7 @@ calendar-error-code =
     .value = Cod gwall:
 calendar-error-description =
     .value = Disgrifiad:
+calendar-error-prompt-title = Digwyddodd gwall
 calendar-error-title =
     .title = Digwyddodd gwall
 calendar-extract-event-button =

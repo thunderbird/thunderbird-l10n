@@ -43,3 +43,6 @@ calendar-creation-network-notfound = לא ניתן למצוא לוחות שנה 
 calendar-creation-network-authfail = פרטי הגישה שהקלדת לא התקבלו. נא לבדוק את ההגדרות שלך.
 calendar-creation-network-subscribe-single = נא לבחור את לוחות השנה אליהם ברצונך להירשם.
 calendar-creation-network-subscribe-multiple = במיקום זה ישנם מספר לוחות שנה. נא לבחור את סוג לוח השנה ולסמן את לוחות השנה אליהם ברצונך להירשם.
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = נא להכניס את הססמה שלך עבור { $location }:

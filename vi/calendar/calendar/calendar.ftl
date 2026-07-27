@@ -154,6 +154,7 @@ week-title-label =
     .aria-label = Tuần { $title }
 calendar-none =
     .label = Không có
+imip-bar-unsupported-text = Thư này chứa một sự kiện mà phiên bản { -brand-short-name } này không thể xử lí.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
@@ -973,10 +974,12 @@ calendar-todaypane-button =
     .tooltiptext = Hiển thị bảng hôm nay
 calendar-search-options-searchfor =
     .value = chứa
+calendar-properties-dialog-title = Chỉnh sửa lịch
 calendar-server-dialog-title-edit =
     .title = Chỉnh sửa lịch
 calendar-server-dialog-name-label =
     .value = Tên lịch:
+calendar-publish-dialog-window-title = Xuất bản lịch
 calendar-publish-dialog-title =
     .title = Xuất bản lịch
 calendar-publish-url-label = URL xuất bản:
@@ -990,6 +993,7 @@ calendar-error-code =
     .value = Mã lỗi:
 calendar-error-description =
     .value = Mô tả:
+calendar-error-prompt-title = Một lỗi đã xảy ra
 calendar-error-title =
     .title = Một lỗi đã xảy ra
 calendar-extract-event-button =

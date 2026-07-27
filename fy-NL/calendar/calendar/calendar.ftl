@@ -158,6 +158,7 @@ week-title-label =
     .aria-label = Wike { $title }
 calendar-none =
     .label = Gjin
+imip-bar-unsupported-text = Dit berjocht befettet in barren dy’t dizze ferzje fan { -brand-short-name } net ferwurkje kin.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
@@ -1045,10 +1046,12 @@ calendar-todaypane-button =
     .tooltiptext = Finster Hjoed toane
 calendar-search-options-searchfor =
     .value = mei
+calendar-properties-dialog-title = Aginda bewurkje
 calendar-server-dialog-title-edit =
     .title = Aginda bewurkje
 calendar-server-dialog-name-label =
     .value = Agindanamme:
+calendar-publish-dialog-window-title = Aginda publisearje
 calendar-publish-dialog-title =
     .title = Aginda publisearje
 calendar-publish-url-label = Publikaasje-URL:
@@ -1062,6 +1065,7 @@ calendar-error-code =
     .value = Flaterkoade:
 calendar-error-description =
     .value = Beskriuwing:
+calendar-error-prompt-title = Der is in flater bard
 calendar-error-title =
     .title = Der is in flater bard
 calendar-extract-event-button =

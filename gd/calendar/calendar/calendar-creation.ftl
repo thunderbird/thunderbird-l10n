@@ -46,3 +46,6 @@ calendar-creation-network-authfail = Chuir thu ainm no facal-faire a-steach a ch
 calendar-creation-network-certerror = Cha d’fhuair sinn lorg air mìosachan sam bith an-seo air sgàth duilgheadais le teisteanas.
 calendar-creation-network-subscribe-single = Tagh na mìosachain a bu mhath leat fo-sgrìobhadh thuca.
 calendar-creation-network-subscribe-multiple = Tha iomadh mìosachan san ionad seo. Tagh seòrsa a’ mhìosachain is comharraich an fheadhainn a bu toigh leat fo-sgrìobhadh thuca an uairsin.
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = Cuir a-steach am facal-faire agad airson { $location }:

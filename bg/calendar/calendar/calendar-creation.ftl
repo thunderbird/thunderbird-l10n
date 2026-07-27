@@ -46,3 +46,6 @@ calendar-creation-network-authfail = Идентификационните дан
 calendar-creation-network-certerror = Календарите не могат да бъдат намерени на това място поради проблем със сертификата за сигурност.
 calendar-creation-network-subscribe-single = Моля, изберете календарите, за които искате да се абонирате.
 calendar-creation-network-subscribe-multiple = За това местоположение са налични множество типове календари. Моля, изберете типа календар, след което маркирайте календарите, за които искате да се абонирате.
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = Моля, въведете вашата парола за { $location }:

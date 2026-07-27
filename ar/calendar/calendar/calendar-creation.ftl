@@ -43,3 +43,6 @@ calendar-creation-network-notfound = لم نجد أيّ تقويم في هذا �
 calendar-creation-network-authfail = لم تُقبل بيانات الدخول التي أدخلتها. من فضلك افحص الإعدادات.
 calendar-creation-network-subscribe-single = من فضلك اختر قوائم التقويمات التي تريد الاشتراك فيها.
 calendar-creation-network-subscribe-multiple = هناك أكثر من نوع واحد للتقويمات في هذا المكان. من فضلك اختر نوع التقويم ثم ضع علامة على التقويمات التي تريد الاشتراك فيها.
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = رجاءً أدخل كلمة سرّك ل{ $location }:

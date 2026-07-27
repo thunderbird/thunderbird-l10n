@@ -47,3 +47,6 @@ calendar-creation-network-authfail = Zadané prihlasovacie údaje neboli prijat�
 calendar-creation-network-certerror = Kalendáre sa na tomto mieste nepodarilo nájsť kvôli problému s certifikátom.
 calendar-creation-network-subscribe-single = Vyberte si kalendáre, na odber ktorých sa chcete prihlásiť.
 calendar-creation-network-subscribe-multiple = V tomto umiestnení sa nachádza viacero typov kalendárov. Prosím, vyberte typ kalendára a potom označte tie, ktoré chcete odoberať.
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = Zadajte vaše heslo pre { $location }:

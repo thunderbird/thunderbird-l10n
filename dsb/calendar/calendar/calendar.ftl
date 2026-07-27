@@ -162,6 +162,7 @@ week-title-label =
     .aria-label = Tyźeń { $title }
 calendar-none =
     .label = Žeden
+imip-bar-unsupported-text = Toś ta powěsć tšojenje wopśimujo, kótarež toś ta wersija { -brand-short-name } njamóžo pśeźěłaś.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
@@ -1077,10 +1078,12 @@ calendar-todaypane-button =
     .tooltiptext = Źinsajšny źeń pokazaś
 calendar-search-options-searchfor =
     .value = wopśimujo
+calendar-properties-dialog-title = Kalender wobźěłaś
 calendar-server-dialog-title-edit =
     .title = Kalender wobźěłaś
 calendar-server-dialog-name-label =
     .value = Mě kalendera:
+calendar-publish-dialog-window-title = Kalender wózjawiś
 calendar-publish-dialog-title =
     .title = Kalender wózjawiś
 calendar-publish-url-label = URL za wózjawjenje
@@ -1094,6 +1097,7 @@ calendar-error-code =
     .value = Zmólkowy kod:
 calendar-error-description =
     .value = Wopisanje:
+calendar-error-prompt-title = Zmólka jo nastała
 calendar-error-title =
     .title = Zmólka jo nastała
 calendar-extract-event-button =

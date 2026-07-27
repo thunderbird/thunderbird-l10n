@@ -158,6 +158,7 @@ week-title-label =
     .aria-label = კვირა { $title }
 calendar-none =
     .label = არცერთი
+imip-bar-unsupported-text = გზავნილი შეიცავს ღონისძიებას, რომელსაც ამ ვერსიის { -brand-short-name } ვერ ამუშავებს.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
@@ -1037,10 +1038,12 @@ calendar-todaypane-button =
     .tooltiptext = დღევანდელი დაფა
 calendar-search-options-searchfor =
     .value = შეიცავს
+calendar-properties-dialog-title = კალენდრის ჩასწორება
 calendar-server-dialog-title-edit =
     .title = კალენდრის ჩასწორება
 calendar-server-dialog-name-label =
     .value = კალენდრის სახელი:
+calendar-publish-dialog-window-title = კალენდრის გამოქვეყნება
 calendar-publish-dialog-title =
     .title = კალენდრის გამოქვეყნება
 calendar-publish-url-label = გამოქვეყნების მისამართი
@@ -1054,6 +1057,7 @@ calendar-error-code =
     .value = შეცდომის კოდი:
 calendar-error-description =
     .value = აღწერილობა:
+calendar-error-prompt-title = წარმოიქმნა შეცდომა
 calendar-error-title =
     .title = წარმოიქმნა შეცდომა
 calendar-extract-event-button =

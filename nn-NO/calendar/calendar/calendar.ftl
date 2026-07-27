@@ -158,6 +158,7 @@ week-title-label =
     .aria-label = Veke { $title }
 calendar-none =
     .label = Ingen
+imip-bar-unsupported-text = Denne meldinga inneheld ei hending som denne versjonen av { -brand-short-name } ikkje kan handsame.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
@@ -1041,10 +1042,12 @@ calendar-todaypane-button =
     .tooltiptext = Vis «I dag»-ruta
 calendar-search-options-searchfor =
     .value = inneheld
+calendar-properties-dialog-title = Rediger kalenderen
 calendar-server-dialog-title-edit =
     .title = Rediger kalenderen
 calendar-server-dialog-name-label =
     .value = Namn:
+calendar-publish-dialog-window-title = Publiser kalender
 calendar-publish-dialog-title =
     .title = Publiser kalender
 calendar-publish-url-label = Adresse
@@ -1058,6 +1061,7 @@ calendar-error-code =
     .value = Feilkode:
 calendar-error-description =
     .value = Skildring:
+calendar-error-prompt-title = Det oppstod ein feil
 calendar-error-title =
     .title = Det oppstod ein feil
 calendar-extract-event-button =

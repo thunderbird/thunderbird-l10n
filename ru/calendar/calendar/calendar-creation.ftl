@@ -47,3 +47,6 @@ calendar-creation-network-authfail = Введённые учётные данн�
 calendar-creation-network-certerror = Не удалось найти календари в этом расположении из-за проблемы с сертификатом.
 calendar-creation-network-subscribe-single = Пожалуйста, выберите календари, на которые вы хотели бы подписаться.
 calendar-creation-network-subscribe-multiple = По данному адресу доступно несколько типов календарей. Пожалуйста, выберите тип календаря, а затем отметьте календари, на которые вы бы хотели подписаться.
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = Введите пароль для { $location }:

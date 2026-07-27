@@ -45,3 +45,6 @@ calendar-creation-network-notfound = Не вдалося знайти кален
 calendar-creation-network-authfail = Введені вами облікові дані було відхилено. Будь ласка, перевірте свої налаштування.
 calendar-creation-network-subscribe-single = Оберіть календарі, на які б ви хотіли підписатися.
 calendar-creation-network-subscribe-multiple = Для цього розташування доступні декілька типів календарів. Оберіть тип календаря, потім позначте календарі, на які ви хочете підписатися.
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = Будь ласка, введіть свій пароль для { $location }:

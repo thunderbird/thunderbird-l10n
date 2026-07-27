@@ -47,3 +47,6 @@ calendar-creation-network-authfail = Girdiğiniz kimlik bilgileri kabul edilmedi
 calendar-creation-network-certerror = Sertifika sorunu nedeniyle bu konumda takvimler bulunamadı.
 calendar-creation-network-subscribe-single = Lütfen abone olmak istediğiniz takvimleri seçin.
 calendar-creation-network-subscribe-multiple = Bu konum için birden fazla takvim türü mevcut. Lütfen takvim türünü seçip abone olmak istediğiniz takvimleri işaretleyin.
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = Lütfen { $location } parolanızı girin:

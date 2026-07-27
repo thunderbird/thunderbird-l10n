@@ -45,3 +45,6 @@ calendar-creation-network-notfound = Sellest kohast kalendreid ei leitud. Palun 
 calendar-creation-network-authfail = Sisestatud mandaati ei aktsepteeritud. Palun kontrolli seadeid.
 calendar-creation-network-subscribe-single = Palun vali kalendrid, mida soovid tellida.
 calendar-creation-network-subscribe-multiple = Selles kohas on saadaval mitut tüüpi kalendreid. Palun vali kõigepealt kalendri tüüp, seejärel märgi, milliseid soovid tellida.
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = Palun sisesta parool { $location } jaoks:

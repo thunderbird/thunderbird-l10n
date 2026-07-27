@@ -158,6 +158,7 @@ week-title-label =
     .aria-label = Week { $title }
 calendar-none =
     .label = Geen
+imip-bar-unsupported-text = Dit bericht bevat een gebeurtenis die deze versie van { -brand-short-name } niet kan verwerken.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
@@ -1045,10 +1046,12 @@ calendar-todaypane-button =
     .tooltiptext = Paneel Vandaag tonen
 calendar-search-options-searchfor =
     .value = bevatten
+calendar-properties-dialog-title = Agenda bewerken
 calendar-server-dialog-title-edit =
     .title = Agenda bewerken
 calendar-server-dialog-name-label =
     .value = Agendanaam:
+calendar-publish-dialog-window-title = Agenda publiceren
 calendar-publish-dialog-title =
     .title = Agenda publiceren
 calendar-publish-url-label = Publicatie-URL:
@@ -1062,6 +1065,7 @@ calendar-error-code =
     .value = Foutcode:
 calendar-error-description =
     .value = Beschrijving:
+calendar-error-prompt-title = Er is een fout opgetreden
 calendar-error-title =
     .title = Er is een fout opgetreden
 calendar-extract-event-button =

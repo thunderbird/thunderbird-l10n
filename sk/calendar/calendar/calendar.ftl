@@ -160,6 +160,7 @@ week-title-label =
     .aria-label = { $title }. týždeň
 calendar-none =
     .label = Žiadny
+imip-bar-unsupported-text = Táto správa obsahuje udalosť, ktorú táto verzia rozšírenia { -brand-short-name } nedokáže spracovať.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
@@ -1066,10 +1067,12 @@ calendar-todaypane-button =
     .tooltiptext = Zobraziť panel Dnes
 calendar-search-options-searchfor =
     .value = obsahujúce
+calendar-properties-dialog-title = Upraviť kalendár
 calendar-server-dialog-title-edit =
     .title = Upraviť kalendár
 calendar-server-dialog-name-label =
     .value = Názov kalendára:
+calendar-publish-dialog-window-title = Publikovať kalendár
 calendar-publish-dialog-title =
     .title = Publikovať kalendár
 calendar-publish-url-label = Adresa URL:
@@ -1083,6 +1086,7 @@ calendar-error-code =
     .value = Kód chyby:
 calendar-error-description =
     .value = Popis:
+calendar-error-prompt-title = Vyskytla sa chyba:
 calendar-error-title =
     .title = Vyskytla sa chyba:
 calendar-extract-event-button =

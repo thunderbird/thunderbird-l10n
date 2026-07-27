@@ -154,6 +154,7 @@ week-title-label =
     .aria-label = setmana { $title }
 calendar-none =
     .label = Cap
+imip-bar-unsupported-text = Aquest missatge conté una cita que aquesta versió del { -brand-short-name } no ha pogut tractar.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
@@ -1010,10 +1011,12 @@ calendar-todaypane-button =
     .tooltiptext = Mostra el plafó d'avui
 calendar-search-options-searchfor =
     .value = que continguin
+calendar-properties-dialog-title = Edita el calendari
 calendar-server-dialog-title-edit =
     .title = Edita el calendari
 calendar-server-dialog-name-label =
     .value = Nom del calendari:
+calendar-publish-dialog-window-title = Publica el calendari
 calendar-publish-dialog-title =
     .title = Publica el calendari
 calendar-publish-url-label = URL de publicació
@@ -1027,6 +1030,7 @@ calendar-error-code =
     .value = Codi d'error:
 calendar-error-description =
     .value = Descripció:
+calendar-error-prompt-title = S'ha produït un error
 calendar-error-title =
     .title = S'ha produït un error
 calendar-extract-event-button =

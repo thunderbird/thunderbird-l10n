@@ -9,3 +9,6 @@ calendar-creation-initial-network =
     .label = На мрежа (сервер)
 calendar-creation-username =
     .value = Корисничко име:
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = Внесете ја Вашата лозинка за { $location }:
