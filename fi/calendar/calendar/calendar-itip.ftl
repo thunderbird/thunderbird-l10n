@@ -2,9 +2,19 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Tab titles
+calendar-tab-title-calendar = Kalenteri
+calendar-tab-title-tasks = Tehtävät
 
 ## Email invitation preview (HTML rendering of an iTIP invitation)
 
+imip-html-header = Kutsu tapahtumaan
+# Field labels of the invitation preview table.
+imip-html-summary = Otsikko:
+imip-html-location = Paikka:
+imip-html-when = Aika:
+imip-html-organizer = Järjestäjä:
+imip-html-description = Kuvaus:
 imip-html-attachments = Liitteet:
 imip-html-comment = Kommentti:
 imip-html-attendees = Osallistujat:
@@ -99,19 +109,82 @@ imip-bar-processed-multiple-needs-action = Tämä viesti sisältää useita tapa
 imip-bar-processed-series-needs-action = Tämä viesti sisältää tapahtumasarjoja joihin et ole vielä vastannut.
 imip-bar-reply-text = Tämä viesti sisältää vastauksen kutsuun.
 imip-bar-reply-to-not-existing-item = Tämä viesti sisältää vastauksen tapahtumaan jota ei löydy kalenteristasi.
+# Variables:
+#   $deletionTime (String) - The formatted time the event was removed from the calendar.
+imip-bar-reply-to-recently-removed-item = Tämä viesti sisältää vastauksen tapahtumaan joka poistettiin kalenteristasi { $deletionTime }.
+# Variables:
+#   $status (String) - The hexadecimal status code of the failed processing.
+imip-bar-processing-failed = Viestin käsittely epäonnistui. Tila: { $status }.
+imip-bar-calendar-deactivated = Tämä viesti sisältää tietoa tapahtumasta. Ota kalenteri käyttöön käsitelläksesi viestiä.
+imip-bar-not-writable = Kutsuja varten ei ole määritetty muokattavaa kalenteria. Tarkista kalenterin asetukset.
+imip-no-calendar-available = Käytettävissä ei ole muokattavaa kalenteria.
 
 ## Sending invitation emails
 
+imip-send-mail-title = Sähköposti-ilmoitus
+imip-send-mail-text = Haluatko lähettää ilmoitusviestin nyt?
 
 ## Calendar email identity
 
+imip-no-identity = Ei mitään
 no-identity-selected-notification = Jos haluat käyttää tätä kalenteria kutsujen säilyttämiseen, lisää sähköpostinimesi alle.
 
 ## Invitations panel
 
+# Variables:
+#   $count (Number) - The number of pending invitations.
+invitations-link-label = Kutsut: { $count }
 
 ## Process invitation confirmation prompt
 
+confirm-process-invitation = Olet äskettäin poistanut tämän kohteen. Haluatko varmasti käsitellä tämän kutsun?
+confirm-process-invitation-title = Käsitelläänkö kutsu?
 
 ## iTIP email subjects and bodies
 
+# Variables:
+#   $summary (String) - The event title.
+itip-request-subject = Kutsu: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-request-updated-subject = Päivitetty: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-request-body = { $organizer } on kutsunut sinut tapahtumaan { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-cancel-subject = Peruttu: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-cancel-body = { $organizer } on peruuttanut tapahtuman: { $summary }
+# Variables:
+#   $attendee (String) - The attendee who made the counterproposal.
+#   $summary (String) - The event title.
+itip-counter-body = { $attendee } on tehnyt vastaehdotuksen tapahtumaan ”{ $summary }”:
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-decline-counter-body = { $organizer } on hylännyt vastaehdotuksesi tapahtumaan ”{ $summary }”.
+# Variables:
+#   $summary (String) - The event title.
+itip-decline-counter-subject = Vastaehdotus hylätty: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject = Vastaus kutsuun: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-accept = Hyväksytty: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-decline = Kutsu hylätty: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-tentative = Hyväksytty alustavasti: { $summary }
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-accept = { $attendee } on hyväksynyt tapahtumakutsusi.
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-decline = { $attendee } on hylännyt tapahtumakutsusi.
