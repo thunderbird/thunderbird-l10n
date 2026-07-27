@@ -15,6 +15,10 @@ imip-html-location = Místo:
 imip-html-when = Kdy:
 imip-html-organizer = Organizátor:
 imip-html-description = Popis:
+# Appended behind an attendee name in the email invitation preview.
+# Variables:
+#   $delegators (String) - A single delegator or a comma separated list of delegators.
+imip-html-attendee-delegated-from = (pověřen(a) od { $delegators })
 
 ## iTIP processing result text
 
