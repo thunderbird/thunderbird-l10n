@@ -5,3 +5,8 @@
 key-import-info-close =
     .label = Lukk
     .accesskey = L
+import-info-dialog-title = Nøkler importerte!
+import-info-created = Opprettet
+import-info-fpr = Fingeravtrykk
+import-info-details = Se detaljer og behandle nøkkelaksept
+import-info-no-keys = Ingen nøkler importerte.
