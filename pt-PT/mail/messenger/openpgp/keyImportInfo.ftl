@@ -5,3 +5,8 @@
 key-import-info-close =
     .label = Fechar
     .accesskey = c
+import-info-dialog-title = Sucesso! Chaves importadas
+import-info-created = Criada
+import-info-fpr = Identificador digital
+import-info-details = Ver detalhes e gerir a aceitação da chave
+import-info-no-keys = Sem chaves importadas.
