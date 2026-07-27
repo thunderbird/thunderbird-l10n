@@ -5,3 +5,8 @@
 key-import-info-close =
     .label = Slute
     .accesskey = S
+import-info-dialog-title = Sukses! Kaaien ymportearre
+import-info-created = Oanmakke
+import-info-fpr = Fingerôfdruk
+import-info-details = Details besjen en kaaiakseptaasje beheare
+import-info-no-keys = Gjin kaaien ymportearre.
