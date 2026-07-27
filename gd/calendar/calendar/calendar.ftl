@@ -156,6 +156,7 @@ week-title-label =
     .aria-label = Seachain { $title }
 calendar-none =
     .label = Chan eil gin
+imip-bar-unsupported-text = Tha tachartas san teachdaireachd seo nach urrainn do { -brand-short-name } làimhseachadh.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
