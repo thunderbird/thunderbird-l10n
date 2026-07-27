@@ -158,6 +158,7 @@ week-title-label =
     .aria-label = Hafta { $title }
 calendar-none =
     .label = Yok
+imip-bar-unsupported-text = Bu ileti, { -brand-short-name } uygulamasının bu sürümünün işleyemeyeceği bir etkinlik içeriyor.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
