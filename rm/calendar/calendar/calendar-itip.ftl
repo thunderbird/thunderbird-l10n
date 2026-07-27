@@ -99,19 +99,82 @@ imip-bar-processed-multiple-needs-action = Quest messadi cuntegna plirs evenimen
 imip-bar-processed-series-needs-action = Quest messadi cuntegna ina seria dad eveniments a la quala ti n'has anc betg respundì.
 imip-bar-reply-text = Quest messadi cuntegna ina resposta ad ina invitaziun.
 imip-bar-reply-to-not-existing-item = Quest messadi cuntegna ina resposta che sa referescha ad in eveniment betg registrà en tes chalender.
+# Variables:
+#   $deletionTime (String) - The formatted time the event was removed from the calendar.
+imip-bar-reply-to-recently-removed-item = Quest messadi cuntegna ina resposta che sa referescha ad in eveniment stizzà da tes chalender sin { $deletionTime }.
+# Variables:
+#   $status (String) - The hexadecimal status code of the failed processing.
+imip-bar-processing-failed = Betg reussì dad elavurar il messadi. Status: { $status }.
+imip-bar-calendar-deactivated = Quest messadi cuntegna infurmaziuns dad in eveniment. Activar in chalender per l'elavurar.
+imip-bar-not-writable = I n'è betg vegnì configurà in chalender che permetta da scriver invitaziuns lien. Controllescha per plaschair las caracteristicas dal chalender.
+imip-no-calendar-available = Nagin chalender che permetta da scriver stat a disposiziun.
 
 ## Sending invitation emails
 
+imip-send-mail-title = Avis dad e-mail
+imip-send-mail-text = Vuls ti ussa trametter l'e-mail dad avis?
 
 ## Calendar email identity
 
+imip-no-identity = Nagin
 no-identity-selected-notification = Sche ti vuls duvrar quest chalender per memorisar invitaziuns da u per autras persunas stos ti attribuir ina identitad dad e-mail sutvart.
 
 ## Invitations panel
 
+# Variables:
+#   $count (Number) - The number of pending invitations.
+invitations-link-label = Invitaziuns: { $count }
 
 ## Process invitation confirmation prompt
 
+confirm-process-invitation = Ti has dacurt stizzà quest element. Es ti segir che ti vuls elavurar questa invitaziun?
+confirm-process-invitation-title = Elavurar l'invitaziun?
 
 ## iTIP email subjects and bodies
 
+# Variables:
+#   $summary (String) - The event title.
+itip-request-subject = Invitaziun: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-request-updated-subject = Actualisà: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-request-body = { $organizer } t'ha envidà a { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-cancel-subject = Annullà: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-cancel-body = { $organizer } ha annullà quest eveniment: «{ $summary }»
+# Variables:
+#   $attendee (String) - The attendee who made the counterproposal.
+#   $summary (String) - The event title.
+itip-counter-body = { $attendee } ha fatg ina cuntraproposta per "{ $summary }":
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-decline-counter-body = { $organizer } ha refusà tia cuntraproposta per "{ $summary }".
+# Variables:
+#   $summary (String) - The event title.
+itip-decline-counter-subject = Cuntraproposta refusada: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject = Resposta a l'invitaziun: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-accept = Acceptà: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-decline = Refusà l'invitaziun: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-tentative = Provisoricamain: { $summary }
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-accept = { $attendee } ha acceptà tia invitaziun a l'eveniment.
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-decline = { $attendee } ha refusà tia invitaziun a l'eveniment.
