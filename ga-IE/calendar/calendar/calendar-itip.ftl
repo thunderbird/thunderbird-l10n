@@ -105,18 +105,59 @@ imip-bar-already-processed-text = Tá imeacht sa teachtaireacht seo a próiseál
 imip-bar-processed-needs-action = Tá imeacht sa teachtaireacht seo nár thug tú freagra air fós.
 imip-bar-reply-text = Tá freagra ar chuireadh sa teachtaireacht seo.
 imip-bar-reply-to-not-existing-item = Tá freagra sa teachtaireacht seo a dhéanann tagairt d'imeacht nach bhfuil i d'fhéilire.
+# Variables:
+#   $deletionTime (String) - The formatted time the event was removed from the calendar.
+imip-bar-reply-to-recently-removed-item = Tá freagra sa teachtaireacht seo a dhéanann tagairt d'imeacht a scriosadh ó d'fhéilire { $deletionTime }.
+# Variables:
+#   $status (String) - The hexadecimal status code of the failed processing.
+imip-bar-processing-failed = Theip ar phróiseáil na teachtaireachta. Stádas: { $status }.
+imip-bar-not-writable = Níl aon fhéilirí inscríofa ar fáil chun cuirí a láimhseáil, féach ar airíonna an fhéilire.
+imip-no-calendar-available = Níl aon fhéilirí inscríofa ar fáil.
 
 ## Sending invitation emails
 
+imip-send-mail-title = Fógra Ríomhphoist
+imip-send-mail-text = An bhfuil fonn ort fógra ríomhphoist a sheoladh anois?
 
 ## Calendar email identity
 
+imip-no-identity = Gan sonrú
 
 ## Invitations panel
 
+# Variables:
+#   $count (Number) - The number of pending invitations.
+invitations-link-label = Cuirí: { $count }
 
 ## Process invitation confirmation prompt
 
+confirm-process-invitation = Scrios tú an mhír seo le déanaí. An bhfuil tú cinnte gur mhaith leat an cuireadh seo a phróiseáil?
+confirm-process-invitation-title = An bhfuil fonn ort an cuireadh a phróiseáil?
 
 ## iTIP email subjects and bodies
 
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-request-body = Tá cuireadh go { $summary } curtha ort ag { $organizer }.
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-cancel-body = Chealaigh { $organizer } an t-imeacht seo: { $summary }
+# Variables:
+#   $attendee (String) - The attendee who made the counterproposal.
+#   $summary (String) - The event title.
+itip-counter-body = Rinne { $attendee } fritogra ar "{ $summary }":
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-decline-counter-body = Dhiúltaigh { $organizer } an fritogra a rinne tú ar "{ $summary }".
+# Variables:
+#   $summary (String) - The event title.
+itip-decline-counter-subject = Diúltaíodh an Fritogra: { $summary }
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-accept = Ghlac { $attendee } le do chuireadh imeachta.
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-decline = Dhiúltaigh { $attendee } le do chuireadh imeachta.
