@@ -47,3 +47,6 @@ calendar-creation-network-authfail = Le credenziali inserite non sono state acce
 calendar-creation-network-certerror = Impossibile trovare i calendari in questa posizione a causa di un problema con il certificato.
 calendar-creation-network-subscribe-single = Selezionare i calendari da sottoscrivere.
 calendar-creation-network-subscribe-multiple = A questo indirizzo sono disponibili diversi tipi di calendario. Selezionare prima il tipo di calendario, poi i calendari da sottoscrivere.
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = Inserire la propria password per { $location }:
