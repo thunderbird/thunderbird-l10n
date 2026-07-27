@@ -105,6 +105,7 @@ imip-bar-reply-to-not-existing-item = تحتوي هذه الرسالة ردًا 
 
 ## Calendar email identity
 
+no-identity-selected-notification = إن أردت استعمال هذا التقويم لتخزين الدعوات من الناس أو منك إلى الناس، فعليك ضبط هوية بريدك إلكتروني أسفله.
 
 ## Invitations panel
 
