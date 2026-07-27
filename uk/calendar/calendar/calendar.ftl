@@ -156,6 +156,7 @@ week-title-label =
     .aria-label = Тиждень { $title }
 calendar-none =
     .label = немає
+imip-bar-unsupported-text = Це повідомлення містить подію, яку ця версія { -brand-short-name } не може обробити.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
