@@ -1084,6 +1084,7 @@ calendar-error-code =
     .value = Kód chyby:
 calendar-error-description =
     .value = Popis:
+calendar-error-prompt-title = Vyskytla se chyba
 calendar-error-title =
     .title = Vyskytla se chyba
 calendar-extract-event-button =
