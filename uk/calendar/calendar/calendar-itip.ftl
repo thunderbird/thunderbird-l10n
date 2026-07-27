@@ -117,6 +117,7 @@ imip-send-mail-text = Бажаєте надіслати E-Mail сповіщен�
 ## Calendar email identity
 
 imip-no-identity = Нічого
+no-identity-selected-notification = Якщо ви хочете використовувати цей календар для зберігання запрошень іншим людям або від інших людей, вам слід вказати адресу електронної пошти внизу.
 
 ## Invitations panel
 
