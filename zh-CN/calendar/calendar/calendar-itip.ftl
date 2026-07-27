@@ -109,19 +109,82 @@ imip-bar-processed-multiple-needs-action = 此消息包含若干您尚未回复�
 imip-bar-processed-series-needs-action = 此消息包含一系列您尚未回复的活动。
 imip-bar-reply-text = 此消息包含一个邀请的回复。
 imip-bar-reply-to-not-existing-item = 此消息包含一个回复，提及非您的日历中的事件。
+# Variables:
+#   $deletionTime (String) - The formatted time the event was removed from the calendar.
+imip-bar-reply-to-recently-removed-item = 此消息包含一个回复，提及您的日历中在 { $deletionTime } 已移除的事件。
+# Variables:
+#   $status (String) - The hexadecimal status code of the failed processing.
+imip-bar-processing-failed = 处理消息失败. 状态: { $status }.
+imip-bar-calendar-deactivated = 此消息包含事件信息，请启用任一日历即可处理。
+imip-bar-not-writable = 对邀请的日历配置是不可写的，请检查该日历的属性。
+imip-no-calendar-available = 没有可用的可写日历。
 
 ## Sending invitation emails
 
+imip-send-mail-title = 电子邮件通知
+imip-send-mail-text = 您想要立即发出通知电子邮件吗?
 
 ## Calendar email identity
 
+imip-no-identity = 无
 no-identity-selected-notification = 如果您想用此日历来存储发给别人或别人寄来的邀请，请在下方指定用于这些邮件的身份。
 
 ## Invitations panel
 
+# Variables:
+#   $count (Number) - The number of pending invitations.
+invitations-link-label = 邀请: { $count }
 
 ## Process invitation confirmation prompt
 
+confirm-process-invitation = 您最近已删除了此项，请问您确定继续进行此邀请吗？
+confirm-process-invitation-title = 继续邀请？
 
 ## iTIP email subjects and bodies
 
+# Variables:
+#   $summary (String) - The event title.
+itip-request-subject = 邀请：{ $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-request-updated-subject = 已更新：{ $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-request-body = { $organizer } 已经邀请您到 { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-cancel-subject = 已取消：{ $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-cancel-body = { $organizer } 已经取消此事件： « { $summary } »
+# Variables:
+#   $attendee (String) - The attendee who made the counterproposal.
+#   $summary (String) - The event title.
+itip-counter-body = { $attendee } 对“{ $summary }”提出了不同意见：
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-decline-counter-body = { $organizer } 拒绝了您对“{ $summary }”提出的不同意见。
+# Variables:
+#   $summary (String) - The event title.
+itip-decline-counter-subject = 意见已拒绝：{ $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject = 回复邀请：{ $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-accept = 已接受：{ $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-decline = 拒绝邀请：{ $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-tentative = 暂定：{ $summary }
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-accept = { $attendee } 已经接受了您的事件邀请。
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-decline = { $attendee } 已经拒绝了您的事件邀请。
