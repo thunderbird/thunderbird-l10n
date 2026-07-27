@@ -154,6 +154,7 @@ week-title-label =
     .aria-label = 第 { $title } 週
 calendar-none =
     .label = 無
+imip-bar-unsupported-text = 此訊息包含這個版本的 { -brand-short-name } 無法處理的事件資訊。
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
