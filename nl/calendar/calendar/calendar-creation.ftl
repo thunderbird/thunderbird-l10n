@@ -47,3 +47,6 @@ calendar-creation-network-authfail = De ingevoerde referenties werden niet geacc
 calendar-creation-network-certerror = Kan geen agenda’s op deze locatie vinden, vanwege een certificaatprobleem.
 calendar-creation-network-subscribe-single = Selecteer de agenda’s waarop u zich wilt abonneren.
 calendar-creation-network-subscribe-multiple = Voor deze locatie zijn meerdere agendatypen beschikbaar. Selecteer het agendatype, en markeer daarna de agenda’s waarop u zich wilt abonneren.
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = Voer uw wachtwoord in voor { $location }:

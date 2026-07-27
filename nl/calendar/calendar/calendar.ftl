@@ -158,6 +158,7 @@ week-title-label =
     .aria-label = Week { $title }
 calendar-none =
     .label = Geen
+imip-bar-unsupported-text = Dit bericht bevat een gebeurtenis die deze versie van { -brand-short-name } niet kan verwerken.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
