@@ -99,18 +99,81 @@ imip-bar-processed-multiple-needs-action = Toś ta powěsć wopśimujo někotare
 imip-bar-processed-series-needs-action = Toś ta powěsć wopśimujo rěd tšojenjow, na kótarež njejsćo hyšći wótegronił.
 imip-bar-reply-text = Toś ta powěsć wopśimujo wótegrono na pśepšosenje.
 imip-bar-reply-to-not-existing-item = Toś ta powěsć wopśimujo wótegrono, kótarež póśěgujo se na tšojenje, kótarež njejo we wašom kalendarju.
+# Variables:
+#   $deletionTime (String) - The formatted time the event was removed from the calendar.
+imip-bar-reply-to-recently-removed-item = Toś ta powěsć wopśimujo na wótegrono, kótarež póśěgujo se na tšojenje, kótarež jo se { $deletionTime } z wašogo kalendarja wótwónoźeło.
+# Variables:
+#   $status (String) - The hexadecimal status code of the failed processing.
+imip-bar-processing-failed = Pśeźěłowanje powěsći njejo se raźiło. Status: { $status }.
+imip-bar-calendar-deactivated = Toś ta powěźeńka tšojeńske informacije wopśimujo. Zmóžniśo kalendaŕ, aby z nimi wobchadał.
+imip-bar-not-writable = Za pśepšosenja njejsu se žedne pópisujobne kalendery konfigurěrowali, pšosym pśeglědajśo kalenderowe kakosći.
+imip-no-calendar-available = Pópisujobne kalendery njejsu k dispoziciji.
 
 ## Sending invitation emails
 
+imip-send-mail-title = E-mailowa powěźeńka
+imip-send-mail-text = Cośo něnto zdźěleńsku mejlku pósłaś?
 
 ## Calendar email identity
 
+imip-no-identity = Žedna
 
 ## Invitations panel
 
+# Variables:
+#   $count (Number) - The number of pending invitations.
+invitations-link-label = Pśepšosenja: { $count }
 
 ## Process invitation confirmation prompt
 
+confirm-process-invitation = Sćo njedawno toś ten zapisk wulašował, cośo toś to pśepšosenje napšawdu pśeźěłaś?
+confirm-process-invitation-title = Pśepšosenje pśeźěłaś?
 
 ## iTIP email subjects and bodies
 
+# Variables:
+#   $summary (String) - The event title.
+itip-request-subject = Pśepšosenje: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-request-updated-subject = Zaktualizěrowany: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-request-body = { $organizer } jo was na { $summary } pśepšosył
+# Variables:
+#   $summary (String) - The event title.
+itip-cancel-subject = Pśetergnjony: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-cancel-body = { $organizer } jo toś to tšojenje anulěrował: { $summary }
+# Variables:
+#   $attendee (String) - The attendee who made the counterproposal.
+#   $summary (String) - The event title.
+itip-counter-body = { $attendee } jo pśeśiwonaraźenje za „{ $summary }“ cynił:
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-decline-counter-body = { $organizer } jo wašo pśeśiwonaraźenje za „{ $summary }“ wótpokazał.
+# Variables:
+#   $summary (String) - The event title.
+itip-decline-counter-subject = Pśeśiwonaraźenje jo se wótpokazało: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject = Pśepšoseńske wótegrono: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-accept = Akceptěrowany: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-decline = Pśepšosenje wótpokazane: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-tentative = Nachylny: { $summary }
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-accept = { $attendee } jo wašo pśepšosenje na tšojenje akceptěrował.
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-decline = { $attendee } jo wašo pśepšosenje na tšojenje wótpokazał.
