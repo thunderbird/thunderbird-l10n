@@ -162,6 +162,7 @@ week-title-label =
     .aria-label = Wythnos { $title }
 calendar-none =
     .label = Dim
+imip-bar-unsupported-text = Mae'r neges yn cynnwys digwyddiad nad yw'r fersiwn yma o { -brand-short-name } yn gallu ei brosesu.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
