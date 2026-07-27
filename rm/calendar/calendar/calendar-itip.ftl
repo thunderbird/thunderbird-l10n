@@ -5,6 +5,15 @@
 
 ## Email invitation preview (HTML rendering of an iTIP invitation)
 
+imip-html-attachments = Agiuntas:
+imip-html-comment = Commentari:
+imip-html-attendees = Participants:
+imip-html-url = Colliaziun correspundenta:
+imip-html-canceled-occurrences = Occurrenzas annulladas:
+imip-html-modified-occurrences = Occurrenzas modifitgadas:
+# Variables:
+#   $location (String) - The new location of a modified occurrence.
+imip-html-new-location = Nov lieu: { $location }
 # Appended behind an attendee name in the email invitation preview.
 # Variables:
 #   $delegators (String) - A single delegator or a comma separated list of delegators.
@@ -96,6 +105,7 @@ imip-bar-reply-to-not-existing-item = Quest messadi cuntegna ina resposta che sa
 
 ## Calendar email identity
 
+no-identity-selected-notification = Sche ti vuls duvrar quest chalender per memorisar invitaziuns da u per autras persunas stos ti attribuir ina identitad dad e-mail sutvart.
 
 ## Invitations panel
 
