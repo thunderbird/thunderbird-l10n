@@ -47,3 +47,6 @@ calendar-creation-network-authfail = Thông tin đăng nhập bạn đã nhập 
 calendar-creation-network-certerror = Không tìm thấy lịch ở vị trí này vì có vấn đề về chứng chỉ.
 calendar-creation-network-subscribe-single = Vui lòng chọn lịch bạn muốn đăng ký.
 calendar-creation-network-subscribe-multiple = Nhiều loại lịch có sẵn cho địa chỉ này. Vui lòng chọn kiểu lịch, sau đó đánh dấu các lịch bạn muốn đăng ký.
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = Vui lòng nhập mật khẩu cho { $location }:

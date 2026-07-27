@@ -154,6 +154,7 @@ week-title-label =
     .aria-label = Tuần { $title }
 calendar-none =
     .label = Không có
+imip-bar-unsupported-text = Thư này chứa một sự kiện mà phiên bản { -brand-short-name } này không thể xử lí.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
