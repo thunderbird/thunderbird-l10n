@@ -5,3 +5,8 @@
 key-import-info-close =
     .label = Užverti
     .accesskey = U
+import-info-dialog-title = Raktai sėkmingai importuoti
+import-info-created = Sukurtas
+import-info-fpr = „Pirštų atspaudas“
+import-info-details = Peržiūrėti išsamią informaciją ir tvarkyti raktų priėmimą
+import-info-no-keys = Nėra importuotų raktų.
