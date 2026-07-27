@@ -115,6 +115,7 @@ imip-bar-reply-to-not-existing-item = Denne meldingen inneholder et svar som ref
 
 ## Calendar email identity
 
+no-identity-selected-notification = Hvis du vil bruke denne kalenderen for å lagre invitasjoner til eller fra andre personer, skal du tildele en e-postidentitet nedenfor.
 
 ## Invitations panel
 
