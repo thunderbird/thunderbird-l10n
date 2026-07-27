@@ -105,6 +105,7 @@ imip-bar-reply-to-not-existing-item = Tuta powěsć wobsahuje wotmołwu, kotrež
 
 ## Calendar email identity
 
+no-identity-selected-notification = Jeli chceće tutu protyku wužiwać, zo byšće přeprošenja na abo wot ludźi składował, měł wy deleka e-mejlowu identitu připokazać.
 
 ## Invitations panel
 
