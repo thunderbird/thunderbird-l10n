@@ -136,6 +136,7 @@ week-title-label =
     .aria-label = Тыдзень { $title }
 calendar-none =
     .label = Няма
+imip-bar-unsupported-text = Гэта паведамленне змяшчае падзею, якую не можа апрацаваць гэта версія { -brand-short-name }.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none

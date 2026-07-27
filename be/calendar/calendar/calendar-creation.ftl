@@ -45,3 +45,6 @@ calendar-creation-network-notfound = Не атрымалася знайсці к
 calendar-creation-network-authfail = Уліковыя даныя, якія вы ўвялі, не былі прыняты. Калі ласка, праверце вашы налады.
 calendar-creation-network-subscribe-single = Калі ласка, выберыце календары, на якія жадаеце падпісацца.
 calendar-creation-network-subscribe-multiple = Па гэтым адрасе даступныя календары некалькіх тыпаў. Калі ласка, выберыце тып календара, а потом пазначце календары, на якія вы жадаеце падпісацца.
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = Увядзіце, калі ласка, ваш пароль для { $location }:
