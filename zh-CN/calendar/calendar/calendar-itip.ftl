@@ -115,6 +115,7 @@ imip-bar-reply-to-not-existing-item = 此消息包含一个回复，提及非您
 
 ## Calendar email identity
 
+no-identity-selected-notification = 如果您想用此日历来存储发给别人或别人寄来的邀请，请在下方指定用于这些邮件的身份。
 
 ## Invitations panel
 
