@@ -2,9 +2,19 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Tab titles
+calendar-tab-title-calendar = Kalendar
+calendar-tab-title-tasks = Zadaci
 
 ## Email invitation preview (HTML rendering of an iTIP invitation)
 
+imip-html-header = Pozivnica na događaj
+# Field labels of the invitation preview table.
+imip-html-summary = Naslov:
+imip-html-location = Lokacija:
+imip-html-when = Kada:
+imip-html-organizer = Organizator:
+imip-html-description = Opis:
 imip-html-attachments = Prilozi:
 imip-html-comment = Komentar:
 imip-html-attendees = Sudionici:
@@ -99,19 +109,60 @@ imip-bar-processed-multiple-needs-action = Ova poruka sadrži mnoge događaje na
 imip-bar-processed-series-needs-action = Ova poruka sadrži serije događaja na koje još niste odgovorili.
 imip-bar-reply-text = Poruka sadrži odgovor na pozivnicu.
 imip-bar-reply-to-not-existing-item = Poruka sadrži odgovor koji se odnosi na događaj koji nije u vašem kalendaru.
+# Variables:
+#   $deletionTime (String) - The formatted time the event was removed from the calendar.
+imip-bar-reply-to-recently-removed-item = Poruka sadrži odgovor koji se odnosi na događaj koji je uklonjen iz vašeg kalendara na { $deletionTime }.
+# Variables:
+#   $status (String) - The hexadecimal status code of the failed processing.
+imip-bar-processing-failed = Obrada poruke neuspješna. Status: { $status }.
+imip-bar-not-writable = Nije postavljen niti jedan kalendar za pozivnice s mogućnosti pisanja, provjerite postavke kalendara.
+imip-no-calendar-available = Nisu dostupni kalendari u koje se može pisati.
 
 ## Sending invitation emails
 
+imip-send-mail-title = Obavjest preko e-pošte
+imip-send-mail-text = Želite li sada poslati obavjest preko e-pošte?
 
 ## Calendar email identity
 
+imip-no-identity = Ništa
 no-identity-selected-notification = Ako želite da koristite ovaj kalendar da biste skladištili poslate i dobijene pozivnice od drugih ljudi, trebalo bi da mu dodjelite mejl identitet ispod.
 
 ## Invitations panel
 
+# Variables:
+#   $count (Number) - The number of pending invitations.
+invitations-link-label = Pozivnice: { $count }
 
 ## Process invitation confirmation prompt
 
+confirm-process-invitation = Nedavno ste izbrisali ovu stavku, jeste li sigurni da želite obraditi ovaj poziv?
+confirm-process-invitation-title = Obradi poziv?
 
 ## iTIP email subjects and bodies
 
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-request-body = { $organizer } vas je pozvao na { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-cancel-body = { $organizer } je otkazao ovaj događaj: { $summary }
+# Variables:
+#   $attendee (String) - The attendee who made the counterproposal.
+#   $summary (String) - The event title.
+itip-counter-body = { $attendee } je poslao protuprijedlog za "{ $summary }":
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-decline-counter-body = { $organizer } je odbio vaš protuprijedlog za "{ $summary }".
+# Variables:
+#   $summary (String) - The event title.
+itip-decline-counter-subject = Protuprijedlog odbijen: { $summary }
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-accept = { $attendee } je prihvatio vaš poziv na događaj.
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-decline = { $attendee } je odbio vaš poziv na događaj.
