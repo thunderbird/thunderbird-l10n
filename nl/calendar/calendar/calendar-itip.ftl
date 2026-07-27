@@ -109,19 +109,82 @@ imip-bar-processed-multiple-needs-action = Dit bericht bevat meerdere gebeurteni
 imip-bar-processed-series-needs-action = Dit bericht bevat een serie gebeurtenissen waarop u nog niet hebt gereageerd.
 imip-bar-reply-text = Dit bericht bevat een antwoord op een uitnodiging.
 imip-bar-reply-to-not-existing-item = Dit bericht bevat een antwoord dat naar een gebeurtenis verwijst die zich niet in uw agenda bevindt.
+# Variables:
+#   $deletionTime (String) - The formatted time the event was removed from the calendar.
+imip-bar-reply-to-recently-removed-item = Dit bericht bevat een antwoord dat naar een gebeurtenis verwijst die op { $deletionTime } uit uw agenda is verwijderd.
+# Variables:
+#   $status (String) - The hexadecimal status code of the failed processing.
+imip-bar-processing-failed = Verwerken van bericht mislukt. Status: { $status }.
+imip-bar-calendar-deactivated = Dit bericht bevat informatie over een afspraak. Schakel een agenda in om het te verwerken.
+imip-bar-not-writable = Er zijn geen schrijfbare agenda’s voor uitnodigingen geconfigureerd. Controleer de agenda-eigenschappen.
+imip-no-calendar-available = Er zijn geen schrijfbare agenda’s beschikbaar.
 
 ## Sending invitation emails
 
+imip-send-mail-title = E-mailnotificatie
+imip-send-mail-text = Wilt u nu een notificatie-e-mail versturen?
 
 ## Calendar email identity
 
+imip-no-identity = Geen
 no-identity-selected-notification = Als u deze agenda wilt gebruiken voor het opslaan van uitnodigingen naar of van andere mensen, dient u hieronder een e-mailidentiteit toe te wijzen.
 
 ## Invitations panel
 
+# Variables:
+#   $count (Number) - The number of pending invitations.
+invitations-link-label = Uitnodigingen: { $count }
 
 ## Process invitation confirmation prompt
 
+confirm-process-invitation = U hebt dit item onlangs verwijderd. Weet u zeker dat u deze uitnodiging wilt verwerken?
+confirm-process-invitation-title = Uitnodiging verwerken?
 
 ## iTIP email subjects and bodies
 
+# Variables:
+#   $summary (String) - The event title.
+itip-request-subject = Uitnodiging: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-request-updated-subject = Bijgewerkt: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-request-body = { $organizer } heeft u uitgenodigd voor { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-cancel-subject = Geannuleerd: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-cancel-body = { $organizer } heeft deze gebeurtenis geannuleerd: { $summary }
+# Variables:
+#   $attendee (String) - The attendee who made the counterproposal.
+#   $summary (String) - The event title.
+itip-counter-body = { $attendee } heeft een tegenvoorstel voor ‘{ $summary }’ gedaan:
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-decline-counter-body = { $organizer } heeft uw tegenvoorstel voor ‘{ $summary }’ geweigerd.
+# Variables:
+#   $summary (String) - The event title.
+itip-decline-counter-subject = Tegenvoorstel geweigerd: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject = Antwoord op uitnodiging: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-accept = Geaccepteerd: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-decline = Uitnodiging geweigerd: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-tentative = Voorlopig: { $summary }
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-accept = { $attendee } heeft uw uitnodiging voor de gebeurtenis geaccepteerd.
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-decline = { $attendee } heeft uw uitnodiging voor de gebeurtenis geweigerd.
