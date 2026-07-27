@@ -23,3 +23,6 @@ calendar-creation-network-notfound = Ne mogu pronaći kalendare na ovoj lokaciji
 calendar-creation-network-authfail = Uvjerenja koja ste unijeli nisu prihvaćena. Molimo provjerite vaše postavke.
 calendar-creation-network-subscribe-single = Molimo odaberite kalendare na koje se želite pretplatiti.
 calendar-creation-network-subscribe-multiple = Višestruki tipovi kalendara su dostupni za ovu lokaciju. Molimo odaberite tip kalendara, zatim označite kalendare na koje se želite pretplatiti.
+# Variables:
+# $location (String) - The calendar server location.
+calendar-creation-mapi-login-text = Unesite svoju lozinku za { $location }:
