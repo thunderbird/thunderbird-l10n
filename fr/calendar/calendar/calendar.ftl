@@ -160,7 +160,7 @@ calendar-none =
     .label = Aucune
 # Variables:
 #   $fileName (String) - The backup file name, e.g. 'local-2020-05-11T21-30-17.sqlite'.
-too-new-dbschema-error-text = Vos données d’agenda ne sont pas compatibles avec cette version de { -brand-short-name }. Les données d’agenda de votre profil ont été mises à jour par une version plus récente de { -brand-short-name }. Une sauvegarde du fichier de données a été créée, nommée « { $fileName } ». Continuer avec un nouveau fichier de données.
+too-new-dbschema-error-text = Les données de votre agenda ne sont pas compatibles avec cette version de { -brand-short-name }. Les données d’agenda de votre profil ont été mises à jour par une version plus récente de { -brand-short-name }. Une sauvegarde du fichier de données a été créée, nommée « { $fileName } ». Nous poursuivons avec un nouveau fichier de données.
 imip-bar-unsupported-text = Ce message contient un évènement que cette version de { -brand-short-name } ne peut pas traiter.
 # Error strings
 # @name UID_NOT_FOUND
