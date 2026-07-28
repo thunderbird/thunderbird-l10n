@@ -12,6 +12,15 @@ configured-cert-ok-sig = Сертификат прошел проверку и �
 configured-cert-failure-detail = Проверка сертификата не удалась из-за следующей ошибки: { $errorMsg } (Код ошибки: { $errorCodeStr })
 # $errorCode A numeric error code
 configured-cert-failure = Проверка сертификата не удалась, код ошибки { $errorCode }
+# Cryptographic details displayed in the message security popup
+smime-crypto-signature-algorithm = Алгоритм подписи:
+smime-crypto-digest-algorithm = Алгоритм дайджеста подписи:
+smime-crypto-cipher = Алгоритм шифрования:
+smime-crypto-key-encryption = Алгоритм шифрования ключа:
+# $algorithm - The encryption algorithm name (e.g. "AES-GCM")
+# $keySize - The key size in bits (e.g. "256")
+smime-crypto-cipher-with-key-size = { $algorithm } ({ $keySize }-битный)
+smime-crypto-details-summary = Алгоритмы
 # $errorMsg A sentence that explains the error.
 # $errorCodeStr A human readable error code, e.g. SEC_ERROR_UNKNOWN_ISSUER
 # Note the initial empty line is necessary to preserve the line breaks.

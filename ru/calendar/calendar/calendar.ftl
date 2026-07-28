@@ -160,6 +160,9 @@ week-title-label =
     .aria-label = Неделя { $title }
 calendar-none =
     .label = нет
+# Variables:
+#   $fileName (String) - The backup file name, e.g. 'local-2020-05-11T21-30-17.sqlite'.
+too-new-dbschema-error-text = Ваши данные календарей несовместимы с этой версией { -brand-short-name }. Данные календарей в вашем профиле были изменены более новой версией { -brand-short-name }. Была создана резервная копия файла данных с именем «{ $fileName }». Продолжим с только что созданным файлом данных.
 imip-bar-unsupported-text = Это письмо содержит событие, которое эта версия { -brand-short-name } не может обработать.
 # Error strings
 # @name UID_NOT_FOUND
@@ -1138,3 +1141,14 @@ event-recurrence-forever =
 attendees-tab-label = Участники ({ $count }):
 # $count - the number of attachments
 attachments-tab-label = Вложения ({ $count }):
+# Variables:
+#   $docTitle (String) - The date or view label for the current calendar view.
+calendar-window-title = { $docTitle } - { -brand-full-name }
+calendar-window-title-base = { -brand-full-name }
+# Variables:
+#   $username (String) - The account username.
+#   $location (String) - The calendar server location.
+calendar-auth-enter-password-for = Введите пароль для { $username } на { $location }
+# Variables:
+#   $location (String) - The calendar server location.
+calendar-auth-enter-user-password-for = { $location } запрашивает имя пользователя и пароль.

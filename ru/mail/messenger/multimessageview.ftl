@@ -13,6 +13,9 @@ multi-message-delete-button =
 multi-message-undelete-button =
     .label = Восстановить
     .tooltiptext = Восстановить
+multi-message-flagged-button =
+    .title = Звёздочка
+    .aria-label = Звёздочка
 # Variables:
 #   $count - total number of conversations (threads or solitary messages) selected
 num-conversations =
