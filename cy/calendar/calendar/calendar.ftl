@@ -164,7 +164,7 @@ calendar-none =
     .label = Dim
 # Variables:
 #   $fileName (String) - The backup file name, e.g. 'local-2020-05-11T21-30-17.sqlite'.
-too-new-dbschema-error-text = Nid yw eich data calendr yn gydnaws â'r fersiwn hwn o { -brand-short-name }. Diweddarwyd y data calendr yn eich proffil gan fersiwn mwy diweddar o { -brand-short-name }. Mae copi wrth gefn o'r ffeil ddata wedi'i greu, o'r enw “{ $fileName }”. Parhau gyda ffeil ddata newydd ei chreu.
+too-new-dbschema-error-text = Dyw eich data calendr ddim yn gydnaws â'r fersiwn hwn o { -brand-short-name }. Diweddarwyd y data calendr yn eich proffil gan fersiwn mwy diweddar o { -brand-short-name }. Mae copi wrth gefn o'r ffeil ddata wedi'i greu, o'r enw “{ $fileName }”. Yn parhau gyda ffeil ddata newydd ei chreu.
 imip-bar-unsupported-text = Mae'r neges yn cynnwys digwyddiad nad yw'r fersiwn yma o { -brand-short-name } yn gallu ei brosesu.
 # Error strings
 # @name UID_NOT_FOUND
