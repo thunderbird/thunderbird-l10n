@@ -14,6 +14,7 @@ configured-cert-failure-detail = Le verification del certificato falleva con le 
 configured-cert-failure = Le verification del certificato falleva con codice de error { $errorCode }
 # Cryptographic details displayed in the message security popup
 smime-crypto-signature-algorithm = Algorithmo de firma
+smime-crypto-digest-algorithm = Algorithmo de hachage del firma :
 smime-crypto-cipher = Algorithmo de cryptation:
 smime-crypto-key-encryption = Algorithmo de cryptation de clave:
 # $algorithm - The encryption algorithm name (e.g. "AES-GCM")
