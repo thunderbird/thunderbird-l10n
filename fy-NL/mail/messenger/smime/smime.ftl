@@ -12,6 +12,7 @@ configured-cert-ok-sig = It sertifikaat hat de test trochstien en kin brûkt wur
 configured-cert-failure-detail = De sertifikaatferifikaasje is mislearre mei de folgjende flater: { $errorMsg } (Flaterkoade: { $errorCodeStr })
 # $errorCode A numeric error code
 configured-cert-failure = De sertifikaatferifikaasje is mislearre mei flaterkoade { $errorCode }
+smime-crypto-details-summary = Algoritmen
 # $errorMsg A sentence that explains the error.
 # $errorCodeStr A human readable error code, e.g. SEC_ERROR_UNKNOWN_ISSUER
 # Note the initial empty line is necessary to preserve the line breaks.
