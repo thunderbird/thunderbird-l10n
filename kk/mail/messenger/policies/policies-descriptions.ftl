@@ -35,6 +35,7 @@ policy-DisableFormHistory = Іздеу және формалар тарихын 
 policy-DisableMasterPasswordCreation = Мәні true болса, мастер-парольді орнату мүмкін болмайды.
 policy-DisablePasswordReveal = Сақталған логиндерде парольдердің ашылуына жол бермеу.
 policy-DisableProfileImport = Басқа қолданбадан деректерді импорттау мәзір командасын сөндіру.
+policy-DisableQRExport = Тіркелгі параметрлері мен тіркелгі деректерін экспорттау үшін QR кодын жасауды сөндіріңіз.
 policy-DisableSafeMode = Қауіпсіз режимде қайта іске қосылу мүмкіндігін сөндіру. Ескерту: Қауіпсіз режиміне өту үшін Shift пернесін Windows-та тек Топтық Саясат көмегімен сөндіруге болады.
 policy-DisableSecurityBypass = Пайдаланушыға кейбір қауіпсіздік ескертулерді аттап кетуге рұқсат етпеу.
 policy-DisableSystemAddonUpdate = { -brand-short-name } үшін жүйелік қосымшаларды орнатуға және жаңартуға тыйым салу.

@@ -1130,3 +1130,10 @@ attachments-tab-label = Салынымдар ({ $count }):
 #   $docTitle (String) - The date or view label for the current calendar view.
 calendar-window-title = { $docTitle } - { -brand-full-name }
 calendar-window-title-base = { -brand-full-name }
+# Variables:
+#   $username (String) - The account username.
+#   $location (String) - The calendar server location.
+calendar-auth-enter-password-for = { $location } жеріндегі { $username } үшін паролін енгізіңіз
+# Variables:
+#   $location (String) - The calendar server location.
+calendar-auth-enter-user-password-for = { $location } сіздің пайдаланушы атын және паролін сұрап тұр.

@@ -230,6 +230,7 @@ account-hub-thundermail-button = Thundermail арқылы кіру
 account-hub-thundermail-divider-text = немесе
 account-hub-manual-config-imap-title = IMAP баптаулары
 account-hub-manual-config-pop3-title = POP3 баптаулары
+account-hub-manual-config-review-settings-title = Жаңартылған баптауларды қарап шығу
 account-hub-manual-config-incoming-legend = Кіріс сервері
 account-hub-manual-config-outgoing-legend = Шығыс сервері
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
@@ -237,6 +238,10 @@ account-hub-same-username-checkbox = Кіріс серверімен бірде�
 account-hub-protocol-imap = Құрылғылар арасында синхрондау
 account-hub-protocol-microsoft = Exchange немесе Microsoft 365
 account-hub-protocol-pop3 = Құрылғыға жүктеп алу
+account-hub-oauth-unsupported-title = Қосымша баптаулар қажет
+# Note: 'Advanced Configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
+# 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
+account-hub-oauth-unsupported-description = { -brand-short-name } бұл хост үшін OAuth2 автоматты түрде конфигурациялай алмайды. Тіркелгіні жасау үшін «Кеңейтілген конфигурация» тармағын таңдаңыз, содан кейін Тіркелгі параметрлерінен баптауды аяқтаңыз. <a data-l10n-name="oauth-support-link">OAuth2 баптау бойынша көмек алу.</a>
 account-hub-notification-show-more = Көбірек көрсету
 account-hub-notification-show-less = Азырақ көрсету
 account-hub-email-setup-header = Эл. пошта адресіңізді қосыңыз
@@ -301,6 +306,7 @@ account-hub-port-error-text = Порт 1 мен 65535 арасында болу�
     .title = Порт 1 мен 65535 арасында болуы керек
 account-hub-username-error-text = Пайдаланушы аты керек
     .title = Пайдаланушы аты керек
+account-hub-manual-config-error-summary = Келесі қателерді түзетіңіз:
 account-hub-oauth-pending = Жүйеге кіру қалқымалы терезесіндегі авторизация күтілуде…
 account-hub-addon-install-button = Орнату
 account-hub-addon-install-needed = { -brand-short-name } бұл серверді қолдамайды. Exchange электрондық поштасына кіру үшін <a data-l10n-name="addon-install">Owl (ақылы) сияқты үшінші жақты қосымшасын орнатыңыз.</a>
