@@ -76,7 +76,7 @@
 <!ENTITY lightning.imipbar.btnTentativeRecurrences2.tooltiptext "暫時接受重複的事件當中所有事件的邀請">
 <!ENTITY lightning.imipbar.btnUpdate.label "更新">
 <!ENTITY lightning.imipbar.btnUpdate.tooltiptext "更新行事曆中的活動">
-<!ENTITY lightning.imipbar.description "此郵件包含事件的邀請。">
+<!ENTITY lightning.imipbar.description "此訊息包含事件的邀請。">
 <!ENTITY lightning.imipbar.btnSend.label "立刻傳送回覆">
 <!ENTITY lightning.imipbar.btnSend.tooltiptext "立刻傳送回覆給主辦人">
 <!ENTITY lightning.imipbar.btnSendSeries.tooltiptext "立刻傳送整個系列的回覆給主辦人">

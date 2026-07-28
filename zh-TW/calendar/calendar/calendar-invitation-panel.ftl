@@ -4,9 +4,9 @@
 
 calendar-invitation-panel-status-new = 您已受邀參加此事件。
 calendar-invitation-panel-status-processed = 此事件已存在於您的行事曆。
-calendar-invitation-panel-status-updateminor = 本訊息中包含此事件的更新內容。
-calendar-invitation-panel-status-updatemajor = 本訊息包含此事件的更新內容，您可重新確認是否出席。
-calendar-invitation-panel-status-cancelled = 本訊息中包含此事件的取消資訊。
+calendar-invitation-panel-status-updateminor = 此訊息包含此事件的更新內容。
+calendar-invitation-panel-status-updatemajor = 此訊息包含此事件的更新內容，請重新確認是否出席。
+calendar-invitation-panel-status-cancelled = 此訊息包含此事件的取消資訊。
 calendar-invitation-panel-status-cancelled-notfound = 此訊息包含不在您行事曆當中的事件的取消資訊。
 # Variables:
 # $organizer (String) - The participant that cancelled the invitation.
