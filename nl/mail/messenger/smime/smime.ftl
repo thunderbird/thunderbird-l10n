@@ -12,6 +12,7 @@ configured-cert-ok-sig = Het certificaat heeft de test doorstaan en kan worden g
 configured-cert-failure-detail = De certificaatverificatie is mislukt met de volgende fout: { $errorMsg } (Foutcode: { $errorCodeStr })
 # $errorCode A numeric error code
 configured-cert-failure = De certificaatverificatie is mislukt met foutcode { $errorCode }
+smime-crypto-details-summary = Algoritmes
 # $errorMsg A sentence that explains the error.
 # $errorCodeStr A human readable error code, e.g. SEC_ERROR_UNKNOWN_ISSUER
 # Note the initial empty line is necessary to preserve the line breaks.

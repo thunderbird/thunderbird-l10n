@@ -13,6 +13,9 @@ multi-message-delete-button =
 multi-message-undelete-button =
     .label = Verwijderen ongedaan maken
     .tooltiptext = Verwijderen ongedaan maken
+multi-message-flagged-button =
+    .title = Met ster
+    .aria-label = Met ster
 # Variables:
 #   $count - total number of conversations (threads or solitary messages) selected
 num-conversations =
