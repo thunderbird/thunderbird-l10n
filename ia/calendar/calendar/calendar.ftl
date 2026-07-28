@@ -158,6 +158,9 @@ week-title-label =
     .aria-label = Septimana: { $title }
 calendar-none =
     .label = Nulle
+# Variables:
+#   $fileName (String) - The backup file name, e.g. 'local-2020-05-11T21-30-17.sqlite'.
+too-new-dbschema-error-text = Le datos de tu agenda non es compatibile con iste version de { -brand-short-name }. Le datos de agenda in tu profilo ha essite actualisate per un nove version de { -brand-short-name }. Un file de reservation del datos ha essite create, appellate "{ $fileName }". Nos continua con un nove file de datos.
 imip-bar-unsupported-text = Ce message contine un evento que iste version de { -brand-short-name } non pote processar.
 # Error strings
 # @name UID_NOT_FOUND
