@@ -230,6 +230,7 @@ account-hub-thundermail-button = Z Thundermail přizjewić
 account-hub-thundermail-divider-text = abo
 account-hub-manual-config-imap-title = Nastajenja IMAP
 account-hub-manual-config-pop3-title = Nastajenja POP3
+account-hub-manual-config-review-settings-title = Zaktualizowane nastajenja přepruwować
 account-hub-manual-config-incoming-legend = Dochadny serwer
 account-hub-manual-config-outgoing-legend = Wuchadny serwer
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
