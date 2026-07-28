@@ -230,6 +230,7 @@ account-hub-thundermail-button = Mit Thundermail anmelden
 account-hub-thundermail-divider-text = oder
 account-hub-manual-config-imap-title = IMAP-Einstellungen
 account-hub-manual-config-pop3-title = POP3-Einstellungen
+account-hub-manual-config-review-settings-title = Aktualisierte Einstellungen überprüfen
 account-hub-manual-config-incoming-legend = Posteingangs-Server
 account-hub-manual-config-outgoing-legend = Postausgangs-Server
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
@@ -237,6 +238,10 @@ account-hub-same-username-checkbox = Gleicher Benutzername wie Posteingangs-Serv
 account-hub-protocol-imap = Zwischen allen Geräten synchronisieren
 account-hub-protocol-microsoft = Exchange oder Microsoft 365
 account-hub-protocol-pop3 = Auf Gerät herunterladen
+account-hub-oauth-unsupported-title = Zusätzliche Konfiguration ist erforderlich
+# Note: 'Advanced Configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
+# 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
+account-hub-oauth-unsupported-description = { -brand-short-name } kann OAuth2 für diesen Hostnamen nicht automatisch konfigurieren. Wählen Sie Erweiterte Konfiguration, um das Konto zu erstellen, schließen Sie dann die Einrichtung in den Konto-Einstellungen ab. <a data-l10n-name="oauth-support-link">Holen Sie sich Hilfe bei der OAuth2-Einrichtung.</a>
 account-hub-notification-show-more = Mehr anzeigen
 account-hub-notification-show-less = Weniger anzeigen
 account-hub-email-setup-header = Fügen Sie Ihre E-Mail-Adresse hinzu
@@ -301,6 +306,7 @@ account-hub-port-error-text = Port muss zwischen 1 und 65535 liegen
     .title = Port muss zwischen 1 und 65535 liegen
 account-hub-username-error-text = Benutzername ist erforderlich
     .title = Benutzername ist erforderlich
+account-hub-manual-config-error-summary = Bitte beheben Sie die folgenden Fehler:
 account-hub-oauth-pending = Warten auf Autorisierung im Anmelde-Popup…
 account-hub-addon-install-button = Installieren
 account-hub-addon-install-needed = { -brand-short-name } unterstützt diesen Server nicht nativ. Um auf Exchange-E-Mail-Adressen zuzugreifen, <a data-l10n-name="addon-install">installieren Sie das Add-on eines Drittanbieters wie Owl (kostenpflichtig).</a>
