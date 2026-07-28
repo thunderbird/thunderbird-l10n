@@ -212,7 +212,7 @@ exit-dialog-confirm-button = Κλείσιμο ρύθμισης
 
 account-setup-creation-error-title = Σφάλμα δημιουργίας λογαριασμού
 account-setup-error-server-exists = Ο διακομιστής εισερχομένων υπάρχει ήδη.
-account-setup-confirm-advanced-title = Επιβεβαίωση σύνθετων ρυθμίσεων
+account-setup-confirm-advanced-title = Επιβεβαίωση σύνθετης διαμόρφωσης
 account-setup-confirm-advanced-description = Αυτό το παράθυρο διαλόγου θα κλείσει και θα δημιουργηθεί ένας λογαριασμός με τις τρέχουσες ρυθμίσεις, ακόμη και αν η ρύθμιση παραμέτρων είναι εσφαλμένη. Θέλετε να συνεχίσετε;
 
 ## Addon installation section

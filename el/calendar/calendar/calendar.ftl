@@ -158,6 +158,9 @@ week-title-label =
     .aria-label = Εβδομάδα { $title }
 calendar-none =
     .label = Κανένα
+# Variables:
+#   $fileName (String) - The backup file name, e.g. 'local-2020-05-11T21-30-17.sqlite'.
+too-new-dbschema-error-text = Τα δεδομένα ημερολογίου σας δεν είναι συμβατά με τη συγκεκριμένη έκδοση του { -brand-short-name }. Τα δεδομένα ημερολογίου στο προφίλ σας ενημερώθηκαν από μια νεότερη έκδοση του { -brand-short-name }. Δημιουργήθηκε ένα αντίγραφο ασφαλείας του αρχείου δεδομένων, με όνομα «{ $fileName }». Η διαδικασία θα συνεχίσει με ένα νέο αρχείο δεδομένων.
 imip-bar-unsupported-text = Αυτό το μήνυμα περιέχει εκδήλωση που αυτή η έκδοση του { -brand-short-name } δεν μπορεί να επεξεργαστεί.
 # Error strings
 # @name UID_NOT_FOUND
@@ -1120,3 +1123,14 @@ event-recurrence-forever =
 attendees-tab-label = Συμμετέχοντες ({ $count }):
 # $count - the number of attachments
 attachments-tab-label = Συνημμένα ({ $count }):
+# Variables:
+#   $docTitle (String) - The date or view label for the current calendar view.
+calendar-window-title = { $docTitle } - { -brand-full-name }
+calendar-window-title-base = { -brand-full-name }
+# Variables:
+#   $username (String) - The account username.
+#   $location (String) - The calendar server location.
+calendar-auth-enter-password-for = Εισαγάγετε τον κωδικό πρόσβασης για το { $username } στο { $location }
+# Variables:
+#   $location (String) - The calendar server location.
+calendar-auth-enter-user-password-for = Το { $location } ζητά το όνομα χρήστη και τον κωδικό πρόσβασής σας.

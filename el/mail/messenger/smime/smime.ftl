@@ -12,6 +12,15 @@ configured-cert-ok-sig = Το πιστοποιητικό πέρασε τη δο�
 configured-cert-failure-detail = Η επαλήθευση του πιστοποιητικού απέτυχε με το εξής σφάλμα: { $errorMsg } (Κωδικός σφάλματος: { $errorCodeStr })
 # $errorCode A numeric error code
 configured-cert-failure = Η επαλήθευση του πιστοποιητικού απέτυχε με κωδικό σφάλματος { $errorCode }
+# Cryptographic details displayed in the message security popup
+smime-crypto-signature-algorithm = Αλγόριθμος υπογραφής:
+smime-crypto-digest-algorithm = Αλγόριθμος σύνοψης υπογραφής:
+smime-crypto-cipher = Αλγόριθμος κρυπτογράφησης:
+smime-crypto-key-encryption = Αλγόριθμος κρυπτογράφησης κλειδιού:
+# $algorithm - The encryption algorithm name (e.g. "AES-GCM")
+# $keySize - The key size in bits (e.g. "256")
+smime-crypto-cipher-with-key-size = { $algorithm } ({ $keySize }-bit)
+smime-crypto-details-summary = Αλγόριθμοι
 # $errorMsg A sentence that explains the error.
 # $errorCodeStr A human readable error code, e.g. SEC_ERROR_UNKNOWN_ISSUER
 # Note the initial empty line is necessary to preserve the line breaks.

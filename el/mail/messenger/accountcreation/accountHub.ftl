@@ -219,7 +219,7 @@ account-hub-advanced-setup-button = Σύνθετη διαμόρφωση
 account-hub-exchange-dialog-question = Το { -brand-short-name } βρήκε τις πληροφορίες ρύθμισης του λογαριασμού σας στο { $domain }. Θέλετε να συνεχίσετε και να υποβάλετε τα διαπιστευτήριά σας;
 account-hub-creation-error-title = Σφάλμα δημιουργίας λογαριασμού
 account-hub-error-server-exists = Ο διακομιστής εισερχομένων υπάρχει ήδη.
-account-hub-confirm-advanced-title = Επιβεβαίωση σύνθετων ρυθμίσεων
+account-hub-confirm-advanced-title = Επιβεβαίωση σύνθετης διαμόρφωσης
 account-hub-confirm-advanced-description = Αυτό το παράθυρο διαλόγου θα κλείσει και θα δημιουργηθεί ένας λογαριασμός με τις τρέχουσες ρυθμίσεις, ακόμη και αν η ρύθμιση παραμέτρων είναι εσφαλμένη. Θέλετε να συνεχίσετε;
 account-hub-addon-install-title = Εγκατάσταση
 account-hub-encryption-button = Διατερματική κρυπτογράφηση
@@ -230,6 +230,7 @@ account-hub-thundermail-button = Σύνδεση μέσω Thundermail
 account-hub-thundermail-divider-text = ή
 account-hub-manual-config-imap-title = Ρυθμίσεις IMAP
 account-hub-manual-config-pop3-title = Ρυθμίσεις POP3
+account-hub-manual-config-review-settings-title = Έλεγχος ενημερωμένων ρυθμίσεων
 account-hub-manual-config-incoming-legend = Διακομιστής εισερχομένων
 account-hub-manual-config-outgoing-legend = Διακομιστής εξερχομένων
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
@@ -237,6 +238,10 @@ account-hub-same-username-checkbox = Ίδιο όνομα χρήστη με το�
 account-hub-protocol-imap = Συγχρονισμός ανάμεσα σε συσκευές
 account-hub-protocol-microsoft = Exchange ή Microsoft 365
 account-hub-protocol-pop3 = Λήψη σε συσκευή
+account-hub-oauth-unsupported-title = Απαιτείται επιπρόσθετη ρύθμιση
+# Note: 'Advanced Configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
+# 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
+account-hub-oauth-unsupported-description = Το { -brand-short-name } δεν μπορεί να ρυθμίσει αυτόματα το OAuth2 για αυτό το όνομα κεντρικού υπολογιστή. Επιλέξτε «Σύνθετη διαμόρφωση» για να δημιουργήσετε τον λογαριασμό και έπειτα, ολοκληρώστε τη ρύθμιση από τις Ρυθμίσεις λογαριασμού. <a data-l10n-name="oauth-support-link">Λάβετε βοήθεια με τη ρύθμιση του OAuth2.</a>
 account-hub-notification-show-more = Εμφάνιση περισσότερων
 account-hub-notification-show-less = Εμφάνιση λιγότερων
 account-hub-email-setup-header = Προσθήκη διεύθυνσης email
@@ -301,6 +306,7 @@ account-hub-port-error-text = Η τιμή της θύρας πρέπει να ε
     .title = Η τιμή της θύρας πρέπει να είναι μεταξύ 1 και 65535
 account-hub-username-error-text = Απαιτείται όνομα χρήστη
     .title = Απαιτείται όνομα χρήστη
+account-hub-manual-config-error-summary = Επιλύστε τα ακόλουθα σφάλματα:
 account-hub-oauth-pending = Αναμονή για πιστοποίηση στο αναδυόμενο παράθυρο σύνδεσης…
 account-hub-addon-install-button = Εγκατάσταση
 account-hub-addon-install-needed = Το { -brand-short-name } δεν υποστηρίζει εγγενώς αυτόν τον διακομιστή. Για να αποκτήσετε πρόσβαση στην αλληλογραφία Exchange, <a data-l10n-name="addon-install">εγκαταστήστε ένα πρόσθετο τρίτου κατασκευαστή, όπως το Owl (επί πληρωμή).</a>

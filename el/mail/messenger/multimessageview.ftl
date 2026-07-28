@@ -13,6 +13,9 @@ multi-message-delete-button =
 multi-message-undelete-button =
     .label = Αναίρεση διαγραφής
     .tooltiptext = Αναίρεση διαγραφής
+multi-message-flagged-button =
+    .title = Με αστέρι
+    .aria-label = Με αστέρι
 # Variables:
 #   $count - total number of conversations (threads or solitary messages) selected
 num-conversations =
