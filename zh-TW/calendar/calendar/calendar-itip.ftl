@@ -111,7 +111,7 @@ imip-bar-reply-text = 此郵件包含對邀請的回覆。
 imip-bar-reply-to-not-existing-item = 此訊息包含提到不在您行事曆當中的活動的回覆資訊。
 # Variables:
 #   $deletionTime (String) - The formatted time the event was removed from the calendar.
-imip-bar-reply-to-recently-removed-item = 此訊息包含提到您在 { $deletionTime } 的活動自行事曆移除的回覆資訊。
+imip-bar-reply-to-recently-removed-item = 此訊息包含您在 { $deletionTime } 從行事曆移除之活動的回覆。
 # Variables:
 #   $status (String) - The hexadecimal status code of the failed processing.
 imip-bar-processing-failed = 郵件處理失敗。狀態：{ $status }。
@@ -122,7 +122,7 @@ imip-no-calendar-available = 目前沒有可寫入的行事曆。
 ## Sending invitation emails
 
 imip-send-mail-title = 電子郵件通知
-imip-send-mail-text = 您想要現在就用電子郵件寄出通知嗎?
+imip-send-mail-text = 您想要現在就寄出通知郵件嗎？
 
 ## Calendar email identity
 

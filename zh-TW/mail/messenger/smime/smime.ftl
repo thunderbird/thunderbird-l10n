@@ -13,13 +13,13 @@ configured-cert-failure-detail = 憑證驗證失敗，錯誤如下：{ $errorMsg
 # $errorCode A numeric error code
 configured-cert-failure = 憑證驗證失敗，錯誤代碼：{ $errorCode }
 # Cryptographic details displayed in the message security popup
-smime-crypto-signature-algorithm = 簽章演算法:
-smime-crypto-digest-algorithm = 簽章摘要演算法:
-smime-crypto-cipher = 加密演算法:
-smime-crypto-key-encryption = 金鑰加密演算法:
+smime-crypto-signature-algorithm = 簽章演算法：
+smime-crypto-digest-algorithm = 簽章摘要演算法：
+smime-crypto-cipher = 加密演算法：
+smime-crypto-key-encryption = 金鑰加密演算法：
 # $algorithm - The encryption algorithm name (e.g. "AES-GCM")
 # $keySize - The key size in bits (e.g. "256")
-smime-crypto-cipher-with-key-size = { $algorithm }{ $keySize } 位元
+smime-crypto-cipher-with-key-size = { $algorithm }（{ $keySize } 位元）
 smime-crypto-details-summary = 演算法
 # $errorMsg A sentence that explains the error.
 # $errorCodeStr A human readable error code, e.g. SEC_ERROR_UNKNOWN_ISSUER

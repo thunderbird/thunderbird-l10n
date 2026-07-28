@@ -230,7 +230,7 @@ account-hub-thundermail-button = 使用 Thundermail 登入
 account-hub-thundermail-divider-text = 或
 account-hub-manual-config-imap-title = IMAP 選項
 account-hub-manual-config-pop3-title = POP3 選項
-account-hub-manual-config-review-settings-title = 確認更新後的設定值
+account-hub-manual-config-review-settings-title = 確認更新後的設定
 account-hub-manual-config-incoming-legend = 收件伺服器
 account-hub-manual-config-outgoing-legend = 寄件伺服器
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
@@ -241,7 +241,7 @@ account-hub-protocol-pop3 = 下載到裝置
 account-hub-oauth-unsupported-title = 需要額外設定
 # Note: 'Advanced Configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
-account-hub-oauth-unsupported-description = { -brand-short-name } 無法為此主機名稱自動設定 OAuth2。選擇進階設定來註冊帳號然後到帳號設定當中完成設定。 <a data-l10n-name="oauth-support-link">取得 OAuth2 的設定協助。</a>
+account-hub-oauth-unsupported-description = { -brand-short-name } 無法為此主機名稱自動設定 OAuth2。請選擇「進階設定」來建立帳號，然後到「帳號設定」當中完成設定。<a data-l10n-name="oauth-support-link">取得 OAuth2 的設定協助。</a>
 account-hub-notification-show-more = 顯示更多
 account-hub-notification-show-less = 顯示更少
 account-hub-email-setup-header = 新增您的電子郵件地址
@@ -305,7 +305,7 @@ account-hub-port-error-text = 通訊埠必須在 1 到 65535 之間
     .title = 通訊埠必須在 1 到 65535 之間
 account-hub-username-error-text = 必須輸入使用者名稱
     .title = 必須輸入使用者名稱
-account-hub-manual-config-error-summary = 請修正下列錯誤:
+account-hub-manual-config-error-summary = 請修正下列錯誤：
 account-hub-oauth-pending = 正在等待登入視窗中的授權結果…
 account-hub-addon-install-button = 安裝
 account-hub-addon-install-needed = { -brand-short-name } 本身不支援此伺服器。若要存取 Exchange 郵件，請<a data-l10n-name="addon-install">安裝 Owl 等第三方附加元件（須付費）。</a>
