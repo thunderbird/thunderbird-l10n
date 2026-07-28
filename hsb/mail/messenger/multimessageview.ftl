@@ -13,6 +13,9 @@ multi-message-delete-button =
 multi-message-undelete-button =
     .label = Wobnowić
     .tooltiptext = Wobnowić
+multi-message-flagged-button =
+    .title = Z hwěžku
+    .aria-label = Z hwěžku
 # Variables:
 #   $count - total number of conversations (threads or solitary messages) selected
 num-conversations =

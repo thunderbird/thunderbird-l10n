@@ -35,6 +35,7 @@ policy-DisableFormHistory = Pytansku a formularnu historiju sej njespomjatkować
 policy-DisableMasterPasswordCreation = Jeli to trjechi, njeda so hłowne hesło wutworić.
 policy-DisablePasswordReveal = Njedowolić, zo so hesła w składowanych přizjewjenjach pokazuja
 policy-DisableProfileImport = Menijowy přikaz za importowanje datow z druheho nałoženja znjemóžnić.
+policy-DisableQRExport = Znjemóžńće generowanje QR-koda, zo byšće kontowe nastajenja a přizjewjenske daty eksportował.
 policy-DisableSafeMode = Funkciju za znowastartowanje we wěstym modusu znjemóžnić. Kedźbu: Tasta Umsch, z kotrejž k wěstemu modusej přeńdźeće, da so jenož pod Windowsom z pomocu skupinskich prawidłow znjemóžnić.
 policy-DisableSecurityBypass = Wužiwarja při wobeńdźenju wěstych wěstotnych warnowanjow haćić.
 policy-DisableSystemAddonUpdate = { -brand-short-name } při instalowanju a aktualizowanju systemowych přidatkow haćić.

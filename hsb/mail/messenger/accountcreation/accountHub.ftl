@@ -238,6 +238,7 @@ account-hub-same-username-checkbox = Samsne wužiwarske mjeno jako dochadny serw
 account-hub-protocol-imap = Synchronizacija mjez gratami
 account-hub-protocol-microsoft = Exchange abo Microsoft 365
 account-hub-protocol-pop3 = Na grat sćahnyć
+account-hub-oauth-unsupported-title = Přidatna konfiguracija je trěbna
 account-hub-notification-show-more = Wjace pokazać
 account-hub-notification-show-less = Mjenje pokazać
 account-hub-email-setup-header = Přidajće swoju e-mejlowu adresu
@@ -304,6 +305,7 @@ account-hub-port-error-text = Port dyrbi mjez 1 a 65535 być
     .title = Port dyrbi mjez 1 a 65535 być
 account-hub-username-error-text = Wužiwarske mjeno je trěbne
     .title = Wužiwarske mjeno je trěbne
+account-hub-manual-config-error-summary = Prošu rozrisajće slědowace zmylki:
 account-hub-oauth-pending = Čaka so za awtorizaciju we wuskakowacym woknje přizjewjenja…
 account-hub-addon-install-button = Instalować
 account-hub-addon-install-needed = { -brand-short-name } wot doma tutón serwer njepodpěruje. Zo by přistup k e-mejli Exchange měł, <a data-l10n-name="addon-install">instalujće přidatk třećeho poskićowarja kaž Owl (płaćomny).</a>
