@@ -230,7 +230,7 @@ account-hub-thundermail-button = Se connecter avec Thundermail
 account-hub-thundermail-divider-text = ou
 account-hub-manual-config-imap-title = Paramètres IMAP
 account-hub-manual-config-pop3-title = Paramètres POP3
-account-hub-manual-config-review-settings-title = Vérifier les paramètres mis à jour
+account-hub-manual-config-review-settings-title = Vérifiez les paramètres mis à jour
 account-hub-manual-config-incoming-legend = Serveur entrant
 account-hub-manual-config-outgoing-legend = Serveur sortant
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
@@ -241,7 +241,7 @@ account-hub-protocol-pop3 = Téléchargement sur l’appareil
 account-hub-oauth-unsupported-title = Une configuration supplémentaire est nécessaire
 # Note: 'Advanced Configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
-account-hub-oauth-unsupported-description = { -brand-short-name } ne peut pas configurer automatiquement OAuth2 pour ce nom d’hôte. Sélectionnez Configuration avancée pour créer le compte, puis terminez la configuration à partir des paramètres du compte. <a data-l10n-name="oauth-support-link">Obtenez de l’aide pour la configuration d’OAuth2.</a>
+account-hub-oauth-unsupported-description = { -brand-short-name } ne peut pas configurer automatiquement OAuth2 pour ce nom d’hôte. Choisissez Configuration avancée pour créer le compte, puis finalisez la configuration dans les paramètres du compte. <a data-l10n-name="oauth-support-link">Obtenez de l’aide pour la configuration d’OAuth2.</a>
 account-hub-notification-show-more = Afficher plus
 account-hub-notification-show-less = Afficher moins
 account-hub-email-setup-header = Ajoutez votre adresse e-mail
