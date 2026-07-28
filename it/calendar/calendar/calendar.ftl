@@ -160,7 +160,7 @@ calendar-none =
     .label = Nessuna
 # Variables:
 #   $fileName (String) - The backup file name, e.g. 'local-2020-05-11T21-30-17.sqlite'.
-too-new-dbschema-error-text = I dati del tuo calendario non sono compatibili con questa versione di { -brand-short-name }. I dati del calendario nel tuo profilo sono stati aggiornati con una versione più recente di { -brand-short-name }. È stato creato un backup del file di dati, denominato “{ $fileName }”. Proseguimento con un file di dati appena creato.
+too-new-dbschema-error-text = I dati del calendario non sono compatibili con questa versione di { -brand-short-name }. Il calendario nel tuo profilo è stato aggiornato da una versione più recente di { -brand-short-name }. È stato creato un backup del file dei dati, chiamato “{ $fileName }”. Verrà utilizzato un nuovo file di dati.
 imip-bar-unsupported-text = Questo messaggio contiene un evento che questa versione di { -brand-short-name } non può processare.
 # Error strings
 # @name UID_NOT_FOUND

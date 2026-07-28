@@ -14,9 +14,9 @@ configured-cert-failure-detail = La verifica del certificato non è riuscita con
 configured-cert-failure = Verifica del certificato non riuscita con codice di errore { $errorCode }
 # Cryptographic details displayed in the message security popup
 smime-crypto-signature-algorithm = Algoritmo di firma:
-smime-crypto-digest-algorithm = Algoritmo Signature Digest:
+smime-crypto-digest-algorithm = Algoritmo di firma digest:
 smime-crypto-cipher = Algoritmo di crittografia:
-smime-crypto-key-encryption = Algoritmo Key Encryption:
+smime-crypto-key-encryption = Algoritmo di crittografia chiave:
 # $algorithm - The encryption algorithm name (e.g. "AES-GCM")
 # $keySize - The key size in bits (e.g. "256")
 smime-crypto-cipher-with-key-size = { $algorithm } ({ $keySize } bit)
