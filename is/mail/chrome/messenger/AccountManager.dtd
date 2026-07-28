@@ -13,7 +13,7 @@
 <!ENTITY addIMAccountButton.accesskey "s">
 <!ENTITY addFeedAccountButton.label "Bæta við streymisreikningi…">
 <!ENTITY addFeedAccountButton.accesskey "f">
-<!ENTITY setDefaultButton.label "Setja sem sjálfgefinn">
+<!ENTITY setDefaultButton.label "Setja sem sjálfgefið">
 <!ENTITY setDefaultButton.accesskey "f">
 <!ENTITY removeButton.label "Fjarlægja reikning">
 <!ENTITY removeButton.accesskey "r">

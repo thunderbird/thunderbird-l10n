@@ -1120,3 +1120,14 @@ event-recurrence-forever =
 attendees-tab-label = Þátttakendur ({ $count }):
 # $count - the number of attachments
 attachments-tab-label = Viðhengi ({ $count }):
+# Variables:
+#   $docTitle (String) - The date or view label for the current calendar view.
+calendar-window-title = { $docTitle } - { -brand-full-name }
+calendar-window-title-base = { -brand-full-name }
+# Variables:
+#   $username (String) - The account username.
+#   $location (String) - The calendar server location.
+calendar-auth-enter-password-for = Settu inn lykilorð fyrir { $username } á { $location }
+# Variables:
+#   $location (String) - The calendar server location.
+calendar-auth-enter-user-password-for = { $location } er að biðja um notandanafn og lykilorð.

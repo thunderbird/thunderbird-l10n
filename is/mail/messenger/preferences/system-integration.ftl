@@ -4,7 +4,7 @@
 
 system-integration-dialog-title = Samþætting kerfis
 system-integration-dialog =
-    .buttonlabelaccept = Setja sem sjálfgefinn
+    .buttonlabelaccept = Setja sem sjálfgefið
     .buttonlabelcancel = Sleppa samþættingu
     .buttonlabelcancel2 = Hætta við
 default-client-intro = Nota { -brand-short-name } sem sjálfgefið forrit fyrir:

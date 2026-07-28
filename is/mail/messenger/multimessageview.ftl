@@ -13,6 +13,9 @@ multi-message-delete-button =
 multi-message-undelete-button =
     .label = Afturkalla eyðingu
     .tooltiptext = Afturkalla eyðingu
+multi-message-flagged-button =
+    .title = Stjörnumerkt
+    .aria-label = Stjörnumerkt
 # Variables:
 #   $count - total number of conversations (threads or solitary messages) selected
 num-conversations =
