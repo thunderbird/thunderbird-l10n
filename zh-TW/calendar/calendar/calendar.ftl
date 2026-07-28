@@ -156,7 +156,7 @@ calendar-none =
     .label = 無
 # Variables:
 #   $fileName (String) - The backup file name, e.g. 'local-2020-05-11T21-30-17.sqlite'.
-too-new-dbschema-error-text = 您的行事歷資料與此版本的 { -brand-short-name } 不相容。您個人資料當中的行事歷資料被較新版本的 { -brand-short-name } 所更新。已建立資料檔名為「{ $fileName }」的備份。使用已建立的資料檔繼續。
+too-new-dbschema-error-text = 您的行事曆設定檔資料已被新版 { -brand-short-name } 更新，與這個版本的 { -brand-short-name } 不相容。已建立名為「{ $fileName }」的備份資料，並使用新建立的資料檔案繼續。
 imip-bar-unsupported-text = 此訊息包含這個版本的 { -brand-short-name } 無法處理的事件資訊。
 # Error strings
 # @name UID_NOT_FOUND

@@ -14,13 +14,13 @@ imip-html-summary = 標題：
 imip-html-location = 位置：
 imip-html-when = 時間：
 imip-html-organizer = 召集人：
-imip-html-description = 說明:
-imip-html-attachments = 附件:
-imip-html-comment = 註解:
+imip-html-description = 說明：
+imip-html-attachments = 附件：
+imip-html-comment = 註解：
 imip-html-attendees = 與會者：
-imip-html-url = 相關鏈結:
-imip-html-canceled-occurrences = 已取消的事件:
-imip-html-modified-occurrences = 已修改的事件:
+imip-html-url = 相關鏈結：
+imip-html-canceled-occurrences = 已取消的事件：
+imip-html-modified-occurrences = 已修改的事件：
 # Variables:
 #   $location (String) - The new location of a modified occurrence.
 imip-html-new-location = 新位置：{ $location }
@@ -57,7 +57,7 @@ imip-html-attendee-part-stat-declined = { $attendee } 已拒絕出席。
 # Variables:
 #   $attendee (String) - Common name or email address of the attendee.
 #   $delegatees (String) - A single delegatee or a comma separated list of delegatees.
-imip-html-attendee-part-stat-delegated = { $attendee } 已指派他人參與 { $delegatees }。
+imip-html-attendee-part-stat-delegated = { $attendee } 已指派 { $delegatees } 參與。
 # Variables:
 #   $attendee (String) - Common name or email address of the attendee.
 imip-html-attendee-part-stat-needs-action = 需要回覆 { $attendee }。
