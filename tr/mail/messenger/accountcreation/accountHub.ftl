@@ -230,6 +230,7 @@ account-hub-thundermail-button = Thundermail ile giriş yapın
 account-hub-thundermail-divider-text = veya
 account-hub-manual-config-imap-title = IMAP Ayarları
 account-hub-manual-config-pop3-title = POP3 Ayarları
+account-hub-manual-config-review-settings-title = Güncellenmiş ayarları inceleyin
 account-hub-manual-config-incoming-legend = Gelen sunucusu
 account-hub-manual-config-outgoing-legend = Giden sunucusu
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
@@ -237,6 +238,7 @@ account-hub-same-username-checkbox = Gelen sunucusuyla aynı kullanıcı adı
 account-hub-protocol-imap = Cihazlar arasında eşitle
 account-hub-protocol-microsoft = Exchange veya Microsoft 365
 account-hub-protocol-pop3 = Cihaza indir
+account-hub-oauth-unsupported-title = Ek yapılandırma gerekiyor
 account-hub-notification-show-more = Daha fazla göster
 account-hub-notification-show-less = Daha az göster
 account-hub-email-setup-header = E-posta adresinizi ekleyin
@@ -301,6 +303,7 @@ account-hub-port-error-text = Port 1 ile 65535 arasında olmalıdır
     .title = Port 1 ile 65535 arasında olmalıdır
 account-hub-username-error-text = Kullanıcı adı gerekli
     .title = Kullanıcı adı gerekli
+account-hub-manual-config-error-summary = Lütfen aşağıdaki hataları giderin:
 account-hub-oauth-pending = Giriş penceresinde kimliğinizi doğrulamanız bekleniyor…
 account-hub-addon-install-button = Yükle
 account-hub-addon-install-needed = { -brand-short-name } bu sunucuyu kendi başına desteklemiyor. Exchange e-postalarınıza erişmek için <a data-l10n-name="addon-install">Owl (ücretli) gibi bir üçüncü taraf eklentisi yükleyebilirsiniz.</a>

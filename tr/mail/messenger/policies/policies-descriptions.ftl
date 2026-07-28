@@ -35,6 +35,7 @@ policy-DisableFormHistory = Arama ve form geçmişini hatırlama.
 policy-DisableMasterPasswordCreation = True olarak ayarlanırsa ana parola oluşturulamaz.
 policy-DisablePasswordReveal = Kayıtlı hesaplardaki parolaların görüntülenmesine izin verme.
 policy-DisableProfileImport = Başka uygulamalardan verileri içe aktarmayı sağlayan menü komutunu devre dışı bırak.
+policy-DisableQRExport = Hesap ayarlarını ve kimlik bilgilerini dışa aktarmak için QR kodu oluşturulmasını devre dışı bırak.
 policy-DisableSafeMode = Güvenli kipte yeniden başlatma özelliğini devre dışı bırak. Not: Güvenli kipe girmek için kullanılan Shift tuşu, Windows'ta ancak Grup İlkesi ile devre dışı bırakılabilir.
 policy-DisableSecurityBypass = Kullanıcının bazı güvenlik uyarılarını atlamasını engelle.
 policy-DisableSystemAddonUpdate = { -brand-short-name } uygulamasının sistem eklentilerini yüklemesini ve güncellemesini önle.

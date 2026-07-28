@@ -13,6 +13,9 @@ multi-message-delete-button =
 multi-message-undelete-button =
     .label = Silmeyi geri al
     .tooltiptext = Silmeyi geri al
+multi-message-flagged-button =
+    .title = Yıldızlı
+    .aria-label = Yıldızlı
 # Variables:
 #   $count - total number of conversations (threads or solitary messages) selected
 num-conversations =

@@ -12,3 +12,19 @@ configured-cert-ok-sig = Sertifika testi geçti ve e-posta imzalama için kullan
 configured-cert-failure-detail = Sertifika doğrulaması şu hatayla başarısız oldu: { $errorMsg } (Hata kodu: { $errorCodeStr })
 # $errorCode A numeric error code
 configured-cert-failure = Sertifika doğrulaması { $errorCode } hata koduyla başarısız oldu
+# Cryptographic details displayed in the message security popup
+smime-crypto-signature-algorithm = İmza algoritması:
+smime-crypto-cipher = Şifreleme algoritması:
+smime-crypto-key-encryption = Anahtar şifreleme algoritması:
+# $algorithm - The encryption algorithm name (e.g. "AES-GCM")
+# $keySize - The key size in bits (e.g. "256")
+smime-crypto-cipher-with-key-size = { $algorithm } ({ $keySize } bit)
+smime-crypto-details-summary = Algoritmalar
+# $errorCode A numeric error code
+# Note the initial empty line is necessary to preserve the line breaks.
+configured-cert-failure-use-anyway-v2 =
+    Bu sertifikayla ilgili bir sorun var.
+    
+    Sertifika doğrulaması { $errorCode } hata koduyla başarısız oldu.
+    
+    Bu sertifikayı yine de kullanmak istiyor musunuz?

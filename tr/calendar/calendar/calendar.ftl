@@ -158,6 +158,9 @@ week-title-label =
     .aria-label = Hafta { $title }
 calendar-none =
     .label = Yok
+# Variables:
+#   $fileName (String) - The backup file name, e.g. 'local-2020-05-11T21-30-17.sqlite'.
+too-new-dbschema-error-text = Takvim verileriniz bu { -brand-short-name } sürümüyle uyumlu değil. Profilinizdeki takvim verileri daha yeni bir { -brand-short-name } sürümü tarafından güncellendi. Veri dosyasının yedeği oluşturuldu ve “{ $fileName }” olarak adlandırıldı. Yeni oluşturulan veri dosyasıyla devam ediliyor.
 imip-bar-unsupported-text = Bu ileti, { -brand-short-name } uygulamasının bu sürümünün işleyemeyeceği bir etkinlik içeriyor.
 # Error strings
 # @name UID_NOT_FOUND
@@ -1116,3 +1119,14 @@ event-recurrence-forever =
 attendees-tab-label = Katılımcılar ({ $count }):
 # $count - the number of attachments
 attachments-tab-label = Ekler ({ $count }):
+# Variables:
+#   $docTitle (String) - The date or view label for the current calendar view.
+calendar-window-title = { $docTitle } - { -brand-full-name }
+calendar-window-title-base = { -brand-full-name }
+# Variables:
+#   $username (String) - The account username.
+#   $location (String) - The calendar server location.
+calendar-auth-enter-password-for = { $location } sunucusundaki { $username } parolasını girin
+# Variables:
+#   $location (String) - The calendar server location.
+calendar-auth-enter-user-password-for = { $location } kullanıcı adı ve parolanızı istiyor.
