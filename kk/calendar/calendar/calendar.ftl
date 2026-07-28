@@ -158,6 +158,9 @@ week-title-label =
     .aria-label = { $title }-апта
 calendar-none =
     .label = Ешнәрсе
+# Variables:
+#   $fileName (String) - The backup file name, e.g. 'local-2020-05-11T21-30-17.sqlite'.
+too-new-dbschema-error-text = Күнтізбеңіздің деректері бұл { -brand-short-name } нұсқасымен үйлесімді емес. Профиліңіздегі күнтізбе деректері жаңалау { -brand-short-name } нұсқасымен жаңартылған. "{ $fileName }" деп аталатын деректер файлының қор көшірмесі жасалды. Жаңадан жасалған деректер файлымен жалғастырамыз.
 imip-bar-unsupported-text = Бұл хабарламада { -brand-short-name } бұл нұсқасы өңдей алмайтын оқиға бар.
 # Error strings
 # @name UID_NOT_FOUND
@@ -1123,3 +1126,7 @@ event-recurrence-forever =
 attendees-tab-label = Қатысушылар ({ $count }):
 # $count - the number of attachments
 attachments-tab-label = Салынымдар ({ $count }):
+# Variables:
+#   $docTitle (String) - The date or view label for the current calendar view.
+calendar-window-title = { $docTitle } - { -brand-full-name }
+calendar-window-title-base = { -brand-full-name }

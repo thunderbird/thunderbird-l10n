@@ -1120,3 +1120,7 @@ event-recurrence-forever =
 attendees-tab-label = Deltakarar ({ $count }):
 # $count - the number of attachments
 attachments-tab-label = Vedlegg ({ $count }):
+# Variables:
+#   $docTitle (String) - The date or view label for the current calendar view.
+calendar-window-title = { $docTitle } - { -brand-full-name }
+calendar-window-title-base = { -brand-full-name }

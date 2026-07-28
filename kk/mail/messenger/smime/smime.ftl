@@ -12,6 +12,15 @@ configured-cert-ok-sig = Сертификат сынақтан өтті және
 configured-cert-failure-detail = Сертификатты тексеру келесі қатемен сәтсіз аяқталды: { $errorMsg } (Қате коды: { $errorCodeStr })
 # $errorCode A numeric error code
 configured-cert-failure = Сертификатты тексеру { $errorCode } қате кодымен сәтсіз аяқталды
+# Cryptographic details displayed in the message security popup
+smime-crypto-signature-algorithm = Қолтаңба алгоритмі:
+smime-crypto-digest-algorithm = Қолтаңба дайджест алгоритмі:
+smime-crypto-cipher = Шифрлеу алгоритмі:
+smime-crypto-key-encryption = Кілтті шифрлеу алгоритмі:
+# $algorithm - The encryption algorithm name (e.g. "AES-GCM")
+# $keySize - The key size in bits (e.g. "256")
+smime-crypto-cipher-with-key-size = { $algorithm } ({ $keySize }-бит)
+smime-crypto-details-summary = Алгоритмдер
 # $errorMsg A sentence that explains the error.
 # $errorCodeStr A human readable error code, e.g. SEC_ERROR_UNKNOWN_ISSUER
 # Note the initial empty line is necessary to preserve the line breaks.
