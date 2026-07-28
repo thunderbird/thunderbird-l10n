@@ -13,10 +13,10 @@ configured-cert-failure-detail = La validation du certificat n’a pas abouti en
 # $errorCode A numeric error code
 configured-cert-failure = La vérification du certificat n’a pas abouti, code d’erreur : { $errorCode }
 # Cryptographic details displayed in the message security popup
-smime-crypto-signature-algorithm = Algorithme de signature :
-smime-crypto-digest-algorithm = Algorithme Signature Digest :
+smime-crypto-signature-algorithm = Algorithme de la signature :
+smime-crypto-digest-algorithm = Algorithme de hachage de la signature :
 smime-crypto-cipher = Algorithme de chiffrement :
-smime-crypto-key-encryption = Algorithme de chiffrement de clé :
+smime-crypto-key-encryption = Algorithme de chiffrement de la clé :
 # $algorithm - The encryption algorithm name (e.g. "AES-GCM")
 # $keySize - The key size in bits (e.g. "256")
 smime-crypto-cipher-with-key-size = { $algorithm } ({ $keySize } bits)
