@@ -35,6 +35,7 @@ policy-DisableFormHistory = Don’t remember search and form history.
 policy-DisableMasterPasswordCreation = If true, a master password can’t be created.
 policy-DisablePasswordReveal = Do not allow passwords to be revealed in saved logins.
 policy-DisableProfileImport = Disable the menu command to Import data from another application.
+policy-DisableQRExport = Disable the generation of the QR code to export account settings and credentials.
 policy-DisableSafeMode = Disable the feature to restart in Safe Mode. Note: the Shift key to enter Safe Mode can only be disabled on Windows using Group Policy.
 policy-DisableSecurityBypass = Prevent the user from bypassing certain security warnings.
 policy-DisableSystemAddonUpdate = Prevent { -brand-short-name } from installing and updating system add-ons.

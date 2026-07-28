@@ -230,6 +230,7 @@ account-hub-thundermail-button = Sign in with Thundermail
 account-hub-thundermail-divider-text = or
 account-hub-manual-config-imap-title = IMAP Settings
 account-hub-manual-config-pop3-title = POP3 Settings
+account-hub-manual-config-review-settings-title = Review updated settings
 account-hub-manual-config-incoming-legend = Incoming server
 account-hub-manual-config-outgoing-legend = Outgoing server
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
@@ -237,6 +238,10 @@ account-hub-same-username-checkbox = Same username as incoming server
 account-hub-protocol-imap = Synchronise across devices
 account-hub-protocol-microsoft = Exchange or Microsoft 365
 account-hub-protocol-pop3 = Download to device
+account-hub-oauth-unsupported-title = Additional configuration is required
+# Note: 'Advanced Configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
+# 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
+account-hub-oauth-unsupported-description = { -brand-short-name } can’t automatically configure OAuth2 for this hostname. Select Advanced Configuration to create the account, then complete setup from Account Settings. <a data-l10n-name="oauth-support-link">Get help with OAuth2 setup.</a>
 account-hub-notification-show-more = Show more
 account-hub-notification-show-less = Show less
 account-hub-email-setup-header = Add your email address
@@ -301,6 +306,7 @@ account-hub-port-error-text = Port must be between 1 and 65535
     .title = Port must be between 1 and 65535
 account-hub-username-error-text = Username is required
     .title = Username is required
+account-hub-manual-config-error-summary = Please resolve the following errors:
 account-hub-oauth-pending = Waiting for authorisation in login popup…
 account-hub-addon-install-button = Install
 account-hub-addon-install-needed = { -brand-short-name } doesn’t natively support this server. To access Exchange email, <a data-l10n-name="addon-install"> install a third-party add-on like Owl (paid).</a>
