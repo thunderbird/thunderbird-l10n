@@ -14,9 +14,9 @@ configured-cert-failure-detail = Methodd dilysiad y dystysgrif gyda'r gwall canl
 configured-cert-failure = Methodd dilysu'r dystysgrif gyda'r cod gwall { $errorCode }
 # Cryptographic details displayed in the message security popup
 smime-crypto-signature-algorithm = Algorithm llofnod:
-smime-crypto-digest-algorithm = Algorithm Crynhoad Llofnod:
+smime-crypto-digest-algorithm = Algorithm Crynhoad Llofnodion:
 smime-crypto-cipher = Algorithm amgryptio:
-smime-crypto-key-encryption = Algorithm amgryptio allweddol:
+smime-crypto-key-encryption = Algorithm Allwedd Amgryptio:
 # $algorithm - The encryption algorithm name (e.g. "AES-GCM")
 # $keySize - The key size in bits (e.g. "256")
 smime-crypto-cipher-with-key-size = { $algorithm } ({ $keySize }-did)
