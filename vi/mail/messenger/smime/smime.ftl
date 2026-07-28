@@ -12,6 +12,15 @@ configured-cert-ok-sig = Chứng chỉ đã vượt qua bài kiểm tra và có 
 configured-cert-failure-detail = Xác minh chứng chỉ không thành công với lỗi sau: { $errorMsg } (Mã lỗi: { $errorCodeStr })
 # $errorCode A numeric error code
 configured-cert-failure = Xác minh chứng chỉ không thành công với mã lỗi { $errorCode }
+# Cryptographic details displayed in the message security popup
+smime-crypto-signature-algorithm = Thuật toán chữ ký:
+smime-crypto-digest-algorithm = Thuật toán băm chữ ký:
+smime-crypto-cipher = Thuật toán mã hoá:
+smime-crypto-key-encryption = Thuật toán mã hóa khóa:
+# $algorithm - The encryption algorithm name (e.g. "AES-GCM")
+# $keySize - The key size in bits (e.g. "256")
+smime-crypto-cipher-with-key-size = { $algorithm } ({ $keySize }-bit)
+smime-crypto-details-summary = Thuật toán
 # $errorMsg A sentence that explains the error.
 # $errorCodeStr A human readable error code, e.g. SEC_ERROR_UNKNOWN_ISSUER
 # Note the initial empty line is necessary to preserve the line breaks.
