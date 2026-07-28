@@ -35,6 +35,7 @@ policy-DisableFormHistory = Non rememorar le chronologia de recercas e formulari
 policy-DisableMasterPasswordCreation = Si ver, non pote esser create un contrasigno maestro.
 policy-DisablePasswordReveal = Non permitter de monstrar le contrasignos in le credentiales salvate.
 policy-DisableProfileImport = Disactivar le commando del menu pro importar datos ab un altere application.
+policy-DisableQRExport = Disactivar le generation de codice QR pro exportar le parametros del conto e le credentiales.
 policy-DisableSafeMode = Disactivar le functionalitate pro reinitiar in Modo secur. Nota: le clave Shift pro inserer le Modo secur pote solmente esser disactivate sur Windows per le politicas de gruppo.
 policy-DisableSecurityBypass = Impedir al usator de ignorar certe avisos de securitate.
 policy-DisableSystemAddonUpdate = Impedir a { -brand-short-name } de installar e actualisar additivos de systema.
