@@ -14,6 +14,7 @@ configured-cert-failure-detail = Weryfikacja certyfikatu nie powiodła się z p
 configured-cert-failure = Weryfikacja certyfikatu nie powiodła się z kodem błędu { $errorCode }
 # Cryptographic details displayed in the message security popup
 smime-crypto-signature-algorithm = Algorytm podpisu:
+smime-crypto-digest-algorithm = Algorytm skrótu podpisu:
 smime-crypto-cipher = Algorytm szyfrowania:
 smime-crypto-key-encryption = Algorytm szyfrowania klucza:
 # $algorithm - The encryption algorithm name (e.g. "AES-GCM")
