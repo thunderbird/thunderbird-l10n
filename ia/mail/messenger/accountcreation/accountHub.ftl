@@ -239,6 +239,9 @@ account-hub-protocol-imap = Synchronisar inter apparatos
 account-hub-protocol-microsoft = Exchange o Microsoft 365
 account-hub-protocol-pop3 = Discargar a apparato
 account-hub-oauth-unsupported-title = Configuration additional es necessari
+# Note: 'Advanced Configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
+# 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
+account-hub-oauth-unsupported-description = { -brand-short-name } non pote automaticamente configurar OAuth2 pro iste nomine de hoste. Selige configuration avantiate pro crear le conto, pois completa le configuration ab Parametros de conto. <a data-l10n-name="oauth-support-link">Obtene auxilio con le configuration de OAuth2.</a>
 account-hub-notification-show-more = Monstrar plus
 account-hub-notification-show-less = Monstrar minus
 account-hub-email-setup-header = Adde tu adresse email
