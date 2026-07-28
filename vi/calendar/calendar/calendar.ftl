@@ -154,6 +154,9 @@ week-title-label =
     .aria-label = Tuần { $title }
 calendar-none =
     .label = Không có
+# Variables:
+#   $fileName (String) - The backup file name, e.g. 'local-2020-05-11T21-30-17.sqlite'.
+too-new-dbschema-error-text = Dữ liệu lịch của bạn không tương thích với phiên bản { -brand-short-name } này. Dữ liệu lịch trong hồ sơ của bạn đã được cập nhật bởi phiên bản mới hơn của { -brand-short-name }. Một bản sao lưu của dữ liệu đã được tạo, được đặt tên là “{ $fileName }”. Tiếp tục với một dữ liệu mới vừa được tạo.
 imip-bar-unsupported-text = Thư này chứa một sự kiện mà phiên bản { -brand-short-name } này không thể xử lí.
 # Error strings
 # @name UID_NOT_FOUND
@@ -1052,3 +1055,11 @@ event-recurrence-forever =
 attendees-tab-label = Người tham dự ({ $count }):
 # $count - the number of attachments
 attachments-tab-label = Đính kèm ({ $count }):
+# Variables:
+#   $docTitle (String) - The date or view label for the current calendar view.
+calendar-window-title = { $docTitle } - { -brand-full-name }
+calendar-window-title-base = { -brand-full-name }
+# Variables:
+#   $username (String) - The account username.
+#   $location (String) - The calendar server location.
+calendar-auth-enter-password-for = Nhập mật khẩu cho { $username } từ { $location }

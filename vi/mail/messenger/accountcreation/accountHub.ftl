@@ -230,6 +230,7 @@ account-hub-thundermail-button = Đăng nhập vào Thundermail
 account-hub-thundermail-divider-text = hoặc
 account-hub-manual-config-imap-title = Cài đặt IMAP
 account-hub-manual-config-pop3-title = Cài đặt POP3
+account-hub-manual-config-review-settings-title = Xem lại các cài đặt đã cập nhật
 account-hub-manual-config-incoming-legend = Máy chủ nhận thư
 account-hub-manual-config-outgoing-legend = Máy chủ gửi thư
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
@@ -237,6 +238,10 @@ account-hub-same-username-checkbox = Tên người dùng giống với máy ch�
 account-hub-protocol-imap = Đồng bộ hóa giữa các thiết bị
 account-hub-protocol-microsoft = Exchange hoặc Microsoft 365
 account-hub-protocol-pop3 = Tải xuống về thiết bị
+account-hub-oauth-unsupported-title = Cần thực hiện các cấu hình bổ sung
+# Note: 'Advanced Configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
+# 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
+account-hub-oauth-unsupported-description = { -brand-short-name } không thể tự động cấu hình OAuth2 cho hostname này. Chọn Cấu hình nâng cao để thêm tài khoản, sau đó hoàn thành thiết lập trong Cài đặt tài khoản. <a data-l10n-name="oauth-support-link">Nhận trợ giúp về thiết lập OAuth2.</a>
 account-hub-notification-show-more = Xem thêm
 account-hub-notification-show-less = Hiện ít hơn
 account-hub-email-setup-header = Thêm địa chỉ email của bạn
@@ -297,6 +302,7 @@ account-hub-port-error-text = Cổng phải nằm trong khoảng 1 và 65535
     .title = Cổng phải nằm trong khoảng 1 và 65535
 account-hub-username-error-text = Tên đăng nhập là bắt buộc
     .title = Tên đăng nhập là bắt buộc
+account-hub-manual-config-error-summary = Vui lòng khắc phục các lỗi sau:
 account-hub-oauth-pending = Đang chờ xác thực trong cửa sổ bật lên đăng nhập…
 account-hub-addon-install-button = Cài đặt
 account-hub-addon-install-needed = { -brand-short-name } không hỗ trợ máy chủ này một cách tự nhiên. Để truy cập email Exchange, <a data-l10n-name="addon-install"> cài đặt tiện ích của bên thứ ba như Owl (trả phí).</a>
