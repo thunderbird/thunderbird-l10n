@@ -1124,3 +1124,10 @@ attachments-tab-label = Annexos ({ $count }):
 #   $docTitle (String) - The date or view label for the current calendar view.
 calendar-window-title = { $docTitle } - { -brand-full-name }
 calendar-window-title-base = { -brand-full-name }
+# Variables:
+#   $username (String) - The account username.
+#   $location (String) - The calendar server location.
+calendar-auth-enter-password-for = Insere le contrasigno pro { $username } sur { $location }
+# Variables:
+#   $location (String) - The calendar server location.
+calendar-auth-enter-user-password-for = { $location } require tu nomine de usator e contrasigno.

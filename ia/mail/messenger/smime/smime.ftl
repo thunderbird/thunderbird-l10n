@@ -12,6 +12,14 @@ configured-cert-ok-sig = Le certificato passava le test e pote esser usate pro f
 configured-cert-failure-detail = Le verification del certificato falleva con le sequente error: { $errorMsg } (Codice de error: { $errorCodeStr })
 # $errorCode A numeric error code
 configured-cert-failure = Le verification del certificato falleva con codice de error { $errorCode }
+# Cryptographic details displayed in the message security popup
+smime-crypto-signature-algorithm = Algorithmo de firma
+smime-crypto-cipher = Algorithmo de cryptation:
+smime-crypto-key-encryption = Algorithmo de cryptation de clave:
+# $algorithm - The encryption algorithm name (e.g. "AES-GCM")
+# $keySize - The key size in bits (e.g. "256")
+smime-crypto-cipher-with-key-size = { $algorithm } ({ $keySize } bit)
+smime-crypto-details-summary = Algorithmos
 # $errorMsg A sentence that explains the error.
 # $errorCodeStr A human readable error code, e.g. SEC_ERROR_UNKNOWN_ISSUER
 # Note the initial empty line is necessary to preserve the line breaks.

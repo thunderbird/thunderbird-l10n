@@ -230,6 +230,7 @@ account-hub-thundermail-button = Acceder con Thundermail
 account-hub-thundermail-divider-text = o
 account-hub-manual-config-imap-title = Configurationes de IMAP
 account-hub-manual-config-pop3-title = Configurationes de POP3
+account-hub-manual-config-review-settings-title = Revide le configurationes actualisate
 account-hub-manual-config-incoming-legend = Servitor de arrivata
 account-hub-manual-config-outgoing-legend = Servitor in exito
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
@@ -237,6 +238,7 @@ account-hub-same-username-checkbox = Mesme nomine de usator que le servitor de a
 account-hub-protocol-imap = Synchronisar inter apparatos
 account-hub-protocol-microsoft = Exchange o Microsoft 365
 account-hub-protocol-pop3 = Discargar a apparato
+account-hub-oauth-unsupported-title = Configuration additional es necessari
 account-hub-notification-show-more = Monstrar plus
 account-hub-notification-show-less = Monstrar minus
 account-hub-email-setup-header = Adde tu adresse email
@@ -301,6 +303,7 @@ account-hub-port-error-text = Le porta debe esser inter 1 e 65535
     .title = Le porta debe esser inter 1 e 65535
 account-hub-username-error-text = Es requirite un nomine de usator
     .title = Es requirite un nomine de usator
+account-hub-manual-config-error-summary = Solve le errores sequente:
 account-hub-oauth-pending = Attendente autorisation in le fenestra resaltante de connexion…
 account-hub-addon-install-button = Installar
 account-hub-addon-install-needed = { -brand-short-name } non supporta nativemente iste servitor. Pro acceder Exchange email, <a data-l10n-name="addon-install"> installa un additivo de tertie-parte como Owl (pagate).</a>
