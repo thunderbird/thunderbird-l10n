@@ -230,6 +230,7 @@ account-hub-thundermail-button = Prihláste sa pomocou Thundermailu
 account-hub-thundermail-divider-text = alebo
 account-hub-manual-config-imap-title = Nastavenia IMAP
 account-hub-manual-config-pop3-title = Nastavenia POP3
+account-hub-manual-config-review-settings-title = Skontrolujte aktualizované nastavenia
 account-hub-manual-config-incoming-legend = Server prichádzajúcej pošty
 account-hub-manual-config-outgoing-legend = Server pre odosielanie pošty
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
@@ -237,6 +238,10 @@ account-hub-same-username-checkbox = Rovnaké používateľské meno ako pre ser
 account-hub-protocol-imap = Synchronizácia naprieč zariadeniami
 account-hub-protocol-microsoft = Exchange alebo Microsoft 365
 account-hub-protocol-pop3 = Sťahovanie do zariadenia
+account-hub-oauth-unsupported-title = Vyžaduje sa dodatočná konfigurácia
+# Note: 'Advanced Configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
+# 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
+account-hub-oauth-unsupported-description = { -brand-short-name } nedokáže automaticky nakonfigurovať OAuth2 pre tento názov hostiteľa. Vyberte možnosť Rozšírená konfigurácia na vytvorenie účtu a potom dokončite nastavenie v časti Nastavenia účtu. <a data-l10n-name="oauth-support-link">Získajte pomoc s nastavením OAuth2.</a>
 account-hub-notification-show-more = Zobraziť viac
 account-hub-notification-show-less = Zobraziť menej
 account-hub-email-setup-header = Pridajte svoju e‑mailovú adresu
@@ -303,6 +308,7 @@ account-hub-port-error-text = Port musí byť medzi 1 a 65535
     .title = Port musí byť medzi 1 a 65535
 account-hub-username-error-text = Meno používateľa je povinná položka
     .title = Meno používateľa je povinná položka
+account-hub-manual-config-error-summary = Prosím, vyriešte nasledujúce chyby:
 account-hub-oauth-pending = Čaká sa na autorizáciu v prihlasovacom vyskakovacom okne…
 account-hub-addon-install-button = Nainštalovať
 account-hub-addon-install-needed = { -brand-short-name } tento server natívne nepodporuje. Ak chcete získať prístup k e‑mailu typu Exchange, <a data-l10n-name="addon-install">nainštalujte si doplnok tretej strany, ako je napríklad Owl (platený)</a>.

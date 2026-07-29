@@ -12,6 +12,15 @@ configured-cert-ok-sig = Certifikát prešiel testom a je možné ho použiť na
 configured-cert-failure-detail = Overenie certifikátu zlyhalo s nasledujúcou chybou: { $errorMsg } (kód chyby: { $errorCodeStr })
 # $errorCode A numeric error code
 configured-cert-failure = Overenie certifikátu zlyhalo s kódom chyby { $errorCode }
+# Cryptographic details displayed in the message security popup
+smime-crypto-signature-algorithm = Algoritmus podpisu:
+smime-crypto-digest-algorithm = Algoritmus podpisu a digestu:
+smime-crypto-cipher = Šifrovací algoritmus:
+smime-crypto-key-encryption = Algoritmus šifrovania kľúča:
+# $algorithm - The encryption algorithm name (e.g. "AES-GCM")
+# $keySize - The key size in bits (e.g. "256")
+smime-crypto-cipher-with-key-size = { $algorithm } ({ $keySize }‑bitov)
+smime-crypto-details-summary = Algoritmy
 # $errorMsg A sentence that explains the error.
 # $errorCodeStr A human readable error code, e.g. SEC_ERROR_UNKNOWN_ISSUER
 # Note the initial empty line is necessary to preserve the line breaks.

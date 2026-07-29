@@ -35,6 +35,7 @@ policy-DisableFormHistory = Vypne ukladanie histórie vyhľadávania a formulár
 policy-DisableMasterPasswordCreation = Hodnota true znemožní nastavenie hlavného hesla.
 policy-DisablePasswordReveal = Zablokuje zobrazovanie hesiel v správcovi prihlasovacích údajov.
 policy-DisableProfileImport = Zablokuje možnosť importu údajov z iných aplikácií.
+policy-DisableQRExport = Zakáže generovanie QR kódu na export nastavení účtu a prihlasovacích údajov.
 policy-DisableSafeMode = Zablokuje funkciu reštartu so zakázanými doplnkami. Poznámka: prechod do núdzového režimu podržaním klávesy Shift je v systéme Windows možné len pomocou skupinovej politiky.
 policy-DisableSecurityBypass = Zabráni používateľovi v obchádzaní niektorých bezpečnostných varovaní.
 policy-DisableSystemAddonUpdate = Zablokuje inštaláciu a aktualizáciu systémových doplnkov aplikácie { -brand-short-name }.
