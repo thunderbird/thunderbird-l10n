@@ -15,7 +15,7 @@ configured-cert-failure = Přepruwowanje certifikata je so ze zmylkowym kodom { 
 # Cryptographic details displayed in the message security popup
 smime-crypto-signature-algorithm = Signaturowy algoritmus:
 smime-crypto-digest-algorithm = Signaturowy algoritmus Digest:
-smime-crypto-cipher = Zaklučowanski algoritmus
+smime-crypto-cipher = Zaklučowanski algoritmus:
 smime-crypto-key-encryption = Algoritmus zaklučowanja kluča:
 # $algorithm - The encryption algorithm name (e.g. "AES-GCM")
 # $keySize - The key size in bits (e.g. "256")

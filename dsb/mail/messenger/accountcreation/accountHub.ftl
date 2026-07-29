@@ -308,6 +308,7 @@ account-hub-port-error-text = Port musy mjazy 1 a 65535 byś
     .title = Port musy mjazy 1 a 65535 byś
 account-hub-username-error-text = Wužywaŕske mě jo trjebne
     .title = Wužywaŕske mě jo trjebne
+account-hub-manual-config-error-summary = Pšosym rozwěžćo slědujuce zmólki:
 account-hub-oauth-pending = Caka se za awtorizěrowanje we wuskokujucem woknje pśizjawjenja…
 account-hub-addon-install-button = Instalěrowaś
 account-hub-addon-install-needed = { -brand-short-name } wót doma toś ten serwer njepódpěra. Aby pśistup k e-maili Exchange měł, <a data-l10n-name="addon-install">instalěrujśo dodank tśeśego póbitowarja ako Owl (ma se płaśiś).</a>

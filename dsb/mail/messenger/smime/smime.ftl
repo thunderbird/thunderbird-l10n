@@ -12,6 +12,15 @@ configured-cert-ok-sig = Certifikat jo wobstał test a dajo se za e-mailowe sign
 configured-cert-failure-detail = Pśeglědowanje certifikata njejo se raźiło ze slědujuceju zmólku: { $errorMsg } (zmólkowy kod: { $errorCodeStr })
 # $errorCode A numeric error code
 configured-cert-failure = Pśeglědowanje certifikata njejo se raźiło ze zmólkowym kodom { $errorCode }
+# Cryptographic details displayed in the message security popup
+smime-crypto-signature-algorithm = Signaturowy algoritmus:
+smime-crypto-digest-algorithm = Signaturowy algoritmus Digest:
+smime-crypto-cipher = Koděrowański algoritmus:
+smime-crypto-key-encryption = Algoritmus koděrowanja kluca:
+# $algorithm - The encryption algorithm name (e.g. "AES-GCM")
+# $keySize - The key size in bits (e.g. "256")
+smime-crypto-cipher-with-key-size = { $algorithm } ({ $keySize }-bitowy)
+smime-crypto-details-summary = Algoritmuse
 # $errorMsg A sentence that explains the error.
 # $errorCodeStr A human readable error code, e.g. SEC_ERROR_UNKNOWN_ISSUER
 # Note the initial empty line is necessary to preserve the line breaks.
