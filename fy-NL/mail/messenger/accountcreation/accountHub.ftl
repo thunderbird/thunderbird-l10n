@@ -306,6 +306,7 @@ account-hub-port-error-text = Poarte moat tusken 1 en 65535 wêze
     .title = Poarte moat tusken 1 en 65535 wêze
 account-hub-username-error-text = Brûkersnamme is fereaske
     .title = Brûkersnamme is fereaske
+account-hub-manual-config-error-summary = Los de folgjende flaters op:
 account-hub-oauth-pending = Wachtsje op autorisaasje yn oanmeldingspopup…
 account-hub-addon-install-button = Ynstallearje
 account-hub-addon-install-needed = { -brand-short-name } stipet dizze server net ynboud. Om tagong te krijen ta Exchange-e-mail, <a data-l10n-name="addon-install"> ynstallearje in add-on fan tredden lykas Owl (betelle).</a>

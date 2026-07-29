@@ -35,6 +35,7 @@ policy-DisableFormHistory = Gjin syk- en formulierskiednis ûnthâlde.
 policy-DisableMasterPasswordCreation = Wannear true, kin gjin haadwachtwurd oanmakke wurde.
 policy-DisablePasswordReveal = Net tastean dat wachtwurden te sjen binne yn bewarre oanmeldingen.
 policy-DisableProfileImport = De menuopdracht foar it ymportearjen fan gegevens fan in oare applikaasje út útskeakelje.
+policy-DisableQRExport = Skeakelje it oanmeitsjen fan de QR-koade om accountynstellingen en oanmeldgegevens te eksportearjen út.
 policy-DisableSafeMode = De funksje foar it opnij starten yn Feilige modus útskeakelje. Noat: de Shift-toets foar it betrêdzjen fan de Feilige modus kin in Windows allinnich útskeakele wurde fia Groepsbelied.
 policy-DisableSecurityBypass = Foarkomme dat de brûker bepaalde befeiligingsynstellingen omsylt.
 policy-DisableSystemAddonUpdate = Foarkomme dat { -brand-short-name } systeemadd-ons ynstallearret en bywurket.

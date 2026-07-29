@@ -12,6 +12,14 @@ configured-cert-ok-sig = It sertifikaat hat de test trochstien en kin brûkt wur
 configured-cert-failure-detail = De sertifikaatferifikaasje is mislearre mei de folgjende flater: { $errorMsg } (Flaterkoade: { $errorCodeStr })
 # $errorCode A numeric error code
 configured-cert-failure = De sertifikaatferifikaasje is mislearre mei flaterkoade { $errorCode }
+# Cryptographic details displayed in the message security popup
+smime-crypto-signature-algorithm = Hantekeningsalgoritme:
+smime-crypto-digest-algorithm = Hantekeninggearfettingsalgoritme:
+smime-crypto-cipher = Fersiferingsalgoritme:
+smime-crypto-key-encryption = Kaaifersiferingsalgoritme:
+# $algorithm - The encryption algorithm name (e.g. "AES-GCM")
+# $keySize - The key size in bits (e.g. "256")
+smime-crypto-cipher-with-key-size = { $algorithm } ({ $keySize }-bits)
 smime-crypto-details-summary = Algoritmen
 # $errorMsg A sentence that explains the error.
 # $errorCodeStr A human readable error code, e.g. SEC_ERROR_UNKNOWN_ISSUER
