@@ -230,6 +230,7 @@ account-hub-thundermail-button = Logga in med Thundermail
 account-hub-thundermail-divider-text = eller
 account-hub-manual-config-imap-title = IMAP-inställningar
 account-hub-manual-config-pop3-title = POP3-inställningar
+account-hub-manual-config-review-settings-title = Granska uppdaterade inställningar
 account-hub-manual-config-incoming-legend = Inkommande server
 account-hub-manual-config-outgoing-legend = Utgående server
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
@@ -237,6 +238,10 @@ account-hub-same-username-checkbox = Samma användarnamn som servern för inkomm
 account-hub-protocol-imap = Synkronisering mellan enheter
 account-hub-protocol-microsoft = Exchange eller Microsoft 365
 account-hub-protocol-pop3 = Hämta till enhet
+account-hub-oauth-unsupported-title = Ytterligare konfiguration krävs
+# Note: 'Advanced Configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
+# 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
+account-hub-oauth-unsupported-description = { -brand-short-name } kan inte automatiskt konfigurera OAuth2 för detta värdnamn. Välj Avancerad konfiguration för att skapa kontot och slutför sedan installationen från Kontoinställningar. <a data-l10n-name="oauth-support-link">Få hjälp med OAuth2-installationen.</a>
 account-hub-notification-show-more = Visa mer
 account-hub-notification-show-less = Visa mindre
 account-hub-email-setup-header = Lägg till din e-postadress
@@ -301,6 +306,7 @@ account-hub-port-error-text = Portnummer måste vara mellan 1 och 65535
     .title = Portnummer måste vara mellan 1 och 65535
 account-hub-username-error-text = Användarnamn krävs
     .title = Användarnamn krävs
+account-hub-manual-config-error-summary = Åtgärda följande fel:
 account-hub-oauth-pending = Väntar på auktorisering i inloggningspopup…
 account-hub-addon-install-button = Installera
 account-hub-addon-install-needed = { -brand-short-name } stöder inte den här servern. För att komma åt Exchange e-post, <a data-l10n-name="addon-install"> installera ett tredjepartstillägg som Owl (betald).</a>

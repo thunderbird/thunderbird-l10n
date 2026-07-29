@@ -35,6 +35,7 @@ policy-DisableFormHistory = Kom inte ihåg sök- och formulärhistorik.
 policy-DisableMasterPasswordCreation = Om sant, ett huvudlösenord kan inte skapas.
 policy-DisablePasswordReveal = Låt inte lösenord avslöjas i sparade inloggningar.
 policy-DisableProfileImport = Inaktivera menykommandot för att importera data från en annan applikation.
+policy-DisableQRExport = Inaktivera genereringen av QR-koden för att exportera kontoinställningar och inloggningsuppgifter.
 policy-DisableSafeMode = Inaktivera funktionen för att starta om i felsäkert läge. Obs! Skift-tangenten för att gå in i felsäkert läge kan endast inaktiveras i Windows med hjälp av grupprincip.
 policy-DisableSecurityBypass = Förhindra användaren att kringgå vissa säkerhetsvarningar.
 policy-DisableSystemAddonUpdate = Förhindra { -brand-short-name } från att installera och uppdatera systemtillägg.

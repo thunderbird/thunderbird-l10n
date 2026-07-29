@@ -158,6 +158,9 @@ week-title-label =
     .aria-label = Vecka { $title }
 calendar-none =
     .label = Ingen
+# Variables:
+#   $fileName (String) - The backup file name, e.g. 'local-2020-05-11T21-30-17.sqlite'.
+too-new-dbschema-error-text = Din kalenderdata är inte kompatibel med den här versionen av { -brand-short-name }. Kalenderdatan i din profil har uppdaterats av en nyare version av { -brand-short-name }. En säkerhetskopia av datafilen har skapats med namnet "{ $fileName }". Vi fortsätter med en nyskapad datafil.
 imip-bar-unsupported-text = Det här meddelandet innehåller en händelse som denna version av { -brand-short-name } inte kan behandla.
 # Error strings
 # @name UID_NOT_FOUND
@@ -1120,3 +1123,14 @@ event-recurrence-forever =
 attendees-tab-label = Deltagare ({ $count }):
 # $count - the number of attachments
 attachments-tab-label = Bilagor ({ $count }):
+# Variables:
+#   $docTitle (String) - The date or view label for the current calendar view.
+calendar-window-title = { $docTitle } - { -brand-full-name }
+calendar-window-title-base = { -brand-full-name }
+# Variables:
+#   $username (String) - The account username.
+#   $location (String) - The calendar server location.
+calendar-auth-enter-password-for = Ange lösenord för { $username } på { $location }
+# Variables:
+#   $location (String) - The calendar server location.
+calendar-auth-enter-user-password-for = { $location } efterfrågar ditt användarnamn och lösenord.
