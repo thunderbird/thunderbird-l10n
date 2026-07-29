@@ -363,5 +363,7 @@ account-hub-card-ews-tag = Eldra
 account-hub-exchange-type-username = Notandanafn
 account-hub-exchange-type-username-hint = Venjulega netfangið þitt eða Active Directory UPN.
 account-hub-exchange-type-authentication = Auðkenningaraðferð
+account-hub-exchange-type-oauth-tenant = Auðkenni handhafa
+account-hub-exchange-type-oauth-app = Forritsauðkenni
 account-hub-exchange-type-advanced-config = Ítarlegar stillingar
 account-hub-exchange-type-title = Veldu tegund reiknings

@@ -12,6 +12,15 @@ configured-cert-ok-sig = Skilríkið stóðst prófið og er hægt að nota þa�
 configured-cert-failure-detail = Staðfesting skilríkisins mistókst með eftirfarandi villu: { $errorMsg } (villukóði: { $errorCodeStr })
 # $errorCode A numeric error code
 configured-cert-failure = Staðfesting skilríkisins mistókst með villukóðanum { $errorCode }
+# Cryptographic details displayed in the message security popup
+smime-crypto-signature-algorithm = Reiknirit undirritunar:
+smime-crypto-digest-algorithm = Reiknirit fyrir samantekt undirritunar:
+smime-crypto-cipher = Reiknirit dulritunar:
+smime-crypto-key-encryption = Reiknirit dulritunarlykla:
+# $algorithm - The encryption algorithm name (e.g. "AES-GCM")
+# $keySize - The key size in bits (e.g. "256")
+smime-crypto-cipher-with-key-size = { $algorithm } ({ $keySize }-bita)
+smime-crypto-details-summary = Reiknirit
 # $errorMsg A sentence that explains the error.
 # $errorCodeStr A human readable error code, e.g. SEC_ERROR_UNKNOWN_ISSUER
 # Note the initial empty line is necessary to preserve the line breaks.
