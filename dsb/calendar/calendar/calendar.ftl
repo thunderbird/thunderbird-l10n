@@ -162,6 +162,9 @@ week-title-label =
     .aria-label = Tyźeń { $title }
 calendar-none =
     .label = Žeden
+# Variables:
+#   $fileName (String) - The backup file name, e.g. 'local-2020-05-11T21-30-17.sqlite'.
+too-new-dbschema-error-text = Waše kalenderowe daty njejsu kompatibelne z wersiju { -brand-short-name }. Kalenderowe daty we wašom profilu su se zaktualizěrowali pśez nowšu wersiju { -brand-short-name }. Zawěsćenje datoweje dataje z mjenim „{ $fileName }“ jo se napórało. Pókšacujo se z nowo napóraneju datoweju dataju.
 imip-bar-unsupported-text = Toś ta powěsć tšojenje wopśimujo, kótarež toś ta wersija { -brand-short-name } njamóžo pśeźěłaś.
 # Error strings
 # @name UID_NOT_FOUND
@@ -1156,3 +1159,14 @@ event-recurrence-forever =
 attendees-tab-label = Wobźělniki ({ $count }):
 # $count - the number of attachments
 attachments-tab-label = Pśidanki ({ $count }):
+# Variables:
+#   $docTitle (String) - The date or view label for the current calendar view.
+calendar-window-title = { $docTitle } - { -brand-full-name }
+calendar-window-title-base = { -brand-full-name }
+# Variables:
+#   $username (String) - The account username.
+#   $location (String) - The calendar server location.
+calendar-auth-enter-password-for = Zapódajśo gronidło za { $username } na { $location }
+# Variables:
+#   $location (String) - The calendar server location.
+calendar-auth-enter-user-password-for = { $location } pomina wašo wužywarske mě a gronidło.

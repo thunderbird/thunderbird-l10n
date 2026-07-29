@@ -230,6 +230,7 @@ account-hub-thundermail-button = Z Thundermail pśizjawiś
 account-hub-thundermail-divider-text = abo
 account-hub-manual-config-imap-title = Nastajenja IMAP
 account-hub-manual-config-pop3-title = Nastajenja POP3
+account-hub-manual-config-review-settings-title = Zaktualizěrowane nastajenja pśeglědowaś
 account-hub-manual-config-incoming-legend = Dochadny serwer
 account-hub-manual-config-outgoing-legend = Wuchadny serwer
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
@@ -237,6 +238,10 @@ account-hub-same-username-checkbox = Samske wužywaŕske mě ako dochadowy serwe
 account-hub-protocol-imap = Synchronizacija mjazy rědami
 account-hub-protocol-microsoft = Exchange abo Microsoft 365
 account-hub-protocol-pop3 = Na rěd ześěgnuś
+account-hub-oauth-unsupported-title = Pśidatna konfiguracija jo trjebna
+# Note: 'Advanced Configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
+# 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
+account-hub-oauth-unsupported-description = { -brand-short-name } njamóžo OAuth2 za toś to hostmě awtomatiski konfigurěrowaś. Wubjeŕśo rozšyrjonu konfiguraciju, aby konto załožył a dokóńcćo pón konfiguraciju z kontowych nastajenjow. <a data-l10n-name="oauth-support-link">Dostańśo pomoc za konfiguraciju OAuth2.</a>
 account-hub-notification-show-more = Wěcej pokazaś
 account-hub-notification-show-less = Mjenjej pokazaś
 account-hub-email-setup-header = Pśidajśo swóju e-mailowu adresu
