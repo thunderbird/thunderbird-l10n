@@ -230,6 +230,7 @@ account-hub-thundermail-button = Aanmelden met Thundermail
 account-hub-thundermail-divider-text = of
 account-hub-manual-config-imap-title = IMAP-instellingen
 account-hub-manual-config-pop3-title = POP3-instellingen
+account-hub-manual-config-review-settings-title = Bijgewerkte instellingen bekijken
 account-hub-manual-config-incoming-legend = Inkomende server
 account-hub-manual-config-outgoing-legend = Uitgaande server
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
@@ -237,6 +238,10 @@ account-hub-same-username-checkbox = Dezelfde gebruikersnaam als inkomende serve
 account-hub-protocol-imap = Synchroniseren tussen apparaten
 account-hub-protocol-microsoft = Exchange of Microsoft 365
 account-hub-protocol-pop3 = Naar apparaat downloaden
+account-hub-oauth-unsupported-title = Aanvullende configuratie vereist
+# Note: 'Advanced Configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
+# 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
+account-hub-oauth-unsupported-description = { -brand-short-name } kan OAuth2 niet automatisch configureren voor deze hostnaam. Selecteer Geavanceerde configuratie om de account aan te maken en voltooi daarna de installatie vanuit Accountinstellingen. <a data-l10n-name="oauth-support-link">Hulp bij het instellen van OAuth2.</a>
 account-hub-notification-show-more = Meer tonen
 account-hub-notification-show-less = Minder tonen
 account-hub-email-setup-header = Uw e-mailadres toevoegen
@@ -301,6 +306,7 @@ account-hub-port-error-text = Poort moet tussen 1 en 65535 zijn
     .title = Poort moet tussen 1 en 65535 zijn
 account-hub-username-error-text = Gebruikersnaam is vereist
     .title = Gebruikersnaam is vereist
+account-hub-manual-config-error-summary = Los de volgende fouten op:
 account-hub-oauth-pending = Wachten op autorisatie in aanmeldingspop-up…
 account-hub-addon-install-button = Installeren
 account-hub-addon-install-needed = { -brand-short-name } ondersteunt deze server niet ingebouwd. <a data-l10n-name="addon-install">Installeer een externe add-on zoals Owl (betaald)</a> voor toegang tot Exchange-e-mail.

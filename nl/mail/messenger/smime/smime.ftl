@@ -12,6 +12,14 @@ configured-cert-ok-sig = Het certificaat heeft de test doorstaan en kan worden g
 configured-cert-failure-detail = De certificaatverificatie is mislukt met de volgende fout: { $errorMsg } (Foutcode: { $errorCodeStr })
 # $errorCode A numeric error code
 configured-cert-failure = De certificaatverificatie is mislukt met foutcode { $errorCode }
+# Cryptographic details displayed in the message security popup
+smime-crypto-signature-algorithm = Handtekeningsalgoritme:
+smime-crypto-digest-algorithm = Handtekeningsamenvattingsalgoritme:
+smime-crypto-cipher = Versleutelingsalgoritme:
+smime-crypto-key-encryption = Sleutelversleutelingsalgoritme:
+# $algorithm - The encryption algorithm name (e.g. "AES-GCM")
+# $keySize - The key size in bits (e.g. "256")
+smime-crypto-cipher-with-key-size = { $algorithm } ({ $keySize }-bits)
 smime-crypto-details-summary = Algoritmes
 # $errorMsg A sentence that explains the error.
 # $errorCodeStr A human readable error code, e.g. SEC_ERROR_UNKNOWN_ISSUER

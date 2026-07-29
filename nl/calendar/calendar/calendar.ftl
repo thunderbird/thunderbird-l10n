@@ -158,6 +158,9 @@ week-title-label =
     .aria-label = Week { $title }
 calendar-none =
     .label = Geen
+# Variables:
+#   $fileName (String) - The backup file name, e.g. 'local-2020-05-11T21-30-17.sqlite'.
+too-new-dbschema-error-text = Uw agendagegevens zijn niet compatibel met deze versie van { -brand-short-name }. De agendagegevens in uw profiel zijn bijgewerkt door een nieuwere versie van { -brand-short-name }. Er is een back-up van het gegevensbestand aangemaakt met de naam ‘{ $fileName }’. Er wordt doorgegaan met een nieuw aangemaakt gegevensbestand.
 imip-bar-unsupported-text = Dit bericht bevat een gebeurtenis die deze versie van { -brand-short-name } niet kan verwerken.
 # Error strings
 # @name UID_NOT_FOUND
@@ -1128,3 +1131,10 @@ attachments-tab-label = Bijlagen ({ $count }):
 #   $docTitle (String) - The date or view label for the current calendar view.
 calendar-window-title = { $docTitle } – { -brand-full-name }
 calendar-window-title-base = { -brand-full-name }
+# Variables:
+#   $username (String) - The account username.
+#   $location (String) - The calendar server location.
+calendar-auth-enter-password-for = Voer wachtwoord in voor { $username } op { $location }
+# Variables:
+#   $location (String) - The calendar server location.
+calendar-auth-enter-user-password-for = { $location } vraagt om uw gebruikersnaam en wachtwoord.
