@@ -230,6 +230,7 @@ account-hub-thundermail-button = Oanmelde mei Thundermail
 account-hub-thundermail-divider-text = of
 account-hub-manual-config-imap-title = IMAP-ynstellingen
 account-hub-manual-config-pop3-title = POP3-ynstellingen
+account-hub-manual-config-review-settings-title = Bywurke ynstellingen besjen
 account-hub-manual-config-incoming-legend = Ynkommende server
 account-hub-manual-config-outgoing-legend = Utgeande server
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
@@ -237,6 +238,10 @@ account-hub-same-username-checkbox = Deselde brûkersnamme as ynkommende tsjinne
 account-hub-protocol-imap = Syngronisearje tusken apparaten
 account-hub-protocol-microsoft = Exchange of Microsoft 365
 account-hub-protocol-pop3 = Nei apparaat downloade
+account-hub-oauth-unsupported-title = Oanfoljende konfiguraasje fereaske
+# Note: 'Advanced Configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
+# 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
+account-hub-oauth-unsupported-description = { -brand-short-name } kin OAuth2 net automatysk konfigurearje foar dizze hostnamme. Selektearje Avansearre konfiguraasje om de account oan te meitsjen en foltôgje dan de ynstallaasje fan Accountynstellingen út. <a data-l10n-name="oauth-support-link">Help by it ynstellen fan OAuth2.</a>
 account-hub-notification-show-more = Mear toane
 account-hub-notification-show-less = Minder toane
 account-hub-email-setup-header = Jo e-mailadres tafoegje

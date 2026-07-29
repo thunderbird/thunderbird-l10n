@@ -158,6 +158,9 @@ week-title-label =
     .aria-label = Wike { $title }
 calendar-none =
     .label = Gjin
+# Variables:
+#   $fileName (String) - The backup file name, e.g. 'local-2020-05-11T21-30-17.sqlite'.
+too-new-dbschema-error-text = Jo agindagegevens binne net kompatibel mei dizze ferzje fan { -brand-short-name }. De agindagegevens yn jo profyl binne bywurke troch in nijere ferzje fan { -brand-short-name }. Der is in reservekopy fan it gegevensbestân oanmakke mei de namme ‘{ $fileName }’. Der wurdt trochgien mei in nij oanmakke gegevensbestân.
 imip-bar-unsupported-text = Dit berjocht befettet in barren dy’t dizze ferzje fan { -brand-short-name } net ferwurkje kin.
 # Error strings
 # @name UID_NOT_FOUND
@@ -1128,3 +1131,10 @@ attachments-tab-label = Bylagen ({ $count }):
 #   $docTitle (String) - The date or view label for the current calendar view.
 calendar-window-title = { $docTitle } – { -brand-full-name }
 calendar-window-title-base = { -brand-full-name }
+# Variables:
+#   $username (String) - The account username.
+#   $location (String) - The calendar server location.
+calendar-auth-enter-password-for = Fier wachtwurd yn foar { $username } op { $location }
+# Variables:
+#   $location (String) - The calendar server location.
+calendar-auth-enter-user-password-for = { $location } freget om jo brûkersnamme en wachtwurd.
