@@ -19,7 +19,7 @@ smime-crypto-cipher = Algoritmo de cifrado:
 smime-crypto-key-encryption = Algoritmo de cifrado de clave:
 # $algorithm - The encryption algorithm name (e.g. "AES-GCM")
 # $keySize - The key size in bits (e.g. "256")
-smime-crypto-cipher-with-key-size = { $algorithm } ({ $keySize }-bit)
+smime-crypto-cipher-with-key-size = { $algorithm } ({ $keySize }-bits)
 smime-crypto-details-summary = Algoritmos
 # $errorMsg A sentence that explains the error.
 # $errorCodeStr A human readable error code, e.g. SEC_ERROR_UNKNOWN_ISSUER
