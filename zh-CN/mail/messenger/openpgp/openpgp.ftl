@@ -5,7 +5,7 @@
 e2e-intro-description = 若要发送经加密或数字签名的消息，需配置 OpenPGP 或 S/MIME 加密技术。
 e2e-intro-description-more = 请选择您要用于 OpenPGP 的个人密钥，或用于 S/MIME 的个人证书。无论是个人密钥或是证书，您都会有对应的私钥。
 # Do not translate: S/MIME, CSR, CA
-e2e-csr-intro = 若要获取新的个人 S/MIME 证书，请生成一份证书签名请求（CSR），并向证书授权机构（CA）提交。
+e2e-csr-intro = 若要获取新的个人 S/MIME 证书，请生成一份证书签名请求（CSR），并向证书颁发机构（CA）提交。
 # Do not translate: S/MIME, CSR
 e2e-csr-intro-info = 请为您的 CSR 文件选择本地目录和文件名，并回答以下问题以设置算法和强度。
 # A title for a dialog. Do not translate "CSR".
