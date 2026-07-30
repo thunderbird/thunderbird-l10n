@@ -4,6 +4,7 @@
 
 select-all-calendars = Вылучыць усё
 select-none-calendars = Скінуць вылучэнне
+calendar-creation-dialog-title = Дадаць каляндар
 calendar-creation-initial-description = Вы можаце захоўваць новы каляндар на вашым камп'ютары або на серверы, каб мець да яго аддалены доступ ці падзяліцца ім са сваімі сябрамі або калегамі.
 calendar-creation-initial-computer =
     .label = На камп'ютары
@@ -43,6 +44,7 @@ calendar-creation-network-nocredentials =
 calendar-creation-network-loading = Калі ласка, дачакайцеся, пакуль знойдуцца вашы календары.
 calendar-creation-network-notfound = Не атрымалася знайсці календары па гэтым адрасе. Калі ласка, праверце свае налады.
 calendar-creation-network-authfail = Уліковыя даныя, якія вы ўвялі, не былі прыняты. Калі ласка, праверце вашы налады.
+calendar-creation-network-certerror = Не ўдалося знайсці календары ў гэтым месцы, бо ёсць праблемы з сертыфікатам.
 calendar-creation-network-subscribe-single = Калі ласка, выберыце календары, на якія жадаеце падпісацца.
 calendar-creation-network-subscribe-multiple = Па гэтым адрасе даступныя календары некалькіх тыпаў. Калі ласка, выберыце тып календара, а потом пазначце календары, на якія вы жадаеце падпісацца.
 # Variables:
