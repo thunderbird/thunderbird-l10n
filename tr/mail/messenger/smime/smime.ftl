@@ -14,6 +14,7 @@ configured-cert-failure-detail = Sertifika doğrulaması şu hatayla başarısı
 configured-cert-failure = Sertifika doğrulaması { $errorCode } hata koduyla başarısız oldu
 # Cryptographic details displayed in the message security popup
 smime-crypto-signature-algorithm = İmza algoritması:
+smime-crypto-digest-algorithm = İmza özeti algoritması:
 smime-crypto-cipher = Şifreleme algoritması:
 smime-crypto-key-encryption = Anahtar şifreleme algoritması:
 # $algorithm - The encryption algorithm name (e.g. "AES-GCM")
