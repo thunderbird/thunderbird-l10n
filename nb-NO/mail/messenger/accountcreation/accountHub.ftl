@@ -230,6 +230,7 @@ account-hub-thundermail-button = Logg inn med Thundermail
 account-hub-thundermail-divider-text = eller
 account-hub-manual-config-imap-title = IMAP-innstillinger
 account-hub-manual-config-pop3-title = POP3-innstillinger
+account-hub-manual-config-review-settings-title = Se gjennom oppdaterte innstillinger
 account-hub-manual-config-incoming-legend = Innkommende server
 account-hub-manual-config-outgoing-legend = Utgående server
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
@@ -237,6 +238,7 @@ account-hub-same-username-checkbox = Samme brukernavn som innkommende server
 account-hub-protocol-imap = Synk på tvers av enheter
 account-hub-protocol-microsoft = Exchange eller Microsoft 365
 account-hub-protocol-pop3 = Last ned til enhet
+account-hub-oauth-unsupported-title = Ytterligere konfigurasjon er nødvendig
 account-hub-notification-show-more = Vis mer
 account-hub-notification-show-less = Vis mindre
 account-hub-email-setup-header = Legg til e-postadressen din
@@ -301,6 +303,7 @@ account-hub-port-error-text = Portnummer må være mellom 1 og 65535
     .title = Portnummer må være mellom 1 og 65535
 account-hub-username-error-text = Brukernavn er obligatorisk
     .title = Brukernavn er obligatorisk
+account-hub-manual-config-error-summary = Rett opp følgende feil:
 account-hub-oauth-pending = Venter på autorisasjon i påloggingsvinduet …
 account-hub-addon-install-button = Installer
 account-hub-addon-install-needed = { -brand-short-name } støtter ikke denne serveren som standard. For å få tilgang til Exchange-e-post, <a data-l10n-name="addon-install">installer et tredjeparts tillegg som Owl (betalt).</a>
