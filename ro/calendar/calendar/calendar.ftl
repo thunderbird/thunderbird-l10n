@@ -160,6 +160,9 @@ week-title-label =
     .aria-label = Săptămâna { $title }
 calendar-none =
     .label = Fără
+# Variables:
+#   $fileName (String) - The backup file name, e.g. 'local-2020-05-11T21-30-17.sqlite'.
+too-new-dbschema-error-text = Datele din calendar nu sunt compatibile cu această versiune { -brand-short-name }. Datele de calendar din profilul tău au fost actualizate cu o versiune { -brand-short-name } nouă. A fost creată o copie de siguranță a fișierului de date, cu denumirea „{ $fileName }”. Se continuă cu un fișier de date nou creat.
 imip-bar-unsupported-text = Acest mesaj conține un eveniment pe care această versiune de { -brand-short-name } nu îl poate procesa.
 # Error strings
 # @name UID_NOT_FOUND
@@ -1138,3 +1141,14 @@ event-recurrence-forever =
 attendees-tab-label = Participanți ({ $count }):
 # $count - the number of attachments
 attachments-tab-label = Atașamente ({ $count }):
+# Variables:
+#   $docTitle (String) - The date or view label for the current calendar view.
+calendar-window-title = { $docTitle } - { -brand-full-name }
+calendar-window-title-base = { -brand-full-name }
+# Variables:
+#   $username (String) - The account username.
+#   $location (String) - The calendar server location.
+calendar-auth-enter-password-for = Introdu parola pentru { $username } pe { $location }
+# Variables:
+#   $location (String) - The calendar server location.
+calendar-auth-enter-user-password-for = { $location } îți cere numele de utilizator și parola.

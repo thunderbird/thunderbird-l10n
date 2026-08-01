@@ -13,6 +13,9 @@ multi-message-delete-button =
 multi-message-undelete-button =
     .label = Anulează ștergerea
     .tooltiptext = Anulează ștergerea
+multi-message-flagged-button =
+    .title = Cu steluță
+    .aria-label = Cu steluță
 # Variables:
 #   $count - total number of conversations (threads or solitary messages) selected
 num-conversations =

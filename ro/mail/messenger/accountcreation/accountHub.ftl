@@ -230,6 +230,7 @@ account-hub-thundermail-button = Intră în cont cu Thundermail
 account-hub-thundermail-divider-text = sau
 account-hub-manual-config-imap-title = Setări IMAP
 account-hub-manual-config-pop3-title = Setări POP3
+account-hub-manual-config-review-settings-title = Verifică setările actualizate
 account-hub-manual-config-incoming-legend = Server de primire a mesajelor
 account-hub-manual-config-outgoing-legend = Server de trimitere a mesajelor
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
@@ -237,6 +238,10 @@ account-hub-same-username-checkbox = Același nume de utilizator ca serverul de 
 account-hub-protocol-imap = Sincronizează între dispozitive
 account-hub-protocol-microsoft = Exchange sau Microsoft 365
 account-hub-protocol-pop3 = Descarcă pe dispozitiv
+account-hub-oauth-unsupported-title = Necesită configurare suplimentară
+# Note: 'Advanced Configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
+# 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
+account-hub-oauth-unsupported-description = { -brand-short-name } nu poate configura automat OAuth2 pentru această denumire de gazdă. Selectează Configurare avansată pentru crearea contului, apoi finalizează setările din Setări cont. <a data-l10n-name="oauth-support-link">Obține ajutor pentru configurarea OAuth2.</a>
 account-hub-notification-show-more = Afișează mai multe
 account-hub-notification-show-less = Arată mai puțin
 account-hub-email-setup-header = Adaugă adresa de e-mail
@@ -301,6 +306,7 @@ account-hub-port-error-text = Portul trebuie să fie între 1 și 65535
     .title = Portul trebuie să fie între 1 și 65535
 account-hub-username-error-text = Necesită nume de utilizator
     .title = Necesită nume de utilizator
+account-hub-manual-config-error-summary = Te rugăm să remediezi următoarele erori:
 account-hub-oauth-pending = Se așteaptă autorizarea în fereastra pop-up de autentificare…
 account-hub-addon-install-button = Instalează
 account-hub-addon-install-needed = { -brand-short-name } nu oferă suport nativ pentru acest server. Pentru acces la e-mailul Exchange, <a data-l10n-name="addon-install"> instalează un supliment de la terți, cum ar fi Owl (cu plată).</a>
