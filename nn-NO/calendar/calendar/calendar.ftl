@@ -1124,3 +1124,7 @@ attachments-tab-label = Vedlegg ({ $count }):
 #   $docTitle (String) - The date or view label for the current calendar view.
 calendar-window-title = { $docTitle } - { -brand-full-name }
 calendar-window-title-base = { -brand-full-name }
+# Variables:
+#   $username (String) - The account username.
+#   $location (String) - The calendar server location.
+calendar-auth-enter-password-for = Skriv inn passord for { $username } på { $location }
