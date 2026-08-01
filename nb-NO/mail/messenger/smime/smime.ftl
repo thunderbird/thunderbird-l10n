@@ -12,6 +12,10 @@ configured-cert-ok-sig = Sertifikatet bestod testen og kan brukes til e-postsign
 configured-cert-failure-detail = Bekreftelsen av sertifikatet mislyktes med følgende feil: { $errorMsg } (Feilkode: { $errorCodeStr })
 # $errorCode A numeric error code
 configured-cert-failure = Bekreftelsen av sertifikatet mislyktes med feilkode { $errorCode }
+# Cryptographic details displayed in the message security popup
+smime-crypto-signature-algorithm = Signaturalgoritme:
+smime-crypto-cipher = Krypteringsalgoritme:
+smime-crypto-key-encryption = Nøkkelkrypteringsalgoritme:
 smime-crypto-details-summary = Algoritmer
 # $errorMsg A sentence that explains the error.
 # $errorCodeStr A human readable error code, e.g. SEC_ERROR_UNKNOWN_ISSUER

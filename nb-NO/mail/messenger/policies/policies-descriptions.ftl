@@ -35,6 +35,7 @@ policy-DisableFormHistory = Ikke lagre søke- og skjemahistorikk.
 policy-DisableMasterPasswordCreation = Om aktiv, kan ikke et hovedpassord lages.
 policy-DisablePasswordReveal = Ikke la passord bli avslørt for lagrede innlogginger.
 policy-DisableProfileImport = Deaktiver meny-kommandoen for å importere data fra et annet program.
+policy-DisableQRExport = Deaktiver generering av QR-kode for å eksportere kontoinnstillinger og påloggingsinformasjon.
 policy-DisableSafeMode = Deaktiver funksjonen for å starte på nytt i sikker modus. NB: Deaktivering av tasten skift for å starte sikker modus kan kun gjennomføres i Windows via gruppepolicy.
 policy-DisableSecurityBypass = Forhindre brukerens mulighet til å omgå visse sikkerhetsadvarsler.
 policy-DisableSystemAddonUpdate = Forhindre at { -brand-short-name } installerer og oppdaterer system-utvidelser.
