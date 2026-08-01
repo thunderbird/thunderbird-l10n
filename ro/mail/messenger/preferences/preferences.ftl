@@ -575,6 +575,7 @@ email-picker-description = Locul persoanelor de contact noi salvate din mesajele
 default-add-address-book-label =
     .value = Agendă implicită pentru persoane de contact adăugate manual:
     .accesskey = D
+default-add-address-book-description = Locul persoanelor de contact noi salvate din mesajele primite.
 default-directory-label =
     .value = Dosarul implicit de pornire în fereastra agendei:
     .accesskey = S
