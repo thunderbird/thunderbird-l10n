@@ -158,6 +158,9 @@ week-title-label =
     .aria-label = Veke { $title }
 calendar-none =
     .label = Ingen
+# Variables:
+#   $fileName (String) - The backup file name, e.g. 'local-2020-05-11T21-30-17.sqlite'.
+too-new-dbschema-error-text = Kalenderdataa dine er ikkje kompatible med denne versjonen av { -brand-short-name }. Kalenderdataa i profilen din vart oppdaterte av ein nyare versjon av { -brand-short-name }. Ein sikkerheitskopi av datafila er oppretta med namnet «{ $fileName }». Held fram med ei nyoppretta datafil.
 imip-bar-unsupported-text = Denne meldinga inneheld ei hending som denne versjonen av { -brand-short-name } ikkje kan handsame.
 # Error strings
 # @name UID_NOT_FOUND
@@ -1128,3 +1131,6 @@ calendar-window-title-base = { -brand-full-name }
 #   $username (String) - The account username.
 #   $location (String) - The calendar server location.
 calendar-auth-enter-password-for = Skriv inn passord for { $username } på { $location }
+# Variables:
+#   $location (String) - The calendar server location.
+calendar-auth-enter-user-password-for = { $location } krev brukarnamn og passord.

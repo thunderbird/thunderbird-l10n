@@ -230,6 +230,7 @@ account-hub-thundermail-button = Logg inn med Thundermail
 account-hub-thundermail-divider-text = eller
 account-hub-manual-config-imap-title = IMAP-innstillingar
 account-hub-manual-config-pop3-title = POP3-innstillingar
+account-hub-manual-config-review-settings-title = Sjå gjennom oppdaterte innstillingar
 account-hub-manual-config-incoming-legend = Innkomande server
 account-hub-manual-config-outgoing-legend = Utgåande server
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
@@ -237,6 +238,7 @@ account-hub-same-username-checkbox = Same brukarnamn som innkomande server
 account-hub-protocol-imap = Synkroniser på tvers av einingar
 account-hub-protocol-microsoft = Exchange eller Microsoft 365
 account-hub-protocol-pop3 = Last ned til eining
+account-hub-oauth-unsupported-title = Ytterlegare konfigurasjon er nødvendig
 account-hub-notification-show-more = Vis meir
 account-hub-notification-show-less = Vis mindre
 account-hub-email-setup-header = Legg til e-postadressa di
