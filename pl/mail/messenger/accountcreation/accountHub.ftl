@@ -52,6 +52,7 @@ account-hub-email-continue-button = Kontynuuj
 account-hub-email-set-up-account-button = Skonfiguruj konto
 account-hub-email-confirm-button = Potwierdź
 account-hub-email-find-settings-button = Znajdź ustawienia
+account-hub-email-connect-button = Połącz
 account-hub-result-incoming-legend = Serwer poczty przychodzącej
 account-hub-result-outgoing-legend = Serwer poczty wychodzącej
 account-hub-all-servers-legend = Wszystkie serwery
@@ -235,6 +236,10 @@ account-hub-manual-config-incoming-legend = Serwer poczty przychodzącej
 account-hub-manual-config-outgoing-legend = Serwer poczty wychodzącej
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
 account-hub-same-username-checkbox = Ta sama nazwa użytkownika co na serwerze przychodzącym
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-security-changed = Nie znaleziono { $oldValue }, ale { $newValue } jest dostępna.
 account-hub-protocol-imap = Synchronizuj między urządzeniami
 account-hub-protocol-microsoft = Exchange lub Microsoft 365
 account-hub-protocol-pop3 = Pobieraj na urządzenie
