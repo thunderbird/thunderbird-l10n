@@ -2,6 +2,17 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at https://mozilla.org/MPL/2.0/.
 
+remove-account-dialog-title = Հեռացնել հաշիւը եւ տուեալը
+remove-account-dialog-accept =
+    .label = Հեռացնել
+    .accesskey = Հ
+# Variables:
+# $accountName (String) - The name of the account to be removed.
+remove-account-question = Համոզուա՞ծ էք, որ ցանկանում էք հեռացնել «{ $accountName }» հաշիւը:
+remove-account-checkbox =
+    .label = Հեռացնել հաշուի մասին տեղեկութիւնը
+    .accesskey = հ
+remove-account-description = Հեռացնում է միայն { -brand-short-name } հաշուի բովանդակութիւնը։ Չի ազդում սպասարկիչի վրայ գտնուող հաշուի վրա:
 remove-data-checkbox =
     .label = Հեռացնել հաղորդագրութեան տուեալները
     .accesskey = տ
