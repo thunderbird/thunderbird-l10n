@@ -13,6 +13,9 @@ multi-message-delete-button =
 multi-message-undelete-button =
     .label = Törlés visszavonása
     .tooltiptext = Törlés visszavonása
+multi-message-flagged-button =
+    .title = Csillagozott
+    .aria-label = Csillagozott
 # Variables:
 #   $count - total number of conversations (threads or solitary messages) selected
 num-conversations =

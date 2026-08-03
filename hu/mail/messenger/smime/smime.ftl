@@ -12,6 +12,15 @@ configured-cert-ok-sig = A tanúsítvány átment a teszten, és használható e
 configured-cert-failure-detail = A tanúsítvány-ellenőrzés a következő hibát okozta: { $errorMsg } (Hibakód: { $errorCodeStr })
 # $errorCode A numeric error code
 configured-cert-failure = A tanúsítvány-ellenőrzés sikertelen, hibakód: { $errorCode }
+# Cryptographic details displayed in the message security popup
+smime-crypto-signature-algorithm = Aláírási algoritmus:
+smime-crypto-digest-algorithm = Aláíráskivonatolási algoritmus:
+smime-crypto-cipher = Titkosítási algoritmus:
+smime-crypto-key-encryption = Kulcstitkosítási algoritmus:
+# $algorithm - The encryption algorithm name (e.g. "AES-GCM")
+# $keySize - The key size in bits (e.g. "256")
+smime-crypto-cipher-with-key-size = { $algorithm } ({ $keySize } bites)
+smime-crypto-details-summary = Algoritmusok
 # $errorMsg A sentence that explains the error.
 # $errorCodeStr A human readable error code, e.g. SEC_ERROR_UNKNOWN_ISSUER
 # Note the initial empty line is necessary to preserve the line breaks.

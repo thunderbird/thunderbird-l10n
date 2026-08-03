@@ -230,6 +230,7 @@ account-hub-thundermail-button = Bejelentkezés a Thundermaillel
 account-hub-thundermail-divider-text = vagy
 account-hub-manual-config-imap-title = IMAP-beállítások
 account-hub-manual-config-pop3-title = POP3-beállítások
+account-hub-manual-config-review-settings-title = Frissített beállítások ellenőrzése
 account-hub-manual-config-incoming-legend = Bejövő kiszolgáló
 account-hub-manual-config-outgoing-legend = Kimenő kiszolgáló
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
@@ -237,6 +238,10 @@ account-hub-same-username-checkbox = Bejövő kiszolgálóval megegyező felhasz
 account-hub-protocol-imap = Szinkronizálás az eszközök közt
 account-hub-protocol-microsoft = Exchange vagy Microsoft 365
 account-hub-protocol-pop3 = Letöltés az eszközre
+account-hub-oauth-unsupported-title = További konfiguráció szükséges
+# Note: 'Advanced Configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
+# 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
+account-hub-oauth-unsupported-description = A { -brand-short-name } nem tudja automatikusan beállítani az OAuth2-t ehhez a gazdagépnévhez. Válassza a Speciális beállítások lehetőséget a fiók létrehozásához, majd fejezze be a beállítást a Fiókbeállításokban. <a data-l10n-name="oauth-support-link">Segítség az OAuth2 beállításához.</a>
 account-hub-notification-show-more = Több megjelenítése
 account-hub-notification-show-less = Kevesebb megjelenítése
 account-hub-email-setup-header = E-mail-cím hozzáadása
@@ -301,6 +306,7 @@ account-hub-port-error-text = A portnak 1 és 65535 között kell lennie
     .title = A portnak 1 és 65535 között kell lennie
 account-hub-username-error-text = A felhasználónév megadása kötelező
     .title = A felhasználónév megadása kötelező
+account-hub-manual-config-error-summary = Javítsa az alábbi hibákat:
 account-hub-oauth-pending = Várakozás a bejelentkezési felugró ablakban történő hitelesítésre…
 account-hub-addon-install-button = Telepítés
 account-hub-addon-install-needed = A { -brand-short-name } natív módon nem támogatja ezt a kiszolgálót. Az Exchange levelezés eléréséhez <a data-l10n-name="addon-install">telepítsen egy harmadik féltől származó kiegészítőt, például az Owlt (fizetős).</a>

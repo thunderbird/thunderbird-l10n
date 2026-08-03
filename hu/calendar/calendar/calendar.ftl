@@ -158,6 +158,9 @@ week-title-label =
     .aria-label = { $title }. hét
 calendar-none =
     .label = Nincs
+# Variables:
+#   $fileName (String) - The backup file name, e.g. 'local-2020-05-11T21-30-17.sqlite'.
+too-new-dbschema-error-text = A naptáradatai nem kompatibilisek a { -brand-short-name } ezen verziójával. A profiljában lévő naptáradatokat frissítette a { -brand-short-name } újabb verziója. „{ $fileName }” néven biztonsági mentés készült az adatairól. Folytatás egy frissen létrehozott adatfájllal.
 imip-bar-unsupported-text = Ez az üzenet egy olyan eseményt tartalmaz, amelyet a { -brand-short-name } ezen verziója nem tud feldolgozni.
 # Error strings
 # @name UID_NOT_FOUND
@@ -1120,3 +1123,14 @@ event-recurrence-forever =
 attendees-tab-label = Résztvevők ({ $count }):
 # $count - the number of attachments
 attachments-tab-label = Mellékletek ({ $count }):
+# Variables:
+#   $docTitle (String) - The date or view label for the current calendar view.
+calendar-window-title = { $docTitle } – { -brand-full-name }
+calendar-window-title-base = { -brand-full-name }
+# Variables:
+#   $username (String) - The account username.
+#   $location (String) - The calendar server location.
+calendar-auth-enter-password-for = Adja meg { $username } jelszavát itt: { $location }
+# Variables:
+#   $location (String) - The calendar server location.
+calendar-auth-enter-user-password-for = A(z) %1$S a felhasználónevét és jelszavát kéri.
