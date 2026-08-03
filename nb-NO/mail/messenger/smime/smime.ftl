@@ -14,6 +14,7 @@ configured-cert-failure-detail = Bekreftelsen av sertifikatet mislyktes med føl
 configured-cert-failure = Bekreftelsen av sertifikatet mislyktes med feilkode { $errorCode }
 # Cryptographic details displayed in the message security popup
 smime-crypto-signature-algorithm = Signaturalgoritme:
+smime-crypto-digest-algorithm = Signaturens sammendragsalgoritme:
 smime-crypto-cipher = Krypteringsalgoritme:
 smime-crypto-key-encryption = Nøkkelkrypteringsalgoritme:
 # $algorithm - The encryption algorithm name (e.g. "AES-GCM")

@@ -239,6 +239,9 @@ account-hub-protocol-imap = Synk på tvers av enheter
 account-hub-protocol-microsoft = Exchange eller Microsoft 365
 account-hub-protocol-pop3 = Last ned til enhet
 account-hub-oauth-unsupported-title = Ytterligere konfigurasjon er nødvendig
+# Note: 'Advanced Configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
+# 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
+account-hub-oauth-unsupported-description = { -brand-short-name } kan ikke konfigurere OAuth2 automatisk for dette hostnavnet. Velg «Avansert konfigurasjon» for å opprette kontoen, og fullfør deretter oppsettet under «Kontoinnstillinger». <a data-l10n-name="oauth-support-link">Få hjelp med oppsett av OAuth2.</a>
 account-hub-notification-show-more = Vis mer
 account-hub-notification-show-less = Vis mindre
 account-hub-email-setup-header = Legg til e-postadressen din
