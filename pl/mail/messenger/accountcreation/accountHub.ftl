@@ -240,6 +240,14 @@ account-hub-same-username-checkbox = Ta sama nazwa użytkownika co na serwerze p
 # $oldValue (String): The value requested before the configuration was tested.
 # $newValue (String): The value found after the configuration was tested.
 account-hub-manual-config-security-changed = Nie znaleziono { $oldValue }, ale { $newValue } jest dostępna.
+# Variables:
+# $oldValue (String): The port requested before the configuration was tested.
+# $newValue (String): The port found after the configuration was tested.
+account-hub-manual-config-port-changed = Nie można nawiązać połączenia z portem { $oldValue }, ale port { $newValue } jest dostępny.
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-value-changed = Nie można użyć { $oldValue }, ale { $newValue } jest dostępna.
 account-hub-protocol-imap = Synchronizuj między urządzeniami
 account-hub-protocol-microsoft = Exchange lub Microsoft 365
 account-hub-protocol-pop3 = Pobieraj na urządzenie
@@ -255,6 +263,7 @@ account-hub-email-setup-outgoing = Ustawienia serwera poczty wychodzącej
 account-hub-email-exchange-settings = Ustawienia Exchange
 account-hub-email-connect-settings = Połącz z ustawieniami poczty e-mail
 account-hub-email-protocol-select-header = Wybierz typ konta e-mail
+account-hub-email-protocol-select-additional-info = Dodatkowe informacje wymagane są do założenia tego konta.
 account-hub-email-protocol-select-notification = Dodatkowe informacje wymagane są do założenia tego konta
 account-hub-email-config-found = Wybierz typ konta e-mail
 account-hub-email-enter-password = Wpisz hasło do konta e-mail

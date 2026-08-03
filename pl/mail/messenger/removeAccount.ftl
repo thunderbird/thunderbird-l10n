@@ -25,3 +25,50 @@ remove-data-chat-account-description = Usuwa wszystkie zapisy rozmów przechowyw
 show-data-button =
     .label = Wyświetl położenie danych
     .accesskey = W
+# Variables:
+# $count (Number) - The number of outgoing servers to be removed.
+remove-outgoing-servers-checkbox =
+    .label =
+        { $count ->
+            [one] Usuń serwer poczty wychodzącej
+            [few] Usuń { $count } serwery poczty wychodzącej
+           *[many] Usuń { $count } serwerów poczty wychodzącej
+        }
+# Variables:
+# $count (Number) - The number of address books to be removed.
+remove-address-books-checkbox =
+    .label =
+        { $count ->
+            [one] Usuń książkę adresową
+            [few] Usuń { $count } książki adresowe
+           *[many] Usuń { $count } książek adresowych
+        }
+# Variables:
+# $count (Number) - The number of calendars to be removed.
+remove-calendars-checkbox =
+    .label =
+        { $count ->
+            [one] Usuń kalendarz
+            [few] Usuń { $count } kalendarze
+           *[many] Usuń { $count } kalendarzy
+        }
+# Variables:
+# $count (Number) - The number of passwords to be removed.
+remove-passwords-checkbox =
+    .label =
+        { $count ->
+            [one] Usuń hasło
+            [few] Usuń { $count } hasła
+           *[many] Usuń { $count } haseł
+        }
+# Variables:
+# $count (Number) - The number of OAuth tokens to be removed.
+remove-oauth-tokens-checkbox =
+    .label =
+        { $count ->
+            [one] Usuń token OAuth
+            [few] Usuń { $count } tokeny OAuth
+           *[many] Usuń { $count } tokenów OAuth
+        }
+remove-account-progress-success = Konto zostało pomyślnie usunięte.
+remove-account-progress-failure = Coś się nie powiodło! Nie udało się dokończyć usuwania konta.
