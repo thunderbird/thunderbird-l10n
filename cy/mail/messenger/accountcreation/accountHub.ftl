@@ -52,6 +52,7 @@ account-hub-email-continue-button = Parhau
 account-hub-email-set-up-account-button = Creu cyfrif
 account-hub-email-confirm-button = Cadarnhau
 account-hub-email-find-settings-button = Canfod y gosodiadau
+account-hub-email-connect-button = Cysylltu
 account-hub-result-incoming-legend = Derbyn
 account-hub-result-outgoing-legend = Anfon
 account-hub-all-servers-legend = Pob gweinydd
@@ -235,6 +236,18 @@ account-hub-manual-config-incoming-legend = Gweinydd derbyn
 account-hub-manual-config-outgoing-legend = Gweinydd anfon
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
 account-hub-same-username-checkbox = Yr un enw defnyddiwr â'r gweinydd derbyn
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-security-changed = Methu canfod { $oldValue }, ond mae { $newValue } ar gael.
+# Variables:
+# $oldValue (String): The port requested before the configuration was tested.
+# $newValue (String): The port found after the configuration was tested.
+account-hub-manual-config-port-changed = Methu cyrraedd Porth { $oldValue } , ond mae Porth { $newValue } ar gael.
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-value-changed = Methu defnyddio { $oldValue }, ond mae { $newValue } ar gael.
 account-hub-protocol-imap = Cydweddu ar draws dyfeisiau
 account-hub-protocol-microsoft = Exchange neu Microsoft 365
 account-hub-protocol-pop3 = Llwytho i lawr i ddyfais
@@ -250,6 +263,7 @@ account-hub-email-setup-outgoing = Gosodiadau'r gweinydd allan
 account-hub-email-exchange-settings = Gosodiadau Exchange
 account-hub-email-connect-settings = Cysylltwch eich gosodiadau e-bost
 account-hub-email-protocol-select-header = Dewiswch fath o gyfrif e-bost
+account-hub-email-protocol-select-additional-info = Mae angen gwybodaeth ychwanegol i osod y cyfrif hwn.
 account-hub-email-protocol-select-notification = Mae angen gwybodaeth ychwanegol i greu'r cyfrif hwn
 account-hub-email-config-found = Dewiswch eich math o gyfrif e-bost
 account-hub-email-enter-password = Rhowch gyfrinair eich cyfrif e-bost

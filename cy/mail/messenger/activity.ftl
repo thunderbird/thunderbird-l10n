@@ -111,3 +111,18 @@ extension-send-activity-event =
         [many] Anfonodd estyniad “ { $extensionName } ” nifer o negeseuon heb oruchwyliaeth
        *[other] Anfonodd estyniad “ { $extensionName } ” nifer o negeseuon heb oruchwyliaeth
     }
+# Status line shown under extension-send-activity-event.
+# Reports how many messages were sent by the extension and how long the
+# completed send batch took.
+# Variables:
+#   $count (Number) - number of messages sent
+#   $time (String) - localized elapsed time
+extension-sent-activity-event-status =
+    { $count ->
+        [one] { $count } neges (amser aeth heibio: { $time })
+        [zero] { $count } negeseuon (amser aeth heibio: { $time })
+        [two] { $count } neges (amser aeth heibio: { $time })
+        [few] { $count } neges (amser aeth heibio: { $time })
+        [many] { $count } neges (amser aeth heibio: { $time })
+       *[other] { $count } neges (amser aeth heibio: { $time })
+    }
