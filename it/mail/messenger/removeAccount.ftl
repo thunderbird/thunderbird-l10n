@@ -4,24 +4,24 @@
 
 remove-account-dialog-title = Elimina account e dati
 remove-account-dialog-accept =
-    .label = Rimuovi
-    .accesskey = R
+    .label = Elimina
+    .accesskey = E
 # Variables:
 # $accountName (String) - The name of the account to be removed.
-remove-account-question = Rimuovere l’account “{ $accountName }”?
+remove-account-question = Eliminare l’account “{ $accountName }”?
 remove-account-checkbox =
-    .label = Rimuovi informazioni account
-    .accesskey = R
-remove-account-description = Rimuove solo { -brand-short-name } a conoscenza di questo account. Non ha effetto sull’account stesso sul server.
+    .label = Elimina informazioni account
+    .accesskey = E
+remove-account-description = Elimina solo le informazioni di { -brand-short-name } relative a questo account. L’account sul server non viene modificato.
 remove-data-checkbox =
-    .label = Rimuovi i dati dei messaggi
-    .accesskey = R
+    .label = Elimina i dati dei messaggi
+    .accesskey = m
 remove-chat-data-checkbox =
-    .label = Rimuovi i dati della conversazione
-    .accesskey = R
-remove-data-local-account-description = Rimuove dal disco locale tutti i messaggi, le cartelle e i filtri associati a questo account. Questo non ha effetto su alcuni messaggi che potrebbero essere ancora conservati sul server. Non selezionare questa opzione se si prevede di archiviare i dati locali o di riutilizzarli in { -brand-short-name } in un secondo momento.
-remove-data-server-account-description = Rimuove tutti i messaggi, le cartelle e i filtri associati a questo account dal disco locale. I messaggi e le cartelle sono ancora conservati sul server.
-remove-data-chat-account-description = Rimuove tutti i log delle conversazioni per questo account salvati sul disco locale.
+    .label = Elimina i dati delle conversazioni
+    .accesskey = c
+remove-data-local-account-description = Elimina dal disco locale tutti i messaggi, le cartelle e i filtri associati a questo account. Questo non ha effetto su alcuni messaggi che potrebbero essere ancora conservati sul server. Non selezionare questa opzione se si prevede di archiviare i dati locali o di riutilizzarli in { -brand-short-name } in un secondo momento.
+remove-data-server-account-description = Elimina tutti i messaggi, le cartelle e i filtri associati a questo account dal disco locale. I messaggi e le cartelle sono ancora conservati sul server.
+remove-data-chat-account-description = Elimina tutti i log delle conversazioni per questo account salvati sul disco locale.
 show-data-button =
     .label = Mostra posizione dati
     .accesskey = M
@@ -30,24 +30,24 @@ show-data-button =
 remove-outgoing-servers-checkbox =
     .label =
         { $count ->
-            [one] Rimuovi server in uscita
-           *[other] Rimuovi { $count } server in uscita
+            [one] Elimina server in uscita
+           *[other] Elimina { $count } server in uscita
         }
 # Variables:
 # $count (Number) - The number of address books to be removed.
 remove-address-books-checkbox =
     .label =
         { $count ->
-            [one] Rimuovi rubrica
-           *[other] Rimuovi { $count } rubriche
+            [one] Elimina rubrica
+           *[other] Elimina { $count } rubriche
         }
 # Variables:
 # $count (Number) - The number of calendars to be removed.
 remove-calendars-checkbox =
     .label =
         { $count ->
-            [one] Rimuovi calendario
-           *[other] Rimuovi { $count } calendari
+            [one] Elimina calendario
+           *[other] Elimina { $count } calendari
         }
 # Variables:
 # $count (Number) - The number of passwords to be removed.
@@ -55,15 +55,15 @@ remove-passwords-checkbox =
     .label =
         { $count ->
             [one] Elimina password
-           *[other] Rimuovi { $count } password
+           *[other] Elimina { $count } password
         }
 # Variables:
 # $count (Number) - The number of OAuth tokens to be removed.
 remove-oauth-tokens-checkbox =
     .label =
         { $count ->
-            [one] Rimuovi token OAuth
-           *[other] Rimuovi { $count } token OAuth
+            [one] Elimina token OAuth
+           *[other] Elimina { $count } token OAuth
         }
-remove-account-progress-success = L’account è stato rimosso correttamente.
-remove-account-progress-failure = Qualcosa è andato storto. Impossibile completare la rimozione dell’account.
+remove-account-progress-success = L’account è stato eliminato correttamente.
+remove-account-progress-failure = Si è verificato un problema. Impossibile completare l’eliminazione dell’account.

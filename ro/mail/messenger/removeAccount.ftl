@@ -43,3 +43,32 @@ remove-address-books-checkbox =
             [few] Elimină { $count } agende de contacte
            *[other] Elimină { $count } de agende de contacte
         }
+# Variables:
+# $count (Number) - The number of calendars to be removed.
+remove-calendars-checkbox =
+    .label =
+        { $count ->
+            [one] Elimină calendarul
+            [few] Elimină { $count } calendare
+           *[other] Elimină { $count } de calendare
+        }
+# Variables:
+# $count (Number) - The number of passwords to be removed.
+remove-passwords-checkbox =
+    .label =
+        { $count ->
+            [one] Elimină parola
+            [few] Elimină { $count } parole
+           *[other] Elimină { $count } de parole
+        }
+# Variables:
+# $count (Number) - The number of OAuth tokens to be removed.
+remove-oauth-tokens-checkbox =
+    .label =
+        { $count ->
+            [one] Elimină jeton OAuth
+            [few] Elimină { $count } jetoane OAuth
+           *[other] Elimină { $count } de jetoane OAuth
+        }
+remove-account-progress-success = Contul a fost șters cu succes.
+remove-account-progress-failure = Ceva nu a funcționat! Nu se poate finaliza eliminarea contului.
