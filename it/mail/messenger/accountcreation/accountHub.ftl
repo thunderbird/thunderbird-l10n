@@ -52,6 +52,7 @@ account-hub-email-continue-button = Continua
 account-hub-email-set-up-account-button = Configura account
 account-hub-email-confirm-button = Conferma
 account-hub-email-find-settings-button = Trova impostazioni
+account-hub-email-connect-button = Connetti
 account-hub-result-incoming-legend = In entrata
 account-hub-result-outgoing-legend = In uscita
 account-hub-all-servers-legend = Tutti i server
@@ -235,6 +236,18 @@ account-hub-manual-config-incoming-legend = Server in entrata
 account-hub-manual-config-outgoing-legend = Server in uscita
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
 account-hub-same-username-checkbox = Stesso nome utente del server in entrata
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-security-changed = Impossibile trovare { $oldValue }, ma { $newValue } è disponibile.
+# Variables:
+# $oldValue (String): The port requested before the configuration was tested.
+# $newValue (String): The port found after the configuration was tested.
+account-hub-manual-config-port-changed = Impossibile raggiungere la porta { $oldValue }, ma la porta { $newValue } è disponibile.
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-value-changed = Impossibile utilizzare { $oldValue }, ma { $newValue } è disponibile.
 account-hub-protocol-imap = Sincronizzazione tra più dispositivi
 account-hub-protocol-microsoft = Exchange o Microsoft 365
 account-hub-protocol-pop3 = Scarica sul dispositivo
@@ -250,6 +263,7 @@ account-hub-email-setup-outgoing = Impostazioni del server in uscita
 account-hub-email-exchange-settings = Impostazioni di Exchange
 account-hub-email-connect-settings = Collega le tue impostazioni email
 account-hub-email-protocol-select-header = Scegli un tipo di account email
+account-hub-email-protocol-select-additional-info = Sono necessarie ulteriori informazioni per configurare questo account.
 account-hub-email-protocol-select-notification = Sono necessarie ulteriori informazioni per configurare questo account
 account-hub-email-config-found = Scegli il tipo di account di posta elettronica
 account-hub-email-enter-password = Inserisci la password del tuo account di posta elettronica

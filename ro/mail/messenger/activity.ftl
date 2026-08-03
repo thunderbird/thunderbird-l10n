@@ -104,6 +104,18 @@ extension-send-activity-event =
         [few] Extensia { $extensionName } a trimis mai multe mesaje fără intervenția utilizatorului.
        *[other] Extensia { $extensionName } a trimis mai multe mesaje fără intervenția utilizatorului.
     }
+# Status line shown under extension-send-activity-event.
+# Reports how many messages were sent by the extension and how long the
+# completed send batch took.
+# Variables:
+#   $count (Number) - number of messages sent
+#   $time (String) - localized elapsed time
+extension-sent-activity-event-status =
+    { $count ->
+        [one] { $count } mesaj (timp scurs: { $time })
+        [few] { $count } mesaje (timp scurs: { $time })
+       *[other] { $count } de mesaje (timp scurs: { $time })
+    }
 # Status line shown under extension-send-activity-event. Reports how many
 # messages were sent and the wall-clock time between the first and last send in
 # the batch (rounded to whole seconds, at least one).

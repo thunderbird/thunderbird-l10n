@@ -58,6 +58,16 @@ extension-send-activity-event =
         [one] 擴充套件「{ $extensionName }」自動傳送了 1 封訊息。
        *[other] 擴充套件「{ $extensionName }」自動傳送了多封訊息。
     }
+# Status line shown under extension-send-activity-event.
+# Reports how many messages were sent by the extension and how long the
+# completed send batch took.
+# Variables:
+#   $count (Number) - number of messages sent
+#   $time (String) - localized elapsed time
+extension-sent-activity-event-status =
+    { $count ->
+       *[other] { $count } 訊息經過時間: { $time }
+    }
 # Status line shown under extension-send-activity-event. Reports how many
 # messages were sent and the wall-clock time between the first and last send in
 # the batch (rounded to whole seconds, at least one).

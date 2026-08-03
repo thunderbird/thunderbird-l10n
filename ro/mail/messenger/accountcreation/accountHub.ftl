@@ -52,6 +52,7 @@ account-hub-email-continue-button = Continuă
 account-hub-email-set-up-account-button = Configurează contul
 account-hub-email-confirm-button = Confirmă
 account-hub-email-find-settings-button = Găsește setări
+account-hub-email-connect-button = Conectare
 account-hub-result-incoming-legend = Primire
 account-hub-result-outgoing-legend = Expediere
 account-hub-all-servers-legend = Toate serverele
@@ -235,6 +236,18 @@ account-hub-manual-config-incoming-legend = Server de primire a mesajelor
 account-hub-manual-config-outgoing-legend = Server de trimitere a mesajelor
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
 account-hub-same-username-checkbox = Același nume de utilizator ca serverul de intrare
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-security-changed = Nu s-a găsit { $oldValue }, dar { $newValue } este disponibil.
+# Variables:
+# $oldValue (String): The port requested before the configuration was tested.
+# $newValue (String): The port found after the configuration was tested.
+account-hub-manual-config-port-changed = Nu s-a putut accesa portul { $oldValue }, dar portul { $newValue } este disponibil.
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-value-changed = Nu s-a putut folosi { $oldValue }, dar { $newValue } este disponibil.
 account-hub-protocol-imap = Sincronizează între dispozitive
 account-hub-protocol-microsoft = Exchange sau Microsoft 365
 account-hub-protocol-pop3 = Descarcă pe dispozitiv
@@ -250,6 +263,7 @@ account-hub-email-setup-outgoing = Setări server de ieșire
 account-hub-email-exchange-settings = Setări Exchange
 account-hub-email-connect-settings = Conectează-ți setările de e-mail
 account-hub-email-protocol-select-header = Alege tipul contului de e-mail
+account-hub-email-protocol-select-additional-info = Sunt necesare informații suplimentare pentru configurarea acestui cont.
 account-hub-email-protocol-select-notification = Sunt necesare informații suplimentare pentru configurarea acestui cont
 account-hub-email-config-found = Alege tipul contului de e-mail
 account-hub-email-enter-password = Introdu parola contului de e-mail
