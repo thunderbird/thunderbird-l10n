@@ -236,6 +236,18 @@ account-hub-manual-config-incoming-legend = Dochadny serwer
 account-hub-manual-config-outgoing-legend = Wuchadny serwer
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
 account-hub-same-username-checkbox = Samsne wužiwarske mjeno jako dochadny serwer
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-security-changed = { $oldValue } njeda so namakać, ale { $newValue } je k dispoziciji.
+# Variables:
+# $oldValue (String): The port requested before the configuration was tested.
+# $newValue (String): The port found after the configuration was tested.
+account-hub-manual-config-port-changed = Port { $oldValue } njeda so docpěć, ale port { $newValue } je k dispoziciji.
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-value-changed = { $oldValue } njeda so wužiwać, ale { $newValue } je k dispoziciji.
 account-hub-protocol-imap = Synchronizacija mjez gratami
 account-hub-protocol-microsoft = Exchange abo Microsoft 365
 account-hub-protocol-pop3 = Na grat sćahnyć

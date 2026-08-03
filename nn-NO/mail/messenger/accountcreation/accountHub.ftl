@@ -240,6 +240,9 @@ account-hub-protocol-imap = Synkroniser på tvers av einingar
 account-hub-protocol-microsoft = Exchange eller Microsoft 365
 account-hub-protocol-pop3 = Last ned til eining
 account-hub-oauth-unsupported-title = Ytterlegare konfigurasjon er nødvendig
+# Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
+# 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
+account-hub-oauth-unsupported-description = { -brand-short-name } kan ikkje konfigurere OAuth2 automatisk for dette vertsnamnet. Vel «Avansert konfigurasjon» for å opprette kontoen, og fullfør deretter oppsettet under «Kontoinnstillingar». <a data-l10n-name="oauth-support-link">Få hjelp med oppsett av OAuth2.</a>
 account-hub-notification-show-more = Vis meir
 account-hub-notification-show-less = Vis mindre
 account-hub-email-setup-header = Legg til e-postadressa di
@@ -304,6 +307,7 @@ account-hub-port-error-text = Portnummer må vere mellom 1 og 65535
     .title = Portnummer må vere mellom 1 og 65535
 account-hub-username-error-text = Brukarnamn er påkravd
     .title = Brukarnamn er påkravd
+account-hub-manual-config-error-summary = Rett opp følgjande feil:
 account-hub-oauth-pending = Ventar på autorisasjon i påloggingsvindauget …
 account-hub-addon-install-button = Installer
 account-hub-addon-install-needed = { -brand-short-name } støttar ikkje denne serveren som standard. For å få tilgang til Exchange-e-post, <a data-l10n-name="addon-install">installer eit tredjeparts tillegg som Owl (betalt).</a>

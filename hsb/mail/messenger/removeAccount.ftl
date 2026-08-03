@@ -45,3 +45,35 @@ remove-address-books-checkbox =
             [few] { $count } adresniki wotstronić
            *[other] { $count } adresnikow wotstronić
         }
+# Variables:
+# $count (Number) - The number of calendars to be removed.
+remove-calendars-checkbox =
+    .label =
+        { $count ->
+            [one] { $count } protyku wotstronić
+            [two] { $count } protyce wotstronić
+            [few] { $count } protyki wotstronić
+           *[other] { $count } protykow wotstronić
+        }
+# Variables:
+# $count (Number) - The number of passwords to be removed.
+remove-passwords-checkbox =
+    .label =
+        { $count ->
+            [one] { $count } hesło wotstronić
+            [two] { $count } hesle wotstronić
+            [few] { $count } hesła wotstronić
+           *[other] { $count } hesłow wotstronić
+        }
+# Variables:
+# $count (Number) - The number of OAuth tokens to be removed.
+remove-oauth-tokens-checkbox =
+    .label =
+        { $count ->
+            [one] { $count } token OAuth wotstronić
+            [two] { $count } tokenaj OAuth wotstronić
+            [few] { $count } tokeny OAuth wotstronić
+           *[other] { $count } tokenow OAuth wotstronić
+        }
+remove-account-progress-success = Konto je so wuspěšnje wotstroniło.
+remove-account-progress-failure = Něšto je so nimokuliło! Njeje móžno wotstronjenje konta dokónčić.
