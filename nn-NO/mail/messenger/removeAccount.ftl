@@ -5,7 +5,7 @@
 remove-account-dialog-title = Fjern konto og data
 remove-account-dialog-accept =
     .label = Fjern
-    .accesskey = F
+    .accesskey = e
 # Variables:
 # $accountName (String) - The name of the account to be removed.
 remove-account-question = Er du sikker på at du vil fjerna kontoen «{ $accountName }»?

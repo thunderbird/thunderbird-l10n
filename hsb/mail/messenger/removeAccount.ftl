@@ -25,3 +25,23 @@ remove-data-chat-account-description = Wotstroni wšě protokole rozmołwow skł
 show-data-button =
     .label = Městno datow pokazać
     .accesskey = M
+# Variables:
+# $count (Number) - The number of outgoing servers to be removed.
+remove-outgoing-servers-checkbox =
+    .label =
+        { $count ->
+            [one] { $count } wuchadny serwer wotstronić
+            [two] { $count } wuchadnej serweraj wotstronić
+            [few] { $count } wuchadne serwery wotstronić
+           *[other] { $count } wuchadnych serwerow wotstronić
+        }
+# Variables:
+# $count (Number) - The number of address books to be removed.
+remove-address-books-checkbox =
+    .label =
+        { $count ->
+            [one] { $count } adresnik wotstronić
+            [two] { $count } adresnikaj wotstronić
+            [few] { $count } adresniki wotstronić
+           *[other] { $count } adresnikow wotstronić
+        }
