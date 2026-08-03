@@ -52,6 +52,7 @@ account-hub-email-continue-button = Hald fram
 account-hub-email-set-up-account-button = Kontooppsett
 account-hub-email-confirm-button = Stadfest
 account-hub-email-find-settings-button = Finn innstillingar
+account-hub-email-connect-button = Kople til
 account-hub-result-incoming-legend = Innkomande
 account-hub-result-outgoing-legend = Utgåande
 account-hub-all-servers-legend = Alle serverar
