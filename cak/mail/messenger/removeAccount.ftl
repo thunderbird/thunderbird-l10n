@@ -2,6 +2,24 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at https://mozilla.org/MPL/2.0/.
 
+remove-account-dialog-title = Keyuj Rub'i' Taqoya'l chuqa' Tzij
+remove-account-dialog-accept =
+    .label = Tiyuj
+    .accesskey = y
+# Variables:
+# $accountName (String) - The name of the account to be removed.
+remove-account-question = ¿La kan nawajo' nayüj el ri rub'i' taqoya'l "{ $accountName }"?
+remove-account-checkbox =
+    .label = Tiyuj retamab'al rub'i' taqoya'l
+    .accesskey = t
+remove-account-description = Tiyuj xa xe ri retamaxik { -brand-short-name }'s re rub'i' taqoya'l re'. Man nutz'ila' ta ri rub'i' taqoya'l pa ri k'uxasamaj.
+remove-data-checkbox =
+    .label = Tiyuj rutzij tzijol
+    .accesskey = r
+remove-chat-data-checkbox =
+    .label = Tiyuj rutzij tzijonem
+    .accesskey = r
+remove-data-local-account-description = Keyuj el ri taq tzijol, taq yakwuj chuqa' taq chayub'äl kiximon ki' rik'in re rub'i' rutaqoya'l chupam ri nimayakb'äl. Re re' man nutz'ila' ta jujun taq rutzijol, ri k'a yek'oje' kan pa ri k'uxasamaj. Man ticha' we nina'ojïx yeyak ri taq tzij k'o chupam o ye'okisäx chik pa { -brand-short-name } jub'a' chik na.
 remove-data-server-account-description = Keyuj el ri taq tzijol, taq yakwuj chuqa' taq chayub'äl kiximon ki' rik'in re rub'i' rutaqoya'l chupam ri nimayakb'äl. Ri taq rutzijol chuqa' taq yakwuj k'a e k'o pa ri k'uxasamaj.
 remove-data-chat-account-description = Keyuj ri taq kitz'ib'anik rutzijonem re rub'i' taqoya'l re', ri eyakon chupam ri nimayakb'äl.
 show-data-button =
