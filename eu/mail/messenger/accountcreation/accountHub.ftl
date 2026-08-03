@@ -228,6 +228,8 @@ account-hub-encryption-button = Muturretik muturrerako zifratzea
 account-hub-address-books-button = Helbide-liburuak
 account-hub-calendars-button = Egutegiak
 account-hub-thundermail-button = Hasi saioa Thundermail-ekin
+# Used as part of a divider between sign in button and a sign in form.
+account-hub-thundermail-divider-text = edo
 account-hub-notification-show-more = Gehiago erakutsi
 account-hub-notification-show-less = Gutxiago erakutsi
 account-hub-email-setup-header = Gehitu zure helbide elektronikoa
