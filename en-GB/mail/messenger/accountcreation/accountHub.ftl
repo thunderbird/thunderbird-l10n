@@ -52,6 +52,7 @@ account-hub-email-continue-button = Continue
 account-hub-email-set-up-account-button = Set up account
 account-hub-email-confirm-button = Confirm
 account-hub-email-find-settings-button = Find settings
+account-hub-email-connect-button = Connect
 account-hub-result-incoming-legend = Incoming
 account-hub-result-outgoing-legend = Outgoing
 account-hub-all-servers-legend = All servers
@@ -235,6 +236,18 @@ account-hub-manual-config-incoming-legend = Incoming server
 account-hub-manual-config-outgoing-legend = Outgoing server
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
 account-hub-same-username-checkbox = Same username as incoming server
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-security-changed = Couldn’t find { $oldValue }, but { $newValue } is available.
+# Variables:
+# $oldValue (String): The port requested before the configuration was tested.
+# $newValue (String): The port found after the configuration was tested.
+account-hub-manual-config-port-changed = Couldn’t reach Port { $oldValue }, but Port { $newValue } is available.
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-value-changed = Couldn’t use { $oldValue }, but { $newValue } is available.
 account-hub-protocol-imap = Synchronise across devices
 account-hub-protocol-microsoft = Exchange or Microsoft 365
 account-hub-protocol-pop3 = Download to device
@@ -250,6 +263,7 @@ account-hub-email-setup-outgoing = Outgoing server settings
 account-hub-email-exchange-settings = Exchange settings
 account-hub-email-connect-settings = Connect your email settings
 account-hub-email-protocol-select-header = Choose an email account type
+account-hub-email-protocol-select-additional-info = Additional information is required to set up this account.
 account-hub-email-protocol-select-notification = Additional information is required to set up this account
 account-hub-email-config-found = Choose your email account type
 account-hub-email-enter-password = Enter your email account password
