@@ -239,7 +239,7 @@ account-hub-protocol-imap = Синхронизация между устройс
 account-hub-protocol-microsoft = Exchange или Microsoft 365
 account-hub-protocol-pop3 = Загрузить на устройство
 account-hub-oauth-unsupported-title = Требуется дополнительная настройка
-# Note: 'Advanced Configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
+# Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
 account-hub-oauth-unsupported-description = { -brand-short-name } не может автоматически настраивать OAuth2 для этого имени хоста. Выберите «Дополнительная настройка», чтобы создать учётную запись, затем завершите настройку в параметрах учётной записи. <a data-l10n-name="oauth-support-link">Получите помощь по настройке OAuth2.</a>
 account-hub-notification-show-more = Показать больше

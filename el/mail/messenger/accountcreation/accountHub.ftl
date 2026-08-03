@@ -239,7 +239,7 @@ account-hub-protocol-imap = Συγχρονισμός ανάμεσα σε συσ�
 account-hub-protocol-microsoft = Exchange ή Microsoft 365
 account-hub-protocol-pop3 = Λήψη σε συσκευή
 account-hub-oauth-unsupported-title = Απαιτείται επιπρόσθετη ρύθμιση
-# Note: 'Advanced Configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
+# Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
 account-hub-oauth-unsupported-description = Το { -brand-short-name } δεν μπορεί να ρυθμίσει αυτόματα το OAuth2 για αυτό το όνομα κεντρικού υπολογιστή. Επιλέξτε «Σύνθετη διαμόρφωση» για να δημιουργήσετε τον λογαριασμό και έπειτα, ολοκληρώστε τη ρύθμιση από τις Ρυθμίσεις λογαριασμού. <a data-l10n-name="oauth-support-link">Λάβετε βοήθεια με τη ρύθμιση του OAuth2.</a>
 account-hub-notification-show-more = Εμφάνιση περισσότερων

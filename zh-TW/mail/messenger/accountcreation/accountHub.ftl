@@ -239,7 +239,7 @@ account-hub-protocol-imap = 在不同裝置間同步
 account-hub-protocol-microsoft = Exchange 或 Microsoft 365
 account-hub-protocol-pop3 = 下載到裝置
 account-hub-oauth-unsupported-title = 需要額外設定
-# Note: 'Advanced Configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
+# Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
 account-hub-oauth-unsupported-description = { -brand-short-name } 無法為此主機名稱自動設定 OAuth2。請選擇「進階設定」來建立帳號，然後到「帳號設定」當中完成設定。<a data-l10n-name="oauth-support-link">取得 OAuth2 的設定協助。</a>
 account-hub-notification-show-more = 顯示更多

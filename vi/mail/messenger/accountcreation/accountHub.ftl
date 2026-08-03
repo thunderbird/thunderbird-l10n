@@ -239,7 +239,7 @@ account-hub-protocol-imap = Đồng bộ hóa giữa các thiết bị
 account-hub-protocol-microsoft = Exchange hoặc Microsoft 365
 account-hub-protocol-pop3 = Tải xuống về thiết bị
 account-hub-oauth-unsupported-title = Cần thực hiện các cấu hình bổ sung
-# Note: 'Advanced Configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
+# Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
 account-hub-oauth-unsupported-description = { -brand-short-name } không thể tự động cấu hình OAuth2 cho hostname này. Chọn Cấu hình nâng cao để thêm tài khoản, sau đó hoàn thành thiết lập trong Cài đặt tài khoản. <a data-l10n-name="oauth-support-link">Nhận trợ giúp về thiết lập OAuth2.</a>
 account-hub-notification-show-more = Xem thêm

@@ -239,7 +239,7 @@ account-hub-protocol-imap = Sincronizar todos los dispositivos
 account-hub-protocol-microsoft = Exchange o Microsoft 365
 account-hub-protocol-pop3 = Descargar al dispositivo
 account-hub-oauth-unsupported-title = Se requiere configuración adicional
-# Note: 'Advanced Configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
+# Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
 account-hub-oauth-unsupported-description = { -brand-short-name } no puede configurar automáticamente OAuth2 para este servidor. Seleccione Configuración avanzada para crear la cuenta, luego complete la configuración desde Configuración de cuenta. <a data-l10n-name="oauth-support-link">Obtener ayuda para la configuración de OAuth2.</a>
 account-hub-notification-show-more = Mostrar más

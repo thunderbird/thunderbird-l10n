@@ -239,7 +239,7 @@ account-hub-protocol-imap = Syngronisearje tusken apparaten
 account-hub-protocol-microsoft = Exchange of Microsoft 365
 account-hub-protocol-pop3 = Nei apparaat downloade
 account-hub-oauth-unsupported-title = Oanfoljende konfiguraasje fereaske
-# Note: 'Advanced Configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
+# Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
 account-hub-oauth-unsupported-description = { -brand-short-name } kin OAuth2 net automatysk konfigurearje foar dizze hostnamme. Selektearje Avansearre konfiguraasje om de account oan te meitsjen en foltôgje dan de ynstallaasje fan Accountynstellingen út. <a data-l10n-name="oauth-support-link">Help by it ynstellen fan OAuth2.</a>
 account-hub-notification-show-more = Mear toane

@@ -239,7 +239,7 @@ account-hub-protocol-imap = Synchronizacija mjazy rědami
 account-hub-protocol-microsoft = Exchange abo Microsoft 365
 account-hub-protocol-pop3 = Na rěd ześěgnuś
 account-hub-oauth-unsupported-title = Pśidatna konfiguracija jo trjebna
-# Note: 'Advanced Configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
+# Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
 account-hub-oauth-unsupported-description = { -brand-short-name } njamóžo OAuth2 za toś to hostmě awtomatiski konfigurěrowaś. Wubjeŕśo rozšyrjonu konfiguraciju, aby konto załožył a dokóńcćo pón konfiguraciju z kontowych nastajenjow. <a data-l10n-name="oauth-support-link">Dostańśo pomoc za konfiguraciju OAuth2.</a>
 account-hub-notification-show-more = Wěcej pokazaś

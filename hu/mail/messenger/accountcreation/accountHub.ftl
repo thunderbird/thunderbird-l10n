@@ -239,7 +239,7 @@ account-hub-protocol-imap = Szinkronizálás az eszközök közt
 account-hub-protocol-microsoft = Exchange vagy Microsoft 365
 account-hub-protocol-pop3 = Letöltés az eszközre
 account-hub-oauth-unsupported-title = További konfiguráció szükséges
-# Note: 'Advanced Configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
+# Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
 account-hub-oauth-unsupported-description = A { -brand-short-name } nem tudja automatikusan beállítani az OAuth2-t ehhez a gazdagépnévhez. Válassza a Speciális beállítások lehetőséget a fiók létrehozásához, majd fejezze be a beállítást a Fiókbeállításokban. <a data-l10n-name="oauth-support-link">Segítség az OAuth2 beállításához.</a>
 account-hub-notification-show-more = Több megjelenítése

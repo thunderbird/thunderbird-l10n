@@ -239,7 +239,7 @@ account-hub-protocol-imap = Synchronizácia naprieč zariadeniami
 account-hub-protocol-microsoft = Exchange alebo Microsoft 365
 account-hub-protocol-pop3 = Sťahovanie do zariadenia
 account-hub-oauth-unsupported-title = Vyžaduje sa dodatočná konfigurácia
-# Note: 'Advanced Configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
+# Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
 account-hub-oauth-unsupported-description = { -brand-short-name } nedokáže automaticky nakonfigurovať OAuth2 pre tento názov hostiteľa. Vyberte možnosť Rozšírená konfigurácia na vytvorenie účtu a potom dokončite nastavenie v časti Nastavenia účtu. <a data-l10n-name="oauth-support-link">Získajte pomoc s nastavením OAuth2.</a>
 account-hub-notification-show-more = Zobraziť viac

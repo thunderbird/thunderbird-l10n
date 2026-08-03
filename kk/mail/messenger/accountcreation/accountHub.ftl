@@ -239,7 +239,7 @@ account-hub-protocol-imap = Құрылғылар арасында синхрон
 account-hub-protocol-microsoft = Exchange немесе Microsoft 365
 account-hub-protocol-pop3 = Құрылғыға жүктеп алу
 account-hub-oauth-unsupported-title = Қосымша баптаулар қажет
-# Note: 'Advanced Configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
+# Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
 account-hub-oauth-unsupported-description = { -brand-short-name } бұл хост үшін OAuth2 автоматты түрде конфигурациялай алмайды. Тіркелгіні жасау үшін «Кеңейтілген конфигурация» тармағын таңдаңыз, содан кейін Тіркелгі параметрлерінен баптауды аяқтаңыз. <a data-l10n-name="oauth-support-link">OAuth2 баптау бойынша көмек алу.</a>
 account-hub-notification-show-more = Көбірек көрсету

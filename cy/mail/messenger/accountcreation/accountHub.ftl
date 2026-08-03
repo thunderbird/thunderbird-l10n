@@ -239,7 +239,7 @@ account-hub-protocol-imap = Cydweddu ar draws dyfeisiau
 account-hub-protocol-microsoft = Exchange neu Microsoft 365
 account-hub-protocol-pop3 = Llwytho i lawr i ddyfais
 account-hub-oauth-unsupported-title = Mae angen ffurfweddu ychwanegol
-# Note: 'Advanced Configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
+# Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
 account-hub-oauth-unsupported-description = Dyw { -brand-short-name } ddim yn gallu ffurfweddu OAuth2 yn awtomatig ar gyfer yr enw gwesteiwr hwn. Dewiswch Ffurfweddiad Uwch i greu'r cyfrif, yna cwblhau'r gosodiad o Gosodiadau Cyfrif. <a data-l10n-name="oauth-support-link">Cael help gyda gosod OAuth2.</a>
 account-hub-notification-show-more = Dangos rhagor
