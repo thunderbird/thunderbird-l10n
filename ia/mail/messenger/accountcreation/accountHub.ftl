@@ -52,6 +52,7 @@ account-hub-email-continue-button = Continuar
 account-hub-email-set-up-account-button = Crear conto
 account-hub-email-confirm-button = Confirmar
 account-hub-email-find-settings-button = Trovar configurationes
+account-hub-email-connect-button = Connecter
 account-hub-result-incoming-legend = Entrante
 account-hub-result-outgoing-legend = Exiente
 account-hub-all-servers-legend = Tote le servitores
@@ -235,6 +236,10 @@ account-hub-manual-config-incoming-legend = Servitor de arrivata
 account-hub-manual-config-outgoing-legend = Servitor in exito
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
 account-hub-same-username-checkbox = Mesme nomine de usator que le servitor de arrivata
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-security-changed = Impossibile trovar { $oldValue }, ma { $newValue } es disponibile.
 account-hub-protocol-imap = Synchronisar inter apparatos
 account-hub-protocol-microsoft = Exchange o Microsoft 365
 account-hub-protocol-pop3 = Discargar a apparato
