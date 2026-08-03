@@ -52,6 +52,7 @@ account-hub-email-continue-button = Продолжить
 account-hub-email-set-up-account-button = Настроить учётную запись
 account-hub-email-confirm-button = Подтвердить
 account-hub-email-find-settings-button = Найти параметры
+account-hub-email-connect-button = Подключиться
 account-hub-result-incoming-legend = Входящая почта
 account-hub-result-outgoing-legend = Исходящая почта
 account-hub-all-servers-legend = Все серверы
@@ -235,6 +236,18 @@ account-hub-manual-config-incoming-legend = Cервер входящей поч�
 account-hub-manual-config-outgoing-legend = Cервер исходящей почты
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
 account-hub-same-username-checkbox = То же имя пользователя, что и на сервере входящей почты
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-security-changed = Не удалось найти { $oldValue }, но { $newValue } доступно.
+# Variables:
+# $oldValue (String): The port requested before the configuration was tested.
+# $newValue (String): The port found after the configuration was tested.
+account-hub-manual-config-port-changed = Не удалось соединиться с портом { $oldValue }, но порт { $newValue } доступен.
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-value-changed = Не удалось использовать { $oldValue }, но { $newValue } доступно.
 account-hub-protocol-imap = Синхронизация между устройствами
 account-hub-protocol-microsoft = Exchange или Microsoft 365
 account-hub-protocol-pop3 = Загрузить на устройство
@@ -250,6 +263,7 @@ account-hub-email-setup-outgoing = Параметры сервера исход�
 account-hub-email-exchange-settings = Параметры Exchange
 account-hub-email-connect-settings = Подключить параметры электронной почты
 account-hub-email-protocol-select-header = Выберите тип учётной записи электронной почты
+account-hub-email-protocol-select-additional-info = Для создания этой учётной записи необходима дополнительная информация.
 account-hub-email-protocol-select-notification = Для настройки этой учетной записи требуется дополнительная информация
 account-hub-email-config-found = Выберите тип учётной записи эл. почты
 account-hub-email-enter-password = Введите пароль от своей учётной записи эл. почты
