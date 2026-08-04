@@ -240,6 +240,14 @@ account-hub-same-username-checkbox = Mesme nomine de usator que le servitor de a
 # $oldValue (String): The value requested before the configuration was tested.
 # $newValue (String): The value found after the configuration was tested.
 account-hub-manual-config-security-changed = Impossibile trovar { $oldValue }, ma { $newValue } es disponibile.
+# Variables:
+# $oldValue (String): The port requested before the configuration was tested.
+# $newValue (String): The port found after the configuration was tested.
+account-hub-manual-config-port-changed = Impossibile usar le porta { $oldValue }, ma le porta { $newValue } es disponibile.
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-value-changed = Impossibile usar { $oldValue }, ma { $newValue } es disponibile.
 account-hub-protocol-imap = Synchronisar inter apparatos
 account-hub-protocol-microsoft = Exchange o Microsoft 365
 account-hub-protocol-pop3 = Discargar a apparato
@@ -255,6 +263,7 @@ account-hub-email-setup-outgoing = Parametros de servitor in exito
 account-hub-email-exchange-settings = Configurationes de Exchange
 account-hub-email-connect-settings = Connecte tu configurationes de e-mail
 account-hub-email-protocol-select-header = Elige un typo de conto e-mail
+account-hub-email-protocol-select-additional-info = Information additional es necesse pro configurar iste conto.
 account-hub-email-protocol-select-notification = Information additional es necesse pro configurar iste conto
 account-hub-email-config-found = Selige tu typo de conto email
 account-hub-email-enter-password = Insere le contrasigno de tu conto email

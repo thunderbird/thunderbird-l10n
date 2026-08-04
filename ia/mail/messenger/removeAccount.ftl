@@ -25,3 +25,45 @@ remove-data-chat-account-description = Remove tote le registros de conversation 
 show-data-button =
     .label = Monstrar loco del datos
     .accesskey = M
+# Variables:
+# $count (Number) - The number of outgoing servers to be removed.
+remove-outgoing-servers-checkbox =
+    .label =
+        { $count ->
+            [one] Remover servitor in exito
+           *[other] Remover { $count } servitores in exito
+        }
+# Variables:
+# $count (Number) - The number of address books to be removed.
+remove-address-books-checkbox =
+    .label =
+        { $count ->
+            [one] Remover libro del adresses
+           *[other] Remover { $count } libros de adresse
+        }
+# Variables:
+# $count (Number) - The number of calendars to be removed.
+remove-calendars-checkbox =
+    .label =
+        { $count ->
+            [one] Remover agenda
+           *[other] Remover { $count } agendas
+        }
+# Variables:
+# $count (Number) - The number of passwords to be removed.
+remove-passwords-checkbox =
+    .label =
+        { $count ->
+            [one] Remover contrasigno
+           *[other] Remover { $count } contrasignos
+        }
+# Variables:
+# $count (Number) - The number of OAuth tokens to be removed.
+remove-oauth-tokens-checkbox =
+    .label =
+        { $count ->
+            [one] Remover testimonio de OAuth
+           *[other] Remover { $count } testimonios de OAuth
+        }
+remove-account-progress-success = Conto removite con successo.
+remove-account-progress-failure = Alco ha fallite! Impossibile completar le remotion del conto.
