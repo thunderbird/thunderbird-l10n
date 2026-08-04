@@ -25,3 +25,45 @@ remove-data-chat-account-description = Verwijdert alle registraties van conversa
 show-data-button =
     .label = Gegevenslocatie tonen
     .accesskey = G
+# Variables:
+# $count (Number) - The number of outgoing servers to be removed.
+remove-outgoing-servers-checkbox =
+    .label =
+        { $count ->
+            [one] Uitgaande server verwijderen
+           *[other] { $count } uitgaande servers verwijderen
+        }
+# Variables:
+# $count (Number) - The number of address books to be removed.
+remove-address-books-checkbox =
+    .label =
+        { $count ->
+            [one] Adresboek verwijderen
+           *[other] { $count } adresboeken verwijderen
+        }
+# Variables:
+# $count (Number) - The number of calendars to be removed.
+remove-calendars-checkbox =
+    .label =
+        { $count ->
+            [one] Agenda verwijderen
+           *[other] { $count } agenda’s verwijderen
+        }
+# Variables:
+# $count (Number) - The number of passwords to be removed.
+remove-passwords-checkbox =
+    .label =
+        { $count ->
+            [one] Wachtwoord verwijderen
+           *[other] { $count } wachtwoorden verwijderen
+        }
+# Variables:
+# $count (Number) - The number of OAuth tokens to be removed.
+remove-oauth-tokens-checkbox =
+    .label =
+        { $count ->
+            [one] OAuth-token verwijderen
+           *[other] { $count } OAuth-tokens verwijderen
+        }
+remove-account-progress-success = Account met succes verwijderd.
+remove-account-progress-failure = Er is iets misgegaan! Kan verwijdering van account niet voltooien.

@@ -52,6 +52,7 @@ account-hub-email-continue-button = Doorgaan
 account-hub-email-set-up-account-button = Account instellen
 account-hub-email-confirm-button = Bevestigen
 account-hub-email-find-settings-button = Instellingen zoeken
+account-hub-email-connect-button = Verbinden
 account-hub-result-incoming-legend = Inkomend
 account-hub-result-outgoing-legend = Uitgaand
 account-hub-all-servers-legend = Alle servers
@@ -235,6 +236,18 @@ account-hub-manual-config-incoming-legend = Inkomende server
 account-hub-manual-config-outgoing-legend = Uitgaande server
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
 account-hub-same-username-checkbox = Dezelfde gebruikersnaam als inkomende server
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-security-changed = Kan { $oldValue } niet vinden, maar { $newValue } is beschikbaar.
+# Variables:
+# $oldValue (String): The port requested before the configuration was tested.
+# $newValue (String): The port found after the configuration was tested.
+account-hub-manual-config-port-changed = Kan poort { $oldValue } niet bereiken, maar poort { $newValue } is beschikbaar.
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-value-changed = Kan { $oldValue } niet gebruiken, maar { $newValue } is beschikbaar.
 account-hub-protocol-imap = Synchroniseren tussen apparaten
 account-hub-protocol-microsoft = Exchange of Microsoft 365
 account-hub-protocol-pop3 = Naar apparaat downloaden
@@ -250,6 +263,7 @@ account-hub-email-setup-outgoing = Instellingen uitgaande server
 account-hub-email-exchange-settings = Exchange-instellingen
 account-hub-email-connect-settings = Uw e-mailinstellingen verbinden
 account-hub-email-protocol-select-header = Kies een e-mailaccounttype
+account-hub-email-protocol-select-additional-info = Er is extra informatie nodig om deze account in te stellen.
 account-hub-email-protocol-select-notification = Er is extra informatie nodig om deze account in te stellen
 account-hub-email-config-found = Kies uw e-mailaccounttype
 account-hub-email-enter-password = Voer het wachtwoord van uw e-mailaccount in
