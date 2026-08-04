@@ -25,3 +25,4 @@ remove-data-chat-account-description = Бұл тіркелгі үшін диск
 show-data-button =
     .label = Деректер орналасуын көрсету
     .accesskey = с
+remove-account-progress-success = Тіркелгі сәтті өшірілді.

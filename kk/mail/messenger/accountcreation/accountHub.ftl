@@ -236,6 +236,14 @@ account-hub-manual-config-incoming-legend = Кіріс сервері
 account-hub-manual-config-outgoing-legend = Шығыс сервері
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
 account-hub-same-username-checkbox = Кіріс серверімен бірдей пайдаланушы аты
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-security-changed = { $oldValue } табылмады, бірақ { $newValue } қолжетімді.
+# Variables:
+# $oldValue (String): The port requested before the configuration was tested.
+# $newValue (String): The port found after the configuration was tested.
+account-hub-manual-config-port-changed = { $oldValue } портына жету мүмкін болмады, бірақ { $newValue } порты қолжетімді.
 account-hub-protocol-imap = Құрылғылар арасында синхрондау
 account-hub-protocol-microsoft = Exchange немесе Microsoft 365
 account-hub-protocol-pop3 = Құрылғыға жүктеп алу
