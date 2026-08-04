@@ -19,12 +19,12 @@ remove-data-checkbox =
 remove-chat-data-checkbox =
     .label = Eliminar datos de la conversación
     .accesskey = d
-remove-data-local-account-description = Elimina todos los mensajes, carpetas y filtros asociados con esta cuenta de su disco local. Esto no afecta a algunos mensajes que aún pueden guardarse en el servidor. No elija esto si planea archivar los datos locales o reutilizarlos { -brand-short-name } después.
-remove-data-server-account-description = Eliminar todos los mensajes, carpetas y filtros asociados con esta cuenta del disco local. Los mensajes y carpetas aún se mantienen en el servidor.
+remove-data-local-account-description = Elimina todos los mensajes, carpetas y filtros asociados con esta cuenta del disco local. Esto no afecta a algunos mensajes que aún pueden guardarse en el servidor. No elija esto si planea archivar los datos locales o reutilizarlos en { -brand-short-name } después.
+remove-data-server-account-description = Elimina todos los mensajes, carpetas y filtros asociados con esta cuenta del disco local. Los mensajes y carpetas aún se mantienen en el servidor.
 remove-data-chat-account-description = Elimina todos los registros de conversaciones de esta cuenta guardados en el disco local.
 show-data-button =
     .label = Mostrar ubicación de datos
-    .accesskey = M
+    .accesskey = s
 # Variables:
 # $count (Number) - The number of outgoing servers to be removed.
 remove-outgoing-servers-checkbox =
@@ -63,7 +63,7 @@ remove-oauth-tokens-checkbox =
     .label =
         { $count ->
             [one] Eliminar token de OAuth
-           *[other] Eliminar { $count } tokens OAuth
+           *[other] Eliminar { $count } tokens de OAuth
         }
 remove-account-progress-success = La cuenta se eliminó correctamente.
 remove-account-progress-failure = ¡Algo salió mal! No se puede completar la eliminación de la cuenta.
