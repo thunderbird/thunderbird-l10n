@@ -52,6 +52,7 @@ account-hub-email-continue-button = Folytatás
 account-hub-email-set-up-account-button = Fiók beállítása
 account-hub-email-confirm-button = Megerősítés
 account-hub-email-find-settings-button = Beállítások keresése
+account-hub-email-connect-button = Kapcsolódás
 account-hub-result-incoming-legend = Bejövő
 account-hub-result-outgoing-legend = Kimenő
 account-hub-all-servers-legend = Összes kiszolgáló
@@ -235,6 +236,18 @@ account-hub-manual-config-incoming-legend = Bejövő kiszolgáló
 account-hub-manual-config-outgoing-legend = Kimenő kiszolgáló
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
 account-hub-same-username-checkbox = Bejövő kiszolgálóval megegyező felhasználónév
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-security-changed = A(z) { $oldValue } nem található, de a(z) { $newValue } elérhető.
+# Variables:
+# $oldValue (String): The port requested before the configuration was tested.
+# $newValue (String): The port found after the configuration was tested.
+account-hub-manual-config-port-changed = A(z) { $oldValue } port nem érhető el, de a(z) { $newValue } port igen.
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-value-changed = A(z) { $oldValue } nem használható, de a(z) { $newValue } elérhető.
 account-hub-protocol-imap = Szinkronizálás az eszközök közt
 account-hub-protocol-microsoft = Exchange vagy Microsoft 365
 account-hub-protocol-pop3 = Letöltés az eszközre
@@ -250,6 +263,7 @@ account-hub-email-setup-outgoing = Kimenő kiszolgáló beállításai
 account-hub-email-exchange-settings = Exchange-beállítások
 account-hub-email-connect-settings = E-mail-beállítások összekapcsolása
 account-hub-email-protocol-select-header = Válassza ki az e-mail-fiók típusát
+account-hub-email-protocol-select-additional-info = További információk szükségesek a fiók beállításához.
 account-hub-email-protocol-select-notification = További információk szükségesek a fiók beállításához
 account-hub-email-config-found = Válassza ki az e-mail-fiók típusát
 account-hub-email-enter-password = Adja meg az e-mail-fiókja jelszavát

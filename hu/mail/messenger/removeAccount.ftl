@@ -25,3 +25,45 @@ remove-data-chat-account-description = A fiókhoz a helyi lemezen tárolt össze
 show-data-button =
     .label = Adatok helyének megjelenítése
     .accesskey = A
+# Variables:
+# $count (Number) - The number of outgoing servers to be removed.
+remove-outgoing-servers-checkbox =
+    .label =
+        { $count ->
+            [one] Kimenő kiszolgáló eltávolítása
+           *[other] { $count } kimenő kiszolgáló eltávolítása
+        }
+# Variables:
+# $count (Number) - The number of address books to be removed.
+remove-address-books-checkbox =
+    .label =
+        { $count ->
+            [one] Címjegyzék eltávolítása
+           *[other] { $count } címjegyzék eltávolítása
+        }
+# Variables:
+# $count (Number) - The number of calendars to be removed.
+remove-calendars-checkbox =
+    .label =
+        { $count ->
+            [one] Naptár eltávolítása
+           *[other] { $count } naptár eltávolítása
+        }
+# Variables:
+# $count (Number) - The number of passwords to be removed.
+remove-passwords-checkbox =
+    .label =
+        { $count ->
+            [one] Jelszó eltávolítása
+           *[other] { $count } jelszó eltávolítása
+        }
+# Variables:
+# $count (Number) - The number of OAuth tokens to be removed.
+remove-oauth-tokens-checkbox =
+    .label =
+        { $count ->
+            [one] OAuth token eltávolítása
+           *[other] { $count } OAuth token eltávolítása
+        }
+remove-account-progress-success = Fiók sikeresen eltávolítva.
+remove-account-progress-failure = Hiba történt. A fiókeltávolítás nem fejezhető be.

@@ -52,7 +52,7 @@ account-hub-email-continue-button = 繼續
 account-hub-email-set-up-account-button = 設定帳號
 account-hub-email-confirm-button = 確認
 account-hub-email-find-settings-button = 尋找選項
-account-hub-email-connect-button = 連線
+account-hub-email-connect-button = 連結
 account-hub-result-incoming-legend = 內送
 account-hub-result-outgoing-legend = 外寄
 account-hub-all-servers-legend = 所有伺服器
@@ -239,15 +239,15 @@ account-hub-same-username-checkbox = 與在收件伺服器使用的使用者名�
 # Variables:
 # $oldValue (String): The value requested before the configuration was tested.
 # $newValue (String): The value found after the configuration was tested.
-account-hub-manual-config-security-changed = 找不到 { $oldValue }但有 { $newValue }。
+account-hub-manual-config-security-changed = 找不到 { $oldValue }，但有 { $newValue }。
 # Variables:
 # $oldValue (String): The port requested before the configuration was tested.
 # $newValue (String): The port found after the configuration was tested.
-account-hub-manual-config-port-changed = 無法連線至 Port { $oldValue }但 Port { $newValue } 可用。
+account-hub-manual-config-port-changed = 無法連線至 Port { $oldValue }，但 Port { $newValue } 可用。
 # Variables:
 # $oldValue (String): The value requested before the configuration was tested.
 # $newValue (String): The value found after the configuration was tested.
-account-hub-manual-config-value-changed = 無法使用 { $oldValue }但有 { $newValue }。
+account-hub-manual-config-value-changed = 無法使用 { $oldValue }，但有 { $newValue }。
 account-hub-protocol-imap = 在不同裝置間同步
 account-hub-protocol-microsoft = Exchange 或 Microsoft 365
 account-hub-protocol-pop3 = 下載到裝置
@@ -263,7 +263,7 @@ account-hub-email-setup-outgoing = 寄件伺服器選項
 account-hub-email-exchange-settings = Exchange 選項
 account-hub-email-connect-settings = 連結您的郵件收發設定
 account-hub-email-protocol-select-header = 請選擇電子郵件帳號類型
-account-hub-email-protocol-select-additional-info = 設定此帳號需要輸入其他資訊。
+account-hub-email-protocol-select-additional-info = 需要輸入其他資訊才能設定此帳號。
 account-hub-email-protocol-select-notification = 需要輸入更多資訊才能設定此帳號
 account-hub-email-config-found = 選擇您的電子郵件帳號類型
 account-hub-email-enter-password = 請輸入您的電子郵件帳號密碼
