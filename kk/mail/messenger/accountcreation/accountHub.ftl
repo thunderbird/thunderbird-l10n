@@ -244,6 +244,10 @@ account-hub-manual-config-security-changed = { $oldValue } табылмады, �
 # $oldValue (String): The port requested before the configuration was tested.
 # $newValue (String): The port found after the configuration was tested.
 account-hub-manual-config-port-changed = { $oldValue } портына жету мүмкін болмады, бірақ { $newValue } порты қолжетімді.
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-value-changed = { $oldValue } қолдану мүмкін болмады, бірақ, { $newValue } қолжетімді.
 account-hub-protocol-imap = Құрылғылар арасында синхрондау
 account-hub-protocol-microsoft = Exchange немесе Microsoft 365
 account-hub-protocol-pop3 = Құрылғыға жүктеп алу
@@ -259,6 +263,7 @@ account-hub-email-setup-outgoing = Шығыс сервер баптаулары
 account-hub-email-exchange-settings = Exchange баптаулары
 account-hub-email-connect-settings = Электрондық пошта параметрлерін қосу
 account-hub-email-protocol-select-header = Электрондық пошта тіркелгісінің түрін таңдаңыз
+account-hub-email-protocol-select-additional-info = Бұл тіркелгіні баптау үшін қосымша ақпарат қажет.
 account-hub-email-protocol-select-notification = Бұл тіркелгіні баптау үшін қосымша ақпарат қажет
 account-hub-email-config-found = Эл. пошта тіркелгісінің түрін таңдаңыз
 account-hub-email-enter-password = Эл. пошта тіркелгіңіздің паролін енгізіңіз

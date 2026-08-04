@@ -25,3 +25,45 @@ remove-data-chat-account-description = Διαγράφει όλα τα αρχεί
 show-data-button =
     .label = Εμφάνιση τοποθεσίας δεδομένων
     .accesskey = Ε
+# Variables:
+# $count (Number) - The number of outgoing servers to be removed.
+remove-outgoing-servers-checkbox =
+    .label =
+        { $count ->
+            [one] Αφαίρεση διακομιστή εξερχομένων
+           *[other] Αφαίρεση { $count } διακομιστών εξερχομένων
+        }
+# Variables:
+# $count (Number) - The number of address books to be removed.
+remove-address-books-checkbox =
+    .label =
+        { $count ->
+            [one] Αφαίρεση ευρετηρίου
+           *[other] Αφαίρεση { $count } ευρετηρίων
+        }
+# Variables:
+# $count (Number) - The number of calendars to be removed.
+remove-calendars-checkbox =
+    .label =
+        { $count ->
+            [one] Αφαίρεση ημερολογίου
+           *[other] Αφαίρεση { $count } ημερολογίων
+        }
+# Variables:
+# $count (Number) - The number of passwords to be removed.
+remove-passwords-checkbox =
+    .label =
+        { $count ->
+            [one] Αφαίρεση κωδικού πρόσβασης
+           *[other] Αφαίρεση { $count } κωδικών πρόσβασης
+        }
+# Variables:
+# $count (Number) - The number of OAuth tokens to be removed.
+remove-oauth-tokens-checkbox =
+    .label =
+        { $count ->
+            [one] Αφαίρεση διακριτικού OAuth
+           *[other] Αφαίρεση { $count } διακριτικών OAuth
+        }
+remove-account-progress-success = Επιτυχής διαγραφή λογαριασμού.
+remove-account-progress-failure = Κάτι πήγε στραβά! Αδυναμία ολοκλήρωσης αφαίρεσης λογαριασμού.

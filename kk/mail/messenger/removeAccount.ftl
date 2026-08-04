@@ -25,4 +25,45 @@ remove-data-chat-account-description = Бұл тіркелгі үшін диск
 show-data-button =
     .label = Деректер орналасуын көрсету
     .accesskey = с
+# Variables:
+# $count (Number) - The number of outgoing servers to be removed.
+remove-outgoing-servers-checkbox =
+    .label =
+        { $count ->
+            [one] Шығыс серверін өшіру
+           *[other] { $count } шығыс серверін өшіру
+        }
+# Variables:
+# $count (Number) - The number of address books to be removed.
+remove-address-books-checkbox =
+    .label =
+        { $count ->
+            [one] Адрестік кітапшаны өшіру
+           *[other] { $count } адрестік кітапшаны өшіру
+        }
+# Variables:
+# $count (Number) - The number of calendars to be removed.
+remove-calendars-checkbox =
+    .label =
+        { $count ->
+            [one] Күнтізбені өшіру
+           *[other] { $count } күнтізбені өшіру
+        }
+# Variables:
+# $count (Number) - The number of passwords to be removed.
+remove-passwords-checkbox =
+    .label =
+        { $count ->
+            [one] Парольді өшіру
+           *[other] { $count } парольді өшіру
+        }
+# Variables:
+# $count (Number) - The number of OAuth tokens to be removed.
+remove-oauth-tokens-checkbox =
+    .label =
+        { $count ->
+            [one] OAuth токенін өшіру
+           *[other] { $count } OAuth токенін өшіру
+        }
 remove-account-progress-success = Тіркелгі сәтті өшірілді.
+remove-account-progress-failure = Бірнәрсе дұрыс болмады! Тіркелгіні өшіруді аяқтау мүмкін емес.
