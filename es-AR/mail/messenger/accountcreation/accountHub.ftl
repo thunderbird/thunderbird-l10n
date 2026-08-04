@@ -243,7 +243,7 @@ account-hub-manual-config-security-changed = No se pudo encontrar { $oldValue },
 # Variables:
 # $oldValue (String): The port requested before the configuration was tested.
 # $newValue (String): The port found after the configuration was tested.
-account-hub-manual-config-port-changed = No se pudo alcanzar el puerto { $oldValue }, pero el puerto { $newValue } está disponible.
+account-hub-manual-config-port-changed = No se pudo conectar el puerto { $oldValue }, pero el puerto { $newValue } está disponible.
 # Variables:
 # $oldValue (String): The value requested before the configuration was tested.
 # $newValue (String): The value found after the configuration was tested.

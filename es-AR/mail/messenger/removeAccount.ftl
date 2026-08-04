@@ -5,20 +5,20 @@
 remove-account-dialog-title = Eliminar cuenta y datos
 remove-account-dialog-accept =
     .label = Eliminar
-    .accesskey = E
+    .accesskey = r
 # Variables:
 # $accountName (String) - The name of the account to be removed.
 remove-account-question = ¿Está seguro de querer eliminar la cuenta “{ $accountName }”?
 remove-account-checkbox =
     .label = Eliminar información de cuenta
-    .accesskey = E
-remove-account-description = Elimina solo el conocimiento de { -brand-short-name } de esta cuenta. No afecta a la cuenta en el servidor.
+    .accesskey = a
+remove-account-description = Elimina solamente el conocimiento de { -brand-short-name } de esta cuenta. No afecta a la cuenta en sí misma en el servidor.
 remove-data-checkbox =
     .label = Eliminar datos de mensajes
-    .accesskey = E
+    .accesskey = d
 remove-chat-data-checkbox =
     .label = Eliminar datos de la conversación
-    .accesskey = E
+    .accesskey = d
 remove-data-local-account-description = Elimina todos los mensajes, carpetas y filtros asociados con esta cuenta de su disco local. Esto no afecta a algunos mensajes que aún pueden guardarse en el servidor. No elija esto si planea archivar los datos locales o reutilizarlos { -brand-short-name } después.
 remove-data-server-account-description = Eliminar todos los mensajes, carpetas y filtros asociados con esta cuenta del disco local. Los mensajes y carpetas aún se mantienen en el servidor.
 remove-data-chat-account-description = Elimina todos los registros de conversaciones de esta cuenta guardados en el disco local.
