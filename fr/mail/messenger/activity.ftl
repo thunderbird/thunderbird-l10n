@@ -102,8 +102,8 @@ extension-send-activity-event =
 #   $time (String) - localized elapsed time
 extension-sent-activity-event-status =
     { $count ->
-        [one] { $count } message (temps écoulé : { $time })
-       *[other] { $count } messages (temps écoulé : { $time })
+        [one] { $count } message (temps écoulé : { $time })
+       *[other] { $count } messages (temps écoulé : { $time })
     }
 # Status line shown under extension-send-activity-event. Reports how many
 # messages were sent and the wall-clock time between the first and last send in

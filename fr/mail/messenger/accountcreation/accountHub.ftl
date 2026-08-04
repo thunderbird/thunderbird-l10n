@@ -52,7 +52,7 @@ account-hub-email-continue-button = Continuer
 account-hub-email-set-up-account-button = Configurer le compte
 account-hub-email-confirm-button = Confirmer
 account-hub-email-find-settings-button = Trouver les paramètres
-account-hub-email-connect-button = Se connecter
+account-hub-email-connect-button = Connecter
 account-hub-result-incoming-legend = Serveur entrant
 account-hub-result-outgoing-legend = Serveur sortant
 account-hub-all-servers-legend = Tous les serveurs
@@ -239,7 +239,7 @@ account-hub-same-username-checkbox = Même nom d’utilisateur que le serveur en
 # Variables:
 # $oldValue (String): The value requested before the configuration was tested.
 # $newValue (String): The value found after the configuration was tested.
-account-hub-manual-config-security-changed = { $oldValue } impossible, mais { $newValue } est disponible.
+account-hub-manual-config-security-changed = { $oldValue } est introuvable, mais { $newValue } est disponible.
 # Variables:
 # $oldValue (String): The port requested before the configuration was tested.
 # $newValue (String): The port found after the configuration was tested.
