@@ -25,3 +25,45 @@ remove-data-chat-account-description = Smyt alle lochs fan petearen dy’t foar 
 show-data-button =
     .label = Gegevenslokaasje toane
     .accesskey = G
+# Variables:
+# $count (Number) - The number of outgoing servers to be removed.
+remove-outgoing-servers-checkbox =
+    .label =
+        { $count ->
+            [one] Utgeande server fuortsmite
+           *[other] { $count } útgeande servers fuortsmite
+        }
+# Variables:
+# $count (Number) - The number of address books to be removed.
+remove-address-books-checkbox =
+    .label =
+        { $count ->
+            [one] Adresboek fuortsmite
+           *[other] { $count } adresboeken fuortsmite
+        }
+# Variables:
+# $count (Number) - The number of calendars to be removed.
+remove-calendars-checkbox =
+    .label =
+        { $count ->
+            [one] Aginda fuortsmite
+           *[other] { $count } aginda fuortsmite
+        }
+# Variables:
+# $count (Number) - The number of passwords to be removed.
+remove-passwords-checkbox =
+    .label =
+        { $count ->
+            [one] Wachtwurd fuortsmite
+           *[other] { $count } wachtwurden fuortsmite
+        }
+# Variables:
+# $count (Number) - The number of OAuth tokens to be removed.
+remove-oauth-tokens-checkbox =
+    .label =
+        { $count ->
+            [one] OAuth-token fuortsmite
+           *[other] { $count } OAuth-tokens fuortsmite
+        }
+remove-account-progress-success = Account mei sukses fuortsmiten.
+remove-account-progress-failure = Der is wat misgien! Kin fuortsmiten fan it account net foltôgje.
