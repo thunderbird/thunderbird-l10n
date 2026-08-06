@@ -114,6 +114,19 @@ extension-send-activity-event =
         [few] Rozšyrjenje “{ $extensionName }” jo pósłało { NUMBER($count) } njewótcakane powěsći
        *[other] Rozšyrjenje “{ $extensionName }” jo pósłało { NUMBER($count) } njewótcakanych powěsćow
     }
+# Status line shown under extension-send-activity-event.
+# Reports how many messages were sent by the extension and how long the
+# completed send batch took.
+# Variables:
+#   $count (Number) - number of messages sent
+#   $time (String) - localized elapsed time
+extension-sent-activity-event-status =
+    { $count ->
+        [one] { $count } powěsć (zajźony cas: { $time })
+        [two] { $count } powěsći (zajźony cas: { $time })
+        [few] { $count } powěsći (zajźony cas: { $time })
+       *[other] { $count } powěsćow (zajźony cas: { $time })
+    }
 # Status line shown under extension-send-activity-event. Reports how many
 # messages were sent and the wall-clock time between the first and last send in
 # the batch (rounded to whole seconds, at least one).

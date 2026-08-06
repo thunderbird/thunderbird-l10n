@@ -244,6 +244,10 @@ account-hub-manual-config-security-changed = { $oldValue } njedajo se namakaś, 
 # $oldValue (String): The port requested before the configuration was tested.
 # $newValue (String): The port found after the configuration was tested.
 account-hub-manual-config-port-changed = Port { $oldValue } njedajo se dojśpiś, ale port { $newValue } jo k dispoziciji.
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-value-changed = { $oldValue } njedajo se wužywaś, ale { $newValue } jo k dispoziciji.
 account-hub-protocol-imap = Synchronizacija mjazy rědami
 account-hub-protocol-microsoft = Exchange abo Microsoft 365
 account-hub-protocol-pop3 = Na rěd ześěgnuś
@@ -259,6 +263,7 @@ account-hub-email-setup-outgoing = Nastajenja za wuchadowy serwer
 account-hub-email-exchange-settings = Nastajenja Exchange
 account-hub-email-connect-settings = Zwěžćo swóje e-mailowe nastajenja
 account-hub-email-protocol-select-header = Wubjeŕśo typ e-mailowego konta
+account-hub-email-protocol-select-additional-info = Su pśidatne informacije trjebne, aby toś to konto konfigurěrował.
 account-hub-email-protocol-select-notification = Su pśidatne informacije trjebne, aby toś to konto konfigurěrował
 account-hub-email-config-found = Wubjeŕśo typ swójogo e-mailowego konta
 account-hub-email-enter-password = Zapódajśo gronidło swójogo e-mailowego konta
