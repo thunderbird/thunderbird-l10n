@@ -52,6 +52,7 @@ account-hub-email-continue-button = Dalej
 account-hub-email-set-up-account-button = Konto konfigurěrowaś
 account-hub-email-confirm-button = Wobkšuśiś
 account-hub-email-find-settings-button = Nastajenja pytaś
+account-hub-email-connect-button = Zwězaś
 account-hub-result-incoming-legend = Dochadajuce
 account-hub-result-outgoing-legend = Wuchadajuce
 account-hub-all-servers-legend = Wšykne serwery
@@ -235,6 +236,14 @@ account-hub-manual-config-incoming-legend = Dochadny serwer
 account-hub-manual-config-outgoing-legend = Wuchadny serwer
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
 account-hub-same-username-checkbox = Samske wužywaŕske mě ako dochadowy serwer
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-security-changed = { $oldValue } njedajo se namakaś, ale { $newValue } jo k dispoziciji.
+# Variables:
+# $oldValue (String): The port requested before the configuration was tested.
+# $newValue (String): The port found after the configuration was tested.
+account-hub-manual-config-port-changed = Port { $oldValue } njedajo se dojśpiś, ale port { $newValue } jo k dispoziciji.
 account-hub-protocol-imap = Synchronizacija mjazy rědami
 account-hub-protocol-microsoft = Exchange abo Microsoft 365
 account-hub-protocol-pop3 = Na rěd ześěgnuś
