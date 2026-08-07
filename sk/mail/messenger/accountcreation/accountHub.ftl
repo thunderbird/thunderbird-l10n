@@ -243,7 +243,11 @@ account-hub-manual-config-security-changed = Nepodarilo sa nájsť { $oldValue }
 # Variables:
 # $oldValue (String): The port requested before the configuration was tested.
 # $newValue (String): The port found after the configuration was tested.
-account-hub-manual-config-port-changed = Nepodarilo sa spojiť s portom { $oldValue }, ale port { $newValue } je k dispozícii.
+account-hub-manual-config-port-changed = Nepodarilo sa spojiť s portom { $oldValue }, ale k dispozícii je port { $newValue }.
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-value-changed = Nepodarilo sa použiť { $oldValue }, ale k dispozícii je { $newValue }.
 account-hub-protocol-imap = Synchronizácia naprieč zariadeniami
 account-hub-protocol-microsoft = Exchange alebo Microsoft 365
 account-hub-protocol-pop3 = Sťahovanie do zariadenia
@@ -259,6 +263,7 @@ account-hub-email-setup-outgoing = Nastavenia servera pre odosielanie pošty
 account-hub-email-exchange-settings = Nastavenia pre Exchange
 account-hub-email-connect-settings = Pripojiť nastavenia e‑mailu
 account-hub-email-protocol-select-header = Vyberte typ e‑mailového účtu
+account-hub-email-protocol-select-additional-info = Na nastavenie tohto účtu sú potrebné ďalšie informácie.
 account-hub-email-protocol-select-notification = Na nastavenie tohto účtu sú potrebné ďalšie informácie
 account-hub-email-config-found = Vyberte typ svojho e‑mailového účtu
 account-hub-email-enter-password = Zadajte heslo k svojmu e‑mailovému účtu

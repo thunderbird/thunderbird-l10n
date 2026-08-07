@@ -26,6 +26,15 @@ show-data-button =
     .label = Zobraziť umiestnenie údajov
     .accesskey = s
 # Variables:
+# $count (Number) - The number of outgoing servers to be removed.
+remove-outgoing-servers-checkbox =
+    .label =
+        { $count ->
+            [one] Odstrániť server pre odchádzajúcu poštu
+            [few] Odstrániť { $count } servery pre odchádzajúcu poštu
+           *[other] Odstrániť { $count } serverov pre odchádzajúcu poštu
+        }
+# Variables:
 # $count (Number) - The number of address books to be removed.
 remove-address-books-checkbox =
     .label =
