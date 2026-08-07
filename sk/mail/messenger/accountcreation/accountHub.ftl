@@ -52,6 +52,7 @@ account-hub-email-continue-button = Pokračovať
 account-hub-email-set-up-account-button = Nastaviť účet
 account-hub-email-confirm-button = Potvrdiť
 account-hub-email-find-settings-button = Vyhľadať nastavenia
+account-hub-email-connect-button = Pripojiť
 account-hub-result-incoming-legend = Prichádzajúce
 account-hub-result-outgoing-legend = Odchádzajúce
 account-hub-all-servers-legend = Všetky servery
@@ -235,6 +236,14 @@ account-hub-manual-config-incoming-legend = Server prichádzajúcej pošty
 account-hub-manual-config-outgoing-legend = Server pre odosielanie pošty
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
 account-hub-same-username-checkbox = Rovnaké používateľské meno ako pre server prichádzajúcej pošty
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-security-changed = Nepodarilo sa nájsť { $oldValue }, ale k dispozícii je { $newValue }.
+# Variables:
+# $oldValue (String): The port requested before the configuration was tested.
+# $newValue (String): The port found after the configuration was tested.
+account-hub-manual-config-port-changed = Nepodarilo sa spojiť s portom { $oldValue }, ale port { $newValue } je k dispozícii.
 account-hub-protocol-imap = Synchronizácia naprieč zariadeniami
 account-hub-protocol-microsoft = Exchange alebo Microsoft 365
 account-hub-protocol-pop3 = Sťahovanie do zariadenia

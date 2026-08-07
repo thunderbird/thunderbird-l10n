@@ -25,3 +25,41 @@ remove-data-chat-account-description = Odstráni všetky údaje o konverzáciác
 show-data-button =
     .label = Zobraziť umiestnenie údajov
     .accesskey = s
+# Variables:
+# $count (Number) - The number of address books to be removed.
+remove-address-books-checkbox =
+    .label =
+        { $count ->
+            [one] Odstrániť adresár
+            [few] Odstrániť { $count } adresáre
+           *[other] Odstrániť { $count } adresárov
+        }
+# Variables:
+# $count (Number) - The number of calendars to be removed.
+remove-calendars-checkbox =
+    .label =
+        { $count ->
+            [one] Odstrániť kalendár
+            [few] Odstrániť { $count } kalendáre
+           *[other] Odstrániť { $count } kalendárov
+        }
+# Variables:
+# $count (Number) - The number of passwords to be removed.
+remove-passwords-checkbox =
+    .label =
+        { $count ->
+            [one] Odstrániť heslo
+            [few] Odstrániť { $count } heslá
+           *[other] Odstrániť { $count } hesiel
+        }
+# Variables:
+# $count (Number) - The number of OAuth tokens to be removed.
+remove-oauth-tokens-checkbox =
+    .label =
+        { $count ->
+            [one] Odstrániť token OAuth
+            [few] Odstrániť { $count } OAuth tokeny
+           *[other] Odstrániť { $count } OAuth tokenov
+        }
+remove-account-progress-success = Účet bol úspešne odstránený.
+remove-account-progress-failure = Vyskytol sa problém! Nepodarilo sa dokončiť odstránenie účtu.
