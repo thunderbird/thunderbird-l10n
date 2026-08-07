@@ -49,7 +49,10 @@ account-hub-email-retest-button = Retest
 account-hub-email-finish-button = Finish
 account-hub-email-manually-configure-button = Configure Manually
 account-hub-email-continue-button = Continue
+account-hub-email-set-up-account-button = Set up account
 account-hub-email-confirm-button = Confirm
+account-hub-email-find-settings-button = Find settings
+account-hub-email-connect-button = Connect
 account-hub-result-incoming-legend = Incoming
 account-hub-result-outgoing-legend = Outgoing
 account-hub-all-servers-legend = All servers
@@ -151,6 +154,7 @@ address-book-ldap-duplicate-error = LDAP directory name already exists. Please i
 address-book-ldap-creation-error = Could not create LDAP Directory.
 account-hub-email-setup-ews = Server Settings
 account-hub-result-exchange-url-label = Exchange endpoint URL
+account-hub-exchange-service-url-label = Enter the service URL
 account-hub-email-credentials-confirmation = Account Configuration
 account-hub-result-unknown-hostname = Unknown Hostname
 account-hub-result-unknown-cert = Unverified Certificate
@@ -225,11 +229,42 @@ account-hub-calendars-button = Calendars
 account-hub-thundermail-button = Sign in with Thundermail
 # Used as part of a divider between sign in button and a sign in form.
 account-hub-thundermail-divider-text = or
+account-hub-manual-config-imap-title = IMAP Settings
+account-hub-manual-config-pop3-title = POP3 Settings
+account-hub-manual-config-review-settings-title = Review updated settings
+account-hub-manual-config-incoming-legend = Incoming server
+account-hub-manual-config-outgoing-legend = Outgoing server
+# Label for checkbox that will hide an outgoing username input if it's the same is the incoming
+account-hub-same-username-checkbox = Same username as incoming server
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-security-changed = Couldn’t find { $oldValue }, but { $newValue } is available.
+# Variables:
+# $oldValue (String): The port requested before the configuration was tested.
+# $newValue (String): The port found after the configuration was tested.
+account-hub-manual-config-port-changed = Couldn’t reach Port { $oldValue }, but Port { $newValue } is available.
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-value-changed = Couldn’t use { $oldValue }, but { $newValue } is available.
+account-hub-protocol-imap = Sync across devices
+account-hub-protocol-microsoft = Exchange or Microsoft 365
+account-hub-protocol-pop3 = Download to device
+account-hub-oauth-unsupported-title = Additional configuration is required
+# Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
+# 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
+account-hub-oauth-unsupported-description = { -brand-short-name } can’t automatically configure OAuth2 for this hostname. Select Advanced configuration to create the account, then complete setup from Account Settings. <a data-l10n-name="oauth-support-link">Get help with OAuth2 setup.</a>
 account-hub-notification-show-more = Show more
 account-hub-notification-show-less = Show less
 account-hub-email-setup-header = Add your email address
 account-hub-email-setup-incoming = Incoming server settings
 account-hub-email-setup-outgoing = Outgoing server settings
+account-hub-email-exchange-settings = Exchange settings
+account-hub-email-connect-settings = Connect your email settings
+account-hub-email-protocol-select-header = Choose an email account type
+account-hub-email-protocol-select-additional-info = Additional information is required to set up this account.
+account-hub-email-protocol-select-notification = Additional information is required to set up this account
 account-hub-email-config-found = Choose your email account type
 account-hub-email-enter-password = Enter your email account password
 account-hub-email-sync-accounts = Sync your calendars and address books
@@ -239,6 +274,8 @@ account-hub-result-imap-description = Keep your folders and emails synced on you
 account-hub-result-pop-description = Keep your folders and emails on your computer
 account-hub-result-ews-shortname = Exchange
 account-hub-result-ews-description = Use Microsoft Exchange Web Services to sync your folders and emails
+account-hub-result-graph-api-shortname = Microsoft Graph API
+account-hub-result-graph-api-description = Use the Microsoft Graph API to sync your folders and emails with Microsoft 365
 account-hub-result-graph-shortname = Exchange (Graph)
 account-hub-result-graph-description = Use Microsoft Graph API to sync your folders and emails
 account-hub-result-exchange-description = Sync folders & emails with Exchange or Office 365
@@ -248,6 +285,13 @@ account-hub-result-graph-expanded-text = Graph API
 account-hub-result-recommended-label = Recommended
 account-hub-result-addon-label = Requires Add-on
 account-hub-edit-configuration = Edit configuration
+account-hub-config-success-title = Account settings found automatically.
+account-hub-config-success-description-db = Configuration found in Mozilla ISPDB.
+account-hub-config-success-description-exchange = Configuration found for a Microsoft Exchange server.
+account-hub-config-success-description-guess = Configuration found by trying common server names.
+account-hub-config-success-description-disk = Configuration found in { -brand-short-name } installation.
+account-hub-config-success-description-isp = Configuration found at email provider.
+account-hub-config-success-description-read-more = You can <a data-l10n-name="automated-setup-link">read about how automated email setup works.</a>
 account-hub-config-success = Configuration found in Mozilla ISPDB
 account-hub-password-info = Your credentials will only be stored locally on your computer
 account-hub-creating-account = Creating account…
@@ -276,6 +320,7 @@ account-hub-port-error-text = Port must be between 1 and 65535
     .title = Port must be between 1 and 65535
 account-hub-username-error-text = Username is required
     .title = Username is required
+account-hub-manual-config-error-summary = Please resolve the following errors:
 account-hub-oauth-pending = Waiting for authorization in login popup…
 account-hub-addon-install-button = Install
 account-hub-addon-install-needed = { -brand-short-name } doesn’t natively support this server. To access Exchange email, <a data-l10n-name="addon-install"> install a third-party add-on like Owl (paid).</a>
@@ -287,14 +332,20 @@ account-hub-add-address-book = Add an address book
 address-book-sync-existing-icon =
     .alt = Sync an address book from an existing account
 address-book-sync-existing = Sync from an existing account
+address-book-add-remote-icon2 =
+    .alt = Add a remote address book
 address-book-add-remote-icon =
     .alt = Add a new remote address book
 address-book-add-remote = Add remote Address Book
+address-book-add-remote-carddav-description = Connect to a CardDAV address book
 address-book-add-remote-description = Connect to a remote CardDav Address Book
 address-book-add-local-icon =
     .alt = Create a new local address book
 address-book-add-local = New local Address Book
 address-book-add-local-description = Create a new local address book on your device
+address-book-add-ldap-icon2 =
+    .alt = Add an LDAP address book
+address-book-add-ldap-button = Add LDAP Address Book
 address-book-add-ldap-icon =
     .alt = Connect to a remote LDAP address book
 address-book-add-ldap = New LDAP Address Book
@@ -318,3 +369,17 @@ account-hub-local-address-book-label = Address Book Name
 account-hub-local-error-text = Please enter an address book name
 account-hub-sync-address-books = Sync existing address books
 account-hub-new-remote-address-book = New remote Address Book
+
+## Exchange Type Manual Config Step
+
+account-hub-exchange-type-account-type = Account type
+account-hub-card-graph-title = Microsoft Graph
+account-hub-card-graph-description = Microsoft Graph is a modern connection method for Microsoft 365.
+account-hub-card-ews-title = Exchange Web Services
+account-hub-card-ews-tag = Legacy
+account-hub-card-ews-description = Exchange Web Services (EWS) connects to Microsoft Exchange to sync your mail.
+# This is shown after the type description, so "it" is referring to the type (either Microsoft Graph or Exchange Web Services).
+account-hub-card-recommended-description = It’s recommended because it matches your Service URL.
+account-hub-exchange-type-username = Username
+account-hub-exchange-type-username-hint = Typically your email address or Active Directory UPN.
+account-hub-exchange-type-authentication = Authentication Method
