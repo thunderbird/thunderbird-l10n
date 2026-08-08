@@ -12,3 +12,22 @@ configured-cert-ok-sig = Potrdilo je prestalo preizkus in se lahko uporablja za 
 configured-cert-failure-detail = Preverjanje potrdila je bilo neuspešno zaradi naslednje napake: { $errorMsg } (koda napake: { $errorCodeStr })
 # $errorCode A numeric error code
 configured-cert-failure = Preverjanje potrdila je bilo neuspešno; koda napake { $errorCode }
+# Cryptographic details displayed in the message security popup
+smime-crypto-signature-algorithm = Algoritem podpisa:
+# $errorMsg A sentence that explains the error.
+# $errorCodeStr A human readable error code, e.g. SEC_ERROR_UNKNOWN_ISSUER
+# Note the initial empty line is necessary to preserve the line breaks.
+configured-cert-failure-use-anyway-detail-v2 =
+    S tem digitalnim potrdilom obstaja težava.
+    
+    Preverjanje potrdila je spodletelo z naslednjo napako: { $errorMsg } (Koda napake: { $errorCodeStr })
+    
+    Ali ga želite kljub temu uporabiti?
+# $errorCode A numeric error code
+# Note the initial empty line is necessary to preserve the line breaks.
+configured-cert-failure-use-anyway-v2 =
+    S tem digitalnim potrdilom obstaja težava.
+    
+    Preverjanje potrdila je spodletelo s kodo napake { $errorCode }.
+    
+    Ali ga želite kljub temu uporabiti?
