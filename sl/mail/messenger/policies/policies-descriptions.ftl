@@ -35,6 +35,7 @@ policy-DisableFormHistory = Ne shranjuj zgodovine iskanja in obrazcev.
 policy-DisableMasterPasswordCreation = Če je "true", glavnega gesla ni mogoče ustvariti.
 policy-DisablePasswordReveal = Ne dovoli razkrivanja gesel na seznamu shranjenih prijav.
 policy-DisableProfileImport = Onemogoči menijski ukaz Uvozi podatke drugega brskalnika.
+policy-DisableQRExport = Onemogoči ustvarjanje kod QR za izvoz nastavitev računa in poverilnic.
 policy-DisableSafeMode = Onemogoči možnost za ponovni zagon v varnem načinu. Opomba: zagon varnega načina s tipko Shift lahko v sistemu Windows onemogočite le z uporabo pravilnika skupine.
 policy-DisableSecurityBypass = Uporabniku prepreči, da zaobide določena varnostna opozorila.
 policy-DisableSystemAddonUpdate = Prepreči { -brand-short-name }u nameščanje in posodabljanje sistemskih dodatkov.

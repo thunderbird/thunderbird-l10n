@@ -90,7 +90,7 @@ gloda-indexed-folder-status =
 # shown in the status line below.
 # Variables:
 #   $extensionName (String) - the extension's name
-extension-send-activity-live = Razširitev "{ $extensionName }" nenadzorovano pošilja sporočila.
+extension-send-activity-live = Razširitev "{ $extensionName }" samostojno pošilja sporočila.
 # Status line shown under extension-send-activity-live, updated after every send.
 # Variables:
 #   $count (Number) - number of messages sent so far in this batch
@@ -100,4 +100,28 @@ extension-send-activity-progress =
         [two] { $count } poslani sporočili
         [few] { $count } poslana sporočila
        *[other] { $count } poslanih sporočil
+    }
+# Permanent Activity Manager entry written when the live send process is
+# finalized, 10 seconds after the last send in a batch. The count and elapsed
+# time are carried in the status line below (extension-send-activity-event-status).
+# Variables:
+#   $extensionName (String) - the extension's name
+#   $count (Number) - number of messages sent in this batch
+extension-send-activity-event =
+    { $count ->
+        [one] Razširitev "{ $extensionName }" je samostojno poslala sporočilo,
+       *[other] Razširitev "{ $extensionName }" je samostojno poslala več sporočil,
+    }
+# Status line shown under extension-send-activity-event.
+# Reports how many messages were sent by the extension and how long the
+# completed send batch took.
+# Variables:
+#   $count (Number) - number of messages sent
+#   $time (String) - localized elapsed time
+extension-sent-activity-event-status =
+    { $count ->
+        [one] { $count } sporočilo (pretečen čas: { $time })
+        [two] { $count } sporočili (pretečen čas: { $time })
+        [few] { $count } sporočila (pretečen čas: { $time })
+       *[other] { $count } sporočil (pretečen čas: { $time })
     }

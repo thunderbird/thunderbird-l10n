@@ -225,6 +225,9 @@ account-hub-calendars-button = Koledarji
 account-hub-thundermail-button = Prijava s Thundermailom
 # Used as part of a divider between sign in button and a sign in form.
 account-hub-thundermail-divider-text = ali
+account-hub-manual-config-imap-title = Nastavitve IMAP
+account-hub-manual-config-pop3-title = Nastavitve POP3
+account-hub-manual-config-review-settings-title = Preglejte spremenjene nastavitve
 account-hub-manual-config-incoming-legend = Dohodni strežnik
 account-hub-manual-config-outgoing-legend = Odhodni strežnik
 account-hub-notification-show-more = Prikaži več
@@ -331,3 +334,9 @@ account-hub-local-address-book-label = Ime imenika
 account-hub-local-error-text = Vnesite ime za imenik
 account-hub-sync-address-books = Sinhroniziraj obstoječe imenike
 account-hub-new-remote-address-book = Nov oddaljen imenik
+
+## Exchange Type Manual Config Step
+
+account-hub-exchange-type-username = Uporabniško ime
+account-hub-exchange-type-username-hint = Običajno e-poštni naslov ali UPN storitve Active Directory.
+account-hub-exchange-type-authentication = Način overitve

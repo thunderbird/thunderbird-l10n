@@ -35,6 +35,7 @@ policy-DisableFormHistory = Онемогућите историју претра
 policy-DisableMasterPasswordCreation = Ако је вредност тачна, главна лозинка се не може направити.
 policy-DisablePasswordReveal = Не дозволите приказивање лозинке у сачуваним подацима за пријаву.
 policy-DisableProfileImport = Онемогућите наредбу менија за увоз података из друге апликације.
+policy-DisableQRExport = Онемогућите стварање КР кода за извоз подешавања налога и акредитива.
 policy-DisableSafeMode = Онемогућите функцију поновног покретања у безбедном режиму. Напомена: Shift тастер, да би ушли у безбедни режим, може бити онемогућен само у Windows-у коришћењем групне политике.
 policy-DisableSecurityBypass = Спречите корисника да игнорише одређена сигурносна упозорења.
 policy-DisableSystemAddonUpdate = Спречите { -brand-short-name } да инсталира и ажурира системске додатке.

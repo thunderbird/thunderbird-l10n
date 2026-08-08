@@ -117,6 +117,15 @@ calendar-dialog-attendee-summary-going =
        *[other] { $count } sprejelo povabilo
     }
 # Variables:
+#   $count (Number): Number of guests that responded "maybe".
+calendar-dialog-attendee-summary-maybe =
+    { $count ->
+        [one] { $count } morda
+        [two] { $count } morda
+        [few] { $count } morda
+       *[other] { $count } morda
+    }
+# Variables:
 #   $count (Number): Number of guests that responded "declined".
 calendar-dialog-attendee-summary-declined =
     { $count ->
