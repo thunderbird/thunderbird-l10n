@@ -25,3 +25,54 @@ remove-data-chat-account-description = Odebere všechny záznamy konverzací ulo
 show-data-button =
     .label = Zobrazit umístění dat
     .accesskey = s
+# Variables:
+# $count (Number) - The number of outgoing servers to be removed.
+remove-outgoing-servers-checkbox =
+    .label =
+        { $count ->
+            [one] Odebrat odchozí server
+            [few] Odebrat { $count } odchozí servery
+            [many] Odebrat { $count } odchozích serverů
+           *[other] Odebrat { $count } odchozích serverů
+        }
+# Variables:
+# $count (Number) - The number of address books to be removed.
+remove-address-books-checkbox =
+    .label =
+        { $count ->
+            [one] Odebrat složku kontaktů
+            [few] Odebrat { $count } složky kontaktů
+           *[other] Odebrat { $count } složek kontaktů
+        }
+# Variables:
+# $count (Number) - The number of calendars to be removed.
+remove-calendars-checkbox =
+    .label =
+        { $count ->
+            [one] Odebrat kalendář
+            [few] Odebrat { $count } kalendáře
+            [many] Odebrat { $count } kalendářů
+           *[other] Odebrat { $count } kalendářů
+        }
+# Variables:
+# $count (Number) - The number of passwords to be removed.
+remove-passwords-checkbox =
+    .label =
+        { $count ->
+            [one] Odebrat heslo
+            [few] Odebrat { $count } hesla
+            [many] Odebrat { $count } hesel
+           *[other] Odebrat { $count } hesel
+        }
+# Variables:
+# $count (Number) - The number of OAuth tokens to be removed.
+remove-oauth-tokens-checkbox =
+    .label =
+        { $count ->
+            [one] Odebrat OAuth token
+            [few] Odebrat { $count } OAuth tokeny
+            [many] Odebrat { $count } OAuth tokenů
+           *[other] Odebrat { $count } OAuth tokenů
+        }
+remove-account-progress-success = Účet byl úspěšně odebrán.
+remove-account-progress-failure = Něco se pokazilo! Odebrání účtu se nepodařilo dokončit.
