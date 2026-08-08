@@ -14,6 +14,10 @@ configured-cert-failure-detail = Preverjanje potrdila je bilo neuspešno zaradi 
 configured-cert-failure = Preverjanje potrdila je bilo neuspešno; koda napake { $errorCode }
 # Cryptographic details displayed in the message security popup
 smime-crypto-signature-algorithm = Algoritem podpisa:
+# $algorithm - The encryption algorithm name (e.g. "AES-GCM")
+# $keySize - The key size in bits (e.g. "256")
+smime-crypto-cipher-with-key-size = { $algorithm } ({ $keySize }-bitni)
+smime-crypto-details-summary = Algoritmi
 # $errorMsg A sentence that explains the error.
 # $errorCodeStr A human readable error code, e.g. SEC_ERROR_UNKNOWN_ISSUER
 # Note the initial empty line is necessary to preserve the line breaks.

@@ -25,3 +25,55 @@ remove-data-chat-account-description = Odstrani vse dnevnike pogovorov, shranjen
 show-data-button =
     .label = Prikaži mesto podatkov
     .accesskey = P
+# Variables:
+# $count (Number) - The number of outgoing servers to be removed.
+remove-outgoing-servers-checkbox =
+    .label =
+        { $count ->
+            [one] Odstrani odhodni strežnik
+            [two] Odstrani { $count } odhodna strežnika
+            [few] Odstrani { $count } odhodne strežnike
+           *[other] Odstrani { $count } odhodnih strežnikov
+        }
+# Variables:
+# $count (Number) - The number of address books to be removed.
+remove-address-books-checkbox =
+    .label =
+        { $count ->
+            [one] Odstrani imenik
+            [two] Odstrani { $count } imenika
+            [few] Odstrani { $count } imenike
+           *[other] Odstrani { $count } imenikov
+        }
+# Variables:
+# $count (Number) - The number of calendars to be removed.
+remove-calendars-checkbox =
+    .label =
+        { $count ->
+            [one] Odstrani koledar
+            [two] Odstrani { $count } koledarja
+            [few] Odstrani { $count } koledarje
+           *[other] Odstrani { $count } koledarjev
+        }
+# Variables:
+# $count (Number) - The number of passwords to be removed.
+remove-passwords-checkbox =
+    .label =
+        { $count ->
+            [one] Odstrani geslo
+            [two] Odstrani { $count } gesli
+            [few] Odstrani { $count } gesla
+           *[other] Odstrani { $count } gesel
+        }
+# Variables:
+# $count (Number) - The number of OAuth tokens to be removed.
+remove-oauth-tokens-checkbox =
+    .label =
+        { $count ->
+            [one] Odstrani žeton OAuth
+            [two] Odstrani { $count } žetona OAuth
+            [few] Odstrani { $count } žetone OAuth
+           *[other] Odstrani { $count } žetonov OAuth
+        }
+remove-account-progress-success = Račun je bil uspešno odstranjen.
+remove-account-progress-failure = Nekaj je šlo narobe! Odstranjevanja računa ni mogoče dokončati.
