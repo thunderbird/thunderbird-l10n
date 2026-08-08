@@ -654,6 +654,7 @@ edit-directories-label =
 email-picker-label =
     .label = Automaticky přidat odchozí e-mailovou adresu do složky:
     .accesskey = A
+email-picker-description = Umístění nového kontaktu uloženého z odeslaných zpráv.
 default-directory-label =
     .value = Výchozí počáteční složka v okně kontaktů:
     .accesskey = c
