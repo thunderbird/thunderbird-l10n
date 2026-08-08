@@ -52,6 +52,7 @@ account-hub-email-continue-button = 계속
 account-hub-email-set-up-account-button = 계정 설정
 account-hub-email-confirm-button = 확인
 account-hub-email-find-settings-button = 설정 찾기
+account-hub-email-connect-button = 연결
 account-hub-result-incoming-legend = 수신
 account-hub-result-outgoing-legend = 발신
 account-hub-all-servers-legend = 모든 서버
@@ -224,11 +225,16 @@ account-hub-thundermail-button = Thundermail로 로그인
 account-hub-thundermail-divider-text = 또는
 account-hub-manual-config-imap-title = IMAP 설정
 account-hub-manual-config-pop3-title = POP3 설정
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-security-changed = { $oldValue } 값은 찾을 수 없지만 { $newValue } 값은 사용할 수 있습니다.
 account-hub-notification-show-more = 더 보기
 account-hub-notification-show-less = 간단히 보기
 account-hub-email-setup-header = 이메일 주소 추가
 account-hub-email-setup-incoming = 수신 서버 설정
 account-hub-email-setup-outgoing = 송신 서버 설정
+account-hub-email-protocol-select-additional-info = 이 계정을 설정하려면 추가 정보가 필요합니다.
 account-hub-email-config-found = 이메일 계정 유형 선택
 account-hub-email-enter-password = 이메일 계정 비밀번호 입력
 account-hub-email-sync-accounts = 캘린더와 주소록 동기화
