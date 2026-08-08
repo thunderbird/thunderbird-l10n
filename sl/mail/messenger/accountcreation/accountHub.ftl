@@ -50,6 +50,7 @@ account-hub-email-finish-button = Dokončaj
 account-hub-email-manually-configure-button = Nastavi ročno
 account-hub-email-continue-button = Nadaljuj
 account-hub-email-confirm-button = Potrdi
+account-hub-email-connect-button = Poveži
 account-hub-result-incoming-legend = Dohodna
 account-hub-result-outgoing-legend = Odhodna
 account-hub-all-servers-legend = Vsi strežniki
@@ -151,6 +152,7 @@ address-book-ldap-duplicate-error = Ime imenika LDAP že obstaja. Vnesite druga�
 address-book-ldap-creation-error = Imenika LDAP ni bilo mogoče ustvariti.
 account-hub-email-setup-ews = Nastavitve strežnika
 account-hub-result-exchange-url-label = URL končne točke Exchange
+account-hub-exchange-service-url-label = Vnesite URL storitve
 account-hub-email-credentials-confirmation = Nastavitev računa
 account-hub-result-unknown-hostname = Neznano ime gostitelja
 account-hub-result-unknown-cert = Nepotrjeno digitalno potrdilo
@@ -230,6 +232,24 @@ account-hub-manual-config-pop3-title = Nastavitve POP3
 account-hub-manual-config-review-settings-title = Preglejte spremenjene nastavitve
 account-hub-manual-config-incoming-legend = Dohodni strežnik
 account-hub-manual-config-outgoing-legend = Odhodni strežnik
+# Label for checkbox that will hide an outgoing username input if it's the same is the incoming
+account-hub-same-username-checkbox = Enako uporabniško ime kot za dohodni strežnik
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-security-changed = { $oldValue } ni bilo mogoče najti, vendar je na voljo { $newValue }.
+# Variables:
+# $oldValue (String): The port requested before the configuration was tested.
+# $newValue (String): The port found after the configuration was tested.
+account-hub-manual-config-port-changed = Vrat { $oldValue } ni bilo mogoče doseči, vendar so na voljo vrata { $newValue }.
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-value-changed = { $oldValue } ni bilo mogoče uporabiti, vendar je na voljo { $newValue }.
+account-hub-protocol-imap = Sinhronizacija med napravami
+account-hub-protocol-microsoft = Exchange ali Microsoft 365
+account-hub-protocol-pop3 = Prenesi na napravo
+account-hub-oauth-unsupported-title = Zahtevana je dodatna nastavitev
 account-hub-notification-show-more = Prikaži več
 account-hub-notification-show-less = Prikaži manj
 account-hub-email-setup-header = Dodajte e-poštni naslov
@@ -340,3 +360,5 @@ account-hub-new-remote-address-book = Nov oddaljen imenik
 account-hub-exchange-type-username = Uporabniško ime
 account-hub-exchange-type-username-hint = Običajno e-poštni naslov ali UPN storitve Active Directory.
 account-hub-exchange-type-authentication = Način overitve
+account-hub-exchange-type-advanced-config = Napredne nastavitve
+account-hub-exchange-type-title = Izberite vrsto računa
