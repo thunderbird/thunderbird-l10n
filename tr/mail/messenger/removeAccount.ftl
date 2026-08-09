@@ -25,3 +25,45 @@ remove-data-chat-account-description = Bu hesapla ilişkili tüm yazışma kayı
 show-data-button =
     .label = Veri konumunu göster
     .accesskey = k
+# Variables:
+# $count (Number) - The number of outgoing servers to be removed.
+remove-outgoing-servers-checkbox =
+    .label =
+        { $count ->
+            [one] Giden sunucusunu sil
+           *[other] { $count } giden sunucusunu sil
+        }
+# Variables:
+# $count (Number) - The number of address books to be removed.
+remove-address-books-checkbox =
+    .label =
+        { $count ->
+            [one] Adres defterini sil
+           *[other] { $count } adres defterini sil
+        }
+# Variables:
+# $count (Number) - The number of calendars to be removed.
+remove-calendars-checkbox =
+    .label =
+        { $count ->
+            [one] Takvimi sil
+           *[other] { $count } takvimi sil
+        }
+# Variables:
+# $count (Number) - The number of passwords to be removed.
+remove-passwords-checkbox =
+    .label =
+        { $count ->
+            [one] Parolayı sil
+           *[other] { $count } parolayı sil
+        }
+# Variables:
+# $count (Number) - The number of OAuth tokens to be removed.
+remove-oauth-tokens-checkbox =
+    .label =
+        { $count ->
+            [one] OAuth jetonunu sil
+           *[other] { $count } OAuth jetonunu sil
+        }
+remove-account-progress-success = Hesap başarıyla kaldırıldı.
+remove-account-progress-failure = Bir sorun oluştu. Hesap kaldırma işlemi tamamlanamadı.
