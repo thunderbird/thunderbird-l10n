@@ -52,6 +52,7 @@ account-hub-email-continue-button = Pokračovat
 account-hub-email-set-up-account-button = Nastavení účtu
 account-hub-email-confirm-button = Potvrdit
 account-hub-email-find-settings-button = Najít nastavení
+account-hub-email-connect-button = Připojit
 account-hub-result-incoming-legend = Příchozí
 account-hub-result-outgoing-legend = Odchozí
 account-hub-all-servers-legend = Všechny servery
@@ -244,13 +245,23 @@ account-hub-thundermail-button = Přihlásit se pomocí Thundermailu
 account-hub-thundermail-divider-text = nebo
 account-hub-manual-config-imap-title = Nastavení IMAP
 account-hub-manual-config-pop3-title = Nastavení POP3
+account-hub-manual-config-review-settings-title = Zkontrolujte aktualizovaná nastavení
 account-hub-manual-config-incoming-legend = Příchozí server
 account-hub-manual-config-outgoing-legend = Odchozí server
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
 account-hub-same-username-checkbox = Stejné uživatelské jméno jako na serveru příchozí pošty
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-security-changed = Hodnota { $oldValue } nebyla nalezena, ale hodnota { $newValue } je dostupná.
+# Variables:
+# $oldValue (String): The port requested before the configuration was tested.
+# $newValue (String): The port found after the configuration was tested.
+account-hub-manual-config-port-changed = Nepodařilo se dosáhnout portu { $oldValue }, ale port { $newValue } je dostupný.
 account-hub-protocol-imap = Synchronizace napříč zařízeními
 account-hub-protocol-microsoft = Exchange nebo Microsoft 365
 account-hub-protocol-pop3 = Stáhnout do zařízení
+account-hub-oauth-unsupported-title = Je vyžadována dodatečná konfigurace
 account-hub-notification-show-more = Zobrazit více
 account-hub-notification-show-less = Zobrazit méně
 account-hub-email-setup-header = Přidat vaši e-mailovou adresu

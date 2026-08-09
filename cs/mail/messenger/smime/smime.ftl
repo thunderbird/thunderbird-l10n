@@ -14,6 +14,7 @@ configured-cert-failure-detail = Ověření certifikátu selhalo s následujíc�
 configured-cert-failure = Ověření certifikátu selhalo s kódem chyby { $errorCode }
 # Cryptographic details displayed in the message security popup
 smime-crypto-signature-algorithm = Algoritmus podpisu:
+smime-crypto-digest-algorithm = Algoritmus otisku podpisu:
 smime-crypto-cipher = Šifrovací algoritmus:
 smime-crypto-key-encryption = Algoritmus šifrování klíče:
 # $algorithm - The encryption algorithm name (e.g. "AES-GCM")

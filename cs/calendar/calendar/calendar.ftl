@@ -160,6 +160,13 @@ week-title-label =
     .aria-label = Týden { $title }
 calendar-none =
     .label = Žádná
+# Variables:
+#   $fileName (String) - The backup file name, e.g. 'local-2020-05-11T21-30-17.sqlite'.
+too-new-dbschema-error-text =
+    { -brand-short-name.case-status ->
+        [with-cases] Data ve vašem kalendáři nejsou kompatibilní s touto verzí { -brand-short-name(case: "gen") }. Data kalendáře ve vašem profilu byla aktualizována pomocí novější verze { -brand-short-name(case: "gen") }. Byla vytvořena záloha datového souboru s názvem „{ $fileName }“. Aplikace bude pokračovat s nově vytvořením souborem s údaji.
+       *[no-cases] Data ve vašem kalendáři nejsou kompatibilní s touto verzí aplikace { -brand-short-name }. Data kalendáře ve vašem profilu byla aktualizována pomocí novější verze aplikace { -brand-short-name }. Byla vytvořena záloha datového souboru s názvem „{ $fileName }“. Aplikace bude pokračovat s nově vytvořením souborem s údaji.
+    }
 imip-bar-unsupported-text = Tato zpráva obsahuje akci, kterou nelze v této verzi aplikace { -brand-short-name } zpracovat.
 # Error strings
 # @name UID_NOT_FOUND
@@ -1145,3 +1152,14 @@ event-recurrence-forever =
 attendees-tab-label = Účastníci ({ $count }):
 # $count - the number of attachments
 attachments-tab-label = Přílohy ({ $count }):
+# Variables:
+#   $docTitle (String) - The date or view label for the current calendar view.
+calendar-window-title = { $docTitle } - { -brand-full-name }
+calendar-window-title-base = { -brand-full-name }
+# Variables:
+#   $username (String) - The account username.
+#   $location (String) - The calendar server location.
+calendar-auth-enter-password-for = Zadejte heslo uživatele { $username } na serveru { $location }
+# Variables:
+#   $location (String) - The calendar server location.
+calendar-auth-enter-user-password-for = Server { $location } požaduje vaše uživatelské jméno a heslo.
