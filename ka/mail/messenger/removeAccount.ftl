@@ -25,3 +25,11 @@ remove-data-chat-account-description = წაიშლება კომპი�
 show-data-button =
     .label = მონაცემთა ადგილმდებარეობის ჩვენება
     .accesskey = ჩ
+# Variables:
+# $count (Number) - The number of OAuth tokens to be removed.
+remove-oauth-tokens-checkbox =
+    .label =
+        { $count ->
+            [one] OAuth-საშვის წაშლა
+           *[other] { $count } OAuth-საშვის წაშლა
+        }
