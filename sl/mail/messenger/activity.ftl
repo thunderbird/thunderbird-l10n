@@ -109,8 +109,10 @@ extension-send-activity-progress =
 #   $count (Number) - number of messages sent in this batch
 extension-send-activity-event =
     { $count ->
-        [one] Razširitev "{ $extensionName }" je samostojno poslala sporočilo,
-       *[other] Razširitev "{ $extensionName }" je samostojno poslala več sporočil,
+        [one] Razširitev "{ $extensionName }" je samostojno poslala sporočilo
+        [two] Razširitev "{ $extensionName }" je samostojno poslala več sporočil
+        [few] Razširitev "{ $extensionName }" je samostojno poslala več sporočil
+       *[other] Razširitev "{ $extensionName }" je samostojno poslala več sporočil
     }
 # Status line shown under extension-send-activity-event.
 # Reports how many messages were sent by the extension and how long the
