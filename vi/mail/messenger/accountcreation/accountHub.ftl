@@ -235,6 +235,18 @@ account-hub-manual-config-incoming-legend = Máy chủ nhận thư
 account-hub-manual-config-outgoing-legend = Máy chủ gửi thư
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
 account-hub-same-username-checkbox = Tên người dùng giống với máy chủ đến
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-security-changed = Không tìm thấy { $oldValue }, nhưng { $newValue } có sẵn.
+# Variables:
+# $oldValue (String): The port requested before the configuration was tested.
+# $newValue (String): The port found after the configuration was tested.
+account-hub-manual-config-port-changed = Không thể kết nối đến Cổng { $oldValue }, nhưng Cổng { $newValue } có sẵn.
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-value-changed = Không thể sử dụng { $oldValue }, nhưng { $newValue } có sẵn.
 account-hub-protocol-imap = Đồng bộ hóa giữa các thiết bị
 account-hub-protocol-microsoft = Exchange hoặc Microsoft 365
 account-hub-protocol-pop3 = Tải xuống về thiết bị
@@ -250,6 +262,7 @@ account-hub-email-setup-outgoing = Cài đặt máy chủ gửi thư
 account-hub-email-exchange-settings = Cài đặt Exchange
 account-hub-email-connect-settings = Kết nối cài đặt email của bạn
 account-hub-email-protocol-select-header = Chọn loại tài khoản email
+account-hub-email-protocol-select-additional-info = Cần cung cấp thêm thông tin để thiết lập tài khoản này.
 account-hub-email-protocol-select-notification = Cần cung cấp thêm thông tin để thiết lập tài khoản này
 account-hub-email-config-found = Chọn loại tài khoản email của bạn
 account-hub-email-enter-password = Nhập mật khẩu tài khoản email của bạn

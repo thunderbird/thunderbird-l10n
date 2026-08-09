@@ -25,3 +25,25 @@ remove-data-chat-account-description = Xóa tất cả nhật ký của các cu�
 show-data-button =
     .label = Hiển thị vị trí dữ liệu
     .accesskey = S
+# Variables:
+# $count (Number) - The number of outgoing servers to be removed.
+remove-outgoing-servers-checkbox =
+    .label = Xoá { $count } máy chủ gửi thư
+# Variables:
+# $count (Number) - The number of address books to be removed.
+remove-address-books-checkbox =
+    .label = Xoá { $count } sổ địa chỉ
+# Variables:
+# $count (Number) - The number of calendars to be removed.
+remove-calendars-checkbox =
+    .label = Xoá { $count } lịch
+# Variables:
+# $count (Number) - The number of passwords to be removed.
+remove-passwords-checkbox =
+    .label = Xoá { $count } mật khẩu
+# Variables:
+# $count (Number) - The number of OAuth tokens to be removed.
+remove-oauth-tokens-checkbox =
+    .label = Xoá { $count } token OAuth
+remove-account-progress-success = Đã xoá tài khoản thành công.
+remove-account-progress-failure = Đã xảy ra lỗi! Không thể hoàn tất việc xoá tài khoản.

@@ -1063,3 +1063,6 @@ calendar-window-title-base = { -brand-full-name }
 #   $username (String) - The account username.
 #   $location (String) - The calendar server location.
 calendar-auth-enter-password-for = Nhập mật khẩu cho { $username } từ { $location }
+# Variables:
+#   $location (String) - The calendar server location.
+calendar-auth-enter-user-password-for = { $location } yêu cầu tên người dùng và mật khẩu của bạn.
