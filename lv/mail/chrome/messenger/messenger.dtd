@@ -241,7 +241,7 @@
 <!ENTITY findAgainCmd.key2 "VK_F3">
 <!ENTITY findPrevCmd.key "g">
 <!ENTITY findPrevCmd.key2 "VK_F3">
-<!ENTITY searchMailCmd.label "Meklēt vēstules...">
+<!ENTITY searchMailCmd.label "Meklēt ziņojumus…">
 <!ENTITY searchMailCmd.accesskey "m">
 <!ENTITY searchMailCmd.key "f">
 <!ENTITY glodaSearchCmd.label "Globālā meklēšana…">
@@ -590,7 +590,7 @@
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "z">
 <!ENTITY folderContextSubscribe.label "Pierakstīties…">
 <!ENTITY folderContextSubscribe.accesskey "P">
-<!ENTITY folderContextSearchForMessages.label "Meklēt vēstules...">
+<!ENTITY folderContextSearchForMessages.label "Meklēt ziņojumus…">
 <!ENTITY folderContextSearchForMessages.accesskey "M">
 <!ENTITY folderContextProperties2.label "Īpašības">
 <!ENTITY folderContextProperties2.accesskey "p">

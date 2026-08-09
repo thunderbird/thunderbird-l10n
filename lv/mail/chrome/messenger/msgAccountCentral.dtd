@@ -14,7 +14,7 @@
 <!ENTITY settingsLink.label "Skatīt šī konta iestatījumus">
 <!ENTITY setupNewAcct.label "Izveidot kontu:">
 <!ENTITY advFeaturesSectionHdr.label "Papildu iespējas">
-<!ENTITY searchMsgsLink.label "Meklēt vēstules">
+<!ENTITY searchMsgsLink.label "Meklēt ziņojumus">
 <!ENTITY filtersLink.label "Pārvaldīt vēstuļu filtrus">
 <!ENTITY junkSettings.label "Mēstuļu iestatījumi">
 <!ENTITY offlineLink.label "Nesaistes iestatījumi">

@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- for SearchDialog.xhtml -->
-<!ENTITY searchHeading.label "Meklēt vēstules iekš:">
+<!ENTITY searchHeading.label "Meklēt ziņojumus:">
 <!ENTITY searchHeading.accesskey "M">
 <!ENTITY searchSubfolders.label "Meklēt apakšmapēs">
 <!ENTITY searchSubfolders.accesskey "m">
@@ -15,7 +15,7 @@
 <!ENTITY openButton.accesskey "A">
 <!ENTITY deleteButton.label "Dzēst">
 <!ENTITY deleteButton.accesskey "D">
-<!ENTITY searchDialogTitle.label "Meklēt vēstules">
+<!ENTITY searchDialogTitle.label "Meklēt ziņojumus">
 <!ENTITY results.label "Rezultāti">
 <!ENTITY moveButton.label "Pārvietot uz">
 <!ENTITY moveButton.accesskey "P">
