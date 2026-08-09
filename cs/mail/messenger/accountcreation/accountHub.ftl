@@ -258,10 +258,17 @@ account-hub-manual-config-security-changed = Hodnota { $oldValue } nebyla naleze
 # $oldValue (String): The port requested before the configuration was tested.
 # $newValue (String): The port found after the configuration was tested.
 account-hub-manual-config-port-changed = Nepodařilo se dosáhnout portu { $oldValue }, ale port { $newValue } je dostupný.
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-value-changed = Nelze použít hodnotu { $oldValue }, ale hodnota { $newValue } je dostupná.
 account-hub-protocol-imap = Synchronizace napříč zařízeními
 account-hub-protocol-microsoft = Exchange nebo Microsoft 365
 account-hub-protocol-pop3 = Stáhnout do zařízení
 account-hub-oauth-unsupported-title = Je vyžadována dodatečná konfigurace
+# Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
+# 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
+account-hub-oauth-unsupported-description = { -brand-short-name } nedokáže automaticky nakonfigurovat OAuth2 pro tohoto hostitele. Vyberte možnost Rozšířená konfigurace ve vytváření účtu, a potom dokončete nastavení v části Nastavení účtu. <a data-l10n-name="oauth-support-link">Získat pomoc s nastavením OAuth2.</a>
 account-hub-notification-show-more = Zobrazit více
 account-hub-notification-show-less = Zobrazit méně
 account-hub-email-setup-header = Přidat vaši e-mailovou adresu
@@ -270,6 +277,7 @@ account-hub-email-setup-outgoing = Nastavení odchozího serveru
 account-hub-email-exchange-settings = Nastavení Exchange
 account-hub-email-connect-settings = Připojit vaše nastavení e-mailu
 account-hub-email-protocol-select-header = Vyberte typ poštovního účtu
+account-hub-email-protocol-select-additional-info = K nastavení tohoto účtu jsou vyžadovány další informace.
 account-hub-email-protocol-select-notification = K nastavení tohoto účtu jsou vyžadovány další informace
 account-hub-email-config-found = Vyberte si typ poštovního účtu
 account-hub-email-enter-password = Zadejte heslo k poštovnímu účtu
@@ -332,6 +340,7 @@ account-hub-port-error-text = Port musí být v rozmezí 1 až 65535
     .title = Port musí být v rozmezí 1 až 65535
 account-hub-username-error-text = Uživatelské jméno je vyžadováno
     .title = Uživatelské jméno je vyžadováno
+account-hub-manual-config-error-summary = Vyřešte prosím následující chyby:
 account-hub-oauth-pending = Čekání na autorizaci ve vyskakovacím okně přihlášení…
 account-hub-addon-install-button = Instalovat
 account-hub-addon-install-needed = { -brand-short-name } nepodporuje tento server nativně. Chcete-li získat přístup k e-mailu Exchange, <a data-l10n-name="addon-install"> nainstalujte si doplněk třetí strany, například Owl (placený).</a>
