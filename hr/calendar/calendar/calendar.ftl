@@ -160,6 +160,9 @@ week-title-label =
     .aria-label = Tjedan { $title }
 calendar-none =
     .label = Nijedan
+# Variables:
+#   $fileName (String) - The backup file name, e.g. 'local-2020-05-11T21-30-17.sqlite'.
+too-new-dbschema-error-text = Podaci tvog kalendara nisu kompatibilni s ovom { -brand-short-name } verzijom. Podaci kalendara u tvom profilu su aktualizirani s novijom { -brand-short-name } verzijom. Izrađena je sigurnosna kopija datoteke podataka pod imenom “{ $fileName }”. Nastavlja se s novom stvorenom datotekom podataka.
 imip-bar-unsupported-text = Ova poruka sadrži događaj koji ova { -brand-short-name } verzija ne može obraditi.
 # Error strings
 # @name UID_NOT_FOUND
@@ -1138,3 +1141,14 @@ event-recurrence-forever =
 attendees-tab-label = Sudionici ({ $count }):
 # $count - the number of attachments
 attachments-tab-label = Privitci ({ $count }):
+# Variables:
+#   $docTitle (String) - The date or view label for the current calendar view.
+calendar-window-title = { $docTitle } - { -brand-full-name }
+calendar-window-title-base = { -brand-full-name }
+# Variables:
+#   $username (String) - The account username.
+#   $location (String) - The calendar server location.
+calendar-auth-enter-password-for = Unesite lozinku za { $username } na { $location }
+# Variables:
+#   $location (String) - The calendar server location.
+calendar-auth-enter-user-password-for = { $location } zahtijeva tvoje korisničko ime i lozinku.

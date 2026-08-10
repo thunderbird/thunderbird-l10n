@@ -258,6 +258,10 @@ menu-move-copy-recent-destinations =
 menu-move-copy-favorites =
     .label = Favoriti
     .accesskey = F
+menu-move-copy-no-recent =
+    .label = (Nema nedavnih odredišta)
+menu-move-copy-no-favorites =
+    .label = (Nema omiljenih)
 
 ## AppMenu
 
@@ -675,6 +679,27 @@ prompt-dont-ask-again = Ne pitaj ponovo.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Analiza neželjene pošte dovršena { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") }
 spam-processing-message = Obrada neželjene pošte
+
+## Ignore threads
+
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-theads-feedback =
+    { $count ->
+        [one] Odgovori na { $count } odabranu temu neće biti prikazani.
+        [few] Odgovori na { $count } odabrane teme neće biti prikazani.
+       *[other] Odgovori na { $count } odabranih tema neće biti prikazani.
+    }
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-subtheads-feedback =
+    { $count ->
+        [one] Odgovori na { $count } odabranu podtemu neće biti prikazani.
+        [few] Odgovori na { $count } odabrane podteme neće biti prikazani.
+       *[other] Odgovori na { $count } odabranih podtema neće biti prikazani.
+    }
 
 ## Attachments
 
