@@ -25,3 +25,39 @@ remove-data-chat-account-description = Ukloni sve zapise razgovora vezane za ova
 show-data-button =
     .label = Prikaži lokaciju podataka
     .accesskey = l
+# Variables:
+# $count (Number) - The number of outgoing servers to be removed.
+remove-outgoing-servers-checkbox =
+    .label =
+        { $count ->
+            [one] Ukloni { $count } odlazni poslužitelj
+            [few] Ukloni { $count } odlazna poslužitelja
+           *[other] Ukloni { $count } odlaznih poslužitelja
+        }
+# Variables:
+# $count (Number) - The number of address books to be removed.
+remove-address-books-checkbox =
+    .label =
+        { $count ->
+            [one] Ukloni { $count } adresar
+            [few] Ukloni { $count } adresara
+           *[other] Ukloni { $count } adresara
+        }
+# Variables:
+# $count (Number) - The number of calendars to be removed.
+remove-calendars-checkbox =
+    .label =
+        { $count ->
+            [one] Ukloni { $count } kalendar
+            [few] Ukloni { $count } kalendara
+           *[other] Ukloni { $count } kalendara
+        }
+# Variables:
+# $count (Number) - The number of passwords to be removed.
+remove-passwords-checkbox =
+    .label =
+        { $count ->
+            [one] Ukloni { $count } lozinku
+            [few] Ukloni { $count } lozinke
+           *[other] Ukloni { $count } lozinki
+        }
