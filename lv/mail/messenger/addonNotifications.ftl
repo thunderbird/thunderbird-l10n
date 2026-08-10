@@ -15,10 +15,10 @@ xpinstall-prompt-message = Jūs mēģināt uzstādīt papildinājumu no { $host 
 xpinstall-prompt-header-unknown = Vai ļaut nezināmai vietnei uzstādīt papildinājumu?
 xpinstall-prompt-message-unknown = Jūs mēģināt uzstādīt papildinājumu no nezināmas vietnes. Pirms turpināt, pārliecinieties, ka uzticaties šai vietnei.
 xpinstall-prompt-dont-allow =
-    .label = Liegt
-    .accesskey = D
+    .label = Neļaut
+    .accesskey = N
 xpinstall-prompt-never-allow =
-    .label = Vienmēr liegt
+    .label = Nekad neļaut
     .accesskey = N
 # Accessibility Note:
 # Be sure you do not choose an accesskey that is used elsewhere in the active context (e.g. main menu bar, submenu of the warning popup button)

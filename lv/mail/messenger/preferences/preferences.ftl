@@ -354,6 +354,9 @@ close-move-delete =
 condensed-addresses-label =
     .label = Adrešu grāmatā rādīt tikai tikai personas rādāmvārdu
     .accesskey = r
+table-layout-horizontal-scroll-label =
+    .label = Atļaut līmenisku ritināšanu
+    .accesskey = l
 
 ## Compose Tab
 

@@ -30,7 +30,7 @@ system-search-engine-name =
        *[other] { "" }
     }
 system-search-integration-label =
-    .label = Ļaut { system-search-engine-name } meklēt vēstules
+    .label = Atļaut { system-search-engine-name } meklēt ziņojumus
     .accesskey = m
 check-on-startup-label =
     .label = Vienmēr veikt šo pārbaudi, palaižot { -brand-short-name }
