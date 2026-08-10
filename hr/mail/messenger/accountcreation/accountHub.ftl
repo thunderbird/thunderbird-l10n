@@ -49,7 +49,10 @@ account-hub-email-retest-button = Ponovno testiraj
 account-hub-email-finish-button = Završi
 account-hub-email-manually-configure-button = Ručno podešavanje
 account-hub-email-continue-button = Nastavi
+account-hub-email-set-up-account-button = Postavi račun
 account-hub-email-confirm-button = Potvrdi
+account-hub-email-find-settings-button = Pronađi postavke
+account-hub-email-connect-button = Poveži
 account-hub-result-incoming-legend = Dolazni
 account-hub-result-outgoing-legend = Odlazni
 account-hub-all-servers-legend = Svi poslužitelji
@@ -158,6 +161,7 @@ address-book-ldap-duplicate-error = Naziv LDAP mape već postoji. Unesite drugi 
 address-book-ldap-creation-error = Nije moguće stvoriti LDAP mapu.
 account-hub-email-setup-ews = Postavke servera
 account-hub-result-exchange-url-label = URL krajnje točke Exchangea
+account-hub-exchange-service-url-label = Unesite URL usluge
 account-hub-email-credentials-confirmation = Konfiguracija računa
 account-hub-result-unknown-hostname = Nepoznato ime glavnog računala
 account-hub-result-unknown-cert = Nepotvrđeni certifikat
@@ -232,13 +236,35 @@ account-hub-calendars-button = Kalendari
 account-hub-thundermail-button = Prijavite se putem Thundermaila
 # Used as part of a divider between sign in button and a sign in form.
 account-hub-thundermail-divider-text = ili
+account-hub-manual-config-imap-title = IMAP postavke
+account-hub-manual-config-pop3-title = POP3 postavke
+account-hub-manual-config-review-settings-title = Pregledajte ažurirane postavke
 account-hub-manual-config-incoming-legend = Dolazni poslužitelj
 account-hub-manual-config-outgoing-legend = Odlazni poslužitelj
+# Label for checkbox that will hide an outgoing username input if it's the same is the incoming
+account-hub-same-username-checkbox = Isto korisničko ime kao i dolazni poslužitelj
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-security-changed = Nije pronađeno { $oldValue }, ali je dostupno { $newValue }.
+# Variables:
+# $oldValue (String): The port requested before the configuration was tested.
+# $newValue (String): The port found after the configuration was tested.
+account-hub-manual-config-port-changed = Nije moguće dosegnuti port { $oldValue }, ali port { $newValue } je dostupan.
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-value-changed = Nije moguće koristiti { $oldValue }, ali je dostupno { $newValue }.
+account-hub-protocol-imap = Sinkronizacija na svim uređajima
+account-hub-protocol-microsoft = Exchange ili Microsoft 365
+account-hub-protocol-pop3 = Preuzmi na uređaj
+account-hub-oauth-unsupported-title = Potrebna je dodatna konfiguracija
 account-hub-notification-show-more = Prikaži više
 account-hub-notification-show-less = Prikaži manje
 account-hub-email-setup-header = Dodajte svoju adrese e-pošte
 account-hub-email-setup-incoming = Postavke dolaznog poslužitelja
 account-hub-email-setup-outgoing = Postavke odlaznog poslužitelja
+account-hub-email-connect-settings = Povežite postavke e-pošte
 account-hub-email-config-found = Odaberite vrstu računa e-pošte
 account-hub-email-enter-password = Unesite lozinku računa e-pošte
 account-hub-email-sync-accounts = Sinkronizirajte svoje kalendare i adresare
@@ -252,6 +278,8 @@ account-hub-result-graph-shortname = Exchange (Graph)
 account-hub-result-graph-description = Koristite Microsoft Graph API za sinkronizaciju mapa i e-pošte
 account-hub-result-exchange-description = Sinkroniziraj mape i e-poštu pomoću usluga Exchange ili Office 365
 account-hub-result-ews-text = Poslužitelj
+account-hub-result-ews-expanded-text = Exchange web servisi
+account-hub-result-graph-expanded-text = Graph API
 account-hub-result-recommended-label = Preporučeno
 account-hub-result-addon-label = Zahtijeva dodatak
 account-hub-edit-configuration = Uredi konfiguraciju
@@ -288,6 +316,7 @@ account-hub-oauth-pending = Čekanje na autorizaciju u skočnom prozoru za prija
 account-hub-addon-install-button = Instaliraj
 account-hub-addon-install-needed = { -brand-short-name } ne podržava izvorno ovaj poslužitelj. Za pristup e-pošti na usluzi Exchange, <a data-l10n-name="addon-install">instaliraj dodatak treće strane, poput dodatka Owl (plaća se).</a>
 account-hub-addon-error = Instalacija dodatka nije uspjela. Pokušaj ponovno ili kontaktiraj autora dodatka za pomoć.
+account-hub-select-security-warning = <span data-l10n-name="error-text">Upozorenje: Otkriven je nesiguran poslužitelj e-pošte.</span> Ovom poslužitelju nedostaje šifriranje, što otkriva vašu lozinku i podatke. Obratite se administratoru kako biste osigurali vezu ili nastavite na vlastitu odgovornost. <a data-l10n-name="error-link">Za više informacija pogledajte Često postavljana pitanja.</a>
 account-hub-security-warning = <span data-l10n-name="security-warning">Upozorenje: Otkriven je nesiguran poslužitelj e-pošte.</span> Ovom poslužitelju nedostaje šifriranje, što otkriva vašu lozinku i podatke. Obratite se administratoru kako biste osigurali vezu ili nastavite na vlastitu odgovornost. <a data-l10n-name="faq-link">Za više informacija pogledajte Često postavljana pitanja.</a>
 account-hub-account-authentication-error = Greška prilikom autentifikacije
 account-hub-add-address-book = Dodaj adresar
