@@ -9,6 +9,9 @@
 calendar-dialog-close-button =
     .aria-label = Zatvori
     .title = Zatvori
+calendar-dialog-menu-button =
+    .title = Otvori izbornik
+    .aria-label = Otvori izbornik
 calendar-dialog-back-button =
     .aria-label = Natrag
     .title = Natrag
@@ -22,6 +25,20 @@ calendar-dialog-description-row-icon =
     .alt = Opis
 calendar-dialog-reminders-row-icon =
     .alt = Podsjetnici
+calendar-dialog-attendees-row-icon =
+    .alt = Gosti
+# Variables:
+#   $count (Number): Number of guests.
+calendar-dialog-attendee-count =
+    { $count ->
+        [one] { $count } gost
+        [few] { $count } gosta
+       *[other] { $count } gostiju
+    }
+calendar-dialog-attendee-organizer = Organizator
+calendar-dialog-attendee-optional = Opcionalno
+calendar-dialog-icon-attending =
+    .alt = Prisustvuju
 calendar-dialog-description-label = Opis
 calendar-dialog-description-expand-icon =
     .alt = Prikaži puni opis
