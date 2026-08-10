@@ -13,6 +13,9 @@ multi-message-delete-button =
 multi-message-undelete-button =
     .label = Vrati obrisano
     .tooltiptext = Vrati obrisano
+multi-message-flagged-button =
+    .title = Zvjezdica
+    .aria-label = Zvjezdica
 # Variables:
 #   $count - total number of conversations (threads or solitary messages) selected
 num-conversations =

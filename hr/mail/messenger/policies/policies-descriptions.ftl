@@ -35,6 +35,7 @@ policy-DisableFormHistory = Nemoj pamtiti povijest pretraživanja i obrazaca.
 policy-DisableMasterPasswordCreation = Ako je točno, nije moguće stvoriti glavnu lozinku.
 policy-DisablePasswordReveal = Nemoj dozvoliti prikaz lozinki u spremljenim prijavama.
 policy-DisableProfileImport = Onemogućite naredbu izbornika za uvoz podataka iz drugih aplikacija.
+policy-DisableQRExport = Onemogući generiranje QR koda za izvoz postavki računa i vjerodajnica.
 policy-DisableSafeMode = Onemogućite značajku za ponovno pokretanje u sigurnom načinu rada. Napomena: Shift tipka za ulazak u sigurni način se može onemogućiti samo na Windowsima koristeći Grupne politike.
 policy-DisableSecurityBypass = Spriječite korisnika da zaobilazi određena sigurnosna upozorenja.
 policy-DisableSystemAddonUpdate = Spriječi { -brand-short-name } da instalira i ažurira sustavske dodatke.
@@ -85,6 +86,7 @@ policy-RequestedLocales = Postavite popis traženih jezika za aplikaciju prema r
 policy-SanitizeOnShutdown2 = Obrišite podatke o navigaciji prilikom gašenja.
 policy-SearchEngines = Prilagodite postavke pretraživača. Ovo pravilo je dostupno samo u inačici proširene podrške (ESR).
 policy-SearchSuggestEnabled = Aktiviraj ili deaktiviraj prijedloge za pretraživanje.
+policy-SecurityDevices2 = Dodaj ili izbriši PKCS #11 module.
 # For more information, see https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
 policy-SecurityDevices = Instalirajte PKCS #11 module.
 policy-SSLVersionMax = Postavite maksimalnu SSL inačicu.

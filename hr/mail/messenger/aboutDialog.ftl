@@ -5,6 +5,11 @@
 about-update-whats-new = Što je novo
 about-dialog-title = O { -brand-full-name }u
 release-notes-link = Napomene o izdanju
+# This describes the codename logo shown in the About Thunderbird dialog for the current annual release.
+# Do not translate: Meadow
+about-dialog-meadow-logo =
+    .alt = { -brand-short-name } kodni naziv Meadow značka
+    .title = { -brand-short-name } - kodni naziv Meadow
 update-internal-error = Neuspjelo traženje novih ažuriranja zbog interne greške. Nova ažuriranja su dostupna na <a data-l10n-name="manual-link"/>
 update-check-for-updates-button = Provjeri dostupnost dopuna
     .accesskey = d
