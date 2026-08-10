@@ -19,7 +19,7 @@ radio-gnupg-key =
 
 ## Generate key section
 
-openpgp-generate-key-title = OpenPGP atslēgas ģenerēšana
+openpgp-generate-key-title = Veidot OpenPGP atslēgu
 openpgp-generate-key-info = <b>Atslēgu ģenerēšana var ilgt vairākas minūtes.</b>Kamēr notiek atslēgas ģenerēšana, neizejiet no programmas. Veicot tīmekļa pārlūkošana vai disku noslogojošas darbības, tās papildinās datora 'nejaušības krājumu' un paātrinās procesu. Kad atslēgu ģenerēšana būs pabeigta, jūs saņemsiet ziņojumu.
 openpgp-keygen-expiry-title = atslēgu derīgums
 openpgp-keygen-expiry-description = Nosakiet jaunizveidotās atslēgas derīgumu. Ja nepieciešams, vēlāk varēsit mainīt datumu, lai to pagarinātu.
