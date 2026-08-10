@@ -50,4 +50,4 @@ afterauth-unverified = { $name } identitāte nav pārbaudīta.
 # Do not translate 'OTR' (name of an encryption protocol)
 # Variables:
 #   $error (String) - contains an error message that describes the cause of the failure
-otr-genkey-failed = Neizdevās ģenerēt OTR privāto atslēgu: { $error }
+otr-genkey-failed = OTR privātās atslēgas izveidošana neizdevās: { $error }

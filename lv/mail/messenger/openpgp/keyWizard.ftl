@@ -20,7 +20,7 @@ radio-gnupg-key =
 ## Generate key section
 
 openpgp-generate-key-title = Veidot OpenPGP atslēgu
-openpgp-generate-key-info = <b>Atslēgu ģenerēšana var ilgt vairākas minūtes.</b>Kamēr notiek atslēgas ģenerēšana, neizejiet no programmas. Veicot tīmekļa pārlūkošana vai disku noslogojošas darbības, tās papildinās datora 'nejaušības krājumu' un paātrinās procesu. Kad atslēgu ģenerēšana būs pabeigta, jūs saņemsiet ziņojumu.
+openpgp-generate-key-info = <b>Atslēgu veidošana var ilgt vairākas minūtes.</b>Atslēgas veidošanas laikā nevar aizvērt lietotni. Tīmekļa pārlūkošanas vai disku noslogojošas darbību veikšana papildinās datora “nejaušības kopparaugu” un paātrinās virzību. Pēc atslēgu veidošanas pabeigšanas būs paziņojums.
 openpgp-keygen-expiry-title = atslēgu derīgums
 openpgp-keygen-expiry-description = Nosakiet jaunizveidotās atslēgas derīgumu. Ja nepieciešams, vēlāk varēsit mainīt datumu, lai to pagarinātu.
 radio-keygen-expiry =
@@ -47,8 +47,8 @@ openpgp-keygen-type-rsa =
     .label = RSA
 openpgp-keygen-type-ecc =
     .label = ECC (eliptiskā līkne)
-openpgp-keygen-button = Ģenerēt atslēgu
-openpgp-keygen-progress-title = Ģenerē jūsu jaunās OpenPGP atslēgas…
+openpgp-keygen-button = Veidot atslēgu
+openpgp-keygen-progress-title = Veido jauno OpenPGP atslēgu…
 openpgp-keygen-import-progress-title = Importē jūsu OpenPGP atslēgu…
 openpgp-import-success = OpenPGP atslēgas sekmīgi ievietotas.
 openpgp-import-success-title = Pabeidziet importēšanas procesu
@@ -65,15 +65,15 @@ openpgp-keygen-import-complete =
 openpgp-keygen-missing-username = Tekošajam kontam nav norādīts nosaukums.  Lūdzu, ievadiet vērtību konta iestatījumu laukā  "Jūsu vārds".
 openpgp-keygen-long-expiry = Jūs nevarat izveidot atslēgu, kuras derīgums ir ilgāks par 100 gadiem.
 openpgp-keygen-short-expiry = Jūsu atslēgai jābūt derīgai vismaz vienu dienu.
-openpgp-keygen-ongoing = Atslēgu ģenerēšana jau notiek!
+openpgp-keygen-ongoing = Jau notiek atslēgu veidošana!
 openpgp-keygen-error-core = Neizdevās inicializēt OpenPGP pamata pakalpojumu
-openpgp-keygen-error-failed = Negaidīti neizdevās OpenPGP atslēgu ģenerēšana
+openpgp-keygen-error-failed = OpenPGP atslēgu veidošana negaidīti neizdevās
 #   $key (String) - the ID of the newly generated OpenPGP key
 openpgp-keygen-error-revocation = OpenPGP atslēga ir sekmīgi izveidota, taču neizdevās iegūt atslēgas { $key } atsaukšanu
-openpgp-keygen-abort-title = Pārtraukt atslēgu ģenerēšanu?
-openpgp-keygen-abort = Pašlaik notiek OpenPGP atslēgu ģenerēšana, vai tiešām vēlaties to atcelt?
+openpgp-keygen-abort-title = Pārtraukt atslēgu veidošanu?
+openpgp-keygen-abort = Pašlaik notiek OpenPGP atslēgu veidošana, vai tiešām atcelt to?
 #   $identity (String) - the name and email address of the currently selected identity
-openpgp-key-confirm = Vai ģenerēt { $identity } publisko un privāto atslēgu?
+openpgp-key-confirm = Veidot { $identity } publisko un privāto atslēgu?
 
 ## Import Key section
 

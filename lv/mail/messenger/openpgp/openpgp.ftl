@@ -25,8 +25,8 @@ openpgp-key-man-view-menu =
     .label = Skats
     .accesskey = S
 openpgp-key-man-generate-menu =
-    .label = Ģenerēt
-    .accesskey = r
+    .label = Veidot
+    .accesskey = d
 openpgp-key-man-keyserver-menu =
     .label = Atslēgu serveris
     .accesskey = A
@@ -519,17 +519,17 @@ file-to-big-to-import = Šis fails ir pārāk liels. Lūdzu, neimportējiet uzre
 save-revoke-cert-as = Izveidot un saglabāt atsaukšanas sertifikātu
 revoke-cert-ok = Atsaukšanas sertifikāts tika sekmīgi izveidots. To var izmantot, lai padarītu savu publisko atslēgu nederīgu, piemēram, ja tiek pazaudēta slepenā atslēga.
 revoke-cert-failed = Atsaukšanas sertifikātu neizdevās izveidot.
-gen-going = Atslēgu ģenerēšana jau notiek!
+gen-going = Jau notiek atslēgu veidošana!
 keygen-missing-user-name = Atlasītajam kontam/identitātei nav norādīts nosaukums. Lūdzu, ievadiet vērtību konta iestatījumu laukā "Jūsu vārds".
 expiry-too-short = Jūsu atslēgai jābūt derīgai vismaz vienu dienu.
 expiry-too-long = Jūs nevarat izveidot atslēgu, kuras derīguma termiņš ir ilgāks par 100 gadiem.
 # Variables:
 # $id (String) - Name and/or email address to generate keys for.
-key-confirm = Vai ģenerēt '{ $id }' publisko un slepeno atslēgu?
-key-man-button-generate-key = &Ģenerēt atslēgu
-key-abort = Pārtraukt atslēgu ģenerēšanu?
-key-man-button-generate-key-abort = &Pārtraukt atslēgu ģenerēšanu
-key-man-button-generate-key-continue = &Turpināt atslēgu ģenerēšanu
+key-confirm = Veidot ‘{ $identity }’ publisko un privāto atslēgu?
+key-man-button-generate-key = &Veidot atslēgu
+key-abort = Pārtraukt atslēgu veidošanu?
+key-man-button-generate-key-abort = &Pārtraukt atslēgu veidošanu?
+key-man-button-generate-key-continue = &Turpināt atslēgu veidošanu
 
 ## Strings used in enigmailMessengerOverlay.js
 
