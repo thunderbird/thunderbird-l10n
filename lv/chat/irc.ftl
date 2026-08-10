@@ -138,7 +138,7 @@ message-quit2 = : { $nick }
 message-invite-received = { $nick } ir uzaicinājis  jūs uz { $conversationName }.
 #    $nick is the nickname of the invited user, $conversationName is the conversation name
 #    they were invited to.
-message-invited = { $nick } ir veiksmīgi uzaicināts uz { $conversationName }.
+message-invited = { $nick } tika sekmīgi uzaicināts uz { $conversationName }.
 #    $nick is the nickname of the invited user, $conversationName is the conversation name
 #    they were invited to but are already in
 message-already-in-channel = { $nick } jau ir { $conversationName }.
