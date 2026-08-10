@@ -10,7 +10,7 @@
 <!ENTITY folderSelectionCaption.label "Atlasiet mapes meklēšanai:">
 <!ENTITY chooseFoldersButton.label "Izvēlieties…">
 <!ENTITY chooseFoldersButton.accesskey "z">
-<!ENTITY searchOnline.label "Meklēt tiešsaistē (sniedz jaunākos IMAP un News mapju datus, bet palielina to atvēršanas laiku)">
+<!ENTITY searchOnline.label "Meklēt tiešsaistē (sniedz jaunākos IMAP un News mapju datus, bet palielina mapes atvēršanas laiku)">
 <!ENTITY searchOnline.accesskey "M">
 <!ENTITY newFolderButton.label "Izveidot">
 <!ENTITY newFolderButton.accesskey "I">

@@ -8,7 +8,7 @@
 <!ENTITY folderRebuildSummaryFile2.label "Salabot mapi">
 <!ENTITY folderRebuildSummaryFile2.accesskey "R">
 <!ENTITY folderRebuildSummaryFile.explanation "Dažreiz mapes indeksa (.msf) fails sabojājas un vēstules var likties pazudušas vai var parādīties dzēstas vēstules; labojot mapi, šīs problēmas var novērst.">
-<!ENTITY folderIncludeInGlobalSearch.label "Iekļaut ziņojumus no šīs mapes visaptverošos meklēšanas iznākumos">
+<!ENTITY folderIncludeInGlobalSearch.label "Iekļaut ziņojumus no šīs mapes visaptverošās meklēšanas iznākumos">
 <!ENTITY folderIncludeInGlobalSearch.accesskey "G">
 <!ENTITY retention.label "Saglabāšanas politika">
 <!ENTITY retentionUseAccount.label "Izmantot mana konta iestatījumus">
