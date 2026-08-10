@@ -61,3 +61,14 @@ remove-passwords-checkbox =
             [few] Ukloni { $count } lozinke
            *[other] Ukloni { $count } lozinki
         }
+# Variables:
+# $count (Number) - The number of OAuth tokens to be removed.
+remove-oauth-tokens-checkbox =
+    .label =
+        { $count ->
+            [one] Ukloni { $count } OAuth token
+            [few] Ukloni { $count } OAuth tokena
+           *[other] Ukloni { $count } OAuth tokena
+        }
+remove-account-progress-success = Račun je uspješno uklonjen.
+remove-account-progress-failure = Nešto je pošlo po zlu! Nije moguće dovršiti uklanjanje računa.
