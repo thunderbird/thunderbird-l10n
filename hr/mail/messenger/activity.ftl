@@ -104,3 +104,15 @@ extension-send-activity-event =
         [few] Dodatak “{ $extensionName }” poslao je { $count } poruke bez nadzora
        *[other] Dodatak “{ $extensionName }” poslao je { $count } poruka bez nadzora
     }
+# Status line shown under extension-send-activity-event.
+# Reports how many messages were sent by the extension and how long the
+# completed send batch took.
+# Variables:
+#   $count (Number) - number of messages sent
+#   $time (String) - localized elapsed time
+extension-sent-activity-event-status =
+    { $count ->
+        [one] { $count } poruka (proteklo vrijeme: { $time })
+        [few] { $count } poruke (proteklo vrijeme: { $time })
+       *[other] { $count } poruka (proteklo vrijeme: { $time })
+    }
