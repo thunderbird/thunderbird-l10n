@@ -235,6 +235,10 @@ account-hub-manual-config-incoming-legend = Gelen sunucusu
 account-hub-manual-config-outgoing-legend = Giden sunucusu
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
 account-hub-same-username-checkbox = Gelen sunucusuyla aynı kullanıcı adı
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-security-changed = { $oldValue } bulunamadı ama { $newValue } mevcut.
 account-hub-protocol-imap = Cihazlar arasında eşitle
 account-hub-protocol-microsoft = Exchange veya Microsoft 365
 account-hub-protocol-pop3 = Cihaza indir
@@ -247,6 +251,7 @@ account-hub-email-setup-outgoing = Giden sunucusu ayarları
 account-hub-email-exchange-settings = Exchange ayarları
 account-hub-email-connect-settings = E-posta ayarlarınızı bağlayın
 account-hub-email-protocol-select-header = Bir e-posta hesap türü seçin
+account-hub-email-protocol-select-additional-info = Bu hesabı kurmak için ek bilgiler gerekiyor.
 account-hub-email-protocol-select-notification = Bu hesabı kurmak için ek bilgiler gerekiyor
 account-hub-email-config-found = E-posta hesabınızın türünü seçin
 account-hub-email-enter-password = E-posta hesabınızın parolasını girin
