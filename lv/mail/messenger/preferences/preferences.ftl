@@ -624,5 +624,5 @@ chat-variant-label =
 
 ## Settings UI Search Results
 
-search-results-header = Meklēšanas rezultāti
+search-results-header = Meklēšanas iznākums
 search-results-help-link = Vajadzīga palīdzība? Apmeklējiet <a data-l10n-name="url">{ -brand-short-name } atbalstu</a>!

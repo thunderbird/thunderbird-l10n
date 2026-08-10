@@ -4,7 +4,7 @@
 <!ENTITY onlineContactsHeader.label "Tiešsaistes kontakti">
 <!ENTITY offlineContactsHeader.label "Bezsaistes kontakti">
 <!ENTITY conversationsHeader.label "Sarunas">
-<!ENTITY searchResultConversation.label "Meklēšanas rezultāti">
+<!ENTITY searchResultConversation.label "Meklēšanas iznākums">
 <!ENTITY chat.noConv.title "Sarunas tiks rādītas šeit.">
 <!ENTITY chat.noConv.description "Lai sāktu sarunu, izmantojiet kontaktu sarakstu kreisajā panelī.">
 <!ENTITY chat.noPreviousConv.description "&brandShortName; pašlaik šai kontaktpersonai nav saglabājis iepriekšējās sarunas.">
