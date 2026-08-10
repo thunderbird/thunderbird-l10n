@@ -242,8 +242,8 @@ openpgp-add-key-button =
     .label = Pievienot atslēgu…
     .accesskey = P
 e2e-learn-more = Uzzināt vairāk
-openpgp-keygen-success = OpenPGP atslēga ir veiksmīgi izveidota!
-openpgp-keygen-import-success = OpenPGP atslēgas ir veiksmīgi importētas!
+openpgp-keygen-success = OpenPGP atslēga ir sekmīgi izveidota.
+openpgp-keygen-import-success = OpenPGP atslēgas ir sekmīgi ievietotas.
 openpgp-keygen-external-success = Ārējas GnuPG atslēgas ID ir saglabāts!
 
 ## OpenPGP Key selection area
@@ -349,7 +349,7 @@ filter-encrypt-label = Šifrēt uz atslēgu (OpenPGP)
 
 ## Strings in enigmailKeyImportInfo.js
 
-import-info-dialog-title = Atslēgas importētas veiksmīgi!
+import-info-dialog-title = Atslēgas sekmīgi ievietotas
 import-info-bits = Biti
 import-info-created = Izveidots
 import-info-fpr = Pirkstu nospiedums
@@ -393,7 +393,7 @@ no-key-selected = Lai veiktu atlasīto darbību, jums jāizvēlas vismaz viena a
 export-to-file = Eksportēt publisko atslēgu failā
 export-keypair-to-file = Eksportēt slepeno un publisko atslēgu failā
 export-secret-key = Vai vēlaties iekļaut slepeno atslēgu saglabātajā OpenPGP atslēgu failā?
-save-keys-ok = Atslēgas ir veiksmīgi saglabātas
+save-keys-ok = Atslēgas tika sekmīgi saglabātas
 save-keys-failed = Atslēgu saglabāšana neizdevās
 default-pub-key-filename = Eksportētās-publiskās-atslēgas
 default-pub-sec-key-filename = Slepeno-atslēgu-dublējums
@@ -406,9 +406,9 @@ dlg-button-delete = &Dzēst
 
 ## Account settings export output
 
-openpgp-export-public-success = <b>Publiskā atslēga ir veiksmīgi eksportēta!</b>
+openpgp-export-public-success = <b>Publiskā atslēga sekmīgi izgūta.</b>
 openpgp-export-public-fail = <b>Neizdevās eksportēt atlasīto publisko atslēgu!</b>
-openpgp-export-secret-success = <b>Slepenā atslēga ir veiksmīgi eksportēta!</b>
+openpgp-export-secret-success = <b>Slepenā atslēga sekmīgi izgūta.</b>
 openpgp-export-secret-fail = <b>Neizdevās eksportēt atlasīto slepeno atslēgu!</b>
 
 ## Strings in keyObj.sys.mjs
@@ -446,7 +446,7 @@ revoke-key-not-present =
 #   $keyId (String) - the id of the key being revoked
 revoke-key-already-revoked = Atslēga 0x{ $keyId } jau ir atsaukta.
 key-man-button-revoke-key = &Atsaukt atslēgu
-openpgp-key-revoke-success = Atslēga veiksmīgi atsaukta.
+openpgp-key-revoke-success = Atslēga sekmīgi atsaukta.
 after-revoke-info =
     Atslēga ir atsaukta.
     Vēlreiz kopīgojiet šo publisko atslēgu, nosūtot to pa epastu vai augšupielādējot atslēgu serveros, lai citi zinātu, ka esat to atsaucis.
@@ -517,7 +517,7 @@ file-to-big-to-import = Šis fails ir pārāk liels. Lūdzu, neimportējiet uzre
 ## Strings used in enigmailKeygen.js
 
 save-revoke-cert-as = Izveidot un saglabāt atsaukšanas sertifikātu
-revoke-cert-ok = Atsaukšanas sertifikāts ir veiksmīgi izveidots. Varat to izmantot, lai noliegtu savu publisko atslēgu, piem., gadījumā, kad jūs pazaudējat slepeno atslēgu.
+revoke-cert-ok = Atsaukšanas sertifikāts tika sekmīgi izveidots. To var izmantot, lai padarītu savu publisko atslēgu nederīgu, piemēram, ja tiek pazaudēta slepenā atslēga.
 revoke-cert-failed = Atsaukšanas sertifikātu neizdevās izveidot.
 gen-going = Atslēgu ģenerēšana jau notiek!
 keygen-missing-user-name = Atlasītajam kontam/identitātei nav norādīts nosaukums. Lūdzu, ievadiet vērtību konta iestatījumu laukā "Jūsu vārds".
@@ -544,7 +544,7 @@ attachment-no-match-from-signature = Neizdevās pielikumā pievienot paraksta fa
 attachment-no-match-to-signature = Neizdevās piemērot pielikumu '{ $attachment }' paraksta failam
 # Variables:
 # $attachment (String) - File name of the attachment
-signature-verified-ok = Pielikuma { $attachment } paraksts ir veiksmīgi pārbaudīts
+signature-verified-ok = Pielikuma { $attachment } paraksts tika sekmīgi pārbaudīts
 # Variables:
 # $attachment (String) - File name of the attachment
 signature-verify-failed = Neizdevās pārbaudīt parakstu pielikumam { $attachment }

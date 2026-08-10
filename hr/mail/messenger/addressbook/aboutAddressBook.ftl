@@ -16,6 +16,8 @@ about-addressbook-toolbar-add-ldap-address-book =
     .label = Dodaj LDAP adresar
 books-pane-create-contact-button = Novi kontakt
     .title = Stvori novi kontakt
+books-pane-add-book-button =
+    .title = Dodaj adresar
 books-pane-create-book-button =
     .title = Stvori novi adresar
 books-pane-create-list-button =
@@ -61,6 +63,8 @@ about-addressbook-confirm-remove-remote-book-title = Ukloni adresar
 # Variables:
 # $name (String) - Name of the remote address book to be removed.
 about-addressbook-confirm-remove-remote-book = Jeste li sigurni da želite obrisati { $name }?
+address-book-list =
+    .aria-label = Popis adresara
 
 ## Cards
 

@@ -50,7 +50,7 @@ openpgp-keygen-type-ecc =
 openpgp-keygen-button = Ģenerēt atslēgu
 openpgp-keygen-progress-title = Ģenerē jūsu jaunās OpenPGP atslēgas…
 openpgp-keygen-import-progress-title = Importē jūsu OpenPGP atslēgu…
-openpgp-import-success = OpenPGP atslēgas ir veiksmīgi importētas!
+openpgp-import-success = OpenPGP atslēgas sekmīgi ievietotas.
 openpgp-import-success-title = Pabeidziet importēšanas procesu
 openpgp-import-success-description = Lai sāktu izmantot importēto OpenPGP atslēgu epasta šifrēšanai, aizveriet šo dialogu un atveriet sava konta iestatījumus un izvēlieties atslēgu.
 openpgp-keygen-confirm =
@@ -69,7 +69,7 @@ openpgp-keygen-ongoing = Atslēgu ģenerēšana jau notiek!
 openpgp-keygen-error-core = Neizdevās inicializēt OpenPGP pamata pakalpojumu
 openpgp-keygen-error-failed = Negaidīti neizdevās OpenPGP atslēgu ģenerēšana
 #   $key (String) - the ID of the newly generated OpenPGP key
-openpgp-keygen-error-revocation = OpenPGP atslēga ir veiksmīgi izveidota, taču neizdevās iegūt atslēgas { $key } atsaukšanu
+openpgp-keygen-error-revocation = OpenPGP atslēga ir sekmīgi izveidota, taču neizdevās iegūt atslēgas { $key } atsaukšanu
 openpgp-keygen-abort-title = Pārtraukt atslēgu ģenerēšanu?
 openpgp-keygen-abort = Pašlaik notiek OpenPGP atslēgu ģenerēšana, vai tiešām vēlaties to atcelt?
 #   $identity (String) - the name and email address of the currently selected identity

@@ -25,6 +25,10 @@ ask-save-title-event = Spremi događaj
 ask-save-title-task = Spremi zadatak
 ask-save-message-event = Događaj nije spremljen. Želite li spremiti događaj?
 ask-save-message-task = Zadatak nije spremljen. Želite li spremiti zadatak?
+# All day checkbox label, used both for events and tasks
+calendar-item-all-day =
+    .label = Cijeli dan
+    .accesskey = d
 # Event Dialog Warnings
 warning-end-before-start = Upisani datum završetka događa se prije datuma početka
 warning-until-date-before-start = Datum završetka događa se prije datuma početka
