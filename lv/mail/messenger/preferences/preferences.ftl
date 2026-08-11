@@ -113,6 +113,9 @@ restore-default-label =
     .label = Atjaunot noklusētos
     .accesskey = A
 default-search-engine = Noklusētais meklētājs
+add-web-search-engine =
+    .label = Pievienot…
+    .accesskey = P
 remove-search-engine =
     .label = Noņemt
     .accesskey = N
@@ -544,6 +547,11 @@ certificate-button =
 security-devices-button =
     .label = Drošības ierīces…
     .accesskey = D
+
+## Keyservers
+
+email-e2ee-key-servers-add = Pievienot…
+email-e2ee-key-servers-add-title = Pievienot atslēgu serveri
 
 ## Chat Tab
 

@@ -102,7 +102,7 @@ search-val-has-attachments =
 # Do not translate the label.
 search-add-rule-button =
     .label = +
-    .tooltiptext = Pievienot jaunu noteikumu
+    .tooltiptext = Pievienot jaunu kārtulu
 # Do not translate the label.
 search-remove-rule-button-2 =
     .label = −
