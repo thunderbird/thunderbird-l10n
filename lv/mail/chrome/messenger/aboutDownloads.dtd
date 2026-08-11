@@ -17,6 +17,6 @@
 <!ENTITY cmd.removeFromHistory.accesskey "N">
 <!ENTITY cmd.clearList.label "Notīrīt sarakstu">
 <!ENTITY cmd.clearList.accesskey "s">
-<!ENTITY cmd.clearList.tooltip "Noņemt visus ierakstus no saglabāto failu saraksta, izņemot notiekošās lejuplādes.">
+<!ENTITY cmd.clearList.tooltip "Noņemt visus ierakstus no saglabāto datņu saraksta, izņemot notiekošās lejupielādes.">
 <!ENTITY cmd.searchDownloads.label "Meklēt...">
 <!ENTITY cmd.searchDownloads.key "F">

@@ -90,9 +90,9 @@
 <!ENTITY detachedAttachmentFolder.showMac.accesskey "R">
 <!-- Attachment toolbar items -->
 <!ENTITY saveAttachmentButton1.label "Saglabāt">
-<!ENTITY saveAttachmentButton1.tooltip "Saglabāt pievienoto failu">
+<!ENTITY saveAttachmentButton1.tooltip "Saglabāt pievienoto datni">
 <!ENTITY saveAllAttachmentsButton1.label "Saglabāt visu">
-<!ENTITY saveAllAttachmentsButton1.tooltip "Saglabāt visus pievienotos failus">
+<!ENTITY saveAllAttachmentsButton1.tooltip "Saglabāt visas pievienotās datnes">
 <!ENTITY copyLinkCmd.label "Kopēt saites vietu">
 <!ENTITY copyLinkCmd.accesskey "K">
 <!ENTITY CopyMessageId.label "Kopēt vēstules ID">

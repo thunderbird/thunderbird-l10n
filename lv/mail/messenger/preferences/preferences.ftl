@@ -73,9 +73,9 @@ update-setting-write-failure-title = Saglabājot atjaunotos iestatījumus, radā
 # The newlines between the main text and the line containing the path is
 # intentional so the path is easier to identify.
 update-setting-write-failure-message =
-    { -brand-short-name } radās kļūda un šīs izmaiņas netika saglabātas. Ņemiet vērā, ka, lai saglabāto atjaunotos iestatījumus, ir nepieciešamas tiesības rakstīt zemāk esošajā failā. Iespējams, jūs vai jūsu sistēmas administrators, varēsit novērst kļūdu, piešķirot Lietotājs grupai pilnu kontroli pār šo failu.
+    { -brand-short-name } radās kļūda, un šīs izmaiņas netika saglabātas. Jāņem vērā, ka šī atjauninājuma iestatījuma iestatīšanai ir nepieciešamas tiesības rakstīt zemāk esošajā datnē. Tev vai sistēmas pārvaldītājam var būt iespējams novērst kļūdu ar pilnas rīcības brīvības piešķiršanu kopai “Lietotāji”.
     
-    Neizdevās rakstīt failā: { $path }
+    Nevarēja ierakstīt datnē: { $path }
 update-in-progress-title = Notiek atjaunošana
 update-in-progress-message = Vai vēlaties, lai { -brand-short-name } turpina lietot šo atjaunojumu?
 update-in-progress-ok-button = &Izmest
@@ -297,7 +297,7 @@ quoted-text-color =
     .label = Krāsa:
     .accesskey = K
 save-to-label =
-    .label = Saglabāt failus
+    .label = Saglabāt datnes
     .accesskey = S
 choose-folder-label =
     .label =
