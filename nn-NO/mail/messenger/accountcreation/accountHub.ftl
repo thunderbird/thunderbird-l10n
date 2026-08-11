@@ -263,6 +263,7 @@ account-hub-email-setup-outgoing = Utgåande server-innstillingar
 account-hub-email-exchange-settings = Exchange-innstillingar
 account-hub-email-connect-settings = Kople til e-postinnstillingene dine
 account-hub-email-protocol-select-header = Vel ein e-postkontotype
+account-hub-email-protocol-select-additional-info = Ytterlegare informasjon er nødvendig for å setje opp denne kontoen.
 account-hub-email-protocol-select-notification = Ytterlegare informasjon er nødvendig for å setje opp denne kontoen
 account-hub-email-config-found = Vel e-postkontotype
 account-hub-email-enter-password = Skriv inn passordet for e-postkontoen din

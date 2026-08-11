@@ -57,5 +57,13 @@ remove-passwords-checkbox =
             [one] Fjern passord
            *[other] Fjern { $count } passord
         }
+# Variables:
+# $count (Number) - The number of OAuth tokens to be removed.
+remove-oauth-tokens-checkbox =
+    .label =
+        { $count ->
+            [one] Fjern OAuth token
+           *[other] Fjern { $count } OAuth-symbol
+        }
 remove-account-progress-success = Konto fjerna.
 remove-account-progress-failure = Noko gjekk gale! Klarte ikkje å fullføre fjerning av kontoen.
