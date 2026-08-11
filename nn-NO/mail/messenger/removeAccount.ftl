@@ -25,3 +25,37 @@ remove-data-chat-account-description = Fjernar alle loggar for samtalar som er l
 show-data-button =
     .label = Vis dataplassering
     .accesskey = V
+# Variables:
+# $count (Number) - The number of outgoing servers to be removed.
+remove-outgoing-servers-checkbox =
+    .label =
+        { $count ->
+            [one] Fjern utgåande server
+           *[other] Fjern { $count } utgåande serverar
+        }
+# Variables:
+# $count (Number) - The number of address books to be removed.
+remove-address-books-checkbox =
+    .label =
+        { $count ->
+            [one] Fjern adressebok
+           *[other] Fjern { $count } addressebøker
+        }
+# Variables:
+# $count (Number) - The number of calendars to be removed.
+remove-calendars-checkbox =
+    .label =
+        { $count ->
+            [one] Fjern kalender
+           *[other] Fjern { $count } kalendrar
+        }
+# Variables:
+# $count (Number) - The number of passwords to be removed.
+remove-passwords-checkbox =
+    .label =
+        { $count ->
+            [one] Fjern passord
+           *[other] Fjern { $count } passord
+        }
+remove-account-progress-success = Konto fjerna.
+remove-account-progress-failure = Noko gjekk gale! Klarte ikkje å fullføre fjerning av kontoen.
