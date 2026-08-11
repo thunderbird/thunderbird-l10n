@@ -236,6 +236,18 @@ account-hub-manual-config-incoming-legend = Innkomande server
 account-hub-manual-config-outgoing-legend = Utgåande server
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
 account-hub-same-username-checkbox = Same brukarnamn som innkomande server
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-security-changed = Klarte ikkje å finne { $oldValue }, men { $newValue } er tilgjengeleg.
+# Variables:
+# $oldValue (String): The port requested before the configuration was tested.
+# $newValue (String): The port found after the configuration was tested.
+account-hub-manual-config-port-changed = Klarte ikkje å nå port { $oldValue }, men port { $newValue } er tilgjengeleg.
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-value-changed = Klarte ikkje å bruke { $oldValue }, men { $newValue } er tilgjengeleg.
 account-hub-protocol-imap = Synkroniser på tvers av einingar
 account-hub-protocol-microsoft = Exchange eller Microsoft 365
 account-hub-protocol-pop3 = Last ned til eining
