@@ -152,7 +152,7 @@
 <!ENTITY highestPriorityCmd.accesskey "g">
 <!ENTITY fileCarbonCopyCmd.label "Sūtīt kopiju uz">
 <!ENTITY fileCarbonCopyCmd.accesskey "S">
-<!ENTITY fileHereMenu.label "Fails šeit">
+<!ENTITY fileHereMenu.label "Datne šeit">
 <!-- Tools Menu -->
 <!ENTITY tasksMenu.label "Rīki">
 <!ENTITY tasksMenu.accesskey "R">
@@ -250,7 +250,7 @@
 <!ENTITY removeAllAttachments.accesskey "v">
 <!ENTITY selectAll.label "Atlasīt visus">
 <!ENTITY selectAll.accesskey "v">
-<!ENTITY attachCloud.label "Failsaite…">
+<!ENTITY attachCloud.label "Datnes saite…">
 <!ENTITY attachCloud.accesskey "s">
 <!ENTITY convertCloud.label "Pārveidot uz…">
 <!ENTITY convertCloud.accesskey "P">

@@ -4,4 +4,4 @@
 
 # LOCALIZATION NOTE (bad-logfile):
 #  $filename is the filename of the log file.
-bad-logfile = Tukšs vai bojāts žurnālfails: { $filename }
+bad-logfile = Tukša vai bojāta žurnāla datne: { $filename }

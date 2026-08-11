@@ -63,7 +63,7 @@
 <!ENTITY maxMessagesEnd.label "vēstules">
 <!ENTITY alwaysAuthenticate.label "Pieslēdzoties šim serverim, vienmēr pieprasīt autentifikāciju">
 <!ENTITY alwaysAuthenticate.accesskey "P">
-<!ENTITY newsrcFilePath1.label "News.rc fails:">
+<!ENTITY newsrcFilePath1.label "News.rc datne:">
 <!ENTITY newsrcPicker1.label "Izvēlieties News.rc failu">
 <!ENTITY abbreviate.label "Rādīt ziņu grupu nosaukumus Pasta mape rūtī kā:">
 <!ENTITY abbreviateOn.label "Pilni nosaukumi (piemēram, 'netscape.public.mozilla.mail-news')">
@@ -81,5 +81,5 @@
 <!ENTITY accountSettingsDesc.label "Šis ir īpašs konts.  Tam nav saistītas identitātes.">
 <!ENTITY storeType.label "Vēstuļu krātuves veids:">
 <!ENTITY storeType.accesskey "v">
-<!ENTITY mboxStore2.label "Fails vienai mapei (mbox)">
-<!ENTITY maildirStore.label "Fails vienai vēstulei (maildir)">
+<!ENTITY mboxStore2.label "Viena datne katrai mapei (mbox)">
+<!ENTITY maildirStore.label "Viena datne katram ziņojumam (maildir)">
