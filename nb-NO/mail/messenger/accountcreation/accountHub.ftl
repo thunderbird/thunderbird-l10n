@@ -52,6 +52,7 @@ account-hub-email-continue-button = Fortsett
 account-hub-email-set-up-account-button = Kontooppsett
 account-hub-email-confirm-button = Bekreft
 account-hub-email-find-settings-button = Finn innstillinger
+account-hub-email-connect-button = Koble til
 account-hub-result-incoming-legend = Innkommende
 account-hub-result-outgoing-legend = Utgående
 account-hub-all-servers-legend = Alle servere
@@ -235,6 +236,18 @@ account-hub-manual-config-incoming-legend = Innkommende server
 account-hub-manual-config-outgoing-legend = Utgående server
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
 account-hub-same-username-checkbox = Samme brukernavn som innkommende server
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-security-changed = Kunne ikke finne { $oldValue }, men { $newValue } er tilgjengelig.
+# Variables:
+# $oldValue (String): The port requested before the configuration was tested.
+# $newValue (String): The port found after the configuration was tested.
+account-hub-manual-config-port-changed = Kunne ikke nå port { $oldValue }, men port { $newValue } er tilgjengelig.
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-value-changed = Kunne ikke bruke { $oldValue }, men { $newValue } er tilgjengelig.
 account-hub-protocol-imap = Synk på tvers av enheter
 account-hub-protocol-microsoft = Exchange eller Microsoft 365
 account-hub-protocol-pop3 = Last ned til enhet
@@ -250,6 +263,7 @@ account-hub-email-setup-outgoing = Innstillinger for utgående server
 account-hub-email-exchange-settings = Exchange-innstillinger
 account-hub-email-connect-settings = Koble til e-postinnstillingene dine
 account-hub-email-protocol-select-header = Velg en e-postkontotype
+account-hub-email-protocol-select-additional-info = Ytterligere informasjon er nødvendig for å sette opp denne kontoen.
 account-hub-email-protocol-select-notification = Ytterligere informasjon er nødvendig for å sette opp denne kontoen
 account-hub-email-config-found = Velg din e-postkontotype
 account-hub-email-enter-password = Skriv inn passordet for din e-postkonto
