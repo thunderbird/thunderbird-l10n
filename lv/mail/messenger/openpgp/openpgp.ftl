@@ -512,7 +512,7 @@ import-key-file = Importēt OpenPGP atslēgas failu
 import-rev-file = Importēt OpenPGP atsaukšanas failu
 gnupg-file = GnuPG faili
 import-keys-failed = Atslēgu importēšana neizdevās
-file-to-big-to-import = Šis fails ir pārāk liels. Lūdzu, neimportējiet uzreiz lielus atslēgu komplektus.
+file-to-big-to-import = Šī datne ir pārāk liela. Lūgums vienlaicīgi neievietot lielas atslēgu kopas.
 
 ## Strings used in enigmailKeygen.js
 

@@ -96,7 +96,7 @@ cloudfile-uploading-notification =
 #   $count - the number big attached files
 big-file-notification-text =
     { $count ->
-        [zero] Šis ir liels fails. Tā vietā varētu būt labāk izmantot Filelink.
-        [one] Tie ir lieli faili. To vietā varētu būt labāk izmantot Filelink.
-       *[other] Tie ir lieli faili. To vietā varētu būt labāk izmantot Filelink.
+        [zero] Šīs ir lielas datnes. To vietā varētu būt labāk izmantot Filelink.
+        [one] Šī ir liela datne. Tās vietā varētu būt labāk izmantot Filelink.
+       *[other] Šīs ir lielas datnes. To vietā varētu būt labāk izmantot Filelink.
     }

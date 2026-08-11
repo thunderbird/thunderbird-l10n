@@ -5,7 +5,7 @@
 <!-- LOCALIZATION NOTE messengercompose.dtd Main UI for message composition -->
 <!ENTITY msgComposeWindow.title "Rakstīt: (nav tēmas)">
 <!-- File Menu -->
-<!ENTITY fileMenu.label "Fails">
+<!ENTITY fileMenu.label "Datne">
 <!ENTITY fileMenu.accesskey "F">
 <!ENTITY newMenu.label "Jauns">
 <!ENTITY newMenu.accesskey "J">
@@ -15,7 +15,7 @@
 <!ENTITY newContact.accesskey "g">
 <!ENTITY attachMenu.label "Pievienot">
 <!ENTITY attachMenu.accesskey "P">
-<!ENTITY attachCloudCmd.label "Failsaite">
+<!ENTITY attachCloudCmd.label "Datnes saite">
 <!ENTITY attachCloudCmd.accesskey "s">
 <!ENTITY attachPageCmd.label "Tīmekļa lapa…">
 <!ENTITY attachPageCmd.accesskey "T">
@@ -29,7 +29,7 @@
 <!ENTITY saveCmd.accesskey "S">
 <!ENTITY saveAsCmd.label "Saglabāt kā">
 <!ENTITY saveAsCmd.accesskey "k">
-<!ENTITY saveAsFileCmd.label "Fails...">
+<!ENTITY saveAsFileCmd.label "Datne…">
 <!ENTITY saveAsFileCmd.accesskey "F">
 <!ENTITY saveAsDraftCmd.label "Melnraksts">
 <!ENTITY saveAsDraftCmd.accesskey "M">
