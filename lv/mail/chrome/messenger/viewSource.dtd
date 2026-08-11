@@ -13,7 +13,7 @@
 <!ENTITY mainWindow.preface "Pirmkods:">
 <!ENTITY editMenu.label "Rediģēt">
 <!ENTITY editMenu.accesskey "R">
-<!ENTITY fileMenu.label "Fails">
+<!ENTITY fileMenu.label "Datne">
 <!ENTITY fileMenu.accesskey "F">
 <!ENTITY savePageCmd.label "Saglabāt lapu kā…">
 <!ENTITY savePageCmd.accesskey "k">
