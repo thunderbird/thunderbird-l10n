@@ -52,6 +52,7 @@ account-hub-email-continue-button = Devam et
 account-hub-email-set-up-account-button = Hesap kur
 account-hub-email-confirm-button = Onayla
 account-hub-email-find-settings-button = Ayarları bul
+account-hub-email-connect-button = Bağlan
 account-hub-result-incoming-legend = Gelen
 account-hub-result-outgoing-legend = Giden
 account-hub-all-servers-legend = Tüm sunucular
