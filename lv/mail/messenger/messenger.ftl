@@ -67,8 +67,8 @@ menu-edit-delete-folder =
 menu-edit-delete-messages =
     .label =
         { $count ->
-            [one] Dzēst vēstuli
-           *[other] Dzēst atlasītās vēstules
+            [one] Izdzēst ziņojumus
+           *[other] Izdzēst atlasītos ziņojumus
         }
     .accesskey = D
 # Variables:
@@ -76,8 +76,8 @@ menu-edit-delete-messages =
 menu-edit-undelete-messages =
     .label =
         { $count ->
-            [one] Atdzēst vēstuli
-           *[other] Atdzēst atlasītās vēstules
+            [one] Atjaunot ziņojumu
+           *[other] Atjaunot atlasītos ziņojumus
         }
     .accesskey = A
 menu-edit-properties =
