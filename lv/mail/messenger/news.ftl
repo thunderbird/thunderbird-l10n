@@ -30,7 +30,7 @@ mark-headers-read =
 
 ## Cancel Message Dialog
 
-cancel-confirm = Vai tiešām vēlaties atcelt šo ziņu?
+cancel-confirm = Vai tiešām atcelt šo ziņu?
 
 ## Auto-Subscribe Dialog
 

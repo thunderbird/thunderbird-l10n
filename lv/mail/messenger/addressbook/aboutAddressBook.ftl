@@ -18,6 +18,39 @@ about-addressbook-confirm-remove-remote-book = Vai tiešām noņemt { $name }?
 # Variables:
 # $count (Number) - The number of contacts and lists to be deleted. Always greater than 1.
 about-addressbook-confirm-delete-mixed = Vai tiešām izdzēst šīs { $count } kontaktpersonas un sarakstus?
+# Variables:
+# $count (Number) - The number of lists to be deleted.
+# $name (String) - The name of the list to be deleted, if $count is 1.
+about-addressbook-confirm-delete-lists =
+    { $count ->
+        [zero] Vai tiešām izdzēst { $count } sarakstu?
+        [one] Vai tiešām izdzēst šo { $count } sarakstu?
+       *[other] Vai tiešām izdzēst šos { $count } sarakstus?
+    }
+# Variables:
+# $name (String) - The name of the contact to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-single = Vai tiešām izņemt { $name } no { $list }?
+# Variables:
+# $count (Number) - The number of contacts to be removed.
+# $list (String) - The name of the list that contacts will be removed from.
+about-addressbook-confirm-remove-contacts-multi =
+    { $count ->
+        [zero] Vai tiešām noņemt { $count } kontaktpersonu no { $list }?
+        [one] Vai tiešām noņemt šo { $count } kontaktpersonu no { $list }?
+       *[other] Vai tiešām noņemt šīs { $count } kontaktpersonas no { $list }?
+    }
+# Variables:
+# $name (String) - The name of the contact to be deleted.
+about-addressbook-confirm-delete-contacts-single = Vai tiešām izdzēst kontaktpersonu { $name }?
+# Variables:
+# $count (Number) - The number of contacts to be deleted.
+about-addressbook-confirm-delete-contacts-multi =
+    { $count ->
+        [zero] Vai tiešām izdzēst { $count } kontaktpersonu?
+        [one] Vai tiešām izdzēst šo { $count } kontaktpersonu?
+       *[other] Vai tiešām izdzēst šīs { $count } kontaktpersonas?
+    }
 
 ## Address Book Search Dialog
 
