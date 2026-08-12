@@ -19,4 +19,5 @@ toolbar-get-all-messages-menuitem =
 
 ## Unified Toolbar customization
 
+customize-title = Pielāgot rīkjoslas
 customize-button-style-icons-beside-text-option = Ikonas blakus tekstam

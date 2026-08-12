@@ -124,6 +124,11 @@ mail-context-menu-forward-forward =
     .label = Pārsūtīt
     .accesskey = P
 
+## Spaces toolbar customize panel
+
+menuitem-customize-label =
+    .label = Pielāgot…
+
 ## Quick Filter Bar
 
 # The label to display for the "View... Toolbars..." menu item that controls
