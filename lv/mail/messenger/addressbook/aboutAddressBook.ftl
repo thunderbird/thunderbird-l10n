@@ -3,6 +3,22 @@
 # file, you can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Books
+
+# Variables:
+# $name (String) - Name of the address book to be deleted.
+about-addressbook-confirm-delete-book = Vai tiešām izdzēst { $name } un visas tā kontaktpersonas?
+# Variables:
+# $name (String) - Name of the remote address book to be removed.
+about-addressbook-confirm-remove-remote-book = Vai tiešām noņemt { $name }?
+
+## Card column headers
+## Each string is listed here twice, and the values should match.
+
+# Variables:
+# $count (Number) - The number of contacts and lists to be deleted. Always greater than 1.
+about-addressbook-confirm-delete-mixed = Vai tiešām izdzēst šīs { $count } kontaktpersonas un sarakstus?
+
 ## Address Book Search Dialog
 
 ab-search-dialog-search-button =
