@@ -11,7 +11,7 @@
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifierseparator) : DONT_TRANSLATE -->
 <!ENTITY mainWindow.titlemodifierseparator " - ">
 <!ENTITY mainWindow.preface "Pirmkods:">
-<!ENTITY editMenu.label "Rediģēt">
+<!ENTITY editMenu.label "Labot">
 <!ENTITY editMenu.accesskey "R">
 <!ENTITY fileMenu.label "Datne">
 <!ENTITY fileMenu.accesskey "F">

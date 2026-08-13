@@ -322,12 +322,12 @@
 <!ENTITY forwardAsInline.accesskey "I">
 <!ENTITY forwardAsAttachmentCmd.label "Pielikumu">
 <!ENTITY forwardAsAttachmentCmd.accesskey "P">
-<!ENTITY editAsNewMsgCmd.label "Rediģēt kā jaunu vēstuli">
+<!ENTITY editAsNewMsgCmd.label "Labot kā jaunu ziņojumu">
 <!ENTITY editAsNewMsgCmd.accesskey "R">
 <!ENTITY editAsNewMsgCmd.key "R">
-<!ENTITY editDraftMsgCmd.label "Rediģēt melnraksta vēstuli">
+<!ENTITY editDraftMsgCmd.label "Labot melnraksta ziņojumu">
 <!ENTITY editDraftMsgCmd.accesskey "m">
-<!ENTITY editTemplateMsgCmd.label "Rediģēt veidni">
+<!ENTITY editTemplateMsgCmd.label "Labot sagatavi">
 <!ENTITY editTemplateMsgCmd.accesskey "v">
 <!ENTITY newMsgFromTemplateCmd.label "Jauna vēstule no veidnes">
 <!-- do not change "VK_RETURN" -->
@@ -534,16 +534,16 @@
 <!-- Remote Content Button Popup -->
 <!ENTITY remoteContentOptionsAllowForMsg.label "Rādīt šīs vēstules attālo saturu">
 <!ENTITY remoteContentOptionsAllowForMsg.accesskey "a">
-<!ENTITY editRemoteContentSettings.label "Rediģēt attālā satura iespējas…">
+<!ENTITY editRemoteContentSettings.label "Labot attālā satura iespējas…">
 <!ENTITY editRemoteContentSettings.accesskey "a">
-<!ENTITY editRemoteContentSettingsUnix.label "Rediģēt attālā satura izvēles…">
+<!ENTITY editRemoteContentSettingsUnix.label "Labot attālā satura izvēles…">
 <!ENTITY editRemoteContentSettingsUnix.accesskey "i">
 <!-- Phishing Button Popup -->
 <!ENTITY phishingOptionIgnore.label "Ignorēt brīdinājumu par šo vēstuli">
 <!ENTITY phishingOptionIgnore.accesskey "I">
-<!ENTITY phishingOptionSettings.label "Rediģēt krāpšanas noteikšanas iespējas…">
+<!ENTITY phishingOptionSettings.label "Labot krāpšanas noteikšanas iespējas…">
 <!ENTITY phishingOptionSettings.accesskey "k">
-<!ENTITY phishingOptionSettingsUnix.label "Rediģēt krāpšanas noteikšanas izvēles…">
+<!ENTITY phishingOptionSettingsUnix.label "Labot krāpšanas noteikšanas izvēles…">
 <!ENTITY phishingOptionSettingsUnix.accesskey "i">
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Jauna vēstule">
@@ -672,10 +672,10 @@
 <!ENTITY contextOpenConversation.accesskey "s">
 <!ENTITY contextOpenContainingFolder.label "Atvērt vēstuli saturošajā mapē">
 <!ENTITY contextOpenContainingFolder.accesskey "m">
-<!ENTITY contextEditMsgAsNew.label "Rediģēt kā jaunu vēstuli">
+<!ENTITY contextEditMsgAsNew.label "Labot kā jaunu ziņojumu">
 <!ENTITY contextEditMsgAsNew.accesskey "R">
-<!ENTITY contextEditDraftMsg.label "Rediģēt melnraksta vēstuli">
-<!ENTITY contextEditTemplate.label "Rediģēt veidni">
+<!ENTITY contextEditDraftMsg.label "Labot melnraksta ziņojumu">
+<!ENTITY contextEditTemplate.label "Labot sagatavi">
 <!ENTITY contextEditTemplate.accesskey "v">
 <!ENTITY contextArchive.label "Arhivēt">
 <!ENTITY contextArchive.accesskey "A">
@@ -783,7 +783,7 @@
 <!ENTITY AddToAddressBook.accesskey "g">
 <!ENTITY AddDirectlyToAddressBook.label "Pievienot adrešu grāmatai">
 <!ENTITY AddDirectlyToAddressBook.accesskey "g">
-<!ENTITY EditContact1.label "Rediģēt kontaktu">
+<!ENTITY EditContact1.label "Labot kontaktpersonu">
 <!ENTITY EditContact1.accesskey "R">
 <!ENTITY ViewContact.label "Skatīt kontaktu">
 <!ENTITY ViewContact.accesskey "S">

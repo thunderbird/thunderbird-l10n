@@ -25,7 +25,7 @@
 <!ENTITY moreDictionaries.label "Lejuplādēt citas vārdnīcas…">
 <!ENTITY addToUserDictionaryButton.label "Pievienot vārdu">
 <!ENTITY addToUserDictionaryButton.accessKey "P">
-<!ENTITY editUserDictionaryButton.label "Rediģēt...">
+<!ENTITY editUserDictionaryButton.label "Labot…">
 <!ENTITY editUserDictionaryButton.accessKey "R">
 <!ENTITY recheckButton2.label "Pārbaudīt tekstu">
 <!ENTITY recheckButton2.accessKey "r">

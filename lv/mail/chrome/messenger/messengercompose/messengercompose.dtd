@@ -45,7 +45,7 @@
 <!ENTITY printCmd.key "P">
 <!ENTITY printCmd.accesskey "D">
 <!-- Edit Menu -->
-<!ENTITY editMenu.label "Rediģēt">
+<!ENTITY editMenu.label "Labot">
 <!ENTITY editMenu.accesskey "R">
 <!ENTITY undoCmd.label "Atsaukt">
 <!ENTITY undoCmd.key "Z">

@@ -35,7 +35,7 @@
 <!-- Used just in context popup. -->
 <!ENTITY createLinkCmd.label "Izveidot saiti…">
 <!ENTITY createLinkCmd.accesskey "I">
-<!ENTITY editLinkCmd.label "Rediģēt saiti Jaunā salicējā">
+<!ENTITY editLinkCmd.label "Labot saiti Jaunā salicējā">
 <!ENTITY editLinkCmd.accesskey "R">
 <!-- Font Face SubMenu -->
 <!ENTITY FontFaceSelect.tooltip "Izvēlieties fontu">
