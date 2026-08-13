@@ -128,6 +128,11 @@ mail-context-menu-forward-forward =
     .label = Pārsūtīt
     .accesskey = P
 
+## Spaces toolbar pinned tab menupopup
+
+spaces-pinned-button-menuitem-address-book2 =
+    .label = { spaces-toolbar-button-address-book2.title }
+
 ## Spaces toolbar customize panel
 
 menuitem-customize-label =
