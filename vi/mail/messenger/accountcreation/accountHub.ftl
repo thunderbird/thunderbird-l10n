@@ -52,6 +52,7 @@ account-hub-email-continue-button = Tiếp tục
 account-hub-email-set-up-account-button = Thiết lập tài khoản
 account-hub-email-confirm-button = Xác nhận
 account-hub-email-find-settings-button = Tìm kiếm cài đặt
+account-hub-email-connect-button = Kết nối
 account-hub-result-incoming-legend = Nhận thư
 account-hub-result-outgoing-legend = Gửi thư
 account-hub-all-servers-legend = Tất cả máy chủ
