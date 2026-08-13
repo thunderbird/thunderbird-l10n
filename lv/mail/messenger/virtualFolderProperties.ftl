@@ -18,7 +18,7 @@ virtual-folder-no-search-folders-selected = Lai meklētu saglabāto meklēšanas
 virtual-folder-properties-title = Jauna saglabātā meklēšanas mape
 # Variables:
 #   $folderName (String): The name of the saved search folder.
-virtual-folder-properties-edit-title = Rediģēt { $folderName } saglabātās meklēšanas īpašības
+virtual-folder-properties-edit-title = Labot { $folderName } saglabātās meklēšanas īpašības
 virtual-folder-name = Nosaukums:
     .accesskey = N
 virtual-folder-description = Izveidot kā apakšmapi iekš:

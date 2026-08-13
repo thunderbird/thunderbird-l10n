@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 tag-dialog-title = Jauna birka
-tag-edit-dialog-title = Rediģēt birku
+tag-edit-dialog-title = Labot birku
 tag-name-label =
     .value = Birkas nosaukums:
     .accesskey = B

@@ -18,13 +18,13 @@ address-input-type-aria-label =
 #   $count (Number) - the number of address pills currently present in the addressing row
 pill-aria-label =
     { $count ->
-        [zero] { $email }: lai rediģētu, spiediet ievades, lai dzēstu, dzēšanas taustiņu
-        [one] { $email }, 1 no { $count }:  lai rediģētu, spiediet ievades, lai dzēstu, dzēšanas taustiņu
-       *[other] { $email }, 1 no { $count }:  lai rediģētu, spiediet ievades, lai dzēstu, dzēšanas taustiņu
+        [zero] { $email } 1 no { $count }: spiest ievades taustiņu, lai labotu, izdzēšanas, lai noņemtu
+        [one] { $email }, 1 no { $count }: spiest ievades taustiņu, lai labotu, izdzēšanas, lai noņemtu
+       *[other] { $email }, 1 no { $count }: spiest ievades taustiņu, lai labotu, izdzēšanas, lai noņemtu
     }
 pill-action-edit =
-    .label = Rediģēt adresi
-    .accesskey = R
+    .label = Labot adresi
+    .accesskey = e
 pill-action-move-to =
     .label = Pārvietot uz
     .accesskey = P
