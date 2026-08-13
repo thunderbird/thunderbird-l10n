@@ -10,7 +10,7 @@
 <!-- LOCALIZATION NOTE (override.label) : do not translate "LDAP" in below line -->
 <!ENTITY useGlobal.label "Šim kontam izmantot jūsu globālos LDAP servera iestatījumus">
 <!ENTITY useGlobal.accesskey "g">
-<!ENTITY editDirectories.label "Rediģēt katalogus…">
+<!ENTITY editDirectories.label "Labot katalogus…">
 <!ENTITY editDirectories.accesskey "R">
 <!-- LOCALIZATION NOTE (directories.label) : do not translate "LDAP" in below line -->
 <!ENTITY directories.label "Izmantot citu LDAP serveri:">

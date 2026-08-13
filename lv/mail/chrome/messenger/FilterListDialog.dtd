@@ -8,7 +8,7 @@
 <!ENTITY newButton.accesskey "J">
 <!ENTITY newButton.popupCopy.label "Kopēt…">
 <!ENTITY newButton.popupCopy.accesskey "K">
-<!ENTITY editButton.label "Rediģēt...">
+<!ENTITY editButton.label "Labot…">
 <!ENTITY editButton.accesskey "R">
 <!ENTITY deleteButton.label "Dzēst">
 <!ENTITY deleteButton.accesskey "D">

@@ -11,7 +11,7 @@
 <!-- extracted from am-advanced.xhtml -->
 <!ENTITY smtpListAdd.label "Pievienot…">
 <!ENTITY smtpListAdd.accesskey "P">
-<!ENTITY smtpListEdit.label "Rediģēt...">
+<!ENTITY smtpListEdit.label "Labot…">
 <!ENTITY smtpListEdit.accesskey "R">
 <!ENTITY smtpListDelete.label "Noņemt">
 <!ENTITY smtpListDelete.accesskey "N">
