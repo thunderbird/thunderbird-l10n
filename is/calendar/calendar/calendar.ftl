@@ -158,6 +158,9 @@ week-title-label =
     .aria-label = Vika { $title }
 calendar-none =
     .label = Engin
+# Variables:
+#   $fileName (String) - The backup file name, e.g. 'local-2020-05-11T21-30-17.sqlite'.
+too-new-dbschema-error-text = Dagatalsgögnin þín eru ekki samhæf við þessa útgáfu af { -brand-short-name }. Dagatalsgögnin á reikningnum þínum voru uppfærð með nýrri útgáfu af { -brand-short-name }. Búið hefur verið til öryggisafrit af gagnaskránni, sem heitir "{ $fileName }". Heldur áfram með nýstofnaða gagnaskrá.
 imip-bar-unsupported-text = Þessi skilaboð innihalda atburð sem þessi útgáfa af { -brand-short-name } getur ekki unnið úr.
 # Error strings
 # @name UID_NOT_FOUND

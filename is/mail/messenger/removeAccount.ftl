@@ -25,3 +25,4 @@ remove-data-chat-account-description = Fjarlægir öll gögn fyrir samtöl á st
 show-data-button =
     .label = Sýna staðsetningu gagna
     .accesskey = S
+remove-account-progress-failure = Eitthvað fór úrskeiðis! Ekki tókst að ljúka fjarlægingu reiknings.

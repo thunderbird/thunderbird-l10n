@@ -236,6 +236,18 @@ account-hub-manual-config-incoming-legend = Póstþjónn inn
 account-hub-manual-config-outgoing-legend = Póstþjónn út
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
 account-hub-same-username-checkbox = Sama notandanafn og innsendiþjónn
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-security-changed = Fann ekki { $oldValue }, en { $newValue } er tiltækt.
+# Variables:
+# $oldValue (String): The port requested before the configuration was tested.
+# $newValue (String): The port found after the configuration was tested.
+account-hub-manual-config-port-changed = Ekki tókst að ná í { $oldValue } gáttina, en { $newValue } gáttin er tiltæk.
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-value-changed = Gat ekki notað { $oldValue }, en { $newValue } er tiltækt.
 account-hub-protocol-imap = Samstillt á milli tækja
 account-hub-protocol-microsoft = Exchange eða Microsoft 365
 account-hub-protocol-pop3 = Sækja í tæki
@@ -362,6 +374,7 @@ account-hub-card-graph-title = Microsoft Graph
 account-hub-card-graph-description = Microsoft Graph er nútímaleg tengingaraðferð fyrir Microsoft 365.
 account-hub-card-ews-title = Exchange vefþjónustur
 account-hub-card-ews-tag = Eldra
+account-hub-card-ews-description = Exchange Web Services (EWS) tengist Microsoft Exchange til að samstilla póstinn þinn.
 account-hub-exchange-type-username = Notandanafn
 account-hub-exchange-type-username-hint = Venjulega netfangið þitt eða Active Directory UPN.
 account-hub-exchange-type-authentication = Auðkenningaraðferð
