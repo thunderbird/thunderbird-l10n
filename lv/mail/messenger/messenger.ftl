@@ -9,6 +9,10 @@ about-rights-notification-text = { -brand-short-name } ir bezmaksas un atvērtā
 
 ## Content tabs
 
+content-tab-security-high-icon =
+    .alt = Savienojums ir drošs
+content-tab-security-broken-icon =
+    .alt = Savienojums nav drošs
 
 # Back
 
