@@ -15,7 +15,7 @@ account-manager-close-command =
     .key = a
 # This title must be short, displayed with a big font size
 account-manager-no-account-title = Vēl nav konfigurēts neviens konts
-account-manager-no-account-description = Klikšķiniet uz { new-account-label } pogas, lai ar { -brand-short-name } vedni izietu iestatīšanas procesu.
+account-manager-no-account-description = Klikšķini uz pogas { new-account-label }, lai ar { -brand-short-name } vedni izietu cauri iestatīšanai.
 account-auto-sign-on =
     .label = Pierakstīšanās palaišanās laikā
     .accesskey = S

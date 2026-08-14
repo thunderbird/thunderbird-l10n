@@ -41,5 +41,5 @@
 <!ENTITY completionTitle.label "Apsveicam!">
 <!ENTITY completionText.label "Lūdzu, pārbaudiet, vai zemāk sniegtā informācija ir pareiza.">
 <!ENTITY newsServerNamePrefix.label "Ziņu servera nosaukums (NNTP):">
-<!ENTITY clickFinish.label "Klikšķiniet uz Pabeigt, lai saglabātu šos iestatījumus un izietu no konta vedņa.">
+<!ENTITY clickFinish.label "Klikšķini uz “Pabeigt”, lai saglabātu šos iestatījumus un izietu no konta vedņa!">
 <!ENTITY clickFinish.labelMac "Noklikšķiniet uz Gatavs, lai saglabātu šos iestatījumus un izietu no Konta vedņa.">
