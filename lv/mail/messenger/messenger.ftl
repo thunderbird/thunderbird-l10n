@@ -71,6 +71,7 @@ menu-edit-delete-folder =
 menu-edit-delete-messages =
     .label =
         { $count ->
+            [zero] Izdzēst atlasītos ziņojumus
             [one] Izdzēst ziņojumus
            *[other] Izdzēst atlasītos ziņojumus
         }
@@ -80,6 +81,7 @@ menu-edit-delete-messages =
 menu-edit-undelete-messages =
     .label =
         { $count ->
+            [zero] Atjaunot atlasītos ziņojumus
             [one] Atjaunot ziņojumu
            *[other] Atjaunot atlasītos ziņojumus
         }
