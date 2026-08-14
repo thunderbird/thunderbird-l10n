@@ -29,11 +29,11 @@
 <!ENTITY folderSynchronizationTab.label "Sinhronizācija">
 <!ENTITY folderCheckForNewMessages2.label "Saņemot jaunas vēstules šajā kontā, vienmēr pārbaudīt šo mapi">
 <!ENTITY folderCheckForNewMessages2.accesskey "S">
-<!ENTITY offlineFolder.check.label "Izvēlēties šo mapi lietošanai nesaistē">
+<!ENTITY offlineFolder.check.label "Atlasīt šo mapi izmantošanai bezsaistē">
 <!ENTITY offlineFolder.check.accesskey "I">
 <!ENTITY offlineFolder.button.label "Lejuplādēt tagad">
 <!ENTITY offlineFolder.button.accesskey "L">
-<!ENTITY selectofflineNewsgroup.check.label "Izvēlēties šo ziņu grupu lietošanai nesaistē">
+<!ENTITY selectofflineNewsgroup.check.label "Atlasīt šo ziņu grupu izmantošanai nesaistē">
 <!ENTITY selectofflineNewsgroup.check.accesskey "g">
 <!ENTITY offlineNewsgroup.button.label "Lejuplādēt tagad">
 <!ENTITY offlineNewsgroup.button.accesskey "L">

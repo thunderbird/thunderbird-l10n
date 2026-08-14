@@ -5,5 +5,7 @@
 # LOCALIZATION NOTE (error-code):
 #    $errorCode will be replaced with the number of an error code
 error-code = Kļūdas kods: { $errorCode }
+calendar-properties-offline-support =
+    .label = Bezsaistes atbalsts
 calendar-error-code =
     .value = Kļūdas kods:

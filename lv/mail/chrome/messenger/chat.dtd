@@ -32,6 +32,6 @@
 <!ENTITY chatAccountsButton.label "Rādīt kontus">
 <!ENTITY status.available "Pieejams">
 <!ENTITY status.unavailable "Nepieejams">
-<!ENTITY status.offline "Nesaistē">
+<!ENTITY status.offline "Bezsaistē">
 <!ENTITY openLinkCmd.label "Atvērt saiti…">
 <!ENTITY openLinkCmd.accesskey "A">

@@ -15,7 +15,7 @@
 <!ENTITY directoryLogin.label "Saistīt DN:">
 <!ENTITY directoryLogin.accesskey "i">
 <!ENTITY General.tab "Vispārīgi">
-<!ENTITY Offline.tab "Nesaistē">
+<!ENTITY Offline.tab "Bezsaistē">
 <!ENTITY Advanced.tab "Paplašināti">
 <!ENTITY portNumber.label "Porta numurs: ">
 <!ENTITY portNumber.accesskey "P">
