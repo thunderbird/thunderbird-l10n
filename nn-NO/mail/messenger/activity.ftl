@@ -94,6 +94,17 @@ extension-send-activity-event =
         [one] Utvidinga «{ $extensionName }» sende ei uovervakt melding
        *[other] Utvidinga «{ $extensionName }» sende fleire uovervakte meldingar
     }
+# Status line shown under extension-send-activity-event.
+# Reports how many messages were sent by the extension and how long the
+# completed send batch took.
+# Variables:
+#   $count (Number) - number of messages sent
+#   $time (String) - localized elapsed time
+extension-sent-activity-event-status =
+    { $count ->
+        [one] { $count } melding (tid gått: { $time })
+       *[other] { $count } meldingar (tid gått: { $time })
+    }
 # Status line shown under extension-send-activity-event. Reports how many
 # messages were sent and the wall-clock time between the first and last send in
 # the batch (rounded to whole seconds, at least one).
