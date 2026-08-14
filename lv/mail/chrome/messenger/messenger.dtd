@@ -63,13 +63,13 @@
 <!ENTITY compactFolders.accesskey "S">
 <!ENTITY emptyTrashCmd.label "Iztukšot atkritni">
 <!ENTITY emptyTrashCmd.accesskey "I">
-<!ENTITY offlineMenu.label "Nesaistē">
+<!ENTITY offlineMenu.label "Bezsaistē">
 <!ENTITY offlineMenu.accesskey "N">
 <!ENTITY offlineGoOfflineCmd.label "Strādāt nesaistē">
 <!ENTITY offlineGoOfflineCmd.accesskey "S">
 <!ENTITY synchronizeOfflineCmd.label "Lejuplādēt/sinhronizēt tagad…">
 <!ENTITY synchronizeOfflineCmd.accesskey "L">
-<!ENTITY settingsOfflineCmd2.label "Nesaistes iestatījumi">
+<!ENTITY settingsOfflineCmd2.label "Bezsaistes iestatījumi">
 <!ENTITY settingsOfflineCmd2.accesskey "N">
 <!ENTITY downloadSelectedCmd.label "Iegūt atlasītās vēstules">
 <!ENTITY downloadSelectedCmd.accesskey "a">
@@ -150,11 +150,11 @@
 <!ENTITY sortByPriorityCmd.accesskey "r">
 <!ENTITY sortBySizeCmd.label "Izmērs">
 <!ENTITY sortBySizeCmd.accesskey "z">
-<!ENTITY sortByStatusCmd.label "Statuss">
+<!ENTITY sortByStatusCmd.label "Stāvoklis">
 <!ENTITY sortByStatusCmd.accesskey "S">
 <!ENTITY sortByTagsCmd.label "Birkas">
 <!ENTITY sortByTagsCmd.accesskey "B">
-<!ENTITY sortByJunkStatusCmd.label "Drazas statuss">
+<!ENTITY sortByJunkStatusCmd.label "Drazas stāvoklis">
 <!ENTITY sortByJunkStatusCmd.accesskey "D">
 <!ENTITY sortBySubjectCmd.label "Temats">
 <!ENTITY sortBySubjectCmd.accesskey "T">
@@ -422,11 +422,11 @@
 <!ENTITY addonNoPrefs.label "Papildinājumu iestatījumi nav atrasti.">
 <!ENTITY activitymanager.label "Darbību pārvaldnieks">
 <!ENTITY activitymanager.accesskey "D">
-<!ENTITY imAccountsStatus.label "Tērzēšanas statuss">
+<!ENTITY imAccountsStatus.label "Tērzēšanas stāvoklis">
 <!ENTITY imAccountsStatus.accesskey "T">
 <!ENTITY imStatus.available "Pieejams">
 <!ENTITY imStatus.unavailable "Nepieejams">
-<!ENTITY imStatus.offline "Nesaistē">
+<!ENTITY imStatus.offline "Bezsaistē">
 <!ENTITY imStatus.showAccounts "Rādīt kontus…">
 <!ENTITY joinChatCmd.label "Pievienoties tērzēšanai…">
 <!ENTITY joinChatCmd.accesskey "P">
@@ -622,9 +622,9 @@
 <!ENTITY priorityColumn.label "Prioritāte">
 <!ENTITY tagsColumn.label "Birka">
 <!ENTITY accountColumn.label "Konts">
-<!ENTITY statusColumn.label "Statuss">
+<!ENTITY statusColumn.label "Stāvoklis">
 <!ENTITY sizeColumn.label "Izmērs">
-<!ENTITY junkStatusColumn.label "Drazas statuss">
+<!ENTITY junkStatusColumn.label "Drazas stāvoklis">
 <!ENTITY unreadColumn.label "Nelasītas">
 <!ENTITY totalColumn.label "Kopā">
 <!ENTITY readColumn.label "Lasīt">

@@ -12,7 +12,7 @@
 <!ENTITY chat.noAccount.description "Ļaujiet &brandShortName; palīdzēt jums izveidot tērzēšanas kontu.">
 <!ENTITY chat.accountWizard.button "Pirmie soļi">
 <!ENTITY chat.noConnectedAccount.title "Jūsu tērzēšanas konti nav savienoti.">
-<!ENTITY chat.noConnectedAccount.description "Tos varat savienot dialogā 'Tērzēšanas statuss':">
+<!ENTITY chat.noConnectedAccount.description "Tos var savienot dialoglodziņā “Tērzēšanas stāvoklis”:">
 <!ENTITY chat.showAccountManager.button "Rādīt tērzēšanas statusu">
 <!ENTITY chat.participants "Dalībnieki:">
 <!ENTITY chat.previousConversations "Iepriekšējās sarunas:">

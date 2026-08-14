@@ -4,7 +4,7 @@
 
 finger-intro = OTR atslēgas pirkstu nospiedumi no iepriekšējām tiešās saziņas šifrētām sarunām.
 finger-verified =
-    .label = Pārbaudes statuss
+    .label = Apliecināšanas stāvoklis
 finger-fingerprint =
     .label = Pirkstu nospiedums
 finger-remove =

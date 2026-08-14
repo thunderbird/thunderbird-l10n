@@ -96,8 +96,8 @@ conversation-error-version-unknown = { $recipient } klients neatbalsta vaicājum
 #   the tooltip showing details about a contact or conversation.
 # LOCALIZATION NOTE (tooltip-status):
 #   $resourceIdentifier (String) will be replaced by the XMPP resource identifier
-tooltip-status = Statuss ({ $resourceIdentifier })
-tooltip-status-no-resource = Statuss
+tooltip-status = Stāvoklis ({ $resourceIdentifier })
+tooltip-status-no-resource = Stāvoklis
 tooltip-subscription = Parakstīšanās
 tooltip-full-name = Pilns vārds
 tooltip-nickname = Segvārds

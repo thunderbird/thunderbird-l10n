@@ -4,5 +4,5 @@
 
 <!-- LOCALIZATION NOTE sendProgress.dtd Main UI for Send Message Progress Dialog -->
 <!ENTITY sendDialog.title "Apstrādā vēstuli">
-<!ENTITY status.label "Statuss:">
+<!ENTITY status.label "Stāvoklis:">
 <!ENTITY progress.label "Izpilde:">

@@ -12,6 +12,6 @@
 <!ENTITY view.label "Skats">
 <!ENTITY view.accesskey "S">
 <!ENTITY tree.recipient "Saņēmējs">
-<!ENTITY tree.status "Statuss">
+<!ENTITY tree.status "Stāvoklis">
 <!ENTITY tree.issuedDate "Izdots">
 <!ENTITY tree.expiresDate "Derīgs līdz">

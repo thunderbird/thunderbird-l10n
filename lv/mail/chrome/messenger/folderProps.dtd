@@ -52,7 +52,7 @@
 <!ENTITY folderType.label "Mapes veids:">
 <!ENTITY folderQuotaTab.label "Kvota">
 <!ENTITY folderQuotaUsage.label "Lietošana:">
-<!ENTITY folderQuotaStatus.label "Statuss:">
+<!ENTITY folderQuotaStatus.label "Stāvoklis:">
 <!ENTITY numberOfMessages.label "Vēstuļu skaits:">
 <!-- LOCALIZATION NOTE: When the number of messages can't be determined, this string is displayed as the number -->
 <!ENTITY numberUnknown.label "nezināms">
