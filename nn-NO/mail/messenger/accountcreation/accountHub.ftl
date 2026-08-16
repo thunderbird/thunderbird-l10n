@@ -11,7 +11,7 @@
 
 account-hub-brand = { -brand-full-name }
 account-hub-welcome-line = Velkomen til <span data-l10n-name="brand-name">{ -brand-full-name }</span>
-account-hub-title = Konto-hub
+account-hub-title = Kontosenter
 
 ## Footer
 
@@ -163,7 +163,7 @@ account-hub-close-button =
 account-hub-minimize-button =
     .title = Minimer
 account-hub-maximize-button =
-    .title = Maksimer kontohub
+    .title = Maksimer kontosenter
 account-hub-email-manual-configuration = Manuell konfigurasjon
 account-hub-notification-unknown-host = Oppsettinformasjon funne på tredjepartsdomene
 account-hub-ssl-noencryption = Ingen
@@ -269,7 +269,7 @@ account-hub-email-config-found = Vel e-postkontotype
 account-hub-email-enter-password = Skriv inn passordet for e-postkontoen din
 account-hub-email-sync-accounts = Synkroniser kalendrane og adressebøkene dine
 account-hub-test-configuration = Test
-account-hub-add-new-email = Legg til ein annan e-post
+account-hub-add-new-email = Legg til ei anna e-postadresse
 account-hub-result-imap-description = Hald mapper og e-postar synkroniserte på serveren din
 account-hub-result-pop-description = Behald mapper og e-postar på datamaskina di
 account-hub-result-ews-shortname = Exchange
