@@ -29,7 +29,7 @@
 <!ENTITY HomePhone.accesskey "H">
 <!ENTITY WorkPhone.label "Arbeidstelefon">
 <!ENTITY WorkPhone.accesskey "d">
-<!ENTITY ChatName.label "Nettpratnamn">
+<!ENTITY ChatName.label "Chattenamn">
 <!ENTITY ChatName.accesskey "p">
 <!ENTITY sortAscending.label "Stigande">
 <!ENTITY sortAscending.accesskey "S">

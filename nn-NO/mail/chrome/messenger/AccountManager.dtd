@@ -9,7 +9,7 @@
 <!ENTITY accountActionsButton.accesskey "K">
 <!ENTITY addMailAccountButton.label "Legg til e-postkonto …">
 <!ENTITY addMailAccountButton.accesskey "e">
-<!ENTITY addIMAccountButton.label "Legg til nettpratkonto …">
+<!ENTITY addIMAccountButton.label "Legg til chattekonto…">
 <!ENTITY addIMAccountButton.accesskey "r">
 <!ENTITY addFeedAccountButton.label "Legg til nyheitskjeldekonto…">
 <!ENTITY addFeedAccountButton.accesskey "k">
