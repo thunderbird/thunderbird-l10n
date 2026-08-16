@@ -71,7 +71,7 @@ vcard-tz-add = Legg til tidssone
 # IMPP vCard field
 
 vcard-impp2-header = Direktemeldingar
-vcard-impp-add = Legg til nettpratkonto
+vcard-impp-add = Legg til chattekonto
 vcard-impp-label = Chatte-konto
 vcard-impp-select = Protokoll
 vcard-impp-option-other = Anna

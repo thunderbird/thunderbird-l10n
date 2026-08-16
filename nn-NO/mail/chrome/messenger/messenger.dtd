@@ -526,7 +526,7 @@
 <!ENTITY printButton.tooltip "Skriv ut denne meldinga">
 <!ENTITY stopButton.tooltip "Stopp denne overføringa">
 <!ENTITY addressBookButton.tooltip "Opne adresseboka">
-<!ENTITY chatButton.tooltip "Vis nettprat-fana">
+<!ENTITY chatButton.tooltip "Vis chatte-fana">
 <!ENTITY tagButton.tooltip "Merk melding">
 <!ENTITY compactButton.tooltip "Fjern sletta meldingar frå vald mappe">
 <!ENTITY appmenuButton1.tooltip "Viser &brandShortName;-menyen">

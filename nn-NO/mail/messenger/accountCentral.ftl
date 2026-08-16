@@ -8,7 +8,7 @@ account-settings = Kontoinnstillingar
 setup-title =
     { $accounts ->
         [0] Vel kva du vil konfigurere
-       *[other] Konfigurer ein annan konto
+       *[other] Opprett ein ny konto
     }
 about-title = Om { -brand-full-name }
 resources-title = Resursar

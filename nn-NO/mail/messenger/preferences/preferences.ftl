@@ -69,7 +69,7 @@ privacy-security-header = Sikkerheit
 privacy-scam-detection-title = Svindeldetektering
 privacy-anti-virus-title = Antivirus
 privacy-certificates-title = Sertifikat
-chat-pane-header = Nettprat
+chat-pane-header = Chatt
 chat-status-title = Status
 chat-notifications-title = Varsel
 chat-pane-styling-header = Stil
@@ -835,9 +835,9 @@ startup-label =
     .value = Når { -brand-short-name } startar:
     .accesskey = s
 offline-label =
-    .label = Behald nettprat-kontoane fråkopla
+    .label = Behald chattekontoane fråkopla
 auto-connect-label =
-    .label = Kopla til nettprat-kontoane automatisk
+    .label = Kople til chattekontoane automatisk
 
 ## Note: idle-label is displayed first, then there's a field where the user
 ## can enter a number, and itemTime is displayed at the end of the line.
