@@ -35,6 +35,7 @@ policy-DisableFormHistory = Formular- und Suchchronik nicht speichern
 policy-DisableMasterPasswordCreation = Master-Passwort kann nicht erstellt werden, falls true
 policy-DisablePasswordReveal = Option zur Klartextanzeige von Passwörtern in gespeicherten Zugangsdaten deaktivieren
 policy-DisableProfileImport = Datenimport aus anderen Anwendungen (Menüeintrag) deaktivieren
+policy-DisableExperimentalFeatures = Experimentelle Funktionen in Thunderbird deaktivieren.
 policy-DisableQRExport = Deaktivieren Sie die Generierung des QR-Codes, um Kontoeinstellungen und Zugangsdaten zu exportieren.
 policy-DisableSafeMode = Neustart in den Abgesicherten Modus deaktivieren. Hinweis: Das Starten in den Abgesicherten Modus mittels der Umschalt-Taste in Windows kann nur per Festlegung als Gruppenrichtlinie deaktiviert werden.
 policy-DisableSecurityBypass = Umgehen einiger Sicherheitswarnungen durch Benutzer deaktivieren
