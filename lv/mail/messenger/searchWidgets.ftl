@@ -89,7 +89,7 @@ search-val-flag-starred =
 search-val-spam-score-origin-plugin =
     .label = Spraudnis
 search-val-spam-score-origin-filter =
-    .label = Filtrs
+    .label = Atsijātājs
 search-val-spam-score-origin-user =
     .label = Lietotājs
 search-val-spam-score-origin-imap-flag =
@@ -161,7 +161,7 @@ rule-action-ignore-subthread =
 rule-action-watch-thread =
     .label = Skatīt pavedienu
 rule-action-stop =
-    .label = Pārtraukt filtru izpildi
+    .label = Apturēt atsijātāju izpildi
 
 ## Rule Action Targets
 

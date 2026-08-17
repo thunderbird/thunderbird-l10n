@@ -38,13 +38,13 @@ options-encryption-session = { $sessionId } ({ $sessionDisplayName })
 #   (These will be displayed in account.connection.progress from
 #    accounts.properties, which adds … at the end, so do not include
 #    periods at the end of these messages.)
-connection-request-auth = Gaida jūsu autorizāciju
+connection-request-auth = Gaida pilnvarošanu
 connection-request-access = Pabeidz autentifikāciju
 # LOCALIZATION NOTE (connection-error-*):
 #   These will show in the account manager if an error occurs during the
 #   connection attempt.
 connection-error-no-supported-flow = Serveris nepiedāvā saderīgu pieteikšanās plūsmu.
-connection-error-auth-cancelled = Jūs atcēlāt autorizācijas procesu.
+connection-error-auth-cancelled = Tu atcēli pilnvarošanas darbību.
 connection-error-session-ended = Izrakstījāties no sesijas.
 connection-error-server-not-found = Neizdevās noteikt dotā Martix konta  Matrix serveri.
 # LOCALIZATION NOTE (chat-room-field-*):
