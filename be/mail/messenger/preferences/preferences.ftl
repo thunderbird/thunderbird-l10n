@@ -512,6 +512,7 @@ remote-content-label =
 exceptions-button =
     .label = Выключэнні…
     .accesskey = ы
+remote-content-privacy-info = Даведайцеся больш пра прыватнасць аддаленага змесціва
 remote-content-info =
     .value = Даведайцеся больш пра прыватнасць аддаленага змесціва
 web-content = Змесціва вэб-сайтаў
@@ -625,6 +626,12 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     Аўтаматычныя рашэнні можна скасаваць, калі ўключыць або адключыць шыфраванне ўручную пры складанні паведамлення.
     Заўвага: шыфраванне заўсёды аўтаматычна ўключаецца пры адказе на зашыфраваныя паведамленні.
+
+## DoH Section
+
+
+## Keyservers
+
 
 ## Chat Tab
 
