@@ -261,6 +261,7 @@ account-hub-email-setup-header = Dodajte e-poštni naslov
 account-hub-email-setup-incoming = Nastavitve dohodnega strežnika
 account-hub-email-setup-outgoing = Nastavitve odhodnega strežnika
 account-hub-email-exchange-settings = Nastavitve za Exchange
+account-hub-email-protocol-select-header = Izberite vrsto e-poštnega računa
 account-hub-email-protocol-select-additional-info = Za nastavitev računa so potrebni dodatni podatki.
 account-hub-email-protocol-select-notification = Za nastavitev računa so potrebni dodatni podatki
 account-hub-email-config-found = Izberite vrsto e-poštnega računa
@@ -319,6 +320,7 @@ account-hub-port-error-text = Številka vrat mora biti med 1 in 65535
     .title = Številka vrat mora biti med 1 in 65535
 account-hub-username-error-text = Uporabniško ime je obvezno
     .title = Uporabniško ime je obvezno
+account-hub-manual-config-error-summary = Odpravite naslednje napake:
 account-hub-oauth-pending = Čakanje na pooblastitev v pojavnem oknu za prijavo …
 account-hub-addon-install-button = Namesti
 account-hub-addon-install-needed = { -brand-short-name } sam po sebi tega strežnika ne podpira. Za dostop do e-pošte Exchange <a data-l10n-name="addon-install">namestite dodatek tretjega ponudnika, na primer Owl (plačljiv)</a>.
@@ -374,6 +376,8 @@ account-hub-new-remote-address-book = Nov oddaljen imenik
 
 account-hub-exchange-type-account-type = Vrsta računa
 account-hub-card-graph-title = Microsoft Graph
+account-hub-card-graph-description = Microsoft Graph je sodobna metoda povezovanja za Microsoft 365.
+account-hub-card-ews-title = Spletne storitve Exchange
 account-hub-exchange-type-username = Uporabniško ime
 account-hub-exchange-type-username-hint = Običajno e-poštni naslov ali UPN storitve Active Directory.
 account-hub-exchange-type-authentication = Način overitve
