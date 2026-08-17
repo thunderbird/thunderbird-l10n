@@ -531,9 +531,6 @@ security-devices-button =
     .label = Անվտանգության սարքեր...
     .accesskey = D
 
-## DoH Section
-
-
 ## Keyservers
 
 email-e2ee-key-servers-add = Ավելացնել...
@@ -633,6 +630,3 @@ show-synced-item-address = Հասցեագրքեր
 ## Mobile QR Export Pane
 
 qr-export-scan-step2 = Անցնել Կարգավորումներին
-
-## Appearance Tab
-

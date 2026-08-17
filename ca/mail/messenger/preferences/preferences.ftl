@@ -645,12 +645,6 @@ email-e2ee-automatism-post =
     Les decisions automàtiques es poden alterar activant o desactivant manualment el xifratge en redactar un missatge.
     Nota: el xifratge sempre s'activa automàticament quan es respon a un missatge xifrat.
 
-## DoH Section
-
-
-## Keyservers
-
-
 ## Chat Tab
 
 startup-label =
@@ -799,9 +793,3 @@ synced-acount-item-filters = Filtres
 synced-acount-item-keys = OpenPGP - S/MIME
 sync-disconnected-text = Sincronitzeu els vostres comptes de correu, llibretes d'adreces, calendaris i identitats en tots els vostres dispositius.
 sync-disconnected-turn-on-sync = Activa la sincronització…
-
-## Mobile QR Export Pane
-
-
-## Appearance Tab
-

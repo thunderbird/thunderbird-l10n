@@ -718,9 +718,6 @@ preferences-doh-url-custom =
     .label = Pertsonalizatua
     .accesskey = P
 
-## Keyservers
-
-
 ## Chat Tab
 
 startup-label =

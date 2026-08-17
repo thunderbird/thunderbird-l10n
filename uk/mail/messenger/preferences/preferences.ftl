@@ -667,12 +667,6 @@ email-e2ee-automatism-post =
     Автоматичні рішення можна перевизначити, увімкнувши або вимкнувши шифрування вручну під час написання повідомлення.
     Примітка: шифрування завжди вмикається автоматично під час відповіді на зашифроване повідомлення.
 
-## DoH Section
-
-
-## Keyservers
-
-
 ## Chat Tab
 
 startup-label =
@@ -885,6 +879,3 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Включно з паролями
 qr-export-summary-passwords-excluded = За винятком паролів
 qr-export-more-accounts = Експортувати інші облікові записи
-
-## Appearance Tab
-

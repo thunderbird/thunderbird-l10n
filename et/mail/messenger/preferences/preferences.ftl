@@ -610,12 +610,6 @@ security-devices-button =
     .accesskey = T
 account-settings = Konto sätted
 
-## DoH Section
-
-
-## Keyservers
-
-
 ## Chat Tab
 
 startup-label =

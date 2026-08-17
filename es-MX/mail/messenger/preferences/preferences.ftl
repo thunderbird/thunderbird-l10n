@@ -628,12 +628,6 @@ email-e2ee-automatism-post =
     Las decisiones automáticas pueden anularse al habilitar o deshabilitar manualmente el cifrado al redactar un mensaje.
     Nota: el cifrado siempre se habilita automáticamente al responder a un mensaje cifrado.
 
-## DoH Section
-
-
-## Keyservers
-
-
 ## Chat Tab
 
 startup-label =
@@ -793,6 +787,3 @@ qr-export-summary-title = Resumen de exportación:
 qr-export-summary-passwords-included = Contraseñas incluidas
 qr-export-summary-passwords-excluded = Contraseñas excluidas
 qr-export-more-accounts = Exportar más cuentas
-
-## Appearance Tab
-

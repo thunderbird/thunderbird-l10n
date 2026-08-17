@@ -549,9 +549,6 @@ security-devices-button =
     .label = Drošības ierīces…
     .accesskey = D
 
-## DoH Section
-
-
 ## Keyservers
 
 email-e2ee-key-servers-add = Pievienot…
@@ -644,12 +641,3 @@ chat-variant-label =
 
 search-results-header = Meklēšanas iznākums
 search-results-help-link = Vajadzīga palīdzība? Apmeklē <a data-l10n-name="url">{ -brand-short-name } atbalsta vietni</a>!
-
-## Sync Tab
-
-
-## Mobile QR Export Pane
-
-
-## Appearance Tab
-

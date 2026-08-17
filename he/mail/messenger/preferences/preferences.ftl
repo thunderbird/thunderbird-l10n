@@ -16,9 +16,6 @@ manage-messenger-languages-button =
 confirm-messenger-language-change-description = יש להפעיל את { -brand-short-name } מחדש כדי להחיל את השינויים האלה
 confirm-messenger-language-change-button = החלה והפעלה מחדש
 
-## OS Authentication dialog
-
-
 ## General Tab
 
 focus-search-shortcut =
@@ -426,12 +423,6 @@ certificate-ask =
     .label = שאל אותי תמיד
     .accesskey = מ
 
-## DoH Section
-
-
-## Keyservers
-
-
 ## Chat Tab
 
 startup-label =
@@ -513,15 +504,3 @@ no-preview-label = אין תצוגה מקדימה זמינה
 chat-variant-label =
     .value = הגוון:
     .accesskey = ג
-
-## Settings UI Search Results
-
-
-## Sync Tab
-
-
-## Mobile QR Export Pane
-
-
-## Appearance Tab
-

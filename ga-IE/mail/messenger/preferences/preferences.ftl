@@ -479,12 +479,6 @@ ocsp-label =
     .label = Iarr ar fhreastalaí freagróra OCSP bailíocht teastais a dheimhniú
     .accesskey = O
 
-## DoH Section
-
-
-## Keyservers
-
-
 ## Chat Tab
 
 startup-label =
@@ -551,12 +545,3 @@ preview-label = Réamhamharc:
 ## Settings UI Search Results
 
 search-results-header = Torthaí an Chuardaigh
-
-## Sync Tab
-
-
-## Mobile QR Export Pane
-
-
-## Appearance Tab
-
