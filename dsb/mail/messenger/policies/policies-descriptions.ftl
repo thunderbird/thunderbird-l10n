@@ -35,6 +35,7 @@ policy-DisableFormHistory = Pytańsku a formularnu historiju se njespomnjeś.
 policy-DisableMasterPasswordCreation = Jolic to trjefijo, njedajo se głowne gronidło napóraś.
 policy-DisablePasswordReveal = Njedowóliś, až se gronidła w skłaźonych pśizjawjenjach pokazuju
 policy-DisableProfileImport = Menijowy pśikaz za importěrowanje datow z drugego nałoženja znjemóžniś.
+policy-DisableExperimentalFeatures = Eksperimentelne funkcije w Thunderbird znjemóžniś.
 policy-DisableQRExport = Znjemóžniśo generěrowanje QR-koda, aby kontowe nastajenja a pśizjawjeńske daty eksportěrował.
 policy-DisableSafeMode = Funkciju za znowegostartowanje we wěstem modusu znjemóžniś. Glědajśo: Tasta Umsch, z kótarejuž k wěstemu modusoju pśejźośo, dajo se jano pód Windowsom z pomocu kupkowych pšawidłow znjemóžniś.
 policy-DisableSecurityBypass = Wužywarjeju wobinjenje wěstych wěstotnych warnowanjow zawoboraś.
