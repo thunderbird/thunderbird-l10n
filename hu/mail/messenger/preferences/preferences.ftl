@@ -611,6 +611,7 @@ remote-content-label =
 exceptions-button =
     .label = Kivételek…
     .accesskey = v
+remote-content-privacy-info = Tudjon meg többet a távoli tartalommal kapcsolatos adatvédelmi problémákról
 remote-content-info =
     .value = Tudjon meg többet a távoli tartalommal kapcsolatos adatvédelmi problémákról
 web-content = Webtartalom
