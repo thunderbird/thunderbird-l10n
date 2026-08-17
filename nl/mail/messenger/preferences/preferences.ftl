@@ -623,6 +623,7 @@ remote-content-label =
 exceptions-button =
     .label = Uitzonderingen…
     .accesskey = U
+remote-content-privacy-info = Meer info over de privacyproblemen van externe inhoud
 remote-content-info =
     .value = Meer info over de privacyproblemen van externe inhoud
 web-content = Webinhoud
