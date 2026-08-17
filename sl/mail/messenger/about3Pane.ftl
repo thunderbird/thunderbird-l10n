@@ -292,6 +292,7 @@ threadpane-column-label-unread-button =
     .label = Prebrano/Neprebrano
 threadpane-cell-read-status =
     .aria-label = Prebrano/neprebrano
+threadpane-new-cell-label = Novo
 threadpane-read-cell-label = Prebrano
 threadpane-unread-cell-label = Neprebrano
 threadpane-column-header-a11y-sender =
