@@ -292,6 +292,7 @@ threadpane-column-label-unread-button =
     .label = Cytański status
 threadpane-cell-read-status =
     .aria-label = Cytański status
+threadpane-new-cell-label = Nowy
 threadpane-read-cell-label = Pśecytany
 threadpane-unread-cell-label = Njecytane
 threadpane-column-header-a11y-sender =

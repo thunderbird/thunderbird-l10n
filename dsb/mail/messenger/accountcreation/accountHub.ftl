@@ -119,6 +119,8 @@ account-hub-ssl-noencryption-option =
 account-hub-auth-no-authentication-option =
     .label = Žedna awtentifikacija
 account-hub-auth-label = Awtentificěrowańska metoda
+account-hub-select-option =
+    .label = Wubjeŕśo nastajenje
 account-hub-username-label = Wužywaŕske mě
 account-hub-username-warning-icon = Wužywaŕske mě jo trjebne
 account-hub-address-book-username-error-text = Pšosym zapódajśo wužywaŕske mě
@@ -255,6 +257,7 @@ account-hub-oauth-unsupported-title = Pśidatna konfiguracija jo trjebna
 # Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
 account-hub-oauth-unsupported-description = { -brand-short-name } njamóžo OAuth2 za toś to hostmě awtomatiski konfigurěrowaś. Wubjeŕśo rozšyrjonu konfiguraciju, aby konto załožył a dokóńcćo pón konfiguraciju z kontowych nastajenjow. <a data-l10n-name="oauth-support-link">Dostańśo pomoc za konfiguraciju OAuth2.</a>
+account-hub-username-help-text = Cesto waša dopołna e-mailowa adresa
 account-hub-notification-show-more = Wěcej pokazaś
 account-hub-notification-show-less = Mjenjej pokazaś
 account-hub-email-setup-header = Pśidajśo swóju e-mailowu adresu

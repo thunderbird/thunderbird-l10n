@@ -257,6 +257,7 @@ account-hub-oauth-unsupported-title = Přidatna konfiguracija je trěbna
 # Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
 account-hub-oauth-unsupported-description = { -brand-short-name } njemóže OAuth2 za tute hostmjeno awtomatisce konfigurować. Wubjerće rozšěrjenu konfiguraciju, zo byšće konto załožił a dokónčće potom konfiguraciju z kontowych nastajenjow. <a data-l10n-name="oauth-support-link">Dóstańće pomoc za konfiguraciju OAuth2.</a>
+account-hub-username-help-text = Husto waša dospołna e-mejlowa adresa
 account-hub-notification-show-more = Wjace pokazać
 account-hub-notification-show-less = Mjenje pokazać
 account-hub-email-setup-header = Přidajće swoju e-mejlowu adresu

@@ -15,9 +15,18 @@ outgoing-server-name = Wuchadny serwer:
 outgoing-server-edit =
     .label = Wuchadny serwer wobdźěłać…
     .accesskey = c
+oauth2-use-custom-details =
+    .label = Swójske nastajenja OAuth2 wužiwać
+    .accesskey = S
 oauth2-client-id-label =
     .value = ID klienta:
     .accesskey = I
+oauth2-authorization-endpoint-label =
+    .value = Kónčny dypk awtorizacije:
+    .accesskey = n
+oauth2-token-endpoint-label =
+    .value = Kónčny dypk tokena
+    .accesskey = t
 oauth2-scopes-label =
     .value = Wobwody:
     .accesskey = o
@@ -51,3 +60,9 @@ ews-endpointhost-label =
 ews-oauthscopes-label =
     .value = Wobłuki OAuth:
     .accesskey = b
+# Variables:
+#   $extensionName (String) - The display name of the extension providing
+#     the OAuth2 settings.
+# Shown in Account Settings below the authentication method when OAuth2
+# settings are provided by an extension.
+oauth-provider-extension-info = Nastajenja OAuth2, kotrež rozšěrjenje k dispoziciji staja: <a data-l10n-name="extension">{ $extensionName }</a>
