@@ -593,6 +593,7 @@ remote-content-label =
 exceptions-button =
     .label = Përjashtime…
     .accesskey = ë
+remote-content-privacy-info = Mësoni më tepër rreth çështjesh privatësie lënde të largët
 remote-content-info =
     .value = Mësoni më tepër rreth çështjesh privatësie lënde të largët
 web-content = Lëndë Web
