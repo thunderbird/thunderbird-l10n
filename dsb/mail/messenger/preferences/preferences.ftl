@@ -611,6 +611,7 @@ remote-content-label =
 exceptions-button =
     .label = Wuwześa…
     .accesskey = u
+remote-content-privacy-info = Zgońśo wěcej wó problemach priwatnosći dalokego wopśimjeśa
 remote-content-info =
     .value = Zgońśo wěcej wó problemach priwatnosći dalokego wopśimjeśa
 web-content = Webwopśimjeśe
