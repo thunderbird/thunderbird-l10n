@@ -287,6 +287,7 @@ threadpane-column-label-unread-button =
     .label = Статус прочтения
 threadpane-cell-read-status =
     .aria-label = Статус прочтения
+threadpane-new-cell-label = Создать
 threadpane-read-cell-label = Прочитано
 threadpane-unread-cell-label = Непрочитано
 threadpane-column-header-a11y-sender =

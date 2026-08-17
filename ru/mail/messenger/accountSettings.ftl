@@ -15,6 +15,30 @@ outgoing-server-name = Сервер исходящей почты:
 outgoing-server-edit =
     .label = Изменить сервер исходящей почты…
     .accesskey = o
+oauth2-use-custom-details =
+    .label = Использовать пользовательские настройки OAuth2
+    .accesskey = c
+oauth2-client-id-label =
+    .value = ID клиента:
+    .accesskey = Ш
+oauth2-authorization-endpoint-label =
+    .value = Конечная точка авторизации:
+    .accesskey = h
+oauth2-token-endpoint-label =
+    .value = Конечная точка токена:
+    .accesskey = t
+oauth2-scopes-label =
+    .value = Области:
+    .accesskey = s
+oauth2-redirection-endpoint-label =
+    .value = URI перенаправления:
+    .accesskey = r
+oauth2-use-pkce =
+    .label = Использовать PKCE
+    .accesskey = k
+oauth2-use-system-browser =
+    .label = Использовать системный веб-браузер
+    .accesskey = b
 ews-url-label =
     .value = URL хоста:
     .accesskey = р
@@ -36,3 +60,9 @@ ews-endpointhost-label =
 ews-oauthscopes-label =
     .value = Области OAuth:
     .accesskey = ы
+# Variables:
+#   $extensionName (String) - The display name of the extension providing
+#     the OAuth2 settings.
+# Shown in Account Settings below the authentication method when OAuth2
+# settings are provided by an extension.
+oauth-provider-extension-info = Настройки OAuth2, предоставляемые расширением: <a data-l10n-name="extension">{ $extensionName }</a>
