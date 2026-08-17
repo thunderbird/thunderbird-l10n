@@ -503,6 +503,7 @@ remote-content-label =
 exceptions-button =
     .label = Բացառութիւններ...
     .accesskey = Բ
+remote-content-privacy-info = Իմացիր աւելին՝ հեռակայ բովանդակութեան անվտանգութեան մասին
 remote-content-info =
     .value = Իմացիր աւելին՝ հեռակայ բովանդակութեան անվտանգութեան մասին
 web-content = Վեբ բովանդակութիւն
@@ -582,6 +583,12 @@ certificate-button =
 security-devices-button =
     .label = Անվտանգութեան սարքեր...
     .accesskey = ս
+
+## DoH Section
+
+
+## Keyservers
+
 
 ## Chat Tab
 
@@ -689,3 +696,12 @@ search-results-empty-message2 =
        *[other] Ներողութիւ՜ն։ Նախընտրութիւններում արդիւնքներ չկայն <span data-l10n-name="query">֊ի համար։
     }
 search-results-help-link = Աւգնութիւ՞ն է պէտք: Այցելէք <a data-l10n-name="url">{ -brand-short-name } Աջակցում</a>
+
+## Sync Tab
+
+
+## Mobile QR Export Pane
+
+
+## Appearance Tab
+
