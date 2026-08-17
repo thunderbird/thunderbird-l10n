@@ -606,6 +606,7 @@ remote-content-label =
 exceptions-button =
     .label = გამონაკლისები…
     .accesskey = მ
+remote-content-privacy-info = ვრცლად პირადი მონაცემების უსაფრთხოების შესახებ ვებშიგთავსთან დაკავშირებით
 remote-content-info =
     .value = ვრცლად პირადი მონაცემების უსაფრთხოების შესახებ ვებშიგთავსთან დაკავშირებით
 web-content = ვებშიგთავსი
