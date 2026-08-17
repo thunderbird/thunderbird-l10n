@@ -531,6 +531,7 @@ remote-content-label =
 exceptions-button =
     .label = Excepciones…
     .accesskey = E
+remote-content-privacy-info = Saber más sobre los problemas de privacidad del contenido remoto
 remote-content-info =
     .value = Saber más sobre los problemas de privacidad del contenido remoto
 web-content = Contenido web
@@ -626,6 +627,12 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     Las decisiones automáticas pueden anularse al habilitar o deshabilitar manualmente el cifrado al redactar un mensaje.
     Nota: el cifrado siempre se habilita automáticamente al responder a un mensaje cifrado.
+
+## DoH Section
+
+
+## Keyservers
+
 
 ## Chat Tab
 
@@ -786,3 +793,6 @@ qr-export-summary-title = Resumen de exportación:
 qr-export-summary-passwords-included = Contraseñas incluidas
 qr-export-summary-passwords-excluded = Contraseñas excluidas
 qr-export-more-accounts = Exportar más cuentas
+
+## Appearance Tab
+
