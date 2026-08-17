@@ -40,8 +40,8 @@
 <!ENTITY button.removeFeed.accesskey "N">
 <!ENTITY button.importOPML.label "Importēt">
 <!ENTITY button.importOPML.accesskey "I">
-<!ENTITY button.exportOPML.label "Eksportēt">
+<!ENTITY button.exportOPML.label "Izgūt">
 <!ENTITY button.exportOPML.accesskey "s">
-<!ENTITY button.exportOPML.tooltip "Eksportēt plūsmas ar mapju struktūru; klikšķiniet Ctrl vai Ctrl+Enter, lai eksportētu plūsmas kā sarakstu">
+<!ENTITY button.exportOPML.tooltip "Izgūt barotnes ar mapju struktūru; Ctrl + klikšķis vai Ctrl+Enter, lai izgūtu barotnes kā sarakstu">
 <!ENTITY cmd.close.commandKey "w">
 <!ENTITY button.close.label "Aizvērt">

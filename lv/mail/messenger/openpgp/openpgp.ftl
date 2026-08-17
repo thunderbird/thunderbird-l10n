@@ -384,8 +384,8 @@ delete-pub-key =
     '{ $userId }'?
 delete-selected-pub-key = Vai vēlaties izdzēst publiskās atslēgas?
 refresh-all-question = Jūs neatlasījāt nevienu atslēgu. Vai vēlaties atsvaidzināt VISAS atslēgas?
-key-man-button-export-sec-key = Eksportēt &slepenās atslēgas
-key-man-button-export-pub-key = Eksportēt tikai &publiskās atslēgas
+key-man-button-export-sec-key = Izgūt &slepenās atslēgas
+key-man-button-export-pub-key = Izgūt tikai &publiskās atslēgas
 key-man-button-refresh-all = &Atsvaidzināt visas atslēgas
 key-man-loading-keys = Ielādē atslēgas, lūdzu, uzgaidiet…
 ascii-armor-file = ASCII bruņotie faili (* .asc)
