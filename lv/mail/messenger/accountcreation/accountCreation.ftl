@@ -27,7 +27,7 @@ bad-response-content-error = Slikts atbildes saturs
 
 ## readFromXML.sys.mjs
 
-no-email-provider-error = Iestatījumu XML failā nav epasta konta iestatījumu.
+no-email-provider-error = Iestatījumu XML datne nesatur e-pasta konta konfigurāciju.
 outgoing-not-smtp-error = Izejošajam serverim ir jābūt SMTP
 
 ## ConfigVerifier.sys.mjs
