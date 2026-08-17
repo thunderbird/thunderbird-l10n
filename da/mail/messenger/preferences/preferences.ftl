@@ -600,6 +600,7 @@ remote-content-label =
 exceptions-button =
     .label = Undtagelser…
     .accesskey = n
+remote-content-privacy-info = Læs mere om problemer med privatliv i forbindelse med eksternt indhold
 remote-content-info =
     .value = Læs mere om problemer med privatliv i forbindelse med eksternt indhold
 web-content = Webindhold
