@@ -21,7 +21,7 @@ update-restarting = Pārstartē…
 # Variables:
 #   $channel (String): description of the update channel (e.g. "release", "beta", "nightly" etc.)
 channel-description = Šobrīd jūs izmantojat <span data-l10n-name="current-channel">{ $channel }</span> atjaunojumu kanālu.
-warning-desc-version = { -brand-short-name } ir eksperimentāls un var būt nestabils.
+warning-desc-version = { -brand-short-name } ir izmēģinājuma un var darboties ar traucējumiem.
 warning-desc-telemetry = Tas automātiski nosūta informāciju par veiktspēju, aparatūru, lietošanu un pielāgojumiem uz { -vendor-short-name } lai palīdzētu { -brand-short-name } padarīt labāku.
 community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> ir <a data-l10n-name="community-exp-credits-link">globāla kopiena</a>, kas kopīgi strādā, lai tīmeklis būtu atvērts, publisks un pieejams visiem.
 community-desc = { -brand-short-name } izstrādā<a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a>, kura<a data-l10n-name="community-credits-link">globālā kopiena</a>, kas kopīgi strādā, lai tīmeklis būtu atvērts, publisks un pieejams visiem.
