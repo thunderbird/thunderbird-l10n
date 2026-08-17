@@ -292,6 +292,7 @@ threadpane-column-label-unread-button =
     .label = Čitanski status
 threadpane-cell-read-status =
     .aria-label = Čitanski status
+threadpane-new-cell-label = Nowy
 threadpane-read-cell-label = Přečitane
 threadpane-unread-cell-label = Nječitane
 threadpane-column-header-a11y-sender =
