@@ -607,6 +607,7 @@ remote-content-label =
 exceptions-button =
     .label = Izjeme …
     .accesskey = z
+remote-content-privacy-info = Več o vprašanjih zasebnosti oddaljene vsebine
 remote-content-info =
     .value = Več o vprašanjih zasebnosti oddaljene vsebine
 web-content = Spletna vsebina
