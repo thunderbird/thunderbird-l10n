@@ -378,6 +378,7 @@ account-hub-exchange-type-account-type = Vrsta računa
 account-hub-card-graph-title = Microsoft Graph
 account-hub-card-graph-description = Microsoft Graph je sodobna metoda povezovanja za Microsoft 365.
 account-hub-card-ews-title = Spletne storitve Exchange
+account-hub-card-ews-tag = Starejše
 account-hub-exchange-type-username = Uporabniško ime
 account-hub-exchange-type-username-hint = Običajno e-poštni naslov ali UPN storitve Active Directory.
 account-hub-exchange-type-authentication = Način overitve
