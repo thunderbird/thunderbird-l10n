@@ -535,6 +535,7 @@ remote-content-label =
 exceptions-button =
     .label = Excepcions…
     .accesskey = E
+remote-content-privacy-info = Més informació sobre els problemes de privadesa del contingut remot
 remote-content-info =
     .value = Més informació sobre els problemes de privadesa del contingut remot
 web-content = Contingut web
@@ -643,6 +644,12 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     Les decisions automàtiques es poden alterar activant o desactivant manualment el xifratge en redactar un missatge.
     Nota: el xifratge sempre s'activa automàticament quan es respon a un missatge xifrat.
+
+## DoH Section
+
+
+## Keyservers
+
 
 ## Chat Tab
 
@@ -792,3 +799,9 @@ synced-acount-item-filters = Filtres
 synced-acount-item-keys = OpenPGP - S/MIME
 sync-disconnected-text = Sincronitzeu els vostres comptes de correu, llibretes d'adreces, calendaris i identitats en tots els vostres dispositius.
 sync-disconnected-turn-on-sync = Activa la sincronització…
+
+## Mobile QR Export Pane
+
+
+## Appearance Tab
+
