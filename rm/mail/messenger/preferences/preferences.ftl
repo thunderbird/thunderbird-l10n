@@ -572,6 +572,7 @@ remote-content-label =
 exceptions-button =
     .label = Excepziuns…
     .accesskey = E
+remote-content-privacy-info = Ulteriuras infurmaziuns davart cuntegns externs ed il problem per la sfera privata
 remote-content-info =
     .value = Ulteriuras infurmaziuns davart cuntegns externs ed il problem per la sfera privata
 web-content = Cuntegn dal web
@@ -688,6 +689,12 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     Decisiuns automaticas vegnan ignoradas sch'il criptadi vegn activà u deactivà manualmain durant rediger in messadi.
     Avis: Il criptadi è adina activà automaticamain sch'i sa tracta dad ina resposta ad in messadi criptà.
+
+## DoH Section
+
+
+## Keyservers
+
 
 ## Chat Tab
 
