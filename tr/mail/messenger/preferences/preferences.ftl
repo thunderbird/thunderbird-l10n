@@ -611,6 +611,7 @@ remote-content-label =
 exceptions-button =
     .label = Ayrıcalıklar…
     .accesskey = A
+remote-content-privacy-info = Uzaktan içeriklerin gizlilik sorunları hakkında daha fazla bilgi alın
 remote-content-info =
     .value = Uzaktan içeriklerin gizlilik sorunları hakkında daha fazla bilgi alın
 web-content = Web İçeriği
