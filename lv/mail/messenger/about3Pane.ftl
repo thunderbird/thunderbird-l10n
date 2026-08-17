@@ -136,6 +136,7 @@ threadpane-column-header-attachments =
     .title = Kārtot pēc pielikumiem
 threadpane-column-label-attachments =
     .label = Pielikumi
+threadpane-new-cell-label = Jauns
 threadpane-column-header-a11y-sender =
     .aria-label = No
 threadpane-column-header-sender = No

@@ -257,6 +257,7 @@ account-hub-oauth-unsupported-title = Necesită configurare suplimentară
 # Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
 account-hub-oauth-unsupported-description = { -brand-short-name } nu poate configura automat OAuth2 pentru această denumire de gazdă. Selectează Configurare avansată pentru crearea contului, apoi finalizează setările din Setări cont. <a data-l10n-name="oauth-support-link">Obține ajutor pentru configurarea OAuth2.</a>
+account-hub-username-help-text = Adesea, adresa ta de e-mail completă
 account-hub-notification-show-more = Afișează mai multe
 account-hub-notification-show-less = Arată mai puțin
 account-hub-email-setup-header = Adaugă adresa de e-mail

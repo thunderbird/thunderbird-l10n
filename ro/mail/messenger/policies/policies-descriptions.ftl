@@ -35,6 +35,7 @@ policy-DisableFormHistory = Nu memora istoricul căutărilor și formularelor.
 policy-DisableMasterPasswordCreation = Dacă este adevărat, nu se poate crea o parolă generală.
 policy-DisablePasswordReveal = Nu permite afișarea parolelor în datele de autentificare salvate.
 policy-DisableProfileImport = Dezactivează comanda de meniu pentru importul de date din alte aplicații.
+policy-DisableExperimentalFeatures = Dezactivează funcționalitățile experimentale din Thunderbird.
 policy-DisableQRExport = Dezactivează generarea codului QR pentru exportul setărilor și datelor de autentificare ale contului.
 policy-DisableSafeMode = Dezactivează funcționalitatea pentru repornire în Modul de siguranță. Notă: tasta Shift pentru intrarea în Modul de siguranță poate fi dezactivată numai din Windows, folosind politicile de grup.
 policy-DisableSecurityBypass = Împiedică utilizatorul să ocolească anumite avertismente de securitate.
