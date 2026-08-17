@@ -285,6 +285,7 @@ threadpane-column-label-unread-button =
     .label = Stare de citire
 threadpane-cell-read-status =
     .aria-label = Stare de citire
+threadpane-new-cell-label = Nou
 threadpane-read-cell-label = Citite
 threadpane-unread-cell-label = Necitite
 threadpane-column-header-a11y-sender =

@@ -25,20 +25,20 @@ oauth2-authorization-endpoint-label =
     .value = 授權端點：
     .accesskey = h
 oauth2-token-endpoint-label =
-    .value = Token 端點:
-    .accesskey = T
+    .value = Token 端點：
+    .accesskey = t
 oauth2-scopes-label =
-    .value = Scopes:
-    .accesskey = S
+    .value = Scopes：
+    .accesskey = s
 oauth2-redirection-endpoint-label =
     .value = 重新導向 URI：
-    .accesskey = 重
+    .accesskey = r
 oauth2-use-pkce =
     .label = 使用 PKCE
-    .accesskey = 使
+    .accesskey = k
 oauth2-use-system-browser =
     .label = 使用系統網頁瀏覽器
-    .accesskey = 使
+    .accesskey = b
 ews-url-label =
     .value = 主機網址：
     .accesskey = h
@@ -65,4 +65,4 @@ ews-oauthscopes-label =
 #     the OAuth2 settings.
 # Shown in Account Settings below the authentication method when OAuth2
 # settings are provided by an extension.
-oauth-provider-extension-info = OAuth2 設定由 <a data-l10n-name="extension">{ $extensionName }</a> 擴充套件提供
+oauth-provider-extension-info = 由 <a data-l10n-name="extension">{ $extensionName }</a> 擴充套件提供的 OAuth2 設定
