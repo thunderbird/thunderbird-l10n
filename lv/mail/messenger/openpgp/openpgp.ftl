@@ -395,7 +395,7 @@ export-keypair-to-file = Izgūt slepeno un publisko atslēgu datnē
 export-secret-key = Vai saglabātajā OpenPHP atslēgu datnē iekļaut slepeno atslēgu?
 save-keys-ok = Atslēgas tika sekmīgi saglabātas
 save-keys-failed = Atslēgu saglabāšana neizdevās
-default-pub-key-filename = Eksportētās-publiskās-atslēgas
+default-pub-key-filename = Izgūtās publiskās atslēgas
 default-pub-sec-key-filename = Slepeno-atslēgu-dublējums
 refresh-key-warn = Brīdinājums: atkarībā no atslēgu skaita un savienojuma ātruma visu atslēgu atsvaidzināšana var būt diezgan ilgs process!
 preview-failed = Neizdevās nolasīt publiskās atslēgas failu.
@@ -407,9 +407,9 @@ dlg-button-delete = &Dzēst
 ## Account settings export output
 
 openpgp-export-public-success = <b>Publiskā atslēga sekmīgi izgūta.</b>
-openpgp-export-public-fail = <b>Neizdevās eksportēt atlasīto publisko atslēgu!</b>
+openpgp-export-public-fail = <b>Neizdevās izgūt atlasīto publisko atslēgu.</b>
 openpgp-export-secret-success = <b>Slepenā atslēga sekmīgi izgūta.</b>
-openpgp-export-secret-fail = <b>Neizdevās eksportēt atlasīto slepeno atslēgu!</b>
+openpgp-export-secret-fail = <b>Neizdevās izgūt atlasīto slepeno atslēgu.</b>
 
 ## Strings in keyObj.sys.mjs
 ## Variables:
