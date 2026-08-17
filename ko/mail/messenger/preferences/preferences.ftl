@@ -597,6 +597,7 @@ remote-content-label =
 exceptions-button =
     .label = 예외…
     .accesskey = E
+remote-content-privacy-info = 외부 컨텐츠의 개인정보 이슈에 대해 더 알아보기
 remote-content-info =
     .value = 외부 컨텐츠의 개인정보 이슈에 대해 더 알아보기
 web-content = 웹 내용
