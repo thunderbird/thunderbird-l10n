@@ -35,6 +35,7 @@ policy-DisableFormHistory = Отключает запоминание истор
 policy-DisableMasterPasswordCreation = Не позволяет устанавливать мастер-пароль, если установлено значение true.
 policy-DisablePasswordReveal = Не позволяет просматривать пароли у сохранённых логинов.
 policy-DisableProfileImport = Отключает команду меню для импорта данных из других приложений.
+policy-DisableExperimentalFeatures = Отключает экспериментальные функции в Thunderbird.
 policy-DisableQRExport = Отключает генерацию QR-кода для экспорта параметров учётной записи и учётных данных.
 policy-DisableSafeMode = Отключает функцию для перезапуска в безопасном режиме. Примечание: Клавишу Shift для входа в безопасный режим можно отключить только в Windows с помощью групповой политики.
 policy-DisableSecurityBypass = Не даёт пользователю игнорировать определённые предупреждения системы безопасности.
