@@ -257,7 +257,7 @@ account-hub-oauth-unsupported-title = È richiesta una configurazione aggiuntiva
 # Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
 account-hub-oauth-unsupported-description = { -brand-short-name } non può configurare automaticamente OAuth2 per questo nome host. Selezionare Configurazione avanzata per creare l’account, quindi completare la configurazione da Impostazioni account. <a data-l10n-name="oauth-support-link">Richiedi assistenza per la configurazione di OAuth2.</a>
-account-hub-username-help-text = Spesso il tuo indirizzo email completo
+account-hub-username-help-text = Di solito è il tuo indirizzo email completo
 account-hub-notification-show-more = Mostra dettagli
 account-hub-notification-show-less = Nascondi dettagli
 account-hub-email-setup-header = Aggiungi il tuo indirizzo email
