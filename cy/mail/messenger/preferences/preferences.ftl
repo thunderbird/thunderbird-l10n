@@ -611,6 +611,7 @@ remote-content-label =
 exceptions-button =
     .label = Eithriadau…
     .accesskey = E
+remote-content-privacy-info = Dysgu rhagor am faterion preifatrwydd cynnwys pell
 remote-content-info =
     .value = Dysgu rhagor am faterion preifatrwydd cynnwys pell
 web-content = Cynnwys Gwe
