@@ -15,6 +15,30 @@ outgoing-server-name = 寄件伺服器：
 outgoing-server-edit =
     .label = 編輯寄件伺服器…
     .accesskey = o
+oauth2-use-custom-details =
+    .label = 使用自訂的 OAuth2 設定
+    .accesskey = 使
+oauth2-client-id-label =
+    .value = 用戶端 ID:
+    .accesskey = 用
+oauth2-authorization-endpoint-label =
+    .value = 授權端點:
+    .accesskey = 授
+oauth2-token-endpoint-label =
+    .value = Token 端點:
+    .accesskey = T
+oauth2-scopes-label =
+    .value = Scopes:
+    .accesskey = S
+oauth2-redirection-endpoint-label =
+    .value = 重新導向 URI：
+    .accesskey = 重
+oauth2-use-pkce =
+    .label = 使用 PKCE
+    .accesskey = 使
+oauth2-use-system-browser =
+    .label = 使用系統網頁瀏覽器
+    .accesskey = 使
 ews-url-label =
     .value = 主機網址：
     .accesskey = h
@@ -36,3 +60,9 @@ ews-endpointhost-label =
 ews-oauthscopes-label =
     .value = OAuth 範圍：
     .accesskey = s
+# Variables:
+#   $extensionName (String) - The display name of the extension providing
+#     the OAuth2 settings.
+# Shown in Account Settings below the authentication method when OAuth2
+# settings are provided by an extension.
+oauth-provider-extension-info = OAuth2 設定由 <a data-l10n-name="extension">{ $extensionName }</a> 擴充套件提供

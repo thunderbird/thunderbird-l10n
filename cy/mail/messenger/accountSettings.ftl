@@ -15,6 +15,30 @@ outgoing-server-name = Gweinydd Anfon:
 outgoing-server-edit =
     .label = Golygu gweinydd anfon…
     .accesskey = G
+oauth2-use-custom-details =
+    .label = Defnyddiwch osodiadau OAuth2 personol
+    .accesskey = D
+oauth2-client-id-label =
+    .value = ID Cleient:
+    .accesskey = I
+oauth2-authorization-endpoint-label =
+    .value = Terfynbwynt awdurdodiad:
+    .accesskey = T
+oauth2-token-endpoint-label =
+    .value = Terfynbwynt tocyn:
+    .accesskey = T
+oauth2-scopes-label =
+    .value = Cwmpas:
+    .accesskey = C
+oauth2-redirection-endpoint-label =
+    .value = Ailgyfeirio URI:
+    .accesskey = A
+oauth2-use-pkce =
+    .label = Defnyddiwch PKCE
+    .accesskey = D
+oauth2-use-system-browser =
+    .label = Defnyddiwch borwr gwe system
+    .accesskey = D
 ews-url-label =
     .value = URL gwesteiwr:
     .accesskey = U
@@ -36,3 +60,9 @@ ews-endpointhost-label =
 ews-oauthscopes-label =
     .value = Cwmpasau OAuth:
     .accesskey = C
+# Variables:
+#   $extensionName (String) - The display name of the extension providing
+#     the OAuth2 settings.
+# Shown in Account Settings below the authentication method when OAuth2
+# settings are provided by an extension.
+oauth-provider-extension-info = Gosodiadau OAuth2 a ddarperir gan estyniad: <a data-l10n-name="extension">{ $extensionName }</a>

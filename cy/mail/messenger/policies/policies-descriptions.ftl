@@ -35,6 +35,7 @@ policy-DisableFormHistory = Peidio cofio chwilio a hanes ffurflenni.
 policy-DisableMasterPasswordCreation = Os true, nid oes modd creu prif gyfrinair.
 policy-DisablePasswordReveal = Peidio gadael i gyfrineiriau gael eu datgelu mewn mewngofnodion wedi'u cadw.
 policy-DisableProfileImport = Analluogi'r gorchymyn dewislen i Fewnforio data o raglen arall.
+policy-DisableExperimentalFeatures = Analluogi nodweddion arbrofol yn Thunderbird.
 policy-DisableQRExport = Analluogwch cynhyrchu'r cod QR i allforio gosodiadau cyfrif a manylion adnabod.
 policy-DisableSafeMode = Analluogi'r nodwedd i ailgychwyn yn y Modd Diogel. Sylw: dim ond drwy Bolisi Grŵp Windows y mae modd analluogi'r defnydd o fysell Shift i fynd i'r Modd Diogel.
 policy-DisableSecurityBypass = Rhwystro'r defnyddiwr rhag osgoi rhai rhybuddion diogelwch.

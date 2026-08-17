@@ -282,6 +282,7 @@ threadpane-column-label-unread-button =
     .label = Estado de lectura
 threadpane-cell-read-status =
     .aria-label = Estado de lectura
+threadpane-new-cell-label = Nuevo
 threadpane-read-cell-label = Leídos
 threadpane-unread-cell-label = No leídos
 threadpane-column-header-a11y-sender =

@@ -302,6 +302,7 @@ threadpane-column-label-unread-button =
     .label = Statws darllen
 threadpane-cell-read-status =
     .aria-label = Statws darllen
+threadpane-new-cell-label = Newydd
 threadpane-read-cell-label = Darllenwyd
 threadpane-unread-cell-label = Heb eu Darllen
 threadpane-column-header-a11y-sender =

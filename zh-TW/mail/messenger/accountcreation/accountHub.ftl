@@ -119,6 +119,8 @@ account-hub-ssl-noencryption-option =
 account-hub-auth-no-authentication-option =
     .label = 不認證
 account-hub-auth-label = 認證方式
+account-hub-select-option =
+    .label = 選擇其中一個選項
 account-hub-username-label = 使用者名稱
 account-hub-username-warning-icon = 必須輸入使用者名稱
 account-hub-address-book-username-error-text = 請輸入使用者名稱
@@ -255,6 +257,7 @@ account-hub-oauth-unsupported-title = 需要額外設定
 # Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
 account-hub-oauth-unsupported-description = { -brand-short-name } 無法為此主機名稱自動設定 OAuth2。請選擇「進階設定」來建立帳號，然後到「帳號設定」當中完成設定。<a data-l10n-name="oauth-support-link">取得 OAuth2 的設定協助。</a>
+account-hub-username-help-text = 完整的電子郵件地址通常會包含您的完整電子郵件地址
 account-hub-notification-show-more = 顯示更多
 account-hub-notification-show-less = 顯示更少
 account-hub-email-setup-header = 新增您的電子郵件地址

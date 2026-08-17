@@ -15,6 +15,30 @@ outgoing-server-name = Servidor saliente:
 outgoing-server-edit =
     .label = Editar servidor saliente…
     .accesskey = o
+oauth2-use-custom-details =
+    .label = Usar configuración personalizada de OAuth2
+    .accesskey = U
+oauth2-client-id-label =
+    .value = ID de cliente:
+    .accesskey = I
+oauth2-authorization-endpoint-label =
+    .value = Punto final de autorización:
+    .accesskey = P
+oauth2-token-endpoint-label =
+    .value = Punto final del token:
+    .accesskey = P
+oauth2-scopes-label =
+    .value = Alcances:
+    .accesskey = A
+oauth2-redirection-endpoint-label =
+    .value = URI de redirección:
+    .accesskey = U
+oauth2-use-pkce =
+    .label = Usar PKCE
+    .accesskey = U
+oauth2-use-system-browser =
+    .label = Usar el navegador web del sistema
+    .accesskey = U
 ews-url-label =
     .value = URL del servidor:
     .accesskey = U
@@ -36,3 +60,9 @@ ews-endpointhost-label =
 ews-oauthscopes-label =
     .value = Alcances de OAuth:
     .accesskey = s
+# Variables:
+#   $extensionName (String) - The display name of the extension providing
+#     the OAuth2 settings.
+# Shown in Account Settings below the authentication method when OAuth2
+# settings are provided by an extension.
+oauth-provider-extension-info = Configuración de OAuth2 proporcionada por la extensión: <a data-l10n-name="extension">{ $extensionName }</a>
