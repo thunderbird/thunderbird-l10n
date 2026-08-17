@@ -549,6 +549,7 @@ remote-content-label =
 exceptions-button =
     .label = Винятки…
     .accesskey = В
+remote-content-privacy-info = Докладніше про питання приватності й віддалений вміст
 remote-content-info =
     .value = Докладніше про питання приватності й віддалений вміст
 web-content = Вебвміст
@@ -665,6 +666,12 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     Автоматичні рішення можна перевизначити, увімкнувши або вимкнувши шифрування вручну під час написання повідомлення.
     Примітка: шифрування завжди вмикається автоматично під час відповіді на зашифроване повідомлення.
+
+## DoH Section
+
+
+## Keyservers
+
 
 ## Chat Tab
 
@@ -878,3 +885,6 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Включно з паролями
 qr-export-summary-passwords-excluded = За винятком паролів
 qr-export-more-accounts = Експортувати інші облікові записи
+
+## Appearance Tab
+

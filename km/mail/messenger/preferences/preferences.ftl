@@ -331,6 +331,7 @@ remote-content-label =
 exceptions-button =
     .label = ករណី​លើកលែង…
     .accesskey = E
+remote-content-privacy-info = ស្វែងយល់​បន្ថែម​អំពី​បញ្ហា​ភាព​ឯកជន​នៃ​មាតិកា​ពី​ចម្ងាយ
 remote-content-info =
     .value = ស្វែងយល់​បន្ថែម​អំពី​បញ្ហា​ភាព​ឯកជន​នៃ​មាតិកា​ពី​ចម្ងាយ
 web-content = Web Content
@@ -395,6 +396,12 @@ ocsp-label =
     .label = ម៉ាស៊ីនមេ​​ឆ្លើយតប OCSP ដើម្បី​បញ្ជាក់​ភាព​ត្រឹមត្រូវ​របស់វិញ្ញាបនបត្រ​បច្ចុប្បន្ន
     .accesskey = ម
 
+## DoH Section
+
+
+## Keyservers
+
+
 ## Chat Tab
 
 startup-label =
@@ -449,6 +456,9 @@ chat-custom-sound-label =
 chat-browse-sound-button =
     .label = រក​មើល…
     .accesskey = B
+
+## Settings UI Search Results
+
 
 ## Sync Tab
 

@@ -499,6 +499,7 @@ remote-content-label =
 exceptions-button =
     .label = Tisuraf...
     .accesskey = r
+remote-content-privacy-info = Issin ugar ɣef wuguren n tbaḍnit n ugbur anmeggag
 remote-content-info =
     .value = Issin ugar ɣef wuguren n tbaḍnit n ugbur anmeggag
 web-content = Agbur Web
@@ -578,6 +579,12 @@ certificate-button =
 security-devices-button =
     .label = Ibenkan n tɣellist…
     .accesskey = k
+
+## DoH Section
+
+
+## Keyservers
+
 
 ## Chat Tab
 
@@ -721,3 +728,9 @@ show-synced-item-calendar = Iwitayen
 show-synced-item-identity = Timagin
 show-synced-item-passwords = Awalen uffiren
 show-synced-change = Snifel...
+
+## Mobile QR Export Pane
+
+
+## Appearance Tab
+

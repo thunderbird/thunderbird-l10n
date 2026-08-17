@@ -477,6 +477,7 @@ remote-content-label =
 exceptions-button =
     .label = Išimtys…
     .accesskey = š
+remote-content-privacy-info = Sužinoti daugiau apie privatumo problemas, leidžiant intarpus iš tinklo
 remote-content-info =
     .value = Sužinoti daugiau apie privatumo problemas, leidžiant intarpus iš tinklo
 web-content = Saityno turinys
@@ -556,6 +557,12 @@ certificate-button =
 security-devices-button =
     .label = Saugumo priemonės…
     .accesskey = D
+
+## DoH Section
+
+
+## Keyservers
+
 
 ## Chat Tab
 
@@ -645,6 +652,12 @@ chat-variant-label =
 search-results-header = Paieškos rezultatai
 search-results-help-link = Reikia pagalbos? Aplankykite <a data-l10n-name="url">„{ -brand-short-name }“</a>
 
+## Sync Tab
+
+
 ## Mobile QR Export Pane
 
 qr-export-start-export = Eksportuoti
+
+## Appearance Tab
+

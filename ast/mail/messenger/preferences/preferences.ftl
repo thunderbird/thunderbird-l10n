@@ -9,6 +9,9 @@ pane-chat-title = Chat
 category-chat =
     .tooltiptext = Chat
 
+## OS Authentication dialog
+
+
 ## General Tab
 
 focus-search-shortcut =
@@ -198,6 +201,13 @@ delete-tag-button =
     .label = Desaniciar
     .accesskey = r
 
+## Note: This will concatenate to "After displaying for [___] seconds",
+## using (mark-read-delay) and a number (seconds-label).
+
+
+##
+
+
 ## Compose Tab
 
 forward-label =
@@ -288,6 +298,7 @@ remote-content-label =
 exceptions-button =
     .label = Esceiciones…
     .accesskey = n
+remote-content-privacy-info = Saber más tocante a los problemas de privacidá del conteníu remotu
 remote-content-info =
     .value = Saber más tocante a los problemas de privacidá del conteníu remotu
 web-content = Conteníu web
@@ -348,6 +359,12 @@ ocsp-label =
     .label = Entrugar a los sirvidores respondedores de OCSP pa confirmar la validez actual de los certificaos
     .accesskey = u
 
+## DoH Section
+
+
+## Keyservers
+
+
 ## Chat Tab
 
 startup-label =
@@ -402,3 +419,15 @@ chat-custom-sound-label =
 chat-browse-sound-button =
     .label = Desaminar…
     .accesskey = s
+
+## Settings UI Search Results
+
+
+## Sync Tab
+
+
+## Mobile QR Export Pane
+
+
+## Appearance Tab
+

@@ -694,6 +694,7 @@ remote-content-label =
 exceptions-button =
     .label = Výjimky…
     .accesskey = m
+remote-content-privacy-info = Zjistit více o problémech se soukromím u vzdáleného obsahu
 remote-content-info =
     .value = Zjistit více o problémech se soukromím u vzdáleného obsahu
 web-content = Webový obsah

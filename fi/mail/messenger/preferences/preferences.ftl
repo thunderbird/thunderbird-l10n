@@ -578,6 +578,7 @@ remote-content-label =
 exceptions-button =
     .label = Poikkeukset…
     .accesskey = k
+remote-content-privacy-info = Lue lisää etäsisällön vaikutuksista yksityisyydensuojaan
 remote-content-info =
     .value = Lue lisää etäsisällön vaikutuksista yksityisyydensuojaan
 web-content = Verkkosisältö

@@ -611,6 +611,7 @@ remote-content-label =
 exceptions-button =
     .label = Ережелерден бөлек…
     .accesskey = О
+remote-content-privacy-info = Қашықтағы құраманың жекелік мәселелері жөнінде көбірек білу
 remote-content-info =
     .value = Қашықтағы құраманың жекелік мәселелері жөнінде көбірек білу
 web-content = Веб құрамасы

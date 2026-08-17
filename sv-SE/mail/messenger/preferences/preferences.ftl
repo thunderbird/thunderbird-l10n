@@ -607,6 +607,7 @@ remote-content-label =
 exceptions-button =
     .label = Undantag…
     .accesskey = U
+remote-content-privacy-info = Läs mer om integritetsfrågor för fjärrinnehåll
 remote-content-info =
     .value = Läs mer om integritetsfrågor för fjärrinnehåll
 web-content = Webbinnehåll

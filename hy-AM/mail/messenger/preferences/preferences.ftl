@@ -459,6 +459,7 @@ remote-content-label =
 exceptions-button =
     .label = Բացառություններ...
     .accesskey = E
+remote-content-privacy-info = Մանրամասներ՝ հեռակա բովանդակության անվտանգության մասին
 remote-content-info =
     .value = Մանրամասներ՝ հեռակա բովանդակության անվտանգության մասին
 web-content = Վեբ բովանդակություն
@@ -529,6 +530,9 @@ certificate-button =
 security-devices-button =
     .label = Անվտանգության սարքեր...
     .accesskey = D
+
+## DoH Section
+
 
 ## Keyservers
 
@@ -629,3 +633,6 @@ show-synced-item-address = Հասցեագրքեր
 ## Mobile QR Export Pane
 
 qr-export-scan-step2 = Անցնել Կարգավորումներին
+
+## Appearance Tab
+

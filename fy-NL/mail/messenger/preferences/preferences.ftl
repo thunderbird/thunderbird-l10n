@@ -611,6 +611,7 @@ remote-content-label =
 exceptions-button =
     .label = Utsûnderingen…
     .accesskey = U
+remote-content-privacy-info = Mear ynfo oer de privacysaken of ynbedde ynhâld
 remote-content-info =
     .value = Mear ynfo oer de privacysaken of ynbedde ynhâld
 web-content = Webynhâld

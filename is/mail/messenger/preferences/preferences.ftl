@@ -607,6 +607,7 @@ remote-content-label =
 exceptions-button =
     .label = Undanþágur…
     .accesskey = U
+remote-content-privacy-info = Frekari upplýsingar um friðhelgisvandamál í fjartengdu efni
 remote-content-info =
     .value = Frekari upplýsingar um friðhelgisvandamál í fjartengdu efni
 web-content = Vefur

@@ -60,6 +60,9 @@ update-in-progress-ok-button = &Tich'aqïx
 # method of closing the UI will not discard the update.
 update-in-progress-cancel-button = &Titikïr chik el
 
+## OS Authentication dialog
+
+
 ## General Tab
 
 focus-search-shortcut =
@@ -420,6 +423,7 @@ remote-content-label =
 exceptions-button =
     .label = Taq man relik ta…
     .accesskey = m
+remote-content-privacy-info = Tetamäx ch'aqa' chik chi kij ri taq ruk'ayewal richinanem näj rupam
 remote-content-info =
     .value = Tetamäx ch'aqa' chik chi kij ri taq ruk'ayewal richinanem näj rupam
 web-content = Ajk'amaya'l Rupam
@@ -490,6 +494,12 @@ certificate-button =
 security-devices-button =
     .label = Taq Rokisab'al Jikomal…
     .accesskey = R
+
+## DoH Section
+
+
+## Keyservers
+
 
 ## Chat Tab
 
@@ -573,3 +583,15 @@ no-preview-description = Man okel ta re wachinïk re' o man wachel ta wakami (ch
 chat-variant-label =
     .value = Rujalik:
     .accesskey = R
+
+## Settings UI Search Results
+
+
+## Sync Tab
+
+
+## Mobile QR Export Pane
+
+
+## Appearance Tab
+

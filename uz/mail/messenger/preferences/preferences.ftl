@@ -12,6 +12,9 @@ pane-calendar-title = Taqvim
 category-calendar =
     .tooltiptext = Taqvim
 
+## OS Authentication dialog
+
+
 ## General Tab
 
 focus-search-shortcut =
@@ -325,6 +328,7 @@ remote-content-label =
 exceptions-button =
     .label = Istisnolar...
     .accesskey = I
+remote-content-privacy-info = Masofadagi sayt maxfiylik muammolari haqida batafsil ma’lumot
 remote-content-info =
     .value = Masofadagi sayt maxfiylik muammolari haqida batafsil ma’lumot
 web-content = Veb sayt
@@ -385,6 +389,12 @@ ocsp-label =
     .label = OCSP javob berish serverlari sertifikatlarining joriy yaroqliligini tasdiqlash uchun so‘rov jo‘natish
     .accesskey = s
 
+## DoH Section
+
+
+## Keyservers
+
+
 ## Chat Tab
 
 startup-label =
@@ -439,3 +449,15 @@ chat-custom-sound-label =
 chat-browse-sound-button =
     .label = Ko‘rish…
     .accesskey = r
+
+## Settings UI Search Results
+
+
+## Sync Tab
+
+
+## Mobile QR Export Pane
+
+
+## Appearance Tab
+

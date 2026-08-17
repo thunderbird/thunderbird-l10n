@@ -431,6 +431,7 @@ remote-content-label =
 exceptions-button =
     .label = Nemedennoù…
     .accesskey = e
+remote-content-privacy-info = Gouzout hiroc'h a-zivout kudennoù an endalc'hadoù a-bell a-fet buhez prevez
 remote-content-info =
     .value = Gouzout hiroc'h a-zivout kudennoù an endalc'hadoù a-bell a-fet buhez prevez
 web-content = Endalc'had Web
@@ -499,6 +500,12 @@ security-devices-button =
     .label = Trevnadoù diogelroez…
     .accesskey = T
 account-settings = Arventennoù ar gont
+
+## DoH Section
+
+
+## Keyservers
+
 
 ## Chat Tab
 
@@ -585,6 +592,15 @@ chat-variant-label =
     .value = Variezon:
     .accesskey = V
 
+## Settings UI Search Results
+
+
 ## Sync Tab
 
 sync-pane-cancel = Dilezel
+
+## Mobile QR Export Pane
+
+
+## Appearance Tab
+

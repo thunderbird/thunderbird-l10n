@@ -418,6 +418,7 @@ remote-content-label =
 exceptions-button =
     .label = Eisceachtaí…
     .accesskey = E
+remote-content-privacy-info = Tuilleadh eolais faoin phríobháideacht agus ábhar i gcéin
 remote-content-info =
     .value = Tuilleadh eolais faoin phríobháideacht agus ábhar i gcéin
 web-content = Inneachar Gréasáin
@@ -477,6 +478,12 @@ certificate-ask =
 ocsp-label =
     .label = Iarr ar fhreastalaí freagróra OCSP bailíocht teastais a dheimhniú
     .accesskey = O
+
+## DoH Section
+
+
+## Keyservers
+
 
 ## Chat Tab
 
@@ -544,3 +551,12 @@ preview-label = Réamhamharc:
 ## Settings UI Search Results
 
 search-results-header = Torthaí an Chuardaigh
+
+## Sync Tab
+
+
+## Mobile QR Export Pane
+
+
+## Appearance Tab
+

@@ -12,6 +12,9 @@ pane-calendar-title = Calendar
 category-calendar =
     .tooltiptext = Calendar
 
+## OS Authentication dialog
+
+
 ## General Tab
 
 focus-search-shortcut =
@@ -170,6 +173,13 @@ delete-tag-button =
     .label = Delete
     .accesskey = D
 
+## Note: This will concatenate to "After displaying for [___] seconds",
+## using (mark-read-delay) and a number (seconds-label).
+
+
+##
+
+
 ## Compose Tab
 
 forward-label =
@@ -257,6 +267,7 @@ remote-content-label =
 exceptions-button =
     .label = Exceptions…
     .accesskey = E
+remote-content-privacy-info = Learn more about the privacy issues of remote content
 remote-content-info =
     .value = Learn more about the privacy issues of remote content
 web-content = Web Content
@@ -311,6 +322,12 @@ certificate-ask =
     .label = Ask me every time
     .accesskey = A
 
+## DoH Section
+
+
+## Keyservers
+
+
 ## Chat Tab
 
 startup-label =
@@ -340,3 +357,15 @@ away-message-label =
 send-typing-label =
     .label = Send typing notifications in conversations
     .accesskey = t
+
+## Settings UI Search Results
+
+
+## Sync Tab
+
+
+## Mobile QR Export Pane
+
+
+## Appearance Tab
+

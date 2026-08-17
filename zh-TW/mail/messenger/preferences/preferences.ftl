@@ -611,6 +611,7 @@ remote-content-label =
 exceptions-button =
     .label = 例外網站…
     .accesskey = E
+remote-content-privacy-info = 了解更多遠端內容的隱私風險
 remote-content-info =
     .value = 了解更多遠端內容的隱私風險
 web-content = 網站內容
