@@ -575,6 +575,7 @@ remote-content-label =
 exceptions-button =
     .label = Salbuespenak…
     .accesskey = e
+remote-content-privacy-info = Urruneko edukiaren pribatutasun-arazoei buruzko argibide gehiago
 remote-content-info =
     .value = Urruneko edukiaren pribatutasun-arazoei buruzko argibide gehiago
 web-content = Web edukia
@@ -716,6 +717,9 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = Pertsonalizatua
     .accesskey = P
+
+## Keyservers
+
 
 ## Chat Tab
 
