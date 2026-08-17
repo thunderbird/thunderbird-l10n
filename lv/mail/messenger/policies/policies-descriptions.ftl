@@ -32,6 +32,7 @@ policy-DisableFormHistory = Neatcerēties meklēšanas un veidlapu vēsturi.
 policy-DisableMasterPasswordCreation = Ja iestatīts, nevar iestatīt galveno paroli.
 policy-DisablePasswordReveal = Liegt izpaust paroles saglabātos pieteikšanās datos.
 policy-DisableProfileImport = Liegt izvēlnes komandu, kas importē datus no citas lietotnes.
+policy-DisableExperimentalFeatures = Atspējot Thunderbird izmēģinājuma iespējas
 policy-DisableSafeMode = Liegt funkciju, kas pārstartē drošajā režīmā. Piezīme. Shift taustiņu, lai ieietu drošajā režīmā, Windows sistēmā var atspējot tikai, izmantojot grupas politiku.
 policy-DisableSecurityBypass = Liegt lietotājam apiet noteiktus drošības brīdinājumus.
 policy-DisableSystemAddonUpdate = Liegt { -brand-short-name } atjaunot un uzstādīt sistēmas papildinājumus.

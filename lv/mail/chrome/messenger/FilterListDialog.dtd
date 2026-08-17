@@ -1,8 +1,8 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-<!ENTITY window.title "Vēstuļu filtri">
-<!ENTITY nameColumn.label "Filtra nosaukums">
+<!ENTITY window.title "Ziņojumu atsijātāji">
+<!ENTITY nameColumn.label "Atsijātāja nosaukums">
 <!ENTITY activeColumn.label "Ieslēgts">
 <!ENTITY newButton.label "Jauns...">
 <!ENTITY newButton.accesskey "J">
@@ -14,26 +14,26 @@
 <!ENTITY deleteButton.accesskey "D">
 <!ENTITY reorderTopButton "Pārvietot uz augšu">
 <!ENTITY reorderTopButton.accessKey "a">
-<!ENTITY reorderTopButton.toolTip "Pārkārtot filtru, lai tas darbotos pirms visiem citiem">
+<!ENTITY reorderTopButton.toolTip "Pārkārtot atsijātāju, lai tas darbotos pirms visiem citiem">
 <!ENTITY reorderUpButton.label "Pārvietot augšup">
 <!ENTITY reorderUpButton.accesskey "a">
 <!ENTITY reorderDownButton.label "Pārvietot lejup">
 <!ENTITY reorderDownButton.accesskey "l">
 <!ENTITY reorderBottomButton "Pārvietot uz leju">
 <!ENTITY reorderBottomButton.accessKey "l">
-<!ENTITY reorderBottomButton.toolTip "Pārkārtot filtru, lai tas darbotos pēc visiem citiem">
-<!ENTITY filterHeader.label "Ieslēgtie filtri tiek palaisti automātiski zemāk redzamā secībā.">
-<!ENTITY filtersForPrefix.label "Filtri priekš:">
+<!ENTITY reorderBottomButton.toolTip "Pārkārtot atsijātāju, lai tas darbotos pēc visiem citiem">
+<!ENTITY filterHeader.label "Iespējotie atsijātāji tiek automātiski izpildīti zemāk norādītajā secībā.">
+<!ENTITY filtersForPrefix.label "Atsijātāji:">
 <!ENTITY filtersForPrefix.accesskey "F">
-<!ENTITY viewLogButton.label "Filtru žurnāls">
+<!ENTITY viewLogButton.label "Atsijātāju žurnāls">
 <!ENTITY viewLogButton.accesskey "u">
 <!ENTITY runFilters.label "Palaist tagad">
 <!ENTITY runFilters.accesskey "t">
 <!ENTITY stopFilters.label "Apturēt">
 <!ENTITY stopFilters.accesskey "A">
-<!ENTITY folderPickerPrefix.label "Palaist izvēlētos(-os) filtru(-us) uz:">
+<!ENTITY folderPickerPrefix.label "Izpildīt izvēlēto(s) atsijātāju(s) uz:">
 <!ENTITY folderPickerPrefix.accesskey "i">
 <!ENTITY helpButton.label "Palīdzība">
 <!ENTITY helpButton.accesskey "P">
 <!ENTITY closeCmd.key "W">
-<!ENTITY searchBox.emptyText "Meklēt filtrus pēc nosaukuma…">
+<!ENTITY searchBox.emptyText "Meklēt atsijātājus pēc nosaukuma…">

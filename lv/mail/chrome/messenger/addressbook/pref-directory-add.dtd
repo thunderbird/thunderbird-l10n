@@ -19,7 +19,7 @@
 <!ENTITY Advanced.tab "Paplašināti">
 <!ENTITY portNumber.label "Porta numurs: ">
 <!ENTITY portNumber.accesskey "P">
-<!ENTITY searchFilter.label "Meklēšanas filtrs:">
+<!ENTITY searchFilter.label "Meklēšanas atsijātājs: ">
 <!ENTITY searchFilter.accesskey "f">
 <!ENTITY scope.label "Tvērums:">
 <!ENTITY scope.accesskey "v">

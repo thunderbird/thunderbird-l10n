@@ -7,3 +7,16 @@
 
 tree-list-view-column-picker =
     .title = Atlasiet rādāmās kolonnas
+tree-list-view-row-expand-thread-button =
+    .aria-label = Izvērst pavedienu
+tree-list-view-row-collapse-thread-button =
+    .aria-label = Sakļaut pavedienu
+tree-list-view-row-read-status =
+    .alt = Lasīšanas stāvokļa rādītājs
+    .title = Ziņojums izlasīts
+tree-list-view-row-not-read-status =
+    .alt = Neizlasīta stāvokļa rādītājs
+    .title = Ziņojums nav izlasīts
+tree-list-view-row-new-status =
+    .alt = Jauna ziņojuma rādītājs
+    .title = Jauns ziņojums
