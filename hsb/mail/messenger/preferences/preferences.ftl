@@ -611,6 +611,7 @@ remote-content-label =
 exceptions-button =
     .label = Wuwzaća…
     .accesskey = u
+remote-content-privacy-info = Zhońće wjace wo problemach priwatnosće zdaleneho wobsaha
 remote-content-info =
     .value = Zhońće wjace wo problemach priwatnosće zdaleneho wobsaha
 web-content = Webwobsah
