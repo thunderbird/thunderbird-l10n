@@ -475,6 +475,7 @@ remote-content-label =
 exceptions-button =
     .label = Eisgeachdan...
     .accesskey = E
+remote-content-privacy-info = Barrachd fiosrachaidh air ceistean prìobhaideachd a thaobh susbaint chèin
 remote-content-info =
     .value = Barrachd fiosrachaidh air ceistean prìobhaideachd a thaobh susbaint chèin
 web-content = Susbaint-lìn
@@ -554,6 +555,12 @@ certificate-button =
 security-devices-button =
     .label = Uidheaman tèarainteachd...
     .accesskey = d
+
+## DoH Section
+
+
+## Keyservers
+
 
 ## Chat Tab
 
@@ -642,3 +649,12 @@ chat-variant-label =
 
 search-results-header = Toraidhean luirg
 search-results-help-link = A bheil cobhair a dhìth ort? Tadhail air <a data-l10n-name="url">Taic { -brand-short-name }</a>
+
+## Sync Tab
+
+
+## Mobile QR Export Pane
+
+
+## Appearance Tab
+
