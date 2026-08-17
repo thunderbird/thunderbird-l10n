@@ -611,6 +611,7 @@ remote-content-label =
 exceptions-button =
     .label = Ngoại lệ…
     .accesskey = E
+remote-content-privacy-info = Tìm hiểu thêm về các vấn đề riêng tư của nội dung từ xa
 remote-content-info =
     .value = Tìm hiểu thêm về các vấn đề riêng tư của nội dung từ xa
 web-content = Nội dung web
