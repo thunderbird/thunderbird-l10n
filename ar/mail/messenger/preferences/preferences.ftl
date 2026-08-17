@@ -42,6 +42,9 @@ confirm-messenger-language-change-button = طبِّق وأعِد التشغيل
 update-setting-write-failure-title = حدث عُطل أثناء تحديث التفضيلات
 update-in-progress-title = يجري الآن التحديث
 
+## OS Authentication dialog
+
+
 ## General Tab
 
 focus-search-shortcut =
@@ -390,6 +393,7 @@ remote-content-label =
 exceptions-button =
     .label = الاستثناءات…
     .accesskey = ث
+remote-content-privacy-info = اطلع على المزيد حول مسائل الخصوصية مع المحتوى البعيد
 remote-content-info =
     .value = اطلع على المزيد حول مسائل الخصوصية مع المحتوى البعيد
 web-content = محتوى الوب
@@ -451,6 +455,12 @@ certificate-ask =
 ocsp-label =
     .label = استعلم من خواديم مستجيبي OCSP عن الصلاحية الحالية للشهادات
     .accesskey = س
+
+## DoH Section
+
+
+## Keyservers
+
 
 ## Chat Tab
 
@@ -534,3 +544,15 @@ no-preview-description = ليست هذه السمة صحيحة أو ربما غ�
 chat-variant-label =
     .value = التنويعة:
     .accesskey = ع
+
+## Settings UI Search Results
+
+
+## Sync Tab
+
+
+## Mobile QR Export Pane
+
+
+## Appearance Tab
+
