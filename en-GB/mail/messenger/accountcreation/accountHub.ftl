@@ -119,6 +119,8 @@ account-hub-ssl-noencryption-option =
 account-hub-auth-no-authentication-option =
     .label = No Authentication
 account-hub-auth-label = Authentication method
+account-hub-select-option =
+    .label = Select an option
 account-hub-username-label = Username
 account-hub-username-warning-icon = Username is required
 account-hub-address-book-username-error-text = Please enter a username
@@ -255,6 +257,7 @@ account-hub-oauth-unsupported-title = Additional configuration is required
 # Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
 account-hub-oauth-unsupported-description = { -brand-short-name } can’t automatically configure OAuth2 for this hostname. Select Advanced Configuration to create the account, then complete setup from Account Settings. <a data-l10n-name="oauth-support-link">Get help with OAuth2 setup.</a>
+account-hub-username-help-text = Often your full email address
 account-hub-notification-show-more = Show more
 account-hub-notification-show-less = Show less
 account-hub-email-setup-header = Add your email address

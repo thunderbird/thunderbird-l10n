@@ -281,6 +281,7 @@ threadpane-column-label-unread-button =
     .label = Read status
 threadpane-cell-read-status =
     .aria-label = Read status
+threadpane-new-cell-label = New
 threadpane-read-cell-label = Read
 threadpane-unread-cell-label = Unread
 threadpane-column-header-a11y-sender =
