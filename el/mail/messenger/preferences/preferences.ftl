@@ -607,6 +607,7 @@ remote-content-label =
 exceptions-button =
     .label = Εξαιρέσεις…
     .accesskey = Ε
+remote-content-privacy-info = Μάθετε περισσότερα σχετικά με τα θέματα απορρήτου του απομακρυσμένου περιεχομένου
 remote-content-info =
     .value = Μάθετε περισσότερα σχετικά με τα θέματα απορρήτου του απομακρυσμένου περιεχομένου
 web-content = Διαδικτυακό περιεχόμενο
