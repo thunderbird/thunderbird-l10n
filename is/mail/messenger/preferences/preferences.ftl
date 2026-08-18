@@ -568,6 +568,7 @@ edit-directories-label =
 email-picker-label =
     .label = Bæta sjálfkrafa útsendum póst í:
     .accesskey = t
+email-picker-description = Staðsetning nýrra tengiliða sem vistaðir eru úr sendum skilaboðum.
 default-add-address-book-label =
     .value = Sjálfgefin nafnaskrá fyrir tengiliði sem bætt er við handvirkt:
     .accesskey = g

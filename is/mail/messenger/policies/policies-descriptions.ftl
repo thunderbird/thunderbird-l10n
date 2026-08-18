@@ -35,6 +35,7 @@ policy-DisableFormHistory = Ekki muna leitar- og innfyllingarferil.
 policy-DisableMasterPasswordCreation = Ef satt, er ekki hægt að búa til aðallykilorð.
 policy-DisablePasswordReveal = Ekki leyfa birtingu lykilorða í vistuðum innskráningum.
 policy-DisableProfileImport = Slökkva á valmyndarskipuninni til að flytja inn gögn úr öðru forriti.
+policy-DisableExperimentalFeatures = Gera tilraunaeiginleika í Thunderbird óvirka.
 policy-DisableSafeMode = Gera möguleikann á endurræsa í öryggisham óvirkan. Athugaðu: í Windows er aðeins er hægt að nota hópstefnu til að slökkva á Shift-lyklinum þegar fara á í öryggisham.
 policy-DisableSecurityBypass = Koma í veg fyrir að notandinn fari framhjá ákveðnum öryggisaðvörunum.
 policy-DisableSystemAddonUpdate = Koma í veg fyrir að { -brand-short-name } setji upp og uppfæri kerfisviðbætur.
