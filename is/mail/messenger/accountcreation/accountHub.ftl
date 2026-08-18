@@ -378,9 +378,13 @@ account-hub-card-graph-description = Microsoft Graph er nútímaleg tengingarað
 account-hub-card-ews-title = Exchange vefþjónustur
 account-hub-card-ews-tag = Eldra
 account-hub-card-ews-description = Exchange Web Services (EWS) tengist Microsoft Exchange til að samstilla póstinn þinn.
+# This is shown after the type description, so "it" is referring to the type (either Microsoft Graph or Exchange Web Services).
+account-hub-card-recommended-description = Mælt með þessu þar sem það samsvarar slóðinni þinni á þjónustuna.
 account-hub-exchange-type-username = Notandanafn
 account-hub-exchange-type-username-hint = Venjulega netfangið þitt eða Active Directory UPN.
 account-hub-exchange-type-authentication = Auðkenningaraðferð
+# Checkbox that can be unchecked to use a custom OAuth config.
+account-hub-exchange-type-default-oauth = Nota sjálfgefnar auðkenningarstillingar fyrir Microsoft 365 Copilot
 account-hub-exchange-type-oauth-tenant = Auðkenni handhafa
 account-hub-exchange-type-oauth-app = Forritsauðkenni
 account-hub-exchange-type-advanced-config = Ítarlegar stillingar

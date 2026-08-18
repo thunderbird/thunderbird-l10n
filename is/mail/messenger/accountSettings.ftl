@@ -60,3 +60,9 @@ ews-endpointhost-label =
 ews-oauthscopes-label =
     .value = Umfang OAuth:
     .accesskey = U
+# Variables:
+#   $extensionName (String) - The display name of the extension providing
+#     the OAuth2 settings.
+# Shown in Account Settings below the authentication method when OAuth2
+# settings are provided by an extension.
+oauth-provider-extension-info = OAuth2 stillingar frá forritsaukanum: <a data-l10n-name="extension">{ $extensionName }</a>

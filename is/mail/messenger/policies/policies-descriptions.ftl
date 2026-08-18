@@ -36,6 +36,7 @@ policy-DisableMasterPasswordCreation = Ef satt, er ekki hægt að búa til aðal
 policy-DisablePasswordReveal = Ekki leyfa birtingu lykilorða í vistuðum innskráningum.
 policy-DisableProfileImport = Slökkva á valmyndarskipuninni til að flytja inn gögn úr öðru forriti.
 policy-DisableExperimentalFeatures = Gera tilraunaeiginleika í Thunderbird óvirka.
+policy-DisableQRExport = Gera óvirka framköllun QR-kóða til að flytja út reikningsstillingar og innskráningarupplýsingar.
 policy-DisableSafeMode = Gera möguleikann á endurræsa í öryggisham óvirkan. Athugaðu: í Windows er aðeins er hægt að nota hópstefnu til að slökkva á Shift-lyklinum þegar fara á í öryggisham.
 policy-DisableSecurityBypass = Koma í veg fyrir að notandinn fari framhjá ákveðnum öryggisaðvörunum.
 policy-DisableSystemAddonUpdate = Koma í veg fyrir að { -brand-short-name } setji upp og uppfæri kerfisviðbætur.
