@@ -22,23 +22,23 @@ oauth2-client-id-label =
     .value = ID Cleient:
     .accesskey = I
 oauth2-authorization-endpoint-label =
-    .value = Terfynbwynt awdurdodiad:
-    .accesskey = T
+    .value = Diweddbwynt awdurdodiad:
+    .accesskey = D
 oauth2-token-endpoint-label =
-    .value = Terfynbwynt tocyn:
-    .accesskey = T
+    .value = Diweddbwynt tocyn:
+    .accesskey = w
 oauth2-scopes-label =
-    .value = Cwmpas:
+    .value = Cwmpasau:
     .accesskey = C
 oauth2-redirection-endpoint-label =
     .value = Ailgyfeirio URI:
     .accesskey = A
 oauth2-use-pkce =
-    .label = Defnyddiwch PKCE
+    .label = Defnyddio PKCE
     .accesskey = D
 oauth2-use-system-browser =
-    .label = Defnyddiwch borwr gwe system
-    .accesskey = D
+    .label = Defnyddio porwr gwe'r system
+    .accesskey = p
 ews-url-label =
     .value = URL gwesteiwr:
     .accesskey = U
@@ -65,4 +65,4 @@ ews-oauthscopes-label =
 #     the OAuth2 settings.
 # Shown in Account Settings below the authentication method when OAuth2
 # settings are provided by an extension.
-oauth-provider-extension-info = Gosodiadau OAuth2 a ddarperir gan estyniad: <a data-l10n-name="extension">{ $extensionName }</a>
+oauth-provider-extension-info = Gosodiadau OAuth2 estyniad: <a data-l10n-name="extension">{ $extensionName }</a>

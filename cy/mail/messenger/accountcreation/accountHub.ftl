@@ -120,7 +120,7 @@ account-hub-auth-no-authentication-option =
     .label = Dim Dilysu
 account-hub-auth-label = Dull dilysu
 account-hub-select-option =
-    .label = Dewis opsiwn
+    .label = Dewiswch o'r dewisiadau
 account-hub-username-label = Enw Defnyddiwr
 account-hub-username-warning-icon = Mae angen enw defnyddiwr
 account-hub-address-book-username-error-text = Rhowch enw defnyddiwr
@@ -257,7 +257,7 @@ account-hub-oauth-unsupported-title = Mae angen ffurfweddu ychwanegol
 # Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
 account-hub-oauth-unsupported-description = Dyw { -brand-short-name } ddim yn gallu ffurfweddu OAuth2 yn awtomatig ar gyfer yr enw gwesteiwr hwn. Dewiswch Ffurfweddiad Uwch i greu'r cyfrif, yna cwblhau'r gosodiad o Gosodiadau Cyfrif. <a data-l10n-name="oauth-support-link">Cael help gyda gosod OAuth2.</a>
-account-hub-username-help-text = Yn aml, eich cyfeiriad e-bost llawn
+account-hub-username-help-text = Eich cyfeiriad e-bost llawn arferol
 account-hub-notification-show-more = Dangos rhagor
 account-hub-notification-show-less = Dangos llai
 account-hub-email-setup-header = Ychwanegwch eich cyfeiriad e-bost
