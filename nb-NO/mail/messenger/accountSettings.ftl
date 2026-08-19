@@ -15,6 +15,30 @@ outgoing-server-name = Utgående server:
 outgoing-server-edit =
     .label = Rediger utgående server…
     .accesskey = R
+oauth2-use-custom-details =
+    .label = Bruk tilpassede OAuth2-innstillinger
+    .accesskey = B
+oauth2-client-id-label =
+    .value = Klient-ID:
+    .accesskey = K
+oauth2-authorization-endpoint-label =
+    .value = Godkjennelsesendepunkt:
+    .accesskey = G
+oauth2-token-endpoint-label =
+    .value = Symbol-endepunkt:
+    .accesskey = S
+oauth2-scopes-label =
+    .value = Virkefelt:
+    .accesskey = V
+oauth2-redirection-endpoint-label =
+    .value = Videresendings-URI:
+    .accesskey = V
+oauth2-use-pkce =
+    .label = Bruk PKCE
+    .accesskey = k
+oauth2-use-system-browser =
+    .label = Bruk systemets nettleser
+    .accesskey = B
 ews-url-label =
     .value = Host-URL:
     .accesskey = H
@@ -36,3 +60,9 @@ ews-endpointhost-label =
 ews-oauthscopes-label =
     .value = OAuth-omfang:
     .accesskey = A
+# Variables:
+#   $extensionName (String) - The display name of the extension providing
+#     the OAuth2 settings.
+# Shown in Account Settings below the authentication method when OAuth2
+# settings are provided by an extension.
+oauth-provider-extension-info = OAuth2-innstillinger levert av utvidelsen: <a data-l10n-name="extension">{ $extensionName }</a>
