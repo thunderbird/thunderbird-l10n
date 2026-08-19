@@ -266,6 +266,7 @@ threadpane-column-label-unread-button =
     .label = Trạng thái đọc
 threadpane-cell-read-status =
     .aria-label = Trạng thái đọc
+threadpane-new-cell-label = Mới
 threadpane-read-cell-label = Đã đọc
 threadpane-unread-cell-label = Chưa đọc
 threadpane-column-header-a11y-sender =

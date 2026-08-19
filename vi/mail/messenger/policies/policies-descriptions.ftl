@@ -35,6 +35,7 @@ policy-DisableFormHistory = Không lưu lịch sử tìm kiếm và biểu mẫu
 policy-DisableMasterPasswordCreation = Nếu đúng, mật khẩu chính không thể được tạo ra.
 policy-DisablePasswordReveal = Không cho phép mật khẩu được tiết lộ trong thông tin đăng nhập đã lưu.
 policy-DisableProfileImport = Vô hiệu hóa lệnh menu để nhập dữ liệu từ một ứng dụng khác.
+policy-DisableExperimentalFeatures = Vô hiệu hóa các tính năng thử nghiệm trong Thunderbird.
 policy-DisableQRExport = Vô hiệu hóa việc tạo mã QR để xuất cài đặt tài khoản và thông tin đăng nhập.
 policy-DisableSafeMode = Tắt tính năng này để khởi động lại ở chế độ an toàn. Lưu ý: phím Shift để vào chế độ an toàn chỉ có thể tắt trên Windows bằng Group Policy.
 policy-DisableSecurityBypass = Ngăn chặn người dùng bỏ qua các cảnh báo bảo mật nhất định.

@@ -119,6 +119,8 @@ account-hub-ssl-noencryption-option =
 account-hub-auth-no-authentication-option =
     .label = Không xác thực
 account-hub-auth-label = Phương thức xác thực
+account-hub-select-option =
+    .label = Chọn một tùy chọn
 account-hub-username-label = Tên đăng nhập
 account-hub-username-warning-icon = Tên đăng nhập là bắt buộc
 account-hub-address-book-username-error-text = Vui lòng nhập tên đăng nhập
@@ -255,6 +257,7 @@ account-hub-oauth-unsupported-title = Cần thực hiện các cấu hình bổ 
 # Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
 account-hub-oauth-unsupported-description = { -brand-short-name } không thể tự động cấu hình OAuth2 cho hostname này. Chọn Cấu hình nâng cao để thêm tài khoản, sau đó hoàn thành thiết lập trong Cài đặt tài khoản. <a data-l10n-name="oauth-support-link">Nhận trợ giúp về thiết lập OAuth2.</a>
+account-hub-username-help-text = Thường là địa chỉ email đầy đủ của bạn
 account-hub-notification-show-more = Xem thêm
 account-hub-notification-show-less = Hiện ít hơn
 account-hub-email-setup-header = Thêm địa chỉ email của bạn
