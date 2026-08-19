@@ -281,6 +281,7 @@ threadpane-column-label-unread-button =
     .label = Оқылған қалып-күйі
 threadpane-cell-read-status =
     .aria-label = Оқылған қалып-күйі
+threadpane-new-cell-label = Жаңа
 threadpane-read-cell-label = Оқылған
 threadpane-unread-cell-label = Оқылмаған
 threadpane-column-header-a11y-sender =

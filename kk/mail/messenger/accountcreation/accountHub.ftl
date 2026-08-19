@@ -119,6 +119,8 @@ account-hub-ssl-noencryption-option =
 account-hub-auth-no-authentication-option =
     .label = Аутентификациясыз
 account-hub-auth-label = Аутентификация тәсілі
+account-hub-select-option =
+    .label = Опцияны таңдаңыз
 account-hub-username-label = Пайдаланушы аты
 account-hub-username-warning-icon = Пайдаланушы аты керек
 account-hub-address-book-username-error-text = Пайдаланушы атын енгізіңіз
@@ -255,6 +257,7 @@ account-hub-oauth-unsupported-title = Қосымша баптаулар қаже
 # Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
 account-hub-oauth-unsupported-description = { -brand-short-name } бұл хост үшін OAuth2 автоматты түрде конфигурациялай алмайды. Тіркелгіні жасау үшін «Кеңейтілген конфигурация» тармағын таңдаңыз, содан кейін Тіркелгі параметрлерінен баптауды аяқтаңыз. <a data-l10n-name="oauth-support-link">OAuth2 баптау бойынша көмек алу.</a>
+account-hub-username-help-text = Көбінесе сіздің толық эл. пошта адресіңіз
 account-hub-notification-show-more = Көбірек көрсету
 account-hub-notification-show-less = Азырақ көрсету
 account-hub-email-setup-header = Эл. пошта адресіңізді қосыңыз
