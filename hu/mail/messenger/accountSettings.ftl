@@ -15,6 +15,30 @@ outgoing-server-name = Kimenő kiszolgáló:
 outgoing-server-edit =
     .label = Kimenő kiszolgáló szerkesztése…
     .accesskey = K
+oauth2-use-custom-details =
+    .label = Egyéni OAuth2-beállítások használata
+    .accesskey = E
+oauth2-client-id-label =
+    .value = Kliensazonosító:
+    .accesskey = a
+oauth2-authorization-endpoint-label =
+    .value = Hitelesítés végpontja:
+    .accesskey = v
+oauth2-token-endpoint-label =
+    .value = Token végpontja:
+    .accesskey = T
+oauth2-scopes-label =
+    .value = Hatókörök
+    .accesskey = H
+oauth2-redirection-endpoint-label =
+    .value = Átirányítási URI:
+    .accesskey = i
+oauth2-use-pkce =
+    .label = PKCE használata
+    .accesskey = P
+oauth2-use-system-browser =
+    .label = Rendszer webböngészőjének használata
+    .accesskey = R
 ews-url-label =
     .value = Kiszolgáló webcíme:
     .accesskey = K
@@ -36,3 +60,9 @@ ews-endpointhost-label =
 ews-oauthscopes-label =
     .value = OAuth hatókörök:
     .accesskey = h
+# Variables:
+#   $extensionName (String) - The display name of the extension providing
+#     the OAuth2 settings.
+# Shown in Account Settings below the authentication method when OAuth2
+# settings are provided by an extension.
+oauth-provider-extension-info = A következő kiegészítő által biztosított OAuth2-beállítások: <a data-l10n-name="extension">{ $extensionName }</a>

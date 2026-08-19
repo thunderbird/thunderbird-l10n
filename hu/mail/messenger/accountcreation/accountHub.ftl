@@ -119,6 +119,8 @@ account-hub-ssl-noencryption-option =
 account-hub-auth-no-authentication-option =
     .label = Nincs hitelesítés
 account-hub-auth-label = Hitelesítési módszer
+account-hub-select-option =
+    .label = Válasszon egy lehetőséget
 account-hub-username-label = Felhasználónév
 account-hub-username-warning-icon = A felhasználónév megadása kötelező
 account-hub-address-book-username-error-text = Adjon meg egy felhasználónevet
@@ -255,6 +257,7 @@ account-hub-oauth-unsupported-title = További konfiguráció szükséges
 # Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
 account-hub-oauth-unsupported-description = A { -brand-short-name } nem tudja automatikusan beállítani az OAuth2-t ehhez a gazdagépnévhez. Válassza a Speciális beállítások lehetőséget a fiók létrehozásához, majd fejezze be a beállítást a Fiókbeállításokban. <a data-l10n-name="oauth-support-link">Segítség az OAuth2 beállításához.</a>
+account-hub-username-help-text = Adja meg az e-mail-címét
 account-hub-notification-show-more = Több megjelenítése
 account-hub-notification-show-less = Kevesebb megjelenítése
 account-hub-email-setup-header = E-mail-cím hozzáadása

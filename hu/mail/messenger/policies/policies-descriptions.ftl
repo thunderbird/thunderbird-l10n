@@ -35,6 +35,7 @@ policy-DisableFormHistory = Ne jegyezze meg a keresőmezők és űrlapmezők el�
 policy-DisableMasterPasswordCreation = Ha igaz, akkor nem hozható létre mesterjelszó.
 policy-DisablePasswordReveal = Ne engedje, hogy a mentet bejelentkezésekben szereplő jelszavak megjelenítésre kerüljenek.
 policy-DisableProfileImport = Az Importálás egy másik böngészőből menüparancs letiltása.
+policy-DisableExperimentalFeatures = A Thunderbird kísérleti funkcióinak letiltása
 policy-DisableQRExport = A QR-kód előállításának letiltása a fiókbeállítások és hitelesítő adatok exportálásához.
 policy-DisableSafeMode = Az Újraindítás letiltott kiegészítőkkel funkció letiltása. Megjegyzés: a kiegészítők nélküli indításhoz használható Shift billentyű csak Windowson tiltható le csoportházirend segítségével.
 policy-DisableSecurityBypass = Megakadályozza, hogy a felhasználó megkerüljön bizonyos biztonsági figyelmeztetéseket.

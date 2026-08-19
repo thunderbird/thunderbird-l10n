@@ -282,6 +282,7 @@ threadpane-column-label-unread-button =
     .label = Olvasási állapot
 threadpane-cell-read-status =
     .aria-label = Olvasási állapot
+threadpane-new-cell-label = Új
 threadpane-read-cell-label = Olvasott
 threadpane-unread-cell-label = Olvasatlan
 threadpane-column-header-a11y-sender =
