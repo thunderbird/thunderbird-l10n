@@ -282,6 +282,7 @@ threadpane-column-label-unread-button =
     .label = Κατάσταση ανάγνωσης
 threadpane-cell-read-status =
     .aria-label = Κατάσταση ανάγνωσης
+threadpane-new-cell-label = Νέο
 threadpane-read-cell-label = Αναγνωσμένα
 threadpane-unread-cell-label = Μη αναγνωσμένα
 threadpane-column-header-a11y-sender =
