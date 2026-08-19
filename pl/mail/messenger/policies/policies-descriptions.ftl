@@ -27,6 +27,7 @@ policy-DisableBuiltinPDFViewer = Wyłączenie PDF.js, wbudowanej przeglądarki p
 policy-DisabledCiphers = Wyłączenie szyfrów.
 policy-DefaultDownloadDirectory = Ustawienie domyślnego katalogu pobierania.
 policy-DisableAppUpdate = Uniemożliwienie aktualizowania programu { -brand-short-name }.
+policy-DisableDataCollectionSettings = Uniemożliwienie użytkownikowi zmiany ustawień zbierania danych.
 policy-DisableDefaultClientAgent = Uniemożliwienie agentowi domyślnego klienta wykonywania jakichkolwiek działań. Dotyczy tylko systemu Windows, inne platformy nie mają agenta.
 policy-DisableDeveloperTools = Blokowanie dostępu do narzędzi dla twórców witryn.
 policy-DisableFeedbackCommands = Wyłączenie poleceń do wysyłania opinii z menu Pomoc („Prześlij swoją opinię” i „Zgłoś oszustwo internetowe”).
