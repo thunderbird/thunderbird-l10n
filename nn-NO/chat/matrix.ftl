@@ -19,6 +19,6 @@ room-name-empty-had-name = Tom samtale (var { $oldName })
 #    the user and $participant.
 room-name-others2 =
     { $otherParticipantCount ->
-        [one] { $participant } and { $otherParticipantCount } annan
-       *[other] { $participant } and { $otherParticipantCount } andre
+        [one] { $participant } og { $otherParticipantCount } annan
+       *[other] { $participant } og { $otherParticipantCount } andre
     }
