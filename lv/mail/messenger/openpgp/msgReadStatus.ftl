@@ -36,6 +36,7 @@ openpgp-enc-key-id = Jūsu atšifrēšanas atslēgas ID: { $key }
 # $key (String) - The primary ID of the user's OpenPGP key used to decrypt the message.
 # $subkey (String) - A subkey of the primary key was used to decrypt the message, and this is the ID of that subkey.
 openpgp-enc-key-with-subkey-id = Jūsu atšifrēšanas atslēgas ID: { $key } (apakšatslēgas ID: { $subkey })
+openpgp-enc-clueless = Ar šo šifrēto ziņojumu ir nezināmi sarežģījumi.
 openpgp-unknown-key-id = Nezināma atslēga
 openpgp-other-enc-additional-key-ids = Turklāt vēstule ir šifrēta priekš šo atslēgu īpašniekiem:
 openpgp-other-enc-all-key-ids = Vēstule ir šifrēta priekš šo atslēgu īpašniekiem:
