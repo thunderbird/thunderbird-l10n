@@ -27,6 +27,7 @@ policy-DisableBuiltinPDFViewer = 停用 { -brand-short-name } 內建的 PDF 閱�
 policy-DisabledCiphers = 停用加密演算法。
 policy-DefaultDownloadDirectory = 設定預設下載資料夾。
 policy-DisableAppUpdate = 防止 { -brand-short-name } 更新。
+policy-DisableDataCollectionSettings = 防止使用者更改資料收集設定。
 policy-DisableDefaultClientAgent = 不讓預設客戶端代理工具作任何事。僅對 Windows 有效，其他平台沒有代理工具可用。
 policy-DisableDeveloperTools = 防止使用開發者工具。
 policy-DisableFeedbackCommands = 停用於「說明」選單中傳送意見回饋的相關指令（「送出意見回饋」與「回報詐騙網站」）。
