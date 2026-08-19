@@ -35,6 +35,7 @@ policy-DisableFormHistory = Geen zoek- en formuliergeschiedenis onthouden.
 policy-DisableMasterPasswordCreation = Wanneer true, kan geen hoofdwachtwoord worden aangemaakt.
 policy-DisablePasswordReveal = Niet toestaan dat wachtwoorden worden onthuld in opgeslagen aanmeldingen.
 policy-DisableProfileImport = De menuopdracht voor het importeren van gegevens vanuit een andere applicatie uitschakelen.
+policy-DisableExperimentalFeatures = Experimentele functies in Thunderbird uitschakelen.
 policy-DisableQRExport = Schakel het aanmaken van de QR-code voor het exporteren van accountinstellingen en aanmeldgegevens uit.
 policy-DisableSafeMode = De functie voor het herstarten in Veilige modus uitschakelen. Noot: de Shift-toets voor het betreden van de Veilige modus kan in Windows alleen worden uitgeschakeld via Groepsbeleid.
 policy-DisableSecurityBypass = Voorkomen dat de gebruiker bepaalde beveiligingsinstellingen omzeilt.
