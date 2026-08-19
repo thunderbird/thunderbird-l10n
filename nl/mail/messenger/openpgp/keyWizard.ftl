@@ -17,7 +17,7 @@ radio-import-key =
     .label = Een bestaande OpenPGP-sleutel importeren
     .accesskey = i
 radio-gnupg-key =
-    .label = Uw externe sleutel via GnuPG (b.v. vanaf een smartcard) gebruiken
+    .label = Uw externe sleutel via GnuPG (bijv. vanaf een smartcard) gebruiken
     .accesskey = U
 
 ## Generate key section

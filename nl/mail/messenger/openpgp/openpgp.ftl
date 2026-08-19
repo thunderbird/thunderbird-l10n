@@ -668,7 +668,7 @@ file-to-big-to-import = Dit bestand is te groot. Importeer geen grote set sleute
 ## Strings used in enigmailKeygen.js
 
 save-revoke-cert-as = Intrekkingscertificaat maken en opslaan
-revoke-cert-ok = Het intrekkingscertificaat is met succes gemaakt. U kunt het gebruiken om uw publieke sleutel ongeldig te maken, b.v. voor het geval u uw geheime sleutel zou verliezen.
+revoke-cert-ok = Het intrekkingscertificaat is met succes gemaakt. U kunt het gebruiken om uw publieke sleutel ongeldig te maken, bijv. voor het geval u uw geheime sleutel zou verliezen.
 revoke-cert-failed = Het intrekkingscertificaat kan niet worden gemaakt.
 gen-going = Sleutel wordt al aangemaakt!
 keygen-missing-user-name = Er is geen naam opgegeven voor de geselecteerde account/identiteit. Voer in de accountinstellingen een waarde in het veld ‘Uw naam’ in.
