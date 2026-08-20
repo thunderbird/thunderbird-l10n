@@ -52,6 +52,7 @@ account-hub-email-continue-button = განაგრძეთ
 account-hub-email-set-up-account-button = ანგარიშის გამართვა
 account-hub-email-confirm-button = დასტური
 account-hub-email-find-settings-button = პარამეტრების მოძიება
+account-hub-email-connect-button = დაკავშირება
 account-hub-result-incoming-legend = მიღებული
 account-hub-result-outgoing-legend = გაგზავნილი
 account-hub-all-servers-legend = ყველა სერვერი
@@ -125,6 +126,8 @@ account-hub-ssl-noencryption-option =
 account-hub-auth-no-authentication-option =
     .label = ანგარიშზე შესვლის გარეშე
 account-hub-auth-label = ანგარიშზე შესვლის გზა
+account-hub-select-option =
+    .label = აირჩიეთ ერთ-ერთი
 account-hub-username-label = მეტსახელი
 account-hub-username-warning-icon = მეტსახელი აუცილებელია
 account-hub-address-book-username-error-text = გთხოვთ მიუთითოთ მომხმარებლის სახელი
@@ -237,13 +240,31 @@ account-hub-thundermail-button = შესვლისთვის გამო�
 account-hub-thundermail-divider-text = ან
 account-hub-manual-config-imap-title = IMAP-პარამეტრები
 account-hub-manual-config-pop3-title = POP3-პარამეტრები
+account-hub-manual-config-review-settings-title = განახლებული პარამეტრების გადახედვა
 account-hub-manual-config-incoming-legend = შემომავალი სერვერი
 account-hub-manual-config-outgoing-legend = გამავალი სერვერი
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
 account-hub-same-username-checkbox = მომხმარებლის იგივე სახელი, რაც შემომავალ სერვერზეა
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-security-changed = ვერ მოიძებნა { $oldValue }, მაგრამ ხელმისაწვდომია { $newValue }.
+# Variables:
+# $oldValue (String): The port requested before the configuration was tested.
+# $newValue (String): The port found after the configuration was tested.
+account-hub-manual-config-port-changed = მიუწვდომელია პორტი { $oldValue }, მაგრამ ხელმისაწვდომია { $newValue }.
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-value-changed = ვერ გამოიყენება { $oldValue }, მაგრამ ხელმისაწვდომია { $newValue }.
 account-hub-protocol-imap = დასინქრონება მოწყობილობებზე
 account-hub-protocol-microsoft = Exchange ან Microsoft 365
 account-hub-protocol-pop3 = ჩამოტვირთვა მოწყობილობაზე
+account-hub-oauth-unsupported-title = დამატებით გამართვაა საჭირო
+# Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
+# 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
+account-hub-oauth-unsupported-description = { -brand-short-name } ვერ ახერხებს, თავად გამართოს OAuth2 ამ მისამართისთვის. აირჩიეთ დამატებით გამართვა ანგარიშის შესაქმნელად, შემდეგ კი დაასრულეთ გამართვა ანგარიშის პარამეტრებიდან. <a data-l10n-name="oauth-support-link">დახმარება, თუ როგორ უნდა გამართოთ OAuth2.</a>
+account-hub-username-help-text = ჩვეულებრივ, თქვენი ელფოსტის სრული მისამართი
 account-hub-notification-show-more = ვრცლად
 account-hub-notification-show-less = შემოკლებულად
 account-hub-email-setup-header = ელფოსტის მისამართის დამატება
@@ -252,6 +273,7 @@ account-hub-email-setup-outgoing = გამავალი სერვერ�
 account-hub-email-exchange-settings = Exchange-პარამეტრები
 account-hub-email-connect-settings = დააკავშირეთ თქვენი ელფოსტის პარამეტრები
 account-hub-email-protocol-select-header = აირჩიეთ ელფოსტის ანგარიშის სახეობა
+account-hub-email-protocol-select-additional-info = ანგარიშის გასამართად საჭიროა დამატებითი მონაცემები.
 account-hub-email-protocol-select-notification = ანგარიშის გასამართად საჭიროა დამატებითი მონაცემები
 account-hub-email-config-found = აირჩიეთ თქვენი ელფოსტის ანგარიშის სახეობა
 account-hub-email-enter-password = მიუთითეთ თქვენი ელფოსტის პაროლი
@@ -308,6 +330,7 @@ account-hub-port-error-text = პორტის შუალედია 1 დ�
     .title = პორტის შუალედია 1 და 65535
 account-hub-username-error-text = მეტსახელი აუცილებელია
     .title = მეტსახელი აუცილებელია
+account-hub-manual-config-error-summary = გთხოვთ გამოასწოროთ შემდეგი ხარვეზები:
 account-hub-oauth-pending = ელოდება შესვლის დამოწმებას ამომხტარ ფანჯარაში…
 account-hub-addon-install-button = დაყენება
 account-hub-addon-install-needed = { -brand-short-name } არაა თანმომყოლი მხარდაჭერით ამ სერვერზე. Exchange-ელფოსტასთან წვდომისთვის <a data-l10n-name="addon-install"> დააყენეთ გარეშე მხარის დამატება, როგორიცაა Owl (ფასიანი).</a>

@@ -158,6 +158,9 @@ week-title-label =
     .aria-label = კვირა { $title }
 calendar-none =
     .label = არცერთი
+# Variables:
+#   $fileName (String) - The backup file name, e.g. 'local-2020-05-11T21-30-17.sqlite'.
+too-new-dbschema-error-text = თქვენი კალენდრის მონაცემები და მოცემული ვერსიის { -brand-short-name } შეუთავსებლებია. კალენდრის მონაცემები განახლდა, ვინაიდან ახალი ვერსიის { -brand-short-name } გიყენიათ. ძველი მონაცემების ფაილი დამარქაფებულია დასახელებით „{ $fileName }“. ამიერიდან მონაცემებისთვის ახლად შექმნილი ფაილი გამოიყენება.
 imip-bar-unsupported-text = გზავნილი შეიცავს ღონისძიებას, რომელსაც ამ ვერსიის { -brand-short-name } ვერ ამუშავებს.
 # Error strings
 # @name UID_NOT_FOUND
@@ -549,6 +552,11 @@ format-date-long = { $dayName } { $dayIndex } { $monthName } { $year }
 day-header = { $dayName } { $dayIndex }
 day-header-elem =
     .label = { day-header }
+# LOCALIZATION NOTE (calendar-multiday-hour-slot):
+# Label for a time slot in the day/week calendar views.
+#    $date will be replaced with the day label, e.g. "Monday 6 Oct.";
+#    $time will be replaced with the time of the slot, e.g. "9:00 AM".
+calendar-multiday-hour-slot = { $date }, { $time }
 # LOCALIZATION NOTE (datetime-interval-task-without-date):
 # used for task without start and due date
 # (showed only in exported calendar in Html format)
@@ -1115,3 +1123,14 @@ event-recurrence-forever =
 attendees-tab-label = დამსწრე ({ $count }):
 # $count - the number of attachments
 attachments-tab-label = დანართი ({ $count }):
+# Variables:
+#   $docTitle (String) - The date or view label for the current calendar view.
+calendar-window-title = { $docTitle } - { -brand-full-name }
+calendar-window-title-base = { -brand-full-name }
+# Variables:
+#   $username (String) - The account username.
+#   $location (String) - The calendar server location.
+calendar-auth-enter-password-for = დაიცავით { $username } პაროლით მისამართზე { $location }
+# Variables:
+#   $location (String) - The calendar server location.
+calendar-auth-enter-user-password-for = { $location } ითხოვს მომხმარებლის სახელსა და პაროლს.
