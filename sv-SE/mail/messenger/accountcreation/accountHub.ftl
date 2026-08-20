@@ -242,6 +242,14 @@ account-hub-same-username-checkbox = Samma användarnamn som servern för inkomm
 # $oldValue (String): The value requested before the configuration was tested.
 # $newValue (String): The value found after the configuration was tested.
 account-hub-manual-config-security-changed = Kunde inte hitta { $oldValue }, men { $newValue } är tillgänglig.
+# Variables:
+# $oldValue (String): The port requested before the configuration was tested.
+# $newValue (String): The port found after the configuration was tested.
+account-hub-manual-config-port-changed = Kunde inte nå port { $oldValue }, men port { $newValue } är tillgänglig.
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-value-changed = Kunde inte använda { $oldValue }, men { $newValue } är tillgänglig.
 account-hub-protocol-imap = Synkronisering mellan enheter
 account-hub-protocol-microsoft = Exchange eller Microsoft 365
 account-hub-protocol-pop3 = Hämta till enhet
@@ -249,6 +257,7 @@ account-hub-oauth-unsupported-title = Ytterligare konfiguration krävs
 # Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
 account-hub-oauth-unsupported-description = { -brand-short-name } kan inte automatiskt konfigurera OAuth2 för detta värdnamn. Välj Avancerad konfiguration för att skapa kontot och slutför sedan installationen från Kontoinställningar. <a data-l10n-name="oauth-support-link">Få hjälp med OAuth2-installationen.</a>
+account-hub-username-help-text = Ofta din fullständiga e-postadress
 account-hub-notification-show-more = Visa mer
 account-hub-notification-show-less = Visa mindre
 account-hub-email-setup-header = Lägg till din e-postadress
@@ -257,6 +266,7 @@ account-hub-email-setup-outgoing = Inställningar för utgående server
 account-hub-email-exchange-settings = Exchange-inställningar
 account-hub-email-connect-settings = Anslut dina e-postinställningar
 account-hub-email-protocol-select-header = Välj en typ av e-postkonto
+account-hub-email-protocol-select-additional-info = Ytterligare information krävs för att konfigurera detta konto.
 account-hub-email-protocol-select-notification = Ytterligare information krävs för att konfigurera detta konto
 account-hub-email-config-found = Välj din typ av e-postkonto
 account-hub-email-enter-password = Ange lösenordet för ditt e-postkonto
