@@ -601,7 +601,7 @@
 <!ENTITY folderContextSettings2.label "Nastavenia">
 <!ENTITY folderContextSettings2.accesskey "s">
 <!-- Search Bar -->
-<!ENTITY SearchNameOrEmail.label "Meno alebo Email obsahuje:">
+<!ENTITY SearchNameOrEmail.label "Meno alebo e‑mail obsahuje:">
 <!ENTITY SearchNameOrEmail.accesskey "M">
 <!-- Gloda Search Bar -->
 <!ENTITY glodaSearchBar.placeholder "Hľadať správy…">
