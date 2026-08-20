@@ -15,6 +15,30 @@ outgoing-server-name = Server pre odosielanie pošty:
 outgoing-server-edit =
     .label = Upraviť server pre odosielanie pošty
     .accesskey = U
+oauth2-use-custom-details =
+    .label = Použiť vlastné nastavenia OAuth2
+    .accesskey = O
+oauth2-client-id-label =
+    .value = ID klienta:
+    .accesskey = I
+oauth2-authorization-endpoint-label =
+    .value = Koncový bod autorizácie:
+    .accesskey = K
+oauth2-token-endpoint-label =
+    .value = Koncový bod tokenu:
+    .accesskey = b
+oauth2-scopes-label =
+    .value = Rozsahy:
+    .accesskey = R
+oauth2-redirection-endpoint-label =
+    .value = URI presmerovania:
+    .accesskey = U
+oauth2-use-pkce =
+    .label = Použiť PKCE
+    .accesskey = C
+oauth2-use-system-browser =
+    .label = Použiť webový prehliadač systému
+    .accesskey = w
 ews-url-label =
     .value = Adresa URL hostiteľa:
     .accesskey = L
@@ -36,3 +60,9 @@ ews-endpointhost-label =
 ews-oauthscopes-label =
     .value = Rozsahy OAuth:
     .accesskey = O
+# Variables:
+#   $extensionName (String) - The display name of the extension providing
+#     the OAuth2 settings.
+# Shown in Account Settings below the authentication method when OAuth2
+# settings are provided by an extension.
+oauth-provider-extension-info = Nastavenia OAuth2 poskytuje rozšírenie: <a data-l10n-name="extension">{ $extensionName }</a>

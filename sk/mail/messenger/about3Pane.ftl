@@ -291,6 +291,7 @@ threadpane-column-label-unread-button =
     .label = Stav prečítania
 threadpane-cell-read-status =
     .aria-label = Stav prečítania
+threadpane-new-cell-label = Nové
 threadpane-read-cell-label = Prečítaná
 threadpane-unread-cell-label = Neprečítaná
 threadpane-column-header-a11y-sender =

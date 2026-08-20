@@ -119,6 +119,8 @@ account-hub-ssl-noencryption-option =
 account-hub-auth-no-authentication-option =
     .label = Bez overenia
 account-hub-auth-label = Metóda overenia
+account-hub-select-option =
+    .label = Vyberte možnosť
 account-hub-username-label = Používateľské meno
 account-hub-username-warning-icon = Meno používateľa je povinná položka
 account-hub-address-book-username-error-text = Zadajte používateľské meno
@@ -255,6 +257,7 @@ account-hub-oauth-unsupported-title = Vyžaduje sa dodatočná konfigurácia
 # Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
 account-hub-oauth-unsupported-description = { -brand-short-name } nedokáže automaticky nakonfigurovať OAuth2 pre tento názov hostiteľa. Vyberte možnosť Rozšírená konfigurácia na vytvorenie účtu a potom dokončite nastavenie v časti Nastavenia účtu. <a data-l10n-name="oauth-support-link">Získajte pomoc s nastavením OAuth2.</a>
+account-hub-username-help-text = Často vaša celá e‑mailová adresa
 account-hub-notification-show-more = Zobraziť viac
 account-hub-notification-show-less = Zobraziť menej
 account-hub-email-setup-header = Pridajte svoju e‑mailovú adresu
