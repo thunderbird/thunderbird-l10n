@@ -463,7 +463,7 @@ filter-term-pgpencrypted-label = OpenPGP-kryptert
 filter-key-required = Du må velge en mottakernøkkel.
 # Variables:
 # $desc (String) - Email address to look for a key of.
-filter-key-not-found = Kunne ikke finne en krypteringsnøkkel for «{ $desc }».
+filter-key-not-found = Fant ikke en krypteringsnøkkel for «{ $desc }».
 # Variables:
 # $desc (String) - The ID of a secret key that is required to read the email after the user executes the current action.
 filter-warn-key-not-secret =
