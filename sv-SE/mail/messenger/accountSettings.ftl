@@ -24,6 +24,15 @@ oauth2-client-id-label =
 oauth2-authorization-endpoint-label =
     .value = Endpoint för auktorisering:
     .accesskey = d
+oauth2-token-endpoint-label =
+    .value = Token endpoint:
+    .accesskey = t
+oauth2-scopes-label =
+    .value = Omfattning:
+    .accesskey = m
+oauth2-redirection-endpoint-label =
+    .value = Omdirigerings-URI:
+    .accesskey = d
 oauth2-use-pkce =
     .label = Använd PKCE
     .accesskey = k
@@ -51,3 +60,9 @@ ews-endpointhost-label =
 ews-oauthscopes-label =
     .value = OAuth-omfattning:
     .accesskey = A
+# Variables:
+#   $extensionName (String) - The display name of the extension providing
+#     the OAuth2 settings.
+# Shown in Account Settings below the authentication method when OAuth2
+# settings are provided by an extension.
+oauth-provider-extension-info = OAuth2-inställningar tillhandahållna av tillägget: <a data-l10n-name="extension">{ $extensionName }</a>

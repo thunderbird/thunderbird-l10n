@@ -25,3 +25,45 @@ remove-data-chat-account-description = Tar bort alla loggar för konversationer 
 show-data-button =
     .label = Visa dataplacering
     .accesskey = V
+# Variables:
+# $count (Number) - The number of outgoing servers to be removed.
+remove-outgoing-servers-checkbox =
+    .label =
+        { $count ->
+            [one] Ta bort utgående server
+           *[other] Ta bort { $count } utgående servrar
+        }
+# Variables:
+# $count (Number) - The number of address books to be removed.
+remove-address-books-checkbox =
+    .label =
+        { $count ->
+            [one] Ta bort adressbok
+           *[other] Ta bort { $count } adressböcker
+        }
+# Variables:
+# $count (Number) - The number of calendars to be removed.
+remove-calendars-checkbox =
+    .label =
+        { $count ->
+            [one] Ta bort kalender
+           *[other] Ta bort { $count } kalendrar
+        }
+# Variables:
+# $count (Number) - The number of passwords to be removed.
+remove-passwords-checkbox =
+    .label =
+        { $count ->
+            [one] Ta bort lösenord
+           *[other] Ta bort { $count } lösenord
+        }
+# Variables:
+# $count (Number) - The number of OAuth tokens to be removed.
+remove-oauth-tokens-checkbox =
+    .label =
+        { $count ->
+            [one] Ta bort OAuth-token
+           *[other] Ta bort { $count } OAuth-tokens
+        }
+remove-account-progress-success = Kontot har tagits bort.
+remove-account-progress-failure = Något gick fel! Det gick inte att slutföra borttagningen av kontot.
