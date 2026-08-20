@@ -14,6 +14,7 @@ configured-cert-failure-detail = სერტიფიკატი ვერ დ
 configured-cert-failure = სერტიფიკატი ვერ დამოწმდა შეცდომის კოდით { $errorCode }
 # Cryptographic details displayed in the message security popup
 smime-crypto-signature-algorithm = ხელმოწერის ალგორითმი:
+smime-crypto-digest-algorithm = ხელმოწერის ანაბეჭდის ალგორითმი:
 smime-crypto-cipher = დაშიფვრის ალგორითმი:
 smime-crypto-key-encryption = გასაღების დაშიფვრის ალგორითმი:
 # $algorithm - The encryption algorithm name (e.g. "AES-GCM")
