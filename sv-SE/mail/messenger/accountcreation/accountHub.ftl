@@ -52,6 +52,7 @@ account-hub-email-continue-button = Fortsätt
 account-hub-email-set-up-account-button = Konfigurera konto
 account-hub-email-confirm-button = Bekräfta
 account-hub-email-find-settings-button = Hitta inställningar
+account-hub-email-connect-button = Anslut
 account-hub-result-incoming-legend = Inkommande
 account-hub-result-outgoing-legend = Utgående
 account-hub-all-servers-legend = Alla servrar
@@ -118,6 +119,8 @@ account-hub-ssl-noencryption-option =
 account-hub-auth-no-authentication-option =
     .label = Ingen autentisering
 account-hub-auth-label = Autentiseringsmetod
+account-hub-select-option =
+    .label = Välj ett alternativ
 account-hub-username-label = Användarnamn
 account-hub-username-warning-icon = Användarnamn krävs
 account-hub-address-book-username-error-text = Ange ett användarnamn
@@ -235,6 +238,10 @@ account-hub-manual-config-incoming-legend = Inkommande server
 account-hub-manual-config-outgoing-legend = Utgående server
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
 account-hub-same-username-checkbox = Samma användarnamn som servern för inkommande e-post
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-security-changed = Kunde inte hitta { $oldValue }, men { $newValue } är tillgänglig.
 account-hub-protocol-imap = Synkronisering mellan enheter
 account-hub-protocol-microsoft = Exchange eller Microsoft 365
 account-hub-protocol-pop3 = Hämta till enhet

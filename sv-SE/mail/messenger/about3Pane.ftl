@@ -282,6 +282,7 @@ threadpane-column-label-unread-button =
     .label = Lässtatus
 threadpane-cell-read-status =
     .aria-label = Lässtatus
+threadpane-new-cell-label = Ny
 threadpane-read-cell-label = Läst
 threadpane-unread-cell-label = Oläst
 threadpane-column-header-a11y-sender =
