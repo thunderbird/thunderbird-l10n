@@ -27,6 +27,7 @@ policy-DisableBuiltinPDFViewer = Dezactivează PDF.js, lectorul de fișiere PDF 
 policy-DisabledCiphers = Dezactivează cifrurile.
 policy-DefaultDownloadDirectory = Setează directorul implicit pentru descărcări.
 policy-DisableAppUpdate = Împiedică actualizările pentru { -brand-short-name }.
+policy-DisableDataCollectionSettings = Împiedică utilizatorul să-și modifice setările de colectare a datelor.
 policy-DisableDefaultClientAgent = Împiedică agentul clientului implicit să ia vreo măsură. Aplicabilitate numai pentru Windows; alte platforme nu au agentul.
 policy-DisableDeveloperTools = Blochează accesul la uneltele pentru dezvoltatori.
 policy-DisableFeedbackCommands = Dezactivează comenzile de transmitere de feedback din meniul de Asistență (Transmisie feedback și Raportare site-uri înșelătoare).
