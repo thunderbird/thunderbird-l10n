@@ -711,7 +711,7 @@ show-only-calendar =
     .label = მხოლოდ { $name }-ის ჩვენება
 # LOCALIZATION NOTE (modify-conflict-*)
 # Used by the event dialog to resolve item modification conflicts.
-modify-conflict-prompt-title = წინააღმდეგობრივობა ელემენტის შეცვლისას
+modify-conflict-prompt-title = წინააღმდეგობრიობა ერთეულის ცვლილებისას
 modify-conflict-prompt-message = გამოსულ სარკმელში ჩასწორებული ელემენტი, გახსნის დროს შეიცვალა.
 modify-conflict-prompt-button1 = სხვა ცვილებებზე გადაწერა
 modify-conflict-prompt-button2 = ცვლილებების გაუქმება

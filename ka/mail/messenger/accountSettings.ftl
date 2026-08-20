@@ -15,6 +15,21 @@ outgoing-server-name = გამავალი სერვერი:
 outgoing-server-edit =
     .label = გამავალი სერვერის ჩასწორება…
     .accesskey = ო
+oauth2-use-custom-details =
+    .label = გამოიყენოს მორგებული OAuth2-გამართვა
+    .accesskey = რ
+oauth2-client-id-label =
+    .value = კლიენტის ID:
+    .accesskey = ლ
+oauth2-redirection-endpoint-label =
+    .value = გადამისამართების URI:
+    .accesskey = ს
+oauth2-use-pkce =
+    .label = გამოიყენოს PKCE
+    .accesskey = ყ
+oauth2-use-system-browser =
+    .label = გამოიყენოს სისტემის ბრაუზერი
+    .accesskey = ზ
 ews-url-label =
     .value = კვანძის URL:
     .accesskey = კ
@@ -36,3 +51,9 @@ ews-endpointhost-label =
 ews-oauthscopes-label =
     .value = OAuth-მხარეები:
     .accesskey = ხ
+# Variables:
+#   $extensionName (String) - The display name of the extension providing
+#     the OAuth2 settings.
+# Shown in Account Settings below the authentication method when OAuth2
+# settings are provided by an extension.
+oauth-provider-extension-info = OAuth2-გამართვა მოწოდებული გაფართოების მიერ: <a data-l10n-name="extension">{ $extensionName }</a>

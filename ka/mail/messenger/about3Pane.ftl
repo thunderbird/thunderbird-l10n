@@ -281,6 +281,7 @@ threadpane-column-label-unread-button =
     .label = წაკითხვის მდგომარეობა
 threadpane-cell-read-status =
     .aria-label = წაკითხვის მდგომარეობა
+threadpane-new-cell-label = ახალი
 threadpane-read-cell-label = წაკითხული
 threadpane-unread-cell-label = წასაკითხი
 threadpane-column-header-a11y-sender =
