@@ -27,6 +27,7 @@ policy-DisableBuiltinPDFViewer = Eingebauten PDF-Betrachter von { -brand-short-n
 policy-DisabledCiphers = Chiffren deaktivieren
 policy-DefaultDownloadDirectory = Standardordner für Downloads festlegen
 policy-DisableAppUpdate = Updates von { -brand-short-name } deaktivieren
+policy-DisableDataCollectionSettings = Verhindert, dass Benutzer die Einstellungen zur Datenerhebung ändern.
 policy-DisableDefaultClientAgent = Aktionen des Programms zur Erkennung der Standardprogramme für Protokolle deaktivieren. Findet nur auf Windows Anwendung, da andere Betriebssysteme nicht über dieses Programm verfügen.
 policy-DisableDeveloperTools = Zugriff auf Entwicklerwerkzeuge deaktivieren
 policy-DisableFeedbackCommands = Feedback senden über "Hilfe"-Menü deaktivieren ("Feedback senden…" und "Betrügerische Website melden…")
