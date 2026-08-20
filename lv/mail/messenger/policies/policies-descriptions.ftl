@@ -24,6 +24,7 @@ policy-Cookies = Ļaut vai liegt vietnēm iestatīt sīkfailus.
 policy-DisabledCiphers = Liegt šifrus.
 policy-DefaultDownloadDirectory = Iestatīt noklusēto lejuplādes mapi.
 policy-DisableAppUpdate = Liegt { -brand-short-name } atjaunošanu.
+policy-DisableDataCollectionSettings = Neļaut lietotājiem mainīt datu ievākšanas iestatījumus.
 policy-DisableDefaultClientAgent = Liegt noklusētajam klienta aģentam veikt jebkādas darbības. Attiecas tikai uz Windows; citās platformās aģenta nav.
 policy-DisableDeveloperTools = Liegt piekļuvi izstrādātāju rīkiem.
 policy-DisableFeedbackCommands = Liegt komandas, kas sūta atsauksmes no Palīdzība izvēlnes (Sūtīt atsauksmi un Ziņot par krāpnieku lapu).
