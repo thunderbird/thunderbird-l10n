@@ -12,3 +12,11 @@ configured-cert-ok-sig = 此证书已通过测试，可以用于邮件签名。
 configured-cert-failure-detail = 证书验证失败，错误为：{ $errorMsg }（错误代码：{ $errorCodeStr }）
 # $errorCode A numeric error code
 configured-cert-failure = 证书验证失败，错误代码为 { $errorCode }
+# $errorCode A numeric error code
+# Note the initial empty line is necessary to preserve the line breaks.
+configured-cert-failure-use-anyway-v2 =
+    此证书存在问题。
+    
+    证书验证失败（错误代码：{ $errorCode }）。
+    
+    您仍要使用此证书吗？

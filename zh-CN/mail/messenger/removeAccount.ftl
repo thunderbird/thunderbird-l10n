@@ -25,3 +25,19 @@ remove-data-chat-account-description = 移除本地磁盘上为此账户存储�
 show-data-button =
     .label = 显示数据位置
     .accesskey = S
+# Variables:
+# $count (Number) - The number of address books to be removed.
+remove-address-books-checkbox =
+    .label = 移除 { $count } 份通讯录
+# Variables:
+# $count (Number) - The number of calendars to be removed.
+remove-calendars-checkbox =
+    .label = 移除 { $count } 份日历
+# Variables:
+# $count (Number) - The number of passwords to be removed.
+remove-passwords-checkbox =
+    .label = 移除 { $count } 个密码
+# Variables:
+# $count (Number) - The number of OAuth tokens to be removed.
+remove-oauth-tokens-checkbox =
+    .label = 移除 { $count } 个 OAuth 令牌
