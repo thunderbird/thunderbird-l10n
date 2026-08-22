@@ -47,7 +47,7 @@ addon-install-blocked-by-policy = { $addonName } ({ $addonId }) ir bloķējis j�
 webext-perms-sideload-menu-item = { $addonName } pievienots { -brand-short-name }
 # Variables:
 #   $addonName (String): the localized name of the extension which has been updated.
-webext-perms-update-menu-item = { $addonName } pieprasa jaunas atļaujas
+webext-perms-update-menu-item = { $addonName } nepieciešamas jaunas atļaujas
 
 ## Add-on removal warning
 
