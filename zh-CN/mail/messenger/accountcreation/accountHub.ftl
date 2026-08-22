@@ -50,6 +50,7 @@ account-hub-email-finish-button = 完成
 account-hub-email-manually-configure-button = 手动配置
 account-hub-email-continue-button = 继续
 account-hub-email-confirm-button = 确认
+account-hub-email-connect-button = 连接
 account-hub-result-incoming-legend = 收件
 account-hub-result-outgoing-legend = 发件
 account-hub-all-servers-legend = 所有服务器
@@ -79,6 +80,8 @@ account-hub-result-authentication-gssapi = Kerberos
     .title = Kerberos
 account-hub-result-authentication-ntlm = NTLM
     .title = NTLM
+account-hub-result-authentication-external = 外部
+    .title = 外部
 account-hub-result-authentication-oauth2 = OAuth2
     .title = OAuth2
 account-hub-result-auth-none = 无
@@ -222,6 +225,18 @@ account-hub-calendars-button = 日历
 account-hub-thundermail-button = 使用 Thundermail 登录
 # Used as part of a divider between sign in button and a sign in form.
 account-hub-thundermail-divider-text = 或
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-security-changed = 找不到 { $oldValue }，但有 { $newValue } 可用。
+# Variables:
+# $oldValue (String): The port requested before the configuration was tested.
+# $newValue (String): The port found after the configuration was tested.
+account-hub-manual-config-port-changed = 无法连接到端口 { $oldValue }，但端口 { $newValue } 可用。
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-value-changed = 无法使用 { $oldValue }，但可以使用 { $newValue }。
 account-hub-notification-show-more = 展开
 account-hub-notification-show-less = 折叠
 account-hub-email-setup-header = 添加邮箱地址
