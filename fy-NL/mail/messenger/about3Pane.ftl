@@ -282,6 +282,7 @@ threadpane-column-label-unread-button =
     .label = Lêssteat
 threadpane-cell-read-status =
     .aria-label = Lêssteat
+threadpane-new-cell-label = Nij
 threadpane-read-cell-label = Lêzen
 threadpane-unread-cell-label = Net lêzen
 threadpane-column-header-a11y-sender =

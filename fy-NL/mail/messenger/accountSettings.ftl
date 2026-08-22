@@ -15,6 +15,30 @@ outgoing-server-name = Utgeande server:
 outgoing-server-edit =
     .label = Utgeande server bewurkje…
     .accesskey = U
+oauth2-use-custom-details =
+    .label = Oanpaste OAuth2-ynstellingen brûke
+    .accesskey = O
+oauth2-client-id-label =
+    .value = Client-ID:
+    .accesskey = C
+oauth2-authorization-endpoint-label =
+    .value = Autorisaasje-einpunt:
+    .accesskey = A
+oauth2-token-endpoint-label =
+    .value = Tokeneinpunt:
+    .accesskey = T
+oauth2-scopes-label =
+    .value = Scopes:
+    .accesskey = S
+oauth2-redirection-endpoint-label =
+    .value = Omliedings-URI:
+    .accesskey = O
+oauth2-use-pkce =
+    .label = PKCE brûke
+    .accesskey = P
+oauth2-use-system-browser =
+    .label = Systeemwebbrowser brûke
+    .accesskey = S
 ews-url-label =
     .value = Host-URL:
     .accesskey = H
@@ -36,3 +60,9 @@ ews-endpointhost-label =
 ews-oauthscopes-label =
     .value = OAuth-berik:
     .accesskey = b
+# Variables:
+#   $extensionName (String) - The display name of the extension providing
+#     the OAuth2 settings.
+# Shown in Account Settings below the authentication method when OAuth2
+# settings are provided by an extension.
+oauth-provider-extension-info = OAuth2-ynstellingen levere troch útwreiding: <a data-l10n-name="extension">{ $extensionName }</a>
