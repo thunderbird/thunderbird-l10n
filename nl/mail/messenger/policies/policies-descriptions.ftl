@@ -27,6 +27,7 @@ policy-DisableBuiltinPDFViewer = PDF.js uitschakelen, de ingebouwde PDF-viewer i
 policy-DisabledCiphers = Coderingssuites uitschakelen.
 policy-DefaultDownloadDirectory = Standaard downloadmap instellen.
 policy-DisableAppUpdate = Voorkomen dat { -brand-short-name } wordt bijgewerkt.
+policy-DisableDataCollectionSettings = Voorkomen dat de gebruiker instellingen voor gegevensverzameling wijzigt.
 policy-DisableDefaultClientAgent = Voorkomen dat de standaard clientagent enige actie onderneemt. Alleen van toepassing op Windows; andere platformen beschikken niet over de agent.
 policy-DisableDeveloperTools = Toegang tot de ontwikkelaarshulpmiddelen blokkeren.
 policy-DisableFeedbackCommands = Opdrachten voor het verzenden van feedback vanuit het menu Help uitschakelen (Feedback verzenden en Misleidende website rapporteren).
