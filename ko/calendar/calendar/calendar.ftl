@@ -526,6 +526,11 @@ format-date-long = { $year }년 { $monthName }월 { $dayIndex }일 { $dayName }
 day-header = { $dayName } { $dayIndex }
 day-header-elem =
     .label = { day-header }
+# LOCALIZATION NOTE (calendar-multiday-hour-slot):
+# Label for a time slot in the day/week calendar views.
+#    $date will be replaced with the day label, e.g. "Monday 6 Oct.";
+#    $time will be replaced with the time of the slot, e.g. "9:00 AM".
+calendar-multiday-hour-slot = { $date } { $time }
 # LOCALIZATION NOTE (datetime-interval-task-without-date):
 # used for task without start and due date
 # (showed only in exported calendar in Html format)
@@ -1052,6 +1057,10 @@ attachments-tab-label = 첨부파일({ $count }):
 #   $docTitle (String) - The date or view label for the current calendar view.
 calendar-window-title = { $docTitle } - { -brand-full-name }
 calendar-window-title-base = { -brand-full-name }
+# Variables:
+#   $username (String) - The account username.
+#   $location (String) - The calendar server location.
+calendar-auth-enter-password-for = { $location } 내 { $username }의 비밀번호 입력
 # Variables:
 #   $location (String) - The calendar server location.
 calendar-auth-enter-user-password-for = { $location } 서버가 사용자 이름과 비밀번호를 요청하고 있습니다.
