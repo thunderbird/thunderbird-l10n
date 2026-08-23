@@ -15,6 +15,9 @@ outgoing-server-name = Giden sunucusu:
 outgoing-server-edit =
     .label = Giden sunucusunu düzenle…
     .accesskey = G
+oauth2-use-pkce =
+    .label = PKCE kullan
+    .accesskey = K
 ews-url-label =
     .value = Sunucu adresi:
     .accesskey = u
@@ -36,3 +39,9 @@ ews-endpointhost-label =
 ews-oauthscopes-label =
     .value = OAuth kapsamları:
     .accesskey = O
+# Variables:
+#   $extensionName (String) - The display name of the extension providing
+#     the OAuth2 settings.
+# Shown in Account Settings below the authentication method when OAuth2
+# settings are provided by an extension.
+oauth-provider-extension-info = OAuth2 ayarlarını <a data-l10n-name="extension">{ $extensionName }</a> uzantısı sağlamaktadır.

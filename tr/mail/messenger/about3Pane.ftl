@@ -282,6 +282,7 @@ threadpane-column-label-unread-button =
     .label = Okunma durumu
 threadpane-cell-read-status =
     .aria-label = Okunma durumu
+threadpane-new-cell-label = Yeni
 threadpane-read-cell-label = Okundu
 threadpane-unread-cell-label = Okunmadı
 threadpane-column-header-a11y-sender =
