@@ -13,6 +13,9 @@ multi-message-delete-button =
 multi-message-undelete-button =
     .label = 복구
     .tooltiptext = 복구
+multi-message-flagged-button =
+    .title = 별표
+    .aria-label = 별표
 # Variables:
 #   $count - total number of conversations (threads or solitary messages) selected
 num-conversations = { $count }개의 대화

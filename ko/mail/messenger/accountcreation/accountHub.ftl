@@ -243,14 +243,27 @@ account-hub-manual-config-pop3-title = POP3 설정
 account-hub-manual-config-review-settings-title = 변경된 설정 검토
 account-hub-manual-config-incoming-legend = 받는 서버
 account-hub-manual-config-outgoing-legend = 보내는 서버
+# Label for checkbox that will hide an outgoing username input if it's the same is the incoming
+account-hub-same-username-checkbox = 받는 서버와 같은 사용자명
 # Variables:
 # $oldValue (String): The value requested before the configuration was tested.
 # $newValue (String): The value found after the configuration was tested.
 account-hub-manual-config-security-changed = { $oldValue } 값은 찾을 수 없지만 { $newValue } 값은 사용할 수 있습니다.
+# Variables:
+# $oldValue (String): The port requested before the configuration was tested.
+# $newValue (String): The port found after the configuration was tested.
+account-hub-manual-config-port-changed = { $oldValue } 포트에 연결할 수 없지만 { $newValue } 포트는 사용할 수 있습니다.
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-value-changed = { $oldValue }를 사용할 수 없지만 { $newValue }를 사용할 수 있습니다.
 account-hub-protocol-imap = 기기간 동기화
 account-hub-protocol-microsoft = Exchange 또는 Microsoft 365
 account-hub-protocol-pop3 = 기기로 다운로드
 account-hub-oauth-unsupported-title = 추가 설정 필요
+# Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
+# 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
+account-hub-oauth-unsupported-description = { -brand-short-name }가 이 호스트 이름에 대해 OAuth2를 자동으로 구성할 수 없습니다. 생성을 위한 고급 설정을 선택하고, 계정 설정에서 설정을 완료해 주십시오. <a data-l10n-name="oauth-support-link">OAuth2 설정에 대한 도움 받기</a>
 account-hub-username-help-text = 보통 전체 이메일 주소
 account-hub-notification-show-more = 더 보기
 account-hub-notification-show-less = 간단히 보기
@@ -365,6 +378,7 @@ account-hub-exchange-type-account-type = 계정 종류
 account-hub-card-graph-title = Microsoft Graph
 account-hub-card-graph-description = Microsoft Graph는 Microsoft 365를 연결하는 최신 방법입니다.
 account-hub-card-ews-title = Exchange 웹 서비스
+account-hub-card-ews-tag = 레거시
 account-hub-card-ews-description = Exchange 웹 서비스(EWS)가 Microsoft Exchange에 연결하여 메일을 동기화합니다.
 # This is shown after the type description, so "it" is referring to the type (either Microsoft Graph or Exchange Web Services).
 account-hub-card-recommended-description = 서비스 URL과 일치하므로 이 설정을 권장합니다.

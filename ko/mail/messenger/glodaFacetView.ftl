@@ -9,3 +9,7 @@ facets-mode-to-list-all-label = { $count }개 모두 보기
 # Variables:
 #   $count - the number items
 facet-view-and-others = 외 { $count }개
+# Variables:
+#   $m - the number M in "M of N" items
+#   $n - the number N in "M of N" items
+item-count-m-of-n = { $m } / { $n }

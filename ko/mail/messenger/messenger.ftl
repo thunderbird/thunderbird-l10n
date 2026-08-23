@@ -228,6 +228,10 @@ menu-move-to =
 menu-copy-to =
     .label = 복사
     .accesskey = C
+menu-move-copy-recent-destinations-no-accesskey =
+    .label = 최근 대상
+menu-move-copy-favorites-no-accesskey =
+    .label = 즐겨찾기
 menu-move-copy-recent-destinations =
     .label = 최근 대상
     .accesskey = R
@@ -634,6 +638,25 @@ prompt-dont-ask-again = 다시 묻지 않기
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = 스팸 분석 { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } 완료됨
 spam-processing-message = 스팸 메시지 처리
+
+## Ignore threads
+
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-theads-feedback =
+    { $count ->
+        [one] "{ $subject }" 글타래의 답장을 표시하지 않습니다.
+       *[other] 선택한 글타래 { $count }개의 답장을 표시하지 않습니다.
+    }
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-subtheads-feedback =
+    { $count ->
+        [one] "{ $subject }" 하위 글타래의 답장을 표시하지 않습니다.
+       *[other] 선택한 하위 글타래 { $count }개의 답장을 표시하지 않습니다.
+    }
 
 ## Attachments
 

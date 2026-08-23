@@ -396,6 +396,12 @@ key-does-not-expire = 키 만료되지 않음
 key-expired-date = 키가 { $keyExpiry }에 만료됨
 key-expired-simple = 키가 만료됨
 key-revoked-simple = 키 폐기됨
+key-revoked-revocation-code-superseded = 키가 대체되었기 때문에 키가 폐기되었습니다.
+key-revoked-revocation-code-compromised = 키 자료가 손상되었기 때문에 키가 폐기되었습니다.
+key-revoked-revocation-code-retired = 키가 더 이상 쓰이지 않았기 때문에 키가 폐기되었습니다.
+# Variables:
+# $reason (String) - Key owner entered reason for revocation.
+key-revoked-revocation-reason = 키 소유자가 명시한 폐기 사유: { $reason }
 key-do-you-accept = 디지털 서명 확인 및 메시지 암호화를 위해 이 키를 수락합니까?
 # Variables:
 # $addr (String) - Email address the key claims it belongs to.

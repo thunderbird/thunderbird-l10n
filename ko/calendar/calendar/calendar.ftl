@@ -154,6 +154,9 @@ week-title-label =
     .aria-label = { $title }주
 calendar-none =
     .label = 없음
+# Variables:
+#   $fileName (String) - The backup file name, e.g. 'local-2020-05-11T21-30-17.sqlite'.
+too-new-dbschema-error-text = 캘린더 데이터가 이 버전의 { -brand-short-name }와 호환되지 않습니다. 프로필의 캘린더 데이터가 새 버전의 { -brand-short-name }에서 업데이트되었습니다. “{ $fileName }” 데이터 파일의 백업이 생성되었습니다. 새로 생성된 데이터 파일로 계속 진행합니다.
 imip-bar-unsupported-text = 이 메시지는 현재 버전의 { -brand-short-name }이 처리할 수 없는 이벤트를 포함하고 있습니다.
 # Error strings
 # @name UID_NOT_FOUND

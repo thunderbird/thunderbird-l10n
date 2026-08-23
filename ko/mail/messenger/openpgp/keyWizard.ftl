@@ -127,5 +127,10 @@ openpgp-external-key-info = 또한 키 관리자를 사용하여 해당 공개 �
 openpgp-external-key-warning = <b>외부 GnuPG 키를 하나만 구성 할 수 있습니다.</b> 이전 항목이 대체됩니다.
 openpgp-save-external-button = 키 ID 저장
 openpgp-external-key-label = 비밀 키 ID :
+openpgp-import-own-key-title = 내 공개 키 가져오기
+#   $keyId (String) - The Key ID.
+openpgp-import-own-key-description = { -brand-short-name }에서 ID가 { $keyId }인 공개 키를 찾을 수 없습니다. 계속하려면 키를 가져오세요.
+#   $keyId (String) - The Key ID.
+openpgp-import-keyid-failed = 해당 파일에서 { $keyId } 공개 키를 가져올 수 없습니다.
 openpgp-external-key-input =
     .placeholder = 123456789341298340

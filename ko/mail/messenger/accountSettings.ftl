@@ -18,6 +18,27 @@ outgoing-server-edit =
 oauth2-use-custom-details =
     .label = 사용자 지정 OAuth2 설정 사용
     .accesskey = c
+oauth2-client-id-label =
+    .value = 클라이언트 ID:
+    .accesskey = l
+oauth2-authorization-endpoint-label =
+    .value = 인증 엔드포인트:
+    .accesskey = h
+oauth2-token-endpoint-label =
+    .value = 토큰 엔드포인트:
+    .accesskey = t
+oauth2-scopes-label =
+    .value = 범위:
+    .accesskey = s
+oauth2-redirection-endpoint-label =
+    .value = 리다이렉트 URI:
+    .accesskey = r
+oauth2-use-pkce =
+    .label = PKCE 사용
+    .accesskey = k
+oauth2-use-system-browser =
+    .label = 시스템 웹 브라우저 사용
+    .accesskey = b
 ews-url-label =
     .value = 호스트 URL:
     .accesskey = h
@@ -39,3 +60,9 @@ ews-endpointhost-label =
 ews-oauthscopes-label =
     .value = OAuth 범위:
     .accesskey = s
+# Variables:
+#   $extensionName (String) - The display name of the extension providing
+#     the OAuth2 settings.
+# Shown in Account Settings below the authentication method when OAuth2
+# settings are provided by an extension.
+oauth-provider-extension-info = 확장 기능이 OAuth2 설정을 제공함: <a data-l10n-name="extension">{ $extensionName }</a>
