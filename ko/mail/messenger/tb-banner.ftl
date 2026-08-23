@@ -3,3 +3,4 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 tb-banner-show-more = 더 보기
+tb-banner-show-less = 덜 보기

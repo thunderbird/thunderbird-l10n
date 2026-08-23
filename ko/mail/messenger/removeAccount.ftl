@@ -25,3 +25,25 @@ remove-data-chat-account-description = 로컬 디스크에 저장된 이 계정�
 show-data-button =
     .label = 데이터 위치 표시
     .accesskey = S
+# Variables:
+# $count (Number) - The number of outgoing servers to be removed.
+remove-outgoing-servers-checkbox =
+    .label = 보내는 서버 { $count }개 삭제
+# Variables:
+# $count (Number) - The number of address books to be removed.
+remove-address-books-checkbox =
+    .label = 주소록 { $count }개 삭제
+# Variables:
+# $count (Number) - The number of calendars to be removed.
+remove-calendars-checkbox =
+    .label = 캘린더 { $count }개 삭제
+# Variables:
+# $count (Number) - The number of passwords to be removed.
+remove-passwords-checkbox =
+    .label = 비밀번호 { $count }개 삭제
+# Variables:
+# $count (Number) - The number of OAuth tokens to be removed.
+remove-oauth-tokens-checkbox =
+    .label = OAuth 토큰 { $count }개 삭제
+remove-account-progress-success = 계정을 성공적으로 삭제했습니다.
+remove-account-progress-failure = 오류가 발생하였습니다! 계정 삭제를 완료할 수 없습니다.

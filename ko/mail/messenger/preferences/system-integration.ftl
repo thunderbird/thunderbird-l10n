@@ -21,6 +21,10 @@ checkbox-feeds-label =
 checkbox-calendar-label =
     .label = 달력
     .tooltiptext = { unset-default-tooltip }
+# Note: "net.thunderbird://" must not be translated.
+checkbox-net-thunderbird-url-label =
+    .label = 사용자 지정 Thunderbird 링크 (net.thunderbird://)
+    .tooltiptext = { unset-default-tooltip }
 # Note: This is the search engine name for all the different platforms.
 # Platforms that don't support it should be left blank.
 system-search-engine-name =
