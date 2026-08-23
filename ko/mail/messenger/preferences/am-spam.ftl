@@ -5,12 +5,16 @@
 spam-settings-title = 스팸 설정
 dialog-header-title =
     .value = 스팸 설정
+training-description-spam = 사용하는 경우, 스팸 도구 모음 버튼을 사용하여 메시지가 스팸인지 여부를 표시하여 스팸을 식별하도록 { -brand-short-name }를 먼저 학습시켜야 합니다. 스팸 메시지와 스팸이 아닌 메시지를 모두 식별해야 합니다. 그 이후로는 { -brand-short-name }가 자동으로 스팸을 표시할 수 있습니다.
 spam-level-checkbox =
     .label = 이 계정에서 지능형 스팸 처리 기능 사용
     .accesskey = E
 move-spam-message-menuitem =
     .label = 새 스팸 메시지 이동:
     .accesskey = M
+set-spam-folder-menuitem =
+    .label = "스팸" 폴더:
+    .accesskey = S
 move-message-other =
     .label = 기타:
     .accesskey = O
