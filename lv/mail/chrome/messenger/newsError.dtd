@@ -16,7 +16,7 @@
 <!ENTITY serverResponded.title "Ziņu grupas serveris atbildēja:">
 <!-- LOCALIZATION NOTE (articleExpired.title): A string explaining that the
      article may have expired. -->
-<!ENTITY articleExpired.title "Varbūt rakstam beidzies derīguma termiņš?">
+<!ENTITY articleExpired.title "Varbūt ir beidzies raksta beidzies derīgums?">
 <!-- LOCALIZATION NOTE (trySearching.title): A string preceding the message's
      ID. -->
 <!ENTITY trySearching.title "Mēģiniet meklēt rakstu:">
