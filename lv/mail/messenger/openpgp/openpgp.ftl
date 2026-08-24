@@ -522,7 +522,7 @@ revoke-cert-failed = Atsaukšanas sertifikātu neizdevās izveidot.
 gen-going = Jau notiek atslēgu veidošana!
 keygen-missing-user-name = Atlasītajam kontam/identitātei nav norādīts nosaukums. Lūdzu, ievadiet vērtību konta iestatījumu laukā "Jūsu vārds".
 expiry-too-short = Jūsu atslēgai jābūt derīgai vismaz vienu dienu.
-expiry-too-long = Jūs nevarat izveidot atslēgu, kuras derīguma termiņš ir ilgāks par 100 gadiem.
+expiry-too-long = Nevar izveidot atslēgu, kuras derīgums ir ilgāks par 100 gadiem.
 # Variables:
 # $id (String) - Name and/or email address to generate keys for.
 key-confirm = Veidot ‘{ $identity }’ publisko un privāto atslēgu?

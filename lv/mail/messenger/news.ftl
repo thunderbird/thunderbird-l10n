@@ -60,7 +60,7 @@ article-not-found-desc = Ziņu grupas serveris ziņo, ka nevar atrast rakstu.
 # A string preceding the text response from the newsgroup server describing the error.
 news-server-responded-prefix = Ziņu grupas serveris atbildēja:
 # A string explaining that the article may have expired.
-article-may-have-expired = Varbūt rakstam beidzies derīguma termiņš?
+article-may-have-expired = Varbūt ir beidzies raksta derīgums?
 # A string preceding the message's ID.
 try-searching-prefix = Mēģiniet meklēt rakstu:
 # The label for the button to remove all expired articles from the newsgroup.
