@@ -10,7 +10,7 @@
 ## These are short descriptions for individual policies, to be displayed
 ## in the documentation section in about:policies.
 
-policy-3rdparty = მიუთითეთ დებულებები, რომ WebExtension-ებს შეეძლოს chrome.storage.managed-ით წვდომა.
+policy-3rdparty = დებულების მითითება, რითაც WebExtension შეძლებს წვდომისთვის გამოიყენოს chrome.storage.managed.
 policy-AppAutoUpdate = ჩართვა ან გამორთვა, აპლიკაციის თვითგანახლების.
 policy-AppUpdatePin = არ განახლდეს { -brand-short-name } მითითებული ვერსიის გარდა.
 policy-AppUpdateURL = პროგრამის გასაახლებელი URL-მისამართის დაყენება.
