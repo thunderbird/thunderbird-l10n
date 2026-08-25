@@ -70,7 +70,15 @@ power-level-ban = Արգելել օգտվողներին՝ { $powerLevelName }
 #    $powerLevelName is the power level name
 power-level-room-avatar = Փոխել սենյակի ավատարը՝ { $powerLevelName }
 #    $powerLevelName is the power level name
+power-level-history = Փոփոխությունների պատմության տեսանելիությունը՝ { $powerLevelName }
+#    $powerLevelName is the power level name
 power-level-room-name = Փոխել սենյակի անունը՝ { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-change-permissions = Փոխել թույլտվությունները՝ { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-server-acl = Ուղարկել m.room.server_acl իրադարձությունները՝ { $powerLevelName }
+#    $powerLevelName is the power level name
+power-level-upgrade-room = Թարմացրեք սենյակը՝ { $powerLevelName }
 # LOCALIZATION NOTE (detail-*):
 #    These are the string representations of different matrix properties.
 #    $value will typically be strings with the actual values.
@@ -90,6 +98,8 @@ detail-alias = Փոխանուն՝ { $value }
 detail-guest = Հյուրերի մուտք՝ { $value }
 # This is a heading, followed by the power-level-* strings
 detail-power = Հզորության մակարդակներ՝
+# $commandName is the command name
+command-leave = { $commandName }: Լքել ներկայիս սենյակը։
 # LOCALIZATION NOTE (message-*):
 #    These are shown as system messages in the conversation.
 #    $user is the name of the user who banned.
@@ -100,8 +110,12 @@ message-accepted-invite = { $user }-ն ընդունել է հրավերը:
 #    $user is the name of the user who invited.
 #    $userWhoGotInvited is the name of the user who got invited.
 message-invited = { $user }-ը հրավիրել է { $userWhoGotInvited }-ին:
+#    $user is the name of the user who has left the room.
+message-left = { $user }-ը լքել է սենյակը։
 #    $user is the name of the user who has removed the room name.
 message-room-name-remove = { $user }-ը հեռացրեց սենյակի անունը:
+#    $user is the name of the user who has made future room history visible to anyone.
+message-history-anyone = { $user }-ը ապագա սենյակի պատմությունը տեսանելի դարձրեց բոլորի համար։
 message-verification-done = Նույնականացումը ավարտվեց:
 message-decrypting = Վերծանում…
 #    Label in the message context menu

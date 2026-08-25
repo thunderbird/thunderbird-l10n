@@ -220,6 +220,7 @@
 <!ENTITY smiley14Cmd.label "Անմեղ">
 <!ENTITY smiley15Cmd.label "Լաց">
 <!ENTITY smiley16Cmd.label "Բերանփակ">
+<!ENTITY smiley17Cmd.label "Զայրացած">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Առաջարկություններ չկան">
 <!ENTITY spellCheckIgnoreWord.label "Անտեսել բառը">
