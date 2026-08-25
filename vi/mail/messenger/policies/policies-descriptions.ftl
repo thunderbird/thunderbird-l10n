@@ -27,6 +27,7 @@ policy-DisableBuiltinPDFViewer = Vô hiệu hóa PDF.js, trình xem PDF tích h�
 policy-DisabledCiphers = Vô hiệu hóa thuật toán mã hóa.
 policy-DefaultDownloadDirectory = Đặt thư mục tải xuống mặc định.
 policy-DisableAppUpdate = Ngăn { -brand-short-name } cập nhật.
+policy-DisableDataCollectionSettings = Ngăn người dùng thay đổi cài đặt thu thập dữ liệu.
 policy-DisableDefaultClientAgent = Ngăn không cho tác nhân khách mặc định thực hiện bất kỳ hành động nào. Chỉ áp dụng cho Windows; các nền tảng khác không có tác nhân.
 policy-DisableDeveloperTools = Chặn quyền truy cập vào các công cụ dành cho nhà phát triển.
 policy-DisableFeedbackCommands = Tắt các lệnh để gửi phản hồi từ bảng chọn trợ giúp (gửi phản hồi và báo cáo trang web lừa đảo).
