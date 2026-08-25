@@ -48,9 +48,9 @@ conversation-error-join-failed = Neizdevās pievienoties: { $mucName }
 #   This is displayed in a conversation as an error message when the user is
 #   banned from a room.
 #   $mucName is the name of the MUC room.
-conversation-error-join-forbidden = Neizdevās pievienoties { $mucName }, jo jums ir liegta piekļuve šai istabai.
+conversation-error-join-forbidden = Neizdevās pievienoties { $mucName }, jo ir liegta piekļuve šai istabai.
 conversation-error-join-failed-not-authorized = Nepieciešama reģistrācija: jums nav atļauts pievienoties šai istabai.
-conversation-error-creation-failed-not-allowed = Piekļuve liegta: jums nav atļauts veidot istabas.
+conversation-error-creation-failed-not-allowed = Piekļuve liegta: nav atļauts izveidot istabas.
 #   This is displayed in a conversation as an error message when remote server
 #   is not found.
 #   $mucName is the name of MUC room.
@@ -73,7 +73,7 @@ conversation-error-unknown-send-error = Nosūtot ziņojumu, radās nezināma kļ
 conversation-error-send-service-unavailable = Šobrīd uz { $nick } nav iespējams nosūtīt ziņojumus.
 #   $nick is the nick of participant that is not in room.
 conversation-error-nick-not-in-room = { $nick } nav istabā.
-conversation-error-ban-command-anonymous-room = Jūs nevarat aizliegt dalībniekus no anonīmām telpām. Tā vietā mēģiniet /kick.
+conversation-error-ban-command-anonymous-room = Tu nevari liegt dalībniekus no anonīmām telpām. Tā vietā jāmēģina /kick.
 conversation-error-ban-kick-command-not-allowed = Lai izņemtu šo dalībnieku no istabas, jums nav nepieciešamo tiesību.
 conversation-error-ban-kick-command-conflict = Diemžēl jūs nevarat noņemt no istabas sevi.
 #   $nick is the nick of participant that is not in room.
@@ -169,10 +169,10 @@ conversation-message-invitation-declined-reason = { $invitee } ir noraidījis j�
 #   These are displayed as a system message when a participant is banned from
 #   a room.
 #   $affectedNick (String) is the participant that is banned.
-conversation-message-banned = { $affectedNick } ir aizliegta istaba.
+conversation-message-banned = { $affectedNick } tika liegta piekļuve istabai.
 #   $affectedNick (String) is the participant that is banned.
 #   $reason (String) is the reason.
-conversation-message-banned-reason = { $affectedNick } ir aizliegta istaba: { $reason }
+conversation-message-banned-reason = { $affectedNick } tika liegta piekļuve istabai: { $reason }
 #   $actorNick (String) is the person who is banning.
 #   $affectedNick (String) is the participant that is banned.
 conversation-message-banned-actor = { $actorNick } ir aizliedzis istabu lietotājam { $affectedNick }.
@@ -180,9 +180,9 @@ conversation-message-banned-actor = { $actorNick } ir aizliedzis istabu lietotā
 #   $affectedNick (String) is the participant that is banned.
 #   $reason (String) is the reason.
 conversation-message-banned-actor-reason = { $actorNick } ir aizliedzis istabu { $reason } lietotājam { $affectedNick }
-conversation-message-banned-you = Jūs esat izliegts no istabas.
+conversation-message-banned-you = Tev ir liegta piekļuve istabai.
 #   $reason (String) is the reason.
-conversation-message-banned-you-reason = Jūs esat izliegts no istabas: { $reason }
+conversation-message-banned-you-reason = Tev ir liegta piekluve istabai: { $reason }
 #   $actorNick (String) is the person who is banning.
 conversation-message-banned-you-actor = { $actorNick } ir izliedzis jūs no istabas.
 #   $actorNick (String) is the person who is banning.
@@ -266,7 +266,7 @@ command-part2 = { $commandName } [&lt;message&gt;]: pamest pašreizējo istabu a
 # $commandName (String): command name
 command-topic = { $commandName }[&lt;jauna tēma&gt;]: iestatīt šīs istabas tēmu.
 # $commandName (String): command name
-command-ban = { $commandName } &lt;segvārds&gt;[&lt;ziņojums&gt;]: Izliegt kādu no istabas. Lai to veiktu, jums jābūt istabas administratoram.
+command-ban = { $commandName } &lt;segvārds&gt;[&lt;ziņojums&gt;]: liegt kādam piekļuvi istabai. Lai to veiktu, jābūt istabas pārvaldītājam.
 # $commandName (String): command name
 command-kick = { $commandName } &lt;segvārds&gt;[&lt;ziņojums&gt;]: Izraidīt kādu no istabas. Lai to veiktu, jums jābūt istabas administratoram.
 # $commandName (String): command name
