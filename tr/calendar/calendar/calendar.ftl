@@ -132,7 +132,7 @@ duplicate-error =
 unable-to-create-provider = { $location } adresindeki takvimin kullanımı esnasında bir hata meydana geldi. Bu takvim kullanılmayacak.
 # Sample: Unknown timezone "USPacific" in "Dentist Appt".  Using the 'floating' local timezone instead: 2008/02/28 14:00:00
 # $timezone timezone name, $title item title, $datetime date-time
-unknown-timezone-in-item = "{ $title }" içinde bilinmeyen saat dilimi: "{ $timezone }".  'Sabit' yerel saat dilimi olarak işlendi: { $datetime }
+unknown-timezone-in-item = “{ $title }"”içinde bilinmeyen saat dilimi: “{ $timezone }”.  ‘Sabit’ yerel saat dilimi olarak işlendi: { $datetime }
 timezone-errors-alert-title = Saat Dilimi Hataları
 timezone-errors-see-console = Hata konsoluna bakın: Bilinmeyen saat dilimleri 'sabit' yerel saat dilimi olarak işleme alınır.
 # The following strings are for the prompt to delete/unsubscribe from the calendar
@@ -142,15 +142,15 @@ remove-calendar-button-unsubscribe = Abonelikten çık
 # LOCALIZATION NOTE (remove-calendar-message-delete-or-unsubscribe): Shown for
 # calendar where both deleting and unsubscribing is possible.
 # $name:  The name of a calendar
-remove-calendar-message-delete-or-unsubscribe = "{ $name }" takvimini kaldırmak istiyor musunuz? Abonelikten çıkmak takvimi listeden kaldırır, bunun yanında takvimin tüm verilerini de temizler.
+remove-calendar-message-delete-or-unsubscribe = “{ $name }” takvimini kaldırmak istiyor musunuz? Abonelikten çıkmak takvimi listeden kaldırır, bunun yanında takvimin tüm verilerini de temizler.
 # LOCALIZATION NOTE (remove-calendar-message-delete): Shown for calendar where
 # deleting is the only option.
 # $name:  The name of a calendar
-remove-calendar-message-delete = "{ $name }" takvimini kalıcı olarak silmek istiyor musunuz?
+remove-calendar-message-delete = “{ $name }” takvimini kalıcı olarak silmek istiyor musunuz?
 # LOCALIZATION NOTE (remove-calendar-message-unsubscribe): Shown for calendar
 # where unsubscribing is the only option.
 # $name:  The name of a calendar
-remove-calendar-message-unsubscribe = "{ $name }" takviminin aboneliğinden çıkmak istiyor musunuz?
+remove-calendar-message-unsubscribe = “{ $name }” takviminin aboneliğinden çıkmak istiyor musunuz?
 # $title title
 week-title = Hafta { $title }
 # $title title
@@ -168,7 +168,7 @@ imip-bar-unsupported-text = Bu ileti, { -brand-short-name } uygulamasının bu s
 # LOCALIZATION NOTE (too-new-schema-error-text):
 #    $hostApplication will be replaced with the name of the host application, e.g. 'Thunderbird'
 #    $fileName will be replaced with the name of the new copy of the file, e.g. 'local-2020-05-11T21-30-17.sqlite'
-too-new-schema-error-text = Takvim verileriniz bu { $hostApplication } sürümüyle uyumlu değil. Profilinizdeki takvim verileri daha yeni bir { $hostApplication } sürümü tarafından güncellendi. Veri dosyasının yedeği oluşturuldu ve "{ $fileName }" olarak adlandırıldı. Yeni oluşturulan veri dosyasıyla devam ediliyor.
+too-new-schema-error-text = Takvim verileriniz bu { $hostApplication } sürümüyle uyumlu değil. Profilinizdeki takvim verileri daha yeni bir { $hostApplication } sürümü tarafından güncellendi. Veri dosyasının yedeği oluşturuldu ve “{ $fileName }” olarak adlandırıldı. Yeni oluşturulan veri dosyasıyla devam ediliyor.
 # List of events or todos (unifinder)
 event-untitled = Başlıksız
 # Tooltips of events or todos
@@ -907,21 +907,21 @@ calendar-task-details-start = başlangıç tarihi
 calendar-task-details-due = bitiş tarihi
 calendar-task-mark-completed =
     .label = Tamamlanmış olarak işaretle
-    .accesskey = o
     .tooltiptext = Seçili görevleri tamamlanmış olarak işaretle
+    .accesskey = o
 calendar-task-change-priority =
     .label = Öncelik
-    .accesskey = n
     .tooltiptext = Önceliği değiştir
+    .accesskey = n
 calendar-task-input-filter-field =
     .aria-label = Görevleri süz
     .emptytextbase = Görevleri süz #1
-    .keylabelnonmac = <Ctrl+Shift+K>
     .keylabelmac = <⇧⌘K>
+    .keylabelnonmac = <Ctrl+Shift+K>
 calendar-task-text-filter-field =
     .emptytextbase = Görevleri süz #1
-    .keylabelnonmac = <Ctrl+Shift+K>
     .keylabelmac = <⇧⌘K>
+    .keylabelnonmac = <Ctrl+Shift+K>
 calendar-copylink =
     .label = Bağlantı konumunu kopyala
     .accesskey = k
@@ -979,10 +979,10 @@ calendar-properties-enable-calendar =
     .label = Bu takvimi etkinleştir
 calendar-properties-provider-missing = Takvim sağlayıcısı bulunamadı. Bu tür sorunlar genelde sağlayıcı için gerekli eklentilerin devre dışı bırakılması veya kaldırması nedeniyle oluşur.
 calendar-properties-unsubscribe =
-    .label = Aboneliği iptal et
-    .accesskey = b
     .buttonlabelextra1 = Aboneliği iptal et
     .buttonaccesskeyextra1 = b
+    .label = Aboneliği iptal et
+    .accesskey = b
 calendar-alarm-dialog-title = Takvim anımsatıcıları
 calendar-alarm-details =
     .value = Ayrıntılar…
