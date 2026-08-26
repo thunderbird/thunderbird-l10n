@@ -592,9 +592,9 @@ enable-cloud-share =
 cloud-share-size =
     .value = MB
 add-cloud-account =
+    .defaultlabel = Ekle…
     .label = Ekle…
     .accesskey = E
-    .defaultlabel = Ekle…
 remove-cloud-account =
     .label = Kaldır
     .accesskey = K
@@ -818,7 +818,7 @@ preferences-doh-url-custom =
 
 ## Keyservers
 
-email-e2ee-key-servers-legend = OpenPGP anahtar sunucuları
+email-e2ee-key-servers-legend = OpenPGP Anahtar Sunucuları
 email-e2ee-key-servers-intro =
     Anahtar sunucusu, mevcut ortak anahtarları alıp kullanıcılara sunar.
     Ortak anahtarınızı yayımlamanıza ve başkalarının anahtarlarını bulup yenilemenize olanak tanır.
@@ -923,8 +923,8 @@ chat-variant-label =
 # is the name of the CSS property. It is intended only to adjust the element's width.
 # Do not translate.
 search-preferences-input2 =
-    .style = width: 15.4em
     .placeholder = Ayarlarda ara
+    .style = width: 15.4em
 managed-notice = { -brand-short-name } kuruluşunuz tarafından yönetiliyor.
 
 ## Settings UI Search Results
@@ -1043,7 +1043,7 @@ qr-export-more-accounts = Daha fazla hesabı dışa aktar
 ## Appearance Tab
 
 appearance-category-header = Görünüm
-accent-color-legend = Vurgu rengi
+accent-color-legend = Ara Renk
 accent-color-label =
     .value = Birincil düğmeler ve vurgulanan elemanlar için kullanılacak rengi belirleyin:
 accent-color-os =
@@ -1068,7 +1068,7 @@ appearance-radio-table =
     .label = Tablo görünümü
 appearance-radio-cards =
     .label = Kart görünümü
-cards-view-legend = Kart görünümü seçenekleri
+cards-view-legend = Kart Görünümü Seçenekleri
 table-view-legend = Tablo görünümü seçenekleri
 appearance-card-rows =
     .value = Satır sayısı:
@@ -1076,7 +1076,7 @@ appearance-card-style-3 =
     .label = 3 satır
 appearance-card-style-2 =
     .label = 2 satır
-default-message-list-sorting-legend = Sıralama ve dizileme
+default-message-list-sorting-legend = Sıralama ve Dizileme
 default-message-list-description = Yeni oluşturulan klasörler için varsayılan sıralama ve dizi seçeneklerini tanımlayın.
 default-flag-label =
     .value = Varsayılan dizileme:
