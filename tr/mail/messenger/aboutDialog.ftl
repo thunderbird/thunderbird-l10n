@@ -55,7 +55,7 @@ aboutdialog-version-arch = { $version } ({ $arch })
 aboutdialog-version-arch-nightly = { $version } ({ $isodate }) ({ $arch })
 aboutdialog-update-checking-failed = Güncellemeler kontrol edilemedi.
 community-experimental = <a data-l10n-name="community-exp-mozilla-link">{ -vendor-short-name }</a> Web’i açık, kamusal ve herkesçe erişilebilir kılmak için birlikte çalışan <a data-l10n-name="community-exp-credits-link">küresel bir topluluktur</a>.
-community-desc = { -brand-short-name }, <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a> tarafından tasarlanmıştır. &vendorShortName;, interneti daha iyiye taşımak için birlikte çalışan <a data-l10n-name="community-credits-link">küresel bir topluluktur.</a> Web'i açık, kamusal ve herkesçe erişilebilir kılmak için birlikte çalışan insanlardan oluşur.
+community-desc = { -brand-short-name }, web’i açık, kamusal ve herkesçe erişilebilir kılmak için çalışan <a data-l10n-name="community-credits-link">küresel bir topluluk</a> olan <a data-l10n-name="community-mozilla-link">{ -vendor-short-name }</a> tarafından tasarlanmıştır.
 about-donation = Yardım etmek ister misiniz? <a data-l10n-name="helpus-donate-link">Bağış yapın</a> veya <a data-l10n-name="helpus-get-involved-link">siz de katkıda bulunun!</a>
 bottom-links-license = Lisans Bilgileri
 bottom-links-rights = Son Kullanıcı Hakları
