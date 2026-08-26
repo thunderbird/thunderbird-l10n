@@ -30,55 +30,43 @@ content-tab-security-high-icon =
     .alt = Bağlantı güvenli
 content-tab-security-broken-icon =
     .alt = Bağlantı güvenli değil
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = Bir sayfa geriye ({ $shortcut })
     .aria-label = Geri
+    .tooltiptext = Bir sayfa geriye ({ $shortcut })
     .accesskey = g
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Geri
     .accesskey = G
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
-    .tooltiptext = Bir sayfa ileriye ({ $shortcut })
     .aria-label = İleri
+    .tooltiptext = Bir sayfa ileriye ({ $shortcut })
     .accesskey = İ
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = İleri
     .accesskey = İ
-
-# Reload
-
 content-tab-menu-reload =
-    .tooltiptext = Sayfayı tazele
     .aria-label = Tazele
+    .tooltiptext = Sayfayı tazele
     .accesskey = T
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
-    .tooltiptext = Sayfayı tazele
     .label = Tazele
+    .tooltiptext = Sayfayı tazele
     .accesskey = T
-
-# Stop
-
 content-tab-menu-stop =
-    .tooltiptext = Sayfa yüklemeyi durdur
     .aria-label = Durdur
+    .tooltiptext = Sayfa yüklemeyi durdur
     .accesskey = D
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
-    .tooltiptext = Sayfa yüklemeyi durdur
     .label = Durdur
+    .tooltiptext = Sayfa yüklemeyi durdur
     .accesskey = D
 open-windows-warning-confirmation-title = Onayla
 # Variables:
@@ -243,6 +231,8 @@ menu-copy-to =
     .accesskey = B
 menu-move-copy-recent-destinations-no-accesskey =
     .label = Son hedefler
+menu-move-copy-favorites-no-accesskey =
+    .label = Sık kullanılanlar
 menu-move-copy-recent-destinations =
     .label = Son hedefler
     .accesskey = h
@@ -353,8 +343,8 @@ other-action-copy-message-link =
 other-action-copy-news-link =
     .label = Haber bağlantısını kopyala
 message-header-msg-flagged =
-    .title = Yıldızlı
     .aria-label = Yıldızlı
+    .title = Yıldızlı
 message-header-delete =
     .label = Sil
     .tooltiptext = Bu iletiyi sil
@@ -448,9 +438,9 @@ decrypt-and-copy-failures-multiple =
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = Sekme araç çubuğu
-    .aria-label = Sekme araç çubuğu
     .aria-description = Farklı sekmeler arasında geçiş yapabileceğiniz dikey araç çubuğu. Mevcut düğmeler arasında gezinmek için ok tuşlarını kullanabilirsiniz.
+    .aria-label = Sekme araç çubuğu
+    .toolbarname = Sekme araç çubuğu
 spaces-toolbar-button-mail2 =
     .title = E-posta
 spaces-toolbar-button-address-book2 =
