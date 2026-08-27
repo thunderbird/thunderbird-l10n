@@ -270,7 +270,7 @@ about-addressbook-placeholder-no-search-results = Δεν βρέθηκαν επα
 # $count (Number) - The number of selected items (will never be fewer than 2).
 about-addressbook-selection-mixed-header2 =
     { $count ->
-       *[other] { $count } επιλεγμένες καταχωρήσεις ευρετηρίου
+       *[other] { $count } επιλεγμένες καταχωρίσεις ευρετηρίου
     }
 # Variables:
 # $count (Number) - The number of selected contacts
@@ -324,9 +324,6 @@ about-addressbook-entry-name-custom3 = Προσαρμοσμένο 3
 about-addressbook-entry-name-custom4 = Προσαρμοσμένο 4
 about-addressbook-unsaved-changes-prompt-title = Μη αποθηκευμένες αλλαγές
 about-addressbook-unsaved-changes-prompt = Θέλετε να αποθηκεύσετε τις αλλαγές σας πριν αποχωρήσετε από την προβολή επεξεργασίας;
-
-# Photo dialog
-
 about-addressbook-photo-drop-target = Εναποθέστε ή επικολλήστε μια φωτογραφία εδώ ή κάντε κλικ για να επιλέξετε ένα αρχείο.
 about-addressbook-photo-drop-loading = Φόρτωση φωτογραφίας…
 about-addressbook-photo-drop-error = Αποτυχία φόρτωσης φωτογραφίας.
@@ -334,9 +331,6 @@ about-addressbook-photo-filepicker-title = Επιλογή αρχείου εικ�
 about-addressbook-photo-discard = Απόρριψη υπάρχουσας φωτογραφίας
 about-addressbook-photo-cancel = Ακύρωση
 about-addressbook-photo-save = Αποθήκευση
-
-# Keyboard shortcuts
-
 about-addressbook-new-contact-key = Ν
 
 ## Address Book Search Dialog
