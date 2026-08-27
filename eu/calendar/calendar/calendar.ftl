@@ -549,6 +549,11 @@ format-date-long = { $year }(e)ko { $monthName } { $dayIndex } { $dayName }
 day-header = { $dayIndex }(e)ko { $dayName }
 day-header-elem =
     .label = { day-header }
+# LOCALIZATION NOTE (calendar-multiday-hour-slot):
+# Label for a time slot in the day/week calendar views.
+#    $date will be replaced with the day label, e.g. "Monday 6 Oct.";
+#    $time will be replaced with the time of the slot, e.g. "9:00 AM".
+calendar-multiday-hour-slot = { $date }, { $time }
 # LOCALIZATION NOTE (datetime-interval-task-without-date):
 # used for task without start and due date
 # (showed only in exported calendar in Html format)
@@ -903,21 +908,21 @@ calendar-task-details-start = hasiera-data
 calendar-task-details-due = muga-data
 calendar-task-mark-completed =
     .label = Markatu osatua bezala
-    .accesskey = o
     .tooltiptext = Markatu hautatutako zereginak amaituta bezala
+    .accesskey = o
 calendar-task-change-priority =
     .label = Lehentasuna
-    .accesskey = h
     .tooltiptext = Aldatu lehentasuna
+    .accesskey = h
 calendar-task-input-filter-field =
     .aria-label = Iragazi zereginak
     .emptytextbase = Iragazi zereginak #1
-    .keylabelnonmac = <Ktrl+Shift+K>
     .keylabelmac = <⇧⌘K>
+    .keylabelnonmac = <Ktrl+Shift+K>
 calendar-task-text-filter-field =
     .emptytextbase = Iragazi zereginak #1
-    .keylabelnonmac = <Ktrl+Shift+K>
     .keylabelmac = <⇧⌘K>
+    .keylabelnonmac = <Ktrl+Shift+K>
 calendar-copylink =
     .label = Kopiatu loturaren helbidea
     .accesskey = K
@@ -975,10 +980,10 @@ calendar-properties-enable-calendar =
     .label = Gaitu egutegi hau
 calendar-properties-provider-missing = Egutegi honen hornitzailea ezin da aurkitu. Gehigarri jakin batzuk ezgaitu edo desinstalatu dituzulako izan daiteke.
 calendar-properties-unsubscribe =
-    .label = Eten harpidetza
-    .accesskey = E
     .buttonlabelextra1 = Eten harpidetza
     .buttonaccesskeyextra1 = E
+    .label = Eten harpidetza
+    .accesskey = E
 calendar-alarm-dialog-title = Egutegien gogorarazleak
 calendar-alarm-details =
     .value = Xehetasunak…
@@ -1119,3 +1124,14 @@ event-recurrence-forever =
 attendees-tab-label = Gonbidatuak ({ $count }):
 # $count - the number of attachments
 attachments-tab-label = Eranskinak ({ $count }):
+# Variables:
+#   $docTitle (String) - The date or view label for the current calendar view.
+calendar-window-title = { $docTitle } - { -brand-full-name }
+calendar-window-title-base = { -brand-full-name }
+# Variables:
+#   $username (String) - The account username.
+#   $location (String) - The calendar server location.
+calendar-auth-enter-password-for = Sartu { $location }(e)ko  { $username }-ren pasahitza
+# Variables:
+#   $location (String) - The calendar server location.
+calendar-auth-enter-user-password-for = { $location } zure erabiltzaile-izena eta pasahitza eskatzen ari da

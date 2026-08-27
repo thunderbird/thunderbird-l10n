@@ -18,6 +18,7 @@ account-manager-close-command =
     .key = a
 # This title must be short, displayed with a big font size
 account-manager-no-account-title = Ez da konturik konfiguratu oraindik
+account-manager-no-accounts-description = Egin klik { add-account-label } botoian { -brand-short-name }(e)k konfigurazio-prozesuan zehar gida zaitzan.
 account-manager-no-account-description = Egin klik { new-account-label } botoian { -brand-short-name }(e)k konfigurazio-prozesuan zehar gida zaitzan.
 account-auto-sign-on =
     .label = Hasi saioa abioan

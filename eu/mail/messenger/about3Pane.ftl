@@ -134,6 +134,10 @@ quick-filter-bar-boolean-mode-any =
 quick-filter-bar-boolean-mode-all =
     .label = Hauetako guztiak
     .title = Hautatutako etiketa-irizpide guztiek etorri behar dute bat
+# The None tagging mode.
+quick-filter-bar-tag-mode-none =
+    .label = Etiketarik gabeak soilik
+    .title = Etiketarik gabeko mezuak soilik
 # This label explains what the sender/recipients/subject/body buttons do.
 # This string should ideally be kept short because the label and the text
 # filter buttons share their bar (that appears when there is text in the text
@@ -278,6 +282,7 @@ threadpane-column-label-unread-button =
     .label = Irakurketa egoera
 threadpane-cell-read-status =
     .aria-label = Irakurketa egoera
+threadpane-new-cell-label = Berria
 threadpane-read-cell-label = Irakurri
 threadpane-unread-cell-label = Irakurri gabe
 threadpane-column-header-a11y-sender =
@@ -557,6 +562,16 @@ folder-pane-context-mark-folder-read =
 folder-pane-context-reset-sort =
     .label = Atzera bota karpeta ordena
     .accesskey = A
+# Variables:
+# $count (Number) - One or more than one folder selected for compacting
+folder-pane-context-compact =
+    .label =
+        { $count ->
+            [1] Trinkotu karpeta
+            [one] Trinkotu karpetak
+           *[other] Trinkotu karpetak
+        }
+    .accesskey = T
 # One or more servers selected for compacting ALL their folders. Only this or
 # folder-pane-context-compact string will appear at a time, not both.
 folder-pane-context-compact-all =
