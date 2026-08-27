@@ -58,6 +58,7 @@ filter-action-log-forwarded = birbidalita
 filter-action-log-stop = exekuzioa geldituta
 filter-action-log-pop3-delete = POP3 zerbitzaritik ezabatuta
 filter-action-log-pop3-leave = POP3 zerbitzarian utzi da
+filter-action-log-spam = spam-puntuazioa
 filter-action-log-pop3-fetch = POP3 zerbitzaritik gorputza deskargatuta
 filter-action-log-tagged = etiketatuta
 filter-action-log-ignore-subthread = azpi-haria alde batetara utzita
