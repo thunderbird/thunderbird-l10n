@@ -12,3 +12,13 @@ looking-for-messages-account = Mezu berrien bila { $accountName } kontuan...
 # Variables:
 # $folderName (String) - The folder's name.
 looking-for-messages-folder = Mezu berrien bila { $folderName } n…
+# Feedback message shown in the status bar while we're deleting messages in a
+# specific folder (and waiting for the remote operation to complete).
+# Variables:
+# $number (Number) - Number of messages being deleted.
+# $folderName (String) - The folder's name.
+deleting-message =
+    { $number ->
+        [one] { $folderName } karpetatik mezu bat ezabatzen…
+       *[other] { $count } mezu ezabatuta { $folderName } karpetatik…
+    }

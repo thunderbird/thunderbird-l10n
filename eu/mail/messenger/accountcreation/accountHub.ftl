@@ -360,6 +360,12 @@ address-book-add-ldap-icon =
     .alt = Konektatu urruneko LDAP helbide-liburu batera
 address-book-add-ldap = LDAP helbide-liburu berria
 address-book-add-ldap-description = Konektatu urruneko LDAP helbide-liburu batera
+# $addressBooks (Number) - The number of address books that can be synced from existing accounts.
+account-hub-address-book-sync-books-data =
+    { $addressBooks ->
+        [one] Helbide-liburu bat eskuragarri
+       *[other] { $addressBooks } helbide-liburu eskuragarri
+    }
 account-hub-fetching-sync-accounts = Ezagutu helbide-liburuak eta egutegiak…
 address-book-sync-existing-description = Dauden kontuak berreskuratzen…
 account-hub-select-address-book-account = Hautatu helbide-liburuak dituen kontu bat
@@ -373,3 +379,23 @@ account-hub-local-address-book-label = Helbide-liburuaren izena
 account-hub-local-error-text = Sartu helbide-liburu izena
 account-hub-sync-address-books = Sinkronizatu dauden helbide-liburuak
 account-hub-new-remote-address-book = Urruneko helbide-liburu berria
+
+## Exchange Type Manual Config Step
+
+account-hub-exchange-type-account-type = Kontu mota
+account-hub-card-graph-title = Microsoft Graph
+account-hub-card-graph-description = Microsoft Graph Microsoft 365erako konexio-metodo modernoa da.
+account-hub-card-ews-title = Exchange Web zerbitzuak
+account-hub-card-ews-tag = Lege-oharra
+account-hub-card-ews-description = Exchange Web Services (EWS) Microsoft Exchange-ra konektatzen da zure posta sinkronizatzeko.
+# This is shown after the type description, so "it" is referring to the type (either Microsoft Graph or Exchange Web Services).
+account-hub-card-recommended-description = Gomendagarria da, zure zerbitzuaren URLarekin bat datorrelako.
+account-hub-exchange-type-username = Erabiltzaile-izena
+account-hub-exchange-type-username-hint = Normalean, zure helbide elektronikoa edo Active Directoryko UPNa.
+account-hub-exchange-type-authentication = Autentifikazio-metodoa
+# Checkbox that can be unchecked to use a custom OAuth config.
+account-hub-exchange-type-default-oauth = Erabili Microsoft 365 Copilot-en autentifikazio-ezarpen lehenetsiak.
+account-hub-exchange-type-oauth-tenant = Tenant ID
+account-hub-exchange-type-oauth-app = Aplikazioaren IDa
+account-hub-exchange-type-advanced-config = Konfigurazio aurreratua
+account-hub-exchange-type-title = Aukeratu kontu mota
