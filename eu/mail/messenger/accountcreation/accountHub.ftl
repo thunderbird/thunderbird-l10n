@@ -301,6 +301,7 @@ account-hub-config-success-description-exchange = Microsoft Exchange zerbitzarir
 account-hub-config-success-description-guess = Konfigurazioa aurkitu da ohiko zerbitzari-izenekin saiatzean
 account-hub-config-success-description-disk = Konfigurazioa aurkitu da { -brand-short-name } instalazioan.
 account-hub-config-success-description-isp = Konfigurazioa aurkitu da posta elektronikoaren hornitzailean.
+account-hub-config-success-description-read-more = Posta elektronikoa automatikoki konfiguratzeko prozesuari buruz <a data-l10n-name="automated-setup-link">irakur dezakezu.</a>
 account-hub-config-success = Konfigurazioa aurkitu da Mozilla ISPDBn
 account-hub-password-info = Zure kredentzialak lokalean bakarrik, zure ordenagailuan, gordeko dira
 account-hub-creating-account = Kontua sortzen...
@@ -329,24 +330,32 @@ account-hub-port-error-text = Portua 1 eta 65535 zenbakien artean egon behar du
     .title = Portua 1 eta 65535 zenbakien artean egon behar du
 account-hub-username-error-text = Erabiltzaile izena beharrezkoa da
     .title = Erabiltzaile izena beharrezkoa da
+account-hub-manual-config-error-summary = Mesedez, konpondu ondorengo errore hauek:
 account-hub-oauth-pending = Baimenaren zain saioa hasteko leihoan...
 account-hub-addon-install-button = Instalatu
 account-hub-addon-install-needed = { -brand-short-name }-k ez du jatorrizko zerbitzari hau onartzen. Exchange posta elektronikora sartzeko, <a data-l10n-name="addon-install"> instalatu Owl (ordainpekoa) bezalako hirugarrenen gehigarri bat.</a>
 account-hub-addon-error = Gehigarriaren instalazioak huts egin du. Mesedez, saiatu berriro edo jarri harremanetan gehigarriaren egilearekin laguntza eskatzeko.
+account-hub-select-security-warning = <span data-l10n-name="error-text">Abisua: Posta-zerbitzari ez-segurua detektatu da.</span> Zerbitzari honek ez du enkriptatzerik erabiltzen; horrenbestez, zure pasahitza eta datuak arriskuan jartzen dira. Jarri harremanetan administratzailearekin konexioa segurtatzeko, edo jarraitu zure ardurapean. <a data-l10n-name="error-link">Ikusi ohiko galderak informazio gehiago lortzeko.</a>
 account-hub-security-warning = <span data-l10n-name="security-warning">Abisua: Seguru ez den posta-zerbitzaria detektatu da.</span> Zerbitzari honek ez du enkriptaziorik, zure pasahitza eta datuak agerian utziz. Jarri harremanetan administratzailearekin konexioa ziurtatzeko edo jarraitu zure ardurapean. <a data-l10n-name="faq-link">Ikusi maiz egiten diren galderak informazio gehiago lortzeko</a>.
 account-hub-account-authentication-error = Errorea autentifikatzean.
 account-hub-add-address-book = Gehitu helbide-liburu bat
 address-book-sync-existing-icon =
     .alt = Sinkronizatu helbide-liburua lehendik dagoen kontu batetik
 address-book-sync-existing = Sinkronizatu lehendik dagoen kontu batetik
+address-book-add-remote-icon2 =
+    .alt = Gehitu urruneko helbide-liburua
 address-book-add-remote-icon =
     .alt = Gehitu urruneko helbide-liburu berri bat
 address-book-add-remote = Gehitu urruneko helbide-liburua
+address-book-add-remote-carddav-description = CardDAV helbide-liburura konektatu
 address-book-add-remote-description = Konektatu urruneko CardDav helbide-liburu batera
 address-book-add-local-icon =
     .alt = Sortu helbide-liburu berri lokal bat
 address-book-add-local = Helbide-liburu lokal berria
 address-book-add-local-description = Sortu helbide-liburu lokal berri bat zure gailuan
+address-book-add-ldap-icon2 =
+    .alt = Gehitu LDAP helbide-liburu bat
+address-book-add-ldap-button = Gehitu LDAP helbide-liburua
 address-book-add-ldap-icon =
     .alt = Konektatu urruneko LDAP helbide-liburu batera
 address-book-add-ldap = LDAP helbide-liburu berria

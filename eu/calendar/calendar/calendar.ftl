@@ -158,6 +158,9 @@ week-title-label =
     .aria-label = { $title } astea
 calendar-none =
     .label = Bat ere ez
+# Variables:
+#   $fileName (String) - The backup file name, e.g. 'local-2020-05-11T21-30-17.sqlite'.
+too-new-dbschema-error-text = Zure egutegi-datuak ez dira { -brand-short-name }-en bertsio honekin bateragarriak. Zure profileko egutegi-datuak { -brand-short-name }-en bertsio berriago batek eguneratu zituen. Datu-fitxategiaren babeskopia bat sortu da, "{ $fileName }" izenarekin. Sortu berri den datu-fitxategiarekin jarraituko da.
 imip-bar-unsupported-text = Mezu honen gertaera, { -brand-short-name }-(e)n bertsio honek ezin du prozesatu.
 # Error strings
 # @name UID_NOT_FOUND

@@ -111,3 +111,17 @@ calendar-dialog-attendee-summary-maybe =
         [one] Agian { $count }
        *[other] { $count } agian
     }
+# Variables:
+#   $count (Number): Number of guests that responded "declined".
+calendar-dialog-attendee-summary-declined =
+    { $count ->
+        [one] Baztertu { $count }
+       *[other] { $count } baztertuak
+    }
+# Variables:
+#   $count (Number): Number of guests whose response is pending (didn't reply yet).
+calendar-dialog-attendee-summary-pending =
+    { $count ->
+        [one] Erantzuteke { $count }
+       *[other] { $count } erantzuteke
+    }

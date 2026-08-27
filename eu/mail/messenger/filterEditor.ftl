@@ -5,6 +5,10 @@
 
 ## Filter List Dialog
 
+run-filter-before-spam =
+    .label = Iragazi Spama sailkatu aurretik
+run-filter-after-spam =
+    .label = Iragazi Spama sailkatu ondoren
 # Variables:
 #   $minutes - the number of minutes
 run-periodically =
@@ -14,6 +18,11 @@ run-periodically =
            *[other] Errepikatu, { $minutes } minututik behin
         }
     .accesskey = e
+# Variables:
+# $author (String) - The author of the message.
+# $subject (String) - The subject of the message.
+# $date (String) - The date of the message.
+spam-message-detection-log = { $author } - { $subject }-ren spama detektatu da { $date } egunean
 # Variables:
 # $errorMsg (String) - The error message about the action that failed.
 # $errorCode (String) - The hexadecimal error code.
@@ -80,9 +89,6 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $total } / { $visible }
-
-## Filter List Dialog
-
 filter-window-title = Mezuen iragazkiak
 filter-name-column =
     .label = Iragazkiaren izena
@@ -102,8 +108,8 @@ filter-delete-button =
     .accesskey = t
 filter-reorder-top-button =
     .label = Mugitu gora
-    .accesskey = o
     .tooltiptext = Berrordenatu iragazkia gainontzeko guztien aurretik exekuta dadin
+    .accesskey = o
 filter-reorder-up-button =
     .label = Eraman gorantz
     .accesskey = g
@@ -112,8 +118,8 @@ filter-reorder-down-button =
     .accesskey = b
 filter-reorder-bottom-button =
     .label = Mugitu behera
-    .accesskey = b
     .tooltiptext = Berrordenatu iragazkia gainontzekoen ondoren exekuta dadin
+    .accesskey = b
 filter-header-label =
     .value = Gaitutako iragazkiak automatikoki exekutatzen dira, behean erakutsitako ordenan.
 filter-filters-for-prefix =

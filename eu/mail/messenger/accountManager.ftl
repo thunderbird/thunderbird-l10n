@@ -27,11 +27,14 @@ edit-vcard-dialog-accept-button = Gorde
 edit-vcard-dialog-cancel-button = Utzi
     .accesskey = U
 account-manager-server-default-icon =
-    .title = Kontu lehenetsia
     .alt = Izar ikonoa
+    .title = Kontu lehenetsia
 outgoing-server-section-name = Posta bidaltzeko zerbitzaria:
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = Irteerako zerbitzari ezarpenak
 outgoing-server-settings-description = Zure identitateak kudeatzean zerrenda honetako zerbitzari bat erabil dezakezu irteerako zerbitzari gisa hautatuz edo zerbitzari lehenetsia erabil dezakezu; "Erabili zerbitzari lehenetsia"; hautatuz.
 outgoing-server-type = Zerbitzari mota:
 panel-settings-spam = Spam ezarpenak
+# Variables:
+# $account (String) - The account name.
+spam-settings-alert-message = Arazoa hauteman da { $account }-ren spam ezarpenekin. Berrikusi nahi dituzu aldaketak gorde aurretik?
