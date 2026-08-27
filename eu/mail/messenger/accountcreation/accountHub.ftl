@@ -51,6 +51,8 @@ account-hub-email-manually-configure-button = Eskuz konfiguratu
 account-hub-email-continue-button = Jarraitu
 account-hub-email-set-up-account-button = Konfiguratu kontua
 account-hub-email-confirm-button = Berretsi
+account-hub-email-find-settings-button = Bilatu ezarpenak
+account-hub-email-connect-button = Konektatu
 account-hub-result-incoming-legend = Sarrerakoa
 account-hub-result-outgoing-legend = Irteerakoa
 account-hub-all-servers-legend = Zerbitzari guztiak
@@ -124,6 +126,8 @@ account-hub-ssl-noencryption-option =
 account-hub-auth-no-authentication-option =
     .label = Autentifikaziorik ez
 account-hub-auth-label = Autentifikazio-metodoa
+account-hub-select-option =
+    .label = Aukeratu aukera bat
 account-hub-username-label = Erabiltzaile-izena
 account-hub-username-warning-icon = Erabiltzaile izena beharrezkoa da
 account-hub-address-book-username-error-text = Sartu erabiltzaile izena
@@ -158,6 +162,8 @@ address-book-carddav-connection-error = Huts konektatzerakoan.
 address-book-ldap-duplicate-error = LDAP direktorio-izen hori dagoeneko badago. Mesedez, sartu beste direktorio-izen bat.
 address-book-ldap-creation-error = Ezin izan da LDAP direktorioa sortu.
 account-hub-email-setup-ews = Zerbitzariaren ezarpenak
+account-hub-result-exchange-url-label = Exchange amaiera-puntuaren URLa
+account-hub-exchange-service-url-label = Sartu zerbitzuaren URLa
 account-hub-email-credentials-confirmation = Kontu konfigurazioa
 account-hub-result-unknown-hostname = Ostalari-izen ezezaguna
 account-hub-result-unknown-cert = Egiaztatu gabeko ziurtagiria
@@ -168,6 +174,7 @@ account-hub-minimize-button =
 account-hub-maximize-button =
     .title = Kontu-zentrua handitu
 account-hub-email-manual-configuration = Eskuzko konfigurazioa
+account-hub-notification-unknown-host = Hirugarrenen domeinu batean aurkitutako konfigurazio-informazioa
 account-hub-ssl-noencryption = Bat ere ez
 account-hub-email-skip-button = Saltatu
 account-hub-finding-sync-accounts = Kontua sortu da. Helbide eta egutegiak aurkitzen...
@@ -231,11 +238,43 @@ account-hub-calendars-button = Egutegiak
 account-hub-thundermail-button = Hasi saioa Thundermail-ekin
 # Used as part of a divider between sign in button and a sign in form.
 account-hub-thundermail-divider-text = edo
+account-hub-manual-config-imap-title = IMAP ezarpenak
+account-hub-manual-config-pop3-title = POP 3 ezarpenak
+account-hub-manual-config-review-settings-title = Berrikusi eguneratutako ezarpenak
+account-hub-manual-config-incoming-legend = Hartzeko zerbitzaria
+account-hub-manual-config-outgoing-legend = Posta bidaltzeko zerbitzaria
+# Label for checkbox that will hide an outgoing username input if it's the same is the incoming
+account-hub-same-username-checkbox = Hartzeko zerbitzariaren erabiltzaile-izen bera
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-security-changed = Ezin izan da { $oldValue } aurkitu, baina { $newValue } eskuragarri dago.
+# Variables:
+# $oldValue (String): The port requested before the configuration was tested.
+# $newValue (String): The port found after the configuration was tested.
+account-hub-manual-config-port-changed = Ezin izan da { $oldValue } ataka atzitu, baina { $newValue } ataka erabilgarri dago.
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-value-changed = Ezin izan da { $oldValue } erabili, baina { $newValue } erabilgarri dago.
+account-hub-protocol-imap = Sinkronizatu gailuen artean
+account-hub-protocol-microsoft = Exchange edo Microsoft 365
+account-hub-protocol-pop3 = Deskargatu gailura
+account-hub-oauth-unsupported-title = Konfigurazio gehigarria behar da
+# Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
+# 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
+account-hub-oauth-unsupported-description = { -brand-short-name }ek ezin du automatikoki konfiguratu OAuth2 ostalari-izen honetarako. Hautatu konfigurazio aurreratua kontua sortzeko, eta, ondoren, osatu konfigurazioa Kontuaren ezarpenetan. <a data-l10n-name="oauth-support-link">Lortu laguntza OAuth2 konfigurazioarekin.</a>
+account-hub-username-help-text = Sarritan, zure helbide elektroniko osoa
 account-hub-notification-show-more = Gehiago erakutsi
 account-hub-notification-show-less = Gutxiago erakutsi
 account-hub-email-setup-header = Gehitu zure helbide elektronikoa
 account-hub-email-setup-incoming = Sarrerako zerbitzari ezarpenak
 account-hub-email-setup-outgoing = Irteerako zerbitzari ezarpenak
+account-hub-email-exchange-settings = Exchange ezarpenak
+account-hub-email-connect-settings = Konektatu zure posta elektronikoko ezarpenak
+account-hub-email-protocol-select-header = Aukeratu posta elektronikoaren kontu mota
+account-hub-email-protocol-select-additional-info = Informazio gehigarria behar da kontu hau konfiguratzeko.
+account-hub-email-protocol-select-notification = Informazio gehigarria behar da kontu hau konfiguratzeko.
 account-hub-email-config-found = Aukeratu zure posta elektroniko kontu mota
 account-hub-email-enter-password = Sartu helbide elektronikoaren pasahitza
 account-hub-email-sync-accounts = Sinkronizatu zure egutegi eta helbide-liburuak
