@@ -69,3 +69,14 @@ gloda-indexed-folder-status =
         [one] segundo { $count } igarota
        *[other] { $count } segundo igarota
     }
+# Status line shown under extension-send-activity-event.
+# Reports how many messages were sent by the extension and how long the
+# completed send batch took.
+# Variables:
+#   $count (Number) - number of messages sent
+#   $time (String) - localized elapsed time
+extension-sent-activity-event-status =
+    { $count ->
+        [one] Mezu { $count } (igarotako denbora: { $time })
+       *[other] { $count } mezu (igarotako denbora: { $time })
+    }
