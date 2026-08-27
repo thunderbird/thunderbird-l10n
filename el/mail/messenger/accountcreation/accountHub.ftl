@@ -119,6 +119,8 @@ account-hub-ssl-noencryption-option =
 account-hub-auth-no-authentication-option =
     .label = Χωρίς ταυτοποίηση
 account-hub-auth-label = Μέθοδος ταυτοποίησης
+account-hub-select-option =
+    .label = Κάντε μια επιλογή
 account-hub-username-label = Όνομα χρήστη
 account-hub-username-warning-icon = Απαιτείται όνομα χρήστη
 account-hub-address-book-username-error-text = Εισαγάγετε ένα όνομα χρήστη
@@ -182,8 +184,8 @@ account-hub-email-input =
 account-hub-email-warning-icon =
     .title = Μη έγκυρη διεύθυνση email
 account-hub-password-label = Κωδικός πρόσβασης
-    .accesskey = Κ
     .title = Προαιρετικό, θα χρησιμοποιηθεί μόνο για την επαλήθευση του ονόματος χρήστη
+    .accesskey = Κ
 account-hub-remember-password = Απομνημόνευση κωδικού πρόσβασης
     .accesskey = Α
 account-hub-exchange-label = Η σύνδεσή σας
@@ -255,6 +257,7 @@ account-hub-oauth-unsupported-title = Απαιτείται επιπρόσθετ�
 # Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
 account-hub-oauth-unsupported-description = Το { -brand-short-name } δεν μπορεί να ρυθμίσει αυτόματα το OAuth2 για αυτό το όνομα κεντρικού υπολογιστή. Επιλέξτε «Σύνθετη διαμόρφωση» για να δημιουργήσετε τον λογαριασμό και έπειτα, ολοκληρώστε τη ρύθμιση από τις Ρυθμίσεις λογαριασμού. <a data-l10n-name="oauth-support-link">Λάβετε βοήθεια με τη ρύθμιση του OAuth2.</a>
+account-hub-username-help-text = Συνήθως η πλήρης διεύθυνση email σας
 account-hub-notification-show-more = Εμφάνιση περισσότερων
 account-hub-notification-show-less = Εμφάνιση λιγότερων
 account-hub-email-setup-header = Προσθήκη διεύθυνσης email

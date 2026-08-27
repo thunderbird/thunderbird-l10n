@@ -15,9 +15,30 @@ outgoing-server-name = Διακομιστής εξερχομένων:
 outgoing-server-edit =
     .label = Επεξεργασία διακομιστή εξερχομένων…
     .accesskey = ξ
+oauth2-use-custom-details =
+    .label = Χρήση προσαρμοσμένων ρυθμίσεων OAuth2
+    .accesskey = σ
+oauth2-client-id-label =
+    .value = Αναγνωριστικό πελάτη:
+    .accesskey = ι
+oauth2-authorization-endpoint-label =
+    .value = Τελικό σημείο ταυτοποίησης:
+    .accesskey = η
+oauth2-token-endpoint-label =
+    .value = Τελικό σημείο διακριτικού:
+    .accesskey = Τ
+oauth2-scopes-label =
+    .value = Πεδία:
+    .accesskey = δ
+oauth2-redirection-endpoint-label =
+    .value = URI ανακατεύθυνσης:
+    .accesskey = U
 oauth2-use-pkce =
     .label = Χρήση PKCE
     .accesskey = Χ
+oauth2-use-system-browser =
+    .label = Χρήση προγράμματος περιήγησης συστήματος
+    .accesskey = ρ
 ews-url-label =
     .value = URL κεντρικού υπολογιστή:
     .accesskey = κ
@@ -39,3 +60,9 @@ ews-endpointhost-label =
 ews-oauthscopes-label =
     .value = Πεδία OAuth:
     .accesskey = δ
+# Variables:
+#   $extensionName (String) - The display name of the extension providing
+#     the OAuth2 settings.
+# Shown in Account Settings below the authentication method when OAuth2
+# settings are provided by an extension.
+oauth-provider-extension-info = Οι ρυθμίσεις OAuth2 παρέχονται από την επέκταση: <a data-l10n-name="extension">{ $extensionName }</a>
