@@ -51,7 +51,7 @@ privacy-spam-header = Ανεπιθύμητο
 privacy-junk-header = Ανεπιθύμητα
 collection-header = Συλλογή και χρήση δεδομένων του { -brand-short-name }
 collection-description = Προσπαθούμε να παρέχουμε επιλογές και να συλλέγουμε μόνο τα απαραίτητα, ώστε να προσφέρουμε και να βελτιώνουμε το { -brand-short-name } για όλους. Ζητούμε πάντα άδεια πριν λάβουμε προσωπικές πληροφορίες.
-collection-privacy-notice = Σημείωση απορρήτου
+collection-privacy-notice = Δήλωση απορρήτου
 collection-health-report-telemetry-disabled = Δεν επιτρέπεται πλέον στη { -vendor-short-name } η συλλογή τεχνικών δεδομένων και δεδομένων αλληλεπίδρασης. Όλα τα προηγούμενα δεδομένα θα διαγραφούν εντός 30 ημερών.
 collection-health-report-telemetry-disabled-link = Μάθετε περισσότερα
 collection-health-report =
@@ -588,9 +588,9 @@ enable-cloud-share =
 cloud-share-size =
     .value = MB
 add-cloud-account =
+    .defaultlabel = Προσθήκη…
     .label = Προσθήκη…
     .accesskey = Π
-    .defaultlabel = Προσθήκη…
 remove-cloud-account =
     .label = Αφαίρεση
     .accesskey = Α
@@ -919,8 +919,8 @@ chat-variant-label =
 # is the name of the CSS property. It is intended only to adjust the element's width.
 # Do not translate.
 search-preferences-input2 =
-    .style = width: 15.4em
     .placeholder = Εύρεση στις ρυθμίσεις
+    .style = width: 15.4em
 managed-notice = Η διαχείριση του { -brand-short-name } πραγματοποιείται από τον οργανισμό σας.
 
 ## Settings UI Search Results
