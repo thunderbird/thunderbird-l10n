@@ -80,3 +80,22 @@ extension-sent-activity-event-status =
         [one] Mezu { $count } (igarotako denbora: { $time })
        *[other] { $count } mezu (igarotako denbora: { $time })
     }
+# Status line shown under extension-send-activity-event. Reports how many
+# messages were sent and the wall-clock time between the first and last send in
+# the batch (rounded to whole seconds, at least one).
+# Variables:
+#   $count (Number) - number of messages sent in this batch
+#   $seconds (Number) - elapsed seconds between the first and last send
+extension-send-activity-event-status =
+    { $count ->
+        [one]
+            { $seconds ->
+                [one] Mezu { $count } segundo { $seconds }ean
+               *[other] Mezu { $count }  { $seconds } segundotan
+            }
+       *[other]
+            { $seconds ->
+                [one] { $count } mezu  segundo { $seconds }ean
+               *[other] { $count } mezu { $seconds } segundotan
+            }
+    }

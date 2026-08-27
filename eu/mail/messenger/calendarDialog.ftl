@@ -36,6 +36,8 @@ calendar-dialog-attendee-count =
     }
 calendar-dialog-attendee-organizer = Antolatzailea
 calendar-dialog-attendee-optional = Aukerakoa
+calendar-dialog-icon-attending =
+    .alt = Bertaratzen
 calendar-dialog-icon-declined =
     .alt = Baztertua
 calendar-dialog-icon-maybe =
@@ -46,8 +48,15 @@ calendar-dialog-attendees-too-many-guests = Gonbidatu zerrenda ezin da erakutsi 
 calendar-dialog-description-label = Azalpena
 calendar-dialog-description-expand-icon =
     .alt = Erakutsi azalpen osoa
+calendar-dialog-menu-duplicate =
+    .label = Bikoiztu gertaera
+calendar-dialog-menu-delete =
+    .label = Ezabatu gertaera
 calendar-dialog-menu-print =
     .label = Inprimatu
+calendar-dialog-menu =
+    .aria-label = Ekintza gehiagoren menua
+    .title = Ekintza gehiagoren menua
 # Variables:
 #   $additionalCategories (Number): Number of categoires not shown.
 #   $categories (String): List of all categories.
@@ -58,3 +67,47 @@ calendar-dialog-more-categories =
     .title = +{ $additionalCategories } gehiago
 calendar-dialog-delete-reminder-button =
     .alt = Ezabatu oroigarria
+# Variables:
+#   $count (Number): Number of reminders.
+calendar-dialog-reminder-count =
+    { $count ->
+        [one] Oroigarri { $count }
+       *[other] { $count } oroigarriak
+    }
+calendar-dialog-accept = Joaten
+    .title = Joaten
+calendar-dialog-accept-tentative = Agian
+    .title = Agian
+calendar-dialog-decline = Ez noa
+    .title = Ez noa
+calendar-dialog-join-meeting-button = Elkartu bilerara
+calendar-dialog-join-meeting-row-icon =
+    .alt = Elkartu bilerara
+calendar-dialog-attachments-row-icon =
+    .alt = Eranskinak
+calendar-dialog-attachments-label = Eranskinak
+calendar-dialog-attachment-link-icon =
+    .alt = Lotutako ernaskina
+calendar-dialog-attachments-expand-icon =
+    .alt = Erakutsi eranskin guztiak
+# Variables:
+#   $count (Number): Number of attachments.
+calendar-dialog-attachments-summary-label =
+    { $count ->
+        [one] Eranskin { $count }
+       *[other] { $count } eranskin
+    }
+# Variables:
+#   $count (Number): Number of guests that responded "attending".
+calendar-dialog-attendee-summary-going =
+    { $count ->
+        [one] Bertaratze { $count }
+       *[other] { $count } bertaratze
+    }
+# Variables:
+#   $count (Number): Number of guests that responded "maybe".
+calendar-dialog-attendee-summary-maybe =
+    { $count ->
+        [one] Agian { $count }
+       *[other] { $count } agian
+    }
