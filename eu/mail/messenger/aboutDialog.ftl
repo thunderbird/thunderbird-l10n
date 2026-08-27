@@ -5,6 +5,11 @@
 about-update-whats-new = Nobedadeak
 about-dialog-title = { -brand-full-name }(r)i buruz
 release-notes-link = Bertsio-oharrak
+# This describes the codename logo shown in the About Thunderbird dialog for the current annual release.
+# Do not translate: Meadow
+about-dialog-meadow-logo =
+    .alt = { -brand-short-name } Meadow kode-izeneko ikurra
+    .title = { -brand-short-name } - Meadow kode-izena
 update-internal-error = Ezin dira eguneraketak bilatu barne-errore bat dela eta. Eguneraketak <a data-l10n-name="manual-link"/> helbidean daude erabilgarri
 update-check-for-updates-button = Bilatu eguneraketak
     .accesskey = B
