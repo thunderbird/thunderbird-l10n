@@ -13,3 +13,20 @@ attachment-save-failed = Nu se poate salva atașamentul. Te rugăm să verifici 
 # Variables:
 #   $filename (String) - Name of the file that already exists.
 attachment-file-exists = { $filename } există deja. Vrei să-l înlocuiești?
+# Variables:
+#   $attachments (String) - Newline separated list of attachment names.
+attachment-delete-confirm =
+    Următoarele atașamente vor fi șterse definitiv din acest mesaj:
+    { $attachments }
+    Acțiunea este ireversibilă. Vrei să continui?
+# Variables:
+#   $attachments (String) - Newline separated list of attachment names.
+attachment-detach-confirm =
+    Următoarele atașamente au fost salvate cu succes și vor fi șterse definitiv din acest mesaj:
+    { $attachments }
+    Acțiunea este ireversibilă. Vrei să continui?
+attachment-empty =
+    Acest atașament pare să fie gol.
+    Te rugăm să verifici acest lucru cu expeditorul.
+    Adesea firewall-urile companiilor sau programele antivirus distrug atașamentele.
+attachment-external-not-found = Acest atașament detașat de fișier sau link nu poate fi găsit sau nu mai este accesibil în această locație.
