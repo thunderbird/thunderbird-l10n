@@ -13,3 +13,20 @@ attachment-save-failed = Impossibile salvare l’allegato. Verificare il nome de
 # Variables:
 #   $filename (String) - Name of the file that already exists.
 attachment-file-exists = { $filename } esiste. Sostituirlo?
+# Variables:
+#   $attachments (String) - Newline separated list of attachment names.
+attachment-delete-confirm =
+    I seguenti allegati saranno eliminati permanentemente da questo messaggio:
+    { $attachments }
+    Questa operazione non potrà essere annullata. Continuare?
+# Variables:
+#   $attachments (String) - Newline separated list of attachment names.
+attachment-detach-confirm =
+    I seguenti allegati sono stati salvati correttamente e saranno ora eliminati definitivamente da questo messaggio:
+    { $attachments }
+    Questa operazione non potrà essere annullata. Continuare?
+attachment-empty =
+    Questo allegato sembra essere vuoto.
+    Contattare il mittente per verificare il problema.
+    Spesso i firewall o gli antivirus utilizzati a livello aziendale possono eliminare gli allegati.
+attachment-external-not-found = Questo file rimosso o link allegato non è più disponibile o non è più accessibile in questa posizione.
