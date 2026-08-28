@@ -34,5 +34,5 @@ permission-can-label = Atļaut
 permission-can-access-first-party-label = Ļaut tikai pirmajai pusei
 permission-can-session-label = Ļaut sesijai
 permission-cannot-label = Liegt
-invalid-uri-message = Lūdzu, ievadiet derīgu vietnes nosaukumu
+invalid-uri-message = Lūgums ievadīt derīgu saimniekdatora nosaukumu
 invalid-uri-title = Ievadīts nederīgs mītnes nosaukums

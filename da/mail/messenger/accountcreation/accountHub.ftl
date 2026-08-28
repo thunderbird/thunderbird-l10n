@@ -49,7 +49,10 @@ account-hub-email-retest-button = Test igen
 account-hub-email-finish-button = Afslut
 account-hub-email-manually-configure-button = Manuel opsætning
 account-hub-email-continue-button = Fortsæt
+account-hub-email-set-up-account-button = Opret konto
 account-hub-email-confirm-button = Bekræft
+account-hub-email-find-settings-button = Find indstillinger
+account-hub-email-connect-button = Opret forbindelse
 account-hub-result-incoming-legend = Indgående
 account-hub-result-outgoing-legend = Udgående
 account-hub-all-servers-legend = Alle servere
@@ -116,6 +119,8 @@ account-hub-ssl-noencryption-option =
 account-hub-auth-no-authentication-option =
     .label = Ingen godkendelse
 account-hub-auth-label = Godkendelsesmetode
+account-hub-select-option =
+    .label = Vælg en mulighed
 account-hub-username-label = Brugernavn
 account-hub-username-warning-icon = Brugernavn skal udfyldes
 account-hub-address-book-username-error-text = Indtast brugernavn
@@ -151,6 +156,7 @@ address-book-ldap-duplicate-error = LDAP-katalognavnet findes allerede. Indtast 
 address-book-ldap-creation-error = Kunne ikke oprette LDAP-katalog.
 account-hub-email-setup-ews = Serverindstillinger
 account-hub-result-exchange-url-label = URL-adresse til Exchange-slutpunkt
+account-hub-exchange-service-url-label = Indtast tjenestens URL
 account-hub-email-credentials-confirmation = Kontokonfiguration
 account-hub-result-unknown-hostname = Ukendt værtsnavn
 account-hub-result-unknown-cert = Ikke-verificeret certifikat
@@ -225,14 +231,41 @@ account-hub-calendars-button = Kalendere
 account-hub-thundermail-button = Log ind med Thundermail
 # Used as part of a divider between sign in button and a sign in form.
 account-hub-thundermail-divider-text = eller
+account-hub-manual-config-imap-title = IMAP-indstillinger
+account-hub-manual-config-pop3-title = POP3-indstillinger
+account-hub-manual-config-review-settings-title = Gennemgå opdaterede indstillinger
 account-hub-manual-config-incoming-legend = Indgående server
 account-hub-manual-config-outgoing-legend = Udgående server
+# Label for checkbox that will hide an outgoing username input if it's the same is the incoming
+account-hub-same-username-checkbox = Samme brugernavn som indgående server
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-security-changed = Kunne ikke finde { $oldValue }, men { $newValue } er tilgængelig.
+# Variables:
+# $oldValue (String): The port requested before the configuration was tested.
+# $newValue (String): The port found after the configuration was tested.
+account-hub-manual-config-port-changed = Kunne ikke nå port { $oldValue }, men port { $newValue } er tilgængelig.
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-value-changed = Kunne ikke bruge { $oldValue }, men { $newValue } er tilgængelig.
+account-hub-protocol-imap = Synkroniser på tværs af enheder
+account-hub-protocol-microsoft = Exchange eller Microsoft 365
+account-hub-protocol-pop3 = Download til enhed
+account-hub-oauth-unsupported-title = Yderligere konfiguration kræves
+# Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
+# 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
+account-hub-oauth-unsupported-description = { -brand-short-name } kan ikke automatisk konfigurere OAuth2 for dette værtsnavn. Vælg Avanceret konfiguration for at oprette kontoen, og fuldfør derefter opsætningen fra Kontoindstillinger. <a data-l10n-name="oauth-support-link">Få hjælp til OAuth2-opsætning.</a>
 account-hub-notification-show-more = Vis mere
 account-hub-notification-show-less = Vis færre
 account-hub-email-setup-header = Tilføj din mailadresse
 account-hub-email-setup-incoming = Indgående serverindstillinger
 account-hub-email-setup-outgoing = Udgående serverindstillinger
+account-hub-email-exchange-settings = Exchange-indstillinger
 account-hub-email-connect-settings = Overfør dine mail-indstillinger
+account-hub-email-protocol-select-header = Vælg en mailkontotype
+account-hub-email-protocol-select-additional-info = Der kræves yderligere oplysninger for at oprette denne konto.
 account-hub-email-config-found = Vælg din mailkontotype
 account-hub-email-enter-password = Indtast adgangskoden til din mailkonto
 account-hub-email-sync-accounts = Synkroniser dine kalendere og adressebøger
@@ -242,6 +275,7 @@ account-hub-result-imap-description = Hold dine mapper og meddelelser synkronise
 account-hub-result-pop-description = Hold dine mapper og meddelelser på din computer
 account-hub-result-ews-shortname = Exchange
 account-hub-result-ews-description = Brug Microsoft Exchange Web Services til at synkronisere dine mapper og meddelelser
+account-hub-result-graph-api-shortname = Microsoft Graph API
 account-hub-result-graph-shortname = Exchange (Graph)
 account-hub-result-graph-description = Brug Microsoft Graph API til at synkronisere mapper og mails
 account-hub-result-exchange-description = Synkroniser mapper og mails med Exchange eller Office 365
@@ -286,6 +320,7 @@ account-hub-port-error-text = Port skal være mellem 1 og 65535
     .title = Port skal være mellem 1 og 65535
 account-hub-username-error-text = Brugernavn skal udfyldes
     .title = Brugernavn skal udfyldes
+account-hub-manual-config-error-summary = Ret venligst følgende fejl:
 account-hub-oauth-pending = Venter på godkendelse i login-vindue…
 account-hub-addon-install-button = Installer
 account-hub-addon-install-needed = { -brand-short-name } understøtter ikke denne server som standard. For at få adgang til Exchange-mail, skal du <a data-l10n-name="addon-install">installere en tredjeparts-tilføjelse som fx Owl (kræver betaling).</a>
@@ -297,14 +332,20 @@ account-hub-add-address-book = Tilføj en adressebog
 address-book-sync-existing-icon =
     .alt = Synkroniser en adressebog fra en eksisterende konto
 address-book-sync-existing = Synkroniser fra en eksisterende konto
+address-book-add-remote-icon2 =
+    .alt = Tilføj en ekstern adressebog
 address-book-add-remote-icon =
     .alt = Tilføj en ny ekstern adressebog
 address-book-add-remote = Tilføj ekstern adressebog
+address-book-add-remote-carddav-description = Opret forbindelse til en CardDAV-adressebog
 address-book-add-remote-description = Opret forbindelse til en ekstern CardDAV-adressebog
 address-book-add-local-icon =
     .alt = Opret en ny lokal adressebog
 address-book-add-local = Ny lokal adressebog
 address-book-add-local-description = Opret en ny lokal adressebog på din enhed
+address-book-add-ldap-icon2 =
+    .alt = Tilføj en LDAP-adressebog
+address-book-add-ldap-button = Tilføj LDAP-adressebog
 address-book-add-ldap-icon =
     .alt = Opret forbindelse til en ekstern LDAP-adressebog
 address-book-add-ldap = Ny LDAP-adressebog
@@ -328,3 +369,16 @@ account-hub-local-address-book-label = Navn på adressebog
 account-hub-local-error-text = Indtast navn på adressebog
 account-hub-sync-address-books = Synkroniser eksisterende adressebøger
 account-hub-new-remote-address-book = Ny ekstern adressebog
+
+## Exchange Type Manual Config Step
+
+account-hub-exchange-type-account-type = Kontotype
+account-hub-card-graph-title = Microsoft Graph
+account-hub-card-graph-description = Microsoft Graph er en moderne forbindelsesmetode til Microsoft 365.
+account-hub-card-ews-title = Exchange Web Services
+account-hub-card-ews-tag = Ældre
+account-hub-card-ews-description = Exchange Web Services (EWS) opretter forbindelse til Microsoft Exchange for at synkronisere din mail.
+# This is shown after the type description, so "it" is referring to the type (either Microsoft Graph or Exchange Web Services).
+account-hub-card-recommended-description = Det anbefales, fordi det matcher din tjeneste-URL.
+account-hub-exchange-type-username = Brugernavn
+account-hub-exchange-type-authentication = Godkendelsesmetode

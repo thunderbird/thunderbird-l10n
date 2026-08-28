@@ -158,6 +158,9 @@ week-title-label =
     .aria-label = Uge { $title }
 calendar-none =
     .label = Ingen
+# Variables:
+#   $fileName (String) - The backup file name, e.g. 'local-2020-05-11T21-30-17.sqlite'.
+too-new-dbschema-error-text = Dine kalenderdata er ikke kompatible med denne version af { -brand-short-name }. Kalenderdataene i din profil blev opdateret af en nyere version af { -brand-short-name }. Der er oprettet en sikkerhedskopi af datafilen med navnet "{ $fileName }". Fortsætter med en nyoprettet datafil.
 imip-bar-unsupported-text = Denne meddelelse indeholder en begivenhed, som denne version af { -brand-short-name } ikke kan håndtere.
 # Error strings
 # @name UID_NOT_FOUND
@@ -549,6 +552,11 @@ format-date-long = { $dayName } { $dayIndex } { $monthName } { $year }
 day-header = { $dayName } { $dayIndex }
 day-header-elem =
     .label = { day-header }
+# LOCALIZATION NOTE (calendar-multiday-hour-slot):
+# Label for a time slot in the day/week calendar views.
+#    $date will be replaced with the day label, e.g. "Monday 6 Oct.";
+#    $time will be replaced with the time of the slot, e.g. "9:00 AM".
+calendar-multiday-hour-slot = { $date }, { $time }
 # LOCALIZATION NOTE (datetime-interval-task-without-date):
 # used for task without start and due date
 # (showed only in exported calendar in Html format)
@@ -903,21 +911,21 @@ calendar-task-details-start = Startdato
 calendar-task-details-due = Slutdato
 calendar-task-mark-completed =
     .label = Marker som fuldført
-    .accesskey = u
     .tooltiptext = Marker valgte opgaver som fuldførte
+    .accesskey = u
 calendar-task-change-priority =
     .label = Prioritet
-    .accesskey = r
     .tooltiptext = Skift vigtighed
+    .accesskey = r
 calendar-task-input-filter-field =
     .aria-label = Opgavefilter
     .emptytextbase = Opgavefilter #1
-    .keylabelnonmac = <Ctrl+Skift+F>
     .keylabelmac = <⇧⌘F>
+    .keylabelnonmac = <Ctrl+Skift+F>
 calendar-task-text-filter-field =
     .emptytextbase = Opgavefilter #1
-    .keylabelnonmac = <Ctrl+Skift+F>
     .keylabelmac = <⇧⌘F>
+    .keylabelnonmac = <Ctrl+Skift+F>
 calendar-copylink =
     .label = Kopier linkadresse
     .accesskey = K
@@ -975,10 +983,10 @@ calendar-properties-enable-calendar =
     .label = Aktiver denne kalender
 calendar-properties-provider-missing = Kunne ikke finde kalenderens udgiver. Dette kan ofte ske, hvis du afinstallerer eller slår en bestemt udvidelse fra.
 calendar-properties-unsubscribe =
-    .label = Stop abonnement
-    .accesskey = A
     .buttonlabelextra1 = Stop abonnement
     .buttonaccesskeyextra1 = A
+    .label = Stop abonnement
+    .accesskey = A
 calendar-alarm-dialog-title = Kalenderalarm
 calendar-alarm-details =
     .value = Detaljer…
@@ -1119,3 +1127,14 @@ event-recurrence-forever =
 attendees-tab-label = Deltagere ({ $count }):
 # $count - the number of attachments
 attachments-tab-label = Vedhæftede filer ({ $count }):
+# Variables:
+#   $docTitle (String) - The date or view label for the current calendar view.
+calendar-window-title = { $docTitle } - { -brand-full-name }
+calendar-window-title-base = { -brand-full-name }
+# Variables:
+#   $username (String) - The account username.
+#   $location (String) - The calendar server location.
+calendar-auth-enter-password-for = Indtast adgangskoden til { $username } på { $location }
+# Variables:
+#   $location (String) - The calendar server location.
+calendar-auth-enter-user-password-for = { $location } beder om dit brugernavn og din adgangskode.
