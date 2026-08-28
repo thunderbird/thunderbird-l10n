@@ -9,16 +9,16 @@ attachment-save-dialog-title = Saglabāt pielikumu
 attachment-save-all-dialog-title = Saglabāt visus pielikumus
 attachment-detach-dialog-title = Atvienot pielikumu
 attachment-detach-all-dialog-title = Atvienot visus pielikumus
-attachment-save-failed = Neizdevās saglabāt pielikumu. Lūdzu, pārbaudiet faila nosaukumu un mēģiniet vēlreiz.
+attachment-save-failed = Neizdevās saglabāt pielikumu. Lūgums pārbaudīt datnes nosaukumu un vēlāk mēģināt vēlreiz.
 # Variables:
 #   $filename (String) - Name of the file that already exists.
-attachment-file-exists = { $filename } jau pastāv. Vai vēlaties to aizvietot?
+attachment-file-exists = { $filename } jau pastāv. Vai aizstāt to?
 # Variables:
 #   $attachments (String) - Newline separated list of attachment names.
 attachment-delete-confirm =
-    No šīs vēstules tiks neatgriezeniski dzēsti šādi pielikumi:
+    Šie pielikumi šajā ziņojumā tiks neatgriezeniski izdzēsti:
     { $attachments }
-    Šo darbību nevar atsaukt. Vai vēlaties turpināt?
+    Šo darbību nevar atsaukt. Vai turpināt?
 # Variables:
 #   $attachments (String) - Newline separated list of attachment names.
 attachment-detach-confirm =
@@ -26,7 +26,7 @@ attachment-detach-confirm =
     { $attachments }
     Šo darbību nevar atsaukt. Vai turpināt?
 attachment-empty =
-    Izskatās, ka šis pielikums ir tukšs.
-    Lūdzu, sazinieties ar personu, kas to nosūtīja.
-    Bieži pielikumus izdzēš uzņēmuma ugunsmūri vai pretvīrusu programmas.
-attachment-external-not-found = Šis atdalītais faila vai saites pielikums nav atrasts vai arī šajā vietā vairs nav pieejams.
+    Šķiet, ka šis pielikums ir tukšs.
+    Lūgums sazināties ar cilvēku, kas to nosūtīja.
+    Bieži pielikumus iznīcina uzņēmumu ugunsmūri vai pretvīrusu programmas.
+attachment-external-not-found = Šis atdalītā datne vai saites pielikums nav atrasts vai arī šajā vietā vairs nav pieejams.
