@@ -5,6 +5,14 @@
 
 ## Strings used by attachment actions: saving, opening, detaching and deleting.
 
+attachment-save-dialog-title = Ilovani saqlash
+attachment-save-all-dialog-title = Hamma ilovalarni saqlash
+attachment-detach-dialog-title = Biriktirmani olib tashlash
+attachment-detach-all-dialog-title = Barcha biriktirmalarni olib tashlash
+attachment-save-failed = Ilova saqlanmadi. Fayl nomini tekshirib ko‘ring va qaytadan urinib ko‘ring.
+# Variables:
+#   $filename (String) - Name of the file that already exists.
+attachment-file-exists = { $filename } allaqachon mavjud. Uni almashtirishni xohlaysizmi?
 # Variables:
 #   $attachments (String) - Newline separated list of attachment names.
 attachment-delete-confirm =
