@@ -245,6 +245,10 @@ menu-move-to =
 menu-copy-to =
     .label = Копиране в
     .accesskey = и
+menu-move-copy-recent-destinations-no-accesskey =
+    .label = Скорошни дестинации
+menu-move-copy-favorites-no-accesskey =
+    .label = Любими
 menu-move-copy-recent-destinations =
     .label = Скорошни дестинации
     .accesskey = С
@@ -663,6 +667,9 @@ prompt-dont-ask-again = Спиране на този въпрос.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Анализ на нежелана поща { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } завършен
 spam-processing-message = Обработване на нежелани съобщения
+
+## Ignore threads
+
 
 ## Attachments
 
