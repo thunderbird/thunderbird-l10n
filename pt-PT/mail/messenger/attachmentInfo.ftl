@@ -13,3 +13,20 @@ attachment-save-failed = Não foi possível guardar o anexo. Verifique o nome do
 # Variables:
 #   $filename (String) - Name of the file that already exists.
 attachment-file-exists = { $filename } já existe. Substituir?
+# Variables:
+#   $attachments (String) - Newline separated list of attachment names.
+attachment-delete-confirm =
+    Estes anexos serão removidos permanentemente desta mensagem:
+    { $attachments }
+    Esta ação não pode ser desfeita. Deseja continuar?
+# Variables:
+#   $attachments (String) - Newline separated list of attachment names.
+attachment-detach-confirm =
+    Os anexos seguintes foram guardados com sucesso e serão apagados permanentemente desta mensagem:
+    { $attachments }
+    Esta ação não pode ser desfeita. Deseja continuar?
+attachment-empty =
+    Este anexo parece estar vazio.
+    Contacte a pessoa que o enviou.
+    Normalmente programas de anti-vírus e firewalls das empresas destroem os anexos.
+attachment-external-not-found = Este ficheiro desanexado ou anexo de ligação não foi encontrado ou não está mais acessível neste local.
