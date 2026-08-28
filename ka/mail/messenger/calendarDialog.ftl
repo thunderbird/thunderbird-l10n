@@ -9,6 +9,8 @@
 calendar-dialog-close-button =
     .aria-label = დახურვა
     .title = დახურვა
+calendar-event-create-edit-dialog =
+    .aria-label = ღონისძიება
 calendar-dialog-menu-button =
     .aria-label = მენიუს გახსნა
     .title = მენიუს გახსნა
@@ -64,6 +66,33 @@ calendar-dialog-more-categories = +{ $additionalCategories } სხვა
     .title = { $categories }
 calendar-dialog-delete-reminder-button =
     .alt = შემხსენებელის წაშლა
+calendar-dialog-add-reminder-button = შეხსენების დამატება
+calendar-dialog-reminder-select =
+    .aria-label = აირჩიეთ ახალი შეხსენების ხანგრძლივობა
+calendar-dialog-save-reminder-button = შენახვა
+calendar-dialog-reminder-event-start = 0 წუთით ადრე
+# Variables:
+#  $count (Number): Number of minutes before the event.
+calendar-dialog-reminder-minutes-before =
+    { $count ->
+        [one] { $count } წუთით ადრე
+       *[other] { $count } წუთით ადრე
+    }
+# Variables:
+#  $count (Number): Number of hours before the event.
+calendar-dialog-reminder-hours-before =
+    { $count ->
+        [one] { $count } საათით ადრე
+       *[other] { $count } საათით ადრე
+    }
+# Variables:
+#  $count (Number): Number of days before the event.
+calendar-dialog-reminder-days-before =
+    { $count ->
+        [one] { $count } დღით ადრე
+       *[other] { $count } დღით ადრე
+    }
+calendar-dialog-reminder-week-before = 1 კვირით ადრე
 # Variables:
 #   $count (Number): Number of reminders.
 calendar-dialog-reminder-count =

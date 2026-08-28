@@ -26,6 +26,30 @@ show-data-button =
     .label = მონაცემთა ადგილმდებარეობის ჩვენება
     .accesskey = ჩ
 # Variables:
+# $count (Number) - The number of address books to be removed.
+remove-address-books-checkbox =
+    .label =
+        { $count ->
+            [one] მისამართების წიგნაკის მოცილება
+           *[other] მისამართების { $count } წიგნაკის მოცილება
+        }
+# Variables:
+# $count (Number) - The number of calendars to be removed.
+remove-calendars-checkbox =
+    .label =
+        { $count ->
+            [one] კალენდრის მოცილება
+           *[other] { $count } კალენდრის მოცილება
+        }
+# Variables:
+# $count (Number) - The number of passwords to be removed.
+remove-passwords-checkbox =
+    .label =
+        { $count ->
+            [one] პაროლის მოცილება
+           *[other] { $count } პაროლის მოცილება
+        }
+# Variables:
 # $count (Number) - The number of OAuth tokens to be removed.
 remove-oauth-tokens-checkbox =
     .label =
@@ -33,3 +57,5 @@ remove-oauth-tokens-checkbox =
             [one] OAuth-საშვის წაშლა
            *[other] { $count } OAuth-საშვის წაშლა
         }
+remove-account-progress-success = ანგარიში წარმატებით წაიშალა.
+remove-account-progress-failure = რაღაც ხარვეზი წარმოიშვა! ანგარიშის წაშლის დასრულება ვერ მოხერხდა.
