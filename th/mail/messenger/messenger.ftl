@@ -212,6 +212,10 @@ menu-move-to =
 menu-copy-to =
     .label = คัดลอกไปยัง
     .accesskey = ค
+menu-move-copy-recent-destinations-no-accesskey =
+    .label = สถานที่ปลายทางล่าสุด
+menu-move-copy-favorites-no-accesskey =
+    .label = รายการโปรด
 menu-move-copy-recent-destinations =
     .label = สถานที่ปลายทางล่าสุด
     .accesskey = ล
@@ -618,6 +622,9 @@ prompt-dont-ask-again = ไม่ต้องถามอีก
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = การวิเคราะห์สแปมเสร็จสมบูรณ์ { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") }
 spam-processing-message = กำลังประมวลผลข้อความสแปม
+
+## Ignore threads
+
 
 ## Attachments
 
