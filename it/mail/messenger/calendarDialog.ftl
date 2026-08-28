@@ -72,7 +72,7 @@ calendar-dialog-delete-reminder-button =
     .alt = Elimina promemoria
 calendar-dialog-add-reminder-button = Aggiungi promemoria
 calendar-dialog-reminder-select =
-    .aria-label = Seleziona la nuova durata del promemoria
+    .aria-label = Scegli la durata del nuovo promemoria
 calendar-dialog-save-reminder-button = Salva
 calendar-dialog-reminder-event-start = 0 minuti prima
 # Variables:
