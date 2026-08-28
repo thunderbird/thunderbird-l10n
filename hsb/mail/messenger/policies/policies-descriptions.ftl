@@ -34,6 +34,7 @@ policy-DisableFeedbackCommands = Přikazy znjemóžnić, kotrež komentary z men
 policy-DisableForgetButton = Přistupej na tłóčatko Zabyć zadźěwać.
 policy-DisableFormHistory = Pytansku a formularnu historiju sej njespomjatkować
 policy-DisableMasterPasswordCreation = Jeli to trjechi, njeda so hłowne hesło wutworić.
+policy-DisableMessageForwardingFilters = Tomu zadźěwać, zo so powěsćowe filtry powěsće awtomatisce dale sposrědkuja.
 policy-DisablePasswordReveal = Njedowolić, zo so hesła w składowanych přizjewjenjach pokazuja
 policy-DisableProfileImport = Menijowy přikaz za importowanje datow z druheho nałoženja znjemóžnić.
 policy-DisableExperimentalFeatures = Eksperimentelne funkcije w Thunderbird znjemóžnić.

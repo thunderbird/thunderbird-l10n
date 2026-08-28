@@ -74,8 +74,38 @@ calendar-dialog-more-categories =
     .title = { $categories }
 calendar-dialog-delete-reminder-button =
     .alt = Dopomnjeće zhašeć
+calendar-dialog-add-reminder-button = Dopomnjeće přidać
+calendar-dialog-reminder-select =
+    .aria-label = Wubjerće nowe traće dopomnjeća
 calendar-dialog-save-reminder-button = Składować
 calendar-dialog-reminder-event-start = 0 mjeńšin do toho
+# Variables:
+#  $count (Number): Number of minutes before the event.
+calendar-dialog-reminder-minutes-before =
+    { $count ->
+        [one] { $count } mjeńšina do toho
+        [two] { $count } mjeńšinje do toho
+        [few] { $count } mjeńšiny do toho
+       *[other] { $count } mjeńšin do toho
+    }
+# Variables:
+#  $count (Number): Number of hours before the event.
+calendar-dialog-reminder-hours-before =
+    { $count ->
+        [one] { $count } hodźina do toho
+        [two] { $count } hodźinje do toho
+        [few] { $count } hodźiny do toho
+       *[other] { $count } hodźin do toho
+    }
+# Variables:
+#  $count (Number): Number of days before the event.
+calendar-dialog-reminder-days-before =
+    { $count ->
+        [one] { $count } dźeń do toho
+        [two] { $count } dnjej do toho
+        [few] { $count } dny do toho
+       *[other] { $count } dnjow do toho
+    }
 calendar-dialog-reminder-week-before = 1 tydźeń do toho
 # Variables:
 #   $count (Number): Number of reminders.
