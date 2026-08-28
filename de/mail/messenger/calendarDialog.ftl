@@ -9,6 +9,8 @@
 calendar-dialog-close-button =
     .aria-label = Schließen
     .title = Schließen
+calendar-event-create-edit-dialog =
+    .aria-label = Termin
 calendar-dialog-menu-button =
     .aria-label = Menü öffnen
     .title = Menü öffnen
@@ -68,6 +70,8 @@ calendar-dialog-more-categories =
 calendar-dialog-delete-reminder-button =
     .alt = Erinnerung löschen
 calendar-dialog-add-reminder-button = Erinnerung hinzufügen
+calendar-dialog-reminder-select =
+    .aria-label = Neue Erinnerungszeit auswählen
 calendar-dialog-save-reminder-button = Speichern
 calendar-dialog-reminder-event-start = 0 Minuten vorher
 # Variables:
