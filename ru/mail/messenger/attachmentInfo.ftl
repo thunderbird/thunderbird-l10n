@@ -5,6 +5,14 @@
 
 ## Strings used by attachment actions: saving, opening, detaching and deleting.
 
+attachment-save-dialog-title = Сохранить вложение
+attachment-save-all-dialog-title = Сохранить все вложения
+attachment-detach-dialog-title = Отделить вложение
+attachment-detach-all-dialog-title = Отделить все вложения
+attachment-save-failed = Не удалось сохранить вложение. Проверьте правильность написания имени файла, подождите некоторое время и попробуйте снова.
+# Variables:
+#   $filename (String) - Name of the file that already exists.
+attachment-file-exists = «{ $filename }» уже существует. Заменить его?
 # Variables:
 #   $attachments (String) - Newline separated list of attachment names.
 attachment-delete-confirm =
