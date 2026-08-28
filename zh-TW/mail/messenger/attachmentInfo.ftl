@@ -9,6 +9,10 @@ attachment-save-dialog-title = 儲存附件
 attachment-save-all-dialog-title = 儲存所有附件
 attachment-detach-dialog-title = 分離附件
 attachment-detach-all-dialog-title = 分離所有附件
+attachment-save-failed = 無法儲存附件，請檢查檔名是否正確後再試一次。
+# Variables:
+#   $filename (String) - Name of the file that already exists.
+attachment-file-exists = { $filename } 已存在。您要取代它嗎？
 # Variables:
 #   $attachments (String) - Newline separated list of attachment names.
 attachment-delete-confirm =
