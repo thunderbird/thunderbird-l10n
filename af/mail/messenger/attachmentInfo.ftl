@@ -11,3 +11,19 @@ attachment-save-failed = Kon nie die aanhegsel stoor nie. Kontroleer u lêernaam
 # Variables:
 #   $filename (String) - Name of the file that already exists.
 attachment-file-exists = { $filename } bestaan reeds. Wil u dit vervang?
+# Variables:
+#   $attachments (String) - Newline separated list of attachment names.
+attachment-delete-confirm =
+    Die volgende aanhegsels sal permanent van hierdie boodskap af geskrap word:
+    { $attachments }
+    Hierdie aksie kan nie ontdoen word nie. Wil u voortgaan?
+# Variables:
+#   $attachments (String) - Newline separated list of attachment names.
+attachment-detach-confirm =
+    Die volgende aanhegsels is suksesvol gestoor en sal nou permanent van hierdie boodskap af geskrap word:
+    { $attachments }
+    Hierdie aksie kan nie ontdoen word nie. Wil u voortgaan?
+attachment-empty =
+    Hierdie aanhegsel blyk leeg te wees.
+    Vra gerus die persoon wat dit gestuur het.
+    Maatskappye se brandmure of viruswering vernietig soms aanhegsels.
