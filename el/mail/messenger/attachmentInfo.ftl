@@ -5,6 +5,10 @@
 
 ## Strings used by attachment actions: saving, opening, detaching and deleting.
 
+attachment-save-dialog-title = Αποθήκευση συνημμένου
+attachment-save-all-dialog-title = Αποθήκευση όλων των συνημμένων
+attachment-detach-dialog-title = Αφαίρεση συνημμένου
+attachment-detach-all-dialog-title = Αφαίρεση όλων των συνημμένων
 attachment-save-failed = Δεν είναι δυνατή η αποθήκευση του συνημμένου. Ελέγξτε το όνομα του αρχείου και δοκιμάστε ξανά αργότερα.
 # Variables:
 #   $filename (String) - Name of the file that already exists.
