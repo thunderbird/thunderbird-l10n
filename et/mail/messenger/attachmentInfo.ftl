@@ -13,3 +13,20 @@ attachment-save-failed = Manuse salvestamine ei õnnestunud. Kontrolli palun fai
 # Variables:
 #   $filename (String) - Name of the file that already exists.
 attachment-file-exists = { $filename } on juba olemas. Kas soovid seda asendada?
+# Variables:
+#   $attachments (String) - Newline separated list of attachment names.
+attachment-delete-confirm =
+    Järgnevad manused kustutatakse kirjast jäädavalt:
+    { $attachments }
+    Seda tegevust pole võimalik tagasi võtta. Kas oled kindel, et soovid jätkata?
+# Variables:
+#   $attachments (String) - Newline separated list of attachment names.
+attachment-detach-confirm =
+    Järgnevad manused on edukalt salvestatud ning eemaldatakse nüüd kirjast jäädavalt:
+    { $attachments }
+    Seda tegevust pole võimalik tagasi võtta. Kas oled kindel, et soovid jätkata?
+attachment-empty =
+    See manus tundub tühi olevat.
+    Palun võta ühendust inimesega, kes selle saatis.
+    Tihti hävitatakse manused ettevõtete tulemüüride või viirustõrjetarkvara poolt.
+attachment-external-not-found = See väline fail või link pole leitav või pole sellest asukohast enam ligipääsetav.
