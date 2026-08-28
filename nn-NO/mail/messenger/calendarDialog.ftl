@@ -9,6 +9,8 @@
 calendar-dialog-close-button =
     .aria-label = Lat att
     .title = Lat att
+calendar-event-create-edit-dialog =
+    .aria-label = Hending
 calendar-dialog-menu-button =
     .aria-label = Opne meny
     .title = Opne meny
@@ -67,6 +69,9 @@ calendar-dialog-more-categories =
     .title = { $categories }
 calendar-dialog-delete-reminder-button =
     .alt = Slett påminning
+calendar-dialog-save-reminder-button = Lagre
+calendar-dialog-reminder-event-start = 0 minutt før
+calendar-dialog-reminder-week-before = 1 veke før
 # Variables:
 #   $count (Number): Number of reminders.
 calendar-dialog-reminder-count =

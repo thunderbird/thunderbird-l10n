@@ -9,6 +9,8 @@
 calendar-dialog-close-button =
     .aria-label = Închide
     .title = Închide
+calendar-event-create-edit-dialog =
+    .aria-label = Eveniment
 calendar-dialog-menu-button =
     .aria-label = Deschide meniul
     .title = Deschide meniul
@@ -69,6 +71,36 @@ calendar-dialog-more-categories =
     .title = { $categories }
 calendar-dialog-delete-reminder-button =
     .alt = Șterge mementoul
+calendar-dialog-add-reminder-button = Adaugă un memento
+calendar-dialog-reminder-select =
+    .aria-label = Selectează durata noului memento
+calendar-dialog-save-reminder-button = Salvează
+calendar-dialog-reminder-event-start = cu 0 minute înainte
+# Variables:
+#  $count (Number): Number of minutes before the event.
+calendar-dialog-reminder-minutes-before =
+    { $count ->
+        [one] cu { $count } minut înainte
+        [few] cu { $count } minute înainte
+       *[other] cu { $count } de minute înainte
+    }
+# Variables:
+#  $count (Number): Number of hours before the event.
+calendar-dialog-reminder-hours-before =
+    { $count ->
+        [one] cu { $count } oră înainte
+        [few] cu { $count } ore înainte
+       *[other] cu { $count } de ore înainte
+    }
+# Variables:
+#  $count (Number): Number of days before the event.
+calendar-dialog-reminder-days-before =
+    { $count ->
+        [one] cu { $count } zi înainte
+        [few] cu { $count } zile înainte
+       *[other] cu { $count } de zile înainte
+    }
+calendar-dialog-reminder-week-before = cu 1 săptămână înainte
 # Variables:
 #   $count (Number): Number of reminders.
 calendar-dialog-reminder-count =
