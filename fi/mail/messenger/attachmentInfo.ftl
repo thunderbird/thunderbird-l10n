@@ -13,3 +13,20 @@ attachment-save-failed = Liitetiedoston tallentaminen ei onnistunut. Tarkista ti
 # Variables:
 #   $filename (String) - Name of the file that already exists.
 attachment-file-exists = Tiedosto { $filename } on jo olemassa. Korvataanko se?
+# Variables:
+#   $attachments (String) - Newline separated list of attachment names.
+attachment-delete-confirm =
+    Seuraavat liitteet poistetaan pysyvästi tästä viestistä:
+    { $attachments }
+    Tätä toimintoa ei voi kumota. Jatketaanko toimintoa?
+# Variables:
+#   $attachments (String) - Newline separated list of attachment names.
+attachment-detach-confirm =
+    Seuraavat liitteet tallennettiin onnistuneesti ja ne poistetaan pysyvästi tästä viestistä:
+    { $attachments }
+    Tätä toimintoa ei voi kumota. Jatketaanko toimintoa?
+attachment-empty =
+    Tämä liitetiedosto näyttäisi olevan tyhjä.
+    Tarkista sähköpostin lähettäjältä pitäisikö näin olla.
+    Usein yritysten palomuurit tai virustentorjuntaohjelmat poistavat liitteet.
+attachment-external-not-found = Viestin liitetiedostoa tai linkin kohdetta ei löydy tai se ei ole enää käytettävissä tässä sijainnissa.
