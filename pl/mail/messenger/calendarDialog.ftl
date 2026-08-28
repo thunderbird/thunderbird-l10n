@@ -89,7 +89,7 @@ calendar-dialog-reminder-minutes-before =
 #  $count (Number): Number of hours before the event.
 calendar-dialog-reminder-hours-before =
     { $count ->
-        [one] { $count } godzinę przed
+        [one] { $count } godzina przed
         [few] { $count } godziny przed
        *[many] { $count } godzin przed
     }
