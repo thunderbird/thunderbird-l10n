@@ -67,6 +67,31 @@ calendar-dialog-more-categories =
     .title = +{ $additionalCategories } weitere
 calendar-dialog-delete-reminder-button =
     .alt = Erinnerung löschen
+calendar-dialog-add-reminder-button = Erinnerung hinzufügen
+calendar-dialog-save-reminder-button = Speichern
+calendar-dialog-reminder-event-start = 0 Minuten vorher
+# Variables:
+#  $count (Number): Number of minutes before the event.
+calendar-dialog-reminder-minutes-before =
+    { $count ->
+        [one] { $count } Minute vorher
+       *[other] { $count } Minuten vorher
+    }
+# Variables:
+#  $count (Number): Number of hours before the event.
+calendar-dialog-reminder-hours-before =
+    { $count ->
+        [one] { $count } Stunde vorher
+       *[other] { $count } Stunden vorher
+    }
+# Variables:
+#  $count (Number): Number of days before the event.
+calendar-dialog-reminder-days-before =
+    { $count ->
+        [one] { $count } Tag vorher
+       *[other] { $count } Tage vorher
+    }
+calendar-dialog-reminder-week-before = 1 Woche vorher
 # Variables:
 #   $count (Number): Number of reminders.
 calendar-dialog-reminder-count =

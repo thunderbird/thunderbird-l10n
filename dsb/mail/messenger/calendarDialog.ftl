@@ -9,6 +9,8 @@
 calendar-dialog-close-button =
     .aria-label = Zacyniś
     .title = Zacyniś
+calendar-event-create-edit-dialog =
+    .aria-label = Tšojenje
 calendar-dialog-menu-button =
     .aria-label = Meni wócyniś
     .title = Meni wócyniś
@@ -72,6 +74,39 @@ calendar-dialog-more-categories =
     .title = { $categories }
 calendar-dialog-delete-reminder-button =
     .alt = Dopomnjeśe lašowaś
+calendar-dialog-add-reminder-button = Dopomnjeśe pśidaś
+calendar-dialog-reminder-select =
+    .aria-label = Wubjeŕśo nowe traśe dopomnjeśa
+calendar-dialog-save-reminder-button = Składowaś
+calendar-dialog-reminder-event-start = 0 minutow do togo
+# Variables:
+#  $count (Number): Number of minutes before the event.
+calendar-dialog-reminder-minutes-before =
+    { $count ->
+        [one] { $count } minuta do togo
+        [two] { $count } minuśe do togo
+        [few] { $count } minuty do togo
+       *[other] { $count } minutow do togo
+    }
+# Variables:
+#  $count (Number): Number of hours before the event.
+calendar-dialog-reminder-hours-before =
+    { $count ->
+        [one] { $count } góźina do togo
+        [two] { $count } góźinje do togo
+        [few] { $count } góźiny do togo
+       *[other] { $count } góźinow do togo
+    }
+# Variables:
+#  $count (Number): Number of days before the event.
+calendar-dialog-reminder-days-before =
+    { $count ->
+        [one] { $count } źeń do togo
+        [two] { $count } dnja do togo
+        [few] { $count } dny do togo
+       *[other] { $count } dnjow do togo
+    }
+calendar-dialog-reminder-week-before = 1 tyźeń do togo
 # Variables:
 #   $count (Number): Number of reminders.
 calendar-dialog-reminder-count =
