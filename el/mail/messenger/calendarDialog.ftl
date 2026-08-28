@@ -67,6 +67,8 @@ calendar-dialog-more-categories =
     .title = { $categories }
 calendar-dialog-delete-reminder-button =
     .alt = Διαγραφή υπενθύμισης
+calendar-dialog-add-reminder-button = Προσθήκη υπενθύμισης
+calendar-dialog-save-reminder-button = Αποθήκευση
 # Variables:
 #   $count (Number): Number of reminders.
 calendar-dialog-reminder-count =
