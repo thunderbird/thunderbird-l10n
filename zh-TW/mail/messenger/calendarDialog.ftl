@@ -9,6 +9,8 @@
 calendar-dialog-close-button =
     .aria-label = 關閉
     .title = 關閉
+calendar-event-create-edit-dialog =
+    .aria-label = 事件
 calendar-dialog-menu-button =
     .aria-label = 開啟選單
     .title = 開啟選單
@@ -66,6 +68,30 @@ calendar-dialog-more-categories =
     .title = { $categories }
 calendar-dialog-delete-reminder-button =
     .alt = 刪除提醒
+calendar-dialog-add-reminder-button = 新增提醒
+calendar-dialog-reminder-select =
+    .aria-label = 選擇新的提醒時間長度
+calendar-dialog-save-reminder-button = 儲存
+calendar-dialog-reminder-event-start = 在 0 分鐘之前
+# Variables:
+#  $count (Number): Number of minutes before the event.
+calendar-dialog-reminder-minutes-before =
+    { $count ->
+       *[other] 在 { $count } 分鐘之前
+    }
+# Variables:
+#  $count (Number): Number of hours before the event.
+calendar-dialog-reminder-hours-before =
+    { $count ->
+       *[other] { $count } 小時之前
+    }
+# Variables:
+#  $count (Number): Number of days before the event.
+calendar-dialog-reminder-days-before =
+    { $count ->
+       *[other] { $count } 天前
+    }
+calendar-dialog-reminder-week-before = 在 1 星期之前
 # Variables:
 #   $count (Number): Number of reminders.
 calendar-dialog-reminder-count =

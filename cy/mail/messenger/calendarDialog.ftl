@@ -9,6 +9,8 @@
 calendar-dialog-close-button =
     .aria-label = Cau
     .title = Cau
+calendar-event-create-edit-dialog =
+    .aria-label = Digwyddiad
 calendar-dialog-menu-button =
     .aria-label = Agor dewislen
     .title = Agor Dewislen
@@ -76,6 +78,45 @@ calendar-dialog-more-categories =
     .title = { $categories }
 calendar-dialog-delete-reminder-button =
     .alt = Dileu Nodyn Atgoffa
+calendar-dialog-add-reminder-button = Ychwanegu nodyn atgoffa
+calendar-dialog-reminder-select =
+    .aria-label = Dewiswch hyd nodyn atgoffa newydd
+calendar-dialog-save-reminder-button = Cadw
+calendar-dialog-reminder-event-start = 0 munud cyn hynny
+# Variables:
+#  $count (Number): Number of minutes before the event.
+calendar-dialog-reminder-minutes-before =
+    { $count ->
+        [one] { $count } munud ynghynt
+        [zero] { $count } munud ynghynt
+        [two] { $count } munud ynghynt
+        [few] { $count } munud ynghynt
+        [many] { $count } munud ynghynt
+       *[other] { $count } munud ynghynt
+    }
+# Variables:
+#  $count (Number): Number of hours before the event.
+calendar-dialog-reminder-hours-before =
+    { $count ->
+        [one] { $count } awr ynghynt
+        [zero] { $count } awr ynghynt
+        [two] { $count } awr ynghynt
+        [few] { $count } awr ynghynt
+        [many] { $count } awr ynghynt
+       *[other] { $count } awr ynghynt
+    }
+# Variables:
+#  $count (Number): Number of days before the event.
+calendar-dialog-reminder-days-before =
+    { $count ->
+        [one] { $count } diwrnod ynghynt
+        [zero] { $count } diwrnod ynghynt
+        [two] { $count } diwrnod ynghynt
+        [few] { $count } diwrnod ynghynt
+        [many] { $count } diwrnod ynghynt
+       *[other] { $count } diwrnod ynghynt
+    }
+calendar-dialog-reminder-week-before = 1 wythnos cyn hynny
 # Variables:
 #   $count (Number): Number of reminders.
 calendar-dialog-reminder-count =
