@@ -13,3 +13,20 @@ attachment-save-failed = Imposible guardar el adjunto. Compruebe el nombre de su
 # Variables:
 #   $filename (String) - Name of the file that already exists.
 attachment-file-exists = { $filename } ya existe. ¿Desea reemplazarlo?
+# Variables:
+#   $attachments (String) - Newline separated list of attachment names.
+attachment-delete-confirm =
+    Los siguientes adjuntos se eliminarán permanentemente de este mensaje:
+    { $attachments }
+    Esta acción no se puede deshacer. ¿Desea continuar?
+# Variables:
+#   $attachments (String) - Newline separated list of attachment names.
+attachment-detach-confirm =
+    Los siguientes adjuntos se han guardado correctamente y se eliminarán permanentemente de este mensaje:
+    { $attachments }
+    Esta acción no se puede deshacer. ¿Desea continuar?
+attachment-empty =
+    Este adjunto parece estar vacío.
+    Confírmelo con la persona que envió esto.
+    A menudo, los cortafuegos empresariales o los programas antivirus destruyen los adjuntos.
+attachment-external-not-found = Este adjunto de archivo o enlace separados ya no se encuentra o no está accesible en esta ubicación.
