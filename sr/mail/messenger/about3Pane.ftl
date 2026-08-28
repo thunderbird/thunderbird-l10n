@@ -287,6 +287,7 @@ threadpane-column-label-unread-button =
     .label = Стање прочитаности
 threadpane-cell-read-status =
     .aria-label = Стање прочитаности
+threadpane-new-cell-label = Ново
 threadpane-read-cell-label = Прочитано
 threadpane-unread-cell-label = Непрочитано
 threadpane-column-header-a11y-sender =
@@ -572,13 +573,13 @@ folder-pane-context-reset-sort =
 # Variables:
 # $count (Number) - One or more than one folder selected for compacting
 folder-pane-context-compact =
-    .accesskey = С
     .label =
         { $count ->
             [one] Сажми фасциклу
             [few] Сажми фасцикле
            *[other] Сажми фасцикле
         }
+    .accesskey = С
 # One or more servers selected for compacting ALL their folders. Only this or
 # folder-pane-context-compact string will appear at a time, not both.
 folder-pane-context-compact-all =
