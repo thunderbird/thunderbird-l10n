@@ -36,7 +36,7 @@
 <!ENTITY offlineSelectNntp.accesskey "A">
 <!ENTITY offlineImapAdvancedOffline.label "Papildu…">
 <!ENTITY offlineImapAdvancedOffline.accesskey "P">
-<!ENTITY syncGroupTitle.label "Vēstuļu sinhronizēšana">
+<!ENTITY syncGroupTitle.label "Ziņojumu vienādošana">
 <!ENTITY diskspaceGroupTitle.label "Diska vieta">
 <!-- LOCALIZATION NOTE: (ageAutosyncBefore.label, ageAutosyncMiddle.label, ageAutosyncAfter.label):
   The entities ageAutosyncBefore.label, ageAutosyncMiddle.label, and ageAutosyncAfter.label appear
