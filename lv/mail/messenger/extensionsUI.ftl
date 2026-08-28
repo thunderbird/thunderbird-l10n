@@ -3,3 +3,4 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 webext-experiment-warning = Ļaunprātīgi papildinājumi var nozagt jūsu privāto informāciju vai apdraudēt datoru. Uzstādiet šo papildinājumu tikai tad, ja uzticaties avotam.
+webext-perms-learn-more = Uzzināt vairāk

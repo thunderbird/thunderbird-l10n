@@ -48,6 +48,7 @@ policy-DisableFeedbackCommands = Blokování odeslání zpětné vazby z nabídk
 policy-DisableForgetButton = Zablokování tlačítka Zapomenout.
 policy-DisableFormHistory = Vypnutí ukládání historie vyhledávání a formulářů.
 policy-DisableMasterPasswordCreation = Hodnota true znemožní nastavení hlavního hesla.
+policy-DisableMessageForwardingFilters = Zabrání filtrům zpráv v automatickém přeposílání zpráv.
 policy-DisablePasswordReveal = Zakázání možnosti zobrazit hesla ve správci přihlašovacích údajů.
 policy-DisableProfileImport = Blokování importu dat z jiných aplikací.
 policy-DisableExperimentalFeatures = Vypnutí experimentálních funkcí v Thunderbirdu.
@@ -60,6 +61,7 @@ policy-DisableSystemAddonUpdate =
        *[no-cases] Blokování aplikaci { -brand-short-name } aktualizovat systémové doplňky.
     }
 policy-DisableTelemetry = Vypnutí telemetrie.
+policy-DisableUpdateSettings = Znemožní uživateli měnit nastavení aktualizací aplikace.
 policy-DisplayMenuBar = Zobrazení lišty nabídek ve výchozím nastavení.
 policy-DNSOverHTTPS = Nastavení DNS over HTTPS.
 policy-DontCheckDefaultClient = Vypnutí kontroly nastavení výchozí aplikace při spuštění.

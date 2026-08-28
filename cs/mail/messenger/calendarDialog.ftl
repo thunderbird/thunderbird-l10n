@@ -9,6 +9,8 @@
 calendar-dialog-close-button =
     .aria-label = Zavřít
     .title = Zavřít
+calendar-event-create-edit-dialog =
+    .aria-label = Událost
 calendar-dialog-menu-button =
     .aria-label = Otevřít nabídku
     .title = Otevřít nabídku
@@ -72,6 +74,39 @@ calendar-dialog-more-categories =
     .title = { $categories }
 calendar-dialog-delete-reminder-button =
     .alt = Smazat připomenutí
+calendar-dialog-add-reminder-button = Přidat připomenutí
+calendar-dialog-reminder-select =
+    .aria-label = Zvolte dobu trvání připomenutí
+calendar-dialog-save-reminder-button = Uložit
+calendar-dialog-reminder-event-start = 0 minut před
+# Variables:
+#  $count (Number): Number of minutes before the event.
+calendar-dialog-reminder-minutes-before =
+    { $count ->
+        [one] { $count } minuta před
+        [few] { $count } minuty před
+        [many] { $count } minut před
+       *[other] { $count } minut před
+    }
+# Variables:
+#  $count (Number): Number of hours before the event.
+calendar-dialog-reminder-hours-before =
+    { $count ->
+        [one] { $count } hodinu před
+        [few] { $count } hodiny před
+        [many] { $count } hodin před
+       *[other] { $count } hodin před
+    }
+# Variables:
+#  $count (Number): Number of days before the event.
+calendar-dialog-reminder-days-before =
+    { $count ->
+        [one] { $count } den před
+        [few] { $count } dny před
+        [many] { $count } dnů před
+       *[other] { $count } dnů před
+    }
+calendar-dialog-reminder-week-before = 1 týden před
 # Variables:
 #   $count (Number): Number of reminders.
 calendar-dialog-reminder-count =
