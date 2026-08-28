@@ -9,6 +9,8 @@
 calendar-dialog-close-button =
     .aria-label = Zamknij
     .title = Zamknij
+calendar-event-create-edit-dialog =
+    .aria-label = Wydarzenie
 calendar-dialog-menu-button =
     .aria-label = Otwórz menu
     .title = Otwórz menu
@@ -70,6 +72,36 @@ calendar-dialog-more-categories =
     .title = { $categories }
 calendar-dialog-delete-reminder-button =
     .alt = Usuń przypomnienie
+calendar-dialog-add-reminder-button = Dodaj przypomnienie
+calendar-dialog-reminder-select =
+    .aria-label = Wybierz nowy czas trwania przypomnienia
+calendar-dialog-save-reminder-button = Zapisz
+calendar-dialog-reminder-event-start = 0 minut przed
+# Variables:
+#  $count (Number): Number of minutes before the event.
+calendar-dialog-reminder-minutes-before =
+    { $count ->
+        [one] { $count } minuta przed
+        [few] { $count } minuty przed
+       *[many] { $count } minut przed
+    }
+# Variables:
+#  $count (Number): Number of hours before the event.
+calendar-dialog-reminder-hours-before =
+    { $count ->
+        [one] { $count } godzinę przed
+        [few] { $count } godziny przed
+       *[many] { $count } godzin przed
+    }
+# Variables:
+#  $count (Number): Number of days before the event.
+calendar-dialog-reminder-days-before =
+    { $count ->
+        [one] { $count } dzień przed
+        [few] { $count } dni przed
+       *[many] { $count } dni przed
+    }
+calendar-dialog-reminder-week-before = 1 tydzień przed
 # Variables:
 #   $count (Number): Number of reminders.
 calendar-dialog-reminder-count =
