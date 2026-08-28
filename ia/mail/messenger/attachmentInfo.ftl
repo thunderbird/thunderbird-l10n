@@ -13,3 +13,20 @@ attachment-save-failed = Impossibile salvar le annexo. Verifica le nomine del fi
 # Variables:
 #   $filename (String) - Name of the file that already exists.
 attachment-file-exists = { $filename } existe jam. Desira tu reimplaciar lo?
+# Variables:
+#   $attachments (String) - Newline separated list of attachment names.
+attachment-delete-confirm =
+    Le sequente annexos essera permanentemente delite de iste message:
+    { $attachments }
+    Iste action es irreversibile. Es tu secur de voler continuar?
+# Variables:
+#   $attachments (String) - Newline separated list of attachment names.
+attachment-detach-confirm =
+    Le sequente annexos ha essite salvate correctemente e ora essera permanentemente delite de iste message:
+    { $attachments }
+    Iste action es irreversibile. Es tu secur de voler continuar?
+attachment-empty =
+    Iste annexo pare esser vacue.
+    Contacta le expeditor pro verificar isto.
+    Il occurre sovente que firewalls o programmas antivirus destrue annexos.
+attachment-external-not-found = Le file ligate non ha essite trovate o non es plus accessibile.
