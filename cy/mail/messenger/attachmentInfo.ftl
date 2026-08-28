@@ -13,3 +13,20 @@ attachment-save-failed = Methu cadw'r atodiad. Gwiriwch enw eich ffeil a cheisiw
 # Variables:
 #   $filename (String) - Name of the file that already exists.
 attachment-file-exists = Mae { $filename } yn bodoli yn barod. Hoffech chi newid y ffeil?
+# Variables:
+#   $attachments (String) - Newline separated list of attachment names.
+attachment-delete-confirm =
+    Bydd yr atodiadau canlynol yn cael eu dileu'n barhaol o neges:
+    { $attachments }
+    Nid oes modd dadwneud y weithred hon. Hoffech chi barhau?
+# Variables:
+#   $attachments (String) - Newline separated list of attachment names.
+attachment-detach-confirm =
+    Mae'r atodiadau canlynol wedi'u cadw'n llwyddiannus a byddant yn cael eu dileu o'r neges yn barhaol:
+    { $attachments }
+    Nid oes modd dadwneud y weithred hon. Hoffech chi barhau?
+attachment-empty =
+    Mae'r atodiad yma i weld yn wag.
+    Gwiriwch gyda'r person anfonodd hwn.
+    Yn aml mae muriau tân neu raglenni gwrth firws yn dinistrio atodiadau.
+attachment-external-not-found = Nid yw'r ffeil ar wahân hon neu atodiad dolen wedi ei ganfod neu nid yw'n hygyrch yn y lleoliad hwn bellach.
