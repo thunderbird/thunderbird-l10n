@@ -13,3 +13,19 @@ attachment-save-failed = Załącznik nie może zostać zapisany. Należy sprawdz
 # Variables:
 #   $filename (String) - Name of the file that already exists.
 attachment-file-exists = Plik { $filename } już istnieje. Czy na pewno zastąpić istniejący plik?
+# Variables:
+#   $attachments (String) - Newline separated list of attachment names.
+attachment-delete-confirm =
+    Następujące załączniki zostaną nieodwracalnie usunięte z tej wiadomości:
+    { $attachments }
+    Czynności tej nie można cofnąć. Czy kontynuować?
+# Variables:
+#   $attachments (String) - Newline separated list of attachment names.
+attachment-detach-confirm =
+    Następujące załączniki zostały zapisane i zostaną nieodwracalnie usunięte z tej wiadomości:
+    { $attachments }
+    Czynności tej nie można cofnąć. Czy kontynuować?
+attachment-empty =
+    Ten załącznik wygląda na pusty.
+    Proszę skontaktować się z nadawcą w celu wyjaśnienia.
+attachment-external-not-found = Ten odłączony załącznik z plikiem lub odnośnikiem nie został znaleziony lub nie jest już dostępny w tym położeniu.
