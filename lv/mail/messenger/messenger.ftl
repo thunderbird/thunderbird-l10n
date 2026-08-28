@@ -13,18 +13,6 @@ content-tab-security-high-icon =
     .alt = Savienojums ir drošs
 content-tab-security-broken-icon =
     .alt = Savienojums nav drošs
-
-# Back
-
-
-# Forward
-
-
-# Reload
-
-
-# Stop
-
 open-windows-warning-confirmation-title = Apstiprināt
 # Variables:
 #   $count - number of messages to open
@@ -43,6 +31,12 @@ open-tabs-warning-confirmation =
         [one] { $count } vēstuļu atvēršana var būt lēna. Turpināt?
        *[other] { $count } vēstuļu atvēršana var būt lēna. Turpināt?
     }
+
+## Toolbar
+
+quick-filter-toolbarbutton =
+    .label = Ātrais atsijātājs
+    .tooltiptext = Atsijāt ziņoas
 
 ## Folder Toolbar Header Popup
 
@@ -149,7 +143,7 @@ menuitem-customize-label =
 # The label to display for the "View... Toolbars..." menu item that controls
 # whether the quick filter bar is visible.
 quick-filter-bar-toggle =
-    .label = Ātro filtru josla
+    .label = Ātrā atsijātāja josla
     .accesskey = t
 # This is the key used to show the quick filter bar.
 # This should match quick-filter-bar-search-shortcut in about3Pane.ftl.
