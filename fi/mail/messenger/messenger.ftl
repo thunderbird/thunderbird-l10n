@@ -245,6 +245,10 @@ menu-move-to =
 menu-copy-to =
     .label = Kopioi kansioon
     .accesskey = K
+menu-move-copy-recent-destinations-no-accesskey =
+    .label = Viimeisimmät kohteet
+menu-move-copy-favorites-no-accesskey =
+    .label = Suosikit
 menu-move-copy-recent-destinations =
     .label = Viimeisimmät kohteet
     .accesskey = R
@@ -560,6 +564,9 @@ folder-context-empty-spam =
     .label = Tyhjennä roskapostikansio
     .accesskey = T
 
+## Thread pane.
+
+
 ## Message header.
 
 header-spam-button =
@@ -624,6 +631,9 @@ prompt-dont-ask-again = Älä kysy uudestaan.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Roskapostianalyysi { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } valmis
 spam-processing-message = Käsitellään roskapostiviestejä
+
+## Ignore threads
+
 
 ## Attachments
 
