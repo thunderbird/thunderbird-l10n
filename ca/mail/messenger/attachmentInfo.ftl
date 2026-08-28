@@ -13,3 +13,20 @@ attachment-save-failed = No es pot desar l'adjunció. Comproveu el nom del fitxe
 # Variables:
 #   $filename (String) - Name of the file that already exists.
 attachment-file-exists = { $filename } ja existeix. Voleu reemplaçar-lo?
+# Variables:
+#   $attachments (String) - Newline separated list of attachment names.
+attachment-delete-confirm =
+    Les següents adjuncions se suprimiran permanentment d'aquest missatge:
+    { $attachments }
+    Aquesta acció no pot desfer-se. Esteu segur que voleu continuar?
+# Variables:
+#   $attachments (String) - Newline separated list of attachment names.
+attachment-detach-confirm =
+    Les següents adjuncions s'han desat correctament i se suprimiran permanentment d'aquest missatge:
+    { $attachments }
+    Aquesta acció no pot desfer-se. Esteu segur que voleu continuar?
+attachment-empty =
+    Aquest fitxer adjunt sembla que està buit.
+    Consulteu amb la persona que l'ha enviat.
+    Sovint, els tallafocs o els antivirus de les empreses suprimeixen els fitxers adjunts.
+attachment-external-not-found = Aquest fitxer separat o adjunt en forma d'enllaç no s'ha trobat o ja no és accessible en aquesta ubicació.
