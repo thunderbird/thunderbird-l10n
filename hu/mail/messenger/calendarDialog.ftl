@@ -9,6 +9,8 @@
 calendar-dialog-close-button =
     .aria-label = Bezárás
     .title = Bezárás
+calendar-event-create-edit-dialog =
+    .aria-label = Esemény
 calendar-dialog-menu-button =
     .aria-label = Menü megnyitása
     .title = Menü megnyitása
@@ -68,6 +70,33 @@ calendar-dialog-more-categories =
     .title = { $categories }
 calendar-dialog-delete-reminder-button =
     .alt = Emlékeztető törlése
+calendar-dialog-add-reminder-button = Emlékeztető hozzáadása
+calendar-dialog-reminder-select =
+    .aria-label = Új emlékeztetési időtartam kiválasztása
+calendar-dialog-save-reminder-button = Mentés
+calendar-dialog-reminder-event-start = 0 perccel előtte
+# Variables:
+#  $count (Number): Number of minutes before the event.
+calendar-dialog-reminder-minutes-before =
+    { $count ->
+        [one] { $count } perccel előtte
+       *[other] { $count } perccel előtte
+    }
+# Variables:
+#  $count (Number): Number of hours before the event.
+calendar-dialog-reminder-hours-before =
+    { $count ->
+        [one] { $count } órával előtte
+       *[other] { $count } órával előtte
+    }
+# Variables:
+#  $count (Number): Number of days before the event.
+calendar-dialog-reminder-days-before =
+    { $count ->
+        [one] { $count } nappal előtte
+       *[other] { $count } nappal előtte
+    }
+calendar-dialog-reminder-week-before = 1 héttel előtte
 # Variables:
 #   $count (Number): Number of reminders.
 calendar-dialog-reminder-count =
