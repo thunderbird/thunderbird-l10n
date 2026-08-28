@@ -9,6 +9,8 @@
 calendar-dialog-close-button =
     .aria-label = Clauder
     .title = Clauder
+calendar-event-create-edit-dialog =
+    .aria-label = Evento
 calendar-dialog-menu-button =
     .aria-label = Aperir menu
     .title = Aperir menu
@@ -67,6 +69,8 @@ calendar-dialog-more-categories =
     .title = +{ $additionalCategories } more
 calendar-dialog-delete-reminder-button =
     .alt = Deler memento
+calendar-dialog-save-reminder-button = Salvar
+calendar-dialog-reminder-event-start = 0 minutas ante
 # Variables:
 #   $count (Number): Number of reminders.
 calendar-dialog-reminder-count =
