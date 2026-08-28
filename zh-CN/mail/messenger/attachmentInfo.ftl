@@ -13,3 +13,20 @@ attachment-save-failed = 不能保存附件。请检查文件名并稍后重试�
 # Variables:
 #   $filename (String) - Name of the file that already exists.
 attachment-file-exists = { $filename } 已存在。您要覆盖它吗？
+# Variables:
+#   $attachments (String) - Newline separated list of attachment names.
+attachment-delete-confirm =
+    将从该消息中永久删除下列附件：
+    { $attachments }
+    该操作不可逆。请问您确定要继续吗？
+# Variables:
+#   $attachments (String) - Newline separated list of attachment names.
+attachment-detach-confirm =
+    已经成功保存下列附件：
+    { $attachments }
+    将从该消息中永久删除此附件。该操作不可逆。请问您确定要继续吗？
+attachment-empty =
+    这个附件似乎是空的。
+    请与发送该附件的人核实。
+    通常情况下公司的防火墙或者杀毒软件会破坏掉附件。
+attachment-external-not-found = 找不到分离文件或链接附件，或是无法在此位置访问。
