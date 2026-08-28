@@ -12,6 +12,15 @@ configured-cert-ok-sig = Certifikatet har bestået testen og kan bruges til sign
 configured-cert-failure-detail = Certifikatbekræftelsen mislykkedes med følgende fejl: { $errorMsg } (Fejlkode: { $errorCodeStr })
 # $errorCode A numeric error code
 configured-cert-failure = Certifikatbekræftelsen mislykkedes med fejlkoden { $errorCode }
+# Cryptographic details displayed in the message security popup
+smime-crypto-signature-algorithm = Signatur-algoritme:
+smime-crypto-digest-algorithm = Signaturens sammenfatningsalgoritme:
+smime-crypto-cipher = Krypteringsalgoritme:
+smime-crypto-key-encryption = Nøglekrypteringsalgoritme:
+# $algorithm - The encryption algorithm name (e.g. "AES-GCM")
+# $keySize - The key size in bits (e.g. "256")
+smime-crypto-cipher-with-key-size = { $algorithm } ({ $keySize }-bit)
+smime-crypto-details-summary = Algoritmer
 # $errorMsg A sentence that explains the error.
 # $errorCodeStr A human readable error code, e.g. SEC_ERROR_UNKNOWN_ISSUER
 # Note the initial empty line is necessary to preserve the line breaks.
