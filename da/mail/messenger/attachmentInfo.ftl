@@ -5,6 +5,7 @@
 
 ## Strings used by attachment actions: saving, opening, detaching and deleting.
 
+attachment-save-dialog-title = Gem vedhæftet fil
 attachment-save-all-dialog-title = Gem alle vedhæftede filer
 attachment-detach-dialog-title = Afhæft vedhæftet fil
 attachment-detach-all-dialog-title = Afhæft alle vedhæftede filer

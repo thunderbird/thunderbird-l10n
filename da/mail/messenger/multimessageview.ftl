@@ -13,6 +13,9 @@ multi-message-delete-button =
 multi-message-undelete-button =
     .label = Fortryd sletning
     .tooltiptext = Fortryd sletning
+multi-message-flagged-button =
+    .aria-label = Stjernemarkeret
+    .title = Stjernemarkeret
 # Variables:
 #   $count - total number of conversations (threads or solitary messages) selected
 num-conversations =

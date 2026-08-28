@@ -188,6 +188,9 @@ mail-browse-sound-button =
 enable-gloda-search-label =
     .label = Aktiver global søgning og indeksering
     .accesskey = A
+gloda-show-results-as-list-label =
+    .label = Vis globale søgeresultater som en liste som standard
+    .accesskey = L
 datetime-formatting-legend = Dato- og tidsformat
 language-selector-legend = Sprog
 allow-hw-accel =
@@ -581,9 +584,9 @@ enable-cloud-share =
 cloud-share-size =
     .value = MB
 add-cloud-account =
+    .defaultlabel = Tilføj…
     .label = Tilføj…
     .accesskey = T
-    .defaultlabel = Tilføj…
 remove-cloud-account =
     .label = Fjern
     .accesskey = F
@@ -912,8 +915,8 @@ chat-variant-label =
 # is the name of the CSS property. It is intended only to adjust the element's width.
 # Do not translate.
 search-preferences-input2 =
-    .style = width: 15.4em
     .placeholder = Søg i indstillinger
+    .style = width: 15.4em
 managed-notice = { -brand-short-name } administreres af din organisation.
 
 ## Settings UI Search Results

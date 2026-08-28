@@ -94,6 +94,17 @@ extension-send-activity-event =
         [one] Udvidelsen “{ $extensionName }” har sendt en meddelelse uden opsyn
        *[other] Udvidelsen “{ $extensionName }” har sendt flere meddelelser uden opsyn
     }
+# Status line shown under extension-send-activity-event.
+# Reports how many messages were sent by the extension and how long the
+# completed send batch took.
+# Variables:
+#   $count (Number) - number of messages sent
+#   $time (String) - localized elapsed time
+extension-sent-activity-event-status =
+    { $count ->
+        [one] { $count } meddelelse (forløbet tid: { $time })
+       *[other] { $count } meddelelser (forløbet tid: { $time })
+    }
 # Status line shown under extension-send-activity-event. Reports how many
 # messages were sent and the wall-clock time between the first and last send in
 # the batch (rounded to whole seconds, at least one).
