@@ -42,6 +42,7 @@ policy-DisableSafeMode = Funkciju za znowastartowanje we wěstym modusu znjemó�
 policy-DisableSecurityBypass = Wužiwarja při wobeńdźenju wěstych wěstotnych warnowanjow haćić.
 policy-DisableSystemAddonUpdate = { -brand-short-name } při instalowanju a aktualizowanju systemowych přidatkow haćić.
 policy-DisableTelemetry = Telemetriju znjemóžnić.
+policy-DisableUpdateSettings = Tomu zadźěwać, zo wužiwar nastajenja nałoženskeje aktualizacije změni.
 policy-DisplayMenuBar = Menijowu lajstu po standardźe pokazać.
 policy-DNSOverHTTPS = DNS přez HTTPS konfigurować.
 policy-DontCheckDefaultClient = Přepruwowanje za standardnym programom při starće znjemóžnić.

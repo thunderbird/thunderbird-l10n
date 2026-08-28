@@ -9,6 +9,8 @@
 calendar-dialog-close-button =
     .aria-label = Začinić
     .title = Začinić
+calendar-event-create-edit-dialog =
+    .aria-label = Podawk
 calendar-dialog-menu-button =
     .aria-label = Meni wočinić
     .title = Meni wočinić
@@ -72,6 +74,9 @@ calendar-dialog-more-categories =
     .title = { $categories }
 calendar-dialog-delete-reminder-button =
     .alt = Dopomnjeće zhašeć
+calendar-dialog-save-reminder-button = Składować
+calendar-dialog-reminder-event-start = 0 mjeńšin do toho
+calendar-dialog-reminder-week-before = 1 tydźeń do toho
 # Variables:
 #   $count (Number): Number of reminders.
 calendar-dialog-reminder-count =
