@@ -45,6 +45,9 @@ open-tabs-warning-confirmation =
        *[other] Yejaq { $count } taq rutzijol rik'in jub'a' eqal. ¿La k'a nasamajij?
     }
 
+## Toolbar
+
+
 ## Folder Pane
 
 folder-pane-toolbar =
@@ -78,6 +81,9 @@ show-tags-folders-label =
 folder-toolbar-toggle-folder-compact-view =
     .label = Molk'ïy Tz'etoj
     .accesskey = M
+
+## Folder names
+
 
 ## File Menu
 
@@ -125,6 +131,9 @@ menu-edit-newsgroup-properties =
     .label = Kichinil Kimolaj Tzijol
     .accesskey = o
 
+## Message Menu
+
+
 ## Shared Menu Items
 
 menu-move-again =
@@ -149,6 +158,8 @@ menu-move-to =
 menu-copy-to =
     .label = Tiwachib'ëx Chi Re
     .accesskey = w
+menu-move-copy-favorites-no-accesskey =
+    .label = Taq ajowab'äl
 menu-move-copy-favorites =
     .label = Taq ajowab'äl
     .accesskey = a
@@ -167,6 +178,9 @@ appmenu-addons-and-themes =
 mail-context-menu-forward-forward =
     .label = Jun chik
     .accesskey = J
+
+## Message header pane
+
 
 ## Message header customize panel
 
@@ -193,6 +207,12 @@ toolbar-context-menu-remove-extension =
 addon-removal-title = ¿La niyuj { $name }?
 addon-removal-confirmation-button = Tiyuj
 caret-browsing-prompt-title = Okem pa K'amaya'l Rik'in Retal Ch'oy
+
+## no-reply handling
+
+
+## error messages
+
 
 ## Spaces toolbar
 
@@ -256,12 +276,33 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
+## OpenPGP
+
+
+## Quota panel.
+
+
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = s
 mark-not-junk-key =
     .key = s
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
 
 ## Message list.
 
@@ -295,6 +336,15 @@ message-group-starred = Ya'on ruq'ij
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = et al.
+
+## Prompts
+
+
+## Spam commands
+
+
+## Ignore threads
+
 
 ## Attachments
 

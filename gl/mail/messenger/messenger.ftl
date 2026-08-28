@@ -228,6 +228,10 @@ menu-move-to =
 menu-copy-to =
     .label = Copiar en
     .accesskey = C
+menu-move-copy-recent-destinations-no-accesskey =
+    .label = Destinos recentes
+menu-move-copy-favorites-no-accesskey =
+    .label = Favoritos
 menu-move-copy-recent-destinations =
     .label = Destinos recentes
     .accesskey = R
@@ -535,12 +539,21 @@ quota-panel-percent-used = { $percent }% cheo
         IMAP quota: { $usage } used of { $limit } total
         Cota de IMAP: { $usage } usado dun total de { $limit }
 
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
 
 ## Message header.
 
@@ -596,6 +609,12 @@ and-others = e outros.
 ## Prompts
 
 prompt-dont-ask-again = Non preguntar de novo.
+
+## Spam commands
+
+
+## Ignore threads
+
 
 ## Attachments
 

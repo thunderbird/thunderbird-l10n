@@ -244,6 +244,10 @@ menu-move-to =
 menu-copy-to =
     .label = Copiar para
     .accesskey = o
+menu-move-copy-recent-destinations-no-accesskey =
+    .label = Destinos recentes
+menu-move-copy-favorites-no-accesskey =
+    .label = Preferidos
 menu-move-copy-recent-destinations =
     .label = Destinos recentes
     .accesskey = r
@@ -666,6 +670,9 @@ prompt-dont-ask-again = Não perguntar novamente.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Análise de spam { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } concluída
 spam-processing-message = Processando mensagens de spam
+
+## Ignore threads
+
 
 ## Attachments
 
