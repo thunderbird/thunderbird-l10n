@@ -95,6 +95,14 @@ calendar-dialog-reminder-hours-before =
         [few] { $count } hodiny pred
        *[other] { $count } hodín pred
     }
+# Variables:
+#  $count (Number): Number of days before the event.
+calendar-dialog-reminder-days-before =
+    { $count ->
+        [one] { $count } deň pred
+        [few] { $count } dni pred
+       *[other] { $count } dní pred
+    }
 calendar-dialog-reminder-week-before = 1 týždeň pred
 # Variables:
 #   $count (Number): Number of reminders.
