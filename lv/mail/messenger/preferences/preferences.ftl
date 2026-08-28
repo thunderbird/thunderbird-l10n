@@ -9,6 +9,9 @@ category-list =
 pane-general-title = Vispārīgi
 category-general =
     .tooltiptext = { pane-general-title }
+pane-appearance-title = Izskats
+category-appearance =
+    .tooltiptext = { pane-appearance-title }
 pane-compose-title = Salikšana
 category-compose =
     .tooltiptext = Salikšana
@@ -449,9 +452,9 @@ enable-cloud-share =
 cloud-share-size =
     .value = MB
 add-cloud-account =
+    .defaultlabel = Pievienot…
     .label = Pievienot…
     .accesskey = P
-    .defaultlabel = Pievienot…
 remove-cloud-account =
     .label = Noņemt
     .accesskey = N
@@ -641,3 +644,7 @@ chat-variant-label =
 
 search-results-header = Meklēšanas iznākums
 search-results-help-link = Vajadzīga palīdzība? Apmeklē <a data-l10n-name="url">{ -brand-short-name } atbalsta vietni</a>!
+
+## Appearance Tab
+
+appearance-category-header = Izskats
