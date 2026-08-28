@@ -13,3 +13,20 @@ attachment-save-failed = Салынымды сақтау мүмкін емес. 
 # Variables:
 #   $filename (String) - Name of the file that already exists.
 attachment-file-exists = { $filename } бар болып тұр. Оны алмастыру керек пе?
+# Variables:
+#   $attachments (String) - Newline separated list of attachment names.
+attachment-delete-confirm =
+    Келесі салынымдар бұл хабарламадан толығымен өшірілетін болады:
+    { $attachments }
+    Бұл әрекетті болдырмау мүмкін емес болады. Жалғастыру керек пе?
+# Variables:
+#   $attachments (String) - Newline separated list of attachment names.
+attachment-detach-confirm =
+    Келесі салынымдар сақталды, және бұл хабарламадан толығымен өшірілетін болады:
+    { $attachments }
+    Бұл әрекетті болдырмау мүмкін емес болады. Жалғастыру керек пе?
+attachment-empty =
+    Бұл салыным бос сияқты.
+    Оны жіберген адаммен бірге тексеріңіз.
+    Компания файрволдары немесе антивирустары салынымдарды жиі жояды.
+attachment-external-not-found = Бұл бөлінген файл немесе салынған сілтеме табылмады немесе бұл жерде енді қолжетімсіз.
