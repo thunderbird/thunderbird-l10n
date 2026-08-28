@@ -9,6 +9,10 @@ attachment-save-dialog-title = שמור קובץ מצורף
 attachment-save-all-dialog-title = שמור את כל הקבצים המצורפים
 attachment-detach-dialog-title = ניתוק קובץ מצורף
 attachment-detach-all-dialog-title = ניתוק כל הקבצים המצורפים
+attachment-save-failed = לא ניתן לשמור את הקובץ המצורף. נא לבדוק את שם הקובץ שלך ולנסות שוב מאוחר יותר.
+# Variables:
+#   $filename (String) - Name of the file that already exists.
+attachment-file-exists = { $filename } כבר קיים. האם ברצונך להחליפו?
 # Variables:
 #   $attachments (String) - Newline separated list of attachment names.
 attachment-delete-confirm =
