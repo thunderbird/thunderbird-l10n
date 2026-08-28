@@ -13,6 +13,9 @@ multi-message-delete-button =
 multi-message-undelete-button =
     .label = აღდგენა
     .tooltiptext = აღდგენა
+multi-message-flagged-button =
+    .aria-label = ვარსკვლავიანი
+    .title = ვარსკვლავიანი
 # Variables:
 #   $count - total number of conversations (threads or solitary messages) selected
 num-conversations =

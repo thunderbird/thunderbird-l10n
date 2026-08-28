@@ -26,6 +26,14 @@ show-data-button =
     .label = მონაცემთა ადგილმდებარეობის ჩვენება
     .accesskey = ჩ
 # Variables:
+# $count (Number) - The number of outgoing servers to be removed.
+remove-outgoing-servers-checkbox =
+    .label =
+        { $count ->
+            [one] გამავალი სერვერის მოცილება
+           *[other] { $count } გამავალი სერვერის მოცილება
+        }
+# Variables:
 # $count (Number) - The number of address books to be removed.
 remove-address-books-checkbox =
     .label =
