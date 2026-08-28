@@ -13,3 +13,20 @@ attachment-save-failed = Nepodarilo sa uložiť prílohu. Skontrolujte názov s�
 # Variables:
 #   $filename (String) - Name of the file that already exists.
 attachment-file-exists = { $filename } už existuje. Chcete ho nahradiť?
+# Variables:
+#   $attachments (String) - Newline separated list of attachment names.
+attachment-delete-confirm =
+    Nasledovné prílohy budú z tejto správy natrvalo odstránené:
+    { $attachments }
+    Táto akcia sa nedá vrátiť späť. Naozaj chcete pokračovať?
+# Variables:
+#   $attachments (String) - Newline separated list of attachment names.
+attachment-detach-confirm =
+    Nasledovné prílohy boli úspešne uložené a teraz budú natrvalo odstránené z tejto správy:
+    { $attachments }
+    Táto akcia sa nedá vrátiť späť. Naozaj chcete pokračovať?
+attachment-empty =
+    Táto príloha sa javí ako prázdna.
+    Prosím, overte túto skutočnosť s osobou, ktoré odoslala túto správu.
+    Niektoré firemné brány firewall alebo antivírusové programy znehodnocujú e‑mailové prílohy.
+attachment-external-not-found = Tento súbor alebo odkaz na prílohu sa na tomto mieste nenašiel alebo nie je prístupný.
