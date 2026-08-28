@@ -11,3 +11,19 @@ attachment-save-failed = Unable to save the attachment. Please check your file n
 # Variables:
 #   $filename (String) - Name of the file that already exists.
 attachment-file-exists = { $filename } already exists. Do you want to replace it?
+# Variables:
+#   $attachments (String) - Newline separated list of attachment names.
+attachment-delete-confirm =
+    The following attachments will be permanently deleted from this message:
+    { $attachments }
+    This action cannot be undone. Do you wish to continue?
+# Variables:
+#   $attachments (String) - Newline separated list of attachment names.
+attachment-detach-confirm =
+    The following attachments have been successfully saved and will now be permanently deleted from this message:
+    { $attachments }
+    This action cannot be undone. Do you wish to continue?
+attachment-empty =
+    This attachment appears to be empty.
+    Please check with the person who sent this.
+    Often company firewalls or antivirus programs will destroy attachments.
