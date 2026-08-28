@@ -13,3 +13,20 @@ attachment-save-failed = Прикаченият файл не може да бъ
 # Variables:
 #   $filename (String) - Name of the file that already exists.
 attachment-file-exists = { $filename } вече съществува. Искате ли да бъде презаписано?
+# Variables:
+#   $attachments (String) - Newline separated list of attachment names.
+attachment-delete-confirm =
+    Следните прикачени файлове ще бъдат трайно изтрити от писмото:
+    { $attachments }
+    Това действие е необратимо. Желаете ли да продължите?
+# Variables:
+#   $attachments (String) - Newline separated list of attachment names.
+attachment-detach-confirm =
+    Следните прикачени файлове са запазени и ще бъдат премахнати от писмото:
+    { $attachments }
+    Това действие е необратимо. Желаете ли да продължите?
+attachment-empty =
+    Този прикачен файл изглежда е празен.
+    Моля, говорете с изпращача.
+    Често корпоративните огнени стени или антивирусни програми унищожават прикачени файлове.
+attachment-external-not-found = Този отделен файл или препратката към прикачен файл не са намерени или вече не са достъпни на това място.
