@@ -52,6 +52,11 @@ about-addressbook-confirm-delete-contacts-multi =
        *[other] Vai tiešām izdzēst šīs { $count } kontaktpersonas?
     }
 
+## Details
+
+about-addressbook-photo-dialog-title =
+    .aria-label = Pārvaldīt šīs kontaktpersonas fotoattēlu.
+
 ## Address Book Search Dialog
 
 ab-search-dialog-search-button =
