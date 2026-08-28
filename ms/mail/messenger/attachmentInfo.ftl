@@ -5,6 +5,14 @@
 
 ## Strings used by attachment actions: saving, opening, detaching and deleting.
 
+attachment-save-dialog-title = Simpan Lampiran
+attachment-save-all-dialog-title = Simpan Semua Lampiran
+attachment-detach-dialog-title = Buang Lampiran
+attachment-detach-all-dialog-title = Buang Semua Lampiran
+attachment-save-failed = Tidak dapat menyimpan lampiran. Sila semak nama fail dan cuba lagi.
+# Variables:
+#   $filename (String) - Name of the file that already exists.
+attachment-file-exists = { $filename } sudah wujud. Adakah anda mahu menggantikannya?
 # Variables:
 #   $attachments (String) - Newline separated list of attachment names.
 attachment-delete-confirm =
