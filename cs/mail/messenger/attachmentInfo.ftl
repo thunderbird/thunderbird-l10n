@@ -13,3 +13,20 @@ attachment-save-failed = Nelze uložit přílohu. Zkontrolujte prosím název so
 # Variables:
 #   $filename (String) - Name of the file that already exists.
 attachment-file-exists = { $filename } už existuje. Chcete ho nahradit?
+# Variables:
+#   $attachments (String) - Newline separated list of attachment names.
+attachment-delete-confirm =
+    Následující přílohy budou trvale smazány z této zprávy:
+    { $attachments }
+    Tato akce se nedá vrátit zpět. Opravdu chcete pokračovat?
+# Variables:
+#   $attachments (String) - Newline separated list of attachment names.
+attachment-detach-confirm =
+    Následující přílohy byly úspěšně uloženy a teď budou trvale smazány z této zprávy:
+    { $attachments }
+    Tato akce se nedá vrátit zpět. Opravdu chcete pokračovat?
+attachment-empty =
+    Tato příloha se jeví jako prázdná.
+    Kontaktujte prosím odesílatele této zprávy.
+    Přílohy jsou velmi často odstraněny firemními firewally či antiviry.
+attachment-external-not-found = Tento soubor či odkaz na přílohu nebyl v tomto umístění nalezen, nebo není přístupný.
