@@ -123,18 +123,12 @@ about-addressbook-entry-name-custom2 = Լրացուցիչ 2
 about-addressbook-entry-name-custom3 = Լրացուցիչ 3
 about-addressbook-entry-name-custom4 = Լրացուցիչ 4
 about-addressbook-unsaved-changes-prompt-title = Չպահպանված փոփոխություններ
-
-# Photo dialog
-
 about-addressbook-photo-drop-loading = Լուսանկարը բեռնվում է…
 about-addressbook-photo-drop-error = Լուսանկարը չհաջողվեց բեռնել։
 about-addressbook-photo-filepicker-title = Ընտրել նկարի ֆայլը
 about-addressbook-photo-discard = Հեռացնել առկա լուսանկարը
 about-addressbook-photo-cancel = Չեղարկել
 about-addressbook-photo-save = Պահել
-
-# Keyboard shortcuts
-
 about-addressbook-new-contact-key = N
 
 ## Address Book Search Dialog

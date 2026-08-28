@@ -327,9 +327,6 @@ about-addressbook-entry-name-custom3 = Oma 3
 about-addressbook-entry-name-custom4 = Oma 4
 about-addressbook-unsaved-changes-prompt-title = Tallentamattomia muutoksia
 about-addressbook-unsaved-changes-prompt = Haluatko tallentaa tekemäsi muutokset ennen kuin poistut muokkausnäkymästä?
-
-# Photo dialog
-
 about-addressbook-photo-drop-target = Pudota tai liitä kuva tähän, tai valitse tiedosto napsauttamalla.
 about-addressbook-photo-drop-loading = Ladataan kuvaa…
 about-addressbook-photo-drop-error = Kuvan lataaminen epäonnistui.
@@ -337,9 +334,6 @@ about-addressbook-photo-filepicker-title = Valitse kuvatiedosto
 about-addressbook-photo-discard = Hylkää olemassa oleva kuva
 about-addressbook-photo-cancel = Peruuta
 about-addressbook-photo-save = Tallenna
-
-# Keyboard shortcuts
-
 about-addressbook-new-contact-key = N
 
 ## Address Book Search Dialog

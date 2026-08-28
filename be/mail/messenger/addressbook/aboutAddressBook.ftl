@@ -13,12 +13,6 @@ about-addressbook-books-context-synchronize =
 about-addressbook-event-action-button = Падзея
 about-addressbook-new-list-action-button = Новы спіс
 
-# Photo dialog
-
-
-# Keyboard shortcuts
-
-
 ## Address Book Search Dialog
 
 ab-search-dialog-search-button =

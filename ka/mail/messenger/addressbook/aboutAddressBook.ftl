@@ -327,9 +327,6 @@ about-addressbook-entry-name-custom3 = დამატებითი 3
 about-addressbook-entry-name-custom4 = დამატებითი 4
 about-addressbook-unsaved-changes-prompt-title = შეუნახავი ცვლილებები
 about-addressbook-unsaved-changes-prompt = გსურთ, შეინახოთ ცვლილებები გამოსვლამდე?
-
-# Photo dialog
-
 about-addressbook-photo-drop-target = განათავსეთ ან ჩასვით სურათი აქ, ანდაც დაწკაპეთ ფაილის ასარჩევად.
 about-addressbook-photo-drop-loading = იტვირთება სურათი…
 about-addressbook-photo-drop-error = ვერ ჩაიტვირთა.
@@ -337,9 +334,6 @@ about-addressbook-photo-filepicker-title = სურათის ფაილი
 about-addressbook-photo-discard = არსებული სურათის მოცილება
 about-addressbook-photo-cancel = გაუქმება
 about-addressbook-photo-save = შენახვა
-
-# Keyboard shortcuts
-
 about-addressbook-new-contact-key = N
 
 ## Address Book Search Dialog

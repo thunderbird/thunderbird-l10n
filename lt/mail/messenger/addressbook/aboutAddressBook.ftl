@@ -149,17 +149,11 @@ about-addressbook-entry-name-organization = Organizacija
 about-addressbook-entry-name-website = Svetainė
 about-addressbook-entry-name-time-zone = Laiko juosta
 about-addressbook-unsaved-changes-prompt-title = Yra neįrašytų pakeitimų
-
-# Photo dialog
-
 about-addressbook-photo-drop-loading = Įkeliama nuotrauka…
 about-addressbook-photo-drop-error = Nepavyko įkelti nuotraukos.
 about-addressbook-photo-discard = Pašalinti esamą nuotrauką
 about-addressbook-photo-cancel = Atsisakyti
 about-addressbook-photo-save = Įrašyti
-
-# Keyboard shortcuts
-
 about-addressbook-new-contact-key = N
 
 ## Address Book Search Dialog

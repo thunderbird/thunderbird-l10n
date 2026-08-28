@@ -327,9 +327,6 @@ about-addressbook-entry-name-custom3 = Sérsniðið 3
 about-addressbook-entry-name-custom4 = Sérsniðið 4
 about-addressbook-unsaved-changes-prompt-title = Óvistaðar breytingar
 about-addressbook-unsaved-changes-prompt = Viltu vista breytingarnar þínar áður en þú ferð úr breytingaglugganum?
-
-# Photo dialog
-
 about-addressbook-photo-drop-target = Slepptu eða límdu mynd hér, eða smelltu til að velja skrá.
 about-addressbook-photo-drop-loading = Hleð inn mynd...
 about-addressbook-photo-drop-error = Mistókst að hlaða inn mynd.
@@ -337,9 +334,6 @@ about-addressbook-photo-filepicker-title = Veldu myndskrá
 about-addressbook-photo-discard = Henda fyrirliggjandi mynd
 about-addressbook-photo-cancel = Hætta við
 about-addressbook-photo-save = Vista
-
-# Keyboard shortcuts
-
 about-addressbook-new-contact-key = N
 
 ## Address Book Search Dialog

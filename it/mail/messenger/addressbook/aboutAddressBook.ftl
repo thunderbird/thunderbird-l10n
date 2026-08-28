@@ -327,9 +327,6 @@ about-addressbook-entry-name-custom3 = Personalizzato 3
 about-addressbook-entry-name-custom4 = Personalizzato 4
 about-addressbook-unsaved-changes-prompt-title = Modifiche non salvate
 about-addressbook-unsaved-changes-prompt = Salvare le modifiche prima di uscire dalla modalità di modifica?
-
-# Photo dialog
-
 about-addressbook-photo-drop-target = Trascina o incolla una foto qui oppure fai clic per selezionare un file.
 about-addressbook-photo-drop-loading = Caricamento foto…
 about-addressbook-photo-drop-error = Impossibile caricare la foto.
@@ -337,9 +334,6 @@ about-addressbook-photo-filepicker-title = Selezione immagine
 about-addressbook-photo-discard = Elimina foto esistente
 about-addressbook-photo-cancel = Annulla
 about-addressbook-photo-save = Salva
-
-# Keyboard shortcuts
-
 about-addressbook-new-contact-key = N
 
 ## Address Book Search Dialog

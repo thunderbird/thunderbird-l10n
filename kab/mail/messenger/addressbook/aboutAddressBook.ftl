@@ -295,9 +295,6 @@ about-addressbook-entry-name-custom3 = Aggan 3
 about-addressbook-entry-name-custom4 = Aggan 4
 about-addressbook-unsaved-changes-prompt-title = Asnifel ur yettwasekles ara
 about-addressbook-unsaved-changes-prompt = Tebɣiḍ ad teskelseḍ isnifal-inek send ad teffɣeḍ seg taskant n uẓrag?
-
-# Photo dialog
-
 about-addressbook-photo-drop-target = Sers neɣ senteḍ tawlaft da, neɣ sit i ufran n ufaylu.
 about-addressbook-photo-drop-loading = Asali n tewlaft…
 about-addressbook-photo-drop-error = Asali n tewlaft yecceḍ
@@ -305,9 +302,6 @@ about-addressbook-photo-filepicker-title = Fren afaylu n tugna
 about-addressbook-photo-discard = Kkes tawlaft yellan
 about-addressbook-photo-cancel = Sefsex
 about-addressbook-photo-save = Sekles
-
-# Keyboard shortcuts
-
 about-addressbook-new-contact-key = N
 
 ## Address Book Search Dialog

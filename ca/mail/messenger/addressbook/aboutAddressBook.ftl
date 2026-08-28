@@ -318,9 +318,6 @@ about-addressbook-entry-name-custom3 = Personalitzat 3
 about-addressbook-entry-name-custom4 = Personalitzat 4
 about-addressbook-unsaved-changes-prompt-title = Canvis sense desar
 about-addressbook-unsaved-changes-prompt = Voleu desar els canvis abans de sortir de l'edició?
-
-# Photo dialog
-
 about-addressbook-photo-drop-target = Deixeu anar o enganxeu una foto aquí, o feu clic per seleccionar un fitxer.
 about-addressbook-photo-drop-loading = S'està carregant la foto…
 about-addressbook-photo-drop-error = No s'ha pogut carregar la foto.
@@ -328,9 +325,6 @@ about-addressbook-photo-filepicker-title = Seleccioneu un fitxer d'imatge
 about-addressbook-photo-discard = Descarta la foto existent
 about-addressbook-photo-cancel = Cancel·la
 about-addressbook-photo-save = Desa
-
-# Keyboard shortcuts
-
 about-addressbook-new-contact-key = n
 
 ## Address Book Search Dialog

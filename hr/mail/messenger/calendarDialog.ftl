@@ -10,8 +10,8 @@ calendar-dialog-close-button =
     .aria-label = Zatvori
     .title = Zatvori
 calendar-dialog-menu-button =
-    .title = Otvori izbornik
     .aria-label = Otvori izbornik
+    .title = Otvori izbornik
 calendar-dialog-back-button =
     .aria-label = Natrag
     .title = Natrag
@@ -56,8 +56,8 @@ calendar-dialog-menu-delete =
 calendar-dialog-menu-print =
     .label = Ispiši
 calendar-dialog-menu =
-    .title = Izbornik Više radnji
     .aria-label = Izbornik Više radnji
+    .title = Izbornik Više radnji
 # Variables:
 #   $additionalCategories (Number): Number of categoires not shown.
 #   $categories (String): List of all categories.
@@ -102,10 +102,6 @@ calendar-dialog-attachments-summary-label =
         [few] { $count } privitka
        *[other] { $count } privitaka
     }
-
-## These strings are formatted as a list using Intl.Listformat,
-## resulting for example in "1 attending, 2 maybe, etc.".
-
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =

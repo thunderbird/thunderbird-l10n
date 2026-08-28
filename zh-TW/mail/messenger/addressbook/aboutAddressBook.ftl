@@ -319,9 +319,6 @@ about-addressbook-entry-name-custom3 = 自訂 3
 about-addressbook-entry-name-custom4 = 自訂 4
 about-addressbook-unsaved-changes-prompt-title = 未儲存修改
 about-addressbook-unsaved-changes-prompt = 您想要在離開編輯畫面前儲存變更嗎？
-
-# Photo dialog
-
 about-addressbook-photo-drop-target = 將照片放到或貼到此處，或點擊此處選擇檔案。
 about-addressbook-photo-drop-loading = 正在載入照片…
 about-addressbook-photo-drop-error = 照片載入失敗。
@@ -329,9 +326,6 @@ about-addressbook-photo-filepicker-title = 選擇圖檔
 about-addressbook-photo-discard = 捨棄現有照片
 about-addressbook-photo-cancel = 取消
 about-addressbook-photo-save = 儲存
-
-# Keyboard shortcuts
-
 about-addressbook-new-contact-key = N
 
 ## Address Book Search Dialog

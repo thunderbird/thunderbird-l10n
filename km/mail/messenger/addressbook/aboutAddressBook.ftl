@@ -52,13 +52,7 @@ about-addressbook-new-contact-header = ទំនាក់ទំនងថ្ម�
 about-addressbook-new-list-action-button = បញ្ជីថ្មី
 about-addressbook-delete-edit-contact-button = លុប
 about-addressbook-cancel-edit-contact-button = បោះបង់
-
-# Photo dialog
-
 about-addressbook-photo-cancel = បោះបង់
-
-# Keyboard shortcuts
-
 
 ## Address Book Search Dialog
 

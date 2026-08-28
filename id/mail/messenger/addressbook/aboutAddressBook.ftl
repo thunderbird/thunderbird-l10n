@@ -291,9 +291,6 @@ about-addressbook-entry-name-custom3 = Ubahan 3
 about-addressbook-entry-name-custom4 = Ubahan 4
 about-addressbook-unsaved-changes-prompt-title = Perubahan Belum Tersimpan
 about-addressbook-unsaved-changes-prompt = Apakah Anda ingin menyimpan perubahan Anda sebelum meninggalkan tampilan sunting?
-
-# Photo dialog
-
 about-addressbook-photo-drop-target = Jatuhkan atau tempel foto di sini, atau klik untuk memilih berkas.
 about-addressbook-photo-drop-loading = Memuat foto…
 about-addressbook-photo-drop-error = Gagal memuat foto.
@@ -301,9 +298,6 @@ about-addressbook-photo-filepicker-title = Pilih berkas gambar
 about-addressbook-photo-discard = Buang foto yang ada
 about-addressbook-photo-cancel = Batal
 about-addressbook-photo-save = Simpan
-
-# Keyboard shortcuts
-
 about-addressbook-new-contact-key = B
 
 ## Address Book Search Dialog

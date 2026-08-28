@@ -345,9 +345,6 @@ about-addressbook-entry-name-custom3 = Po meri 3
 about-addressbook-entry-name-custom4 = Po meri 4
 about-addressbook-unsaved-changes-prompt-title = Neshranjene spremembe
 about-addressbook-unsaved-changes-prompt = Ali želite shraniti spremembe, preden zapustite pogled za urejanje?
-
-# Photo dialog
-
 about-addressbook-photo-drop-target = Tukaj spustite ali prilepite fotografijo ali kliknite za izbiro datoteke.
 about-addressbook-photo-drop-loading = Nalaganje fotografije …
 about-addressbook-photo-drop-error = Fotografije ni bilo mogoče naložiti.
@@ -355,9 +352,6 @@ about-addressbook-photo-filepicker-title = Izberi slikovno datoteko
 about-addressbook-photo-discard = Zavrzi obstoječo fotografijo
 about-addressbook-photo-cancel = Prekliči
 about-addressbook-photo-save = Shrani
-
-# Keyboard shortcuts
-
 about-addressbook-new-contact-key = N
 
 ## Address Book Search Dialog

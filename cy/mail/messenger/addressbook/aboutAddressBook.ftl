@@ -363,9 +363,6 @@ about-addressbook-entry-name-custom3 = Cyfaddasu 3
 about-addressbook-entry-name-custom4 = Cyfaddasu 4
 about-addressbook-unsaved-changes-prompt-title = Newidiadau heb eu Cadw
 about-addressbook-unsaved-changes-prompt = Ydych chi am gadw'ch newidiadau cyn gadael y wedd golygu?
-
-# Photo dialog
-
 about-addressbook-photo-drop-target = Gollwng neu gludo llun yma, neu glicio i ddewis ffeil.
 about-addressbook-photo-drop-loading = Yn llwytho llun…
 about-addressbook-photo-drop-error = Wedi methu llwytho llun.
@@ -373,9 +370,6 @@ about-addressbook-photo-filepicker-title = Dewiswch ffeil delwedd
 about-addressbook-photo-discard = Dileu'r llun presennol
 about-addressbook-photo-cancel = Diddymu
 about-addressbook-photo-save = Cadw
-
-# Keyboard shortcuts
-
 about-addressbook-new-contact-key = N
 
 ## Address Book Search Dialog

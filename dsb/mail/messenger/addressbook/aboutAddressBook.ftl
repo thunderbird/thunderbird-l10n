@@ -345,9 +345,6 @@ about-addressbook-entry-name-custom3 = Swójske 3
 about-addressbook-entry-name-custom4 = Swójske 4
 about-addressbook-unsaved-changes-prompt-title = Njeskłaźone změny
 about-addressbook-unsaved-changes-prompt = Cośo swóje změny składowaś, nježli až wobźěłowański naglěd spušćaśo?
-
-# Photo dialog
-
 about-addressbook-photo-drop-target = Pušććo abo zasajźćo how foto abo klikniśo, aby dataju wubrał.
 about-addressbook-photo-drop-loading = Foto se zacytujo …
 about-addressbook-photo-drop-error = Foto njedajo se zacytaś.
@@ -355,9 +352,6 @@ about-addressbook-photo-filepicker-title = Wobrazowu dataju wubraś
 about-addressbook-photo-discard = Eksistěrujuce foto zachyśiś
 about-addressbook-photo-cancel = Pśetergnuś
 about-addressbook-photo-save = Składowaś
-
-# Keyboard shortcuts
-
 about-addressbook-new-contact-key = N
 
 ## Address Book Search Dialog

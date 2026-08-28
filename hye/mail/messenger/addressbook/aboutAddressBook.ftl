@@ -124,9 +124,6 @@ about-addressbook-entry-name-website = Կայք
 about-addressbook-entry-name-time-zone = Ժամային գաւտի
 about-addressbook-unsaved-changes-prompt-title = Չպահպանուած փոփոխութիւններ
 about-addressbook-unsaved-changes-prompt = Ցանկանու՞մ էք պահպանել Ձեր փոփոխութիւնները խմբագրման վիճակից դուրս գալուց առաջ:
-
-# Photo dialog
-
 about-addressbook-photo-drop-target = Գցէք կամ տեղադրէք լուսանկար այստեղ, կամ սեղմէք՝ նիշ ընտրելու համար:
 about-addressbook-photo-drop-loading = Լուսանկարը բեռնուում է…
 about-addressbook-photo-drop-error = Չյաջողուեց բեռնել լուսանկարը:
@@ -134,9 +131,6 @@ about-addressbook-photo-filepicker-title = Ընտրէք պատկերի նիշ
 about-addressbook-photo-discard = Հեռացնել առկայ լուսանկարը
 about-addressbook-photo-cancel = Չեղարկել
 about-addressbook-photo-save = Պահպանել
-
-# Keyboard shortcuts
-
 
 ## Address Book Search Dialog
 

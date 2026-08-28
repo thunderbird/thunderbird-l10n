@@ -323,9 +323,6 @@ about-addressbook-entry-name-custom3 = Vetjake 3
 about-addressbook-entry-name-custom4 = Vetjake 4
 about-addressbook-unsaved-changes-prompt-title = Ndryshime të Paruajtura
 about-addressbook-unsaved-changes-prompt = Doni të ruhen ndryshimet tuaja, para se të braktiset skena e përpunimeve?
-
-# Photo dialog
-
 about-addressbook-photo-drop-target = Hidhni ose ngjitni këtu një foto, ose klikoni që të përzgjidhni një kartelë.
 about-addressbook-photo-drop-loading = Po ngarkohet foto…
 about-addressbook-photo-drop-error = S’u arrit të ngarkohet foto.
@@ -333,9 +330,6 @@ about-addressbook-photo-filepicker-title = Përzgjidhni kartelë figure
 about-addressbook-photo-discard = Hidh tej foton ekzistuese
 about-addressbook-photo-cancel = Anuloje
 about-addressbook-photo-save = Ruaje
-
-# Keyboard shortcuts
-
 about-addressbook-new-contact-key = R
 
 ## Address Book Search Dialog

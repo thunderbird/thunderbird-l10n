@@ -321,9 +321,6 @@ about-addressbook-entry-name-custom3 = Друго 3
 about-addressbook-entry-name-custom4 = Друго 4
 about-addressbook-unsaved-changes-prompt-title = Незапазени промени
 about-addressbook-unsaved-changes-prompt = Искате ли да запазите промените си, преди да напуснете изгледа за редактиране?
-
-# Photo dialog
-
 about-addressbook-photo-drop-target = Пуснете или поставете снимка тук или щракнете, за да изберете файл.
 about-addressbook-photo-drop-loading = Зареждане на снимка…
 about-addressbook-photo-drop-error = Неуспешно зареждане на снимката.
@@ -331,9 +328,6 @@ about-addressbook-photo-filepicker-title = Избор на изображени�
 about-addressbook-photo-discard = Отхвърляне на съществуващата снимка
 about-addressbook-photo-cancel = Отказ
 about-addressbook-photo-save = Запазване
-
-# Keyboard shortcuts
-
 about-addressbook-new-contact-key = А
 
 ## Address Book Search Dialog

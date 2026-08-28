@@ -330,9 +330,6 @@ about-addressbook-entry-name-custom3 = Інше 3
 about-addressbook-entry-name-custom4 = Інше 4
 about-addressbook-unsaved-changes-prompt-title = Незбережені зміни
 about-addressbook-unsaved-changes-prompt = Зберегти зміни, перш ніж вийти з режиму редагування?
-
-# Photo dialog
-
 about-addressbook-photo-drop-target = Перетягніть або вставте сюди світлину або клацніть, щоб вибрати файл.
 about-addressbook-photo-drop-loading = Завантаження світлин…
 about-addressbook-photo-drop-error = Не вдалося завантажити світлину.
@@ -340,9 +337,6 @@ about-addressbook-photo-filepicker-title = Вибрати файл зображ�
 about-addressbook-photo-discard = Відкинути наявну світлину
 about-addressbook-photo-cancel = Скасувати
 about-addressbook-photo-save = Зберегти
-
-# Keyboard shortcuts
-
 about-addressbook-new-contact-key = Н
 
 ## Address Book Search Dialog

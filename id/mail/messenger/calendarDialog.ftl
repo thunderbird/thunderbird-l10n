@@ -82,10 +82,6 @@ calendar-dialog-attachments-expand-icon =
 # Variables:
 #   $count (Number): Number of attachments.
 calendar-dialog-attachments-summary-label = { $count } Lampiran
-
-## These strings are formatted as a list using Intl.Listformat,
-## resulting for example in "1 attending, 2 maybe, etc.".
-
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going = { $count } hadir

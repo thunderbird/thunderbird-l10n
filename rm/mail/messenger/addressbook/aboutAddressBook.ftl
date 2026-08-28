@@ -321,9 +321,6 @@ about-addressbook-entry-name-custom3 = Persunalisà 3
 about-addressbook-entry-name-custom4 = Persunalisà 4
 about-addressbook-unsaved-changes-prompt-title = Midadas betg memorisadas
 about-addressbook-unsaved-changes-prompt = Vuls ti memorisar tias modificaziuns avant che bandunar la vista da redacziun?
-
-# Photo dialog
-
 about-addressbook-photo-drop-target = Deponer u encollar qua ina foto u cliccar per tscherner ina datoteca.
 about-addressbook-photo-drop-loading = Chargiar la foto…
 about-addressbook-photo-drop-error = Betg reussì da chargiar la foto.
@@ -331,9 +328,6 @@ about-addressbook-photo-filepicker-title = Tscherner ina datoteca da grafica
 about-addressbook-photo-discard = Sbittar la foto existenta
 about-addressbook-photo-cancel = Interrumper
 about-addressbook-photo-save = Memorisar
-
-# Keyboard shortcuts
-
 about-addressbook-new-contact-key = N
 
 ## Address Book Search Dialog

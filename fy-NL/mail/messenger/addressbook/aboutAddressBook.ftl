@@ -327,9 +327,6 @@ about-addressbook-entry-name-custom3 = Oars 3
 about-addressbook-entry-name-custom4 = Oars 4
 about-addressbook-unsaved-changes-prompt-title = Net bewarre wizigingen
 about-addressbook-unsaved-changes-prompt = Wolle jo jo wizigingen bewarje eardat jo de bewurkingswerjefte ferlitte?
-
-# Photo dialog
-
 about-addressbook-photo-drop-target = Sleep of plak hjir in foto, of klik om in bestân te selektearjen.
 about-addressbook-photo-drop-loading = Foto lade…
 about-addressbook-photo-drop-error = Foto laden mislearre.
@@ -337,9 +334,6 @@ about-addressbook-photo-filepicker-title = Ofbyldingsbestân selektearje
 about-addressbook-photo-discard = Besteande foto fuortsmite
 about-addressbook-photo-cancel = Annulearje
 about-addressbook-photo-save = Bewarje
-
-# Keyboard shortcuts
-
 about-addressbook-new-contact-key = N
 
 ## Address Book Search Dialog

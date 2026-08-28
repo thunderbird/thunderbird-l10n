@@ -320,9 +320,6 @@ about-addressbook-entry-name-custom3 = Kohandatud 3
 about-addressbook-entry-name-custom4 = Kohandatud 4
 about-addressbook-unsaved-changes-prompt-title = Salvestamata muudatused
 about-addressbook-unsaved-changes-prompt = Kas soovid enne redigeerimisvaatest väljumist muudatused salvestada?
-
-# Photo dialog
-
 about-addressbook-photo-drop-target = Lohista või kopeeri pilt siia või klõpsa faili valimiseks.
 about-addressbook-photo-drop-loading = Foto laadimine…
 about-addressbook-photo-drop-error = Foto laadimine ebaõnnestus.
@@ -330,9 +327,6 @@ about-addressbook-photo-filepicker-title = Pildifaili valimine
 about-addressbook-photo-discard = Loobu olemasolevast fotost
 about-addressbook-photo-cancel = Loobu
 about-addressbook-photo-save = Salvesta
-
-# Keyboard shortcuts
-
 
 ## Address Book Search Dialog
 

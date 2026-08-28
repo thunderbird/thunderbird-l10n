@@ -272,9 +272,6 @@ about-addressbook-entry-name-custom3 = Gnàthaichte 3
 about-addressbook-entry-name-custom4 = Gnàthaichte 4
 about-addressbook-unsaved-changes-prompt-title = Atharraichean gun sàbhaladh
 about-addressbook-unsaved-changes-prompt = A bheil thu airson na h-atharraichean agad a shàbhaladh mus fhàg thu an sealladh deasachaidh?
-
-# Photo dialog
-
 about-addressbook-photo-drop-target = Leig às no cuir ann dealbh an-seo no dèan briogadh airson faidhle a thaghadh.
 about-addressbook-photo-drop-loading = A’ luchdadh an deilbh…
 about-addressbook-photo-drop-error = Dh’fhàillig luchdadh an deilbh.
@@ -282,9 +279,6 @@ about-addressbook-photo-filepicker-title = Tagh faidhle deilbh
 about-addressbook-photo-discard = Tilg air falbh an dealbh làithreach
 about-addressbook-photo-cancel = Sguir dheth
 about-addressbook-photo-save = Sàbhail
-
-# Keyboard shortcuts
-
 about-addressbook-new-contact-key = N
 
 ## Address Book Search Dialog

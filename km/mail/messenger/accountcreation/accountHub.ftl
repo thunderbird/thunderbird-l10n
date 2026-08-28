@@ -14,5 +14,5 @@ account-hub-email-cancel-button = បោះបង់
 ## Other Account Hub strings (sadly not sorted into sections)
 
 account-hub-password-label = ពាក្យ​សម្ងាត់
-    .accesskey = P
     .title = ស្រេចចិត្ត នឹងត្រូវបានប្រើដើម្បីផ្ទៀងផ្ទាត់ឈ្មោះអ្នកប្រើប៉ុណ្ណោះ
+    .accesskey = P

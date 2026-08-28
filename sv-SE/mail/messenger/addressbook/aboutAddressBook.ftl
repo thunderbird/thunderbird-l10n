@@ -327,9 +327,6 @@ about-addressbook-entry-name-custom3 = Anpassad 3
 about-addressbook-entry-name-custom4 = Anpassad 4
 about-addressbook-unsaved-changes-prompt-title = Osparade ändringar
 about-addressbook-unsaved-changes-prompt = Vill du spara dina ändringar innan du lämnar redigeringsvyn?
-
-# Photo dialog
-
 about-addressbook-photo-drop-target = Släpp eller klistra in ett foto här eller klicka för att välja en fil.
 about-addressbook-photo-drop-loading = Laddar foto…
 about-addressbook-photo-drop-error = Det gick inte att ladda fotot.
@@ -337,9 +334,6 @@ about-addressbook-photo-filepicker-title = Välj en bildfil
 about-addressbook-photo-discard = Ignorera befintligt foto
 about-addressbook-photo-cancel = Avbryt
 about-addressbook-photo-save = Spara
-
-# Keyboard shortcuts
-
 about-addressbook-new-contact-key = N
 
 ## Address Book Search Dialog

@@ -327,9 +327,6 @@ about-addressbook-entry-name-custom3 = Brugerdef. 3
 about-addressbook-entry-name-custom4 = Brugerdef. 4
 about-addressbook-unsaved-changes-prompt-title = Ugemte ændringer
 about-addressbook-unsaved-changes-prompt = Vil du gemme dine ændringer, inden du forlader redigeringsvisningen?
-
-# Photo dialog
-
 about-addressbook-photo-drop-target = Slip eller indsæt et billede her, eller klik for at vælge en fil.
 about-addressbook-photo-drop-loading = Indlæser billede...
 about-addressbook-photo-drop-error = Billedet kunne ikke indlæses.
@@ -337,9 +334,6 @@ about-addressbook-photo-filepicker-title = Vælg en billedfil
 about-addressbook-photo-discard = Kassér eksisterende billede
 about-addressbook-photo-cancel = Fortryd
 about-addressbook-photo-save = Gem
-
-# Keyboard shortcuts
-
 about-addressbook-new-contact-key = N
 
 ## Address Book Search Dialog

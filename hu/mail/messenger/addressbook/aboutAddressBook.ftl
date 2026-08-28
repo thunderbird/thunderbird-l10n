@@ -327,9 +327,6 @@ about-addressbook-entry-name-custom3 = 3. egyéni
 about-addressbook-entry-name-custom4 = 4. egyéni
 about-addressbook-unsaved-changes-prompt-title = Nem mentett módosítások
 about-addressbook-unsaved-changes-prompt = Menti a módosításokat, mielőtt kilép a szerkesztési nézetből?
-
-# Photo dialog
-
 about-addressbook-photo-drop-target = Húzzon vagy illesszen be egy fényképet ide, vagy kattintson a fájl kiválasztásához.
 about-addressbook-photo-drop-loading = Fénykép betöltése…
 about-addressbook-photo-drop-error = A fénykép betöltése sikertelen.
@@ -337,9 +334,6 @@ about-addressbook-photo-filepicker-title = Válasszon egy képfájlt
 about-addressbook-photo-discard = Meglévő fénykép elvetése
 about-addressbook-photo-cancel = Mégse
 about-addressbook-photo-save = Mentés
-
-# Keyboard shortcuts
-
 about-addressbook-new-contact-key = N
 
 ## Address Book Search Dialog

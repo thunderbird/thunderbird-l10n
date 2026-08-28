@@ -336,9 +336,6 @@ about-addressbook-entry-name-custom3 = Прочее 3
 about-addressbook-entry-name-custom4 = Прочее 4
 about-addressbook-unsaved-changes-prompt-title = Несохранённые изменения
 about-addressbook-unsaved-changes-prompt = Вы хотите сохранить изменения перед выходом из режима редактирования?
-
-# Photo dialog
-
 about-addressbook-photo-drop-target = Перетащите или вставьте сюда фотографию, или щёлкните, чтобы выбрать файл.
 about-addressbook-photo-drop-loading = Загрузка фото…
 about-addressbook-photo-drop-error = Не удалось загрузить фото.
@@ -346,9 +343,6 @@ about-addressbook-photo-filepicker-title = Выберите файл изобр�
 about-addressbook-photo-discard = Удалить существующее фото
 about-addressbook-photo-cancel = Отмена
 about-addressbook-photo-save = Сохранить
-
-# Keyboard shortcuts
-
 about-addressbook-new-contact-key = N
 
 ## Address Book Search Dialog

@@ -77,12 +77,6 @@ about-addressbook-details-email-addresses-header = כתובות דוא״ל
 about-addressbook-details-phone-numbers-header = מספרי טלפון
 about-addressbook-details-other-info-header = מידע אחר
 
-# Photo dialog
-
-
-# Keyboard shortcuts
-
-
 ## Address Book Search Dialog
 
 ab-search-dialog-search-button =

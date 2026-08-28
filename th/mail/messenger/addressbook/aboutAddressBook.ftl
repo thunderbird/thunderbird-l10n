@@ -289,9 +289,6 @@ about-addressbook-entry-name-custom3 = กำหนดเอง 3
 about-addressbook-entry-name-custom4 = กำหนดเอง 4
 about-addressbook-unsaved-changes-prompt-title = การเปลี่ยนแปลงที่ไม่ได้บันทึก
 about-addressbook-unsaved-changes-prompt = คุณต้องการบันทึกการเปลี่ยนแปลงของคุณก่อนออกจากมุมมองแก้ไขหรือไม่?
-
-# Photo dialog
-
 about-addressbook-photo-drop-target = ปล่อยหรือวางภาพถ่ายที่นี่ หรือคลิกเพื่อเลือกไฟล์
 about-addressbook-photo-drop-loading = กำลังโหลดภาพถ่าย…
 about-addressbook-photo-drop-error = ไม่สามารถโหลดภาพถ่าย
@@ -299,9 +296,6 @@ about-addressbook-photo-filepicker-title = เลือกไฟล์ภาพ
 about-addressbook-photo-discard = ละทิ้งภาพถ่ายที่มีอยู่
 about-addressbook-photo-cancel = ยกเลิก
 about-addressbook-photo-save = บันทึก
-
-# Keyboard shortcuts
-
 about-addressbook-new-contact-key = N
 
 ## Address Book Search Dialog

@@ -324,9 +324,6 @@ about-addressbook-entry-name-custom3 = Таңдауыңызша 3
 about-addressbook-entry-name-custom4 = Таңдауыңызша 4
 about-addressbook-unsaved-changes-prompt-title = Сақталмаған өзгерістер
 about-addressbook-unsaved-changes-prompt = Түзету көрінісінен шықпас бұрын өзгертулерді сақтау керек пе?
-
-# Photo dialog
-
 about-addressbook-photo-drop-target = Фотосуретті осы жерге ұстап апарыңыз немесе кірістіріңіз, немесе файлды таңдау үшін басыңыз.
 about-addressbook-photo-drop-loading = Фото жүктеу…
 about-addressbook-photo-drop-error = Фото жүктеу сәтсіз аяқталды.
@@ -334,9 +331,6 @@ about-addressbook-photo-filepicker-title = Сурет файлын таңдау
 about-addressbook-photo-discard = Бар болып тұрған фотоны өшіру
 about-addressbook-photo-cancel = Бас тарту
 about-addressbook-photo-save = Сақтау
-
-# Keyboard shortcuts
-
 about-addressbook-new-contact-key = N
 
 ## Address Book Search Dialog

@@ -327,9 +327,6 @@ about-addressbook-entry-name-custom3 = Pertsonalizatua 3
 about-addressbook-entry-name-custom4 = Pertsonalizatua 4
 about-addressbook-unsaved-changes-prompt-title = Gorde gabeko aldaketak
 about-addressbook-unsaved-changes-prompt = Aldaketak gorde nahi dituzu editatze ikuspegitik irten aurretik?
-
-# Photo dialog
-
 about-addressbook-photo-drop-target = Arrastatu edo itsatsi argazki bat hemen edo klik fitxategi bat aukeratzeko.
 about-addressbook-photo-drop-loading = Argazkia kargatzen…
 about-addressbook-photo-drop-error = Huts egin du argazkia kargatzeak.
@@ -337,9 +334,6 @@ about-addressbook-photo-filepicker-title = Hautatu irudi-fitxategia
 about-addressbook-photo-discard = Baztertu dagoen argazkia
 about-addressbook-photo-cancel = Utzi
 about-addressbook-photo-save = Gorde
-
-# Keyboard shortcuts
-
 about-addressbook-new-contact-key = B
 
 ## Address Book Search Dialog

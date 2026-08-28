@@ -123,14 +123,8 @@ about-addressbook-entry-name-custom2 = Ichinan 2
 about-addressbook-entry-name-custom3 = Ichinan 3
 about-addressbook-entry-name-custom4 = Ichinan 4
 about-addressbook-unsaved-changes-prompt-title = Man eyakon ta ri taq k'exoj
-
-# Photo dialog
-
 about-addressbook-photo-cancel = Tiq'at
 about-addressbook-photo-save = Tiyak
-
-# Keyboard shortcuts
-
 about-addressbook-new-contact-key = N
 
 ## Address Book Search Dialog

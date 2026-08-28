@@ -327,9 +327,6 @@ about-addressbook-entry-name-custom3 = Overig 3
 about-addressbook-entry-name-custom4 = Overig 4
 about-addressbook-unsaved-changes-prompt-title = Niet-opgeslagen wijzigingen
 about-addressbook-unsaved-changes-prompt = Wilt u uw wijzigingen opslaan voordat u de bewerkingsweergave verlaat?
-
-# Photo dialog
-
 about-addressbook-photo-drop-target = Versleep een foto hierheen of plak er een, of klik om een bestand te selecteren.
 about-addressbook-photo-drop-loading = Foto laden…
 about-addressbook-photo-drop-error = Kan foto niet laden.
@@ -337,9 +334,6 @@ about-addressbook-photo-filepicker-title = Selecteer een afbeeldingsbestand
 about-addressbook-photo-discard = Bestaande foto verwijderen
 about-addressbook-photo-cancel = Annuleren
 about-addressbook-photo-save = Opslaan
-
-# Keyboard shortcuts
-
 about-addressbook-new-contact-key = N
 
 ## Address Book Search Dialog

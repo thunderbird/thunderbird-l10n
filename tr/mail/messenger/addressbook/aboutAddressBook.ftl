@@ -327,9 +327,6 @@ about-addressbook-entry-name-custom3 = Özel 3
 about-addressbook-entry-name-custom4 = Özel 4
 about-addressbook-unsaved-changes-prompt-title = Kaydedilmemiş değişiklikler
 about-addressbook-unsaved-changes-prompt = Düzenleme görünümünden çıkmadan önce değişikliklerinizi kaydetmek ister misiniz?
-
-# Photo dialog
-
 about-addressbook-photo-drop-target = Buraya bir fotoğraf sürükleyin veya yapıştırın ya da dosya seçmek için tıklayın.
 about-addressbook-photo-drop-loading = Fotoğraf yükleniyor…
 about-addressbook-photo-drop-error = Fotoğraf yüklenemedi.
@@ -337,9 +334,6 @@ about-addressbook-photo-filepicker-title = Bir resim dosyası seçin
 about-addressbook-photo-discard = Mevcut fotoğrafı sil
 about-addressbook-photo-cancel = Vazgeç
 about-addressbook-photo-save = Kaydet
-
-# Keyboard shortcuts
-
 about-addressbook-new-contact-key = N
 
 ## Address Book Search Dialog

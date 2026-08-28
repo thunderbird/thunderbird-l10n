@@ -303,9 +303,6 @@ about-addressbook-entry-name-custom3 = Tùy chỉnh 3
 about-addressbook-entry-name-custom4 = Tùy chỉnh 4
 about-addressbook-unsaved-changes-prompt-title = Các thay đổi chưa được lưu
 about-addressbook-unsaved-changes-prompt = Bạn có muốn lưu các thay đổi của mình trước khi rời khỏi chế độ chỉnh sửa không?
-
-# Photo dialog
-
 about-addressbook-photo-drop-target = Thả hoặc dán ảnh vào đây hoặc nhấp để chọn tập tin.
 about-addressbook-photo-drop-loading = Đang tải ảnh…
 about-addressbook-photo-drop-error = Không tải được ảnh.
@@ -313,9 +310,6 @@ about-addressbook-photo-filepicker-title = Chọn một tập tin hình ảnh
 about-addressbook-photo-discard = Hủy ảnh hiện có
 about-addressbook-photo-cancel = Hủy bỏ
 about-addressbook-photo-save = Lưu
-
-# Keyboard shortcuts
-
 about-addressbook-new-contact-key = N
 
 ## Address Book Search Dialog

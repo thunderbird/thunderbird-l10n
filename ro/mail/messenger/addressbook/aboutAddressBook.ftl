@@ -333,9 +333,6 @@ about-addressbook-entry-name-custom3 = Diverse 3
 about-addressbook-entry-name-custom4 = Diverse 4
 about-addressbook-unsaved-changes-prompt-title = Modificări nesalvate
 about-addressbook-unsaved-changes-prompt = Vrei să salvezi modificările înainte de a ieși din ecranul de editare?
-
-# Photo dialog
-
 about-addressbook-photo-drop-target = Plasează sau inserează o fotografie aici sau dă clic ca să selectezi un fișier.
 about-addressbook-photo-drop-loading = Se încarcă fotografia…
 about-addressbook-photo-drop-error = Fotografia nu a putut fi încărcată.
@@ -343,9 +340,6 @@ about-addressbook-photo-filepicker-title = Selectează un fișier de imagine
 about-addressbook-photo-discard = Renunță la fotografia existentă
 about-addressbook-photo-cancel = Anulează
 about-addressbook-photo-save = Salvează
-
-# Keyboard shortcuts
-
 about-addressbook-new-contact-key = N
 
 ## Address Book Search Dialog

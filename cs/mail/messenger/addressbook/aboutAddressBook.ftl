@@ -346,9 +346,6 @@ about-addressbook-entry-name-custom3 = Vlastní 3
 about-addressbook-entry-name-custom4 = Vlastní 4
 about-addressbook-unsaved-changes-prompt-title = Neuložené změny
 about-addressbook-unsaved-changes-prompt = Chcete před opuštěním režimu úprav uložit provedené změny?
-
-# Photo dialog
-
 about-addressbook-photo-drop-target = Sem přetáhněte nebo vložte fotografii, nebo klepněte a vyberte soubor.
 about-addressbook-photo-drop-loading = Načítání fotografie…
 about-addressbook-photo-drop-error = Fotografii se nepodařilo načíst.
@@ -356,9 +353,6 @@ about-addressbook-photo-filepicker-title = Vyberte soubor s obrázkem
 about-addressbook-photo-discard = Zahodit existující fotografii
 about-addressbook-photo-cancel = Zrušit
 about-addressbook-photo-save = Uložit
-
-# Keyboard shortcuts
-
 about-addressbook-new-contact-key = N
 
 ## Address Book Search Dialog
