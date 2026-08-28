@@ -5,6 +5,14 @@
 
 ## Strings used by attachment actions: saving, opening, detaching and deleting.
 
+attachment-save-dialog-title = Shrani priponko
+attachment-save-all-dialog-title = Shrani vse priponke
+attachment-detach-dialog-title = Odpni priponko
+attachment-detach-all-dialog-title = Odpni vse priponke
+attachment-save-failed = Priponke ni mogoče shraniti. Preverite ime svoje datoteke in poskusite znova kasneje.
+# Variables:
+#   $filename (String) - Name of the file that already exists.
+attachment-file-exists = { $filename } že obstaja. Ali jo želite zamenjati?
 # Variables:
 #   $attachments (String) - Newline separated list of attachment names.
 attachment-delete-confirm =
