@@ -9,6 +9,8 @@
 calendar-dialog-close-button =
     .aria-label = Stäng
     .title = Stäng
+calendar-event-create-edit-dialog =
+    .aria-label = Händelse
 calendar-dialog-menu-button =
     .aria-label = Öppna meny
     .title = Öppna meny
