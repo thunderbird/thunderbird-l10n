@@ -382,3 +382,7 @@ account-hub-card-ews-description = Exchange Web Services (EWS) opretter forbinde
 account-hub-card-recommended-description = Det anbefales, fordi det matcher din tjeneste-URL.
 account-hub-exchange-type-username = Brugernavn
 account-hub-exchange-type-authentication = Godkendelsesmetode
+# Checkbox that can be unchecked to use a custom OAuth config.
+account-hub-exchange-type-default-oauth = Brug standardindstillinger for godkendelse i Microsoft 365 Copilot
+account-hub-exchange-type-oauth-app = App-ID
+account-hub-exchange-type-title = Vælg en kontotype
