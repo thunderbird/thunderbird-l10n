@@ -257,6 +257,7 @@ account-hub-oauth-unsupported-title = Yderligere konfiguration kræves
 # Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
 account-hub-oauth-unsupported-description = { -brand-short-name } kan ikke automatisk konfigurere OAuth2 for dette værtsnavn. Vælg Avanceret konfiguration for at oprette kontoen, og fuldfør derefter opsætningen fra Kontoindstillinger. <a data-l10n-name="oauth-support-link">Få hjælp til OAuth2-opsætning.</a>
+account-hub-username-help-text = Ofte din fulde mailadresse
 account-hub-notification-show-more = Vis mere
 account-hub-notification-show-less = Vis færre
 account-hub-email-setup-header = Tilføj din mailadresse
@@ -276,6 +277,7 @@ account-hub-result-pop-description = Hold dine mapper og meddelelser på din com
 account-hub-result-ews-shortname = Exchange
 account-hub-result-ews-description = Brug Microsoft Exchange Web Services til at synkronisere dine mapper og meddelelser
 account-hub-result-graph-api-shortname = Microsoft Graph API
+account-hub-result-graph-api-description = Brug Microsoft Graph API til at synkronisere dine mapper og mails med Microsoft 365
 account-hub-result-graph-shortname = Exchange (Graph)
 account-hub-result-graph-description = Brug Microsoft Graph API til at synkronisere mapper og mails
 account-hub-result-exchange-description = Synkroniser mapper og mails med Exchange eller Office 365
@@ -381,8 +383,10 @@ account-hub-card-ews-description = Exchange Web Services (EWS) opretter forbinde
 # This is shown after the type description, so "it" is referring to the type (either Microsoft Graph or Exchange Web Services).
 account-hub-card-recommended-description = Det anbefales, fordi det matcher din tjeneste-URL.
 account-hub-exchange-type-username = Brugernavn
+account-hub-exchange-type-username-hint = Typisk din mailadresse eller Active Directory UPN.
 account-hub-exchange-type-authentication = Godkendelsesmetode
 # Checkbox that can be unchecked to use a custom OAuth config.
 account-hub-exchange-type-default-oauth = Brug standardindstillinger for godkendelse i Microsoft 365 Copilot
+account-hub-exchange-type-oauth-tenant = Lejer-ID
 account-hub-exchange-type-oauth-app = App-ID
 account-hub-exchange-type-title = Vælg en kontotype

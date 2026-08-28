@@ -34,6 +34,7 @@ policy-DisableFeedbackCommands = Deaktiver kommandoer til at indsende feedback f
 policy-DisableForgetButton = Bloker adgang til knappen Glem.
 policy-DisableFormHistory = Husk ikke formular- og søgehistorik.
 policy-DisableMasterPasswordCreation = En hovedadgangskode kan ikke oprettes, hvis sat til true.
+policy-DisableMessageForwardingFilters = Tillad ikke meddelelsesfiltre at videresende meddelelser automatisk.
 policy-DisablePasswordReveal = Tillad ikke adgangskoder at blive vist i gemte logins.
 policy-DisableProfileImport = Deaktiver menu-kommandoen til at importere data fra et andet program.
 policy-DisableExperimentalFeatures = Deaktiver eksperimentelle funktioner i Thunderbird.
