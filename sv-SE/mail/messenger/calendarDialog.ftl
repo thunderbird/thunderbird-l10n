@@ -69,6 +69,33 @@ calendar-dialog-more-categories =
     .title = { $categories }
 calendar-dialog-delete-reminder-button =
     .alt = Ta bort påminnelse
+calendar-dialog-add-reminder-button = Lägg till påminnelse
+calendar-dialog-reminder-select =
+    .aria-label = Välj ny varaktighet för påminnelse
+calendar-dialog-save-reminder-button = Spara
+calendar-dialog-reminder-event-start = 0 minuter före
+# Variables:
+#  $count (Number): Number of minutes before the event.
+calendar-dialog-reminder-minutes-before =
+    { $count ->
+        [one] { $count } minut före
+       *[other] { $count } minuter före
+    }
+# Variables:
+#  $count (Number): Number of hours before the event.
+calendar-dialog-reminder-hours-before =
+    { $count ->
+        [one] { $count } timme före
+       *[other] { $count } timmar före
+    }
+# Variables:
+#  $count (Number): Number of days before the event.
+calendar-dialog-reminder-days-before =
+    { $count ->
+        [one] { $count } dag före
+       *[other] { $count } dagar före
+    }
+calendar-dialog-reminder-week-before = 1 vecka före
 # Variables:
 #   $count (Number): Number of reminders.
 calendar-dialog-reminder-count =
