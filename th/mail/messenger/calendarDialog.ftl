@@ -28,3 +28,6 @@ calendar-dialog-description-expand-icon =
 #   $categories (String): List of all categories.
 calendar-dialog-more-categories = อีก +{ $additionalCategories }
     .title = { $categories }
+calendar-dialog-save-reminder-button = บันทึก
+calendar-dialog-reminder-event-start = 0 นาทีก่อนหน้า
+calendar-dialog-reminder-week-before = 1 สัปดาห์ก่อนหน้า
