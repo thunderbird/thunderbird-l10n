@@ -26,6 +26,10 @@ show-data-button =
     .label = 显示数据位置
     .accesskey = S
 # Variables:
+# $count (Number) - The number of outgoing servers to be removed.
+remove-outgoing-servers-checkbox =
+    .label = 移除 { $count } 台外发服务器
+# Variables:
 # $count (Number) - The number of address books to be removed.
 remove-address-books-checkbox =
     .label = 移除 { $count } 份通讯录
