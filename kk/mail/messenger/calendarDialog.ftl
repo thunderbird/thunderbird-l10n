@@ -9,6 +9,8 @@
 calendar-dialog-close-button =
     .aria-label = Жабу
     .title = Жабу
+calendar-event-create-edit-dialog =
+    .aria-label = Оқиға
 calendar-dialog-menu-button =
     .aria-label = Мәзірді ашу
     .title = Мәзірді ашу
@@ -67,6 +69,33 @@ calendar-dialog-more-categories =
     .title = тағы +{ $additionalCategories }
 calendar-dialog-delete-reminder-button =
     .alt = Еске салуды өшіру
+calendar-dialog-add-reminder-button = Еске салуды қосу
+calendar-dialog-reminder-select =
+    .aria-label = Жаңа еске салудың ұзақтығын таңдаңыз
+calendar-dialog-save-reminder-button = Сақтау
+calendar-dialog-reminder-event-start = 0 минут бұрын
+# Variables:
+#  $count (Number): Number of minutes before the event.
+calendar-dialog-reminder-minutes-before =
+    { $count ->
+        [one] { $count } минут бұрын
+       *[other] { $count } минут бұрын
+    }
+# Variables:
+#  $count (Number): Number of hours before the event.
+calendar-dialog-reminder-hours-before =
+    { $count ->
+        [one] { $count } сағат бұрын
+       *[other] { $count } сағат бұрын
+    }
+# Variables:
+#  $count (Number): Number of days before the event.
+calendar-dialog-reminder-days-before =
+    { $count ->
+        [one] { $count } күн бұрын
+       *[other] { $count } күн бұрын
+    }
+calendar-dialog-reminder-week-before = 1 апта бұрын
 # Variables:
 #   $count (Number): Number of reminders.
 calendar-dialog-reminder-count =
