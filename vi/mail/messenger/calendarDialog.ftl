@@ -9,6 +9,8 @@
 calendar-dialog-close-button =
     .aria-label = Đóng
     .title = Đóng
+calendar-event-create-edit-dialog =
+    .aria-label = Sự kiện
 calendar-dialog-menu-button =
     .aria-label = Mở menu
     .title = Mở menu
@@ -60,6 +62,19 @@ calendar-dialog-more-categories = +{ $additionalCategories } mục khác
     .title = { $categories }
 calendar-dialog-delete-reminder-button =
     .alt = Xoá lời nhắc
+calendar-dialog-add-reminder-button = Thêm lời nhắc
+calendar-dialog-save-reminder-button = Lưu
+calendar-dialog-reminder-event-start = Tại thời điểm diễn ra
+# Variables:
+#  $count (Number): Number of minutes before the event.
+calendar-dialog-reminder-minutes-before = Trước { $count } phút
+# Variables:
+#  $count (Number): Number of hours before the event.
+calendar-dialog-reminder-hours-before = Trước { $count } tiếng
+# Variables:
+#  $count (Number): Number of days before the event.
+calendar-dialog-reminder-days-before = Trước { $count } ngày
+calendar-dialog-reminder-week-before = Trước 1 tuần
 # Variables:
 #   $count (Number): Number of reminders.
 calendar-dialog-reminder-count = { $count } lời nhắc
