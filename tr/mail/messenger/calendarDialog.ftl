@@ -69,6 +69,32 @@ calendar-dialog-more-categories =
 calendar-dialog-delete-reminder-button =
     .alt = Anımsatıcıyı sil
 calendar-dialog-add-reminder-button = Anımsatıcı ekle
+calendar-dialog-reminder-select =
+    .aria-label = Yeni anımsatıcı süresini seçin
+calendar-dialog-save-reminder-button = Kaydet
+calendar-dialog-reminder-event-start = 0 dakika önce
+# Variables:
+#  $count (Number): Number of minutes before the event.
+calendar-dialog-reminder-minutes-before =
+    { $count ->
+        [one] { $count } dakika önce
+       *[other] { $count } dakika önce
+    }
+# Variables:
+#  $count (Number): Number of hours before the event.
+calendar-dialog-reminder-hours-before =
+    { $count ->
+        [one] { $count } saat önce
+       *[other] { $count } saat önce
+    }
+# Variables:
+#  $count (Number): Number of days before the event.
+calendar-dialog-reminder-days-before =
+    { $count ->
+        [one] { $count } gün önce
+       *[other] { $count } gün önce
+    }
+calendar-dialog-reminder-week-before = 1 hafta önce
 # Variables:
 #   $count (Number): Number of reminders.
 calendar-dialog-reminder-count =
