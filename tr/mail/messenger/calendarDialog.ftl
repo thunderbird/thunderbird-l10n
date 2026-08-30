@@ -68,6 +68,7 @@ calendar-dialog-more-categories =
     .title = { $categories }
 calendar-dialog-delete-reminder-button =
     .alt = Anımsatıcıyı sil
+calendar-dialog-add-reminder-button = Anımsatıcı ekle
 # Variables:
 #   $count (Number): Number of reminders.
 calendar-dialog-reminder-count =

@@ -132,7 +132,7 @@ duplicate-error =
 unable-to-create-provider = { $location } adresindeki takvimin kullanımı esnasında bir hata meydana geldi. Bu takvim kullanılmayacak.
 # Sample: Unknown timezone "USPacific" in "Dentist Appt".  Using the 'floating' local timezone instead: 2008/02/28 14:00:00
 # $timezone timezone name, $title item title, $datetime date-time
-unknown-timezone-in-item = “{ $title }"”içinde bilinmeyen saat dilimi: “{ $timezone }”.  ‘Sabit’ yerel saat dilimi olarak işlendi: { $datetime }
+unknown-timezone-in-item = “{ $title }” içinde bilinmeyen saat dilimi: “{ $timezone }”. ‘Sabit’ yerel saat dilimi olarak işlendi: { $datetime }
 timezone-errors-alert-title = Saat Dilimi Hataları
 timezone-errors-see-console = Hata konsoluna bakın: Bilinmeyen saat dilimleri 'sabit' yerel saat dilimi olarak işleme alınır.
 # The following strings are for the prompt to delete/unsubscribe from the calendar
