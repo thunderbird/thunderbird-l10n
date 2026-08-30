@@ -9,6 +9,8 @@
 calendar-dialog-close-button =
     .aria-label = Lukk
     .title = Lukk
+calendar-event-create-edit-dialog =
+    .aria-label = Hendelse
 calendar-dialog-menu-button =
     .aria-label = Åpne meny
     .title = Åpne meny
@@ -67,6 +69,33 @@ calendar-dialog-more-categories =
     .title = +{ $additionalCategories } mer
 calendar-dialog-delete-reminder-button =
     .alt = Slett påminnelse
+calendar-dialog-add-reminder-button = Legg til påminnelse
+calendar-dialog-reminder-select =
+    .aria-label = Velg ny påminnelsesvarighet
+calendar-dialog-save-reminder-button = Lagre
+calendar-dialog-reminder-event-start = 0 minutter før
+# Variables:
+#  $count (Number): Number of minutes before the event.
+calendar-dialog-reminder-minutes-before =
+    { $count ->
+        [one] { 0 } minutt før
+       *[other] { 0 } minutter før
+    }
+# Variables:
+#  $count (Number): Number of hours before the event.
+calendar-dialog-reminder-hours-before =
+    { $count ->
+        [one] { 0 } time før
+       *[other] { 0 } timer før
+    }
+# Variables:
+#  $count (Number): Number of days before the event.
+calendar-dialog-reminder-days-before =
+    { $count ->
+        [one] { 0 } dag før
+       *[other] { 0 } dager før
+    }
+calendar-dialog-reminder-week-before = 1 uker før
 # Variables:
 #   $count (Number): Number of reminders.
 calendar-dialog-reminder-count =
