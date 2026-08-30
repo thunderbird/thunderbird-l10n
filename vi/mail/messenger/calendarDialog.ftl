@@ -63,6 +63,8 @@ calendar-dialog-more-categories = +{ $additionalCategories } mục khác
 calendar-dialog-delete-reminder-button =
     .alt = Xoá lời nhắc
 calendar-dialog-add-reminder-button = Thêm lời nhắc
+calendar-dialog-reminder-select =
+    .aria-label = Chọn khoảng thời gian nhắc nhở mới
 calendar-dialog-save-reminder-button = Lưu
 calendar-dialog-reminder-event-start = Tại thời điểm diễn ra
 # Variables:
