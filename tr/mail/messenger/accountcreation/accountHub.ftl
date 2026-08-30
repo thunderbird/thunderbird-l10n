@@ -250,6 +250,7 @@ account-hub-protocol-imap = Cihazlar arasında eşitle
 account-hub-protocol-microsoft = Exchange veya Microsoft 365
 account-hub-protocol-pop3 = Cihaza indir
 account-hub-oauth-unsupported-title = Ek yapılandırma gerekiyor
+account-hub-username-help-text = Genellikle tam e-posta adresiniz
 account-hub-notification-show-more = Daha fazla göster
 account-hub-notification-show-less = Daha az göster
 account-hub-email-setup-header = E-posta adresinizi ekleyin
