@@ -30,55 +30,43 @@ content-tab-security-high-icon =
     .alt = A ligação é segura
 content-tab-security-broken-icon =
     .alt = A ligação não é segura
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = Retroceder uma página ({ $shortcut })
     .aria-label = Anterior
+    .tooltiptext = Retroceder uma página ({ $shortcut })
     .accesskey = A
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Anterior
     .accesskey = A
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
-    .tooltiptext = Avançar uma página ({ $shortcut })
     .aria-label = Avançar
+    .tooltiptext = Avançar uma página ({ $shortcut })
     .accesskey = v
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = Avançar
     .accesskey = v
-
-# Reload
-
 content-tab-menu-reload =
-    .tooltiptext = Recarregar página
     .aria-label = Recarregar
+    .tooltiptext = Recarregar página
     .accesskey = R
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
-    .tooltiptext = Recarregar página
     .label = Recarregar
+    .tooltiptext = Recarregar página
     .accesskey = R
-
-# Stop
-
 content-tab-menu-stop =
-    .tooltiptext = Parar carregamento da página
     .aria-label = Parar
+    .tooltiptext = Parar carregamento da página
     .accesskey = r
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
-    .tooltiptext = Parar carregamento da página
     .label = Parar
+    .tooltiptext = Parar carregamento da página
     .accesskey = r
 open-windows-warning-confirmation-title = Confirmação
 # Variables:
@@ -255,6 +243,8 @@ menu-move-copy-recent-destinations =
 menu-move-copy-favorites =
     .label = Marcadores
     .accesskey = F
+menu-move-copy-no-recent =
+    .label = (Sem destinos recentes)
 menu-move-copy-no-favorites =
     .label = (Sem favoritos)
 
@@ -359,8 +349,8 @@ other-action-copy-message-link =
 other-action-copy-news-link =
     .label = Copiar ligação da notícia
 message-header-msg-flagged =
-    .title = Com estrela
     .aria-label = Com estrela
+    .title = Com estrela
 message-header-delete =
     .label = Eliminar
     .tooltiptext = Eliminar esta mensagem
@@ -454,9 +444,9 @@ decrypt-and-copy-failures-multiple =
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = Barra de Ferramentas de Espaços
-    .aria-label = Barra de Ferramentas de Espaços
     .aria-description = Barra de ferramentas vertical para alternar entre diferentes espaços. Utilize as teclas direcionais para navegar pelos botões disponíveis.
+    .aria-label = Barra de Ferramentas de Espaços
+    .toolbarname = Barra de Ferramentas de Espaços
 spaces-toolbar-button-mail2 =
     .title = Correio
 spaces-toolbar-button-address-book2 =

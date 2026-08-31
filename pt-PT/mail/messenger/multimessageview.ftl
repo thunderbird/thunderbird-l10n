@@ -13,6 +13,9 @@ multi-message-delete-button =
 multi-message-undelete-button =
     .label = Recuperar
     .tooltiptext = Recuperar
+multi-message-flagged-button =
+    .aria-label = Com estrela
+    .title = Com estrela
 # Variables:
 #   $count - total number of conversations (threads or solitary messages) selected
 num-conversations =
