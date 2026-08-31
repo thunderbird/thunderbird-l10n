@@ -52,6 +52,10 @@ account-hub-email-continue-button = Continuar
 account-hub-email-set-up-account-button = Configurar conta
 account-hub-email-confirm-button = Confirmar
 account-hub-email-find-settings-button = Procurar definições
+account-hub-email-connect-button = Conectar
+account-hub-result-incoming-legend = Receção
+account-hub-result-outgoing-legend = Envio
+account-hub-all-servers-legend = Todos os servidores
 account-hub-incoming-server-legend = Servidor de receção
 account-hub-outgoing-server-legend = Servidor de envio
 account-hub-result-incoming-server-legend = Servidor de receção
@@ -63,6 +67,39 @@ account-hub-hostname-label = Nome de anfitrião
 account-hub-result-hostname-label = Nome de anfitrião
     .title = Nome de anfitrião
 account-hub-result-socket-type-label = Segurança da ligação
+account-hub-servers-username-label = Nome de utilizador:
+account-hub-result-server-label = Servidor:
+account-hub-result-port-label = Porta:
+account-hub-result-security-label = Segurança:
+account-hub-result-authentication-type-label = Autenticação:
+account-hub-result-authentication-none = Nenhum
+    .title = Nenhum
+account-hub-result-authentication-password = Palavra-passe Normal
+    .title = Palavra-passe Normal
+account-hub-result-authentication-encrypted-password = Palavra-passe Encriptada
+    .title = Palavra-passe Encriptada
+account-hub-result-authentication-gssapi = Kerberos
+    .title = Kerberos
+account-hub-result-authentication-ntlm = NTLM
+    .title = NTLM
+account-hub-result-authentication-external = Externo
+    .title = Externo
+account-hub-result-authentication-oauth2 = OAuth2
+    .title = OAuth2
+account-hub-result-auth-none = Nenhum
+    .title = Nenhum
+account-hub-result-auth-password = Palavra-passe Normal
+    .title = Palavra-passe Normal
+account-hub-result-auth-encrypted-password = Palavra-passe Encriptada
+    .title = Palavra-passe Encriptada
+account-hub-result-auth-gssapi = Kerberos
+    .title = Kerberos
+account-hub-result-auth-ntlm = NTLM
+    .title = NTLM
+account-hub-result-auth-external = Externo
+    .title = Externo
+account-hub-result-auth-oauth2 = OAuth2
+    .title = OAuth2
 account-hub-on-port-label = Porta
 account-hub-result-authentication-label = Autenticação
     .title = Autenticação
@@ -89,6 +126,8 @@ account-hub-ssl-noencryption-option =
 account-hub-auth-no-authentication-option =
     .label = Sem Autenticação
 account-hub-auth-label = Método de autenticação
+account-hub-select-option =
+    .label = Selecione uma opção
 account-hub-username-label = Nome de utilizador
 account-hub-username-warning-icon = É necessário um nome de utilizador
 account-hub-address-book-username-error-text = Por favor, insira um nome de utilizador
@@ -124,6 +163,7 @@ address-book-ldap-duplicate-error = O nome do diretório de LDAP já existe. Ins
 address-book-ldap-creation-error = Não foi possível criar o diretório de LDAP.
 account-hub-email-setup-ews = Definições do servidor
 account-hub-result-exchange-url-label = URL do endpoint do Exchange
+account-hub-exchange-service-url-label = Insira o URL do serviço
 account-hub-email-credentials-confirmation = Configuração da conta
 account-hub-result-unknown-hostname = Nome de servidor desconhecido
 account-hub-result-unknown-cert = Certificado não verificado
@@ -198,11 +238,42 @@ account-hub-calendars-button = Calendários
 account-hub-thundermail-button = Iniciar sessão com o Thundermail
 # Used as part of a divider between sign in button and a sign in form.
 account-hub-thundermail-divider-text = ou
+account-hub-manual-config-imap-title = Definições IMAP
+account-hub-manual-config-pop3-title = Definições POP3
+account-hub-manual-config-review-settings-title = Rever definições atualizadas
+account-hub-manual-config-incoming-legend = Servidor de receção
+account-hub-manual-config-outgoing-legend = Servidor de envio
+# Label for checkbox that will hide an outgoing username input if it's the same is the incoming
+account-hub-same-username-checkbox = Nome de utilizador igual ao servidor de receção
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-security-changed = Não foi possível encontrar { $oldValue }, mas { $newValue } está disponível.
+# Variables:
+# $oldValue (String): The port requested before the configuration was tested.
+# $newValue (String): The port found after the configuration was tested.
+account-hub-manual-config-port-changed = Não foi possível aceder à Porta { $oldValue }, mas a Porta { $newValue } está disponível.
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-value-changed = Não foi possível usar { $oldValue }, mas { $newValue } está disponível.
+account-hub-protocol-imap = Sincronização entre dispositivos
+account-hub-protocol-microsoft = Exchange ou Microsoft 365
+account-hub-protocol-pop3 = Transferir para dispositivo
+account-hub-oauth-unsupported-title = É requerida configuração adicional
+# Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
+# 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
+account-hub-oauth-unsupported-description = O { -brand-short-name } não pode configurar automaticamente o OAuth2 para este nome de servidor. Selecione Configuração Avançada para criar a conta, e complete a configuração nas Definições da Conta. <a data-l10n-name="oauth-support-link">Obter ajuda na configuração do OAuth2.</a>
+account-hub-username-help-text = Muitas das vezes o seu endereço de email completo
 account-hub-notification-show-more = Mostrar mais
 account-hub-notification-show-less = Mostrar menos
 account-hub-email-setup-header = Adicionar o seu endereço de e-mail
 account-hub-email-setup-incoming = Definições do servidor de receção
 account-hub-email-setup-outgoing = Definições do servidor de envio
+account-hub-email-exchange-settings = Definições do Exchange
+account-hub-email-connect-settings = Conectar as suas definições de email
+account-hub-email-protocol-select-header = Escolha um tipo de conta de e-mail
+account-hub-email-protocol-select-additional-info = É necessária informação adicional para configurar esta conta.
 account-hub-email-config-found = Escolha o tipo da sua conta de e-mail
 account-hub-email-enter-password = Introduza a palavra-passe da sua conta de e-mail
 account-hub-email-sync-accounts = Sincronize os seus calendários e livros de endereços
@@ -212,13 +283,20 @@ account-hub-result-imap-description = Mantenha as suas pastas e as mensagens sin
 account-hub-result-pop-description = Mantenha as suas pastas e as mensagens no seu computador
 account-hub-result-ews-shortname = Exchange
 account-hub-result-ews-description = Utilize os Web Services do Microsoft Exchange para sincronizar as suas pastas e as mensagens
+account-hub-result-graph-api-shortname = API Microsoft Graph
+account-hub-result-graph-api-description = Usar a API Microsoft Graph para sincronizar as suas pastas e e-mails com o Microsoft 365
 account-hub-result-graph-shortname = Exchange (Graph)
 account-hub-result-graph-description = Utilizar a API Microsoft Graph para sincronizar as suas pastas e e-mails.
 account-hub-result-exchange-description = Sincronize as pastas e as mensagens com o Exchange ou Office 365
 account-hub-result-ews-text = Servidor
+account-hub-result-ews-expanded-text = Serviços Web do Exchange
+account-hub-result-graph-expanded-text = API Graph
 account-hub-result-recommended-label = Recomendado
 account-hub-result-addon-label = Requer complemento
 account-hub-edit-configuration = Editar configuração
+account-hub-config-success-description-exchange = Configuração encontrada para um servidor Microsoft Exchange.
+account-hub-config-success-description-guess = Configuração encontrada ao tentar nomes comuns de servidor.
+account-hub-config-success-description-disk = Configuração encontrada na instalação do { -brand-short-name }.
 account-hub-config-success = Configuração encontrada na ISPDB da Mozilla
 account-hub-password-info = As suas credenciais serão guardadas localmente no seu computador.
 account-hub-creating-account = A criar a conta…
