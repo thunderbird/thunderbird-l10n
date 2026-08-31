@@ -16,6 +16,8 @@ about-addressbook-toolbar-add-ldap-address-book =
     .label = Adicionar livro de endereços LDAP
 books-pane-create-contact-button = Novo Contacto
     .title = Criar um novo contacto
+books-pane-add-book-button =
+    .title = Adicionar livro de endereços
 books-pane-create-book-button =
     .title = Criar um novo livro de endereços
 books-pane-create-list-button =
@@ -61,6 +63,8 @@ about-addressbook-confirm-remove-remote-book-title = Remover livro de endereços
 # Variables:
 # $name (String) - Name of the remote address book to be removed.
 about-addressbook-confirm-remove-remote-book = Tem a certeza que pretende remover { $name }?
+address-book-list =
+    .aria-label = Lista de livros de endereços
 
 ## Cards
 
@@ -323,6 +327,8 @@ about-addressbook-entry-name-custom3 = Personalizado 3
 about-addressbook-entry-name-custom4 = Personalizado 4
 about-addressbook-unsaved-changes-prompt-title = Alterações não guardadas
 about-addressbook-unsaved-changes-prompt = Quer guardar as suas alterações antes de sair do modo de edição?
+about-addressbook-photo-dialog-title =
+    .aria-label = Gerir a foto para este contacto.
 about-addressbook-photo-drop-target = Solte ou cole uma foto aqui ou clique para selecionar um ficheiro.
 about-addressbook-photo-drop-loading = A carregar foto…
 about-addressbook-photo-drop-error = Falha ao carregar a foto.

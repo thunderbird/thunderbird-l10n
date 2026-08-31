@@ -25,3 +25,45 @@ remove-data-chat-account-description = Remove todos os registos de conversas arm
 show-data-button =
     .label = Mostrar localização dos dados
     .accesskey = s
+# Variables:
+# $count (Number) - The number of outgoing servers to be removed.
+remove-outgoing-servers-checkbox =
+    .label =
+        { $count ->
+            [one] Remover servidor de envio
+           *[other] Remover { $count } servidores de envio
+        }
+# Variables:
+# $count (Number) - The number of address books to be removed.
+remove-address-books-checkbox =
+    .label =
+        { $count ->
+            [one] Remover livro de endereços
+           *[other] Remover { $count } livros de endereços
+        }
+# Variables:
+# $count (Number) - The number of calendars to be removed.
+remove-calendars-checkbox =
+    .label =
+        { $count ->
+            [one] Remover calendário
+           *[other] Remover { $count } calendários
+        }
+# Variables:
+# $count (Number) - The number of passwords to be removed.
+remove-passwords-checkbox =
+    .label =
+        { $count ->
+            [one] Remover palavra-passe
+           *[other] Remover { $count } palavras-passe
+        }
+# Variables:
+# $count (Number) - The number of OAuth tokens to be removed.
+remove-oauth-tokens-checkbox =
+    .label =
+        { $count ->
+            [one] Remover token OAuth
+           *[other] Remover { $count } tokens OAuth
+        }
+remove-account-progress-success = Conta removida com sucesso.
+remove-account-progress-failure = Algo correu mal! Não foi possível concluir a remoção da conta.

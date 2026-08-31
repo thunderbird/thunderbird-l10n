@@ -138,6 +138,12 @@ adding-opensearch-provider-failed-title = Falha ao adicionar fornecedor de OpenS
 # Variables:
 # $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = Não foi possível adicionar o fornecedor de OpenSearch para { $url }.
+close-to-tray-label =
+    .label = Quando o { -brand-short-name } está fechado, move-o para a área de notificação
+    .accesskey = c
+start-in-tray-label =
+    .label = Iniciar o { -brand-short-name } na área de notificação
+    .accesskey = S
 minimize-to-tray-label =
     .label = Quando o { -brand-short-name } for minimizado, movê-lo para a bandeja
     .accesskey = m
@@ -185,6 +191,9 @@ mail-browse-sound-button =
 enable-gloda-search-label =
     .label = Ativar pesquisa global e indexação
     .accesskey = e
+gloda-show-results-as-list-label =
+    .label = Mostrar resultados de pesquisa globais como uma lista por predefinição
+    .accesskey = L
 datetime-formatting-legend = Formatação de data e hora
 language-selector-legend = Idioma
 allow-hw-accel =
@@ -461,6 +470,10 @@ account-hub-checkbox-label =
     .label = Criar contas no novo Centro de contas
     .accesskey = C
 account-hub-checkbox-description = Fluxo experimental da criação de nova conta de e-mail
+account-hub-manual-config-checkbox-label =
+    .label = Usar o novo fluxo de configuração manual no Centro de Conta
+    .accesskey = c
+account-hub-manual-config-checkbox-description = Fluxo de configuração manual no Centro de nova conta
 new-calendar-legend = Diálogo de novo evento de calendário
 new-calendar-checkbox-label =
     .label = Ver eventos de calendário no novo diálogo
@@ -558,6 +571,11 @@ edit-directories-label =
 email-picker-label =
     .label = Ao enviar, adicionar endereços de e-mail ao:
     .accesskey = A
+email-picker-description = A localização dos novos contactos guardados pelas mensagens enviadas.
+default-add-address-book-label =
+    .value = Livro de endereços predefinido para contactos adicionados manualmente:
+    .accesskey = D
+default-add-address-book-description = A localização dos novos contactos guardados pelas mensagens recebidas.
 default-directory-label =
     .value = Diretório de inicialização predefinido na janela do livro de endereços:
     .accesskey = a
@@ -574,9 +592,9 @@ enable-cloud-share =
 cloud-share-size =
     .value = MB
 add-cloud-account =
+    .defaultlabel = Adicionar…
     .label = Adicionar…
     .accesskey = A
-    .defaultlabel = Adicionar…
 remove-cloud-account =
     .label = Remover
     .accesskey = R
@@ -905,8 +923,8 @@ chat-variant-label =
 # is the name of the CSS property. It is intended only to adjust the element's width.
 # Do not translate.
 search-preferences-input2 =
-    .style = width: 15.4em
     .placeholder = Encontrar nas Definições
+    .style = width: 15.4em
 managed-notice = O { -brand-short-name } está a ser gerido pela sua organização.
 
 ## Settings UI Search Results

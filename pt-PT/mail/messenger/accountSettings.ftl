@@ -27,6 +27,24 @@ oauth2-authorization-endpoint-label =
 oauth2-token-endpoint-label =
     .value = Endpoint do token:
     .accesskey = t
+oauth2-scopes-label =
+    .value = Escopos:
+    .accesskey = s
+oauth2-redirection-endpoint-label =
+    .value = URl de redirecionamento:
+    .accesskey = r
+oauth2-client-secret-label =
+    .value = Segredo do cliente:
+    .accesskey = e
+oauth2-issuer-identifier-label =
+    .value = Identificador do emissor:
+    .accesskey = i
+oauth2-use-pkce =
+    .label = Usar PKCE
+    .accesskey = k
+oauth2-use-system-browser =
+    .label = Usar navegador web do sistema
+    .accesskey = b
 ews-url-label =
     .value = URL do servidor:
     .accesskey = f
@@ -48,3 +66,9 @@ ews-endpointhost-label =
 ews-oauthscopes-label =
     .value = Âmbitos de OAuth:
     .accesskey = s
+# Variables:
+#   $extensionName (String) - The display name of the extension providing
+#     the OAuth2 settings.
+# Shown in Account Settings below the authentication method when OAuth2
+# settings are provided by an extension.
+oauth-provider-extension-info = Definições OAuth2 fornecidas pela extensão: <a data-l10n-name="extension">{ $extensionName }</a>
