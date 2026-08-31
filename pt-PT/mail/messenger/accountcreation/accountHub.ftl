@@ -297,6 +297,8 @@ account-hub-edit-configuration = Editar configuração
 account-hub-config-success-description-exchange = Configuração encontrada para um servidor Microsoft Exchange.
 account-hub-config-success-description-guess = Configuração encontrada ao tentar nomes comuns de servidor.
 account-hub-config-success-description-disk = Configuração encontrada na instalação do { -brand-short-name }.
+account-hub-config-success-description-isp = Configuração encontrada no fornecedor de e-mail.
+account-hub-config-success-description-read-more = Pode <a data-l10n-name="automated-setup-link">ler mais sobre como funciona a configuração automática de e-mail.</a>
 account-hub-config-success = Configuração encontrada na ISPDB da Mozilla
 account-hub-password-info = As suas credenciais serão guardadas localmente no seu computador.
 account-hub-creating-account = A criar a conta…
@@ -325,6 +327,7 @@ account-hub-port-error-text = A porta deve estar entre 1 e 65535
     .title = A porta deve estar entre 1 e 65535
 account-hub-username-error-text = É necessário um nome de utilizador
     .title = É necessário um nome de utilizador
+account-hub-manual-config-error-summary = Por favor resolva os seguintes erros:
 account-hub-oauth-pending = A aguardar por autorização na janela de autenticação…
 account-hub-addon-install-button = Instalar
 account-hub-addon-install-needed = O { -brand-short-name } não suporta nativamente este servidor. Para aceder ao e-mail de Exchange, <a data-l10n-name="addon-install">instale um complemento de terceiros, como o Owl (pago).</a>
@@ -336,18 +339,30 @@ account-hub-add-address-book = Adicionar um livro de endereços
 address-book-sync-existing-icon =
     .alt = Sincronizar um livro de endereços de uma conta existente
 address-book-sync-existing = Sincronizar a partir de uma conta existente
+address-book-add-remote-icon2 =
+    .alt = Adicionar um livro de endereços remoto
 address-book-add-remote-icon =
     .alt = Adicionar um novo livro de endereços remoto
 address-book-add-remote = Adicionar livro de endereços remoto
+address-book-add-remote-carddav-description = Conectar a um livro de endereços CardDAV
 address-book-add-remote-description = Ligar a um livro de endereços CardDav remoto
 address-book-add-local-icon =
     .alt = Criar um novo livro de endereços local
 address-book-add-local = Novo livro de endereços local
 address-book-add-local-description = Criar um novo livro de endereços local no seu dispositivo
+address-book-add-ldap-icon2 =
+    .alt = Adicionar um livro de endereços LDAP
+address-book-add-ldap-button = Adicionar Livro de Endereços LDAP
 address-book-add-ldap-icon =
     .alt = Ligar a um livro de endereços LDAP remoto
 address-book-add-ldap = Novo livro de endereços LDAP
 address-book-add-ldap-description = Ligar a um livro de endereços LDAP remoto
+# $addressBooks (Number) - The number of address books that can be synced from existing accounts.
+account-hub-address-book-sync-books-data =
+    { $addressBooks ->
+        [one] 1 livro de endereços disponível
+       *[other] { $addressBooks } livros de endereços disponíveis
+    }
 account-hub-fetching-sync-accounts = A descobrir livros de endereços e calendários…
 address-book-sync-existing-description = A obter contas existentes…
 account-hub-select-address-book-account = Selecione uma conta com livros de endereços
@@ -361,3 +376,22 @@ account-hub-local-address-book-label = Nome do livro de endereços
 account-hub-local-error-text = Por favor, insira um nome do livro de endereços
 account-hub-sync-address-books = Sincronizar os livros de endereços existentes
 account-hub-new-remote-address-book = Novo livro de endereços remoto
+
+## Exchange Type Manual Config Step
+
+account-hub-exchange-type-account-type = Tipo de conta
+account-hub-card-graph-title = Microsoft Graph
+account-hub-card-graph-description = O Microsoft Graph é um método de conexão moderno para o Microsoft 365.
+account-hub-card-ews-title = Serviços Web do Exchange
+account-hub-card-ews-tag = Legado
+account-hub-card-ews-description = Os Serviços Web do Exchange (EWS) conectam ao Microsoft Exchange para sincronizar o seu correio.
+# This is shown after the type description, so "it" is referring to the type (either Microsoft Graph or Exchange Web Services).
+account-hub-card-recommended-description = É recomendado porque corresponde ao URL do seu Serviço.
+account-hub-exchange-type-username = Nome de utilizador
+account-hub-exchange-type-username-hint = Tipicamente o seu endereço de e-mail ou UPN da Active Directory.
+account-hub-exchange-type-authentication = Método de Autenticação
+# Checkbox that can be unchecked to use a custom OAuth config.
+account-hub-exchange-type-default-oauth = Usar as definições predefinidas de autenticação do Microsoft 365 Copilot
+account-hub-exchange-type-oauth-tenant = ID do Tenant
+account-hub-exchange-type-oauth-app = ID da App
+account-hub-exchange-type-title = Escolha um tipo de conta
