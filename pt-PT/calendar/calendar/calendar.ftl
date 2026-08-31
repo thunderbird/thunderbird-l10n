@@ -158,6 +158,9 @@ week-title-label =
     .aria-label = Semana { $title }
 calendar-none =
     .label = Nenhuma
+# Variables:
+#   $fileName (String) - The backup file name, e.g. 'local-2020-05-11T21-30-17.sqlite'.
+too-new-dbschema-error-text = Os dados do seu calendário não são compatíveis com esta versão do { -brand-short-name }. Os dados do calendário no seu perfil foram atualizados por uma nova versão do { -brand-short-name }. Foi criada uma cópia de segurança do ficheiro de dados, com o nome “{ $fileName }”. A continuar com o novo ficheiro de dados criado.
 imip-bar-unsupported-text = Esta mensagem contém um evento que esta versão do { -brand-short-name } não pode processar.
 # Error strings
 # @name UID_NOT_FOUND
@@ -549,6 +552,11 @@ format-date-long = { $dayName }, { $dayIndex } de { $monthName } de { $year }
 day-header = { $dayName }, { $dayIndex }
 day-header-elem =
     .label = { day-header }
+# LOCALIZATION NOTE (calendar-multiday-hour-slot):
+# Label for a time slot in the day/week calendar views.
+#    $date will be replaced with the day label, e.g. "Monday 6 Oct.";
+#    $time will be replaced with the time of the slot, e.g. "9:00 AM".
+calendar-multiday-hour-slot = { $date }, { $time }
 # LOCALIZATION NOTE (datetime-interval-task-without-date):
 # used for task without start and due date
 # (showed only in exported calendar in Html format)
@@ -903,21 +911,21 @@ calendar-task-details-start = data inicial
 calendar-task-details-due = data final
 calendar-task-mark-completed =
     .label = Marcar como terminado
-    .accesskey = o
     .tooltiptext = Marcar tarefas selecionadas como concluídas
+    .accesskey = o
 calendar-task-change-priority =
     .label = Prioridade
-    .accesskey = r
     .tooltiptext = Mudar prioridade
+    .accesskey = r
 calendar-task-input-filter-field =
     .aria-label = Filtrar tarefas
     .emptytextbase = Filtrar tarefas #1
-    .keylabelnonmac = <Ctrl+Shift+K>
     .keylabelmac = <⇧⌘K>
+    .keylabelnonmac = <Ctrl+Shift+K>
 calendar-task-text-filter-field =
     .emptytextbase = Filtrar tarefas #1
-    .keylabelnonmac = <Ctrl+Shift+K>
     .keylabelmac = <⇧⌘K>
+    .keylabelnonmac = <Ctrl+Shift+K>
 calendar-copylink =
     .label = Copiar ligação da localização
     .accesskey = C
@@ -975,10 +983,10 @@ calendar-properties-enable-calendar =
     .label = Ativar este calendário
 calendar-properties-provider-missing = O fornecedor deste calendário não foi encontrado. Isto pode acontecer caso tenha desativado ou desinstalado alguns complementos.
 calendar-properties-unsubscribe =
-    .label = Cancelar subscrição
-    .accesskey = u
     .buttonlabelextra1 = Cancelar subscrição
     .buttonaccesskeyextra1 = u
+    .label = Cancelar subscrição
+    .accesskey = u
 calendar-alarm-dialog-title = Lembretes do calendário
 calendar-alarm-details =
     .value = Detalhes…
@@ -1119,3 +1127,14 @@ event-recurrence-forever =
 attendees-tab-label = Participantes ({ $count }):
 # $count - the number of attachments
 attachments-tab-label = Anexos ({ $count }):
+# Variables:
+#   $docTitle (String) - The date or view label for the current calendar view.
+calendar-window-title = { $docTitle } - { -brand-full-name }
+calendar-window-title-base = { -brand-full-name }
+# Variables:
+#   $username (String) - The account username.
+#   $location (String) - The calendar server location.
+calendar-auth-enter-password-for = Insira a palavra-passe para { $username } em { $location }
+# Variables:
+#   $location (String) - The calendar server location.
+calendar-auth-enter-user-password-for = { $location } está a solicitar o seu nome de utilizador e palavra-passe.
