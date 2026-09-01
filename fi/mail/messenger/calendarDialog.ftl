@@ -9,6 +9,8 @@
 calendar-dialog-close-button =
     .aria-label = Sulje
     .title = Sulje
+calendar-event-create-edit-dialog =
+    .aria-label = Tapahtuma
 calendar-dialog-menu-button =
     .aria-label = Avaa valikko
     .title = Avaa valikko
@@ -56,6 +58,33 @@ calendar-dialog-more-categories =
     .title = +{ $additionalCategories } lisää
 calendar-dialog-delete-reminder-button =
     .alt = Poista muistutus
+calendar-dialog-add-reminder-button = Lisää muistutus
+calendar-dialog-reminder-select =
+    .aria-label = Valitse uusi muistutuksen kesto
+calendar-dialog-save-reminder-button = Tallenna
+calendar-dialog-reminder-event-start = 0 minuuttia ennen
+# Variables:
+#  $count (Number): Number of minutes before the event.
+calendar-dialog-reminder-minutes-before =
+    { $count ->
+        [one] { $count } minuutti ennen
+       *[other] { $count } minuuttia ennen
+    }
+# Variables:
+#  $count (Number): Number of hours before the event.
+calendar-dialog-reminder-hours-before =
+    { $count ->
+        [one] { $count } tunti ennen
+       *[other] { $count } tuntia ennen
+    }
+# Variables:
+#  $count (Number): Number of days before the event.
+calendar-dialog-reminder-days-before =
+    { $count ->
+        [one] { $count } päivä ennen
+       *[other] { $count } päivää ennen
+    }
+calendar-dialog-reminder-week-before = 1 viikko ennen
 # Variables:
 #   $count (Number): Number of reminders.
 calendar-dialog-reminder-count =
@@ -85,4 +114,32 @@ calendar-dialog-attachments-summary-label =
     { $count ->
         [one] { $count } liite
        *[other] { $count } liitettä
+    }
+# Variables:
+#   $count (Number): Number of guests that responded "attending".
+calendar-dialog-attendee-summary-going =
+    { $count ->
+        [one] { $count } osallistuu
+       *[other] { $count } osallistuu
+    }
+# Variables:
+#   $count (Number): Number of guests that responded "maybe".
+calendar-dialog-attendee-summary-maybe =
+    { $count ->
+        [one] { $count } ehkä
+       *[other] { $count } ehkä
+    }
+# Variables:
+#   $count (Number): Number of guests that responded "declined".
+calendar-dialog-attendee-summary-declined =
+    { $count ->
+        [one] { $count } kieltäytyi
+       *[other] { $count } kieltäytyi
+    }
+# Variables:
+#   $count (Number): Number of guests whose response is pending (didn't reply yet).
+calendar-dialog-attendee-summary-pending =
+    { $count ->
+        [one] { $count } odottaa
+       *[other] { $count } odottaa
     }

@@ -25,3 +25,45 @@ remove-data-chat-account-description = Poistaa kaikki paikalliselle levylle tall
 show-data-button =
     .label = Näytä datan sijainti
     .accesskey = d
+# Variables:
+# $count (Number) - The number of outgoing servers to be removed.
+remove-outgoing-servers-checkbox =
+    .label =
+        { $count ->
+            [one] Poista lähtevän postin palvelin
+           *[other] Poista { $count } lähtevän postin palvelinta
+        }
+# Variables:
+# $count (Number) - The number of address books to be removed.
+remove-address-books-checkbox =
+    .label =
+        { $count ->
+            [one] Poista osoitekirja
+           *[other] Poista { $count } osoitekirjaa
+        }
+# Variables:
+# $count (Number) - The number of calendars to be removed.
+remove-calendars-checkbox =
+    .label =
+        { $count ->
+            [one] Poista kalenteri
+           *[other] Poista { $count } kalenteria
+        }
+# Variables:
+# $count (Number) - The number of passwords to be removed.
+remove-passwords-checkbox =
+    .label =
+        { $count ->
+            [one] Poista salasana
+           *[other] Poista { $count } salasanaa
+        }
+# Variables:
+# $count (Number) - The number of OAuth tokens to be removed.
+remove-oauth-tokens-checkbox =
+    .label =
+        { $count ->
+            [one] Poista OAuth-poletti
+           *[other] Poista { $count } OAuth-polettia
+        }
+remove-account-progress-success = Tilin poistaminen onnistui.
+remove-account-progress-failure = Jotain meni pieleen! Tilin poistamista ei voitu suorittaa loppuun.
