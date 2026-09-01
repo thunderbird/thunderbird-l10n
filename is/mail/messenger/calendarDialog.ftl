@@ -9,6 +9,8 @@
 calendar-dialog-close-button =
     .aria-label = Loka
     .title = Loka
+calendar-event-create-edit-dialog =
+    .aria-label = Atburður
 calendar-dialog-menu-button =
     .aria-label = Opna valmynd
     .title = Opna valmynd
@@ -68,6 +70,7 @@ calendar-dialog-more-categories =
     .title = { $categories }
 calendar-dialog-delete-reminder-button =
     .alt = Eyða áminningu
+calendar-dialog-add-reminder-button = Bæta við áminningu
 # Variables:
 #   $count (Number): Number of reminders.
 calendar-dialog-reminder-count =
