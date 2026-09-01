@@ -71,6 +71,32 @@ calendar-dialog-more-categories =
 calendar-dialog-delete-reminder-button =
     .alt = Eyða áminningu
 calendar-dialog-add-reminder-button = Bæta við áminningu
+calendar-dialog-reminder-select =
+    .aria-label = Veldu nýtt tímabil áminningar
+calendar-dialog-save-reminder-button = Vista
+calendar-dialog-reminder-event-start = 0 mínútum fyrir
+# Variables:
+#  $count (Number): Number of minutes before the event.
+calendar-dialog-reminder-minutes-before =
+    { $count ->
+        [one] { 0 } mínútu fyrir
+       *[other] { 0 } mínútum fyrir
+    }
+# Variables:
+#  $count (Number): Number of hours before the event.
+calendar-dialog-reminder-hours-before =
+    { $count ->
+        [one] { 0 } klukkustund fyrir
+       *[other] { 0 } klukkustundum fyrir
+    }
+# Variables:
+#  $count (Number): Number of days before the event.
+calendar-dialog-reminder-days-before =
+    { $count ->
+        [one] { 0 } degi fyrir
+       *[other] { 0 } dögum fyrir
+    }
+calendar-dialog-reminder-week-before = 1 viku fyrir
 # Variables:
 #   $count (Number): Number of reminders.
 calendar-dialog-reminder-count =

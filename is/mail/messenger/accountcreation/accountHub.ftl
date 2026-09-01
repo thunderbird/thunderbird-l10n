@@ -254,6 +254,9 @@ account-hub-protocol-imap = Samstillt á milli tækja
 account-hub-protocol-microsoft = Exchange eða Microsoft 365
 account-hub-protocol-pop3 = Sækja í tæki
 account-hub-oauth-unsupported-title = Frekari stillingar eru nauðsynlegar
+# Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
+# 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
+account-hub-oauth-unsupported-description = { -brand-short-name } getur ekki sjálfkrafa stillt OAuth2 fyrir þetta hýsingarheiti. Farðu í ítarlegar grunnstillingar til að búa til reikninginn og ljúktu síðan uppsetningunni í stillingum reikningsins. <a data-l10n-name="oauth-support-link">Fáðu hjálp við uppsetningu OAuth2.</a>
 account-hub-username-help-text = Er oft allt tölvupóstfangið þitt
 account-hub-notification-show-more = Sýna meira
 account-hub-notification-show-less = Sýna minna
