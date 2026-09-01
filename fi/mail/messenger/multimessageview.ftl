@@ -13,6 +13,9 @@ multi-message-delete-button =
 multi-message-undelete-button =
     .label = Peru poistaminen
     .tooltiptext = Peru poistaminen
+multi-message-flagged-button =
+    .aria-label = Tähti
+    .title = Tähti
 # Variables:
 #   $count - total number of conversations (threads or solitary messages) selected
 num-conversations =

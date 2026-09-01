@@ -282,6 +282,7 @@ threadpane-column-label-unread-button =
     .label = Lukutila
 threadpane-cell-read-status =
     .aria-label = Lukutila
+threadpane-new-cell-label = Uusi
 threadpane-read-cell-label = Luettu
 threadpane-unread-cell-label = Lukematta
 threadpane-column-header-a11y-sender =

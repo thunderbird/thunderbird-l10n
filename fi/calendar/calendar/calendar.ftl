@@ -549,6 +549,11 @@ format-date-long = { $dayName } { $dayIndex } { $monthName } { $year }
 day-header = { $dayName } { $dayIndex }
 day-header-elem =
     .label = { day-header }
+# LOCALIZATION NOTE (calendar-multiday-hour-slot):
+# Label for a time slot in the day/week calendar views.
+#    $date will be replaced with the day label, e.g. "Monday 6 Oct.";
+#    $time will be replaced with the time of the slot, e.g. "9:00 AM".
+calendar-multiday-hour-slot = { $date }, { $time }
 # LOCALIZATION NOTE (datetime-interval-task-without-date):
 # used for task without start and due date
 # (showed only in exported calendar in Html format)
@@ -903,21 +908,21 @@ calendar-task-details-start = aloituspäivä
 calendar-task-details-due = valmis
 calendar-task-mark-completed =
     .label = Merkitse suoritetuksi
-    .accesskey = o
     .tooltiptext = Merkitse valitut tehtävät suoritetuksi
+    .accesskey = o
 calendar-task-change-priority =
     .label = Tärkeysaste
-    .accesskey = r
     .tooltiptext = Muuta tärkeysastetta
+    .accesskey = r
 calendar-task-input-filter-field =
     .aria-label = Suodata tehtävät
     .emptytextbase = Suodata tehtävät #1
-    .keylabelnonmac = <Ctrl+Shift+K>
     .keylabelmac = <⇧⌘K>
+    .keylabelnonmac = <Ctrl+Shift+K>
 calendar-task-text-filter-field =
     .emptytextbase = Suodata tehtävät #1
-    .keylabelnonmac = <Ctrl+Shift+K>
     .keylabelmac = <⇧⌘K>
+    .keylabelnonmac = <Ctrl+Shift+K>
 calendar-copylink =
     .label = Kopioi linkin osoite
     .accesskey = K
@@ -975,10 +980,10 @@ calendar-properties-enable-calendar =
     .label = Ota tämä kalenteri käyttöön
 calendar-properties-provider-missing = Tämän kalenterin tuottajaa ei löytynyt. Tämä tapahtuu usein tiettyjen lisäosien poistamisen tai käytöstä poistamisen jälkeen.
 calendar-properties-unsubscribe =
-    .label = Peruuta tilaus
-    .accesskey = P
     .buttonlabelextra1 = Peruuta tilaus
     .buttonaccesskeyextra1 = P
+    .label = Peruuta tilaus
+    .accesskey = P
 calendar-alarm-dialog-title = Kalenterimuistutukset
 calendar-alarm-details =
     .value = Lisätiedot…
@@ -1119,3 +1124,14 @@ event-recurrence-forever =
 attendees-tab-label = Osallistujat ({ $count }):
 # $count - the number of attachments
 attachments-tab-label = Liitteet ({ $count }):
+# Variables:
+#   $docTitle (String) - The date or view label for the current calendar view.
+calendar-window-title = { $docTitle } - { -brand-full-name }
+calendar-window-title-base = { -brand-full-name }
+# Variables:
+#   $username (String) - The account username.
+#   $location (String) - The calendar server location.
+calendar-auth-enter-password-for = Anna käyttäjän { $username } salasana palvelimelle { $location }
+# Variables:
+#   $location (String) - The calendar server location.
+calendar-auth-enter-user-password-for = { $location } pyytää käyttäjätunnustasi ja salasanaasi.

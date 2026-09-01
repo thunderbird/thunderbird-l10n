@@ -17,6 +17,9 @@ cert-error-not-yet-valid = Palvelimen { $hostname } varmenne on voimassa vasta {
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-untrusted-default = Palvelimen { $hostname } varmenne ei ole peräisin luotettavasta lähteestä.
 # Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server.
+cert-error-ssl-connection-error = Virhe yhdistettäessä palvelimeen { $hostname }
+# Variables:
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-domain-mismatch =
     .title = Yhteysvirhe. Palvelimen { $hostname } varmenne ei ole kelvollinen kyseiselle palvelimelle. Joku saattaa yrittää tekeytyä palvelimeksi, joten sinun ei pitäisi jatkaa. Avaa palvelimen suojausasetukset napsauttamalla tätä.
@@ -34,6 +37,10 @@ cert-error-inline-not-yet-valid =
 #   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
 cert-error-inline-untrusted-default =
     .title = Yhteysvirhe. Varmenne palvelimelle { $hostname } ei ole peräisin luotettavasta lähteestä. Avaa palvelimen suojausasetukset napsauttamalla tätä.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server.
+cert-error-inline-ssl-connection-error =
+    .title = Virhe yhdistettäessä palvelimeen { $hostname }
 certificate-check-test-button = Testaa yhteys palvelimeen
 certificate-check-view-button = Näytä varmenne
 certificate-check-add-exception-button = Lisää poikkeus

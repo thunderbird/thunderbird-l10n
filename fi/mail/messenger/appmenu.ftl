@@ -5,6 +5,8 @@
 
 ## Sync
 
+appmenu-sync-panel-title =
+    .title = Synkronointi
 appmenu-signin-panel =
     .label = Kirjaudu Sync-palveluun
     .accesskey = i
@@ -48,9 +50,6 @@ appmenu-new-feed =
 appmenu-new-newsgroup =
     .label = Keskusteluryhmä
     .accesskey = r
-
-## Add Account
-
 appmenu-add-account-panel-title =
     .title = Lisää tili
 appmenu-add-account-panel =
