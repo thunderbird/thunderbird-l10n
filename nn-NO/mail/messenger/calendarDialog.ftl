@@ -69,6 +69,7 @@ calendar-dialog-more-categories =
     .title = { $categories }
 calendar-dialog-delete-reminder-button =
     .alt = Slett påminning
+calendar-dialog-add-reminder-button = Legg til påminning
 calendar-dialog-save-reminder-button = Lagre
 calendar-dialog-reminder-event-start = 0 minutt før
 calendar-dialog-reminder-week-before = 1 veke før
