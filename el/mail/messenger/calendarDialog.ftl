@@ -9,6 +9,8 @@
 calendar-dialog-close-button =
     .aria-label = Κλείσιμο
     .title = Κλείσιμο
+calendar-event-create-edit-dialog =
+    .aria-label = Εκδήλωση
 calendar-dialog-menu-button =
     .aria-label = Άνοιγμα μενού
     .title = Άνοιγμα μενού
@@ -68,7 +70,32 @@ calendar-dialog-more-categories =
 calendar-dialog-delete-reminder-button =
     .alt = Διαγραφή υπενθύμισης
 calendar-dialog-add-reminder-button = Προσθήκη υπενθύμισης
+calendar-dialog-reminder-select =
+    .aria-label = Επιλογή νέας διάρκειας υπενθύμισης
 calendar-dialog-save-reminder-button = Αποθήκευση
+calendar-dialog-reminder-event-start = 0 λεπτά πριν
+# Variables:
+#  $count (Number): Number of minutes before the event.
+calendar-dialog-reminder-minutes-before =
+    { $count ->
+        [one] { $count } λεπτό πριν
+       *[other] { $count } λεπτά πριν
+    }
+# Variables:
+#  $count (Number): Number of hours before the event.
+calendar-dialog-reminder-hours-before =
+    { $count ->
+        [one] { $count } ώρα πριν
+       *[other] { $count } ώρες πριν
+    }
+# Variables:
+#  $count (Number): Number of days before the event.
+calendar-dialog-reminder-days-before =
+    { $count ->
+        [one] { $count } ημέρα πριν
+       *[other] { $count } ημέρες πριν
+    }
+calendar-dialog-reminder-week-before = 1 εβδομάδα πριν
 # Variables:
 #   $count (Number): Number of reminders.
 calendar-dialog-reminder-count =
