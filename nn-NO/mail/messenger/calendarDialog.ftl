@@ -72,6 +72,20 @@ calendar-dialog-delete-reminder-button =
 calendar-dialog-add-reminder-button = Legg til påminning
 calendar-dialog-save-reminder-button = Lagre
 calendar-dialog-reminder-event-start = 0 minutt før
+# Variables:
+#  $count (Number): Number of minutes before the event.
+calendar-dialog-reminder-minutes-before =
+    { $count ->
+        [one] { 0 } minutt før
+       *[other] { 0 } minutt før
+    }
+# Variables:
+#  $count (Number): Number of hours before the event.
+calendar-dialog-reminder-hours-before =
+    { $count ->
+        [one] { $count } time før
+       *[other] { $count } timar før
+    }
 calendar-dialog-reminder-week-before = 1 veke før
 # Variables:
 #   $count (Number): Number of reminders.
