@@ -70,6 +70,8 @@ calendar-dialog-more-categories =
 calendar-dialog-delete-reminder-button =
     .alt = Slett påminning
 calendar-dialog-add-reminder-button = Legg til påminning
+calendar-dialog-reminder-select =
+    .aria-label = Vel ny påminningsvarigheit
 calendar-dialog-save-reminder-button = Lagre
 calendar-dialog-reminder-event-start = 0 minutt før
 # Variables:
@@ -85,6 +87,13 @@ calendar-dialog-reminder-hours-before =
     { $count ->
         [one] { $count } time før
        *[other] { $count } timar før
+    }
+# Variables:
+#  $count (Number): Number of days before the event.
+calendar-dialog-reminder-days-before =
+    { $count ->
+        [one] { $count } dag før
+       *[other] { $count } dagar før
     }
 calendar-dialog-reminder-week-before = 1 veke før
 # Variables:
