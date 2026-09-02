@@ -13,6 +13,12 @@ content-tab-security-high-icon =
     .alt = Savienojums ir drošs
 content-tab-security-broken-icon =
     .alt = Savienojums nav drošs
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Back command.
+content-tab-menu-back =
+    .aria-label = Atpakaļ
+    .tooltiptext = Doties uz iepriekšējo lapu ({ $shortcut })
+    .accesskey = A
 open-windows-warning-confirmation-title = Apstiprināt
 # Variables:
 #   $count - number of messages to open

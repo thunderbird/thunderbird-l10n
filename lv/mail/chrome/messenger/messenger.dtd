@@ -519,7 +519,7 @@
 <!ENTITY previousButton.tooltip "Pāriet uz iepriekšējo nelasīto vēstuli">
 <!ENTITY previousMsgButton.tooltip "Pāriet uz iepriekšējo vēstuli">
 <!ENTITY goForwardButton.tooltip "Doties vienu vēstuli uz priekšu">
-<!ENTITY goBackButton.tooltip "Doties vienu vēstuli atpakaļ">
+<!ENTITY goBackButton.tooltip "Doties uz iepriekšējo ziņojumu">
 <!ENTITY markButton.tooltip "Atzīmēt vēstules">
 <!ENTITY printButton.tooltip "Drukāt šo vēstuli">
 <!ENTITY stopButton.tooltip "Pārtraukt pašreizējo pārsūtīšanu">
@@ -845,5 +845,5 @@
 <!ENTITY writeNewMessageDock.label "Rakstīt jaunu vēstuli">
 <!ENTITY openAddressBookDock.label "Atvērt adrešu grāmatu">
 <!-- Content tab Navigation buttons -->
-<!ENTITY browseBackButton.tooltip "Atgriezties vienu lapu atpakaļ">
+<!ENTITY browseBackButton.tooltip "Doties uz iepriekšējo lapu">
 <!ENTITY browseForwardButton.tooltip "Doties vienu lapu uz priekšu">

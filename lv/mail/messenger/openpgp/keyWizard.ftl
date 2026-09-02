@@ -5,6 +5,9 @@
 #   $identity (String) - the email address of the currently selected identity
 key-wizard-dialog-window =
     .title = Pievienojiet personīgo OpenPGP atslēgu priekš { $identity }
+key-wizard-dialog =
+    .buttonlabelaccept = Turpināt
+    .buttonlabelextra1 = Doties atpakaļ
 key-wizard-warning = <b>Ja jums jau ir personiskā atslēga</b> šai epasta adresei, jums tā jāimportē. Pretējā gadījumā jums nebūs piekļuves šifrētu epastu arhīviem, kā arī nevarēsit lasīt ienākošos šifrētos epastus no cilvēkiem, kuri joprojām izmanto jūsu esošo atslēgu.
 key-wizard-learn-more = Uzzināt vairāk
 radio-create-key =
