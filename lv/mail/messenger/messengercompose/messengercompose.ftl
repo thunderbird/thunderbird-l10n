@@ -54,6 +54,12 @@ default-delete-cmd =
     .label = Dzēst
     .accesskey = D
 
+## Encryption
+
+menu-view-certificates =
+    .label = Apskatīt saņēmēju sertifikātus
+    .accesskey = A
+
 ## Notifications
 
 # Variables:
