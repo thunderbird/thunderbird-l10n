@@ -757,6 +757,9 @@ key-in-message-body = A key was found in the message body. Click 'Import Key' to
 sig-mismatch = Error - Signature mismatch
 invalid-email = Error - invalid email address(es)
 # Variables:
+#   $name (String) - File name of the attachment.
+attachment-pgp-key-import = The attachment ‘{ $name }’ appears to be an OpenPGP key file. Do you want to import the keys it contains?
+# Variables:
 # $name (String) - File name of the attachment.
 attachment-pgp-key =
     The attachment '{ $name }' you are opening appears to be an OpenPGP key file.
@@ -780,6 +783,8 @@ debug-log-title = OpenPGP Debug Log
 dlg-button-ok = &OK
 dlg-button-close = &Close
 dlg-button-cancel = &Cancel
+dlg-button-open = &Open…
+dlg-button-save = &Save
 dlg-no-prompt = Do not show me this dialogue again
 enig-prompt = OpenPGP Prompt
 enig-confirm = OpenPGP Confirmation
