@@ -258,6 +258,7 @@ account-hub-oauth-unsupported-title = Mae angen ffurfweddu ychwanegol
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
 account-hub-oauth-unsupported-description = Dyw { -brand-short-name } ddim yn gallu ffurfweddu OAuth2 yn awtomatig ar gyfer yr enw gwesteiwr hwn. Dewiswch Ffurfweddiad Uwch i greu'r cyfrif, yna cwblhau'r gosodiad o Gosodiadau Cyfrif. <a data-l10n-name="oauth-support-link">Cael help gyda gosod OAuth2.</a>
 account-hub-username-help-text = Eich cyfeiriad e-bost llawn arferol
+account-hub-port-help-text = Os caiff ei adael yn wag, bydd { -brand-short-name } yn ceisio darganfod y porth.
 account-hub-notification-show-more = Dangos rhagor
 account-hub-notification-show-less = Dangos llai
 account-hub-email-setup-header = Ychwanegwch eich cyfeiriad e-bost

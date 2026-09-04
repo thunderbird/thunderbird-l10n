@@ -754,6 +754,9 @@ key-in-message-body = Une clé a été détectée dans le corps du message. Cliq
 sig-mismatch = Erreur — la signature ne correspond pas
 invalid-email = Erreur — une ou plusieurs adresses e-mail ne sont pas valides
 # Variables:
+#   $name (String) - File name of the attachment.
+attachment-pgp-key-import = La pièce jointe « { $name } » semble être un fichier de clé OpenPGP. Voulez-vous importer les clés qu’il contient ?
+# Variables:
 # $name (String) - File name of the attachment.
 attachment-pgp-key =
     La pièce jointe « { $name } » que vous essayez d’ouvrir semble être un fichier de clé OpenPGP.
@@ -777,6 +780,8 @@ debug-log-title = Journal de débogage OpenPGP
 dlg-button-ok = &Ok
 dlg-button-close = &Fermer
 dlg-button-cancel = &Annuler
+dlg-button-open = &Ouvrir…
+dlg-button-save = &Enregistrer
 dlg-no-prompt = Ne plus afficher ce dialogue à l’avenir
 enig-prompt = Boîte de dialogue OpenPGP
 enig-confirm = Confirmation OpenPGP

@@ -757,6 +757,9 @@ key-in-message-body = Se encontró una clave en el cuerpo del mensaje. Haga clic
 sig-mismatch = Error: discrepancia en la firma
 invalid-email = Error: direcciones de correo electrónico inválidas
 # Variables:
+#   $name (String) - File name of the attachment.
+attachment-pgp-key-import = El adjunto '{ $name }' parece ser un archivo de clave OpenPGP. ¿Desea importar las claves que contiene?
+# Variables:
 # $name (String) - File name of the attachment.
 attachment-pgp-key =
     El adjunto '{ $name }' que estáa abriendo parece ser un archivo de claves OpenPGP.
@@ -780,6 +783,8 @@ debug-log-title = Registro de depuración de OpenPGP
 dlg-button-ok = &Aceptar
 dlg-button-close = &Cerrar
 dlg-button-cancel = &Cancelar
+dlg-button-open = &Abrir…
+dlg-button-save = &Guardar
 dlg-no-prompt = No mostrar este diálogo nuevamente
 enig-prompt = Aviso de OpenPGP
 enig-confirm = Confirmación de OpenPGP
