@@ -172,3 +172,14 @@ e2e-learn-more = Saznaj više
 ## Strings in gnupg-keylist.sys.mjs
 
 keyring-photo = Slika
+
+## Strings used in decryption.sys.mjs
+
+# Variables:
+#   $name (String) - File name of the attachment.
+attachment-pgp-key-import = Čini se da je privitak ‘{ $name }’ datoteka OpenPGP ključa. Želiš li uvesti ključeve koje sadrži?
+
+## Strings used in dialog.sys.mjs
+
+dlg-button-open = &Otvori …
+dlg-button-save = &Spremi

@@ -259,6 +259,7 @@ account-hub-protocol-imap = Sinkronizacija na svim uređajima
 account-hub-protocol-microsoft = Exchange ili Microsoft 365
 account-hub-protocol-pop3 = Preuzmi na uređaj
 account-hub-oauth-unsupported-title = Potrebna je dodatna konfiguracija
+account-hub-port-help-text = Ako se ostavi prazno, { -brand-short-name } će pokušati otkriti port.
 account-hub-notification-show-more = Prikaži više
 account-hub-notification-show-less = Prikaži manje
 account-hub-email-setup-header = Dodajte svoju adrese e-pošte
