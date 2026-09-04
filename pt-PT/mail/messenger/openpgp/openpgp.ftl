@@ -757,6 +757,9 @@ key-in-message-body = Foi encontrada uma chave no corpo da mensagem. Clique em '
 sig-mismatch = Erro - erro de correspondência de assinatura
 invalid-email = Erro - endereço(s) de e-mail inválido(s)
 # Variables:
+#   $name (String) - File name of the attachment.
+attachment-pgp-key-import = O anexo ‘{ $name }’ parece ser um ficheiro de chaves OpenPGP. Pretende importar as chaves que ele contém?
+# Variables:
 # $name (String) - File name of the attachment.
 attachment-pgp-key =
     O anexo '{ $name }' que está abrir parece ser um ficheiro de chave OpenPGP.
@@ -780,6 +783,8 @@ debug-log-title = Registo de depuração do OpenPGP
 dlg-button-ok = &OK
 dlg-button-close = &Fechar
 dlg-button-cancel = &Cancelar
+dlg-button-open = &Abrir…
+dlg-button-save = &Guardar
 dlg-no-prompt = Não voltar a mostrar esta janela
 enig-prompt = Questão OpenPGP
 enig-confirm = Confirmação OpenPGP

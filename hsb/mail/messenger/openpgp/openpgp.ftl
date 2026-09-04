@@ -771,6 +771,9 @@ key-in-message-body = Kluč je so w ćělesu powěsće namakał. Klikńće na �
 sig-mismatch = Zmylk - signatura njetrjechi
 invalid-email = Zmylk - njepłaćiwe e-mejlowe adresy
 # Variables:
+#   $name (String) - File name of the attachment.
+attachment-pgp-key-import = Zda so, zo přiwěšk ‘{ $name }’ je dataja kluča OpenPGP. Chceće kluče importować, kotrež wobsahuje?
+# Variables:
 # $name (String) - File name of the attachment.
 attachment-pgp-key =
     Zda so, zo přiwěšk ‚{ $name }‘, kotryž wočinjeće, je dataja OpenPGP-kluča.
@@ -794,6 +797,8 @@ debug-log-title = Zmylkowy protokol OpenPGP
 dlg-button-ok = W p&orjadku
 dlg-button-close = &Začinić
 dlg-button-cancel = &Přetorhnyć
+dlg-button-open = &Wočinić…
+dlg-button-save = &Składować
 dlg-no-prompt = Tutón dialog wjace njepokazać.
 enig-prompt = OpenPGP-namołwa
 enig-confirm = OpenPGP-wobkrućenje
