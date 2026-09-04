@@ -641,7 +641,7 @@ key-trust-group = (gruppo)
 
 ## Strings used in commonWorkflows.js
 
-import-key-file = Importa file chiave OpenPGP
+import-key-file = Importa file di chiavi OpenPGP
 import-rev-file = Importa file di revoca OpenPGP
 gnupg-file = File GnuPG
 import-keys-failed = Importazione delle chiavi non riuscita
@@ -757,7 +757,7 @@ sig-mismatch = Errore: mancata corrispondenza della firma
 invalid-email = Errore: indirizzo email non valido
 # Variables:
 #   $name (String) - File name of the attachment.
-attachment-pgp-key-import = L’allegato “{ $name }” sembra essere un file di chiave OpenPGP. Importare le chiavi in esso contenute?
+attachment-pgp-key-import = L’allegato “{ $name }” sembra essere un file di chiavi OpenPGP. Vuoi importare le chiavi che contiene?
 # Variables:
 # $name (String) - File name of the attachment.
 attachment-pgp-key =
