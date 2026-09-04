@@ -758,7 +758,7 @@ sig-mismatch = Error: discrepancia en la firma
 invalid-email = Error: direcciones de correo electrónico inválidas
 # Variables:
 #   $name (String) - File name of the attachment.
-attachment-pgp-key-import = El adjunto '{ $name }' parece ser un archivo de clave OpenPGP. ¿Desea importar las claves que contiene?
+attachment-pgp-key-import = El adjunto ‘{ $name }’ parece ser un archivo de clave OpenPGP. ¿Desea importar las claves que contiene?
 # Variables:
 # $name (String) - File name of the attachment.
 attachment-pgp-key =
