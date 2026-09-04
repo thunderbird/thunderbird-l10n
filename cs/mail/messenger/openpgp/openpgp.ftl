@@ -787,6 +787,9 @@ key-in-message-body = V těle zprávy byl nalezen klíč. Pro jeho naimportován
 sig-mismatch = Chyba: Podpis nesouhlasí
 invalid-email = Chyba: Neplatná e-mailová adresa
 # Variables:
+#   $name (String) - File name of the attachment.
+attachment-pgp-key-import = Příloha ‘{ $name }’ je pravděpodobně soubor s klíčem OpenPGP. Chcete importovat klíče, které obsahuje?
+# Variables:
 # $name (String) - File name of the attachment.
 attachment-pgp-key =
     Zdá se, že otevíraná příloha „{ $name }“ je soubor s klíčem OpenPGP.

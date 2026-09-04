@@ -272,6 +272,7 @@ account-hub-oauth-unsupported-title = Je vyžadována dodatečná konfigurace
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
 account-hub-oauth-unsupported-description = { -brand-short-name } nedokáže automaticky nakonfigurovat OAuth2 pro tohoto hostitele. Vyberte možnost Rozšířená konfigurace ve vytváření účtu, a potom dokončete nastavení v části Nastavení účtu. <a data-l10n-name="oauth-support-link">Získat pomoc s nastavením OAuth2.</a>
 account-hub-username-help-text = Často vaše úplná e-mailová adresa
+account-hub-port-help-text = Pokud ponecháte prázdné, { -brand-short-name } se pokusí nalézt port.
 account-hub-notification-show-more = Zobrazit více
 account-hub-notification-show-less = Zobrazit méně
 account-hub-email-setup-header = Přidat vaši e-mailovou adresu
