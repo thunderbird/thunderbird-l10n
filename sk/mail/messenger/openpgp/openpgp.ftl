@@ -765,6 +765,9 @@ key-in-message-body = V tele správy sa našiel kľúč. Kliknutím na tlačidlo
 sig-mismatch = Chyba - nesúlad podpisov
 invalid-email = Chyba - neplatná e‑mailová adresa (adresy)
 # Variables:
+#   $name (String) - File name of the attachment.
+attachment-pgp-key-import = Zdá sa, že príloha ‘{ $name }’ je súbor s kľúčmi OpenPGP. Chcete importovať kľúče, ktoré sa v ňom nachádzajú?
+# Variables:
 # $name (String) - File name of the attachment.
 attachment-pgp-key =
     Príloha '{ $name }', ktorú otvárate, sa javí ako súbor kľúča OpenPGP.
@@ -788,6 +791,8 @@ debug-log-title = Záznam ladenia OpenPGP
 dlg-button-ok = &OK
 dlg-button-close = &Zavrieť
 dlg-button-cancel = &Zrušiť
+dlg-button-open = &Otvoriť…
+dlg-button-save = &Uložiť
 dlg-no-prompt = Nabudúce toto okno nezobrazovať
 enig-prompt = Výzva OpenPGP
 enig-confirm = Potvrdenie OpenPGP
