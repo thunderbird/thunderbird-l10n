@@ -759,6 +759,9 @@ key-in-message-body = Im Nachrichteninhalt wurde ein Schlüssel erkannt. Klicken
 sig-mismatch = Fehler – digitale Signatur stimmt nicht überein
 invalid-email = Fehler - ungültige E-Mail-Adresse(n)
 # Variables:
+#   $name (String) - File name of the attachment.
+attachment-pgp-key-import = Der Anhang "{ $name }" scheint eine OpenPGP-Schlüsseldatei zu sein. Sollen die darin enthaltenen Schlüssel importiert werden?
+# Variables:
 # $name (String) - File name of the attachment.
 attachment-pgp-key =
     Bei dem zu öffnenden Anhang "{ $name }" scheint es sich um eine OpenPGP-Schlüsseldatei zu handeln.
@@ -782,6 +785,8 @@ debug-log-title = OpenPGP-Debug-Protokoll
 dlg-button-ok = &OK
 dlg-button-close = S&chließen
 dlg-button-cancel = A&bbrechen
+dlg-button-open = &Öffnen…
+dlg-button-save = &Speichern
 dlg-no-prompt = Dieses Dialogfenster nicht mehr anzeigen
 enig-prompt = OpenPGP-Eingabeaufforderung
 enig-confirm = OpenPGP-Bestätigung

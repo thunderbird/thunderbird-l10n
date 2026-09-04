@@ -258,6 +258,7 @@ account-hub-oauth-unsupported-title = Zusätzliche Konfiguration ist erforderlic
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
 account-hub-oauth-unsupported-description = { -brand-short-name } kann OAuth2 für diesen Hostnamen nicht automatisch konfigurieren. Wählen Sie Erweiterte Konfiguration, um das Konto zu erstellen, schließen Sie dann die Einrichtung in den Konto-Einstellungen ab. <a data-l10n-name="oauth-support-link">Holen Sie sich Hilfe bei der OAuth2-Einrichtung.</a>
 account-hub-username-help-text = Häufig Ihre vollständige E-Mail-Adresse
+account-hub-port-help-text = Wenn Sie das Feld leer lassen, versucht { -brand-short-name }, den Port automatisch zu ermitteln.
 account-hub-notification-show-more = Mehr anzeigen
 account-hub-notification-show-less = Weniger anzeigen
 account-hub-email-setup-header = Fügen Sie Ihre E-Mail-Adresse hinzu

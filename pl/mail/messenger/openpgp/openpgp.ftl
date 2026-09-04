@@ -764,6 +764,9 @@ key-in-message-body = W treści wiadomości znaleziono klucz. Kliknij „Import
 sig-mismatch = Błąd: niezgodność podpisu
 invalid-email = Błąd: nieprawidłowe adresy e-mail
 # Variables:
+#   $name (String) - File name of the attachment.
+attachment-pgp-key-import = Załącznik „{ $name }” wygląda na plik kluczy OpenPGP. Czy chcesz zaimportować zawarte w nim klucze?
+# Variables:
 # $name (String) - File name of the attachment.
 attachment-pgp-key =
     Otwierany załącznik „{ $name }” wydaje się być plikiem klucza OpenPGP.
@@ -787,6 +790,8 @@ debug-log-title = Dziennik debugowania OpenPGP
 dlg-button-ok = &OK
 dlg-button-close = Za&mknij
 dlg-button-cancel = &Anuluj
+dlg-button-open = &Otwórz…
+dlg-button-save = &Zapisz
 dlg-no-prompt = Nie wyświetlaj więcej tego okna dialogowego
 enig-prompt = Monit OpenPGP
 enig-confirm = Potwierdzenie OpenPGP
