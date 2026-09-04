@@ -544,9 +544,6 @@ no-update-found = Sul on juba võrgust leitud võtmed olemas.
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Viga - võtme eksportimise käsk ebaõnnestus
-
-## Strings used in keyRing.sys.mjs
-
 fail-cancel = Viga - võtme vastuvõtmine katkestati kasutaja poolt
 not-first-block = Viga - esimene OpenPGP plokk pole avaliku võtme plokk
 import-key-confirm = Kas importida kirjas sisalduvad avalikud võtmed?
@@ -556,9 +553,6 @@ fail-key-import = Viga - võtme importimine ebaõnnestus
 file-write-failed = Faili { $output } kirjutamine ebaõnnestus
 no-pgp-block = Viga - kehtivat soomustatud OpenPGP andmete plokki ei leitud
 confirm-permissive-import = Importimine ebaõnnestus. Imporditav võti võib olla rikutud või kasutab tundmatuid atribuute. Kas soovid proovida importida korrektsed osad? See võib kaasa tuua mittetäielike ja kasutuskõlbmatute võtmete importimise.
-
-## Strings used in keyRing.sys.mjs
-
 help-button = Abi
 
 ## Strings used in trust.sys.mjs

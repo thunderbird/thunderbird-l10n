@@ -613,9 +613,6 @@ no-update-found = Du har redan nycklarna som upptäcktes online.
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Fel - nyckelutvinning misslyckades
-
-## Strings used in keyRing.sys.mjs
-
 fail-cancel = Fel - nyckelmottagning avbruten av användaren
 not-first-block = Fel - första OpenPGP-blocket inte blocket för en publik nyckel
 import-key-confirm = Importera publika nycklar som är inbäddade i meddelandet?
@@ -625,9 +622,6 @@ fail-key-import = Fel - nyckelimport misslyckades
 file-write-failed = Det gick inte att skriva till filen { $output }
 no-pgp-block = Fel - inget giltigt, armerat OpenPGP-datablock hittades
 confirm-permissive-import = Importen misslyckades. Nyckeln du försöker importera kan vara skadad eller använda okända attribut. Vill du försöka importera de korrekta delarna? Detta kan resultera i import av ofullständiga och oanvändbara nycklar.
-
-## Strings used in keyRing.sys.mjs
-
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = Vissa av de importerade hemliga nycklarna annonserar en funktion som inte stöds. Om du använder en sådan nyckel som din personliga nyckel kan korrespondenter skicka dig e-postmeddelanden eller publika nycklar i ett inkompatibelt format. Detta påverkar importerade hemliga nycklar med följande fingeravtryck: { $fingerprints }.

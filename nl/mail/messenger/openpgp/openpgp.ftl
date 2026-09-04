@@ -613,9 +613,6 @@ no-update-found = U hebt de sleutels die online zijn gevonden al.
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Fout – sleutelextractieopdracht mislukt
-
-## Strings used in keyRing.sys.mjs
-
 fail-cancel = Fout – sleutelontvangst geannuleerd door gebruiker
 not-first-block = Fout – eerste OpenPGP-blok is geen publiek sleutelblok
 import-key-confirm = In bericht ingesloten publieke sleutel(s) importeren?
@@ -625,9 +622,6 @@ fail-key-import = Fout – importeren van sleutel mislukt
 file-write-failed = Kan niet naar bestand { $output } schrijven
 no-pgp-block = Fout – geen geldig armored OpenPGP-gegevensblok gevonden
 confirm-permissive-import = Importeren mislukt. De sleutel die u probeert te importeren, is mogelijk beschadigd of gebruikt onbekende attributen. Wilt u proberen de juiste delen te importeren? Dit kan ertoe leiden dat onvolledige en onbruikbare sleutels worden geïmporteerd.
-
-## Strings used in keyRing.sys.mjs
-
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = Sommige geïmporteerde geheime sleutels geven een niet-ondersteunde functie aan. Als u een dergelijke sleutel als uw persoonlijke sleutel gebruikt, kunnen contacten u e-mailberichten of publieke sleutels in een niet-compatibele indeling sturen. Dit betreft geïmporteerde geheime sleutels met de volgende fingerprints: { $fingerprints }.

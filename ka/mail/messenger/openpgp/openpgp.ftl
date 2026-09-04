@@ -613,9 +613,6 @@ no-update-found = თქვენ უკვე გაქვთ გასაღ�
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = შეცდომა – გასაღების ამოღების ბრძანება ვერ შესრულდა
-
-## Strings used in keyRing.sys.mjs
-
 fail-cancel = შეცდომა – გასაღების მიღება გააუქმა მომხმარებელმა
 not-first-block = შეცდომა – პირველი OpenPGP-ჯგუფი არაა საჯარო გასაღებების ჯგუფი
 import-key-confirm = გსურთ გადმოტანა წერილში ჩართული გასაღებ(ებ)ის?
@@ -625,9 +622,6 @@ fail-key-import = შეცდომა – გასაღების შე�
 file-write-failed = ვერ მოხერხდა ჩაწერა ფაილში { $output }
 no-pgp-block = შეცდომა – ვერ მოიძებნა მართებულად აღჭურვილი OpenPGP-მონაცემების ჯგუფი
 confirm-permissive-import = გადმოტანა ვერ მოხერხდა. გასაღები, რომლის შეტანასაც ცდილობთ, სავარაუდოდ დაზიანებულია ან იყენებს უცნობ მახასიათებლებს. გსურთ, სცადოთ მართებული ნაწილის შეტანა? შედეგად, შესაძლოა გადმოვიდეს არასრული ან გამოუსადეგარი გასაღებები.
-
-## Strings used in keyRing.sys.mjs
-
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = შემოტანილი საიდუმლო გასაღებიდან ზოგიერთი მიანიშნებს მხარდაუჭერელი შესაძლებლობის ქონაზე. თუ ამგვარ გასაღებს იყენებთ პირად გასაღებად, შეიძლება ელფოსტაზე წერილები ან საჯარო გასაღებები გამოგიგზავნონ შეუთავსებელი სახით. ეს ეხება გადმოტანილ საიდუმლო გასაღებებს მოცემული ანაბეჭდებით: { $fingerprints }.

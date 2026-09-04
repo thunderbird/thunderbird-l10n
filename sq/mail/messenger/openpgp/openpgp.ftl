@@ -614,9 +614,6 @@ no-update-found = Keni tashmë kyçet që u zbuluan në internet.
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Gabim - urdhri për përftim kyçi dështoi
-
-## Strings used in keyRing.sys.mjs
-
 fail-cancel = Gabim - Marrja e kyçit u anulua nga përdoruesi
 not-first-block = Gabim - Blloku i parë OpenPGP s’është bllok kyçi publik
 import-key-confirm = Të importohet kyç(e) publik të trupëzuar në mesazh?
@@ -626,9 +623,6 @@ fail-key-import = Gabim - Importimi i kyçit dështoi
 file-write-failed = S’u arrit të shkruhet te kartelë { $output }
 no-pgp-block = Gabim - S’u gjet bllok i vlefshëm të dhënash OpenPGP të koracuara
 confirm-permissive-import = Importi dështoi. Kyçi që po provoni të importoni mund të jetë i komprometuar ose përdor atribute të panjohur. Do të donit të provohej të importoheshin pjesët që janë të sakta? Kjo mund të sjellë importim kyçesh jo të plotë dhe të papërdorshëm.
-
-## Strings used in keyRing.sys.mjs
-
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = Disa nga kyçet e fshehtë të importuar kanë një veçori që s’mbulohet. Nëse përdorni një ky të tillë si kyçin tuaj personal, korrespondentët mund t’ju dërgojnë email-e, ose kyçe publikë në një format që s’përkon. Kjo prek kyçet e fshehtë të importuar me shenja vijuese gishtash: { $fingerprints }.

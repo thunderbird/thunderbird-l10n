@@ -524,9 +524,6 @@ need-online = Pasirinkta funkcija negalima neprisijungus prie tinklo. Prisijunki
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Klaida - nepavyko išgauti rakto
-
-## Strings used in keyRing.sys.mjs
-
 fail-cancel = Klaida - rakto gavimą atšaukė vartotojas
 not-first-block = Klaida - pirmasis „OpenPGP“ blokas nėra viešojo rakto blokas
 import-key-confirm = Ar importuoti į pranešimą įdėtą(-us) viešąjį raktą(-us)?
@@ -536,9 +533,6 @@ fail-key-import = Klaida - nepavyko importuoti rakto
 file-write-failed = Nepavyko įrašyti į failą { $output }
 no-pgp-block = Klaida - nerastas galiojantis apsaugotas „OpenPGP“ duomenų blokas
 confirm-permissive-import = Nepavyko importuoti. Raktas, kurį bandote importuoti, gali būti sugadintas arba naudoja nežinomus atributus. Galima pabandyti importuoti teisingas dalis, bet dėl to gali būti importuojami neišsamūs ar netinkami naudojimui raktai.
-
-## Strings used in keyRing.sys.mjs
-
 help-button = Žinynas
 
 ## Strings used in trust.sys.mjs

@@ -615,9 +615,6 @@ no-update-found = Die online gefundenen Schlüssel besitzen Sie bereits.
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Fehler - Schlüsselextraktion fehlgeschlagen
-
-## Strings used in keyRing.sys.mjs
-
 fail-cancel = Fehler - Schlüsselempfang durch Benutzer abgebrochen
 not-first-block = Fehler - Erster OpenPGP-Block ist kein öffentlicher Schlüsselblock
 import-key-confirm = In der Nachricht enthaltene(n) öffentliche(n) Schlüssel importieren?
@@ -627,9 +624,6 @@ fail-key-import = Fehler - Schlüssel konnte nicht importiert werden
 file-write-failed = Fehler beim Schreiben der Datei { $output }
 no-pgp-block = Fehler - Keinen gültigen armored-OpenPGP-Datenblock gefunden
 confirm-permissive-import = Fehler beim Import. Der zu importierende Schlüssel könnte beschädigt sein oder unbekannte Attribute verwenden. Sollen die korrekten Teile des Schlüssels importiert werden? Dies kann zum Import unvollständiger oder unbrauchbarer Schlüssel führen.
-
-## Strings used in keyRing.sys.mjs
-
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = Einige der importierten Geheimschlüssel machen eine nicht unterstützte Funktion bekannt. Wenn Sie einen solchen Schlüssel als Ihren persönlichen Schlüssel verwenden, können Ihnen Korrespondenten E-Mails oder öffentliche Schlüssel in einem inkompatiblen Format zusenden. Dies betrifft importierte Geheimschlüssel mit den folgenden Fingerprints: { $fingerprints }.

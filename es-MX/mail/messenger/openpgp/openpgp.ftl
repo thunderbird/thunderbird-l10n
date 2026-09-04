@@ -569,9 +569,6 @@ no-update-found = Ya tienes las llaves que se descubrieron en línea.
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Error - el comando de extracción de clave falló
-
-## Strings used in keyRing.sys.mjs
-
 fail-cancel = Error - La clave ha sido cancelada por el usuario
 not-first-block = Error - El primer bloque OpenPGP no es un bloque de clave pública
 import-key-confirm = ¿Importar clave(s) pública(s) incrustadas en el mensaje?
@@ -581,9 +578,6 @@ fail-key-import = Error - importación de clave fallida
 file-write-failed = Error al escribir en el archivo { $output }
 no-pgp-block = Error - No se encontró un bloque de datos OpenPGP blindado válido
 confirm-permissive-import = La importación falló. La clave que estás tratando de importar puede estar dañada o usar atributos desconocidos. ¿Te gustaría intentar importar las partes que son correctas? Esto podría dar lugar a la importación de claves incompletas e inutilizables.
-
-## Strings used in keyRing.sys.mjs
-
 help-button = Ayuda
 
 ## Strings used in trust.sys.mjs

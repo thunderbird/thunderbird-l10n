@@ -613,9 +613,6 @@ no-update-found = Ya tiene las claves que fueron descubiertas en línea.
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Error - el comando de extracción de clave falló
-
-## Strings used in keyRing.sys.mjs
-
 fail-cancel = Error - La recepción de clave ha sido cancelada por el usuario
 not-first-block = Error - El primer bloque OpenPGP no es un bloque de clave pública
 import-key-confirm = ¿Importar clave(s) pública(s) incrustadas en el mensaje?
@@ -625,9 +622,6 @@ fail-key-import = Error - no se pudo importar la clave
 file-write-failed = Error al escribir en el archivo { $output }
 no-pgp-block = Error - no se encontró un bloque de datos OpenPGP blindado válido
 confirm-permissive-import = La importación falló. La clave que está intentando importar puede estar dañada o utilizar atributos desconocidos. ¿Le gustaría intentar importar las partes correctas? Esto puede resultar en la importación de claves incompletas e inutilizables.
-
-## Strings used in keyRing.sys.mjs
-
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = Algunas de las claves secretas importadas indican una funcionalidad no compatible. Si utiliza una clave de este tipo como su clave personal, es posible que sus corresponsales le envíen correos electrónicos o claves públicas en un formato incompatible. Esto afecta a las claves secretas importadas con las siguientes huellas digitales: { $fingerprints }.

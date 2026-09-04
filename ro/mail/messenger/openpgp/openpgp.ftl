@@ -614,9 +614,6 @@ no-update-found = Ai deja cheile descoperite online.
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Eroare - Comanda de extragere a cheii a eșuat
-
-## Strings used in keyRing.sys.mjs
-
 fail-cancel = Eroare - Recepția cheii a fost anulată de utilizator
 not-first-block = Eroare - Primul bloc OpenPGP nu este un bloc de chei publice
 import-key-confirm = Imporți cheia(cheile) înglobată(e) în mesaj?
@@ -626,9 +623,6 @@ fail-key-import = Eroare - Importul cheii a eșuat
 file-write-failed = Nu s-a reușit scrierea în fișierul { $output }
 no-pgp-block = Eroare - Nu s-a găsit niciun bloc valid de date blindate OpenPGP
 confirm-permissive-import = Importul a eșuat. Cheia pe care încerci să o imporți poate fi coruptă sau folosește atribute necunoscute. Vrei să încerci să imporți părțile corecte? Poate conduce la importarea de chei incomplete și neutilizabile.
-
-## Strings used in keyRing.sys.mjs
-
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = Unele dintre cheile secrete importate promovează o funcționalitate neacceptată. Dacă folosești o astfel de cheie drept cheie personală, corespondenții îți pot trimite mesaje pe e-mail sau chei publice într-un format incompatibil. Acest lucru afectează cheile secrete importate cu următoarele amprente digitale: { $fingerprints }.

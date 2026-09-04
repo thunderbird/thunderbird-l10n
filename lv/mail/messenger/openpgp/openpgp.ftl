@@ -480,9 +480,6 @@ need-online = Jūsu izvēlētā darbība nav pieejama nesaistes režīmā. Lūdz
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Kļūda - atslēgas izvilkšanas komanda neizdevās
-
-## Strings used in keyRing.sys.mjs
-
 fail-cancel = Kļūda - lietotājs atcēla atslēgas saņemšanu
 not-first-block = Kļūda - pirmais OpenPGP bloks nav publiskās atslēgas bloks
 import-key-confirm = Vai importēt vēstulē iekļauto(-ās) publisko(-ās) atslēgu(-as)?

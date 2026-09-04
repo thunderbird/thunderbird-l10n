@@ -143,66 +143,66 @@ openpgp-key-send-key =
 # Variables:
 # $count (Number) - Number of keys ids to copy.
 openpgp-key-man-copy-key-ids =
-    .accesskey = К
     .label =
         { $count ->
             [one] Копирај ИД кључа у оставу
             [few] Копирај ИД-ове кључева у оставу
            *[other] Копирај ИД-ове кључева у оставу
         }
+    .accesskey = К
 # Variables:
 # $count (Number) - Number of fingerprints to copy.
 openpgp-key-man-copy-fprs =
-    .accesskey = о
     .label =
         { $count ->
             [one] Копирај отисак у оставу
             [few] Копирај отиске у оставу
            *[other] Копирај отиске у оставу
         }
+    .accesskey = о
 # Variables:
 # $count (Number) - Number of public keys to copy.
 openpgp-key-man-copy-to-clipboard =
-    .accesskey = К
     .label =
         { $count ->
             [one] Копирај јавни кључ у оставу
             [few] Копирај јавне кључеве у оставу
            *[other] Копирај јавне кључеве у оставу
         }
+    .accesskey = К
 openpgp-key-man-ctx-copy =
     .label = Копирај
     .accesskey = и
 # Variables:
 # $count (Number) - Number of fingerprints.
 openpgp-key-man-ctx-copy-fprs =
-    .accesskey = О
     .label =
         { $count ->
             [one] Отисак
             [few] Отисци
            *[other] Отисци
         }
+    .accesskey = О
 # Variables:
 # $count (Number) - Number of key ids.
 openpgp-key-man-ctx-copy-key-ids =
-    .accesskey = Д
     .label =
         { $count ->
             [one] ИД кључа
             [few] ИД-ови кључева
            *[other] ИД-ови кључева
         }
+    .accesskey = Д
 # Variables:
 # $count (Number) - Number of public keys.
 openpgp-key-man-ctx-copy-public-keys =
-    .accesskey = Ј
     .label =
         { $count ->
             [one] Јавни кључ
             [few] Јавни кључеви
            *[other] Јавни кључеви
         }
+    .accesskey = Ј
 openpgp-key-man-close =
     .label = Затвори
 openpgp-key-man-reload =
@@ -620,9 +620,6 @@ no-update-found = Већ имате кључеве који су откриве�
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Грешка — наредба за извлачење кључа није успела
-
-## Strings used in keyRing.sys.mjs
-
 fail-cancel = Грешка — корисник је отказао пријем кључа
 not-first-block = Грешка — први OpenPGP блок није блок јавног кључа
 import-key-confirm = Желите ли да увезете јавне кључеве уграђене у поруку?
@@ -632,9 +629,6 @@ fail-key-import = Грешка — увоз кључа није успео
 file-write-failed = Неуспех при упису у датотеку { $output }
 no-pgp-block = Грешка — није пронађен важећи оклопљени OpenPGP блок података
 confirm-permissive-import = Увоз није успео. Кључ који покушавате да увезете је можда оштећен или користи непознате атрибуте. Желите ли да покушате да увезете делове који су исправни? Ово може довести до увоза непотпуних и неупотребљивих кључева.
-
-## Strings used in keyRing.sys.mjs
-
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = Неки од увезених тајних кључева оглашавају неподржану функцију. Ако користите такав кључ као свој лични кључ, дописници вам могу слати е-поруке или јавне кључеве у некомпатибилном формату. Ово утиче на увезене тајне кључеве са следећим отисцима: { $fingerprints }.

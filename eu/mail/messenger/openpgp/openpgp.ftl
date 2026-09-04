@@ -608,9 +608,6 @@ no-update-found = Badaukazu jada sarean aurkitu diren gakoak.
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Errorea - gakoa ateratzeko komandoak huts egin du
-
-## Strings used in keyRing.sys.mjs
-
 fail-cancel = Errorea - gako harrera bertan behera utzi du erabiltzaileak
 not-first-block = Errorea - Lehen OpenPGP blokea ez da gako publiko blokea
 import-key-confirm = Inportatu mezuan kapsulatutako gako publikoa(k)?
@@ -620,9 +617,6 @@ fail-key-import = Errorea - Gako inportatzeak huts egin du
 file-write-failed = Fitxategian idazteak huts egin du { $output }
 no-pgp-block = Errorea - Gaizki egituratutako OpenPGP datu blokea aurkitu da
 confirm-permissive-import = Inportazioak huts egin du. Inportatzea saiatzen ari zaren gakoa hondatua dagoela dirudi eta atributu ezezagunak darabil. Zuzenak diren zatiak inportatzen saiatzea nahi duzu? Honen emaitza gako ez osoa eta erabiltezina inportatzea izan daiteke.
-
-## Strings used in keyRing.sys.mjs
-
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = Inportatutako gako sekretu batzuek onartzen ez duten funtzio bat iragartzen dute. Gako hori zure gako pertsonal gisa erabiltzen baduzu, mezu-idazleek mezu elektronikoak edo gako publikoak bidal diezazkizukete bateraezina den formatu batean. Honek hatz-marka hauek dituzten inportatutako gako sekretuei eragiten die:{ $fingerprints }.

@@ -641,9 +641,6 @@ no-update-found = Mae gennych eisoes yr allweddi a ddarganfuwyd ar-lein.
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Gwall - methodd y gorchymyn echdynnu allwedd
-
-## Strings used in keyRing.sys.mjs
-
 fail-cancel = Gwall - Allwedd yn cael ei ddiddymu gan y defnyddiwr
 not-first-block = Gwall - Y bloc OpenPGP cyntaf nid bloc allwedd gyhoeddus
 import-key-confirm = Mewnforio allwedd(i) cyhoeddus wedi'u mewnblannu yn y neges?
@@ -653,9 +650,6 @@ fail-key-import = Gwall - methodd mewnforio allweddi
 file-write-failed = Methwyd ysgrifennu at ffeil { $output }
 no-pgp-block = Gwall - Heb ddarganfod bloc data arfogaeth dilys OpenPGP
 confirm-permissive-import = Methodd y mewnforio. Efallai bod yr allwedd rydych chi'n ceisio ei fewnforio yn llygredig neu'n defnyddio priodoleddau anhysbys. Hoffech chi geisio mewnforio'r rhannau sy'n gywir? Gall hyn arwain at fewnforio allweddi anghyflawn ac nad oes modd eu defnyddio.
-
-## Strings used in keyRing.sys.mjs
-
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = Mae rhai o'r allweddi cyfrinachol a fewnforiwyd yn hysbysebu nodwedd nad yw'n cael ei chynnal. Os ydych chi'n defnyddio allwedd o'r fath fel eich allwedd bersonol, gall gohebwyr anfon e-byst neu allweddi cyhoeddus atoch mewn fformat anghydnaws. Mae hyn yn effeithio ar allweddi cyfrinachol a fewnforiwyd gyda'r bysbrintiau canlynol: { $fingerprints }.

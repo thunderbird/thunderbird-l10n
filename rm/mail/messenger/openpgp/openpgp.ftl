@@ -604,9 +604,6 @@ no-update-found = Ti has gia las clavs ch'èn vegnidas chattadas online.
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Errur – il cumond d'extracziun da la clav n'è betg reussì
-
-## Strings used in keyRing.sys.mjs
-
 fail-cancel = Errur – recepziun da clav annullada da l'utilisader
 not-first-block = Errur – l'emprim bloc OpenPGP n'è betg in bloc da la clav publica
 import-key-confirm = Importar la u las clavs publicas inclusas en il messadi?
@@ -616,9 +613,6 @@ fail-key-import = Errur – l'import da la clav n'è betg reussì
 file-write-failed = Betg reussì da scriver en la datoteca { $output }
 no-pgp-block = Errur – Chattà nagin bloc da datas OpenPGP armored valid
 confirm-permissive-import = L'import n'è betg reussi. La clav che ti emprovas dad importar è eventualmain donnegiada u ch'ella utilisescha attributs nunenconuschents. Vuls ti empruvar dad importar las parts correctas? Quai po avair per consequenza che las clavs importadas èn nuncumplettas e betg utilisablas.
-
-## Strings used in keyRing.sys.mjs
-
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = Intginas da las clavs secretas importadas propageschan ina funcziun betg sustegnida. Sche ti utiliseschas ina tala clav sco tia clav persunala, ta tramettan correspundents eventualmain e-mails u clavs publicas en in format incumpatibel. Quai pertutga clavs secretas importadas cun las suandantas improntas: { $fingerprints }.

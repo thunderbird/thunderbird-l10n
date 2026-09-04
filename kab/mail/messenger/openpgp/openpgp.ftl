@@ -470,9 +470,6 @@ key-error-key-spec-not-found = Tansa n yimayl ‘{ $keySpec }’ ur temṣada ul
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Tuccḍa - tiludna n tussfa n tsarut ur teddi ara
-
-## Strings used in keyRing.sys.mjs
-
 fail-cancel = Tuccḍa - armas n tsarut tettwasefsex sɣur aseqdac
 not-first-block = Tuccḍa - Iḥder amezwaru OpenPGP mačči d iḥder n tsarut tazayazt
 fail-key-import = Tuccḍa - aktar n tsarut yecceḍ

@@ -613,9 +613,6 @@ no-update-found = Þú ert nú þegar með lyklana sem fundust á netinu.
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Villa - Skipun um útdrátt lykils mistókst
-
-## Strings used in keyRing.sys.mjs
-
 fail-cancel = Villa - Notandi hætti við móttöku lykils
 not-first-block = Villa - Fyrsta OpenPGP-blokkin er ekki dreifilyklablokk
 import-key-confirm = Flytja inn dreifilykla sem fylgja með í skilaboðum?
@@ -625,9 +622,6 @@ fail-key-import = Villa - innflutningur lykla mistókst
 file-write-failed = Mistókst að skrifa í skrána { $output }
 no-pgp-block = Villa - Engin gild varin OpenPGP-gagnablokk fannst
 confirm-permissive-import = Innflutningur mistókst. Lykillinn sem þú ert að reyna að flytja inn gæti verið skemmdur eða notað óþekkt eigindi. Viltu reyna að flytja inn þá hluta sem eru réttir? Þetta gæti leitt til innflutnings á ófullgerðum og ónothæfum lyklum.
-
-## Strings used in keyRing.sys.mjs
-
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = Sumir af innfluttu leynilyklunum auglýsa óstudda eiginleika. Ef þú notar slíkan lykil sem þinn persónulega lykil, gætu bréfritarar sent þér tölvupóst eða opinbera lykla á ósamrýmanlegu sniði. Þetta hefur áhrif á innflutta leynilykla með eftirfarandi fingraförum: { $fingerprints }.

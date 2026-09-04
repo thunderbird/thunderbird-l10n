@@ -627,9 +627,6 @@ no-update-found = Maśo južo kluce, kótarež su se namakali online.
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Zmólka - pśikaz klucoweje ekstrakcije njejo se raźił
-
-## Strings used in keyRing.sys.mjs
-
 fail-cancel = Zmólka - dostaśe kluca jo se pśetergnuło wot wužywarja
 not-first-block = Zmólka - prědny OpenPGP-blok njejo blok zjawnego kluca
 import-key-confirm = Zjawne kluce importěrowaś, kótarež su w powěsći zasajźone?
@@ -639,9 +636,6 @@ fail-key-import = Zmólka – importěrowanje kluca njejo se raźiło
 file-write-failed = Njejo móžno do dataje { $output } pisaś
 no-pgp-block = Zmólka - žeden płaśiwy blok šćitanych OpenPGP-datow namakany
 confirm-permissive-import = Import njejo se raźił. Kluc, kótaryž wopytujośo importěrowaś, mógał wobškóźony byś abo njeznate atributy wužywaś. Cośo wopytowaś, źěle importěrowaś, kótarež su korektne? To mógło k tomu wjasć, až import jo njedopołny a kluce su njewužywajobne.
-
-## Strings used in keyRing.sys.mjs
-
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = Někotare importěrowane pótajmne kluce njepódprětu funkciju póbituju. Jolic taki kluc ako swój wósobinski kluc wužywaśo, mógu korespondenty wam mejlki abo zjawne kluce w inkompatibelnych formatach słaś. To importěrowane pótajmne kluce ze slědujucymi palcowymi wótśišćami nastupa: { $fingerprints }.

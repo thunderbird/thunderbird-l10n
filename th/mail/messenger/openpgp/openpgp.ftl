@@ -596,9 +596,6 @@ no-update-found = คุณมีคีย์ที่ถูกค้นพบ�
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = ข้อผิดพลาด - คำสั่งการแยกคีย์ล้มเหลว
-
-## Strings used in keyRing.sys.mjs
-
 fail-cancel = ข้อผิดพลาด - การรับคีย์ถูกยกเลิกโดยผู้ใช้
 not-first-block = ข้อผิดพลาด - บล็อก OpenPGP แรกไม่ใช่บล็อกคีย์สาธารณะ
 import-key-confirm = ต้องการนำเข้าคีย์สาธารณะที่ฝังอยู่ในข้อความหรือไม่
@@ -608,9 +605,6 @@ fail-key-import = ข้อผิดพลาด - การนำเข้า�
 file-write-failed = ไม่สามารถเขียนไปยังไฟล์ { $output }
 no-pgp-block = ข้อผิดพลาด - ไม่พบบล็อกข้อมูล OpenPGP แบบ armored ที่ถูกต้อง
 confirm-permissive-import = การนำเข้าล้มเหลว คีย์ที่คุณพยายามนำเข้าอาจเสียหายหรือใช้แอตทริบิวต์ที่ไม่รู้จัก คุณต้องการพยายามนำเข้าส่วนที่ถูกต้องหรือไม่ ซึ่งอาจส่งผลให้มีการนำเข้าคีย์ที่ไม่สมบูรณ์และไม่สามารถใช้ได้
-
-## Strings used in keyRing.sys.mjs
-
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = คีย์ลับที่นำเข้าบางส่วนจะโฆษณาคุณลักษณะที่ไม่รองรับ ถ้าคุณใช้คีย์ดังกล่าวเป็นคีย์ส่วนตัวของคุณ ผู้ติดต่ออาจส่งอีเมลหรือคีย์สาธารณะถึงคุณในรูปแบบที่เข้ากันไม่ได้ ซึ่งจะกระทบกับคีย์ลับที่มีลายนิ้วมือต่อไปนี้: { $fingerprints }

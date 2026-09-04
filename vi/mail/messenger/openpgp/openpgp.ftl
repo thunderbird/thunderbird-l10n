@@ -577,9 +577,6 @@ fail-key-import = Lỗi - nhập khóa không thành công
 # $output (String) - File that writing was attempted to.
 file-write-failed = Không thể ghi vào tập tin { $output }
 confirm-permissive-import = Nhập không thành công. Khóa bạn đang cố gắng nhập có thể bị hỏng hoặc sử dụng các thuộc tính không xác định. Bạn có muốn cố gắng nhập các bộ phận chính xác không? Điều này có thể dẫn đến việc nhập các khóa không đầy đủ và không sử dụng được.
-
-## Strings used in keyRing.sys.mjs
-
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = Một số khóa bí mật đã nhập có một vài tính năng không được hỗ trợ. Nếu bạn sử dụng khóa đó làm khóa cá nhân của mình, những người khác có thể gửi cho bạn email hoặc khóa công khai ở định dạng không tương thích. Điều này ảnh hưởng đến các khóa bí mật đã nhập có dấu vân tay sau: { $fingerprints }.

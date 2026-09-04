@@ -603,9 +603,6 @@ no-update-found = Anda sudah memiliki kunci yang ditemukan secara daring.
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Kesalahan - perintah ekstraksi kunci gagal
-
-## Strings used in keyRing.sys.mjs
-
 fail-cancel = Kesalahan - Penerimaan kunci dibatalkan oleh pengguna
 not-first-block = Kesalahan - Blok OpenPGP pertama bukan blok kunci publik
 import-key-confirm = Impor kunci publik yang disematkan dalam pesan?
@@ -615,9 +612,6 @@ fail-key-import = Kesalahan - impor kunci gagal
 file-write-failed = Gagal menulis ke berkas  { $output }
 no-pgp-block = Kesalahan - Tidak ditemukan blok data OpenPGP terbungkus yang valid
 confirm-permissive-import = Impor gagal. Kunci yang Anda coba impor mungkin rusak atau menggunakan atribut yang tidak diketahui. Apakah Anda ingin mencoba mengimpor bagian yang benar? Ini mungkin mengakibatkan impor kunci yang tidak lengkap dan tidak dapat digunakan.
-
-## Strings used in keyRing.sys.mjs
-
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = Beberapa kunci rahasia yang diimpor mengiklankan fitur yang tidak didukung. Jika Anda menggunakan kunci seperti kunci pribadi Anda, koresponden dapat mengirimi Anda surel atau kunci publik dalam format yang tidak kompatibel. Ini memengaruhi kunci rahasia yang diimpor dengan sidik jari berikut: { $fingerprints }.

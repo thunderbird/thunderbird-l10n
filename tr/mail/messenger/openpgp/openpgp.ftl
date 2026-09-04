@@ -590,9 +590,6 @@ no-update-found = Çevrimiçi keşfedilmiş anahtarlara zaten sahipsiniz.
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Hata - Anahtar çıkarma komutu başarısız oldu
-
-## Strings used in keyRing.sys.mjs
-
 fail-cancel = Hata - Anahtar alımı kullanıcı tarafından iptal edildi
 not-first-block = Hata - İlk OpenPGP bloku ortak anahtar bloku değil
 import-key-confirm = İletiye gömülü ortak anahtar(lar) içe aktarılsın mı?
@@ -602,9 +599,6 @@ fail-key-import = Hata - anahtar içe aktarma başarısız oldu
 file-write-failed = { $output } dosyasına yazılamadı
 no-pgp-block = Hata - Geçerli bir zırhlı OpenPGP veri bloku bulunamadı
 confirm-permissive-import = İçe aktarma başarısız oldu. İçe aktarmaya çalıştığınız anahtar bozuk veya bilinmeyen öznitelikler kullanıyor olabilir. Düzgün görünen kısımları içe aktarmayı denemek ister misiniz? Bu, eksik ve kullanılamaz anahtarların içe aktarılmasına neden olabilir.
-
-## Strings used in keyRing.sys.mjs
-
 help-button = Yardım
 
 ## Strings used in trust.sys.mjs

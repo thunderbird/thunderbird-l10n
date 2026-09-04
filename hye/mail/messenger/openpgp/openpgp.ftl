@@ -535,9 +535,6 @@ no-update-found = Դուք արդէն ունէք առցանց յայտնաբեր
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Սխալ․ բանալիների արտահանման հրամանը ձախողուեց
-
-## Strings used in keyRing.sys.mjs
-
 fail-cancel = Խափանում ֊ բանալու ստացումը չեղարկուեց աւգտատիրոջ կողմից
 not-first-block = Խափանում ֊ առաջին OpenPGP արգելափակման ոչ հանրային բանալու արգելափակում
 import-key-confirm = Ներմուծե՞լ հասարակական բանալի(ները) ներմուծուած հաղորդագրութեան մէջ։

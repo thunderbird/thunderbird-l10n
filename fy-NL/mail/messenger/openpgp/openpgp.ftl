@@ -613,9 +613,6 @@ no-update-found = Jo hawwe al de kaaien dy’t online fûn binne.
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Flater – kaaiekstraksjeopdracht mislearre
-
-## Strings used in keyRing.sys.mjs
-
 fail-cancel = Flater – kaaiûntfangst annulearre troch brûker
 not-first-block = Flater – earste OpenPGP-blok is gjin publyk kaaiblok
 import-key-confirm = Yn berjocht ynsluten publike kaai(en) ymportearje?
@@ -625,9 +622,6 @@ fail-key-import = Flater – ymportearjen fan kaai mislearre
 file-write-failed = Kin net nei bestân { $output } skriuwe
 no-pgp-block = Flater – gjin jildich armored OpenPGP-gegevensblok fûn
 confirm-permissive-import = Ymportearjen mislearre. De kaai dy’t jo probearje te ymportearjen, is mooglik skansearre of brûkt ûnbekende attributen. Wolle jo probearje de krekte dielen te ymportearjen? Dit kin der ta liede dat net folslein en net brûkbere kaaien ymportearre wurde.
-
-## Strings used in keyRing.sys.mjs
-
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = Guon ymportearre geheime kaaien jouwe in net-stipe funksje oan. As jo sa’n kaai brûke as jo persoanlike kaai, kinne kontakten jo e-mailberjochten of iepenbiere kaaien yn in ynkompatibele opmaak stjoere. Dit hat ynfloed op ymportearre geheime kaaien mei de folgjende fingerprints: { $fingerprints }.

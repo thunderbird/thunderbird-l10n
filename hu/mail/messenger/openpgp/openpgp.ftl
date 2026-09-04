@@ -613,9 +613,6 @@ no-update-found = Már megvannak az online felfedezett kulcsok.
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Hiba – a kulcskinyerési parancs sikertelen
-
-## Strings used in keyRing.sys.mjs
-
 fail-cancel = Hiba – a felhasználó megszakította a kulcs fogadását
 not-first-block = Hiba – az első OpenPGP blokk nem nyilvános kulcs blokk
 import-key-confirm = Importálja az üzenetbe ágyazott nyilvános kulcsokat?
@@ -625,9 +622,6 @@ fail-key-import = Hiba – a kulcs importálása sikertelen
 file-write-failed = A(z) { $output } fájlba írás sikertelen
 no-pgp-block = Hiba – nem található érvényes páncélozott OpenPGP-adatblokk
 confirm-permissive-import = Az importálás sikertelen. Lehet, hogy az importálandó kulcs sérült vagy ismeretlen attribútumokat használ. Megpróbálja a helyes részek importálását? Ez hiányos és használhatatlan kulcsokat eredményezhet.
-
-## Strings used in keyRing.sys.mjs
-
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = Az importált titkos kulcsok egy része nem támogatott funkciót hirdet. Ha ilyen kulcsot használ személyes kulcsként, akkor előfordulhat, hogy a levelezőpartnerei nem kompatibilis formátumú e-maileket vagy nyilvános kulcsokat küldhetnek Önnek. Ez a következő ujjlenyomatokkal rendelkező importált titkos kulcsokra van hatással: { $fingerprints }.

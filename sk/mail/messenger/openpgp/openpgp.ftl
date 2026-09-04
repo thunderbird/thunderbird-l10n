@@ -621,9 +621,6 @@ no-update-found = Už máte kľúče, ktoré boli objavené online.
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Chyba - príkaz na extrakciu kľúča zlyhal
-
-## Strings used in keyRing.sys.mjs
-
 fail-cancel = Chyba - príjem kľúča zrušený používateľom
 not-first-block = Chyba - prvý blok OpenPGP nie je blokom verejného kľúča
 import-key-confirm = Importovať verejné kľúče vložené v správe?
@@ -633,9 +630,6 @@ fail-key-import = Chyba - import kľúča zlyhal
 file-write-failed = Nepodarilo sa zapísať do súboru { $output }
 no-pgp-block = Chyba - nenašiel sa platný šifrovaný dátový blok OpenPGP
 confirm-permissive-import = Import zlyhal. Kľúč, ktorý sa pokúšate importovať, môže byť poškodený alebo má neznáme atribúty. Chcete sa pokúsiť o importovanie častí, ktoré sú správne? Môže to mať za následok import neúplných a nepoužiteľných kľúčov.
-
-## Strings used in keyRing.sys.mjs
-
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = Niektoré z importovaných tajných kľúčov propagujú nepodporovanú funkciu. Ak takýto kľúč použijete ako svoj osobný kľúč, korešpondenti vám môžu posielať e‑maily alebo verejné kľúče v nekompatibilnom formáte. Ovplyvní to importované tajné kľúče s nasledujúcimi odtlačkami prstov: { $fingerprints }.

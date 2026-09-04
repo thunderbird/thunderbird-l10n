@@ -589,9 +589,6 @@ no-update-found = Ključe, ki so bili odkriti na spletu, že imate.
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Napaka – ukaz za ekstrakcijo ključa je spodletel
-
-## Strings used in keyRing.sys.mjs
-
 fail-cancel = Napaka – prejem ključa je preklical uporabnik
 not-first-block = Napaka – prvi blok OpenPGP ni blok javnega ključa
 import-key-confirm = Ali želite uvoziti javne ključe, vdelane v sporočilo?
@@ -600,9 +597,6 @@ fail-key-import = Napaka – uvažanje ključa ni uspelo
 # $output (String) - File that writing was attempted to.
 file-write-failed = Pisanje v datoteko { $output } ni bilo mogoče
 confirm-permissive-import = Uvoz ni uspel. Ključ, ki ga poskušate uvoziti, je morda poškodovan ali uporablja neznane atribute. Ali želite poskusiti uvoziti dele, ki so pravilni? To lahko povzroči uvoz nepopolnih in neuporabnih ključev.
-
-## Strings used in keyRing.sys.mjs
-
 help-button = Pomoč
 
 ## Strings used in trust.sys.mjs

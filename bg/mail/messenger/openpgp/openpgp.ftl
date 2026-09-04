@@ -607,9 +607,6 @@ no-update-found = Вече имате ключовете, които бяха о
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Грешка - командата за извличане на ключ е неуспешна
-
-## Strings used in keyRing.sys.mjs
-
 fail-cancel = Грешка - Получаването на ключ е отменено от потребителя
 not-first-block = Грешка - Първият OpenPGP блок не е с публичен ключ
 import-key-confirm = Внасяне на публичните ключове, вградени в съобщението?
@@ -619,9 +616,6 @@ fail-key-import = Грешка - неуспешно внасяне на ключ
 file-write-failed = Неуспешен запис във файл { $output }
 no-pgp-block = Грешка - Не е намерен валиден OpenPGP блок от данни
 confirm-permissive-import = Неуспешно внасяне. Ключът, който се опитвате да внесете, може да е повреден или да използва неизвестни атрибути. Искате ли да опитате да внесете  частите, които са правилни? Това може да доведе до внасяне на непълни и неизползваеми ключове.
-
-## Strings used in keyRing.sys.mjs
-
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = Някои от внесените секретни ключове съдържат неподдържана функция. Ако използвате такъв ключ като ваш личен ключ, кореспондентите може да ви изпращат съобщения или публични ключове в несъвместим формат. Това засяга внесените секретни ключове със следните пръстови отпечатъци: { $fingerprints }.

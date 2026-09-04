@@ -607,9 +607,6 @@ no-update-found = Sinulla on jo avaimet, jotka löydettiin verkosta.
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Virhe - avaimen purkamiskomento epäonnistui
-
-## Strings used in keyRing.sys.mjs
-
 fail-cancel = Virhe - Avaimen vastaanotto peruttu käyttäjän toimesta
 not-first-block = Virhe - Ensimmäinen OpenPGP-lohko ei ole julkisen avaimen lohko
 import-key-confirm = Haluatko tuoda yhden tai useamman viestiin upotetun julkisen avaimen?
@@ -619,9 +616,6 @@ fail-key-import = Virhe - avaimen tuominen epäonnistui
 file-write-failed = Kirjoitus tiedostoon { $output } epäonnistui
 no-pgp-block = Virhe - Kelvollista panssaroitua OpenPGP-datalohkoa ei löytynyt
 confirm-permissive-import = Tuonti epäonnistui. Avain, jota yritit tuoda, saattaa olla rikkoutunut tai se se saattaa käyttää tuntemattomia ominaisuuksia. Haluatko yrittää tuoda kelvolliset osat avaimesta? Tämä saattaa johtaa epätäydellisten ja käyttökelvottomien avainten tuontiin.
-
-## Strings used in keyRing.sys.mjs
-
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = Jotkin tuoduista salaisista avaimista mainostavat ominaisuutta, jota ei tueta. Jos käytät tällaista avainta henkilökohtaisena avaimenasi, yhteydenpidon osapuolet voivat lähettää sinulle sähköpostia tai julkisia avaimia yhteensopimattomassa muodossa. Tämä vaikuttaa tuotuihin salaisiin avaimiin, joissa on seuraavat sormenjäljet: { $fingerprints }.

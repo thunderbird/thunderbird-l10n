@@ -603,9 +603,6 @@ no-update-found = 온라인에서 발견한 키를 이미 가지고 있습니다
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = 오류 - 키 추출 명령 실패
-
-## Strings used in keyRing.sys.mjs
-
 fail-cancel = 오류 - 사용자가 키 수신 취소
 not-first-block = 오류 - 첫 번째 OpenPGP 블록이 공개 키 블록이 아님
 import-key-confirm = 메시지에 포함 된 공개 키를 가져 오시겠습니까?
@@ -615,9 +612,6 @@ fail-key-import = 오류 - 키 가져 오기 실패
 file-write-failed = { $output } 파일 쓰기 실패
 no-pgp-block = 오류 - 유효한 Armored OpenPGP 데이터 블록 없음
 confirm-permissive-import = 가져 오지 못했습니다. 가져 오려는 키가 손상되었거나 알 수 없는 속성을 사용할 수 있습니다. 올바른 부분을 가져 오시겠습니까? 이로 인해 불완전하고 사용할 수 없는 키를 가져올 수도 있습니다.
-
-## Strings used in keyRing.sys.mjs
-
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = 가져온 비밀 키 중 일부가 지원되지 않는 기능을 나타냅니다. 개인 키와 같은 키를 사용하는 경우 상대방이 호환되지 않는 형식으로 이메일이나 공개 키를 보낼 수 있습니다. 이는 { $fingerprints } 지문이 있는 가져온 비밀 키에 영향을 줍니다.

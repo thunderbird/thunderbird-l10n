@@ -620,9 +620,6 @@ no-update-found = Masz już klucze, które zostały wykryte w Internecie.
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = Błąd: polecenie odczytu klucza się nie powiodło
-
-## Strings used in keyRing.sys.mjs
-
 fail-cancel = Błąd: użytkownik anulował odebranie klucza
 not-first-block = Błąd: pierwszy blok OpenPGP nie jest blokiem klucza publicznego
 import-key-confirm = Zaimportować klucze publiczne osadzone w wiadomości?
@@ -632,9 +629,6 @@ fail-key-import = Błąd: zaimportowanie klucza się nie powiodło
 file-write-failed = Zapisanie do pliku { $output } się nie powiodło
 no-pgp-block = Błąd: nie odnaleziono prawidłowego zakodowanego bloku danych OpenPGP
 confirm-permissive-import = Zaimportowanie się nie powiodło. Importowany klucz może być uszkodzony lub używać nieznanych atrybutów. Czy spróbować zaimportować części, które są poprawne? Może to skończyć się zaimportowaniem niepełnych lub nienadających się do użytku kluczy.
-
-## Strings used in keyRing.sys.mjs
-
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = Część zaimportowanych tajnych kluczy ogłasza nieobsługiwaną funkcję. Jeśli użyjesz takiego klucza jako klucza osobistego, rozmówcy mogą wysyłać Ci wiadomości lub klucze publiczne w niezgodnym formacie. Dotyczy to importowanych tajnych kluczy z następującymi odciskami: { $fingerprints }.

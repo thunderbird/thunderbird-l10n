@@ -573,9 +573,6 @@ no-update-found = 您已经拥有网络上找到的密钥。
 ## Strings used in keyRing.sys.mjs
 
 fail-key-extract = 错误 - 密钥提取命令运行失败
-
-## Strings used in keyRing.sys.mjs
-
 fail-cancel = 错误 - 用户取消接收密钥
 not-first-block = 错误 - 第一个 OpenPGP 块不是公钥块
 import-key-confirm = 要导入消息中嵌入的公钥吗？
@@ -585,9 +582,6 @@ fail-key-import = 错误 - 密钥导入失败
 file-write-failed = 写入到文件 { $output } 失败
 no-pgp-block = 错误 - 找不到有效的 armored 格式 OpenPGP 数据块
 confirm-permissive-import = 导入失败。您试图导入的密钥可能已损坏或使用了未知的属性。您想要尝试导入其中正确的部分吗？可能会导入不完整且无法使用的密钥。
-
-## Strings used in keyRing.sys.mjs
-
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = 某些导入的密钥声明了一项不支持的功能。若您将其作为私钥，其他人可能会向您发送格式不兼容的电子邮件或公钥。受影响的已导入密钥指纹如下：{ $fingerprints }。
