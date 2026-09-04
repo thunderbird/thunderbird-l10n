@@ -764,6 +764,9 @@ key-in-message-body = В теле сообщения был найден клю�
 sig-mismatch = Ошибка — Несоответствие подписи
 invalid-email = Ошибка — Некорректные адреса электронной почты
 # Variables:
+#   $name (String) - File name of the attachment.
+attachment-pgp-key-import = Вложение «{ $name }», вероятно, является файлом ключей OpenPGP. Импортировать содержащиеся в нём ключи?
+# Variables:
 # $name (String) - File name of the attachment.
 attachment-pgp-key =
     Открываемое вложение «{ $name }», вероятно, является файлом ключей OpenPGP.
@@ -787,6 +790,8 @@ debug-log-title = Отладочный лог OpenPGP
 dlg-button-ok = &ОК
 dlg-button-close = &Закрыть
 dlg-button-cancel = &Отмена
+dlg-button-open = &Открыть…
+dlg-button-save = &Сохранить
 dlg-no-prompt = Больше не показывать это окно
 enig-prompt = Командная строка OpenPGP
 enig-confirm = Подтверждение OpenPGP

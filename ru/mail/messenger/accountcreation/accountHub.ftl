@@ -258,6 +258,7 @@ account-hub-oauth-unsupported-title = Требуется дополнитель�
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
 account-hub-oauth-unsupported-description = { -brand-short-name } не может автоматически настраивать OAuth2 для этого имени хоста. Выберите «Дополнительная настройка», чтобы создать учётную запись, затем завершите настройку в параметрах учётной записи. <a data-l10n-name="oauth-support-link">Получите помощь по настройке OAuth2.</a>
 account-hub-username-help-text = Часто ваш полный адрес эл. почты
+account-hub-port-help-text = Если оставить это поле пустым, { -brand-short-name } попытается найти порт.
 account-hub-notification-show-more = Показать больше
 account-hub-notification-show-less = Показать меньше
 account-hub-email-setup-header = Добавьте свой адрес эл. почты
