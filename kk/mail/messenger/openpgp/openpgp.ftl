@@ -756,6 +756,9 @@ key-in-message-body = Хабарлама мәтінінде кілт табыл�
 sig-mismatch = Қате - қолтаңба сәйкессіздігі
 invalid-email = Қате – жарамсыз эл. пошта адрестері
 # Variables:
+#   $name (String) - File name of the attachment.
+attachment-pgp-key-import = ‘{ $name }’ салынымы OpenPGP кілт файлы сияқты. Оның ішіндегі кілттерді импорттағыңыз келе ме?
+# Variables:
 # $name (String) - File name of the attachment.
 attachment-pgp-key =
     Сіз ашып жатқан "{ $name }" салынымы OpenPGP кілт файлы сияқты көрінеді.
@@ -779,6 +782,8 @@ debug-log-title = OpenPGP жөндеу журналы
 dlg-button-ok = &ОК
 dlg-button-close = &Жабу
 dlg-button-cancel = Ба&с тарту
+dlg-button-open = &Ашу…
+dlg-button-save = &Сақтау
 dlg-no-prompt = Осы сұхбат терезесін маған келесі ретте көрсетпеу
 enig-prompt = OpenPGP сұрауы
 enig-confirm = OpenPGP растауы
