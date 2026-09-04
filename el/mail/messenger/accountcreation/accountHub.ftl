@@ -258,6 +258,7 @@ account-hub-oauth-unsupported-title = Απαιτείται επιπρόσθετ�
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
 account-hub-oauth-unsupported-description = Το { -brand-short-name } δεν μπορεί να ρυθμίσει αυτόματα το OAuth2 για αυτό το όνομα κεντρικού υπολογιστή. Επιλέξτε «Σύνθετη διαμόρφωση» για να δημιουργήσετε τον λογαριασμό και έπειτα, ολοκληρώστε τη ρύθμιση από τις Ρυθμίσεις λογαριασμού. <a data-l10n-name="oauth-support-link">Λάβετε βοήθεια με τη ρύθμιση του OAuth2.</a>
 account-hub-username-help-text = Συνήθως η πλήρης διεύθυνση email σας
+account-hub-port-help-text = Εάν το αφήσετε κενό, το { -brand-short-name } θα προσπαθήσει να εντοπίσει τη θύρα.
 account-hub-notification-show-more = Εμφάνιση περισσότερων
 account-hub-notification-show-less = Εμφάνιση λιγότερων
 account-hub-email-setup-header = Προσθήκη διεύθυνσης email

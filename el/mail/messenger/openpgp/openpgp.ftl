@@ -757,6 +757,9 @@ key-in-message-body = Βρέθηκε ένα κλειδί στο σώμα του 
 sig-mismatch = Σφάλμα - Αναντιστοιχία υπογραφής
 invalid-email = Σφάλμα - μη έγκυρη διεύθυνση(εις) email
 # Variables:
+#   $name (String) - File name of the attachment.
+attachment-pgp-key-import = Το συνημμένο «{ $name }» φαίνεται να είναι αρχείο κλειδιού OpenPGP. Θέλετε να εισαγάγετε τα κλειδιά που περιέχει;
+# Variables:
 # $name (String) - File name of the attachment.
 attachment-pgp-key =
     Το συνημμένο «{ $name }» που ανοίγετε φαίνεται να είναι ένα αρχείο κλειδιού OpenPGP.
@@ -780,6 +783,8 @@ debug-log-title = Αρχείο ελέγχου σφαλμάτων OpenPGP
 dlg-button-ok = &OK
 dlg-button-close = &Κλείσιμο
 dlg-button-cancel = &Ακύρωση
+dlg-button-open = Άν&οιγμα…
+dlg-button-save = Αποθήκευ&ση
 dlg-no-prompt = Να μην εμφανιστεί αυτός ο διάλογος ξανά
 enig-prompt = Προτροπή OpenPGP
 enig-confirm = Επιβεβαίωση OpenPGP
