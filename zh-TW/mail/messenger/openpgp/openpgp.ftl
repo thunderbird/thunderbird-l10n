@@ -708,7 +708,7 @@ sig-mismatch = 錯誤 - 簽章不符
 invalid-email = 錯誤 - 電子郵件地址無效
 # Variables:
 #   $name (String) - File name of the attachment.
-attachment-pgp-key-import = 附件「{ $name }」似乎是 OpenPGP 金鑰檔案。您確定要匯入其中的金鑰嗎
+attachment-pgp-key-import = 附件「{ $name }」似乎是一把 OpenPGP 金鑰檔。您想要匯入其中的金鑰嗎？
 # Variables:
 # $name (String) - File name of the attachment.
 attachment-pgp-key = 您正要開啟的附件「{ $name }」看來是一把 OpenPGP 金鑰檔案。請點擊「匯入」來匯入金鑰，或點擊「檢視」來使用瀏覽器視窗檢視檔案內容。
@@ -731,8 +731,8 @@ debug-log-title = OpenPGP 除錯紀錄
 dlg-button-ok = 確定 (&O)
 dlg-button-close = 關閉 (&C)
 dlg-button-cancel = 取消 (&C)
-dlg-button-open = 開啟…&O
-dlg-button-save = 儲存(&S)
+dlg-button-open = 開啟…（&O）
+dlg-button-save = 儲存（&S）
 dlg-no-prompt = 下次不要再顯示此對話方塊。
 enig-prompt = OpenPGP Prompt
 enig-confirm = OpenPGP 確認
