@@ -609,6 +609,9 @@ key-in-message-body = Vēstules tekstā ir atrasta atslēga. Lai importētu atsl
 sig-mismatch = Kļūda - parakstu neatbilstība
 invalid-email = Kļūda - nederīga(-as) epasta adrese(-es)
 # Variables:
+#   $name (String) - File name of the attachment.
+attachment-pgp-key-import = Šķiet, ka pielikums ‘{ $name }’ ir OpenPGP atslēgas datne. Vai ievietot atslēgas, ko tā satur?
+# Variables:
 # $name (String) - File name of the attachment.
 attachment-pgp-key =
     Šķiet, ka atveramais pielikums '{ $name }' ir OpenPGP atslēgas fails.
@@ -632,6 +635,8 @@ debug-log-title = OpenPGP atkļūdošanas žurnāls
 dlg-button-ok = &LABI
 dlg-button-close = &Aizvērt
 dlg-button-cancel = At&celt
+dlg-button-open = &Atvērt…
+dlg-button-save = &Saglabāt
 dlg-no-prompt = Turpmāk vairs nerādīt šo dialogu.
 enig-prompt = OpenPGP uzvedne
 enig-confirm = OpenPGP apstiprinājums

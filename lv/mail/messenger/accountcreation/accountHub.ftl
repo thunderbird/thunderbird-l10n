@@ -12,3 +12,4 @@
 account-hub-select-option =
     .label = Atlasīt iespēju
 account-hub-username-help-text = Pārsvarā pilna e-pasta adrese
+account-hub-port-help-text = Ja atstāts tukšs, { -brand-short-name } mēģinās atklāt portu.
