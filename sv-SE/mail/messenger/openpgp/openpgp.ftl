@@ -757,6 +757,9 @@ key-in-message-body = En nyckel hittades i meddelandet. Klicka på 'Importera ny
 sig-mismatch = Fel - Signatur matchar inte
 invalid-email = Fel - ogiltiga e-postadresser
 # Variables:
+#   $name (String) - File name of the attachment.
+attachment-pgp-key-import = Bilagan ‘{ $name }’ verkar vara en OpenPGP-nyckelfil. Vill du importera nycklarna som den innehåller?
+# Variables:
 # $name (String) - File name of the attachment.
 attachment-pgp-key =
     Bilagan '{ $name }' du öppnar verkar vara en OpenPGP-nyckelfil.
@@ -780,6 +783,8 @@ debug-log-title = OpenPGP Felsökningslogg
 dlg-button-ok = &OK
 dlg-button-close = &Stäng
 dlg-button-cancel = &Avbryt
+dlg-button-open = &Öppna…
+dlg-button-save = &Spara
 dlg-no-prompt = Visa inte denna dialogruta igen.
 enig-prompt = OpenPGP Prompt
 enig-confirm = OpenPGP Bekräftelse

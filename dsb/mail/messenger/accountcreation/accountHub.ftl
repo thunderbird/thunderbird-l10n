@@ -258,6 +258,7 @@ account-hub-oauth-unsupported-title = Pśidatna konfiguracija jo trjebna
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
 account-hub-oauth-unsupported-description = { -brand-short-name } njamóžo OAuth2 za toś to hostmě awtomatiski konfigurěrowaś. Wubjeŕśo rozšyrjonu konfiguraciju, aby konto załožył a dokóńcćo pón konfiguraciju z kontowych nastajenjow. <a data-l10n-name="oauth-support-link">Dostańśo pomoc za konfiguraciju OAuth2.</a>
 account-hub-username-help-text = Cesto waša dopołna e-mailowa adresa
+account-hub-port-help-text = Jolic pólo prozne wóstawa, { -brand-short-name } wopytajo, port namakaś.
 account-hub-notification-show-more = Wěcej pokazaś
 account-hub-notification-show-less = Mjenjej pokazaś
 account-hub-email-setup-header = Pśidajśo swóju e-mailowu adresu
