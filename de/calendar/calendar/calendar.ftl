@@ -235,9 +235,9 @@ item-modified-on-server = Dieser Eintrag wurde kürzlich auf dem Server geänder
 modify-will-lose-data = Das Übertragen des lokalen Eintrages wird den geänderten Eintrag auf dem Server überschreiben.
 delete-will-lose-data = Durch das Löschen dieses Eintrags gehen alle Änderungen auf dem Server verloren.
 calendar-conflicts-dialog =
-    .buttonlabelcancel = Änderungen verwerfen und neu laden
+    .buttonlabelcancel = Lokale Änderungen verwerfen und neu laden
 proceed-modify =
-    .label = Änderungen trotzdem übertragen
+    .label = Lokale Version auf den Server übertragen
 proceed-delete =
     .label = Trotzdem löschen
 # $name calendar name
