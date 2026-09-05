@@ -258,6 +258,7 @@ account-hub-oauth-unsupported-title = Configuration additional es necessari
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
 account-hub-oauth-unsupported-description = { -brand-short-name } non pote automaticamente configurar OAuth2 pro iste nomine de hoste. Selige configuration avantiate pro crear le conto, pois completa le configuration ab Parametros de conto. <a data-l10n-name="oauth-support-link">Obtene auxilio con le configuration de OAuth2.</a>
 account-hub-username-help-text = Sovente tu adresse e-mail complete
+account-hub-port-help-text = Si lassate vacue, { -brand-short-name } tentara de discoperir le porta.
 account-hub-notification-show-more = Monstrar plus
 account-hub-notification-show-less = Monstrar minus
 account-hub-email-setup-header = Adde tu adresse email
