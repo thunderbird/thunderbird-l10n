@@ -782,6 +782,7 @@ debug-log-title = Registro de depuration OpenPGP
 dlg-button-ok = &OK
 dlg-button-close = &Clauder
 dlg-button-cancel = &Cancellar
+dlg-button-save = &Salvar
 dlg-no-prompt = Non monstrar me plus iste fenestra de dialogo
 enig-prompt = Sollicitation OpenPGP
 enig-confirm = Confirmation OpenPGP
