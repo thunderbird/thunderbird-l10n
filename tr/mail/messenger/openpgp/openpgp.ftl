@@ -725,6 +725,9 @@ key-in-message-body = İleti gövdesinde bir anahtar bulundu. İçe aktarmak iç
 sig-mismatch = Hata - İmza uyuşmazlığı
 invalid-email = Hata: geçersiz e-posta adres(ler)i
 # Variables:
+#   $name (String) - File name of the attachment.
+attachment-pgp-key-import = ‘{ $name }’ adlı ek bir OpenPGP anahtar dosyasıdır. İçerdiği anahtarları içe aktarmak ister misiniz?
+# Variables:
 # $name (String) - File name of the attachment.
 attachment-pgp-key =
     Açtığınız ‘{ $name }’ eki bir OpenPGP anahtar dosyası gibi görünüyor.
