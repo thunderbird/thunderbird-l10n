@@ -14,6 +14,12 @@ menu-addons-and-themes =
 
 ## Help Menu
 
+menu-help-help-title =
+    .label = עזרה
+    .accesskey = ע
+menu-help-get-help =
+    .label = קבלת עזרה
+    .accesskey = ק
 menu-help-enter-troubleshoot-mode =
     .label = מצב לפתרון בעיות…
     .accesskey = מ

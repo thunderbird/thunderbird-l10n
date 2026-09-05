@@ -352,9 +352,9 @@ enable-cloud-share =
 cloud-share-size =
     .value = מ״ב
 add-cloud-account =
+    .defaultlabel = הוספה…
     .label = הוספה…
     .accesskey = ס
-    .defaultlabel = הוספה…
 
 ## Privacy Tab
 
@@ -504,3 +504,7 @@ no-preview-label = אין תצוגה מקדימה זמינה
 chat-variant-label =
     .value = הגוון:
     .accesskey = ג
+
+## Settings UI Search Results
+
+search-results-help-link = לעזרה נוספת, נא לפנות אל <a data-l10n-name="url">אתר התמיכה של { -brand-short-name }</a>

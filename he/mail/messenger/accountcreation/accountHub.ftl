@@ -150,6 +150,7 @@ account-hub-same-username-checkbox = אותו שם המשתמש כמו בשרת 
 account-hub-protocol-imap = סנכרון בין מכשירים
 account-hub-protocol-microsoft = ‏Exchange או Microsoft 365
 account-hub-protocol-pop3 = הורדה למכשיר
+account-hub-port-help-text = אם השדה יישאר ריק, { -brand-short-name } ינסה לגלות את השער.
 account-hub-notification-show-more = להציג יותר
 account-hub-notification-show-less = להציג פחות
 account-hub-email-exchange-settings = הגדרות Exchange

@@ -164,6 +164,21 @@ key-type-subkey = מפתח משנה
 key-expired-date = תוקף המפתח פג ב־{ $keyExpiry }
 key-expired-simple = פג תוקף המפתח
 
+## Strings used in keyRing.sys.mjs
+
+help-button = עזרה
+
 ## Strings used in enigmailKeygen.js
 
 expiry-too-long = לא ניתן ליצור מפתח שתוקפו יפוג בעוד יותר ממאה שנה.
+
+## Strings used in decryption.sys.mjs
+
+# Variables:
+#   $name (String) - File name of the attachment.
+attachment-pgp-key-import = נראה שהקובץ המצורף ’{ $name }’ הוא קובץ מפתחות OpenPGP. האם ברצונך לייבא את המפתחות שהוא מכיל?
+
+## Strings used in dialog.sys.mjs
+
+dlg-button-open = &פתיחה…
+dlg-button-save = &שמירה
