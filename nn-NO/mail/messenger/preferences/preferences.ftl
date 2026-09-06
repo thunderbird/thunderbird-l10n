@@ -40,7 +40,7 @@ general-reading-and-display-header = Lesing og vising
 general-updates-header = Oppdateringar
 general-network-and-diskspace-header = Nettverk og diskplass
 general-indexing-label = Indeksering
-composition-category-header = Composition
+composition-category-header = Utforming
 composition-attachments-header = Vedlegg
 composition-spelling-title = Stavekontroll
 compose-html-style-title = HTML-stil
@@ -592,9 +592,9 @@ enable-cloud-share =
 cloud-share-size =
     .value = MB
 add-cloud-account =
+    .defaultlabel = Legg til…
     .label = Legg til…
     .accesskey = L
-    .defaultlabel = Legg til…
 remove-cloud-account =
     .label = Fjern
     .accesskey = F
@@ -923,8 +923,8 @@ chat-variant-label =
 # is the name of the CSS property. It is intended only to adjust the element's width.
 # Do not translate.
 search-preferences-input2 =
-    .style = width: 15.4em
     .placeholder = Finn i innstillingane
+    .style = width: 15.4em
 managed-notice = { -brand-short-name } blir administrert av organisasjonen din.
 
 ## Settings UI Search Results
