@@ -138,6 +138,12 @@ adding-opensearch-provider-failed-title = No se ha podido añadir el proveedor O
 # Variables:
 # $url (String) - URL an OpenSearch provider was requested for.
 adding-opensearch-provider-failed-text = No se ha podido añadir el proveedor OpenSearch para { $url }.
+close-to-tray-label =
+    .label = Cuando { -brand-short-name } esté cerrado, moverlo a la bandeja
+    .accesskey = c
+start-in-tray-label =
+    .label = Iniciar { -brand-short-name } en la bandeja
+    .accesskey = I
 minimize-to-tray-label =
     .label = Cuando se minimiza { -brand-short-name }, moverlo a la bandeja del sistema
     .accesskey = m
@@ -181,6 +187,9 @@ mail-browse-sound-button =
 enable-gloda-search-label =
     .label = Activar indexador y búsqueda global
     .accesskey = A
+gloda-show-results-as-list-label =
+    .label = Mostrar los resultados de la búsqueda global como una lista de forma predeterminada
+    .accesskey = l
 datetime-formatting-legend = Formato de fecha y hora
 language-selector-legend = Idioma
 allow-hw-accel =
@@ -558,6 +567,11 @@ edit-directories-label =
 email-picker-label =
     .label = Añadir automáticamente las direcciones de correo saliente a mi(s):
     .accesskey = A
+email-picker-description = La ubicación de los nuevos contactos guardados desde los mensajes enviados.
+default-add-address-book-label =
+    .value = Libreta de direcciones predeterminada para contactos añadidos manualmente:
+    .accesskey = L
+default-add-address-book-description = La ubicación de los nuevos contactos guardados desde los mensajes recibidos.
 default-directory-label =
     .value = Directorio de inicio por omisión en la ventana de la libreta de direcciones:
     .accesskey = D
@@ -574,9 +588,9 @@ enable-cloud-share =
 cloud-share-size =
     .value = MB
 add-cloud-account =
+    .defaultlabel = Añadir…
     .label = Añadir…
     .accesskey = d
-    .defaultlabel = Añadir…
 remove-cloud-account =
     .label = Eliminar
     .accesskey = m
@@ -905,8 +919,8 @@ chat-variant-label =
 # is the name of the CSS property. It is intended only to adjust the element's width.
 # Do not translate.
 search-preferences-input2 =
-    .style = width: 15.4em
     .placeholder = Buscar en ajustes
+    .style = width: 15.4em
 managed-notice = { -brand-short-name } está siendo gestionado por su organización.
 
 ## Settings UI Search Results

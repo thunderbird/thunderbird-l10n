@@ -1125,3 +1125,14 @@ event-recurrence-forever =
 attendees-tab-label = Asistentes ({ $count }):
 # $count - the number of attachments
 attachments-tab-label = Adjuntos ({ $count }):
+# Variables:
+#   $docTitle (String) - The date or view label for the current calendar view.
+calendar-window-title = { $docTitle } - { -brand-full-name }
+calendar-window-title-base = { -brand-full-name }
+# Variables:
+#   $username (String) - The account username.
+#   $location (String) - The calendar server location.
+calendar-auth-enter-password-for = Introduzca la contraseña de { $username } en { $location }
+# Variables:
+#   $location (String) - The calendar server location.
+calendar-auth-enter-user-password-for = { $location } está solicitando su nombre de usuario y contraseña.

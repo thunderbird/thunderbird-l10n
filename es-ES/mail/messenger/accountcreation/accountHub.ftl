@@ -49,7 +49,13 @@ account-hub-email-retest-button = Volver a probar
 account-hub-email-finish-button = Finalizar
 account-hub-email-manually-configure-button = Configurar manualmente
 account-hub-email-continue-button = Continuar
+account-hub-email-set-up-account-button = Configurar la cuenta
 account-hub-email-confirm-button = Confirmar
+account-hub-email-find-settings-button = Buscar ajustes
+account-hub-email-connect-button = Conectar
+account-hub-result-incoming-legend = Entrante
+account-hub-result-outgoing-legend = Saliente
+account-hub-all-servers-legend = Todos los servidores
 account-hub-incoming-server-legend = Servidor de entrada
 account-hub-outgoing-server-legend = Servidor de salida
 account-hub-result-incoming-server-legend = Servidor de entrada
@@ -61,6 +67,39 @@ account-hub-hostname-label = Nombre del servidor
 account-hub-result-hostname-label = Nombre del servidor
     .title = Nombre del servidor
 account-hub-result-socket-type-label = Seguridad de la conexión
+account-hub-servers-username-label = Nombre de usuario:
+account-hub-result-server-label = Servidor:
+account-hub-result-port-label = Puerto:
+account-hub-result-security-label = Seguridad:
+account-hub-result-authentication-type-label = Autentificación:
+account-hub-result-authentication-none = Ninguna
+    .title = Ninguna
+account-hub-result-authentication-password = Contraseña (normal)
+    .title = Contraseña (normal)
+account-hub-result-authentication-encrypted-password = Contraseña (cifrada)
+    .title = Contraseña (cifrada)
+account-hub-result-authentication-gssapi = Kerberos
+    .title = Kerberos
+account-hub-result-authentication-ntlm = NTLM
+    .title = NTLM
+account-hub-result-authentication-external = Externa
+    .title = Externa
+account-hub-result-authentication-oauth2 = OAuth2
+    .title = OAuth2
+account-hub-result-auth-none = Ninguna
+    .title = Ninguna
+account-hub-result-auth-password = Contraseña (normal)
+    .title = Contraseña (normal)
+account-hub-result-auth-encrypted-password = Contraseña (cifrada)
+    .title = Contraseña (cifrada)
+account-hub-result-auth-gssapi = Kerberos
+    .title = Kerberos
+account-hub-result-auth-ntlm = NTLM
+    .title = NTLM
+account-hub-result-auth-external = Externa
+    .title = Externa
+account-hub-result-auth-oauth2 = OAuth2
+    .title = OAuth2
 account-hub-on-port-label = Puerto
 account-hub-result-authentication-label = Autentificación
     .title = Autentificación
@@ -122,6 +161,7 @@ address-book-ldap-duplicate-error = El nombre del directorio LDAP ya existe. Int
 address-book-ldap-creation-error = No se pudo crear el directorio LDAP.
 account-hub-email-setup-ews = Configuración del servidor
 account-hub-result-exchange-url-label = URL del punto final de Exchange
+account-hub-exchange-service-url-label = Introducir la URL del servicio
 account-hub-email-credentials-confirmation = Configuración de la cuenta
 account-hub-result-unknown-hostname = Nombre de equipo desconocido
 account-hub-result-unknown-cert = Certificado no verificado
@@ -196,11 +236,41 @@ account-hub-calendars-button = Calendarios
 account-hub-thundermail-button = Iniciar sesión con Thundermail
 # Used as part of a divider between sign in button and a sign in form.
 account-hub-thundermail-divider-text = o
+account-hub-manual-config-imap-title = Configuración IMAP
+account-hub-manual-config-pop3-title = Configuración POP3
+account-hub-manual-config-review-settings-title = Revisar la configuración actualizada
+account-hub-manual-config-incoming-legend = Servidor de entrada
+account-hub-manual-config-outgoing-legend = Servidor de salida
+# Label for checkbox that will hide an outgoing username input if it's the same is the incoming
+account-hub-same-username-checkbox = Mismo nombre de usuario que el servidor entrante
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-security-changed = No se pudo encontrar { $oldValue }, pero { $newValue } está disponible.
+# Variables:
+# $oldValue (String): The port requested before the configuration was tested.
+# $newValue (String): The port found after the configuration was tested.
+account-hub-manual-config-port-changed = No se pudo acceder al puerto { $oldValue }, pero el puerto { $newValue } está disponible.
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-value-changed = No se pudo usar { $oldValue }, pero { $newValue } está disponible.
+account-hub-protocol-imap = Sincronización entre dispositivos
+account-hub-protocol-microsoft = Exchange o Microsoft 365
+account-hub-protocol-pop3 = Descargar al dispositivo
+account-hub-oauth-unsupported-title = Se requiere configuración adicional
+# Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
+# 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
+account-hub-oauth-unsupported-description = { -brand-short-name } no puede configurar automáticamente OAuth2 para este nombre de equipo. Seleccione Configuración avanzada para crear la cuenta y, a continuación, complete la configuración desde Configuración de la cuenta. <a data-l10n-name="oauth-support-link">Obtenga ayuda con la configuración de OAuth2.</a>
 account-hub-notification-show-more = Mostrar más
 account-hub-notification-show-less = Mostrar menos
 account-hub-email-setup-header = Añada su dirección de correo electrónico
 account-hub-email-setup-incoming = Configuración del servidor de correo entrante
 account-hub-email-setup-outgoing = Configuración del servidor de correo saliente
+account-hub-email-exchange-settings = Configuración de Exchange
+account-hub-email-connect-settings = Conecte su configuración de correo electrónico
+account-hub-email-protocol-select-header = Seleccione un tipo de cuenta de correo electrónico
+account-hub-email-protocol-select-additional-info = Se requiere información adicional para configurar esta cuenta.
 account-hub-email-config-found = Elija el tipo de cuenta de correo electrónico
 account-hub-email-enter-password = Introduzca la contraseña de su cuenta de correo electrónico
 account-hub-email-sync-accounts = Sincronice sus calendarios y libretas de direcciones
@@ -210,13 +280,24 @@ account-hub-result-imap-description = Mantener las carpetas y correos electróni
 account-hub-result-pop-description = Mantener las carpetas y correos electrónicos en el equipo
 account-hub-result-ews-shortname = Exchange
 account-hub-result-ews-description = Usar los Servicios Web de Microsoft Exchange (EWS) para sincronizar las carpetas y correos
+account-hub-result-graph-api-shortname = API de Microsoft Graph
+account-hub-result-graph-api-description = Utilice la API de Microsoft Graph para sincronizar sus carpetas y correos electrónicos con Microsoft 365.
 account-hub-result-graph-shortname = Exchange (Graph)
 account-hub-result-graph-description = Use la API de Microsoft Graph para sincronizar sus carpetas y correos electrónicos
 account-hub-result-exchange-description = Sincronizar carpetas y correos electrónicos con Exchange u Office 365
 account-hub-result-ews-text = Servidor
+account-hub-result-ews-expanded-text = Servicios web de Exchange
+account-hub-result-graph-expanded-text = API Graph
 account-hub-result-recommended-label = Recomendado
 account-hub-result-addon-label = Requiere complemento
 account-hub-edit-configuration = Editar la configuración
+account-hub-config-success-title = Ajustes de la cuenta encontrados automáticamente.
+account-hub-config-success-description-db = Configuración encontrada en Mozilla ISPDB.
+account-hub-config-success-description-exchange = Configuración encontrada para un servidor Microsoft Exchange.
+account-hub-config-success-description-guess = Configuración encontrada probando nombres de servidor comunes.
+account-hub-config-success-description-disk = Configuración encontrada en la instalación de { -brand-short-name }.
+account-hub-config-success-description-isp = Configuración encontrada en el proveedor de correo electrónico.
+account-hub-config-success-description-read-more = Puede <a data-l10n-name="automated-setup-link"></a>informarse sobre cómo funciona la configuración automática del correo electrónico.</a>
 account-hub-config-success = Configuración encontrada en la base de datos ISP de Mozilla
 account-hub-password-info = Sus credenciales sólo se almacenarán localmente en su ordenador
 account-hub-creating-account = Creando cuenta…
@@ -245,6 +326,7 @@ account-hub-port-error-text = El puerto debe estar entre 1 y 65535
     .title = El puerto debe estar entre 1 y 65535
 account-hub-username-error-text = El nombre de usuario es obligatorio
     .title = El nombre de usuario es obligatorio
+account-hub-manual-config-error-summary = Solucione los siguientes errores:
 account-hub-oauth-pending = Esperando autorización en la ventana emergente de inicio de sesión…
 account-hub-addon-install-button = Instalar
 account-hub-addon-install-needed = { -brand-short-name } no es compatible de forma nativa con este servidor. Para acceder al correo electrónico de Exchange, <a data-l10n-name="addon-install">instale un complemento de terceros como Owl (de pago).</a>
@@ -256,14 +338,20 @@ account-hub-add-address-book = Añadir una libreta de direcciones
 address-book-sync-existing-icon =
     .alt = Sincronizar una libreta de direcciones desde una cuenta existente
 address-book-sync-existing = Sincronizar desde una cuenta existente
+address-book-add-remote-icon2 =
+    .alt = Añadir una libreta de direcciones remota
 address-book-add-remote-icon =
     .alt = Añadir una nueva libreta de direcciones remota
 address-book-add-remote = Añadir libreta de direcciones remota
+address-book-add-remote-carddav-description = Conectarse a una libreta de direcciones CardDAV.
 address-book-add-remote-description = Conectarse a una libreta de direcciones CardDav remota
 address-book-add-local-icon =
     .alt = Crear una nueva libreta de direcciones local
 address-book-add-local = Nueva libreta de direcciones local
 address-book-add-local-description = Crear una nueva libreta de direcciones local en su dispositivo
+address-book-add-ldap-icon2 =
+    .alt = Añadir una libreta de direcciones LDAP
+address-book-add-ldap-button = Añadir libreta de direcciones LDAP
 address-book-add-ldap-icon =
     .alt = Conectarse a una libreta de direcciones LDAP remota
 address-book-add-ldap = Nueva libreta de direcciones LDAP
@@ -287,3 +375,22 @@ account-hub-local-address-book-label = Nombre de la libreta de direcciones
 account-hub-local-error-text = Introduzca un nombre para la libreta de direcciones
 account-hub-sync-address-books = Sincronizar libretas de direcciones existentes
 account-hub-new-remote-address-book = Nueva libreta de direcciones remota
+
+## Exchange Type Manual Config Step
+
+account-hub-exchange-type-account-type = Tipo de cuenta
+account-hub-card-graph-title = Microsoft Graph
+account-hub-card-graph-description = Microsoft Graph es un método de conexión moderno para Microsoft 365.
+account-hub-card-ews-title = Servicios web de Exchange
+account-hub-card-ews-tag = Obsoleto
+account-hub-card-ews-description = Los servicios web de Exchange (EWS) se conectan a Microsoft Exchange para sincronizar su correo electrónico.
+# This is shown after the type description, so "it" is referring to the type (either Microsoft Graph or Exchange Web Services).
+account-hub-card-recommended-description = Se recomienda porque coincide con la URL de su servicio.
+account-hub-exchange-type-username = Nombre de usuario
+account-hub-exchange-type-username-hint = Normalmente, su dirección de correo electrónico o UPN del Directorio Activo.
+account-hub-exchange-type-authentication = Método de autentificación
+# Checkbox that can be unchecked to use a custom OAuth config.
+account-hub-exchange-type-default-oauth = Utilizar la configuración de autentificación predeterminada de Microsoft 365 Copilot.
+account-hub-exchange-type-oauth-tenant = ID de inquilino
+account-hub-exchange-type-oauth-app = ID de la aplicación
+account-hub-exchange-type-title = Seleccione un tipo de cuenta

@@ -25,3 +25,45 @@ remove-data-chat-account-description = Eliminar todos los registros de conversac
 show-data-button =
     .label = Mostrar ubicación de los datos
     .accesskey = M
+# Variables:
+# $count (Number) - The number of outgoing servers to be removed.
+remove-outgoing-servers-checkbox =
+    .label =
+        { $count ->
+            [one] Eliminar servidor saliente
+           *[other] Eliminar { $count } servidores salientes
+        }
+# Variables:
+# $count (Number) - The number of address books to be removed.
+remove-address-books-checkbox =
+    .label =
+        { $count ->
+            [one] Eliminar la libreta de direcciones
+           *[other] Eliminar { $count } libretas de direcciones
+        }
+# Variables:
+# $count (Number) - The number of calendars to be removed.
+remove-calendars-checkbox =
+    .label =
+        { $count ->
+            [one] Eliminar calendario
+           *[other] Eliminar { $count } calendarios
+        }
+# Variables:
+# $count (Number) - The number of passwords to be removed.
+remove-passwords-checkbox =
+    .label =
+        { $count ->
+            [one] Eliminar contraseña
+           *[other] Eliminar { $count } contraseñas
+        }
+# Variables:
+# $count (Number) - The number of OAuth tokens to be removed.
+remove-oauth-tokens-checkbox =
+    .label =
+        { $count ->
+            [one] Eliminar token OAuth
+           *[other] Eliminar { $count } tokens OAuth
+        }
+remove-account-progress-success = Cuenta eliminada correctamente.
+remove-account-progress-failure = ¡Algo salió mal! No se ha podido eliminar la cuenta.

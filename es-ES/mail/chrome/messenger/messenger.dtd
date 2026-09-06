@@ -192,9 +192,9 @@
 <!ENTITY collapseAllThreadsCmd.key "\">
 <!ENTITY unreadMsgsCmd.label "Mensajes no leídos">
 <!ENTITY unreadMsgsCmd.accesskey "n">
-<!ENTITY threadsWithUnreadCmd.label "Conversaciones con m. no leídos">
+<!ENTITY threadsWithUnreadCmd.label "Conversaciones con mensajes no leídos">
 <!ENTITY threadsWithUnreadCmd.accesskey "o">
-<!ENTITY watchedThreadsWithUnreadCmd.label "Conversaciones observadas con m. no leídos">
+<!ENTITY watchedThreadsWithUnreadCmd.label "Conversaciones vistas con mensajes no leídos">
 <!ENTITY watchedThreadsWithUnreadCmd.accesskey "v">
 <!ENTITY ignoredThreadsCmd.label "Conversaciones ignoradas">
 <!ENTITY ignoredThreadsCmd.accesskey "I">

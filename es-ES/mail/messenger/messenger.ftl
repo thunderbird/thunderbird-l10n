@@ -30,55 +30,43 @@ content-tab-security-high-icon =
     .alt = La conexión es segura
 content-tab-security-broken-icon =
     .alt = La conexión no es segura
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = Ir a la página anterior ({ $shortcut })
     .aria-label = Anterior
+    .tooltiptext = Ir a la página anterior ({ $shortcut })
     .accesskey = A
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Atrás
     .accesskey = A
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
-    .tooltiptext = Ir a la página siguiente ({ $shortcut })
     .aria-label = Siguiente
+    .tooltiptext = Ir a la página siguiente ({ $shortcut })
     .accesskey = S
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = Siguiente
     .accesskey = S
-
-# Reload
-
 content-tab-menu-reload =
-    .tooltiptext = Recargar página
     .aria-label = Recargar
+    .tooltiptext = Recargar página
     .accesskey = R
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
-    .tooltiptext = Recargar página
     .label = Recargar
+    .tooltiptext = Recargar página
     .accesskey = R
-
-# Stop
-
 content-tab-menu-stop =
-    .tooltiptext = Detener carga de página
     .aria-label = Detener
+    .tooltiptext = Detener carga de página
     .accesskey = D
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
-    .tooltiptext = Detener carga de página
     .label = Detener
+    .tooltiptext = Detener carga de página
     .accesskey = D
 open-windows-warning-confirmation-title = Confirmar
 # Variables:
@@ -323,7 +311,7 @@ mail-context-menu-organize =
     .label = Organizar
     .accesskey = O
 mail-context-menu-threads =
-    .label = Hilos
+    .label = Conversaciones
     .accesskey = H
 context-menu-redirect-msg =
     .label = Redirigir
@@ -361,8 +349,8 @@ other-action-copy-message-link =
 other-action-copy-news-link =
     .label = Copiar enlace de noticias
 message-header-msg-flagged =
-    .title = Con estrella
     .aria-label = Con estrella
+    .title = Con estrella
 message-header-delete =
     .label = Eliminar
     .tooltiptext = Eliminar este mensaje
@@ -456,9 +444,9 @@ decrypt-and-copy-failures-multiple =
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = Barra de herramientas de espacios
-    .aria-label = Barra de herramientas de espacios
     .aria-description = Barra de herramientas vertical para cambiar entre los diferentes espacios. Use las teclas de navegación para ver los botones disponibles.
+    .aria-label = Barra de herramientas de espacios
+    .toolbarname = Barra de herramientas de espacios
 spaces-toolbar-button-mail2 =
     .title = Correo
 spaces-toolbar-button-address-book2 =
@@ -679,16 +667,16 @@ spam-processing-message = Procesando mensajes de correo no deseado
 #    $subject - the message thread title (subject)
 ignored-theads-feedback =
     { $count ->
-        [one] Las respuestas al hilo "{ $subject }" no se mostrarán.
-       *[other] Las respuestas a los  { $count } hilos que fueron seleccionados no se mostrarán.
+        [one] Las respuestas a la conversación "{ $subject }" no se mostrarán.
+       *[other] Las respuestas a las  { $count } conversaciones que fueron seleccionadas no se mostrarán.
     }
 # Variables:
 #    $count - the number of threads that were selected
 #    $subject - the message thread title (subject)
 ignored-subtheads-feedback =
     { $count ->
-        [one] Las respuestas al subhilo "{ $subject }" no se mostrarán.
-       *[other] Las respuestas a los { $count } subhilos  que fueron seleccionados no se mostrarán.
+        [one] Las respuestas a la subconversación "{ $subject }" no se mostrarán.
+       *[other] Las respuestas a las { $count } subconversaciones que fueron seleccionadas no se mostrarán.
     }
 
 ## Attachments
