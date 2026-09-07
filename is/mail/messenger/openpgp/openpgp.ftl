@@ -757,6 +757,9 @@ key-in-message-body = Lykill fannst í meginmáli skilaboðanna. Smelltu á „F
 sig-mismatch = Villa - Misræmi í undirritun
 invalid-email = Villa - ógilt tölvupóstfang
 # Variables:
+#   $name (String) - File name of the attachment.
+attachment-pgp-key-import = Viðhengið „{ $name }“ virðist vera OpenPGP-lyklaskrá. Viltu flytja inn lyklana sem það inniheldur?
+# Variables:
 # $name (String) - File name of the attachment.
 attachment-pgp-key =
     Viðhengið „{ $name }“ sem þú ert að opna virðist vera OpenPGP lykilskrá.
@@ -780,6 +783,8 @@ debug-log-title = OpenPGP atvikaskrá
 dlg-button-ok = Í la&gi
 dlg-button-close = &Loka
 dlg-button-cancel = &Hætta við
+dlg-button-open = &Opna…
+dlg-button-save = Vi&sta
 dlg-no-prompt = Ekki sýna mér þennan glugga aftur
 enig-prompt = OpenPGP kvaðning
 enig-confirm = OpenPGP staðfesting
