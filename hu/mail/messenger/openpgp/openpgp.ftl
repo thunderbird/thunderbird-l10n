@@ -757,6 +757,9 @@ key-in-message-body = Kulcs található az üzenettörzsben. Az importálásáho
 sig-mismatch = Hiba – az aláírás nem egyezik meg
 invalid-email = Hiba – érvénytelen e-mail-címek
 # Variables:
+#   $name (String) - File name of the attachment.
+attachment-pgp-key-import = A(z) „{ $name }” melléklet valószínűleg egy OpenPGP-kulcsfájl. Importálja a benne található kulcsokat?
+# Variables:
 # $name (String) - File name of the attachment.
 attachment-pgp-key =
     A(z) „{ $name }” melléklet amit megnyit egy OpenPGP-kulcsfájlnak tűnik.
@@ -780,6 +783,8 @@ debug-log-title = OpenPGP hibakeresési napló
 dlg-button-ok = &Rendben
 dlg-button-close = &Bezárás
 dlg-button-cancel = &Mégse
+dlg-button-open = &Megnyitás…
+dlg-button-save = &Mentés
 dlg-no-prompt = Ne jelenjen meg többet ez a párbeszédablak
 enig-prompt = OpenPGP kérdés
 enig-confirm = OpenPGP megerősítés

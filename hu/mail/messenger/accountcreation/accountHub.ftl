@@ -258,6 +258,7 @@ account-hub-oauth-unsupported-title = További konfiguráció szükséges
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
 account-hub-oauth-unsupported-description = A { -brand-short-name } nem tudja automatikusan beállítani az OAuth2-t ehhez a gazdagépnévhez. Válassza a Speciális beállítások lehetőséget a fiók létrehozásához, majd fejezze be a beállítást a Fiókbeállításokban. <a data-l10n-name="oauth-support-link">Segítség az OAuth2 beállításához.</a>
 account-hub-username-help-text = Adja meg az e-mail-címét
+account-hub-port-help-text = Ha üresen hagyja, a { -brand-short-name } megpróbálja felderíteni a portot.
 account-hub-notification-show-more = Több megjelenítése
 account-hub-notification-show-less = Kevesebb megjelenítése
 account-hub-email-setup-header = E-mail-cím hozzáadása
