@@ -2,8 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from content/viewSource.xhtml -->
-
 <!-- LOCALIZATION NOTE (mainWindow.title) : DONT_TRANSLATE -->
 <!ENTITY mainWindow.title "&brandFullName;">
 <!-- LOCALIZATION NOTE (mainWindow.titlemodifier) : DONT_TRANSLATE -->
@@ -72,5 +70,5 @@
 <!ENTITY goForwardCmd.commandKey "]">
 <!ENTITY copyLinkCmd.label "Copiar ligação">
 <!ENTITY copyLinkCmd.accesskey "l">
-<!ENTITY copyEmailCmd.label "Copiar endereço de email">
+<!ENTITY copyEmailCmd.label "Copiar endereço de e-mail">
 <!ENTITY copyEmailCmd.accesskey "e">

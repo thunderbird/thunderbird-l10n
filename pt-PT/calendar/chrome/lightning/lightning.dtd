@@ -2,10 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- WARNING! This file contains UTF-8 encoded characters!
-   - If this ==> … <== doesn't look like an ellipsis (three dots in a row),
-   - your editor isn't using UTF-8 encoding and may munge up the document! -->
-
 <!-- Tools menu -->
 <!ENTITY lightning.preferencesLabel "Calendário">
 <!-- New menu popup in File menu -->
@@ -31,14 +27,14 @@
      lightning.calendarproperties.forceEmailScheduling.label)
      These strings are used in the calendar wizard and the calendar properties dialog, but are only
      displayed when setting/using a caldav calendar -->
-<!ENTITY lightning.calendarproperties.email.label "Email:">
-<!ENTITY lightning.calendarproperties.forceEmailScheduling.label "Preferir agendamento de email do lado do cliente">
+<!ENTITY lightning.calendarproperties.email.label "E-mail:">
+<!ENTITY lightning.calendarproperties.forceEmailScheduling.label "Preferir agendamento de e-mail do lado do cliente">
 <!-- LOCALIZATON NOTE(lightning.calendarproperties.forceEmailScheduling.tooltiptext1,
      lightning.calendarproperties.forceEmailScheduling.tooltiptext2)
      - tooltiptext1 is used in the calendar wizard when setting a new caldav calendar
      - tooltiptext2 is used in the calendar properties dialog for caldav calendars -->
 <!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext1 "Por agora, só pode ativar isto depois de configurar este calendário na sua janela de propriedade se o servidor do calendário cuidar do agendamento.">
-<!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext2 "Esta opção apenas está disponível se o servidor do calendário lidar com o agendamento. Ativar isto irá permitir retroceder para o agendamento baseado no email padrão em vez de o deixar para o servidor.">
+<!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext2 "Esta opção apenas está disponível se o servidor do calendário lidar com o agendamento. Ativar isto irá permitir retroceder para o agendamento baseado no e-mail padrão em vez de o deixar para o servidor.">
 <!-- The notifications settings in the properties dialog -->
 <!ENTITY lightning.calendarproperties.notifications.label "Notificações">
 <!ENTITY lightning.calendarproperties.globalNotifications.label "Preferências globais de notificação...">

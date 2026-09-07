@@ -25,6 +25,6 @@ calendar-editable-item-reminder-icon-alarm =
 calendar-editable-item-reminder-icon-suppressed-alarm =
     .alt = Está agendado um lembrete de alerta  mas atualmente está suprimido
 calendar-editable-item-reminder-icon-email =
-    .alt = Está agendado um lembrete de alerta
+    .alt = Está agendado um lembrete de alerta por e-mail
 calendar-editable-item-reminder-icon-audio =
     .alt = Está agendado um lembrete áudio de alerta

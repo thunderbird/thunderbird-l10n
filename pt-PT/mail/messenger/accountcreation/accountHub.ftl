@@ -264,7 +264,7 @@ account-hub-oauth-unsupported-title = É requerida configuração adicional
 # Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
 account-hub-oauth-unsupported-description = O { -brand-short-name } não pode configurar automaticamente o OAuth2 para este nome de servidor. Selecione Configuração Avançada para criar a conta, e complete a configuração nas Definições da Conta. <a data-l10n-name="oauth-support-link">Obter ajuda na configuração do OAuth2.</a>
-account-hub-username-help-text = Muitas das vezes o seu endereço de email completo
+account-hub-username-help-text = Muitas das vezes o seu endereço de e-mail completo
 account-hub-port-help-text = Se deixado em branco, o { -brand-short-name } irá tentar descobrir a porta.
 account-hub-notification-show-more = Mostrar mais
 account-hub-notification-show-less = Mostrar menos
@@ -272,14 +272,14 @@ account-hub-email-setup-header = Adicionar o seu endereço de e-mail
 account-hub-email-setup-incoming = Definições do servidor de receção
 account-hub-email-setup-outgoing = Definições do servidor de envio
 account-hub-email-exchange-settings = Definições do Exchange
-account-hub-email-connect-settings = Conectar as suas definições de email
+account-hub-email-connect-settings = Conectar as suas definições de e-mail
 account-hub-email-protocol-select-header = Escolha um tipo de conta de e-mail
 account-hub-email-protocol-select-additional-info = É necessária informação adicional para configurar esta conta.
 account-hub-email-config-found = Escolha o tipo da sua conta de e-mail
 account-hub-email-enter-password = Introduza a palavra-passe da sua conta de e-mail
 account-hub-email-sync-accounts = Sincronize os seus calendários e livros de endereços
 account-hub-test-configuration = Teste
-account-hub-add-new-email = Adicionar outro email
+account-hub-add-new-email = Adicionar outro e-mail
 account-hub-result-imap-description = Mantenha as suas pastas e as mensagens sincronizadas no seu servidor
 account-hub-result-pop-description = Mantenha as suas pastas e as mensagens no seu computador
 account-hub-result-ews-shortname = Exchange

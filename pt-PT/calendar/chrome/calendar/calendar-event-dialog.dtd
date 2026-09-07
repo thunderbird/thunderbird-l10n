@@ -32,7 +32,7 @@
 <!ENTITY event.attendees.notify.accesskey "f">
 <!ENTITY event.attendees.notifyundisclosed.label "Separar convite por participante">
 <!ENTITY event.attendees.notifyundisclosed.accesskey "x">
-<!ENTITY event.attendees.notifyundisclosed.tooltip "Esta opção envia um convite de email por pessoa. Cada convite apenas contém um destinatário pelo que outros convidados não serão identificados.">
+<!ENTITY event.attendees.notifyundisclosed.tooltip "Esta opção envia um convite de e-mail por pessoa. Cada convite apenas contém um destinatário pelo que outros convidados não serão identificados.">
 <!ENTITY event.attendees.disallowcounter.label "Desativar contraproposta">
 <!ENTITY event.attendees.disallowcounter.accesskey "a">
 <!ENTITY event.attendees.disallowcounter.tooltip "Indica que não irá aceitar contrapropostas">

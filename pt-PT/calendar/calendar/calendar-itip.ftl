@@ -127,7 +127,7 @@ imip-send-mail-text = Deseja enviar agora as mensagens de notificação?
 ## Calendar email identity
 
 imip-no-identity = Nenhuma
-no-identity-selected-notification = Se deseja utilizar este calendário para armazenar convites para ou de outras pessoas deve atribuir uma identidade de email abaixo.
+no-identity-selected-notification = Se deseja utilizar este calendário para armazenar convites para ou de outras pessoas deve atribuir uma identidade de e-mail abaixo.
 
 ## Invitations panel
 
