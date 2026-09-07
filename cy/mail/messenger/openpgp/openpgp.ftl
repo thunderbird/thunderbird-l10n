@@ -786,7 +786,7 @@ sig-mismatch = Gwall - Camgydweddiad llofnod
 invalid-email = Gwall - cyfeiriad(au) e-bost annilys
 # Variables:
 #   $name (String) - File name of the attachment.
-attachment-pgp-key-import = Mae’n ymddangos bod yr atodiad ‘{ $name }’ yn ffeil bysell OpenPGP. Ydych chi am fewnforio'r allweddi sydd ynddo?
+attachment-pgp-key-import = Mae’n ymddangos bod yr atodiad ‘{ $name }’ yn ffeil allwedd OpenPGP. Ydych chi am fewnforio'r allweddi sydd ynddo?
 # Variables:
 # $name (String) - File name of the attachment.
 attachment-pgp-key =
@@ -811,7 +811,7 @@ debug-log-title = Cofnod Dadfygio OpenPGP
 dlg-button-ok = &IAWN
 dlg-button-close = &Cau
 dlg-button-cancel = &Diddymu
-dlg-button-open = &Agored…
+dlg-button-open = &Agor…
 dlg-button-save = &Cadw
 dlg-no-prompt = Peidio dangos y blwch deialog eto.
 enig-prompt = Anogwr OpenPGP
