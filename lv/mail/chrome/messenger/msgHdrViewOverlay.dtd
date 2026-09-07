@@ -19,7 +19,7 @@
 <!ENTITY referencesField4.label "Atsauces">
 <!ENTITY messageIdField4.label "Vēstules ID">
 <!ENTITY inReplyToField4.label "Atbildot uz">
-<!ENTITY originalWebsite4.label "Tīmekļa vietne">
+<!ENTITY originalWebsite4.label "Tīmekļvietne">
 <!ENTITY hdrArchiveButton1.label "Arhivēt">
 <!ENTITY hdrArchiveButton1.tooltip "Arhivēt šo vēstuli">
 <!ENTITY hdrSmartReplyButton1.label "Viedā atbilde">

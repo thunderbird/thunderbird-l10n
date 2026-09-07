@@ -19,7 +19,7 @@ openpgp-sig-uncertain-uid-mismatch = Šajā vēstulē ir digitālais paraksts, t
 openpgp-sig-uncertain-not-accepted = Šajā vēstulē ir digitālais paraksts, taču jūs vēl neesat izlēmis, vai parakstītāja atslēga jums ir pieņemama.
 openpgp-sig-invalid-rejected = Šajā vēstulē ir digitālais paraksts, taču iepriekš esat nolēmis noraidīt parakstītāja atslēgu.
 openpgp-sig-invalid-technical-problem = Šajā vēstulē ir digitālais paraksts, taču tika konstatēta tehniska kļūda. Vai nu vēstule ir bojāta, vai kāds cits to ir mainījis.
-openpgp-sig-valid-unverified = Šajā vēstulē ir iekļauts derīgs digitālais paraksts no atslēgas, kuru jau esat pieņēmis. Tomēr jūs vēl neesat pārbaudījis, vai atslēga patiešām pieder sūtītājam.
+openpgp-sig-valid-unverified = Šajā ziņojumā ir iekļauts derīgs ciparu paraksts no atslēgas, kuru jau iepriekš pieņēmi. Tomēr Tu vēl neapliecināji, ka atslēga tiešām pieder sūtītājam.
 openpgp-sig-valid-verified = Šajā vēstulē ir iekļauts derīgs digitālais paraksts no pārbaudītas atslēgas.
 openpgp-sig-valid-own-key = Šajā vēstulē ir iekļauts derīgs digitālais paraksts no jūsu personīgās atslēgas.
 # Variables:

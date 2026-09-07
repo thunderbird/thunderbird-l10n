@@ -221,9 +221,9 @@ openpgp-acceptance-rejected-label =
 openpgp-acceptance-undecided-label =
     .label = Vēl ne, varbūt vēlāk.
 openpgp-acceptance-unverified-label =
-    .label = Jā, bet neesmu pārbaudījis, ka tā ir pareizā atslēga.
+    .label = Jā, bet es neapliecināju, ka tā ir pareizā atslēga.
 openpgp-acceptance-verified-label =
-    .label = Jā, esmu pārbaudījis, ka šai atslēgai ir pareizs pirkstu nospiedums.
+    .label = Jā, es apliecināju, ka šai atslēgai ir pareizs pirkstu nospiedums.
 key-accept-personal =
     Šai atslēgai jums ir gan publiskā, gan slepenā daļa. Jūs to varat izmantot kā personīgo atslēgu.
     Ja šo atslēgu jums piešķīra kāds cits, tad nelietojiet to kā personīgo atslēgu.

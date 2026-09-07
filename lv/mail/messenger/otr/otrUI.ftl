@@ -43,7 +43,7 @@ state-finished-label = Pabeigta
 verify-request = { $name } pieprasīja jūsu identitātes pārbaudi.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
-afterauth-private = Jūs esat pārbaudījis { $name } identitāti.
+afterauth-private = Tu apliecināji { $name } identitāti.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 afterauth-unverified = { $name } identitāte nav pārbaudīta.
