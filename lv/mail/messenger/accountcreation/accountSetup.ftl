@@ -9,6 +9,15 @@ account-setup-tab-title = Konta iestatīšana
 account-setup-title = Iestatiet savu esošo e-pasta adresi
 account-setup-description = Lai izmantotu savu pašreizējo e-pasta adresi, aizpildiet jūsu akreditācijas datus.
 
+## Illustrations
+
+account-setup-step4-image =
+    .title = Savienojuma kļūda
+
+## Alert dialogs
+
+account-setup-creation-error-title = Kļūda konta izveidošanā
+
 ## Calendar synchronization dialog
 
 account-setup-calendar-offline-support = Bezsaistes atbalsts

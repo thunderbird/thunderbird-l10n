@@ -85,6 +85,7 @@ attachment-reminder-keywords-msg =
 # information about the used service provider.
 # $link (string) - html a-tag for a link pointing to the web page of the provider
 cloud-file-service-provider-footer-single = Uzzināt vairāk par { $link }.
+cloud-file-connection-error-title = Savienojuma kļūda
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =

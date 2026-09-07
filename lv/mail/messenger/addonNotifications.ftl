@@ -26,12 +26,6 @@ xpinstall-prompt-never-allow =
 xpinstall-prompt-install =
     .label = Turpināt uzstādīšanu
     .accesskey = C
-
-# These messages are shown when a website invokes navigator.requestMIDIAccess.
-
-
-##
-
 xpinstall-disabled-locked = Jūsu sistēmas administrators ir liedzis programmatūras uzstādīšanu.
 xpinstall-disabled = Programmatūras uzstādīšana ir liegta. Klikšķiniet Ļaut un mēģiniet vēlreiz.
 xpinstall-disabled-button =
@@ -95,7 +89,7 @@ addon-install-error-incorrect-hash = Šo papildinājumu nevar uzstādīt, jo tas
 addon-install-error-corrupt-file = Papildinājumu no šīs vietnes nevar uzstādīt, jo tas izskatās bojāts.
 addon-install-error-file-access = { $addonName } nevar uzstādīt, jo { -brand-short-name } nevar mainīt nepieciešamo failu.
 addon-install-error-not-signed = { -brand-short-name } liedza vietnei uzstādīt nepārbaudītu papildinājumu.
-addon-local-install-error-network-failure = Šo papildinājumu nevar uzstādīt failu sistēmas kļūdas dēļ.
+addon-local-install-error-network-failure = Šo papildinājumu nevarēja uzstādīt datņu sistēmas kļūdas dēļ.
 addon-local-install-error-incorrect-hash = Šo papildinājumu nevar uzstādīt, jo tas neatbilst gaidāmajam papildinājumam { -brand-short-name }.
 addon-local-install-error-corrupt-file = Šo papildinājumu nevar uzstādīt, jo tas izskatās bojāts.
 addon-local-install-error-file-access = { $addonName } nevar uzstādīt, jo { -brand-short-name } nevar mainīt nepieciešamo failu.
