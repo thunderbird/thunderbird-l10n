@@ -280,4 +280,4 @@ command-nick = { $commandName }&lt;jaunais segvārds&gt;: Nomainīt jūsu segvā
 # $commandName (String): command name
 command-msg = { $commandName } &lt;segvārds&gt; &lt;ziņojums&gt;: Nosūtīt privātu ziņojumu lietotājam istabā.
 # $commandName (String): command name
-command-version = { $commandName }: Pieprasīt informāciju par jūsu sarunas partnera izmantoto klientu.
+command-version = { $commandName }: pieprasīt informāciju par sarunas līdzdalībnieka izmantoto klientu.

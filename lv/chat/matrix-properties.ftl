@@ -154,3 +154,5 @@ message-accepted-invite = { $user } pieņēma uzaicinājumu.
 #    $user is the name of the user who invited.
 #    $userWhoGotInvited is the name of the user who got invited.
 message-invited = { $user } uzaicnāja { $userWhoGotInvited }.
+#    Label in the message context menu
+message-action-request-key = Atkārtoti pieprasīt atslēgas

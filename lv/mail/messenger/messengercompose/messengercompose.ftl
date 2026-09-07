@@ -38,8 +38,8 @@ pill-action-move-bcc =
 ## Reorder Attachment Panel
 
 button-return-receipt =
-    .label = Ziņa
-    .tooltiptext = Pieprasīt saņemšanas apliecinājuma ziņu
+    .label = Saņemšanas apliecinājums
+    .tooltiptext = Šim ziņojumam pieprasīt saņemšanas apliecinājumu
 # Variables:
 #   $count - the number of attachments
 remove-attachment-cmd =
