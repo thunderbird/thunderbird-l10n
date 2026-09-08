@@ -12,3 +12,6 @@ inactive-message = Verksemd-policy-tenesta er inaktiv.
 policy-name = Policy-namn
 policy-value = Policy-verdi
 policy-errors = Policy-feil
+# Shown under the name of a policy in the Active list when at least one of the
+# operations of that policy failed to apply. The Errors tab has the details.
+policy-not-fully-applied = Ikkje fullstendig brukt

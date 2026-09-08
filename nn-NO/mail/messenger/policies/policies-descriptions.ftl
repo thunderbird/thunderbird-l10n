@@ -27,6 +27,7 @@ policy-DisableBuiltinPDFViewer = Deaktiver PDF.js, det innebygde PDF-visingsprog
 policy-DisabledCiphers = Slå av krypteringsmetodar.
 policy-DefaultDownloadDirectory = Vel standardmappe for nedlastingar.
 policy-DisableAppUpdate = Hindre at { -brand-short-name } vert oppdatert.
+policy-DisableChat = Slå av chatt-funksjonen
 policy-DisableDataCollectionSettings = Hindre brukaren i å endre innstillingar for datainnsamling.
 policy-DisableDefaultClientAgent = Hindre standardklientagenten frå å gjere noko. Gjeld berre Windows; andre plattformer har ikkje agenten.
 policy-DisableDeveloperTools = Blokker tilgang til utviklarverktøya.
