@@ -27,6 +27,7 @@ policy-DisableBuiltinPDFViewer = Отключает PDF.js, встроенный
 policy-DisabledCiphers = Отключает шифры.
 policy-DefaultDownloadDirectory = Устанавливает каталог для загрузок по умолчанию.
 policy-DisableAppUpdate = Запрещает обновление { -brand-short-name }.
+policy-DisableChat = Отключает функцию чата.
 policy-DisableDataCollectionSettings = Не позволяет пользователю изменять настройки сбора данных.
 policy-DisableDefaultClientAgent = Не позволяет агенту клиента по умолчанию предпринимать какие-либо действия. Применимо только к Windows; на других платформах агента нет.
 policy-DisableDeveloperTools = Блокирует доступ к инструментам разработчика.
