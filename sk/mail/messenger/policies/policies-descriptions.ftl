@@ -27,6 +27,7 @@ policy-DisableBuiltinPDFViewer = Zablokuje PDF prehliadač PDF.js zabudovaný v 
 policy-DisabledCiphers = Zakáže šifry.
 policy-DefaultDownloadDirectory = Nastaví predvolené umiestnenie pre sťahovanie súborov.
 policy-DisableAppUpdate = Zabráni aktualizáciám aplikácie { -brand-short-name }.
+policy-DisableChat = Zakáže funkciu konverzácií.
 policy-DisableDataCollectionSettings = Zabráni používateľovi v zmene nastavení zhromažďovania údajov.
 policy-DisableDefaultClientAgent = Zabrániť predvolenému agentovi klienta v podnikaní akýchkoľvek akcií. Použiteľné iba pre Windows; iné platformy agenta nemajú.
 policy-DisableDeveloperTools = Zablokuje prístup k vývojárskym nástrojom.
