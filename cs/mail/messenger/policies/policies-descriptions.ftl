@@ -41,6 +41,7 @@ policy-DisableAppUpdate =
         [with-cases] Blokování aktualizací { -brand-short-name(case: "gen") }.
        *[no-cases] Blokování aktualizací aplikace { -brand-short-name }.
     }
+policy-DisableChat = Zakázat funkci Chat.
 policy-DisableDataCollectionSettings = Zabránit uživateli ve změnách nastavení shromažďování dat.
 policy-DisableDefaultClientAgent = Zabraňuje „výchozímu agentovi klienta“ provádět jakékoliv akce. Dostupné pouze pro Windows, ostatní platformy agenty nemají.
 policy-DisableDeveloperTools = Blokování přístupu k nástrojům pro vývojáře.
