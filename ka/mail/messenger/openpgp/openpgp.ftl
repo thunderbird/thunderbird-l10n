@@ -757,6 +757,9 @@ key-in-message-body = გასაღები ნაპოვნია წე�
 sig-mismatch = შეცდომა – ხელმოწერის შეუსაბამობა
 invalid-email = შეცდომა – არასწორი ელფოსტის მისამართ(ებ)ი
 # Variables:
+#   $name (String) - File name of the attachment.
+attachment-pgp-key-import = დანართი „{ $name }“, როგორც ჩანს, OpenPGP-გასაღების ფაილია. გსურთ შემცველი გასაღებების გადმოტანა?
+# Variables:
 # $name (String) - File name of the attachment.
 attachment-pgp-key =
     დანართი „{ $name }“ რომელსაც ხსნით, როგორც ჩანს, არის OpenPGP-გასაღების ფაილი.
@@ -780,6 +783,8 @@ debug-log-title = OpenPGP გამართვის ჩანაწერე�
 dlg-button-ok = &კარგი
 dlg-button-close = &დახურვა
 dlg-button-cancel = &გაუქმება
+dlg-button-open = &გახსნა…
+dlg-button-save = &შენახვა
 dlg-no-prompt = აღარ გამოჩნდეს ეს ფანჯარა
 enig-prompt = OpenPGP მოთხოვნა
 enig-confirm = OpenPGP დადასტურება

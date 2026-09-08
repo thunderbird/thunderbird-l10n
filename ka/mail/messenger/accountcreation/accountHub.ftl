@@ -265,6 +265,7 @@ account-hub-oauth-unsupported-title = დამატებით გამა�
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
 account-hub-oauth-unsupported-description = { -brand-short-name } ვერ ახერხებს, თავად გამართოს OAuth2 ამ მისამართისთვის. აირჩიეთ დამატებით გამართვა ანგარიშის შესაქმნელად, შემდეგ კი დაასრულეთ გამართვა ანგარიშის პარამეტრებიდან. <a data-l10n-name="oauth-support-link">დახმარება, თუ როგორ უნდა გამართოთ OAuth2.</a>
 account-hub-username-help-text = ჩვეულებრივ, თქვენი ელფოსტის სრული მისამართი
+account-hub-port-help-text = თუ დარჩება ცარიელი, { -brand-short-name } შეეცდება პორტის აღმოჩენას.
 account-hub-notification-show-more = ვრცლად
 account-hub-notification-show-less = შემოკლებულად
 account-hub-email-setup-header = ელფოსტის მისამართის დამატება
