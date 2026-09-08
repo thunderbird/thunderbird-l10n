@@ -27,6 +27,7 @@ policy-DisableBuiltinPDFViewer = PDF.js znjemóžniś, zatwarjony PDF-wobglědow
 policy-DisabledCiphers = Šyfry znjemóžniś.
 policy-DefaultDownloadDirectory = Standardny ześěgnjeński zarědnik nastajiś.
 policy-DisableAppUpdate = { -brand-short-name } aktualizěrowanje zawoboraś.
+policy-DisableChat = Funkciju Chat znjemóžniś.
 policy-DisableDataCollectionSettings = Tomu zajźowaś, až wužywaŕ nastajenja zběrki datow změnijo.
 policy-DisableDefaultClientAgent = Zawoborajśo standardnemu klientowemu agentoju wuwjedowanje akcijow. To jo jano za Windows k dispoziciji; druge platformy agent njamaju.
 policy-DisableDeveloperTools = Pśistup k wuwijarskim rědam blokěrowaś.

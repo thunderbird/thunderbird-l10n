@@ -12,3 +12,6 @@ inactive-message = Słužba pśedewześowychh pšawidłow jo inaktiwna.
 policy-name = Mě pšawidła
 policy-value = Gódnota pšawidła
 policy-errors = Zmólki pšawidła
+# Shown under the name of a policy in the Active list when at least one of the
+# operations of that policy failed to apply. The Errors tab has the details.
+policy-not-fully-applied = Nic dopołnje nałožony
