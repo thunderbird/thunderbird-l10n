@@ -27,6 +27,7 @@ policy-DisableBuiltinPDFViewer = Analluogi PDF.js, y dangosydd PDF mewnol yn { -
 policy-DisabledCiphers = Analluogi seifferau.
 policy-DefaultDownloadDirectory = Gosod y cyfeiriadur llwytho i lawr rhagosodedig.
 policy-DisableAppUpdate = Rhwystro { -brand-short-name } rhag diweddaru.
+policy-DisableChat = Analluoga'r nodwedd Chat.
 policy-DisableDataCollectionSettings = Rhwystro'r defnyddiwr rhag newid gosodiadau casglu data.
 policy-DisableDefaultClientAgent = Atal asiant y cleient rhagosodedig rhag cymryd unrhyw gamau. Dim ond yn berthnasol i Windows; nid oes gan lwyfannau eraill yr asiant.
 policy-DisableDeveloperTools = Rhwystro mynediad at offer datblygwr.

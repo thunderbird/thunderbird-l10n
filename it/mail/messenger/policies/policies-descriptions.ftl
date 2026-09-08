@@ -27,6 +27,7 @@ policy-DisableBuiltinPDFViewer = Disattiva PDF.js, il lettore PDF integrato in {
 policy-DisabledCiphers = Disattiva crittografie.
 policy-DefaultDownloadDirectory = Imposta la cartella predefinita per i download.
 policy-DisableAppUpdate = Blocca l’aggiornamento di { -brand-short-name }.
+policy-DisableChat = Disattiva la funzione Chat.
 policy-DisableDataCollectionSettings = Impedisce all’utente di modificare le impostazioni relative alla raccolta dei dati.
 policy-DisableDefaultClientAgent = Impedisci al “default client agent” di eseguire qualsiasi azione. Applicabile solo per Windows, il servizio non è disponibile in altri sistemi operativi.
 policy-DisableDeveloperTools = Blocca accesso agli strumenti di sviluppo.

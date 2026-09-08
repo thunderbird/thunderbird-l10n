@@ -223,7 +223,9 @@ message-verification-request2 = { $user } haluaa vahvistaa { $userReceiving }:n.
 message-verification-cancel2 = { $user } perui vahvistuksen syystä: { $reason }
 message-verification-done = Vahvistus suoritettu.
 message-decrypting = Puretaan salausta...
+message-redacted = Viesti on sensuroitu.
 #    Label in the message context menu
 message-action-request-key = Pyydä avaimet uudelleen
+message-action-redact = Sensuroi
 message-action-retry = Yritä lähettää uudelleen
 message-action-cancel = Peruuta viesti

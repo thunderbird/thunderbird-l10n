@@ -5,6 +5,12 @@
 
 ## Table
 
+tree-list-view-row-select =
+    .alt = Ruutu valitun rivin valitsemiseen
+    .title = Valitse nykyinen rivi
+tree-list-view-row-deselect =
+    .alt = Ruutu valitun rivin valitsemiseen
+    .title = Kumoa nykyisen rivin valinta
 tree-list-view-row-delete =
     .title = Poista nykyinen rivi
 tree-list-view-row-restore =
