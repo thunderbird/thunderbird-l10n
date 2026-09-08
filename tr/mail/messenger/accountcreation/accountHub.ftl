@@ -243,6 +243,10 @@ account-hub-same-username-checkbox = Gelen sunucusuyla aynı kullanıcı adı
 # $newValue (String): The value found after the configuration was tested.
 account-hub-manual-config-security-changed = { $oldValue } bulunamadı ama { $newValue } mevcut.
 # Variables:
+# $oldValue (String): The port requested before the configuration was tested.
+# $newValue (String): The port found after the configuration was tested.
+account-hub-manual-config-port-changed = { $oldValue } portuna ulaşılamadı ama { $newValue } portu kullanılabilir.
+# Variables:
 # $oldValue (String): The value requested before the configuration was tested.
 # $newValue (String): The value found after the configuration was tested.
 account-hub-manual-config-value-changed = { $oldValue } kullanılamadı ama { $newValue } kullanılabilir.
