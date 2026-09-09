@@ -44,4 +44,4 @@ account-disconnecting =
     .value = A desassociar…
 account-disconnected =
     .value = Não ligado
-add-account-label = Adicionar conta
+add-account-label = Adicionar Conta
