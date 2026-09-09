@@ -29,15 +29,15 @@ folder-props-size-unknown =
     .value = nezināms
 folder-props-rebuild-summary =
     .label = Salabot mapi
-    .accesskey = R
     .tooltiptext = Pārbūvēt kopsavilkuma failu rādītāju
+    .accesskey = R
 folder-props-include-in-global-search =
     .label = Iekļaut šīs mapes ziņojumus visaptverošās meklēšanas iznākumā
     .accesskey = v
 folder-props-check-for-new-messages =
     .label = Saņemot jaunas vēstules šajā kontā, vienmēr pārbaudīt šo mapi
     .accesskey = S
-folder-props-rebuild-summary-explanation = Dažreiz mapes indeksa (.msf) fails sabojājas un vēstules var likties pazudušas vai var parādīties dzēstas vēstules; labojot mapi, šīs problēmas var novērst.
+folder-props-rebuild-summary-explanation = Dažreiz mapes indeksa (.msf) datne kļūst bojāta, un var šķist, ka trūkst ziņojumu vai turpina parādīties izdzēsti ziņojumi; ar mapes labošanu var novērst šīs nebūšanas.
 
 ## Retention tab (see retention.ftl)
 ##

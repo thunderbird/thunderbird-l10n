@@ -68,7 +68,7 @@ filter-editor-pick-template-reply = Izvēlieties veidni, ar kuru atbildēt.
 # Variables:
 # $filterName (String) - The name of the filter that was applied.
 filter-continue-execution = Neizdevās pielietot filtru { $filterName }. Vai vēlaties turpināt filtru lietošanu?
-filter-list-backup-message = Jūsu filtri nedarbojas, jo failu msgFilterRules.dat ar jūsu filtriem neizdevās nolasīt. Tiks izveidots jauns msgFilterRules.dat fails un tajā pašā mapē tiks izveidots vecā faila dublējums ar nosaukumu rulesbackup.dat.
+filter-list-backup-message = Atsijātāji nedarbojas, jo datni msgFilterRules.dat, kas satur atsijātājus, nevarēja nolasīt. Tiks izveidota jauna msgFilterRules.dat datni un vecās datnes dublējums ar nosaukumu rulesbackup.dat tajā pašā mapē.
 filter-invalid-custom-header = Viens no atsijātājiem izmanto pielāgotu galveni, kas satur nederīgu rakstzīmi, piemēram, ‘:’, nedrukājamu rakstzīmi, ne ASCII rakstzīmi vai astoņu bit ASCII rakstzīmi. Lūgums labot datni msgFilterRules.dat, kas satur atsijātājus, lai no pielāgotajām galvenēm noņemtu nederīgās rakstzīmes.
 # Variables:
 #   $count - the number items
@@ -82,9 +82,6 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } no { $total }
-
-## Filter List Dialog
-
 filter-window-title = Vēstuļu filtri
 filter-name-column =
     .label = Filtra nosaukums
@@ -104,8 +101,8 @@ filter-delete-button =
     .accesskey = D
 filter-reorder-top-button =
     .label = Pārvietot uz augšu
-    .accesskey = a
     .tooltiptext = Pārkārtot filtru, lai tas darbotos pirms visiem citiem
+    .accesskey = a
 filter-reorder-up-button =
     .label = Pārvietot augšup
     .accesskey = a
@@ -114,8 +111,8 @@ filter-reorder-down-button =
     .accesskey = l
 filter-reorder-bottom-button =
     .label = Pārvietot uz leju
-    .accesskey = l
     .tooltiptext = Pārkārtot filtru, lai tas darbotos pēc visiem citiem
+    .accesskey = l
 filter-header-label =
     .value = Ieslēgtie filtri tiek palaisti automātiski zemāk redzamā secībā.
 filter-filters-for-prefix =
