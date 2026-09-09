@@ -54,7 +54,7 @@ about-addressbook-books-context-delete =
 about-addressbook-books-context-remove =
     .label = Remover
 about-addressbook-books-context-startup-default =
-    .label = Diretório de inicialização predefinido
+    .label = Livro de endereços inicial predefinido
 about-addressbook-confirm-delete-book-title = Apagar livro de endereços
 # Variables:
 # $name (String) - Name of the address book to be deleted.
