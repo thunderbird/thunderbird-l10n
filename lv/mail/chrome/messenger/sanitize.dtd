@@ -19,7 +19,7 @@
 <!ENTITY historyGroup.label "Vēsture">
 <!ENTITY itemHistory.label "Pārlūkošanas vēsture">
 <!ENTITY itemHistory.accesskey "P">
-<!ENTITY itemCookies.label "Sīkfaili">
+<!ENTITY itemCookies.label "Sīkdatnes">
 <!ENTITY itemCookies.accesskey "S">
 <!ENTITY itemCache.label "Kešs">
 <!ENTITY itemCache.accesskey "K">

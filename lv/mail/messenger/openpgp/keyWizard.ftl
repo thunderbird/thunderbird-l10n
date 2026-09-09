@@ -93,8 +93,8 @@ openpgp-import-key-button =
 import-key-file = OpenPGP atslēgas failu importēšana
 import-key-personal-checkbox =
     .label = Uzskatīt šo atslēgu par personīgo atslēgu
-gnupg-file = GnuPG faili
-import-error-file-size = <b>Kļūda!</b> Faili, kas pārsniedz 5 MB, nav atbalstīti.
+gnupg-file = GnuPG datnes
+import-error-file-size = <b>Kļūda!</b> Datnes, kas ir lielākas par 5 MB, netiek atbalstītas.
 #   $error (String) - the reported error from the failed key import method
 import-error-failed = <b>Kļūda!</b> Neizdevās importēt failu. { $error }
 #   $error (String) - the reported error from the failed key import method

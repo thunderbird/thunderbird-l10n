@@ -430,7 +430,7 @@
 <!ENTITY imStatus.showAccounts "Rādīt kontus…">
 <!ENTITY joinChatCmd.label "Pievienoties tērzēšanai…">
 <!ENTITY joinChatCmd.accesskey "P">
-<!ENTITY savedFiles.label "Saglabātie faili">
+<!ENTITY savedFiles.label "Saglabātās datnes">
 <!ENTITY savedFiles.accesskey "S">
 <!ENTITY savedFiles.key "j">
 <!ENTITY filtersCmd2.label "Vēstuļu filtri">
