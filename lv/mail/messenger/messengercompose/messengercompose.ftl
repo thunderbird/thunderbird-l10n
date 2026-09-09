@@ -90,9 +90,9 @@ cloud-file-connection-error-title = Savienojuma kļūda
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
     { $count ->
-        [zero] Jūsu fails tiek sasaistīts. Tas parādīsies vēstules pamattekstā, kad tas būs pabeigts.
-        [one] Jūsu faili tiek sasaistīti. Tie parādīsies vēstules pamattekstā, kad tas būs pabeigts.
-       *[other] Jūsu faili tiek sasaistīti. Tie parādīsies vēstules pamattekstā, kad tas būs pabeigts.
+        [zero] Datnes tiek sasaistītas. Tās parādīsies ziņojuma saturā, kad tas būs pabeigts.
+        [one] Datne tiek sasaistīta. Tā parādīsies ziņojuma saturā, kad tas būs pabeigts.
+       *[other] Datnes tiek sasaistītas. Tās parādīsies ziņojuma saturā, kad tas būs pabeigts.
     }
 # Variables:
 #   $count - the number big attached files

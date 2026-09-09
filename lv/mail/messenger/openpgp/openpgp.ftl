@@ -614,8 +614,8 @@ attachment-pgp-key-import = Šķiet, ka pielikums ‘{ $name }’ ir OpenPGP ats
 # Variables:
 # $name (String) - File name of the attachment.
 attachment-pgp-key =
-    Šķiet, ka atveramais pielikums '{ $name }' ir OpenPGP atslēgas fails.
-    Lai importētu ietvertās atslēgas, klikšķiniet 'Importēt', vai 'Skatīt', lai skatītu faila saturu pārlūkā.
+    Šķiet, ka atveramais pielikums '{ $name }' ir OpenPGP atslēgas datne.
+    Lai ievietotu ietvertās atslēgas, Jāklikšķina “Ievietot”, vai “Apskatīt”, lai pārlūka logā apskatītu datnes saturu.
 dlg-button-view = &Skatīt
 
 ## Strings used in encryption.sys.mjs
