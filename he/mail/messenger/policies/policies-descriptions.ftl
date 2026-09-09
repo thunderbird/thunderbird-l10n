@@ -23,6 +23,7 @@ policy-CertificatesDescription = הוספת אישורים או שימוש בא�
 policy-Cookies = לאשר או לסרב להגדרת עוגיות מאתרים.
 policy-DefaultDownloadDirectory = הגדרת תיקיית ההורדות ברירת המחדל.
 policy-DisableAppUpdate = למנוע מ־{ -brand-short-name } להתעדכן.
+policy-DisableChat = השבתת האפשרות של הצ’אט.
 policy-DisableDeveloperTools = חסימת גישה לכלי הפיתוח.
 policy-DisableFeedbackCommands = השבתת פקודות לשליחת משוב מתפריט העזרה (שליחת משוב ודיווח על אתר מטעה).
 policy-DisableForgetButton = מניעת גישה לכפתור 'לשכוח'.
