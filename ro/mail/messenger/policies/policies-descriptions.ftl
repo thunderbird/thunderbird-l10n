@@ -23,7 +23,7 @@ policy-BlockAboutSupport = Blochează accesul la pagina about:support.
 policy-CaptivePortal = Activează sau dezactivează suportul pentru portale captive.
 policy-CertificatesDescription = Adaugă certificate sau folosește certificate încorporate.
 policy-Cookies = Permite sau refuză ca site-urile să seteze cookie-uri.
-policy-DisableBuiltinPDFViewer = Dezactivează PDF.js, lectorul de fișiere PDF încorporat în { -brand-short-name }.
+policy-DisableBuiltinPDFViewer = Dezactivează PDF.js, cititorul de fișiere PDF încorporat în { -brand-short-name }.
 policy-DisabledCiphers = Dezactivează cifrurile.
 policy-DefaultDownloadDirectory = Setează directorul implicit pentru descărcări.
 policy-DisableAppUpdate = Împiedică actualizările pentru { -brand-short-name }.
@@ -80,7 +80,7 @@ policy-OverrideFirstRunPage = Anulează pagina de întâmpinare la prima utiliza
 policy-OverridePostUpdatePage = Anulează pagina „Noutăți” după actualizare. Lasă politica goală dacă vrei să dezactivezi pagina post-actualizare.
 policy-PasswordManagerEnabled = Activează salvarea parolelor în managerul de parole.
 # PDF.js and PDF should not be translated
-policy-PDFjs = Dezactivează sau configurează PDF.js, lectorul de PDF-uri încorporat în { -brand-short-name }.
+policy-PDFjs = Dezactivează sau configurează PDF.js, cititorul de PDF-uri încorporat în { -brand-short-name }.
 policy-Permissions2 = Configurează permisiunile pentru cameră, microfon, localizare, notificări și redare automată.
 policy-Preferences = Setează și blochează valoarea pentru un subset de preferințe.
 policy-PrimaryPassword = Impune sau împiedică folosirea unei parole primare.
