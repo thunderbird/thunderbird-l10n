@@ -388,7 +388,7 @@ key-man-button-export-sec-key = Izgūt &slepenās atslēgas
 key-man-button-export-pub-key = Izgūt tikai &publiskās atslēgas
 key-man-button-refresh-all = &Atsvaidzināt visas atslēgas
 key-man-loading-keys = Ielādē atslēgas, lūdzu, uzgaidiet…
-ascii-armor-file = ASCII bruņotie faili (* .asc)
+ascii-armor-file = ASCII bruņotās datnes (* .asc)
 no-key-selected = Lai veiktu atlasīto darbību, jums jāizvēlas vismaz viena atslēga
 export-to-file = Izgūt publisko atslēgu datnē
 export-keypair-to-file = Izgūt slepeno un publisko atslēgu datnē
@@ -507,7 +507,7 @@ key-trust-group = (grupa)
 
 import-key-file = Importēt OpenPGP atslēgas failu
 import-rev-file = Importēt OpenPGP atsaukšanas failu
-gnupg-file = GnuPG faili
+gnupg-file = GnuPG datnes
 import-keys-failed = Atslēgu importēšana neizdevās
 file-to-big-to-import = Šī datne ir pārāk liela. Lūgums vienlaicīgi neievietot lielas atslēgu kopas.
 

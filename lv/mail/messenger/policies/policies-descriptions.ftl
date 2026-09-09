@@ -62,11 +62,11 @@ policy-LegacyProfiles = Atslēgt iespēja, kas katram uzstādījumam nodrošina 
 ## Do not translate "SameSite", it's the name of a cookie attribute.
 
 policy-LegacySameSiteCookieBehaviorEnabled = Ieslēgt noklusēto mantoto SameSite sīkfailu uzvedības iestatījumu.
-policy-LegacySameSiteCookieBehaviorEnabledForDomainList = Noteiktās vietnēs atgriezties pie mantotās SameSite uzvedības sīkfailiem.
+policy-LegacySameSiteCookieBehaviorEnabledForDomainList = Noteiktās vietnēs atgriezties pie novecojušās SameSite uzvedības sīkdatnēm.
 
 ##
 
-policy-LocalFileLinks = Ļaut noteiktām vietnēm izveidot saites uz vietējiem failiem.
+policy-LocalFileLinks = Ļaut noteiktām tīmekļvietnēm izveidot saites uz vietējām datnēm.
 policy-NetworkPrediction = Ieslēgt vai atslēgt tīkla paredzēšanu (DNS priekšpiegādi).
 policy-OfferToSaveLogins = Ieviest iestatījumu ļauj { -brand-short-name } piedāvāt atcerēties saglabātos pieteikumvārdus un paroles. Tiek pieņemtas gan patiesas, gan nepatiesas vērtības.
 policy-OfferToSaveLoginsDefault = Iestatīt noklusēti ļaut { -brand-short-name } piedāvāt atcerēties saglabātos pieteikumvārdus un paroles. Tiek pieņemtas gan patiesas, gan nepatiesas vērtības.
