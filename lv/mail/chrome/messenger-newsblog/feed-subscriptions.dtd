@@ -38,7 +38,7 @@
 <!ENTITY button.updateFeed.accesskey "u">
 <!ENTITY button.removeFeed.label "Noņemt">
 <!ENTITY button.removeFeed.accesskey "N">
-<!ENTITY button.importOPML.label "Importēt">
+<!ENTITY button.importOPML.label "Ievietot">
 <!ENTITY button.importOPML.accesskey "I">
 <!ENTITY button.exportOPML.label "Izgūt">
 <!ENTITY button.exportOPML.accesskey "s">

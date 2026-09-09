@@ -445,7 +445,7 @@
 <!ENTITY runJunkControls.accesskey "m">
 <!ENTITY deleteJunk.label "Dzēst mēstules mapē">
 <!ENTITY deleteJunk.accesskey "D">
-<!ENTITY importCmd.label "Importēt...">
+<!ENTITY importCmd.label "Ievietot…">
 <!ENTITY importCmd.accesskey "I">
 <!ENTITY clearRecentHistory.label "Dzēst neseno vēsturi…">
 <!ENTITY clearRecentHistory.accesskey "D">
