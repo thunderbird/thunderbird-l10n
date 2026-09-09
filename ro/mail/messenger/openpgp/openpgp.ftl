@@ -758,6 +758,9 @@ key-in-message-body = Nu a fost găsită o cheie în corpul mesajului. Dă clic 
 sig-mismatch = Eroare - Semnătura nu corespunde
 invalid-email = Eroare - Adresă(e) de e-mail nevalid(ă)
 # Variables:
+#   $name (String) - File name of the attachment.
+attachment-pgp-key-import = Atașamentul „{ $name }” pare să fie un fișier de cheie OpenPGP. Vrei să imporți cheile pe care le conține?
+# Variables:
 # $name (String) - File name of the attachment.
 attachment-pgp-key =
     Atașamentul „{ $name }” pe care îl deschizi pare să fie un fișier de cheie OpenPGP.
