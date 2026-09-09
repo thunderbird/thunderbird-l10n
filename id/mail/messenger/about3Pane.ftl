@@ -262,6 +262,7 @@ threadpane-column-label-unread-button =
     .label = Status baca
 threadpane-cell-read-status =
     .aria-label = Status baca
+threadpane-new-cell-label = Baru
 threadpane-read-cell-label = Baca
 threadpane-unread-cell-label = Belum Dibaca
 threadpane-column-header-a11y-sender =

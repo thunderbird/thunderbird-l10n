@@ -9,6 +9,8 @@
 calendar-dialog-close-button =
     .aria-label = Tutup
     .title = Tutup
+calendar-event-create-edit-dialog =
+    .aria-label = Acara
 calendar-dialog-menu-button =
     .aria-label = Buka menu
     .title = Buka Menu
@@ -60,6 +62,21 @@ calendar-dialog-more-categories = +{ $additionalCategories } lainnya
     .title = { $categories }
 calendar-dialog-delete-reminder-button =
     .alt = Hapus Pengingat
+calendar-dialog-add-reminder-button = Tambahkan pengingat
+calendar-dialog-reminder-select =
+    .aria-label = Pilih durasi pengingat baru
+calendar-dialog-save-reminder-button = Simpan
+calendar-dialog-reminder-event-start = 0 menit sebelumnya
+# Variables:
+#  $count (Number): Number of minutes before the event.
+calendar-dialog-reminder-minutes-before = { $count } menit sebelumnya
+# Variables:
+#  $count (Number): Number of hours before the event.
+calendar-dialog-reminder-hours-before = { $count } jam sebelumnya
+# Variables:
+#  $count (Number): Number of days before the event.
+calendar-dialog-reminder-days-before = { $count } hari sebelumnya
+calendar-dialog-reminder-week-before = 1 minggu sebelumnya
 # Variables:
 #   $count (Number): Number of reminders.
 calendar-dialog-reminder-count = { $count } Pengingat

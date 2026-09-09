@@ -52,6 +52,7 @@ account-hub-email-continue-button = Lanjutkan
 account-hub-email-set-up-account-button = Siapkan akun
 account-hub-email-confirm-button = Konfirmasi
 account-hub-email-find-settings-button = Cari pengaturan
+account-hub-email-connect-button = Sambungkan
 account-hub-result-incoming-legend = Masuk
 account-hub-result-outgoing-legend = Keluar
 account-hub-all-servers-legend = Semua server
@@ -125,6 +126,8 @@ account-hub-ssl-noencryption-option =
 account-hub-auth-no-authentication-option =
     .label = Tanpa Otentikasi
 account-hub-auth-label = Metode autentikasi
+account-hub-select-option =
+    .label = Pilih opsi
 account-hub-username-label = Nama pengguna
 account-hub-username-warning-icon = Nama pengguna diperlukan
 account-hub-address-book-username-error-text = Masukkan nama pengguna
@@ -237,13 +240,32 @@ account-hub-thundermail-button = Masuk dengan Thundermail
 account-hub-thundermail-divider-text = atau
 account-hub-manual-config-imap-title = Pengaturan IMAP
 account-hub-manual-config-pop3-title = Pengaturan POP3
+account-hub-manual-config-review-settings-title = Tinjau pengaturan yang diperbarui
 account-hub-manual-config-incoming-legend = Server masuk
 account-hub-manual-config-outgoing-legend = Server keluar
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
 account-hub-same-username-checkbox = Nama pengguna yang sama dengan server masuk
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-security-changed = Tidak dapat menemukan { $oldValue }, tetapi { $newValue } tersedia.
+# Variables:
+# $oldValue (String): The port requested before the configuration was tested.
+# $newValue (String): The port found after the configuration was tested.
+account-hub-manual-config-port-changed = Tidak dapat mencapai Port { $oldValue }, tetapi Port { $newValue } tersedia.
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-value-changed = Tidak dapat menggunakan { $oldValue }, tetapi { $newValue } tersedia.
 account-hub-protocol-imap = Sinkronkan antar perangkat
 account-hub-protocol-microsoft = Exchange atau Microsoft 365
 account-hub-protocol-pop3 = Unduh ke perangkat
+account-hub-oauth-unsupported-title = Konfigurasi tambahan diperlukan
+# Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
+# 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
+account-hub-oauth-unsupported-description = { -brand-short-name } tidak dapat mengonfigurasi OAuth2 secara otomatis untuk nama host ini. Pilih Konfigurasi lanjutan untuk membuat akun, lalu selesaikan penyiapan dari Pengaturan Akun. <a data-l10n-name="oauth-support-link">Dapatkan bantuan dengan penyiapan OAuth2.</a>
+account-hub-username-help-text = Seringkali alamat surel lengkap Anda
+account-hub-port-help-text = Jika dibiarkan kosong, { -brand-short-name } akan mencoba menemukan port tersebut.
 account-hub-notification-show-more = Tampilkan lebih banyak
 account-hub-notification-show-less = Tampilkan lebih sedikit
 account-hub-email-setup-header = Tambahkan alamat surel Anda
@@ -252,6 +274,7 @@ account-hub-email-setup-outgoing = Pengaturan server keluar
 account-hub-email-exchange-settings = Pengaturan Exchange
 account-hub-email-connect-settings = Hubungkan pengaturan surel Anda
 account-hub-email-protocol-select-header = Pilih jenis akun surel
+account-hub-email-protocol-select-additional-info = Informasi tambahan diperlukan untuk menyiapkan akun ini
 account-hub-email-config-found = Pilih jenis akun surel Anda
 account-hub-email-enter-password = Masukkan kata sandi akun surel Anda
 account-hub-email-sync-accounts = Sinkronkan kalender dan buku alamat Anda
@@ -303,6 +326,7 @@ account-hub-port-error-text = Port harus antara 1 dan 65535
     .title = Port harus antara 1 dan 65535
 account-hub-username-error-text = Nama pengguna diperlukan
     .title = Nama pengguna diperlukan
+account-hub-manual-config-error-summary = Harap perbaiki kesalahan berikut:
 account-hub-oauth-pending = Menunggu otorisasi pada popup log masuk…
 account-hub-addon-install-button = Pasang
 account-hub-addon-install-needed = { -brand-short-name } tidak mendukung server ini secara asli. Untuk mengakses surel Exchange, <a data-l10n-name="addon-install"> pasang pengaya pihak ketiga seperti Owl (berbayar).</a>

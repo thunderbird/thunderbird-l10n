@@ -13,6 +13,9 @@ multi-message-delete-button =
 multi-message-undelete-button =
     .label = Batal hapus
     .tooltiptext = Batal hapus
+multi-message-flagged-button =
+    .aria-label = Dibintangi
+    .title = Dibintangi
 # Variables:
 #   $count - total number of conversations (threads or solitary messages) selected
 num-conversations = { $count } percakapan

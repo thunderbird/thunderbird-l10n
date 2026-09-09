@@ -154,6 +154,9 @@ week-title-label =
     .aria-label = Minggu { $title }
 calendar-none =
     .label = Tidak ada
+# Variables:
+#   $fileName (String) - The backup file name, e.g. 'local-2020-05-11T21-30-17.sqlite'.
+too-new-dbschema-error-text = Data kalender Anda tidak kompatibel dengan versi { -brand-short-name } ini. Data kalender di profil Anda telah diperbarui oleh versi { -brand-short-name } yang lebih baru. Cadangan berkas data telah dibuat, bernama “{ $fileName }”. Melanjutkan dengan berkas data yang baru dibuat.
 imip-bar-unsupported-text = Pesan ini mengandung acara yang oleh versi { -brand-short-name } ini tidak dapat diproses.
 # Error strings
 # @name UID_NOT_FOUND
@@ -529,6 +532,11 @@ format-date-long = { $dayName } { $dayIndex } { $monthName } { $year }
 day-header = { $dayName } { $dayIndex }
 day-header-elem =
     .label = { day-header }
+# LOCALIZATION NOTE (calendar-multiday-hour-slot):
+# Label for a time slot in the day/week calendar views.
+#    $date will be replaced with the day label, e.g. "Monday 6 Oct.";
+#    $time will be replaced with the time of the slot, e.g. "9:00 AM".
+calendar-multiday-hour-slot = { $date }, { $time }
 # LOCALIZATION NOTE (datetime-interval-task-without-date):
 # used for task without start and due date
 # (showed only in exported calendar in Html format)
@@ -847,21 +855,21 @@ calendar-task-details-start = tanggal mulai
 calendar-task-details-due = tanggal selesai
 calendar-task-mark-completed =
     .label = Tandai Sudah Selesai
-    .accesskey = i
     .tooltiptext = Tandar selesai pada tugas terpilih
+    .accesskey = i
 calendar-task-change-priority =
     .label = Prioritas
-    .accesskey = P
     .tooltiptext = Ubah prioritas
+    .accesskey = P
 calendar-task-input-filter-field =
     .aria-label = Saring tugas
     .emptytextbase = Saring tugas #1
-    .keylabelnonmac = <Ctrl+Shift+K>
     .keylabelmac = <⇧⌘K>
+    .keylabelnonmac = <Ctrl+Shift+K>
 calendar-task-text-filter-field =
     .emptytextbase = Saring tugas #1
-    .keylabelnonmac = <Ctrl+Shift+K>
     .keylabelmac = <⇧⌘K>
+    .keylabelnonmac = <Ctrl+Shift+K>
 calendar-copylink =
     .label = Salin Lokasi Tautan
     .accesskey = S
@@ -919,10 +927,10 @@ calendar-properties-enable-calendar =
     .label = Aktifkan Kalender Ini
 calendar-properties-provider-missing = Provider kalender ini tidak ditemukan. Ini sering terjadi karena Anda telah menonaktifkan atau menghapus pemasangan pengaya tertentu.
 calendar-properties-unsubscribe =
-    .label = Berhenti Langganan
-    .accesskey = B
     .buttonlabelextra1 = Berhenti Langganan
     .buttonaccesskeyextra1 = B
+    .label = Berhenti Langganan
+    .accesskey = B
 calendar-alarm-dialog-title = Alarm Kalender
 calendar-alarm-details =
     .value = Detail…
@@ -1051,3 +1059,14 @@ event-recurrence-forever =
 attendees-tab-label = Peserta ({ $count }):
 # $count - the number of attachments
 attachments-tab-label = Lampiran ({ $count }):
+# Variables:
+#   $docTitle (String) - The date or view label for the current calendar view.
+calendar-window-title = { $docTitle } - { -brand-full-name }
+calendar-window-title-base = { -brand-full-name }
+# Variables:
+#   $username (String) - The account username.
+#   $location (String) - The calendar server location.
+calendar-auth-enter-password-for = Masukkan sandi untuk { $username } di { $location }
+# Variables:
+#   $location (String) - The calendar server location.
+calendar-auth-enter-user-password-for = { $location } meminta nama pengguna dan sandi Anda.

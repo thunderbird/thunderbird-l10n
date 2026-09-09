@@ -747,6 +747,9 @@ key-in-message-body = Sebuah kunci ditemukan di badan pesan. Klik 'Impor Kunci' 
 sig-mismatch = Kesalahan - Tanda tangan tidak cocok
 invalid-email = Kesalahan - alamat surel tidak valid
 # Variables:
+#   $name (String) - File name of the attachment.
+attachment-pgp-key-import = Lampiran '{ $name }' tampaknya merupakan berkas kunci OpenPGP. Apakah Anda ingin mengimpor kunci yang ada di dalamnya?
+# Variables:
 # $name (String) - File name of the attachment.
 attachment-pgp-key =
     Lampiran '{ $name }' yang Anda buka tampaknya seperti berkas kunci OpenPGP.
@@ -770,6 +773,8 @@ debug-log-title = Log Debug OpenPGP
 dlg-button-ok = &OK
 dlg-button-close = T&utup
 dlg-button-cancel = &Batal
+dlg-button-open = &Buka…
+dlg-button-save = &Simpan
 dlg-no-prompt = Jangan tampilkan dialog ini lagi.
 enig-prompt = Sapaan PromptPGP
 enig-confirm = Konfirmasi OpenPGP
