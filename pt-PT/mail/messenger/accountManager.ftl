@@ -4,9 +4,9 @@
 
 open-preferences-sidebar-button2 = Definições do { -brand-short-name }
 open-addons-sidebar-button = Complementos e temas
-account-tree-add-account-button = Adicionar conta
+account-tree-add-account-button = Adicionar Conta
 account-action-add-newsgroup-account =
-    .label = Adicionar uma conta de grupo de notícias…
+    .label = Adicionar uma Conta de Grupo de Notícias…
     .accesskey = n
 account-tree-create-account-button = Nova conta
 account-tree-add-mail-account =
@@ -27,8 +27,8 @@ edit-vcard-dialog-accept-button = Guardar
 edit-vcard-dialog-cancel-button = Cancelar
     .accesskey = C
 account-manager-server-default-icon =
-    .title = Conta predefinida
     .alt = Ícone de estrela
+    .title = Conta predefinida
 outgoing-server-section-name = Servidor de envio
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = Definições do servidor de envio

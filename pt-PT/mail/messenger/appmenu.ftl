@@ -54,7 +54,7 @@ appmenu-add-account-panel-title =
     .title = Adicionar Conta
 appmenu-add-account-panel =
     .label = Adicionar Conta
-    .accesskey = N
+    .accesskey = n
 
 ## New Account / Address Book
 
