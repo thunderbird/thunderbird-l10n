@@ -6,9 +6,9 @@
 #   $count - number of feeds
 subscribe-opml-import-unique-feeds =
     { $count ->
-        [zero] Importēta { $count } jauna, vēl neabonēta plūsma
-        [one] importētas { $count } jaunas, vēl neabonētas plūsmas
-       *[other] importētas { $count } jaunas, vēl neabonētas plūsmas
+        [zero] Ievietotas { $count } jaunas, vēl neabonētas barotnes
+        [one] Ievietota { $count } jauna, vēl neabonēta barotne
+       *[other] Ievietotas { $count } jaunas, vēl neabonētas barotnes
     }
 # Variables:
 #   $count - total number of elements found in the file
