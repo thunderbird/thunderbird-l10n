@@ -300,7 +300,7 @@ window-locked = Salikšanas logs ir bloķēts; sūtīšana atcelta
 keyserver-error-aborted = Pārtraukts
 keyserver-error-unknown = Radās nezināma kļūda
 keyserver-error-server-error = Atslēgu serveris ziņoja par kļūdu.
-keyserver-error-import-error = Neizdevās importēt lejuplādēto atslēgu.
+keyserver-error-import-error = Neizdevās ievietot lejuplādēto atslēgu.
 keyserver-error-unavailable = Atslēgu serveris nav pieejams.
 keyserver-error-security-error = Atslēgu serveris neatbalsta šifrētu piekļuvi.
 keyserver-error-certificate-error = Atslēgu servera sertifikāts nav derīgs.
@@ -354,11 +354,11 @@ import-info-bits = Biti
 import-info-created = Izveidots
 import-info-fpr = Pirkstu nospiedums
 import-info-details = Skatīt informāciju un pārvaldīt atslēgu pieņemšanu
-import-info-no-keys = Nav importētu atslēgu.
+import-info-no-keys = Nav nevienas ievietotas atslēgas.
 
 ## Strings in enigmailKeyManager.js
 
-import-from-clip = Vai vēlaties importēt dažas atslēgas no starpliktuves?
+import-from-clip = Vai ievietot kādas atslēgas no starpliktuves?
 import-from-url = Lejuplādēt publisko atslēgu no šī URL:
 copy-to-clipbrd-failed = Neizdevās nokopēt atlasītās atslēgas uz starpliktuvi.
 copy-to-clipbrd-ok = Atslēga(-s) iekopēta(-s) starpliktuvē
@@ -441,8 +441,8 @@ revoke-key-question =
     Vai vēlaties turpināt?
 #   $keyId (String) - the id of the key being revoked
 revoke-key-not-present =
-    Jums nav atslēgas (0x{ $keyId }), kas atbilstu šim atsaukšanas sertifikātam!
-    Ja esat pazaudējis atslēgu, pirms importēt atcelšanas sertifikātu, jums jāimportē atslēga (piemēram, no atslēgu servera)!
+    Tev nav atslēgas (0x{ $keyId }), kas atbilstu šim atsaukšanas sertifikātam.
+    Ja pazaudēji atslēgu, pirms atcelšanas sertifikāta ievietošanas jāievieto atslēga (piemēram, no atslēgu servera).
 #   $keyId (String) - the id of the key being revoked
 revoke-key-already-revoked = Atslēga 0x{ $keyId } jau ir atsaukta.
 key-man-button-revoke-key = &Atsaukt atslēgu
@@ -455,7 +455,7 @@ after-revoke-info =
 
 ## Strings in keyRing.sys.mjs & decryption.sys.mjs
 
-key-man-button-import = &Importēt
+key-man-button-import = &Ievietot
 delete-key-title = Dzēst OpenPGP atslēgu
 delete-external-key-title = Noņemt ārēju GnuPG atslēgu
 delete-external-key-description = Vai vēlaties noņemt šo ārējās GnuPG atslēgas ID?
@@ -488,7 +488,7 @@ fail-key-import = Kļūda - atslēgas importēšana neizdevās
 # $output (String) - File that writing was attempted to.
 file-write-failed = Neizdevās ierakstīt datnē { $output }
 no-pgp-block = Kļūda - nav atrasts derīgs bruņots OpenPGP datu bloks
-confirm-permissive-import = Importēšana neizdevās. Importējamā atslēga var būt bojāta vai izmantot nezināmus atribūtus. Vai vēlaties mēģināt importēt pareizās daļas? Var gadīties, ka tad tiks importētas nepilnīgas un nelietojamas atslēgas.
+confirm-permissive-import = Ievietošana neizdevās. Atslēga, kuru mēģini ievietot, var būt bojāta vai izmantot nezināmas īpašības. Vai mēģināt ievietot daļas, kuras ir pareizas? Tas var novest pie nepilnīgu un neizmantojamu atslēgu ievietošanas.
 
 ## Strings used in trust.sys.mjs
 
