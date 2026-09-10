@@ -27,6 +27,7 @@ policy-DisableBuiltinPDFViewer = Απενεργοποίηση του PDF.js, τ�
 policy-DisabledCiphers = Απενεργοποίηση κρυπτογράφησης.
 policy-DefaultDownloadDirectory = Ορισμός προεπιλεγμένου καταλόγου λήψης.
 policy-DisableAppUpdate = Αποτροπή ενημέρωσης του { -brand-short-name }.
+policy-DisableChat = Απενεργοποίηση της λειτουργίας συνομιλίας.
 policy-DisableDataCollectionSettings = Αποτροπή της αλλαγής των ρυθμίσεων συλλογής δεδομένων από τον χρήστη.
 policy-DisableDefaultClientAgent = Αποτροπή οποιασδήποτε ενέργειας από την προεπιλεγμένη λειτουργία πελάτη. Ισχύει μόνο για Windows· οι άλλες πλατφόρμες δεν έχουν τέτοια υπηρεσία.
 policy-DisableDeveloperTools = Αποκλεισμός πρόσβασης στα εργαλεία ανάπτυξης.
