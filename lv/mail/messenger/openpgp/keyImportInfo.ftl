@@ -6,4 +6,4 @@ import-info-dialog-title = Atslēgas sekmīgi ievietotas
 import-info-created = Izveidots
 import-info-fpr = Pirkstu nospiedums
 import-info-details = Skatīt informāciju un pārvaldīt atslēgu pieņemšanu
-import-info-no-keys = Nav importētu atslēgu.
+import-info-no-keys = Netika ievietota neviena atslēga.

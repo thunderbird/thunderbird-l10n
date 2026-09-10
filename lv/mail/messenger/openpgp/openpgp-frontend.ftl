@@ -22,7 +22,7 @@ openpgp-has-sender-key = Šis vēstule apgalvo, ka tajā ir sūtītāja publisk�
 # $email (String) - Email address with the problematic public key.
 openpgp-be-careful-new-key = Brīdinājums: jaunā OpenPGP publiskā atslēga atšķiras no līdz šim pieņemtajām publiskajām atslēgām priekš { $email }.
 openpgp-import-sender-key =
-    .label = Importēt…
+    .label = Ievietot…
 openpgp-search-keys-openpgp =
     .label = Atklāt OpenPGP atslēgu
 openpgp-missing-signature-key = Šī vēstule ir parakstīta ar atslēgu, kuras jums vēl nav.

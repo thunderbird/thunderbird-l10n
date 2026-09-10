@@ -31,17 +31,17 @@ openpgp-key-man-keyserver-menu =
     .label = Atslēgu serveris
     .accesskey = A
 openpgp-key-man-import-public-from-file =
-    .label = Importēt publisko(-ās) atslēgu(-as) no faila
+    .label = Ievietot publisko(ās) atslēgu(as) no datnes
     .accesskey = I
 openpgp-key-man-import-secret-from-file =
-    .label = Importēt privāto(-ās) atslēgu(-as) no faila
+    .label = Ievietot privāto(ās) atslēgu(as) no datnes
 openpgp-key-man-import-sig-from-file =
-    .label = Importēt atsaukumu(-us) no faila
+    .label = Ievietot atsaukumu(-us) no datnes
 openpgp-key-man-import-from-clipbrd =
-    .label = Importēt atslēgu(-as) no starpliktuves
+    .label = Ievietot atslēgu(as) no starpliktuves
     .accesskey = I
 openpgp-key-man-import-from-url =
-    .label = Importēt atslēgu(-as) no URL
+    .label = Ievietot atslēgu(as) no URL
     .accesskey = U
 openpgp-key-man-export-to-file =
     .label = Izgūt publisko(-ās) atslēgu(-as) datnē
@@ -482,7 +482,7 @@ need-online = Jūsu izvēlētā darbība nav pieejama nesaistes režīmā. Lūdz
 fail-key-extract = Kļūda - atslēgas izvilkšanas komanda neizdevās
 fail-cancel = Kļūda - lietotājs atcēla atslēgas saņemšanu
 not-first-block = Kļūda - pirmais OpenPGP bloks nav publiskās atslēgas bloks
-import-key-confirm = Vai importēt vēstulē iekļauto(-ās) publisko(-ās) atslēgu(-as)?
+import-key-confirm = Ievietot ziņojumā iekļauto(ās) publisko(ās) atslēgu(as)?
 fail-key-import = Kļūda - atslēgas importēšana neizdevās
 # Variables:
 # $output (String) - File that writing was attempted to.
@@ -505,8 +505,8 @@ key-trust-group = (grupa)
 
 ## Strings used in commonWorkflows.js
 
-import-key-file = Importēt OpenPGP atslēgas failu
-import-rev-file = Importēt OpenPGP atsaukšanas failu
+import-key-file = Ievietot OpenPGP atslēgas datni
+import-rev-file = Ievietot OpenPGP atsaukšanas datni
 gnupg-file = GnuPG datnes
 import-keys-failed = Atslēgu importēšana neizdevās
 file-to-big-to-import = Šī datne ir pārāk liela. Lūgums vienlaicīgi neievietot lielas atslēgu kopas.
@@ -597,15 +597,15 @@ cannot-send-enc-because-no-own-key = Šo vēstuli nevar nosūtīt šifrētu, jo 
 # Variables:
 # $key (String) - Newline separated list of a tab character then name and/or email address mentioned in the key followed by the key id in parenthesis.
 do-import-multiple =
-    Vai importēt šīs atslēgas?
+    Vai ievietot šīs atslēgas?
     { $key }
 # Variables:
 # $name (String) - Name and/or email address mentioned in the key.
 # $id (String) - Key id of the key.
-do-import-one = Vai importēt { $name } ({ $id })?
+do-import-one = Ievietot { $name } ({ $id })?
 cant-import = Importējot publisko atslēgu, radās kļūda
 unverified-reply = Iespējams, vēstules atkāptā (atbildes) daļa ir mainīta
-key-in-message-body = Vēstules tekstā ir atrasta atslēga. Lai importētu atslēgu, klikšķiniet uz 'Importēt atslēgu'.
+key-in-message-body = Ziņojuma saturā tika atrasta atslēga. Jāklikšķina uz “Ievietot atslēgu”, lai to ievietotu
 sig-mismatch = Kļūda - parakstu neatbilstība
 invalid-email = Kļūda - nederīga(-as) epasta adrese(-es)
 # Variables:

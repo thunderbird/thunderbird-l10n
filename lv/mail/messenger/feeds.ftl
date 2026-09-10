@@ -22,7 +22,7 @@ subscribe-opml-import-found-feeds =
 #   $count - the count of new imported entries
 subscribe-opml-import-feed-count =
     { $count ->
-        [zero] Importēta { $count } jauna plūsma.
-        [one] Importētas { $count } jaunas plūsmas.
-       *[other] Importētas { $count } jaunas plūsmas.
+        [zero] Ievietotas { $count } jaunas barotnes.
+        [one] Ievietota { $count } jauna barotne.
+       *[other] Ievietotas { $count } jaunas barotnes.
     }

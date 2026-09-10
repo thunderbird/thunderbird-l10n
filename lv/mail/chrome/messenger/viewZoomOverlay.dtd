@@ -16,7 +16,7 @@
 <!ENTITY fullZoomResetCmd.accesskey "A">
 <!ENTITY fullZoomResetCmd.commandkey "0">
 <!ENTITY fullZoomResetCmd.commandkey2 "">
-<!ENTITY fullZoomToggleCmd.label "Mērogot tikai tekstu">
+<!ENTITY fullZoomToggleCmd.label "Tālummainīt tikai tekstu">
 <!ENTITY fullZoomToggleCmd.accesskey "t">
 <!ENTITY fullZoom.label "Tālummaiņa">
 <!ENTITY fullZoom.accesskey "M">
