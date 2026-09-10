@@ -47,7 +47,7 @@
 <!ENTITY cellContentAlignment.label "Satura līdzināšana">
 <!ENTITY cellHorizontal.label "Līmeniski:">
 <!ENTITY cellHorizontal.accessKey "H">
-<!ENTITY cellVertical.label "Vertikāli:">
+<!ENTITY cellVertical.label "Stateniski:">
 <!ENTITY cellVertical.accessKey "V">
 <!ENTITY cellStyle.label "Šūnas stils:">
 <!ENTITY cellStyle.accessKey "S">

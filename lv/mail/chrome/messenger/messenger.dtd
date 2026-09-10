@@ -115,7 +115,7 @@
 <!ENTITY messagePaneClassic.accesskey "K">
 <!ENTITY messagePaneWide.label "Platais skats">
 <!ENTITY messagePaneWide.accesskey "P">
-<!ENTITY messagePaneVertical.label "Vertikālais skats">
+<!ENTITY messagePaneVertical.label "Stateniskais skats">
 <!ENTITY messagePaneVertical.accesskey "V">
 <!ENTITY showFolderPaneCmd.label "Mapju rūts">
 <!ENTITY showFolderPaneCmd.accesskey "M">

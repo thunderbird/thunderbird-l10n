@@ -134,6 +134,13 @@ mail-context-menu-forward-forward =
     .label = Pārsūtīt
     .accesskey = P
 
+## Spaces toolbar
+
+spaces-toolbar-element =
+    .aria-description = Stateniska rīkjosla, lai pārslēgtos starp dažādām vietām. Bultu taustiņi ir izmantojami, lai pārvietotos starp pieejamajām pogām.
+    .aria-label = Vietu rīkjosla
+    .toolbarname = Vietu rīkjosla
+
 ## Spaces toolbar pinned tab menupopup
 
 spaces-pinned-button-menuitem-address-book2 =
