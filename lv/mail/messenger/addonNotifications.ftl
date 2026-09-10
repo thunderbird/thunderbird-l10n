@@ -72,13 +72,13 @@ addon-confirm-install-message =
     }
 addon-confirm-install-unsigned-message =
     { $addonCount ->
-        [zero] Uzmanību: šī vietne vēlas uzstādīt nepārbaudītu papildinājumu iekš { -brand-short-name }. Turpiniet uz savu risku.
-        [one] Uzmanību: šī vietne vēlas uzstādīt { $addonCount } nepārbaudītus papildinājumus iekš { -brand-short-name }. Turpiniet uz savu risku.
-       *[other] Uzmanību: šī vietne vēlas uzstādīt { $addonCount } nepārbaudītus papildinājumus iekš { -brand-short-name }. Turpiniet uz savu risku.
+        [zero] Uzmanību: šī vietne vēlas uzstādīt nepārbaudītu papildinājumu { -brand-short-name }. Turpināt uz savu atbildību..
+        [one] Uzmanību: šī vietne vēlas uzstādīt { $addonCount } nepārbaudītus papildinājumus { -brand-short-name }. Turpināt uz savu atbildību.
+       *[other] Uzmanību: šī vietne vēlas uzstādīt { $addonCount } nepārbaudītus papildinājumus { -brand-short-name }. Turpiniet uz savu atbildību.
     }
 # Variables:
 #   $addonCount (Number): the number of add-ons being installed (at least 2)
-addon-confirm-install-some-unsigned-message = Uzmanību: Šī vietne vēlas uzstādīt { $addonCount } papildinājumus iekš { -brand-short-name }, daži no kuriem nav pārbaudīti. Turpiniet uz savu risku.
+addon-confirm-install-some-unsigned-message = Uzmanību: šī vietne vēlas uzstādīt { $addonCount } papildinājumus { -brand-short-name }, no kuriem daži nav pārbaudīti. Turpināt uz savu atbildību.
 
 ## Add-on install errors
 ## Variables:
@@ -97,4 +97,4 @@ addon-local-install-error-not-signed = Šo papildinājumu nevar uzstādīt, jo t
 # Variables:
 #   $appVersion (String): the application version.
 addon-install-error-incompatible = { $addonName } nevar uzstādīt, jo tas nav saderīgs ar { -brand-short-name } { $appVersion }.
-addon-install-error-blocklisted = { $addonName } nevar uzstādīt, jo tas rada lielu risku drošībai un stabilitātei.
+addon-install-error-blocklisted = { $addonName } nevarēja uzstādīt, jo ir liela iespējamība, ka tas var radīt noturības vai drošības sarežģījumus.

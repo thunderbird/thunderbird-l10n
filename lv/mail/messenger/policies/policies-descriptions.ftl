@@ -55,7 +55,7 @@ policy-EncryptedMediaExtensions = Ieslēgt vai atslēgt šifrētos multivides pa
 policy-Extensions = Uzstādīt, noņemt vai noslēgt paplašinājumus. Uzstādīšanas izvēle kā parametrus pieņem URL vai ceļus. Noņemšanas un noslēgšanas izvēle pieņem paplašinājumu ID.
 policy-ExtensionSettings = Pārvaldīt visus paplašinājumu uzstādīšanas aspektus.
 policy-ExtensionUpdate = Ieslēgt vai atslēgt automātiskus paplašinājumu atjaunojumus.
-policy-HardwareAcceleration = Ja atslēgts, atslēdz aparatūrisku paātrināšanu.
+policy-HardwareAcceleration = Ja atslēgts, izslēdz aparatūrisku paātrināšanu.
 policy-InstallAddonsPermission = Ļaut noteiktām vietnēm uzstādīt papildinājumus.
 policy-LegacyProfiles = Atslēgt iespēja, kas katram uzstādījumam nodrošina atsevišķu profilu.
 

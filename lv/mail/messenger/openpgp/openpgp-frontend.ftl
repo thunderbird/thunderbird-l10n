@@ -35,9 +35,9 @@ openpgp-broken-exchange-repair =
     .label = Labot vēstuli
 openpgp-broken-exchange-wait = Lūdzu, uzgaidiet…
 openpgp-cannot-decrypt-because-mdc =
-    Šī ir šifrēta vēstule, kurā ir izmantots vecs un ievainojams mehānisms.
-    Pārsūtīšanas laikā to varēja mainīt vai nozagt tās saturu.
-    Lai novērstu risku, saturs netiek rādīts.
+    Šis ir šifrēts ziņojums, kurā ir izmantots vecs un ievainojams mehānisms.
+    Tas varētu būt izmainīts pārsūtīšanas laikā ar nodomu nozagt tā saturu.
+    Lai novērstu šo apdraudējumu, saturs netiek rādīts.
 openpgp-cannot-decrypt-because-missing-key = Šīs vēstules atšifrēšanai nepieciešamā privātā atslēga nav pieejama.
 openpgp-partially-signed =
     Tikai daļa no šī ziņojuma tika cipariski parakstīta ar OpenPGP.
