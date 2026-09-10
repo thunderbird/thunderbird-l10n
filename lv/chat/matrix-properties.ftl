@@ -27,7 +27,7 @@ options-encryption-key-backup = Šifrēšanas atslēgas dublējums: { $status }
 options-encryption-cross-signing = Apstiprinājuma paraksts: { $status }
 options-encryption-status-ok = labi
 options-encryption-status-not-ok = nav gatavs
-options-encryption-need-backup-passphrase = Lūdzu, protokola opcijās ievadiet dublējuma paroli.
+options-encryption-need-backup-passphrase = Lūgums protokola iespējās ievadīt savu dublējuma atslēgas paroles vārdkopu.
 options-encryption-set-up-secret-storage = Lai iestatītu slepeno krātuvi, lūgums izmantot citu klientu un pēc tam ievadīt izveidoto dublējuma paroli cilnē “Vispārīgi”.
 options-encryption-set-up-backup-and-cross-signing = Lai aktivizētu šifrēšanas atslēgas dublējumus un apstiprinošo parakstīšanu, ievadiet dublējuma atslēgas paroli cilnē "Vispārīgi" vai pārbaudiet kādā no zemāk norādītajām sesijām.
 # $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name

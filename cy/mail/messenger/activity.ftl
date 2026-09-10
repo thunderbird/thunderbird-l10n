@@ -126,3 +126,10 @@ extension-sent-activity-event-status =
         [many] { $count } neges (amser aeth heibio: { $time })
        *[other] { $count } neges (amser aeth heibio: { $time })
     }
+# Status line shown under extension-send-activity-event. Reports how many
+# messages were sent and the wall-clock time between the first and last send in
+# the batch (rounded to whole seconds, at least one).
+# Variables:
+#   $count (Number) - number of messages sent in this batch
+#   $seconds (Number) - elapsed seconds between the first and last send
+extension-send-activity-event-status = { $count } neges mewn { $seconds } eiliad

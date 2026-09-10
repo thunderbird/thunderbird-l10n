@@ -5,7 +5,7 @@
 <!-- Window title -->
 <!ENTITY windowTitle.label "Ievietot formulu">
 <!ENTITY sourceEditField.label "Ievietot LaTeX pirmkodu:">
-<!ENTITY options.label "Opcijas">
+<!ENTITY options.label "Iespējas">
 <!ENTITY optionInline.label "Iekļautais režīms">
 <!ENTITY optionInline.accesskey "I">
 <!ENTITY optionDisplay.label "Rādīšanas režīms">
