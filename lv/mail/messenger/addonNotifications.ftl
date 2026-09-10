@@ -8,12 +8,12 @@ xpinstall-prompt = { -brand-short-name } liedza šai vietnei lūgt uzstādīt j�
 ##   $host (String): The hostname of the site the add-on is being installed from.
 
 xpinstall-prompt-header = Vai ļaut { $host } uzstādīt papildinājumu?
-xpinstall-prompt-message = Jūs mēģināt uzstādīt papildinājumu no { $host }. Pirms turpināt, pārliecinieties, ka uzticaties šai vietnei.
+xpinstall-prompt-message = Tu mēģini uzstādīt papildinājumu no { $host }. Pirms turpināšanas jāpārliecinās, ka uzticies šai vietnei.
 
 ##
 
 xpinstall-prompt-header-unknown = Vai ļaut nezināmai vietnei uzstādīt papildinājumu?
-xpinstall-prompt-message-unknown = Jūs mēģināt uzstādīt papildinājumu no nezināmas vietnes. Pirms turpināt, pārliecinieties, ka uzticaties šai vietnei.
+xpinstall-prompt-message-unknown = Tu mēģini uzstādīt papildinājumu no nezināmas vietnes. Pirms turpināšanas jāpārliecinās, ka uzticies šai vietnei.
 xpinstall-prompt-dont-allow =
     .label = Neļaut
     .accesskey = N

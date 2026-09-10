@@ -28,9 +28,9 @@
 <!ENTITY propertiesContext.accesskey "p">
 <!ENTITY abPropertiesContext.label "Īpašības">
 <!ENTITY abPropertiesContext.accesskey "p">
-<!ENTITY editContactContext.label "Rediģēt kontaktu">
+<!ENTITY editContactContext.label "Labot kontaktpersonu">
 <!ENTITY editContactContext.accesskey "k">
-<!ENTITY editMailingListContext.label "Rediģēt sarakstu">
+<!ENTITY editMailingListContext.label "Labot sarakstu">
 <!ENTITY editMailingListContext.accesskey "s">
 <!ENTITY newContactAbContext.label "Jauns kontakts">
 <!ENTITY newContactAbContext.accesskey "k">

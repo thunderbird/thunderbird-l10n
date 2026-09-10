@@ -7,7 +7,7 @@
 <!ENTITY fileMenu.accesskey "F">
 <!ENTITY newMenu.label "Jauns">
 <!ENTITY newMenu.accesskey "J">
-<!ENTITY editMenu.label "Rediģēt">
+<!ENTITY editMenu.label "Labot">
 <!ENTITY editMenu.accesskey "R">
 <!ENTITY undoCmd.label "Atsaukt">
 <!ENTITY undoCmd.accesskey "A">
