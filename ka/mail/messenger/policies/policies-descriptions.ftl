@@ -27,6 +27,7 @@ policy-DisableBuiltinPDFViewer = PDF.js-ის გათიშვა, { -brand-s
 policy-DisabledCiphers = დაშიფვრის გამორთვა.
 policy-DefaultDownloadDirectory = ჩამოტვირთვის ნაგულისხმევი საქაღალდის მითითება.
 policy-DisableAppUpdate = { -brand-short-name } განახლების შეზღუდვა.
+policy-DisableChat = სასაუბროს შესაძლებლობის გათიშვა.
 policy-DisableDataCollectionSettings = მომხმარებლისთვის მონაცემთა აღრიცხვის პარამეტრების ცვლილების შეზღუდვა.
 policy-DisableDefaultClientAgent = ნაგულისხმევ პროგრამაზე მეთვალყურე აგენტისთვის მოქმედებების შეზღუდვა. განკუთვნილია მხოლოდ Windows-ისთვის; სხვა სისტემებს არ აქვთ ამგვარი აგენტი.
 policy-DisableDeveloperTools = შემმუშავებლის ხელსაწყოებთან წვდომის შეზღუდვა.
