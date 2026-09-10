@@ -567,6 +567,11 @@ edit-directories-label =
 email-picker-label =
     .label = Otomatis tambahkan alamat email keluar ke:
     .accesskey = t
+email-picker-description = Lokasi kontak baru yang disimpan dari pesan terkirim.
+default-add-address-book-label =
+    .value = Buku alamat baku untuk kontak yang ditambahkan secara manual:
+    .accesskey = d
+default-add-address-book-description = Lokasi kontak baru yang disimpan dari pesan yang diterima.
 default-directory-label =
     .value = Direktori startup tetap di jendela buku alamat:
     .accesskey = S
@@ -583,9 +588,9 @@ enable-cloud-share =
 cloud-share-size =
     .value = MB
 add-cloud-account =
+    .defaultlabel = Tambah…
     .label = Tambah…
     .accesskey = A
-    .defaultlabel = Tambah…
 remove-cloud-account =
     .label = Hapus
     .accesskey = H
@@ -914,8 +919,8 @@ chat-variant-label =
 # is the name of the CSS property. It is intended only to adjust the element's width.
 # Do not translate.
 search-preferences-input2 =
-    .style = width: 15.4em
     .placeholder = Cari di Setelan
+    .style = width: 15.4em
 managed-notice = { -brand-short-name } sedang dikelola oleh organisasi Anda.
 
 ## Settings UI Search Results

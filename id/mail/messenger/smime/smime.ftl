@@ -12,6 +12,15 @@ configured-cert-ok-sig = Sertifikat lulus uji dan dapat digunakan untuk penandat
 configured-cert-failure-detail = Verifikasi sertifikat gagal dengan galat berikut: { $errorMsg } (Kode Kesalahan: { $errorCodeStr })
 # $errorCode A numeric error code
 configured-cert-failure = Verifikasi sertifikat gagal dengan kode kesalahan { $errorCode }
+# Cryptographic details displayed in the message security popup
+smime-crypto-signature-algorithm = Algoritme tanda tangan:
+smime-crypto-digest-algorithm = Algoritma Digest tanda tangan:
+smime-crypto-cipher = Algoritma enkripsi:
+smime-crypto-key-encryption = Algoritma enkripsi kunci:
+# $algorithm - The encryption algorithm name (e.g. "AES-GCM")
+# $keySize - The key size in bits (e.g. "256")
+smime-crypto-cipher-with-key-size = { $algorithm } ({ $keySize }-bit)
+smime-crypto-details-summary = Algoritma
 # $errorMsg A sentence that explains the error.
 # $errorCodeStr A human readable error code, e.g. SEC_ERROR_UNKNOWN_ISSUER
 # Note the initial empty line is necessary to preserve the line breaks.
