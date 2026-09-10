@@ -380,7 +380,7 @@ inline-label =
 as-attachment-label =
     .label = Kā pielikumu
 extension-label =
-    .label = Faila nosaukumam pievienot paplašinājumu
+    .label = pievienot paplašinājumu datnes nosaukumam
     .accesskey = p
 
 ## Note: This will concatenate to "Auto Save every [___] minutes",
