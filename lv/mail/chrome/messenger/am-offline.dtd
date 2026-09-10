@@ -7,7 +7,7 @@
 <!ENTITY doNotDownloadImap.label "Lai ietaupītu diska vietu, vēstuļu lejuplādi no servera un vietējo kopiju glabāšanu nesaistē var ierobežot pēc vecuma vai izmēra.">
 <!ENTITY allFoldersOffline2.label "Saglabāt vēstules šajā datorā visām šī konta mapēm">
 <!ENTITY allFoldersOffline2.accesskey "S">
-<!ENTITY allFoldersOfflineNote.label "Piezīme: Šīs izmaiņas ietekmē visas šī konta mapes. Lai iestatītu atsevišķas mapes, izmantojiet Papildu… pogu.">
+<!ENTITY allFoldersOfflineNote.label "Piezīme: šīs izmaiņas ietekmē visas šī konta mapes. Lai iestatītu atsevišķas mapes, jāizmanto poga “Paplašināti…”.">
 <!ENTITY offlineNotDownload.label "Vēstules lielākas par">
 <!ENTITY offlineNotDownload.accesskey "L">
 <!ENTITY autosyncNotDownload.label "Nelejuplādēt vēstules lielākas par">
@@ -34,7 +34,7 @@
 <!ENTITY nntpRemoveMsgBody.accesskey "o">
 <!ENTITY offlineSelectNntp.label "Atlasiet ziņu grupas lietošanai nesaistē…">
 <!ENTITY offlineSelectNntp.accesskey "A">
-<!ENTITY offlineImapAdvancedOffline.label "Papildu…">
+<!ENTITY offlineImapAdvancedOffline.label "Paplašināti…">
 <!ENTITY offlineImapAdvancedOffline.accesskey "P">
 <!ENTITY syncGroupTitle.label "Ziņojumu vienādošana">
 <!ENTITY diskspaceGroupTitle.label "Diska vieta">

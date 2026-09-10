@@ -80,7 +80,7 @@ openpgp-key-confirm = Veidot { $identity } publisko un privāto atslēgu?
 
 ## Import Key section
 
-openpgp-import-key-title = Importēt esošu OpenPGP atslēgu
+openpgp-import-key-title = Ievietot esošu OpenPGP atslēgu
 openpgp-import-key-legend = Izvēlieties iepriekš dublēto failu.
 openpgp-import-key-description = Jūs varat importēt personīgās atslēgas, kas izveidotas, izmantojot citu OpenPGP programmatūru.
 openpgp-import-key-info = Cita programmatūra var aprakstīt personīgo atslēgu, izmantojot citus nosaukumus, piemēram, savu atslēgu, slepeno atslēgu, privāto atslēgu vai atslēgu pāri.
@@ -96,9 +96,9 @@ import-key-personal-checkbox =
 gnupg-file = GnuPG datnes
 import-error-file-size = <b>Kļūda!</b> Datnes, kas ir lielākas par 5 MB, netiek atbalstītas.
 #   $error (String) - the reported error from the failed key import method
-import-error-failed = <b>Kļūda!</b> Neizdevās importēt failu. { $error }
+import-error-failed = <b>Kļūda!</b> Neizdevās ievietot datni. { $error }
 #   $error (String) - the reported error from the failed key import method
-openpgp-import-keys-failed = <b>Kļūda!</b> Neizdevās importēt atslēgas. { $error }
+openpgp-import-keys-failed = <b>Kļūda!</b> Neizdevās ievietot atslēgas. { $error }
 openpgp-import-identity-label = Identitāte
 openpgp-import-fingerprint-label = Pirkstu nospiedums
 openpgp-import-created-label = Izveidots
@@ -111,7 +111,7 @@ openpgp-import-key-props =
 
 openpgp-external-key-title = Ārēja GnuPG atslēga
 openpgp-external-key-description = Iestatiet ārēju GnuPG atslēgu, ievadot atslēgas ID
-openpgp-external-key-info = Piedevām, lai importētu un akceptētu atbilstošo Publisko atslēgu, jums ir jāizmanto atslēgu pārvaldnieks.
+openpgp-external-key-info = Turklāt ir jāizmanto atslēgu pārvaldnieks, lai ievietotu un pieņemtu atbilstošo publisko atslēgu.
 openpgp-external-key-warning = <b>Jūs varat iestatīt tikai vienu ārēju GnuPG atslēgu.</b> Jūsu iepriekšējais ieraksts tiks aizstāts.
 openpgp-save-external-button = Saglabāt atslēgas ID
 openpgp-external-key-label = Privātās atslēgas ID:
