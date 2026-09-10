@@ -2,8 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- Attn: Localization - some of the menus in this dialog directly affect mail also. -->
-
 <!-- Edit menu items -->
 <!ENTITY pasteNoFormatting.label "Ievietot bez formatēšanas">
 <!ENTITY pasteNoFormatting.accesskey "I">
@@ -20,7 +18,7 @@
 <!ENTITY insertAnchorCmd.accesskey "N">
 <!ENTITY insertImageCmd.label "Attēls…">
 <!ENTITY insertImageCmd.accesskey "A">
-<!ENTITY insertHLineCmd.label "Horizontāla līnija">
+<!ENTITY insertHLineCmd.label "Līmeniska līnija">
 <!ENTITY insertHLineCmd.accesskey "l">
 <!ENTITY insertTableCmd.label "Tabula...">
 <!ENTITY insertTableCmd.accesskey "T">
@@ -246,7 +244,7 @@
 <!ENTITY imageToolbarCmd.label "Attēls">
 <!ENTITY imageToolbarCmd.tooltip "Ievietot jaunu attēlu vai mainīt atlasītā attēla īpašības">
 <!ENTITY hruleToolbarCmd.label "H.Line">
-<!ENTITY hruleToolbarCmd.tooltip "Ievietot horizontālu līniju vai mainīt atlasītās līnijas īpašības">
+<!ENTITY hruleToolbarCmd.tooltip "Ievietot līmenisku līniju vai mainīt atlasītās līnijas īpašības">
 <!ENTITY tableToolbarCmd.label "Tabula">
 <!ENTITY tableToolbarCmd.tooltip "Ievietot jaunu tabulu vai mainīt atlasītās tabulas īpašības">
 <!ENTITY linkToolbarCmd.label "Saite">
@@ -267,7 +265,7 @@
 <!ENTITY outdentToolbarCmd.tooltip "Izvilkt tekstu (pārvietot pa kreisi)">
 <!ENTITY indentToolbarCmd.tooltip "Ievilkt tekstu (pārvietot pa labi)">
 <!ENTITY AlignPopupButton.tooltip "Izvēlieties teksta novietojumu">
-<!ENTITY InsertPopupButton.tooltip "Ievietot saiti, enkuru, attēlu, horizontālu līniju vai tabulu">
+<!ENTITY InsertPopupButton.tooltip "Ievietot saiti, enkuru, attēlu, līmenisku līniju vai tabulu">
 <!ENTITY alignLeftButton.tooltip "Līdzināt tekstu gar kreiso piemali">
 <!ENTITY alignCenterButton.tooltip "Līdzināt tekstu ap centru">
 <!ENTITY alignRightButton.tooltip "Līdzināt tekstu gar labo piemali">

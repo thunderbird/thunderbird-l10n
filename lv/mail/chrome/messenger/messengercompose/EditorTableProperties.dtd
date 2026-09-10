@@ -45,7 +45,7 @@
 <!ENTITY cellSelectPrevious.accessKey "I">
 <!ENTITY applyBeforeChange.label "Pašreizējās izmaiņas tiks piemērotas pirms atlases maiņas.">
 <!ENTITY cellContentAlignment.label "Satura līdzināšana">
-<!ENTITY cellHorizontal.label "Horizontāli:">
+<!ENTITY cellHorizontal.label "Līmeniski:">
 <!ENTITY cellHorizontal.accessKey "H">
 <!ENTITY cellVertical.label "Vertikāli:">
 <!ENTITY cellVertical.accessKey "V">

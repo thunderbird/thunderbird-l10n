@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Window title -->
-<!ENTITY windowTitle.label "Horizontālās līnijas īpašības">
+<!ENTITY windowTitle.label "Līmeniskās līnijas īpašības">
 <!ENTITY dimensionsBox.label "Izmēri">
 <!ENTITY heightEditField.label "Augstums:">
 <!ENTITY heightEditField.accessKey "A">
@@ -21,4 +21,4 @@
 <!ENTITY threeDShading.accessKey "d">
 <!ENTITY saveSettings.label "Lietot kā noklusēto">
 <!ENTITY saveSettings.accessKey "n">
-<!ENTITY saveSettings.tooltip "Saglabājiet šos iestatījumus, lai tos izmantotu, ievietojot jaunas horizontālas līnijas">
+<!ENTITY saveSettings.tooltip "Saglabā šos iestatījumus, lai tos izmantotu, ievietojot jaunas līmeniskas līnijas">
