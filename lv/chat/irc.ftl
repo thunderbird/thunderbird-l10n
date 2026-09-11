@@ -229,14 +229,14 @@ tooltip-server = Savienots ar
 tooltip-connected-from = Savienots no
 tooltip-registered = Reģistrēts
 tooltip-registered-as = Reģistrēts kā
-tooltip-secure = Lietojot drošo savienojumu
+tooltip-secure = Izmantojot drošu savienojumu
 # The away message of the user
 tooltip-away = Projām
 tooltip-irc-op = IRC operators
 tooltip-bot = Robotprogrammatūra
 tooltip-last-activity = Pēdējā darbība
 # $timespan is the timespan elapsed since the last activity.
-tooltip-timespan = { $timespan } atpakaļ
+tooltip-timespan = { $timespan } iepriekš
 tooltip-channels = Pašreiz uz
 #    $serverName is the server name, $serverInformation is some generic server information (usually a
 #    location or the date the user was last seen).

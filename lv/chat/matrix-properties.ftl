@@ -60,7 +60,7 @@ chat-room-field-room = _Istaba
 # The human readable name of the user.
 tooltip-display-name = Rādāmvārds
 # $timespan (String) is the timespan elapsed since the last activity.
-tooltip-timespan = { $timespan } atpakaļ
+tooltip-timespan = { $timespan } iepriekš
 tooltip-last-active = Pēdējā darbība
 # LOCALIZATION NOTE (power-level-*):
 #    These are the string representations of different standard power levels and strings.

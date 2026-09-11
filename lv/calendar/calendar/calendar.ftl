@@ -2,6 +2,23 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+# Default name for new events
+new-event =
+    .placeholder = Jauns notikums
+# Titles for the event/task dialog
+new-event-dialog = Jauns notikums
+edit-event-dialog = Labot notikumu
+new-task-dialog = Jauns uzdevums
+edit-task-dialog = Labot uzdevumu
+# Do you want to save changes?
+ask-save-title-event = Saglabāt notikumu
+ask-save-title-task = Saglabāt uzdevumu
+ask-save-message-event = Notikums nav saglabāts. Saglabāt to?
+ask-save-message-task = Uzdevums nav saglabāts. Saglabāt to?
+# Event Dialog Warnings
+warning-end-before-start = Ievadītais beigu datums ir agrāks par sākuma datumu
+# The name of the calendar provided with the application by default
+home-calendar-name = Sākums
 # The name given to a calendar if an opened calendar has an empty filename
 untitled-calendar-name = Kalendārs bez nosaukuma
 status-confirmed = Apstiprināts
@@ -138,3 +155,10 @@ counter-delegated = { $name } nodeva ielūgumu, bet sniedza pretēju priekšliku
 #   $name - The name of responding invitee.
 counter-needs-action = { $name } neizlēma, vai piedalīties, un iesniedza priekšlikumu:
 counter-on-previous-version-notification = Šis ir priekšlikums iepriekšējai šī pasākuma versijai.
+counter-on-counter-disallowed-notification = Tu neatļāvi priekšlikumus, kad izsūtīji uzaicinājumu.
+sendandclose-button =
+    .label = Sūtīt un aizvērt
+    .tooltiptext = Paziņot apmeklētājiem un aizvērt
+saveandsend-button =
+    .label = Saglabāt un nosūtīt
+    .tooltiptext = Saglabāt un paziņot apmeklētājiem

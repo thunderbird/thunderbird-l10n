@@ -67,8 +67,27 @@ quick-filter-toolbarbutton =
     .label = Ātrais atsijātājs
     .tooltiptext = Atsijāt ziņoas
 
+## Folder Pane
+
+folder-pane-header-label = Mapes
+
 ## Folder Toolbar Header Popup
 
+folder-toolbar-hide-toolbar-toolbarbutton =
+    .label = Paslēpt rīkjoslu
+    .accesskey = P
+show-all-folders-label =
+    .label = Visas mapes
+    .accesskey = V
+show-unread-folders-label =
+    .label = Nelasītās mapes
+    .accesskey = N
+show-favorite-folders-label =
+    .label = Izlases mapes
+    .accesskey = I
+show-smart-folders-label =
+    .label = Apvienotās mapes
+    .accesskey = A
 show-recent-folders-label =
     .label = Nesenās mapes
     .accesskey = N
@@ -224,6 +243,12 @@ context-menu-mark-spam =
 context-menu-mark-not-spam =
     .aria-label = Atzīmēt kā ne mēstuli
     .tooltiptext = Atzīmēt kā ne mēstuli
+context-menu-mark-junk =
+    .aria-label = Atzīmēt kā nevēlamu
+    .tooltiptext = Atzīmēt kā nevēlamu
+context-menu-mark-not-junk =
+    .aria-label = Atzīmēt kā ne nevēlamu
+    .tooltiptext = Atzīmēt kā ne nevēlamu
 mail-context-menu-open =
     .label = Atvērt
     .accesskey = A
