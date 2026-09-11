@@ -34,3 +34,23 @@ calendar-delete-task-prompt-message =
         [one] Vai tiešām vēlaties dzēst šos { $count } uzdevumus?
        *[other] Vai tiešām vēlaties dzēst šos { $count } uzdevumus?
     }
+
+## Variables:
+## $count (Number) - Number of items selected for deletion.
+
+calendar-delete-item-prompt-title =
+    { $count ->
+        [zero] Izdzēst vienumus
+        [one] Izdzēst vienumu
+       *[other] Izdzēst vienumus
+    }
+calendar-delete-item-prompt-message =
+    { $count ->
+        [zero] Vai tiešām izdzēst šos { $count } vienumus?
+        [one] Vai tiešām izdzēst šo { $count } vienumu?
+       *[other] Vai tiešām izdzēst šos { $count } vienumus?
+    }
+
+##
+
+calendar-delete-prompt-disable-message = Vairs man nevaicāt.
