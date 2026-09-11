@@ -27,6 +27,7 @@ policy-DisableBuiltinPDFViewer = A PDF.js-nek, a { -brand-short-name } beépíte
 policy-DisabledCiphers = Titkosítási módok letiltása.
 policy-DefaultDownloadDirectory = Az alapértelmezett letöltési könyvtár megadása.
 policy-DisableAppUpdate = A { -brand-short-name } frissítésének megakadályozása.
+policy-DisableChat = Csevegés funkció letiltása.
 policy-DisableDataCollectionSettings = Megakadályozás, hogy a felhasználó módosítsa az adatgyűjtési beállításokat.
 policy-DisableDefaultClientAgent = Akadályozza meg, hogy az alapértelmezett kliens-ügynök bármilyen műveletet végezzen. Csak Windowsra vonatkozik, más platformokon nincs meg ez az ügynök.
 policy-DisableDeveloperTools = Hozzáférés blokkolása a fejlesztői eszközökhöz.
