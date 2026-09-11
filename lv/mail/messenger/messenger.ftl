@@ -56,8 +56,17 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Ciešs skats
     .accesskey = C
 
+## Folder names
+
+folder-name-spam = Mēstules
+# Gmail's "All Mail" folder. Please make sure this is the same string used in the Gmail web UI for your language.
+folder-name-all-mail = Viss pasts
+
 ## File Menu
 
+menu-file-save-as-file =
+    .label = Datne...
+    .accesskey = D
 # Variables:
 #   $count - number of messages to get
 menu-file-get-next-n-news-msgs =
@@ -66,12 +75,30 @@ menu-file-get-next-n-news-msgs =
         [one] Saņemt nākamās { $count } jaunumu ziņas
        *[other] Saņemt nākamās { $count } jaunumu ziņas
     }
+# Variables:
+# $count (Number) - One or more than one folder selected for compacting
+menu-file-compact =
+    .label =
+        { $count ->
+            [zero] Saspiestās mapes
+            [one] Saspiestā mape
+           *[other] Saspiestās mapes
+        }
+    .accesskey = m
+# One or more servers selected for compacting all their folders. Only this or
+# menu-file-compact string will appear at a time, not both.
+menu-file-compact-all =
+    .label = Saspiest visas mapes
+    .accesskey = m
 
 ## Edit Menu
 
 menu-edit-delete-folder =
     .label = Dzēst mapi
     .accesskey = D
+menu-edit-unsubscribe-newsgroup =
+    .label = Atrakstīties no ziņu kopas
+    .accesskey = r
 # Variables:
 # $count (Number) - Number of selected messages.
 menu-edit-delete-messages =
@@ -94,13 +121,19 @@ menu-edit-undelete-messages =
     .accesskey = A
 menu-edit-properties =
     .label = Īpašības
-    .accesskey = Z
+    .accesskey = p
 menu-edit-folder-properties =
     .label = Mapes īpašības
-    .accesskey = Z
+    .accesskey = p
 menu-edit-newsgroup-properties =
-    .label = Ziņu grupas īpašības
-    .accesskey = Z
+    .label = Ziņu kopas īpašības
+    .accesskey = p
+
+## Message Menu
+
+redirect-msg-menuitem =
+    .label = Pārvirzīt
+    .accesskey = v
 
 ## Shared Menu Items
 
@@ -130,6 +163,9 @@ menu-move-copy-recent-destinations-no-accesskey =
     .label = Nesenie galamērķi
 menu-move-copy-favorites-no-accesskey =
     .label = Izlase
+menu-move-copy-recent-destinations =
+    .label = Nesenie galamērķi
+    .accesskey = N
 menu-move-copy-favorites =
     .label = Izlase
     .accesskey = I
