@@ -27,6 +27,7 @@ policy-DisableBuiltinPDFViewer = Gera PDF.js óvirkt, innbyggða PDF-lesarann í
 policy-DisabledCiphers = Gera dulritun óvirka.
 policy-DefaultDownloadDirectory = Stilla sjálfgefna möppu fyrir sóttar skrár.
 policy-DisableAppUpdate = Koma í veg fyrir að { -brand-short-name } uppfærist.
+policy-DisableChat = Gera spjallvirkni óvirka.
 policy-DisableDataCollectionSettings = Koma í veg fyrir að notandinn breyti stillingum gagnasöfnunar.
 policy-DisableDefaultClientAgent = Koma í veg fyrir að sjálfgefið forritskenni (client agent) grípi til aðgerða. Gildir aðeins fyrir Windows; önnur stýrikerfi hafa ekki slíkt kenni.
 policy-DisableDeveloperTools = Loka fyrir aðgang að þróunarverkfærunum.

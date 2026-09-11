@@ -12,3 +12,6 @@ inactive-message = Fyrirtækjastefnu-þjónustan er ekki virk.
 policy-name = Nafn stefnu
 policy-value = Gildi stefnu
 policy-errors = Villur gagnvart stefnu
+# Shown under the name of a policy in the Active list when at least one of the
+# operations of that policy failed to apply. The Errors tab has the details.
+policy-not-fully-applied = Ekki beitt að fullu
