@@ -36,7 +36,7 @@ appmenu-new-account-panel =
     .label = Ny konto
     .accesskey = N
 appmenu-new-email-account =
-    .label = Mailadresse
+    .label = Mail
     .accesskey = M
 appmenu-new-calendar =
     .label = Kalender
@@ -50,9 +50,6 @@ appmenu-new-feed =
 appmenu-new-newsgroup =
     .label = Nyhedsgruppe
     .accesskey = y
-
-## Add Account
-
 appmenu-add-account-panel-title =
     .title = Tilføj konto
 appmenu-add-account-panel =
