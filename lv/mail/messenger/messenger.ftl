@@ -46,9 +46,15 @@ quick-filter-toolbarbutton =
 
 ## Folder Toolbar Header Popup
 
+show-recent-folders-label =
+    .label = Nesenās mapes
+    .accesskey = N
 show-tags-folders-label =
     .label = Birkas
     .accesskey = B
+folder-toolbar-toggle-folder-compact-view =
+    .label = Ciešs skats
+    .accesskey = C
 
 ## File Menu
 

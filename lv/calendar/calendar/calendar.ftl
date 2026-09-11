@@ -126,3 +126,15 @@ select-a-file = Lūgums atlasīt datni(es), ko pievienot
 # Variables:
 #   $name - The name of responding invitee.
 counter-accepted = { $name } apstiprināja ielūgumu, bet izteica priekšlikumu:
+#   $name - The name of responding invitee.
+counter-tentative = { $name } pieņēma ielūgumu tikai varbūtēji un izteica pretēju priekšlikumu:
+# Variables:
+#   $name - The name of responding invitee.
+counter-declined = { $name } noraidīja ielūgumu, bet izteica pretēju priekšlikumu:
+# Variables:
+#   $name - The name of responding invitee.
+counter-delegated = { $name } nodeva ielūgumu, bet sniedza pretēju priekšlikumu:
+# Variables:
+#   $name - The name of responding invitee.
+counter-needs-action = { $name } neizlēma, vai piedalīties, un iesniedza priekšlikumu:
+counter-on-previous-version-notification = Šis ir priekšlikums iepriekšējai šī pasākuma versijai.
