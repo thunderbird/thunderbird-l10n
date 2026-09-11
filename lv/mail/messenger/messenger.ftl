@@ -169,12 +169,71 @@ menu-move-copy-recent-destinations =
 menu-move-copy-favorites =
     .label = Izlase
     .accesskey = I
+menu-move-copy-no-recent =
+    .label = (Nav nesenu galamērķu)
+menu-move-copy-no-favorites =
+    .label = (Izlasē nekā nav)
+
+## AppMenu
+
+appmenu-save-as-file =
+    .label = Datne...
+appmenu-settings =
+    .label = Iestatījumi
 
 ## Context menu
 
+context-menu-mark-read =
+    .aria-label = Atzīmēt kā izlasītu
+    .tooltiptext = Atzīmēt kā izlasītu
+context-menu-mark-unread =
+    .aria-label = Atzīmēt kā nelasītu
+    .tooltiptext = Atzīmēt kā nelasītu
+context-menu-mark-reply =
+    .aria-label = Atbildēt
+    .tooltiptext = Atbildēt
+context-menu-archive =
+    .aria-label = Arhīvs
+    .tooltiptext = Arhīvs
+context-menu-mark-spam =
+    .aria-label = Atzīmēt kā mēstuli
+    .tooltiptext = Atzīmēt kā mēstuli
+context-menu-mark-not-spam =
+    .aria-label = Atzīmēt kā ne mēstuli
+    .tooltiptext = Atzīmēt kā ne mēstuli
+mail-context-menu-open =
+    .label = Atvērt
+    .accesskey = A
+mail-context-menu-reply =
+    .label = Atbildēt
+    .accesskey = b
+mail-context-menu-forward-redirect =
+    .label = Pārsūtīt un pārvirzīt
+    .accesskey = s
 mail-context-menu-forward-forward =
     .label = Pārsūtīt
     .accesskey = P
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-menu-forward-as-attachment =
+    .label =
+        { $count ->
+            [zero] Kā pielikumus
+            [one] Kā pielikumu
+           *[other] Kā pielikumus
+        }
+    .accesskey = p
+mail-context-menu-organize =
+    .label = Kārtot
+    .accesskey = K
+mail-context-menu-threads =
+    .label = Pavedieni
+    .accesskey = P
+context-menu-redirect-msg =
+    .label = Pārvirzīt
+# This menu item is for canceling an NNTP message
+context-menu-cancel-msg =
+    .label = Atcelt ziņojumu
 
 ## Spaces toolbar
 
