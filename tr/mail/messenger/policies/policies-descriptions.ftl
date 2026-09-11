@@ -27,6 +27,7 @@ policy-DisableBuiltinPDFViewer = Dahili { -brand-short-name } PDF görüntüleyi
 policy-DisabledCiphers = Şifrelemeleri devre dışı bırak.
 policy-DefaultDownloadDirectory = Varsayılan indirme dizinini ayarla.
 policy-DisableAppUpdate = { -brand-short-name } uygulamasının güncellenmesini engelle.
+policy-DisableChat = Sohbet özelliğini devre dışı bırak.
 policy-DisableDataCollectionSettings = Kullanıcının veri toplama ayarlarını değiştirmesini engelle.
 policy-DisableDefaultClientAgent = Varsayılan istemci agent’ının herhangi bir işlem yapmasını önle. Yalnızca Windows için geçerlidir. Diğer platformlarda agent yoktur.
 policy-DisableDeveloperTools = Geliştirici araçlarına erişimi engelle.
