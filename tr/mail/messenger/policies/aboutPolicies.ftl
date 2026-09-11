@@ -12,3 +12,6 @@ inactive-message = Kurumsal İlkeler hizmeti etkin değil.
 policy-name = İlke Adı
 policy-value = İlke Değeri
 policy-errors = İlke Hataları
+# Shown under the name of a policy in the Active list when at least one of the
+# operations of that policy failed to apply. The Errors tab has the details.
+policy-not-fully-applied = Tam olarak uygulanmadı
