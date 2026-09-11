@@ -19,6 +19,29 @@ content-tab-menu-back =
     .aria-label = Atpakaļ
     .tooltiptext = Doties uz iepriekšējo lapu ({ $shortcut })
     .accesskey = A
+# This menuitem is only visible on macOS
+content-tab-menu-back-mac =
+    .label = Atpakaļ
+    .accesskey = A
+# Variables
+#   $shortcut (String) - A keyboard shortcut for the Go Forward command.
+content-tab-menu-forward =
+    .aria-label = Uz priekšu
+    .tooltiptext = Doties uz nākamo lapu  ({ $shortcut })
+    .accesskey = p
+# This menuitem is only visible on macOS
+content-tab-menu-forward-mac =
+    .label = Uz priekšu
+    .accesskey = p
+content-tab-menu-reload =
+    .aria-label = Pārlādēt
+    .tooltiptext = Pārlādēt lapu
+    .accesskey = P
+# This menuitem is only visible on macOS
+content-tab-menu-reload-mac =
+    .label = Pārlādēt
+    .tooltiptext = Pārlādēt lapu
+    .accesskey = P
 open-windows-warning-confirmation-title = Apstiprināt
 # Variables:
 #   $count - number of messages to open
