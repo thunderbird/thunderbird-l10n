@@ -4,6 +4,8 @@
 
 event-attendee-role-required =
     .title = Nepieciešams dalībnieks
+event-attendee-role-optional =
+    .title = Papildu apmeklētājs
 # $role
 event-attendee-role-unknown =
     .title = Neiznāms dalībnieks ({ $role })

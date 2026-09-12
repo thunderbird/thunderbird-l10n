@@ -10,6 +10,8 @@ new-event-dialog = Jauns notikums
 edit-event-dialog = Labot notikumu
 new-task-dialog = Jauns uzdevums
 edit-task-dialog = Labot uzdevumu
+# Remove attachments prompt.
+prompt-remove-attachments-title = Noņemt pielikumus
 # Do you want to save changes?
 ask-save-title-event = Saglabāt notikumu
 ask-save-title-task = Saglabāt uzdevumu
