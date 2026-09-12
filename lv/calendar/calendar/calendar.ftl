@@ -12,13 +12,26 @@ new-task-dialog = Jauns uzdevums
 edit-task-dialog = Labot uzdevumu
 # Remove attachments prompt.
 prompt-remove-attachments-title = Noņemt pielikumus
+# LOCALIZATION NOTE (prompt-remove-attachments-text):
+#  $count will be replaced with number of attachments
+prompt-remove-attachments-text =
+    { $count ->
+        [one] Vai tiešām noņemt { $count } pielikumu?
+        [zero] Vai tiešām noņemt { $count } pielikumu?
+       *[other] Vai tiešām noņemt { $count } pielikumus?
+    }
 # Do you want to save changes?
 ask-save-title-event = Saglabāt notikumu
 ask-save-title-task = Saglabāt uzdevumu
 ask-save-message-event = Notikums nav saglabāts. Saglabāt to?
 ask-save-message-task = Uzdevums nav saglabāts. Saglabāt to?
+# All day checkbox label, used both for events and tasks
+calendar-item-all-day =
+    .label = Visu dienu
+    .accesskey = d
 # Event Dialog Warnings
 warning-end-before-start = Ievadītais beigu datums ir agrāks par sākuma datumu
+warning-until-date-before-start = Beigu datums ir pirms sākuma datuma
 # The name of the calendar provided with the application by default
 home-calendar-name = Sākums
 # The name given to a calendar if an opened calendar has an empty filename
@@ -32,6 +45,12 @@ status-completed = Pabeigts
 high-priority = Augsts
 normal-priority = Parasts
 low-priority = Zems
+status-priority-img-high-priority =
+    .alt = Augsts
+status-priority-img-normal-priority =
+    .alt = Parasts
+status-priority-img-low-priority =
+    .alt = Zems
 import-prompt = Kurā kalendāra ievietot šos vienumus?
 export-prompt = No kura kalendāra veikt izgūšanu?
 paste-prompt = Kurā no pašreiz rakstāmajiem kalendāriem ielīmēt?
@@ -98,9 +117,21 @@ html-title = Mozilla kalendārs
 # used for an error message like 'An unknown and undefined timezone was found while reading c:\Mycalendarfile.ics'
 #    $filePath will be replaced with the path to a file
 timezone-error = { $filePath } nolasīšanas laikā tika atrasta nezināma un nenoteikta laika josla.
+# LOCALIZATION NOTE (duplicate-error):
+#    $count will be replaced with number of duplicate items
+#    $filePath will be replaced with a file path pointing to a calendar
+duplicate-error =
+    { $count ->
+        [one] { $count } vienums netika ņemts, jo jau pastāv gan mērķa kalendārā, gan { $filePath }.
+        [zero] { $count } vienumu netika ņemti vērā, jo tie pastāv gan mērķa kalendārā, gan { $filePath }.
+       *[other] { $count } vienumi netika ņemti vērāk, jo tie pastāv gan mērķa kalendārā, gan { $filePath }.
+    }
 # The following strings are for the prompt to delete/unsubscribe from the calendar
 remove-calendar-title = Noņemt kalendāru
 remove-calendar-button-delete = Izdzēst kalendāru
+tooltip-due = Paredzēts:
+filepicker-title-export = Izgūt
+item-modified-on-server-title = Vienums ir izmainīts serverī
 cal-dav-request-status-code-string-500 = Iekšēja servera kļūda.
 cal-dav-request-status-code-string-503 = Iekšēja servera kļūda (Īslaicīgs servera darbības pārtraukums?).
 # LOCALIZATION NOTE (error-code):
