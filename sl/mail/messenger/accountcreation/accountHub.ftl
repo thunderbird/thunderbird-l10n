@@ -254,7 +254,11 @@ account-hub-protocol-imap = Sinhronizacija med napravami
 account-hub-protocol-microsoft = Exchange ali Microsoft 365
 account-hub-protocol-pop3 = Prenesi na napravo
 account-hub-oauth-unsupported-title = Zahtevana je dodatna nastavitev
+# Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
+# 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
+account-hub-oauth-unsupported-description = { -brand-short-name } za to ime gostitelja ne more samodejno nastaviti protokola OAuth2. V Naprednih nastavitvah ustvarite račun, nato pa dokončajte nastavitev v Nastavitvah računa. <a data-l10n-name="oauth-support-link">Pridobite pomoč pri nastavitvi OAuth2</a>.
 account-hub-username-help-text = Največkrat vaš polni e-poštni naslov
+account-hub-port-help-text = Če pustite prazno, bo { -brand-short-name } poskusil vrata samodejno zaznati.
 account-hub-notification-show-more = Prikaži več
 account-hub-notification-show-less = Prikaži manj
 account-hub-email-setup-header = Dodajte e-poštni naslov
@@ -378,6 +382,8 @@ account-hub-card-graph-title = Microsoft Graph
 account-hub-card-graph-description = Microsoft Graph je sodobna metoda povezovanja za Microsoft 365.
 account-hub-card-ews-title = Spletne storitve Exchange
 account-hub-card-ews-tag = Starejše
+# This is shown after the type description, so "it" is referring to the type (either Microsoft Graph or Exchange Web Services).
+account-hub-card-recommended-description = Priporočeno, ker se ujema z URL-jem vaše storitve.
 account-hub-exchange-type-username = Uporabniško ime
 account-hub-exchange-type-username-hint = Običajno e-poštni naslov ali UPN storitve Active Directory.
 account-hub-exchange-type-authentication = Način overitve

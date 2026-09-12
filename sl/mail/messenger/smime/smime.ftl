@@ -14,6 +14,8 @@ configured-cert-failure-detail = Preverjanje potrdila je bilo neuspešno zaradi 
 configured-cert-failure = Preverjanje potrdila je bilo neuspešno; koda napake { $errorCode }
 # Cryptographic details displayed in the message security popup
 smime-crypto-signature-algorithm = Algoritem podpisa:
+smime-crypto-cipher = Algoritem šifriranja:
+smime-crypto-key-encryption = Algoritem šifriranja ključa:
 # $algorithm - The encryption algorithm name (e.g. "AES-GCM")
 # $keySize - The key size in bits (e.g. "256")
 smime-crypto-cipher-with-key-size = { $algorithm } ({ $keySize }-bitni)
