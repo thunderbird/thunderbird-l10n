@@ -21,9 +21,24 @@ oauth2-use-custom-details =
 oauth2-client-id-label =
     .value = ID odjemalca:
     .accesskey = I
+oauth2-authorization-endpoint-label =
+    .value = Končna točka pooblastitve:
+    .accesskey = č
+oauth2-token-endpoint-label =
+    .value = Končna točka žetona:
+    .accesskey = t
+oauth2-scopes-label =
+    .value = Obsegi:
+    .accesskey = s
 oauth2-redirection-endpoint-label =
     .value = URI za preusmeritev:
     .accesskey = U
+oauth2-client-secret-label =
+    .value = Tajni ključ odjemalca:
+    .accesskey = e
+oauth2-issuer-identifier-label =
+    .value = Identifikator izdajatelja:
+    .accesskey = I
 oauth2-use-pkce =
     .label = Uporabi PKCE
     .accesskey = K
@@ -51,3 +66,9 @@ ews-endpointhost-label =
 ews-oauthscopes-label =
     .value = Obsegi OAuth:
     .accesskey = s
+# Variables:
+#   $extensionName (String) - The display name of the extension providing
+#     the OAuth2 settings.
+# Shown in Account Settings below the authentication method when OAuth2
+# settings are provided by an extension.
+oauth-provider-extension-info = Nastavitve OAuth2, ki jih zagotavlja razširitev: <a data-l10n-name="extension">{ $extensionName }</a>

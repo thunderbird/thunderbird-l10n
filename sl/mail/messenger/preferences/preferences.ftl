@@ -470,6 +470,10 @@ account-hub-checkbox-label =
     .label = Ustvarjanje računov v novem središču za račune
     .accesskey = č
 account-hub-checkbox-description = Poskusni nov postopek ustvarjanja novih računov za e-pošto
+account-hub-manual-config-checkbox-label =
+    .label = Uporabi novi postopek ročne nastavitve v središču za račune
+    .accesskey = č
+account-hub-manual-config-checkbox-description = Novi postopek ročne nastavitve v središču za račune
 new-calendar-legend = Novo pogovorno okno koledarskega dogodka
 new-calendar-checkbox-label =
     .label = Koledarske dogodke prikaži v novem pogovornem oknu
@@ -588,9 +592,9 @@ enable-cloud-share =
 cloud-share-size =
     .value = MB
 add-cloud-account =
+    .defaultlabel = Dodaj …
     .label = Dodaj …
     .accesskey = D
-    .defaultlabel = Dodaj …
 remove-cloud-account =
     .label = Odstrani
     .accesskey = O
@@ -919,8 +923,8 @@ chat-variant-label =
 # is the name of the CSS property. It is intended only to adjust the element's width.
 # Do not translate.
 search-preferences-input2 =
-    .style = width: 15.4em
     .placeholder = Najdi v nastavitvah
+    .style = width: 15.4em
 managed-notice = { -brand-short-name } upravlja vaša organizacija.
 
 ## Settings UI Search Results
