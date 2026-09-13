@@ -31,6 +31,7 @@ send-progress-assembling-message-done = Cydosod neges...Wedi gorffen
 send-progress-copy-complete = Copïo wedi gorffen.
 send-progress-copy-failed = Methodd copïo.
 send-dialog-save-title = Cadw Neges
+send-error-save-to-local-folders = Methu cadw eich neges i ffolderi lleol. Posib nad oes lle storio yn weddill.
 send-progress-filter-complete = Mae'r hidl wedi ei gwblhau.
 send-progress-filter-failed = Methodd yr hidl.
 send-error-post-failed = Nid oedd modd cofnodi'r neges am i'r cyswllt a'r gweinydd e-bost fethu. Efallai nad yw'r gweinydd ar gael neu mae'n gwrthod cysylltiadau. Gwiriwch eich gosodiadau gwasanaethau e-bost a cheisiwch eto, neu cysylltwch â'ch gweinyddwr rhwydwaith.
