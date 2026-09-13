@@ -39,6 +39,7 @@ send-error-save-sent-locally =
     İletiniz gönderildi ama ağ veya dosya erişim hataları nedeniyle “gönderilmiş” klasörünüze ({ $folder }) kaydedilemedi.
     Yeniden deneyebilir veya iletiyi { $localFolder }/{ $folder }-{ $account } yerel klasörüne kaydedebilirsiniz.
 send-dialog-save-title = İletiyi Kaydet
+send-error-save-to-local-folders = İletiniz yerel klasörlere kaydedilemedi. Büyük olasılıkla yeterli alan yok.
 send-progress-filter-complete = Süzme tamamlandı.
 send-progress-filter-failed = Süzme başarısız oldu.
 send-error-filtering-message = İletiniz gönderildi ve saklandı, ancak iletide kurallar işlenirken bir hata oluştu.
