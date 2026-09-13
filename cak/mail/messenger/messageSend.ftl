@@ -27,6 +27,9 @@ send-error-title = Xsach toq Nitaq ri Rutzijol
 send-progress-assembling-mail-information = Nitun ri retamab'al taqoya'l…
 send-progress-assembling-message = Nitun rutzijol…
 send-progress-creating-mail-message = Nitz'uk rutzijol taqoya'l…
+# Variables:
+# $filename - name or URL of the file that could not be attached
+send-error-attaching-file = Xk'ulwachitäj jun sachoj toq nijotob'äx { $filename }. Tanik'oj we yatikïr yatok pa ri yakb'äl.
 send-progress-assembling-message-done = Nitun rutzijol…Xk'is
 send-progress-copy-complete = Xtz'aqät wachib'enïk.
 send-progress-copy-failed = Sachoj toq xwachib'ëx.
@@ -52,14 +55,52 @@ send-progress-filter-complete = Xtz'aqät chayunïk.
 send-progress-filter-failed = Sachoj toq xchayüx.
 send-error-filtering-message = Xtaq chuqa' xyak ri atzijol, xa xe chi xk'ulwachitäj jun sachoj toq yesamajib'ëx ri kichayub'al tzijol.
 # Variables:
+# $hostname - outgoing server hostname
+send-error-smtp-security-issue = K'o chi nib'an ruk'ojlem runuk'ulem, ruximon ri' rik'in { $hostname }.
+# Variables:
 # $size - formatted message size
 send-warning-large-message = ¡Rutzijol k'ayewal! Natäq yan jun rutzijol { $size } runimilem. ¿La kan nawajo' nab'än re re'?
 # Variables:
 # $folder - destination folder name
 send-progress-copy-start = Tajin niwachib'ëx ri rutzijol pa { $folder } yakwuj…
 send-progress-sending-message = Tajin nitaq ruzijol…
+send-error-nntp-ok = Ri atzijol xtaq pa kimolaj tzijol xa xe chi man xtaq ta chi ke ch'aqa' chik k'ulunela'.
+send-error-copy-operation = Ütz xub'än toq xtaq ri rutzijol, xa xe chi man xwachib'ëx ta pa ri ruyakwuj Taqon.
 send-later-error-title = Xsach toq Nitaq Chi Rij
 send-save-draft-error-title = Xsach toq Niyak Nab'ey Samaj
 send-save-template-error-title = Xsach toq Niyak Kaxawäch
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = ewan-k'ulunela'
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-no-ssl = Ri Ruk'uxasamaj elem (SMTP) { $hostname } achi'el man yeruköch’ ta ewan taq tzij ri ewan kisik'ixik. We k'ab'a’ tab'än runuk'ulem ri rub'i’ taqoya'l, tatojtob'ej najäl ri ‘Rub'eyal jikib'anïk’ pa ‘Kinuk'ulem Rub'i’ Taqoya'l | Ruk'uxasamaj elem (SMTP)’ rik'in ‘Ewan tzij, ütz rub'anikil talun’. We nisamäj po wakami manäq, rik'in jub'a’ retal chi xeleq'äx ri ewan tzij.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-ssl = Ri Ruk'uxasamaj elem (SMTP) { $hostname } achi'el man yeruköch’ ta ewan taq tzij ri ewan kisik'ixik. We k'ab'a’ tab'än runuk'ulem ri rub'i’ taqoya'l, tatojtob'ej najäl ri ‘Rub'eyal jikib'anïk’ pa ‘Kinuk'ulem Rub'i’ Taqoya'l | Ruk'uxasamaj elem (SMTP)’ rik'in ‘Relik ewan tzij’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-plain-to-encrypt = Ri Ruk'uxasamaj elem (SMTP) { $hostname } achi'el man nuya’ ta q'ij chi ke ri ewan taq tzij pa li'an cholan tzij. Tatojtob'ej najäl ri ‘Rub'eyal jikib'anïk’ pa ‘Kinuk'ulem Rub'i’ Taqoya'l | Ruk'uxasamaj elem (SMTP)’ rik'in ‘Ewan ewan rusik'ixik’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-failure = Man tikirel ta nijikib'äx ri Ruk'uxasamaj elem (SMTP) { $hostname }. Tinik'öx ri ewan rutzij chuqa’ ri ‘Rub'eyal jikib'anïk’ pa ‘Kinuk'ulem Rub'i’ Taqoya'l | Ruk'uxasamaj elem (SMTP)’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-gssapi = Man xk'ulutäj ta ri Kerberos/GSSAPI tiket ruma Ruk'uxasamaj elem (SMTP) { $hostname }. Tanik'oj chi xatikirisaj molojri'ïl pa Kerberos/GSSAPI.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-mechanism-not-supported = Ri Ruk'uxasamaj elem (SMTP) { $hostname } man nuköch’ ta ri rub'eyal jikib'anïk xcha’. Tijal ri ‘Rub'eyal jikib'anïk’ pa ‘Runuk'ulem rub'i’ taqoya'l | Ruk'uxasamaj Elem (SMTP)’.
+# Variables:
+# $serverResponse - server response
+smtp-server-error = Xk'ulwachitäj jun sachoj toq nitaq ri taqoya'l: Ri ruk'uxasamaj elem (SMTP) xsach. Xutzolij tzij ri k'uxasamaj:  { $serverResponse }.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-starttls-failed = Xk'ulwachitäj jun sachoj toq nitaq ri taqoya'l: Man xk'ulwachitäj ta jun ütz okem pa ri ruk'uxasamaj Elem (SMTP) { $hostname } toq nokisäx STARTTLS ruma man nuya’ ta rutzijol ri samaj ri’. Tachupu’ STARTTLS pa ri k'uxasamaj ri’ o katzijon rik'in ri aya'öl.
+# Variables:
+# $serverResponse - server response
+smtp-permanent-size-exceeded = Ri runimilem tzijol natojtob'ej natäq nik'o rik'in ri chijun ruchi' k'uxasamaj. Man xtaq ta ri rutzijol; tach'utinisaj ri rutzijol o tawoyob'ej richin natojtob'ej chik. Ri k'uxasamaj xutzolij tzij:  { $serverResponse }.
+# Variables:
+# $serverResponse - server response; $recipient - intended recipient
+smtp-error-sending-recipient-command =
+    Xk'ulwachitäj jun sachoj toq nitaq ri taqoya'l. Ri ruk'uxasamaj taqoya'l xutzolij tzij:
+    { $serverResponse }.
+    Tanik'oj ri xtik'ulun ri rutzijol "{ $recipient }" chuqa' tatojtob'ej chik.
