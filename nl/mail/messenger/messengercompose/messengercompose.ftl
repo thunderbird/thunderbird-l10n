@@ -37,6 +37,7 @@ compose-attachment-reminder-add-button = Oh, inderdaad!
 compose-newsgroups-not-supported-title = Nieuwsgroepen niet ondersteund
 compose-newsgroups-not-supported = Deze account ondersteunt alleen e-mailontvangers. Doorgaan zal nieuwsgroepen negeren.
 compose-invalid-address-title = Ongeldig ontvangeradres
+compose-no-recipients = Er zijn geen ontvangers opgegeven. Voer een ontvanger of nieuwsgroep in in het adresseringsgebied.
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address } is geen geldig e-mailadres, omdat het niet de vorm gebruiker@host heeft. U moet dit corrigeren voordat u de e-mail verzendt.
