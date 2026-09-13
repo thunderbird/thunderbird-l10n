@@ -72,6 +72,8 @@ no-proxy-label =
     .value = Nulle proxy pro:
     .accesskey = n
 no-proxy-example = Exemplo: .mozilla.org, .asso.fr, 192.168.1.0/24
+# Do not translate "localhost", "127.0.0.1/8" and "::1". (You can translate "and".)
+connection-proxy-local-network-desc = Le connexiones a retes local (como localhost) jammais usa un proxy.
 proxy-auto-login-saved-password =
     .label = Automaticamente aperir session si un contrasigno es salvate
     .tooltiptext = Iste option silentemente te authentica a proxies quando tu ha salvate credentiales pro illos.
