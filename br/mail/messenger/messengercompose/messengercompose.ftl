@@ -11,6 +11,10 @@ compose-message-attachment-name = Kemennadenn kenstaget
 ## Compose window
 
 compose-default-subject = (danvez ebet)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Skrivañ:{ $subject } - { $brand }
 compose-save-message-title = Enrollañ ar gemennadenn
 # Variables:
 # $folder - configured drafts folder name
@@ -20,10 +24,16 @@ compose-send-confirm-title = Kas ar gemennadenn
 compose-send-confirm-prompt = Ha sur oc'h e c'hellit kas ar gemennadenn diouzhtu ?
 compose-send-confirm-button = Kas
 compose-do-not-show-again = Chom hep diskouez ar voestad emziviz-se din.
+compose-empty-subject-title = Adc'halv evit an danvez
+compose-empty-subject-prompt = Ho kemennadenn n'eus danvez ebet.
+compose-empty-subject-send-button = &Kas hep danvez
+compose-empty-subject-cancel-button = &Nullañ ar c'has
 compose-attachment-reminder-title = Adc'halv evit ar c'henstagadurioù
 compose-attachment-reminder-prompt = Disoñjet hoc'h eus ouzhpennañ ur c'henstagadur?
 compose-attachment-reminder-send-button = Ket, kas diouzhtu
 compose-attachment-reminder-add-button = Ya!
+compose-newsgroups-not-supported-title = Ne vez ket skoret ar strolladoù-keleier
+compose-newsgroups-not-supported = Skorañ a ra ar gont-se posteloù nemetken. Strolladoù-keleier a vo lakaet a-gostez.
 compose-quit-sending-title = O kas ar postel
 compose-quit-saving-title = Oc'h enrollañ ar gemennadenn
 # Variables:
@@ -66,6 +76,12 @@ find-replace-button =
     .label = Amsaviñ...
     .accesskey = A
     .tooltiptext = Diskouez ar voestad emziviz Kavout hag amsaviñ
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Enankañ un chomlec'h 'A-berzh' personelaet a vo arveret e plas { $identity }
+compose-custom-from-address-title = Personelaat ar chomlec'h 'A-berzh'
+compose-custom-from-address-warning = M’eo skoret gant ho pourchaser posteloù e c’hallit personelaat ar chomlec’h skrammet er vaezienn 'A-berzh' hep kaout ezhomm krouiñ ur pivelezh nevez. Da skouer, m’eo 'John Doe <john@example.com>' ho chomlec'h 'A-berzh' e c’hallit lakaat da 'John Doe <john+doe@example.com>' pe 'John <john@example.com>'.
+compose-custom-from-address-ignore = Na rebuziñ mui ac'hanon eus an dra-se.
 compose-blocked-content-options-button = Dibarzhioù
 compose-blocked-content-options-accesskey = D
 compose-blocked-content-preferences-button = Gwellvezioù
