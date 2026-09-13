@@ -33,10 +33,27 @@ send-error-attaching-file = Greška prilikom prilaganja datoteke { $filename }. 
 send-progress-assembling-message-done = Sastavljanje poruke…Završeno
 send-progress-copy-complete = Kopiranje završeno.
 send-progress-copy-failed = Kopiranje nije uspjelo.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-sent-locally =
+    Vaša poruka je poslana, ali kopija nije spremljena u mapu poslane pošte ({ $folder }) zbog mrežne greške ili greške prilikom pristupa datotečnom sustavu.
+    Možete pokušati ponovno ili spremiti poruku lokalno u { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-draft-locally =
+    Skica poruke nije kopirana u mapu skica ({ $folder }) zbog mrežne greške ili greške prilikom pristupa datotečnom sustavu.
+    Možete pokušati ponovno ili spremiti skicu lokalno u { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-template-locally =
+    Predložak nije kopiran u mapu predložaka ({ $folder }) zbog mrežne greške ili greške prilikom pristupa datotečnom sustavu.
+    Možete pokušati ponovno ili spremiti predložak lokalno u { $localFolder }/{ $folder }-{ $account }.
 send-dialog-save-title = Spremi poruku
+send-dialog-retry = &Pokušaj ponovno
 send-error-save-to-local-folders = Nije moguće spremiti poruku u lokalne mape. Možda nemate dovoljno slobodnog prostora.
 send-progress-filter-complete = Filter završen.
 send-progress-filter-failed = Filter neuspješan.
+send-error-filtering-message = Vaša poruka je poslana i spremljena, ali se dogodila greška prilikom pokretanja filtera poruka na njoj.
 # Variables:
 # $hostname - outgoing server hostname
 send-error-smtp-security-issue = Konfiguracija vezana za { $hostname } se mora ispraviti.
