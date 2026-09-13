@@ -24,8 +24,15 @@ send-error-smtp-interrupted = Powěsć njedajo se słaś, dokulaž zwisk z wucha
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = Powěsć njedajo se słaś, dokulaž zwisk z wuchadnym serwerom (SMTP) { $hostname } jo cas pśekšocył. Wopytajśo hyšći raz.
 send-error-title = Zmólka pśi słanju powěsći
+send-progress-assembling-mail-information = E-mailowe informacije se gromadu stajaju…
 send-progress-assembling-message = Powěsć staja se gromadu…
+send-progress-creating-mail-message = Postowa powěsć se napórajo…
+# Variables:
+# $filename - name or URL of the file that could not be attached
+send-error-attaching-file = Pśi pśidawanju { $filename } jo zmólka nastała. Pšosym kontrolěrujśo, lěc maśo pśistup k dataji.
 send-progress-assembling-message-done = Powěsć staja se gromadu…Gótowy
+send-progress-copy-complete = Kopěrowanje skóńcone.
+send-progress-copy-failed = Kopěrowanje njejo se raźiło.
 # Variables:
 # $folder - destination folder name; $localFolder - local folders name; $account - account name
 send-error-save-sent-locally =
@@ -44,13 +51,25 @@ send-error-save-template-locally =
 send-dialog-save-title = Powěsć składowaś
 send-dialog-retry = &Hyšći raz wopytaś
 send-error-save-to-local-folders = Waša powěsć njedajo se do lokalnych zarědnikow składowaś. Snaź składowański rum njedosega.
+send-progress-filter-complete = Filter jo dopołny.
+send-progress-filter-failed = Filter njejo se raźił.
 send-error-filtering-message = Waša powěsć jo se pósłała a składowała, ale pśi filtrowanju powěsći jo zmólka nastała.
 # Variables:
 # $hostname - outgoing server hostname
 send-error-smtp-security-issue = Konfiguracija nastupajucy { $hostname } musy se pórěźiś.
+send-error-post-failed = Powěsć njejo se wótepósłaś dała, dokulaž zwězowanje ze serwerom njejo se raźiło. Serwer njejo snaź k dispoziciji abo wótpokazujo zwiski. Pśeglědajśo, lěc waše nastajenja za diskusijny serwer su korektne a wopytajśo hyšći raz.
 # Variables:
 # $size - formatted message size
 send-warning-large-message = Warnowanje! Cośo rowno powěsć z wjelikosću { $size } bajtow wótpósłaś. Cośo to napšawdu cyniś?
+# Variables:
+# $folder - destination folder name
+send-progress-copy-start = Powěsć se do zarědnika { $folder } kopěrujo…
+send-progress-sending-message = Powěsć se sćelo…
+send-error-nntp-ok = Waša powěsć jo se na diskusijnu kupku pósłała, ale nic na drugego dostawarja.
+send-error-copy-operation = Powěsć jo se wuspěšnje pósłała, ale njejo se do wašogo zarědnika Pósłany kopěrowaś dała.
+send-later-error-title = Zmólka pśi pózdźejšem słanju
+send-save-draft-error-title = Zmólka pśi składowanju ako nacerjenje
+send-save-template-error-title = Zmólka pśi składowanju ako pśedłogu
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = schowane dostawarje
 # Variables:
@@ -69,5 +88,35 @@ smtp-auth-hint-plain-to-encrypt = Wuchadny serwer (SMTP) { $hostname } njepódp�
 # $hostname - outgoing server hostname
 smtp-auth-failure = Njejo móžno, wuchadny serwer (SMTP) { $hostname } awtentificěrowás. Pšosym kontrolěrujśo gronidło, a pśespytajśo ‘awtentifikacisku metodu’ w ‘Kontowe nastajenja | Wuchadny serwer (SMTP)’.
 # Variables:
+# $hostname - outgoing server hostname
+smtp-auth-gssapi = Tiket Kerberos/GSSAPI njejo se pśez wuchadny serwer (SMTP) { $hostname } akceptěrował. Pšosym kontrolěrujśo, lěc sćo pla wobceŕka Kerberos/GSSAPI pśizjawjony.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-mechanism-not-supported = Wuchadny serwer (SMTP) { $hostname } njepódpěra wubranu awtentifikacisku metodu. Pšosym změńśo ‘awtentifikacisku metodu’ w ‘Kontowe nastajenja | Wuchadny serwer (SMTP)’.
+# Variables:
+# $serverResponse - server response
+smtp-server-error = Pśi słanju mejlki jo zmólka nastała: Zmólka wuchadnego serwera (SMTP). Serwer jo wótegronił: { $serverResponse }.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-starttls-failed = Pśi słanju mejlki jo zmólka nastała: Njejo móžno, wěsty wótkaz z wuchadnym serwerom (SMTP) { $hostname } z pomocu STARTTLS napóraś, dokulaž njepódpěra toś tu funkciju. Wótšaltujśo STARTTLS za ten serwer abo stajśo se ze swójim słužbnym póbitowarjom do zwiska.
+# Variables:
 # $serverResponse - server response
 smtp-too-many-recipients = Powěsć njejo se pósłała, dokulaž dowólona licba dostawarjow jo se pśekšocyła. Serwer jo wótegronił: { $serverResponse }.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-from-command = Pśi słanju mejlki jo zmólka nastała. E-mailowy serwer jo wótegronił: { $serverResponse }. Pśeglědajśo, lěc waša e-mailowa adresa we wašych kontowych nastajenjach jo korektna a wopytajśo hyšći raz.
+# Variables:
+# $serverResponse - server response
+smtp-permanent-size-exceeded = Wjelikosć powěsći, kótaruž wopytujośo słaś, pśekšaca globalny wjelikostny limit serwera. Powěsć njejo se pósłała; reducěrujśo wjelikosć powěsći a wopytajśo hyšći raz. Serwer jo wótegronił: { $serverResponse }.
+# Variables:
+# $serverResponse - server response; $recipient - intended recipient
+smtp-error-sending-recipient-command =
+    Pśi słanju mejlki jo zmólka nastała. E-mailowy serwer jo wótegronił:
+    { $serverResponse }.
+    Pšosym kontrolěrujśo powěsćowego dostawarja "{ $recipient }" a wopytajśo hyšći raz.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-data-command = Pśi słanju mejlki jo zmólka wuchadnego serwera (SMTP) nastała. Serwer jo wótegronił: { $serverResponse }.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-message = Pśi słanju mejlki jo zmólka nastała. E-mailowy serwer jo wótegronił:  { $serverResponse }. Pśekontrolěrujśo pšosym powěsć a wopytajśo hyšći raz.
