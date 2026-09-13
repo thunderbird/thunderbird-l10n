@@ -6,6 +6,7 @@
 ## Compose alerts
 
 compose-message-cancelling = Katkestamine…
+compose-message-attachment-name = Lisatud kiri
 
 ## Compose window
 
