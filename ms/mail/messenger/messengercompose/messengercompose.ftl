@@ -36,6 +36,11 @@ compose-attachment-reminder-send-button = Belum, Hantar Sekarang
 compose-attachment-reminder-add-button = Oh ya, sudah!
 compose-newsgroups-not-supported-title = Tidak Menyokong Kumpulan berita
 compose-newsgroups-not-supported = Akaun ini hanya menyokong penerima e-mel. Meneruskan akan mengabaikan kumpulan berita.
+compose-invalid-address-title = Alamat Penerima Tidak sah
+compose-no-recipients = Tiada penerima yang dinyatakan. Sila masukkan penerima atau kumpulan berita dalam ruang alamat.
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } bukan alamat e-mel kerana tidak dalam bentuk user@host. Anda mesti membetulkannya sebelum menghantar e-mel.
 compose-quit-sending-title = Menghantar Mesej
 compose-quit-saving-title = Menyimpan Mesej
 # Variables:
@@ -51,6 +56,9 @@ compose-quit-saving-prompt =
 compose-quit-button = &Keluar
 compose-wait-button = &Tunggu
 compose-attach-file-picker-title = Lampirkan Fail
+compose-attach-page-title = Sila nyatakan lokasi lampiran
+compose-attach-page-prompt = Halaman Web (URL):
+compose-message-part-attachment-name = Bahagian Mesej Lampiran
 compose-attachment-bucket-attach-files-tooltip = Lampirkan Fail
 compose-attachment-bucket-clear-selection-tooltip = Buang Pemilihan
 # Variables:
