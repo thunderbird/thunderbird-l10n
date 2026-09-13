@@ -10,6 +10,8 @@ compose-message-attachment-name = Pripeto sporočilo
 
 ## Compose window
 
+compose-initialization-error-title = Sestavljanje sporočila
+compose-initialization-error = Med odpiranjem okna za sestavljanje sporočila je prišlo do napake. Poskusite znova.
 compose-default-subject = (brez zadeve)
 # Variables:
 # $subject - message subject
@@ -45,6 +47,8 @@ compose-attach-file-picker-title = Pripni datoteke
 compose-attach-page-title = Navedite mesto za priponko
 compose-attach-page-prompt = Spletna stran (naslov):
 compose-message-part-attachment-name = Pripet del sporočila
+compose-attachment-bucket-attach-files-tooltip = Pripni datoteke
+compose-attachment-bucket-clear-selection-tooltip = Počisti izbiro
 # Variables:
 # $filename - name of the file that could not be found
 compose-file-attachment-not-found = Datoteka { $filename } ne obstaja, tako da je k sporočilu ni bilo mogoče pripeti.
@@ -534,6 +538,33 @@ cloud-file-account-error-title = Napaka računa Filelink
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Priponke Filelink { $filename } ni bilo mogoče posodobiti, ker je bil račun za Filelink izbrisan.
 cloud-file-authentication-error-title = Napaka ob overitvi
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Ni mogoče overiti s/z { $provider }.
+cloud-file-upload-error-title = Napaka med pošiljanjem
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = { $filename } ni mogoče prenesti na { $provider }.
+cloud-file-quota-error-title = Napaka količinske omejitve
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Pošiljanje { $filename } na { $provider } bo preseglo količinsko omejitev za svoj prostor.
+cloud-file-size-error-title = Napaka v velikosti datoteke
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } je večja od dovoljene velikosti za { $provider }.
+cloud-file-unknown-error-title = Neznana napaka
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Pri komunikaciji s/z { $provider } je prišlo do neznane napake.
+cloud-file-deletion-error-title = Napaka med brisanjem
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Med brisanjem { $filename } s/z { $provider } je prišlo do težave..
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
