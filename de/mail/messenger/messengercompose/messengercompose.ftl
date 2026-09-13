@@ -20,6 +20,7 @@ compose-attachment-reminder-send-button = Nein, jetzt senden
 compose-attachment-reminder-add-button = Ja, habe ich!
 compose-newsgroups-not-supported-title = Newsgruppen werden nicht unterstützt
 compose-newsgroups-not-supported = Dieses Konto unterstützt nur E-Mail-Empfänger. Newsgruppen werden ignoriert.
+compose-file-attachment-error-title = Anhängen einer Datei
 remind-later-button =
     .label = Mich später erinnern
     .accesskey = M
