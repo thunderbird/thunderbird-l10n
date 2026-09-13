@@ -10,6 +10,28 @@ compose-message-attachment-name = Vedlagt melding
 
 ## Compose window
 
+compose-save-message-title = Lagrer melding
+compose-send-confirm-title = Send melding
+compose-send-confirm-prompt = Er du sikker på at du vil sende denne meldingen nå?
+compose-send-confirm-button = Send
+compose-empty-subject-title = Emnepåminnelse
+compose-empty-subject-prompt = Meldingen har ikke noe emne.
+compose-empty-subject-send-button = &Send meldingen uten emne
+compose-empty-subject-cancel-button = &Avbryt sending
+compose-newsgroups-not-supported-title = Nyhetsgruppen støttes ikke
+compose-newsgroups-not-supported = Denne kontoen støtter bare e-postmottakere. Dersom du fortsetter vil nyhetsgrupper bli utelatt.
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } jobber nå med å lagre en melding.
+    Vil du vente til meldingen er lagret før du avslutter, eller avslutt med en gang?
+compose-file-attachment-error-title = Filvedlegg
+compose-rename-attachment-title = Endre navn på vedlegg
+compose-rename-attachment-prompt = Nytt navn på vedlegget:
+find-replace-button =
+    .label = Erstatt …
+    .accesskey = s
+    .tooltiptext = Vis Finn og erstatt-dialogen
 
 ## Send Format
 
@@ -430,6 +452,7 @@ cloud-file-account-error-title = Filelink-kontofeil
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Kunne ikke oppdatere Filelink-vedlegget { $filename }, fordi Filelink-kontoen er slettet.
+cloud-file-authentication-error-title = Autentiseringsfeil
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
@@ -444,6 +467,33 @@ big-file-notification-text =
         [one] Dette er en stor fil. Det kan være bedre å bruke FileLink isteden.
        *[other] Dette er store filer. Det kan være bedre å bruke FileLink isteden.
     }
+big-file-learn-more-button =
+    .label = Les mer …
+    .accesskey = m
+big-file-link-button =
+    .label = Lenke
+    .accesskey = L
+big-file-ignore-button =
+    .label = Ignorer
+    .accesskey = I
+big-file-choose-account-title = Velg konto
+big-file-choose-account-prompt = Velg en cloud-konto å laste opp vedlegget til
+big-file-hide-notification-title = Ikke last opp mine filer
+big-file-hide-notification-prompt = Du vil ikke bli varslet dersom du legger til flere vedlegg i denne meldingen.
+big-file-hide-notification-checkbox = Aldri varsle meg om dette igjen.
+cloudfile-uploading-stop-button =
+    .label = Vis aldri dette igjen
+    .accesskey = V
+cloud-file-privacy-warning = Lenking er utført. Merk at innlenkede vedlegg kan være tilgjengelige for personer som kan se eller gjette lenkene.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Laster opp til { $provider } …
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Opplastet til { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Legg ved filer via { $provider }
 
 ## Link Preview
 
