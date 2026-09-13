@@ -10,6 +10,62 @@ compose-message-attachment-name = Салынған хабарлама
 
 ## Compose window
 
+compose-send-confirm-title = Хабарламаны жіберу
+compose-send-confirm-prompt = Бұл хабарламаны жіберуге дайын болғаныңызға сенімдісіз бе?
+compose-send-confirm-button = Жіберу
+compose-do-not-show-again = Осы терезені келесі ретте көрсетпеу.
+compose-attachment-reminder-title = Салыным туралы еске салу
+compose-attachment-reminder-prompt = Салынымды қосуды ұмытқан жоқсыз ба?
+compose-attachment-reminder-send-button = Жоқ, қазір жіберу
+compose-attachment-reminder-add-button = Иә, дәл солай!
+compose-quit-sending-title = Хабарламаны жіберу
+compose-quit-saving-title = Хабарламаны сақтау
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } қазір хабарламаны жіберу үстінде.
+    Шығу алдында хабарлама жіберілуін күтуді, немесе қазір шығуды қалайсыз ба?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } қазір хабарламаны сақтау үстінде.
+    Шығу алдында хабарлама сақталуын күтуді, немесе қазір шығуды қалайсыз ба?
+compose-quit-button = &Шығу
+compose-wait-button = &Күту
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = { $filename } файлы жоқ болып тұр, сондықтан оны бұл хабарламаға тіркеу мүмкін емес.
+compose-message-file-error-title = Хабарлама файлы
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = { $filename } файлы жоқ болып тұр, сондықтан оны хабарлама денесі ретінде қолдану мүмкін емес.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = { $filename } файлын хабарлама денесі ретінде жүктеу мүмкін емес.
+compose-save-success-title = Хабарламаны сақтау
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Сіздің хабарламаңыз { $folder } бумасына сақталды, { $server } жерінде.
+compose-rename-attachment-title = Салыным атын өзгерту
+compose-rename-attachment-prompt = Жаңа салынымның аты:
+remind-later-button =
+    .label = Кейінірек еске салу
+    .accesskey = л
+disable-attachment-reminder-menu-item =
+    .label = Ағымдағы хабарлама үшін салыным ескертуін сөндіру
+find-replace-button =
+    .label = Алмастыру…
+    .accesskey = с
+    .tooltiptext = Табу және алмастыру сұхбатын көрсету
+compose-blocked-content-options-button = Опциялар
+compose-blocked-content-options-accesskey = о
+compose-blocked-content-preferences-button = Қалаулар
+compose-blocked-content-preferences-accesskey = л
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = { $url } блоктауын алып тастау
 
 ## Send Format
 
@@ -429,6 +485,33 @@ cloud-file-account-error-title = Filelink тіркелгісінің қатес�
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = { $filename } Filelink салынымын жаңарту сәтсіз аяқталды, өйткені оның Filelink тіркелгісі өшірілген.
 # Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = { $provider } қызметіне аутентификациялау мүмкін емес.
+cloud-file-upload-error-title = Жүктеу қатесі
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = { $filename } файлын { $provider } жеріне жүктеу мүмкін емес.
+cloud-file-quota-error-title = Квота қатесі
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = { $filename } файлын { $provider } жеріне жүктеу сіздің орын квотасынан асып кетеді.
+cloud-file-size-error-title = Файлдың көлемі қатесі
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } өлшемі { $provider } рұқсат еткен максималды өлшемінен асып кетті.
+cloud-file-unknown-error-title = Белгісіз қате
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = { $provider } қызметімен байланысу кезінде белгісіз қате орын алды.
+cloud-file-deletion-error-title = Өшіру қатесі
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = { $provider } ішінен { $filename } өшіру кезінде мәселелер орын алды.
+# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
     { $count ->
@@ -442,6 +525,33 @@ big-file-notification-text =
         [one] Бұл үлкен файл. Оны Filelink көмегімен жіберу жақсырақ болатын сияқты.
        *[other] Бұл үлкен файлдар. Оларды Filelink көмегімен жіберу жақсырақ болатын сияқты.
     }
+big-file-learn-more-button =
+    .label = Көбірек білу…
+    .accesskey = б
+big-file-link-button =
+    .label = Сілтеме
+    .accesskey = л
+big-file-ignore-button =
+    .label = Елемеу
+    .accesskey = е
+big-file-choose-account-title = Тіркелгіні таңдау
+big-file-choose-account-prompt = Салынымды жүктеп жіберу үшін бұлттық тіркелгіні таңдаңыз
+big-file-hide-notification-title = Файлдарымды жүктеп жібермеу
+big-file-hide-notification-prompt = Бұл хабарламаға көбірек үлкен файлдарды тіркесеңіз, ескертуді алмайсыз.
+big-file-hide-notification-checkbox = Осы туралы мені енді ескертпеу.
+cloudfile-uploading-stop-button =
+    .label = Қайта көрсетпеу
+    .accesskey = т
+cloud-file-privacy-warning = Байланыстыру сәтті аяқталды. Ескертеміз, байланыстырлған салынымдар сілтемені көретін немесе табатын адамдарға қолжетімді болуы мүмкін.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = { $provider } ішіне жүктеу…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = { $provider } қызметіне жүктелді
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = { $provider } арқылы файл(дар)ды тіркеу
 
 ## Link Preview
 
