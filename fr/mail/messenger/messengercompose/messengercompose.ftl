@@ -10,6 +10,9 @@ compose-message-attachment-name = Message joint
 
 ## Compose window
 
+compose-send-confirm-title = Envoyer le message
+compose-send-confirm-prompt = Voulez-vous vraiment envoyer ce message tout de suite ?
+compose-send-confirm-button = Envoyer
 compose-do-not-show-again = Ne plus afficher cette boîte de dialogue.
 compose-empty-subject-title = Rappel de sujet
 compose-empty-subject-prompt = Votre message n’a pas de sujet.
@@ -22,6 +25,19 @@ compose-attachment-reminder-add-button = Oui
 compose-newsgroups-not-supported-title = Groupes de discussion non supportés
 compose-newsgroups-not-supported = Ce compte prend uniquement en charge les destinataires d’e-mails. En continuant, les groupes seront ignorés.
 compose-quit-sending-title = Envoi d’un message
+compose-quit-saving-title = Enregistrement du message
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } envoie un message.
+    Voulez-vous quitter maintenant ou attendre la fin de l’envoi ?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } enregistre un message.
+    Voulez-vous quitter maintenant ou attendre la fin de l’enregistrement ?
+compose-quit-button = &Quitter
+compose-wait-button = &Attendre
 # Variables:
 # $filename - name of the file that could not be found
 compose-file-attachment-not-found = Le fichier { $filename } n’existe pas et n’a pu être joint au message.
@@ -38,11 +54,17 @@ compose-save-success-title = Enregistrement du message
 # $folder - folder in which the message was saved
 # $server - server on which the folder is located
 compose-save-success-message = Votre message a été enregistré dans le dossier { $folder } sous { $server }.
+compose-rename-attachment-title = Renommer la pièce jointe
+compose-rename-attachment-prompt = Nouveau nom de la pièce jointe :
 remind-later-button =
     .label = Me le rappeler plus tard
     .accesskey = R
 disable-attachment-reminder-menu-item =
     .label = Désactiver le rappel pour les pièces jointes pour le message actuel
+find-replace-button =
+    .label = Remplacer…
+    .accesskey = l
+    .tooltiptext = Afficher le dialogue Rechercher et remplacer
 
 ## Send Format
 
@@ -493,6 +515,9 @@ big-file-choose-account-prompt = Choisir un compte pour y déposer la pièce joi
 big-file-hide-notification-title = Ne pas télécharger mes fichiers vers un service de stockage en ligne
 big-file-hide-notification-prompt = Vous ne recevrez plus de notification si vous joignez d’autres fichiers volumineux à ce message.
 big-file-hide-notification-checkbox = Ne plus jamais me prévenir.
+cloudfile-uploading-stop-button =
+    .label = Ne plus afficher ce message
+    .accesskey = N
 cloud-file-privacy-warning = Le lien est établi. Notez bien que les pièces jointes seront accessibles à tous ceux qui peuvent voir ou deviner les liens.
 # Variables:
 # $provider - name of the online storage service
