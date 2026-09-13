@@ -24,16 +24,32 @@ send-error-smtp-interrupted = Писмото не може да бъде изп�
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = Писмото не може да бъде изпратено, защото времето за изчакване на изходящия (SMTP) { $hostname } сървър изтече. Опитайте отново.
 send-error-title = Грешка при изпращане на писмо
+send-progress-assembling-mail-information = Събиране на информация…
+send-progress-assembling-message = Сглобяване на писмото…
+send-progress-creating-mail-message = Създаване на писмо…
+send-progress-assembling-message-done = Сглобяване на писмото… готово
+send-progress-copy-complete = Копирането завършено.
+send-progress-copy-failed = Копирането неуспешно.
+send-dialog-save-title = Запазване на писмо
+send-error-save-to-local-folders = Писмото не може да бъде запазено в местните папки. Вероятно няма достатъчно дисково пространство.
+send-progress-filter-complete = Филтрирането е завършено.
+send-progress-filter-failed = Филтрирането е неуспешно.
 send-error-post-failed = Писмото не може да бъде изпратено, поради липса на връзка с новинарския сървър. Сървърът вероятно е недостъпен или отхвърля връзките. Моля, проверете дали настройките му са верни и опитайте отново.
 # Variables:
 # $size - formatted message size
 send-warning-large-message = Внимание! Писмото, което ще изпратите има размер { $size }. Наистина ли искате това?
+# Variables:
+# $folder - destination folder name
+send-progress-copy-start = Копиране на писмото в папка { $folder }…
 send-progress-sending-message = Изпращане на писмо…
 send-later-error-title = Грешка при изпращане на писмо по-късно
 send-save-draft-error-title = Грешка при запазване на чернова
 send-save-template-error-title = Грешка при запазване на шаблон
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = undisclosed-recipients
+# Variables:
+# $recipient - recipient address
+smtp-error-illegal-local-part = Има не-ASCII символи в локалната част на адреса на получателя { $recipient } и вашият сървър не поддържа SMTPUTF8. Моля, променете този адрес и опитайте отново.
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = Изходящият (SMTP) { $hostname } сървър изглежда не поддържа шифровани пароли. Ако току-що сте направили регистрацията, опитайте да промените ‘Метод на удостоверяване’ в ‘Настройки на регистрацията’ - ‘Изходящ (SMTP) сървър’ на ‘Парола, предавана незащитено’. Ако досега всичко е било наред, вие може да сте податливи на кражба на парола.
