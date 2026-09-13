@@ -10,10 +10,18 @@ compose-message-attachment-name = Missatge adjunt
 
 ## Compose window
 
+compose-initialization-error-title = Redacció del missatge
+compose-initialization-error = S'ha produït un error en crear una finestra per redactar el missatge. Torneu a provar-ho.
+compose-default-subject = (sense assumpte)
 # Variables:
 # $subject - message subject
 # $brand - application name
 compose-window-title = Redacta: { $subject } - { $brand }
+compose-save-message-title = Desa el missatge
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Voleu desar aquest missatge en la carpeta d'esborranys ({ $folder }) i tancar la finestra «Redacta»?
+compose-discard-changes-button = &Descarta els canvis
 compose-send-confirm-title = Envia el missatge
 compose-send-confirm-prompt = Segur que esteu a punt per enviar aquest missatge?
 compose-send-confirm-button = Envia
@@ -28,6 +36,10 @@ compose-attachment-reminder-send-button = No, envia'l ara
 compose-attachment-reminder-add-button = Sí, i tant!
 compose-newsgroups-not-supported-title = No es permeten grups de discussió
 compose-newsgroups-not-supported = Aquest compte només permet destinataris de correu. Si continueu, s'ignoraran els grups de discussió.
+compose-invalid-address-title = L'adreça del destinatari no és vàlida
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } no és una adreça electrònica vàlida perquè no té el format usuari@servidor. Heu de corregir-ho abans d'enviar el missatge.
 compose-quit-sending-title = S'està enviant el missatge
 compose-quit-saving-title = S'està desant el missatge
 # Variables:
@@ -42,6 +54,12 @@ compose-quit-saving-prompt =
     Abans de sortir, voleu esperar fins que s'hagi desat el missatge o bé voleu sortir ara?
 compose-quit-button = S&urt
 compose-wait-button = &Espera
+compose-attach-file-picker-title = Adjunteu fitxers
+compose-attach-page-title = Indiqueu una ubicació a adjuntar
+compose-attach-page-prompt = Pàgina web (URL):
+compose-message-part-attachment-name = Part del missatge adjunt
+compose-attachment-bucket-attach-files-tooltip = Adjunta fitxers
+compose-attachment-bucket-clear-selection-tooltip = Esborra la selecció
 # Variables:
 # $filename - name of the file that could not be found
 compose-file-attachment-not-found = El fitxer { $filename } no existeix, per tant, no s'ha pogut adjuntar al missatge.
