@@ -27,6 +27,9 @@ send-error-title = Produciuse un erro ao enviar a mensaxe
 send-progress-assembling-mail-information = Montando a información do correo…
 send-progress-assembling-message = Axustando mensaxe…
 send-progress-creating-mail-message = Creando mensaxe de correo…
+# Variables:
+# $filename - name or URL of the file that could not be attached
+send-error-attaching-file = Produciuse un erro ao anexar { $filename }. Comprobe se ten acceso ao ficheiro.
 send-progress-assembling-message-done = Axustando mensaxe… Feito
 send-progress-copy-complete = Copia finalizada.
 send-progress-copy-failed = Fallou a copia.
@@ -51,6 +54,9 @@ send-error-save-to-local-folders = Non se pode gardar a mensaxe nos cartafoles l
 send-progress-filter-complete = Filtro completo.
 send-progress-filter-failed = Fallou o filtro.
 send-error-filtering-message = Enviouse e gardouse a súa mensaxe, pero produciuse un erro ao aplicarlle os filtros das mensaxes.
+# Variables:
+# $hostname - outgoing server hostname
+send-error-smtp-security-issue = Debe corrixirse a configuración relacionada con { $hostname }.
 send-error-post-failed = Non foi posíbel publicar a mensaxe porque fallou a conexión co servidor de novas. Talvez o servidor non estea dispoñíbel ou estea a rexeitar as conexións. Comprobe se a configuración do servidor de novas é correcta e tente de novo.
 # Variables:
 # $size - formatted message size
@@ -59,6 +65,8 @@ send-warning-large-message = Aviso: Vai enviar unha mensaxe dun tamaño de { $si
 # $folder - destination folder name
 send-progress-copy-start = Copiando mensaxe para o cartafol { $folder }…
 send-progress-sending-message = Enviando mensaxe…
+send-error-nntp-ok = A mensaxe publicouse no grupo de noticias mais non se enviou a ningún outro destinatario.
+send-error-copy-operation = A mensaxe enviouse correctamente, mais non foi posíbel gardar unha copia no cartafol Enviados.
 send-later-error-title = Produciuse un erro ao enviar máis tarde
 send-save-draft-error-title = Produciuse un erro ao gardar o borrador
 send-save-template-error-title = Produciuse un erro ao gardar o modelo
@@ -66,7 +74,19 @@ send-save-template-error-title = Produciuse un erro ao gardar o modelo
 send-undisclosed-recipients = destinatarios-ocultos
 # Variables:
 # $serverResponse - server response
+smtp-server-error = Produciuse un erro ao enviar o correo: erro do servidor de saída (SMTP). O servidor respondeu:  { $serverResponse }.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-starttls-failed = Produciuse un erro ao enviar o correo: non foi posíbel estabelecer unha ligazón segura co servidor de saída (SMTP) { $hostname } utilizando STARTTLS xa que non se anunciou esta funcionalidade. Desconecte STARTTLS para este servidor ou contacte co seu fornecedor de servizo.
+# Variables:
+# $serverResponse - server response
 smtp-error-sending-from-command = Produciuse un erro ao enviar o correo electrónico. O servidor de correo respondeu: { $serverResponse }. Comprobe se é correcto o enderezo de correo electrónico presente na configuración da conta e tente de novo.
+# Variables:
+# $serverResponse - server response; $recipient - intended recipient
+smtp-error-sending-recipient-command =
+    Produciuse un erro ao enviar o correo. O servidor de correo respondeu:
+    { $serverResponse }.
+    Comprobe o destinatario da mensaxe "{ $recipient }" e tente de novo.
 # Variables:
 # $serverResponse - server response
 smtp-error-sending-data-command = Produciuse un erro no servidor de saída (SMTP) ao enviar o correo. O servidor respondeu:  { $serverResponse }.
