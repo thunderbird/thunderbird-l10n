@@ -6,6 +6,8 @@
 ## Message sending
 
 send-alert-queued-delivery-failed = אירעה שגיאה בעת העברת ההודעות שלא נשלחו.
+send-unable-to-save-template = אין אפשרות לשמור את ההודעה שלך כתבנית.
+send-unable-to-save-draft = לא ניתן לשמור את ההודעה שלך כטיוטה.
 send-error-failed = שליחת ההודעה נכשלה.
 # Variables:
 # $hostname - outgoing server hostname
