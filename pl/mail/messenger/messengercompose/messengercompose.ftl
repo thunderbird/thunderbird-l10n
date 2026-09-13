@@ -10,6 +10,41 @@ compose-message-attachment-name = Załączona wiadomość
 
 ## Compose window
 
+compose-default-subject = (bez tematu)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Tworzenie: { $subject } — { $brand }
+compose-save-message-title = Zapisz wiadomość
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Zapisać tę wiadomość w folderze { $folder } i zamknąć okno tworzenia wiadomości?
+compose-discard-changes-button = &Odrzuć zmiany
+compose-empty-subject-title = Brak tematu
+compose-empty-subject-prompt = Wysyłana wiadomość nie ma tematu.
+compose-empty-subject-send-button = &Wyślij bez tematu
+compose-empty-subject-cancel-button = &Anuluj wysyłanie
+compose-newsgroups-not-supported-title = Brak obsługi grup dyskusyjnych
+compose-newsgroups-not-supported = Z tego konta można wysyłać wiadomości jedynie na adresy e-mail. Próby wysłania wiadomości na serwery grup dyskusyjnych zostaną zignorowane.
+compose-attach-file-picker-title = Załącz plik do tej wiadomości
+find-replace-button =
+    .label = Zamień…
+    .accesskey = m
+    .tooltiptext = Wyświetl okno wyszukiwania i zastępowania
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Wprowadź własny adres nadawcy używany zamiast „{ $identity }”
+compose-custom-from-address-title = Dostosuj adres nadawcy
+compose-custom-from-address-warning = Jeśli jest to obsługiwane przez dostawcę usług pocztowych, to można jednorazowo nieznacznie zmienić swój adres nadawcy, bez konieczności tworzenia nowej tożsamości w konfiguracji kont. Na przykład można zmienić adres „Jan Kowalski <jan@example.com>” na „Jan Kowalski <jan+kowalski@example.com>” lub „Jan <jan@example.com>”.
+compose-custom-from-address-ignore = Nie pytaj ponownie
+compose-blocked-content-options-button = Opcje
+compose-blocked-content-options-accesskey = O
+compose-blocked-content-preferences-button = Preferencje
+compose-blocked-content-preferences-accesskey = P
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Odblokuj „{ $url }”
 
 ## Send Format
 
@@ -77,6 +112,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Rozwiń listę
     .accesskey = R
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = Usuwanie adresów z pola „{ $field }”
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Czy na pewno usunąć adresy z pola „{ $field }”?
+compose-remove-address-row-button = Usuń
 
 ## Attachment widget
 
@@ -445,6 +487,34 @@ cloud-file-account-error-title = Błąd konta serwisu przechowywania plików
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Zaktualizowanie załącznika { $filename } w serwisie przechowywania plików się nie powiodło, ponieważ jego konto zostało usunięte.
+cloud-file-authentication-error-title = Błąd uwierzytelniania
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Uwierzytelnienie w serwisie { $provider } się nie powiodło.
+cloud-file-upload-error-title = Błąd wgrywania
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Wgrywanie pliku „{ $filename }” do serwisu { $provider } się nie powiodło.
+cloud-file-quota-error-title = Błąd przekroczenia limitów
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Wgranie pliku „{ $filename }” do serwisu { $provider } spowodowałoby przekroczenie limitu przestrzeni.
+cloud-file-size-error-title = Błąd rozmiaru pliku
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = Rozmiar pliku „{ $filename }” przekracza dopuszczalny limit rozmiaru plików w serwisie { $provider }.
+cloud-file-unknown-error-title = Nieznany błąd
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Wystąpił nieznany błąd podczas komunikacji z serwisem { $provider }.
+cloud-file-deletion-error-title = Błąd usuwania
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Wystąpił problem podczas usuwania pliku „{ $filename }” z serwisu { $provider }.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
@@ -461,6 +531,12 @@ big-file-notification-text =
         [few] To są duże pliki – być może lepiej byłoby użyć serwisu przechowywania plików?
        *[many] To są duże pliki – być może lepiej byłoby użyć serwisu przechowywania plików?
     }
+cloudfile-uploading-stop-button =
+    .label = Nie pytaj ponownie o wgrywanie plików
+    .accesskey = N
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Załącz plik poprzez { $provider }
 
 ## Link Preview
 
