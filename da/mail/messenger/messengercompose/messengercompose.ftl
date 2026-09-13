@@ -3,6 +3,14 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Compose alerts
+
+compose-message-cancelling = Annullerer…
+compose-message-attachment-name = Vedhæftet meddelelse
+
+## Compose window
+
+
 ## Send Format
 
 compose-send-format-menu =
