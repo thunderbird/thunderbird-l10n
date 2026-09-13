@@ -7,6 +7,8 @@
 
 send-alert-queued-delivery-failed = Er is een fout opgetreden bij het afleveren van de niet-verzonden berichten.
 send-alert-followup-to-sender = De schrijver van dit bericht heeft gevraagd om antwoorden alleen naar de schrijver te verzenden. Als u ook naar de nieuwsgroep wilt antwoorden, voeg dan een nieuwe regel toe aan het adresseringsgebied, kies Nieuwsgroep in de lijst met ontvangers en voer de naam van de nieuwsgroep in.
+send-unable-to-save-template = Kan uw bericht niet als sjabloon opslaan.
+send-unable-to-save-draft = Kan uw bericht niet als concept opslaan.
 send-error-failed = Verzenden van het bericht is mislukt.
 send-unable-to-send-later = Sorry, uw bericht kon niet worden opgeslagen voor latere verzending.
 # Variables:
