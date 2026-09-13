@@ -10,10 +10,17 @@ compose-message-attachment-name = Mesaj atașat
 
 ## Compose window
 
+compose-initialization-error-title = Redactare mesaj
+compose-initialization-error = A apărut o eroare la crearea ferestrei de compunere a mesajului. Te rugăm să încerci din nou.
+compose-default-subject = (fără subiect)
 # Variables:
 # $subject - message subject
 # $brand - application name
 compose-window-title = Scrie mesajul: { $subject } - { $brand }
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Salvezi acest mesaj în dosarul cu mesaje nefinalizate ({ $folder }) și închizi fereastra de redactare?
+compose-discard-changes-button = Elimină modificările
 compose-send-confirm-title = Trimitere mesaj
 compose-send-confirm-prompt = Sigur ești gata să trimiți acest mesaj?
 compose-send-confirm-button = Trimite
@@ -22,6 +29,8 @@ compose-empty-subject-title = Amintire de lipsa subiectului
 compose-empty-subject-prompt = Mesajul tău nu are un subiect.
 compose-empty-subject-send-button = &Trimite fără subiect
 compose-empty-subject-cancel-button = &Anulează trimiterea
+compose-attachment-reminder-send-button = Nu, trimite acum
+compose-attachment-reminder-add-button = Da, așa e!
 compose-newsgroups-not-supported-title = Grupurile de discuții nu sunt suportate
 compose-newsgroups-not-supported = Acest cont acceptă doar destinatari pentru e-mail. Prin continuare, grupurile de discuții vor fi ignorate.
 compose-invalid-address-title = Adresă nevalidă de destinație
@@ -42,12 +51,16 @@ compose-quit-saving-prompt =
     Vrei să aștepți până ce mesajul este salvat înainte de a închide programul sau vrei să ieși acum?
 compose-quit-button = &Ieșire
 compose-wait-button = &Așteaptă
+compose-attach-file-picker-title = Atașare fișier(e)
 compose-attach-page-title = Te rugăm să specifici o locație pentru atașare
 compose-attach-page-prompt = Pagina web (URL):
 compose-message-part-attachment-name = Fragment de mesaj atașat
+compose-attachment-bucket-attach-files-tooltip = Atașare fișier(e)
+compose-attachment-bucket-clear-selection-tooltip = Șterge selecția
 # Variables:
 # $filename - name of the file that could not be found
 compose-file-attachment-not-found = Fișierul { $filename } nu există, astfel încât nu a putut fi atașat la mesaj.
+compose-file-attachment-error-title = Atașare fișier
 compose-message-file-error-title = Fișier mesaj
 # Variables:
 # $filename - name of the file that could not be found
@@ -511,6 +524,7 @@ cloud-file-account-error-title = Eroare cont Filelink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Atașamentul Filelink { $filename } nu a putut fi actualizat, deoarece contul Filelink aferent a fost șters.
+cloud-file-authentication-error-title = Eroare de autentificare
 # Variables:
 # $provider - name of the online storage service
 cloud-file-authentication-error = Nu se poate autentifica către { $provider }.
@@ -554,6 +568,12 @@ big-file-notification-text =
         [few] Acestea sunt fișiere mari. Ar putea fi mai bine să folosești în schimb Filelink.
        *[other] Acestea sunt fișiere mari. Ar putea fi mai bine să folosești în schimb Filelink.
     }
+big-file-learn-more-button =
+    .label = Află mai multe…
+    .accesskey = m
+big-file-link-button =
+    .label = Link
+    .accesskey = L
 cloudfile-uploading-stop-button =
     .label = Nu mai afișa asta din nou
     .accesskey = N
