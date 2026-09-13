@@ -24,3 +24,22 @@ send-error-smtp-interrupted = Non è stato possibile inviare il messaggio perch�
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = Non è stato possibile inviare il messaggio perché la connessione al server di posta in uscita (SMTP) { $hostname } è scaduta. Riprova.
 send-error-title = Errore di invio
+send-progress-assembling-mail-information = Assemblo le informazioni della posta…
+send-progress-assembling-message = Creazione messaggio…
+send-progress-creating-mail-message = Creazione in corso del messaggio di posta…
+send-progress-assembling-message-done = Creazione messaggio… Fatto
+send-progress-copy-complete = Copia completata.
+send-progress-copy-failed = Copia non riuscita.
+send-dialog-save-title = Salvataggio messaggio
+send-progress-filter-complete = Esecuzione filtro completata.
+send-progress-filter-failed = Esecuzione filtro non riuscita.
+# Variables:
+# $size - formatted message size
+send-warning-large-message = Attenzione! Si sta per inviare un messaggio di grandezza { $size }. Continuare?
+# Variables:
+# $folder - destination folder name
+send-progress-copy-start = Copia in corso del messaggio nella cartella { $folder }…
+send-progress-sending-message = Invio messaggi in corso…
+send-later-error-title = Errore di invio posticipato
+send-save-draft-error-title = Salvare la bozza di errore
+send-save-template-error-title = salva il modello di errore
