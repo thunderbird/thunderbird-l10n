@@ -5,6 +5,7 @@
 
 ## Compose alerts
 
+compose-message-cancelling = Preklicevanje …
 compose-message-attachment-name = Pripeto sporočilo
 
 ## Compose window

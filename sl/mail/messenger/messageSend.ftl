@@ -6,7 +6,9 @@
 ## Message sending
 
 send-alert-queued-delivery-failed = Med dostavo neposlanih sporočil je prišlo do napake.
+send-alert-followup-to-sender = Avtor tega sporočila je zahteval, da se odgovore pošilja samo avtorju. Če želite odgovoriti novičarski skupini tudi sami, dodajte novo vrstico v področje za naslov, na seznamu prejemnikov izberite novičarsko skupino in vnesite njeno ime.
 send-error-failed = Pošiljanje sporočila je spodletelo.
+send-unable-to-send-later = Sporočila za kasnejše pošiljanje ni bilo mogoče shraniti.
 # Variables:
 # $hostname - outgoing server hostname
 send-error-smtp-request-refused = Sporočila ni bilo mogoče poslati, ker je povezava z odhodnim strežnikom (SMTP) { $hostname } spodletela. Strežnik morda ni na voljo ali pa zavrača povezave SMTP. Preverite, ali so nastavitve odhodnega strežnika (SMTP) pravilne in poskusite znova.
