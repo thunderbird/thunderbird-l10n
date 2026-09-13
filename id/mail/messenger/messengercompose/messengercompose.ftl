@@ -37,6 +37,7 @@ compose-attachment-reminder-add-button = Oh iya, Saya Lupa!
 compose-newsgroups-not-supported-title = Newsgroups Tidak Didukung Supported
 compose-newsgroups-not-supported = Akun ini hanya mendukung penerima jenis email. Jika dilanjutkan maka penerima jenis newsgroup akan diabaikan.
 compose-invalid-address-title = Alamat Penerima Tidak Sah
+compose-no-recipients = Tidak ada penerima yang disebutkan. Masukkan penerima atau newsgroup pada kotak alamat.
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address } bukan alamat email yang sah karena tidak dalam format user@host. Anda harus mengoreksi alamat tersebut sebelum mengirim email.
