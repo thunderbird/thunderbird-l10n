@@ -24,14 +24,26 @@ send-error-smtp-interrupted = សារ​មិន​ត្រូវ​បា�
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = សារ​មិន​ត្រូវ​បាន​ផ្ញើ​ចេញ ដោយ​សារ​ការ​តភ្ជាប់​ទៅ​ម៉ាស៊ីន​មេ​ចេញ (SMTP) { $hostname } បាន​អស់​ពេល។ ព្យាយាម​ម្ដងទៀត។
 send-error-title = Send Message Error
+send-progress-assembling-mail-information = Assembling mail information…
+send-progress-assembling-message = Assembling message…
+send-progress-creating-mail-message = Creating mail message…
 # Variables:
 # $filename - name or URL of the file that could not be attached
 send-error-attaching-file = មាន​កំហុស​ក្នុង​ការ​ភ្ជាប់​​ឯកសារ { $filename } ។ សូម​ពិនិត្យមើល​ថា​អ្នក​បាន​ចូល​ដំណើរការ​ឯកសារ។
+send-progress-assembling-message-done = Assembling message…Done
+send-progress-copy-complete = Copy complete.
+send-progress-copy-failed = Copy failed.
+send-dialog-save-title = Save Message
+send-progress-filter-complete = បាន​បញ្ចប់​ការ​ត្រង។
+send-progress-filter-failed = ការ​ត្រង​បាន​បរាជ័យ។
 send-error-filtering-message = សារ​របស់​អ្នក​ត្រូវ​បាន​ផ្ញើ និង​រក្សាទុក ប៉ុន្តែ​មាន​កំហុស​ពេល​ដំណើរការ​ការ​ត្រង​សារ។
 send-error-post-failed = មិន​បាន​ផ្ញើ​សារ ព្រោះ​ការ​តភ្ជាប់​ទៅ​ម៉ាស៊ីន​មេ​បាន​បរាជ័យ។ ម៉ាស៊ីន​មេ​អាច​មិន​មាន ឬ​បាន​បដិសេធ​ការ​តភ្ជាប់។ សូម​ផ្ទៀងផ្ទាត់​ថា​ការ​កំណត់​ម៉ាស៊ីន​មេ​ថ្មី​របស់​អ្នក​គឺ​ត្រឹមត្រូវ រួច​ព្យាយាម​ម្ដងទៀត។
 # Variables:
 # $size - formatted message size
 send-warning-large-message = ព្រមាន! អ្នក​ហៀបនឹង​ផ្ញើ​សារ​ទំហំ { $size } ។ តើ​អ្នក​ពិតជា​ចង់​ធ្វើ​វា​មែន​ឬ?
+# Variables:
+# $folder - destination folder name
+send-progress-copy-start = Copying message to { $folder } folder…
 send-progress-sending-message = Sending message…
 send-error-nntp-ok = សារ​របស់​អ្នក​ត្រូវ​បាន​ប្រកាស​នៅ​ក្នុង​ក្រុម​ថ្មី ប៉ុន្តែ​មិន​ត្រូវ​បាន​ផ្ញើ​ទៅ​អ្នក​ទទួល​ផ្សេង​ឡើយ។
 send-error-copy-operation = The message was sent successfully, but could not be copied to your Sent folder.
