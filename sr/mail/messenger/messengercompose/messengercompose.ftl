@@ -17,6 +17,7 @@ compose-default-subject = (без наслова)
 # $subject - message subject
 # $brand - application name
 compose-window-title = Писање: { $subject } - { $brand }
+compose-save-message-title = Сачувај поруку
 # Variables:
 # $folder - configured drafts folder name
 compose-save-message-prompt = Сачувати ову поруку у вашу фасциклу са нацртима ({ $folder }) и затворити прозор за писање?
