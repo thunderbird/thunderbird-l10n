@@ -10,19 +10,66 @@ compose-message-attachment-name = Mensaje adjunto
 
 ## Compose window
 
+compose-initialization-error-title = Redacción de mensaje
+compose-initialization-error = Ocurrió un error mientras se creaba una ventana de redacción de mensaje. Vuelva a intentarlo.
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Escritura: { $subject } - { $brand }
+compose-save-message-title = Guardar mensaje
 compose-send-confirm-title = Enviar mensaje
 compose-send-confirm-prompt = ¿Está seguro de querer enviar este mensaje?
 compose-send-confirm-button = Enviar
+compose-do-not-show-again = No mostrar este diálogo nuevamente.
+compose-empty-subject-title = Recordatorio de asunto
+compose-empty-subject-prompt = Su mensaje no tiene un asunto.
+compose-empty-subject-send-button = &Enviar sin asunto
+compose-empty-subject-cancel-button = &Cancelar envío
 compose-attachment-reminder-title = Recordatorio de adjunto
 compose-attachment-reminder-prompt = ¿Se olvidó de agregar un adjunto?
 compose-attachment-reminder-send-button = No, enviar ahora
 compose-attachment-reminder-add-button = ¡Oh, sí!
+compose-newsgroups-not-supported-title = Grupos de noticias no soportados
+compose-newsgroups-not-supported = Esta cuenta solamente soporta correo. Si continúa, se ignorarán los grupos de noticias.
+compose-invalid-address-title = Dirección de destinatario no válida
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } no es una dirección de correo válida porque no tiene la forma usuario@servidor. Debe corregirla antes de enviar el correo electrónico.
+compose-quit-sending-title = Enviando mensaje
+compose-quit-saving-title = Guardando mensaje
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } está en proceso de enviar un mensaje.
+    ¿Quiere esperar a que el mensaje haya sido enviado antes de salir o salir ahora?
 # Variables:
 # $brand - application name
 compose-quit-saving-prompt =
     { $brand } está actualmente en el proceso de guardar un mensaje.
     ¿QUiere esperar hasta que el mensaje haya sido guardado antes de salir o sale ahora mismo?
+compose-quit-button = &Salir
+compose-wait-button = &Esperar
+compose-attach-page-title = Por favor, especifique una ubicación a adjuntar
+compose-attach-page-prompt = Página web (URL)
+compose-message-part-attachment-name = Parte del mensaje adjunto
+compose-attachment-bucket-attach-files-tooltip = Adjuntar archivo(s)
+compose-attachment-bucket-clear-selection-tooltip = Borrar selección
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = El archivo { $filename } no existe así que no pudo adjuntarse al mensaje.
 compose-file-attachment-error-title = Adjuntar archivo
+compose-message-file-error-title = Archivo de mensaje
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = El archivo { $filename } no existe y no puede usarse como cuerpo del mensaje.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = El archivo { $filename } no puede cargarse como cuerpo del mensaje.
+compose-save-success-title = Guardar mensaje
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Su mensaje se ha guardado en la carpeta { $folder } en { $server }.
 compose-rename-attachment-title = Renombrar adjunto
 compose-rename-attachment-prompt = Nuevo nombre del adjunto:
 remind-later-button =
@@ -34,6 +81,20 @@ find-replace-button =
     .label = Reemplazar…
     .accesskey = l
     .tooltiptext = Mostrar el díalago buscar y reemplazar
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Ingresar desde dirección personalizada para ser usada en lugar de { $identity }
+compose-custom-from-address-title = Personalizar desde dirección
+compose-custom-from-address-warning = Si el proveedor de correo electrónico lo soporta, Personalizar desde dirección pemite hacer una pequeña alteración a la dirección "desde" sin tener que crear una nueva identidad en opciones de cuenta. Por ejemplo, en desde dirección está Juan Pérez <juan@ejemplo.com> podría cambiarla a Juan Pérez <juan+perez@ejemplo.com> o Juan <juan@ejemplo.com>.
+compose-custom-from-address-ignore = Nunca notificarme de ésto de nuevo
+compose-blocked-content-options-button = Opciones
+compose-blocked-content-options-accesskey = O
+compose-blocked-content-preferences-button = Preferencias
+compose-blocked-content-preferences-accesskey = P
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Desbloquear { $url }
 
 ## Send Format
 
@@ -456,6 +517,34 @@ cloud-file-account-error-title = Error de cuenta Filelink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Fallo la actualización del adjunto Filelink { $filename } porque la cuenta Filelink fue borrada.
+cloud-file-authentication-error-title = Error de autenticación
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = No se puede autenticar a { $provider }.
+cloud-file-upload-error-title = Error de subida
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = No se puede subir { $filename } a { $provider }.
+cloud-file-quota-error-title = Quota Error
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Uploading { $filename } to { $provider } would exceed your space quota.
+cloud-file-size-error-title = Error de tamaño de archivo
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } excede el tamaño máximo para { $provider }.
+cloud-file-unknown-error-title = Error desconocido
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Ocurrió un error desconocido al comunicarse con { $provider }.
+cloud-file-deletion-error-title = Error de borrado
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Hubo un problema borrando { $filename } de { $provider }.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
