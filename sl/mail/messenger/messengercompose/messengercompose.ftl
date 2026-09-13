@@ -23,6 +23,7 @@ compose-invalid-address = { $address } ni veljaven e-poštni naslov, ker ni obli
 compose-attach-page-title = Navedite mesto za priponko
 compose-attach-page-prompt = Spletna stran (naslov):
 compose-message-part-attachment-name = Pripet del sporočila
+compose-file-attachment-error-title = Pripni datoteko
 
 ## Send Format
 
