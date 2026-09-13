@@ -11,6 +11,9 @@ send-error-failed = Sending of the message failed.
 send-unable-to-send-later = Sorry, we were unable to save your message for sending later.
 # Variables:
 # $hostname - outgoing server hostname
+send-error-smtp-unknown-server = An error occurred while sending mail: Outgoing server (SMTP) { $hostname } is unknown. The server may be incorrectly configured. Please verify that your Outgoing server (SMTP) settings are correct and try again.
+# Variables:
+# $hostname - outgoing server hostname
 send-error-smtp-request-refused = The message could not be sent because connecting to Outgoing server (SMTP) { $hostname } failed. The server may be unavailable or is refusing SMTP connections. Please verify that your Outgoing server (SMTP) settings are correct and try again.
 # Variables:
 # $hostname - outgoing server hostname
