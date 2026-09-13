@@ -27,6 +27,9 @@ send-error-title = Klaida siunčiant laišką
 send-progress-assembling-mail-information = Komponuojama siuntos informacija…
 send-progress-assembling-message = Komponuojamas laiškas…
 send-progress-creating-mail-message = Komponuojamas laiškas…
+# Variables:
+# $filename - name or URL of the file that could not be attached
+send-error-attaching-file = Klaida pridedant failą „{ $filename }“. Prašom patikrinti ar turite prieigą prie jo.
 send-progress-assembling-message-done = Komponuojamas laiškas… Įvykdyta
 send-progress-copy-complete = Nukopijuota.
 send-progress-copy-failed = Nukopijuoti nepavyko.
@@ -51,6 +54,9 @@ send-error-save-to-local-folders = Nepavyko išsaugoti pranešimo vietiniuose ap
 send-progress-filter-complete = Atrinkta.
 send-progress-filter-failed = Nepavyko atrinkti.
 send-error-filtering-message = Jūsų laiškas išsiųstas ir išsaugotas, tačiau jam nepavyko pritaikyti filtrų.
+# Variables:
+# $hostname - outgoing server hostname
+send-error-smtp-security-issue = Reikia pataisyti su „{ $hostname }“ serveriu susijusias nuostatas.
 send-error-post-failed = Laiškas negali būti išsiųstas, nes nepavyko prisijungti prie naujienų grupių serverio. Galbūt serveris nepasiekiamas arba neleidžia prisijungti. Patikrinkite naujienų (NNTP) serverio nuostatas ir bandykite dar kartą.
 # Variables:
 # $size - formatted message size
@@ -59,11 +65,16 @@ send-warning-large-message = Dėmesio! Ruošiatės išsiųsti { $size } dydžio 
 # $folder - destination folder name
 send-progress-copy-start = Laiškas kopijuojamas į aplanką „{ $folder }“…
 send-progress-sending-message = Išsiunčiamas laiškas…
+send-error-nntp-ok = Laiškas išsiųstas tik į naujienų grupę, bet neišsiųstas kitiems adresatams.
+send-error-copy-operation = Laiškas išsiųstas sėkmingai, bet nepavyko jo kopijos įrašyti į išsiųstų laiškų aplanką.
 send-later-error-title = Klaida atliekant operaciją „Išsiųsti vėliau“
 send-save-draft-error-title = Klaida įrašant laiško juodraštį
 send-save-template-error-title = Klaida įrašant laiško šabloną
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = undisclosed-recipients
+# Variables:
+# $recipient - recipient address
+smtp-error-illegal-local-part = Gavėjo „{ $recipient }“ pašto adrese yra ne ASCII simbolių, o naudojamas serveris nepalaiko SMTPUTF8. Pataisykite adresą ir bandykite dar kartą.
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = Panašu kas išsiuntimo (SMTP) serveris { $hostname } nesupranta užšifruotų slaptažodžių. Jei ką tik sukūrėte paskyrą, pabandykite paskyros „Laiškų išsiuntimo serveris (SMTP)“ nuostatose pakeisti šio serverio nuostatos „Tapatumo tikrinimo metodas“ reikšmę į „Paprastas slaptažodis“. Tačiau jei ši nuostata iki šiol veikė tinkamai, gali būti, jog kažkas bando pavogti jūsų slaptažodį.
@@ -84,7 +95,19 @@ smtp-auth-gssapi = Išsiuntimo (SMTP) serveris { $hostname } nepriėmė pateikto
 smtp-auth-mechanism-not-supported = Išsiuntimo (SMTP) serveris { $hostname } nepalaiko nurodyto tapatumo patikrinimo būdo. Pabandykite parinkti kitą tapatybės tikrinimo būdą paskyros „Laiškų išsiuntimo serveris (SMTP)“ nuostatų šio serverio skyrelyje.
 # Variables:
 # $serverResponse - server response
+smtp-server-error = Nepavyko išsiųsti laiško: išsiuntimo (SMTP) serveris atsakė: „{ $serverResponse }“.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-starttls-failed = Klaida išsiunčiant laišką: nepavyko užmegzti saugaus ryšio su išsiuntimo (SMTP) serveriu { $hostname }, naudojant STARTTLS, nes serveris neskelbia apie tokią galimybę. Išjunkite STARTTLS nuostatą šiam serveriui, arba susisiekite su paslaugos teikėju.
+# Variables:
+# $serverResponse - server response
 smtp-error-sending-from-command = Klaida išsiunčiant laiškus. Pašto serveris atsakė: „{ $serverResponse }“. Patikrinkite el. pašto adresą, nurodytą paskyros nuostatose, ir bandykite dar kartą.
+# Variables:
+# $serverResponse - server response; $recipient - intended recipient
+smtp-error-sending-recipient-command =
+    Klaida išsiunčiant laišką. Pašto serveris atsakė:
+    { $serverResponse }.
+    Patikrinkite laiško gavėjo adresą „{ $recipient }“ ir bandykite dar kartą.
 # Variables:
 # $serverResponse - server response
 smtp-error-sending-data-command = Klaida išsiunčiant laiškus. Laiškų išsiuntimo (SMTP) serveris atsakė: „{ $serverResponse }“.
