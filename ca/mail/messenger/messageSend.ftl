@@ -7,6 +7,8 @@
 
 send-alert-queued-delivery-failed = S'ha produït un error en lliurar els missatges per enviar.
 send-alert-followup-to-sender = L'autor d'aquest missatge ha demanat que les respostes només s'enviïn a l'autor. Si també voleu contestar al grup de discussió, afegiu una fila nova a la zona de l'adreça, seleccioneu «grup de discussió» de la llista de destinataris i introduïu-ne el nom.
+send-unable-to-save-template = No es pot desar el missatge com a plantilla.
+send-unable-to-save-draft = No es pot desar el missatge com a esborrany.
 send-error-failed = L'enviament del missatge ha fallat.
 send-unable-to-send-later = No s'ha pogut desar el missatge per enviar-lo més tard.
 # Variables:
