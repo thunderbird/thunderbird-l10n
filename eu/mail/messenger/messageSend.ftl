@@ -11,6 +11,9 @@ send-error-failed = Huts egin du mezua bidaltzeak.
 send-unable-to-send-later = Barkatu, ezin izan da zure irteerako mezua gorde.
 # Variables:
 # $hostname - outgoing server hostname
+send-error-smtp-unknown-server = Errore bat gertatu da posta bidaltzean: { $hostname } irteerako SMTP zerbitzaria ezezaguna da. Zerbitzaria gaizki konfiguratuta egon daiteke. Egiaztatu zure irteerako SMTP zerbitzariaren ezarpenak ongi daudela eta saiatu berriro.
+# Variables:
+# $hostname - outgoing server hostname
 send-error-smtp-request-refused = Ezin izan da mezua bidali SMTP { $hostname } irteera zerbitzariaren konexioak huts egin duelako. Zerbitzaria ez dago erabilgarri edo SMTP konexioak atzera botatzen ditu. Mesedez, egiaztatu zure irteera SMTP zerbitzariaren ezarpenak zuzenak direla eta saiatu berriz.
 # Variables:
 # $hostname - outgoing server hostname
