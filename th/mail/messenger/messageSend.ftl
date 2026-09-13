@@ -24,6 +24,12 @@ send-error-smtp-interrupted = ไม่สามารถส่งข้อค�
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = ไม่สามารถส่งข้อความได้เนื่องจากการเชื่อมต่อกับเซิร์ฟเวอร์ขาออก (SMTP) { $hostname } หมดเวลา ลองอีกครั้ง
 send-error-title = ข้อผิดพลาดในการส่งข้อความ
+send-progress-assembling-mail-information = กำลังรวบรวมข้อมูลจดหมาย…
+send-progress-assembling-message = กำลังรวบรวมจดหมาย…
+send-progress-creating-mail-message = กำลังสร้างข้อความจดหมาย…
+send-progress-assembling-message-done = กำลังรวบรวมจดหมาย…เสร็จสิ้น
+send-progress-copy-complete = การคัดลอกเสร็จสมบูรณ์
+send-progress-copy-failed = การคัดลอกล้มเหลว
 # Variables:
 # $folder - destination folder name; $localFolder - local folders name; $account - account name
 send-error-save-sent-locally =
@@ -39,9 +45,22 @@ send-error-save-draft-locally =
 send-error-save-template-locally =
     แม่แบบของคุณไม่ได้ถูกคัดลอกไปยังโฟลเดอร์แม่แบบ ({ $folder }) เนื่องจากข้อผิดพลาดเครือข่ายหรือไฟล์
     คุณสามารถลองอีกครั้งหรือบันทึกแม่แบบลงในเครื่องไปยัง { $localFolder }/{ $folder }-{ $account } ได้
+send-dialog-save-title = บันทึกข้อความ
 send-dialog-retry = &ลองใหม่
 send-error-save-to-local-folders = ไม่สามารถบันทึกข้อความของคุณไปยังโฟลเดอร์ในเครื่อง อาจเป็นเพราะพื้นที่จัดเก็บไฟล์ไม่เพียงพอ
+send-progress-filter-complete = การกรองเสร็จสมบูรณ์
+send-progress-filter-failed = การกรองล้มเหลว
 send-error-filtering-message = ข้อความของคุณถูกส่งและบันทึกแล้ว แต่มีข้อผิดพลาดขณะเรียกใช้ตัวกรองข้อความ
+# Variables:
+# $size - formatted message size
+send-warning-large-message = คำเตือน! คุณกำลังจะส่งข้อความที่มีขนาด { $size } คุณแน่ใจหรือไม่ว่าต้องการทำเช่นนี้?
+# Variables:
+# $folder - destination folder name
+send-progress-copy-start = กำลังคัดลอกข้อความไปยังโฟลเดอร์ { $folder }…
+send-progress-sending-message = กำลังส่งข้อความ…
+send-later-error-title = ข้อผิดพลาดในการส่งภายหลัง
+send-save-draft-error-title = ข้อผิดพลาดในการบันทึกฉบับร่าง
+send-save-template-error-title = ข้อผิดพลาดในการบันทึกแม่แบบ
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = undisclosed-recipients
 # Variables:
@@ -65,6 +84,9 @@ smtp-auth-gssapi = เซิร์ฟเวอร์ขาออก (SMTP) { $ho
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-mechanism-not-supported = เซิร์ฟเวอร์ขาออก (SMTP) { $hostname } ไม่รองรับวิธีการรับรองความถูกต้องที่เลือก โปรดเปลี่ยน ‘วิธีการรับรองความถูกต้อง’ ใน ‘การตั้งค่าบัญชี | เซิร์ฟเวอร์ขาออก (SMTP)'
+# Variables:
+# $serverResponse - server response
+smtp-too-many-recipients = ข้อความนี้ไม่ได้ถูกส่งเนื่องจากมีผู้รับเกินกว่าจำนวนที่อนุญาต เซิร์ฟเวอร์ตอบกลับว่า: { $serverResponse }
 # Variables:
 # $serverResponse - server response
 smtp-permanent-size-exceeded = ขนาดของข้อความที่คุณพยายามส่งเกินขีดจำกัดขนาดส่วนกลางของเซิร์ฟเวอร์ ข้อความไม่ถูกส่ง ลดขนาดข้อความและลองอีกครั้ง เซิร์ฟเวอร์ตอบกลับว่า:  { $serverResponse }
