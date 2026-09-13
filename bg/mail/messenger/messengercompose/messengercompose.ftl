@@ -5,6 +5,7 @@
 
 ## Compose alerts
 
+compose-message-cancelling = Прекъсване…
 compose-message-attachment-name = Прикрепено писмо
 
 ## Compose window
