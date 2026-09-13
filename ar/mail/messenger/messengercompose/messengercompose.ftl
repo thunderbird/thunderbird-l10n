@@ -10,6 +10,16 @@ compose-message-attachment-name = رسالة مرفقة
 
 ## Compose window
 
+compose-attachment-reminder-title = مذكّر المرفقات
+compose-attachment-reminder-prompt = هل نسيت أن تضيف المرفق؟
+compose-attachment-reminder-send-button = لا، أرسِل الآن
+compose-attachment-reminder-add-button = أوه، نسيتُ فعلًا!
+compose-file-attachment-error-title = إرفاق الملف
+remind-later-button =
+    .label = ذكّرني لاحقًا
+    .accesskey = ذ
+disable-attachment-reminder-menu-item =
+    .label = عطّل تذكير المرفقات للرسالة الحالية
 
 ## Send Format
 
@@ -90,6 +100,7 @@ attachment-reminder-keywords-msg =
 
 # Messages
 
+cloud-file-authentication-error-title = عُطل في الاستيثاق
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
@@ -112,6 +123,27 @@ big-file-notification-text =
         [many] هذه الملفات كبيرة. قد يكون من الأفضل استعمال Filelink.
        *[other] هذه الملفات كبيرة. قد يكون من الأفضل استعمال Filelink.
     }
+big-file-learn-more-button =
+    .label = اطّلع على المزيد…
+    .accesskey = ط
+big-file-link-button =
+    .label = اربط
+    .accesskey = ط
+big-file-ignore-button =
+    .label = تجاهل
+    .accesskey = ت
+big-file-choose-account-title = اختر حسابا
+big-file-choose-account-prompt = اختر حساب تخزين على الإنترنت لرفع المرفق إليه
+big-file-hide-notification-title = لا ترفع ملفاتي
+big-file-hide-notification-prompt = لن تُنبه إذا أرفقت المزيد من الملفات الكبيرة بهذه الرسالة.
+big-file-hide-notification-checkbox = لا تنبهني عن هذا ثانيا.
+cloud-file-privacy-warning = اكتمل الربط. لاحظ أن المرفقات المربوطة قد تكان متاحة للأشخاص الذي يستطيعون رؤية أو تخمين الروابط.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = يرفع إلى { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = رُفِع إلى { $provider }
 
 ## Link Preview
 
