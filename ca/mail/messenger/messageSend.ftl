@@ -24,3 +24,20 @@ send-error-smtp-interrupted = No s'ha pogut enviar el missatge perquè s'ha perd
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = No s'ha pogut enviar el missatge perquè s'ha esgotat el temps d'espera de la connexió al servidor de sortida (SMTP) { $hostname }. Torneu-ho a provar.
 send-error-title = Error d'enviament de missatges
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-sent-locally =
+    El missatge s'ha enviat, però no se n'ha desat una còpia en la carpeta de missatges enviats ({ $folder }) perquè s'han produït errors de xarxa o d'accés al fitxer.
+    Podeu tornar-ho a provar o desar el missatge localment en { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-draft-locally =
+    L'esborrany del missatge no s'ha copiat en la carpeta d'esborranys ({ $folder }) perquè s'han produït errors de xarxa o d'accés al fitxer.
+    Podeu tornar-ho a provar o desar l'esborrany localment en { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-template-locally =
+    La plantilla no s'ha copiat en la carpeta de plantilles ({ $folder }) perquè s'han produït errors de xarxa o d'accés al fitxer.
+    Podeu tornar-ho a provar o desar la plantilla localment en { $localFolder }/{ $folder }-{ $account }.
+send-dialog-retry = &Reintenta
+send-error-filtering-message = S'ha enviat i desat el missatge, però s'ha produït un error mentre s'hi executaven els filtres.
