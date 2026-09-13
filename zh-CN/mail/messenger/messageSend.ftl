@@ -73,6 +73,9 @@ send-save-template-error-title = 保存模板出错
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = 不详收件人
 # Variables:
+# $recipient - recipient address
+smtp-error-illegal-local-part = 收件人地址 { $recipient } 的本地部分包含非 ASCII 字符，但您的服务器尚不支持 SMTPUTF8。请更改此地址并重试。
+# Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = 发件服务器（SMTP） { $hostname } 似乎不支持加密过的密码。如果您刚设置好这个账号，请尝试将“账号设置 | 发件服务器（SMTP）”中的“验证方式”更改为“不安全传输的密码”。如果这曾经可用但现在已不支持，您可能要考虑您的密码是否已被盗。
 # Variables:
