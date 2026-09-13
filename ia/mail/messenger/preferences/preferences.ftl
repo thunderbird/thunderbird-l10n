@@ -652,6 +652,7 @@ default-format-label =
     .label = Usar de ordinario Formato paragrapho in vice de Texto corpore
     .accesskey = p
 compose-send-format-title = Formato de invio
+compose-format-both-description = Sempre invia ambe versiones assi que le application de e-mail del destinatario pote eliger qual monstrar.
 compose-send-automatic-option =
     .label = Automatic
 compose-send-automatic-description = Si nulle stilos es usate in le message, invia texto simple. Alteremente, invia HTML con un texto simple de reserva.
