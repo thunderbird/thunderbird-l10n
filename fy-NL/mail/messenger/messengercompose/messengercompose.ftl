@@ -10,10 +10,19 @@ compose-message-attachment-name = Keppele berjocht
 
 ## Compose window
 
+compose-send-confirm-title = Berjocht ferstjoere
+compose-send-confirm-prompt = Binne jo der wis fan dat jo dit berjocht ferstjoere wolle?
+compose-send-confirm-button = Ferstjoere
 compose-attachment-reminder-title = Bylagewerinnering
 compose-attachment-reminder-prompt = Hawwe jo fergetten om in bylage ta te foegjen?
 compose-attachment-reminder-send-button = Nee, ferstjoer mar
 compose-attachment-reminder-add-button = Oh, ja wis!
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } is op dit stuit dwaande mei it bewarjen fan in berjocht.
+    Wolle jo wachtsje oant it berjocht bewarre is eardat jo ôfslút, of no ôfslute?
+compose-file-attachment-error-title = Bestân taheakje
 compose-rename-attachment-title = Bylage omneame
 compose-rename-attachment-prompt = Nije bylagenamme:
 remind-later-button =
@@ -21,6 +30,10 @@ remind-later-button =
     .accesskey = W
 disable-attachment-reminder-menu-item =
     .label = Omtinken foar bylage foar aktuele berjocht útskeakelje
+find-replace-button =
+    .label = Ferfange…
+    .accesskey = f
+    .tooltiptext = It dialoochfinster Sykje en ferfange toane
 
 ## Send Format
 
@@ -457,6 +470,33 @@ big-file-notification-text =
         [one] Dit is in grut bestân. It is miskien better om Filelink te brûken.
        *[other] Dit binne grutte bestannen. It is miskien better om Filelink te brûken.
     }
+big-file-learn-more-button =
+    .label = Mear ynfo…
+    .accesskey = M
+big-file-link-button =
+    .label = Keppeling
+    .accesskey = K
+big-file-ignore-button =
+    .label = Negearje
+    .accesskey = N
+big-file-choose-account-title = Account kieze
+big-file-choose-account-prompt = Kies in cloud-account foar it opladen fan de bylage
+big-file-hide-notification-title = Myn bestannen net oplade
+big-file-hide-notification-prompt = Jo wurde net warskôge as noch mear grutte bestannen oan dit berjocht keppele wurde.
+big-file-hide-notification-checkbox = Warskôgje my nea wer.
+cloudfile-uploading-stop-button =
+    .label = Nea wer toane
+    .accesskey = N
+cloud-file-privacy-warning = Keppeljen is klear. Wês wis dat keppele bylagen tagonklik binne foar minsken dy’t de keppelingen sjogge of riede.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Oplade nei { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Opladen nei { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Bestân(nen) keppelje fia { $provider }
 
 ## Link Preview
 
