@@ -13,6 +13,10 @@ compose-message-attachment-name = 附加郵件
 compose-initialization-error-title = 寄送郵件
 compose-initialization-error = 建立郵件編輯視窗時發生錯誤。請再試一次。
 compose-default-subject = (無主旨)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = 寫信：{ $subject } - { $brand }
 compose-save-message-title = 儲存郵件
 # Variables:
 # $folder - configured drafts folder name
@@ -28,9 +32,12 @@ compose-empty-subject-send-button = 傳送無主旨郵件 (&S)
 compose-empty-subject-cancel-button = 取消(&C)
 compose-attachment-reminder-title = 附件提醒
 compose-attachment-reminder-prompt = 您忘記加入附件了嗎？
+compose-attachment-reminder-send-button = 不，傳吧！
+compose-attachment-reminder-add-button = 噢！是的。
 compose-newsgroups-not-supported-title = 不支援新聞群組
 compose-newsgroups-not-supported = 此帳號只支援電子郵件收件者，繼續執行會忽略新聞群組。
 compose-invalid-address-title = 收件者地址無效
+compose-no-recipients = 未指定收件者，請在地址欄中輸入收件者或新聞群組地址。
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address } 不是正確的電子郵件地址。正確的格式會是 user@host。請修正後重寄。
@@ -81,6 +88,12 @@ find-replace-button =
     .label = 取代…
     .accesskey = l
     .tooltiptext = 顯示尋找及取代對話框
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = 不使用 { $identity }，輸入自訂的寄件地址
+compose-custom-from-address-title = 自訂寄件地址
+compose-custom-from-address-warning = 若您的電子郵件服務供應商支援本功能，不用到「帳號設定」建立新身份就能自訂寄件地址。舉例來說，若您原本的寄件地址是「王小明 <john@example.com>」，可以改用「阿明 <john+doe@example.com>」或「小明 <john@example.com>」寄出。
+compose-custom-from-address-ignore = 別再通知我
 compose-blocked-content-options-button = 選項
 compose-blocked-content-options-accesskey = O
 compose-blocked-content-preferences-button = 偏好設定
