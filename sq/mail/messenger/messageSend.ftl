@@ -24,3 +24,5 @@ send-error-smtp-interrupted = Mesazhi nuk u dërgua dot, sepse lidhja me shërby
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = Mesazhi nuk u dërgua dot, ngaqë lidhjes me shërbyesin Dërgues (SMTP) { $hostname } i mbaroi koha. Riprovoni.
 send-error-title = Gabim Dërgimi Mesazhi
+# LOCALIZATION NOTE: This string must use only US-ASCII characters.
+send-undisclosed-recipients = marrës-të-patreguar
