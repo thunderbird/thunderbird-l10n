@@ -6,6 +6,7 @@
 ## Compose alerts
 
 compose-message-cancelling = A' sgur dheth…
+compose-message-attachment-name = Teachdaireachd a chaidh a chur ris
 
 ## Compose window
 
