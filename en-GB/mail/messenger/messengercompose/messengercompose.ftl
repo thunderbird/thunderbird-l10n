@@ -37,6 +37,7 @@ compose-attachment-reminder-add-button = Oh, I did!
 compose-newsgroups-not-supported-title = Newsgroups Not Supported
 compose-newsgroups-not-supported = This account only supports email recipients. Continuing will ignore newsgroups.
 compose-invalid-address-title = Invalid Recipient Address
+compose-no-recipients = No recipients were specified. Please enter a recipient or newsgroup in the addressing area.
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address } is not a valid email address because it is not of the form user@host. You must correct it before sending the email.
