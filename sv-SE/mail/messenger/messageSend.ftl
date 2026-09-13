@@ -7,6 +7,8 @@
 
 send-alert-queued-delivery-failed = Ett fel uppstod när tidigare ej skickade meddelanden skulle skickas.
 send-alert-followup-to-sender = Författaren av meddelandet har begärt att svar ska skickas endast till författaren. Om du också vill svara på diskussionsgruppen, lägg till en ny rad i adresseringsfältet, välj diskussionsgrupp från mottagarlistan och ange namnet på diskussionsgruppen.
+send-unable-to-save-template = Det gick inte att spara meddelandet som en mall.
+send-unable-to-save-draft = Det gick inte att spara meddelandet som ett utkast.
 send-error-failed = Det gick inte att skicka meddelandet.
 send-unable-to-send-later = Tyvärr kunde vi inte spara meddelandet för att kunna skicka det senare.
 # Variables:
