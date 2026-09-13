@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 attachment-reminder-dialog-title = Nyckelord för bilagepåminnelse
+attachment-reminder-description = Visa en påminnelse för saknade bilagor om meddelandet innehåller matchande sökord.
 attachment-reminder-label = { -brand-short-name } varnar om bilagor saknas när du försöker skicka ett meddelande som innehåller något av dessa nyckelord.
 keyword-new-button =
     .label = Ny…
