@@ -72,6 +72,13 @@ no-proxy-label =
     .value = Nulle proxy pro:
     .accesskey = n
 no-proxy-example = Exemplo: .mozilla.org, .asso.fr, 192.168.1.0/24
+proxy-auto-login-saved-password =
+    .label = Automaticamente aperir session si un contrasigno es salvate
+    .tooltiptext = Iste option silentemente te authentica a proxies quando tu ha salvate credentiales pro illos.
+    .accesskey = i
+proxy-socks-remote-dns =
+    .label = Adressar requestas de dominio (DNS) mediante proxy SOCKS v5
+    .accesskey = d
 # Do not translate "localhost", "127.0.0.1/8" and "::1". (You can translate "and".)
 connection-proxy-noproxy-localhost-desc-2 = Le connexiones a localhost, 127.0.0.1/8, e ::1 nunquam passa per un proxy.
 proxy-password-prompt =
