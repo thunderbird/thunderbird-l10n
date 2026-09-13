@@ -101,6 +101,9 @@ smtp-server-error = 发送邮件时出错：发件服务器（SMTP）错误。�
 smtp-starttls-failed = 发送邮件时出错：无法与发件服务器（SMTP） { $hostname } 使用 STARTTLS 建立安全连接，因为它不宣称支持此功能。请关闭对此服务器的 STARTTLS，或者联系您的服务提供商。
 # Variables:
 # $serverResponse - server response
+smtp-too-many-recipients = 消息发送失败，因为收件人数量超出上限。服务器响应：{ $serverResponse }。
+# Variables:
+# $serverResponse - server response
 smtp-error-sending-from-command = 发送邮件时出错。邮件服务器响应：{ $serverResponse }。请验证您在账户设置中的电子邮件地址是否正确，然后再试。
 # Variables:
 # $serverResponse - server response
