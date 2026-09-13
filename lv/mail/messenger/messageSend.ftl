@@ -5,12 +5,12 @@
 
 ## Message sending
 
-send-alert-queued-delivery-failed = Piegādājot nesūtītās vēstules, radās kļūda.
+send-alert-queued-delivery-failed = Nenosūtīto ziņojumu piegādes laikā atgadījās kļūda
 send-alert-followup-to-sender = Šīs vēstules autors ir pieprasījis atbildi nosūtīt tikai autoram. Ja vēlaties arī atbildēt uz ziņu grupu, adresēšanas apgabalā pievienojiet jaunu rindu, adresātu sarakstā izvēlieties Ziņu grupa un ievadiet ziņu grupas nosaukumu.
-send-unable-to-save-template = Neizdevās saglabāt vēstuli kā veidni.
-send-unable-to-save-draft = Neizdevās saglabāt vēstuli kā melnrakstu.
-send-error-failed = Neizdevās nosūtīt vēstuli.
-send-unable-to-send-later = Diemžēl, neizdevās saglabāt jūsu vēstuli nosūtīšanai vēlāk.
+send-unable-to-save-template = Ziņojumu neizdevās saglabāt kā sagatavi.
+send-unable-to-save-draft = Ziņojumu neizdevās saglabāt kā melnrakstu.
+send-error-failed = Ziņojuma nosūtīšana neizdevās.
+send-unable-to-send-later = Atvainojamies, mēs nevarējām saglabāt ziņojumu nosūtīšanai vēlāk.
 # Variables:
 # $hostname - outgoing server hostname
 send-error-smtp-unknown-server = Sūtot pastu, radās kļūda: Izejošais serveris (SMTP) { $hostname } nav zināms. Iespējams, ka serveris ir iestatīts nepareizi. Lūdzu, pārbaudiet, vai jūsu izejošā servera (SMTP) iestatījumi ir pareizi, un mēģiniet vēlreiz.
