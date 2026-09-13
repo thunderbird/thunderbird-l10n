@@ -24,3 +24,20 @@ send-error-smtp-interrupted = Sporočila ni bilo mogoče poslati, ker je bila po
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = Sporočila ni bilo mogoče poslati, ker je povezava z odhodnim strežnikom (SMTP) { $hostname } potekla. Poskusite znova.
 send-error-title = Napaka pri pošiljanju sporočila
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-sent-locally =
+    Sporočilo je bilo poslano, vendar zaradi napak omrežja ali dostopa do datotek ni bilo kopirano v mapo { $folder }.
+    Lahko poskusite znova ali pa sporočilo shranite krajevno v { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-draft-locally =
+    Osnutek vašega sporočila zaradi napak omrežja ali dostopa do datotek ni bilo kopirano v mapo { $folder }.
+    Lahko poskusite znova ali pa osnutek shranite krajevno v { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-template-locally =
+    Predloga zaradi napak omrežja ali dostopa do datotek ni bilo kopirano v mapo { $folder }.
+    Lahko poskusite znova ali pa predlogo shranite krajevno v { $localFolder }/{ $folder }-{ $account }.
+send-dialog-retry = &Poskusi znova
+send-error-filtering-message = Vaše sporočilo je bilo poslano in shranjeno, toda med izvajanjem filtrov sporočil na njem je prišlo do napake.
