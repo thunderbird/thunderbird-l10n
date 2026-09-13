@@ -24,7 +24,7 @@ checkbox-calendar-label =
     .tooltiptext = { unset-default-tooltip }
 # Note: "net.thunderbird://" must not be translated.
 checkbox-net-thunderbird-url-label =
-    .label = Προσαρμοσμένοι σύνδεσμοι του Thunderbird (net.thunderbird://)
+    .label = Προσαρμοσμένους συνδέσμους του Thunderbird (net.thunderbird://)
     .tooltiptext = { unset-default-tooltip }
 # Note: This is the search engine name for all the different platforms.
 # Platforms that don't support it should be left blank.
@@ -38,7 +38,7 @@ system-search-integration-label =
     .label = Να επιτρέπεται { system-search-engine-name } η αναζήτηση μηνυμάτων
     .accesskey = ε
 check-default-email-app-label =
-    .label = Να γίνεται πάντα έλεγχος κατά την εκκίνηση για το αν το { -brand-short-name } είναι η προεπιλεγμένη εφαρμογή email
+    .label = Να ελέγχεται πάντα αν το { -brand-short-name } είναι η προεπιλεγμένη εφαρμογή email κατά την εκκίνηση
     .accesskey = π
 check-on-startup-label =
     .label = Εκτέλεση ελέγχου σε κάθε εκκίνηση του { -brand-short-name }

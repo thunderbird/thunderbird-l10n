@@ -93,8 +93,8 @@ compose-custom-from-address-placeholder = Ange anpassad från adress som ska anv
 compose-custom-from-address-title = Anpassa från adress
 compose-custom-from-address-warning = Om din e-postleverantör stöder detta, anpassa från adress kan du göra enstaka mindre ändringar i din från adress utan att behöva skapa en ny identitet i Kontoinställningar. Till exempel, om din adress är John Doe <john@example.com> kan du ändra den till John Doe <john+doe@example.com> eller John <john@example.com>.
 compose-custom-from-address-ignore = Meddela mig aldrig om detta igen
-compose-blocked-content-options-button = Inställningar
-compose-blocked-content-options-accesskey = n
+compose-blocked-content-options-button = Alternativ
+compose-blocked-content-options-accesskey = A
 compose-blocked-content-preferences-button = Inställningar
 compose-blocked-content-preferences-accesskey = n
 # Variables:
