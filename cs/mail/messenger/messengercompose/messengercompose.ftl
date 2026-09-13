@@ -10,6 +10,9 @@ compose-message-attachment-name = Připojená zpráva
 
 ## Compose window
 
+compose-send-confirm-title = Odesílání zprávy
+compose-send-confirm-prompt = Opravdu chcete odeslat tuto zprávu?
+compose-send-confirm-button = Odeslat
 compose-empty-subject-title = Upozornění na prázdný předmět
 compose-empty-subject-prompt = Odesílaná zpráva nemá zadaný žádný předmět.
 compose-empty-subject-send-button = &Odeslat bez předmětu
@@ -24,10 +27,17 @@ compose-invalid-address-title = Neplatná adresa příjemce
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address } není platná e-mailová adresa, protože není ve formátu uživatel@server. Před odesláním e-mailu ji musíte opravit.
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } aktuálně ukládá zprávu.
+    Chcete počkat, dokud nebude zpráva uložena, nebo ihned ukončit?
 compose-attach-page-title = Zadejte prosím cestu pro přílohu
 compose-attach-page-prompt = Webová stránka (URL):
 compose-message-part-attachment-name = Část připojené zprávy
 compose-file-attachment-error-title = Připojení souboru
+compose-rename-attachment-title = Přejmenovat přílohu
+compose-rename-attachment-prompt = Nové jméno přílohy:
 remind-later-button =
     .label = Upozornit mě později
     .accesskey = U
