@@ -37,6 +37,7 @@ compose-attachment-reminder-add-button = Ой, точно!
 compose-newsgroups-not-supported-title = Группы новостей не поддерживаются
 compose-newsgroups-not-supported = Эта учётная запись поддерживает только адресатов электронной почты. Почтовые сообщения в группы новостей отправляться не будут.
 compose-invalid-address-title = Некорректный адрес получателя
+compose-no-recipients = Не был указан адресат. Укажите адресата или группу новостей в строке адреса.
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address } не является адресом электронной почты, так как он написан не в форме пользователь@сервер. Вы должны исправить его перед отправкой сообщения.
