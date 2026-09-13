@@ -82,12 +82,14 @@ proxy-reload-label =
     .label = Recarregar
     .accesskey = a
 no-proxy-addresses-label =
-    .value = Não utilizar um proxy para estes endereços:
+    .value = Não usar um proxy para estes endereços:
     .accesskey = n
 no-proxy-label =
     .value = Sem proxy para:
     .accesskey = m
 no-proxy-example = Exemplo: .mozilla.org, .net.nz, 192.168.1.0/24
+# Do not translate "localhost", "127.0.0.1/8" and "::1". (You can translate "and".)
+connection-proxy-local-network-desc = Ligações à rede local (como localhost) nunca usam um proxy.
 # Do not translate "localhost", "127.0.0.1/8" and "::1". (You can translate "and".)
 connection-proxy-noproxy-localhost-desc-2 = As ligações a localhost, 127.0.0.1/8, e ::1 nunca passam pelo proxy.
 proxy-password-prompt =
