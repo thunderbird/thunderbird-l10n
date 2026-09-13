@@ -10,11 +10,18 @@ compose-message-attachment-name = Připojená zpráva
 
 ## Compose window
 
+compose-initialization-error-title = Vytváření zprávy
+compose-initialization-error = Při vytváření okna pro novou zprávu nastala chyba. Zkuste to prosím znovu.
+compose-default-subject = (bez předmětu)
 # Variables:
 # $subject - message subject
 # $brand - application name
 compose-window-title = Psaní: { $subject } - { $brand }
 compose-save-message-title = Uložit zprávu
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Uložit zprávu do složky konceptů ({ $folder }) a zavřít okno psaní zprávy?
+compose-discard-changes-button = &Zahodit změny
 compose-send-confirm-title = Odesílání zprávy
 compose-send-confirm-prompt = Opravdu chcete odeslat tuto zprávu?
 compose-send-confirm-button = Odeslat
@@ -47,9 +54,12 @@ compose-quit-saving-prompt =
     Chcete počkat, dokud nebude zpráva uložena, nebo ihned ukončit?
 compose-quit-button = &Skončit
 compose-wait-button = &Počkat
+compose-attach-file-picker-title = Připojit soubor…
 compose-attach-page-title = Zadejte prosím cestu pro přílohu
 compose-attach-page-prompt = Webová stránka (URL):
 compose-message-part-attachment-name = Část připojené zprávy
+compose-attachment-bucket-attach-files-tooltip = Připojit soubor…
+compose-attachment-bucket-clear-selection-tooltip = Vyčistit výběr
 # Variables:
 # $filename - name of the file that could not be found
 compose-file-attachment-not-found = Soubor { $filename } nelze připojit ke zprávě, protože neexistuje.
@@ -532,6 +542,33 @@ cloud-file-account-error-title = Chyba účtu úložiště
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Nepodařilo se aktualizovat soubor { $filename } posílaný přes úložiště, protože byl účet úložiště smazán.
 cloud-file-authentication-error-title = Chyba přihlášení
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Nelze se přihlásit k { $provider }.
+cloud-file-upload-error-title = Chyba nahrávání
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Nelze nahrát soubor { $filename } na { $provider }.
+cloud-file-quota-error-title = Chyba nedostatku místa
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Nahráním souboru { $filename } na { $provider } by došlo k překročení povoleného místa
+cloud-file-size-error-title = Chyba velikosti souboru
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = Soubor { $filename } překračuje maximální povolenou velikost u služby { $provider }.
+cloud-file-unknown-error-title = Neznámá chyba
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Při komunikaci se službou { $provider } nastala neznámá chyba.
+cloud-file-deletion-error-title = Chyba smazání
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Při smazání souboru { $filename } z { $provider } nastala chyba.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
