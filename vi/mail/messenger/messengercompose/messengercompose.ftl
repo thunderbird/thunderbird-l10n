@@ -37,6 +37,7 @@ compose-attachment-reminder-add-button = Oh, tôi đã làm!
 compose-newsgroups-not-supported-title = Nhóm tin không được hỗ trợ
 compose-newsgroups-not-supported = Tài khoản này chỉ hỗ trợ người nhận email. Nếu tiếp tục thì sẽ bỏ qua nhóm tin.
 compose-invalid-address-title = Địa chỉ Người nhận Không hợp lệ
+compose-no-recipients = Không có người nhận nào được chỉ định. Vui lòng nhập người nhận hoặc nhóm tin vào khu vực địa chỉ.
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address } không phải là một địa chỉ email hợp lệ vì nó không có dạng ngườidùng@tênmiền. Bạn phải sửa lại trước khi gửi e-mail.
