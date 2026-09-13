@@ -10,14 +10,36 @@ compose-message-attachment-name = Připowěsnjena powěsć
 
 ## Compose window
 
+compose-initialization-error-title = Powěsće spisać
+compose-initialization-error = Při wutworjenju wobdźěłowanskeho wokna je zmylk wustupił. Prošu spytajće hišće raz.
+compose-default-subject = (žana tema)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Pisać: { $subject } - { $brand }
+compose-save-message-title = Powěsć składować
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Tutu powěsć do wašeho rjadowaka Naćiski ({ $folder }) składować a pisanske wokno začinić?
+compose-discard-changes-button = &Změny zaćisnyć
 compose-send-confirm-title = Powěsć pósłać
 compose-send-confirm-prompt = Sće woprawdźe hotowy, tutu powěsć pósłać?
 compose-send-confirm-button = Pósłać
 compose-do-not-show-again = Tutón dialog hižo njepokazać.
+compose-empty-subject-title = Napominanje na temu
+compose-empty-subject-prompt = Twoja powěsć nima temu.
+compose-empty-subject-send-button = Bjez temy pó&słać
+compose-empty-subject-cancel-button = Pósłanje přetor&hnyć
 compose-attachment-reminder-title = Přiwěškowe napominanje
 compose-attachment-reminder-prompt = Sće zabył přiwěšk přidać?
 compose-attachment-reminder-send-button = Ně, nětko pósłać
 compose-attachment-reminder-add-button = Ow, haj!
+compose-newsgroups-not-supported-title = Diskusijne skupiny so njepodpěruja
+compose-newsgroups-not-supported = Tute konto jenož e-mejlowych přijimarjow podpěruje. Jeli pokročujeće, budu so diskusijne skupiny ignorować.
+compose-invalid-address-title = Njepłaćiwa přijimarska adresa
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } njeje płaćiwa e-mejlowa adresa, dokelž nima forma wužiwar@serwer. Dyrbiće ju korigować, prjedy hač e-mejl pósćeleće.
 compose-quit-sending-title = Powěsć pósłać
 compose-quit-saving-title = Powěsć składować
 # Variables:
@@ -32,9 +54,16 @@ compose-quit-saving-prompt =
     Chceće čakać, doniž powěsć njeje so składowała, prjedy hač skónčiće abo nětko skónčić?
 compose-quit-button = &Skónčić
 compose-wait-button = Ča&kać
+compose-attach-file-picker-title = Dataje připowěsnyć
+compose-attach-page-title = Prošu podajće město, kotrež ma so připowěsnyć
+compose-attach-page-prompt = Webstrona (URL):
+compose-message-part-attachment-name = Připowěsnjeny powěsćowy dźěl
+compose-attachment-bucket-attach-files-tooltip = Dataje připowěsnyć
+compose-attachment-bucket-clear-selection-tooltip = Wuběr zhašeć
 # Variables:
 # $filename - name of the file that could not be found
 compose-file-attachment-not-found = Dataja { $filename } njeeksistuje a njeda so tohodla k powěsći připowěsnyć.
+compose-file-attachment-error-title = Dataju připowěsnyć
 compose-message-file-error-title = Powěsćowa dataja
 # Variables:
 # $filename - name of the file that could not be found
@@ -58,6 +87,12 @@ find-replace-button =
     .label = Wuměnić…
     .accesskey = m
     .tooltiptext = Dialog Pytać a wuměnić pokazać
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Swójsku wotpósłarsku adresu zapodać, zo by so město { $identity } wužiwała
+compose-custom-from-address-title = Z adresy přiměrić
+compose-custom-from-address-warning = Jeli waš e-mejlowy poskićowar to podpěruje, zmóžnja wam funkcija „Z adresy přiměrić“, jónkroćnu snadnu změnu na wašej wotpósłarskej adresy přewjesć, bjez toho, zo dyrbjał nowu identitu w kontowych nastajenjach wutworił. Jeli na přikład waša wotpósłarska adresa je John Doe <john@example.com>, móžeće ju do John Doe <john+doe@example.com> abo John <john@example.com> změnić.
+compose-custom-from-address-ignore = Wo tym hižo njeinformować
 compose-blocked-content-options-button = Nastajenja
 compose-blocked-content-options-accesskey = N
 compose-blocked-content-preferences-button = Nastajenja
@@ -135,6 +170,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Lisćinu pokazać
     .accesskey = i
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = Adresy { $field } wotstronić
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Chceće woprawdźe adresy { $field } wotstronić?
+compose-remove-address-row-button = Wotstronić
 
 ## Attachment widget
 
@@ -514,6 +556,7 @@ cloud-file-account-error-title = Kontowy zmylk Filelink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Přiwěšk { $filename } Filelink njeda so aktualizować, dokelž jeho lokalna dataja je so zhašała.
+cloud-file-authentication-error-title = Awtentifikaciski zmylk
 # Variables:
 # $provider - name of the online storage service
 cloud-file-authentication-error = Awtentifikacija napřećo { $provider } móžna njeje.
@@ -583,6 +626,9 @@ cloud-file-uploading-tooltip = Nahraje so do { $provider }…
 # Variables:
 # $provider - name of the online storage service
 cloud-file-uploaded-tooltip = Do { $provider } nahraty
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Dataje přez { $provider } připowěsnyć
 
 ## Link Preview
 
