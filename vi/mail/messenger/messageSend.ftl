@@ -75,6 +75,7 @@ send-undisclosed-recipients = người nhận không được tiết lộ
 # Variables:
 # $recipient - recipient address
 smtp-error-illegal-local-part = Có các ký tự không phải ASCII trong phần cục bộ của địa chỉ người nhận { $recipient } và máy chủ của bạn không hỗ trợ SMTPUTF8. Vui lòng thay đổi địa chỉ này và thử lại.
+smtp-error-no-recipients = Chưa chỉ định người nhận để gửi thư qua SMTP.
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = Máy chủ gửi thư (SMTP) { $hostname } dường như không hỗ trợ mật khẩu được mã hóa. Nếu bạn vừa thiết lập tài khoản, hãy thử thay đổi ‘Phương thức xác thực’ trong ‘Cài đặt tài khoản | Máy chủ gửi thư (SMTP)’ thành ‘Mật khẩu, truyền không an toàn’. Nếu trước đây nó hoạt động nhưng bây giờ thì không, bạn có thể dễ bị đánh cắp mật khẩu.
