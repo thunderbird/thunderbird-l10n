@@ -27,12 +27,18 @@ send-error-title = Ուղարկման սխալ
 send-progress-assembling-mail-information = Նամակի տեղեկությունը...
 send-progress-assembling-message = Նամակի թողարկում
 send-progress-creating-mail-message = Ստեղծվում է նամակ...
+# Variables:
+# $filename - name or URL of the file that could not be attached
+send-error-attaching-file = Սխալ՝ { $filename }-ը կցելիս։ Համոզվեք, որ մուտք ունեք ֆայլին:
 send-progress-assembling-message-done = Նամակի թողարկում...Պատրաստ է
 send-progress-copy-complete = Պատճենվեց։
 send-progress-copy-failed = Ձախողվեց։
 send-dialog-save-title = Պահպանել նամակը
 send-progress-filter-complete = Զտումը ավարտվեց:
 send-progress-filter-failed = Զտումը ձախողվեց:
+# Variables:
+# $hostname - outgoing server hostname
+send-error-smtp-security-issue = { $hostname } -ի հետ կապված կազմաձևերը պետք է շտկվեն:
 send-error-post-failed = Նամակը հնարավոր չէ հրապարակել, քանի որ կապ չկա նորություննների սպասարկիչի հետ։ Հնարավոր է՝ սպասարկիչը հասանելի չէ։
 # Variables:
 # $size - formatted message size
@@ -41,6 +47,8 @@ send-warning-large-message = Զգուշացում. Ուղկարկվող նամա
 # $folder - destination folder name
 send-progress-copy-start = Պատճենում է { $folder } թղթապանակում...
 send-progress-sending-message = Նամակը ուղարկվում է...
+send-error-nntp-ok = Ձեր նամակը հրապարակվել է լուրախմբում, բայց չի ուղարկվել այլ ստացողների։
+send-error-copy-operation = Նամակը հաջողությամբ ուղարկվել է, բայց չի կարող պատճենվել Ուղարկվածներ թղթապանակում։
 send-later-error-title = Հետո ուղարկելու սխալ
 send-save-draft-error-title = Պահպանել Սևագրի սխալը
 send-save-template-error-title = Պահպանել ձևանմուշի սխալը
@@ -66,7 +74,22 @@ smtp-auth-gssapi = Kerberos/GSSAPI-ը չի ընդունվել { $hostname } SMTP
 smtp-auth-mechanism-not-supported = { $hostname } SMTP սպասարկիչը չի աջակցում իսկորոշման ընտրված եղանակը։ Փոխեք ‘Վավերացման եղանակ'-ը  ‘Փոստարկղի կարգավորումներ | Ելքային սպասարկիչը (SMTP)’ բաժնում։
 # Variables:
 # $serverResponse - server response
+smtp-server-error = Սխալ՝ նամակը ուղարկելիս: Ելքային սպասարկիչի (SMTP) սխալ: Պատասխանը՝    { $serverResponse }.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-starttls-failed = Սխալ՝ նամակը ուղարկելիս: Հնարավոր չէ անվտանգ հղում հաստատել { $hostname } SMTP սպասարկիչի հետ՝ օգտագործելով STARTTLS։ Անջատեք STARTTLS-ը։
+# Variables:
+# $serverResponse - server response
 smtp-error-sending-from-command = Սխալ՝ նամակը ուղարկելիս։ Սպասարկիչի պատասխանը՝ { $serverResponse }։ Համոզվեք, որ կարգավորումները ճիշտ են։
+# Variables:
+# $serverResponse - server response
+smtp-permanent-size-exceeded = Նամակի չափը գերազանցում է սպասարկիչի գլոբալ սահմանափակումներին։ Նամակը չի ուղարկվել, փոխեք նամակի չափը և կրկին փորձեք։ Սպասարկիչի պատասխանը. { $serverResponse }։
+# Variables:
+# $serverResponse - server response; $recipient - intended recipient
+smtp-error-sending-recipient-command =
+    Նամակը ուղարկելու սխալ։ Սպասարկիչը պատասխանել է.
+    { $serverResponse }։
+    Ստուգեք { $recipient } նամակը ստացողին և կրկին փորձեք։
 # Variables:
 # $serverResponse - server response
 smtp-error-sending-data-command = Սխալ՝ (SMTP) նամակը ուղարկելիս։ Սպասարկիչի պատասխանը՝ { $serverResponse }։
