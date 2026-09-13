@@ -50,6 +50,9 @@ send-dialog-retry = &Opakovat
 send-progress-filter-complete = Filtr dokončen.
 send-progress-filter-failed = Filtr selhal.
 send-error-filtering-message = Vaše zpráva byla odeslána a uložena, ale došlo k chybě při provádění filtrů.
+# Variables:
+# $hostname - outgoing server hostname
+send-error-smtp-security-issue = Konfigurace vztahující se k { $hostname } musí být opravena.
 send-error-post-failed = Zpráva nemůže být odeslána, protože selhalo spojení s diskusním serverem. Server může být nedostupný nebo odmítat spojení. Zkontrolujte prosím, že nastavení pro diskusní server je správné a zkuste to znovu, nebo kontaktujte správce sítě.
 # Variables:
 # $size - formatted message size
@@ -63,6 +66,9 @@ send-save-draft-error-title = Chyba při ukládání konceptu
 send-save-template-error-title = Chyba při ukládání šablony
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = undisclosed-recipients (utajeni adresati)
+# Variables:
+# $recipient - recipient address
+smtp-error-illegal-local-part = Místní část adresy příjemce { $recipient } obsahuje znaky mimo ASCII, ale váš server nepodporuje SMTPUTF8. Změňte prosím adresu a zkuste to znovu.
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = SMTP server { $hostname } nepodporuje šifrovaná hesla. Pokud jste tento účet právě založili, změňte v dialogu Nastavení účtu | Nastavení serveru metodu autentizace na ‘Heslo, nezabezpečený přenos’. Pokud už tento účet fungoval, mohlo by se jednat o pokus ukrást vaše heslo.
@@ -81,6 +87,9 @@ smtp-auth-gssapi = SMTP server { $hostname } nepřijal lístek Kerberos/GSSAPI. 
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-mechanism-not-supported = SMTP server { $hostname } nepodporuje zvolenou metodu autentizace. Změňte prosím ‘Způsob autentizace’ v ‘Nastavení účtu | Odchozí server (SMTP)’.
+# Variables:
+# $serverResponse - server response
+smtp-server-error = Při odesílání zprávy nastala chyba: Chyba SMTP serveru. Server odpověděl: { $serverResponse }.
 # Variables:
 # $serverResponse - server response
 smtp-error-sending-from-command = Při odesílání zprávy nastala chyba. Server odpověděl: { $serverResponse }. Ověřte prosím správnost své e-mailové adresy a zkuste to znovu.
