@@ -24,3 +24,22 @@ send-error-smtp-interrupted = Powěsć njedajo se słaś, dokulaž zwisk z wucha
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = Powěsć njedajo se słaś, dokulaž zwisk z wuchadnym serwerom (SMTP) { $hostname } jo cas pśekšocył. Wopytajśo hyšći raz.
 send-error-title = Zmólka pśi słanju powěsći
+send-progress-assembling-message = Powěsć staja se gromadu…
+send-progress-assembling-message-done = Powěsć staja se gromadu…Gótowy
+send-dialog-save-title = Powěsć składowaś
+send-error-save-to-local-folders = Waša powěsć njedajo se do lokalnych zarědnikow składowaś. Snaź składowański rum njedosega.
+# Variables:
+# $size - formatted message size
+send-warning-large-message = Warnowanje! Cośo rowno powěsć z wjelikosću { $size } bajtow wótpósłaś. Cośo to napšawdu cyniś?
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-no-ssl = Zda se, až wuchadny serwer (SMTP) { $hostname } njepódpěra skoděrowane gronidła. Jolic rowno konto konfigurěrujośo, wopytajśo ‘awtentifikacisku metodu’ w ‘Kontowe nastajenja | Wuchadny serwer (SMTP)’ do ‘Gronidło, njewěsće pśenjasone’ změniś. Jolic to zwětšego funkcioněrujo, ale něnto nic, jo móžno, až se wašo gronidło kšadnjo.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-ssl = Zda se, až wuchadny serwer (SMTP) { $hostname } njepódpěra skoděrowane gronidła. Jolic rowno konto konfigurěrujośo, wopytajśo ‘awtentifikacisku metodu’ w ‘Kontowe nastajenja | Wuchadny serwer (SMTP)’ do ‘Normalne gronidło’ změniś.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-plain-to-encrypt = Wuchadny serwer (SMTP) { $hostname } njepódpěra gronidła z lutnego teksta. Pšosym wopytajśo ‘awtentifikacisku metodu’ w ‘Kontowe nastajenja | wuchadny serwer (SMTP)’ do ‘Skoděrowane gronidło’ změniś.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-failure = Njejo móžno, wuchadny serwer (SMTP) { $hostname } awtentificěrowás. Pšosym kontrolěrujśo gronidło, a pśespytajśo ‘awtentifikacisku metodu’ w ‘Kontowe nastajenja | Wuchadny serwer (SMTP)’.
