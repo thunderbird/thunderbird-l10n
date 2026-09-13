@@ -24,3 +24,20 @@ send-error-smtp-interrupted = Die Nachricht konnte nicht gesendet werden, weil d
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = Die Nachricht konnte nicht gesendet werden, weil die Verbindung mit dem SMTP-Server { $hostname } ihre Ablaufzeit (Timeout) überschritten hat. Versuchen Sie es nochmals.
 send-error-title = Senden der Nachricht ist fehlgeschlagen
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-sent-locally =
+    Die Nachricht wurde gesendet, aber es wurde keine Kopie im Gesendet-Ordner ({ $folder }) gespeichert, da es zu Problemen bei dem Zugriff auf Netzwerk oder Dateien kam.
+    Sie können es erneut versuchen oder die Nachricht lokal unter { $localFolder }/{ $folder }-{ $account } speichern.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-draft-locally =
+    Der Nachrichtenentwurf konnte nicht im Entwürfe-Ordner ({ $folder }) gespeichert werden, da es zu Problemen bei dem Zugriff auf Netzwerk oder Dateien kam.
+    Sie können es erneut versuchen oder den Entwurf lokal unter { $localFolder }/{ $folder }-{ $account } speichern.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-template-locally =
+    Die Vorlage konnte nicht im Vorlagen-Ordner ({ $folder }) gespeichert werden, da es zu Problemen bei dem Zugriff auf Netzwerk oder Dateien kam.
+    Sie können es erneut versuchen oder die Vorlage lokal unter { $localFolder }/{ $folder }-{ $account } speichern.
+send-dialog-retry = Nochmals &versuchen
+send-error-filtering-message = Die Nachricht wurde gesendet und gespeichert, beim anschließenden Anwenden der Nachrichtenfilter trat aber ein Fehler auf.
