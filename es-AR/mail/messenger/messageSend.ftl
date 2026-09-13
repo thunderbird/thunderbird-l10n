@@ -27,6 +27,9 @@ send-error-title = Error al enviar el mensaje
 send-progress-assembling-mail-information = Ensamblando información de correo…
 send-progress-assembling-message = Ensamblando mensaje…
 send-progress-creating-mail-message = Creando mensaje de correo…
+# Variables:
+# $filename - name or URL of the file that could not be attached
+send-error-attaching-file = Hubo un problema al adjuntar { $filename }. Compruebe si tiene acceso al archivo.
 send-progress-assembling-message-done = Ensamblando mensaje…Listo
 send-progress-copy-complete = Copia completa.
 send-progress-copy-failed = Falló la copia.
@@ -51,6 +54,9 @@ send-error-save-to-local-folders = No se pudo guardar el mensaje en las carpetas
 send-progress-filter-complete = Filtro completo.
 send-progress-filter-failed = Falló el filtro.
 send-error-filtering-message = Su mensaje fue enviado y guardado, pero hubo un error al ejecutar los filtros de mensaje.
+# Variables:
+# $hostname - outgoing server hostname
+send-error-smtp-security-issue = Se debe corregir la configuración relacionada con { $hostname }.
 send-error-post-failed = Este mensaje no pudo ser publicado porque falló el intento de conexión con el servidor de noticias. El servidor puede no estar disponible o no acepta conexiones. Por favor, verifique que sus configuración del servidor de noticias es correcta y vuelva a intentarlo, o contacte con el administrador de su red.
 # Variables:
 # $size - formatted message size
@@ -59,11 +65,16 @@ send-warning-large-message = ¡Advertencia! Está por enviar un mensaje de tama�
 # $folder - destination folder name
 send-progress-copy-start = Copiando mensaje a la carpeta { $folder }…
 send-progress-sending-message = Enviando mensaje…
+send-error-nntp-ok = Su mensaje fue enviado al grupo de noticias pero no fue enviado a otros destinatarios.
+send-error-copy-operation = El mensaje se envió con éxito, pero no pudo copiarse a la carpeta Enviados.
 send-later-error-title = Erro al enviar después
 send-save-draft-error-title = Error al guardar borrador
 send-save-template-error-title = Error al guardar plantilla
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = undisclosed-recipients
+# Variables:
+# $recipient - recipient address
+smtp-error-illegal-local-part = Hay caracteres que no son ASCII en la parte local de la dirección del destinatario { $recipient } y su servidor no es compatible con SMTPUTF8. Cambie esta dirección y vuelva a intentarlo.
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = El servidor saliente (SMTP) { $hostname } no parece soportar contraseñas cifradas. Si recién configuró la cuenta, intente cambiar el ‘Método de autenticación’ en ‘Configuración de cuenta | Servidor de salida (SMTP)’ a ‘Contraseña, transmitida de forma insegura’. Si funcionaba y dejó de hacerlo, puede ser suceptible a un robo de contraseña.
@@ -84,10 +95,22 @@ smtp-auth-gssapi = El ticket Kerberos/GSSAPI no fue aceptado por el servidor SMT
 smtp-auth-mechanism-not-supported = El servidor { $hostname } no soporta el método de autenticación seleccionado. Cambie el ‘Método de autenticación’ en ‘Configuración de cuenta |  Servidor de salida (SMTP)’.
 # Variables:
 # $serverResponse - server response
+smtp-server-error = Ocurrió un error al enviar el correo: Error del servidor saliente (SMTP). El servidor respondió:  { $serverResponse }.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-starttls-failed = Hubo un error mientras se enviaba el correo: No se pudo establecer una conexión segura con el servidor SMTP { $hostname } usando STARTTLS porque no anuncia esa funcionalidad . Deshabilite STARTTLS para ese servidor o contacte a su proveedor.
+# Variables:
+# $serverResponse - server response
 smtp-error-sending-from-command = Ocurrió un error mientras se enviaba el correo. El servidor de correo respondió: { $serverResponse }. Por favor, verifique que su dirección de correo electrónico es correcta en las preferencias de correo y vuelva a intentarlo.
 # Variables:
 # $serverResponse - server response
 smtp-permanent-size-exceeded = El tamaño del mensaje que está intentando enviar excede el límite global del servidor. El mensaje no fue enviado; reduzca el tamaño del mensaje e intente nuevamente. El servidor respondió: { $serverResponse }.
+# Variables:
+# $serverResponse - server response; $recipient - intended recipient
+smtp-error-sending-recipient-command =
+    Hubo un error mientras se enviaba el correo. El servidor de correo respondió:
+    { $serverResponse }.
+    Revise el destinatario "{ $recipient }" e inténtelo nuevamente.
 # Variables:
 # $serverResponse - server response
 smtp-error-sending-data-command = Ocurrió un error (SMTP) al enviar el correo. El servidor respondió: { $serverResponse }.
