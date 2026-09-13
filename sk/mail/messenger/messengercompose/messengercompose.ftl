@@ -37,6 +37,7 @@ compose-attachment-reminder-add-button = Naozaj, zabudol som!
 compose-newsgroups-not-supported-title = Diskusné skupiny nie sú podporované
 compose-newsgroups-not-supported = Tento účet podporuje iba príjemcov e‑mailov. Pri pokračovaní budú diskusné skupiny ignorované.
 compose-invalid-address-title = Neplatná adresa príjemcu
+compose-no-recipients = Neuvedení adresáti. Zadajte adresáta do riadku Komu alebo diskusnú skupinu do riadku Diskusná skupina.
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address } nie je platná e‑mailová adresa, pretože nemá správny formát (používateľ@server). Pred odoslaním ju musíte opraviť.
