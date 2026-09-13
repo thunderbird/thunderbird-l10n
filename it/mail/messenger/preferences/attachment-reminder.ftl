@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 attachment-reminder-dialog-title = Parole chiave promemoria allegati
-attachment-reminder-description = Mostra un promemoria per gli allegati mancanti se l’email contiene parole chiave corrispondenti.
+attachment-reminder-description = Mostra un avviso per gli allegati mancanti se l’email contiene parole chiave corrispondenti.
 attachment-reminder-label = { -brand-short-name } avviserà nel caso si stia per inviare una email priva di allegati e che contenga una di queste parole chiave.
 keyword-new-button =
     .label = Nuovo…

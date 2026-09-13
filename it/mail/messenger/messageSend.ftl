@@ -75,7 +75,7 @@ send-undisclosed-recipients = destinatari nascosti
 # Variables:
 # $recipient - recipient address
 smtp-error-illegal-local-part = La sezione locale dell’indirizzo del destinatario { $recipient } contiene caratteri non ASCII e il server in uso non supporta SMTPUTF8. Modifica l’indirizzo e prova di nuovo.
-smtp-error-no-recipients = Non è stato specificato alcun destinatario per il recapito SMTP.
+smtp-error-no-recipients = Non è stato indicato alcun destinatario per l’invio tramite SMTP.
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = Il server in uscita (SMTP) { $hostname } sembra non essere in grado di gestire le password crittate. Se l’account è appena stato impostato, provare a cambiare il “Metodo di autenticazione” in “Impostazioni account | Server posta in uscita (SMTP)” a “Password su connessione non protetta”. Se l’account funzionava in precedenza, è possibile che la password sia stata rubata.
