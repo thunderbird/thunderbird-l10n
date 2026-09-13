@@ -10,10 +10,17 @@ compose-message-attachment-name = Erantsitako mezua
 
 ## Compose window
 
+compose-initialization-error-title = Mezua sortzea
+compose-initialization-error = Errore bat gertatu da mezua prestatzeko leihoa sortzean. Saiatu berriro.
+compose-default-subject = (gairik ez)
 # Variables:
 # $subject - message subject
 # $brand - application name
 compose-window-title = Idatzi: { $subject } - { $brand }
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Gorde mezu hau ({ $folder }) zirriborro karpetan eta itxi idazketa leihoa?
+compose-discard-changes-button = &Baztertu aldaketak
 compose-send-confirm-title = Bidali mezua
 compose-send-confirm-prompt = Ziur zaude mezua bidaltzeko prest zaudela?
 compose-send-confirm-button = Bidali
@@ -46,9 +53,12 @@ compose-quit-saving-prompt =
     Mezua gorde arte itxaron nahi duzu irten aurretik edo orain irten nahi duzu?
 compose-quit-button = &Irten
 compose-wait-button = It&xaron
+compose-attach-file-picker-title = Erantsi fitxategia(k)
 compose-attach-page-title = Adierazi erantsi beharreko helbidea
 compose-attach-page-prompt = Webgunea (URL):
 compose-message-part-attachment-name = Erantsitako mezu-zatia
+compose-attachment-bucket-attach-files-tooltip = Erantsi fitxategia(k)
+compose-attachment-bucket-clear-selection-tooltip = Garbitu hautapena
 # Variables:
 # $filename - name of the file that could not be found
 compose-file-attachment-not-found = { $filename } fitxategia ez dago beraz ezin zaio mezuari erantsi.
