@@ -5,7 +5,11 @@
 
 ## Message sending
 
+send-alert-queued-delivery-failed = 보낼 메시지 발송 중 오류
 send-alert-followup-to-sender = 메시지 작성자가 받는 사람만 회신하도록 설정했습니다. 뉴스 그룹에도 올리기를 원하시면 새로운 항목을 만들어 올릴 뉴스 그룹을 지정하십시오.
+send-unable-to-save-template = 메시지를 보관함에 저장할 수 없음.
+send-unable-to-save-draft = 메시지를 임시 보관함에 저장할 수 없음.
+send-error-failed = 메시지 보내기 실패
 send-unable-to-send-later = 나중에 보내기 위해 메시지를 저장할 수 없습니다.
 # Variables:
 # $hostname - outgoing server hostname
