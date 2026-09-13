@@ -3,6 +3,26 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Compose alerts
+
+compose-message-cancelling = Á Chealú…
+
+## Compose window
+
+
+## Send Format
+
+
+## Addressing widget
+
+
+## Attachment widget
+
+
+## Variables:
+## $count (Number) - Number of files being dropped onto the composer.
+
+
 ## Reorder Attachment Panel
 
 # Variables:
@@ -20,6 +40,12 @@ remove-attachment-cmd =
 default-delete-cmd =
     .label = Scrios
     .accesskey = S
+
+## Encryption
+
+
+## Addressing Area
+
 
 ## Notifications
 
@@ -43,6 +69,12 @@ attachment-reminder-keywords-msg =
         [many] Aimsíodh { $count } lorgfhocal iatáin:
        *[other] Aimsíodh { $count } lorgfhocal iatáin:
     }
+
+## Editing
+
+
+# Tools
+
 
 ## Filelink
 
@@ -75,3 +107,9 @@ big-file-notification-text =
         [many] Is comhaid mhóra iad seo. Ba chóir duit Filelink a úsáid.
        *[other] Is comhaid mhóra iad seo. Ba chóir duit Filelink a úsáid.
     }
+
+## Link Preview
+
+
+## Dictionary selection popup
+
