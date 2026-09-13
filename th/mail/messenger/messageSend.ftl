@@ -27,6 +27,9 @@ send-error-title = ข้อผิดพลาดในการส่งข้�
 send-progress-assembling-mail-information = กำลังรวบรวมข้อมูลจดหมาย…
 send-progress-assembling-message = กำลังรวบรวมจดหมาย…
 send-progress-creating-mail-message = กำลังสร้างข้อความจดหมาย…
+# Variables:
+# $filename - name or URL of the file that could not be attached
+send-error-attaching-file = มีข้อผิดพลาดในการแนบ { $filename } โปรดตรวจสอบว่าคุณสามารถเข้าถึงไฟล์ได้
 send-progress-assembling-message-done = กำลังรวบรวมจดหมาย…เสร็จสิ้น
 send-progress-copy-complete = การคัดลอกเสร็จสมบูรณ์
 send-progress-copy-failed = การคัดลอกล้มเหลว
@@ -52,12 +55,18 @@ send-progress-filter-complete = การกรองเสร็จสมบู
 send-progress-filter-failed = การกรองล้มเหลว
 send-error-filtering-message = ข้อความของคุณถูกส่งและบันทึกแล้ว แต่มีข้อผิดพลาดขณะเรียกใช้ตัวกรองข้อความ
 # Variables:
+# $hostname - outgoing server hostname
+send-error-smtp-security-issue = การกำหนดค่าที่เกี่ยวข้องกับ { $hostname } ต้องได้รับการแก้ไข
+send-error-post-failed = ไม่สามารถโพสต์ข้อความเนื่องจากการเชื่อมต่อกับเซิร์ฟเวอร์ข่าวล้มเหลว เซิร์ฟเวอร์อาจไม่พร้อมใช้งานหรือปฏิเสธการเชื่อมต่อ โปรดยืนยันว่าการตั้งค่าเซิร์ฟเวอร์ข่าวของคุณถูกต้องแล้วลองอีกครั้ง
+# Variables:
 # $size - formatted message size
 send-warning-large-message = คำเตือน! คุณกำลังจะส่งข้อความที่มีขนาด { $size } คุณแน่ใจหรือไม่ว่าต้องการทำเช่นนี้?
 # Variables:
 # $folder - destination folder name
 send-progress-copy-start = กำลังคัดลอกข้อความไปยังโฟลเดอร์ { $folder }…
 send-progress-sending-message = กำลังส่งข้อความ…
+send-error-nntp-ok = ข้อความของคุณถูกโพสต์ไปยังกลุ่มข่าว แต่ยังไม่ได้ส่งไปยังผู้รับอื่น
+send-error-copy-operation = ข้อความถูกส่งเรียบร้อยแล้ว แต่ไม่สามารถคัดลอกไปยังโฟลเดอร์ส่งของคุณ
 send-later-error-title = ข้อผิดพลาดในการส่งภายหลัง
 send-save-draft-error-title = ข้อผิดพลาดในการบันทึกฉบับร่าง
 send-save-template-error-title = ข้อผิดพลาดในการบันทึกแม่แบบ
@@ -86,7 +95,28 @@ smtp-auth-gssapi = เซิร์ฟเวอร์ขาออก (SMTP) { $ho
 smtp-auth-mechanism-not-supported = เซิร์ฟเวอร์ขาออก (SMTP) { $hostname } ไม่รองรับวิธีการรับรองความถูกต้องที่เลือก โปรดเปลี่ยน ‘วิธีการรับรองความถูกต้อง’ ใน ‘การตั้งค่าบัญชี | เซิร์ฟเวอร์ขาออก (SMTP)'
 # Variables:
 # $serverResponse - server response
+smtp-server-error = เกิดข้อผิดพลาดขณะส่งจดหมาย: ข้อผิดพลาดของเซิร์ฟเวอร์ขาออก (SMTP) เซิร์ฟเวอร์ตอบกลับว่า:  { $serverResponse }
+# Variables:
+# $hostname - outgoing server hostname
+smtp-starttls-failed = เกิดข้อผิดพลาดขณะส่งจดหมาย: ไม่สามารถสร้างลิงก์ที่ปลอดภัยกับเซิร์ฟเวอร์ขาออก (SMTP) { $hostname } โดยใช้ STARTTLS เนื่องจากไม่ได้โฆษณาคุณลักษณะนั้น ปิด STARTTLS สำหรับเซิร์ฟเวอร์นั้นหรือติดต่อผู้ให้บริการของคุณ
+# Variables:
+# $serverResponse - server response
 smtp-too-many-recipients = ข้อความนี้ไม่ได้ถูกส่งเนื่องจากมีผู้รับเกินกว่าจำนวนที่อนุญาต เซิร์ฟเวอร์ตอบกลับว่า: { $serverResponse }
 # Variables:
 # $serverResponse - server response
+smtp-error-sending-from-command = เกิดข้อผิดพลาดขณะส่งจดหมาย เซิร์ฟเวอร์จดหมายตอบกลับว่า: { $serverResponse } โปรดยืนยันว่าที่อยู่อีเมลของคุณถูกต้องในการตั้งค่าบัญชีของคุณแล้วลองอีกครั้ง
+# Variables:
+# $serverResponse - server response
 smtp-permanent-size-exceeded = ขนาดของข้อความที่คุณพยายามส่งเกินขีดจำกัดขนาดส่วนกลางของเซิร์ฟเวอร์ ข้อความไม่ถูกส่ง ลดขนาดข้อความและลองอีกครั้ง เซิร์ฟเวอร์ตอบกลับว่า:  { $serverResponse }
+# Variables:
+# $serverResponse - server response; $recipient - intended recipient
+smtp-error-sending-recipient-command =
+    เกิดข้อผิดพลาดขณะส่งจดหมาย เซิร์ฟเวอร์อีเมลตอบกลับว่า:
+    { $serverResponse }
+    โปรดตรวจสอบผู้รับข้อความ "{ $recipient }" แล้วลองอีกครั้ง
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-data-command = เกิดข้อผิดพลาดของเซิร์ฟเวอร์ขาออก (SMTP) ขณะส่งจดหมาย เซิร์ฟเวอร์ตอบกลับว่า:  { $serverResponse }
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-message = เกิดข้อผิดพลาดขณะส่งจดหมาย เซิร์ฟเวอร์อีเมลตอบกลับว่า:  { $serverResponse } โปรดตรวจสอบข้อความแล้วลองอีกครั้ง
