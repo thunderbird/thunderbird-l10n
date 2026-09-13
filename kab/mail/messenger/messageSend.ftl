@@ -27,6 +27,9 @@ send-error-title = Tuccḍa di tuzna n yizen
 send-progress-assembling-mail-information = Asdukel n telɣut n yizen…
 send-progress-assembling-message = Asdukel n yizen…
 send-progress-creating-mail-message = Timerna n yizen n yimayl…
+# Variables:
+# $filename - name or URL of the file that could not be attached
+send-error-attaching-file = Teḍra-d tuccḍa deg useddu n { $filename }. Ma ulac aɣilif wali ma yella ɣur-k azref n unekcum ɣer ufaylu.
 send-progress-assembling-message-done = Asdukel n yizen…Yemmed
 send-progress-copy-complete = Anɣal yemmed.
 send-progress-copy-failed = Anɣal ur yeddi ara.
@@ -52,14 +55,31 @@ send-progress-filter-complete = Azizdeg yemmed.
 send-progress-filter-failed = Azizdeg ur yeddi ara.
 send-error-filtering-message = Izen-inek yettwazen u yettwasekles, acukan teḍra-d tuccḍa deg uselkem n imzizdigen n yizen degs.
 # Variables:
+# $hostname - outgoing server hostname
+send-error-smtp-security-issue = Tawila icudden ɣer { $hostname } yessefk ad yettwaseɣti.
+# Variables:
 # $size - formatted message size
 send-warning-large-message = Ɣur-k! Aqlak tettedduḍ ad tazneḍ izen n teɣzi n { $size }. Tebɣiḍ ad tazneḍ tura?
 # Variables:
 # $folder - destination folder name
 send-progress-copy-start = Anɣal n yeznan ɣer { $folder }…
 send-progress-sending-message = Tuzzna n yizen...
+send-error-nntp-ok = Izen-inek yettwazen ɣer ugraw n isalen acu kan ur yettwazen ara i yiɣerwaḍen nniḍen.
+send-error-copy-operation = Izen yettwazen akken iwata, acu kan ur yettwanɣel ara ɣer ukaram-inek n yeznan yettwaznen.
 send-later-error-title = Tucccḍa di tuzna n ticki
 send-save-draft-error-title = Tuccḍa deg usekles arewway
 send-save-template-error-title = Asekles n tuccḍa n tneɣruft
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = iɣerwaḍen uffiren
+# Variables:
+# $serverResponse - server response
+smtp-server-error = Teḍra-d tuccḍa di tuzzna n yimayl. Tuccḍa n uqeddac uffiɣ (SMTP). Aqeddac yerra-d { $serverResponse }.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-starttls-failed = Teḍra-d tuccda di tuzzna n yimayl. Ur yezmir ara ad yeqqen s wudem aɣelsan akked uqeddac uffiɣ  (SMTP) { $hostname } s uqeqdec n STARTTLS  imi ur d-yemmeslay ara ɣef tmeẓlit-agi. Kkes armad n STARTTLS i uqeddac akken neɣ nermes asaǧǧaw-inek n umeẓlu.
+# Variables:
+# $serverResponse - server response; $recipient - intended recipient
+smtp-error-sending-recipient-command =
+    Teḍra-d tuccḍa di tuzzna n yimaul. Aqeddac n tirawt yerra-d:
+    { $serverResponse }.
+    Ma ulac aɣilif senqed aɣerwaḍ n yizen "{ $recipient }" sakin ɛreḍ tikelt nniḍen.
