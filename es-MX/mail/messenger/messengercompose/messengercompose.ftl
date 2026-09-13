@@ -12,6 +12,18 @@ compose-message-attachment-name = Mensaje adjunto
 
 compose-attachment-reminder-send-button = No, enviar ahora
 compose-attachment-reminder-add-button = ¡Oh, lo hice!
+find-replace-button =
+    .label = Reemplazar…
+    .accesskey = x
+    .tooltiptext = Mostrar la ventana Encontrar y Reemplazar
+compose-blocked-content-options-button = Opciones
+compose-blocked-content-options-accesskey = O
+compose-blocked-content-preferences-button = Preferencias
+compose-blocked-content-preferences-accesskey = P
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Desbloquear { $url }
 
 ## Send Format
 
@@ -77,6 +89,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Expandir lista
     .accesskey = x
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = Eliminar { $field } direcciones
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = ¿Estás seguro que quieres eliminar las { $field } direcciones?
+compose-remove-address-row-button = Eliminar
 
 ## Attachment widget
 
@@ -406,6 +425,34 @@ cloud-file-account-error-title = Error en la cuenta de Filelink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = No se pudo actualizar el archivo adjunto de Filelink { $filename }, porque se ha eliminado tu cuenta de Filelink.
+cloud-file-authentication-error-title = Error de autenticación
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Incapaz de autenticar a { $provider }.
+cloud-file-upload-error-title = Error de carga
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = No se puede cargar { $filename } a { $provider }.
+cloud-file-quota-error-title = Error de cuota
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Subir { $filename } a { $provider } superaría tu cuota de espacio.
+cloud-file-size-error-title = Error de tamaño de archivo
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } excede el tamaño máximo de { $provider }.
+cloud-file-unknown-error-title = Error desconocido
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Ha ocurrido un error mientras se comunicaba con { $provider }.
+cloud-file-deletion-error-title = Error de borrado
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Hubo un problema borrando { $filename } desde { $provider }.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
@@ -434,6 +481,9 @@ big-file-choose-account-prompt = Elegir una cuenta en la nube para subir el adju
 big-file-hide-notification-title = No subir mis archivos
 big-file-hide-notification-prompt = No serás notificado si adjuntas más archivos grandes a este mensaje.
 big-file-hide-notification-checkbox = No volver a notificarme de esto.
+cloudfile-uploading-stop-button =
+    .label = No mostrar esto de nuevo
+    .accesskey = N
 cloud-file-privacy-warning = Enlazado completado. Toma en cuenta que adjuntos enlazados pueden ser accesibles a personas que pueden ver o adivinar los enlaces.
 # Variables:
 # $provider - name of the online storage service
