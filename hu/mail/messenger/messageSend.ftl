@@ -73,6 +73,9 @@ send-save-template-error-title = Hiba a sablon mentésekor
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = undisclosed-recipients
 # Variables:
+# $recipient - recipient address
+smtp-error-illegal-local-part = Nem ASCII karakterek is vannak a címzett { $recipient } címének helyi részében, és a kiszolgálója nem támogatja az SMTPUTF8-at. Módosítsa a címet, és próbálja újra.
+# Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = Úgy tűnik, a levélküldő (SMTP) kiszolgáló ({ $hostname }) nem támogatja a titkosított jelszavakat. Ha most állította be a fiókot, akkor próbálja meg módosítani a „Hitelesítési módszert” a „Postafiók beállításai | Levélküldő kiszolgáló (SMTP)” alatt a „Jelszó, nem biztonságos átvitellel” lehetőségre. Ha ez korábban működött, de már nem, akkor lehet, hogy ellopták a jelszavát.
 # Variables:
@@ -96,6 +99,9 @@ smtp-server-error = Hiba történt a levél küldése közben: Levélküldő kis
 # Variables:
 # $hostname - outgoing server hostname
 smtp-starttls-failed = Hiba történt a levél küldésekor: Nem sikerült kapcsolódni a(z) { $hostname } levélküldő (SMTP) kiszolgálóhoz a STARTTLS használatával, ugyanis az nem hirdeti ezt a funkciót. Kapcsolja ki a STARTTLS-t ehhez a kiszolgálóhoz, vagy forduljon a szolgáltatóhoz.
+# Variables:
+# $serverResponse - server response
+smtp-too-many-recipients = Az üzenet nem lett elküldve, mert túllépte a címzettek engedélyezett számát. A kiszolgáló válasza: { $serverResponse }.
 # Variables:
 # $serverResponse - server response
 smtp-error-sending-from-command = Hiba történt a levél küldése közben. A levelezőkiszolgáló válasza: { $serverResponse }. Ellenőrizze, hogy az Ön e-mail címe helyesen van-e megadva a fiók beállításaiban, majd próbálja újra.
