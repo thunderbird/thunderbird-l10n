@@ -48,6 +48,9 @@ send-save-template-error-title = Greška spremanja predloška
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = nepoznati-primatelji
 # Variables:
+# $recipient - recipient address
+smtp-error-illegal-local-part = Postoje ne-ASCII znakovi u lokalnom dijelu primateljeve adrese { $recipient }, a vaš poslužitelj ne podržava SMTPUTF8. Promjenite adresu i pokušajte ponovno.
+# Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = Poslužitelj odlazne pošte (SMTP) { $hostname } ne podržava kriptirane lozinke. Ako ste tek napravili ovaj račun, pokušajte promijeniti metodu provjere autentičnosti u ‘Postavke računa | Odlazni poslužitelj (SMTP)’ u ‘Lozinka, nesiguran prijenos’. Ako je prije radilo, a sada više ne radi, možda ste podložni krađi vaše lozinke.
 # Variables:
@@ -67,7 +70,13 @@ smtp-auth-gssapi = Poslužitelj odlazne pošte (SMTP) { $hostname } nije prihvat
 smtp-auth-mechanism-not-supported = Poslužitelj odlazne pošte (SMTP) { $hostname } ne podržava odabranu metodu provjere autentičnosti. Promijenite ‘Metoda provjere autentičnosti’ u ‘Postavke računa | Poslužitelj odlazne pošte (SMTP)’.
 # Variables:
 # $serverResponse - server response
+smtp-too-many-recipients = Poruka nije poslana zbog prekoračenja dopuštenog broja primatelja. Poslužitelj je odgovorio: { $serverResponse }.
+# Variables:
+# $serverResponse - server response
 smtp-error-sending-from-command = Greška prilikom slanja poruke. Poslužitelj e-pošte je odgovorio: { $serverResponse }. Provjerite je li vaša adresa e-pošte ispravno upisana u postavkama računa, te pokušajte ponovno.
+# Variables:
+# $serverResponse - server response
+smtp-permanent-size-exceeded = Veličina poruke koju pokušavate poslati prelazi globalno ograničenje veličine poslužitelja. Poruka nije poslana; smanjite veličinu poruke i pokušajte ponovno. Server je odgovorio:  { $serverResponse }.
 # Variables:
 # $serverResponse - server response
 smtp-error-sending-data-command = Došlo je do greške na poslužitelju odlazne pošte (SMTP) prilikom slanja poruke. Poslužitelj je odgovorio:  { $serverResponse }.
