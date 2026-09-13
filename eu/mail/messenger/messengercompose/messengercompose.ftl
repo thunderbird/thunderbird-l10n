@@ -5,6 +5,7 @@
 
 ## Compose alerts
 
+compose-message-cancelling = Bertan behera uzten…
 compose-message-attachment-name = Erantsitako mezua
 
 ## Compose window
