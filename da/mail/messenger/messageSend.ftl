@@ -98,6 +98,9 @@ smtp-server-error = Der opstod en fejl under afsendelsen. SMTP-serverfejl. Serve
 smtp-starttls-failed = Der opstod en fejl ved afsendelse af meddelelsen: Kunne ikke etablere en sikker forbindelse med SMTP-serveren { $hostname } ved brug af STARTTLS, da den ikke fortæller, at den understøtter denne funktionalitet. Slå STARTTLS fra til denne server eller kontakt din mailudbyder.
 # Variables:
 # $serverResponse - server response
+smtp-too-many-recipients = Meddelelsen blev ikke sendt, fordi antallet af modtagere overskrider det maksimalt tilladte. Svar fra server: { $serverResponse }.
+# Variables:
+# $serverResponse - server response
 smtp-permanent-size-exceeded = Størrelsen på den meddelelse, du er ved at sende, overstiger den generelle størrelsesgrænse på serveren. Meddelelsen blev ikke sendt; prøv at gøre meddelelsen mindre og prøv igen. Serveren svarede:  { $serverResponse }.
 # Variables:
 # $serverResponse - server response; $recipient - intended recipient
