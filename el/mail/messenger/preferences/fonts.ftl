@@ -12,6 +12,9 @@ fonts-label-default-unnamed =
 fonts-character-set-legend =
     .value = Σύνολο χαρακτήρων:
     .accesskey = τ
+font-main-style-label =
+    .value = Βασικό στυλ γραμματοσειράς:
+    .accesskey = Β
 fonts-language-legend =
     .value = Γραμματοσειρές για:
     .accesskey = τ
@@ -122,6 +125,12 @@ use-fixed-width-plain-checkbox =
     .label = Χρήση γραμματοσειράς σταθερού πλάτους για μηνύματα απλού κειμένου
     .accesskey = ρ
 message-font-permissions-legend = Δικαιώματα γραμματοσειράς μηνυμάτων
+allow-incoming-fonts-checkbox =
+    .label = Να επιτρέπεται στα εισερχόμενα μηνύματα να χρησιμοποιούν τις δικές τους γραμματοσειρές
+    .accesskey = ο
+display-fixed-width-plain-checkbox =
+    .label = Προβολή των μηνυμάτων απλού κειμένου με γραμματοσειρά σταθερού πλάτους
+    .accesskey = θ
 
 ## Language settings
 

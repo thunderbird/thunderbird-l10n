@@ -36,6 +36,7 @@ general-email-notifications-header = Ειδοποιήσεις email
 general-language-and-appearance-header = Γλώσσα και εμφάνιση
 general-incoming-mail-header = Εισερχόμενα email
 general-files-and-attachment-header = Αρχεία και συνημμένα
+general-files-and-attachment-description = Επιλέξτε ποια αρχεία θα αποθηκεύονται και σε ποια τοποθεσία στον υπολογιστή σας.
 general-tags-header = Ετικέτες
 general-reading-and-viewing-header = Ανάγνωση και προβολή
 general-reading-and-display-header = Ανάγνωση και προβολή
@@ -161,6 +162,7 @@ close-to-tray-label =
 start-in-tray-label =
     .label = Εκκίνηση του { -brand-short-name } στην περιοχή εικονιδίων συστήματος
     .accesskey = σ
+new-message-arrival-legend = Κατά τη λήψη ενός νέου μηνύματος:
 minimize-to-tray-label =
     .label = Μετακίνηση του { -brand-short-name } στην περιοχή ειδοποιήσεων όταν ελαχιστοποιείται
     .accesskey = κ
@@ -175,6 +177,7 @@ mail-play-sound-label =
 mail-play-button =
     .label = Αναπαραγωγή
     .accesskey = π
+change-dock-icon-description = Σήματα και ειδοποιήσεις εφαρμογής
 change-dock-icon = Αλλαγή προτιμήσεων για το εικονίδιο της εφαρμογής
 app-icon-options =
     .label = Επιλογές εικονιδίου εφαρμογής…
@@ -370,6 +373,9 @@ clear-cache-button =
 clear-cache-shutdown-label =
     .label = Απαλοιφή προσωρινής μνήμης κατά τον τερματισμό
     .accesskey = λ
+underline-text-links-label =
+    .label = Υπογράμμιση συνδέσμων κειμένου στα μηνύματα
+    .accesskey = κ
 always-underline-links =
     .label = Να γίνεται πάντα υπογράμμιση των συνδέσμων
     .accesskey = γ
@@ -395,6 +401,7 @@ display-width-legend = Μηνύματα απλού κειμένου
 convert-emoticons-label =
     .label = Προβολή των emoticon ως γραφικών στοιχείων
     .accesskey = φ
+display-text-formatting-label = Μορφοποίηση παρατιθέμενου κειμένου
 display-text-label = Κατά την προβολή μηνυμάτων απλού κειμένου σε παράθεση:
 style-label =
     .value = Στυλ:
@@ -419,6 +426,8 @@ smaller-size-item =
 quoted-text-color =
     .label = Χρώμα:
     .accesskey = Χ
+search-content-types =
+    .placeholder = Αναζήτηση τύπων περιεχομένου
 search-handler-table =
     .placeholder = Φιλτράρισμα τύπων περιεχομένου και ενεργειών
 type-column-header = Τύπος περιεχομένου
@@ -438,8 +447,9 @@ choose-folder-label =
            *[other] γ
         }
 always-ask-label =
-    .label = Να γίνεται πάντα ερώτηση για την τοποθεσία αποθήκευσης αρχείων
+    .label = Να γίνεται πάντα ερώτηση για την τοποθεσία αποθήκευσης των αρχείων
     .accesskey = Ν
+use-tags-text = Χρησιμοποιήστε ετικέτες για να κατηγοριοποιείτε και να ιεραρχείτε τα μηνύματα.
 display-tags-text = Οι ετικέτες μπορούν να χρησιμοποιηθούν για την ταξινόμηση και τον καθορισμό προτεραιότητας των μηνυμάτων σας.
 new-tag-button =
     .label = Νέα…
@@ -451,8 +461,14 @@ delete-tag-button =
     .label = Διαγραφή
     .accesskey = φ
 auto-mark-as-read =
-    .label = Αυτόματη επισήμανση μηνυμάτων ως αναγνωσμένων
+    .label = Αυτόματη επισήμανση των μηνυμάτων ως αναγνωσμένων
     .accesskey = Α
+mark-read-when-opened =
+    .label = Αμέσως μετά το άνοιγμα
+    .accesskey = ο
+show-attachments-inline-label =
+    .label = Εμφάνιση συνημμένων στο σώμα των μηνυμάτων
+    .accesskey = μ
 mark-read-no-delay =
     .label = Άμεσα κατά την προβολή
     .accesskey = μ
@@ -467,6 +483,13 @@ mark-read-delay =
     .label = Μετά από προβολή για
     .accesskey = γ
 seconds-label = δευτερόλεπτα
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
+mark-read-after-viewing =
+    .label = Μετά από προβολή για
+    .accesskey = τ
 
 ##
 
