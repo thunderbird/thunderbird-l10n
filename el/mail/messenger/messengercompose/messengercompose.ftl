@@ -17,6 +17,7 @@ compose-default-subject = (χωρίς θέμα)
 # $subject - message subject
 # $brand - application name
 compose-window-title = Σύνταξη: { $subject } - { $brand }
+compose-save-message-title = Αποθήκευση μηνύματος
 # Variables:
 # $folder - configured drafts folder name
 compose-save-message-prompt = Αποθήκευση μηνύματος στον φάκελο προσχεδίων σας ({ $folder }) και κλείσιμο παραθύρου σύνταξης;
@@ -33,6 +34,10 @@ compose-attachment-reminder-send-button = Όχι, να γίνει αποστολ
 compose-attachment-reminder-add-button = Ωχ, ναι. Το ξέχασα!
 compose-newsgroups-not-supported-title = Μη υποστηριζόμενες ομάδες συζητήσεων
 compose-newsgroups-not-supported = Αυτός ο λογαριασμός υποστηρίζει μόνο παραλήπτες email. Αν συνεχίσετε θα αγνοηθούν οι ομάδες συζήτησης.
+compose-invalid-address-title = Μη έγκυρη διεύθυνση παραλήπτη
+# Variables:
+# $address - invalid email address
+compose-invalid-address = Το { $address } δεν είναι έγκυρη διεύθυνση email, επειδή δεν είναι της μορφής user@host. Πρέπει να το διορθώσετε πριν στείλετε το email.
 compose-quit-sending-title = Αποστολή μηνύματος
 compose-quit-saving-title = Αποθήκευση μηνύματος
 # Variables:
@@ -149,6 +154,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Ανάπτυξη λίστας
     .accesskey = ν
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = Αφαίρεση { $field } διευθύνσεων
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Θέλετε σίγουρα να αφαιρέσετε τις διευθύνσεις «{ $field }»;
+compose-remove-address-row-button = Αφαίρεση
 
 ## Attachment widget
 
@@ -502,6 +514,7 @@ cloud-file-account-error-title = Σφάλμα λογαριασμού FileLink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Αποτυχία ενημέρωσης του συνημμένου «{ $filename }» στο FileLink, επειδή ο λογαριασμός FileLink του έχει διαγραφεί.
+cloud-file-authentication-error-title = Σφάλμα ταυτοποίησης
 # Variables:
 # $provider - name of the online storage service
 cloud-file-authentication-error = Δεν ήταν δυνατή η ταυτοποίηση στο { $provider }.
