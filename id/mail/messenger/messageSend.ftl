@@ -11,6 +11,9 @@ send-error-failed = Gagal mengirim pesan.
 send-unable-to-send-later = Maaf, kami tidak dapat menyimpan pesan untuk dikirim nanti.
 # Variables:
 # $hostname - outgoing server hostname
+send-error-smtp-unknown-server = Terjadi kesalahan saat mengirim email: Server keluar (SMTP) { $hostname } tidak diketahui. Server mungkin tidak dikonfigurasi dengan benar. Harap verifikasi bahwa pengaturan Server Keluar (SMTP) Anda sudah benar dan coba lagi.
+# Variables:
+# $hostname - outgoing server hostname
 send-error-smtp-request-refused = Pesan tidak dapat dikirimkan karena kegagalan sambungan { $hostname } ke server pengirim (SMTP). Server mungkin sedang tidak dapat diakses atau menolak sambungan. Periksa kembali kebenaran pengaturan server pengirim Anda dan coba lagi.
 # Variables:
 # $hostname - outgoing server hostname
