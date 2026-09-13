@@ -17,6 +17,7 @@ compose-default-subject = (majun taqikil)
 # $subject - message subject
 # $brand - application name
 compose-window-title = Tz'ib'anïk: { $subject } - { $brand }
+compose-save-message-title = Tiyak Tzijol
 # Variables:
 # $folder - configured drafts folder name
 compose-save-message-prompt = ¿La nawajo' nayäk re rutzijol re' pa ri kiyakwuj nab'ey taq samaj ({ $folder }) chuqa' natz'apij ri rutzuwäch Tz'ib'anïk?
