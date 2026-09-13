@@ -50,5 +50,14 @@ send-progress-filter-complete = El filtre s'ha completat.
 send-progress-filter-failed = Ha fallat el filtre.
 send-error-filtering-message = S'ha enviat i desat el missatge, però s'ha produït un error mentre s'hi executaven els filtres.
 # Variables:
+# $size - formatted message size
+send-warning-large-message = Avís! Esteu a punt d'enviar un missatge d'una mida de { $size }. Esteu segur que voleu continuar?
+# Variables:
 # $folder - destination folder name
 send-progress-copy-start = S'està copiant el missatge a la carpeta { $folder }…
+send-progress-sending-message = S'està enviant el missatge…
+send-later-error-title = Error d'enviament diferit
+send-save-draft-error-title = Error de desament d'esborrany
+send-save-template-error-title = Error de desament de plantilla
+# LOCALIZATION NOTE: This string must use only US-ASCII characters.
+send-undisclosed-recipients = destinataris-ocults
