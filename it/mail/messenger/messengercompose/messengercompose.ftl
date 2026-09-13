@@ -515,6 +515,7 @@ cloud-file-account-error-title = Errore con l’account Filelink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Non è stato possibile aggiornare l’allegato Filelink { $filename } in quanto il relativo account Filelink è stato eliminato.
+cloud-file-authentication-error-title = Errore di autenticazione
 # Variables:
 # $provider - name of the online storage service
 cloud-file-authentication-error = Impossibile autenticarsi su { $provider }.
