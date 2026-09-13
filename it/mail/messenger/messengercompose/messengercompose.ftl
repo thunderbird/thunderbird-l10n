@@ -17,6 +17,7 @@ compose-default-subject = (nessun oggetto)
 # $subject - message subject
 # $brand - application name
 compose-window-title = Scrivi: { $subject } - { $brand }
+compose-save-message-title = Salvataggio messaggio
 # Variables:
 # $folder - configured drafts folder name
 compose-save-message-prompt = Salvare il messaggio nella cartella bozze ({ $folder }) e chiudere la finestra di scrittura?
