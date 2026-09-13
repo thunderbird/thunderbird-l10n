@@ -25,6 +25,9 @@ send-error-title = שגיאה בשליחת הודעה
 send-progress-assembling-mail-information = פרטי הדוא״ל נאספים…
 send-progress-assembling-message = ההודעה נאספת…
 send-progress-creating-mail-message = נוצרת הודעת דוא״ל…
+# Variables:
+# $filename - name or URL of the file that could not be attached
+send-error-attaching-file = אירעה שגיאה בעת צירוף { $filename }. נא לבדוק שיש לך גישה לקובץ.
 send-progress-assembling-message-done = ההודעה נאספת…הסתיים
 send-progress-copy-complete = ההעתקה הושלמה.
 send-progress-copy-failed = ההעתקה נכשלה.
@@ -39,6 +42,31 @@ send-warning-large-message = אזהרה! ההודעה המועמדת לשליח�
 # $folder - destination folder name
 send-progress-copy-start = ההודעה מועתקת לתיקייה { $folder }…
 send-progress-sending-message = הודעה נשלחת…
+send-error-copy-operation = ההודעה נשלחה בהצלחה אך לא ניתן היה להעתיק אותה לתיקיית הפריטים שנשלחו.
 send-later-error-title = שגיאת שליחה מאוחרת
 send-save-draft-error-title = שגיאת שמירת טיוטה
 send-save-template-error-title = שגיאת שמירת תבנית
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-ssl = נראה כי השרת היוצא (SMTP) { $hostname } לא תומך בססמאות מוצפנות. אם הרגע הגדרת את החשבון, כדאי לשנות את ’שיטת האימות’ תחת ’הגדרות החשבון | שרת יוצא (SMTP)’ ל’ססמה רגילה’.
+# Variables:
+# $serverResponse - server response
+smtp-server-error = אירעה שגיאה בעת שליחת דוא״ל: שגיאה בשרת היוצא (SMTP). תגובת השרת היא: { $serverResponse }.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-from-command = אירעה שגיאה בעת שליחת דוא״ל. תגובת שרת הדוא״ל היא: { $serverResponse }. נא לוודא שכתובת הדוא״ל בהגדרות החשבון שלך נכונה ולנסות שוב.
+# Variables:
+# $serverResponse - server response
+smtp-permanent-size-exceeded = גודל ההודעה המועמדת לשליחה חורג ממגבלת הגודל הגלובלית של השרת. ההודעה לא נשלחה, מוטב לנסות לצמצם את גודל ההודעה ולנסות שוב. תגובת השרת היא: { $serverResponse }.
+# Variables:
+# $serverResponse - server response; $recipient - intended recipient
+smtp-error-sending-recipient-command =
+    אירעה שגיאה בעת שליחת דוא״ל. תגובת השרת היא:
+    { $serverResponse }.
+    נא לבדוק את כתובת נמען ההודעה ״{ $recipient }” ולנסות שוב.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-data-command = אירעה שגיאה מול שרת הדוא״ל היוצא (SMTP) במהלך שליחת דוא״ל. תגובת השרת היא: { $serverResponse }.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-message = אירעה שגיאה בעת שליחת דוא״ל. תגובת שרת הדוא״ל היא: { $serverResponse }. נא לבדוק את ההודעה ולנסות שוב.
