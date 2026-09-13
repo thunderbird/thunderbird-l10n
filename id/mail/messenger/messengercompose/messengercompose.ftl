@@ -10,6 +10,38 @@ compose-message-attachment-name = Pesan Terlampir
 
 ## Compose window
 
+compose-initialization-error-title = Penyunting Pesan
+compose-initialization-error = Kesalahan terjadi saat membuat jendela pembuat pesan. Silakan coba lagi.
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Tulis: { $subject } - { $brand }
+compose-empty-subject-title = Pengingat Isian Judul
+compose-empty-subject-prompt = Pesan Anda tidak memiliki judul
+compose-empty-subject-send-button = &Kirim Tanpa Judul
+compose-empty-subject-cancel-button = &Batal Kirim
+compose-newsgroups-not-supported-title = Newsgroups Tidak Didukung Supported
+compose-newsgroups-not-supported = Akun ini hanya mendukung penerima jenis email. Jika dilanjutkan maka penerima jenis newsgroup akan diabaikan.
+compose-invalid-address-title = Alamat Penerima Tidak Sah
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } bukan alamat email yang sah karena tidak dalam format user@host. Anda harus mengoreksi alamat tersebut sebelum mengirim email.
+compose-attach-page-title = Tentukan lokasi untuk dilampirkan
+compose-attach-page-prompt = Laman Web (URL):
+compose-message-part-attachment-name = Bagian Pesan Terlampir
+compose-attachment-bucket-attach-files-tooltip = Lampirkan Berkas
+compose-attachment-bucket-clear-selection-tooltip = Hapus Pilihan
+compose-file-attachment-error-title = Lampiran Berkas
+find-replace-button =
+    .label = Ganti…
+    .accesskey = x
+    .tooltiptext = Tampilkan dialog Temukan dan Ganti
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Masukkan alamat Dari sesuai pesanan untuk digunakan, alih-alih { $identity }
+compose-custom-from-address-title = Menyesuaikan Alamat Dari
+compose-custom-from-address-warning = Jika penyedia email Anda mendukungnya, Penyesuaian Alamat Dari memungkinkan Anda membuat perubahan kecil satu kali ke alamat Dari Anda tanpa harus membuat identitas baru di Pengaturan Akun. Misalnya, jika alamat Dari Anda adalah John Doe <john@example.com> Anda mungkin ingin mengubahnya menjadi John Doe <john+doe@example.com> atau John <john@example.com>.
+compose-custom-from-address-ignore = Jangan peringatkan saya lagi
 
 ## Send Format
 
@@ -388,12 +420,46 @@ cloud-file-account-error-title = Kesalahan Akun Filelink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Gagal memperbarui lampiran Filelink { $filename }, karena akun Filelink-nya telah dihapus.
+cloud-file-authentication-error-title = Galat Otentikasi
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Gagal mengotentikasi pada { $provider }.
+cloud-file-upload-error-title = Galat Pengunggahan
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Gagal menunggah { $filename } ke { $provider }.
+cloud-file-quota-error-title = Galat Kuota
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Pengunggahan { $filename } ke { $provider } akan melampaui kuota ruang Anda.
+cloud-file-size-error-title = Galat Ukuran Berkas
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } melampaui batas ukuran maksimum pada { $provider }.
+cloud-file-unknown-error-title = Galat Tak Dikenal
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Galat tak dikenal terjadi saat berhubungan dengan { $provider }.
+cloud-file-deletion-error-title = Galat Penghapusan
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Ada masalah saat menghapus { $filename } dari { $provider }.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification = File Anda sedang ditautkan. Ini akan muncul di badan pesan ketika selesai.
 # Variables:
 #   $count - the number big attached files
 big-file-notification-text = Berkas ini berukuran besar. Mungkin lebih baik menggunakan Filelink.
+cloudfile-uploading-stop-button =
+    .label = Jangan tampilkan lagi
+    .accesskey = N
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Lampirkan Berkas lewat { $provider }
 
 ## Link Preview
 
