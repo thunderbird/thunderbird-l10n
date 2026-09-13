@@ -7,6 +7,8 @@
 
 send-alert-queued-delivery-failed = Villa kom upp við að senda ósendan póst.
 send-alert-followup-to-sender = Höfundur póstsins hefur beðið um að svar sé aðeins sent til höfundar. Ef þú vilt einnig svara á fréttahópinn, bættu þá við nýrri línu í póstfangasvæðið, veldu Fréttahóp úr viðtakendalistanum, og settu inn nafnið á fréttahópnum.
+send-unable-to-save-template = Gat ekki vistað póst sem sniðmát.
+send-unable-to-save-draft = Gat ekki vistað póst sem drög.
 send-error-failed = Sending á pósti mistókst.
 send-unable-to-send-later = Því miður, gátum við ekki vistað póstinn til að senda seinna.
 # Variables:
