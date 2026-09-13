@@ -27,6 +27,9 @@ send-error-title = Chyba při odesílání zprávy
 send-progress-assembling-mail-information = Sestavení informací pro poštu…
 send-progress-assembling-message = Sestavení zprávy…
 send-progress-creating-mail-message = Vytváření poštovní zprávy…
+# Variables:
+# $filename - name or URL of the file that could not be attached
+send-error-attaching-file = Při připojování souboru { $filename } nastala chyba. Zkontrolujte, zda máte k souboru přístup.
 send-progress-assembling-message-done = Sestavení zprávy dokončeno
 send-progress-copy-complete = Kopírování dokončeno.
 send-progress-copy-failed = Kopírování selhalo.
@@ -62,6 +65,8 @@ send-warning-large-message = Varování! Chystáte se odeslat zprávu o velikost
 # $folder - destination folder name
 send-progress-copy-start = Kopírování zprávy do složky { $folder }…
 send-progress-sending-message = Odesílání zprávy…
+send-error-nntp-ok = Vaše zpráva byla odeslána na diskusní server, ale zatím nebyla odeslána dalším příjemcům.
+send-error-copy-operation = Zpráva byla úspěšně odeslána, ale nemohla být zkopírována do složky Odeslaná pošta.
 send-later-error-title = Chyba při pozdějším odesílání
 send-save-draft-error-title = Chyba při ukládání konceptu
 send-save-template-error-title = Chyba při ukládání šablony
@@ -92,6 +97,9 @@ smtp-auth-mechanism-not-supported = SMTP server { $hostname } nepodporuje zvolen
 # $serverResponse - server response
 smtp-server-error = Při odesílání zprávy nastala chyba: Chyba SMTP serveru. Server odpověděl: { $serverResponse }.
 # Variables:
+# $hostname - outgoing server hostname
+smtp-starttls-failed = Při odesílání zprávy nastala chyba: Nelze se bezpečně připojit k SMTP serveru { $hostname } pomocí STARTTLS, protože server tuto možnost nepodporuje. Zrušte u tohoto serveru použití STARTTLS, či kontaktujte svého poskytovatele služeb.
+# Variables:
 # $serverResponse - server response
 smtp-too-many-recipients = Zpráva nebyla odeslána, protože překročila povolený počet příjemců. Server odpověděl: { $serverResponse }.
 # Variables:
@@ -100,6 +108,12 @@ smtp-error-sending-from-command = Při odesílání zprávy nastala chyba. Serve
 # Variables:
 # $serverResponse - server response
 smtp-permanent-size-exceeded = Velikost odesílané zprávy překročila na serveru nastavený globální velikostní limit. Zpráva nebyla odeslána. Pokuste se zmenšit velikost zprávy a zkuste to znovu. Server odpověděl:  { $serverResponse }.
+# Variables:
+# $serverResponse - server response; $recipient - intended recipient
+smtp-error-sending-recipient-command =
+    Při odesílání zprávy nastala chyba. Poštovní server odpověděl:
+    { $serverResponse }.
+    Zkontrolujte prosím příjemce zprávy „{ $recipient }“ a zkuste to znovu.
 # Variables:
 # $serverResponse - server response
 smtp-error-sending-data-command = Při odesílání zprávy nastala (SMTP) chyba. Server odpověděl:  { $serverResponse }.
