@@ -50,5 +50,29 @@ send-save-template-error-title = salva il modello di errore
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = destinatari nascosti
 # Variables:
+# $recipient - recipient address
+smtp-error-illegal-local-part = La sezione locale dell’indirizzo del destinatario { $recipient } contiene caratteri non ASCII e il server in uso non supporta SMTPUTF8. Modifica l’indirizzo e prova di nuovo.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-no-ssl = Il server in uscita (SMTP) { $hostname } sembra non essere in grado di gestire le password crittate. Se l’account è appena stato impostato, provare a cambiare il “Metodo di autenticazione” in “Impostazioni account | Server posta in uscita (SMTP)” a “Password su connessione non protetta”. Se l’account funzionava in precedenza, è possibile che la password sia stata rubata.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-ssl = Il server in uscita (SMTP) { $hostname } sembra non essere in grado di gestire le password crittate. Se l’account è appena stato impostato, provare a cambiare il “Metodo di autenticazione” in “Impostazioni account | Server posta in uscita (SMTP)” con “Password normale”.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-plain-to-encrypt = Il server in uscita (SMTP) { $hostname } non gestisce le password in testo semplice. Provare a cambiare il “Metodo di autenticazione” in “Impostazioni account | Server posta in uscita (SMTP)” con “Password crittata”.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-failure = Autenticazione non riuscita col server di posta in uscita (SMTP) { $hostname }. Controllare la password e verificare il “Metodo di autenticazione” in “Impostazioni account | Server posta in uscita (SMTP)”.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-gssapi = Le credenziali Kerberos/GSSAP non sono state accettate dal server di posta in uscita (SMTP) { $hostname }. Controllare di essere autenticati nel dominio Kerberos/GSSAP.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-mechanism-not-supported = Il server in uscita (SMTP) { $hostname } non supporta il metodo di autenticazione selezionato. Cambiare il “Metodo di autenticazione” in “Impostazioni account | Server in uscita (SMTP)”.
+# Variables:
 # $serverResponse - server response
 smtp-server-error = Si è verificato un errore durante l’invio della posta: errore nel server posta in uscita (SMTP). Il server ha risposto: { $serverResponse }.
+# Variables:
+# $serverResponse - server response
+smtp-permanent-size-exceeded = La dimensione del messaggio che si sta tentando di inviare supera il limite globale del server. Il messaggio non è stato inviato; ridurre la dimensione del messaggio e riprovare. Il server ha risposto: { $serverResponse }.
