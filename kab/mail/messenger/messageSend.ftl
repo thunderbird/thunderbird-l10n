@@ -5,7 +5,11 @@
 
 ## Message sending
 
+send-alert-queued-delivery-failed = Teḍra-d tuccḍa deg uceggeɛ n yeznan ur nettwazen ara
 send-alert-followup-to-sender = Ameskar n yizen-agi yessuter d akken tiririt ad tettwazen kan i umeskar. Ma yella daɣen tebɣiḍ ad terreḍ i ugraw n isalen, rnu izirig amaynut ɣer temnaṭ n tensa, fren agraw ni isalen si tebdart n iɣerwaḍen, sakin sekcem isem n ugraw n isalen.
+send-unable-to-save-template = Ur yezmir ara ad yessekles izen-inek am tneɣruft.
+send-unable-to-save-draft = Ur yezmir ara ad yessekles izen-inek am urewway.
+send-error-failed = Tuzzna n yizen ur teddi ara.
 send-unable-to-send-later = Suref-iyi, ur nezmir ara ad nesekles izen inek i tuzzna tikelt nniḍen.
 # Variables:
 # $hostname - outgoing server hostname

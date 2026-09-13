@@ -6,6 +6,7 @@
 ## Compose alerts
 
 compose-message-cancelling = Asefsex...
+compose-message-attachment-name = Izen yeddan
 
 ## Compose window
 
