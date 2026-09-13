@@ -37,6 +37,7 @@ compose-attachment-reminder-add-button = A bai, egia!
 compose-newsgroups-not-supported-title = Berri-taldeak ez dira onartzen
 compose-newsgroups-not-supported = Kontu honek posta-hartzaileak bakarrik onartzen ditu. Jarraituz gero berri-taldeak ezikusiko dira.
 compose-invalid-address-title = Hartzailearen helbide baliogabea
+compose-no-recipients = Ez da hartzailerik zehaztu. Sartu hartzaile bat edo berri-talde bat helbideratze-eremuan.
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address } ez da baliozko helbide elektronikoa, ez baita erabiltzailea@ostalaria gisakoa. E-posta bidali aurretik zuzendu behar duzu.
