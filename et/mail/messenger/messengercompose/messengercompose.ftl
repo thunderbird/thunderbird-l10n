@@ -10,6 +10,8 @@ compose-message-attachment-name = Lisatud kiri
 
 ## Compose window
 
+compose-initialization-error-title = Kirja koostamine
+compose-initialization-error = Kirja koostamise akna loomine ebaõnnestus. Palun proovi uuesti.
 compose-default-subject = (teema puudub)
 # Variables:
 # $subject - message subject
@@ -34,6 +36,11 @@ compose-attachment-reminder-send-button = Ei, saada kiri
 compose-attachment-reminder-add-button = Jah, unustasin!
 compose-newsgroups-not-supported-title = Uudisgrupid pole toetatud
 compose-newsgroups-not-supported = See konto toetab ainult e-postiga adressaate. Jätkamine ignoreerib uudistegruppe.
+compose-invalid-address-title = Vigane saaja aadress
+compose-no-recipients = Adressaate pole määratud. Palun sisesta adressaadi väljale kirja saaja aadress.
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } ei ole korrektne e-posti aadress, sest see pole kujul kasutaja@masin. Sa pead seda parandama, enne kui saadad kirja.
 compose-quit-sending-title = Kirja saatmine
 compose-quit-saving-title = Kirja salvestamine
 # Variables:
@@ -49,6 +56,11 @@ compose-quit-saving-prompt =
 compose-quit-button = &Välju
 compose-wait-button = &Oota
 compose-attach-file-picker-title = Manus(t)e lisamine
+compose-attach-page-title = Manuse asukoha määramine
+compose-attach-page-prompt = Veebileht (URL):
+compose-message-part-attachment-name = Lisatud kirja osa
+compose-attachment-bucket-attach-files-tooltip = Lisa manus(eid)
+compose-attachment-bucket-clear-selection-tooltip = Tühista valik
 # Variables:
 # $filename - name of the file that could not be found
 compose-file-attachment-not-found = Faili { $filename } pole olemas, seega polnud selle kirjale lisamine võimalik.
