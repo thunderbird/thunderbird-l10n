@@ -5,6 +5,7 @@
 
 ## Compose alerts
 
+compose-message-cancelling = Триває скасування…
 compose-message-attachment-name = Вкладене повідомлення
 
 ## Compose window
