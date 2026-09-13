@@ -30,11 +30,14 @@ compose-empty-subject-title = Υπενθύμιση θέματος
 compose-empty-subject-prompt = Το μήνυμά σας δεν έχει θέμα.
 compose-empty-subject-send-button = &Αποστολή χωρίς θέμα
 compose-empty-subject-cancel-button = Α&κύρωση αποστολής
+compose-attachment-reminder-title = Υπενθύμιση συνημμένου
+compose-attachment-reminder-prompt = Μήπως ξεχάσατε να προσθέσετε συνημμένο αρχείο;
 compose-attachment-reminder-send-button = Όχι, να γίνει αποστολή
 compose-attachment-reminder-add-button = Ωχ, ναι. Το ξέχασα!
 compose-newsgroups-not-supported-title = Μη υποστηριζόμενες ομάδες συζητήσεων
 compose-newsgroups-not-supported = Αυτός ο λογαριασμός υποστηρίζει μόνο παραλήπτες email. Αν συνεχίσετε θα αγνοηθούν οι ομάδες συζήτησης.
 compose-invalid-address-title = Μη έγκυρη διεύθυνση παραλήπτη
+compose-no-recipients = Δεν ορίστηκαν παραλήπτες. Ορίστε έναν παραλήπτη σε ένα πεδίο 'Προς:' ή μια ομάδα συζήτησης σε ένα πεδίο 'Ομάδα:'.
 # Variables:
 # $address - invalid email address
 compose-invalid-address = Το { $address } δεν είναι έγκυρη διεύθυνση email, επειδή δεν είναι της μορφής user@host. Πρέπει να το διορθώσετε πριν στείλετε το email.
@@ -53,6 +56,9 @@ compose-quit-saving-prompt =
 compose-quit-button = &Τερματισμός
 compose-wait-button = &Αναμονή
 compose-attach-file-picker-title = Επισύναψη αρχείων
+compose-attach-page-title = Καθορίστε μια διεύθυνση για επισύναψη
+compose-attach-page-prompt = Ιστοσελίδα (URL):
+compose-message-part-attachment-name = Συνημμένο μέρος μηνύματος
 compose-attachment-bucket-attach-files-tooltip = Επισύναψη αρχείων
 compose-attachment-bucket-clear-selection-tooltip = Ακύρωση Επιλογής
 # Variables:
@@ -71,6 +77,13 @@ compose-save-success-title = Αποθήκευση μηνύματος
 # $folder - folder in which the message was saved
 # $server - server on which the folder is located
 compose-save-success-message = Το μήνυμά σας έχει αποθηκευτεί στον φάκελο «{ $folder }» στο { $server }.
+compose-rename-attachment-title = Μετονομασία συνημμένου
+compose-rename-attachment-prompt = Νέο όνομα συνημμένου:
+remind-later-button =
+    .label = Υπενθύμιση αργότερα
+    .accesskey = θ
+disable-attachment-reminder-menu-item =
+    .label = Να απενεργοποιηθεί η υπενθύμιση συνημμένου για το τρέχον μήνυμα
 find-replace-button =
     .label = Αντικατάσταση…
     .accesskey = κ
@@ -566,9 +579,20 @@ big-file-ignore-button =
     .label = Παράβλεψη
     .accesskey = ψ
 big-file-choose-account-title = Επιλογή λογαριασμού
+big-file-choose-account-prompt = Επιλέξτε έναν λογαριασμό cloud για τη μεταφόρτωση του συνημμένου
+big-file-hide-notification-title = Να μην μεταφορτωθούν τα αρχεία μου
+big-file-hide-notification-prompt = Δε θα ειδοποιηθείτε αν επισυνάψετε περισσότερα μεγάλα αρχεία στο μήνυμα.
+big-file-hide-notification-checkbox = Να μην ειδοποιηθώ ξανά για αυτό.
 cloudfile-uploading-stop-button =
     .label = Να μην εμφανιστεί ξανά
     .accesskey = Ν
+cloud-file-privacy-warning = Η σύνδεση έχει ολοκληρωθεί. Πρέπει να σημειωθεί ότι τα συνδεδεμένα επισυναπτόμενα θα είναι διαθέσιμα μόνο από τους ανθρώπους που θα βλέπουν ή μαντεύουν τους συνδέσμους.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Μεταφόρτωση στο { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Μεταφορτώθηκε στο { $provider }
 # Variables:
 # $provider - name of the online storage service
 cloud-file-attach-picker-title = Επισύναψη αρχείων μέσω { $provider }
