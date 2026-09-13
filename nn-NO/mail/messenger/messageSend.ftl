@@ -24,3 +24,38 @@ send-error-smtp-interrupted = Klarte ikkje å senda meldinga fordi tilkoplinga t
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = Klarte ikkje å senda meldinga fordi tilkoplinga til SMTP-tenaren { $hostname } fekk tidsavbrot. Prøv omatt eller kontakt systemansvarleg.
 send-error-title = Feil ved sending av melding
+send-progress-assembling-mail-information = Byggjer e-postinformasjon …
+send-progress-assembling-message = Byggjer melding…
+send-progress-creating-mail-message = Opprettar e-postmelding…
+send-progress-assembling-message-done = Byggjer melding… Ferdig
+send-progress-copy-complete = Kopiering fullført.
+send-progress-copy-failed = Kopiering mislukka.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-sent-locally =
+    Meldinga di vart send, men ein kopi vart ikkje lagra i sendt-mappa di ({ $folder }) på grunn av nettverks- eller filtilgangsfeil.
+    Du kan prøve på nytt eller lagre meldinga lokalt til { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-draft-locally =
+    Utkastet ditt vart ikkje lagra i utkastmappa di ({ $folder }) på grunn av nettverks- eller filtilgangsfeil.
+    Du kan prøve på nytt eller lagre utkastet lokalt til { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-template-locally =
+    Malen din vart ikkje lagra i malar-mappa ({ $folder }) på grunn av nettverks- eller filtilgangsfeil.
+    Du kan prøve på nytt eller lagre malen lokalt til { $localFolder }/{ $folder }-{ $account }.
+send-dialog-retry = &Prøv på nytt
+send-progress-filter-complete = Filter fullført.
+send-progress-filter-failed = Filter mislukkast.
+send-error-filtering-message = Meldingane dine er sendt og lagra, men det oppstod eit problem ved køyring av meldingsfilter på dei.
+# Variables:
+# $size - formatted message size
+send-warning-large-message = Åtvaring! Du vil no sende ei melding med storleiken { $size }, som kan vere større enn grensa på e-posttenaren. Er du sikker på at du vil gjere dette?
+# Variables:
+# $folder - destination folder name
+send-progress-copy-start = Kopierer melding til mappa { $folder }…
+send-progress-sending-message = Sender melding…
+send-later-error-title = Feil ved utsett sending.
+send-save-draft-error-title = Feil ved lagring av utkast
+send-save-template-error-title = Feil ved lagring av ma
