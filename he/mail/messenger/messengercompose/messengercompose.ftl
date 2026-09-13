@@ -10,17 +10,29 @@ compose-message-attachment-name = הודעה מצורפת
 
 ## Compose window
 
+compose-initialization-error-title = חיבור הודעה
+compose-initialization-error = אירעה תקלה בזמן יצירת חלון חיבור ההודעה. נא לנסות שוב.
 compose-default-subject = (ללא נושא)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = כתיבה: { $subject }‏ - { $brand }
 compose-save-message-title = שמור הודעה
 compose-discard-changes-button = הת&עלמות משינויים
 compose-send-confirm-title = שלח הודעה
 compose-send-confirm-prompt = האם אתה בטוח שברצונך לשלוח הודעה זו?
 compose-send-confirm-button = שלח
 compose-do-not-show-again = אל תראה לי תיבת דו־שיח זו שוב.
+compose-empty-subject-title = תזכורת שורת נושא
+compose-empty-subject-prompt = ההודעה שלך לא כוללת שורת נושא.
+compose-empty-subject-send-button = שלח ללא נושא
+compose-empty-subject-cancel-button = בטל שליחה
 compose-attachment-reminder-title = תזכורת צירוף קבצים
 compose-attachment-reminder-prompt = האם שכחת לצרף קובץ?
 compose-attachment-reminder-send-button = לא, שלח כעת
 compose-attachment-reminder-add-button = נכון, שכחתי!
+compose-newsgroups-not-supported-title = קבוצות דיון לא נתמכות
+compose-newsgroups-not-supported = חשבון זה תומך רק בנמעני דוא"ל. המשך יתעלם מקבוצות דיון.
 compose-quit-sending-title = שולח הודעה
 compose-quit-saving-title = ההודעה נשמרת
 # Variables:
@@ -36,6 +48,8 @@ compose-quit-saving-prompt =
 compose-quit-button = צא
 compose-wait-button = המתן
 compose-attach-file-picker-title = צרף קבצים:
+compose-attachment-bucket-attach-files-tooltip = צירוף קבצים
+compose-attachment-bucket-clear-selection-tooltip = ביטול הבחירה
 # Variables:
 # $filename - name of the file that could not be found
 compose-file-attachment-not-found = הקובץ { $filename } אינו קיים ולכן לא ניתן לצרף אותו להודעה.
@@ -59,6 +73,11 @@ remind-later-button =
     .accesskey = א
 disable-attachment-reminder-menu-item =
     .label = ביטול מזכיר קובץ מצורף על ההודעה הנוכחית
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = נא להקליד כתובת מאת בהתאמה אישית לשימוש במקום { $identity }
+compose-custom-from-address-title = התאמה מהכתובת
+compose-custom-from-address-ignore = לעולם לא להודיע לי על זה שוב
 compose-blocked-content-options-button = אפשרויות
 compose-blocked-content-options-accesskey = א
 compose-blocked-content-preferences-button = העדפות
