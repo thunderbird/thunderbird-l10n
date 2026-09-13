@@ -10,6 +10,15 @@ compose-message-attachment-name = Прикрепено писмо
 
 ## Compose window
 
+compose-attachment-reminder-title = Напомняне за прикачане
+compose-attachment-reminder-prompt = Не забравихте ли да прикачите файл?
+compose-rename-attachment-title = Преименуване на прикачен файл
+compose-rename-attachment-prompt = Ново име на прикачения файл:
+remind-later-button =
+    .label = Напомняне по-късно
+    .accesskey = Н
+disable-attachment-reminder-menu-item =
+    .label = Изключване на напомнянето за прикачени файлове за това съобщение
 find-replace-button =
     .label = Замяна…
     .accesskey = я
