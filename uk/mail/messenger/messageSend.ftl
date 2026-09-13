@@ -73,6 +73,9 @@ send-save-template-error-title = Помилка збереження шабло�
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = undisclosed-recipients
 # Variables:
+# $recipient - recipient address
+smtp-error-illegal-local-part = Локальна частина адреси отримувача { $recipient } містить не ASCII символи, а ваш сервер не підтримує SMTPUTF8. Змініть адресу та спробуйте знову.
+# Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = Схоже, сервер вихідної пошти (SMTP) { $hostname } не підтримує зашифровані паролі. Якщо ви щойно налаштували обліковий запис, спробуйте змінити "Метод автентифікації" в "Параметрах облікового запису | Вихідний (SMTP) сервер" на "Звичайний пароль".  Якщо це раніше працювало, а тепер перестало, можна припустити, що ваш пароль було викрадено.
 # Variables:
