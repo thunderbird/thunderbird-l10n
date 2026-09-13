@@ -101,7 +101,13 @@ smtp-server-error = Nepavyko išsiųsti laiško: išsiuntimo (SMTP) serveris ats
 smtp-starttls-failed = Klaida išsiunčiant laišką: nepavyko užmegzti saugaus ryšio su išsiuntimo (SMTP) serveriu { $hostname }, naudojant STARTTLS, nes serveris neskelbia apie tokią galimybę. Išjunkite STARTTLS nuostatą šiam serveriui, arba susisiekite su paslaugos teikėju.
 # Variables:
 # $serverResponse - server response
+smtp-too-many-recipients = Žinutė nebuvo išsiųsta, nes viršytas leistinas gavėjų skaičius. Serverio atsakas: { $serverResponse }.
+# Variables:
+# $serverResponse - server response
 smtp-error-sending-from-command = Klaida išsiunčiant laiškus. Pašto serveris atsakė: „{ $serverResponse }“. Patikrinkite el. pašto adresą, nurodytą paskyros nuostatose, ir bandykite dar kartą.
+# Variables:
+# $serverResponse - server response
+smtp-permanent-size-exceeded = Mėginamo išsiųsti laiško dydis viršija bendrąjį serverio leidžiamą dydžio limitą. Laiškas neišsiųstas. Sumažinkite jo dydį ir bandykite dar kartą. Serveris atsakė:  { $serverResponse }.
 # Variables:
 # $serverResponse - server response; $recipient - intended recipient
 smtp-error-sending-recipient-command =
