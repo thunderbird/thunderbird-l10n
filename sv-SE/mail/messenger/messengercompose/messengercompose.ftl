@@ -37,6 +37,7 @@ compose-attachment-reminder-add-button = Javisst ja!
 compose-newsgroups-not-supported-title = Diskussionsgrupper stöds inte
 compose-newsgroups-not-supported = Det här kontot stöder endast e-postmottagare. Om du fortsätter kommer diskussionsgrupperna att ignoreras.
 compose-invalid-address-title = Ogiltig mottagaradress
+compose-no-recipients = Det finns inga mottagare angivna. Fyll i mottagare eller namnet på en diskussionsgrupp i adressfältet.
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address } är inte en giltig e-postadress eftersom den inte har formen användare@värd. Du måste rätta till detta innan du kan skicka meddelandet.
