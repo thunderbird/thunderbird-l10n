@@ -36,6 +36,10 @@ compose-attachment-reminder-send-button = Nezabudol, odoslať správu
 compose-attachment-reminder-add-button = Naozaj, zabudol som!
 compose-newsgroups-not-supported-title = Diskusné skupiny nie sú podporované
 compose-newsgroups-not-supported = Tento účet podporuje iba príjemcov e‑mailov. Pri pokračovaní budú diskusné skupiny ignorované.
+compose-invalid-address-title = Neplatná adresa príjemcu
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } nie je platná e‑mailová adresa, pretože nemá správny formát (používateľ@server). Pred odoslaním ju musíte opraviť.
 compose-quit-sending-title = Odoslanie správy
 compose-quit-saving-title = Ukladanie správy
 # Variables:
@@ -51,6 +55,9 @@ compose-quit-saving-prompt =
 compose-quit-button = S&končiť
 compose-wait-button = &Počkať
 compose-attach-file-picker-title = Priložiť súbor
+compose-attach-page-title = Zadajte adresu, ktorá sa má priložiť
+compose-attach-page-prompt = Webová stránka (URL):
+compose-message-part-attachment-name = Časť priloženej správy
 compose-attachment-bucket-attach-files-tooltip = Priložiť súbor
 compose-attachment-bucket-clear-selection-tooltip = Vymazať vybrané
 # Variables:
