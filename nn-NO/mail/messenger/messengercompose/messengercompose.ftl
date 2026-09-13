@@ -13,6 +13,7 @@ compose-message-attachment-name = Vedlagt melding
 compose-send-confirm-title = Send melding
 compose-send-confirm-prompt = Er du sikker på at du vil senda denne meldinga no?
 compose-send-confirm-button = Send
+compose-do-not-show-again = Ikkje vis dette dialogvindauget meir.
 compose-empty-subject-title = Emnepåminning
 compose-empty-subject-prompt = Meldinga har ikkje noko emne
 compose-empty-subject-send-button = &Send meldinga utan emne
@@ -25,6 +26,7 @@ compose-invalid-address-title = Ugyldig mottakaradresse
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address } er ikkje ei gyldig e-postadresse, fordi ho ikkje er på forma brukar@vert. Du må retta det opp før du sender e-posten.
+compose-quit-sending-title = Sender melding
 compose-quit-saving-title = Lagrar melding
 # Variables:
 # $brand - application name
@@ -41,7 +43,22 @@ compose-wait-button = &Vent
 compose-attach-page-title = Vel ein nettstad å leggja ved
 compose-attach-page-prompt = Nettside (URL):
 compose-message-part-attachment-name = Vedlagt meldingsdel
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = Fila { $filename } finst ikkje så ho kan ikkje leggjast ved meldinga.
 compose-file-attachment-error-title = Filtillegging
+compose-message-file-error-title = Meldingsfil
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = Fila { $filename } finst ikkje og kan ikkje brukast som meldingstekst.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = Klarte ikkje å lasta fila { $filename } som meldingstekst.
+compose-save-success-title = Lagre melding
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Meldinga er lagra i mappa { $folder } under { $server }
 compose-rename-attachment-title = Endra namn på vedlegget
 compose-rename-attachment-prompt = Nytt namn på vedlegget:
 remind-later-button =
@@ -53,6 +70,14 @@ find-replace-button =
     .label = Byt ut …
     .accesskey = y
     .tooltiptext = Vis Finn og byt ut-dialogen
+compose-blocked-content-options-button = Innstillingar
+compose-blocked-content-options-accesskey = A
+compose-blocked-content-preferences-button = Innstillingar
+compose-blocked-content-preferences-accesskey = n
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Ta bort blokkering av { $url }
 
 ## Send Format
 
@@ -118,6 +143,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Utvid liste
     .accesskey = U
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = Fjern { $field }-adresser
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Er du sikker på at du ønskjer å fjerne { $field }-adressene?
+compose-remove-address-row-button = Fjern
 
 ## Attachment widget
 
@@ -491,6 +523,9 @@ big-file-notification-text =
 cloudfile-uploading-stop-button =
     .label = Aldri vis dette meir
     .accesskey = A
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Legg ved filer via { $provider }
 
 ## Link Preview
 
