@@ -10,6 +10,93 @@ compose-message-attachment-name = Vedhæftet meddelelse
 
 ## Compose window
 
+compose-initialization-error-title = Komposition af meddelelser
+compose-initialization-error = Der opstod en fejl under oprettelsen af en nyt vindue til at skrive mail i. Prøv igen.
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Skriv: { $subject } - { $brand }
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Gem denne meddelelse i din kladdemappe ({ $folder }) og luk Skriv-vinduet?
+compose-send-confirm-title = Send meddelelsen
+compose-send-confirm-prompt = Er du sikker på, at du er klar til at sende denne meddelelse?
+compose-send-confirm-button = Send
+compose-do-not-show-again = Vis ikke denne dialogboks igen.
+compose-empty-subject-title = Påmindelse om emne
+compose-empty-subject-prompt = Din meddelelse har intet emne.
+compose-empty-subject-send-button = &Send uden emne
+compose-empty-subject-cancel-button = &Annuller afsendelse
+compose-attachment-reminder-title = Påmindelse om vedhæftning
+compose-attachment-reminder-prompt = Glemte du at vedhæfte en fil?
+compose-attachment-reminder-send-button = Nej, send nu
+compose-attachment-reminder-add-button = Ja
+compose-newsgroups-not-supported-title = Nyhedsgrupper understøttes ikke
+compose-newsgroups-not-supported = Denne konto understøtter kun mailmodtagere. Nyhedsgrupper vil blive ignoreret, hvis du fortsætter.
+compose-invalid-address-title = Ugyldig modtageradresse
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } er ikke en gyldig mailadresse, da den ikke er i formen bruger@server.tld. Du skal rettet dette, før du kan sende mailen.
+compose-quit-sending-title = Sender meddelelsen
+compose-quit-saving-title = Gemmer meddelelse
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } er i gang med at sende en meddelelse.
+    Vil du vente med at afslutte, til meddelelsen er sendt eller afslutte nu?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } er ved at gemme en meddelelse.
+    Vil du vente til meddelelsen er gemt, før der afsluttes, eller vil du afslutte nu?
+compose-quit-button = &Afslut
+compose-wait-button = &Vent
+compose-attach-page-title = Angiv et sted der skal vedhæftes
+compose-attach-page-prompt = Webside (URL):
+compose-message-part-attachment-name = Vedhæftet meddelelsesdel
+compose-attachment-bucket-attach-files-tooltip = Vedhæft fil(er)
+compose-attachment-bucket-clear-selection-tooltip = Ryd markering
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = Filen { $filename } findes ikke og kan derfor ikke vedhæftes til meddelelsen.
+compose-file-attachment-error-title = Vedhæftet fil
+compose-message-file-error-title = Meddelelsesfil
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = Filen { $filename } findes ikke, og kunne derfor ikke bruges som meddelelsesindhold.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = Filen { $filename } kunne ikke indlæses som meddelelsesindhold.
+compose-save-success-title = Gem meddelelsen
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Din meddelelse er gemt i mappen { $folder } under { $server }.
+compose-rename-attachment-title = Omdøb vedhæftet fil
+compose-rename-attachment-prompt = Nyt navn:
+remind-later-button =
+    .label = Påmind mig senere
+    .accesskey = M
+disable-attachment-reminder-menu-item =
+    .label = Deaktiver påmindelse om vedhæfning af fil for denne meddelelse
+find-replace-button =
+    .label = Erstat…
+    .accesskey = E
+    .tooltiptext = Vis dialogboksen Søg og erstat
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Indtast en valgfri afsenderadresse, som skal bruges i stedet for { $identity }
+compose-custom-from-address-title = Tilpas afsenderadresse
+compose-custom-from-address-warning = Hvis du mailudbyder tillader det, kan du bruge Tilpas afsenderadresse til at foretage en engangsændring af afsenderadressen, uden at du behøver at oprette en ny identitet i kontoindstillingerne. Hvis fx din afsenderadresse er Jens Hansen <jens@eksempel.dk>, kan du ændre den til Jens Hansen <jens+hansen@eksempel.dk> eller Jens <jens@eksempel.dk>.
+compose-custom-from-address-ignore = Oplys mig ikke om dette igen.
+compose-blocked-content-options-button = Indstillinger
+compose-blocked-content-options-accesskey = I
+compose-blocked-content-preferences-button = Indstillinger
+compose-blocked-content-preferences-accesskey = I
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Fjern blokering af { $url }
 
 ## Send Format
 
@@ -431,6 +518,34 @@ cloud-file-account-error-title = Fejl i Filelink-konto
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Kunne ikke opdatere Filelink-vedhæftningen { $filename }, fordi dens Filelink-konto er blevet slettet.
+cloud-file-authentication-error-title = Godkendelse mislykkedes
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Kunne ikke blive godkendt af { $provider }.
+cloud-file-upload-error-title = Upload mislykkedes
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Kunne ikke uploade { $filename } til { $provider }.
+cloud-file-quota-error-title = Ikke mere plads
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Uploading af { $filename } til { $provider } vil overskride din tilgængelige plads.
+cloud-file-size-error-title = For stor fil
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } overskrider den maksimale størrelse for filer på { $provider }.
+cloud-file-unknown-error-title = Ukendt fejl
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = En ukendt fejl opstod ved forbindelsen med { $provider }.
+cloud-file-deletion-error-title = Fejl ved sletning
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Der opstod et problem ved sletning af { $filename } på { $provider }.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
@@ -445,6 +560,30 @@ big-file-notification-text =
         [one] Dette er en stor fil. Det vil måske være bedre at bruge Filelink i stedet.
        *[other] Dette er store filer. Det vil måske være bedre at bruge Filelink i stedet.
     }
+big-file-learn-more-button =
+    .label = Lær mere…
+    .accesskey = m
+big-file-link-button =
+    .label = Link
+    .accesskey = L
+big-file-ignore-button =
+    .label = Ignorer
+    .accesskey = I
+big-file-choose-account-title = Vælg konto
+big-file-choose-account-prompt = Vælg en cloud-konto at uploade filen til
+big-file-hide-notification-title = Upload ikke mine filer
+big-file-hide-notification-prompt = Du vil ikke få besked, hvis du vedhæfter flere store filer til denne meddelelse.
+big-file-hide-notification-checkbox = Oplys mig ikke om dette igen.
+cloudfile-uploading-stop-button =
+    .label = Vis aldrig dette igen
+    .accesskey = V
+cloud-file-privacy-warning = Din fil er nu linket. Vær opmærksom på, at filen er tilgængelig for dem, som har linket, eller som kan gætte det.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Uploader til { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Uploadet til { $provider }
 
 ## Link Preview
 
