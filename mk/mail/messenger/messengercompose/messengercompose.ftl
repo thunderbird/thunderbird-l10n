@@ -9,6 +9,27 @@ compose-message-attachment-name = Приложена порака
 
 ## Compose window
 
+compose-initialization-error-title = Составување на порака
+compose-default-subject = (без тема)
+compose-save-message-title = Сними ја пораката
+compose-send-confirm-title = Испраќање на пораката
+compose-send-confirm-prompt = Дали сте сигурни дека сте подготвени да ја испратите оваа порака?
+compose-send-confirm-button = Испрати
+compose-do-not-show-again = Не го прикажувај овој дијалог во иднина.
+compose-newsgroups-not-supported = Оваа сметка поддржува само примачи на е-пошта. Ако продолжите дискусионите групи ќе бидат игнорирани.
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } не е точна адреса за е-пошта бидејќи не е во форма user@host. Морате да ја поправите пред да ја испратите поштата.
+compose-quit-sending-title = Испраќање на пораката
+compose-attach-file-picker-title = Приложи датотека
+compose-attach-page-title = Наведете локација за приложување
+compose-attach-page-prompt = Мрежна страница (URL):
+compose-message-part-attachment-name = Приложен дел на пораката
+compose-save-success-title = Снимање на пораката
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Твојата порака е снимена во папката { $folder } под името { $server }.
 
 ## Send Format
 
