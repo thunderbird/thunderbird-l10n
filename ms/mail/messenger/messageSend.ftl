@@ -57,6 +57,7 @@ send-error-filtering-message = Mesej anda telah dihantar dan disimpan, tapi ada 
 # Variables:
 # $hostname - outgoing server hostname
 send-error-smtp-security-issue = Konfigurasi berkaitan dengan { $hostname } mesti diperbetulkan.
+send-error-post-failed = Mesej tidak dapat disiarkan kerana gagal disambung ke pelayan berita. Pelayan mungkin tidak bersedia atau menolak sambungan, Sila pastikan bahawa tetapan pelayan berita adalah betul dan cuba lagi.
 # Variables:
 # $size - formatted message size
 send-warning-large-message = Amaran! Anda akan menghantar mesej bersaiz { $size }. Adakah anda pasti mahu melakukannya?
@@ -97,6 +98,9 @@ smtp-server-error = Ada ralat semasa menghantar mel: Ralat pelayan keluar (SMTP)
 smtp-starttls-failed = Ada ralat semasa menghantar mel: Tidak dapat menyediakan sambungan yang selamat dengan pelayan Keluar (SMTP) { $hostname } menggunakan STARTTLS kerana tidak mempamerkan ciri berkenaan. Nyahaktifkan STARTTLS daripada pelayan berkenaan atau hubungi penyedia perkhidmatan anda.
 # Variables:
 # $serverResponse - server response
+smtp-error-sending-from-command = Ada ralat semasa menghantar mel. Pelayan mel memberikan respons: { $serverResponse }. Sila pastikan bahawa alamat e-mel anda adalah betul dalam tetapan akaun dan cuba lagi.
+# Variables:
+# $serverResponse - server response
 smtp-permanent-size-exceeded = Saiz mesej yang anda cuba hantar melebihi had saiz global pelayan. Mesej tidak dihantar; kurangkan saiz mesej dan cuba lagi. Pelayan memberikan respons:   { $serverResponse }.
 # Variables:
 # $serverResponse - server response; $recipient - intended recipient
@@ -104,3 +108,9 @@ smtp-error-sending-recipient-command =
     Ada ralat semasa menghantar mel. Pelayan mel memberikan respons:
     { $serverResponse }.
     Sila semak penerima mesej "{ $recipient }" dan cuba lagi.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-data-command = Ada ralat semasa pelayan Keluar (SMTP) menghantar mel. Pelayan memberikan respons:  { $serverResponse }.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-message = Ada ralat semasa menghantar mel. Pelayan mel memberikan respons:  { $serverResponse }. Sila semak mesej dan cuba lagi.
