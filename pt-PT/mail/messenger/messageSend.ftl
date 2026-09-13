@@ -24,3 +24,41 @@ send-error-smtp-interrupted = A mensagem não foi enviada porque a ligação ao 
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = A mensagem não foi enviada porque a ligação ao servidor de envio (SMTP) { $hostname } expirou. Tente novamente.
 send-error-title = Erro ao enviar mensagem
+send-progress-assembling-mail-information = A construir informação do correio…
+send-progress-assembling-message = A construir mensagem…
+send-progress-creating-mail-message = A criar mensagem de correio…
+send-progress-assembling-message-done = A construir mensagem…Feito
+send-progress-copy-complete = Cópia terminada.
+send-progress-copy-failed = A cópia falhou.
+send-dialog-save-title = Guardar mensagem
+send-error-save-to-local-folders = Não é possível guardar a mensagem nas pastas locais. Possivelmente não tem espaço de armazenamento de ficheiro.
+send-progress-filter-complete = Filtro terminado.
+send-progress-filter-failed = O filtro falhou.
+# Variables:
+# $size - formatted message size
+send-warning-large-message = Aviso! Vai enviar uma mensagem com um tamanho de { $size }. Tem a certeza que pretende fazer isto?
+# Variables:
+# $folder - destination folder name
+send-progress-copy-start = A copiar mensagem para a pasta { $folder }...
+send-progress-sending-message = A enviar mensagem...
+send-later-error-title = Erro ao guardar para enviar mais tarde
+send-save-draft-error-title = Erro ao guardar rascunho
+send-save-template-error-title = Erro ao guardar modelo
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-no-ssl = Parece que o servidor de envio (SMTP) { $hostname } não tem suporte a palavras-passe encriptadas. Se acabou de configurar a conta, tente mudar para ‘Palavra-passe, envio sem segurança’ como ‘Método de autenticação’ nas ‘Definições da conta | Servidor de envio (SMTP)’. Se este método funcionava anteriormente, é possível que alguém tenha obtido a sua palavra-passe.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-ssl = Parece que o servidor de envio (SMTP) { $hostname } não tem suporte a palavras-passe encriptadas. Se acabou de configurar a conta, tente mudar para ‘Palavra-passe normal’ como ‘Método de autenticação’ nas ‘Definições da conta | Servidor de envio (SMTP)’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-plain-to-encrypt = O servidor de envio (SMTP) { $hostname } não permite palavras-passe em texto simples. Por favor tente alterar para ‘Palavra-passe encriptada’ como ‘Método de autenticação’ em ‘Definições da conta | Servidor de envio (SMTP)’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-failure = Não foi possível efetuar a autenticação no servidor de envio (SMTP) { $hostname }. Por favor verifique a palavra-passe e o ‘Método de autenticação’ nas ‘Definições da conta | Servidor de envio (SMTP)’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-gssapi = Os dados Kerberos/GSSAPI não foram aceites pelo servidor de envio (SMTP) { $hostname }. Por favor verifique se tem acesso aos dados Kerberos/GSSAPI.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-mechanism-not-supported = O servidor de envio (SMTP) { $hostname } não tem suporte ao método de autenticação selecionado. Por favor mude o ‘Método de autenticação’ nas ‘Definições da conta | Servidor de envio (SMTP)’.
