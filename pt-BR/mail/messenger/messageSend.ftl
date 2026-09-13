@@ -30,10 +30,27 @@ send-progress-creating-mail-message = Criando mensagem de email…
 send-progress-assembling-message-done = Montando mensagem…Concluído
 send-progress-copy-complete = Cópia concluída.
 send-progress-copy-failed = Falha ao copiar.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-sent-locally =
+    Sua mensagem foi enviada mas uma cópia não foi adicionada na sua pasta de enviados ({ $folder }) devido a problemas na rede ou no acesso à arquivos.
+    Você pode tentar novamente ou salvar a mensagem localmente em { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-draft-locally =
+    Seu rascunho não foi copiado para a pasta de rascunhos ({ $folder }) devido a problemas na rede ou no acesso a arquivos.
+    Você pode tentar novamente ou salvar o rascunho localmente em { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-template-locally =
+    Seu modelo não foi copiado na sua pasta de modelos ({ $folder }) devido a erros de acesso à rede ou a arquivos.
+    Você pode tentar novamente ou salvar o modelo localmente em { $localFolder }/{ $folder }-{ $account }.
 send-dialog-save-title = Salvar mensagem
+send-dialog-retry = &Repetir
 send-error-save-to-local-folders = Não foi possível salvar sua mensagem na pasta local. Possivelmente não há espaço em disco.
 send-progress-filter-complete = Filtragem concluída.
 send-progress-filter-failed = Falha na filtragem.
+send-error-filtering-message = Sua mensagem foi enviada e salva, mas houve um erro durante a execução de filtros de mensagem nela.
 send-error-post-failed = A mensagem não pode ser enviada porque a conexão com o servidor de notícias falhou. O servidor pode estar indisponível ou recusando conexões. Verifique se as configurações do servidor de notícias estão corretas e tente novamente.
 # Variables:
 # $size - formatted message size
