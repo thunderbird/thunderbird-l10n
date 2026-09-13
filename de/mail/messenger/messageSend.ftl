@@ -25,6 +25,9 @@ send-error-smtp-interrupted = Die Nachricht konnte nicht gesendet werden, weil d
 send-error-smtp-timeout = Die Nachricht konnte nicht gesendet werden, weil die Verbindung mit dem SMTP-Server { $hostname } ihre Ablaufzeit (Timeout) überschritten hat. Versuchen Sie es nochmals.
 send-error-title = Senden der Nachricht ist fehlgeschlagen
 # Variables:
+# $filename - name or URL of the file that could not be attached
+send-error-attaching-file = Es gab einen Fehler beim Anhängen von { $filename }. Bitte überprüfen Sie, ob Sie ausreichende Zugriffsrechte auf die Datei besitzen.
+# Variables:
 # $folder - destination folder name; $localFolder - local folders name; $account - account name
 send-error-save-sent-locally =
     Die Nachricht wurde gesendet, aber es wurde keine Kopie im Gesendet-Ordner ({ $folder }) gespeichert, da es zu Problemen bei dem Zugriff auf Netzwerk oder Dateien kam.
@@ -39,5 +42,64 @@ send-error-save-draft-locally =
 send-error-save-template-locally =
     Die Vorlage konnte nicht im Vorlagen-Ordner ({ $folder }) gespeichert werden, da es zu Problemen bei dem Zugriff auf Netzwerk oder Dateien kam.
     Sie können es erneut versuchen oder die Vorlage lokal unter { $localFolder }/{ $folder }-{ $account } speichern.
+send-dialog-save-title = Nachricht speichern
 send-dialog-retry = Nochmals &versuchen
+send-error-save-to-local-folders = Ihre Nachricht kann nicht in einem lokalen Ordner gespeichert werden. Eventuell ist der Speicherplatz voll.
 send-error-filtering-message = Die Nachricht wurde gesendet und gespeichert, beim anschließenden Anwenden der Nachrichtenfilter trat aber ein Fehler auf.
+# Variables:
+# $hostname - outgoing server hostname
+send-error-smtp-security-issue = Die Einstellungen für { $hostname } müssen korrigiert werden.
+send-error-post-failed = Die Nachricht konnte nicht gesendet werden. Der News-Server ist entweder nicht verfügbar oder lehnt die Verbindung ab. Bitte überprüfen Sie, ob Ihre News-Server-Einstellungen (inkl. Benutzername und Passwort) korrekt sind und versuchen Sie es dann nochmals.
+# Variables:
+# $size - formatted message size
+send-warning-large-message = Warnung! Sie sind im Begriff, eine Datei von { $size } zu senden, was größer als die vom E-Mail-Server erlaubte Maximalgröße sein könnte. Sind Sie sicher, dass Sie dies machen wollen?
+send-progress-sending-message = Nachricht wird gesendet…
+send-error-nntp-ok = Ihre Nachricht wurde in die Newsgruppe, aber nicht an den anderen Empfänger gesendet.
+send-error-copy-operation = Der Sendevorgang war erfolgreich, aber das Kopieren in den Ordner für gesendete Nachrichten ist fehlgeschlagen.
+send-later-error-title = Später Senden der Nachricht ist fehlgeschlagen
+send-save-draft-error-title = Speichern als Entwurf ist fehlgeschlagen
+send-save-template-error-title = Speichern als Vorlage ist fehlgeschlagen
+# LOCALIZATION NOTE: This string must use only US-ASCII characters.
+send-undisclosed-recipients = Verborgene_Empfaenger
+# Variables:
+# $recipient - recipient address
+smtp-error-illegal-local-part = Der lokale Teil der Empfängeradresse "{ $recipient }" enthält ASCII-fremde Zeichen. Ihr Server unterstützt SMTPUTF8 nicht. Bitte ändern Sie die Adresse und versuchen Sie es erneut.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-no-ssl = Der SMTP-Server { $hostname } scheint die verschlüsselte Übertragung des Passworts nicht zu unterstützen. Wenn Sie das Konto gerade neu einrichten, ändern Sie die "Authentifizierungsmethode" bitte versuchsweise zu "Passwort, ungesichert übertragen" unter "Konten-Einstellungen | Postausgangs-Server (SMTP)". Wenn die gewählten Einstellungen bisher funktioniert haben und nun plötzlich fehlschlagen, könnte es sich um ein typisches Szenario handeln, um Ihnen mittels der ungesicherten Passwortübertragung das Passwort zu stehlen.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-ssl = Der SMTP-Server { $hostname } scheint die Übertragung verschlüsselter Passwörter nicht zu unterstützen. Wenn Sie das Konto gerade neu einrichten, ändern Sie die "Authentifizierungsmethode" bitte versuchsweise zu "Passwort, normal" unter "Konten-Einstellungen | Postausgangs-Server (SMTP)".
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-plain-to-encrypt = Der SMTP-Server { $hostname } erlaubt die ungesicherte Übertragung des Passworts im Klartext nicht. Ändern Sie die "Authentifizierungsmethode" bitte versuchsweise zu "Verschlüsseltes Passwort" unter "Konten-Einstellungen | Postausgangs-Server (SMTP)".
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-failure = Der Postausgangs-Server (SMTP) { $hostname } kann nicht authentifiziert werden. Bitte überprüfen Sie das Passwort und die gewählte „Authentifizierungsmethode“ unter „Konten-Einstellungen | Postausgangs-Server (SMTP)“.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-gssapi = Das Kerberos/GSSAPI-Ticket wurde vom SMTP-Server { $hostname } nicht akzeptiert. Bitte stellen Sie sicher, dass Sie im Kerberos/GSSAPI-Bereich angemeldet sind.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-mechanism-not-supported = Der SMTP-Server { $hostname } unterstützt die gewählte Authentifizierungsmethode nicht. Bitte ändern Sie die "Authentifizierungsmethode" unter "Konten-Einstellungen | Postausgangs-Server (SMTP)".
+# Variables:
+# $serverResponse - server response
+smtp-server-error = Fehler beim Senden der Nachricht: SMTP-Server-Fehler. Der Mail-Server antwortete: { $serverResponse }.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-starttls-failed = Fehler beim Senden der Nachricht: Eine sichere Verbindung mit dem SMTP-Server { $hostname } kann nicht mit STARTTLS aufgebaut werden, da der Server diese Funktion nicht angibt. Schalten Sie STARTTLS für diesen Server ab oder kontaktieren Sie Ihren Anbieter des E-Mail-Diensts.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-from-command = Fehler beim Senden der Nachricht. Der Mail-Server antwortete: { $serverResponse }. Bitte überprüfen Sie, ob Ihre E-Mail-Adresse in den Konten-Einstellungen stimmt und wiederholen Sie den Vorgang.
+# Variables:
+# $serverResponse - server response; $recipient - intended recipient
+smtp-error-sending-recipient-command =
+    Fehler beim Senden der Nachricht: Der Mail-Server antwortete:
+    { $serverResponse }.
+    Bitte überprüfen Sie die E-Mail-Adresse des Empfängers "{ $recipient }" und wiederholen Sie den Vorgang.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-data-command = (SMTP-)Fehler beim Senden der Nachricht. Der Mail-Server antwortete: { $serverResponse }
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-message = Fehler beim Senden der Nachricht. Der Mail-Server antwortete:  { $serverResponse }. Bitte überprüfen Sie die Nachricht und wiederholen Sie den Vorgang.
