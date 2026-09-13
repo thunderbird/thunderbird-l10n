@@ -37,6 +37,7 @@ compose-attachment-reminder-add-button = Ja, habe ich!
 compose-newsgroups-not-supported-title = Newsgruppen werden nicht unterstützt
 compose-newsgroups-not-supported = Dieses Konto unterstützt nur E-Mail-Empfänger. Newsgruppen werden ignoriert.
 compose-invalid-address-title = Ungültige Empfängeradresse
+compose-no-recipients = Kein Empfänger angegeben. Bitte geben Sie einen Empfänger oder eine Newsgruppe im Adressfeld an.
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address } ist keine gültige E-Mail-Adresse, weil sie nicht dem Format "user@host" entspricht. Sie müssen sie korrigieren, bevor Sie die E-Mail versenden.
