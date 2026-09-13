@@ -6,5 +6,19 @@
 ## Message sending
 
 send-alert-queued-delivery-failed = Hiba történt az el nem küldött üzenetek kézbesítésekor.
+send-alert-followup-to-sender = Az üzenet szerzője saját magát jelölte meg az esetleges válaszok egyedüli címzettjének. Ha el szeretné küldeni ezt az üzenetet a hírcsoportnak is, adjon hozzá egy sort a címzettek listájához, válassza a Hírcsoport típust a lehetőségek közül, majd írja be a hírcsoport nevét.
 send-error-failed = Az üzenet küldése sikertelen.
+send-unable-to-send-later = Elnézést, nem sikerült menteni az üzenetet a későbbi elküldéshez.
+# Variables:
+# $hostname - outgoing server hostname
+send-error-smtp-unknown-server = Hiba történt a levél küldésekor: a(z) { $hostname } levélküldő kiszolgáló (SMTP) ismeretlen. Lehet, hogy a kiszolgálót hibásan állították be. Ellenőrizze, hogy a levélküldő (SMTP) kiszolgáló beállításai helyesek-e, és próbálja újra.
+# Variables:
+# $hostname - outgoing server hostname
+send-error-smtp-request-refused = Az üzenet küldése sikertelen, mert nem lehetett kapcsolatot teremteni a levélküldő (SMTP) kiszolgálóval ({ $hostname }). A kiszolgáló elérhetetlen, vagy visszautasítja az SMTP kapcsolatokat. Ellenőrizze, hogy a levélküldő (SMTP) kiszolgáló beállításai helyesek-e, és próbálja meg újra.
+# Variables:
+# $hostname - outgoing server hostname
+send-error-smtp-interrupted = Az üzenet küldése sikertelen, mert a levélküldő (SMTP) kiszolgálóval ({ $hostname }) való kapcsolat megszakadt a tranzakció közben. Próbálja újra.
+# Variables:
+# $hostname - outgoing server hostname
+send-error-smtp-timeout = Az üzenet küldése sikertelen, mert a levélküldő (SMTP) kiszolgálóval ({ $hostname }) való kapcsolat időtúllépés miatt megszakadt. Próbálja újra.
 send-error-title = Hiba az üzenet küldésekor
