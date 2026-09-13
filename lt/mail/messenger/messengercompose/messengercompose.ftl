@@ -6,6 +6,7 @@
 ## Compose alerts
 
 compose-message-cancelling = Atsisakoma…
+compose-message-attachment-name = Pridėtas laiškas
 
 ## Compose window
 
