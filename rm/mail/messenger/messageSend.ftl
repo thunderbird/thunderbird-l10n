@@ -7,6 +7,8 @@
 
 send-alert-queued-delivery-failed = Errur cun trametter ils messadis ord la posta sortida.
 send-alert-followup-to-sender = L'autur da quest messadi ha supplitgà da mo respunder a l'adressa da l'autur. Sche ti vuls era respunder a la gruppa da discussiun, agiunta ina nova lingia al champ d'adressas, tscherna "Gruppa da discussiun:" empè da "a:" da la glista da destinaturs ed endatescha il num da la gruppa da discussiun.
+send-unable-to-save-template = Impussibel da memorisar tes messadi sco model.
+send-unable-to-save-draft = Impussibel da memorisar tes messadi sco sboz.
 send-error-failed = Betg reussì da trametter il messadi.
 send-unable-to-send-later = Impussibel da memorisar tes messadi per al trametter pli tard.
 # Variables:
