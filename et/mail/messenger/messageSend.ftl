@@ -73,6 +73,27 @@ send-save-template-error-title = Viga malli salvestamisel
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = avalikustamata adressaadid
 # Variables:
+# $recipient - recipient address
+smtp-error-illegal-local-part = Saaja aadress { $recipient } sisaldab kohalikul (enne @-märki) poolel mitte-ASCII tähemärke, kuid sinu server ei toeta SMTPUTF8. Palun muuda aadressi ja proovi uuesti.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-no-ssl = SMTP-server aadressil { $hostname } ei toeta krüptitud paroole. Kui sa just lõid selle konto, siis proovi autentimise viisiks konto serveri sätete all määrata ‘ebaturvaliselt edastatav parool’. Kui see varem töötas ja nüüd enam mitte, siis on tavaliselt põhjuseks see, et keegi võis sinu parooli varastada.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-ssl = SMTP-server aadressil { $hostname } ei toeta krüptitud paroole. Kui sa just lõid selle konto, siis proovi autentimise viisiks konto serveri sätete all määrata ‘tavaline parool’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-plain-to-encrypt = SMTP-server aadressil { $hostname } ei luba krüptimata kujul paroole. Palun proovi autentimise viisiks konto serveri sätete all määrata ‘krüptitud parool’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-failure = Autentimine SMTP-serveriga aadressil { $hostname } pole võimalik. Palun kontrolli parooli ja konto väljuva e-posti serveri autentimise viisi.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-gssapi = SMTP-server { $hostname } ei aktsepteerinud Kerberose/GSSAPI piletit. Palun kontrolli, kas oled Kerberose/GSSAPI piirkonda sisse logitud.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-mechanism-not-supported = SMTP-server aadressil { $hostname } ei toeta valitud autentimise viisi. Palun muuda autentimise viisi konto väljuva e-posti serveri sätete juures.
+# Variables:
 # $serverResponse - server response
 smtp-server-error = Kirja saatmisel esines viga: SMTP-serveri viga. Server vastas: { $serverResponse }.
 # Variables:
