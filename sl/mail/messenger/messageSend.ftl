@@ -24,9 +24,15 @@ send-error-smtp-interrupted = Sporočila ni bilo mogoče poslati, ker je bila po
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = Sporočila ni bilo mogoče poslati, ker je povezava z odhodnim strežnikom (SMTP) { $hostname } potekla. Poskusite znova.
 send-error-title = Napaka pri pošiljanju sporočila
+send-progress-assembling-mail-information = Zbiranje podatkov o pošti …
+send-progress-assembling-message = Sestavljanje sporočila …
+send-progress-creating-mail-message = Ustvarjanje poštnega sporočila …
 # Variables:
 # $filename - name or URL of the file that could not be attached
 send-error-attaching-file = Med pripenjanjem { $filename } je prišlo do napake. Preverite, ali imate dostop do datoteke.
+send-progress-assembling-message-done = Sestavljanje sporočila … Končano
+send-progress-copy-complete = Kopiranje končano.
+send-progress-copy-failed = Kopiranje je spodletelo.
 # Variables:
 # $folder - destination folder name; $localFolder - local folders name; $account - account name
 send-error-save-sent-locally =
@@ -45,13 +51,25 @@ send-error-save-template-locally =
 send-dialog-save-title = Shrani sporočilo
 send-dialog-retry = &Poskusi znova
 send-error-save-to-local-folders = Sporočila ni mogoče shraniti v Krajevne mape. Morda na pomnilniški napravi ni dovolj prostora.
+send-progress-filter-complete = Filtriranje je končano.
+send-progress-filter-failed = Filtriranje je spodletelo.
 send-error-filtering-message = Vaše sporočilo je bilo poslano in shranjeno, toda med izvajanjem filtrov sporočil na njem je prišlo do napake.
 # Variables:
 # $hostname - outgoing server hostname
 send-error-smtp-security-issue = Nastavitve, povezane s { $hostname }, je potrebno popraviti.
 send-error-post-failed = Sporočila ni bilo mogoče objaviti, ker je povezava s strežnikom za novice spodletela. Strežnik morda ni na voljo ali pa zavrača povezave. Preverite, ali so vaše nastavitve strežnika za novice pravilne in poskusite znova.
+# Variables:
+# $size - formatted message size
+send-warning-large-message = Opozorilo! Poslati želite sporočilo velikosti { $size }. Ali res to želite?
+# Variables:
+# $folder - destination folder name
+send-progress-copy-start = Kopiranje sporočila v mapo { $folder } …
+send-progress-sending-message = Pošiljanje sporočila …
 send-error-nntp-ok = Vaše sporočilo je bilo poslano novičarski skupini, vendar pa ni bilo poslano drugemu prejemniku.
 send-error-copy-operation = Sporočilo je bilo uspešno poslano, vendar ga ni bilo mogoče kopirati v vašo mapo Poslano.
+send-later-error-title = Napaka pri kasnejšem pošiljanju sporočila
+send-save-draft-error-title = Napaka pri shranjevanju osnutka
+send-save-template-error-title = Napaka pri shranjevanju predloge
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = neimenovani prejemniki
 # Variables:
