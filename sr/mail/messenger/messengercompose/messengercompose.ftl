@@ -12,10 +12,15 @@ compose-message-attachment-name = Закачена порука
 
 compose-initialization-error-title = Састављање поруке
 compose-initialization-error = Догодила се грешка приликом прављења прозора за састављање поруке. Пробајте поново.
+compose-default-subject = (без наслова)
 # Variables:
 # $subject - message subject
 # $brand - application name
 compose-window-title = Писање: { $subject } - { $brand }
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Сачувати ову поруку у вашу фасциклу са нацртима ({ $folder }) и затворити прозор за писање?
+compose-discard-changes-button = &Одбаци измене
 compose-send-confirm-title = Слање поруке
 compose-send-confirm-prompt = Да ли сте сигурни да сте спремни да пошаљете ову поруку?
 compose-send-confirm-button = Пошаљи
@@ -48,6 +53,7 @@ compose-quit-saving-prompt =
     Да ли желите пре прекидања да сачекате док се порука не сачува или желите да изађете одмах?
 compose-quit-button = &Изађи
 compose-wait-button = &Сачекај
+compose-attach-file-picker-title = Приложи датотеке
 compose-attach-page-title = Наведите путању за качење
 compose-attach-page-prompt = Веб страница (URL):
 compose-message-part-attachment-name = Део закачене поруке
@@ -604,6 +610,9 @@ cloud-file-uploading-tooltip = Отпремам на{ $provider }…
 # Variables:
 # $provider - name of the online storage service
 cloud-file-uploaded-tooltip = Отпремљено на { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Закачи датотеке преко { $provider }
 
 ## Link Preview
 
