@@ -100,6 +100,9 @@ smtp-server-error = 보내는 중 오류: SMTP 서버에 장애 발생 { $server
 smtp-starttls-failed = 메일 보내는 중 오류가 발생했습니다. SMTP 서버({ $hostname })에 STARTTLS를 통한 보안 연결을 할 수 없습니다. 서버 설정에서 STARTTLS 설정을 끄거나 서버 관리자에게 문의해 보시기 바랍니다.
 # Variables:
 # $serverResponse - server response
+smtp-too-many-recipients = 받는 사람 수의 한도를 초과하여 메시지가 전송되지 않았습니다. 서버 응답: { $serverResponse }.
+# Variables:
+# $serverResponse - server response
 smtp-permanent-size-exceeded = 보내시려는 메시지의 크기가 서버의 일반 크기 제한 보다 큽니다. 메시지 용량을 줄여서 다시 시도해 보시기 바랍니다. 서버 응답: { $serverResponse }.
 # Variables:
 # $serverResponse - server response; $recipient - intended recipient
