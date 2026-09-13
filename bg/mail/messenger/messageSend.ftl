@@ -27,6 +27,9 @@ send-error-title = Грешка при изпращане на писмо
 send-progress-assembling-mail-information = Събиране на информация…
 send-progress-assembling-message = Сглобяване на писмото…
 send-progress-creating-mail-message = Създаване на писмо…
+# Variables:
+# $filename - name or URL of the file that could not be attached
+send-error-attaching-file = Възникна грешка при прикрепянето на { $filename }. Моля, проверете дали имате достъп до файла.
 send-progress-assembling-message-done = Сглобяване на писмото… готово
 send-progress-copy-complete = Копирането завършено.
 send-progress-copy-failed = Копирането неуспешно.
@@ -34,6 +37,9 @@ send-dialog-save-title = Запазване на писмо
 send-error-save-to-local-folders = Писмото не може да бъде запазено в местните папки. Вероятно няма достатъчно дисково пространство.
 send-progress-filter-complete = Филтрирането е завършено.
 send-progress-filter-failed = Филтрирането е неуспешно.
+# Variables:
+# $hostname - outgoing server hostname
+send-error-smtp-security-issue = Конфигурацията, свързана с { $hostname }, трябва да бъде коригирана.
 send-error-post-failed = Писмото не може да бъде изпратено, поради липса на връзка с новинарския сървър. Сървърът вероятно е недостъпен или отхвърля връзките. Моля, проверете дали настройките му са верни и опитайте отново.
 # Variables:
 # $size - formatted message size
@@ -42,6 +48,8 @@ send-warning-large-message = Внимание! Писмото, което ще �
 # $folder - destination folder name
 send-progress-copy-start = Копиране на писмото в папка { $folder }…
 send-progress-sending-message = Изпращане на писмо…
+send-error-nntp-ok = Съобщението ви беше публикувано в форума, но не беше изпратено на другия получател.
+send-error-copy-operation = Писмото беше изпратено, но не може да бъде копирано в папка Изпратени писма.
 send-later-error-title = Грешка при изпращане на писмо по-късно
 send-save-draft-error-title = Грешка при запазване на чернова
 send-save-template-error-title = Грешка при запазване на шаблон
@@ -70,7 +78,19 @@ smtp-auth-gssapi = Билетът Kerberos/GSSAPI не бе приет от из
 smtp-auth-mechanism-not-supported = Изходящият (SMTP) сървър { $hostname } не поддържа избрания метод за удостоверяване. Моля, променете „Метод на удостоверяване“ в „Настройки за регистрация | Изходящ сървър (SMTP)“.
 # Variables:
 # $serverResponse - server response
+smtp-server-error = Възникна грешка при изпращане на пощата: Грешка в изходящия (SMTP) сървър. Сървърът отговори:  { $serverResponse }.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-starttls-failed = Възникна грешка при изпращане на пощата: Установяването на сигурна връзка с изходящия (SMTP) сървър { $hostname } е невъзможно, ако се използва STARTTLS, тъй като той не обявява тази особеност. Изключете STARTTLS за този сървър или се свържете с вашия доставчик.
+# Variables:
+# $serverResponse - server response
 smtp-error-sending-from-command = Възникна грешка при изпращане на пощата. Пощенският сървър отговори: { $serverResponse }. Моля, проверете дали е верен пощенският Ви адрес в настройките и опитайте отново.
+# Variables:
+# $serverResponse - server response; $recipient - intended recipient
+smtp-error-sending-recipient-command =
+    Възникна грешка при изпращане на пощата. Сървърът отговори:
+    { $serverResponse }.
+    Моля, проверете получателя на писмото "{ $recipient }" и опитайте отново.
 # Variables:
 # $serverResponse - server response
 smtp-error-sending-data-command = Възникна грешка (SMTP) при изпращане на пощата. Сървърът отговори:  { $serverResponse }.
