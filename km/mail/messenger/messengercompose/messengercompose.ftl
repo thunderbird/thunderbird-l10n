@@ -10,6 +10,12 @@ compose-message-attachment-name = Attached Message
 
 ## Compose window
 
+compose-empty-subject-title = Subject Reminder
+compose-empty-subject-prompt = Your message doesn’t have a subject.
+compose-empty-subject-send-button = Send Without Subject
+compose-empty-subject-cancel-button = Cancel Sending
+compose-newsgroups-not-supported-title = Newsgroups Not Supported
+compose-newsgroups-not-supported = This account only supports email recipients. Continuing will ignore newsgroups.
 
 ## Send Format
 
@@ -74,6 +80,9 @@ cloudfile-uploading-notification = ឯកសារ​របស់​អ្នក
 # Variables:
 #   $count - the number big attached files
 big-file-notification-text = នេះ​ជា​ឯកសារ​ធំ។ វា​គួរតែ​​ប្រើ​តំណ​ឯកសារ​ជំនួស។ ទាំងនេះ​ជា​ឯកសារ​ធំ។ វា​គួរតែ​​ប្រើ​តំណ​ឯកសារ​ជំនួស។
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = ភ្ជាប់​ឯកសារ​តាម { $provider }
 
 ## Link Preview
 
