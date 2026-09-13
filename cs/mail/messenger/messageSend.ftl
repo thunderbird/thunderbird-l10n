@@ -45,6 +45,7 @@ send-error-save-draft-locally =
 send-error-save-template-locally =
     Vaše šablona nebyla zkopírována do složky šablon ({ $folder }) z důvodu chyby sítě nebo přístupu k souboru.
     Můžete to zkusit znovu nebo uložit šablonu lokálně do { $localFolder }/{ $folder }-{ $account }.
+send-dialog-save-title = Uložit zprávu
 send-dialog-retry = &Opakovat
 send-progress-filter-complete = Filtr dokončen.
 send-progress-filter-failed = Filtr selhal.
