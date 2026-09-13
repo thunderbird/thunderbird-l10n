@@ -10,6 +10,42 @@ compose-message-attachment-name = Pridėtas laiškas
 
 ## Compose window
 
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Įrašyti: { $subject } - { $brand }
+compose-send-confirm-title = Laiško išsiuntimas
+compose-send-confirm-prompt = Ar tikrai išsiųsti šį laišką?
+compose-send-confirm-button = Išsiųsti
+compose-attachment-reminder-title = Priminimas apie priedą
+compose-attachment-reminder-prompt = Ar nepamiršote pridėti failo?
+compose-attachment-reminder-send-button = Ne, išsiųsti laišką
+compose-attachment-reminder-add-button = A, tikrai!
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    Programa „{ $brand }“ šiuo metu įrašo laišką.
+    Norėsite palaukti, kol laiškas bus įrašytas, ar baigti darbą dabar?
+compose-file-attachment-error-title = Failo pridėjimas
+compose-rename-attachment-title = Priedo pervardinimas
+compose-rename-attachment-prompt = Įveskite naują priedo vardą:
+remind-later-button =
+    .label = Priminti vėliau
+    .accesskey = v
+disable-attachment-reminder-menu-item =
+    .label = Išjungti priminimą apie priedą šiam laiškui.
+find-replace-button =
+    .label = Pakeisti…
+    .accesskey = x
+    .tooltiptext = Rodyti teksto paieškos ir keitimo langą
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Įrašykite pasirinktinį siuntėjo adresą, kuris bus naudojamas vietoj { $identity }
+compose-custom-from-address-title = Pasirinkite siuntėjo adresą
+compose-custom-from-address-warning =
+    Jei norite, kad šio laiško gavėjai matytų kitokį siuntėjo adresą, čia galite jį nustatyti, nekurdami naujos tapatybės. Pavyzdžiui, jei įprastas jūsų siuntėjo adresas yra „Vardenis Pavardenis <vardenis@example.com>“, galite jį pakeisti į „Vardenis Pavardenis <vardenis+pavardenis@example.com>“ arba „Vardenis <vardenis@example.com>“.
+    Pastaba: prieš nurodydami alternatyvų el. pašto adresą, įsitikinkite, jog jūsų elektroninio pašto paslaugos teikėjo sistema šią funkciją palaiko.
+compose-custom-from-address-ignore = Daugiau niekada nepranešti man apie tai
 
 ## Send Format
 
@@ -168,6 +204,34 @@ attachment-reminder-keywords-msg =
 
 # Messages
 
+cloud-file-authentication-error-title = Klaida nustatant tapatumą
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Nepavyko nustatyti tapatumo tarnyboje „{ $provider }“.
+cloud-file-upload-error-title = Klaida įkeliant
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Klaida įkeliant failą „{ $filename }“ į „{ $provider }“.
+cloud-file-quota-error-title = Viršijama kvota
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Į „{ $provider }“ įkėlus failą „{ $filename }“, būtų viršyta jūsų disko vietos šioje tarnyboje kvota.
+cloud-file-size-error-title = Neleistinas failo dydis
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = Failo „{ $filename }“ dydis viršija didžiausią leistiną „{ $provider }“ tarnyboje.
+cloud-file-unknown-error-title = Nežinoma klaida
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Susisiekiant su „{ $provider }“ tarnyba, įvyko nežinoma klaida.
+cloud-file-deletion-error-title = Pašalinti nepavyko
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Failo „{ $filename }“ nepavyko pašalinti iš „{ $provider }“ tarnybos.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
@@ -184,6 +248,33 @@ big-file-notification-text =
         [few] Šie failai gan dideli. Galbūt geriau nusiųsti tik saitą į juos?
        *[other] Šie failai gan dideli. Galbūt geriau nusiųsti tik saitą į juos?
     }
+big-file-learn-more-button =
+    .label = Sužinoti daugiau…
+    .accesskey = d
+big-file-link-button =
+    .label = Siųsti saitą
+    .accesskey = S
+big-file-ignore-button =
+    .label = Praleisti
+    .accesskey = l
+big-file-choose-account-title = Pasirinkite paskyrą
+big-file-choose-account-prompt = Pasirinkite paskyrą debesyje, į kurią norite įkelti pridėtus failus
+big-file-hide-notification-title = Nekelti failų į debesį
+big-file-hide-notification-prompt = Daugiau apie pridedamus prie šio laiško didelius failus jums nebebus pranešama.
+big-file-hide-notification-checkbox = Niekada nepranešti apie didelius failus.
+cloudfile-uploading-stop-button =
+    .label = Ateityje šio pranešimo neberodyti
+    .accesskey = m
+cloud-file-privacy-warning = Nuorodų kūrimas baigtas. Atkreipkite dėmesį, jog debesyje patalpintus laiškų priedus galės pamatyti bet kas, kas sužinos arba nuspės jų adresus.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Failas įkeliamas į „{ $provider }“…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Failas įkeltas į „{ $provider }“
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Pridedamų per „{ $provider }“ failų parinkimas
 
 ## Link Preview
 
