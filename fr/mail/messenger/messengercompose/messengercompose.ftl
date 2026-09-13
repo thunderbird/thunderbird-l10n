@@ -10,6 +10,7 @@ compose-message-attachment-name = Message joint
 
 ## Compose window
 
+compose-do-not-show-again = Ne plus afficher cette boîte de dialogue.
 compose-empty-subject-title = Rappel de sujet
 compose-empty-subject-prompt = Votre message n’a pas de sujet.
 compose-empty-subject-send-button = &Envoyer sans sujet
@@ -20,6 +21,23 @@ compose-attachment-reminder-send-button = Non, envoyer maintenant
 compose-attachment-reminder-add-button = Oui
 compose-newsgroups-not-supported-title = Groupes de discussion non supportés
 compose-newsgroups-not-supported = Ce compte prend uniquement en charge les destinataires d’e-mails. En continuant, les groupes seront ignorés.
+compose-quit-sending-title = Envoi d’un message
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = Le fichier { $filename } n’existe pas et n’a pu être joint au message.
+compose-file-attachment-error-title = Pièce jointe
+compose-message-file-error-title = Fichier de message
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = Le fichier { $filename } n’existe pas et ne peut pas être utilisé comme corps du message.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = Le fichier { $filename } n’a pas pu être chargé comme corps du message.
+compose-save-success-title = Enregistrement du message
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Votre message a été enregistré dans le dossier { $folder } sous { $server }.
 remind-later-button =
     .label = Me le rappeler plus tard
     .accesskey = R
@@ -446,6 +464,7 @@ cloud-file-account-error-title = Erreur de compte Filelink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Échec de la mise à jour de la pièce jointe Filelink { $filename }, car son compte Filelink a été supprimé.
+cloud-file-authentication-error-title = Erreur d’authentification
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
@@ -460,6 +479,30 @@ big-file-notification-text =
         [one] Ce fichier est volumineux. Il serait préférable d’utiliser un espace de stockage de fichiers.
        *[other] Ces fichiers sont volumineux. Il serait préférable d’utiliser un espace de stockage de fichiers.
     }
+big-file-learn-more-button =
+    .label = En apprendre plus…
+    .accesskey = E
+big-file-link-button =
+    .label = Lier
+    .accesskey = L
+big-file-ignore-button =
+    .label = Ignorer
+    .accesskey = I
+big-file-choose-account-title = Choisir un compte
+big-file-choose-account-prompt = Choisir un compte pour y déposer la pièce jointe
+big-file-hide-notification-title = Ne pas télécharger mes fichiers vers un service de stockage en ligne
+big-file-hide-notification-prompt = Vous ne recevrez plus de notification si vous joignez d’autres fichiers volumineux à ce message.
+big-file-hide-notification-checkbox = Ne plus jamais me prévenir.
+cloud-file-privacy-warning = Le lien est établi. Notez bien que les pièces jointes seront accessibles à tous ceux qui peuvent voir ou deviner les liens.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Téléchargement vers { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Téléchargé vers { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Joindre le(s) fichier(s) par l’intermédiaire de { $provider }
 
 ## Link Preview
 
