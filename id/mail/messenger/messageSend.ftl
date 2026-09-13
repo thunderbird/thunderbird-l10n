@@ -24,3 +24,21 @@ send-error-smtp-interrupted = Pesan tidak dapat dikirim karena koneksi ke Server
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = Pesan tidak dapat dikirim karena koneksi ke Server keluar (SMTP) { $hostname } kehabisan waktu. Coba lagi.
 send-error-title = Gagal Mengirim Pesan
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-sent-locally =
+    Pesan Anda telah dikirim tetapi salinan tidak ditempatkan di folder terkirim Anda ({ $folder }) karena kesalahan akses jaringan atau file.
+    Anda dapat mencoba kembali atau menyimpan pesan secara lokal ke { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-draft-locally =
+    Pesan konsep Anda tidak disalin ke folder konsep Anda ({ $folder }) karena kesalahan akses jaringan atau file.
+    Anda dapat mencoba kembali atau menyimpan konsep tersebut secara lokal ke { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-template-locally =
+    Templat Anda tidak disalin ke folder templat Anda ({ $folder }) karena kesalahan akses jaringan atau file.
+    Anda dapat mencoba kembali atau menyimpan templat secara lokal ke { $localFolder }/{ $folder }-{ $account }.
+send-dialog-retry = &Coba Lagi
+send-error-save-to-local-folders = Tidak dapat menyimpan pesan Anda ke folder lokal. Mungkin kehabisan ruang penyimpanan file.
+send-error-filtering-message = Pesan Anda telah dikirim dan disimpan, tetapi ada kesalahan saat menjalankan filter pesan di dalamnya.
