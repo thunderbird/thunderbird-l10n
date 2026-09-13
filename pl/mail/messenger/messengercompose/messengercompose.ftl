@@ -10,6 +10,8 @@ compose-message-attachment-name = Załączona wiadomość
 
 ## Compose window
 
+compose-initialization-error-title = Tworzenie wiadomości
+compose-initialization-error = Podczas tworzenia okna nowej wiadomości wystąpił błąd. Należy ponowić próbę.
 compose-default-subject = (bez tematu)
 # Variables:
 # $subject - message subject
@@ -20,13 +22,67 @@ compose-save-message-title = Zapisz wiadomość
 # $folder - configured drafts folder name
 compose-save-message-prompt = Zapisać tę wiadomość w folderze { $folder } i zamknąć okno tworzenia wiadomości?
 compose-discard-changes-button = &Odrzuć zmiany
+compose-send-confirm-title = Wyślij wiadomość
+compose-send-confirm-prompt = Czy na pewno ta wiadomość jest gotowa do wysłania?
+compose-send-confirm-button = Wyślij
+compose-do-not-show-again = Nie pokazuj więcej tego okna dialogowego.
 compose-empty-subject-title = Brak tematu
 compose-empty-subject-prompt = Wysyłana wiadomość nie ma tematu.
 compose-empty-subject-send-button = &Wyślij bez tematu
 compose-empty-subject-cancel-button = &Anuluj wysyłanie
+compose-attachment-reminder-title = Przypomnienie o brakujących załącznikach
+compose-attachment-reminder-prompt = Czy ta wiadomość nie powinna zawierać załączników?
+compose-attachment-reminder-send-button = Nie, wyślij bez załączników
+compose-attachment-reminder-add-button = Faktycznie!
 compose-newsgroups-not-supported-title = Brak obsługi grup dyskusyjnych
 compose-newsgroups-not-supported = Z tego konta można wysyłać wiadomości jedynie na adresy e-mail. Próby wysłania wiadomości na serwery grup dyskusyjnych zostaną zignorowane.
+compose-invalid-address-title = Błędny adres odbiorcy
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } nie jest poprawnym adresem e-mail. Adres e-mail powinien mieć budowę użytkownik@domena. Proszę poprawić adres przed wysłaniem wiadomości.
+compose-quit-sending-title = Wysyłanie wiadomości
+compose-quit-saving-title = Zapisywanie wiadomości
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } wysyła wiadomość.
+    Zaczekać z kończeniem programu aż wiadomość zostanie wysłana, czy zakończyć natychmiast?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } zapisuje wiadomość.
+    Zaczekać z kończeniem programu aż wiadomość zostanie zapisana, czy zakończyć natychmiast?
+compose-quit-button = Zakończ
+compose-wait-button = Zaczekaj
 compose-attach-file-picker-title = Załącz plik do tej wiadomości
+compose-attach-page-title = Podaj adres strony (URL)
+compose-attach-page-prompt = Adres strony, którą chcesz załączyć:
+compose-message-part-attachment-name = Część załączonej wiadomości
+compose-attachment-bucket-attach-files-tooltip = Załącz plik
+compose-attachment-bucket-clear-selection-tooltip = Wyczyść zaznaczenie
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = Załącznik nie mógł zostać dodany do wiadomości, ponieważ plik „{ $filename }” nie istnieje.
+compose-file-attachment-error-title = Załączanie pliku
+compose-message-file-error-title = Plik wiadomości
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = Plik „{ $filename }” nie istnieje, więc nie może zostać użyty jako treść wiadomości.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = Plik „{ $filename }” nie może zostać wczytany jako treść wiadomości.
+compose-save-success-title = Zapisz wiadomość
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Twoja wiadomość została zapisana do folderu { $folder } w { $server }.
+compose-rename-attachment-title = Zmień nazwę załącznika
+compose-rename-attachment-prompt = Nowa nazwa:
+remind-later-button =
+    .label = Przypomnij mi później
+    .accesskey = P
+disable-attachment-reminder-menu-item =
+    .label = Wyłącz przypomnienie o brakujących załącznikach dla bieżącej wiadomości
 find-replace-button =
     .label = Zamień…
     .accesskey = m
@@ -531,9 +587,30 @@ big-file-notification-text =
         [few] To są duże pliki – być może lepiej byłoby użyć serwisu przechowywania plików?
        *[many] To są duże pliki – być może lepiej byłoby użyć serwisu przechowywania plików?
     }
+big-file-learn-more-button =
+    .label = Więcej informacji…
+    .accesskey = W
+big-file-link-button =
+    .label = Tak, użyj
+    .accesskey = u
+big-file-ignore-button =
+    .label = Ignoruj
+    .accesskey = I
+big-file-choose-account-title = Wybierz konto
+big-file-choose-account-prompt = Wybierz konto serwisu przechowywania, na które wgrać pliki
+big-file-hide-notification-title = Nie wgrywaj plików
+big-file-hide-notification-prompt = Nie będziesz więcej powiadamiany, gdy załączysz więcej dużych plików do tej wiadomości.
+big-file-hide-notification-checkbox = Nie pytaj ponownie.
 cloudfile-uploading-stop-button =
     .label = Nie pytaj ponownie o wgrywanie plików
     .accesskey = N
+cloud-file-privacy-warning = Ukończono tworzenie odnośnika dla pliku. Należy pamiętać, że wgrane załączniki będą dostępne dla wszystkich znających (a także potrafiących odgadnąć) odnośnik.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Wgrywanie do { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Ukończono wgrywanie do { $provider }
 # Variables:
 # $provider - name of the online storage service
 cloud-file-attach-picker-title = Załącz plik poprzez { $provider }
