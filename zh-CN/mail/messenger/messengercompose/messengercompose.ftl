@@ -16,6 +16,7 @@ compose-default-subject = （无主题）
 # $subject - message subject
 # $brand - application name
 compose-window-title = 撰写：{ $subject } - { $brand }
+compose-save-message-title = 保存消息
 # Variables:
 # $folder - configured drafts folder name
 compose-save-message-prompt = 保存此消息到您的草稿文件夹（{ $folder }）并关闭撰写窗口？
