@@ -10,6 +10,44 @@ compose-message-attachment-name = Gekoppeld bericht
 
 ## Compose window
 
+compose-send-confirm-title = Bericht verzenden
+compose-send-confirm-prompt = Weet u zeker dat u dit bericht wilt verzenden?
+compose-send-confirm-button = Verzenden
+compose-empty-subject-title = Onderwerpherinnering
+compose-empty-subject-prompt = Uw bericht heeft geen onderwerp.
+compose-empty-subject-send-button = &Verzenden zonder onderwerp
+compose-empty-subject-cancel-button = Verzenden &annuleren
+compose-attachment-reminder-title = Bijlageherinnering
+compose-attachment-reminder-prompt = Bent u vergeten een bijlage toe te voegen?
+compose-newsgroups-not-supported-title = Nieuwsgroepen niet ondersteund
+compose-newsgroups-not-supported = Deze account ondersteunt alleen e-mailontvangers. Doorgaan zal nieuwsgroepen negeren.
+compose-invalid-address-title = Ongeldig ontvangeradres
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } is geen geldig e-mailadres, omdat het niet de vorm gebruiker@host heeft. U moet dit corrigeren voordat u de e-mail verzendt.
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } is momenteel bezig met het opslaan van een bericht.
+    Wilt u wachten tot het bericht is opgeslagen voordat u afsluit, of nu afsluiten?
+compose-attach-page-title = Geef een locatie op om te koppelen
+compose-attach-page-prompt = Webpagina (URL):
+compose-message-part-attachment-name = Gekoppeld berichtgedeelte
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = Het bestand { $filename } bestaat niet en kan dus niet aan het bericht worden gekoppeld.
+compose-file-attachment-error-title = Bestand koppelen
+compose-rename-attachment-title = Bijlage hernoemen
+compose-rename-attachment-prompt = Nieuwe bijlagenaam:
+remind-later-button =
+    .label = Later herinneren
+    .accesskey = L
+disable-attachment-reminder-menu-item =
+    .label = Bijlageherinnering voor huidige bericht uitschakelen
+find-replace-button =
+    .label = Vervangen…
+    .accesskey = r
+    .tooltiptext = Het dialoogvenster Zoeken en vervangen tonen
 
 ## Send Format
 
@@ -432,6 +470,34 @@ cloud-file-account-error-title = Filelink-accountfout
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Kan de Filelink-bijlage { $filename } niet bijwerken, omdat de Filelink-account is verwijderd.
+cloud-file-authentication-error-title = Authenticatiefout
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Kan niet authenticeren bij { $provider }.
+cloud-file-upload-error-title = Uploadfout
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Kan { $filename } niet uploaden naar { $provider }.
+cloud-file-quota-error-title = Quotumfout
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Het uploaden van { $filename } naar { $provider } overschrijdt uw ruimtequotum.
+cloud-file-size-error-title = Bestandsgroottefout
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } overschrijdt de maximale grootte bij { $provider }.
+cloud-file-unknown-error-title = Onbekende fout
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Er is een onbekende fout opgetreden bij het communiceren met { $provider }.
+cloud-file-deletion-error-title = Verwijderfout
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Er was een probleem bij het verwijderen van { $filename } bij { $provider }.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
@@ -446,6 +512,33 @@ big-file-notification-text =
         [one] Dit is een groot bestand. Het is misschien beter om Filelink te gebruiken.
        *[other] Dit zijn grote bestanden. Het is misschien beter om Filelink te gebruiken.
     }
+big-file-learn-more-button =
+    .label = Meer info…
+    .accesskey = M
+big-file-link-button =
+    .label = Koppelen
+    .accesskey = K
+big-file-ignore-button =
+    .label = Negeren
+    .accesskey = e
+big-file-choose-account-title = Account kiezen
+big-file-choose-account-prompt = Kies een cloud-account voor het uploaden van de bijlage
+big-file-hide-notification-title = Mijn bestanden niet uploaden
+big-file-hide-notification-prompt = U wordt niet gewaarschuwd als u nog meer grote bestanden aan dit bericht koppelt.
+big-file-hide-notification-checkbox = Mij hiervoor nooit meer waarschuwen
+cloudfile-uploading-stop-button =
+    .label = Nooit meer tonen
+    .accesskey = e
+cloud-file-privacy-warning = Koppelen is voltooid. Let erop dat gekoppelde bijlagen toegankelijk kunnen zijn voor personen die de koppelingen kunnen zien of raden.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Uploaden naar { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Geüpload naar { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Bestand(en) koppelen via { $provider }
 
 ## Link Preview
 
