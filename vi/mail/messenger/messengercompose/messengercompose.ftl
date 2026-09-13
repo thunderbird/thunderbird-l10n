@@ -10,8 +10,52 @@ compose-message-attachment-name = Thư được Đính kèm
 
 ## Compose window
 
+compose-send-confirm-title = Gửi thư
+compose-send-confirm-prompt = Bạn có chắc là bạn đã sẵn sàng gửi thư này không?
+compose-send-confirm-button = Gửi
+compose-do-not-show-again = Không hiện lại hộp thoại này.
+compose-empty-subject-title = Nhắc về Tiêu đề
+compose-empty-subject-prompt = Thư này chưa có tiêu đề.
+compose-empty-subject-send-button = &Gửi thư Không có Tiêu đề
+compose-empty-subject-cancel-button = &Hủy việc gửi
 compose-attachment-reminder-title = Nhắc nhở đính kèm
 compose-attachment-reminder-prompt = Bạn có quên thêm phần đính kèm?
+compose-attachment-reminder-send-button = Không, gửi ngay
+compose-attachment-reminder-add-button = Oh, tôi đã làm!
+compose-newsgroups-not-supported-title = Nhóm tin không được hỗ trợ
+compose-newsgroups-not-supported = Tài khoản này chỉ hỗ trợ người nhận email. Nếu tiếp tục thì sẽ bỏ qua nhóm tin.
+compose-quit-sending-title = Đang gửi thư
+compose-quit-saving-title = Đang lưu thư
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } hiện đang trong quá trình gửi thư.
+    Bạn có muốn đợi cho đến khi thư được gửi xong rồi mới thoát hay thoát ngay bây giờ?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } hiện đang trong quá trình lưu thư.
+    Bạn có muốn đợi cho đến khi thư được lưu xong rồi mới thoát hay thoát ngay bây giờ?
+compose-quit-button = &Thoát
+compose-wait-button = &Chờ đợi
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = Tập tin { $filename } không tồn tại nên không thể được đính kèm vào thư.
+compose-file-attachment-error-title = Đính kèm tập tin
+compose-message-file-error-title = Tập tin thư
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = Tập tin { $filename } không tồn tại và không thể được sử dụng làm nội dung thư.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = Không thể tải tập tin { $filename } dưới dạng nội dung thư.
+compose-save-success-title = Lưu thư
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Thư của bạn đã được lưu vào thư mục { $folder } dưới { $server }.
+compose-rename-attachment-title = Đổi tên đính kèm
+compose-rename-attachment-prompt = Tên phần đính kèm mới:
 remind-later-button =
     .label = Nhắc tôi sau
     .accesskey = L
@@ -407,6 +451,27 @@ cloudfile-uploading-notification = Tập tin của bạn đang được liên k�
 # Variables:
 #   $count - the number big attached files
 big-file-notification-text = Đây là những tập tin lớn. Có thể tốt hơn nếu sử dụng Filelink.
+big-file-learn-more-button =
+    .label = Tìm hiểu thêm…
+    .accesskey = m
+big-file-link-button =
+    .label = Liên kết
+    .accesskey = l
+big-file-ignore-button =
+    .label = Bỏ qua
+    .accesskey = i
+big-file-choose-account-title = Chọn tài khoản
+big-file-choose-account-prompt = Chọn một tài khoản đám mây để tải tệp đính kèm lên
+big-file-hide-notification-title = Không tải lên tập tin của tôi
+big-file-hide-notification-prompt = Bạn sẽ không được thông báo nếu bạn đính kèm nhiều tệp lớn hơn vào thư này.
+big-file-hide-notification-checkbox = Không bao giờ thông báo tôi về điều này lần nữa.
+cloud-file-privacy-warning = Liên kết đã hoàn tất. Xin lưu ý rằng những người có thể xem hoặc đoán các liên kết có thể truy cập được các đính kèm được liên kết.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Đang tải lên vào { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Đã tải lên vào { $provider }
 
 ## Link Preview
 
