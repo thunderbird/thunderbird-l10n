@@ -7,6 +7,8 @@
 
 send-alert-queued-delivery-failed = Hiba történt az el nem küldött üzenetek kézbesítésekor.
 send-alert-followup-to-sender = Az üzenet szerzője saját magát jelölte meg az esetleges válaszok egyedüli címzettjének. Ha el szeretné küldeni ezt az üzenetet a hírcsoportnak is, adjon hozzá egy sort a címzettek listájához, válassza a Hírcsoport típust a lehetőségek közül, majd írja be a hírcsoport nevét.
+send-unable-to-save-template = Nem lehet az üzenetet sablonként menteni.
+send-unable-to-save-draft = Nem lehet az üzenetet piszkozatként menteni.
 send-error-failed = Az üzenet küldése sikertelen.
 send-unable-to-send-later = Elnézést, nem sikerült menteni az üzenetet a későbbi elküldéshez.
 # Variables:
