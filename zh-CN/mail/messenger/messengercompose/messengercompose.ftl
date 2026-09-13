@@ -480,6 +480,7 @@ cloud-file-account-error-title = 文件快传账户错误
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = 由于文件快传已被删除，文件快传附件 { $filename } 未能更新。
+cloud-file-authentication-error-title = 验证错误
 # Variables:
 # $provider - name of the online storage service
 cloud-file-authentication-error = 无法验证 { $provider }。
