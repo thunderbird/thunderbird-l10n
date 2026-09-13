@@ -6,6 +6,7 @@
 ## Compose alerts
 
 compose-message-cancelling = Ruší sa…
+compose-message-attachment-name = Priložená správa
 
 ## Compose window
 
