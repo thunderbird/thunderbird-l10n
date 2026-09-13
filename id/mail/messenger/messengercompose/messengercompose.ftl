@@ -12,10 +12,15 @@ compose-message-attachment-name = Pesan Terlampir
 
 compose-initialization-error-title = Penyunting Pesan
 compose-initialization-error = Kesalahan terjadi saat membuat jendela pembuat pesan. Silakan coba lagi.
+compose-default-subject = (belum ada subjek)
 # Variables:
 # $subject - message subject
 # $brand - application name
 compose-window-title = Tulis: { $subject } - { $brand }
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Simpan pesan ini ke folder draf Anda ({ $folder }) dan tutup jendela Tulis?
+compose-discard-changes-button = &Batalkan perubahan
 compose-send-confirm-title = Kirim Pesan
 compose-send-confirm-prompt = Yakin siap mengirim pesan ini?
 compose-send-confirm-button = Kirim
@@ -48,6 +53,7 @@ compose-quit-saving-prompt =
     Apakah Anda ingin menunggu sampai pesan disimpan sebelum berhenti atau keluar sekarang?
 compose-quit-button = &Keluar
 compose-wait-button = &Tunggu
+compose-attach-file-picker-title = Lampirkan Berkas
 compose-attach-page-title = Tentukan lokasi untuk dilampirkan
 compose-attach-page-prompt = Laman Web (URL):
 compose-message-part-attachment-name = Bagian Pesan Terlampir
