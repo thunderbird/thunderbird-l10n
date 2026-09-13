@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 attachment-reminder-dialog-title = Λέξεις-κλειδιά υπενθύμισης συνημμένων
+attachment-reminder-description = Εμφάνιση υπενθύμισης για συνημμένα που λείπουν, εφόσον το email περιέχει σχετικές λέξεις-κλειδιά.
 attachment-reminder-label = Το { -brand-short-name } θα σας προειδοποιήσει σχετικά με ξεχασμένα συνημμένα όταν πρόκειται να στείλετε email με τις παρακάτω λέξεις-κλειδιά.
 keyword-new-button =
     .label = Νέα…

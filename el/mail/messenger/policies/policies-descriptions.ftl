@@ -28,6 +28,7 @@ policy-DisabledCiphers = Απενεργοποίηση κρυπτογράφηση
 policy-DefaultDownloadDirectory = Ορισμός προεπιλεγμένου καταλόγου λήψης.
 policy-DisableAppUpdate = Αποτροπή ενημέρωσης του { -brand-short-name }.
 policy-DisableChat = Απενεργοποίηση της λειτουργίας συνομιλίας.
+policy-DisableCommunity = Να μην εμφανίζονται λειτουργίες κοινότητας στο γραφικό περιβάλλον (όπως Δωρεές, Συμμετοχή, Αποστολή ιδεών κ.λπ.)
 policy-DisableDataCollectionSettings = Αποτροπή της αλλαγής των ρυθμίσεων συλλογής δεδομένων από τον χρήστη.
 policy-DisableDefaultClientAgent = Αποτροπή οποιασδήποτε ενέργειας από την προεπιλεγμένη λειτουργία πελάτη. Ισχύει μόνο για Windows· οι άλλες πλατφόρμες δεν έχουν τέτοια υπηρεσία.
 policy-DisableDeveloperTools = Αποκλεισμός πρόσβασης στα εργαλεία ανάπτυξης.
