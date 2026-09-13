@@ -10,6 +10,62 @@ compose-message-attachment-name = Připowěsnjena powěsć
 
 ## Compose window
 
+compose-send-confirm-title = Powěsć pósłać
+compose-send-confirm-prompt = Sće woprawdźe hotowy, tutu powěsć pósłać?
+compose-send-confirm-button = Pósłać
+compose-do-not-show-again = Tutón dialog hižo njepokazać.
+compose-attachment-reminder-title = Přiwěškowe napominanje
+compose-attachment-reminder-prompt = Sće zabył přiwěšk přidać?
+compose-attachment-reminder-send-button = Ně, nětko pósłać
+compose-attachment-reminder-add-button = Ow, haj!
+compose-quit-sending-title = Powěsć pósłać
+compose-quit-saving-title = Powěsć składować
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } tuchwilu powěsć sćele.
+    Chceće čakać, doniž powěsć njeje so pósłała, prjedy hač skónčiće abo nětko skónčić?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } tuchwilu powěsć składuje.
+    Chceće čakać, doniž powěsć njeje so składowała, prjedy hač skónčiće abo nětko skónčić?
+compose-quit-button = &Skónčić
+compose-wait-button = Ča&kać
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = Dataja { $filename } njeeksistuje a njeda so tohodla k powěsći připowěsnyć.
+compose-message-file-error-title = Powěsćowa dataja
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = Dataja { $filename } njeeksistuje a njeda so jako wobsah powěsće wužiwać.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = Dataja { $filename } njeda so wobsah powěsće začitać.
+compose-save-success-title = Powěsć składować
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Waša powěsć je so do rjadowaka { $folder } na { $server } składowała.
+compose-rename-attachment-title = Přiwěšk přemjenować
+compose-rename-attachment-prompt = Nowe mjeno přiwěška:
+remind-later-button =
+    .label = Pozdźišo dopomnić
+    .accesskey = P
+disable-attachment-reminder-menu-item =
+    .label = Přiwěškowe dopominanje za aktualnu powěsć znjemóžnić
+find-replace-button =
+    .label = Wuměnić…
+    .accesskey = m
+    .tooltiptext = Dialog Pytać a wuměnić pokazać
+compose-blocked-content-options-button = Nastajenja
+compose-blocked-content-options-accesskey = N
+compose-blocked-content-preferences-button = Nastajenja
+compose-blocked-content-preferences-accesskey = N
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = { $url } wjace njeblokować
 
 ## Send Format
 
@@ -459,6 +515,33 @@ cloud-file-account-error-title = Kontowy zmylk Filelink
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Přiwěšk { $filename } Filelink njeda so aktualizować, dokelž jeho lokalna dataja je so zhašała.
 # Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Awtentifikacija napřećo { $provider } móžna njeje.
+cloud-file-upload-error-title = Nahraćowy zmylk
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Njeje móžno, { $filename } do { $provider } nahrać.
+cloud-file-quota-error-title = Kwotowy zmylk
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Nahrawanje dataje { $filename } do { $provider } by waš webskładowy limit překročiło.
+cloud-file-size-error-title = Zmylk datajoweje wulkosće
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } překročuje maksimalnu wulkosć za { $provider }.
+cloud-file-unknown-error-title = Njeznaty zmylk
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Při komunikowanju z { $provider } je njeznaty zmylk wustupił.
+cloud-file-deletion-error-title = Hašenski zmylk
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Při hašenju { $filename } z { $provider } je problem wustupił.
+# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
     { $count ->
@@ -476,6 +559,30 @@ big-file-notification-text =
         [few] To su wulke dataje. Snano je lěpje, město toho Filelink wužiwać
        *[other] To su wulke dataje. Snano je lěpje, město toho Filelink wužiwać.
     }
+big-file-learn-more-button =
+    .label = Dalše informacije…
+    .accesskey = i
+big-file-link-button =
+    .label = Zwjazać
+    .accesskey = Z
+big-file-ignore-button =
+    .label = Ignorować
+    .accesskey = I
+big-file-choose-account-title = Konto wubrać
+big-file-choose-account-prompt = Wubjerće mróčelowe konto, zo by přiwěšk nahrał
+big-file-hide-notification-title = Dataje njenahrać
+big-file-hide-notification-prompt = Njedóstanjeće žanu zdźělenku, jeli dalše wulke dataje k tutej powěsći připowěsnjeće.
+big-file-hide-notification-checkbox = Wo tym hižo njeinformować.
+cloudfile-uploading-stop-button =
+    .label = To ženje hižo njepokazać
+    .accesskey = n
+cloud-file-privacy-warning = Wotkazowanje je zakónčene. Prošu wobkedźbujće, zo wotkazane přiwěški móža za ludźi přistupne być, kotřiž móža wotkazy zhódać abo widźeć.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Nahraje so do { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Do { $provider } nahraty
 
 ## Link Preview
 
