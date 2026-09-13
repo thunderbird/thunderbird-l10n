@@ -10,16 +10,30 @@ compose-message-attachment-name = رسالة مرفقة
 
 ## Compose window
 
+compose-initialization-error-title = إنشاء الرسالة
+compose-initialization-error = حصل خطأ أثناء تحضير نافذة إنشاء الرسائل. رجاءً حاول مجددًا.
+compose-default-subject = (بدون عنوان)
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = أتريد حفظ هذه الرسالة في مجلد المسودات ({ $folder }) و إغلاق نافذة الكتابة؟
+compose-discard-changes-button = &تجاهل التغييرات
 compose-attachment-reminder-title = مذكّر المرفقات
 compose-attachment-reminder-prompt = هل نسيت أن تضيف المرفق؟
 compose-attachment-reminder-send-button = لا، أرسِل الآن
 compose-attachment-reminder-add-button = أوه، نسيتُ فعلًا!
+compose-attach-file-picker-title = أرفق ملفات
+compose-attachment-bucket-attach-files-tooltip = أرفق ملفات
+compose-attachment-bucket-clear-selection-tooltip = امسح التحديد
 compose-file-attachment-error-title = إرفاق الملف
 remind-later-button =
     .label = ذكّرني لاحقًا
     .accesskey = ذ
 disable-attachment-reminder-menu-item =
     .label = عطّل تذكير المرفقات للرسالة الحالية
+find-replace-button =
+    .label = استبدل…
+    .accesskey = س
+    .tooltiptext = أظهر حوار البحث و الاستبدال
 
 ## Send Format
 
@@ -137,6 +151,9 @@ big-file-choose-account-prompt = اختر حساب تخزين على الإنت�
 big-file-hide-notification-title = لا ترفع ملفاتي
 big-file-hide-notification-prompt = لن تُنبه إذا أرفقت المزيد من الملفات الكبيرة بهذه الرسالة.
 big-file-hide-notification-checkbox = لا تنبهني عن هذا ثانيا.
+cloudfile-uploading-stop-button =
+    .label = لا تُظهر هذا مجددًا أبدًا
+    .accesskey = ه
 cloud-file-privacy-warning = اكتمل الربط. لاحظ أن المرفقات المربوطة قد تكان متاحة للأشخاص الذي يستطيعون رؤية أو تخمين الروابط.
 # Variables:
 # $provider - name of the online storage service
