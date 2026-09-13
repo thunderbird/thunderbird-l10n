@@ -17,3 +17,4 @@ send-error-smtp-interrupted = Wysyłanie wiadomości się nie powiodło, poniewa
 # Variables:
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = Wysyłanie wiadomości się nie powiodło, ponieważ upłynął limit czasu połączenia z serwerem { $hostname } poczty wychodzącej (SMTP). Należy spróbować ponownie lub skontaktować się z administratorem sieci.
+send-error-title = Błąd wysyłania wiadomości
