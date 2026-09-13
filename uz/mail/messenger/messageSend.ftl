@@ -27,6 +27,9 @@ send-error-title = Xabarni jo‘natishda xatolik yuz berdi
 send-progress-assembling-mail-information = Xat ma’lumotlari yig‘ilmoqda…
 send-progress-assembling-message = Xabar yig‘ilmoqda…
 send-progress-creating-mail-message = Xat xabari yaratilmoqda…
+# Variables:
+# $filename - name or URL of the file that could not be attached
+send-error-attaching-file = { $filename } biriktirilayotganda xatolik yuz berdi. Fayldan foydalanish uchun ruxsat berilganligini tekshirib ko‘ring.
 send-progress-assembling-message-done = Xabar yig‘ilmoqda… Tayyor
 send-progress-copy-complete = Nusxa olish tugadi.
 send-progress-copy-failed = Nuxsa olinmadi.
@@ -34,6 +37,7 @@ send-dialog-save-title = Xabarni saqlash
 send-progress-filter-complete = Filterlash tugadi.
 send-progress-filter-failed = Filterlanmadi.
 send-error-filtering-message = Xabaringiz jo‘natildi va saqlandi, ammo xabar filterlari ishga tushirilayotganda xatolik yuz berdi.
+send-error-post-failed = Xabar e’lon qilinmadi, chunki yangiliklar serveriga ulanishda xatolik yuz berdi. Server o‘chirilgan bo‘lishi yoki ulanishlarni rad qilayotgan bo‘lishi mumkin. Yangiliklar server sozlamalari to‘g‘ri ekanligiga ishonch hosil qiling.
 # Variables:
 # $size - formatted message size
 send-warning-large-message = Diqqat! { $size } hajmdagi xabarni jo‘natish arafsidasiz. Buni rostdan amalga oshirmoqchimisiz?
@@ -41,6 +45,8 @@ send-warning-large-message = Diqqat! { $size } hajmdagi xabarni jo‘natish araf
 # $folder - destination folder name
 send-progress-copy-start = Xabardan { $folder } jildiga nusxa ko‘chirilmoqda…
 send-progress-sending-message = Xabar jo‘natilmoqda…
+send-error-nntp-ok = Xabaringiz yangiliklar to‘plamida qoldirildi, ammo boshqa qabul qiluvchiga jo‘natilmadi.
+send-error-copy-operation = Xabar muvaffaqiyatli jo‘natildi, ammo Jo‘natilganlar jildiga nusxa ko‘chirilmadi.
 send-later-error-title = Keyinroq jo‘natishda xatolik
 send-save-draft-error-title = Qoralamga saqlashda xatolik
 send-save-template-error-title = Namunani saqlashda xatolik
@@ -64,3 +70,27 @@ smtp-auth-gssapi = Kerberos/GSSAPI biletini (SMTP) { $hostname }  chiquvchi serv
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-mechanism-not-supported = (SMTP) { $hostname } chiquvchi serveri tanlangan haqiqiylikni tasdiqlash uslubi bilan ishlay olmaydi. "Hisob sozlamalari | Chiquvchi server (SMTP)" ichidan "Haqiqiylikni tekshirish uslubi"ni o‘zgartiring.
+# Variables:
+# $serverResponse - server response
+smtp-server-error = Xat jo‘natishda xatolik yuz berdi: Chiquvchi serverda (SMTP) xatolik yuz berdi. Serverning javobi:  { $serverResponse }.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-starttls-failed = Xat jo‘natilayotganda xatolik yuz berdi: STARTTLS xususiyatlarini reklama qilmaganidan boshlab undan foydalanib chiquvchi server (SMTP) { $hostname } bilan xavfsiz bog‘lanish o‘rnatib bo‘lmadi. Bu server uchun STARTTLS’ni o‘chirib qo‘ying yoki xizmat ta’minotchisi bilan bog‘laning.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-from-command = Xat jo‘natishda xatolik yuz berdi. Pochta serverining javobi: { $serverResponse }. Hisob sozlamalaridagi e-pochta manzili to‘g‘ri ekanligini tasdiqlang va qayta urinib ko‘ring.
+# Variables:
+# $serverResponse - server response
+smtp-permanent-size-exceeded = Jo‘natiladigan xabar hajmi serverning global hajm cheklovidan ortiqcha. Xabar jo‘natilmadi. Xabar hajmini kichiklashtirishga harakat qiling yoki biroz kutib qaytadan urinib ko‘ring. Server javobi:  { $serverResponse }.
+# Variables:
+# $serverResponse - server response; $recipient - intended recipient
+smtp-error-sending-recipient-command =
+    Xat jo‘natilayotganda xatolik yuz berdi. Pochta serveri javobi:
+    { $serverResponse }.
+    "{ $recipient }" qabul qiluvchini tekshiring va qayta urinib ko‘ring.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-data-command = Xatni jo‘natishda chiquvchi serverda (SMTP) xatolik yuz berdi. Serverning javobi: { $serverResponse }.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-message = Xat jo‘natishda xatolik yuz berdi. Pochta serverining javobi: { $serverResponse }. Xabarni tekshiring va qayta urinib ko‘ring.
