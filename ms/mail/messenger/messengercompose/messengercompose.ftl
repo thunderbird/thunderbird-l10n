@@ -6,6 +6,7 @@
 ## Compose alerts
 
 compose-message-cancelling = Membatalkan…
+compose-message-attachment-name = Mesej Lampiran
 
 ## Compose window
 

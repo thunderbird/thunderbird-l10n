@@ -5,7 +5,11 @@
 
 ## Message sending
 
+send-alert-queued-delivery-failed = Ada ralat semasa menghantar mesej yang tidak dihantar.
 send-alert-followup-to-sender = Pengarang mesej ini telah meminta supaya respons hanya dihantarkan kepada beliau. Jika anda juga mahu membalas ke kumpulan berita, tambah satu baris dalam ruang alamat, pilih Kumpulan berita dalam senarai penerima dan masukkan nama kumpulan berita tersebut.
+send-unable-to-save-template = Tidak dapat menyimpan mesej anda sebagai templat.
+send-unable-to-save-draft = Tidak dapat menyimpan mesej anda sebagai draf.
+send-error-failed = Gagal menghantar mesej.
 send-unable-to-send-later = Maaf, kami tidak dapat menyimpan mesej anda yang mahu dihantar kemudian.
 # Variables:
 # $hostname - outgoing server hostname
