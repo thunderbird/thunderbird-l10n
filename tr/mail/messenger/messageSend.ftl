@@ -7,6 +7,8 @@
 
 send-alert-queued-delivery-failed = Gönderilmeyen iletiler teslim edilirken bir hata oluştu.
 send-alert-followup-to-sender = Bu iletinin yazarı yanıtların yalnızca kendisine gönderilmesini istedi. Haber grubunu da yanıtlamak isterseniz, adres alanına bir satır daha ekleyin, alıcı listesinden haber grubunu seçin ve haber grubunun adını girin.
+send-unable-to-save-template = İletiniz şablon olarak kaydedilemedi.
+send-unable-to-save-draft = İletiniz taslak olarak kaydedilemedi.
 send-error-failed = İletinin gönderilmesi başarısız oldu.
 send-unable-to-send-later = Üzgünüz, iletinizi daha sonra gönderilmek üzere kaydedemedik.
 # Variables:
