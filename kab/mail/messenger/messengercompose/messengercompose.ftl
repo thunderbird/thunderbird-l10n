@@ -17,6 +17,7 @@ compose-default-subject = (ulac asentel)
 # $subject - message subject
 # $brand - application name
 compose-window-title = Aru: { $subject } - { $brand }
+compose-save-message-title = Sekles izen
 # Variables:
 # $folder - configured drafts folder name
 compose-save-message-prompt = Sekles izen-agideg ukaram n tqecwalt ({ $folder }) sakin mdel asfaylu n tira?
