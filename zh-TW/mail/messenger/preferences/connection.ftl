@@ -95,8 +95,8 @@ proxy-auto-login-saved-password =
     .tooltiptext = 勾選此選項後，若您已將密碼儲存起來，連線時就不會再詢問您密碼。驗證失敗後才會再向您詢問。
     .accesskey = 儲
 proxy-socks-remote-dns =
-    .label = 透過 SOCKS v5 Proxy 傳送網域請求 (DNS)
-    .accesskey = 透
+    .label = 透過 SOCKS v5 代理伺服器查詢網域名稱（DNS）
+    .accesskey = d
 # Do not translate "localhost", "127.0.0.1/8" and "::1". (You can translate "and".)
 connection-proxy-noproxy-localhost-desc-2 = 與 localhost、127.0.0.1/8 與 ::1 的連線永遠不會經過代理伺服器。
 proxy-password-prompt =
