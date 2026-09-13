@@ -10,6 +10,8 @@ compose-message-attachment-name = Póstviðhengi
 
 ## Compose window
 
+compose-initialization-error-title = Búa til póst
+compose-initialization-error = Villa kom upp við að búa til nýjan póstglugga. Prófaðu aftur.
 compose-default-subject = (ekkert efni)
 # Variables:
 # $subject - message subject
@@ -34,6 +36,10 @@ compose-attachment-reminder-send-button = Nei, senda strax
 compose-attachment-reminder-add-button = Já, ég gleymdi því!
 compose-newsgroups-not-supported-title = Fréttahópar ekki studdir
 compose-newsgroups-not-supported = Þessi reikningur styður aðeins póst viðtakendur. Ef þú heldur áfram munu fréttahópar vera hunsaðir.
+compose-invalid-address-title = Ógilt tölvupóstfang viðtakanda
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } er ekki gilt tölvupóstfang því það er ekki á forminu notandi@netfang. Þú verður að lagfæra það áður en þú sendir póstinn.
 compose-quit-sending-title = Sendi póst
 compose-quit-saving-title = Vista skilaboð
 # Variables:
@@ -49,6 +55,11 @@ compose-quit-saving-prompt =
 compose-quit-button = &Hætta
 compose-wait-button = &Bíða
 compose-attach-file-picker-title = Bæta við viðhengi
+compose-attach-page-title = Tilgreindu staðsetningu til að hengja við
+compose-attach-page-prompt = Vefsíða (URL):
+compose-message-part-attachment-name = Viðhengdur hlutur
+compose-attachment-bucket-attach-files-tooltip = Bæta við viðhengjum
+compose-attachment-bucket-clear-selection-tooltip = Hreinsa val
 # Variables:
 # $filename - name of the file that could not be found
 compose-file-attachment-not-found = Skráin { $filename } er ekki til og er þess vegna ekki bæta henni við póstinn.
