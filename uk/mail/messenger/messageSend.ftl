@@ -103,6 +103,9 @@ smtp-too-many-recipients = Повідомлення не було надісла
 # $serverResponse - server response
 smtp-error-sending-from-command = Під час надсилання сталася помилка. Відповідь поштового сервера: { $serverResponse }. Переконайтеся, що в налаштуваннях облікового запису ваша адреса електронної пошти вказана правильно і спробуйте ще раз.
 # Variables:
+# $serverResponse - server response
+smtp-permanent-size-exceeded = Розмір повідомлення, яке ви намагаєтесь надіслати, перевищує глобальне обмеження розміру сервера. Повідомлення не надіслано. Зменшіть розмір повідомлення і спробуйте знову. Відповідь сервера:   { $serverResponse }.
+# Variables:
 # $serverResponse - server response; $recipient - intended recipient
 smtp-error-sending-recipient-command =
     Під час надсилання листа сталася помилка. Відповідь поштового сервера:
