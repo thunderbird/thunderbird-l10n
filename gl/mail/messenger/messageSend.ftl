@@ -73,6 +73,27 @@ send-save-template-error-title = Produciuse un erro ao gardar o modelo
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = destinatarios-ocultos
 # Variables:
+# $recipient - recipient address
+smtp-error-illegal-local-part = Hai caracteres non ASCII na parte local do enderezo do destinatario { $recipient } e o seu servidor non admite SMTPUTF8. Mude este enderezo e tente de novo.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-no-ssl = O servidor de saída (SMTP) { $hostname } semella que non admite contrasinais cifrados. Se acaba de crear a conta, tente cambiar o ‘Método de autenticación’ a ‘Contrasinal, transmitido de forma insegura’ na ‘Configuración da conta | Servidor de saída (SMTP)’. Se antes funcionaba pero agora non, pode que lle roubaran o contrasinal.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-ssl = O servidor de saída (SMTP) { $hostname } semella que non admite contrasinais cifrados. Se acaba de crear a conta, tente cambiar o ‘Método de autenticación’ a ‘Contrasinal normal’ na ‘Configuración da conta | Servidor de saída (SMTP)’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-plain-to-encrypt = O servidor de saída (SMTP) { $hostname } non permite contrasinais en texto plano. Tente cambiar o ‘Método de autenticación’ a ‘Contrasinal cifrado’ na ‘Configuración da conta | Servidor de saída (SMTP)’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-failure = Non é posíbel autenticarse no servidor de saída (SMTP) { $hostname }. Comprobe o contrasinal e verifique o ‘Método de autenticación’ na ‘Configuración da conta | Servidor de saída (SMTP)’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-gssapi = O servidor de saída (SMTP) { $hostname } non aceptou o ticket Kerberos/GSSAPI. Comprobe que realmente se conectou a Kerberos/GSSAPI.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-mechanism-not-supported = O servidor de saída (SMTP) { $hostname } non admite o método de autenticación seleccionado. Cambie o ‘método de autenticación’ na ‘Configuración da conta | Servidor de saída (SMTP)’.
+# Variables:
 # $serverResponse - server response
 smtp-server-error = Produciuse un erro ao enviar o correo: erro do servidor de saída (SMTP). O servidor respondeu:  { $serverResponse }.
 # Variables:
@@ -80,7 +101,13 @@ smtp-server-error = Produciuse un erro ao enviar o correo: erro do servidor de s
 smtp-starttls-failed = Produciuse un erro ao enviar o correo: non foi posíbel estabelecer unha ligazón segura co servidor de saída (SMTP) { $hostname } utilizando STARTTLS xa que non se anunciou esta funcionalidade. Desconecte STARTTLS para este servidor ou contacte co seu fornecedor de servizo.
 # Variables:
 # $serverResponse - server response
+smtp-too-many-recipients = A mensaxe non se enviou porque se superou o número permitido de destinatarios. O servidor respondeu: { $serverResponse }.
+# Variables:
+# $serverResponse - server response
 smtp-error-sending-from-command = Produciuse un erro ao enviar o correo electrónico. O servidor de correo respondeu: { $serverResponse }. Comprobe se é correcto o enderezo de correo electrónico presente na configuración da conta e tente de novo.
+# Variables:
+# $serverResponse - server response
+smtp-permanent-size-exceeded = O tamaño da mensaxe que desexa enviar excede o límite global de tamaño do servidor. Non foi, por tanto, enviada. Redúzaa e tente de novo. O servidor respondeu:  { $serverResponse }.
 # Variables:
 # $serverResponse - server response; $recipient - intended recipient
 smtp-error-sending-recipient-command =
