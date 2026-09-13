@@ -10,6 +10,8 @@ compose-message-attachment-name = Kemennadenn kenstaget
 
 ## Compose window
 
+compose-initialization-error-title = Aozadur ur gemennadenn
+compose-initialization-error = Fazi en ur sevel ar gemennadenn. Klaskit en-dro mar plij.
 compose-default-subject = (danvez ebet)
 # Variables:
 # $subject - message subject
@@ -34,6 +36,10 @@ compose-attachment-reminder-send-button = Ket, kas diouzhtu
 compose-attachment-reminder-add-button = Ya!
 compose-newsgroups-not-supported-title = Ne vez ket skoret ar strolladoù-keleier
 compose-newsgroups-not-supported = Skorañ a ra ar gont-se posteloù nemetken. Strolladoù-keleier a vo lakaet a-gostez.
+compose-invalid-address-title = Chomlec'h degemer didalvoudek
+# Variables:
+# $address - invalid email address
+compose-invalid-address = N'eo ket { $address } ur postel talvoudek dre ma n'eo ket graet war ar patrom arveriad@ostiz. Dav eo deoc'h reizhañ an dra-se a-raok kas ar postel.
 compose-quit-sending-title = O kas ar postel
 compose-quit-saving-title = Oc'h enrollañ ar gemennadenn
 # Variables:
@@ -49,6 +55,11 @@ compose-quit-saving-prompt =
 compose-quit-button = &Kuitaat
 compose-wait-button = &Gortoz
 compose-attach-file-picker-title = Kenstagañ restr(où)
+compose-attach-page-title = Trugarez da erspizañ ul lec'hiadur da stagañ
+compose-attach-page-prompt = Pajennad Web (URL):
+compose-message-part-attachment-name = Lodenn gemennadenn staget
+compose-attachment-bucket-attach-files-tooltip = Kenstagañ restr(où)
+compose-attachment-bucket-clear-selection-tooltip = Dilemel an diuzad
 # Variables:
 # $filename - name of the file that could not be found
 compose-file-attachment-not-found = Ar restr { $filename } n'eus ket anezhi neuze n'hall ket bezañ kenstaget ouzh ar gemennadenn.
