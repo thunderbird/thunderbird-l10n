@@ -10,6 +10,10 @@ compose-message-attachment-name = Mensagem anexada
 
 ## Compose window
 
+compose-send-confirm-title = Enviar mensagem
+compose-send-confirm-prompt = Tem certeza de que está pronto para enviar esta mensagem?
+compose-send-confirm-button = Enviar
+compose-do-not-show-again = Não mostrar essa caixa de diálogo novamente.
 compose-empty-subject-title = Lembrete de assunto
 compose-empty-subject-prompt = O assunto da mensagem está em branco.
 compose-empty-subject-send-button = &Enviar sem assunto
@@ -20,7 +24,36 @@ compose-attachment-reminder-send-button = Não, enviar agora
 compose-attachment-reminder-add-button = Sim, eu esqueci!
 compose-newsgroups-not-supported-title = Sem suporte a grupos de notícias
 compose-newsgroups-not-supported = Esta conta só suporta destinatários de email. Caso continue, os grupos de notícias serão ignorados.
+compose-quit-sending-title = Enviando mensagem
+compose-quit-saving-title = Salvando mensagem
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    O { $brand } está enviando uma mensagem.
+    Quer aguardar até ela ser enviada ou quer sair agora?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    O { $brand } está salvando uma mensagem.
+    Quer aguardar até ela ser salva ou quer sair agora?
+compose-quit-button = &Sair
+compose-wait-button = &Aguardar
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = O arquivo { $filename } não existe, por isso não pôde ser anexado à mensagem.
 compose-file-attachment-error-title = Anexar arquivo
+compose-message-file-error-title = Arquivo da mensagem
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = O arquivo { $filename } não existe, por isso não pode ser usado como corpo da mensagem.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = O arquivo { $filename } não pôde ser carregado como o corpo da mensagem.
+compose-save-success-title = Salvar mensagem
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Sua mensagem foi salva na pasta { $folder } em { $server }.
 compose-rename-attachment-title = Renomear anexo
 compose-rename-attachment-prompt = Novo nome do anexo:
 remind-later-button =
@@ -453,6 +486,33 @@ cloud-file-account-error-title = Erro de conta de anexo online
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Falha ao atualizar o anexo online { $filename } porque sua conta de anexo online foi excluída.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Não foi possível autenticar em { $provider }.
+cloud-file-upload-error-title = Erro de envio
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Não foi possível enviar { $filename } para { $provider }.
+cloud-file-quota-error-title = Erro de cota
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = O envio de { $filename } para { $provider } pode exceder sua cota de espaço.
+cloud-file-size-error-title = Erro de tamanho de arquivo
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } excede o tamanho máximo de { $provider }.
+cloud-file-unknown-error-title = Erro desconhecido
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Um erro desconhecido ocorreu durante a comunicação com { $provider }.
+cloud-file-deletion-error-title = Erro na exclusão
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Houve um problema ao excluir { $filename } de { $provider }.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
