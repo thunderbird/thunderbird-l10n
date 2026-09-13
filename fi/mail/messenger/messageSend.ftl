@@ -7,6 +7,8 @@
 
 send-alert-queued-delivery-failed = Lähtevien viestien lähettämisessä tapahtui virhe.
 send-alert-followup-to-sender = Viestin kirjoittaja on pyytänyt, että vastaukset lähetettäisiin vain kirjoittajalle. Jos haluat vastata myös tähän keskusteluryhmään, lisää uusi rivi osoitealueelle, valitse keskusteluryhmä listasta ja kirjoita ryhmän nimi.
+send-unable-to-save-template = Viestisi tallennus mallipohjana ei onnistunut.
+send-unable-to-save-draft = Viestisi tallennus luonnoksena ei onnistunut.
 send-error-failed = Viestin lähettäminen epäonnistui.
 send-unable-to-send-later = Ei pystynyt tallentamaan viestiä myöhempää lähettämistä varten.
 # Variables:
