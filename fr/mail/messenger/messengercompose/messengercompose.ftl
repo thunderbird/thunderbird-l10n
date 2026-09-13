@@ -10,6 +10,8 @@ compose-message-attachment-name = Message joint
 
 ## Compose window
 
+compose-initialization-error-title = Rédaction du message
+compose-initialization-error = Erreur lors de l’ouverture de la fenêtre de rédaction de messages. Veuillez essayer à nouveau.
 compose-default-subject = (pas de sujet)
 # Variables:
 # $subject - message subject
@@ -48,6 +50,8 @@ compose-quit-saving-prompt =
 compose-quit-button = &Quitter
 compose-wait-button = &Attendre
 compose-attach-file-picker-title = Joindre les fichiers
+compose-attachment-bucket-attach-files-tooltip = Joindre fichier(s)
+compose-attachment-bucket-clear-selection-tooltip = Effacer la sélection
 # Variables:
 # $filename - name of the file that could not be found
 compose-file-attachment-not-found = Le fichier { $filename } n’existe pas et n’a pu être joint au message.
