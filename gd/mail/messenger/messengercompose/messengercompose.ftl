@@ -37,6 +37,7 @@ compose-attachment-reminder-add-button = Ò, saoilidh mi gun do dhìochuimhnich!
 compose-newsgroups-not-supported-title = Buidheann-naidheachd gun taic ris
 compose-newsgroups-not-supported = Chan eil an cunntas seo a' cur taic ach ri faightearan puist-dhealain. Ma leanas tu ort, thèid buidhnean-naidheachd an leigeil seachad.
 compose-invalid-address-title = Seòladh mì-dligheach an fhaighteir
+compose-no-recipients = Cha deach faightearan a shònrachadh. Cuir a-steach faightear no buidheann-naidheachd ann an raon an t-seòlaidh.
 # Variables:
 # $address - invalid email address
 compose-invalid-address = Chan eil { $address } 'na sheòladh puist-dhealain a chionn 's nach eil e dhen chruth cleachdaiche@ostair. Bidh agad ri seo a chur ceart mus cuir thu am post-dealain.
