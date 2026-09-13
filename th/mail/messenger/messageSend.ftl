@@ -42,6 +42,11 @@ send-error-save-template-locally =
 send-dialog-retry = &ลองใหม่
 send-error-save-to-local-folders = ไม่สามารถบันทึกข้อความของคุณไปยังโฟลเดอร์ในเครื่อง อาจเป็นเพราะพื้นที่จัดเก็บไฟล์ไม่เพียงพอ
 send-error-filtering-message = ข้อความของคุณถูกส่งและบันทึกแล้ว แต่มีข้อผิดพลาดขณะเรียกใช้ตัวกรองข้อความ
+# LOCALIZATION NOTE: This string must use only US-ASCII characters.
+send-undisclosed-recipients = undisclosed-recipients
+# Variables:
+# $recipient - recipient address
+smtp-error-illegal-local-part = มีอักขระที่ไม่ใช่ ASCII ในส่วนภายในของที่อยู่ผู้รับ { $recipient } และเซิร์ฟเวอร์ของคุณไม่รองรับ SMTPUTF8 โปรดเปลี่ยนที่อยู่นี้แล้วลองอีกครั้ง
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = ดูเหมือนว่าเซิร์ฟเวอร์ขาออก (SMTP) { $hostname } จะไม่รองรับรหัสผ่านที่เข้ารหัสลับ หากคุณเพิ่งตั้งค่าบัญชี ให้ลองเปลี่ยน ‘วิธีการรับรองความถูกต้อง’ ใน ‘การตั้งค่าบัญชี | เซิร์ฟเวอร์ขาออก (SMTP)’ เป็น ‘รหัสผ่าน ส่งอย่างไม่ปลอดภัย’ ถ้าเคยทำได้ แต่ตอนนี้ทำไม่ได้ รหัสผ่านของคุณอาจถูกขโมยได้
