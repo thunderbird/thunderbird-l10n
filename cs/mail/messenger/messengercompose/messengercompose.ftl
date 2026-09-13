@@ -10,6 +10,28 @@ compose-message-attachment-name = Připojená zpráva
 
 ## Compose window
 
+compose-empty-subject-title = Upozornění na prázdný předmět
+compose-empty-subject-prompt = Odesílaná zpráva nemá zadaný žádný předmět.
+compose-empty-subject-send-button = &Odeslat bez předmětu
+compose-empty-subject-cancel-button = &Zrušit odesílání
+compose-attachment-reminder-title = Připomenutí přílohy
+compose-attachment-reminder-prompt = Nezapomněli jste připojit přílohu?
+compose-attachment-reminder-send-button = Ne, odeslat
+compose-attachment-reminder-add-button = Ano, zapomněli
+compose-newsgroups-not-supported-title = Není podpora diskusních skupin
+compose-newsgroups-not-supported = Tento účet podporuje pouze e-mail. Při pokračování budou ignorovány diskusní skupiny.
+compose-invalid-address-title = Neplatná adresa příjemce
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } není platná e-mailová adresa, protože není ve formátu uživatel@server. Před odesláním e-mailu ji musíte opravit.
+compose-attach-page-title = Zadejte prosím cestu pro přílohu
+compose-attach-page-prompt = Webová stránka (URL):
+compose-message-part-attachment-name = Část připojené zprávy
+remind-later-button =
+    .label = Upozornit mě později
+    .accesskey = U
+disable-attachment-reminder-menu-item =
+    .label = Zakázat připomenutí o příloze pro tuto zprávu
 
 ## Send Format
 
@@ -443,6 +465,7 @@ cloud-file-account-error-title = Chyba účtu úložiště
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Nepodařilo se aktualizovat soubor { $filename } posílaný přes úložiště, protože byl účet úložiště smazán.
+cloud-file-authentication-error-title = Chyba přihlášení
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
