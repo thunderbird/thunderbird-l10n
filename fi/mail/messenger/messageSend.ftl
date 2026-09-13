@@ -6,7 +6,9 @@
 ## Message sending
 
 send-alert-queued-delivery-failed = Lähtevien viestien lähettämisessä tapahtui virhe.
+send-alert-followup-to-sender = Viestin kirjoittaja on pyytänyt, että vastaukset lähetettäisiin vain kirjoittajalle. Jos haluat vastata myös tähän keskusteluryhmään, lisää uusi rivi osoitealueelle, valitse keskusteluryhmä listasta ja kirjoita ryhmän nimi.
 send-error-failed = Viestin lähettäminen epäonnistui.
+send-unable-to-send-later = Ei pystynyt tallentamaan viestiä myöhempää lähettämistä varten.
 # Variables:
 # $hostname - outgoing server hostname
 send-error-smtp-request-refused = Viestiä ei voitu lähettää, koska yhteyttä lähtevän postin palvelimeen (SMTP) { $hostname } ei onnistuttu luomaan. Palvelin voi olla varattu tai estää SMTP-yhteyspyynnöt. Varmista, että SMTP-palvelinasetuksesi ovat oikein ja yritä uudelleen.
