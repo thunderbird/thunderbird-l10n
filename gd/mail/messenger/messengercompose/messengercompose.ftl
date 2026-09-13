@@ -10,15 +10,30 @@ compose-message-attachment-name = Teachdaireachd a chaidh a chur ris
 
 ## Compose window
 
+compose-default-subject = (gun chuspair)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Sgrìobh: { $subject } - { $brand }
 compose-save-message-title = Sàbhail an teachdaireachd
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = A bheil thu airson an teachdaireachd seo a shàbhaladh ann am pasgan nan dreachdan agad ({ $folder }) is uinneag an sgrìobhaidh a dhùnadh?
+compose-discard-changes-button = &Tilg air falbh na h-atharraichean
 compose-send-confirm-title = Cuir an teachdaireachd
 compose-send-confirm-prompt = A bheil thu cinnteach gu bheil thu airson an teachdaireachd seo a chur an-dràsta?
 compose-send-confirm-button = Cuir
 compose-do-not-show-again = Na seall am bogsa conaltraidh seo dhomh a-rithist.
+compose-empty-subject-title = Cuimhniche a' chuspair
+compose-empty-subject-prompt = Chan eil cuspair aig do theachdaireachd fhathast.
+compose-empty-subject-send-button = Cuir as aonai&s cuspair
+compose-empty-subject-cancel-button = Sguir dhen a &chur
 compose-attachment-reminder-title = Cuimhniche nan ceanglachan
 compose-attachment-reminder-prompt = Saoil an do dhìochuimhnich thu ceanglachan a chur ris?
 compose-attachment-reminder-send-button = Cha do dhìochuimhnich, cuir a-null mo theachdaireachd an-dràsta
 compose-attachment-reminder-add-button = Ò, saoilidh mi gun do dhìochuimhnich!
+compose-newsgroups-not-supported-title = Buidheann-naidheachd gun taic ris
+compose-newsgroups-not-supported = Chan eil an cunntas seo a' cur taic ach ri faightearan puist-dhealain. Ma leanas tu ort, thèid buidhnean-naidheachd an leigeil seachad.
 compose-quit-sending-title = A' cur na teachdaireachd
 compose-quit-saving-title = A' sàbhaladh na teachdaireachd
 # Variables:
@@ -33,6 +48,7 @@ compose-quit-saving-prompt =
     A bheil thu airson feitheamh gus an deach an teachdaireachd a shàbhaladh mus fàg thu an-seo no a bheil thu airson fàgail sa bhad?
 compose-quit-button = &Fàg an-seo
 compose-wait-button = &Fuirich
+compose-attach-file-picker-title = Cuir faidhle/faidhlichean ris
 # Variables:
 # $filename - name of the file that could not be found
 compose-file-attachment-not-found = Chan eil am faidhle { $filename } ann agus cha ghabh a chur ris an teachdaireachd mar sin.
@@ -60,6 +76,12 @@ find-replace-button =
     .label = Cuir ’na àite...
     .accesskey = x
     .tooltiptext = Seall an còmhradh leis an urrainn dhut rudan a lorg 's a chur 'nan àite
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Cuir a‑steach seòladh “O” gnàthaichte an àite { $identity }
+compose-custom-from-address-title = Gnàthaich an seòladh “O”
+compose-custom-from-address-warning = Ma chuireas solaraiche a’ phuist‑d agad taic ris, is urrainn dhut an seòladh on dig am post‑d atharrachadh gun fheum air dearbh‑aithne ùr ann an roghainnean a’ chunntais. Mar eisimpleir, mas e Calum MacCaluim <calum@example.com> an seòladh “O” àbhaisteach agad is ma tha thu airson ’s gun nochd e mar Calum Sheumais <calum‑sheumais@example.com> no Calum <calum@example.com> dìreach an triop seo.
+compose-custom-from-address-ignore = Na faighnich dhìom a-rithist
 compose-blocked-content-options-button = Roghainnean
 compose-blocked-content-options-accesskey = O
 compose-blocked-content-preferences-button = Roghainnean
