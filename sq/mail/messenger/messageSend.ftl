@@ -7,6 +7,8 @@
 
 send-alert-queued-delivery-failed = Ndodhi një gabim gjatë shpërndarjes së mesazheve të padërguar.
 send-alert-followup-to-sender = Autori i këtij mesazhi ka kërkuar që përgjigjet t’i dërgohen vetëm autorit. Nëse doni të përgjigjeni edhe te grupi i lajmeve, shtoni një rresht të ri te fusha e adresave, zgjidhni Grup Lajmesh prej listës së marrësve dhe jepni emrin e grupit të lajmeve.
+send-unable-to-save-template = S’arrihet të ruhet mesazhi juaj si gjedhe.
+send-unable-to-save-draft = S’arrihet të ruhet mesazhi juaj si skicë.
 send-error-failed = Dërgimi i mesazhit dështoi.
 send-unable-to-send-later = Na ndjeni, s’qemë në gjendje ta ruajmë mesazhin tuaj që të dërgohet më vonë.
 # Variables:
