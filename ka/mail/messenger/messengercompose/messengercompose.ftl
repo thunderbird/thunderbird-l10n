@@ -10,6 +10,22 @@ compose-message-attachment-name = დართული წერილი
 
 ## Compose window
 
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = მიწერა: { $subject }-{ $brand }
+compose-empty-subject-title = თემის შეხსენება
+compose-empty-subject-prompt = თქვენი წერილი თემის გარეშეა.
+compose-empty-subject-send-button = &დატოვება თემის გარეშე
+compose-empty-subject-cancel-button = გაგზავნის გაუ&ქმება
+compose-newsgroups-not-supported-title = სასაუბრო ჯგუფები მხარდაუჭერელია
+compose-newsgroups-not-supported = ეს ანგარიში მხოლოდ ელფოსტის მიმღებთათვისაა. გაგრძელების შემთხვევაში სასაუბრო ჯგუფები უგულებელყოფილი იქნება.
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = შეიყვანეთ სასურველი მისამართი, { $identity }-ის ნაცვლად გამოსაყენებლად
+compose-custom-from-address-title = გამგზავნის მისამართის პარამეტრები
+compose-custom-from-address-warning = თუ თქვენი ელფოსტის მომსახურების მომწოდებელი გთავაზობთ ამგვარ შესაძლებლობას, გამგზავნის მისამართის მცირე ცვლილება შეგიძლიათ ყოველ ჯერზე, ანგარიშზე ახალი ვინაობის დაუმატებლად. მაგალითად, თუ თქვენი მისამართია გიორგი ბერიძე <giorgi@misamarti.com> შეგიძლიათ შეანაცვლოთ გიორგი ბერიძე <giorgi+beridze@misamarti.com> და გიორგი <giorgi@misamarti.com>.
+compose-custom-from-address-ignore = მომავალში, შეტყობინების გარეშე
 
 ## Send Format
 
@@ -441,6 +457,9 @@ big-file-notification-text =
         [one] ეს ფაილი დიდი ზომისა. შესაძლოა მის ნაცვლად ფაილის ბმულის გამოყენება სჯობდეს.
        *[other] ეს ფაილები დიდი ზომისაა. შესაძლოა მათ ნაცვლად ბმულების გამოყენება სჯობდეს.
     }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = ფაილების თანდართვა: { $provider }
 
 ## Link Preview
 
