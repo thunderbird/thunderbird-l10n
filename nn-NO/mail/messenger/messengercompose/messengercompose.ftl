@@ -37,6 +37,7 @@ compose-attachment-reminder-add-button = Å ja, det gløymde eg!
 compose-newsgroups-not-supported-title = Nyhendegrupper ikkje støtta
 compose-newsgroups-not-supported = Denne kontoen støttar berre e-postmottakarar. Dersom du held fram vil nyhendegrupper verta utelatne.
 compose-invalid-address-title = Ugyldig mottakaradresse
+compose-no-recipients = Ingen mottakarar er spesifiserte. Skriv inn minst ein gyldig mottakar eller ei nyhendegruppe i adressefeltet.
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address } er ikkje ei gyldig e-postadresse, fordi ho ikkje er på forma brukar@vert. Du må retta det opp før du sender e-posten.
