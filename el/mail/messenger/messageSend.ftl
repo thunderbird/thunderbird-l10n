@@ -31,6 +31,7 @@ send-progress-assembling-message-done = Συμβολομετάφραση μην�
 send-progress-copy-complete = Η αντιγραφή ολοκληρώθηκε.
 send-progress-copy-failed = Η αντιγραφή  απέτυχε.
 send-dialog-save-title = Αποθήκευση μηνύματος
+send-error-save-to-local-folders = Δεν ήταν δυνατή η αποθήκευση του μηνύματός σας σε τοπικούς φακέλους. Ενδεχομένως να μην υπάρχει επαρκής χώρος αποθήκευσης.
 send-progress-filter-complete = Το φιλτράρισμα ολοκληρώθηκε.
 send-progress-filter-failed = Αποτυχία φιλτραρίσματος.
 # Variables:
