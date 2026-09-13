@@ -10,6 +10,10 @@ compose-message-attachment-name = Priložena poruka
 
 ## Compose window
 
+find-replace-button =
+    .label = Zamijeni…
+    .accesskey = Z
+    .tooltiptext = Prikaži pronađi i zamijeni prozor
 
 ## Send Format
 
@@ -461,6 +465,12 @@ big-file-notification-text =
         [few] Ovo su velike datoteke. Možda je bolje da koristite Filelink.
        *[other] Ovo su velike datoteke. Možda je bolje da koristite Filelink.
     }
+cloudfile-uploading-stop-button =
+    .label = Ne prikazuj ovo više
+    .accesskey = N
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Priloži datoteke preko { $provider }
 
 ## Link Preview
 
