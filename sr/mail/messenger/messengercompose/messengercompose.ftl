@@ -5,6 +5,7 @@
 
 ## Compose alerts
 
+compose-message-cancelling = Отказујем…
 compose-message-attachment-name = Закачена порука
 
 ## Compose window
