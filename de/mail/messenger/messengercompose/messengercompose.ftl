@@ -66,12 +66,24 @@ remind-later-button =
     .accesskey = M
 disable-attachment-reminder-menu-item =
     .label = Anhang-Erinnerung für diese Nachricht deaktivieren
+find-replace-button =
+    .label = Ersetzen…
+    .accesskey = z
+    .tooltiptext = Dialog "Suchen und Ersetzen" öffnen
 # Variables:
 # $identity - identity address that would otherwise be used
 compose-custom-from-address-placeholder = Benutzerdefinierte Absenderadresse anstatt von { $identity } eingeben
 compose-custom-from-address-title = Absenderadresse ändern
 compose-custom-from-address-warning = Falls Ihr E-Mail-Anbieter dies unterstützt, so können Sie für den Versand eine andere Absenderadresse verwenden, indem Sie diese ändern, ohne die Konten-Einstellungen aufzurufen. Ist Ihre Absenderadresse z.B. Marlene Mustermann <marlene@example.com>, so könnten Sie diese z.B. in Marlene Mustermann <marlene+mustermann@example.com> oder Marlene <marlene@example.com> ändern.
 compose-custom-from-address-ignore = Nicht mehr darauf hinweisen
+compose-blocked-content-options-button = Optionen
+compose-blocked-content-options-accesskey = g
+compose-blocked-content-preferences-button = Einstellungen
+compose-blocked-content-preferences-accesskey = g
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Blockierung beenden von { $url }
 
 ## Send Format
 
@@ -137,6 +149,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Liste durch ihre Kontakte ersetzen
     .accesskey = z
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = { $field }-Adressen entfernen
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Sollen die { $field }-Adressen wirklich entfernt werden?
+compose-remove-address-row-button = Entfernen
 
 ## Attachment widget
 
@@ -546,6 +565,9 @@ big-file-choose-account-prompt = Bitte wählen Sie das Konto, in das die Anhäng
 big-file-hide-notification-title = Dateien nicht mit Filelink hochladen
 big-file-hide-notification-prompt = Sie werden darauf hingewiesen, wenn Sie große Dateien an die Nachricht anhängen.
 big-file-hide-notification-checkbox = Diese Meldung nicht mehr anzeigen
+cloudfile-uploading-stop-button =
+    .label = Nicht mehr anzeigen
+    .accesskey = c
 cloud-file-privacy-warning = Das Verknüpfen ist abgeschlossen. Bitte beachten Sie, dass möglicherweise jeder, der den Link sehen oder erraten kann, auf die verknüpften Anhänge zugreifen kann.
 # Variables:
 # $provider - name of the online storage service
