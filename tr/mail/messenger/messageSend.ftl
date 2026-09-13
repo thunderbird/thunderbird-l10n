@@ -72,6 +72,9 @@ smtp-server-error = Posta gönderilirken bir hata oluştu: Giden sunucusu (SMTP)
 smtp-starttls-failed = Posta gönderirken bir hata meydana geldi: STARTTLS kullanılarak { $hostname } SMTP sunucusuyla güvenli bir bağlantı sağlanamadı, çünkü sunucu bu özelliği sunmuyor. STARTTLS seçeneğini devre dışı bırakın ya da hizmet sağlayıcınızla görüşün.
 # Variables:
 # $serverResponse - server response
+smtp-too-many-recipients = İzin verilen alıcı sayısı aşıldığı için ileti gönderilmedi. Sunucunun yanıtı: { $serverResponse }.
+# Variables:
+# $serverResponse - server response
 smtp-error-sending-from-command = Posta gönderilirken bir hata oluştu. Posta sunucusunun yanıtı: { $serverResponse }. Lütfen posta ayarlarındaki e-posta adresinin doğruluğunu kontrol edip yeniden deneyin.
 # Variables:
 # $serverResponse - server response
