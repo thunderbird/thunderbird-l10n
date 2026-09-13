@@ -37,6 +37,7 @@ compose-attachment-reminder-add-button = 추가
 compose-newsgroups-not-supported-title = 뉴스그룹은 지원하지 않음
 compose-newsgroups-not-supported = 이 계정은 오직 메일 수신만을 지원합니다. 뉴스 그룹을 무시하려면 계속하십시오.
 compose-invalid-address-title = 올바르지 않은 수신 주소
+compose-no-recipients = 받는 사람이 없습니다. 받는 사람 또는 뉴스 그룹을 입력해 주십시오.
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address }은(는) 올바르지 않은 메일 주소 형식 입니다. 메일 주소는 user@host의 형식을 가져야 합니다. 메일을 발송하기 전에 메일 주소를 정확하게 수정하십시오.
