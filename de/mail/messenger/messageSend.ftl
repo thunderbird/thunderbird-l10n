@@ -11,6 +11,9 @@ send-error-failed = Senden der Nachricht fehlgeschlagen.
 send-unable-to-send-later = Ihre Nachricht konnte für den späteren Versand nicht gespeichert werden.
 # Variables:
 # $hostname - outgoing server hostname
+send-error-smtp-unknown-server = Fehler beim Senden der Nachricht: SMTP-Server { $hostname } ist unbekannt. Der Server ist eventuell falsch konfiguriert. Bitte kontrollieren Sie die SMTP-Server-Einstellungen und versuchen Sie es nochmals.
+# Variables:
+# $hostname - outgoing server hostname
 send-error-smtp-request-refused = Die Nachricht konnte nicht gesendet werden, weil der Verbindungsaufbau mit dem SMTP-Server { $hostname } fehlgeschlagen ist. Der Server ist entweder nicht verfügbar oder lehnt SMTP-Verbindungen ab. Bitte kontrollieren Sie die SMTP-Server-Einstellungen und versuchen Sie es nochmals.
 # Variables:
 # $hostname - outgoing server hostname
