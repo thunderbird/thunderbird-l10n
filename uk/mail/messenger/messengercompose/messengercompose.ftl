@@ -17,6 +17,7 @@ compose-default-subject = (без теми)
 # $subject - message subject
 # $brand - application name
 compose-window-title = Створення повідомлення: { $subject } - { $brand }
+compose-save-message-title = Зберегти повідомлення
 # Variables:
 # $folder - configured drafts folder name
 compose-save-message-prompt = Зберегти це повідомлення до вашої теки чернеток ({ $folder }) і закрити вікно створення?
