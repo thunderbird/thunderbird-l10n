@@ -5,6 +5,11 @@
 
 ## Message sending
 
+send-alert-queued-delivery-failed = Si è verificato un errore durante la consegna dei messaggi non inviati.
+send-alert-followup-to-sender = L’autore di questo messaggio ha chiesto che le risposte siano indirizzate solo a lui. Se si desidera rispondere al gruppo di discussione aggiungere un nuovo campo nell’area degli indirizzi, scegliere Gruppo di discussione dalla lista dei destinatari e inserire il nome del gruppo.
+send-unable-to-save-template = Impossibile salvare il messaggio come modello.
+send-unable-to-save-draft = Impossibile salvare il messaggio come bozza.
+send-error-failed = Invio del messaggio non riuscito.
 send-unable-to-send-later = Siamo spiacenti, non è stato possibile salvare il messaggio per l’invio differito.
 # Variables:
 # $hostname - outgoing server hostname
