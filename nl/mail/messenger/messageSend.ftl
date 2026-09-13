@@ -24,3 +24,31 @@ send-error-smtp-interrupted = Het bericht kon niet worden verzonden, omdat de ve
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = Het bericht kon niet worden verzonden, omdat de wachttijd voor de verbinding met uitgaande (SMTP-)server { $hostname } is verlopen. Probeer het opnieuw.
 send-error-title = Fout bij verzenden van bericht
+send-progress-assembling-mail-information = E-mailinformatie samenstellen…
+send-progress-assembling-message = Bericht samenstellen…
+send-progress-creating-mail-message = E-mailbericht maken…
+send-progress-assembling-message-done = Bericht samenstellen… Gereed
+send-progress-copy-complete = Kopiëren voltooid.
+send-progress-copy-failed = Kopiëren mislukt.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-sent-locally =
+    Uw bericht is verzonden, maar door netwerkproblemen of fouten met de bestandstoegang is er geen kopie in uw map voor verzonden berichten ({ $folder }) geplaatst.
+    U kunt het opnieuw proberen of het bericht lokaal opslaan in { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-draft-locally =
+    Door netwerkproblemen of fouten met de bestandstoegang is uw conceptbericht niet naar uw conceptenmap ({ $folder }) gekopieerd.
+    U kunt het opnieuw proberen, of het conceptbericht lokaal opslaan in { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-template-locally =
+    Door netwerkproblemen of fouten met de bestandstoegang is uw sjabloon niet naar uw sjablonenmap ({ $folder }) gekopieerd.
+    U kunt het opnieuw proberen, of de sjabloon lokaal opslaan in { $localFolder }/{ $folder }-{ $account }.
+send-dialog-retry = &Opnieuw proberen
+send-progress-filter-complete = Filteren voltooid.
+send-progress-filter-failed = Filteren mislukt.
+send-error-filtering-message = Uw bericht is verzonden en opgeslagen, maar er is een fout opgetreden bij het uitvoeren van de berichtenfilters op het bericht.
+# Variables:
+# $folder - destination folder name
+send-progress-copy-start = Bericht naar map { $folder } kopiëren…
