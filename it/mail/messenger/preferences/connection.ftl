@@ -95,8 +95,8 @@ proxy-auto-login-saved-password =
     .tooltiptext = Questa opzione permette di autenticarsi direttamente con un proxy se ci sono delle credenziali salvate. Verranno chieste nuovamente se l’autenticazione dovesse fallire.
     .accesskey = A
 proxy-socks-remote-dns =
-    .label = Indirizza le richieste di dominio (DNS) attraverso il proxy SOCKS v5
-    .accesskey = I
+    .label = Indirizza le richieste DNS attraverso il proxy SOCKS v5
+    .accesskey = D
 # Do not translate "localhost", "127.0.0.1/8" and "::1". (You can translate "and".)
 connection-proxy-noproxy-localhost-desc-2 = Le connessioni verso localhost, 127.0.0.1/8 e ::1 non usano mai proxy.
 proxy-password-prompt =
