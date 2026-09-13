@@ -15,6 +15,7 @@ compose-default-subject = (nėra temos)
 # $subject - message subject
 # $brand - application name
 compose-window-title = Įrašyti: { $subject } - { $brand }
+compose-save-message-title = Laiško įrašymas
 # Variables:
 # $folder - configured drafts folder name
 compose-save-message-prompt = Išsaugoti šią žinutę juodraščių aplanke ({ $folder }) ir uždaryti rašymo langą?
