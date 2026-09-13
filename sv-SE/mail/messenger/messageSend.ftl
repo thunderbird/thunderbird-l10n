@@ -23,6 +23,7 @@ send-error-smtp-interrupted = Meddelandet kunde inte skickas eftersom anslutning
 # Variables:
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = Meddelandet kunde inte skickas eftersom anslutningen till utgående server (SMTP) { $hostname } gjorde timeout. Försök igen.
+send-error-title = Fel vid sändning av meddelande
 send-progress-assembling-mail-information = Sätter samman e-postinformation…
 send-progress-assembling-message = Sätter samman meddelande…
 send-progress-creating-mail-message = Skapar e-postmeddelande…
@@ -66,6 +67,9 @@ send-progress-copy-start = Kopierar meddelande till mappen { $folder }…
 send-progress-sending-message = Skickar meddelande…
 send-error-nntp-ok = Ditt meddelande har postats i diskussionsgruppen, men har inte skickats till den andra mottagaren.
 send-error-copy-operation = Meddelandet har skickats, men kunde inte kopieras till mappen skickade meddelanden.
+send-later-error-title = Fel vid senare sändning
+send-save-draft-error-title = Fel vid sparande av utkast
+send-save-template-error-title = Fel vid sparande av mall
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = dolda-mottagare
 # Variables:

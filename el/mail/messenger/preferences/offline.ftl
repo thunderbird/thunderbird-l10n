@@ -3,7 +3,16 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 offline-dialog-title = Ρυθμίσεις εκτός σύνδεσης
+autodetect-connection-label =
+    .label = Αυτόματη εναλλαγή λειτουργιών όταν εντοπίζεται σύνδεση στο διαδίκτυο
+    .accesskey = δ
 offline-startup-label = Κατά το άνοιγμα του { -brand-short-name }:
+status-radio-last-used =
+    .label = Χρήση της πιο πρόσφατης λειτουργίας σύνδεσης
+    .accesskey = Χ
+status-radio-ask-connect =
+    .label = Να γίνεται ερώτηση πριν από τη σύνδεση στο διαδίκτυο
+    .accesskey = κ
 status-radio-start-online =
     .label = Έναρξη εντός σύνδεσης
     .accesskey = η
