@@ -27,6 +27,9 @@ send-error-title = Gagal Mengirim Pesan
 send-progress-assembling-mail-information = Mempersiapkan informasi surat...
 send-progress-assembling-message = Mempersiapkan pesan...
 send-progress-creating-mail-message = Membuat Surel…
+# Variables:
+# $filename - name or URL of the file that could not be attached
+send-error-attaching-file = Terjadi kesalahan saat melampirkan { $filename }. Periksa apakah Anda memiliki akses ke file.
 send-progress-assembling-message-done = Mempersiapkan pesan... Selesai
 send-progress-copy-complete = Selesai menyalin.
 send-progress-copy-failed = Gagl menyalin.
@@ -51,6 +54,9 @@ send-error-save-to-local-folders = Tidak dapat menyimpan pesan Anda ke folder lo
 send-progress-filter-complete = Filter selesai.
 send-progress-filter-failed = Filter gagal.
 send-error-filtering-message = Pesan Anda telah dikirim dan disimpan, tetapi ada kesalahan saat menjalankan filter pesan di dalamnya.
+# Variables:
+# $hostname - outgoing server hostname
+send-error-smtp-security-issue = Konfigurasi yang terkait dengan { $hostname } harus diperbaiki.
 send-error-post-failed = Pesan tidak dapat diposting karena koneksi ke server berita gagal. Server mungkin tidak tersedia atau menolak koneksi. Harap verifikasi bahwa pengaturan server berita Anda sudah benar dan coba lagi.
 # Variables:
 # $size - formatted message size
@@ -59,6 +65,8 @@ send-warning-large-message = Perhatian! Anda akan mengirim pesan dengan ukuran {
 # $folder - destination folder name
 send-progress-copy-start = Menyalin pesan ke folder { $folder }…
 send-progress-sending-message = Mengirim pesan…
+send-error-nntp-ok = Pesan Anda telah diposting ke newsgroup tetapi belum dikirim ke penerima lain.
+send-error-copy-operation = Pesan sukses dikirim tetapi tidak dapat disalin ke folder Email Dikirim.
 send-later-error-title = Kirim Kesalahan Lalu
 send-save-draft-error-title = Simpan Kesalahan Draf
 send-save-template-error-title = Simpan Kesalahan Templat
@@ -84,7 +92,19 @@ smtp-auth-gssapi = Tiket Kerberos/GSSAPI tidak diterima oleh Server keluar (SMTP
 smtp-auth-mechanism-not-supported = Server keluar (SMTP) { $hostname } tidak mendukung metode otentikasi yang dipilih. Silakan ubah ‘Metode otentikasi’ di ‘Pengaturan Akun | Server Keluar (SMTP)’.
 # Variables:
 # $serverResponse - server response
+smtp-server-error = Terjadi kesalahan saat mengirim surel: Galat server keluar (SMTP). Server merespons: { $serverResponse }.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-starttls-failed = Terjadi kesalahan saat mengirim email: Tidak dapat membuat tautan aman dengan Server keluar (SMTP) { $hostname } menggunakan STARTTLS karena tidak mengiklankan fitur itu. Matikan STARTTLS untuk server itu atau hubungi penyedia layanan Anda.
+# Variables:
+# $serverResponse - server response
 smtp-error-sending-from-command = Terjadi kesalahan saat mengirim surel. Server surel merespons: { $serverResponse }. Harap verifikasi bahwa alamat surel Anda sudah benar dalam pengaturan akun dan coba lagi.
+# Variables:
+# $serverResponse - server response; $recipient - intended recipient
+smtp-error-sending-recipient-command =
+    Kesalahan terjadi saat mengirim email. Server mail menjawab:
+    { $serverResponse }.
+    Periksa kembali penerima pesan "{ $recipient }" dan coba lagi.
 # Variables:
 # $serverResponse - server response
 smtp-error-sending-data-command = Galat server keluar (SMTP) terjadi saat mengirim surat. Server merespons: { $serverResponse }.
