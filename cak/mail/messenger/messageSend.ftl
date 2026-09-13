@@ -57,6 +57,7 @@ send-error-filtering-message = Xtaq chuqa' xyak ri atzijol, xa xe chi xk'ulwachi
 # Variables:
 # $hostname - outgoing server hostname
 send-error-smtp-security-issue = K'o chi nib'an ruk'ojlem runuk'ulem, ruximon ri' rik'in { $hostname }.
+send-error-post-failed = Man tikirel ta nitalüx re rutzijol re' ruma xsach toq nok pa ri kik'uxasamaj rutzijol. Rik'in jub'a' chupül ri k'uxasamaj o man yeruk'ül ta taq okem. Tanik'oj chi ütz ri runuk'ulem kik'uxasamaj rutzijol chuqa' tatojtob'ej chik, o katzijon rik'in ri runuk'samajel ak'amab'ey.
 # Variables:
 # $size - formatted message size
 send-warning-large-message = ¡Rutzijol k'ayewal! Natäq yan jun rutzijol { $size } runimilem. ¿La kan nawajo' nab'än re re'?
@@ -97,6 +98,9 @@ smtp-server-error = Xk'ulwachitäj jun sachoj toq nitaq ri taqoya'l: Ri ruk'uxas
 smtp-starttls-failed = Xk'ulwachitäj jun sachoj toq nitaq ri taqoya'l: Man xk'ulwachitäj ta jun ütz okem pa ri ruk'uxasamaj Elem (SMTP) { $hostname } toq nokisäx STARTTLS ruma man nuya’ ta rutzijol ri samaj ri’. Tachupu’ STARTTLS pa ri k'uxasamaj ri’ o katzijon rik'in ri aya'öl.
 # Variables:
 # $serverResponse - server response
+smtp-error-sending-from-command = Xk'ulwachitäj jun sachoj toq nitaq ri taqoya'l. Ri ruk'uxasamaj taqoya'l xutzolij tzij: { $serverResponse }. Tanik'oj chi ütz ri rochochib'al ataqoya'l pa ri runuk'ulem rub'i' taqoya'l chuqa' tatojtob'ej chik.
+# Variables:
+# $serverResponse - server response
 smtp-permanent-size-exceeded = Ri runimilem tzijol natojtob'ej natäq nik'o rik'in ri chijun ruchi' k'uxasamaj. Man xtaq ta ri rutzijol; tach'utinisaj ri rutzijol o tawoyob'ej richin natojtob'ej chik. Ri k'uxasamaj xutzolij tzij:  { $serverResponse }.
 # Variables:
 # $serverResponse - server response; $recipient - intended recipient
@@ -104,3 +108,9 @@ smtp-error-sending-recipient-command =
     Xk'ulwachitäj jun sachoj toq nitaq ri taqoya'l. Ri ruk'uxasamaj taqoya'l xutzolij tzij:
     { $serverResponse }.
     Tanik'oj ri xtik'ulun ri rutzijol "{ $recipient }" chuqa' tatojtob'ej chik.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-data-command = Jun Ruk'uxasamaj elem (SMTP) xsach. Xutzolij tzij ri k'uxasamaj:  { $serverResponse }.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-message = Xk'ulwachitäj jun sachoj toq nitaq ri taqoya'l. Ri ruk'uxasamaj taqoya'l xutzolij tzij:  { $serverResponse }. Tinik'öx ri rutzijol chuqa' titojtob'ëx chik.
