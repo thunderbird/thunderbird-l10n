@@ -73,6 +73,9 @@ send-save-template-error-title = Chyba pri ukladaní šablóny
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = utajeni adresati
 # Variables:
+# $recipient - recipient address
+smtp-error-illegal-local-part = V časti adresy príjemcu { $recipient } sa nachádzajú nepodporované znaky mimo sady ASCII a váš server nepodporuje SMTPUTF8. Upravte adresu a skúste to znova.
+# Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = Server pre odosielanie pošty (SMTP) { $hostname } zdá sa nepodporuje šifrované heslá. Ak ste si práve nastavili tento účet, skúste zmeniť nastavenie ‘Metóda overenia’ v okne ‘Nastavenia účtu | Server pre odosielanie pošty (SMTP)’ na ‘Heslo odosielané nezabezpečene’. Ak toto predtým fungovalo a teraz náhle prestalo, je možné, že sa niekto získal vaše heslo.
 # Variables:
