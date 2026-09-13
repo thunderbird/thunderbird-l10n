@@ -10,15 +10,48 @@ compose-message-attachment-name = Missatge adjunt
 
 ## Compose window
 
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Redacta: { $subject } - { $brand }
+compose-send-confirm-title = Envia el missatge
+compose-send-confirm-prompt = Segur que esteu a punt per enviar aquest missatge?
+compose-send-confirm-button = Envia
+compose-empty-subject-title = Falta l'assumpte
+compose-empty-subject-prompt = Falta el camp Assumpte del vostre missatge.
+compose-empty-subject-send-button = &Envia sense cap assumpte
+compose-empty-subject-cancel-button = &Cancel·la l'enviament
 compose-attachment-reminder-title = Recordatori d'adjunció
 compose-attachment-reminder-prompt = Heu oblidat d'afegir un fitxer adjunt?
 compose-attachment-reminder-send-button = No, envia'l ara
 compose-attachment-reminder-add-button = Sí, i tant!
+compose-newsgroups-not-supported-title = No es permeten grups de discussió
+compose-newsgroups-not-supported = Aquest compte només permet destinataris de correu. Si continueu, s'ignoraran els grups de discussió.
+compose-quit-saving-title = S'està desant el missatge
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    Actualment el { $brand } està enviant un missatge.
+    Abans de sortir, voleu esperar fins que s'hagi enviat el missatge o bé voleu sortir ara?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    Actualment el { $brand } està desant un missatge.
+    Abans de sortir, voleu esperar fins que s'hagi desat el missatge o bé voleu sortir ara?
+compose-quit-button = S&urt
+compose-wait-button = &Espera
+compose-file-attachment-error-title = Adjunció de fitxer
 remind-later-button =
     .label = Recorda-m'ho més tard
     .accesskey = R
 disable-attachment-reminder-menu-item =
     .label = Inhabilita el recordatori d'adjunció per al missatge actual
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Introduïu l'adreça «De» personalitzada que s'utilitzarà en lloc de { $identity }
+compose-custom-from-address-title = Personalitza l'adreça «De»
+compose-custom-from-address-warning = Si el vostre proveïdor de correu electrònic ho permet, podeu personalitzar l'adreça «De» per fer una petita alteració puntual de la vostra l'adreça de remitent sense necessitat de crear una identitat nova als paràmetres del compte. Per exemple, si la vostra l'adreça «De» és Joan Conill <joan@example.com> potser voleu canviar-la a Joan Conill <joan+conill@example.com> o Joan <joan@example.com>.
+compose-custom-from-address-ignore = No em tornis a notificar més sobre això
 
 ## Send Format
 
@@ -455,6 +488,30 @@ big-file-notification-text =
         [one] És un fitxer gran. Podria ser millor utilitzar el Filelink.
        *[other] Són fitxers grans. Podria ser millor utilitzar el Filelink.
     }
+big-file-learn-more-button =
+    .label = Més informació…
+    .accesskey = M
+big-file-link-button =
+    .label = Enllaça
+    .accesskey = l
+big-file-ignore-button =
+    .label = Ignora
+    .accesskey = I
+big-file-choose-account-title = Trieu un compte
+big-file-choose-account-prompt = Trieu un compte al núvol per pujar-hi l'adjunció
+big-file-hide-notification-title = No pugis els meus fitxers
+big-file-hide-notification-prompt = No se us notificarà si adjunteu més fitxers grans a aquest missatge.
+big-file-hide-notification-checkbox = No em tornis a notificar més sobre això.
+cloud-file-privacy-warning = S'ha enllaçat correctament. Tingueu en compte que els fitxers adjunts enllaçats poden ser accessibles per tothom qui pugui veure o endevinar els enllaços.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = S'està pujant a { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = S'ha pujat a { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Adjunteu fitxers mitjançant { $provider }
 
 ## Link Preview
 
