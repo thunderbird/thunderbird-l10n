@@ -47,6 +47,7 @@ send-error-save-template-locally =
     Můžete to zkusit znovu nebo uložit šablonu lokálně do { $localFolder }/{ $folder }-{ $account }.
 send-dialog-save-title = Uložit zprávu
 send-dialog-retry = &Opakovat
+send-error-save-to-local-folders = Zprávu nebylo možné uložit do místních složek. Důvodem může být nedostatek místa.
 send-progress-filter-complete = Filtr dokončen.
 send-progress-filter-failed = Filtr selhal.
 send-error-filtering-message = Vaše zpráva byla odeslána a uložena, ale došlo k chybě při provádění filtrů.
@@ -93,6 +94,9 @@ smtp-server-error = Při odesílání zprávy nastala chyba: Chyba SMTP serveru.
 # Variables:
 # $serverResponse - server response
 smtp-error-sending-from-command = Při odesílání zprávy nastala chyba. Server odpověděl: { $serverResponse }. Ověřte prosím správnost své e-mailové adresy a zkuste to znovu.
+# Variables:
+# $serverResponse - server response
+smtp-permanent-size-exceeded = Velikost odesílané zprávy překročila na serveru nastavený globální velikostní limit. Zpráva nebyla odeslána. Pokuste se zmenšit velikost zprávy a zkuste to znovu. Server odpověděl:  { $serverResponse }.
 # Variables:
 # $serverResponse - server response
 smtp-error-sending-data-command = Při odesílání zprávy nastala (SMTP) chyba. Server odpověděl:  { $serverResponse }.
