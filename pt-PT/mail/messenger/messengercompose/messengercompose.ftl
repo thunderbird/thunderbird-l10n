@@ -10,6 +10,62 @@ compose-message-attachment-name = Mensagem anexada
 
 ## Compose window
 
+compose-send-confirm-title = Enviar mensagem
+compose-send-confirm-prompt = Tem a certeza que está pronto para enviar esta mensagem?
+compose-send-confirm-button = Enviar
+compose-do-not-show-again = Não mostrar esta janela novamente.
+compose-attachment-reminder-title = Lembrete de anexos
+compose-attachment-reminder-prompt = Esqueceu-se de adicionar o anexo?
+compose-attachment-reminder-send-button = Não, enviar agora!
+compose-attachment-reminder-add-button = Sim, esqueci-me!
+compose-quit-sending-title = A enviar mensagem
+compose-quit-saving-title = A guardar mensagem
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    O { $brand } está atualmente no processo de enviar uma mensagem.
+    Pretende esperar até que a mensagem seja enviada antes de sair ou sair agora?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    O { $brand } está atualmente no processo de guardar uma mensagem.
+    Pretende esperar até que a mensagem seja guardada antes de sair ou sair agora?
+compose-quit-button = Sai&r
+compose-wait-button = &Esperar
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = O ficheiro { $filename } não existe e, como tal, não foi anexado à mensagem.
+compose-message-file-error-title = Ficheiro da mensagem
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = O ficheiro { $filename } não existe e, por isso, não pode ser utilizado como corpo da mensagem.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = O ficheiro { $filename } não pode ser carregado com corpo da mensagem.
+compose-save-success-title = Guardar mensagem
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = A sua mensagem foi guardada na pasta { $folder } em { $server }.
+compose-rename-attachment-title = Renomear anexo
+compose-rename-attachment-prompt = Novo nome do anexo:
+remind-later-button =
+    .label = Lembrar mais tarde
+    .accesskey = L
+disable-attachment-reminder-menu-item =
+    .label = Desativar lembrete do anexo para a mensagem atual
+find-replace-button =
+    .label = Substituir…
+    .accesskey = x
+    .tooltiptext = Mostrar o diálogo Localizar e substituir
+compose-blocked-content-options-button = Opções
+compose-blocked-content-options-accesskey = O
+compose-blocked-content-preferences-button = Preferências
+compose-blocked-content-preferences-accesskey = P
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Desbloquear { $url }
 
 ## Send Format
 
@@ -75,6 +131,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Expandir Lista
     .accesskey = x
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = Remover { $field } endereços
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Tem a certeza que pretende remover { $field } endereços?
+compose-remove-address-row-button = Remover
 
 ## Attachment widget
 
@@ -433,6 +496,33 @@ cloud-file-account-error-title = Erro de conta do Filelink
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Não foi possível atualizar o anexo { $filename } do Filelink, porque a respetiva conta Filelink foi eliminada.
 # Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Não foi possível autenticar com { $provider }.
+cloud-file-upload-error-title = Erro ao carregar
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Não foi possível carregar { $filename } para { $provider }.
+cloud-file-quota-error-title = Erro de quota
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Se carregar { $filename } para { $provider }, excede a sua quota de espaço.
+cloud-file-size-error-title = Erro no tamanho do ficheiro
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } excede o tamanho máximo de { $provider }.
+cloud-file-unknown-error-title = Erro desconhecido
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Ocorreu um erro desconhecido ao comunicar com { $provider }.
+cloud-file-deletion-error-title = Erro ao apagar
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Ocorreu um problema ao apagar { $filename } de { $provider }.
+# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
     { $count ->
@@ -446,6 +536,30 @@ big-file-notification-text =
         [one] Este ficheiro é muito grande. É capaz de ser melhor usar o Filelink.
        *[other] Estes ficheiros são muito grandes. É capaz de ser melhor usar o Filelink.
     }
+big-file-learn-more-button =
+    .label = Saber mais...
+    .accesskey = m
+big-file-link-button =
+    .label = Ligação
+    .accesskey = L
+big-file-ignore-button =
+    .label = Ignorar
+    .accesskey = I
+big-file-choose-account-title = Escolher conta
+big-file-choose-account-prompt = Escolha a conta na nuvem para carregar o anexo
+big-file-hide-notification-title = Não carregar os meus ficheiros
+big-file-hide-notification-prompt = Não será novamente notificado se anexar outros ficheiros grandes a esta mensagem.
+big-file-hide-notification-checkbox = Nunca mais voltar a notificar.
+cloudfile-uploading-stop-button =
+    .label = Não mostrar novamente
+    .accesskey = N
+cloud-file-privacy-warning = A ligação foi concluída. Tenha em atenção que os anexos vinculados poderão estar acessíveis a terceiros que adivinhem ou vejam estas ligações.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = A carregar para { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Carregado para { $provider }
 
 ## Link Preview
 
