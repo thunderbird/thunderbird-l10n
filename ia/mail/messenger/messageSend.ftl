@@ -27,6 +27,9 @@ send-error-title = Error de invio
 send-progress-assembling-mail-information = Assemblage de informationes de posta…
 send-progress-assembling-message = Assemblage de message…
 send-progress-creating-mail-message = Creante message de e-mail…
+# Variables:
+# $filename - name or URL of the file that could not be attached
+send-error-attaching-file = Un error occurreva annexante { $filename }. Verifica que tu ha accesso al file.
 send-progress-assembling-message-done = Assemblage de message…Facite
 send-progress-copy-complete = Copia complete.
 send-progress-copy-failed = Copia fallite.
@@ -52,12 +55,18 @@ send-progress-filter-complete = Filtro complete.
 send-progress-filter-failed = Filtro fallite.
 send-error-filtering-message = Tu message ha essite inviate e salvate, ma un error ha occurrite durante le application del filtros pertinente.
 # Variables:
+# $hostname - outgoing server hostname
+send-error-smtp-security-issue = Le configuration associate a { $hostname } debe esser corrigite.
+send-error-post-failed = Le message non poteva esser postate perque le connexion al servitor de novas ha fallite. Le servitor pote esser indisponibile o refusar connexiones. Verifica tu parametros del servitor de novas e tenta lo de novo.
+# Variables:
 # $size - formatted message size
 send-warning-large-message = Advertimento! Tu va inviar un message de dimension { $size }. Desira tu vermente facer isto?
 # Variables:
 # $folder - destination folder name
 send-progress-copy-start = Copiante message al dossier { $folder }…
 send-progress-sending-message = Invio message in curso…
+send-error-nntp-ok = Tu message ha essite publicate in le gruppo ma non ha essite inviate al altere destinatario.
+send-error-copy-operation = Le message ha essite inviate correctemente, ma non poteva esser copiate in tu dossier "Inviate".
 send-later-error-title = { "" }
 send-save-draft-error-title = Error de salvar esbosso
 send-save-template-error-title = Error de salvar modello
@@ -86,7 +95,28 @@ smtp-auth-gssapi = Le ticket Kerberos/GSSAPI non ha essite acceptate per le serv
 smtp-auth-mechanism-not-supported = Le servitor de exito (SMTP) { $hostname } non supporta le methodo de authentication seligite. Cambia le ‘Methodo de authentication’ in ‘Parametros de contos | Servitor de exito (SMTP)’.
 # Variables:
 # $serverResponse - server response
+smtp-server-error = Un error ha occurrite durante le invio de posta: error del servitor de exito (SMTP). Le servitor ha respondite:  { $serverResponse }.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-starttls-failed = Un error ha occurrite durante le invio de e-mail: impossibile establir un connexion secur con le servitor de exito (SMTP) { $hostname } usante STARTTLS perque illo non declara ille functionalitate. Disactiva STARTTLS pro ille servitor o contacta tu fornitor de servicio.
+# Variables:
+# $serverResponse - server response
 smtp-too-many-recipients = Le message non era inviate perque excede le numero de recipientes permittite. Le servitor respondeva: { $serverResponse }.
 # Variables:
 # $serverResponse - server response
+smtp-error-sending-from-command = Un error ha occurrite durante le invio del message. Le servitor de e-mail ha respondite: { $serverResponse }. Verifica que tu adresse de e-mail es correcte in le parametros de tu conto e tenta lo de novo.
+# Variables:
+# $serverResponse - server response
 smtp-permanent-size-exceeded = Le dimension del message a inviar excede le limite global del servitor. Le message non ha essite inviate. Rende le message minus grande e tenta lo de novo. Le servitor ha respondite:  { $serverResponse }.
+# Variables:
+# $serverResponse - server response; $recipient - intended recipient
+smtp-error-sending-recipient-command =
+    Un error ha occurrite durante le invio de posta. Le servitor de posta ha respondite:
+    { $serverResponse }.
+    Verifica le destinatario del message "{ $recipient }" e tenta de novo.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-data-command = Un error ha occurrite in le servitor de exito (SMTP) durante le invio de posta. Le servitor ha respondite:  { $serverResponse }.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-message = Un error ha occurrite durante le invio de posta. Le servitor de posta ha respondite:  { $serverResponse }. Verifica le message e tenta de novo.
