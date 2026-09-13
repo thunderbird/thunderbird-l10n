@@ -100,6 +100,9 @@ smtp-server-error = Ошибка при отправлении почты: Ош�
 smtp-starttls-failed = Ошибка отправления почты: Не удалось установить защищённое соединение с сервером исходящей почты (SMTP) «{ $hostname }» с использованием STARTTLS, так как он не заявил о поддержке этой возможности. Отключите использование STARTTLS для этого сервера или свяжитесь с вашим сервис-провайдером.
 # Variables:
 # $serverResponse - server response
+smtp-too-many-recipients = Сообщение не было отправлено из-за превышения разрешённого количества получателей. Сервер ответил: { $serverResponse }.
+# Variables:
+# $serverResponse - server response
 smtp-permanent-size-exceeded = Размер сообщения, которое вы пытаетесь отправить, превышает глобальный предел размера, допустимый сервером. Сообщение не было отправлено; уменьшите его размер и попробуйте снова. Сервер ответил:  { $serverResponse }.
 # Variables:
 # $serverResponse - server response; $recipient - intended recipient
