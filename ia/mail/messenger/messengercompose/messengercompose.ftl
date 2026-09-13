@@ -37,6 +37,7 @@ compose-attachment-reminder-add-button = Si, de facto!
 compose-newsgroups-not-supported-title = Gruppos de discussion non supportate
 compose-newsgroups-not-supported = Iste conto supporta solmente le destinatarios de posta electronic. Si tu continua, le gruppos de discussion essera ignorate.
 compose-invalid-address-title = Adresse email del destinatario non valide.
+compose-no-recipients = Nulle destinatario ha essite specificate. Per favor insere un destinatario o gruppo in le area de adresses.
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address } non es un valide adresse email perque illo non es del forma user@hoste. Tu debe corriger lo ante inviar le e-mail.
