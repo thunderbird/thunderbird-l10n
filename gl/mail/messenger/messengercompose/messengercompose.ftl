@@ -17,6 +17,7 @@ compose-default-subject = (sen asunto)
 # $subject - message subject
 # $brand - application name
 compose-window-title = Escribir: { $subject } - { $brand }
+compose-save-message-title = Gardar a mensaxe
 # Variables:
 # $folder - configured drafts folder name
 compose-save-message-prompt = Desexa gardar esta mensaxe no cartafol de borradores ({ $folder }) e pechar a xanela de composición?
@@ -35,6 +36,10 @@ compose-attachment-reminder-send-button = Non, enviar xa
 compose-attachment-reminder-add-button = Ah, pois si!
 compose-newsgroups-not-supported-title = Non se admiten os grupos de noticias
 compose-newsgroups-not-supported = Esta conta só admite destinatarios(as) de correo electrónico. Se continúa ignoraranse os grupos de noticias.
+compose-invalid-address-title = Enderezo de correo do destinatario non válido
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } non é un enderezo de correo electrónico válido porque non ten o formato usuario@servidor. Corríxao antes de enviar o correo.
 compose-quit-sending-title = Enviando a mensaxe
 compose-quit-saving-title = Gardando a mensaxe
 # Variables:
@@ -50,6 +55,9 @@ compose-quit-saving-prompt =
 compose-quit-button = &Saír
 compose-wait-button = &Esperar
 compose-attach-file-picker-title = Anexar ficheiros
+compose-attach-page-title = Localización que desexa anexar
+compose-attach-page-prompt = Páxina web (URL):
+compose-message-part-attachment-name = Parte da mensaxe anexada
 compose-attachment-bucket-attach-files-tooltip = Anexar ficheiro(s)
 compose-attachment-bucket-clear-selection-tooltip = Limpar a selección
 # Variables:
