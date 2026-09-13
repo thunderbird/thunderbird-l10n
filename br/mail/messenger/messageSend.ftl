@@ -24,3 +24,41 @@ send-error-smtp-interrupted = N’eo ket bet kaset ar gemennadenn abalamour m’
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = N'eo ket bet kaset ar gemennadenn abalamour ma oa re hir ar c'hennask d'an dafariad kas (SMTP) { $hostname }s. Klaskit en-dro.
 send-error-title = Fazi ar postel kas
+send-progress-assembling-mail-information = O vodañ titouroù ar postel…
+send-progress-assembling-message = O vodañ ar gemennadenn…
+send-progress-creating-mail-message = O sevel korf ar postel…
+send-progress-assembling-message-done = O vodañ ar gemennadenn…Graet
+send-progress-copy-complete = Eilañ echu.
+send-progress-copy-failed = Eilañ faziet.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-sent-locally =
+    Kaset eo bet ho kemennadenn met n'eo ket plaset un eilenn anezhi en ho teuliad kaset ({ $folder }) abalamour da fazioù kenrouedad pe restroù ahez.
+    Gellout a rit koulskoude adklask pe enrollañ ar gemennadenn en un doare lec'hel e { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-draft-locally =
+    N'eo ket bet eilet ho kemennadenn vrouilhed en teuliad brouilhed ({ $folder }) abalamour da fazioù kenrouedad pe restroù ahez.
+    Gellout a rit koulskoude adklask pe enrollañ ar brouilhed en un doare lec'hel e { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-template-locally =
+    N'eo ket bet eilet ho padennek en ho teuliad padennekoù ({ $folder }) abalamour da fazioù kenrouedad pe restroù ahez.
+    Gellout a rit koulskoude adklask pe enrollañ ar padennek en un doare lec'hel e { $localFolder }/{ $folder }-{ $account }.
+send-dialog-retry = &Klask en-dro
+send-error-save-to-local-folders = N'eo ket posupl enrollañ ho kemennadenn en teuliad lec'hel. Sur a-walc'h peogwir e vank spas stokañ.
+send-progress-filter-complete = Sil klok.
+send-progress-filter-failed = Sil c'hwitet.
+send-error-filtering-message = Kaset hag enrollet eo bet ho kemennadenn, met ur gudenn a zo bet en ur erounit siloù ar c'hemennadennoù warni.
+# Variables:
+# $size - formatted message size
+send-warning-large-message = Diwallit! Emaoc'h o vont da gas ur gemennadenn a vent { $size }. Sur oc'h e fell deoc'h ober-se?
+# Variables:
+# $folder - destination folder name
+send-progress-copy-start = Oc'h Eilañ ar gemennadenn etrezek an teuliad { $folder }…
+send-progress-sending-message = O kas ar gemennadenn…
+send-later-error-title = Fazi kas diwezhatoc'h
+send-save-draft-error-title = Fazi enrollañ brouilhed
+send-save-template-error-title = Fazi enrollañ patrom
+# LOCALIZATION NOTE: This string must use only US-ASCII characters.
+send-undisclosed-recipients = degemererien dianataet
