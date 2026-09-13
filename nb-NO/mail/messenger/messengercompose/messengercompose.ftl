@@ -30,8 +30,17 @@ compose-empty-subject-title = Emnepåminnelse
 compose-empty-subject-prompt = Meldingen har ikke noe emne.
 compose-empty-subject-send-button = &Send meldingen uten emne
 compose-empty-subject-cancel-button = &Avbryt sending
+compose-attachment-reminder-title = Vedleggspåminnelse
+compose-attachment-reminder-prompt = Glemte du å legge ved en fil?
+compose-attachment-reminder-send-button = Nei, send nå
+compose-attachment-reminder-add-button = Å ja, det glemte jeg!
 compose-newsgroups-not-supported-title = Nyhetsgruppen støttes ikke
 compose-newsgroups-not-supported = Denne kontoen støtter bare e-postmottakere. Dersom du fortsetter vil nyhetsgrupper bli utelatt.
+compose-invalid-address-title = Ugyldig mottakeradresse
+compose-no-recipients = Ingen mottakere er angitt. Skriv inn minst en gyldig mottaker eller nyhetsgruppe i adressefeltet.
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } er ikke en gyldig e-postadresse, fordi den er ikke på formen bruker@vert. Du må korrigere den før du sender e-posten.
 compose-quit-sending-title = Sender melding
 compose-quit-saving-title = Lagrer melding
 # Variables:
@@ -47,6 +56,9 @@ compose-quit-saving-prompt =
 compose-quit-button = &Avslutt
 compose-wait-button = &Vent
 compose-attach-file-picker-title = Legg ved fil(er)
+compose-attach-page-title = Velg et nettsted å legge ved
+compose-attach-page-prompt = Nettside (URL):
+compose-message-part-attachment-name = Vedlagt meldingsdel
 compose-attachment-bucket-attach-files-tooltip = Legg ved fil(er)
 compose-attachment-bucket-clear-selection-tooltip = Fjern utvalg
 # Variables:
@@ -67,6 +79,11 @@ compose-save-success-title = Lagrer melding
 compose-save-success-message = Meldingen er lagret i mappen { $folder } under { $server }.
 compose-rename-attachment-title = Endre navn på vedlegg
 compose-rename-attachment-prompt = Nytt navn på vedlegget:
+remind-later-button =
+    .label = Minn meg på det senere
+    .accesskey = P
+disable-attachment-reminder-menu-item =
+    .label = Slå av vedleggspåminnelse for gjeldende melding
 find-replace-button =
     .label = Erstatt …
     .accesskey = s
