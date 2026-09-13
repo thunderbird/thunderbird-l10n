@@ -22,6 +22,9 @@ compose-save-message-title = Shrani sporočilo
 # $folder - configured drafts folder name
 compose-save-message-prompt = Shrani to sporočilo v mapo { $folder } in zapri okno Sestavi?
 compose-discard-changes-button = &Zavrzi spremembe
+compose-send-confirm-title = Pošlji sporočilo
+compose-send-confirm-prompt = Ali ste res pripravljeni to sporočilo poslati?
+compose-send-confirm-button = Pošlji
 compose-do-not-show-again = Tega pogovornega okna ne prikazuj več.
 compose-empty-subject-title = Opomnik za zadevo
 compose-empty-subject-prompt = Vaše sporočilo je brez zadeve.
@@ -34,6 +37,7 @@ compose-attachment-reminder-add-button = Res je!
 compose-newsgroups-not-supported-title = Novičarske skupine niso podprte.
 compose-newsgroups-not-supported = Ta račun podpira samo prejemnike e-pošte. Če nadaljujete, bodo novičarske skupine prezrte.
 compose-invalid-address-title = Neveljaven naslov prejemnika
+compose-no-recipients = Prejemniki niso bili navedeni. Vnesite prejemnika ali novičarsko skupino v polje za naslov.
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address } ni veljaven e-poštni naslov, ker ni oblike uporabnik@gostitelj. Preden lahko e-pošto pošljete, morate to popraviti.
@@ -44,6 +48,11 @@ compose-quit-saving-title = Sporočilo se shranjuje
 compose-quit-sending-prompt =
     { $brand } je trenutno v opravilu pošiljanja sporočila.
     Želite počakati, da se sporočilo pošlje preden končate, ali želite končati takoj?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } pravkar shranjuje sporočilo.
+    Ali želite pred končanjem programa počakati, da se sporočilo shrani, ali želite končati takoj?
 compose-quit-button = &Končaj
 compose-wait-button = &Počakaj
 compose-attach-file-picker-title = Pripni datoteke
