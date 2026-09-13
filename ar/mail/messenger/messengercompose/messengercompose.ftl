@@ -13,6 +13,10 @@ compose-message-attachment-name = رسالة مرفقة
 compose-initialization-error-title = إنشاء الرسالة
 compose-initialization-error = حصل خطأ أثناء تحضير نافذة إنشاء الرسائل. رجاءً حاول مجددًا.
 compose-default-subject = (بدون عنوان)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = اكتب: { $subject } - { $brand }
 compose-save-message-title = احفظ الرسالة
 # Variables:
 # $folder - configured drafts folder name
@@ -22,10 +26,16 @@ compose-send-confirm-title = أرسِل الرسالة
 compose-send-confirm-prompt = أمتأكد من أنك جاهز لإرسال هذه الرسالة؟
 compose-send-confirm-button = أرسِل
 compose-do-not-show-again = لا تُظهر مربّع الحوار هذا مرّة أخرى.
+compose-empty-subject-title = مذكِّر عنوان الرسالة
+compose-empty-subject-prompt = رسالتك ليس لها عنوان.
+compose-empty-subject-send-button = أرسِل ال&رسالة بدون عنوان
+compose-empty-subject-cancel-button = أ&لغِ الإرسال
 compose-attachment-reminder-title = مذكّر المرفقات
 compose-attachment-reminder-prompt = هل نسيت أن تضيف المرفق؟
 compose-attachment-reminder-send-button = لا، أرسِل الآن
 compose-attachment-reminder-add-button = أوه، نسيتُ فعلًا!
+compose-newsgroups-not-supported-title = مجموعات الأخبار غير مدعومة
+compose-newsgroups-not-supported = يدعم هذا الحساب فقط مستلمي البريد. المتابعة ستؤدي إلى تجاهل مجموعات الأخبار.
 compose-quit-sending-title = إرسال الرسالة
 compose-quit-saving-title = يحفظ الرسالة
 # Variables:
@@ -70,6 +80,12 @@ find-replace-button =
     .label = استبدل…
     .accesskey = س
     .tooltiptext = أظهر حوار البحث و الاستبدال
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = أدخل عنوانًا لاستعماله بدلا من { $identity }
+compose-custom-from-address-title = خصص عنوان المُرسِل
+compose-custom-from-address-warning = إن كان مزود خدمة البريد الإلكتروني الذي تستخدمه يدعمها، فخاصية تخصيص عنوان المُرسل تتيح لك تعديل بسيط سريع على عنوان المُرسل دون الحاجة لإنشاء هوية جديدة في إعدادات الحساب. مثلا، إذا كان عنوان المُرسل ”فلان العلاني <fulan@example.com>“ فقد تود تغييره إلى ”فلان العلاني <fulan+ellan@example.com>“ أو ”فلان <fulan@example.com>“.
+compose-custom-from-address-ignore = لا تنبهني عن هذا ثانيا
 compose-blocked-content-options-button = الخيارات
 compose-blocked-content-options-accesskey = خ
 compose-blocked-content-preferences-button = التفضيلات
