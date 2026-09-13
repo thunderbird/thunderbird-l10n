@@ -10,6 +10,56 @@ compose-message-attachment-name = Izen yeddan
 
 ## Compose window
 
+compose-send-confirm-title = Azen izen
+compose-send-confirm-prompt = Theggaḍ yakken akken ad tazneḍ izen-agi?
+compose-send-confirm-button = Azen
+compose-do-not-show-again = ur yid-skan ara akka d asawen tanaka-yagi n udiwenni
+compose-attachment-reminder-title = Asmekti n imeddayen
+compose-attachment-reminder-prompt = Tettuḍ ad ternuḍ amedday?
+compose-quit-sending-title = Tuzzna n yizen
+compose-quit-saving-title = Asekles n yizen
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } yettazen akka tura izen.
+    Tebɣiḍ ad terǧuḍ arama yettwazen yizen send ad teffɣeḍ neɣ ad teffɣeḍ tura?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } yesseklas akka tura izen.
+    Tebɣiḍ ad terǧuḍ arama yettwasekles yizen send ad teffɣeḍ neɣ ad teffɣeḍ tura?
+compose-quit-button = &Ffeɣ
+compose-wait-button = &Ṛǧu
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = Afaylu { $filename } ulac-it ihi ur yezmir ara ad yeddu akked yizen.
+compose-message-file-error-title = Afaylu n yizen
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = Afaylu { $filename } ulac-it ihi ur yezmir ara ad ittuseqdec am tfekka n yizen.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = Ayfaylu { $filename } ur yezmir ara ad d-yali am yizen n tfekka.
+compose-save-success-title = Sekles izen
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Izen-inek yettwasekles deg ukaram { $folder }  di { $server }.
+compose-rename-attachment-title = Snifel isem n tceqquft yeddan
+compose-rename-attachment-prompt = Isem n tceqquft yeddan tamaynut:
+remind-later-button =
+    .label = Mekti-y-id ticki
+    .accesskey = L
+disable-attachment-reminder-menu-item =
+    .label = Kkes armad n usmekti n umedday deg izen amiran
+compose-blocked-content-options-button = Iɣewwaṛen
+compose-blocked-content-options-accesskey = ɣ
+compose-blocked-content-preferences-button = Ismenyifen
+compose-blocked-content-preferences-accesskey = I
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Serreḥ { $url }
 
 ## Send Format
 
@@ -72,6 +122,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Snerni tabdart
     .accesskey = n
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = Tukksa n tensiwin n { $field }
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Tebɣiḍ ad tekkseḍ tansiwin n { $field }?
+compose-remove-address-row-button = Kkes
 
 ## Attachment widget
 
