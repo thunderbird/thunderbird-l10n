@@ -14,6 +14,10 @@ compose-initialization-error-title = Σύνταξη μηνύματος
 compose-initialization-error = Σφάλμα κατά τη δημιουργία παραθύρου σύνταξης μηνύματος. Προσπαθήστε ξανά.
 compose-default-subject = (χωρίς θέμα)
 # Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Σύνταξη: { $subject } - { $brand }
+# Variables:
 # $folder - configured drafts folder name
 compose-save-message-prompt = Αποθήκευση μηνύματος στον φάκελο προσχεδίων σας ({ $folder }) και κλείσιμο παραθύρου σύνταξης;
 compose-discard-changes-button = &Απόρριψη αλλαγών
@@ -21,6 +25,12 @@ compose-send-confirm-title = Αποστολή μηνύματος
 compose-send-confirm-prompt = Θέλετε σίγουρα να κάνετε αποστολή αυτού του μηνύματος;
 compose-send-confirm-button = Αποστολή
 compose-do-not-show-again = Να μην εμφανιστεί ξανά αυτό το μήνυμα
+compose-empty-subject-title = Υπενθύμιση θέματος
+compose-empty-subject-prompt = Το μήνυμά σας δεν έχει θέμα.
+compose-empty-subject-send-button = &Αποστολή χωρίς θέμα
+compose-empty-subject-cancel-button = Α&κύρωση αποστολής
+compose-newsgroups-not-supported-title = Μη υποστηριζόμενες ομάδες συζητήσεων
+compose-newsgroups-not-supported = Αυτός ο λογαριασμός υποστηρίζει μόνο παραλήπτες email. Αν συνεχίσετε θα αγνοηθούν οι ομάδες συζήτησης.
 compose-quit-sending-title = Αποστολή μηνύματος
 compose-quit-saving-title = Αποθήκευση μηνύματος
 # Variables:
@@ -54,6 +64,24 @@ compose-save-success-title = Αποθήκευση μηνύματος
 # $folder - folder in which the message was saved
 # $server - server on which the folder is located
 compose-save-success-message = Το μήνυμά σας έχει αποθηκευτεί στον φάκελο «{ $folder }» στο { $server }.
+find-replace-button =
+    .label = Αντικατάσταση…
+    .accesskey = κ
+    .tooltiptext = Εμφάνιση διαλόγου «Εύρεση και αντικατάσταση»
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Εισαγάγετε την προσαρμοσμένη διεύθυνση αποστολέα που θα χρησιμοποιείται αντί του { $identity }
+compose-custom-from-address-title = Προσαρμογή διεύθυνσης αποστολέα
+compose-custom-from-address-warning = Αν υποστηρίζεται από τον πάροχο ηλεκτρονικού ταχυδρομείου σας, η Προσαρμογή διεύθυνσης αποστολέα σάς επιτρέπει να κάνετε μια μικρή αλλαγή στη διεύθυνση αποστολέα, χωρίς να δημιουργήσετε μια νέα ταυτότητα στις ρυθμίσεις λογαριασμού. Για παράδειγμα, αν η διεύθυνση αποστολέα σας είναι John Doe <john@example.com>, μπορείτε να την αλλάξετε σε John Doe <john+doe@example.com> ή John <john@example.com>.
+compose-custom-from-address-ignore = Να μην ειδοποιηθώ για αυτό ξανά
+compose-blocked-content-options-button = Επιλογές
+compose-blocked-content-options-accesskey = Ε
+compose-blocked-content-preferences-button = Προτιμήσεις
+compose-blocked-content-preferences-accesskey = Π
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Άρση αποκλεισμού του «{ $url }»
 
 ## Send Format
 
@@ -473,6 +501,33 @@ cloud-file-account-error-title = Σφάλμα λογαριασμού FileLink
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Αποτυχία ενημέρωσης του συνημμένου «{ $filename }» στο FileLink, επειδή ο λογαριασμός FileLink του έχει διαγραφεί.
 # Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Δεν ήταν δυνατή η ταυτοποίηση στο { $provider }.
+cloud-file-upload-error-title = Σφάλμα μεταφόρτωσης
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Δεν ήταν δυνατή η αποστολή του { $filename } στο { $provider }.
+cloud-file-quota-error-title = Σφάλμα ποσόστωσης αποθηκευτικού χώρου
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Η αποστολή του { $filename } στο { $provider } θα ξεπεράσει τον επιτρεπόμενο χώρο δίσκου.
+cloud-file-size-error-title = Σφάλμα μεγέθους αρχείου
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = Το { $filename } ξεπερνά το μέγιστο μέγεθος για { $provider }.
+cloud-file-unknown-error-title = Άγνωστο σφάλμα
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Προέκυψε άγνωστο σφάλμα κατά την επικοινωνία με το { $provider }.
+cloud-file-deletion-error-title = Σφάλμα διαγραφής
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Προέκυψε πρόβλημα κατά τη διαγραφή { $filename } από { $provider }.
+# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
     { $count ->
@@ -486,6 +541,9 @@ big-file-notification-text =
         [one] Αυτό είναι ένα μεγάλο αρχείο. Ίσως είναι καλύτερα να χρησιμοποιήσετε το FileLink.
        *[other] Αυτά είναι μεγάλα αρχεία. Ίσως είναι καλύτερα να χρησιμοποιήσετε το FileLink.
     }
+cloudfile-uploading-stop-button =
+    .label = Να μην εμφανιστεί ξανά
+    .accesskey = Ν
 # Variables:
 # $provider - name of the online storage service
 cloud-file-attach-picker-title = Επισύναψη αρχείων μέσω { $provider }
