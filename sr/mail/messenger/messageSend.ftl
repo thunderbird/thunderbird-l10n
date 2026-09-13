@@ -72,6 +72,9 @@ send-save-template-error-title = Грешка приликом чувања ша
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = неоткривени-примаоци
 # Variables:
+# $recipient - recipient address
+smtp-error-illegal-local-part = Има знакова који нису ASCII у локалном делу адресе примаоца { $recipient } а ваш сервер не подржава SMTPUTF8. Промените ову адресу и покушајте поново.
+# Variables:
 # $serverResponse - server response
 smtp-server-error = Догодила се грешка приликом слања поште: Грешка одлазног (SMTP) сервера. Сервер је одговорио са:  { $serverResponse }.
 # Variables:
