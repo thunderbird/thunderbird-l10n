@@ -101,7 +101,13 @@ smtp-server-error = Fehler beim Senden der Nachricht: SMTP-Server-Fehler. Der Ma
 smtp-starttls-failed = Fehler beim Senden der Nachricht: Eine sichere Verbindung mit dem SMTP-Server { $hostname } kann nicht mit STARTTLS aufgebaut werden, da der Server diese Funktion nicht angibt. Schalten Sie STARTTLS für diesen Server ab oder kontaktieren Sie Ihren Anbieter des E-Mail-Diensts.
 # Variables:
 # $serverResponse - server response
+smtp-too-many-recipients = Die Nachricht wurde nicht gesendet, weil die erlaubte Anzahl an Empfängern überschritten wurde. Der Server antwortete: { $serverResponse }.
+# Variables:
+# $serverResponse - server response
 smtp-error-sending-from-command = Fehler beim Senden der Nachricht. Der Mail-Server antwortete: { $serverResponse }. Bitte überprüfen Sie, ob Ihre E-Mail-Adresse in den Konten-Einstellungen stimmt und wiederholen Sie den Vorgang.
+# Variables:
+# $serverResponse - server response
+smtp-permanent-size-exceeded = Die Größe der zu sendenden Nachricht übersteigt das globale Größenlimit des Servers. Die Nachricht wurde nicht gesendet; reduzieren Sie die Nachrichtengröße und versuchen Sie es nochmals. Der Server antwortete: { $serverResponse }.
 # Variables:
 # $serverResponse - server response; $recipient - intended recipient
 smtp-error-sending-recipient-command =
