@@ -5,6 +5,7 @@
 
 ## Compose alerts
 
+compose-message-cancelling = Cancellante…
 compose-message-attachment-name = Message annexate
 
 ## Compose window
