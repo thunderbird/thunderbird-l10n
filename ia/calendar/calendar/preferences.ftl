@@ -15,6 +15,10 @@ dateformat-long =
 #   $date (String) - the formatted example date
 dateformat-short =
     .label = Curte: { $date }
+auto-detect-timezone-radio-button =
+    .label = Automaticamente deteger fuso horari
+manually-set-timezone-radio-button =
+    .label = Manualmente predefinir fuso horari
 use-system-timezone-radio-button =
     .label = Usar le fuso horari de systema
 set-timezone-manually-radio-button =

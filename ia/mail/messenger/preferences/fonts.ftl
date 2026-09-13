@@ -9,12 +9,19 @@ fonts-label-default =
     .label = Predefinite ({ $name })
 fonts-label-default-unnamed =
     .label = Predefinite
+fonts-character-set-legend =
+    .value = Insimul de characteres:
+    .accesskey = c
+font-main-style-label =
+    .value = Stilo characteres principal:
+    .accesskey = c
 fonts-language-legend =
     .value = Typos de litteras pro:
     .accesskey = t
 fonts-proportional-label =
     .value = Proportional:
     .accesskey = P
+text-font-options-dialog-title = Optiones de texto e typo de characteres
 
 ## Languages
 
@@ -93,6 +100,9 @@ font-size-monospace-label =
 font-serif-label =
     .value = Serif:
     .accesskey = S
+sans-serif-font-label =
+    .value = Character Sans-serif:
+    .accesskey = h
 font-sans-serif-label =
     .value = Sans-serif:
     .accesskey = n
@@ -113,6 +123,13 @@ use-document-fonts-checkbox =
     .accesskey = o
 use-fixed-width-plain-checkbox =
     .label = Usar un typo de litteras a largor fixe pro messages de texto simple
+    .accesskey = x
+message-font-permissions-legend = Permissos pro characteres del messages
+allow-incoming-fonts-checkbox =
+    .label = Permitter al messages in ingresso de usar lor proprie typo de characteres
+    .accesskey = t
+display-fixed-width-plain-checkbox =
+    .label = Monstrar messages de texto simple in un character de largor fixe
     .accesskey = x
 
 ## Language settings

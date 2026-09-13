@@ -75,6 +75,7 @@ send-undisclosed-recipients = destinatarios celate
 # Variables:
 # $recipient - recipient address
 smtp-error-illegal-local-part = Il ha characteres non-ASCII in le parte local del adresse destinatario { $recipient } e tu servitor non supporta SMTPUTF8. Cambia iste adresse e reproba.
+smtp-error-no-recipients = Necun destinatario era specificate pro le livration per SMTP.
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = Le servitor de exito (SMTP) { $hostname } non pare supportar contrasignos cryptate. Si tu ha justo ora configurate iste conto, tenta cambiar le ‘Methodo de authentication’ in ‘Parametros de contos | Servitor de exito (SMTP)’ a ‘Contrasigno, transmittite sin securitate’. Si illo functionava antea e ora subito falle, es possibile que alcuno tenta furar tu contrasigno.

@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 attachment-reminder-dialog-title = Parolas pro rememoration de annexo
+attachment-reminder-description = Monstrar un memento pro annexos mancante si le e-mail contine parolas clave concordante.
 attachment-reminder-label = { -brand-short-name } te advertira sur le omission de annexos si tu es sur le puncto de inviar un message que contine un de iste parolas clave.
 keyword-new-button =
     .label = Nove…
