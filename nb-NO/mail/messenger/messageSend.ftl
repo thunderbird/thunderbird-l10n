@@ -47,9 +47,13 @@ send-error-save-template-locally =
     Du kan prøve på nytt eller lagre malen lokalt til { $localFolder }/{ $folder }-{ $account }.
 send-dialog-save-title = Lagrer melding
 send-dialog-retry = &Prøv på nytt
+send-error-save-to-local-folders = Klarte ikke å lagre meldingen din til lokale mapper. Muligens fri for lagringsplass.
 send-progress-filter-complete = Filter fullført.
 send-progress-filter-failed = Filter mislyktes.
 send-error-filtering-message = Dine meldinger er sendt og lagret, men et problem oppstod ved utføring av meldingsfiltre på de.
+# Variables:
+# $hostname - outgoing server hostname
+send-error-smtp-security-issue = Innstillingen relatert til { $hostname } må korrigeres.
 send-error-post-failed = Klarte ikke poste meldingen, på grunn av at tilkoblingen til nyhetsgruppeserveren feilet. Serveren kan være utilgjengelig akkurat nå. Kontroller innstillingene for nyhetsgrupper og prøv igjen, eller kontakt nettverksansvarlig for hjelp.
 # Variables:
 # $size - formatted message size
@@ -58,11 +62,16 @@ send-warning-large-message = Advarsel! Du vil nå sende en melding med størrels
 # $folder - destination folder name
 send-progress-copy-start = Kopierer melding til mappen { $folder } …
 send-progress-sending-message = Sender melding …
+send-error-nntp-ok = Meldingen er postet til nyhetsgruppen men har ikke blitt sendt til andre mottakere.
+send-error-copy-operation = Meldingen ble sendt, men kunne ikke bli kopiert til mappen for sendte meldinger.
 send-later-error-title = Feil ved utsatt sending.
 send-save-draft-error-title = Feil ved lagring av utkast
 send-save-template-error-title = Feil ved lagring av mal
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = skjulte-mottakere
+# Variables:
+# $recipient - recipient address
+smtp-error-illegal-local-part = Det er ikke-ASCII-tegn i den lokale delen av mottakeradressen { $recipient }, og serveren din støtter ikke SMTPUTF8. Endre denne adressen og prøv på nytt.
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = Den utgående tjeneren (SMTP) { $hostname } ser ikke ut til å støtte krypterte passord. Hvis du akkurat har opprettet denne kontoen, prøv å endre ‘autentiseringsmetode’ i ‘Kontoinnstillinger | Utgående server (SMTP)’ til ‘Passord, overført uten sikkerhet’. Hvis det virket før men ikke lenger nå, kan du være utsatt for et forsøk på å stjele passordet ditt.
@@ -83,7 +92,13 @@ smtp-auth-gssapi = Din Kerberos/GSSAPI-ticket ble ikke godkjent av SMTP-serveren
 smtp-auth-mechanism-not-supported = SMTP-serveren { $hostname } støtter ikke den valgte autentiseringsmetoden. Endre ‘Autentiseringsmetode’ i ‘Kontoinnstillinger | Utgående server (SMTP)’.
 # Variables:
 # $serverResponse - server response
+smtp-server-error = En feil oppstod under sending av e-post: SMTP-serverfeil. Serveren svarte:  { $serverResponse }.
+# Variables:
+# $serverResponse - server response
 smtp-error-sending-from-command = En feil oppstod ved sending av e-post. E-postserveren svarte: { $serverResponse }. Kontroller at e-postadressen er korrekt i kontoinnstillingene og prøv igjen.
+# Variables:
+# $serverResponse - server response
+smtp-permanent-size-exceeded = Størrelsen på meldingen du forsøker å sende er større enn maksstørrelsen på serveren. Meldingen ble ikke sendt; gjør meldingen mindre og prøv igjen. Serveren svarte:  { $serverResponse }.
 # Variables:
 # $serverResponse - server response
 smtp-error-sending-data-command = En SMTP-feil oppstod ved sending av e-post. Serveren svarte: { $serverResponse }.
