@@ -5,6 +5,7 @@
 
 ## Compose alerts
 
+compose-message-cancelling = Wycofywanie…
 compose-message-attachment-name = Załączona wiadomość
 
 ## Compose window
