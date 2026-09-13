@@ -23,6 +23,7 @@ compose-discard-changes-button = &Henda breytingum
 compose-send-confirm-title = Senda boð
 compose-send-confirm-prompt = Ertu viss um að þú sért tilbúinn að senda þennan póst?
 compose-send-confirm-button = Senda
+compose-do-not-show-again = Ekki sýna þennan glugga aftur.
 compose-empty-subject-title = Áminning fyrir efnislínu
 compose-empty-subject-prompt = Pósturinn inniheldur ekki efnislínu.
 compose-empty-subject-send-button = &Senda án efnislínu
@@ -33,6 +34,7 @@ compose-attachment-reminder-send-button = Nei, senda strax
 compose-attachment-reminder-add-button = Já, ég gleymdi því!
 compose-newsgroups-not-supported-title = Fréttahópar ekki studdir
 compose-newsgroups-not-supported = Þessi reikningur styður aðeins póst viðtakendur. Ef þú heldur áfram munu fréttahópar vera hunsaðir.
+compose-quit-sending-title = Sendi póst
 compose-quit-saving-title = Vista skilaboð
 # Variables:
 # $brand - application name
@@ -47,7 +49,22 @@ compose-quit-saving-prompt =
 compose-quit-button = &Hætta
 compose-wait-button = &Bíða
 compose-attach-file-picker-title = Bæta við viðhengi
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = Skráin { $filename } er ekki til og er þess vegna ekki bæta henni við póstinn.
 compose-file-attachment-error-title = Viðhengi
+compose-message-file-error-title = Póstskrá
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = Skráin { $filename } er ekki til og er ekki hægt að nota sem meginmál.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = Ekki tókst að hlaða inn skrá { $filename } sem meginmál.
+compose-save-success-title = Vista póst
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Búið er að vist póstinn þinn í möppu { $folder } undir { $server }.
 compose-rename-attachment-title = Endurnefna viðhengi
 compose-rename-attachment-prompt = Nýtt nafn á viðhengi:
 remind-later-button =
