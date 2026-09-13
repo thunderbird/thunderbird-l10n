@@ -24,3 +24,14 @@ send-error-smtp-interrupted = Poruka nije poslana jer je veza s poslužiteljem o
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = Poruka nije poslana jer je veza s poslužiteljem odlazne pošte (SMTP) { $hostname } istekla. Pokušajte ponovno.
 send-error-title = Greška slanja poruke
+send-progress-assembling-mail-information = Prikupljanje informacija o pošti…
+send-progress-assembling-message = Sastavljanje poruke…
+send-progress-creating-mail-message = Stvaranje poruke e-pošte…
+send-progress-assembling-message-done = Sastavljanje poruke…Završeno
+send-progress-copy-complete = Kopiranje završeno.
+send-progress-copy-failed = Kopiranje nije uspjelo.
+send-progress-filter-complete = Filter završen.
+send-progress-filter-failed = Filter neuspješan.
+# Variables:
+# $folder - destination folder name
+send-progress-copy-start = Kopiranje poruke u mapu { $folder }…
