@@ -7,6 +7,8 @@
 
 send-alert-queued-delivery-failed = Med dostavo neposlanih sporočil je prišlo do napake.
 send-alert-followup-to-sender = Avtor tega sporočila je zahteval, da se odgovore pošilja samo avtorju. Če želite odgovoriti novičarski skupini tudi sami, dodajte novo vrstico v področje za naslov, na seznamu prejemnikov izberite novičarsko skupino in vnesite njeno ime.
+send-unable-to-save-template = Sporočila ni mogoče shraniti kot predlogo.
+send-unable-to-save-draft = Sporočila ni mogoče shraniti kot osnutek.
 send-error-failed = Pošiljanje sporočila je spodletelo.
 send-unable-to-send-later = Sporočila za kasnejše pošiljanje ni bilo mogoče shraniti.
 # Variables:
@@ -21,3 +23,4 @@ send-error-smtp-interrupted = Sporočila ni bilo mogoče poslati, ker je bila po
 # Variables:
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = Sporočila ni bilo mogoče poslati, ker je povezava z odhodnim strežnikom (SMTP) { $hostname } potekla. Poskusite znova.
+send-error-title = Napaka pri pošiljanju sporočila
