@@ -10,6 +10,90 @@ compose-message-attachment-name = Messadi sco agiunta
 
 ## Compose window
 
+compose-initialization-error-title = Scriver in messadi
+compose-initialization-error = Errur cun crear ina fanestra da rediger messadis. Emprova per plaschair anc ina giada.
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Rediger: { $subject } - { $brand }
+compose-send-confirm-title = Trametter il messadi
+compose-send-confirm-prompt = Es ti segir che ti es pront da trametter quest messadi?
+compose-send-confirm-button = Trametter
+compose-do-not-show-again = Betg pli mussar questa fanestra da dialog
+compose-empty-subject-title = Promemoria per l'object
+compose-empty-subject-prompt = Tes messadi n'ha nagin object.
+compose-empty-subject-send-button = &Trametter senza object
+compose-empty-subject-cancel-button = &Betg trametter
+compose-attachment-reminder-title = Promemoria per agiuntas
+compose-attachment-reminder-prompt = Has ti emblidà dad agiuntar ina datoteca?
+compose-attachment-reminder-send-button = Na, trametter ussa
+compose-attachment-reminder-add-button = Gea!
+compose-newsgroups-not-supported-title = Gruppas da discussiun na vegnan betg sustegnidas
+compose-newsgroups-not-supported = Quest conto sustegna mo destinaturs dad e-mail. Gruppas da discussiun vegnan ignoradas.
+compose-invalid-address-title = Adressa da destinatur nunvalida
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } n'è betg ina adressa dad e-mail valida perquai ch'ella na correspunda betg a la furma utilisader@server. Ti stos curreger ella per pudair trametter l'e-mail.
+compose-quit-sending-title = Il messadi vegn tramess
+compose-quit-saving-title = Memorisar il messadi
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } trametta gist in messadi.
+    Vuls ti spetgar cun serrar fin ch'il messadi è vegnì tramess u vuls ti serrar immediat?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } memorisescha actualmain in messadi.
+    Vuls ti spetgar fin ch'il messadi è vegnì memorisà avant che terminar u terminar ussa?
+compose-quit-button = Exit
+compose-wait-button = &Spetgar
+compose-attach-page-title = Endatescha per plaschair l'adressa
+compose-attach-page-prompt = Pagina web (URL):
+compose-message-part-attachment-name = Part dal messadi sco agiunta
+compose-attachment-bucket-attach-files-tooltip = Agiuntar datoteca(s)
+compose-attachment-bucket-clear-selection-tooltip = Stizzar la selecziun
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = La datoteca { $filename } n'exista betg e n'ha perquai betg pudì vegnir agiuntada al messadi.
+compose-file-attachment-error-title = Agiuntar ina datoteca
+compose-message-file-error-title = Datoteca da messadi
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = La datoteca { $filename } n'exista betg e n'ha perquai betg pudì vegnir utilisada sco corp dal messadi.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = Impussibel da chargiar la datoteca { $filename } sco corp dal messadi.
+compose-save-success-title = Memorisar il messadi
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Tes messadi è vegnì memorisà en l'ordinatur { $folder } en { $server }.
+compose-rename-attachment-title = Renumnar l'agiunta
+compose-rename-attachment-prompt = Nov num da l'agiunta:
+remind-later-button =
+    .label = Ma regurdar pli tard
+    .accesskey = t
+disable-attachment-reminder-menu-item =
+    .label = Deactivar l'avis areguard l'agiunta per quest messadi
+find-replace-button =
+    .label = Remplazzar…
+    .accesskey = l
+    .tooltiptext = Mussar la fanestra per tschertgar e remplazzar
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Endatescha ina adressa da speditur che duai vegnir utilisada empè da { $identity }
+compose-custom-from-address-title = Midar l'adressa da speditur
+compose-custom-from-address-warning = Sche tes purschider dad e-mail sustegna questa funcziun, pos ti midar l'adressa da speditur senza che ti stoppias crear ina nova identitad en la configuraziun dal conto. In exempel: Sche tia adressa da speditur è Gion Cadieli <gion@example.com> la pos ti midar en Gion Cadieli <gion+cadieli@example.com> u Gion <gion@example.com>.
+compose-custom-from-address-ignore = Mai pli m'infurmar davart questa funcziun
+compose-blocked-content-options-button = Opziuns
+compose-blocked-content-options-accesskey = O
+compose-blocked-content-preferences-button = Preferenzas
+compose-blocked-content-preferences-accesskey = P
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Debloccar { $url }
 
 ## Send Format
 
@@ -431,6 +515,34 @@ cloud-file-account-error-title = Errur da conto Filelink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = I n'è betg reussì dad actualisar l'agiunta Filelink { $filename } perquai ch'il conto da Filelink correspundent è vegnì stizzà.
+cloud-file-authentication-error-title = Errur d'autentificaziun
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Impussibel dad autentifitgar tar { $provider }.
+cloud-file-upload-error-title = Errur cun transferir
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Impussibel da transferir { $filename } a { $provider }.
+cloud-file-quota-error-title = Errur da quota
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Transferir { $filename } a { $provider } surpassass tia quota da memoria.
+cloud-file-size-error-title = Errur da la grondezza da datoteca
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } surpassa la grondezza maximala per datotecas sin { $provider }.
+cloud-file-unknown-error-title = Errur nunenconuschenta
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Ina errur nunenconuschenta è cumparida durant communitgar cun { $provider }.
+cloud-file-deletion-error-title = Errur cun stizzar
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = I ha dà in problem cun stizzar { $filename } da { $provider }.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
@@ -445,6 +557,33 @@ big-file-notification-text =
         [one] Quai è ina gronda datoteca. Forsa fissi pli simpel dad utilisar in servetsch per memorisar datotecas.
        *[other] Quai èn grondas datotecas. Forsa fissi pli simpel dad utilisar in servetsch per memorisar datotecas.
     }
+big-file-learn-more-button =
+    .label = Ulteriuras infurmaziuns…
+    .accesskey = m
+big-file-link-button =
+    .label = Colliar
+    .accesskey = l
+big-file-ignore-button =
+    .label = Ignorar
+    .accesskey = i
+big-file-choose-account-title = Tscherner in conto
+big-file-choose-account-prompt = Tscherner il conto al qual ti vuls transferir las datotecas
+big-file-hide-notification-title = Betg transferir mias datotecas
+big-file-hide-notification-prompt = Ti na vegns betg pli infurmà sche ti agiunteschas ulteriuras datotecas grondas a quest messadi.
+big-file-hide-notification-checkbox = Mai pli m'infurmar davart questa funcziun.
+cloudfile-uploading-stop-button =
+    .label = Mai pli mussar quai
+    .accesskey = M
+cloud-file-privacy-warning = La datoteca è colliada. Considerescha che agiuntas colliadas èn accessiblas a persunas che vesan u engiavinan la colliaziun.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Chargiar sin { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Chargià sin { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Agiuntar datoteca(s) cun { $provider }
 
 ## Link Preview
 
