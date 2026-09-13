@@ -10,10 +10,33 @@ compose-message-attachment-name = ข้อความที่แนบ
 
 ## Compose window
 
+compose-default-subject = (ไม่มีหัวเรื่อง)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = เขียน: { $subject } - { $brand }
+compose-save-message-title = บันทึกข้อความ
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = บันทึกข้อความนี้ไปยังโฟลเดอร์ฉบับร่างของคุณ ({ $folder }) แล้วปิดหน้าต่างเขียนหรือไม่?
+compose-discard-changes-button = &ละทิ้งการเปลี่ยนแปลง
+compose-empty-subject-title = คำเตือนหัวเรื่อง
+compose-empty-subject-prompt = ข้อความของคุณไม่มีหัวเรื่อง
+compose-empty-subject-send-button = &ส่งโดยไม่มีหัวเรื่อง
+compose-empty-subject-cancel-button = &ยกเลิกการส่ง
+compose-newsgroups-not-supported-title = ไม่รองรับกลุ่มข่าว
+compose-newsgroups-not-supported = บัญชีนี้รองรับผู้รับอีเมลเท่านั้น การดำเนินการต่อจะเป็นการเพิกเฉยกลุ่มข่าว
+compose-attach-file-picker-title = แนบไฟล์
 find-replace-button =
     .label = แทนที่…
     .accesskey = ท
     .tooltiptext = แสดงกล่องโต้ตอบ ค้นหาและแทนที่
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = ป้อนที่อยู่ จาก ที่กำหนดเองที่จะใช้แทน { $identity }
+compose-custom-from-address-title = ปรับแต่งที่อยู่ จาก
+compose-custom-from-address-warning = หากผู้ให้บริการอีเมลของคุณรองรับการกำหนดค่าจากที่อยู่ให้คุณทำการเปลี่ยนแปลงเล็กน้อยแบบครั้งเดียวกับที่อยู่ จาก ของคุณโดยไม่ต้องสร้างข้อมูลประจำตัวใหม่ในการตั้งค่าบัญชี ตัวอย่างเช่นหากที่อยู่ จาก ของคุณคือ John Doe <john@example.com> คุณอาจต้องการเปลี่ยนเป็น John Doe <john+doe@example.com> หรือ John <john@example.com>
+compose-custom-from-address-ignore = ไม่ต้องแสดงคำเตือนนี้ให้ฉันเห็นอีก
 compose-blocked-content-options-button = ตัวเลือก
 compose-blocked-content-options-accesskey = ต
 compose-blocked-content-preferences-button = ค่าปรับแต่ง
@@ -449,6 +472,9 @@ big-file-notification-text = ไฟล์เหล่านี้มีขนา
 cloudfile-uploading-stop-button =
     .label = ไม่ต้องแสดงสิ่งนี้อีก
     .accesskey = ม
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = แนบไฟล์ผ่านทาง { $provider }
 
 ## Link Preview
 
