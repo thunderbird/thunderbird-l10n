@@ -6,7 +6,12 @@
 ## Message sending
 
 send-alert-queued-delivery-failed = S'ha produït un error en lliurar els missatges per enviar.
+send-alert-followup-to-sender = L'autor d'aquest missatge ha demanat que les respostes només s'enviïn a l'autor. Si també voleu contestar al grup de discussió, afegiu una fila nova a la zona de l'adreça, seleccioneu «grup de discussió» de la llista de destinataris i introduïu-ne el nom.
 send-error-failed = L'enviament del missatge ha fallat.
+send-unable-to-send-later = No s'ha pogut desar el missatge per enviar-lo més tard.
+# Variables:
+# $hostname - outgoing server hostname
+send-error-smtp-unknown-server = S'ha produït un error en enviar el correu: El servidor de sortida (SMTP) { $hostname } és desconegut. El servidor pot estar configurat de forma incorrecta. Verifiqueu que els paràmetres del servidor de sortida (SMTP) siguin correctes i torneu-ho a provar.
 # Variables:
 # $hostname - outgoing server hostname
 send-error-smtp-request-refused = El missatge no s'ha pogut enviar perquè ha fallat la connexió amb el servidor de sortida (SMTP) { $hostname }. Pot ser que el servidor no estigui disponible o estigui rebutjant connexions SMTP. Comproveu que els paràmetres del servidor de sortida (SMTP) siguin correctes i torneu-ho a provar.

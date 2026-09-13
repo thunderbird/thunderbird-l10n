@@ -3,6 +3,14 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Compose alerts
+
+compose-message-cancelling = S'està cancel·lant…
+compose-message-attachment-name = Missatge adjunt
+
+## Compose window
+
+
 ## Send Format
 
 compose-send-format-menu =
