@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 attachment-reminder-dialog-title = Từ khóa lời nhắc về đính kèm
+attachment-reminder-description = Hiển thị thông báo nhắc nhở về các tập tin đính kèm bị thiếu nếu email chứa các từ khóa trùng khớp.
 attachment-reminder-label = { -brand-short-name } sẽ cảnh báo bạn về các tập tin đính kèm bị thiếu nếu bạn sắp gửi e-mail chứa một trong những từ khóa này.
 keyword-new-button =
     .label = Mới…
