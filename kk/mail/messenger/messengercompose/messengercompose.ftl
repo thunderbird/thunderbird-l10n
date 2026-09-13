@@ -37,6 +37,7 @@ compose-attachment-reminder-add-button = Иә, дәл солай!
 compose-newsgroups-not-supported-title = Жаңалықтар топтарына қолдау жоқ
 compose-newsgroups-not-supported = Бұл тіркелгі тек эл. пошта алушыларын қолдайды. Жалғастыру нәтижесінде жаңалықтар топтарын елемейміз.
 compose-invalid-address-title = Алушы адресі қате
+compose-no-recipients = Алушылар көрсетілмеді. Адрес өрісіне алушыны немесе жаңалықтар тобын енгізіңіз.
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address } жарамды эл. пошта адресі емес, өйткені ол user@host пішімінде емес. Эл. поштаны жіберу алдында ол адресті дұрыстауыңыз керек.
