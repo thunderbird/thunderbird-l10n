@@ -10,12 +10,24 @@ compose-message-attachment-name = Ekli ileti
 
 ## Compose window
 
+compose-initialization-error-title = İleti Yazımı
+compose-initialization-error = İleti yazma penceresi oluşturulurken bir hata oluştu. Lütfen yeniden deneyin.
+compose-default-subject = (konu yok)
+compose-save-message-title = İletiyi Kaydet
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Bu ileti taslaklar klasörünüze ({ $folder }) kaydedilsin ve Yaz penceresi kapatılsın mı?
+compose-discard-changes-button = &Değişikliklerden vazgeç
 compose-send-confirm-title = İletiyi Gönder
 compose-send-confirm-prompt = Bu iletiyi göndermeye hazır olduğunuza emin misiniz?
 compose-send-confirm-button = Gönder
 compose-do-not-show-again = Bu iletişim kutusunu bir daha gösterme.
 compose-attachment-reminder-title = Ek Hatırlatıcı
 compose-attachment-reminder-prompt = Dosya eklemeyi mi unuttunuz?
+compose-invalid-address-title = Geçersiz Alıcı Adresi
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } geçerli bir e-posta adresi değil, çünkü kullanıcı@sunucu şeklinde değil. E-postayı göndermeden önce bunu düzeltmelisiniz.
 compose-quit-sending-title = İleti Gönderimi
 compose-quit-saving-title = İleti Kaydetme
 # Variables:
@@ -30,6 +42,12 @@ compose-quit-saving-prompt =
     İleti kaydedilene kadar beklemek mi, yoksa hemen çıkmak mı istersiniz?
 compose-quit-button = Çı&k
 compose-wait-button = &Bekle
+compose-attach-file-picker-title = Dosya Ekle
+compose-attach-page-title = Lütfen eklenecek konumu belirtin
+compose-attach-page-prompt = Web Sayfası (URL):
+compose-message-part-attachment-name = Ekli ileti parçası
+compose-attachment-bucket-attach-files-tooltip = Dosya ekle
+compose-attachment-bucket-clear-selection-tooltip = Seçimi temizle
 # Variables:
 # $filename - name of the file that could not be found
 compose-file-attachment-not-found = { $filename } dosyası mevcut olmadığından iletiye eklenemiyor.
@@ -57,6 +75,10 @@ find-replace-button =
     .label = Değiştir…
     .accesskey = D
     .tooltiptext = Bul ve Değiştir penceresini göster
+compose-blocked-content-options-button = Seçenekler
+compose-blocked-content-options-accesskey = S
+compose-blocked-content-preferences-button = Tercihler
+compose-blocked-content-preferences-accesskey = T
 # Variables:
 # $url - URL of the blocked resource
 compose-unblock-resource =
