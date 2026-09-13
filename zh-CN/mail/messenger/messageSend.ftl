@@ -11,6 +11,9 @@ send-error-failed = 消息发送失败。
 send-unable-to-send-later = 抱歉，我们无法保存您的消息供稍后发送。
 # Variables:
 # $hostname - outgoing server hostname
+send-error-smtp-unknown-server = 发送邮件时出错：发件服务器（SMTP） { $hostname } 未知。服务器可能配置错误，请确认您的发件服务器（SMTP）配置正确并稍后重试。
+# Variables:
+# $hostname - outgoing server hostname
 send-error-smtp-request-refused = 因为无法连接到发件服务器（SMTP） { $hostname }，邮件未能发送。该服务器可能暂时不可用，或者拒绝 SMTP 连接。请验证您的发件服务器（SMTP）设置是否正确，然后再试。
 # Variables:
 # $hostname - outgoing server hostname
