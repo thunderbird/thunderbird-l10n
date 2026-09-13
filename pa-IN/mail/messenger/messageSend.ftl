@@ -6,3 +6,4 @@
 ## Message sending
 
 send-alert-followup-to-sender = The author of this message has requested that responses be sent only to the author. If you also want to reply to the newsgroup, add a new row to the addressing area, choose Newsgroup from the recipients list, and enter the name of the newsgroup.
+send-dialog-save-title = Save Message
