@@ -10,6 +10,50 @@ compose-message-attachment-name = Messaggio allegato
 
 ## Compose window
 
+compose-send-confirm-title = Invia messaggio
+compose-send-confirm-prompt = Inviare questo messaggio?
+compose-send-confirm-button = Spedisci
+compose-do-not-show-again = Non mostrare questa finestra in futuro.
+compose-attachment-reminder-title = Promemoria allegato
+compose-attachment-reminder-prompt = Manca l’allegato, inviare comunque?
+compose-attachment-reminder-send-button = Sì, invia
+compose-attachment-reminder-add-button = No, non inviare
+compose-quit-sending-title = Invio messaggio
+compose-quit-saving-title = Salvataggio messaggio
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } sta inviando un messaggio.
+    Attendere il completamento dell’operazione o uscire immediatamente?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } sta salvando un messaggio.
+    Attendere il completamento dell’operazione o uscire immediatamente?
+compose-quit-button = &Uscire
+compose-wait-button = &Attendere
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = Il file { $filename } non esiste e pertanto non può essere allegato al messaggio.
+compose-message-file-error-title = File messaggi
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = Il file { $filename } non esiste e pertanto non può essere usato come corpo del messaggio.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = Il file { $filename } non può essere caricato come corpo del messaggio.
+compose-save-success-title = Salvataggio messaggio
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Il messaggio è stato salvato nella cartella { $folder } in { $server }.
+compose-rename-attachment-title = Rinomina allegato
+compose-rename-attachment-prompt = Nome del nuovo allegato:
+remind-later-button =
+    .label = Ricordamelo più tardi
+    .accesskey = R
+disable-attachment-reminder-menu-item =
+    .label = Disattivare promemoria allegati per il messaggio corrente
 
 ## Send Format
 
@@ -445,6 +489,27 @@ big-file-notification-text =
         [one] Questo file è di grandi dimensioni. Potrebbe essere meglio utilizzare Filelink
        *[other] Questi file sono di grandi dimensioni. Potrebbe essere meglio utilizzare Filelink.
     }
+big-file-learn-more-button =
+    .label = Ulteriori informazioni…
+    .accesskey = A
+big-file-link-button =
+    .label = Link
+    .accesskey = l
+big-file-ignore-button =
+    .label = Ignora
+    .accesskey = I
+big-file-choose-account-title = Scegli account
+big-file-choose-account-prompt = Scegli un account cloud a cui inviare l’allegato
+big-file-hide-notification-title = Non inviare i file
+big-file-hide-notification-prompt = Non sarà più mostrato alcun avviso se si allegano file di grandi dimensioni a questo messaggio.
+big-file-hide-notification-checkbox = Non avvisare più.
+cloud-file-privacy-warning = La procedura di collegamento è completata. È opportuno notare che gli allegati possono essere a disposizione di chi è in grado di leggere o indovinare i link.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Invio a { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Inviato a { $provider }
 
 ## Link Preview
 
