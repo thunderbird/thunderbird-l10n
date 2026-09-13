@@ -10,6 +10,8 @@ compose-message-attachment-name = Կցված նամակ
 
 ## Compose window
 
+compose-initialization-error-title = Գրել նամակ
+compose-initialization-error = Սխալ՝ նոր նամակը գրելու պատուհանը բացելիս։ Կրկին փորձեք։
 compose-default-subject = (անվերնագիր)
 # Variables:
 # $subject - message subject
@@ -34,6 +36,11 @@ compose-attachment-reminder-send-button = Ոչ, ուղարկել
 compose-attachment-reminder-add-button = Այո, մոռացել էի...
 compose-newsgroups-not-supported-title = Նրախմբերը չեն աջակցվում
 compose-newsgroups-not-supported = Փոստարկղը աջակցում է միայն հասցեատերերի։ Լուրախմբերը կանտեսվեն։
+compose-invalid-address-title = Հասցեն սխալ է
+compose-no-recipients = Ստացողները նշված չեն։ Նշեք, թե ում եք ուղարկում այս նամակը։
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address }-ը ճիշտ հասցե չէ, որովհետև այն չունի հետևյալ ձևը՝ user@host. Նախ ուղղեք էլ. հասցեն։
 compose-quit-sending-title = Նամակը ուղարկվում է
 compose-quit-saving-title = Նամակը պահպանվում է
 # Variables:
@@ -49,9 +56,15 @@ compose-quit-saving-prompt =
 compose-quit-button = Փակել
 compose-wait-button = Սպասել
 compose-attach-file-picker-title = Կցել ֆայլ
+compose-attach-page-title = Նշեք կցորդի տեղադրությունը
+compose-attach-page-prompt = Վեբ էջ (URL).
+compose-message-part-attachment-name = Կցված նամակի մաս
+compose-attachment-bucket-attach-files-tooltip = Կցել նիշք(եր)
+compose-attachment-bucket-clear-selection-tooltip = Մաքրել նշվածը
 # Variables:
 # $filename - name of the file that could not be found
 compose-file-attachment-not-found = { $filename } ֆայլը գոյություն չունի, ուստի չի կարող կցվել նամակին։
+compose-file-attachment-error-title = Կցված ֆայլ
 compose-message-file-error-title = Հաղորդագրության նիշք
 # Variables:
 # $filename - name of the file that could not be found
