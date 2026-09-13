@@ -27,8 +27,8 @@ edit-vcard-dialog-accept-button = Salvează
 edit-vcard-dialog-cancel-button = Anulează
     .accesskey = C
 account-manager-server-default-icon =
-    .title = Cont implicit
     .alt = Pictogramă stea
+    .title = Cont implicit
 outgoing-server-section-name = Server de trimitere a mesajelor
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = Setări server de trimitere

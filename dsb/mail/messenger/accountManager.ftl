@@ -27,8 +27,8 @@ edit-vcard-dialog-accept-button = Składowaś
 edit-vcard-dialog-cancel-button = Pśetergnuś
     .accesskey = P
 account-manager-server-default-icon =
-    .title = Standardne konto
     .alt = Gwězdny symbol
+    .title = Standardne konto
 outgoing-server-section-name = Wuchadny serwer
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = Nastajenja wuchadnego serwera

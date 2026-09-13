@@ -86,8 +86,8 @@ disable-attachment-reminder-menu-item =
     .label = Tichup runataxik taqoj pa re rutzijol wakami
 find-replace-button =
     .label = Tijal…
-    .accesskey = l
     .tooltiptext = Tik'ut pe ri tzijonem Tikanöx chuqa' Tik'ex
+    .accesskey = l
 # Variables:
 # $identity - identity address that would otherwise be used
 compose-custom-from-address-placeholder = Katok pa Ichinan ochochib'äl richin nokisäx pa ruk'exel ri { $identity }
@@ -124,13 +124,6 @@ pill-action-move-bcc =
     .label = Tisilöx pa Bcc
     .accesskey = B
 compose-remove-address-row-button = Tiyuj
-
-## Attachment widget
-
-
-## Variables:
-## $count (Number) - Number of files being dropped onto the composer.
-
 
 ## Reorder Attachment Panel
 
@@ -194,19 +187,7 @@ attachment-reminder-keywords-msg =
        *[other] Xeilitäj { $count } taq tzij chi kij ri taqoj:
     }
 
-## Editing
-
-
-# Tools
-
-
 ## Filelink
-
-
-# Placeholder file
-
-
-# Template
 
 # A text used in a footer, instructing the reader where to find additional
 # information about the used service provider.
@@ -214,9 +195,6 @@ attachment-reminder-keywords-msg =
 cloud-file-service-provider-footer-single = Tetamäx ch'aqa' chik chi rij { $link }.
 cloud-file-template-size = Nimilem:
 cloud-file-template-link = Ximonel:
-
-# Messages
-
 cloud-file-authentication-error-title = Rujikib'axik Sachoj
 # Variables:
 # $provider - name of the online storage service

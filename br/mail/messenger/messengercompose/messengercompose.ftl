@@ -86,8 +86,8 @@ disable-attachment-reminder-menu-item =
     .label = Diweredekaat kounadurioù ar c'henstagadennoù evit ar gemennadenn vremanel
 find-replace-button =
     .label = Amsaviñ...
-    .accesskey = A
     .tooltiptext = Diskouez ar voestad emziviz Kavout hag amsaviñ
+    .accesskey = A
 # Variables:
 # $identity - identity address that would otherwise be used
 compose-custom-from-address-placeholder = Enankañ un chomlec'h 'A-berzh' personelaet a vo arveret e plas { $identity }
@@ -102,12 +102,6 @@ compose-blocked-content-preferences-accesskey = G
 # $url - URL of the blocked resource
 compose-unblock-resource =
     .label = Distankañ { $url }
-
-## Send Format
-
-
-## Addressing widget
-
 
 ## Attachment widget
 
@@ -127,10 +121,6 @@ attachment-bucket-count-value =
        *[other] { $count } kenstagadur
     }
 
-## Variables:
-## $count (Number) - Number of files being dropped onto the composer.
-
-
 ## Reorder Attachment Panel
 
 # Variables:
@@ -148,9 +138,6 @@ remove-attachment-cmd =
 default-delete-cmd =
     .label = Dilemel
     .accesskey = D
-
-## Encryption
-
 
 ## Addressing Area
 
@@ -187,22 +174,7 @@ attachment-reminder-keywords-msg =
        *[other] Kavet ez eus bet { $count } a ger-alc'hwez kenstagadur:
     }
 
-## Editing
-
-
-# Tools
-
-
 ## Filelink
-
-
-# Placeholder file
-
-
-# Template
-
-
-# Messages
 
 cloud-file-authentication-error-title = Fazi dilesa
 # Variables:
@@ -281,6 +253,3 @@ cloud-file-attach-picker-title = Stagañ restroù dre { $provider }
 ## Link Preview
 
 link-preview-yes-replace = Ya
-
-## Dictionary selection popup
-

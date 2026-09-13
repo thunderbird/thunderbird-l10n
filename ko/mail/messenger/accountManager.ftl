@@ -27,8 +27,8 @@ edit-vcard-dialog-accept-button = 저장
 edit-vcard-dialog-cancel-button = 취소
     .accesskey = C
 account-manager-server-default-icon =
-    .title = 기본 계정
     .alt = 별표 아이콘
+    .title = 기본 계정
 outgoing-server-section-name = 보내는 서버
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = 보내는 서버 설정

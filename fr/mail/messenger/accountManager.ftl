@@ -27,8 +27,8 @@ edit-vcard-dialog-accept-button = Enregistrer
 edit-vcard-dialog-cancel-button = Annuler
     .accesskey = A
 account-manager-server-default-icon =
-    .title = Compte par défaut
     .alt = Icône d’étoile
+    .title = Compte par défaut
 outgoing-server-section-name = Serveur sortant
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = Paramètres du serveur sortant

@@ -287,9 +287,9 @@ offline-compact-folder-automatically =
 compact-folder-size =
     .value = мегабајта укупно
 
-## Note: The entities use-cache-before and use-cache-after appear on a single
+## Note: The entities use-cache-before and use-temp-storage-after appear on a single
 ## line in preferences as follows:
-## use-cache-before [ textbox for cache size in MB ] use-cache-after
+## use-cache-before [ textbox for cache size in MB ] use-temp-storage-after
 
 use-cache-before =
     .value = Користи до
@@ -394,8 +394,8 @@ view-attachments-inline =
     .label = Прегледај прилоге у истом прозору
     .accesskey = л
 
-## Note: This will concatenate to "After displaying for [___] seconds",
-## using (mark-read-delay) and a number (seconds-label).
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
 
 mark-read-delay =
     .label = Након приказивања од
@@ -584,9 +584,9 @@ enable-cloud-share =
 cloud-share-size =
     .value = MB
 add-cloud-account =
+    .defaultlabel = Додај…
     .label = Додај…
     .accesskey = ј
-    .defaultlabel = Додај…
 remove-cloud-account =
     .label = Уклони
     .accesskey = У
@@ -913,8 +913,8 @@ chat-variant-label =
 # is the name of the CSS property. It is intended only to adjust the element's width.
 # Do not translate.
 search-preferences-input2 =
-    .style = width: 15.4em
     .placeholder = Пронађи у подешавањима
+    .style = width: 15.4em
 managed-notice = Ваша организација управља апликацијом { -brand-short-name }.
 
 ## Settings UI Search Results

@@ -86,8 +86,8 @@ disable-attachment-reminder-menu-item =
     .label = Изключване на напомнянето за прикачени файлове за това съобщение
 find-replace-button =
     .label = Замяна…
-    .accesskey = я
     .tooltiptext = Показване на диалога за търсене и замяна
+    .accesskey = я
 # Variables:
 # $identity - identity address that would otherwise be used
 compose-custom-from-address-placeholder = Въведете ваш От адрес, за да се използва вместо { $identity }
@@ -185,24 +185,24 @@ ctrl-cmd-shift-pretty-prefix =
 trigger-attachment-picker-key = A
 toggle-attachment-pane-key = M
 menuitem-toggle-attachment-pane =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
     .label = Прикачени файлове
     .accesskey = ф
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
 toolbar-button-add-attachment =
     .label = Прикачване
     .tooltiptext = Добавяне на прикачен файл ({ ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key })
 add-attachment-notification-reminder2 =
     .label = Добавяне на прикачен файл
-    .accesskey = п
     .tooltiptext = { toolbar-button-add-attachment.tooltiptext }
+    .accesskey = п
 menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Файлове…
     .accesskey = ф
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 context-menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Прикачане на файлове…
     .accesskey = ф
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 # Note: Do not translate the term 'vCard'.
 context-menuitem-attach-vcard =
     .label = Моята vCard
@@ -329,12 +329,12 @@ smime-cert-issue-notification-multi =
     }
 key-notification-disable-encryption =
     .label = Без шифроване
-    .accesskey = Б
     .tooltiptext = Забрана за шифроване от край до край
+    .accesskey = Б
 key-notification-resolve =
     .label = Решаване...
-    .accesskey = Р
     .tooltiptext = Отваряне на мениджъра на OpenPGP ключове
+    .accesskey = Р
 can-encrypt-smime-notification = S/MIME шифроване от край до край е възможно.
 can-encrypt-openpgp-notification = OpenPGP шифроване от край до край е възможно.
 can-e2e-encrypt-button =
@@ -347,9 +347,9 @@ to-address-row-label =
     .value = До
 #   $key (String) - the shortcut key for this field
 show-to-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Поле „До“
     .accesskey = д
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-to-row-button text.
 show-to-row-extra-menuitem =
@@ -362,9 +362,9 @@ cc-address-row-label =
     .value = Копие
 #   $key (String) - the shortcut key for this field
 show-cc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Полето "Копие"
     .accesskey = К
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-cc-row-button text.
 show-cc-row-extra-menuitem =
@@ -377,9 +377,9 @@ bcc-address-row-label =
     .value = Скрито копие
 #   $key (String) - the shortcut key for this field
 show-bcc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Полето "Скрито Копие"
     .accesskey = С
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-bcc-row-button text.
 show-bcc-row-extra-menuitem =
@@ -439,9 +439,6 @@ attachment-reminder-keywords-msg =
 
 ## Editing
 
-
-# Tools
-
 compose-tool-button-remove-text-styling =
     .tooltiptext = Премахване на стила на текста
 
@@ -450,9 +447,6 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = Качен в неизвестен профил във Filelink.
-
-# Placeholder file
-
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - Прикачен файл от Filelink
@@ -460,9 +454,6 @@ cloud-file-placeholder-title = { $filename } - Прикачен файл от Fi
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = Файлът { $filename } беше прикачен като връзка към файл. Може да бъде изтеглен от връзката по-долу.
-
-# Template
-
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -500,9 +491,6 @@ cloud-file-template-link = Препратка:
 cloud-file-template-password-protected-link = Връзка, защитена с парола:
 cloud-file-template-expiry-date = Валидна до:
 cloud-file-template-download-limit = Лимит за изтегляне:
-
-# Messages
-
 cloud-file-connection-error-title = Грешка при свързване
 # Variables:
 # $provider (string) - name of the online storage service that reported the error

@@ -27,8 +27,8 @@ edit-vcard-dialog-accept-button = Vista
 edit-vcard-dialog-cancel-button = Hætta við
     .accesskey = H
 account-manager-server-default-icon =
-    .title = Sjálfgefinn reikningur
     .alt = Stjörnutákn
+    .title = Sjálfgefinn reikningur
 outgoing-server-section-name = Útsendiþjónn
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = Stillingar fyrir útsendingarþjón

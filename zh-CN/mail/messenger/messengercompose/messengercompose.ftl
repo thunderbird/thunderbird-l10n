@@ -86,8 +86,8 @@ disable-attachment-reminder-menu-item =
     .label = 对当前消息禁用附件提醒
 find-replace-button =
     .label = 替换(L)…
-    .accesskey = L
     .tooltiptext = 显示查找和替换对话框
+    .accesskey = L
 # Variables:
 # $identity - identity address that would otherwise be used
 compose-custom-from-address-placeholder = 不是使用 { $identity } 而是输入自定义发件人（From）地址
@@ -184,24 +184,24 @@ ctrl-cmd-shift-pretty-prefix =
 trigger-attachment-picker-key = A
 toggle-attachment-pane-key = M
 menuitem-toggle-attachment-pane =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
     .label = 附件窗格
     .accesskey = m
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
 toolbar-button-add-attachment =
     .label = 附件
     .tooltiptext = 添加附件（{ ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }）
 add-attachment-notification-reminder2 =
     .label = 添加附件…
-    .accesskey = A
     .tooltiptext = { toolbar-button-add-attachment.tooltiptext }
+    .accesskey = A
 menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = 文件…
     .accesskey = F
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 context-menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = 附件…
     .accesskey = F
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 # Note: Do not translate the term 'vCard'.
 context-menuitem-attach-vcard =
     .label = 我的 vCard
@@ -313,12 +313,12 @@ smime-cert-issue-notification-single = 端到端加密功能需要 { $addr } 的
 smime-cert-issue-notification-multi = 端到端加密功能需要 { $count } 位收件人的证书。
 key-notification-disable-encryption =
     .label = 不加密
-    .accesskey = D
     .tooltiptext = 禁用端到端加密
+    .accesskey = D
 key-notification-resolve =
     .label = 解决…
-    .accesskey = R
     .tooltiptext = 打开 OpenPGP 密钥助手
+    .accesskey = R
 can-encrypt-smime-notification = S/MIME 端到端加密可用。
 can-encrypt-openpgp-notification = OpenPGP 端到端加密可用。
 can-e2e-encrypt-button =
@@ -331,9 +331,9 @@ to-address-row-label =
     .value = 收件人
 #   $key (String) - the shortcut key for this field
 show-to-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = 收件人栏
     .accesskey = T
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-to-row-button text.
 show-to-row-extra-menuitem =
@@ -346,9 +346,9 @@ cc-address-row-label =
     .value = 抄送
 #   $key (String) - the shortcut key for this field
 show-cc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = 抄送栏
     .accesskey = C
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-cc-row-button text.
 show-cc-row-extra-menuitem =
@@ -361,9 +361,9 @@ bcc-address-row-label =
     .value = 密送
 #   $key (String) - the shortcut key for this field
 show-bcc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = 密送栏
     .accesskey = B
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-bcc-row-button text.
 show-bcc-row-extra-menuitem =
@@ -411,9 +411,6 @@ attachment-reminder-keywords-msg = 找到 { $count } 个附件关键词：
 
 ## Editing
 
-
-# Tools
-
 compose-tool-button-remove-text-styling =
     .tooltiptext = 移除文本样式
 
@@ -422,9 +419,6 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = 上传至未知的文件快传账户。
-
-# Placeholder file
-
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - 文件快传附件
@@ -432,9 +426,6 @@ cloud-file-placeholder-title = { $filename } - 文件快传附件
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = 文件 { $filename } 已上传至文件快传，可从下方链接下载。
-
-# Template
-
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -471,9 +462,6 @@ cloud-file-template-link = 链接：
 cloud-file-template-password-protected-link = 密码保护链接：
 cloud-file-template-expiry-date = 有效期至：
 cloud-file-template-download-limit = 下载限制：
-
-# Messages
-
 cloud-file-connection-error-title = 连接错误
 # Variables:
 # $provider (string) - name of the online storage service that reported the error

@@ -86,8 +86,8 @@ disable-attachment-reminder-menu-item =
     .label = Analluogwch atgoffwr atodiad ar gyfer y neges hon
 find-replace-button =
     .label = Amnewid…
-    .accesskey = a
     .tooltiptext = Dangos y deialog Canfod ac Newid
+    .accesskey = a
 # Variables:
 # $identity - identity address that would otherwise be used
 compose-custom-from-address-placeholder = Rhowch gyfeiriad Oddi Wrth cyfaddas i'w ddefnyddio y lle { $identity }
@@ -193,24 +193,24 @@ ctrl-cmd-shift-pretty-prefix =
 trigger-attachment-picker-key = A
 toggle-attachment-pane-key = P
 menuitem-toggle-attachment-pane =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
     .label = Paen Atodiad
     .accesskey = P
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
 toolbar-button-add-attachment =
     .label = Atodi
     .tooltiptext = Atodi Atodiad ({ ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key })
 add-attachment-notification-reminder2 =
     .label = Ychwanegu Atodiad…
-    .accesskey = A
     .tooltiptext = { toolbar-button-add-attachment.tooltiptext }
+    .accesskey = A
 menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Ffeil(iau)…
     .accesskey = F
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 context-menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Atodi Ffeil(iau)…
     .accesskey = F
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 # Note: Do not translate the term 'vCard'.
 context-menuitem-attach-vcard =
     .label = Fy vCard
@@ -361,12 +361,12 @@ smime-cert-issue-notification-multi =
     }
 key-notification-disable-encryption =
     .label = Peidio ag Amgryptio
-    .accesskey = P
     .tooltiptext = Analluogi amgryptio pen-i-ben
+    .accesskey = P
 key-notification-resolve =
     .label = Datrys...
-    .accesskey = D
     .tooltiptext = Agor Cynorthwydd Allweddi OpenPGP
+    .accesskey = D
 can-encrypt-smime-notification = Mae amgryptio S/MIME o ben-i-ben yn bosibl.
 can-encrypt-openpgp-notification = Mae amgryptio S/MIME o ben-i-ben yn bosibl.
 can-e2e-encrypt-button =
@@ -379,9 +379,9 @@ to-address-row-label =
     .value = At
 #   $key (String) - the shortcut key for this field
 show-to-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Maes At
     .accesskey = F
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-to-row-button text.
 show-to-row-extra-menuitem =
@@ -394,9 +394,9 @@ cc-address-row-label =
     .value = Cc
 #   $key (String) - the shortcut key for this field
 show-cc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Maes Cc
     .accesskey = C
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-cc-row-button text.
 show-cc-row-extra-menuitem =
@@ -409,9 +409,9 @@ bcc-address-row-label =
     .value = Bcc
 #   $key (String) - the shortcut key for this field
 show-bcc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Maes Bcc
     .accesskey = B
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-bcc-row-button text.
 show-bcc-row-extra-menuitem =
@@ -487,9 +487,6 @@ attachment-reminder-keywords-msg =
 
 ## Editing
 
-
-# Tools
-
 compose-tool-button-remove-text-styling =
     .tooltiptext = Tynnu Steilio Testun
 
@@ -498,9 +495,6 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = Wedi'i lwytho i gyfrif Filelink anhysbys.
-
-# Placeholder file
-
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - Atodiad Filelink
@@ -508,9 +502,6 @@ cloud-file-placeholder-title = { $filename } - Atodiad Filelink
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = Atodwyd y ffeil { $filename } fel Filelink. Mae modd ei lwytho i lawr o'r ddolen isod.
-
-# Template
-
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -552,9 +543,6 @@ cloud-file-template-link = Dolen:
 cloud-file-template-password-protected-link = Dolen wedi'i Diogelu gan Gyfrinair
 cloud-file-template-expiry-date = Dyddiad Dod i Ben:
 cloud-file-template-download-limit = Terfyn Llwytho i Lawr:
-
-# Messages
-
 cloud-file-connection-error-title = Gwall Cysylltiad
 # Variables:
 # $provider (string) - name of the online storage service that reported the error

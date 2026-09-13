@@ -27,8 +27,8 @@ edit-vcard-dialog-accept-button = შენახვა
 edit-vcard-dialog-cancel-button = გაუქმება
     .accesskey = ქ
 account-manager-server-default-icon =
-    .title = ნაგულისხმევი ანგარიში
     .alt = ვარსკვლავის ხატულა
+    .title = ნაგულისხმევი ანგარიში
 outgoing-server-section-name = გამავალი სერვერი
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = გამავალი სერვერის პარამეტრები

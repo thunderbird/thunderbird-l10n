@@ -86,8 +86,8 @@ disable-attachment-reminder-menu-item =
     .label = Lülita sellel kirjal manuse meeldetuletus välja
 find-replace-button =
     .label = Asenda…
-    .accesskey = n
     .tooltiptext = Kuva otsimise ja asendamise akent
+    .accesskey = n
 # Variables:
 # $identity - identity address that would otherwise be used
 compose-custom-from-address-placeholder = Sisesta kohandatud saatja aadress, mida { $identity } asemel kasutada soovid
@@ -185,24 +185,24 @@ ctrl-cmd-shift-pretty-prefix =
 trigger-attachment-picker-key = A
 toggle-attachment-pane-key = M
 menuitem-toggle-attachment-pane =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
     .label = Manuste paneel
     .accesskey = M
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
 toolbar-button-add-attachment =
     .label = Lisa
     .tooltiptext = Lisa manus ({ ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key })
 add-attachment-notification-reminder2 =
     .label = Lisa manus…
-    .accesskey = L
     .tooltiptext = { toolbar-button-add-attachment.tooltiptext }
+    .accesskey = L
 menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Fail(id)...
     .accesskey = F
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 context-menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Lisa fail(id)...
     .accesskey = F
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 # Note: Do not translate the term 'vCard'.
 context-menuitem-attach-vcard =
     .label = Minu vCard
@@ -329,12 +329,12 @@ smime-cert-issue-notification-multi =
     }
 key-notification-disable-encryption =
     .label = Ära krüpti
-    .accesskey = r
     .tooltiptext = Otspunktkrüptimine keelatakse
+    .accesskey = r
 key-notification-resolve =
     .label = Lahenda…
-    .accesskey = L
     .tooltiptext = Ava OpenPGP võtmeassistent
+    .accesskey = L
 can-encrypt-smime-notification = S/MIME otspunktkrüptimine on võimalik.
 can-encrypt-openpgp-notification = OpenPGP otspunktkrüptimine on võimalik.
 can-e2e-encrypt-button =
@@ -347,9 +347,9 @@ to-address-row-label =
     .value = Saaja
 #   $key (String) - the shortcut key for this field
 show-to-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Väli Saaja
     .accesskey = S
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-to-row-button text.
 show-to-row-extra-menuitem =
@@ -362,9 +362,9 @@ cc-address-row-label =
     .value = Koopia
 #   $key (String) - the shortcut key for this field
 show-cc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Väli Koopia
     .accesskey = K
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-cc-row-button text.
 show-cc-row-extra-menuitem =
@@ -377,9 +377,9 @@ bcc-address-row-label =
     .value = Pimekoopia
 #   $key (String) - the shortcut key for this field
 show-bcc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Väli Pimekoopia
     .accesskey = P
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-bcc-row-button text.
 show-bcc-row-extra-menuitem =
@@ -439,9 +439,6 @@ attachment-reminder-keywords-msg =
 
 ## Editing
 
-
-# Tools
-
 compose-tool-button-remove-text-styling =
     .tooltiptext = Eemalda teksti stiilid
 
@@ -450,9 +447,6 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = Laaditi üles tundmatule Filelinki kontole.
-
-# Placeholder file
-
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - Filelinki manus
@@ -460,9 +454,6 @@ cloud-file-placeholder-title = { $filename } - Filelinki manus
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = Fail { $filename } lisati teenuse Filelink lingina. Selle saab alla laadida allolevalt lingilt.
-
-# Template
-
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -500,9 +491,6 @@ cloud-file-template-link = Link:
 cloud-file-template-password-protected-link = Parooliga kaitstud link:
 cloud-file-template-expiry-date = Aegumiskuupäev:
 cloud-file-template-download-limit = Allalaadimiste limiit:
-
-# Messages
-
 cloud-file-connection-error-title = Ühenduse viga
 # Variables:
 # $provider (string) - name of the online storage service that reported the error

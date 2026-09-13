@@ -86,8 +86,8 @@ disable-attachment-reminder-menu-item =
     .label = Přiwěškowe dopominanje za aktualnu powěsć znjemóžnić
 find-replace-button =
     .label = Wuměnić…
-    .accesskey = m
     .tooltiptext = Dialog Pytać a wuměnić pokazać
+    .accesskey = m
 # Variables:
 # $identity - identity address that would otherwise be used
 compose-custom-from-address-placeholder = Swójsku wotpósłarsku adresu zapodać, zo by so město { $identity } wužiwała
@@ -189,24 +189,24 @@ ctrl-cmd-shift-pretty-prefix =
 trigger-attachment-picker-key = A
 toggle-attachment-pane-key = M
 menuitem-toggle-attachment-pane =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
     .label = Wobłuk přiwěškow
     .accesskey = b
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
 toolbar-button-add-attachment =
     .label = Připowěsnyć
     .tooltiptext = Přiwěšk přidać ({ ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key })
 add-attachment-notification-reminder2 =
     .label = Přiwěšk přidać…
-    .accesskey = P
     .tooltiptext = { toolbar-button-add-attachment.tooltiptext }
+    .accesskey = P
 menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Dataje…
     .accesskey = D
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 context-menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Dataje připowěsnyć…
     .accesskey = D
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 # Note: Do not translate the term 'vCard'.
 context-menuitem-attach-vcard =
     .label = Moja wizitka vCard
@@ -345,12 +345,12 @@ smime-cert-issue-notification-multi =
     }
 key-notification-disable-encryption =
     .label = Njezaklučować
-    .accesskey = N
     .tooltiptext = Zaklučowanje kónc do kónca znjemóžnić
+    .accesskey = N
 key-notification-resolve =
     .label = Rozeznawać…
-    .accesskey = R
     .tooltiptext = Klučowy asistent OpenPGP wočinić
+    .accesskey = R
 can-encrypt-smime-notification = Zaklučowanje kónc do kónca S/MIME je móžne.
 can-encrypt-openpgp-notification = Zaklučowanje kónc do kónca OpenPGP je móžne.
 can-e2e-encrypt-button =
@@ -363,9 +363,9 @@ to-address-row-label =
     .value = Komu
 #   $key (String) - the shortcut key for this field
 show-to-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Polo Komu
     .accesskey = K
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-to-row-button text.
 show-to-row-extra-menuitem =
@@ -378,9 +378,9 @@ cc-address-row-label =
     .value = Kopija
 #   $key (String) - the shortcut key for this field
 show-cc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Polo Kopija
     .accesskey = P
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-cc-row-button text.
 show-cc-row-extra-menuitem =
@@ -393,9 +393,9 @@ bcc-address-row-label =
     .value = Schowana kopija
 #   $key (String) - the shortcut key for this field
 show-bcc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Polo Schowana kopija
     .accesskey = S
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-bcc-row-button text.
 show-bcc-row-extra-menuitem =
@@ -463,9 +463,6 @@ attachment-reminder-keywords-msg =
 
 ## Editing
 
-
-# Tools
-
 compose-tool-button-remove-text-styling =
     .tooltiptext = Tekstowy stil wotstronić
 
@@ -474,9 +471,6 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = Je so do njeznateho konta Filelink nahrało.
-
-# Placeholder file
-
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - přiwěšk Filelink
@@ -484,9 +478,6 @@ cloud-file-placeholder-title = { $filename } - přiwěšk Filelink
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = Dataja { $filename } je so jako Filelink připowěsnyła. Da so z pomocu slědowaceho wotkaza sćahnyć.
-
-# Template
-
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -526,9 +517,6 @@ cloud-file-template-link = Wotkaz
 cloud-file-template-password-protected-link = Přez hesło škitany wotkaz:
 cloud-file-template-expiry-date = Datum płaćiwosće:
 cloud-file-template-download-limit = Sćehnjenski limit:
-
-# Messages
-
 cloud-file-connection-error-title = Zwiskowy zmylk
 # Variables:
 # $provider (string) - name of the online storage service that reported the error

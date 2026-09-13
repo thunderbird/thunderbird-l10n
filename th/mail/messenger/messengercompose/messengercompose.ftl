@@ -86,8 +86,8 @@ disable-attachment-reminder-menu-item =
     .label = ปิดใช้งานการเตือนความจำไฟล์แนบสำหรับข้อความปัจจุบัน
 find-replace-button =
     .label = แทนที่…
-    .accesskey = ท
     .tooltiptext = แสดงกล่องโต้ตอบ ค้นหาและแทนที่
+    .accesskey = ท
 # Variables:
 # $identity - identity address that would otherwise be used
 compose-custom-from-address-placeholder = ป้อนที่อยู่ จาก ที่กำหนดเองที่จะใช้แทน { $identity }
@@ -183,24 +183,24 @@ ctrl-cmd-shift-pretty-prefix =
 trigger-attachment-picker-key = A
 toggle-attachment-pane-key = M
 menuitem-toggle-attachment-pane =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
     .label = บานหน้าต่างไฟล์แนบ
     .accesskey = แ
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
 toolbar-button-add-attachment =
     .label = แนบ
     .tooltiptext = เพิ่มไฟล์แนบ ({ ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key })
 add-attachment-notification-reminder2 =
     .label = เพิ่มไฟล์แนบ…
-    .accesskey = พ
     .tooltiptext = { toolbar-button-add-attachment.tooltiptext }
+    .accesskey = พ
 menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = ไฟล์…
     .accesskey = ฟ
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 context-menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = แนบไฟล์…
     .accesskey = ฟ
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 # Note: Do not translate the term 'vCard'.
 context-menuitem-attach-vcard =
     .label = vCard ของฉัน
@@ -306,12 +306,12 @@ smime-cert-issue-notification-single = การเข้ารหัสลั�
 smime-cert-issue-notification-multi = การเข้ารหัสลับต้นทางถึงปลายทางต้องการให้แก้ไขปัญหาใบรับรองสำหรับผู้รับ { $count } คน
 key-notification-disable-encryption =
     .label = ไม่ต้องเข้ารหัสลับ
-    .accesskey = ม
     .tooltiptext = ปิดใช้งานการเข้ารหัสลับต้นทางถึงปลายทาง
+    .accesskey = ม
 key-notification-resolve =
     .label = แก้ปัญหา…
-    .accesskey = ก
     .tooltiptext = เปิดตัวช่วยคีย์ OpenPGP
+    .accesskey = ก
 can-encrypt-smime-notification = การเข้ารหัสลับต้นทางถึงปลายทางแบบ S/MIME สามารถใช้ได้
 can-encrypt-openpgp-notification = การเข้ารหัสลับต้นทางถึงปลายทางแบบ OpenPGP สามารถใช้ได้
 can-e2e-encrypt-button =
@@ -324,9 +324,9 @@ to-address-row-label =
     .value = ถึง
 #   $key (String) - the shortcut key for this field
 show-to-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = ช่อง "ถึง"
     .accesskey = ถ
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-to-row-button text.
 show-to-row-extra-menuitem =
@@ -339,9 +339,9 @@ cc-address-row-label =
     .value = สำเนาถึง
 #   $key (String) - the shortcut key for this field
 show-cc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = ช่อง "สำเนาถึง"
     .accesskey = ส
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-cc-row-button text.
 show-cc-row-extra-menuitem =
@@ -354,9 +354,9 @@ bcc-address-row-label =
     .value = สำเนาลับถึง
 #   $key (String) - the shortcut key for this field
 show-bcc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = ช่อง "สำเนาลับถึง"
     .accesskey = ล
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-bcc-row-button text.
 show-bcc-row-extra-menuitem =
@@ -404,9 +404,6 @@ attachment-reminder-keywords-msg = พบ { $count } คำสำคัญไฟ
 
 ## Editing
 
-
-# Tools
-
 compose-tool-button-remove-text-styling =
     .tooltiptext = เอาการใส่ลักษณะข้อความออก
 
@@ -415,9 +412,6 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = อัปโหลดไปยังบัญชี Filelink ที่ไม่รู้จักแล้ว
-
-# Placeholder file
-
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - ไฟล์แนบ Filelink
@@ -425,9 +419,6 @@ cloud-file-placeholder-title = { $filename } - ไฟล์แนบ Filelink
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = ไฟล์ { $filename } ถูกแนบมาเป็น Filelink ไฟล์นี้สามารถดาวน์โหลดได้จากลิงก์ด้านล่างนี้
-
-# Template
-
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -461,9 +452,6 @@ cloud-file-template-link = ลิงก์:
 cloud-file-template-password-protected-link = ลิงก์ที่ป้องกันด้วยรหัสผ่าน:
 cloud-file-template-expiry-date = วันหมดอายุ:
 cloud-file-template-download-limit = ขีดจำกัดการดาวน์โหลด:
-
-# Messages
-
 cloud-file-connection-error-title = การเชื่อมต่อผิดพลาด
 # Variables:
 # $provider (string) - name of the online storage service that reported the error

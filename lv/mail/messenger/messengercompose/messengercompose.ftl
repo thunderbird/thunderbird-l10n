@@ -86,8 +86,8 @@ disable-attachment-reminder-menu-item =
     .label = Atslēgt pielikuma atgādinājumu pašreizējai vēstulei
 find-replace-button =
     .label = Aizstāt…
-    .accesskey = x
     .tooltiptext = Parādīt Atrast un aizstāt dialogu
+    .accesskey = x
 # Variables:
 # $identity - identity address that would otherwise be used
 compose-custom-from-address-placeholder = Ievadiet pielāgoto No adresi, ko izmantot { $identity } vietā
@@ -102,9 +102,6 @@ compose-blocked-content-preferences-accesskey = P
 # $url - URL of the blocked resource
 compose-unblock-resource =
     .label = Atliegt { $url }
-
-## Send Format
-
 
 ## Addressing widget
 
@@ -145,13 +142,6 @@ compose-remove-address-row-title = Noņemt { $field } adreses
 compose-remove-address-row-prompt = Vai tiešām vēlaties noņemt { $field } adreses?
 compose-remove-address-row-button = Noņemt
 
-## Attachment widget
-
-
-## Variables:
-## $count (Number) - Number of files being dropped onto the composer.
-
-
 ## Reorder Attachment Panel
 
 button-return-receipt =
@@ -177,9 +167,6 @@ menu-view-certificates =
     .label = Apskatīt saņēmēju sertifikātus
     .accesskey = A
 
-## Addressing Area
-
-
 ## Notifications
 
 # Variables:
@@ -199,27 +186,12 @@ attachment-reminder-keywords-msg =
        *[other] Atrasti { $count } pielikuma atslēgvārdi:
     }
 
-## Editing
-
-
-# Tools
-
-
 ## Filelink
-
-
-# Placeholder file
-
-
-# Template
 
 # A text used in a footer, instructing the reader where to find additional
 # information about the used service provider.
 # $link (string) - html a-tag for a link pointing to the web page of the provider
 cloud-file-service-provider-footer-single = Uzzināt vairāk par { $link }.
-
-# Messages
-
 cloud-file-connection-error-title = Savienojuma kļūda
 cloud-file-authentication-error-title = Autentifikācijas kļūda
 # Variables:
@@ -292,9 +264,3 @@ cloud-file-uploaded-tooltip = Augšuplādēts uz { $provider }
 # Variables:
 # $provider - name of the online storage service
 cloud-file-attach-picker-title = Pievienot failu(-us) ar { $provider }
-
-## Link Preview
-
-
-## Dictionary selection popup
-

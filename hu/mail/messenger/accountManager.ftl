@@ -27,8 +27,8 @@ edit-vcard-dialog-accept-button = Mentés
 edit-vcard-dialog-cancel-button = Mégse
     .accesskey = M
 account-manager-server-default-icon =
-    .title = Alapértelmezett fiók
     .alt = Csillag ikon
+    .title = Alapértelmezett fiók
 outgoing-server-section-name = Kimenő kiszolgáló
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = Kimenő kiszolgáló beállításai

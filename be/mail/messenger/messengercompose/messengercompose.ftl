@@ -82,8 +82,8 @@ disable-attachment-reminder-menu-item =
     .label = Адключэння нагадвання аб укладанні для гэтага паведамлення
 find-replace-button =
     .label = Замяніць…
-    .accesskey = З
     .tooltiptext = Паказаць дыялог пошуку і замены
+    .accesskey = З
 # Variables:
 # $identity - identity address that would otherwise be used
 compose-custom-from-address-placeholder = Увядзіце свой адрас адпраўніка замест { $identity }
@@ -164,24 +164,24 @@ ctrl-cmd-shift-pretty-prefix =
 trigger-attachment-picker-key = A
 toggle-attachment-pane-key = M
 menuitem-toggle-attachment-pane =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
     .label = Панэль прымацаванняў
     .accesskey = П
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
 toolbar-button-add-attachment =
     .label = Прымацаваць
     .tooltiptext = Прымацаваць ({ ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key })
 add-attachment-notification-reminder2 =
     .label = Прымацаваць
-    .accesskey = П
     .tooltiptext = { toolbar-button-add-attachment.tooltiptext }
+    .accesskey = П
 menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Файл(ы)…
     .accesskey = Ф
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 context-menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Прымацаваць файл(ы)…
     .accesskey = П
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 # Note: Do not translate the term 'vCard'.
 context-menuitem-attach-vcard =
     .label = Мая vCard
@@ -308,23 +308,11 @@ attachment-reminder-keywords-msg =
        *[many] Знойдзены { $count } ключавых словаў далучэння:
     }
 
-## Editing
-
-
-# Tools
-
-
 ## Filelink
 
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = Запампавана ў невядомы ўліковы запіс Filelink.
-
-# Placeholder file
-
-
-# Template
-
 # A text used in a footer, instructing the reader where to find additional
 # information about the used service provider.
 # $link (string) - html a-tag for a link pointing to the web page of the provider
@@ -341,9 +329,6 @@ cloud-file-template-size = Памер:
 cloud-file-template-link = Спасылка:
 cloud-file-template-password-protected-link = Спасылка, абароненая паролем:
 cloud-file-template-download-limit = Абмежаванне на спампаванне:
-
-# Messages
-
 cloud-file-connection-error-title = Памылка злучэння
 # Variables:
 # $provider (string) - name of the online storage service that reported the error

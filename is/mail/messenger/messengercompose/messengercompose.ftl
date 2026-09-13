@@ -86,8 +86,8 @@ disable-attachment-reminder-menu-item =
     .label = Slökkva á áminningu fyrir viðhengi fyrir núverandi skilaboð
 find-replace-button =
     .label = Breyta…
-    .accesskey = B
     .tooltiptext = Sýna leita og skipta út glugga
+    .accesskey = B
 # Variables:
 # $identity - identity address that would otherwise be used
 compose-custom-from-address-placeholder = Settu inn sérsniðið Frá-póstfang sem á að nota í staðinn fyrir { $identity }
@@ -185,24 +185,24 @@ ctrl-cmd-shift-pretty-prefix =
 trigger-attachment-picker-key = A
 toggle-attachment-pane-key = M
 menuitem-toggle-attachment-pane =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
     .label = Viðhengjaspjald
     .accesskey = h
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
 toolbar-button-add-attachment =
     .label = Hengja við
     .tooltiptext = Bæta við viðhengi ({ ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key })
 add-attachment-notification-reminder2 =
     .label = Bæta við viðhengi...
-    .accesskey = a
     .tooltiptext = { toolbar-button-add-attachment.tooltiptext }
+    .accesskey = a
 menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Skrá(r)...
     .accesskey = k
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 context-menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Hengja við skrá(r)...
     .accesskey = H
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 # Note: Do not translate the term 'vCard'.
 context-menuitem-attach-vcard =
     .label = Mín vCard
@@ -329,12 +329,12 @@ smime-cert-issue-notification-multi =
     }
 key-notification-disable-encryption =
     .label = Ekki dulrita
-    .accesskey = d
     .tooltiptext = Gera enda-í-enda dulritun óvirka
+    .accesskey = d
 key-notification-resolve =
     .label = Leysa…
-    .accesskey = L
     .tooltiptext = Opna leiðarvísi fyrir OpenPGP dulritunarlykla
+    .accesskey = L
 can-encrypt-smime-notification = S/MIME enda-í-enda dulritun er möguleg.
 can-encrypt-openpgp-notification = OpenPGP enda-í-enda dulritun er möguleg.
 can-e2e-encrypt-button =
@@ -347,9 +347,9 @@ to-address-row-label =
     .value = Til
 #   $key (String) - the shortcut key for this field
 show-to-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Til-reitur
     .accesskey = T
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-to-row-button text.
 show-to-row-extra-menuitem =
@@ -362,9 +362,9 @@ cc-address-row-label =
     .value = Afrit
 #   $key (String) - the shortcut key for this field
 show-cc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Afrit-reitur
     .accesskey = A
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-cc-row-button text.
 show-cc-row-extra-menuitem =
@@ -377,9 +377,9 @@ bcc-address-row-label =
     .value = Falið afrit
 #   $key (String) - the shortcut key for this field
 show-bcc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Falið afrit-reitur
     .accesskey = F
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-bcc-row-button text.
 show-bcc-row-extra-menuitem =
@@ -439,9 +439,6 @@ attachment-reminder-keywords-msg =
 
 ## Editing
 
-
-# Tools
-
 compose-tool-button-remove-text-styling =
     .tooltiptext = Fjarlægja stíl texta
 
@@ -450,9 +447,6 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = Sent inn á óþekktan Filelink-reikning.
-
-# Placeholder file
-
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - Filelink-viðhengi
@@ -460,9 +454,6 @@ cloud-file-placeholder-title = { $filename } - Filelink-viðhengi
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = Skráin { $filename } var hengd við sem Filelink. Það er hægt að sækja hana með tenglinum hér fyrir neðan.
-
-# Template
-
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -500,9 +491,6 @@ cloud-file-template-link = Tengill:
 cloud-file-template-password-protected-link = Lykilorðsvarinn tengill:
 cloud-file-template-expiry-date = Fyrningardagur:
 cloud-file-template-download-limit = Niðurhalstakmörk:
-
-# Messages
-
 cloud-file-connection-error-title = Villa í tengingu
 # Variables:
 # $provider (string) - name of the online storage service that reported the error

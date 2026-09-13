@@ -231,9 +231,9 @@ offline-compact-folder-automatically =
 compact-folder-size =
     .value = ՄԲ ընդամենը
 
-## Note: The entities use-cache-before and use-cache-after appear on a single
+## Note: The entities use-cache-before and use-temp-storage-after appear on a single
 ## line in preferences as follows:
-## use-cache-before [ textbox for cache size in MB ] use-cache-after
+## use-cache-before [ textbox for cache size in MB ] use-temp-storage-after
 
 use-cache-before =
     .value = Օգտագործել մինչև
@@ -324,8 +324,8 @@ mark-read-no-delay =
     .label = Միանգամից, երբ նայում ես
     .accesskey = o
 
-## Note: This will concatenate to "After displaying for [___] seconds",
-## using (mark-read-delay) and a number (seconds-label).
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
 
 mark-read-delay =
     .label = Ժամանակ անց՝
@@ -440,9 +440,9 @@ enable-cloud-share =
 cloud-share-size =
     .value = ՄԲ
 add-cloud-account =
+    .defaultlabel = Ավելացնել...
     .label = Ավելացնել...
     .accesskey = Ա
-    .defaultlabel = Ավելացնել...
 remove-cloud-account =
     .label = Ջնջել
     .accesskey = Ջ

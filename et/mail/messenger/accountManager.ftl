@@ -26,6 +26,6 @@ edit-vcard-dialog-accept-button = Salvesta
 edit-vcard-dialog-cancel-button = Loobu
     .accesskey = L
 account-manager-server-default-icon =
-    .title = Vaikimisi konto
     .alt = Tähekese ikoon
+    .title = Vaikimisi konto
 outgoing-server-type = Serveri tüüp:

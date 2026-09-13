@@ -27,8 +27,8 @@ edit-vcard-dialog-accept-button = Lưu
 edit-vcard-dialog-cancel-button = Hủy bỏ
     .accesskey = C
 account-manager-server-default-icon =
-    .title = Tài khoản mặc định
     .alt = Biểu tượng ngôi sao
+    .title = Tài khoản mặc định
 outgoing-server-section-name = Máy chủ gửi thư
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = Cài đặt máy chủ gửi thư

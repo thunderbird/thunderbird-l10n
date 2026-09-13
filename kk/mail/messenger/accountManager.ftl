@@ -27,8 +27,8 @@ edit-vcard-dialog-accept-button = Сақтау
 edit-vcard-dialog-cancel-button = Бас тарту
     .accesskey = т
 account-manager-server-default-icon =
-    .title = Бастапқы тіркелгі
     .alt = Жұлдызша таңбашасы
+    .title = Бастапқы тіркелгі
 outgoing-server-section-name = Шығыс пошта сервері
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = Шығыс пошта сервері баптаулары

@@ -86,8 +86,8 @@ disable-attachment-reminder-menu-item =
     .label = დანართის შესახებ შეხსენების გამორთვა ამ შეტყობინებაზე
 find-replace-button =
     .label = ჩანაცვლება…
-    .accesskey = ა
     .tooltiptext = პოვნისა და ჩანაცვლების სარკმლის ჩვენება
+    .accesskey = ა
 # Variables:
 # $identity - identity address that would otherwise be used
 compose-custom-from-address-placeholder = შეიყვანეთ სასურველი მისამართი, { $identity }-ის ნაცვლად გამოსაყენებლად
@@ -185,24 +185,24 @@ ctrl-cmd-shift-pretty-prefix =
 trigger-attachment-picker-key = A
 toggle-attachment-pane-key = M
 menuitem-toggle-attachment-pane =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
     .label = დანართის არე
     .accesskey = ნ
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
 toolbar-button-add-attachment =
     .label = მიმაგრება
     .tooltiptext = დანართის მიმაგრება ({ ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key })
 add-attachment-notification-reminder2 =
     .label = დანართის დამატება…
-    .accesskey = ტ
     .tooltiptext = { toolbar-button-add-attachment.tooltiptext }
+    .accesskey = ტ
 menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = ფაილ(ებ)ი…
     .accesskey = ფ
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 context-menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = ფაილ(ებ)ის მიმაგრება…
     .accesskey = ფ
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 # Note: Do not translate the term 'vCard'.
 context-menuitem-attach-vcard =
     .label = ჩემი vCard
@@ -328,12 +328,12 @@ smime-cert-issue-notification-multi =
     }
 key-notification-disable-encryption =
     .label = არ დაიშიფროს
-    .accesskey = ა
     .tooltiptext = გამჭოლი დაშიფვრის გამორთვა
+    .accesskey = ა
 key-notification-resolve =
     .label = გადაწყვეტა…
-    .accesskey = ყ
     .tooltiptext = OpenPGP-გასაღების მეგზურის გახსნა
+    .accesskey = ყ
 can-encrypt-smime-notification = S/MIME გამჭოლი დაშიფვრა შესაძლებელია.
 can-encrypt-openpgp-notification = OpenPGP გამჭოლი დაშიფვრა შესაძლებელია.
 can-e2e-encrypt-button =
@@ -346,9 +346,9 @@ to-address-row-label =
     .value = ვის
 #   $key (String) - the shortcut key for this field
 show-to-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = მიმღების ველი
     .accesskey = ი
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-to-row-button text.
 show-to-row-extra-menuitem =
@@ -361,9 +361,9 @@ cc-address-row-label =
     .value = ასლი
 #   $key (String) - the shortcut key for this field
 show-cc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = ასლის ველი
     .accesskey = ლ
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-cc-row-button text.
 show-cc-row-extra-menuitem =
@@ -376,9 +376,9 @@ bcc-address-row-label =
     .value = ფარული ასლი
 #   $key (String) - the shortcut key for this field
 show-bcc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = ფარული ასლის ველი
     .accesskey = ფ
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-bcc-row-button text.
 show-bcc-row-extra-menuitem =
@@ -434,9 +434,6 @@ attachment-reminder-keywords-msg =
 
 ## Editing
 
-
-# Tools
-
 compose-tool-button-remove-text-styling =
     .tooltiptext = ტექსტის გაფორმების მოცილება
 
@@ -445,9 +442,6 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = ატვირთულია დაუდგენელ Filelink-ანგარიშზე.
-
-# Placeholder file
-
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } – Filelink-დანართი
@@ -455,9 +449,6 @@ cloud-file-placeholder-title = { $filename } – Filelink-დანართი
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = ფაილი { $filename } მიმაგრებული იყო Filelink-ზე. მისი ჩამოტვირთვა შესაძლებელია ქვემოთ მოცემული ბმულიდან.
-
-# Template
-
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -495,9 +486,6 @@ cloud-file-template-link = ბმული:
 cloud-file-template-password-protected-link = პაროლით დაცული ბმული:
 cloud-file-template-expiry-date = ამოწურვის თარიღი:
 cloud-file-template-download-limit = ჩამოტვირთვის ზღვარი:
-
-# Messages
-
 cloud-file-connection-error-title = დაკავშირების შეცდომა
 # Variables:
 # $provider (string) - name of the online storage service that reported the error

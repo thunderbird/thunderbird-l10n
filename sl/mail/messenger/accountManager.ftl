@@ -27,8 +27,8 @@ edit-vcard-dialog-accept-button = Shrani
 edit-vcard-dialog-cancel-button = Prekliči
     .accesskey = k
 account-manager-server-default-icon =
-    .title = Privzeti račun
     .alt = Ikona zvezdice
+    .title = Privzeti račun
 outgoing-server-section-name = Odhodni strežnik
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = Nastavitve odhodnega strežnika

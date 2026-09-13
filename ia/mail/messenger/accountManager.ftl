@@ -27,8 +27,8 @@ edit-vcard-dialog-accept-button = Salvar
 edit-vcard-dialog-cancel-button = Cancellar
     .accesskey = C
 account-manager-server-default-icon =
-    .title = Conto predefinite
     .alt = Icone de stella
+    .title = Conto predefinite
 outgoing-server-section-name = Servitor de exito
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = Parametros de servitor in exito

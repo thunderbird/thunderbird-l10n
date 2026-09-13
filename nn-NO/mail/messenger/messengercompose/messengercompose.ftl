@@ -86,8 +86,8 @@ disable-attachment-reminder-menu-item =
     .label = Slå av vedleggspåminning for gjeldande melding
 find-replace-button =
     .label = Byt ut …
-    .accesskey = y
     .tooltiptext = Vis Finn og byt ut-dialogen
+    .accesskey = y
 # Variables:
 # $identity - identity address that would otherwise be used
 compose-custom-from-address-placeholder = Skriv inn eiga frå-adresse som skal brukast i staden for { $identity }
@@ -185,24 +185,24 @@ ctrl-cmd-shift-pretty-prefix =
 trigger-attachment-picker-key = A
 toggle-attachment-pane-key = M
 menuitem-toggle-attachment-pane =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
     .label = Vedleggspanel
     .accesskey = V
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
 toolbar-button-add-attachment =
     .label = Legg ved
     .tooltiptext = Legg ved eit vedlegg ({ ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key })
 add-attachment-notification-reminder2 =
     .label = Legg til vedlegg…
-    .accesskey = L
     .tooltiptext = { toolbar-button-add-attachment.tooltiptext }
+    .accesskey = L
 menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Fil(er)…
     .accesskey = F
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 context-menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Legg ved fil(er)…
     .accesskey = L
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 # Note: Do not translate the term 'vCard'.
 context-menuitem-attach-vcard =
     .label = Mitt vCard
@@ -328,12 +328,12 @@ smime-cert-issue-notification-multi =
     }
 key-notification-disable-encryption =
     .label = Ikkje krypter
-    .accesskey = k
     .tooltiptext = Skru av ende-til-ende-kryptering
+    .accesskey = k
 key-notification-resolve =
     .label = Løys…
-    .accesskey = L
     .tooltiptext = Opne nykelassistenten for OpenPGP
+    .accesskey = L
 can-encrypt-smime-notification = S/MIME ende-til-ende-kryptering er muleg.
 can-encrypt-openpgp-notification = OpenPGP ende-til-ende-kryptering er muleg.
 can-e2e-encrypt-button =
@@ -346,9 +346,9 @@ to-address-row-label =
     .value = Til
 #   $key (String) - the shortcut key for this field
 show-to-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Til-felt
     .accesskey = T
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-to-row-button text.
 show-to-row-extra-menuitem =
@@ -361,9 +361,9 @@ cc-address-row-label =
     .value = Kopi
 #   $key (String) - the shortcut key for this field
 show-cc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Kopi-felt
     .accesskey = K
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-cc-row-button text.
 show-cc-row-extra-menuitem =
@@ -376,9 +376,9 @@ bcc-address-row-label =
     .value = Blindkopi
 #   $key (String) - the shortcut key for this field
 show-bcc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Blindkopifelt
     .accesskey = B
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-bcc-row-button text.
 show-bcc-row-extra-menuitem =
@@ -437,9 +437,6 @@ attachment-reminder-keywords-msg =
 
 ## Editing
 
-
-# Tools
-
 compose-tool-button-remove-text-styling =
     .tooltiptext = Fjern tekststil
 
@@ -448,9 +445,6 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = Lasta opp til ein ukjend Filelink-konto.
-
-# Placeholder file
-
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - Filelink-vedlegg
@@ -458,9 +452,6 @@ cloud-file-placeholder-title = { $filename } - Filelink-vedlegg
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = Fila { $filename } vart lagd ved som ein Filelink. Ho kan lastast ned frå lenka nedanfor.
-
-# Template
-
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -498,9 +489,6 @@ cloud-file-template-link = Lenke
 cloud-file-template-password-protected-link = Passordbeskytta lenkje
 cloud-file-template-expiry-date = Utløpsdato:
 cloud-file-template-download-limit = Nedlastingsgrense:
-
-# Messages
-
 cloud-file-connection-error-title = Tilkoplingsfeil
 # Variables:
 # $provider (string) - name of the online storage service that reported the error

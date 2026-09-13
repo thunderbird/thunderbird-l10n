@@ -86,8 +86,8 @@ disable-attachment-reminder-menu-item =
     .label = Անջատել հավելվածի հիշեցումը ընթացիկ հաղորդագրության համար
 find-replace-button =
     .label = Փոխարինել...
-    .accesskey = x
     .tooltiptext = Ցուցադրել Գտնել և Փոխարինել պատուհանը
+    .accesskey = x
 # Variables:
 # $identity - identity address that would otherwise be used
 compose-custom-from-address-placeholder = Մուտքագարել հարմարեցված հասցե՝ { $identity }-ի փոխարեն
@@ -102,9 +102,6 @@ compose-blocked-content-preferences-accesskey = P
 # $url - URL of the blocked resource
 compose-unblock-resource =
     .label = Ապակապանել { $url }
-
-## Send Format
-
 
 ## Addressing widget
 
@@ -146,24 +143,24 @@ compose-remove-address-row-button = Ջնջել
 ## Attachment widget
 
 menuitem-toggle-attachment-pane =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
     .label = Կցորդի վահանակ
     .accesskey = m
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
 toolbar-button-add-attachment =
     .label = Կցել
     .tooltiptext = Հավելել կցորդ { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 add-attachment-notification-reminder2 =
     .label = Կցել ֆայլ...
-    .accesskey = A
     .tooltiptext = { toolbar-button-add-attachment.tooltiptext }
+    .accesskey = A
 menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Ֆայլ(եր)
     .accesskey = F
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 context-menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Կցել ֆայլ(եր)...
     .accesskey = F
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 
 ## Variables:
 ## $count (Number) - Number of files being dropped onto the composer.
@@ -192,9 +189,6 @@ default-delete-cmd =
     .label = Ջնջել
     .accesskey = D
 
-## Encryption
-
-
 ## Addressing Area
 
 many-public-recipients-prompt-cancel = Չեղարկել ուղարկումը
@@ -216,22 +210,7 @@ attachment-reminder-keywords-msg =
        *[other] Գտնվել է { $count } կցորդ հիմնաբառ.
     }
 
-## Editing
-
-
-# Tools
-
-
 ## Filelink
-
-
-# Placeholder file
-
-
-# Template
-
-
-# Messages
 
 cloud-file-authentication-error-title = Իսկորոշման սխալ
 # Variables:
@@ -298,9 +277,6 @@ cloud-file-uploaded-tooltip = Վերբեռնված { $provider }
 # Variables:
 # $provider - name of the online storage service
 cloud-file-attach-picker-title = Կցել ֆայլեր { $provider }-ով
-
-## Link Preview
-
 
 ## Dictionary selection popup
 

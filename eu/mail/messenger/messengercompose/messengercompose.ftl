@@ -86,8 +86,8 @@ disable-attachment-reminder-menu-item =
     .label = Ezgaitu eranskinen gogorarazlea uneko mezuarentzat
 find-replace-button =
     .label = Ordeztu…
-    .accesskey = O
     .tooltiptext = Erakutsi bilatu eta ordezteko elkarrizketa-koadroa
+    .accesskey = O
 # Variables:
 # $identity - identity address that would otherwise be used
 compose-custom-from-address-placeholder = Sartu helbide pertsonalizatua { $identity } erabili ordez
@@ -185,24 +185,24 @@ ctrl-cmd-shift-pretty-prefix =
 trigger-attachment-picker-key = A
 toggle-attachment-pane-key = M
 menuitem-toggle-attachment-pane =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
     .label = Eranskinen panela
     .accesskey = E
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
 toolbar-button-add-attachment =
     .label = Erantsi
     .tooltiptext = Gehitu eranskina ({ ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key })
 add-attachment-notification-reminder2 =
     .label = Gehitu eranskina…
-    .accesskey = e
     .tooltiptext = { toolbar-button-add-attachment.tooltiptext }
+    .accesskey = e
 menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Fitxategia(k)…
     .accesskey = F
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 context-menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Erantsi fitxategia(k)…
     .accesskey = r
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 # Note: Do not translate the term 'vCard'.
 context-menuitem-attach-vcard =
     .label = Nire vCard
@@ -329,12 +329,12 @@ smime-cert-issue-notification-multi =
     }
 key-notification-disable-encryption =
     .label = Ez zifratu
-    .accesskey = E
     .tooltiptext = desgaitu muturretik muturrerako zifratzea
+    .accesskey = E
 key-notification-resolve =
     .label = Ebatzi…
-    .accesskey = E
     .tooltiptext = Ireki OpenPGP gako laguntzailea
+    .accesskey = E
 can-encrypt-smime-notification = S/MIME muturretik muturrera zifratzea posible da.
 can-encrypt-openpgp-notification = OpenPGP muturretik muturrera zifratzea posible da.
 can-e2e-encrypt-button =
@@ -347,9 +347,9 @@ to-address-row-label =
     .value = Nori
 #   $key (String) - the shortcut key for this field
 show-to-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Nori eremua
     .accesskey = N
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-to-row-button text.
 show-to-row-extra-menuitem =
@@ -362,9 +362,9 @@ cc-address-row-label =
     .value = Cc
 #   $key (String) - the shortcut key for this field
 show-cc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Cc eremua
     .accesskey = C
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-cc-row-button text.
 show-cc-row-extra-menuitem =
@@ -377,9 +377,9 @@ bcc-address-row-label =
     .value = Bcc
 #   $key (String) - the shortcut key for this field
 show-bcc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Bcc eremua
     .accesskey = B
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-bcc-row-button text.
 show-bcc-row-extra-menuitem =
@@ -439,9 +439,6 @@ attachment-reminder-keywords-msg =
 
 ## Editing
 
-
-# Tools
-
 compose-tool-button-remove-text-styling =
     .tooltiptext = Kendu testu estiloak
 
@@ -450,9 +447,6 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = Igota Filelink kontu ezezagun batera.
-
-# Placeholder file
-
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - Filelink eranskina
@@ -460,9 +454,6 @@ cloud-file-placeholder-title = { $filename } - Filelink eranskina
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = { $filename } fitxategia Filelink erara erantsi da. Azpiko loturatik jaitsi daiteke.
-
-# Template
-
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -500,9 +491,6 @@ cloud-file-template-link = Lotura:
 cloud-file-template-password-protected-link = Pasahitzaz babestutako lotura:
 cloud-file-template-expiry-date = Iraungitze data:
 cloud-file-template-download-limit = Deskargatzeko limitea:
-
-# Messages
-
 cloud-file-connection-error-title = Konexio errorea
 # Variables:
 # $provider (string) - name of the online storage service that reported the error

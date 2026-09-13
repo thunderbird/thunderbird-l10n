@@ -86,8 +86,8 @@ disable-attachment-reminder-menu-item =
     .label = عطّل تذكير المرفقات للرسالة الحالية
 find-replace-button =
     .label = استبدل…
-    .accesskey = س
     .tooltiptext = أظهر حوار البحث و الاستبدال
+    .accesskey = س
 # Variables:
 # $identity - identity address that would otherwise be used
 compose-custom-from-address-placeholder = أدخل عنوانًا لاستعماله بدلا من { $identity }
@@ -102,19 +102,6 @@ compose-blocked-content-preferences-accesskey = ف
 # $url - URL of the blocked resource
 compose-unblock-resource =
     .label = ارفع حجب { $url }
-
-## Send Format
-
-
-## Addressing widget
-
-
-## Attachment widget
-
-
-## Variables:
-## $count (Number) - Number of files being dropped onto the composer.
-
 
 ## Reorder Attachment Panel
 
@@ -134,12 +121,6 @@ remove-attachment-cmd =
 default-delete-cmd =
     .label = احذف
     .accesskey = ذ
-
-## Encryption
-
-
-## Addressing Area
-
 
 ## Notifications
 
@@ -165,22 +146,7 @@ attachment-reminder-keywords-msg =
        *[other] وُجدت { $count } كلمة تدل على مُرفق:
     }
 
-## Editing
-
-
-# Tools
-
-
 ## Filelink
-
-
-# Placeholder file
-
-
-# Template
-
-
-# Messages
 
 cloud-file-authentication-error-title = عُطل في الاستيثاق
 # Variables:
@@ -259,9 +225,3 @@ cloud-file-uploaded-tooltip = رُفِع إلى { $provider }
 # Variables:
 # $provider - name of the online storage service
 cloud-file-attach-picker-title = أرفق الملفات عبر { $provider }
-
-## Link Preview
-
-
-## Dictionary selection popup
-

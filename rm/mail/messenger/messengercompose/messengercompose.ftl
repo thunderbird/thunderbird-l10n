@@ -86,8 +86,8 @@ disable-attachment-reminder-menu-item =
     .label = Deactivar l'avis areguard l'agiunta per quest messadi
 find-replace-button =
     .label = Remplazzar…
-    .accesskey = l
     .tooltiptext = Mussar la fanestra per tschertgar e remplazzar
+    .accesskey = l
 # Variables:
 # $identity - identity address that would otherwise be used
 compose-custom-from-address-placeholder = Endatescha ina adressa da speditur che duai vegnir utilisada empè da { $identity }
@@ -185,24 +185,24 @@ ctrl-cmd-shift-pretty-prefix =
 trigger-attachment-picker-key = A
 toggle-attachment-pane-key = M
 menuitem-toggle-attachment-pane =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
     .label = Zona d'agiuntas
     .accesskey = n
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
 toolbar-button-add-attachment =
     .label = Agiuntar
     .tooltiptext = Agiuntar ina agiunta ({ ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key })
 add-attachment-notification-reminder2 =
     .label = Agiuntar ina datoteca…
-    .accesskey = A
     .tooltiptext = { toolbar-button-add-attachment.tooltiptext }
+    .accesskey = A
 menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Datoteca(s)…
     .accesskey = D
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 context-menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Agiuntar datoteca(s)
     .accesskey = d
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 # Note: Do not translate the term 'vCard'.
 context-menuitem-attach-vcard =
     .label = Mia vCard
@@ -328,12 +328,12 @@ smime-cert-issue-notification-multi =
     }
 key-notification-disable-encryption =
     .label = Betg criptar
-    .accesskey = B
     .tooltiptext = Deactivar il criptadi da fin a fin
+    .accesskey = B
 key-notification-resolve =
     .label = Schliar…
-    .accesskey = c
     .tooltiptext = Avrir l'assistent da clavs OpenPGP
+    .accesskey = c
 can-encrypt-smime-notification = Igl è pussaivel d'utilisar il criptadi da fin a fin S/MIME.
 can-encrypt-openpgp-notification = Igl è pussaivel d'utilisar il criptadi da fin a fin OpenPGP.
 can-e2e-encrypt-button =
@@ -346,9 +346,9 @@ to-address-row-label =
     .value = A
 #   $key (String) - the shortcut key for this field
 show-to-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Champ A
     .accesskey = A
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-to-row-button text.
 show-to-row-extra-menuitem =
@@ -361,9 +361,9 @@ cc-address-row-label =
     .value = Cc
 #   $key (String) - the shortcut key for this field
 show-cc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Champ Cc
     .accesskey = C
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-cc-row-button text.
 show-cc-row-extra-menuitem =
@@ -376,9 +376,9 @@ bcc-address-row-label =
     .value = Bcc
 #   $key (String) - the shortcut key for this field
 show-bcc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Champ Bcc
     .accesskey = B
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-bcc-row-button text.
 show-bcc-row-extra-menuitem =
@@ -438,9 +438,6 @@ attachment-reminder-keywords-msg =
 
 ## Editing
 
-
-# Tools
-
 compose-tool-button-remove-text-styling =
     .tooltiptext = Allontanar la formataziun dal text
 
@@ -449,9 +446,6 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = Transferì en in conto da Filelink nunenconuschent.
-
-# Placeholder file
-
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - Agiunta Filelink
@@ -459,9 +453,6 @@ cloud-file-placeholder-title = { $filename } - Agiunta Filelink
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = La datoteca { $filename } è vegnida agiuntada cun agid da Filelink. Ella po vegnir telechargiada cun la colliaziun sutvart.
-
-# Template
-
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -499,9 +490,6 @@ cloud-file-template-link = Colliaziun:
 cloud-file-template-password-protected-link = Colliaziun protegida cun in pled-clav:
 cloud-file-template-expiry-date = Data da scadenza:
 cloud-file-template-download-limit = Limita da telechargiada:
-
-# Messages
-
 cloud-file-connection-error-title = Errur da connexiun
 # Variables:
 # $provider (string) - name of the online storage service that reported the error

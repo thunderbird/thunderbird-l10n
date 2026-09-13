@@ -86,8 +86,8 @@ disable-attachment-reminder-menu-item =
     .label = Nyahaktifkan peringatan lampiran untuk mesej semasa
 find-replace-button =
     .label = Ganti…
-    .accesskey = t
     .tooltiptext = Papar dialog Cari dan Ganti
+    .accesskey = t
 # Variables:
 # $identity - identity address that would otherwise be used
 compose-custom-from-address-placeholder = Masukkan alamat Daripada yang disesuaikan, bukan { $identity }
@@ -103,19 +103,6 @@ compose-blocked-content-preferences-accesskey = K
 compose-unblock-resource =
     .label = Buang sekatan { $url }
 
-## Send Format
-
-
-## Addressing widget
-
-
-## Attachment widget
-
-
-## Variables:
-## $count (Number) - Number of files being dropped onto the composer.
-
-
 ## Reorder Attachment Panel
 
 # Variables:
@@ -127,12 +114,6 @@ default-delete-cmd =
     .label = Buang
     .accesskey = B
 
-## Encryption
-
-
-## Addressing Area
-
-
 ## Notifications
 
 # Variables:
@@ -142,22 +123,7 @@ blocked-content-message = { -brand-short-name } telah menyekat fail daripada dim
 #   $count - the number keywords
 attachment-reminder-keywords-msg = Menemui { $count } kata kunci lampiran:
 
-## Editing
-
-
-# Tools
-
-
 ## Filelink
-
-
-# Placeholder file
-
-
-# Template
-
-
-# Messages
 
 cloud-file-authentication-error-title = Ralat Pengesahan
 # Variables:
@@ -220,9 +186,3 @@ cloud-file-uploaded-tooltip = Dimuat naik ke { $provider }
 # Variables:
 # $provider - name of the online storage service
 cloud-file-attach-picker-title = Lampirkan Fail via { $provider }
-
-## Link Preview
-
-
-## Dictionary selection popup
-

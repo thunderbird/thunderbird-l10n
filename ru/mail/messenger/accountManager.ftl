@@ -27,8 +27,8 @@ edit-vcard-dialog-accept-button = Сохранить
 edit-vcard-dialog-cancel-button = Отмена
     .accesskey = м
 account-manager-server-default-icon =
-    .title = Учётная запись по умолчанию
     .alt = Значок звезды
+    .title = Учётная запись по умолчанию
 outgoing-server-section-name = Сервер исходящей почты
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = Параметры сервера исходящей почты

@@ -27,8 +27,8 @@ edit-vcard-dialog-accept-button = Zapisz
 edit-vcard-dialog-cancel-button = Anuluj
     .accesskey = A
 account-manager-server-default-icon =
-    .title = Domyślne konto
     .alt = Ikona gwiazdki
+    .title = Domyślne konto
 outgoing-server-section-name = Serwer poczty wychodzącej
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = Ustawienia serwera poczty wychodzącej

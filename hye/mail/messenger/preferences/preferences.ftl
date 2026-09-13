@@ -255,9 +255,9 @@ offline-compact-folder-automatically =
 compact-folder-size =
     .value = ՄԲ ընդամէնը
 
-## Note: The entities use-cache-before and use-cache-after appear on a single
+## Note: The entities use-cache-before and use-temp-storage-after appear on a single
 ## line in preferences as follows:
-## use-cache-before [ textbox for cache size in MB ] use-cache-after
+## use-cache-before [ textbox for cache size in MB ] use-temp-storage-after
 
 use-cache-before =
     .value = Աւգտագործել մինչեւ
@@ -352,8 +352,8 @@ mark-read-no-delay =
     .label = Բացելուց անմիջապէս յետոյ
     .accesskey = ա
 
-## Note: This will concatenate to "After displaying for [___] seconds",
-## using (mark-read-delay) and a number (seconds-label).
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
 
 mark-read-delay =
     .label = Ցուցադրելուց յետոյ՝
@@ -484,9 +484,9 @@ enable-cloud-share =
 cloud-share-size =
     .value = ՄԲ
 add-cloud-account =
+    .defaultlabel = Աւելացնել…
     .label = Աւելացնել…
     .accesskey = Ա
-    .defaultlabel = Աւելացնել…
 remove-cloud-account =
     .label = Ջնջել։
     .accesskey = Ջ
@@ -677,8 +677,8 @@ chat-variant-label =
 # is the name of the CSS property. It is intended only to adjust the element's width.
 # Do not translate.
 search-preferences-input2 =
-    .style = width: 15.4em
     .placeholder = Որոնել կարգաւորումներում
+    .style = width: 15.4em
 
 ## Settings UI Search Results
 

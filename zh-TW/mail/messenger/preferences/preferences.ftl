@@ -290,9 +290,9 @@ offline-compact-folder-automatically =
 compact-folder-size =
     .value = MB 時壓實重整所有郵件匣
 
-## Note: The entities use-cache-before and use-cache-after appear on a single
+## Note: The entities use-cache-before and use-temp-storage-after appear on a single
 ## line in preferences as follows:
-## use-cache-before [ textbox for cache size in MB ] use-cache-after
+## use-cache-before [ textbox for cache size in MB ] use-temp-storage-after
 
 use-cache-before =
     .value = 最多使用
@@ -397,8 +397,8 @@ view-attachments-inline =
     .label = 在行內檢視附件
     .accesskey = V
 
-## Note: This will concatenate to "After displaying for [___] seconds",
-## using (mark-read-delay) and a number (seconds-label).
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
 
 mark-read-delay =
     .label = 在顯示
@@ -592,9 +592,9 @@ enable-cloud-share =
 cloud-share-size =
     .value = MB
 add-cloud-account =
+    .defaultlabel = 新增…
     .label = 新增…
     .accesskey = A
-    .defaultlabel = 新增…
 remove-cloud-account =
     .label = 移除
     .accesskey = R
@@ -917,8 +917,8 @@ chat-variant-label =
 # is the name of the CSS property. It is intended only to adjust the element's width.
 # Do not translate.
 search-preferences-input2 =
-    .style = width: 15.4em
     .placeholder = 搜尋選項
+    .style = width: 15.4em
 managed-notice = 您的 { -brand-short-name } 受到組織管理。
 
 ## Settings UI Search Results

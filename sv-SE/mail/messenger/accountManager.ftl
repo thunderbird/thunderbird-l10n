@@ -27,8 +27,8 @@ edit-vcard-dialog-accept-button = Spara
 edit-vcard-dialog-cancel-button = Avbryt
     .accesskey = A
 account-manager-server-default-icon =
-    .title = Standardkonto
     .alt = Stjärnikon
+    .title = Standardkonto
 outgoing-server-section-name = Server för utgående e-post
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = Serverinställningar för utgående e-post

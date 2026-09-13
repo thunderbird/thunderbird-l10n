@@ -27,8 +27,8 @@ edit-vcard-dialog-accept-button = Tallenna
 edit-vcard-dialog-cancel-button = Peruuta
     .accesskey = P
 account-manager-server-default-icon =
-    .title = Oletustili
     .alt = Tähti-kuvake
+    .title = Oletustili
 outgoing-server-section-name = Lähtevän postin palvelin
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = Lähtevän postin palvelimen asetukset

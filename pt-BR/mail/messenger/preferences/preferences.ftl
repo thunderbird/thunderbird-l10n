@@ -281,9 +281,9 @@ offline-compact-folder-automatically =
 compact-folder-size =
     .value = MB no total
 
-## Note: The entities use-cache-before and use-cache-after appear on a single
+## Note: The entities use-cache-before and use-temp-storage-after appear on a single
 ## line in preferences as follows:
-## use-cache-before [ textbox for cache size in MB ] use-cache-after
+## use-cache-before [ textbox for cache size in MB ] use-temp-storage-after
 
 use-cache-before =
     .value = Usar no máximo
@@ -388,8 +388,8 @@ view-attachments-inline =
     .label = Ver anexos dentro da mensagem
     .accesskey = V
 
-## Note: This will concatenate to "After displaying for [___] seconds",
-## using (mark-read-delay) and a number (seconds-label).
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
 
 mark-read-delay =
     .label = Após exibir por
@@ -576,9 +576,9 @@ enable-cloud-share =
 cloud-share-size =
     .value = MB
 add-cloud-account =
+    .defaultlabel = Adicionar…
     .label = Adicionar…
     .accesskey = A
-    .defaultlabel = Adicionar…
 remove-cloud-account =
     .label = Remover
     .accesskey = R
@@ -905,8 +905,8 @@ chat-variant-label =
 # is the name of the CSS property. It is intended only to adjust the element's width.
 # Do not translate.
 search-preferences-input2 =
-    .style = width: 15.4em
     .placeholder = Procurar nas configurações
+    .style = width: 15.4em
 managed-notice = O { -brand-short-name } está sendo gerenciado por sua organização.
 
 ## Settings UI Search Results

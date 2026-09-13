@@ -27,8 +27,8 @@ edit-vcard-dialog-accept-button = Bewarje
 edit-vcard-dialog-cancel-button = Annulearje
     .accesskey = A
 account-manager-server-default-icon =
-    .title = Standertaccount
     .alt = Stjerpiktogram
+    .title = Standertaccount
 outgoing-server-section-name = Utgeande server
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = Ynstellingen fan útgeande server

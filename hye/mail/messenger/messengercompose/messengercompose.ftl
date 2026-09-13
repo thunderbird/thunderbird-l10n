@@ -86,8 +86,8 @@ disable-attachment-reminder-menu-item =
     .label = Անջատել կցորդի յիշեցումը ընթացիկ հաղորդագրութեան համար
 find-replace-button =
     .label = Փոխարինել…
-    .accesskey = խ
     .tooltiptext = Ցոյց տալ «Գտնել» եւ «Փոխարինել» երկխոսութիւնը
+    .accesskey = խ
 # Variables:
 # $identity - identity address that would otherwise be used
 compose-custom-from-address-placeholder = Մուտքագրէ՛ք յարմարեցուած From հասցէն, որը կաւգտագործուի { $identity }-ի փոխարէն
@@ -185,24 +185,24 @@ ctrl-cmd-shift-pretty-prefix =
 trigger-attachment-picker-key = Կ
 toggle-attachment-pane-key = M
 menuitem-toggle-attachment-pane =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
     .label = Կցորդի վահանակ
     .accesskey = դ
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
 toolbar-button-add-attachment =
     .label = Կցել
     .tooltiptext = Աւելացնել Կցորդ ({ ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key })
 add-attachment-notification-reminder2 =
     .label = Աւելացնել կցորդ…
-    .accesskey = Ա
     .tooltiptext = { toolbar-button-add-attachment.tooltiptext }
+    .accesskey = Ա
 menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Նիշ(եր)…
     .accesskey = Ն
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 context-menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Կցել նիշ(եր)…
     .accesskey = Ն
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 # Note: Do not translate the term 'vCard'.
 context-menuitem-attach-vcard =
     .label = Իմ vCard֊ը
@@ -305,12 +305,12 @@ menu-open-key-manager =
     .accesskey = կ
 key-notification-disable-encryption =
     .label = Չծածկագրել
-    .accesskey = Չ
     .tooltiptext = Անջատել ծայրէծայր գաղտնագրումը
+    .accesskey = Չ
 key-notification-resolve =
     .label = Ուղղել․․․
-    .accesskey = Ո
     .tooltiptext = Բացել OpenPGP հիմնական աւգնականը
+    .accesskey = Ո
 
 ## Addressing Area
 
@@ -318,9 +318,9 @@ to-address-row-label =
     .value = Ում
 #   $key (String) - the shortcut key for this field
 show-to-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Ում դաշտ
     .accesskey = Ո
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-to-row-button text.
 show-to-row-extra-menuitem =
@@ -333,9 +333,9 @@ cc-address-row-label =
     .value = Պատճէն
 #   $key (String) - the shortcut key for this field
 show-cc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Պատճէն
     .accesskey = C
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-cc-row-button text.
 show-cc-row-extra-menuitem =
@@ -348,9 +348,9 @@ bcc-address-row-label =
     .value = Ծածկապատճէն
 #   $key (String) - the shortcut key for this field
 show-bcc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Ծածկապատճէնի դաշտ
     .accesskey = Ծ
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-bcc-row-button text.
 show-bcc-row-extra-menuitem =
@@ -401,9 +401,6 @@ attachment-reminder-keywords-msg =
 
 ## Editing
 
-
-# Tools
-
 compose-tool-button-remove-text-styling =
     .tooltiptext = Հեռացնել գրոյթի ոճաւորումը
 
@@ -412,9 +409,6 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = Վերբեռնուած է անյայտ նիշի յղման հաշուի մէջ:
-
-# Placeholder file
-
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - Նիշի յղմայն կցորդ
@@ -422,9 +416,6 @@ cloud-file-placeholder-title = { $filename } - Նիշի յղմայն կցորդ
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = { $filename } նիշը կցուել է որպէս նիշի յղում: Այն կարելի է ներբեռնել ստորեւ նշուած յղումից։
-
-# Template
-
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -462,9 +453,6 @@ cloud-file-template-link = Յղում.
 cloud-file-template-password-protected-link = Գաղտնաբառով պաշտպանուած յղում․
 cloud-file-template-expiry-date = Սպառման ժամկէտ․
 cloud-file-template-download-limit = Ներբեռման սահմանափակում․
-
-# Messages
-
 cloud-file-connection-error-title = Միացման խափանում
 # Variables:
 # $provider (string) - name of the online storage service that reported the error

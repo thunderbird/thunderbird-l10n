@@ -27,8 +27,8 @@ edit-vcard-dialog-accept-button = Simpan
 edit-vcard-dialog-cancel-button = Batal
     .accesskey = B
 account-manager-server-default-icon =
-    .title = Akun baku
     .alt = Ikon bintang
+    .title = Akun baku
 outgoing-server-section-name = Server Keluar
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = Pengaturan Server Keluar

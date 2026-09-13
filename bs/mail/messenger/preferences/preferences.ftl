@@ -141,9 +141,9 @@ offline-compact-folder =
 compact-folder-size =
     .value = Ukupno MB
 
-## Note: The entities use-cache-before and use-cache-after appear on a single
+## Note: The entities use-cache-before and use-temp-storage-after appear on a single
 ## line in preferences as follows:
-## use-cache-before [ textbox for cache size in MB ] use-cache-after
+## use-cache-before [ textbox for cache size in MB ] use-temp-storage-after
 
 use-cache-before =
     .value = Koristi do
@@ -234,8 +234,8 @@ mark-read-no-delay =
     .label = Odmah pri prikazu
     .accesskey = o
 
-## Note: This will concatenate to "After displaying for [___] seconds",
-## using (mark-read-delay) and a number (seconds-label).
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
 
 mark-read-delay =
     .label = Nakon prikazivanja u trajanju od
@@ -344,9 +344,9 @@ enable-cloud-share =
 cloud-share-size =
     .value = MB
 add-cloud-account =
+    .defaultlabel = Dodaj…
     .label = Dodaj…
     .accesskey = A
-    .defaultlabel = Dodaj…
 remove-cloud-account =
     .label = Ukloni
     .accesskey = R

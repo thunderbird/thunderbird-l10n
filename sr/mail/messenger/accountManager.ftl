@@ -27,8 +27,8 @@ edit-vcard-dialog-accept-button = Сачувај
 edit-vcard-dialog-cancel-button = Откажи
     .accesskey = О
 account-manager-server-default-icon =
-    .title = Подразумевани налог
     .alt = Иконица звездице
+    .title = Подразумевани налог
 outgoing-server-section-name = Сервер за одлазну пошту
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = Подешавања сервера за одлазну пошту

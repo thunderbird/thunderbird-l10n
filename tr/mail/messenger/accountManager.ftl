@@ -27,8 +27,8 @@ edit-vcard-dialog-accept-button = Kaydet
 edit-vcard-dialog-cancel-button = Vazgeç
     .accesskey = V
 account-manager-server-default-icon =
-    .title = Varsayılan hesap
     .alt = Yıldız simgesi
+    .title = Varsayılan hesap
 outgoing-server-section-name = Giden sunucusu
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = Giden sunucusu ayarları

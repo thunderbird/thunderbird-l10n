@@ -66,21 +66,8 @@ remind-later-button =
     .accesskey = R
 find-replace-button =
     .label = Trocar…
-    .accesskey = T
     .tooltiptext = Amosar el diálogu Guetar y trocar
-
-## Send Format
-
-
-## Addressing widget
-
-
-## Attachment widget
-
-
-## Variables:
-## $count (Number) - Number of files being dropped onto the composer.
-
+    .accesskey = T
 
 ## Reorder Attachment Panel
 
@@ -97,12 +84,6 @@ default-delete-cmd =
     .label = Desaniciar
     .accesskey = n
 
-## Encryption
-
-
-## Addressing Area
-
-
 ## Notifications
 
 # Variables:
@@ -113,22 +94,7 @@ attachment-reminder-keywords-msg =
        *[other] Alcontráronse { $count } pallabres clave d'axuntos:
     }
 
-## Editing
-
-
-# Tools
-
-
 ## Filelink
-
-
-# Placeholder file
-
-
-# Template
-
-
-# Messages
 
 cloud-file-authentication-error-title = Fallu d'identificación
 # Variables:
@@ -199,9 +165,3 @@ cloud-file-uploaded-tooltip = Xubíu a { $provider }
 # Variables:
 # $provider - name of the online storage service
 cloud-file-attach-picker-title = Axuntar ficheru(os) a traviés de { $provider }
-
-## Link Preview
-
-
-## Dictionary selection popup
-

@@ -74,9 +74,9 @@ offline-settings-button =
     .accesskey = A
 diskspace-legend = Skyfspasie
 
-## Note: The entities use-cache-before and use-cache-after appear on a single
+## Note: The entities use-cache-before and use-temp-storage-after appear on a single
 ## line in preferences as follows:
-## use-cache-before [ textbox for cache size in MB ] use-cache-after
+## use-cache-before [ textbox for cache size in MB ] use-temp-storage-after
 
 use-cache-before =
     .value = Gebruik tot
@@ -144,8 +144,8 @@ mark-read-no-delay =
     .label = Dadelik wanneer vertoon
     .accesskey = w
 
-## Note: This will concatenate to "After displaying for [___] seconds",
-## using (mark-read-delay) and a number (seconds-label).
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
 
 mark-read-delay =
     .label = Na vertoon is vir

@@ -281,9 +281,9 @@ offline-compact-folder-automatically =
 compact-folder-size =
     .value = MB guztira
 
-## Note: The entities use-cache-before and use-cache-after appear on a single
+## Note: The entities use-cache-before and use-temp-storage-after appear on a single
 ## line in preferences as follows:
-## use-cache-before [ textbox for cache size in MB ] use-cache-after
+## use-cache-before [ textbox for cache size in MB ] use-temp-storage-after
 
 use-cache-before =
     .value = Erabili gehienez
@@ -388,8 +388,8 @@ view-attachments-inline =
     .label = Ikusi eranskinak lerroan
     .accesskey = I
 
-## Note: This will concatenate to "After displaying for [___] seconds",
-## using (mark-read-delay) and a number (seconds-label).
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
 
 mark-read-delay =
     .label = Denbora batez bistaratu eta gero:
@@ -556,9 +556,9 @@ enable-cloud-share =
 cloud-share-size =
     .value = MB
 add-cloud-account =
+    .defaultlabel = Gehitu…
     .label = Gehitu…
     .accesskey = G
-    .defaultlabel = Gehitu…
 remove-cloud-account =
     .label = Kendu
     .accesskey = K
@@ -811,8 +811,8 @@ chat-variant-label =
 # is the name of the CSS property. It is intended only to adjust the element's width.
 # Do not translate.
 search-preferences-input2 =
-    .style = width: 15.4em
     .placeholder = Bilatu ezarpenetan
+    .style = width: 15.4em
 managed-notice = { -brand-short-name } zure erakundeak kudeatzen du.
 
 ## Settings UI Search Results

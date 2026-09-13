@@ -26,8 +26,8 @@ edit-vcard-dialog-accept-button = Запазване
 edit-vcard-dialog-cancel-button = Прекъсване
     .accesskey = П
 account-manager-server-default-icon =
-    .title = Профил по подразбиране
     .alt = Звезда
+    .title = Профил по подразбиране
 outgoing-server-section-name = Изходящ сървър
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = Настройки на сървъра за изходяща поща

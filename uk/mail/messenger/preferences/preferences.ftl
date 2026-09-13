@@ -269,9 +269,9 @@ offline-compact-folder-automatically =
 compact-folder-size =
     .value = МБ всього
 
-## Note: The entities use-cache-before and use-cache-after appear on a single
+## Note: The entities use-cache-before and use-temp-storage-after appear on a single
 ## line in preferences as follows:
-## use-cache-before [ textbox for cache size in MB ] use-cache-after
+## use-cache-before [ textbox for cache size in MB ] use-temp-storage-after
 
 use-cache-before =
     .value = Використовувати до
@@ -372,8 +372,8 @@ view-attachments-inline =
     .label = Показувати вкладення вбудовано
     .accesskey = к
 
-## Note: This will concatenate to "After displaying for [___] seconds",
-## using (mark-read-delay) and a number (seconds-label).
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
 
 mark-read-delay =
     .label = Після відкриття через
@@ -530,9 +530,9 @@ enable-cloud-share =
 cloud-share-size =
     .value = Мб
 add-cloud-account =
+    .defaultlabel = Додати…
     .label = Додати…
     .accesskey = о
-    .defaultlabel = Додати…
 remove-cloud-account =
     .label = Вилучити
     .accesskey = В
@@ -760,8 +760,8 @@ chat-variant-label =
 # is the name of the CSS property. It is intended only to adjust the element's width.
 # Do not translate.
 search-preferences-input2 =
-    .style = width: 15.4em
     .placeholder = Знайти в налаштуваннях
+    .style = width: 15.4em
 
 ## Settings UI Search Results
 

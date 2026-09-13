@@ -25,5 +25,5 @@ edit-vcard-dialog-accept-button = Sekles
 edit-vcard-dialog-cancel-button = Sefsex
     .accesskey = S
 account-manager-server-default-icon =
-    .title = Amiḍan amezwer
     .alt = Tignit n yitri
+    .title = Amiḍan amezwer

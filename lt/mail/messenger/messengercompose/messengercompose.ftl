@@ -86,8 +86,8 @@ disable-attachment-reminder-menu-item =
     .label = Išjungti priminimą apie priedą šiam laiškui.
 find-replace-button =
     .label = Pakeisti…
-    .accesskey = x
     .tooltiptext = Rodyti teksto paieškos ir keitimo langą
+    .accesskey = x
 # Variables:
 # $identity - identity address that would otherwise be used
 compose-custom-from-address-placeholder = Įrašykite pasirinktinį siuntėjo adresą, kuris bus naudojamas vietoj { $identity }
@@ -104,9 +104,6 @@ compose-blocked-content-preferences-accesskey = s
 # $url - URL of the blocked resource
 compose-unblock-resource =
     .label = Atblokuoti { $url }
-
-## Send Format
-
 
 ## Addressing widget
 
@@ -161,20 +158,20 @@ ctrl-cmd-shift-pretty-prefix =
 trigger-attachment-picker-key = A
 toggle-attachment-pane-key = M
 menuitem-toggle-attachment-pane =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
     .label = Priedų polangis
     .accesskey = P
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
 toolbar-button-add-attachment =
     .label = Pridėti
     .tooltiptext = Pridėti ({ ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key })
 menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Failas (-ai)…
     .accesskey = F
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 context-menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Prisegti failą (-us)…
     .accesskey = f
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 
 ## Variables:
 ## $count (Number) - Number of files being dropped onto the composer.
@@ -219,9 +216,6 @@ default-delete-cmd =
     .label = Pašalinti
     .accesskey = š
 
-## Encryption
-
-
 ## Addressing Area
 
 to-address-row-label =
@@ -252,22 +246,7 @@ attachment-reminder-keywords-msg =
        *[other] Rasta { $count } su priedu susijusių reikšminių žodžių:
     }
 
-## Editing
-
-
-# Tools
-
-
 ## Filelink
-
-
-# Placeholder file
-
-
-# Template
-
-
-# Messages
 
 cloud-file-authentication-error-title = Klaida nustatant tapatumą
 # Variables:
@@ -340,9 +319,3 @@ cloud-file-uploaded-tooltip = Failas įkeltas į „{ $provider }“
 # Variables:
 # $provider - name of the online storage service
 cloud-file-attach-picker-title = Pridedamų per „{ $provider }“ failų parinkimas
-
-## Link Preview
-
-
-## Dictionary selection popup
-

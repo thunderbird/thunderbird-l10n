@@ -86,8 +86,8 @@ disable-attachment-reminder-menu-item =
     .label = Çaktivizo kujtuesin e bashkëngjitjeve për mesazhin e tanishëm
 find-replace-button =
     .label = Zëvendësoni…
-    .accesskey = v
     .tooltiptext = Shfaqni dialogun Gjej dhe Zëvendëso
+    .accesskey = v
 # Variables:
 # $identity - identity address that would otherwise be used
 compose-custom-from-address-placeholder = Jepni për fushën Nga adresë të përshtatur për t’u përdorur në vend të { $identity }
@@ -185,24 +185,24 @@ ctrl-cmd-shift-pretty-prefix =
 trigger-attachment-picker-key = A
 toggle-attachment-pane-key = M
 menuitem-toggle-attachment-pane =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
     .label = Kuadrat Bashkëngjitjesh
     .accesskey = K
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
 toolbar-button-add-attachment =
     .label = Bashkëngjitni
     .tooltiptext = Shtoni një Bashkëngjitje ({ ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key })
 add-attachment-notification-reminder2 =
     .label = Shtoni Bashkëngjitje…
-    .accesskey = B
     .tooltiptext = { toolbar-button-add-attachment.tooltiptext }
+    .accesskey = B
 menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Kartelë(a)…
     .accesskey = a
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 context-menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Bashkëngjitni Kartelë(a)…
     .accesskey = B
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 # Note: Do not translate the term 'vCard'.
 context-menuitem-attach-vcard =
     .label = vCard-i im
@@ -329,12 +329,12 @@ smime-cert-issue-notification-multi =
     }
 key-notification-disable-encryption =
     .label = Mos e Fshehtëzo
-    .accesskey = s
     .tooltiptext = Çaktivizo fshehtëzim skaj-më-skaj
+    .accesskey = s
 key-notification-resolve =
     .label = Zgjidhini…
-    .accesskey = Z
     .tooltiptext = Hapni Asistentin e Kyçeve OpenPGP
+    .accesskey = Z
 can-encrypt-smime-notification = Është i mundur fshehtëzim S/MIME skaj-më-skaj.
 can-encrypt-openpgp-notification = Është i mundur fshehtëzim OpenPGP skaj-më-skaj.
 can-e2e-encrypt-button =
@@ -347,9 +347,9 @@ to-address-row-label =
     .value = Për
 #   $key (String) - the shortcut key for this field
 show-to-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Fushë Për
     .accesskey = P
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-to-row-button text.
 show-to-row-extra-menuitem =
@@ -362,9 +362,9 @@ cc-address-row-label =
     .value = Cc
 #   $key (String) - the shortcut key for this field
 show-cc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Fushë “Cc”
     .accesskey = C
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-cc-row-button text.
 show-cc-row-extra-menuitem =
@@ -377,9 +377,9 @@ bcc-address-row-label =
     .value = Bcc
 #   $key (String) - the shortcut key for this field
 show-bcc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Fushë “Bcc”
     .accesskey = B
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-bcc-row-button text.
 show-bcc-row-extra-menuitem =
@@ -439,9 +439,6 @@ attachment-reminder-keywords-msg =
 
 ## Editing
 
-
-# Tools
-
 compose-tool-button-remove-text-styling =
     .tooltiptext = Hiq Stilizim Teksti
 
@@ -450,9 +447,6 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = Ngarkuar te një llogari Filelink e panjohur.
-
-# Placeholder file
-
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - Bashkëngjitje Filelink
@@ -460,9 +454,6 @@ cloud-file-placeholder-title = { $filename } - Bashkëngjitje Filelink
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = Kartela { $filename } qe bashkëngjitur si një lidhje Filelink. Mund të shkarkohet prej lidhjes më poshtë.
-
-# Template
-
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -500,9 +491,6 @@ cloud-file-template-link = Lidhje:
 cloud-file-template-password-protected-link = Lidhje e Mbrojtur Me Fjalëkalim:
 cloud-file-template-expiry-date = Datë Skadimi:
 cloud-file-template-download-limit = Kufi Shkarkimesh:
-
-# Messages
-
 cloud-file-connection-error-title = Gabim Lidhjeje
 # Variables:
 # $provider (string) - name of the online storage service that reported the error

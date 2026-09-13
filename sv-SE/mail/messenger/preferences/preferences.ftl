@@ -286,9 +286,9 @@ offline-compact-folder-automatically =
 compact-folder-size =
     .value = MB totalt
 
-## Note: The entities use-cache-before and use-cache-after appear on a single
+## Note: The entities use-cache-before and use-temp-storage-after appear on a single
 ## line in preferences as follows:
-## use-cache-before [ textbox for cache size in MB ] use-cache-after
+## use-cache-before [ textbox for cache size in MB ] use-temp-storage-after
 
 use-cache-before =
     .value = Använd upp till
@@ -393,8 +393,8 @@ view-attachments-inline =
     .label = Visa bilagor inline
     .accesskey = V
 
-## Note: This will concatenate to "After displaying for [___] seconds",
-## using (mark-read-delay) and a number (seconds-label).
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
 
 mark-read-delay =
     .label = Efter att ha visats i
@@ -588,9 +588,9 @@ enable-cloud-share =
 cloud-share-size =
     .value = MB
 add-cloud-account =
+    .defaultlabel = Lägg till…
     .label = Lägg till…
     .accesskey = L
-    .defaultlabel = Lägg till…
 remove-cloud-account =
     .label = Ta bort
     .accesskey = T
@@ -919,8 +919,8 @@ chat-variant-label =
 # is the name of the CSS property. It is intended only to adjust the element's width.
 # Do not translate.
 search-preferences-input2 =
-    .style = width: 15.4em
     .placeholder = Hitta i inställningar
+    .style = width: 15.4em
 managed-notice = { -brand-short-name } hanteras av ditt företag.
 
 ## Settings UI Search Results

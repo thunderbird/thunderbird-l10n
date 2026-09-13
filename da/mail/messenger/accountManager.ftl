@@ -27,8 +27,8 @@ edit-vcard-dialog-accept-button = Gem
 edit-vcard-dialog-cancel-button = Annuller
     .accesskey = A
 account-manager-server-default-icon =
-    .title = Standardkonto
     .alt = Stjerneikon
+    .title = Standardkonto
 outgoing-server-section-name = Udgående server
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = Udgående serverindstillinger

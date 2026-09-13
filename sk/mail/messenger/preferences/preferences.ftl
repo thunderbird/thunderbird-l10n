@@ -290,9 +290,9 @@ offline-compact-folder-automatically =
 compact-folder-size =
     .value = MB
 
-## Note: The entities use-cache-before and use-cache-after appear on a single
+## Note: The entities use-cache-before and use-temp-storage-after appear on a single
 ## line in preferences as follows:
-## use-cache-before [ textbox for cache size in MB ] use-cache-after
+## use-cache-before [ textbox for cache size in MB ] use-temp-storage-after
 
 use-cache-before =
     .value = Vyhradiť do
@@ -397,8 +397,8 @@ view-attachments-inline =
     .label = Zobrazovať prílohy ako súčasť textu
     .accesskey = x
 
-## Note: This will concatenate to "After displaying for [___] seconds",
-## using (mark-read-delay) and a number (seconds-label).
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
 
 mark-read-delay =
     .label = Po
@@ -592,9 +592,9 @@ enable-cloud-share =
 cloud-share-size =
     .value = MB
 add-cloud-account =
+    .defaultlabel = Pridať…
     .label = Pridať…
     .accesskey = P
-    .defaultlabel = Pridať…
 remove-cloud-account =
     .label = Odstrániť
     .accesskey = O
@@ -923,8 +923,8 @@ chat-variant-label =
 # is the name of the CSS property. It is intended only to adjust the element's width.
 # Do not translate.
 search-preferences-input2 =
-    .style = width: 15.4em
     .placeholder = Hľadať v nastaveniach
+    .style = width: 15.4em
 managed-notice = { -brand-short-name } je spravovaný vašou organizáciou.
 
 ## Settings UI Search Results

@@ -86,8 +86,8 @@ disable-attachment-reminder-menu-item =
     .label = Zakázat připomenutí o příloze pro tuto zprávu
 find-replace-button =
     .label = Nahradit…
-    .accesskey = a
     .tooltiptext = Zobrazí dialog pro nalezení a náhradu
+    .accesskey = a
 # Variables:
 # $identity - identity address that would otherwise be used
 compose-custom-from-address-placeholder = Zadejte vlastní adresu odesílatele místo { $identity }
@@ -187,24 +187,24 @@ ctrl-cmd-shift-pretty-prefix =
 trigger-attachment-picker-key = A
 toggle-attachment-pane-key = M
 menuitem-toggle-attachment-pane =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
     .label = Lišta příloh
     .accesskey = p
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
 toolbar-button-add-attachment =
     .label = Připojit
     .tooltiptext = Přidat přílohu ({ ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key })
 add-attachment-notification-reminder2 =
     .label = Připojit přílohu…
-    .accesskey = a
     .tooltiptext = { toolbar-button-add-attachment.tooltiptext }
+    .accesskey = a
 menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Soubor…
     .accesskey = S
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 context-menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Připojit soubor…
     .accesskey = s
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 # Note: Do not translate the term 'vCard'.
 context-menuitem-attach-vcard =
     .label = Moje vizitka vCard
@@ -334,12 +334,12 @@ smime-cert-issue-notification-multi =
     }
 key-notification-disable-encryption =
     .label = Nešifrovat
-    .accesskey = N
     .tooltiptext = Vypne koncové šifrování
+    .accesskey = N
 key-notification-resolve =
     .label = Vyřešit…
-    .accesskey = y
     .tooltiptext = Otevře asistenta klíčů OpenPGP
+    .accesskey = y
 can-encrypt-smime-notification = Koncové šifrování S/MIME je dostupné.
 can-encrypt-openpgp-notification = Koncové šifrování OpenPGP je dostupné.
 can-e2e-encrypt-button =
@@ -352,9 +352,9 @@ to-address-row-label =
     .value = Komu
 #   $key (String) - the shortcut key for this field
 show-to-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Pole Komu
     .accesskey = K
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-to-row-button text.
 show-to-row-extra-menuitem =
@@ -367,9 +367,9 @@ cc-address-row-label =
     .value = Kopie
 #   $key (String) - the shortcut key for this field
 show-cc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Pole Kopie
     .accesskey = i
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-cc-row-button text.
 show-cc-row-extra-menuitem =
@@ -382,9 +382,9 @@ bcc-address-row-label =
     .value = Skrytá kopie
 #   $key (String) - the shortcut key for this field
 show-bcc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Pole Skrytá kopie
     .accesskey = S
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-bcc-row-button text.
 show-bcc-row-extra-menuitem =
@@ -449,9 +449,6 @@ attachment-reminder-keywords-msg =
 
 ## Editing
 
-
-# Tools
-
 compose-tool-button-remove-text-styling =
     .tooltiptext = Odebrat formátování textu
 
@@ -460,9 +457,6 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = Nahráno do neznámého účtu úložiště.
-
-# Placeholder file
-
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - soubor poslaný přes úložiště
@@ -470,9 +464,6 @@ cloud-file-placeholder-title = { $filename } - soubor poslaný přes úložišt�
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = Soubor { $filename } byl poslán přes úložiště. Stáhnout ho můžete z odkazu níže.
-
-# Template
-
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -511,9 +502,6 @@ cloud-file-template-link = Odkaz:
 cloud-file-template-password-protected-link = Odkaz chráněný heslem:
 cloud-file-template-expiry-date = Datum vypršení platnosti:
 cloud-file-template-download-limit = Omezení počtu stažení:
-
-# Messages
-
 cloud-file-connection-error-title = Chyba spojení
 # Variables:
 # $provider (string) - name of the online storage service that reported the error

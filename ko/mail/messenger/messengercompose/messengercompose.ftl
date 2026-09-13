@@ -86,8 +86,8 @@ disable-attachment-reminder-menu-item =
     .label = 이 메시지에 첨부된 알림 해제
 find-replace-button =
     .label = 바꾸기…
-    .accesskey = l
     .tooltiptext = 찾아 바꾸기 창 보여주기
+    .accesskey = l
 # Variables:
 # $identity - identity address that would otherwise be used
 compose-custom-from-address-placeholder = { $identity } 대신 사용할 보낸 사람 주소 입력
@@ -184,24 +184,24 @@ ctrl-cmd-shift-pretty-prefix =
 trigger-attachment-picker-key = A
 toggle-attachment-pane-key = M
 menuitem-toggle-attachment-pane =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
     .label = 첨부 창
     .accesskey = m
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
 toolbar-button-add-attachment =
     .label = 첨부
     .tooltiptext = 첨부파일 추가 ({ ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key })
 add-attachment-notification-reminder2 =
     .label = 첨부 파일 추가…
-    .accesskey = A
     .tooltiptext = { toolbar-button-add-attachment.tooltiptext }
+    .accesskey = A
 menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = 파일…
     .accesskey = F
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 context-menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = 첨부 파일…
     .accesskey = F
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 # Note: Do not translate the term 'vCard'.
 context-menuitem-attach-vcard =
     .label = 내 vCard
@@ -313,12 +313,12 @@ smime-cert-issue-notification-single = 종단 간 암호화를 위해 { $addr }�
 smime-cert-issue-notification-multi = 종단 간 암호화를 위해 수신자 { $count }명의 인증서 문제를 해결해야 합니다.
 key-notification-disable-encryption =
     .label = 암호화하지 말 것
-    .accesskey = D
     .tooltiptext = 종단 간 암호화 비활성화
+    .accesskey = D
 key-notification-resolve =
     .label = 해결…
-    .accesskey = R
     .tooltiptext = OpenPGP 키 도우미 열기
+    .accesskey = R
 can-encrypt-smime-notification = S/MIME 종단 간 암호화가 가능합니다.
 can-encrypt-openpgp-notification = OpenPGP 종단 간 암호화가 가능합니다.
 can-e2e-encrypt-button =
@@ -331,9 +331,9 @@ to-address-row-label =
     .value = 받는 사람
 #   $key (String) - the shortcut key for this field
 show-to-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = 받는 사람 필드
     .accesskey = T
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-to-row-button text.
 show-to-row-extra-menuitem =
@@ -346,9 +346,9 @@ cc-address-row-label =
     .value = 참조
 #   $key (String) - the shortcut key for this field
 show-cc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = 참조 필드
     .accesskey = C
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-cc-row-button text.
 show-cc-row-extra-menuitem =
@@ -361,9 +361,9 @@ bcc-address-row-label =
     .value = 숨은 참조
 #   $key (String) - the shortcut key for this field
 show-bcc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = 숨은 참조 필드
     .accesskey = B
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-bcc-row-button text.
 show-bcc-row-extra-menuitem =
@@ -409,9 +409,6 @@ attachment-reminder-keywords-msg = { $count }개의 첨부 파일 키워드 발�
 
 ## Editing
 
-
-# Tools
-
 compose-tool-button-remove-text-styling =
     .tooltiptext = 텍스트 스타일 제거
 
@@ -420,9 +417,6 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = 알 수 없는 Filelink 계정에 업로드되었습니다.
-
-# Placeholder file
-
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - Filelink 첨부 파일
@@ -430,9 +424,6 @@ cloud-file-placeholder-title = { $filename } - Filelink 첨부 파일
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = { $filename } 파일이 Filelink로 첨부되었습니다. 아래 링크에서 다운로드할 수 있습니다.
-
-# Template
-
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -466,9 +457,6 @@ cloud-file-template-link = 링크:
 cloud-file-template-password-protected-link = 비밀번호로 보호된 링크:
 cloud-file-template-expiry-date = 만료일:
 cloud-file-template-download-limit = 다운로드 제한:
-
-# Messages
-
 cloud-file-connection-error-title = 연결 오류
 # Variables:
 # $provider (string) - name of the online storage service that reported the error

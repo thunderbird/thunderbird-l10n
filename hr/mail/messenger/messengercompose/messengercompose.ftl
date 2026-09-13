@@ -86,8 +86,8 @@ disable-attachment-reminder-menu-item =
     .label = Onemogući podsjetnik za privitak za trenutnu poruku
 find-replace-button =
     .label = Zamijeni…
-    .accesskey = Z
     .tooltiptext = Prikaži pronađi i zamijeni prozor
+    .accesskey = Z
 # Variables:
 # $identity - identity address that would otherwise be used
 compose-custom-from-address-placeholder = Unesite prilagođenu Šalje adresu koja će se koristiti umjesto { $identity }
@@ -187,24 +187,24 @@ ctrl-cmd-shift-pretty-prefix =
 trigger-attachment-picker-key = A
 toggle-attachment-pane-key = M
 menuitem-toggle-attachment-pane =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
     .label = Okno privitka
     .accesskey = p
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
 toolbar-button-add-attachment =
     .label = Priloži
     .tooltiptext = Dodajte privitak ({ ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key })
 add-attachment-notification-reminder2 =
     .label = Dodaj privitak…
-    .accesskey = a
     .tooltiptext = { toolbar-button-add-attachment.tooltiptext }
+    .accesskey = a
 menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Datoteke…
     .accesskey = D
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 context-menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Priloži datoteke…
     .accesskey = P
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 # Note: Do not translate the term 'vCard'.
 context-menuitem-attach-vcard =
     .label = Moj vCard
@@ -337,12 +337,12 @@ smime-cert-issue-notification-multi =
     }
 key-notification-disable-encryption =
     .label = Nemoj šifrirati
-    .accesskey = N
     .tooltiptext = Isključi obostrano šifriranje
+    .accesskey = N
 key-notification-resolve =
     .label = Razriješi…
-    .accesskey = R
     .tooltiptext = Otvori OpenPGP pomoćnika za ključeve
+    .accesskey = R
 can-encrypt-smime-notification = S/MIME obostrano šifriranje je moguće.
 can-encrypt-openpgp-notification = OpenPGP obostrano šifriranje je moguće.
 can-e2e-encrypt-button =
@@ -355,9 +355,9 @@ to-address-row-label =
     .value = Prima
 #   $key (String) - the shortcut key for this field
 show-to-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Prima polje
     .accesskey = P
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-to-row-button text.
 show-to-row-extra-menuitem =
@@ -370,9 +370,9 @@ cc-address-row-label =
     .value = Cc
 #   $key (String) - the shortcut key for this field
 show-cc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Cc polje
     .accesskey = C
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-cc-row-button text.
 show-cc-row-extra-menuitem =
@@ -385,9 +385,9 @@ bcc-address-row-label =
     .value = Bcc
 #   $key (String) - the shortcut key for this field
 show-bcc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Bcc polje
     .accesskey = B
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-bcc-row-button text.
 show-bcc-row-extra-menuitem =
@@ -451,9 +451,6 @@ attachment-reminder-keywords-msg =
 
 ## Editing
 
-
-# Tools
-
 compose-tool-button-remove-text-styling =
     .tooltiptext = Ukloni oblikovanje teksta
 
@@ -462,9 +459,6 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = Učitano na nepoznati Filelink račun.
-
-# Placeholder file
-
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - Filelink privitak
@@ -472,9 +466,6 @@ cloud-file-placeholder-title = { $filename } - Filelink privitak
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = Datoteka { $filename } priložena je kao Filelink privitak. Može se preuzeti s donje poveznice.
-
-# Template
-
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -513,9 +504,6 @@ cloud-file-template-link = Poveznica:
 cloud-file-template-password-protected-link = Poveznica zaštićena lozinkom:
 cloud-file-template-expiry-date = Datum isteka:
 cloud-file-template-download-limit = Ograničenje preuzimanja:
-
-# Messages
-
 cloud-file-connection-error-title = Greška u povezivanju
 # Variables:
 # $provider (string) - name of the online storage service that reported the error

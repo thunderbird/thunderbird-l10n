@@ -86,8 +86,8 @@ disable-attachment-reminder-menu-item =
     .label = Kkes armad n usmekti n umedday deg izen amiran
 find-replace-button =
     .label = Semselsi...
-    .accesskey = m
     .tooltiptext = Sken tanaka n Aff u Semlselsi
+    .accesskey = m
 # Variables:
 # $identity - identity address that would otherwise be used
 compose-custom-from-address-placeholder = Sekcem tansa n umazan ara tesqedceḍ deg umḍiq n { $identity }
@@ -182,24 +182,24 @@ ctrl-cmd-shift-pretty-prefix =
 trigger-attachment-picker-key = A
 toggle-attachment-pane-key = M
 menuitem-toggle-attachment-pane =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
     .label = Agalis n yifuyla yeddan
     .accesskey = f
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
 toolbar-button-add-attachment =
     .label = Seddu
     .tooltiptext = Rnu amedday ({ ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key })
 add-attachment-notification-reminder2 =
     .label = Rnu amsedday…
-    .accesskey = R
     .tooltiptext = { toolbar-button-add-attachment.tooltiptext }
+    .accesskey = R
 menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Afaylu(i-a)…
     .accesskey = A
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 context-menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Seddu afaylu (i-a)…
     .accesskey = A
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 # Note: Do not translate the term 'vCard'.
 context-menuitem-attach-vcard =
     .label = vCard inu
@@ -319,12 +319,12 @@ smime-cert-issue-notification-multi =
     }
 key-notification-disable-encryption =
     .label = Ur ttuwgelhin ara
-    .accesskey = U
     .tooltiptext = Sens awgelhen seg yixef ɣer yixef
+    .accesskey = U
 key-notification-resolve =
     .label = Fru…
-    .accesskey = F
     .tooltiptext = Ldi tallalt n tsarut n OpenPGP
+    .accesskey = F
 can-e2e-encrypt-button =
     .label = Wgelhen
     .accesskey = W
@@ -335,9 +335,9 @@ to-address-row-label =
     .value = Ɣer
 #   $key (String) - the shortcut key for this field
 show-to-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Urti i
     .accesskey = U
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-to-row-button text.
 show-to-row-extra-menuitem =
@@ -350,9 +350,9 @@ cc-address-row-label =
     .value = Anɣ.I
 #   $key (String) - the shortcut key for this field
 show-cc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }
     .label = Urti n Anɣ.I
     .accesskey = U
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }
 # No acceltext should be shown.
 # The label should match the show-cc-row-button text.
 show-cc-row-extra-menuitem =
@@ -365,9 +365,9 @@ bcc-address-row-label =
     .value = Anɣ.Uff.I
 #   $key (String) - the shortcut key for this field
 show-bcc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }
     .label = Urti n Anɣ.Uff.I
     .accesskey = F
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }
 # No acceltext should be shown.
 # The label should match the show-bcc-row-button text.
 show-bcc-row-extra-menuitem =
@@ -406,23 +406,14 @@ attachment-reminder-keywords-msg =
 
 ## Editing
 
-
-# Tools
-
 compose-tool-button-remove-text-styling =
     .tooltiptext = Kkes aɣanib n uḍris
 
 ## Filelink
 
-
-# Placeholder file
-
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - Amedday Filelink
-
-# Template
-
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -460,9 +451,6 @@ cloud-file-template-link = Aseɣwen:
 cloud-file-template-password-protected-link = Aseɣwen yettummesten s wawal uffir:
 cloud-file-template-expiry-date = Azemz i ifaten:
 cloud-file-template-download-limit = Talast n usader:
-
-# Messages
-
 cloud-file-connection-error-title = Tuccḍa deg tuqqna
 # Variables:
 # $provider (string) - name of the online storage service that reported the error

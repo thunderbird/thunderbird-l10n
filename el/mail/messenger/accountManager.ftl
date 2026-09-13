@@ -27,8 +27,8 @@ edit-vcard-dialog-accept-button = Αποθήκευση
 edit-vcard-dialog-cancel-button = Ακύρωση
     .accesskey = κ
 account-manager-server-default-icon =
-    .title = Προεπιλεγμένος λογαριασμός
     .alt = Εικονίδιο-αστέρι
+    .title = Προεπιλεγμένος λογαριασμός
 outgoing-server-section-name = Διακομιστής εξερχομένων
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = Ρυθμίσεις διακομιστή εξερχομένων

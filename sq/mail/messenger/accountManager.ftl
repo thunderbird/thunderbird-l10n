@@ -26,8 +26,8 @@ edit-vcard-dialog-accept-button = Ruaje
 edit-vcard-dialog-cancel-button = Anuloje
     .accesskey = A
 account-manager-server-default-icon =
-    .title = Llogari parazgjedhje
     .alt = Ikonë yll
+    .title = Llogari parazgjedhje
 outgoing-server-section-name = Shërbyes Dërgues
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = Rregullime për Shërbyesin Dërgues

@@ -27,8 +27,8 @@ edit-vcard-dialog-accept-button = Speichern
 edit-vcard-dialog-cancel-button = Abbrechen
     .accesskey = b
 account-manager-server-default-icon =
-    .title = Standardkonto
     .alt = Sternsymbol
+    .title = Standardkonto
 outgoing-server-section-name = Postausgangs-Server
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = Einstellungen für den Postausgangs-Server

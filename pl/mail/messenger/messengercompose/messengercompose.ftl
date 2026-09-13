@@ -86,8 +86,8 @@ disable-attachment-reminder-menu-item =
     .label = Wyłącz przypomnienie o brakujących załącznikach dla bieżącej wiadomości
 find-replace-button =
     .label = Zamień…
-    .accesskey = m
     .tooltiptext = Wyświetl okno wyszukiwania i zastępowania
+    .accesskey = m
 # Variables:
 # $identity - identity address that would otherwise be used
 compose-custom-from-address-placeholder = Wprowadź własny adres nadawcy używany zamiast „{ $identity }”
@@ -187,24 +187,24 @@ ctrl-cmd-shift-pretty-prefix =
 trigger-attachment-picker-key = A
 toggle-attachment-pane-key = M
 menuitem-toggle-attachment-pane =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
     .label = Lista załączników
     .accesskey = L
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
 toolbar-button-add-attachment =
     .label = Załącz
     .tooltiptext = Dodaj pliki do tej wiadomości ({ ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key })
 add-attachment-notification-reminder2 =
     .label = Dodaj załącznik…
-    .accesskey = D
     .tooltiptext = { toolbar-button-add-attachment.tooltiptext }
+    .accesskey = D
 menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Plik…
     .accesskey = P
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 context-menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Załącz plik…
     .accesskey = Z
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 # Note: Do not translate the term 'vCard'.
 context-menuitem-attach-vcard =
     .label = Moja wizytówka vCard
@@ -337,12 +337,12 @@ smime-cert-issue-notification-multi =
     }
 key-notification-disable-encryption =
     .label = Nie szyfruj
-    .accesskey = N
     .tooltiptext = Wyłącz szyfrowanie „end-to-end”
+    .accesskey = N
 key-notification-resolve =
     .label = Rozwiąż…
-    .accesskey = R
     .tooltiptext = Otwórz asystenta kluczy OpenPGP
+    .accesskey = R
 can-encrypt-smime-notification = Możliwe jest szyfrowanie S/MIME typu „end-to-end”.
 can-encrypt-openpgp-notification = Możliwe jest szyfrowanie OpenPGP typu „end-to-end”.
 can-e2e-encrypt-button =
@@ -355,9 +355,9 @@ to-address-row-label =
     .value = Do
 #   $key (String) - the shortcut key for this field
 show-to-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Pole „Do”
     .accesskey = D
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-to-row-button text.
 show-to-row-extra-menuitem =
@@ -370,9 +370,9 @@ cc-address-row-label =
     .value = Kopia
 #   $key (String) - the shortcut key for this field
 show-cc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Pole „Kopia”
     .accesskey = K
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-cc-row-button text.
 show-cc-row-extra-menuitem =
@@ -385,9 +385,9 @@ bcc-address-row-label =
     .value = Ukryta kopia
 #   $key (String) - the shortcut key for this field
 show-bcc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Pole „Ukryta kopia”
     .accesskey = U
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-bcc-row-button text.
 show-bcc-row-extra-menuitem =
@@ -451,9 +451,6 @@ attachment-reminder-keywords-msg =
 
 ## Editing
 
-
-# Tools
-
 compose-tool-button-remove-text-styling =
     .tooltiptext = Usuń styl tekstu
 
@@ -462,9 +459,6 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = Przesłano do nieznanego konta serwisu przechowywania plików.
-
-# Placeholder file
-
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } – Załącznik w serwisie przechowywania plików
@@ -472,9 +466,6 @@ cloud-file-placeholder-title = { $filename } – Załącznik w serwisie przecho
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = Plik { $filename } został załączony jako odnośnik do serwisu przechowywania plików. Można go pobrać za pomocą poniższego odnośnika.
-
-# Template
-
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -513,9 +504,6 @@ cloud-file-template-link = Odnośnik:
 cloud-file-template-password-protected-link = Odnośnik zabezpieczony hasłem:
 cloud-file-template-expiry-date = Data wygaśnięcia:
 cloud-file-template-download-limit = Ograniczenie pobierania:
-
-# Messages
-
 cloud-file-connection-error-title = Błąd połączenia
 # Variables:
 # $provider (string) - name of the online storage service that reported the error

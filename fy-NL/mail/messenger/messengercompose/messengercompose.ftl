@@ -86,8 +86,8 @@ disable-attachment-reminder-menu-item =
     .label = Omtinken foar bylage foar aktuele berjocht útskeakelje
 find-replace-button =
     .label = Ferfange…
-    .accesskey = f
     .tooltiptext = It dialoochfinster Sykje en ferfange toane
+    .accesskey = f
 # Variables:
 # $identity - identity address that would otherwise be used
 compose-custom-from-address-placeholder = Fier oanpast Fan-adres yn dat brûkt wurdt yn stee fan { $identity }
@@ -185,24 +185,24 @@ ctrl-cmd-shift-pretty-prefix =
 trigger-attachment-picker-key = A
 toggle-attachment-pane-key = M
 menuitem-toggle-attachment-pane =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
     .label = Bylagepaniel
     .accesskey = l
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
 toolbar-button-add-attachment =
     .label = Keppelje
     .tooltiptext = In bylage tafoegje ({ ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key })
 add-attachment-notification-reminder2 =
     .label = Bylage taheakje…
-    .accesskey = B
     .tooltiptext = { toolbar-button-add-attachment.tooltiptext }
+    .accesskey = B
 menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Bestân(nen)…
     .accesskey = B
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 context-menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Bestân(nen) keppelje…
     .accesskey = B
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 # Note: Do not translate the term 'vCard'.
 context-menuitem-attach-vcard =
     .label = Myn vCard
@@ -329,12 +329,12 @@ smime-cert-issue-notification-multi =
     }
 key-notification-disable-encryption =
     .label = Net fersiferje
-    .accesskey = i
     .tooltiptext = End-to-end-fersifering útskeakelje
+    .accesskey = i
 key-notification-resolve =
     .label = Oplosse…
-    .accesskey = l
     .tooltiptext = De OpenPGP-kaaiassistint iepenje
+    .accesskey = l
 can-encrypt-smime-notification = S/MIME end-to-end-fersifering is mooglik.
 can-encrypt-openpgp-notification = OpenPGP end-to-end-fersifering is mooglik.
 can-e2e-encrypt-button =
@@ -347,9 +347,9 @@ to-address-row-label =
     .value = Oan
 #   $key (String) - the shortcut key for this field
 show-to-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Oan-fjild
     .accesskey = O
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-to-row-button text.
 show-to-row-extra-menuitem =
@@ -362,9 +362,9 @@ cc-address-row-label =
     .value = Cc
 #   $key (String) - the shortcut key for this field
 show-cc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Cc-fjild
     .accesskey = C
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-cc-row-button text.
 show-cc-row-extra-menuitem =
@@ -377,9 +377,9 @@ bcc-address-row-label =
     .value = Bcc
 #   $key (String) - the shortcut key for this field
 show-bcc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Bcc-fjild
     .accesskey = B
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-bcc-row-button text.
 show-bcc-row-extra-menuitem =
@@ -439,9 +439,6 @@ attachment-reminder-keywords-msg =
 
 ## Editing
 
-
-# Tools
-
 compose-tool-button-remove-text-styling =
     .tooltiptext = Tekststyl fuortsmite
 
@@ -450,9 +447,6 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = Oplaad nei in ûnbekende Filelink-account.
-
-# Placeholder file
-
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } – Filelink-bylage
@@ -460,9 +454,6 @@ cloud-file-placeholder-title = { $filename } – Filelink-bylage
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = It bestân { $filename } is as Filelink tafoege. It is te downloaden fia ûndersteande keppeling.
-
-# Template
-
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -500,9 +491,6 @@ cloud-file-template-link = Keppeling:
 cloud-file-template-password-protected-link = Mei wachtwurd befeilige keppeling:
 cloud-file-template-expiry-date = Ferrindatum:
 cloud-file-template-download-limit = Downloadlimyt:
-
-# Messages
-
 cloud-file-connection-error-title = Ferbiningsflater
 # Variables:
 # $provider (string) - name of the online storage service that reported the error

@@ -27,8 +27,8 @@ edit-vcard-dialog-accept-button = Salva
 edit-vcard-dialog-cancel-button = Annulla
     .accesskey = A
 account-manager-server-default-icon =
-    .title = Account predefinito
     .alt = Icona a forma di stella
+    .title = Account predefinito
 outgoing-server-section-name = Server posta in uscita
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = Impostazioni server in uscita

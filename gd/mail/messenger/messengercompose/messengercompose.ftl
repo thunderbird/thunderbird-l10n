@@ -86,8 +86,8 @@ disable-attachment-reminder-menu-item =
     .label = Cuir an cuimhneachan mu cheanglachain à comas san teachdaireachd seo
 find-replace-button =
     .label = Cuir ’na àite...
-    .accesskey = x
     .tooltiptext = Seall an còmhradh leis an urrainn dhut rudan a lorg 's a chur 'nan àite
+    .accesskey = x
 # Variables:
 # $identity - identity address that would otherwise be used
 compose-custom-from-address-placeholder = Cuir a‑steach seòladh “O” gnàthaichte an àite { $identity }
@@ -189,24 +189,24 @@ ctrl-cmd-shift-pretty-prefix =
 trigger-attachment-picker-key = A
 toggle-attachment-pane-key = M
 menuitem-toggle-attachment-pane =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
     .label = Leòsan nan ceanglachan
     .accesskey = s
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
 toolbar-button-add-attachment =
     .label = Ceangail ris
     .tooltiptext = Cuir ceanglachan ris ({ ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key })
 add-attachment-notification-reminder2 =
     .label = Cuir ceanglachan ris…
-    .accesskey = a
     .tooltiptext = { toolbar-button-add-attachment.tooltiptext }
+    .accesskey = a
 menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Faidhl(ichean)…
     .accesskey = F
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 context-menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Cuir faidhle/faidhlichean ris…
     .accesskey = f
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 # Note: Do not translate the term 'vCard'.
 context-menuitem-attach-vcard =
     .label = A’ vCard agam
@@ -345,12 +345,12 @@ smime-cert-issue-notification-multi =
     }
 key-notification-disable-encryption =
     .label = Na crioptaich
-    .accesskey = N
     .tooltiptext = Cuir an crioptachadh ceann ri ceann à comas
+    .accesskey = N
 key-notification-resolve =
     .label = Fuasgail…
-    .accesskey = F
     .tooltiptext = Fosgail cuidiche iuchraichean OpenPGP
+    .accesskey = F
 can-encrypt-smime-notification = ’S urrainn dhut crioptachadh ceann ri ceann S/MIME a chleachdadh.
 can-encrypt-openpgp-notification = ’S urrainn dhut crioptachadh ceann ri ceann OpenPGP a chleachdadh.
 can-e2e-encrypt-button =
@@ -363,9 +363,9 @@ to-address-row-label =
     .value = Gu
 #   $key (String) - the shortcut key for this field
 show-to-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = An raon “Gu”
     .accesskey = G
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-to-row-button text.
 show-to-row-extra-menuitem =
@@ -378,9 +378,9 @@ cc-address-row-label =
     .value = Cc
 #   $key (String) - the shortcut key for this field
 show-cc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = An raon “Cc”
     .accesskey = C
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-cc-row-button text.
 show-cc-row-extra-menuitem =
@@ -393,9 +393,9 @@ bcc-address-row-label =
     .value = Bcc
 #   $key (String) - the shortcut key for this field
 show-bcc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = An raon “Bcc”
     .accesskey = B
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-bcc-row-button text.
 show-bcc-row-extra-menuitem =
@@ -462,9 +462,6 @@ attachment-reminder-keywords-msg =
 
 ## Editing
 
-
-# Tools
-
 compose-tool-button-remove-text-styling =
     .tooltiptext = Thoir air falbh stoidhleadh an teacsa
 
@@ -473,9 +470,6 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = Chaidh a luchdadh suas gu cunntas FileLink nach aithne dhuinn.
-
-# Placeholder file
-
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } – ceanglachan FileLink
@@ -483,9 +477,6 @@ cloud-file-placeholder-title = { $filename } – ceanglachan FileLink
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = Chaidh am faidhle { $filename } a cheangal ris mar FileLink. Gabhaidh a luchdadh a-nuas aig a’ cheangal gu h-ìosal.
-
-# Template
-
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -525,9 +516,6 @@ cloud-file-template-link = Ceangal:
 cloud-file-template-password-protected-link = Ceangal a tha fo dhìon facail-fhaire:
 cloud-file-template-expiry-date = Falbhaidh an ùine air:
 cloud-file-template-download-limit = Crìoch an luchdaidh a-nuas:
-
-# Messages
-
 cloud-file-connection-error-title = Mearachd leis a’ cheangal
 # Variables:
 # $provider (string) - name of the online storage service that reported the error

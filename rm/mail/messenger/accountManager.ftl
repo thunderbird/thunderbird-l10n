@@ -26,8 +26,8 @@ edit-vcard-dialog-accept-button = Memorisar
 edit-vcard-dialog-cancel-button = Interrumper
     .accesskey = I
 account-manager-server-default-icon =
-    .title = Conto da standard
     .alt = Icona da staila
+    .title = Conto da standard
 outgoing-server-section-name = Server da sortida
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = Parameters dal server da sortida

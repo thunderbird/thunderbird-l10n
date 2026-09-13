@@ -86,8 +86,8 @@ disable-attachment-reminder-menu-item =
     .label = Bu iletide eklenti hatırlatıcısını devre dışı bırak
 find-replace-button =
     .label = Değiştir…
-    .accesskey = D
     .tooltiptext = Bul ve Değiştir penceresini göster
+    .accesskey = D
 # Variables:
 # $identity - identity address that would otherwise be used
 compose-custom-from-address-placeholder = { $identity } yerine kullanılacak Kimden adresini yazın
@@ -185,24 +185,24 @@ ctrl-cmd-shift-pretty-prefix =
 trigger-attachment-picker-key = A
 toggle-attachment-pane-key = M
 menuitem-toggle-attachment-pane =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
     .label = Ek bölmesi
     .accesskey = m
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
 toolbar-button-add-attachment =
     .label = Ekle
     .tooltiptext = Dosya ekle ({ ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key })
 add-attachment-notification-reminder2 =
     .label = Dosya ekle…
-    .accesskey = D
     .tooltiptext = { toolbar-button-add-attachment.tooltiptext }
+    .accesskey = D
 menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Dosya…
     .accesskey = D
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 context-menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Dosya ekle…
     .accesskey = D
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 # Note: Do not translate the term 'vCard'.
 context-menuitem-attach-vcard =
     .label = vCard’ım
@@ -329,12 +329,12 @@ smime-cert-issue-notification-multi =
     }
 key-notification-disable-encryption =
     .label = Şifreleme yapma
-    .accesskey = f
     .tooltiptext = Uçtan uca şifrelemeyi kapat
+    .accesskey = f
 key-notification-resolve =
     .label = Çöz…
-    .accesskey = z
     .tooltiptext = OpenPGP anahtar yardımcısını aç
+    .accesskey = z
 can-encrypt-smime-notification = S/MIME uçtan uca şifreleme mümkün.
 can-encrypt-openpgp-notification = OpenPGP uçtan uca şifreleme mümkün.
 can-e2e-encrypt-button =
@@ -347,9 +347,9 @@ to-address-row-label =
     .value = Kime
 #   $key (String) - the shortcut key for this field
 show-to-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Kime alanı
     .accesskey = K
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-to-row-button text.
 show-to-row-extra-menuitem =
@@ -362,9 +362,9 @@ cc-address-row-label =
     .value = Cc
 #   $key (String) - the shortcut key for this field
 show-cc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Cc alanı
     .accesskey = C
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-cc-row-button text.
 show-cc-row-extra-menuitem =
@@ -377,9 +377,9 @@ bcc-address-row-label =
     .value = Bcc
 #   $key (String) - the shortcut key for this field
 show-bcc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Bcc alanı
     .accesskey = B
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-bcc-row-button text.
 show-bcc-row-extra-menuitem =
@@ -439,9 +439,6 @@ attachment-reminder-keywords-msg =
 
 ## Editing
 
-
-# Tools
-
 compose-tool-button-remove-text-styling =
     .tooltiptext = Metin stilini kaldır
 
@@ -450,9 +447,6 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = Bilinmeyen bir Filelink hesabına yüklendi.
-
-# Placeholder file
-
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - Filelink Eki
@@ -460,9 +454,6 @@ cloud-file-placeholder-title = { $filename } - Filelink Eki
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = { $filename } dosyası Filelink olarak eklendi. Dosyayı aşağıdaki bağlantıdan indirebilirsiniz.
-
-# Template
-
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -500,9 +491,6 @@ cloud-file-template-link = Bağlantı:
 cloud-file-template-password-protected-link = Parola korumalı bağlantı:
 cloud-file-template-expiry-date = Bitiş tarihi:
 cloud-file-template-download-limit = İndirme sınırı:
-
-# Messages
-
 cloud-file-connection-error-title = Bağlantı Hatası
 # Variables:
 # $provider (string) - name of the online storage service that reported the error

@@ -86,8 +86,8 @@ disable-attachment-reminder-menu-item =
     .label = Вимкнути нагадування вкладення для цього повідомлення
 find-replace-button =
     .label = Замінити…
-    .accesskey = З
     .tooltiptext = Показати діалог пошуку й заміни
+    .accesskey = З
 # Variables:
 # $identity - identity address that would otherwise be used
 compose-custom-from-address-placeholder = Введіть власну адресу відправника, яка буде використовуватись замість { $identity }
@@ -187,24 +187,24 @@ ctrl-cmd-shift-pretty-prefix =
 trigger-attachment-picker-key = A
 toggle-attachment-pane-key = M
 menuitem-toggle-attachment-pane =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
     .label = Панель вкладень
     .accesskey = П
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
 toolbar-button-add-attachment =
     .label = Вкласти
     .tooltiptext = Додати вкладення ({ ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key })
 add-attachment-notification-reminder2 =
     .label = Додати вкладення…
-    .accesskey = о
     .tooltiptext = { toolbar-button-add-attachment.tooltiptext }
+    .accesskey = о
 menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Файл(и)
     .accesskey = Ф
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 context-menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Вкласти файл(и)
     .accesskey = л
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 # Note: Do not translate the term 'vCard'.
 context-menuitem-attach-vcard =
     .label = Моя vCard
@@ -337,12 +337,12 @@ smime-cert-issue-notification-multi =
     }
 key-notification-disable-encryption =
     .label = Не шифрувати
-    .accesskey = Н
     .tooltiptext = Вимкнути наскрізне шифрування
+    .accesskey = Н
 key-notification-resolve =
     .label = Розв'язати
-    .accesskey = Р
     .tooltiptext = Відкрити менеджер керування ключами OpenPGP
+    .accesskey = Р
 can-encrypt-smime-notification = Можливе наскрізне шифрування S/MIME.
 can-encrypt-openpgp-notification = Можливе наскрізне шифрування OpenPGP.
 can-e2e-encrypt-button =
@@ -355,9 +355,9 @@ to-address-row-label =
     .value = Кому
 #   $key (String) - the shortcut key for this field
 show-to-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Поле кому
     .accesskey = П
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-to-row-button text.
 show-to-row-extra-menuitem =
@@ -370,9 +370,9 @@ cc-address-row-label =
     .value = Копія
 #   $key (String) - the shortcut key for this field
 show-cc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Поле копія
     .accesskey = к
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-cc-row-button text.
 show-cc-row-extra-menuitem =
@@ -385,9 +385,9 @@ bcc-address-row-label =
     .value = Прихована копія
 #   $key (String) - the shortcut key for this field
 show-bcc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Поле прихована копія
     .accesskey = л
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-bcc-row-button text.
 show-bcc-row-extra-menuitem =
@@ -451,9 +451,6 @@ attachment-reminder-keywords-msg =
 
 ## Editing
 
-
-# Tools
-
 compose-tool-button-remove-text-styling =
     .tooltiptext = Вилучити стилі тексту
 
@@ -462,9 +459,6 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = Вивантажено в невідомий обліковий запис Filelink.
-
-# Placeholder file
-
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } – вкладення Filelink
@@ -472,9 +466,6 @@ cloud-file-placeholder-title = { $filename } – вкладення Filelink
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = Файл { $filename } був вкладений як Filelink. Його можна завантажити за посиланням внизу.
-
-# Template
-
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -513,9 +504,6 @@ cloud-file-template-link = Посилання:
 cloud-file-template-password-protected-link = Захищене паролем посилання
 cloud-file-template-expiry-date = Кінцева дата:
 cloud-file-template-download-limit = Ліміт завантаження:
-
-# Messages
-
 cloud-file-connection-error-title = Помилка з'єднання
 # Variables:
 # $provider (string) - name of the online storage service that reported the error

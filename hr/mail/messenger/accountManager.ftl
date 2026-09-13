@@ -27,8 +27,8 @@ edit-vcard-dialog-accept-button = Spremi
 edit-vcard-dialog-cancel-button = Odustani
     .accesskey = O
 account-manager-server-default-icon =
-    .title = Zadani račun
     .alt = Ikona zvjezdice
+    .title = Zadani račun
 outgoing-server-section-name = Odlazni poslužitelj
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = Postavke odlaznog poslužitelja

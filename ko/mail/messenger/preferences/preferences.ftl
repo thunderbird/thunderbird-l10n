@@ -290,9 +290,9 @@ offline-compact-folder-automatically =
 compact-folder-size =
     .value = MB (총)
 
-## Note: The entities use-cache-before and use-cache-after appear on a single
+## Note: The entities use-cache-before and use-temp-storage-after appear on a single
 ## line in preferences as follows:
-## use-cache-before [ textbox for cache size in MB ] use-cache-after
+## use-cache-before [ textbox for cache size in MB ] use-temp-storage-after
 
 use-cache-before =
     .value = 페이지 캐시
@@ -397,8 +397,8 @@ view-attachments-inline =
     .label = 첨부 파일 바로 보기
     .accesskey = V
 
-## Note: This will concatenate to "After displaying for [___] seconds",
-## using (mark-read-delay) and a number (seconds-label).
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
 
 mark-read-delay =
     .label = 다음 시간이 경과되었을 시 읽은 것으로 표시:
@@ -592,9 +592,9 @@ enable-cloud-share =
 cloud-share-size =
     .value = MB
 add-cloud-account =
+    .defaultlabel = 추가…
     .label = 추가…
     .accesskey = A
-    .defaultlabel = 추가…
 remove-cloud-account =
     .label = 삭제
     .accesskey = R
@@ -923,8 +923,8 @@ chat-variant-label =
 # is the name of the CSS property. It is intended only to adjust the element's width.
 # Do not translate.
 search-preferences-input2 =
-    .style = width: 15.4em
     .placeholder = 설정에서 찾기
+    .style = width: 15.4em
 managed-notice = { -brand-short-name }는 사용자의 조직에서 관리하고 있습니다.
 
 ## Settings UI Search Results

@@ -23,5 +23,5 @@ edit-vcard-dialog-accept-button = Išsaugoti
 edit-vcard-dialog-cancel-button = Atšaukti
     .accesskey = A
 account-manager-server-default-icon =
-    .title = Numatytoji paskyra
     .alt = Žvaigždutės piktograma
+    .title = Numatytoji paskyra

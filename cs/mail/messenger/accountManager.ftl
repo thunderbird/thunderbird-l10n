@@ -31,8 +31,8 @@ edit-vcard-dialog-accept-button = Uložit
 edit-vcard-dialog-cancel-button = Zrušit
     .accesskey = Z
 account-manager-server-default-icon =
-    .title = Výchozí účet
     .alt = Ikona hvězdy
+    .title = Výchozí účet
 outgoing-server-section-name = Odchozí server
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = Nastavení odchozího serveru

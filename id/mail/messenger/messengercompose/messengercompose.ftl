@@ -86,8 +86,8 @@ disable-attachment-reminder-menu-item =
     .label = Nonaktifkan pengingat lampiran untuk pesan saat ini
 find-replace-button =
     .label = Ganti…
-    .accesskey = x
     .tooltiptext = Tampilkan dialog Temukan dan Ganti
+    .accesskey = x
 # Variables:
 # $identity - identity address that would otherwise be used
 compose-custom-from-address-placeholder = Masukkan alamat Dari sesuai pesanan untuk digunakan, alih-alih { $identity }
@@ -182,24 +182,24 @@ ctrl-cmd-shift-pretty-prefix =
 trigger-attachment-picker-key = L
 toggle-attachment-pane-key = M
 menuitem-toggle-attachment-pane =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix } { toggle-attachment-pane-key }
     .label = Panel Lampiran
     .accesskey = m
-    .acceltext = { ctrl-cmd-shift-pretty-prefix } { toggle-attachment-pane-key }
 toolbar-button-add-attachment =
     .label = Lampirkan
     .tooltiptext = Tambahkan Lampiran ({ ctrl-cmd-shift-pretty-prefix } { trigger-attachment-picker-key })
 add-attachment-notification-reminder2 =
     .label = Tambahkan Lampiran…
-    .accesskey = a
     .tooltiptext = { toolbar-button-add-attachment.tooltiptext }
+    .accesskey = a
 menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix } { trigger-attachment-picker-key }
     .label = Berkas…
     .accesskey = B
-    .acceltext = { ctrl-cmd-shift-pretty-prefix } { trigger-attachment-picker-key }
 context-menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix } { trigger-attachment-picker-key }
     .label = Lampirkan Berkas…
     .accesskey = B
-    .acceltext = { ctrl-cmd-shift-pretty-prefix } { trigger-attachment-picker-key }
 # Note: Do not translate the term 'vCard'.
 context-menuitem-attach-vcard =
     .label = vCard saya
@@ -305,12 +305,12 @@ smime-cert-issue-notification-single = Enkripsi ujung-ke-ujung memerlukan penyel
 smime-cert-issue-notification-multi = Enkripsi ujung-ke-ujung memerlukan penyelesaian masalah sertifikat untuk { $count } penerima.
 key-notification-disable-encryption =
     .label = Jangan Enkripsi
-    .accesskey = J
     .tooltiptext = Nonaktifkan enkripsi ujung ke ujung
+    .accesskey = J
 key-notification-resolve =
     .label = Selesaikan…
-    .accesskey = S
     .tooltiptext = Buka Asisten Kunci OpenPGP
+    .accesskey = S
 can-encrypt-smime-notification = Enkripsi ujung-ke-ujung S/MIME dimungkinkan.
 can-encrypt-openpgp-notification = Enkripsi ujung-ke-ujung OpenPGP dimungkinkan.
 can-e2e-encrypt-button =
@@ -323,9 +323,9 @@ to-address-row-label =
     .value = Kepada
 #   $key (String) - the shortcut key for this field
 show-to-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix } { $key }
     .label = Bidang Kepada
     .accesskey = K
-    .acceltext = { ctrl-cmd-shift-pretty-prefix } { $key }
 # No acceltext should be shown.
 # The label should match the show-to-row-button text.
 show-to-row-extra-menuitem =
@@ -338,9 +338,9 @@ cc-address-row-label =
     .value = Cc
 #   $key (String) - the shortcut key for this field
 show-cc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix } { $key }
     .label = Bidang Cc
     .accesskey = C
-    .acceltext = { ctrl-cmd-shift-pretty-prefix } { $key }
 # No acceltext should be shown.
 # The label should match the show-cc-row-button text.
 show-cc-row-extra-menuitem =
@@ -353,9 +353,9 @@ bcc-address-row-label =
     .value = Bcc
 #   $key (String) - the shortcut key for this field
 show-bcc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Bidang Bcc
     .accesskey = B
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-bcc-row-button text.
 show-bcc-row-extra-menuitem =
@@ -399,9 +399,6 @@ attachment-reminder-keywords-msg = Ditemukan { $count } kata kunci tentang lampi
 
 ## Editing
 
-
-# Tools
-
 compose-tool-button-remove-text-styling =
     .tooltiptext = Hapus Gaya Teks
 
@@ -410,9 +407,6 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = Diunggah ke akun Filelink yang tidak dikenal.
-
-# Placeholder file
-
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - Lampiran Filelink
@@ -420,9 +414,6 @@ cloud-file-placeholder-title = { $filename } - Lampiran Filelink
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = Berkas { $filename } dilampirkan sebagai Tautan Berkas. Itu dapat diunduh dari tautan di bawah ini.
-
-# Template
-
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -456,9 +447,6 @@ cloud-file-template-link = Tautan:
 cloud-file-template-password-protected-link = Tautan Dilindungi Sandi:
 cloud-file-template-expiry-date = Tanggal Kedaluwarsa:
 cloud-file-template-download-limit = Batas Unduh:
-
-# Messages
-
 cloud-file-connection-error-title = Galat Koneksi
 # Variables:
 # $provider (string) - name of the online storage service that reported the error

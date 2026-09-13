@@ -86,8 +86,8 @@ disable-attachment-reminder-menu-item =
     .label = Vô hiệu hóa lời nhắc đính kèm cho thư hiện tại
 find-replace-button =
     .label = Thay thế…
-    .accesskey = x
     .tooltiptext = Hiển thị hộp thoại Tìm và thay thế
+    .accesskey = x
 # Variables:
 # $identity - identity address that would otherwise be used
 compose-custom-from-address-placeholder = Nhập tùy chỉnh địa chỉ Từ sẽ được sử dụng thay vì { $identity }
@@ -183,24 +183,24 @@ ctrl-cmd-shift-pretty-prefix =
 trigger-attachment-picker-key = A
 toggle-attachment-pane-key = M
 menuitem-toggle-attachment-pane =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
     .label = Ngăn đính kèm
     .accesskey = m
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
 toolbar-button-add-attachment =
     .label = Đính kèm
     .tooltiptext = Thêm một đính kèm ({ ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key })
 add-attachment-notification-reminder2 =
     .label = Thêm đính kèm…
-    .accesskey = A
     .tooltiptext = { toolbar-button-add-attachment.tooltiptext }
+    .accesskey = A
 menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Tập tin…
     .accesskey = F
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 context-menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Đính kèm tập tin…
     .accesskey = F
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
 # Note: Do not translate the term 'vCard'.
 context-menuitem-attach-vcard =
     .label = vCard của tôi
@@ -305,12 +305,12 @@ smime-cert-issue-notification-single = Mã hóa đầu cuối yêu cầu giải 
 smime-cert-issue-notification-multi = Mã hóa đầu cuối yêu cầu giải quyết các vấn đề về chứng chỉ đối với { $count } người nhận.
 key-notification-disable-encryption =
     .label = Không mã hóa
-    .accesskey = D
     .tooltiptext = Tắt mã hóa đầu cuối
+    .accesskey = D
 key-notification-resolve =
     .label = Giải quyết…
-    .accesskey = R
     .tooltiptext = Mở trợ lý khóa OpenPGP
+    .accesskey = R
 can-encrypt-smime-notification = Có thể mã hóa đầu cuối S/MIME.
 can-encrypt-openpgp-notification = Có thể mã hóa đầu cuối OpenPGP.
 can-e2e-encrypt-button =
@@ -323,9 +323,9 @@ to-address-row-label =
     .value = Đến
 #   $key (String) - the shortcut key for this field
 show-to-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Trường Đến
     .accesskey = T
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-to-row-button text.
 show-to-row-extra-menuitem =
@@ -338,9 +338,9 @@ cc-address-row-label =
     .value = Cc
 #   $key (String) - the shortcut key for this field
 show-cc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Trường Cc
     .accesskey = C
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-cc-row-button text.
 show-cc-row-extra-menuitem =
@@ -353,9 +353,9 @@ bcc-address-row-label =
     .value = Bcc
 #   $key (String) - the shortcut key for this field
 show-bcc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
     .label = Trường Bcc
     .accesskey = B
-    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
 # No acceltext should be shown.
 # The label should match the show-bcc-row-button text.
 show-bcc-row-extra-menuitem =
@@ -402,9 +402,6 @@ attachment-reminder-keywords-msg = Đã tìm thấy { $count } từ khóa đính
 
 ## Editing
 
-
-# Tools
-
 compose-tool-button-remove-text-styling =
     .tooltiptext = Xóa kiểu định dạng văn bản
 
@@ -413,9 +410,6 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = Đã tải lên tài khoản Filelink không xác định.
-
-# Placeholder file
-
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - Đính kèm Filelink
@@ -423,9 +417,6 @@ cloud-file-placeholder-title = { $filename } - Đính kèm Filelink
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = Tập tin { $filename } đã được đính kèm dưới dạng Filelink. Nó có thể được tải xuống từ liên kết bên dưới.
-
-# Template
-
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -462,9 +453,6 @@ cloud-file-template-link = Liên kết:
 cloud-file-template-password-protected-link = Liên kết được bảo vệ bằng mật khẩu:
 cloud-file-template-expiry-date = Ngày hết hạn:
 cloud-file-template-download-limit = Giới hạn tải xuống:
-
-# Messages
-
 cloud-file-connection-error-title = Lỗi kết nối
 # Variables:
 # $provider (string) - name of the online storage service that reported the error

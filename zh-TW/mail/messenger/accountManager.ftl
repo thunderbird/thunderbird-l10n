@@ -27,8 +27,8 @@ edit-vcard-dialog-accept-button = 儲存
 edit-vcard-dialog-cancel-button = 取消
     .accesskey = C
 account-manager-server-default-icon =
-    .title = 預設帳號
     .alt = 星形圖示
+    .title = 預設帳號
 outgoing-server-section-name = 寄件伺服器
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = 寄件伺服器設定

@@ -27,8 +27,8 @@ edit-vcard-dialog-accept-button = Cadw
 edit-vcard-dialog-cancel-button = Diddymu
     .accesskey = D
 account-manager-server-default-icon =
-    .title = Cyfrif rhagosodedig
     .alt = Eicon seren
+    .title = Cyfrif rhagosodedig
 outgoing-server-section-name = Gweinydd Anfon
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = Gosodiadau'r Gweinydd Anfon

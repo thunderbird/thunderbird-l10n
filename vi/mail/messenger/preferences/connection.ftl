@@ -11,12 +11,12 @@ connection-dns-over-https-url-item-default =
     .tooltiptext = Sử dụng URL mặc định để xử lý DNS qua HTTPS
 connection-dns-over-https-url-custom =
     .label = Tùy chỉnh
-    .accesskey = C
     .tooltiptext =
         Nhập URL ưa thích của bạn để giải quyết DNS qua HTTPS
         Nhập URL ưa thích của bạn để giải quyết DNS qua HTTPS
         Nhập URL ưa thích của bạn để giải quyết DNS qua HTTPS
         Nhập URL ưa thích của bạn để xử lí DNS qua HTTPS
+    .accesskey = C
 connection-dns-over-https-custom-label = Tùy chỉnh
 connection-dialog-title = Cài đặt kết nối
 disable-extension-button = Vô hiệu hóa tiện ích mở rộng
@@ -80,8 +80,8 @@ no-proxy-example = Ví dụ: .mozilla.org, .net.nz, 192.168.1.0/24
 connection-proxy-noproxy-localhost-desc-2 = Kết nối đến localhost, 127.0.0.1/8, và ::1 không bao giờ dùng proxy.
 proxy-password-prompt =
     .label = Không yêu cầu xác nhận nếu đã lưu mật khẩu
-    .accesskey = i
     .tooltiptext = Tùy chọn này âm thầm xác thực bạn với proxy khi bạn đã lưu thông tin đăng nhập cho họ. Bạn sẽ được nhắc nếu xác thực thất bại.
+    .accesskey = i
 proxy-remote-dns =
     .label = DNS của proxy khi dùng SOCKS v5
     .accesskey = d
