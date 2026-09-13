@@ -9,12 +9,19 @@ fonts-label-default =
     .label = Default ({ $name })
 fonts-label-default-unnamed =
     .label = Default
+fonts-character-set-legend =
+    .value = Character set:
+    .accesskey = t
+font-main-style-label =
+    .value = Main font style:
+    .accesskey = f
 fonts-language-legend =
     .value = Fonts for:
     .accesskey = t
 fonts-proportional-label =
     .value = Proportional:
     .accesskey = P
+text-font-options-dialog-title = Text & font options
 
 ## Languages
 
@@ -93,6 +100,9 @@ font-size-monospace-label =
 font-serif-label =
     .value = Serif:
     .accesskey = S
+sans-serif-font-label =
+    .value = Sans-serif font:
+    .accesskey = n
 font-sans-serif-label =
     .value = Sans-serif:
     .accesskey = n
@@ -113,6 +123,13 @@ use-document-fonts-checkbox =
     .accesskey = o
 use-fixed-width-plain-checkbox =
     .label = Use fixed width font for plain text messages
+    .accesskey = x
+message-font-permissions-legend = Message font permissions
+allow-incoming-fonts-checkbox =
+    .label = Allow incoming messages to use their own fonts
+    .accesskey = o
+display-fixed-width-plain-checkbox =
+    .label = Display plain text messages in a fixed-width font
     .accesskey = x
 
 ## Language settings

@@ -75,6 +75,7 @@ send-undisclosed-recipients = undisclosed-recipients
 # Variables:
 # $recipient - recipient address
 smtp-error-illegal-local-part = There are non-ASCII characters in the local part of the recipient address { $recipient } and your server does not support SMTPUTF8. Please change this address and try again.
+smtp-error-no-recipients = No recipients were specified for SMTP delivery.
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = The Outgoing server (SMTP) { $hostname } does not seem to support encrypted passwords. If you just set up the account, try changing the ‘Authentication method’ in ‘Account Settings | Outgoing server (SMTP)’ to ‘Password, transmitted insecurely’. If it used to work but now doesn’t, you may be susceptible to getting your password stolen.

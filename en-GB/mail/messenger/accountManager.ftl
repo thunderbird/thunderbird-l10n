@@ -38,3 +38,4 @@ panel-settings-spam = Spam Settings
 # Variables:
 # $account (String) - The account name.
 spam-settings-alert-message = Problem detected with the spam settings for { $account }. Would you like to review them before saving the changes?
+open-settings-sidebar-button = Settings

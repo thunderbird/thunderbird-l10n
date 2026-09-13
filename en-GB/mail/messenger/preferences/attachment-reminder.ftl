@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 attachment-reminder-dialog-title = Attachment Reminder Keywords
+attachment-reminder-description = Show a reminder for missing attachments if the email contains matching keywords.
 attachment-reminder-label = { -brand-short-name } will warn you about missing attachments if you're about to send an email containing one of these keywords.
 keyword-new-button =
     .label = New…
