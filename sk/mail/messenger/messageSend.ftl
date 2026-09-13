@@ -24,3 +24,68 @@ send-error-smtp-interrupted = Správa nemohla byť odoslaná, pretože pripojeni
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = Správa nemohla byť odoslaná, pretože časový limit pripojenia k serveru pre odosielanie pošty (SMTP) { $hostname } vypršal. Skúste to znova.
 send-error-title = Chyba pri odosielaní správy
+send-progress-assembling-mail-information = Zostavujú sa informácie o pošte…
+send-progress-assembling-message = Správa sa zostavuje…
+send-progress-creating-mail-message = Vytvára sa e‑mailová správa…
+send-progress-assembling-message-done = Správa sa zostavuje… Hotovo
+send-progress-copy-complete = Kopírovanie dokončené
+send-progress-copy-failed = Kopírovanie zlyhalo
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-sent-locally =
+    Vaša správa bola odoslaná, no kópia nebola uložená do priečinka s konceptami ({ $folder }) kvôli chybe siete alebo prístupu k súboru.
+    Môžete to skúsiť znova alebo uložiť správu lokálne do { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-draft-locally =
+    Váš koncept nebol skopírovaný do priečinka s konceptami ({ $folder }) kvôli chybe siete alebo prístupu k súboru.
+    Môžete to skúsiť znova alebo uložiť koncept lokálne do { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-template-locally =
+    Vaša šablóna nebola skopírovaná do priečinka so šablónami ({ $folder }) kvôli chybe siete alebo prístupu k súboru.
+    Môžete to skúsiť znova alebo uložiť šablónu lokálne do { $localFolder }/{ $folder }-{ $account }.
+send-dialog-retry = &Znova
+send-progress-filter-complete = Filtrovanie dokončené.
+send-progress-filter-failed = Filtrovanie zlyhalo.
+send-error-filtering-message = Vaša správa bola odoslaná a uložená, ale pri spúšťaní filtrov na tejto správe sa vyskytla chyba.
+send-error-post-failed = Správu sa nepodarilo odoslať, pretože sa nepodarilo spojiť s diskusným serverom. Server môže byť neprístupný alebo odmieta spojenie. Overte si, že vaše nastavenie diskusného servera je správne a skúste správu odoslať znova.
+# Variables:
+# $size - formatted message size
+send-warning-large-message = Pozor! Chystáte sa odoslať správu s veľkosťou { $size }, ktorá môže prekročiť povolený limit poštového servera. Naozaj chcete pokračovať?
+# Variables:
+# $folder - destination folder name
+send-progress-copy-start = Správa sa kopíruje do priečinka { $folder }…
+send-progress-sending-message = Správa sa odosiela…
+send-later-error-title = Chyba pri odložení odoslania
+send-save-draft-error-title = Chyba pri ukladaní konceptu
+send-save-template-error-title = Chyba pri ukladaní šablóny
+# LOCALIZATION NOTE: This string must use only US-ASCII characters.
+send-undisclosed-recipients = utajeni adresati
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-no-ssl = Server pre odosielanie pošty (SMTP) { $hostname } zdá sa nepodporuje šifrované heslá. Ak ste si práve nastavili tento účet, skúste zmeniť nastavenie ‘Metóda overenia’ v okne ‘Nastavenia účtu | Server pre odosielanie pošty (SMTP)’ na ‘Heslo odosielané nezabezpečene’. Ak toto predtým fungovalo a teraz náhle prestalo, je možné, že sa niekto získal vaše heslo.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-ssl = Server pre odosielanie pošty (SMTP) { $hostname } zdá sa nepodporuje šifrované heslá. Ak ste si práve nastavili tento účet, skúste zmeniť nastavenie ‘Metóda overenia’ v okne ‘Nastavenia účtu | Server pre odosielanie pošty (SMTP)’ na ‘Normálne heslo’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-plain-to-encrypt = Server pre odosielanie pošty (SMTP) { $hostname } nepovoľuje nezašifrované heslá. Skúste zmeniť nastavenie ‘Metóda overenia’ v okne ‘Nastavenia účtu | Server pre odosielanie pošty (SMTP)’ na ‘Zašifrované heslo’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-failure = Nebolo možné overenie na serveri pre odosielanie pošty (SMTP) { $hostname }. Skontrolujte heslo a overte nastavenie ‘Metóda overenia’ v okne ‘Nastavenia účtu | Server pre odosielanie pošty (SMTP)’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-gssapi = Tiket Kerberos/GSSAPI nebol serverom pre odosielanie pošty (SMTP) { $hostname } akceptovaný. Skontrolujte, či ste prihlásený k doméne Kerberos/GSSAPI realm.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-mechanism-not-supported = Server pre odosielanie pošty (SMTP) { $hostname } nepodporuje zvolenú metódu overenia. Zmeňte nastavenie ‘Metóda overenia’ v okne ‘Nastavenia účtu | Server pre odosielanie pošty (SMTP)’.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-from-command = Chyba pri odosielaní e‑mailovej správy. Server odpovedal: { $serverResponse }.  Overte nastavenie vašej e‑mailovej adresy v nastaveniach účtu a skúste to znova.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-data-command = Chyba servera pre odosielanie pošty (SMTP) počas odosielania e‑mailovej správy. Server odpovedal: { $serverResponse }
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-message = Chyba počas odosielania e‑mailovej správy. Server odpovedal: { $serverResponse }. Skontrolujte správu a skúste znova.
