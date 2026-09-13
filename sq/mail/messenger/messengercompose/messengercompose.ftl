@@ -10,8 +10,88 @@ compose-message-attachment-name = Mesazh i Bashkëngjitur
 
 ## Compose window
 
+compose-initialization-error-title = Hartim Mesazhi
+compose-initialization-error = Ndodhi një gabim gjatë krijimit të dritares për hartim mesazhi. Ju lutemi, riprovoni.
 compose-default-subject = (pa subjekt)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Shkruani: { $subject } - { $brand }
+compose-save-message-title = Ruaje Mesazhin
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Të ruhet ky mesazh te dosja juaj e skicave ({ $folder }) dhe të mbyllet dritarja e Shkrimeve?
+compose-discard-changes-button = &Hidhi tej ndryshimet
+compose-send-confirm-title = Dërgojeni Mesazhin
+compose-send-confirm-prompt = Jeni i sigurt se jeni gati të dërgoni këtë mesazh?
+compose-send-confirm-button = Dërgoje
+compose-do-not-show-again = Mos ma shfaq më këtë kuti dialogu.
+compose-empty-subject-title = Kujtues Subjekti
+compose-empty-subject-prompt = Mesazhi juaj s’ka subjekt.
+compose-empty-subject-send-button = &Dërgoje Pa Subjekt
+compose-empty-subject-cancel-button = &Anuloje Dërgimin
+compose-newsgroups-not-supported-title = Grup Lajmesh i Pambuluar
+compose-newsgroups-not-supported = Kjo llogari mbulon vetëm marrës email-esh. Në vazhdofshi, grupet e lajmeve do të shpërfillen.
+compose-invalid-address-title = Adresë Marrësi e Pavlefshme
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } nuk është një adresë email e vlefshme, sepse nuk është e trajtës përdorues@strehë. Duhet ta ndreqni, përpara se ta dërgoni email-in.
+compose-quit-sending-title = Mesazhi Po Dërgohet
+compose-quit-saving-title = Po Ruhet Mesazhi
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } është në rrugë e sipër të dërgimit të një mesazhi.
+    Dëshironi të prisni deri sa të jetë dërguar mesazhi, para se të dilet, apo doni të dilet tani?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } është duke ruajtur mesazhin.
+    Dëshironi të prisni deri sa mesazhi të jetë ruajtur, para se të dilet, apo të dilet tani?
+compose-quit-button = &Dilni
+compose-wait-button = &Prit
 compose-attach-file-picker-title = Bashkëngjitni Kartelë(a)
+compose-attach-page-title = Ju lutemi, jepni një vendndodhje e cila të bashkëngjitet
+compose-attach-page-prompt = Faqe Web (URL):
+compose-message-part-attachment-name = Pjesë e Bashkëngjitur Mesazhi
+compose-attachment-bucket-attach-files-tooltip = Bashkëngjitni Kartelë(a)
+compose-attachment-bucket-clear-selection-tooltip = Spastroje Përzgjedhjen
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = Kartela { $filename } nuk ekziston, ndaj nuk mund t’i bashkëngjitej mesazhit.
+compose-file-attachment-error-title = Bashkëngjitje Kartele
+compose-message-file-error-title = Kartelë Mesazhi
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = Kartela { $filename } nuk ekziston, ndaj s’mund të përdoret si lëndë mesazhi.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = Kartela { $filename } s’u ngarkua dot si lëndë mesazhi.
+compose-save-success-title = Ruajeni Mesazhin
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Mesazhi juaj u ruajt te dosja { $folder } nën { $server }.
+compose-rename-attachment-title = Riemërtoni Bashkëngjitjen
+compose-rename-attachment-prompt = Emër i ri bashkëngjitjeje:
+find-replace-button =
+    .label = Zëvendësoni…
+    .accesskey = v
+    .tooltiptext = Shfaqni dialogun Gjej dhe Zëvendëso
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Jepni për fushën Nga adresë të përshtatur për t’u përdorur në vend të { $identity }
+compose-custom-from-address-title = Adresë e Përshtatur për Fushën Nga
+compose-custom-from-address-warning = Nëse furnizuesi i shërbimit tuaj email e mbulon, Adresë e Përshtatur për Fushën Nga ju lejon të bëni një ndryshim të vogël, sa për një herë, te Adresa Nga, pa u dashur të krijoni një identitet të ri te Rregullime Llogarie. Për shembull, nëse adresa juaj Nga është Gjon Dema <gjon@example.com>, mund të doni ta ndryshoni si Gjon Dema <gjon+dema@example.com> ose Gjon <gjon@example.com>.
+compose-custom-from-address-ignore = Mos më njofto më për këtë
+compose-blocked-content-options-button = Mundësi
+compose-blocked-content-options-accesskey = M
+compose-blocked-content-preferences-button = Parapëlqime
+compose-blocked-content-preferences-accesskey = P
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Zhbllokoje { $url }
 
 ## Send Format
 
@@ -77,6 +157,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Zgjeroje Listën
     .accesskey = Z
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = Hiq Adresa { $field }
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Jeni i sigurt se doni të hiqen adresa { $field }?
+compose-remove-address-row-button = Hiqi
 
 ## Attachment widget
 
@@ -434,6 +521,34 @@ cloud-file-account-error-title = Gabim Llogarie Filelink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = S’u arrit të përditësohej bashkëngjitja Filelink { $filename }, ngaqë llogaria Filelink për të është fshirë.
+cloud-file-authentication-error-title = Gabim Mirëfilltësimi
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = S’arrihet të kryhet mirëfilltësimi te { $provider }.
+cloud-file-upload-error-title = Gabim Ngarkimi
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = S’arrihet të ngarkohet { $filename } te { $provider }.
+cloud-file-quota-error-title = Gabim Kuotash
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Ngarkimi i { $filename } te { $provider } do të tejkalonte kuotat tuaja për hapësirë.
+cloud-file-size-error-title = Gabim Madhësie Kartele
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } tejkalon madhësinë maksimum për te { $provider }.
+cloud-file-unknown-error-title = Gabim i Panjohur
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Ndodhi një gabim i panjohur gjatë ndërlidhjes me { $provider }.
+cloud-file-deletion-error-title = Gabim Fshirjeje
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Pati një problem gjatë fshirjes { $filename } nga { $provider }.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
@@ -448,6 +563,33 @@ big-file-notification-text =
         [one] Kjo është kartelë e madhe. Mund të ishte më mirë të përdorej Filelink-u.
        *[other] Këto janë kartela të mëdha. Mund të ishte më mirë të përdorej Filelink-u.
     }
+big-file-learn-more-button =
+    .label = Mësoni Më Tepër…
+    .accesskey = M
+big-file-link-button =
+    .label = Lidhje
+    .accesskey = L
+big-file-ignore-button =
+    .label = Shpërfille
+    .accesskey = S
+big-file-choose-account-title = Zgjidhni Llogari
+big-file-choose-account-prompt = Zgjidhni një llogari reje ku të ngarkohet bashkëngjitja
+big-file-hide-notification-title = Mos i Ngarko Kartelat e Mia
+big-file-hide-notification-prompt = Nuk do të njoftoheni, nëse i bashkëngjitni këtij mesazhi të tjera kartela të mëdha.
+big-file-hide-notification-checkbox = Mos më njofto më mbi këtë.
+cloudfile-uploading-stop-button =
+    .label = Mos e shfaq më këtë
+    .accesskey = M
+cloud-file-privacy-warning = Lidhja u plotësua. Ju lutemi, mbani parasysh që bashkëngjitjet e lidhura mund të jenë të përdorshme nga personat që mund të shohin ose marrin me mend lidhjet.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Po ngarkohet tek { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = U ngarkua te { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Bashkëngjitni Kartelë(a) përmes { $provider }
 
 ## Link Preview
 
