@@ -10,6 +10,21 @@ compose-message-attachment-name = Message joint
 
 ## Compose window
 
+compose-empty-subject-title = Rappel de sujet
+compose-empty-subject-prompt = Votre message n’a pas de sujet.
+compose-empty-subject-send-button = &Envoyer sans sujet
+compose-empty-subject-cancel-button = &Annuler l’envoi
+compose-attachment-reminder-title = Rappel pour les pièces jointes
+compose-attachment-reminder-prompt = Avez-vous oublié de joindre un fichier ?
+compose-attachment-reminder-send-button = Non, envoyer maintenant
+compose-attachment-reminder-add-button = Oui
+compose-newsgroups-not-supported-title = Groupes de discussion non supportés
+compose-newsgroups-not-supported = Ce compte prend uniquement en charge les destinataires d’e-mails. En continuant, les groupes seront ignorés.
+remind-later-button =
+    .label = Me le rappeler plus tard
+    .accesskey = R
+disable-attachment-reminder-menu-item =
+    .label = Désactiver le rappel pour les pièces jointes pour le message actuel
 
 ## Send Format
 
