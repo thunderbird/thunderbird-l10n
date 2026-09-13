@@ -10,6 +10,23 @@ compose-message-attachment-name = Mensagem anexada
 
 ## Compose window
 
+compose-empty-subject-title = Lembrete de assunto
+compose-empty-subject-prompt = O assunto da mensagem está em branco.
+compose-empty-subject-send-button = &Enviar sem assunto
+compose-empty-subject-cancel-button = &Cancelar envio
+compose-attachment-reminder-title = Lembrete de anexos
+compose-attachment-reminder-prompt = Você esqueceu de adicionar um anexo?
+compose-attachment-reminder-send-button = Não, enviar agora
+compose-attachment-reminder-add-button = Sim, eu esqueci!
+compose-newsgroups-not-supported-title = Sem suporte a grupos de notícias
+compose-newsgroups-not-supported = Esta conta só suporta destinatários de email. Caso continue, os grupos de notícias serão ignorados.
+compose-rename-attachment-title = Renomear anexo
+compose-rename-attachment-prompt = Novo nome do anexo:
+remind-later-button =
+    .label = Lembrar mais tarde
+    .accesskey = L
+disable-attachment-reminder-menu-item =
+    .label = Desativar o lembrete de anexo para a mensagem atual
 
 ## Send Format
 
@@ -445,6 +462,27 @@ big-file-notification-text =
         [one] Esse é um arquivo grande. No lugar, seria melhor usar um anexo online.
        *[other] Esses são arquivos grandes. No lugar, seria melhor usar anexos online.
     }
+big-file-learn-more-button =
+    .label = Saiba mais…
+    .accesskey = m
+big-file-link-button =
+    .label = Link
+    .accesskey = L
+big-file-ignore-button =
+    .label = Ignorar
+    .accesskey = I
+big-file-choose-account-title = Selecionar conta
+big-file-choose-account-prompt = Escolha uma conta na nuvem para onde enviar o anexo
+big-file-hide-notification-title = Não envie meus arquivos
+big-file-hide-notification-prompt = Você não será notificado se anexar mais arquivos grandes nesta mensagem.
+big-file-hide-notification-checkbox = Nunca me notificar sobre isto novamente.
+cloud-file-privacy-warning = A vinculação está completa. Note que os anexos vinculados podem ser acessados por pessoas que puderem ver ou adivinhar os links.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Enviando para { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Enviado para { $provider }
 
 ## Link Preview
 
