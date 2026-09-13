@@ -37,6 +37,7 @@ compose-attachment-reminder-add-button = โอ้ ฉันลืมไป!
 compose-newsgroups-not-supported-title = ไม่รองรับกลุ่มข่าว
 compose-newsgroups-not-supported = บัญชีนี้รองรับผู้รับอีเมลเท่านั้น การดำเนินการต่อจะเป็นการเพิกเฉยกลุ่มข่าว
 compose-invalid-address-title = ที่อยู่ผู้รับไม่ถูกต้อง
+compose-no-recipients = ไม่ได้ระบุผู้รับ โปรดป้อนผู้รับหรือกลุ่มข่าวในพื้นที่การกำหนดที่อยู่
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address } ไม่ใช่ที่อยู่อีเมลที่ถูกต้องเพราะไม่ได้อยู่ในรูปแบบ user@host คุณต้องแก้ไขให้ถูกต้องก่อนส่งอีเมล
