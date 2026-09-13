@@ -36,6 +36,11 @@ compose-attachment-reminder-send-button = Mani, Titaq Wakami
 compose-attachment-reminder-add-button = ¡O, Je'!
 compose-newsgroups-not-supported-title = Man Yeruköch' ta Kimolaj Rutzijol
 compose-newsgroups-not-supported = Re rub'i' taqoya'l re' xa xe yeruköch' kik'ulunela' taqoya'l. We k'a nasamajij qa xkerepüx ri kimolaj rutzijol.
+compose-invalid-address-title = Man Okel ta ri Rochochib'al K'ulunel
+compose-no-recipients = Man xejikib'äx ta k'ulunela'. Tatz'ib'aj jun k'ulunel o kimolaj tzijol pa ri ruk'ojlem ochochib'äl.
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } majun ta chi rochochib'al taqoya'l ruma man niwachin ta achi'el winaq@k'uxasamaj. K'atzinel nab'ey nab'än ruk'ojlem richin natäq ri taqoya'l.
 compose-quit-sending-title = Tajin Nitaq Tzijol
 compose-quit-saving-title = Tajin Niyak Tzijol
 # Variables:
@@ -51,6 +56,9 @@ compose-quit-saving-prompt =
 compose-quit-button = &Tel
 compose-wait-button = &Toyob'ëx
 compose-attach-file-picker-title = Ti(ke)tz'aqatisäx Yakb'äl
+compose-attach-page-title = Tajikib'a' jun k'ojlib'äl richin nitz'aqatisäx
+compose-attach-page-prompt = Ruxaq Ajk'amaya'l (URL):
+compose-message-part-attachment-name = Ruperaj Taqoj Tzijol
 compose-attachment-bucket-attach-files-tooltip = Titz'aqatisäx Yakb'äl
 compose-attachment-bucket-clear-selection-tooltip = Tijosq'ïx Cha'onem
 # Variables:
