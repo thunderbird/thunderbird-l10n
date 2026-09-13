@@ -16,6 +16,7 @@ compose-default-subject = (без тэмы)
 # $subject - message subject
 # $brand - application name
 compose-window-title = Стварэнне паведамлення: { $subject } - { $brand }
+compose-save-message-title = Захаваць паведамленне
 # Variables:
 # $folder - configured drafts folder name
 compose-save-message-prompt = Захаваць гэта паведамленне ў вашай папцы чарнавікоў ({ $folder }) і закрыць акно «Стварыць новае паведамленне»?
