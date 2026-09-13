@@ -13,6 +13,10 @@ compose-message-attachment-name = Neges wedi'i Hatodi
 compose-send-confirm-title = Anfon Neges
 compose-send-confirm-prompt = Ydych chi'n siŵr eich bod yn barod i anfon y neges hon?
 compose-send-confirm-button = Anfon
+compose-do-not-show-again = Peidiwch â dangos y blwch deialog hwn i mi eto.
+compose-attachment-reminder-title = Atgoffa am Atodiad
+compose-attachment-reminder-prompt = Ydych chi wedi anghofio atodi atodiad?
+compose-quit-sending-title = Wrthi'n Anfon Neges
 compose-quit-saving-title = Cadw Neges
 # Variables:
 # $brand - application name
@@ -26,10 +30,40 @@ compose-quit-saving-prompt =
     Hoffech chi aros tan fod y neges wedi ei chadw cyn gadael neu gadael nawr?
 compose-quit-button = &Gadael
 compose-wait-button = &Aros
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = Nid yw ffeil { $filename } yn bodoli felly nid oedd modd ei hatodi i'r neges.
+compose-message-file-error-title = Ffeil Neges
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = Nid yw ffeil { $filename } yn bodoli ac nid oedd modd ei defnyddio fel corff neges.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = Nid oedd modd llwytho { $filename } fel corff neges.
+compose-save-success-title = Cadw Neges
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Mae eich neges wedi'i chadw i ffolder { $folder } o dan { $server }.
+compose-rename-attachment-title = Ailenwi Atodiad
+compose-rename-attachment-prompt = Enw newydd yr atodiad:
+remind-later-button =
+    .label = Atgoffa Fi yn Ddiweddarach
+    .accesskey = D
+disable-attachment-reminder-menu-item =
+    .label = Analluogwch atgoffwr atodiad ar gyfer y neges hon
 find-replace-button =
     .label = Amnewid…
     .accesskey = a
     .tooltiptext = Dangos y deialog Canfod ac Newid
+compose-blocked-content-options-button = Dewisiadau
+compose-blocked-content-options-accesskey = D
+compose-blocked-content-preferences-button = Dewisiadau
+compose-blocked-content-preferences-accesskey = e
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Dadrwystro { $url }
 
 ## Send Format
 
@@ -526,6 +560,9 @@ big-file-notification-text =
 cloudfile-uploading-stop-button =
     .label = Peidio dangos hwn eto
     .accesskey = P
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Atodi Ffeil(iau) drwy { $provider }
 
 ## Link Preview
 
