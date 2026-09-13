@@ -27,6 +27,9 @@ send-error-title = Feil ved sending av melding
 send-progress-assembling-mail-information = Bygger e-postinformasjon …
 send-progress-assembling-message = Bygger melding …
 send-progress-creating-mail-message = Oppretter e-postmelding …
+# Variables:
+# $filename - name or URL of the file that could not be attached
+send-error-attaching-file = Det oppstod en feil ved vedlegging av { $filename }. Kontroller at du har tilgang til filen.
 send-progress-assembling-message-done = Bygger melding … ferdig
 send-progress-copy-complete = Kopiering fullført.
 send-progress-copy-failed = Kopiering mislyktes.
@@ -94,11 +97,23 @@ smtp-auth-mechanism-not-supported = SMTP-serveren { $hostname } støtter ikke de
 # $serverResponse - server response
 smtp-server-error = En feil oppstod under sending av e-post: SMTP-serverfeil. Serveren svarte:  { $serverResponse }.
 # Variables:
+# $hostname - outgoing server hostname
+smtp-starttls-failed = En feil oppstod ved sending av post: Klarte ikke å opprette en sikker kommunikasjonskanal mot SMTP-serveren { $hostname } med STARTTLS, siden den ikke støtter den funksjonen. Slå av STARTTLS for denne serveren, eller kontakt tjenestetilbyderen.
+# Variables:
+# $serverResponse - server response
+smtp-too-many-recipients = Meldingen ble ikke sendt på grunn av at det tillatte antallet mottakere ble overskredet. Serveren svarte: { $serverResponse }.
+# Variables:
 # $serverResponse - server response
 smtp-error-sending-from-command = En feil oppstod ved sending av e-post. E-postserveren svarte: { $serverResponse }. Kontroller at e-postadressen er korrekt i kontoinnstillingene og prøv igjen.
 # Variables:
 # $serverResponse - server response
 smtp-permanent-size-exceeded = Størrelsen på meldingen du forsøker å sende er større enn maksstørrelsen på serveren. Meldingen ble ikke sendt; gjør meldingen mindre og prøv igjen. Serveren svarte:  { $serverResponse }.
+# Variables:
+# $serverResponse - server response; $recipient - intended recipient
+smtp-error-sending-recipient-command =
+    En feil oppstod ved sending av post. E-postserveren svarte:
+    { $serverResponse }.
+    Kontroller mottakeren «{ $recipient }» og prøv igjen.
 # Variables:
 # $serverResponse - server response
 smtp-error-sending-data-command = En SMTP-feil oppstod ved sending av e-post. Serveren svarte: { $serverResponse }.
