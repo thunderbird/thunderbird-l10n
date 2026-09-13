@@ -6,6 +6,7 @@
 ## Compose alerts
 
 compose-message-cancelling = Kanselleer tans…
+compose-message-attachment-name = Aangehegde boodskap
 
 ## Compose window
 
