@@ -16,22 +16,66 @@ compose-initialization-error = Kesalahan terjadi saat membuat jendela pembuat pe
 # $subject - message subject
 # $brand - application name
 compose-window-title = Tulis: { $subject } - { $brand }
+compose-send-confirm-title = Kirim Pesan
+compose-send-confirm-prompt = Yakin siap mengirim pesan ini?
+compose-send-confirm-button = Kirim
+compose-do-not-show-again = Jangan tampilkan kotak dialog ini lagi.
 compose-empty-subject-title = Pengingat Isian Judul
 compose-empty-subject-prompt = Pesan Anda tidak memiliki judul
 compose-empty-subject-send-button = &Kirim Tanpa Judul
 compose-empty-subject-cancel-button = &Batal Kirim
+compose-attachment-reminder-title = Pengingat Lampiran
+compose-attachment-reminder-prompt = Anda lupa melampirkan berkas lampiran?
+compose-attachment-reminder-send-button = Tidak, Kirim Sekarang
+compose-attachment-reminder-add-button = Oh iya, Saya Lupa!
 compose-newsgroups-not-supported-title = Newsgroups Tidak Didukung Supported
 compose-newsgroups-not-supported = Akun ini hanya mendukung penerima jenis email. Jika dilanjutkan maka penerima jenis newsgroup akan diabaikan.
 compose-invalid-address-title = Alamat Penerima Tidak Sah
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address } bukan alamat email yang sah karena tidak dalam format user@host. Anda harus mengoreksi alamat tersebut sebelum mengirim email.
+compose-quit-sending-title = Mengirim Pesan
+compose-quit-saving-title = Menyimpan Pesan
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } sedang dalam proses mengirim pesan.
+    Apakah Anda ingin menunggu hingga pesan terkirim sebelum keluar atau keluar sekarang juga?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } sedang dalam proses menyimpan pesan.
+    Apakah Anda ingin menunggu sampai pesan disimpan sebelum berhenti atau keluar sekarang?
+compose-quit-button = &Keluar
+compose-wait-button = &Tunggu
 compose-attach-page-title = Tentukan lokasi untuk dilampirkan
 compose-attach-page-prompt = Laman Web (URL):
 compose-message-part-attachment-name = Bagian Pesan Terlampir
 compose-attachment-bucket-attach-files-tooltip = Lampirkan Berkas
 compose-attachment-bucket-clear-selection-tooltip = Hapus Pilihan
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = Berkas { $filename } tidak ada sehingga tidak dapat dilampirkan pada pesan.
 compose-file-attachment-error-title = Lampiran Berkas
+compose-message-file-error-title = Berkas Pesan
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = File { $filename } tidak ada dan tidak dapat digunakan sebagai badan pesan.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = File { $filename } tidak dapat dimuat sebagai isi pesan.
+compose-save-success-title = Simpan Pesan
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Pesan Anda telah disimpan dalam folder { $folder } di bawah { $server }.
+compose-rename-attachment-title = Ganti Nama Lampiran
+compose-rename-attachment-prompt = Nama lampiran baru:
+remind-later-button =
+    .label = Ingatkan Saya nanti
+    .accesskey = L
+disable-attachment-reminder-menu-item =
+    .label = Nonaktifkan pengingat lampiran untuk pesan saat ini
 find-replace-button =
     .label = Ganti…
     .accesskey = x
@@ -42,6 +86,14 @@ compose-custom-from-address-placeholder = Masukkan alamat Dari sesuai pesanan un
 compose-custom-from-address-title = Menyesuaikan Alamat Dari
 compose-custom-from-address-warning = Jika penyedia email Anda mendukungnya, Penyesuaian Alamat Dari memungkinkan Anda membuat perubahan kecil satu kali ke alamat Dari Anda tanpa harus membuat identitas baru di Pengaturan Akun. Misalnya, jika alamat Dari Anda adalah John Doe <john@example.com> Anda mungkin ingin mengubahnya menjadi John Doe <john+doe@example.com> atau John <john@example.com>.
 compose-custom-from-address-ignore = Jangan peringatkan saya lagi
+compose-blocked-content-options-button = Pilihan
+compose-blocked-content-options-accesskey = O
+compose-blocked-content-preferences-button = Preferensi
+compose-blocked-content-preferences-accesskey = P
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Buka blokir { $url }
 
 ## Send Format
 
@@ -104,6 +156,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Bentangkan Daftar
     .accesskey = e
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = Hapus Alamat { $field }
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Yakin ingin menghapus alamat { $field }?
+compose-remove-address-row-button = Hapus
 
 ## Attachment widget
 
@@ -454,9 +513,30 @@ cloudfile-uploading-notification = File Anda sedang ditautkan. Ini akan muncul d
 # Variables:
 #   $count - the number big attached files
 big-file-notification-text = Berkas ini berukuran besar. Mungkin lebih baik menggunakan Filelink.
+big-file-learn-more-button =
+    .label = Pelajari Lebih Lanjut…
+    .accesskey = m
+big-file-link-button =
+    .label = Tautan
+    .accesskey = l
+big-file-ignore-button =
+    .label = Abaikan
+    .accesskey = A
+big-file-choose-account-title = Pilih Akun
+big-file-choose-account-prompt = Pilih akun komputawan tempat tujuan mengunggah berkas
+big-file-hide-notification-title = Jangan Unggah Berkas Saya
+big-file-hide-notification-prompt = Anda tidak akan diperingatkan kembali saat melampirkan berkas berukuran besar pada pesan.
+big-file-hide-notification-checkbox = Jangan peringatkan saya lagi.
 cloudfile-uploading-stop-button =
     .label = Jangan tampilkan lagi
     .accesskey = N
+cloud-file-privacy-warning = Tautan selesai. Harap perhatikan bahwa lampiran tertaut dapat diakses oleh orang-orang yang dapat melihat atau menebak tautannya.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Menunggah ke { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Diunggah ke { $provider }
 # Variables:
 # $provider - name of the online storage service
 cloud-file-attach-picker-title = Lampirkan Berkas lewat { $provider }
