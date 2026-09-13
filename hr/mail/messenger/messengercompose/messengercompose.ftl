@@ -37,6 +37,7 @@ compose-attachment-reminder-add-button = &Da, zaboravio sam!
 compose-newsgroups-not-supported-title = Interesne grupe nisu podržane
 compose-newsgroups-not-supported = Ovaj račun podržava samo primatelje e-pošte. Ako nastavite, interesne grupe će biti ignorirane.
 compose-invalid-address-title = Neispravna adresa primatelja
+compose-no-recipients = Primatelj nije odabran. Unesite primatelja ili interesnu grupu u područje za adresiranje.
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address } nije ispravna adresa e-pošte jer nije u obliku korisnik@poslužitelj. Ispravite adresu e-pošte prije slanja poruke.
@@ -587,9 +588,30 @@ big-file-notification-text =
         [few] Ovo su velike datoteke. Možda je bolje da koristite Filelink.
        *[other] Ovo su velike datoteke. Možda je bolje da koristite Filelink.
     }
+big-file-learn-more-button =
+    .label = Saznaj više…
+    .accesskey = S
+big-file-link-button =
+    .label = Poveži
+    .accesskey = v
+big-file-ignore-button =
+    .label = Zanemari
+    .accesskey = i
+big-file-choose-account-title = Odaberite račun
+big-file-choose-account-prompt = Odaberite račun u oblaku na koji želite prenjeti privitak
+big-file-hide-notification-title = Nemoj prenjeti moje datoteke
+big-file-hide-notification-prompt = Nećete biti obavješteni ukoliko priložite još velikih datoteka u ovoj poruci.
+big-file-hide-notification-checkbox = Nemoj me više nikada obavjestiti.
 cloudfile-uploading-stop-button =
     .label = Ne prikazuj ovo više
     .accesskey = N
+cloud-file-privacy-warning = Povezivanje je završeno. Imajte na umu da su povezani privici dostupni svima koji vide ili mogu pogoditi poveznice.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Prijenos na { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Preneseno na { $provider }
 # Variables:
 # $provider - name of the online storage service
 cloud-file-attach-picker-title = Priloži datoteke preko { $provider }
