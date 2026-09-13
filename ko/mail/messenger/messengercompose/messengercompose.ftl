@@ -10,14 +10,35 @@ compose-message-attachment-name = 첨부 메시지
 
 ## Compose window
 
+compose-initialization-error-title = 메시지 쓰기
+compose-initialization-error = 편집창을 여는 데 오류가 발생했습니다. 다시 시도하십시오.
+compose-default-subject = (제목 없음)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = 쓰기: { $subject } - { $brand }
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = 이 메시지를 임시 보관함({ $folder })에 저장하고 창을 닫을까요?
+compose-discard-changes-button = 변경사항 적용안함
 compose-send-confirm-title = 메시지 보내기
 compose-send-confirm-prompt = 이 메시지를 보내시겠습니까?
 compose-send-confirm-button = 보내기
 compose-do-not-show-again = 이 대화 상자를 더 이상 표시하지 않음
+compose-empty-subject-title = 메시지 제목 확인
+compose-empty-subject-prompt = 메시지 제목을 작성하지 않았습니다.
+compose-empty-subject-send-button = 제목 없이 발송
+compose-empty-subject-cancel-button = 발송 취소
 compose-attachment-reminder-title = 첨부 파일 확인
 compose-attachment-reminder-prompt = 첨부 파일을 추가 하시겠습니까?
 compose-attachment-reminder-send-button = 바로 발송
 compose-attachment-reminder-add-button = 추가
+compose-newsgroups-not-supported-title = 뉴스그룹은 지원하지 않음
+compose-newsgroups-not-supported = 이 계정은 오직 메일 수신만을 지원합니다. 뉴스 그룹을 무시하려면 계속하십시오.
+compose-invalid-address-title = 올바르지 않은 수신 주소
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address }은(는) 올바르지 않은 메일 주소 형식 입니다. 메일 주소는 user@host의 형식을 가져야 합니다. 메일을 발송하기 전에 메일 주소를 정확하게 수정하십시오.
 compose-quit-sending-title = 메시지 보내기
 compose-quit-saving-title = 메시지 저장중
 # Variables:
@@ -32,9 +53,16 @@ compose-quit-saving-prompt =
     메시지가 저장될 때 까지 기다리시겠습니까? 아니면 지금 종료하시겠습니까?
 compose-quit-button = 종료하기
 compose-wait-button = 기다리기
+compose-attach-file-picker-title = 첨부할 파일 선택
+compose-attach-page-title = 첨부 파일 위치를 지정하십시오.
+compose-attach-page-prompt = 웹 페이지 (URL):
+compose-message-part-attachment-name = 첨부 메시지 부분
+compose-attachment-bucket-attach-files-tooltip = 첨부 파일
+compose-attachment-bucket-clear-selection-tooltip = 선택 취소
 # Variables:
 # $filename - name of the file that could not be found
 compose-file-attachment-not-found = { $filename } 파일이 존재하지 않기 때문에 메시지에 첨부할 수 없습니다.
+compose-file-attachment-error-title = 파일 첨부
 compose-message-file-error-title = 메시지 파일
 # Variables:
 # $filename - name of the file that could not be found
@@ -54,6 +82,24 @@ remind-later-button =
     .accesskey = R
 disable-attachment-reminder-menu-item =
     .label = 이 메시지에 첨부된 알림 해제
+find-replace-button =
+    .label = 바꾸기…
+    .accesskey = l
+    .tooltiptext = 찾아 바꾸기 창 보여주기
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = { $identity } 대신 사용할 보낸 사람 주소 입력
+compose-custom-from-address-title = 보낸 사람 주소 설정
+compose-custom-from-address-warning = 메일 서비스 제공자가 보낸사람 주소 설정을 지원하면 계정 설정에서 새로운 식별자를 생성하지 않고서도 보낸 사람 주소를 약간 변경해서 사용할 수 있습니다. 예를 들어서 보낸 사람의 주소가 John Doe <john@example.com>인 경우 John Doe <john+doe@example.com>나 John <john@example.com>로 변경할 수 있습니다.
+compose-custom-from-address-ignore = 이 기능에대해 다시 알리지 않기
+compose-blocked-content-options-button = 옵션
+compose-blocked-content-options-accesskey = O
+compose-blocked-content-preferences-button = 설정
+compose-blocked-content-preferences-accesskey = P
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = { $url } 차단 풀기
 
 ## Send Format
 
@@ -118,6 +164,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = 목록 펼치기
     .accesskey = x
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = { $field } 주소 삭제
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = { $field } 주소를 정말로 삭제하시겠습니까?
+compose-remove-address-row-button = 삭제
 
 ## Attachment widget
 
@@ -442,6 +495,34 @@ cloud-file-account-error-title = Filelink 계정 오류
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = { $filename } Filelink 첨부 파일의 Filelink 계정이 삭제되어 업데이트에 실패했습니다.
+cloud-file-authentication-error-title = 인증 오류
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = { $provider } 인증을 할 수 없습니다.
+cloud-file-upload-error-title = 업로드 오류
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = { $filename } 파일을 { $provider } 에 업로드할 수 없습니다.
+cloud-file-quota-error-title = 용랑 초과 오류
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = { $filename } 파일을 업로드하면 { $provider } 의 용량을 넘습니다.
+cloud-file-size-error-title = 파일 크기 오류
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } 파일의 크기가 { $provider }의 최대 크기를 넘고 있습니다.
+cloud-file-unknown-error-title = 알 수 없는 오류
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = { $provider }과 통신 중에 알 수 없는 오류가 발생했습니다.
+cloud-file-deletion-error-title = 삭제 오류
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = { $provider }로부터 { $filename } 파일 삭제시에 오류가 발생했습니다.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification = 첨부 파일을 링크하고 있습니다. 업로드가 완료한다고 메시지 본문에 링크를 추가합니다.
@@ -462,6 +543,9 @@ big-file-choose-account-prompt = 첨부 파일을 업로드할 클라우드 서�
 big-file-hide-notification-title = 파일 업로드 중지
 big-file-hide-notification-prompt = 더 큰 크기의 파일을 이 메시지에 첨부해도 알리지 않습니다.
 big-file-hide-notification-checkbox = 이 알림을 다시 표시하지 않음
+cloudfile-uploading-stop-button =
+    .label = 다시 보이지 않기
+    .accesskey = N
 cloud-file-privacy-warning = 링크가 완료 되었습니다. 링크를 보거나 추측하는 모든 사람들은 첨부 파일을 볼 수 있습니다.
 # Variables:
 # $provider - name of the online storage service
@@ -469,6 +553,9 @@ cloud-file-uploading-tooltip = { $provider }에 업로드 중…
 # Variables:
 # $provider - name of the online storage service
 cloud-file-uploaded-tooltip = { $provider }에 업로드 완료
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = { $provider } 경유 파일 첨부
 
 ## Link Preview
 
