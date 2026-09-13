@@ -10,16 +10,71 @@ compose-message-attachment-name = დართული წერილი
 
 ## Compose window
 
+compose-initialization-error-title = წერილის შედგენა
+compose-initialization-error = შეცდომა წერილის შექმნის სარკმლის გახსნისას. სცადეთ ხელახლა.
+compose-default-subject = (თემის გარეშე)
 # Variables:
 # $subject - message subject
 # $brand - application name
 compose-window-title = მიწერა: { $subject }-{ $brand }
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = ნამდვილად გსურთ, წერილის შენახვა, წინასწარი ნამუშევრების საქაღალდეში ({ $folder }) და წერილის შესაქმნელი ფანჯრის დახურვა?
+compose-discard-changes-button = &შენახვის გარეშე
+compose-send-confirm-title = წერილის გაგზავნა
+compose-send-confirm-prompt = მზად ხართ წერილის გასაგზავნად?
+compose-send-confirm-button = გაგზავნა
+compose-do-not-show-again = აღარ მიჩვენო ეს დიალოგური ფანჯარა.
 compose-empty-subject-title = თემის შეხსენება
 compose-empty-subject-prompt = თქვენი წერილი თემის გარეშეა.
 compose-empty-subject-send-button = &დატოვება თემის გარეშე
 compose-empty-subject-cancel-button = გაგზავნის გაუ&ქმება
+compose-attachment-reminder-title = დანართის შეხსენება
+compose-attachment-reminder-prompt = დანართის დამატება ხომ არ დაგავიწყდათ?
+compose-attachment-reminder-send-button = არა, გაიგზავნოს
+compose-attachment-reminder-add-button = უი, მართლა!
 compose-newsgroups-not-supported-title = სასაუბრო ჯგუფები მხარდაუჭერელია
 compose-newsgroups-not-supported = ეს ანგარიში მხოლოდ ელფოსტის მიმღებთათვისაა. გაგრძელების შემთხვევაში სასაუბრო ჯგუფები უგულებელყოფილი იქნება.
+compose-quit-sending-title = წერილი იგზავნება
+compose-quit-saving-title = წერილი ინახება
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } ამჟამად წერილის აგზავნის.
+    დაველოდო დასრულებას თუ დაუყოვნებლივ დავასრულო სეანსი?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } ამჟამად წერილს ინახავს.
+    გსურთ, დაელოდოთ წერილის შენახვას დახურვამდე, თუ ახლავე გსურთ დახურვა?
+compose-quit-button = &დასრულება
+compose-wait-button = და&ცდა
+compose-attach-file-picker-title = ფაილ(ებ)ის მიმაგრება
+compose-attachment-bucket-attach-files-tooltip = ფაილ(ებ)ის მიმაგრება
+compose-attachment-bucket-clear-selection-tooltip = არჩევანის გაუქმება
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = ფაილი { $filename } ვერ მოიძებნა.
+compose-file-attachment-error-title = File Attach
+compose-message-file-error-title = შეტყობინების ფაილი
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = ფაილი { $filename } ვერ მოიძებნა და შესაბამისად, წერილის შიგთავსად ვერ გამოდგება.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = ფაილი { $filename } ვერ ჩაიტვირთა წერილის შიგთავსად.
+compose-save-success-title = წერილის შენახვა
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = წერილი შენახულია { $folder } საქაღალდეში აქ { $server }.
+compose-rename-attachment-title = დანართის გადარქმევა
+compose-rename-attachment-prompt = ახალი დანართის სახელი:
+remind-later-button =
+    .label = მოგვიანებით შეხსენება
+    .accesskey = მ
+disable-attachment-reminder-menu-item =
+    .label = დანართის შესახებ შეხსენების გამორთვა ამ შეტყობინებაზე
 # Variables:
 # $identity - identity address that would otherwise be used
 compose-custom-from-address-placeholder = შეიყვანეთ სასურველი მისამართი, { $identity }-ის ნაცვლად გამოსაყენებლად
@@ -457,6 +512,27 @@ big-file-notification-text =
         [one] ეს ფაილი დიდი ზომისა. შესაძლოა მის ნაცვლად ფაილის ბმულის გამოყენება სჯობდეს.
        *[other] ეს ფაილები დიდი ზომისაა. შესაძლოა მათ ნაცვლად ბმულების გამოყენება სჯობდეს.
     }
+big-file-learn-more-button =
+    .label = ვრცლად…
+    .accesskey = ვ
+big-file-link-button =
+    .label = ბმული
+    .accesskey = ლ
+big-file-ignore-button =
+    .label = უგულებელყოფა
+    .accesskey = უ
+big-file-choose-account-title = ანგარიშის შერჩევა
+big-file-choose-account-prompt = შეარჩიეთ ღრუბლოვანი ანგარიში, დანართების ასატვირთად
+big-file-hide-notification-title = ფაილების ატვირთვის გარეშე
+big-file-hide-notification-prompt = შეტყობინებას აღარ მიიღებთ ამ წერილზე დიდი ფაილების თანდართვისას.
+big-file-hide-notification-checkbox = მომავალში, შეტყობინების გარეშე.
+cloud-file-privacy-warning = ბმულის შექმნა დასრულდა. გაითვალისწინეთ, რომ მიბმული დანართები ხელმისაწვდომია მათთვის, ვისაც ამ ბმულების ნახვა, ან ამოცნობა შეუძლია.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = ატვირთვა - { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = აიტვირთა - { $provider }
 # Variables:
 # $provider - name of the online storage service
 cloud-file-attach-picker-title = ფაილების თანდართვა: { $provider }
