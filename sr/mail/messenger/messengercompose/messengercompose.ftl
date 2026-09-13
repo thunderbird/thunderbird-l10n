@@ -37,6 +37,7 @@ compose-attachment-reminder-add-button = Да, јесам!
 compose-newsgroups-not-supported-title = Новинске групе нису подржане
 compose-newsgroups-not-supported = Овај налог подржава само примаоце са е-поштом. Настављањем ћете занемарити новинске групе.
 compose-invalid-address-title = Неисправна адреса примаоца
+compose-no-recipients = Ниједан прималац није наведен. Унесите примаоца или новинску групу у делу за адресирање.
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address } није исправна мејл адреса јер није у формату korisnik@domacin. Морате је исправити пре слања мејла.
