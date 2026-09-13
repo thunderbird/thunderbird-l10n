@@ -69,6 +69,9 @@ send-error-copy-operation = Mesajul a fost trimis cu succes, dar nu a putut fi c
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = destinatar-secret
 # Variables:
+# $recipient - recipient address
+smtp-error-illegal-local-part = Există caractere non-ASCII în partea locală a adresei destinatarului { $recipient }, iar serverul dvs. nu acceptă SMTPUTF8. Schimbați această adresă și încercați din nou.
+# Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = Serverul de trimitere (SMTP) { $hostname } nu pare să aibă suport pentru parole criptate. Dacă tocmai ai configurat contul, încearcă să schimbi „Metoda de autentificare” din „Setările contului | Server de trimitere (SMTP)” în „Parolă transmisă nesigur”. Dacă înainte funcționa iar acum nu, s-ar putea să ți se fi furat parola.
 # Variables:
