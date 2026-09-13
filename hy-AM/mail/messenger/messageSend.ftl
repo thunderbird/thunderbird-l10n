@@ -30,8 +30,46 @@ send-progress-creating-mail-message = Ստեղծվում է նամակ...
 send-progress-assembling-message-done = Նամակի թողարկում...Պատրաստ է
 send-progress-copy-complete = Պատճենվեց։
 send-progress-copy-failed = Ձախողվեց։
+send-dialog-save-title = Պահպանել նամակը
 send-progress-filter-complete = Զտումը ավարտվեց:
 send-progress-filter-failed = Զտումը ձախողվեց:
+send-error-post-failed = Նամակը հնարավոր չէ հրապարակել, քանի որ կապ չկա նորություննների սպասարկիչի հետ։ Հնարավոր է՝ սպասարկիչը հասանելի չէ։
+# Variables:
+# $size - formatted message size
+send-warning-large-message = Զգուշացում. Ուղկարկվող նամակի չափը { $size } է։ Ուղարկե՞լ։
 # Variables:
 # $folder - destination folder name
 send-progress-copy-start = Պատճենում է { $folder } թղթապանակում...
+send-progress-sending-message = Նամակը ուղարկվում է...
+send-later-error-title = Հետո ուղարկելու սխալ
+send-save-draft-error-title = Պահպանել Սևագրի սխալը
+send-save-template-error-title = Պահպանել ձևանմուշի սխալը
+# LOCALIZATION NOTE: This string must use only US-ASCII characters.
+send-undisclosed-recipients = չփակված ստացողները
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-no-ssl = Կարծես ելքային (SMTP) { $hostname } սպասարկիչը չի աջակցում գաղտնագրված գաղտնաբառեր: Եթե նոր եք կարգավորել հաշիվը, փորձեք փոփոխել ‘Իսկորոշման եղանակը’ 'Հաշվի կարգավորումներ | Ելքային սպասարկիչ (SMTP)'-ից ‘Ոչ անվտանգ փոխանցվող գատնաբառ'-ի: Եթե այն նախկինում աշխատել է, իսկ հիմա ոչ, ապա հնարավոր է Ձեր գաղտնաբառը գողացված է: ‘
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-ssl = Կարծես ելքային (SMTP) { $hostname } սպասարկիչը չի աջակցում գաղտնագրված գաղտնաբառեր: Եթե նոր եք կարգավորել հաշիվը, փորձեք փոփոխել ‘Իսկորոշման եղանակը’ 'Հաշվի կարգավորումներ | Ելքային սպասարկիչ (SMTP)'-ից ‘Նորմալ գաղտնաբառ'-ի: ‘
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-plain-to-encrypt = Ելքային (SMTP) { $hostname } սպասարկիչը չի աջակցում չգաղտնագրված գաղտնաբառեր: Փորձեք փոփոխել ‘Իսկորոշման եղանակը’ 'Հաշվի կարգավորումներ | Ելքային սպասարկիչ (SMTP)'-ից ‘Կոդավորված գատնաբառ'-ի: ‘
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-failure = Հնարավոր չէ իսկորոշել { $hostname } SMTP սպասարկիչում։ Ստուգեք գաղտնաբառը և ‘Վավերացման եղանակ'-ը  ‘Փոստարկղի կարգավորումներ | Սպասարկիչի կարգավորումներում (SMTP)'։
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-gssapi = Kerberos/GSSAPI-ը չի ընդունվել { $hostname } SMTP սպասարկիչի կողմից։ Ստուգեք արդյոք մուտք եք գործել Kerberos/GSSAPI։
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-mechanism-not-supported = { $hostname } SMTP սպասարկիչը չի աջակցում իսկորոշման ընտրված եղանակը։ Փոխեք ‘Վավերացման եղանակ'-ը  ‘Փոստարկղի կարգավորումներ | Ելքային սպասարկիչը (SMTP)’ բաժնում։
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-from-command = Սխալ՝ նամակը ուղարկելիս։ Սպասարկիչի պատասխանը՝ { $serverResponse }։ Համոզվեք, որ կարգավորումները ճիշտ են։
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-data-command = Սխալ՝ (SMTP) նամակը ուղարկելիս։ Սպասարկիչի պատասխանը՝ { $serverResponse }։
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-message = Սխալ՝ նամակը ուղարկելիս։ Սպասարկիչի պատասխանը. { $serverResponse }։
