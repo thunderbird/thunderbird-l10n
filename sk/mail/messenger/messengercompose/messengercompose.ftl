@@ -17,6 +17,7 @@ compose-default-subject = (bez predmetu)
 # $subject - message subject
 # $brand - application name
 compose-window-title = Nová správa: { $subject } - { $brand }
+compose-save-message-title = Uloženie správy
 # Variables:
 # $folder - configured drafts folder name
 compose-save-message-prompt = Uložiť túto správu do priečinka s konceptami ({ $folder }) a zavrieť okno písania správ?
