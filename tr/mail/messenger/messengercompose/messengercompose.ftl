@@ -32,6 +32,8 @@ compose-empty-subject-send-button = &Konu Olmadan Gönder
 compose-empty-subject-cancel-button = &Göndermekten Vazgeç
 compose-attachment-reminder-title = Ek Hatırlatıcı
 compose-attachment-reminder-prompt = Dosya eklemeyi mi unuttunuz?
+compose-attachment-reminder-send-button = Hayır, iletiyi gönder
+compose-attachment-reminder-add-button = Evet, unutmuşum!
 compose-newsgroups-not-supported-title = Haber Grupları Desteklenmiyor
 compose-invalid-address-title = Geçersiz Alıcı Adresi
 # Variables:
@@ -561,9 +563,30 @@ big-file-notification-text =
         [one] Bu büyük bir dosya. Filelink kullanmak daha iyi olabilir.
        *[other] Bunlar büyük dosyalar. Filelink kullanmak daha iyi olabilir.
     }
+big-file-learn-more-button =
+    .label = Daha fazla bilgi…
+    .accesskey = b
+big-file-link-button =
+    .label = Bağlantı
+    .accesskey = B
+big-file-ignore-button =
+    .label = Görmezden gel
+    .accesskey = G
+big-file-choose-account-title = Hesap Seçme
+big-file-choose-account-prompt = Ek dosyanın yükleneceği bir bulut hesabı seçin
+big-file-hide-notification-title = Dosyalarımı Yükleme
+big-file-hide-notification-prompt = Bu iletiye daha fazla büyük dosya eklerseniz uyarılmayacaksınız.
+big-file-hide-notification-checkbox = Beni bir daha bu konuda uyarma.
 cloudfile-uploading-stop-button =
     .label = Bunu bir daha gösterme
     .accesskey = b
+cloud-file-privacy-warning = Bağlama tamamlandı. Bağlı eklere, bağlantıları gören veya tahmin edebilen kişiler tarafından erişilebileceğini lütfen unutmayın.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = { $provider } hizmetine yükleniyor…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = { $provider } hizmetine yüklendi
 # Variables:
 # $provider - name of the online storage service
 cloud-file-attach-picker-title = { $provider } ile Dosya Ekle
