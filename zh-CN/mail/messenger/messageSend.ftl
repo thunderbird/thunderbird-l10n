@@ -27,6 +27,9 @@ send-error-title = 发送消息时出错
 send-progress-assembling-mail-information = 正在收集邮件信息…
 send-progress-assembling-message = 正在收集消息…
 send-progress-creating-mail-message = 正在创建邮件消息…
+# Variables:
+# $filename - name or URL of the file that could not be attached
+send-error-attaching-file = 附加 { $filename } 时出错。请检查您是否有权访问该文件。
 send-progress-assembling-message-done = 正在收集消息…完成
 send-progress-copy-complete = 复制完成。
 send-progress-copy-failed = 复制失败。
@@ -51,6 +54,9 @@ send-error-save-to-local-folders = 无法保存您的消息到本地文件夹。
 send-progress-filter-complete = 过滤完成。
 send-progress-filter-failed = 过滤失败。
 send-error-filtering-message = 您的消息已被发送并已保存，但在它上面运行消息过滤器时出错。
+# Variables:
+# $hostname - outgoing server hostname
+send-error-smtp-security-issue = 须修正与 { $hostname } 相关的配置。
 send-error-post-failed = 连接到新闻服务器失败，消息无法发出。服务器可能不可用或者拒绝连接。请验证您的新闻服务器设置是否正确，然后再试。
 # Variables:
 # $size - formatted message size
@@ -59,6 +65,8 @@ send-warning-large-message = 警告！您将发送一封大小为 { $size } 的�
 # $folder - destination folder name
 send-progress-copy-start = 正在复制消息到 { $folder } 文件夹…
 send-progress-sending-message = 正在发送消息…
+send-error-nntp-ok = 您的消息已被发布到新闻组，但未能发送给其他收件人。
+send-error-copy-operation = 邮件发送成功，但无法放入您的“发件箱”中。
 send-later-error-title = 以后发送出错
 send-save-draft-error-title = 保存草稿出错
 send-save-template-error-title = 保存模板出错
@@ -84,7 +92,19 @@ smtp-auth-gssapi = Kerberos/GSSAPI 令牌没有被发件服务器（SMTP）{ $ho
 smtp-auth-mechanism-not-supported = 发件服务器（SMTP）{ $hostname } 不支持您所选择的认证方式。请试着修改“账号设置”中“服务器设置”的“认证方式”。
 # Variables:
 # $serverResponse - server response
+smtp-server-error = 发送邮件时出错：发件服务器（SMTP）错误。服务器响应：{ $serverResponse }。
+# Variables:
+# $hostname - outgoing server hostname
+smtp-starttls-failed = 发送邮件时出错：无法与发件服务器（SMTP） { $hostname } 使用 STARTTLS 建立安全连接，因为它不宣称支持此功能。请关闭对此服务器的 STARTTLS，或者联系您的服务提供商。
+# Variables:
+# $serverResponse - server response
 smtp-error-sending-from-command = 发送邮件时出错。邮件服务器响应：{ $serverResponse }。请验证您在账户设置中的电子邮件地址是否正确，然后再试。
+# Variables:
+# $serverResponse - server response; $recipient - intended recipient
+smtp-error-sending-recipient-command =
+    发送邮件时出错。邮件服务器响应：
+    { $serverResponse }.
+    请检查消息收件人“{ $recipient }”然后重试。
 # Variables:
 # $serverResponse - server response
 smtp-error-sending-data-command = 发送邮件时发件服务器（SMTP）出错。服务器响应：{ $serverResponse }。
