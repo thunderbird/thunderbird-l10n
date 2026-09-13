@@ -30,10 +30,27 @@ send-progress-creating-mail-message = Creazione in corso del messaggio di posta�
 send-progress-assembling-message-done = Creazione messaggio… Fatto
 send-progress-copy-complete = Copia completata.
 send-progress-copy-failed = Copia non riuscita.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-sent-locally =
+    Il messaggio è stato inviato, ma non è stata salvata una copia nella cartella inviati ({ $folder }) a causa di un errore di rete o di accesso al file.
+    È possibile riprovare o salvare localmente il messaggio su { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-draft-locally =
+    La bozza del messaggio non è stata copiata nella cartella bozze ({ $folder }) a causa di errori di accesso alla rete o al file.
+    È possibile riprovare o salvare la bozza localmente su { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-template-locally =
+    Il modello non è stato copiato la cartella modelli ({ $folder }) a causa di errori di accesso alla rete o al file.
+    È possibile riprovare o salvare il modello localmente { $localFolder }/{ $folder }-{ $account }.
 send-dialog-save-title = Salvataggio messaggio
+send-dialog-retry = &Riprova
 send-error-save-to-local-folders = Impossibile salvare il messaggio nelle cartelle locali. Lo spazio su disco potrebbe essere esaurito.
 send-progress-filter-complete = Esecuzione filtro completata.
 send-progress-filter-failed = Esecuzione filtro non riuscita.
+send-error-filtering-message = Il messaggio è stato inviato e salvato, ma c’è stato un errore durante l’esecuzione dei filtri su di esso.
 # Variables:
 # $hostname - outgoing server hostname
 send-error-smtp-security-issue = La configurazione relativa a { $hostname } deve essere corretta.
