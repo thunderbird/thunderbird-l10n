@@ -5,6 +5,7 @@
 
 ## Compose alerts
 
+compose-message-cancelling = Přerušování…
 compose-message-attachment-name = Připojená zpráva
 
 ## Compose window
