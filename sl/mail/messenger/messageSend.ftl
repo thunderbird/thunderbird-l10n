@@ -41,5 +41,33 @@ send-error-save-template-locally =
     Lahko poskusite znova ali pa predlogo shranite krajevno v { $localFolder }/{ $folder }-{ $account }.
 send-dialog-retry = &Poskusi znova
 send-error-filtering-message = Vaše sporočilo je bilo poslano in shranjeno, toda med izvajanjem filtrov sporočil na njem je prišlo do napake.
+send-error-post-failed = Sporočila ni bilo mogoče objaviti, ker je povezava s strežnikom za novice spodletela. Strežnik morda ni na voljo ali pa zavrača povezave. Preverite, ali so vaše nastavitve strežnika za novice pravilne in poskusite znova.
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = neimenovani prejemniki
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-no-ssl = Videti je, da odhodni strežnik (SMTP) { $hostname } ne podpira šifriranih gesel. Če ste račun pravkar ustvarili, poskusite ‘Metodo overitve’ v ‘Nastavitve računa | Odhodni strežnik (SMTP)’ spremeniti v ‘Geslo, poslano nezaščiteno’. Če je prej delovalo in sedaj ne deluje več, je bilo vaše geslo morda ukradeno.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-ssl = Videti je, da odhodni strežnik (SMTP) { $hostname } ne podpira šifriranih gesel. Če ste račun pravkar ustvarili, poskusite ‘Metodo overitve’ v ‘Nastavitve računa | Odhodni strežnik (SMTP)’ spremeniti v ‘Običajno geslo’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-plain-to-encrypt = Odhodni strežnik (SMTP) { $hostname } ne dovoljuje gesel v golem besedilu. Poskusite ‘Metodo overitve’ v ‘Nastavitve računa | Odhodni strežnik (SMTP)’ spremeniti v ‘Šifrirano geslo’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-failure = Odhodnega strežnika (SMTP) { $hostname } ni mogoče overiti. Preverite geslo in ‘Metodo overitve’ v ‘Nastavitve računa | Odhodni strežnik (SMTP)’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-gssapi = Vstopnice Kerberos/GSSAPI odhodni strežnik (SMTP) { $hostname } ni sprejel. Preverite, ali ste prijavljeni na območje Kerberos/GSSAPI.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-mechanism-not-supported = Odhodni strežnik (SMTP) { $hostname } ne podpira izbrane metode overjanja. Spremenite ‘Metodo overitve’ v ‘Nastavitve računa | Odhodni strežnik (SMTP)’.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-from-command = Med pošiljanjem pošte je prišlo do napake. Poštni strežnik je odgovoril: { $serverResponse }. Preverite, ali je vaš e-poštni naslov v nastavitvah računa pravilen in poskusite znova.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-data-command = Med pošiljanjem pošte je prišlo do napake odhodnega strežnika (SMTP). Strežnik je odgovoril:  { $serverResponse }.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-message = Med pošiljanjem pošte je prišlo do napake. Poštni strežnik je odgovoril:  { $serverResponse }. Preverite sporočilo in poskusite znova.
