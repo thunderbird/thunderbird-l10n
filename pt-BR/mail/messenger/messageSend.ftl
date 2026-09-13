@@ -24,7 +24,27 @@ send-error-smtp-interrupted = A mensagem não foi enviada porque a conexão com 
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = A mensagem não foi enviada porque a conexão com o servidor de envio (SMTP) { $hostname } expirou. Tente novamente.
 send-error-title = Erro ao enviar mensagem
+send-progress-assembling-mail-information = Montando informação de email…
+send-progress-assembling-message = Montando mensagem…
+send-progress-creating-mail-message = Criando mensagem de email…
+send-progress-assembling-message-done = Montando mensagem…Concluído
+send-progress-copy-complete = Cópia concluída.
+send-progress-copy-failed = Falha ao copiar.
+send-dialog-save-title = Salvar mensagem
+send-error-save-to-local-folders = Não foi possível salvar sua mensagem na pasta local. Possivelmente não há espaço em disco.
+send-progress-filter-complete = Filtragem concluída.
+send-progress-filter-failed = Falha na filtragem.
 send-error-post-failed = A mensagem não pode ser enviada porque a conexão com o servidor de notícias falhou. O servidor pode estar indisponível ou recusando conexões. Verifique se as configurações do servidor de notícias estão corretas e tente novamente.
+# Variables:
+# $size - formatted message size
+send-warning-large-message = Aviso! Você está prestes a enviar uma mensagem de tamanho { $size }. Tem certeza que quer fazer isso?
+# Variables:
+# $folder - destination folder name
+send-progress-copy-start = Copiando mensagem para a pasta { $folder }…
+send-progress-sending-message = Enviando mensagem…
+send-later-error-title = Erro ao planejar envio de mensagem
+send-save-draft-error-title = Erro ao salvar rascunho
+send-save-template-error-title = Erro ao salvar modelo
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = destinatarios-nao-revelados
 # Variables:
