@@ -35,7 +35,9 @@ compose-attachment-reminder-prompt = Dosya eklemeyi mi unuttunuz?
 compose-attachment-reminder-send-button = Hayır, iletiyi gönder
 compose-attachment-reminder-add-button = Evet, unutmuşum!
 compose-newsgroups-not-supported-title = Haber Grupları Desteklenmiyor
+compose-newsgroups-not-supported = Bu hesap yalnızca e-posta alıcılarını destekler. Devam ederseniz haber grupları görmezden gelinir.
 compose-invalid-address-title = Geçersiz Alıcı Adresi
+compose-no-recipients = Alıcı belirtilmedi. Adres alanında bir alıcı veya haber grubu girin.
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address } geçerli bir e-posta adresi değil, çünkü kullanıcı@sunucu şeklinde değil. E-postayı göndermeden önce bunu düzeltmelisiniz.
@@ -529,6 +531,7 @@ cloud-file-account-error-title = Filelink Hesap Hatası
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Filelink hesabı silindiği için Filelink eki { $filename } güncellenemedi.
+cloud-file-authentication-error-title = Kimlik doğrulama hatası
 # Variables:
 # $provider - name of the online storage service
 cloud-file-authentication-error = { $provider } kimlik doğrulaması başarısız oldu.
