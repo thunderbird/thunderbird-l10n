@@ -10,6 +10,8 @@ compose-message-attachment-name = Csatolt üzenet
 
 ## Compose window
 
+compose-initialization-error-title = Üzenet szerkesztése
+compose-initialization-error = Hiba történt a szerkesztőablak megnyitásánál. Próbálja újra.
 compose-default-subject = (nincs tárgy)
 # Variables:
 # $subject - message subject
@@ -55,6 +57,8 @@ compose-attach-file-picker-title = Fájlok csatolása
 compose-attach-page-title = Válassza ki a mellékelendő helyet
 compose-attach-page-prompt = Weboldal (URL):
 compose-message-part-attachment-name = Csatolt üzenetrész
+compose-attachment-bucket-attach-files-tooltip = Fájlok csatolása
+compose-attachment-bucket-clear-selection-tooltip = Kijelölés törlése
 # Variables:
 # $filename - name of the file that could not be found
 compose-file-attachment-not-found = A(z) { $filename } fájl nem létezik, ezért nem lehet az üzenethez csatolni.
