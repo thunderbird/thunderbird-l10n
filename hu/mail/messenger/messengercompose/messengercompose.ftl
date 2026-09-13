@@ -37,6 +37,7 @@ compose-attachment-reminder-add-button = De igen!
 compose-newsgroups-not-supported-title = Hírcsoportok nem támogatottak
 compose-newsgroups-not-supported = Ebből a postafiókból csak levelet lehet küldeni. Ha folytatja, a hírcsoportok figyelmen kívül lesznek hagyva.
 compose-invalid-address-title = A címzett címe érvénytelen
+compose-no-recipients = Nincs címzett megadva. Írjon be egy címzettet vagy hírcsoportot a címmezőbe.
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address } nem érvényes e-mail cím, mert nem felhasználó@gép formában van. Az e-mail elküldése előtt ki kell javítania.
