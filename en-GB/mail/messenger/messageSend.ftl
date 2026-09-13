@@ -24,6 +24,12 @@ send-error-smtp-interrupted = The message could not be sent because the connecti
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = The message could not be sent because the connection to Outgoing server (SMTP) { $hostname } timed out. Try again.
 send-error-title = Send Message Error
+send-progress-assembling-mail-information = Assembling mail information…
+send-progress-assembling-message = Assembling message…
+send-progress-creating-mail-message = Creating mail message…
+send-progress-assembling-message-done = Assembling message…Done
+send-progress-copy-complete = Copy complete.
+send-progress-copy-failed = Copy failed.
 # Variables:
 # $folder - destination folder name; $localFolder - local folders name; $account - account name
 send-error-save-sent-locally =
@@ -39,6 +45,49 @@ send-error-save-draft-locally =
 send-error-save-template-locally =
     Your template was not copied to your templates folder ({ $folder }) due to network or file access errors.
     You can retry or save the template locally to { $localFolder }/{ $folder }-{ $account }.
+send-dialog-save-title = Save Message
 send-dialog-retry = &Retry
 send-error-save-to-local-folders = Unable to save your message to local folders. Possibly out of file storage space.
+send-progress-filter-complete = Filter complete.
+send-progress-filter-failed = Filter failed.
 send-error-filtering-message = Your message has been sent and saved, but there was an error while running message filters on it.
+send-error-post-failed = The message could not be posted because connecting to the news server failed. The server may be unavailable or is refusing connections. Please verify that your news server settings are correct and try again.
+# Variables:
+# $size - formatted message size
+send-warning-large-message = Warning! You are about to send a message of size { $size }. Are you sure that you want to do this?
+# Variables:
+# $folder - destination folder name
+send-progress-copy-start = Copying message to { $folder } folder…
+send-progress-sending-message = Sending message…
+send-later-error-title = Send Later Error
+send-save-draft-error-title = Save Draft Error
+send-save-template-error-title = Save Template Error
+# LOCALIZATION NOTE: This string must use only US-ASCII characters.
+send-undisclosed-recipients = undisclosed-recipients
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-no-ssl = The Outgoing server (SMTP) { $hostname } does not seem to support encrypted passwords. If you just set up the account, try changing the ‘Authentication method’ in ‘Account Settings | Outgoing server (SMTP)’ to ‘Password, transmitted insecurely’. If it used to work but now doesn’t, you may be susceptible to getting your password stolen.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-ssl = The Outgoing server (SMTP) { $hostname } does not seem to support encrypted passwords. If you just set up the account, try changing the ‘Authentication method’ in ‘Account settings | Outgoing server (SMTP)’ to ‘Normal password’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-plain-to-encrypt = The Outgoing server (SMTP) { $hostname } does not allow plaintext passwords. Please try changing the ‘Authentication method’ in ‘Account Settings | Outgoing server (SMTP)’ to ‘Encrypted password’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-failure = Unable to authenticate to Outgoing server (SMTP) { $hostname }. Please check the password and verify the ‘Authentication method’ in ‘Account Settings | Outgoing server (SMTP)’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-gssapi = The Kerberos/GSSAPI ticket was not accepted by the Outgoing server (SMTP) { $hostname }. Please check that you are logged in to the Kerberos/GSSAPI realm.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-mechanism-not-supported = The Outgoing server (SMTP) { $hostname } does not support the selected authentication method. Please change the ‘Authentication method’ in ‘Account Settings | Outgoing Server (SMTP)’.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-from-command = An error occurred while sending mail. The mail server responded: { $serverResponse }. Please verify that your email address is correct in your account settings and try again.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-data-command = An Outgoing server (SMTP) error occurred while sending mail. The server responded:  { $serverResponse }.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-message = An error occurred while sending mail. The mail server responded:  { $serverResponse }. Please check the message and try again.
