@@ -101,7 +101,13 @@ smtp-server-error = Kirja saatmisel esines viga: SMTP-serveri viga. Server vasta
 smtp-starttls-failed = Kirja saatmisel esines viga: pole võimalik luua turvalist ühendust SMTP-serveriga { $hostname }, kasutades STARTTLSi, kuna see server ei toeta antud võimalust. Lülita STARTTLS selle serveri puhul välja või võta ühendust oma teenusepakkujaga.
 # Variables:
 # $serverResponse - server response
+smtp-too-many-recipients = Kirja ei saadetud lubatud adressaatide arvu ületamise tõttu. Server vastas: { $serverResponse }.
+# Variables:
+# $serverResponse - server response
 smtp-error-sending-from-command = Kirja saatmisel esines viga. E-posti server vastas: { $serverResponse }.  Palun kontrolli, kas konto sätted on õiged, ja proovi uuesti.
+# Variables:
+# $serverResponse - server response
+smtp-permanent-size-exceeded = Sinu kirja suurus ületab üldise suuruspiirangu. Kirja ei saadetud. Proovi selle suurust vähendada ja siis uuesti saata. Server vastas:  { $serverResponse }.
 # Variables:
 # $serverResponse - server response; $recipient - intended recipient
 smtp-error-sending-recipient-command =
