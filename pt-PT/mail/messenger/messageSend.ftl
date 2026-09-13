@@ -92,4 +92,7 @@ smtp-auth-mechanism-not-supported = O servidor de envio (SMTP) { $hostname } nã
 smtp-server-error = Ocorreu um erro ao enviar o correio: erro do servidor (SMTP). O servidor respondeu:  { $serverResponse }.
 # Variables:
 # $serverResponse - server response
+smtp-too-many-recipients = A mensagem não foi enviada porque excedeu o número permitido de destinatários. O servidor respondeu: { $serverResponse }.
+# Variables:
+# $serverResponse - server response
 smtp-permanent-size-exceeded = O tamanho da mensagem que está a tentar enviar excede o limite global do servidor. A mensagem não foi enviada. Reduza o tamanho da mensagem e tente novamente. O servidor respondeu:  { $serverResponse }.
