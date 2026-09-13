@@ -7,6 +7,8 @@
 
 send-alert-queued-delivery-failed = Ocorreu um erro ao entregar as mensagens não enviadas.
 send-alert-followup-to-sender = O autor desta mensagem solicitou que respostas sejam enviadas somente para ele. Se quiser responder também ao grupo de notícias, adicione uma nova linha na área de endereçamento, selecione “Grupo de notícias” na lista de destinatários e insira o nome do grupo de notícias.
+send-unable-to-save-template = Não foi possível salvar sua mensagem como modelo.
+send-unable-to-save-draft = Não foi possível salvar sua mensagem como rascunho.
 send-error-failed = Falha ao enviar mensagem.
 send-unable-to-send-later = Desculpe, não conseguimos salvar sua mensagem para enviar mais tarde.
 # Variables:
