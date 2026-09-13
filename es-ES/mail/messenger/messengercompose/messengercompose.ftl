@@ -10,6 +10,97 @@ compose-message-attachment-name = Mensaje adjunto
 
 ## Compose window
 
+compose-initialization-error-title = Redacción de mensaje
+compose-initialization-error = Ha sucedido un error al crear una ventana de redacción de mensajes. Vuelva a intentarlo.
+compose-default-subject = (sin asunto)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Escribir: { $subject } - { $brand }
+compose-save-message-title = Guardar mensaje
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = ¿Guardar este mensaje en su carpeta de borradores ({ $folder }) y cerrar la ventana de redacción?
+compose-discard-changes-button = &Descartar cambios
+compose-send-confirm-title = Enviar mensaje
+compose-send-confirm-prompt = ¿Seguro que está preparado para mandar este mensaje?
+compose-send-confirm-button = Enviar
+compose-do-not-show-again = No volver a mostrarme esta ventana de diálogo.
+compose-empty-subject-title = Recordatorio de asunto
+compose-empty-subject-prompt = Su mensaje no tiene asunto.
+compose-empty-subject-send-button = &Enviar sin asunto
+compose-empty-subject-cancel-button = &Cancelar envío
+compose-attachment-reminder-title = Recordatorio de adjuntos
+compose-attachment-reminder-prompt = ¿Ha olvidado añadir un adjunto?
+compose-attachment-reminder-send-button = No, enviar ahora
+compose-attachment-reminder-add-button = ¡Uups, sí, se me ha olvidado!
+compose-newsgroups-not-supported-title = Grupos de noticias no admitidos
+compose-newsgroups-not-supported = Esta cuenta sólo soporta destinatarios de correo. Continuar ignorará los grupos de noticias.
+compose-invalid-address-title = Dirección de destinatario no válida
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } no es una dirección de correo electrónico válida porque no tiene la forma usuario@dominio. Debe corregirse antes de enviar el correo.
+compose-quit-sending-title = Enviando mensaje
+compose-quit-saving-title = Guardando mensaje
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } está actualmente enviando un mensaje.
+    ¿Quiere salir ahora, o esperar hasta que el mensaje haya sido enviado antes de salir?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } está actualmente guardando un mensaje.
+    ¿Quiere salir ahora, o esperar hasta que el mensaje haya sido guardado antes de salir?
+compose-quit-button = &Salir
+compose-wait-button = &Esperar
+compose-attach-file-picker-title = Adjuntar archivo(s)
+compose-attach-page-title = Especifique qué dirección desea adjuntar
+compose-attach-page-prompt = Página web (URL):
+compose-message-part-attachment-name = Parte del mensaje adjunto
+compose-attachment-bucket-attach-files-tooltip = Adjuntar archivo(s)
+compose-attachment-bucket-clear-selection-tooltip = Limpiar selección
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = El archivo { $filename } no existe por lo que no ha podido adjuntarse al mensaje.
+compose-file-attachment-error-title = Anexado de archivo
+compose-message-file-error-title = Archivo de mensajes
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = El archivo { $filename } no existe y no se ha podido usar como contenido del mensaje.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = No se ha podido cargar el archivo { $filename } como contenido del mensaje.
+compose-save-success-title = Guardar mensaje
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Su mensaje se ha guardado en la carpeta { $folder } en { $server }.
+compose-rename-attachment-title = Renombrar adjunto
+compose-rename-attachment-prompt = Nuevo nombre del adjunto:
+remind-later-button =
+    .label = Recordármelo más tarde
+    .accesskey = R
+disable-attachment-reminder-menu-item =
+    .label = Desactivar recordatorio de adjuntos en el mensaje actual
+find-replace-button =
+    .label = Reemplazar…
+    .accesskey = R
+    .tooltiptext = Mostrar el diálogo Buscar y reemplazar
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Introduzca la dirección Desde personalizada que quiere usar en lugar de { $identity }
+compose-custom-from-address-title = Personalizar dirección De
+compose-custom-from-address-warning = Si su proveedor de correo lo admite, Personalizar dirección De le permite hacer una alteración menor puntual a su dirección de remite sin tener que crear una nueva identidad en la configuración de cuentas. Por ejemplo, si su dirección de remite es Juan Pérez <juan@example.com> puede que quiera cambiarlo a Juan Pếrez <juan+perez@example.com> o Juan <juan@example.com>.
+compose-custom-from-address-ignore = No volver a avisarme de nuevo
+compose-blocked-content-options-button = Opciones
+compose-blocked-content-options-accesskey = O
+compose-blocked-content-preferences-button = Preferencias
+compose-blocked-content-preferences-accesskey = P
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Desbloquear { $url }
 
 ## Send Format
 
@@ -75,6 +166,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Expandir lista
     .accesskey = x
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = Eliminar direcciones { $field }
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = ¿Está seguro de que quiere eliminar las direcciones { $field }?
+compose-remove-address-row-button = Eliminar
 
 ## Attachment widget
 
@@ -432,6 +530,34 @@ cloud-file-account-error-title = Error en la cuenta de Filelink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = No se ha podido actualizar el archivo adjunto Filelink { $filename }, porque su cuenta Filelink ha sido eliminada.
+cloud-file-authentication-error-title = Error de identificación
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = No se puede iniciar sesión en { $provider }.
+cloud-file-upload-error-title = Error de subida
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = No se puede subir { $filename } a { $provider }.
+cloud-file-quota-error-title = Error de cuota
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Subir { $filename } a { $provider } excedería su cuota de espacio.
+cloud-file-size-error-title = Error en el tamaño del archivo
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } excede el tamaño máximo para { $provider }.
+cloud-file-unknown-error-title = Error desconocido
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Ha sucedido un error desconocido durante la comunicación con { $provider }.
+cloud-file-deletion-error-title = Error de borrado
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Ha sucedido un problema al eliminar { $filename } de { $provider }.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
@@ -446,6 +572,33 @@ big-file-notification-text =
         [one] Este archivo es grande. Podría ser mejor usar Filelink.
        *[other] Estos archivos son grandes. Podría ser mejor usar Filelink.
     }
+big-file-learn-more-button =
+    .label = Saber más…
+    .accesskey = m
+big-file-link-button =
+    .label = Enlazar
+    .accesskey = E
+big-file-ignore-button =
+    .label = Ignorar
+    .accesskey = I
+big-file-choose-account-title = Elija una cuenta
+big-file-choose-account-prompt = Elija una cuenta en la nube a la que subir el adjunto
+big-file-hide-notification-title = No subir mis archivos
+big-file-hide-notification-prompt = No se le avisará si adjunta más archivos grandes a este mensaje.
+big-file-hide-notification-checkbox = No volver a avisarme.
+cloudfile-uploading-stop-button =
+    .label = No mostrar esto de nuevo
+    .accesskey = N
+cloud-file-privacy-warning = Enlazado completado. Tenga en cuenta que los adjuntos enlazados pueden ser accesibles a las personas que puedan ver o adivinar los enlaces.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Subiendo a { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Subido a { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Adjuntar archivo(s) a través de { $provider }
 
 ## Link Preview
 
