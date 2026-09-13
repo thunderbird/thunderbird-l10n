@@ -432,6 +432,34 @@ cloud-file-account-error-title = Villa í Filelink-reikningi
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Mistókst að uppfæra Filelink-viðhengið { $filename } vegna þess að Filelink-reikningi þess hefur verið eytt.
+cloud-file-authentication-error-title = Sannvottunarvilla
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Get ekki sannvottað fyrir { $provider }.
+cloud-file-upload-error-title = Villa í upphali
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Get ekki hlaðið upp { $filename } á { $provider }.
+cloud-file-quota-error-title = Villa í kvóta
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Upphölun á { $filename } yfir á { $provider } er stærra en þinn kvóti leyfir.
+cloud-file-size-error-title = Villa í skráarstærð
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } fer yfir hámarksstærð fyrir { $provider }.
+cloud-file-unknown-error-title = Ókunn villa
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Upp kom óþekkt villa í samskiptum við { $provider }.
+cloud-file-deletion-error-title = Villa við eyðingu
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Ekki tókst að eyða { $filename } frá { $provider }.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
