@@ -45,11 +45,13 @@ send-error-save-draft-locally =
 send-error-save-template-locally =
     N'eo ket bet eilet ho padennek en ho teuliad padennekoù ({ $folder }) abalamour da fazioù kenrouedad pe restroù ahez.
     Gellout a rit koulskoude adklask pe enrollañ ar padennek en un doare lec'hel e { $localFolder }/{ $folder }-{ $account }.
+send-dialog-save-title = Enrollañ ar gemennadenn
 send-dialog-retry = &Klask en-dro
 send-error-save-to-local-folders = N'eo ket posupl enrollañ ho kemennadenn en teuliad lec'hel. Sur a-walc'h peogwir e vank spas stokañ.
 send-progress-filter-complete = Sil klok.
 send-progress-filter-failed = Sil c'hwitet.
 send-error-filtering-message = Kaset hag enrollet eo bet ho kemennadenn, met ur gudenn a zo bet en ur erounit siloù ar c'hemennadennoù warni.
+send-error-post-failed = N'eo ket bet kaset ar postel rak c'hwitet en deus ar c'hennaskañ ouzh dafariad ar c'heleier. N'eo ket hegerz an dafariad marteze pe emañ o nac'hañ kennaskoù. Gwiriit ez eo dereat hoc'h arventennoù evit dafariad ar c'heleier ha klaskit en-dro.
 # Variables:
 # $size - formatted message size
 send-warning-large-message = Diwallit! Emaoc'h o vont da gas ur gemennadenn a vent { $size }. Sur oc'h e fell deoc'h ober-se?
@@ -62,3 +64,30 @@ send-save-draft-error-title = Fazi enrollañ brouilhed
 send-save-template-error-title = Fazi enrollañ patrom
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = degemererien dianataet
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-no-ssl = An dafariad kas (SMTP) { $hostname } ne skor ket ar gerioù-tremen enrineget. Mard emaoc'h o paouez kefluniañ ar gont, klaskit kemmañ an arventenn ‘Hentenn dilesa’ e-barzh ‘Arventennoù kont | Arventennoù dafariad’ da ‘Ger-tremen, treuzkas arvarus’. Mard ez ae en-dro betek henn ha mar c'hwit bremañ, posupl eo e vefe bet laeret ho ger-tremen diganeoc'h.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-ssl = An dafariad kas (SMTP) { $hostname } ne skor ket ar gerioù-tremen enrineget. Mard emaoc'h o paouez kefluniañ ar gont, klaskit gant ‘Ger-tremen reizh’ evit an arventenn ‘Hentenn dilesa’ e-barzh ‘Arventennoù kont | Arventennoù dafariad’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-plain-to-encrypt = An dafariad kas (SMTP) { $hostname } ne skor ket ar gerioù-tremen e testenn blaen. Klaskit kemmañ an ‘Hentenn dilesa’ e-barzh ‘Arventennoù kont | Arventennoù dafariad’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-failure = N'hall ket en em zilesa ouzh an dafariad kas (SMTP) { $hostname }. Gwiriit ar ger-tremen hag an ‘Hentenn dilesa’ e-barzh ‘Arventennoù kont | Arventennoù dafariad’ mar plij.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-gssapi = An tiked Kerberos/GSSAPI n'eo ket bet degemeret gant an dafariad (SMTP) { $hostname }. Gwiriit ez oc'h kennasket e-barzh an domani Kerberos/GSSAPI mar plij.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-mechanism-not-supported = An dafariad (SMTP) { $hostname } ne skor ket an hentenn dilesa diuzet. Kemmit an ‘Hentenn dilesa’ e-barzh an ‘Arventennoù kont | Dafariad kas (SMTP)’ mar plij.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-from-command = Fazi en ur gas ar postel. Respontet eo bet { $serverResponse } gant an dafariad. Gwiriit ho chomlec'h postel e arventennoù ar c'hontoù ha klaskit en-dro.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-data-command = Fazi dafariad kas (SMTP) en ur gas ar postel. Respontet en deus an dafariad :  { $serverResponse }.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-message = Fazi en ur gas ar gemennadenn. Respontet en deus an dafariad: { $serverResponse }. Gwiriit ar gemennadenn ha klaskit en-dro.
