@@ -75,11 +75,35 @@ send-undisclosed-recipients = destinatarios-no-mostrados
 # $recipient - recipient address
 smtp-error-illegal-local-part = Hay caracteres que no son ASCII en la parte local de la dirección del destinatario { $recipient } y tu servidor no es compatible con SMTPUTF8. Cambia esta dirección y vuelve a intentarlo.
 # Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-no-ssl = El servidor de salida (SMTP) { $hostname } no parece soportar contraseñas cifradas. Si acabas de configurar la cuenta, intenta cambiar el ‘Método de autenticación’ en ‘Configuración de cuenta | Servidor de salida (SMTP)’ a ‘Contraseña, transmitida de forma insegura’. Si funcionaba y dejó de hacerlo, puedes ser suceptible a un robo de contraseña.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-ssl = El servidor de salida (SMTP) { $hostname } parece no soportar contraseñas cifradas. Si solo estás configurando la cuenta, trata de cambiar el ‘Método de Autenticación’ en ‘ Configuración de cuenta | Servidor de salida (SMTP)’ a 'Contraseña Normal'.’  ‘’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-plain-to-encrypt = El servidor de salida (SMTP) { $hostname } no permite contraseñas en texto plano. Por favor, intenta cambiar el ‘Método de Autenticación’ en ‘ Configuración de la cuenta | Servidor de salida (SMTP)’ a 'Contraseña cifrada'.’  ‘’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-failure = No se puede autenticar al servidor de salida(SMTP) { $hostname }. Por favor, comprueba la contraseña y verifica el ‘Método de Autenticación’ en ‘ Configuración de la cuenta | Servidor de salida (SMTP)'.’ ’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-gssapi = El ticket Kerberos/GSSAPI no fue aceptado por el servidor de salida (SMTP) { $hostname }. Por favor verifica que has iniciado sesión en Kerberos/GSSAPI.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-mechanism-not-supported = El servidor de salida (SMTP) { $hostname } no soporta el método de autenticación seleccionado. Por favor cambia el ‘Método de Autenticación’ en ‘Configuración de la cuenta | Servidor de Salida (SMTP)’.
+# Variables:
 # $serverResponse - server response
 smtp-server-error = Ocurrió un error al enviar el correo: Error del servidor (SMTP). El servidor respondió:  { $serverResponse }.
 # Variables:
 # $hostname - outgoing server hostname
 smtp-starttls-failed = Hubo un error mientras se enviaba el correo: No se pudo establecer una conexión segura con el servidor SMTP { $hostname } usando STARTTLS porque no anuncia esa funcionalidad . Deshabilita STARTTLS para ese servidor o contacta a u proveedor.
+# Variables:
+# $serverResponse - server response
+smtp-too-many-recipients = El mensaje no se envió por exceder el número permitido de destinatarios. El servidor respondió: { $serverResponse }.
+# Variables:
+# $serverResponse - server response
+smtp-permanent-size-exceeded = El tamaño del mensaje que estás tratando de enviar excede el límite del tamaño global del servidor. El mensaje no fue enviado; reduce el tamaño del mensaje e intenta de nuevo. El servidor respondió:  { $serverResponse }.
 # Variables:
 # $serverResponse - server response; $recipient - intended recipient
 smtp-error-sending-recipient-command =
