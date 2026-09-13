@@ -3,11 +3,37 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Compose alerts
+
+compose-message-cancelling = Kanselleer tans…
+
+## Compose window
+
+
+## Send Format
+
+
+## Addressing widget
+
+
+## Attachment widget
+
+
+## Variables:
+## $count (Number) - Number of files being dropped onto the composer.
+
+
 ## Reorder Attachment Panel
 
 default-delete-cmd =
     .label = Skrap
     .accesskey = S
+
+## Encryption
+
+
+## Addressing Area
+
 
 ## Notifications
 
@@ -18,3 +44,27 @@ attachment-reminder-keywords-msg =
         [one] Aanhegselwoord opgemerk:
        *[other] { $count } aanhegselwoorde opgemerk:
     }
+
+## Editing
+
+
+# Tools
+
+
+## Filelink
+
+
+# Placeholder file
+
+
+# Template
+
+
+# Messages
+
+
+## Link Preview
+
+
+## Dictionary selection popup
+
