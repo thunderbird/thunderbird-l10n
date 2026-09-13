@@ -84,7 +84,13 @@ smtp-auth-gssapi = The Kerberos/GSSAPI ticket was not accepted by the Outgoing s
 smtp-auth-mechanism-not-supported = The Outgoing server (SMTP) { $hostname } does not support the selected authentication method. Please change the ‘Authentication method’ in ‘Account Settings | Outgoing Server (SMTP)’.
 # Variables:
 # $serverResponse - server response
+smtp-too-many-recipients = The message was not sent due to exceeding the allowed number of recipients. The server responded: { $serverResponse }.
+# Variables:
+# $serverResponse - server response
 smtp-error-sending-from-command = An error occurred while sending mail. The mail server responded: { $serverResponse }. Please verify that your email address is correct in your account settings and try again.
+# Variables:
+# $serverResponse - server response
+smtp-permanent-size-exceeded = The size of the message you are trying to send exceeds the global size limit of the server. The message was not sent; reduce the message size and try again. The server responded:  { $serverResponse }.
 # Variables:
 # $serverResponse - server response
 smtp-error-sending-data-command = An Outgoing server (SMTP) error occurred while sending mail. The server responded:  { $serverResponse }.
