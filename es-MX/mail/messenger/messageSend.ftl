@@ -28,6 +28,24 @@ send-error-title = Error al enviar el mensaje
 # $filename - name or URL of the file that could not be attached
 send-error-attaching-file = Hubo un problema al adjuntar { $filename }. Por favor, verifica que tienes acceso al archivo.
 # Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-sent-locally =
+    Tu mensaje fue enviado pero no se colocó una copia en la carpeta de enviados ({ $folder }) debido un error de red o a un error de acceso en los archivos.
+    Puedes reintentar o guardar el mensaje localmente en { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-draft-locally =
+    El borrador del mensaje no fue copiado a la carpeta de borradores ({ $folder }) debido a un error de red o un error de acceso a los archivo.
+    Puedes reintentar o guardar el borrador localmente en { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-template-locally =
+    Tu plantilla no fue copiada a tu carpeta de plantillas ({ $folder }) debido a un error en la red o errores de acceso a los archivos.
+    Puedes reintentar o guardar la plantilla localmente a { $localFolder }/{ $folder }-{ $account }.
+send-dialog-retry = &Reintentar
+send-error-save-to-local-folders = Incapaz de guardar tu mensaje en la carpeta local. Posiblemente ya no tengas espacio de almacenamiento.
+send-error-filtering-message = Tu mensaje se ha enviado y guardado, pero se produjo un error durante la ejecución de filtros de mensajes en él.
+# Variables:
 # $hostname - outgoing server hostname
 send-error-smtp-security-issue = La configuración relacionada a { $hostname } debe corregirse.
 send-error-nntp-ok = Tu mensaje ha sido enviado al grupo de noticias pero no ha sido enviado a otros destinatarios.
