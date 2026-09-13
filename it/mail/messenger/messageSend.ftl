@@ -5,4 +5,5 @@
 
 ## Message sending
 
+send-unable-to-send-later = Siamo spiacenti, non è stato possibile salvare il messaggio per l’invio differito.
 send-error-title = Errore di invio
