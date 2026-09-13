@@ -12,10 +12,16 @@ compose-message-attachment-name = Attached Message
 
 compose-initialization-error-title = Message Compose
 compose-initialization-error = An error occurred while creating a message compose window. Please try again.
+compose-default-subject = (no subject)
 # Variables:
 # $subject - message subject
 # $brand - application name
 compose-window-title = Write: { $subject } - { $brand }
+compose-save-message-title = Save Message
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Save this message to your drafts folder ({ $folder }) and close the Write window?
+compose-discard-changes-button = &Discard changes
 compose-send-confirm-title = Send Message
 compose-send-confirm-prompt = Are you sure you are ready to send this message?
 compose-send-confirm-button = Send
@@ -48,6 +54,7 @@ compose-quit-saving-prompt =
     Would you like to wait until the message has been saved before quitting or quit now?
 compose-quit-button = &Quit
 compose-wait-button = &Wait
+compose-attach-file-picker-title = Attach File(s)
 compose-attach-page-title = Please specify a location to attach
 compose-attach-page-prompt = Web Page (URL):
 compose-message-part-attachment-name = Attached Message Part
