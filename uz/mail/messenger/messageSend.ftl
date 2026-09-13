@@ -5,6 +5,15 @@
 
 ## Message sending
 
+send-alert-queued-delivery-failed = Jo‘natilmagan xabarlarni yetkazib berishda xatolik yuz berdi.
+send-alert-followup-to-sender = Bu xabar muallifi javoblarni faqat o‘ziga jo‘natishni so‘ragan. Agar siz yangiliklar to‘plamiga javob berishni xohlasangiz, manzillar hududiga yangi qator qo‘shing, qabul qiluvchilar ro‘yxatidan yangiliklar to‘plaminin tanlang va yangiliklar guruhining nomini kiriting.
+send-unable-to-save-template = Xabarni namuna shaklida saqlab bo‘lmadi.
+send-unable-to-save-draft = Xabarni qoralama sifatida saqlab bo‘lmadi.
+send-error-failed = Xabar jo‘natilmadi.
+send-unable-to-send-later = Xabaringizni keyinroq jo‘natish uchu saqlab qo‘ya olmadik.
+# Variables:
+# $hostname - outgoing server hostname
+send-error-smtp-unknown-server = Xat jo‘natilayotganda xatolik yuz berdi: Chiquvchi server (SMTP) { $hostname } noma’lum. Server noto‘g‘ri sozlangan bo‘lishi mumkin. Chiquvchi server sozlamalari (SMTP) to‘g‘ri ekanlgigiga ishonch hosil qiling va qayta urinib ko‘ring.
 # Variables:
 # $hostname - outgoing server hostname
 send-error-smtp-request-refused = Xat jo‘natilayotganda xatolik yuz berdi: Chiquvchi serverga (SMTP) { $hostname } ulana olmadi. Server o‘chirilgan yoki SMTP ulanishlarni rad qilayotgan bo‘lishi mumkin. Chiquvchi server (SMTP) sozlamalari to‘g‘riligini tekshiring va qayta urinib ko‘ring.
