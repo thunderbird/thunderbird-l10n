@@ -10,6 +10,10 @@ compose-message-attachment-name = Message joint
 
 ## Compose window
 
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Rédaction : { $subject } - { $brand }
 compose-send-confirm-title = Envoyer le message
 compose-send-confirm-prompt = Voulez-vous vraiment envoyer ce message tout de suite ?
 compose-send-confirm-button = Envoyer
@@ -65,6 +69,20 @@ find-replace-button =
     .label = Remplacer…
     .accesskey = l
     .tooltiptext = Afficher le dialogue Rechercher et remplacer
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Saisir une adresse d’expédition personnalisée à utiliser à la place de { $identity }
+compose-custom-from-address-title = Personnaliser l’adresse d’expédition
+compose-custom-from-address-warning = Si votre fournisseur de messagerie le permet, personnaliser l’adresse d’expédition permet d’effectuer une modification ponctuelle de votre adresse d’expédition sans avoir à créer de nouvelle identité depuis les paramètres des comptes. Par exemple, si votre adresse d’expédition est Jules César <jules@example.com> vous souhaiterez peut-être la modifier en Jules César <jules+cesar@example.com> ou bien Jules <jules@example.com>.
+compose-custom-from-address-ignore = Ne plus jamais me prévenir
+compose-blocked-content-options-button = Options
+compose-blocked-content-options-accesskey = O
+compose-blocked-content-preferences-button = Préférences
+compose-blocked-content-preferences-accesskey = P
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Débloquer { $url }
 
 ## Send Format
 
@@ -487,6 +505,33 @@ cloud-file-account-error-title = Erreur de compte Filelink
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Échec de la mise à jour de la pièce jointe Filelink { $filename }, car son compte Filelink a été supprimé.
 cloud-file-authentication-error-title = Erreur d’authentification
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Impossible de s’authentifier à { $provider }.
+cloud-file-upload-error-title = Erreur de téléchargement
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Impossible de télécharger { $filename } vers { $provider }.
+cloud-file-quota-error-title = Erreur de quota
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Télécharger { $filename } vers { $provider } dépasserait le quota qui vous est alloué.
+cloud-file-size-error-title = Erreur de taille de fichier
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } dépasse la taille maximale autorisée pour { $provider }.
+cloud-file-unknown-error-title = Erreur inconnue
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Une erreur inconnue est survenue lors de la communication avec { $provider }.
+cloud-file-deletion-error-title = Erreur de suppression
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Il y a eu un problème lors de la suppression de { $filename } sur { $provider }.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
