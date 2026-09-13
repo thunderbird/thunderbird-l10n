@@ -24,6 +24,12 @@ send-error-smtp-interrupted = Wysyłanie wiadomości się nie powiodło, poniewa
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = Wysyłanie wiadomości się nie powiodło, ponieważ upłynął limit czasu połączenia z serwerem { $hostname } poczty wychodzącej (SMTP). Należy spróbować ponownie lub skontaktować się z administratorem sieci.
 send-error-title = Błąd wysyłania wiadomości
+send-progress-assembling-mail-information = Przygotowywanie informacji o wiadomości…
+send-progress-assembling-message = Przygotowywanie wiadomości…
+send-progress-creating-mail-message = Tworzenie wiadomości pocztowej…
+send-progress-assembling-message-done = Przygotowywanie wiadomości… Ukończono
+send-progress-copy-complete = Ukończono kopiowanie.
+send-progress-copy-failed = Kopiowanie się nie powiodło.
 # Variables:
 # $folder - destination folder name; $localFolder - local folders name; $account - account name
 send-error-save-sent-locally =
@@ -39,9 +45,22 @@ send-error-save-draft-locally =
 send-error-save-template-locally =
     Szablon nie został skopiowany do folderu { $folder } z powodu błędów sieciowych lub dostępu do plików.
     Można spróbować ponownie lub zapisać szablon lokalnie w „{ $localFolder }/{ $folder }-{ $account }”.
+send-dialog-save-title = Zapisz wiadomość
 send-dialog-retry = &Spróbuj ponownie
 send-error-save-to-local-folders = Nie można zapisać wiadomości w folderach lokalnych. Prawdopodobnie brakuje miejsca na dysku.
+send-progress-filter-complete = Ukończono filtrowanie.
+send-progress-filter-failed = Filtrowanie się nie powiodło.
 send-error-filtering-message = Wiadomość została wysłana i zapisana, ale wystąpił błąd podczas stosowania do niej filtrów.
+# Variables:
+# $size - formatted message size
+send-warning-large-message = Ostrzeżenie! Próbujesz wysłać wiadomość o rozmiarze { $size }. Czy kontynuować wysyłanie wiadomości?
+# Variables:
+# $folder - destination folder name
+send-progress-copy-start = Kopiowanie wiadomości do folderu { $folder }…
+send-progress-sending-message = Wysyłanie wiadomości…
+send-later-error-title = Błąd operacji Wyślij później
+send-save-draft-error-title = Błąd zapisywania szkicu
+send-save-template-error-title = Błąd zapisywania szablonu
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = ukryci-adresaci
 # Variables:
@@ -65,6 +84,9 @@ smtp-auth-gssapi = Uwierzytelnianie przy pomocy Kerberos/GSSAPI nie zostało zaa
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-mechanism-not-supported = Serwer „{ $hostname }” poczty wychodzącej (SMTP) nie obsługuje wybranej metody uwierzytelniania. Proszę zmienić metodę uwierzytelniania w Poczcie wychodzącej w Konfiguracji kont.
+# Variables:
+# $serverResponse - server response
+smtp-too-many-recipients = Wiadomość nie została wysłana z powodu przekroczenia dozwolonej liczby adresatów. Odpowiedź serwera: { $serverResponse }.
 # Variables:
 # $serverResponse - server response
 smtp-permanent-size-exceeded = Rozmiar wysyłanej wiadomości przekracza globalny limit rozmiaru wiadomości na serwerze. Wiadomość nie została wysłana; należy zmniejszyć jej rozmiar i spróbować ponownie. Odpowiedź serwera: { $serverResponse }.
