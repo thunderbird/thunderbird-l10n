@@ -710,6 +710,9 @@ key-in-message-body = Một khóa đã được tìm thấy trong nội dung th�
 sig-mismatch = Lỗi - Chữ ký không khớp
 invalid-email = Lỗi - (Các) địa chỉ email không hợp lệ
 # Variables:
+#   $name (String) - File name of the attachment.
+attachment-pgp-key-import = Tập tin đính kèm ‘{ $name }’ có vẻ là tập tin khóa OpenPGP. Bạn có muốn nhập các khóa có trong đó không?
+# Variables:
 # $name (String) - File name of the attachment.
 attachment-pgp-key =
     Tập tin đính kèm ‘{ $name }’ mà bạn đang mở có vẻ là một tập tin khóa OpenPGP.
@@ -733,6 +736,7 @@ debug-log-title = Nhật ký gỡ lỗi OpenPGP
 dlg-button-ok = &OK
 dlg-button-close = Đóng (&C)
 dlg-button-cancel = &Hủy bỏ
+dlg-button-save = Lưu (&S)
 dlg-no-prompt = Không hiện lại hộp thoại này
 enig-prompt = Lời nhắc OpenPGP
 enig-confirm = Xác nhận OpenPGP

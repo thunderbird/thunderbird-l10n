@@ -258,6 +258,7 @@ account-hub-oauth-unsupported-title = Cần thực hiện các cấu hình bổ 
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
 account-hub-oauth-unsupported-description = { -brand-short-name } không thể tự động cấu hình OAuth2 cho hostname này. Chọn Cấu hình nâng cao để thêm tài khoản, sau đó hoàn thành thiết lập trong Cài đặt tài khoản. <a data-l10n-name="oauth-support-link">Nhận trợ giúp về thiết lập OAuth2.</a>
 account-hub-username-help-text = Thường là địa chỉ email đầy đủ của bạn
+account-hub-port-help-text = Nếu để trống, { -brand-short-name } sẽ thử tìm cổng.
 account-hub-notification-show-more = Xem thêm
 account-hub-notification-show-less = Hiện ít hơn
 account-hub-email-setup-header = Thêm địa chỉ email của bạn
