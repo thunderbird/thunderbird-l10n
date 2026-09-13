@@ -57,6 +57,7 @@ send-error-filtering-message = Tu mensaje se ha enviado y guardado, pero se prod
 # Variables:
 # $hostname - outgoing server hostname
 send-error-smtp-security-issue = La configuración relacionada a { $hostname } debe corregirse.
+send-error-post-failed = Este mensaje no pudo ser publicado porque falló el intento de conexión con el servidor de noticias. El servidor puede no estar disponible o no acepta conexiones. Por favor, verifica que tu configuración del servidor de noticias es correcta y vuelve a intentarlo, o contacta con el administrador de tu red.
 # Variables:
 # $size - formatted message size
 send-warning-large-message = ¡Advertencia! Estás por enviar un mensaje del tamaño { $size }. ¿Estás seguro que quieres hacerlo?
@@ -103,6 +104,9 @@ smtp-starttls-failed = Hubo un error mientras se enviaba el correo: No se pudo e
 smtp-too-many-recipients = El mensaje no se envió por exceder el número permitido de destinatarios. El servidor respondió: { $serverResponse }.
 # Variables:
 # $serverResponse - server response
+smtp-error-sending-from-command = Ocurrió un error mientras se enviaba el correo. El servidor de correo respondió: { $serverResponse }. Por favor, verifica que tu dirección de correo electrónico es correcta en las preferencias de correo y vuelve a intentarlo.
+# Variables:
+# $serverResponse - server response
 smtp-permanent-size-exceeded = El tamaño del mensaje que estás tratando de enviar excede el límite del tamaño global del servidor. El mensaje no fue enviado; reduce el tamaño del mensaje e intenta de nuevo. El servidor respondió:  { $serverResponse }.
 # Variables:
 # $serverResponse - server response; $recipient - intended recipient
@@ -110,3 +114,9 @@ smtp-error-sending-recipient-command =
     Hubo un error mientras se enviaba el correo: El servidor de correo respondió:
     { $serverResponse }.
     Revisa el destinatario "{ $recipient }" e inténtalo de nuevo.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-data-command = Ocurrió un error (SMTP) al enviar el correo. El servidor respondió:  { $serverResponse }.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-message = Ocurrió un error al enviar el correo. El servidor de correo respondió:  { $serverResponse }. Por favor, comprueba el mensaje y vuelve a intentarlo.
