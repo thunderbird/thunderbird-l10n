@@ -10,6 +10,22 @@ compose-message-attachment-name = Teachdaireachd a chaidh a chur ris
 
 ## Compose window
 
+compose-send-confirm-title = Cuir an teachdaireachd
+compose-send-confirm-prompt = A bheil thu cinnteach gu bheil thu airson an teachdaireachd seo a chur an-dràsta?
+compose-send-confirm-button = Cuir
+compose-quit-saving-title = A' sàbhaladh na teachdaireachd
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    Tha { $brand } a' cur teachdaireachd an-dràsta fhèin.
+    A bheil thu airson feitheamh gus am bi an teachdaireachd air a chur mus fàg thu an-seo no a bheil thu airson an-seo fhàgail sa bhad?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    Tha { $brand } a' sàbhaladh teachdaireachd an-dràsta fhèin.
+    A bheil thu airson feitheamh gus an deach an teachdaireachd a shàbhaladh mus fàg thu an-seo no a bheil thu airson fàgail sa bhad?
+compose-quit-button = &Fàg an-seo
+compose-wait-button = &Fuirich
 compose-file-attachment-error-title = Cuir faidhle ris
 find-replace-button =
     .label = Cuir ’na àite...
