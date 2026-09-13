@@ -92,4 +92,7 @@ smtp-auth-mechanism-not-supported = Il server in uscita (SMTP) { $hostname } non
 smtp-server-error = Si è verificato un errore durante l’invio della posta: errore nel server posta in uscita (SMTP). Il server ha risposto: { $serverResponse }.
 # Variables:
 # $serverResponse - server response
+smtp-too-many-recipients = Il messaggio non è stato inviato perché il numero di destinatari supera il limite consentito. Il server ha risposto: { $serverResponse }.
+# Variables:
+# $serverResponse - server response
 smtp-permanent-size-exceeded = La dimensione del messaggio che si sta tentando di inviare supera il limite globale del server. Il messaggio non è stato inviato; ridurre la dimensione del messaggio e riprovare. Il server ha risposto: { $serverResponse }.
