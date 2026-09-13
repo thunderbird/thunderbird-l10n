@@ -3,8 +3,61 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Compose alerts
+
+compose-message-attachment-name = Приложена порака
+
+## Compose window
+
+
+## Send Format
+
+
+## Addressing widget
+
+
+## Attachment widget
+
+
+## Variables:
+## $count (Number) - Number of files being dropped onto the composer.
+
+
 ## Reorder Attachment Panel
 
 default-delete-cmd =
     .label = Избриши
     .accesskey = з
+
+## Encryption
+
+
+## Addressing Area
+
+
+## Notifications
+
+
+## Editing
+
+
+# Tools
+
+
+## Filelink
+
+
+# Placeholder file
+
+
+# Template
+
+
+# Messages
+
+
+## Link Preview
+
+
+## Dictionary selection popup
+
