@@ -10,6 +10,8 @@ compose-message-attachment-name = Mensagem anexada
 
 ## Compose window
 
+compose-initialization-error-title = Edição de mensagem
+compose-initialization-error = Ocorreu um erro ao criar a janela de edição de mensagem. Tente novamente.
 compose-default-subject = (sem assunto)
 # Variables:
 # $subject - message subject
@@ -48,6 +50,8 @@ compose-quit-saving-prompt =
 compose-quit-button = &Sair
 compose-wait-button = &Aguardar
 compose-attach-file-picker-title = Anexar arquivos
+compose-attachment-bucket-attach-files-tooltip = Anexar arquivos
+compose-attachment-bucket-clear-selection-tooltip = Limpar seleção
 # Variables:
 # $filename - name of the file that could not be found
 compose-file-attachment-not-found = O arquivo { $filename } não existe, por isso não pôde ser anexado à mensagem.
