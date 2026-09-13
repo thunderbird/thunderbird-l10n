@@ -10,6 +10,8 @@ compose-message-attachment-name = Pridėtas laiškas
 
 ## Compose window
 
+compose-initialization-error-title = Laiško rašymas
+compose-initialization-error = Klaida atveriant laiškų rašymo langą. Bandykite dar kartą.
 compose-default-subject = (nėra temos)
 # Variables:
 # $subject - message subject
@@ -34,6 +36,11 @@ compose-attachment-reminder-send-button = Ne, išsiųsti laišką
 compose-attachment-reminder-add-button = A, tikrai!
 compose-newsgroups-not-supported-title = Naujienų grupės nepalaikomos
 compose-newsgroups-not-supported = Ši paskyra skirta tik el. paštui. Jei tęsite, naujienų grupės bus ignoruojamos.
+compose-invalid-address-title = Netinkamas gavėjo adresas
+compose-no-recipients = Nenurodytas gavėjas. Adresavimo lauke nurodykite gavėją arba naujienų grupę.
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } yra netinkamas adresas, nes jis neatitinka formos „abonentas@severis“. Prieš siunčiant laišką reikia jį pataisyti.
 compose-quit-sending-title = Laiško išsiuntimas
 compose-quit-saving-title = Įrašomas laiškas
 # Variables:
@@ -49,6 +56,11 @@ compose-quit-saving-prompt =
 compose-quit-button = &Baigti
 compose-wait-button = &Palaukti
 compose-attach-file-picker-title = Prisegti failą (-us)
+compose-attach-page-title = Prašom nurodyti, kur rasti priedą.
+compose-attach-page-prompt = Tinklalapio URL:
+compose-message-part-attachment-name = Pridėta laiško dalis
+compose-attachment-bucket-attach-files-tooltip = Prisegti failą (-us)
+compose-attachment-bucket-clear-selection-tooltip = Išvalyti pasirinkimą
 # Variables:
 # $filename - name of the file that could not be found
 compose-file-attachment-not-found = Failas „{ $filename }“ neegzistuoja, todėl jo pridėti prie laiško negalima.
