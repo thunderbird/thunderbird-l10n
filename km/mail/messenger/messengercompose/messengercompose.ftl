@@ -10,6 +10,8 @@ compose-message-attachment-name = Attached Message
 
 ## Compose window
 
+compose-initialization-error-title = Message Compose
+compose-initialization-error = An error occurred while creating a message compose window. Please try again.
 compose-default-subject = (no subject)
 compose-save-message-title = Save Message
 compose-send-confirm-title = Send Message
@@ -26,6 +28,11 @@ compose-attachment-reminder-send-button = No, Send Now
 compose-attachment-reminder-add-button = Oh, I did!
 compose-newsgroups-not-supported-title = Newsgroups Not Supported
 compose-newsgroups-not-supported = This account only supports email recipients. Continuing will ignore newsgroups.
+compose-invalid-address-title = Invalid Recipient Address
+compose-no-recipients = No recipients were specified. Please enter a recipient or newsgroup in the addressing area.
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } is not a valid e-mail address because it is not of the form user@host. You must correct it before sending the e-mail.
 compose-quit-sending-title = Sending Message
 compose-quit-saving-title = រក្សាទុក​សារ​
 # Variables:
@@ -41,9 +48,13 @@ compose-quit-saving-prompt =
 compose-quit-button = Quit
 compose-wait-button = Wait
 compose-attach-file-picker-title = Attach File(s)
+compose-attach-page-title = Please specify a location to attach
+compose-attach-page-prompt = Web Page (URL):
+compose-message-part-attachment-name = Attached Message Part
 # Variables:
 # $filename - name of the file that could not be found
 compose-file-attachment-not-found = The file { $filename } does not exist so could not be attached to the message.
+compose-file-attachment-error-title = File Attach
 compose-save-success-title = Save Message
 # Variables:
 # $folder - folder in which the message was saved
