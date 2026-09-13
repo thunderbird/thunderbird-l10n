@@ -28,6 +28,10 @@ remind-later-button =
     .accesskey = L
 disable-attachment-reminder-menu-item =
     .label = Desativar o lembrete de anexo para a mensagem atual
+find-replace-button =
+    .label = Substituir…
+    .accesskey = t
+    .tooltiptext = Mostrar o diálogo Procurar e substituir
 
 ## Send Format
 
@@ -477,6 +481,9 @@ big-file-choose-account-prompt = Escolha uma conta na nuvem para onde enviar o a
 big-file-hide-notification-title = Não envie meus arquivos
 big-file-hide-notification-prompt = Você não será notificado se anexar mais arquivos grandes nesta mensagem.
 big-file-hide-notification-checkbox = Nunca me notificar sobre isto novamente.
+cloudfile-uploading-stop-button =
+    .label = Não mostrar isto novamente
+    .accesskey = N
 cloud-file-privacy-warning = A vinculação está completa. Note que os anexos vinculados podem ser acessados por pessoas que puderem ver ou adivinhar os links.
 # Variables:
 # $provider - name of the online storage service
