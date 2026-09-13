@@ -21,7 +21,16 @@ calendar-invitations-location =
 # $organizerProperty is the organizer of the event
 organizer =
     .value = Rīkotājs: { $organizerProperty }
+# $attendeeProperty is the attendee of the event
+calendar-invitations-attendee =
+    .value = Dalībnieks: { $attendeeProperty }
 calendar-invitations-none = Neviens
 # Invitations dialog
 calendar-invitations-title = Uzaicinājumi
+calendar-invitations-status-updating = Atjaunina uzaicinājumu sarakstu.
 calendar-invitations-status-none = Nav atrasts neviens neapstiprināts uzaicinājums.
+# Invitations list buttons
+calendar-invitations-accept =
+    .label = Apstiprināt
+calendar-invitations-decline =
+    .label = Noraidīt

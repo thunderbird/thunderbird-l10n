@@ -5,6 +5,7 @@
 select-all-calendars = Atlasīt visus
 select-none-calendars = Neatlasīt nevienu
 calendar-creation-dialog-title = Pievienot kalendāru
+calendar-creation-initial-description = Kalendāru var saglabāt datorā vai serverī, lai tam varētu piekļūt attālināti vai kopīgot to ar draugiem vai darbabiedriem.
 calendar-creation-initial-computer =
     .label = Manā datorā
 calendar-creation-initial-network =
@@ -35,6 +36,9 @@ calendar-creation-type =
     .value = Kalendāra veids:
 calendar-creation-location =
     .value = Atrašanās vieta:
+calendar-creation-location-placeholder =
+    .default-placeholder = Kalendāra servera URL vai saimniekdatora nosaukums
+    .placeholder = Kalendāra servera URL vai saimniekdatora nosaukums
 calendar-creation-network-nocredentials =
     .label = Šai atrašanās vietai nav nepieciešami pieteikšanās dati.
 calendar-creation-network-loading = Lūgums uzgaidīt, kamēr kalendāri tiek atklāti.
