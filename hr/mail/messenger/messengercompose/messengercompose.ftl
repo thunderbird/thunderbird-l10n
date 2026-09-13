@@ -13,6 +13,12 @@ compose-message-attachment-name = Priložena poruka
 compose-send-confirm-title = Pošalji poruku
 compose-send-confirm-prompt = Jeste li sigurni da ste spremni poslati ovu poruku?
 compose-send-confirm-button = Pošalji
+compose-do-not-show-again = Ne prikazuj ponovno ovaj prozor.
+compose-attachment-reminder-title = Podsjetnik dodavanja privitka
+compose-attachment-reminder-prompt = Jeste li zaboravili dodati privitak?
+compose-attachment-reminder-send-button = &Ne, pošalji sada
+compose-attachment-reminder-add-button = &Da, zaboravio sam!
+compose-quit-sending-title = Slanje poruke
 compose-quit-saving-title = Spremanje poruke
 # Variables:
 # $brand - application name
@@ -26,10 +32,40 @@ compose-quit-saving-prompt =
     Želite li pričekati sa zatvaranjem dok se poruka ne spremi ili želite zatvoriti sada?
 compose-quit-button = &Zatvori
 compose-wait-button = &Pričekaj
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = Datoteka { $filename } ne postoji, te je nije moguće priložiti.
+compose-message-file-error-title = Datoteka poruke
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = Datoteka { $filename } ne postoji i ne može biti korištena kao tijelo poruke.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = Datoteku { $filename } nije moguće učitati kao tijelo poruke.
+compose-save-success-title = Spremi poruku
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Vaša poruka je spremljena u mapu { $folder } pod { $server }.
+compose-rename-attachment-title = Preimenuj privitak
+compose-rename-attachment-prompt = Novo ime privitka:
+remind-later-button =
+    .label = Podsjeti me kasnije
+    .accesskey = k
+disable-attachment-reminder-menu-item =
+    .label = Onemogući podsjetnik za privitak za trenutnu poruku
 find-replace-button =
     .label = Zamijeni…
     .accesskey = Z
     .tooltiptext = Prikaži pronađi i zamijeni prozor
+compose-blocked-content-options-button = Mogućnosti
+compose-blocked-content-options-accesskey = o
+compose-blocked-content-preferences-button = Postavke
+compose-blocked-content-preferences-accesskey = P
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Deblokiraj { $url }
 
 ## Send Format
 
@@ -465,6 +501,33 @@ cloud-file-account-error-title = Filelink greška računa
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Nije uspjelo ažuriranje Filelink privitka { $filename }, iz razloga što je Filelink račun obrisan.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Nije moguća autentifikacija na { $provider }.
+cloud-file-upload-error-title = Greška prilikom prijenosa
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Nije moguće prenjeti { $filename } na { $provider }.
+cloud-file-quota-error-title = Greška kvote
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Prijenos { $filename } na { $provider } bi premašio vašu diskovnu kvotu.
+cloud-file-size-error-title = Greška u veličini datoteke
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } prelazi maksimalnu veličinu datoteke za { $provider }.
+cloud-file-unknown-error-title = Nepoznata greška
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Dogodila se nepoznata greška u komunikaciji s { $provider }.
+cloud-file-deletion-error-title = Greška prilikom brisanja
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Došlo je do problema prilikom brisanja { $filename } sa { $provider }.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
