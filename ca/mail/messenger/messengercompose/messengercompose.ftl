@@ -37,6 +37,7 @@ compose-attachment-reminder-add-button = Sí, i tant!
 compose-newsgroups-not-supported-title = No es permeten grups de discussió
 compose-newsgroups-not-supported = Aquest compte només permet destinataris de correu. Si continueu, s'ignoraran els grups de discussió.
 compose-invalid-address-title = L'adreça del destinatari no és vàlida
+compose-no-recipients = No s'ha indicat cap destinatari. Introduïu un destinatari o grup de discussió a l'àrea d'adreçament.
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address } no és una adreça electrònica vàlida perquè no té el format usuari@servidor. Heu de corregir-ho abans d'enviar el missatge.
