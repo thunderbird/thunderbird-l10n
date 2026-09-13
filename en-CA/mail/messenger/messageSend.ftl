@@ -24,3 +24,21 @@ send-error-smtp-interrupted = The message could not be sent because the connecti
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = The message could not be sent because the connection to Outgoing server (SMTP) { $hostname } timed out. Try again.
 send-error-title = Send Message Error
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-sent-locally =
+    Your message was sent but a copy was not placed in your sent folder ({ $folder }) due to network or file access errors.
+    You can retry or save the message locally to { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-draft-locally =
+    Your draft message was not copied to your drafts folder ({ $folder }) due to network or file access errors.
+    You can retry or save the draft locally to { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-template-locally =
+    Your template was not copied to your templates folder ({ $folder }) due to network or file access errors.
+    You can retry or save the template locally to { $localFolder }/{ $folder }-{ $account }.
+send-dialog-retry = &Retry
+send-error-save-to-local-folders = Unable to save your message to local folders. Possibly out of file storage space.
+send-error-filtering-message = Your message has been sent and saved, but there was an error while running message filters on it.
