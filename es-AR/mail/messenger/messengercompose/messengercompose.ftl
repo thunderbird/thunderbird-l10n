@@ -12,11 +12,16 @@ compose-message-attachment-name = Mensaje adjunto
 
 compose-initialization-error-title = Redacción de mensaje
 compose-initialization-error = Ocurrió un error mientras se creaba una ventana de redacción de mensaje. Vuelva a intentarlo.
+compose-default-subject = (sin asunto)
 # Variables:
 # $subject - message subject
 # $brand - application name
 compose-window-title = Escritura: { $subject } - { $brand }
 compose-save-message-title = Guardar mensaje
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = ¿Quiere guardar este mensaje en la carpeta de borradores ({ $folder }) y cerrar la ventana Redactar?
+compose-discard-changes-button = &Descartar cambios
 compose-send-confirm-title = Enviar mensaje
 compose-send-confirm-prompt = ¿Está seguro de querer enviar este mensaje?
 compose-send-confirm-button = Enviar
@@ -49,6 +54,7 @@ compose-quit-saving-prompt =
     ¿QUiere esperar hasta que el mensaje haya sido guardado antes de salir o sale ahora mismo?
 compose-quit-button = &Salir
 compose-wait-button = &Esperar
+compose-attach-file-picker-title = Adjuntar archivo(s)
 compose-attach-page-title = Por favor, especifique una ubicación a adjuntar
 compose-attach-page-prompt = Página web (URL)
 compose-message-part-attachment-name = Parte del mensaje adjunto
