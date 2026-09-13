@@ -27,6 +27,9 @@ send-error-title = Błąd wysyłania wiadomości
 send-progress-assembling-mail-information = Przygotowywanie informacji o wiadomości…
 send-progress-assembling-message = Przygotowywanie wiadomości…
 send-progress-creating-mail-message = Tworzenie wiadomości pocztowej…
+# Variables:
+# $filename - name or URL of the file that could not be attached
+send-error-attaching-file = Wystąpił błąd podczas dołączania { $filename }. Upewnij się, że masz dostęp do pliku.
 send-progress-assembling-message-done = Przygotowywanie wiadomości… Ukończono
 send-progress-copy-complete = Ukończono kopiowanie.
 send-progress-copy-failed = Kopiowanie się nie powiodło.
@@ -52,12 +55,18 @@ send-progress-filter-complete = Ukończono filtrowanie.
 send-progress-filter-failed = Filtrowanie się nie powiodło.
 send-error-filtering-message = Wiadomość została wysłana i zapisana, ale wystąpił błąd podczas stosowania do niej filtrów.
 # Variables:
+# $hostname - outgoing server hostname
+send-error-smtp-security-issue = Konfiguracja związana z „{ $hostname }” musi zostać poprawiona.
+send-error-post-failed = Wiadomość nie mogła zostać wysłana, ponieważ zawiodło połączenie z serwerem news. Serwer może być niedostępny lub odrzuca połączenia. Proszę zweryfikować poprawność ustawień serwera news i spróbować ponownie.
+# Variables:
 # $size - formatted message size
 send-warning-large-message = Ostrzeżenie! Próbujesz wysłać wiadomość o rozmiarze { $size }. Czy kontynuować wysyłanie wiadomości?
 # Variables:
 # $folder - destination folder name
 send-progress-copy-start = Kopiowanie wiadomości do folderu { $folder }…
 send-progress-sending-message = Wysyłanie wiadomości…
+send-error-nntp-ok = Operacja wysyłania wiadomości do grupy dyskusyjnej zakończyła się pomyślnie, jednakże wiadomość nie została wysłana do innych adresatów.
+send-error-copy-operation = Wiadomość została wysłana pomyślnie, jednakże nie można skopiować jej do folderu Wysłane.
 send-later-error-title = Błąd operacji Wyślij później
 send-save-draft-error-title = Błąd zapisywania szkicu
 send-save-template-error-title = Błąd zapisywania szablonu
@@ -86,7 +95,28 @@ smtp-auth-gssapi = Uwierzytelnianie przy pomocy Kerberos/GSSAPI nie zostało zaa
 smtp-auth-mechanism-not-supported = Serwer „{ $hostname }” poczty wychodzącej (SMTP) nie obsługuje wybranej metody uwierzytelniania. Proszę zmienić metodę uwierzytelniania w Poczcie wychodzącej w Konfiguracji kont.
 # Variables:
 # $serverResponse - server response
+smtp-server-error = Wystąpił błąd podczas wysyłania wiadomości: błąd serwera poczty wychodzącej (SMTP). Odpowiedź serwera: { $serverResponse }
+# Variables:
+# $hostname - outgoing server hostname
+smtp-starttls-failed = Wystąpił błąd podczas wysyłania wiadomości: nie udało się nawiązać bezpiecznego połączenia z serwerem „{ $hostname }” poczty wychodzącej (SMTP) przy użyciu STARTTLS, jako że nie ogłasza on jego stosowania. Należy wyłączyć STARTTLS w opcjach tego serwera lub skontaktować się z dostawcą usługi.
+# Variables:
+# $serverResponse - server response
 smtp-too-many-recipients = Wiadomość nie została wysłana z powodu przekroczenia dozwolonej liczby adresatów. Odpowiedź serwera: { $serverResponse }.
 # Variables:
 # $serverResponse - server response
+smtp-error-sending-from-command = Wystąpił błąd podczas wysyłania wiadomości. Odpowiedź serwera poczty: { $serverResponse }. Proszę zweryfikować poprawność adresu e-mail w konfiguracji kont i spróbować ponownie.
+# Variables:
+# $serverResponse - server response
 smtp-permanent-size-exceeded = Rozmiar wysyłanej wiadomości przekracza globalny limit rozmiaru wiadomości na serwerze. Wiadomość nie została wysłana; należy zmniejszyć jej rozmiar i spróbować ponownie. Odpowiedź serwera: { $serverResponse }.
+# Variables:
+# $serverResponse - server response; $recipient - intended recipient
+smtp-error-sending-recipient-command =
+    Wystąpił błąd podczas wysyłania wiadomości. Odpowiedź serwera:
+    { $serverResponse }.
+    Sprawdź adresata wiadomości ({ $recipient }), a następnie ponów próbę.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-data-command = Wystąpił błąd serwera poczty wychodzącej (SMTP). Odpowiedź serwera: { $serverResponse }.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-message = Wystąpił błąd podczas wysyłania wiadomości. Odpowiedź serwera: { $serverResponse }. Proszę sprawdzić wiadomość i spróbować ponownie.
