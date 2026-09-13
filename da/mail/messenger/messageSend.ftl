@@ -57,6 +57,7 @@ send-error-filtering-message = Din meddelelse er blevet sendt og gemt, men der o
 # Variables:
 # $hostname - outgoing server hostname
 send-error-smtp-security-issue = Problemer med konfigurationen vedrørende { $hostname } skal løses.
+send-error-post-failed = Meddelelsen kunne ikke sendes fordi forbindelsen til nyhedsgruppeserveren svigtede. Serveren er enten nede eller afviser forbindelsen. Kontroller at dine kontoindstillinger er korrekte og prøv igen.
 # Variables:
 # $size - formatted message size
 send-warning-large-message = Advarsel! Du er i færd med at sende en meddelelse som fylder { $size }, hvilket kan risikere at overskride mailserverens tilladte størrelse. Er du sikker på, at du vil det?
@@ -69,6 +70,8 @@ send-error-copy-operation = Meddelelsen blev sendt uden problemer, men kunne ikk
 send-later-error-title = Fejl under oprettelse af senere afsendelse
 send-save-draft-error-title = Fejl under oprettelse af kladde
 send-save-template-error-title = Fejl under oprettelse af skabelon
+# LOCALIZATION NOTE: This string must use only US-ASCII characters.
+send-undisclosed-recipients = skjulte modtagere
 # Variables:
 # $recipient - recipient address
 smtp-error-illegal-local-part = Der er ikke-ASCII-tegn i den lokale del af modtageradressen { $recipient } og din server understøtter ikke SMTPUTF8. Ret adressen og prøv igen.
@@ -101,6 +104,9 @@ smtp-starttls-failed = Der opstod en fejl ved afsendelse af meddelelsen: Kunne i
 smtp-too-many-recipients = Meddelelsen blev ikke sendt, fordi antallet af modtagere overskrider det maksimalt tilladte. Svar fra server: { $serverResponse }.
 # Variables:
 # $serverResponse - server response
+smtp-error-sending-from-command = Der opstod en fejl under afsendelsen. Mailserveren svarede: { $serverResponse }. Kontrollér om din mailadresse er rigtig i dine kontoindstillinger og prøv igen.
+# Variables:
+# $serverResponse - server response
 smtp-permanent-size-exceeded = Størrelsen på den meddelelse, du er ved at sende, overstiger den generelle størrelsesgrænse på serveren. Meddelelsen blev ikke sendt; prøv at gøre meddelelsen mindre og prøv igen. Serveren svarede:  { $serverResponse }.
 # Variables:
 # $serverResponse - server response; $recipient - intended recipient
@@ -108,3 +114,9 @@ smtp-error-sending-recipient-command =
     Der opstod en fejl ved afsendelse af meddelelsen: Mailserveren svarede:
     { $serverResponse }.
     Kontroller modtageradressen "{ $recipient }", og prøv igen.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-data-command = Der opstod en fejl under afsendelsen. Serveren svarede: { $serverResponse }.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-message = Der opstod en fejl under afsendelsen. Mailserveren svarede: { $serverResponse }. Kontrollér meddelelsen og prøv igen.
