@@ -6,6 +6,7 @@
 ## Compose alerts
 
 compose-message-cancelling = Đang hủy bỏ…
+compose-message-attachment-name = Thư được Đính kèm
 
 ## Compose window
 
