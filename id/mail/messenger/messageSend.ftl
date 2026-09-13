@@ -100,6 +100,9 @@ smtp-starttls-failed = Terjadi kesalahan saat mengirim email: Tidak dapat membua
 # $serverResponse - server response
 smtp-error-sending-from-command = Terjadi kesalahan saat mengirim surel. Server surel merespons: { $serverResponse }. Harap verifikasi bahwa alamat surel Anda sudah benar dalam pengaturan akun dan coba lagi.
 # Variables:
+# $serverResponse - server response
+smtp-permanent-size-exceeded = Ukuran pesan yang ingin Anda kirim melebihi batas maksimum ukuran global server. Pesan tidak dikirim; coba kurangi ukuran pesan atau tunggu beberapa saat dan coba lagi. Balasan dari server: { $serverResponse }.
+# Variables:
 # $serverResponse - server response; $recipient - intended recipient
 smtp-error-sending-recipient-command =
     Kesalahan terjadi saat mengirim email. Server mail menjawab:
