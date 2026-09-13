@@ -101,7 +101,13 @@ smtp-server-error = Postia lähetettäessä tapahtui SMTP-palvelinvirhe. Palveli
 smtp-starttls-failed = Postia lähetettäessä tapahtui virhe: SMTP-palvelimeen { $hostname } ei kyetty muodostamaan suojattua yhteyttä STARTTLS-käytännöllä, koska palvelin ei kerro tukevansa ominaisuutta. Poista STARTTLS käytöstä tälle palvelimelle tai ota yhteyttä palveluntarjoajaasi.
 # Variables:
 # $serverResponse - server response
+smtp-too-many-recipients = Viestiä ei lähetetty, koska vastaanottajien sallittu määrä ylittyi. Palvelin vastasi: { $serverResponse }.
+# Variables:
+# $serverResponse - server response
 smtp-error-sending-from-command = Postia lähetettäessä tapahtui virhe. Postipalvelin vastasi: { $serverResponse }. Tarkista että sähköpostiosoitteesi on asetuksissa oikein ja yritä uudelleen.
+# Variables:
+# $serverResponse - server response
+smtp-permanent-size-exceeded = Viestin, jota yritit lähettää, koko ylittää palvelimen kokorajoituksen viesteille. Viestiä ei lähetetty. Tee viestistäsi pienempi ja yritä uudelleen. Palvelin vastasi:  { $serverResponse }.
 # Variables:
 # $serverResponse - server response; $recipient - intended recipient
 smtp-error-sending-recipient-command =
