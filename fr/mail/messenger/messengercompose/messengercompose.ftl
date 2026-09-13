@@ -6,6 +6,7 @@
 ## Compose alerts
 
 compose-message-cancelling = Abandon…
+compose-message-attachment-name = Message joint
 
 ## Compose window
 
