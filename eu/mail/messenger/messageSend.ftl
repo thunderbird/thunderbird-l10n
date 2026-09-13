@@ -7,6 +7,8 @@
 
 send-alert-queued-delivery-failed = Errore bat bidali gabeko mezuak bidaltzean.
 send-alert-followup-to-sender = Mezuaren egileak erantzunak berari bakarrik bidaltzeko eskatu du. Berri-taldeari ere erantzun nahi badiozu, gehitu errenkada berri bat helbideratze-eremuan aukeratu Berri-taldea hartzaileen zerrendan eta sartu berri-taldearen izena.
+send-unable-to-save-template = Ezin da mezua txantiloi gisa gorde.
+send-unable-to-save-draft = Ezin da mezua zirriborro gisa gorde.
 send-error-failed = Huts egin du mezua bidaltzeak.
 send-unable-to-send-later = Barkatu, ezin izan da zure irteerako mezua gorde.
 # Variables:
