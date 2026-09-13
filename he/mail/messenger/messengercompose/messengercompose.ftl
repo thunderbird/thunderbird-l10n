@@ -33,6 +33,10 @@ compose-attachment-reminder-send-button = לא, שלח כעת
 compose-attachment-reminder-add-button = נכון, שכחתי!
 compose-newsgroups-not-supported-title = קבוצות דיון לא נתמכות
 compose-newsgroups-not-supported = חשבון זה תומך רק בנמעני דוא"ל. המשך יתעלם מקבוצות דיון.
+compose-invalid-address-title = כתובת נמען לא תקנית
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } אינה כתובת דוא"ל תקנית משום שאינה בתבנית user@host. עליך לתקן זאת לפני שליחת ההודעה.
 compose-quit-sending-title = שולח הודעה
 compose-quit-saving-title = ההודעה נשמרת
 # Variables:
@@ -48,6 +52,9 @@ compose-quit-saving-prompt =
 compose-quit-button = צא
 compose-wait-button = המתן
 compose-attach-file-picker-title = צרף קבצים:
+compose-attach-page-title = נא לציין מיקום לסיפוח
+compose-attach-page-prompt = אתר (URL):
+compose-message-part-attachment-name = מצורף חלק מההודעה
 compose-attachment-bucket-attach-files-tooltip = צירוף קבצים
 compose-attachment-bucket-clear-selection-tooltip = ביטול הבחירה
 # Variables:
