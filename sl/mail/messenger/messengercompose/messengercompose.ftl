@@ -490,6 +490,30 @@ big-file-notification-text =
         [few] Gre za velike datoteke. Mogoče bi bilo bolje uporabiti Filelink.
        *[other] Gre za velike datoteke. Mogoče bi bilo bolje uporabiti Filelink.
     }
+big-file-learn-more-button =
+    .label = Več o tem …
+    .accesskey = V
+big-file-link-button =
+    .label = Poveži
+    .accesskey = P
+big-file-ignore-button =
+    .label = Prezri
+    .accesskey = e
+big-file-choose-account-title = Izberite račun
+big-file-choose-account-prompt = Izberite račun v oblaku, kamor naj se prenese priponka
+big-file-hide-notification-title = Ne prenašaj mojih datotek
+big-file-hide-notification-prompt = Če boste dodali še več velikih datotek k temu sporočilu, ne boste dobili obvestila.
+big-file-hide-notification-checkbox = O tem me ni treba nikoli več obveščati.
+cloud-file-privacy-warning = Povezovanje je končano. Upoštevajte, da so povezane priponke lahko dostopne ljudem, ki povezave vidijo ali uganejo.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Prenašanje na { $provider } …
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Preneseno na { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Pripni datoteke preko { $provider }
 
 ## Link Preview
 
