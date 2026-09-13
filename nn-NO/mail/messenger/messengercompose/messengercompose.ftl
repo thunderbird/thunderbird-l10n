@@ -10,6 +10,17 @@ compose-message-attachment-name = Vedlagt melding
 
 ## Compose window
 
+compose-initialization-error-title = Meldingsvindauge
+compose-initialization-error = Ein feil oppstod ved oppretting av meldingsvindauge. Prøv igjen.
+compose-default-subject = (utan emne)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Skriv: { $subject } - { $brand }
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Lagre denne meldinga i utkastmappa di ({ $folder }) og late att skrivevindauget?
+compose-discard-changes-button = &Avvis endringane
 compose-send-confirm-title = Send melding
 compose-send-confirm-prompt = Er du sikker på at du vil senda denne meldinga no?
 compose-send-confirm-button = Send
@@ -20,6 +31,8 @@ compose-empty-subject-send-button = &Send meldinga utan emne
 compose-empty-subject-cancel-button = &Avbryt sending
 compose-attachment-reminder-title = Vedleggspåminning
 compose-attachment-reminder-prompt = Gløymde du å lenggja ved ei fil?
+compose-attachment-reminder-send-button = Nei, send no
+compose-attachment-reminder-add-button = Å ja, det gløymde eg!
 compose-newsgroups-not-supported-title = Nyhendegrupper ikkje støtta
 compose-newsgroups-not-supported = Denne kontoen støttar berre e-postmottakarar. Dersom du held fram vil nyhendegrupper verta utelatne.
 compose-invalid-address-title = Ugyldig mottakaradresse
@@ -40,9 +53,12 @@ compose-quit-saving-prompt =
     Vil du vente til meldinga er lagra før du avsluttar, eller avslutta med ein gong?
 compose-quit-button = &Avslutt
 compose-wait-button = &Vent
+compose-attach-file-picker-title = Legg ved fil(er)
 compose-attach-page-title = Vel ein nettstad å leggja ved
 compose-attach-page-prompt = Nettside (URL):
 compose-message-part-attachment-name = Vedlagt meldingsdel
+compose-attachment-bucket-attach-files-tooltip = Legg ved fil(er)
+compose-attachment-bucket-clear-selection-tooltip = Fjern utval
 # Variables:
 # $filename - name of the file that could not be found
 compose-file-attachment-not-found = Fila { $filename } finst ikkje så ho kan ikkje leggjast ved meldinga.
@@ -70,6 +86,12 @@ find-replace-button =
     .label = Byt ut …
     .accesskey = y
     .tooltiptext = Vis Finn og byt ut-dialogen
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Skriv inn eiga frå-adresse som skal brukast i staden for { $identity }
+compose-custom-from-address-title = Tilpass Frå-adresse
+compose-custom-from-address-warning = Dersom e-posttilbydaren din tilbyr det, kan du tilpasse frå-adressa ved å gjere ei mindre endring til adressa utan å lage ein ny identitet i Kontoinnstillingar. Dersom adressa di til dømes er John Doe <john@eksempel.no> kan du endre henne til John Doe <john+doe@eksempel.no> eller John <john@eksempel.no>.
+compose-custom-from-address-ignore = Aldri varsla meg om dette meir
 compose-blocked-content-options-button = Innstillingar
 compose-blocked-content-options-accesskey = A
 compose-blocked-content-preferences-button = Innstillingar
@@ -507,6 +529,33 @@ cloud-file-account-error-title = Filelink-kontofeil
 cloud-file-account-error = Klarte ikkje å oppdatere Filelink-vedlegget { $filename }, fordi Filelink-kontoen er sletta.
 cloud-file-authentication-error-title = Autentiseringsfeil
 # Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Klarte ikkje å autentisera mot { $provider }.
+cloud-file-upload-error-title = Opplastingsfeil
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Klarte ikkje å lasta opp { $filename } til { $provider }.
+cloud-file-quota-error-title = Kvotefeil
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Opplasting av { $filename } til { $provider } vil overskride plasskvoten din.
+cloud-file-size-error-title = Feil med filstorleik
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } er større enn maks. storleik for { $provider }.
+cloud-file-unknown-error-title = Ukjend feil
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Ein ukjend feil oppstod ved kommunikasjon med { $provider }.
+cloud-file-deletion-error-title = Feil ved sletting
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Eit problem oppstod ved sletting av { $filename } frå { $provider }.
+# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
     { $count ->
@@ -520,9 +569,30 @@ big-file-notification-text =
         [one] Dette er ei stor fil. Det kan vera betre å bruke FileLink i staden.
        *[other] Dette er store filer. Det kan vere betre å bruke FileLink i staden.
     }
+big-file-learn-more-button =
+    .label = Les meir…
+    .accesskey = m
+big-file-link-button =
+    .label = Lenke
+    .accesskey = L
+big-file-ignore-button =
+    .label = Ignorer
+    .accesskey = I
+big-file-choose-account-title = Vel konto
+big-file-choose-account-prompt = Vel ein sky-konto å lasta opp vedlegget til
+big-file-hide-notification-title = Ikkje last opp filene mine
+big-file-hide-notification-prompt = Du vil ikkje bli varsla dersom du legg til fleire vedlegg i denne meldinga.
+big-file-hide-notification-checkbox = Aldri varsla meg om dette igjen.
 cloudfile-uploading-stop-button =
     .label = Aldri vis dette meir
     .accesskey = A
+cloud-file-privacy-warning = Lenking er utført. Merk at innlenka vedlegg kan vere tilgjengelege for personar som kan sjå eller gjette lenkene.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Lastar opp til { $provider } …
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Opplasta til { $provider }
 # Variables:
 # $provider - name of the online storage service
 cloud-file-attach-picker-title = Legg ved filer via { $provider }
