@@ -10,23 +10,60 @@ compose-message-attachment-name = Pridėtas laiškas
 
 ## Compose window
 
+compose-default-subject = (nėra temos)
 # Variables:
 # $subject - message subject
 # $brand - application name
 compose-window-title = Įrašyti: { $subject } - { $brand }
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Išsaugoti šią žinutę juodraščių aplanke ({ $folder }) ir uždaryti rašymo langą?
+compose-discard-changes-button = &Atsisakyti pakeitimų
 compose-send-confirm-title = Laiško išsiuntimas
 compose-send-confirm-prompt = Ar tikrai išsiųsti šį laišką?
 compose-send-confirm-button = Išsiųsti
+compose-do-not-show-again = Šio dialogo neberodyti
+compose-empty-subject-title = Laiško tema
+compose-empty-subject-prompt = Nenurodyta siunčiamo laiško tema.
+compose-empty-subject-send-button = &Siųsti nenurodant temos
+compose-empty-subject-cancel-button = &Atsisakyti siuntimo
 compose-attachment-reminder-title = Priminimas apie priedą
 compose-attachment-reminder-prompt = Ar nepamiršote pridėti failo?
 compose-attachment-reminder-send-button = Ne, išsiųsti laišką
 compose-attachment-reminder-add-button = A, tikrai!
+compose-newsgroups-not-supported-title = Naujienų grupės nepalaikomos
+compose-newsgroups-not-supported = Ši paskyra skirta tik el. paštui. Jei tęsite, naujienų grupės bus ignoruojamos.
+compose-quit-sending-title = Laiško išsiuntimas
+compose-quit-saving-title = Įrašomas laiškas
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    Programa „{ $brand }“ šiuo metu siunčia laišką.
+    Ar palaukti, kol jis bus išsiųstas, ar baigti darbą su programa dabar?
 # Variables:
 # $brand - application name
 compose-quit-saving-prompt =
     Programa „{ $brand }“ šiuo metu įrašo laišką.
     Norėsite palaukti, kol laiškas bus įrašytas, ar baigti darbą dabar?
+compose-quit-button = &Baigti
+compose-wait-button = &Palaukti
+compose-attach-file-picker-title = Prisegti failą (-us)
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = Failas „{ $filename }“ neegzistuoja, todėl jo pridėti prie laiško negalima.
 compose-file-attachment-error-title = Failo pridėjimas
+compose-message-file-error-title = Laiško failas
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = Failas „{ $filename }“ neegzistuoja, todėl negali būti naudojamas kaip laiško turinys.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = Failas „{ $filename }“ negali būti įkeltas kaip laiško turinys.
+compose-save-success-title = Laiško įrašymas
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Laiškas įrašytas į { $server } aplanką { $folder }.
 compose-rename-attachment-title = Priedo pervardinimas
 compose-rename-attachment-prompt = Įveskite naują priedo vardą:
 remind-later-button =
@@ -46,6 +83,14 @@ compose-custom-from-address-warning =
     Jei norite, kad šio laiško gavėjai matytų kitokį siuntėjo adresą, čia galite jį nustatyti, nekurdami naujos tapatybės. Pavyzdžiui, jei įprastas jūsų siuntėjo adresas yra „Vardenis Pavardenis <vardenis@example.com>“, galite jį pakeisti į „Vardenis Pavardenis <vardenis+pavardenis@example.com>“ arba „Vardenis <vardenis@example.com>“.
     Pastaba: prieš nurodydami alternatyvų el. pašto adresą, įsitikinkite, jog jūsų elektroninio pašto paslaugos teikėjo sistema šią funkciją palaiko.
 compose-custom-from-address-ignore = Daugiau niekada nepranešti man apie tai
+compose-blocked-content-options-button = Nuostatos
+compose-blocked-content-options-accesskey = s
+compose-blocked-content-preferences-button = Nuostatos
+compose-blocked-content-preferences-accesskey = s
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Atblokuoti { $url }
 
 ## Send Format
 
@@ -85,6 +130,13 @@ pill-action-move-cc =
 pill-action-move-bcc =
     .label = Perkelti į BCC
     .accesskey = b
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = Pašalinti „{ $field }“ adresatus
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Ar tikrai norite pašalinti „{ $field }“ adresatus?
+compose-remove-address-row-button = Pašalinti
 
 ## Attachment widget
 
