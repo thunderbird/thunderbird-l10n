@@ -57,6 +57,7 @@ send-error-filtering-message = Meldingane dine er sendt og lagra, men det oppsto
 # Variables:
 # $hostname - outgoing server hostname
 send-error-smtp-security-issue = Innstillinga relatert til { $hostname } må korrigerast.
+send-error-post-failed = Klarte ikkje å poste meldinga, fordi tilkoplinga til nyheitsgruppetenaren feila. Tenaren kan vere utilgjengeleg akkurat no. Kontroller innstillingane for nyheitsgrupper og prøv på nytt, eller kontakt nettverksansvarleg for hjelp.
 # Variables:
 # $size - formatted message size
 send-warning-large-message = Åtvaring! Du vil no sende ei melding med storleiken { $size }, som kan vere større enn grensa på e-posttenaren. Er du sikker på at du vil gjere dette?
@@ -75,6 +76,24 @@ send-undisclosed-recipients = gøymde-mottakarar
 # $recipient - recipient address
 smtp-error-illegal-local-part = Der er ikkje-ASCII teikn i den lokale delen av rmottakaradressa { $recipient } og serveren din støttar ikkje SMTPUTF8. Endre denne adressa og prøv på nytt.
 # Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-no-ssl = Utgåande server (SMTP) { $hostname } ser ikkje ut til å støtte krypterte passord. Om du nettopp sette opp kontoen, prøv å endre ‘autentiseringsmetode’ i ‘Kontoinnstillingar | Utgåande tenar (SMTP)’ til ‘Passord, overførd utrygt’. Om det fungerte før men ikkje no, er det eit vanleg teikn på at nokon prøver å stele passordet ditt.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-ssl = Utgåande server (SMTP) { $hostname } ser ikkje ut til å støtte krypterte passord. Om du nettopp sette opp kontoen, prøv å endre ‘autentiseringsmetode’ i ‘Kontoinnstillingar | Utgåande tenar (SMTP)’ til ‘Normalt passord’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-plain-to-encrypt = Utgåande server (SMTP) { $hostname } tillèt ikkje passord i rein tekst. Prøv å endre ‘autentiseringsmetode’ i ‘Kontoinnstillingar | Utgåande server (SMTP)’ til ‘Kryptert passord’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-failure = Klarte ikkje å autentisere mot SMTPserveren { $hostname }. Kontroller passordet, og sjekk at ‘Autentiseringsmetode’ i ‘Kontoinnstillingar | Utgåande tenar (SMTP)’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-gssapi = Kerberos/GSSAPI-ticketen vart ikkje godkjend av SMTP-tenaren { $hostname }. Kontroller at du er logga inn i Kerberos/GSSAPI-området.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-mechanism-not-supported = SMTP-tenaren { $hostname } støttar ikkje den valde autentiseringsmetoden. Endre ‘Autentiseringsmetode’ i ‘Kontoinnstillingar | Utgåande server (SMTP)’.
+# Variables:
 # $serverResponse - server response
 smtp-server-error = Ein feil oppstod ved sending av e-post: SMTP-tenarfeil. Tenaren svarte:  { $serverResponse }.
 # Variables:
@@ -85,6 +104,9 @@ smtp-starttls-failed = Ein feil oppstod ved sending av post: Klarte ikkje å opp
 smtp-too-many-recipients = Meldinga vart ikkje sendt på grunn av overskriding av tillatne antal mottakarar. Serveren svarte: { $serverResponse }.
 # Variables:
 # $serverResponse - server response
+smtp-error-sending-from-command = Ein feil oppstod ved sending av e-post. E-postserveren svarte: { $serverResponse }. Kontroller at e-postadressa er rett i konto-innstillingane og prøv på nytt.
+# Variables:
+# $serverResponse - server response
 smtp-permanent-size-exceeded = Storleiken på meldinga du freistar å senda er større enn maks. storleik på tenaren. Meldinga vart ikkje sendt; gjer meldinga mindre og prøv på nytt. Tenaren svarte:  { $serverResponse }.
 # Variables:
 # $serverResponse - server response; $recipient - intended recipient
@@ -92,3 +114,9 @@ smtp-error-sending-recipient-command =
     Ein feil oppstod ved sending av post. E-post-tenaren svarte:
     { $serverResponse }.
     Kontroller mottakaren «{ $recipient }» og prøv på nytt.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-data-command = Ein SMTP-feil oppstod ved sending av e-post. Serveren svarte:  { $serverResponse }.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-message = Ein feil oppstod ved sending av e-post. E-post-serveren svarte:  { $serverResponse }. Kontroller meldinga og prøv på nytt.
