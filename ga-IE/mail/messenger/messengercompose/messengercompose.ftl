@@ -10,6 +10,8 @@ compose-message-attachment-name = Teachtaireacht Faoi Iamh
 
 ## Compose window
 
+compose-initialization-error-title = Scríobh Teachtaireachta
+compose-initialization-error = Tharla earráid agus fuinneog an chumadóra á cruthú. Bain triail eile as.
 compose-default-subject = (gan ábhar)
 compose-save-message-title = Sábháil an Teachtaireacht
 compose-send-confirm-title = Seoladh na Teachtaireachta
@@ -26,6 +28,11 @@ compose-attachment-reminder-send-button = Ní dhearna, Seol Anois
 compose-attachment-reminder-add-button = Rinne mé dearmad!
 compose-newsgroups-not-supported-title = Ní thacaítear le grúpaí nuachta
 compose-newsgroups-not-supported = Ní thacaíonn an cuntas seo ach le faighteoirí ríomhphoist. Tabharfar neamhaird ar ghrúpaí nuachta má leantar ar aghaidh.
+compose-invalid-address-title = Seoladh Neamhbhailí don Fhaighteoir
+compose-no-recipients = Níor sonraíodh faighteoir ar bith. Cuir seoladh faighteora nó grúpa nuachta sa réimse seoltaí.
+# Variables:
+# $address - invalid email address
+compose-invalid-address = Ní seoladh ríomhphoist bailí é { $address } toisc nach bhfuil sé san fhoirm úsáideoir@óstríomhaire. Caithfidh tú é a cheartú roimh an teachtaireacht a sheoladh.
 compose-quit-sending-title = Teachtaireacht á Seoladh
 compose-quit-saving-title = Teachtaireacht á Sábháil
 # Variables:
@@ -41,6 +48,9 @@ compose-quit-saving-prompt =
 compose-quit-button = &Scoir
 compose-wait-button = &Fan
 compose-attach-file-picker-title = Cuir comha(i)d faoi iamh
+compose-attach-page-title = Sonraigh suíomh le cur faoi iamh
+compose-attach-page-prompt = Leathanach Gréasáin (URL):
+compose-message-part-attachment-name = Cuid de Theachtaireacht Faoi Iamh
 # Variables:
 # $filename - name of the file that could not be found
 compose-file-attachment-not-found = Níl comhad { $filename } ann agus mar sin níorbh fhéidir é a cheangal leis an teachtaireacht.
