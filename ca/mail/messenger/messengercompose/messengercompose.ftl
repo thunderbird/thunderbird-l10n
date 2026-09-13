@@ -17,6 +17,7 @@ compose-window-title = Redacta: { $subject } - { $brand }
 compose-send-confirm-title = Envia el missatge
 compose-send-confirm-prompt = Segur que esteu a punt per enviar aquest missatge?
 compose-send-confirm-button = Envia
+compose-do-not-show-again = No em tornis a mostrar aquest quadre de diàleg.
 compose-empty-subject-title = Falta l'assumpte
 compose-empty-subject-prompt = Falta el camp Assumpte del vostre missatge.
 compose-empty-subject-send-button = &Envia sense cap assumpte
@@ -27,6 +28,7 @@ compose-attachment-reminder-send-button = No, envia'l ara
 compose-attachment-reminder-add-button = Sí, i tant!
 compose-newsgroups-not-supported-title = No es permeten grups de discussió
 compose-newsgroups-not-supported = Aquest compte només permet destinataris de correu. Si continueu, s'ignoraran els grups de discussió.
+compose-quit-sending-title = S'està enviant el missatge
 compose-quit-saving-title = S'està desant el missatge
 # Variables:
 # $brand - application name
@@ -40,7 +42,22 @@ compose-quit-saving-prompt =
     Abans de sortir, voleu esperar fins que s'hagi desat el missatge o bé voleu sortir ara?
 compose-quit-button = S&urt
 compose-wait-button = &Espera
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = El fitxer { $filename } no existeix, per tant, no s'ha pogut adjuntar al missatge.
 compose-file-attachment-error-title = Adjunció de fitxer
+compose-message-file-error-title = Fitxer de missatge
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = El fitxer { $filename } no existeix i, per tant, no s'ha pogut utilitzar com a cos del missatge.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = El fitxer { $filename } no s'ha pogut carregar com a cos del missatge.
+compose-save-success-title = Desa el missatge
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = El missatge s'ha desat a la carpeta { $folder } a { $server }.
 compose-rename-attachment-title = Reanomena l'adjunció
 compose-rename-attachment-prompt = Nou nom de l'adjunció:
 remind-later-button =
@@ -58,6 +75,14 @@ compose-custom-from-address-placeholder = Introduïu l'adreça «De» personalit
 compose-custom-from-address-title = Personalitza l'adreça «De»
 compose-custom-from-address-warning = Si el vostre proveïdor de correu electrònic ho permet, podeu personalitzar l'adreça «De» per fer una petita alteració puntual de la vostra l'adreça de remitent sense necessitat de crear una identitat nova als paràmetres del compte. Per exemple, si la vostra l'adreça «De» és Joan Conill <joan@example.com> potser voleu canviar-la a Joan Conill <joan+conill@example.com> o Joan <joan@example.com>.
 compose-custom-from-address-ignore = No em tornis a notificar més sobre això
+compose-blocked-content-options-button = Opcions
+compose-blocked-content-options-accesskey = O
+compose-blocked-content-preferences-button = Preferències
+compose-blocked-content-preferences-accesskey = P
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Desbloca { $url }
 
 ## Send Format
 
@@ -123,6 +148,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Amplia la llista
     .accesskey = m
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = Elimina les adreces { $field }
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Segur que voleu eliminar les adreces { $field }?
+compose-remove-address-row-button = Elimina
 
 ## Attachment widget
 
@@ -480,6 +512,33 @@ cloud-file-account-error-title = Error de compte de Filelink
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = No s'ha pogut actualitzar l'adjunció de Filelink { $filename } perquè s'ha suprimit el compte de Filelink.
 cloud-file-authentication-error-title = Error d'autenticació
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = No s'ha pogut autenticar amb { $provider }.
+cloud-file-upload-error-title = Error de pujada
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = No s'ha pogut pujar { $filename } a { $provider }.
+cloud-file-quota-error-title = Error de quota
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = En pujar { $filename } a { $provider } s'excediria la vostra quota d'espai.
+cloud-file-size-error-title = Error de mida del fitxer
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } excedeix la mida màxima de { $provider }.
+cloud-file-unknown-error-title = Error desconegut
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = S'ha produït un error desconegut en comunicar amb { $provider }.
+cloud-file-deletion-error-title = Error de supressió
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = S'ha produït un problema en suprimir { $filename } de { $provider }.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
