@@ -14,24 +14,57 @@ compose-save-message-title = Lagrer melding
 compose-send-confirm-title = Send melding
 compose-send-confirm-prompt = Er du sikker på at du vil sende denne meldingen nå?
 compose-send-confirm-button = Send
+compose-do-not-show-again = Ikke vis denne dialogen igjen.
 compose-empty-subject-title = Emnepåminnelse
 compose-empty-subject-prompt = Meldingen har ikke noe emne.
 compose-empty-subject-send-button = &Send meldingen uten emne
 compose-empty-subject-cancel-button = &Avbryt sending
 compose-newsgroups-not-supported-title = Nyhetsgruppen støttes ikke
 compose-newsgroups-not-supported = Denne kontoen støtter bare e-postmottakere. Dersom du fortsetter vil nyhetsgrupper bli utelatt.
+compose-quit-sending-title = Sender melding
+compose-quit-saving-title = Lagrer melding
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } sender en melding akkurat nå.
+    Vil du vente til meldingen er ferdigsendt før du avslutter, eller avslutt nå?
 # Variables:
 # $brand - application name
 compose-quit-saving-prompt =
     { $brand } jobber nå med å lagre en melding.
     Vil du vente til meldingen er lagret før du avslutter, eller avslutt med en gang?
+compose-quit-button = &Avslutt
+compose-wait-button = &Vent
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = Filen { $filename } finnes ikke og kan derfor ikke legges ved meldingen.
 compose-file-attachment-error-title = Filvedlegg
+compose-message-file-error-title = Meldingsfil
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = Filen { $filename } finnes ikke og kan ikke brukes som meldingstekst.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = Klarte ikke å laste filen { $filename } som meldingstekst.
+compose-save-success-title = Lagrer melding
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Meldingen er lagret i mappen { $folder } under { $server }.
 compose-rename-attachment-title = Endre navn på vedlegg
 compose-rename-attachment-prompt = Nytt navn på vedlegget:
 find-replace-button =
     .label = Erstatt …
     .accesskey = s
     .tooltiptext = Vis Finn og erstatt-dialogen
+compose-blocked-content-options-button = Innstillinger
+compose-blocked-content-options-accesskey = I
+compose-blocked-content-preferences-button = Innstillinger
+compose-blocked-content-preferences-accesskey = I
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Fjern blokkering av { $url }
 
 ## Send Format
 
