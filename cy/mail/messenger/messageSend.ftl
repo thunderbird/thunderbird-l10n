@@ -30,10 +30,27 @@ send-progress-creating-mail-message = Creu neges e-bost…
 send-progress-assembling-message-done = Cydosod neges...Wedi gorffen
 send-progress-copy-complete = Copïo wedi gorffen.
 send-progress-copy-failed = Methodd copïo.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-sent-locally =
+    Anfonwyd eich neges ond nid oes copi wedi ei gosod yn eich ffolder anfon ({ $folder }) oherwydd gwallau rhwydwaith neu fynediad i ffeil.
+    Gallwch geisio eto neu gadw'r neges yn lleol i { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-draft-locally =
+    Nid yw eich neges ddrafft wedi ei chopïo i'ch ffolder drafft ({ $folder }) oherwydd gwallau rhwydwaith neu fynediad i ffeil.
+    Gallwch geisio eto neu gadw'r neges yn lleol i { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-template-locally =
+    Nid yw eich templed wedi ei gopïo i'ch ffolder templedi ({ $folder }) oherwydd gwallau rhwydwaith neu fynediad i ffeil.
+    Gallwch geisio eto neu gadw'r neges yn lleol i { $localFolder }/{ $folder }-{ $account }.
 send-dialog-save-title = Cadw Neges
+send-dialog-retry = &Ceisio eto
 send-error-save-to-local-folders = Methu cadw eich neges i ffolderi lleol. Posib nad oes lle storio yn weddill.
 send-progress-filter-complete = Mae'r hidl wedi ei gwblhau.
 send-progress-filter-failed = Methodd yr hidl.
+send-error-filtering-message = Mae eich neges wedi ei hanfon a'i chadw, ond bu gwall wrth redeg yr hidlau neges arni.
 send-error-post-failed = Nid oedd modd cofnodi'r neges am i'r cyswllt a'r gweinydd e-bost fethu. Efallai nad yw'r gweinydd ar gael neu mae'n gwrthod cysylltiadau. Gwiriwch eich gosodiadau gwasanaethau e-bost a cheisiwch eto, neu cysylltwch â'ch gweinyddwr rhwydwaith.
 # Variables:
 # $size - formatted message size
