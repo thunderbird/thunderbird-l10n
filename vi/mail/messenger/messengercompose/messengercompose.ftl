@@ -10,6 +10,13 @@ compose-message-attachment-name = Thư được Đính kèm
 
 ## Compose window
 
+compose-attachment-reminder-title = Nhắc nhở đính kèm
+compose-attachment-reminder-prompt = Bạn có quên thêm phần đính kèm?
+remind-later-button =
+    .label = Nhắc tôi sau
+    .accesskey = L
+disable-attachment-reminder-menu-item =
+    .label = Vô hiệu hóa lời nhắc đính kèm cho thư hiện tại
 
 ## Send Format
 
