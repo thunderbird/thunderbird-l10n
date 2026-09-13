@@ -24,3 +24,54 @@ send-error-smtp-interrupted = Níorbh fhéidir an teachtaireacht a sheoladh tois
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = Níorbh fhéidir an teachtaireacht a sheoladh toisc go ndeachaigh an ceangal leis an bhfreastalaí amach (SMTP) { $hostname } thar am. Bain triail eile as.
 send-error-title = Earráid Seolta Teachtaireachta
+send-progress-assembling-mail-information = Faisnéis ríomhphoist á cur le chéile…
+send-progress-assembling-message = Teachtaireacht á cóimeáil…
+send-progress-creating-mail-message = Teachtaireacht ríomhphoist á cruthú…
+# Variables:
+# $filename - name or URL of the file that could not be attached
+send-error-attaching-file = Tharla earráid agus { $filename } á cheangal. Deimhnigh go bhfuil rochtain ar an gcomhad agat.
+send-progress-assembling-message-done = Teachtaireacht á cóimeáil…Críochnaithe
+send-progress-copy-complete = Cóipeáil críochnaithe.
+send-progress-copy-failed = Theip ar an gcóipeáil.
+send-progress-filter-complete = Scagaire críochnaithe.
+send-progress-filter-failed = Theip ar an scagaire.
+send-error-filtering-message = Seoladh agus sábháladh do theachtaireacht, ach tharla earráid agus na scagairí teachtaireachta á gcur i bhfeidhm uirthi.
+send-error-post-failed = Theip orainn an teachtaireacht a phostáil toisc gur cailleadh ceangal leis an bhfreastalaí nuachta. Seans nach bhfuil teacht ar an bhfreastalaí nó nach bhfuil sé ag glacadh le ceangail. Deimhnigh socruithe an fhreastalaí nuachta agus bain triail eile as.
+# Variables:
+# $size - formatted message size
+send-warning-large-message = Rabhadh! Tá tú ar tí teachtaireacht { $size } a sheoladh. An bhfuil tú cinnte?
+# Variables:
+# $folder - destination folder name
+send-progress-copy-start = Teachtaireacht á cóipeáil go fillteán { $folder }…
+send-progress-sending-message = Teachtaireacht á seoladh…
+send-error-nntp-ok = Phostáil do theachtaireacht don ghrúpa nuachta, ach níor seoladh chuig an bhfaighteoir eile í.
+send-error-copy-operation = D'éirigh le seoladh na teachtaireachta, ach níorbh fhéidir í a chóipeáil go dtí d'fhillteán "Seolta".
+send-later-error-title = Earráid i Seoladh Níos Déanaí
+send-save-draft-error-title = Earráid Sábhála Dréachta
+send-save-template-error-title = Earráid Sábhála Teimpléid
+# LOCALIZATION NOTE: This string must use only US-ASCII characters.
+send-undisclosed-recipients = faighteoiri-neamhnochtaithe
+# Variables:
+# $serverResponse - server response
+smtp-server-error = Tharla earráid agus ríomhphost á sheoladh: Earráid leis an bhfreastalaí amach (SMTP). Seo é an freagra ón bhfreastalaí: { $serverResponse }.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-starttls-failed = Tharla earráid agus ríomhphost á sheoladh: Níorbh fhéidir ceangal slán a bhunú leis an bhfreastalaí amach (SMTP) { $hostname } trí STARTTLS toisc nach dtacaíonn sé leis an ngné seo. Ba chóir duit STARTTLS a mhúchadh don fhreastalaí sin, nó dul i dteagmháil le do sholáthraí seirbhíse.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-from-command = Tharla earráid agus ríomhphost á sheoladh. Fuarthas an freagra seo ón bhfreastalaí: { $serverResponse }. Bí cinnte go bhfuil an seoladh ríomhphoist ceart i socruithe do chuntais agus bain triail eile as.
+# Variables:
+# $serverResponse - server response
+smtp-permanent-size-exceeded = Sháraíonn méid na teachtaireachta atá á seoladh agat teorainn uilíoch méide an fhreastalaí. Níor seoladh an teachtaireacht. Laghdaigh méid na teachtaireachta agus déan iarracht eile. D'fhreagair an freastalaí: { $serverResponse }.
+# Variables:
+# $serverResponse - server response; $recipient - intended recipient
+smtp-error-sending-recipient-command =
+    Tharla earráid agus ríomhphost á sheoladh. D'fhreagair an freastalaí ríomhphoist:
+    { $serverResponse }.
+    Deimhnigh faighteoir na teachtaireachta "{ $recipient }" agus bain triail eile as.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-data-command = Tharla earráid leis an bhfreastalaí amach (SMTP) agus ríomhphost á sheoladh. Seo é an freagra ón bhfreastalaí: { $serverResponse }.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-message = Tharla earráid agus ríomhphost á sheoladh. D'fhreagair an freastalaí ríomhphoist: { $serverResponse }. Scrúdaigh an teachtaireacht agus déan iarracht eile.
