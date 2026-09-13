@@ -122,6 +122,13 @@ pill-action-select-all-sibling-pills =
 pill-action-select-all-pills =
     .label = בחירת כל הכתובות
     .accesskey = ב
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = הסרת { $field } כתובות
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = להסיר את { $field } הכתובות?
+compose-remove-address-row-button = הסרה
 
 ## Attachment widget
 
