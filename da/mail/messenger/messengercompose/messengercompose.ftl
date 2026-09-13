@@ -162,6 +162,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Udvid liste
     .accesskey = U
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = Fjern { $field }-adresser
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Er du sikker på, at du vil fjerne { $field }-adresser?
+compose-remove-address-row-button = Fjern
 
 ## Attachment widget
 
