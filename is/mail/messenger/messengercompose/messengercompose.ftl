@@ -37,6 +37,7 @@ compose-attachment-reminder-add-button = Já, ég gleymdi því!
 compose-newsgroups-not-supported-title = Fréttahópar ekki studdir
 compose-newsgroups-not-supported = Þessi reikningur styður aðeins póst viðtakendur. Ef þú heldur áfram munu fréttahópar vera hunsaðir.
 compose-invalid-address-title = Ógilt tölvupóstfang viðtakanda
+compose-no-recipients = Engir viðtakendur voru skilgreindir. Settu inn viðtakanda eða fréttahóp í póstfangareitinn.
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address } er ekki gilt tölvupóstfang því það er ekki á forminu notandi@netfang. Þú verður að lagfæra það áður en þú sendir póstinn.
