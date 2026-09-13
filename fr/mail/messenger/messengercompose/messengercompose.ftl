@@ -37,6 +37,7 @@ compose-attachment-reminder-add-button = Oui
 compose-newsgroups-not-supported-title = Groupes de discussion non supportés
 compose-newsgroups-not-supported = Ce compte prend uniquement en charge les destinataires d’e-mails. En continuant, les groupes seront ignorés.
 compose-invalid-address-title = Adresse de destinataire invalide
+compose-no-recipients = Aucun destinataire spécifié. Veuillez saisir un destinataire ou un groupe de discussion dans la zone d’adressage.
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address } n’est pas une adresse valide, car elle n’est pas au format utilisateur@domaine. Veuillez la corriger avant d’envoyer l’e-mail.
