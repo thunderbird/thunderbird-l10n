@@ -10,6 +10,8 @@ compose-message-attachment-name = Mensaje adjunto
 
 ## Compose window
 
+compose-attachment-reminder-send-button = No, enviar ahora
+compose-attachment-reminder-add-button = ¡Oh, lo hice!
 
 ## Send Format
 
@@ -418,6 +420,27 @@ big-file-notification-text =
         [one] Este es un archivo grande. Sería mejor utilizar Filelink.
        *[other] Estos son archivos grandes. Sería mejor utilizar Filelink.
     }
+big-file-learn-more-button =
+    .label = Saber más…
+    .accesskey = m
+big-file-link-button =
+    .label = Enlace
+    .accesskey = l
+big-file-ignore-button =
+    .label = Ignorar
+    .accesskey = i
+big-file-choose-account-title = Elegir cuenta
+big-file-choose-account-prompt = Elegir una cuenta en la nube para subir el adjunto
+big-file-hide-notification-title = No subir mis archivos
+big-file-hide-notification-prompt = No serás notificado si adjuntas más archivos grandes a este mensaje.
+big-file-hide-notification-checkbox = No volver a notificarme de esto.
+cloud-file-privacy-warning = Enlazado completado. Toma en cuenta que adjuntos enlazados pueden ser accesibles a personas que pueden ver o adivinar los enlaces.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Subiendo a { $provider }...
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Subido a { $provider }
 
 ## Link Preview
 
