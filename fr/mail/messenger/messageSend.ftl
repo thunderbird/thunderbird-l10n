@@ -54,6 +54,9 @@ send-error-save-to-local-folders = Impossible d’enregistrer votre message dans
 send-progress-filter-complete = Filtrage terminé.
 send-progress-filter-failed = Échec du filtrage.
 send-error-filtering-message = Votre message a été correctement envoyé et enregistré, cependant une erreur est survenue lors de l’application des filtres de messages sur ce dernier.
+# Variables:
+# $hostname - outgoing server hostname
+send-error-smtp-security-issue = La configuration liée à { $hostname } doit être corrigée.
 send-error-post-failed = Ce message n’a pas pu être posté car la connexion avec le serveur de groupes a échoué. Le serveur est peut-être indisponible ou refuse les connexions. Veuillez vérifier que les paramètres de votre serveur de groupes de discussion sont corrects et essayer à nouveau.
 # Variables:
 # $size - formatted message size
@@ -69,6 +72,9 @@ send-save-draft-error-title = Erreur d’enregistrement du brouillon
 send-save-template-error-title = Erreur d’enregistrement du modèle
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = destinataires inconnus
+# Variables:
+# $recipient - recipient address
+smtp-error-illegal-local-part = Des caractères non ASCII sont présents dans la partie locale de l’adresse e-mail du destinataire { $recipient }, mais votre serveur ne prend pas en charge SMTPUTF8. Veuillez modifier cette adresse puis réessayer.
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = Le serveur sortant (SMTP) { $hostname } ne semble pas gérer les mots de passe chiffrés. Si vous venez juste de définir le compte, veuillez modifier la « Méthode d’authentification » pour « Mot de passe, transmission non sécurisée » dans le menu « Paramètres des comptes | Serveur sortant (SMTP) ». Si cela fonctionnait auparavant et que cela échoue à présent, il se pourrait que quelqu’un ait dérobé votre mot de passe.
@@ -87,6 +93,9 @@ smtp-auth-gssapi = Le ticket Kerberos/GSSAPI n’a pas été accepté par le ser
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-mechanism-not-supported = Le serveur sortant (SMTP) { $hostname } ne gère pas la méthode d’authentification sélectionnée. Veuillez modifier la « Méthode d’authentification » dans le menu « Paramètres des comptes | Serveur sortant (SMTP) ».
+# Variables:
+# $serverResponse - server response
+smtp-server-error = Une erreur est survenue lors de l’envoi de l’e-mail : erreur du serveur SMTP. Le serveur a répondu : { $serverResponse }.
 # Variables:
 # $hostname - outgoing server hostname
 smtp-starttls-failed = Une erreur est survenue lors de l’envoi de l’e-mail : impossible d’établir un lien sécurisé avec le serveur SMTP « { $hostname } » en utilisant « STARTTLS » puisqu’il ne propose pas cette fonctionnalité. Désactivez « STARTTLS » pour ce serveur ou contactez votre fournisseur d’accès à Internet.
