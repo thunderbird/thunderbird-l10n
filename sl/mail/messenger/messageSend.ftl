@@ -75,6 +75,7 @@ send-undisclosed-recipients = neimenovani prejemniki
 # Variables:
 # $recipient - recipient address
 smtp-error-illegal-local-part = V krajevnem delu prejemnikovega naslova { $recipient } so znaki, ki niso del ASCII, vaš strežnik pa ne podpira SMTPUTF8. Spremenite naslov in poskusite znova.
+smtp-error-no-recipients = Za dostavo prek SMTP ni bilo določenih prejemnikov.
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = Videti je, da odhodni strežnik (SMTP) { $hostname } ne podpira šifriranih gesel. Če ste račun pravkar ustvarili, poskusite ‘Metodo overitve’ v ‘Nastavitve računa | Odhodni strežnik (SMTP)’ spremeniti v ‘Geslo, poslano nezaščiteno’. Če je prej delovalo in sedaj ne deluje več, je bilo vaše geslo morda ukradeno.

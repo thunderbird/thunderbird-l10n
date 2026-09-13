@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 attachment-reminder-dialog-title = Ključne besede za opomnika priponk
+attachment-reminder-description = Opozori na manjkajoče priponke, če sporočilo vsebuje besede, ki nakazujejo nanje.
 attachment-reminder-label = { -brand-short-name } vas bo opozoril na manjkajoče priponke, če boste želeli poslati e-pošto, ki vsebuje eno od naslednjih ključnih besed.
 keyword-new-button =
     .label = Nova …

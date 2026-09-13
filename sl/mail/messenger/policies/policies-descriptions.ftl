@@ -32,6 +32,7 @@ policy-DisableDataCollectionSettings = Uporabniku prepreči spreminjanje nastavi
 policy-DisableDefaultClientAgent = Prepreči privzetemu agentu odjemalca izvajanje kakršnihkoli dejanj. To velja samo za Windows, druge platforme nimajo agenta.
 policy-DisableDeveloperTools = Zavrni dostop do razvojnih orodij.
 policy-DisableFeedbackCommands = Onemogoči ukaze v meniju Pomoč za pošiljanje povratnih informacij ("Povratne informacije" in "Prijavi zavajajočo stran").
+policy-DisableFileLink = Onemogoči možnost Filelink.
 policy-DisableForgetButton = Prepreči dostop do gumba Pozabi.
 policy-DisableFormHistory = Ne shranjuj zgodovine iskanja in obrazcev.
 policy-DisableMasterPasswordCreation = Če je "true", glavnega gesla ni mogoče ustvariti.

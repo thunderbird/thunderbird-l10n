@@ -38,3 +38,4 @@ panel-settings-spam = Nastavitve neželene pošte
 # Variables:
 # $account (String) - The account name.
 spam-settings-alert-message = Z nastavitvami neželene pošte za { $account } je zaznana težava. Ali jih želite pregledati, preden shranite spremembe?
+open-settings-sidebar-button = Nastavitve
