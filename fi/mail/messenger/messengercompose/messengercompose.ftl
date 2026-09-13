@@ -37,6 +37,7 @@ compose-attachment-reminder-add-button = Kyllä unohdin!
 compose-newsgroups-not-supported-title = Keskusteluryhmiä ei tueta
 compose-newsgroups-not-supported = Tämä tili tukee vain sähköpostin vastaanottajia. Jatkettaessa keskusteluryhmät jätetään huomiotta.
 compose-invalid-address-title = Virheellinen sähköpostiosoite
+compose-no-recipients = Yhtään vastaanottajaa ei ole annettu. Kirjoita vastaanottaja tai keskusteluryhmä osoiteriville.
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address } ei ole oikea sähköpostiosoite, koska sen muoto ei ole käyttäjä@palvelin. Korjaa osoite ennen kuin lähetät sähköpostin.
