@@ -10,6 +10,18 @@ compose-message-attachment-name = Вкладене повідомлення
 
 ## Compose window
 
+compose-attachment-reminder-title = Нагадування про вкладення
+compose-attachment-reminder-prompt = Чи не забули ви додати вкладення?
+compose-attachment-reminder-send-button = Ні, надіслати
+compose-attachment-reminder-add-button = Ой, точно!
+compose-file-attachment-error-title = Вкладання файла
+compose-rename-attachment-title = Перейменувати вкладення
+compose-rename-attachment-prompt = Нова назва вкладення:
+remind-later-button =
+    .label = Нагадати потім
+    .accesskey = п
+disable-attachment-reminder-menu-item =
+    .label = Вимкнути нагадування вкладення для цього повідомлення
 
 ## Send Format
 
@@ -461,6 +473,30 @@ big-file-notification-text =
         [few] Це великі файли. Можливо, краще використати натомість Filelink.
        *[many] Це великі файли. Можливо, краще використати натомість Filelink.
     }
+big-file-learn-more-button =
+    .label = Докладніше…
+    .accesskey = к
+big-file-link-button =
+    .label = Посилання
+    .accesskey = П
+big-file-ignore-button =
+    .label = Ігнорувати
+    .accesskey = І
+big-file-choose-account-title = Вибрати обліковий запис
+big-file-choose-account-prompt = Оберіть обліковий запис хмарного сховища для завантаження вкладення
+big-file-hide-notification-title = Не завантажувати мої файли
+big-file-hide-notification-prompt = Ви отримаєте сповіщення, якщо вкладете більше великих файлів у це повідомлення.
+big-file-hide-notification-checkbox = Ніколи не сповіщати мене про це знову.
+cloud-file-privacy-warning = Пов'язання завершено. Будь ласка, зверніть увагу, що пов'язані вкладення можуть бути доступні людям, які можуть побачити або вгадати посилання.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Завантаження до { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Завантажено до { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Вкласти файл(и) за допомогою { $provider }
 
 ## Link Preview
 
