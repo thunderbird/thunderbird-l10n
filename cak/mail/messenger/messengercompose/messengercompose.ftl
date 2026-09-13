@@ -6,6 +6,7 @@
 ## Compose alerts
 
 compose-message-cancelling = Tajin niq'at…
+compose-message-attachment-name = Taqoj Tzijol
 
 ## Compose window
 

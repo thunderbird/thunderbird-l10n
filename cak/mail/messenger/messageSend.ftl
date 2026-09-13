@@ -5,7 +5,11 @@
 
 ## Message sending
 
+send-alert-queued-delivery-failed = Xk'ulwachitäj jun sachoj toq yesamajïx ri taq atzijol man etaqon ta.
 send-alert-followup-to-sender = Ri rub'anel re tzijol re' ruk'utun chi ri taq tzolin tzij xketaq xa xe ketaq chi re ri b'anel. We nawajo' natzolij tzij chi re ri kimolaj tzijol, taya' chik qa jun k'ak'a' cholaj pa ri kik'ojlem ochochib'äl, tacha' Molaj pa ri kicholajem jub'i'aj chi ri' tatz'ib'aj rub'i' ri kimolaj tzijol.
+send-unable-to-save-template = Man tikirel ta niyak ri atzijol achi'el jun kaxawäch.
+send-unable-to-save-draft = Man tikirel ta niyak ri atzijol achi'el jun nab'ey samaj.
+send-error-failed = Xsach toq nitaq ri rutzijol.
 send-unable-to-send-later = Man tikirel ta niyak ri atzijol richin nitaq chik jumej.
 # Variables:
 # $hostname - outgoing server hostname
