@@ -41,11 +41,17 @@ compose-quit-saving-prompt =
 compose-quit-button = S&urt
 compose-wait-button = &Espera
 compose-file-attachment-error-title = Adjunció de fitxer
+compose-rename-attachment-title = Reanomena l'adjunció
+compose-rename-attachment-prompt = Nou nom de l'adjunció:
 remind-later-button =
     .label = Recorda-m'ho més tard
     .accesskey = R
 disable-attachment-reminder-menu-item =
     .label = Inhabilita el recordatori d'adjunció per al missatge actual
+find-replace-button =
+    .label = Reemplaça…
+    .accesskey = R
+    .tooltiptext = Mostra el diàleg Cerca i reemplaça
 # Variables:
 # $identity - identity address that would otherwise be used
 compose-custom-from-address-placeholder = Introduïu l'adreça «De» personalitzada que s'utilitzarà en lloc de { $identity }
@@ -502,6 +508,9 @@ big-file-choose-account-prompt = Trieu un compte al núvol per pujar-hi l'adjunc
 big-file-hide-notification-title = No pugis els meus fitxers
 big-file-hide-notification-prompt = No se us notificarà si adjunteu més fitxers grans a aquest missatge.
 big-file-hide-notification-checkbox = No em tornis a notificar més sobre això.
+cloudfile-uploading-stop-button =
+    .label = No tornis a mostrar-ho
+    .accesskey = N
 cloud-file-privacy-warning = S'ha enllaçat correctament. Tingueu en compte que els fitxers adjunts enllaçats poden ser accessibles per tothom qui pugui veure o endevinar els enllaços.
 # Variables:
 # $provider - name of the online storage service
