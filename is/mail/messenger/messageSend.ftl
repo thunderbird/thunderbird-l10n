@@ -24,3 +24,21 @@ send-error-smtp-interrupted = Ekki tókst að senda póst á póstþjón fyrir �
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = Ekki tókst að senda póst á póstþjón fyrir útsendan póst (SMTP) { $hostname } þar sem tenging rann út. Reyndu aftur.
 send-error-title = Villa í sendingu á pósti
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-sent-locally =
+    Skilaboðin þín voru send en afrit var ekki sett í möppuna fyrir sendan póst ({ $folder }) vegna vandamála í net- eða skráaaðgangi.
+    Þú getur reynt aftur eða vistað skilaboðin staðvært í { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-draft-locally =
+    Drögin þín voru ekki afrituð í möppuna fyrir drög ({ $folder }) vegna vandamála í net- eða skráaaðgangi.
+    Þú getur reynt aftur eða vistað drögin staðvært í { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-template-locally =
+    Sniðmátið þitt var ekki afritað í möppuna fyrir sniðmát ({ $folder }) vegna vandamála í net- eða skráaaðgangi.
+    Þú getur reynt aftur eða vistað sniðmátið staðvært í { $localFolder }/{ $folder }-{ $account }.
+send-dialog-retry = &Reyna aftur
+send-error-save-to-local-folders = Ekki tókst að vista skilaboðin þín í staðbundnar möppur. Hugsanlega er ekki nægt laust geymslupláss fyrir skrár.
+send-error-filtering-message = Búið er að senda og vista póstinn, en upp kom villa þegar verið var að keyra síu á hann.
