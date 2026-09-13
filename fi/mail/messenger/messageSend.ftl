@@ -11,6 +11,9 @@ send-error-failed = Viestin lähettäminen epäonnistui.
 send-unable-to-send-later = Ei pystynyt tallentamaan viestiä myöhempää lähettämistä varten.
 # Variables:
 # $hostname - outgoing server hostname
+send-error-smtp-unknown-server = Postia lähetettäessä tapahtui virhe: SMTP-palvelinta { $hostname } ei tunneta. Palvelinasetukset voivat olla virheelliset. Varmista, että SMTP-palvelinasetuksesi ovat oikein ja yritä uudelleen.
+# Variables:
+# $hostname - outgoing server hostname
 send-error-smtp-request-refused = Viestiä ei voitu lähettää, koska yhteyttä lähtevän postin palvelimeen (SMTP) { $hostname } ei onnistuttu luomaan. Palvelin voi olla varattu tai estää SMTP-yhteyspyynnöt. Varmista, että SMTP-palvelinasetuksesi ovat oikein ja yritä uudelleen.
 # Variables:
 # $hostname - outgoing server hostname
