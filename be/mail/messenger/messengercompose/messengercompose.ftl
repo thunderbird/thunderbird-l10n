@@ -3,6 +3,13 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Compose alerts
+
+compose-message-cancelling = Скасаванне…
+
+## Compose window
+
+
 ## Send Format
 
 compose-send-format-menu =
@@ -204,6 +211,12 @@ attachment-reminder-keywords-msg =
         [few] Знойдзены { $count } ключавыя словы далучэння:
        *[many] Знойдзены { $count } ключавых словаў далучэння:
     }
+
+## Editing
+
+
+# Tools
+
 
 ## Filelink
 
