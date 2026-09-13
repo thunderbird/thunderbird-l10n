@@ -84,7 +84,13 @@ smtp-server-error = Възникна грешка при изпращане на
 smtp-starttls-failed = Възникна грешка при изпращане на пощата: Установяването на сигурна връзка с изходящия (SMTP) сървър { $hostname } е невъзможно, ако се използва STARTTLS, тъй като той не обявява тази особеност. Изключете STARTTLS за този сървър или се свържете с вашия доставчик.
 # Variables:
 # $serverResponse - server response
+smtp-too-many-recipients = Съобщението не беше изпратено поради превишаване на разрешения брой получатели. Сървърът отговори: { $serverResponse }.
+# Variables:
+# $serverResponse - server response
 smtp-error-sending-from-command = Възникна грешка при изпращане на пощата. Пощенският сървър отговори: { $serverResponse }. Моля, проверете дали е верен пощенският Ви адрес в настройките и опитайте отново.
+# Variables:
+# $serverResponse - server response
+smtp-permanent-size-exceeded = Размерът на изпращаното от вас писмо надхвърля ограничението на сървъра за общ размер. Писмото не е изпратено, намалете размера му и опитайте отново. Сървърът отговори: { $serverResponse }.
 # Variables:
 # $serverResponse - server response; $recipient - intended recipient
 smtp-error-sending-recipient-command =
