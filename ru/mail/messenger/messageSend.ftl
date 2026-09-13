@@ -57,6 +57,7 @@ send-error-filtering-message = Ваше сообщение было отправ
 # Variables:
 # $hostname - outgoing server hostname
 send-error-smtp-security-issue = Конфигурация, относящаяся к { $hostname }, должна быть исправлена.
+send-error-post-failed = Сообщение не может быть доставлено, потому что не удалось установить соединение с сервером новостей. Сервер может быть недоступен или отказывать в соединении. Убедитесь, что указали корректные параметры сервера новостей и попробуйте снова.
 # Variables:
 # $size - formatted message size
 send-warning-large-message = Внимание! Вы собираетесь отправить сообщение размером { $size }. Вы уверены, что хотите это сделать?
@@ -103,6 +104,9 @@ smtp-starttls-failed = Ошибка отправления почты: Не уд
 smtp-too-many-recipients = Сообщение не было отправлено из-за превышения разрешённого количества получателей. Сервер ответил: { $serverResponse }.
 # Variables:
 # $serverResponse - server response
+smtp-error-sending-from-command = Ошибка отправления почты. Почтовый сервер ответил: { $serverResponse }. Убедитесь, что указанный вами в параметрах учётной записи адрес электронной почты верен, и попробуйте снова.
+# Variables:
+# $serverResponse - server response
 smtp-permanent-size-exceeded = Размер сообщения, которое вы пытаетесь отправить, превышает глобальный предел размера, допустимый сервером. Сообщение не было отправлено; уменьшите его размер и попробуйте снова. Сервер ответил:  { $serverResponse }.
 # Variables:
 # $serverResponse - server response; $recipient - intended recipient
@@ -110,3 +114,9 @@ smtp-error-sending-recipient-command =
     Ошибка отправления почты. Почтовый сервер ответил:
     { $serverResponse }.
     Проверьте правильность написания адреса получателя «{ $recipient }» и попробуйте снова.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-data-command = Ошибка сервера исходящей почты (SMTP) при отправлении почты. Сервер ответил: { $serverResponse }.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-message = Ошибка отправления почты. Почтовый сервер ответил: { $serverResponse }. Проверьте сообщение и попробуйте снова.
