@@ -13,10 +13,12 @@ compose-message-attachment-name = Csatolt üzenet
 compose-send-confirm-title = Üzenet küldése
 compose-send-confirm-prompt = Biztos benne, hogy az üzenet készen áll az elküldésre?
 compose-send-confirm-button = Küldés
+compose-do-not-show-again = Ne jelenjen meg többet ez a párbeszédpanel.
 compose-attachment-reminder-title = Figyelmeztető a mellékletekre
 compose-attachment-reminder-prompt = Nem felejtette el a mellékletet?
 compose-attachment-reminder-send-button = Nem, így küldöm el!
 compose-attachment-reminder-add-button = De igen!
+compose-quit-sending-title = Üzenet küldése
 compose-quit-saving-title = Üzenet mentése
 # Variables:
 # $brand - application name
@@ -30,7 +32,22 @@ compose-quit-saving-prompt =
     Megvárja az üzenet elküldésének befejeződését, vagy azonnal kilép?
 compose-quit-button = &Kilépés
 compose-wait-button = &Várakozás
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = A(z) { $filename } fájl nem létezik, ezért nem lehet az üzenethez csatolni.
 compose-file-attachment-error-title = Fájlcsatolás
+compose-message-file-error-title = Üzenetfájl
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = A(z) { $filename } fájl nem létezik, így nem használható üzenettörzsként.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = A(z) { $filename } fájl nem tölthető be üzenettörzsként.
+compose-save-success-title = Üzenet mentése
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Az üzenet a(z) { $folder } mappába lett mentve a(z) { $server } kiszolgálón.
 compose-rename-attachment-title = Melléklet átnevezése
 compose-rename-attachment-prompt = Melléklet új neve:
 remind-later-button =
@@ -42,6 +59,14 @@ find-replace-button =
     .label = &Csere…
     .accesskey = x
     .tooltiptext = Keresés és csere ablak megjelenítése
+compose-blocked-content-options-button = Beállítások
+compose-blocked-content-options-accesskey = B
+compose-blocked-content-preferences-button = Beállítások
+compose-blocked-content-preferences-accesskey = B
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = { $url } tiltásának feloldása
 
 ## Send Format
 
@@ -462,6 +487,33 @@ cloud-file-account-error-title = Filelink fiókhiba
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Nem sikerült frissíteni a(z) { $filename } Filelink mellékletet, mert a Filelink-fiókot törölték.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Nem sikerült a hitelesítés itt: { $provider }.
+cloud-file-upload-error-title = Feltöltési hiba
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = { $filename } nem tölthető fel ide: { $provider }.
+cloud-file-quota-error-title = Kvótahiba
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = { $filename } feltöltésével ide: { $provider } túllépné a tárterület kvótáját.
+cloud-file-size-error-title = Fájlméret hiba
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } meghaladja a(z) { $provider } által engedélyezett maximális méretet.
+cloud-file-unknown-error-title = Ismeretlen hiba
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Ismeretlen hiba történt a kommunikáció során ezzel: { $provider }.
+cloud-file-deletion-error-title = Törlési hiba
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Hiba történt a(z) { $filename } törlésekor innen: { $provider }.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
