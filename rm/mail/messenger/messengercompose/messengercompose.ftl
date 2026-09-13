@@ -17,6 +17,7 @@ compose-default-subject = (nagin object)
 # $subject - message subject
 # $brand - application name
 compose-window-title = Rediger: { $subject } - { $brand }
+compose-save-message-title = Memorisar il messadi
 # Variables:
 # $folder - configured drafts folder name
 compose-save-message-prompt = Memorisar quest messadi en l'ordinatur dals sbozs ({ $folder }) e serrar la fanestra da scriver?
@@ -165,6 +166,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Expander la glista
     .accesskey = x
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = Allontanar las adressas { $field }
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Vuls ti propi allontanar las adressas { $field }?
+compose-remove-address-row-button = Allontanar
 
 ## Attachment widget
 
