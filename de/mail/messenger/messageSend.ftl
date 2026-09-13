@@ -24,9 +24,15 @@ send-error-smtp-interrupted = Die Nachricht konnte nicht gesendet werden, weil d
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = Die Nachricht konnte nicht gesendet werden, weil die Verbindung mit dem SMTP-Server { $hostname } ihre Ablaufzeit (Timeout) überschritten hat. Versuchen Sie es nochmals.
 send-error-title = Senden der Nachricht ist fehlgeschlagen
+send-progress-assembling-mail-information = Nachrichteninformationen werden zusammengestellt…
+send-progress-assembling-message = Nachricht wird zusammengestellt…
+send-progress-creating-mail-message = Nachricht wird erstellt…
 # Variables:
 # $filename - name or URL of the file that could not be attached
 send-error-attaching-file = Es gab einen Fehler beim Anhängen von { $filename }. Bitte überprüfen Sie, ob Sie ausreichende Zugriffsrechte auf die Datei besitzen.
+send-progress-assembling-message-done = Zusammenstellen der Nachricht abgeschlossen
+send-progress-copy-complete = Kopieren abgeschlossen
+send-progress-copy-failed = Kopiervorgang fehlgeschlagen
 # Variables:
 # $folder - destination folder name; $localFolder - local folders name; $account - account name
 send-error-save-sent-locally =
@@ -45,6 +51,8 @@ send-error-save-template-locally =
 send-dialog-save-title = Nachricht speichern
 send-dialog-retry = Nochmals &versuchen
 send-error-save-to-local-folders = Ihre Nachricht kann nicht in einem lokalen Ordner gespeichert werden. Eventuell ist der Speicherplatz voll.
+send-progress-filter-complete = Anwendung des Filters abgeschlossen
+send-progress-filter-failed = Anwendung des Filters fehlgeschlagen
 send-error-filtering-message = Die Nachricht wurde gesendet und gespeichert, beim anschließenden Anwenden der Nachrichtenfilter trat aber ein Fehler auf.
 # Variables:
 # $hostname - outgoing server hostname
@@ -53,6 +61,9 @@ send-error-post-failed = Die Nachricht konnte nicht gesendet werden. Der News-Se
 # Variables:
 # $size - formatted message size
 send-warning-large-message = Warnung! Sie sind im Begriff, eine Datei von { $size } zu senden, was größer als die vom E-Mail-Server erlaubte Maximalgröße sein könnte. Sind Sie sicher, dass Sie dies machen wollen?
+# Variables:
+# $folder - destination folder name
+send-progress-copy-start = Nachricht wird in Ordner { $folder } kopiert…
 send-progress-sending-message = Nachricht wird gesendet…
 send-error-nntp-ok = Ihre Nachricht wurde in die Newsgruppe, aber nicht an den anderen Empfänger gesendet.
 send-error-copy-operation = Der Sendevorgang war erfolgreich, aber das Kopieren in den Ordner für gesendete Nachrichten ist fehlgeschlagen.
