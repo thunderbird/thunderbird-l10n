@@ -73,6 +73,9 @@ send-save-template-error-title = Simpan Kesalahan Templat
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = penerima yang dirahasiakan
 # Variables:
+# $recipient - recipient address
+smtp-error-illegal-local-part = Ada karakter non-ASCII di bagian lokal alamat penerima { $recipient } dan server Anda tidak mendukung SMTPUTF8. Harap ubah alamat ini dan coba lagi.
+# Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = Server keluar (SMTP) { $hostname } tampaknya tidak mendukung kata sandi terenkripsi. Jika Anda baru saja mengatur akun, coba ubah ‘Metode otentikasi’ di ‘Pengaturan Akun | Server keluar (SMTP) ‘ke’ Sandi, ditransmisikan tidak aman ‘. Jika dulu berfungsi tetapi sekarang tidak, Anda mungkin dicuri kata sandi.’.
 # Variables:
@@ -96,6 +99,9 @@ smtp-server-error = Terjadi kesalahan saat mengirim surel: Galat server keluar (
 # Variables:
 # $hostname - outgoing server hostname
 smtp-starttls-failed = Terjadi kesalahan saat mengirim email: Tidak dapat membuat tautan aman dengan Server keluar (SMTP) { $hostname } menggunakan STARTTLS karena tidak mengiklankan fitur itu. Matikan STARTTLS untuk server itu atau hubungi penyedia layanan Anda.
+# Variables:
+# $serverResponse - server response
+smtp-too-many-recipients = Pesan tidak terkirim karena melebihi cacah penerima yang diizinkan. Server menjawab: { $serverResponse }.
 # Variables:
 # $serverResponse - server response
 smtp-error-sending-from-command = Terjadi kesalahan saat mengirim surel. Server surel merespons: { $serverResponse }. Harap verifikasi bahwa alamat surel Anda sudah benar dalam pengaturan akun dan coba lagi.
