@@ -10,6 +10,7 @@ compose-message-attachment-name = Συνημμένο μήνυμα
 
 ## Compose window
 
+compose-file-attachment-error-title = Επισύναψη αρχείου
 
 ## Send Format
 
