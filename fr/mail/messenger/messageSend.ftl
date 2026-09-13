@@ -8,6 +8,7 @@
 send-alert-queued-delivery-failed = Une erreur est survenue lors de l’envoi des messages en attente.
 send-alert-followup-to-sender = L’auteur de ce message a demandé à ce que les réponses soient envoyées à lui seul. Si vous voulez aussi répondre dans le groupe, ajoutez une nouvelle ligne dans la partie des destinataires, choisissez Groupe dans la liste des destinataires et saisissez le nom du groupe.
 send-error-failed = L’envoi du message a échoué.
+send-unable-to-send-later = Impossible d’enregistrer votre message pour l’envoyer plus tard.
 # Variables:
 # $hostname - outgoing server hostname
 send-error-smtp-unknown-server = Une erreur est survenue lors de l’envoi de l’e-mail : le serveur sortant (SMTP) « { $hostname } » est inconnu. Le serveur est peut-être mal configuré. Veuillez vérifier que les paramètres de votre serveur sortant (SMTP) sont corrects et essayez à nouveau.
