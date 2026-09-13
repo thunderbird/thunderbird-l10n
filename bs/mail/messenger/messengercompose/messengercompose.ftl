@@ -10,10 +10,15 @@ compose-message-attachment-name = Priložena poruka
 
 ## Compose window
 
+compose-default-subject = (bez naslova)
 # Variables:
 # $subject - message subject
 # $brand - application name
 compose-window-title = Sastavi: { $subject } - { $brand }
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Sačuvati ovu poruku u vaš direktorij sa nacrtima ({ $folder }) i zatvoriti prozor za pisanje?
+compose-discard-changes-button = &Odbaci izmjene
 compose-send-confirm-title = Pošalji poruku
 compose-send-confirm-prompt = Jeste li sigurni da ste spremni poslati ovu poruku?
 compose-send-confirm-button = Pošalji
@@ -42,6 +47,7 @@ compose-quit-saving-prompt =
     Želite li pričekati sa zatvaranjem dok se poruka ne spremi ili želite zatvoriti sada?
 compose-quit-button = &Izađi
 compose-wait-button = &Sačekaj
+compose-attach-file-picker-title = Priloži datoteke
 # Variables:
 # $filename - name of the file that could not be found
 compose-file-attachment-not-found = Datoteka { $filename } ne postoji, te je nije moguće priložiti.
@@ -222,6 +228,9 @@ cloud-file-uploading-tooltip = Prijenos na { $provider }…
 # Variables:
 # $provider - name of the online storage service
 cloud-file-uploaded-tooltip = Preneseno na { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Priloži datoteke preko { $provider }
 
 ## Link Preview
 
