@@ -103,6 +103,9 @@ smtp-server-error =
 smtp-starttls-failed = Pri odosielaní správy sa vyskytla chyba: Nepodarilo sa nadviazať zabezpečené spojenie so serverom pre odosielanie pošty (SMTP) { $hostname } použitím STARTTLS, pretože túto funkciu nepodporuje. Vypnite STARTTLS pre tento server alebo kontaktujte poskytovateľa služby.
 # Variables:
 # $serverResponse - server response
+smtp-too-many-recipients = Správa nebola odoslaná z dôvodu prekročenia povoleného počtu príjemcov. Server odpovedal: { $serverResponse }.
+# Variables:
+# $serverResponse - server response
 smtp-error-sending-from-command = Chyba pri odosielaní e‑mailovej správy. Server odpovedal: { $serverResponse }.  Overte nastavenie vašej e‑mailovej adresy v nastaveniach účtu a skúste to znova.
 # Variables:
 # $serverResponse - server response
