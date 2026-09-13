@@ -10,6 +10,16 @@ compose-message-attachment-name = Pripeto sporočilo
 
 ## Compose window
 
+compose-default-subject = (brez zadeve)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Sestavi: { $subject } - { $brand }
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Shrani to sporočilo v mapo { $folder } in zapri okno Sestavi?
+compose-discard-changes-button = &Zavrzi spremembe
+compose-do-not-show-again = Tega pogovornega okna ne prikazuj več.
 compose-empty-subject-title = Opomnik za zadevo
 compose-empty-subject-prompt = Vaše sporočilo je brez zadeve.
 compose-empty-subject-send-button = &Pošlji brez zadeve
@@ -22,6 +32,7 @@ compose-invalid-address-title = Neveljaven naslov prejemnika
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address } ni veljaven e-poštni naslov, ker ni oblike uporabnik@gostitelj. Preden lahko e-pošto pošljete, morate to popraviti.
+compose-quit-sending-title = Pošiljanje sporočila
 compose-quit-saving-title = Sporočilo se shranjuje
 # Variables:
 # $brand - application name
@@ -30,10 +41,26 @@ compose-quit-sending-prompt =
     Želite počakati, da se sporočilo pošlje preden končate, ali želite končati takoj?
 compose-quit-button = &Končaj
 compose-wait-button = &Počakaj
+compose-attach-file-picker-title = Pripni datoteke
 compose-attach-page-title = Navedite mesto za priponko
 compose-attach-page-prompt = Spletna stran (naslov):
 compose-message-part-attachment-name = Pripet del sporočila
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = Datoteka { $filename } ne obstaja, tako da je k sporočilu ni bilo mogoče pripeti.
 compose-file-attachment-error-title = Pripni datoteko
+compose-message-file-error-title = Datoteka sporočila
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = Datoteka { $filename } ne obstaja in je ni bilo mogoče uporabiti kot telo sporočila.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = Datoteke { $filename } ni bilo mogoče naložiti kot telo sporočila.
+compose-save-success-title = Shrani sporočilo
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Vaše sporočilo je bilo shranjeno v mapo { $folder } pod { $server }.
 compose-rename-attachment-title = Preimenuj priponko
 compose-rename-attachment-prompt = Novo ime priponke:
 remind-later-button =
@@ -45,6 +72,20 @@ find-replace-button =
     .label = Zamenjaj …
     .accesskey = Z
     .tooltiptext = Prikaži pogovorno okno Najdi in Zamenjaj
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Vnesite naslov pošiljatelja po meri za uporabo namesto { $identity }
+compose-custom-from-address-title = Prilagodi naslov pošiljatelja
+compose-custom-from-address-warning = Če vaš ponudnik to podpira, vam možnost prilagajanja naslova pošiljatelja omogoča enkratno manjšo spremembo naslova brez ustvarjanja nove identitete v nastavitvah računa. Na primer, če je pošiljatelj Janez Novak <janez@example.com>, ga lahko spremenite v Janez Novak <janez+novak@example.com> ali Janez <janez@example.com>.
+compose-custom-from-address-ignore = Ne obveščaj me več o tem
+compose-blocked-content-options-button = Možnosti
+compose-blocked-content-options-accesskey = M
+compose-blocked-content-preferences-button = Nastavitve
+compose-blocked-content-preferences-accesskey = N
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Dovoli { $url }
 
 ## Send Format
 
