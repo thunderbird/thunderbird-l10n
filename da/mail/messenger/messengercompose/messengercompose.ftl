@@ -12,6 +12,7 @@ compose-message-attachment-name = Vedhæftet meddelelse
 
 compose-initialization-error-title = Komposition af meddelelser
 compose-initialization-error = Der opstod en fejl under oprettelsen af en nyt vindue til at skrive mail i. Prøv igen.
+compose-default-subject = (intet emne)
 # Variables:
 # $subject - message subject
 # $brand - application name
@@ -20,6 +21,7 @@ compose-save-message-title = Gem meddelelsen
 # Variables:
 # $folder - configured drafts folder name
 compose-save-message-prompt = Gem denne meddelelse i din kladdemappe ({ $folder }) og luk Skriv-vinduet?
+compose-discard-changes-button = &Forkast ændringer
 compose-send-confirm-title = Send meddelelsen
 compose-send-confirm-prompt = Er du sikker på, at du er klar til at sende denne meddelelse?
 compose-send-confirm-button = Send
@@ -35,6 +37,7 @@ compose-attachment-reminder-add-button = Ja
 compose-newsgroups-not-supported-title = Nyhedsgrupper understøttes ikke
 compose-newsgroups-not-supported = Denne konto understøtter kun mailmodtagere. Nyhedsgrupper vil blive ignoreret, hvis du fortsætter.
 compose-invalid-address-title = Ugyldig modtageradresse
+compose-no-recipients = Ingen modtagere angivet. Tilføj en mailmodtager eller nyhedsgruppe i adressefeltet.
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address } er ikke en gyldig mailadresse, da den ikke er i formen bruger@server.tld. Du skal rettet dette, før du kan sende mailen.
@@ -52,6 +55,7 @@ compose-quit-saving-prompt =
     Vil du vente til meddelelsen er gemt, før der afsluttes, eller vil du afslutte nu?
 compose-quit-button = &Afslut
 compose-wait-button = &Vent
+compose-attach-file-picker-title = Vedhæft filer
 compose-attach-page-title = Angiv et sted der skal vedhæftes
 compose-attach-page-prompt = Webside (URL):
 compose-message-part-attachment-name = Vedhæftet meddelelsesdel
@@ -592,6 +596,9 @@ cloud-file-uploading-tooltip = Uploader til { $provider }…
 # Variables:
 # $provider - name of the online storage service
 cloud-file-uploaded-tooltip = Uploadet til { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Vedhæft filer via { $provider }
 
 ## Link Preview
 
