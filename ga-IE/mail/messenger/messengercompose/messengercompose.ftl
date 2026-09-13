@@ -6,6 +6,7 @@
 ## Compose alerts
 
 compose-message-cancelling = Á Chealú…
+compose-message-attachment-name = Teachtaireacht Faoi Iamh
 
 ## Compose window
 

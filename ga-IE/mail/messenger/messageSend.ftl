@@ -7,6 +7,8 @@
 
 send-alert-queued-delivery-failed = Tharla earráid agus teachtaireachtaí neamhsheolta á seoladh.
 send-alert-followup-to-sender = D'iarr údar na teachtaireachta seo go seolfar freagraí chuigesean amháin. Más mian leat freagra a chur chuig an ngrúpa nuachta freisin, cuir ró nua leis an réimse seoltaí, roghnaigh "Grúpa Nuachta" ó liosta na bhfaighteoirí, agus cuir isteach ainm an ghrúpa nuachta.
+send-unable-to-save-template = Níorbh fhéidir do theachtaireacht a shábháil mar theimpléad.
+send-unable-to-save-draft = Níorbh fhéidir do theachtaireacht a shábháil mar dhréacht.
 send-error-failed = Níorbh fhéidir an teachtaireacht a sheoladh.
 send-unable-to-send-later = Ár leithscéal, níorbh fhéidir linn do theachtaireacht a shábháil.
 # Variables:
