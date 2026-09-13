@@ -10,10 +10,18 @@ compose-message-attachment-name = Liitetty viesti
 
 ## Compose window
 
+compose-initialization-error-title = Viestin kirjoitus
+compose-initialization-error = Viestin kirjoitus-ikkunaa luotaessa tapahtui virhe. Yritä uudelleen.
+compose-default-subject = (ei aihetta)
 # Variables:
 # $subject - message subject
 # $brand - application name
 compose-window-title = Kirjoita: { $subject } - { $brand }
+compose-save-message-title = Tallenna viesti
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Tallennetaanko tämä viesti Luonnokset-kansioon ({ $folder }) ja suljetaanko Kirjoita-ikkuna?
+compose-discard-changes-button = &Hylkää muutokset
 compose-send-confirm-title = Lähetä viesti
 compose-send-confirm-prompt = Lähetetäänkö viesti?
 compose-send-confirm-button = Lähetä
@@ -25,6 +33,12 @@ compose-attachment-reminder-title = Liitetiedostoista muistuttaja
 compose-attachment-reminder-prompt = Unohditko liittää tiedoston?
 compose-attachment-reminder-send-button = En. Lähetä viesti
 compose-attachment-reminder-add-button = Kyllä unohdin!
+compose-newsgroups-not-supported-title = Keskusteluryhmiä ei tueta
+compose-newsgroups-not-supported = Tämä tili tukee vain sähköpostin vastaanottajia. Jatkettaessa keskusteluryhmät jätetään huomiotta.
+compose-invalid-address-title = Virheellinen sähköpostiosoite
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } ei ole oikea sähköpostiosoite, koska sen muoto ei ole käyttäjä@palvelin. Korjaa osoite ennen kuin lähetät sähköpostin.
 compose-quit-saving-title = Tallentaan viestiä
 # Variables:
 # $brand - application name
@@ -38,6 +52,12 @@ compose-quit-saving-prompt =
     Lopetetaanko vasta kun viesti on tallennettu vai lopetetaan heti?
 compose-quit-button = &Lopeta
 compose-wait-button = &Odota
+compose-attach-file-picker-title = Liitä tiedosto(t)
+compose-attach-page-title = Määritä liitettävä tiedosto
+compose-attach-page-prompt = Verkkosivu (URL):
+compose-message-part-attachment-name = Liitetty viestin osa
+compose-attachment-bucket-attach-files-tooltip = Liitä tiedosto(t)
+compose-attachment-bucket-clear-selection-tooltip = Peruuta valinta
 compose-file-attachment-error-title = Liitä tiedosto
 compose-rename-attachment-title = Nimeä liite uudelleen
 compose-rename-attachment-prompt = Liitteen nimi:
