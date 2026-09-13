@@ -61,3 +61,5 @@ send-progress-sending-message = Шаљем поруку…
 send-later-error-title = Грешка приликом одложеног слања
 send-save-draft-error-title = Грешка приликом чувања нацрта
 send-save-template-error-title = Грешка приликом чувања шаблона
+# LOCALIZATION NOTE: This string must use only US-ASCII characters.
+send-undisclosed-recipients = неоткривени-примаоци
