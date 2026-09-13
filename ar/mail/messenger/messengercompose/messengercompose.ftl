@@ -13,6 +13,7 @@ compose-message-attachment-name = رسالة مرفقة
 compose-initialization-error-title = إنشاء الرسالة
 compose-initialization-error = حصل خطأ أثناء تحضير نافذة إنشاء الرسائل. رجاءً حاول مجددًا.
 compose-default-subject = (بدون عنوان)
+compose-save-message-title = احفظ الرسالة
 # Variables:
 # $folder - configured drafts folder name
 compose-save-message-prompt = أتريد حفظ هذه الرسالة في مجلد المسودات ({ $folder }) و إغلاق نافذة الكتابة؟
@@ -20,10 +21,12 @@ compose-discard-changes-button = &تجاهل التغييرات
 compose-send-confirm-title = أرسِل الرسالة
 compose-send-confirm-prompt = أمتأكد من أنك جاهز لإرسال هذه الرسالة؟
 compose-send-confirm-button = أرسِل
+compose-do-not-show-again = لا تُظهر مربّع الحوار هذا مرّة أخرى.
 compose-attachment-reminder-title = مذكّر المرفقات
 compose-attachment-reminder-prompt = هل نسيت أن تضيف المرفق؟
 compose-attachment-reminder-send-button = لا، أرسِل الآن
 compose-attachment-reminder-add-button = أوه، نسيتُ فعلًا!
+compose-quit-sending-title = إرسال الرسالة
 compose-quit-saving-title = يحفظ الرسالة
 # Variables:
 # $brand - application name
@@ -40,7 +43,24 @@ compose-wait-button = ا&نتظر
 compose-attach-file-picker-title = أرفق ملفات
 compose-attachment-bucket-attach-files-tooltip = أرفق ملفات
 compose-attachment-bucket-clear-selection-tooltip = امسح التحديد
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = الملف { $filename } غير موجود لذا لا يمكن إرفاقه بالرسالة.
 compose-file-attachment-error-title = إرفاق الملف
+compose-message-file-error-title = ملف الرسالة
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = الملف { $filename } غير موجود لذا لا يمكن استخدامه لمتن الرسالة.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = تعذر استخدام الملف { $filename } لمتن الرسالة.
+compose-save-success-title = احفظ الرسالة
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = لقد حفظت رسالتك في المجلد { $folder } تحت { $server }.
+compose-rename-attachment-title = أعِد تسمية المرفق
+compose-rename-attachment-prompt = اسم المرفق الجديد:
 remind-later-button =
     .label = ذكّرني لاحقًا
     .accesskey = ذ
@@ -50,6 +70,14 @@ find-replace-button =
     .label = استبدل…
     .accesskey = س
     .tooltiptext = أظهر حوار البحث و الاستبدال
+compose-blocked-content-options-button = الخيارات
+compose-blocked-content-options-accesskey = خ
+compose-blocked-content-preferences-button = التفضيلات
+compose-blocked-content-preferences-accesskey = ف
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = ارفع حجب { $url }
 
 ## Send Format
 
@@ -132,6 +160,33 @@ attachment-reminder-keywords-msg =
 
 cloud-file-authentication-error-title = عُطل في الاستيثاق
 # Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = تعذّر الاستيثاق مع { $provider }.
+cloud-file-upload-error-title = خطأ الرفع
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = تعذّر رفع { $filename } إلى { $provider }.
+cloud-file-quota-error-title = خطأ حصّة
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = رفع { $filename } إلى { $provider } سيتجاوز المساحة المخصصة لك.
+cloud-file-size-error-title = خطأ حجم الملف
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = الملف { $filename } أكبر من الحجم الأقصى في { $provider }.
+cloud-file-unknown-error-title = عطل مجهول
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = حدث خطأ غير معروف أثناء التواصل مع { $provider }.
+cloud-file-deletion-error-title = خطأ حذف
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = حدثت مشكلة أثناء حذف { $filename } من { $provider }.
+# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
     { $count ->
@@ -177,6 +232,9 @@ cloud-file-uploading-tooltip = يرفع إلى { $provider }…
 # Variables:
 # $provider - name of the online storage service
 cloud-file-uploaded-tooltip = رُفِع إلى { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = أرفق الملفات عبر { $provider }
 
 ## Link Preview
 
