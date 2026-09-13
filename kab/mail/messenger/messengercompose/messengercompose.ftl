@@ -36,6 +36,11 @@ compose-attachment-reminder-send-button = Ala, azen tura
 compose-attachment-reminder-add-button = Uh, Ttuɣ-t!
 compose-newsgroups-not-supported-title = Igrawen n isalen ur ttusefraken ara
 compose-newsgroups-not-supported = Amiḍan-agi yessefrak-kan iɣerwaḍen n yimayl. Ad tkemleḍ deg tiǧǧin n igrawen n isalen.
+compose-invalid-address-title = Tansa n uɣewaḍ mačči d tameɣtut
+compose-no-recipients = Ulac iɣerwaḍen d-ittunefken. Ma ulac aɣilif sekcem aɣerwaḍ neɣ agraw n isalen di temnaṭ n tensa.
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } mačči d tansa n yimayl tameɣtut acku ur teḍfiṛ ara amasal  aseqdac@asenneftaɣ. Yessefk ad tesseɣtiḍ send tuzna n yizen.
 compose-quit-sending-title = Tuzzna n yizen
 compose-quit-saving-title = Asekles n yizen
 # Variables:
@@ -51,6 +56,9 @@ compose-quit-saving-prompt =
 compose-quit-button = &Ffeɣ
 compose-wait-button = &Ṛǧu
 compose-attach-file-picker-title = Seddu afaylu (i-a)
+compose-attach-page-title = Ma ulac aɣilif, mudd-d tansa ara tsedduḍ
+compose-attach-page-prompt = Asebter Web (URL):
+compose-message-part-attachment-name = Aḥric seg izen yeddan
 compose-attachment-bucket-attach-files-tooltip = Seddu afaylu (i-a)
 compose-attachment-bucket-clear-selection-tooltip = Sfeḍ afran
 # Variables:
