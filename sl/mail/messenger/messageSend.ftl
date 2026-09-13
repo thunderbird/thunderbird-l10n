@@ -41,6 +41,7 @@ send-error-save-template-locally =
     Lahko poskusite znova ali pa predlogo shranite krajevno v { $localFolder }/{ $folder }-{ $account }.
 send-dialog-save-title = Shrani sporočilo
 send-dialog-retry = &Poskusi znova
+send-error-save-to-local-folders = Sporočila ni mogoče shraniti v Krajevne mape. Morda na pomnilniški napravi ni dovolj prostora.
 send-error-filtering-message = Vaše sporočilo je bilo poslano in shranjeno, toda med izvajanjem filtrov sporočil na njem je prišlo do napake.
 send-error-post-failed = Sporočila ni bilo mogoče objaviti, ker je povezava s strežnikom za novice spodletela. Strežnik morda ni na voljo ali pa zavrača povezave. Preverite, ali so vaše nastavitve strežnika za novice pravilne in poskusite znova.
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
