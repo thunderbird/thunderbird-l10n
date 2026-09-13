@@ -29,6 +29,8 @@ compose-empty-subject-title = Υπενθύμιση θέματος
 compose-empty-subject-prompt = Το μήνυμά σας δεν έχει θέμα.
 compose-empty-subject-send-button = &Αποστολή χωρίς θέμα
 compose-empty-subject-cancel-button = Α&κύρωση αποστολής
+compose-attachment-reminder-send-button = Όχι, να γίνει αποστολή
+compose-attachment-reminder-add-button = Ωχ, ναι. Το ξέχασα!
 compose-newsgroups-not-supported-title = Μη υποστηριζόμενες ομάδες συζητήσεων
 compose-newsgroups-not-supported = Αυτός ο λογαριασμός υποστηρίζει μόνο παραλήπτες email. Αν συνεχίσετε θα αγνοηθούν οι ομάδες συζήτησης.
 compose-quit-sending-title = Αποστολή μηνύματος
@@ -541,6 +543,16 @@ big-file-notification-text =
         [one] Αυτό είναι ένα μεγάλο αρχείο. Ίσως είναι καλύτερα να χρησιμοποιήσετε το FileLink.
        *[other] Αυτά είναι μεγάλα αρχεία. Ίσως είναι καλύτερα να χρησιμοποιήσετε το FileLink.
     }
+big-file-learn-more-button =
+    .label = Μάθετε περισσότερα…
+    .accesskey = π
+big-file-link-button =
+    .label = Σύνδεση
+    .accesskey = δ
+big-file-ignore-button =
+    .label = Παράβλεψη
+    .accesskey = ψ
+big-file-choose-account-title = Επιλογή λογαριασμού
 cloudfile-uploading-stop-button =
     .label = Να μην εμφανιστεί ξανά
     .accesskey = Ν
