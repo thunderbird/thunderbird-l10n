@@ -45,6 +45,7 @@ send-error-save-draft-locally =
 send-error-save-template-locally =
     Malen din ble ikke lagret i maler-mappen ({ $folder }) på grunn av nettverks- eller filtilgangsfeil.
     Du kan prøve på nytt eller lagre malen lokalt til { $localFolder }/{ $folder }-{ $account }.
+send-dialog-save-title = Lagrer melding
 send-dialog-retry = &Prøv på nytt
 send-progress-filter-complete = Filter fullført.
 send-progress-filter-failed = Filter mislyktes.
