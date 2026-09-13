@@ -26,11 +26,36 @@ send-error-smtp-timeout = Powěsć njedajo se słaś, dokulaž zwisk z wuchadnym
 send-error-title = Zmólka pśi słanju powěsći
 send-progress-assembling-message = Powěsć staja se gromadu…
 send-progress-assembling-message-done = Powěsć staja se gromadu…Gótowy
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-sent-locally =
+    Waša powěsć jo se wótpósłała, ale kopija njejo se dla seśowych zmólkow abo zmólkow datajowego pśistupa w zarědniku Pósłane ({ $folder }) składował.
+    Móžośo hyšći raz wopytaś abo powěsć lokalnje do { $localFolder }/{ $folder }-{ $account } składowaś.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-draft-locally =
+    Waša nacerjeńska powěsć njejo se dla seśowych zmólkow abo zmólkow datajowego pśistupa do wašogo zarědnika Nacerjenja ({ $folder }) kopěrowała.
+    Móžośo hyšći raz wopytaś abo nacerjenje lokalnje do { $localFolder }/{ $folder }-{ $account } składowaś.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-template-locally =
+    Waša pśedłoga njejo se dla seśowych zmólkow abo zmólkow datajowego pśistupa do wašogo zarědnika Pśedłogi ({ $folder }) kopěrowała.
+    Móžośo hyšći raz wopytaś abo pśedłogu lokalnje do { $localFolder }/{ $folder }-{ $account } składowaś.
 send-dialog-save-title = Powěsć składowaś
+send-dialog-retry = &Hyšći raz wopytaś
 send-error-save-to-local-folders = Waša powěsć njedajo se do lokalnych zarědnikow składowaś. Snaź składowański rum njedosega.
+send-error-filtering-message = Waša powěsć jo se pósłała a składowała, ale pśi filtrowanju powěsći jo zmólka nastała.
+# Variables:
+# $hostname - outgoing server hostname
+send-error-smtp-security-issue = Konfiguracija nastupajucy { $hostname } musy se pórěźiś.
 # Variables:
 # $size - formatted message size
 send-warning-large-message = Warnowanje! Cośo rowno powěsć z wjelikosću { $size } bajtow wótpósłaś. Cośo to napšawdu cyniś?
+# LOCALIZATION NOTE: This string must use only US-ASCII characters.
+send-undisclosed-recipients = schowane dostawarje
+# Variables:
+# $recipient - recipient address
+smtp-error-illegal-local-part = W lokalnem źělu adrese dostawarja { $recipient } su nje-ASCII-znamuška a waš serwer SMTPUTF8 njepódpěra. Pšosym změńśo toś tu adresu a wopytajśo hyšći raz.
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = Zda se, až wuchadny serwer (SMTP) { $hostname } njepódpěra skoděrowane gronidła. Jolic rowno konto konfigurěrujośo, wopytajśo ‘awtentifikacisku metodu’ w ‘Kontowe nastajenja | Wuchadny serwer (SMTP)’ do ‘Gronidło, njewěsće pśenjasone’ změniś. Jolic to zwětšego funkcioněrujo, ale něnto nic, jo móžno, až se wašo gronidło kšadnjo.
@@ -43,3 +68,6 @@ smtp-auth-hint-plain-to-encrypt = Wuchadny serwer (SMTP) { $hostname } njepódp�
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-failure = Njejo móžno, wuchadny serwer (SMTP) { $hostname } awtentificěrowás. Pšosym kontrolěrujśo gronidło, a pśespytajśo ‘awtentifikacisku metodu’ w ‘Kontowe nastajenja | Wuchadny serwer (SMTP)’.
+# Variables:
+# $serverResponse - server response
+smtp-too-many-recipients = Powěsć njejo se pósłała, dokulaž dowólona licba dostawarjow jo se pśekšocyła. Serwer jo wótegronił: { $serverResponse }.
