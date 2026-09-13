@@ -7,6 +7,8 @@
 
 send-alert-queued-delivery-failed = En feil oppstod under sending av usendte meldinger.
 send-alert-followup-to-sender = Forfatteren av denne meldingen har forespurt en kvittering for mottak. Dersom du også vil svare til nyhetsgruppen, legg til en ny rad til adressefeltet, velg nyhetsgruppe fra mottakerlisten og skriv inn navnet på nyhetsgruppen.
+send-unable-to-save-template = Klarte ikke lagre meldingen som mal.
+send-unable-to-save-draft = Klarte ikke lagre meldingen som utkast.
 send-error-failed = Klarte ikke sende melding.
 send-unable-to-send-later = Beklager, klarte ikke lagre meldingen for å sende den senere.
 # Variables:

@@ -6,6 +6,7 @@
 ## Compose alerts
 
 compose-message-cancelling = Avbryter …
+compose-message-attachment-name = Vedlagt melding
 
 ## Compose window
 
