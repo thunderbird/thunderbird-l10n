@@ -37,6 +37,7 @@ compose-attachment-reminder-add-button = O, do!
 compose-newsgroups-not-supported-title = Nid yw Grwpiau Newyddion yn Cael eu Cynnal
 compose-newsgroups-not-supported = Dim ond derbynwyr e-bost mae'r cyfrif yma yn ei gynnal. Bydd parhau yn anwybyddu grwpiau newyddion.
 compose-invalid-address-title = Cyfeiriad Derbynnydd Annilys
+compose-no-recipients = Heb enwi derbynwyr. Rhowch dderbynnydd neu grŵp newyddion yn y maes cyfeirio.
 # Variables:
 # $address - invalid email address
 compose-invalid-address = Nid yw { $address } yn gyfeiriad e-bost dilys gan nad yw yn ffurf user@host. Rhaid cywiro hyn cyn anfon yr e-bost.
