@@ -7,6 +7,8 @@
 
 send-alert-queued-delivery-failed = Fazi en ur gas kemennadennoù o c'hortoz.
 send-alert-followup-to-sender = Goulennet e oa bet gant aozer ar gemennadenn-se ma vefe respontet da aozer ar gemennadenn hepken. Ma fell deoc’h respont d’ar strollad-keleier-se ivez, ouzhpennit ur bann nevez en dachenn respont, dibabit "Strollad-keleier" diouzh roll ar posteloù ha lakait anv ar strollad-keleier.
+send-unable-to-save-template = N'hall ket enrollañ ho kemennadenn evel ur patrom.
+send-unable-to-save-draft = N'hall ket enrollañ ho kemennadenn evel ur brouilhed.
 send-error-failed = Fazi en ur gas ar gemennadenn.
 send-unable-to-send-later = Digarezit, n'omp ket bet gouest da enrollañ ho kemennadenn evit kas anezhi diwezhatoc'h.
 # Variables:
