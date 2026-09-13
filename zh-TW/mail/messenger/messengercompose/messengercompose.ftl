@@ -10,6 +10,19 @@ compose-message-attachment-name = 附加郵件
 
 ## Compose window
 
+compose-empty-subject-title = 主旨提醒
+compose-empty-subject-prompt = 您的郵件沒有主旨。
+compose-empty-subject-send-button = 傳送無主旨郵件 (&S)
+compose-empty-subject-cancel-button = 取消(&C)
+compose-newsgroups-not-supported-title = 不支援新聞群組
+compose-newsgroups-not-supported = 此帳號只支援電子郵件收件者，繼續執行會忽略新聞群組。
+compose-invalid-address-title = 收件者地址無效
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } 不是正確的電子郵件地址。正確的格式會是 user@host。請修正後重寄。
+compose-attach-page-title = 請指定附加檔案路徑
+compose-attach-page-prompt = 網址 (URL):
+compose-message-part-attachment-name = 附加郵件部份
 
 ## Send Format
 
