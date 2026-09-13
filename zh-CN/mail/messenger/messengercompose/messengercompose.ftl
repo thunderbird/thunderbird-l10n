@@ -10,6 +10,42 @@ compose-message-attachment-name = 附加消息
 
 ## Compose window
 
+compose-send-confirm-title = 发送消息
+compose-send-confirm-prompt = 您确定可以发送此消息了吗？
+compose-send-confirm-button = 发送
+compose-empty-subject-title = 主题提醒
+compose-empty-subject-prompt = 您的邮件没有主题。
+compose-empty-subject-send-button = 无主题发送(&S)
+compose-empty-subject-cancel-button = 取消发送(&C)
+compose-attachment-reminder-title = 附件提醒
+compose-attachment-reminder-prompt = 忘记添加一个附件了吗？
+compose-newsgroups-not-supported-title = 不支持新闻组
+compose-newsgroups-not-supported = 此账户仅支持电子邮件收件人。继续将忽略新闻组。
+compose-quit-saving-title = 正在保存消息
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } 正在发送消息。
+    您想要等待至消息发送完成再退出吗？
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } 当前正在保存消息。
+    你想等消息保存完毕再退出，还是立即退出？
+compose-quit-button = 退出(&Q)
+compose-wait-button = 等待(&W)
+compose-file-attachment-error-title = 附加文件
+compose-rename-attachment-title = 重命名附件
+compose-rename-attachment-prompt = 新附件名称：
+remind-later-button =
+    .label = 稍后提醒我
+    .accesskey = L
+disable-attachment-reminder-menu-item =
+    .label = 对当前消息禁用附件提醒
+find-replace-button =
+    .label = 替换(L)…
+    .accesskey = L
+    .tooltiptext = 显示查找和替换对话框
 
 ## Send Format
 
@@ -409,6 +445,33 @@ cloudfile-uploading-notification = 正在上传您的文件。上传完成后将
 # Variables:
 #   $count - the number big attached files
 big-file-notification-text = 文件有点大。我们建议您将大文件先上传到云端，再使用插入文件链接的形式传送文件。
+big-file-learn-more-button =
+    .label = 详细了解(M)…
+    .accesskey = M
+big-file-link-button =
+    .label = 链接(L)
+    .accesskey = L
+big-file-ignore-button =
+    .label = 忽略(I)
+    .accesskey = I
+big-file-choose-account-title = 选择账户
+big-file-choose-account-prompt = 选择一个云账户来上传附件
+big-file-hide-notification-title = 不要上传我的文件
+big-file-hide-notification-prompt = 向本邮件附加更多大文件时不会被通知。
+big-file-hide-notification-checkbox = 不要再通知我这个。
+cloudfile-uploading-stop-button =
+    .label = 不再显示此信息(N)
+    .accesskey = N
+cloud-file-privacy-warning = 链接完成。请注意链接的附件可能会被那些能看到或猜中链接的人访问。
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = 正在上传到 { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = 已上传到 { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = 通过 { $provider } 添加文件
 
 ## Link Preview
 
