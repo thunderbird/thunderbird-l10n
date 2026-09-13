@@ -5,6 +5,7 @@
 
 ## Compose alerts
 
+compose-message-cancelling = กำลังยกเลิก…
 compose-message-attachment-name = ข้อความที่แนบ
 
 ## Compose window
