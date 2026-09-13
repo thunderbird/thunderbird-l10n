@@ -27,6 +27,9 @@ send-error-title = Mearachd le cur na teachdaireachd
 send-progress-assembling-mail-information = A' cruinneachadh an fhiosrachaidh phuist…
 send-progress-assembling-message = A' cur na teachdaireachd ri chèile…
 send-progress-creating-mail-message = A' cruthachadh na teachdaireachd puist…
+# Variables:
+# $filename - name or URL of the file that could not be attached
+send-error-attaching-file = Thachair mearachd le bhith a' ceangal { $filename } ris. Dèan cinnteach gu bheil cead inntrigidh agad dhan fhaidhle.
 send-progress-assembling-message-done = A' cur na teachdaireachd ri chèile…Deiseil
 send-progress-copy-complete = Deiseil leis an lethbhreac.
 send-progress-copy-failed = Dh'fhàillig an lethbhreac.
@@ -51,6 +54,9 @@ send-error-save-to-local-folders = Cha ghabh do theachdaireachd a shàbhaladh sn
 send-progress-filter-complete = Tha an criathradh deiseil.
 send-progress-filter-failed = Dh'fhàillig an criathradh.
 send-error-filtering-message = Chaidh do theachdaireachd a chur 's a shàbhaladh ach bha mearachd ann leis a chriathradh.
+# Variables:
+# $hostname - outgoing server hostname
+send-error-smtp-security-issue = Feumaidh tu an rèiteachadh mu choinneamh { $hostname } a chur ceart.
 send-error-post-failed = Cha b' urrainn dhuinn an teachdaireachd a phostadh a chionn 's gun do dh'fhàillig an ceangal ris an fhrithealaiche naidheachdan. Dh'fhaodadh nach eil am frithealaiche ri fhaighinn no gu bheil e a' diùltadh cheanglaichean. Dèan cinnteach gu bheil roghainnean an fhrithealaiche naidheachdan agad ceart is feuch ris a-rithist.
 # Variables:
 # $size - formatted message size
@@ -59,6 +65,8 @@ send-warning-large-message = Rabhadh! Tha thu an impis teachdaireachd a chur a t
 # $folder - destination folder name
 send-progress-copy-start = A' cur lethbhreac dhen teachdaireachd gun phasgan { $folder }…
 send-progress-sending-message = A' cur na teachdaireachd…
+send-error-nntp-ok = Chaidh do theachdaireachd a phostadh dhan bhuidheann-naidheachd ach cha deach a chur dhan fhaightear eile fhathast.
+send-error-copy-operation = Chaidh an teachdaireachd a chur ach cha b' urrainn dhuinn lethbhreac dheth a chur gu pasgan a' phuist chuirte agad.
 send-later-error-title = Mearachd le cur na teachdaireachd uaireigin eile
 send-save-draft-error-title = Mearachd le sàbhaladh an dreachd
 send-save-template-error-title = Mearachd le sàbhaladh na teamplaide
@@ -87,7 +95,22 @@ smtp-auth-gssapi = Cha do ghabh am frithealaiche a-mach (SMTP) { $hostname } ris
 smtp-auth-mechanism-not-supported = Chan eil am frithealaiche a-mach (SMTP) { $hostname } a’ cur taic ris an dòigh dearbhaidh a thagh thu. Atharraich an dòigh dearbhaidh ann an "Roghainnean a’ chunntais" | "Am frithealaiche a-mach (SMTP)".
 # Variables:
 # $serverResponse - server response
+smtp-server-error = Thachair mearachd rè cur a' phuist: Mearachd leis an fhrithealaiche a-mach (SMTP). Dh'fhreagair am frithealaiche: { $serverResponse }.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-starttls-failed = Thachair mearachd le cur a’ phuist: Cha ghabh ceangal tèarainte a stèidheachadh leis an fhrithealaiche a-mach (SMTP) { $hostname } le STARTTLS a chionn ‘s nach eil e a’ sanasachd a’ ghleus seo. Cuir dheth STARTTLS airson an fhrithealaiche sin no cuir fios gu rianadair na seirbheise agad.
+# Variables:
+# $serverResponse - server response
 smtp-error-sending-from-command = Thachair mearachd rè cur a' phuist. Dh'fhreagair am frithealaiche puist: { $serverResponse }. Dearbhaich gu bheil an seòladh puist-d agad ceart ann an roghainnean a' chunntais agad is feuch ris a-rithist.
+# Variables:
+# $serverResponse - server response
+smtp-permanent-size-exceeded = Tha meud na teachdaireachd a tha thu airson a chur a' dol thairis air a' mheud uile-choitcheann as motha air an fhrithealaiche. Cha deach an teachdaireachd a chur; lughdaich meud na teachdaireachd is feuch ris a-rithist. Dh'fhreagair am frithealaiche: { $serverResponse }.
+# Variables:
+# $serverResponse - server response; $recipient - intended recipient
+smtp-error-sending-recipient-command =
+    Thachair mearachd rè cur a' phuist. Dh'fhreagair am frithealaiche puist:
+    { $serverResponse }.
+    Cuir sùil air faightear na teachdaireachd "{ $recipient }" is feuch ris a-rithist.
 # Variables:
 # $serverResponse - server response
 smtp-error-sending-data-command = Thachair mearachd le frithealaiche a-mach (SMTP) rè cur a' phuist. Dh'fhreagair am frithealaiche: { $serverResponse }.
