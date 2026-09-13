@@ -24,3 +24,21 @@ send-error-smtp-interrupted = Le message n’a pas pu être envoyé car la conne
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = Le message n’a pas pu être envoyé car la connexion au serveur sortant (SMTP) « { $hostname } » a expiré. Veuillez essayer à nouveau.
 send-error-title = Erreur d’envoi du message
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-sent-locally =
+    Votre message a été envoyé, mais une copie n’a pas été placée dans votre dossier Envoyés ({ $folder }) en raison d’un problème d’accès au réseau ou au fichier.
+    Vous pouvez recommencer ou enregistrer le message en local dans { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-draft-locally =
+    Votre brouillon n’a pas été copié dans votre dossier Brouillons ({ $folder }) en raison d’un problème d’accès au réseau ou au fichier.
+    Vous pouvez recommencer ou enregistrer le brouillon en local dans { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-template-locally =
+    Votre modèle n’a pas été copié dans votre dossier Modèles ({ $folder }) en raison d’un problème d’accès au réseau ou au fichier.
+    Vous pouvez recommencer ou enregistrer le modèle en local dans { $localFolder }/{ $folder }-{ $account }.
+send-dialog-save-title = Enregistrement du message
+send-dialog-retry = &Réessayer
+send-error-filtering-message = Votre message a été correctement envoyé et enregistré, cependant une erreur est survenue lors de l’application des filtres de messages sur ce dernier.
