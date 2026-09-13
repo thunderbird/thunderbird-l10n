@@ -7,6 +7,8 @@
 
 send-alert-queued-delivery-failed = Při dodawanju njepósłanych powěsćow je zmylk wustupił.
 send-alert-followup-to-sender = Awtor tuteje powěsće je požadał, zo wotmołwy maja so jenož na awtora słać. Jeli chceće tež diskusijnej skupinje wotmołwić, přidajće adresowemu dialogej nowu linku, wubjerće Diskusijna skupina z lisćiny přijimarjow, a zapodajće mjeno diskusijneje skupiny.
+send-unable-to-save-template = Njeje móžno, wašu powěsć jako předłohu składować.
+send-unable-to-save-draft = Njeje móžno, wašu powěsć jako naćisk składować.
 send-error-failed = Słanje powěsće je so nimokuliło.
 send-unable-to-send-later = Bohužel njemóžachmy wašu powěsć za pozdźiše słanje składować.
 # Variables:
