@@ -41,3 +41,5 @@ send-error-save-template-locally =
     Lahko poskusite znova ali pa predlogo shranite krajevno v { $localFolder }/{ $folder }-{ $account }.
 send-dialog-retry = &Poskusi znova
 send-error-filtering-message = Vaše sporočilo je bilo poslano in shranjeno, toda med izvajanjem filtrov sporočil na njem je prišlo do napake.
+# LOCALIZATION NOTE: This string must use only US-ASCII characters.
+send-undisclosed-recipients = neimenovani prejemniki
