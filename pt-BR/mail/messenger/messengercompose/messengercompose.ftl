@@ -20,6 +20,7 @@ compose-attachment-reminder-send-button = Não, enviar agora
 compose-attachment-reminder-add-button = Sim, eu esqueci!
 compose-newsgroups-not-supported-title = Sem suporte a grupos de notícias
 compose-newsgroups-not-supported = Esta conta só suporta destinatários de email. Caso continue, os grupos de notícias serão ignorados.
+compose-file-attachment-error-title = Anexar arquivo
 compose-rename-attachment-title = Renomear anexo
 compose-rename-attachment-prompt = Novo nome do anexo:
 remind-later-button =
@@ -483,6 +484,9 @@ cloud-file-uploading-tooltip = Enviando para { $provider }…
 # Variables:
 # $provider - name of the online storage service
 cloud-file-uploaded-tooltip = Enviado para { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Anexar arquivos via { $provider }
 
 ## Link Preview
 
