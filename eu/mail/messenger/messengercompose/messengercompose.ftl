@@ -17,6 +17,7 @@ compose-window-title = Idatzi: { $subject } - { $brand }
 compose-send-confirm-title = Bidali mezua
 compose-send-confirm-prompt = Ziur zaude mezua bidaltzeko prest zaudela?
 compose-send-confirm-button = Bidali
+compose-do-not-show-again = Ez erakutsi mezu hau berriro.
 compose-empty-subject-title = Gaiaren gogorarazlea
 compose-empty-subject-prompt = Zure mezuak ez dauka gairik.
 compose-empty-subject-send-button = &Bidali gairik gabe
@@ -31,6 +32,7 @@ compose-invalid-address-title = Hartzailearen helbide baliogabea
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address } ez da baliozko helbide elektronikoa, ez baita erabiltzailea@ostalaria gisakoa. E-posta bidali aurretik zuzendu behar duzu.
+compose-quit-sending-title = Mezua bidaltzen
 compose-quit-saving-title = Mezua gordetzen
 # Variables:
 # $brand - application name
@@ -47,7 +49,22 @@ compose-wait-button = It&xaron
 compose-attach-page-title = Adierazi erantsi beharreko helbidea
 compose-attach-page-prompt = Webgunea (URL):
 compose-message-part-attachment-name = Erantsitako mezu-zatia
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = { $filename } fitxategia ez dago beraz ezin zaio mezuari erantsi.
 compose-file-attachment-error-title = Fitxategia eranstea
+compose-message-file-error-title = Mezu fitxategia
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = { $filename } fitxategia ez dago beraz ezin da erabili mezu gorputz bezala.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = { $filename } fitxategia ezin da kargatu mezu gorputz bezala.
+compose-save-success-title = Gorde mezua
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Mezua { $server } zerbitzariko { $folder } karpetan gorde da.
 compose-rename-attachment-title = Berrizendatu eranskina
 compose-rename-attachment-prompt = Eranskin berriaren izena:
 remind-later-button =
@@ -65,6 +82,14 @@ compose-custom-from-address-placeholder = Sartu helbide pertsonalizatua { $ident
 compose-custom-from-address-title = Helbidetik pertsonalizatu
 compose-custom-from-address-warning = Zure eposta hornitzaileak onartzen badu, 'helbidetik pertsonalizatzeak' ahalbidetzen du aldaketa txiki bat egitea zure nondik helbidean identitate berri bat sortu gabe kontuaren ezarpenetan. Adibidez, Zure izena Mikel Biteri bada <mikel@example.com> eta Mikel Biterira aldatu nahi baduzu <mikel+biteri@example.com> or Mikel <mikel@example.com>era.
 compose-custom-from-address-ignore = Ez jakinarazi hau gehiago
+compose-blocked-content-options-button = Aukerak
+compose-blocked-content-options-accesskey = A
+compose-blocked-content-preferences-button = Hobespenak
+compose-blocked-content-preferences-accesskey = H
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Desblokeatu { $url }
 
 ## Send Format
 
@@ -487,6 +512,33 @@ cloud-file-account-error-title = Filelink kontuan errorea
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Huts egin du eguneratzea { $filename } eranskina Filelinken, Filelink kontua ezabatu delako.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Ezin da { $provider }(e)ra autentifikatu.
+cloud-file-upload-error-title = Errorea igotzean
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Ezin da { $filename } igo { $provider }(e)ra.
+cloud-file-quota-error-title = Kuota-errorea
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = { $filename } { $provider }(e)ra igoz gero zure espazioaren kuota gaindituko da.
+cloud-file-size-error-title = Fitxategi-tamainaren errorea
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } fitxategiak { $provider }(e)ko tamaina maximoa gainditzen du.
+cloud-file-unknown-error-title = Errore ezezaguna
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Errore ezezaguna gertatu da { $provider }(r)ekin komunikatzean.
+cloud-file-deletion-error-title = Ezabatze-errorea
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Arazoa egon da { $provider }(e)tik { $filename } ezabatzean.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
