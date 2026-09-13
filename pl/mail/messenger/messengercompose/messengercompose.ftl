@@ -37,6 +37,7 @@ compose-attachment-reminder-add-button = Faktycznie!
 compose-newsgroups-not-supported-title = Brak obsługi grup dyskusyjnych
 compose-newsgroups-not-supported = Z tego konta można wysyłać wiadomości jedynie na adresy e-mail. Próby wysłania wiadomości na serwery grup dyskusyjnych zostaną zignorowane.
 compose-invalid-address-title = Błędny adres odbiorcy
+compose-no-recipients = Nie określono żadnego adresata. W polu Do: wprowadź adresata lub w polu Grupa dyskusyjna: wprowadź nazwę grupy dyskusyjnej.
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address } nie jest poprawnym adresem e-mail. Adres e-mail powinien mieć budowę użytkownik@domena. Proszę poprawić adres przed wysłaniem wiadomości.
