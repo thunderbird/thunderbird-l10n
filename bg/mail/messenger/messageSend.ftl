@@ -11,6 +11,9 @@ send-error-failed = Писмото не е изпратено.
 send-unable-to-send-later = За съжаление вашето писмо не бе запазено за последващо изпращане.
 # Variables:
 # $hostname - outgoing server hostname
+send-error-smtp-unknown-server = Възникна грешка при изпращане на пощата: Изходящият (SMTP) сървър { $hostname } е непознат. Сървърът може би е неправилно конфигуриран. Моля, проверете настройките му и опитайте отново.
+# Variables:
+# $hostname - outgoing server hostname
 send-error-smtp-request-refused = Писмото не може да бъде изпратено поради липса на връзка с изходящия (SMTP) { $hostname } сървър. Сървърът вероятно е недостъпен или отхвърля опитите за свързване. Моля, проверете дали настройките му са верни и опитайте отново.
 # Variables:
 # $hostname - outgoing server hostname
