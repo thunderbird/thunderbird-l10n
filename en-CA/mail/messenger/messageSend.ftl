@@ -6,7 +6,9 @@
 ## Message sending
 
 send-alert-queued-delivery-failed = An error occurred while delivering the unsent messages.
+send-alert-followup-to-sender = The author of this message has requested that responses be sent only to the author. If you also want to reply to the newsgroup, add a new row to the addressing area, choose Newsgroup from the recipients list, and enter the name of the newsgroup.
 send-error-failed = Sending of the message failed.
+send-unable-to-send-later = Sorry, we were unable to save your message for sending later.
 # Variables:
 # $hostname - outgoing server hostname
 send-error-smtp-request-refused = The message could not be sent because connecting to Outgoing server (SMTP) { $hostname } failed. The server may be unavailable or is refusing SMTP connections. Please verify that your Outgoing server (SMTP) settings are correct and try again.
