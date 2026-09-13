@@ -12,7 +12,7 @@ compose-message-attachment-name = 附加郵件
 
 compose-initialization-error-title = 寄送郵件
 compose-initialization-error = 建立郵件編輯視窗時發生錯誤。請再試一次。
-compose-default-subject = (無主旨)
+compose-default-subject = （無主旨）
 # Variables:
 # $subject - message subject
 # $brand - application name
@@ -54,10 +54,10 @@ compose-quit-saving-prompt =
     { $brand } 目前正在儲存訊息。
     您想要等到訊息完成儲存後再離開或是要立即離開？
 compose-quit-button = 離開（&Q）
-compose-wait-button = 稍候
+compose-wait-button = 稍候（&W）
 compose-attach-file-picker-title = 附加檔案
 compose-attach-page-title = 請指定附加檔案路徑
-compose-attach-page-prompt = 網址 (URL):
+compose-attach-page-prompt = 網址（URL）：
 compose-message-part-attachment-name = 附加郵件部份
 compose-attachment-bucket-attach-files-tooltip = 附加檔案
 compose-attachment-bucket-clear-selection-tooltip = 清除選擇項目
@@ -78,7 +78,7 @@ compose-save-success-title = 儲存郵件
 # $server - server on which the folder is located
 compose-save-success-message = 您的郵件已經存到 { $server } 內的信件匣 { $folder } 了。
 compose-rename-attachment-title = 附加檔案重新命名
-compose-rename-attachment-prompt = 新附件名:
+compose-rename-attachment-prompt = 新附件名：
 remind-later-button =
     .label = 待會提醒我
     .accesskey = L
