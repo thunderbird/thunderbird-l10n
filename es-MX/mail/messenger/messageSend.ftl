@@ -24,3 +24,23 @@ send-error-smtp-interrupted = El mensaje no pudo ser enviado porque la conexión
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = El mensaje no pudo ser enviado porque el tiempo de conexión con el servidor de salida (SMTP) { $hostname } se ha agotado. Intenta de nuevo.
 send-error-title = Error al enviar el mensaje
+# Variables:
+# $filename - name or URL of the file that could not be attached
+send-error-attaching-file = Hubo un problema al adjuntar { $filename }. Por favor, verifica que tienes acceso al archivo.
+# Variables:
+# $hostname - outgoing server hostname
+send-error-smtp-security-issue = La configuración relacionada a { $hostname } debe corregirse.
+send-error-nntp-ok = Tu mensaje ha sido enviado al grupo de noticias pero no ha sido enviado a otros destinatarios.
+send-error-copy-operation = El mensaje se envió con éxito, pero no pudo copiarse a la carpeta Enviados.
+# Variables:
+# $serverResponse - server response
+smtp-server-error = Ocurrió un error al enviar el correo: Error del servidor (SMTP). El servidor respondió:  { $serverResponse }.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-starttls-failed = Hubo un error mientras se enviaba el correo: No se pudo establecer una conexión segura con el servidor SMTP { $hostname } usando STARTTLS porque no anuncia esa funcionalidad . Deshabilita STARTTLS para ese servidor o contacta a u proveedor.
+# Variables:
+# $serverResponse - server response; $recipient - intended recipient
+smtp-error-sending-recipient-command =
+    Hubo un error mientras se enviaba el correo: El servidor de correo respondió:
+    { $serverResponse }.
+    Revisa el destinatario "{ $recipient }" e inténtalo de nuevo.
