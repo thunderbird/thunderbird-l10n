@@ -10,6 +10,50 @@ compose-message-attachment-name = 첨부 메시지
 
 ## Compose window
 
+compose-send-confirm-title = 메시지 보내기
+compose-send-confirm-prompt = 이 메시지를 보내시겠습니까?
+compose-send-confirm-button = 보내기
+compose-do-not-show-again = 이 대화 상자를 더 이상 표시하지 않음
+compose-attachment-reminder-title = 첨부 파일 확인
+compose-attachment-reminder-prompt = 첨부 파일을 추가 하시겠습니까?
+compose-attachment-reminder-send-button = 바로 발송
+compose-attachment-reminder-add-button = 추가
+compose-quit-sending-title = 메시지 보내기
+compose-quit-saving-title = 메시지 저장중
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand }가 현재 메일을 보내고 있습니다.
+    종료하기 전에 메일 전송이 완료될 때까지 기다리시겠습니까?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand }이 메시지를 저장하고 있습니다.
+    메시지가 저장될 때 까지 기다리시겠습니까? 아니면 지금 종료하시겠습니까?
+compose-quit-button = 종료하기
+compose-wait-button = 기다리기
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = { $filename } 파일이 존재하지 않기 때문에 메시지에 첨부할 수 없습니다.
+compose-message-file-error-title = 메시지 파일
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = { $filename } 파일이 존재하지 않기 때문에 메시지에 첨부할 수 없습니다.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = 파일 { $filename }를 메시지 본문으로 읽어 들일 수 없습니다.
+compose-save-success-title = 메시지 저장하기
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = 메시지가 폴더에 저장됨: { $folder } / { $server }.
+compose-rename-attachment-title = 첨부 파일 이름 변경
+compose-rename-attachment-prompt = 새 파일명:
+remind-later-button =
+    .label = 나중에 확인
+    .accesskey = R
+disable-attachment-reminder-menu-item =
+    .label = 이 메시지에 첨부된 알림 해제
 
 ## Send Format
 
@@ -404,6 +448,27 @@ cloudfile-uploading-notification = 첨부 파일을 링크하고 있습니다. �
 # Variables:
 #   $count - the number big attached files
 big-file-notification-text = 사이즈 큰 파일 첨부에는 Filelink 기능 사용을 추천합니다.
+big-file-learn-more-button =
+    .label = 기능 소개…
+    .accesskey = m
+big-file-link-button =
+    .label = 링크 공유
+    .accesskey = l
+big-file-ignore-button =
+    .label = 무시
+    .accesskey = i
+big-file-choose-account-title = 계정 선택
+big-file-choose-account-prompt = 첨부 파일을 업로드할 클라우드 서비스의  계정을 선택해 주십시오.
+big-file-hide-notification-title = 파일 업로드 중지
+big-file-hide-notification-prompt = 더 큰 크기의 파일을 이 메시지에 첨부해도 알리지 않습니다.
+big-file-hide-notification-checkbox = 이 알림을 다시 표시하지 않음
+cloud-file-privacy-warning = 링크가 완료 되었습니다. 링크를 보거나 추측하는 모든 사람들은 첨부 파일을 볼 수 있습니다.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = { $provider }에 업로드 중…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = { $provider }에 업로드 완료
 
 ## Link Preview
 
