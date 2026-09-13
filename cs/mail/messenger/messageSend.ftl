@@ -49,8 +49,43 @@ send-dialog-retry = &Opakovat
 send-progress-filter-complete = Filtr dokončen.
 send-progress-filter-failed = Filtr selhal.
 send-error-filtering-message = Vaše zpráva byla odeslána a uložena, ale došlo k chybě při provádění filtrů.
+send-error-post-failed = Zpráva nemůže být odeslána, protože selhalo spojení s diskusním serverem. Server může být nedostupný nebo odmítat spojení. Zkontrolujte prosím, že nastavení pro diskusní server je správné a zkuste to znovu, nebo kontaktujte správce sítě.
+# Variables:
+# $size - formatted message size
+send-warning-large-message = Varování! Chystáte se odeslat zprávu o velikosti { $size }. Chcete ji opravdu odeslat?
 # Variables:
 # $folder - destination folder name
 send-progress-copy-start = Kopírování zprávy do složky { $folder }…
+send-progress-sending-message = Odesílání zprávy…
+send-later-error-title = Chyba při pozdějším odesílání
+send-save-draft-error-title = Chyba při ukládání konceptu
+send-save-template-error-title = Chyba při ukládání šablony
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = undisclosed-recipients (utajeni adresati)
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-no-ssl = SMTP server { $hostname } nepodporuje šifrovaná hesla. Pokud jste tento účet právě založili, změňte v dialogu Nastavení účtu | Nastavení serveru metodu autentizace na ‘Heslo, nezabezpečený přenos’. Pokud už tento účet fungoval, mohlo by se jednat o pokus ukrást vaše heslo.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-ssl = SMTP server { $hostname } nepodporuje šifrovaná hesla. Pokud jste tento účet právě založili, změňte v dialogu Nastavení účtu | Nastavení serveru metodu autentizace na ‘Heslo, zabezpečený přenos’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-plain-to-encrypt = SMTP server { $hostname } nepodporuje nezašifrovaná hesla. Změňte v dialogu Nastavení účtu | Nastavení serveru metodu autentizace na ‘Šifrované heslo’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-failure = Autentizace k SMTP serveru { $hostname } se nezdařila. Zkontrolujte prosím heslo a nastavený ‘Způsob autentizace’ v ‘Nastavení účtu | Odchozí server (SMTP)’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-gssapi = SMTP server { $hostname } nepřijal lístek Kerberos/GSSAPI. Zkontrolujte, zda jste přihlášení do domény Kerberos/GSSAPI.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-mechanism-not-supported = SMTP server { $hostname } nepodporuje zvolenou metodu autentizace. Změňte prosím ‘Způsob autentizace’ v ‘Nastavení účtu | Odchozí server (SMTP)’.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-from-command = Při odesílání zprávy nastala chyba. Server odpověděl: { $serverResponse }. Ověřte prosím správnost své e-mailové adresy a zkuste to znovu.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-data-command = Při odesílání zprávy nastala (SMTP) chyba. Server odpověděl:  { $serverResponse }.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-message = Při odesílání zprávy nastala chyba. Server odpověděl: { $serverResponse }. Zkontrolujte prosím zprávu a zkuste to znovu.
