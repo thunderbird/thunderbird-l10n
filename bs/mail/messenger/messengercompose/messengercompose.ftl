@@ -17,6 +17,7 @@ compose-default-subject = (bez naslova)
 # $subject - message subject
 # $brand - application name
 compose-window-title = Sastavi: { $subject } - { $brand }
+compose-save-message-title = Sačuvaj poruku
 # Variables:
 # $folder - configured drafts folder name
 compose-save-message-prompt = Sačuvati ovu poruku u vaš direktorij sa nacrtima ({ $folder }) i zatvoriti prozor za pisanje?
@@ -35,6 +36,11 @@ compose-attachment-reminder-send-button = Ne, pošalji sada
 compose-attachment-reminder-add-button = Da, zaboravio sam!
 compose-newsgroups-not-supported-title = Novinske grupe nisu podržane
 compose-newsgroups-not-supported = Ovaj račun podržava samo primaoce e-pošte. Ako nastavite, novinske grupe će biti ignorisane.
+compose-invalid-address-title = Neispravna adresa primaoca
+compose-no-recipients = Primalac nije odabran. Unesite primaoca ili novinsku grupu u područje za adresiranje.
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } nije ispravna adresa e-pošte jer nije u obliku korisnik@poslužitelj. Ispravite adresu e-pošte prije slanja poruke.
 compose-quit-sending-title = Slanje poruke
 compose-quit-saving-title = Spremanje poruke
 # Variables:
@@ -50,6 +56,9 @@ compose-quit-saving-prompt =
 compose-quit-button = &Izađi
 compose-wait-button = &Sačekaj
 compose-attach-file-picker-title = Priloži datoteke
+compose-attach-page-title = Odredite lokaciju za priložiti
+compose-attach-page-prompt = Web stranica (URL):
+compose-message-part-attachment-name = Dio priložene poruke
 compose-attachment-bucket-attach-files-tooltip = Priloži datoteke
 compose-attachment-bucket-clear-selection-tooltip = Očisti odabir
 # Variables:
