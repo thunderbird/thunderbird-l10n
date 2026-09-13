@@ -41,6 +41,7 @@ compose-wait-button = &Vent
 compose-attach-page-title = Vel ein nettstad å leggja ved
 compose-attach-page-prompt = Nettside (URL):
 compose-message-part-attachment-name = Vedlagt meldingsdel
+compose-file-attachment-error-title = Filtillegging
 compose-rename-attachment-title = Endra namn på vedlegget
 compose-rename-attachment-prompt = Nytt namn på vedlegget:
 remind-later-button =
