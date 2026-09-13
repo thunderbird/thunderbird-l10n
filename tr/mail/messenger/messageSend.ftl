@@ -24,3 +24,9 @@ send-error-smtp-interrupted = İleti gönderilemedi çünkü işlem sırasında 
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = İleti gönderilemedi çünkü { $hostname } giden sunucusu (SMTP) ile bağlantı zaman aşımına uğradı. Lütfen yeniden deneyin.
 send-error-title = Posta Gönderme Hatası
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-sent-locally =
+    İletiniz gönderildi ama ağ veya dosya erişim hataları nedeniyle “gönderilmiş” klasörünüze ({ $folder }) kaydedilemedi.
+    Yeniden deneyebilir veya iletiyi { $localFolder }/{ $folder }-{ $account } yerel klasörüne kaydedebilirsiniz.
+send-error-filtering-message = İletiniz gönderildi ve saklandı, ancak iletide kurallar işlenirken bir hata oluştu.
