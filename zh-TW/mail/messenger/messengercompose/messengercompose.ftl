@@ -3,6 +3,13 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Compose alerts
+
+compose-message-attachment-name = 附加郵件
+
+## Compose window
+
+
 ## Send Format
 
 compose-send-format-menu =
