@@ -17,6 +17,7 @@ compose-default-subject = (gairik ez)
 # $subject - message subject
 # $brand - application name
 compose-window-title = Idatzi: { $subject } - { $brand }
+compose-save-message-title = Gorde mezua
 # Variables:
 # $folder - configured drafts folder name
 compose-save-message-prompt = Gorde mezu hau ({ $folder }) zirriborro karpetan eta itxi idazketa leihoa?
@@ -165,6 +166,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Zabaldu zerrenda
     .accesskey = Z
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = Kendu { $field } helbideak
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Ziur zaude { $field } helbideak kendu nahi duzula?
+compose-remove-address-row-button = Kendu
 
 ## Attachment widget
 
@@ -522,6 +530,7 @@ cloud-file-account-error-title = Filelink kontuan errorea
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Huts egin du eguneratzea { $filename } eranskina Filelinken, Filelink kontua ezabatu delako.
+cloud-file-authentication-error-title = Autentifikazio-errorea
 # Variables:
 # $provider - name of the online storage service
 cloud-file-authentication-error = Ezin da { $provider }(e)ra autentifikatu.
