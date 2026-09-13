@@ -6,6 +6,7 @@
 ## Compose alerts
 
 compose-message-cancelling = Չեղարկում...
+compose-message-attachment-name = Կցված նամակ
 
 ## Compose window
 
