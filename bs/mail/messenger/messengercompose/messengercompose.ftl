@@ -10,6 +10,8 @@ compose-message-attachment-name = Priložena poruka
 
 ## Compose window
 
+compose-initialization-error-title = Pisanje poruke
+compose-initialization-error = Došlo je do greške pri stvaranju prozora za pisanje poruke. Pokušajte ponovno.
 compose-default-subject = (bez naslova)
 # Variables:
 # $subject - message subject
@@ -48,9 +50,12 @@ compose-quit-saving-prompt =
 compose-quit-button = &Izađi
 compose-wait-button = &Sačekaj
 compose-attach-file-picker-title = Priloži datoteke
+compose-attachment-bucket-attach-files-tooltip = Priloži datoteke
+compose-attachment-bucket-clear-selection-tooltip = Očisti odabir
 # Variables:
 # $filename - name of the file that could not be found
 compose-file-attachment-not-found = Datoteka { $filename } ne postoji, te je nije moguće priložiti.
+compose-file-attachment-error-title = Prilaganje datoteke
 compose-message-file-error-title = Datoteka poruke
 # Variables:
 # $filename - name of the file that could not be found
