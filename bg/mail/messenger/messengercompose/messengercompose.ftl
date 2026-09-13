@@ -10,6 +10,10 @@ compose-message-attachment-name = Прикрепено писмо
 
 ## Compose window
 
+find-replace-button =
+    .label = Замяна…
+    .accesskey = я
+    .tooltiptext = Показване на диалога за търсене и замяна
 
 ## Send Format
 
@@ -446,6 +450,9 @@ big-file-notification-text =
         [one] Това е голям файл. Може би е по-добре да използвате Filelink вместо това.
        *[other] Това са големи файлове. Може би е по-добре да използвате Filelink вместо това.
     }
+cloudfile-uploading-stop-button =
+    .label = Да не се показва това повече
+    .accesskey = Д
 
 ## Link Preview
 
