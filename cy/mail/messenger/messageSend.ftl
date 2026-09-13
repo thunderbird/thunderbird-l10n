@@ -30,8 +30,46 @@ send-progress-creating-mail-message = Creu neges e-bost…
 send-progress-assembling-message-done = Cydosod neges...Wedi gorffen
 send-progress-copy-complete = Copïo wedi gorffen.
 send-progress-copy-failed = Methodd copïo.
+send-dialog-save-title = Cadw Neges
 send-progress-filter-complete = Mae'r hidl wedi ei gwblhau.
 send-progress-filter-failed = Methodd yr hidl.
+send-error-post-failed = Nid oedd modd cofnodi'r neges am i'r cyswllt a'r gweinydd e-bost fethu. Efallai nad yw'r gweinydd ar gael neu mae'n gwrthod cysylltiadau. Gwiriwch eich gosodiadau gwasanaethau e-bost a cheisiwch eto, neu cysylltwch â'ch gweinyddwr rhwydwaith.
+# Variables:
+# $size - formatted message size
+send-warning-large-message = Rhybudd! Rydych ar fin anfon neges o faint { $size }. Ydych chi'n siŵr eich bod eisiau gwneud hyn?
 # Variables:
 # $folder - destination folder name
 send-progress-copy-start = Copïo neges i'r ffolder { $folder }…
+send-progress-sending-message = Wrthi'n anfon neges…
+send-later-error-title = Anfon Gwall Diweddarach
+send-save-draft-error-title = Cadw Gwall Drafft
+send-save-template-error-title = Cadw Gwall Templed
+# LOCALIZATION NOTE: This string must use only US-ASCII characters.
+send-undisclosed-recipients = derbynnydd cudd
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-no-ssl = Nid yw'r gweinydd Anfon (SMTP) { $hostname } i weld yn cynnal cyfrineiriau wedi eu hamgryptio. Os ydych newydd greu'r cyfrif, ceisiwch newydd y ‘Dull dilysu’ yn ‘Gosodiadau Cyfrif | Gosodiadau gweinydd (SMTP)’ i ‘Cyfrinair, trosglwyddo anniogel’. Os oedd arfer gweithio ond nid yw nawr, gallwch fod yn agored i gael eich cyfrinair wedi ei ddwyn.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-ssl = Nid yw'r gweinydd Anfon (SMTP) { $hostname } i weld yn cynnal cyfrineiriau wedi eu hamgryptio. Os ydych newydd greu'r cyfrif, ceisiwch newydd y ‘dull Dilysu’ yn ‘Gosodiadau Cyfrif | Gweinydd anfon (SMTP)’ i ‘Cyfrinair arferol’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-plain-to-encrypt = Nid yw'r gweinydd Anfon (SMTP) { $hostname } yn caniatáu cyfrineiriau testun plaen. Ceisiwch newydd y ‘dull Dilysu’ yn ‘Gosodiadau Cyfrif | Gweinydd anfon (SMTP)’ i ‘Cyfrinair amgryptiedig’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-failure = Methu dilysu gweinydd Anfon (SMTP) { $hostname }. Gwiriwch eich cyfrinair a dilysu eich ‘Dull dilysu’ yn ‘Gosodiadau Cyfrif | Gweinydd anfon’ (SMTP)’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-gssapi = Nid yw'r tocyn Kerberos/GSSAPI ticket wedi'i dderbyn gan weinydd Anfon (SMTP) { $hostname }. Gwiriwch eich bod wedi eich mewngofnodi i gylch Kerberos/GSSAPI.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-mechanism-not-supported = Nid yw'r gweinydd Anfon (SMTP) { $hostname } yn cynnal y dull yma o ddilysu. Ceisiwch newid y ‘Dull dilysu’ yn ‘Gosodiadau Cyfrif | Gweinydd Anfon (SMTP)’.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-from-command = Cafwyd gwall wrth anfon e-bost. Ymateb y gweinydd oedd: { $serverResponse }. Gwiriwch fod eich cyfeiriad e-bost yn gywir yn eich dewisiadau E-bost a cheisiwch eto.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-data-command = Digwyddodd gwall (SMTP) wrth anfon e-bost. Ymateb y gweinydd oedd:  { $serverResponse }.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-message = Digwyddodd gwall wrth anfon e-bost. Ymateb y gweinydd oedd:   { $serverResponse }. Gwiriwch y neges a cheisiwch eto.
