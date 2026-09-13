@@ -6,7 +6,12 @@
 ## Message sending
 
 send-alert-queued-delivery-failed = En feil oppstod under sending av usendte meldinger.
+send-alert-followup-to-sender = Forfatteren av denne meldingen har forespurt en kvittering for mottak. Dersom du også vil svare til nyhetsgruppen, legg til en ny rad til adressefeltet, velg nyhetsgruppe fra mottakerlisten og skriv inn navnet på nyhetsgruppen.
 send-error-failed = Klarte ikke sende melding.
+send-unable-to-send-later = Beklager, klarte ikke lagre meldingen for å sende den senere.
+# Variables:
+# $hostname - outgoing server hostname
+send-error-smtp-unknown-server = Klarte ikke sende meldingen: SMTP-serveren { $hostname } er ukjent. Serveren kan være feilkonfigurert. Kontroller at SMTP-serverinnstillingene er korrekte og prøv igjen.
 # Variables:
 # $hostname - outgoing server hostname
 send-error-smtp-request-refused = Klarte ikke sende meldingen fordi tilkoblingen til utgående server (SMTP) { $hostname } mislyktes. Serveren kan være utilgjengelig, eller avviser SMTP-tilkoblinger. Kontroller at innstillinger for utgående server (SMTP) er riktige, og prøv igjen.
