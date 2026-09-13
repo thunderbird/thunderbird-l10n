@@ -10,6 +10,38 @@ compose-message-attachment-name = Kemennadenn kenstaget
 
 ## Compose window
 
+compose-send-confirm-title = Kas ar gemennadenn
+compose-send-confirm-prompt = Ha sur oc'h e c'hellit kas ar gemennadenn diouzhtu ?
+compose-send-confirm-button = Kas
+compose-attachment-reminder-title = Adc'halv evit ar c'henstagadurioù
+compose-attachment-reminder-prompt = Disoñjet hoc'h eus ouzhpennañ ur c'henstagadur?
+compose-attachment-reminder-send-button = Ket, kas diouzhtu
+compose-attachment-reminder-add-button = Ya!
+compose-quit-saving-title = Oc'h enrollañ ar gemennadenn
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    Emañ { $brand } o kas ur gemennadenn.
+    Ha fellout a ra deoc'h gortoz betek ma vo kaset ar postel pe guitaat forzh penaos diouzhtu ?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    Emañ { $brand } oc'h enrollañ ur gemennadenn.
+    Ha fellout a ra deoc'h gortoz betek ma vo enrollet ar postel pe guitaat forzh penaos diouzhtu ?
+compose-quit-button = &Kuitaat
+compose-wait-button = &Gortoz
+compose-file-attachment-error-title = Kenstagañ ur restr
+compose-rename-attachment-title = Adenvel ar c'henstagadur
+compose-rename-attachment-prompt = Anv nevez evit ar c'henstagadur:
+remind-later-button =
+    .label = Degas soñj din diwezhatoc'h
+    .accesskey = D
+disable-attachment-reminder-menu-item =
+    .label = Diweredekaat kounadurioù ar c'henstagadennoù evit ar gemennadenn vremanel
+find-replace-button =
+    .label = Amsaviñ...
+    .accesskey = A
+    .tooltiptext = Diskouez ar voestad emziviz Kavout hag amsaviñ
 
 ## Send Format
 
@@ -112,6 +144,34 @@ attachment-reminder-keywords-msg =
 
 # Messages
 
+cloud-file-authentication-error-title = Fazi dilesa
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = N'haller ket en em zilesa ouzh { $provider }.
+cloud-file-upload-error-title = Fazi kargañ
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = N'haller ket kargañ { $filename } war { $provider }.
+cloud-file-quota-error-title = Fazi feurbarzh
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Aet e viot dreist ho feurbarzh egor ma kargot { $filename } war { $provider }.
+cloud-file-size-error-title = Fazi ment restr
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = Ar vent eus { $filename } a ya dreist an hini vrasañ aotreet evit { $provider }.
+cloud-file-unknown-error-title = Fazi dianav
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Degouezhet ez eus bet ur fazi dianav e-pad an eskemm gant { $provider }.
+cloud-file-deletion-error-title = Fazi dilemel
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Degouezhet ez eus bet ur fazi e-pad dilamadur eus { $filename } war { $provider }.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
@@ -130,6 +190,33 @@ big-file-notification-text =
         [many] Restroù bras eo. Marteze e vefe gwelloc'h arverañ Filelink.
        *[other] Restroù bras eo. Marteze e vefe gwelloc'h arverañ Filelink.
     }
+big-file-learn-more-button =
+    .label = Gouzout hiroc'h…
+    .accesskey = o
+big-file-link-button =
+    .label = Ere
+    .accesskey = E
+big-file-ignore-button =
+    .label = Leuskel a-gostez
+    .accesskey = L
+big-file-choose-account-title = Dibab ur gont
+big-file-choose-account-prompt = Dibab ur gont a-benn kargañ ar c'henstagadur enni
+big-file-hide-notification-title = Na gargañ ma restroù
+big-file-hide-notification-prompt = Ne viot ket rebuzet ma stagot muioc'h a restroù bras d'ar gemennadenn-mañ.
+big-file-hide-notification-checkbox = Na rebuziñ mui ac'hanon eus an dra-se.
+cloudfile-uploading-stop-button =
+    .label = Na ziskouez ar gemennadenn-mañ en-dro
+    .accesskey = N
+cloud-file-privacy-warning = Echu eo an ereadur. Dalc'hit soñj e c'hell bezañ haezet ar c'henstagadurioù ereet gant pep den a wel pe a zivin an ereoù.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = O kargañ etrezek { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Karget war { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Stagañ restroù dre { $provider }
 
 ## Link Preview
 
