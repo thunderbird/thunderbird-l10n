@@ -10,6 +10,88 @@ compose-message-attachment-name = Прымацаванае паведамлен�
 
 ## Compose window
 
+compose-initialization-error-title = Складанне паведамлення
+compose-default-subject = (без тэмы)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Стварэнне паведамлення: { $subject } - { $brand }
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Захаваць гэта паведамленне ў вашай папцы чарнавікоў ({ $folder }) і закрыць акно «Стварыць новае паведамленне»?
+compose-discard-changes-button = &Адхіліць змены
+compose-send-confirm-title = Адправіць паведамленне
+compose-send-confirm-prompt = Вы ўпэўнены, што гатовы адправіць гэта паведамленне?
+compose-send-confirm-button = Адправіць
+compose-do-not-show-again = Не паказваць мне гэты дыялог зноў.
+compose-empty-subject-title = Напамін пра тэму
+compose-empty-subject-prompt = Ваша паведамленне не мае тэмы.
+compose-empty-subject-send-button = &Адправіць без тэмы
+compose-empty-subject-cancel-button = &Скасаваць адпраўку
+compose-attachment-reminder-title = Напамінак пра прымацаванне
+compose-attachment-reminder-prompt = Вы не забылі дадаць далучэнне?
+compose-attachment-reminder-send-button = Не, адправіць зараз
+compose-attachment-reminder-add-button = Ай, я забыў!
+compose-newsgroups-not-supported-title = Групы навін не падтрымліваюцца
+compose-newsgroups-not-supported = Гэты ўліковы запіс падтрымлівае толькі атрымальнікаў электроннай пошты. Групы навін будуць праігнараваны пры працягу.
+compose-quit-sending-title = Адпраўка паведамлення
+compose-quit-saving-title = Захаванне паведамлення
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } зараз дасылае ліст.
+    Вы пачакаеце, пакуль ліст будзе дасланы, або хочаце выйсці зараз?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } зараз захоўвае ліст.
+    Вы хочаце пачакаць, пакуль ліст будзе захованы, або хочаце выйсці зараз?
+compose-quit-button = &Выйсці
+compose-wait-button = &Пачакаць
+compose-attach-file-picker-title = Прымацаваць файл(ы)
+compose-attachment-bucket-attach-files-tooltip = Прымацаваць файл(ы)
+compose-attachment-bucket-clear-selection-tooltip = Ачысціць вылучэнне
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = Файл { $filename } не існуе, таму ён не можа быць прымацаваны да паведамлення.
+compose-file-attachment-error-title = Прымацаваць файл
+compose-message-file-error-title = Файл паведамлення
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = Файл { $filename } не існуе, таму ён не можа быць выкарыстаны ў якасці цела паведамлення.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = Файл { $filename } не можа быць загружаны ў якасці цела паведамлення.
+compose-save-success-title = Захаваць паведамленне
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Ваша паведамленне было захавана ў папцы { $folder } на { $server }.
+compose-rename-attachment-title = Перайменаваць прымацаванне
+compose-rename-attachment-prompt = Новае імя прымацавання:
+remind-later-button =
+    .label = Нагадаць мне пазней
+    .accesskey = Н
+disable-attachment-reminder-menu-item =
+    .label = Адключэння нагадвання аб укладанні для гэтага паведамлення
+find-replace-button =
+    .label = Замяніць…
+    .accesskey = З
+    .tooltiptext = Паказаць дыялог пошуку і замены
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Увядзіце свой адрас адпраўніка замест { $identity }
+compose-custom-from-address-title = Персаналізаваць адрас адпраўніка
+compose-custom-from-address-warning = Калі ваш дастаўнік паслуг электроннай пошты падтрымлівае персаналізацыю адраса адпраўніка, вы можаце рабіць аднаразовыя невялікія змены ў ім без дадання новых ідэнтыфікацыйных даных у наладах уліковага запісу. Напрыклад, калі ваш адрас адпраўніка «Уладзімір Караткевіч <uladzimir@example.com>», вы можаце замяніць яго на «Уладзімір Караткевіч <uladzimir+karatkevich@example.com>» або «Уладзімір <uladzimir@example.com>».
+compose-custom-from-address-ignore = Ніколі не паведамляць мне пра гэта зноў
+compose-blocked-content-options-button = Параметры
+compose-blocked-content-options-accesskey = П
+compose-blocked-content-preferences-button = Перавагі
+compose-blocked-content-preferences-accesskey = П
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Разблакаваць { $url }
 
 ## Send Format
 
@@ -271,6 +353,29 @@ cloud-file-rename-error-with-custom-message-title = Не атрымалася п
 cloud-file-rename-not-supported = { $provider } не падтрымлівае перайменаванне ўжо запампаваных файлаў.
 cloud-file-attachment-error-title = Памылка прымацавання Filelink
 cloud-file-account-error-title = Памылка ўліковага запісу Filelink
+cloud-file-authentication-error-title = Памылка аўтэнтыфікацыі
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Не атрымалася аўтэнтыфікавацца на { $provider }.
+cloud-file-upload-error-title = Памылка запампавання
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Не атрымалася запампаваць { $filename } на { $provider }.
+cloud-file-size-error-title = Памылка памеру файла
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = Памер { $filename } перавышае максімальны памер для { $provider }.
+cloud-file-unknown-error-title = Невядомая памылка
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Узнікла няведамая памылка пры злучэнні з { $provider }.
+cloud-file-deletion-error-title = Памылка выдалення
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Узнікла праблема пры выдаленні { $filename } з { $provider }.
 # Variables:
 #   $count - the number big attached files
 big-file-notification-text =
@@ -279,6 +384,31 @@ big-file-notification-text =
         [few] Гэта вялікія файлы. Магчыма, будзе лепш выкарыстаць Filelink замест прымацавання.
        *[many] Гэта вялікія файлы. Магчыма, будзе лепш выкарыстаць Filelink замест прымацавання.
     }
+big-file-learn-more-button =
+    .label = Даведацца больш…
+    .accesskey = Д
+big-file-link-button =
+    .label = Спасылка
+    .accesskey = С
+big-file-ignore-button =
+    .label = Ігнараваць
+    .accesskey = І
+big-file-choose-account-title = Выбраць уліковы запіс
+big-file-choose-account-prompt = Выберыце ўліковы запіс у воблаке, на які трэба запампаваць прымацаванне
+big-file-hide-notification-title = Не запампоўваць мае файлы
+big-file-hide-notification-checkbox = Ніколі не паведамляць мне пра гэта зноў.
+cloudfile-uploading-stop-button =
+    .label = Ніколі не паказваць гэта зноў
+    .accesskey = Н
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Запампаванне на { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Запампавана на { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Прымацаваць файл(ы) з дапамогай { $provider }
 
 ## Link Preview
 
