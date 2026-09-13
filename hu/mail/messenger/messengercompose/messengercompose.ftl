@@ -10,6 +10,38 @@ compose-message-attachment-name = Csatolt üzenet
 
 ## Compose window
 
+compose-send-confirm-title = Üzenet küldése
+compose-send-confirm-prompt = Biztos benne, hogy az üzenet készen áll az elküldésre?
+compose-send-confirm-button = Küldés
+compose-attachment-reminder-title = Figyelmeztető a mellékletekre
+compose-attachment-reminder-prompt = Nem felejtette el a mellékletet?
+compose-attachment-reminder-send-button = Nem, így küldöm el!
+compose-attachment-reminder-add-button = De igen!
+compose-quit-saving-title = Üzenet mentése
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    A { $brand } épp egy üzenetet küld el.
+    Megvárja az üzenet elküldésének befejeződését, vagy azonnal kilép?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    A { $brand } épp egy üzenetet küld el.
+    Megvárja az üzenet elküldésének befejeződését, vagy azonnal kilép?
+compose-quit-button = &Kilépés
+compose-wait-button = &Várakozás
+compose-file-attachment-error-title = Fájlcsatolás
+compose-rename-attachment-title = Melléklet átnevezése
+compose-rename-attachment-prompt = Melléklet új neve:
+remind-later-button =
+    .label = Figyelmeztetés később
+    .accesskey = F
+disable-attachment-reminder-menu-item =
+    .label = Melléklet-emlékeztető letiltása ehhez az üzenethez
+find-replace-button =
+    .label = &Csere…
+    .accesskey = x
+    .tooltiptext = Keresés és csere ablak megjelenítése
 
 ## Send Format
 
@@ -444,6 +476,33 @@ big-file-notification-text =
         [one] Ez egy nagy fájl. Jobb volna inkább az óriásfájl-küldést használni.
        *[other] Ezek nagy fájlok. Jobb volna inkább az óriásfájl-küldést használni.
     }
+big-file-learn-more-button =
+    .label = További tudnivalók…
+    .accesskey = T
+big-file-link-button =
+    .label = Hivatkozás
+    .accesskey = H
+big-file-ignore-button =
+    .label = Kihagyás
+    .accesskey = K
+big-file-choose-account-title = Fiók választása
+big-file-choose-account-prompt = Válasszon egy felhőbeli fiókot a melléklet feltöltéséhez
+big-file-hide-notification-title = Ne töltse fel a fájljaimat
+big-file-hide-notification-prompt = Nem kap újabb értesítést, amikor további nagy fájlokat csatol ehhez az üzenethez.
+big-file-hide-notification-checkbox = Sose értesítsen erről újra.
+cloudfile-uploading-stop-button =
+    .label = Ne jelenjen meg többé
+    .accesskey = N
+cloud-file-privacy-warning = A hivatkozás kész. Ne feledje, hogy a hivatkozott mellékletek hozzáférhetők bárki számára, aki látja vagy ki tudja találni a hivatkozást.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Feltöltés ide: { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Feltöltve ide: { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Fájlok csatolása ezen keresztül: { $provider }
 
 ## Link Preview
 
