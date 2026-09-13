@@ -17,6 +17,7 @@ compose-default-subject = (belum ada subjek)
 # $subject - message subject
 # $brand - application name
 compose-window-title = Tulis: { $subject } - { $brand }
+compose-save-message-title = Simpan Pesan
 # Variables:
 # $folder - configured drafts folder name
 compose-save-message-prompt = Simpan pesan ini ke folder draf Anda ({ $folder }) dan tutup jendela Tulis?
