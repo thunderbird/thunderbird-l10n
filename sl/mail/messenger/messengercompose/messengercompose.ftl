@@ -17,6 +17,7 @@ compose-default-subject = (brez zadeve)
 # $subject - message subject
 # $brand - application name
 compose-window-title = Sestavi: { $subject } - { $brand }
+compose-save-message-title = Shrani sporočilo
 # Variables:
 # $folder - configured drafts folder name
 compose-save-message-prompt = Shrani to sporočilo v mapo { $folder } in zapri okno Sestavi?
@@ -28,6 +29,8 @@ compose-empty-subject-send-button = &Pošlji brez zadeve
 compose-empty-subject-cancel-button = P&rekliči pošiljanje
 compose-attachment-reminder-title = Opomin za priponko
 compose-attachment-reminder-prompt = Ste pozabili dodati priponko?
+compose-attachment-reminder-send-button = Ne, pošlji zdaj
+compose-attachment-reminder-add-button = Res je!
 compose-newsgroups-not-supported-title = Novičarske skupine niso podprte.
 compose-newsgroups-not-supported = Ta račun podpira samo prejemnike e-pošte. Če nadaljujete, bodo novičarske skupine prezrte.
 compose-invalid-address-title = Neveljaven naslov prejemnika
