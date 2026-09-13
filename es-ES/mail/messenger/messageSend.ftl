@@ -5,6 +5,12 @@
 
 ## Message sending
 
+send-alert-queued-delivery-failed = Ocurrió un error al procesar sus mensajes no enviados.
+send-alert-followup-to-sender = El autor de este mensaje ha pedido que las respuestas sean enviadas únicamente al autor. Si también quiere responder al grupo de noticias, añada una nueva fila en el area de direcciones, elija Grupo de la lista de cabeceras, e introduzca el nombre del grupo de noticias.
+send-unable-to-save-template = No es posible guardar su mensaje como plantilla.
+send-unable-to-save-draft = No es posible guardar su mensaje como un borrador.
+send-error-failed = Falló el envío del mensaje.
+send-unable-to-send-later = Lo sentimos, no hemos podido guardar su mensaje para enviarlo más tarde.
 # Variables:
 # $hostname - outgoing server hostname
 send-error-smtp-unknown-server = Ha ocurrido un error al enviar el mensaje: el servidor de salida (SMTP) { $hostname } es desconocido. El servidor puede estar mal configurado. Verifique que la configuración de su servidor de salida (SMTP) es correcta y vuelva a intentarlo.
