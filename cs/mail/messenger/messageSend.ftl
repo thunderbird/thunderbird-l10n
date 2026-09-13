@@ -93,6 +93,9 @@ smtp-auth-mechanism-not-supported = SMTP server { $hostname } nepodporuje zvolen
 smtp-server-error = Při odesílání zprávy nastala chyba: Chyba SMTP serveru. Server odpověděl: { $serverResponse }.
 # Variables:
 # $serverResponse - server response
+smtp-too-many-recipients = Zpráva nebyla odeslána, protože překročila povolený počet příjemců. Server odpověděl: { $serverResponse }.
+# Variables:
+# $serverResponse - server response
 smtp-error-sending-from-command = Při odesílání zprávy nastala chyba. Server odpověděl: { $serverResponse }. Ověřte prosím správnost své e-mailové adresy a zkuste to znovu.
 # Variables:
 # $serverResponse - server response
