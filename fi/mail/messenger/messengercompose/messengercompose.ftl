@@ -10,6 +10,60 @@ compose-message-attachment-name = Liitetty viesti
 
 ## Compose window
 
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Kirjoita: { $subject } - { $brand }
+compose-send-confirm-title = Lähetä viesti
+compose-send-confirm-prompt = Lähetetäänkö viesti?
+compose-send-confirm-button = Lähetä
+compose-empty-subject-title = Muistutus aiheesta
+compose-empty-subject-prompt = Viestilläsi ei ole kirjoitettu aihetta.
+compose-empty-subject-send-button = &Lähetä viesti ilman aihetta
+compose-empty-subject-cancel-button = &Peruuta lähettäminen
+compose-attachment-reminder-title = Liitetiedostoista muistuttaja
+compose-attachment-reminder-prompt = Unohditko liittää tiedoston?
+compose-attachment-reminder-send-button = En. Lähetä viesti
+compose-attachment-reminder-add-button = Kyllä unohdin!
+compose-quit-saving-title = Tallentaan viestiä
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } lähettää parhaillaan viestiä.
+    Lopetetaanko vasta kun viesti on lähetetty vai lopetetaanko heti?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } parhaillaan tallentaa viestiä.
+    Lopetetaanko vasta kun viesti on tallennettu vai lopetetaan heti?
+compose-quit-button = &Lopeta
+compose-wait-button = &Odota
+compose-file-attachment-error-title = Liitä tiedosto
+compose-rename-attachment-title = Nimeä liite uudelleen
+compose-rename-attachment-prompt = Liitteen nimi:
+remind-later-button =
+    .label = Muistuta minua myöhemmin
+    .accesskey = M
+disable-attachment-reminder-menu-item =
+    .label = Estä liitteen muistuttaja tässä viestissä
+find-replace-button =
+    .label = Korvaa…
+    .accesskey = K
+    .tooltiptext = Näytä Etsi ja korvaa -ikkuna
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Anna muokattu lähettäjän osoite, jota käytetään osoitteen { $identity } sijaan
+compose-custom-from-address-title = Muokkaa lähettäjän osoitetta
+compose-custom-from-address-warning = Jos sähköpostin palveluntarjoajasi tukee sitä, voit muokata kertaluontoisesti lähettäjän osoitetta ilman että tarvitsisi luoda uutta käyttäjätietoa tilin asetuksissa. Jos lähettäjän osoite on esimerkiksi John Doe <john@example.com> se voidaan tilapäisesti muuttaa muotoon John Doe <john+doe@example.com> tai John <john@example.com>.
+compose-custom-from-address-ignore = Älä ilmoita tästä enää uudelleen
+compose-blocked-content-options-button = Asetukset
+compose-blocked-content-options-accesskey = A
+compose-blocked-content-preferences-button = Asetukset
+compose-blocked-content-preferences-accesskey = A
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Poista esto verkko-osoitteelta { $url }
 
 ## Send Format
 
@@ -396,6 +450,34 @@ cloud-file-account-error-title = Filelink-tilivirhe
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Filelink-liitteen { $filename } päivittäminen epäonnistui, koska sen Filelink-tili on poistettu.
+cloud-file-authentication-error-title = Todennusvirhe
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Ei voitu todentaa palvelussa { $provider }.
+cloud-file-upload-error-title = Siirtovirhe
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Ei voitu siirtää tiedostoa { $filename } palveluun { $provider }.
+cloud-file-quota-error-title = Tilavirhe
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Tiedoston { $filename } siirtäminen palveluun { $provider } ylittäisi palvelussa olevan vapaan tilan.
+cloud-file-size-error-title = Tiedostokokovirhe
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = Tiedosto { $filename } ylittää palvelun { $provider } maksimitiedostokoon.
+cloud-file-unknown-error-title = Tuntematon virhe
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Tapahtui tuntematon virhe kommunikoitaessa palvelun { $provider } kanssa.
+cloud-file-deletion-error-title = Poistamisvirhe
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Tapahtui virhe poistettaessa tiedostoa { $filename } palvelusta { $provider }.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
@@ -410,6 +492,33 @@ big-file-notification-text =
         [one] Tämä on suuri tiedosto. Olisi ehkä parempi käyttää Filelink-palvelua.
        *[other] Nämä ovat suuria tiedostoja. Olisi ehkä parempi käyttää Filelink-palvelua.
     }
+big-file-learn-more-button =
+    .label = Lue lisää…
+    .accesskey = L
+big-file-link-button =
+    .label = Linkki
+    .accesskey = L
+big-file-ignore-button =
+    .label = Ohita
+    .accesskey = O
+big-file-choose-account-title = Valitse tili
+big-file-choose-account-prompt = Valitse pilvipalvelutili, johon liite siirretään
+big-file-hide-notification-title = Älä siirrä tiedostoja
+big-file-hide-notification-prompt = Sinua ei huomauteta vaikka liittäisit tähän viestiin lisää suuria tiedostoja.
+big-file-hide-notification-checkbox = Älä ikinä uudestaan huomauta tästä.
+cloudfile-uploading-stop-button =
+    .label = Älä näytä enää uudestaan
+    .accesskey = Ä
+cloud-file-privacy-warning = Linkitys suoritettu. Huomaa, että linkitetyt liitetiedostot voivat olla saatavilla ihmisille, jotka näkevät tai arvaavat linkin.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Siirretään palveluun { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Siirrettiin palveluun { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Liitä tiedostot palvelun { $provider } avulla
 
 ## Link Preview
 
