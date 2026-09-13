@@ -10,6 +10,11 @@ compose-message-attachment-name = Mensagem anexada
 
 ## Compose window
 
+compose-default-subject = (sem assunto)
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Salvar esta mensagem na pasta de rascunhos ({ $folder }) e fechar a janela de edição?
+compose-discard-changes-button = &Descartar alterações
 compose-send-confirm-title = Enviar mensagem
 compose-send-confirm-prompt = Tem certeza de que está pronto para enviar esta mensagem?
 compose-send-confirm-button = Enviar
@@ -38,6 +43,7 @@ compose-quit-saving-prompt =
     Quer aguardar até ela ser salva ou quer sair agora?
 compose-quit-button = &Sair
 compose-wait-button = &Aguardar
+compose-attach-file-picker-title = Anexar arquivos
 # Variables:
 # $filename - name of the file that could not be found
 compose-file-attachment-not-found = O arquivo { $filename } não existe, por isso não pôde ser anexado à mensagem.
@@ -65,6 +71,10 @@ find-replace-button =
     .label = Substituir…
     .accesskey = t
     .tooltiptext = Mostrar o diálogo Procurar e substituir
+compose-blocked-content-options-button = Opções
+compose-blocked-content-options-accesskey = O
+compose-blocked-content-preferences-button = Preferências
+compose-blocked-content-preferences-accesskey = P
 # Variables:
 # $url - URL of the blocked resource
 compose-unblock-resource =
@@ -490,6 +500,7 @@ cloud-file-account-error-title = Erro de conta de anexo online
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Falha ao atualizar o anexo online { $filename } porque sua conta de anexo online foi excluída.
+cloud-file-authentication-error-title = Erro de autenticação
 # Variables:
 # $provider - name of the online storage service
 cloud-file-authentication-error = Não foi possível autenticar em { $provider }.
