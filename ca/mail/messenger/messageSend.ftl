@@ -24,6 +24,12 @@ send-error-smtp-interrupted = No s'ha pogut enviar el missatge perquè s'ha perd
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = No s'ha pogut enviar el missatge perquè s'ha esgotat el temps d'espera de la connexió al servidor de sortida (SMTP) { $hostname }. Torneu-ho a provar.
 send-error-title = Error d'enviament de missatges
+send-progress-assembling-mail-information = S'està assemblant la informació del correu…
+send-progress-assembling-message = S'està assemblant el missatge…
+send-progress-creating-mail-message = S'està creant el missatge de correu…
+send-progress-assembling-message-done = S'està assemblant el missatge… Fet
+send-progress-copy-complete = S'ha completat la còpia.
+send-progress-copy-failed = La còpia ha fallat.
 # Variables:
 # $folder - destination folder name; $localFolder - local folders name; $account - account name
 send-error-save-sent-locally =
@@ -40,4 +46,9 @@ send-error-save-template-locally =
     La plantilla no s'ha copiat en la carpeta de plantilles ({ $folder }) perquè s'han produït errors de xarxa o d'accés al fitxer.
     Podeu tornar-ho a provar o desar la plantilla localment en { $localFolder }/{ $folder }-{ $account }.
 send-dialog-retry = &Reintenta
+send-progress-filter-complete = El filtre s'ha completat.
+send-progress-filter-failed = Ha fallat el filtre.
 send-error-filtering-message = S'ha enviat i desat el missatge, però s'ha produït un error mentre s'hi executaven els filtres.
+# Variables:
+# $folder - destination folder name
+send-progress-copy-start = S'està copiant el missatge a la carpeta { $folder }…
