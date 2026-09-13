@@ -113,10 +113,10 @@ manual-storage-limit-label =
     .accesskey = 手
 clear-temp-files-button =
     .label = 清除暫存檔案
-    .accesskey = 清
+    .accesskey = C
 clear-temp-files-shutdown-label =
     .label = 關閉 { -brand-short-name } 時清除暫存檔
-    .accesskey = 關
+    .accesskey = s
 
 ## OS Authentication dialog
 
@@ -138,8 +138,8 @@ focus-search-shortcut-alt =
     .key = k
 general-legend = { -brand-short-name } 開始頁
 show-start-page-label =
-    .label = 開啟 { -brand-short-name } 時顯示開始頁
-    .accesskey = 開
+    .label = 開啟 { -brand-short-name } 時顯示開始頁面
+    .accesskey = W
 start-page-label =
     .label = 當啟動 { -brand-short-name } 時，在郵件區顯示開始頁
     .accesskey = W
@@ -168,7 +168,7 @@ close-to-tray-label =
 start-in-tray-label =
     .label = 啟動 { -brand-short-name } 時不顯示介面，放置於工具列
     .accesskey = S
-new-message-arrival-legend = 當有新訊息時:
+new-message-arrival-legend = 收到新郵件時：
 minimize-to-tray-label =
     .label = 最小化 { -brand-short-name } 時，移動到工具列
     .accesskey = m
