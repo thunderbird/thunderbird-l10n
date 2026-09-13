@@ -32,6 +32,25 @@ send-progress-copy-complete = A másolás kész.
 send-progress-copy-failed = A másolás sikertelen.
 send-progress-filter-complete = Szűrés kész.
 send-progress-filter-failed = A szűrés sikertelen.
+send-error-post-failed = Az üzenetet nem lehetett elküldeni, mert a hírkiszolgáló nem található. A kiszolgáló talán nem elérhető, vagy visszautasította a kérést. Ellenőrizze, hogy a hírkiszolgáló beállításai helyesek-e.
+# Variables:
+# $size - formatted message size
+send-warning-large-message = Vigyázat! Ön { $size } méretű üzenetet akar küldeni. Biztosan ezt akarja tenni?
 # Variables:
 # $folder - destination folder name
 send-progress-copy-start = Üzenet másolása a következő mappába: { $folder } …
+send-progress-sending-message = Üzenet küldése…
+send-later-error-title = Hiba az üzenet küldésének elhalasztásakor
+send-save-draft-error-title = Hiba a piszkozat mentésekor
+send-save-template-error-title = Hiba a sablon mentésekor
+# LOCALIZATION NOTE: This string must use only US-ASCII characters.
+send-undisclosed-recipients = undisclosed-recipients
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-from-command = Hiba történt a levél küldése közben. A levelezőkiszolgáló válasza: { $serverResponse }. Ellenőrizze, hogy az Ön e-mail címe helyesen van-e megadva a fiók beállításaiban, majd próbálja újra.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-data-command = Levélküldő kiszolgáló (SMTP) hiba történt a levél küldése közben. A kiszolgáló válasza: { $serverResponse }.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-message = Hiba történt a levél küldése közben. A levelezőkiszolgáló válasza: { $serverResponse }. Ellenőrizze az üzenetet, majd próbálja újra.
