@@ -17,6 +17,7 @@ compose-default-subject = (pas de sujet)
 # $subject - message subject
 # $brand - application name
 compose-window-title = Rédaction : { $subject } - { $brand }
+compose-save-message-title = Enregistrer le message
 # Variables:
 # $folder - configured drafts folder name
 compose-save-message-prompt = Enregistrer ce message dans votre dossier Brouillons ({ $folder }) et fermer la fenêtre de composition ?
