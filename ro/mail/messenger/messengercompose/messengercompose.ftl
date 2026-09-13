@@ -17,6 +17,7 @@ compose-default-subject = (fără subiect)
 # $subject - message subject
 # $brand - application name
 compose-window-title = Scrie mesajul: { $subject } - { $brand }
+compose-save-message-title = Salvare mesaj
 # Variables:
 # $folder - configured drafts folder name
 compose-save-message-prompt = Salvezi acest mesaj în dosarul cu mesaje nefinalizate ({ $folder }) și închizi fereastra de redactare?
