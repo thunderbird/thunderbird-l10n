@@ -6,6 +6,7 @@
 ## Compose alerts
 
 compose-message-cancelling = Abbrechen…
+compose-message-attachment-name = Nachricht als Anhang
 
 ## Compose window
 
