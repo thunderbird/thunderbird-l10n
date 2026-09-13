@@ -30,10 +30,27 @@ send-progress-creating-mail-message = 正在创建邮件消息…
 send-progress-assembling-message-done = 正在收集消息…完成
 send-progress-copy-complete = 复制完成。
 send-progress-copy-failed = 复制失败。
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-sent-locally =
+    您的邮件已发送，但由于网络或文件访问错误，未能将副本放入发件备份文件夹中（{ $folder }）。
+    您可以重试，或者另存邮件到本地的 { $localFolder }/{ $folder }-{ $account }。
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-draft-locally =
+    您的草稿邮件由于网络或文件访问错误，未能放入您的草稿文件夹（{ $folder }）。
+    您可以重试，或者另存该草稿到本地的 { $localFolder }/{ $folder }-{ $account }。
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-template-locally =
+    您的草稿邮件由于网络或文件访问错误，未能放入您的草稿文件夹（{ $folder }）。
+    您可以重试，或者另存该模板到本地的 { $localFolder }/{ $folder }-{ $account }。
 send-dialog-save-title = 保存消息
+send-dialog-retry = 重试(&R)
 send-error-save-to-local-folders = 无法保存您的消息到本地文件夹。可能存储空间已满。
 send-progress-filter-complete = 过滤完成。
 send-progress-filter-failed = 过滤失败。
+send-error-filtering-message = 您的消息已被发送并已保存，但在它上面运行消息过滤器时出错。
 send-error-post-failed = 连接到新闻服务器失败，消息无法发出。服务器可能不可用或者拒绝连接。请验证您的新闻服务器设置是否正确，然后再试。
 # Variables:
 # $size - formatted message size
