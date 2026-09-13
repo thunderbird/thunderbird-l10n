@@ -10,10 +10,16 @@ compose-message-attachment-name = Lisatud kiri
 
 ## Compose window
 
+compose-default-subject = (teema puudub)
 # Variables:
 # $subject - message subject
 # $brand - application name
 compose-window-title = Koostamine: { $subject } - { $brand }
+compose-save-message-title = Kirja salvestamine
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Kas soovid kirjutamise akna sulgeda ja salvestada selle kirja mustandite kausta ({ $folder })?
+compose-discard-changes-button = &Tühista muudatused
 compose-send-confirm-title = Kirja saatmine
 compose-send-confirm-prompt = Kas oled kindel, et soovid kirja ära saata?
 compose-send-confirm-button = Saada
@@ -42,6 +48,7 @@ compose-quit-saving-prompt =
     Kas soovid oodata, kuni kiri on enne väljumist salvestatud, või soovid rakendusest kohe väljuda?
 compose-quit-button = &Välju
 compose-wait-button = &Oota
+compose-attach-file-picker-title = Manus(t)e lisamine
 # Variables:
 # $filename - name of the file that could not be found
 compose-file-attachment-not-found = Faili { $filename } pole olemas, seega polnud selle kirjale lisamine võimalik.
