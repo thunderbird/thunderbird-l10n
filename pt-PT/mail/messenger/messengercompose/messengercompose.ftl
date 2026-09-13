@@ -27,10 +27,20 @@ compose-send-confirm-prompt = Tem a certeza que está pronto para enviar esta me
 compose-send-confirm-button = Enviar
 compose-do-not-show-again = Não mostrar esta janela novamente.
 compose-empty-subject-title = Lembrete de assunto
+compose-empty-subject-prompt = A sua mensagem não tem um assunto.
+compose-empty-subject-send-button = &Enviar sem assunto
+compose-empty-subject-cancel-button = &Cancelar envio
 compose-attachment-reminder-title = Lembrete de anexos
 compose-attachment-reminder-prompt = Esqueceu-se de adicionar o anexo?
 compose-attachment-reminder-send-button = Não, enviar agora!
 compose-attachment-reminder-add-button = Sim, esqueci-me!
+compose-newsgroups-not-supported-title = Grupos de notícias não suportados
+compose-newsgroups-not-supported = Esta conta só tem suporte a endereços eletrónicos. Se continuar, os grupos de notícias serão ignorados.
+compose-invalid-address-title = Endereço de destinatário inválido
+compose-no-recipients = Não especificou qualquer destinatário. Por favor introduza um destinatário ou grupo como destinatário.
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } não é um endereço de e-mail válido pois não está no formato utilizador@servidor. Tem de o corrigir antes de enviar a mensagem.
 compose-quit-sending-title = A enviar mensagem
 compose-quit-saving-title = A guardar mensagem
 # Variables:
@@ -46,6 +56,9 @@ compose-quit-saving-prompt =
 compose-quit-button = Sai&r
 compose-wait-button = &Esperar
 compose-attach-file-picker-title = Anexar ficheiro(s)
+compose-attach-page-title = Por favor especifique a localização a anexar
+compose-attach-page-prompt = Página web (URL):
+compose-message-part-attachment-name = Parte da mensagem anexada
 compose-attachment-bucket-attach-files-tooltip = Anexar ficheiro(s)
 compose-attachment-bucket-clear-selection-tooltip = Limpar seleção
 # Variables:
