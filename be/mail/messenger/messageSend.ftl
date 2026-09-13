@@ -14,6 +14,9 @@ send-error-title = Памылка адпраўкі паведамлення
 send-progress-assembling-mail-information = Кампаноўка паштовай інфармацыі…
 send-progress-assembling-message = Кампанаванне паведамлення…
 send-progress-creating-mail-message = Стварэнне паштовага паведамлення…
+# Variables:
+# $filename - name or URL of the file that could not be attached
+send-error-attaching-file = Узнікла памылка пры прымацаванні { $filename }. Калі ласка, упэўніцеся, што вы маеце доступ да гэтага файла.
 send-progress-assembling-message-done = Кампанаванне паведамлення…Гатова
 send-progress-copy-complete = Капіяванне завершана.
 send-progress-copy-failed = Не атрымалася капіяваць.
@@ -23,12 +26,17 @@ send-error-save-to-local-folders = Не атрымалася захаваць в
 send-progress-filter-complete = Прымяненне фільтра завершана.
 send-progress-filter-failed = Збой прымянення фільтра.
 # Variables:
+# $hostname - outgoing server hostname
+send-error-smtp-security-issue = Канфігурацыя, якая датычыцца { $hostname }, павінна быць папраўлена.
+# Variables:
 # $size - formatted message size
 send-warning-large-message = Увага! Вы збіраецеся даслаць ліст памерам { $size }. Вы сапраўды хочаце гэта зрабіць?
 # Variables:
 # $folder - destination folder name
 send-progress-copy-start = Капіяванне паведамлення ў папку { $folder }…
 send-progress-sending-message = Адпраўка паведамлення…
+send-error-nntp-ok = Ваша паведамленне было апублікавана ў групе навін, але не было адпраўлена іншаму атрымальніку.
+send-error-copy-operation = Паведамленне было паспяхова адпраўлена, але яго не атрымалася скапіяваць ў вашу папку «Адпраўленыя».
 send-later-error-title = Памылка адкладзенай адпраўкі
 send-save-draft-error-title = Памылка захавання чарнавіка
 send-save-template-error-title = Памылка захавання шаблона
