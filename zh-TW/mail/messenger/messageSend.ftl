@@ -92,4 +92,7 @@ smtp-auth-mechanism-not-supported = { $hostname } 這台 SMTP 伺服器不支援
 smtp-server-error = 寄送郵件時發生錯誤，寄件伺服器（SMTP）發生錯誤，伺服器回應：{ $serverResponse }。
 # Variables:
 # $serverResponse - server response
+smtp-too-many-recipients = 由於超過允許的收件者數量，訊息並未送出。伺服器回應：{ $serverResponse }。
+# Variables:
+# $serverResponse - server response
 smtp-permanent-size-exceeded = 正在寄送的郵件超過了伺服器的大小上限。郵件並未寄出。請嘗試減少郵件大小後再試一次。伺服器回應：{ $serverResponse }。
