@@ -10,14 +10,31 @@ compose-message-attachment-name = Вкладене повідомлення
 
 ## Compose window
 
+compose-initialization-error-title = Написання повідомлення
+compose-initialization-error = Під час відкривання вікна нового повідомлення сталася помилка. Спробуйте ще раз.
+compose-default-subject = (без теми)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Створення повідомлення: { $subject } - { $brand }
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Зберегти це повідомлення до вашої теки чернеток ({ $folder }) і закрити вікно створення?
+compose-discard-changes-button = &Відхилити зміни
 compose-send-confirm-title = Надсилання повідомлення
 compose-send-confirm-prompt = Ви дійсно готові надіслати це повідомлення?
 compose-send-confirm-button = Надіслати
 compose-do-not-show-again = Більше не показувати це вікно.
+compose-empty-subject-title = Нагадування про тему
+compose-empty-subject-prompt = У вашого повідомлення немає теми.
+compose-empty-subject-send-button = &Надіслати без теми
+compose-empty-subject-cancel-button = &Скасувати відсилання
 compose-attachment-reminder-title = Нагадування про вкладення
 compose-attachment-reminder-prompt = Чи не забули ви додати вкладення?
 compose-attachment-reminder-send-button = Ні, надіслати
 compose-attachment-reminder-add-button = Ой, точно!
+compose-newsgroups-not-supported-title = Групи новин не підтримуються
+compose-newsgroups-not-supported = Цей обліковий запис підтримує лише отримувачів електронної пошти. Повідомлення до груп новин не надсилатимуться.
 compose-invalid-address-title = Недійсна адреса отримувача
 # Variables:
 # $address - invalid email address
@@ -36,9 +53,12 @@ compose-quit-saving-prompt =
     Бажаєте дочекатися збереження повідомлення, чи вийти зараз?
 compose-quit-button = &Вийти
 compose-wait-button = &Зачекати
+compose-attach-file-picker-title = Вкласти файл(и)
 compose-attach-page-title = Вкажіть розташування файлу, що вкладається
 compose-attach-page-prompt = Вебсторінка (URL):
 compose-message-part-attachment-name = Частина вкладеного повідомлення
+compose-attachment-bucket-attach-files-tooltip = Вкласти файл(и)
+compose-attachment-bucket-clear-selection-tooltip = Прибрати вибір
 # Variables:
 # $filename - name of the file that could not be found
 compose-file-attachment-not-found = Файл { $filename } не існує і тому не може бути вкладений у повідомлення.
@@ -66,6 +86,12 @@ find-replace-button =
     .label = Замінити…
     .accesskey = З
     .tooltiptext = Показати діалог пошуку й заміни
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Введіть власну адресу відправника, яка буде використовуватись замість { $identity }
+compose-custom-from-address-title = Налаштувати адресу відправника
+compose-custom-from-address-warning = Якщо ваш провайдер електронної пошти підтримує це, Налаштування адреси відправника дозволяє вам зробити альтернативну адресу відправника без необхідності створення нового облікового запису в Налаштуваннях. Наприклад, якщо ваша адреса відправника John Doe <john@example.com>, ви можете змінити її на John Doe <john+doe@example.com> або John <john@example.com>.
+compose-custom-from-address-ignore = Ніколи не сповіщати мене про це знову
 compose-blocked-content-options-button = Опції
 compose-blocked-content-options-accesskey = О
 compose-blocked-content-preferences-button = Налаштування
@@ -516,6 +542,7 @@ cloud-file-account-error-title = Помилка облікового запис�
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Не вдалося оновити вкладення Filelink { $filename }, оскільки його обліковий запис Filelink було видалено.
+cloud-file-authentication-error-title = Помилка автентифікації
 # Variables:
 # $provider - name of the online storage service
 cloud-file-authentication-error = Не вдалося виконати автентифікацію на { $provider }.
