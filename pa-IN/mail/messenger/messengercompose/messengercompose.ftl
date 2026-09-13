@@ -9,6 +9,12 @@ compose-message-attachment-name = Attached Message
 
 ## Compose window
 
+compose-attachment-reminder-title = Attachment Reminder
+compose-attachment-reminder-prompt = Did you forget to add an attachment?
+compose-attachment-reminder-send-button = No, Send Now
+compose-attachment-reminder-add-button = Oh, I did!
+compose-rename-attachment-title = Rename Attachment
+compose-rename-attachment-prompt = New attachment name:
 
 ## Send Format
 
