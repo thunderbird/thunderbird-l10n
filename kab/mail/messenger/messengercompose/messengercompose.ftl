@@ -10,12 +10,27 @@ compose-message-attachment-name = Izen yeddan
 
 ## Compose window
 
+compose-default-subject = (ulac asentel)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Aru: { $subject } - { $brand }
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Sekles izen-agideg ukaram n tqecwalt ({ $folder }) sakin mdel asfaylu n tira?
+compose-discard-changes-button = &Sefsex asinifel
 compose-send-confirm-title = Azen izen
 compose-send-confirm-prompt = Theggaḍ yakken akken ad tazneḍ izen-agi?
 compose-send-confirm-button = Azen
 compose-do-not-show-again = ur yid-skan ara akka d asawen tanaka-yagi n udiwenni
+compose-empty-subject-title = Amesmektay n usentel n yimayl
+compose-empty-subject-prompt = Izen-inek ur ɣur-s ara asentel.
+compose-empty-subject-send-button = A&zen s war asentel
+compose-empty-subject-cancel-button = Se&fsex tuzna
 compose-attachment-reminder-title = Asmekti n imeddayen
 compose-attachment-reminder-prompt = Tettuḍ ad ternuḍ amedday?
+compose-newsgroups-not-supported-title = Igrawen n isalen ur ttusefraken ara
+compose-newsgroups-not-supported = Amiḍan-agi yessefrak-kan iɣerwaḍen n yimayl. Ad tkemleḍ deg tiǧǧin n igrawen n isalen.
 compose-quit-sending-title = Tuzzna n yizen
 compose-quit-saving-title = Asekles n yizen
 # Variables:
@@ -30,6 +45,7 @@ compose-quit-saving-prompt =
     Tebɣiḍ ad terǧuḍ arama yettwasekles yizen send ad teffɣeḍ neɣ ad teffɣeḍ tura?
 compose-quit-button = &Ffeɣ
 compose-wait-button = &Ṛǧu
+compose-attach-file-picker-title = Seddu afaylu (i-a)
 # Variables:
 # $filename - name of the file that could not be found
 compose-file-attachment-not-found = Afaylu { $filename } ulac-it ihi ur yezmir ara ad yeddu akked yizen.
@@ -52,6 +68,16 @@ remind-later-button =
     .accesskey = L
 disable-attachment-reminder-menu-item =
     .label = Kkes armad n usmekti n umedday deg izen amiran
+find-replace-button =
+    .label = Semselsi...
+    .accesskey = m
+    .tooltiptext = Sken tanaka n Aff u Semlselsi
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Sekcem tansa n umazan ara tesqedceḍ deg umḍiq n { $identity }
+compose-custom-from-address-title = Sagen tansa n umazan
+compose-custom-from-address-warning = Ma yella asaǧǧaw-inek n yimayl yessefrak-it, Aggan n tensa n umazan ad isireg asnifel meẓẓiyen n tensa yinek n umazan war ma terniḍ tamagit tamaynut deg iɣewwaṛen n umiḍan. Amedya, ma yella tansa n umazan John Doe <john@example.com> tzemreḍ ahat tad tesnifleḍ ɣer John Doe <john+doe@example.com> neɣ John <john@example.com>.
+compose-custom-from-address-ignore = Weṛǧin ad d-sekneḍ alɣu-yagi
 compose-blocked-content-options-button = Iɣewwaṛen
 compose-blocked-content-options-accesskey = ɣ
 compose-blocked-content-preferences-button = Ismenyifen
@@ -449,6 +475,34 @@ cloud-file-account-error-title = Tuccḍa n umiḍan Filelink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Yecceḍ uleqqem n umedday n Filelink { $filename }, acku amiḍan n Filelink yettwakkes.
+cloud-file-authentication-error-title = Tuccḍa n usesteb
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = UR yezmir ara ad isesteb di { $provider }.
+cloud-file-upload-error-title = Tuccḍa n usali
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Ur yezmir ara ad isali { $filename } ɣer { $provider }.
+cloud-file-quota-error-title = Tuccḍa n umur
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Asali n  { $filename } ɣer { $provider } ad iɛeddi talast-inek n tallunt.
+cloud-file-size-error-title = Tuccḍa n teɣzi n ufaylu
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } iɛedda talast tafellayt n teɣzi i { $provider }.
+cloud-file-unknown-error-title = Tuccḍa tarussint
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Teḍra-d tuccḍa tarussint di teywalt akked { $provider }.
+cloud-file-deletion-error-title = Tuccḍa di tukksa
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Teḍra-d tuccḍa di tkksa n { $filename } si { $provider }.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
@@ -463,6 +517,12 @@ big-file-notification-text =
         [one] Wagi d afaylu meqqren. Yif-it limer ad tesqedceḍ Filelink deg umḍiq-is
        *[other] Wigi d ifuylu meqqren. Yif-it limer ad tesqedceḍ Filelink deg umḍiq-nsen.
     }
+cloudfile-uploading-stop-button =
+    .label = Ur d-skan ara aya tikelt nniḍen
+    .accesskey = U
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Seddu afaylu -i-a) s { $provider }
 
 ## Link Preview
 
