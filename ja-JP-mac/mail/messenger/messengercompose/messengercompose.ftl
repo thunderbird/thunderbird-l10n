@@ -10,6 +10,11 @@ compose-message-attachment-name = 添付メッセージ
 
 ## Compose window
 
+compose-rename-attachment-title = 添付ファイルの名前変更
+compose-rename-attachment-prompt = 添付ファイルの新しい名前:
+remind-later-button =
+    .label = 後で通知
+    .accesskey = L
 
 ## Send Format
 
