@@ -10,6 +10,8 @@ compose-message-attachment-name = Mesazh i Bashkëngjitur
 
 ## Compose window
 
+compose-default-subject = (pa subjekt)
+compose-attach-file-picker-title = Bashkëngjitni Kartelë(a)
 
 ## Send Format
 
