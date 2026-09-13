@@ -24,3 +24,23 @@ send-error-smtp-interrupted = It berjocht koe net ferstjoerd wurde, omdat de fer
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = It berjocht koe net ferstjoerd wurde, omdat de wachttiid foar de ferbining mei de útgeande (SMTP-)server { $hostname } ferrûn is. Probearje it opnij.
 send-error-title = Ferstjoer berjochtflater
+send-progress-assembling-mail-information = E-mailynformaasje gearstalle…
+send-progress-assembling-message = Berjocht gearstalle…
+send-progress-creating-mail-message = E-mailberjocht meitsje…
+send-progress-assembling-message-done = Berjocht gearstalle… Dien
+send-progress-copy-complete = Kopiearjen foltôge.
+send-progress-copy-failed = Kopiearjen mislearre.
+send-progress-filter-complete = Filterjen foltôge.
+send-progress-filter-failed = Filterjen mislearre.
+# Variables:
+# $size - formatted message size
+send-warning-large-message = Warskôging! Jo stean op it punt om in berjocht fan { $size } te ferstjoeren dy’t miskien grutter is as de limyt fan de server. Binne jo wis dat jo dit dwaan wolle?
+# Variables:
+# $folder - destination folder name
+send-progress-copy-start = Berjocht nei map { $folder } kopiearje…
+send-progress-sending-message = Berjocht ferstjoere…
+send-later-error-title = Flater by letter fersjoeren
+send-save-draft-error-title = Flater by bewarjen fan konsept
+send-save-template-error-title = Flater by bewarjen fan sjabloan
+# LOCALIZATION NOTE: This string must use only US-ASCII characters.
+send-undisclosed-recipients = net-iepenbiere ûntfangers
