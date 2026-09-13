@@ -27,6 +27,9 @@ send-error-title = Eroare trimitere mesaj
 send-progress-assembling-mail-information = Se asamblează informațiile despre mesaj…
 send-progress-assembling-message = Se asamblează mesajul…
 send-progress-creating-mail-message = Se creează mesajul…
+# Variables:
+# $filename - name or URL of the file that could not be attached
+send-error-attaching-file = A apărut o eroare la atașarea { $filename }. Te rugăm să verifici că ai acces la acel fișier.
 send-progress-assembling-message-done = Se asamblează mesajul…Terminat
 send-progress-copy-complete = Copiere finalizată.
 send-progress-copy-failed = Copiere eșuată.
@@ -51,6 +54,9 @@ send-error-save-to-local-folders = Salvarea mesajului în dosarele locale a eșu
 send-progress-filter-complete = Filtru finalizat.
 send-progress-filter-failed = Filtrare eșuată.
 send-error-filtering-message = Mesajul tău a fost trimis și salvat, dar a apărut o eroare la rularea filtrelor de mesaje asupra acestuia.
+# Variables:
+# $hostname - outgoing server hostname
+send-error-smtp-security-issue = Configurația referitoare la { $hostname } trebuie corectată.
 send-error-post-failed = Mesajul nu a putut fi postat pentru că a eșuat conexiunea cu serverul de grupuri de discuții. Se poate ca serverul să fie indisponibil sau să refuze conexiunile. Te rugăm să verifici corectitudinea setărilor contului de grupuri de discuții și încearcă din nou.
 # Variables:
 # $size - formatted message size
@@ -58,6 +64,8 @@ send-warning-large-message = Atenție! Ești pe cale să trimiți un mesaj de { 
 # Variables:
 # $folder - destination folder name
 send-progress-copy-start = Copiez mesajul în dosarul { $folder }…
+send-error-nntp-ok = Mesajul tău a fost expediat grupului de discuții dar nu a fost trimis și celorlalți destinatari.
+send-error-copy-operation = Mesajul a fost trimis cu succes, dar nu a putut fi copiat în dosarul Mesaje trimise.
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = destinatar-secret
 # Variables:
@@ -80,7 +88,22 @@ smtp-auth-gssapi = Certificatul Kerberos/GSSAPI nu a fost acceptat de serverul d
 smtp-auth-mechanism-not-supported = Serverul de trimitere (SMTP) { $hostname } nu are suport pentru metoda de autentificare selectată. Te rugăm să schimbi „Metoda de autentificare” din „Setările contului | Server de trimitere (SMTP)”.
 # Variables:
 # $serverResponse - server response
+smtp-server-error = S-a produs o eroare la trimiterea corespondenței: Eroare la serverul de trimitere (SMTP). Serverul a răspuns:  { $serverResponse }.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-starttls-failed = S-a produs o eroare la trimiterea de e-mail: Nu se poate stabili o conexiune sigură cu serverul de trimitere (SMTP) { $hostname } folosind STARTTLS pentru că serverul nu pare să suporte acest serviciu. Dezactivează STARTTLS pentru acest server sau contactează furnizorul serviciului.
+# Variables:
+# $serverResponse - server response
 smtp-error-sending-from-command = S-a produs o eroare la trimiterea corespondenței. Serverul de e-mail a răspuns: { $serverResponse }. Te rugăm să verifici în setările contului dacă adresa ta de e-mail este corectă și încearcă din nou.
+# Variables:
+# $serverResponse - server response
+smtp-permanent-size-exceeded = Mărimea mesajului pe care încerci să-l trimiți depășește dimensiunea standard acceptată de server. Mesajul nu a fost trimis; redu mesajul și încearcă din nou. Răspunsul serverului: { $serverResponse }.
+# Variables:
+# $serverResponse - server response; $recipient - intended recipient
+smtp-error-sending-recipient-command =
+    S-a produs o eroare la trimiterea corespondenței. Serverul de e-mail a răspuns:
+    { $serverResponse }.
+    Te rugăm să verifici destinatarul „{ $recipient }” și încearcă din nou.
 # Variables:
 # $serverResponse - server response
 smtp-error-sending-data-command = S-a produs o eroare la serverul de trimitere (SMTP) la trimiterea corespondenței. Serverul a răspuns:  { $serverResponse }.
