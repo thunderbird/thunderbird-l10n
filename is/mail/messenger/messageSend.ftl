@@ -45,6 +45,7 @@ send-error-save-draft-locally =
 send-error-save-template-locally =
     Sniðmátið þitt var ekki afritað í möppuna fyrir sniðmát ({ $folder }) vegna vandamála í net- eða skráaaðgangi.
     Þú getur reynt aftur eða vistað sniðmátið staðvært í { $localFolder }/{ $folder }-{ $account }.
+send-dialog-save-title = Vista póst
 send-dialog-retry = &Reyna aftur
 send-error-save-to-local-folders = Ekki tókst að vista skilaboðin þín í staðbundnar möppur. Hugsanlega er ekki nægt laust geymslupláss fyrir skrár.
 send-progress-filter-complete = Síu lokið.
