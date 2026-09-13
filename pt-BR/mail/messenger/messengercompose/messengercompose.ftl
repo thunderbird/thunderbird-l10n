@@ -65,6 +65,10 @@ find-replace-button =
     .label = Substituir…
     .accesskey = t
     .tooltiptext = Mostrar o diálogo Procurar e substituir
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Desbloquear { $url }
 
 ## Send Format
 
