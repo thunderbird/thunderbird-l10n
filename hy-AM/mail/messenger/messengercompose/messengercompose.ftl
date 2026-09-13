@@ -10,6 +10,26 @@ compose-message-attachment-name = Կցված նամակ
 
 ## Compose window
 
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Գրել՝ { $subject } ֊ { $brand }
+compose-empty-subject-title = Վերնագրի հիշեցում
+compose-empty-subject-prompt = Ձեր նամակը չունի վերնագիր։
+compose-empty-subject-send-button = Ուղարկել առանց վերնագրի
+compose-empty-subject-cancel-button = Չուղարկել
+compose-newsgroups-not-supported-title = Նրախմբերը չեն աջակցվում
+compose-newsgroups-not-supported = Փոստարկղը աջակցում է միայն հասցեատերերի։ Լուրախմբերը կանտեսվեն։
+find-replace-button =
+    .label = Փոխարինել...
+    .accesskey = x
+    .tooltiptext = Ցուցադրել Գտնել և Փոխարինել պատուհանը
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Մուտքագարել հարմարեցված հասցե՝ { $identity }-ի փոխարեն
+compose-custom-from-address-title = Հարմարեցնել հասցեից
+compose-custom-from-address-warning = Եթե էլ. փոստի ձեր մատակարարը աջակցում է այն, ապա Հարմարեցումը հասցեից հնարավորություն է տալիս ստեղծել մեկանգամյա փոփոխություն ձեր Ումից հասցեի համար՝ առանց Հաշվի կարգավորումներում նոր հատկորոշիչ ստեղծելու: Օրինակ՝ եթե ձեր Ումից հասցեն է John Doe <john@example.com>, ապա կարող եք այն փոխել John Doe <john+doe@example.com>-ի կամ John <john@example.com>-ի:
+compose-custom-from-address-ignore = Այլևս չծանուցել:
 
 ## Send Format
 
@@ -144,6 +164,33 @@ big-file-notification-text =
         [one] Սա մեծ ֆայլ է։ Լավ կլինի, որ օգտագործեք Ֆայլի հղումը։
        *[other] Կան մեծ ֆայլեր։ Ավելի լավ է օգտագործեք Ֆայլի հղումը։
     }
+big-file-learn-more-button =
+    .label = Իմանալ ավելին…
+    .accesskey = ա
+big-file-link-button =
+    .label = Հղում
+    .accesskey = Հ
+big-file-ignore-button =
+    .label = Անտեսել
+    .accesskey = Ա
+big-file-choose-account-title = Ընտրեք հաշիվը
+big-file-choose-account-prompt = Ընտրեք հշվեկշիռը՝ վերբեռնելու այս կցորդը
+big-file-hide-notification-title = Չվերբեռնել Իմ ֆայլերը
+big-file-hide-notification-prompt = Այլևս հարցում չի արվի, եթե կցեք ավելի շատ մեծ ֆայլեր այս գրությանը։
+big-file-hide-notification-checkbox = Այլևս չտեղեկացնել։
+cloudfile-uploading-stop-button =
+    .label = Այլևս չցուցադրել
+    .accesskey = Ա
+cloud-file-privacy-warning = Linking is complete. Please note that linked attachments may be accessible to people who can see or guess the links.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = { $provider }-ի վերբեռնում...
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Վերբեռնված { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Կցել ֆայլեր { $provider }-ով
 
 ## Link Preview
 
