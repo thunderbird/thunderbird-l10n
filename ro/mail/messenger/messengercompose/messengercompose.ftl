@@ -30,11 +30,14 @@ compose-empty-subject-title = Amintire de lipsa subiectului
 compose-empty-subject-prompt = Mesajul tău nu are un subiect.
 compose-empty-subject-send-button = &Trimite fără subiect
 compose-empty-subject-cancel-button = &Anulează trimiterea
+compose-attachment-reminder-title = Verificator de atașamente lipsă
+compose-attachment-reminder-prompt = Ai uitat să adaugi un atașament?
 compose-attachment-reminder-send-button = Nu, trimite acum
 compose-attachment-reminder-add-button = Da, așa e!
 compose-newsgroups-not-supported-title = Grupurile de discuții nu sunt suportate
 compose-newsgroups-not-supported = Acest cont acceptă doar destinatari pentru e-mail. Prin continuare, grupurile de discuții vor fi ignorate.
 compose-invalid-address-title = Adresă nevalidă de destinație
+compose-no-recipients = Niciun destinatar specificat. Te rugăm să introduci un destinatar sau un grup de discuții în zona de adrese.
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address } nu este o adresă de e-mail validă întrucât nu este de forma utilizator@gazdă. Trebuie să o corectezi înainte de a putea trimite mesajul e-mail.
@@ -74,6 +77,13 @@ compose-save-success-title = Salvează mesajul
 # $folder - folder in which the message was saved
 # $server - server on which the folder is located
 compose-save-success-message = Mesajul tău a fost salvat în dosarul { $folder } de pe { $server }.
+compose-rename-attachment-title = Redenumește atașamentul
+compose-rename-attachment-prompt = Denumire nouă atașament:
+remind-later-button =
+    .label = Amintește-mi mai târziu
+    .accesskey = L
+disable-attachment-reminder-menu-item =
+    .label = Dezactivează sesizarea pentru atașamente la mesajul curent
 find-replace-button =
     .label = Înlocuiește…
     .accesskey = x
@@ -582,9 +592,24 @@ big-file-learn-more-button =
 big-file-link-button =
     .label = Link
     .accesskey = L
+big-file-ignore-button =
+    .label = Ignoră
+    .accesskey = I
+big-file-choose-account-title = Selectează contul
+big-file-choose-account-prompt = Alege un cont cloud unde vei încărca atașamentul
+big-file-hide-notification-title = Nu mai încărca fișierele mele
+big-file-hide-notification-prompt = Nu vei mai fi notificat dacă atașezi mai multe fișiere mari la acest mesaj.
+big-file-hide-notification-checkbox = Nu mă mai notifica cu privire la asta.
 cloudfile-uploading-stop-button =
     .label = Nu mai afișa asta din nou
     .accesskey = N
+cloud-file-privacy-warning = Legătura este finalizată. Te rugăm să reții că atașamentele legate pot fi accesate de persoanele care pot vedea sau ghici linkurile.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Încarcă către { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Încărcat către { $provider }
 # Variables:
 # $provider - name of the online storage service
 cloud-file-attach-picker-title = Atașează fișierul(ele) prin { $provider }
