@@ -22,3 +22,23 @@ send-error-smtp-interrupted = לא ניתן לשלוח את ההודעה כיו�
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = לא ניתן לשלוח את ההודעה כיוון שהחיבור לשרת היוצא (SMTP) { $hostname } פג. נא לנסות שוב.
 send-error-title = שגיאה בשליחת הודעה
+send-progress-assembling-mail-information = פרטי הדוא״ל נאספים…
+send-progress-assembling-message = ההודעה נאספת…
+send-progress-creating-mail-message = נוצרת הודעת דוא״ל…
+send-progress-assembling-message-done = ההודעה נאספת…הסתיים
+send-progress-copy-complete = ההעתקה הושלמה.
+send-progress-copy-failed = ההעתקה נכשלה.
+send-dialog-save-title = שמור הודעה
+send-dialog-retry = ל&נסות שוב
+send-progress-filter-complete = הסינון הושלם.
+send-progress-filter-failed = הסינון נכשל.
+# Variables:
+# $size - formatted message size
+send-warning-large-message = אזהרה! ההודעה המועמדת לשליחה היא בגודל של { $size }. להמשיך בשליחה?
+# Variables:
+# $folder - destination folder name
+send-progress-copy-start = ההודעה מועתקת לתיקייה { $folder }…
+send-progress-sending-message = הודעה נשלחת…
+send-later-error-title = שגיאת שליחה מאוחרת
+send-save-draft-error-title = שגיאת שמירת טיוטה
+send-save-template-error-title = שגיאת שמירת תבנית
