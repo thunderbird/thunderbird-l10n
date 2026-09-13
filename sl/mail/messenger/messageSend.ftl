@@ -83,6 +83,9 @@ smtp-server-error = Pri pošiljanju pošte je prišlo do napake: napaka odhodneg
 smtp-starttls-failed = Pri pošiljanju pošte je prišlo do napake : ni mogoče vzpostaviti varne povezave z odhodnim strežnikom (SMTP) { $hostname } z uporabo STARTTLS, ker strežnik te možnosti ne podpira. Izklopite STARTTLS za ta strežnik ali pa se obrnite na svojega ponudnika storitev.
 # Variables:
 # $serverResponse - server response
+smtp-too-many-recipients = Sporočilo ni bilo poslano zaradi prevelikega števila prejemnikov. Strežnik je odgovoril: { $serverResponse }.
+# Variables:
+# $serverResponse - server response
 smtp-error-sending-from-command = Med pošiljanjem pošte je prišlo do napake. Poštni strežnik je odgovoril: { $serverResponse }. Preverite, ali je vaš e-poštni naslov v nastavitvah računa pravilen in poskusite znova.
 # Variables:
 # $serverResponse - server response
