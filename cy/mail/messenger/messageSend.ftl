@@ -7,6 +7,8 @@
 
 send-alert-queued-delivery-failed = Digwyddodd gwall wrth anfon negeseuon heb eu hanfon.
 send-alert-followup-to-sender = Mae awdur y neges yn gofyn bod ymateb yn cael ei yrru at yr awdur yn unig. Os hoffech chi ymateb i'r grŵp newyddion, ychwanegwch res arall i'r maes cyfeiriad, dewis Grŵp Newyddion o'r rhestr derbynwyr a rhoi enw'r grŵp newyddion.
+send-unable-to-save-template = Methu cadw eich neges fel templed.
+send-unable-to-save-draft = Methu cadw eich negeseuon ar ffurf drafft.
 send-error-failed = Methwyd anfon neges.
 send-unable-to-send-later = Ymddiheuriadau, nid oedd modd cadw eich neges i'w hanfon yn hwyrach.
 # Variables:
