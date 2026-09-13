@@ -7,6 +7,8 @@
 
 send-alert-queued-delivery-failed = Greška prilikom isporuke neposlanih poruka.
 send-alert-followup-to-sender = Autor ove poruke je zatražio da se odgovori šalju samo njemu. Ako želite poslati odgovor i na interesnu grupu, dodajte novi redak u prostor za adresiranje, odaberite interesnu grupu s popisa primatelja, te upišite ime interesne grupe.
+send-unable-to-save-template = Nije moguće spremiti vašu poruku kao predložak.
+send-unable-to-save-draft = Nije moguće spremiti vašu poruku kao skicu.
 send-error-failed = Slanje poruke nije uspjelo.
 send-unable-to-send-later = Vaša poruka nije uspješno spremljena za kasnije slanje.
 # Variables:
