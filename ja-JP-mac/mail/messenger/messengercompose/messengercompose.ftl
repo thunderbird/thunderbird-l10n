@@ -6,6 +6,7 @@
 ## Compose alerts
 
 compose-message-cancelling = キャンセルしています...
+compose-message-attachment-name = 添付メッセージ
 
 ## Compose window
 
