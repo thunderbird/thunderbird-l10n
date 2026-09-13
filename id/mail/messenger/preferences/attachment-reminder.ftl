@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 attachment-reminder-dialog-title = Kata Kunci Pengingat Lampiran
+attachment-reminder-description = Tampilkan pengingat untuk lampiran yang kurang jika surel berisi kata kunci yang cocok.
 attachment-reminder-label = { -brand-short-name } akan mengingatkan Anda tentang lampiran yang tertinggal ketika Anda akan mengirim email dengankata kunci sebagai berikut.
 keyword-new-button =
     .label = Baru…

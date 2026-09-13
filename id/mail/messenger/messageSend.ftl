@@ -75,6 +75,7 @@ send-undisclosed-recipients = penerima yang dirahasiakan
 # Variables:
 # $recipient - recipient address
 smtp-error-illegal-local-part = Ada karakter non-ASCII di bagian lokal alamat penerima { $recipient } dan server Anda tidak mendukung SMTPUTF8. Harap ubah alamat ini dan coba lagi.
+smtp-error-no-recipients = Tidak ada penerima yang ditentukan untuk pengiriman SMTP.
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = Server keluar (SMTP) { $hostname } tampaknya tidak mendukung kata sandi terenkripsi. Jika Anda baru saja mengatur akun, coba ubah ‘Metode otentikasi’ di ‘Pengaturan Akun | Server keluar (SMTP) ‘ke’ Sandi, ditransmisikan tidak aman ‘. Jika dulu berfungsi tetapi sekarang tidak, Anda mungkin dicuri kata sandi.’.

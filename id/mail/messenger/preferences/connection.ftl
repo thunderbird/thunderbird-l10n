@@ -22,10 +22,14 @@ disable-extension-button = Nonaktifkan Ekstensi
 # The extension-icon is the extension's icon, or a fallback image. It should be
 # purely decoration for the actual extension name, with alt="".
 proxy-settings-controlled-by-extension = Ekstensi, <img data-l10n-name="extension-icon" alt="" /> { $name }, mengendalikan bagaimana { -brand-short-name } terhubung ke Internet.
+connection-internet-proxy-legend = Sambungan Internet & proksi
 connection-proxy-legend = Atur Proxy untuk Mengakses Internet
 proxy-type-no =
     .label = Tanpa proxy
     .accesskey = x
+proxy-autodetect-network =
+    .label = Secara otomatis mendeteksi proksi jaringan
+    .accesskey = p
 proxy-type-wpad =
     .label = Otomatis mendeteksi pengaturan proxy untuk jaringan ini
     .accesskey = O
