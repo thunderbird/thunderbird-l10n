@@ -24,3 +24,20 @@ send-error-smtp-interrupted = Zprávu se nepodařilo odeslat, protože spojení 
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = Zprávu se nepodařilo odeslat, protože spojení se SMTP serverem { $hostname } vypršelo. Zkuste to znovu, nebo kontaktujte správce sítě.
 send-error-title = Chyba při odesílání zprávy
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-sent-locally =
+    Vaše zpráva byla odeslána, ale kopie nebyla uložena do složky s odeslanými zprávami ({ $folder }) z důvodu chyby sítě nebo přístupu k souboru.
+    Můžete to zkusit znovu nebo uložit zprávu lokálně do { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-draft-locally =
+    Váš koncept zprávy nebyl zkopírován do složky konceptů ({ $folder }), zřejmě z důvodu chyby sítě nebo přístupu k souboru.
+    Můžete to zkusit znovu nebo uložit koncept lokálně do { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-template-locally =
+    Vaše šablona nebyla zkopírována do složky šablon ({ $folder }) z důvodu chyby sítě nebo přístupu k souboru.
+    Můžete to zkusit znovu nebo uložit šablonu lokálně do { $localFolder }/{ $folder }-{ $account }.
+send-dialog-retry = &Opakovat
+send-error-filtering-message = Vaše zpráva byla odeslána a uložena, ale došlo k chybě při provádění filtrů.
