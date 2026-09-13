@@ -30,9 +30,27 @@ send-progress-creating-mail-message = Timerna n yizen n yimayl…
 send-progress-assembling-message-done = Asdukel n yizen…Yemmed
 send-progress-copy-complete = Anɣal yemmed.
 send-progress-copy-failed = Anɣal ur yeddi ara.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-sent-locally =
+    Izen-ik yettwazen acu kan anɣel ur yettwasers ara deg ukaram-ik n tuzna ({ $folder }) ɣef sebba n tuccḍiwin n uẓeṭṭa neɣ n izerfan n unekcum n ufaylu.
+    Tzemreḍ ad talseḍ aɛraḍ neɣ ad tesleksed izen s wudem adigan ar { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-draft-locally =
+    Izen-ik arewway ur yettwanɣel ara ar ukaram n yirewwayen ({ $folder }) ɣef sebba n tuccḍiwin n uẓeṭṭa neɣ n izerfan n unekcum n ufaylu.
+    Tzemreḍ ad talseḍ aɛraḍ neɣ ad tesleksed izen arewway s wudem adigan ar { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-template-locally =
+    Taneɣruft-ik ur tettwanɣel ara ar ukaram n tneɣrufin ({ $folder }) ɣef sebba n tuccḍiwin n uẓeṭṭa neɣ n izerfan n unekcum n ufaylu.
+    Tzemreḍ ad talseḍ aɛraḍ neɣ ad tesleksed taneɣruft s wudem adigan ar { $localFolder }/{ $folder }-{ $account }.
 send-dialog-save-title = Sekles izen
+send-dialog-retry = Ɛ&reḍ tikelt nniḍen
+send-error-save-to-local-folders = Ur izmir ara ad isekles izen inek γer ufaylu adigan. ahat acku ulac deqs n wadeg n usekles.
 send-progress-filter-complete = Azizdeg yemmed.
 send-progress-filter-failed = Azizdeg ur yeddi ara.
+send-error-filtering-message = Izen-inek yettwazen u yettwasekles, acukan teḍra-d tuccḍa deg uselkem n imzizdigen n yizen degs.
 # Variables:
 # $size - formatted message size
 send-warning-large-message = Ɣur-k! Aqlak tettedduḍ ad tazneḍ izen n teɣzi n { $size }. Tebɣiḍ ad tazneḍ tura?
@@ -43,3 +61,5 @@ send-progress-sending-message = Tuzzna n yizen...
 send-later-error-title = Tucccḍa di tuzna n ticki
 send-save-draft-error-title = Tuccḍa deg usekles arewway
 send-save-template-error-title = Asekles n tuccḍa n tneɣruft
+# LOCALIZATION NOTE: This string must use only US-ASCII characters.
+send-undisclosed-recipients = iɣerwaḍen uffiren
