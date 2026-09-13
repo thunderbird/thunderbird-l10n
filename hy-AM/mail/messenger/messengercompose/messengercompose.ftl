@@ -14,12 +14,28 @@ compose-message-attachment-name = Կցված նամակ
 # $subject - message subject
 # $brand - application name
 compose-window-title = Գրել՝ { $subject } ֊ { $brand }
+compose-send-confirm-title = Ուղարկել
+compose-send-confirm-prompt = Պատրա՞ստ եք ուղարկելու այս նամակը։
+compose-send-confirm-button = Ուղարկել
 compose-empty-subject-title = Վերնագրի հիշեցում
 compose-empty-subject-prompt = Ձեր նամակը չունի վերնագիր։
 compose-empty-subject-send-button = Ուղարկել առանց վերնագրի
 compose-empty-subject-cancel-button = Չուղարկել
 compose-newsgroups-not-supported-title = Նրախմբերը չեն աջակցվում
 compose-newsgroups-not-supported = Փոստարկղը աջակցում է միայն հասցեատերերի։ Լուրախմբերը կանտեսվեն։
+compose-quit-saving-title = Նամակը պահպանվում է
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand }-ը այժմ ուղարկում է նամակը։
+    Սպասե՞լ մինչ նամակը կուղարկվի, թե փակել ծրագիրը։
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand }-ը այժմ պահպանում է նամակը։
+    Սպասե՞լ մինչ նամակը պահպանվի, թե փակել ծրագիրը։
+compose-quit-button = Փակել
+compose-wait-button = Սպասել
 find-replace-button =
     .label = Փոխարինել...
     .accesskey = x
