@@ -7,6 +7,8 @@
 
 send-alert-queued-delivery-failed = Chyba pri doručovaní neodoslanej pošty.
 send-alert-followup-to-sender = Autor tejto správy žiada, aby sa odpovede posielali iba jemu. Ak chcete odoslať odpoveď aj diskusnej skupine, zvoľte na novom riadku v paneli adries typ adresáta "Diskusná skupina" a zadajte adresu diskusnej skupiny.
+send-unable-to-save-template = Správa sa nedá uložiť ako šablóna.
+send-unable-to-save-draft = Správa sa nedá uložiť ako koncept.
 send-error-failed = Odoslanie správy zlyhalo.
 send-unable-to-send-later = Ospravedlňujeme sa, vašu správu nebolo možné uložiť na jej neskoršie odoslanie.
 # Variables:
