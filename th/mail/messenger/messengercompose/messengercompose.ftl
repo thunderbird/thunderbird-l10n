@@ -10,6 +10,18 @@ compose-message-attachment-name = ข้อความที่แนบ
 
 ## Compose window
 
+find-replace-button =
+    .label = แทนที่…
+    .accesskey = ท
+    .tooltiptext = แสดงกล่องโต้ตอบ ค้นหาและแทนที่
+compose-blocked-content-options-button = ตัวเลือก
+compose-blocked-content-options-accesskey = ต
+compose-blocked-content-preferences-button = ค่าปรับแต่ง
+compose-blocked-content-preferences-accesskey = ค
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = เลิกบล็อก { $url }
 
 ## Send Format
 
@@ -73,6 +85,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = ขยายรายการ
     .accesskey = ข
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = เอาที่อยู่ { $field } ออก
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = คุณแน่ใจหรือไม่ว่าต้องการเอาที่อยู่ { $field } ออก?
+compose-remove-address-row-button = เอาออก
 
 ## Attachment widget
 
@@ -393,12 +412,43 @@ cloud-file-account-error-title = บัญชี Filelink ผิดพลาด
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = ไม่สามารถอัปเดตไฟล์แนบ Filelink { $filename } ได้ เนื่องจากบัญชี Filelink สำหรับไฟล์นั้นถูกลบไปแล้ว
+cloud-file-authentication-error-title = ข้อผิดพลาดการรับรองความถูกต้อง
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = ไม่สามารถรับรองความถูกต้องกับ { $provider }
+cloud-file-upload-error-title = ข้อผิดพลาดการอัปโหลด
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = ไม่สามารถอัปโหลด { $filename } ไปยัง { $provider }
+cloud-file-quota-error-title = ข้อผิดพลาดโควตา
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = การอัปโหลด { $filename } ไปยัง { $provider } จะเกินโควตาเนื้อที่ของคุณ
+cloud-file-size-error-title = ข้อผิดพลาดขนาดไฟล์
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } เกินขนาดสูงสุดสำหรับ { $provider }
+cloud-file-unknown-error-title = ข้อผิดพลาดที่ไม่รู้จัก
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = เกิดข้อผิดพลาดที่ไม่รู้จักเมื่อสื่อสารกับ { $provider }
+cloud-file-deletion-error-title = ข้อผิดพลาดการลบ
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = มีปัญหาในการลบ { $filename } จาก { $provider }
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification = ไฟล์ของคุณกำลังถูกเชื่อมโยง ซึ่งจะปรากฏในเนื้อความของข้อความเมื่อเสร็จสมบูรณ์
 # Variables:
 #   $count - the number big attached files
 big-file-notification-text = ไฟล์เหล่านี้มีขนาดใหญ่ จะดีกว่าหากใช้ Filelink แทน
+cloudfile-uploading-stop-button =
+    .label = ไม่ต้องแสดงสิ่งนี้อีก
+    .accesskey = ม
 
 ## Link Preview
 
