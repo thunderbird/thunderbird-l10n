@@ -37,6 +37,7 @@ compose-attachment-reminder-add-button = უი, მართლა!
 compose-newsgroups-not-supported-title = სასაუბრო ჯგუფები მხარდაუჭერელია
 compose-newsgroups-not-supported = ეს ანგარიში მხოლოდ ელფოსტის მიმღებთათვისაა. გაგრძელების შემთხვევაში სასაუბრო ჯგუფები უგულებელყოფილი იქნება.
 compose-invalid-address-title = მიმღების მისამართი უმართებულოა
+compose-no-recipients = მიმღები არაა მითითებული. გთხოვთ, მიუთითოთ მიმღები, ან სასაუბრო ჯგუფი მისამართების ველში.
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address } ელფოსტის უმართებულო მისამართია, რადგან იგი არაა user@host ფორმის. უნდა შეასწოროთ ფოსტის გაგზავნამდე.
