@@ -3,6 +3,17 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Compose alerts
+
+compose-message-cancelling = Atceļ…
+compose-message-attachment-name = Pievienotais ziņojums
+
+## Compose window
+
+
+## Send Format
+
+
 ## Addressing widget
 
 #   $type (String) - the type of the addressing row
@@ -35,6 +46,13 @@ pill-action-move-bcc =
     .label = Pārvietot uz Slēpta kopija
     .accesskey = S
 
+## Attachment widget
+
+
+## Variables:
+## $count (Number) - Number of files being dropped onto the composer.
+
+
 ## Reorder Attachment Panel
 
 button-return-receipt =
@@ -60,6 +78,9 @@ menu-view-certificates =
     .label = Apskatīt saņēmēju sertifikātus
     .accesskey = A
 
+## Addressing Area
+
+
 ## Notifications
 
 # Variables:
@@ -79,12 +100,27 @@ attachment-reminder-keywords-msg =
        *[other] Atrasti { $count } pielikuma atslēgvārdi:
     }
 
+## Editing
+
+
+# Tools
+
+
 ## Filelink
+
+
+# Placeholder file
+
+
+# Template
 
 # A text used in a footer, instructing the reader where to find additional
 # information about the used service provider.
 # $link (string) - html a-tag for a link pointing to the web page of the provider
 cloud-file-service-provider-footer-single = Uzzināt vairāk par { $link }.
+
+# Messages
+
 cloud-file-connection-error-title = Savienojuma kļūda
 # Variables:
 #   $count - the number of files being linked
@@ -102,3 +138,9 @@ big-file-notification-text =
         [one] Šī ir liela datne. Tās vietā varētu būt labāk izmantot Filelink.
        *[other] Šīs ir lielas datnes. To vietā varētu būt labāk izmantot Filelink.
     }
+
+## Link Preview
+
+
+## Dictionary selection popup
+
