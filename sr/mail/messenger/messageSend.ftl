@@ -27,6 +27,9 @@ send-error-title = Грешка приликом слања поруке
 send-progress-assembling-mail-information = Прикупљам податке о пошти…
 send-progress-assembling-message = Склапам поруку…
 send-progress-creating-mail-message = Правим поштанску поруку…
+# Variables:
+# $filename - name or URL of the file that could not be attached
+send-error-attaching-file = Догодила се грешка приликом качења прилога { $filename }. Проверите да ли имате приступ датотеци.
 send-progress-assembling-message-done = Склапам поруку…Завршено
 send-progress-copy-complete = Копирање завршено.
 send-progress-copy-failed = Копирање није успело.
@@ -52,14 +55,31 @@ send-progress-filter-complete = Филтрирање завршено.
 send-progress-filter-failed = Филтрирање није успело.
 send-error-filtering-message = Ваша порука је послата и сачувана али се догодила грешка приликом извршавања филтера над њом.
 # Variables:
+# $hostname - outgoing server hostname
+send-error-smtp-security-issue = Конфигурација везана за { $hostname } мора бити исправљена.
+# Variables:
 # $size - formatted message size
 send-warning-large-message = Упозорење! Управо ћете послати поруку са величином { $size }. Да ли сте сигурни да желите ово да урадите?
 # Variables:
 # $folder - destination folder name
 send-progress-copy-start = Копирам поруку у фасциклу { $folder }…
 send-progress-sending-message = Шаљем поруку…
+send-error-nntp-ok = Ваша порука је послата у новинску групу али није послата ка другом примаоцу.
+send-error-copy-operation = Порука је успешно послата али није могла бити ископирана у вашу фасциклу са послатим порукама.
 send-later-error-title = Грешка приликом одложеног слања
 send-save-draft-error-title = Грешка приликом чувања нацрта
 send-save-template-error-title = Грешка приликом чувања шаблона
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = неоткривени-примаоци
+# Variables:
+# $serverResponse - server response
+smtp-server-error = Догодила се грешка приликом слања поште: Грешка одлазног (SMTP) сервера. Сервер је одговорио са:  { $serverResponse }.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-starttls-failed = Догодила се грешка приликом слања поште: Не могу да успоставим безбедну везу са одлазним (SMTP) сервером { $hostname } користећи STARTTLS зато што сервер не објављује подршку за то. Искључите STARTTLS за тај сервер или контактирајте пружаоца услуге.
+# Variables:
+# $serverResponse - server response; $recipient - intended recipient
+smtp-error-sending-recipient-command =
+    Догодила се грешка приликом слања поште. Поштански сервер је одговорио са:  
+    { $serverResponse }.
+     Проверите примаоца поруке "{ $recipient }" и пробајте поново.
