@@ -11,6 +11,9 @@ send-error-failed = Не вдалося надіслати повідомлен�
 send-unable-to-send-later = На жаль, ми не змогли зберегти ваше повідомлення для подальшого надсилання.
 # Variables:
 # $hostname - outgoing server hostname
+send-error-smtp-unknown-server = Сталася помилка при надсиланні пошти: Невідомий сервер вихідної пошти (SMTP) { $hostname }. Можливо, сервер має неправильну конфігурацію. Переконайтеся, що налаштування вашого сервера вихідної пошти (SMTP) правильні та спробуйте знову.
+# Variables:
+# $hostname - outgoing server hostname
 send-error-smtp-request-refused = Не вдалося надіслати повідомлення через збій з'єднання з сервером вихідної пошти (SMTP) { $hostname }. Сервер може бути недоступним, або відхиляє з'єднання SMTP. Переконайтеся, що налаштування вашого сервера вихідної пошти (SMTP) правильні та спробуйте знову.
 # Variables:
 # $hostname - outgoing server hostname
