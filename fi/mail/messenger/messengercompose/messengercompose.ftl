@@ -25,6 +25,7 @@ compose-discard-changes-button = &Hylkää muutokset
 compose-send-confirm-title = Lähetä viesti
 compose-send-confirm-prompt = Lähetetäänkö viesti?
 compose-send-confirm-button = Lähetä
+compose-do-not-show-again = Älä näytä tätä ikkunaa uudestaan.
 compose-empty-subject-title = Muistutus aiheesta
 compose-empty-subject-prompt = Viestilläsi ei ole kirjoitettu aihetta.
 compose-empty-subject-send-button = &Lähetä viesti ilman aihetta
@@ -39,6 +40,7 @@ compose-invalid-address-title = Virheellinen sähköpostiosoite
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address } ei ole oikea sähköpostiosoite, koska sen muoto ei ole käyttäjä@palvelin. Korjaa osoite ennen kuin lähetät sähköpostin.
+compose-quit-sending-title = Lähetetään viestiä
 compose-quit-saving-title = Tallentaan viestiä
 # Variables:
 # $brand - application name
@@ -58,7 +60,22 @@ compose-attach-page-prompt = Verkkosivu (URL):
 compose-message-part-attachment-name = Liitetty viestin osa
 compose-attachment-bucket-attach-files-tooltip = Liitä tiedosto(t)
 compose-attachment-bucket-clear-selection-tooltip = Peruuta valinta
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = Tiedostoa { $filename } ei löydy, eikä sitä siksi voitu liittää viestiin.
 compose-file-attachment-error-title = Liitä tiedosto
+compose-message-file-error-title = Viestitiedosto
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = Tiedostoa { $filename } ei ole olemassa, eikä sitä voi käyttää viestinä.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = Tiedostoa { $filename } ei voitu ladata viestiksi.
+compose-save-success-title = Tallenna viesti
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Viestisi on tallennettu tilin { $server } kansioon  { $folder }.
 compose-rename-attachment-title = Nimeä liite uudelleen
 compose-rename-attachment-prompt = Liitteen nimi:
 remind-later-button =
