@@ -9,12 +9,19 @@ fonts-label-default =
     .label = Rhagosodiad ({ $name })
 fonts-label-default-unnamed =
     .label = Rhagosodiad
+fonts-character-set-legend =
+    .value = Set nodau:
+    .accesskey = S
+font-main-style-label =
+    .value = Arddull y prif ffont:
+    .accesskey = A
 fonts-language-legend =
     .value = Ffontiau ar gyfer:
     .accesskey = F
 fonts-proportional-label =
     .value = Cyfrannol:
     .accesskey = y
+text-font-options-dialog-title = Opsiynau testun a ffont
 
 ## Languages
 
@@ -93,6 +100,9 @@ font-size-monospace-label =
 font-serif-label =
     .value = Serif:
     .accesskey = S
+sans-serif-font-label =
+    .value = Ffont Sans-serif:
+    .accesskey = F
 font-sans-serif-label =
     .value = Sans-serif:
     .accesskey = n
@@ -114,6 +124,13 @@ use-document-fonts-checkbox =
 use-fixed-width-plain-checkbox =
     .label = Defnyddio ffont lled sefydlog ar gyfer negeseuon testun plaen
     .accesskey = D
+message-font-permissions-legend = Negesu caniatadau ffont
+allow-incoming-fonts-checkbox =
+    .label = Caniatáu i negeseuon sy'n dod i mewn ddefnyddio eu ffontiau eu hunain
+    .accesskey = C
+display-fixed-width-plain-checkbox =
+    .label = Arddangos negeseuon testun plaen mewn ffont lled sefydlog
+    .accesskey = A
 
 ## Language settings
 

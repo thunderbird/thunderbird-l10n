@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 attachment-reminder-dialog-title = 附件提醒關鍵字
+attachment-reminder-description = 若郵件中包含符合關鍵字的郵件缺少附件提醒。
 attachment-reminder-label = { -brand-short-name } 會在您打算寄出的郵件中包含這些關鍵字，卻未附加檔案時提醒您。
 keyword-new-button =
     .label = 新增…

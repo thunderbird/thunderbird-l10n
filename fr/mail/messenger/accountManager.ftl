@@ -38,3 +38,4 @@ panel-settings-spam = Paramètres des indésirables
 # Variables:
 # $account (String) - The account name.
 spam-settings-alert-message = Un problème a été détecté avec les paramètres des messages indésirables pour { $account }. Voulez-vous les vérifier avant d’enregistrer les modifications ?
+open-settings-sidebar-button = Paramètres

@@ -75,6 +75,7 @@ send-undisclosed-recipients = destinataires inconnus
 # Variables:
 # $recipient - recipient address
 smtp-error-illegal-local-part = Des caractères non ASCII sont présents dans la partie locale de l’adresse e-mail du destinataire { $recipient }, mais votre serveur ne prend pas en charge SMTPUTF8. Veuillez modifier cette adresse puis réessayer.
+smtp-error-no-recipients = Aucun destinataire spécifié pour la distribution SMTP.
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = Le serveur sortant (SMTP) { $hostname } ne semble pas gérer les mots de passe chiffrés. Si vous venez juste de définir le compte, veuillez modifier la « Méthode d’authentification » pour « Mot de passe, transmission non sécurisée » dans le menu « Paramètres des comptes | Serveur sortant (SMTP) ». Si cela fonctionnait auparavant et que cela échoue à présent, il se pourrait que quelqu’un ait dérobé votre mot de passe.

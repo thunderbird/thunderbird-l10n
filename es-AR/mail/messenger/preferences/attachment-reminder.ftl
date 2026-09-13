@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 attachment-reminder-dialog-title = Palabras de recordatorio de adjunto
+attachment-reminder-description = Mostrar un recordatorio de los adjuntos faltantes si el correo electrónico contiene palabras clave coincidentes.
 attachment-reminder-label = { -brand-short-name } le avisará acerca de adjuntos faltantes si está por enviar un correo electrónico que contenga alguna de estas palabras.
 keyword-new-button =
     .label = Nuevo…

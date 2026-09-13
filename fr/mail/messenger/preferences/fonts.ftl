@@ -9,12 +9,19 @@ fonts-label-default =
     .label = Par défaut ({ $name })
 fonts-label-default-unnamed =
     .label = Par défaut
+fonts-character-set-legend =
+    .value = Jeu de caractères :
+    .accesskey = J
+font-main-style-label =
+    .value = Style de police principal :
+    .accesskey = S
 fonts-language-legend =
     .value = Polices pour :
     .accesskey = o
 fonts-proportional-label =
     .value = Proportionnelle :
     .accesskey = P
+text-font-options-dialog-title = Options de texte et de police
 
 ## Languages
 
@@ -93,6 +100,9 @@ font-size-monospace-label =
 font-serif-label =
     .value = Serif :
     .accesskey = S
+sans-serif-font-label =
+    .value = Police sans sérif :
+    .accesskey = P
 font-sans-serif-label =
     .value = Sans serif :
     .accesskey = n
@@ -114,6 +124,13 @@ use-document-fonts-checkbox =
 use-fixed-width-plain-checkbox =
     .label = Utiliser une police à largeur fixe pour les messages au format texte
     .accesskey = x
+message-font-permissions-legend = Permissions des polices pour les messages
+allow-incoming-fonts-checkbox =
+    .label = Autoriser les messages entrants à utiliser leurs propres polices
+    .accesskey = A
+display-fixed-width-plain-checkbox =
+    .label = Afficher les messages texte bruts avec une police à largeur fixe
+    .accesskey = A
 
 ## Language settings
 

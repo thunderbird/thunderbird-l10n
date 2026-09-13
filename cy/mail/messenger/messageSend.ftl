@@ -75,6 +75,7 @@ send-undisclosed-recipients = derbynnydd cudd
 # Variables:
 # $recipient - recipient address
 smtp-error-illegal-local-part = Mae nodau nad ydynt yn ASCII yn rhan leol cyfeiriad y derbynnydd { $recipient } ac nid yw'ch gweinydd yn cefnogi SMTPUTF8. Newidiwch y cyfeiriad hwn a rhowch gynnig arall arni.
+smtp-error-no-recipients = Ni phenodwyd unrhyw dderbynwyr ar gyfer danfoniad SMTP.
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = Nid yw'r gweinydd Anfon (SMTP) { $hostname } i weld yn cynnal cyfrineiriau wedi eu hamgryptio. Os ydych newydd greu'r cyfrif, ceisiwch newydd y ‘Dull dilysu’ yn ‘Gosodiadau Cyfrif | Gosodiadau gweinydd (SMTP)’ i ‘Cyfrinair, trosglwyddo anniogel’. Os oedd arfer gweithio ond nid yw nawr, gallwch fod yn agored i gael eich cyfrinair wedi ei ddwyn.

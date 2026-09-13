@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 attachment-reminder-dialog-title = Mots-clés de rappel pour les pièces jointes
+attachment-reminder-description = Afficher un rappel pour les pièces jointes manquantes si l’e-mail contient des mots-clés correspondants.
 attachment-reminder-label = { -brand-short-name } vous avertira de l’absence de pièces jointes si vous êtes sur le point d’envoyer un e-mail contenant l’un de ces mots-clés.
 keyword-new-button =
     .label = Nouveau…

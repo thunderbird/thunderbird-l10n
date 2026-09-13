@@ -9,12 +9,19 @@ fonts-label-default =
     .label = 預設（{ $name }）
 fonts-label-default-unnamed =
     .label = 預設
+fonts-character-set-legend =
+    .value = 字元集:
+    .accesskey = 字
+font-main-style-label =
+    .value = 主要字型:
+    .accesskey = 主
 fonts-language-legend =
     .value = 對應此種語言：
     .accesskey = t
 fonts-proportional-label =
     .value = 比例字型：
     .accesskey = P
+text-font-options-dialog-title = 文字與字體選項
 
 ## Languages
 
@@ -93,6 +100,9 @@ font-size-monospace-label =
 font-serif-label =
     .value = 襯線字型：
     .accesskey = S
+sans-serif-font-label =
+    .value = 無襯線字型:
+    .accesskey = 無
 font-sans-serif-label =
     .value = 無襯線字型：
     .accesskey = n
@@ -114,6 +124,13 @@ use-document-fonts-checkbox =
 use-fixed-width-plain-checkbox =
     .label = 純文字郵件使用等寬字型
     .accesskey = x
+message-font-permissions-legend = 郵件字型權限
+allow-incoming-fonts-checkbox =
+    .label = 允許收到的郵件使用自己設定的字型
+    .accesskey = 允
+display-fixed-width-plain-checkbox =
+    .label = 以固定寬度的字型顯示純文字訊息
+    .accesskey = 以
 
 ## Language settings
 

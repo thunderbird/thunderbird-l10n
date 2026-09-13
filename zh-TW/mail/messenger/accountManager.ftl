@@ -38,3 +38,4 @@ panel-settings-spam = 垃圾信選項
 # Variables:
 # $account (String) - The account name.
 spam-settings-alert-message = 偵測到 { $account } 的垃圾信設定有問題，您想要在儲存變更前再確認一下嗎？
+open-settings-sidebar-button = 設定

@@ -75,6 +75,7 @@ send-undisclosed-recipients = undisclosed-recipients
 # Variables:
 # $recipient - recipient address
 smtp-error-illegal-local-part = Hay caracteres que no son ASCII en la parte local de la dirección del destinatario { $recipient } y su servidor no es compatible con SMTPUTF8. Cambie esta dirección y vuelva a intentarlo.
+smtp-error-no-recipients = No se especificaron destinatarios para la entrega SMTP.
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = El servidor saliente (SMTP) { $hostname } no parece soportar contraseñas cifradas. Si recién configuró la cuenta, intente cambiar el ‘Método de autenticación’ en ‘Configuración de cuenta | Servidor de salida (SMTP)’ a ‘Contraseña, transmitida de forma insegura’. Si funcionaba y dejó de hacerlo, puede ser suceptible a un robo de contraseña.

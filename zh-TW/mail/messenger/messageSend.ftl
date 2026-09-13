@@ -75,6 +75,7 @@ send-undisclosed-recipients = undisclosed-recipients
 # Variables:
 # $recipient - recipient address
 smtp-error-illegal-local-part = 收件者地址 { $recipient } 中的帳號名稱部分有非 ASCII 字元，而您的寄件伺服器不支援 SMTPUTF8。請修改收件者地址並再試一次。
+smtp-error-no-recipients = 未指定 SMTP 傳送的收件者。
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = { $hostname } 這台寄件伺服器 (SMTP) 可能不支援加密過的密碼。如果您剛設定好這個帳號，請試著到「帳號設定」當中的「寄件伺服器 (SMTP)」，把「認證方式」設定成「不安全傳輸的密碼」。如果您突然遇到這個狀況，代表可能有人正要偷走您的密碼。

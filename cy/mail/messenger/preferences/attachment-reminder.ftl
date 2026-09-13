@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 attachment-reminder-dialog-title = Allweddair Atgoffa am Atodiad
+attachment-reminder-description = Dangoswch nodyn atgoffa am atodiadau coll os yw'r e-bost yn cynnwys allweddeiriau cyfatebol.
 attachment-reminder-label = Bydd { -brand-short-name } yn eich rhybuddio am atodiadau coll os ydych ar fin anfon e-bost yn cynnwys un o'r allweddeiriau hyn.
 keyword-new-button =
     .label = Newydd…
