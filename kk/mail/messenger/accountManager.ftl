@@ -38,3 +38,4 @@ panel-settings-spam = Спам баптаулары
 # Variables:
 # $account (String) - The account name.
 spam-settings-alert-message = { $account } үшін спам параметрлерінде мәселе анықталды. Өзгерістерді сақтамас бұрын оларды қарап шығуды қалайсыз ба?
+open-settings-sidebar-button = Баптаулар
