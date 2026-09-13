@@ -5,7 +5,11 @@
 
 ## Message sending
 
+send-alert-queued-delivery-failed = Der opstod en fejl under afsendelse af meddelelser fra mappen Udbakke.
 send-alert-followup-to-sender = Afsenderen af denne meddelelse har angivet, at svar kun skal sendes til forfatteren. Hvis du også vil sende svaret til nyhedsgruppen, skal du tilføje en ny linje i adresseområdet, vælge Nyhedsgruppe i modtagerlisten og angive den ønskede nyhedsgruppe.
+send-unable-to-save-template = Kan ikke gemme din meddelelse som skabelon.
+send-unable-to-save-draft = Kan ikke gemme din meddelelse som kladde.
+send-error-failed = Afsendelse af meddelelsen mislykkedes.
 send-unable-to-send-later = Ude af stand til at gemme din meddelelse til senere afsendelse.
 # Variables:
 # $hostname - outgoing server hostname
