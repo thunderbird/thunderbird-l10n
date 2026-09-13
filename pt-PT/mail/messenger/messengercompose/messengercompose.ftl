@@ -10,10 +10,22 @@ compose-message-attachment-name = Mensagem anexada
 
 ## Compose window
 
+compose-initialization-error-title = Escrever mensagem
+compose-initialization-error = Ocorreu um erro ao criar a janela de composição da mensagem. Por favor tente novamente.
+compose-default-subject = (sem assunto)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Escrever: { $subject } - { $brand }
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Guardar esta mensagem na sua pasta de rascunhos ({ $folder }) e fechar a janela de Composição?
+compose-discard-changes-button = &Descartar alterações
 compose-send-confirm-title = Enviar mensagem
 compose-send-confirm-prompt = Tem a certeza que está pronto para enviar esta mensagem?
 compose-send-confirm-button = Enviar
 compose-do-not-show-again = Não mostrar esta janela novamente.
+compose-empty-subject-title = Lembrete de assunto
 compose-attachment-reminder-title = Lembrete de anexos
 compose-attachment-reminder-prompt = Esqueceu-se de adicionar o anexo?
 compose-attachment-reminder-send-button = Não, enviar agora!
@@ -32,9 +44,13 @@ compose-quit-saving-prompt =
     Pretende esperar até que a mensagem seja guardada antes de sair ou sair agora?
 compose-quit-button = Sai&r
 compose-wait-button = &Esperar
+compose-attach-file-picker-title = Anexar ficheiro(s)
+compose-attachment-bucket-attach-files-tooltip = Anexar ficheiro(s)
+compose-attachment-bucket-clear-selection-tooltip = Limpar seleção
 # Variables:
 # $filename - name of the file that could not be found
 compose-file-attachment-not-found = O ficheiro { $filename } não existe e, como tal, não foi anexado à mensagem.
+compose-file-attachment-error-title = Anexação de ficheiro
 compose-message-file-error-title = Ficheiro da mensagem
 # Variables:
 # $filename - name of the file that could not be found
@@ -58,6 +74,12 @@ find-replace-button =
     .label = Substituir…
     .accesskey = x
     .tooltiptext = Mostrar o diálogo Localizar e substituir
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Introduzir endereço 'De' personalizado em vez de utilizar { $identity }
+compose-custom-from-address-title = Personalizar endereço 'De'
+compose-custom-from-address-warning = Se o seu fornecedor de e-mail o suportar, a opção Personalizar endereço 'De' permite-lhe alterar o seu endereço de envio sem ter que criar uma nova identidade nas definições da conta. Por exemplo, se o seu endereço 'De' for John Doe <john@example.com>, pode querer alterar o endereço para John Doe <john+doe@example.com> ou John <john@example.com>.
+compose-custom-from-address-ignore = Nunca mais voltar a notificar.
 compose-blocked-content-options-button = Opções
 compose-blocked-content-options-accesskey = O
 compose-blocked-content-preferences-button = Preferências
@@ -495,6 +517,7 @@ cloud-file-account-error-title = Erro de conta do Filelink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Não foi possível atualizar o anexo { $filename } do Filelink, porque a respetiva conta Filelink foi eliminada.
+cloud-file-authentication-error-title = Erro de autenticação
 # Variables:
 # $provider - name of the online storage service
 cloud-file-authentication-error = Não foi possível autenticar com { $provider }.
@@ -560,6 +583,9 @@ cloud-file-uploading-tooltip = A carregar para { $provider }…
 # Variables:
 # $provider - name of the online storage service
 cloud-file-uploaded-tooltip = Carregado para { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Anexar ficheiro(s) através de { $provider }
 
 ## Link Preview
 
