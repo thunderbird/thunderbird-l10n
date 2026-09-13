@@ -10,6 +10,32 @@ compose-message-attachment-name = Attached Message
 
 ## Compose window
 
+compose-initialization-error-title = Message Compose
+compose-initialization-error = An error occurred while creating a message compose window. Please try again.
+compose-empty-subject-title = Subject Reminder
+compose-empty-subject-prompt = Your message doesn’t have a subject.
+compose-empty-subject-send-button = &Send Without Subject
+compose-empty-subject-cancel-button = &Cancel Sending
+compose-attachment-reminder-title = Attachment Reminder
+compose-attachment-reminder-prompt = Did you forget to add an attachment?
+compose-attachment-reminder-send-button = No, Send Now
+compose-attachment-reminder-add-button = Oh, I did!
+compose-newsgroups-not-supported-title = Newsgroups Not Supported
+compose-newsgroups-not-supported = This account only supports email recipients. Continuing will ignore newsgroups.
+compose-invalid-address-title = Invalid Recipient Address
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } is not a valid email address because it is not of the form user@host. You must correct it before sending the email.
+compose-attach-page-title = Please specify a location to attach
+compose-attach-page-prompt = Web Page (URL):
+compose-message-part-attachment-name = Attached Message Part
+compose-attachment-bucket-attach-files-tooltip = Attach File(s)
+compose-attachment-bucket-clear-selection-tooltip = Clear Selection
+remind-later-button =
+    .label = Remind Me Later
+    .accesskey = L
+disable-attachment-reminder-menu-item =
+    .label = Disable attachment reminder for current message
 
 ## Send Format
 
@@ -428,6 +454,34 @@ cloud-file-account-error-title = Filelink Account Error
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Failed to update the Filelink attachment { $filename }, because its Filelink account has been deleted.
+cloud-file-authentication-error-title = Authentication Error
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Unable to authenticate to { $provider }.
+cloud-file-upload-error-title = Upload Error
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Unable to upload { $filename } to { $provider }.
+cloud-file-quota-error-title = Quota Error
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Uploading { $filename } to { $provider } would exceed your space quota.
+cloud-file-size-error-title = File Size Error
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } exceeds the maximum size for { $provider }.
+cloud-file-unknown-error-title = Unknown Error
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = An unknown error occurred when communicating with { $provider }.
+cloud-file-deletion-error-title = Deletion Error
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = There was a problem deleting { $filename } from { $provider }.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
