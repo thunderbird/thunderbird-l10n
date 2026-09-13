@@ -10,6 +10,8 @@ compose-message-attachment-name = Aangehegde boodskap
 
 ## Compose window
 
+compose-default-subject = (onderwerploos)
+compose-save-message-title = Stoor boodskap
 compose-empty-subject-title = Onderwerpherinnerings
 compose-empty-subject-prompt = Dit lyk nie of u boodskap 'n onderwerp het nie.
 compose-empty-subject-send-button = &Stuur sonder onderwerp
@@ -20,6 +22,7 @@ compose-attachment-reminder-send-button = Nee, stuur nou
 compose-attachment-reminder-add-button = O ja, ek het!
 compose-newsgroups-not-supported-title = Werk nie met nuusgroep nie
 compose-newsgroups-not-supported = Hierdie bediener werk net met e-posontvangers. As u voortgaan, sal die nuusgroepe geïgnoreer word.
+compose-attach-file-picker-title = Heg lêer(s) aan
 compose-rename-attachment-title = Hernoem aanhegsel
 compose-rename-attachment-prompt = Nuwe aanhegselnaam:
 
