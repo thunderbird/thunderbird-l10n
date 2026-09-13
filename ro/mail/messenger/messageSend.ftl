@@ -64,8 +64,12 @@ send-warning-large-message = Atenție! Ești pe cale să trimiți un mesaj de { 
 # Variables:
 # $folder - destination folder name
 send-progress-copy-start = Copiez mesajul în dosarul { $folder }…
+send-progress-sending-message = Se trimite mesajul…
 send-error-nntp-ok = Mesajul tău a fost expediat grupului de discuții dar nu a fost trimis și celorlalți destinatari.
 send-error-copy-operation = Mesajul a fost trimis cu succes, dar nu a putut fi copiat în dosarul Mesaje trimise.
+send-later-error-title = Eroare trimitere
+send-save-draft-error-title = Eroare la salvarea mesajului nefinalizat
+send-save-template-error-title = Eroare salvare șablon
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = destinatar-secret
 # Variables:
@@ -95,6 +99,9 @@ smtp-server-error = S-a produs o eroare la trimiterea corespondenței: Eroare la
 # Variables:
 # $hostname - outgoing server hostname
 smtp-starttls-failed = S-a produs o eroare la trimiterea de e-mail: Nu se poate stabili o conexiune sigură cu serverul de trimitere (SMTP) { $hostname } folosind STARTTLS pentru că serverul nu pare să suporte acest serviciu. Dezactivează STARTTLS pentru acest server sau contactează furnizorul serviciului.
+# Variables:
+# $serverResponse - server response
+smtp-too-many-recipients = Mesajul nu a fost trimis din cauza depășirii numărului permis de destinatari. Serverul a răspuns cu: { $serverResponse }.
 # Variables:
 # $serverResponse - server response
 smtp-error-sending-from-command = S-a produs o eroare la trimiterea corespondenței. Serverul de e-mail a răspuns: { $serverResponse }. Te rugăm să verifici în setările contului dacă adresa ta de e-mail este corectă și încearcă din nou.
