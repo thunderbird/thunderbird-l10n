@@ -24,3 +24,33 @@ send-error-smtp-interrupted = A mensagem não foi enviada porque a conexão com 
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = A mensagem não foi enviada porque a conexão com o servidor de envio (SMTP) { $hostname } expirou. Tente novamente.
 send-error-title = Erro ao enviar mensagem
+send-error-post-failed = A mensagem não pode ser enviada porque a conexão com o servidor de notícias falhou. O servidor pode estar indisponível ou recusando conexões. Verifique se as configurações do servidor de notícias estão corretas e tente novamente.
+# LOCALIZATION NOTE: This string must use only US-ASCII characters.
+send-undisclosed-recipients = destinatarios-nao-revelados
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-no-ssl = Parece que o servidor envio (SMTP) { $hostname } não tem suporte a senhas criptografadas. Se acabou de configurar a conta, tente mudar para ‘Senha, envio sem segurança’ como ‘Método de autenticação’ nas ‘Configurações da conta | Configurações do servidor’. Se funcionava e subitamente deixou de funcionar, pode ser que alguém tenha de apoderado da sua senha.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-ssl = Parece que o servidor de envio (SMTP) { $hostname } não tem suporte a senhas criptografadas. Se você acabou de configurar a conta, experimente mudar o ‘Método de autenticação’ para ‘Senha normal’ nas ‘Configurações da conta | Servidor de envio (SMTP)’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-plain-to-encrypt = O servidor de envio (SMTP) { $hostname } não permite senhas em texto puro. Experimente alterar o ‘Método de autenticação’ em ‘Configurações da conta | Servidor de envio (SMTP)’ para ‘Senha criptografada’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-failure = Não foi possível autenticar no servidor de envio (SMTP) { $hostname }. Verifique sua senha e a opção ‘Método de autenticação’ em ‘Configurações da conta | Servidor de envio (SMTP)’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-gssapi = O ticket Kerberos/GSSAPI não foi aceito pelo servidor de envio (SMTP) { $hostname }. Verifique se você está no domínio Kerberos/GSSAPI.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-mechanism-not-supported = O servidor de envio (SMTP) { $hostname } não oferece suporte ao método de autenticação selecionado. Altere o ‘Método de autenticação’ em ‘Configurações de contas | Servidor de envio (SMTP)’.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-from-command = Ocorreu um erro ao enviar a mensagem. O servidor de email respondeu: { $serverResponse }. Verifique se seu endereço de email está correto nas configurações da conta e tente novamente.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-data-command = Ocorreu um erro no servido de envio (SMTP) ao enviar email. O servidor respondeu:  { $serverResponse }.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-message = Ocorreu um erro ao enviar mensagens. Resposta do servidor:  { $serverResponse }. Verifique a mensagem e tente novamente.
