@@ -61,3 +61,5 @@ send-progress-sending-message = Slanje poruke…
 send-later-error-title = Greška kasnog slanja
 send-save-draft-error-title = Greška spremanja nacrta
 send-save-template-error-title = Greška spremanja šablona
+# LOCALIZATION NOTE: This string must use only US-ASCII characters.
+send-undisclosed-recipients = nepoznati-primaoci
