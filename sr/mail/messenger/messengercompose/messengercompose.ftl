@@ -10,6 +10,90 @@ compose-message-attachment-name = Закачена порука
 
 ## Compose window
 
+compose-initialization-error-title = Састављање поруке
+compose-initialization-error = Догодила се грешка приликом прављења прозора за састављање поруке. Пробајте поново.
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Писање: { $subject } - { $brand }
+compose-send-confirm-title = Слање поруке
+compose-send-confirm-prompt = Да ли сте сигурни да сте спремни да пошаљете ову поруку?
+compose-send-confirm-button = Пошаљи
+compose-do-not-show-again = Не приказуј овај прозорчић више.
+compose-empty-subject-title = Подсетник о наслову
+compose-empty-subject-prompt = Ваша порука нема наслов.
+compose-empty-subject-send-button = &Пошаљи без наслова
+compose-empty-subject-cancel-button = &Откажи слање
+compose-attachment-reminder-title = Подсетник о прилогу
+compose-attachment-reminder-prompt = Да ли сте заборавили да закачите прилог?
+compose-attachment-reminder-send-button = Не, пошаљи одмах
+compose-attachment-reminder-add-button = Да, јесам!
+compose-newsgroups-not-supported-title = Новинске групе нису подржане
+compose-newsgroups-not-supported = Овај налог подржава само примаоце са е-поштом. Настављањем ћете занемарити новинске групе.
+compose-invalid-address-title = Неисправна адреса примаоца
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } није исправна мејл адреса јер није у формату korisnik@domacin. Морате је исправити пре слања мејла.
+compose-quit-sending-title = Слање поруке
+compose-quit-saving-title = Чување поруке
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } је тренутно у поступку слања поруке.
+    Да ли желите пре прекидања да сачекате док се порука не пошаље или желите да изађете одмах?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } је тренутно у поступку чувања поруке.
+    Да ли желите пре прекидања да сачекате док се порука не сачува или желите да изађете одмах?
+compose-quit-button = &Изађи
+compose-wait-button = &Сачекај
+compose-attach-page-title = Наведите путању за качење
+compose-attach-page-prompt = Веб страница (URL):
+compose-message-part-attachment-name = Део закачене поруке
+compose-attachment-bucket-attach-files-tooltip = Закачи датотеке
+compose-attachment-bucket-clear-selection-tooltip = Очисти избор
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = Датотека { $filename } не постоји те се није могла закачити за ову поруку.
+compose-file-attachment-error-title = Качење датотеке
+compose-message-file-error-title = Датотека поруке
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = Датотека { $filename } не постоји и не може се користити као тело поруке.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = Датотека { $filename } се не може учитати као тело поруке.
+compose-save-success-title = Чување поруке
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Ваша порука је сачувана у фасцикли { $folder } под { $server }.
+compose-rename-attachment-title = Преименуј прилог
+compose-rename-attachment-prompt = Ново име прилога:
+remind-later-button =
+    .label = Подсети ме касније
+    .accesskey = к
+disable-attachment-reminder-menu-item =
+    .label = Онемогући подсетник о прилогу за тренутну поруку
+find-replace-button =
+    .label = Замени…
+    .accesskey = м
+    .tooltiptext = Прикажи дијалог Нађи и замени
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Унесите прилагођену адресу пошиљаоца за коришћење уместо { $identity }
+compose-custom-from-address-title = Прилагодите адресу пошиљаоца
+compose-custom-from-address-warning = Ако ваш провајдер е-поште то дозвољава, прилагођена адреса пошиљаоца вам омогућава да направите једнократну измену ваше адресе са које шаљете без прављења новог идентитета у подешавањима налога. На пример, ако је ваша адреса John Doe <john@example.com>, ви је можете променити у John Doe <john+doe@example.com> или John <john@example.com>.
+compose-custom-from-address-ignore = Не обавештавај ме о овоме више
+compose-blocked-content-options-button = Опције
+compose-blocked-content-options-accesskey = О
+compose-blocked-content-preferences-button = Поставке
+compose-blocked-content-preferences-accesskey = П
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Деблокирај { $url }
 
 ## Send Format
 
@@ -77,6 +161,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Прошири листу
     .accesskey = р
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = Уклоните { $field } адресе
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Јесте ли сигурни да желите да уклоните { $field } адресе?
+compose-remove-address-row-button = Уклони
 
 ## Attachment widget
 
@@ -445,6 +536,34 @@ cloud-file-account-error-title = Грешка Filelink налога
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Ажурирање Filelink прилога { $filename } није успело зато што је Filelink налог избрисан.
+cloud-file-authentication-error-title = Грешка приликом аутентификације
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Не могу да се аутентификујем на { $provider }.
+cloud-file-upload-error-title = Грешка приликом отпремања
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Не могу да отпремим { $filename } на { $provider }.
+cloud-file-quota-error-title = Грешка са квотом
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Отпремање { $filename } на { $provider } би премашило вашу квоту за простор.
+cloud-file-size-error-title = Грешка са величином датотеке
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } премашује највећу дозвољену величину за { $provider }.
+cloud-file-unknown-error-title = Непозната грешка
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Догодила се непозната грешка приликом комуницирања са { $provider }.
+cloud-file-deletion-error-title = Грешка приликом брисања
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Догодила се грешка приликом брисања { $filename } из { $provider }.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
@@ -461,6 +580,30 @@ big-file-notification-text =
         [few] Ово су велике датотеке. Можда је боље да искористите Filelink за слање.
        *[other] Ово су велике датотеке. Можда је боље да искористите Filelink за слање.
     }
+big-file-learn-more-button =
+    .label = Сазнајте више…
+    .accesskey = в
+big-file-link-button =
+    .label = Искористи
+    .accesskey = и
+big-file-ignore-button =
+    .label = Занемари
+    .accesskey = з
+big-file-choose-account-title = Изаберите налог
+big-file-choose-account-prompt = Изаберите налог на облаку (cloud) где ћете отпремити прилог
+big-file-hide-notification-title = Не отпремај моје датотеке
+big-file-hide-notification-prompt = Нећете бити обавештени ако закачите још великих датотека на ову поруку.
+big-file-hide-notification-checkbox = Не обавештавај ме о овоме више.
+cloudfile-uploading-stop-button =
+    .label = Не приказуј ово више
+    .accesskey = Н
+cloud-file-privacy-warning = Отпремање на FIleLink је завршено. Знајте да су овакви прилози можда доступни особама које могу да виде или погоде везу до прилога.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Отпремам на{ $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Отпремљено на { $provider }
 
 ## Link Preview
 
