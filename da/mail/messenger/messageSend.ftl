@@ -70,6 +70,9 @@ send-later-error-title = Fejl under oprettelse af senere afsendelse
 send-save-draft-error-title = Fejl under oprettelse af kladde
 send-save-template-error-title = Fejl under oprettelse af skabelon
 # Variables:
+# $recipient - recipient address
+smtp-error-illegal-local-part = Der er ikke-ASCII-tegn i den lokale del af modtageradressen { $recipient } og din server understøtter ikke SMTPUTF8. Ret adressen og prøv igen.
+# Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = SMTP-serveren { $hostname } understøtter tilsyneladende ikke krypterede adgangskoder. Hvis kontoen er nyopsat, så prøv at ændre godkendelsesmetoden til ‘Adgangskode, usikker overførsel’ i ‘Kontoindstillinger | Udgående serverindstillinger (SMTP)’. Hvis dine indstillinger plejer at virke, men nu fejler, kan det være et forsøg på at stjæle din adgangskode.
 # Variables:
