@@ -24,3 +24,22 @@ send-error-smtp-interrupted = SMTP 서버({ $hostname })로 연결이 중간에 
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = SMTP 서버({ $hostname }) 연결 시간이 초과되어 메시지를 보낼 수 없습니다.  서버 관리자에게 문의해 보시기 바랍니다.
 send-error-title = 메시지 전송 오류
+send-progress-assembling-mail-information = 메일 정보를 합치는 중…
+send-progress-assembling-message = 메시지 첨부 중…
+send-progress-creating-mail-message = 메일 메시지를 만드는 중…
+send-progress-assembling-message-done = 메시지 첨부중…완료
+send-progress-copy-complete = 복사 완료
+send-progress-copy-failed = 복사 실패
+send-dialog-save-title = 메시지 저장하기
+send-progress-filter-complete = 필터 적용 완료
+send-progress-filter-failed = 필터 적용 실패
+# Variables:
+# $size - formatted message size
+send-warning-large-message = 경고! 크기가 { $size }인 메시지를 보내려고 합니다. 메일 서버의 제한을 넘을 수도 있습니다. 계속하시겠습니까?
+# Variables:
+# $folder - destination folder name
+send-progress-copy-start = { $folder } 폴더로 메시지 복사 중…
+send-progress-sending-message = 메시지 보내는 중…
+send-later-error-title = 보낼 편지함에 저장 중 오류
+send-save-draft-error-title = 임시 편지함에 저장 중 오류
+send-save-template-error-title = 템플릿 저장 오류
