@@ -453,6 +453,9 @@ big-file-notification-text =
 cloudfile-uploading-stop-button =
     .label = Да не се показва това повече
     .accesskey = Д
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Прикачане на файлове чрез { $provider }
 
 ## Link Preview
 
