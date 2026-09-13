@@ -33,10 +33,27 @@ send-error-attaching-file = Възникна грешка при прикреп�
 send-progress-assembling-message-done = Сглобяване на писмото… готово
 send-progress-copy-complete = Копирането завършено.
 send-progress-copy-failed = Копирането неуспешно.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-sent-locally =
+    Писмото е изпратено, но не е копирано в папката за изпратени ({ $folder }) поради грешка в мрежата или липса на права.
+    Може да опитате отново или да го запазите в местната папка в { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-draft-locally =
+    Черновата не е копирана в папката за чернови ({ $folder }) поради грешка в мрежата или липса на права.
+    Може да опитате отново или да я запазите в местната папка в { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-template-locally =
+    Шаблонът не е копиран в папката за шаблони ({ $folder }) поради грешка в мрежата или липса на права.
+    Може да опитате отново или да го запазите в местната папка в { $localFolder }/{ $folder }-{ $account }.
 send-dialog-save-title = Запазване на писмо
+send-dialog-retry = &Повторен опит
 send-error-save-to-local-folders = Писмото не може да бъде запазено в местните папки. Вероятно няма достатъчно дисково пространство.
 send-progress-filter-complete = Филтрирането е завършено.
 send-progress-filter-failed = Филтрирането е неуспешно.
+send-error-filtering-message = Писмото е изпратено и запазено, но възникна грешка при прилагане на филтри върху него.
 # Variables:
 # $hostname - outgoing server hostname
 send-error-smtp-security-issue = Конфигурацията, свързана с { $hostname }, трябва да бъде коригирана.
