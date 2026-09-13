@@ -24,3 +24,53 @@ send-error-smtp-interrupted = Хабарламаны жіберу мүмкін �
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = Хабарламаны жіберу мүмкін емес, өйткені { $hostname } шығыс пошта серверіне (SMTP) байланысты орнатудың уақыты аяқталды. Қайталап көріңіз.
 send-error-title = Хабарламаны жіберу қатесі
+send-progress-assembling-mail-information = Пошта ақпаратын құрастыру…
+send-progress-assembling-message = Хабарламаны құрастыру…
+send-progress-creating-mail-message = Пошта хабарламасын жасау…
+send-progress-assembling-message-done = Хабарламаны құрастыру…Дайын
+send-progress-copy-complete = Көшіріп алу дайын.
+send-progress-copy-failed = Көшіріп алу сәтсіз аяқталды.
+send-dialog-save-title = Хабарламаны сақтау
+send-error-save-to-local-folders = Хабарламаңызды жергілікті бумаларға сақтау мүмкін емес. Бос орын жеткіліксіз болуы мүмкін.
+send-progress-filter-complete = Сүзгілеу дайын.
+send-progress-filter-failed = Сүзгілеу сәтсіз аяқталды.
+send-error-post-failed = Жаңалықтар серверіне байланысты орнату сәтсіз аяқталған соң, хабарламаны жариялау мүмкін емес. Сервер қолжетімсіз, немесе байланыстарды тайдырып отыруы мүмкін. Жаңалықтар серверінің баптауларының дұрыстығына көз жеткізіп, қайталап көріңіз.
+# Variables:
+# $size - formatted message size
+send-warning-large-message = Ескерту! Сіз өлшемі { $size } болып тұрған хабарламаны жіберуді таңдадыңыз. Оны жасауды шынымен қалайсыз ба?
+# Variables:
+# $folder - destination folder name
+send-progress-copy-start = Хабарламаны { $folder } бумасына көшіріп алу…
+send-progress-sending-message = Хабарлама жіберілуде…
+send-later-error-title = Кейінірек жіберу қатесі
+send-save-draft-error-title = Шимай қағазды сақтау қатесі
+send-save-template-error-title = Үлгіні сақтау қатесі
+# LOCALIZATION NOTE: This string must use only US-ASCII characters.
+send-undisclosed-recipients = undisclosed-recipients
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-no-ssl = { $hostname } шығыс пошта сервері (SMTP) шифрленген парольдерді қолдамайтын сияқты. Егер сіз бұл тіркелгіні жаңа баптасаңыз, "Тіркелгі баптаулары | Шығыс сервері (SMTP)" ішіндегі "Аутентификация тәсілін" "Қауіпсіз емес түрде берілетін пароль" етіп орнатып көріңіз. Егер ол бұрын жасап, енді жасамай қалса, онда бұл жағдай біреу сіздің пароліңізді ұрлағанға өте ұқсайды.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-ssl = { $hostname } шығыс пошта сервері (SMTP) шифрленген парольдерді қолдамайтын сияқты. Егер сіз бұл тіркелгіні жаңа баптасаңыз, "Тіркелгі баптаулары | Шығыс сервері (SMTP)" ішіндегі "Аутентификация тәсілін" "Қалыпты пароль" етіп орнатып көріңіз.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-plain-to-encrypt = { $hostname } шығыс пошта сервері (SMTP) ашық мәтін парольдерін қолдамайтын сияқты. Егер сіз бұл тіркелгіні жаңа баптасаңыз, "Тіркелгі баптаулары | Шығыс сервері (SMTP)" ішіндегі "Аутентификация тәсілін" "Шифрленген пароль" етіп орнатып көріңіз.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-failure = { $hostname } шығыс пошта серверінде (SMTP) аутентификациядан өту мүмкін емес. Пароліңізді тексеріңіз, және "Тіркелгі баптаулары | Шығыс сервері (SMTP)" ішіндегі "Аутентификация тәсілін" тексеріңіз.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-gssapi = { $hostname } шығыс пошта сервері (SMTP) Kerberos/GSSAPI билетін қабылдамады. Kerberos/GSSAPI доменіне кіргеніңізді тексеріңіз.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-mechanism-not-supported = { $hostname } шығыс пошта серверін (SMTP) таңдалған аутентификация тәсілін қолдамайды. "Тіркелгі баптаулары | Шығыс сервері (SMTP)" ішіндегі "Аутентификация тәсілін" өзгертіңіз.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-from-command = Поштаны жіберу кезінде қате орын алды. Пошта сервері жауап берді: { $serverResponse }. Баптауларда эл. пошта адресіңіздің дұрыстығын тексеріп, қайталап көріңіз.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-data-command = Поштаны жіберу кезінде шығыс пошта сервері (SMTP) қатесі орын алды. Сервер жауап берді:  { $serverResponse }.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-message = Поштаны жіберу кезінде қате орын алды. Пошта сервері жауап берді:  { $serverResponse }. Бұл хабарламаны тексеріп, қайталап көріңіз.
