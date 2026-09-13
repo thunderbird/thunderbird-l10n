@@ -24,3 +24,31 @@ send-error-smtp-interrupted = Cha b' urrainn dhuinn an teachdaireachd a chur a c
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = Cha b' urrainn dhuinn an teachdaireachd a chur a chionn 's gun do dh'fhalbh an ùine air an fhrithealaiche a-mach (SMTP) { $hostname }. Feuch ris a-rithist.
 send-error-title = Mearachd le cur na teachdaireachd
+send-progress-assembling-mail-information = A' cruinneachadh an fhiosrachaidh phuist…
+send-progress-assembling-message = A' cur na teachdaireachd ri chèile…
+send-progress-creating-mail-message = A' cruthachadh na teachdaireachd puist…
+send-progress-assembling-message-done = A' cur na teachdaireachd ri chèile…Deiseil
+send-progress-copy-complete = Deiseil leis an lethbhreac.
+send-progress-copy-failed = Dh'fhàillig an lethbhreac.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-sent-locally =
+    Chaidh an teachdaireachd agad a chur ach cha deach lethbhreac dhi a chur ri pasgan a’ phuist chuirte agad ({ $folder }) ri linn mearachd lìonraidh no le ceadan inntrigeadh fhaidhle.
+    ’S urrainn dhut fheuchainn a-rithist no an teachdaireachd a shàbhaladh gu { $localFolder }/{ $folder }-{ $account } gu h-ionadail.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-draft-locally =
+    Cha deach lethbhreac dhen dreachd dhen teachdaireachd agad a chur ri pasgan nan dreachdan agad ({ $folder }) ri linn mearachd lìonraidh no le ceadan inntrigeadh fhaidhle.
+    ’S urrainn dhut fheuchainn a-rithist no an dreachd a shàbhaladh gu { $localFolder }/{ $folder }-{ $account } gu h-ionadail.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-template-locally =
+    Cha deach lethbhreac dhen teamplaid agad a chur ri pasgan nan teamplaidean agad ({ $folder }) ri linn mearachd lìonraidh no le ceadan inntrigeadh fhaidhle.
+    ’S urrainn dhut fheuchainn a-rithist no an teamplaid a shàbhaladh gu { $localFolder }/{ $folder }-{ $account } gu h-ionadail.
+send-dialog-retry = Feuch ris a-&rithist
+send-progress-filter-complete = Tha an criathradh deiseil.
+send-progress-filter-failed = Dh'fhàillig an criathradh.
+send-error-filtering-message = Chaidh do theachdaireachd a chur 's a shàbhaladh ach bha mearachd ann leis a chriathradh.
+# Variables:
+# $folder - destination folder name
+send-progress-copy-start = A' cur lethbhreac dhen teachdaireachd gun phasgan { $folder }…
