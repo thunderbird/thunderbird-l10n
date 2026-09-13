@@ -10,6 +10,85 @@ compose-message-attachment-name = Mensaxe anexada
 
 ## Compose window
 
+compose-default-subject = (sen asunto)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Escribir: { $subject } - { $brand }
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Desexa gardar esta mensaxe no cartafol de borradores ({ $folder }) e pechar a xanela de composición?
+compose-discard-changes-button = &Descartar cambios
+compose-send-confirm-title = Enviar a mensaxe
+compose-send-confirm-prompt = Confirma que quere enviar xa a mensaxe?
+compose-send-confirm-button = Enviar
+compose-do-not-show-again = Non amosar esta caixa de diálogo de novo.
+compose-empty-subject-title = Recordatorio de asunto
+compose-empty-subject-prompt = A súa mensaxe non ten asunto.
+compose-empty-subject-send-button = &Enviar sen asunto
+compose-empty-subject-cancel-button = &Cancelar o envío
+compose-attachment-reminder-title = Aviso de anexos
+compose-attachment-reminder-prompt = Esqueceu incluír algún anexo?
+compose-attachment-reminder-send-button = Non, enviar xa
+compose-attachment-reminder-add-button = Ah, pois si!
+compose-newsgroups-not-supported-title = Non se admiten os grupos de noticias
+compose-newsgroups-not-supported = Esta conta só admite destinatarios(as) de correo electrónico. Se continúa ignoraranse os grupos de noticias.
+compose-quit-sending-title = Enviando a mensaxe
+compose-quit-saving-title = Gardando a mensaxe
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } está, neste momento, a procesar o envío dunha mensaxe.
+    Desexa esperar a que sexa enviada a mensaxe para saír ou prefire saír agora?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    Neste momento { $brand } está gardando unha mensaxe.
+    Desexa agardar ata que sexa enviada a mensaxe para saír ou prefire saír agora?
+compose-quit-button = &Saír
+compose-wait-button = &Esperar
+compose-attach-file-picker-title = Anexar ficheiros
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = Non existe o ficheiro { $filename } polo que non foi posíbel anexalo á mensaxe.
+compose-file-attachment-error-title = Anexar ficheiro
+compose-message-file-error-title = Ficheiro da mensaxe
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = O ficheiro { $filename } non existe polo que non se puido usar como corpo da mensaxe.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = Non se puido cargar o ficheiro { $filename } como corpo da mensaxe.
+compose-save-success-title = Gardar a mensaxe
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = A mensaxe gardouse no cartafol { $folder } situado en { $server }.
+compose-rename-attachment-title = Renomear anexo
+compose-rename-attachment-prompt = Novo nome do anexo:
+remind-later-button =
+    .label = Lembrarmo máis tarde
+    .accesskey = L
+disable-attachment-reminder-menu-item =
+    .label = Desactivar o recordatorio de anexo para a mensaxe actual
+find-replace-button =
+    .label = Substituír…
+    .accesskey = b
+    .tooltiptext = Amosar o diálogo Localizar e substituír
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Insira un enderezo de remitente personalizado en vez de { $identity }
+compose-custom-from-address-title = Personalizar o enderezo «De»
+compose-custom-from-address-warning = Se o seu fornecedor de correo electrónico admite, personalizar o enderezo «De» permítelle realizar unha alteración puntual no enderezo «De» sen ter que crear unha nova identidade na configuración da conta. Por exemplo, se o seu enderezo «De» é Lois Vigo <lois@exemplo.gal> pode cambialo por Lois Vigo <lois+vigo@exemplo.gal> ou Lois <lois@exemplo.gal>.
+compose-custom-from-address-ignore = Non volver a avisarme
+compose-blocked-content-options-button = Opcións
+compose-blocked-content-options-accesskey = O
+compose-blocked-content-preferences-button = Preferencias
+compose-blocked-content-preferences-accesskey = P
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Desbloquear { $url }
 
 ## Send Format
 
@@ -75,6 +154,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Expandir a lista
     .accesskey = x
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = Retirar o enderezo { $field }
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Desexa realmente retirar os enderezos { $field }?
+compose-remove-address-row-button = Retirar
 
 ## Attachment widget
 
@@ -432,6 +518,34 @@ cloud-file-account-error-title = Erro na conta Filelink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Produciuse un erro ao actualizar o anexo Filelink { $filename } porque a súa conta Filelink foi eleminada.
+cloud-file-authentication-error-title = Erro de autenticación
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Foi imposíbel autenticar con { $provider }.
+cloud-file-upload-error-title = Erro de envío
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Foi imposíbel enviar { $filename } a { $provider }.
+cloud-file-quota-error-title = Erro de cota
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Enviando { $filename } a { $provider } excedería a súa cota de espazo.
+cloud-file-size-error-title = Erro de tamaño do ficheiro
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } excede o tamaño máximo de { $provider }.
+cloud-file-unknown-error-title = Erro descoñecido
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Produciuse un erro descoñecido mentres se comunicaba con { $provider }.
+cloud-file-deletion-error-title = Erro ao eliminar
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Produciuse un problema ao eliminar { $filename } de { $provider }.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
@@ -446,6 +560,33 @@ big-file-notification-text =
         [one] Este ficheiro é moi grande. No seu lugar pode ser mellor usar Filelink.
        *[other] Estes ficheiros son moi grandes. No seu lugar pode ser mellor usar Filelink.
     }
+big-file-learn-more-button =
+    .label = Obter máis información…
+    .accesskey = m
+big-file-link-button =
+    .label = Ligazón
+    .accesskey = l
+big-file-ignore-button =
+    .label = Ignorar
+    .accesskey = i
+big-file-choose-account-title = Escoller conta
+big-file-choose-account-prompt = Escoller unha conta para enviar o anexo
+big-file-hide-notification-title = Non enviar os meus ficheiros
+big-file-hide-notification-prompt = Non se lle avisará se anexa outros ficheiros de gran tamaño a esta mensaxe.
+big-file-hide-notification-checkbox = Non volver a avisarme.
+cloudfile-uploading-stop-button =
+    .label = Non amosar isto de novo
+    .accesskey = N
+cloud-file-privacy-warning = Rematou de ligar o ficheiro. Teña en conta que os anexos ligados poden ser accesíbeis por aquelas persoas que poidan ver ou adiviñar as ligazóns.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Enviando a { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Enviado a { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Anexar ficheiro(s) a través de { $provider }
 
 ## Link Preview
 
