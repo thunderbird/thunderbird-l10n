@@ -10,6 +10,51 @@ compose-message-attachment-name = Pśipowjesona powěsć
 
 ## Compose window
 
+compose-send-confirm-title = Powěsć pósłaś
+compose-send-confirm-prompt = Sćo napšawdu gótowy, toś tu powěsć pósłaś?
+compose-send-confirm-button = Pósłaś
+compose-do-not-show-again = Toś ten dialog wěcej njepokazaś.
+compose-quit-sending-title = Powěsć pósłaś
+compose-quit-saving-title = Powěsć składowaś
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } sćelo tuchylu powěsć.
+    Cośo cakaś, až powěsć njejo se pósłała, nježli až kóńcyśo abo něnto skóńcyś?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } składujo tuchylu powěsć.
+    Cośo cakaś, až powěsć njejo se pósłała, nježli až kóńcyśo abo něnto skóńcyś?
+compose-quit-button = &Skóńcyś
+compose-wait-button = Ca&kaś
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = Dataja { $filename } njeeksistěrujo a njedajo se togodla k powěsći pśipowjesyś.
+compose-message-file-error-title = Powěsćowa dataja
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = Dataja { $filename } njeeksistěrujo a njedajo se ako wopśimjeśe powěsći wužywaś.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = Dataja { $filename } njedajo se ako wopśimjeśe powěsći zacytaś.
+compose-save-success-title = Powěsć składowaś
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Waša powěsć jo se do zarědnika { $folder } na { $server } składowała.
+find-replace-button =
+    .label = Wuměniś…
+    .accesskey = m
+    .tooltiptext = Dialog Pytaś a wuměniś pokazaś
+compose-blocked-content-options-button = Nastajenja
+compose-blocked-content-options-accesskey = N
+compose-blocked-content-preferences-button = Nastajenja
+compose-blocked-content-preferences-accesskey = N
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = { $url } wěcej njeblokěrowaś
 
 ## Send Format
 
@@ -459,6 +504,33 @@ cloud-file-account-error-title = Kontowa zmólka Filelink
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Pśidank { $filename } Filelink njedajo se aktualizěrowaś, dokulaž jogo lokalna dataja jo se wulašowała.
 # Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Awtentifikacija napśeśiwo { $provider } njejo móžna.
+cloud-file-upload-error-title = Nagraśowa zmólka
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Njejo móžno, { $filename } do { $provider } nagraś.
+cloud-file-quota-error-title = Kwotowa zmólka
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Nagrawanje dataje { $filename } do { $provider } by waš webskładowy limit pśekšocyło.
+cloud-file-size-error-title = Zmólka datajoweje wjelikosći
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } pśekšacujo maksimalnu wjelikosć za { $provider }.
+cloud-file-unknown-error-title = Njeznata zmólka
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Pśi komunicěrowanju z { $provider } jo njeznata zmólka nastała.
+cloud-file-deletion-error-title = Lašowańska zmólka
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Pśi lašowanju { $filename } z { $provider } jo problem nastał.
+# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
     { $count ->
@@ -476,6 +548,9 @@ big-file-notification-text =
         [few] To su wjelike dataje. Snaź jo lěpjej, až wužywaśo Filelink město togo.
        *[other] To su wjelike dataje. Snaź jo lěpjej, až wužywaśo Filelink město togo.
     }
+cloudfile-uploading-stop-button =
+    .label = To nigda wěcej njepokazaś
+    .accesskey = n
 
 ## Link Preview
 
