@@ -75,6 +75,7 @@ send-undisclosed-recipients = dolda-mottagare
 # Variables:
 # $recipient - recipient address
 smtp-error-illegal-local-part = Det finns tecken som inte är ASCII i den lokala delen av mottagaradressen { $recipient } och din server stöder inte SMTPUTF8. Ändra adressen och försök igen.
+smtp-error-no-recipients = Inga mottagare angavs för SMTP-leverans.
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = Den utgående servern (SMTP) { $hostname } stöder inte krypterade lösenord. Om du just har konfigurerat kontot, prova att ändra ‘Autentiseringsmetod’ i ‘Kontoinställningar | Server för utgående e-post’ till ‘Lösenord, osäker överföring’. Om det tidigare fungerade och nu plötsligt misslyckas är det ett vanligt tecken på när någon försöker stjäla ditt lösenord.

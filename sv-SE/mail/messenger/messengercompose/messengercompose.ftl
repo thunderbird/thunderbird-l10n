@@ -10,6 +10,7 @@ compose-message-attachment-name = Bifogat meddelande
 
 ## Compose window
 
+compose-initialization-error-title = Skriv meddelande
 compose-initialization-error = Ett fel inträffade när ett nytt fönster för att skriva meddelande i skulle öppnas. Försök gärna igen.
 compose-default-subject = (ämne saknas)
 # Variables:
