@@ -10,6 +10,11 @@ compose-message-attachment-name = Teachdaireachd a chaidh a chur ris
 
 ## Compose window
 
+compose-file-attachment-error-title = Cuir faidhle ris
+find-replace-button =
+    .label = Cuir ’na àite...
+    .accesskey = x
+    .tooltiptext = Seall an còmhradh leis an urrainn dhut rudan a lorg 's a chur 'nan àite
 
 ## Send Format
 
@@ -457,6 +462,7 @@ cloud-file-account-error-title = Mearachd le cunntas FileLink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Cha b’ urrainn dhuinn an ceanglachan FileLink { $filename } ùrachadh a chionn ’s gun deach an cunntas FileLink aige a sguabadh às.
+cloud-file-authentication-error-title = Mearachd ùghdarrachaidh
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
@@ -474,6 +480,33 @@ big-file-notification-text =
         [few] ’S e faidhle mòr a tha seo. ’S mathaid gum b’ fheairrde dhut Filelink a chleachdadh ’na àite.
        *[other] ’S e faidhlichean mòra a tha seo. ’S mathaid gum b’ fheairrde dhut Filelink a chleachdadh ’na àite.
     }
+big-file-learn-more-button =
+    .label = Barrachd fiosrachaidh…
+    .accesskey = B
+big-file-link-button =
+    .label = Ceangal
+    .accesskey = l
+big-file-ignore-button =
+    .label = Leig seachad
+    .accesskey = i
+big-file-choose-account-title = Tagh cunntas
+big-file-choose-account-prompt = Tagh cunntas neòil a thèid an ceanglachan a luchdadh suas dha
+big-file-hide-notification-title = Na luchdaich suas na faidhlichean agam
+big-file-hide-notification-prompt = Chan fhaigh thu brath tuilleadh ma cheanglas tu barrachd fhaidhlichean mòra ris an teachdaireachd seo.
+big-file-hide-notification-checkbox = Na faighnich dhìom seo a-rithist.
+cloudfile-uploading-stop-button =
+    .label = Na seall seo a-rithist
+    .accesskey = N
+cloud-file-privacy-warning = Tha an ceangladh deiseil. Dh'fhaoidte gum faigh daoine eile greim air na ceanglachain a tha ris ma nì iad tomhas air na ceanglaichean no ma chì iad iad.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = @ga luchdadh suas gu { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Air a luchdadh suas gu { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Ceangail faidhle no faidhlichean ris le { $provider }
 
 ## Link Preview
 
