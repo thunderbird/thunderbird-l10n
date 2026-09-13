@@ -10,6 +10,8 @@ compose-message-attachment-name = ข้อความที่แนบ
 
 ## Compose window
 
+compose-initialization-error-title = การเขียนข้อความ
+compose-initialization-error = เกิดข้อผิดพลาดขณะสร้างหน้าต่างการเขียนข้อความ โปรดลองอีกครั้ง
 compose-default-subject = (ไม่มีหัวเรื่อง)
 # Variables:
 # $subject - message subject
@@ -20,13 +22,67 @@ compose-save-message-title = บันทึกข้อความ
 # $folder - configured drafts folder name
 compose-save-message-prompt = บันทึกข้อความนี้ไปยังโฟลเดอร์ฉบับร่างของคุณ ({ $folder }) แล้วปิดหน้าต่างเขียนหรือไม่?
 compose-discard-changes-button = &ละทิ้งการเปลี่ยนแปลง
+compose-send-confirm-title = ส่งข้อความ
+compose-send-confirm-prompt = คุณแน่ใจหรือไม่ว่าพร้อมที่จะส่งข้อความนี้?
+compose-send-confirm-button = ส่ง
+compose-do-not-show-again = ไม่ต้องแสดงกล่องโต้ตอบนี้ให้ฉันเห็นอีก
 compose-empty-subject-title = คำเตือนหัวเรื่อง
 compose-empty-subject-prompt = ข้อความของคุณไม่มีหัวเรื่อง
 compose-empty-subject-send-button = &ส่งโดยไม่มีหัวเรื่อง
 compose-empty-subject-cancel-button = &ยกเลิกการส่ง
+compose-attachment-reminder-title = การเตือนความจำไฟล์แนบ
+compose-attachment-reminder-prompt = คุณลืมเพิ่มไฟล์แนบหรือเปล่า?
+compose-attachment-reminder-send-button = ไม่ ส่งเดี๋ยวนี้
+compose-attachment-reminder-add-button = โอ้ ฉันลืมไป!
 compose-newsgroups-not-supported-title = ไม่รองรับกลุ่มข่าว
 compose-newsgroups-not-supported = บัญชีนี้รองรับผู้รับอีเมลเท่านั้น การดำเนินการต่อจะเป็นการเพิกเฉยกลุ่มข่าว
+compose-invalid-address-title = ที่อยู่ผู้รับไม่ถูกต้อง
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } ไม่ใช่ที่อยู่อีเมลที่ถูกต้องเพราะไม่ได้อยู่ในรูปแบบ user@host คุณต้องแก้ไขให้ถูกต้องก่อนส่งอีเมล
+compose-quit-sending-title = กำลังส่งข้อความ
+compose-quit-saving-title = กำลังบันทึกข้อความ
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    ตอนนี้ { $brand } กำลังอยู่ในกระบวนการส่งข้อความ
+    คุณต้องการรอจนกว่าข้อความจะถูกส่งก่อนออกหรือออกตอนนี้?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    ตอนนี้ { $brand } กำลังอยู่ในกระบวนการบันทึกข้อความ
+    คุณต้องการรอจนกว่าข้อความจะถูกบันทึกก่อนออกหรือออกตอนนี้?
+compose-quit-button = &ออก
+compose-wait-button = &รอ
 compose-attach-file-picker-title = แนบไฟล์
+compose-attach-page-title = โปรดระบุตำแหน่งที่ตั้งที่จะแนบ
+compose-attach-page-prompt = หน้าเว็บ (URL):
+compose-message-part-attachment-name = ส่วนข้อความที่แนบ
+compose-attachment-bucket-attach-files-tooltip = แนบไฟล์
+compose-attachment-bucket-clear-selection-tooltip = ล้างที่เลือก
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = ไม่มีไฟล์ { $filename } อยู่ จึงไม่สามารถแนบไปยังข้อความ
+compose-file-attachment-error-title = การแนบไฟล์
+compose-message-file-error-title = ไฟล์ข้อความ
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = ไม่มีไฟล์ { $filename } อยู่ จึงไม่สามารถใช้เป็นเนื้อความของข้อความ
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = ไฟล์ { $filename } ไม่สามารถโหลดเป็นเนื้อความของข้อความ
+compose-save-success-title = บันทึกข้อความ
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = ข้อความของคุณได้ถูกบันทึกไปยังโฟลเดอร์ { $folder } ภายใต้ { $server }
+compose-rename-attachment-title = เปลี่ยนชื่อไฟล์แนบ
+compose-rename-attachment-prompt = ชื่อไฟล์แนบใหม่:
+remind-later-button =
+    .label = เตือนฉันภายหลัง
+    .accesskey = ต
+disable-attachment-reminder-menu-item =
+    .label = ปิดใช้งานการเตือนความจำไฟล์แนบสำหรับข้อความปัจจุบัน
 find-replace-button =
     .label = แทนที่…
     .accesskey = ท
@@ -469,9 +525,30 @@ cloudfile-uploading-notification = ไฟล์ของคุณกำลัง
 # Variables:
 #   $count - the number big attached files
 big-file-notification-text = ไฟล์เหล่านี้มีขนาดใหญ่ จะดีกว่าหากใช้ Filelink แทน
+big-file-learn-more-button =
+    .label = เรียนรู้เพิ่มเติม…
+    .accesskey = ร
+big-file-link-button =
+    .label = เชื่อมโยง
+    .accesskey = ช
+big-file-ignore-button =
+    .label = เพิกเฉย
+    .accesskey = พ
+big-file-choose-account-title = เลือกบัญชี
+big-file-choose-account-prompt = เลือกบัญชีระบบคลาวด์ที่จะอัปโหลดไฟล์แนบ
+big-file-hide-notification-title = ไม่ต้องอัปโหลดไฟล์ของฉัน
+big-file-hide-notification-prompt = คุณจะไม่ได้รับการแจ้งเตือนหากคุณแนบไฟล์ขนาดใหญ่เข้ากับข้อความนี้
+big-file-hide-notification-checkbox = ไม่ต้องแสดงคำเตือนนี้ให้ฉันเห็นอีก
 cloudfile-uploading-stop-button =
     .label = ไม่ต้องแสดงสิ่งนี้อีก
     .accesskey = ม
+cloud-file-privacy-warning = การเชื่อมโยงเสร็จสมบูรณ์ โปรดสังเกตว่าไฟล์แนบที่ถูกเชื่อมโยงอาจสามารถเข้าถึงได้โดยผู้ที่สามารถเห็นหรือเดาลิงก์
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = กำลังอัปโหลดไปยัง { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = อัปโหลดไปยัง { $provider } แล้ว
 # Variables:
 # $provider - name of the online storage service
 cloud-file-attach-picker-title = แนบไฟล์ผ่านทาง { $provider }
