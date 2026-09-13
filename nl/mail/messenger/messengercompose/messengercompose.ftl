@@ -5,6 +5,7 @@
 
 ## Compose alerts
 
+compose-message-cancelling = Annuleren…
 compose-message-attachment-name = Gekoppeld bericht
 
 ## Compose window
