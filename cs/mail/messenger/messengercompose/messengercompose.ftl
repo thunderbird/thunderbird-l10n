@@ -13,6 +13,7 @@ compose-message-attachment-name = Připojená zpráva
 compose-send-confirm-title = Odesílání zprávy
 compose-send-confirm-prompt = Opravdu chcete odeslat tuto zprávu?
 compose-send-confirm-button = Odeslat
+compose-do-not-show-again = Tento dialog příště nezobrazovat.
 compose-empty-subject-title = Upozornění na prázdný předmět
 compose-empty-subject-prompt = Odesílaná zpráva nemá zadaný žádný předmět.
 compose-empty-subject-send-button = &Odeslat bez předmětu
@@ -27,15 +28,39 @@ compose-invalid-address-title = Neplatná adresa příjemce
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address } není platná e-mailová adresa, protože není ve formátu uživatel@server. Před odesláním e-mailu ji musíte opravit.
+compose-quit-sending-title = Odesílání zprávy
+compose-quit-saving-title = Ukládání zprávy
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    Aplikace { $brand } právě odesílá zprávu.
+    Chcete počkat než bude zpráva odeslána nebo skončit ihned?
 # Variables:
 # $brand - application name
 compose-quit-saving-prompt =
     { $brand } aktuálně ukládá zprávu.
     Chcete počkat, dokud nebude zpráva uložena, nebo ihned ukončit?
+compose-quit-button = &Skončit
+compose-wait-button = &Počkat
 compose-attach-page-title = Zadejte prosím cestu pro přílohu
 compose-attach-page-prompt = Webová stránka (URL):
 compose-message-part-attachment-name = Část připojené zprávy
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = Soubor { $filename } nelze připojit ke zprávě, protože neexistuje.
 compose-file-attachment-error-title = Připojení souboru
+compose-message-file-error-title = Soubor zprávy
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = Soubor { $filename } nelze použít jako tělo zprávy, protože neexistuje.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = Soubor { $filename } nemohl být načten jako tělo zprávy.
+compose-save-success-title = Uložit zprávu
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Zpráva byla uložena do složky { $folder } na { $server }.
 compose-rename-attachment-title = Přejmenovat přílohu
 compose-rename-attachment-prompt = Nové jméno přílohy:
 remind-later-button =
