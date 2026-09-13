@@ -7,6 +7,7 @@
 
 send-alert-queued-delivery-failed = Při odesílání neodeslaných zpráv nastala chyba.
 send-error-failed = Poslání zprávy selhalo.
+send-unable-to-send-later = Omlouváme se, ale nedařilo se uložit zprávy pro pozdější odeslání.
 # Variables:
 # $hostname - outgoing server hostname
 send-error-smtp-request-refused = Zprávu nelze odeslat, protože se nepodařilo připojit na SMTP server { $hostname }. Server může být nedostupný nebo odmítá SMTP spojení. Ověřte prosím správnost nastavení vašeho SMTP serveru a zkuste to znovu, nebo kontaktujte správce sítě.
