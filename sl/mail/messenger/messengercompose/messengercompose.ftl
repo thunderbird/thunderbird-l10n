@@ -14,6 +14,8 @@ compose-empty-subject-title = Opomnik za zadevo
 compose-empty-subject-prompt = Vaše sporočilo je brez zadeve.
 compose-empty-subject-send-button = &Pošlji brez zadeve
 compose-empty-subject-cancel-button = P&rekliči pošiljanje
+compose-attachment-reminder-title = Opomin za priponko
+compose-attachment-reminder-prompt = Ste pozabili dodati priponko?
 compose-newsgroups-not-supported-title = Novičarske skupine niso podprte.
 compose-newsgroups-not-supported = Ta račun podpira samo prejemnike e-pošte. Če nadaljujete, bodo novičarske skupine prezrte.
 compose-invalid-address-title = Neveljaven naslov prejemnika
@@ -24,6 +26,17 @@ compose-attach-page-title = Navedite mesto za priponko
 compose-attach-page-prompt = Spletna stran (naslov):
 compose-message-part-attachment-name = Pripet del sporočila
 compose-file-attachment-error-title = Pripni datoteko
+compose-rename-attachment-title = Preimenuj priponko
+compose-rename-attachment-prompt = Novo ime priponke:
+remind-later-button =
+    .label = Opomni me kasneje
+    .accesskey = O
+disable-attachment-reminder-menu-item =
+    .label = Onemogoči opomnik o priponkah za trenutno sporočilo
+find-replace-button =
+    .label = Zamenjaj …
+    .accesskey = Z
+    .tooltiptext = Prikaži pogovorno okno Najdi in Zamenjaj
 
 ## Send Format
 
@@ -504,6 +517,9 @@ big-file-choose-account-prompt = Izberite račun v oblaku, kamor naj se prenese 
 big-file-hide-notification-title = Ne prenašaj mojih datotek
 big-file-hide-notification-prompt = Če boste dodali še več velikih datotek k temu sporočilu, ne boste dobili obvestila.
 big-file-hide-notification-checkbox = O tem me ni treba nikoli več obveščati.
+cloudfile-uploading-stop-button =
+    .label = Tega ne prikaži več
+    .accesskey = T
 cloud-file-privacy-warning = Povezovanje je končano. Upoštevajte, da so povezane priponke lahko dostopne ljudem, ki povezave vidijo ali uganejo.
 # Variables:
 # $provider - name of the online storage service
