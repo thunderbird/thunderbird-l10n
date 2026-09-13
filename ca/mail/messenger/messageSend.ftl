@@ -45,10 +45,13 @@ send-error-save-draft-locally =
 send-error-save-template-locally =
     La plantilla no s'ha copiat en la carpeta de plantilles ({ $folder }) perquè s'han produït errors de xarxa o d'accés al fitxer.
     Podeu tornar-ho a provar o desar la plantilla localment en { $localFolder }/{ $folder }-{ $account }.
+send-dialog-save-title = Desa el missatge
 send-dialog-retry = &Reintenta
+send-error-save-to-local-folders = No s'ha pogut desar el missatge en les carpetes locals. Potser no hi ha prou espai d'emmagatzematge de fitxers.
 send-progress-filter-complete = El filtre s'ha completat.
 send-progress-filter-failed = Ha fallat el filtre.
 send-error-filtering-message = S'ha enviat i desat el missatge, però s'ha produït un error mentre s'hi executaven els filtres.
+send-error-post-failed = El missatge no s'ha pogut enviar perquè la connexió amb el servidor de missatges ha fallat. Pot ser que el servidor no estigui disponible o estigui rebutjant connexions. Comproveu que els paràmetres del servidor de grups de discussió siguin correctes i torneu-ho a provar.
 # Variables:
 # $size - formatted message size
 send-warning-large-message = Avís! Esteu a punt d'enviar un missatge d'una mida de { $size }. Esteu segur que voleu continuar?
@@ -61,3 +64,30 @@ send-save-draft-error-title = Error de desament d'esborrany
 send-save-template-error-title = Error de desament de plantilla
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = destinataris-ocults
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-no-ssl = El servidor de sortida (SMTP) { $hostname } sembla que no permet contrasenyes xifrades. Si acabeu de configurar el compte, proveu «Contrasenya, enviada sense seguretat» com a «Mètode d'autenticació» a «Paràmetres del compte | Servidor de sortida (SMTP)». Si abans funcionava i ara comença a fallar, pot ser que algú us estigui intentant robar la contrasenya.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-ssl = El servidor de sortida (SMTP) { $hostname } sembla que no permet contrasenyes xifrades. Si acabeu de configurar el compte, proveu «Contrasenya normal» com a «Mètode d'autenticació» a «Paràmetres del compte | Servidor de sortida (SMTP)».
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-plain-to-encrypt = El servidor de sortida (SMTP) { $hostname } no permet les contrasenyes de text net. Proveu «Contrasenya xifrada» com a «Mètode d'autenticació» a «Paràmetres del compte | Servidor de sortida (SMTP)».
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-failure = No s'ha pogut autenticar al servidor de sortida (SMTP) { $hostname }. Comproveu la contrasenya i el «Mètode d'autenticació» a «Paràmetres del compte | Servidor de sortida (SMTP)».
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-gssapi = El segell Kerberos/GSSAPI no ha sigut acceptat pel servidor de sortida (SMTP) { $hostname }. Assegureu-vos que heu iniciat la sessió al servidor Kerberos/GSSAPI.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-mechanism-not-supported = El servidor de sortida (SMTP) { $hostname } no permet el mètode d'autenticació seleccionat. Canvieu el «Mètode d'autenticació» a «Paràmetres del compte | Servidor de sortida (SMTP)».
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-from-command = S'ha produït un error en enviar el correu. El servidor de correu ha respost: { $serverResponse }. Comproveu que heu indicat l'adreça electrònica correcta als paràmetres del compte i torneu-ho a provar.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-data-command = S'ha produït un error del servidor de sortida (SMTP) en enviar el correu. El servidor ha respost: { $serverResponse }.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-message = S'ha produït un error en enviar el correu. El servidor de correu ha respost: { $serverResponse }. Comproveu el missatge i torneu-ho a provar.
