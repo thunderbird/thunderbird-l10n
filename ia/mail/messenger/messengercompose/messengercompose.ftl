@@ -12,14 +12,30 @@ compose-message-attachment-name = Message annexate
 
 compose-initialization-error-title = Redaction del message
 compose-initialization-error = Un error occurreva durante le creation de un fenestra de composition de messages. Retenta.
+compose-default-subject = (nulle subjecto)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Scriber: { $subject } - { $brand }
+compose-save-message-title = Salvar message
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Salvar iste message in tu dossier de esbossos ({ $folder }) e clauder le fenestra Scriber?
+compose-discard-changes-button = Refusar le modificationes (&Discard)
 compose-send-confirm-title = Inviar message
 compose-send-confirm-prompt = Es tu vermente preste a inviar iste message?
 compose-send-confirm-button = Inviar
 compose-do-not-show-again = Non monstrar me plus iste fenestra de dialogo.
+compose-empty-subject-title = Memento del subjecto
+compose-empty-subject-prompt = Tu message non ha subjecto.
+compose-empty-subject-send-button = Inviar (&Send) sin subjecto
+compose-empty-subject-cancel-button = &Cancellar invio
 compose-attachment-reminder-title = Rememoration de annexo
 compose-attachment-reminder-prompt = Ha tu oblidate de adder un annexo?
 compose-attachment-reminder-send-button = No, inviar ora
 compose-attachment-reminder-add-button = Si, de facto!
+compose-newsgroups-not-supported-title = Gruppos de discussion non supportate
+compose-newsgroups-not-supported = Iste conto supporta solmente le destinatarios de posta electronic. Si tu continua, le gruppos de discussion essera ignorate.
 compose-invalid-address-title = Adresse email del destinatario non valide.
 # Variables:
 # $address - invalid email address
@@ -38,6 +54,7 @@ compose-quit-saving-prompt =
     Vole tu attender usque le message ha esstite salvate ante quitar, o quitar ora?
 compose-quit-button = &Quitar
 compose-wait-button = Attender (&Wait)
+compose-attach-file-picker-title = { "" }
 compose-attach-page-title = Indicar le adresse a attaccar
 compose-attach-page-prompt = Pagina Web (URL):
 compose-message-part-attachment-name = Parte annexate del message
@@ -66,6 +83,24 @@ remind-later-button =
     .accesskey = t
 disable-attachment-reminder-menu-item =
     .label = Disactivar le rememoration de annexo pro le message actual
+find-replace-button =
+    .label = Replaciar…
+    .accesskey = x
+    .tooltiptext = Monstrar le fenestra de dialogo Trovar e replaciar
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Insere le adresse De a usar in vice de { $identity }
+compose-custom-from-address-title = Personalisar adresse ab
+compose-custom-from-address-warning = Si tu fornitor de e-mail lo supporta, le personalisation del adresse de expeditor permitte un alteration provisori de tu adresse "De:" sin necessitate de crear un nove identitate in le parametros del conto. Per exemplo, si tu adresse "De:" es Julio Cesare <julio@example.com> tu poterea cambiar lo in Julio Cesare <julio+cesare@example.com> o in Julio <julio@example.com>.
+compose-custom-from-address-ignore = Non plus notificar me de isto
+compose-blocked-content-options-button = Optiones
+compose-blocked-content-options-accesskey = O
+compose-blocked-content-preferences-button = Preferentias
+compose-blocked-content-preferences-accesskey = P
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Disblocar { $url }
 
 ## Send Format
 
@@ -131,6 +166,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Expander lista
     .accesskey = x
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = Remover adresses de { $field }
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Desira tu vermente remover le adresses de { $field }?
+compose-remove-address-row-button = Remover
 
 ## Attachment widget
 
@@ -487,6 +529,34 @@ cloud-file-account-error-title = Error de conto Filelink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Impossibile actualisar le annexo de Filelink { $filename }, perque su conto de Filelink ha essite delite.
+cloud-file-authentication-error-title = Error de authentication
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Impossibile authenticar a { $provider }.
+cloud-file-upload-error-title = Error de incargamento
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Impossibile incargar { $filename } a { $provider }.
+cloud-file-quota-error-title = Error de quota
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Incargar { $filename } a { $provider } excederea tu quota de spatio.
+cloud-file-size-error-title = Error de dimension de file
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } excede le dimension maxime pro { $provider }.
+cloud-file-unknown-error-title = Error incognite
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Un error incognite occurreva durante le communication con { $provider }.
+cloud-file-deletion-error-title = Error de deletion
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Il habeva un problema al deletion del { $filename } de { $provider }.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
@@ -515,6 +585,9 @@ big-file-choose-account-prompt = Elige un conto de nube al qual incargar le anne
 big-file-hide-notification-title = Non incargar mi files
 big-file-hide-notification-prompt = Tu non essera notificate si tu attacca files plus grande a iste message.
 big-file-hide-notification-checkbox = Non plus notificar me de isto.
+cloudfile-uploading-stop-button =
+    .label = Non monstrar isto de novo
+    .accesskey = N
 cloud-file-privacy-warning = Le ligation ha succedite. Nota que le annexos ligate pote esser accessibile pro personas qui pote vider o divinar le ligamines.
 # Variables:
 # $provider - name of the online storage service
@@ -522,6 +595,9 @@ cloud-file-uploading-tooltip = Incargante a { $provider }…
 # Variables:
 # $provider - name of the online storage service
 cloud-file-uploaded-tooltip = Incargate a { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Attaccar file(s) per { $provider }
 
 ## Link Preview
 
