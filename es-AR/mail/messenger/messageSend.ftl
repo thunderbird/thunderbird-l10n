@@ -9,6 +9,9 @@ send-alert-queued-delivery-failed = Ocurrió un error al procesar sus mensajes n
 send-error-failed = Falló el envío del mensaje.
 # Variables:
 # $hostname - outgoing server hostname
+send-error-smtp-unknown-server = Hubo un error mientras se enviaba el correo: El servidor SMTP { $hostname } es desconocido. El servidor puede estar mal configurado. Verifique que las opciones de su servidor SMTP sean correctas e intente nuevamente.
+# Variables:
+# $hostname - outgoing server hostname
 send-error-smtp-request-refused = El mensaje no pudo ser enviado porque falló la conexión al servidor saliente (SMTP) { $hostname }. El servidor puede no estar disponible o está rechazando las conexiones SMTP. Verifique que las opciones de su servidor saliente (SMTP) sean correctas e intente nuevamente.
 # Variables:
 # $hostname - outgoing server hostname
