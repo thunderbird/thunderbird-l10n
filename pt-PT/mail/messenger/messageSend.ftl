@@ -5,6 +5,10 @@
 
 ## Message sending
 
+send-unable-to-send-later = Desculpe mas não foi possível guardar a sua mensagem para envio posterior.
+# Variables:
+# $hostname - outgoing server hostname
+send-error-smtp-unknown-server = Ocorreu um erro ao enviar o correio. O servidor de envio (SMTP) { $hostname } não é conhecido. Pode ser que o servidor esteja mal configurado. Por favor verifique se as definições do servidor (SMTP) estão corretas e tente novamente.
 # Variables:
 # $hostname - outgoing server hostname
 send-error-smtp-request-refused = A mensagem não foi enviada porque a ligação ao servidor de envio (SMTP) { $hostname } falhou. O servidor pode estar indisponível ou a recusar ligações SMTP. Verifique se as definições do servidor (SMTP) estão corretas e tente novamente.
