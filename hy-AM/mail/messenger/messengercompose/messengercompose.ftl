@@ -213,6 +213,34 @@ attachment-reminder-keywords-msg =
 
 # Messages
 
+cloud-file-authentication-error-title = Իսկորոշման սխալ
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Հնարավոր չէ ներկայանալ { $provider }։
+cloud-file-upload-error-title = Վերբեռնման սխալ
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Հնարավոր չէ վերբեռնել { $filename }-ը { $provider }-ում։
+cloud-file-quota-error-title = Չափի սխալ
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = { $filename }-ի վերբեռնումը { $provider }-ում կգերազանցի սահմանափակումը։
+cloud-file-size-error-title = Ֆայլի չափի սխալ
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename }-ը գերազանցել է առավ. չափը { $provider }-ի համար։
+cloud-file-unknown-error-title = Անհայտ սխալ
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Անհայտ սխալ՝ { $provider }-ին կապակցելիս։
+cloud-file-deletion-error-title = Ջնջելու սխալ
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = { $filename }-ը { $provider }-ից ջնջելու սխալ։
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification = Ձեր ֆայլը կհղվի։ Այն տեսանելի կլինի նամակում, երբ պատրաստ լինի։ Ձեր ֆայլերը կհղվեն։ Դրանք տեսանելի կլինեն նամակում, երբ պատրաստ լինեն։
