@@ -17,6 +17,7 @@ compose-default-subject = (nincs tárgy)
 # $subject - message subject
 # $brand - application name
 compose-window-title = Írás: { $subject } - { $brand }
+compose-save-message-title = Üzenet mentése
 # Variables:
 # $folder - configured drafts folder name
 compose-save-message-prompt = Menti ezt az üzenetet a Piszkozatok mappába ({ $folder }), és bezárja az Írás ablakot?
