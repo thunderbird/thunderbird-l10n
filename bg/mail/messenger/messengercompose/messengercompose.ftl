@@ -37,6 +37,7 @@ compose-attachment-reminder-add-button = О, да!
 compose-newsgroups-not-supported-title = Дискусионни групи не се поддържат
 compose-newsgroups-not-supported = Тази регистрация е предназначена само за получатели на електронна поща. Ако продължите, дискусионните групи ще бъдат пренебрегнати.
 compose-invalid-address-title = Неправилен адрес на получател
+compose-no-recipients = Не са определени получатели. Моля, напишете получател или дискусионна група в адресното поле.
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address } е неправилен електронен адрес, понеже не е във формата user@host. Поправете го преди да изпратите писмото.
@@ -530,6 +531,7 @@ cloud-file-account-error-title = Грешка във Filelink профила
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Неуспешно актуализиране на прикачения файл с Filelink { $filename }, тъй като неговият Filelink профил е изтрит.
+cloud-file-authentication-error-title = Грешка при удостоверяване
 # Variables:
 # $provider - name of the online storage service
 cloud-file-authentication-error = Грешка при удостоверяване към { $provider }.
@@ -580,9 +582,21 @@ big-file-link-button =
 big-file-ignore-button =
     .label = Пренебрегване
     .accesskey = П
+big-file-choose-account-title = Избиране на профил
+big-file-choose-account-prompt = Изберете облачна сметка, на която да бъде качен прикаченият файл
+big-file-hide-notification-title = Без качване на файловете ми
+big-file-hide-notification-prompt = Няма да бъдете уведомени повече, ако прикрепите още големи файлове към това съобщение.
+big-file-hide-notification-checkbox = Не ме уведомявай за такова нещо повече.
 cloudfile-uploading-stop-button =
     .label = Да не се показва това повече
     .accesskey = Д
+cloud-file-privacy-warning = Свързването е готово. Моля отбележете, че свързаните прикачени файлове може да бъдат достъпни за тези, които виждат или отгатват препратките.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Качване на { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Качено на  { $provider }
 # Variables:
 # $provider - name of the online storage service
 cloud-file-attach-picker-title = Прикачане на файлове чрез { $provider }
