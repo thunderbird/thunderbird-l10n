@@ -22,6 +22,9 @@ compose-save-message-title = Nachricht speichern
 # $folder - configured drafts folder name
 compose-save-message-prompt = Nachricht im Entwurfsordner ({ $folder }) speichern und Verfassen-Fenster schließen?
 compose-discard-changes-button = Änderungen &verwerfen
+compose-send-confirm-title = Nachricht senden
+compose-send-confirm-prompt = Sind Sie sicher, dass Sie bereit sind, diese Nachricht zu senden?
+compose-send-confirm-button = Senden
 compose-do-not-show-again = Dieses Dialogfenster nicht mehr anzeigen
 compose-empty-subject-title = Betreff-Erinnerung
 compose-empty-subject-prompt = Ihre Nachricht hat keinen Betreff.
@@ -40,6 +43,11 @@ compose-quit-saving-title = Nachricht wird gespeichert
 compose-quit-sending-prompt =
     { $brand } sendet gerade eine Nachricht.
     Wollen Sie vor dem Beenden warten, bis die Nachricht gesendet wurde, oder jetzt beenden?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } speichert gerade eine Nachricht ab.
+    Soll gewartet werden, bis die Nachricht gespeichert wurde, oder sofort beendet werden?
 compose-quit-button = &Beenden
 compose-wait-button = &Warten
 compose-attach-file-picker-title = Datei(en) als Anhang anfügen
@@ -61,6 +69,8 @@ compose-save-success-title = Nachricht speichern
 # $folder - folder in which the message was saved
 # $server - server on which the folder is located
 compose-save-success-message = Ihre Nachricht wurde im Ordner { $folder } unter { $server } gespeichert.
+compose-rename-attachment-title = Anhang umbenennen
+compose-rename-attachment-prompt = Neuer Name des Anhangs:
 remind-later-button =
     .label = Mich später erinnern
     .accesskey = M
