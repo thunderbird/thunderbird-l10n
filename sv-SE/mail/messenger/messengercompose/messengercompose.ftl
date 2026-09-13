@@ -10,6 +10,22 @@ compose-message-attachment-name = Bifogat meddelande
 
 ## Compose window
 
+compose-initialization-error-title = Bifogningsfönstret
+compose-initialization-error = Ett fel inträffade när ett nytt fönster för att skriva meddelande i skulle öppnas. Försök gärna igen.
+compose-default-subject = (ämne saknas)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Skriv: { $subject } - { $brand }
+compose-save-message-title = Spara meddelande
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Spara det här meddelandet till mappen utkast ({ $folder }) och stäng skrivfönstret?
+compose-discard-changes-button = I&gnorera ändringar
+compose-send-confirm-title = Skicka meddelande
+compose-send-confirm-prompt = Är du säker på att du är klar att skicka detta meddelande?
+compose-send-confirm-button = Skicka
+compose-do-not-show-again = Visa inte denna dialogruta igen.
 compose-empty-subject-title = Ämnespåminnelse
 compose-empty-subject-prompt = Ditt meddelande har inget angivet ämne.
 compose-empty-subject-send-button = &Sänd utan ämne
@@ -24,15 +40,63 @@ compose-invalid-address-title = Ogiltig mottagaradress
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address } är inte en giltig e-postadress eftersom den inte har formen användare@värd. Du måste rätta till detta innan du kan skicka meddelandet.
+compose-quit-sending-title = Meddelande skickas
+compose-quit-saving-title = Meddelande sparas
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } håller på att skicka ett meddelande.
+    Vill du vänta tills meddelandet har skickats innan du avslutar, eller vill du avsluta nu?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } håller på att spara ett meddelande.
+    Vill du vänta tills meddelandet har sparats innan du avslutar, eller vill du avsluta nu?
+compose-quit-button = &Avsluta
+compose-wait-button = &Vänta
+compose-attach-file-picker-title = Bifoga fil(er)
 compose-attach-page-title = Ange en webbplats att bifoga
 compose-attach-page-prompt = Webbplats (URL):
 compose-message-part-attachment-name = Bifogad meddelandedel
+compose-attachment-bucket-attach-files-tooltip = Bifoga fil(er)
+compose-attachment-bucket-clear-selection-tooltip = Rensa markering
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = Filen { $filename } finns inte och kan inte bifogas till meddelandet.
 compose-file-attachment-error-title = Bifoga fil
+compose-message-file-error-title = Meddelandefil
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = Filen { $filename } existerar inte och kan inte användas som meddelandetext.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = Filen { $filename } kunde inte läsas som meddelandetext.
+compose-save-success-title = Spara meddelande
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Meddelandet har sparats i mappen { $folder } på { $server }.
+compose-rename-attachment-title = Byt namn på bilaga
+compose-rename-attachment-prompt = Nytt namn på bilagan:
 remind-later-button =
     .label = Påminn mig senare
     .accesskey = P
 disable-attachment-reminder-menu-item =
     .label = Inaktivera påminnelse om bilaga i aktuellt meddelande
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Ange anpassad från adress som ska användas i stället för { $identity }
+compose-custom-from-address-title = Anpassa från adress
+compose-custom-from-address-warning = Om din e-postleverantör stöder detta, anpassa från adress kan du göra enstaka mindre ändringar i din från adress utan att behöva skapa en ny identitet i Kontoinställningar. Till exempel, om din adress är John Doe <john@example.com> kan du ändra den till John Doe <john+doe@example.com> eller John <john@example.com>.
+compose-custom-from-address-ignore = Meddela mig aldrig om detta igen
+compose-blocked-content-options-button = Inställningar
+compose-blocked-content-options-accesskey = n
+compose-blocked-content-preferences-button = Inställningar
+compose-blocked-content-preferences-accesskey = n
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Avblockera { $url }
 
 ## Send Format
 
@@ -454,6 +518,7 @@ cloud-file-account-error-title = Fillänkskontofel
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Det gick inte att uppdatera fillänksbilagan { $filename }, eftersom dess fillänkskonto har tagits bort.
+cloud-file-authentication-error-title = Autentiseringsfel
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
@@ -489,6 +554,9 @@ cloud-file-uploading-tooltip = Överför till { $provider }…
 # Variables:
 # $provider - name of the online storage service
 cloud-file-uploaded-tooltip = Överförd till { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Bifoga fil(er) via { $provider }
 
 ## Link Preview
 
