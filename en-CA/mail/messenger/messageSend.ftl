@@ -101,7 +101,13 @@ smtp-server-error = An error occurred while sending mail: Outgoing server (SMTP)
 smtp-starttls-failed = An error occurred while sending mail: Unable to establish a secure link with Outgoing server (SMTP) { $hostname } using STARTTLS since it doesn’t advertise that feature. Switch off STARTTLS for that server or contact your service provider.
 # Variables:
 # $serverResponse - server response
+smtp-too-many-recipients = The message was not sent due to exceeding the allowed number of recipients. The server responded: { $serverResponse }.
+# Variables:
+# $serverResponse - server response
 smtp-error-sending-from-command = An error occurred while sending mail. The mail server responded: { $serverResponse }. Please verify that your email address is correct in your account settings and try again.
+# Variables:
+# $serverResponse - server response
+smtp-permanent-size-exceeded = The size of the message you are trying to send exceeds the global size limit of the server. The message was not sent; reduce the message size and try again. The server responded:  { $serverResponse }.
 # Variables:
 # $serverResponse - server response; $recipient - intended recipient
 smtp-error-sending-recipient-command =
