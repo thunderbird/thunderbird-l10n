@@ -10,12 +10,29 @@ compose-message-attachment-name = Neges wedi'i Hatodi
 
 ## Compose window
 
+compose-initialization-error-title = Ysgrifennu Neges
+compose-initialization-error = Digwyddodd gwall wrth greu ffenestr ysgrifennu neges. Ceisiwch eto.
+compose-default-subject = (dim pwnc)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Ysgrifennu: { $subject } - { $brand }
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Cadw'r neges hon yn eich ffolder drafftiau ({ $folder }) a chau'r ffenestr Ysgrifennu?
+compose-discard-changes-button = &Dileu newidiadau
 compose-send-confirm-title = Anfon Neges
 compose-send-confirm-prompt = Ydych chi'n siŵr eich bod yn barod i anfon y neges hon?
 compose-send-confirm-button = Anfon
 compose-do-not-show-again = Peidiwch â dangos y blwch deialog hwn i mi eto.
+compose-empty-subject-title = Atgoffwr Pwnc
+compose-empty-subject-prompt = Nid oes gan eich neges bwnc.
+compose-empty-subject-send-button = &Anfon Heb Bwnc
+compose-empty-subject-cancel-button = &Diddymu Anfon
 compose-attachment-reminder-title = Atgoffa am Atodiad
 compose-attachment-reminder-prompt = Ydych chi wedi anghofio atodi atodiad?
+compose-newsgroups-not-supported-title = Nid yw Grwpiau Newyddion yn Cael eu Cynnal
+compose-newsgroups-not-supported = Dim ond derbynwyr e-bost mae'r cyfrif yma yn ei gynnal. Bydd parhau yn anwybyddu grwpiau newyddion.
 compose-quit-sending-title = Wrthi'n Anfon Neges
 compose-quit-saving-title = Cadw Neges
 # Variables:
@@ -30,9 +47,13 @@ compose-quit-saving-prompt =
     Hoffech chi aros tan fod y neges wedi ei chadw cyn gadael neu gadael nawr?
 compose-quit-button = &Gadael
 compose-wait-button = &Aros
+compose-attach-file-picker-title = Atodi Ffeil(iau)
+compose-attachment-bucket-attach-files-tooltip = Atodi Ffeil(iau)
+compose-attachment-bucket-clear-selection-tooltip = Clirio'r Dewis
 # Variables:
 # $filename - name of the file that could not be found
 compose-file-attachment-not-found = Nid yw ffeil { $filename } yn bodoli felly nid oedd modd ei hatodi i'r neges.
+compose-file-attachment-error-title = Atodi Ffeil
 compose-message-file-error-title = Ffeil Neges
 # Variables:
 # $filename - name of the file that could not be found
@@ -56,6 +77,12 @@ find-replace-button =
     .label = Amnewid…
     .accesskey = a
     .tooltiptext = Dangos y deialog Canfod ac Newid
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Rhowch gyfeiriad Oddi Wrth cyfaddas i'w ddefnyddio y lle { $identity }
+compose-custom-from-address-title = Cyfaddasu Cyfeiriad Oddi Wrth
+compose-custom-from-address-warning = Os yw eich darparwr e-byst yn ei gynnal, mae Cyfaddasu Cyfeiriad Oddi Wrth yn caniatáu i chi wneud mân newidiadau dros dro heb bod angen creu hunaniaeth newydd yn Ngosodiadau'r Cyfrif. Er enghraifft, os yw eich cyfeiriad Oddi wrth yn John Doe <john@example.com> efallai yr hoffech ei newid i John Doe <john+doe@example.com> neu John <john@example.com>.
+compose-custom-from-address-ignore = Peidio fy hysbysu am hyn eto
 compose-blocked-content-options-button = Dewisiadau
 compose-blocked-content-options-accesskey = D
 compose-blocked-content-preferences-button = Dewisiadau
@@ -538,6 +565,7 @@ cloud-file-account-error-title = Gwall Cyfrif Filelink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Wedi methu diweddaru'r atodiad Filelink { $filename }, oherwydd bod ei ffeil leol wedi'i symud neu ei dileu.
+cloud-file-authentication-error-title = Gwall Dilysu
 # Variables:
 # $provider - name of the online storage service
 cloud-file-authentication-error = Methu dilysu i { $provider }.
