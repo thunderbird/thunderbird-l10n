@@ -36,6 +36,11 @@ compose-attachment-reminder-send-button = لا، أرسِل الآن
 compose-attachment-reminder-add-button = أوه، نسيتُ فعلًا!
 compose-newsgroups-not-supported-title = مجموعات الأخبار غير مدعومة
 compose-newsgroups-not-supported = يدعم هذا الحساب فقط مستلمي البريد. المتابعة ستؤدي إلى تجاهل مجموعات الأخبار.
+compose-invalid-address-title = عنوان المستلم غير صالح
+compose-no-recipients = لم تُحدَّد أية مستلمين. من فضلك أدخل مستلما أو مجموعة أخبار في منطقة العنوان.
+# Variables:
+# $address - invalid email address
+compose-invalid-address = ‏{ $address } ليس عنوان بريد غير صحيح لأنه ليس على شكل user@host. يجب تصحيحه قبل إرسال البريد.
 compose-quit-sending-title = إرسال الرسالة
 compose-quit-saving-title = يحفظ الرسالة
 # Variables:
@@ -51,6 +56,9 @@ compose-quit-saving-prompt =
 compose-quit-button = أ&نهِ
 compose-wait-button = ا&نتظر
 compose-attach-file-picker-title = أرفق ملفات
+compose-attach-page-title = من فضلك حدد موقعا لإرفاقه
+compose-attach-page-prompt = صفحة وِب (مسار):
+compose-message-part-attachment-name = جزء الرسالة المرفقة
 compose-attachment-bucket-attach-files-tooltip = أرفق ملفات
 compose-attachment-bucket-clear-selection-tooltip = امسح التحديد
 # Variables:
