@@ -11,6 +11,8 @@ compose-message-attachment-name = Attached Message
 
 compose-initialization-error-title = Message Compose
 compose-initialization-error = An error occurred while creating a message compose window. Please try again.
+compose-default-subject = (no subject)
+compose-save-message-title = Save Message
 compose-send-confirm-title = Send Message
 compose-send-confirm-prompt = Are you sure you are ready to send this message?
 compose-send-confirm-button = Send
@@ -37,6 +39,7 @@ compose-quit-sending-prompt =
     Would you like to wait until the message has been sent before quitting or quit now?
 compose-quit-button = &Quit
 compose-wait-button = &Wait
+compose-attach-file-picker-title = Attach File(s)
 compose-attach-page-title = Please specify a location to attach
 compose-attach-page-prompt = Web Page (URL):
 compose-message-part-attachment-name = Attached Message Part
