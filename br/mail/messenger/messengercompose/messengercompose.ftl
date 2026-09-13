@@ -10,13 +10,21 @@ compose-message-attachment-name = Kemennadenn kenstaget
 
 ## Compose window
 
+compose-default-subject = (danvez ebet)
+compose-save-message-title = Enrollañ ar gemennadenn
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Enrollit ar c'hemenn-mañ e-barzh ho teuliad brouilhed ({ $folder }) ha serriñ ar prenestr Skrivañ?
+compose-discard-changes-button = &Dilezel ar c'hemmoù
 compose-send-confirm-title = Kas ar gemennadenn
 compose-send-confirm-prompt = Ha sur oc'h e c'hellit kas ar gemennadenn diouzhtu ?
 compose-send-confirm-button = Kas
+compose-do-not-show-again = Chom hep diskouez ar voestad emziviz-se din.
 compose-attachment-reminder-title = Adc'halv evit ar c'henstagadurioù
 compose-attachment-reminder-prompt = Disoñjet hoc'h eus ouzhpennañ ur c'henstagadur?
 compose-attachment-reminder-send-button = Ket, kas diouzhtu
 compose-attachment-reminder-add-button = Ya!
+compose-quit-sending-title = O kas ar postel
 compose-quit-saving-title = Oc'h enrollañ ar gemennadenn
 # Variables:
 # $brand - application name
@@ -30,7 +38,23 @@ compose-quit-saving-prompt =
     Ha fellout a ra deoc'h gortoz betek ma vo enrollet ar postel pe guitaat forzh penaos diouzhtu ?
 compose-quit-button = &Kuitaat
 compose-wait-button = &Gortoz
+compose-attach-file-picker-title = Kenstagañ restr(où)
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = Ar restr { $filename } n'eus ket anezhi neuze n'hall ket bezañ kenstaget ouzh ar gemennadenn.
 compose-file-attachment-error-title = Kenstagañ ur restr
+compose-message-file-error-title = Restr kemennadenn
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = Ar restr { $filename } n'eus ket anezhañ ha n'hall ket bezañ arveret evel korf ar gemennadenn.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = Ar restr { $filename } n'hall ket bezañ karget evel korf kemennadenn.
+compose-save-success-title = Enrollañ ar gemennadenn
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Enrollet eo bet ho kemennadenn en teuliad { $folder } dindan { $server }.
 compose-rename-attachment-title = Adenvel ar c'henstagadur
 compose-rename-attachment-prompt = Anv nevez evit ar c'henstagadur:
 remind-later-button =
@@ -42,6 +66,14 @@ find-replace-button =
     .label = Amsaviñ...
     .accesskey = A
     .tooltiptext = Diskouez ar voestad emziviz Kavout hag amsaviñ
+compose-blocked-content-options-button = Dibarzhioù
+compose-blocked-content-options-accesskey = D
+compose-blocked-content-preferences-button = Gwellvezioù
+compose-blocked-content-preferences-accesskey = G
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Distankañ { $url }
 
 ## Send Format
 
