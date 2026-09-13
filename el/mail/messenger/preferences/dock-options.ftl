@@ -19,3 +19,4 @@ count-new-messages-radio =
     .label = Αριθμό νέων μηνυμάτων
     .accesskey = ν
 notification-settings-info2 = Μπορείτε να απενεργοποιήσετε το σήμα στην ενότητα «Ειδοποίηση» των ρυθμίσεων συστήματος.
+dock-icon-notification-dialog-title = Ρυθμίσεις ειδοποιήσεων εικονιδίου εφαρμογής

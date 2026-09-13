@@ -3,6 +3,32 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 offline-dialog-title = Ρυθμίσεις εκτός σύνδεσης
+offline-startup-label = Κατά το άνοιγμα του { -brand-short-name }:
+status-radio-start-online =
+    .label = Έναρξη εντός σύνδεσης
+    .accesskey = η
+status-radio-start-offline =
+    .label = Έναρξη εκτός σύνδεσης
+    .accesskey = ξ
+going-online-send =
+    .label = Ναι, αυτόματη αποστολή
+    .accesskey = Ν
+going-online-keep =
+    .label = Όχι, διατήρηση στα Εξερχόμενα
+    .accesskey = χ
+going-online-ask-send =
+    .label = Ερώτηση πριν από την αποστολή
+    .accesskey = σ
+going-offline-prompt = Θέλετε να κάνετε λήψη μηνυμάτων για ανάγνωση εκτός σύνδεσης;
+going-offline-download =
+    .label = Ναι, αυτόματη λήψη
+    .accesskey = α
+going-offline-keep =
+    .label = Όχι, να μην γίνει λήψη
+    .accesskey = ι
+going-offline-ask-download =
+    .label = Ερώτηση πριν από τη λήψη
+    .accesskey = α
 autodetect-online-label =
     .label = Αυτόματη χρήση ανιχνευμένης κατάστασης σύνδεσης
     .accesskey = ν

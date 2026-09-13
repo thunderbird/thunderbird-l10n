@@ -32,6 +32,7 @@ policy-DisableDataCollectionSettings = Αποτροπή της αλλαγής τ
 policy-DisableDefaultClientAgent = Αποτροπή οποιασδήποτε ενέργειας από την προεπιλεγμένη λειτουργία πελάτη. Ισχύει μόνο για Windows· οι άλλες πλατφόρμες δεν έχουν τέτοια υπηρεσία.
 policy-DisableDeveloperTools = Αποκλεισμός πρόσβασης στα εργαλεία ανάπτυξης.
 policy-DisableFeedbackCommands = Απενεργοποίηση εντολών για αποστολή σχολίων από το μενού «Βοήθεια» («Υποβολή σχολίων» και «Αναφορά παραπλανητικού ιστοτόπου»).
+policy-DisableFileLink = Απενεργοποίηση της λειτουργίας FileLink.
 policy-DisableForgetButton = Αποτροπή πρόσβασης στο κουμπί «Διαγραφή».
 policy-DisableFormHistory = Χωρίς διατήρηση ιστορικού αναζήτησης και φορμών.
 policy-DisableMasterPasswordCreation = Αν αληθεύει, δεν μπορεί να δημιουργηθεί κύριος κωδικός πρόσβασης.

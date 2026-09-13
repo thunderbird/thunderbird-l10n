@@ -38,3 +38,4 @@ panel-settings-spam = Ρυθμίσεις ανεπιθύμητων
 # Variables:
 # $account (String) - The account name.
 spam-settings-alert-message = Εντοπίστηκε πρόβλημα με τις ρυθμίσεις ανεπιθύμητων μηνυμάτων για το { $account }. Θέλετε να τις ελέγξετε πριν αποθηκεύσετε τις αλλαγές;
+open-settings-sidebar-button = Ρυθμίσεις

@@ -39,3 +39,4 @@ system-search-integration-label =
 check-on-startup-label =
     .label = Εκτέλεση ελέγχου σε κάθε εκκίνηση του { -brand-short-name }
     .accesskey = τ
+system-settings-dialog-title = Ρυθμίσεις συστήματος

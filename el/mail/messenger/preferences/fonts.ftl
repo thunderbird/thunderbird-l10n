@@ -9,12 +9,16 @@ fonts-label-default =
     .label = Προεπιλογή ({ $name })
 fonts-label-default-unnamed =
     .label = Προεπιλογή
+fonts-character-set-legend =
+    .value = Σύνολο χαρακτήρων:
+    .accesskey = τ
 fonts-language-legend =
     .value = Γραμματοσειρές για:
     .accesskey = τ
 fonts-proportional-label =
     .value = Μεταβλητού πλάτους:
     .accesskey = β
+text-font-options-dialog-title = Επιλογές κειμένου και γραμματοσειράς
 
 ## Languages
 
@@ -93,6 +97,9 @@ font-size-monospace-label =
 font-serif-label =
     .value = Serif:
     .accesskey = S
+sans-serif-font-label =
+    .value = Γραμματοσειρά Sans-serif:
+    .accesskey = μ
 font-sans-serif-label =
     .value = Sans serif:
     .accesskey = n
@@ -114,6 +121,7 @@ use-document-fonts-checkbox =
 use-fixed-width-plain-checkbox =
     .label = Χρήση γραμματοσειράς σταθερού πλάτους για μηνύματα απλού κειμένου
     .accesskey = ρ
+message-font-permissions-legend = Δικαιώματα γραμματοσειράς μηνυμάτων
 
 ## Language settings
 
