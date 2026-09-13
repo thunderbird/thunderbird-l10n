@@ -10,19 +10,49 @@ compose-message-attachment-name = 附加郵件
 
 ## Compose window
 
+compose-send-confirm-title = 寄送郵件
+compose-send-confirm-prompt = 您確定已經可以寄送此封郵件了嗎？
+compose-send-confirm-button = 傳送
 compose-empty-subject-title = 主旨提醒
 compose-empty-subject-prompt = 您的郵件沒有主旨。
 compose-empty-subject-send-button = 傳送無主旨郵件 (&S)
 compose-empty-subject-cancel-button = 取消(&C)
+compose-attachment-reminder-title = 附件提醒
+compose-attachment-reminder-prompt = 您忘記加入附件了嗎？
 compose-newsgroups-not-supported-title = 不支援新聞群組
 compose-newsgroups-not-supported = 此帳號只支援電子郵件收件者，繼續執行會忽略新聞群組。
 compose-invalid-address-title = 收件者地址無效
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address } 不是正確的電子郵件地址。正確的格式會是 user@host。請修正後重寄。
+compose-quit-saving-title = 正在儲存訊息
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } 目前正在寄信中。
+    您想要等它寄完後再離開或還是要馬上離開呢？
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } 目前正在儲存訊息。
+    您想要等到訊息完成儲存後再離開或是要立即離開？
+compose-quit-button = 離開（&Q）
+compose-wait-button = 稍候
 compose-attach-page-title = 請指定附加檔案路徑
 compose-attach-page-prompt = 網址 (URL):
 compose-message-part-attachment-name = 附加郵件部份
+compose-file-attachment-error-title = 附加檔案
+compose-rename-attachment-title = 附加檔案重新命名
+compose-rename-attachment-prompt = 新附件名:
+remind-later-button =
+    .label = 待會提醒我
+    .accesskey = L
+disable-attachment-reminder-menu-item =
+    .label = 關閉此訊息的附件提醒
+find-replace-button =
+    .label = 取代…
+    .accesskey = l
+    .tooltiptext = 顯示尋找及取代對話框
 
 ## Send Format
 
@@ -431,6 +461,33 @@ cloudfile-uploading-notification = 正在上傳您的檔案。上傳完成後將
 # Variables:
 #   $count - the number big attached files
 big-file-notification-text = 我們建議您將大檔案傳送到雲端，再透過插入檔案鏈結的方式傳送。
+big-file-learn-more-button =
+    .label = 更多資訊…
+    .accesskey = M
+big-file-link-button =
+    .label = 鏈結
+    .accesskey = L
+big-file-ignore-button =
+    .label = 忽略
+    .accesskey = I
+big-file-choose-account-title = 選擇帳號
+big-file-choose-account-prompt = 請選擇您要把文件上傳到哪個雲端帳號
+big-file-hide-notification-title = 不要上傳我的檔案
+big-file-hide-notification-prompt = 若您附加其他大檔案到此訊息時將不會被通知。
+big-file-hide-notification-checkbox = 永遠不要再提醒我這個訊息。
+cloudfile-uploading-stop-button =
+    .label = 永遠不要再顯示
+    .accesskey = N
+cloud-file-privacy-warning = 已完成鏈結。請注意鏈結好的附件可能會被其他看的到，或是可以猜到網址的人存取。
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = 正在將檔案上傳至 { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = 已將檔案上傳至 { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = 透過 { $provider } 附加檔案
 
 ## Link Preview
 
