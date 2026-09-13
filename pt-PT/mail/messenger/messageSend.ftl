@@ -27,6 +27,9 @@ send-error-title = Erro ao enviar mensagem
 send-progress-assembling-mail-information = A construir informação do correio…
 send-progress-assembling-message = A construir mensagem…
 send-progress-creating-mail-message = A criar mensagem de correio…
+# Variables:
+# $filename - name or URL of the file that could not be attached
+send-error-attaching-file = Ocorreu um erro ao anexar { $filename }. Verifique se tem acesso ao ficheiro.
 send-progress-assembling-message-done = A construir mensagem…Feito
 send-progress-copy-complete = Cópia terminada.
 send-progress-copy-failed = A cópia falhou.
@@ -54,6 +57,7 @@ send-error-filtering-message = A sua mensagem foi enviada e guardada, mas ocorre
 # Variables:
 # $hostname - outgoing server hostname
 send-error-smtp-security-issue = A configuração relacionada com { $hostname } deve ser corrigida.
+send-error-post-failed = A mensagem não pode ser enviada porque a ligação ao servidor de notícias falhou. O servidor pode estar indisponível ou a recusar ligações. Por favor verifique se as definições do servidor de notícias estão corretas e tente de novo ou contacte o administrador de rede.
 # Variables:
 # $size - formatted message size
 send-warning-large-message = Aviso! Vai enviar uma mensagem com um tamanho de { $size }. Tem a certeza que pretende fazer isto?
@@ -61,6 +65,8 @@ send-warning-large-message = Aviso! Vai enviar uma mensagem com um tamanho de { 
 # $folder - destination folder name
 send-progress-copy-start = A copiar mensagem para a pasta { $folder }...
 send-progress-sending-message = A enviar mensagem...
+send-error-nntp-ok = A sua mensagem foi publicada no grupo de notícias, mas não foi enviada para outros destinatários.
+send-error-copy-operation = A mensagem foi enviada com sucesso, mas não foi copiada para a sua pasta Enviadas.
 send-later-error-title = Erro ao guardar para enviar mais tarde
 send-save-draft-error-title = Erro ao guardar rascunho
 send-save-template-error-title = Erro ao guardar modelo
@@ -91,8 +97,26 @@ smtp-auth-mechanism-not-supported = O servidor de envio (SMTP) { $hostname } nã
 # $serverResponse - server response
 smtp-server-error = Ocorreu um erro ao enviar o correio: erro do servidor (SMTP). O servidor respondeu:  { $serverResponse }.
 # Variables:
+# $hostname - outgoing server hostname
+smtp-starttls-failed = Ocorreu um erro ao enviar o correio: não foi possível estabelecer uma ligação segura com o servidor de envio (SMTP) { $hostname } usando STARTTLS, uma vez que ele não anuncia esta funcionalidade. Desligue o STARTTLS para esse servidor ou contacte o fornecedor de serviço.
+# Variables:
 # $serverResponse - server response
 smtp-too-many-recipients = A mensagem não foi enviada porque excedeu o número permitido de destinatários. O servidor respondeu: { $serverResponse }.
 # Variables:
 # $serverResponse - server response
+smtp-error-sending-from-command = Ocorreu um erro ao enviar o correio. O servidor respondeu: { $serverResponse }. Por favor verifique se o seu endereço eletrónico está correto nas definições da conta e tente novamente.
+# Variables:
+# $serverResponse - server response
 smtp-permanent-size-exceeded = O tamanho da mensagem que está a tentar enviar excede o limite global do servidor. A mensagem não foi enviada. Reduza o tamanho da mensagem e tente novamente. O servidor respondeu:  { $serverResponse }.
+# Variables:
+# $serverResponse - server response; $recipient - intended recipient
+smtp-error-sending-recipient-command =
+    Ocorreu um erro ao enviar o correio. O servidor de correio respondeu:
+    { $serverResponse }.
+    Verifique o destinatário da mensagem "{ $recipient }" e tente novamente.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-data-command = Ocorreu um erro (SMTP) ao enviar o correio. O servidor respondeu:  { $serverResponse }.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-message = Ocorreu um erro ao enviar o correio. O servidor respondeu:  { $serverResponse }. Por favor verifique a mensagem e tente novamente.
