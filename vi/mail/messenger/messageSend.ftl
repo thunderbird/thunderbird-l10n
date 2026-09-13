@@ -24,3 +24,22 @@ send-error-smtp-interrupted = Không thể gửi thư vì kết nối với máy
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = Không thể gửi thư vì đã hết thời gian chờ kết nối với máy chủ gửi thư (SMTP) { $hostname }. Vui lòng thử lại.
 send-error-title = Lỗi khi gửi thư
+send-progress-assembling-mail-information = Đang tập hợp thông tin thư…
+send-progress-assembling-message = Tập hợp thư…
+send-progress-creating-mail-message = Đang tạo thư…
+send-progress-assembling-message-done = Tập hợp thư…Xong
+send-progress-copy-complete = Sao chép hoàn tất.
+send-progress-copy-failed = Sao chép thất bại.
+send-dialog-save-title = Lưu thư
+send-progress-filter-complete = Đã lọc xong.
+send-progress-filter-failed = Có lỗi khi lọc.
+# Variables:
+# $size - formatted message size
+send-warning-large-message = Cảnh báo! Bạn sắp gửi một thư có kích thước { $size }. Bạn có chắc chắn muốn làm điều này?
+# Variables:
+# $folder - destination folder name
+send-progress-copy-start = Đang sao chép thư đến thư mục { $folder }…
+send-progress-sending-message = Đang gửi thư…
+send-later-error-title = Lỗi khi gửi sau
+send-save-draft-error-title = Lỗi khi lưu bản nháp
+send-save-template-error-title = Lỗi khi lưu mẫu
