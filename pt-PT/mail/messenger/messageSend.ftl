@@ -5,6 +5,11 @@
 
 ## Message sending
 
+send-alert-queued-delivery-failed = Ocorreu um erro ao entregar as mensagens.
+send-alert-followup-to-sender = O autor desta mensagem pediu que a resposta fosse enviada apenas para o autor. Se também desejar responder ao grupo, adicione uma nova linha na área do endereço, escolha Grupo de notícias na lista de destinatários e introduza o nome do grupo de notícias.
+send-unable-to-save-template = Não foi possível guardar a sua mensagem como modelo.
+send-unable-to-save-draft = Não foi possível guardar a sua mensagem como rascunho.
+send-error-failed = Falha ao enviar mensagem.
 send-unable-to-send-later = Desculpe mas não foi possível guardar a sua mensagem para envio posterior.
 # Variables:
 # $hostname - outgoing server hostname
