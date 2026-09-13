@@ -10,6 +10,30 @@ compose-message-attachment-name = Mensaje adjunto
 
 ## Compose window
 
+compose-send-confirm-title = Enviar mensaje
+compose-send-confirm-prompt = ¿Está seguro de querer enviar este mensaje?
+compose-send-confirm-button = Enviar
+compose-attachment-reminder-title = Recordatorio de adjunto
+compose-attachment-reminder-prompt = ¿Se olvidó de agregar un adjunto?
+compose-attachment-reminder-send-button = No, enviar ahora
+compose-attachment-reminder-add-button = ¡Oh, sí!
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } está actualmente en el proceso de guardar un mensaje.
+    ¿QUiere esperar hasta que el mensaje haya sido guardado antes de salir o sale ahora mismo?
+compose-file-attachment-error-title = Adjuntar archivo
+compose-rename-attachment-title = Renombrar adjunto
+compose-rename-attachment-prompt = Nuevo nombre del adjunto:
+remind-later-button =
+    .label = Recordarme más tarde
+    .accesskey = R
+disable-attachment-reminder-menu-item =
+    .label = Deshabilitar recordatorio de adjunto para el mensaje actual
+find-replace-button =
+    .label = Reemplazar…
+    .accesskey = l
+    .tooltiptext = Mostrar el díalago buscar y reemplazar
 
 ## Send Format
 
@@ -446,6 +470,33 @@ big-file-notification-text =
         [one] Éste es un archivo grande. Podría ser mejor usar Filelink en cambio.
        *[other] Éstos son archivos grandes. Podría ser mejor usar Filelink en cambio.
     }
+big-file-learn-more-button =
+    .label = Conocer más…
+    .accesskey = m
+big-file-link-button =
+    .label = Enlace
+    .accesskey = l
+big-file-ignore-button =
+    .label = Ignorar
+    .accesskey = i
+big-file-choose-account-title = Seleccionar cuenta
+big-file-choose-account-prompt = Seleccione una cuenta de la nube a la cual subir el adjunto
+big-file-hide-notification-title = No subir mis archivos
+big-file-hide-notification-prompt = No será notificado si adjunta más archivos grandes a este mensaje.
+big-file-hide-notification-checkbox = Nunca notificarme de ésto de nuevo.
+cloudfile-uploading-stop-button =
+    .label = No mostrar ésto nuevamente
+    .accesskey = N
+cloud-file-privacy-warning = Enlace completo. Tenga en cuenta que los adjuntos enlazados puede ser accesibles por personas que puedan ver o adivinar los enlaces.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Subiendo a { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Subido a { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Adjuntar archivo(s) vía { $provider }
 
 ## Link Preview
 
