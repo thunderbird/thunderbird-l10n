@@ -30,10 +30,27 @@ send-progress-creating-mail-message = Se creează mesajul…
 send-progress-assembling-message-done = Se asamblează mesajul…Terminat
 send-progress-copy-complete = Copiere finalizată.
 send-progress-copy-failed = Copiere eșuată.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-sent-locally =
+    Mesajul a fost trimis dar nu s-a putut pune o copie în dosarul mesajelor trimise ({ $folder }) din cauza unor erori de rețea sau de acces la fișiere.
+    Poți încerca din nou sau poți salva local mesajul în { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-draft-locally =
+    Mesajul nefinalizat nu a fost copiat în dosarul cu mesaje nefinalizate ({ $folder }) din cauza unor erori de rețea sau de acces la fișiere.
+    Poți reîncerca sau poți salva local mesajul nefinalizat în { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-template-locally =
+    Șablonul nu a fost copiat în dosarul de șabloane ({ $folder }) din cauza unor erori de rețea sau de acces la fișiere.
+    Poți încerca din nou sau poți salva local șablonul în { $localFolder }/{ $folder }-{ $account }.
 send-dialog-save-title = Salvează mesajul
+send-dialog-retry = Reî&ncearcă
 send-error-save-to-local-folders = Salvarea mesajului în dosarele locale a eșuat. Este posibil să nu mai fie spațiu de stocare de pe disc.
 send-progress-filter-complete = Filtru finalizat.
 send-progress-filter-failed = Filtrare eșuată.
+send-error-filtering-message = Mesajul tău a fost trimis și salvat, dar a apărut o eroare la rularea filtrelor de mesaje asupra acestuia.
 send-error-post-failed = Mesajul nu a putut fi postat pentru că a eșuat conexiunea cu serverul de grupuri de discuții. Se poate ca serverul să fie indisponibil sau să refuze conexiunile. Te rugăm să verifici corectitudinea setărilor contului de grupuri de discuții și încearcă din nou.
 # Variables:
 # $size - formatted message size
