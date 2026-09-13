@@ -10,6 +10,69 @@ compose-message-attachment-name = Póstviðhengi
 
 ## Compose window
 
+compose-default-subject = (ekkert efni)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Skrifa: { $subject } - { $brand }
+compose-save-message-title = Vista póst
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Viltu vista þessi skilaboð í uppkastamöppuna ({ $folder }) og loka skrifglugganum?
+compose-discard-changes-button = &Henda breytingum
+compose-send-confirm-title = Senda boð
+compose-send-confirm-prompt = Ertu viss um að þú sért tilbúinn að senda þennan póst?
+compose-send-confirm-button = Senda
+compose-empty-subject-title = Áminning fyrir efnislínu
+compose-empty-subject-prompt = Pósturinn inniheldur ekki efnislínu.
+compose-empty-subject-send-button = &Senda án efnislínu
+compose-empty-subject-cancel-button = &Hætta við að senda
+compose-attachment-reminder-title = Áminning fyrir viðhengi
+compose-attachment-reminder-prompt = Gleymdirðu nokkuð að bæta við viðhengi?
+compose-attachment-reminder-send-button = Nei, senda strax
+compose-attachment-reminder-add-button = Já, ég gleymdi því!
+compose-newsgroups-not-supported-title = Fréttahópar ekki studdir
+compose-newsgroups-not-supported = Þessi reikningur styður aðeins póst viðtakendur. Ef þú heldur áfram munu fréttahópar vera hunsaðir.
+compose-quit-saving-title = Vista skilaboð
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } er að senda póst.
+    Viltu bíða þangað til sending á pósti er lokið áður en þú hættir eða viltu hætta strax?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } er að vista póst.
+    Viltu bíða þangað til pósturinn hefur verið vistaður áður en þú hættir eða viltu hætta núna?
+compose-quit-button = &Hætta
+compose-wait-button = &Bíða
+compose-attach-file-picker-title = Bæta við viðhengi
+compose-file-attachment-error-title = Viðhengi
+compose-rename-attachment-title = Endurnefna viðhengi
+compose-rename-attachment-prompt = Nýtt nafn á viðhengi:
+remind-later-button =
+    .label = Minna mig á seinna
+    .accesskey = M
+disable-attachment-reminder-menu-item =
+    .label = Slökkva á áminningu fyrir viðhengi fyrir núverandi skilaboð
+find-replace-button =
+    .label = Breyta…
+    .accesskey = B
+    .tooltiptext = Sýna leita og skipta út glugga
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Settu inn sérsniðið Frá-póstfang sem á að nota í staðinn fyrir { $identity }
+compose-custom-from-address-title = Sérsníða Frá veffang
+compose-custom-from-address-warning = Ef tölvupóstþjónninn þinn styður það, þá geturðu sérsniðið Frá-póstfang án þess að þurfa að búa til nýjan reikning. Sem dæmi, ef Frá-póstfangið þitt er John Doe <john@example.com> gætirðu breytt því í John Doe <john+doe@example.com> eða John <john@example.com>.
+compose-custom-from-address-ignore = Aldrei láta mig vita aftur
+compose-blocked-content-options-button = Valkostir
+compose-blocked-content-options-accesskey = O
+compose-blocked-content-preferences-button = Kjörstillingar
+compose-blocked-content-preferences-accesskey = P
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Opna fyrir { $url }
 
 ## Send Format
 
@@ -75,6 +138,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Stækka lista
     .accesskey = l
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = Fjarlægja { $field } póstföng
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Ertu viss um að þú viljir fjarlægja { $field } póstföng?
+compose-remove-address-row-button = Fjarlægja
 
 ## Attachment widget
 
@@ -474,6 +544,33 @@ big-file-notification-text =
         [one] Þetta er stór skrá. Betra væri að nota Filelink-tengil á skrána í staðinn.
        *[other] Þetta eru stórar skrár. Betra væri að nota Filelink-tengil á skrárnar í staðinn.
     }
+big-file-learn-more-button =
+    .label = Kanna nánar…
+    .accesskey = m
+big-file-link-button =
+    .label = Tengill
+    .accesskey = l
+big-file-ignore-button =
+    .label = Hunsa
+    .accesskey = H
+big-file-choose-account-title = Veldu reikning
+big-file-choose-account-prompt = Veldu nettengda geymsluþjónustu til að hlaða viðhengið á
+big-file-hide-notification-title = Ekki hlaða upp mínum skrám
+big-file-hide-notification-prompt = Þú munt ekki fá fleiri tilkynningar þótt þú bætir við öðrum stórum skrám í tölvupóstinn.
+big-file-hide-notification-checkbox = Aldrei láta mig vita aftur.
+cloudfile-uploading-stop-button =
+    .label = Aldrei sýna þetta aftur
+    .accesskey = n
+cloud-file-privacy-warning = Tengingu er lokið. Athugaðu að tengd viðhengi geta hugsanlega verið aðgengileg fyrir fólk sem getur séð eða getið sér til um tenglana.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Hleð upp á { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Hlaðið upp á { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Hengja við skrá með { $provider }
 
 ## Link Preview
 
