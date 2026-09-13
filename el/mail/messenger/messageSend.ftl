@@ -30,10 +30,27 @@ send-progress-creating-mail-message = Δημιουργία μηνύματος em
 send-progress-assembling-message-done = Συμβολομετάφραση μηνύματος…Ολοκληρώθηκε
 send-progress-copy-complete = Η αντιγραφή ολοκληρώθηκε.
 send-progress-copy-failed = Η αντιγραφή  απέτυχε.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-sent-locally =
+    Το μήνυμά σας απεστάλη αλλά δεν αποθηκεύτηκε αντίγραφο στον φάκελο απεσταλμένων ({ $folder }) λόγω σφάλματος δικτύου ή προβλήματος πρόσβασης αρχείου.
+    Μπορείτε να δοκιμάσετε ξανά ή να αποθηκεύσετε το μήνυμα τοπικά στο { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-draft-locally =
+    Το μήνυμά σας δεν αποθηκεύτηκε στον φάκελο πρόχειρων ({ $folder }) λόγω σφάλματος δικτύου ή προβλήματος πρόσβασης αρχείου.
+    Μπορείτε να δοκιμάσετε ξανά ή να αποθηκεύσετε το πρόχειρο τοπικά στο { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-template-locally =
+    Το πρότυπό σας δεν αποθηκεύτηκε στον φάκελο προτύπων ({ $folder }) λόγω σφάλματος δικτύου ή προβλήματος πρόσβασης αρχείου.
+    Μπορείτε να δοκιμάσετε ξανά ή να αποθηκεύσετε το πρότυπο τοπικά στο { $localFolder }/{ $folder }-{ $account }.
 send-dialog-save-title = Αποθήκευση μηνύματος
+send-dialog-retry = &Επανάληψη
 send-error-save-to-local-folders = Δεν ήταν δυνατή η αποθήκευση του μηνύματός σας σε τοπικούς φακέλους. Ενδεχομένως να μην υπάρχει επαρκής χώρος αποθήκευσης.
 send-progress-filter-complete = Το φιλτράρισμα ολοκληρώθηκε.
 send-progress-filter-failed = Αποτυχία φιλτραρίσματος.
+send-error-filtering-message = Το μήνυμά σας έχει αποσταλεί και αποθηκευτεί, αλλά υπήρξε πρόβλημα στην εκτέλεση των φίλτρων μηνυμάτων σε αυτό.
 # Variables:
 # $hostname - outgoing server hostname
 send-error-smtp-security-issue = Η ρύθμιση που σχετίζεται με το { $hostname } θα πρέπει να διορθωθεί.
@@ -46,3 +63,21 @@ send-progress-copy-start = Αντιγραφή μηνύματος στον φάκ
 send-progress-sending-message = Αποστολή μηνύματος…
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = άγνωστοι παραλήπτες
+# Variables:
+# $recipient - recipient address
+smtp-error-illegal-local-part = Υπάρχουν μη-ASCII χαρακτήρες στο τοπικό μέρος της διεύθυνσης παραλήπτη { $recipient } και ο διακομιστής σας δεν υποστηρίζει SMTPUTF8. Αλλάξτε αυτήν τη διεύθυνση και δοκιμάστε ξανά.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-no-ssl = Ο διακομιστής εξερχομένων (SMTP) { $hostname } δεν φαίνεται να υποστηρίζει κρυπτογραφημένους κωδικούς πρόσβασης. Αν μόλις ρυθμίσατε τον λογαριασμό, δοκιμάστε να επιλέξετε το ‘Κωδικός πρόσβασης, με μη ασφαλή μετάδοση’ για το ‘Μέθοδος ταυτοποίησης’ στις ‘Ρυθμίσεις λογαριασμού | Διακομιστής εξερχομένων (SMTP)’. Αν λειτουργούσε παλιά, αλλά όχι πλέον, υπάρχει περίπτωση να κλαπεί ο κωδικός πρόσβασής σας.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-ssl = Αυτός ο διακομιστής  SMTP { $hostname } δεν υποστηρίζει κρυπτογραφημένους κωδικούς. Αν μόλις ρυθμίσατε τον λογαριασμό, κάντε αλλαγή σε ‘Κανονικός κωδικός’ ως  ‘Μέθοδος πιστοποίησης’ στις ‘Ρυθμίσεις λογαριασμού | Ρυθμίσεις διακομιστή’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-plain-to-encrypt = Ο διακομιστής εξερχομένων (SMTP) { $hostname } δεν υποστηρίζει κωδικούς πρόσβασης απλού κειμένου. Δοκιμάστε να επιλέξετε «Κρυπτογραφημένος κωδικός πρόσβασης» για την επιλογή «Μέθοδος ταυτοποίησης» στις «Ρυθμίσεις λογαριασμού | Διακομιστής εξερχομένων (SMTP)».
+# Variables:
+# $serverResponse - server response
+smtp-too-many-recipients = Το μήνυμα δεν απεστάλη λόγω υπέρβασης του επιτρεπόμενου αριθμού παραληπτών. Ο διακομιστής απάντησε: { $serverResponse }.
+# Variables:
+# $serverResponse - server response
+smtp-permanent-size-exceeded = Το μέγεθος του μηνύματος που προσπαθείτε να στείλετε υπερβαίνει το όριο μεγέθους του διακομιστή. Το μήνυμα δεν απεστάλη· μειώστε το μέγεθός του και δοκιμάστε ξανά. Ο διακομιστής αποκρίθηκε: { $serverResponse }.
