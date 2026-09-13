@@ -101,6 +101,9 @@ smtp-server-error = Une erreur est survenue lors de l’envoi de l’e-mail : e
 smtp-starttls-failed = Une erreur est survenue lors de l’envoi de l’e-mail : impossible d’établir un lien sécurisé avec le serveur SMTP « { $hostname } » en utilisant « STARTTLS » puisqu’il ne propose pas cette fonctionnalité. Désactivez « STARTTLS » pour ce serveur ou contactez votre fournisseur d’accès à Internet.
 # Variables:
 # $serverResponse - server response
+smtp-too-many-recipients = Le message n’a pas été envoyé car le nombre de destinataires autorisé a été dépassé. Le serveur a répondu : { $serverResponse }.
+# Variables:
+# $serverResponse - server response
 smtp-error-sending-from-command = Une erreur est survenue lors de l’envoi de l’e-mail. Le serveur e-mail a répondu : { $serverResponse }. Veuillez vérifier que votre adresse e-mail dans les paramètres du compte est correcte et essayer à nouveau.
 # Variables:
 # $serverResponse - server response
