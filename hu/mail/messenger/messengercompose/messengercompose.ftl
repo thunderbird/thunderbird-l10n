@@ -10,14 +10,33 @@ compose-message-attachment-name = Csatolt üzenet
 
 ## Compose window
 
+compose-default-subject = (nincs tárgy)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Írás: { $subject } - { $brand }
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Menti ezt az üzenetet a Piszkozatok mappába ({ $folder }), és bezárja az Írás ablakot?
+compose-discard-changes-button = Módosítások &elvetése
 compose-send-confirm-title = Üzenet küldése
 compose-send-confirm-prompt = Biztos benne, hogy az üzenet készen áll az elküldésre?
 compose-send-confirm-button = Küldés
 compose-do-not-show-again = Ne jelenjen meg többet ez a párbeszédpanel.
+compose-empty-subject-title = Figyelmeztetés a tárgyra
+compose-empty-subject-prompt = Az üzenetének nincs tárgya.
+compose-empty-subject-send-button = &Küldés tárgy nélkül
+compose-empty-subject-cancel-button = Kül&dés visszavonása
 compose-attachment-reminder-title = Figyelmeztető a mellékletekre
 compose-attachment-reminder-prompt = Nem felejtette el a mellékletet?
 compose-attachment-reminder-send-button = Nem, így küldöm el!
 compose-attachment-reminder-add-button = De igen!
+compose-newsgroups-not-supported-title = Hírcsoportok nem támogatottak
+compose-newsgroups-not-supported = Ebből a postafiókból csak levelet lehet küldeni. Ha folytatja, a hírcsoportok figyelmen kívül lesznek hagyva.
+compose-invalid-address-title = A címzett címe érvénytelen
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } nem érvényes e-mail cím, mert nem felhasználó@gép formában van. Az e-mail elküldése előtt ki kell javítania.
 compose-quit-sending-title = Üzenet küldése
 compose-quit-saving-title = Üzenet mentése
 # Variables:
@@ -32,6 +51,10 @@ compose-quit-saving-prompt =
     Megvárja az üzenet elküldésének befejeződését, vagy azonnal kilép?
 compose-quit-button = &Kilépés
 compose-wait-button = &Várakozás
+compose-attach-file-picker-title = Fájlok csatolása
+compose-attach-page-title = Válassza ki a mellékelendő helyet
+compose-attach-page-prompt = Weboldal (URL):
+compose-message-part-attachment-name = Csatolt üzenetrész
 # Variables:
 # $filename - name of the file that could not be found
 compose-file-attachment-not-found = A(z) { $filename } fájl nem létezik, ezért nem lehet az üzenethez csatolni.
@@ -59,6 +82,12 @@ find-replace-button =
     .label = &Csere…
     .accesskey = x
     .tooltiptext = Keresés és csere ablak megjelenítése
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Írja be a(z) { $identity } helyett használandó egyéni Feladó címet
+compose-custom-from-address-title = Feladó címének testreszabása
+compose-custom-from-address-warning = Ha e-mail szolgáltatója támogatja, a Feladó címének testreszabása lehetővé teszi a Feladó címének egyszeri kis módosítását anélkül, hogy új személyazonosságot kellene beállítani a Postafiók beállításaiban. Ha például a Feladó címe Kovács János <janos@example.com>, akkor megváltoztathatja Kovács János <janos+kovacs@example.com> vagy János <janos@example.com> értékre.
+compose-custom-from-address-ignore = Sose értesítsen erről újra.
 compose-blocked-content-options-button = Beállítások
 compose-blocked-content-options-accesskey = B
 compose-blocked-content-preferences-button = Beállítások
@@ -132,6 +161,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Lista kibontása
     .accesskey = b
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = { $field } címek eltávolítása
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Biztos, hogy törli ezeket a(z) { $field } címeket?
+compose-remove-address-row-button = Eltávolítás
 
 ## Attachment widget
 
@@ -487,6 +523,7 @@ cloud-file-account-error-title = Filelink fiókhiba
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Nem sikerült frissíteni a(z) { $filename } Filelink mellékletet, mert a Filelink-fiókot törölték.
+cloud-file-authentication-error-title = Hitelesítési hiba
 # Variables:
 # $provider - name of the online storage service
 cloud-file-authentication-error = Nem sikerült a hitelesítés itt: { $provider }.
