@@ -27,6 +27,9 @@ send-error-title = Posta Gönderme Hatası
 send-progress-assembling-mail-information = Posta bilgileri birleştiriliyor…
 send-progress-assembling-message = İleti birleştiriliyor…
 send-progress-creating-mail-message = Posta iletisi oluşturuluyor…
+# Variables:
+# $filename - name or URL of the file that could not be attached
+send-error-attaching-file = { $filename } eklenirken bir hata oluştu. Lütfen dosyaya erişim izniniz olup olmadığını kontrol edin.
 send-progress-assembling-message-done = İleti birleştiriliyor… Tamamlandı
 send-progress-copy-complete = Kopyalama tamamlandı.
 send-progress-copy-failed = Kopyalama başarısız oldu.
@@ -39,6 +42,9 @@ send-dialog-save-title = İletiyi Kaydet
 send-progress-filter-complete = Süzme tamamlandı.
 send-progress-filter-failed = Süzme başarısız oldu.
 send-error-filtering-message = İletiniz gönderildi ve saklandı, ancak iletide kurallar işlenirken bir hata oluştu.
+# Variables:
+# $hostname - outgoing server hostname
+send-error-smtp-security-issue = { $hostname } ile ilgili yapılandırma düzeltilmelidir.
 send-error-post-failed = Haber sunucusu ile bağlantı kurulamadığı için iletiniz gönderilemedi. Sunucu hizmet dışı veya bağlantıyı kabul etmiyor olabilir. Lütfen haber sunucusu ayarlarınızın doğruluğunu kontrol ettikten sonra yeniden deneyin.
 # Variables:
 # $size - formatted message size
@@ -47,14 +53,34 @@ send-warning-large-message = Uyarı! { $size } boyutunda bir ileti göndermek ü
 # $folder - destination folder name
 send-progress-copy-start = İleti { $folder } klasörüne kopyalanıyor…
 send-progress-sending-message = İleti gönderiliyor…
+send-error-nntp-ok = İletiniz haber grubuna gönderildi ancak diğer alıcıya gönderilmedi.
+send-error-copy-operation = İleti başarıyla gönderildi ama Gönderilen klasörünüze kopyalanamadı.
 send-later-error-title = Sonradan Gönderme Hatası
 send-save-draft-error-title = Taslak Kaydetme Hatası
 send-save-template-error-title = Şablon Kaydetme Hatası
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = açıklanmayan alıcılar
 # Variables:
+# $recipient - recipient address
+smtp-error-illegal-local-part = { $recipient } alıcı adresinin yerel kısmında ASCII dışı karakterler var ve sunucunuz SMTPUTF8 desteklemiyor. Lütfen bu adresi değiştirip tekrar deneyin.
+# Variables:
+# $serverResponse - server response
+smtp-server-error = Posta gönderilirken bir hata oluştu: Giden sunucusu (SMTP) hatası. Sunucunun yanıtı:  { $serverResponse }.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-starttls-failed = Posta gönderirken bir hata meydana geldi: STARTTLS kullanılarak { $hostname } SMTP sunucusuyla güvenli bir bağlantı sağlanamadı, çünkü sunucu bu özelliği sunmuyor. STARTTLS seçeneğini devre dışı bırakın ya da hizmet sağlayıcınızla görüşün.
+# Variables:
 # $serverResponse - server response
 smtp-error-sending-from-command = Posta gönderilirken bir hata oluştu. Posta sunucusunun yanıtı: { $serverResponse }. Lütfen posta ayarlarındaki e-posta adresinin doğruluğunu kontrol edip yeniden deneyin.
+# Variables:
+# $serverResponse - server response
+smtp-permanent-size-exceeded = Göndermeyi denediğiniz iletinin boyutu sunucunun genel boyut sınırını aşıyor. İleti gönderilmedi. İleti boyutunu azaltıp yeniden deneyin. Sunucunun yanıtı: { $serverResponse }.
+# Variables:
+# $serverResponse - server response; $recipient - intended recipient
+smtp-error-sending-recipient-command =
+    Posta gönderilirken bir hata oluştu. Posta sunucusunun yanıtı:  
+    { $serverResponse }.
+    "{ $recipient }" alıcısını gözden geçirip yeniden deneyin.
 # Variables:
 # $serverResponse - server response
 smtp-error-sending-data-command = İleti gönderilirken giden sunucusu (SMTP) hatası oluştu. Sunucunun yanıtı:  { $serverResponse }.
