@@ -7,6 +7,8 @@
 
 send-alert-queued-delivery-failed = Terjadi kesalahan saat menyampaikan pesan yang belum terkirim.
 send-alert-followup-to-sender = Penulis pesan ini telah meminta agar tanggapan hanya dikirim kepada penulis. Jika Anda juga ingin membalas newsgroup, tambahkan baris baru ke area pemberian alamat, pilih Newsgroup dari daftar penerima, dan masukkan nama newsgroup.
+send-unable-to-save-template = Tidak dapat menyimpan pesan Anda sebagai template.
+send-unable-to-save-draft = Tidak dapat menyimpan pesan Anda sebagai rancangan.
 send-error-failed = Gagal mengirim pesan.
 send-unable-to-send-later = Maaf, kami tidak dapat menyimpan pesan untuk dikirim nanti.
 # Variables:
