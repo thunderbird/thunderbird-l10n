@@ -24,3 +24,69 @@ send-error-smtp-interrupted = Viestiä ei voitu lähettää, koska yhteys SMTP-p
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = Viestiä ei voitu lähettää, koska yhteys SMTP-palvelimeen { $hostname } aikakatkaistiin. Yritä uudelleen tai ota yhteyttä verkon ylläpitoon.
 send-error-title = Viestin lähetyksen virhe
+send-progress-assembling-mail-information = Kootaan postin tietoja…
+send-progress-assembling-message = Kootaan viestiä…
+send-progress-creating-mail-message = Luodaan sähköpostiviestiä…
+send-progress-assembling-message-done = Kootaan viestiä…Valmis
+send-progress-copy-complete = Kopiointi valmis.
+send-progress-copy-failed = Kopiointi epäonnistui.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-sent-locally =
+    Viestisi lähetettiin, mutta sitä ei voitu tallentaa Lähetetyt-kansioosi ({ $folder }) verkkovirheen tai tiedoston käsittelyvirheen vuoksi.
+    Voit yrittää uudelleen tai tallentaa viestin paikallisesti kansioon { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-draft-locally =
+    Luonnostasi ei tallennettu Luonnokset-kansioosi ({ $folder }) verkkovirheen tai tiedoston käsittelyvirheen vuoksi.
+    Voit yrittää uudelleen tai tallentaa luonnoksen kansioon { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-template-locally =
+    Malliasi ei voitu kopioida Mallit-kansioosi ({ $folder }) verkkovirheen tai tiedostonkäsittelyvirheen vuoksi.
+    Voit yrittää uudelleen tai tallentaa mallin paikallisesti kansioon { $localFolder }/{ $folder }-{ $account }.
+send-dialog-retry = &Yritä uudelleen
+send-error-save-to-local-folders = Viestiäsi ei voitu tallentaa paikallisiin kansioihin. Syynä saattaa olla levytilan puute.
+send-progress-filter-complete = Suodatin suoritettiin.
+send-progress-filter-failed = Suodattimen suoritus epäonnistui.
+send-error-filtering-message = Viesti lähetettiin ja tallennettiin, mutta suodattimen suorittaminen viestille epäonnistui.
+send-error-post-failed = Viestiä ei voitu lähettää, koska yhteys keskusteluryhmäpalvelimeen epäonnistui. Palvelin voi olla varattu tai estää yhteyspyynnöt. Varmista, että keskusteluryhmä-palvelinasetuksesi ovat oikeat ja yritä uudelleen tai vaihtoehtoisesti ota yhteyttä verkon ylläpitoon.
+# Variables:
+# $size - formatted message size
+send-warning-large-message = Varoitus! Olet lähettämässä { $size } kokoista viestiä, joka voi olla suurempi kuin postipalvelin hyväksyy. Lähetetäänkö viesti?
+# Variables:
+# $folder - destination folder name
+send-progress-copy-start = Kopioidaan viestiä kansioon { $folder }…
+send-progress-sending-message = Lähetetään viestiä…
+send-later-error-title = Virhe myöhemmin lähettämisessä
+send-save-draft-error-title = Virhe luonnoksen tallentamisessa
+send-save-template-error-title = Virhe mallipohjan tallentamisessa
+# LOCALIZATION NOTE: This string must use only US-ASCII characters.
+send-undisclosed-recipients = ei-julkituotuja-vastaanottajia
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-no-ssl = Lähtevän postin palvelin (SMTP) { $hostname } ei näytä tukevan salattuja salasanoja. Jos juuri loit tilin, yritä vaihtaa todennustavaksi "Salasana, turvaton lähetys" palvelinasetuksista: Tilien asetukset - Jos yhteys toimi ennen, mutta lakkasi yhtäkkiä toimimasta, salasanaasi voidaan yrittää varastaa.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-ssl = Lähtevän postin palvelin (SMTP) { $hostname } ei näytä tukevan salattuja salasanoja. Jos juuri loit tilin, yritä vaihtaa todennustavaksi "Normaali salasana" palvelinasetuksista: Tilien asetukset - Palvelinasetukset.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-plain-to-encrypt = Lähtevän postin palvelin (SMTP) { $hostname } ei hyväksy salaamattomia salasanoja. Yritä vaihtaa todennustavaksi "Salattu salasana" palvelinasetuksista: Tilien asetukset - Palvelinasetukset.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-failure = Todennus SMTP-palvelimelle { $hostname } epäonnistui. Tarkista salasanasi ja todennustapa palvelinasetuksissa: Tilien asetukset - Lähtevän postin palvelin (SMTP).
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-gssapi = SMTP-palvelin { $hostname } ei hyväksynyt Kerberos/GSSAPI-lippuasi. Tarkista, että olet kirjautunut Kerberos/GSSAPI-verkkoon.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-mechanism-not-supported = SMTP-palvelin { $hostname } ei tue valittua todennustapaa. Muuta todennustapaa palvelinasetuksista: Tilien asetukset - Lähtevän postin palvelin (STMP).
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-from-command = Postia lähetettäessä tapahtui virhe. Postipalvelin vastasi: { $serverResponse }. Tarkista että sähköpostiosoitteesi on asetuksissa oikein ja yritä uudelleen.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-data-command = Postia lähetettäessä tapahtui virhe (SMTP). Palvelin vastasi: { $serverResponse }.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-message = Postia lähetettäessä tapahtui virhe. Postipalvelin vastasi: { $serverResponse }. Tarkista viesti ja yritä uudelleen
