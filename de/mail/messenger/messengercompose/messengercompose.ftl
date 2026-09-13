@@ -10,6 +10,21 @@ compose-message-attachment-name = Nachricht als Anhang
 
 ## Compose window
 
+compose-empty-subject-title = Betreff-Erinnerung
+compose-empty-subject-prompt = Ihre Nachricht hat keinen Betreff.
+compose-empty-subject-send-button = &Ohne Betreff senden
+compose-empty-subject-cancel-button = &Nicht senden
+compose-attachment-reminder-title = Anhang-Erinnerung
+compose-attachment-reminder-prompt = Haben Sie vergessen einen Anhang anzufügen?
+compose-attachment-reminder-send-button = Nein, jetzt senden
+compose-attachment-reminder-add-button = Ja, habe ich!
+compose-newsgroups-not-supported-title = Newsgruppen werden nicht unterstützt
+compose-newsgroups-not-supported = Dieses Konto unterstützt nur E-Mail-Empfänger. Newsgruppen werden ignoriert.
+remind-later-button =
+    .label = Mich später erinnern
+    .accesskey = M
+disable-attachment-reminder-menu-item =
+    .label = Anhang-Erinnerung für diese Nachricht deaktivieren
 
 ## Send Format
 
@@ -428,6 +443,7 @@ cloud-file-account-error-title = Filelink - Kontenfehler
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Fehler beim Hochladen des Filelink-Anhangs { $filename }, da das Filelink-Konto gelöscht wurde.
+cloud-file-authentication-error-title = Authentifizierungsfehler
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
