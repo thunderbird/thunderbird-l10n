@@ -10,6 +10,7 @@ compose-message-attachment-name = 附加消息
 
 ## Compose window
 
+compose-initialization-error-title = 书写消息
 compose-default-subject = （无主题）
 # Variables:
 # $subject - message subject
@@ -46,6 +47,8 @@ compose-quit-saving-prompt =
 compose-quit-button = 退出(&Q)
 compose-wait-button = 等待(&W)
 compose-attach-file-picker-title = 附加文件
+compose-attachment-bucket-attach-files-tooltip = 附件
+compose-attachment-bucket-clear-selection-tooltip = 清除选定内容
 # Variables:
 # $filename - name of the file that could not be found
 compose-file-attachment-not-found = 文件 { $filename } 不存在因此无法附加到消息中。
