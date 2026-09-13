@@ -10,6 +10,22 @@ compose-message-attachment-name = Priložena poruka
 
 ## Compose window
 
+compose-send-confirm-title = Pošalji poruku
+compose-send-confirm-prompt = Jeste li sigurni da ste spremni poslati ovu poruku?
+compose-send-confirm-button = Pošalji
+compose-quit-saving-title = Spremanje poruke
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } trenutno šalje poruku.
+    Želite li pričekati sa zatvaranjem dok se poruka ne pošalje ili želite zatvoriti sada?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } trenutno sprema poruku.
+    Želite li pričekati sa zatvaranjem dok se poruka ne spremi ili želite zatvoriti sada?
+compose-quit-button = &Zatvori
+compose-wait-button = &Pričekaj
 find-replace-button =
     .label = Zamijeni…
     .accesskey = Z
