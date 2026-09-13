@@ -37,6 +37,7 @@ compose-attachment-reminder-add-button = Ya!
 compose-newsgroups-not-supported-title = Ne vez ket skoret ar strolladoù-keleier
 compose-newsgroups-not-supported = Skorañ a ra ar gont-se posteloù nemetken. Strolladoù-keleier a vo lakaet a-gostez.
 compose-invalid-address-title = Chomlec'h degemer didalvoudek
+compose-no-recipients = Degemerer erspizet ebet. Enankit un degemerer pe ur strollad-keleier war maezienn ar chomlec'h.
 # Variables:
 # $address - invalid email address
 compose-invalid-address = N'eo ket { $address } ur postel talvoudek dre ma n'eo ket graet war ar patrom arveriad@ostiz. Dav eo deoc'h reizhañ an dra-se a-raok kas ar postel.
