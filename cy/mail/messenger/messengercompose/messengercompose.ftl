@@ -539,6 +539,33 @@ cloud-file-account-error-title = Gwall Cyfrif Filelink
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Wedi methu diweddaru'r atodiad Filelink { $filename }, oherwydd bod ei ffeil leol wedi'i symud neu ei dileu.
 # Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Methu dilysu i { $provider }.
+cloud-file-upload-error-title = Gwall Llwytho i Fyny
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Methu llwytho { $filename } i fyny i { $provider }.
+cloud-file-quota-error-title = Gwall Cwota
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Bydd llwytho { $filename } i fyny i { $provider } yn croesi trothwy eich cwota.
+cloud-file-size-error-title = Gwall Maint Ffeil
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = Mae { $filename } yn fwy na maint mwyaf { $provider }.
+cloud-file-unknown-error-title = Gwall Anhysbys
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Digwyddodd gwall anhysbys wrth gyfathrebu gyda { $provider }.
+cloud-file-deletion-error-title = Gwall Dileu
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Nid oedd anhawster wrth ddileu { $filename } o { $provider }.
+# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
     { $count ->
