@@ -10,7 +10,50 @@ compose-message-attachment-name = Συνημμένο μήνυμα
 
 ## Compose window
 
+compose-initialization-error-title = Σύνταξη μηνύματος
+compose-initialization-error = Σφάλμα κατά τη δημιουργία παραθύρου σύνταξης μηνύματος. Προσπαθήστε ξανά.
+compose-default-subject = (χωρίς θέμα)
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Αποθήκευση μηνύματος στον φάκελο προσχεδίων σας ({ $folder }) και κλείσιμο παραθύρου σύνταξης;
+compose-discard-changes-button = &Απόρριψη αλλαγών
+compose-send-confirm-title = Αποστολή μηνύματος
+compose-send-confirm-prompt = Θέλετε σίγουρα να κάνετε αποστολή αυτού του μηνύματος;
+compose-send-confirm-button = Αποστολή
+compose-do-not-show-again = Να μην εμφανιστεί ξανά αυτό το μήνυμα
+compose-quit-sending-title = Αποστολή μηνύματος
+compose-quit-saving-title = Αποθήκευση μηνύματος
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    Το { $brand } βρίσκεται στο στάδιο αποστολής ενός μηνύματος.
+    Θέλετε να περιμένετε μέχρι να σταλεί το μήνυμα ή θέλετε να κάνετε τερματισμό τώρα;
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    Το { $brand } βρίσκεται στο στάδιο αποθήκευσης ενός μηνύματος.
+    Θέλετε να περιμένετε μέχρι να αποθηκευτεί το μήνυμα ή θέλετε να κάνετε τερματισμό τώρα;
+compose-quit-button = &Τερματισμός
+compose-wait-button = &Αναμονή
+compose-attach-file-picker-title = Επισύναψη αρχείων
+compose-attachment-bucket-attach-files-tooltip = Επισύναψη αρχείων
+compose-attachment-bucket-clear-selection-tooltip = Ακύρωση Επιλογής
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = Το αρχείο { $filename } δεν υπάρχει και έτσι δεν μπορεί να επισυναφθεί στο μήνυμα.
 compose-file-attachment-error-title = Επισύναψη αρχείου
+compose-message-file-error-title = Αρχείο μηνύματος
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = Το αρχείο «{ $filename }» δεν υπάρχει και δεν ήταν δυνατή η χρήση του σε σώμα μηνύματος.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = Δεν ήταν δυνατή η φόρτωση του αρχείου «{ $filename }» σε σώμα μηνύματος.
+compose-save-success-title = Αποθήκευση μηνύματος
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Το μήνυμά σας έχει αποθηκευτεί στον φάκελο «{ $folder }» στο { $server }.
 
 ## Send Format
 
@@ -443,6 +486,9 @@ big-file-notification-text =
         [one] Αυτό είναι ένα μεγάλο αρχείο. Ίσως είναι καλύτερα να χρησιμοποιήσετε το FileLink.
        *[other] Αυτά είναι μεγάλα αρχεία. Ίσως είναι καλύτερα να χρησιμοποιήσετε το FileLink.
     }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Επισύναψη αρχείων μέσω { $provider }
 
 ## Link Preview
 
