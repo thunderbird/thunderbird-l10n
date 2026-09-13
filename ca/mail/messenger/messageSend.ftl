@@ -27,6 +27,9 @@ send-error-title = Error d'enviament de missatges
 send-progress-assembling-mail-information = S'està assemblant la informació del correu…
 send-progress-assembling-message = S'està assemblant el missatge…
 send-progress-creating-mail-message = S'està creant el missatge de correu…
+# Variables:
+# $filename - name or URL of the file that could not be attached
+send-error-attaching-file = S'ha produït un error en adjuntar { $filename }. Comproveu que tingueu accés al fitxer.
 send-progress-assembling-message-done = S'està assemblant el missatge… Fet
 send-progress-copy-complete = S'ha completat la còpia.
 send-progress-copy-failed = La còpia ha fallat.
@@ -51,6 +54,9 @@ send-error-save-to-local-folders = No s'ha pogut desar el missatge en les carpet
 send-progress-filter-complete = El filtre s'ha completat.
 send-progress-filter-failed = Ha fallat el filtre.
 send-error-filtering-message = S'ha enviat i desat el missatge, però s'ha produït un error mentre s'hi executaven els filtres.
+# Variables:
+# $hostname - outgoing server hostname
+send-error-smtp-security-issue = Cal corregir la configuració relacionada amb { $hostname }.
 send-error-post-failed = El missatge no s'ha pogut enviar perquè la connexió amb el servidor de missatges ha fallat. Pot ser que el servidor no estigui disponible o estigui rebutjant connexions. Comproveu que els paràmetres del servidor de grups de discussió siguin correctes i torneu-ho a provar.
 # Variables:
 # $size - formatted message size
@@ -59,11 +65,16 @@ send-warning-large-message = Avís! Esteu a punt d'enviar un missatge d'una mida
 # $folder - destination folder name
 send-progress-copy-start = S'està copiant el missatge a la carpeta { $folder }…
 send-progress-sending-message = S'està enviant el missatge…
+send-error-nntp-ok = El vostre missatge s'ha publicat al grup de discussió però no s'ha enviat a l'altre destinatari.
+send-error-copy-operation = El missatge s'ha enviat correctament, però no s'ha pogut copiar a la carpeta «Enviats».
 send-later-error-title = Error d'enviament diferit
 send-save-draft-error-title = Error de desament d'esborrany
 send-save-template-error-title = Error de desament de plantilla
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = destinataris-ocults
+# Variables:
+# $recipient - recipient address
+smtp-error-illegal-local-part = Hi ha caràcters que no són ASCII a la part local de l'adreça del destinatari { $recipient } i el servidor no admet SMTPUTF8. Canvieu l'adreça i torneu-ho a provar.
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = El servidor de sortida (SMTP) { $hostname } sembla que no permet contrasenyes xifrades. Si acabeu de configurar el compte, proveu «Contrasenya, enviada sense seguretat» com a «Mètode d'autenticació» a «Paràmetres del compte | Servidor de sortida (SMTP)». Si abans funcionava i ara comença a fallar, pot ser que algú us estigui intentant robar la contrasenya.
@@ -84,7 +95,22 @@ smtp-auth-gssapi = El segell Kerberos/GSSAPI no ha sigut acceptat pel servidor d
 smtp-auth-mechanism-not-supported = El servidor de sortida (SMTP) { $hostname } no permet el mètode d'autenticació seleccionat. Canvieu el «Mètode d'autenticació» a «Paràmetres del compte | Servidor de sortida (SMTP)».
 # Variables:
 # $serverResponse - server response
+smtp-server-error = S'ha produït un error en enviar el correu: Error del servidor de sortida (SMTP). El servidor de correu ha respost: { $serverResponse }.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-starttls-failed = S'ha produït un error en enviar el correu: No s'ha pogut establir un enllaç segur amb el servidor de sortida (SMTP) { $hostname } utilitzant STARTTLS, atès que no fa conèixer la característica. Desactiveu STARTTLS per al servidor o contacteu amb el proveïdor de servei.
+# Variables:
+# $serverResponse - server response
 smtp-error-sending-from-command = S'ha produït un error en enviar el correu. El servidor de correu ha respost: { $serverResponse }. Comproveu que heu indicat l'adreça electrònica correcta als paràmetres del compte i torneu-ho a provar.
+# Variables:
+# $serverResponse - server response
+smtp-permanent-size-exceeded = La mida del missatge que proveu d'enviar excedeix la mida límit global del servidor. El missatge no s'ha enviat, mireu de reduir la mida del missatge i torneu-ho a provar. El servidor ha respost: { $serverResponse }.
+# Variables:
+# $serverResponse - server response; $recipient - intended recipient
+smtp-error-sending-recipient-command =
+    S'ha produït un error en enviar el correu. El servidor de correu ha respost:
+    { $serverResponse }.
+    Comproveu el destinatari del missatge «{ $recipient }» i torneu-ho a provar.
 # Variables:
 # $serverResponse - server response
 smtp-error-sending-data-command = S'ha produït un error del servidor de sortida (SMTP) en enviar el correu. El servidor ha respost: { $serverResponse }.
