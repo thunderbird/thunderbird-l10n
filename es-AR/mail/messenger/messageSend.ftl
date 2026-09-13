@@ -101,6 +101,9 @@ smtp-server-error = Ocurrió un error al enviar el correo: Error del servidor sa
 smtp-starttls-failed = Hubo un error mientras se enviaba el correo: No se pudo establecer una conexión segura con el servidor SMTP { $hostname } usando STARTTLS porque no anuncia esa funcionalidad . Deshabilite STARTTLS para ese servidor o contacte a su proveedor.
 # Variables:
 # $serverResponse - server response
+smtp-too-many-recipients = El mensaje no se envió por exceder el número permitido de destinatarios. El servidor respondió: { $serverResponse }.
+# Variables:
+# $serverResponse - server response
 smtp-error-sending-from-command = Ocurrió un error mientras se enviaba el correo. El servidor de correo respondió: { $serverResponse }. Por favor, verifique que su dirección de correo electrónico es correcta en las preferencias de correo y vuelva a intentarlo.
 # Variables:
 # $serverResponse - server response
