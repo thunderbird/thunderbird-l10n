@@ -10,6 +10,61 @@ compose-message-attachment-name = Erantsitako mezua
 
 ## Compose window
 
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Idatzi: { $subject } - { $brand }
+compose-send-confirm-title = Bidali mezua
+compose-send-confirm-prompt = Ziur zaude mezua bidaltzeko prest zaudela?
+compose-send-confirm-button = Bidali
+compose-empty-subject-title = Gaiaren gogorarazlea
+compose-empty-subject-prompt = Zure mezuak ez dauka gairik.
+compose-empty-subject-send-button = &Bidali gairik gabe
+compose-empty-subject-cancel-button = &Utzi bidalketa
+compose-attachment-reminder-title = Eranskinen gogorarazlea
+compose-attachment-reminder-prompt = Eranskinen bat gehitzea ahaztu duzu?
+compose-attachment-reminder-send-button = Ez, bidali orain
+compose-attachment-reminder-add-button = A bai, egia!
+compose-newsgroups-not-supported-title = Berri-taldeak ez dira onartzen
+compose-newsgroups-not-supported = Kontu honek posta-hartzaileak bakarrik onartzen ditu. Jarraituz gero berri-taldeak ezikusiko dira.
+compose-invalid-address-title = Hartzailearen helbide baliogabea
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } ez da baliozko helbide elektronikoa, ez baita erabiltzailea@ostalaria gisakoa. E-posta bidali aurretik zuzendu behar duzu.
+compose-quit-saving-title = Mezua gordetzen
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } mezua bidaltzeko prozesuan da.
+    Mezua bidali arte itxaron nahi duzu irten aurretik edo orain irten nahi duzu?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } mezua gordetzeko prozesuan da.
+    Mezua gorde arte itxaron nahi duzu irten aurretik edo orain irten nahi duzu?
+compose-quit-button = &Irten
+compose-wait-button = It&xaron
+compose-attach-page-title = Adierazi erantsi beharreko helbidea
+compose-attach-page-prompt = Webgunea (URL):
+compose-message-part-attachment-name = Erantsitako mezu-zatia
+compose-file-attachment-error-title = Fitxategia eranstea
+compose-rename-attachment-title = Berrizendatu eranskina
+compose-rename-attachment-prompt = Eranskin berriaren izena:
+remind-later-button =
+    .label = Gogora iezadazu geroago
+    .accesskey = b
+disable-attachment-reminder-menu-item =
+    .label = Ezgaitu eranskinen gogorarazlea uneko mezuarentzat
+find-replace-button =
+    .label = Ordeztu…
+    .accesskey = O
+    .tooltiptext = Erakutsi bilatu eta ordezteko elkarrizketa-koadroa
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Sartu helbide pertsonalizatua { $identity } erabili ordez
+compose-custom-from-address-title = Helbidetik pertsonalizatu
+compose-custom-from-address-warning = Zure eposta hornitzaileak onartzen badu, 'helbidetik pertsonalizatzeak' ahalbidetzen du aldaketa txiki bat egitea zure nondik helbidean identitate berri bat sortu gabe kontuaren ezarpenetan. Adibidez, Zure izena Mikel Biteri bada <mikel@example.com> eta Mikel Biterira aldatu nahi baduzu <mikel+biteri@example.com> or Mikel <mikel@example.com>era.
+compose-custom-from-address-ignore = Ez jakinarazi hau gehiago
 
 ## Send Format
 
@@ -446,6 +501,33 @@ big-file-notification-text =
         [one] Fitxategi handia da hau. Hobe izan daiteke Filelink erabiltzea.
        *[other] Fitxategi handiak dira hauek. Hobe izan daiteke Filelink erabiltzea.
     }
+big-file-learn-more-button =
+    .label = Argibide gehiago…
+    .accesskey = A
+big-file-link-button =
+    .label = Lotura
+    .accesskey = L
+big-file-ignore-button =
+    .label = Baztertu
+    .accesskey = B
+big-file-choose-account-title = Aukeratu kontua
+big-file-choose-account-prompt = Aukeratu eranskina igotzeko hodeiko kontua
+big-file-hide-notification-title = Ez igo nire fitxategiak
+big-file-hide-notification-prompt = Ez zaizu jakinaraziko mezu handi gehiago eransten badizkiozu mezu honi.
+big-file-hide-notification-checkbox = Ez jakinarazi hau gehiago.
+cloudfile-uploading-stop-button =
+    .label = Ez erakutsi hau berriro
+    .accesskey = E
+cloud-file-privacy-warning = Lotura osatuta. Konturatu loturak ikusi edo asma ditzakeen edozeinek atzi ditzakeela lotutako eranskinak.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = { $provider }(e)ra igotzen…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = { $provider }(e)ra igota
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Erantsi fitxategia(k) honen bitartez: { $provider }
 
 ## Link Preview
 
