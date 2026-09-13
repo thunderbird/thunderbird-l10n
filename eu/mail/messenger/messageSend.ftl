@@ -27,6 +27,9 @@ send-error-title = Errorea mezua bidaltzean
 send-progress-assembling-mail-information = Postari buruzko informazioa osatzen…
 send-progress-assembling-message = Mezua osatzen…
 send-progress-creating-mail-message = Posta-mezua sortzen…
+# Variables:
+# $filename - name or URL of the file that could not be attached
+send-error-attaching-file = Errorea gertatu da { $filename } eransterakoan. Egiaztatu fitxategia atzitzeko baimena duzula.
 send-progress-assembling-message-done = Mezua osatzen…Eginda
 send-progress-copy-complete = Kopiatzen amaitu du.
 send-progress-copy-failed = Kopiatzeak huts egin du.
@@ -34,6 +37,9 @@ send-dialog-save-title = Gorde mezua
 send-error-save-to-local-folders = Ezin da mezua gorde zure karpeta lokalean. Beharbada ez dago tokirik gordetzeko.
 send-progress-filter-complete = Iragazketa burutu da.
 send-progress-filter-failed = Iragazketak huts egin du.
+# Variables:
+# $hostname - outgoing server hostname
+send-error-smtp-security-issue = { $hostname }(r)i erlazionatutako konfigurazioa zuzendu behar da.
 send-error-post-failed = Ezin izan da mezua bidali berri-zerbitzarirako konexioak huts egin duelako. Zerbitzaria agian ez dago eskuragarri edota konexioak ukatzen ari da. Egiaztatu zure berri-zerbitzariaren ezarpenak egokiak direla eta saiatu berriro.
 # Variables:
 # $size - formatted message size
@@ -42,6 +48,8 @@ send-warning-large-message = Kontuz! { $size }(e)ko mezu bat bidaltzera zoaz. Zi
 # $folder - destination folder name
 send-progress-copy-start = Mezua kopiatzen { $folder } karpetan…
 send-progress-sending-message = Mezua bidaltzen…
+send-error-nntp-ok = Zure mezua berri-taldera bidali da baina ez zaio beste hartzaileari bidali.
+send-error-copy-operation = Bidalketa ondo egin da baina ezin izan da mezua bidalitakoen karpetara kopiatu.
 send-later-error-title = Errorea geroago bidaltzean
 send-save-draft-error-title = Errorea zirriborroa gordetzean
 send-save-template-error-title = Errorea txantiloia gordetzean
@@ -67,7 +75,19 @@ smtp-auth-gssapi = { $hostname } irteerako SMTP zerbitzariak ez du Kerberos/GSSA
 smtp-auth-mechanism-not-supported = { $hostname } irteerako SMTP zerbitzariak ez du hautatutako autentifikazio-metodoa onartzen. Aldatu ‘Autentifikazio-metodoa’ aukera ‘Kontu-ezarpenak | Irteerako SMTP zerbitzaria’ atalean.
 # Variables:
 # $serverResponse - server response
+smtp-server-error = Errore bat gertatu da mezua bidaltzean: irteerako SMTP zerbitzariaren errorea. Zerbitzariaren erantzuna:  { $serverResponse }.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-starttls-failed = Errore bat gertatu da posta bidaltzean: ezin da lotura segurua ezarri { $hostname } irteerako SMTP zerbitzariarekin STARTTLS erabiliz, ez baitu ezaugarri honen berri ematen. Desgaitu STARTTLS zerbitzari honentzat edo jarri harremanetan zerbitzu-hornitzailearekin.
+# Variables:
+# $serverResponse - server response
 smtp-error-sending-from-command = Errore bat gertatu da posta bidaltzean. Posta-zerbitzariaren erantzuna: { $serverResponse }. Egiaztatu zure helbide elektronikoa zuzena dela zure kontu-ezarpenetan eta saiatu berriro.
+# Variables:
+# $serverResponse - server response; $recipient - intended recipient
+smtp-error-sending-recipient-command =
+    Errore bat gertatu da posta bidaltzean. Posta-zerbitzariaren erantzuna:
+    { $serverResponse }.
+    Egiaztatu mezuaren hartzailea "{ $recipient }" eta saiatu berriro.
 # Variables:
 # $serverResponse - server response
 smtp-error-sending-data-command = Errore bat gertatu da irteerako SMTP zerbitzarian posta bidaltzean. Zerbitzariaren erantzuna:  { $serverResponse }.
