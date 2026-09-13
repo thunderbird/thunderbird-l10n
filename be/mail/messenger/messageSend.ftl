@@ -11,3 +11,26 @@ send-unable-to-save-template = Не атрымалася захаваць ваш
 send-unable-to-save-draft = Не атрымалася захаваць ваша паведамленне як чарнавік.
 send-error-failed = Не атрымалася адправіць паведамленне.
 send-error-title = Памылка адпраўкі паведамлення
+send-progress-assembling-mail-information = Кампаноўка паштовай інфармацыі…
+send-progress-assembling-message = Кампанаванне паведамлення…
+send-progress-creating-mail-message = Стварэнне паштовага паведамлення…
+send-progress-assembling-message-done = Кампанаванне паведамлення…Гатова
+send-progress-copy-complete = Капіяванне завершана.
+send-progress-copy-failed = Не атрымалася капіяваць.
+send-dialog-save-title = Захаваць паведамленне
+send-dialog-retry = &Паўтарыць
+send-error-save-to-local-folders = Не атрымалася захаваць ваша паведамленне ў лакальныя папкі. Магчыма, скончылася месца на дыску.
+send-progress-filter-complete = Прымяненне фільтра завершана.
+send-progress-filter-failed = Збой прымянення фільтра.
+# Variables:
+# $size - formatted message size
+send-warning-large-message = Увага! Вы збіраецеся даслаць ліст памерам { $size }. Вы сапраўды хочаце гэта зрабіць?
+# Variables:
+# $folder - destination folder name
+send-progress-copy-start = Капіяванне паведамлення ў папку { $folder }…
+send-progress-sending-message = Адпраўка паведамлення…
+send-later-error-title = Памылка адкладзенай адпраўкі
+send-save-draft-error-title = Памылка захавання чарнавіка
+send-save-template-error-title = Памылка захавання шаблона
+# LOCALIZATION NOTE: This string must use only US-ASCII characters.
+send-undisclosed-recipients = undisclosed-recipients
