@@ -42,3 +42,12 @@ send-save-draft-error-title = Памылка захавання чарнавік
 send-save-template-error-title = Памылка захавання шаблона
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = undisclosed-recipients
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-from-command = Узнікла памылка пры адпраўцы пошты. Паштовы сервер адказаў: { $serverResponse }. Калі ласка, упэўніцеся, што вы ўвялі правільны адрас электроннай пошты ў наладах вашага ўліковага запісу і паспрабуйце яшчэ раз.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-data-command = Узнікла памылка на выходным серверы (SMTP) пры адпраўцы пошты. Сервер адказаў:  { $serverResponse }.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-message = Узнікла памылка пры адпраўцы пошты. Паштовы сервер адказаў:  { $serverResponse }. Калі ласка, праверце паведамленне і паспрабуйце яшчэ раз.
