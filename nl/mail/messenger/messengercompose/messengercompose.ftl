@@ -10,33 +10,72 @@ compose-message-attachment-name = Gekoppeld bericht
 
 ## Compose window
 
+compose-initialization-error-title = Berichten opstellen
+compose-initialization-error = Er is een fout opgetreden tijdens het maken van een berichtopstelvenster. Probeer het opnieuw.
+compose-default-subject = (geen onderwerp)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Nieuw bericht: { $subject } - { $brand }
+compose-save-message-title = Bericht opslaan
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Dit bericht opslaan in uw conceptenmap ({ $folder }) en het venster Opstellen sluiten?
+compose-discard-changes-button = &Wijzigingen negeren
 compose-send-confirm-title = Bericht verzenden
 compose-send-confirm-prompt = Weet u zeker dat u dit bericht wilt verzenden?
 compose-send-confirm-button = Verzenden
+compose-do-not-show-again = Dit dialoogvenster niet meer tonen
 compose-empty-subject-title = Onderwerpherinnering
 compose-empty-subject-prompt = Uw bericht heeft geen onderwerp.
 compose-empty-subject-send-button = &Verzenden zonder onderwerp
 compose-empty-subject-cancel-button = Verzenden &annuleren
 compose-attachment-reminder-title = Bijlageherinnering
 compose-attachment-reminder-prompt = Bent u vergeten een bijlage toe te voegen?
+compose-attachment-reminder-send-button = Nee, nu verzenden
+compose-attachment-reminder-add-button = Oh, inderdaad!
 compose-newsgroups-not-supported-title = Nieuwsgroepen niet ondersteund
 compose-newsgroups-not-supported = Deze account ondersteunt alleen e-mailontvangers. Doorgaan zal nieuwsgroepen negeren.
 compose-invalid-address-title = Ongeldig ontvangeradres
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address } is geen geldig e-mailadres, omdat het niet de vorm gebruiker@host heeft. U moet dit corrigeren voordat u de e-mail verzendt.
+compose-quit-sending-title = Bericht wordt verzonden
+compose-quit-saving-title = Bericht wordt opgeslagen
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } is momenteel bezig met het verzenden van een bericht.
+    Wilt u wachten tot het bericht is verzonden voordat u afsluit, of nu afsluiten?
 # Variables:
 # $brand - application name
 compose-quit-saving-prompt =
     { $brand } is momenteel bezig met het opslaan van een bericht.
     Wilt u wachten tot het bericht is opgeslagen voordat u afsluit, of nu afsluiten?
+compose-quit-button = &Afsluiten
+compose-wait-button = &Wachten
+compose-attach-file-picker-title = Bestand(en) koppelen
 compose-attach-page-title = Geef een locatie op om te koppelen
 compose-attach-page-prompt = Webpagina (URL):
 compose-message-part-attachment-name = Gekoppeld berichtgedeelte
+compose-attachment-bucket-attach-files-tooltip = Bestand(en) koppelen
+compose-attachment-bucket-clear-selection-tooltip = Selectie wissen
 # Variables:
 # $filename - name of the file that could not be found
 compose-file-attachment-not-found = Het bestand { $filename } bestaat niet en kan dus niet aan het bericht worden gekoppeld.
 compose-file-attachment-error-title = Bestand koppelen
+compose-message-file-error-title = Berichtbestand
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = Het bestand { $filename } bestaat niet en kon niet als berichttekst worden gebruikt.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = Het bestand { $filename } kon niet als berichttekst worden geladen.
+compose-save-success-title = Bericht opslaan
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Uw bericht is opgeslagen in de map { $folder } van { $server }.
 compose-rename-attachment-title = Bijlage hernoemen
 compose-rename-attachment-prompt = Nieuwe bijlagenaam:
 remind-later-button =
@@ -48,6 +87,20 @@ find-replace-button =
     .label = Vervangen…
     .accesskey = r
     .tooltiptext = Het dialoogvenster Zoeken en vervangen tonen
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Voer aangepast Van-adres in dat wordt gebruikt in plaats van { $identity }
+compose-custom-from-address-title = Van-adres aanpassen
+compose-custom-from-address-warning = Als uw e-mailprovider het ondersteunt, kunt u met Van-adres aanpassen een eenmalige kleine wijziging aan uw Van-adres aanbrengen zonder dat u een nieuwe identiteit in Accountinstellingen hoeft aan te maken. Als uw Van-adres bijvoorbeeld John Doe <john@example.com> is, wilt u dit misschien wijzigen naar John Doe <john+doe@example.com> of John <john@example.com>.
+compose-custom-from-address-ignore = Mij hiervoor nooit meer waarschuwen
+compose-blocked-content-options-button = Opties
+compose-blocked-content-options-accesskey = t
+compose-blocked-content-preferences-button = Voorkeuren
+compose-blocked-content-preferences-accesskey = V
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = { $url } deblokkeren
 
 ## Send Format
 
