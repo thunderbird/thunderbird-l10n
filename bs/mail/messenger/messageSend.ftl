@@ -24,3 +24,40 @@ send-error-smtp-interrupted = Poruka nije poslana jer je veza sa serverom odlazn
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = Poruka nije poslana jer je veza sa serverom odlazne pošte (SMTP) { $hostname } istekla. Pokušajte ponovno.
 send-error-title = Greška slanja poruke
+send-progress-assembling-mail-information = Prikupljam podatke o pošti…
+send-progress-assembling-message = Sastavljanje poruke…
+send-progress-creating-mail-message = Stvaram poštansku poruku…
+send-progress-assembling-message-done = Sastavljanje poruke…Završeno
+send-progress-copy-complete = Kopiranje završeno.
+send-progress-copy-failed = Kopiranje nije uspjelo.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-sent-locally =
+    Vaša poruka je poslana ali kopija nije sačuvana u vašem direktoriju sa poslanim porukama ({ $folder }) zbog grešaka na mreži ili pri pristupu datoteci.
+    Možete ponovo pokušati ili sačuvati poruku lokalno u { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-draft-locally =
+    Vaš nacrt nije kopiran u vaš direktorij sa nacrtima ({ $folder }) zbog grešaka na mreži ili pri pristupu datoteci.
+    Možete ponovo pokušati ili sačuvati nacrt lokalno u { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-template-locally =
+    Vaš šablon nije kopiran u vaš direktorij sa šablonima ({ $folder }) zbog grešaka na mreži ili pri pristupu datoteci.
+    Možete ponovo pokušati ili sačuvati šablon lokalno u { $localFolder }/{ $folder }-{ $account }.
+send-dialog-save-title = Sačuvaj poruku
+send-dialog-retry = &Pokušaj ponovo
+send-error-save-to-local-folders = Nije moguće sačuvati poruku u lokalne direktorije. Možda nemate dovoljno slobodnog prostora.
+send-progress-filter-complete = Filter završen.
+send-progress-filter-failed = Filter neuspješan.
+send-error-filtering-message = Vaša poruka je poslana i sačuvana, ali se dogodila greška prilikom pokretanja filtera poruka na njoj.
+# Variables:
+# $size - formatted message size
+send-warning-large-message = Upozorenje! Upravo ćete poslati poruku veličine { $size }. Jeste li sigurni da želite to učiniti?
+# Variables:
+# $folder - destination folder name
+send-progress-copy-start = Kopiranje poruke u direktorij { $folder }…
+send-progress-sending-message = Slanje poruke…
+send-later-error-title = Greška kasnog slanja
+send-save-draft-error-title = Greška spremanja nacrta
+send-save-template-error-title = Greška spremanja šablona
