@@ -37,6 +37,7 @@ compose-attachment-reminder-add-button = Ah, pois si!
 compose-newsgroups-not-supported-title = Non se admiten os grupos de noticias
 compose-newsgroups-not-supported = Esta conta só admite destinatarios(as) de correo electrónico. Se continúa ignoraranse os grupos de noticias.
 compose-invalid-address-title = Enderezo de correo do destinatario non válido
+compose-no-recipients = Non se especificaron destinatarios. Introduza un destinatario ou grupo de noticias na área de enderezos.
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address } non é un enderezo de correo electrónico válido porque non ten o formato usuario@servidor. Corríxao antes de enviar o correo.
