@@ -165,6 +165,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Listeyi genişlet
     .accesskey = n
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = { $field } adreslerini kaldır
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = { $field } adreslerini kaldırmak istediğinizden emin misiniz?
+compose-remove-address-row-button = Kaldır
 
 ## Attachment widget
 
