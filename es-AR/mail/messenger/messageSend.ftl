@@ -24,3 +24,51 @@ send-error-smtp-interrupted = El mensaje no pudo ser enviado porque se perdió l
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = El mensaje no pudo ser enviado porque se terminó el tiempo para la conexión al servidor SMTP { $hostname }. Intente nuevamente o contacte a su administrador de red.
 send-error-title = Error al enviar el mensaje
+send-progress-assembling-mail-information = Ensamblando información de correo…
+send-progress-assembling-message = Ensamblando mensaje…
+send-progress-creating-mail-message = Creando mensaje de correo…
+send-progress-assembling-message-done = Ensamblando mensaje…Listo
+send-progress-copy-complete = Copia completa.
+send-progress-copy-failed = Falló la copia.
+send-progress-filter-complete = Filtro completo.
+send-progress-filter-failed = Falló el filtro.
+send-error-post-failed = Este mensaje no pudo ser publicado porque falló el intento de conexión con el servidor de noticias. El servidor puede no estar disponible o no acepta conexiones. Por favor, verifique que sus configuración del servidor de noticias es correcta y vuelva a intentarlo, o contacte con el administrador de su red.
+# Variables:
+# $size - formatted message size
+send-warning-large-message = ¡Advertencia! Está por enviar un mensaje de tamaño { $size } que puede exceder los límites permitidos del servidor de correo. ¿Está seguro de querer hacer esto?
+# Variables:
+# $folder - destination folder name
+send-progress-copy-start = Copiando mensaje a la carpeta { $folder }…
+send-progress-sending-message = Enviando mensaje…
+send-later-error-title = Erro al enviar después
+send-save-draft-error-title = Error al guardar borrador
+send-save-template-error-title = Error al guardar plantilla
+# LOCALIZATION NOTE: This string must use only US-ASCII characters.
+send-undisclosed-recipients = undisclosed-recipients
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-no-ssl = El servidor saliente (SMTP) { $hostname } no parece soportar contraseñas cifradas. Si recién configuró la cuenta, intente cambiar el ‘Método de autenticación’ en ‘Configuración de cuenta | Servidor de salida (SMTP)’ a ‘Contraseña, transmitida de forma insegura’. Si funcionaba y dejó de hacerlo, puede ser suceptible a un robo de contraseña.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-ssl = El servidor saliente (SMTP) { $hostname } no parece soportar contraseñás cifradas. Si recién configuró lacuenta, intente cambiar el ‘Método de autenticación’ en ‘Configuración de cuenta | Servidor de salida (SMTP)’ a ‘Contraseña normal’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-plain-to-encrypt = El servidor saliente (SMTP) { $hostname } no permite contraseñas en texto plano. Intente cambiar el ‘Método de autenticación’ en ‘Configuración de cuenta | Servidor de salida (SMTP)’ a ‘Contraseña cifrada’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-failure = No se puede autenticar al servidor SMTP { $hostname }. Verifique la contraseña y ‘Método de autenticación’ en ‘Configuración de cuenta | Servidor de salida (SMTP)’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-gssapi = El ticket Kerberos/GSSAPI no fue aceptado por el servidor SMTP { $hostname }. Verifique que inició sesión en Kerberos/GSSAPI.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-mechanism-not-supported = El servidor { $hostname } no soporta el método de autenticación seleccionado. Cambie el ‘Método de autenticación’ en ‘Configuración de cuenta |  Servidor de salida (SMTP)’.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-from-command = Ocurrió un error mientras se enviaba el correo. El servidor de correo respondió: { $serverResponse }. Por favor, verifique que su dirección de correo electrónico es correcta en las preferencias de correo y vuelva a intentarlo.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-data-command = Ocurrió un error (SMTP) al enviar el correo. El servidor respondió: { $serverResponse }.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-message = Ocurrió un error al enviar el correo. El servidor de correo respondió:  { $serverResponse }. Compruebe el mensaje y vuelva a intentarlo.
