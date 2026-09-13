@@ -33,10 +33,27 @@ send-error-attaching-file = Errorea gertatu da { $filename } eransterakoan. Egia
 send-progress-assembling-message-done = Mezua osatzen…Eginda
 send-progress-copy-complete = Kopiatzen amaitu du.
 send-progress-copy-failed = Kopiatzeak huts egin du.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-sent-locally =
+    Zure mezua bidali da baina kopia bat ez da ezarri zure bidalitakoen karpetan ({ $folder }) sare edo fitxategi sarbide errore bategatik.
+    Berriro saiatu zaitezke edo mezua lokalean gorde hemen { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-draft-locally =
+    Zure mezu zirriborroa ez da kopiatu zure zirriborroen karpetan ({ $folder }) sare edo fitxategi sarbide errore bategatik.
+    Berriro saiatu zaitezke edo mezua lokalean gorde hemen { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-template-locally =
+    Zure txantiloia ez da kopiatu zure txantiloien karpetan ({ $folder }) sare edo fitxategi sarbide errore bategatik.
+    Berriro saiatu zaitezke edo mezua lokalean gorde hemen { $localFolder }/{ $folder }-{ $account }.
 send-dialog-save-title = Gorde mezua
+send-dialog-retry = &Saiatu berriro
 send-error-save-to-local-folders = Ezin da mezua gorde zure karpeta lokalean. Beharbada ez dago tokirik gordetzeko.
 send-progress-filter-complete = Iragazketa burutu da.
 send-progress-filter-failed = Iragazketak huts egin du.
+send-error-filtering-message = Zure mezua bidali eta gorde da, baina errorea gertatu da iragazkiak exekutatzean.
 # Variables:
 # $hostname - outgoing server hostname
 send-error-smtp-security-issue = { $hostname }(r)i erlazionatutako konfigurazioa zuzendu behar da.
@@ -55,6 +72,9 @@ send-save-draft-error-title = Errorea zirriborroa gordetzean
 send-save-template-error-title = Errorea txantiloia gordetzean
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = aipatu gabeko hartzaileak
+# Variables:
+# $recipient - recipient address
+smtp-error-illegal-local-part = ASCII ez diren karaktereak daude { $recipient } hartzailearen helbidearen zati lokalean eta zure zerbitzariak ez du SMTPUTF8 euskarririk. Aldatu helbidea eta saiatu berriro.
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = { $hostname } SMTP irteera zerbitzariak antza ez du enkriptatutako pasahitzentzako euskarririk. Kontua sortu berri baduzu, saiatu ‘Autentifikazio metodoa’ aldatzen ‘Kontuaren ezarpenak | SMTP irteera zerbitzaria’ atalean eta jarri ‘Pasahitza modu ez seguruan bidali’. Lehen bazebilen eta orain ez, pasahitza lapurtu ahal dizute.
@@ -81,7 +101,13 @@ smtp-server-error = Errore bat gertatu da mezua bidaltzean: irteerako SMTP zerbi
 smtp-starttls-failed = Errore bat gertatu da posta bidaltzean: ezin da lotura segurua ezarri { $hostname } irteerako SMTP zerbitzariarekin STARTTLS erabiliz, ez baitu ezaugarri honen berri ematen. Desgaitu STARTTLS zerbitzari honentzat edo jarri harremanetan zerbitzu-hornitzailearekin.
 # Variables:
 # $serverResponse - server response
+smtp-too-many-recipients = Mezua ez zen bidali baimendutako hartzaile kopurua gainditzeagatik. Zerbitzariaren erantzuna: { $serverResponse }.
+# Variables:
+# $serverResponse - server response
 smtp-error-sending-from-command = Errore bat gertatu da posta bidaltzean. Posta-zerbitzariaren erantzuna: { $serverResponse }. Egiaztatu zure helbide elektronikoa zuzena dela zure kontu-ezarpenetan eta saiatu berriro.
+# Variables:
+# $serverResponse - server response
+smtp-permanent-size-exceeded = Bidaltzen saiatzen ari zaren mezuaren tamainak zerbitzariaren muga gainditzen du. Mezua ez da bidali; murriztu mezuaren tamaina eta saiatu berriro. Zerbitzariaren erantzuna:  { $serverResponse }.
 # Variables:
 # $serverResponse - server response; $recipient - intended recipient
 smtp-error-sending-recipient-command =
