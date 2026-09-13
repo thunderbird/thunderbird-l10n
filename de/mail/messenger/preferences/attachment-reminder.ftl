@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 attachment-reminder-dialog-title = Schlüsselwörter der Anhang-Erinnerung
+attachment-reminder-description = Eine Erinnerung anzeigen, wenn die E-Mail auf einen fehlenden Anhang hindeutende Schlüsselwörter enthält.
 attachment-reminder-label = { -brand-short-name } wird auf fehlende Anhänge hinweisen, wenn Sie eine Nachricht senden möchten, die eines der folgenden Schlüsselwörter enthält.
 keyword-new-button =
     .label = Hinzufügen…

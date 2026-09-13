@@ -3,6 +3,32 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 offline-dialog-title = Offline-Einstellungen
+autodetect-connection-label =
+    .label = Bei erkannter Internetverbindung automatisch den Modus wechseln
+    .accesskey = d
+offline-startup-label = Beim Start von { -brand-short-name }:
+status-radio-last-used =
+    .label = Zuletzt genutzten Verbindungsmodus verwenden
+    .accesskey = u
+status-radio-ask-connect =
+    .label = Nachfragen, ob eine Onlineverbindung hergestellt werden soll
+    .accesskey = b
+status-radio-start-online =
+    .label = Online starten
+    .accesskey = l
+status-radio-start-offline =
+    .label = Offline starten
+    .accesskey = f
+going-online-prompt = Ausstehende Nachrichten aus dem Postausgang senden
+going-online-send =
+    .label = Ja, automatisch versenden
+    .accesskey = J
+going-online-keep =
+    .label = Nein, im Postausgang behalten
+    .accesskey = N
+going-online-ask-send =
+    .label = Vor dem Senden fragen
+    .accesskey = V
 autodetect-online-label =
     .label = Automatisch erkannten Online-/Offline-Status verwenden
     .accesskey = u

@@ -9,12 +9,19 @@ fonts-label-default =
     .label = Standard ({ $name })
 fonts-label-default-unnamed =
     .label = Standard
+fonts-character-set-legend =
+    .value = Zeichensatz
+    .accesskey = t
+font-main-style-label =
+    .value = Haupt-Schriftart:
+    .accesskey = f
 fonts-language-legend =
     .value = Schriftarten für
     .accesskey = S
 fonts-proportional-label =
     .value = Proportional:
     .accesskey = P
+text-font-options-dialog-title = Text- und Schriftartoptionen
 
 ## Languages
 
@@ -93,6 +100,9 @@ font-size-monospace-label =
 font-serif-label =
     .value = Serif:
     .accesskey = e
+sans-serif-font-label =
+    .value = Serifenlose Schriftart:
+    .accesskey = n
 font-sans-serif-label =
     .value = Sans Serif:
     .accesskey = a
@@ -113,6 +123,13 @@ use-document-fonts-checkbox =
     .accesskey = N
 use-fixed-width-plain-checkbox =
     .label = Schriftart mit fester Breite für Reintext-Nachrichten verwenden
+    .accesskey = x
+message-font-permissions-legend = Berechtigungen für Schriftarten in Nachrichten
+allow-incoming-fonts-checkbox =
+    .label = Eigene Schriftarten in eingehenden Nachrichten zulassen
+    .accesskey = z
+display-fixed-width-plain-checkbox =
+    .label = Reintextnachrichten in einer nichtproportionalen Schrift anzeigen
     .accesskey = x
 
 ## Language settings

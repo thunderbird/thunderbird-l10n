@@ -75,6 +75,7 @@ send-undisclosed-recipients = Verborgene_Empfaenger
 # Variables:
 # $recipient - recipient address
 smtp-error-illegal-local-part = Der lokale Teil der Empfängeradresse "{ $recipient }" enthält ASCII-fremde Zeichen. Ihr Server unterstützt SMTPUTF8 nicht. Bitte ändern Sie die Adresse und versuchen Sie es erneut.
+smtp-error-no-recipients = Es wurden keine Empfänger für die SMTP-Zustellung angegeben.
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = Der SMTP-Server { $hostname } scheint die verschlüsselte Übertragung des Passworts nicht zu unterstützen. Wenn Sie das Konto gerade neu einrichten, ändern Sie die "Authentifizierungsmethode" bitte versuchsweise zu "Passwort, ungesichert übertragen" unter "Konten-Einstellungen | Postausgangs-Server (SMTP)". Wenn die gewählten Einstellungen bisher funktioniert haben und nun plötzlich fehlschlagen, könnte es sich um ein typisches Szenario handeln, um Ihnen mittels der ungesicherten Passwortübertragung das Passwort zu stehlen.
