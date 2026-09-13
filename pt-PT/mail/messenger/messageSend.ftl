@@ -67,6 +67,9 @@ send-save-template-error-title = Erro ao guardar modelo
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = destinatários não revelados
 # Variables:
+# $recipient - recipient address
+smtp-error-illegal-local-part = Existem caracteres não ASCII na parte local do endereço do destinatário { $recipient } e o seu servidor não suporta SMTPUTF8. Por favor, altere este endereço e tente novamente.
+# Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = Parece que o servidor de envio (SMTP) { $hostname } não tem suporte a palavras-passe encriptadas. Se acabou de configurar a conta, tente mudar para ‘Palavra-passe, envio sem segurança’ como ‘Método de autenticação’ nas ‘Definições da conta | Servidor de envio (SMTP)’. Se este método funcionava anteriormente, é possível que alguém tenha obtido a sua palavra-passe.
 # Variables:
