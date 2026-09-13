@@ -10,7 +10,18 @@ compose-message-attachment-name = Vedlagt melding
 
 ## Compose window
 
+compose-initialization-error-title = Meldingsvindu
+compose-initialization-error = En feil oppstod ved oppretting av meldingsvindu. Prøv igjen.
+compose-default-subject = (uten emne)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Skrive: { $subject } - { $brand }
 compose-save-message-title = Lagrer melding
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Lagre denne meldingen i utkastmappen din ({ $folder }) og lukk skrivevinduet?
+compose-discard-changes-button = &Forkast endringene
 compose-send-confirm-title = Send melding
 compose-send-confirm-prompt = Er du sikker på at du vil sende denne meldingen nå?
 compose-send-confirm-button = Send
@@ -35,6 +46,9 @@ compose-quit-saving-prompt =
     Vil du vente til meldingen er lagret før du avslutter, eller avslutt med en gang?
 compose-quit-button = &Avslutt
 compose-wait-button = &Vent
+compose-attach-file-picker-title = Legg ved fil(er)
+compose-attachment-bucket-attach-files-tooltip = Legg ved fil(er)
+compose-attachment-bucket-clear-selection-tooltip = Fjern utvalg
 # Variables:
 # $filename - name of the file that could not be found
 compose-file-attachment-not-found = Filen { $filename } finnes ikke og kan derfor ikke legges ved meldingen.
@@ -57,6 +71,12 @@ find-replace-button =
     .label = Erstatt …
     .accesskey = s
     .tooltiptext = Vis Finn og erstatt-dialogen
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Skriv inn en egen fra-adresse som skal brukes istedenfor { $identity }
+compose-custom-from-address-title = Tilpass Fra-adresse
+compose-custom-from-address-warning = Hvis e-posttilbyderen din tilbyr det, kan du tilpasse fra-adressen ved å gjøre en mindre endring til adressen uten å lage en ny identitet i Kontoinnstillinger. For eksempel hvis adressen din er John Doe <john@eksempel.no> kan du endre den til John Doe <john+doe@eksempel.no> or John <john@eksempel.no>.
+compose-custom-from-address-ignore = Aldri informer meg om dette igjen
 compose-blocked-content-options-button = Innstillinger
 compose-blocked-content-options-accesskey = I
 compose-blocked-content-preferences-button = Innstillinger
@@ -130,6 +150,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Utvid liste
     .accesskey = v
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = Fjern { $field }-adresser
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Er du sikker på at du ønsker å fjerne { $field }-adressene?
+compose-remove-address-row-button = Fjern
 
 ## Attachment widget
 
@@ -486,6 +513,33 @@ cloud-file-account-error-title = Filelink-kontofeil
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Kunne ikke oppdatere Filelink-vedlegget { $filename }, fordi Filelink-kontoen er slettet.
 cloud-file-authentication-error-title = Autentiseringsfeil
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Klarte ikke autentisere mot { $provider }.
+cloud-file-upload-error-title = Opplastingsfeil
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Klarte ikke laste opp { $filename } til { $provider }.
+cloud-file-quota-error-title = Kvotefeil
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Opplasting av { $filename } til { $provider } vil overskride plasskvoten din.
+cloud-file-size-error-title = Feil med filstørrelsen
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } er større enn maksstørrelsen for { $provider }.
+cloud-file-unknown-error-title = Ukjent feil
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = En ukjent feil oppstod ved kommunikasjon med { $provider }.
+cloud-file-deletion-error-title = Feil ved sletting
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Et problem oppstod ved sletting av { $filename } fra { $provider }.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
