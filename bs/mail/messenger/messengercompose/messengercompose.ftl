@@ -10,14 +10,24 @@ compose-message-attachment-name = Priložena poruka
 
 ## Compose window
 
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Sastavi: { $subject } - { $brand }
 compose-send-confirm-title = Pošalji poruku
 compose-send-confirm-prompt = Jeste li sigurni da ste spremni poslati ovu poruku?
 compose-send-confirm-button = Pošalji
 compose-do-not-show-again = Ne prikazuj ponovno ovaj prozor.
+compose-empty-subject-title = Podsjetnik o naslovu
+compose-empty-subject-prompt = Vaša poruka nema naslov.
+compose-empty-subject-send-button = &Pošalji bez naslova
+compose-empty-subject-cancel-button = &Otkaži slanje
 compose-attachment-reminder-title = Podsjetnik dodavanja priloga
 compose-attachment-reminder-prompt = Jeste li zaboravili dodati prilog?
 compose-attachment-reminder-send-button = Ne, pošalji sada
 compose-attachment-reminder-add-button = Da, zaboravio sam!
+compose-newsgroups-not-supported-title = Novinske grupe nisu podržane
+compose-newsgroups-not-supported = Ovaj račun podržava samo primaoce e-pošte. Ako nastavite, novinske grupe će biti ignorisane.
 compose-quit-sending-title = Slanje poruke
 compose-quit-saving-title = Spremanje poruke
 # Variables:
@@ -58,6 +68,12 @@ find-replace-button =
     .label = Zamijeni…
     .accesskey = z
     .tooltiptext = Prikaži dijalog nađi i zamijeni
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Unesite prilagođenu adresu pošiljaoca koja će se koristiti umjesto { $identity }
+compose-custom-from-address-title = Prilagođena adresa pošiljaoca
+compose-custom-from-address-warning = Ukoliko vaš server usluge e-pošte to podržava, prilagođena adresa pošiljaoca dozvoljava vam jednokratnu malu izmjenu vaše adrese bez da morate napraviti novi identitet u postavkama računa. Na primjer, ukoliko je vaša adresa John Doe <john@example.com> vi je možete promijeniti u John Doe <john+doe@example.com> ili John <john@example.com>.
+compose-custom-from-address-ignore = Ne obavještavaj me više o ovome
 compose-blocked-content-options-button = Opcije
 compose-blocked-content-options-accesskey = O
 compose-blocked-content-preferences-button = Postavke
