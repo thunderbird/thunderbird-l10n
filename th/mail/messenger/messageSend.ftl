@@ -17,3 +17,4 @@ send-error-smtp-interrupted = ไม่สามารถส่งข้อค�
 # Variables:
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = ไม่สามารถส่งข้อความได้เนื่องจากการเชื่อมต่อกับเซิร์ฟเวอร์ขาออก (SMTP) { $hostname } หมดเวลา ลองอีกครั้ง
+send-error-title = ข้อผิดพลาดในการส่งข้อความ
