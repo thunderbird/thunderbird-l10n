@@ -37,6 +37,7 @@ compose-attachment-reminder-add-button = Oh, ja wis!
 compose-newsgroups-not-supported-title = Nijsgroepen net stipe
 compose-newsgroups-not-supported = Dizze account stipet allinnich e-mailûntfangers. Trochgean sil nijsgroepen negearje.
 compose-invalid-address-title = Ferkeard ûntfangersadres
+compose-no-recipients = Der binne gjin ûntfangers opjûn. Fier in ûntfanger of nijsgroep yn yn it adressearringsgebiet.
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address } is gjin jildich e-mailadres, omdat it net de foarm brûker@host hat. Jo moatte dit ferbetterje foardat jo de e-mail ferstjoere.
