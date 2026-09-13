@@ -10,11 +10,57 @@ compose-message-attachment-name = Ekli ileti
 
 ## Compose window
 
+compose-send-confirm-title = İletiyi Gönder
+compose-send-confirm-prompt = Bu iletiyi göndermeye hazır olduğunuza emin misiniz?
+compose-send-confirm-button = Gönder
+compose-do-not-show-again = Bu iletişim kutusunu bir daha gösterme.
+compose-attachment-reminder-title = Ek Hatırlatıcı
+compose-attachment-reminder-prompt = Dosya eklemeyi mi unuttunuz?
+compose-quit-sending-title = İleti Gönderimi
+compose-quit-saving-title = İleti Kaydetme
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } şu anda bir iletiyi gönderme sürecinde.
+    İleti gönderilene kadar beklemek mi, yoksa hemen çıkmak mı istersiniz?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } şu anda bir iletiyi kaydetme sürecinde.
+    İleti kaydedilene kadar beklemek mi, yoksa hemen çıkmak mı istersiniz?
+compose-quit-button = Çı&k
+compose-wait-button = &Bekle
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = { $filename } dosyası mevcut olmadığından iletiye eklenemiyor.
 compose-file-attachment-error-title = Dosya Eki
+compose-message-file-error-title = İleti dosyası
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = { $filename } dosyası mevcut değil ve ileti metni olarak kullanılamıyor.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = { $filename } dosyası ileti metni olarak yüklenemedi.
+compose-save-success-title = İletiyi Kaydet
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = İletiniz { $server } sunucusundaki { $folder } klasörüne kaydedildi.
+compose-rename-attachment-title = Ekin Adını Değiştir
+compose-rename-attachment-prompt = Yeni ek adı:
+remind-later-button =
+    .label = Daha sonra hatırlat
+    .accesskey = S
+disable-attachment-reminder-menu-item =
+    .label = Bu iletide eklenti hatırlatıcısını devre dışı bırak
 find-replace-button =
     .label = Değiştir…
     .accesskey = D
     .tooltiptext = Bul ve Değiştir penceresini göster
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = { $url } engelini kaldır
 
 ## Send Format
 
