@@ -24,3 +24,5 @@ send-error-smtp-interrupted = Писмото не може да бъде изп�
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = Писмото не може да бъде изпратено, защото времето за изчакване на изходящия (SMTP) { $hostname } сървър изтече. Опитайте отново.
 send-error-title = Грешка при изпращане на писмо
+# LOCALIZATION NOTE: This string must use only US-ASCII characters.
+send-undisclosed-recipients = undisclosed-recipients
