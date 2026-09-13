@@ -10,16 +10,29 @@ compose-message-attachment-name = Biriktirilgan xabar
 
 ## Compose window
 
+compose-initialization-error-title = Xabar yozish
+compose-initialization-error = Xabar yozish oynasini yaratishda xatolik yuz berdi. Yana urinib ko‘ring.
 compose-default-subject = (no subject)
 compose-save-message-title = Xabarni saqlash
 compose-send-confirm-title = Xabarni jo‘natish
 compose-send-confirm-prompt = Bu xabarni jo‘natishga tayyormisiz?
 compose-send-confirm-button = Jo‘natish
 compose-do-not-show-again = Bu muloqot oynasi menga boshqa ko‘rsatilmasin.
+compose-empty-subject-title = Mavzu eslatkichi
+compose-empty-subject-prompt = Xabaringizda mavzu yo‘q.
+compose-empty-subject-send-button = Mavzusin &jo‘natish
+compose-empty-subject-cancel-button = Jo‘natishni &bekor qilish
 compose-attachment-reminder-title = Biriktirma eslatkichi
 compose-attachment-reminder-prompt = Biriktirma qo‘shishni unutdingizmi?
 compose-attachment-reminder-send-button = Yo‘q, hozir jo‘natilsin
 compose-attachment-reminder-add-button = Oh, buni men qildim!
+compose-newsgroups-not-supported-title = Yangiliklar to‘plami qo‘llab-quvvatlanmaydi
+compose-newsgroups-not-supported = Bu hisob faqat xat qabul qiluvchilarni qo‘llab-quvvatlaydi. Davom ettirsangiz, yangiliklar to‘plami e’tiborsiz qoldiriladi.
+compose-invalid-address-title = Qabul qiluvchi manzili noto‘g‘ri
+compose-no-recipients = Qabul qiluvchilar ko‘rsatilmagan. Hududingizdagi qabul qiluvchi yoki yangiliklar to‘plamini kiriting.
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } – pochtasi noto‘g‘ri, chunki u user@host shaklida emas. Xatni jo‘natishda oldin uni to‘g‘rilashingiz lozim.
 compose-quit-sending-title = Xabarni jo‘natish
 compose-quit-saving-title = Xabarni saqlash
 # Variables:
@@ -35,9 +48,13 @@ compose-quit-saving-prompt =
 compose-quit-button = Chi&qish
 compose-wait-button = &Kutib turaman
 compose-attach-file-picker-title = Fayl(lar)ni biriktirish
+compose-attach-page-title = Biriktirish uchun manzilni ko‘rsating
+compose-attach-page-prompt = Veb sahifa (URL):
+compose-message-part-attachment-name = Biriktirilgan xabar qismi
 # Variables:
 # $filename - name of the file that could not be found
 compose-file-attachment-not-found = { $filename } fayli mavjud emas, shuning uchun u xabarga biriktirilmaydi.
+compose-file-attachment-error-title = Faylni biriktirish
 compose-message-file-error-title = Xabar fayli
 # Variables:
 # $filename - name of the file that could not be found
@@ -61,6 +78,12 @@ find-replace-button =
     .label = Almashtirish…
     .accesskey = x
     .tooltiptext = Topish va almashtirish oynasini ko‘rsatish
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = { $identity } o‘rniga foydalanish uchun boshqa jo‘natuvchi manzilini kiriting
+compose-custom-from-address-title = Manzildan mozlash
+compose-custom-from-address-warning = Agar e-pochta ta’minotchisi buni qo‘llab-quvvatlasa, "Manzildan moslash" hisob sozlamalaridan yangi shaxsiy ma’lumotlarni tuzmasdan, jo‘natuvchi manzilida bir martalik ahamiyatsiz o‘zgartirishni amalga oshirish imkonini beradi. Masalan, agar jo‘natuvchi manzili John Doe <john@example.com> bo‘lsa, siz uni John Doe <john+doe@example.com> yoki John <john@example.com> shaklida o‘zgartirishingiz mumkin.
+compose-custom-from-address-ignore = Hech qachon bu uchun ogohlantirish berilmasin
 # Variables:
 # $url - URL of the blocked resource
 compose-unblock-resource =
