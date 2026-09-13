@@ -57,6 +57,7 @@ send-error-filtering-message = 메시지를 전송하고 보존하였지만 메�
 # Variables:
 # $hostname - outgoing server hostname
 send-error-smtp-security-issue = { $hostname } 관련 설정이 수정되어야 합니다.
+send-error-post-failed = 뉴스 서버에 연결되지 않아 기사를 올리지 못했습니다. 서버가 없거나 연결이 거부되었습니다. 뉴스 서버 설정을 확인한 후 다시 시도하거나 네트워크 관리자에게 문의하십시오.
 # Variables:
 # $size - formatted message size
 send-warning-large-message = 경고! 크기가 { $size }인 메시지를 보내려고 합니다. 메일 서버의 제한을 넘을 수도 있습니다. 계속하시겠습니까?
@@ -103,6 +104,9 @@ smtp-starttls-failed = 메일 보내는 중 오류가 발생했습니다. SMTP �
 smtp-too-many-recipients = 받는 사람 수의 한도를 초과하여 메시지가 전송되지 않았습니다. 서버 응답: { $serverResponse }.
 # Variables:
 # $serverResponse - server response
+smtp-error-sending-from-command = 메일 보내는 중 오류. 서버 메시지: { $serverResponse }. 메일 설정에 자신의 메일 주소를 확인한 후 다시 시도해 보십시오.
+# Variables:
+# $serverResponse - server response
 smtp-permanent-size-exceeded = 보내시려는 메시지의 크기가 서버의 일반 크기 제한 보다 큽니다. 메시지 용량을 줄여서 다시 시도해 보시기 바랍니다. 서버 응답: { $serverResponse }.
 # Variables:
 # $serverResponse - server response; $recipient - intended recipient
@@ -110,3 +114,9 @@ smtp-error-sending-recipient-command =
     메일 보내는 중 오류가 발생했습니다. 메일 서버 응답:
     { $serverResponse }.
     메시지 주소  { $recipient }를 확인하고 재시도해 보시기 바랍니다.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-data-command = 보내는 메일 서버(SMTP)로 발송 중 오류. 서버 메시지: { $serverResponse }. 다시 시도해 보십시오.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-message = 메일 보내는 중 오류. 서버 메시지: { $serverResponse }. 다시 시도해 보십시오.
