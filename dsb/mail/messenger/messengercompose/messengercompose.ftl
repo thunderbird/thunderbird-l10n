@@ -26,8 +26,21 @@ compose-send-confirm-title = Powěsć pósłaś
 compose-send-confirm-prompt = Sćo napšawdu gótowy, toś tu powěsć pósłaś?
 compose-send-confirm-button = Pósłaś
 compose-do-not-show-again = Toś ten dialog wěcej njepokazaś.
+compose-empty-subject-title = Napominanje na temu
+compose-empty-subject-prompt = Twója powěsć njama temu.
+compose-empty-subject-send-button = Bźez temy pó&słaś
+compose-empty-subject-cancel-button = Słanje pśeter&gnuś
+compose-attachment-reminder-title = Pśidankowe napominanje
+compose-attachment-reminder-prompt = Sćo zabył pśidank pśidaś?
 compose-attachment-reminder-send-button = Ně, něnto pósłaś
 compose-attachment-reminder-add-button = Ow, jo!
+compose-newsgroups-not-supported-title = Diskusijne kupki se njepódpěraju
+compose-newsgroups-not-supported = Toś to konto pódpěra jano e-mailowe dostawarje. Jolic pókšacujośo, budu se diskusijne kupki ignorěrowaś.
+compose-invalid-address-title = Njepłaśiwa dostawaŕska adresa
+compose-no-recipients = Žedne dostawarje pódane. Zapódajśo pšosym dostawarja abo dislusijnu kupku do adresowego póla.
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } njejo płaśiwa e-mailowa adresa, dokulaž njama forma wužywaŕ@host. Musyśo ju korigěrowaś, nježli až sćelośo e-mail.
 compose-quit-sending-title = Powěsć pósłaś
 compose-quit-saving-title = Powěsć składowaś
 # Variables:
@@ -43,6 +56,9 @@ compose-quit-saving-prompt =
 compose-quit-button = &Skóńcyś
 compose-wait-button = Ca&kaś
 compose-attach-file-picker-title = Dataje pśipowjesyś
+compose-attach-page-title = Pšosym pódajśo město, kótarež ma se pśipowjesyś
+compose-attach-page-prompt = Webbok (URL):
+compose-message-part-attachment-name = Pśipowjesony powěsćowy źěl
 compose-attachment-bucket-attach-files-tooltip = Dataje pśipowjesyś
 compose-attachment-bucket-clear-selection-tooltip = Wuběrk lašowaś
 # Variables:
@@ -61,10 +77,23 @@ compose-save-success-title = Powěsć składowaś
 # $folder - folder in which the message was saved
 # $server - server on which the folder is located
 compose-save-success-message = Waša powěsć jo se do zarědnika { $folder } na { $server } składowała.
+compose-rename-attachment-title = Pśidank pśemjeniś
+compose-rename-attachment-prompt = Nowe mě pśidanka:
+remind-later-button =
+    .label = Pózdźej dopomnjeś
+    .accesskey = P
+disable-attachment-reminder-menu-item =
+    .label = Pśidankowe dopominanje za aktualnu powěsć znjemóžniś
 find-replace-button =
     .label = Wuměniś…
     .accesskey = m
     .tooltiptext = Dialog Pytaś a wuměniś pokazaś
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Swójsku wótpósłaŕsku adresu zapódaś, aby se město { $identity } wužywała
+compose-custom-from-address-title = Z adrese pśiměriś
+compose-custom-from-address-warning = Jolic waš e-mailowy póbitowaŕ to pódpěra, zmóžnja wam funkcija „Z adrese pśiměriś“, jadnorazowu snadnu změnu na wašej wótpósłaŕskej adresy pśewjasć, bźez togo, aby musył nowu identitu w kontowych nastajenjach napórał. Jolic na pśikład waša wótpósłaŕska adresa jo John Doe <john@example.com>, móžośo ju do John Doe <john+doe@example.com> abo John <john@example.com> změniś.
+compose-custom-from-address-ignore = Wó tom wěcej njeinforměrowaś
 compose-blocked-content-options-button = Nastajenja
 compose-blocked-content-options-accesskey = N
 compose-blocked-content-preferences-button = Nastajenja
