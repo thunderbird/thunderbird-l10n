@@ -5,6 +5,7 @@
 
 ## Compose alerts
 
+compose-message-cancelling = Anulez…
 compose-message-attachment-name = Mesaj atașat
 
 ## Compose window
