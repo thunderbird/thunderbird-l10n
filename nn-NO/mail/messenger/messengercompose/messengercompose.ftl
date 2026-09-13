@@ -17,6 +17,7 @@ compose-default-subject = (utan emne)
 # $subject - message subject
 # $brand - application name
 compose-window-title = Skriv: { $subject } - { $brand }
+compose-save-message-title = Lagre melding
 # Variables:
 # $folder - configured drafts folder name
 compose-save-message-prompt = Lagre denne meldinga i utkastmappa di ({ $folder }) og late att skrivevindauget?
