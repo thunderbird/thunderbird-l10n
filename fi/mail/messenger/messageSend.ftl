@@ -27,6 +27,9 @@ send-error-title = Viestin lähetyksen virhe
 send-progress-assembling-mail-information = Kootaan postin tietoja…
 send-progress-assembling-message = Kootaan viestiä…
 send-progress-creating-mail-message = Luodaan sähköpostiviestiä…
+# Variables:
+# $filename - name or URL of the file that could not be attached
+send-error-attaching-file = Tiedoston { $filename } liittämisessä tapahtui virhe. Tarkista, että sinulla on oikeudet lukea tiedostoa.
 send-progress-assembling-message-done = Kootaan viestiä…Valmis
 send-progress-copy-complete = Kopiointi valmis.
 send-progress-copy-failed = Kopiointi epäonnistui.
@@ -50,6 +53,9 @@ send-error-save-to-local-folders = Viestiäsi ei voitu tallentaa paikallisiin ka
 send-progress-filter-complete = Suodatin suoritettiin.
 send-progress-filter-failed = Suodattimen suoritus epäonnistui.
 send-error-filtering-message = Viesti lähetettiin ja tallennettiin, mutta suodattimen suorittaminen viestille epäonnistui.
+# Variables:
+# $hostname - outgoing server hostname
+send-error-smtp-security-issue = Lähtevän palvelimen vastaukseen { $hostname } liittyvät asetukset täytyy korjata.
 send-error-post-failed = Viestiä ei voitu lähettää, koska yhteys keskusteluryhmäpalvelimeen epäonnistui. Palvelin voi olla varattu tai estää yhteyspyynnöt. Varmista, että keskusteluryhmä-palvelinasetuksesi ovat oikeat ja yritä uudelleen tai vaihtoehtoisesti ota yhteyttä verkon ylläpitoon.
 # Variables:
 # $size - formatted message size
@@ -58,11 +64,16 @@ send-warning-large-message = Varoitus! Olet lähettämässä { $size } kokoista 
 # $folder - destination folder name
 send-progress-copy-start = Kopioidaan viestiä kansioon { $folder }…
 send-progress-sending-message = Lähetetään viestiä…
+send-error-nntp-ok = Viestisi on lähetetty keskusteluryhmään, mutta sitä ei ole lähetetty toiselle vastaanottajalle.
+send-error-copy-operation = Viestin lähettäminen onnistui, mutta sitä ei voitu kopioida Lähetetyt-kansioon.
 send-later-error-title = Virhe myöhemmin lähettämisessä
 send-save-draft-error-title = Virhe luonnoksen tallentamisessa
 send-save-template-error-title = Virhe mallipohjan tallentamisessa
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = ei-julkituotuja-vastaanottajia
+# Variables:
+# $recipient - recipient address
+smtp-error-illegal-local-part = Vastaanottajan osoitteen { $recipient } paikallisosassa on merkkejä, jotka eivät kuulu ASCII-merkistöön, ja palvelimesi ei tue STMPUTF8:aa. Muokkaa osoitetta ja yritä uudelleen.
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = Lähtevän postin palvelin (SMTP) { $hostname } ei näytä tukevan salattuja salasanoja. Jos juuri loit tilin, yritä vaihtaa todennustavaksi "Salasana, turvaton lähetys" palvelinasetuksista: Tilien asetukset - Jos yhteys toimi ennen, mutta lakkasi yhtäkkiä toimimasta, salasanaasi voidaan yrittää varastaa.
@@ -83,7 +94,19 @@ smtp-auth-gssapi = SMTP-palvelin { $hostname } ei hyväksynyt Kerberos/GSSAPI-li
 smtp-auth-mechanism-not-supported = SMTP-palvelin { $hostname } ei tue valittua todennustapaa. Muuta todennustapaa palvelinasetuksista: Tilien asetukset - Lähtevän postin palvelin (STMP).
 # Variables:
 # $serverResponse - server response
+smtp-server-error = Postia lähetettäessä tapahtui SMTP-palvelinvirhe. Palvelin vastasi: { $serverResponse }.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-starttls-failed = Postia lähetettäessä tapahtui virhe: SMTP-palvelimeen { $hostname } ei kyetty muodostamaan suojattua yhteyttä STARTTLS-käytännöllä, koska palvelin ei kerro tukevansa ominaisuutta. Poista STARTTLS käytöstä tälle palvelimelle tai ota yhteyttä palveluntarjoajaasi.
+# Variables:
+# $serverResponse - server response
 smtp-error-sending-from-command = Postia lähetettäessä tapahtui virhe. Postipalvelin vastasi: { $serverResponse }. Tarkista että sähköpostiosoitteesi on asetuksissa oikein ja yritä uudelleen.
+# Variables:
+# $serverResponse - server response; $recipient - intended recipient
+smtp-error-sending-recipient-command =
+    Postia lähetettäessä tapahtui virhe. Postipalvelin vastasi:
+    { $serverResponse }.
+    . Tarkista osoite { $recipient } ja yritä uudelleen.
 # Variables:
 # $serverResponse - server response
 smtp-error-sending-data-command = Postia lähetettäessä tapahtui virhe (SMTP). Palvelin vastasi: { $serverResponse }.
