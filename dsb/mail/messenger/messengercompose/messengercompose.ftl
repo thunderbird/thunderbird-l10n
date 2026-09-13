@@ -10,10 +10,24 @@ compose-message-attachment-name = Pśipowjesona powěsć
 
 ## Compose window
 
+compose-initialization-error-title = Powěsći spisaś
+compose-initialization-error = Pśi napóranju wobźěłowańskego wokna jo zmólka nastała. Pšosym wopytajśo hyšći raz.
+compose-default-subject = (žedna tema)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Pisaś: { $subject } - { $brand }
+compose-save-message-title = Powěsć składowaś
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Toś tu powěsć do wašogo zarědnika Nacerjenja ({ $folder }) składowaś a pisańske wokno zacyniś?
+compose-discard-changes-button = &Změny zachyśiś
 compose-send-confirm-title = Powěsć pósłaś
 compose-send-confirm-prompt = Sćo napšawdu gótowy, toś tu powěsć pósłaś?
 compose-send-confirm-button = Pósłaś
 compose-do-not-show-again = Toś ten dialog wěcej njepokazaś.
+compose-attachment-reminder-send-button = Ně, něnto pósłaś
+compose-attachment-reminder-add-button = Ow, jo!
 compose-quit-sending-title = Powěsć pósłaś
 compose-quit-saving-title = Powěsć składowaś
 # Variables:
@@ -28,9 +42,13 @@ compose-quit-saving-prompt =
     Cośo cakaś, až powěsć njejo se pósłała, nježli až kóńcyśo abo něnto skóńcyś?
 compose-quit-button = &Skóńcyś
 compose-wait-button = Ca&kaś
+compose-attach-file-picker-title = Dataje pśipowjesyś
+compose-attachment-bucket-attach-files-tooltip = Dataje pśipowjesyś
+compose-attachment-bucket-clear-selection-tooltip = Wuběrk lašowaś
 # Variables:
 # $filename - name of the file that could not be found
 compose-file-attachment-not-found = Dataja { $filename } njeeksistěrujo a njedajo se togodla k powěsći pśipowjesyś.
+compose-file-attachment-error-title = Dataju pśipowjesyś
 compose-message-file-error-title = Powěsćowa dataja
 # Variables:
 # $filename - name of the file that could not be found
@@ -124,6 +142,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Lisćinu pokazaś
     .accesskey = i
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = Adrese { $field } wótwónoźeś
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Cośo napšawdu adrese { $field } wótowónoźeś?
+compose-remove-address-row-button = Wótwónoźeś
 
 ## Attachment widget
 
@@ -503,6 +528,7 @@ cloud-file-account-error-title = Kontowa zmólka Filelink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Pśidank { $filename } Filelink njedajo se aktualizěrowaś, dokulaž jogo lokalna dataja jo se wulašowała.
+cloud-file-authentication-error-title = Awtentifikaciska zmólka
 # Variables:
 # $provider - name of the online storage service
 cloud-file-authentication-error = Awtentifikacija napśeśiwo { $provider } njejo móžna.
@@ -548,9 +574,33 @@ big-file-notification-text =
         [few] To su wjelike dataje. Snaź jo lěpjej, až wužywaśo Filelink město togo.
        *[other] To su wjelike dataje. Snaź jo lěpjej, až wužywaśo Filelink město togo.
     }
+big-file-learn-more-button =
+    .label = Dalšne informacije…
+    .accesskey = i
+big-file-link-button =
+    .label = Zwězaś
+    .accesskey = Z
+big-file-ignore-button =
+    .label = Ignorěrowaś
+    .accesskey = I
+big-file-choose-account-title = Konto wubraś
+big-file-choose-account-prompt = Wubjeŕśo mrokowe konto, aby pśidank nagrał
+big-file-hide-notification-title = Dataje njenagraś
+big-file-hide-notification-prompt = Njedostanjośo žednu powěźenku, jolic pśipowjesaśo dalšne wjelike dataje k toś tej powěsći.
+big-file-hide-notification-checkbox = Wó tom wěcej njeinforměrowaś.
 cloudfile-uploading-stop-button =
     .label = To nigda wěcej njepokazaś
     .accesskey = n
+cloud-file-privacy-warning = Wótkazowanje jo skóńcone. Pšosym źiwajśo na to, až wótkazane pśidanki mógu za luźi pśistupne byś, kótarež mógu wótkaze wugódaś abo wiźeś.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Nagrajo se do { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Do { $provider } nagraty
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Dataje pśez { $provider } pśipowjesyś
 
 ## Link Preview
 
