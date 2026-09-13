@@ -10,6 +10,29 @@ compose-message-attachment-name = Bifogat meddelande
 
 ## Compose window
 
+compose-empty-subject-title = Ämnespåminnelse
+compose-empty-subject-prompt = Ditt meddelande har inget angivet ämne.
+compose-empty-subject-send-button = &Sänd utan ämne
+compose-empty-subject-cancel-button = &Avbryt sändandet
+compose-attachment-reminder-title = Påminnelse om bilaga
+compose-attachment-reminder-prompt = Glömde du att lägga till en bilaga?
+compose-attachment-reminder-send-button = Nej, skicka nu
+compose-attachment-reminder-add-button = Javisst ja!
+compose-newsgroups-not-supported-title = Diskussionsgrupper stöds inte
+compose-newsgroups-not-supported = Det här kontot stöder endast e-postmottagare. Om du fortsätter kommer diskussionsgrupperna att ignoreras.
+compose-invalid-address-title = Ogiltig mottagaradress
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } är inte en giltig e-postadress eftersom den inte har formen användare@värd. Du måste rätta till detta innan du kan skicka meddelandet.
+compose-attach-page-title = Ange en webbplats att bifoga
+compose-attach-page-prompt = Webbplats (URL):
+compose-message-part-attachment-name = Bifogad meddelandedel
+compose-file-attachment-error-title = Bifoga fil
+remind-later-button =
+    .label = Påminn mig senare
+    .accesskey = P
+disable-attachment-reminder-menu-item =
+    .label = Inaktivera påminnelse om bilaga i aktuellt meddelande
 
 ## Send Format
 
@@ -445,6 +468,27 @@ big-file-notification-text =
         [one] Det här är en stor fil. Det kan vara bättre att använda Filelink istället.
        *[other] Det här är stora filer. Det kan vara bättre att använda Filelink istället.
     }
+big-file-learn-more-button =
+    .label = Läs mer…
+    .accesskey = m
+big-file-link-button =
+    .label = Länk
+    .accesskey = l
+big-file-ignore-button =
+    .label = Ignorera
+    .accesskey = i
+big-file-choose-account-title = Välj konto
+big-file-choose-account-prompt = Välj ett konto för att överföra bilagan till
+big-file-hide-notification-title = Överför inte mina filer
+big-file-hide-notification-prompt = Du kommer inte att meddelas om du bifogar fler stora filer till detta meddelande.
+big-file-hide-notification-checkbox = Meddela mig aldrig om detta igen.
+cloud-file-privacy-warning = Länkning är klar. Observera att länkade bilagor kan vara tillgängliga för personer som kan se eller gissa länkarna.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Överför till { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Överförd till { $provider }
 
 ## Link Preview
 
