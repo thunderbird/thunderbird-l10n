@@ -17,6 +17,7 @@ compose-default-subject = (sem assunto)
 # $subject - message subject
 # $brand - application name
 compose-window-title = Escrever: { $subject } - { $brand }
+compose-save-message-title = Guardar mensagem
 # Variables:
 # $folder - configured drafts folder name
 compose-save-message-prompt = Guardar esta mensagem na sua pasta de rascunhos ({ $folder }) e fechar a janela de Composição?
