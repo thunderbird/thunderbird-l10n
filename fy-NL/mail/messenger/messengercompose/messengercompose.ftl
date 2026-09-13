@@ -10,6 +10,17 @@ compose-message-attachment-name = Keppele berjocht
 
 ## Compose window
 
+compose-attachment-reminder-title = Bylagewerinnering
+compose-attachment-reminder-prompt = Hawwe jo fergetten om in bylage ta te foegjen?
+compose-attachment-reminder-send-button = Nee, ferstjoer mar
+compose-attachment-reminder-add-button = Oh, ja wis!
+compose-rename-attachment-title = Bylage omneame
+compose-rename-attachment-prompt = Nije bylagenamme:
+remind-later-button =
+    .label = Werinnerje my letter
+    .accesskey = W
+disable-attachment-reminder-menu-item =
+    .label = Omtinken foar bylage foar aktuele berjocht útskeakelje
 
 ## Send Format
 
