@@ -10,6 +10,8 @@ compose-message-attachment-name = Izen yeddan
 
 ## Compose window
 
+compose-initialization-error-title = Aru izen
+compose-initialization-error = Teḍra-d tuccḍa di tmerna n n usfaylu n tira n yizen. Ma ulac aɣilif, ɛreḍ tikelt nniḍen.
 compose-default-subject = (ulac asentel)
 # Variables:
 # $subject - message subject
@@ -29,6 +31,8 @@ compose-empty-subject-send-button = A&zen s war asentel
 compose-empty-subject-cancel-button = Se&fsex tuzna
 compose-attachment-reminder-title = Asmekti n imeddayen
 compose-attachment-reminder-prompt = Tettuḍ ad ternuḍ amedday?
+compose-attachment-reminder-send-button = Ala, azen tura
+compose-attachment-reminder-add-button = Uh, Ttuɣ-t!
 compose-newsgroups-not-supported-title = Igrawen n isalen ur ttusefraken ara
 compose-newsgroups-not-supported = Amiḍan-agi yessefrak-kan iɣerwaḍen n yimayl. Ad tkemleḍ deg tiǧǧin n igrawen n isalen.
 compose-quit-sending-title = Tuzzna n yizen
@@ -46,9 +50,12 @@ compose-quit-saving-prompt =
 compose-quit-button = &Ffeɣ
 compose-wait-button = &Ṛǧu
 compose-attach-file-picker-title = Seddu afaylu (i-a)
+compose-attachment-bucket-attach-files-tooltip = Seddu afaylu (i-a)
+compose-attachment-bucket-clear-selection-tooltip = Sfeḍ afran
 # Variables:
 # $filename - name of the file that could not be found
 compose-file-attachment-not-found = Afaylu { $filename } ulac-it ihi ur yezmir ara ad yeddu akked yizen.
+compose-file-attachment-error-title = Aseddu n ufaylu
 compose-message-file-error-title = Afaylu n yizen
 # Variables:
 # $filename - name of the file that could not be found
@@ -517,9 +524,30 @@ big-file-notification-text =
         [one] Wagi d afaylu meqqren. Yif-it limer ad tesqedceḍ Filelink deg umḍiq-is
        *[other] Wigi d ifuylu meqqren. Yif-it limer ad tesqedceḍ Filelink deg umḍiq-nsen.
     }
+big-file-learn-more-button =
+    .label = Issin ugar…
+    .accesskey = g
+big-file-link-button =
+    .label = Aseɣwen
+    .accesskey = ɣ
+big-file-ignore-button =
+    .label = Zgel
+    .accesskey = Z
+big-file-choose-account-title = Fren amiḍan
+big-file-choose-account-prompt = Fren amiḍan deg usigna akken ad tessaliḍ amedday ɣur-s
+big-file-hide-notification-title = Ur salay ara ifuyla inu
+big-file-hide-notification-prompt = Ur d-ttwalɣuḍ ara ma yella tseddaḍ ugar ifuyla meqqren deg izen-agi.
+big-file-hide-notification-checkbox = Weṛǧin ad d-sekneḍ alɣu-yagi.
 cloudfile-uploading-stop-button =
     .label = Ur d-skan ara aya tikelt nniḍen
     .accesskey = U
+cloud-file-privacy-warning = Ifuk useddu n ufaylu. Ma ulac aɣilif, ẓeṛ d akken imeddayen zemren ad ten-kecmen yemdanen i yezmren ad walin neɣ ad d-afen iseɣwan.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Asali ɣer { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Yuli ɣer { $provider }
 # Variables:
 # $provider - name of the online storage service
 cloud-file-attach-picker-title = Seddu afaylu -i-a) s { $provider }
