@@ -30,10 +30,47 @@ send-progress-creating-mail-message = Posta-mezua sortzen…
 send-progress-assembling-message-done = Mezua osatzen…Eginda
 send-progress-copy-complete = Kopiatzen amaitu du.
 send-progress-copy-failed = Kopiatzeak huts egin du.
+send-dialog-save-title = Gorde mezua
+send-error-save-to-local-folders = Ezin da mezua gorde zure karpeta lokalean. Beharbada ez dago tokirik gordetzeko.
 send-progress-filter-complete = Iragazketa burutu da.
 send-progress-filter-failed = Iragazketak huts egin du.
+send-error-post-failed = Ezin izan da mezua bidali berri-zerbitzarirako konexioak huts egin duelako. Zerbitzaria agian ez dago eskuragarri edota konexioak ukatzen ari da. Egiaztatu zure berri-zerbitzariaren ezarpenak egokiak direla eta saiatu berriro.
+# Variables:
+# $size - formatted message size
+send-warning-large-message = Kontuz! { $size }(e)ko mezu bat bidaltzera zoaz. Ziur zaude hau egin nahi duzula?
 # Variables:
 # $folder - destination folder name
 send-progress-copy-start = Mezua kopiatzen { $folder } karpetan…
+send-progress-sending-message = Mezua bidaltzen…
+send-later-error-title = Errorea geroago bidaltzean
+send-save-draft-error-title = Errorea zirriborroa gordetzean
+send-save-template-error-title = Errorea txantiloia gordetzean
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = aipatu gabeko hartzaileak
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-no-ssl = { $hostname } SMTP irteera zerbitzariak antza ez du enkriptatutako pasahitzentzako euskarririk. Kontua sortu berri baduzu, saiatu ‘Autentifikazio metodoa’ aldatzen ‘Kontuaren ezarpenak | SMTP irteera zerbitzaria’ atalean eta jarri ‘Pasahitza modu ez seguruan bidali’. Lehen bazebilen eta orain ez, pasahitza lapurtu ahal dizute.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-ssl = { $hostname } SMTP irteera zerbitzariak antza ez du enkriptatutako pasahitzentzako euskarririk. Kontua sortu berri baduzu, saiatu ‘Autentifikazio metodoa’ aldatzen ‘Kontuaren ezarpenak | SMTP irteera zerbitzaria’ atalean eta jarri ‘Pasahitza arrunta’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-plain-to-encrypt = { $hostname } SMTP irteera zerbitzariak ez ditu pasahitzak testu garbian onartzen. Saiatu ‘Autentifikazio metodoa’ aldatzen ‘Kontuaren ezarpenak | Irteera zerbitzaria’ atalean eta jarri ‘Enkriptatutako pasahitza'
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-failure = Ezin izan da { $hostname } irteerako SMTP zerbitzariarekin autentifikatu. Egiaztatu pasahitza eta egiaztatu ‘Autentifikazio-metodoa’ aukera ‘Kontu-ezarpenak | Irteerako SMTP zerbitzaria’ atalean.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-gssapi = { $hostname } irteerako SMTP zerbitzariak ez du Kerberos/GSSAPI tiketa onartu. Egiaztatu Kerberos/GSSAPI domeinuan saioa hasi duzula.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-mechanism-not-supported = { $hostname } irteerako SMTP zerbitzariak ez du hautatutako autentifikazio-metodoa onartzen. Aldatu ‘Autentifikazio-metodoa’ aukera ‘Kontu-ezarpenak | Irteerako SMTP zerbitzaria’ atalean.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-from-command = Errore bat gertatu da posta bidaltzean. Posta-zerbitzariaren erantzuna: { $serverResponse }. Egiaztatu zure helbide elektronikoa zuzena dela zure kontu-ezarpenetan eta saiatu berriro.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-data-command = Errore bat gertatu da irteerako SMTP zerbitzarian posta bidaltzean. Zerbitzariaren erantzuna:  { $serverResponse }.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-message = Errore bat posta bidaltzean. Posta-zerbitzariaren erantzuna:  { $serverResponse }. Egiaztatu mezua eta saiatu berriro.
