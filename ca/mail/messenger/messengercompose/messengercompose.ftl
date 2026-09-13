@@ -10,6 +10,15 @@ compose-message-attachment-name = Missatge adjunt
 
 ## Compose window
 
+compose-attachment-reminder-title = Recordatori d'adjunció
+compose-attachment-reminder-prompt = Heu oblidat d'afegir un fitxer adjunt?
+compose-attachment-reminder-send-button = No, envia'l ara
+compose-attachment-reminder-add-button = Sí, i tant!
+remind-later-button =
+    .label = Recorda-m'ho més tard
+    .accesskey = R
+disable-attachment-reminder-menu-item =
+    .label = Inhabilita el recordatori d'adjunció per al missatge actual
 
 ## Send Format
 
@@ -431,6 +440,7 @@ cloud-file-account-error-title = Error de compte de Filelink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = No s'ha pogut actualitzar l'adjunció de Filelink { $filename } perquè s'ha suprimit el compte de Filelink.
+cloud-file-authentication-error-title = Error d'autenticació
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
