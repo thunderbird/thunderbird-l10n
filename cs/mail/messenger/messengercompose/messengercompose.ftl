@@ -27,11 +27,16 @@ compose-invalid-address = { $address } není platná e-mailová adresa, protože
 compose-attach-page-title = Zadejte prosím cestu pro přílohu
 compose-attach-page-prompt = Webová stránka (URL):
 compose-message-part-attachment-name = Část připojené zprávy
+compose-file-attachment-error-title = Připojení souboru
 remind-later-button =
     .label = Upozornit mě později
     .accesskey = U
 disable-attachment-reminder-menu-item =
     .label = Zakázat připomenutí o příloze pro tuto zprávu
+find-replace-button =
+    .label = Nahradit…
+    .accesskey = a
+    .tooltiptext = Zobrazí dialog pro nalezení a náhradu
 
 ## Send Format
 
@@ -482,6 +487,33 @@ big-file-notification-text =
         [few] Tyto soubory jsou velké. Bylo by vhodnější použít úložiště a poslat pouze odkaz.
        *[other] Tyto soubory jsou velké. Bylo by vhodnější použít úložiště a poslat pouze odkaz.
     }
+big-file-learn-more-button =
+    .label = Zjistit více…
+    .accesskey = Z
+big-file-link-button =
+    .label = Poslat odkaz
+    .accesskey = P
+big-file-ignore-button =
+    .label = Ignorovat
+    .accesskey = I
+big-file-choose-account-title = Vybrání účtu
+big-file-choose-account-prompt = Vyberte účet úložiště, kam chcete přílohu nahrát
+big-file-hide-notification-title = Nenahrávat soubory
+big-file-hide-notification-prompt = Pokud k této zprávě přidáte další velké soubory, nebudete již upozorněni.
+big-file-hide-notification-checkbox = Příště mě již neupozorňovat.
+cloudfile-uploading-stop-button =
+    .label = Příště již nezobrazovat
+    .accesskey = n
+cloud-file-privacy-warning = Nahrávání souboru bylo dokončeno. Upozorňujeme, že takto připojené soubory mohou být dostupné komukoliv, kdo zná nebo dokáže uhodnout jejich odkaz.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Nahrávání na { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Nahráno na { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Připojit soubor pomocí { $provider }
 
 ## Link Preview
 
