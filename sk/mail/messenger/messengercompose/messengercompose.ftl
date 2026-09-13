@@ -85,6 +85,10 @@ compose-custom-from-address-placeholder = Zadajte vlastnú adresu odosielateľa 
 compose-custom-from-address-title = Nastavenie adresy odosielateľa
 compose-custom-from-address-warning = Ak to váš poskytovateľ e‑mailovej schránky podporuje, môžete jednorázovo vykonať drobné zmeny v adrese odosielateľa bez nutnosti vytvárať novú identitu v Nastaveniach účtu. Napríklad, ak je vaša adresa Eva Nová <eva.nova@example.com>, môžete ju zmeniť na Eva Nová <eva+nova@example.com> alebo Eva <eva@example.com>.
 compose-custom-from-address-ignore = Viac ma na toto neupozorňovať
+compose-blocked-content-options-button = Možnosti
+compose-blocked-content-options-accesskey = M
+compose-blocked-content-preferences-button = Možnosti
+compose-blocked-content-preferences-accesskey = M
 # Variables:
 # $url - URL of the blocked resource
 compose-unblock-resource =
