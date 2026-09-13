@@ -16,6 +16,7 @@ compose-initialization-error = Der opstod en fejl under oprettelsen af en nyt vi
 # $subject - message subject
 # $brand - application name
 compose-window-title = Skriv: { $subject } - { $brand }
+compose-save-message-title = Gem meddelelsen
 # Variables:
 # $folder - configured drafts folder name
 compose-save-message-prompt = Gem denne meddelelse i din kladdemappe ({ $folder }) og luk Skriv-vinduet?
