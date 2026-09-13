@@ -24,3 +24,51 @@ send-error-smtp-interrupted = 消息未发送，因为与发件服务器（SMTP�
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = 消息未发送，因为与发件服务器（SMTP）{ $hostname } 的连接超时。请重试。
 send-error-title = 发送消息时出错
+send-progress-assembling-mail-information = 正在收集邮件信息…
+send-progress-assembling-message = 正在收集消息…
+send-progress-creating-mail-message = 正在创建邮件消息…
+send-progress-assembling-message-done = 正在收集消息…完成
+send-progress-copy-complete = 复制完成。
+send-progress-copy-failed = 复制失败。
+send-progress-filter-complete = 过滤完成。
+send-progress-filter-failed = 过滤失败。
+send-error-post-failed = 连接到新闻服务器失败，消息无法发出。服务器可能不可用或者拒绝连接。请验证您的新闻服务器设置是否正确，然后再试。
+# Variables:
+# $size - formatted message size
+send-warning-large-message = 警告！您将发送一封大小为 { $size } 的消息，它可能超过邮件服务器允许的限制。您确定要发送吗？
+# Variables:
+# $folder - destination folder name
+send-progress-copy-start = 正在复制消息到 { $folder } 文件夹…
+send-progress-sending-message = 正在发送消息…
+send-later-error-title = 以后发送出错
+send-save-draft-error-title = 保存草稿出错
+send-save-template-error-title = 保存模板出错
+# LOCALIZATION NOTE: This string must use only US-ASCII characters.
+send-undisclosed-recipients = 不详收件人
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-no-ssl = 发件服务器（SMTP） { $hostname } 似乎不支持加密过的密码。如果您刚设置好这个账号，请尝试将“账号设置 | 发件服务器（SMTP）”中的“验证方式”更改为“不安全传输的密码”。如果这曾经可用但现在已不支持，您可能要考虑您的密码是否已被盗。
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-ssl = 发件服务器（SMTP） { $hostname } 似乎不支持加密过的密码。如果您刚设置好这个账号，请尝试将“账号设置 | 发件服务器（SMTP）”中的“验证方式”更改为“普通密码”。
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-plain-to-encrypt = 发件服务器（SMTP） { $hostname } 不允许明文密码。请尝试将“账号设置 | 发件服务器（SMTP）”中的“验证方式”更改为“加密的密码”。
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-failure = 无法向发件服务器（SMTP） { $hostname } 进行认证。请检查密码和验证“账号设置 | 服务器设置”中的“认证方式”。
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-gssapi = Kerberos/GSSAPI 令牌没有被发件服务器（SMTP）{ $hostname } 接受。请检查您是否已经登录 Kerberos/GSSAPI 域。
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-mechanism-not-supported = 发件服务器（SMTP）{ $hostname } 不支持您所选择的认证方式。请试着修改“账号设置”中“服务器设置”的“认证方式”。
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-from-command = 发送邮件时出错。邮件服务器响应：{ $serverResponse }。请验证您在账户设置中的电子邮件地址是否正确，然后再试。
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-data-command = 发送邮件时发件服务器（SMTP）出错。服务器响应：{ $serverResponse }。
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-message = 发送邮件时出错。邮件服务器响应：{ $serverResponse }。请检查该消息然后再试。
