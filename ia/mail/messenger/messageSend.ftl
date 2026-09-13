@@ -24,3 +24,43 @@ send-error-smtp-interrupted = Le message non poteva esser inviate perque le conn
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = Le message non poteva esser inviate perque le connexion al servitor de exito (SMTP) { $hostname } ha expirate. Tenta lo de novo.
 send-error-title = Error de invio
+send-progress-assembling-mail-information = Assemblage de informationes de posta…
+send-progress-assembling-message = Assemblage de message…
+send-progress-creating-mail-message = Creante message de e-mail…
+send-progress-assembling-message-done = Assemblage de message…Facite
+send-progress-copy-complete = Copia complete.
+send-progress-copy-failed = Copia fallite.
+send-dialog-save-title = Salvar message
+send-progress-filter-complete = Filtro complete.
+send-progress-filter-failed = Filtro fallite.
+# Variables:
+# $size - formatted message size
+send-warning-large-message = Advertimento! Tu va inviar un message de dimension { $size }. Desira tu vermente facer isto?
+# Variables:
+# $folder - destination folder name
+send-progress-copy-start = Copiante message al dossier { $folder }…
+send-progress-sending-message = Invio message in curso…
+send-later-error-title = { "" }
+send-save-draft-error-title = Error de salvar esbosso
+send-save-template-error-title = Error de salvar modello
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-no-ssl = Le servitor de exito (SMTP) { $hostname } non pare supportar contrasignos cryptate. Si tu ha justo ora configurate iste conto, tenta cambiar le ‘Methodo de authentication’ in ‘Parametros de contos | Servitor de exito (SMTP)’ a ‘Contrasigno, transmittite sin securitate’. Si illo functionava antea e ora subito falle, es possibile que alcuno tenta furar tu contrasigno.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-ssl = Le servitor de exito (SMTP) { $hostname } non pare supportar contrasignos cryptate. Si tu ha justo ora configurate iste conto, tenta cambiar le ‘Methodo de authentication’ in ‘Parametros de contos | Servitor de exito (SMTP)’ a ‘Contrasigno normal’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-plain-to-encrypt = Le servitor de exito (SMTP) { $hostname } non permitte contrasignos in texto simple. Tenta cambiar le ‘Methodo de authentication’ in ‘Parametros de contos | Servitor de exito (SMTP)’ a ‘Contrasigno cryptate’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-failure = Impossibile authenticar se al servitor de exito (SMTP) { $hostname }. Verifica le contrasigno e le ‘Methodo de authentication’ in ‘Parametros de contos | Servitor de exito (SMTP)’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-gssapi = Le ticket Kerberos/GSSAPI non ha essite acceptate per le servitor de exito (SMTP) { $hostname }. Verifica que tu ha aperite session in le dominio Kerberos/GSSAPI.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-mechanism-not-supported = Le servitor de exito (SMTP) { $hostname } non supporta le methodo de authentication seligite. Cambia le ‘Methodo de authentication’ in ‘Parametros de contos | Servitor de exito (SMTP)’.
+# Variables:
+# $serverResponse - server response
+smtp-permanent-size-exceeded = Le dimension del message a inviar excede le limite global del servitor. Le message non ha essite inviate. Rende le message minus grande e tenta lo de novo. Le servitor ha respondite:  { $serverResponse }.
