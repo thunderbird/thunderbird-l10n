@@ -24,3 +24,22 @@ send-error-smtp-interrupted = Izen ur yezmir ara ad yettwaceggeɛ  acku tuqqna �
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = Izen ur yezmir ara ad yettwazen acku tuqqna ɣer uqeddac uffiɣ (SMTP) { $hostname } tɛedda deg akud. Ɛreḍ tikelt nniḍen.
 send-error-title = Tuccḍa di tuzna n yizen
+send-progress-assembling-mail-information = Asdukel n telɣut n yizen…
+send-progress-assembling-message = Asdukel n yizen…
+send-progress-creating-mail-message = Timerna n yizen n yimayl…
+send-progress-assembling-message-done = Asdukel n yizen…Yemmed
+send-progress-copy-complete = Anɣal yemmed.
+send-progress-copy-failed = Anɣal ur yeddi ara.
+send-dialog-save-title = Sekles izen
+send-progress-filter-complete = Azizdeg yemmed.
+send-progress-filter-failed = Azizdeg ur yeddi ara.
+# Variables:
+# $size - formatted message size
+send-warning-large-message = Ɣur-k! Aqlak tettedduḍ ad tazneḍ izen n teɣzi n { $size }. Tebɣiḍ ad tazneḍ tura?
+# Variables:
+# $folder - destination folder name
+send-progress-copy-start = Anɣal n yeznan ɣer { $folder }…
+send-progress-sending-message = Tuzzna n yizen...
+send-later-error-title = Tucccḍa di tuzna n ticki
+send-save-draft-error-title = Tuccḍa deg usekles arewway
+send-save-template-error-title = Asekles n tuccḍa n tneɣruft
