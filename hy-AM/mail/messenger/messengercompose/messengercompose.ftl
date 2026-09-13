@@ -10,19 +10,31 @@ compose-message-attachment-name = Կցված նամակ
 
 ## Compose window
 
+compose-default-subject = (անվերնագիր)
 # Variables:
 # $subject - message subject
 # $brand - application name
 compose-window-title = Գրել՝ { $subject } ֊ { $brand }
+compose-save-message-title = Պահպանել նամակը
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Պահպանե՞լ այս հաղորդագրությունը Ձեր նախագծերի թղթապանակում ({ $folder }) և փակել Գրելու պատուհանը:
+compose-discard-changes-button = &Հրաժարվել փոփոխություններից
 compose-send-confirm-title = Ուղարկել
 compose-send-confirm-prompt = Պատրա՞ստ եք ուղարկելու այս նամակը։
 compose-send-confirm-button = Ուղարկել
+compose-do-not-show-again = Այլևս չույց չտալ այս պատուհանը
 compose-empty-subject-title = Վերնագրի հիշեցում
 compose-empty-subject-prompt = Ձեր նամակը չունի վերնագիր։
 compose-empty-subject-send-button = Ուղարկել առանց վերնագրի
 compose-empty-subject-cancel-button = Չուղարկել
+compose-attachment-reminder-title = Կցորդի հիշեցում
+compose-attachment-reminder-prompt = Մոռացե՞լ եք կցել ֆայլ։
+compose-attachment-reminder-send-button = Ոչ, ուղարկել
+compose-attachment-reminder-add-button = Այո, մոռացել էի...
 compose-newsgroups-not-supported-title = Նրախմբերը չեն աջակցվում
 compose-newsgroups-not-supported = Փոստարկղը աջակցում է միայն հասցեատերերի։ Լուրախմբերը կանտեսվեն։
+compose-quit-sending-title = Նամակը ուղարկվում է
 compose-quit-saving-title = Նամակը պահպանվում է
 # Variables:
 # $brand - application name
@@ -36,6 +48,29 @@ compose-quit-saving-prompt =
     Սպասե՞լ մինչ նամակը պահպանվի, թե փակել ծրագիրը։
 compose-quit-button = Փակել
 compose-wait-button = Սպասել
+compose-attach-file-picker-title = Կցել ֆայլ
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = { $filename } ֆայլը գոյություն չունի, ուստի չի կարող կցվել նամակին։
+compose-message-file-error-title = Հաղորդագրության նիշք
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = { $filename } նիշքը գոյություն չունի և չի կարող լինել նամակի մարմին։
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = { $filename } նիշքը հնարավոր չէ բեռնել որպես հաղորդագրության մարմին:
+compose-save-success-title = Պահպանել նամակը
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Ձեր նամակը պահպանվել է { $folder } թղթապանակում { $server }։
+compose-rename-attachment-title = Վերանվանել կցորդը
+compose-rename-attachment-prompt = Կցորդի նոր անունը.
+remind-later-button =
+    .label = Հիշեցնել ավելի ուշ
+    .accesskey = L
+disable-attachment-reminder-menu-item =
+    .label = Անջատել հավելվածի հիշեցումը ընթացիկ հաղորդագրության համար
 find-replace-button =
     .label = Փոխարինել...
     .accesskey = x
@@ -46,6 +81,14 @@ compose-custom-from-address-placeholder = Մուտքագարել հարմարե�
 compose-custom-from-address-title = Հարմարեցնել հասցեից
 compose-custom-from-address-warning = Եթե էլ. փոստի ձեր մատակարարը աջակցում է այն, ապա Հարմարեցումը հասցեից հնարավորություն է տալիս ստեղծել մեկանգամյա փոփոխություն ձեր Ումից հասցեի համար՝ առանց Հաշվի կարգավորումներում նոր հատկորոշիչ ստեղծելու: Օրինակ՝ եթե ձեր Ումից հասցեն է John Doe <john@example.com>, ապա կարող եք այն փոխել John Doe <john+doe@example.com>-ի կամ John <john@example.com>-ի:
 compose-custom-from-address-ignore = Այլևս չծանուցել:
+compose-blocked-content-options-button = Ընտրանքներ
+compose-blocked-content-options-accesskey = O
+compose-blocked-content-preferences-button = Նախընտրություններ
+compose-blocked-content-preferences-accesskey = P
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Ապակապանել { $url }
 
 ## Send Format
 
