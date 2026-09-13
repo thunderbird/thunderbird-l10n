@@ -11,6 +11,7 @@ compose-message-attachment-name = 附加消息
 ## Compose window
 
 compose-initialization-error-title = 书写消息
+compose-initialization-error = 创建写信窗口时出错，请重试。
 compose-default-subject = （无主题）
 # Variables:
 # $subject - message subject
@@ -36,6 +37,7 @@ compose-attachment-reminder-add-button = 噢，又忘了！
 compose-newsgroups-not-supported-title = 不支持新闻组
 compose-newsgroups-not-supported = 此账户仅支持电子邮件收件人。继续将忽略新闻组。
 compose-invalid-address-title = 收件人地址无效
+compose-no-recipients = 没有指定收件人。请在地址区域输入一个收件人或者新闻组。
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address } 不是正确的电子邮件地址，因为它不是类似 user@host 的格式。您必须在发送邮件之前改正它。
