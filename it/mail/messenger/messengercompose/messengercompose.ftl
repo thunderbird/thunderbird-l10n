@@ -10,14 +10,31 @@ compose-message-attachment-name = Messaggio allegato
 
 ## Compose window
 
+compose-initialization-error-title = Composizione messaggio
+compose-initialization-error = Si è verificato un errore nella creazione della finestra di composizione messaggio. Riprovare più tardi.
+compose-default-subject = (nessun oggetto)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Scrivi: { $subject } - { $brand }
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Salvare il messaggio nella cartella bozze ({ $folder }) e chiudere la finestra di scrittura?
+compose-discard-changes-button = &Ignora le modifiche
 compose-send-confirm-title = Invia messaggio
 compose-send-confirm-prompt = Inviare questo messaggio?
 compose-send-confirm-button = Spedisci
 compose-do-not-show-again = Non mostrare questa finestra in futuro.
+compose-empty-subject-title = Promemoria oggetto
+compose-empty-subject-prompt = Questo messaggio non ha oggetto.
+compose-empty-subject-send-button = &Invia senza oggetto
+compose-empty-subject-cancel-button = &Annulla invio
 compose-attachment-reminder-title = Promemoria allegato
 compose-attachment-reminder-prompt = Manca l’allegato, inviare comunque?
 compose-attachment-reminder-send-button = Sì, invia
 compose-attachment-reminder-add-button = No, non inviare
+compose-newsgroups-not-supported-title = Gruppi di discussione non supportati
+compose-newsgroups-not-supported = Questo account gestisce solo destinatari di posta. Se si continua saranno ignorati i gruppi di discussione.
 compose-quit-sending-title = Invio messaggio
 compose-quit-saving-title = Salvataggio messaggio
 # Variables:
@@ -32,9 +49,13 @@ compose-quit-saving-prompt =
     Attendere il completamento dell’operazione o uscire immediatamente?
 compose-quit-button = &Uscire
 compose-wait-button = &Attendere
+compose-attach-file-picker-title = Scelta allegato
+compose-attachment-bucket-attach-files-tooltip = Allega file
+compose-attachment-bucket-clear-selection-tooltip = Pulisci la selezione
 # Variables:
 # $filename - name of the file that could not be found
 compose-file-attachment-not-found = Il file { $filename } non esiste e pertanto non può essere allegato al messaggio.
+compose-file-attachment-error-title = Allegato
 compose-message-file-error-title = File messaggi
 # Variables:
 # $filename - name of the file that could not be found
@@ -54,6 +75,24 @@ remind-later-button =
     .accesskey = R
 disable-attachment-reminder-menu-item =
     .label = Disattivare promemoria allegati per il messaggio corrente
+find-replace-button =
+    .label = Sostituisci…
+    .accesskey = S
+    .tooltiptext = Mostrare la finestra di dialogo Trova e Sostituisci
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Digitare il campo Da personalizzato che si intende usare al posto di { $identity }
+compose-custom-from-address-title = Personalizza il campo Da
+compose-custom-from-address-warning = Se il provider di posta elettronica lo consente, “Personalizza il campo Da” consente di effettuare una piccola modifica una tantum all’indirizzo mittente senza dover creare una nuova identità in Impostazioni account. Ad esempio, se l’indirizzo del mittente è Mario Rossi <mario@example.com> è possibile cambiarlo in Mario Rossi <mario+rossi@example.com> o in Mario <mario@example.com>.
+compose-custom-from-address-ignore = Non avvisare più.
+compose-blocked-content-options-button = Opzioni
+compose-blocked-content-options-accesskey = O
+compose-blocked-content-preferences-button = Preferenze
+compose-blocked-content-preferences-accesskey = P
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Sblocca { $url }
 
 ## Send Format
 
@@ -476,6 +515,33 @@ cloud-file-account-error-title = Errore con l’account Filelink
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Non è stato possibile aggiornare l’allegato Filelink { $filename } in quanto il relativo account Filelink è stato eliminato.
 # Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Impossibile autenticarsi su { $provider }.
+cloud-file-upload-error-title = Errore di invio
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Impossibile inviare { $filename } a { $provider }.
+cloud-file-quota-error-title = Errore di quota
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Inviare { $filename } a { $provider } farebbe oltrepassare il limite di spazio concesso.
+cloud-file-size-error-title = Errore nella dimensione del file
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } supera la dimensione massima per { $provider }.
+cloud-file-unknown-error-title = Errore sconosciuto
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Si è verificato un errore nel tentativo di comunicare con { $provider }.
+cloud-file-deletion-error-title = Errore durante l’eliminazione
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = È stato riscontrato un problema durante l’eliminazione di { $filename } da { $provider }.
+# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
     { $count ->
@@ -503,6 +569,9 @@ big-file-choose-account-prompt = Scegli un account cloud a cui inviare l’alleg
 big-file-hide-notification-title = Non inviare i file
 big-file-hide-notification-prompt = Non sarà più mostrato alcun avviso se si allegano file di grandi dimensioni a questo messaggio.
 big-file-hide-notification-checkbox = Non avvisare più.
+cloudfile-uploading-stop-button =
+    .label = Non mostrare di nuovo
+    .accesskey = N
 cloud-file-privacy-warning = La procedura di collegamento è completata. È opportuno notare che gli allegati possono essere a disposizione di chi è in grado di leggere o indovinare i link.
 # Variables:
 # $provider - name of the online storage service
@@ -510,6 +579,9 @@ cloud-file-uploading-tooltip = Invio a { $provider }…
 # Variables:
 # $provider - name of the online storage service
 cloud-file-uploaded-tooltip = Inviato a { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Allega file con { $provider }
 
 ## Link Preview
 
