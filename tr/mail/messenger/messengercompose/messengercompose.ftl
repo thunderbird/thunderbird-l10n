@@ -11,6 +11,10 @@ compose-message-attachment-name = Ekli ileti
 ## Compose window
 
 compose-file-attachment-error-title = Dosya Eki
+find-replace-button =
+    .label = Değiştir…
+    .accesskey = D
+    .tooltiptext = Bul ve Değiştir penceresini göster
 
 ## Send Format
 
@@ -447,6 +451,12 @@ big-file-notification-text =
         [one] Bu büyük bir dosya. Filelink kullanmak daha iyi olabilir.
        *[other] Bunlar büyük dosyalar. Filelink kullanmak daha iyi olabilir.
     }
+cloudfile-uploading-stop-button =
+    .label = Bunu bir daha gösterme
+    .accesskey = b
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = { $provider } ile Dosya Ekle
 
 ## Link Preview
 
