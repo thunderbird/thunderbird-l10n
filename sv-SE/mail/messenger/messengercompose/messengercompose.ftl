@@ -83,6 +83,10 @@ remind-later-button =
     .accesskey = P
 disable-attachment-reminder-menu-item =
     .label = Inaktivera påminnelse om bilaga i aktuellt meddelande
+find-replace-button =
+    .label = Ersätt…
+    .accesskey = E
+    .tooltiptext = Visa Fönstret Sök och ersätt
 # Variables:
 # $identity - identity address that would otherwise be used
 compose-custom-from-address-placeholder = Ange anpassad från adress som ska användas i stället för { $identity }
@@ -162,6 +166,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Expandera lista
     .accesskey = x
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = Ta bort { $field } adresser
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Är du säker på att du vill ta bort { $field }-adresserna?
+compose-remove-address-row-button = Ta bort
 
 ## Attachment widget
 
@@ -520,6 +531,33 @@ cloud-file-account-error-title = Fillänkskontofel
 cloud-file-account-error = Det gick inte att uppdatera fillänksbilagan { $filename }, eftersom dess fillänkskonto har tagits bort.
 cloud-file-authentication-error-title = Autentiseringsfel
 # Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Kan inte autentisera till { $provider }.
+cloud-file-upload-error-title = Överföringsfel
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Kan inte överföra { $filename } till { $provider }.
+cloud-file-quota-error-title = Quota-fel
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Överföra { $filename } till { $provider } skulle överstiga din utrymmeskvot.
+cloud-file-size-error-title = Filstorleksfel
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } överskrider den maximala storleken för { $provider }.
+cloud-file-unknown-error-title = Okänt fel
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Ett okänt fel inträffade när du kommunicerade med { $provider }.
+cloud-file-deletion-error-title = Borttagningsfel
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Det inträffade ett problem vid borttagning av { $filename } från { $provider }.
+# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
     { $count ->
@@ -547,6 +585,9 @@ big-file-choose-account-prompt = Välj ett konto för att överföra bilagan til
 big-file-hide-notification-title = Överför inte mina filer
 big-file-hide-notification-prompt = Du kommer inte att meddelas om du bifogar fler stora filer till detta meddelande.
 big-file-hide-notification-checkbox = Meddela mig aldrig om detta igen.
+cloudfile-uploading-stop-button =
+    .label = Visa aldrig detta igen
+    .accesskey = V
 cloud-file-privacy-warning = Länkning är klar. Observera att länkade bilagor kan vara tillgängliga för personer som kan se eller gissa länkarna.
 # Variables:
 # $provider - name of the online storage service
