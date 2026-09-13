@@ -35,6 +35,8 @@ compose-attachment-reminder-send-button = Не, адправіць зараз
 compose-attachment-reminder-add-button = Ай, я забыў!
 compose-newsgroups-not-supported-title = Групы навін не падтрымліваюцца
 compose-newsgroups-not-supported = Гэты ўліковы запіс падтрымлівае толькі атрымальнікаў электроннай пошты. Групы навін будуць праігнараваны пры працягу.
+compose-invalid-address-title = Няправільны адрас атрымальніка
+compose-no-recipients = Атрымальнікі не вызначаны. Калі ласка, дадайце атрымальніка або групу навін ў вобласці адрасавання.
 compose-quit-sending-title = Адпраўка паведамлення
 compose-quit-saving-title = Захаванне паведамлення
 # Variables:
@@ -50,6 +52,9 @@ compose-quit-saving-prompt =
 compose-quit-button = &Выйсці
 compose-wait-button = &Пачакаць
 compose-attach-file-picker-title = Прымацаваць файл(ы)
+compose-attach-page-title = Калі ласка, вызначыце размяшчэнне файла, які трэба прымацаваць
+compose-attach-page-prompt = Вэб-старонка (URL):
+compose-message-part-attachment-name = Частка прымацаванага паведамлення
 compose-attachment-bucket-attach-files-tooltip = Прымацаваць файл(ы)
 compose-attachment-bucket-clear-selection-tooltip = Ачысціць вылучэнне
 # Variables:
