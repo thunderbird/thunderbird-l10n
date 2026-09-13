@@ -5,6 +5,7 @@
 
 ## Compose alerts
 
+compose-message-cancelling = Membatalkan…
 compose-message-attachment-name = Pesan Terlampir
 
 ## Compose window
