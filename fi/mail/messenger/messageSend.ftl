@@ -48,6 +48,7 @@ send-error-save-draft-locally =
 send-error-save-template-locally =
     Malliasi ei voitu kopioida Mallit-kansioosi ({ $folder }) verkkovirheen tai tiedostonkäsittelyvirheen vuoksi.
     Voit yrittää uudelleen tai tallentaa mallin paikallisesti kansioon { $localFolder }/{ $folder }-{ $account }.
+send-dialog-save-title = Tallenna viesti
 send-dialog-retry = &Yritä uudelleen
 send-error-save-to-local-folders = Viestiäsi ei voitu tallentaa paikallisiin kansioihin. Syynä saattaa olla levytilan puute.
 send-progress-filter-complete = Suodatin suoritettiin.
