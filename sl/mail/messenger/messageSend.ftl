@@ -85,6 +85,9 @@ smtp-starttls-failed = Pri pošiljanju pošte je prišlo do napake : ni mogoče 
 # $serverResponse - server response
 smtp-error-sending-from-command = Med pošiljanjem pošte je prišlo do napake. Poštni strežnik je odgovoril: { $serverResponse }. Preverite, ali je vaš e-poštni naslov v nastavitvah računa pravilen in poskusite znova.
 # Variables:
+# $serverResponse - server response
+smtp-permanent-size-exceeded = Velikost sporočila, ki ga poskušate poslati, presega splošno omejitev strežnika. Sporočilo ni bilo poslano; zmanjšajte velikost sporočila in poskusite znova. Strežnik je odgovoril:  { $serverResponse }.
+# Variables:
 # $serverResponse - server response; $recipient - intended recipient
 smtp-error-sending-recipient-command =
     Med pošiljanjem pošte je prišlo do napake. Poštni strežnik je odgovoril:
