@@ -38,7 +38,18 @@ send-progress-copy-failed = Kopyalama başarısız oldu.
 send-error-save-sent-locally =
     İletiniz gönderildi ama ağ veya dosya erişim hataları nedeniyle “gönderilmiş” klasörünüze ({ $folder }) kaydedilemedi.
     Yeniden deneyebilir veya iletiyi { $localFolder }/{ $folder }-{ $account } yerel klasörüne kaydedebilirsiniz.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-draft-locally =
+    Taslak iletiniz, ağ veya dosya erişim hataları nedeniyle şablonlar klasörünüze ({ $folder }) kaydedilemedi.
+    Yeniden deneyebilir veya taslağı { $localFolder }/{ $folder }-{ $account } yerel klasörüne kaydedebilirsiniz.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-template-locally =
+    Şablonunuz, ağ veya dosya erişim hataları nedeniyle şablonlar klasörünüze ({ $folder }) kaydedilemedi.
+    Yeniden deneyebilir veya şablonu { $localFolder }/{ $folder }-{ $account } yerel klasörüne kaydedebilirsiniz.
 send-dialog-save-title = İletiyi Kaydet
+send-dialog-retry = &Yeniden dene
 send-error-save-to-local-folders = İletiniz yerel klasörlere kaydedilemedi. Büyük olasılıkla yeterli alan yok.
 send-progress-filter-complete = Süzme tamamlandı.
 send-progress-filter-failed = Süzme başarısız oldu.
@@ -64,6 +75,24 @@ send-undisclosed-recipients = açıklanmayan alıcılar
 # Variables:
 # $recipient - recipient address
 smtp-error-illegal-local-part = { $recipient } alıcı adresinin yerel kısmında ASCII dışı karakterler var ve sunucunuz SMTPUTF8 desteklemiyor. Lütfen bu adresi değiştirip tekrar deneyin.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-no-ssl = { $hostname } giden sunucusu (SMTP) şifrelenmiş parolaları desteklemiyor. Bu hesabı yeni eklediyseniz "Hesap ayarları > Giden sunucusu (SMTP)" kısmındaki "Yetkilendirme yöntemi"ni "Parola, güvensiz aktarım" olarak değiştirmeyi deneyin. Hesabınız daha önce çalışmasına rağmen şu anda çalışmıyorsa birisi parolanızı çalmaya çalışıyor olabilir.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-ssl = { $hostname } giden sunucusu (SMTP) şifrelenmiş parolaları desteklemiyor. Bu hesabı yeni eklediyseniz "Hesap ayarları > Giden sunucusu (SMTP)" kısmındaki "Kimlik doğrulama yöntemi"ni "Normal parola" olarak değiştirmeyi deneyin.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-plain-to-encrypt = { $hostname } giden sunucusu (SMTP) düz metin parolalara izin vermiyor. "Hesap ayarları > Giden sunucusu (SMTP)" kısmındaki "Kimlik doğrulama yöntemi"ni "Şifrelenmiş parola" olarak değiştirmeyi deneyin.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-failure = { $hostname } giden sunucusunda (SMTP) kimlik doğrulanamadı. Lütfen parolanızı ve "Hesap Ayarları > Giden sunucusu (SMTP)" bölümündeki "Kimlik doğrulama yöntemi"ni kontrol edin.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-gssapi = Kerberos/GSSAPI bileti { $hostname } giden sunucusu (SMTP) tarafından kabul edilmedi. Lütfen Kerberos/GSSAPI bölgesine oturum açtığınızdan emin olun.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-mechanism-not-supported = { $hostname } giden sunucusu (SMTP) sunucusu seçilen kimlik doğrulama yöntemini desteklemiyor. Lütfen "Hesap ayarları > Giden sunucusu (SMTP)" kısmındaki "Kimlik doğrulama yöntemi"ni değiştirin.
 # Variables:
 # $serverResponse - server response
 smtp-server-error = Posta gönderilirken bir hata oluştu: Giden sunucusu (SMTP) hatası. Sunucunun yanıtı:  { $serverResponse }.
