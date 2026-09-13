@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 attachment-reminder-dialog-title = Lembrete de palavras-chave de anexos
+attachment-reminder-description = Mostrar um lembrete para anexos em falta, se o e-mail contiver palavras-chave correspondentes.
 attachment-reminder-label = O { -brand-short-name } irá avisar-lhe acerca de anexos em falta se estiver para enviar uma mensagem eletrónica que possua uma destas palavras-chave.
 keyword-new-button =
     .label = Nova…

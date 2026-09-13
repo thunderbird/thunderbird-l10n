@@ -38,3 +38,4 @@ panel-settings-spam = Definições de lixo eletrónico
 # Variables:
 # $account (String) - The account name.
 spam-settings-alert-message = Problema detetado com as definições de spam para { $account }. Gostaria de rever as mesmas antes de guardar as alterações?
+open-settings-sidebar-button = Definições
