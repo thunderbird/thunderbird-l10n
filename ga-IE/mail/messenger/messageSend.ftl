@@ -33,6 +33,8 @@ send-error-attaching-file = Tharla earráid agus { $filename } á cheangal. Deim
 send-progress-assembling-message-done = Teachtaireacht á cóimeáil…Críochnaithe
 send-progress-copy-complete = Cóipeáil críochnaithe.
 send-progress-copy-failed = Theip ar an gcóipeáil.
+send-dialog-save-title = Sábháil an Teachtaireacht
+send-error-save-to-local-folders = Ní féidir do theachtaireacht a shábháil i bhfillteán áitiúil. Seans nach bhfuil aon spás fágtha.
 send-progress-filter-complete = Scagaire críochnaithe.
 send-progress-filter-failed = Theip ar an scagaire.
 send-error-filtering-message = Seoladh agus sábháladh do theachtaireacht, ach tharla earráid agus na scagairí teachtaireachta á gcur i bhfeidhm uirthi.
@@ -51,6 +53,24 @@ send-save-draft-error-title = Earráid Sábhála Dréachta
 send-save-template-error-title = Earráid Sábhála Teimpléid
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = faighteoiri-neamhnochtaithe
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-no-ssl = De réir cosúlachta, ní thacaíonn an freastalaí amach (SMTP) { $hostname } le focail fhaire chriptithe. Má tá tú go díreach tar éis an chuntais a shocrú, athraigh an ‘Modh fíordheimhnithe’ faoi ‘Socruithe an Chuntais | Freastalaí amach (SMTP)’ go ‘Focal faire, seolta go neamhshlán’. Má fheidhmigh sé roimhe seo ach má tá sé briste anois, seans go bhfuil d'fhocal faire i mbaol goidte.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-ssl = De réir cosúlachta, ní thacaíonn an freastalaí amach (SMTP) { $hostname } le focail fhaire chriptithe. Má tá tú go díreach tar éis an chuntais a shocrú, athraigh an ‘Modh fíordheimhnithe’ faoi ‘Socruithe an Chuntais | Freastalaí amach (SMTP)’ go ‘Gnáthfhocal faire’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-plain-to-encrypt = Ní cheadaíonn an freastalaí amach (SMTP) { $hostname } focail fhaire neamhchriptithe. Ba chóir duit an ‘Modh fíordheimhnithe’ faoi ‘Socruithe an Chuntais | Freastalaí amach (SMTP)’ go ‘Focal faire criptithe’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-failure = Níorbh fhéidir fíordheimhniú a dhéanamh leis an bhfreastalaí amach (SMTP) { $hostname }. Deimhnigh an focal faire agus an ‘Modh fíordheimhnithe’ faoi ‘Socruithe an Chuntais | Freastalaí amach (SMTP)’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-gssapi = Níor ghlac an freastalaí amach (SMTP) { $hostname } leis an ticéad Kerberos/GSSAPI. Bí cinnte go bhfuil tú logáilte isteach san fhearann Kerberos/GSSAPI.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-mechanism-not-supported = Ní thacaíonn an freastalaí amach (SMTP) { $hostname } leis an modh roghnaithe fíordheimhnithe. Athraigh an ‘Modh fíordheimhnithe’ i ‘Socruithe an Chuntais | Freastalaí Amach (SMTP)’.
 # Variables:
 # $serverResponse - server response
 smtp-server-error = Tharla earráid agus ríomhphost á sheoladh: Earráid leis an bhfreastalaí amach (SMTP). Seo é an freagra ón bhfreastalaí: { $serverResponse }.
