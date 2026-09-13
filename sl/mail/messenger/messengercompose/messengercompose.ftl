@@ -22,6 +22,14 @@ compose-invalid-address-title = Neveljaven naslov prejemnika
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address } ni veljaven e-poštni naslov, ker ni oblike uporabnik@gostitelj. Preden lahko e-pošto pošljete, morate to popraviti.
+compose-quit-saving-title = Sporočilo se shranjuje
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } je trenutno v opravilu pošiljanja sporočila.
+    Želite počakati, da se sporočilo pošlje preden končate, ali želite končati takoj?
+compose-quit-button = &Končaj
+compose-wait-button = &Počakaj
 compose-attach-page-title = Navedite mesto za priponko
 compose-attach-page-prompt = Spletna stran (naslov):
 compose-message-part-attachment-name = Pripet del sporočila
