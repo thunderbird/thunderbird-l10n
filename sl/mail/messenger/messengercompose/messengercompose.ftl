@@ -470,6 +470,7 @@ cloud-file-account-error-title = Napaka računa Filelink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Priponke Filelink { $filename } ni bilo mogoče posodobiti, ker je bil račun za Filelink izbrisan.
+cloud-file-authentication-error-title = Napaka ob overitvi
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
