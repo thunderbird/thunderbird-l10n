@@ -17,6 +17,7 @@ compose-default-subject = (sem assunto)
 # $subject - message subject
 # $brand - application name
 compose-window-title = Escrever: { $subject } - { $brand }
+compose-save-message-title = Salvar mensagem
 # Variables:
 # $folder - configured drafts folder name
 compose-save-message-prompt = Salvar esta mensagem na pasta de rascunhos ({ $folder }) e fechar a janela de edição?
@@ -35,6 +36,10 @@ compose-attachment-reminder-send-button = Não, enviar agora
 compose-attachment-reminder-add-button = Sim, eu esqueci!
 compose-newsgroups-not-supported-title = Sem suporte a grupos de notícias
 compose-newsgroups-not-supported = Esta conta só suporta destinatários de email. Caso continue, os grupos de notícias serão ignorados.
+compose-invalid-address-title = Endereço de destinatário inválido
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } não é um endereço de email válido porque não está no formato usuário@servidor. Precisa corrigir antes de enviar o email.
 compose-quit-sending-title = Enviando mensagem
 compose-quit-saving-title = Salvando mensagem
 # Variables:
@@ -50,6 +55,9 @@ compose-quit-saving-prompt =
 compose-quit-button = &Sair
 compose-wait-button = &Aguardar
 compose-attach-file-picker-title = Anexar arquivos
+compose-attach-page-title = Especifique uma página web para anexar
+compose-attach-page-prompt = Página web (URL):
+compose-message-part-attachment-name = Seção da mensagem anexada
 compose-attachment-bucket-attach-files-tooltip = Anexar arquivos
 compose-attachment-bucket-clear-selection-tooltip = Limpar seleção
 # Variables:
@@ -158,6 +166,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Expandir lista
     .accesskey = x
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = Remover { $field } endereços
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Tem certeza que quer remover { $field } endereços?
+compose-remove-address-row-button = Remover
 
 ## Attachment widget
 
