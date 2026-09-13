@@ -10,6 +10,7 @@ compose-message-attachment-name = Ekli ileti
 
 ## Compose window
 
+compose-file-attachment-error-title = Dosya Eki
 
 ## Send Format
 
