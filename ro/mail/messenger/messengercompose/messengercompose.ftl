@@ -10,6 +10,29 @@ compose-message-attachment-name = Mesaj atașat
 
 ## Compose window
 
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Scrie mesajul: { $subject } - { $brand }
+compose-empty-subject-title = Amintire de lipsa subiectului
+compose-empty-subject-prompt = Mesajul tău nu are un subiect.
+compose-empty-subject-send-button = &Trimite fără subiect
+compose-empty-subject-cancel-button = &Anulează trimiterea
+compose-newsgroups-not-supported-title = Grupurile de discuții nu sunt suportate
+compose-newsgroups-not-supported = Acest cont acceptă doar destinatari pentru e-mail. Prin continuare, grupurile de discuții vor fi ignorate.
+compose-invalid-address-title = Adresă nevalidă de destinație
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } nu este o adresă de e-mail validă întrucât nu este de forma utilizator@gazdă. Trebuie să o corectezi înainte de a putea trimite mesajul e-mail.
+compose-attach-page-title = Te rugăm să specifici o locație pentru atașare
+compose-attach-page-prompt = Pagina web (URL):
+compose-message-part-attachment-name = Fragment de mesaj atașat
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Introdu o altă adresă a expeditorului ce va fi folosită în loc de { $identity }
+compose-custom-from-address-title = Personalizează adresa de trimitere
+compose-custom-from-address-warning = Dacă furnizorul de servicii de e-mail acceptă, „Personalizează adresa de trimitere” îți permite o singură modificare minoră a adresei din câmpul De la fără a mai fi nevoie să creezi o nouă identitate în setările contului. De exemplu, dacă adresa este Ion Popescu <ion@exemplu.com> ai putea vrea să o schimbi în Ion Popescu <ion+popescu@exemplu.com> sau Ion <ion@exemplu.com>.
+compose-custom-from-address-ignore = Nu mă mai notifica cu privire la asta
 
 ## Send Format
 
@@ -459,6 +482,9 @@ big-file-notification-text =
         [few] Acestea sunt fișiere mari. Ar putea fi mai bine să folosești în schimb Filelink.
        *[other] Acestea sunt fișiere mari. Ar putea fi mai bine să folosești în schimb Filelink.
     }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Atașează fișierul(ele) prin { $provider }
 
 ## Link Preview
 
