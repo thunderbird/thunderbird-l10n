@@ -37,6 +37,7 @@ compose-attachment-reminder-add-button = Ой, точно!
 compose-newsgroups-not-supported-title = Групи новин не підтримуються
 compose-newsgroups-not-supported = Цей обліковий запис підтримує лише отримувачів електронної пошти. Повідомлення до груп новин не надсилатимуться.
 compose-invalid-address-title = Недійсна адреса отримувача
+compose-no-recipients = Не вказано отримувача. Введіть отримувача або групу новин у полі адреси.
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address } не є адресою електронної пошти, оскільки він написаний не у формі user@host. Ви повинні виправити його перед надсиланням електронної пошти.
