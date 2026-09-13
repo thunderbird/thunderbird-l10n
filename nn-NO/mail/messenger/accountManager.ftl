@@ -38,3 +38,4 @@ panel-settings-spam = Søppelpostinnstillingar
 # Variables:
 # $account (String) - The account name.
 spam-settings-alert-message = Det vart oppdaga eit problem med søppelpostinnstillingane for { $account }. Vil du sjå gjennom, før du lagrar endringane?
+open-settings-sidebar-button = Innstillingar

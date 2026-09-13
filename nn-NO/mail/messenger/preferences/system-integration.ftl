@@ -39,3 +39,4 @@ system-search-integration-label =
 check-on-startup-label =
     .label = Alltid sjekk dette ved oppstart av { -brand-short-name }
     .accesskey = A
+system-settings-dialog-title = Systeminnstillingar
