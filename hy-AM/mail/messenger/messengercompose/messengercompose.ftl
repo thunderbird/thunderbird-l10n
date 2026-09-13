@@ -122,6 +122,13 @@ pill-action-move-cc =
 pill-action-move-bcc =
     .label = Տեղափոխել Bcc
     .accesskey = B
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = Ջնջել { $field } հասցեները
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Համոզվա՞ծ եք, որ ցանկանում եք ջնջել { $field } հասցեները:
+compose-remove-address-row-button = Ջնջել
 
 ## Attachment widget
 
