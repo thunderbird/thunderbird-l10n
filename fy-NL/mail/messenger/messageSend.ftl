@@ -7,6 +7,8 @@
 
 send-alert-queued-delivery-failed = Der is in flater bard by it ôfleverjen fan de net-ferstjoerde berjochten.
 send-alert-followup-to-sender = De skriuwer fan dit berjocht hat fersocht dat antwurden allinnich nei de skriuwer stjoerd wurde. As jo ek antwurdzje wolle nei de nijsgroep, foegje dan in nije rige ta oan it adressearringsgebied, kies Nijsgroep yn de ûntfangerslist en fier de namme fan de nijsgroep yn.
+send-unable-to-save-template = Kin jo berjocht net as sjabloan bewarje.
+send-unable-to-save-draft = Kin jo berjocht net as konsept bewarje.
 send-error-failed = Ferstjoeren fan it berjocht is mislearre.
 send-unable-to-send-later = Sorry, jo berjocht koe net bewarre wurde foar letter ferstjoeren.
 # Variables:
