@@ -10,6 +10,19 @@ compose-message-attachment-name = Pripeto sporočilo
 
 ## Compose window
 
+compose-empty-subject-title = Opomnik za zadevo
+compose-empty-subject-prompt = Vaše sporočilo je brez zadeve.
+compose-empty-subject-send-button = &Pošlji brez zadeve
+compose-empty-subject-cancel-button = P&rekliči pošiljanje
+compose-newsgroups-not-supported-title = Novičarske skupine niso podprte.
+compose-newsgroups-not-supported = Ta račun podpira samo prejemnike e-pošte. Če nadaljujete, bodo novičarske skupine prezrte.
+compose-invalid-address-title = Neveljaven naslov prejemnika
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } ni veljaven e-poštni naslov, ker ni oblike uporabnik@gostitelj. Preden lahko e-pošto pošljete, morate to popraviti.
+compose-attach-page-title = Navedite mesto za priponko
+compose-attach-page-prompt = Spletna stran (naslov):
+compose-message-part-attachment-name = Pripet del sporočila
 
 ## Send Format
 
