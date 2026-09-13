@@ -13,6 +13,10 @@ compose-message-attachment-name = Ekli ileti
 compose-initialization-error-title = İleti Yazımı
 compose-initialization-error = İleti yazma penceresi oluşturulurken bir hata oluştu. Lütfen yeniden deneyin.
 compose-default-subject = (konu yok)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Yaz: { $subject } - { $brand }
 compose-save-message-title = İletiyi Kaydet
 # Variables:
 # $folder - configured drafts folder name
@@ -22,8 +26,13 @@ compose-send-confirm-title = İletiyi Gönder
 compose-send-confirm-prompt = Bu iletiyi göndermeye hazır olduğunuza emin misiniz?
 compose-send-confirm-button = Gönder
 compose-do-not-show-again = Bu iletişim kutusunu bir daha gösterme.
+compose-empty-subject-title = Konu Hatırlatıcı
+compose-empty-subject-prompt = İletinizin konusu yok.
+compose-empty-subject-send-button = &Konu Olmadan Gönder
+compose-empty-subject-cancel-button = &Göndermekten Vazgeç
 compose-attachment-reminder-title = Ek Hatırlatıcı
 compose-attachment-reminder-prompt = Dosya eklemeyi mi unuttunuz?
+compose-newsgroups-not-supported-title = Haber Grupları Desteklenmiyor
 compose-invalid-address-title = Geçersiz Alıcı Adresi
 # Variables:
 # $address - invalid email address
@@ -75,6 +84,12 @@ find-replace-button =
     .label = Değiştir…
     .accesskey = D
     .tooltiptext = Bul ve Değiştir penceresini göster
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = { $identity } yerine kullanılacak Kimden adresini yazın
+compose-custom-from-address-title = Kimden adresini özelleştir
+compose-custom-from-address-warning = E-posta hizmet sağlayıcınız “gönderen adresini özelleştirme” özelliğini destekliyorsa, hesap ayarlarınıza girip yeni bir kimlik oluşturmanıza gerek kalmadan gönderen adresinizde ufak değişiklikler yapabilirsiniz. Örneğin, gönderen adresiniz Ahmet Yılmaz <ahmet@example.com> ise bunu Ahmet Yılmaz <ahmet+yilmaz@example.com> veya Ahmet <ahmet@example.com> olarak değiştirebilirsiniz.
+compose-custom-from-address-ignore = Beni bir daha bu konuda uyarma
 compose-blocked-content-options-button = Seçenekler
 compose-blocked-content-options-accesskey = S
 compose-blocked-content-preferences-button = Tercihler
