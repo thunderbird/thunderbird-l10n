@@ -168,6 +168,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Proširi popis
     .accesskey = P
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = Ukloni { $field } adrese
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Zaista želiš ukloniti { $field } adrese?
+compose-remove-address-row-button = Ukloni
 
 ## Attachment widget
 
@@ -536,6 +543,7 @@ cloud-file-account-error-title = Filelink greška računa
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Nije uspjelo ažuriranje Filelink privitka { $filename }, iz razloga što je Filelink račun obrisan.
+cloud-file-authentication-error-title = Greška prilikom autentifikacije
 # Variables:
 # $provider - name of the online storage service
 cloud-file-authentication-error = Nije moguća autentifikacija na { $provider }.
