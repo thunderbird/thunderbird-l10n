@@ -7,6 +7,8 @@
 
 send-alert-queued-delivery-failed = S-a produs o eroare la expedierea mesajelor netrimise.
 send-alert-followup-to-sender = Autorul acestui mesaj cere ca răspunsurile să fie trimise numai autorului. Dacă vrei să răspunzi și grupului de discuții, adaugă un rând nou în zona de adrese, alege Grup de discuții din lista destinatarilor, apoi introdu denumirea grupului de discuții.
+send-unable-to-save-template = Mesajul nu poate fi salvat ca șablon.
+send-unable-to-save-draft = Mesajul nu poate fi salvat ca mesaj nefinalizat.
 send-error-failed = Trimiterea mesajului a eșuat.
 send-unable-to-send-later = Ne pare rău, nu am putut salva mesajul pentru expediere mai târziu.
 # Variables:
@@ -21,3 +23,4 @@ send-error-smtp-interrupted = Mesajul nu a putut fi trimis deoarece conexiunea l
 # Variables:
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = Mesajul nu a putut fi trimis deoarece conexiunea la serverul de trimitere (SMTP) { $hostname } a expirat. Încearcă din nou.
+send-error-title = Eroare trimitere mesaj
