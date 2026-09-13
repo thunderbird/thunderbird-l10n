@@ -7,6 +7,7 @@
 
 send-alert-queued-delivery-failed = Piegādājot nesūtītās vēstules, radās kļūda.
 send-error-failed = Neizdevās nosūtīt vēstuli.
+send-unable-to-send-later = Diemžēl, neizdevās saglabāt jūsu vēstuli nosūtīšanai vēlāk.
 # Variables:
 # $hostname - outgoing server hostname
 send-error-smtp-request-refused = Vēstuli neizdevās nosūtīt, jo neizdevās izveidot savienojumu ar izejošo serveri (SMTP) { $hostname }. Iespējams, ka serveris nav pieejams vai atsaka SMTP savienojumu izveidi. Lūdzu, pārbaudiet, vai jūsu izejošā servera (SMTP) iestatījumi ir pareizi, un mēģiniet vēlreiz.
