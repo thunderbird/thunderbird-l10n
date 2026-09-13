@@ -57,6 +57,8 @@ compose-quit-button = 今すぐ終了(&Q)
 compose-wait-button = 待機(&W)
 compose-attach-file-picker-title = 添付ファイル
 compose-attach-page-title = 添付するページの URL を指定してください
+compose-attach-page-prompt = ウェブページ URL:
+compose-message-part-attachment-name = 添付メッセージ部
 compose-attachment-bucket-attach-files-tooltip = ファイルを添付
 compose-attachment-bucket-clear-selection-tooltip = 選択を解除
 # Variables:
