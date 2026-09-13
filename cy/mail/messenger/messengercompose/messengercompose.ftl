@@ -10,6 +10,26 @@ compose-message-attachment-name = Neges wedi'i Hatodi
 
 ## Compose window
 
+compose-send-confirm-title = Anfon Neges
+compose-send-confirm-prompt = Ydych chi'n siŵr eich bod yn barod i anfon y neges hon?
+compose-send-confirm-button = Anfon
+compose-quit-saving-title = Cadw Neges
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    Mae { $brand } wrthi'n anfon neges.
+    Hoffech chi aros tan fod y neges wedi ei hanfon cyn gadael neu gadael nawr?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    Mae { $brand } wrthi'n cadw neges.
+    Hoffech chi aros tan fod y neges wedi ei chadw cyn gadael neu gadael nawr?
+compose-quit-button = &Gadael
+compose-wait-button = &Aros
+find-replace-button =
+    .label = Amnewid…
+    .accesskey = a
+    .tooltiptext = Dangos y deialog Canfod ac Newid
 
 ## Send Format
 
@@ -503,6 +523,9 @@ big-file-notification-text =
         [many] Mae'r ffeiliau hyn yn fawr iawn. Efallai y byddai'n well defnyddio Filelink.
        *[other] Mae'r ffeiliau hyn yn fawr iawn. Efallai y byddai'n well defnyddio Filelink.
     }
+cloudfile-uploading-stop-button =
+    .label = Peidio dangos hwn eto
+    .accesskey = P
 
 ## Link Preview
 
