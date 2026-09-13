@@ -11,6 +11,8 @@ compose-message-attachment-name = הודעה מצורפת
 ## Compose window
 
 compose-default-subject = (ללא נושא)
+compose-save-message-title = שמור הודעה
+compose-discard-changes-button = הת&עלמות משינויים
 compose-send-confirm-title = שלח הודעה
 compose-send-confirm-prompt = האם אתה בטוח שברצונך לשלוח הודעה זו?
 compose-send-confirm-button = שלח
