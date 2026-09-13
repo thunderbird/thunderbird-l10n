@@ -9,6 +9,9 @@ send-alert-queued-delivery-failed = Greška prilikom isporuke neposlanih poruka.
 send-error-failed = Slanje poruke nije uspjelo.
 # Variables:
 # $hostname - outgoing server hostname
+send-error-smtp-unknown-server = Greška prilikom slanja pošte: poslužitelj odlazne pošte (SMTP) { $hostname } je nepoznat. Postavke poslužitelja mogu biti netočne. Provjerite jesu li postavke vašeg poslužitelja odlazne pošte (SMTP) ispravne i pokušajte ponovno.
+# Variables:
+# $hostname - outgoing server hostname
 send-error-smtp-request-refused = Poruku nije moguće poslati, spajanje na poslužitelj odlazne pošte (SMTP) { $hostname } nije uspjelo. Poslužitelj je možda nedostupan ili odbija SMTP vezu. Provjerite jesu li postavke poslužitelja odlazne pošte (SMTP) točne i pokušajte ponovno.
 # Variables:
 # $hostname - outgoing server hostname
