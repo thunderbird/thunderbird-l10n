@@ -17,6 +17,7 @@ compose-default-subject = (dim pwnc)
 # $subject - message subject
 # $brand - application name
 compose-window-title = Ysgrifennu: { $subject } - { $brand }
+compose-save-message-title = Cadw Neges
 # Variables:
 # $folder - configured drafts folder name
 compose-save-message-prompt = Cadw'r neges hon yn eich ffolder drafftiau ({ $folder }) a chau'r ffenestr Ysgrifennu?
@@ -31,8 +32,14 @@ compose-empty-subject-send-button = &Anfon Heb Bwnc
 compose-empty-subject-cancel-button = &Diddymu Anfon
 compose-attachment-reminder-title = Atgoffa am Atodiad
 compose-attachment-reminder-prompt = Ydych chi wedi anghofio atodi atodiad?
+compose-attachment-reminder-send-button = Na, Anfon Nawr
+compose-attachment-reminder-add-button = O, do!
 compose-newsgroups-not-supported-title = Nid yw Grwpiau Newyddion yn Cael eu Cynnal
 compose-newsgroups-not-supported = Dim ond derbynwyr e-bost mae'r cyfrif yma yn ei gynnal. Bydd parhau yn anwybyddu grwpiau newyddion.
+compose-invalid-address-title = Cyfeiriad Derbynnydd Annilys
+# Variables:
+# $address - invalid email address
+compose-invalid-address = Nid yw { $address } yn gyfeiriad e-bost dilys gan nad yw yn ffurf user@host. Rhaid cywiro hyn cyn anfon yr e-bost.
 compose-quit-sending-title = Wrthi'n Anfon Neges
 compose-quit-saving-title = Cadw Neges
 # Variables:
@@ -48,6 +55,9 @@ compose-quit-saving-prompt =
 compose-quit-button = &Gadael
 compose-wait-button = &Aros
 compose-attach-file-picker-title = Atodi Ffeil(iau)
+compose-attach-page-title = Nodwch leoliad i'w atodi
+compose-attach-page-prompt = Tudalen Gwe (URL):
+compose-message-part-attachment-name = Rhan o Neges wedi'i Hatodi
 compose-attachment-bucket-attach-files-tooltip = Atodi Ffeil(iau)
 compose-attachment-bucket-clear-selection-tooltip = Clirio'r Dewis
 # Variables:
@@ -164,6 +174,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Ehangu'r Rhestr
     .accesskey = E
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = Tynnwch Gyfeiriadau { $field }
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Ydych chi'n siŵr eich bod am gael gwared ar gyfeiriadau { $field }?
+compose-remove-address-row-button = Tynnu
 
 ## Attachment widget
 
@@ -612,9 +629,30 @@ big-file-notification-text =
         [many] Mae'r ffeiliau hyn yn fawr iawn. Efallai y byddai'n well defnyddio Filelink.
        *[other] Mae'r ffeiliau hyn yn fawr iawn. Efallai y byddai'n well defnyddio Filelink.
     }
+big-file-learn-more-button =
+    .label = Dysgu Rhagor…
+    .accesskey = D
+big-file-link-button =
+    .label = Dolen
+    .accesskey = D
+big-file-ignore-button =
+    .label = Anwybyddu
+    .accesskey = A
+big-file-choose-account-title = Dewis Cyfrif
+big-file-choose-account-prompt = Dewis cyfrif cwmwl i lwytho'r atodiad iddo
+big-file-hide-notification-title = Peidio Llwytho fy Ffeiliau i Fyny
+big-file-hide-notification-prompt = Ni fyddwch yn cael eich hysbysu os byddwch yn atodi rhagor o ffeiliau mawr i'r neges hon.
+big-file-hide-notification-checkbox = Peidio fy hysbysu am hyn eto.
 cloudfile-uploading-stop-button =
     .label = Peidio dangos hwn eto
     .accesskey = P
+cloud-file-privacy-warning = Mae cysylltu wedi ei gwblhau. Sylwch y gall atodiadau sydd wedi eu cysylltu fod yn agored i bobl all weld neu ddyfalu'r dolenni.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Llwytho i fyny i { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Wedi'u llwytho i fyny i { $provider }
 # Variables:
 # $provider - name of the online storage service
 cloud-file-attach-picker-title = Atodi Ffeil(iau) drwy { $provider }
