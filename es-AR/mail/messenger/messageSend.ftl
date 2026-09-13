@@ -30,8 +30,27 @@ send-progress-creating-mail-message = Creando mensaje de correo…
 send-progress-assembling-message-done = Ensamblando mensaje…Listo
 send-progress-copy-complete = Copia completa.
 send-progress-copy-failed = Falló la copia.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-sent-locally =
+    Su mensaje fue enviado pero no se colocó una copia en la carpeta de enviados ({ $folder }) debido a errores de la red o del acceso a los archivos.
+    Puede reintentar o guardar el mensaje localmente en { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-draft-locally =
+    El borrador no fue copiado a la carpeta de borradores ({ $folder }) debido a errores de la red o del acceso a los archivos.
+    Puede reintentar o guardar el borrador localmente en { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-template-locally =
+    La plantilla no fue copiada a la carpeta de plantillas ({ $folder }) debido a errores de la red o del acceso a los archivos.
+    Puede reintentar o guardar la plantilla localmente en { $localFolder }/{ $folder }-{ $account }.
+send-dialog-save-title = Guardar mensaje
+send-dialog-retry = &Reintentar
+send-error-save-to-local-folders = No se pudo guardar el mensaje en las carpetas locales. Posiblemente no haya espacio de almacenamiento libre.
 send-progress-filter-complete = Filtro completo.
 send-progress-filter-failed = Falló el filtro.
+send-error-filtering-message = Su mensaje fue enviado y guardado, pero hubo un error al ejecutar los filtros de mensaje.
 send-error-post-failed = Este mensaje no pudo ser publicado porque falló el intento de conexión con el servidor de noticias. El servidor puede no estar disponible o no acepta conexiones. Por favor, verifique que sus configuración del servidor de noticias es correcta y vuelva a intentarlo, o contacte con el administrador de su red.
 # Variables:
 # $size - formatted message size
@@ -66,6 +85,9 @@ smtp-auth-mechanism-not-supported = El servidor { $hostname } no soporta el mét
 # Variables:
 # $serverResponse - server response
 smtp-error-sending-from-command = Ocurrió un error mientras se enviaba el correo. El servidor de correo respondió: { $serverResponse }. Por favor, verifique que su dirección de correo electrónico es correcta en las preferencias de correo y vuelva a intentarlo.
+# Variables:
+# $serverResponse - server response
+smtp-permanent-size-exceeded = El tamaño del mensaje que está intentando enviar excede el límite global del servidor. El mensaje no fue enviado; reduzca el tamaño del mensaje e intente nuevamente. El servidor respondió: { $serverResponse }.
 # Variables:
 # $serverResponse - server response
 smtp-error-sending-data-command = Ocurrió un error (SMTP) al enviar el correo. El servidor respondió: { $serverResponse }.
