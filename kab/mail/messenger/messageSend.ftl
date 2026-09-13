@@ -57,6 +57,7 @@ send-error-filtering-message = Izen-inek yettwazen u yettwasekles, acukan teḍr
 # Variables:
 # $hostname - outgoing server hostname
 send-error-smtp-security-issue = Tawila icudden ɣer { $hostname } yessefk ad yettwaseɣti.
+send-error-post-failed = Izen ur yezmir ara ad yettwazen acku tuqqna ɣer uqeddac n isalen ur yeddi-ara. Yezmer d akken aqeddac ulac-it neɣ yugi tuqqniwin. Ma ulac aɣilif, wali ma yella iɣewwaṛen n uqeddac-inek n isalen d imeɣta sakin ɛreḍ tikelt nniḍen.
 # Variables:
 # $size - formatted message size
 send-warning-large-message = Ɣur-k! Aqlak tettedduḍ ad tazneḍ izen n teɣzi n { $size }. Tebɣiḍ ad tazneḍ tura?
@@ -100,6 +101,9 @@ smtp-server-error = Teḍra-d tuccḍa di tuzzna n yimayl. Tuccḍa n uqeddac uf
 smtp-starttls-failed = Teḍra-d tuccda di tuzzna n yimayl. Ur yezmir ara ad yeqqen s wudem aɣelsan akked uqeddac uffiɣ  (SMTP) { $hostname } s uqeqdec n STARTTLS  imi ur d-yemmeslay ara ɣef tmeẓlit-agi. Kkes armad n STARTTLS i uqeddac akken neɣ nermes asaǧǧaw-inek n umeẓlu.
 # Variables:
 # $serverResponse - server response
+smtp-error-sending-from-command = Teḍra-d tuccḍa di tuzzna n yimayl. Aqeddac n tirawt yerra-d { $serverResponse }. Ma ulac aɣlif senqed ma yella tansa yinek imayl d tameɣtut deg iɣewwaṛen n umiḍan sakin ɛreḍ tikelt nniḍen.
+# Variables:
+# $serverResponse - server response
 smtp-permanent-size-exceeded = Teɣzi n yizen i tettaɛraḍeḍ ad tezneḍ iɛedda talast n teɣzi taskudant n uqeddac. Izen ur yettwazen ara; Senɣseḍ teɣzi n yizen sakin ɛreḍ tikelt nniḍen. Aqeddac yerr-ad:  { $serverResponse }.
 # Variables:
 # $serverResponse - server response; $recipient - intended recipient
@@ -107,3 +111,9 @@ smtp-error-sending-recipient-command =
     Teḍra-d tuccḍa di tuzzna n yimaul. Aqeddac n tirawt yerra-d:
     { $serverResponse }.
     Ma ulac aɣilif senqed aɣerwaḍ n yizen "{ $recipient }" sakin ɛreḍ tikelt nniḍen.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-data-command = Teḍra-d tuccḍa n uqeddac uffiq (SMTP) di tuzzna n yimayl. Aqeddac yerra-d: { $serverResponse }.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-message = Teḍra-d tuccḍa di tuzzna n yimayl. Aqeddac n tirawt yerra-d: { $serverResponse }. Ma ulac aɣilif senqed izen sakin ɛreḍ tikelt nniḍen.
