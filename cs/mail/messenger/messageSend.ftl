@@ -24,6 +24,12 @@ send-error-smtp-interrupted = Zprávu se nepodařilo odeslat, protože spojení 
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = Zprávu se nepodařilo odeslat, protože spojení se SMTP serverem { $hostname } vypršelo. Zkuste to znovu, nebo kontaktujte správce sítě.
 send-error-title = Chyba při odesílání zprávy
+send-progress-assembling-mail-information = Sestavení informací pro poštu…
+send-progress-assembling-message = Sestavení zprávy…
+send-progress-creating-mail-message = Vytváření poštovní zprávy…
+send-progress-assembling-message-done = Sestavení zprávy dokončeno
+send-progress-copy-complete = Kopírování dokončeno.
+send-progress-copy-failed = Kopírování selhalo.
 # Variables:
 # $folder - destination folder name; $localFolder - local folders name; $account - account name
 send-error-save-sent-locally =
@@ -40,4 +46,11 @@ send-error-save-template-locally =
     Vaše šablona nebyla zkopírována do složky šablon ({ $folder }) z důvodu chyby sítě nebo přístupu k souboru.
     Můžete to zkusit znovu nebo uložit šablonu lokálně do { $localFolder }/{ $folder }-{ $account }.
 send-dialog-retry = &Opakovat
+send-progress-filter-complete = Filtr dokončen.
+send-progress-filter-failed = Filtr selhal.
 send-error-filtering-message = Vaše zpráva byla odeslána a uložena, ale došlo k chybě při provádění filtrů.
+# Variables:
+# $folder - destination folder name
+send-progress-copy-start = Kopírování zprávy do složky { $folder }…
+# LOCALIZATION NOTE: This string must use only US-ASCII characters.
+send-undisclosed-recipients = undisclosed-recipients (utajeni adresati)
