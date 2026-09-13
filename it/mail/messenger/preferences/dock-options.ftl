@@ -4,7 +4,7 @@
 
 dock-options-dialog-title = Opzioni icona applicazione
 dock-options-show-badge =
-    .label = Mostra contrassegno dell’icona
+    .label = Mostra contrassegno sull’icona
     .accesskey = M
 dock-icon-animate-label =
     .label = Anima l’icona dell’app all’arrivo di nuovi messaggi
@@ -21,7 +21,7 @@ total-unread-messages-radio =
 total-new-messages-radio =
     .label = Totale nuovi messaggi
     .accesskey = m
-notification-badge-system-info = I badge di notifica possono anche essere attivati o disattivati nelle impostazioni di sistema del computer.
+notification-badge-system-info = I contrassegni di notifica possono anche essere attivati o disattivati nelle impostazioni di sistema del computer.
 dock-icon-show-label =
     .value = Contrassegna l’icona dell’applicazione con:
 count-unread-messages-radio =
