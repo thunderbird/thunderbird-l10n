@@ -101,6 +101,9 @@ smtp-server-error = შეცდომა წარმოიქმნა წე�
 smtp-starttls-failed = წარმოიქმნა შეცდომა წერილის გაგზავნისას: ვერ შედგა დაცული კავშირი გამავალ სერვერთან (SMTP) { $hostname }, რომლის მიერ გამოყენებული STARTTLS არ უზრუნველყოფს ამ შესაძლებლობას. გამორთეთ STARTTLS ამ სერვერისთვის, ან დაუკავშირდით მომსახურების მომწოდებელს.
 # Variables:
 # $serverResponse - server response
+smtp-too-many-recipients = შეტყობინება არ გაიგზავნა მიმღებების ნებადართულ რაოდენობაზე გადაჭარბების გამო. სერვერის პასუხია: { $serverResponse }.
+# Variables:
+# $serverResponse - server response
 smtp-error-sending-from-command = წერილის გაგზავნისას წარმოიქმნა შეცდომა. სერვერის პასუხია: { $serverResponse }. გთხოვთ გადაამოწმოთ მითითებული ელფოსტის მისამართის სისწორე ანგარიშის პარამეტრებში და სცადოთ ხელახლა.
 # Variables:
 # $serverResponse - server response
