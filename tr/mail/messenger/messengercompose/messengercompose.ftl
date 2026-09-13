@@ -506,6 +506,33 @@ cloud-file-account-error-title = Filelink Hesap Hatası
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Filelink hesabı silindiği için Filelink eki { $filename } güncellenemedi.
 # Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = { $provider } kimlik doğrulaması başarısız oldu.
+cloud-file-upload-error-title = Karşıya Yükleme Hatası
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = { $filename } dosyası { $provider } hizmetine yüklenemedi.
+cloud-file-quota-error-title = Kota Hatası
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = { $filename } dosyası { $provider } hizmetine yüklenirse kotanız aşılacak.
+cloud-file-size-error-title = Dosya Boyutu Hatası
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } dosyası { $provider } tarafından belirlenen maksimum dosya boyutunu aşıyor.
+cloud-file-unknown-error-title = Bilinmeyen Hata
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = { $provider } ile iletişim sırasında bilinmeyen bir hata meydana geldi.
+cloud-file-deletion-error-title = Silme Hatası
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = { $filename } dosyası { $provider } hizmetinden silinirken sorun yaşandı.
+# Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
     { $count ->
