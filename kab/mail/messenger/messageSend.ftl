@@ -72,11 +72,35 @@ send-save-template-error-title = Asekles n tuccḍa n tneɣruft
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = iɣerwaḍen uffiren
 # Variables:
+# $recipient - recipient address
+smtp-error-illegal-local-part = Isekkilen ASCII ttwafen deg uḥric adigan n tensa n unermis { $recipient }, maca aqeddac-ik ur yessefrak ara yakan SMTPUTF8. Ma ulac aɣilif, beddel tansa-agi,  sakin ɛreḍ tikkelt-nniḍen.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-no-ssl = Aqeddac uffiɣ (SMTP) { $hostname } ur yettban ara d akken yessefrak awalen uffiren iwgelhanen. Ma yella akken kan i tesbaduḍ amiḍan, ɛreḍ asnifel n ‘Tarrayt n usesteb’ di ‘Iɣewwaṛen n umiḍan | Aqeddac uffiɣ (SMTP)’ ɣer ‘Awal uffir, yettwazen s tarrayt taraɣelsant’. Ma yella tuccḍa-yagi tban-d kan akka tura, ahat yettwaker wawal-inek uffir.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-ssl = Aqeddac uffiɣ (SMTP) { $hostname } ur yettban ara d akken yessefrak awalen uffiren iwgelhanen. Ma yella akken kan i tesbaduḍ amiḍan, ɛreḍ asnifel n ‘Tarrayt n usesteb’ di ‘Iɣewwaṛen n umiḍan | Aqeddac uffiɣ (SMTP)’ ɣer ‘Awal uffir Amagnu’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-plain-to-encrypt = Aqeddac-inek uffiq (SMTP) { $hostname } ur isirig ara awalen uffiren s uḍris aččuran. Ɛreḍ asnifel n ‘Tarrayt n usesteb’ di ‘Iɣewwaṛen n umiḍan | Aqeddac uffiɣ (SMTP)’ ɣer ‘Awal uffir awgelhan’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-failure = Ur yezmir ara ad isesteb ɣer uqeddac uffiɣ (SMTP){ $hostname }. Ma ulac aɣilif, senqed awal uffir sakin ɛreḍ asnifel n ‘Tarrayt n usesteb’ di ‘Iɣewwaṛen n umiḍan | Aqeddac uffiɣ (SMTP)’.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-gssapi = Atiki Kerberos/GSSAPI ur tyeqbil ara uqeddac uffiɣ (SMTP) { $hostname }. Ma ulac aɣilif, senqed ma yella anekcum-inek yettwajerred di Kerberos/GSSAPI.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-mechanism-not-supported = Aqeddac uffiɣ (SMTP) { $hostname } ur yettban ara d akken ur yessefrak ara tarrayt n usesteb. Ma ulac aɣilif, ɛreḍ asnifel n ‘Tarrayt n usesteb’ di ‘Iɣewwaṛen n umiḍan | Aqeddac uffiɣ (SMTP)’.
+# Variables:
 # $serverResponse - server response
 smtp-server-error = Teḍra-d tuccḍa di tuzzna n yimayl. Tuccḍa n uqeddac uffiɣ (SMTP). Aqeddac yerra-d { $serverResponse }.
 # Variables:
 # $hostname - outgoing server hostname
 smtp-starttls-failed = Teḍra-d tuccda di tuzzna n yimayl. Ur yezmir ara ad yeqqen s wudem aɣelsan akked uqeddac uffiɣ  (SMTP) { $hostname } s uqeqdec n STARTTLS  imi ur d-yemmeslay ara ɣef tmeẓlit-agi. Kkes armad n STARTTLS i uqeddac akken neɣ nermes asaǧǧaw-inek n umeẓlu.
+# Variables:
+# $serverResponse - server response
+smtp-permanent-size-exceeded = Teɣzi n yizen i tettaɛraḍeḍ ad tezneḍ iɛedda talast n teɣzi taskudant n uqeddac. Izen ur yettwazen ara; Senɣseḍ teɣzi n yizen sakin ɛreḍ tikelt nniḍen. Aqeddac yerr-ad:  { $serverResponse }.
 # Variables:
 # $serverResponse - server response; $recipient - intended recipient
 smtp-error-sending-recipient-command =
