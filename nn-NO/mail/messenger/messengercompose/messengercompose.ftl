@@ -10,6 +10,48 @@ compose-message-attachment-name = Vedlagt melding
 
 ## Compose window
 
+compose-send-confirm-title = Send melding
+compose-send-confirm-prompt = Er du sikker på at du vil senda denne meldinga no?
+compose-send-confirm-button = Send
+compose-empty-subject-title = Emnepåminning
+compose-empty-subject-prompt = Meldinga har ikkje noko emne
+compose-empty-subject-send-button = &Send meldinga utan emne
+compose-empty-subject-cancel-button = &Avbryt sending
+compose-attachment-reminder-title = Vedleggspåminning
+compose-attachment-reminder-prompt = Gløymde du å lenggja ved ei fil?
+compose-newsgroups-not-supported-title = Nyhendegrupper ikkje støtta
+compose-newsgroups-not-supported = Denne kontoen støttar berre e-postmottakarar. Dersom du held fram vil nyhendegrupper verta utelatne.
+compose-invalid-address-title = Ugyldig mottakaradresse
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } er ikkje ei gyldig e-postadresse, fordi ho ikkje er på forma brukar@vert. Du må retta det opp før du sender e-posten.
+compose-quit-saving-title = Lagrar melding
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } sender ei melding akkurat no.
+    Vil du venta til meldinga er ferdigsendt før du avsluttar, eller avslutta no?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } jobbar med å lagre ei melding.
+    Vil du vente til meldinga er lagra før du avsluttar, eller avslutta med ein gong?
+compose-quit-button = &Avslutt
+compose-wait-button = &Vent
+compose-attach-page-title = Vel ein nettstad å leggja ved
+compose-attach-page-prompt = Nettside (URL):
+compose-message-part-attachment-name = Vedlagt meldingsdel
+compose-rename-attachment-title = Endra namn på vedlegget
+compose-rename-attachment-prompt = Nytt namn på vedlegget:
+remind-later-button =
+    .label = Minn meg på det seinare
+    .accesskey = M
+disable-attachment-reminder-menu-item =
+    .label = Slå av vedleggspåminning for gjeldande melding
+find-replace-button =
+    .label = Byt ut …
+    .accesskey = y
+    .tooltiptext = Vis Finn og byt ut-dialogen
 
 ## Send Format
 
@@ -430,6 +472,7 @@ cloud-file-account-error-title = Filelink-kontofeil
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Klarte ikkje å oppdatere Filelink-vedlegget { $filename }, fordi Filelink-kontoen er sletta.
+cloud-file-authentication-error-title = Autentiseringsfeil
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
@@ -444,6 +487,9 @@ big-file-notification-text =
         [one] Dette er ei stor fil. Det kan vera betre å bruke FileLink i staden.
        *[other] Dette er store filer. Det kan vere betre å bruke FileLink i staden.
     }
+cloudfile-uploading-stop-button =
+    .label = Aldri vis dette meir
+    .accesskey = A
 
 ## Link Preview
 
