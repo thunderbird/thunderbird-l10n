@@ -38,3 +38,4 @@ panel-settings-spam = Spamowe nastajenja
 # Variables:
 # $account (String) - The account name.
 spam-settings-alert-message = Je so problem ze spamowymi nastajenjemi za { $account } namakał. Chceće je přepruwować, prjedy hač změny składujeće?
+open-settings-sidebar-button = Nastajenja

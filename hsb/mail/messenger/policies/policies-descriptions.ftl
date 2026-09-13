@@ -32,6 +32,7 @@ policy-DisableDataCollectionSettings = Tomu zadźěwać, zo wužiwar nastajenja 
 policy-DisableDefaultClientAgent = Haćće standardny klientowy agent při wuwjedźenju akcijow. To je jenoz za Windows k dispoziciji; druhe platformy agent nimaja.
 policy-DisableDeveloperTools = Přistup k wuwiwarskim nastrojam blokować.
 policy-DisableFeedbackCommands = Přikazy znjemóžnić, kotrež komentary z menija Pomoc sćelu (Posudk pósłać a Wobšudne sydło zdźělić)
+policy-DisableFileLink = Funkciju Filelink znjemóžnić.
 policy-DisableForgetButton = Přistupej na tłóčatko Zabyć zadźěwać.
 policy-DisableFormHistory = Pytansku a formularnu historiju sej njespomjatkować
 policy-DisableMasterPasswordCreation = Jeli to trjechi, njeda so hłowne hesło wutworić.

@@ -15,6 +15,10 @@ dateformat-long =
 #   $date (String) - the formatted example date
 dateformat-short =
     .label = Қысқа: { $date }
+auto-detect-timezone-radio-button =
+    .label = Уақыт белдеуін автоматты түрде анықтау
+manually-set-timezone-radio-button =
+    .label = Уақыт белдеуін қолмен орнату
 use-system-timezone-radio-button =
     .label = Жүйенің уақыт белдеуін пайдалану
 set-timezone-manually-radio-button =
