@@ -24,10 +24,52 @@ send-error-smtp-interrupted = Vēstuli neizdevās nosūtīt, jo darbības laikā
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = Vēstuli neizdevās nosūtīt, jo iestājās savienojuma noildze ar izejošo serveri (SMTP) { $hostname }. Mēģiniet vēlreiz.
 send-error-title = Vēstules sūtīšanas kļūda
+send-progress-assembling-mail-information = Apkopoju pasta informāciju…
+send-progress-assembling-message = Montēju vēstuli…
+send-progress-creating-mail-message = Izveidoju vēstuli…
+# Variables:
+# $filename - name or URL of the file that could not be attached
+send-error-attaching-file = Pievienojot { $filename }, radās kļūda. Lūdzu, pārbaudiet, vai jums ir piekļuve failam.
+send-progress-assembling-message-done = Montēju vēstuli…Gatavs
+send-progress-copy-complete = Kopēšana pabeigta.
+send-progress-copy-failed = Kopēšana neizdevās.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-sent-locally =
+    Ziņojums tika nosūtīts, bet kopija netika ievietota nosūtīto ziņojumu mapē ({ $folder }) tīkla vai datņu piekļuves kļūdu dēļ.
+    Var mēģināt atkārtot vai saglabāt ziņojumu vietēji  { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-draft-locally =
+    Ziņojuma melnraksts netika kopēts melnrakstu mapē ({ $folder }) tīkla vai datņu piekļuves kļūdu dēļ.
+    Var mēģināt atkārtoti vai saglabāt melnrakstu vietēji { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-template-locally =
+    Ziņojuma veidne netika kopēta melnrakstu mapē ({ $folder }) tīkla vai datņu piekļuves kļūdu dēļ.
+    Var mēģināt atkārtoti vai saglabāt veidni vietēji { $localFolder }/{ $folder }-{ $account }.
+send-dialog-save-title = Saglabāt vēstuli
+send-dialog-retry = &Atkārtot
+send-error-save-to-local-folders = Nevar saglabāt ziņojumu vietējās mapēs. Iespējams, ka datņu krātuvē nepietiek vietas.
+send-progress-filter-complete = Filtrs ir pabeigts.
+send-progress-filter-failed = Filtrs neizdevās.
+send-error-filtering-message = Jūsu vēstulei ir nosūtīta un saglabāta, taču radās kļūda, pielietojot tai filtrus.
 # Variables:
 # $hostname - outgoing server hostname
 send-error-smtp-security-issue = Ir jāizlabo ar { $hostname } saistītie iestatījumi.
 send-error-post-failed = Ziņojumu neizdevās publicēt, jo neizdevās izveidot savienojumu ar ziņu serveri. Iespējams, ka serveris nav pieejams vai atsaka savienojumu izveidi. Lūdzu, pārbaudiet, vai ziņu servera iestatījumi ir pareizi, un mēģiniet vēlreiz.
+# Variables:
+# $size - formatted message size
+send-warning-large-message = Uzmanību! Tu gatavojies nosūtīt { $size } lielu ziņojumu. Vai tiešām vēlies to darīt?
+# Variables:
+# $folder - destination folder name
+send-progress-copy-start = Kopē vēstuli uz { $folder } mapi…
+send-progress-sending-message = Sūtu vēstuli…
+send-error-nntp-ok = Jūsu ziņa ir publicēta ziņu grupā, bet nav nosūtīta otram adresātam.
+send-error-copy-operation = Ziņojums tika sekmīgi nosūtīts, tomēr to nevarēja kopēt mapē “Nosūtītie”.
+send-later-error-title = Sūtīt vēlāk kļūda
+send-save-draft-error-title = Saglabāt melnrakstu kļūda
+send-save-template-error-title = Saglabāt veidni kļūda
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = neatklāti saņēmēji
 # Variables:
@@ -55,8 +97,20 @@ smtp-auth-mechanism-not-supported = Izejošais serveris (SMTP) { $hostname } nea
 # $serverResponse - server response
 smtp-server-error = Sūtot epastu, radās kļūda: izejošā servera (SMTP) kļūda.  Serveris atbildēja: { $serverResponse }.
 # Variables:
+# $hostname - outgoing server hostname
+smtp-starttls-failed = Sūtot epastu, radās kļūda: Nevar izveidot drošu saiti ar izejošo serveri (SMTP) { $hostname }, izmantojot STARTTLS, jo tas neziņo par šo iespēju. Izslēdziet STARTTLS šim serverim vai sazinieties ar pakalpojumu sniedzēju.
+# Variables:
 # $serverResponse - server response
 smtp-error-sending-from-command = Sūtot pastu, radās kļūda. Pasta serveris atbildēja: { $serverResponse }. Lūdzu, konta iestatījumos pārbaudiet, vai jūsu epasta adrese ir pareiza, un mēģiniet vēlreiz.
+# Variables:
+# $serverResponse - server response
+smtp-permanent-size-exceeded = Vēstules izmērs, ko mēģināt nosūt, pārsniedz servera globālo izmēra ierobežojumu. Vēstule netika nosūtīta; mēģiniet samazināt vēstules izmēru vai pagaidiet kādu laiku un mēģiniet vēlreiz. Serveris atbildēja:  { $serverResponse }.
+# Variables:
+# $serverResponse - server response; $recipient - intended recipient
+smtp-error-sending-recipient-command =
+    Sūtot pastu, radās kļūda. Pasta serveris atbildēja:
+    { $serverResponse }.
+    Lūdzu, pārbaudiet ziņojuma adresātu "{ $recipient }" un mēģiniet vēlreiz.
 # Variables:
 # $serverResponse - server response
 smtp-error-sending-data-command = Sūtot pastu, radās Izejošā servera (SMTP) kļūda. Serveris atbildēja:  { $serverResponse }.
