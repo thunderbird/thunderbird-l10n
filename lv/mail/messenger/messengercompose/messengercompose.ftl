@@ -10,6 +10,37 @@ compose-message-attachment-name = Pievienotais ziņojums
 
 ## Compose window
 
+compose-default-subject = (nav tēmas)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Rakstīt: { $subject } - { $brand }
+compose-save-message-title = Saglabāt vēstuli
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Vai saglabāt šo vēstuli melnrakstu mapē ({ $folder }) un aizvērt logu Rakstīt?
+compose-discard-changes-button = &Atmest izmaiņas
+compose-empty-subject-title = Tēmas atgādinājums
+compose-empty-subject-prompt = Jūsu vēstulei nav tēmas.
+compose-empty-subject-send-button = &Sūtīt bez tēmas
+compose-empty-subject-cancel-button = &Atcelt sūtīšanu
+compose-newsgroups-not-supported-title = Ziņu grupas nav atbalstītas
+compose-newsgroups-not-supported = Šis konts atbalsta tikai epasta adresātus. Turpināšana ignorēs ziņu grupas.
+compose-attach-file-picker-title = Pievienot failu(-us)
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Ievadiet pielāgoto No adresi, ko izmantot { $identity } vietā
+compose-custom-from-address-title = Pielāgot No adreses
+compose-custom-from-address-warning = Ja jūsu epasta pakalpojumu sniedzējs to atbalsta, Pielāgot no adreses ļauj veikt vienreizējas nelielas izmaiņas adresē No, neveidojot jaunu identitāti Konta iestatījumos. Piemēram, ja jūsu No adrese ir John Doe <john@example.com>, varat to mainīt uz John Doe <john+doe@example.com> vai John <john@example.com>.
+compose-custom-from-address-ignore = Nekad vairs neziņot par to
+compose-blocked-content-options-button = Iespējas
+compose-blocked-content-options-accesskey = O
+compose-blocked-content-preferences-button = Preferences
+compose-blocked-content-preferences-accesskey = P
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Atliegt { $url }
 
 ## Send Format
 
@@ -45,6 +76,13 @@ pill-action-move-cc =
 pill-action-move-bcc =
     .label = Pārvietot uz Slēpta kopija
     .accesskey = S
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = Noņemt { $field } adreses
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Vai tiešām vēlaties noņemt { $field } adreses?
+compose-remove-address-row-button = Noņemt
 
 ## Attachment widget
 
@@ -138,6 +176,9 @@ big-file-notification-text =
         [one] Šī ir liela datne. Tās vietā varētu būt labāk izmantot Filelink.
        *[other] Šīs ir lielas datnes. To vietā varētu būt labāk izmantot Filelink.
     }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Pievienot failu(-us) ar { $provider }
 
 ## Link Preview
 
