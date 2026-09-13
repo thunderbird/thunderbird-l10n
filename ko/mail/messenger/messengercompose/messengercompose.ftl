@@ -17,6 +17,7 @@ compose-default-subject = (제목 없음)
 # $subject - message subject
 # $brand - application name
 compose-window-title = 쓰기: { $subject } - { $brand }
+compose-save-message-title = 메시지 저장하기
 # Variables:
 # $folder - configured drafts folder name
 compose-save-message-prompt = 이 메시지를 임시 보관함({ $folder })에 저장하고 창을 닫을까요?
