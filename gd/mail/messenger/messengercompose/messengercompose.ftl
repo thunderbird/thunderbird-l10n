@@ -10,6 +10,8 @@ compose-message-attachment-name = Teachdaireachd a chaidh a chur ris
 
 ## Compose window
 
+compose-initialization-error-title = Sgrìobh teachdaireachd
+compose-initialization-error = Thachair mearachd rè cruthachadh na teachdaireachd san uinneag sgrìobhaidh. Feuch ris a-rithist.
 compose-default-subject = (gun chuspair)
 # Variables:
 # $subject - message subject
@@ -34,6 +36,10 @@ compose-attachment-reminder-send-button = Cha do dhìochuimhnich, cuir a-null mo
 compose-attachment-reminder-add-button = Ò, saoilidh mi gun do dhìochuimhnich!
 compose-newsgroups-not-supported-title = Buidheann-naidheachd gun taic ris
 compose-newsgroups-not-supported = Chan eil an cunntas seo a' cur taic ach ri faightearan puist-dhealain. Ma leanas tu ort, thèid buidhnean-naidheachd an leigeil seachad.
+compose-invalid-address-title = Seòladh mì-dligheach an fhaighteir
+# Variables:
+# $address - invalid email address
+compose-invalid-address = Chan eil { $address } 'na sheòladh puist-dhealain a chionn 's nach eil e dhen chruth cleachdaiche@ostair. Bidh agad ri seo a chur ceart mus cuir thu am post-dealain.
 compose-quit-sending-title = A' cur na teachdaireachd
 compose-quit-saving-title = A' sàbhaladh na teachdaireachd
 # Variables:
@@ -49,6 +55,11 @@ compose-quit-saving-prompt =
 compose-quit-button = &Fàg an-seo
 compose-wait-button = &Fuirich
 compose-attach-file-picker-title = Cuir faidhle/faidhlichean ris
+compose-attach-page-title = Sònraich seòladh a thèid a chur ris
+compose-attach-page-prompt = Duilleag-lìn (URL):
+compose-message-part-attachment-name = Pàirt de theachdaireachd a chaidh a chur ris
+compose-attachment-bucket-attach-files-tooltip = Cuir faidhle/faidhlichean ris
+compose-attachment-bucket-clear-selection-tooltip = Falamhaich an taghadh
 # Variables:
 # $filename - name of the file that could not be found
 compose-file-attachment-not-found = Chan eil am faidhle { $filename } ann agus cha ghabh a chur ris an teachdaireachd mar sin.
