@@ -10,12 +10,89 @@ compose-message-attachment-name = Mensaje adjunto
 
 ## Compose window
 
+compose-initialization-error-title = Redactar mensaje
+compose-initialization-error = Ocurrió un error mientras se creaba una ventana de redacción de mensaje. Por favor, intenta de nuevo.
+compose-default-subject = (sin asunto)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Escribir: { $subject } - { $brand }
+compose-save-message-title = Guardar mensaje
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = ¿Guardar este mensaje en la carpeta de borradores ({ $folder }) y cerrar la ventana Redactar?
+compose-discard-changes-button = &Descartar cambios
+compose-send-confirm-title = Enviar mensaje
+compose-send-confirm-prompt = ¿Estás seguro que estás listo para enviar este mensaje?
+compose-send-confirm-button = Enviar
+compose-do-not-show-again = No mostrarme este diálogo de nuevo.
+compose-empty-subject-title = Recordatorio de asunto
+compose-empty-subject-prompt = Tu mensaje no tiene un asunto.
+compose-empty-subject-send-button = &Enviar sin asunto
+compose-empty-subject-cancel-button = &Cancelar envío
+compose-attachment-reminder-title = Recordatorio de adjunto
+compose-attachment-reminder-prompt = ¿Olvidaste añadir un archivo adjunto?
 compose-attachment-reminder-send-button = No, enviar ahora
 compose-attachment-reminder-add-button = ¡Oh, lo hice!
+compose-newsgroups-not-supported-title = Grupos de noticias no soportados
+compose-newsgroups-not-supported = Esta cuenta solamente soporta correo. Si continúas, se ignorarán los grupos de noticias.
+compose-invalid-address-title = Dirección de destinatario no válida
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } no es una dirección de correo válida porque no tiene la estructura usuario@servidor. Deberías corregirla antes de enviar el correo electrónico.
+compose-quit-sending-title = Enviando mensaje
+compose-quit-saving-title = Guardando mensaje
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } está en el proceso de enviar mensaje.
+    ¿Te gustaría esperar hasta que el mensaje haya sido enviado antes de salir o salir ahora?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } está en el proceso de guardar un mensaje.
+    ¿Te gustaría esperar hasta que el mensaje haya sido guardado antes de salir o salir ahora?
+compose-quit-button = &Salir
+compose-wait-button = &Esperar
+compose-attach-file-picker-title = Adjuntar archivo(s)
+compose-attach-page-title = Por favor, especifica una ubicación para adjuntar
+compose-attach-page-prompt = Página web (URL):
+compose-message-part-attachment-name = Parte del mensaje adjunto
+compose-attachment-bucket-attach-files-tooltip = Adjuntar archivo(s)
+compose-attachment-bucket-clear-selection-tooltip = Borrar selección
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = El archivo { $filename } no existe, por lo tanto no pudo ser adjuntado al mensaje.
+compose-file-attachment-error-title = Adjuntar archivo
+compose-message-file-error-title = Archivo de mensaje
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = El archivo { $filename } no existe y no puede ser usado como cuerpo de mensaje.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = El archivo { $filename } no pudo ser cargado como cuerpo de mensaje.
+compose-save-success-title = Guardar mensaje
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Tu mensaje ha sido guardado en la carpeta { $folder } bajo { $server }.
+compose-rename-attachment-title = Renombrar adjunto
+compose-rename-attachment-prompt = Nuevo nombre del archivo adjunto:
+remind-later-button =
+    .label = Recordarme después
+    .accesskey = L
+disable-attachment-reminder-menu-item =
+    .label = Desactivar el recordatorio de adjuntar para el mensaje actual
 find-replace-button =
     .label = Reemplazar…
     .accesskey = x
     .tooltiptext = Mostrar la ventana Encontrar y Reemplazar
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Ingresar desde dirección personalizada para ser usada en lugar de { $identity }
+compose-custom-from-address-title = Personalizar desde dirección
+compose-custom-from-address-warning = Si tu proveedor de correo electrónico lo soporta, Personalizar desde dirección permite hacer un pequeño cambio a la dirección Desde sin tener que crear una nueva identidad en Opciones de cuenta. Por ejemplo, si en Desde dirección está Juan Pérez <juan@example.com> podría cambiarla a Juan Pérez <juan+perez@example.com> o Juan <juan@example.com>.
+compose-custom-from-address-ignore = No volver a notificarme
 compose-blocked-content-options-button = Opciones
 compose-blocked-content-options-accesskey = O
 compose-blocked-content-preferences-button = Preferencias
@@ -491,6 +568,9 @@ cloud-file-uploading-tooltip = Subiendo a { $provider }...
 # Variables:
 # $provider - name of the online storage service
 cloud-file-uploaded-tooltip = Subido a { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Adjuntar archivo(s) vía { $provider }
 
 ## Link Preview
 
