@@ -31,8 +31,12 @@ send-progress-assembling-message-done = Creazione messaggio… Fatto
 send-progress-copy-complete = Copia completata.
 send-progress-copy-failed = Copia non riuscita.
 send-dialog-save-title = Salvataggio messaggio
+send-error-save-to-local-folders = Impossibile salvare il messaggio nelle cartelle locali. Lo spazio su disco potrebbe essere esaurito.
 send-progress-filter-complete = Esecuzione filtro completata.
 send-progress-filter-failed = Esecuzione filtro non riuscita.
+# Variables:
+# $hostname - outgoing server hostname
+send-error-smtp-security-issue = La configurazione relativa a { $hostname } deve essere corretta.
 # Variables:
 # $size - formatted message size
 send-warning-large-message = Attenzione! Si sta per inviare un messaggio di grandezza { $size }. Continuare?
@@ -43,3 +47,8 @@ send-progress-sending-message = Invio messaggi in corso…
 send-later-error-title = Errore di invio posticipato
 send-save-draft-error-title = Salvare la bozza di errore
 send-save-template-error-title = salva il modello di errore
+# LOCALIZATION NOTE: This string must use only US-ASCII characters.
+send-undisclosed-recipients = destinatari nascosti
+# Variables:
+# $serverResponse - server response
+smtp-server-error = Si è verificato un errore durante l’invio della posta: errore nel server posta in uscita (SMTP). Il server ha risposto: { $serverResponse }.
