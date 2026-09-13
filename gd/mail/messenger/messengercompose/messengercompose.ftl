@@ -10,9 +10,16 @@ compose-message-attachment-name = Teachdaireachd a chaidh a chur ris
 
 ## Compose window
 
+compose-save-message-title = Sàbhail an teachdaireachd
 compose-send-confirm-title = Cuir an teachdaireachd
 compose-send-confirm-prompt = A bheil thu cinnteach gu bheil thu airson an teachdaireachd seo a chur an-dràsta?
 compose-send-confirm-button = Cuir
+compose-do-not-show-again = Na seall am bogsa conaltraidh seo dhomh a-rithist.
+compose-attachment-reminder-title = Cuimhniche nan ceanglachan
+compose-attachment-reminder-prompt = Saoil an do dhìochuimhnich thu ceanglachan a chur ris?
+compose-attachment-reminder-send-button = Cha do dhìochuimhnich, cuir a-null mo theachdaireachd an-dràsta
+compose-attachment-reminder-add-button = Ò, saoilidh mi gun do dhìochuimhnich!
+compose-quit-sending-title = A' cur na teachdaireachd
 compose-quit-saving-title = A' sàbhaladh na teachdaireachd
 # Variables:
 # $brand - application name
@@ -26,11 +33,41 @@ compose-quit-saving-prompt =
     A bheil thu airson feitheamh gus an deach an teachdaireachd a shàbhaladh mus fàg thu an-seo no a bheil thu airson fàgail sa bhad?
 compose-quit-button = &Fàg an-seo
 compose-wait-button = &Fuirich
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = Chan eil am faidhle { $filename } ann agus cha ghabh a chur ris an teachdaireachd mar sin.
 compose-file-attachment-error-title = Cuir faidhle ris
+compose-message-file-error-title = Faidhle na teachdaireachd
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = Chan eil am faidhle { $filename } ann agus cha ghabh a chleachdadh mar bhodhaig teachdaireachd.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = Cha b’ urrainn dhuinn am faidhle { $filename } a luchdadh mar bhodhaig teachdaireachd.
+compose-save-success-title = Sàbhail an teachdaireachd
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Chaidh do theachaireachd a shàbhaladh dhan phasgan { $folder } fo { $server }.
+compose-rename-attachment-title = Cuir ainm ùr air a' cheanglachan
+compose-rename-attachment-prompt = Ainm ùr a' cheanglachain:
+remind-later-button =
+    .label = Cuir 'nam chuimhne an ceann tamaill
+    .accesskey = m
+disable-attachment-reminder-menu-item =
+    .label = Cuir an cuimhneachan mu cheanglachain à comas san teachdaireachd seo
 find-replace-button =
     .label = Cuir ’na àite...
     .accesskey = x
     .tooltiptext = Seall an còmhradh leis an urrainn dhut rudan a lorg 's a chur 'nan àite
+compose-blocked-content-options-button = Roghainnean
+compose-blocked-content-options-accesskey = O
+compose-blocked-content-preferences-button = Roghainnean
+compose-blocked-content-preferences-accesskey = P
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Dì-bhac { $url }
 
 ## Send Format
 
@@ -100,6 +137,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Leudaich an liosta
     .accesskey = L
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = Thoir air falbh seòlaidhean { $field }
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = A bheil thu cinnteach gu bheil thu airson na seòlaidhean { $field } a thoirt air falbh?
+compose-remove-address-row-button = Thoir air falbh
 
 ## Attachment widget
 
@@ -479,6 +523,33 @@ cloud-file-account-error-title = Mearachd le cunntas FileLink
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Cha b’ urrainn dhuinn an ceanglachan FileLink { $filename } ùrachadh a chionn ’s gun deach an cunntas FileLink aige a sguabadh às.
 cloud-file-authentication-error-title = Mearachd ùghdarrachaidh
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Cha ghabh ùghdarrachadh a dhèanamh le { $provider }.
+cloud-file-upload-error-title = Mearachd 'ga luchdadh suas
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Cha ghabh { $filename } a luchdadh suas gu { $provider }.
+cloud-file-quota-error-title = Mearachd cuota
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Bhiodh barrachd na tha ceadaichte dhut air { $provider } nan luchdaicheamaid suas { $filename }.
+cloud-file-size-error-title = Mearachd a thaobh meud an fhaidhle
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = Tha { $filename } a' dol thairis a' mheud as motha a tha ceadaichte air { $provider }.
+cloud-file-unknown-error-title = Mearachd neo-aithnichte
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Thachair mearachd neo-aithnichte nuair a bha sinn a' conaltradh le { $provider }.
+cloud-file-deletion-error-title = Mearachd 'ga sguabadh às
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Thachair mearachd nuair a bha sinn airson { $filename } a sguabadh à { $provider }.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
