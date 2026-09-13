@@ -10,9 +10,19 @@ compose-message-attachment-name = 附加消息
 
 ## Compose window
 
+compose-default-subject = （无主题）
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = 撰写：{ $subject } - { $brand }
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = 保存此消息到您的草稿文件夹（{ $folder }）并关闭撰写窗口？
+compose-discard-changes-button = 丢弃更改(&D)
 compose-send-confirm-title = 发送消息
 compose-send-confirm-prompt = 您确定可以发送此消息了吗？
 compose-send-confirm-button = 发送
+compose-do-not-show-again = 不再显示此对话框。
 compose-empty-subject-title = 主题提醒
 compose-empty-subject-prompt = 您的邮件没有主题。
 compose-empty-subject-send-button = 无主题发送(&S)
@@ -21,6 +31,7 @@ compose-attachment-reminder-title = 附件提醒
 compose-attachment-reminder-prompt = 忘记添加一个附件了吗？
 compose-newsgroups-not-supported-title = 不支持新闻组
 compose-newsgroups-not-supported = 此账户仅支持电子邮件收件人。继续将忽略新闻组。
+compose-quit-sending-title = 正在发送消息
 compose-quit-saving-title = 正在保存消息
 # Variables:
 # $brand - application name
@@ -34,7 +45,23 @@ compose-quit-saving-prompt =
     你想等消息保存完毕再退出，还是立即退出？
 compose-quit-button = 退出(&Q)
 compose-wait-button = 等待(&W)
+compose-attach-file-picker-title = 附加文件
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = 文件 { $filename } 不存在因此无法附加到消息中。
 compose-file-attachment-error-title = 附加文件
+compose-message-file-error-title = 消息文件
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = 文件 { $filename } 不存在，不能作为消息正文。
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = 文件 { $filename } 未能加载为消息正文。
+compose-save-success-title = 保存消息
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = 您的消息已经被保存到 { $server } 下的 { $folder } 文件夹中。
 compose-rename-attachment-title = 重命名附件
 compose-rename-attachment-prompt = 新附件名称：
 remind-later-button =
@@ -46,6 +73,20 @@ find-replace-button =
     .label = 替换(L)…
     .accesskey = L
     .tooltiptext = 显示查找和替换对话框
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = 不是使用 { $identity } 而是输入自定义发件人（From）地址
+compose-custom-from-address-title = 自定义发件人地址
+compose-custom-from-address-warning = 如果您的电子邮件提供商支持，自定义发件人地址允许修改您的发件人地址而无需在账户设置中创建一个新的身份。例如，如果您发件人地址是李四 <john@example.com>，你可能想要将其更改为李四 <john+doe@example.com> 或约翰 <john@example.com>。
+compose-custom-from-address-ignore = 不要再通知我这个
+compose-blocked-content-options-button = 选项
+compose-blocked-content-options-accesskey = O
+compose-blocked-content-preferences-button = 首选项
+compose-blocked-content-preferences-accesskey = P
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = 解除阻止 { $url }
 
 ## Send Format
 
@@ -439,6 +480,33 @@ cloud-file-account-error-title = 文件快传账户错误
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = 由于文件快传已被删除，文件快传附件 { $filename } 未能更新。
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = 无法验证 { $provider }。
+cloud-file-upload-error-title = 上传出错
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = 无法上传 { $filename } 到 { $provider }。
+cloud-file-quota-error-title = 配额错误
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = 上传 { $filename } 到 { $provider }，会超过您的空间配额。
+cloud-file-size-error-title = 文件大小错误
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } 超过了 { $provider } 的最大大小。
+cloud-file-unknown-error-title = 未知错误
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = 与 { $provider } 通信时发生未知错误。
+cloud-file-deletion-error-title = 删除错误
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = 删除 { $provider } 上的 { $filename } 时遇到问题。
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification = 正在上传您的文件。上传完成后将会在消息体当中插入该文件链接。
