@@ -72,6 +72,9 @@ send-save-template-error-title = 템플릿 저장 오류
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = undisclosed-recipients
 # Variables:
+# $recipient - recipient address
+smtp-error-illegal-local-part = 수신자 주소 { $recipient }의 로컬 부분에 비 ASCII 문자가 있으며 서버가 SMTPUTF8을 지원하지 않습니다. 이 주소를 변경하고 다시 시도하십시오.
+# Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = { $hostname } SMTP 서버는 암호화된 비밀번호 사용을 지원하지 않는것 같습니다. ‘계정 설정 | 서버 설정'의 ‘인증 방식'을 ‘평문 패스워드 (암호화 통신 안함)'로 변경해 보십시오. 만약 갑자기 실패 하는 것이라면, 누군가 비밀번호를 탈취한 시나리오를 의심해볼 만 합니다.
 # Variables:
