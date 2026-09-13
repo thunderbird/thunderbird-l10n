@@ -30,9 +30,14 @@ compose-empty-subject-title = Kujtues Subjekti
 compose-empty-subject-prompt = Mesazhi juaj s’ka subjekt.
 compose-empty-subject-send-button = &Dërgoje Pa Subjekt
 compose-empty-subject-cancel-button = &Anuloje Dërgimin
+compose-attachment-reminder-title = Kujtues Bashkëngjitjesh
+compose-attachment-reminder-prompt = Mos harruat të shtonit një bashkëngjitje?
+compose-attachment-reminder-send-button = Jo, Dërgoje Tani
+compose-attachment-reminder-add-button = Oh, Po!
 compose-newsgroups-not-supported-title = Grup Lajmesh i Pambuluar
 compose-newsgroups-not-supported = Kjo llogari mbulon vetëm marrës email-esh. Në vazhdofshi, grupet e lajmeve do të shpërfillen.
 compose-invalid-address-title = Adresë Marrësi e Pavlefshme
+compose-no-recipients = Nuk u dhanë marrës. Ju lutemi, jepni te fusha e adresave një marrës ose një grup lajmesh.
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address } nuk është një adresë email e vlefshme, sepse nuk është e trajtës përdorues@strehë. Duhet ta ndreqni, përpara se ta dërgoni email-in.
@@ -74,6 +79,11 @@ compose-save-success-title = Ruajeni Mesazhin
 compose-save-success-message = Mesazhi juaj u ruajt te dosja { $folder } nën { $server }.
 compose-rename-attachment-title = Riemërtoni Bashkëngjitjen
 compose-rename-attachment-prompt = Emër i ri bashkëngjitjeje:
+remind-later-button =
+    .label = Kujtoma Më Vonë
+    .accesskey = K
+disable-attachment-reminder-menu-item =
+    .label = Çaktivizo kujtuesin e bashkëngjitjeve për mesazhin e tanishëm
 find-replace-button =
     .label = Zëvendësoni…
     .accesskey = v
