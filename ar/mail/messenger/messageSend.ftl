@@ -24,3 +24,20 @@ send-error-smtp-interrupted = تعذّر إرسال الرسالة لفقد ال
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = تعذّر إرسال الرسالة لانتهاء مهلة الاتصال مع خادوم الصادر (SMTP)‏ { $hostname }. أعد المحاولة.
 send-error-title = عطل في إرسال الرسالة
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-sent-locally =
+    أُرسلت رسالتك لكن لم توضع نسخة منها في مجلد المرسل ({ $folder }) لعطل في الشبكة أو في الوصول إلى الملف.
+    يمكنك إعادة محاولة حفظ الرسالة محليا في { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-draft-locally =
+    لم تنسخ مسودة الرسالة إلى مجلد المسودات ({ $folder }) لعطل في الشبكة أو في الوصول إلى الملف.
+    يمكنك إعادة محاولة حفظ المسودة محليا في { $localFolder }/{ $folder }-{ $account }.
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-template-locally =
+    لم ينسخ قالب الرسالة إلى مجلد القوالب ({ $folder }) لعطل في الشبكة أو في الوصول إلى الملف.
+    يمكنك إعادة محاولة حفظ القالب محليا في { $localFolder }/{ $folder }-{ $account }.
+send-dialog-retry = أعِ&د المحاولة
+send-error-filtering-message = أُرسلت رسالتك و حُفِظت، لكن حدث عطل أثناء تشغيل المرشحات عليها.
