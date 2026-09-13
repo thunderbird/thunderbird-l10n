@@ -27,6 +27,9 @@ send-error-title = 訊息傳送錯誤
 send-progress-assembling-mail-information = 組合郵件資訊中…
 send-progress-assembling-message = 組合郵件中…
 send-progress-creating-mail-message = 建立郵件中…
+# Variables:
+# $filename - name or URL of the file that could not be attached
+send-error-attaching-file = 附加 { $filename } 時發生錯誤，請確認您有權限存取該檔案。
 send-progress-assembling-message-done = 組合郵件中…完成
 send-progress-copy-complete = 複製完成。
 send-progress-copy-failed = 複製失敗。
@@ -54,6 +57,7 @@ send-error-filtering-message = 您的訊息已寄出並已儲存，但對其進�
 # Variables:
 # $hostname - outgoing server hostname
 send-error-smtp-security-issue = 必須修正與 { $hostname } 相關的設定。
+send-error-post-failed = 因為無法連線至新聞群組伺服器，無法張貼此訊息。伺服器可能正在忙碌中或暫時拒絕連線。請確定您的新聞群組伺服器設定正確後再試一次。
 # Variables:
 # $size - formatted message size
 send-warning-large-message = 警告！您將傳送一封大小為 { $size } 的訊息，可能超過郵件伺服器允許的限制。您確定要傳送嗎？
@@ -61,6 +65,8 @@ send-warning-large-message = 警告！您將傳送一封大小為 { $size } 的�
 # $folder - destination folder name
 send-progress-copy-start = 複製郵件到郵件匣 { $folder } 中…
 send-progress-sending-message = 發送郵件中…
+send-error-nntp-ok = 您的訊息已張貼到新聞群組，但尚未寄出給其他收件者。
+send-error-copy-operation = 郵件已成功寄出，但無法存入「寄件備份」匣中。
 send-later-error-title = 稍候再寄錯誤
 send-save-draft-error-title = 儲存草稿錯誤
 send-save-template-error-title = 儲存範本錯誤
@@ -91,8 +97,26 @@ smtp-auth-mechanism-not-supported = { $hostname } 這台 SMTP 伺服器不支援
 # $serverResponse - server response
 smtp-server-error = 寄送郵件時發生錯誤，寄件伺服器（SMTP）發生錯誤，伺服器回應：{ $serverResponse }。
 # Variables:
+# $hostname - outgoing server hostname
+smtp-starttls-failed = 寄送郵件時發生錯誤：寄件伺服器（SMTP）{ $hostname } 並未宣稱有 STARTTLS 功能，故無法以 STARTTLS 建立安全連線。請對該伺服器關閉 STARTTLS 或聯絡您的服務供應商。
+# Variables:
 # $serverResponse - server response
 smtp-too-many-recipients = 由於超過允許的收件者數量，訊息並未送出。伺服器回應：{ $serverResponse }。
 # Variables:
 # $serverResponse - server response
+smtp-error-sending-from-command = 寄送郵件時發生錯誤，伺服器回應：{ $serverResponse }。請檢查「帳號設定」中您的電子郵件地址是否正確後再試一次。
+# Variables:
+# $serverResponse - server response
 smtp-permanent-size-exceeded = 正在寄送的郵件超過了伺服器的大小上限。郵件並未寄出。請嘗試減少郵件大小後再試一次。伺服器回應：{ $serverResponse }。
+# Variables:
+# $serverResponse - server response; $recipient - intended recipient
+smtp-error-sending-recipient-command =
+    寄送郵件時發生錯誤：郵件伺服器回應：
+    { $serverResponse }。
+    請檢查訊息收件者「{ $recipient }」是否正確後再試一次。
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-data-command = 寄件伺服器（SMTP）在寄信時發生錯誤。伺服器回傳：{ $serverResponse }。
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-message = 寄送郵件時發生錯誤，伺服器回應：{ $serverResponse }。請檢查訊息後再試一次。
