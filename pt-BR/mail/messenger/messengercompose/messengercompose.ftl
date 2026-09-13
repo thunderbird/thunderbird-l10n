@@ -12,6 +12,10 @@ compose-message-attachment-name = Mensagem anexada
 
 compose-default-subject = (sem assunto)
 # Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Escrever: { $subject } - { $brand }
+# Variables:
 # $folder - configured drafts folder name
 compose-save-message-prompt = Salvar esta mensagem na pasta de rascunhos ({ $folder }) e fechar a janela de edição?
 compose-discard-changes-button = &Descartar alterações
@@ -71,6 +75,12 @@ find-replace-button =
     .label = Substituir…
     .accesskey = t
     .tooltiptext = Mostrar o diálogo Procurar e substituir
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Insira um endereço de remetente personalizado para ser usado em vez de { $identity }
+compose-custom-from-address-title = Personalizar endereço do remetente
+compose-custom-from-address-warning = Se o seu provedor de email oferecer suporte, a opção "Personalizar endereço do remetente" permite fazer uma única pequena alteração em seu endereço de remetente sem precisar criar uma nova identidade nas configurações da conta. Por exemplo, se o seu endereço de remetente é Alice Silva <alice@example.com>, você pode alterar para Alice Silva <alice+silva@example.com> ou Alice <alice@example.com>.
+compose-custom-from-address-ignore = Nunca me notificar sobre isto novamente
 compose-blocked-content-options-button = Opções
 compose-blocked-content-options-accesskey = O
 compose-blocked-content-preferences-button = Preferências
