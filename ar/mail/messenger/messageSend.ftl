@@ -24,6 +24,12 @@ send-error-smtp-interrupted = تعذّر إرسال الرسالة لفقد ال
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = تعذّر إرسال الرسالة لانتهاء مهلة الاتصال مع خادوم الصادر (SMTP)‏ { $hostname }. أعد المحاولة.
 send-error-title = عطل في إرسال الرسالة
+send-progress-assembling-mail-information = يجري جمع معلومات البريد…
+send-progress-assembling-message = يُجَمِّع الرسالة…
+send-progress-creating-mail-message = يجري إنشاء رسالة بريد…
+send-progress-assembling-message-done = يُجَمِّع الرسالة… تم
+send-progress-copy-complete = تم النسخ.
+send-progress-copy-failed = فشل النسخ.
 # Variables:
 # $folder - destination folder name; $localFolder - local folders name; $account - account name
 send-error-save-sent-locally =
@@ -40,4 +46,9 @@ send-error-save-template-locally =
     لم ينسخ قالب الرسالة إلى مجلد القوالب ({ $folder }) لعطل في الشبكة أو في الوصول إلى الملف.
     يمكنك إعادة محاولة حفظ القالب محليا في { $localFolder }/{ $folder }-{ $account }.
 send-dialog-retry = أعِ&د المحاولة
+send-progress-filter-complete = اكتمل المرشِّح.
+send-progress-filter-failed = فشل المرشِّح.
 send-error-filtering-message = أُرسلت رسالتك و حُفِظت، لكن حدث عطل أثناء تشغيل المرشحات عليها.
+# Variables:
+# $folder - destination folder name
+send-progress-copy-start = يجري نسخ الرسالة إلى المجلد { $folder }…
