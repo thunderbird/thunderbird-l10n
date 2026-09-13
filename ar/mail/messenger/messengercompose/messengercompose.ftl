@@ -17,10 +17,26 @@ compose-default-subject = (بدون عنوان)
 # $folder - configured drafts folder name
 compose-save-message-prompt = أتريد حفظ هذه الرسالة في مجلد المسودات ({ $folder }) و إغلاق نافذة الكتابة؟
 compose-discard-changes-button = &تجاهل التغييرات
+compose-send-confirm-title = أرسِل الرسالة
+compose-send-confirm-prompt = أمتأكد من أنك جاهز لإرسال هذه الرسالة؟
+compose-send-confirm-button = أرسِل
 compose-attachment-reminder-title = مذكّر المرفقات
 compose-attachment-reminder-prompt = هل نسيت أن تضيف المرفق؟
 compose-attachment-reminder-send-button = لا، أرسِل الآن
 compose-attachment-reminder-add-button = أوه، نسيتُ فعلًا!
+compose-quit-saving-title = يحفظ الرسالة
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } منهمك حاليًا بإرسال رسالة.
+    هل تريد انتظار الرسالة حتى تُرسل قبل خروجك أم تصرّ على الخروج الآن؟
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } منهمك حاليًا بحفظ رسالة.
+    هل تريد انتظار الرسالة حتى تُحفظ قبل خروجك أم تصرّ على الخروج الآن؟
+compose-quit-button = أ&نهِ
+compose-wait-button = ا&نتظر
 compose-attach-file-picker-title = أرفق ملفات
 compose-attachment-bucket-attach-files-tooltip = أرفق ملفات
 compose-attachment-bucket-clear-selection-tooltip = امسح التحديد
