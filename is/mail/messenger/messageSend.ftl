@@ -27,6 +27,9 @@ send-error-title = Villa í sendingu á pósti
 send-progress-assembling-mail-information = Tek saman póst upplýsingar…
 send-progress-assembling-message = Set saman póst…
 send-progress-creating-mail-message = Bý til póst…
+# Variables:
+# $filename - name or URL of the file that could not be attached
+send-error-attaching-file = Upp kom villa við að setja inn viðhengi { $filename }. Athugaðu að þú hafir aðgang að skrá.
 send-progress-assembling-message-done = Set saman póst…Búið
 send-progress-copy-complete = Afritun lokið.
 send-progress-copy-failed = Afritun mistókst.
@@ -51,6 +54,9 @@ send-error-save-to-local-folders = Ekki tókst að vista skilaboðin þín í st
 send-progress-filter-complete = Síu lokið.
 send-progress-filter-failed = Sía mistókst.
 send-error-filtering-message = Búið er að senda og vista póstinn, en upp kom villa þegar verið var að keyra síu á hann.
+# Variables:
+# $hostname - outgoing server hostname
+send-error-smtp-security-issue = Stillingar sem tengjast { $hostname } verður að leiðrétta.
 send-error-post-failed = Ekki tókst að senda póstinn vegna þess að tenging við fréttaþjón mistókst. Fréttaþjónninn gæti verið niðri eða hafnað tengingum. Gakktu úr skugga um að stillingar netþjóns séu réttar og reyndu aftur.
 # Variables:
 # $size - formatted message size
@@ -59,6 +65,8 @@ send-warning-large-message = Aðvörun! Þú ert að fara að senda póst af st�
 # $folder - destination folder name
 send-progress-copy-start = Afrita póst í möppu { $folder }…
 send-progress-sending-message = Sendi póst…
+send-error-nntp-ok = Pósturinn var sendur á fréttahópinn en var ekki sendur á aðra aðila.
+send-error-copy-operation = Tókst að senda póstinn, en ekki tókst að afrita póstinn í Sent möppuna.
 send-later-error-title = Senda seinna villa
 send-save-draft-error-title = Vista drög villa
 send-save-template-error-title = Vista sniðmát villa
@@ -87,7 +95,25 @@ smtp-auth-gssapi = Kerberos/GSSAPI auðkenni var hafnað af póstþjóni fyrir �
 smtp-auth-mechanism-not-supported = Póstþjónn fyrir útsendan póst (SMTP) { $hostname } styður ekki valda auðkennisaðferð. Breyttu ‘Auðkennisaðferð’ í ‘Stillingar reiknings | Póstþjónn út (SMTP)’.
 # Variables:
 # $serverResponse - server response
+smtp-server-error = Upp kom villa við að senda póst: Villa í netþjóni fyrir útsendan póst. Póstþjónninn svaraði:  { $serverResponse }.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-starttls-failed = Upp kom villa við að senda póst: Get ekki komið á öruggri tengingu við póstþjón (SMTP) { $hostname } með því að nota STARTTLS þar sem hann styður það ekki. Slökktu á STARTTLS fyrir þennan póstþjón eða hafðu samband við þjónustuaðila.
+# Variables:
+# $serverResponse - server response
+smtp-too-many-recipients = Skilaboðin voru ekki send vegna þess að farið var yfir leyfilegan fjölda viðtakenda. Póstþjónninn svaraði: { $serverResponse }.
+# Variables:
+# $serverResponse - server response
 smtp-error-sending-from-command = Villa kom up við að senda póst. Póstþjónninn svaraði: { $serverResponse }. Athugað að póstfangið þitt sé rétt í stillingum reiknings og reyndu aftur.
+# Variables:
+# $serverResponse - server response
+smtp-permanent-size-exceeded = Stærð póstsins sem þú ert að reyna að senda fer yfir hámarksstærð póstþjóns. Pósturinn var því ekki sendur; reyndu að minnka stærð póstsins og reyndu aftur. Póstþjónninn svaraði:  { $serverResponse }.
+# Variables:
+# $serverResponse - server response; $recipient - intended recipient
+smtp-error-sending-recipient-command =
+    Upp kom villa við að senda póst. Póstþjónn svaraði:
+    { $serverResponse }.
+    Athugaðu mótttakanda pósts "{ $recipient }" og reyndu aftur.
 # Variables:
 # $serverResponse - server response
 smtp-error-sending-data-command = Upp kom villa við að senda póst á netþjón fyrir útsendan póst. Póstþjónninn svaraði:  { $serverResponse }.
