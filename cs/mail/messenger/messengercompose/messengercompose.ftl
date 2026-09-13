@@ -10,6 +10,11 @@ compose-message-attachment-name = Připojená zpráva
 
 ## Compose window
 
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Psaní: { $subject } - { $brand }
+compose-save-message-title = Uložit zprávu
 compose-send-confirm-title = Odesílání zprávy
 compose-send-confirm-prompt = Opravdu chcete odeslat tuto zprávu?
 compose-send-confirm-button = Odeslat
@@ -72,6 +77,20 @@ find-replace-button =
     .label = Nahradit…
     .accesskey = a
     .tooltiptext = Zobrazí dialog pro nalezení a náhradu
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Zadejte vlastní adresu odesílatele místo { $identity }
+compose-custom-from-address-title = Nastavení adresy odesílatele
+compose-custom-from-address-warning = Podporuje-li to váš poskytovatel e-mailové schránky, můžete jednorázově provést drobné změny v adrese odesílatele bez nutnosti vytvářet novou identitu v Nastavení účtu. Například pokud je vaše adresa „Jan Novák <jan@example.com>“, můžete ji změnit na „Jan Novák <jan+novak@example.com>“ nebo „Honza <jan@example.com>“.
+compose-custom-from-address-ignore = Příště mě již neupozorňovat
+compose-blocked-content-options-button = Možnosti
+compose-blocked-content-options-accesskey = M
+compose-blocked-content-preferences-button = Předvolby
+compose-blocked-content-preferences-accesskey = v
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Odblokovat { $url }
 
 ## Send Format
 
@@ -139,6 +158,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Rozbalit seznam
     .accesskey = R
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = Odebrat adresu z pole { $field }
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Opravdu chcete odebrat adresu z pole { $field }?
+compose-remove-address-row-button = Odebrat
 
 ## Attachment widget
 
