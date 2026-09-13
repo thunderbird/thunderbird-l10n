@@ -24,3 +24,16 @@ send-error-smtp-interrupted = Ezin izan da mezua bidali { $hostname } irteerako 
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = Ezin izan da mezua bidali { $hostname } irteerako SMTP zerbitzariarekiko konexioa denboraz kanpo geratu delako. Saiatu berriro.
 send-error-title = Errorea mezua bidaltzean
+send-progress-assembling-mail-information = Postari buruzko informazioa osatzen…
+send-progress-assembling-message = Mezua osatzen…
+send-progress-creating-mail-message = Posta-mezua sortzen…
+send-progress-assembling-message-done = Mezua osatzen…Eginda
+send-progress-copy-complete = Kopiatzen amaitu du.
+send-progress-copy-failed = Kopiatzeak huts egin du.
+send-progress-filter-complete = Iragazketa burutu da.
+send-progress-filter-failed = Iragazketak huts egin du.
+# Variables:
+# $folder - destination folder name
+send-progress-copy-start = Mezua kopiatzen { $folder } karpetan…
+# LOCALIZATION NOTE: This string must use only US-ASCII characters.
+send-undisclosed-recipients = aipatu gabeko hartzaileak
