@@ -36,6 +36,10 @@ compose-attachment-reminder-send-button = Non, envoyer maintenant
 compose-attachment-reminder-add-button = Oui
 compose-newsgroups-not-supported-title = Groupes de discussion non supportés
 compose-newsgroups-not-supported = Ce compte prend uniquement en charge les destinataires d’e-mails. En continuant, les groupes seront ignorés.
+compose-invalid-address-title = Adresse de destinataire invalide
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } n’est pas une adresse valide, car elle n’est pas au format utilisateur@domaine. Veuillez la corriger avant d’envoyer l’e-mail.
 compose-quit-sending-title = Envoi d’un message
 compose-quit-saving-title = Enregistrement du message
 # Variables:
@@ -51,6 +55,9 @@ compose-quit-saving-prompt =
 compose-quit-button = &Quitter
 compose-wait-button = &Attendre
 compose-attach-file-picker-title = Joindre les fichiers
+compose-attach-page-title = Veuillez spécifier un chemin pour la pièce jointe
+compose-attach-page-prompt = Page web (URL) :
+compose-message-part-attachment-name = Portion de message joint
 compose-attachment-bucket-attach-files-tooltip = Joindre fichier(s)
 compose-attachment-bucket-clear-selection-tooltip = Effacer la sélection
 # Variables:
