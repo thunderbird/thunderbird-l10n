@@ -101,6 +101,9 @@ smtp-server-error = Digwyddodd gwall wrth anfon e-bost: Gwall gweinydd Anfon (SM
 smtp-starttls-failed = Gwall wrth anfon e-bost: Methu sefydlu cysylltiad diogel gyda gweinydd Anfon (SMTP) { $hostname } drwy STARTTLS am nad yw'n hysbysu'r nodwedd hwnnw. Diffoddwch STARTTLS ar gyfer y gweinydd hwnnw neu cysylltwch â'ch darparwr gwasanaeth.
 # Variables:
 # $serverResponse - server response
+smtp-too-many-recipients = Heb anfon y neges oherwydd ei bod yn fwy na'r nifer sy'n cael ei ganiatáu o dderbynwyr. Ymatebodd y gweinydd: { $serverResponse }.
+# Variables:
+# $serverResponse - server response
 smtp-error-sending-from-command = Cafwyd gwall wrth anfon e-bost. Ymateb y gweinydd oedd: { $serverResponse }. Gwiriwch fod eich cyfeiriad e-bost yn gywir yn eich dewisiadau E-bost a cheisiwch eto.
 # Variables:
 # $serverResponse - server response
