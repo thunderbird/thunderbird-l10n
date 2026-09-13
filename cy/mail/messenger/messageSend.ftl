@@ -27,6 +27,9 @@ send-error-title = Anfon Neges Gwall
 send-progress-assembling-mail-information = Crynhoi gwybodaeth e-bost…
 send-progress-assembling-message = Cydosod neges…
 send-progress-creating-mail-message = Creu neges e-bost…
+# Variables:
+# $filename - name or URL of the file that could not be attached
+send-error-attaching-file = Ddigwyddodd gwall wrth atodi { $filename }. Gwiriwch fod gennych fynediad i'r ffeil.
 send-progress-assembling-message-done = Cydosod neges...Wedi gorffen
 send-progress-copy-complete = Copïo wedi gorffen.
 send-progress-copy-failed = Methodd copïo.
@@ -51,6 +54,9 @@ send-error-save-to-local-folders = Methu cadw eich neges i ffolderi lleol. Posib
 send-progress-filter-complete = Mae'r hidl wedi ei gwblhau.
 send-progress-filter-failed = Methodd yr hidl.
 send-error-filtering-message = Mae eich neges wedi ei hanfon a'i chadw, ond bu gwall wrth redeg yr hidlau neges arni.
+# Variables:
+# $hostname - outgoing server hostname
+send-error-smtp-security-issue = Rhaid cywiro'r ffurfweddiad sy'n gysylltiedig â { $hostname }.
 send-error-post-failed = Nid oedd modd cofnodi'r neges am i'r cyswllt a'r gweinydd e-bost fethu. Efallai nad yw'r gweinydd ar gael neu mae'n gwrthod cysylltiadau. Gwiriwch eich gosodiadau gwasanaethau e-bost a cheisiwch eto, neu cysylltwch â'ch gweinyddwr rhwydwaith.
 # Variables:
 # $size - formatted message size
@@ -59,11 +65,16 @@ send-warning-large-message = Rhybudd! Rydych ar fin anfon neges o faint { $size 
 # $folder - destination folder name
 send-progress-copy-start = Copïo neges i'r ffolder { $folder }…
 send-progress-sending-message = Wrthi'n anfon neges…
+send-error-nntp-ok = Mae eich neges wedi ei chofnodi at y grŵp newyddion ond nid yw wedi'i hanfon at dderbynnydd arall.
+send-error-copy-operation = Anfonwyd y neges yn llwyddiannus, ond nid oedd modd ei chopïo i'ch ffolder Anfon.
 send-later-error-title = Anfon Gwall Diweddarach
 send-save-draft-error-title = Cadw Gwall Drafft
 send-save-template-error-title = Cadw Gwall Templed
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = derbynnydd cudd
+# Variables:
+# $recipient - recipient address
+smtp-error-illegal-local-part = Mae nodau nad ydynt yn ASCII yn rhan leol cyfeiriad y derbynnydd { $recipient } ac nid yw'ch gweinydd yn cefnogi SMTPUTF8. Newidiwch y cyfeiriad hwn a rhowch gynnig arall arni.
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = Nid yw'r gweinydd Anfon (SMTP) { $hostname } i weld yn cynnal cyfrineiriau wedi eu hamgryptio. Os ydych newydd greu'r cyfrif, ceisiwch newydd y ‘Dull dilysu’ yn ‘Gosodiadau Cyfrif | Gosodiadau gweinydd (SMTP)’ i ‘Cyfrinair, trosglwyddo anniogel’. Os oedd arfer gweithio ond nid yw nawr, gallwch fod yn agored i gael eich cyfrinair wedi ei ddwyn.
@@ -84,7 +95,22 @@ smtp-auth-gssapi = Nid yw'r tocyn Kerberos/GSSAPI ticket wedi'i dderbyn gan wein
 smtp-auth-mechanism-not-supported = Nid yw'r gweinydd Anfon (SMTP) { $hostname } yn cynnal y dull yma o ddilysu. Ceisiwch newid y ‘Dull dilysu’ yn ‘Gosodiadau Cyfrif | Gweinydd Anfon (SMTP)’.
 # Variables:
 # $serverResponse - server response
+smtp-server-error = Digwyddodd gwall wrth anfon e-bost: Gwall gweinydd Anfon (SMTP). Ymateb y gweinydd oedd:  { $serverResponse }.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-starttls-failed = Gwall wrth anfon e-bost: Methu sefydlu cysylltiad diogel gyda gweinydd Anfon (SMTP) { $hostname } drwy STARTTLS am nad yw'n hysbysu'r nodwedd hwnnw. Diffoddwch STARTTLS ar gyfer y gweinydd hwnnw neu cysylltwch â'ch darparwr gwasanaeth.
+# Variables:
+# $serverResponse - server response
 smtp-error-sending-from-command = Cafwyd gwall wrth anfon e-bost. Ymateb y gweinydd oedd: { $serverResponse }. Gwiriwch fod eich cyfeiriad e-bost yn gywir yn eich dewisiadau E-bost a cheisiwch eto.
+# Variables:
+# $serverResponse - server response
+smtp-permanent-size-exceeded = Mae maint y neges rydych yn ceisio ei hanfon yn fwy nag uchafswm eang dros dro'r gweinydd. Nid yw'r neges wedi'i hanfon; ceisiwch leihau maint y neges neu aros peth amser a cheisio eto. Ymateb y gweinydd:  { $serverResponse }.
+# Variables:
+# $serverResponse - server response; $recipient - intended recipient
+smtp-error-sending-recipient-command =
+    Digwyddodd gwall wrth anfon e-bost. Ymateb y gweinydd e-bost oedd:
+    { $serverResponse }.
+    Gwiriwch fod y derbynnydd neges "{ $recipient }" yn gywir a cheisiwch eto.
 # Variables:
 # $serverResponse - server response
 smtp-error-sending-data-command = Digwyddodd gwall (SMTP) wrth anfon e-bost. Ymateb y gweinydd oedd:  { $serverResponse }.
