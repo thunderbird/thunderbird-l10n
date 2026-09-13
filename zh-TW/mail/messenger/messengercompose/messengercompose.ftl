@@ -5,6 +5,7 @@
 
 ## Compose alerts
 
+compose-message-cancelling = 取消中…
 compose-message-attachment-name = 附加郵件
 
 ## Compose window

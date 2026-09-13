@@ -5,6 +5,11 @@
 
 ## Message sending
 
+send-alert-queued-delivery-failed = 傳送未寄出訊息時發生錯誤。
+send-alert-followup-to-sender = 此訊息寄件者要求只能回信給他。如果您想回覆到整個新聞群組，請在地址區加入新的一欄，自收件者清單中選取新聞群組，再填入新聞群組的名稱。
+send-unable-to-save-template = 無法將您的訊息儲存為範本。
+send-unable-to-save-draft = 無法將您的訊息儲存為草稿。
+send-error-failed = 訊息傳送失敗。
 send-unable-to-send-later = 抱歉，我們無法儲存您的郵件以後再寄。
 # Variables:
 # $hostname - outgoing server hostname
