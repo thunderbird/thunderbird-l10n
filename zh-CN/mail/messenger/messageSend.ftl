@@ -100,6 +100,9 @@ smtp-starttls-failed = 发送邮件时出错：无法与发件服务器（SMTP�
 # $serverResponse - server response
 smtp-error-sending-from-command = 发送邮件时出错。邮件服务器响应：{ $serverResponse }。请验证您在账户设置中的电子邮件地址是否正确，然后再试。
 # Variables:
+# $serverResponse - server response
+smtp-permanent-size-exceeded = 您尝试发送的消息大小超过了全局大小限制。消息未发送。请减少消息大小，然后重试。 服务器返回：{ $serverResponse }。
+# Variables:
 # $serverResponse - server response; $recipient - intended recipient
 smtp-error-sending-recipient-command =
     发送邮件时出错。邮件服务器响应：
