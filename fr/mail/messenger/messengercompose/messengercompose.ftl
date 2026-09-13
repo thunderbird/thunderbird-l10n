@@ -10,10 +10,15 @@ compose-message-attachment-name = Message joint
 
 ## Compose window
 
+compose-default-subject = (pas de sujet)
 # Variables:
 # $subject - message subject
 # $brand - application name
 compose-window-title = Rédaction : { $subject } - { $brand }
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Enregistrer ce message dans votre dossier Brouillons ({ $folder }) et fermer la fenêtre de composition ?
+compose-discard-changes-button = &Abandonner les modifications
 compose-send-confirm-title = Envoyer le message
 compose-send-confirm-prompt = Voulez-vous vraiment envoyer ce message tout de suite ?
 compose-send-confirm-button = Envoyer
@@ -42,6 +47,7 @@ compose-quit-saving-prompt =
     Voulez-vous quitter maintenant ou attendre la fin de l’enregistrement ?
 compose-quit-button = &Quitter
 compose-wait-button = &Attendre
+compose-attach-file-picker-title = Joindre les fichiers
 # Variables:
 # $filename - name of the file that could not be found
 compose-file-attachment-not-found = Le fichier { $filename } n’existe pas et n’a pu être joint au message.
