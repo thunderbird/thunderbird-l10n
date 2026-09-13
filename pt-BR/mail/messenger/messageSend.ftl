@@ -16,3 +16,4 @@ send-error-smtp-interrupted = A mensagem não foi enviada porque a conexão com 
 # Variables:
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = A mensagem não foi enviada porque a conexão com o servidor de envio (SMTP) { $hostname } expirou. Tente novamente.
+send-error-title = Erro ao enviar mensagem
