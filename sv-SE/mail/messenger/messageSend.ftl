@@ -50,6 +50,7 @@ send-error-save-template-locally =
     Du kan försöka igen eller spara mallen lokalt till { $localFolder }/{ $folder }-{ $account }.
 send-dialog-save-title = Spara meddelande
 send-dialog-retry = &Försök igen
+send-error-save-to-local-folders = Det gick inte att spara ditt meddelande till lokala mappar. Möjligen saknas lagringsutrymme.
 send-progress-filter-complete = Filtrering klar.
 send-progress-filter-failed = Filtrering misslyckades.
 send-error-filtering-message = Ditt meddelande har skickats och sparats, men det uppstod ett fel när meddelandefilter kördes.
