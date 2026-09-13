@@ -1,0 +1,19 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+
+## Message sending
+
+send-alert-queued-delivery-failed = Při odesílání neodeslaných zpráv nastala chyba.
+send-error-failed = Poslání zprávy selhalo.
+# Variables:
+# $hostname - outgoing server hostname
+send-error-smtp-request-refused = Zprávu nelze odeslat, protože se nepodařilo připojit na SMTP server { $hostname }. Server může být nedostupný nebo odmítá SMTP spojení. Ověřte prosím správnost nastavení vašeho SMTP serveru a zkuste to znovu, nebo kontaktujte správce sítě.
+# Variables:
+# $hostname - outgoing server hostname
+send-error-smtp-interrupted = Zprávu se nepodařilo odeslat, protože spojení se SMTP serverem { $hostname } bylo ztraceno uprostřed transakce. Zkuste to znovu, nebo kontaktujte správce sítě.
+# Variables:
+# $hostname - outgoing server hostname
+send-error-smtp-timeout = Zprávu se nepodařilo odeslat, protože spojení se SMTP serverem { $hostname } vypršelo. Zkuste to znovu, nebo kontaktujte správce sítě.
+send-error-title = Chyba při odesílání zprávy
