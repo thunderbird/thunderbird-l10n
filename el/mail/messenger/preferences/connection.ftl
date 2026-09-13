@@ -22,6 +22,7 @@ disable-extension-button = Απενεργοποίηση επέκτασης
 # The extension-icon is the extension's icon, or a fallback image. It should be
 # purely decoration for the actual extension name, with alt="".
 proxy-settings-controlled-by-extension = Μια επέκταση, το <img data-l10n-name="extension-icon" alt="" /> { $name }, ελέγχει τον τρόπο σύνδεσης του { -brand-short-name } με το διαδίκτυο.
+connection-internet-proxy-legend = Σύνδεση στο διαδίκτυο και διακομιστής μεσολάβησης
 connection-proxy-legend = Ρύθμιση διακομιστών μεσολάβησης για πρόσβαση στο διαδίκτυο
 proxy-type-no =
     .label = Χωρίς διακομιστή μεσολάβησης
@@ -35,6 +36,9 @@ proxy-type-wpad =
 proxy-type-system =
     .label = Χρήση ρυθμίσεων διακομιστή μεσολάβησης συστήματος
     .accesskey = σ
+proxy-manual-setup =
+    .label = Χειροκίνητη ρύθμιση διακομιστή μεσολάβησης:
+    .accesskey = μ
 proxy-type-manual =
     .label = Χειροκίνητη ρύθμιση διακομιστή μεσολάβησης:
     .accesskey = ν
