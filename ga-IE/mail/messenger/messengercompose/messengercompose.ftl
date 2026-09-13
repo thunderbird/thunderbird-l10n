@@ -10,9 +10,12 @@ compose-message-attachment-name = Teachtaireacht Faoi Iamh
 
 ## Compose window
 
+compose-default-subject = (gan ábhar)
+compose-save-message-title = Sábháil an Teachtaireacht
 compose-send-confirm-title = Seoladh na Teachtaireachta
 compose-send-confirm-prompt = An bhfuil tú cinnte go bhfuil tú réidh chun an teachtaireacht seo a sheoladh?
 compose-send-confirm-button = Seol
+compose-do-not-show-again = Ná taispeáin an dialóg seo arís.
 compose-empty-subject-title = Meabhrúcháin Ábhair
 compose-empty-subject-prompt = Níl ábhar ag an teachtaireacht seo.
 compose-empty-subject-send-button = &Seol Gan Ábhar
@@ -23,6 +26,7 @@ compose-attachment-reminder-send-button = Ní dhearna, Seol Anois
 compose-attachment-reminder-add-button = Rinne mé dearmad!
 compose-newsgroups-not-supported-title = Ní thacaítear le grúpaí nuachta
 compose-newsgroups-not-supported = Ní thacaíonn an cuntas seo ach le faighteoirí ríomhphoist. Tabharfar neamhaird ar ghrúpaí nuachta má leantar ar aghaidh.
+compose-quit-sending-title = Teachtaireacht á Seoladh
 compose-quit-saving-title = Teachtaireacht á Sábháil
 # Variables:
 # $brand - application name
@@ -36,7 +40,23 @@ compose-quit-saving-prompt =
     Ar mhaith leat fanacht go mbeidh an teachtaireacht sábháilte, nó scoir anois láithreach?
 compose-quit-button = &Scoir
 compose-wait-button = &Fan
+compose-attach-file-picker-title = Cuir comha(i)d faoi iamh
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = Níl comhad { $filename } ann agus mar sin níorbh fhéidir é a cheangal leis an teachtaireacht.
 compose-file-attachment-error-title = Ceangal Comhaid
+compose-message-file-error-title = Comhad Teachtaireachta
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = Níl comhad { $filename } ann agus mar sin níorbh fhéidir é a úsáid mar chorp na teachtaireachta.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = Níorbh fhéidir comhad { $filename } a lódáil mar chorp na teachtaireachta.
+compose-save-success-title = Sábháil an Teachtaireacht
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Tá do theachtaireacht sábháilte san fhillteán { $folder } ar { $server }.
 compose-rename-attachment-title = Athainmnigh Iatán
 compose-rename-attachment-prompt = Ainm nua an iatáin:
 remind-later-button =
@@ -54,6 +74,14 @@ compose-custom-from-address-placeholder = Cuir isteach seoladh "Ó" in ionad { $
 compose-custom-from-address-title = Ríomhphost ó Sheoladh Saincheaptha
 compose-custom-from-address-warning = Má thacaíonn do sholáthraí le seoltaí ríomhphoist saincheaptha, beidh tú in ann mionathrú a dhéanamh uair amháin ar an seoladh a úsáidtear le do chuid ríomhphoist a sheoladh, gan aitheantas nua a chruthú sna Socruithe Cuntais. Mar shampla, dá mba é "Tadhg Ó Ródaí <tadhg@example.com>" an seoladh a seolann tú ríomhphost uaidh, b'fhéidir leat é a athrú go dtí "Tadhg Ó Ródaí <tadhg+o+rodai@example.com>" nó "Tadhg <tadhg@example.com>".
 compose-custom-from-address-ignore = Ná habair liom faoi seo arís
+compose-blocked-content-options-button = Roghanna
+compose-blocked-content-options-accesskey = O
+compose-blocked-content-preferences-button = Sainroghanna
+compose-blocked-content-preferences-accesskey = S
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Bain an cosc de { $url }
 
 ## Send Format
 
@@ -133,6 +161,33 @@ attachment-reminder-keywords-msg =
 # Messages
 
 cloud-file-authentication-error-title = Earráid Fhíordheimhnithe
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Ní féidir fíordheimhniú ar { $provider }.
+cloud-file-upload-error-title = Earráid le linn uaslódála
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Ní féidir { $filename } a uaslódáil go { $provider }.
+cloud-file-quota-error-title = Earráid Chuóta
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Dá n-uaslódálfá { $filename } go { $provider }, rachfá thar do chuóta spáis.
+cloud-file-size-error-title = Comhad Rómhór
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = Tá { $filename } níos mó ná an t-uasmhéid le haghaidh { $provider }.
+cloud-file-unknown-error-title = Earráid Anaithnid
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Tharla earráid anaithnid le linn cumarsáide le { $provider }.
+cloud-file-deletion-error-title = Earráid: Scriosadh
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Tharla earráid agus { $filename } á scriosadh ó { $provider }.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
