@@ -73,6 +73,9 @@ send-save-template-error-title = Fout bij opslaan van sjabloon
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = niet-openbare ontvangers
 # Variables:
+# $recipient - recipient address
+smtp-error-illegal-local-part = Er komen niet-ASCII-tekens voor in het lokale gedeelte van het ontvangeradres { $recipient } en uw server ondersteunt geen SMTPUTF8. Wijzig dit adres en probeer het opnieuw.
+# Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = De uitgaande (SMTP-)server { $hostname } lijkt geen versleutelde wachtwoorden te ondersteunen. Als u de account zojuist hebt ingesteld, probeer dan de ‘Authenticatiemethode’ in de ‘Accountinstellingen | Uitgaande server (SMTP)’ naar ‘Wachtwoord, onbeveiligd verzonden’ te wijzigen. Als dit eerder heeft gewerkt en nu ineens niet meer, is dit een veelvoorkomend scenario wanneer iemand uw wachtwoord probeert te stelen.
 # Variables:
@@ -96,6 +99,9 @@ smtp-server-error = Er is een fout opgetreden bij het verzenden van e-mail: fout
 # Variables:
 # $hostname - outgoing server hostname
 smtp-starttls-failed = Er is een fout opgetreden bij het verzenden van e-mail: kan geen beveiligde verbinding met uitgaande (SMTP-)server { $hostname } tot stand brengen met STARTTLS, aangezien de server die functie niet aankondigt. Schakel STARTTLS uit voor deze server of neem contact op met uw serviceprovider.
+# Variables:
+# $serverResponse - server response
+smtp-too-many-recipients = Het bericht is niet verzonden, omdat het toegestane aantal ontvangers wordt overschreden. De server antwoordde: { $serverResponse }.
 # Variables:
 # $serverResponse - server response
 smtp-error-sending-from-command = Er is een fout opgetreden bij het verzenden van e-mail. De mailserver antwoordde: { $serverResponse }. Controleer of uw e-mailadres juist is ingesteld in uw accountinstellingen en probeer het opnieuw.
