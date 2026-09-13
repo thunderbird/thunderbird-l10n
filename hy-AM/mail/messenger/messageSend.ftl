@@ -33,9 +33,25 @@ send-error-attaching-file = Սխալ՝ { $filename }-ը կցելիս։ Համո�
 send-progress-assembling-message-done = Նամակի թողարկում...Պատրաստ է
 send-progress-copy-complete = Պատճենվեց։
 send-progress-copy-failed = Ձախողվեց։
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-sent-locally = Ձեր հաղորդագրությունն ուղարկվել է, բայց պատճենը չի տեղադրվել ձեր ուղարկված թղթապանակում ({ $folder }) ցանցի կամ նիշքերի մուտքի սխալի պատճառով: /nԴուք կարող եք կրկին փորձել կամ տեղային պահել նամակը  { $localFolder }/{ $folder }-{ $account }։
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-draft-locally =
+    Ձեր հաղորդագրության նախագիծը չի պատճենվել ձեր նախագծերի թղթապանակում ({ $folder })`ցանցի կամ ֆայլերի մուտքի սխալների պատճառով:
+    Դուք կարող եք փորձել կամ պահպանել նախագիծը տեղային { $localFolder }/{ $folder }-{ $account }:
+# Variables:
+# $folder - destination folder name; $localFolder - local folders name; $account - account name
+send-error-save-template-locally =
+    Ձեր ձևանմուշը չի պատճենվել ձեր ձևանմուշների պանակում ({ $folder }) ցանցի կամ ֆայլերի մուտքի սխալների պատճառով:
+    Դուք կարող եք փորձել կամ պահպանել ձևանմուշը տեղական { $localFolder }/{ $folder }-{ $account }- ում:
 send-dialog-save-title = Պահպանել նամակը
+send-dialog-retry = &Կրկնել
+send-error-save-to-local-folders = Անհնար է պահել ձեր հաղորդագրությունը տեղական պանակներում: Հնարավոր է նիշքերի պահեստային տարածքից դուրս:
 send-progress-filter-complete = Զտումը ավարտվեց:
 send-progress-filter-failed = Զտումը ձախողվեց:
+send-error-filtering-message = Հաղորդագրությունը ուղարկվել է և պահպանվել, բայց սխալ է տեղի ունեցնել զտելիս:
 # Variables:
 # $hostname - outgoing server hostname
 send-error-smtp-security-issue = { $hostname } -ի հետ կապված կազմաձևերը պետք է շտկվեն:
