@@ -35,6 +35,10 @@ compose-attachment-reminder-send-button = 不，现在发送
 compose-attachment-reminder-add-button = 噢，又忘了！
 compose-newsgroups-not-supported-title = 不支持新闻组
 compose-newsgroups-not-supported = 此账户仅支持电子邮件收件人。继续将忽略新闻组。
+compose-invalid-address-title = 收件人地址无效
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } 不是正确的电子邮件地址，因为它不是类似 user@host 的格式。您必须在发送邮件之前改正它。
 compose-quit-sending-title = 正在发送消息
 compose-quit-saving-title = 正在保存消息
 # Variables:
@@ -50,6 +54,9 @@ compose-quit-saving-prompt =
 compose-quit-button = 退出(&Q)
 compose-wait-button = 等待(&W)
 compose-attach-file-picker-title = 附加文件
+compose-attach-page-title = 请指定要附加的地址
+compose-attach-page-prompt = 网页 (URL)：
+compose-message-part-attachment-name = 附加消息部分
 compose-attachment-bucket-attach-files-tooltip = 附件
 compose-attachment-bucket-clear-selection-tooltip = 清除选定内容
 # Variables:
