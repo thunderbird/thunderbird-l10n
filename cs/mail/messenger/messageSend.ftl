@@ -10,6 +10,9 @@ send-error-failed = Poslání zprávy selhalo.
 send-unable-to-send-later = Omlouváme se, ale nedařilo se uložit zprávy pro pozdější odeslání.
 # Variables:
 # $hostname - outgoing server hostname
+send-error-smtp-unknown-server = Při odesílání zprávy nastala chyba: SMTP server { $hostname } je neznámý. Server může být špatně nakonfigurován. Ověřte prosím správnost vašeho nastavení pošty a zkuste to znovu.
+# Variables:
+# $hostname - outgoing server hostname
 send-error-smtp-request-refused = Zprávu nelze odeslat, protože se nepodařilo připojit na SMTP server { $hostname }. Server může být nedostupný nebo odmítá SMTP spojení. Ověřte prosím správnost nastavení vašeho SMTP serveru a zkuste to znovu, nebo kontaktujte správce sítě.
 # Variables:
 # $hostname - outgoing server hostname
