@@ -27,6 +27,9 @@ send-error-title = Chyba pri odosielaní správy
 send-progress-assembling-mail-information = Zostavujú sa informácie o pošte…
 send-progress-assembling-message = Správa sa zostavuje…
 send-progress-creating-mail-message = Vytvára sa e‑mailová správa…
+# Variables:
+# $filename - name or URL of the file that could not be attached
+send-error-attaching-file = Pri pokuse o pripojenie súboru { $filename } sa vyskytla chyba. Skontrolujte, či máte k súboru prístup.
 send-progress-assembling-message-done = Správa sa zostavuje… Hotovo
 send-progress-copy-complete = Kopírovanie dokončené
 send-progress-copy-failed = Kopírovanie zlyhalo
@@ -45,10 +48,15 @@ send-error-save-draft-locally =
 send-error-save-template-locally =
     Vaša šablóna nebola skopírovaná do priečinka so šablónami ({ $folder }) kvôli chybe siete alebo prístupu k súboru.
     Môžete to skúsiť znova alebo uložiť šablónu lokálne do { $localFolder }/{ $folder }-{ $account }.
+send-dialog-save-title = Uloženie správy
 send-dialog-retry = &Znova
+send-error-save-to-local-folders = Správu nebolo možné uložiť do lokálneho priečinka. Príčinou môže byť nedostatok miesta v ukladacom priestore.
 send-progress-filter-complete = Filtrovanie dokončené.
 send-progress-filter-failed = Filtrovanie zlyhalo.
 send-error-filtering-message = Vaša správa bola odoslaná a uložená, ale pri spúšťaní filtrov na tejto správe sa vyskytla chyba.
+# Variables:
+# $hostname - outgoing server hostname
+send-error-smtp-security-issue = Konfigurácia vzťahujúca sa k { $hostname } musí byť opravená.
 send-error-post-failed = Správu sa nepodarilo odoslať, pretože sa nepodarilo spojiť s diskusným serverom. Server môže byť neprístupný alebo odmieta spojenie. Overte si, že vaše nastavenie diskusného servera je správne a skúste správu odoslať znova.
 # Variables:
 # $size - formatted message size
@@ -57,6 +65,8 @@ send-warning-large-message = Pozor! Chystáte sa odoslať správu s veľkosťou 
 # $folder - destination folder name
 send-progress-copy-start = Správa sa kopíruje do priečinka { $folder }…
 send-progress-sending-message = Správa sa odosiela…
+send-error-nntp-ok = Vaša správa bola odoslaná do diskusnej skupiny, ale nie ostatným adresátom.
+send-error-copy-operation = Správa bola úspešne odoslaná, ale jej kopírovanie do priečinka Odoslaná pošta zlyhalo.
 send-later-error-title = Chyba pri odložení odoslania
 send-save-draft-error-title = Chyba pri ukladaní konceptu
 send-save-template-error-title = Chyba pri ukladaní šablóny
@@ -82,7 +92,24 @@ smtp-auth-gssapi = Tiket Kerberos/GSSAPI nebol serverom pre odosielanie pošty (
 smtp-auth-mechanism-not-supported = Server pre odosielanie pošty (SMTP) { $hostname } nepodporuje zvolenú metódu overenia. Zmeňte nastavenie ‘Metóda overenia’ v okne ‘Nastavenia účtu | Server pre odosielanie pošty (SMTP)’.
 # Variables:
 # $serverResponse - server response
+smtp-server-error =
+    Chyba pri odosielaní pošty: chyba servera pre odosielanie pošty (SMTP). Server odpovedal: { $serverResponse }
+    .
+# Variables:
+# $hostname - outgoing server hostname
+smtp-starttls-failed = Pri odosielaní správy sa vyskytla chyba: Nepodarilo sa nadviazať zabezpečené spojenie so serverom pre odosielanie pošty (SMTP) { $hostname } použitím STARTTLS, pretože túto funkciu nepodporuje. Vypnite STARTTLS pre tento server alebo kontaktujte poskytovateľa služby.
+# Variables:
+# $serverResponse - server response
 smtp-error-sending-from-command = Chyba pri odosielaní e‑mailovej správy. Server odpovedal: { $serverResponse }.  Overte nastavenie vašej e‑mailovej adresy v nastaveniach účtu a skúste to znova.
+# Variables:
+# $serverResponse - server response
+smtp-permanent-size-exceeded = Veľkosť správy, ktorú sa pokúšate odoslať, presiahla globálny limit servera. Správa nebola odoslaná. Zmenšite veľkosť správy a skúste to znova. Server odpovedal:  { $serverResponse }.
+# Variables:
+# $serverResponse - server response; $recipient - intended recipient
+smtp-error-sending-recipient-command =
+    Pri odosielaní správy sa vyskytla chyba. Odpoveď poštového servera:
+    { $serverResponse }.
+    Skontrolujte príjemcu správy "{ $recipient }" a skúste to znova.
 # Variables:
 # $serverResponse - server response
 smtp-error-sending-data-command = Chyba servera pre odosielanie pošty (SMTP) počas odosielania e‑mailovej správy. Server odpovedal: { $serverResponse }
