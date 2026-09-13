@@ -101,6 +101,9 @@ smtp-server-error = S'ha produït un error en enviar el correu: Error del servid
 smtp-starttls-failed = S'ha produït un error en enviar el correu: No s'ha pogut establir un enllaç segur amb el servidor de sortida (SMTP) { $hostname } utilitzant STARTTLS, atès que no fa conèixer la característica. Desactiveu STARTTLS per al servidor o contacteu amb el proveïdor de servei.
 # Variables:
 # $serverResponse - server response
+smtp-too-many-recipients = El missatge no s'ha enviat perquè s'ha superat el nombre de destinataris permès. El servidor ha respost: { $serverResponse }.
+# Variables:
+# $serverResponse - server response
 smtp-error-sending-from-command = S'ha produït un error en enviar el correu. El servidor de correu ha respost: { $serverResponse }. Comproveu que heu indicat l'adreça electrònica correcta als paràmetres del compte i torneu-ho a provar.
 # Variables:
 # $serverResponse - server response
