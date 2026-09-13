@@ -3,6 +3,106 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Compose alerts
+
+compose-message-cancelling = Katkestamine…
+compose-message-attachment-name = Lisatud kiri
+
+## Compose window
+
+compose-initialization-error-title = Kirja koostamine
+compose-initialization-error = Kirja koostamise akna loomine ebaõnnestus. Palun proovi uuesti.
+compose-default-subject = (teema puudub)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Koostamine: { $subject } - { $brand }
+compose-save-message-title = Kirja salvestamine
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Kas soovid kirjutamise akna sulgeda ja salvestada selle kirja mustandite kausta ({ $folder })?
+compose-discard-changes-button = &Tühista muudatused
+compose-send-confirm-title = Kirja saatmine
+compose-send-confirm-prompt = Kas oled kindel, et soovid kirja ära saata?
+compose-send-confirm-button = Saada
+compose-do-not-show-again = Seda akent enam ei näidata
+compose-empty-subject-title = Teema meeldetuletus
+compose-empty-subject-prompt = Sinu kirjal puudub teema.
+compose-empty-subject-send-button = &Saada ilma teemata
+compose-empty-subject-cancel-button = &Loobu saatmisest
+compose-attachment-reminder-title = Manuse meeldetuletus
+compose-attachment-reminder-prompt = Kas unustasid manuse lisada?
+compose-attachment-reminder-send-button = Ei, saada kiri
+compose-attachment-reminder-add-button = Jah, unustasin!
+compose-newsgroups-not-supported-title = Uudisgrupid pole toetatud
+compose-newsgroups-not-supported = See konto toetab ainult e-postiga adressaate. Jätkamine ignoreerib uudistegruppe.
+compose-invalid-address-title = Vigane saaja aadress
+compose-no-recipients = Adressaate pole määratud. Palun sisesta adressaadi väljale kirja saaja aadress.
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } ei ole korrektne e-posti aadress, sest see pole kujul kasutaja@masin. Sa pead seda parandama, enne kui saadad kirja.
+compose-quit-sending-title = Kirja saatmine
+compose-quit-saving-title = Kirja salvestamine
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } on hetkel saatmas kirja.
+    Kas soovid oodata, kuni kiri on enne väljumist saadetud, või soovid rakendusest kohe väljuda?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } on hetkel hõivatud kirja salvestamisega.
+    Kas soovid oodata, kuni kiri on enne väljumist salvestatud, või soovid rakendusest kohe väljuda?
+compose-quit-button = &Välju
+compose-wait-button = &Oota
+compose-attach-file-picker-title = Manus(t)e lisamine
+compose-attach-page-title = Manuse asukoha määramine
+compose-attach-page-prompt = Veebileht (URL):
+compose-message-part-attachment-name = Lisatud kirja osa
+compose-attachment-bucket-attach-files-tooltip = Lisa manus(eid)
+compose-attachment-bucket-clear-selection-tooltip = Tühista valik
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = Faili { $filename } pole olemas, seega polnud selle kirjale lisamine võimalik.
+compose-file-attachment-error-title = Faili lisamine
+compose-message-file-error-title = Kirja fail
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = Faili { $filename } pole olemas ning seda ei saa kirja sisuna kasutada.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = Faili { $filename } ei õnnestunud kirja sisuna laadida.
+compose-save-success-title = Kirja salvestamine
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Kiri salvestati kausta { $folder } { $server } alla.
+compose-rename-attachment-title = Manuse nime muutmine
+compose-rename-attachment-prompt = Manuse uus nimi:
+remind-later-button =
+    .label = Tuleta hiljem meelde
+    .accesskey = T
+disable-attachment-reminder-menu-item =
+    .label = Lülita sellel kirjal manuse meeldetuletus välja
+find-replace-button =
+    .label = Asenda…
+    .accesskey = n
+    .tooltiptext = Kuva otsimise ja asendamise akent
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Sisesta kohandatud saatja aadress, mida { $identity } asemel kasutada soovid
+compose-custom-from-address-title = Saatja aadressi kohandamine
+compose-custom-from-address-warning = Kui sinu e-posti teenusepakkuja seda toetab, saad teha saatja aadressis ühekordse muudatuse ilma konto seadetes uut identiteeti loomata. Näiteks kui sinu saatja aadress on Ants Kaerajaan <ants@eesti.ee>, siis võid tahta selle asemel kasutada Ants Kaerajaan <ants+kaerajaan@eesti.ee> või Ants <ants@eesti.ee>.
+compose-custom-from-address-ignore = Rohkem ei küsita
+compose-blocked-content-options-button = Valikud
+compose-blocked-content-options-accesskey = V
+compose-blocked-content-preferences-button = Eelistused
+compose-blocked-content-preferences-accesskey = E
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Lõpeta { $url } blokkimine
+
 ## Send Format
 
 compose-send-format-menu =
@@ -67,6 +167,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Laienda loendit
     .accesskey = n
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = Eemalda { $field } aadressid
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Kas oled kindel, et soovid { $field } aadressid eemaldada?
+compose-remove-address-row-button = Eemalda
 
 ## Attachment widget
 
@@ -424,6 +531,34 @@ cloud-file-account-error-title = Filelinki konto viga
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Filelinki lisatud manust { $filename } polnud võimalik uuendada, sest Filelinki konto on kustutatud.
+cloud-file-authentication-error-title = Viga autentimisel
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Pole võimalik autentida teenuses { $provider }.
+cloud-file-upload-error-title = Viga üleslaadimisel
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Faili { $filename } üleslaadimine teenusesse { $provider } ebaõnnestus.
+cloud-file-quota-error-title = Kvoodi viga
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Faili { $filename } üleslaadimine teenusesse { $provider } ületaks lubatud kasutatava ruumi piirangu.
+cloud-file-size-error-title = Faili suuruse viga
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = Faili { $filename } suurus ületab teenuse { $provider } lubatava suuruse.
+cloud-file-unknown-error-title = Tundmatu viga
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Suhtluses teenusega { $provider } esines tundmatu viga.
+cloud-file-deletion-error-title = Viga kustutamisel
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Faili { $filename } kustutamisel teenusest { $provider } esines viga.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
@@ -438,6 +573,33 @@ big-file-notification-text =
         [one] Tegemist on suure failiga. Praktilisem on ehk salvestada fail pilves ja lisada selle link.
        *[other] Tegemist on suurte failidega. Praktilisem on ehk salvestada need pilves ja lisada nende lingid.
     }
+big-file-learn-more-button =
+    .label = Loe veel…
+    .accesskey = o
+big-file-link-button =
+    .label = Salvesta pilve
+    .accesskey = l
+big-file-ignore-button =
+    .label = Ignoreeri
+    .accesskey = i
+big-file-choose-account-title = Konto valimine
+big-file-choose-account-prompt = Vali pilveteenus, kuhu soovid faili(d) laadida
+big-file-hide-notification-title = Üleslaadimisest keeldumine
+big-file-hide-notification-prompt = Sind ei teavitata, kui lisad veel suuri faile sellele kirjale.
+big-file-hide-notification-checkbox = Seda teadet rohkem ei näidata.
+cloudfile-uploading-stop-button =
+    .label = Seda teadet rohkem ei kuvata
+    .accesskey = S
+cloud-file-privacy-warning = Linkimine on lõpetatud. Palun võta teadmiseks, et lingitavad manused võivad olla kättesaadavad isikutele, kes näevad linke või arvavad ära lingi asukoha.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Üleslaadimine teenusesse { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Laaditud teenusesse { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Manus(t)e lisamine teenuse { $provider } kaudu
 
 ## Link Preview
 

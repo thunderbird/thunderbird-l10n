@@ -3,6 +3,106 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Compose alerts
+
+compose-message-cancelling = Wrthi'n diddymu…
+compose-message-attachment-name = Neges wedi'i Hatodi
+
+## Compose window
+
+compose-initialization-error-title = Ysgrifennu Neges
+compose-initialization-error = Digwyddodd gwall wrth greu ffenestr ysgrifennu neges. Ceisiwch eto.
+compose-default-subject = (dim pwnc)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Ysgrifennu: { $subject } - { $brand }
+compose-save-message-title = Cadw Neges
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Cadw'r neges hon yn eich ffolder drafftiau ({ $folder }) a chau'r ffenestr Ysgrifennu?
+compose-discard-changes-button = &Dileu newidiadau
+compose-send-confirm-title = Anfon Neges
+compose-send-confirm-prompt = Ydych chi'n siŵr eich bod yn barod i anfon y neges hon?
+compose-send-confirm-button = Anfon
+compose-do-not-show-again = Peidiwch â dangos y blwch deialog hwn i mi eto.
+compose-empty-subject-title = Atgoffwr Pwnc
+compose-empty-subject-prompt = Nid oes gan eich neges bwnc.
+compose-empty-subject-send-button = &Anfon Heb Bwnc
+compose-empty-subject-cancel-button = &Diddymu Anfon
+compose-attachment-reminder-title = Atgoffa am Atodiad
+compose-attachment-reminder-prompt = Ydych chi wedi anghofio atodi atodiad?
+compose-attachment-reminder-send-button = Na, Anfon Nawr
+compose-attachment-reminder-add-button = O, do!
+compose-newsgroups-not-supported-title = Nid yw Grwpiau Newyddion yn Cael eu Cynnal
+compose-newsgroups-not-supported = Dim ond derbynwyr e-bost mae'r cyfrif yma yn ei gynnal. Bydd parhau yn anwybyddu grwpiau newyddion.
+compose-invalid-address-title = Cyfeiriad Derbynnydd Annilys
+compose-no-recipients = Heb enwi derbynwyr. Rhowch dderbynnydd neu grŵp newyddion yn y maes cyfeirio.
+# Variables:
+# $address - invalid email address
+compose-invalid-address = Nid yw { $address } yn gyfeiriad e-bost dilys gan nad yw yn ffurf user@host. Rhaid cywiro hyn cyn anfon yr e-bost.
+compose-quit-sending-title = Wrthi'n Anfon Neges
+compose-quit-saving-title = Cadw Neges
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    Mae { $brand } wrthi'n anfon neges.
+    Hoffech chi aros tan fod y neges wedi ei hanfon cyn gadael neu gadael nawr?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    Mae { $brand } wrthi'n cadw neges.
+    Hoffech chi aros tan fod y neges wedi ei chadw cyn gadael neu gadael nawr?
+compose-quit-button = &Gadael
+compose-wait-button = &Aros
+compose-attach-file-picker-title = Atodi Ffeil(iau)
+compose-attach-page-title = Nodwch leoliad i'w atodi
+compose-attach-page-prompt = Tudalen Gwe (URL):
+compose-message-part-attachment-name = Rhan o Neges wedi'i Hatodi
+compose-attachment-bucket-attach-files-tooltip = Atodi Ffeil(iau)
+compose-attachment-bucket-clear-selection-tooltip = Clirio'r Dewis
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = Nid yw ffeil { $filename } yn bodoli felly nid oedd modd ei hatodi i'r neges.
+compose-file-attachment-error-title = Atodi Ffeil
+compose-message-file-error-title = Ffeil Neges
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = Nid yw ffeil { $filename } yn bodoli ac nid oedd modd ei defnyddio fel corff neges.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = Nid oedd modd llwytho { $filename } fel corff neges.
+compose-save-success-title = Cadw Neges
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Mae eich neges wedi'i chadw i ffolder { $folder } o dan { $server }.
+compose-rename-attachment-title = Ailenwi Atodiad
+compose-rename-attachment-prompt = Enw newydd yr atodiad:
+remind-later-button =
+    .label = Atgoffa Fi yn Ddiweddarach
+    .accesskey = D
+disable-attachment-reminder-menu-item =
+    .label = Analluogwch atgoffwr atodiad ar gyfer y neges hon
+find-replace-button =
+    .label = Amnewid…
+    .accesskey = a
+    .tooltiptext = Dangos y deialog Canfod ac Newid
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Rhowch gyfeiriad Oddi Wrth cyfaddas i'w ddefnyddio y lle { $identity }
+compose-custom-from-address-title = Cyfaddasu Cyfeiriad Oddi Wrth
+compose-custom-from-address-warning = Os yw eich darparwr e-byst yn ei gynnal, mae Cyfaddasu Cyfeiriad Oddi Wrth yn caniatáu i chi wneud mân newidiadau dros dro heb bod angen creu hunaniaeth newydd yn Ngosodiadau'r Cyfrif. Er enghraifft, os yw eich cyfeiriad Oddi wrth yn John Doe <john@example.com> efallai yr hoffech ei newid i John Doe <john+doe@example.com> neu John <john@example.com>.
+compose-custom-from-address-ignore = Peidio fy hysbysu am hyn eto
+compose-blocked-content-options-button = Dewisiadau
+compose-blocked-content-options-accesskey = D
+compose-blocked-content-preferences-button = Dewisiadau
+compose-blocked-content-preferences-accesskey = e
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Dadrwystro { $url }
+
 ## Send Format
 
 compose-send-format-menu =
@@ -75,6 +175,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Ehangu'r Rhestr
     .accesskey = E
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = Tynnwch Gyfeiriadau { $field }
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Ydych chi'n siŵr eich bod am gael gwared ar gyfeiriadau { $field }?
+compose-remove-address-row-button = Tynnu
 
 ## Attachment widget
 
@@ -476,6 +583,34 @@ cloud-file-account-error-title = Gwall Cyfrif Filelink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Wedi methu diweddaru'r atodiad Filelink { $filename }, oherwydd bod ei ffeil leol wedi'i symud neu ei dileu.
+cloud-file-authentication-error-title = Gwall Dilysu
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Methu dilysu i { $provider }.
+cloud-file-upload-error-title = Gwall Llwytho i Fyny
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Methu llwytho { $filename } i fyny i { $provider }.
+cloud-file-quota-error-title = Gwall Cwota
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Bydd llwytho { $filename } i fyny i { $provider } yn croesi trothwy eich cwota.
+cloud-file-size-error-title = Gwall Maint Ffeil
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = Mae { $filename } yn fwy na maint mwyaf { $provider }.
+cloud-file-unknown-error-title = Gwall Anhysbys
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Digwyddodd gwall anhysbys wrth gyfathrebu gyda { $provider }.
+cloud-file-deletion-error-title = Gwall Dileu
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Nid oedd anhawster wrth ddileu { $filename } o { $provider }.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
@@ -495,6 +630,33 @@ big-file-notification-text =
         [many] Mae'r ffeiliau hyn yn fawr iawn. Efallai y byddai'n well defnyddio Filelink.
        *[other] Mae'r ffeiliau hyn yn fawr iawn. Efallai y byddai'n well defnyddio Filelink.
     }
+big-file-learn-more-button =
+    .label = Dysgu Rhagor…
+    .accesskey = D
+big-file-link-button =
+    .label = Dolen
+    .accesskey = D
+big-file-ignore-button =
+    .label = Anwybyddu
+    .accesskey = A
+big-file-choose-account-title = Dewis Cyfrif
+big-file-choose-account-prompt = Dewis cyfrif cwmwl i lwytho'r atodiad iddo
+big-file-hide-notification-title = Peidio Llwytho fy Ffeiliau i Fyny
+big-file-hide-notification-prompt = Ni fyddwch yn cael eich hysbysu os byddwch yn atodi rhagor o ffeiliau mawr i'r neges hon.
+big-file-hide-notification-checkbox = Peidio fy hysbysu am hyn eto.
+cloudfile-uploading-stop-button =
+    .label = Peidio dangos hwn eto
+    .accesskey = P
+cloud-file-privacy-warning = Mae cysylltu wedi ei gwblhau. Sylwch y gall atodiadau sydd wedi eu cysylltu fod yn agored i bobl all weld neu ddyfalu'r dolenni.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Llwytho i fyny i { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Wedi'u llwytho i fyny i { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Atodi Ffeil(iau) drwy { $provider }
 
 ## Link Preview
 

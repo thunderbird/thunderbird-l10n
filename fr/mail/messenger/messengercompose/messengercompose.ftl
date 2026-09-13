@@ -3,6 +3,106 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Compose alerts
+
+compose-message-cancelling = Abandon…
+compose-message-attachment-name = Message joint
+
+## Compose window
+
+compose-initialization-error-title = Rédaction du message
+compose-initialization-error = Erreur lors de l’ouverture de la fenêtre de rédaction de messages. Veuillez essayer à nouveau.
+compose-default-subject = (pas de sujet)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Rédaction : { $subject } - { $brand }
+compose-save-message-title = Enregistrer le message
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Enregistrer ce message dans votre dossier Brouillons ({ $folder }) et fermer la fenêtre de composition ?
+compose-discard-changes-button = &Abandonner les modifications
+compose-send-confirm-title = Envoyer le message
+compose-send-confirm-prompt = Voulez-vous vraiment envoyer ce message tout de suite ?
+compose-send-confirm-button = Envoyer
+compose-do-not-show-again = Ne plus afficher cette boîte de dialogue.
+compose-empty-subject-title = Rappel de sujet
+compose-empty-subject-prompt = Votre message n’a pas de sujet.
+compose-empty-subject-send-button = &Envoyer sans sujet
+compose-empty-subject-cancel-button = &Annuler l’envoi
+compose-attachment-reminder-title = Rappel pour les pièces jointes
+compose-attachment-reminder-prompt = Avez-vous oublié de joindre un fichier ?
+compose-attachment-reminder-send-button = Non, envoyer maintenant
+compose-attachment-reminder-add-button = Oui
+compose-newsgroups-not-supported-title = Groupes de discussion non supportés
+compose-newsgroups-not-supported = Ce compte prend uniquement en charge les destinataires d’e-mails. En continuant, les groupes seront ignorés.
+compose-invalid-address-title = Adresse de destinataire invalide
+compose-no-recipients = Aucun destinataire spécifié. Veuillez saisir un destinataire ou un groupe de discussion dans la zone d’adressage.
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } n’est pas une adresse valide, car elle n’est pas au format utilisateur@domaine. Veuillez la corriger avant d’envoyer l’e-mail.
+compose-quit-sending-title = Envoi d’un message
+compose-quit-saving-title = Enregistrement du message
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } envoie un message.
+    Voulez-vous quitter maintenant ou attendre la fin de l’envoi ?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } enregistre un message.
+    Voulez-vous quitter maintenant ou attendre la fin de l’enregistrement ?
+compose-quit-button = &Quitter
+compose-wait-button = &Attendre
+compose-attach-file-picker-title = Joindre les fichiers
+compose-attach-page-title = Veuillez spécifier un chemin pour la pièce jointe
+compose-attach-page-prompt = Page web (URL) :
+compose-message-part-attachment-name = Portion de message joint
+compose-attachment-bucket-attach-files-tooltip = Joindre fichier(s)
+compose-attachment-bucket-clear-selection-tooltip = Effacer la sélection
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = Le fichier { $filename } n’existe pas et n’a pu être joint au message.
+compose-file-attachment-error-title = Pièce jointe
+compose-message-file-error-title = Fichier de message
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = Le fichier { $filename } n’existe pas et ne peut pas être utilisé comme corps du message.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = Le fichier { $filename } n’a pas pu être chargé comme corps du message.
+compose-save-success-title = Enregistrement du message
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Votre message a été enregistré dans le dossier { $folder } sous { $server }.
+compose-rename-attachment-title = Renommer la pièce jointe
+compose-rename-attachment-prompt = Nouveau nom de la pièce jointe :
+remind-later-button =
+    .label = Me le rappeler plus tard
+    .accesskey = R
+disable-attachment-reminder-menu-item =
+    .label = Désactiver le rappel pour les pièces jointes pour le message actuel
+find-replace-button =
+    .label = Remplacer…
+    .accesskey = l
+    .tooltiptext = Afficher le dialogue Rechercher et remplacer
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Saisir une adresse d’expédition personnalisée à utiliser à la place de { $identity }
+compose-custom-from-address-title = Personnaliser l’adresse d’expédition
+compose-custom-from-address-warning = Si votre fournisseur de messagerie le permet, personnaliser l’adresse d’expédition permet d’effectuer une modification ponctuelle de votre adresse d’expédition sans avoir à créer de nouvelle identité depuis les paramètres des comptes. Par exemple, si votre adresse d’expédition est Jules César <jules@example.com> vous souhaiterez peut-être la modifier en Jules César <jules+cesar@example.com> ou bien Jules <jules@example.com>.
+compose-custom-from-address-ignore = Ne plus jamais me prévenir
+compose-blocked-content-options-button = Options
+compose-blocked-content-options-accesskey = O
+compose-blocked-content-preferences-button = Préférences
+compose-blocked-content-preferences-accesskey = P
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Débloquer { $url }
+
 ## Send Format
 
 compose-send-format-menu =
@@ -67,6 +167,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Développer la liste
     .accesskey = D
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = Supprimer les adresses { $field }
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Voulez-vous vraiment retirer les adresses { $field } ?
+compose-remove-address-row-button = Supprimer
 
 ## Attachment widget
 
@@ -423,6 +530,34 @@ cloud-file-account-error-title = Erreur de compte Filelink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Échec de la mise à jour de la pièce jointe Filelink { $filename }, car son compte Filelink a été supprimé.
+cloud-file-authentication-error-title = Erreur d’authentification
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Impossible de s’authentifier à { $provider }.
+cloud-file-upload-error-title = Erreur de téléchargement
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Impossible de télécharger { $filename } vers { $provider }.
+cloud-file-quota-error-title = Erreur de quota
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Télécharger { $filename } vers { $provider } dépasserait le quota qui vous est alloué.
+cloud-file-size-error-title = Erreur de taille de fichier
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } dépasse la taille maximale autorisée pour { $provider }.
+cloud-file-unknown-error-title = Erreur inconnue
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Une erreur inconnue est survenue lors de la communication avec { $provider }.
+cloud-file-deletion-error-title = Erreur de suppression
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Il y a eu un problème lors de la suppression de { $filename } sur { $provider }.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
@@ -437,6 +572,33 @@ big-file-notification-text =
         [one] Ce fichier est volumineux. Il serait préférable d’utiliser un espace de stockage de fichiers.
        *[other] Ces fichiers sont volumineux. Il serait préférable d’utiliser un espace de stockage de fichiers.
     }
+big-file-learn-more-button =
+    .label = En apprendre plus…
+    .accesskey = E
+big-file-link-button =
+    .label = Lier
+    .accesskey = L
+big-file-ignore-button =
+    .label = Ignorer
+    .accesskey = I
+big-file-choose-account-title = Choisir un compte
+big-file-choose-account-prompt = Choisir un compte pour y déposer la pièce jointe
+big-file-hide-notification-title = Ne pas télécharger mes fichiers vers un service de stockage en ligne
+big-file-hide-notification-prompt = Vous ne recevrez plus de notification si vous joignez d’autres fichiers volumineux à ce message.
+big-file-hide-notification-checkbox = Ne plus jamais me prévenir.
+cloudfile-uploading-stop-button =
+    .label = Ne plus afficher ce message
+    .accesskey = N
+cloud-file-privacy-warning = Le lien est établi. Notez bien que les pièces jointes seront accessibles à tous ceux qui peuvent voir ou deviner les liens.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Téléchargement vers { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Téléchargé vers { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Joindre le(s) fichier(s) par l’intermédiaire de { $provider }
 
 ## Link Preview
 

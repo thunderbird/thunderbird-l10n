@@ -3,6 +3,106 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Compose alerts
+
+compose-message-cancelling = Pśetergnjo se…
+compose-message-attachment-name = Pśipowjesona powěsć
+
+## Compose window
+
+compose-initialization-error-title = Powěsći spisaś
+compose-initialization-error = Pśi napóranju wobźěłowańskego wokna jo zmólka nastała. Pšosym wopytajśo hyšći raz.
+compose-default-subject = (žedna tema)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Pisaś: { $subject } - { $brand }
+compose-save-message-title = Powěsć składowaś
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Toś tu powěsć do wašogo zarědnika Nacerjenja ({ $folder }) składowaś a pisańske wokno zacyniś?
+compose-discard-changes-button = &Změny zachyśiś
+compose-send-confirm-title = Powěsć pósłaś
+compose-send-confirm-prompt = Sćo napšawdu gótowy, toś tu powěsć pósłaś?
+compose-send-confirm-button = Pósłaś
+compose-do-not-show-again = Toś ten dialog wěcej njepokazaś.
+compose-empty-subject-title = Napominanje na temu
+compose-empty-subject-prompt = Twója powěsć njama temu.
+compose-empty-subject-send-button = Bźez temy pó&słaś
+compose-empty-subject-cancel-button = Słanje pśeter&gnuś
+compose-attachment-reminder-title = Pśidankowe napominanje
+compose-attachment-reminder-prompt = Sćo zabył pśidank pśidaś?
+compose-attachment-reminder-send-button = Ně, něnto pósłaś
+compose-attachment-reminder-add-button = Ow, jo!
+compose-newsgroups-not-supported-title = Diskusijne kupki se njepódpěraju
+compose-newsgroups-not-supported = Toś to konto pódpěra jano e-mailowe dostawarje. Jolic pókšacujośo, budu se diskusijne kupki ignorěrowaś.
+compose-invalid-address-title = Njepłaśiwa dostawaŕska adresa
+compose-no-recipients = Žedne dostawarje pódane. Zapódajśo pšosym dostawarja abo dislusijnu kupku do adresowego póla.
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } njejo płaśiwa e-mailowa adresa, dokulaž njama forma wužywaŕ@host. Musyśo ju korigěrowaś, nježli až sćelośo e-mail.
+compose-quit-sending-title = Powěsć pósłaś
+compose-quit-saving-title = Powěsć składowaś
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } sćelo tuchylu powěsć.
+    Cośo cakaś, až powěsć njejo se pósłała, nježli až kóńcyśo abo něnto skóńcyś?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } składujo tuchylu powěsć.
+    Cośo cakaś, až powěsć njejo se pósłała, nježli až kóńcyśo abo něnto skóńcyś?
+compose-quit-button = &Skóńcyś
+compose-wait-button = Ca&kaś
+compose-attach-file-picker-title = Dataje pśipowjesyś
+compose-attach-page-title = Pšosym pódajśo město, kótarež ma se pśipowjesyś
+compose-attach-page-prompt = Webbok (URL):
+compose-message-part-attachment-name = Pśipowjesony powěsćowy źěl
+compose-attachment-bucket-attach-files-tooltip = Dataje pśipowjesyś
+compose-attachment-bucket-clear-selection-tooltip = Wuběrk lašowaś
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = Dataja { $filename } njeeksistěrujo a njedajo se togodla k powěsći pśipowjesyś.
+compose-file-attachment-error-title = Dataju pśipowjesyś
+compose-message-file-error-title = Powěsćowa dataja
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = Dataja { $filename } njeeksistěrujo a njedajo se ako wopśimjeśe powěsći wužywaś.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = Dataja { $filename } njedajo se ako wopśimjeśe powěsći zacytaś.
+compose-save-success-title = Powěsć składowaś
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Waša powěsć jo se do zarědnika { $folder } na { $server } składowała.
+compose-rename-attachment-title = Pśidank pśemjeniś
+compose-rename-attachment-prompt = Nowe mě pśidanka:
+remind-later-button =
+    .label = Pózdźej dopomnjeś
+    .accesskey = P
+disable-attachment-reminder-menu-item =
+    .label = Pśidankowe dopominanje za aktualnu powěsć znjemóžniś
+find-replace-button =
+    .label = Wuměniś…
+    .accesskey = m
+    .tooltiptext = Dialog Pytaś a wuměniś pokazaś
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Swójsku wótpósłaŕsku adresu zapódaś, aby se město { $identity } wužywała
+compose-custom-from-address-title = Z adrese pśiměriś
+compose-custom-from-address-warning = Jolic waš e-mailowy póbitowaŕ to pódpěra, zmóžnja wam funkcija „Z adrese pśiměriś“, jadnorazowu snadnu změnu na wašej wótpósłaŕskej adresy pśewjasć, bźez togo, aby musył nowu identitu w kontowych nastajenjach napórał. Jolic na pśikład waša wótpósłaŕska adresa jo John Doe <john@example.com>, móžośo ju do John Doe <john+doe@example.com> abo John <john@example.com> změniś.
+compose-custom-from-address-ignore = Wó tom wěcej njeinforměrowaś
+compose-blocked-content-options-button = Nastajenja
+compose-blocked-content-options-accesskey = N
+compose-blocked-content-preferences-button = Nastajenja
+compose-blocked-content-preferences-accesskey = N
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = { $url } wěcej njeblokěrowaś
+
 ## Send Format
 
 compose-send-format-menu =
@@ -71,6 +171,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Lisćinu pokazaś
     .accesskey = i
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = Adrese { $field } wótwónoźeś
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Cośo napšawdu adrese { $field } wótowónoźeś?
+compose-remove-address-row-button = Wótwónoźeś
 
 ## Attachment widget
 
@@ -450,6 +557,34 @@ cloud-file-account-error-title = Kontowa zmólka Filelink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Pśidank { $filename } Filelink njedajo se aktualizěrowaś, dokulaž jogo lokalna dataja jo se wulašowała.
+cloud-file-authentication-error-title = Awtentifikaciska zmólka
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Awtentifikacija napśeśiwo { $provider } njejo móžna.
+cloud-file-upload-error-title = Nagraśowa zmólka
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Njejo móžno, { $filename } do { $provider } nagraś.
+cloud-file-quota-error-title = Kwotowa zmólka
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Nagrawanje dataje { $filename } do { $provider } by waš webskładowy limit pśekšocyło.
+cloud-file-size-error-title = Zmólka datajoweje wjelikosći
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } pśekšacujo maksimalnu wjelikosć za { $provider }.
+cloud-file-unknown-error-title = Njeznata zmólka
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Pśi komunicěrowanju z { $provider } jo njeznata zmólka nastała.
+cloud-file-deletion-error-title = Lašowańska zmólka
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Pśi lašowanju { $filename } z { $provider } jo problem nastał.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
@@ -468,6 +603,33 @@ big-file-notification-text =
         [few] To su wjelike dataje. Snaź jo lěpjej, až wužywaśo Filelink město togo.
        *[other] To su wjelike dataje. Snaź jo lěpjej, až wužywaśo Filelink město togo.
     }
+big-file-learn-more-button =
+    .label = Dalšne informacije…
+    .accesskey = i
+big-file-link-button =
+    .label = Zwězaś
+    .accesskey = Z
+big-file-ignore-button =
+    .label = Ignorěrowaś
+    .accesskey = I
+big-file-choose-account-title = Konto wubraś
+big-file-choose-account-prompt = Wubjeŕśo mrokowe konto, aby pśidank nagrał
+big-file-hide-notification-title = Dataje njenagraś
+big-file-hide-notification-prompt = Njedostanjośo žednu powěźenku, jolic pśipowjesaśo dalšne wjelike dataje k toś tej powěsći.
+big-file-hide-notification-checkbox = Wó tom wěcej njeinforměrowaś.
+cloudfile-uploading-stop-button =
+    .label = To nigda wěcej njepokazaś
+    .accesskey = n
+cloud-file-privacy-warning = Wótkazowanje jo skóńcone. Pšosym źiwajśo na to, až wótkazane pśidanki mógu za luźi pśistupne byś, kótarež mógu wótkaze wugódaś abo wiźeś.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Nagrajo se do { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Do { $provider } nagraty
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Dataje pśez { $provider } pśipowjesyś
 
 ## Link Preview
 

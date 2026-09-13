@@ -3,6 +3,106 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Compose alerts
+
+compose-message-cancelling = Hætti við…
+compose-message-attachment-name = Póstviðhengi
+
+## Compose window
+
+compose-initialization-error-title = Búa til póst
+compose-initialization-error = Villa kom upp við að búa til nýjan póstglugga. Prófaðu aftur.
+compose-default-subject = (ekkert efni)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Skrifa: { $subject } - { $brand }
+compose-save-message-title = Vista póst
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Viltu vista þessi skilaboð í uppkastamöppuna ({ $folder }) og loka skrifglugganum?
+compose-discard-changes-button = &Henda breytingum
+compose-send-confirm-title = Senda boð
+compose-send-confirm-prompt = Ertu viss um að þú sért tilbúinn að senda þennan póst?
+compose-send-confirm-button = Senda
+compose-do-not-show-again = Ekki sýna þennan glugga aftur.
+compose-empty-subject-title = Áminning fyrir efnislínu
+compose-empty-subject-prompt = Pósturinn inniheldur ekki efnislínu.
+compose-empty-subject-send-button = &Senda án efnislínu
+compose-empty-subject-cancel-button = &Hætta við að senda
+compose-attachment-reminder-title = Áminning fyrir viðhengi
+compose-attachment-reminder-prompt = Gleymdirðu nokkuð að bæta við viðhengi?
+compose-attachment-reminder-send-button = Nei, senda strax
+compose-attachment-reminder-add-button = Já, ég gleymdi því!
+compose-newsgroups-not-supported-title = Fréttahópar ekki studdir
+compose-newsgroups-not-supported = Þessi reikningur styður aðeins póst viðtakendur. Ef þú heldur áfram munu fréttahópar vera hunsaðir.
+compose-invalid-address-title = Ógilt tölvupóstfang viðtakanda
+compose-no-recipients = Engir viðtakendur voru skilgreindir. Settu inn viðtakanda eða fréttahóp í póstfangareitinn.
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } er ekki gilt tölvupóstfang því það er ekki á forminu notandi@netfang. Þú verður að lagfæra það áður en þú sendir póstinn.
+compose-quit-sending-title = Sendi póst
+compose-quit-saving-title = Vista skilaboð
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } er að senda póst.
+    Viltu bíða þangað til sending á pósti er lokið áður en þú hættir eða viltu hætta strax?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } er að vista póst.
+    Viltu bíða þangað til pósturinn hefur verið vistaður áður en þú hættir eða viltu hætta núna?
+compose-quit-button = &Hætta
+compose-wait-button = &Bíða
+compose-attach-file-picker-title = Bæta við viðhengi
+compose-attach-page-title = Tilgreindu staðsetningu til að hengja við
+compose-attach-page-prompt = Vefsíða (URL):
+compose-message-part-attachment-name = Viðhengdur hlutur
+compose-attachment-bucket-attach-files-tooltip = Bæta við viðhengjum
+compose-attachment-bucket-clear-selection-tooltip = Hreinsa val
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = Skráin { $filename } er ekki til og er þess vegna ekki bæta henni við póstinn.
+compose-file-attachment-error-title = Viðhengi
+compose-message-file-error-title = Póstskrá
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = Skráin { $filename } er ekki til og er ekki hægt að nota sem meginmál.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = Ekki tókst að hlaða inn skrá { $filename } sem meginmál.
+compose-save-success-title = Vista póst
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Búið er að vist póstinn þinn í möppu { $folder } undir { $server }.
+compose-rename-attachment-title = Endurnefna viðhengi
+compose-rename-attachment-prompt = Nýtt nafn á viðhengi:
+remind-later-button =
+    .label = Minna mig á seinna
+    .accesskey = M
+disable-attachment-reminder-menu-item =
+    .label = Slökkva á áminningu fyrir viðhengi fyrir núverandi skilaboð
+find-replace-button =
+    .label = Breyta…
+    .accesskey = B
+    .tooltiptext = Sýna leita og skipta út glugga
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Settu inn sérsniðið Frá-póstfang sem á að nota í staðinn fyrir { $identity }
+compose-custom-from-address-title = Sérsníða Frá veffang
+compose-custom-from-address-warning = Ef tölvupóstþjónninn þinn styður það, þá geturðu sérsniðið Frá-póstfang án þess að þurfa að búa til nýjan reikning. Sem dæmi, ef Frá-póstfangið þitt er John Doe <john@example.com> gætirðu breytt því í John Doe <john+doe@example.com> eða John <john@example.com>.
+compose-custom-from-address-ignore = Aldrei láta mig vita aftur
+compose-blocked-content-options-button = Valkostir
+compose-blocked-content-options-accesskey = O
+compose-blocked-content-preferences-button = Kjörstillingar
+compose-blocked-content-preferences-accesskey = P
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Opna fyrir { $url }
+
 ## Send Format
 
 compose-send-format-menu =
@@ -67,6 +167,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Stækka lista
     .accesskey = l
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = Fjarlægja { $field } póstföng
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Ertu viss um að þú viljir fjarlægja { $field } póstföng?
+compose-remove-address-row-button = Fjarlægja
 
 ## Attachment widget
 
@@ -424,6 +531,34 @@ cloud-file-account-error-title = Villa í Filelink-reikningi
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Mistókst að uppfæra Filelink-viðhengið { $filename } vegna þess að Filelink-reikningi þess hefur verið eytt.
+cloud-file-authentication-error-title = Sannvottunarvilla
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Get ekki sannvottað fyrir { $provider }.
+cloud-file-upload-error-title = Villa í upphali
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Get ekki hlaðið upp { $filename } á { $provider }.
+cloud-file-quota-error-title = Villa í kvóta
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Upphölun á { $filename } yfir á { $provider } er stærra en þinn kvóti leyfir.
+cloud-file-size-error-title = Villa í skráarstærð
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } fer yfir hámarksstærð fyrir { $provider }.
+cloud-file-unknown-error-title = Ókunn villa
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Upp kom óþekkt villa í samskiptum við { $provider }.
+cloud-file-deletion-error-title = Villa við eyðingu
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Ekki tókst að eyða { $filename } frá { $provider }.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
@@ -438,6 +573,33 @@ big-file-notification-text =
         [one] Þetta er stór skrá. Betra væri að nota Filelink-tengil á skrána í staðinn.
        *[other] Þetta eru stórar skrár. Betra væri að nota Filelink-tengil á skrárnar í staðinn.
     }
+big-file-learn-more-button =
+    .label = Kanna nánar…
+    .accesskey = m
+big-file-link-button =
+    .label = Tengill
+    .accesskey = l
+big-file-ignore-button =
+    .label = Hunsa
+    .accesskey = H
+big-file-choose-account-title = Veldu reikning
+big-file-choose-account-prompt = Veldu nettengda geymsluþjónustu til að hlaða viðhengið á
+big-file-hide-notification-title = Ekki hlaða upp mínum skrám
+big-file-hide-notification-prompt = Þú munt ekki fá fleiri tilkynningar þótt þú bætir við öðrum stórum skrám í tölvupóstinn.
+big-file-hide-notification-checkbox = Aldrei láta mig vita aftur.
+cloudfile-uploading-stop-button =
+    .label = Aldrei sýna þetta aftur
+    .accesskey = n
+cloud-file-privacy-warning = Tengingu er lokið. Athugaðu að tengd viðhengi geta hugsanlega verið aðgengileg fyrir fólk sem getur séð eða getið sér til um tenglana.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Hleð upp á { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Hlaðið upp á { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Hengja við skrá með { $provider }
 
 ## Link Preview
 

@@ -3,6 +3,106 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Compose alerts
+
+compose-message-cancelling = A' sgur dheth…
+compose-message-attachment-name = Teachdaireachd a chaidh a chur ris
+
+## Compose window
+
+compose-initialization-error-title = Sgrìobh teachdaireachd
+compose-initialization-error = Thachair mearachd rè cruthachadh na teachdaireachd san uinneag sgrìobhaidh. Feuch ris a-rithist.
+compose-default-subject = (gun chuspair)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Sgrìobh: { $subject } - { $brand }
+compose-save-message-title = Sàbhail an teachdaireachd
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = A bheil thu airson an teachdaireachd seo a shàbhaladh ann am pasgan nan dreachdan agad ({ $folder }) is uinneag an sgrìobhaidh a dhùnadh?
+compose-discard-changes-button = &Tilg air falbh na h-atharraichean
+compose-send-confirm-title = Cuir an teachdaireachd
+compose-send-confirm-prompt = A bheil thu cinnteach gu bheil thu airson an teachdaireachd seo a chur an-dràsta?
+compose-send-confirm-button = Cuir
+compose-do-not-show-again = Na seall am bogsa conaltraidh seo dhomh a-rithist.
+compose-empty-subject-title = Cuimhniche a' chuspair
+compose-empty-subject-prompt = Chan eil cuspair aig do theachdaireachd fhathast.
+compose-empty-subject-send-button = Cuir as aonai&s cuspair
+compose-empty-subject-cancel-button = Sguir dhen a &chur
+compose-attachment-reminder-title = Cuimhniche nan ceanglachan
+compose-attachment-reminder-prompt = Saoil an do dhìochuimhnich thu ceanglachan a chur ris?
+compose-attachment-reminder-send-button = Cha do dhìochuimhnich, cuir a-null mo theachdaireachd an-dràsta
+compose-attachment-reminder-add-button = Ò, saoilidh mi gun do dhìochuimhnich!
+compose-newsgroups-not-supported-title = Buidheann-naidheachd gun taic ris
+compose-newsgroups-not-supported = Chan eil an cunntas seo a' cur taic ach ri faightearan puist-dhealain. Ma leanas tu ort, thèid buidhnean-naidheachd an leigeil seachad.
+compose-invalid-address-title = Seòladh mì-dligheach an fhaighteir
+compose-no-recipients = Cha deach faightearan a shònrachadh. Cuir a-steach faightear no buidheann-naidheachd ann an raon an t-seòlaidh.
+# Variables:
+# $address - invalid email address
+compose-invalid-address = Chan eil { $address } 'na sheòladh puist-dhealain a chionn 's nach eil e dhen chruth cleachdaiche@ostair. Bidh agad ri seo a chur ceart mus cuir thu am post-dealain.
+compose-quit-sending-title = A' cur na teachdaireachd
+compose-quit-saving-title = A' sàbhaladh na teachdaireachd
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    Tha { $brand } a' cur teachdaireachd an-dràsta fhèin.
+    A bheil thu airson feitheamh gus am bi an teachdaireachd air a chur mus fàg thu an-seo no a bheil thu airson an-seo fhàgail sa bhad?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    Tha { $brand } a' sàbhaladh teachdaireachd an-dràsta fhèin.
+    A bheil thu airson feitheamh gus an deach an teachdaireachd a shàbhaladh mus fàg thu an-seo no a bheil thu airson fàgail sa bhad?
+compose-quit-button = &Fàg an-seo
+compose-wait-button = &Fuirich
+compose-attach-file-picker-title = Cuir faidhle/faidhlichean ris
+compose-attach-page-title = Sònraich seòladh a thèid a chur ris
+compose-attach-page-prompt = Duilleag-lìn (URL):
+compose-message-part-attachment-name = Pàirt de theachdaireachd a chaidh a chur ris
+compose-attachment-bucket-attach-files-tooltip = Cuir faidhle/faidhlichean ris
+compose-attachment-bucket-clear-selection-tooltip = Falamhaich an taghadh
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = Chan eil am faidhle { $filename } ann agus cha ghabh a chur ris an teachdaireachd mar sin.
+compose-file-attachment-error-title = Cuir faidhle ris
+compose-message-file-error-title = Faidhle na teachdaireachd
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = Chan eil am faidhle { $filename } ann agus cha ghabh a chleachdadh mar bhodhaig teachdaireachd.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = Cha b’ urrainn dhuinn am faidhle { $filename } a luchdadh mar bhodhaig teachdaireachd.
+compose-save-success-title = Sàbhail an teachdaireachd
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Chaidh do theachaireachd a shàbhaladh dhan phasgan { $folder } fo { $server }.
+compose-rename-attachment-title = Cuir ainm ùr air a' cheanglachan
+compose-rename-attachment-prompt = Ainm ùr a' cheanglachain:
+remind-later-button =
+    .label = Cuir 'nam chuimhne an ceann tamaill
+    .accesskey = m
+disable-attachment-reminder-menu-item =
+    .label = Cuir an cuimhneachan mu cheanglachain à comas san teachdaireachd seo
+find-replace-button =
+    .label = Cuir ’na àite...
+    .accesskey = x
+    .tooltiptext = Seall an còmhradh leis an urrainn dhut rudan a lorg 's a chur 'nan àite
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Cuir a‑steach seòladh “O” gnàthaichte an àite { $identity }
+compose-custom-from-address-title = Gnàthaich an seòladh “O”
+compose-custom-from-address-warning = Ma chuireas solaraiche a’ phuist‑d agad taic ris, is urrainn dhut an seòladh on dig am post‑d atharrachadh gun fheum air dearbh‑aithne ùr ann an roghainnean a’ chunntais. Mar eisimpleir, mas e Calum MacCaluim <calum@example.com> an seòladh “O” àbhaisteach agad is ma tha thu airson ’s gun nochd e mar Calum Sheumais <calum‑sheumais@example.com> no Calum <calum@example.com> dìreach an triop seo.
+compose-custom-from-address-ignore = Na faighnich dhìom a-rithist
+compose-blocked-content-options-button = Roghainnean
+compose-blocked-content-options-accesskey = O
+compose-blocked-content-preferences-button = Roghainnean
+compose-blocked-content-preferences-accesskey = P
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Dì-bhac { $url }
+
 ## Send Format
 
 compose-send-format-menu =
@@ -71,6 +171,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Leudaich an liosta
     .accesskey = L
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = Thoir air falbh seòlaidhean { $field }
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = A bheil thu cinnteach gu bheil thu airson na seòlaidhean { $field } a thoirt air falbh?
+compose-remove-address-row-button = Thoir air falbh
 
 ## Attachment widget
 
@@ -449,6 +556,34 @@ cloud-file-account-error-title = Mearachd le cunntas FileLink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Cha b’ urrainn dhuinn an ceanglachan FileLink { $filename } ùrachadh a chionn ’s gun deach an cunntas FileLink aige a sguabadh às.
+cloud-file-authentication-error-title = Mearachd ùghdarrachaidh
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Cha ghabh ùghdarrachadh a dhèanamh le { $provider }.
+cloud-file-upload-error-title = Mearachd 'ga luchdadh suas
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Cha ghabh { $filename } a luchdadh suas gu { $provider }.
+cloud-file-quota-error-title = Mearachd cuota
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Bhiodh barrachd na tha ceadaichte dhut air { $provider } nan luchdaicheamaid suas { $filename }.
+cloud-file-size-error-title = Mearachd a thaobh meud an fhaidhle
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = Tha { $filename } a' dol thairis a' mheud as motha a tha ceadaichte air { $provider }.
+cloud-file-unknown-error-title = Mearachd neo-aithnichte
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Thachair mearachd neo-aithnichte nuair a bha sinn a' conaltradh le { $provider }.
+cloud-file-deletion-error-title = Mearachd 'ga sguabadh às
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Thachair mearachd nuair a bha sinn airson { $filename } a sguabadh à { $provider }.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
@@ -466,6 +601,33 @@ big-file-notification-text =
         [few] ’S e faidhle mòr a tha seo. ’S mathaid gum b’ fheairrde dhut Filelink a chleachdadh ’na àite.
        *[other] ’S e faidhlichean mòra a tha seo. ’S mathaid gum b’ fheairrde dhut Filelink a chleachdadh ’na àite.
     }
+big-file-learn-more-button =
+    .label = Barrachd fiosrachaidh…
+    .accesskey = B
+big-file-link-button =
+    .label = Ceangal
+    .accesskey = l
+big-file-ignore-button =
+    .label = Leig seachad
+    .accesskey = i
+big-file-choose-account-title = Tagh cunntas
+big-file-choose-account-prompt = Tagh cunntas neòil a thèid an ceanglachan a luchdadh suas dha
+big-file-hide-notification-title = Na luchdaich suas na faidhlichean agam
+big-file-hide-notification-prompt = Chan fhaigh thu brath tuilleadh ma cheanglas tu barrachd fhaidhlichean mòra ris an teachdaireachd seo.
+big-file-hide-notification-checkbox = Na faighnich dhìom seo a-rithist.
+cloudfile-uploading-stop-button =
+    .label = Na seall seo a-rithist
+    .accesskey = N
+cloud-file-privacy-warning = Tha an ceangladh deiseil. Dh'fhaoidte gum faigh daoine eile greim air na ceanglachain a tha ris ma nì iad tomhas air na ceanglaichean no ma chì iad iad.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = @ga luchdadh suas gu { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Air a luchdadh suas gu { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Ceangail faidhle no faidhlichean ris le { $provider }
 
 ## Link Preview
 

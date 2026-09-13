@@ -3,6 +3,119 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Compose alerts
+
+compose-message-cancelling = يجري إلغاء…
+compose-message-attachment-name = رسالة مرفقة
+
+## Compose window
+
+compose-initialization-error-title = إنشاء الرسالة
+compose-initialization-error = حصل خطأ أثناء تحضير نافذة إنشاء الرسائل. رجاءً حاول مجددًا.
+compose-default-subject = (بدون عنوان)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = اكتب: { $subject } - { $brand }
+compose-save-message-title = احفظ الرسالة
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = أتريد حفظ هذه الرسالة في مجلد المسودات ({ $folder }) و إغلاق نافذة الكتابة؟
+compose-discard-changes-button = &تجاهل التغييرات
+compose-send-confirm-title = أرسِل الرسالة
+compose-send-confirm-prompt = أمتأكد من أنك جاهز لإرسال هذه الرسالة؟
+compose-send-confirm-button = أرسِل
+compose-do-not-show-again = لا تُظهر مربّع الحوار هذا مرّة أخرى.
+compose-empty-subject-title = مذكِّر عنوان الرسالة
+compose-empty-subject-prompt = رسالتك ليس لها عنوان.
+compose-empty-subject-send-button = أرسِل ال&رسالة بدون عنوان
+compose-empty-subject-cancel-button = أ&لغِ الإرسال
+compose-attachment-reminder-title = مذكّر المرفقات
+compose-attachment-reminder-prompt = هل نسيت أن تضيف المرفق؟
+compose-attachment-reminder-send-button = لا، أرسِل الآن
+compose-attachment-reminder-add-button = أوه، نسيتُ فعلًا!
+compose-newsgroups-not-supported-title = مجموعات الأخبار غير مدعومة
+compose-newsgroups-not-supported = يدعم هذا الحساب فقط مستلمي البريد. المتابعة ستؤدي إلى تجاهل مجموعات الأخبار.
+compose-invalid-address-title = عنوان المستلم غير صالح
+compose-no-recipients = لم تُحدَّد أية مستلمين. من فضلك أدخل مستلما أو مجموعة أخبار في منطقة العنوان.
+# Variables:
+# $address - invalid email address
+compose-invalid-address = ‏{ $address } ليس عنوان بريد غير صحيح لأنه ليس على شكل user@host. يجب تصحيحه قبل إرسال البريد.
+compose-quit-sending-title = إرسال الرسالة
+compose-quit-saving-title = يحفظ الرسالة
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } منهمك حاليًا بإرسال رسالة.
+    هل تريد انتظار الرسالة حتى تُرسل قبل خروجك أم تصرّ على الخروج الآن؟
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } منهمك حاليًا بحفظ رسالة.
+    هل تريد انتظار الرسالة حتى تُحفظ قبل خروجك أم تصرّ على الخروج الآن؟
+compose-quit-button = أ&نهِ
+compose-wait-button = ا&نتظر
+compose-attach-file-picker-title = أرفق ملفات
+compose-attach-page-title = من فضلك حدد موقعا لإرفاقه
+compose-attach-page-prompt = صفحة وِب (مسار):
+compose-message-part-attachment-name = جزء الرسالة المرفقة
+compose-attachment-bucket-attach-files-tooltip = أرفق ملفات
+compose-attachment-bucket-clear-selection-tooltip = امسح التحديد
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = الملف { $filename } غير موجود لذا لا يمكن إرفاقه بالرسالة.
+compose-file-attachment-error-title = إرفاق الملف
+compose-message-file-error-title = ملف الرسالة
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = الملف { $filename } غير موجود لذا لا يمكن استخدامه لمتن الرسالة.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = تعذر استخدام الملف { $filename } لمتن الرسالة.
+compose-save-success-title = احفظ الرسالة
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = لقد حفظت رسالتك في المجلد { $folder } تحت { $server }.
+compose-rename-attachment-title = أعِد تسمية المرفق
+compose-rename-attachment-prompt = اسم المرفق الجديد:
+remind-later-button =
+    .label = ذكّرني لاحقًا
+    .accesskey = ذ
+disable-attachment-reminder-menu-item =
+    .label = عطّل تذكير المرفقات للرسالة الحالية
+find-replace-button =
+    .label = استبدل…
+    .accesskey = س
+    .tooltiptext = أظهر حوار البحث و الاستبدال
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = أدخل عنوانًا لاستعماله بدلا من { $identity }
+compose-custom-from-address-title = خصص عنوان المُرسِل
+compose-custom-from-address-warning = إن كان مزود خدمة البريد الإلكتروني الذي تستخدمه يدعمها، فخاصية تخصيص عنوان المُرسل تتيح لك تعديل بسيط سريع على عنوان المُرسل دون الحاجة لإنشاء هوية جديدة في إعدادات الحساب. مثلا، إذا كان عنوان المُرسل ”فلان العلاني <fulan@example.com>“ فقد تود تغييره إلى ”فلان العلاني <fulan+ellan@example.com>“ أو ”فلان <fulan@example.com>“.
+compose-custom-from-address-ignore = لا تنبهني عن هذا ثانيا
+compose-blocked-content-options-button = الخيارات
+compose-blocked-content-options-accesskey = خ
+compose-blocked-content-preferences-button = التفضيلات
+compose-blocked-content-preferences-accesskey = ف
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = ارفع حجب { $url }
+
+## Send Format
+
+
+## Addressing widget
+
+
+## Attachment widget
+
+
+## Variables:
+## $count (Number) - Number of files being dropped onto the composer.
+
+
 ## Reorder Attachment Panel
 
 # Variables:
@@ -21,6 +134,12 @@ remove-attachment-cmd =
 default-delete-cmd =
     .label = احذف
     .accesskey = ذ
+
+## Encryption
+
+
+## Addressing Area
+
 
 ## Notifications
 
@@ -46,6 +165,12 @@ attachment-reminder-keywords-msg =
        *[other] وُجدت { $count } كلمة تدل على مُرفق:
     }
 
+## Editing
+
+
+# Tools
+
+
 ## Filelink
 
 
@@ -57,6 +182,34 @@ attachment-reminder-keywords-msg =
 
 # Messages
 
+cloud-file-authentication-error-title = عُطل في الاستيثاق
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = تعذّر الاستيثاق مع { $provider }.
+cloud-file-upload-error-title = خطأ الرفع
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = تعذّر رفع { $filename } إلى { $provider }.
+cloud-file-quota-error-title = خطأ حصّة
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = رفع { $filename } إلى { $provider } سيتجاوز المساحة المخصصة لك.
+cloud-file-size-error-title = خطأ حجم الملف
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = الملف { $filename } أكبر من الحجم الأقصى في { $provider }.
+cloud-file-unknown-error-title = عطل مجهول
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = حدث خطأ غير معروف أثناء التواصل مع { $provider }.
+cloud-file-deletion-error-title = خطأ حذف
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = حدثت مشكلة أثناء حذف { $filename } من { $provider }.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
@@ -79,3 +232,36 @@ big-file-notification-text =
         [many] هذه الملفات كبيرة. قد يكون من الأفضل استعمال Filelink.
        *[other] هذه الملفات كبيرة. قد يكون من الأفضل استعمال Filelink.
     }
+big-file-learn-more-button =
+    .label = اطّلع على المزيد…
+    .accesskey = ط
+big-file-link-button =
+    .label = اربط
+    .accesskey = ط
+big-file-ignore-button =
+    .label = تجاهل
+    .accesskey = ت
+big-file-choose-account-title = اختر حسابا
+big-file-choose-account-prompt = اختر حساب تخزين على الإنترنت لرفع المرفق إليه
+big-file-hide-notification-title = لا ترفع ملفاتي
+big-file-hide-notification-prompt = لن تُنبه إذا أرفقت المزيد من الملفات الكبيرة بهذه الرسالة.
+big-file-hide-notification-checkbox = لا تنبهني عن هذا ثانيا.
+cloudfile-uploading-stop-button =
+    .label = لا تُظهر هذا مجددًا أبدًا
+    .accesskey = ه
+cloud-file-privacy-warning = اكتمل الربط. لاحظ أن المرفقات المربوطة قد تكان متاحة للأشخاص الذي يستطيعون رؤية أو تخمين الروابط.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = يرفع إلى { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = رُفِع إلى { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = أرفق الملفات عبر { $provider }
+
+## Link Preview
+
+
+## Dictionary selection popup
+

@@ -3,6 +3,106 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Compose alerts
+
+compose-message-cancelling = Бас тарту…
+compose-message-attachment-name = Салынған хабарлама
+
+## Compose window
+
+compose-initialization-error-title = Хабарламаны құрастыру
+compose-initialization-error = Хабарламаны құрастыру терезесін жасау кезінде қате орын алған. Кейінірек қайталап көріңіз.
+compose-default-subject = (тақырыпсыз)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Жазу: { $subject } - { $brand }
+compose-save-message-title = Хабарламаны сақтау
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Бұл хабарламаны сіздің шимай қағаз бумасында сақтап ({ $folder }), құрастыру терезесін жабу керек пе?
+compose-discard-changes-button = Өзгерістерді еле&меу
+compose-send-confirm-title = Хабарламаны жіберу
+compose-send-confirm-prompt = Бұл хабарламаны жіберуге дайын болғаныңызға сенімдісіз бе?
+compose-send-confirm-button = Жіберу
+compose-do-not-show-again = Осы терезені келесі ретте көрсетпеу.
+compose-empty-subject-title = Тақырыпты еске салушы
+compose-empty-subject-prompt = Хабарламаңыздың тақырыбы көрсетілмеген.
+compose-empty-subject-send-button = Тақырыпсыз &жіберу
+compose-empty-subject-cancel-button = Жіберуден ба&с тарту
+compose-attachment-reminder-title = Салыным туралы еске салу
+compose-attachment-reminder-prompt = Салынымды қосуды ұмытқан жоқсыз ба?
+compose-attachment-reminder-send-button = Жоқ, қазір жіберу
+compose-attachment-reminder-add-button = Иә, дәл солай!
+compose-newsgroups-not-supported-title = Жаңалықтар топтарына қолдау жоқ
+compose-newsgroups-not-supported = Бұл тіркелгі тек эл. пошта алушыларын қолдайды. Жалғастыру нәтижесінде жаңалықтар топтарын елемейміз.
+compose-invalid-address-title = Алушы адресі қате
+compose-no-recipients = Алушылар көрсетілмеді. Адрес өрісіне алушыны немесе жаңалықтар тобын енгізіңіз.
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } жарамды эл. пошта адресі емес, өйткені ол user@host пішімінде емес. Эл. поштаны жіберу алдында ол адресті дұрыстауыңыз керек.
+compose-quit-sending-title = Хабарламаны жіберу
+compose-quit-saving-title = Хабарламаны сақтау
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } қазір хабарламаны жіберу үстінде.
+    Шығу алдында хабарлама жіберілуін күтуді, немесе қазір шығуды қалайсыз ба?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } қазір хабарламаны сақтау үстінде.
+    Шығу алдында хабарлама сақталуын күтуді, немесе қазір шығуды қалайсыз ба?
+compose-quit-button = &Шығу
+compose-wait-button = &Күту
+compose-attach-file-picker-title = Файл(дар)ды тіркеу
+compose-attach-page-title = Тіркеу үшін орналасуды көрсетіңіз
+compose-attach-page-prompt = Веб беті (URL):
+compose-message-part-attachment-name = Салынған хабарлама бөлігі
+compose-attachment-bucket-attach-files-tooltip = Файл(дар)ды тіркеу
+compose-attachment-bucket-clear-selection-tooltip = Таңдауды тазарту
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = { $filename } файлы жоқ болып тұр, сондықтан оны бұл хабарламаға тіркеу мүмкін емес.
+compose-file-attachment-error-title = Салыным файлы
+compose-message-file-error-title = Хабарлама файлы
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = { $filename } файлы жоқ болып тұр, сондықтан оны хабарлама денесі ретінде қолдану мүмкін емес.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = { $filename } файлын хабарлама денесі ретінде жүктеу мүмкін емес.
+compose-save-success-title = Хабарламаны сақтау
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Сіздің хабарламаңыз { $folder } бумасына сақталды, { $server } жерінде.
+compose-rename-attachment-title = Салыным атын өзгерту
+compose-rename-attachment-prompt = Жаңа салынымның аты:
+remind-later-button =
+    .label = Кейінірек еске салу
+    .accesskey = л
+disable-attachment-reminder-menu-item =
+    .label = Ағымдағы хабарлама үшін салыным ескертуін сөндіру
+find-replace-button =
+    .label = Алмастыру…
+    .accesskey = с
+    .tooltiptext = Табу және алмастыру сұхбатын көрсету
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = { $identity } орнына қолданылатын таңдауыңызша жіберуші адресін енгізіңіз
+compose-custom-from-address-title = Жіберуші адресін баптау
+compose-custom-from-address-warning = Егер сіздің эл. пошта ұсынушысы оны қолдаса, Жіберуші адресін баптау мүмкіндігі сізге тіркелгі баптауларында жаңа жазбаны жасамай-ақ, сіздің жіберуші адресіңізді бір ретке өзгертуді рұқсат етеді. Мысалы, егер сіздің Жіберуші адресіңіз John Doe <john@example.com> болса, сіз оны ohn Doe <john+doe@example.com> немесе John <john@example.com> етіп өзгерте аласыз.
+compose-custom-from-address-ignore = Осы туралы мені енді ескертпеу
+compose-blocked-content-options-button = Опциялар
+compose-blocked-content-options-accesskey = о
+compose-blocked-content-preferences-button = Қалаулар
+compose-blocked-content-preferences-accesskey = л
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = { $url } блоктауын алып тастау
+
 ## Send Format
 
 compose-send-format-menu =
@@ -67,6 +167,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Тізімді ашу
     .accesskey = ш
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = { $field } адрестерін өшіру
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = { $field } адрестерін өшіру шынымен қалайсыз ба?
+compose-remove-address-row-button = Өшіру
 
 ## Attachment widget
 
@@ -420,6 +527,34 @@ cloud-file-account-error-title = Filelink тіркелгісінің қатес�
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = { $filename } Filelink салынымын жаңарту сәтсіз аяқталды, өйткені оның Filelink тіркелгісі өшірілген.
+cloud-file-authentication-error-title = Аутентификация қатесі
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = { $provider } қызметіне аутентификациялау мүмкін емес.
+cloud-file-upload-error-title = Жүктеу қатесі
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = { $filename } файлын { $provider } жеріне жүктеу мүмкін емес.
+cloud-file-quota-error-title = Квота қатесі
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = { $filename } файлын { $provider } жеріне жүктеу сіздің орын квотасынан асып кетеді.
+cloud-file-size-error-title = Файлдың көлемі қатесі
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } өлшемі { $provider } рұқсат еткен максималды өлшемінен асып кетті.
+cloud-file-unknown-error-title = Белгісіз қате
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = { $provider } қызметімен байланысу кезінде белгісіз қате орын алды.
+cloud-file-deletion-error-title = Өшіру қатесі
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = { $provider } ішінен { $filename } өшіру кезінде мәселелер орын алды.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
@@ -434,6 +569,33 @@ big-file-notification-text =
         [one] Бұл үлкен файл. Оны Filelink көмегімен жіберу жақсырақ болатын сияқты.
        *[other] Бұл үлкен файлдар. Оларды Filelink көмегімен жіберу жақсырақ болатын сияқты.
     }
+big-file-learn-more-button =
+    .label = Көбірек білу…
+    .accesskey = б
+big-file-link-button =
+    .label = Сілтеме
+    .accesskey = л
+big-file-ignore-button =
+    .label = Елемеу
+    .accesskey = е
+big-file-choose-account-title = Тіркелгіні таңдау
+big-file-choose-account-prompt = Салынымды жүктеп жіберу үшін бұлттық тіркелгіні таңдаңыз
+big-file-hide-notification-title = Файлдарымды жүктеп жібермеу
+big-file-hide-notification-prompt = Бұл хабарламаға көбірек үлкен файлдарды тіркесеңіз, ескертуді алмайсыз.
+big-file-hide-notification-checkbox = Осы туралы мені енді ескертпеу.
+cloudfile-uploading-stop-button =
+    .label = Қайта көрсетпеу
+    .accesskey = т
+cloud-file-privacy-warning = Байланыстыру сәтті аяқталды. Ескертеміз, байланыстырлған салынымдар сілтемені көретін немесе табатын адамдарға қолжетімді болуы мүмкін.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = { $provider } ішіне жүктеу…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = { $provider } қызметіне жүктелді
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = { $provider } арқылы файл(дар)ды тіркеу
 
 ## Link Preview
 

@@ -3,6 +3,109 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Compose alerts
+
+compose-message-cancelling = Չեղարկում...
+compose-message-attachment-name = Կցված նամակ
+
+## Compose window
+
+compose-initialization-error-title = Գրել նամակ
+compose-initialization-error = Սխալ՝ նոր նամակը գրելու պատուհանը բացելիս։ Կրկին փորձեք։
+compose-default-subject = (անվերնագիր)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Գրել՝ { $subject } ֊ { $brand }
+compose-save-message-title = Պահպանել նամակը
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Պահպանե՞լ այս հաղորդագրությունը Ձեր նախագծերի թղթապանակում ({ $folder }) և փակել Գրելու պատուհանը:
+compose-discard-changes-button = &Հրաժարվել փոփոխություններից
+compose-send-confirm-title = Ուղարկել
+compose-send-confirm-prompt = Պատրա՞ստ եք ուղարկելու այս նամակը։
+compose-send-confirm-button = Ուղարկել
+compose-do-not-show-again = Այլևս չույց չտալ այս պատուհանը
+compose-empty-subject-title = Վերնագրի հիշեցում
+compose-empty-subject-prompt = Ձեր նամակը չունի վերնագիր։
+compose-empty-subject-send-button = Ուղարկել առանց վերնագրի
+compose-empty-subject-cancel-button = Չուղարկել
+compose-attachment-reminder-title = Կցորդի հիշեցում
+compose-attachment-reminder-prompt = Մոռացե՞լ եք կցել ֆայլ։
+compose-attachment-reminder-send-button = Ոչ, ուղարկել
+compose-attachment-reminder-add-button = Այո, մոռացել էի...
+compose-newsgroups-not-supported-title = Նրախմբերը չեն աջակցվում
+compose-newsgroups-not-supported = Փոստարկղը աջակցում է միայն հասցեատերերի։ Լուրախմբերը կանտեսվեն։
+compose-invalid-address-title = Հասցեն սխալ է
+compose-no-recipients = Ստացողները նշված չեն։ Նշեք, թե ում եք ուղարկում այս նամակը։
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address }-ը ճիշտ հասցե չէ, որովհետև այն չունի հետևյալ ձևը՝ user@host. Նախ ուղղեք էլ. հասցեն։
+compose-quit-sending-title = Նամակը ուղարկվում է
+compose-quit-saving-title = Նամակը պահպանվում է
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand }-ը այժմ ուղարկում է նամակը։
+    Սպասե՞լ մինչ նամակը կուղարկվի, թե փակել ծրագիրը։
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand }-ը այժմ պահպանում է նամակը։
+    Սպասե՞լ մինչ նամակը պահպանվի, թե փակել ծրագիրը։
+compose-quit-button = Փակել
+compose-wait-button = Սպասել
+compose-attach-file-picker-title = Կցել ֆայլ
+compose-attach-page-title = Նշեք կցորդի տեղադրությունը
+compose-attach-page-prompt = Վեբ էջ (URL).
+compose-message-part-attachment-name = Կցված նամակի մաս
+compose-attachment-bucket-attach-files-tooltip = Կցել նիշք(եր)
+compose-attachment-bucket-clear-selection-tooltip = Մաքրել նշվածը
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = { $filename } ֆայլը գոյություն չունի, ուստի չի կարող կցվել նամակին։
+compose-file-attachment-error-title = Կցված ֆայլ
+compose-message-file-error-title = Հաղորդագրության նիշք
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = { $filename } նիշքը գոյություն չունի և չի կարող լինել նամակի մարմին։
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = { $filename } նիշքը հնարավոր չէ բեռնել որպես հաղորդագրության մարմին:
+compose-save-success-title = Պահպանել նամակը
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Ձեր նամակը պահպանվել է { $folder } թղթապանակում { $server }։
+compose-rename-attachment-title = Վերանվանել կցորդը
+compose-rename-attachment-prompt = Կցորդի նոր անունը.
+remind-later-button =
+    .label = Հիշեցնել ավելի ուշ
+    .accesskey = L
+disable-attachment-reminder-menu-item =
+    .label = Անջատել հավելվածի հիշեցումը ընթացիկ հաղորդագրության համար
+find-replace-button =
+    .label = Փոխարինել...
+    .accesskey = x
+    .tooltiptext = Ցուցադրել Գտնել և Փոխարինել պատուհանը
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Մուտքագարել հարմարեցված հասցե՝ { $identity }-ի փոխարեն
+compose-custom-from-address-title = Հարմարեցնել հասցեից
+compose-custom-from-address-warning = Եթե էլ. փոստի ձեր մատակարարը աջակցում է այն, ապա Հարմարեցումը հասցեից հնարավորություն է տալիս ստեղծել մեկանգամյա փոփոխություն ձեր Ումից հասցեի համար՝ առանց Հաշվի կարգավորումներում նոր հատկորոշիչ ստեղծելու: Օրինակ՝ եթե ձեր Ումից հասցեն է John Doe <john@example.com>, ապա կարող եք այն փոխել John Doe <john+doe@example.com>-ի կամ John <john@example.com>-ի:
+compose-custom-from-address-ignore = Այլևս չծանուցել:
+compose-blocked-content-options-button = Ընտրանքներ
+compose-blocked-content-options-accesskey = O
+compose-blocked-content-preferences-button = Նախընտրություններ
+compose-blocked-content-preferences-accesskey = P
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Ապակապանել { $url }
+
+## Send Format
+
+
 ## Addressing widget
 
 #   $type (String) - the type of the addressing row
@@ -32,6 +135,13 @@ pill-action-move-cc =
 pill-action-move-bcc =
     .label = Տեղափոխել Bcc
     .accesskey = B
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = Ջնջել { $field } հասցեները
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Համոզվա՞ծ եք, որ ցանկանում եք ջնջել { $field } հասցեները:
+compose-remove-address-row-button = Ջնջել
 
 ## Attachment widget
 
@@ -82,6 +192,9 @@ default-delete-cmd =
     .label = Ջնջել
     .accesskey = D
 
+## Encryption
+
+
 ## Addressing Area
 
 many-public-recipients-prompt-cancel = Չեղարկել ուղարկումը
@@ -103,6 +216,12 @@ attachment-reminder-keywords-msg =
        *[other] Գտնվել է { $count } կցորդ հիմնաբառ.
     }
 
+## Editing
+
+
+# Tools
+
+
 ## Filelink
 
 
@@ -114,6 +233,34 @@ attachment-reminder-keywords-msg =
 
 # Messages
 
+cloud-file-authentication-error-title = Իսկորոշման սխալ
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Հնարավոր չէ ներկայանալ { $provider }։
+cloud-file-upload-error-title = Վերբեռնման սխալ
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Հնարավոր չէ վերբեռնել { $filename }-ը { $provider }-ում։
+cloud-file-quota-error-title = Չափի սխալ
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = { $filename }-ի վերբեռնումը { $provider }-ում կգերազանցի սահմանափակումը։
+cloud-file-size-error-title = Ֆայլի չափի սխալ
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename }-ը գերազանցել է առավ. չափը { $provider }-ի համար։
+cloud-file-unknown-error-title = Անհայտ սխալ
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Անհայտ սխալ՝ { $provider }-ին կապակցելիս։
+cloud-file-deletion-error-title = Ջնջելու սխալ
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = { $filename }-ը { $provider }-ից ջնջելու սխալ։
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification = Ձեր ֆայլը կհղվի։ Այն տեսանելի կլինի նամակում, երբ պատրաստ լինի։ Ձեր ֆայլերը կհղվեն։ Դրանք տեսանելի կլինեն նամակում, երբ պատրաստ լինեն։
@@ -124,6 +271,36 @@ big-file-notification-text =
         [one] Սա մեծ ֆայլ է։ Լավ կլինի, որ օգտագործեք Ֆայլի հղումը։
        *[other] Կան մեծ ֆայլեր։ Ավելի լավ է օգտագործեք Ֆայլի հղումը։
     }
+big-file-learn-more-button =
+    .label = Իմանալ ավելին…
+    .accesskey = ա
+big-file-link-button =
+    .label = Հղում
+    .accesskey = Հ
+big-file-ignore-button =
+    .label = Անտեսել
+    .accesskey = Ա
+big-file-choose-account-title = Ընտրեք հաշիվը
+big-file-choose-account-prompt = Ընտրեք հշվեկշիռը՝ վերբեռնելու այս կցորդը
+big-file-hide-notification-title = Չվերբեռնել Իմ ֆայլերը
+big-file-hide-notification-prompt = Այլևս հարցում չի արվի, եթե կցեք ավելի շատ մեծ ֆայլեր այս գրությանը։
+big-file-hide-notification-checkbox = Այլևս չտեղեկացնել։
+cloudfile-uploading-stop-button =
+    .label = Այլևս չցուցադրել
+    .accesskey = Ա
+cloud-file-privacy-warning = Linking is complete. Please note that linked attachments may be accessible to people who can see or guess the links.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = { $provider }-ի վերբեռնում...
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Վերբեռնված { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Կցել ֆայլեր { $provider }-ով
+
+## Link Preview
+
 
 ## Dictionary selection popup
 

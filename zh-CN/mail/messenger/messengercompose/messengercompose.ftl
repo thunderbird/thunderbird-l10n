@@ -3,6 +3,106 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Compose alerts
+
+compose-message-cancelling = 正在取消…
+compose-message-attachment-name = 附加消息
+
+## Compose window
+
+compose-initialization-error-title = 书写消息
+compose-initialization-error = 创建写信窗口时出错，请重试。
+compose-default-subject = （无主题）
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = 撰写：{ $subject } - { $brand }
+compose-save-message-title = 保存消息
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = 保存此消息到您的草稿文件夹（{ $folder }）并关闭撰写窗口？
+compose-discard-changes-button = 丢弃更改(&D)
+compose-send-confirm-title = 发送消息
+compose-send-confirm-prompt = 您确定可以发送此消息了吗？
+compose-send-confirm-button = 发送
+compose-do-not-show-again = 不再显示此对话框。
+compose-empty-subject-title = 主题提醒
+compose-empty-subject-prompt = 您的邮件没有主题。
+compose-empty-subject-send-button = 无主题发送(&S)
+compose-empty-subject-cancel-button = 取消发送(&C)
+compose-attachment-reminder-title = 附件提醒
+compose-attachment-reminder-prompt = 忘记添加一个附件了吗？
+compose-attachment-reminder-send-button = 不，现在发送
+compose-attachment-reminder-add-button = 噢，又忘了！
+compose-newsgroups-not-supported-title = 不支持新闻组
+compose-newsgroups-not-supported = 此账户仅支持电子邮件收件人。继续将忽略新闻组。
+compose-invalid-address-title = 收件人地址无效
+compose-no-recipients = 没有指定收件人。请在地址区域输入一个收件人或者新闻组。
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } 不是正确的电子邮件地址，因为它不是类似 user@host 的格式。您必须在发送邮件之前改正它。
+compose-quit-sending-title = 正在发送消息
+compose-quit-saving-title = 正在保存消息
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } 正在发送消息。
+    您想要等待至消息发送完成再退出吗？
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } 当前正在保存消息。
+    你想等消息保存完毕再退出，还是立即退出？
+compose-quit-button = 退出(&Q)
+compose-wait-button = 等待(&W)
+compose-attach-file-picker-title = 附加文件
+compose-attach-page-title = 请指定要附加的地址
+compose-attach-page-prompt = 网页 (URL)：
+compose-message-part-attachment-name = 附加消息部分
+compose-attachment-bucket-attach-files-tooltip = 附件
+compose-attachment-bucket-clear-selection-tooltip = 清除选定内容
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = 文件 { $filename } 不存在因此无法附加到消息中。
+compose-file-attachment-error-title = 附加文件
+compose-message-file-error-title = 消息文件
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = 文件 { $filename } 不存在，不能作为消息正文。
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = 文件 { $filename } 未能加载为消息正文。
+compose-save-success-title = 保存消息
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = 您的消息已经被保存到 { $server } 下的 { $folder } 文件夹中。
+compose-rename-attachment-title = 重命名附件
+compose-rename-attachment-prompt = 新附件名称：
+remind-later-button =
+    .label = 稍后提醒我
+    .accesskey = L
+disable-attachment-reminder-menu-item =
+    .label = 对当前消息禁用附件提醒
+find-replace-button =
+    .label = 替换(L)…
+    .accesskey = L
+    .tooltiptext = 显示查找和替换对话框
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = 不是使用 { $identity } 而是输入自定义发件人（From）地址
+compose-custom-from-address-title = 自定义发件人地址
+compose-custom-from-address-warning = 如果您的电子邮件提供商支持，自定义发件人地址允许修改您的发件人地址而无需在账户设置中创建一个新的身份。例如，如果您发件人地址是李四 <john@example.com>，你可能想要将其更改为李四 <john+doe@example.com> 或约翰 <john@example.com>。
+compose-custom-from-address-ignore = 不要再通知我这个
+compose-blocked-content-options-button = 选项
+compose-blocked-content-options-accesskey = O
+compose-blocked-content-preferences-button = 首选项
+compose-blocked-content-preferences-accesskey = P
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = 解除阻止 { $url }
+
 ## Send Format
 
 compose-send-format-menu =
@@ -66,6 +166,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = 展开列表
     .accesskey = x
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = 移除 { $field } 地址
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = 您确定要移除 { $field } 地址吗？
+compose-remove-address-row-button = 移除
 
 ## Attachment widget
 
@@ -395,12 +502,67 @@ cloud-file-account-error-title = 文件快传账户错误
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = 由于文件快传已被删除，文件快传附件 { $filename } 未能更新。
+cloud-file-authentication-error-title = 验证错误
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = 无法验证 { $provider }。
+cloud-file-upload-error-title = 上传出错
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = 无法上传 { $filename } 到 { $provider }。
+cloud-file-quota-error-title = 配额错误
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = 上传 { $filename } 到 { $provider }，会超过您的空间配额。
+cloud-file-size-error-title = 文件大小错误
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } 超过了 { $provider } 的最大大小。
+cloud-file-unknown-error-title = 未知错误
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = 与 { $provider } 通信时发生未知错误。
+cloud-file-deletion-error-title = 删除错误
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = 删除 { $provider } 上的 { $filename } 时遇到问题。
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification = 正在上传您的文件。上传完成后将会在消息体当中插入该文件链接。
 # Variables:
 #   $count - the number big attached files
 big-file-notification-text = 文件有点大。我们建议您将大文件先上传到云端，再使用插入文件链接的形式传送文件。
+big-file-learn-more-button =
+    .label = 详细了解(M)…
+    .accesskey = M
+big-file-link-button =
+    .label = 链接(L)
+    .accesskey = L
+big-file-ignore-button =
+    .label = 忽略(I)
+    .accesskey = I
+big-file-choose-account-title = 选择账户
+big-file-choose-account-prompt = 选择一个云账户来上传附件
+big-file-hide-notification-title = 不要上传我的文件
+big-file-hide-notification-prompt = 向本邮件附加更多大文件时不会被通知。
+big-file-hide-notification-checkbox = 不要再通知我这个。
+cloudfile-uploading-stop-button =
+    .label = 不再显示此信息(N)
+    .accesskey = N
+cloud-file-privacy-warning = 链接完成。请注意链接的附件可能会被那些能看到或猜中链接的人访问。
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = 正在上传到 { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = 已上传到 { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = 通过 { $provider } 添加文件
 
 ## Link Preview
 

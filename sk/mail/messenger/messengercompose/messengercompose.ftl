@@ -3,6 +3,106 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Compose alerts
+
+compose-message-cancelling = Ruší sa…
+compose-message-attachment-name = Priložená správa
+
+## Compose window
+
+compose-initialization-error-title = Vytvorenie správy
+compose-initialization-error = Nastala chyba pri otváraní okna pre napísanie správy. Skúste to znova.
+compose-default-subject = (bez predmetu)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Nová správa: { $subject } - { $brand }
+compose-save-message-title = Uloženie správy
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Uložiť túto správu do priečinka s konceptami ({ $folder }) a zavrieť okno písania správ?
+compose-discard-changes-button = &Neuložiť zmeny
+compose-send-confirm-title = Odoslanie správy
+compose-send-confirm-prompt = Naozaj chcete odoslať túto správu?
+compose-send-confirm-button = Odoslať
+compose-do-not-show-again = Nabudúce toto okno nezobrazovať
+compose-empty-subject-title = Vyplnenie poľa Predmet
+compose-empty-subject-prompt = Odosielaná správa nemá vyplnené pole Predmet.
+compose-empty-subject-send-button = &Odoslať bez predmetu
+compose-empty-subject-cancel-button = &Zrušiť odoslanie
+compose-attachment-reminder-title = Upozornenie na prílohu
+compose-attachment-reminder-prompt = Nezabudli ste priložiť prílohu?
+compose-attachment-reminder-send-button = Nezabudol, odoslať správu
+compose-attachment-reminder-add-button = Naozaj, zabudol som!
+compose-newsgroups-not-supported-title = Diskusné skupiny nie sú podporované
+compose-newsgroups-not-supported = Tento účet podporuje iba príjemcov e‑mailov. Pri pokračovaní budú diskusné skupiny ignorované.
+compose-invalid-address-title = Neplatná adresa príjemcu
+compose-no-recipients = Neuvedení adresáti. Zadajte adresáta do riadku Komu alebo diskusnú skupinu do riadku Diskusná skupina.
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } nie je platná e‑mailová adresa, pretože nemá správny formát (používateľ@server). Pred odoslaním ju musíte opraviť.
+compose-quit-sending-title = Odoslanie správy
+compose-quit-saving-title = Ukladanie správy
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } práve odosiela správu.
+    Chcete pred ukončením počkať, kým bude správa korektne odoslaná?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } práve ukladá správu.
+    Chcete pred ukončením počkať, kým bude správa korektne uložená?
+compose-quit-button = S&končiť
+compose-wait-button = &Počkať
+compose-attach-file-picker-title = Priložiť súbor
+compose-attach-page-title = Zadajte adresu, ktorá sa má priložiť
+compose-attach-page-prompt = Webová stránka (URL):
+compose-message-part-attachment-name = Časť priloženej správy
+compose-attachment-bucket-attach-files-tooltip = Priložiť súbor
+compose-attachment-bucket-clear-selection-tooltip = Vymazať vybrané
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = Súbor { $filename } neexistuje a preto nemohol byť pripojený k správe.
+compose-file-attachment-error-title = Pripojenie súboru
+compose-message-file-error-title = Súbor správy
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = Súbor { $filename } neexistuje a preto nemohol byť použitý ako telo správy.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = Súbor { $filename } nemohol byť načítaný ako telo správy.
+compose-save-success-title = Uloženie správy
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Vaša správa bola uložená do priečinka { $folder } servera { $server }.
+compose-rename-attachment-title = Premenovanie prílohy
+compose-rename-attachment-prompt = Nový názov prílohy:
+remind-later-button =
+    .label = Pripomenúť neskôr
+    .accesskey = e
+disable-attachment-reminder-menu-item =
+    .label = Vypnúť upozornenie na prílohu pre túto správu
+find-replace-button =
+    .label = Nahradiť…
+    .accesskey = N
+    .tooltiptext = Zobraziť okno Hľadať a nahradiť
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Zadajte vlastnú adresu odosielateľa namiesto { $identity }
+compose-custom-from-address-title = Nastavenie adresy odosielateľa
+compose-custom-from-address-warning = Ak to váš poskytovateľ e‑mailovej schránky podporuje, môžete jednorázovo vykonať drobné zmeny v adrese odosielateľa bez nutnosti vytvárať novú identitu v Nastaveniach účtu. Napríklad, ak je vaša adresa Eva Nová <eva.nova@example.com>, môžete ju zmeniť na Eva Nová <eva+nova@example.com> alebo Eva <eva@example.com>.
+compose-custom-from-address-ignore = Viac ma na toto neupozorňovať
+compose-blocked-content-options-button = Možnosti
+compose-blocked-content-options-accesskey = M
+compose-blocked-content-preferences-button = Možnosti
+compose-blocked-content-preferences-accesskey = M
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Odblokovať { $url }
+
 ## Send Format
 
 compose-send-format-menu =
@@ -69,6 +169,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Rozbaliť zoznam
     .accesskey = R
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = Odstrániť adresy z poľa { $field }
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Naozaj chcete odstrániť adresy z poľa { $field }?
+compose-remove-address-row-button = Odstrániť
 
 ## Attachment widget
 
@@ -440,6 +547,34 @@ cloud-file-account-error-title = Chyba účtu Filelink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Prílohu Filelink { $filename } sa nepodarilo aktualizovať, pretože jej účet Filelink bol odstránený.
+cloud-file-authentication-error-title = Chyba overenia
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Nebolo možné overenie na službe { $provider }.
+cloud-file-upload-error-title = Chyba odoslania
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Nebolo možné odoslať súbor { $filename } do služby { $provider }.
+cloud-file-quota-error-title = Chyba kvóty
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Odoslanie súboru { $filename } do služby { $provider } by vyčerpalo voľné miesto pre váš účet.
+cloud-file-size-error-title = Chyba veľkosti súboru
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = Súbor { $filename } presahuje maximálnu povolené veľkosť súboru pre službu { $provider }.
+cloud-file-unknown-error-title = Neznáma chyba
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Pri komunikácii so službou { $provider } sa vyskytla neznáma chyba.
+cloud-file-deletion-error-title = Chyba pri odstraňovaní
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Pri odstraňovaní súboru { $filename } zo služby { $provider } sa vyskytla chyba.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
@@ -456,6 +591,33 @@ big-file-notification-text =
         [few] Tieto súbory sú príliš veľké. Zrejme by bolo vhodnejšie využiť úložisko online.
        *[other] Tieto súbory sú príliš veľké. Zrejme by bolo vhodnejšie využiť úložisko online.
     }
+big-file-learn-more-button =
+    .label = Ďalšie informácie…
+    .accesskey = m
+big-file-link-button =
+    .label = Vložiť odkaz
+    .accesskey = V
+big-file-ignore-button =
+    .label = Ignorovať
+    .accesskey = i
+big-file-choose-account-title = Výber služby
+big-file-choose-account-prompt = Zvoľte službu, kam vložíte prílohu
+big-file-hide-notification-title = Neodosielať moje súbory
+big-file-hide-notification-prompt = Ak k tejto správe priložíte ďalšie veľké súbory, program už na to nebude upozorňovať.
+big-file-hide-notification-checkbox = Túto správu už viac nezobrazovať.
+cloudfile-uploading-stop-button =
+    .label = Viac nezobrazovať
+    .accesskey = V
+cloud-file-privacy-warning = Vytvorenie odkazu je dokončené. Pamätajte, že odkazované prílohy budú viditeľné ľuďom, ktorí tieto odkazy poznajú alebo ich uhádnu.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Prebieha odosielanie do služby { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Odoslané do služby { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Priložiť súbor využitím služby { $provider }
 
 ## Link Preview
 

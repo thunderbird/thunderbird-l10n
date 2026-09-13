@@ -3,6 +3,106 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Compose alerts
+
+compose-message-cancelling = Bertan behera uzten…
+compose-message-attachment-name = Erantsitako mezua
+
+## Compose window
+
+compose-initialization-error-title = Mezua sortzea
+compose-initialization-error = Errore bat gertatu da mezua prestatzeko leihoa sortzean. Saiatu berriro.
+compose-default-subject = (gairik ez)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Idatzi: { $subject } - { $brand }
+compose-save-message-title = Gorde mezua
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Gorde mezu hau ({ $folder }) zirriborro karpetan eta itxi idazketa leihoa?
+compose-discard-changes-button = &Baztertu aldaketak
+compose-send-confirm-title = Bidali mezua
+compose-send-confirm-prompt = Ziur zaude mezua bidaltzeko prest zaudela?
+compose-send-confirm-button = Bidali
+compose-do-not-show-again = Ez erakutsi mezu hau berriro.
+compose-empty-subject-title = Gaiaren gogorarazlea
+compose-empty-subject-prompt = Zure mezuak ez dauka gairik.
+compose-empty-subject-send-button = &Bidali gairik gabe
+compose-empty-subject-cancel-button = &Utzi bidalketa
+compose-attachment-reminder-title = Eranskinen gogorarazlea
+compose-attachment-reminder-prompt = Eranskinen bat gehitzea ahaztu duzu?
+compose-attachment-reminder-send-button = Ez, bidali orain
+compose-attachment-reminder-add-button = A bai, egia!
+compose-newsgroups-not-supported-title = Berri-taldeak ez dira onartzen
+compose-newsgroups-not-supported = Kontu honek posta-hartzaileak bakarrik onartzen ditu. Jarraituz gero berri-taldeak ezikusiko dira.
+compose-invalid-address-title = Hartzailearen helbide baliogabea
+compose-no-recipients = Ez da hartzailerik zehaztu. Sartu hartzaile bat edo berri-talde bat helbideratze-eremuan.
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } ez da baliozko helbide elektronikoa, ez baita erabiltzailea@ostalaria gisakoa. E-posta bidali aurretik zuzendu behar duzu.
+compose-quit-sending-title = Mezua bidaltzen
+compose-quit-saving-title = Mezua gordetzen
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } mezua bidaltzeko prozesuan da.
+    Mezua bidali arte itxaron nahi duzu irten aurretik edo orain irten nahi duzu?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } mezua gordetzeko prozesuan da.
+    Mezua gorde arte itxaron nahi duzu irten aurretik edo orain irten nahi duzu?
+compose-quit-button = &Irten
+compose-wait-button = It&xaron
+compose-attach-file-picker-title = Erantsi fitxategia(k)
+compose-attach-page-title = Adierazi erantsi beharreko helbidea
+compose-attach-page-prompt = Webgunea (URL):
+compose-message-part-attachment-name = Erantsitako mezu-zatia
+compose-attachment-bucket-attach-files-tooltip = Erantsi fitxategia(k)
+compose-attachment-bucket-clear-selection-tooltip = Garbitu hautapena
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = { $filename } fitxategia ez dago beraz ezin zaio mezuari erantsi.
+compose-file-attachment-error-title = Fitxategia eranstea
+compose-message-file-error-title = Mezu fitxategia
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = { $filename } fitxategia ez dago beraz ezin da erabili mezu gorputz bezala.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = { $filename } fitxategia ezin da kargatu mezu gorputz bezala.
+compose-save-success-title = Gorde mezua
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Mezua { $server } zerbitzariko { $folder } karpetan gorde da.
+compose-rename-attachment-title = Berrizendatu eranskina
+compose-rename-attachment-prompt = Eranskin berriaren izena:
+remind-later-button =
+    .label = Gogora iezadazu geroago
+    .accesskey = b
+disable-attachment-reminder-menu-item =
+    .label = Ezgaitu eranskinen gogorarazlea uneko mezuarentzat
+find-replace-button =
+    .label = Ordeztu…
+    .accesskey = O
+    .tooltiptext = Erakutsi bilatu eta ordezteko elkarrizketa-koadroa
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Sartu helbide pertsonalizatua { $identity } erabili ordez
+compose-custom-from-address-title = Helbidetik pertsonalizatu
+compose-custom-from-address-warning = Zure eposta hornitzaileak onartzen badu, 'helbidetik pertsonalizatzeak' ahalbidetzen du aldaketa txiki bat egitea zure nondik helbidean identitate berri bat sortu gabe kontuaren ezarpenetan. Adibidez, Zure izena Mikel Biteri bada <mikel@example.com> eta Mikel Biterira aldatu nahi baduzu <mikel+biteri@example.com> or Mikel <mikel@example.com>era.
+compose-custom-from-address-ignore = Ez jakinarazi hau gehiago
+compose-blocked-content-options-button = Aukerak
+compose-blocked-content-options-accesskey = A
+compose-blocked-content-preferences-button = Hobespenak
+compose-blocked-content-preferences-accesskey = H
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Desblokeatu { $url }
+
 ## Send Format
 
 compose-send-format-menu =
@@ -67,6 +167,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Zabaldu zerrenda
     .accesskey = Z
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = Kendu { $field } helbideak
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Ziur zaude { $field } helbideak kendu nahi duzula?
+compose-remove-address-row-button = Kendu
 
 ## Attachment widget
 
@@ -424,6 +531,34 @@ cloud-file-account-error-title = Filelink kontuan errorea
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Huts egin du eguneratzea { $filename } eranskina Filelinken, Filelink kontua ezabatu delako.
+cloud-file-authentication-error-title = Autentifikazio-errorea
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Ezin da { $provider }(e)ra autentifikatu.
+cloud-file-upload-error-title = Errorea igotzean
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Ezin da { $filename } igo { $provider }(e)ra.
+cloud-file-quota-error-title = Kuota-errorea
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = { $filename } { $provider }(e)ra igoz gero zure espazioaren kuota gaindituko da.
+cloud-file-size-error-title = Fitxategi-tamainaren errorea
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } fitxategiak { $provider }(e)ko tamaina maximoa gainditzen du.
+cloud-file-unknown-error-title = Errore ezezaguna
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Errore ezezaguna gertatu da { $provider }(r)ekin komunikatzean.
+cloud-file-deletion-error-title = Ezabatze-errorea
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Arazoa egon da { $provider }(e)tik { $filename } ezabatzean.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
@@ -438,6 +573,33 @@ big-file-notification-text =
         [one] Fitxategi handia da hau. Hobe izan daiteke Filelink erabiltzea.
        *[other] Fitxategi handiak dira hauek. Hobe izan daiteke Filelink erabiltzea.
     }
+big-file-learn-more-button =
+    .label = Argibide gehiago…
+    .accesskey = A
+big-file-link-button =
+    .label = Lotura
+    .accesskey = L
+big-file-ignore-button =
+    .label = Baztertu
+    .accesskey = B
+big-file-choose-account-title = Aukeratu kontua
+big-file-choose-account-prompt = Aukeratu eranskina igotzeko hodeiko kontua
+big-file-hide-notification-title = Ez igo nire fitxategiak
+big-file-hide-notification-prompt = Ez zaizu jakinaraziko mezu handi gehiago eransten badizkiozu mezu honi.
+big-file-hide-notification-checkbox = Ez jakinarazi hau gehiago.
+cloudfile-uploading-stop-button =
+    .label = Ez erakutsi hau berriro
+    .accesskey = E
+cloud-file-privacy-warning = Lotura osatuta. Konturatu loturak ikusi edo asma ditzakeen edozeinek atzi ditzakeela lotutako eranskinak.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = { $provider }(e)ra igotzen…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = { $provider }(e)ra igota
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Erantsi fitxategia(k) honen bitartez: { $provider }
 
 ## Link Preview
 

@@ -3,6 +3,106 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Compose alerts
+
+compose-message-cancelling = Annuleren…
+compose-message-attachment-name = Gekoppeld bericht
+
+## Compose window
+
+compose-initialization-error-title = Berichten opstellen
+compose-initialization-error = Er is een fout opgetreden tijdens het maken van een berichtopstelvenster. Probeer het opnieuw.
+compose-default-subject = (geen onderwerp)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Nieuw bericht: { $subject } - { $brand }
+compose-save-message-title = Bericht opslaan
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Dit bericht opslaan in uw conceptenmap ({ $folder }) en het venster Opstellen sluiten?
+compose-discard-changes-button = &Wijzigingen negeren
+compose-send-confirm-title = Bericht verzenden
+compose-send-confirm-prompt = Weet u zeker dat u dit bericht wilt verzenden?
+compose-send-confirm-button = Verzenden
+compose-do-not-show-again = Dit dialoogvenster niet meer tonen
+compose-empty-subject-title = Onderwerpherinnering
+compose-empty-subject-prompt = Uw bericht heeft geen onderwerp.
+compose-empty-subject-send-button = &Verzenden zonder onderwerp
+compose-empty-subject-cancel-button = Verzenden &annuleren
+compose-attachment-reminder-title = Bijlageherinnering
+compose-attachment-reminder-prompt = Bent u vergeten een bijlage toe te voegen?
+compose-attachment-reminder-send-button = Nee, nu verzenden
+compose-attachment-reminder-add-button = Oh, inderdaad!
+compose-newsgroups-not-supported-title = Nieuwsgroepen niet ondersteund
+compose-newsgroups-not-supported = Deze account ondersteunt alleen e-mailontvangers. Doorgaan zal nieuwsgroepen negeren.
+compose-invalid-address-title = Ongeldig ontvangeradres
+compose-no-recipients = Er zijn geen ontvangers opgegeven. Voer een ontvanger of nieuwsgroep in in het adresseringsgebied.
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } is geen geldig e-mailadres, omdat het niet de vorm gebruiker@host heeft. U moet dit corrigeren voordat u de e-mail verzendt.
+compose-quit-sending-title = Bericht wordt verzonden
+compose-quit-saving-title = Bericht wordt opgeslagen
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } is momenteel bezig met het verzenden van een bericht.
+    Wilt u wachten tot het bericht is verzonden voordat u afsluit, of nu afsluiten?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } is momenteel bezig met het opslaan van een bericht.
+    Wilt u wachten tot het bericht is opgeslagen voordat u afsluit, of nu afsluiten?
+compose-quit-button = &Afsluiten
+compose-wait-button = &Wachten
+compose-attach-file-picker-title = Bestand(en) koppelen
+compose-attach-page-title = Geef een locatie op om te koppelen
+compose-attach-page-prompt = Webpagina (URL):
+compose-message-part-attachment-name = Gekoppeld berichtgedeelte
+compose-attachment-bucket-attach-files-tooltip = Bestand(en) koppelen
+compose-attachment-bucket-clear-selection-tooltip = Selectie wissen
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = Het bestand { $filename } bestaat niet en kan dus niet aan het bericht worden gekoppeld.
+compose-file-attachment-error-title = Bestand koppelen
+compose-message-file-error-title = Berichtbestand
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = Het bestand { $filename } bestaat niet en kon niet als berichttekst worden gebruikt.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = Het bestand { $filename } kon niet als berichttekst worden geladen.
+compose-save-success-title = Bericht opslaan
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Uw bericht is opgeslagen in de map { $folder } van { $server }.
+compose-rename-attachment-title = Bijlage hernoemen
+compose-rename-attachment-prompt = Nieuwe bijlagenaam:
+remind-later-button =
+    .label = Later herinneren
+    .accesskey = L
+disable-attachment-reminder-menu-item =
+    .label = Bijlageherinnering voor huidige bericht uitschakelen
+find-replace-button =
+    .label = Vervangen…
+    .accesskey = r
+    .tooltiptext = Het dialoogvenster Zoeken en vervangen tonen
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Voer aangepast Van-adres in dat wordt gebruikt in plaats van { $identity }
+compose-custom-from-address-title = Van-adres aanpassen
+compose-custom-from-address-warning = Als uw e-mailprovider het ondersteunt, kunt u met Van-adres aanpassen een eenmalige kleine wijziging aan uw Van-adres aanbrengen zonder dat u een nieuwe identiteit in Accountinstellingen hoeft aan te maken. Als uw Van-adres bijvoorbeeld John Doe <john@example.com> is, wilt u dit misschien wijzigen naar John Doe <john+doe@example.com> of John <john@example.com>.
+compose-custom-from-address-ignore = Mij hiervoor nooit meer waarschuwen
+compose-blocked-content-options-button = Opties
+compose-blocked-content-options-accesskey = t
+compose-blocked-content-preferences-button = Voorkeuren
+compose-blocked-content-preferences-accesskey = V
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = { $url } deblokkeren
+
 ## Send Format
 
 compose-send-format-menu =
@@ -67,6 +167,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Lijst uitvouwen
     .accesskey = w
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = { $field }-adressen verwijderen
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Weet u zeker dat u de { $field }-adressen wilt verwijderen?
+compose-remove-address-row-button = Verwijderen
 
 ## Attachment widget
 
@@ -424,6 +531,34 @@ cloud-file-account-error-title = Filelink-accountfout
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Kan de Filelink-bijlage { $filename } niet bijwerken, omdat de Filelink-account is verwijderd.
+cloud-file-authentication-error-title = Authenticatiefout
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Kan niet authenticeren bij { $provider }.
+cloud-file-upload-error-title = Uploadfout
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Kan { $filename } niet uploaden naar { $provider }.
+cloud-file-quota-error-title = Quotumfout
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Het uploaden van { $filename } naar { $provider } overschrijdt uw ruimtequotum.
+cloud-file-size-error-title = Bestandsgroottefout
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } overschrijdt de maximale grootte bij { $provider }.
+cloud-file-unknown-error-title = Onbekende fout
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Er is een onbekende fout opgetreden bij het communiceren met { $provider }.
+cloud-file-deletion-error-title = Verwijderfout
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Er was een probleem bij het verwijderen van { $filename } bij { $provider }.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
@@ -438,6 +573,33 @@ big-file-notification-text =
         [one] Dit is een groot bestand. Het is misschien beter om Filelink te gebruiken.
        *[other] Dit zijn grote bestanden. Het is misschien beter om Filelink te gebruiken.
     }
+big-file-learn-more-button =
+    .label = Meer info…
+    .accesskey = M
+big-file-link-button =
+    .label = Koppelen
+    .accesskey = K
+big-file-ignore-button =
+    .label = Negeren
+    .accesskey = e
+big-file-choose-account-title = Account kiezen
+big-file-choose-account-prompt = Kies een cloud-account voor het uploaden van de bijlage
+big-file-hide-notification-title = Mijn bestanden niet uploaden
+big-file-hide-notification-prompt = U wordt niet gewaarschuwd als u nog meer grote bestanden aan dit bericht koppelt.
+big-file-hide-notification-checkbox = Mij hiervoor nooit meer waarschuwen
+cloudfile-uploading-stop-button =
+    .label = Nooit meer tonen
+    .accesskey = e
+cloud-file-privacy-warning = Koppelen is voltooid. Let erop dat gekoppelde bijlagen toegankelijk kunnen zijn voor personen die de koppelingen kunnen zien of raden.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Uploaden naar { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Geüpload naar { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Bestand(en) koppelen via { $provider }
 
 ## Link Preview
 

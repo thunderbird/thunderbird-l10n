@@ -3,6 +3,106 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Compose alerts
+
+compose-message-cancelling = Vazgeçiliyor…
+compose-message-attachment-name = Ekli ileti
+
+## Compose window
+
+compose-initialization-error-title = İleti Yazımı
+compose-initialization-error = İleti yazma penceresi oluşturulurken bir hata oluştu. Lütfen yeniden deneyin.
+compose-default-subject = (konu yok)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Yaz: { $subject } - { $brand }
+compose-save-message-title = İletiyi Kaydet
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Bu ileti taslaklar klasörünüze ({ $folder }) kaydedilsin ve Yaz penceresi kapatılsın mı?
+compose-discard-changes-button = &Değişikliklerden vazgeç
+compose-send-confirm-title = İletiyi Gönder
+compose-send-confirm-prompt = Bu iletiyi göndermeye hazır olduğunuza emin misiniz?
+compose-send-confirm-button = Gönder
+compose-do-not-show-again = Bu iletişim kutusunu bir daha gösterme.
+compose-empty-subject-title = Konu Hatırlatıcı
+compose-empty-subject-prompt = İletinizin konusu yok.
+compose-empty-subject-send-button = &Konu Olmadan Gönder
+compose-empty-subject-cancel-button = &Göndermekten Vazgeç
+compose-attachment-reminder-title = Ek Hatırlatıcı
+compose-attachment-reminder-prompt = Dosya eklemeyi mi unuttunuz?
+compose-attachment-reminder-send-button = Hayır, iletiyi gönder
+compose-attachment-reminder-add-button = Evet, unutmuşum!
+compose-newsgroups-not-supported-title = Haber Grupları Desteklenmiyor
+compose-newsgroups-not-supported = Bu hesap yalnızca e-posta alıcılarını destekler. Devam ederseniz haber grupları görmezden gelinir.
+compose-invalid-address-title = Geçersiz Alıcı Adresi
+compose-no-recipients = Alıcı belirtilmedi. Adres alanında bir alıcı veya haber grubu girin.
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } geçerli bir e-posta adresi değil, çünkü kullanıcı@sunucu şeklinde değil. E-postayı göndermeden önce bunu düzeltmelisiniz.
+compose-quit-sending-title = İleti Gönderimi
+compose-quit-saving-title = İleti Kaydetme
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } şu anda bir iletiyi gönderme sürecinde.
+    İleti gönderilene kadar beklemek mi, yoksa hemen çıkmak mı istersiniz?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } şu anda bir iletiyi kaydetme sürecinde.
+    İleti kaydedilene kadar beklemek mi, yoksa hemen çıkmak mı istersiniz?
+compose-quit-button = Çı&k
+compose-wait-button = &Bekle
+compose-attach-file-picker-title = Dosya Ekle
+compose-attach-page-title = Lütfen eklenecek konumu belirtin
+compose-attach-page-prompt = Web Sayfası (URL):
+compose-message-part-attachment-name = Ekli ileti parçası
+compose-attachment-bucket-attach-files-tooltip = Dosya ekle
+compose-attachment-bucket-clear-selection-tooltip = Seçimi temizle
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = { $filename } dosyası mevcut olmadığından iletiye eklenemiyor.
+compose-file-attachment-error-title = Dosya Eki
+compose-message-file-error-title = İleti dosyası
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = { $filename } dosyası mevcut değil ve ileti metni olarak kullanılamıyor.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = { $filename } dosyası ileti metni olarak yüklenemedi.
+compose-save-success-title = İletiyi Kaydet
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = İletiniz { $server } sunucusundaki { $folder } klasörüne kaydedildi.
+compose-rename-attachment-title = Ekin Adını Değiştir
+compose-rename-attachment-prompt = Yeni ek adı:
+remind-later-button =
+    .label = Daha sonra hatırlat
+    .accesskey = S
+disable-attachment-reminder-menu-item =
+    .label = Bu iletide eklenti hatırlatıcısını devre dışı bırak
+find-replace-button =
+    .label = Değiştir…
+    .accesskey = D
+    .tooltiptext = Bul ve Değiştir penceresini göster
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = { $identity } yerine kullanılacak Kimden adresini yazın
+compose-custom-from-address-title = Kimden adresini özelleştir
+compose-custom-from-address-warning = E-posta hizmet sağlayıcınız “gönderen adresini özelleştirme” özelliğini destekliyorsa, hesap ayarlarınıza girip yeni bir kimlik oluşturmanıza gerek kalmadan gönderen adresinizde ufak değişiklikler yapabilirsiniz. Örneğin, gönderen adresiniz Ahmet Yılmaz <ahmet@example.com> ise bunu Ahmet Yılmaz <ahmet+yilmaz@example.com> veya Ahmet <ahmet@example.com> olarak değiştirebilirsiniz.
+compose-custom-from-address-ignore = Beni bir daha bu konuda uyarma
+compose-blocked-content-options-button = Seçenekler
+compose-blocked-content-options-accesskey = S
+compose-blocked-content-preferences-button = Tercihler
+compose-blocked-content-preferences-accesskey = T
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = { $url } engelini kaldır
+
 ## Send Format
 
 compose-send-format-menu =
@@ -67,6 +167,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Listeyi genişlet
     .accesskey = n
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = { $field } adreslerini kaldır
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = { $field } adreslerini kaldırmak istediğinizden emin misiniz?
+compose-remove-address-row-button = Kaldır
 
 ## Attachment widget
 
@@ -424,6 +531,34 @@ cloud-file-account-error-title = Filelink Hesap Hatası
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Filelink hesabı silindiği için Filelink eki { $filename } güncellenemedi.
+cloud-file-authentication-error-title = Kimlik doğrulama hatası
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = { $provider } kimlik doğrulaması başarısız oldu.
+cloud-file-upload-error-title = Karşıya Yükleme Hatası
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = { $filename } dosyası { $provider } hizmetine yüklenemedi.
+cloud-file-quota-error-title = Kota Hatası
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = { $filename } dosyası { $provider } hizmetine yüklenirse kotanız aşılacak.
+cloud-file-size-error-title = Dosya Boyutu Hatası
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } dosyası { $provider } tarafından belirlenen maksimum dosya boyutunu aşıyor.
+cloud-file-unknown-error-title = Bilinmeyen Hata
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = { $provider } ile iletişim sırasında bilinmeyen bir hata meydana geldi.
+cloud-file-deletion-error-title = Silme Hatası
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = { $filename } dosyası { $provider } hizmetinden silinirken sorun yaşandı.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
@@ -438,6 +573,33 @@ big-file-notification-text =
         [one] Bu büyük bir dosya. Filelink kullanmak daha iyi olabilir.
        *[other] Bunlar büyük dosyalar. Filelink kullanmak daha iyi olabilir.
     }
+big-file-learn-more-button =
+    .label = Daha fazla bilgi…
+    .accesskey = b
+big-file-link-button =
+    .label = Bağlantı
+    .accesskey = B
+big-file-ignore-button =
+    .label = Görmezden gel
+    .accesskey = G
+big-file-choose-account-title = Hesap Seçme
+big-file-choose-account-prompt = Ek dosyanın yükleneceği bir bulut hesabı seçin
+big-file-hide-notification-title = Dosyalarımı Yükleme
+big-file-hide-notification-prompt = Bu iletiye daha fazla büyük dosya eklerseniz uyarılmayacaksınız.
+big-file-hide-notification-checkbox = Beni bir daha bu konuda uyarma.
+cloudfile-uploading-stop-button =
+    .label = Bunu bir daha gösterme
+    .accesskey = b
+cloud-file-privacy-warning = Bağlama tamamlandı. Bağlı eklere, bağlantıları gören veya tahmin edebilen kişiler tarafından erişilebileceğini lütfen unutmayın.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = { $provider } hizmetine yükleniyor…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = { $provider } hizmetine yüklendi
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = { $provider } ile Dosya Ekle
 
 ## Link Preview
 

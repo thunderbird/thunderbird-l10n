@@ -3,6 +3,106 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Compose alerts
+
+compose-message-cancelling = Membatalkan…
+compose-message-attachment-name = Pesan Terlampir
+
+## Compose window
+
+compose-initialization-error-title = Penyunting Pesan
+compose-initialization-error = Kesalahan terjadi saat membuat jendela pembuat pesan. Silakan coba lagi.
+compose-default-subject = (belum ada subjek)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Tulis: { $subject } - { $brand }
+compose-save-message-title = Simpan Pesan
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Simpan pesan ini ke folder draf Anda ({ $folder }) dan tutup jendela Tulis?
+compose-discard-changes-button = &Batalkan perubahan
+compose-send-confirm-title = Kirim Pesan
+compose-send-confirm-prompt = Yakin siap mengirim pesan ini?
+compose-send-confirm-button = Kirim
+compose-do-not-show-again = Jangan tampilkan kotak dialog ini lagi.
+compose-empty-subject-title = Pengingat Isian Judul
+compose-empty-subject-prompt = Pesan Anda tidak memiliki judul
+compose-empty-subject-send-button = &Kirim Tanpa Judul
+compose-empty-subject-cancel-button = &Batal Kirim
+compose-attachment-reminder-title = Pengingat Lampiran
+compose-attachment-reminder-prompt = Anda lupa melampirkan berkas lampiran?
+compose-attachment-reminder-send-button = Tidak, Kirim Sekarang
+compose-attachment-reminder-add-button = Oh iya, Saya Lupa!
+compose-newsgroups-not-supported-title = Newsgroups Tidak Didukung Supported
+compose-newsgroups-not-supported = Akun ini hanya mendukung penerima jenis email. Jika dilanjutkan maka penerima jenis newsgroup akan diabaikan.
+compose-invalid-address-title = Alamat Penerima Tidak Sah
+compose-no-recipients = Tidak ada penerima yang disebutkan. Masukkan penerima atau newsgroup pada kotak alamat.
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } bukan alamat email yang sah karena tidak dalam format user@host. Anda harus mengoreksi alamat tersebut sebelum mengirim email.
+compose-quit-sending-title = Mengirim Pesan
+compose-quit-saving-title = Menyimpan Pesan
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } sedang dalam proses mengirim pesan.
+    Apakah Anda ingin menunggu hingga pesan terkirim sebelum keluar atau keluar sekarang juga?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } sedang dalam proses menyimpan pesan.
+    Apakah Anda ingin menunggu sampai pesan disimpan sebelum berhenti atau keluar sekarang?
+compose-quit-button = &Keluar
+compose-wait-button = &Tunggu
+compose-attach-file-picker-title = Lampirkan Berkas
+compose-attach-page-title = Tentukan lokasi untuk dilampirkan
+compose-attach-page-prompt = Laman Web (URL):
+compose-message-part-attachment-name = Bagian Pesan Terlampir
+compose-attachment-bucket-attach-files-tooltip = Lampirkan Berkas
+compose-attachment-bucket-clear-selection-tooltip = Hapus Pilihan
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = Berkas { $filename } tidak ada sehingga tidak dapat dilampirkan pada pesan.
+compose-file-attachment-error-title = Lampiran Berkas
+compose-message-file-error-title = Berkas Pesan
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = File { $filename } tidak ada dan tidak dapat digunakan sebagai badan pesan.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = File { $filename } tidak dapat dimuat sebagai isi pesan.
+compose-save-success-title = Simpan Pesan
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Pesan Anda telah disimpan dalam folder { $folder } di bawah { $server }.
+compose-rename-attachment-title = Ganti Nama Lampiran
+compose-rename-attachment-prompt = Nama lampiran baru:
+remind-later-button =
+    .label = Ingatkan Saya nanti
+    .accesskey = L
+disable-attachment-reminder-menu-item =
+    .label = Nonaktifkan pengingat lampiran untuk pesan saat ini
+find-replace-button =
+    .label = Ganti…
+    .accesskey = x
+    .tooltiptext = Tampilkan dialog Temukan dan Ganti
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Masukkan alamat Dari sesuai pesanan untuk digunakan, alih-alih { $identity }
+compose-custom-from-address-title = Menyesuaikan Alamat Dari
+compose-custom-from-address-warning = Jika penyedia email Anda mendukungnya, Penyesuaian Alamat Dari memungkinkan Anda membuat perubahan kecil satu kali ke alamat Dari Anda tanpa harus membuat identitas baru di Pengaturan Akun. Misalnya, jika alamat Dari Anda adalah John Doe <john@example.com> Anda mungkin ingin mengubahnya menjadi John Doe <john+doe@example.com> atau John <john@example.com>.
+compose-custom-from-address-ignore = Jangan peringatkan saya lagi
+compose-blocked-content-options-button = Pilihan
+compose-blocked-content-options-accesskey = O
+compose-blocked-content-preferences-button = Preferensi
+compose-blocked-content-preferences-accesskey = P
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Buka blokir { $url }
+
 ## Send Format
 
 compose-send-format-menu =
@@ -64,6 +164,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Bentangkan Daftar
     .accesskey = e
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = Hapus Alamat { $field }
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Yakin ingin menghapus alamat { $field }?
+compose-remove-address-row-button = Hapus
 
 ## Attachment widget
 
@@ -380,12 +487,67 @@ cloud-file-account-error-title = Kesalahan Akun Filelink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Gagal memperbarui lampiran Filelink { $filename }, karena akun Filelink-nya telah dihapus.
+cloud-file-authentication-error-title = Galat Otentikasi
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Gagal mengotentikasi pada { $provider }.
+cloud-file-upload-error-title = Galat Pengunggahan
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Gagal menunggah { $filename } ke { $provider }.
+cloud-file-quota-error-title = Galat Kuota
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Pengunggahan { $filename } ke { $provider } akan melampaui kuota ruang Anda.
+cloud-file-size-error-title = Galat Ukuran Berkas
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } melampaui batas ukuran maksimum pada { $provider }.
+cloud-file-unknown-error-title = Galat Tak Dikenal
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Galat tak dikenal terjadi saat berhubungan dengan { $provider }.
+cloud-file-deletion-error-title = Galat Penghapusan
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Ada masalah saat menghapus { $filename } dari { $provider }.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification = File Anda sedang ditautkan. Ini akan muncul di badan pesan ketika selesai.
 # Variables:
 #   $count - the number big attached files
 big-file-notification-text = Berkas ini berukuran besar. Mungkin lebih baik menggunakan Filelink.
+big-file-learn-more-button =
+    .label = Pelajari Lebih Lanjut…
+    .accesskey = m
+big-file-link-button =
+    .label = Tautan
+    .accesskey = l
+big-file-ignore-button =
+    .label = Abaikan
+    .accesskey = A
+big-file-choose-account-title = Pilih Akun
+big-file-choose-account-prompt = Pilih akun komputawan tempat tujuan mengunggah berkas
+big-file-hide-notification-title = Jangan Unggah Berkas Saya
+big-file-hide-notification-prompt = Anda tidak akan diperingatkan kembali saat melampirkan berkas berukuran besar pada pesan.
+big-file-hide-notification-checkbox = Jangan peringatkan saya lagi.
+cloudfile-uploading-stop-button =
+    .label = Jangan tampilkan lagi
+    .accesskey = N
+cloud-file-privacy-warning = Tautan selesai. Harap perhatikan bahwa lampiran tertaut dapat diakses oleh orang-orang yang dapat melihat atau menebak tautannya.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Menunggah ke { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Diunggah ke { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Lampirkan Berkas lewat { $provider }
 
 ## Link Preview
 

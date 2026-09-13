@@ -3,6 +3,106 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Compose alerts
+
+compose-message-cancelling = Anulez…
+compose-message-attachment-name = Mesaj atașat
+
+## Compose window
+
+compose-initialization-error-title = Redactare mesaj
+compose-initialization-error = A apărut o eroare la crearea ferestrei de compunere a mesajului. Te rugăm să încerci din nou.
+compose-default-subject = (fără subiect)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Scrie mesajul: { $subject } - { $brand }
+compose-save-message-title = Salvare mesaj
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Salvezi acest mesaj în dosarul cu mesaje nefinalizate ({ $folder }) și închizi fereastra de redactare?
+compose-discard-changes-button = Elimină modificările
+compose-send-confirm-title = Trimitere mesaj
+compose-send-confirm-prompt = Sigur ești gata să trimiți acest mesaj?
+compose-send-confirm-button = Trimite
+compose-do-not-show-again = Nu mai afișa altă dată acest dialog.
+compose-empty-subject-title = Amintire de lipsa subiectului
+compose-empty-subject-prompt = Mesajul tău nu are un subiect.
+compose-empty-subject-send-button = &Trimite fără subiect
+compose-empty-subject-cancel-button = &Anulează trimiterea
+compose-attachment-reminder-title = Verificator de atașamente lipsă
+compose-attachment-reminder-prompt = Ai uitat să adaugi un atașament?
+compose-attachment-reminder-send-button = Nu, trimite acum
+compose-attachment-reminder-add-button = Da, așa e!
+compose-newsgroups-not-supported-title = Grupurile de discuții nu sunt suportate
+compose-newsgroups-not-supported = Acest cont acceptă doar destinatari pentru e-mail. Prin continuare, grupurile de discuții vor fi ignorate.
+compose-invalid-address-title = Adresă nevalidă de destinație
+compose-no-recipients = Niciun destinatar specificat. Te rugăm să introduci un destinatar sau un grup de discuții în zona de adrese.
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } nu este o adresă de e-mail validă întrucât nu este de forma utilizator@gazdă. Trebuie să o corectezi înainte de a putea trimite mesajul e-mail.
+compose-quit-sending-title = Trimitere mesaj
+compose-quit-saving-title = Salvare mesaj
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } trimite un mesaj acum.
+    Vrei să aștepți până mesajul este trimis înainte de a închide programul sau să ieși acum?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } salvează momentan un mesaj.
+    Vrei să aștepți până ce mesajul este salvat înainte de a închide programul sau vrei să ieși acum?
+compose-quit-button = &Ieșire
+compose-wait-button = &Așteaptă
+compose-attach-file-picker-title = Atașare fișier(e)
+compose-attach-page-title = Te rugăm să specifici o locație pentru atașare
+compose-attach-page-prompt = Pagina web (URL):
+compose-message-part-attachment-name = Fragment de mesaj atașat
+compose-attachment-bucket-attach-files-tooltip = Atașare fișier(e)
+compose-attachment-bucket-clear-selection-tooltip = Șterge selecția
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = Fișierul { $filename } nu există, astfel încât nu a putut fi atașat la mesaj.
+compose-file-attachment-error-title = Atașare fișier
+compose-message-file-error-title = Fișier mesaj
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = Fișierul { $filename } nu există sau nu a putut fi folosit în corpul mesajului.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = Fișierul { $filename } nu a putut fi încărcat în corpul mesajului.
+compose-save-success-title = Salvează mesajul
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Mesajul tău a fost salvat în dosarul { $folder } de pe { $server }.
+compose-rename-attachment-title = Redenumește atașamentul
+compose-rename-attachment-prompt = Denumire nouă atașament:
+remind-later-button =
+    .label = Amintește-mi mai târziu
+    .accesskey = L
+disable-attachment-reminder-menu-item =
+    .label = Dezactivează sesizarea pentru atașamente la mesajul curent
+find-replace-button =
+    .label = Înlocuiește…
+    .accesskey = x
+    .tooltiptext = Afișează fereastra de dialog pentru găsire și înlocuire
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Introdu o altă adresă a expeditorului ce va fi folosită în loc de { $identity }
+compose-custom-from-address-title = Personalizează adresa de trimitere
+compose-custom-from-address-warning = Dacă furnizorul de servicii de e-mail acceptă, „Personalizează adresa de trimitere” îți permite o singură modificare minoră a adresei din câmpul De la fără a mai fi nevoie să creezi o nouă identitate în setările contului. De exemplu, dacă adresa este Ion Popescu <ion@exemplu.com> ai putea vrea să o schimbi în Ion Popescu <ion+popescu@exemplu.com> sau Ion <ion@exemplu.com>.
+compose-custom-from-address-ignore = Nu mă mai notifica cu privire la asta
+compose-blocked-content-options-button = Opțiuni
+compose-blocked-content-options-accesskey = O
+compose-blocked-content-preferences-button = Preferințe
+compose-blocked-content-preferences-accesskey = P
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Deblochează { $url }
+
 ## Send Format
 
 compose-send-format-menu =
@@ -69,6 +169,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Extinde lista
     .accesskey = x
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = Elimină adresele din { $field }
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Sigur vrei să elimini adresele { $field }?
+compose-remove-address-row-button = Elimină
 
 ## Attachment widget
 
@@ -435,6 +542,34 @@ cloud-file-account-error-title = Eroare cont Filelink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Atașamentul Filelink { $filename } nu a putut fi actualizat, deoarece contul Filelink aferent a fost șters.
+cloud-file-authentication-error-title = Eroare de autentificare
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Nu se poate autentifica către { $provider }.
+cloud-file-upload-error-title = Eroare la încărcare
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Nu pot încărca { $filename } la { $provider }.
+cloud-file-quota-error-title = Eroare de cotă
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Încărcarea { $filename } în { $provider } va depăși cota ta de spațiu.
+cloud-file-size-error-title = Eroare la mărimea fișierului
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } depășește dimensiunea maximă pentru { $provider }.
+cloud-file-unknown-error-title = Eroare necunoscută
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = O eroare necunoscută s-a produs în timpul comunicării cu { $provider }.
+cloud-file-deletion-error-title = Eroare la ștergere
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = A apărut o problemă la ștergerea { $filename } de pe { $provider }.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
@@ -451,6 +586,33 @@ big-file-notification-text =
         [few] Acestea sunt fișiere mari. Ar putea fi mai bine să folosești în schimb Filelink.
        *[other] Acestea sunt fișiere mari. Ar putea fi mai bine să folosești în schimb Filelink.
     }
+big-file-learn-more-button =
+    .label = Află mai multe…
+    .accesskey = m
+big-file-link-button =
+    .label = Link
+    .accesskey = L
+big-file-ignore-button =
+    .label = Ignoră
+    .accesskey = I
+big-file-choose-account-title = Selectează contul
+big-file-choose-account-prompt = Alege un cont cloud unde vei încărca atașamentul
+big-file-hide-notification-title = Nu mai încărca fișierele mele
+big-file-hide-notification-prompt = Nu vei mai fi notificat dacă atașezi mai multe fișiere mari la acest mesaj.
+big-file-hide-notification-checkbox = Nu mă mai notifica cu privire la asta.
+cloudfile-uploading-stop-button =
+    .label = Nu mai afișa asta din nou
+    .accesskey = N
+cloud-file-privacy-warning = Legătura este finalizată. Te rugăm să reții că atașamentele legate pot fi accesate de persoanele care pot vedea sau ghici linkurile.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Încarcă către { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Încărcat către { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Atașează fișierul(ele) prin { $provider }
 
 ## Link Preview
 

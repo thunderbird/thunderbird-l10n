@@ -3,6 +3,106 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Compose alerts
+
+compose-message-cancelling = Wycofywanie…
+compose-message-attachment-name = Załączona wiadomość
+
+## Compose window
+
+compose-initialization-error-title = Tworzenie wiadomości
+compose-initialization-error = Podczas tworzenia okna nowej wiadomości wystąpił błąd. Należy ponowić próbę.
+compose-default-subject = (bez tematu)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Tworzenie: { $subject } — { $brand }
+compose-save-message-title = Zapisz wiadomość
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Zapisać tę wiadomość w folderze { $folder } i zamknąć okno tworzenia wiadomości?
+compose-discard-changes-button = &Odrzuć zmiany
+compose-send-confirm-title = Wyślij wiadomość
+compose-send-confirm-prompt = Czy na pewno ta wiadomość jest gotowa do wysłania?
+compose-send-confirm-button = Wyślij
+compose-do-not-show-again = Nie pokazuj więcej tego okna dialogowego.
+compose-empty-subject-title = Brak tematu
+compose-empty-subject-prompt = Wysyłana wiadomość nie ma tematu.
+compose-empty-subject-send-button = &Wyślij bez tematu
+compose-empty-subject-cancel-button = &Anuluj wysyłanie
+compose-attachment-reminder-title = Przypomnienie o brakujących załącznikach
+compose-attachment-reminder-prompt = Czy ta wiadomość nie powinna zawierać załączników?
+compose-attachment-reminder-send-button = Nie, wyślij bez załączników
+compose-attachment-reminder-add-button = Faktycznie!
+compose-newsgroups-not-supported-title = Brak obsługi grup dyskusyjnych
+compose-newsgroups-not-supported = Z tego konta można wysyłać wiadomości jedynie na adresy e-mail. Próby wysłania wiadomości na serwery grup dyskusyjnych zostaną zignorowane.
+compose-invalid-address-title = Błędny adres odbiorcy
+compose-no-recipients = Nie określono żadnego adresata. W polu Do: wprowadź adresata lub w polu Grupa dyskusyjna: wprowadź nazwę grupy dyskusyjnej.
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } nie jest poprawnym adresem e-mail. Adres e-mail powinien mieć budowę użytkownik@domena. Proszę poprawić adres przed wysłaniem wiadomości.
+compose-quit-sending-title = Wysyłanie wiadomości
+compose-quit-saving-title = Zapisywanie wiadomości
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } wysyła wiadomość.
+    Zaczekać z kończeniem programu aż wiadomość zostanie wysłana, czy zakończyć natychmiast?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } zapisuje wiadomość.
+    Zaczekać z kończeniem programu aż wiadomość zostanie zapisana, czy zakończyć natychmiast?
+compose-quit-button = Zakończ
+compose-wait-button = Zaczekaj
+compose-attach-file-picker-title = Załącz plik do tej wiadomości
+compose-attach-page-title = Podaj adres strony (URL)
+compose-attach-page-prompt = Adres strony, którą chcesz załączyć:
+compose-message-part-attachment-name = Część załączonej wiadomości
+compose-attachment-bucket-attach-files-tooltip = Załącz plik
+compose-attachment-bucket-clear-selection-tooltip = Wyczyść zaznaczenie
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = Załącznik nie mógł zostać dodany do wiadomości, ponieważ plik „{ $filename }” nie istnieje.
+compose-file-attachment-error-title = Załączanie pliku
+compose-message-file-error-title = Plik wiadomości
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = Plik „{ $filename }” nie istnieje, więc nie może zostać użyty jako treść wiadomości.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = Plik „{ $filename }” nie może zostać wczytany jako treść wiadomości.
+compose-save-success-title = Zapisz wiadomość
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Twoja wiadomość została zapisana do folderu { $folder } w { $server }.
+compose-rename-attachment-title = Zmień nazwę załącznika
+compose-rename-attachment-prompt = Nowa nazwa:
+remind-later-button =
+    .label = Przypomnij mi później
+    .accesskey = P
+disable-attachment-reminder-menu-item =
+    .label = Wyłącz przypomnienie o brakujących załącznikach dla bieżącej wiadomości
+find-replace-button =
+    .label = Zamień…
+    .accesskey = m
+    .tooltiptext = Wyświetl okno wyszukiwania i zastępowania
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Wprowadź własny adres nadawcy używany zamiast „{ $identity }”
+compose-custom-from-address-title = Dostosuj adres nadawcy
+compose-custom-from-address-warning = Jeśli jest to obsługiwane przez dostawcę usług pocztowych, to można jednorazowo nieznacznie zmienić swój adres nadawcy, bez konieczności tworzenia nowej tożsamości w konfiguracji kont. Na przykład można zmienić adres „Jan Kowalski <jan@example.com>” na „Jan Kowalski <jan+kowalski@example.com>” lub „Jan <jan@example.com>”.
+compose-custom-from-address-ignore = Nie pytaj ponownie
+compose-blocked-content-options-button = Opcje
+compose-blocked-content-options-accesskey = O
+compose-blocked-content-preferences-button = Preferencje
+compose-blocked-content-preferences-accesskey = P
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Odblokuj „{ $url }”
+
 ## Send Format
 
 compose-send-format-menu =
@@ -69,6 +169,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Rozwiń listę
     .accesskey = R
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = Usuwanie adresów z pola „{ $field }”
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Czy na pewno usunąć adresy z pola „{ $field }”?
+compose-remove-address-row-button = Usuń
 
 ## Attachment widget
 
@@ -437,6 +544,34 @@ cloud-file-account-error-title = Błąd konta serwisu przechowywania plików
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Zaktualizowanie załącznika { $filename } w serwisie przechowywania plików się nie powiodło, ponieważ jego konto zostało usunięte.
+cloud-file-authentication-error-title = Błąd uwierzytelniania
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Uwierzytelnienie w serwisie { $provider } się nie powiodło.
+cloud-file-upload-error-title = Błąd wgrywania
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Wgrywanie pliku „{ $filename }” do serwisu { $provider } się nie powiodło.
+cloud-file-quota-error-title = Błąd przekroczenia limitów
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Wgranie pliku „{ $filename }” do serwisu { $provider } spowodowałoby przekroczenie limitu przestrzeni.
+cloud-file-size-error-title = Błąd rozmiaru pliku
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = Rozmiar pliku „{ $filename }” przekracza dopuszczalny limit rozmiaru plików w serwisie { $provider }.
+cloud-file-unknown-error-title = Nieznany błąd
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Wystąpił nieznany błąd podczas komunikacji z serwisem { $provider }.
+cloud-file-deletion-error-title = Błąd usuwania
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Wystąpił problem podczas usuwania pliku „{ $filename }” z serwisu { $provider }.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
@@ -453,6 +588,33 @@ big-file-notification-text =
         [few] To są duże pliki – być może lepiej byłoby użyć serwisu przechowywania plików?
        *[many] To są duże pliki – być może lepiej byłoby użyć serwisu przechowywania plików?
     }
+big-file-learn-more-button =
+    .label = Więcej informacji…
+    .accesskey = W
+big-file-link-button =
+    .label = Tak, użyj
+    .accesskey = u
+big-file-ignore-button =
+    .label = Ignoruj
+    .accesskey = I
+big-file-choose-account-title = Wybierz konto
+big-file-choose-account-prompt = Wybierz konto serwisu przechowywania, na które wgrać pliki
+big-file-hide-notification-title = Nie wgrywaj plików
+big-file-hide-notification-prompt = Nie będziesz więcej powiadamiany, gdy załączysz więcej dużych plików do tej wiadomości.
+big-file-hide-notification-checkbox = Nie pytaj ponownie.
+cloudfile-uploading-stop-button =
+    .label = Nie pytaj ponownie o wgrywanie plików
+    .accesskey = N
+cloud-file-privacy-warning = Ukończono tworzenie odnośnika dla pliku. Należy pamiętać, że wgrane załączniki będą dostępne dla wszystkich znających (a także potrafiących odgadnąć) odnośnik.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Wgrywanie do { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Ukończono wgrywanie do { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Załącz plik poprzez { $provider }
 
 ## Link Preview
 

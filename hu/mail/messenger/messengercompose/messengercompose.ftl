@@ -3,6 +3,106 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Compose alerts
+
+compose-message-cancelling = Megszakítás…
+compose-message-attachment-name = Csatolt üzenet
+
+## Compose window
+
+compose-initialization-error-title = Üzenet szerkesztése
+compose-initialization-error = Hiba történt a szerkesztőablak megnyitásánál. Próbálja újra.
+compose-default-subject = (nincs tárgy)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Írás: { $subject } - { $brand }
+compose-save-message-title = Üzenet mentése
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Menti ezt az üzenetet a Piszkozatok mappába ({ $folder }), és bezárja az Írás ablakot?
+compose-discard-changes-button = Módosítások &elvetése
+compose-send-confirm-title = Üzenet küldése
+compose-send-confirm-prompt = Biztos benne, hogy az üzenet készen áll az elküldésre?
+compose-send-confirm-button = Küldés
+compose-do-not-show-again = Ne jelenjen meg többet ez a párbeszédpanel.
+compose-empty-subject-title = Figyelmeztetés a tárgyra
+compose-empty-subject-prompt = Az üzenetének nincs tárgya.
+compose-empty-subject-send-button = &Küldés tárgy nélkül
+compose-empty-subject-cancel-button = Kül&dés visszavonása
+compose-attachment-reminder-title = Figyelmeztető a mellékletekre
+compose-attachment-reminder-prompt = Nem felejtette el a mellékletet?
+compose-attachment-reminder-send-button = Nem, így küldöm el!
+compose-attachment-reminder-add-button = De igen!
+compose-newsgroups-not-supported-title = Hírcsoportok nem támogatottak
+compose-newsgroups-not-supported = Ebből a postafiókból csak levelet lehet küldeni. Ha folytatja, a hírcsoportok figyelmen kívül lesznek hagyva.
+compose-invalid-address-title = A címzett címe érvénytelen
+compose-no-recipients = Nincs címzett megadva. Írjon be egy címzettet vagy hírcsoportot a címmezőbe.
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } nem érvényes e-mail cím, mert nem felhasználó@gép formában van. Az e-mail elküldése előtt ki kell javítania.
+compose-quit-sending-title = Üzenet küldése
+compose-quit-saving-title = Üzenet mentése
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    A { $brand } épp egy üzenetet küld el.
+    Megvárja az üzenet elküldésének befejeződését, vagy azonnal kilép?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    A { $brand } épp egy üzenetet küld el.
+    Megvárja az üzenet elküldésének befejeződését, vagy azonnal kilép?
+compose-quit-button = &Kilépés
+compose-wait-button = &Várakozás
+compose-attach-file-picker-title = Fájlok csatolása
+compose-attach-page-title = Válassza ki a mellékelendő helyet
+compose-attach-page-prompt = Weboldal (URL):
+compose-message-part-attachment-name = Csatolt üzenetrész
+compose-attachment-bucket-attach-files-tooltip = Fájlok csatolása
+compose-attachment-bucket-clear-selection-tooltip = Kijelölés törlése
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = A(z) { $filename } fájl nem létezik, ezért nem lehet az üzenethez csatolni.
+compose-file-attachment-error-title = Fájlcsatolás
+compose-message-file-error-title = Üzenetfájl
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = A(z) { $filename } fájl nem létezik, így nem használható üzenettörzsként.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = A(z) { $filename } fájl nem tölthető be üzenettörzsként.
+compose-save-success-title = Üzenet mentése
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Az üzenet a(z) { $folder } mappába lett mentve a(z) { $server } kiszolgálón.
+compose-rename-attachment-title = Melléklet átnevezése
+compose-rename-attachment-prompt = Melléklet új neve:
+remind-later-button =
+    .label = Figyelmeztetés később
+    .accesskey = F
+disable-attachment-reminder-menu-item =
+    .label = Melléklet-emlékeztető letiltása ehhez az üzenethez
+find-replace-button =
+    .label = &Csere…
+    .accesskey = x
+    .tooltiptext = Keresés és csere ablak megjelenítése
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Írja be a(z) { $identity } helyett használandó egyéni Feladó címet
+compose-custom-from-address-title = Feladó címének testreszabása
+compose-custom-from-address-warning = Ha e-mail szolgáltatója támogatja, a Feladó címének testreszabása lehetővé teszi a Feladó címének egyszeri kis módosítását anélkül, hogy új személyazonosságot kellene beállítani a Postafiók beállításaiban. Ha például a Feladó címe Kovács János <janos@example.com>, akkor megváltoztathatja Kovács János <janos+kovacs@example.com> vagy János <janos@example.com> értékre.
+compose-custom-from-address-ignore = Sose értesítsen erről újra.
+compose-blocked-content-options-button = Beállítások
+compose-blocked-content-options-accesskey = B
+compose-blocked-content-preferences-button = Beállítások
+compose-blocked-content-preferences-accesskey = B
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = { $url } tiltásának feloldása
+
 ## Send Format
 
 compose-send-format-menu =
@@ -67,6 +167,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Lista kibontása
     .accesskey = b
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = { $field } címek eltávolítása
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Biztos, hogy törli ezeket a(z) { $field } címeket?
+compose-remove-address-row-button = Eltávolítás
 
 ## Attachment widget
 
@@ -422,6 +529,34 @@ cloud-file-account-error-title = Filelink fiókhiba
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Nem sikerült frissíteni a(z) { $filename } Filelink mellékletet, mert a Filelink-fiókot törölték.
+cloud-file-authentication-error-title = Hitelesítési hiba
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Nem sikerült a hitelesítés itt: { $provider }.
+cloud-file-upload-error-title = Feltöltési hiba
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = { $filename } nem tölthető fel ide: { $provider }.
+cloud-file-quota-error-title = Kvótahiba
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = { $filename } feltöltésével ide: { $provider } túllépné a tárterület kvótáját.
+cloud-file-size-error-title = Fájlméret hiba
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } meghaladja a(z) { $provider } által engedélyezett maximális méretet.
+cloud-file-unknown-error-title = Ismeretlen hiba
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Ismeretlen hiba történt a kommunikáció során ezzel: { $provider }.
+cloud-file-deletion-error-title = Törlési hiba
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Hiba történt a(z) { $filename } törlésekor innen: { $provider }.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
@@ -436,6 +571,33 @@ big-file-notification-text =
         [one] Ez egy nagy fájl. Jobb volna inkább az óriásfájl-küldést használni.
        *[other] Ezek nagy fájlok. Jobb volna inkább az óriásfájl-küldést használni.
     }
+big-file-learn-more-button =
+    .label = További tudnivalók…
+    .accesskey = T
+big-file-link-button =
+    .label = Hivatkozás
+    .accesskey = H
+big-file-ignore-button =
+    .label = Kihagyás
+    .accesskey = K
+big-file-choose-account-title = Fiók választása
+big-file-choose-account-prompt = Válasszon egy felhőbeli fiókot a melléklet feltöltéséhez
+big-file-hide-notification-title = Ne töltse fel a fájljaimat
+big-file-hide-notification-prompt = Nem kap újabb értesítést, amikor további nagy fájlokat csatol ehhez az üzenethez.
+big-file-hide-notification-checkbox = Sose értesítsen erről újra.
+cloudfile-uploading-stop-button =
+    .label = Ne jelenjen meg többé
+    .accesskey = N
+cloud-file-privacy-warning = A hivatkozás kész. Ne feledje, hogy a hivatkozott mellékletek hozzáférhetők bárki számára, aki látja vagy ki tudja találni a hivatkozást.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Feltöltés ide: { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Feltöltve ide: { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Fájlok csatolása ezen keresztül: { $provider }
 
 ## Link Preview
 

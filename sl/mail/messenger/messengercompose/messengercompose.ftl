@@ -3,6 +3,106 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Compose alerts
+
+compose-message-cancelling = Preklicevanje …
+compose-message-attachment-name = Pripeto sporočilo
+
+## Compose window
+
+compose-initialization-error-title = Sestavljanje sporočila
+compose-initialization-error = Med odpiranjem okna za sestavljanje sporočila je prišlo do napake. Poskusite znova.
+compose-default-subject = (brez zadeve)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Sestavi: { $subject } - { $brand }
+compose-save-message-title = Shrani sporočilo
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Shrani to sporočilo v mapo { $folder } in zapri okno Sestavi?
+compose-discard-changes-button = &Zavrzi spremembe
+compose-send-confirm-title = Pošlji sporočilo
+compose-send-confirm-prompt = Ali ste res pripravljeni to sporočilo poslati?
+compose-send-confirm-button = Pošlji
+compose-do-not-show-again = Tega pogovornega okna ne prikazuj več.
+compose-empty-subject-title = Opomnik za zadevo
+compose-empty-subject-prompt = Vaše sporočilo je brez zadeve.
+compose-empty-subject-send-button = &Pošlji brez zadeve
+compose-empty-subject-cancel-button = P&rekliči pošiljanje
+compose-attachment-reminder-title = Opomin za priponko
+compose-attachment-reminder-prompt = Ste pozabili dodati priponko?
+compose-attachment-reminder-send-button = Ne, pošlji zdaj
+compose-attachment-reminder-add-button = Res je!
+compose-newsgroups-not-supported-title = Novičarske skupine niso podprte.
+compose-newsgroups-not-supported = Ta račun podpira samo prejemnike e-pošte. Če nadaljujete, bodo novičarske skupine prezrte.
+compose-invalid-address-title = Neveljaven naslov prejemnika
+compose-no-recipients = Prejemniki niso bili navedeni. Vnesite prejemnika ali novičarsko skupino v polje za naslov.
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } ni veljaven e-poštni naslov, ker ni oblike uporabnik@gostitelj. Preden lahko e-pošto pošljete, morate to popraviti.
+compose-quit-sending-title = Pošiljanje sporočila
+compose-quit-saving-title = Sporočilo se shranjuje
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } je trenutno v opravilu pošiljanja sporočila.
+    Želite počakati, da se sporočilo pošlje preden končate, ali želite končati takoj?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } pravkar shranjuje sporočilo.
+    Ali želite pred končanjem programa počakati, da se sporočilo shrani, ali želite končati takoj?
+compose-quit-button = &Končaj
+compose-wait-button = &Počakaj
+compose-attach-file-picker-title = Pripni datoteke
+compose-attach-page-title = Navedite mesto za priponko
+compose-attach-page-prompt = Spletna stran (naslov):
+compose-message-part-attachment-name = Pripet del sporočila
+compose-attachment-bucket-attach-files-tooltip = Pripni datoteke
+compose-attachment-bucket-clear-selection-tooltip = Počisti izbiro
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = Datoteka { $filename } ne obstaja, tako da je k sporočilu ni bilo mogoče pripeti.
+compose-file-attachment-error-title = Pripni datoteko
+compose-message-file-error-title = Datoteka sporočila
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = Datoteka { $filename } ne obstaja in je ni bilo mogoče uporabiti kot telo sporočila.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = Datoteke { $filename } ni bilo mogoče naložiti kot telo sporočila.
+compose-save-success-title = Shrani sporočilo
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Vaše sporočilo je bilo shranjeno v mapo { $folder } pod { $server }.
+compose-rename-attachment-title = Preimenuj priponko
+compose-rename-attachment-prompt = Novo ime priponke:
+remind-later-button =
+    .label = Opomni me kasneje
+    .accesskey = O
+disable-attachment-reminder-menu-item =
+    .label = Onemogoči opomnik o priponkah za trenutno sporočilo
+find-replace-button =
+    .label = Zamenjaj …
+    .accesskey = Z
+    .tooltiptext = Prikaži pogovorno okno Najdi in Zamenjaj
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Vnesite naslov pošiljatelja po meri za uporabo namesto { $identity }
+compose-custom-from-address-title = Prilagodi naslov pošiljatelja
+compose-custom-from-address-warning = Če vaš ponudnik to podpira, vam možnost prilagajanja naslova pošiljatelja omogoča enkratno manjšo spremembo naslova brez ustvarjanja nove identitete v nastavitvah računa. Na primer, če je pošiljatelj Janez Novak <janez@example.com>, ga lahko spremenite v Janez Novak <janez+novak@example.com> ali Janez <janez@example.com>.
+compose-custom-from-address-ignore = Ne obveščaj me več o tem
+compose-blocked-content-options-button = Možnosti
+compose-blocked-content-options-accesskey = M
+compose-blocked-content-preferences-button = Nastavitve
+compose-blocked-content-preferences-accesskey = N
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Dovoli { $url }
+
 ## Send Format
 
 compose-send-format-menu =
@@ -71,6 +171,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Razširi seznam
     .accesskey = š
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = Odstrani naslove { $field }
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Ali ste prepričani, da želite odstraniti naslove { $field }?
+compose-remove-address-row-button = Odstrani
 
 ## Attachment widget
 
@@ -449,6 +556,34 @@ cloud-file-account-error-title = Napaka računa Filelink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Priponke Filelink { $filename } ni bilo mogoče posodobiti, ker je bil račun za Filelink izbrisan.
+cloud-file-authentication-error-title = Napaka ob overitvi
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Ni mogoče overiti s/z { $provider }.
+cloud-file-upload-error-title = Napaka med pošiljanjem
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = { $filename } ni mogoče prenesti na { $provider }.
+cloud-file-quota-error-title = Napaka količinske omejitve
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Pošiljanje { $filename } na { $provider } bo preseglo količinsko omejitev za svoj prostor.
+cloud-file-size-error-title = Napaka v velikosti datoteke
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } je večja od dovoljene velikosti za { $provider }.
+cloud-file-unknown-error-title = Neznana napaka
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Pri komunikaciji s/z { $provider } je prišlo do neznane napake.
+cloud-file-deletion-error-title = Napaka med brisanjem
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Med brisanjem { $filename } s/z { $provider } je prišlo do težave..
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
@@ -467,6 +602,33 @@ big-file-notification-text =
         [few] Gre za velike datoteke. Mogoče bi bilo bolje uporabiti Filelink.
        *[other] Gre za velike datoteke. Mogoče bi bilo bolje uporabiti Filelink.
     }
+big-file-learn-more-button =
+    .label = Več o tem …
+    .accesskey = V
+big-file-link-button =
+    .label = Poveži
+    .accesskey = P
+big-file-ignore-button =
+    .label = Prezri
+    .accesskey = e
+big-file-choose-account-title = Izberite račun
+big-file-choose-account-prompt = Izberite račun v oblaku, kamor naj se prenese priponka
+big-file-hide-notification-title = Ne prenašaj mojih datotek
+big-file-hide-notification-prompt = Če boste dodali še več velikih datotek k temu sporočilu, ne boste dobili obvestila.
+big-file-hide-notification-checkbox = O tem me ni treba nikoli več obveščati.
+cloudfile-uploading-stop-button =
+    .label = Tega ne prikaži več
+    .accesskey = T
+cloud-file-privacy-warning = Povezovanje je končano. Upoštevajte, da so povezane priponke lahko dostopne ljudem, ki povezave vidijo ali uganejo.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Prenašanje na { $provider } …
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Preneseno na { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Pripni datoteke preko { $provider }
 
 ## Link Preview
 

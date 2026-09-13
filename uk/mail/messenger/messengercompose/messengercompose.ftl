@@ -3,6 +3,106 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Compose alerts
+
+compose-message-cancelling = Триває скасування…
+compose-message-attachment-name = Вкладене повідомлення
+
+## Compose window
+
+compose-initialization-error-title = Написання повідомлення
+compose-initialization-error = Під час відкривання вікна нового повідомлення сталася помилка. Спробуйте ще раз.
+compose-default-subject = (без теми)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Створення повідомлення: { $subject } - { $brand }
+compose-save-message-title = Зберегти повідомлення
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Зберегти це повідомлення до вашої теки чернеток ({ $folder }) і закрити вікно створення?
+compose-discard-changes-button = &Відхилити зміни
+compose-send-confirm-title = Надсилання повідомлення
+compose-send-confirm-prompt = Ви дійсно готові надіслати це повідомлення?
+compose-send-confirm-button = Надіслати
+compose-do-not-show-again = Більше не показувати це вікно.
+compose-empty-subject-title = Нагадування про тему
+compose-empty-subject-prompt = У вашого повідомлення немає теми.
+compose-empty-subject-send-button = &Надіслати без теми
+compose-empty-subject-cancel-button = &Скасувати відсилання
+compose-attachment-reminder-title = Нагадування про вкладення
+compose-attachment-reminder-prompt = Чи не забули ви додати вкладення?
+compose-attachment-reminder-send-button = Ні, надіслати
+compose-attachment-reminder-add-button = Ой, точно!
+compose-newsgroups-not-supported-title = Групи новин не підтримуються
+compose-newsgroups-not-supported = Цей обліковий запис підтримує лише отримувачів електронної пошти. Повідомлення до груп новин не надсилатимуться.
+compose-invalid-address-title = Недійсна адреса отримувача
+compose-no-recipients = Не вказано отримувача. Введіть отримувача або групу новин у полі адреси.
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } не є адресою електронної пошти, оскільки він написаний не у формі user@host. Ви повинні виправити його перед надсиланням електронної пошти.
+compose-quit-sending-title = Надсилання повідомлення
+compose-quit-saving-title = Збереження повідомлення
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } цієї миті в процесі надсилання повідомлення.
+    Бажаєте дочекатися поки повідомлення буде надіслано, чи вийти зараз?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    Зараз { $brand } зберігає повідомлення.
+    Бажаєте дочекатися збереження повідомлення, чи вийти зараз?
+compose-quit-button = &Вийти
+compose-wait-button = &Зачекати
+compose-attach-file-picker-title = Вкласти файл(и)
+compose-attach-page-title = Вкажіть розташування файлу, що вкладається
+compose-attach-page-prompt = Вебсторінка (URL):
+compose-message-part-attachment-name = Частина вкладеного повідомлення
+compose-attachment-bucket-attach-files-tooltip = Вкласти файл(и)
+compose-attachment-bucket-clear-selection-tooltip = Прибрати вибір
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = Файл { $filename } не існує і тому не може бути вкладений у повідомлення.
+compose-file-attachment-error-title = Вкладання файла
+compose-message-file-error-title = Файл повідомлення
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = Файл { $filename } не існує і не може бути використаний в якості повідомлення.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = Файл { $filename } не може бути завантажений в якості повідомлення.
+compose-save-success-title = Збереження повідомлення
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Ваше повідомлення збережено до теки { $folder } на { $server }.
+compose-rename-attachment-title = Перейменувати вкладення
+compose-rename-attachment-prompt = Нова назва вкладення:
+remind-later-button =
+    .label = Нагадати потім
+    .accesskey = п
+disable-attachment-reminder-menu-item =
+    .label = Вимкнути нагадування вкладення для цього повідомлення
+find-replace-button =
+    .label = Замінити…
+    .accesskey = З
+    .tooltiptext = Показати діалог пошуку й заміни
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Введіть власну адресу відправника, яка буде використовуватись замість { $identity }
+compose-custom-from-address-title = Налаштувати адресу відправника
+compose-custom-from-address-warning = Якщо ваш провайдер електронної пошти підтримує це, Налаштування адреси відправника дозволяє вам зробити альтернативну адресу відправника без необхідності створення нового облікового запису в Налаштуваннях. Наприклад, якщо ваша адреса відправника John Doe <john@example.com>, ви можете змінити її на John Doe <john+doe@example.com> або John <john@example.com>.
+compose-custom-from-address-ignore = Ніколи не сповіщати мене про це знову
+compose-blocked-content-options-button = Опції
+compose-blocked-content-options-accesskey = О
+compose-blocked-content-preferences-button = Налаштування
+compose-blocked-content-preferences-accesskey = л
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Розблокувати { $url }
+
 ## Send Format
 
 compose-send-format-menu =
@@ -69,6 +169,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Розгорнути список
     .accesskey = з
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = Вилучити адреси { $field }
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Ви дійсно хочете вилучити адреси { $field }?
+compose-remove-address-row-button = Вилучити
 
 ## Attachment widget
 
@@ -437,6 +544,34 @@ cloud-file-account-error-title = Помилка облікового запис�
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Не вдалося оновити вкладення Filelink { $filename }, оскільки його обліковий запис Filelink було видалено.
+cloud-file-authentication-error-title = Помилка автентифікації
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Не вдалося виконати автентифікацію на { $provider }.
+cloud-file-upload-error-title = Помилка завантаження
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Не вдалося вивантажити { $filename } на { $provider }.
+cloud-file-quota-error-title = Помилка доступного простору
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Вивантаження { $filename } на { $provider } може перевищити ваш доступний простір.
+cloud-file-size-error-title = Помилка розміру файлу
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } перевищує максимальний розмір для { $provider }.
+cloud-file-unknown-error-title = Невідома помилка
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Сталася невідома помилка під час зв'язку з { $provider }.
+cloud-file-deletion-error-title = Помилка при видаленні
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Виникла проблема під час видалення { $filename } з { $provider }.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
@@ -453,6 +588,33 @@ big-file-notification-text =
         [few] Це великі файли. Можливо, краще використати натомість Filelink.
        *[many] Це великі файли. Можливо, краще використати натомість Filelink.
     }
+big-file-learn-more-button =
+    .label = Докладніше…
+    .accesskey = к
+big-file-link-button =
+    .label = Посилання
+    .accesskey = П
+big-file-ignore-button =
+    .label = Ігнорувати
+    .accesskey = І
+big-file-choose-account-title = Вибрати обліковий запис
+big-file-choose-account-prompt = Оберіть обліковий запис хмарного сховища для завантаження вкладення
+big-file-hide-notification-title = Не завантажувати мої файли
+big-file-hide-notification-prompt = Ви отримаєте сповіщення, якщо вкладете більше великих файлів у це повідомлення.
+big-file-hide-notification-checkbox = Ніколи не сповіщати мене про це знову.
+cloudfile-uploading-stop-button =
+    .label = Ніколи не показувати це знову
+    .accesskey = Н
+cloud-file-privacy-warning = Пов'язання завершено. Будь ласка, зверніть увагу, що пов'язані вкладення можуть бути доступні людям, які можуть побачити або вгадати посилання.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Завантаження до { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Завантажено до { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Вкласти файл(и) за допомогою { $provider }
 
 ## Link Preview
 

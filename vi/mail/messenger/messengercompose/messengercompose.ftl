@@ -3,6 +3,106 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Compose alerts
+
+compose-message-cancelling = Đang hủy bỏ…
+compose-message-attachment-name = Thư được Đính kèm
+
+## Compose window
+
+compose-initialization-error-title = Soạn thư
+compose-initialization-error = Đã xảy ra lỗi khi tạo cửa sổ soạn thư. Vui lòng thử lại.
+compose-default-subject = (không tiêu đề)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Viết thư: { $subject } - { $brand }
+compose-save-message-title = Lưu Thư
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Lưu thư này vào thư mục nháp của bạn ({ $folder }) và đóng cửa sổ soạn thảo?
+compose-discard-changes-button = &Loại bỏ những thay đổi
+compose-send-confirm-title = Gửi thư
+compose-send-confirm-prompt = Bạn có chắc là bạn đã sẵn sàng gửi thư này không?
+compose-send-confirm-button = Gửi
+compose-do-not-show-again = Không hiện lại hộp thoại này.
+compose-empty-subject-title = Nhắc về Tiêu đề
+compose-empty-subject-prompt = Thư này chưa có tiêu đề.
+compose-empty-subject-send-button = &Gửi thư Không có Tiêu đề
+compose-empty-subject-cancel-button = &Hủy việc gửi
+compose-attachment-reminder-title = Nhắc nhở đính kèm
+compose-attachment-reminder-prompt = Bạn có quên thêm phần đính kèm?
+compose-attachment-reminder-send-button = Không, gửi ngay
+compose-attachment-reminder-add-button = Oh, tôi đã làm!
+compose-newsgroups-not-supported-title = Nhóm tin không được hỗ trợ
+compose-newsgroups-not-supported = Tài khoản này chỉ hỗ trợ người nhận email. Nếu tiếp tục thì sẽ bỏ qua nhóm tin.
+compose-invalid-address-title = Địa chỉ Người nhận Không hợp lệ
+compose-no-recipients = Không có người nhận nào được chỉ định. Vui lòng nhập người nhận hoặc nhóm tin vào khu vực địa chỉ.
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } không phải là một địa chỉ email hợp lệ vì nó không có dạng ngườidùng@tênmiền. Bạn phải sửa lại trước khi gửi e-mail.
+compose-quit-sending-title = Đang gửi thư
+compose-quit-saving-title = Đang lưu thư
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } hiện đang trong quá trình gửi thư.
+    Bạn có muốn đợi cho đến khi thư được gửi xong rồi mới thoát hay thoát ngay bây giờ?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } hiện đang trong quá trình lưu thư.
+    Bạn có muốn đợi cho đến khi thư được lưu xong rồi mới thoát hay thoát ngay bây giờ?
+compose-quit-button = &Thoát
+compose-wait-button = &Chờ đợi
+compose-attach-file-picker-title = Đính kèm Tập tin
+compose-attach-page-title = Vui lòng chọn địa chỉ để đính kèm
+compose-attach-page-prompt = Trang Web (URL):
+compose-message-part-attachment-name = Một phần Thư được Đính kèm
+compose-attachment-bucket-attach-files-tooltip = Đính kèm tập tin
+compose-attachment-bucket-clear-selection-tooltip = Xóa lựa chọn
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = Tập tin { $filename } không tồn tại nên không thể được đính kèm vào thư.
+compose-file-attachment-error-title = Đính kèm tập tin
+compose-message-file-error-title = Tập tin thư
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = Tập tin { $filename } không tồn tại và không thể được sử dụng làm nội dung thư.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = Không thể tải tập tin { $filename } dưới dạng nội dung thư.
+compose-save-success-title = Lưu thư
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Thư của bạn đã được lưu vào thư mục { $folder } dưới { $server }.
+compose-rename-attachment-title = Đổi tên đính kèm
+compose-rename-attachment-prompt = Tên phần đính kèm mới:
+remind-later-button =
+    .label = Nhắc tôi sau
+    .accesskey = L
+disable-attachment-reminder-menu-item =
+    .label = Vô hiệu hóa lời nhắc đính kèm cho thư hiện tại
+find-replace-button =
+    .label = Thay thế…
+    .accesskey = x
+    .tooltiptext = Hiển thị hộp thoại Tìm và thay thế
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Nhập tùy chỉnh địa chỉ Từ sẽ được sử dụng thay vì { $identity }
+compose-custom-from-address-title = Tùy chỉnh từ địa chỉ
+compose-custom-from-address-warning = Nếu nhà cung cấp e-mail của bạn hỗ trợ nó, Tùy chỉnh từ địa chỉ cho phép bạn thực hiện một thay đổi nhỏ đối với địa chỉ Từ của bạn mà không cần phải tạo danh tính mới trong Cài đặt tài khoản. Ví dụ: nếu địa chỉ người gửi của bạn là John Doe <john@example.com>, bạn có thể muốn thay đổi địa chỉ này thành John Doe <john+doe@example.com> hoặc John <john@example.com>.
+compose-custom-from-address-ignore = Không bao giờ thông báo tôi về điều này lần nữa
+compose-blocked-content-options-button = Tùy chọn
+compose-blocked-content-options-accesskey = O
+compose-blocked-content-preferences-button = Tùy chỉnh
+compose-blocked-content-preferences-accesskey = P
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Bỏ chặn { $url }
+
 ## Send Format
 
 compose-send-format-menu =
@@ -65,6 +165,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Mở rộng danh sách
     .accesskey = x
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = Xóa địa chỉ { $field }
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Bạn có chắc chắn muốn xóa địa chỉ { $field } không?
+compose-remove-address-row-button = Xóa
 
 ## Attachment widget
 
@@ -386,12 +493,67 @@ cloud-file-account-error-title = Lỗi tài khoản Filelink
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Không cập nhật được đính kèm Filelink { $filename } vì tài khoản Filelink của nó đã bị xóa.
+cloud-file-authentication-error-title = Lỗi khi xác thực
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Không thể xác thực với { $provider }.
+cloud-file-upload-error-title = Lỗi khi tải lên
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Không thể tải { $filename } lên { $provider }.
+cloud-file-quota-error-title = Lỗi hạn mức
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Tải lên { $filename } lên { $provider } sẽ vượt quá dung lượng không gian trống của bạn.
+cloud-file-size-error-title = Lỗi kích thước tập tin
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } vượt quá kích thước tối đa cho { $provider }.
+cloud-file-unknown-error-title = Lỗi không xác định
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Đã xảy ra lỗi không xác định khi giao tiếp với { $provider }.
+cloud-file-deletion-error-title = Lỗi khi xóa
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Đã xảy ra sự cố khi xóa { $filename } khỏi { $provider }.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification = Tập tin của bạn đang được liên kết. Nó sẽ xuất hiện trong phần nội dung thư khi hoàn tất.
 # Variables:
 #   $count - the number big attached files
 big-file-notification-text = Đây là những tập tin lớn. Có thể tốt hơn nếu sử dụng Filelink.
+big-file-learn-more-button =
+    .label = Tìm hiểu thêm…
+    .accesskey = m
+big-file-link-button =
+    .label = Liên kết
+    .accesskey = l
+big-file-ignore-button =
+    .label = Bỏ qua
+    .accesskey = i
+big-file-choose-account-title = Chọn tài khoản
+big-file-choose-account-prompt = Chọn một tài khoản đám mây để tải tệp đính kèm lên
+big-file-hide-notification-title = Không tải lên tập tin của tôi
+big-file-hide-notification-prompt = Bạn sẽ không được thông báo nếu bạn đính kèm nhiều tệp lớn hơn vào thư này.
+big-file-hide-notification-checkbox = Không bao giờ thông báo tôi về điều này lần nữa.
+cloudfile-uploading-stop-button =
+    .label = Đừng hiển thị lại điều này
+    .accesskey = N
+cloud-file-privacy-warning = Liên kết đã hoàn tất. Xin lưu ý rằng những người có thể xem hoặc đoán các liên kết có thể truy cập được các đính kèm được liên kết.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Đang tải lên vào { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Đã tải lên vào { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Đính kèm tập tin qua { $provider }
 
 ## Link Preview
 

@@ -3,6 +3,106 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Compose alerts
+
+compose-message-cancelling = უქმდება…
+compose-message-attachment-name = დართული წერილი
+
+## Compose window
+
+compose-initialization-error-title = წერილის შედგენა
+compose-initialization-error = შეცდომა წერილის შექმნის სარკმლის გახსნისას. სცადეთ ხელახლა.
+compose-default-subject = (თემის გარეშე)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = მიწერა: { $subject }-{ $brand }
+compose-save-message-title = წერილის შენახვა
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = ნამდვილად გსურთ, წერილის შენახვა, წინასწარი ნამუშევრების საქაღალდეში ({ $folder }) და წერილის შესაქმნელი ფანჯრის დახურვა?
+compose-discard-changes-button = &შენახვის გარეშე
+compose-send-confirm-title = წერილის გაგზავნა
+compose-send-confirm-prompt = მზად ხართ წერილის გასაგზავნად?
+compose-send-confirm-button = გაგზავნა
+compose-do-not-show-again = აღარ მიჩვენო ეს დიალოგური ფანჯარა.
+compose-empty-subject-title = თემის შეხსენება
+compose-empty-subject-prompt = თქვენი წერილი თემის გარეშეა.
+compose-empty-subject-send-button = &დატოვება თემის გარეშე
+compose-empty-subject-cancel-button = გაგზავნის გაუ&ქმება
+compose-attachment-reminder-title = დანართის შეხსენება
+compose-attachment-reminder-prompt = დანართის დამატება ხომ არ დაგავიწყდათ?
+compose-attachment-reminder-send-button = არა, გაიგზავნოს
+compose-attachment-reminder-add-button = უი, მართლა!
+compose-newsgroups-not-supported-title = სასაუბრო ჯგუფები მხარდაუჭერელია
+compose-newsgroups-not-supported = ეს ანგარიში მხოლოდ ელფოსტის მიმღებთათვისაა. გაგრძელების შემთხვევაში სასაუბრო ჯგუფები უგულებელყოფილი იქნება.
+compose-invalid-address-title = მიმღების მისამართი უმართებულოა
+compose-no-recipients = მიმღები არაა მითითებული. გთხოვთ, მიუთითოთ მიმღები, ან სასაუბრო ჯგუფი მისამართების ველში.
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } ელფოსტის უმართებულო მისამართია, რადგან იგი არაა user@host ფორმის. უნდა შეასწოროთ ფოსტის გაგზავნამდე.
+compose-quit-sending-title = წერილი იგზავნება
+compose-quit-saving-title = წერილი ინახება
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } ამჟამად წერილის აგზავნის.
+    დაველოდო დასრულებას თუ დაუყოვნებლივ დავასრულო სეანსი?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } ამჟამად წერილს ინახავს.
+    გსურთ, დაელოდოთ წერილის შენახვას დახურვამდე, თუ ახლავე გსურთ დახურვა?
+compose-quit-button = &დასრულება
+compose-wait-button = და&ცდა
+compose-attach-file-picker-title = ფაილ(ებ)ის მიმაგრება
+compose-attach-page-title = მიმაგრებული ფაილის მისამართის მითითება
+compose-attach-page-prompt = ვებგვერდის მისამართი(URL):
+compose-message-part-attachment-name = დართული წერილის ნაწილი
+compose-attachment-bucket-attach-files-tooltip = ფაილ(ებ)ის მიმაგრება
+compose-attachment-bucket-clear-selection-tooltip = არჩევანის გაუქმება
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = ფაილი { $filename } ვერ მოიძებნა.
+compose-file-attachment-error-title = File Attach
+compose-message-file-error-title = შეტყობინების ფაილი
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = ფაილი { $filename } ვერ მოიძებნა და შესაბამისად, წერილის შიგთავსად ვერ გამოდგება.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = ფაილი { $filename } ვერ ჩაიტვირთა წერილის შიგთავსად.
+compose-save-success-title = წერილის შენახვა
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = წერილი შენახულია { $folder } საქაღალდეში აქ { $server }.
+compose-rename-attachment-title = დანართის გადარქმევა
+compose-rename-attachment-prompt = ახალი დანართის სახელი:
+remind-later-button =
+    .label = მოგვიანებით შეხსენება
+    .accesskey = მ
+disable-attachment-reminder-menu-item =
+    .label = დანართის შესახებ შეხსენების გამორთვა ამ შეტყობინებაზე
+find-replace-button =
+    .label = ჩანაცვლება…
+    .accesskey = ა
+    .tooltiptext = პოვნისა და ჩანაცვლების სარკმლის ჩვენება
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = შეიყვანეთ სასურველი მისამართი, { $identity }-ის ნაცვლად გამოსაყენებლად
+compose-custom-from-address-title = გამგზავნის მისამართის პარამეტრები
+compose-custom-from-address-warning = თუ თქვენი ელფოსტის მომსახურების მომწოდებელი გთავაზობთ ამგვარ შესაძლებლობას, გამგზავნის მისამართის მცირე ცვლილება შეგიძლიათ ყოველ ჯერზე, ანგარიშზე ახალი ვინაობის დაუმატებლად. მაგალითად, თუ თქვენი მისამართია გიორგი ბერიძე <giorgi@misamarti.com> შეგიძლიათ შეანაცვლოთ გიორგი ბერიძე <giorgi+beridze@misamarti.com> და გიორგი <giorgi@misamarti.com>.
+compose-custom-from-address-ignore = მომავალში, შეტყობინების გარეშე
+compose-blocked-content-options-button = პარამეტრები
+compose-blocked-content-options-accesskey = პ
+compose-blocked-content-preferences-button = პარამეტრები
+compose-blocked-content-preferences-accesskey = რ
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = { $url } - შეზღუდვის მოხსნა
+
 ## Send Format
 
 compose-send-format-menu =
@@ -67,6 +167,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = ჩამონათვალის გაშლა
     .accesskey = ვ
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = { $field } მისამართის მოცილება
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = ნამდვილად გსურთ, მოცილდეს { $field } მისამართი?
+compose-remove-address-row-button = მოცილება
 
 ## Attachment widget
 
@@ -419,6 +526,34 @@ cloud-file-account-error-title = Filelink-ანგარიშის შეც�
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Filelink-დანართი { $filename } ვერ განახლდა, ვინაიდან Filelink-ანგარიში წაშლილია.
+cloud-file-authentication-error-title = შეცდომა აუთენტიფიკაციისას
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = ვერ ხერხდება აუთენტიფიკაცია საცავში { $provider }.
+cloud-file-upload-error-title = შეცდომა ატვირთვისას
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = ვერ აიტვირთა { $filename } საცავში { $provider }.
+cloud-file-quota-error-title = ზღვრის შეცდომა
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = { $filename } ფაილის ატვირთვა { $provider } საცავში გადააჭარბებს ზღვარს.
+cloud-file-size-error-title = ფაილის ზომის შეცდომა
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = ფაილის { $filename } ზომა აღემატება მაქსიმალურ დასაშვებს საცავისთვის { $provider }.
+cloud-file-unknown-error-title = გაუთვალისწინებელი შეცდომა
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = გაუთვალისწინებელი შეცდომა საცავთან { $provider } დაკავშირებისას.
+cloud-file-deletion-error-title = შეცდომა წაშლისას
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = შეცდომა ფაილის { $filename } წაშლისას საცავში { $provider }.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
@@ -433,6 +568,33 @@ big-file-notification-text =
         [one] ეს ფაილი დიდი ზომისა. შესაძლოა მის ნაცვლად ფაილის ბმულის გამოყენება სჯობდეს.
        *[other] ეს ფაილები დიდი ზომისაა. შესაძლოა მათ ნაცვლად ბმულების გამოყენება სჯობდეს.
     }
+big-file-learn-more-button =
+    .label = ვრცლად…
+    .accesskey = ვ
+big-file-link-button =
+    .label = ბმული
+    .accesskey = ლ
+big-file-ignore-button =
+    .label = უგულებელყოფა
+    .accesskey = უ
+big-file-choose-account-title = ანგარიშის შერჩევა
+big-file-choose-account-prompt = შეარჩიეთ ღრუბლოვანი ანგარიში, დანართების ასატვირთად
+big-file-hide-notification-title = ფაილების ატვირთვის გარეშე
+big-file-hide-notification-prompt = შეტყობინებას აღარ მიიღებთ ამ წერილზე დიდი ფაილების თანდართვისას.
+big-file-hide-notification-checkbox = მომავალში, შეტყობინების გარეშე.
+cloudfile-uploading-stop-button =
+    .label = აღარ მიჩვენო მომავალში
+    .accesskey = ღ
+cloud-file-privacy-warning = ბმულის შექმნა დასრულდა. გაითვალისწინეთ, რომ მიბმული დანართები ხელმისაწვდომია მათთვის, ვისაც ამ ბმულების ნახვა, ან ამოცნობა შეუძლია.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = ატვირთვა - { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = აიტვირთა - { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = ფაილების თანდართვა: { $provider }
 
 ## Link Preview
 

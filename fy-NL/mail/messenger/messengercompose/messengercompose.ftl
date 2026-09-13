@@ -3,6 +3,106 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Compose alerts
+
+compose-message-cancelling = Annulearje…
+compose-message-attachment-name = Keppele berjocht
+
+## Compose window
+
+compose-initialization-error-title = Berjochten opstelle
+compose-initialization-error = Der is in flater bard by it meitsjen fan it berjochtopstelfinster. Probearje it opnij.
+compose-default-subject = (gjin ûnderwerp)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Skriuw: { $subject } - { $brand }
+compose-save-message-title = Berjocht bewarje
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Dit berjocht bewarje yn jo konseptmap ({ $folder }) en it opstelfinster slute?
+compose-discard-changes-button = &Wizigingen ferwerpe
+compose-send-confirm-title = Berjocht ferstjoere
+compose-send-confirm-prompt = Binne jo der wis fan dat jo dit berjocht ferstjoere wolle?
+compose-send-confirm-button = Ferstjoere
+compose-do-not-show-again = Dit dialoochfinster net mear toane.
+compose-empty-subject-title = Underwerpwerinnering
+compose-empty-subject-prompt = Jo berjocht hat gjin ûnderwerp.
+compose-empty-subject-send-button = &Ferstjoere sûnder ûnderwerp
+compose-empty-subject-cancel-button = Ferstjoeren &annulearje
+compose-attachment-reminder-title = Bylagewerinnering
+compose-attachment-reminder-prompt = Hawwe jo fergetten om in bylage ta te foegjen?
+compose-attachment-reminder-send-button = Nee, ferstjoer mar
+compose-attachment-reminder-add-button = Oh, ja wis!
+compose-newsgroups-not-supported-title = Nijsgroepen net stipe
+compose-newsgroups-not-supported = Dizze account stipet allinnich e-mailûntfangers. Trochgean sil nijsgroepen negearje.
+compose-invalid-address-title = Ferkeard ûntfangersadres
+compose-no-recipients = Der binne gjin ûntfangers opjûn. Fier in ûntfanger of nijsgroep yn yn it adressearringsgebiet.
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } is gjin jildich e-mailadres, omdat it net de foarm brûker@host hat. Jo moatte dit ferbetterje foardat jo de e-mail ferstjoere.
+compose-quit-sending-title = Berjocht wurdt ferstjoerd
+compose-quit-saving-title = Berjocht wurdt bewarre
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } is op dit stuit dwaande mei it ferstjoeren fan in berjocht.
+    Wolle jo wachtsje oant it berjocht ferstjoerd is foardat jo ôfslute of no ôfslute?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } is op dit stuit dwaande mei it bewarjen fan in berjocht.
+    Wolle jo wachtsje oant it berjocht bewarre is eardat jo ôfslút, of no ôfslute?
+compose-quit-button = &Ofslute
+compose-wait-button = &Wachtsje
+compose-attach-file-picker-title = Bestân(nen) keppelje
+compose-attach-page-title = Jou in lokaasje op om te keppeljen
+compose-attach-page-prompt = Webside (URL):
+compose-message-part-attachment-name = Keppele berjochtgedielte
+compose-attachment-bucket-attach-files-tooltip = Bestân(nen) keppelje
+compose-attachment-bucket-clear-selection-tooltip = Seleksje wiskje
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = It bestân { $filename } bestiet net dus koe net taheakke wurde oan it berjocht.
+compose-file-attachment-error-title = Bestân taheakje
+compose-message-file-error-title = Berjochtbestân
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = It bestân { $filename } bestiet net dus koe net brûkt wurde as berjochtkearn.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = It bestân { $filename } koe net laden wurde as berjochtkearn.
+compose-save-success-title = Berjocht bewarje
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Jo berjocht is bewarre yn de map { $folder } fan { $server }.
+compose-rename-attachment-title = Bylage omneame
+compose-rename-attachment-prompt = Nije bylagenamme:
+remind-later-button =
+    .label = Werinnerje my letter
+    .accesskey = W
+disable-attachment-reminder-menu-item =
+    .label = Omtinken foar bylage foar aktuele berjocht útskeakelje
+find-replace-button =
+    .label = Ferfange…
+    .accesskey = f
+    .tooltiptext = It dialoochfinster Sykje en ferfange toane
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Fier oanpast Fan-adres yn dat brûkt wurdt yn stee fan { $identity }
+compose-custom-from-address-title = Fan-adres oanpasse
+compose-custom-from-address-warning = As jo e-mailprovider dat tastiet, kinne jo mei Fan-adres oanpasse in ienmalige lytse wiziging oan jo Fan-adres meitsje sûnder dat jo in nije identiteit yn Accountynstellingen hoege oan te meitsjen. As jo Fan-adres bygelyks John Doe <john@example.com> is, wolle jo dit miskien wizigje yn John Doe <john+doe@example.com> of John <john@example.com>.
+compose-custom-from-address-ignore = My hjirfoar nea mear warskôgje
+compose-blocked-content-options-button = Opsjes
+compose-blocked-content-options-accesskey = O
+compose-blocked-content-preferences-button = Foarkarren
+compose-blocked-content-preferences-accesskey = F
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = { $url } deblokkearje
+
 ## Send Format
 
 compose-send-format-menu =
@@ -67,6 +167,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = List útklappe
     .accesskey = k
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = { $field }-adressen fuortsmite
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Binne jo wis dat jo { $field }-adressen fuortsmite wolle?
+compose-remove-address-row-button = Fuortsmite
 
 ## Attachment widget
 
@@ -424,6 +531,34 @@ cloud-file-account-error-title = Filelink-accountflater
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Kin de Filelink-bylage { $filename } net bywurkje, omdat it de Filelink-account fuortsmiten is.
+cloud-file-authentication-error-title = Autentikaasjeflater
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Net slagge om te autentisearjen by { $provider }.
+cloud-file-upload-error-title = Oplaadflater
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Net slagge om { $filename } op te laden nei { $provider }.
+cloud-file-quota-error-title = Kwotaflater
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = { $filename } oplade nei { $provider } giet oer jo romtekwota.
+cloud-file-size-error-title = Bestânsgrutteflater
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } oerskriuwt de maksimale grutte by { $provider }.
+cloud-file-unknown-error-title = Unbekende flater
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Der is in ûnbekende flater bard by it kommunisearjen mei { $provider }.
+cloud-file-deletion-error-title = Fuortsmytflater
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Der is in probleem by it fuortsmiten fan { $filename } by { $provider }.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
@@ -438,6 +573,33 @@ big-file-notification-text =
         [one] Dit is in grut bestân. It is miskien better om Filelink te brûken.
        *[other] Dit binne grutte bestannen. It is miskien better om Filelink te brûken.
     }
+big-file-learn-more-button =
+    .label = Mear ynfo…
+    .accesskey = M
+big-file-link-button =
+    .label = Keppeling
+    .accesskey = K
+big-file-ignore-button =
+    .label = Negearje
+    .accesskey = N
+big-file-choose-account-title = Account kieze
+big-file-choose-account-prompt = Kies in cloud-account foar it opladen fan de bylage
+big-file-hide-notification-title = Myn bestannen net oplade
+big-file-hide-notification-prompt = Jo wurde net warskôge as noch mear grutte bestannen oan dit berjocht keppele wurde.
+big-file-hide-notification-checkbox = Warskôgje my nea wer.
+cloudfile-uploading-stop-button =
+    .label = Nea wer toane
+    .accesskey = N
+cloud-file-privacy-warning = Keppeljen is klear. Wês wis dat keppele bylagen tagonklik binne foar minsken dy’t de keppelingen sjogge of riede.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Oplade nei { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Opladen nei { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Bestân(nen) keppelje fia { $provider }
 
 ## Link Preview
 

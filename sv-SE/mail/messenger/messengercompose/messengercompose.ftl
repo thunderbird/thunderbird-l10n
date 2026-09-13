@@ -3,6 +3,106 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Compose alerts
+
+compose-message-cancelling = Avbryter…
+compose-message-attachment-name = Bifogat meddelande
+
+## Compose window
+
+compose-initialization-error-title = Bifogningsfönstret
+compose-initialization-error = Ett fel inträffade när ett nytt fönster för att skriva meddelande i skulle öppnas. Försök gärna igen.
+compose-default-subject = (ämne saknas)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Skriv: { $subject } - { $brand }
+compose-save-message-title = Spara meddelande
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Spara det här meddelandet till mappen utkast ({ $folder }) och stäng skrivfönstret?
+compose-discard-changes-button = I&gnorera ändringar
+compose-send-confirm-title = Skicka meddelande
+compose-send-confirm-prompt = Är du säker på att du är klar att skicka detta meddelande?
+compose-send-confirm-button = Skicka
+compose-do-not-show-again = Visa inte denna dialogruta igen.
+compose-empty-subject-title = Ämnespåminnelse
+compose-empty-subject-prompt = Ditt meddelande har inget angivet ämne.
+compose-empty-subject-send-button = &Sänd utan ämne
+compose-empty-subject-cancel-button = &Avbryt sändandet
+compose-attachment-reminder-title = Påminnelse om bilaga
+compose-attachment-reminder-prompt = Glömde du att lägga till en bilaga?
+compose-attachment-reminder-send-button = Nej, skicka nu
+compose-attachment-reminder-add-button = Javisst ja!
+compose-newsgroups-not-supported-title = Diskussionsgrupper stöds inte
+compose-newsgroups-not-supported = Det här kontot stöder endast e-postmottagare. Om du fortsätter kommer diskussionsgrupperna att ignoreras.
+compose-invalid-address-title = Ogiltig mottagaradress
+compose-no-recipients = Det finns inga mottagare angivna. Fyll i mottagare eller namnet på en diskussionsgrupp i adressfältet.
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } är inte en giltig e-postadress eftersom den inte har formen användare@värd. Du måste rätta till detta innan du kan skicka meddelandet.
+compose-quit-sending-title = Meddelande skickas
+compose-quit-saving-title = Meddelande sparas
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } håller på att skicka ett meddelande.
+    Vill du vänta tills meddelandet har skickats innan du avslutar, eller vill du avsluta nu?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } håller på att spara ett meddelande.
+    Vill du vänta tills meddelandet har sparats innan du avslutar, eller vill du avsluta nu?
+compose-quit-button = &Avsluta
+compose-wait-button = &Vänta
+compose-attach-file-picker-title = Bifoga fil(er)
+compose-attach-page-title = Ange en webbplats att bifoga
+compose-attach-page-prompt = Webbplats (URL):
+compose-message-part-attachment-name = Bifogad meddelandedel
+compose-attachment-bucket-attach-files-tooltip = Bifoga fil(er)
+compose-attachment-bucket-clear-selection-tooltip = Rensa markering
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = Filen { $filename } finns inte och kan inte bifogas till meddelandet.
+compose-file-attachment-error-title = Bifoga fil
+compose-message-file-error-title = Meddelandefil
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = Filen { $filename } existerar inte och kan inte användas som meddelandetext.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = Filen { $filename } kunde inte läsas som meddelandetext.
+compose-save-success-title = Spara meddelande
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Meddelandet har sparats i mappen { $folder } på { $server }.
+compose-rename-attachment-title = Byt namn på bilaga
+compose-rename-attachment-prompt = Nytt namn på bilagan:
+remind-later-button =
+    .label = Påminn mig senare
+    .accesskey = P
+disable-attachment-reminder-menu-item =
+    .label = Inaktivera påminnelse om bilaga i aktuellt meddelande
+find-replace-button =
+    .label = Ersätt…
+    .accesskey = E
+    .tooltiptext = Visa Fönstret Sök och ersätt
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Ange anpassad från adress som ska användas i stället för { $identity }
+compose-custom-from-address-title = Anpassa från adress
+compose-custom-from-address-warning = Om din e-postleverantör stöder detta, anpassa från adress kan du göra enstaka mindre ändringar i din från adress utan att behöva skapa en ny identitet i Kontoinställningar. Till exempel, om din adress är John Doe <john@example.com> kan du ändra den till John Doe <john+doe@example.com> eller John <john@example.com>.
+compose-custom-from-address-ignore = Meddela mig aldrig om detta igen
+compose-blocked-content-options-button = Inställningar
+compose-blocked-content-options-accesskey = n
+compose-blocked-content-preferences-button = Inställningar
+compose-blocked-content-preferences-accesskey = n
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Avblockera { $url }
+
 ## Send Format
 
 compose-send-format-menu =
@@ -67,6 +167,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Expandera lista
     .accesskey = x
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = Ta bort { $field } adresser
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Är du säker på att du vill ta bort { $field }-adresserna?
+compose-remove-address-row-button = Ta bort
 
 ## Attachment widget
 
@@ -423,6 +530,34 @@ cloud-file-account-error-title = Fillänkskontofel
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Det gick inte att uppdatera fillänksbilagan { $filename }, eftersom dess fillänkskonto har tagits bort.
+cloud-file-authentication-error-title = Autentiseringsfel
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = Kan inte autentisera till { $provider }.
+cloud-file-upload-error-title = Överföringsfel
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = Kan inte överföra { $filename } till { $provider }.
+cloud-file-quota-error-title = Quota-fel
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Överföra { $filename } till { $provider } skulle överstiga din utrymmeskvot.
+cloud-file-size-error-title = Filstorleksfel
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } överskrider den maximala storleken för { $provider }.
+cloud-file-unknown-error-title = Okänt fel
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Ett okänt fel inträffade när du kommunicerade med { $provider }.
+cloud-file-deletion-error-title = Borttagningsfel
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Det inträffade ett problem vid borttagning av { $filename } från { $provider }.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
@@ -437,6 +572,33 @@ big-file-notification-text =
         [one] Det här är en stor fil. Det kan vara bättre att använda Filelink istället.
        *[other] Det här är stora filer. Det kan vara bättre att använda Filelink istället.
     }
+big-file-learn-more-button =
+    .label = Läs mer…
+    .accesskey = m
+big-file-link-button =
+    .label = Länk
+    .accesskey = l
+big-file-ignore-button =
+    .label = Ignorera
+    .accesskey = i
+big-file-choose-account-title = Välj konto
+big-file-choose-account-prompt = Välj ett konto för att överföra bilagan till
+big-file-hide-notification-title = Överför inte mina filer
+big-file-hide-notification-prompt = Du kommer inte att meddelas om du bifogar fler stora filer till detta meddelande.
+big-file-hide-notification-checkbox = Meddela mig aldrig om detta igen.
+cloudfile-uploading-stop-button =
+    .label = Visa aldrig detta igen
+    .accesskey = V
+cloud-file-privacy-warning = Länkning är klar. Observera att länkade bilagor kan vara tillgängliga för personer som kan se eller gissa länkarna.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Överför till { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Överförd till { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Bifoga fil(er) via { $provider }
 
 ## Link Preview
 

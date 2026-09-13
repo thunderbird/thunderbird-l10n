@@ -3,6 +3,106 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Compose alerts
+
+compose-message-cancelling = Abbrechen…
+compose-message-attachment-name = Nachricht als Anhang
+
+## Compose window
+
+compose-initialization-error-title = Nachricht verfassen
+compose-initialization-error = Ein Fehler trat beim Öffnen eines Fensters zum Verfassen von Nachrichten auf. Bitte versuchen Sie es nochmals.
+compose-default-subject = (kein Betreff)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Verfassen: { $subject } - { $brand }
+compose-save-message-title = Nachricht speichern
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Nachricht im Entwurfsordner ({ $folder }) speichern und Verfassen-Fenster schließen?
+compose-discard-changes-button = Änderungen &verwerfen
+compose-send-confirm-title = Nachricht senden
+compose-send-confirm-prompt = Sind Sie sicher, dass Sie bereit sind, diese Nachricht zu senden?
+compose-send-confirm-button = Senden
+compose-do-not-show-again = Dieses Dialogfenster nicht mehr anzeigen
+compose-empty-subject-title = Betreff-Erinnerung
+compose-empty-subject-prompt = Ihre Nachricht hat keinen Betreff.
+compose-empty-subject-send-button = &Ohne Betreff senden
+compose-empty-subject-cancel-button = &Nicht senden
+compose-attachment-reminder-title = Anhang-Erinnerung
+compose-attachment-reminder-prompt = Haben Sie vergessen einen Anhang anzufügen?
+compose-attachment-reminder-send-button = Nein, jetzt senden
+compose-attachment-reminder-add-button = Ja, habe ich!
+compose-newsgroups-not-supported-title = Newsgruppen werden nicht unterstützt
+compose-newsgroups-not-supported = Dieses Konto unterstützt nur E-Mail-Empfänger. Newsgruppen werden ignoriert.
+compose-invalid-address-title = Ungültige Empfängeradresse
+compose-no-recipients = Kein Empfänger angegeben. Bitte geben Sie einen Empfänger oder eine Newsgruppe im Adressfeld an.
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } ist keine gültige E-Mail-Adresse, weil sie nicht dem Format "user@host" entspricht. Sie müssen sie korrigieren, bevor Sie die E-Mail versenden.
+compose-quit-sending-title = Nachricht wird gesendet
+compose-quit-saving-title = Nachricht wird gespeichert
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } sendet gerade eine Nachricht.
+    Wollen Sie vor dem Beenden warten, bis die Nachricht gesendet wurde, oder jetzt beenden?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } speichert gerade eine Nachricht ab.
+    Soll gewartet werden, bis die Nachricht gespeichert wurde, oder sofort beendet werden?
+compose-quit-button = &Beenden
+compose-wait-button = &Warten
+compose-attach-file-picker-title = Datei(en) als Anhang anfügen
+compose-attach-page-title = Bitte geben Sie die Adresse ein
+compose-attach-page-prompt = Webseite (URL):
+compose-message-part-attachment-name = Nachrichtenteil als Anhang
+compose-attachment-bucket-attach-files-tooltip = Datei(en) als Anhang anfügen
+compose-attachment-bucket-clear-selection-tooltip = Auswahl entfernen
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = Die Datei { $filename } existiert nicht, deshalb kann sie nicht an die Nachricht angehängt werden.
+compose-file-attachment-error-title = Anhängen einer Datei
+compose-message-file-error-title = Nachrichtendatei
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = Die Datei { $filename } existiert nicht und konnte daher nicht als Nachrichtentext verwendet werden.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = Die Datei { $filename } konnte nicht als Nachrichtentext geladen werden.
+compose-save-success-title = Nachricht speichern
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Ihre Nachricht wurde im Ordner { $folder } unter { $server } gespeichert.
+compose-rename-attachment-title = Anhang umbenennen
+compose-rename-attachment-prompt = Neuer Name des Anhangs:
+remind-later-button =
+    .label = Mich später erinnern
+    .accesskey = M
+disable-attachment-reminder-menu-item =
+    .label = Anhang-Erinnerung für diese Nachricht deaktivieren
+find-replace-button =
+    .label = Ersetzen…
+    .accesskey = z
+    .tooltiptext = Dialog "Suchen und Ersetzen" öffnen
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Benutzerdefinierte Absenderadresse anstatt von { $identity } eingeben
+compose-custom-from-address-title = Absenderadresse ändern
+compose-custom-from-address-warning = Falls Ihr E-Mail-Anbieter dies unterstützt, so können Sie für den Versand eine andere Absenderadresse verwenden, indem Sie diese ändern, ohne die Konten-Einstellungen aufzurufen. Ist Ihre Absenderadresse z.B. Marlene Mustermann <marlene@example.com>, so könnten Sie diese z.B. in Marlene Mustermann <marlene+mustermann@example.com> oder Marlene <marlene@example.com> ändern.
+compose-custom-from-address-ignore = Nicht mehr darauf hinweisen
+compose-blocked-content-options-button = Optionen
+compose-blocked-content-options-accesskey = g
+compose-blocked-content-preferences-button = Einstellungen
+compose-blocked-content-preferences-accesskey = g
+# Variables:
+# $url - URL of the blocked resource
+compose-unblock-resource =
+    .label = Blockierung beenden von { $url }
+
 ## Send Format
 
 compose-send-format-menu =
@@ -67,6 +167,13 @@ pill-action-move-bcc =
 pill-action-expand-list =
     .label = Liste durch ihre Kontakte ersetzen
     .accesskey = z
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-title = { $field }-Adressen entfernen
+# Variables:
+# $field - name of the addressing field being removed
+compose-remove-address-row-prompt = Sollen die { $field }-Adressen wirklich entfernt werden?
+compose-remove-address-row-button = Entfernen
 
 ## Attachment widget
 
@@ -420,6 +527,34 @@ cloud-file-account-error-title = Filelink - Kontenfehler
 # Variables:
 # $filename (string) - name of the file that was renamed and caused the error
 cloud-file-account-error = Fehler beim Hochladen des Filelink-Anhangs { $filename }, da das Filelink-Konto gelöscht wurde.
+cloud-file-authentication-error-title = Authentifizierungsfehler
+# Variables:
+# $provider - name of the online storage service
+cloud-file-authentication-error = { $provider } kann nicht authentifiziert werden.
+cloud-file-upload-error-title = Fehler beim Hochladen
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that failed to upload
+cloud-file-upload-error = { $filename } kann nicht zu { $provider } hochgeladen werden.
+cloud-file-quota-error-title = Fehler beim Speicherkontingent
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the quota
+cloud-file-quota-error = Das Hochladen von { $filename } zu { $provider } würde Ihr Speicherkontingent überschreiten.
+cloud-file-size-error-title = Fehler bei der Dateigröße
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that exceeded the size limit
+cloud-file-size-error = { $filename } überschreitet die maximale Dateigröße für { $provider }.
+cloud-file-unknown-error-title = Unbekannter Fehler
+# Variables:
+# $provider - name of the online storage service
+cloud-file-unknown-error = Beim Datenaustausch mit { $provider } trat ein unbekannter Fehler auf.
+cloud-file-deletion-error-title = Fehler beim Löschen
+# Variables:
+# $provider - name of the online storage service
+# $filename - name of the file that could not be deleted
+cloud-file-deletion-error = Beim Löschen von { $filename } auf { $provider } trat ein Fehler auf.
 # Variables:
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
@@ -434,6 +569,33 @@ big-file-notification-text =
         [one] Dies ist eine große Datei. Es könnte empfehlenswert sein, Filelink für sie zu benutzen.
        *[other] Dies sind große Dateien. Es könnte empfehlenswert sein, Filelink für sie zu benutzen.
     }
+big-file-learn-more-button =
+    .label = Weitere Informationen…
+    .accesskey = W
+big-file-link-button =
+    .label = Filelink verwenden
+    .accesskey = F
+big-file-ignore-button =
+    .label = Ignorieren
+    .accesskey = g
+big-file-choose-account-title = Konto auswählen
+big-file-choose-account-prompt = Bitte wählen Sie das Konto, in das die Anhänge hochgeladen werden sollen:
+big-file-hide-notification-title = Dateien nicht mit Filelink hochladen
+big-file-hide-notification-prompt = Sie werden darauf hingewiesen, wenn Sie große Dateien an die Nachricht anhängen.
+big-file-hide-notification-checkbox = Diese Meldung nicht mehr anzeigen
+cloudfile-uploading-stop-button =
+    .label = Nicht mehr anzeigen
+    .accesskey = c
+cloud-file-privacy-warning = Das Verknüpfen ist abgeschlossen. Bitte beachten Sie, dass möglicherweise jeder, der den Link sehen oder erraten kann, auf die verknüpften Anhänge zugreifen kann.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Anhang wird auf { $provider } hochgeladen…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Hochgeladen zu { $provider }
+# Variables:
+# $provider - name of the online storage service
+cloud-file-attach-picker-title = Datei(en) anhängen mit { $provider }
 
 ## Link Preview
 
