@@ -10,6 +10,62 @@ compose-message-attachment-name = Message annexate
 
 ## Compose window
 
+compose-initialization-error-title = Redaction del message
+compose-initialization-error = Un error occurreva durante le creation de un fenestra de composition de messages. Retenta.
+compose-send-confirm-title = Inviar message
+compose-send-confirm-prompt = Es tu vermente preste a inviar iste message?
+compose-send-confirm-button = Inviar
+compose-do-not-show-again = Non monstrar me plus iste fenestra de dialogo.
+compose-attachment-reminder-title = Rememoration de annexo
+compose-attachment-reminder-prompt = Ha tu oblidate de adder un annexo?
+compose-attachment-reminder-send-button = No, inviar ora
+compose-attachment-reminder-add-button = Si, de facto!
+compose-invalid-address-title = Adresse email del destinatario non valide.
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } non es un valide adresse email perque illo non es del forma user@hoste. Tu debe corriger lo ante inviar le e-mail.
+compose-quit-sending-title = Invio de message
+compose-quit-saving-title = Salvante message
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } invia in iste momento un message.
+    Vole tu attender le fin del invio del message o quitar ora?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } in iste salva un message.
+    Vole tu attender usque le message ha esstite salvate ante quitar, o quitar ora?
+compose-quit-button = &Quitar
+compose-wait-button = Attender (&Wait)
+compose-attach-page-title = Indicar le adresse a attaccar
+compose-attach-page-prompt = Pagina Web (URL):
+compose-message-part-attachment-name = Parte annexate del message
+compose-attachment-bucket-attach-files-tooltip = Annexar file(s)
+compose-attachment-bucket-clear-selection-tooltip = Rader selection
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = Le file { $filename } non existe, assi illo non pote esser annexe al message.
+compose-file-attachment-error-title = Annexo
+compose-message-file-error-title = File message
+# Variables:
+# $filename - name of the file that could not be found
+compose-message-file-not-found = Le file { $filename } non existe e non pote esser usate como corpore del message.
+# Variables:
+# $filename - name of the file that could not be loaded
+compose-message-file-load-error = Le file { $filename } non pote esser cargate como corpore del message.
+compose-save-success-title = Salvar message
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Le message ha essite salvate in le dossier { $folder } sub { $server }.
+compose-rename-attachment-title = Renominar annexo
+compose-rename-attachment-prompt = Nove nomine del annexo:
+remind-later-button =
+    .label = Rememora me plus tarde
+    .accesskey = t
+disable-attachment-reminder-menu-item =
+    .label = Disactivar le rememoration de annexo pro le message actual
 
 ## Send Format
 
@@ -445,6 +501,27 @@ big-file-notification-text =
         [one] Isto es un file grande. Il pote esser melio usar in vice Filelink.
        *[other] Il ha grande files. Il pote esser melio usar in vice Filelink.
     }
+big-file-learn-more-button =
+    .label = Saper plus…
+    .accesskey = p
+big-file-link-button =
+    .label = Ligamine
+    .accesskey = l
+big-file-ignore-button =
+    .label = Ignorar
+    .accesskey = i
+big-file-choose-account-title = Eliger conto
+big-file-choose-account-prompt = Elige un conto de nube al qual incargar le annexo
+big-file-hide-notification-title = Non incargar mi files
+big-file-hide-notification-prompt = Tu non essera notificate si tu attacca files plus grande a iste message.
+big-file-hide-notification-checkbox = Non plus notificar me de isto.
+cloud-file-privacy-warning = Le ligation ha succedite. Nota que le annexos ligate pote esser accessibile pro personas qui pote vider o divinar le ligamines.
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploading-tooltip = Incargante a { $provider }…
+# Variables:
+# $provider - name of the online storage service
+cloud-file-uploaded-tooltip = Incargate a { $provider }
 
 ## Link Preview
 
