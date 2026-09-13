@@ -10,14 +10,36 @@ compose-message-attachment-name = Priložena poruka
 
 ## Compose window
 
+compose-initialization-error-title = Pisanje poruke
+compose-initialization-error = Došlo je do greške pri stvaranju prozora za pisanje poruke. Pokušajte ponovno.
+compose-default-subject = (bez naslova)
+# Variables:
+# $subject - message subject
+# $brand - application name
+compose-window-title = Piši: { $subject } - { $brand }
+compose-save-message-title = Spremi poruku
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Spremi ovu poruku u mapu skica ({ $folder }) i zatvori prozor za pisanje?
+compose-discard-changes-button = O&dbaci izmjene
 compose-send-confirm-title = Pošalji poruku
 compose-send-confirm-prompt = Jeste li sigurni da ste spremni poslati ovu poruku?
 compose-send-confirm-button = Pošalji
 compose-do-not-show-again = Ne prikazuj ponovno ovaj prozor.
+compose-empty-subject-title = Podsjetnik: Unesite naslov
+compose-empty-subject-prompt = Vaša poruka nema naslov.
+compose-empty-subject-send-button = &Pošalji bez naslova
+compose-empty-subject-cancel-button = &Otkaži slanje
 compose-attachment-reminder-title = Podsjetnik dodavanja privitka
 compose-attachment-reminder-prompt = Jeste li zaboravili dodati privitak?
 compose-attachment-reminder-send-button = &Ne, pošalji sada
 compose-attachment-reminder-add-button = &Da, zaboravio sam!
+compose-newsgroups-not-supported-title = Interesne grupe nisu podržane
+compose-newsgroups-not-supported = Ovaj račun podržava samo primatelje e-pošte. Ako nastavite, interesne grupe će biti ignorirane.
+compose-invalid-address-title = Neispravna adresa primatelja
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } nije ispravna adresa e-pošte jer nije u obliku korisnik@poslužitelj. Ispravite adresu e-pošte prije slanja poruke.
 compose-quit-sending-title = Slanje poruke
 compose-quit-saving-title = Spremanje poruke
 # Variables:
@@ -32,9 +54,16 @@ compose-quit-saving-prompt =
     Želite li pričekati sa zatvaranjem dok se poruka ne spremi ili želite zatvoriti sada?
 compose-quit-button = &Zatvori
 compose-wait-button = &Pričekaj
+compose-attach-file-picker-title = Priloži datoteke
+compose-attach-page-title = Odredite lokaciju za priložiti
+compose-attach-page-prompt = Web stranica (URL):
+compose-message-part-attachment-name = Dio priložene poruke
+compose-attachment-bucket-attach-files-tooltip = Prikači datoteke
+compose-attachment-bucket-clear-selection-tooltip = Očisti odabir
 # Variables:
 # $filename - name of the file that could not be found
 compose-file-attachment-not-found = Datoteka { $filename } ne postoji, te je nije moguće priložiti.
+compose-file-attachment-error-title = Prilaganje datoteke
 compose-message-file-error-title = Datoteka poruke
 # Variables:
 # $filename - name of the file that could not be found
@@ -58,6 +87,12 @@ find-replace-button =
     .label = Zamijeni…
     .accesskey = Z
     .tooltiptext = Prikaži pronađi i zamijeni prozor
+# Variables:
+# $identity - identity address that would otherwise be used
+compose-custom-from-address-placeholder = Unesite prilagođenu Šalje adresu koja će se koristiti umjesto { $identity }
+compose-custom-from-address-title = Prilagođena adresa pošiljatelja
+compose-custom-from-address-warning = Ukoliko vaš pružatelj usluge e-pošte to podržava, "Prilagođena adresa pošiljatelja" dozvoljava vam jednokratnu malu izmjenu vaše adrese bez da morate napraviti novi identitet u postavkama računa. Na primjer, ukoliko je vaša adresa Ivan Horvat <ivan@example.com> možda je želite izmjeniti u Ivan Horvat <ivan+horvat@example.com> ili Ivan <ivan@example.com>.
+compose-custom-from-address-ignore = Nemoj me više nikada obavjestiti
 compose-blocked-content-options-button = Mogućnosti
 compose-blocked-content-options-accesskey = o
 compose-blocked-content-preferences-button = Postavke
