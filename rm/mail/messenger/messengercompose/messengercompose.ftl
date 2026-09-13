@@ -12,10 +12,15 @@ compose-message-attachment-name = Messadi sco agiunta
 
 compose-initialization-error-title = Scriver in messadi
 compose-initialization-error = Errur cun crear ina fanestra da rediger messadis. Emprova per plaschair anc ina giada.
+compose-default-subject = (nagin object)
 # Variables:
 # $subject - message subject
 # $brand - application name
 compose-window-title = Rediger: { $subject } - { $brand }
+# Variables:
+# $folder - configured drafts folder name
+compose-save-message-prompt = Memorisar quest messadi en l'ordinatur dals sbozs ({ $folder }) e serrar la fanestra da scriver?
+compose-discard-changes-button = &Ignorar las midadas
 compose-send-confirm-title = Trametter il messadi
 compose-send-confirm-prompt = Es ti segir che ti es pront da trametter quest messadi?
 compose-send-confirm-button = Trametter
@@ -48,6 +53,7 @@ compose-quit-saving-prompt =
     Vuls ti spetgar fin ch'il messadi è vegnì memorisà avant che terminar u terminar ussa?
 compose-quit-button = Exit
 compose-wait-button = &Spetgar
+compose-attach-file-picker-title = Agiuntar datoteca(s)
 compose-attach-page-title = Endatescha per plaschair l'adressa
 compose-attach-page-prompt = Pagina web (URL):
 compose-message-part-attachment-name = Part dal messadi sco agiunta
