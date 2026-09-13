@@ -24,3 +24,14 @@ send-error-smtp-interrupted = Nid oedd modd anfon y neges gan fod cysylltiad â'
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = Nid oedd modd anfon y neges gan fod cysylltu â'r gweinydd Anfon (SMTP) { $hostname } wedi dod i ben. Ceisiwch eto.
 send-error-title = Anfon Neges Gwall
+send-progress-assembling-mail-information = Crynhoi gwybodaeth e-bost…
+send-progress-assembling-message = Cydosod neges…
+send-progress-creating-mail-message = Creu neges e-bost…
+send-progress-assembling-message-done = Cydosod neges...Wedi gorffen
+send-progress-copy-complete = Copïo wedi gorffen.
+send-progress-copy-failed = Methodd copïo.
+send-progress-filter-complete = Mae'r hidl wedi ei gwblhau.
+send-progress-filter-failed = Methodd yr hidl.
+# Variables:
+# $folder - destination folder name
+send-progress-copy-start = Copïo neges i'r ffolder { $folder }…
