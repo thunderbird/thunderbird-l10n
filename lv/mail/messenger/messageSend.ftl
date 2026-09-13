@@ -24,6 +24,9 @@ send-error-smtp-interrupted = Vēstuli neizdevās nosūtīt, jo darbības laikā
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = Vēstuli neizdevās nosūtīt, jo iestājās savienojuma noildze ar izejošo serveri (SMTP) { $hostname }. Mēģiniet vēlreiz.
 send-error-title = Vēstules sūtīšanas kļūda
+# Variables:
+# $hostname - outgoing server hostname
+send-error-smtp-security-issue = Ir jāizlabo ar { $hostname } saistītie iestatījumi.
 send-error-post-failed = Ziņojumu neizdevās publicēt, jo neizdevās izveidot savienojumu ar ziņu serveri. Iespējams, ka serveris nav pieejams vai atsaka savienojumu izveidi. Lūdzu, pārbaudiet, vai ziņu servera iestatījumi ir pareizi, un mēģiniet vēlreiz.
 # LOCALIZATION NOTE: This string must use only US-ASCII characters.
 send-undisclosed-recipients = neatklāti saņēmēji
@@ -48,6 +51,9 @@ smtp-auth-gssapi = Izejošais (SMTP) serveris { $hostname } nepieņēma Kerberos
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-mechanism-not-supported = Izejošais serveris (SMTP) { $hostname } neatbalsta izvēlēto autentifikācijas veidu. Lūdzu, nomainiet ‘Autentifikācijas veids’ sadaļā ‘Konta iestatījumi | Izejošais serveris (SMTP)’.
+# Variables:
+# $serverResponse - server response
+smtp-server-error = Sūtot epastu, radās kļūda: izejošā servera (SMTP) kļūda.  Serveris atbildēja: { $serverResponse }.
 # Variables:
 # $serverResponse - server response
 smtp-error-sending-from-command = Sūtot pastu, radās kļūda. Pasta serveris atbildēja: { $serverResponse }. Lūdzu, konta iestatījumos pārbaudiet, vai jūsu epasta adrese ir pareiza, un mēģiniet vēlreiz.
