@@ -37,6 +37,7 @@ compose-attachment-reminder-add-button = Ow, haj!
 compose-newsgroups-not-supported-title = Diskusijne skupiny so njepodpěruja
 compose-newsgroups-not-supported = Tute konto jenož e-mejlowych přijimarjow podpěruje. Jeli pokročujeće, budu so diskusijne skupiny ignorować.
 compose-invalid-address-title = Njepłaćiwa přijimarska adresa
+compose-no-recipients = Njebuchu žani přijimarjo podaći. Prošu zapodajće přijimarja abo diskusijnu skupinu w adresowem polu.
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address } njeje płaćiwa e-mejlowa adresa, dokelž nima forma wužiwar@serwer. Dyrbiće ju korigować, prjedy hač e-mejl pósćeleće.
