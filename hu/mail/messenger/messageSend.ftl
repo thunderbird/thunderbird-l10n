@@ -24,3 +24,14 @@ send-error-smtp-interrupted = Az üzenet küldése sikertelen, mert a levélkül
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = Az üzenet küldése sikertelen, mert a levélküldő (SMTP) kiszolgálóval ({ $hostname }) való kapcsolat időtúllépés miatt megszakadt. Próbálja újra.
 send-error-title = Hiba az üzenet küldésekor
+send-progress-assembling-mail-information = Levélinformációk összeállítása…
+send-progress-assembling-message = Üzenet összeállítása…
+send-progress-creating-mail-message = E-mail üzenet létrehozása…
+send-progress-assembling-message-done = Üzenet összeállítása… Kész
+send-progress-copy-complete = A másolás kész.
+send-progress-copy-failed = A másolás sikertelen.
+send-progress-filter-complete = Szűrés kész.
+send-progress-filter-failed = A szűrés sikertelen.
+# Variables:
+# $folder - destination folder name
+send-progress-copy-start = Üzenet másolása a következő mappába: { $folder } …
