@@ -81,6 +81,12 @@ smtp-server-error = Ein feil oppstod ved sending av e-post: SMTP-tenarfeil. Tena
 # $hostname - outgoing server hostname
 smtp-starttls-failed = Ein feil oppstod ved sending av post: Klarte ikkje å oppretta ein trygg kommunikasjonskanal mot SMTP-tenaren { $hostname } med STARTTLS, sidan han ikkje støttar den funksjonen. Slå av STARTTLS for den tenaren, eller kontakt tenestetilbydaren.
 # Variables:
+# $serverResponse - server response
+smtp-too-many-recipients = Meldinga vart ikkje sendt på grunn av overskriding av tillatne antal mottakarar. Serveren svarte: { $serverResponse }.
+# Variables:
+# $serverResponse - server response
+smtp-permanent-size-exceeded = Storleiken på meldinga du freistar å senda er større enn maks. storleik på tenaren. Meldinga vart ikkje sendt; gjer meldinga mindre og prøv på nytt. Tenaren svarte:  { $serverResponse }.
+# Variables:
 # $serverResponse - server response; $recipient - intended recipient
 smtp-error-sending-recipient-command =
     Ein feil oppstod ved sending av post. E-post-tenaren svarte:
