@@ -37,6 +37,7 @@ compose-attachment-reminder-add-button = Gea!
 compose-newsgroups-not-supported-title = Gruppas da discussiun na vegnan betg sustegnidas
 compose-newsgroups-not-supported = Quest conto sustegna mo destinaturs dad e-mail. Gruppas da discussiun vegnan ignoradas.
 compose-invalid-address-title = Adressa da destinatur nunvalida
+compose-no-recipients = Betg inditgà in destinatur. Endatescha per plaschair in destinatur u ina gruppa da discussiun en il champ d'adressas.
 # Variables:
 # $address - invalid email address
 compose-invalid-address = { $address } n'è betg ina adressa dad e-mail valida perquai ch'ella na correspunda betg a la furma utilisader@server. Ti stos curreger ella per pudair trametter l'e-mail.
