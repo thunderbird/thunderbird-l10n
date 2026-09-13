@@ -6,6 +6,7 @@
 ## Compose alerts
 
 compose-message-cancelling = O nullañ…
+compose-message-attachment-name = Kemennadenn kenstaget
 
 ## Compose window
 
