@@ -5,6 +5,7 @@
 
 ## Compose alerts
 
+compose-message-cancelling = Interrumper…
 compose-message-attachment-name = Messadi sco agiunta
 
 ## Compose window
