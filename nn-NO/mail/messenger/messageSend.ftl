@@ -59,3 +59,5 @@ send-progress-sending-message = Sender melding…
 send-later-error-title = Feil ved utsett sending.
 send-save-draft-error-title = Feil ved lagring av utkast
 send-save-template-error-title = Feil ved lagring av ma
+# LOCALIZATION NOTE: This string must use only US-ASCII characters.
+send-undisclosed-recipients = gøymde-mottakarar
