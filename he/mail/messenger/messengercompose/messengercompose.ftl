@@ -3,6 +3,16 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Compose alerts
+
+compose-message-cancelling = מתבצע ביטול…
+
+## Compose window
+
+
+## Send Format
+
+
 ## Addressing widget
 
 #   $type (String) - the type of the addressing row
@@ -78,6 +88,9 @@ default-delete-cmd =
     .label = מחיקה
     .accesskey = ח
 
+## Encryption
+
+
 ## Addressing Area
 
 many-public-recipients-prompt-cancel = ביטול השליחה
@@ -100,3 +113,21 @@ attachment-reminder-keywords-msg =
 
 compose-tool-button-remove-text-styling =
     .tooltiptext = הסרת עיצוב הטקסט
+
+## Filelink
+
+
+# Placeholder file
+
+
+# Template
+
+
+# Messages
+
+
+## Link Preview
+
+
+## Dictionary selection popup
+
