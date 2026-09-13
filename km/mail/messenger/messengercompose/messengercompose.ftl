@@ -12,6 +12,10 @@ compose-message-attachment-name = Attached Message
 
 compose-default-subject = (no subject)
 compose-save-message-title = Save Message
+compose-send-confirm-title = Send Message
+compose-send-confirm-prompt = Are you sure you are ready to send this message?
+compose-send-confirm-button = Send
+compose-do-not-show-again = Do not show me this dialog box again.
 compose-empty-subject-title = Subject Reminder
 compose-empty-subject-prompt = Your message doesn’t have a subject.
 compose-empty-subject-send-button = Send Without Subject
@@ -22,7 +26,29 @@ compose-attachment-reminder-send-button = No, Send Now
 compose-attachment-reminder-add-button = Oh, I did!
 compose-newsgroups-not-supported-title = Newsgroups Not Supported
 compose-newsgroups-not-supported = This account only supports email recipients. Continuing will ignore newsgroups.
+compose-quit-sending-title = Sending Message
+compose-quit-saving-title = រក្សាទុក​សារ​
+# Variables:
+# $brand - application name
+compose-quit-sending-prompt =
+    { $brand } is currently in the process of sending a message.
+    Would you like to wait until the message has been sent before quitting or quit now?
+# Variables:
+# $brand - application name
+compose-quit-saving-prompt =
+    { $brand } បច្ចុប្បន្ន​កំពុង​ដំណើរការ​រក្សាទុក​សារ។
+    តើ​អ្នក​ចង់​រង់ចាំ​រហូតដល់​វា​រក្សាទុក​ចប់​ទើប​ចាកចេញ ឬ​ចាកចេញ​ឥឡូវ?
+compose-quit-button = Quit
+compose-wait-button = Wait
 compose-attach-file-picker-title = Attach File(s)
+# Variables:
+# $filename - name of the file that could not be found
+compose-file-attachment-not-found = The file { $filename } does not exist so could not be attached to the message.
+compose-save-success-title = Save Message
+# Variables:
+# $folder - folder in which the message was saved
+# $server - server on which the folder is located
+compose-save-success-message = Your message has been saved to the folder { $folder } under { $server }.
 compose-rename-attachment-title = Rename Attachment
 compose-rename-attachment-prompt = New attachment name:
 remind-later-button =
