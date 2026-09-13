@@ -36,6 +36,10 @@ compose-attachment-reminder-send-button = Nein, jetzt senden
 compose-attachment-reminder-add-button = Ja, habe ich!
 compose-newsgroups-not-supported-title = Newsgruppen werden nicht unterstützt
 compose-newsgroups-not-supported = Dieses Konto unterstützt nur E-Mail-Empfänger. Newsgruppen werden ignoriert.
+compose-invalid-address-title = Ungültige Empfängeradresse
+# Variables:
+# $address - invalid email address
+compose-invalid-address = { $address } ist keine gültige E-Mail-Adresse, weil sie nicht dem Format "user@host" entspricht. Sie müssen sie korrigieren, bevor Sie die E-Mail versenden.
 compose-quit-sending-title = Nachricht wird gesendet
 compose-quit-saving-title = Nachricht wird gespeichert
 # Variables:
@@ -51,6 +55,9 @@ compose-quit-saving-prompt =
 compose-quit-button = &Beenden
 compose-wait-button = &Warten
 compose-attach-file-picker-title = Datei(en) als Anhang anfügen
+compose-attach-page-title = Bitte geben Sie die Adresse ein
+compose-attach-page-prompt = Webseite (URL):
+compose-message-part-attachment-name = Nachrichtenteil als Anhang
 compose-attachment-bucket-attach-files-tooltip = Datei(en) als Anhang anfügen
 compose-attachment-bucket-clear-selection-tooltip = Auswahl entfernen
 # Variables:
