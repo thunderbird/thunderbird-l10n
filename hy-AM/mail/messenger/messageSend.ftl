@@ -24,3 +24,14 @@ send-error-smtp-interrupted = Նամակը հնարավոր չէ ուղարկե�
 # $hostname - outgoing server hostname
 send-error-smtp-timeout = Նամակը հնարավոր չէ ուղարկել, քանի որ կապի ժամանակը ելքային (SMTP) { $hostname } սպասարկիչի հետ լրացել է: Կրկին փորձեք:
 send-error-title = Ուղարկման սխալ
+send-progress-assembling-mail-information = Նամակի տեղեկությունը...
+send-progress-assembling-message = Նամակի թողարկում
+send-progress-creating-mail-message = Ստեղծվում է նամակ...
+send-progress-assembling-message-done = Նամակի թողարկում...Պատրաստ է
+send-progress-copy-complete = Պատճենվեց։
+send-progress-copy-failed = Ձախողվեց։
+send-progress-filter-complete = Զտումը ավարտվեց:
+send-progress-filter-failed = Զտումը ձախողվեց:
+# Variables:
+# $folder - destination folder name
+send-progress-copy-start = Պատճենում է { $folder } թղթապանակում...
