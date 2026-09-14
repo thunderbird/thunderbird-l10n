@@ -162,6 +162,7 @@ mail-play-sound-label =
 mail-play-button =
     .label = გახმოვანება
     .accesskey = ო
+change-dock-icon-description = პროგრამის ნიშნები და შეტყობინებები
 change-dock-icon = პროგრამის ხატულას პარამეტრების შეცვლა
 app-icon-options =
     .label = პროგრამის ხატულის პარამეტრები…

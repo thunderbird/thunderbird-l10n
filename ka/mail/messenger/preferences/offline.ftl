@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 offline-dialog-title = კავშირგარეშე რეჟიმის პარამეტრები
+autodetect-connection-label =
+    .label = რეჟიმების თვითგადართვა ქსელთან კავშირის აღმოჩენისას
+    .accesskey = რ
+offline-startup-label = როცა გაიხსნება { -brand-short-name }:
 autodetect-online-label =
     .label = ქსელის მდგომარეობის ავტომატური დადგენა
     .accesskey = ვ
