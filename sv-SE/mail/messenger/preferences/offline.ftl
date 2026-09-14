@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 offline-dialog-title = Inställningar för nedkopplat läge
+autodetect-connection-label =
+    .label = Byt automatiskt läge när en internetanslutning hittas
+    .accesskey = B
 going-online-prompt = Skicka väntande meddelanden i Utkorgen
 going-online-send =
     .label = Ja, skicka automatiskt
