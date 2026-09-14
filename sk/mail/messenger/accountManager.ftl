@@ -38,3 +38,4 @@ panel-settings-spam = Nastavenia nevyžiadanej pošty
 # Variables:
 # $account (String) - The account name.
 spam-settings-alert-message = Zistil sa problém s nastaveniami nevyžiadanej pošty pre účet { $account }. Chcete si ich pred uložením zmien skontrolovať?
+open-settings-sidebar-button = Nastavenia

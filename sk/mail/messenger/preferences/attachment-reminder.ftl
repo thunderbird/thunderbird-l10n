@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 attachment-reminder-dialog-title = Kľúčové slová pre kontrolu prítomnosti príloh
+attachment-reminder-description = Upozorniť na chýbajúce prílohy, ak e‑mail obsahuje príslušné kľúčové slová.
 attachment-reminder-label = { -brand-short-name } vás upozorní na chýbajúcu prílohu, ak sa pokúsite odoslať e‑mailovú správu, ktorá bude obsahovať jedno z uvedených kľúčových slov.
 keyword-new-button =
     .label = Nový…

@@ -9,12 +9,19 @@ fonts-label-default =
     .label = Predvolený ({ $name })
 fonts-label-default-unnamed =
     .label = Predvolený
+fonts-character-set-legend =
+    .value = Sada znakov:
+    .accesskey = S
+font-main-style-label =
+    .value = Základný štýl písma:
+    .accesskey = Z
 fonts-language-legend =
     .value = Písma pre:
     .accesskey = m
 fonts-proportional-label =
     .value = S premenlivou šírkou:
     .accesskey = S
+text-font-options-dialog-title = Nastavenia textu a písma
 
 ## Languages
 
@@ -93,6 +100,9 @@ font-size-monospace-label =
 font-serif-label =
     .value = Pätkové (serif):
     .accesskey = t
+sans-serif-font-label =
+    .value = Bezpätkové písmo:
+    .accesskey = B
 font-sans-serif-label =
     .value = Bezpätkové (sans-serif):
     .accesskey = B
@@ -114,6 +124,13 @@ use-document-fonts-checkbox =
 use-fixed-width-plain-checkbox =
     .label = Pre správy vo formáte čistý text použiť písmo s pevnou šírkou
     .accesskey = P
+message-font-permissions-legend = Povolenia pre písma v správach
+allow-incoming-fonts-checkbox =
+    .label = Povoliť používanie vlastných písiem v prichádzajúcich správach
+    .accesskey = P
+display-fixed-width-plain-checkbox =
+    .label = Zobrazovať správy vo formáte obyčajného textu písmom s pevnou šírkou
+    .accesskey = Z
 
 ## Language settings
 
