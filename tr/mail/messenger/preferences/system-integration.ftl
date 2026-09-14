@@ -39,3 +39,4 @@ system-search-integration-label =
 check-on-startup-label =
     .label = { -brand-short-name } her açıldığında bu denetimi yap
     .accesskey = d
+system-settings-dialog-title = Sistem ayarları

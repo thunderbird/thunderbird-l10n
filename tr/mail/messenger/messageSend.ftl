@@ -75,6 +75,7 @@ send-undisclosed-recipients = açıklanmayan alıcılar
 # Variables:
 # $recipient - recipient address
 smtp-error-illegal-local-part = { $recipient } alıcı adresinin yerel kısmında ASCII dışı karakterler var ve sunucunuz SMTPUTF8 desteklemiyor. Lütfen bu adresi değiştirip tekrar deneyin.
+smtp-error-no-recipients = SMTP ile gönderim için hiçbir alıcı belirtilmedi.
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = { $hostname } giden sunucusu (SMTP) şifrelenmiş parolaları desteklemiyor. Bu hesabı yeni eklediyseniz "Hesap ayarları > Giden sunucusu (SMTP)" kısmındaki "Yetkilendirme yöntemi"ni "Parola, güvensiz aktarım" olarak değiştirmeyi deneyin. Hesabınız daha önce çalışmasına rağmen şu anda çalışmıyorsa birisi parolanızı çalmaya çalışıyor olabilir.
