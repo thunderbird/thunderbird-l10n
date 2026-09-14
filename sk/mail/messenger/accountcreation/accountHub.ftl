@@ -302,7 +302,7 @@ account-hub-sync-accounts-found = { -brand-short-name } našiel nejaké pripojen
 account-hub-sync-accounts-not-found = { -brand-short-name } nedokázal nájsť pripojené služby
 account-hub-sync-accounts-failure = { -brand-short-name(case: "dat") } sa nepodarilo pripojiť vybraté služby
 account-hub-email-added-success = E‑mailový účet bol úspešne pripojený
-account-hub-config-test-success = Konfiguračné nastavenia sú platné
+account-hub-config-test-success = { -brand-short-name } našiel správne nastavenia a aktualizoval ich.
 account-hub-select-all = Vybrať všetko
 account-hub-deselect-all = Zrušiť výber
 # $count (Number) - The number of sync accounts selected.

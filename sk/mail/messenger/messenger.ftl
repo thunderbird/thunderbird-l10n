@@ -31,55 +31,43 @@ content-tab-security-high-icon =
     .alt = Pripojenie je zabezpečené
 content-tab-security-broken-icon =
     .alt = Pripojenie nie je zabezpečené
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = Späť o jednu stránku ({ $shortcut })
     .aria-label = Naspäť
+    .tooltiptext = Späť o jednu stránku ({ $shortcut })
     .accesskey = N
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Naspäť
     .accesskey = N
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
-    .tooltiptext = Dopredu o jednu stránku ({ $shortcut })
     .aria-label = Dopredu
+    .tooltiptext = Dopredu o jednu stránku ({ $shortcut })
     .accesskey = D
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = Dopredu
     .accesskey = D
-
-# Reload
-
 content-tab-menu-reload =
-    .tooltiptext = Obnoviť stránku
     .aria-label = Obnoviť
+    .tooltiptext = Obnoviť stránku
     .accesskey = O
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
-    .tooltiptext = Obnoviť stránku
     .label = Obnoviť
+    .tooltiptext = Obnoviť stránku
     .accesskey = O
-
-# Stop
-
 content-tab-menu-stop =
-    .tooltiptext = Zastaviť načítavanie stránky
     .aria-label = Zastaviť
+    .tooltiptext = Zastaviť načítavanie stránky
     .accesskey = Z
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
-    .tooltiptext = Zastaviť načítavanie stránky
     .label = Zastaviť
+    .tooltiptext = Zastaviť načítavanie stránky
     .accesskey = Z
 open-windows-warning-confirmation-title = Potvrdenie
 # Variables:
@@ -375,8 +363,8 @@ other-action-copy-message-link =
 other-action-copy-news-link =
     .label = Kopírovať odkaz na príspevok
 message-header-msg-flagged =
-    .title = Označené hviezdičkou
     .aria-label = Označené hviezdičkou
+    .title = Označené hviezdičkou
 message-header-delete =
     .label = Odstrániť
     .tooltiptext = Odstrániť túto správu
@@ -472,9 +460,9 @@ decrypt-and-copy-failures-multiple =
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = Panel Miesta
-    .aria-label = Panel Miesta
     .aria-description = Vertikálny panel nástrojov na prepínanie medzi rôznymi miestami. Na navigáciu medzi dostupnými tlačidlami použite klávesy so šípkami.
+    .aria-label = Panel Miesta
+    .toolbarname = Panel Miesta
 spaces-toolbar-button-mail2 =
     .title = Pošta
 spaces-toolbar-button-address-book2 =
@@ -754,7 +742,7 @@ tags-manage =
     .accesskey = S
 tags-remove-all =
     .label = Odstrániť všetky štítky
-    .accesskey = 0
+    .accesskey = O
 # Variables:
 #   $accesskey (String) - The single-digit keyboard shortcut (1-9) assigned to the tag.
 #   $name (String) - The default or user-defined name of the tag (e.g., Important, Work).
