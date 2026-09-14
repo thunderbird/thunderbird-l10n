@@ -13,13 +13,16 @@ send-error-failed = Správu sa nepodarilo odoslať.
 send-unable-to-send-later = Ospravedlňujeme sa, vašu správu nebolo možné uložiť na jej neskoršie odoslanie.
 # Variables:
 # $hostname - outgoing server hostname
-send-error-smtp-request-refused = Správu sa nepodarilo odoslať, pretože sa nepodarilo pripojiť k serveru odchádzajúcej pošty (SMTP) { $hostname }. Server môže byť nedostupný alebo môže odmietať pripojenia SMTP. Overte správnosť nastavení servera odchádzajúcej pošty (SMTP) a skúste to znova.
+send-error-smtp-unknown-server = Pri odosielaní pošty sa vyskytla chyba: server pre odosielanie pošty (SMTP) { $hostname } nie je známy. Server môže byť nesprávne nakonfigurovaný. Overte správnosť nastavení servera pre odosielanie pošty (SMTP) a skúste to znova.
 # Variables:
 # $hostname - outgoing server hostname
-send-error-smtp-interrupted = Správu sa nepodarilo odoslať, pretože počas prenosu došlo k prerušeniu spojenia so serverom odchádzajúcej pošty (SMTP) { $hostname }. Skúste to znova.
+send-error-smtp-request-refused = Správu sa nepodarilo odoslať, pretože sa nepodarilo pripojiť k serveru pre odosielanie pošty (SMTP) { $hostname }. Server môže byť nedostupný alebo môže odmietať pripojenia SMTP. Overte správnosť nastavení servera pre odosielanie pošty (SMTP) a skúste to znova.
 # Variables:
 # $hostname - outgoing server hostname
-send-error-smtp-timeout = Správu sa nepodarilo odoslať, pretože pripojenie k serveru odchádzajúcej pošty (SMTP) { $hostname } prekročilo časový limit. Skúste to znova.
+send-error-smtp-interrupted = Správu sa nepodarilo odoslať, pretože počas prenosu došlo k prerušeniu spojenia so serverom pre odosielanie pošty (SMTP) { $hostname }. Skúste to znova.
+# Variables:
+# $hostname - outgoing server hostname
+send-error-smtp-timeout = Správu sa nepodarilo odoslať, pretože pripojenie k serveru pre odosielanie pošty (SMTP) { $hostname } prekročilo časový limit. Skúste to znova.
 send-error-title = Chyba pri odosielaní správy
 send-progress-assembling-mail-information = Pripravujú sa informácie o správe…
 send-progress-assembling-message = Pripravuje sa správa…
@@ -75,28 +78,28 @@ smtp-error-illegal-local-part = V časti adresy príjemcu { $recipient } sa nach
 smtp-error-no-recipients = Na doručenie cez SMTP nebol zadaný žiadny príjemca.
 # Variables:
 # $hostname - outgoing server hostname
-smtp-auth-hint-encrypt-to-plain-no-ssl = Zdá sa, že server odchádzajúcej pošty (SMTP) { $hostname } nepodporuje šifrované heslá. Ak ste účet práve nastavili, skúste v časti „Nastavenia účtu | Server pre odosielanie pošty“ zmeniť „Metódu overovania“ na „Heslo prenášané nezabezpečene“. Ak to predtým fungovalo, no teraz už nie, hrozí, že vám niekto odcudzí heslo.
+smtp-auth-hint-encrypt-to-plain-no-ssl = Zdá sa, že server pre odosielanie pošty (SMTP) { $hostname } nepodporuje šifrované heslá. Ak ste účet práve nastavili, skúste v časti „Nastavenia účtu | Server pre odosielanie pošty“ zmeniť „Metódu overovania“ na „Heslo prenášané nezabezpečene“. Ak to predtým fungovalo, no teraz už nie, hrozí, že vám niekto odcudzí heslo.
 # Variables:
 # $hostname - outgoing server hostname
-smtp-auth-hint-encrypt-to-plain-ssl = Zdá sa, že server odchádzajúcej pošty (SMTP) { $hostname } nepodporuje šifrované heslá. Ak ste účet práve nastavili, skúste v časti „Nastavenia účtu | Server pre odosielanie pošty“ zmeniť „Metódu overovania“ na „Normálne heslo“.
+smtp-auth-hint-encrypt-to-plain-ssl = Zdá sa, že server pre odosielanie pošty (SMTP) { $hostname } nepodporuje šifrované heslá. Ak ste účet práve nastavili, skúste v časti „Nastavenia účtu | Server pre odosielanie pošty“ zmeniť „Metódu overovania“ na „Normálne heslo“.
 # Variables:
 # $hostname - outgoing server hostname
-smtp-auth-hint-plain-to-encrypt = Server odchádzajúcej pošty (SMTP) { $hostname } nepovoľuje heslá vo forme obyčajného textu. V časti „Nastavenia účtu | Server pre odosielanie pošty“ skúste zmeniť „Metódu overenia“ na „Šifrované heslo“.
+smtp-auth-hint-plain-to-encrypt = Server pre odosielanie pošty (SMTP) { $hostname } nepovoľuje heslá vo forme obyčajného textu. V časti „Nastavenia účtu | Server pre odosielanie pošty“ skúste zmeniť „Metódu overenia“ na „Šifrované heslo“.
 # Variables:
 # $hostname - outgoing server hostname
-smtp-auth-failure = Overenie na serveri odchádzajúcej pošty (SMTP) { $hostname } zlyhalo. Skontrolujte heslo a položku „Metóda overenia“ v časti „Nastavenia účtu | Server pre odosielanie pošty“.
+smtp-auth-failure = Overenie na serveri pre odosielanie pošty (SMTP) { $hostname } zlyhalo. Skontrolujte heslo a položku „Metóda overenia“ v časti „Nastavenia účtu | Server pre odosielanie pošty“.
 # Variables:
 # $hostname - outgoing server hostname
-smtp-auth-gssapi = Server odchádzajúcej pošty (SMTP) { $hostname } neprijal lístok Kerberos/GSSAPI. Skontrolujte, či ste prihlásení do sféry Kerberos/GSSAPI.
+smtp-auth-gssapi = Server pre odosielanie pošty (SMTP) { $hostname } neprijal lístok Kerberos/GSSAPI. Skontrolujte, či ste prihlásení do sféry Kerberos/GSSAPI.
 # Variables:
 # $hostname - outgoing server hostname
-smtp-auth-mechanism-not-supported = Server odchádzajúcej pošty (SMTP) { $hostname } nepodporuje zvolený spôsob overenia. Zmeňte „Metódu overenia“ v ponuke „Nastavenia účtu | Server pre odosielanie pošty“.
+smtp-auth-mechanism-not-supported = Server pre odosielanie pošty (SMTP) { $hostname } nepodporuje zvolený spôsob overenia. Zmeňte „Metódu overenia“ v ponuke „Nastavenia účtu | Server pre odosielanie pošty“.
 # Variables:
 # $serverResponse - server response
-smtp-server-error = Pri odosielaní správy sa vyskytla chyba: chyba servera odchádzajúcej pošty (SMTP). Server odpovedal:  { $serverResponse }.
+smtp-server-error = Pri odosielaní správy sa vyskytla chyba: chyba servera pre odosielanie pošty (SMTP). Server odpovedal:  { $serverResponse }.
 # Variables:
 # $hostname - outgoing server hostname
-smtp-starttls-failed = Pri odosielaní pošty sa vyskytla chyba: so serverom odchádzajúcej pošty (SMTP) { $hostname } sa nepodarilo vytvoriť zabezpečené spojenie pomocou protokolu STARTTLS, pretože server túto funkciu neponúka. Vypnite pre tento server protokol STARTTLS alebo sa obráťte na svojho poskytovateľa služieb.
+smtp-starttls-failed = Pri odosielaní pošty sa vyskytla chyba: so serverom pre odosielanie pošty (SMTP) { $hostname } sa nepodarilo vytvoriť zabezpečené spojenie pomocou protokolu STARTTLS, pretože server túto funkciu neponúka. Vypnite pre tento server protokol STARTTLS alebo sa obráťte na svojho poskytovateľa služieb.
 # Variables:
 # $serverResponse - server response
 smtp-too-many-recipients = Správu sa nepodarilo odoslať, pretože bol prekročený povolený počet príjemcov. Server odpovedal: { $serverResponse }.
@@ -105,4 +108,16 @@ smtp-too-many-recipients = Správu sa nepodarilo odoslať, pretože bol prekroč
 smtp-error-sending-from-command = Pri odosielaní správy sa vyskytla chyba. Poštový server odpovedal: { $serverResponse }. Overte, či máte v nastaveniach účtu uvedenú správnu e‑mailovú adresu, a skúste správu odoslať znova.
 # Variables:
 # $serverResponse - server response
+smtp-permanent-size-exceeded = Správa, ktorú sa pokúšate odoslať, prekračuje celkový limit veľkosti nastavený na serveri. Správa preto nebola odoslaná. Zmenšite ju a skúste to znova. Server odpovedal:  { $serverResponse }.
+# Variables:
+# $serverResponse - server response; $recipient - intended recipient
+smtp-error-sending-recipient-command =
+    Pri odosielaní správy sa vyskytla chyba. Poštový server odpovedal:
+    { $serverResponse }.
+    Skontrolujte adresu príjemcu „{ $recipient }“ a skúste správu odoslať znova.
+# Variables:
+# $serverResponse - server response
 smtp-error-sending-data-command = Pri odosielaní správy sa vyskytla chyba servera pre odosielanie pošty (SMTP). Server odpovedal:  { $serverResponse }.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-message = Pri odosielaní e‑mailu došlo k chybe. Poštový server odpovedal:  { $serverResponse }. Skontrolujte správu a skúste ju odoslať znova.

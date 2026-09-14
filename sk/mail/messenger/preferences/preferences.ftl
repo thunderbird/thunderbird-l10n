@@ -630,9 +630,17 @@ inline-label =
     .label = V texte
 as-attachment-label =
     .label = Ako príloha
+add-file-type-label =
+    .label = Pridať typ súboru k priloženým správam
+    .accesskey = t
 extension-label =
     .label = Pridať príponu k názvu súboru
     .accesskey = d
+forward-messages-label =
+    .value = Správy odosielať ďalej:
+    .accesskey = r
+forward-inline-label =
+    .label = Priamo v texte správy
 
 ## Note: This will concatenate to "Auto Save every [___] minutes",
 ## using (auto-save-label) and a number (auto-save-end).
@@ -641,6 +649,9 @@ auto-save-label =
     .label = Automaticky ukladať každých
     .accesskey = A
 auto-save-end = minút
+autosave-draft-label =
+    .label = Automaticky uložiť koncept každých
+    .accesskey = A
 
 ##
 
@@ -652,6 +663,9 @@ add-link-previews =
     .accesskey = L
 spellcheck-label =
     .label = Kontrolovať pravopis pred odoslaním
+    .accesskey = K
+spellcheck-while-typing-label =
+    .label = Kontrolovať pravopis počas písania
     .accesskey = K
 spellcheck-inline-label =
     .label = Povoliť kontrolu pravopisu počas písania
@@ -666,6 +680,9 @@ font-label =
 font-size-label =
     .value = Veľkosť:
     .accesskey = s
+ignore-sender-styles-label =
+    .label = Ignorovať písma a farby odosielateľa
+    .accesskey = I
 default-colors-label =
     .label = Použiť predvolené farby
     .accesskey = d
@@ -678,6 +695,9 @@ bg-color-label =
 restore-html-label =
     .label = Obnoviť predvolené
     .accesskey = O
+paragraph-spacing-label =
+    .label = Stlačením klávesu Enter vytvárať nový odsek s väčším rozstupom
+    .accesskey = S
 default-format-label =
     .label = V predvolenom nastavení používať formát odstavca namiesto základného textu
     .accesskey = r

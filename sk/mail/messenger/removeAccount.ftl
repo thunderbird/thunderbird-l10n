@@ -30,9 +30,9 @@ show-data-button =
 remove-outgoing-servers-checkbox =
     .label =
         { $count ->
-            [one] Odstrániť server pre odchádzajúcu poštu
-            [few] Odstrániť { $count } servery pre odchádzajúcu poštu
-           *[other] Odstrániť { $count } serverov pre odchádzajúcu poštu
+            [one] Odstrániť server pre odosielanie pošty
+            [few] Odstrániť { $count } servery pre odosielanie pošty
+           *[other] Odstrániť { $count } serverov pre odosielanie pošty
         }
 # Variables:
 # $count (Number) - The number of address books to be removed.
