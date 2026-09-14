@@ -75,6 +75,7 @@ send-undisclosed-recipients = undisclosed-recipients
 # Variables:
 # $recipient - recipient address
 smtp-error-illegal-local-part = В имени почтового ящика в адресе получателя { $recipient } имеются не-ASCII символы, а ваш сервер не поддерживает SMTPUTF8. Пожалуйста, замените этот адрес и попробуйте снова.
+smtp-error-no-recipients = Для доставки SMTP не было указано ни одного получателя.
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = Похоже, что Сервер исходящей почты (SMTP) «{ $hostname }» не поддерживает использование зашифрованных паролей. Если вы только что создали учётную запись, попробуйте сменить «Метод аутентификации» в «Параметры учётной записи | Сервер исходящей почты (SMTP)» на «Пароль, без защиты передачи». Если это работало раньше, а теперь внезапно перестало, возможно, что ваш пароль был украден.

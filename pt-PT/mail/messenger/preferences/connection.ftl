@@ -90,6 +90,13 @@ no-proxy-label =
 no-proxy-example = Exemplo: .mozilla.org, .net.nz, 192.168.1.0/24
 # Do not translate "localhost", "127.0.0.1/8" and "::1". (You can translate "and".)
 connection-proxy-local-network-desc = Ligações à rede local (como localhost) nunca usam um proxy.
+proxy-auto-login-saved-password =
+    .label = Iniciar sessão automaticamente se uma palavra-passe estiver guardada
+    .tooltiptext = Esta opção autentica-o silenciosamente nos proxies quando tem credenciais guardadas para eles. Será solicitado se a autenticação falhar.
+    .accesskey = i
+proxy-socks-remote-dns =
+    .label = Encaminhar pedidos de domínio (DNS) através do proxy SOCKS v5
+    .accesskey = d
 # Do not translate "localhost", "127.0.0.1/8" and "::1". (You can translate "and".)
 connection-proxy-noproxy-localhost-desc-2 = As ligações a localhost, 127.0.0.1/8, e ::1 nunca passam pelo proxy.
 proxy-password-prompt =

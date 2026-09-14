@@ -22,6 +22,7 @@ disable-extension-button = Отключить расширение
 # The extension-icon is the extension's icon, or a fallback image. It should be
 # purely decoration for the actual extension name, with alt="".
 proxy-settings-controlled-by-extension = Расширение <img data-l10n-name="extension-icon" alt="" /> { $name } контролирует способ соединения { -brand-short-name } с Интернетом.
+connection-internet-proxy-legend = Соединение с Интернетом и прокси
 connection-proxy-legend = Настройка прокси для доступа в Интернет
 proxy-type-no =
     .label = Без прокси

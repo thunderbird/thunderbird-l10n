@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 attachment-reminder-dialog-title = Ключевые слова для напоминания о вложении
+attachment-reminder-description = Показывать напоминание при отсутствующих вложениях, если электронное письмо содержит совпадающие ключевые слова.
 attachment-reminder-label = { -brand-short-name } будет предупреждать вас о том, что вы забыли вложить файл, если вы попробуете отправить письмо, содержащее одно из этих ключевых слов.
 keyword-new-button =
     .label = Создать…
