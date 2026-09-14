@@ -5,6 +5,7 @@
 header-comment =
     .value = Piebilde
 calendar-item-summary-calendar = Kalendārs:
+calendar-item-summary-task-start = Sākuma datums:
 calendar-item-summary-reminder-5-minutes-before =
     .label = 5 minūtes pirms
 calendar-item-summary-reminder-15-minutes-before =

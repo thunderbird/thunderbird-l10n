@@ -47,6 +47,14 @@ calendar-invitation-interval-all-day-between-years = { $startYear }. gada { $sta
 # $endDay     (String) - The day of the month the interval ends.
 # $year       (String) - The year the interval is in.
 calendar-invitation-interval-all-day-in-month = { $startDay }. { $month } – { $endDay }, { $year }.
+# Example: September 16 – October 20, 2022
+# Variables:
+# $startMonth (String) - The month the interval starts.
+# $startDay   (String) - The day of the month the interval starts.
+# $endMonth   (String) - The month the interval ends.
+# $endDay     (String) - The day of the month the interval ends.
+# $year       (String) - The year the interval is in.
+calendar-invitation-interval-all-day-between-months = { $startDay }. { $startMonth } – { $year }. gada { $endDay }. { $endMonth }
 calendar-invitation-panel-prop-title-attendees = Dalībnieki:
 calendar-invitation-panel-prop-title-description = Apraksts:
 # Variables:
