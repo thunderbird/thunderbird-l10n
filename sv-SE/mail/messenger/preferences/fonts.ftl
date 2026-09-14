@@ -124,6 +124,7 @@ use-document-fonts-checkbox =
 use-fixed-width-plain-checkbox =
     .label = Använd teckensnitt med fast bredd för meddelanden med vanlig text
     .accesskey = A
+message-font-permissions-legend = Teckensnittsbehörigheter för meddelanden
 allow-incoming-fonts-checkbox =
     .label = Tillåt inkommande meddelanden att använda egna teckensnitt
     .accesskey = T
