@@ -3,6 +3,26 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 offline-dialog-title = Inställningar för nedkopplat läge
+going-online-prompt = Skicka väntande meddelanden i Utkorgen
+going-online-send =
+    .label = Ja, skicka automatiskt
+    .accesskey = J
+going-online-keep =
+    .label = Nej, behåll i Utkorgen
+    .accesskey = N
+going-online-ask-send =
+    .label = Fråga innan du skickar
+    .accesskey = F
+going-offline-prompt = Vill du ladda ned meddelanden så att du kan läsa dem offline?
+going-offline-download =
+    .label = Ja, ladda ner automatiskt
+    .accesskey = J
+going-offline-keep =
+    .label = Nej, ladda inte ner
+    .accesskey = N
+going-offline-ask-download =
+    .label = Fråga före nedladdning
+    .accesskey = F
 autodetect-online-label =
     .label = Följ automatiskt detekterat uppkopplat tillstånd
     .accesskey = d
