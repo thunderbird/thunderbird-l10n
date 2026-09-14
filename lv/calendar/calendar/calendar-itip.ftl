@@ -26,9 +26,16 @@ imip-html-new-location = Jauna norises vieta: { $location }
 #   $role (String) - One of the imip-html-attendee-role-* strings.
 #   $partStat (String) - One of the imip-html-attendee-part-stat-* strings.
 imip-html-attendee-combined = { $role } { $partStat }
+# Attendee roles. Composed into imip-html-attendee-combined.
+# Variables:
+#   $userType (String) - One of the imip-html-attendee-user-type-* strings.
+imip-html-attendee-role-chair = { $userType } vada notikumu.
 # Variables:
 #   $userType (String) - One of the imip-html-attendee-user-type-* strings.
 imip-html-attendee-role-non-participant = { $userType } nav dalībnieks.
+# Variables:
+#   $userType (String) - One of the imip-html-attendee-user-type-* strings.
+imip-html-attendee-role-req-participant = { $userType } ir nepieciešams dalībnieks.
 # Attendee participation statuses. Composed into imip-html-attendee-combined.
 # Variables:
 #   $attendee (String) - Common name or email address of the attendee.
@@ -36,6 +43,10 @@ imip-html-attendee-part-stat-accepted = { $attendee } apstiprināja savu dalību
 # Variables:
 #   $attendee (String) - Common name or email address of the attendee.
 imip-html-attendee-part-stat-declined = { $attendee } noraidīja dalību.
+# Variables:
+#   $attendee (String) - Common name or email address of the attendee.
+#   $delegatees (String) - A single delegatee or a comma separated list of delegatees.
+imip-html-attendee-part-stat-delegated = { $attendee } ir norīkojis dalību { $delegatees }.
 # Variables:
 #   $attendee (String) - Common name or email address of the attendee.
 imip-html-attendee-part-stat-needs-action = { $attendee } joprojām ir jāatbild.
@@ -69,7 +80,11 @@ imip-bar-counter-error-text = Šis ziņojums satur pretpriekšlikumu uzaicināju
 imip-bar-counter-previous-version-text = Šis ziņojums satur pretpriekšlikumu iepriekšējai uzaicinājuma versijai.
 imip-bar-counter-text = Šis ziņojums satur uzaicinājuma pretpriekšlikumu.
 imip-bar-disallowed-counter-text = Šis ziņojums satur pretpriekšlikumu, lai arī šim notikumam nav ļauta iebilšana.
+imip-bar-decline-counter-text = Šis ziņojums satur atbildi uz pretpriekšlikumu.
+imip-bar-refresh-text = Šajā ziņojumā tiek vaicāts pēc notikuma atjauninājuma.
+imip-bar-publish-text = Šis ziņojums satur notikumu.
 imip-bar-request-text = Šis ziņojums satur uzaicinājumu uz notikumu.
+imip-bar-sent-text = Šis ziņojums satur nosūtītu notikumu.
 imip-bar-sent-but-removed-text = Šis ziņojums satur nosūtītu notikumu, kas vairs nav kalendārā.
 imip-bar-not-writable = Neviens rakstāms kalendārs nav konfigurēts uzaicinājumiem. Lūgums pārbaudīt kalendāra īpašības.
 
@@ -86,4 +101,19 @@ invitations-link-label = Uzaicinājumi: { $count }
 itip-request-subject = Uzaicinājums: { $summary }
 # Variables:
 #   $summary (String) - The event title.
+itip-reply-subject = Atbilde uz uzaicinājumu: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-accept = Apstiprināts: { $summary }
+# Variables:
+#   $summary (String) - The event title.
 itip-reply-subject-decline = Uzaicinājums noraidīts: { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-reply-subject-tentative = Varbūtēji: { $summary }
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-accept = { $attendee } pieņēma uzaicinājumu uz notikumu.
+# Variables:
+#   $attendee (String) - The attendee who replied.
+itip-reply-body-decline = { $attendee } noraidīja uzaicinājumu uz notikumu.
