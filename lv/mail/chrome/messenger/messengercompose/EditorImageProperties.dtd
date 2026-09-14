@@ -2,8 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- These strings are for use specifically in the editor's image and form image dialogs. -->
-
 <!-- Window title -->
 <!ENTITY windowTitle.label "Attēla īpašības">
 <!ENTITY pixelsPopup.value "punkti">
@@ -59,7 +57,7 @@
 <!-- These controls are in the Link Box -->
 <!ENTITY showImageLinkBorder.label "Rādīt saistītam attēlam apmali">
 <!ENTITY showImageLinkBorder.accessKey "R">
-<!ENTITY LinkAdvancedEditButton.label "Saistīt papildu rediģēšanu…">
+<!ENTITY LinkAdvancedEditButton.label "Saistīt izvērsto labošanu…">
 <!ENTITY LinkAdvancedEditButton.accessKey "S">
 <!ENTITY LinkAdvancedEditButton.tooltip "Pievienot vai mainīt HTML atribūtus, stila atribūtus un JavaScript">
 <!-- These tabs are currently used in the image input dialog -->
