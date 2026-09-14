@@ -38,3 +38,4 @@ panel-settings-spam = ჯართის პარამეტრები
 # Variables:
 # $account (String) - The account name.
 spam-settings-alert-message = ჯართის პარამეტრების ხარვეზებითაა { $account }. გსურთ გადახედვა ცვლილებების შენახვამდე?
+open-settings-sidebar-button = პარამეტრები

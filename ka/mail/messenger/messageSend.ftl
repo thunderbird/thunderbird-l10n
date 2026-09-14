@@ -75,6 +75,7 @@ send-undisclosed-recipients = undisclosed-recipients
 # Variables:
 # $recipient - recipient address
 smtp-error-illegal-local-part = მიმღების { $recipient } მისამართის ნაწილში, ASCII-ისგან განსხვავებული სიმბოლოებია და თქვენს სერვერზე SMTPUTF8 არაა მხარდაჭერილი. გთხოვთ, შეცვალოთ მისამართი და სცადოთ ხელახლა.
+smtp-error-no-recipients = არცერთი მიმღები არ იყო მითითებული SMTP-გადაცემისთვის.
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = როგორც ჩანს, გამავალ სერვერზე (SMTP) { $hostname } არაა მხარდაჭერილი დაშიფრული პაროლები. თუ მხოლოდ ანგარიშის გამართვა გსურთ, სცადეთ ‘ანგარიშზე შესვლის მეთოდის’ შეცვლა ‘პაროლის დაუცველად გადაგზავნით’ 'ანგარიშის პარამეტრებში | გამავალ სერვერზე (SMTP)'. თუ აქამდე სამუშაოდ იყენებდით, შესაძლოა თქვენი პაროლი მოპარული იყოს. ‘’.

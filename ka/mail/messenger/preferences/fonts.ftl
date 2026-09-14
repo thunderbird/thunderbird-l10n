@@ -9,12 +9,19 @@ fonts-label-default =
     .label = ნაგულისხმევი ({ $name })
 fonts-label-default-unnamed =
     .label = ნაგულისხმევი
+fonts-character-set-legend =
+    .value = სიმბოლოთა ნაკრები:
+    .accesskey = ს
+font-main-style-label =
+    .value = შრიფტის მთავარი სახეობა:
+    .accesskey = შ
 fonts-language-legend =
     .value = შრიფტები:
     .accesskey = t
 fonts-proportional-label =
     .value = პროპორციული:
     .accesskey = P
+text-font-options-dialog-title = ნაწერისა და შრიფტის პარამეტრები
 
 ## Languages
 
@@ -93,6 +100,9 @@ font-size-monospace-label =
 font-serif-label =
     .value = ნაჭდევებიანი:
     .accesskey = ნ
+sans-serif-font-label =
+    .value = უნაჭდევო შრიფტი
+    .accesskey = უ
 font-sans-serif-label =
     .value = უნაჭდევო:
     .accesskey = უ
@@ -114,6 +124,10 @@ use-document-fonts-checkbox =
 use-fixed-width-plain-checkbox =
     .label = მონოსიგანის შრიფტებით სარგებლობა ტექსტური გზავნილებისთვის
     .accesskey = x
+message-font-permissions-legend = წერილის შრიფტის ნებართვები
+allow-incoming-fonts-checkbox =
+    .label = შემომავალი წერილებისთვის საკუთარი შრიფტის გამოყენების ნებართვა
+    .accesskey = ო
 
 ## Language settings
 
