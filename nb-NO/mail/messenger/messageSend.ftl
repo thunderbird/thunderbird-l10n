@@ -75,6 +75,7 @@ send-undisclosed-recipients = skjulte-mottakere
 # Variables:
 # $recipient - recipient address
 smtp-error-illegal-local-part = Det er ikke-ASCII-tegn i den lokale delen av mottakeradressen { $recipient }, og serveren din støtter ikke SMTPUTF8. Endre denne adressen og prøv på nytt.
+smtp-error-no-recipients = Ingen mottakere ble angitt for SMTP-levering.
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = Den utgående tjeneren (SMTP) { $hostname } ser ikke ut til å støtte krypterte passord. Hvis du akkurat har opprettet denne kontoen, prøv å endre ‘autentiseringsmetode’ i ‘Kontoinnstillinger | Utgående server (SMTP)’ til ‘Passord, overført uten sikkerhet’. Hvis det virket før men ikke lenger nå, kan du være utsatt for et forsøk på å stjele passordet ditt.
