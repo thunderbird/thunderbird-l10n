@@ -67,3 +67,30 @@ send-progress-copy-start = Správa sa kopíruje do priečinka { $folder }…
 send-progress-sending-message = Správa sa odosiela…
 send-error-nntp-ok = Vaša správa bola uverejnená v diskusnej skupine, no nebola odoslaná ostatným adresátom.
 send-error-copy-operation = Správa bola úspešne odoslaná, no nepodarilo sa uložiť jej kópiu do priečinka Odoslané.
+send-later-error-title = Chyba pri odloženom odoslaní
+send-save-draft-error-title = Chyba pri ukladaní konceptu
+send-save-template-error-title = Chyba pri ukladaní šablóny
+# LOCALIZATION NOTE: This string must use only US-ASCII characters.
+send-undisclosed-recipients = utajeni adresati
+# Variables:
+# $recipient - recipient address
+smtp-error-illegal-local-part = V časti adresy príjemcu { $recipient } sa nachádzajú nepodporované znaky mimo sady ASCII a váš server nepodporuje SMTPUTF8. Upravte adresu a skúste to znova.
+smtp-error-no-recipients = Na doručenie cez SMTP nebol zadaný žiadny príjemca.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-hint-encrypt-to-plain-no-ssl = Zdá sa, že server odchádzajúcej pošty (SMTP) { $hostname } nepodporuje šifrované heslá. Ak ste účet práve nastavili, skúste v časti „Nastavenia účtu | Server pre odosielanie pošty“ zmeniť „Metódu overovania“ na „Heslo prenášané nezabezpečene“. Ak to predtým fungovalo, no teraz už nie, hrozí, že vám niekto odcudzí heslo.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-mechanism-not-supported = Server odchádzajúcej pošty (SMTP) { $hostname } nepodporuje zvolený spôsob overenia. Zmeňte „Metódu overenia“ v ponuke „Nastavenia účtu | Server pre odosielanie pošty“.
+# Variables:
+# $serverResponse - server response
+smtp-server-error = Pri odosielaní správy sa vyskytla chyba: chyba servera odchádzajúcej pošty (SMTP). Server odpovedal:  { $serverResponse }.
+# Variables:
+# $hostname - outgoing server hostname
+smtp-starttls-failed = Pri odosielaní pošty sa vyskytla chyba: so serverom odchádzajúcej pošty (SMTP) { $hostname } sa nepodarilo vytvoriť zabezpečené spojenie pomocou protokolu STARTTLS, pretože server túto funkciu neponúka. Vypnite pre tento server protokol STARTTLS alebo sa obráťte na svojho poskytovateľa služieb.
+# Variables:
+# $serverResponse - server response
+smtp-too-many-recipients = Správu sa nepodarilo odoslať, pretože bol prekročený povolený počet príjemcov. Server odpovedal: { $serverResponse }.
+# Variables:
+# $serverResponse - server response
+smtp-error-sending-from-command = Pri odosielaní správy sa vyskytla chyba. Poštový server odpovedal: { $serverResponse }. Overte, či máte v nastaveniach účtu uvedenú správnu e‑mailovú adresu, a skúste správu odoslať znova.
