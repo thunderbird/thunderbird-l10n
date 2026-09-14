@@ -10,11 +10,11 @@ fonts-label-default =
 fonts-label-default-unnamed =
     .label = Predeterminado
 fonts-character-set-legend =
-    .value = Conjunto de caracteres:
-    .accesskey = C
+    .value = Codificación de caracteres:
+    .accesskey = t
 font-main-style-label =
     .value = Estilo de fuente principal:
-    .accesskey = E
+    .accesskey = f
 fonts-language-legend =
     .value = Tipografías para:
     .accesskey = t
@@ -102,7 +102,7 @@ font-serif-label =
     .accesskey = s
 sans-serif-font-label =
     .value = Fuente sans-serif:
-    .accesskey = F
+    .accesskey = n
 font-sans-serif-label =
     .value = Sans-serif:
     .accesskey = n
@@ -127,10 +127,10 @@ use-fixed-width-plain-checkbox =
 message-font-permissions-legend = Permisos de fuente del mensaje
 allow-incoming-fonts-checkbox =
     .label = Permitir que los mensajes entrantes usen su propia fuente
-    .accesskey = P
+    .accesskey = o
 display-fixed-width-plain-checkbox =
     .label = Mostrar mensajes de texto plano en una fuente de ancho fijo
-    .accesskey = M
+    .accesskey = x
 
 ## Language settings
 
