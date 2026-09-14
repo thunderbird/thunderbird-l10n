@@ -94,6 +94,9 @@ proxy-auto-login-saved-password =
     .label = Prihlásiť sa automaticky, ak je heslo uložené
     .tooltiptext = Vďaka tejto možnosti sa prehliadač automaticky autorizuje na serveri proxy, ak má preň uložené prihlasovanie údaje. Ak autorizácia zlyhá, prehliadač si údaje vypýta.
     .accesskey = r
+proxy-socks-remote-dns =
+    .label = Požiadavky DNS smerovať cez proxy SOCKS v5
+    .accesskey = m
 # Do not translate "localhost", "127.0.0.1/8" and "::1". (You can translate "and".)
 connection-proxy-noproxy-localhost-desc-2 = Pripojenie na localhost, 127.0.0.1/8, a ::1 nikdy nepoužíva proxy server.
 proxy-password-prompt =
