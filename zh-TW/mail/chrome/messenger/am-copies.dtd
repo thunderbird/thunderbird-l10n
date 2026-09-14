@@ -2,8 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from am-copies.xhtml -->
-
 <!ENTITY copyAndFolderTitle.label "備份與郵件匣">
 <!ENTITY sendingPrefix.label "寄送郵件時，">
 <!ENTITY fccMailFolder.label "複製一份到:">
@@ -42,9 +40,9 @@
 <!ENTITY draftsFolderOn.accesskey "D">
 <!ENTITY draftInOtherFolder.label "其他郵件匣:">
 <!ENTITY draftInOtherFolder.accesskey "t">
-<!ENTITY keepTemplates.label "儲存郵件範本到:">
+<!ENTITY keepTemplates.label "儲存郵件範本到：">
 <!-- LOCALIZATION NOTE (templatesFolderOn.label): OK to translate this, bug #57440 -->
-<!ENTITY templatesFolderOn.label "「範本」郵件匣:">
+<!ENTITY templatesFolderOn.label "「範本」信件匣：">
 <!ENTITY templatesFolderOn.accesskey "m">
-<!ENTITY templateInOtherFolder.label "其他郵件匣:">
+<!ENTITY templateInOtherFolder.label "其他信件匣：">
 <!ENTITY templateInOtherFolder.accesskey "e">

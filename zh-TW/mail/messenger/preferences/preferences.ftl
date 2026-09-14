@@ -411,7 +411,7 @@ clear-cache-shutdown-label =
     .accesskey = s
 underline-text-links-label =
     .label = 為訊息中的文字鏈結加上底線
-    .accesskey = 為
+    .accesskey = k
 always-underline-links =
     .label = 總是幫鏈結加上底線
     .accesskey = k
@@ -520,13 +520,6 @@ mark-read-delay =
     .accesskey = d
 seconds-label = 秒之後
 
-## Note: This will concatenate to "After viewing for [___] seconds",
-## using (mark-read-after-viewing) and a number (seconds-label).
-
-mark-read-after-viewing =
-    .label = 瀏覽 Cookie 後
-    .accesskey = 瀏
-
 ##
 
 open-msg-label =
@@ -567,14 +560,14 @@ table-layout-horizontal-scroll-label =
 conversation-view-legend = 對話畫面
 show-conversation-view-label =
     .label = 顯示對話畫面
-    .accesskey = 顯
-conversation-view-preview-description = 這是早期的預覽功能。會把相關的訊息放在一起但可能不會總是運作。
+    .accesskey = c
+conversation-view-preview-description = 這項功能仍處於早期預覽階段，可將相關訊息彙整在一起顯示，但不一定每次都能如預期運作。
 conversation-view-checkbox-label =
     .label = 開啟對話畫面
     .accesskey = c
 conversation-view-checkbox-description = 基於 Gloda 的實驗性功能，使用風險請自行承擔
 label-experiment = 實驗中
-dark-mode-message-appearance = 郵件外觀
+dark-mode-message-appearance = 訊息外觀
 dark-mode-checkbox-label =
     .label = 輸入訊息文字使用暗色模式
     .accesskey = 輸
@@ -648,10 +641,10 @@ forward-inline-label =
 auto-save-label =
     .label = 每隔
     .accesskey = A
-auto-save-end = 分鐘自動儲存
+auto-save-end = 分鐘自動儲存草稿
 autosave-draft-label =
     .label = 每隔
-    .accesskey = 每
+    .accesskey = A
 
 ##
 
@@ -666,7 +659,7 @@ spellcheck-label =
     .accesskey = C
 spellcheck-while-typing-label =
     .label = 打字時檢查拼字
-    .accesskey = 打
+    .accesskey = E
 spellcheck-inline-label =
     .label = 啟用拼字檢查
     .accesskey = E
@@ -703,11 +696,11 @@ default-format-label =
     .accesskey = P
 compose-send-format-title = 寄件格式
 compose-format-automatic-option =
-    .label = 自動推薦
+    .label = 自動（建議）
 compose-format-automatic-description = 如果您要加入樣式(例如粗體、鏈結)的話就寄出格式化文字或是不想要的話就寄出純文字。
 compose-format-both-option =
     .label = HTML 與純文字格式
-compose-format-both-description = 總是兩個版本都送出讓收件者的郵件 App 選擇要顯示哪一個。
+compose-format-both-description = 總是將兩個版本都寄出，讓收件者的郵件軟體選擇要顯示哪一種。
 compose-format-html-option =
     .label = 僅 HTML
 compose-format-html-description = 保留自訂字型、色彩與圖片但某些舊版的郵件程式可能無法正確顯示。
@@ -745,9 +738,6 @@ directories-none-label =
 manage-directories-label =
     .label = 管理目錄…
     .accesskey = E
-collect-outgoing-label =
-    .label = 自動儲存待寄信到:
-    .accesskey = 自
 collect-outgoing-description = 手動建立或新增聯絡人時會儲存的位置。
 save-added-contacts-label =
     .value = 將手動新增的聯絡人儲存至：
