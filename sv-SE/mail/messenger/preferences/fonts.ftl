@@ -12,12 +12,16 @@ fonts-label-default-unnamed =
 fonts-character-set-legend =
     .value = Teckenuppsättning:
     .accesskey = T
+font-main-style-label =
+    .value = Stil för huvudteckensnitt:
+    .accesskey = h
 fonts-language-legend =
     .value = Teckensnitt för:
     .accesskey = c
 fonts-proportional-label =
     .value = Variabel bredd:
     .accesskey = V
+text-font-options-dialog-title = Alternativ för text och teckensnitt
 
 ## Languages
 
@@ -95,6 +99,9 @@ font-size-monospace-label =
     .accesskey = o
 font-serif-label =
     .value = Serif:
+    .accesskey = S
+sans-serif-font-label =
+    .value = Sans-serif typsnitt:
     .accesskey = S
 font-sans-serif-label =
     .value = Sans-serif:

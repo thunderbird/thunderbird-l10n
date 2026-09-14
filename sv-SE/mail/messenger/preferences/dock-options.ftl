@@ -28,3 +28,4 @@ count-new-messages-radio =
     .label = Antal nya meddelanden
     .accesskey = n
 notification-settings-info2 = Du kan inaktivera märket i aviseringsfältet i systeminställningar.
+dock-icon-notification-dialog-title = Aviseringsinställningar för appikon

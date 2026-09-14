@@ -91,9 +91,9 @@ no-proxy-example = 範例: .mozilla.org, .net.tw, 192.168.1.0/24
 # Do not translate "localhost", "127.0.0.1/8" and "::1". (You can translate "and".)
 connection-proxy-local-network-desc = 區域網路連線（例如 localhost）不會透過 Proxy 連線。
 proxy-auto-login-saved-password =
-    .label = 儲存密碼後自動登入
-    .tooltiptext = 勾選此選項後，若您已將密碼儲存起來，連線時就不會再詢問您密碼。驗證失敗後才會再向您詢問。
-    .accesskey = 儲
+    .label = 若已儲存密碼則自動登入
+    .tooltiptext = 勾選此選項後，若您已儲存密碼，連線時就不會再次向您詢問。若驗證失敗才會再提示您。
+    .accesskey = i
 proxy-socks-remote-dns =
     .label = 透過 SOCKS v5 代理伺服器查詢網域名稱（DNS）
     .accesskey = d
