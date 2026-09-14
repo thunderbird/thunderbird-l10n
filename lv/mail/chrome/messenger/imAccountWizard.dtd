@@ -11,7 +11,7 @@
 <!ENTITY accountPasswordTitle.label "Parole">
 <!ENTITY accountPasswordInfo.label "Lūdzu, ievadiet savu paroli laukā zemāk.">
 <!ENTITY accountPasswordField.label "Parole:">
-<!ENTITY accountPasswordManager.label "Šeit ievadītā parole tiks saglabāta Paroļu pārvaldniekā. Atstājiet šo rūtiņu tukšu, ja vēlaties, lai katru reizi, kad tiek izveidots savienojums ar šo kontu, jums tiek prasīta parole.">
+<!ENTITY accountPasswordManager.label "Šeit ievadītā parole tiks saglabāta paroļu pārvaldniekā. Atstāt šo rūtiņu tukšu, ja ir vēlēšanās, lai katru reizi, kad tiek izveidots savienojums ar šo kontu, tiek vaicāta parole.">
 <!ENTITY accountAdvancedTitle.label "Papildu iespējas">
 <!ENTITY accountAdvancedInfo.label "Ja vēlaties, droši izlaidiet šo soli.">
 <!ENTITY accountAdvanced.newMailNotification.label "Paziņot par jaunu pastu">
