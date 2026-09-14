@@ -104,6 +104,9 @@ update-in-progress-ok-button = &Vazgeç
 update-in-progress-cancel-button = &Devam et
 account-button = Hesap Ayarları
 open-addons-sidebar-button = Eklentiler ve Temalar
+clear-temp-files-button =
+    .label = Geçici dosyaları temizle
+    .accesskey = G
 
 ## OS Authentication dialog
 
@@ -170,6 +173,7 @@ mail-play-sound-label =
 mail-play-button =
     .label = Çal
     .accesskey = l
+change-dock-icon-description = Uygulama rozetleri ve bildirimleri
 change-dock-icon = Uygulama simgesi tercihlerini değiştir
 app-icon-options =
     .label = Uygulama simgesi seçenekleri…

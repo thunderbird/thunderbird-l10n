@@ -3,6 +3,13 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 offline-dialog-title = Definições do modo offline
+autodetect-connection-label =
+    .label = Mudar automaticamente de modos quando for detetada uma ligação à internet
+    .accesskey = d
+offline-startup-label = Quando abrir o { -brand-short-name }:
+status-radio-last-used =
+    .label = Usar o último modo de ligação utilizado
+    .accesskey = U
 autodetect-online-label =
     .label = Seguir automaticamente o estado online detetado
     .accesskey = d

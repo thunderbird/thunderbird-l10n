@@ -21,6 +21,7 @@ fonts-language-legend =
 fonts-proportional-label =
     .value = Proporcional:
     .accesskey = P
+text-font-options-dialog-title = Opções de texto & tipo de letra
 
 ## Languages
 
@@ -99,6 +100,9 @@ font-size-monospace-label =
 font-serif-label =
     .value = Serifa:
     .accesskey = S
+sans-serif-font-label =
+    .value = Tipo de letra Sans-serif:
+    .accesskey = n
 font-sans-serif-label =
     .value = Sem serifa:
     .accesskey = e
@@ -119,6 +123,13 @@ use-document-fonts-checkbox =
     .accesskey = g
 use-fixed-width-plain-checkbox =
     .label = Utilizar largura fixa para mensagens sem formatação
+    .accesskey = x
+message-font-permissions-legend = Permissões dos tipos de letra nas mensagens
+allow-incoming-fonts-checkbox =
+    .label = Permitir que as mensagens recebidas utilizem os seus próprios tipos de fontes
+    .accesskey = o
+display-fixed-width-plain-checkbox =
+    .label = Apresentar mensagens de texto simples num tipo de letra de largura fixa
     .accesskey = x
 
 ## Language settings
