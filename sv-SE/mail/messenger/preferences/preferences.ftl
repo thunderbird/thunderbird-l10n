@@ -183,6 +183,7 @@ mail-play-sound-label =
 mail-play-button =
     .label = Spela upp
     .accesskey = e
+change-dock-icon-description = Appikoner och aviseringar
 change-dock-icon = Ändra inställningar för programsymbol
 app-icon-options =
     .label = Alternativ för programsymbol…
