@@ -21,3 +21,24 @@ event-declined = Tu noraidīji šo uzaicinājumu
 # This will be displayed as notification in the summary dialog if the user
 # hasn't yet responded to an invitation
 event-needs-action = Tu vēl neesi atbildējis(usi) uz šo uzaicinājumu
+# This will be displayed as notification in the summary dialog if the user has
+# accepted the assigned task
+task-accepted = Tu pieņēmi darbošanos pie šī uzdevuma
+# This will be displayed as notification in the summary dialog if the user has
+# accepted tentatively the assigned task.
+task-tentative = Tu varbūtēji pieņēmi darbošanos pie šī uzdevuma
+# This will be displayed as notification in the summary dialog if the user has
+# declined the assigned task
+task-declined = Tu noraidīji darbošanos pie šī uzdevuma
+# This will be displayed as notification the summary dialog if the user has
+# delegated his/her assignment to one or more others (without attending / working on it his/herself)
+task-delegated = Tu norīkoji darbošanos pie šī uzdevuma
+# This will be displayed as notification in the summary dialog if the user
+# hasn't yet responded to the task assignment
+task-needs-action = Tu vēl neesi sniedzis(gusi) atbildi par šo uzdevumu
+# This will be displayed as notification in the summary dialog if the user
+# is working on an assigned task
+task-in-progress = Tu uzsāki darboties pie šī piešķirtā uzdevuma
+# This will be displayed as notification in the summary dialog if the user
+# has completed the work on this assigned task
+task-completed = Tu pabeidzi darbošanos pie šī piešķirtā uzdevuma

@@ -9,6 +9,8 @@ about-rights-notification-text = { -brand-short-name } ir bezmaksas un atvērtā
 
 ## Content tabs
 
+content-tab-page-loading-icon =
+    .alt = Lapa ielādejas
 content-tab-security-high-icon =
     .alt = Savienojums ir drošs
 content-tab-security-broken-icon =
@@ -66,6 +68,9 @@ open-tabs-warning-confirmation =
 quick-filter-toolbarbutton =
     .label = Ātrais atsijātājs
     .tooltiptext = Atsijāt ziņoas
+redirect-msg-button =
+    .label = Pārvirzīt
+    .tooltiptext = Pārvirzīt atlasīto ziņojumu
 
 ## Folder Pane
 
