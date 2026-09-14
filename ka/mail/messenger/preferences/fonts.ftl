@@ -128,6 +128,9 @@ message-font-permissions-legend = წერილის შრიფტის �
 allow-incoming-fonts-checkbox =
     .label = შემომავალი წერილებისთვის საკუთარი შრიფტის გამოყენების ნებართვა
     .accesskey = ო
+display-fixed-width-plain-checkbox =
+    .label = ტექსტური წერილების ჩვენება თანაბარსიგანიანი შრიფტით
+    .accesskey = ტ
 
 ## Language settings
 
