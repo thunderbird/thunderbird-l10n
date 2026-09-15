@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 attachment-reminder-dialog-title = Klíčová slova pro připomenutí přílohy
+attachment-reminder-description = Zobrazit upozornění na chybějící přílohy, pokud e-mail obsahuje odpovídající klíčová slova.
 attachment-reminder-label = { -brand-short-name } vás upozorní na zapomenutou přílohu, pokud pošlete e-mail obsahující některé z následujících slov.
 keyword-new-button =
     .label = Nový…

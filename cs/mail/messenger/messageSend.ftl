@@ -75,6 +75,7 @@ send-undisclosed-recipients = undisclosed-recipients (utajeni adresati)
 # Variables:
 # $recipient - recipient address
 smtp-error-illegal-local-part = Místní část adresy příjemce { $recipient } obsahuje znaky mimo ASCII, ale váš server nepodporuje SMTPUTF8. Změňte prosím adresu a zkuste to znovu.
+smtp-error-no-recipients = Pro doručení přes SMTP nebyli zadáni žádní příjemci.
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = SMTP server { $hostname } nepodporuje šifrovaná hesla. Pokud jste tento účet právě založili, změňte v dialogu Nastavení účtu | Nastavení serveru metodu autentizace na ‘Heslo, nezabezpečený přenos’. Pokud už tento účet fungoval, mohlo by se jednat o pokus ukrást vaše heslo.

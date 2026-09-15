@@ -26,6 +26,7 @@ proxy-settings-controlled-by-extension =
         [with-cases] Připojení { -brand-short-name(case: "gen") } k internetu spravuje rozšíření <img data-l10n-name="extension-icon" alt="" /> { $name }.
        *[no-cases] Připojení aplikace { -brand-short-name } k internetu spravuje rozšíření <img data-l10n-name="extension-icon" alt="" /> { $name }.
     }
+connection-internet-proxy-legend = Připojení k Internetu a proxy server
 connection-proxy-legend = Nastavení proxy serverů pro přístup k internetu
 proxy-type-no =
     .label = Bez proxy serveru
