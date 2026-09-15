@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 attachment-reminder-dialog-title = Cuvinte cheie pentru verificarea lipsei atașamentelor
+attachment-reminder-description = Afișează un memento pentru atașamente lipsă dacă mesajul conține cuvinte-cheie potrivite.
 attachment-reminder-label = { -brand-short-name } te va avertiza dacă ai uitat să atașezi fișierele pe baza cuvintelor-cheie de aici care sunt găsite în mesaj.
 keyword-new-button =
     .label = Nou…
