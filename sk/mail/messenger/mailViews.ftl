@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 mail-view-known-people = Ľudia, ktorých poznám
-mail-view-recent = Posledné správy
+mail-view-recent = Nedávne správy
 mail-view-last-five-days = Posledných 5 dní
 mail-view-not-spam = Nie je to nevyžiadaná správa
 mail-view-has-attachments = Má prílohy

@@ -11,7 +11,7 @@
 <!ENTITY closeTabCmd2.accesskey "Z">
 <!ENTITY closeOtherTabsCmd2.label "Zavrieť ostatné karty">
 <!ENTITY closeOtherTabsCmd2.accesskey "a">
-<!ENTITY recentlyClosedTabsCmd.label "Naposledy zatvorené karty">
+<!ENTITY recentlyClosedTabsCmd.label "Nedávno zatvorené karty">
 <!ENTITY recentlyClosedTabsCmd.accesskey "N">
 <!ENTITY undoCloseTabCmd.commandkey "T">
 <!-- LOCALIZATION NOTE (moveToNewWindow.label):
@@ -284,7 +284,7 @@
 <!ENTITY prevStarredMsgCmd.accesskey "h">
 <!ENTITY folderMenu.label "Priečinok">
 <!ENTITY folderMenu.accesskey "e">
-<!ENTITY goRecentlyClosedTabs.label "Naposledy zatvorené karty">
+<!ENTITY goRecentlyClosedTabs.label "Nedávno zatvorené karty">
 <!ENTITY goRecentlyClosedTabs.accesskey "a">
 <!ENTITY startPageCmd.label "Úvodná stránka">
 <!ENTITY startPageCmd.accesskey "v">
@@ -336,7 +336,7 @@
 <!ENTITY createFilter.accesskey "f">
 <!ENTITY moveMsgToMenu.label "Presunúť do">
 <!ENTITY moveMsgToMenu.accesskey "r">
-<!ENTITY moveCopyMsgRecentMenu.label "Naposledy použité">
+<!ENTITY moveCopyMsgRecentMenu.label "Nedávno použité">
 <!ENTITY moveCopyMsgRecentMenu.accesskey "N">
 <!ENTITY copyMessageLocation.label "Kopírovať adresu správy">
 <!ENTITY copyMessageLocation.accesskey "s">
@@ -449,7 +449,7 @@
 <!ENTITY importCmd.accesskey "r">
 <!ENTITY exportCmd.label "Exportovať…">
 <!ENTITY exportCmd.accesskey "x">
-<!ENTITY clearRecentHistory.label "Vymazať históriu…">
+<!ENTITY clearRecentHistory.label "Vymazať nedávnu históriu…">
 <!ENTITY clearRecentHistory.accesskey "h">
 <!ENTITY accountManagerCmd2.label "Nastavenia účtu">
 <!ENTITY accountManagerCmd2.accesskey "N">
@@ -693,7 +693,7 @@
 <!ENTITY contextMoveMsgMenu.accesskey "P">
 <!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Nedávne umiestnenia">
 <!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "N">
-<!ENTITY contextMoveCopyMsgRecentMenu.label "Naposledy použité">
+<!ENTITY contextMoveCopyMsgRecentMenu.label "Nedávno použité">
 <!ENTITY contextMoveCopyMsgRecentMenu.accesskey "N">
 <!ENTITY contextMoveCopyMsgFavoritesMenu.label "Obľúbené položky">
 <!ENTITY contextMoveCopyMsgFavoritesMenu.accesskey "O">
