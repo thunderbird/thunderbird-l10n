@@ -101,13 +101,44 @@ imip-bar-request-text = Šis ziņojums satur uzaicinājumu uz notikumu.
 imip-bar-sent-text = Šis ziņojums satur nosūtītu notikumu.
 imip-bar-sent-but-removed-text = Šis ziņojums satur nosūtītu notikumu, kas vairs nav kalendārā.
 imip-bar-update-text = Šis ziņojums satur esoša notikuma atjauninājumu.
+imip-bar-update-multiple-text = Šis ziņojums satur vairāku esošu notikumu atjauninājumu.
+imip-bar-update-series-text = Šis ziņojums satur esoša secīgu notikumu kopuma atjauninājumu.
+imip-bar-already-processed-text = Šis ziņojums satur notikumu, kas jau ir apstrādāts.
+imip-bar-processed-needs-action = Šis ziņojums satur notikumu, uz kur vēl neatbildēji.
+imip-bar-processed-multiple-needs-action = Šis ziņojums satur vairākus notikumus, uz kuriem vēl neatbildēji.
+imip-bar-processed-series-needs-action = Šis ziņojums satur secīgu notikumu kopumu, uz kuru vēl neatbildēji.
+imip-bar-reply-text = Šis ziņojums satur atbildi uz uzaicinājumu.
+imip-bar-reply-to-not-existing-item = Šis ziņojums satur atbildi, kas atsaucas uz notikumu, kura nav kalendārā.
+# Variables:
+#   $deletionTime (String) - The formatted time the event was removed from the calendar.
+imip-bar-reply-to-recently-removed-item = Šis ziņojums satur atbildi, kas atsaucas uz notikumu, kas tika noņemts no kalendāra { $deletionTime }.
+# Variables:
+#   $status (String) - The hexadecimal status code of the failed processing.
+imip-bar-processing-failed = Ziņojuma apstrāde neizdevās. Stāvoklis: { $status }.
+imip-bar-calendar-deactivated = Šis ziņojums satur informāciju par notikumu. Jāiespējo kalendārs, lai to apstrādātu.
 imip-bar-not-writable = Neviens rakstāms kalendārs nav konfigurēts uzaicinājumiem. Lūgums pārbaudīt kalendāra īpašības.
+imip-no-calendar-available = Nav pieejams neviens rakstāms kalendārs.
+
+## Sending invitation emails
+
+imip-send-mail-title = E-pasta paziņojums
+imip-send-mail-text = Vai tagad izsūtīt paziņojuma e-pastu?
+
+## Calendar email identity
+
+imip-no-identity = Neviena
+no-identity-selected-notification = Ja vēlies izmantot šo kalendāru, lai saglabātu uzaicinājumus citiem vai no citiem cilvēkiem, zemāk vajadzētu piešķirt e-pasta identitāti.
 
 ## Invitations panel
 
 # Variables:
 #   $count (Number) - The number of pending invitations.
 invitations-link-label = Uzaicinājumi: { $count }
+
+## Process invitation confirmation prompt
+
+confirm-process-invitation = Tu nesen izdzēsi šo vienumu. Vai tiešām apstrādāt šo uzaicinājumu?
+confirm-process-invitation-title = Apstrādāt uzaicinājumu?
 
 ## iTIP email subjects and bodies
 
