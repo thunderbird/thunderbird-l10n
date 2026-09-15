@@ -22,13 +22,13 @@ disable-extension-button = Wyłącz rozszerzenie
 # The extension-icon is the extension's icon, or a fallback image. It should be
 # purely decoration for the actual extension name, with alt="".
 proxy-settings-controlled-by-extension = Rozszerzenie „{ $name }” <img data-l10n-name="extension-icon" alt="" /> kontroluje, jak { -brand-short-name } łączy się z Internetem.
-connection-internet-proxy-legend = Połączenie internetowe i serwer proxy
+connection-internet-proxy-legend = Połączenie internetowe i serwery proxy
 connection-proxy-legend = Konfiguracja serwerów proxy do połączenia z Internetem
 proxy-type-no =
     .label = Bez serwera proxy
     .accesskey = B
 proxy-autodetect-network =
-    .label = Automatyczne wykrywanie sieciowego serwera proxy
+    .label = Automatyczne wykrywanie sieciowych serwerów proxy
     .accesskey = w
 proxy-type-wpad =
     .label = Automatycznie wykrywaj ustawienia serwerów proxy dla tej sieci
@@ -37,7 +37,7 @@ proxy-type-system =
     .label = Używaj systemowych ustawień serwerów proxy
     .accesskey = w
 proxy-manual-setup =
-    .label = Ręczna konfiguracja serwera proxy:
+    .label = Ręczna konfiguracja serwerów proxy:
     .accesskey = k
 proxy-type-manual =
     .label = Ręczna konfiguracja serwerów proxy:
