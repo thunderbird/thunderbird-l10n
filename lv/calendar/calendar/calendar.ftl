@@ -195,3 +195,7 @@ sendandclose-button =
 saveandsend-button =
     .label = Saglabāt un nosūtīt
     .tooltiptext = Saglabāt un paziņot apmeklētājiem
+# Variables:
+#   $calendarName (String) - Calendar name as given by the user.
+#   $location (String) - The calendar server location.
+calendar-auth-enter-user-password-for-calendar = “{ $calendarName }” ({ $location }) pieprasa Tavu lietotājvārdu un paroli.
