@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 attachment-reminder-dialog-title = Ek Hatırlatıcı Anahtar Kelimeler
+attachment-reminder-description = E-postada belli anahtar kelimeler geçiyorsa unutulan ekler için anımsatıcı göster.
 attachment-reminder-label = Aşağıdaki anahtar kelimeleri içeren bir e-posta göndermek üzereyseniz, { -brand-short-name } sizi unutulan ekler hakkında uyaracak.
 keyword-new-button =
     .label = Yeni…

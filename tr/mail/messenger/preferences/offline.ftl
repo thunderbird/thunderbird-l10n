@@ -3,6 +3,22 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 offline-dialog-title = Çevrimdışı Ayarları
+going-online-send =
+    .label = Evet, otomatik gönder
+    .accesskey = E
+going-online-ask-send =
+    .label = Göndermeden önce sor
+    .accesskey = ö
+going-offline-prompt = İletileri çevrimdışı okumak üzere indirmek ister misiniz?
+going-offline-download =
+    .label = Evet, otomatik indir
+    .accesskey = E
+going-offline-keep =
+    .label = Hayır, indirme
+    .accesskey = H
+going-offline-ask-download =
+    .label = İndirmeden önce sor
+    .accesskey = n
 autodetect-online-label =
     .label = Bağlı olup olunmadığını kendiliğinden izle
     .accesskey = z

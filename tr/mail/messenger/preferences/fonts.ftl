@@ -9,12 +9,19 @@ fonts-label-default =
     .label = Varsayılan ({ $name })
 fonts-label-default-unnamed =
     .label = Varsayılan
+fonts-character-set-legend =
+    .value = Karakter kümesi:
+    .accesskey = r
+font-main-style-label =
+    .value = Ana yazı tipi stili:
+    .accesskey = n
 fonts-language-legend =
     .value = Dil:
     .accesskey = D
 fonts-proportional-label =
     .value = Orantılı:
     .accesskey = O
+text-font-options-dialog-title = Metin ve yazı tipi seçenekleri
 
 ## Languages
 
@@ -93,6 +100,9 @@ font-size-monospace-label =
 font-serif-label =
     .value = Serif:
     .accesskey = S
+sans-serif-font-label =
+    .value = Sans-serif yazı tipi:
+    .accesskey = n
 font-sans-serif-label =
     .value = Sans-serif:
     .accesskey = n
@@ -114,6 +124,10 @@ use-document-fonts-checkbox =
 use-fixed-width-plain-checkbox =
     .label = Düz metin iletilerde sabit genişlikli yazı tipi kullan
     .accesskey = l
+message-font-permissions-legend = İleti yazı tipi izinleri
+allow-incoming-fonts-checkbox =
+    .label = Gelen iletilerin kendi yazı tiplerini kullanmasına izin ver
+    .accesskey = G
 
 ## Language settings
 
