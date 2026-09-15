@@ -147,6 +147,31 @@ confirm-process-invitation-title = Apstrādāt uzaicinājumu?
 itip-request-subject = Uzaicinājums: { $summary }
 # Variables:
 #   $summary (String) - The event title.
+itip-request-updated-subject = Atjaunināts: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-request-body = { $organizer } uzaicināja Tevi uz { $summary }
+# Variables:
+#   $summary (String) - The event title.
+itip-cancel-subject = Atcelts: { $summary }
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-cancel-body = { $organizer } atcēla šo notikumu: { $summary }
+# Variables:
+#   $attendee (String) - The attendee who made the counterproposal.
+#   $summary (String) - The event title.
+itip-counter-body = { $attendee } iesniedza pretpriekšlikumu “{ $summary }”:
+# Variables:
+#   $organizer (String) - The event organizer.
+#   $summary (String) - The event title.
+itip-decline-counter-body = { $organizer } noraidīja Tavu pretpriekšlikumu par “{ $summary }”.
+# Variables:
+#   $summary (String) - The event title.
+itip-decline-counter-subject = Pretpriekšlikums noraidīts: { $summary }
+# Variables:
+#   $summary (String) - The event title.
 itip-reply-subject = Atbilde uz uzaicinājumu: { $summary }
 # Variables:
 #   $summary (String) - The event title.
