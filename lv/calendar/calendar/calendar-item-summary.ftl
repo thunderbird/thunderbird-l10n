@@ -4,6 +4,7 @@
 
 header-comment =
     .value = Piebilde
+calendar-item-summary-title = Virsraksts:
 calendar-item-summary-calendar = Kalendārs:
 calendar-item-summary-task-start = Sākuma datums:
 calendar-item-summary-event-start = Sākuma datums:
@@ -23,6 +24,8 @@ calendar-item-summary-todo-status-cancelled = Atcelts
 calendar-item-summary-status-needs-action = Nepieciešama rīcība
 calendar-item-summary-status-in-process = Notiekošs
 calendar-item-summary-status-completed = Pabeigts
+calendar-item-summary-reminder-none =
+    .label = Nav atgādinājumu
 calendar-item-summary-reminder-0-minutes-before =
     .label = Pirms mazāk nekā minūtes
 calendar-item-summary-reminder-5-minutes-before =

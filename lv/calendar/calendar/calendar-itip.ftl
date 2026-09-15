@@ -9,6 +9,8 @@ calendar-tab-title-tasks = Uzdevumi
 ## Email invitation preview (HTML rendering of an iTIP invitation)
 
 imip-html-header = Uzaicinājums uz notikumu
+# Field labels of the invitation preview table.
+imip-html-summary = Virsraksts:
 imip-html-location = Norises vieta:
 imip-html-when = Kad:
 imip-html-organizer = Rīkotājs:
@@ -17,9 +19,15 @@ imip-html-attachments = Pielikumi:
 imip-html-comment = Piebilde:
 imip-html-attendees = Dalībnieki:
 imip-html-url = Saistītā saite:
+imip-html-canceled-occurrences = Atceltie gadījumi:
+imip-html-modified-occurrences = Mainītie gadījumi:
 # Variables:
 #   $location (String) - The new location of a modified occurrence.
 imip-html-new-location = Jauna norises vieta: { $location }
+# Appended behind an attendee name in the email invitation preview.
+# Variables:
+#   $delegators (String) - A single delegator or a comma separated list of delegators.
+imip-html-attendee-delegated-from = ({ $delegator } norīkoja)
 # Tooltip for the attendee icon, composed from the role and the participation
 # status sentences.
 # Variables:
@@ -33,6 +41,9 @@ imip-html-attendee-role-chair = { $userType } vada notikumu.
 # Variables:
 #   $userType (String) - One of the imip-html-attendee-user-type-* strings.
 imip-html-attendee-role-non-participant = { $userType } nav dalībnieks.
+# Variables:
+#   $userType (String) - One of the imip-html-attendee-user-type-* strings.
+imip-html-attendee-role-opt-participant = { $userType } piedalīšanās nav nepieciešama.
 # Variables:
 #   $userType (String) - One of the imip-html-attendee-user-type-* strings.
 imip-html-attendee-role-req-participant = { $userType } ir nepieciešams dalībnieks.
@@ -62,6 +73,9 @@ imip-html-attendee-user-type-individual = { $attendee }
 imip-html-attendee-user-type-group = { $attendee } (kopa)
 # Variables:
 #   $attendee (String) - Common name or email address of the attendee.
+imip-html-attendee-user-type-resource = { $attendee } (resurss)
+# Variables:
+#   $attendee (String) - Common name or email address of the attendee.
 imip-html-attendee-user-type-room = { $attendee } (telpa)
 # Variables:
 #   $attendee (String) - Common name or email address of the attendee.
@@ -86,6 +100,7 @@ imip-bar-publish-text = Šis ziņojums satur notikumu.
 imip-bar-request-text = Šis ziņojums satur uzaicinājumu uz notikumu.
 imip-bar-sent-text = Šis ziņojums satur nosūtītu notikumu.
 imip-bar-sent-but-removed-text = Šis ziņojums satur nosūtītu notikumu, kas vairs nav kalendārā.
+imip-bar-update-text = Šis ziņojums satur esoša notikuma atjauninājumu.
 imip-bar-not-writable = Neviens rakstāms kalendārs nav konfigurēts uzaicinājumiem. Lūgums pārbaudīt kalendāra īpašības.
 
 ## Invitations panel

@@ -76,6 +76,7 @@ calendar-invitation-interval-same-day = { $startDate } <b>{ $startTime }</b> –
 # $endTime   (String) - The time the interval ends.
 # $timezone  (String) - The timezone the interval is in.
 calendar-invitation-interval-several-days = { $startDate } <b>{ $startTime }</b> – { $endDate } <b>{ $endTime }</b> { $timezone }
+calendar-invitation-panel-prop-title-recurrence = Atkārtojas:
 calendar-invitation-panel-prop-title-attendees = Dalībnieki:
 calendar-invitation-panel-prop-title-description = Apraksts:
 # Variables:

@@ -183,7 +183,7 @@ counter-tentative = { $name } pieņēma ielūgumu tikai varbūtēji un izteica p
 counter-declined = { $name } noraidīja ielūgumu, bet izteica pretēju priekšlikumu:
 # Variables:
 #   $name - The name of responding invitee.
-counter-delegated = { $name } nodeva ielūgumu, bet sniedza pretēju priekšlikumu:
+counter-delegated = { $name } norīkoja ielūgumu, bet sniedza pretēju priekšlikumu:
 # Variables:
 #   $name - The name of responding invitee.
 counter-needs-action = { $name } neizlēma, vai piedalīties, un iesniedza priekšlikumu:

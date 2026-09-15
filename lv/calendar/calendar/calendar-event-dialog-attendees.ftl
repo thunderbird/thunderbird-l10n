@@ -12,6 +12,7 @@ event-attendee-role-chair =
 event-attendee-role-unknown =
     .title = Neiznāms dalībnieks ({ $role })
 event-attendee-usertype-group = Kopa
+event-attendee-usertype-resource = Resurss
 event-attendee-usertype-room = Telpa
 # $userType
 event-attendee-usertype-unknown = Nezināms veids ({ $userType })
