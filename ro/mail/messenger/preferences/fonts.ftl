@@ -12,12 +12,16 @@ fonts-label-default-unnamed =
 fonts-character-set-legend =
     .value = Set de caractere:
     .accesskey = t
+font-main-style-label =
+    .value = Stil font principal:
+    .accesskey = f
 fonts-language-legend =
     .value = Fonturi pentru:
     .accesskey = t
 fonts-proportional-label =
     .value = Proporțional:
     .accesskey = P
+text-font-options-dialog-title = Opțiuni text și font
 
 ## Languages
 
@@ -96,6 +100,9 @@ font-size-monospace-label =
 font-serif-label =
     .value = Cu serife:
     .accesskey = s
+sans-serif-font-label =
+    .value = Font sans-serif:
+    .accesskey = n
 font-sans-serif-label =
     .value = Fără serife:
     .accesskey = n
@@ -116,6 +123,13 @@ use-document-fonts-checkbox =
     .accesskey = o
 use-fixed-width-plain-checkbox =
     .label = Folosește font de lățime fixă pentru mesajele în text simplu
+    .accesskey = x
+message-font-permissions-legend = Permisiuni font mesaje
+allow-incoming-fonts-checkbox =
+    .label = Permite ca mesajele primite să utilizeze fonturile proprii
+    .accesskey = o
+display-fixed-width-plain-checkbox =
+    .label = Afișează mesajele cu text simplu cu un font cu lățime fixă
     .accesskey = x
 
 ## Language settings
