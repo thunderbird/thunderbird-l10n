@@ -21,6 +21,15 @@ smime-crypto-key-encryption = Anahtar şifreleme algoritması:
 # $keySize - The key size in bits (e.g. "256")
 smime-crypto-cipher-with-key-size = { $algorithm } ({ $keySize } bit)
 smime-crypto-details-summary = Algoritmalar
+# $errorMsg A sentence that explains the error.
+# $errorCodeStr A human readable error code, e.g. SEC_ERROR_UNKNOWN_ISSUER
+# Note the initial empty line is necessary to preserve the line breaks.
+configured-cert-failure-use-anyway-detail-v2 =
+    Bu sertifikada bir sorun var.
+    
+    Sertifika doğrulanırken şu hata oluştu: { $errorMsg } (Hata kodu: { $errorCodeStr })
+    
+    Yine de bu sertifikayı kullanmak istiyor musunuz?
 # $errorCode A numeric error code
 # Note the initial empty line is necessary to preserve the line breaks.
 configured-cert-failure-use-anyway-v2 =

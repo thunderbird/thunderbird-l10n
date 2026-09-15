@@ -9,6 +9,8 @@
 calendar-dialog-close-button =
     .aria-label = Kapat
     .title = Kapat
+calendar-event-create-edit-dialog =
+    .aria-label = Etkinlik
 calendar-dialog-menu-button =
     .aria-label = Menüyü aç
     .title = Menüyü aç

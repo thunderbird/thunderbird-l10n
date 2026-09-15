@@ -23,7 +23,7 @@ disable-extension-button = Uzantıyı etkisizleştir
 # purely decoration for the actual extension name, with alt="".
 proxy-settings-controlled-by-extension = { -brand-short-name } uygulamasının internete nasıl bağlanacağını <img data-l10n-name="extension-icon" alt="" /> { $name } adlı uzantı kontrol ediyor.
 connection-internet-proxy-legend = İnternet bağlantısı ve vekil sunucu
-connection-proxy-legend = İnternete Erişmek İçin Vekil Sunucuları Yapılandırın
+connection-proxy-legend = İnternete erişmek için vekil sunucuları yapılandır
 proxy-type-no =
     .label = Vekil sunucu kullanma
     .accesskey = n
@@ -52,7 +52,7 @@ proxy-https-sharing =
     .label = Güvenli web adresleri (HTTPS) için bu vekil sunucuyu kullan
     .accesskey = G
 proxy-http-sharing =
-    .label = HTTPS için de bu vekil sunucusunu kullan
+    .label = HTTPS için de bu vekil sunucuyu kullan
     .accesskey = v
 proxy-https-label =
     .value = HTTPS vekil sunucusu:
