@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 offline-dialog-title = Nastajenja offline
+offline-startup-label = Gaž se { -brand-short-name } wócynja:
 status-radio-start-online =
     .label = Online zachopiś
     .accesskey = n

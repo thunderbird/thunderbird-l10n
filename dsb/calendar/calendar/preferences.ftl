@@ -15,6 +15,10 @@ dateformat-long =
 #   $date (String) - the formatted example date
 dateformat-short =
     .label = Krotki: { $date }
+auto-detect-timezone-radio-button =
+    .label = Casowa cona awtomatiski namakaś
+manually-set-timezone-radio-button =
+    .label = Casowa cona manuelnje nastajiś
 use-system-timezone-radio-button =
     .label = Systemowu casowu conu wužywaś
 set-timezone-manually-radio-button =

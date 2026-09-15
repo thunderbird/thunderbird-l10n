@@ -32,6 +32,7 @@ policy-DisableDataCollectionSettings = Tomu zajźowaś, až wužywaŕ nastajenja
 policy-DisableDefaultClientAgent = Zawoborajśo standardnemu klientowemu agentoju wuwjedowanje akcijow. To jo jano za Windows k dispoziciji; druge platformy agent njamaju.
 policy-DisableDeveloperTools = Pśistup k wuwijarskim rědam blokěrowaś.
 policy-DisableFeedbackCommands = Pśikaze znjemóžniś, kótarež komentary z menija Pomoc sćelu (Pósudk pósłaś a Wobšudnikojske sedło k wěsći daś)
+policy-DisableFileLink = Funkciju Filelink znjemóžniś.
 policy-DisableForgetButton = Pśistupoju k tłocaškoju Zabyś zajźowaś.
 policy-DisableFormHistory = Pytańsku a formularnu historiju se njespomnjeś.
 policy-DisableMasterPasswordCreation = Jolic to trjefijo, njedajo se głowne gronidło napóraś.

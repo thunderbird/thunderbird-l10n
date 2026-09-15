@@ -9,12 +9,19 @@ fonts-label-default =
     .label = Standard ({ $name })
 fonts-label-default-unnamed =
     .label = Standard
+fonts-character-set-legend =
+    .value = Znamjenjowa sajźba:
+    .accesskey = m
+font-main-style-label =
+    .value = Głowna pismowa družyna:
+    .accesskey = G
 fonts-language-legend =
     .value = Pisma:
     .accesskey = P
 fonts-proportional-label =
     .value = Proporcionalne:
     .accesskey = r
+text-font-options-dialog-title = Tekstowe a pismowe nastajenja
 
 ## Languages
 
@@ -93,6 +100,9 @@ font-size-monospace-label =
 font-serif-label =
     .value = Serif:
     .accesskey = S
+sans-serif-font-label =
+    .value = Pismo sans serif:
+    .accesskey = n
 font-sans-serif-label =
     .value = Sans-serif:
     .accesskey = n
