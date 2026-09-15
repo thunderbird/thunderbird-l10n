@@ -75,6 +75,7 @@ send-undisclosed-recipients = ukryci-adresaci
 # Variables:
 # $recipient - recipient address
 smtp-error-illegal-local-part = W części adresu odbiorcy („{ $recipient }”) opisującej użytkownika, znajdują się znaki spoza zakresu ASCII, a używany serwer nie obsługuje SMTPUTF8. Proszę zmienić adres i spróbować ponownie.
+smtp-error-no-recipients = Nie określono odbiorców dla protokołu SMTP.
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = Serwer „{ $hostname }” poczty wychodzącej (SMTP) wydaje się nie obsługiwać uwierzytelniania przy pomocy szyfrowanych haseł. Proszę spróbować zmienić metodę uwierzytelniania na Hasło przesyłane otwartym tekstem w Poczta wychodząca w Konfiguracji kont, jeżeli jest to nowo utworzone konto. Jeżeli wybrana metoda uwierzytelniania działała wcześniej dla tego konta i nagle przestała, może to być oznaką próby wykradzenia hasła.

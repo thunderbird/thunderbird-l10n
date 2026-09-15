@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 attachment-reminder-dialog-title = Przypomnienia o brakujących załącznikach
+attachment-reminder-description = Wyświetl przypomnienie o brakujących załącznikach, jeśli wiadomość e-mail zawiera pasujące słowa kluczowe.
 attachment-reminder-label = Program { -brand-short-name } ostrzeże przed wysłaniem wiadomości bez załączników, gdy w treści wystąpi przynajmniej jedno z następujących słów kluczowych:
 keyword-new-button =
     .label = Nowe…
