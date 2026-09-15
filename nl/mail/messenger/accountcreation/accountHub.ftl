@@ -258,6 +258,7 @@ account-hub-oauth-unsupported-title = Aanvullende configuratie vereist
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
 account-hub-oauth-unsupported-description = { -brand-short-name } kan OAuth2 niet automatisch configureren voor deze hostnaam. Selecteer Geavanceerde configuratie om de account aan te maken en voltooi daarna de installatie vanuit Accountinstellingen. <a data-l10n-name="oauth-support-link">Hulp bij het instellen van OAuth2.</a>
 account-hub-username-help-text = Meestal uw volledige e-mailadres
+account-hub-port-help-text = Indien leeg wordt gelaten, zal { -brand-short-name } proberen de poort te ontdekken.
 account-hub-notification-show-more = Meer tonen
 account-hub-notification-show-less = Minder tonen
 account-hub-email-setup-header = Uw e-mailadres toevoegen

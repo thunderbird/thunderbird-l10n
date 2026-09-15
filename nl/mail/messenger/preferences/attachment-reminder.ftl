@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 attachment-reminder-dialog-title = Sleutelwoorden voor bijlageherinnering
+attachment-reminder-description = Een herinnering voor ontbrekende bijlagen tonen als het e-mailbericht overeenkomende trefwoorden bevat.
 attachment-reminder-label = { -brand-short-name } zal u waarschuwen voor ontbrekende bijlagen als u een bericht wilt verzenden dat een van de volgende sleutelwoorden bevat.
 keyword-new-button =
     .label = Nieuw…

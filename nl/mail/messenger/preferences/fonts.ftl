@@ -9,12 +9,19 @@ fonts-label-default =
     .label = Standaard ({ $name })
 fonts-label-default-unnamed =
     .label = Standaard
+fonts-character-set-legend =
+    .value = Tekenset:
+    .accesskey = T
+font-main-style-label =
+    .value = Hoofdlettertypestijl:
+    .accesskey = l
 fonts-language-legend =
     .value = Lettertypen voor:
     .accesskey = L
 fonts-proportional-label =
     .value = Proportioneel:
     .accesskey = P
+text-font-options-dialog-title = Tekst- & lettertypeopties
 
 ## Languages
 
@@ -93,6 +100,9 @@ font-size-monospace-label =
 font-serif-label =
     .value = Met schreef:
     .accesskey = s
+sans-serif-font-label =
+    .value = Lettertype Sans-serif:
+    .accesskey = n
 font-sans-serif-label =
     .value = Schreefloos:
     .accesskey = c
@@ -114,6 +124,13 @@ use-document-fonts-checkbox =
 use-fixed-width-plain-checkbox =
     .label = Vastebreedtelettertype gebruiken voor plattetekstberichten
     .accesskey = b
+message-font-permissions-legend = Toestemmingen voor berichtlettertypen
+allow-incoming-fonts-checkbox =
+    .label = Toestaan dat inkomende berichten hun eigen lettertypen gebruiken
+    .accesskey = T
+display-fixed-width-plain-checkbox =
+    .label = Plattetekstberichten weergeven in een lettertype met vaste breedte
+    .accesskey = P
 
 ## Language settings
 

@@ -279,6 +279,8 @@ openpgp-key-details-upgrade-unsafe =
 openpgp-key-details-upgrade-ok = De sleutel is met succes geüpgraded. U moet de geüpgradede openbare sleutel delen met uw contactpersonen.
 openpgp-key-details-algorithm-label =
     .label = Algoritme
+openpgp-key-details-version-label =
+    .label = Versie
 openpgp-key-details-size-label =
     .label = Grootte
 openpgp-key-details-created-label =
@@ -757,6 +759,9 @@ key-in-message-body = Er is een sleutel gevonden in de berichttekst. Klik op ‘
 sig-mismatch = Fout – ondertekening komt niet overeen
 invalid-email = Fout – ongeldig(e) e-mailadres(sen)
 # Variables:
+#   $name (String) - File name of the attachment.
+attachment-pgp-key-import = De bijlage ‘{ $name }’ lijkt een OpenPGP-sleutelbestand te zijn. Wilt u de sleutels uit dit bestand importeren?
+# Variables:
 # $name (String) - File name of the attachment.
 attachment-pgp-key =
     De bijlage ‘{ $name }’ die u probeert te openen lijkt een OpenPGP-sleutelbestand te zijn.
@@ -780,6 +785,8 @@ debug-log-title = OpenPGP-debuglogboek
 dlg-button-ok = &OK
 dlg-button-close = &Sluiten
 dlg-button-cancel = &Annuleren
+dlg-button-open = &Openen…
+dlg-button-save = &Opslaan
 dlg-no-prompt = Dit dialoogvenster niet meer tonen
 enig-prompt = OpenPGP-vraag
 enig-confirm = OpenPGP-bevestiging

@@ -19,6 +19,7 @@ status-radio-start-online =
 status-radio-start-offline =
     .label = Έναρξη εκτός σύνδεσης
     .accesskey = ξ
+going-online-prompt = Αποστολή των εν αναμονή μηνυμάτων του φακέλου «Εξερχόμενα»
 going-online-send =
     .label = Ναι, αυτόματη αποστολή
     .accesskey = Ν

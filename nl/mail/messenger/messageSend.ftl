@@ -75,6 +75,7 @@ send-undisclosed-recipients = niet-openbare ontvangers
 # Variables:
 # $recipient - recipient address
 smtp-error-illegal-local-part = Er komen niet-ASCII-tekens voor in het lokale gedeelte van het ontvangeradres { $recipient } en uw server ondersteunt geen SMTPUTF8. Wijzig dit adres en probeer het opnieuw.
+smtp-error-no-recipients = Er zijn geen geadresseerden opgegeven voor verzending via SMTP.
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = De uitgaande (SMTP-)server { $hostname } lijkt geen versleutelde wachtwoorden te ondersteunen. Als u de account zojuist hebt ingesteld, probeer dan de ‘Authenticatiemethode’ in de ‘Accountinstellingen | Uitgaande server (SMTP)’ naar ‘Wachtwoord, onbeveiligd verzonden’ te wijzigen. Als dit eerder heeft gewerkt en nu ineens niet meer, is dit een veelvoorkomend scenario wanneer iemand uw wachtwoord probeert te stelen.
