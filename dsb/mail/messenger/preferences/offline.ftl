@@ -3,6 +3,24 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 offline-dialog-title = Nastajenja offline
+status-radio-start-online =
+    .label = Online zachopiś
+    .accesskey = n
+status-radio-start-offline =
+    .label = Offline zachopiś
+    .accesskey = f
+going-online-send =
+    .label = Jo, awtomatiski pósłaś
+    .accesskey = J
+going-online-keep =
+    .label = No, we wuchaźe wobchowaś
+    .accesskey = N
+going-online-ask-send =
+    .label = Pśed słanim se pšašaś
+    .accesskey = P
+going-offline-download =
+    .label = Jo, awtomatiski ześěgnuś
+    .accesskey = o
 autodetect-online-label =
     .label = Namakanemu online-statusoju awtomatiski slědowaś
     .accesskey = o
