@@ -15,6 +15,10 @@ dateformat-long =
 #   $date (String) - the formatted example date
 dateformat-short =
     .label = Kort: { $date }
+auto-detect-timezone-radio-button =
+    .label = Automatisk oppdaag tidssone
+manually-set-timezone-radio-button =
+    .label = Still inn tidssone manuelt
 use-system-timezone-radio-button =
     .label = Bruk tidssone til systemet
 set-timezone-manually-radio-button =
