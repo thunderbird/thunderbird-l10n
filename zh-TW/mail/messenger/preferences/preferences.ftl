@@ -36,7 +36,7 @@ general-email-notifications-header = 電子郵件通知
 general-language-and-appearance-header = 語言與外觀
 general-incoming-mail-header = 收到的郵件
 general-files-and-attachment-header = 檔案與附件
-general-files-and-attachment-description = 選擇要儲存哪些檔案以及這些檔案在您電腦上的哪個位置。
+general-files-and-attachment-description = 選擇要儲存哪些檔案，以及儲存到您電腦上的哪個位置。
 general-tags-header = 標籤
 general-reading-and-viewing-header = 閱讀與檢視
 general-reading-and-display-header = 閱讀與顯示
@@ -373,8 +373,8 @@ offline-settings-button =
     .accesskey = O
 temporary-storage-legend = 暫存空間
 offline-compact-remove-deleted =
-    .label = 當資料夾的資料已被刪除後立即移除以釋放儲存空間
-    .accesskey = 當
+    .label = 當資料被刪除後，立即從信件匣刪除以釋放儲存空間
+    .accesskey = a
 offline-compact-ask-cleanup =
     .label = 清理資料夾前先詢問
     .accesskey = b
@@ -425,7 +425,7 @@ default-size-label =
     .accesskey = S
 customize-fonts-button =
     .label = 自訂字型…
-    .accesskey = 自
+    .accesskey = f
 font-options-button =
     .label = 進階…
     .accesskey = A
@@ -501,10 +501,10 @@ auto-mark-as-read =
     .accesskey = A
 mark-read-when-opened =
     .label = 開啟時立即
-    .accesskey = 開
+    .accesskey = o
 show-attachments-inline-label =
     .label = 在訊息內文顯示附件
-    .accesskey = 在
+    .accesskey = m
 mark-read-no-delay =
     .label = 顯示時立刻標示
     .accesskey = o
@@ -519,6 +519,13 @@ mark-read-delay =
     .label = 在顯示
     .accesskey = d
 seconds-label = 秒之後
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
+mark-read-after-viewing =
+    .label = 檢視
+    .accesskey = v
 
 ##
 
@@ -548,8 +555,8 @@ address-display-name =
     .label = 僅姓名
     .accesskey = N
 display-name-only-label =
-    .label = 只對通訊錄中的聯絡人顯示名稱
-    .accesskey = 只
+    .label = 只對已儲存至通訊錄中的聯絡人顯示名稱
+    .accesskey = S
 condensed-addresses-label =
     .label = 顯示通訊錄裡設定的名字
     .accesskey = S
