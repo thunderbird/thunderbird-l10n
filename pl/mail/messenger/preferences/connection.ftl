@@ -94,6 +94,9 @@ proxy-auto-login-saved-password =
     .label = Automatycznie zaloguj w przypadku zapisania hasła
     .tooltiptext = Umożliwia automatyczne uwierzytelnianie na serwerach proxy, jeśli wcześniej zostały zachowane dane logowania. W przypadku nieudanego uwierzytelniania zostanie wyświetlone standardowe pytanie.
     .accesskey = i
+proxy-socks-remote-dns =
+    .label = Kierowanie żądań domeny (DNS) przez serwer proxy SOCKS v5
+    .accesskey = p
 # Do not translate "localhost", "127.0.0.1/8" and "::1". (You can translate "and".)
 connection-proxy-noproxy-localhost-desc-2 = Połączania z localhost, 127.0.0.1/8 i ::1 nigdy nie używają serwera proxy.
 proxy-password-prompt =

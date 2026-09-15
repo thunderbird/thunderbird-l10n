@@ -9,12 +9,19 @@ fonts-label-default =
     .label = Domyślna ({ $name })
 fonts-label-default-unnamed =
     .label = Domyślna
+fonts-character-set-legend =
+    .value = Zestaw znaków:
+    .accesskey = w
+font-main-style-label =
+    .value = Główny styl czcionki:
+    .accesskey = c
 fonts-language-legend =
     .value = Czcionki:
     .accesskey = C
 fonts-proportional-label =
     .value = Proporcjonalna:
     .accesskey = a
+text-font-options-dialog-title = Opcje tekstu i czcionek
 
 ## Languages
 
@@ -93,6 +100,9 @@ font-size-monospace-label =
 font-serif-label =
     .value = Szeryfowa:
     .accesskey = S
+sans-serif-font-label =
+    .value = Czcionka bezszeryfowa:
+    .accesskey = b
 font-sans-serif-label =
     .value = Bezszeryfowa:
     .accesskey = B
@@ -114,6 +124,13 @@ use-document-fonts-checkbox =
 use-fixed-width-plain-checkbox =
     .label = Używaj czcionki o stałej szerokości dla wiadomości wysyłanych jako zwykły tekst
     .accesskey = U
+message-font-permissions-legend = Uprawnienia czcionek wiadomości
+allow-incoming-fonts-checkbox =
+    .label = Zezwól na używanie własnych czcionek w wiadomościach przychodzących
+    .accesskey = o
+display-fixed-width-plain-checkbox =
+    .label = Wyświetl wiadomości tekstowe w czcionce o stałej szerokości
+    .accesskey = s
 
 ## Language settings
 
