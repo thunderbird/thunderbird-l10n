@@ -1132,6 +1132,10 @@ attachments-tab-label = Bilagor ({ $count }):
 calendar-window-title = { $docTitle } - { -brand-full-name }
 calendar-window-title-base = { -brand-full-name }
 # Variables:
+#   $calendarName (String) - Calendar name as given by the user.
+#   $location (String) - The calendar server location.
+calendar-auth-enter-user-password-for-calendar = ”{ $calendarName }” ({ $location }) begär ditt användarnamn och lösenord.
+# Variables:
 #   $username (String) - The account username.
 #   $location (String) - The calendar server location.
 calendar-auth-enter-password-for = Ange lösenord för { $username } på { $location }
