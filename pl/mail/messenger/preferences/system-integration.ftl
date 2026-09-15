@@ -7,6 +7,7 @@ system-integration-dialog =
     .buttonlabelaccept = Ustaw jako domyślny
     .buttonlabelcancel = Pomiń integrację
     .buttonlabelcancel2 = Anuluj
+default-app-intro = { -brand-short-name } ma być domyślnym programem:
 default-client-intro = { -brand-short-name } ma być domyślnym klientem:
 unset-default-tooltip = Nie jest możliwe usunięcie programu { -brand-short-name } z roli domyślnego klienta z poziomu programu { -brand-short-name }. Aby uczynić inny program domyślnym klientem, należy skorzystać z jego możliwości integracji z systemem operacyjnym.
 checkbox-email-label =
