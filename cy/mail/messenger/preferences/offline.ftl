@@ -4,7 +4,7 @@
 
 offline-dialog-title = Gosodiadau All-lein
 autodetect-connection-label =
-    .label = Newid moddau yn awtomatig ar ôl canfod cysylltiad rhyngrwyd
+    .label = Newid moddau'n awtomatig ar ôl canfod cysylltiad rhyngrwyd
     .accesskey = N
 offline-startup-label = Wrth agor { -brand-short-name }:
 status-radio-last-used =
@@ -31,7 +31,7 @@ going-online-ask-send =
     .accesskey = G
 going-offline-prompt = Ydych chi am lwytho negeseuon i lawr i'w darllen all-lein?
 going-offline-download =
-    .label = Ydw, eu llwythi  lawr yn awtomatig
+    .label = Ydw, eu llwytho i  lawr yn awtomatig
     .accesskey = Y
 going-offline-keep =
     .label = Na, peidio'u llwytho i lawr
