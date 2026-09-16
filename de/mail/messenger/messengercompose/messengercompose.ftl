@@ -435,6 +435,9 @@ attachment-reminder-keywords-msg =
 
 ## Editing
 
+
+# Tools
+
 compose-tool-button-remove-text-styling =
     .tooltiptext = Textformatierung entfernen
 
@@ -443,6 +446,9 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = In ein unbekanntes Filelink-Konto hochgeladen.
+
+# Placeholder file
+
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - Filelink-Anhang
@@ -450,6 +456,9 @@ cloud-file-placeholder-title = { $filename } - Filelink-Anhang
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = Die Datei { $filename } wurde als Filelink angehängt. Sie kann von jetzt an über den Link heruntergeladen werden.
+
+# Template
+
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -487,6 +496,9 @@ cloud-file-template-link = Link:
 cloud-file-template-password-protected-link = Passwort-geschützter Link:
 cloud-file-template-expiry-date = Ablaufdatum:
 cloud-file-template-download-limit = Maximale Downloadanzahl:
+
+# Messages
+
 cloud-file-connection-error-title = Verbindungsfehler
 # Variables:
 # $provider (string) - name of the online storage service that reported the error
@@ -600,3 +612,23 @@ spell-add-dictionaries =
     .accesskey = W
 subject-encription-icon =
     .title = Betreff wird nicht verschlüsselt
+
+## Compose toolbar buttons
+
+compose-button-send =
+    .label = Senden
+    .tooltiptext = Diese Nachricht jetzt senden
+compose-button-send-later =
+    .label = Später senden
+    .tooltiptext = Die Nachricht wird in den Postausgang gelegt
+
+## Compose menubar
+
+compose-menu-item-send =
+    .label = Senden
+    .tooltiptext = Diese Nachricht jetzt senden
+    .accesskey = J
+compose-menu-item-send-later =
+    .label = Später senden
+    .tooltiptext = Die Nachricht wird in den Postausgang gelegt
+    .accesskey = p
