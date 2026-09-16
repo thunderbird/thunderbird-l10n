@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Localizable Shortcuts
+
+shortcut-key-enter = Inviar
+
 ## Shortcut combinations with all supported modifiers
 ## Variables:
 ##  $key (String) - The shortcut key that doesn't need to be translated.
