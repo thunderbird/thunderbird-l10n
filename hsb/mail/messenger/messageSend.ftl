@@ -75,6 +75,7 @@ send-undisclosed-recipients = skryći přijimarjo
 # Variables:
 # $recipient - recipient address
 smtp-error-illegal-local-part = W lokalnym dźělu adresy přijimarja { $recipient } su nje-ASCII-znamješka a waš serwer SMTPUTF8 njedpopěruje. Prošu změńće tutu adresu a spytajće hišće raz.
+smtp-error-no-recipients = Za připósłanje SMTP njejsu so přijimarjo podali.
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = Zda so, zo wuchadny serwer (SMTP) { $hostname } zaklučowane hesła njepodpěruje. Jeli runje konto konfigurujeće, spytajće ‘awtentifikacisku metodu’ w ‘Kontowe nastajenja | Wuchadny serwer (SMTP)’ do ‘Hesło, njewěsće přenjesene’ změnić. Jeli to zwjetša funguje, ale nětko nic, je móžno, zo so waše hesło kradnje.
