@@ -31,8 +31,63 @@ compose-save-success-title = Снимање на пораката
 # $server - server on which the folder is located
 compose-save-success-message = Твојата порака е снимена во папката { $folder } под името { $server }.
 
+## Send Format
+
+
+## Addressing widget
+
+
+## Attachment widget
+
+
+## Variables:
+## $count (Number) - Number of files being dropped onto the composer.
+
+
 ## Reorder Attachment Panel
 
 default-delete-cmd =
     .label = Избриши
     .accesskey = з
+
+## Encryption
+
+
+## Addressing Area
+
+
+## Notifications
+
+
+## Editing
+
+
+# Tools
+
+
+## Filelink
+
+
+# Placeholder file
+
+
+# Template
+
+
+# Messages
+
+
+## Link Preview
+
+
+## Dictionary selection popup
+
+
+## Compose toolbar buttons
+
+compose-button-send =
+    .label = Испрати
+    .tooltiptext = Ја испраќа оваа порака веднаш
+
+## Compose menubar
+
