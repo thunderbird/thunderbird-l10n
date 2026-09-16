@@ -619,12 +619,19 @@ subject-encription-icon =
 
 ## Compose toolbar buttons
 
+compose-button-send =
+    .label = Gönder
+    .tooltiptext = Bu iletiyi şimdi gönder
 compose-button-send-later =
     .label = Daha sonra gönder
     .tooltiptext = Bu iletiyi daha sonra gönder
 
 ## Compose menubar
 
+compose-menu-item-send =
+    .label = Gönder
+    .tooltiptext = Bu iletiyi şimdi gönder
+    .accesskey = d
 compose-menu-item-send-later =
     .label = Daha sonra gönder
     .tooltiptext = Bu iletiyi daha sonra gönder
