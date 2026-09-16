@@ -577,12 +577,19 @@ subject-encription-icon =
 
 ## Compose toolbar buttons
 
+compose-button-send =
+    .label = 보내기
+    .tooltiptext = 지금 보내기
 compose-button-send-later =
     .label = 나중에 보내기
     .tooltiptext = 나중에 보내기
 
 ## Compose menubar
 
+compose-menu-item-send =
+    .label = 보내기
+    .tooltiptext = 지금 보내기
+    .accesskey = d
 compose-menu-item-send-later =
     .label = 나중에 보내기
     .tooltiptext = 나중에 보내기
