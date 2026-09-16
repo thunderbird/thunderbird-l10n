@@ -21,7 +21,7 @@ fonts-language-legend =
 fonts-proportional-label =
     .value = Cyfrannol:
     .accesskey = y
-text-font-options-dialog-title = Opsiynau testun a ffont
+text-font-options-dialog-title = Dewisiadau testun a ffont
 
 ## Languages
 
@@ -102,7 +102,7 @@ font-serif-label =
     .accesskey = S
 sans-serif-font-label =
     .value = Ffont Sans-serif:
-    .accesskey = F
+    .accesskey = S
 font-sans-serif-label =
     .value = Sans-serif:
     .accesskey = n
@@ -124,13 +124,13 @@ use-document-fonts-checkbox =
 use-fixed-width-plain-checkbox =
     .label = Defnyddio ffont lled sefydlog ar gyfer negeseuon testun plaen
     .accesskey = D
-message-font-permissions-legend = Negesu caniatadau ffont
+message-font-permissions-legend = Rheoli caniatâd ffntiau
 allow-incoming-fonts-checkbox =
     .label = Caniatáu i negeseuon sy'n dod i mewn ddefnyddio eu ffontiau eu hunain
     .accesskey = C
 display-fixed-width-plain-checkbox =
-    .label = Arddangos negeseuon testun plaen mewn ffont lled sefydlog
-    .accesskey = A
+    .label = Dangos negeseuon testun plaen mewn ffont lled sefydlog
+    .accesskey = D
 
 ## Language settings
 

@@ -4,7 +4,7 @@
 
 offline-dialog-title = Gosodiadau All-lein
 autodetect-connection-label =
-    .label = Newid moddau yn awtomatig pan ganfyddir cysylltiad rhyngrwyd
+    .label = Newid moddau yn awtomatig ar ôl canfod cysylltiad rhyngrwyd
     .accesskey = N
 offline-startup-label = Wrth agor { -brand-short-name }:
 status-radio-last-used =
