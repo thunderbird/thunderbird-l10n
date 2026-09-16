@@ -634,12 +634,19 @@ subject-encription-icon =
 
 ## Compose toolbar buttons
 
+compose-button-send =
+    .label = Pošalji
+    .tooltiptext = Pošalji poruku sada
 compose-button-send-later =
     .label = Pošalji kasnije
     .tooltiptext = Pošalji poruku kasnije
 
 ## Compose menubar
 
+compose-menu-item-send =
+    .label = Pošalji
+    .tooltiptext = Pošalji poruku sada
+    .accesskey = o
 compose-menu-item-send-later =
     .label = Pošalji kasnije
     .tooltiptext = Pošalji poruku kasnije
