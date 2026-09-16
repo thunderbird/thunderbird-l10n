@@ -592,6 +592,9 @@ spell-add-dictionaries =
 compose-button-send =
     .label = Enviar
     .tooltiptext = Enviar este mensaje ahora
+compose-button-send-later =
+    .label = Enviar más tarde
+    .tooltiptext = Enviar este mensaje después
 
 ## Compose menubar
 
@@ -599,3 +602,7 @@ compose-menu-item-send =
     .label = Enviar
     .tooltiptext = Enviar este mensaje ahora
     .accesskey = d
+compose-menu-item-send-later =
+    .label = Enviar más tarde
+    .tooltiptext = Enviar este mensaje después
+    .accesskey = L
