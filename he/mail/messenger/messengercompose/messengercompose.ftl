@@ -94,6 +94,9 @@ compose-blocked-content-preferences-accesskey = ע
 compose-unblock-resource =
     .label = שחרור { $url }
 
+## Send Format
+
+
 ## Addressing widget
 
 #   $type (String) - the type of the addressing row
@@ -176,6 +179,9 @@ default-delete-cmd =
     .label = מחיקה
     .accesskey = ח
 
+## Encryption
+
+
 ## Addressing Area
 
 many-public-recipients-prompt-cancel = ביטול השליחה
@@ -193,10 +199,22 @@ attachment-reminder-keywords-msg =
 
 ## Editing
 
+
+# Tools
+
 compose-tool-button-remove-text-styling =
     .tooltiptext = הסרת עיצוב הטקסט
 
 ## Filelink
+
+
+# Placeholder file
+
+
+# Template
+
+
+# Messages
 
 cloud-file-authentication-error-title = שגיאת אימות
 # Variables:
@@ -245,3 +263,29 @@ cloud-file-uploaded-tooltip = הסתיימה ההעלאה אל { $provider }
 # Variables:
 # $provider - name of the online storage service
 cloud-file-attach-picker-title = צירוף קבצים דרך { $provider }
+
+## Link Preview
+
+
+## Dictionary selection popup
+
+
+## Compose toolbar buttons
+
+compose-button-send =
+    .label = שלח
+    .tooltiptext = שלח הודעה זו כעת
+compose-button-send-later =
+    .label = שלח מאוחר יותר
+    .tooltiptext = שלח הודעה זו מאוחר יותר
+
+## Compose menubar
+
+compose-menu-item-send =
+    .label = שלח
+    .tooltiptext = שלח הודעה זו כעת
+    .accesskey = ע
+compose-menu-item-send-later =
+    .label = שלח מאוחר יותר
+    .tooltiptext = שלח הודעה זו מאוחר יותר
+    .accesskey = א
