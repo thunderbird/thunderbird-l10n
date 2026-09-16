@@ -439,12 +439,19 @@ spell-add-dictionaries =
 
 ## Compose toolbar buttons
 
+compose-button-send =
+    .label = Даслаць
+    .tooltiptext = Даслаць гэты ліст зараз
 compose-button-send-later =
     .label = Даслаць пазней
     .tooltiptext = Даслаць гэты ліст пазней
 
 ## Compose menubar
 
+compose-menu-item-send =
+    .label = Даслаць
+    .tooltiptext = Даслаць гэты ліст зараз
+    .accesskey = Д
 compose-menu-item-send-later =
     .label = Даслаць пазней
     .tooltiptext = Даслаць гэты ліст пазней
