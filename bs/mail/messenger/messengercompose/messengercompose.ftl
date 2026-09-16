@@ -103,6 +103,19 @@ compose-blocked-content-preferences-accesskey = P
 compose-unblock-resource =
     .label = Deblokiraj { $url }
 
+## Send Format
+
+
+## Addressing widget
+
+
+## Attachment widget
+
+
+## Variables:
+## $count (Number) - Number of files being dropped onto the composer.
+
+
 ## Reorder Attachment Panel
 
 # Variables:
@@ -118,6 +131,12 @@ remove-attachment-cmd =
 default-delete-cmd =
     .label = Obriši
     .accesskey = O
+
+## Encryption
+
+
+## Addressing Area
+
 
 ## Notifications
 
@@ -138,7 +157,22 @@ attachment-reminder-keywords-msg =
        *[other] Broj pronađenih ključnih riječi { $count }:
     }
 
+## Editing
+
+
+# Tools
+
+
 ## Filelink
+
+
+# Placeholder file
+
+
+# Template
+
+
+# Messages
 
 cloud-file-authentication-error-title = Greška prilikom autentifikacije
 # Variables:
@@ -211,3 +245,29 @@ cloud-file-uploaded-tooltip = Preneseno na { $provider }
 # Variables:
 # $provider - name of the online storage service
 cloud-file-attach-picker-title = Priloži datoteke preko { $provider }
+
+## Link Preview
+
+
+## Dictionary selection popup
+
+
+## Compose toolbar buttons
+
+compose-button-send =
+    .label = Pošalji
+    .tooltiptext = Pošalji poruku sada
+compose-button-send-later =
+    .label = Pošalji kasnije
+    .tooltiptext = Pošalji poruku kasnije
+
+## Compose menubar
+
+compose-menu-item-send =
+    .label = Pošalji
+    .tooltiptext = Pošalji poruku sada
+    .accesskey = d
+compose-menu-item-send-later =
+    .label = Pošalji kasnije
+    .tooltiptext = Pošalji poruku kasnije
+    .accesskey = L
