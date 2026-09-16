@@ -53,11 +53,30 @@ compose-save-success-message = U boodskap is in die vouer { $folder } onder { $s
 compose-rename-attachment-title = Hernoem aanhegsel
 compose-rename-attachment-prompt = Nuwe aanhegselnaam:
 
+## Send Format
+
+
+## Addressing widget
+
+
+## Attachment widget
+
+
+## Variables:
+## $count (Number) - Number of files being dropped onto the composer.
+
+
 ## Reorder Attachment Panel
 
 default-delete-cmd =
     .label = Skrap
     .accesskey = S
+
+## Encryption
+
+
+## Addressing Area
+
 
 ## Notifications
 
@@ -68,3 +87,47 @@ attachment-reminder-keywords-msg =
         [one] Aanhegselwoord opgemerk:
        *[other] { $count } aanhegselwoorde opgemerk:
     }
+
+## Editing
+
+
+# Tools
+
+
+## Filelink
+
+
+# Placeholder file
+
+
+# Template
+
+
+# Messages
+
+
+## Link Preview
+
+
+## Dictionary selection popup
+
+
+## Compose toolbar buttons
+
+compose-button-send =
+    .label = Stuur
+    .tooltiptext = Versend hierdie boodskap nou
+compose-button-send-later =
+    .label = Versend later
+    .tooltiptext = Versend hierdie boodskap later
+
+## Compose menubar
+
+compose-menu-item-send =
+    .label = Stuur
+    .tooltiptext = Versend hierdie boodskap nou
+    .accesskey = s
+compose-menu-item-send-later =
+    .label = Versend later
+    .tooltiptext = Versend hierdie boodskap later
+    .accesskey = l
