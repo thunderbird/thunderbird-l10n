@@ -270,4 +270,7 @@ account-hub-exchange-type-username = Օգտվողի անուն
 account-hub-exchange-type-username-hint = Սովորաբար ձեր էլեկտրոնային փոստի հասցեն կամ Active Directory UPN-ը։
 account-hub-exchange-type-authentication = Իսկորոշման եղանակ
 # Checkbox that can be unchecked to use a custom OAuth config.
-account-hub-exchange-type-default-oauth = Օգտագործել Microsoft 365 Copilot-ի սկզբնադիր  նույնականացման կարգավորումները
+account-hub-exchange-type-default-oauth = Օգտագործել Microsoft 365 Copilot-ի սկզբնադիր նույնականացման կարգավորումները
+account-hub-exchange-type-oauth-tenant = Tenant ID
+account-hub-exchange-type-oauth-app = App ID
+account-hub-exchange-type-title = Ընտրեք հաշվի տեսակը
