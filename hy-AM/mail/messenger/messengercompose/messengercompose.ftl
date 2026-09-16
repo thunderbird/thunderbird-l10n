@@ -103,6 +103,9 @@ compose-blocked-content-preferences-accesskey = P
 compose-unblock-resource =
     .label = Ապակապանել { $url }
 
+## Send Format
+
+
 ## Addressing widget
 
 #   $type (String) - the type of the addressing row
@@ -189,6 +192,9 @@ default-delete-cmd =
     .label = Ջնջել
     .accesskey = D
 
+## Encryption
+
+
 ## Addressing Area
 
 many-public-recipients-prompt-cancel = Չեղարկել ուղարկումը
@@ -210,7 +216,22 @@ attachment-reminder-keywords-msg =
        *[other] Գտնվել է { $count } կցորդ հիմնաբառ.
     }
 
+## Editing
+
+
+# Tools
+
+
 ## Filelink
+
+
+# Placeholder file
+
+
+# Template
+
+
+# Messages
 
 cloud-file-authentication-error-title = Իսկորոշման սխալ
 # Variables:
@@ -278,8 +299,31 @@ cloud-file-uploaded-tooltip = Վերբեռնված { $provider }
 # $provider - name of the online storage service
 cloud-file-attach-picker-title = Կցել ֆայլեր { $provider }-ով
 
+## Link Preview
+
+
 ## Dictionary selection popup
 
 spell-add-dictionaries =
     .label = Ավելացնել Բառարաններ...
     .accesskey = A
+
+## Compose toolbar buttons
+
+compose-button-send =
+    .label = Ուղարկել
+    .tooltiptext = Ուղարկել հիմա
+compose-button-send-later =
+    .label = Հետո ուղարկել
+    .tooltiptext = Նամակը հետո ուղարկել
+
+## Compose menubar
+
+compose-menu-item-send =
+    .label = Ուղարկել
+    .tooltiptext = Ուղարկել հիմա
+    .accesskey = d
+compose-menu-item-send-later =
+    .label = Հետո ուղարկել
+    .tooltiptext = Նամակը հետո ուղարկել
+    .accesskey = L
