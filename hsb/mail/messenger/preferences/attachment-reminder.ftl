@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 attachment-reminder-dialog-title = Hesła za přiwěškowe napominje
+attachment-reminder-description = Dopomnjeće za falowace přiwěški pokazać, jeli e-mejl přitrjechjace klučowe słowa wobsahuje.
 attachment-reminder-label = { -brand-short-name } budźe was wo falowacych přiwěškach warnować, jeli chceće e-mejlku pósłać, kotraž jedne z tutych hesłow wobsahuje.
 keyword-new-button =
     .label = Nowy…
