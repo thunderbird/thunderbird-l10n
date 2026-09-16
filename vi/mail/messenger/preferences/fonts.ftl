@@ -9,12 +9,19 @@ fonts-label-default =
     .label = Mặc định ({ $name })
 fonts-label-default-unnamed =
     .label = Mặc định
+fonts-character-set-legend =
+    .value = Bộ ký tự:
+    .accesskey = t
+font-main-style-label =
+    .value = Kiểu chữ chính:
+    .accesskey = f
 fonts-language-legend =
     .value = Phông chữ cho:
     .accesskey = t
 fonts-proportional-label =
     .value = Tỷ lệ:
     .accesskey = P
+text-font-options-dialog-title = Tùy chọn văn bản & phông chữ
 
 ## Languages
 
@@ -93,6 +100,9 @@ font-size-monospace-label =
 font-serif-label =
     .value = Serif:
     .accesskey = S
+sans-serif-font-label =
+    .value = Phông chữ sans-serif:
+    .accesskey = n
 font-sans-serif-label =
     .value = Sans-serif:
     .accesskey = n
@@ -113,6 +123,13 @@ use-document-fonts-checkbox =
     .accesskey = o
 use-fixed-width-plain-checkbox =
     .label = Sử dụng phông chữ có chiều rộng cố định cho thư văn bản thuần túy
+    .accesskey = x
+message-font-permissions-legend = Quyền sử dụng phông chữ thư
+allow-incoming-fonts-checkbox =
+    .label = Cho phép thư đến sử dụng phông chữ riêng của họ
+    .accesskey = o
+display-fixed-width-plain-checkbox =
+    .label = Hiển thị thư văn bản thuần túy với phông chữ có độ rộng cố định
     .accesskey = x
 
 ## Language settings
