@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Localizable Shortcuts
+
+shortcut-key-enter = Invio
+
 ## Shortcut combinations with all supported modifiers
 ## Variables:
 ##  $key (String) - The shortcut key that doesn't need to be translated.
@@ -99,6 +103,15 @@ menuitem-shortcut-attributes =
     .acceltext = { $shortcut }
     .label = { $label }
     .accesskey = { $accesskey }
+# Variables:
+#  $label (String): The label coming from the original element.
+#  $shortcut (String): The shortcut generated from the keystroke combination.
+#  $tooltiptext (String): The tooltiptext coming from the original element.
+toolbar-button-shortcut-string =
+    .aria-keyshortcuts = { $shortcut }
+    .label = { $label }
+    .shortcut = { $shortcut }
+    .tooltiptext = { $tooltiptext } ({ $shortcut })
 # Variables:
 #  $label (String): The text label coming from the original element.
 #  $shortcut (String): The shortcut generated from the keystroke combination.
