@@ -435,6 +435,9 @@ attachment-reminder-keywords-msg =
 
 ## Editing
 
+
+# Tools
+
 compose-tool-button-remove-text-styling =
     .tooltiptext = Κατάργηση μορφοποίησης κειμένου
 
@@ -443,6 +446,9 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = Μεταφορτώθηκε σε άγνωστο λογαριασμό FileLink.
+
+# Placeholder file
+
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - Συνημμένο FileLink
@@ -450,6 +456,9 @@ cloud-file-placeholder-title = { $filename } - Συνημμένο FileLink
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = Το αρχείο «{ $filename }» επισυνάφθηκε ως FileLink. Μπορείτε να κάνετε λήψη του από τον παρακάτω σύνδεσμο.
+
+# Template
+
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -487,6 +496,9 @@ cloud-file-template-link = Σύνδεσμος:
 cloud-file-template-password-protected-link = Σύνδεσμος με κωδικό πρόσβασης:
 cloud-file-template-expiry-date = Ημερομηνία λήξης:
 cloud-file-template-download-limit = Όριο λήψεων:
+
+# Messages
+
 cloud-file-connection-error-title = Σφάλμα σύνδεσης
 # Variables:
 # $provider (string) - name of the online storage service that reported the error
@@ -600,3 +612,23 @@ spell-add-dictionaries =
     .accesskey = Π
 subject-encription-icon =
     .title = Το θέμα δεν θα κρυπτογραφηθεί
+
+## Compose toolbar buttons
+
+compose-button-send =
+    .label = Αποστολή
+    .tooltiptext = Αποστολή μηνύματος τώρα
+compose-button-send-later =
+    .label = Αποστολή αργότερα
+    .tooltiptext = Αποστολή μηνύματος αργότερα
+
+## Compose menubar
+
+compose-menu-item-send =
+    .label = Αποστολή
+    .tooltiptext = Αποστολή μηνύματος τώρα
+    .accesskey = π
+compose-menu-item-send-later =
+    .label = Αποστολή αργότερα
+    .tooltiptext = Αποστολή μηνύματος αργότερα
+    .accesskey = γ
