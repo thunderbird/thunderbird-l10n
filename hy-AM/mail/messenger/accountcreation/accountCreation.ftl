@@ -19,6 +19,7 @@ boolean-error = Տրամաբանական չէ
 no-number-error = Թիվ չէ
 number-too-large-error = Թիվը մեծ է
 number-too-small-error = Թիվը փոքր է
+emailaddress-syntax-error = Անվավեր էլ․ հասցե
 
 ## FetchHTTP.sys.mjs
 
