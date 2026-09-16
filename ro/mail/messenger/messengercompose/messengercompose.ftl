@@ -449,6 +449,9 @@ attachment-reminder-keywords-msg =
 
 ## Editing
 
+
+# Tools
+
 compose-tool-button-remove-text-styling =
     .tooltiptext = Elimină stilul textului
 
@@ -457,6 +460,9 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = Încărcat într-un cont Filelink necunoscut.
+
+# Placeholder file
+
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - Atașament Filelink
@@ -464,6 +470,9 @@ cloud-file-placeholder-title = { $filename } - Atașament Filelink
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = Fișierul { $filename } a fost atașat ca Filelink. Poate fi descărcat prin clic pe linkul de mai jos.
+
+# Template
+
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -502,6 +511,9 @@ cloud-file-template-link = Link:
 cloud-file-template-password-protected-link = Link protejat prin parolă:
 cloud-file-template-expiry-date = Data expirării:
 cloud-file-template-download-limit = Limită de descărcare:
+
+# Messages
+
 cloud-file-connection-error-title = Eroare de conexiune
 # Variables:
 # $provider (string) - name of the online storage service that reported the error
@@ -617,3 +629,23 @@ spell-add-dictionaries =
     .accesskey = A
 subject-encription-icon =
     .title = Subiectul nu va fi criptat
+
+## Compose toolbar buttons
+
+compose-button-send =
+    .label = Trimite
+    .tooltiptext = Trimite acum acest mesaj
+compose-button-send-later =
+    .label = Trimite mai târziu
+    .tooltiptext = Trimite acest mesaj mai târziu
+
+## Compose menubar
+
+compose-menu-item-send =
+    .label = Trimite
+    .tooltiptext = Trimite acum acest mesaj
+    .accesskey = T
+compose-menu-item-send-later =
+    .label = Trimite mai târziu
+    .tooltiptext = Trimite acest mesaj mai târziu
+    .accesskey = r
