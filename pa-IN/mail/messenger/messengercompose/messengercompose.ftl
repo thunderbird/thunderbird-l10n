@@ -197,6 +197,17 @@ cloud-file-attach-picker-title = Attach File(s) via { $provider }
 compose-button-send =
     .label = ਭੇਜੋ
     .tooltiptext = ਇਹ ਸੁਨੇਹਾ ਹੁਣੇ ਭੇਜੋ
+compose-button-send-later =
+    .label = ਬਾਅਦ 'ਚ ਭੇਜੋ
+    .tooltiptext = ਇਹ ਸੁਨੇਹਾ ਬਾਅਦ ਵਿੱਚ ਭੇਜੋ
 
 ## Compose menubar
 
+compose-menu-item-send =
+    .label = ਭੇਜੋ
+    .tooltiptext = ਇਹ ਸੁਨੇਹਾ ਹੁਣੇ ਭੇਜੋ
+    .accesskey = d
+compose-menu-item-send-later =
+    .label = ਬਾਅਦ 'ਚ ਭੇਜੋ
+    .tooltiptext = ਇਹ ਸੁਨੇਹਾ ਬਾਅਦ ਵਿੱਚ ਭੇਜੋ
+    .accesskey = L
