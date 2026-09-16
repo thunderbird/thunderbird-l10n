@@ -172,6 +172,7 @@
 <!ENTITY windowMenu.label "חלון">
 <!-- Mail Toolbar -->
 <!ENTITY sendButton.label "שלח">
+<!-- Mail Toolbar -->
 <!ENTITY quoteButton.label "צטט">
 <!ENTITY addressButton.label "אנשי קשר">
 <!ENTITY spellingButton.label "איות">
@@ -180,6 +181,7 @@
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY sendButton.tooltip "שלח הודעה זו כעת">
 <!ENTITY sendlaterButton.tooltip "שלח הודעה זו מאוחר יותר">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY quoteButton.tooltip "צטט הודעה קודמת">
 <!ENTITY addressButton.tooltip "בחר נמען מפנקס כתובות">
 <!ENTITY spellingButton.tooltip "בדיקת איות בבחירה או בהודעה כולה">

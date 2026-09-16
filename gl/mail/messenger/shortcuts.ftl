@@ -3,9 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Shortcuts
+## Shortcut combinations with all supported modifiers
 ## Variables:
-##  $key (String) - The shortcut key.
+##  $key (String) - The shortcut key that doesn't need to be translated.
 
 shortcut-key = { $key }
 meta-shortcut-key =
@@ -96,12 +96,12 @@ button-shortcut-string =
 #  $accesskey (String): The accesskey coming from the original element.
 #  $shortcut (String): The shortcut generated from the keystroke combination.
 menuitem-shortcut-attributes =
+    .acceltext = { $shortcut }
     .label = { $label }
     .accesskey = { "" }
-    .acceltext = { $shortcut }
 # Variables:
 #  $label (String): The text label coming from the original element.
 #  $shortcut (String): The shortcut generated from the keystroke combination.
 menuitem-shortcut-string =
-    .label = { $label }
     .acceltext = { $shortcut }
+    .label = { $label }

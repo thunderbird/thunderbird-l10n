@@ -173,6 +173,7 @@
 <!ENTITY windowMenu.label "Tetingkap">
 <!-- Mail Toolbar -->
 <!ENTITY sendButton.label "Hantar">
+<!-- Mail Toolbar -->
 <!ENTITY quoteButton.label "Petikan">
 <!ENTITY addressButton.label "Kenalan">
 <!ENTITY spellingButton.label "Ejaan">
@@ -181,6 +182,7 @@
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY sendButton.tooltip "Hantar mesej ini sekarang">
 <!ENTITY sendlaterButton.tooltip "Hantar mesej ini kemudian">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY quoteButton.tooltip "Petik mesej terdahulu">
 <!ENTITY addressButton.tooltip "Pilih penerima dalam Buku Alamat">
 <!ENTITY spellingButton.tooltip "Semak ejaan pilihan atau seluruh mesej">

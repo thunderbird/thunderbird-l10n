@@ -174,6 +174,7 @@
 <!ENTITY windowMenu.label "Prenestr">
 <!-- Mail Toolbar -->
 <!ENTITY sendButton.label "Kas">
+<!-- Mail Toolbar -->
 <!ENTITY quoteButton.label "Menegiñ">
 <!ENTITY addressButton.label "Darempredoù">
 <!ENTITY spellingButton.label "Reizhskrivañ">
@@ -182,6 +183,7 @@
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY sendButton.tooltip "Kas ar gemennadenn-mañ diouzhtu">
 <!ENTITY sendlaterButton.tooltip "Kas ar gemennadenn-mañ diwezhatoc'h">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY quoteButton.tooltip "Menegiñ ar gemennadenn gent">
 <!ENTITY addressButton.tooltip "Diuzañ un degemerer diwar ar c'harned chomlec'hioù">
 <!ENTITY spellingButton.tooltip "Gwiriañ reizhskrivañ an diuzad pe ar gemennadenn a-bezh">

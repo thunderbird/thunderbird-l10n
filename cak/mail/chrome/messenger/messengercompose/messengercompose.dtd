@@ -173,6 +173,7 @@
 <!ENTITY windowMenu.label "Window">
 <!-- Mail Toolbar -->
 <!ENTITY sendButton.label "Titaq">
+<!-- Mail Toolbar -->
 <!ENTITY quoteButton.label "Tisik'ïx">
 <!ENTITY addressButton.label "Kib'i' achib'il">
 <!ENTITY spellingButton.label "Tz'ib'anikil">
@@ -181,6 +182,7 @@
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY sendButton.tooltip "Titaq re rutzijol re' wakami">
 <!ENTITY sendlaterButton.tooltip "Titaq re rutzijol re' b'a' chik na">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY quoteButton.tooltip "Tisik'ïx ri jun kan rutzijol">
 <!ENTITY addressButton.tooltip "Ticha' jun k'ulunel pa Kitz'ib'awuj Ochochib'äl">
 <!ENTITY spellingButton.tooltip "Tinik'ox rutz'ib'axik cha'oj o chijun ri rutzijol">

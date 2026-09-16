@@ -89,19 +89,6 @@ compose-custom-from-address-ignore = Hech qachon bu uchun ogohlantirish berilmas
 compose-unblock-resource =
     .label = { $url }ni qulfdan chiqarish
 
-## Send Format
-
-
-## Addressing widget
-
-
-## Attachment widget
-
-
-## Variables:
-## $count (Number) - Number of files being dropped onto the composer.
-
-
 ## Reorder Attachment Panel
 
 # Variables:
@@ -117,12 +104,6 @@ default-delete-cmd =
     .label = O‘chirish
     .accesskey = O
 
-## Encryption
-
-
-## Addressing Area
-
-
 ## Notifications
 
 # Variables:
@@ -133,22 +114,7 @@ attachment-reminder-keywords-msg =
        *[other] { $count } ta biriktirish kalit so‘zi topildi
     }
 
-## Editing
-
-
-# Tools
-
-
 ## Filelink
-
-
-# Placeholder file
-
-
-# Template
-
-
-# Messages
 
 cloud-file-authentication-error-title = Haqiqiyligini tasdiqlashda xatolik yuz berdi
 # Variables:
@@ -219,12 +185,6 @@ cloud-file-uploaded-tooltip = { $provider } bulut xizmatiga yuklandi
 # Variables:
 # $provider - name of the online storage service
 cloud-file-attach-picker-title = Fayl(lar)ni { $provider } orqali biriktirish
-
-## Link Preview
-
-
-## Dictionary selection popup
-
 
 ## Compose toolbar buttons
 

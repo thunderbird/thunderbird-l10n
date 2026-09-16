@@ -156,6 +156,7 @@
 <!ENTITY windowMenu.label "Fuinneog">
 <!-- Mail Toolbar -->
 <!ENTITY sendButton.label "Seol">
+<!-- Mail Toolbar -->
 <!ENTITY quoteButton.label "Luaigh">
 <!ENTITY addressButton.label "Teagmhálaithe">
 <!ENTITY spellingButton.label "Litriú">
@@ -164,6 +165,7 @@
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY sendButton.tooltip "Seol an teachtaireacht seo anois">
 <!ENTITY sendlaterButton.tooltip "Seol an teachtaireacht seo níos déanaí">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY quoteButton.tooltip "Luaigh an teachtaireacht roimhe seo">
 <!ENTITY addressButton.tooltip "Roghnaigh faighteoir as Leabhar Seoltaí">
 <!ENTITY spellingButton.tooltip "Seiceáil litriú an roghnaithe nó na teachtaireachta iomláine">

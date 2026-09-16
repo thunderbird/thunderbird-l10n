@@ -156,6 +156,7 @@
 <!ENTITY windowMenu.label "Ventana">
 <!-- Mail Toolbar -->
 <!ENTITY sendButton.label "Unviar">
+<!-- Mail Toolbar -->
 <!ENTITY quoteButton.label "Citar">
 <!ENTITY addressButton.label "Contautos">
 <!ENTITY spellingButton.label "Ortografía">
@@ -164,6 +165,7 @@
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY sendButton.tooltip "Unviar esti mensaxe agora">
 <!ENTITY sendlaterButton.tooltip "Unviar esti mensaxe más sero">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY quoteButton.tooltip "Citar el mensaxe anterior">
 <!ENTITY addressButton.tooltip "Seleicionar un destinatariu d'una llibreta de direiciones">
 <!ENTITY spellingButton.tooltip "Revisar ortografía de la seleición o del mensaxe completu">

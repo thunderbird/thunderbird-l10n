@@ -451,9 +451,6 @@ attachment-reminder-keywords-msg =
 
 ## Editing
 
-
-# Tools
-
 compose-tool-button-remove-text-styling =
     .tooltiptext = Вилучити стилі тексту
 
@@ -462,9 +459,6 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = Вивантажено в невідомий обліковий запис Filelink.
-
-# Placeholder file
-
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } – вкладення Filelink
@@ -472,9 +466,6 @@ cloud-file-placeholder-title = { $filename } – вкладення Filelink
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = Файл { $filename } був вкладений як Filelink. Його можна завантажити за посиланням внизу.
-
-# Template
-
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -513,9 +504,6 @@ cloud-file-template-link = Посилання:
 cloud-file-template-password-protected-link = Захищене паролем посилання
 cloud-file-template-expiry-date = Кінцева дата:
 cloud-file-template-download-limit = Ліміт завантаження:
-
-# Messages
-
 cloud-file-connection-error-title = Помилка з'єднання
 # Variables:
 # $provider (string) - name of the online storage service that reported the error

@@ -173,6 +173,7 @@
 <!ENTITY windowMenu.label "Акно">
 <!-- Mail Toolbar -->
 <!ENTITY sendButton.label "Даслаць">
+<!-- Mail Toolbar -->
 <!ENTITY quoteButton.label "Вытрымка">
 <!ENTITY addressButton.label "Адрас">
 <!ENTITY spellingButton.label "Праверка правапісу">
@@ -181,6 +182,7 @@
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY sendButton.tooltip "Даслаць гэты ліст зараз">
 <!ENTITY sendlaterButton.tooltip "Даслаць гэты ліст пазней">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY quoteButton.tooltip "Працытаваць папярэдні ліст">
 <!ENTITY addressButton.tooltip "Выбраць атрымальніка з адраснай кнігі">
 <!ENTITY spellingButton.tooltip "Праверка правапісу вылучэння або ўсяго ліста">

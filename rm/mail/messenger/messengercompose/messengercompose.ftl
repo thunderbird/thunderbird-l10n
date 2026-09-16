@@ -438,9 +438,6 @@ attachment-reminder-keywords-msg =
 
 ## Editing
 
-
-# Tools
-
 compose-tool-button-remove-text-styling =
     .tooltiptext = Allontanar la formataziun dal text
 
@@ -449,9 +446,6 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = Transferì en in conto da Filelink nunenconuschent.
-
-# Placeholder file
-
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - Agiunta Filelink
@@ -459,9 +453,6 @@ cloud-file-placeholder-title = { $filename } - Agiunta Filelink
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = La datoteca { $filename } è vegnida agiuntada cun agid da Filelink. Ella po vegnir telechargiada cun la colliaziun sutvart.
-
-# Template
-
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -499,9 +490,6 @@ cloud-file-template-link = Colliaziun:
 cloud-file-template-password-protected-link = Colliaziun protegida cun in pled-clav:
 cloud-file-template-expiry-date = Data da scadenza:
 cloud-file-template-download-limit = Limita da telechargiada:
-
-# Messages
-
 cloud-file-connection-error-title = Errur da connexiun
 # Variables:
 # $provider (string) - name of the online storage service that reported the error

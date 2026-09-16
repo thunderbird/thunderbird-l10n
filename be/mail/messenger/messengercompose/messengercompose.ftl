@@ -308,23 +308,11 @@ attachment-reminder-keywords-msg =
        *[many] Знойдзены { $count } ключавых словаў далучэння:
     }
 
-## Editing
-
-
-# Tools
-
-
 ## Filelink
 
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = Запампавана ў невядомы ўліковы запіс Filelink.
-
-# Placeholder file
-
-
-# Template
-
 # A text used in a footer, instructing the reader where to find additional
 # information about the used service provider.
 # $link (string) - html a-tag for a link pointing to the web page of the provider
@@ -341,9 +329,6 @@ cloud-file-template-size = Памер:
 cloud-file-template-link = Спасылка:
 cloud-file-template-password-protected-link = Спасылка, абароненая паролем:
 cloud-file-template-download-limit = Абмежаванне на спампаванне:
-
-# Messages
-
 cloud-file-connection-error-title = Памылка злучэння
 # Variables:
 # $provider (string) - name of the online storage service that reported the error

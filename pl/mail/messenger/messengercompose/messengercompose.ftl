@@ -451,9 +451,6 @@ attachment-reminder-keywords-msg =
 
 ## Editing
 
-
-# Tools
-
 compose-tool-button-remove-text-styling =
     .tooltiptext = Usuń styl tekstu
 
@@ -462,9 +459,6 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = Przesłano do nieznanego konta serwisu przechowywania plików.
-
-# Placeholder file
-
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } – Załącznik w serwisie przechowywania plików
@@ -472,9 +466,6 @@ cloud-file-placeholder-title = { $filename } – Załącznik w serwisie przecho
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = Plik { $filename } został załączony jako odnośnik do serwisu przechowywania plików. Można go pobrać za pomocą poniższego odnośnika.
-
-# Template
-
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -513,9 +504,6 @@ cloud-file-template-link = Odnośnik:
 cloud-file-template-password-protected-link = Odnośnik zabezpieczony hasłem:
 cloud-file-template-expiry-date = Data wygaśnięcia:
 cloud-file-template-download-limit = Ograniczenie pobierania:
-
-# Messages
-
 cloud-file-connection-error-title = Błąd połączenia
 # Variables:
 # $provider (string) - name of the online storage service that reported the error

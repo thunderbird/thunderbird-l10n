@@ -173,6 +173,7 @@
 <!ENTITY windowMenu.label "Logs">
 <!-- Mail Toolbar -->
 <!ENTITY sendButton.label "Sūtīt">
+<!-- Mail Toolbar -->
 <!ENTITY quoteButton.label "Citēt">
 <!ENTITY addressButton.label "Kontakti">
 <!ENTITY spellingButton.label "Pareizrakstība">
@@ -181,6 +182,7 @@
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY sendButton.tooltip "Sūtīt šo vēstuli tagad">
 <!ENTITY sendlaterButton.tooltip "Sūtīt šo vēstuli vēlāk">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY quoteButton.tooltip "Citēt iepriekšējo vēstuli">
 <!ENTITY addressButton.tooltip "Izvēlieties adresātu no adrešu grāmatas">
 <!ENTITY spellingButton.tooltip "Pārbaudīt atlases vai visas vēstules pareizrakstību">

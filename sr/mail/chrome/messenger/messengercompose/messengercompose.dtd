@@ -174,6 +174,7 @@
 <!ENTITY windowMenu.label "Прозор">
 <!-- Mail Toolbar -->
 <!ENTITY sendButton.label "Пошаљи">
+<!-- Mail Toolbar -->
 <!ENTITY quoteButton.label "Цитирај">
 <!ENTITY addressButton.label "Контакти">
 <!ENTITY spellingButton.label "Правопис">
@@ -182,6 +183,7 @@
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY sendButton.tooltip "Пошаљи ову поруку сада">
 <!ENTITY sendlaterButton.tooltip "Пошаљи ову поруку касније">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY quoteButton.tooltip "Цитирај претходну поруку">
 <!ENTITY addressButton.tooltip "Изаберите примаоца из именика">
 <!ENTITY spellingButton.tooltip "Провери правопис одабраног дела или целе поруке">

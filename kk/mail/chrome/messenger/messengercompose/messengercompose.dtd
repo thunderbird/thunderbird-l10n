@@ -174,6 +174,7 @@
 <!ENTITY windowMenu.label "Терезе">
 <!-- Mail Toolbar -->
 <!ENTITY sendButton.label "Жіберу">
+<!-- Mail Toolbar -->
 <!ENTITY quoteButton.label "Дәйексөз">
 <!ENTITY addressButton.label "Контакттар">
 <!ENTITY spellingButton.label "Емлені тексеру">
@@ -182,6 +183,7 @@
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY sendButton.tooltip "Бұл хабарламаны қазір жіберу">
 <!ENTITY sendlaterButton.tooltip "Бұл хабарламаны кейін жіберу">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY quoteButton.tooltip "Алдыңғы хабарламаны дәйексөз ретінде алу">
 <!ENTITY addressButton.tooltip "Адрестік кітапшадан алушыны таңдау">
 <!ENTITY spellingButton.tooltip "Таңдалғанның немесе толық хабарламаның емлесін тексеру">

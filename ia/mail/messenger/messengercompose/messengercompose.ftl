@@ -438,9 +438,6 @@ attachment-reminder-keywords-msg =
 
 ## Editing
 
-
-# Tools
-
 compose-tool-button-remove-text-styling =
     .tooltiptext = Remover le stilos de texto
 
@@ -449,9 +446,6 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = Cargate a in un incognite conto Filelink.
-
-# Placeholder file
-
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - annexo Filelink
@@ -459,9 +453,6 @@ cloud-file-placeholder-title = { $filename } - annexo Filelink
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = Le file { $filename } era attachate como un Filelink. Illo pote esser discargate ab le ligamine infra.
-
-# Template
-
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -499,9 +490,6 @@ cloud-file-template-link = Ligamine:
 cloud-file-template-password-protected-link = Ligamine de protection contrasigno
 cloud-file-template-expiry-date = Data de expiration:
 cloud-file-template-download-limit = Limite de discargamento:
-
-# Messages
-
 cloud-file-connection-error-title = Error de connexion
 # Variables:
 # $provider (string) - name of the online storage service that reported the error

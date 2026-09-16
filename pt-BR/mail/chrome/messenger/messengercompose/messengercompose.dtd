@@ -174,6 +174,7 @@
 <!ENTITY windowMenu.label "Janela">
 <!-- Mail Toolbar -->
 <!ENTITY sendButton.label "Enviar">
+<!-- Mail Toolbar -->
 <!ENTITY quoteButton.label "Citar">
 <!ENTITY addressButton.label "Contatos">
 <!ENTITY spellingButton.label "Ortografia">
@@ -182,6 +183,7 @@
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY sendButton.tooltip "Enviar esta mensagem agora">
 <!ENTITY sendlaterButton.tooltip "Enviar esta mensagem mais tarde">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY quoteButton.tooltip "Citar a mensagem anterior">
 <!ENTITY addressButton.tooltip "Selecionar destinatários no catálogo de endereços">
 <!ENTITY spellingButton.tooltip "Verificar ortografia da seleção ou de toda a mensagem">

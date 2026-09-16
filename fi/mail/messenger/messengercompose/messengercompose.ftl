@@ -403,9 +403,6 @@ attachment-reminder-keywords-msg =
 
 ## Editing
 
-
-# Tools
-
 compose-tool-button-remove-text-styling =
     .tooltiptext = Poista tekstin tyyli
 
@@ -414,9 +411,6 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = Lähetetty tuntemattomalle Filelink-tilille.
-
-# Placeholder file
-
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - Filelink-liite
@@ -424,9 +418,6 @@ cloud-file-placeholder-title = { $filename } - Filelink-liite
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = Tiedosto { $filename } liitettiin Filelink-linkkinä. Sen voi ladata alla olevasta linkistä.
-
-# Template
-
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -464,9 +455,6 @@ cloud-file-template-link = Linkki:
 cloud-file-template-password-protected-link = Salasanasuojattu linkki:
 cloud-file-template-expiry-date = Vanhenemispäivä:
 cloud-file-template-download-limit = Latausraja:
-
-# Messages
-
 cloud-file-connection-error-title = Yhteysvirhe
 # Variables:
 # $provider (string) - name of the online storage service that reported the error

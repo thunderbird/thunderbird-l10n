@@ -174,6 +174,7 @@
 <!ENTITY windowMenu.label "Ikkuna">
 <!-- Mail Toolbar -->
 <!ENTITY sendButton.label "Lähetä">
+<!-- Mail Toolbar -->
 <!ENTITY quoteButton.label "Lainaa">
 <!ENTITY addressButton.label "Yhteystiedot">
 <!ENTITY spellingButton.label "Oikoluku">
@@ -182,6 +183,7 @@
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY sendButton.tooltip "Lähetä tämä viesti nyt">
 <!ENTITY sendlaterButton.tooltip "Lähetä tämä viesti myöhemmin">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY quoteButton.tooltip "Lainaa edellistä viestiä">
 <!ENTITY addressButton.tooltip "Valitse vastaanottaja osoitekirjasta">
 <!ENTITY spellingButton.tooltip "Oikolue valinta tai koko viesti">

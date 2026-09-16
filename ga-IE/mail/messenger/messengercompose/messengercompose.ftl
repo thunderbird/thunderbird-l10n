@@ -93,19 +93,6 @@ compose-blocked-content-preferences-accesskey = S
 compose-unblock-resource =
     .label = Bain an cosc de { $url }
 
-## Send Format
-
-
-## Addressing widget
-
-
-## Attachment widget
-
-
-## Variables:
-## $count (Number) - Number of files being dropped onto the composer.
-
-
 ## Reorder Attachment Panel
 
 # Variables:
@@ -123,12 +110,6 @@ remove-attachment-cmd =
 default-delete-cmd =
     .label = Scrios
     .accesskey = S
-
-## Encryption
-
-
-## Addressing Area
-
 
 ## Notifications
 
@@ -153,22 +134,7 @@ attachment-reminder-keywords-msg =
        *[other] Aimsíodh { $count } lorgfhocal iatáin:
     }
 
-## Editing
-
-
-# Tools
-
-
 ## Filelink
-
-
-# Placeholder file
-
-
-# Template
-
-
-# Messages
 
 cloud-file-authentication-error-title = Earráid Fhíordheimhnithe
 # Variables:
@@ -245,12 +211,6 @@ cloud-file-uploaded-tooltip = Uaslódáilte go { $provider }
 # Variables:
 # $provider - name of the online storage service
 cloud-file-attach-picker-title = Ceangail Comha(i)d trí { $provider }
-
-## Link Preview
-
-
-## Dictionary selection popup
-
 
 ## Compose toolbar buttons
 

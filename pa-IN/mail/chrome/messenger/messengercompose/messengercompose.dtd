@@ -143,6 +143,7 @@
 <!ENTITY windowMenu.label "ਵਿੰਡੋ">
 <!-- Mail Toolbar -->
 <!ENTITY sendButton.label "ਭੇਜੋ">
+<!-- Mail Toolbar -->
 <!ENTITY quoteButton.label "ਹਵਾਲਾ">
 <!ENTITY addressButton.label "ਸੰਪਰਕ">
 <!ENTITY spellingButton.label "ਸਪੈਲਿੰਗ">
@@ -150,6 +151,7 @@
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY sendButton.tooltip "ਇਹ ਸੁਨੇਹਾ ਹੁਣੇ ਭੇਜੋ">
 <!ENTITY sendlaterButton.tooltip "ਇਹ ਸੁਨੇਹਾ ਬਾਅਦ ਵਿੱਚ ਭੇਜੋ">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY quoteButton.tooltip "ਪਿਛਲੇ ਸੁਨੇਹਾ ਦਾ ਹਵਾਲਾ">
 <!ENTITY addressButton.tooltip "ਪ੍ਰਾਪਤ ਕਰਤਾ ਨੂੰ ਐਡਰੈਸ ਬੁੱਕ ਤੋਂ ਚੁਣੋ">
 <!ENTITY spellingButton.tooltip "ਚੋਣ ਜਾਂ ਪੂਰੇ ਸੁਨੇਹੇ ਲਈ ਸਪੈੱਲ ਚੈੱਕ ਕਰੋ">

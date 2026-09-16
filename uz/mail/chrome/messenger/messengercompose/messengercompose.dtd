@@ -156,6 +156,7 @@
 <!ENTITY windowMenu.label "Oyna">
 <!-- Mail Toolbar -->
 <!ENTITY sendButton.label "Jo‘natish">
+<!-- Mail Toolbar -->
 <!ENTITY quoteButton.label "Iqtibos">
 <!ENTITY addressButton.label "Kontaktlar">
 <!ENTITY spellingButton.label "Imloni tekshirish">
@@ -164,6 +165,7 @@
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY sendButton.tooltip "Bu xabarni hozir jo‘natish">
 <!ENTITY sendlaterButton.tooltip "Bu xabarni keyinroq jo‘natish">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY quoteButton.tooltip "Oldingi xabardan iqtibos olish">
 <!ENTITY addressButton.tooltip "Manzil kitobdan qabul qiluvchini tanlash">
 <!ENTITY spellingButton.tooltip "Tanlanganni yoki butun xabarning imlo xatolarini tekshirish">

@@ -174,6 +174,7 @@
 <!ENTITY windowMenu.label "창">
 <!-- Mail Toolbar -->
 <!ENTITY sendButton.label "보내기">
+<!-- Mail Toolbar -->
 <!ENTITY quoteButton.label "인용">
 <!ENTITY addressButton.label "주소록">
 <!ENTITY spellingButton.label "맞춤법 검사">
@@ -182,6 +183,7 @@
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY sendButton.tooltip "지금 보내기">
 <!ENTITY sendlaterButton.tooltip "나중에 보내기">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY quoteButton.tooltip "이전 메시지 인용">
 <!ENTITY addressButton.tooltip "주소록에서 받는 사람 선택">
 <!ENTITY spellingButton.tooltip "선택한 텍스트 또는 메시지 맞춤법 검사하기">

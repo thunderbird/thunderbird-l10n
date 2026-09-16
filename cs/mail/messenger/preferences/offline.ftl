@@ -3,6 +3,25 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 offline-dialog-title = Nastavení režimu offline
+going-online-send =
+    .label = Ano, odeslat automaticky
+    .accesskey = A
+going-online-keep =
+    .label = Ne, uložit k odeslání
+    .accesskey = N
+going-online-ask-send =
+    .label = Zeptat se před odesláním
+    .accesskey = Z
+going-offline-prompt = Chcete stahovat zprávy pro čtení offline?
+going-offline-download =
+    .label = Ano, stahovat automaticky
+    .accesskey = A
+going-offline-keep =
+    .label = Ne, nestahovat
+    .accesskey = N
+going-offline-ask-download =
+    .label = Zeptat se před stažením
+    .accesskey = Z
 autodetect-online-label =
     .label = Automaticky sledovat změnu stavu online
     .accesskey = s

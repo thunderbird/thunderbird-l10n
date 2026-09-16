@@ -9,12 +9,19 @@ fonts-label-default =
     .label = Výchozí ({ $name })
 fonts-label-default-unnamed =
     .label = Výchozí
+fonts-character-set-legend =
+    .value = Znaková sada:
+    .accesskey = Z
+font-main-style-label =
+    .value = Základní styl písma:
+    .accesskey = Z
 fonts-language-legend =
     .value = Znaková sada:
     .accesskey = Z
 fonts-proportional-label =
     .value = Proporcionální:
     .accesskey = c
+text-font-options-dialog-title = Nastavení textu a písma
 
 ## Languages
 
@@ -93,6 +100,9 @@ font-size-monospace-label =
 font-serif-label =
     .value = Patkové:
     .accesskey = a
+sans-serif-font-label =
+    .value = Bezpatkové písmo:
+    .accesskey = B
 font-sans-serif-label =
     .value = Bezpatkové:
     .accesskey = B

@@ -173,6 +173,7 @@
 <!ENTITY windowMenu.label "نافذة">
 <!-- Mail Toolbar -->
 <!ENTITY sendButton.label "أرسِل">
+<!-- Mail Toolbar -->
 <!ENTITY quoteButton.label "اقتبس">
 <!ENTITY addressButton.label "جهات الاتصال">
 <!ENTITY spellingButton.label "الإملاء">
@@ -181,6 +182,7 @@
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY sendButton.tooltip "أرسِل هذه الرسالة الآن">
 <!ENTITY sendlaterButton.tooltip "أرسِل هذه الرسالة لاحقًا">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY quoteButton.tooltip "اقتبس الرسالة السابقة">
 <!ENTITY addressButton.tooltip "اختر مستلمًا من دفتر العناوين">
 <!ENTITY spellingButton.tooltip "دقق إملاء التحديد أو كامل الرسالة">

@@ -156,6 +156,7 @@
 <!ENTITY windowMenu.label "Window">
 <!-- Mail Toolbar -->
 <!ENTITY sendButton.label "Send">
+<!-- Mail Toolbar -->
 <!ENTITY quoteButton.label "Quote">
 <!ENTITY addressButton.label "Contacts">
 <!ENTITY spellingButton.label "Spelling">
@@ -164,6 +165,7 @@
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY sendButton.tooltip "Send this message now">
 <!ENTITY sendlaterButton.tooltip "Send this message later">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY quoteButton.tooltip "Quote the previous message">
 <!ENTITY addressButton.tooltip "Select a recipient from an Address Book">
 <!ENTITY spellingButton.tooltip "Check spelling of selection or entire message">

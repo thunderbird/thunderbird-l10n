@@ -174,6 +174,7 @@
 <!ENTITY windowMenu.label "Uinneag">
 <!-- Mail Toolbar -->
 <!ENTITY sendButton.label "Cuir">
+<!-- Mail Toolbar -->
 <!ENTITY quoteButton.label "Thoir luaidh">
 <!ENTITY addressButton.label "Luchd-aithne">
 <!ENTITY spellingButton.label "Litreachadh">
@@ -182,6 +183,7 @@
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY sendButton.tooltip "Cuir an teachdaireachd an-dràsta">
 <!ENTITY sendlaterButton.tooltip "Cuir an teachdaireachd seo uaireigin eile">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY quoteButton.tooltip "Thoir luaidh air an teachdaireachd roimhe">
 <!ENTITY addressButton.tooltip "Tagh faightear o leabhar nan seòladh">
 <!ENTITY spellingButton.tooltip "Ceartaich an litreachadh san taghadh no san teachdaireachd air fad">

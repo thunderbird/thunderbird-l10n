@@ -121,6 +121,7 @@
 <!ENTITY windowMenu.label "Прозорец">
 <!-- Mail Toolbar -->
 <!ENTITY sendButton.label "Испрати">
+<!-- Mail Toolbar -->
 <!ENTITY quoteButton.label "Цитирај">
 <!ENTITY addressButton.label "Контакти">
 <!ENTITY spellingButton.label "Правопис">
@@ -128,6 +129,7 @@
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY sendButton.tooltip "Ја испраќа оваа порака веднаш">
 <!ENTITY sendlaterButton.tooltip "Ја испраќа оваа порака подоцна">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY quoteButton.tooltip "Ја цитира претходната порака">
 <!ENTITY addressButton.tooltip "Изберете примач од адресарот">
 <!ENTITY saveButton.tooltip "Ја снима оваа порака">

@@ -174,6 +174,7 @@
 <!ENTITY windowMenu.label "Wokno">
 <!-- Mail Toolbar -->
 <!ENTITY sendButton.label "Pósłać">
+<!-- Mail Toolbar -->
 <!ENTITY quoteButton.label "Citować">
 <!ENTITY addressButton.label "Kontakty">
 <!ENTITY spellingButton.label "Prawopis">
@@ -182,6 +183,7 @@
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY sendButton.tooltip "Tutu powěsć nětko pósłać">
 <!ENTITY sendlaterButton.tooltip "Tutu powěsć pozdźišo pósłać">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY quoteButton.tooltip "Předchadnu powěsć citować">
 <!ENTITY addressButton.tooltip "Přijimarja z adresnika wubrać">
 <!ENTITY spellingButton.tooltip "Prawopis wubraneho teksta abo cyłeje powěsće kontrolować">

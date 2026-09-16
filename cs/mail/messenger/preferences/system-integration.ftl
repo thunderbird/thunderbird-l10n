@@ -53,3 +53,4 @@ check-on-startup-label =
            *[no-cases] Vždy kontrolovat při startu aplikace { -brand-short-name }
         }
     .accesskey = V
+system-settings-dialog-title = Nastavení systému

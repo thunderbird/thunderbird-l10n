@@ -439,9 +439,6 @@ attachment-reminder-keywords-msg =
 
 ## Editing
 
-
-# Tools
-
 compose-tool-button-remove-text-styling =
     .tooltiptext = Fjarlægja stíl texta
 
@@ -450,9 +447,6 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = Sent inn á óþekktan Filelink-reikning.
-
-# Placeholder file
-
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - Filelink-viðhengi
@@ -460,9 +454,6 @@ cloud-file-placeholder-title = { $filename } - Filelink-viðhengi
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = Skráin { $filename } var hengd við sem Filelink. Það er hægt að sækja hana með tenglinum hér fyrir neðan.
-
-# Template
-
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -500,9 +491,6 @@ cloud-file-template-link = Tengill:
 cloud-file-template-password-protected-link = Lykilorðsvarinn tengill:
 cloud-file-template-expiry-date = Fyrningardagur:
 cloud-file-template-download-limit = Niðurhalstakmörk:
-
-# Messages
-
 cloud-file-connection-error-title = Villa í tengingu
 # Variables:
 # $provider (string) - name of the online storage service that reported the error

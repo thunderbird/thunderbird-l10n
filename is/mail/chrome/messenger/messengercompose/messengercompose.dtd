@@ -175,6 +175,7 @@
 <!ENTITY windowMenu.label "Gluggi">
 <!-- Mail Toolbar -->
 <!ENTITY sendButton.label "Senda">
+<!-- Mail Toolbar -->
 <!ENTITY quoteButton.label "Tilvitnun">
 <!ENTITY addressButton.label "Tengiliðir">
 <!ENTITY spellingButton.label "Stafsetning">
@@ -183,6 +184,7 @@
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY sendButton.tooltip "Senda þennan póst núna">
 <!ENTITY sendlaterButton.tooltip "Senda þennan póst seinna">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY quoteButton.tooltip "Vitna í fyrri póst">
 <!ENTITY addressButton.tooltip "Veldu viðtakanda úr nafnaskránni">
 <!ENTITY spellingButton.tooltip "Athuga stafsetningu á vali eða öllum póstinum">

@@ -536,6 +536,8 @@ dark-message-mode-description = Vynutit nastavení tmavého vzhledu těla zpráv
 dark-message-mode-toggle-label =
     .label = Zobrazovat přepínač tmavého režimu zpráv
     .accesskey = Z
+general-folder-settings-header = Nastavení složky
+recent-folders-legend = Nedávné složky
 dark-message-mode-toggle-description = Zobrazí přepínač v záhlaví zprávy pro rychlé vypnutí tmavého režimu zprávy.
 general-folder-options-header = Možnosti správy složek
 recent-destinations-legend = Nedávná umístění
@@ -578,6 +580,9 @@ as-attachment-label =
 extension-label =
     .label = Přidat k názvu souboru příponu
     .accesskey = d
+forward-messages-label =
+    .value = Přeposílat zprávy jako:
+    .accesskey = P
 
 ## Note: This will concatenate to "Auto Save every [___] minutes",
 ## using (auto-save-label) and a number (auto-save-end).
@@ -627,6 +632,12 @@ default-format-label =
     .label = Ve výchozím nastavení používat formát odstavce namísto základního textu
     .accesskey = D
 compose-send-format-title = Formát odesílání
+compose-format-html-option =
+    .label = Pouze formátovaný text (HTML).
+compose-format-html-description = Zachová vlastní písma, barvy a obrázky, ale v některých starších e-mailových aplikacích se nemusí zobrazit správně.
+compose-format-plain-option =
+    .label = Pouze prostý text
+compose-format-plain-description = Odstraní všechno formátování, barvy a obrázky. Nejlepší pro jednoduché textové e-maily, které fungují všude.
 compose-send-automatic-option =
     .label = Automaticky
 compose-send-automatic-description = Pokud není text zprávy nijak formátovaný, odešle se jako prostý text. Jinak jako HTML a prostý text.

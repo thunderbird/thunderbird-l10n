@@ -131,6 +131,7 @@
 <!ENTITY windowMenu.label "Venster">
 <!-- Mail Toolbar -->
 <!ENTITY sendButton.label "Stuur">
+<!-- Mail Toolbar -->
 <!ENTITY quoteButton.label "Aanhaal">
 <!ENTITY addressButton.label "Kennisse">
 <!ENTITY spellingButton.label "Spelling">
@@ -139,6 +140,7 @@
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY sendButton.tooltip "Versend hierdie boodskap nou">
 <!ENTITY sendlaterButton.tooltip "Versend hierdie boodskap later">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY quoteButton.tooltip "Haal die vorige boodskap aan">
 <!ENTITY addressButton.tooltip "Selekteer 'n ontvanger uit 'n adresboek">
 <!ENTITY saveButton.tooltip "Stoor hierdie boodskap">

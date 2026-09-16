@@ -1157,6 +1157,10 @@ attachments-tab-label = Prílohy ({ $count }):
 calendar-window-title = { $docTitle } - { -brand-full-name }
 calendar-window-title-base = { -brand-full-name }
 # Variables:
+#   $calendarName (String) - Calendar name as given by the user.
+#   $location (String) - The calendar server location.
+calendar-auth-enter-user-password-for-calendar = Kalendár “{ $calendarName }” ({ $location }) požaduje vaše používateľské meno a heslo.
+# Variables:
 #   $username (String) - The account username.
 #   $location (String) - The calendar server location.
 calendar-auth-enter-password-for = Zadajte heslo pre { $username } na { $location }
