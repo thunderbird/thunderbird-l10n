@@ -454,6 +454,9 @@ attachment-reminder-keywords-msg =
 
 ## Editing
 
+
+# Tools
+
 compose-tool-button-remove-text-styling =
     .tooltiptext = Odstrániť štýl textu
 
@@ -462,6 +465,9 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = Nahrané do neznámeho účtu Filelink
+
+# Placeholder file
+
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - príloha Filelink
@@ -469,6 +475,9 @@ cloud-file-placeholder-title = { $filename } - príloha Filelink
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = Súbor { $filename } bol pripojený ako odkaz Filelink. Dá sa stiahnuť z nižšie uvedeného odkazu.
+
+# Template
+
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -507,6 +516,9 @@ cloud-file-template-link = Odkaz:
 cloud-file-template-password-protected-link = Odkaz chránený heslom:
 cloud-file-template-expiry-date = Dátum vypršania plastnosti:
 cloud-file-template-download-limit = Limit stiahnutí:
+
+# Messages
+
 cloud-file-connection-error-title = Chyba pripojenia
 # Variables:
 # $provider (string) - name of the online storage service that reported the error
@@ -622,3 +634,12 @@ spell-add-dictionaries =
     .accesskey = P
 subject-encription-icon =
     .title = Predmet nebude zašifrovaný
+
+## Compose toolbar buttons
+
+compose-button-send =
+    .label = Odoslať
+    .tooltiptext = Odoslať správu
+
+## Compose menubar
+
