@@ -103,6 +103,12 @@ compose-blocked-content-preferences-accesskey = G
 compose-unblock-resource =
     .label = Distankañ { $url }
 
+## Send Format
+
+
+## Addressing widget
+
+
 ## Attachment widget
 
 ctrl-cmd-shift-pretty-prefix =
@@ -121,6 +127,10 @@ attachment-bucket-count-value =
        *[other] { $count } kenstagadur
     }
 
+## Variables:
+## $count (Number) - Number of files being dropped onto the composer.
+
+
 ## Reorder Attachment Panel
 
 # Variables:
@@ -138,6 +148,9 @@ remove-attachment-cmd =
 default-delete-cmd =
     .label = Dilemel
     .accesskey = D
+
+## Encryption
+
 
 ## Addressing Area
 
@@ -174,7 +187,22 @@ attachment-reminder-keywords-msg =
        *[other] Kavet ez eus bet { $count } a ger-alc'hwez kenstagadur:
     }
 
+## Editing
+
+
+# Tools
+
+
 ## Filelink
+
+
+# Placeholder file
+
+
+# Template
+
+
+# Messages
 
 cloud-file-authentication-error-title = Fazi dilesa
 # Variables:
@@ -253,3 +281,26 @@ cloud-file-attach-picker-title = Stagañ restroù dre { $provider }
 ## Link Preview
 
 link-preview-yes-replace = Ya
+
+## Dictionary selection popup
+
+
+## Compose toolbar buttons
+
+compose-button-send =
+    .label = Kas
+    .tooltiptext = Kas ar gemennadenn-mañ diouzhtu
+compose-button-send-later =
+    .label = Kas diwezhatoc'h
+    .tooltiptext = Kas ar gemennadenn-mañ diwezhatoc'h
+
+## Compose menubar
+
+compose-menu-item-send =
+    .label = Kas
+    .tooltiptext = Kas ar gemennadenn-mañ diouzhtu
+    .accesskey = d
+compose-menu-item-send-later =
+    .label = Kas diwezhatoc'h
+    .tooltiptext = Kas ar gemennadenn-mañ diwezhatoc'h
+    .accesskey = a
