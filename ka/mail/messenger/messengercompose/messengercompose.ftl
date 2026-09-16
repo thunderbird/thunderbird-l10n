@@ -434,6 +434,9 @@ attachment-reminder-keywords-msg =
 
 ## Editing
 
+
+# Tools
+
 compose-tool-button-remove-text-styling =
     .tooltiptext = ტექსტის გაფორმების მოცილება
 
@@ -442,6 +445,9 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = ატვირთულია დაუდგენელ Filelink-ანგარიშზე.
+
+# Placeholder file
+
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } – Filelink-დანართი
@@ -449,6 +455,9 @@ cloud-file-placeholder-title = { $filename } – Filelink-დანართი
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = ფაილი { $filename } მიმაგრებული იყო Filelink-ზე. მისი ჩამოტვირთვა შესაძლებელია ქვემოთ მოცემული ბმულიდან.
+
+# Template
+
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -486,6 +495,9 @@ cloud-file-template-link = ბმული:
 cloud-file-template-password-protected-link = პაროლით დაცული ბმული:
 cloud-file-template-expiry-date = ამოწურვის თარიღი:
 cloud-file-template-download-limit = ჩამოტვირთვის ზღვარი:
+
+# Messages
+
 cloud-file-connection-error-title = დაკავშირების შეცდომა
 # Variables:
 # $provider (string) - name of the online storage service that reported the error
@@ -599,3 +611,23 @@ spell-add-dictionaries =
     .accesskey = ლ
 subject-encription-icon =
     .title = თემა არ იქნება დაშიფრული
+
+## Compose toolbar buttons
+
+compose-button-send =
+    .label = გაგზავნა
+    .tooltiptext = წერილის დაუყოვნებლივ გაგზავნა
+compose-button-send-later =
+    .label = გაგზავნა მოგვიანებით
+    .tooltiptext = წერილის მოგვიანებით გაგზავნა
+
+## Compose menubar
+
+compose-menu-item-send =
+    .label = გაგზავნა
+    .tooltiptext = წერილის დაუყოვნებლივ გაგზავნა
+    .accesskey = ზ
+compose-menu-item-send-later =
+    .label = გაგზავნა მოგვიანებით
+    .tooltiptext = წერილის მოგვიანებით გაგზავნა
+    .accesskey = მ
