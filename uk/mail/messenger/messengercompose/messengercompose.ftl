@@ -637,6 +637,17 @@ subject-encription-icon =
 compose-button-send =
     .label = Надіслати
     .tooltiptext = Надіслати це повідомлення зараз
+compose-button-send-later =
+    .label = Надіслати пізніше
+    .tooltiptext = Надіслати це повідомлення пізніше
 
 ## Compose menubar
 
+compose-menu-item-send =
+    .label = Надіслати
+    .tooltiptext = Надіслати це повідомлення зараз
+    .accesskey = д
+compose-menu-item-send-later =
+    .label = Надіслати пізніше
+    .tooltiptext = Надіслати це повідомлення пізніше
+    .accesskey = з
