@@ -621,6 +621,9 @@ subject-encription-icon =
 compose-button-send =
     .label = Enviar
     .tooltiptext = Enviar esta mensagem agora
+compose-button-send-later =
+    .label = Enviar mais tarde
+    .tooltiptext = Enviar esta mensagem mais tarde
 
 ## Compose menubar
 
@@ -628,3 +631,7 @@ compose-menu-item-send =
     .label = Enviar
     .tooltiptext = Enviar esta mensagem agora
     .accesskey = E
+compose-menu-item-send-later =
+    .label = Enviar mais tarde
+    .tooltiptext = Enviar esta mensagem mais tarde
+    .accesskey = d
