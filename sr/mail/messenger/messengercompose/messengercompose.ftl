@@ -451,6 +451,9 @@ attachment-reminder-keywords-msg =
 
 ## Editing
 
+
+# Tools
+
 compose-tool-button-remove-text-styling =
     .tooltiptext = Уклони форматирање текста
 
@@ -459,6 +462,9 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = Отпремљено на непознати Filelink налог.
+
+# Placeholder file
+
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - Filelink прилог
@@ -466,6 +472,9 @@ cloud-file-placeholder-title = { $filename } - Filelink прилог
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = Датотека { $filename } је приложена као Filelink. Може се преузети са везе испод.
+
+# Template
+
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -504,6 +513,9 @@ cloud-file-template-link = Веза:
 cloud-file-template-password-protected-link = Веза заштићена лозинком:
 cloud-file-template-expiry-date = Датум истека:
 cloud-file-template-download-limit = Ограничење преузимања:
+
+# Messages
+
 cloud-file-connection-error-title = Грешка у повезивању
 # Variables:
 # $provider (string) - name of the online storage service that reported the error
@@ -619,3 +631,12 @@ spell-add-dictionaries =
     .accesskey = Д
 subject-encription-icon =
     .title = Наслов неће бити шифрован
+
+## Compose toolbar buttons
+
+compose-button-send =
+    .label = Пошаљи
+    .tooltiptext = Пошаљи ову поруку сада
+
+## Compose menubar
+
