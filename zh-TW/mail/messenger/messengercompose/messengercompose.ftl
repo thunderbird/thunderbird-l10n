@@ -420,6 +420,9 @@ attachment-reminder-keywords-msg = 找到 { $count } 個附件關鍵字：
 
 ## Editing
 
+
+# Tools
+
 compose-tool-button-remove-text-styling =
     .tooltiptext = 刪除文字樣式
 
@@ -428,6 +431,9 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = 上傳至未知的雲端鏈結帳號。
+
+# Placeholder file
+
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - 雲端鏈結附件
@@ -435,6 +441,9 @@ cloud-file-placeholder-title = { $filename } - 雲端鏈結附件
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = 檔案 { $filename } 已上傳至雲端鏈結，可於下方鏈結下載。
+
+# Template
+
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -471,6 +480,9 @@ cloud-file-template-link = 鏈結：
 cloud-file-template-password-protected-link = 密碼保護鏈結:
 cloud-file-template-expiry-date = 過期日：
 cloud-file-template-download-limit = 下載限制：
+
+# Messages
+
 cloud-file-connection-error-title = 連線錯誤
 # Variables:
 # $provider (string) - name of the online storage service that reported the error
@@ -576,3 +588,23 @@ spell-add-dictionaries =
     .accesskey = A
 subject-encription-icon =
     .title = 將不會加密主旨
+
+## Compose toolbar buttons
+
+compose-button-send =
+    .label = 傳送
+    .tooltiptext = 立刻寄出此訊息
+compose-button-send-later =
+    .label = 稍候再寄
+    .tooltiptext = 稍後再寄出此封郵件
+
+## Compose menubar
+
+compose-menu-item-send =
+    .label = 傳送
+    .tooltiptext = 立刻寄出此訊息
+    .accesskey = d
+compose-menu-item-send-later =
+    .label = 稍候再寄
+    .tooltiptext = 稍後再寄出此封郵件
+    .accesskey = L
