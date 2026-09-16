@@ -570,6 +570,17 @@ subject-encription-icon =
 compose-button-send =
     .label = Kirim
     .tooltiptext = Kirim pesan ini sekarang juga
+compose-button-send-later =
+    .label = Kirim Nanti
+    .tooltiptext = Kirim pesan ini nanti
 
 ## Compose menubar
 
+compose-menu-item-send =
+    .label = Kirim
+    .tooltiptext = Kirim pesan ini sekarang juga
+    .accesskey = S
+compose-menu-item-send-later =
+    .label = Kirim Nanti
+    .tooltiptext = Kirim pesan ini nanti
+    .accesskey = N
