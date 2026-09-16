@@ -622,6 +622,17 @@ subject-encription-icon =
 compose-button-send =
     .label = Ferstjoere
     .tooltiptext = Dit berjocht no ferstjoere
+compose-button-send-later =
+    .label = Letter ferstjoere
+    .tooltiptext = Dit berjocht letter ferstjoere
 
 ## Compose menubar
 
+compose-menu-item-send =
+    .label = Ferstjoere
+    .tooltiptext = Dit berjocht no ferstjoere
+    .accesskey = f
+compose-menu-item-send-later =
+    .label = Letter ferstjoere
+    .tooltiptext = Dit berjocht letter ferstjoere
+    .accesskey = s
