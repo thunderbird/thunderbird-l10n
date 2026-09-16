@@ -1064,6 +1064,10 @@ attachments-tab-label = Đính kèm ({ $count }):
 calendar-window-title = { $docTitle } - { -brand-full-name }
 calendar-window-title-base = { -brand-full-name }
 # Variables:
+#   $calendarName (String) - Calendar name as given by the user.
+#   $location (String) - The calendar server location.
+calendar-auth-enter-user-password-for-calendar = “{ $calendarName }” ({ $location }) đang yêu cầu bạn nhập tên người dùng và mật khẩu.
+# Variables:
 #   $username (String) - The account username.
 #   $location (String) - The calendar server location.
 calendar-auth-enter-password-for = Nhập mật khẩu cho { $username } từ { $location }
