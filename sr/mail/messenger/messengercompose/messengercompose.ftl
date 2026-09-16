@@ -637,6 +637,17 @@ subject-encription-icon =
 compose-button-send =
     .label = Пошаљи
     .tooltiptext = Пошаљи ову поруку сада
+compose-button-send-later =
+    .label = Пошаљи касније
+    .tooltiptext = Пошаљи ову поруку касније
 
 ## Compose menubar
 
+compose-menu-item-send =
+    .label = Пошаљи
+    .tooltiptext = Пошаљи ову поруку сада
+    .accesskey = д
+compose-menu-item-send-later =
+    .label = Пошаљи касније
+    .tooltiptext = Пошаљи ову поруку касније
+    .accesskey = ј
