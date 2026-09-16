@@ -18,6 +18,10 @@ event-tentative = Tu šo uzaicinājumu apstiprināji varbūtēji
 # This will be displayed as notification in the summary dialog if the user has
 # declined the event invitation.
 event-declined = Tu noraidīji šo uzaicinājumu
+# This will be displayed as notification in the summary dialog if the user has
+# delegated his/her participation to one or more other participants
+# (without attending / working on it his/herself)
+event-delegated = Tu norīkoji kādu citu šim uzaicinājumam
 # This will be displayed as notification in the summary dialog if the user
 # hasn't yet responded to an invitation
 event-needs-action = Tu vēl neesi atbildējis(usi) uz šo uzaicinājumu
