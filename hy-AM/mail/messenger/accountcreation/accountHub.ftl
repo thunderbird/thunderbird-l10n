@@ -171,9 +171,43 @@ account-hub-thundermail-button = Մուտք գործեք Thundermail-ով
 # Used as part of a divider between sign in button and a sign in form.
 account-hub-thundermail-divider-text = կամ
 account-hub-manual-config-imap-title = IMAP կարգավորումներ
+account-hub-manual-config-pop3-title = POP3 կարգավորումներ
+account-hub-manual-config-review-settings-title = Վերանայեք թարմացված կարգավորումները
+account-hub-manual-config-incoming-legend = Մտից սպասարկիչ
+account-hub-manual-config-outgoing-legend = Ելից սպասարկիչ
+# Label for checkbox that will hide an outgoing username input if it's the same is the incoming
+account-hub-same-username-checkbox = Նույն օգտագործողի անունը, ինչ մուտքային սերվերը
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-security-changed = Հնարավոր չէ գտնել { $oldValue }-ը, բայց { $newValue }-ը հասանելի է։
+# Variables:
+# $oldValue (String): The port requested before the configuration was tested.
+# $newValue (String): The port found after the configuration was tested.
+account-hub-manual-config-port-changed = Հնարավոր չէ հասնել { $oldValue } պորտին, բայց { $newValue } պորտը հասանելի է։
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-value-changed = Հնարավոր չէ օգտագործել { $oldValue }-ը, բայց { $newValue }-ը հասանելի է։
+account-hub-protocol-imap = Համաժամեցում բոլոր սարքերի միջև
+account-hub-protocol-microsoft = Exchange կամ Microsoft 365
+account-hub-protocol-pop3 = Ներբեռնել սարքի վրա
+account-hub-oauth-unsupported-title = Լրացուցիչ կարգավորում է պահանջվում
+# Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
+# 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
+account-hub-oauth-unsupported-description = { -brand-short-name }-ը չի կարող ավտոմատ կերպով կարգավորել OAuth2-ը այս հոսթի անվան համար: Ընտրեք «Ընդլայնված կարգավորում»՝ հաշիվ ստեղծելու համար, այնուհետև ավարտեք կարգավորումը Հաշվի կարգավորումներից: <a data-l10n-name="oauth-support-link">Ստացեք օգնություն OAuth2 կարգավորման հետ կապված:</a>
+account-hub-username-help-text = Հաճախ ձեր լրիվ էլեկտրոնային փոստի հասցեն
+account-hub-port-help-text = Եթե դատարկ թողնվի, { -brand-short-name }-ը կփորձի հայտնաբերել պորտը։
 account-hub-notification-show-more = Ցուցադրել ավելին
 account-hub-notification-show-less = Ցուցադրել ավելի քիչ
+account-hub-email-setup-header = Ձեր էլ. փոստի հասցեն
 account-hub-email-setup-incoming = Մտից սպասարկիչի կարգավորումներ
+account-hub-email-setup-outgoing = Ելից սպասարկիչի կարգավորումներ
+account-hub-email-exchange-settings = Exchange-ի կարգավորումներ
+account-hub-email-connect-settings = Կապեք ձեր էլ. փոստի կարգավորումները
+account-hub-email-protocol-select-header = Ընտրեք էլ. փոստի հաշվի տեսակը
+account-hub-email-protocol-select-additional-info = Այս հաշիվը կարգավորելու համար անհրաժեշտ են լրացուցիչ տեղեկություններ։
+account-hub-email-config-found = Ընտրեք ձեր էլփոստի հաշվի տեսակը
 account-hub-test-configuration = Փորձարկել
 account-hub-result-imap-description = Պահպանեք ձեր պանակներն ու էլ. փոստերը համաժամեցված ձեր սպասարկիչում
 account-hub-result-pop-description = Պահպանեք ձեր պանակներն ու էլ. փոստերը համաժամեցված ձեր սպասարկիչում
@@ -198,3 +232,42 @@ account-hub-name-error-text = Նշեք Ձեր անունը։
 account-hub-username-error-text = Օգտվողի անունը պարտադիր է
     .title = Օգտվողի անունը պարտադիր է
 account-hub-account-authentication-error = Իսկորոշման սխալ:
+address-book-add-ldap-icon =
+    .alt = Միացեք հեռակա LDAP հասցեագրքին
+address-book-add-ldap = Նոր LDAP հասցեագիրք
+address-book-add-ldap-description = Միացեք հեռակա LDAP հասցեագրքին
+# $addressBooks (Number) - The number of address books that can be synced from existing accounts.
+account-hub-address-book-sync-books-data =
+    { $addressBooks ->
+        [one] Հասանելի է 1 հասցեագիրք
+       *[other] Հասանելի է { $addressBooks } հասցեագիրք
+    }
+account-hub-fetching-sync-accounts = Հասցեների գրքերի և օրացույցների հայտնաբերում…
+address-book-sync-existing-description = Առկա հաշիվների վերականգնում…
+account-hub-select-address-book-account = Ընտրեք հաշիվ հասցեագրքերով
+# $synced (Number) - The number of address books that are synced.
+# $available (Number) - The number of address books that can be synced.
+# $total (Number) - The total number of address books for this account.
+account-hub-account-address-book-count = { $synced }-ից { $total }-ը
+    .title = { $synced } համաժամեցված հասցեագրքեր, { $available } հասանելի է
+account-hub-add-local-address-book = Ստեղծել տեղական հասցեագիրք
+account-hub-local-address-book-label = Հասցեագրքի անունը
+account-hub-local-error-text = Խնդրում ենք մուտքագրել հասցեագրքի անունը
+account-hub-sync-address-books = Համաժամեցրեք առկա հասցեագրքերը
+account-hub-new-remote-address-book = Նոր հեռակա հասցեագիրք
+
+## Exchange Type Manual Config Step
+
+account-hub-exchange-type-account-type = Հաշվի տեսակը
+account-hub-card-graph-title = Microsoft Graph
+account-hub-card-graph-description = Microsoft Graph-ը Microsoft 365-ի համար ժամանակակից միացման մեթոդ է։
+account-hub-card-ews-title = Exchange Web Services
+account-hub-card-ews-tag = Ժառանգություն
+account-hub-card-ews-description = Exchange Web Services-ը (EWS) միանում է Microsoft Exchange-ին՝ ձեր փոստը համաժամեցնելու համար:
+# This is shown after the type description, so "it" is referring to the type (either Microsoft Graph or Exchange Web Services).
+account-hub-card-recommended-description = Այն խորհուրդ է տրվում, քանի որ այն համապատասխանում է ձեր ծառայության URL-ին։
+account-hub-exchange-type-username = Օգտվողի անուն
+account-hub-exchange-type-username-hint = Սովորաբար ձեր էլեկտրոնային փոստի հասցեն կամ Active Directory UPN-ը։
+account-hub-exchange-type-authentication = Իսկորոշման եղանակ
+# Checkbox that can be unchecked to use a custom OAuth config.
+account-hub-exchange-type-default-oauth = Օգտագործել Microsoft 365 Copilot-ի սկզբնադիր  նույնականացման կարգավորումները
