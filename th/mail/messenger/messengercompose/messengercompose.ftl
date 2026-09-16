@@ -404,6 +404,9 @@ attachment-reminder-keywords-msg = พบ { $count } คำสำคัญไฟ
 
 ## Editing
 
+
+# Tools
+
 compose-tool-button-remove-text-styling =
     .tooltiptext = เอาการใส่ลักษณะข้อความออก
 
@@ -412,6 +415,9 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = อัปโหลดไปยังบัญชี Filelink ที่ไม่รู้จักแล้ว
+
+# Placeholder file
+
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - ไฟล์แนบ Filelink
@@ -419,6 +425,9 @@ cloud-file-placeholder-title = { $filename } - ไฟล์แนบ Filelink
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = ไฟล์ { $filename } ถูกแนบมาเป็น Filelink ไฟล์นี้สามารถดาวน์โหลดได้จากลิงก์ด้านล่างนี้
+
+# Template
+
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -452,6 +461,9 @@ cloud-file-template-link = ลิงก์:
 cloud-file-template-password-protected-link = ลิงก์ที่ป้องกันด้วยรหัสผ่าน:
 cloud-file-template-expiry-date = วันหมดอายุ:
 cloud-file-template-download-limit = ขีดจำกัดการดาวน์โหลด:
+
+# Messages
+
 cloud-file-connection-error-title = การเชื่อมต่อผิดพลาด
 # Variables:
 # $provider (string) - name of the online storage service that reported the error
@@ -557,3 +569,23 @@ spell-add-dictionaries =
     .accesskey = พ
 subject-encription-icon =
     .title = หัวเรื่องจะไม่ถูกเข้ารหัสลับ
+
+## Compose toolbar buttons
+
+compose-button-send =
+    .label = ส่ง
+    .tooltiptext = ส่งข้อความนี้ตอนนี้
+compose-button-send-later =
+    .label = ส่งภายหลัง
+    .tooltiptext = ส่งข้อความนี้ในภายหลัง
+
+## Compose menubar
+
+compose-menu-item-send =
+    .label = ส่ง
+    .tooltiptext = ส่งข้อความนี้ตอนนี้
+    .accesskey = ด
+compose-menu-item-send-later =
+    .label = ส่งภายหลัง
+    .tooltiptext = ส่งข้อความนี้ในภายหลัง
+    .accesskey = ภ

@@ -103,6 +103,19 @@ compose-blocked-content-preferences-accesskey = K
 compose-unblock-resource =
     .label = Buang sekatan { $url }
 
+## Send Format
+
+
+## Addressing widget
+
+
+## Attachment widget
+
+
+## Variables:
+## $count (Number) - Number of files being dropped onto the composer.
+
+
 ## Reorder Attachment Panel
 
 # Variables:
@@ -114,6 +127,12 @@ default-delete-cmd =
     .label = Buang
     .accesskey = B
 
+## Encryption
+
+
+## Addressing Area
+
+
 ## Notifications
 
 # Variables:
@@ -123,7 +142,22 @@ blocked-content-message = { -brand-short-name } telah menyekat fail daripada dim
 #   $count - the number keywords
 attachment-reminder-keywords-msg = Menemui { $count } kata kunci lampiran:
 
+## Editing
+
+
+# Tools
+
+
 ## Filelink
+
+
+# Placeholder file
+
+
+# Template
+
+
+# Messages
 
 cloud-file-authentication-error-title = Ralat Pengesahan
 # Variables:
@@ -186,3 +220,29 @@ cloud-file-uploaded-tooltip = Dimuat naik ke { $provider }
 # Variables:
 # $provider - name of the online storage service
 cloud-file-attach-picker-title = Lampirkan Fail via { $provider }
+
+## Link Preview
+
+
+## Dictionary selection popup
+
+
+## Compose toolbar buttons
+
+compose-button-send =
+    .label = Hantar
+    .tooltiptext = Hantar mesej ini sekarang
+compose-button-send-later =
+    .label = Hantar Kemudian
+    .tooltiptext = Hantar mesej ini kemudian
+
+## Compose menubar
+
+compose-menu-item-send =
+    .label = Hantar
+    .tooltiptext = Hantar mesej ini sekarang
+    .accesskey = r
+compose-menu-item-send-later =
+    .label = Hantar Kemudian
+    .tooltiptext = Hantar mesej ini kemudian
+    .accesskey = K

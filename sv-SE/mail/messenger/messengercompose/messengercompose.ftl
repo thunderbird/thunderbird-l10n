@@ -438,6 +438,9 @@ attachment-reminder-keywords-msg =
 
 ## Editing
 
+
+# Tools
+
 compose-tool-button-remove-text-styling =
     .tooltiptext = Ta bort textstyling
 
@@ -446,6 +449,9 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = Uppladdad till ett okänt fillänkskonto.
+
+# Placeholder file
+
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - Fillänksbilaga
@@ -453,6 +459,9 @@ cloud-file-placeholder-title = { $filename } - Fillänksbilaga
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = Filen { $filename } bifogades som en fillänk. Den kan laddas ner från länken nedan.
+
+# Template
+
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -490,6 +499,9 @@ cloud-file-template-link = Länk:
 cloud-file-template-password-protected-link = Lösenordsskyddad länk:
 cloud-file-template-expiry-date = Utgångsdatum:
 cloud-file-template-download-limit = Nedladdningsgräns:
+
+# Messages
+
 cloud-file-connection-error-title = Anslutningsfel
 # Variables:
 # $provider (string) - name of the online storage service that reported the error
@@ -603,3 +615,23 @@ spell-add-dictionaries =
     .accesskey = L
 subject-encription-icon =
     .title = Ämne kommer inte att krypteras
+
+## Compose toolbar buttons
+
+compose-button-send =
+    .label = Skicka
+    .tooltiptext = Skickar meddelandet nu
+compose-button-send-later =
+    .label = Skicka senare
+    .tooltiptext = Skickar meddelandet senare
+
+## Compose menubar
+
+compose-menu-item-send =
+    .label = Skicka
+    .tooltiptext = Skickar meddelandet nu
+    .accesskey = n
+compose-menu-item-send-later =
+    .label = Skicka senare
+    .tooltiptext = Skickar meddelandet senare
+    .accesskey = r

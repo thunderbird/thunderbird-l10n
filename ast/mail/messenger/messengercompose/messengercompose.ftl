@@ -69,6 +69,19 @@ find-replace-button =
     .tooltiptext = Amosar el diálogu Guetar y trocar
     .accesskey = T
 
+## Send Format
+
+
+## Addressing widget
+
+
+## Attachment widget
+
+
+## Variables:
+## $count (Number) - Number of files being dropped onto the composer.
+
+
 ## Reorder Attachment Panel
 
 # Variables:
@@ -84,6 +97,12 @@ default-delete-cmd =
     .label = Desaniciar
     .accesskey = n
 
+## Encryption
+
+
+## Addressing Area
+
+
 ## Notifications
 
 # Variables:
@@ -94,7 +113,22 @@ attachment-reminder-keywords-msg =
        *[other] Alcontráronse { $count } pallabres clave d'axuntos:
     }
 
+## Editing
+
+
+# Tools
+
+
 ## Filelink
+
+
+# Placeholder file
+
+
+# Template
+
+
+# Messages
 
 cloud-file-authentication-error-title = Fallu d'identificación
 # Variables:
@@ -165,3 +199,29 @@ cloud-file-uploaded-tooltip = Xubíu a { $provider }
 # Variables:
 # $provider - name of the online storage service
 cloud-file-attach-picker-title = Axuntar ficheru(os) a traviés de { $provider }
+
+## Link Preview
+
+
+## Dictionary selection popup
+
+
+## Compose toolbar buttons
+
+compose-button-send =
+    .label = Unviar
+    .tooltiptext = Unviar esti mensaxe agora
+compose-button-send-later =
+    .label = Unviar más sero
+    .tooltiptext = Unviar esti mensaxe más sero
+
+## Compose menubar
+
+compose-menu-item-send =
+    .label = Unviar
+    .tooltiptext = Unviar esti mensaxe agora
+    .accesskey = v
+compose-menu-item-send-later =
+    .label = Unviar más sero
+    .tooltiptext = Unviar esti mensaxe más sero
+    .accesskey = s

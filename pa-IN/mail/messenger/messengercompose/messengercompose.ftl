@@ -55,6 +55,19 @@ compose-save-success-message = Your message has been saved to the folder { $fold
 compose-rename-attachment-title = Rename Attachment
 compose-rename-attachment-prompt = New attachment name:
 
+## Send Format
+
+
+## Addressing widget
+
+
+## Attachment widget
+
+
+## Variables:
+## $count (Number) - Number of files being dropped onto the composer.
+
+
 ## Reorder Attachment Panel
 
 # Variables:
@@ -70,6 +83,12 @@ default-delete-cmd =
     .label = ਹਟਾਓ
     .accesskey = d
 
+## Encryption
+
+
+## Addressing Area
+
+
 ## Notifications
 
 # Variables:
@@ -80,7 +99,22 @@ attachment-reminder-keywords-msg =
        *[other] Found { $count } attachment keywords:
     }
 
+## Editing
+
+
+# Tools
+
+
 ## Filelink
+
+
+# Placeholder file
+
+
+# Template
+
+
+# Messages
 
 cloud-file-authentication-error-title = Authentication Error
 # Variables:
@@ -151,3 +185,29 @@ cloud-file-uploaded-tooltip = Uploaded to { $provider }
 # Variables:
 # $provider - name of the online storage service
 cloud-file-attach-picker-title = Attach File(s) via { $provider }
+
+## Link Preview
+
+
+## Dictionary selection popup
+
+
+## Compose toolbar buttons
+
+compose-button-send =
+    .label = ਭੇਜੋ
+    .tooltiptext = ਇਹ ਸੁਨੇਹਾ ਹੁਣੇ ਭੇਜੋ
+compose-button-send-later =
+    .label = ਬਾਅਦ 'ਚ ਭੇਜੋ
+    .tooltiptext = ਇਹ ਸੁਨੇਹਾ ਬਾਅਦ ਵਿੱਚ ਭੇਜੋ
+
+## Compose menubar
+
+compose-menu-item-send =
+    .label = ਭੇਜੋ
+    .tooltiptext = ਇਹ ਸੁਨੇਹਾ ਹੁਣੇ ਭੇਜੋ
+    .accesskey = d
+compose-menu-item-send-later =
+    .label = ਬਾਅਦ 'ਚ ਭੇਜੋ
+    .tooltiptext = ਇਹ ਸੁਨੇਹਾ ਬਾਅਦ ਵਿੱਚ ਭੇਜੋ
+    .accesskey = L

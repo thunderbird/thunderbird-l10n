@@ -438,6 +438,9 @@ attachment-reminder-keywords-msg =
 
 ## Editing
 
+
+# Tools
+
 compose-tool-button-remove-text-styling =
     .tooltiptext = Supprimer le style du texte
 
@@ -446,6 +449,9 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = Envoyé sur un compte Filelink inconnu.
+
+# Placeholder file
+
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - Pièce jointe Filelink
@@ -453,6 +459,9 @@ cloud-file-placeholder-title = { $filename } - Pièce jointe Filelink
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = Le fichier { $filename } a été joint en tant que Filelink. Il peut être téléchargé à partir du lien ci-dessous.
+
+# Template
+
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -490,6 +499,9 @@ cloud-file-template-link = Lien :
 cloud-file-template-password-protected-link = Lien protégé par mot de passe :
 cloud-file-template-expiry-date = Date d’expiration :
 cloud-file-template-download-limit = Limite de téléchargement :
+
+# Messages
+
 cloud-file-connection-error-title = Erreur de connexion
 # Variables:
 # $provider (string) - name of the online storage service that reported the error
@@ -603,3 +615,23 @@ spell-add-dictionaries =
     .accesskey = A
 subject-encription-icon =
     .title = Le sujet ne sera pas chiffré
+
+## Compose toolbar buttons
+
+compose-button-send =
+    .label = Envoyer
+    .tooltiptext = Envoyer le message maintenant
+compose-button-send-later =
+    .label = Envoyer plus tard
+    .tooltiptext = Envoyer ce message plus tard
+
+## Compose menubar
+
+compose-menu-item-send =
+    .label = Envoyer
+    .tooltiptext = Envoyer le message maintenant
+    .accesskey = v
+compose-menu-item-send-later =
+    .label = Envoyer plus tard
+    .tooltiptext = Envoyer ce message plus tard
+    .accesskey = l

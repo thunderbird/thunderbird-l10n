@@ -439,6 +439,9 @@ attachment-reminder-keywords-msg =
 
 ## Editing
 
+
+# Tools
+
 compose-tool-button-remove-text-styling =
     .tooltiptext = Metin stilini kaldır
 
@@ -447,6 +450,9 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = Bilinmeyen bir Filelink hesabına yüklendi.
+
+# Placeholder file
+
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - Filelink Eki
@@ -454,6 +460,9 @@ cloud-file-placeholder-title = { $filename } - Filelink Eki
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = { $filename } dosyası Filelink olarak eklendi. Dosyayı aşağıdaki bağlantıdan indirebilirsiniz.
+
+# Template
+
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -491,6 +500,9 @@ cloud-file-template-link = Bağlantı:
 cloud-file-template-password-protected-link = Parola korumalı bağlantı:
 cloud-file-template-expiry-date = Bitiş tarihi:
 cloud-file-template-download-limit = İndirme sınırı:
+
+# Messages
+
 cloud-file-connection-error-title = Bağlantı Hatası
 # Variables:
 # $provider (string) - name of the online storage service that reported the error
@@ -604,3 +616,23 @@ spell-add-dictionaries =
     .accesskey = S
 subject-encription-icon =
     .title = Konu şifrelenmez
+
+## Compose toolbar buttons
+
+compose-button-send =
+    .label = Gönder
+    .tooltiptext = Bu iletiyi şimdi gönder
+compose-button-send-later =
+    .label = Daha sonra gönder
+    .tooltiptext = Bu iletiyi daha sonra gönder
+
+## Compose menubar
+
+compose-menu-item-send =
+    .label = Gönder
+    .tooltiptext = Bu iletiyi şimdi gönder
+    .accesskey = d
+compose-menu-item-send-later =
+    .label = Daha sonra gönder
+    .tooltiptext = Bu iletiyi daha sonra gönder
+    .accesskey = a

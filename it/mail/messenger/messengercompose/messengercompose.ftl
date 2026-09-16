@@ -438,6 +438,9 @@ attachment-reminder-keywords-msg =
 
 ## Editing
 
+
+# Tools
+
 compose-tool-button-remove-text-styling =
     .tooltiptext = Rimuovi stili di testo
 
@@ -446,6 +449,9 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = Caricato su un account Filelink sconosciuto.
+
+# Placeholder file
+
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - Allegato Filelink
@@ -453,6 +459,9 @@ cloud-file-placeholder-title = { $filename } - Allegato Filelink
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = Il file { $filename } è stato allegato come Filelink. Può essere scaricato dal link sottostante.
+
+# Template
+
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -490,6 +499,9 @@ cloud-file-template-link = Collegamento:
 cloud-file-template-password-protected-link = Collegamento protetto da password:
 cloud-file-template-expiry-date = Data di scadenza:
 cloud-file-template-download-limit = Limite di download:
+
+# Messages
+
 cloud-file-connection-error-title = Errore di connessione
 # Variables:
 # $provider (string) - name of the online storage service that reported the error
@@ -603,3 +615,23 @@ spell-add-dictionaries =
     .accesskey = z
 subject-encription-icon =
     .title = L’oggetto non verrà crittato
+
+## Compose toolbar buttons
+
+compose-button-send =
+    .label = Invia
+    .tooltiptext = Invia il messaggio ora
+compose-button-send-later =
+    .label = Invia dopo
+    .tooltiptext = invia più tardi
+
+## Compose menubar
+
+compose-menu-item-send =
+    .label = Invia
+    .tooltiptext = Invia il messaggio ora
+    .accesskey = u
+compose-menu-item-send-later =
+    .label = Invia dopo
+    .tooltiptext = invia più tardi
+    .accesskey = D

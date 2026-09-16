@@ -70,6 +70,19 @@ find-replace-button =
     .tooltiptext = បង្ហាញ​ប្រអប់​ជំនួស និង​ស្វែងរក
     .accesskey = l
 
+## Send Format
+
+
+## Addressing widget
+
+
+## Attachment widget
+
+
+## Variables:
+## $count (Number) - Number of files being dropped onto the composer.
+
+
 ## Reorder Attachment Panel
 
 # Variables:
@@ -81,6 +94,9 @@ default-delete-cmd =
     .label = Ջնջել
     .accesskey = D
 
+## Encryption
+
+
 ## Addressing Area
 
 many-public-recipients-prompt-cancel = បោះបង់ការផ្ញើ
@@ -91,11 +107,26 @@ many-public-recipients-prompt-cancel = បោះបង់ការផ្ញើ
 #   $count - the number keywords
 attachment-reminder-keywords-msg = បាន​រកឃើញ​ពាក្យ​គន្លឹះ​ឯកសារ​ភ្ជាប់ { $count }
 
+## Editing
+
+
+# Tools
+
+
 ## Filelink
+
+
+# Placeholder file
+
+
+# Template
 
 # Tooltip for an icon, indicating that the link is protected by a password.
 cloud-file-tooltip-password-protected-link = តំណភ្ជាប់ដែលការពារដោយពាក្យសម្ងាត់
 cloud-file-template-password-protected-link = តំណភ្ជាប់ដែលការពារដោយពាក្យសម្ងាត់៖
+
+# Messages
+
 cloud-file-authentication-error-title = កំហុស​​ក្នុង​ការ​ផ្ទៀងផ្ទាត់
 # Variables:
 # $provider - name of the online storage service
@@ -161,3 +192,26 @@ cloud-file-attach-picker-title = ភ្ជាប់​ឯកសារ​តា�
 ## Link Preview
 
 link-preview-yes-replace = បាទ/ចាស៎
+
+## Dictionary selection popup
+
+
+## Compose toolbar buttons
+
+compose-button-send =
+    .label = Send
+    .tooltiptext = Send this message now
+compose-button-send-later =
+    .label = Send Later
+    .tooltiptext = Send this message later
+
+## Compose menubar
+
+compose-menu-item-send =
+    .label = Send
+    .tooltiptext = Send this message now
+    .accesskey = d
+compose-menu-item-send-later =
+    .label = Send Later
+    .tooltiptext = Send this message later
+    .accesskey = L

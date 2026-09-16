@@ -439,6 +439,9 @@ attachment-reminder-keywords-msg =
 
 ## Editing
 
+
+# Tools
+
 compose-tool-button-remove-text-styling =
     .tooltiptext = Премахване на стила на текста
 
@@ -447,6 +450,9 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = Качен в неизвестен профил във Filelink.
+
+# Placeholder file
+
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - Прикачен файл от Filelink
@@ -454,6 +460,9 @@ cloud-file-placeholder-title = { $filename } - Прикачен файл от Fi
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = Файлът { $filename } беше прикачен като връзка към файл. Може да бъде изтеглен от връзката по-долу.
+
+# Template
+
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -491,6 +500,9 @@ cloud-file-template-link = Препратка:
 cloud-file-template-password-protected-link = Връзка, защитена с парола:
 cloud-file-template-expiry-date = Валидна до:
 cloud-file-template-download-limit = Лимит за изтегляне:
+
+# Messages
+
 cloud-file-connection-error-title = Грешка при свързване
 # Variables:
 # $provider (string) - name of the online storage service that reported the error
@@ -604,3 +616,23 @@ spell-add-dictionaries =
     .accesskey = р
 subject-encription-icon =
     .title = Темата няма да бъде шифрована
+
+## Compose toolbar buttons
+
+compose-button-send =
+    .label = Изпращане
+    .tooltiptext = Изпращане на писмото веднага
+compose-button-send-later =
+    .label = Изпращане по-късно
+    .tooltiptext = Писмото ще се изпрати по-късно
+
+## Compose menubar
+
+compose-menu-item-send =
+    .label = Изпращане
+    .tooltiptext = Изпращане на писмото веднага
+    .accesskey = г
+compose-menu-item-send-later =
+    .label = Изпращане по-късно
+    .tooltiptext = Писмото ще се изпрати по-късно
+    .accesskey = о

@@ -409,6 +409,9 @@ attachment-reminder-keywords-msg = { $count }개의 첨부 파일 키워드 발�
 
 ## Editing
 
+
+# Tools
+
 compose-tool-button-remove-text-styling =
     .tooltiptext = 텍스트 스타일 제거
 
@@ -417,6 +420,9 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = 알 수 없는 Filelink 계정에 업로드되었습니다.
+
+# Placeholder file
+
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - Filelink 첨부 파일
@@ -424,6 +430,9 @@ cloud-file-placeholder-title = { $filename } - Filelink 첨부 파일
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = { $filename } 파일이 Filelink로 첨부되었습니다. 아래 링크에서 다운로드할 수 있습니다.
+
+# Template
+
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -457,6 +466,9 @@ cloud-file-template-link = 링크:
 cloud-file-template-password-protected-link = 비밀번호로 보호된 링크:
 cloud-file-template-expiry-date = 만료일:
 cloud-file-template-download-limit = 다운로드 제한:
+
+# Messages
+
 cloud-file-connection-error-title = 연결 오류
 # Variables:
 # $provider (string) - name of the online storage service that reported the error
@@ -562,3 +574,23 @@ spell-add-dictionaries =
     .accesskey = A
 subject-encription-icon =
     .title = 제목이 암호화되지 않음
+
+## Compose toolbar buttons
+
+compose-button-send =
+    .label = 보내기
+    .tooltiptext = 지금 보내기
+compose-button-send-later =
+    .label = 나중에 보내기
+    .tooltiptext = 나중에 보내기
+
+## Compose menubar
+
+compose-menu-item-send =
+    .label = 보내기
+    .tooltiptext = 지금 보내기
+    .accesskey = d
+compose-menu-item-send-later =
+    .label = 나중에 보내기
+    .tooltiptext = 나중에 보내기
+    .accesskey = L

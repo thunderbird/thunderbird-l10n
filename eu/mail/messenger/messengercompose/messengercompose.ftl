@@ -439,6 +439,9 @@ attachment-reminder-keywords-msg =
 
 ## Editing
 
+
+# Tools
+
 compose-tool-button-remove-text-styling =
     .tooltiptext = Kendu testu estiloak
 
@@ -447,6 +450,9 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = Igota Filelink kontu ezezagun batera.
+
+# Placeholder file
+
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - Filelink eranskina
@@ -454,6 +460,9 @@ cloud-file-placeholder-title = { $filename } - Filelink eranskina
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = { $filename } fitxategia Filelink erara erantsi da. Azpiko loturatik jaitsi daiteke.
+
+# Template
+
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -491,6 +500,9 @@ cloud-file-template-link = Lotura:
 cloud-file-template-password-protected-link = Pasahitzaz babestutako lotura:
 cloud-file-template-expiry-date = Iraungitze data:
 cloud-file-template-download-limit = Deskargatzeko limitea:
+
+# Messages
+
 cloud-file-connection-error-title = Konexio errorea
 # Variables:
 # $provider (string) - name of the online storage service that reported the error
@@ -604,3 +616,23 @@ spell-add-dictionaries =
     .accesskey = h
 subject-encription-icon =
     .title = Gaia ez da zifratuko
+
+## Compose toolbar buttons
+
+compose-button-send =
+    .label = Bidali
+    .tooltiptext = Bidali mezua orain
+compose-button-send-later =
+    .label = Bidali geroago
+    .tooltiptext = Bidali mezua geroago
+
+## Compose menubar
+
+compose-menu-item-send =
+    .label = Bidali
+    .tooltiptext = Bidali mezua orain
+    .accesskey = d
+compose-menu-item-send-later =
+    .label = Bidali geroago
+    .tooltiptext = Bidali mezua geroago
+    .accesskey = l

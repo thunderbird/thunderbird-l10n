@@ -438,6 +438,9 @@ attachment-reminder-keywords-msg =
 
 ## Editing
 
+
+# Tools
+
 compose-tool-button-remove-text-styling =
     .tooltiptext = Elimina l'estil del text
 
@@ -446,6 +449,9 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = S'ha pujat a un compte desconegut de Filelink.
+
+# Placeholder file
+
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - Adjunció de Filelink
@@ -453,6 +459,9 @@ cloud-file-placeholder-title = { $filename } - Adjunció de Filelink
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = El fitxer { $filename } s'ha adjuntat com a «Filelink». Es pot baixar des de l'enllaç següent.
+
+# Template
+
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -490,6 +499,9 @@ cloud-file-template-link = Enllaç:
 cloud-file-template-password-protected-link = Enllaç protegit amb contrasenya:
 cloud-file-template-expiry-date = Data de caducitat:
 cloud-file-template-download-limit = Límit de baixada:
+
+# Messages
+
 cloud-file-connection-error-title = Error de connexió
 # Variables:
 # $provider (string) - name of the online storage service that reported the error
@@ -603,3 +615,23 @@ spell-add-dictionaries =
     .accesskey = A
 subject-encription-icon =
     .title = L'assumpte no es xifrarà
+
+## Compose toolbar buttons
+
+compose-button-send =
+    .label = Envia
+    .tooltiptext = Envia ara aquest missatge
+compose-button-send-later =
+    .label = Envia'l més tard
+    .tooltiptext = Envia aquest missatge més tard
+
+## Compose menubar
+
+compose-menu-item-send =
+    .label = Envia
+    .tooltiptext = Envia ara aquest missatge
+    .accesskey = r
+compose-menu-item-send-later =
+    .label = Envia'l més tard
+    .tooltiptext = Envia aquest missatge més tard
+    .accesskey = l

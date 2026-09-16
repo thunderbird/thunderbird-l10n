@@ -411,6 +411,9 @@ attachment-reminder-keywords-msg = 找到 { $count } 个附件关键词：
 
 ## Editing
 
+
+# Tools
+
 compose-tool-button-remove-text-styling =
     .tooltiptext = 移除文本样式
 
@@ -419,6 +422,9 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = 上传至未知的文件快传账户。
+
+# Placeholder file
+
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - 文件快传附件
@@ -426,6 +432,9 @@ cloud-file-placeholder-title = { $filename } - 文件快传附件
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = 文件 { $filename } 已上传至文件快传，可从下方链接下载。
+
+# Template
+
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -462,6 +471,9 @@ cloud-file-template-link = 链接：
 cloud-file-template-password-protected-link = 密码保护链接：
 cloud-file-template-expiry-date = 有效期至：
 cloud-file-template-download-limit = 下载限制：
+
+# Messages
+
 cloud-file-connection-error-title = 连接错误
 # Variables:
 # $provider (string) - name of the online storage service that reported the error
@@ -567,3 +579,23 @@ spell-add-dictionaries =
     .accesskey = A
 subject-encription-icon =
     .title = 主题将不会被加密
+
+## Compose toolbar buttons
+
+compose-button-send =
+    .label = 发送
+    .tooltiptext = 现在发送此消息
+compose-button-send-later =
+    .label = 以后发送
+    .tooltiptext = 以后发送此消息
+
+## Compose menubar
+
+compose-menu-item-send =
+    .label = 发送
+    .tooltiptext = 现在发送此消息
+    .accesskey = d
+compose-menu-item-send-later =
+    .label = 以后发送
+    .tooltiptext = 以后发送此消息
+    .accesskey = L

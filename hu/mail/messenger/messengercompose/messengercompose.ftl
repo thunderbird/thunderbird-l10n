@@ -437,6 +437,9 @@ attachment-reminder-keywords-msg =
 
 ## Editing
 
+
+# Tools
+
 compose-tool-button-remove-text-styling =
     .tooltiptext = Szövegstílus eltávolítása
 
@@ -445,6 +448,9 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = Egy ismeretlen Filelink-fiókba feltöltve.
+
+# Placeholder file
+
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } – Filelink-melléklet
@@ -452,6 +458,9 @@ cloud-file-placeholder-title = { $filename } – Filelink-melléklet
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = A(z) { $filename } fájlt Filelink-hivatkozásként csatolták. Az alábbi hivatkozásról tölthető le.
+
+# Template
+
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -489,6 +498,9 @@ cloud-file-template-link = Hivatkozás:
 cloud-file-template-password-protected-link = Jelszóval védett hivatkozás:
 cloud-file-template-expiry-date = Lejárati dátum:
 cloud-file-template-download-limit = Letöltési korlát:
+
+# Messages
+
 cloud-file-connection-error-title = Kapcsolódási hiba
 # Variables:
 # $provider (string) - name of the online storage service that reported the error
@@ -602,3 +614,23 @@ spell-add-dictionaries =
     .accesskey = a
 subject-encription-icon =
     .title = A tárgy nem lesz titkosítva
+
+## Compose toolbar buttons
+
+compose-button-send =
+    .label = Küldés
+    .tooltiptext = Üzenet elküldése azonnal
+compose-button-send-later =
+    .label = Küldés később
+    .tooltiptext = Üzenet elküldése később
+
+## Compose menubar
+
+compose-menu-item-send =
+    .label = Küldés
+    .tooltiptext = Üzenet elküldése azonnal
+    .accesskey = d
+compose-menu-item-send-later =
+    .label = Küldés később
+    .tooltiptext = Üzenet elküldése később
+    .accesskey = l

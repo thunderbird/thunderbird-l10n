@@ -402,6 +402,9 @@ attachment-reminder-keywords-msg = Đã tìm thấy { $count } từ khóa đính
 
 ## Editing
 
+
+# Tools
+
 compose-tool-button-remove-text-styling =
     .tooltiptext = Xóa kiểu định dạng văn bản
 
@@ -410,6 +413,9 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = Đã tải lên tài khoản Filelink không xác định.
+
+# Placeholder file
+
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - Đính kèm Filelink
@@ -417,6 +423,9 @@ cloud-file-placeholder-title = { $filename } - Đính kèm Filelink
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = Tập tin { $filename } đã được đính kèm dưới dạng Filelink. Nó có thể được tải xuống từ liên kết bên dưới.
+
+# Template
+
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -453,6 +462,9 @@ cloud-file-template-link = Liên kết:
 cloud-file-template-password-protected-link = Liên kết được bảo vệ bằng mật khẩu:
 cloud-file-template-expiry-date = Ngày hết hạn:
 cloud-file-template-download-limit = Giới hạn tải xuống:
+
+# Messages
+
 cloud-file-connection-error-title = Lỗi kết nối
 # Variables:
 # $provider (string) - name of the online storage service that reported the error
@@ -558,3 +570,23 @@ spell-add-dictionaries =
     .accesskey = A
 subject-encription-icon =
     .title = Chủ đề sẽ không được mã hoá
+
+## Compose toolbar buttons
+
+compose-button-send =
+    .label = Gửi
+    .tooltiptext = Gửi thư này ngay
+compose-button-send-later =
+    .label = Gửi sau
+    .tooltiptext = Gửi thư này sau
+
+## Compose menubar
+
+compose-menu-item-send =
+    .label = Gửi
+    .tooltiptext = Gửi thư này ngay
+    .accesskey = N
+compose-menu-item-send-later =
+    .label = Gửi sau
+    .tooltiptext = Gửi thư này sau
+    .accesskey = S

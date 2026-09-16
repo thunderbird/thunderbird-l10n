@@ -406,14 +406,23 @@ attachment-reminder-keywords-msg =
 
 ## Editing
 
+
+# Tools
+
 compose-tool-button-remove-text-styling =
     .tooltiptext = Kkes aɣanib n uḍris
 
 ## Filelink
 
+
+# Placeholder file
+
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - Amedday Filelink
+
+# Template
+
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -451,6 +460,9 @@ cloud-file-template-link = Aseɣwen:
 cloud-file-template-password-protected-link = Aseɣwen yettummesten s wawal uffir:
 cloud-file-template-expiry-date = Azemz i ifaten:
 cloud-file-template-download-limit = Talast n usader:
+
+# Messages
+
 cloud-file-connection-error-title = Tuccḍa deg tuqqna
 # Variables:
 # $provider (string) - name of the online storage service that reported the error
@@ -560,3 +572,23 @@ link-preview-yes-replace = Ih
 spell-add-dictionaries =
     .label = Rnu imawalen...
     .accesskey = R
+
+## Compose toolbar buttons
+
+compose-button-send =
+    .label = Azen
+    .tooltiptext = Azen Izen-agi tura
+compose-button-send-later =
+    .label = Azen ticki
+    .tooltiptext = Azen izen-agi ticki
+
+## Compose menubar
+
+compose-menu-item-send =
+    .label = Azen
+    .tooltiptext = Azen Izen-agi tura
+    .accesskey = t
+compose-menu-item-send-later =
+    .label = Azen ticki
+    .tooltiptext = Azen izen-agi ticki
+    .accesskey = c

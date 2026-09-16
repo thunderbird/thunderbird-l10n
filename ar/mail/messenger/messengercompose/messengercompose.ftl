@@ -103,6 +103,19 @@ compose-blocked-content-preferences-accesskey = ف
 compose-unblock-resource =
     .label = ارفع حجب { $url }
 
+## Send Format
+
+
+## Addressing widget
+
+
+## Attachment widget
+
+
+## Variables:
+## $count (Number) - Number of files being dropped onto the composer.
+
+
 ## Reorder Attachment Panel
 
 # Variables:
@@ -121,6 +134,12 @@ remove-attachment-cmd =
 default-delete-cmd =
     .label = احذف
     .accesskey = ذ
+
+## Encryption
+
+
+## Addressing Area
+
 
 ## Notifications
 
@@ -146,7 +165,22 @@ attachment-reminder-keywords-msg =
        *[other] وُجدت { $count } كلمة تدل على مُرفق:
     }
 
+## Editing
+
+
+# Tools
+
+
 ## Filelink
+
+
+# Placeholder file
+
+
+# Template
+
+
+# Messages
 
 cloud-file-authentication-error-title = عُطل في الاستيثاق
 # Variables:
@@ -225,3 +259,29 @@ cloud-file-uploaded-tooltip = رُفِع إلى { $provider }
 # Variables:
 # $provider - name of the online storage service
 cloud-file-attach-picker-title = أرفق الملفات عبر { $provider }
+
+## Link Preview
+
+
+## Dictionary selection popup
+
+
+## Compose toolbar buttons
+
+compose-button-send =
+    .label = أرسِل
+    .tooltiptext = أرسِل هذه الرسالة الآن
+compose-button-send-later =
+    .label = أرسِل لاحقًا
+    .tooltiptext = أرسِل هذه الرسالة لاحقًا
+
+## Compose menubar
+
+compose-menu-item-send =
+    .label = أرسِل
+    .tooltiptext = أرسِل هذه الرسالة الآن
+    .accesskey = ر
+compose-menu-item-send-later =
+    .label = أرسِل لاحقًا
+    .tooltiptext = أرسِل هذه الرسالة لاحقًا
+    .accesskey = ح

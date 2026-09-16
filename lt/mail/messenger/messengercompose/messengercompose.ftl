@@ -105,6 +105,9 @@ compose-blocked-content-preferences-accesskey = s
 compose-unblock-resource =
     .label = Atblokuoti { $url }
 
+## Send Format
+
+
 ## Addressing widget
 
 #   $type (String) - the type of the addressing row
@@ -216,6 +219,9 @@ default-delete-cmd =
     .label = Pašalinti
     .accesskey = š
 
+## Encryption
+
+
 ## Addressing Area
 
 to-address-row-label =
@@ -246,7 +252,22 @@ attachment-reminder-keywords-msg =
        *[other] Rasta { $count } su priedu susijusių reikšminių žodžių:
     }
 
+## Editing
+
+
+# Tools
+
+
 ## Filelink
+
+
+# Placeholder file
+
+
+# Template
+
+
+# Messages
 
 cloud-file-authentication-error-title = Klaida nustatant tapatumą
 # Variables:
@@ -319,3 +340,29 @@ cloud-file-uploaded-tooltip = Failas įkeltas į „{ $provider }“
 # Variables:
 # $provider - name of the online storage service
 cloud-file-attach-picker-title = Pridedamų per „{ $provider }“ failų parinkimas
+
+## Link Preview
+
+
+## Dictionary selection popup
+
+
+## Compose toolbar buttons
+
+compose-button-send =
+    .label = Išsiųsti
+    .tooltiptext = Išsiųsti laišką dabar
+compose-button-send-later =
+    .label = Išsiųsti vėliau
+    .tooltiptext = Išsiųsti laišką vėliau
+
+## Compose menubar
+
+compose-menu-item-send =
+    .label = Išsiųsti
+    .tooltiptext = Išsiųsti laišką dabar
+    .accesskey = a
+compose-menu-item-send-later =
+    .label = Išsiųsti vėliau
+    .tooltiptext = Išsiųsti laišką vėliau
+    .accesskey = ė
