@@ -24,6 +24,10 @@ ask-save-title-event = Պահել իրադարձությունը
 ask-save-title-task = Պահել առաջադրանքը
 ask-save-message-event = Իրադարձությունը չի պահվել։ Պահե՞լ այն։
 ask-save-message-task = Առաջադրանքը չի պահվել։ Պահե՞լ այն։
+# All day checkbox label, used both for events and tasks
+calendar-item-all-day =
+    .label = Ամբողջ օրը
+    .accesskey = Ա
 # Event Dialog Warnings
 warning-end-before-start = Ձեր մուտքագրած ավարտի ամսաթիվը տեղի է ունենում սկզբի ամսաթվից առաջ
 warning-until-date-before-start = «Մինչև» ամսաթիվը տեղի է ունենում սկզբի ամսաթվից առաջ

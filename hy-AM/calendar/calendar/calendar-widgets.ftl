@@ -20,8 +20,12 @@ calendar-enable-button = Միացնել
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-context-button =
     .title = { $calendarName } օրացույցի կարգավորումները
+calendar-add-calendar = Ավելացնել օրացույց…
+    .title = Ստեղծեք կամ բաժանորդագրվեք օրացույցին
 calendar-import-new-calendar = Նոր օրացույց…
     .title = Ստեղծել կամ բաժանորդագրվել նոր օրացույցի
+calendar-refresh-calendars =
+    .title = Վերաբեռնել բոլոր օրացույցները և համաժամեցնել փոփոխությունները
 calendar-new-event-primary-button = Նոր իրադարձություն
 calendar-new-task-primary-button = Նոր առաջադրանք
 

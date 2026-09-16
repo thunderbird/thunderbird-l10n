@@ -5,6 +5,9 @@
 new-account-label = Նոր փոստարկղ
 # Instant messaging account status window for Thunderbird
 accounts-window-title = Ակընթարթային գրության վիճակը
+account-manager-add-account =
+    .label = { add-account-label }
+    .accesskey = A
 account-manager-new-account =
     .label = { new-account-label }
     .accesskey = Ն
@@ -40,3 +43,4 @@ account-disconnecting =
     .value = Կապախզում...
 account-disconnected =
     .value = Կապակցված չէ
+add-account-label = Հաշվի ավելացում
