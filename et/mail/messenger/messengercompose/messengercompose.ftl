@@ -622,6 +622,17 @@ subject-encription-icon =
 compose-button-send =
     .label = Saada
     .tooltiptext = Saada kiri kohe
+compose-button-send-later =
+    .label = Saada hiljem
+    .tooltiptext = Saada kiri hiljem
 
 ## Compose menubar
 
+compose-menu-item-send =
+    .label = Saada
+    .tooltiptext = Saada kiri kohe
+    .accesskey = a
+compose-menu-item-send-later =
+    .label = Saada hiljem
+    .tooltiptext = Saada kiri hiljem
+    .accesskey = h
