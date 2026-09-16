@@ -651,6 +651,17 @@ subject-encription-icon =
 compose-button-send =
     .label = Pošlji
     .tooltiptext = Pošlji to sporočilo zdaj
+compose-button-send-later =
+    .label = Pošlji kasneje
+    .tooltiptext = Pošlji to sporočilo kasneje
 
 ## Compose menubar
 
+compose-menu-item-send =
+    .label = Pošlji
+    .tooltiptext = Pošlji to sporočilo zdaj
+    .accesskey = z
+compose-menu-item-send-later =
+    .label = Pošlji kasneje
+    .tooltiptext = Pošlji to sporočilo kasneje
+    .accesskey = e
