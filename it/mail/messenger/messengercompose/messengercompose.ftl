@@ -618,12 +618,19 @@ subject-encription-icon =
 
 ## Compose toolbar buttons
 
+compose-button-send =
+    .label = Invia
+    .tooltiptext = Invia il messaggio ora
 compose-button-send-later =
     .label = Invia dopo
     .tooltiptext = invia più tardi
 
 ## Compose menubar
 
+compose-menu-item-send =
+    .label = Invia
+    .tooltiptext = Invia il messaggio ora
+    .accesskey = u
 compose-menu-item-send-later =
     .label = Invia dopo
     .tooltiptext = invia più tardi
