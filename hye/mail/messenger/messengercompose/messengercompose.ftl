@@ -401,6 +401,9 @@ attachment-reminder-keywords-msg =
 
 ## Editing
 
+
+# Tools
+
 compose-tool-button-remove-text-styling =
     .tooltiptext = Հեռացնել գրոյթի ոճաւորումը
 
@@ -409,6 +412,9 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = Վերբեռնուած է անյայտ նիշի յղման հաշուի մէջ:
+
+# Placeholder file
+
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - Նիշի յղմայն կցորդ
@@ -416,6 +422,9 @@ cloud-file-placeholder-title = { $filename } - Նիշի յղմայն կցորդ
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = { $filename } նիշը կցուել է որպէս նիշի յղում: Այն կարելի է ներբեռնել ստորեւ նշուած յղումից։
+
+# Template
+
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -453,6 +462,9 @@ cloud-file-template-link = Յղում.
 cloud-file-template-password-protected-link = Գաղտնաբառով պաշտպանուած յղում․
 cloud-file-template-expiry-date = Սպառման ժամկէտ․
 cloud-file-template-download-limit = Ներբեռման սահմանափակում․
+
+# Messages
+
 cloud-file-connection-error-title = Միացման խափանում
 # Variables:
 # $provider (string) - name of the online storage service that reported the error
@@ -556,3 +568,23 @@ link-preview-yes-replace = Այո
 spell-add-dictionaries =
     .label = Աւելացնել բառարաններ…
     .accesskey = Ա
+
+## Compose toolbar buttons
+
+compose-button-send =
+    .label = Ուղարկել
+    .tooltiptext = Ուղարկել այս հաղորդագրութիւնը հիմա
+compose-button-send-later =
+    .label = Ուղարկել յետոյ
+    .tooltiptext = Ուղղարկել այս հաղորդագրութիւնը յետոյ
+
+## Compose menubar
+
+compose-menu-item-send =
+    .label = Ուղարկել
+    .tooltiptext = Ուղարկել այս հաղորդագրութիւնը հիմա
+    .accesskey = d
+compose-menu-item-send-later =
+    .label = Ուղարկել յետոյ
+    .tooltiptext = Ուղղարկել այս հաղորդագրութիւնը յետոյ
+    .accesskey = Յ
