@@ -462,6 +462,9 @@ attachment-reminder-keywords-msg =
 
 ## Editing
 
+
+# Tools
+
 compose-tool-button-remove-text-styling =
     .tooltiptext = Thoir air falbh stoidhleadh an teacsa
 
@@ -470,6 +473,9 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = Chaidh a luchdadh suas gu cunntas FileLink nach aithne dhuinn.
+
+# Placeholder file
+
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } – ceanglachan FileLink
@@ -477,6 +483,9 @@ cloud-file-placeholder-title = { $filename } – ceanglachan FileLink
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = Chaidh am faidhle { $filename } a cheangal ris mar FileLink. Gabhaidh a luchdadh a-nuas aig a’ cheangal gu h-ìosal.
+
+# Template
+
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -516,6 +525,9 @@ cloud-file-template-link = Ceangal:
 cloud-file-template-password-protected-link = Ceangal a tha fo dhìon facail-fhaire:
 cloud-file-template-expiry-date = Falbhaidh an ùine air:
 cloud-file-template-download-limit = Crìoch an luchdaidh a-nuas:
+
+# Messages
+
 cloud-file-connection-error-title = Mearachd leis a’ cheangal
 # Variables:
 # $provider (string) - name of the online storage service that reported the error
@@ -630,3 +642,23 @@ link-preview-yes-replace = Tha
 spell-add-dictionaries =
     .label = Cuir faclairean ris…
     .accesskey = a
+
+## Compose toolbar buttons
+
+compose-button-send =
+    .label = Cuir
+    .tooltiptext = Cuir an teachdaireachd an-dràsta
+compose-button-send-later =
+    .label = Cuir uaireigin eile
+    .tooltiptext = Cuir an teachdaireachd seo uaireigin eile
+
+## Compose menubar
+
+compose-menu-item-send =
+    .label = Cuir
+    .tooltiptext = Cuir an teachdaireachd an-dràsta
+    .accesskey = d
+compose-menu-item-send-later =
+    .label = Cuir uaireigin eile
+    .tooltiptext = Cuir an teachdaireachd seo uaireigin eile
+    .accesskey = l
