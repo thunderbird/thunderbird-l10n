@@ -487,6 +487,9 @@ attachment-reminder-keywords-msg =
 
 ## Editing
 
+
+# Tools
+
 compose-tool-button-remove-text-styling =
     .tooltiptext = Tynnu Steilio Testun
 
@@ -495,6 +498,9 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = Wedi'i lwytho i gyfrif Filelink anhysbys.
+
+# Placeholder file
+
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - Atodiad Filelink
@@ -502,6 +508,9 @@ cloud-file-placeholder-title = { $filename } - Atodiad Filelink
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = Atodwyd y ffeil { $filename } fel Filelink. Mae modd ei lwytho i lawr o'r ddolen isod.
+
+# Template
+
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -543,6 +552,9 @@ cloud-file-template-link = Dolen:
 cloud-file-template-password-protected-link = Dolen wedi'i Diogelu gan Gyfrinair
 cloud-file-template-expiry-date = Dyddiad Dod i Ben:
 cloud-file-template-download-limit = Terfyn Llwytho i Lawr:
+
+# Messages
+
 cloud-file-connection-error-title = Gwall Cysylltiad
 # Variables:
 # $provider (string) - name of the online storage service that reported the error
@@ -661,3 +673,23 @@ spell-add-dictionaries =
     .accesskey = Y
 subject-encription-icon =
     .title = Ni fydd y pwnc yn cael ei amgryptio
+
+## Compose toolbar buttons
+
+compose-button-send =
+    .label = Anfon
+    .tooltiptext = Anfon y neges nawr
+compose-button-send-later =
+    .label = Anfon yn Diweddarach
+    .tooltiptext = Anfonwch y neges yn ddiweddarach
+
+## Compose menubar
+
+compose-menu-item-send =
+    .label = Anfon
+    .tooltiptext = Anfon y neges nawr
+    .accesskey = A
+compose-menu-item-send-later =
+    .label = Anfon yn Diweddarach
+    .tooltiptext = Anfonwch y neges yn ddiweddarach
+    .accesskey = D
