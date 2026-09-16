@@ -617,12 +617,19 @@ subject-encription-icon =
 
 ## Compose toolbar buttons
 
+compose-button-send =
+    .label = Küldés
+    .tooltiptext = Üzenet elküldése azonnal
 compose-button-send-later =
     .label = Küldés később
     .tooltiptext = Üzenet elküldése később
 
 ## Compose menubar
 
+compose-menu-item-send =
+    .label = Küldés
+    .tooltiptext = Üzenet elküldése azonnal
+    .accesskey = d
 compose-menu-item-send-later =
     .label = Küldés később
     .tooltiptext = Üzenet elküldése később
