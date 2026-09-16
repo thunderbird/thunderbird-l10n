@@ -463,6 +463,9 @@ attachment-reminder-keywords-msg =
 
 ## Editing
 
+
+# Tools
+
 compose-tool-button-remove-text-styling =
     .tooltiptext = Tekstowy stil wótwónoźeś
 
@@ -471,6 +474,9 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = Jo se nagrało do njeznatego konta Filelink.
+
+# Placeholder file
+
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - pśidank Filelink
@@ -478,6 +484,9 @@ cloud-file-placeholder-title = { $filename } - pśidank Filelink
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = Dataja { $filename } jo se pśipowjesyła ako Filelink. Dajo se z pomocu slědujucego wótkaza ześěgnuś.
+
+# Template
+
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -517,6 +526,9 @@ cloud-file-template-link = Wótkaz:
 cloud-file-template-password-protected-link = Pśez gronidło šćitany wótkaz:
 cloud-file-template-expiry-date = Datum płaśiwosći:
 cloud-file-template-download-limit = Ześěgnjeński limit:
+
+# Messages
+
 cloud-file-connection-error-title = Zwiskowa zmólka
 # Variables:
 # $provider (string) - name of the online storage service that reported the error
@@ -634,3 +646,23 @@ spell-add-dictionaries =
     .accesskey = S
 subject-encription-icon =
     .title = Tema njebuźo se koděrowaś
+
+## Compose toolbar buttons
+
+compose-button-send =
+    .label = Pósłaś
+    .tooltiptext = Toś tu powěsć něnto wótpósłaś
+compose-button-send-later =
+    .label = Pózdźej pósłaś
+    .tooltiptext = Toś tu powěsć pózdźej wótpósłaś
+
+## Compose menubar
+
+compose-menu-item-send =
+    .label = Pósłaś
+    .tooltiptext = Toś tu powěsć něnto wótpósłaś
+    .accesskey = N
+compose-menu-item-send-later =
+    .label = Pózdźej pósłaś
+    .tooltiptext = Toś tu powěsć pózdźej wótpósłaś
+    .accesskey = z
