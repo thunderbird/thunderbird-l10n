@@ -575,12 +575,19 @@ spell-add-dictionaries =
 
 ## Compose toolbar buttons
 
+compose-button-send =
+    .label = Azen
+    .tooltiptext = Azen Izen-agi tura
 compose-button-send-later =
     .label = Azen ticki
     .tooltiptext = Azen izen-agi ticki
 
 ## Compose menubar
 
+compose-menu-item-send =
+    .label = Azen
+    .tooltiptext = Azen Izen-agi tura
+    .accesskey = t
 compose-menu-item-send-later =
     .label = Azen ticki
     .tooltiptext = Azen izen-agi ticki
