@@ -88,6 +88,17 @@ default-delete-cmd =
 compose-button-send =
     .label = Испрати
     .tooltiptext = Ја испраќа оваа порака веднаш
+compose-button-send-later =
+    .label = Испрати подоцна
+    .tooltiptext = Ја испраќа оваа порака подоцна
 
 ## Compose menubar
 
+compose-menu-item-send =
+    .label = Испрати
+    .tooltiptext = Ја испраќа оваа порака веднаш
+    .accesskey = т
+compose-menu-item-send-later =
+    .label = Испрати подоцна
+    .tooltiptext = Ја испраќа оваа порака подоцна
+    .accesskey = д
