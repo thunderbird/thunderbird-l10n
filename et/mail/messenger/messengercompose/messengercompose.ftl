@@ -439,6 +439,9 @@ attachment-reminder-keywords-msg =
 
 ## Editing
 
+
+# Tools
+
 compose-tool-button-remove-text-styling =
     .tooltiptext = Eemalda teksti stiilid
 
@@ -447,6 +450,9 @@ compose-tool-button-remove-text-styling =
 # A text used in a tooltip of Filelink attachments, whose account has been
 # removed or is unknown.
 cloud-file-unknown-account-tooltip = Laaditi üles tundmatule Filelinki kontole.
+
+# Placeholder file
+
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } - Filelinki manus
@@ -454,6 +460,9 @@ cloud-file-placeholder-title = { $filename } - Filelinki manus
 # from the link shown below.
 # $filename - name of the file
 cloud-file-placeholder-intro = Fail { $filename } lisati teenuse Filelink lingina. Selle saab alla laadida allolevalt lingilt.
+
+# Template
+
 # A line of text describing how many uploaded files have been appended to this
 # message. Emphasis should be on sharing as opposed to attaching. This item is
 # used as a header to a list, hence the colon.
@@ -491,6 +500,9 @@ cloud-file-template-link = Link:
 cloud-file-template-password-protected-link = Parooliga kaitstud link:
 cloud-file-template-expiry-date = Aegumiskuupäev:
 cloud-file-template-download-limit = Allalaadimiste limiit:
+
+# Messages
+
 cloud-file-connection-error-title = Ühenduse viga
 # Variables:
 # $provider (string) - name of the online storage service that reported the error
@@ -604,3 +616,12 @@ spell-add-dictionaries =
     .accesskey = s
 subject-encription-icon =
     .title = Teemat ei krüpteerita
+
+## Compose toolbar buttons
+
+compose-button-send =
+    .label = Saada
+    .tooltiptext = Saada kiri kohe
+
+## Compose menubar
+
