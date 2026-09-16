@@ -635,6 +635,17 @@ subject-encription-icon =
 compose-button-send =
     .label = Odeslat
     .tooltiptext = Odešle tuto zprávu
+compose-button-send-later =
+    .label = Odeslat později
+    .tooltiptext = Odešle tuto zprávu později
 
 ## Compose menubar
 
+compose-menu-item-send =
+    .label = Odeslat
+    .tooltiptext = Odešle tuto zprávu
+    .accesskey = d
+compose-menu-item-send-later =
+    .label = Odeslat později
+    .tooltiptext = Odešle tuto zprávu později
+    .accesskey = p
