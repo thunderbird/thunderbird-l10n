@@ -36,6 +36,7 @@ general-email-notifications-header = E-posta bildirimleri
 general-language-and-appearance-header = Dil ve Görünüm
 general-incoming-mail-header = Gelen E-postalar
 general-files-and-attachment-header = Dosyalar ve Ekler
+general-files-and-attachment-description = Hangi dosyaların kaydedileceğini ve bilgisayarınızda nereye kaydedileceğini seçin.
 general-tags-header = Etiketler
 general-reading-and-viewing-header = Okuma ve görüntüleme
 general-reading-and-display-header = Okuma ve Görünüm
