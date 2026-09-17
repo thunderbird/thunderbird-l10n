@@ -584,7 +584,7 @@ compose-button-send =
     .tooltiptext = 立刻寄出此訊息
 compose-button-send-later =
     .label = 稍候再寄
-    .tooltiptext = 稍後再寄出此封郵件
+    .tooltiptext = 稍候再寄出此訊息
 
 ## Compose menubar
 
@@ -594,5 +594,5 @@ compose-menu-item-send =
     .accesskey = d
 compose-menu-item-send-later =
     .label = 稍候再寄
-    .tooltiptext = 稍後再寄出此封郵件
+    .tooltiptext = 稍候再寄出此訊息
     .accesskey = L
