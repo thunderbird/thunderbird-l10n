@@ -14,7 +14,7 @@
 <!ENTITY lightning.toolbar.day.accesskey "D">
 <!ENTITY lightning.toolbar.week.label "Semana">
 <!ENTITY lightning.toolbar.week.accesskey "S">
-<!ENTITY lightning.toolbar.multiweek.label "Multissemanal">
+<!ENTITY lightning.toolbar.multiweek.label "Multi-semana">
 <!ENTITY lightning.toolbar.multiweek.accesskey "u">
 <!ENTITY lightning.toolbar.month.label "Mês">
 <!ENTITY lightning.toolbar.month.accesskey "M">

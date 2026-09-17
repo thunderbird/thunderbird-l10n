@@ -67,8 +67,8 @@ calendar-view-toggle-day = Dia
     .title = Mudar para vista diária
 calendar-view-toggle-week = Semana
     .title = Mudar para vista semanal
-calendar-view-toggle-multiweek = Multissemana
-    .title = Mudar para vista multissemanal
+calendar-view-toggle-multiweek = Multi-semana
+    .title = Mudar para vista multi-semanal
 calendar-view-toggle-month = Mês
     .title = Mudar para vista mensal
 
