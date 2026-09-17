@@ -5,6 +5,20 @@
 
 ## Window controls
 
+messenger-window-minimize-button =
+    .tooltiptext = Samazināt
+messenger-window-maximize-button =
+    .tooltiptext = Palielināt
+messenger-window-close-button =
+    .tooltiptext = Aizvērt
+# Variables:
+# $count (Number) - Number of unread messages.
+unread-messages-os-tooltip =
+    { $count ->
+        [zero] { $count } nelasītu ziņu
+        [one] { $count } nelasīta ziņa
+       *[other] { $count } nelasītas ziņas
+    }
 about-rights-notification-text = { -brand-short-name } ir bezmaksas un atvērtā pirmkoda programmatūra, kuru ir izveidojusi tūkstošiem liela kopiena no visas pasaules.
 
 ## Content tabs
@@ -44,6 +58,15 @@ content-tab-menu-reload-mac =
     .label = Pārlādēt
     .tooltiptext = Pārlādēt lapu
     .accesskey = P
+content-tab-menu-stop =
+    .aria-label = Apturēt
+    .tooltiptext = Apturēt lapas ielādi
+    .accesskey = A
+# This menuitem is only visible on macOS
+content-tab-menu-stop-mac =
+    .label = Apturēt
+    .tooltiptext = Apturēt lapas ielādi
+    .accesskey = A
 open-windows-warning-confirmation-title = Apstiprināt
 # Variables:
 #   $count - number of messages to open
@@ -74,6 +97,11 @@ redirect-msg-button =
 
 ## Folder Pane
 
+folder-pane-toolbar =
+    .toolbarname = Mapju paneļa rīkjosla
+    .accesskey = M
+folder-pane-toolbar-options-button =
+    .tooltiptext = Mapju paneļa iestatījumi
 folder-pane-header-label = Mapes
 
 ## Folder Toolbar Header Popup
@@ -266,6 +294,9 @@ mail-context-menu-forward-redirect =
 mail-context-menu-forward-forward =
     .label = Pārsūtīt
     .accesskey = P
+mail-context-menu-forward-inline =
+    .label = Iekļauti
+    .accesskey = I
 # Variables:
 # $count (Number) - Number of selected messages.
 mail-context-menu-forward-as-attachment =

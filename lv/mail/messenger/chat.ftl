@@ -30,6 +30,12 @@ chat-buddy-identity-status-unverified = Neapliecināta
 # Variables:
 #   $conversation (String) - Name of the conversation the user is invited to.
 chat-conv-invite-label = Tevi uzaicināja uz tērzēšanu { $conversation }
+chat-conv-invite-accept =
+    .label = Piekrist
+    .accesskey = P
+chat-conv-invite-deny =
+    .label = Noraidīt
+    .accesskey = r
 # Used when multiple incoming messages from the same sender are bundled
 # into a single notification.
 # Variables:
