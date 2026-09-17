@@ -14,8 +14,8 @@ multi-message-undelete-button =
     .label = Ångra borttagning
     .tooltiptext = Ångra borttagning
 multi-message-flagged-button =
-    .title = Stjärnmärkt
     .aria-label = Stjärnmärkt
+    .title = Stjärnmärkt
 # Variables:
 #   $count - total number of conversations (threads or solitary messages) selected
 num-conversations =

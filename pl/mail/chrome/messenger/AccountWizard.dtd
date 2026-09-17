@@ -2,12 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- Entities for AccountWizard -->
-
 <!ENTITY windowTitle.label "Kreator kont">
-
-<!-- Entities for Identity page -->
-
 <!ENTITY identityTitle.label "Tożsamość">
 <!ENTITY identityDesc.label "Poniższe dane określają tożsamość posiadacza konta i umożliwiają odbiorcom wiadomości identyfikację nadawcy.">
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
@@ -20,18 +15,12 @@
 <!ENTITY fullnameLabel.accesskey "T">
 <!ENTITY emailLabel.label "Adres e-mail:">
 <!ENTITY emailLabel.accesskey "E">
-
-<!-- Entities for Incoming Server page -->
-
 <!ENTITY incomingTitle.label "Informacje o serwerze poczty przychodzącej">
 <!ENTITY incomingUsername.label "Nazwa użytkownika:">
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
 <!ENTITY newsServerNameDesc.label "Podaj nazwę serwera grup dyskusyjnych (NNTP) (na przykład: „news.example.net”).">
 <!ENTITY newsServerLabel.label "Serwer grup dyskusyjnych:">
 <!ENTITY newsServerLabel.accesskey "n">
-
-<!-- Entities for Account name page -->
-
 <!ENTITY accnameTitle.label "Nazwa konta">
 <!-- LOCALIZATION NOTE (accnameDesc.label) : do not translate any "&quot;" in below line -->
 <!ENTITY accnameDesc.label "Wprowadź nazwę, która będzie używana do oznaczenia tego konta (na przykład: „Konto osobiste”, „Konto służbowe”, „Grupy dyskusyjne”).">

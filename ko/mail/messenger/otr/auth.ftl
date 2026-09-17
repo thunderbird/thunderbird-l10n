@@ -3,8 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 otr-auth =
-    .title = 연락처의 신원 확인
     .buttonlabelaccept = 확인
+    .title = 연락처의 신원 확인
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 auth-title = { $name }의 신원 확인

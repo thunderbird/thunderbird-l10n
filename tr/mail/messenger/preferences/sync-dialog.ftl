@@ -6,6 +6,6 @@ config-sync-dailog-title =
     .title = Nelerin eşitleneceğini seçin
 sync-dialog =
     .buttonlabelaccept = Değişiklikleri kaydet
-    .buttonaccesskeyaccept = S
     .buttonlabelextra2 = Bağlantıyı kes…
+    .buttonaccesskeyaccept = S
     .buttonaccesskeyextra2 = D

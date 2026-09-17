@@ -30,55 +30,43 @@ content-tab-security-high-icon =
     .alt = Konexioa segurua da
 content-tab-security-broken-icon =
     .alt = Konexioa ez da segurua
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = Joan orri bat atzera ({ $shortcut })
     .aria-label = Atzera
+    .tooltiptext = Joan orri bat atzera ({ $shortcut })
     .accesskey = A
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Atzera
     .accesskey = A
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
-    .tooltiptext = Joan orri bat aurrera ({ $shortcut })
     .aria-label = Aurrera
+    .tooltiptext = Joan orri bat aurrera ({ $shortcut })
     .accesskey = r
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = Aurrera
     .accesskey = r
-
-# Reload
-
 content-tab-menu-reload =
-    .tooltiptext = Berritu orria
     .aria-label = Berritu
+    .tooltiptext = Berritu orria
     .accesskey = B
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
-    .tooltiptext = Berritu orria
     .label = Berritu
+    .tooltiptext = Berritu orria
     .accesskey = B
-
-# Stop
-
 content-tab-menu-stop =
-    .tooltiptext = Gelditu orria kargatzea
     .aria-label = Gelditu
+    .tooltiptext = Gelditu orria kargatzea
     .accesskey = G
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
-    .tooltiptext = Gelditu orria kargatzea
     .label = Gelditu
+    .tooltiptext = Gelditu orria kargatzea
     .accesskey = G
 open-windows-warning-confirmation-title = Berretsi
 # Variables:
@@ -144,9 +132,6 @@ show-tags-folders-label =
 folder-toolbar-toggle-folder-compact-view =
     .label = Ikuspegi trinkoa
     .accesskey = t
-
-## Folder names
-
 
 ## File Menu
 
@@ -333,8 +318,8 @@ other-action-copy-message-link =
 other-action-copy-news-link =
     .label = Kopiatu berrien lotura
 message-header-msg-flagged =
-    .title = Izarduna
     .aria-label = I
+    .title = Izarduna
 message-header-delete =
     .label = Ezabatu
     .tooltiptext = Ezabatu mezu hau
@@ -428,9 +413,9 @@ decrypt-and-copy-failures-multiple =
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = Guneen tresna-barra
-    .aria-label = Guneen tresna-barra
     .aria-description = Tresna-barra bertikala guneen artean aldatzeko. Erabili gezi teklak nabigatzeko botoi erabilgarrien artean.
+    .aria-label = Guneen tresna-barra
+    .toolbarname = Guneen tresna-barra
 spaces-toolbar-button-mail2 =
     .title = Posta
 spaces-toolbar-button-address-book2 =
@@ -534,24 +519,12 @@ openpgp-forget = Ahaztu OpenPGP pasa-esdaldiak
 quota-panel-percent-used = { $percent }% full
     .title = IMAP kuota: { $usage } erabilia { $limit } guztirako limitetik
 
-## Sort menu.
-
-
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
-
-## Folder pane context.
-
-
-## Thread pane.
-
-
-## Message header.
-
 
 ## Actions for the New Mail Notification
 
@@ -597,12 +570,6 @@ and-others = eta beste
 ## Prompts
 
 prompt-dont-ask-again = Ez galdetu berriz.
-
-## Spam commands
-
-
-## Ignore threads
-
 
 ## Attachments
 

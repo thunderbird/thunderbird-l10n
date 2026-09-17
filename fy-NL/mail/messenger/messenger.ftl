@@ -30,55 +30,43 @@ content-tab-security-high-icon =
     .alt = De ferbining is befeilige
 content-tab-security-broken-icon =
     .alt = De ferbining is net befeilige
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = Ien side tebek gean ({ $shortcut })
     .aria-label = Tebek
+    .tooltiptext = Ien side tebek gean ({ $shortcut })
     .accesskey = T
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Tebek
     .accesskey = T
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
-    .tooltiptext = Ien side foarút gean ({ $shortcut })
     .aria-label = Foarút
+    .tooltiptext = Ien side foarút gean ({ $shortcut })
     .accesskey = F
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = Foarút
     .accesskey = F
-
-# Reload
-
 content-tab-menu-reload =
-    .tooltiptext = Side fernije
     .aria-label = Fernije
+    .tooltiptext = Side fernije
     .accesskey = n
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
-    .tooltiptext = Side fernije
     .label = Fernije
+    .tooltiptext = Side fernije
     .accesskey = n
-
-# Stop
-
 content-tab-menu-stop =
-    .tooltiptext = Side laden stopje
     .aria-label = Stopje
+    .tooltiptext = Side laden stopje
     .accesskey = S
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
-    .tooltiptext = Side laden stopje
     .label = Stopje
+    .tooltiptext = Side laden stopje
     .accesskey = S
 open-windows-warning-confirmation-title = Befêstigje
 # Variables:
@@ -361,8 +349,8 @@ other-action-copy-message-link =
 other-action-copy-news-link =
     .label = Nijskeppeling kopiearje
 message-header-msg-flagged =
-    .title = Mei stjer
     .aria-label = Mei stjer
+    .title = Mei stjer
 message-header-delete =
     .label = Fuortsmite
     .tooltiptext = Dit berjocht fuortsmite
@@ -456,9 +444,9 @@ decrypt-and-copy-failures-multiple =
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = Taakbalke
-    .aria-label = Taakbalke
     .aria-description = Fertikale arkbalke foar it wikseljen tusken ferskate taken. Brûk de pylktoetsen om te navigearjen tusken de beskikbere knoppen.
+    .aria-label = Taakbalke
+    .toolbarname = Taakbalke
 spaces-toolbar-button-mail2 =
     .title = E-mail
 spaces-toolbar-button-address-book2 =

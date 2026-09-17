@@ -2,8 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from am-addressing.xhtml -->
-
 <!ENTITY addressing.label "Xat yozish va manzilga jo‘natish">
 <!ENTITY addressingGroupTitle.label "Manzilga jo‘natish">
 <!ENTITY addressingText.label "Manzillar qidirilganda:">
@@ -16,9 +14,6 @@
 <!ENTITY directories.label "Boshqa LDAP serverdan foydalanish:">
 <!ENTITY directories.accesskey "B">
 <!ENTITY directoriesNone.label "Yoʻq">
-
-<!-- am-addressing.xhtml -->
-
 <!ENTITY compositionGroupTitle.label "Yozish">
 <!-- LOCALIZATION NOTE (useHtml.label) : do not translate "html" in below line -->
 <!ENTITY useHtml.label "Xabarlarni HTML formatda yozish">

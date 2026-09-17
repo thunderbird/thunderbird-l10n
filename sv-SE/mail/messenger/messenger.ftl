@@ -30,55 +30,43 @@ content-tab-security-high-icon =
     .alt = Anslutningen är säker
 content-tab-security-broken-icon =
     .alt = Anslutningen är inte säker
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = Gå tillbaka en sida ({ $shortcut })
     .aria-label = Tillbaka
+    .tooltiptext = Gå tillbaka en sida ({ $shortcut })
     .accesskey = T
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Tillbaka
     .accesskey = T
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
-    .tooltiptext = Gå framåt en sida ({ $shortcut })
     .aria-label = Framåt
+    .tooltiptext = Gå framåt en sida ({ $shortcut })
     .accesskey = F
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = Framåt
     .accesskey = F
-
-# Reload
-
 content-tab-menu-reload =
-    .tooltiptext = Ladda om sidan
     .aria-label = Ladda om
+    .tooltiptext = Ladda om sidan
     .accesskey = L
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
-    .tooltiptext = Ladda om sidan
     .label = Ladda om
+    .tooltiptext = Ladda om sidan
     .accesskey = L
-
-# Stop
-
 content-tab-menu-stop =
-    .tooltiptext = Stoppa sidladdning
     .aria-label = Stoppa
+    .tooltiptext = Stoppa sidladdning
     .accesskey = S
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
-    .tooltiptext = Stoppa sidladdning
     .label = Stoppa
+    .tooltiptext = Stoppa sidladdning
     .accesskey = S
 open-windows-warning-confirmation-title = Bekräfta
 # Variables:
@@ -360,8 +348,8 @@ other-action-copy-message-link =
 other-action-copy-news-link =
     .label = Kopiera länk till nyhetsbrev
 message-header-msg-flagged =
-    .title = Stjärnmärkt
     .aria-label = Stjärnmärkt
+    .title = Stjärnmärkt
 message-header-delete =
     .label = Ta bort
     .tooltiptext = Ta bort detta meddelande
@@ -455,9 +443,9 @@ decrypt-and-copy-failures-multiple =
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = Flikmeny
-    .aria-label = Flikmeny
     .aria-description = Vertikalt verktygsfält för att växla mellan olika flikar. Använd piltangenterna för att navigera mellan tillgängliga knappar.
+    .aria-label = Flikmeny
+    .toolbarname = Flikmeny
 spaces-toolbar-button-mail2 =
     .title = E-post
 spaces-toolbar-button-address-book2 =

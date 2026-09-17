@@ -90,9 +90,6 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } af { $total }
-
-## Filter List Dialog
-
 filter-window-title = Póstsíur
 filter-name-column =
     .label = Nafn síu
@@ -112,8 +109,8 @@ filter-delete-button =
     .accesskey = E
 filter-reorder-top-button =
     .label = Færa efst
-    .accesskey = o
     .tooltiptext = Endurraða síu þannig að hún keyri á undan öðrum
+    .accesskey = o
 filter-reorder-up-button =
     .label = Færa upp
     .accesskey = u
@@ -122,8 +119,8 @@ filter-reorder-down-button =
     .accesskey = i
 filter-reorder-bottom-button =
     .label = Færa neðst
-    .accesskey = B
     .tooltiptext = Endurraða síu þannig að hún keyri á eftir öðrum
+    .accesskey = B
 filter-header-label =
     .value = Virkar síur eru keyrðar sjálfkrafa í þeirri röð sem er hér fyrir neðan.
 filter-filters-for-prefix =

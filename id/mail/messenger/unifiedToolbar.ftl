@@ -37,9 +37,6 @@ search-bar-placeholder-with-key2 =
 
 customize-menu-customize =
     .label = Kesukaan…
-
-# Unified toolbar get messages button context menu
-
 toolbar-get-all-messages-menuitem =
     .label = Ambil Semua Pesan Baru
     .accesskey = A

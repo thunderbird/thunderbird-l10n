@@ -31,14 +31,8 @@ xpinstall-prompt-never-allow-and-report =
 xpinstall-prompt-install =
     .label = Vazhdo me Instalimin
     .accesskey = V
-
-# These messages are shown when a website invokes navigator.requestMIDIAccess.
-
 site-permission-install-first-prompt-midi-header = Ky sajt po kërkon hyrje te pajisje tuajat MIDI (Musical Instrument Digital Interface). Hyrja te pajisjet mund të aktivizohet duke instaluar një shtesë.
 site-permission-install-first-prompt-midi-message = Nuk garantohet se ky sajt është i parrezik. Vazhdoni vetëm nëse e besoni këtë sajt.
-
-##
-
 xpinstall-disabled-locked = Instalimi i software-it është çaktivizuar nga përgjegjësi i sistemit tuaj.
 xpinstall-disabled = Instalimi i software-it është hëpërhë i çaktivizuar. Klikoni mbi Aktivizoje dhe riprovoni.
 xpinstall-disabled-button =

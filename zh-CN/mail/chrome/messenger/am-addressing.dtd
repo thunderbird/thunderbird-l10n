@@ -2,8 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from am-addressing.xhtml -->
-
 <!ENTITY addressing.label "邮件撰写与地址查找">
 <!ENTITY addressingGroupTitle.label "地址查找">
 <!ENTITY addressingText.label "查找地址时：">
@@ -16,9 +14,6 @@
 <!ENTITY directories.label "使用其他 LDAP 服务器：">
 <!ENTITY directories.accesskey "D">
 <!ENTITY directoriesNone.label "无">
-
-<!-- am-addressing.xhtml -->
-
 <!ENTITY compositionGroupTitle.label "撰写">
 <!-- LOCALIZATION NOTE (useHtml.label) : do not translate "html" in below line -->
 <!ENTITY useHtml.label "以 HTML 格式撰写邮件">

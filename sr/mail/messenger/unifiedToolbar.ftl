@@ -37,9 +37,6 @@ search-bar-placeholder-with-key2 =
 
 customize-menu-customize =
     .label = Прилагоди…
-
-# Unified toolbar get messages button context menu
-
 toolbar-get-all-messages-menuitem =
     .label = Добави све нове поруке
     .accesskey = Д

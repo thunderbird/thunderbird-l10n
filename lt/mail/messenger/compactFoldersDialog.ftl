@@ -5,10 +5,10 @@
 compact-folders-dialog-title = Aplankų glaudinimas
 compact-dialog =
     .buttonlabelaccept = Glaudinti
-    .buttonaccesskeyaccept = G
     .buttonlabelcancel = Priminti vėliau
-    .buttonaccesskeycancel = P
     .buttonlabelextra1 = Daugiau informacijos…
+    .buttonaccesskeyaccept = G
+    .buttonaccesskeycancel = P
     .buttonaccesskeyextra1 = D
 # Variables:
 #  $data (String): The amount of space to be freed, formatted byte, MB, GB, etc., based on the size.

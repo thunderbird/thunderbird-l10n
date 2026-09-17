@@ -31,14 +31,8 @@ xpinstall-prompt-never-allow-and-report =
 xpinstall-prompt-install =
     .label = Fortsätt till installation
     .accesskey = F
-
-# These messages are shown when a website invokes navigator.requestMIDIAccess.
-
 site-permission-install-first-prompt-midi-header = Den här webbplatsen begär åtkomst till dina MIDI-enheter (Musical Instrument Digital Interface). Enhetsåtkomst kan aktiveras genom att installera ett tillägg.
 site-permission-install-first-prompt-midi-message = Denna åtkomst är inte garanterad säker. Fortsätt bara om du litar på den här webbplatsen.
-
-##
-
 xpinstall-disabled-locked = Programinstallation har inaktiverats av systemadministratören.
 xpinstall-disabled = Programinstallationen är för närvarande inaktiverad. Klicka på Aktivera och försök igen.
 xpinstall-disabled-button =

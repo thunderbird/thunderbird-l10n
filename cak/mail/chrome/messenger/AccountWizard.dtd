@@ -2,12 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- Entities for AccountWizard -->
-
 <!ENTITY windowTitle.label "Ruto'onel Rub'i' Taqoya'l">
-
-<!-- Entities for Identity page -->
-
 <!ENTITY identityTitle.label "B'anikil">
 <!ENTITY identityDesc.label "Chi kijujunal ri taq rub'i' taqoya'l k'o jun kib'anikil, ja ri' ri etamab'äl nuya' awetal chi kiwäch ch'aqa' chik toq yekik'ül ri taq atzijol.">
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
@@ -20,18 +15,12 @@
 <!ENTITY fullnameLabel.accesskey "A">
 <!ENTITY emailLabel.label "Rochochib'al Taqoya'l:">
 <!ENTITY emailLabel.accesskey "T">
-
-<!-- Entities for Incoming Server page -->
-
 <!ENTITY incomingTitle.label "Retamab'al Ruk'uxasamaj Okem">
 <!ENTITY incomingUsername.label "Rub'i' Winäq:">
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
 <!ENTITY newsServerNameDesc.label "Tatz'ib'aj rub'i' ri ruk'uxasamaj atzijol (NNTP) (achi'el, &quot;news.example.net&quot;).">
 <!ENTITY newsServerLabel.label "K'uxasamaj Tzijol:">
 <!ENTITY newsServerLabel.accesskey "s">
-
-<!-- Entities for Account name page -->
-
 <!ENTITY accnameTitle.label "Rub'i' Taqoya'l">
 <!-- LOCALIZATION NOTE (accnameDesc.label) : do not translate any "&quot;" in below line -->
 <!ENTITY accnameDesc.label "Tatz'ib'aj ri b'i'aj mawajo' naya' chi re ri rub'i' taqoya'l re' (achi'el, &quot;Rutaqoya'l Samaj&quot;, &quot;Rutaqoya'l Jay&quot; o &quot;Rutaqoya'l taq Tzijol&quot;).">

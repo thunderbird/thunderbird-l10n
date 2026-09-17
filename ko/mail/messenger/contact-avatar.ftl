@@ -5,5 +5,5 @@
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 avatar-picture-alt-text =
-    .title = { $address }의 프로필 사진
     .alt = { $address }의 프로필 사진
+    .title = { $address }의 프로필 사진

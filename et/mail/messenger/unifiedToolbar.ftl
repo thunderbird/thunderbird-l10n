@@ -26,9 +26,6 @@ search-bar-placeholder-with-key2 =
 
 customize-menu-customize =
     .label = Kohanda...
-
-# Unified toolbar get messages button context menu
-
 toolbar-get-all-messages-menuitem =
     .label = Tõmba kõik uued kirjad
     .accesskey = T

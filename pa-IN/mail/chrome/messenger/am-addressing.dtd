@@ -2,8 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from am-addressing.xhtml -->
-
 <!ENTITY addressing.label "ਲਿਖਣ ਅਤੇ ਐਡਰੈੱਸ">
 <!ENTITY addressingGroupTitle.label "ਐਡਰੈੱਸ">
 <!ENTITY addressingText.label "ਜਦੋਂ ਐਡਰੈੱਸ ਦੀ ਖੋਜ ਕੀਤੀ ਜਾਵੇ:">
@@ -16,9 +14,6 @@
 <!ENTITY directories.label "ਇੱਕ ਵੱਖਰਾ LDAP ਸਰਵਰ ਵਰਤੋਂ:">
 <!ENTITY directories.accesskey "d">
 <!ENTITY directoriesNone.label "ਕੋਈ ਨਹੀਂ">
-
-<!-- am-addressing.xhtml -->
-
 <!ENTITY compositionGroupTitle.label "ਲਿਖਣ">
 <!-- LOCALIZATION NOTE (useHtml.label) : do not translate "html" in below line -->
 <!ENTITY useHtml.label "ਸੁਨੇਹਾ HTML ਫਾਰਮੈਟ ਵਿੱਚ ਲਿਖੋ">

@@ -90,9 +90,6 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } van { $total }
-
-## Filter List Dialog
-
 filter-window-title = Berichtenfilters
 filter-name-column =
     .label = Filternaam
@@ -112,8 +109,8 @@ filter-delete-button =
     .accesskey = V
 filter-reorder-top-button =
     .label = Bovenaan plaatsen
-    .accesskey = e
     .tooltiptext = Filter verplaatsen, zodat het als eerste wordt uitgevoerd
+    .accesskey = e
 filter-reorder-up-button =
     .label = Omhoog verplaatsen
     .accesskey = m
@@ -122,8 +119,8 @@ filter-reorder-down-button =
     .accesskey = l
 filter-reorder-bottom-button =
     .label = Onderaan plaatsen
-    .accesskey = O
     .tooltiptext = Filter verplaatsen, zodat het als laatste wordt uitgevoerd
+    .accesskey = O
 filter-header-label =
     .value = Ingeschakelde filters worden automatisch in de onderstaande volgorde uitgevoerd.
 filter-filters-for-prefix =

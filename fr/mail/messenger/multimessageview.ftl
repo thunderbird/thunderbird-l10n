@@ -14,8 +14,8 @@ multi-message-undelete-button =
     .label = Restaurer
     .tooltiptext = Restaurer
 multi-message-flagged-button =
-    .title = Suivi
     .aria-label = Suivi
+    .title = Suivi
 # Variables:
 #   $count - total number of conversations (threads or solitary messages) selected
 num-conversations =

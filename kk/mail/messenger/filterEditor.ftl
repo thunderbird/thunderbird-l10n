@@ -90,9 +90,6 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible }, барлығы { $total }
-
-## Filter List Dialog
-
 filter-window-title = Хабарламалар сүзгілері
 filter-name-column =
     .label = Сүзгі атауы
@@ -112,8 +109,8 @@ filter-delete-button =
     .accesskey = р
 filter-reorder-top-button =
     .label = Жоғарыға жылжыту
-    .accesskey = о
     .tooltiptext = Сүзгіні басқалардан бұрын орындалатындай етіп орналастыру
+    .accesskey = о
 filter-reorder-up-button =
     .label = Жоғарыға
     .accesskey = а
@@ -122,8 +119,8 @@ filter-reorder-down-button =
     .accesskey = е
 filter-reorder-bottom-button =
     .label = Астына жылжыту
-    .accesskey = м
     .tooltiptext = Сүзгіні басқалардан кейін орындалатындай етіп орналастыру
+    .accesskey = м
 filter-header-label =
     .value = Іске қосылған сүзгілер төмендегідей ретпен автожөнелтіледі.
 filter-filters-for-prefix =

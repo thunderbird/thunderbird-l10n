@@ -30,55 +30,43 @@ content-tab-security-high-icon =
     .alt = The connection is secure
 content-tab-security-broken-icon =
     .alt = The connection is not secure
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = Go back one page ({ $shortcut })
     .aria-label = Back
+    .tooltiptext = Go back one page ({ $shortcut })
     .accesskey = B
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Back
     .accesskey = B
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
-    .tooltiptext = Go forward one page ({ $shortcut })
     .aria-label = Forward
+    .tooltiptext = Go forward one page ({ $shortcut })
     .accesskey = F
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = Forward
     .accesskey = F
-
-# Reload
-
 content-tab-menu-reload =
-    .tooltiptext = Reload page
     .aria-label = Reload
+    .tooltiptext = Reload page
     .accesskey = R
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
-    .tooltiptext = Reload page
     .label = Reload
+    .tooltiptext = Reload page
     .accesskey = R
-
-# Stop
-
 content-tab-menu-stop =
-    .tooltiptext = Stop page loading
     .aria-label = Stop
+    .tooltiptext = Stop page loading
     .accesskey = S
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
-    .tooltiptext = Stop page loading
     .label = Stop
+    .tooltiptext = Stop page loading
     .accesskey = S
 open-windows-warning-confirmation-title = Confirm
 # Variables:
@@ -360,8 +348,8 @@ other-action-copy-message-link =
 other-action-copy-news-link =
     .label = Copy News Link
 message-header-msg-flagged =
-    .title = Starred
     .aria-label = Starred
+    .title = Starred
 message-header-delete =
     .label = Delete
     .tooltiptext = Delete this message
@@ -455,9 +443,9 @@ decrypt-and-copy-failures-multiple =
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = Spaces Toolbar
-    .aria-label = Spaces Toolbar
     .aria-description = Vertical toolbar for switching between different spaces. Use the arrow keys to navigate the available buttons.
+    .aria-label = Spaces Toolbar
+    .toolbarname = Spaces Toolbar
 spaces-toolbar-button-mail2 =
     .title = Mail
 spaces-toolbar-button-address-book2 =

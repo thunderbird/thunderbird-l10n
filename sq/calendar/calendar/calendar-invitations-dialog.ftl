@@ -13,8 +13,8 @@ recurrent-event =
     .value = Veprimtari ripërsëritëse
 # $locationProperty is the location of the event
 calendar-invitation-location =
-    .value = Vendndodhje: { $locationProperty }
     .tooltiptext = { $locationProperty }
+    .value = Vendndodhje: { $locationProperty }
 # $locationProperty is the location of the event
 calendar-invitations-location =
     .value = Vendndodhje: { $locationProperty }

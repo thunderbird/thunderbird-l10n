@@ -5,10 +5,10 @@
 compact-folders-dialog-title = Sažmi mape
 compact-dialog =
     .buttonlabelaccept = Sažmi sada
-    .buttonaccesskeyaccept = S
     .buttonlabelcancel = Podsjeti me kasnije
-    .buttonaccesskeycancel = k
     .buttonlabelextra1 = Saznaj više…
+    .buttonaccesskeyaccept = S
+    .buttonaccesskeycancel = k
     .buttonaccesskeyextra1 = v
 # Variables:
 #  $data (String): The amount of space to be freed, formatted byte, MB, GB, etc., based on the size.

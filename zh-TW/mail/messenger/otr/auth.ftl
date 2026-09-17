@@ -3,8 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 otr-auth =
-    .title = 確認聯絡人的身分
     .buttonlabelaccept = 確認
+    .title = 確認聯絡人的身分
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 auth-title = 驗證 { $name } 的身分

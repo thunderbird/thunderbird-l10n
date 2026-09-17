@@ -5,10 +5,10 @@
 compact-folders-dialog-title = Συμπίεση φακέλων
 compact-dialog =
     .buttonlabelaccept = Συμπίεση τώρα
-    .buttonaccesskeyaccept = Σ
     .buttonlabelcancel = Υπενθύμιση αργότερα
-    .buttonaccesskeycancel = Υ
     .buttonlabelextra1 = Μάθετε περισσότερα…
+    .buttonaccesskeyaccept = Σ
+    .buttonaccesskeycancel = Υ
     .buttonaccesskeyextra1 = Μ
 # Variables:
 #  $data (String): The amount of space to be freed, formatted byte, MB, GB, etc., based on the size.

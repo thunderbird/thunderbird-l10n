@@ -86,9 +86,6 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } / { $total }
-
-## Filter List Dialog
-
 filter-window-title = Viestisuodattimet
 filter-name-column =
     .label = Suodattimen nimi
@@ -108,8 +105,8 @@ filter-delete-button =
     .accesskey = o
 filter-reorder-top-button =
     .label = Siirrä ylimmäksi
-    .accesskey = y
     .tooltiptext = Siirrä suodatin niin, että se suoritetaan ensimmäisenä
+    .accesskey = y
 filter-reorder-up-button =
     .label = Siirrä ylös
     .accesskey = y
@@ -118,8 +115,8 @@ filter-reorder-down-button =
     .accesskey = a
 filter-reorder-bottom-button =
     .label = Siirrä alimmaiseksi
-    .accesskey = a
     .tooltiptext = Siirrä suodatin niin, että se suoritetaan viimeisenä
+    .accesskey = a
 filter-header-label =
     .value = Käytössä olevat suodattimet suoritetaan alla näkyvässä järjestyksessä.
 filter-filters-for-prefix =

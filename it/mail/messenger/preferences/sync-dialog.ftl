@@ -6,6 +6,6 @@ config-sync-dailog-title =
     .title = Scegli che cosa sincronizzare
 sync-dialog =
     .buttonlabelaccept = Salva modifiche
-    .buttonaccesskeyaccept = S
     .buttonlabelextra2 = Disconnetti…
+    .buttonaccesskeyaccept = S
     .buttonaccesskeyextra2 = D

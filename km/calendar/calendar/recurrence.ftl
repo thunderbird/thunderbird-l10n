@@ -3,6 +3,3 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 recurrence-every-weekday = រាល់ថ្ងៃធ្វើការ
-
-# Edit recurrence window -> Recurrence pattern -> Monthly repeat rules
-

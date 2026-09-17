@@ -98,9 +98,6 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } o { $total }
-
-## Filter List Dialog
-
 filter-window-title = Hidlau Negeseuon
 filter-name-column =
     .label = Enw Hidl
@@ -120,8 +117,8 @@ filter-delete-button =
     .accesskey = D
 filter-reorder-top-button =
     .label = Symud i'r Brig
-    .accesskey = B
     .tooltiptext = Ad-drefnu'r hidl fel ei fod yn gweithredu cyn pob un arall
+    .accesskey = B
 filter-reorder-up-button =
     .label = Symud i Fyny
     .accesskey = F
@@ -130,8 +127,8 @@ filter-reorder-down-button =
     .accesskey = L
 filter-reorder-bottom-button =
     .label = Symud i'r Gwaelod
-    .accesskey = w
     .tooltiptext = Ad-drefnu'r hidl fel ei fod yn gweithredu ar ôl pob un arall
+    .accesskey = w
 filter-header-label =
     .value = Bydd hidlau sydd wedi'u galluogi yn rhedeg yn awtomatig yn ôl y drefn â nodir isod.
 filter-filters-for-prefix =

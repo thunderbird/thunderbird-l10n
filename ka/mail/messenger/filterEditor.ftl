@@ -90,9 +90,6 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible }, სულ { $total }-დან
-
-## Filter List Dialog
-
 filter-window-title = წერილის ფილტრები
 filter-name-column =
     .label = ფილტრის სახელი
@@ -112,8 +109,8 @@ filter-delete-button =
     .accesskey = წ
 filter-reorder-top-button =
     .label = დასაწყისში
-    .accesskey = ა
     .tooltiptext = ფილტრის გადაადგილება, რომ ყველა სხვა დანარჩენზე ადრე შესრულდეს
+    .accesskey = ა
 filter-reorder-up-button =
     .label = აწევა
     .accesskey = ე
@@ -122,8 +119,8 @@ filter-reorder-down-button =
     .accesskey = ო
 filter-reorder-bottom-button =
     .label = ბოლოში
-    .accesskey = ბ
     .tooltiptext = ფილტრის გადაადგილება, რომ ყველა სხვა დანარჩენზე გვიან შესრულდეს
+    .accesskey = ბ
 filter-header-label =
     .value = ჩართული ფილტრები გაეშვება შემდეგი თანმიმდევრობით.
 filter-filters-for-prefix =

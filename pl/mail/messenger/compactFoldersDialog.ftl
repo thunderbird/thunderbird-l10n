@@ -5,10 +5,10 @@
 compact-folders-dialog-title = Porządkuj foldery
 compact-dialog =
     .buttonlabelaccept = Uporządkuj
-    .buttonaccesskeyaccept = U
     .buttonlabelcancel = Przypomnij później
-    .buttonaccesskeycancel = P
     .buttonlabelextra1 = Więcej informacji…
+    .buttonaccesskeyaccept = U
+    .buttonaccesskeycancel = P
     .buttonaccesskeyextra1 = W
 # Variables:
 #  $data (String): The amount of space to be freed, formatted byte, MB, GB, etc., based on the size.

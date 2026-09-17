@@ -13,8 +13,8 @@ recurrent-event =
     .value = เหตุการณ์ที่เกิดซ้ำ
 # $locationProperty is the location of the event
 calendar-invitation-location =
-    .value = ตำแหน่งที่ตั้ง: { $locationProperty }
     .tooltiptext = { $locationProperty }
+    .value = ตำแหน่งที่ตั้ง: { $locationProperty }
 # $locationProperty is the location of the event
 calendar-invitations-location =
     .value = ตำแหน่งที่ตั้ง: { $locationProperty }

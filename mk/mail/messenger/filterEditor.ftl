@@ -39,9 +39,6 @@ filter-editor-pick-template-reply = Изберете шаблон со која 
 filter-continue-execution = Примената на филтерот { $filterName } не успеа. Сакате да продолжите да применувате филтри?
 filter-list-backup-message = Вашите филтри не работат бидејќи msgFilterRules.dat датотеката, која ги содржи Вашите филтри не може да се прочита. Ќе биде креирана нова msgFilterRules.dat датотека. Резерва на старата датотека, со име rulesbackup.dat, ќе биде креирана во истиот директориум.
 filter-invalid-custom-header = Некој од Вашите филтри користи сопствено заглавје кое содржи неважечки знак, како ‘:’, знак кој не се печати, не-ascii знак, или осум-битен ascii знак. Изменете ја датотеката msgFilterRules.dat, која ги содржи Вашите филтри, за да ги отстраните неважечките знаци.
-
-## Filter List Dialog
-
 filter-window-title = Филтри за пораките
 filter-name-column =
     .label = Име на филтерот

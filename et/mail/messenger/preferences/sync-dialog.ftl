@@ -6,6 +6,6 @@ config-sync-dailog-title =
     .title = Sünkroniseeritava valik
 sync-dialog =
     .buttonlabelaccept = Salvesta muudatused
-    .buttonaccesskeyaccept = S
     .buttonlabelextra2 = Katkesta ühendus…
+    .buttonaccesskeyaccept = S
     .buttonaccesskeyextra2 = D

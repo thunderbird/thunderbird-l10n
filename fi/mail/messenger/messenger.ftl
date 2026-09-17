@@ -30,55 +30,43 @@ content-tab-security-high-icon =
     .alt = Yhteys on suojattu
 content-tab-security-broken-icon =
     .alt = Yhteys ei ole suojattu
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = Siirry sivu taaksepäin ({ $shortcut })
     .aria-label = Takaisin
+    .tooltiptext = Siirry sivu taaksepäin ({ $shortcut })
     .accesskey = B
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Edellinen
     .accesskey = E
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
-    .tooltiptext = Siirry sivu eteenpäin ({ $shortcut })
     .aria-label = Seuraava
+    .tooltiptext = Siirry sivu eteenpäin ({ $shortcut })
     .accesskey = F
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = Seuraava
     .accesskey = S
-
-# Reload
-
 content-tab-menu-reload =
-    .tooltiptext = Lataa sivu uudelleen
     .aria-label = Lataa uudelleen
+    .tooltiptext = Lataa sivu uudelleen
     .accesskey = d
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
-    .tooltiptext = Lataa sivu uudelleen
     .label = Lataa uudelleen
+    .tooltiptext = Lataa sivu uudelleen
     .accesskey = d
-
-# Stop
-
 content-tab-menu-stop =
-    .tooltiptext = Pysäytä sivun lataaminen
     .aria-label = Pysäytä
+    .tooltiptext = Pysäytä sivun lataaminen
     .accesskey = S
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
-    .tooltiptext = Pysäytä sivun lataaminen
     .label = Pysäytä
+    .tooltiptext = Pysäytä sivun lataaminen
     .accesskey = S
 open-windows-warning-confirmation-title = Vahvista
 # Variables:
@@ -430,9 +418,9 @@ decrypt-and-copy-failures-multiple =
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = Tilat-työkalupalkki
-    .aria-label = Tilat-työkalupalkki
     .aria-description = Pystysuuntainen työkalupalkki, joka mahdollistaa eri tilojen välillä vaihtamisen. Käytä nuolinäppäimiä liikkuaksesi painikkeiden välillä.
+    .aria-label = Tilat-työkalupalkki
+    .toolbarname = Tilat-työkalupalkki
 spaces-toolbar-button-mail2 =
     .title = Sähköposti
 spaces-toolbar-button-address-book2 =
@@ -564,9 +552,6 @@ folder-context-empty-spam =
     .label = Tyhjennä roskapostikansio
     .accesskey = T
 
-## Thread pane.
-
-
 ## Message header.
 
 header-spam-button =
@@ -631,9 +616,6 @@ prompt-dont-ask-again = Älä kysy uudestaan.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Roskapostianalyysi { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } valmis
 spam-processing-message = Käsitellään roskapostiviestejä
-
-## Ignore threads
-
 
 ## Attachments
 

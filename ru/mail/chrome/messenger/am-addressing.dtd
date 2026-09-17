@@ -2,8 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from am-addressing.xhtml -->
-
 <!ENTITY addressing.label "Составление и адресация">
 <!ENTITY addressingGroupTitle.label "Адресация">
 <!ENTITY addressingText.label "При подборе адресов:">
@@ -16,9 +14,6 @@
 <!ENTITY directories.label "Использовать другой LDAP-сервер:">
 <!ENTITY directories.accesskey "д">
 <!ENTITY directoriesNone.label "Нет">
-
-<!-- am-addressing.xhtml -->
-
 <!ENTITY compositionGroupTitle.label "Составление">
 <!-- LOCALIZATION NOTE (useHtml.label) : do not translate "html" in below line -->
 <!ENTITY useHtml.label "Составлять сообщения в формате HTML">

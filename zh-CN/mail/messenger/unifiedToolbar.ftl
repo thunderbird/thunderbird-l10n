@@ -37,9 +37,6 @@ search-bar-placeholder-with-key2 =
 
 customize-menu-customize =
     .label = 自定义…
-
-# Unified toolbar get messages button context menu
-
 toolbar-get-all-messages-menuitem =
     .label = 获取所有新消息
     .accesskey = G

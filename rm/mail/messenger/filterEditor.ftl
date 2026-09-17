@@ -80,9 +80,6 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } da { $total }
-
-## Filter List Dialog
-
 filter-window-title = Filters da messadi
 filter-name-column =
     .label = Num dal filter
@@ -102,8 +99,8 @@ filter-delete-button =
     .accesskey = z
 filter-reorder-top-button =
     .label = Plazzar sisum
-    .accesskey = i
     .tooltiptext = Spustar il filter uschia ch'el vegn exequì avant tut ils auters
+    .accesskey = i
 filter-reorder-up-button =
     .label = Ensi
     .accesskey = E
@@ -112,8 +109,8 @@ filter-reorder-down-button =
     .accesskey = g
 filter-reorder-bottom-button =
     .label = Plazzar giusut
-    .accesskey = u
     .tooltiptext = Spustar il filter uschia ch'el vegn exequì suenter tut ils auters
+    .accesskey = u
 filter-header-label =
     .value = Filters activads vegnan exequids automaticamain en la suandanta successiun.
 filter-filters-for-prefix =

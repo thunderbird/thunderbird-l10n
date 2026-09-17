@@ -9,5 +9,5 @@ add-on-learn-more-and-search-alternative-button-label = Daha fazla bilgi al ve a
 atn-addons-heading-search-input =
     .placeholder = addons.thunderbird.net’te ara
 atn-addons-heading-search-button =
-    .title = addons.thunderbird.net’te ara
     .aria-label = addons.thunderbird.net’te ara
+    .title = addons.thunderbird.net’te ara

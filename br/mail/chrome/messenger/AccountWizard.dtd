@@ -2,12 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- Entities for AccountWizard -->
-
 <!ENTITY windowTitle.label "Skoazeller kontoù">
-
-<!-- Entities for Identity page -->
-
 <!ENTITY identityTitle.label "Titouroù ar gont">
 <!ENTITY identityDesc.label "Pep kont he deus titouroù arbennik a servijo d'ober an diforc'h etrezoc'h-c'hwi hag ar re all pa resevot kemennadennoù.">
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
@@ -20,18 +15,12 @@
 <!ENTITY fullnameLabel.accesskey "a">
 <!ENTITY emailLabel.label "Chomlec'h postel :">
 <!ENTITY emailLabel.accesskey "e">
-
-<!-- Entities for Incoming Server page -->
-
 <!ENTITY incomingTitle.label "Titouroù an dafariad degemer">
 <!ENTITY incomingUsername.label "Anv arveriad :">
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
 <!ENTITY newsServerNameDesc.label "Roit anv ho tafariad strolladoù-keleier (NNTP) (&quot;news.skouer.net&quot; da skouer).">
 <!ENTITY newsServerLabel.label "Dafariad strolladoù-keleier :">
 <!ENTITY newsServerLabel.accesskey "D">
-
-<!-- Entities for Account name page -->
-
 <!ENTITY accnameTitle.label "Anv kont">
 <!-- LOCALIZATION NOTE (accnameDesc.label) : do not translate any "&quot;" in below line -->
 <!ENTITY accnameDesc.label "Bizskrivit an anv a servijo da zaveiñ ar gont-mañ (da skouer, &quot;Kont Labour&quot;, &quot;Kont Ger&quot; pe &quot;Kont Strollad-Keleier&quot;).">

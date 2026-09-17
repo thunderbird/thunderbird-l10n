@@ -210,9 +210,6 @@
 <!ENTITY calendar.tasks.view.calendarlist.accesskey "л">
 <!ENTITY calendar.tasks.view.filtertasks.label "Фільтр завдань">
 <!ENTITY calendar.tasks.view.filtertasks.accesskey "Ф">
-
-<!-- Calendar Alarm Dialog -->
-
 <!ENTITY calendar.alarm.location.label "Місце:">
 <!ENTITY calendar.alarm.details.label "Деталі…">
 <!ENTITY calendar.alarm.snoozefor.label "Призупинити на">

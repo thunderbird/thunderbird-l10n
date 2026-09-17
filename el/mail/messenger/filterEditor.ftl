@@ -90,9 +90,6 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } από { $total }
-
-## Filter List Dialog
-
 filter-window-title = Φίλτρα μηνυμάτων
 filter-name-column =
     .label = Όνομα φίλτρου
@@ -112,8 +109,8 @@ filter-delete-button =
     .accesskey = φ
 filter-reorder-top-button =
     .label = Μετακίνηση στο πάνω μέρος
-    .accesskey = ο
     .tooltiptext = Αναδιατάξτε το φίλτρο ώστε να εκτελείται πριν από τα άλλα
+    .accesskey = ο
 filter-reorder-up-button =
     .label = Μετακίνηση πάνω
     .accesskey = π
@@ -122,8 +119,8 @@ filter-reorder-down-button =
     .accesskey = κ
 filter-reorder-bottom-button =
     .label = Μετακίνηση στο κάτω μέρος
-    .accesskey = μ
     .tooltiptext = Αναδιατάξτε το φίλτρο ώστε να εκτελείται μετά τα άλλα
+    .accesskey = μ
 filter-header-label =
     .value = Τα ενεργά φίλτρα θα εκτελούνται αυτόματα με την παρακάτω σειρά.
 filter-filters-for-prefix =

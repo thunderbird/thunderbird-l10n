@@ -31,55 +31,43 @@ content-tab-security-high-icon =
     .alt = З’єднання захищене
 content-tab-security-broken-icon =
     .alt = З’єднання не захищене
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = Назад на одну сторінку ({ $shortcut })
     .aria-label = Назад
+    .tooltiptext = Назад на одну сторінку ({ $shortcut })
     .accesskey = Н
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Назад
     .accesskey = Н
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
-    .tooltiptext = Уперед на одну сторінку ({ $shortcut })
     .aria-label = Уперед
+    .tooltiptext = Уперед на одну сторінку ({ $shortcut })
     .accesskey = У
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = Уперед
     .accesskey = У
-
-# Reload
-
 content-tab-menu-reload =
-    .tooltiptext = Перезавантажити сторінку
     .aria-label = Перезавантажити
+    .tooltiptext = Перезавантажити сторінку
     .accesskey = П
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
-    .tooltiptext = Перезавантажити сторінку
     .label = Перезавантажити
+    .tooltiptext = Перезавантажити сторінку
     .accesskey = П
-
-# Stop
-
 content-tab-menu-stop =
-    .tooltiptext = Зупинити завантаження сторінки
     .aria-label = Зупинити
+    .tooltiptext = Зупинити завантаження сторінки
     .accesskey = З
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
-    .tooltiptext = Зупинити завантаження сторінки
     .label = Зупинити
+    .tooltiptext = Зупинити завантаження сторінки
     .accesskey = З
 open-windows-warning-confirmation-title = Підтвердити
 # Variables:
@@ -147,9 +135,6 @@ show-tags-folders-label =
 folder-toolbar-toggle-folder-compact-view =
     .label = Компактне подання
     .accesskey = К
-
-## Folder names
-
 
 ## File Menu
 
@@ -340,8 +325,8 @@ context-menu-decrypt-to-folder2 =
 other-action-redirect-msg =
     .label = Переслати
 message-header-msg-flagged =
-    .title = Із зіркою
     .aria-label = Із зіркою
+    .title = Із зіркою
 message-header-delete =
     .label = Видалити
     .tooltiptext = Видалити повідомлення
@@ -436,9 +421,9 @@ decrypt-and-copy-failures-multiple =
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = Панель місць
-    .aria-label = Панель місць
     .aria-description = Вертикальна панель інструментів для перемикання між різними місцями. Використовуйте клавіші зі стрілками для навігації доступними кнопками.
+    .aria-label = Панель місць
+    .toolbarname = Панель місць
 spaces-toolbar-button-mail2 =
     .title = Пошта
 spaces-toolbar-button-address-book2 =
@@ -543,24 +528,12 @@ openpgp-forget = Забути парольні фрази OpenPGP
 quota-panel-percent-used = { $percent }% заповнено
     .title = Квота IMAP: Усього використано { $usage } з { $limit }
 
-## Sort menu.
-
-
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
-
-## Folder pane context.
-
-
-## Thread pane.
-
-
-## Message header.
-
 
 ## Actions for the New Mail Notification
 
@@ -600,15 +573,6 @@ message-group-starred = З зіркою
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = та ін.
-
-## Prompts
-
-
-## Spam commands
-
-
-## Ignore threads
-
 
 ## Attachments
 

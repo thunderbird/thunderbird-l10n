@@ -2,12 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- Entities for AccountWizard -->
-
 <!ENTITY windowTitle.label "Чаробњак за налоге">
-
-<!-- Entities for Identity page -->
-
 <!ENTITY identityTitle.label "Идентитет">
 <!ENTITY identityDesc.label "Сваки налог има засебан идентитет који означава све податке које вас идентификују другима када они приме ваше поруке.">
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
@@ -20,18 +15,12 @@
 <!ENTITY fullnameLabel.accesskey "В">
 <!ENTITY emailLabel.label "Мејл адреса:">
 <!ENTITY emailLabel.accesskey "Е">
-
-<!-- Entities for Incoming Server page -->
-
 <!ENTITY incomingTitle.label "Подаци долазног сервера">
 <!ENTITY incomingUsername.label "Корисничко име:">
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
 <!ENTITY newsServerNameDesc.label "Унесите име вашег новинског сервера (NNTP) (на пример, &quot;news.example.net&quot;).">
 <!ENTITY newsServerLabel.label "Сервер новинских група:">
 <!ENTITY newsServerLabel.accesskey "С">
-
-<!-- Entities for Account name page -->
-
 <!ENTITY accnameTitle.label "Име налога">
 <!-- LOCALIZATION NOTE (accnameDesc.label) : do not translate any "&quot;" in below line -->
 <!ENTITY accnameDesc.label "Унесите име које желите да буде везано за овај налог (на пример, &quot;Пословни налог&quot;, Кућни налог&quot; или &quot;Новински налог&quot;).">

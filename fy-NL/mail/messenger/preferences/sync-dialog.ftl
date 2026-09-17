@@ -6,6 +6,6 @@ config-sync-dailog-title =
     .title = Kies wat jo syngronisearje wolle
 sync-dialog =
     .buttonlabelaccept = Wizigingen bewarje
-    .buttonaccesskeyaccept = a
     .buttonlabelextra2 = Ferbining ferbrekke…
+    .buttonaccesskeyaccept = a
     .buttonaccesskeyextra2 = f

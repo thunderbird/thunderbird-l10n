@@ -31,14 +31,8 @@ xpinstall-prompt-never-allow-and-report =
 xpinstall-prompt-install =
     .label = Kemmel asebded
     .accesskey = N
-
-# These messages are shown when a website invokes navigator.requestMIDIAccess.
-
 site-permission-install-first-prompt-midi-header = Asmel-a yesra anekcum ɣer yibenkan-ik MIDI (Musical Instrument Digital Interface). Anekcum ɣer yibenkan yezmer ad yettsireg s usbeddi n uzegrir niḍen.
 site-permission-install-first-prompt-midi-message = Taɣellist n unekcum-a ur yettwaḍman ara. Ur ttkemmil ara alamma tḍemneḍ asmel-a.
-
-##
-
 xpinstall-disabled-locked = Asebded n iseɣẓanen ireremd-it unedbal n unagraw-ik.
 xpinstall-disabled = Asebded n iseɣẓanen irermed akka tura. Sit ɣef Rmed u ɛreḍ tikelt nniḍen.
 xpinstall-disabled-button =

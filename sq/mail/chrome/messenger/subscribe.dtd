@@ -16,9 +16,5 @@
 <!ENTITY server.label "Llogari:">
 <!ENTITY server.accesskey "L">
 <!ENTITY subscribedHeader.label "Pajtohuni">
-
-<!-- commenting out until bug 38906 is fixed
-     <!ENTITY messagesHeader.label         "Messages"> -->
-
 <!ENTITY namefield.label "Shfaq elementë që përmbajnë:">
 <!ENTITY namefield.accesskey "S">

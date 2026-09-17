@@ -92,9 +92,6 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } од { $total }
-
-## Filter List Dialog
-
 filter-window-title = Филтери порука
 filter-name-column =
     .label = Име филтера
@@ -114,8 +111,8 @@ filter-delete-button =
     .accesskey = б
 filter-reorder-top-button =
     .label = Помери нагоре
-    .accesskey = о
     .tooltiptext = Преуреди филтер тако да се први изврши
+    .accesskey = о
 filter-reorder-up-button =
     .label = Помери горе
     .accesskey = г
@@ -124,8 +121,8 @@ filter-reorder-down-button =
     .accesskey = д
 filter-reorder-bottom-button =
     .label = Помери на дно
-    .accesskey = н
     .tooltiptext = Преуреди филтер тако да се последњи изврши
+    .accesskey = н
 filter-header-label =
     .value = Укључени филтери се аутоматски извршавају у редоследу приказаном испод.
 filter-filters-for-prefix =

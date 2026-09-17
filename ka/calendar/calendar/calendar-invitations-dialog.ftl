@@ -13,8 +13,8 @@ recurrent-event =
     .value = განმეორებითი ღონისძიება
 # $locationProperty is the location of the event
 calendar-invitation-location =
-    .value = მდებარეობა: { $locationProperty }
     .tooltiptext = { $locationProperty }
+    .value = მდებარეობა: { $locationProperty }
 # $locationProperty is the location of the event
 calendar-invitations-location =
     .value = მდებარეობა: { $locationProperty }

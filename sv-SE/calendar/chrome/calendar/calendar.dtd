@@ -210,9 +210,6 @@
 <!ENTITY calendar.tasks.view.calendarlist.accesskey "K">
 <!ENTITY calendar.tasks.view.filtertasks.label "Sortera uppgifter">
 <!ENTITY calendar.tasks.view.filtertasks.accesskey "S">
-
-<!-- Calendar Alarm Dialog -->
-
 <!ENTITY calendar.alarm.location.label "Plats:">
 <!ENTITY calendar.alarm.details.label "Detaljerad info…">
 <!ENTITY calendar.alarm.snoozefor.label "Vila i">

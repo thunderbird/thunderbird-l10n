@@ -31,14 +31,8 @@ xpinstall-prompt-never-allow-and-report =
 xpinstall-prompt-install =
     .label = Z instalaciju pókšacowaś
     .accesskey = i
-
-# These messages are shown when a website invokes navigator.requestMIDIAccess.
-
 site-permission-install-first-prompt-midi-header = Toś te sedła sebje pśistup k wašym rědam MIDi (Musical Instrument Digital Interface) pomina. Rědowy pśistup dajo se zmóžniś, gaž dodank instalěrujośo.
 site-permission-install-first-prompt-midi-message = Wěsty pśistup se njegarantěrujo. Póstupujśo jano, jolic toś tomu sedłoju dowěriśo.
-
-##
-
 xpinstall-disabled-locked = Instalacija softwary jo se wót wašogo systemowego administratora znjemóžniła.
 xpinstall-disabled = Instalacija softwary jo tuchylu znjemóžnjona. Klikniśo na Zmóžniś a wopytajśo hyšći raz.
 xpinstall-disabled-button =

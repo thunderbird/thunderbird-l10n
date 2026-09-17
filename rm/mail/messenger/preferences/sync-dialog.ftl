@@ -6,6 +6,6 @@ config-sync-dailog-title =
     .title = Tscherna tge che duai vegnir sincronisà
 sync-dialog =
     .buttonlabelaccept = Memorisar las midadas
-    .buttonaccesskeyaccept = M
     .buttonlabelextra2 = Deconnectar…
+    .buttonaccesskeyaccept = M
     .buttonaccesskeyextra2 = D

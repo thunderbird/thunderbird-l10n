@@ -2,8 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from am-addressing.xhtml -->
-
 <!ENTITY addressing.label "Composition &amp; Addressing">
 <!ENTITY addressingGroupTitle.label "Հասցեն">
 <!ENTITY addressingText.label "Հասցեները նայելիս.">
@@ -16,9 +14,6 @@
 <!ENTITY directories.label "ប្រើ​ម៉ាស៊ីន​មេ LDAP ផ្សេង៖">
 <!ENTITY directories.accesskey "d">
 <!ENTITY directoriesNone.label "Ոչինչ">
-
-<!-- am-addressing.xhtml -->
-
 <!ENTITY compositionGroupTitle.label "Նամակը">
 <!-- LOCALIZATION NOTE (useHtml.label) : do not translate "html" in below line -->
 <!ENTITY useHtml.label "Նամակները կազմել HTML տեսակի">

@@ -16,9 +16,5 @@
 <!ENTITY server.label "Rub'i' taqoya'l:">
 <!ENTITY server.accesskey "t">
 <!ENTITY subscribedHeader.label "Tz'ib'anïk b'i'aj">
-
-<!-- commenting out until bug 38906 is fixed
-     <!ENTITY messagesHeader.label         "Messages"> -->
-
 <!ENTITY namefield.label "Kek'ut pe ri taq ruch'akulal ruk'wan:">
 <!ENTITY namefield.accesskey "t">

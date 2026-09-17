@@ -6,6 +6,6 @@ config-sync-dailog-title =
     .title = მონაცემების შერჩევა დასასინქრონებელად
 sync-dialog =
     .buttonlabelaccept = ცვლილებების შენახვა
-    .buttonaccesskeyaccept = ც
     .buttonlabelextra2 = გამოთიშვა…
+    .buttonaccesskeyaccept = ც
     .buttonaccesskeyextra2 = ო

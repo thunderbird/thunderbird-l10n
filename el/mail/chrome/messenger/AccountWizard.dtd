@@ -2,12 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- Entities for AccountWizard -->
-
 <!ENTITY windowTitle.label "Βοηθός λογαριασμών">
-
-<!-- Entities for Identity page -->
-
 <!ENTITY identityTitle.label "Ταυτότητα">
 <!ENTITY identityDesc.label "Κάθε λογαριασμός έχει μια ταυτότητα, η οποία αποτελείται από πληροφορίες που σας ταυτοποιούν στους παραλήπτες των μηνυμάτων σας.">
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
@@ -20,18 +15,12 @@
 <!ENTITY fullnameLabel.accesskey "Τ">
 <!ENTITY emailLabel.label "Διεύθυνση email:">
 <!ENTITY emailLabel.accesskey "θ">
-
-<!-- Entities for Incoming Server page -->
-
 <!ENTITY incomingTitle.label "Πληροφορίες διακομιστή εισερχομένων">
 <!ENTITY incomingUsername.label "Όνομα χρήστη:">
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
 <!ENTITY newsServerNameDesc.label "Εισαγάγετε το όνομα του διακομιστή συζητήσεών σας (NNTP) (για παράδειγμα, «news.example.net»).">
 <!ENTITY newsServerLabel.label "Διακομιστής ομάδας συζητήσεων:">
 <!ENTITY newsServerLabel.accesskey "σ">
-
-<!-- Entities for Account name page -->
-
 <!ENTITY accnameTitle.label "Όνομα λογαριασμού">
 <!-- LOCALIZATION NOTE (accnameDesc.label) : do not translate any "&quot;" in below line -->
 <!ENTITY accnameDesc.label "Εισαγάγετε το όνομα με το οποίο θα αναγνωρίζετε αυτόν τον λογαριασμό (για παράδειγμα, «Λογαριασμός εργασίας», «Λογαριασμός οικίας» ή «Λογαριασμός συζητήσεων»).">

@@ -3,8 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 otr-auth =
-    .title = Identitu kontakta pśeglědowaś
     .buttonlabelaccept = Pśeglědowaś
+    .title = Identitu kontakta pśeglědowaś
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 auth-title = Identitu { $name } pśeglědowaś

@@ -37,9 +37,6 @@ search-bar-placeholder-with-key2 =
 
 customize-menu-customize =
     .label = 自訂…
-
-# Unified toolbar get messages button context menu
-
 toolbar-get-all-messages-menuitem =
     .label = 下載所有新郵件
     .accesskey = G

@@ -50,9 +50,6 @@ appmenu-new-feed =
 appmenu-new-newsgroup =
     .label = Diskusijna kupka
     .accesskey = D
-
-## Add Account
-
 appmenu-add-account-panel-title =
     .title = Konto pśidaś
 appmenu-add-account-panel =

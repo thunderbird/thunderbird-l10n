@@ -16,9 +16,5 @@
 <!ENTITY server.label "Účet:">
 <!ENTITY server.accesskey "t">
 <!ENTITY subscribedHeader.label "Odebírat">
-
-<!-- commenting out until bug 38906 is fixed
-     <!ENTITY messagesHeader.label         "Messages"> -->
-
 <!ENTITY namefield.label "Zobrazit položky které obsahují:">
 <!ENTITY namefield.accesskey "o">

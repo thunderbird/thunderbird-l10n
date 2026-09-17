@@ -30,55 +30,43 @@ content-tab-security-high-icon =
     .alt = Die Verbindung ist verschlüsselt.
 content-tab-security-broken-icon =
     .alt = Die Verbindung ist nicht verschlüsselt.
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = Eine Seite zurück ({ $shortcut })
     .aria-label = Zurück
+    .tooltiptext = Eine Seite zurück ({ $shortcut })
     .accesskey = Z
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Zurück
     .accesskey = Z
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
-    .tooltiptext = Eine Seite vor ({ $shortcut })
     .aria-label = Vorwärts
+    .tooltiptext = Eine Seite vor ({ $shortcut })
     .accesskey = V
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = Vor
     .accesskey = V
-
-# Reload
-
 content-tab-menu-reload =
-    .tooltiptext = Seite neu laden
     .aria-label = Neu laden
+    .tooltiptext = Seite neu laden
     .accesskey = N
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
-    .tooltiptext = Seite neu laden
     .label = Neu laden
+    .tooltiptext = Seite neu laden
     .accesskey = N
-
-# Stop
-
 content-tab-menu-stop =
-    .tooltiptext = Laden der Seite beenden
     .aria-label = Beenden
+    .tooltiptext = Laden der Seite beenden
     .accesskey = B
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
-    .tooltiptext = Laden der Seite beenden
     .label = Beenden
+    .tooltiptext = Laden der Seite beenden
     .accesskey = B
 open-windows-warning-confirmation-title = Bestätigen
 # Variables:
@@ -361,8 +349,8 @@ other-action-copy-message-link =
 other-action-copy-news-link =
     .label = News-Link kopieren
 message-header-msg-flagged =
-    .title = Gekennzeichnet
     .aria-label = Gekennzeichnet
+    .title = Gekennzeichnet
 message-header-delete =
     .label = Löschen
     .tooltiptext = Diese Nachricht löschen
@@ -456,9 +444,9 @@ decrypt-and-copy-failures-multiple =
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = Bereiche-Symbolleiste
-    .aria-label = Bereiche-Symbolleiste
     .aria-description = Vertikale Symbolleiste zum Wechseln zwischen verschiedenen Bereichen der Anwendung. Verwenden Sie die Pfeiltasten, um zwischen den verfügbaren Schaltflächen zu wechseln.
+    .aria-label = Bereiche-Symbolleiste
+    .toolbarname = Bereiche-Symbolleiste
 spaces-toolbar-button-mail2 =
     .title = E-Mail
 spaces-toolbar-button-address-book2 =

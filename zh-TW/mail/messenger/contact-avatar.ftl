@@ -5,5 +5,5 @@
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 avatar-picture-alt-text =
-    .title = { $address } 的個人資料照片。
     .alt = { $address } 的個人資料照片。
+    .title = { $address } 的個人資料照片。

@@ -5,10 +5,10 @@
 compact-folders-dialog-title = Zarědniki zgusćiś
 compact-dialog =
     .buttonlabelaccept = Něnto zgusćiś
-    .buttonaccesskeyaccept = u
     .buttonlabelcancel = Pózdźej dopomnjeś
-    .buttonaccesskeycancel = P
     .buttonlabelextra1 = Dalšne informacije…
+    .buttonaccesskeyaccept = u
+    .buttonaccesskeycancel = P
     .buttonaccesskeyextra1 = D
 # Variables:
 #  $data (String): The amount of space to be freed, formatted byte, MB, GB, etc., based on the size.

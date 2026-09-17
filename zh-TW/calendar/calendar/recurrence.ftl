@@ -50,9 +50,6 @@ recurrence-monthly-last-day = 最後一日
 #    separated with commas;
 # e.g. "days 3, 6 and 9" or "days 3rd, 6th and 9th"
 recurrence-monthly-days-of-nth-day = 第 { $days } 天
-
-# Edit recurrence window -> Recurrence pattern -> Monthly repeat rules
-
 # Variables:
 #   $monthlyDays - day of month or a sequence of days of month, possibly followed
 #   by an ordinal symbol, separated with commas;

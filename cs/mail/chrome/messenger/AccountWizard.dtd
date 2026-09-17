@@ -2,12 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- Entities for AccountWizard -->
-
 <!ENTITY windowTitle.label "Průvodce vytvářením účtu">
-
-<!-- Entities for Identity page -->
-
 <!ENTITY identityTitle.label "Identita">
 <!ENTITY identityDesc.label "Každý účet obsahuje identifikační informace, které ostatní lidé vidí při čtení vašich zpráv.">
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
@@ -20,18 +15,12 @@
 <!ENTITY fullnameLabel.accesskey "V">
 <!ENTITY emailLabel.label "E-mailová adresa:">
 <!ENTITY emailLabel.accesskey "E">
-
-<!-- Entities for Incoming Server page -->
-
 <!ENTITY incomingTitle.label "Informace o příchozím serveru">
 <!ENTITY incomingUsername.label "Uživatelské jméno:">
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
 <!ENTITY newsServerNameDesc.label "Vložte název serveru diskusních skupin (NNTP) (např. „news.example.net“).">
 <!ENTITY newsServerLabel.label "Server diskusních skupin:">
 <!ENTITY newsServerLabel.accesskey "S">
-
-<!-- Entities for Account name page -->
-
 <!ENTITY accnameTitle.label "Název účtu">
 <!-- LOCALIZATION NOTE (accnameDesc.label) : do not translate any "&quot;" in below line -->
 <!ENTITY accnameDesc.label "Zadejte název, pod kterým chcete tento účet vést (např. „Pracovní účet“, „Domácí“ nebo „Diskusní skupiny“).">

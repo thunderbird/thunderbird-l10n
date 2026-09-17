@@ -92,9 +92,6 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } din { $total }
-
-## Filter List Dialog
-
 filter-window-title = Filtre de mesaje
 filter-name-column =
     .label = Denumire filtru
@@ -114,8 +111,8 @@ filter-delete-button =
     .accesskey = t
 filter-reorder-top-button =
     .label = Mută în partea de sus
-    .accesskey = s
     .tooltiptext = Reordonează filtrul ca să fie executat înaintea tuturor celorlalte
+    .accesskey = s
 filter-reorder-up-button =
     .label = Mută sus
     .accesskey = s
@@ -124,8 +121,8 @@ filter-reorder-down-button =
     .accesskey = j
 filter-reorder-bottom-button =
     .label = Mută în partea de jos
-    .accesskey = j
     .tooltiptext = Reordonează filtrul ca să fie executat după toate celelalte
+    .accesskey = j
 filter-header-label =
     .value = Filtrele active vor fi rulate automat în ordinea de mai jos.
 filter-filters-for-prefix =

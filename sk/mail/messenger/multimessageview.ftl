@@ -14,8 +14,8 @@ multi-message-undelete-button =
     .label = Zrušiť odstránenie
     .tooltiptext = Zrušiť odstránenie
 multi-message-flagged-button =
-    .title = Označené hviezdičkou
     .aria-label = Označené hviezdičkou
+    .title = Označené hviezdičkou
 # Variables:
 #   $count - total number of conversations (threads or solitary messages) selected
 num-conversations =

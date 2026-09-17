@@ -10,9 +10,6 @@
 
 customize-menu-customize =
     .label = Penyesuaian…
-
-# Unified toolbar get messages button context menu
-
 toolbar-get-all-messages-menuitem =
     .label = Dapatkan Semua Mesej Baru
     .accesskey = D

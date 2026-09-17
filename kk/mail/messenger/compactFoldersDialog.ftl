@@ -5,10 +5,10 @@
 compact-folders-dialog-title = Бумаларды ықшамдау
 compact-dialog =
     .buttonlabelaccept = Қазір ықшамдау
-    .buttonaccesskeyaccept = ш
     .buttonlabelcancel = Кейінірек есіме салу
-    .buttonaccesskeycancel = р
     .buttonlabelextra1 = Көбірек білу…
+    .buttonaccesskeyaccept = ш
+    .buttonaccesskeycancel = р
     .buttonaccesskeyextra1 = л
 # Variables:
 #  $data (String): The amount of space to be freed, formatted byte, MB, GB, etc., based on the size.

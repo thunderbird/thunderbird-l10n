@@ -5,10 +5,10 @@
 compact-folders-dialog-title = กระชับโฟลเดอร์
 compact-dialog =
     .buttonlabelaccept = กระชับตอนนี้
-    .buttonaccesskeyaccept = ก
     .buttonlabelcancel = เตือนฉันภายหลัง
-    .buttonaccesskeycancel = ต
     .buttonlabelextra1 = เรียนรู้เพิ่มเติม…
+    .buttonaccesskeyaccept = ก
+    .buttonaccesskeycancel = ต
     .buttonaccesskeyextra1 = ร
 # Variables:
 #  $data (String): The amount of space to be freed, formatted byte, MB, GB, etc., based on the size.

@@ -5,10 +5,10 @@
 compact-folders-dialog-title = Optimer mapper
 compact-dialog =
     .buttonlabelaccept = Optimer nu
-    .buttonaccesskeyaccept = O
     .buttonlabelcancel = Påmind mig senere
-    .buttonaccesskeycancel = P
     .buttonlabelextra1 = Læs mere…
+    .buttonaccesskeyaccept = O
+    .buttonaccesskeycancel = P
     .buttonaccesskeyextra1 = L
 # Variables:
 #  $data (String): The amount of space to be freed, formatted byte, MB, GB, etc., based on the size.

@@ -2,23 +2,13 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- Entities for AccountWizard -->
-
 <!ENTITY windowTitle.label "Rekeningslimmerd">
-
-<!-- Entities for Identity page -->
-
 <!ENTITY identityTitle.label "Identiteit">
 <!ENTITY identityDesc.label "'n Mens kan vir elke rekening 'n eie identiteit opstel. Die identiteit sê aan mense wat u boodskappe ontvang, wie u is.">
 <!ENTITY fullnameLabel.label "U naam:">
 <!ENTITY fullnameLabel.accesskey "U">
 <!ENTITY emailLabel.label "E-posadres:">
 <!ENTITY emailLabel.accesskey "E">
-
-<!-- Entities for Incoming Server page -->
-
-<!-- Entities for Account name page -->
-
 <!ENTITY accnameTitle.label "Rekeningnaam">
 <!ENTITY accnameLabel.label "Rekeningnaam:">
 <!ENTITY accnameLabel.accesskey "R">

@@ -210,9 +210,6 @@
 <!ENTITY calendar.tasks.view.calendarlist.accesskey "b">
 <!ENTITY calendar.tasks.view.filtertasks.label "Zizdeg tiwiriwin">
 <!ENTITY calendar.tasks.view.filtertasks.accesskey "Z">
-
-<!-- Calendar Alarm Dialog -->
-
 <!ENTITY calendar.alarm.location.label "Adig:">
 <!ENTITY calendar.alarm.details.label "Talqayt…">
 <!ENTITY calendar.alarm.snoozefor.label "Sgen i tenzagt n">

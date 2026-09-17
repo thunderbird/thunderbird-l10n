@@ -50,9 +50,6 @@ appmenu-new-feed =
 appmenu-new-newsgroup =
     .label = Группа новостей
     .accesskey = п
-
-## Add Account
-
 appmenu-add-account-panel-title =
     .title = Добавить учётную запись
 appmenu-add-account-panel =

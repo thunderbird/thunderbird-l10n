@@ -2,12 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- Entities for AccountWizard -->
-
 <!ENTITY windowTitle.label "Asistente de contas">
-
-<!-- Entities for Identity page -->
-
 <!ENTITY identityTitle.label "Identidade">
 <!ENTITY identityDesc.label "Cada conta ten unha identidade, que é a información que o identifica perante outros usuarios cando reciben as súas mensaxes.">
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
@@ -20,18 +15,12 @@
 <!ENTITY fullnameLabel.accesskey "u">
 <!ENTITY emailLabel.label "Enderezo de correo:">
 <!ENTITY emailLabel.accesskey "E">
-
-<!-- Entities for Incoming Server page -->
-
 <!ENTITY incomingTitle.label "Información do servidor de entrada">
 <!ENTITY incomingUsername.label "Nome do usuario:">
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
 <!ENTITY newsServerNameDesc.label "Introduza o nome do servidor de novas (NNTP) (por exemplo, &quot;novas.exemplo.net&quot;).">
 <!ENTITY newsServerLabel.label "Servidor do grupo de noticias:">
 <!ENTITY newsServerLabel.accesskey "S">
-
-<!-- Entities for Account name page -->
-
 <!ENTITY accnameTitle.label "Nome da conta">
 <!-- LOCALIZATION NOTE (accnameDesc.label) : do not translate any "&quot;" in below line -->
 <!ENTITY accnameDesc.label "Introduza o nome co cal desexa referirse a esta conta (por exemplo, &quot;Conta do traballo&quot;, &quot;Conta persoal&quot; ou &quot;Conta de novas&quot;).">

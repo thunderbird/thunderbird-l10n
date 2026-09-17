@@ -5,10 +5,10 @@
 compact-folders-dialog-title = Klasörleri sıkıştır
 compact-dialog =
     .buttonlabelaccept = Şimdi sıkıştır
-    .buttonaccesskeyaccept = s
     .buttonlabelcancel = Daha sonra hatırlat
-    .buttonaccesskeycancel = h
     .buttonlabelextra1 = Daha fazla bilgi al…
+    .buttonaccesskeyaccept = s
+    .buttonaccesskeycancel = h
     .buttonaccesskeyextra1 = a
 # Variables:
 #  $data (String): The amount of space to be freed, formatted byte, MB, GB, etc., based on the size.

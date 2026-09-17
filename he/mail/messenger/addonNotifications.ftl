@@ -26,12 +26,6 @@ xpinstall-prompt-never-allow =
 xpinstall-prompt-install =
     .label = המשך בהתקנה
     .accesskey = ה
-
-# These messages are shown when a website invokes navigator.requestMIDIAccess.
-
-
-##
-
 xpinstall-disabled-locked = התקנת תוכנה נוטרלה על־ידי מנהל המערכת שלך.
 xpinstall-disabled = האפשרות להתקין תוכנה כרגע מנוטרלת. יש ללחוץ על הפעלה ולנסות שוב.
 xpinstall-disabled-button =

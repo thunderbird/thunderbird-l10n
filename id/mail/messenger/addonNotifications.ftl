@@ -31,14 +31,8 @@ xpinstall-prompt-never-allow-and-report =
 xpinstall-prompt-install =
     .label = Lanjut ke Pemasangan
     .accesskey = C
-
-# These messages are shown when a website invokes navigator.requestMIDIAccess.
-
 site-permission-install-first-prompt-midi-header = Situs ini meminta akses ke perangkat MIDI (Musical Instrument Digital Interface) Anda. Akses perangkat dapat diaktifkan dengan memasang pengaya.
 site-permission-install-first-prompt-midi-message = Akses ini tidak dijamin aman. Hanya lanjutkan jika Anda mempercayai situs ini.
-
-##
-
 xpinstall-disabled-locked = Pilihan pemasangan perangkat lunak telah dimatikan administrator sistem Anda.
 xpinstall-disabled = Pemasangan perangkat lunak sedang dimatikan. Klik Aktifkan dan coba lagi.
 xpinstall-disabled-button =

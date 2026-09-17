@@ -34,55 +34,43 @@ content-tab-security-high-icon =
     .alt = Mae'r cysylltiad yn ddiogel
 content-tab-security-broken-icon =
     .alt = Nid yw'r cysylltiad yn ddiogel
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = Nôl un tudalen ({ $shortcut })
     .aria-label = Nôl
+    .tooltiptext = Nôl un tudalen ({ $shortcut })
     .accesskey = N
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Nôl
     .accesskey = ô
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
-    .tooltiptext = Ymlaen un tudalen ({ $shortcut })
     .aria-label = Ymlaen
+    .tooltiptext = Ymlaen un tudalen ({ $shortcut })
     .accesskey = Y
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = Ymlaen
     .accesskey = m
-
-# Reload
-
 content-tab-menu-reload =
-    .tooltiptext = Ail-lwytho tudalen
     .aria-label = Ail-lwytho
+    .tooltiptext = Ail-lwytho tudalen
     .accesskey = A
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
-    .tooltiptext = Ail-lwytho tudalen
     .label = Ail-lwytho
+    .tooltiptext = Ail-lwytho tudalen
     .accesskey = i
-
-# Stop
-
 content-tab-menu-stop =
-    .tooltiptext = Atal llwytho tudalen
     .aria-label = Atal
+    .tooltiptext = Atal llwytho tudalen
     .accesskey = t
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
-    .tooltiptext = Atal llwytho tudalen
     .label = Atal
+    .tooltiptext = Atal llwytho tudalen
     .accesskey = l
 open-windows-warning-confirmation-title = Cadarnhau
 # Variables:
@@ -392,8 +380,8 @@ other-action-copy-message-link =
 other-action-copy-news-link =
     .label = Copïo Dolen Newyddion
 message-header-msg-flagged =
-    .title = Serennog
     .aria-label = Serennog
+    .title = Serennog
 message-header-delete =
     .label = Dileu
     .tooltiptext = Dileu'r neges
@@ -491,9 +479,9 @@ decrypt-and-copy-failures-multiple =
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = Bar Offer Mannau
-    .aria-label = Bar Offer Mannau
     .aria-description = Bar offer fertigol ar gyfer symud rhwng mannau gwahanol. Defnyddiwch y bysellau saeth i ddefnyddio'r botymau sydd ar gael.
+    .aria-label = Bar Offer Mannau
+    .toolbarname = Bar Offer Mannau
 spaces-toolbar-button-mail2 =
     .title = E-bost
 spaces-toolbar-button-address-book2 =

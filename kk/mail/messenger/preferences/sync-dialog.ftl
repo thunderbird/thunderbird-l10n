@@ -6,6 +6,6 @@ config-sync-dailog-title =
     .title = Нені синхрондауды таңдаңыз
 sync-dialog =
     .buttonlabelaccept = Өзгерістерді сақтау
-    .buttonaccesskeyaccept = с
     .buttonlabelextra2 = Ажырату…
+    .buttonaccesskeyaccept = с
     .buttonaccesskeyextra2 = ж

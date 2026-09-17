@@ -10,6 +10,3 @@
 
 customize-menu-customize =
     .label = Прилагоди…
-
-# Unified toolbar get messages button context menu
-

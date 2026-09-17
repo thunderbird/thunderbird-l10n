@@ -3,8 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 otr-auth =
-    .title = Preveri istovetnost stika
     .buttonlabelaccept = Preveri
+    .title = Preveri istovetnost stika
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 auth-title = Preveri istovetnost { $name }

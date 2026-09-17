@@ -10,9 +10,6 @@
 
 customize-menu-customize =
     .label = خصّص…
-
-# Unified toolbar get messages button context menu
-
 toolbar-get-all-messages-menuitem =
     .label = اجلب كل الرسائل الجديدة
     .accesskey = ج

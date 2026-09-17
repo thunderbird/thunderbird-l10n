@@ -13,8 +13,8 @@ recurrent-event =
     .value = Gentagende begivenhed
 # $locationProperty is the location of the event
 calendar-invitation-location =
-    .value = Sted: { $locationProperty }
     .tooltiptext = { $locationProperty }
+    .value = Sted: { $locationProperty }
 # $locationProperty is the location of the event
 calendar-invitations-location =
     .value = Sted: { $locationProperty }

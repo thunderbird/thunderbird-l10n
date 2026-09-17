@@ -106,9 +106,6 @@ recurrence-monthly-days-of-nth-day =
         [many] laethanta { $days }
        *[other] laethanta { $days }
     }
-
-# Edit recurrence window -> Recurrence pattern -> Monthly repeat rules
-
 # Variables:
 #   $monthlyDays - day of month or a sequence of days of month, possibly followed
 #   by an ordinal symbol, separated with commas;

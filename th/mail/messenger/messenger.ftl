@@ -26,55 +26,43 @@ content-tab-security-high-icon =
     .alt = การเชื่อมต่อปลอดภัย
 content-tab-security-broken-icon =
     .alt = การเชื่อมต่อไม่ปลอดภัย
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = ย้อนกลับไปหนึ่งหน้า ({ $shortcut })
     .aria-label = ย้อนกลับ
+    .tooltiptext = ย้อนกลับไปหนึ่งหน้า ({ $shortcut })
     .accesskey = ย
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = ย้อนกลับ
     .accesskey = ย
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
-    .tooltiptext = เดินหน้าไปหนึ่งหน้า ({ $shortcut })
     .aria-label = เดินหน้า
+    .tooltiptext = เดินหน้าไปหนึ่งหน้า ({ $shortcut })
     .accesskey = ด
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = เดินหน้า
     .accesskey = ด
-
-# Reload
-
 content-tab-menu-reload =
-    .tooltiptext = โหลดหน้าใหม่
     .aria-label = โหลดใหม่
+    .tooltiptext = โหลดหน้าใหม่
     .accesskey = โ
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
-    .tooltiptext = โหลดหน้าใหม่
     .label = โหลดใหม่
+    .tooltiptext = โหลดหน้าใหม่
     .accesskey = โ
-
-# Stop
-
 content-tab-menu-stop =
-    .tooltiptext = หยุดโหลดหน้า
     .aria-label = หยุด
+    .tooltiptext = หยุดโหลดหน้า
     .accesskey = ห
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
-    .tooltiptext = หยุดโหลดหน้า
     .label = หยุด
+    .tooltiptext = หยุดโหลดหน้า
     .accesskey = ห
 open-windows-warning-confirmation-title = ยืนยัน
 # Variables:
@@ -320,8 +308,8 @@ other-action-copy-message-link =
 other-action-copy-news-link =
     .label = คัดลอกลิงก์ข่าว
 message-header-msg-flagged =
-    .title = ติดดาวแล้ว
     .aria-label = ติดดาวแล้ว
+    .title = ติดดาวแล้ว
 message-header-delete =
     .label = ลบ
     .tooltiptext = ลบข้อความนี้
@@ -411,9 +399,9 @@ decrypt-and-copy-failures-multiple = ไม่สามารถถอดรห�
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = แถบเครื่องมือ
-    .aria-label = แถบเครื่องมือ
     .aria-description = แถบเครื่องมือแนวตั้งสำหรับสลับระหว่าส่วนต่างๆ ใช้แป้นลูกศรเพื่อเลื่อนไปยังปุ่มอื่นๆ
+    .aria-label = แถบเครื่องมือ
+    .toolbarname = แถบเครื่องมือ
 spaces-toolbar-button-mail2 =
     .title = จดหมาย
 spaces-toolbar-button-address-book2 =
@@ -622,9 +610,6 @@ prompt-dont-ask-again = ไม่ต้องถามอีก
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = การวิเคราะห์สแปมเสร็จสมบูรณ์ { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") }
 spam-processing-message = กำลังประมวลผลข้อความสแปม
-
-## Ignore threads
-
 
 ## Attachments
 

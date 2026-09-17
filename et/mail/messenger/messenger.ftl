@@ -30,55 +30,43 @@ content-tab-security-high-icon =
     .alt = Turvaline ühendus
 content-tab-security-broken-icon =
     .alt = Ühendus pole turvaline
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = Tagasi üks leht ({ $shortcut })
     .aria-label = Tagasi
+    .tooltiptext = Tagasi üks leht ({ $shortcut })
     .accesskey = T
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Tagasi
     .accesskey = g
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
-    .tooltiptext = Edasi üks leht ({ $shortcut })
     .aria-label = Edasi
+    .tooltiptext = Edasi üks leht ({ $shortcut })
     .accesskey = E
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = Edasta
     .accesskey = E
-
-# Reload
-
 content-tab-menu-reload =
-    .tooltiptext = Laadi leht uuesti
     .aria-label = Laadi uuesti
+    .tooltiptext = Laadi leht uuesti
     .accesskey = u
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
-    .tooltiptext = Laadi leht uuesti
     .label = Laadi uuesti
+    .tooltiptext = Laadi leht uuesti
     .accesskey = u
-
-# Stop
-
 content-tab-menu-stop =
-    .tooltiptext = Peata lehe laadimine
     .aria-label = Stopp
+    .tooltiptext = Peata lehe laadimine
     .accesskey = S
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
-    .tooltiptext = Peata lehe laadimine
     .label = Stopp
+    .tooltiptext = Peata lehe laadimine
     .accesskey = S
 open-windows-warning-confirmation-title = Kinnitus
 # Variables:
@@ -144,9 +132,6 @@ show-tags-folders-label =
 folder-toolbar-toggle-folder-compact-view =
     .label = Kompaktne vaade
     .accesskey = v
-
-## Folder names
-
 
 ## File Menu
 
@@ -329,8 +314,8 @@ context-menu-decrypt-to-folder2 =
 other-action-redirect-msg =
     .label = Suuna ümber
 message-header-msg-flagged =
-    .title = Tähistatud
     .aria-label = Tähistatud
+    .title = Tähistatud
 message-header-delete =
     .label = Kustuta
     .tooltiptext = Kustuta see kiri
@@ -424,9 +409,9 @@ decrypt-and-copy-failures-multiple =
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = Rakenduskaartide tööriistariba
-    .aria-label = Rakenduskaartide tööriistariba
     .aria-description = Vertikaalne tööriistariba rakenduste vahel vahetamiseks. Nupude vahel liikumiseks kasuta nooleklahve.
+    .aria-label = Rakenduskaartide tööriistariba
+    .toolbarname = Rakenduskaartide tööriistariba
 spaces-toolbar-button-mail2 =
     .title = E-post
 spaces-toolbar-button-address-book2 =
@@ -530,24 +515,12 @@ openpgp-forget = Unusta OpenPGP paroolid
 quota-panel-percent-used = { $percent }% täis
     .title = IMAP kvoot: kasutusel { $usage }, kokku { $limit }
 
-## Sort menu.
-
-
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
-
-## Folder pane context.
-
-
-## Thread pane.
-
-
-## Message header.
-
 
 ## Actions for the New Mail Notification
 
@@ -589,15 +562,6 @@ message-group-starred = Tähistatud
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = jt
-
-## Prompts
-
-
-## Spam commands
-
-
-## Ignore threads
-
 
 ## Attachments
 

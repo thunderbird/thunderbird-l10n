@@ -14,8 +14,8 @@ multi-message-undelete-button =
     .label = Przywróć
     .tooltiptext = Przywróć
 multi-message-flagged-button =
-    .title = Z gwiazdką
     .aria-label = Z gwiazdką
+    .title = Z gwiazdką
 # Variables:
 #   $count - total number of conversations (threads or solitary messages) selected
 num-conversations =

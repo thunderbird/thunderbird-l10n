@@ -3,8 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 otr-auth =
-    .title = Kişinin kimliğini doğrula
     .buttonlabelaccept = Doğrula
+    .title = Kişinin kimliğini doğrula
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 auth-title = { $name } adlı kişinin kimliğini doğrula

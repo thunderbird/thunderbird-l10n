@@ -31,14 +31,8 @@ xpinstall-prompt-never-allow-and-report =
 xpinstall-prompt-install =
     .label = Cuntinuar cun l'installaziun
     .accesskey = C
-
-# These messages are shown when a website invokes navigator.requestMIDIAccess.
-
 site-permission-install-first-prompt-midi-header = Questa website dumonda l'access a tes apparats MIDI (Musical Instrument Digital Interface). L'access als apparats pon ins garantir cun installar in supplement.
 site-permission-install-first-prompt-midi-message = La segirezza da quest access n'è betg garantida. Cuntinuescha mo sche ti ta fidas da questa website.
-
-##
-
 xpinstall-disabled-locked = Tes administratur dal sistem ha deactivà l'installaziun da software.
 xpinstall-disabled = L'installaziun da software è actualmain deactivada. Clicca sin «Activar» ed emprova danovamain.
 xpinstall-disabled-button =

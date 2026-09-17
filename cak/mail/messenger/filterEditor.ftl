@@ -80,9 +80,6 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } richin { $total }
-
-## Filter List Dialog
-
 filter-window-title = Taq Ruchayub'al Tzijol
 filter-name-column =
     .label = Chayub'äl B'i'aj
@@ -102,8 +99,8 @@ filter-delete-button =
     .accesskey = y
 filter-reorder-top-button =
     .label = Tisilöx pa Rutikirib'al
-    .accesskey = s
     .tooltiptext = Ticholajïx chik ri chayub'äl richin tunab'eyij rusamajib'exik chi kiwäch ri ch'aqa' chik
+    .accesskey = s
 filter-reorder-up-button =
     .label = Tijotob'äx
     .accesskey = j
@@ -112,8 +109,8 @@ filter-reorder-down-button =
     .accesskey = Q
 filter-reorder-bottom-button =
     .label = Tisilöx pa Ruk'isib'al
-    .accesskey = R
     .tooltiptext = Ticholajïx chik ri chayub'äl richin tunab'eyij rusamajib'exik chi kij ri ch'aqa' chik
+    .accesskey = R
 filter-header-label =
     .value = Ri etzijon taq chayub'äl ruyonil xkesamajib'ëx rik'in ri rucholajen nik'ut ikim.
 filter-filters-for-prefix =

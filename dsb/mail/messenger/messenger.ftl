@@ -32,55 +32,43 @@ content-tab-security-high-icon =
     .alt = Zwisk jo wěsty
 content-tab-security-broken-icon =
     .alt = Zwisk njejo wěsty
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = Jaden bok slědk ({ $shortcut })
     .aria-label = Slědk
+    .tooltiptext = Jaden bok slědk ({ $shortcut })
     .accesskey = S
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Slědk
     .accesskey = S
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
-    .tooltiptext = Jaden bok doprědka ({ $shortcut })
     .aria-label = Doprědka
+    .tooltiptext = Jaden bok doprědka ({ $shortcut })
     .accesskey = D
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = Doprědka
     .accesskey = D
-
-# Reload
-
 content-tab-menu-reload =
-    .tooltiptext = Bok znowego zacytaś
     .aria-label = Zacytaś
+    .tooltiptext = Bok znowego zacytaś
     .accesskey = Z
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
-    .tooltiptext = Bok znowego zacytaś
     .label = Zacytaś
+    .tooltiptext = Bok znowego zacytaś
     .accesskey = Z
-
-# Stop
-
 content-tab-menu-stop =
-    .tooltiptext = Zacytanje boka zastajiś
     .aria-label = Zastajiś
+    .tooltiptext = Zacytanje boka zastajiś
     .accesskey = Z
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
-    .tooltiptext = Zacytanje boka zastajiś
     .label = Zastajiś
+    .tooltiptext = Zacytanje boka zastajiś
     .accesskey = Z
 open-windows-warning-confirmation-title = Wobkšuśiś
 # Variables:
@@ -381,8 +369,8 @@ other-action-copy-message-link =
 other-action-copy-news-link =
     .label = Wótkaz na nowosći kopěrowaś
 message-header-msg-flagged =
-    .title = Z gwězdku
     .aria-label = Z gwězdku
+    .title = Z gwězdku
 message-header-delete =
     .label = Lašowaś
     .tooltiptext = Toś tu powěsć lašowaś
@@ -478,9 +466,9 @@ decrypt-and-copy-failures-multiple =
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = Rědka źělnych programow
-    .aria-label = Rědka źělnych programow
     .aria-description = Wertikalna symbolowa rědka, kótaraž mjazy rozdźělnymi źělnymi programami pśešaltujo. Wužywajśo šypkowe tasty, aby pó k dispoziciji stojecych tłocaškach nawigěrował.
+    .aria-label = Rědka źělnych programow
+    .toolbarname = Rědka źělnych programow
 spaces-toolbar-button-mail2 =
     .title = E-mail
 spaces-toolbar-button-address-book2 =

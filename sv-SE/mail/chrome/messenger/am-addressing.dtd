@@ -2,8 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from am-addressing.xhtml -->
-
 <!ENTITY addressing.label "Skriva &amp; adressera">
 <!ENTITY addressingGroupTitle.label "Adressera">
 <!ENTITY addressingText.label "För att söka efter adresser:">
@@ -16,9 +14,6 @@
 <!ENTITY directories.label "Använd en annan LDAP-server:">
 <!ENTITY directories.accesskey "e">
 <!ENTITY directoriesNone.label "Ingen">
-
-<!-- am-addressing.xhtml -->
-
 <!ENTITY compositionGroupTitle.label "Skriva">
 <!-- LOCALIZATION NOTE (useHtml.label) : do not translate "html" in below line -->
 <!ENTITY useHtml.label "Skriv meddelanden i HTML-format">

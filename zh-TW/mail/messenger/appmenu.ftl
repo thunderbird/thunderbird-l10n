@@ -50,9 +50,6 @@ appmenu-new-feed =
 appmenu-new-newsgroup =
     .label = 新聞群組
     .accesskey = N
-
-## Add Account
-
 appmenu-add-account-panel-title =
     .title = 新增帳號
 appmenu-add-account-panel =

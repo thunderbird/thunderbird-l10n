@@ -2,12 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- Entities for AccountWizard -->
-
 <!ENTITY windowTitle.label "Čarobnjak za postavljanje računa">
-
-<!-- Entities for Identity page -->
-
 <!ENTITY identityTitle.label "Identitet">
 <!ENTITY identityDesc.label "Svaki račun ima svoj identitet, koji predstavlja informaciju prema kojoj će vas drugi prepoznati kada prime vaše poruke.">
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
@@ -20,18 +15,12 @@
 <!ENTITY fullnameLabel.accesskey "i">
 <!ENTITY emailLabel.label "Adresa e-pošte:">
 <!ENTITY emailLabel.accesskey "e">
-
-<!-- Entities for Incoming Server page -->
-
 <!ENTITY incomingTitle.label "Informacije o dolaznom poslužitelju">
 <!ENTITY incomingUsername.label "Korisničko ime:">
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
 <!ENTITY newsServerNameDesc.label "Upišite ime poslužitelja interesnih grupa (NNTP) (na primjer, &quot;news.example.net&quot;).">
 <!ENTITY newsServerLabel.label "Poslužitelj interesnih grupa:">
 <!ENTITY newsServerLabel.accesskey "n">
-
-<!-- Entities for Account name page -->
-
 <!ENTITY accnameTitle.label "Naziv računa">
 <!-- LOCALIZATION NOTE (accnameDesc.label) : do not translate any "&quot;" in below line -->
 <!ENTITY accnameDesc.label "Upišite ime koje će se odnositi na ovaj račun (na primjer, &quot;Poslovni račun&quot;, &quot;Kućni račun&quot; ili &quot;Račun interesnih grupa&quot;).">

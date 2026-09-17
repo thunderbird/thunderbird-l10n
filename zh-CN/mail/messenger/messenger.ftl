@@ -29,55 +29,43 @@ content-tab-security-high-icon =
     .alt = 连接是安全的
 content-tab-security-broken-icon =
     .alt = 连接不安全
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = 返回上一页 ({ $shortcut })
     .aria-label = 返回
+    .tooltiptext = 返回上一页 ({ $shortcut })
     .accesskey = B
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = 返回
     .accesskey = B
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
-    .tooltiptext = 转到下一页 ({ $shortcut })
     .aria-label = 下一页
+    .tooltiptext = 转到下一页 ({ $shortcut })
     .accesskey = F
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = 下一页
     .accesskey = F
-
-# Reload
-
 content-tab-menu-reload =
-    .tooltiptext = 重新加载页面
     .aria-label = 重新加载
+    .tooltiptext = 重新加载页面
     .accesskey = R
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
-    .tooltiptext = 重新加载页面
     .label = 重新加载
+    .tooltiptext = 重新加载页面
     .accesskey = R
-
-# Stop
-
 content-tab-menu-stop =
-    .tooltiptext = 停止页面加载
     .aria-label = 停止
+    .tooltiptext = 停止页面加载
     .accesskey = S
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
-    .tooltiptext = 停止页面加载
     .label = 停止
+    .tooltiptext = 停止页面加载
     .accesskey = S
 open-windows-warning-confirmation-title = 确定
 # Variables:
@@ -335,8 +323,8 @@ other-action-copy-message-link =
 other-action-copy-news-link =
     .label = 复制新闻链接
 message-header-msg-flagged =
-    .title = 已加星标
     .aria-label = 已加星标
+    .title = 已加星标
 message-header-delete =
     .label = 删除
     .tooltiptext = 删除此邮件
@@ -426,9 +414,9 @@ decrypt-and-copy-failures-multiple = 共计 { $total } 条消息，其中 { $fai
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = 空间工具栏
-    .aria-label = 空间工具栏
     .aria-description = 用于切换各种功能的垂直工具栏（支持方向键）。
+    .aria-label = 空间工具栏
+    .toolbarname = 空间工具栏
 spaces-toolbar-button-mail2 =
     .title = 邮件
 spaces-toolbar-button-address-book2 =

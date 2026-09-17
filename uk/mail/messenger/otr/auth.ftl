@@ -3,8 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 otr-auth =
-    .title = Перевірити ідентифікатор контакту
     .buttonlabelaccept = Перевірити
+    .title = Перевірити ідентифікатор контакту
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 auth-title = Перевірка ідентифікатора { $name }

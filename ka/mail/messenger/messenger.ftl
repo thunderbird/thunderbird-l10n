@@ -30,55 +30,43 @@ content-tab-security-high-icon =
     .alt = კავშირი დაცულია
 content-tab-security-broken-icon =
     .alt = კავშირი დაუცველია
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = ერთით წინა გვერდზე გადასვლა ({ $shortcut })
     .aria-label = წინა
+    .tooltiptext = ერთით წინა გვერდზე გადასვლა ({ $shortcut })
     .accesskey = წ
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = წინა
     .accesskey = წ
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
-    .tooltiptext = ერთით შემდეგ გვერდზე გადასვლა ({ $shortcut })
     .aria-label = შემდეგი
+    .tooltiptext = ერთით შემდეგ გვერდზე გადასვლა ({ $shortcut })
     .accesskey = გ
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = შემდეგი
     .accesskey = გ
-
-# Reload
-
 content-tab-menu-reload =
-    .tooltiptext = გვერდის გაახლება
     .aria-label = გაახლება
+    .tooltiptext = გვერდის გაახლება
     .accesskey = ხ
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
-    .tooltiptext = გვერდის გაახლება
     .label = გაახლება
+    .tooltiptext = გვერდის გაახლება
     .accesskey = ხ
-
-# Stop
-
 content-tab-menu-stop =
-    .tooltiptext = გვერდის ჩატვირთვის შეწყვეტა
     .aria-label = შეწყვეტა
+    .tooltiptext = გვერდის ჩატვირთვის შეწყვეტა
     .accesskey = წ
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
-    .tooltiptext = გვერდის ჩატვირთვის შეწყვეტა
     .label = შეწყვეტა
+    .tooltiptext = გვერდის ჩატვირთვის შეწყვეტა
     .accesskey = წ
 open-windows-warning-confirmation-title = თანხმობა
 # Variables:
@@ -348,8 +336,8 @@ other-action-copy-message-link =
 other-action-copy-news-link =
     .label = სიახლეების ბმულის ასლი
 message-header-msg-flagged =
-    .title = ვარსკვლავიანი
     .aria-label = ვარსკვლავიანი
+    .title = ვარსკვლავიანი
 message-header-delete =
     .label = წაშლა
     .tooltiptext = ამ წერილის წაშლა
@@ -443,9 +431,9 @@ decrypt-and-copy-failures-multiple =
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = არეების ზოლი
-    .aria-label = არეების ზოლი
     .aria-description = შვეული ხელსაწყოთა ზოლი, სხვადასხვა არეზე გადართვისთვის. ღილაკებზე გადასვლა შესაძლებელია ისრებით.
+    .aria-label = არეების ზოლი
+    .toolbarname = არეების ზოლი
 spaces-toolbar-button-mail2 =
     .title = ფოსტა
 spaces-toolbar-button-address-book2 =

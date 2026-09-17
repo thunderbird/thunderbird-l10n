@@ -82,9 +82,6 @@ filter-count-items = { $count } รายการ
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } จาก { $total }
-
-## Filter List Dialog
-
 filter-window-title = ตัวกรองข้อความ
 filter-name-column =
     .label = ชื่อตัวกรอง
@@ -104,8 +101,8 @@ filter-delete-button =
     .accesskey = บ
 filter-reorder-top-button =
     .label = ย้ายไปด้านบนสุด
-    .accesskey = น
     .tooltiptext = จัดเรียงตัวกรองใหม่เพื่อให้ตัวกรองนี้ทำงานก่อนตัวกรองอื่น
+    .accesskey = น
 filter-reorder-up-button =
     .label = ย้ายขึ้น
     .accesskey = ข
@@ -114,8 +111,8 @@ filter-reorder-down-button =
     .accesskey = ล
 filter-reorder-bottom-button =
     .label = ย้ายไปด้านล่างสุด
-    .accesskey = ง
     .tooltiptext = จัดเรียงตัวกรองใหม่เพื่อให้ตัวกรองนี้ทำงานหลังจากตัวกรองอื่นทั้งหมด
+    .accesskey = ง
 filter-header-label =
     .value = ตัวกรองที่เปิดใช้งานจะทำงานโดยอัตโนมัติตามลำดับที่แสดงด้านล่าง
 filter-filters-for-prefix =

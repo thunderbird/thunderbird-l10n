@@ -1,0 +1,22 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!ENTITY month.1.name "Yanvar">
+<!ENTITY month.2.name "Fevral">
+<!ENTITY month.3.name "Mart">
+<!ENTITY month.4.name "Aprel">
+<!ENTITY month.5.name "May">
+<!ENTITY month.6.name "İyun">
+<!ENTITY month.7.name "İyul">
+<!ENTITY month.8.name "Avqust">
+<!ENTITY month.9.name "Sentyabr">
+<!ENTITY month.10.name "Oktyabr">
+<!ENTITY month.11.name "Noyabr">
+<!ENTITY month.12.name "Dekabr">
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!ENTITY showToday.tooltip "Bu günə get">
+<!ENTITY onedayforward.tooltip "Bir Gün İrəli">
+<!ENTITY onedaybackward.tooltip "Bir Gün Geri">
+<!ENTITY showselectedday.tooltip "Seçilmiş günün tədbirlərini göstər">

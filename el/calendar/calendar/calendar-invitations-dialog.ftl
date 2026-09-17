@@ -13,8 +13,8 @@ recurrent-event =
     .value = Επαναλαμβανόμενη εκδήλωση
 # $locationProperty is the location of the event
 calendar-invitation-location =
-    .value = Τοποθεσία: { $locationProperty }
     .tooltiptext = { $locationProperty }
+    .value = Τοποθεσία: { $locationProperty }
 # $locationProperty is the location of the event
 calendar-invitations-location =
     .value = Τοποθεσία: { $locationProperty }

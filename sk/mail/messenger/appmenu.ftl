@@ -50,9 +50,6 @@ appmenu-new-feed =
 appmenu-new-newsgroup =
     .label = Diskusná skupina
     .accesskey = D
-
-## Add Account
-
 appmenu-add-account-panel-title =
     .title = Pridať účet
 appmenu-add-account-panel =

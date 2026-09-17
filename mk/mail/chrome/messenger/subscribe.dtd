@@ -14,9 +14,5 @@
 <!ENTITY server.label "Сметка:">
 <!ENTITY server.accesskey "а">
 <!ENTITY subscribedHeader.label "Претплати се">
-
-<!-- commenting out until bug 38906 is fixed
-     <!ENTITY messagesHeader.label         "Messages"> -->
-
 <!ENTITY namefield.label "Покажи ги ставките кои содржат:">
 <!ENTITY namefield.accesskey "к">

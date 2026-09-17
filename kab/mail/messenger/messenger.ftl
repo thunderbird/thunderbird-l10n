@@ -30,38 +30,26 @@ content-tab-security-high-icon =
     .alt = Tuqqna d taɣellsant
 content-tab-security-broken-icon =
     .alt = Tuqqna d taraɣelsant
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = Uɣal ɣer deffir s yiwen usebter ({ $shortcut })
     .aria-label = Uɣal
+    .tooltiptext = Uɣal ɣer deffir s yiwen usebter ({ $shortcut })
     .accesskey = U
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Uɣal ɣer deffir
     .accesskey = U
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
-    .tooltiptext = Aẓ ɣer zdat s yiwen usebter ({ $shortcut })
     .aria-label = Welleh
+    .tooltiptext = Aẓ ɣer zdat s yiwen usebter ({ $shortcut })
     .accesskey = W
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = Welleh
     .accesskey = W
-
-# Reload
-
-
-# Stop
-
 open-windows-warning-confirmation-title = Sentem
 # Variables:
 #   $count - number of messages to open
@@ -126,9 +114,6 @@ show-tags-folders-label =
 folder-toolbar-toggle-folder-compact-view =
     .label = Timeẓri yessden
     .accesskey = T
-
-## Folder names
-
 
 ## File Menu
 
@@ -273,8 +258,8 @@ mail-context-messages-undelete =
 other-action-redirect-msg =
     .label = Abeddel n uwelleh
 message-header-msg-flagged =
-    .title = Ɣur-s itri
     .aria-label = Ɣur-s itri
+    .title = Ɣur-s itri
 message-header-delete =
     .label = Kkes
     .tooltiptext = Kkes izen-a
@@ -434,30 +419,12 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
-## OpenPGP
-
-
-## Quota panel.
-
-
-## Sort menu.
-
-
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
-
-## Folder pane context.
-
-
-## Thread pane.
-
-
-## Message header.
-
 
 ## Actions for the New Mail Notification
 
@@ -495,15 +462,6 @@ message-group-starred = Ɣur-s itri
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = d wiyaḍ
-
-## Prompts
-
-
-## Spam commands
-
-
-## Ignore threads
-
 
 ## Attachments
 

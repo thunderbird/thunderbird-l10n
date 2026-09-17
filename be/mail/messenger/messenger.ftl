@@ -29,55 +29,43 @@ content-tab-security-high-icon =
     .alt = Злучэнне абаронена
 content-tab-security-broken-icon =
     .alt = Злучэнне не абаронена
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = Вярнуцца на адну старонку назад ({ $shortcut })
     .aria-label = Назад
+    .tooltiptext = Вярнуцца на адну старонку назад ({ $shortcut })
     .accesskey = з
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Назад
     .accesskey = з
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
-    .tooltiptext = Перайсці на адну старонку наперад ({ $shortcut })
     .aria-label = Наперад
+    .tooltiptext = Перайсці на адну старонку наперад ({ $shortcut })
     .accesskey = п
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = Наперад
     .accesskey = п
-
-# Reload
-
 content-tab-menu-reload =
-    .tooltiptext = Перазагрузіць старонку
     .aria-label = Перазагрузіць
+    .tooltiptext = Перазагрузіць старонку
     .accesskey = П
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
-    .tooltiptext = Перазагрузіць старонку
     .label = Перазагрузіць
+    .tooltiptext = Перазагрузіць старонку
     .accesskey = П
-
-# Stop
-
 content-tab-menu-stop =
-    .tooltiptext = Спыніць загрузку старонкі
     .aria-label = Спыніць
+    .tooltiptext = Спыніць загрузку старонкі
     .accesskey = С
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
-    .tooltiptext = Спыніць загрузку старонкі
     .label = Спыніць
+    .tooltiptext = Спыніць загрузку старонкі
     .accesskey = С
 open-windows-warning-confirmation-title = Сцвярджэнне
 # Variables:
@@ -321,8 +309,8 @@ other-action-copy-message-link =
 other-action-copy-news-link =
     .label = Капіяваць спасылку на навіну
 message-header-msg-flagged =
-    .title = Пазначаныя
     .aria-label = Пазначаныя
+    .title = Пазначаныя
 message-header-delete =
     .label = Выдаліць
     .tooltiptext = Выдаліць гэта паведамленне
@@ -394,9 +382,9 @@ no-reply-reply-anyway-button = Усё роўна адказаць
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = Панэль прастораў
-    .aria-label = Панэль прастораў
     .aria-description = Вертыкальная панэль для пераключэння паміж прасторамі. Выкарыстоўвайце клавішы са стрэлкамі для навігацыі паміж даступнымі кнопкамі.
+    .aria-label = Панэль прастораў
+    .toolbarname = Панэль прастораў
 spaces-toolbar-button-mail2 =
     .title = Пошта
 spaces-toolbar-button-address-book2 =

@@ -30,55 +30,43 @@ content-tab-security-high-icon =
     .alt = La connexió és segura
 content-tab-security-broken-icon =
     .alt = La connexió no és segura
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = Vés una pàgina enrere ({ $shortcut })
     .aria-label = Enrere
+    .tooltiptext = Vés una pàgina enrere ({ $shortcut })
     .accesskey = E
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Enrere
     .accesskey = E
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
-    .tooltiptext = Vés una pàgina endavant ({ $shortcut })
     .aria-label = Endavant
+    .tooltiptext = Vés una pàgina endavant ({ $shortcut })
     .accesskey = d
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = Endavant
     .accesskey = d
-
-# Reload
-
 content-tab-menu-reload =
-    .tooltiptext = Torna a carregar la pàgina
     .aria-label = Torna a carregar
+    .tooltiptext = Torna a carregar la pàgina
     .accesskey = r
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
-    .tooltiptext = Torna a carregar la pàgina
     .label = Torna a carregar
+    .tooltiptext = Torna a carregar la pàgina
     .accesskey = r
-
-# Stop
-
 content-tab-menu-stop =
-    .tooltiptext = Atura la càrrega de la pàgina
     .aria-label = Atura
+    .tooltiptext = Atura la càrrega de la pàgina
     .accesskey = A
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
-    .tooltiptext = Atura la càrrega de la pàgina
     .label = Atura
+    .tooltiptext = Atura la càrrega de la pàgina
     .accesskey = A
 open-windows-warning-confirmation-title = Confirmeu
 # Variables:
@@ -144,9 +132,6 @@ show-tags-folders-label =
 folder-toolbar-toggle-folder-compact-view =
     .label = Visualització compacta
     .accesskey = c
-
-## Folder names
-
 
 ## File Menu
 
@@ -321,8 +306,8 @@ context-menu-decrypt-to-folder2 =
 other-action-redirect-msg =
     .label = Redirigeix
 message-header-msg-flagged =
-    .title = Destacat
     .aria-label = Destacat
+    .title = Destacat
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 message-header-recipient-avatar =
@@ -407,9 +392,9 @@ decrypt-and-copy-failures-multiple =
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = Barra d'eines d'espais
-    .aria-label = Barra d'eines d'espais
     .aria-description = Barra d'eines vertical per a canviar entre espais diferents. Useu les fletxes del teclat per a navegar entre els botons disponibles.
+    .aria-label = Barra d'eines d'espais
+    .toolbarname = Barra d'eines d'espais
 spaces-toolbar-button-mail2 =
     .title = Correu
 spaces-toolbar-button-address-book2 =
@@ -513,27 +498,12 @@ openpgp-forget = Oblida les frases de contrasenya de l'OpenPGP
 quota-panel-percent-used = { $percent }% ple
     .title = Quota d'IMAP: { $usage } en ús d'un total de { $limit }
 
-## Sort menu.
-
-
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
-
-## Folder pane context.
-
-
-## Thread pane.
-
-
-## Message header.
-
-
-## Actions for the New Mail Notification
-
 
 ## Message list.
 
@@ -567,15 +537,6 @@ message-group-starred = Destacats
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = i altres
-
-## Prompts
-
-
-## Spam commands
-
-
-## Ignore threads
-
 
 ## Attachments
 

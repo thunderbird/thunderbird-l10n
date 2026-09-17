@@ -5,10 +5,10 @@
 compact-folders-dialog-title = 壓實重整郵件匣
 compact-dialog =
     .buttonlabelaccept = 立即壓實重整
-    .buttonaccesskeyaccept = C
     .buttonlabelcancel = 稍後再提醒我
-    .buttonaccesskeycancel = R
     .buttonlabelextra1 = 更多資訊…
+    .buttonaccesskeyaccept = C
+    .buttonaccesskeycancel = R
     .buttonaccesskeyextra1 = L
 # Variables:
 #  $data (String): The amount of space to be freed, formatted byte, MB, GB, etc., based on the size.

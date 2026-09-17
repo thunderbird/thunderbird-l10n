@@ -10,9 +10,6 @@
 
 customize-menu-customize =
     .label = Gnàthaich…
-
-# Unified toolbar get messages button context menu
-
 toolbar-get-all-messages-menuitem =
     .label = Faigh a h-uile teachdaireachd ùr
     .accesskey = g

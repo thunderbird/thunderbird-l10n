@@ -3,8 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 otr-auth =
-    .title = Varmista yhteyshenkilön henkilöllisyys
     .buttonlabelaccept = Varmista
+    .title = Varmista yhteyshenkilön henkilöllisyys
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 auth-title = Varmista yhteyshenkilön { $name } henkilöllisyys

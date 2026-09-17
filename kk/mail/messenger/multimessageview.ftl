@@ -14,8 +14,8 @@ multi-message-undelete-button =
     .label = Өшірілгенді қалпына келтіру
     .tooltiptext = Өшірілгенді қалпына келтіру
 multi-message-flagged-button =
-    .title = Жұлдызша қойылған
     .aria-label = Жұлдызша қойылған
+    .title = Жұлдызша қойылған
 # Variables:
 #   $count - total number of conversations (threads or solitary messages) selected
 num-conversations =

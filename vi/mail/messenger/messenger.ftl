@@ -29,55 +29,43 @@ content-tab-security-high-icon =
     .alt = Kết nối an toàn
 content-tab-security-broken-icon =
     .alt = Kết nối không an toàn
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = Trở lại trang trước ({ $shortcut })
     .aria-label = Quay lại
+    .tooltiptext = Trở lại trang trước ({ $shortcut })
     .accesskey = B
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Quay lại
     .accesskey = B
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
-    .tooltiptext = Tiến đến một trang ({ $shortcut })
     .aria-label = Tiến
+    .tooltiptext = Tiến đến một trang ({ $shortcut })
     .accesskey = F
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = Tiến
     .accesskey = F
-
-# Reload
-
 content-tab-menu-reload =
-    .tooltiptext = Tải lại trang này
     .aria-label = Tải lại
+    .tooltiptext = Tải lại trang này
     .accesskey = R
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
-    .tooltiptext = Tải lại trang này
     .label = Tải lại
+    .tooltiptext = Tải lại trang này
     .accesskey = R
-
-# Stop
-
 content-tab-menu-stop =
-    .tooltiptext = Dừng tải trang
     .aria-label = Dừng
+    .tooltiptext = Dừng tải trang
     .accesskey = S
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
-    .tooltiptext = Dừng tải trang
     .label = Dừng
+    .tooltiptext = Dừng tải trang
     .accesskey = S
 open-windows-warning-confirmation-title = Xác nhận
 # Variables:
@@ -332,8 +320,8 @@ other-action-copy-message-link =
 other-action-copy-news-link =
     .label = Sao chép liên kết tin tức
 message-header-msg-flagged =
-    .title = Gắn sao
     .aria-label = Gắn sao
+    .title = Gắn sao
 message-header-delete =
     .label = Xoá
     .tooltiptext = Xoá thư này
@@ -423,9 +411,9 @@ decrypt-and-copy-failures-multiple = Không thể giải mã và sao chép { $fa
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = Thanh công cụ Spaces
-    .aria-label = Thanh công cụ Spaces
     .aria-description = Thanh công cụ dọc để chuyển đổi giữa các không gian khác nhau. Sử dụng các phím mũi tên để điều hướng các nút có sẵn.
+    .aria-label = Thanh công cụ Spaces
+    .toolbarname = Thanh công cụ Spaces
 spaces-toolbar-button-mail2 =
     .title = Thư
 spaces-toolbar-button-address-book2 =

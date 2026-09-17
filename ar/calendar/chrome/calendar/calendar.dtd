@@ -210,9 +210,6 @@
 <!ENTITY calendar.tasks.view.calendarlist.accesskey "ق">
 <!ENTITY calendar.tasks.view.filtertasks.label "رشّح المهام">
 <!ENTITY calendar.tasks.view.filtertasks.accesskey "ش">
-
-<!-- Calendar Alarm Dialog -->
-
 <!ENTITY calendar.alarm.location.label "المكان:">
 <!ENTITY calendar.alarm.details.label "التفاصيل…">
 <!ENTITY calendar.alarm.snoozefor.label "غفوة لمدة">

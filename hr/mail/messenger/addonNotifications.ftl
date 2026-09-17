@@ -31,14 +31,8 @@ xpinstall-prompt-never-allow-and-report =
 xpinstall-prompt-install =
     .label = Nastavite s instalacijom
     .accesskey = c
-
-# These messages are shown when a website invokes navigator.requestMIDIAccess.
-
 site-permission-install-first-prompt-midi-header = Ova stranica zahtjeva pristup vašim MIDI (Musical Instrument Digital Interface) uređajima. Pristup uređajima se može omogućiti instaliranjem privitka.
 site-permission-install-first-prompt-midi-message = Pristup uređajima nije garantirano siguran. Nastavite isključivo ukoliko vjerujete ovoj stranici.
-
-##
-
 xpinstall-disabled-locked = Instalacija programa je onemogućena od strane vašeg administratora sustava.
 xpinstall-disabled = Instalacija programa je trenutno onemogućena. Kliknite na Omogući i pokušajte ponovno.
 xpinstall-disabled-button =

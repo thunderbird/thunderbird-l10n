@@ -31,14 +31,8 @@ xpinstall-prompt-never-allow-and-report =
 xpinstall-prompt-install =
     .label = Lean air adhart dhan stàladh
     .accesskey = C
-
-# These messages are shown when a website invokes navigator.requestMIDIAccess.
-
 site-permission-install-first-prompt-midi-header = Tha an làrach seo ag iarraidh cead-inntrigidh dha na h-uidheaman MIDI (Musical Instrument Digital Interface) agad. ’S urrainn dhut inntrigeadh dhan uidheam a chur an comas le bhith a’ stàladh tuilleadan.
 site-permission-install-first-prompt-midi-message = Chan eil làn-chinnt gum bi an t-inntrigeadh seo sàbhailte. Na lean air adhart ach ma tha earbsa agad san làrach seo.
-
-##
-
 xpinstall-disabled-locked = Chuir rianaire an t-siostaim agad casg air stàladh bathair-bhuig.
 xpinstall-disabled = Chan eil stàladh bathair-bhuig an comas an-dràsta. Briog air “Cuir an comas” agus feuch ris a-rithist.
 xpinstall-disabled-button =

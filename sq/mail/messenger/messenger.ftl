@@ -30,55 +30,43 @@ content-tab-security-high-icon =
     .alt = Lidhja është e sigurt
 content-tab-security-broken-icon =
     .alt = Lidhja s’është e sigurt
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = Shkoni mbrapsht një faqe ({ $shortcut })
     .aria-label = Mbrapsht
+    .tooltiptext = Shkoni mbrapsht një faqe ({ $shortcut })
     .accesskey = M
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Mbrapsht
     .accesskey = M
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
-    .tooltiptext = Shkoni para një faqe ({ $shortcut })
     .aria-label = Përpara
+    .tooltiptext = Shkoni para një faqe ({ $shortcut })
     .accesskey = P
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = Përpara
     .accesskey = P
-
-# Reload
-
 content-tab-menu-reload =
-    .tooltiptext = Ringarkoje faqen
     .aria-label = Ringarkoje
+    .tooltiptext = Ringarkoje faqen
     .accesskey = R
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
-    .tooltiptext = Ringarkoje faqen
     .label = Ringarkoje
+    .tooltiptext = Ringarkoje faqen
     .accesskey = R
-
-# Stop
-
 content-tab-menu-stop =
-    .tooltiptext = Ndale ngarkimin e faqes
     .aria-label = Ndale
+    .tooltiptext = Ndale ngarkimin e faqes
     .accesskey = N
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
-    .tooltiptext = Ndale ngarkimin e faqes
     .label = Ndale
+    .tooltiptext = Ndale ngarkimin e faqes
     .accesskey = N
 open-windows-warning-confirmation-title = Ripohojeni
 # Variables:
@@ -356,8 +344,8 @@ other-action-copy-message-link =
 other-action-copy-news-link =
     .label = Kopjo Lidhje Lajmesh
 message-header-msg-flagged =
-    .title = Me yllkë
     .aria-label = Me yllkë
+    .title = Me yllkë
 message-header-delete =
     .label = Fshije
     .tooltiptext = Fshijeni këtë mesazh
@@ -451,9 +439,9 @@ decrypt-and-copy-failures-multiple =
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = Panel Hapësirash
-    .aria-label = Panel Hapësirash
     .aria-description = Panel vertikal për ndërrim hapësirash të ndryshme. Përdorni tastet shigjetë për të lëvizur nëpër butonat e gatshëm.
+    .aria-label = Panel Hapësirash
+    .toolbarname = Panel Hapësirash
 spaces-toolbar-button-mail2 =
     .title = Postë
 spaces-toolbar-button-address-book2 =

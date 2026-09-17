@@ -64,9 +64,6 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = ‏{ $visible } من { $total }
-
-## Filter List Dialog
-
 filter-window-title = مرشِّحات الرسائِل
 filter-name-column =
     .label = اسم المرشِّح
@@ -86,8 +83,8 @@ filter-delete-button =
     .accesskey = ح
 filter-reorder-top-button =
     .label = انقل إلى البداية
-    .accesskey = ن
     .tooltiptext = غيّر ترتيب المُرشَّح لينفّذ قبل الآخرين
+    .accesskey = ن
 filter-reorder-up-button =
     .label = انقل لأعلى
     .accesskey = ع
@@ -96,8 +93,8 @@ filter-reorder-down-button =
     .accesskey = س
 filter-reorder-bottom-button =
     .label = انقل إلى النهاية
-    .accesskey = ق
     .tooltiptext = غيّر ترتيب المُرشَّح لينفّذ بعد الآخرين
+    .accesskey = ق
 filter-header-label =
     .value = تُشغّل المرشحات تلقائيًّا حسب التّرتيب الظّاهر أدناه.
 filter-filters-for-prefix =

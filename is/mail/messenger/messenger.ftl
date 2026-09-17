@@ -30,55 +30,43 @@ content-tab-security-high-icon =
     .alt = Tengingin er örugg
 content-tab-security-broken-icon =
     .alt = Tengingin er ekki örugg
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = Til baka um eina síðu ({ $shortcut })
     .aria-label = Til baka
+    .tooltiptext = Til baka um eina síðu ({ $shortcut })
     .accesskey = b
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Til baka
     .accesskey = b
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
-    .tooltiptext = Áfram um eina síðu ({ $shortcut })
     .aria-label = Áfram
+    .tooltiptext = Áfram um eina síðu ({ $shortcut })
     .accesskey = f
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = Áfram
     .accesskey = f
-
-# Reload
-
 content-tab-menu-reload =
-    .tooltiptext = Endurlesa síðu
     .aria-label = Endurlesa
+    .tooltiptext = Endurlesa síðu
     .accesskey = r
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
-    .tooltiptext = Endurlesa síðu
     .label = Endurlesa
+    .tooltiptext = Endurlesa síðu
     .accesskey = r
-
-# Stop
-
 content-tab-menu-stop =
-    .tooltiptext = Hætta að hlaða síðu
     .aria-label = Hætta
+    .tooltiptext = Hætta að hlaða síðu
     .accesskey = H
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
-    .tooltiptext = Hætta að hlaða síðu
     .label = Hætta
+    .tooltiptext = Hætta að hlaða síðu
     .accesskey = H
 open-windows-warning-confirmation-title = Staðfesta
 # Variables:
@@ -361,8 +349,8 @@ other-action-copy-message-link =
 other-action-copy-news-link =
     .label = Afrita fréttatengil
 message-header-msg-flagged =
-    .title = Stjörnumerkt
     .aria-label = Stjörnumerkt
+    .title = Stjörnumerkt
 message-header-delete =
     .label = Eyða
     .tooltiptext = Eyða þessum skilaboðum
@@ -456,9 +444,9 @@ decrypt-and-copy-failures-multiple =
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = Svæða-verkfærastika
-    .aria-label = Svæða-verkfærastika
     .aria-description = Lóðrétt verkfærastika til að skipta á milli mismunandi svæða. Notaðu örvalyklana til að flakka á milli tiltækra hnappa.
+    .aria-label = Svæða-verkfærastika
+    .toolbarname = Svæða-verkfærastika
 spaces-toolbar-button-mail2 =
     .title = Póstur
 spaces-toolbar-button-address-book2 =

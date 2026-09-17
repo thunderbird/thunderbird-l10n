@@ -210,9 +210,6 @@
 <!ENTITY calendar.tasks.view.calendarlist.accesskey "L">
 <!ENTITY calendar.tasks.view.filtertasks.label "Silañ trevelloù">
 <!ENTITY calendar.tasks.view.filtertasks.accesskey "S">
-
-<!-- Calendar Alarm Dialog -->
-
 <!ENTITY calendar.alarm.location.label "Lec’hiadur:">
 <!ENTITY calendar.alarm.details.label "Munudoù...">
 <!ENTITY calendar.alarm.snoozefor.label "Lakaat da ad-seniñ a-benn">

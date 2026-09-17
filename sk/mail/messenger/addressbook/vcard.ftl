@@ -2,23 +2,14 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, you can obtain one at http://mozilla.org/MPL/2.0/.
 
-
-# Display Name
-
 vcard-displayname = Zobrazované meno
 vcard-displayname-placeholder =
     .placeholder = { vcard-displayname }
-
-# Type selection
-
 vcard-entry-type-label = Typ
 vcard-entry-type-home = Domov
 vcard-entry-type-work = Práca
 vcard-entry-type-none = Neurčené
 vcard-entry-type-custom = Vlastné
-
-# N vCard field
-
 vcard-name-header = Meno
 vcard-n-prefix = Titul pred menom
 vcard-n-add-prefix =
@@ -35,26 +26,14 @@ vcard-n-add-lastname =
 vcard-n-suffix = Titul za menom
 vcard-n-add-suffix =
     .title = Pridať titul za menom
-
-# Nickname
-
 vcard-nickname = Prezývka
-
-# Email vCard field
-
 vcard-email-header = E‑mailové adresy
 vcard-email-add = Pridať e‑mailovú adresu
 vcard-email-label = E‑mailová adresa
 vcard-primary-email-label = Predvolené
-
-# URL vCard field
-
 vcard-url-header = Webové stránky
 vcard-url-add = Pridať webovú stránku
 vcard-url-label = Webová stránka
-
-# Tel vCard field
-
 vcard-tel-header = Telefónne čísla
 vcard-tel-add = Pridať telefónne číslo
 vcard-tel-label = Telefónne číslo
@@ -62,14 +41,8 @@ vcard-tel-label = Telefónne číslo
 vcard-entry-type-cell = Mobil
 vcard-entry-type-fax = Fax
 vcard-entry-type-pager = Pager
-
-# TZ vCard field
-
 vcard-tz-header = Časové pásmo
 vcard-tz-add = Pridať časové pásmo
-
-# IMPP vCard field
-
 vcard-impp2-header = Okamžité správy
 vcard-impp-add = Pridať účet pre konverzácie
 vcard-impp-label = Účet pre konverzácie
@@ -77,9 +50,6 @@ vcard-impp-select = Protokol
 vcard-impp-option-other = Iné
 vcard-impp-input-label = URI
 vcard-impp-input-title = URI pre okamžité správy
-
-# BDAY and ANNIVERSARY vCard field
-
 vcard-bday-anniversary-header = Špeciálne dátumy
 vcard-bday-anniversary-add = Pridať špeciálny dátum
 vcard-bday-label = Narodeniny
@@ -87,9 +57,6 @@ vcard-anniversary-label = Výročie
 vcard-date-day = Deň
 vcard-date-month = Mesiac
 vcard-date-year = Rok
-
-# ADR vCard field
-
 vcard-adr-header = Adresy
 vcard-adr-add = Pridať adresu
 vcard-adr-label = Adresa
@@ -102,35 +69,26 @@ vcard-adr-region = Štát alebo provincia
 # The term "ZIP code" only applies in USA. Most locales should use "Postal code" only.
 vcard-adr-code = PSČ
 vcard-adr-country = Krajina
-
-# NOTE vCard field
-
 vcard-note-header = Poznámky
 vcard-note-add = Pridať poznámku
-
-# TITLE, ROLE and ORGANIZATION vCard fields
-
 vcard-org-header = Pozícia vo firme
 vcard-org-add = Pridať pozíciu vo firme
 vcard-org-title = Titul
 vcard-org-title-input =
-    .title = Pozícia alebo práca
     .placeholder = Funkcia
+    .title = Pozícia alebo práca
 vcard-org-role = Funkcia
 vcard-org-role-input =
-    .title = Funkcia alebo úloha v konkrétnej situácii
     .placeholder = Úloha v projekte
+    .title = Funkcia alebo úloha v konkrétnej situácii
 vcard-org-org = Organizácia
 vcard-org-org-input =
-    .title = Názov organizácie
     .placeholder = Názov spoločnosti
+    .title = Názov organizácie
 vcard-org-org-unit = Oddelenie
 vcard-org-org-unit-input =
-    .title = Názov organizačnej jednotky
     .placeholder = Oddelenie
-
-# Custom properties
-
+    .title = Názov organizačnej jednotky
 vcard-custom-header = Vlastné údaje
 vcard-custom-add = Pridať vlastné údaje
 vcard-remove-button-title =

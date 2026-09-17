@@ -13,8 +13,8 @@ recurrent-event =
     .value = Opakovaná událost
 # $locationProperty is the location of the event
 calendar-invitation-location =
-    .value = Místo konání: { $locationProperty }
     .tooltiptext = { $locationProperty }
+    .value = Místo konání: { $locationProperty }
 # $locationProperty is the location of the event
 calendar-invitations-location =
     .value = Umístění: { $locationProperty }

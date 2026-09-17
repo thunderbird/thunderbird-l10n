@@ -50,9 +50,6 @@ appmenu-new-feed =
 appmenu-new-newsgroup =
     .label = Жаңалықтар тобы
     .accesskey = т
-
-## Add Account
-
 appmenu-add-account-panel-title =
     .title = Тіркелгіні қосу
 appmenu-add-account-panel =

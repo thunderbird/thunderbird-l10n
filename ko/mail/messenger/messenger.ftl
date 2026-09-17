@@ -26,55 +26,43 @@ content-tab-security-high-icon =
     .alt = 안전한 연결
 content-tab-security-broken-icon =
     .alt = 안전하지 않은 연결
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = 한 페이지 뒤로 가기 ({ $shortcut })
     .aria-label = 뒤로
+    .tooltiptext = 한 페이지 뒤로 가기 ({ $shortcut })
     .accesskey = B
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = 뒤로
     .accesskey = B
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
-    .tooltiptext = 한 페이지 앞으로 가기({ $shortcut })
     .aria-label = 앞으로
+    .tooltiptext = 한 페이지 앞으로 가기({ $shortcut })
     .accesskey = F
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = 앞으로
     .accesskey = F
-
-# Reload
-
 content-tab-menu-reload =
-    .tooltiptext = 페이지 새로 고침
     .aria-label = 새로 고침
+    .tooltiptext = 페이지 새로 고침
     .accesskey = R
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
-    .tooltiptext = 페이지 새로 고침
     .label = 새로 고침
+    .tooltiptext = 페이지 새로 고침
     .accesskey = R
-
-# Stop
-
 content-tab-menu-stop =
-    .tooltiptext = 페이지 로딩 중지
     .aria-label = 중지
+    .tooltiptext = 페이지 로딩 중지
     .accesskey = S
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
-    .tooltiptext = 페이지 로딩 중지
     .label = 중지
+    .tooltiptext = 페이지 로딩 중지
     .accesskey = S
 open-windows-warning-confirmation-title = 확인
 # Variables:
@@ -332,8 +320,8 @@ other-action-copy-message-link =
 other-action-copy-news-link =
     .label = 뉴스 링크 복사
 message-header-msg-flagged =
-    .title = 별표
     .aria-label = 별표
+    .title = 별표
 message-header-delete =
     .label = 삭제
     .tooltiptext = 이 메시지를 삭제합니다
@@ -423,9 +411,9 @@ decrypt-and-copy-failures-multiple = 메시지 { $total }개 중 { $failures }�
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = Spaces 도구 모음
-    .aria-label = Spaces 도구 모음
     .aria-description = 다양한 작업 공간 간에 전환할 수 있는 수직 도구 모음입니다. 방향키를 사용하여 사용할 수 있는 버튼을 탐색하세요.
+    .aria-label = Spaces 도구 모음
+    .toolbarname = Spaces 도구 모음
 spaces-toolbar-button-mail2 =
     .title = 메일
 spaces-toolbar-button-address-book2 =

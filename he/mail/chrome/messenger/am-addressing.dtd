@@ -2,8 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from am-addressing.xhtml -->
-
 <!ENTITY addressing.label "חיבור ומיעון הודעה">
 <!ENTITY addressingGroupTitle.label "מיעון">
 <!ENTITY addressingText.label "בעת חיפוש כתובות:">
@@ -15,9 +13,6 @@
 <!ENTITY directories.label "שימוש בשרת LDAP אחר:">
 <!ENTITY directories.accesskey "ש">
 <!ENTITY directoriesNone.label "ללא">
-
-<!-- am-addressing.xhtml -->
-
 <!ENTITY compositionGroupTitle.label "חיבור הודעה">
 <!-- LOCALIZATION NOTE (useHtml.label) : do not translate "html" in below line -->
 <!ENTITY useHtml.label "חיבור הודעות בתבנית HTML">

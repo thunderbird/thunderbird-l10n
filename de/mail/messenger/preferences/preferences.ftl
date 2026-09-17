@@ -519,10 +519,6 @@ mark-read-delay =
     .label = Nach dem Anzeigen für
     .accesskey = c
 seconds-label = Sekunden
-
-## Note: This will concatenate to "After viewing for [___] seconds",
-## using (mark-read-after-viewing) and a number (seconds-label).
-
 mark-read-after-viewing =
     .label = Nach einer Anzeigedauer von
     .accesskey = v

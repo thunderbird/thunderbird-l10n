@@ -80,9 +80,6 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible }՝ { $total }-ից
-
-## Filter List Dialog
-
 filter-window-title = Նամակի զտիչներ
 filter-name-column =
     .label = Զտիչի անունը
@@ -102,8 +99,8 @@ filter-delete-button =
     .accesskey = t
 filter-reorder-top-button =
     .label = Տեղափոխել առջև
-    .accesskey = o
     .tooltiptext = Վերադասավորել զտիչը, որ այն իրականացվի բոլորից առաջ
+    .accesskey = o
 filter-reorder-up-button =
     .label = Վեր
     .accesskey = U
@@ -112,8 +109,8 @@ filter-reorder-down-button =
     .accesskey = D
 filter-reorder-bottom-button =
     .label = Move to Bottom
-    .accesskey = B
     .tooltiptext = Վերադասավորել զտիչը, որ այն իրականացվի բոլորից հետո
+    .accesskey = B
 filter-header-label =
     .value = Միացված զտիչները կգործարկվեն միանգամից։
 filter-filters-for-prefix =

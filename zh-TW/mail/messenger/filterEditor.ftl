@@ -82,9 +82,6 @@ filter-count-items = { $count } 個項目
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = 在 { $total } 筆當中找到 { $visible } 筆
-
-## Filter List Dialog
-
 filter-window-title = 郵件篩選器
 filter-name-column =
     .label = 篩選條件名稱
@@ -104,8 +101,8 @@ filter-delete-button =
     .accesskey = t
 filter-reorder-top-button =
     .label = 移到頂端
-    .accesskey = o
     .tooltiptext = 重新整理篩選條件，讓它最早執行
+    .accesskey = o
 filter-reorder-up-button =
     .label = 上移
     .accesskey = U
@@ -114,8 +111,8 @@ filter-reorder-down-button =
     .accesskey = D
 filter-reorder-bottom-button =
     .label = 移到底端
-    .accesskey = B
     .tooltiptext = 重新整理篩選條件，讓它最晚執行
+    .accesskey = B
 filter-header-label =
     .value = 勾選的篩選條件將自動依照下列順序進行篩選。
 filter-filters-for-prefix =

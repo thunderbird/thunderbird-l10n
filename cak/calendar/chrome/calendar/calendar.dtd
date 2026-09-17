@@ -137,9 +137,6 @@
 <!ENTITY calendar.context.convertmenu.message.accesskey "M">
 <!ENTITY calendar.context.convertmenu.task.label "Samaj…">
 <!ENTITY calendar.context.convertmenu.task.accesskey "S">
-
-<!-- Calendar Alarm Dialog -->
-
 <!ENTITY calendar.alarm.location.label "Ochochib'al:">
 <!ENTITY calendar.alarm.details.label "Kib'anikil…">
 <!ENTITY calendar.alarm.dismiss.label "Tichup ruwäch">

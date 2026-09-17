@@ -69,9 +69,6 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } eus { $total }
-
-## Filter List Dialog
-
 filter-window-title = Siloù ar c'hemennadennoù
 filter-name-column =
     .label = Anv ar sil
@@ -91,8 +88,8 @@ filter-delete-button =
     .accesskey = D
 filter-reorder-top-button =
     .label = Dilec'hiañ d'ar c'hrec'h
-    .accesskey = l
     .tooltiptext = Adkempenn ar sil evit erounit anezhañ a-raok ar re all
+    .accesskey = l
 filter-reorder-up-button =
     .label = Dilec'hiañ uheloc'h
     .accesskey = u
@@ -101,8 +98,8 @@ filter-reorder-down-button =
     .accesskey = i
 filter-reorder-bottom-button =
     .label = Dilec'hiañ d'an traoñ
-    .accesskey = t
     .tooltiptext = Adkempenn ar sil evit erounit anezhañ goude ar re all
+    .accesskey = t
 filter-header-label =
     .value = Lañset eo ar siloù gweredekaet ent emgefreek diouzh an urzh da heul.
 filter-filters-for-prefix =

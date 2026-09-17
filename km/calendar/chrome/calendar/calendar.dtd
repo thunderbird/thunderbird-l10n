@@ -72,9 +72,6 @@
 <!ENTITY calendar.context.convertmenu.task.label "ភារកិច្ច…">
 <!ENTITY calendar.tasks.view.calendarlist.label "បញ្ជីប្រតិទិន">
 <!ENTITY calendar.tasks.view.filtertasks.label "ត្រងភារកិច្ច">
-
-<!-- Calendar Alarm Dialog -->
-
 <!ENTITY calendar.alarm.location.label "ទីតាំង៖">
 <!ENTITY calendar.alarm.details.label "សេចក្ដី​លម្អិត…">
 <!ENTITY calendar.alarm.snoozefor.label "ផ្អាក​សម្រាប់">

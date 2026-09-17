@@ -31,55 +31,43 @@ content-tab-security-high-icon =
     .alt = Защищённое соединение
 content-tab-security-broken-icon =
     .alt = Соединение не защищено
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = Вернуться на одну страницу назад ({ $shortcut })
     .aria-label = Назад
+    .tooltiptext = Вернуться на одну страницу назад ({ $shortcut })
     .accesskey = а
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Назад
     .accesskey = а
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
-    .tooltiptext = Перейти на одну страницу вперёд ({ $shortcut })
     .aria-label = Вперёд
+    .tooltiptext = Перейти на одну страницу вперёд ({ $shortcut })
     .accesskey = е
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = Вперёд
     .accesskey = е
-
-# Reload
-
 content-tab-menu-reload =
-    .tooltiptext = Перезагрузить страницу
     .aria-label = Перезагрузить
+    .tooltiptext = Перезагрузить страницу
     .accesskey = з
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
-    .tooltiptext = Перезагрузить страницу
     .label = Перезагрузить
+    .tooltiptext = Перезагрузить страницу
     .accesskey = з
-
-# Stop
-
 content-tab-menu-stop =
-    .tooltiptext = Остановить загрузку страницы
     .aria-label = Остановить
+    .tooltiptext = Остановить загрузку страницы
     .accesskey = н
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
-    .tooltiptext = Остановить загрузку страницы
     .label = Остановить
+    .tooltiptext = Остановить загрузку страницы
     .accesskey = н
 open-windows-warning-confirmation-title = Подтверждение
 # Variables:
@@ -373,8 +361,8 @@ other-action-copy-message-link =
 other-action-copy-news-link =
     .label = Копировать ссылку на новость
 message-header-msg-flagged =
-    .title = Отмечено звёздочкой
     .aria-label = Отмечено звёздочкой
+    .title = Отмечено звёздочкой
 message-header-delete =
     .label = Удалить
     .tooltiptext = Удалить это сообщение
@@ -469,9 +457,9 @@ decrypt-and-copy-failures-multiple =
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = Панель мест
-    .aria-label = Панель мест
     .aria-description = Вертикальная панель инструментов для переключения между различными частями приложения. Для навигации по доступным кнопкам используйте клавиши-стрелки.
+    .aria-label = Панель мест
+    .toolbarname = Панель мест
 spaces-toolbar-button-mail2 =
     .title = Почта
 spaces-toolbar-button-address-book2 =

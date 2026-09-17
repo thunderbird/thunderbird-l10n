@@ -2,12 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- Entities for AccountWizard -->
-
 <!ENTITY windowTitle.label "Creazione nuovo account">
-
-<!-- Entities for Identity page -->
-
 <!ENTITY identityTitle.label "Identità">
 <!ENTITY identityDesc.label "Ogni account ha una propria identità, cioè l’insieme di informazioni che permettono al destinatario di identificare il mittente.">
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
@@ -20,18 +15,12 @@
 <!ENTITY fullnameLabel.accesskey "N">
 <!ENTITY emailLabel.label "Indirizzo email:">
 <!ENTITY emailLabel.accesskey "I">
-
-<!-- Entities for Incoming Server page -->
-
 <!ENTITY incomingTitle.label "Informazioni per il server in entrata">
 <!ENTITY incomingUsername.label "Nome utente:">
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
 <!ENTITY newsServerNameDesc.label "Inserire il nome del server delle news (NNTP) (ad esempio, &quot;news.mozilla.org&quot;).">
 <!ENTITY newsServerLabel.label "Server gruppi discussione:">
 <!ENTITY newsServerLabel.accesskey "S">
-
-<!-- Entities for Account name page -->
-
 <!ENTITY accnameTitle.label "Nome account">
 <!-- LOCALIZATION NOTE (accnameDesc.label) : do not translate any "&quot;" in below line -->
 <!ENTITY accnameDesc.label "Inserire un nome per questo account (ad esempio, &quot;Lavoro&quot;, &quot;Casa&quot;, oppure &quot;Account gruppi discussione&quot;).">

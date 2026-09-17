@@ -50,9 +50,6 @@ appmenu-new-feed =
 appmenu-new-newsgroup =
     .label = Nhóm tin
     .accesskey = N
-
-## Add Account
-
 appmenu-add-account-panel-title =
     .title = Thêm tài khoản
 appmenu-add-account-panel =

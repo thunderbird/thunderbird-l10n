@@ -13,8 +13,8 @@ recurrent-event =
     .value = Digwyddiad sy'n ddigwydd eto
 # $locationProperty is the location of the event
 calendar-invitation-location =
-    .value = Lleoliad: { $locationProperty }
     .tooltiptext = { $locationProperty }
+    .value = Lleoliad: { $locationProperty }
 # $locationProperty is the location of the event
 calendar-invitations-location =
     .value = Lleoliad: { $locationProperty }

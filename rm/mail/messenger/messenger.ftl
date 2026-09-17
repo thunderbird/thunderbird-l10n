@@ -30,55 +30,43 @@ content-tab-security-high-icon =
     .alt = La connexiun è segirada
 content-tab-security-broken-icon =
     .alt = La connexiun n'è betg segirada
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = Ina pagina enavos ({ $shortcut })
     .aria-label = Enavos
+    .tooltiptext = Ina pagina enavos ({ $shortcut })
     .accesskey = E
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Enavos
     .accesskey = E
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
-    .tooltiptext = Ina pagina enavant ({ $shortcut })
     .aria-label = Enavant
+    .tooltiptext = Ina pagina enavant ({ $shortcut })
     .accesskey = v
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = Enavant
     .accesskey = v
-
-# Reload
-
 content-tab-menu-reload =
-    .tooltiptext = Rechargiar la pagina
     .aria-label = Rechargiar
+    .tooltiptext = Rechargiar la pagina
     .accesskey = R
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
-    .tooltiptext = Rechargiar la pagina
     .label = Rechargiar
+    .tooltiptext = Rechargiar la pagina
     .accesskey = R
-
-# Stop
-
 content-tab-menu-stop =
-    .tooltiptext = Interrumper il chargiament da la pagina
     .aria-label = Interrumper
+    .tooltiptext = Interrumper il chargiament da la pagina
     .accesskey = I
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
-    .tooltiptext = Interrumper il chargiament da la pagina
     .label = Interrumper
+    .tooltiptext = Interrumper il chargiament da la pagina
     .accesskey = I
 open-windows-warning-confirmation-title = Confermar
 # Variables:
@@ -144,9 +132,6 @@ show-tags-folders-label =
 folder-toolbar-toggle-folder-compact-view =
     .label = Vista cumpacta
     .accesskey = c
-
-## Folder names
-
 
 ## File Menu
 
@@ -329,8 +314,8 @@ context-menu-decrypt-to-folder2 =
 other-action-redirect-msg =
     .label = Renviar
 message-header-msg-flagged =
-    .title = Cun staila
     .aria-label = Cun staila
+    .title = Cun staila
 message-header-delete =
     .label = Stizzar
     .tooltiptext = Stizzar quest messadi
@@ -424,9 +409,9 @@ decrypt-and-copy-failures-multiple =
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = Trav da simbols da locals
-    .aria-label = Trav da simbols da locals
     .aria-description = Trav da simbols verticala per midar tranter differents locals. Utilisescha las tastas da direcziun per navigar en ils buttuns disponibels.
+    .aria-label = Trav da simbols da locals
+    .toolbarname = Trav da simbols da locals
 spaces-toolbar-button-mail2 =
     .title = E-mail
 spaces-toolbar-button-address-book2 =
@@ -530,24 +515,12 @@ openpgp-forget = Emblidar las frasas-clav OpenPGP
 quota-panel-percent-used = Occupà: { $percent }%
     .title = Quota IMAP: { $usage } occupà da  { $limit } en total
 
-## Sort menu.
-
-
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
-
-## Folder pane context.
-
-
-## Thread pane.
-
-
-## Message header.
-
 
 ## Actions for the New Mail Notification
 
@@ -586,15 +559,6 @@ message-group-starred = Cun staila
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = et al.
-
-## Prompts
-
-
-## Spam commands
-
-
-## Ignore threads
-
 
 ## Attachments
 

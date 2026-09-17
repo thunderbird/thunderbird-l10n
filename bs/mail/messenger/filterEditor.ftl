@@ -59,9 +59,6 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } od { $total }
-
-## Filter List Dialog
-
 filter-window-title = Filteri poruka
 filter-name-column =
     .label = Naziv filtera
@@ -81,8 +78,8 @@ filter-delete-button =
     .accesskey = š
 filter-reorder-top-button =
     .label = Pomjeri na vrh
-    .accesskey = o
     .tooltiptext = Pomjeri filter kako bi se izvršavao prije svih ostalih
+    .accesskey = o
 filter-reorder-up-button =
     .label = Pomjeri gore
     .accesskey = g
@@ -91,8 +88,8 @@ filter-reorder-down-button =
     .accesskey = d
 filter-reorder-bottom-button =
     .label = Pomjeri na dno
-    .accesskey = m
     .tooltiptext = Pomjeri filter kako bi se izvršavao nakon svih ostalih
+    .accesskey = m
 filter-header-label =
     .value = Omogućeni filteri se izvršavaju automatski prema niže prikazanom redoslijedu.
 filter-filters-for-prefix =

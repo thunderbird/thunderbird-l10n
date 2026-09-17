@@ -30,55 +30,43 @@ content-tab-security-high-icon =
     .alt = De verbinding is beveiligd
 content-tab-security-broken-icon =
     .alt = De verbinding is niet beveiligd
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = Een pagina terug gaan ({ $shortcut })
     .aria-label = Terug
+    .tooltiptext = Een pagina terug gaan ({ $shortcut })
     .accesskey = T
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Terug
     .accesskey = T
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
-    .tooltiptext = Een pagina vooruit gaan ({ $shortcut })
     .aria-label = Vooruit
+    .tooltiptext = Een pagina vooruit gaan ({ $shortcut })
     .accesskey = V
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = Vooruit
     .accesskey = V
-
-# Reload
-
 content-tab-menu-reload =
-    .tooltiptext = Pagina vernieuwen
     .aria-label = Vernieuwen
+    .tooltiptext = Pagina vernieuwen
     .accesskey = n
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
-    .tooltiptext = Pagina vernieuwen
     .label = Vernieuwen
+    .tooltiptext = Pagina vernieuwen
     .accesskey = n
-
-# Stop
-
 content-tab-menu-stop =
-    .tooltiptext = Pagina laden stoppen
     .aria-label = Stoppen
+    .tooltiptext = Pagina laden stoppen
     .accesskey = S
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
-    .tooltiptext = Pagina laden stoppen
     .label = Stoppen
+    .tooltiptext = Pagina laden stoppen
     .accesskey = S
 open-windows-warning-confirmation-title = Bevestigen
 # Variables:
@@ -361,8 +349,8 @@ other-action-copy-message-link =
 other-action-copy-news-link =
     .label = Nieuwskoppeling kopiëren
 message-header-msg-flagged =
-    .title = Met ster
     .aria-label = Met ster
+    .title = Met ster
 message-header-delete =
     .label = Verwijderen
     .tooltiptext = Dit bericht verwijderen
@@ -456,9 +444,9 @@ decrypt-and-copy-failures-multiple =
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = Taakbalk
-    .aria-label = Taakbalk
     .aria-description = Verticale werkbalk voor het wisselen tussen verschillende taken. Gebruik de pijltoetsen om te navigeren tussen de beschikbare knoppen.
+    .aria-label = Taakbalk
+    .toolbarname = Taakbalk
 spaces-toolbar-button-mail2 =
     .title = E-mail
 spaces-toolbar-button-address-book2 =

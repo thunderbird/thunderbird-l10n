@@ -50,9 +50,6 @@ appmenu-new-feed =
 appmenu-new-newsgroup =
     .label = Berri-taldea
     .accesskey = B
-
-## Add Account
-
 appmenu-add-account-panel-title =
     .title = Gehitu kontua
 appmenu-add-account-panel =

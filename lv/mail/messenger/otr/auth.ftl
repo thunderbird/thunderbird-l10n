@@ -3,8 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 otr-auth =
-    .title = Pārbaudīt kontaktpersonas identitāti
     .buttonlabelaccept = Pārbaudīt
+    .title = Pārbaudīt kontaktpersonas identitāti
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 auth-title = Pārbaudīt { $name } identitāti

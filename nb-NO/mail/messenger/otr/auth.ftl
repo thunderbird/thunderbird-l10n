@@ -3,8 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 otr-auth =
-    .title = Bekreft kontaktens identitet
     .buttonlabelaccept = Bekreft
+    .title = Bekreft kontaktens identitet
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 auth-title = Bekreft identiteten til { $name }

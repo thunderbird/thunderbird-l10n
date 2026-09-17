@@ -30,55 +30,43 @@ content-tab-security-high-icon =
     .alt = Връзката е защитена
 content-tab-security-broken-icon =
     .alt = Връзката не е защитена
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = Назад към { $shortcut }
     .aria-label = Назад
+    .tooltiptext = Назад към { $shortcut }
     .accesskey = Н
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Назад
     .accesskey = Н
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
-    .tooltiptext = Напред към { $shortcut }
     .aria-label = Напред
+    .tooltiptext = Напред към { $shortcut }
     .accesskey = р
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = Напред
     .accesskey = р
-
-# Reload
-
 content-tab-menu-reload =
-    .tooltiptext = Презареждане на страница
     .aria-label = Презареждане
+    .tooltiptext = Презареждане на страница
     .accesskey = П
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
-    .tooltiptext = Презареждане на страницата
     .label = Презареждане
+    .tooltiptext = Презареждане на страницата
     .accesskey = П
-
-# Stop
-
 content-tab-menu-stop =
-    .tooltiptext = Спиране на зареждането на страницата
     .aria-label = Спиране
+    .tooltiptext = Спиране на зареждането на страницата
     .accesskey = С
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
-    .tooltiptext = Спиране на зареждането на страницата
     .label = Спиране
+    .tooltiptext = Спиране на зареждането на страницата
     .accesskey = С
 open-windows-warning-confirmation-title = Потвърждаване
 # Variables:
@@ -357,8 +345,8 @@ other-action-copy-message-link =
 other-action-copy-news-link =
     .label = Копиране на препратката към новината
 message-header-msg-flagged =
-    .title = Със звезда
     .aria-label = Със звезда
+    .title = Със звезда
 message-header-delete =
     .label = Изтриване
     .tooltiptext = Изтриване на съобщението
@@ -452,9 +440,9 @@ decrypt-and-copy-failures-multiple =
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = Лента с инструменти на пространства
-    .aria-label = Лента с инструменти на пространства
     .aria-description = Вертикална лента за смяна между различните пространства. Използвайте клавишните стрелки за навигация.
+    .aria-label = Лента с инструменти на пространства
+    .toolbarname = Лента с инструменти на пространства
 spaces-toolbar-button-mail2 =
     .title = Поща
 spaces-toolbar-button-address-book2 =
@@ -667,9 +655,6 @@ prompt-dont-ask-again = Спиране на този въпрос.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Анализ на нежелана поща { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } завършен
 spam-processing-message = Обработване на нежелани съобщения
-
-## Ignore threads
-
 
 ## Attachments
 

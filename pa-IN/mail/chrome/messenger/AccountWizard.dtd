@@ -2,12 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- Entities for AccountWizard -->
-
 <!ENTITY windowTitle.label "ਅਕਾਊਂਟ ਸਹਾਇਕ">
-
-<!-- Entities for Identity page -->
-
 <!ENTITY identityTitle.label "ਪਛਾਣ">
 <!ENTITY identityDesc.label "ਹਰ ਅਕਾਊਂਟ ਦੀ ਪਛਾਣ ਹੁੰਦੀ ਹੈ, ਜੋ ਕਿ ਤੁਹਾਡਾ ਸੁਨੇਹਾ ਮਿਲਣ ਤੇ ਹੋਰਾਂ ਨੂੰ ਤੁਹਾਡੀ ਪਛਾਣ ਉਪਲੱਬਧ ਕਰਵਾਉਦੀ ਹੈ।">
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
@@ -20,18 +15,12 @@
 <!ENTITY fullnameLabel.accesskey "Y">
 <!ENTITY emailLabel.label "ਈ-ਮੇਲ ਐਡਰੈੱਸ:">
 <!ENTITY emailLabel.accesskey "E">
-
-<!-- Entities for Incoming Server page -->
-
 <!ENTITY incomingTitle.label "Incoming Server Information">
 <!ENTITY incomingUsername.label "ਵਰਤੋਂਕਾਰ ਨਾਂ:">
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
 <!ENTITY newsServerNameDesc.label "ਆਪਣੇ ਖਬਰ ਸਰਵਰ ਦਾ ਨਾਂ ਦਿਉ (NNTP) (ਉਦਾਹਰਨ ਲਈ, &quot;news.example.net&quot;)">
 <!ENTITY newsServerLabel.label "ਨਿਊਜ਼ਗਰੁੱਪ ਸਰਵਰ:">
 <!ENTITY newsServerLabel.accesskey "N">
-
-<!-- Entities for Account name page -->
-
 <!ENTITY accnameTitle.label "ਅਕਾਊਂਟ ਨਾਂ">
 <!-- LOCALIZATION NOTE (accnameDesc.label) : do not translate any "&quot;" in below line -->
 <!ENTITY accnameDesc.label "ਨਾਂ ਦਿਉ, ਜਿਸ ਨਾਲ ਤੁਸੀਂ ਇਸ ਅਕਾਊਂਟ ਨੂੰ ਸੰਬੋਧਨ ਕਰੋਗੇ (ਉਦਾਹਰਨ ਲਈ, &quot;ਕੰਮ ਅਕਾਊਂਟ&quot;, &quot;ਘਰ ਅਕਾਊਂਟ&quot; ਜਾਂ &quot;ਨਿਊਜ਼ ਅਕਾਊਂਟ&quot;)">

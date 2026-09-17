@@ -16,9 +16,5 @@
 <!ENTITY server.label "账户：">
 <!ENTITY server.accesskey "A">
 <!ENTITY subscribedHeader.label "订阅">
-
-<!-- commenting out until bug 38906 is fixed
-     <!ENTITY messagesHeader.label         "Messages"> -->
-
 <!ENTITY namefield.label "显示包含此信息的项：">
 <!ENTITY namefield.accesskey "o">

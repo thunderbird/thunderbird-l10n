@@ -14,8 +14,8 @@ multi-message-undelete-button =
     .label = Fuortsmiten ûngedien meitsje
     .tooltiptext = Fuortsmiten ûngedien meitsje
 multi-message-flagged-button =
-    .title = Mei stjer
     .aria-label = Mei stjer
+    .title = Mei stjer
 # Variables:
 #   $count - total number of conversations (threads or solitary messages) selected
 num-conversations =

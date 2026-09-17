@@ -10,9 +10,6 @@
 
 customize-menu-customize =
     .label = התאמה אישית…
-
-# Unified toolbar get messages button context menu
-
 toolbar-get-all-messages-menuitem =
     .label = קבל את כל ההודעות החדשות
     .accesskey = G

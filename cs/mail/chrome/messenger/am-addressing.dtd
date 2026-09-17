@@ -2,8 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from am-addressing.xhtml -->
-
 <!ENTITY addressing.label "Vytváření zpráv a adresování">
 <!ENTITY addressingGroupTitle.label "Adresování">
 <!ENTITY addressingText.label "Při hledání adres:">
@@ -16,9 +14,6 @@
 <!ENTITY directories.label "Použít jiný LDAP server:">
 <!ENTITY directories.accesskey "D">
 <!ENTITY directoriesNone.label "Žádný">
-
-<!-- am-addressing.xhtml -->
-
 <!ENTITY compositionGroupTitle.label "Vytváření zpráv">
 <!-- LOCALIZATION NOTE (useHtml.label) : do not translate "html" in below line -->
 <!ENTITY useHtml.label "Vytvářet zprávy v HTML formátu">

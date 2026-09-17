@@ -6,6 +6,6 @@ config-sync-dailog-title =
     .title = Aukeratu zer sinkronizatu
 sync-dialog =
     .buttonlabelaccept = Gorde aldaketak
-    .buttonaccesskeyaccept = G
     .buttonlabelextra2 = Deskonektatu
+    .buttonaccesskeyaccept = G
     .buttonaccesskeyextra2 = D

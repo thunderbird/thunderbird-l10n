@@ -82,9 +82,6 @@ filter-count-items = { $count } mục
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } của { $total }
-
-## Filter List Dialog
-
 filter-window-title = Bộ lọc thư
 filter-name-column =
     .label = Tên bộ lọc
@@ -104,8 +101,8 @@ filter-delete-button =
     .accesskey = t
 filter-reorder-top-button =
     .label = Chuyển lên trên cùng
-    .accesskey = o
     .tooltiptext = Sắp xếp lại bộ lọc để nó thực thi trước tất cả các bộ lọc khác
+    .accesskey = o
 filter-reorder-up-button =
     .label = Di chuyển lên
     .accesskey = U
@@ -114,8 +111,8 @@ filter-reorder-down-button =
     .accesskey = D
 filter-reorder-bottom-button =
     .label = Chuyển xuống dưới cùng
-    .accesskey = B
     .tooltiptext = Sắp xếp lại bộ lọc để nó thực thi sau tất cả các bộ lọc khác
+    .accesskey = B
 filter-header-label =
     .value = Các bộ lọc đã kích hoạt sẽ được chạy tự động theo thứ tự bên dưới.
 filter-filters-for-prefix =

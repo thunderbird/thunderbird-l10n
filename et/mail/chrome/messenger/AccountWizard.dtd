@@ -2,12 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- Entities for AccountWizard -->
-
 <!ENTITY windowTitle.label "Kontohaldur">
-
-<!-- Entities for Identity page -->
-
 <!ENTITY identityTitle.label "Identiteet">
 <!ENTITY identityDesc.label "Igal kontol võib olla erinev identiteet. See on info, mis kirjadega saatja kohta kaasa läheb.">
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
@@ -20,18 +15,12 @@
 <!ENTITY fullnameLabel.accesskey "S">
 <!ENTITY emailLabel.label "E-posti aadress:">
 <!ENTITY emailLabel.accesskey "E">
-
-<!-- Entities for Incoming Server page -->
-
 <!ENTITY incomingTitle.label "Saabuva e-posti serveri teave">
 <!ENTITY incomingUsername.label "Kasutajanimi:">
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
 <!ENTITY newsServerNameDesc.label "Sisesta oma (NNTP) uudisteserveri aadress (näiteks &quot;uudised.puust.punaseks.ee&quot;).">
 <!ENTITY newsServerLabel.label "Uudistegruppide server:">
 <!ENTITY newsServerLabel.accesskey "U">
-
-<!-- Entities for Account name page -->
-
 <!ENTITY accnameTitle.label "Konto nimi">
 <!-- LOCALIZATION NOTE (accnameDesc.label) : do not translate any "&quot;" in below line -->
 <!ENTITY accnameDesc.label "Sisesta nimi, millega soovid sellele kontole viidata (näiteks &quot;Kodu&quot;, &quot;Töö&quot;, &quot;Uudised&quot;).">

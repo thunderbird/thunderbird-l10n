@@ -92,9 +92,6 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } z { $total }
-
-## Filter List Dialog
-
 filter-window-title = Filtre správ
 filter-name-column =
     .label = Názov filtra
@@ -114,8 +111,8 @@ filter-delete-button =
     .accesskey = O
 filter-reorder-top-button =
     .label = Presunúť hore
-    .accesskey = e
     .tooltiptext = Presunie filter na prvú pozíciu, takže bude vykonaný skôr ako ostatné definované filtre
+    .accesskey = e
 filter-reorder-up-button =
     .label = Posunúť nahor
     .accesskey = h
@@ -124,8 +121,8 @@ filter-reorder-down-button =
     .accesskey = d
 filter-reorder-bottom-button =
     .label = Presunúť dole
-    .accesskey = r
     .tooltiptext = Presunie filter na poslednú pozíciu, takže bude vykonaný až po ostatných definovaných filtroch
+    .accesskey = r
 filter-header-label =
     .value = Povolené filtre budú spustené v zobrazenom poradí.
 filter-filters-for-prefix =

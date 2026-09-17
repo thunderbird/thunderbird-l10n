@@ -1,0 +1,153 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- General -->
+<!ENTITY calendar.calendar.label "Təqvim">
+<!ENTITY calendar.calendar.accesskey "C">
+<!ENTITY calendar.newevent.button.tooltip "Yeni tədbir yarat">
+<!ENTITY calendar.newtask.button.tooltip "Yeni tapşırıq yarat">
+<!ENTITY calendar.unifinder.showcompletedtodos.label "Bitirilmiş Tapşırıqları Göstər">
+<!ENTITY calendar.today.button.label "Bu gün">
+<!ENTITY calendar.tomorrow.button.label "Sabah">
+<!ENTITY calendar.today.button.tooltip "Bu günə get">
+<!ENTITY calendar.newevent.button.label "Yeni Tədbir">
+<!ENTITY calendar.newtask.button.label "Yeni Tapşırıq">
+<!ENTITY calendar.onlyworkday.checkbox.label "Ancaq iş günləri">
+<!ENTITY calendar.onlyworkday.checkbox.accesskey "r">
+<!ENTITY calendar.displaytodos.checkbox.label "Görünüşdəki Tapşırıqlar">
+<!ENTITY calendar.displaytodos.checkbox.accesskey "k">
+<!ENTITY calendar.completedtasks.checkbox.label "Bitirilmiş Tapşırıqları göstər">
+<!ENTITY calendar.completedtasks.checkbox.accesskey "c">
+<!ENTITY calendar.list.header.label "Təqvim">
+<!ENTITY calendar.task-details.status.label "status">
+<!-- Context Menu -->
+<!ENTITY calendar.context.modifyorviewitem.label "Aç">
+<!ENTITY calendar.context.modifyorviewitem.accesskey "O">
+<!ENTITY calendar.context.modifyorviewtask.label "Tapşırıq Aç…">
+<!ENTITY calendar.context.modifyorviewtask.accesskey "O">
+<!ENTITY calendar.context.newevent.label "Yeni Tədbir…">
+<!ENTITY calendar.context.newevent.accesskey "N">
+<!ENTITY calendar.context.newtodo.label "Yeni Tapşırıq…">
+<!ENTITY calendar.context.newtodo.accesskey "k">
+<!ENTITY calendar.context.deletetask.label "Tapşırıq Sil">
+<!ENTITY calendar.context.deletetask.accesskey "l">
+<!ENTITY calendar.context.deleteevent.label "Tədbiri Sil">
+<!ENTITY calendar.context.deleteevent.accesskey "l">
+<!ENTITY calendar.context.cutevent.label "Kəs">
+<!ENTITY calendar.context.cutevent.accesskey "t">
+<!ENTITY calendar.context.copyevent.label "Köçür">
+<!ENTITY calendar.context.copyevent.accesskey "C">
+<!ENTITY calendar.context.pasteevent.label "Yapışdır">
+<!ENTITY calendar.context.pasteevent.accesskey "P">
+<!ENTITY calendar.context.button.accesskey "T">
+<!ENTITY calendar.context.attendance.menu.accesskey "d">
+<!ENTITY calendar.context.progress.accesskey "P">
+<!ENTITY calendar.context.priority.label "Üstünlük">
+<!ENTITY calendar.context.priority.accesskey "r">
+<!ENTITY calendar.context.postpone.accesskey "s">
+<!ENTITY calendar.context.markcompleted.label "Bitmiş olaraq işarətlə">
+<!ENTITY calendar.context.markcompleted.accesskey "o">
+<!ENTITY progress.level.0 "0&percnt; Bitib">
+<!ENTITY progress.level.0.accesskey "0">
+<!ENTITY progress.level.25 "25&percnt; Bitib">
+<!ENTITY progress.level.25.accesskey "2">
+<!ENTITY progress.level.50 "50&percnt; Bitib">
+<!ENTITY progress.level.50.accesskey "5">
+<!ENTITY progress.level.75 "75&percnt; Bitib">
+<!ENTITY progress.level.75.accesskey "7">
+<!ENTITY progress.level.100 "100&percnt; Bitib">
+<!ENTITY progress.level.100.accesskey "1">
+<!ENTITY priority.level.none.accesskey "s">
+<!ENTITY priority.level.low.accesskey "L">
+<!ENTITY priority.level.normal "Normal">
+<!ENTITY priority.level.normal.accesskey "N">
+<!ENTITY priority.level.high "Yüksək">
+<!ENTITY priority.level.high.accesskey "H">
+<!ENTITY calendar.context.postpone.1hour.label "1 Saat">
+<!ENTITY calendar.context.postpone.1hour.accesskey "H">
+<!ENTITY calendar.context.postpone.1day.label "1 Gün">
+<!ENTITY calendar.context.postpone.1day.accesskey "D">
+<!ENTITY calendar.context.postpone.1week.label "1 Həftə">
+<!ENTITY calendar.context.postpone.1week.accesskey "W">
+<!ENTITY calendar.copylink.label "Keçid Məkanını Köçür">
+<!ENTITY calendar.copylink.accesskey "C">
+<!-- Task View
+     Note that the above *.context.* strings are currently used for the other
+     task action buttons -->
+<!ENTITY calendar.taskview.delete.label "Sil">
+<!-- Server Context Menu -->
+<!ENTITY calendar.context.newserver.label "Yeni Təqvim…">
+<!ENTITY calendar.context.newserver.accesskey "N">
+<!ENTITY calendar.context.findcalendar.label "Təqvim Tap…">
+<!ENTITY calendar.context.findcalendar.accesskey "F">
+<!ENTITY calendar.context.deleteserver2.label "Təqvim Sil…">
+<!ENTITY calendar.context.deleteserver2.accesskey "D">
+<!-- LOCALIZATION NOTE (calendar.context.removeserver.label): Removing the
+      calendar is the general action of removing it, while deleting means to
+      clear the data and unsubscribing means just taking it out of the calendar
+      list. -->
+<!ENTITY calendar.context.removeserver.label "Təqvim Sil…">
+<!ENTITY calendar.context.removeserver.accesskey "R">
+<!ENTITY calendar.context.unsubscribeserver.accesskey "U">
+<!ENTITY calendar.context.publish.label "Təqvimi Paylaş…">
+<!ENTITY calendar.context.publish.accesskey "b">
+<!ENTITY calendar.context.export.label "Təqvimi İxrac et…">
+<!ENTITY calendar.context.export.accesskey "E">
+<!ENTITY calendar.context.properties.accesskey "P">
+<!-- LOCALIZATION NOTE (calendar.context.showcalendar.accesskey)
+     This is the access key used for the showCalendar string -->
+<!ENTITY calendar.context.showcalendar.accesskey "h">
+<!-- LOCALIZATION NOTE (calendar.context.hidecalendar.accesskey)
+     This is the access key used for the hideCalendar string -->
+<!ENTITY calendar.context.hidecalendar.accesskey "H">
+<!-- LOCALIZATION NOTE (calendar.context.showonly.accesskey)
+     This is the access key used for the showOnlyCalendar string -->
+<!ENTITY calendar.context.showonly.accesskey "O">
+<!ENTITY calendar.context.showall.label "Bütün Təqvimləri Göstər">
+<!ENTITY calendar.context.showall.accesskey "A">
+<!ENTITY calendar.context.convertmenu.accesskey.mail "n">
+<!ENTITY calendar.context.convertmenu.accesskey.calendar "v">
+<!ENTITY calendar.context.convertmenu.event.label "Tədbir…">
+<!ENTITY calendar.context.convertmenu.event.accesskey "E">
+<!ENTITY calendar.context.convertmenu.message.label "Mesaj…">
+<!ENTITY calendar.context.convertmenu.message.accesskey "M">
+<!ENTITY calendar.context.convertmenu.task.label "Tapşırıq…">
+<!ENTITY calendar.context.convertmenu.task.accesskey "T">
+<!ENTITY calendar.tasks.view.minimonth.accesskey "M">
+<!ENTITY calendar.tasks.view.calendarlist.label "Təqvim Siyahısı">
+<!ENTITY calendar.tasks.view.calendarlist.accesskey "L">
+<!ENTITY calendar.tasks.view.filtertasks.accesskey "F">
+<!ENTITY calendar.alarm.location.label "Məkan:">
+<!ENTITY calendar.alarm.snooze.5minutes.label "5 Dəqiqə">
+<!ENTITY calendar.alarm.snooze.10minutes.label "10 Dəqiqə">
+<!ENTITY calendar.alarm.snooze.15minutes.label "15 Dəqiqə">
+<!ENTITY calendar.alarm.snooze.30minutes.label "30 Dəqiqə">
+<!ENTITY calendar.alarm.snooze.45minutes.label "45 Dəqiqə">
+<!ENTITY calendar.alarm.snooze.1hour.label "1 Saat">
+<!ENTITY calendar.alarm.snooze.2hours.label "2 Saat">
+<!ENTITY calendar.alarm.snooze.1day.label "1 Gün">
+<!-- Calendar Server Dialog -->
+<!ENTITY calendar.server.dialog.title.edit "Təqvimi redaktə et">
+<!ENTITY calendar.server.dialog.name.label "Təqvim Adı:">
+<!-- Calendar Properties -->
+<!ENTITY calendarproperties.color.label "Rəng:">
+<!ENTITY calendarproperties.webdav.label "iCalendar (ICS)">
+<!ENTITY calendarproperties.caldav.label "CalDAV">
+<!ENTITY calendarproperties.format.label "Format:">
+<!ENTITY calendarproperties.location.label "Məkan:">
+<!ENTITY calendarproperties.unsubscribe.accesskey "U">
+<!-- Calendar Publish Dialog -->
+<!ENTITY calendar.publish.dialog.title "Təqvimi Yayımla">
+<!ENTITY calendar.publish.publish.button "Paylaş">
+<!ENTITY calendar.publish.close.button "Qapat">
+<!-- Select Calendar Dialog -->
+<!ENTITY calendar.select.dialog.title "Təqvim Seç">
+<!-- Error reporting -->
+<!ENTITY calendar.error.detail "Detallar…">
+<!ENTITY calendar.error.code "Xəta kodu:">
+<!ENTITY calendar.error.description "Açıqlama:">
+<!ENTITY calendar.error.title "Xəta baş verdi">
+<!-- Extract buttons in message header -->
+<!ENTITY calendar.extract.event.button "Tədbir olaraq əlavə et">
+<!ENTITY calendar.extract.task.button "Tapşırıq olaraq əlavə et">

@@ -2,12 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- Entities for AccountWizard -->
-
 <!ENTITY windowTitle.label "Assistente de contos">
-
-<!-- Entities for Identity page -->
-
 <!ENTITY identityTitle.label "Identitate">
 <!ENTITY identityDesc.label "Cata conto ha un identitate, que es le informationes que te identifica al alteres quando illes recipe tu messages.">
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
@@ -20,18 +15,12 @@
 <!ENTITY fullnameLabel.accesskey "T">
 <!ENTITY emailLabel.label "Adresse de e-mail:">
 <!ENTITY emailLabel.accesskey "e">
-
-<!-- Entities for Incoming Server page -->
-
 <!ENTITY incomingTitle.label "Informationes del servitor de entrata">
 <!ENTITY incomingUsername.label "Nomine de usator:">
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
 <!ENTITY newsServerNameDesc.label "Insere le nomine de tu servitor de novas (NNTP) (per exemplo, &quot;news.example.net&quot;).">
 <!ENTITY newsServerLabel.label "Servitor de gruppos:">
 <!ENTITY newsServerLabel.accesskey "S">
-
-<!-- Entities for Account name page -->
-
 <!ENTITY accnameTitle.label "Nomine del conto">
 <!-- LOCALIZATION NOTE (accnameDesc.label) : do not translate any "&quot;" in below line -->
 <!ENTITY accnameDesc.label "Insere le nomine que identifica iste conto (p.ex. &quot;Conto professional&quot;, &quot;Conto personal&quot; o &quot;Conto de gruppos&quot;).">

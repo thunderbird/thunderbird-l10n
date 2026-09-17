@@ -82,9 +82,6 @@ filter-count-items = { $count }개
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $total } 중 { $visible }
-
-## Filter List Dialog
-
 filter-window-title = 메시지 필터
 filter-name-column =
     .label = 필터 이름
@@ -104,8 +101,8 @@ filter-delete-button =
     .accesskey = t
 filter-reorder-top-button =
     .label = 처음으로 이동
-    .accesskey = o
     .tooltiptext = 이 필터를 가장 먼저 실행하도록 재배치
+    .accesskey = o
 filter-reorder-up-button =
     .label = 위로 이동
     .accesskey = U
@@ -114,8 +111,8 @@ filter-reorder-down-button =
     .accesskey = D
 filter-reorder-bottom-button =
     .label = 끝으로 이동
-    .accesskey = B
     .tooltiptext = 필터를 가장 나중에 실행하도록 재배치
+    .accesskey = B
 filter-header-label =
     .value = 아래 순서로 필터를 자동으로 실행합니다.
 filter-filters-for-prefix =

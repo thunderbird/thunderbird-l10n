@@ -6,6 +6,6 @@ config-sync-dailog-title =
     .title = Veldu hvað á að samstilla
 sync-dialog =
     .buttonlabelaccept = Vista breytingar
-    .buttonaccesskeyaccept = s
     .buttonlabelextra2 = Aftengja…
+    .buttonaccesskeyaccept = s
     .buttonaccesskeyextra2 = g

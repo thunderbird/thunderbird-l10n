@@ -16,9 +16,5 @@
 <!ENTITY server.label "Cuenta:">
 <!ENTITY server.accesskey "A">
 <!ENTITY subscribedHeader.label "Suscribirse">
-
-<!-- commenting out until bug 38906 is fixed
-     <!ENTITY messagesHeader.label         "Messages"> -->
-
 <!ENTITY namefield.label "Mostrar grupos que incluyan:">
 <!ENTITY namefield.accesskey "O">

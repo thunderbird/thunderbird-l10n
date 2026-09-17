@@ -90,9 +90,6 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } fan { $total }
-
-## Filter List Dialog
-
 filter-window-title = Berjochtefilters
 filter-name-column =
     .label = Filternamme
@@ -112,8 +109,8 @@ filter-delete-button =
     .accesskey = F
 filter-reorder-top-button =
     .label = Boppe-oan pleatse
-    .accesskey = B
     .tooltiptext = Ferpleats filter sadat it as earste útfierd wurdt
+    .accesskey = B
 filter-reorder-up-button =
     .label = Omheech ferpleatse
     .accesskey = h
@@ -122,8 +119,8 @@ filter-reorder-down-button =
     .accesskey = l
 filter-reorder-bottom-button =
     .label = Underoan pleatse
-    .accesskey = U
     .tooltiptext = Ferpleats filter sadat it as lêste útfierd wurdt
+    .accesskey = U
 filter-header-label =
     .value = Aktivearre filters wurkje automatysk yn ûndersteande folchoarder.
 filter-filters-for-prefix =

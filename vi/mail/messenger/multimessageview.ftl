@@ -14,8 +14,8 @@ multi-message-undelete-button =
     .label = Hoàn tác xoá
     .tooltiptext = Hoàn tác xoá
 multi-message-flagged-button =
-    .title = Đã gán sao
     .aria-label = Đã gán sao
+    .title = Đã gán sao
 # Variables:
 #   $count - total number of conversations (threads or solitary messages) selected
 num-conversations = { $count } cuộc hội thoại

@@ -210,9 +210,6 @@
 <!ENTITY calendar.tasks.view.calendarlist.accesskey "т">
 <!ENTITY calendar.tasks.view.filtertasks.label "Тапсырмаларды сүзгілеу">
 <!ENTITY calendar.tasks.view.filtertasks.accesskey "з">
-
-<!-- Calendar Alarm Dialog -->
-
 <!ENTITY calendar.alarm.location.label "Орналасуы:">
 <!ENTITY calendar.alarm.details.label "Көбірек білу…">
 <!ENTITY calendar.alarm.snoozefor.label "Келесі уақытқа кейінге қалдыру">

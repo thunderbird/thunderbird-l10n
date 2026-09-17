@@ -5,18 +5,6 @@
 
 ## Content tabs
 
-
-# Back
-
-
-# Forward
-
-
-# Reload
-
-
-# Stop
-
 open-windows-warning-confirmation-title = Bevestig
 
 ## Folder Toolbar Header Popup

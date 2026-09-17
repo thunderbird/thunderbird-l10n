@@ -32,55 +32,43 @@ content-tab-security-high-icon =
     .alt = Zwisk je wěsty
 content-tab-security-broken-icon =
     .alt = Zwisk wěsty njeje
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = Jednu stronu wróćo ({ $shortcut })
     .aria-label = Wróćo
+    .tooltiptext = Jednu stronu wróćo ({ $shortcut })
     .accesskey = W
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Wróćo
     .accesskey = W
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
-    .tooltiptext = Jednu stronu doprědka ({ $shortcut })
     .aria-label = Doprědka
+    .tooltiptext = Jednu stronu doprědka ({ $shortcut })
     .accesskey = D
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = Doprědka
     .accesskey = D
-
-# Reload
-
 content-tab-menu-reload =
-    .tooltiptext = Stronu znowa začitać
     .aria-label = Znowa začitać
+    .tooltiptext = Stronu znowa začitać
     .accesskey = Z
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
-    .tooltiptext = Stronu znowa začitać
     .label = Znowa začitać
+    .tooltiptext = Stronu znowa začitać
     .accesskey = Z
-
-# Stop
-
 content-tab-menu-stop =
-    .tooltiptext = Začitanje stronje zastajić
     .aria-label = Zastajić
+    .tooltiptext = Začitanje stronje zastajić
     .accesskey = Z
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
-    .tooltiptext = Začitanje stronje zastajić
     .label = Zastajić
+    .tooltiptext = Začitanje stronje zastajić
     .accesskey = Z
 open-windows-warning-confirmation-title = Wobkrućić
 # Variables:
@@ -381,8 +369,8 @@ other-action-copy-message-link =
 other-action-copy-news-link =
     .label = Wotkaz na nowinki kopěrować
 message-header-msg-flagged =
-    .title = Z hwěžku
     .aria-label = Z hwěžku
+    .title = Z hwěžku
 message-header-delete =
     .label = Zhašeć
     .tooltiptext = Tutu powěsć zhašeć
@@ -478,9 +466,9 @@ decrypt-and-copy-failures-multiple =
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = Lajsta dźělnych programow
-    .aria-label = Lajsta dźělnych programow
     .aria-description = Wertikalna symbolowa lajsta, kotraž mjez rozdźělnymi dźělnymi programami přepina. Wužiwajće šipkowe tasty, zo byšće po k dispoziciji stejacych tłóčatkach nawigował.
+    .aria-label = Lajsta dźělnych programow
+    .toolbarname = Lajsta dźělnych programow
 spaces-toolbar-button-mail2 =
     .title = E-mejl
 spaces-toolbar-button-address-book2 =

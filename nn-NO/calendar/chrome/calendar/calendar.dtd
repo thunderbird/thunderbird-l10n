@@ -210,9 +210,6 @@
 <!ENTITY calendar.tasks.view.calendarlist.accesskey "l">
 <!ENTITY calendar.tasks.view.filtertasks.label "Filtrer oppgåver">
 <!ENTITY calendar.tasks.view.filtertasks.accesskey "F">
-
-<!-- Calendar Alarm Dialog -->
-
 <!ENTITY calendar.alarm.location.label "Stad:">
 <!ENTITY calendar.alarm.details.label "Detaljar…">
 <!ENTITY calendar.alarm.snoozefor.label "Utsett i">

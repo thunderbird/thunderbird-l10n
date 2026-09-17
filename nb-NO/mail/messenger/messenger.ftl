@@ -30,55 +30,43 @@ content-tab-security-high-icon =
     .alt = Tilkoblingen er sikker
 content-tab-security-broken-icon =
     .alt = Tilkoblingen er ikke sikker
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = Gå tilbake en side ({ $shortcut })
     .aria-label = Tilbake
+    .tooltiptext = Gå tilbake en side ({ $shortcut })
     .accesskey = T
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Tilbake
     .accesskey = T
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
-    .tooltiptext = Gå frem en side ({ $shortcut })
     .aria-label = Frem
+    .tooltiptext = Gå frem en side ({ $shortcut })
     .accesskey = F
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = Frem
     .accesskey = F
-
-# Reload
-
 content-tab-menu-reload =
-    .tooltiptext = Oppdater siden
     .aria-label = Oppdater
+    .tooltiptext = Oppdater siden
     .accesskey = O
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
-    .tooltiptext = Oppdater siden
     .label = Oppdater
+    .tooltiptext = Oppdater siden
     .accesskey = O
-
-# Stop
-
 content-tab-menu-stop =
-    .tooltiptext = Stopp sideinnlasting
     .aria-label = Stopp
+    .tooltiptext = Stopp sideinnlasting
     .accesskey = S
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
-    .tooltiptext = Stopp sideinnlasting
     .label = Stopp
+    .tooltiptext = Stopp sideinnlasting
     .accesskey = S
 open-windows-warning-confirmation-title = Bekreft
 # Variables:
@@ -360,8 +348,8 @@ other-action-copy-message-link =
 other-action-copy-news-link =
     .label = Kopier nyhetslenke
 message-header-msg-flagged =
-    .title = Stjernemerket
     .aria-label = Stjernemerket
+    .title = Stjernemerket
 message-header-delete =
     .label = Slett
     .tooltiptext = Slett denne meldingen
@@ -455,9 +443,9 @@ decrypt-and-copy-failures-multiple =
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = Områder-verktøylinje
-    .aria-label = Områder-verktøylinje
     .aria-description = Loddrett verktøylinje for å bytte mellom forskjellige områder. Bruk piltastene for å navigere de tilgjengelige knappene.
+    .aria-label = Områder-verktøylinje
+    .toolbarname = Områder-verktøylinje
 spaces-toolbar-button-mail2 =
     .title = E-post
 spaces-toolbar-button-address-book2 =

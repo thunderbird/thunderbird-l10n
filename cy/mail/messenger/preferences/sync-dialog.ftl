@@ -6,6 +6,6 @@ config-sync-dailog-title =
     .title = Dewis beth i gydweddu
 sync-dialog =
     .buttonlabelaccept = Cadw Newidiadau
-    .buttonaccesskeyaccept = N
     .buttonlabelextra2 = Datgysylltu…
+    .buttonaccesskeyaccept = N
     .buttonaccesskeyextra2 = D

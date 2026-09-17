@@ -54,9 +54,6 @@ filter-count-items = ធាតុ { $count }
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } នៃ { $total }
-
-## Filter List Dialog
-
 filter-window-title = Նամակի ֆիլտրերը
 filter-name-column =
     .label = Ֆիլտրի անունը
@@ -73,8 +70,8 @@ filter-delete-button =
     .accesskey = t
 filter-reorder-top-button =
     .label = ផ្លាស់ទី​ទៅ​​លើ
-    .accesskey = o
     .tooltiptext = រៀបចំ​តម្រង​ឡើងវិញ ដូច្នេះ​វា​ប្រតិបត្តិ​មុន​អ្នក​ផ្សេង​ទាំងអស់
+    .accesskey = o
 filter-reorder-up-button =
     .label = Վեր
     .accesskey = U
@@ -83,8 +80,8 @@ filter-reorder-down-button =
     .accesskey = D
 filter-reorder-bottom-button =
     .label = ផ្លាស់ទី​ទៅ​ក្រោម
-    .accesskey = B
     .tooltiptext = រៀបចំ​តម្រង​ឡើងវិញ ដូច្នេះ​វា​ប្រតិបត្តិ​បន្ទាប់​​តម្រង​ផ្សេង​ទាំងអស់
+    .accesskey = B
 filter-header-label =
     .value = Միացված ֆիլտրերը կկատարվեն միանգամից։
 filter-filters-for-prefix =

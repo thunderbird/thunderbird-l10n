@@ -5,10 +5,10 @@
 compact-folders-dialog-title = Padatkan folder
 compact-dialog =
     .buttonlabelaccept = Padatkan sekarang
-    .buttonaccesskeyaccept = P
     .buttonlabelcancel = Ingatkan lagi nanti
-    .buttonaccesskeycancel = N
     .buttonlabelextra1 = Pelajari lebih lanjut...
+    .buttonaccesskeyaccept = P
+    .buttonaccesskeycancel = N
     .buttonaccesskeyextra1 = L
 # Variables:
 #  $data (String): The amount of space to be freed, formatted byte, MB, GB, etc., based on the size.

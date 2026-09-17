@@ -82,9 +82,6 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } iš { $total }
-
-## Filter List Dialog
-
 filter-window-title = Laiškų filtrai
 filter-name-column =
     .label = Filtro pavadinimas
@@ -104,8 +101,8 @@ filter-delete-button =
     .accesskey = š
 filter-reorder-top-button =
     .label = Viršun
-    .accesskey = V
     .tooltiptext = Perkelti filtrą į viršų, kad jis būtų vykdomas pirmiausia
+    .accesskey = V
 filter-reorder-up-button =
     .label = Pakelti
     .accesskey = k
@@ -114,8 +111,8 @@ filter-reorder-down-button =
     .accesskey = u
 filter-reorder-bottom-button =
     .label = Apačion
-    .accesskey = a
     .tooltiptext = Perkelti filtrą į apačią, kad jis būtų vykdomas paskiausiai
+    .accesskey = a
 filter-header-label =
     .value = Gaunamiems laiškams taikomi pažymėti filtrai žemiau pateikta eile.
 filter-filters-for-prefix =

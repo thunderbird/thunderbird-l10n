@@ -2,8 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from am-addressing.xhtml -->
-
 <!ENTITY addressing.label "Karangan &amp; Alamat">
 <!ENTITY addressingGroupTitle.label "Alamat">
 <!ENTITY addressingText.label "Apabila mencari alamat:">
@@ -16,9 +14,6 @@
 <!ENTITY directories.label "Guna pelayan LDAP lain:">
 <!ENTITY directories.accesskey "l">
 <!ENTITY directoriesNone.label "Tiada">
-
-<!-- am-addressing.xhtml -->
-
 <!ENTITY compositionGroupTitle.label "Karangan">
 <!-- LOCALIZATION NOTE (useHtml.label) : do not translate "html" in below line -->
 <!ENTITY useHtml.label "Karang mesej dalam format HTML">

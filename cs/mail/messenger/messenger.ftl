@@ -31,55 +31,43 @@ content-tab-security-high-icon =
     .alt = Spojení je zabezpečené
 content-tab-security-broken-icon =
     .alt = Spojení není zabezepečené
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = Přejde na předchozí stránku ({ $shortcut })
     .aria-label = Zpět
+    .tooltiptext = Přejde na předchozí stránku ({ $shortcut })
     .accesskey = Z
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Zpět
     .accesskey = Z
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
-    .tooltiptext = Přejde na následující stránku ({ $shortcut })
     .aria-label = Vpřed
+    .tooltiptext = Přejde na následující stránku ({ $shortcut })
     .accesskey = V
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = Vpřed
     .accesskey = V
-
-# Reload
-
 content-tab-menu-reload =
-    .tooltiptext = Znovu načte stránku
     .aria-label = Znovu načíst
+    .tooltiptext = Znovu načte stránku
     .accesskey = n
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
-    .tooltiptext = Znovu načte stránku
     .label = Znovu načíst
+    .tooltiptext = Znovu načte stránku
     .accesskey = n
-
-# Stop
-
 content-tab-menu-stop =
-    .tooltiptext = Zastaví načítání stránky
     .aria-label = Zastavit
+    .tooltiptext = Zastaví načítání stránky
     .accesskey = s
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
-    .tooltiptext = Zastaví načítání stránky
     .label = Zastavit
+    .tooltiptext = Zastaví načítání stránky
     .accesskey = Z
 open-windows-warning-confirmation-title = Potvrzení
 # Variables:
@@ -375,8 +363,8 @@ other-action-copy-message-link =
 other-action-copy-news-link =
     .label = Kopírovat odkaz na příspěvek
 message-header-msg-flagged =
-    .title = S hvězdičkou
     .aria-label = Označeno hvězdičkou
+    .title = S hvězdičkou
 message-header-delete =
     .label = Smazat
     .tooltiptext = Smaže tuto zprávu
@@ -476,9 +464,9 @@ decrypt-and-copy-failures-multiple =
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = Navigační lišta
-    .aria-label = Navigační lišta
     .aria-description = Vertikální postranní lišta pro přepínání mezi jednotlivými funkcemi. Pro výběr tlačítek na liště použijte kurzorové šipky.
+    .aria-label = Navigační lišta
+    .toolbarname = Navigační lišta
 spaces-toolbar-button-mail2 =
     .title = Pošta
 spaces-toolbar-button-address-book2 =

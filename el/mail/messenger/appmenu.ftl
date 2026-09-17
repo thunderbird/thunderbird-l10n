@@ -50,9 +50,6 @@ appmenu-new-feed =
 appmenu-new-newsgroup =
     .label = Ομάδες συζητήσεων
     .accesskey = Ο
-
-## Add Account
-
 appmenu-add-account-panel-title =
     .title = Προσθήκη λογαριασμού
 appmenu-add-account-panel =

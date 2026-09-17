@@ -5,5 +5,5 @@
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 avatar-picture-alt-text =
-    .title = Profilna slika { $address }
     .alt = Profilna slika { $address }
+    .title = Profilna slika { $address }

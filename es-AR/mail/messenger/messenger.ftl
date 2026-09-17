@@ -30,55 +30,43 @@ content-tab-security-high-icon =
     .alt = La conexión es segura
 content-tab-security-broken-icon =
     .alt = La conexión no es segura
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = Retroceder una página ({ $shortcut })
     .aria-label = Atrás
+    .tooltiptext = Retroceder una página ({ $shortcut })
     .accesskey = A
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Atrás
     .accesskey = A
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
-    .tooltiptext = Avanzar una página ({ $shortcut })
     .aria-label = Adelante
+    .tooltiptext = Avanzar una página ({ $shortcut })
     .accesskey = d
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = Adelante
     .accesskey = d
-
-# Reload
-
 content-tab-menu-reload =
-    .tooltiptext = Recargar página
     .aria-label = Recargar
+    .tooltiptext = Recargar página
     .accesskey = R
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
-    .tooltiptext = Recargar página
     .label = Recargar
+    .tooltiptext = Recargar página
     .accesskey = R
-
-# Stop
-
 content-tab-menu-stop =
-    .tooltiptext = Detener carga de página
     .aria-label = Detener
+    .tooltiptext = Detener carga de página
     .accesskey = t
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
-    .tooltiptext = Detener carga de página
     .label = Detener
+    .tooltiptext = Detener carga de página
     .accesskey = t
 open-windows-warning-confirmation-title = Confirmar
 # Variables:
@@ -361,8 +349,8 @@ other-action-copy-message-link =
 other-action-copy-news-link =
     .label = Copiar enlace de noticias
 message-header-msg-flagged =
-    .title = Con estrella
     .aria-label = Con estrella
+    .title = Con estrella
 message-header-delete =
     .label = Borrar
     .tooltiptext = Borrar este mensaje
@@ -456,9 +444,9 @@ decrypt-and-copy-failures-multiple =
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = Barra de herramientas de Espacios
-    .aria-label = Barra de herramientas de Espacios
     .aria-description = Barra vertical para cambiar entre diferentes espacios.
+    .aria-label = Barra de herramientas de Espacios
+    .toolbarname = Barra de herramientas de Espacios
 spaces-toolbar-button-mail2 =
     .title = Correo
 spaces-toolbar-button-address-book2 =

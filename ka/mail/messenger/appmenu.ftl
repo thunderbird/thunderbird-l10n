@@ -50,9 +50,6 @@ appmenu-new-feed =
 appmenu-new-newsgroup =
     .label = სასაუბრო ჯგუფი
     .accesskey = ჯ
-
-## Add Account
-
 appmenu-add-account-panel-title =
     .title = ანგარიშის დამატება
 appmenu-add-account-panel =

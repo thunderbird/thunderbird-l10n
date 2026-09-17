@@ -14,18 +14,6 @@ messenger-window-close-button =
 
 ## Content tabs
 
-
-# Back
-
-
-# Forward
-
-
-# Reload
-
-
-# Stop
-
 open-windows-warning-confirmation-title = Dearbhaigh
 # Variables:
 #   $count - number of messages to open

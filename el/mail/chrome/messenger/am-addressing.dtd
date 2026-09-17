@@ -2,8 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from am-addressing.xhtml -->
-
 <!ENTITY addressing.label "Σύνθεση και διευθυνσιοδότηση">
 <!ENTITY addressingGroupTitle.label "Διευθυνσιοδότηση">
 <!ENTITY addressingText.label "Κατά την αναζήτηση διευθύνσεων:">
@@ -16,9 +14,6 @@
 <!ENTITY directories.label "Χρήση διαφορετικού διακομιστή LDAP:">
 <!ENTITY directories.accesskey "ρ">
 <!ENTITY directoriesNone.label "Κανένα">
-
-<!-- am-addressing.xhtml -->
-
 <!ENTITY compositionGroupTitle.label "Σύνθεση">
 <!-- LOCALIZATION NOTE (useHtml.label) : do not translate "html" in below line -->
 <!ENTITY useHtml.label "Σύνθεση μηνυμάτων σε μορφή HTML">

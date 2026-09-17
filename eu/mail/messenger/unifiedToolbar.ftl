@@ -26,9 +26,6 @@ search-bar-placeholder-with-key2 =
 
 customize-menu-customize =
     .label = Pertsonalizatu…
-
-# Unified toolbar get messages button context menu
-
 toolbar-get-all-messages-menuitem =
     .label = Hartu mezu berri guztiak
     .accesskey = H

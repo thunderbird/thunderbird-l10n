@@ -210,9 +210,6 @@
 <!ENTITY calendar.tasks.view.calendarlist.accesskey "L">
 <!ENTITY calendar.tasks.view.filtertasks.label "Lọc tác vụ">
 <!ENTITY calendar.tasks.view.filtertasks.accesskey "L">
-
-<!-- Calendar Alarm Dialog -->
-
 <!ENTITY calendar.alarm.location.label "Địa chỉ:">
 <!ENTITY calendar.alarm.details.label "Chi tiết…">
 <!ENTITY calendar.alarm.snoozefor.label "Tạm im lặng trong">

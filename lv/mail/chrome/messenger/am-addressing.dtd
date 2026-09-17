@@ -2,8 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from am-addressing.xhtml -->
-
 <!ENTITY addressing.label "Salikums &amp; adresēšana">
 <!ENTITY addressingGroupTitle.label "Adresēšana">
 <!ENTITY addressingText.label "Meklējot adreses:">
@@ -16,9 +14,6 @@
 <!ENTITY directories.label "Izmantot citu LDAP serveri:">
 <!ENTITY directories.accesskey "I">
 <!ENTITY directoriesNone.label "Nekas">
-
-<!-- am-addressing.xhtml -->
-
 <!ENTITY compositionGroupTitle.label "Kompozīcija">
 <!-- LOCALIZATION NOTE (useHtml.label) : do not translate "html" in below line -->
 <!ENTITY useHtml.label "Salikt vēstules HTML formātā">

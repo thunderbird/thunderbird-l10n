@@ -210,9 +210,6 @@
 <!ENTITY calendar.tasks.view.calendarlist.accesskey "L">
 <!ENTITY calendar.tasks.view.filtertasks.label "Nadawki filtrowaś">
 <!ENTITY calendar.tasks.view.filtertasks.accesskey "f">
-
-<!-- Calendar Alarm Dialog -->
-
 <!ENTITY calendar.alarm.location.label "Městno:">
 <!ENTITY calendar.alarm.details.label "Drobnostki…">
 <!ENTITY calendar.alarm.snoozefor.label "Hyšći raz dopomnjeś za">

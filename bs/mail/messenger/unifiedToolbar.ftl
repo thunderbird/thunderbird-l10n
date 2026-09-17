@@ -10,9 +10,6 @@
 
 customize-menu-customize =
     .label = Prilagodi…
-
-# Unified toolbar get messages button context menu
-
 toolbar-get-all-messages-menuitem =
     .label = Dohvati sve nove poruke
     .accesskey = G

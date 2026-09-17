@@ -123,9 +123,6 @@
 <!ENTITY calendar.tasks.view.minimonth.label "Міні-каляндар">
 <!ENTITY calendar.tasks.view.calendarlist.label "Спіс календароў">
 <!ENTITY calendar.tasks.view.filtertasks.label "Адфільтраваць задачы">
-
-<!-- Calendar Alarm Dialog -->
-
 <!ENTITY calendar.alarm.location.label "Месца:">
 <!ENTITY calendar.alarm.details.label "Падрабязнасці…">
 <!ENTITY calendar.alarm.snoozefor.label "Адкласці на">

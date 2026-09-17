@@ -50,9 +50,6 @@ appmenu-new-feed =
 appmenu-new-newsgroup =
     .label = Grŵp Newyddion
     .accesskey = N
-
-## Add Account
-
 appmenu-add-account-panel-title =
     .title = Ychwanegu Cyfrif
 appmenu-add-account-panel =

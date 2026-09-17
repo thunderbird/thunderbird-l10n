@@ -5,5 +5,5 @@
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 avatar-picture-alt-text =
-    .title = រូបភាពប្រវត្តិរូបរបស់ { $address }
     .alt = រូបភាពប្រវត្តិរូបរបស់ { $address }
+    .title = រូបភាពប្រវត្តិរូបរបស់ { $address }

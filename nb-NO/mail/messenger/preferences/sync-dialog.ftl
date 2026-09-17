@@ -6,6 +6,6 @@ config-sync-dailog-title =
     .title = Velg hva som skal synkroniseres
 sync-dialog =
     .buttonlabelaccept = Lagre endringer
-    .buttonaccesskeyaccept = L
     .buttonlabelextra2 = Koble fra…
+    .buttonaccesskeyaccept = L
     .buttonaccesskeyextra2 = K

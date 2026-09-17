@@ -82,9 +82,6 @@ recurrence-monthly-days-of-nth-day =
         [one] ден { $days }
        *[other] дни { $days }
     }
-
-# Edit recurrence window -> Recurrence pattern -> Monthly repeat rules
-
 # Variables:
 #   $monthlyDays - day of month or a sequence of days of month, possibly followed
 #   by an ordinal symbol, separated with commas;

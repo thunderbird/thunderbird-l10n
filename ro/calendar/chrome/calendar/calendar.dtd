@@ -210,9 +210,6 @@
 <!ENTITY calendar.tasks.view.calendarlist.accesskey "L">
 <!ENTITY calendar.tasks.view.filtertasks.label "Filtrează sarcinile">
 <!ENTITY calendar.tasks.view.filtertasks.accesskey "s">
-
-<!-- Calendar Alarm Dialog -->
-
 <!ENTITY calendar.alarm.location.label "Locație:">
 <!ENTITY calendar.alarm.details.label "Detalii…">
 <!ENTITY calendar.alarm.snoozefor.label "Amână cu">

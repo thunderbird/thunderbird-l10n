@@ -31,14 +31,8 @@ xpinstall-prompt-never-allow-and-report =
 xpinstall-prompt-install =
     .label = 继续安装
     .accesskey = C
-
-# These messages are shown when a website invokes navigator.requestMIDIAccess.
-
 site-permission-install-first-prompt-midi-header = 此网站请求访问您的 MIDI（乐器数字接口）设备，安装附加组件后可实现访问。
 site-permission-install-first-prompt-midi-message = 此访问不一定安全，请仅在您信任此网站时才继续。
-
-##
-
 xpinstall-disabled-locked = 软件安装已被您的系统管理员禁用。
 xpinstall-disabled = 软件安装已被禁用。单击“启用”并重试。
 xpinstall-disabled-button =

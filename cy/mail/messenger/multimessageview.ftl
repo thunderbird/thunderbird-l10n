@@ -14,8 +14,8 @@ multi-message-undelete-button =
     .label = Dad-ddileu
     .tooltiptext = Dad-ddileu
 multi-message-flagged-button =
-    .title = Serennog
     .aria-label = Serennog
+    .title = Serennog
 # Variables:
 #   $count - total number of conversations (threads or solitary messages) selected
 num-conversations =

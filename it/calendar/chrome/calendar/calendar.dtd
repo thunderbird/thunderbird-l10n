@@ -210,9 +210,6 @@
 <!ENTITY calendar.tasks.view.calendarlist.accesskey "L">
 <!ENTITY calendar.tasks.view.filtertasks.label "Filtra attività">
 <!ENTITY calendar.tasks.view.filtertasks.accesskey "F">
-
-<!-- Calendar Alarm Dialog -->
-
 <!ENTITY calendar.alarm.location.label "Indirizzo:">
 <!ENTITY calendar.alarm.details.label "Dettagli…">
 <!ENTITY calendar.alarm.snoozefor.label "Posponi per">

@@ -3,8 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 otr-auth =
-    .title = Staðfestu auðkenni tengiliðar
     .buttonlabelaccept = Staðfesta
+    .title = Staðfestu auðkenni tengiliðar
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 auth-title = Staðfesta auðkenni fyrir { $subject }

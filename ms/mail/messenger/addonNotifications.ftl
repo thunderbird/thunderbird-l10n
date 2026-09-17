@@ -9,12 +9,6 @@ xpinstall-prompt = { -brand-short-name } menghalang laman ini daripada meminta a
 xpinstall-prompt-dont-allow =
     .label = Jangan Izinkan
     .accesskey = J
-
-# These messages are shown when a website invokes navigator.requestMIDIAccess.
-
-
-##
-
 xpinstall-disabled-locked = Pemasangan perisian telah dinyahdayakan oleh pentadbir sistem anda.
 xpinstall-disabled = Pemasangan perisian sedang dinyahdayakan. Klik Dayakan dan cuba lagi.
 xpinstall-disabled-button =

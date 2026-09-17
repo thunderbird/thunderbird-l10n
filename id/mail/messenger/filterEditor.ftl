@@ -82,9 +82,6 @@ filter-count-items = { $count } item
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } dari { $total }
-
-## Filter List Dialog
-
 filter-window-title = Filter Pesan
 filter-name-column =
     .label = Nama Filter
@@ -104,8 +101,8 @@ filter-delete-button =
     .accesskey = H
 filter-reorder-top-button =
     .label = Pindahkan ke Atas
-    .accesskey = o
     .tooltiptext = Atur ulang filter agar dijalankan sebelum yang lainnya
+    .accesskey = o
 filter-reorder-up-button =
     .label = Naikkan
     .accesskey = N
@@ -114,8 +111,8 @@ filter-reorder-down-button =
     .accesskey = T
 filter-reorder-bottom-button =
     .label = Pindahkan ke Bawah
-    .accesskey = B
     .tooltiptext = Susun ulang filter sehingga dijalankan setelah semua yang lain
+    .accesskey = B
 filter-header-label =
     .value = Filter yang aktif akan dijalankan secara otomatis sesuai urutan di bawah ini.
 filter-filters-for-prefix =

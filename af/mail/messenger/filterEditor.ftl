@@ -42,9 +42,6 @@ filter-editor-pick-template-reply = Kies 'n sjabloon om mee te antwoord.
 filter-continue-execution = Toepas van filter { $filterName } het misluk. Wil u voortgaan om die filters toe te pas?
 filter-list-backup-message = U filters werk nie omdat die msgFilterRules.dat-lêer wat u filters bevat, nie gelees kon word nie. 'n Nuwe msgFilterRules.dat-lêer sal geskep word en 'n dekkopie van die ou lêer gemaak word genaamd rulesbackup.dat, wat in dieselfde subgids geskep sal word.
 filter-invalid-custom-header = Een van u filters gebruik 'n pasgemaakte kopskrif wat 'n ongeldige karakter bevat, soos ‘:’, 'n niedrukkarakter, 'n nie-ASCII-karakter of 'n 8-bis-ASCII-karakter. Redigeer die msgFilterRules.dat-lêer, wat u filters bevat, om ongeldige karakters uit u pasgemaakte kopskrifte te skrap.
-
-## Filter List Dialog
-
 filter-window-title = Boodskapfilters
 filter-name-column =
     .label = Filternaam

@@ -16,9 +16,5 @@
 <!ENTITY server.label "Cunntas:">
 <!ENTITY server.accesskey "a">
 <!ENTITY subscribedHeader.label "Fo-sgrìobh">
-
-<!-- commenting out until bug 38906 is fixed
-     <!ENTITY messagesHeader.label         "Messages"> -->
-
 <!ENTITY namefield.label "Seall rudan anns a bheil:">
 <!ENTITY namefield.accesskey "S">

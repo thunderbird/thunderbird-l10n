@@ -26,9 +26,6 @@ search-bar-placeholder-with-key2 =
 
 customize-menu-customize =
     .label = ปรับแต่ง…
-
-# Unified toolbar get messages button context menu
-
 toolbar-get-all-messages-menuitem =
     .label = รับข้อความใหม่ทั้งหมด
     .accesskey = ร

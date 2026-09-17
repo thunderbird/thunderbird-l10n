@@ -1,0 +1,18 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- extracted from AccountManager.xhtml -->
+<!ENTITY accountManagerTitle.label "Hesab Tənzimləmələri">
+<!ENTITY accountActionsButton.label "Hesab Əməliyyatları">
+<!ENTITY accountActionsButton.accesskey "H">
+<!ENTITY addMailAccountButton.label "Poçt Hesabı Əlavə et…">
+<!ENTITY addMailAccountButton.accesskey "a">
+<!ENTITY addIMAccountButton.label "Söhbət Hesabı Əlavə et…">
+<!ENTITY addIMAccountButton.accesskey "e">
+<!ENTITY addFeedAccountButton.label "Axın Hesabı Əlavə et…">
+<!ENTITY addFeedAccountButton.accesskey "n">
+<!ENTITY setDefaultButton.label "Əsas olaraq seç">
+<!ENTITY setDefaultButton.accesskey "a">
+<!ENTITY removeButton.label "Hesabı Sil">
+<!ENTITY removeButton.accesskey "S">

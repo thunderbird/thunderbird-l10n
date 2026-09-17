@@ -5,10 +5,10 @@
 compact-folders-dialog-title = Cumprimer ils ordinaturs
 compact-dialog =
     .buttonlabelaccept = Cumprimer ussa
-    .buttonaccesskeyaccept = C
     .buttonlabelcancel = Ma regurdar pli tard
-    .buttonaccesskeycancel = r
     .buttonlabelextra1 = Ulteriuras infurmaziuns
+    .buttonaccesskeyaccept = C
+    .buttonaccesskeycancel = r
     .buttonaccesskeyextra1 = l
 # Variables:
 #  $data (String): The amount of space to be freed, formatted byte, MB, GB, etc., based on the size.

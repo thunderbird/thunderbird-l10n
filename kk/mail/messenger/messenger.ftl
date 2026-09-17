@@ -29,55 +29,43 @@ content-tab-security-high-icon =
     .alt = Байланыс қауіпсіз
 content-tab-security-broken-icon =
     .alt = Байланыс қауіпсіз емес
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = Бір бетке артқа жылжу ({ $shortcut })
     .aria-label = Артқа
+    .tooltiptext = Бір бетке артқа жылжу ({ $shortcut })
     .accesskey = р
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Артқа
     .accesskey = р
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
-    .tooltiptext = Бір бетке алға жылжу ({ $shortcut })
     .aria-label = Алға
+    .tooltiptext = Бір бетке алға жылжу ({ $shortcut })
     .accesskey = л
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = Алға
     .accesskey = л
-
-# Reload
-
 content-tab-menu-reload =
-    .tooltiptext = Парақты қайта жүктеу
     .aria-label = Қайта жүктеу
+    .tooltiptext = Парақты қайта жүктеу
     .accesskey = й
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
-    .tooltiptext = Парақты қайта жүктеу
     .label = Қайта жүктеу
+    .tooltiptext = Парақты қайта жүктеу
     .accesskey = й
-
-# Stop
-
 content-tab-menu-stop =
-    .tooltiptext = Парақ жүктелуін тоқтату
     .aria-label = Тоқтату
+    .tooltiptext = Парақ жүктелуін тоқтату
     .accesskey = Т
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
-    .tooltiptext = Парақ жүктелуін тоқтату
     .label = Тоқтату
+    .tooltiptext = Парақ жүктелуін тоқтату
     .accesskey = Т
 open-windows-warning-confirmation-title = Растау
 # Variables:
@@ -360,8 +348,8 @@ other-action-copy-message-link =
 other-action-copy-news-link =
     .label = Жаңалықтар сілтемесін көшіру
 message-header-msg-flagged =
-    .title = Жұлдызша қойылған
     .aria-label = Жұлдызша қойылған
+    .title = Жұлдызша қойылған
 message-header-delete =
     .label = Өшіру
     .tooltiptext = Бұл хабарламаны өшіру
@@ -455,9 +443,9 @@ decrypt-and-copy-failures-multiple =
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = Орындар панелі
-    .aria-label = Орындар панелі
     .aria-description = Әр түрлі орындар арасында ауысу үшін арналған вертикалды құралдар панелі. Қолжетімді батырмалар арасында ауысу үшін бағдарша пернелерін қолданыңыз.
+    .aria-label = Орындар панелі
+    .toolbarname = Орындар панелі
 spaces-toolbar-button-mail2 =
     .title = Эл. пошта
 spaces-toolbar-button-address-book2 =

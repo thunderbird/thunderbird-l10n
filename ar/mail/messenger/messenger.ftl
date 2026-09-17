@@ -5,18 +5,6 @@
 
 ## Content tabs
 
-
-# Back
-
-
-# Forward
-
-
-# Reload
-
-
-# Stop
-
 open-windows-warning-confirmation-title = أكِّد
 # Variables:
 #   $count - number of messages to open

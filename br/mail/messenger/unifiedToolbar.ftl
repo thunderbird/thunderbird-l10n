@@ -22,9 +22,6 @@ search-bar-placeholder-with-key2 =
 
 customize-menu-customize =
     .label = Personelaat…
-
-# Unified toolbar get messages button context menu
-
 toolbar-get-all-messages-menuitem =
     .label = Kerc'hat an holl bosteloù nevez
     .accesskey = e

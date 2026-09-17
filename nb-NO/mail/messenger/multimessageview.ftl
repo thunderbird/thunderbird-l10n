@@ -14,8 +14,8 @@ multi-message-undelete-button =
     .label = Angre sletting
     .tooltiptext = Angre sletting
 multi-message-flagged-button =
-    .title = Stjernemerket
     .aria-label = Stjernemerket
+    .title = Stjernemerket
 # Variables:
 #   $count - total number of conversations (threads or solitary messages) selected
 num-conversations =

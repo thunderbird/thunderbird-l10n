@@ -210,9 +210,6 @@
 <!ENTITY calendar.tasks.view.calendarlist.accesskey "п">
 <!ENTITY calendar.tasks.view.filtertasks.label "Отфильтровать задачи">
 <!ENTITY calendar.tasks.view.filtertasks.accesskey "ф">
-
-<!-- Calendar Alarm Dialog -->
-
 <!ENTITY calendar.alarm.location.label "Место:">
 <!ENTITY calendar.alarm.details.label "Подробнее…">
 <!ENTITY calendar.alarm.snoozefor.label "Отложить на">

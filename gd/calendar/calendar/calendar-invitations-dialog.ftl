@@ -13,8 +13,8 @@ recurrent-event =
     .value = Tachartas ath-chùrsach
 # $locationProperty is the location of the event
 calendar-invitation-location =
-    .value = Ionad: { $locationProperty }
     .tooltiptext = { $locationProperty }
+    .value = Ionad: { $locationProperty }
 # $locationProperty is the location of the event
 calendar-invitations-location =
     .value = Ionad: { $locationProperty }

@@ -2,8 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from am-copies.xhtml -->
-
 <!ENTITY copyAndFolderTitle.label "Afrit og möppur">
 <!ENTITY sendingPrefix.label "Þegar póstur er sendur, gerist eftirfarandi sjálfkrafa: ">
 <!ENTITY fccMailFolder.label "Setja afrit í:">

@@ -30,55 +30,43 @@ content-tab-security-high-icon =
     .alt = A kapcsolat biztonságos
 content-tab-security-broken-icon =
     .alt = A kapcsolat nem biztonságos
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = Ugrás az előző oldalra ({ $shortcut })
     .aria-label = Vissza
+    .tooltiptext = Ugrás az előző oldalra ({ $shortcut })
     .accesskey = V
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Vissza
     .accesskey = V
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
-    .tooltiptext = Ugrás a következő oldalra ({ $shortcut })
     .aria-label = Előre
+    .tooltiptext = Ugrás a következő oldalra ({ $shortcut })
     .accesskey = E
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = Előre
     .accesskey = E
-
-# Reload
-
 content-tab-menu-reload =
-    .tooltiptext = Oldal újratöltése
     .aria-label = Újratöltés
+    .tooltiptext = Oldal újratöltése
     .accesskey = r
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
-    .tooltiptext = Oldal újratöltése
     .label = Újratöltés
+    .tooltiptext = Oldal újratöltése
     .accesskey = r
-
-# Stop
-
 content-tab-menu-stop =
-    .tooltiptext = Oldalbetöltés leállítása
     .aria-label = Leállítás
+    .tooltiptext = Oldalbetöltés leállítása
     .accesskey = L
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
-    .tooltiptext = Oldalbetöltés leállítása
     .label = Leállítás
+    .tooltiptext = Oldalbetöltés leállítása
     .accesskey = L
 open-windows-warning-confirmation-title = Megerősítés
 # Variables:
@@ -361,8 +349,8 @@ other-action-copy-message-link =
 other-action-copy-news-link =
     .label = Hírhivatkozás másolása
 message-header-msg-flagged =
-    .title = Csillagozott
     .aria-label = Csillagozott
+    .title = Csillagozott
 message-header-delete =
     .label = Törlés
     .tooltiptext = Üzenet törlése
@@ -456,9 +444,9 @@ decrypt-and-copy-failures-multiple =
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = Helyek eszköztár
-    .aria-label = Helyek eszköztár
     .aria-description = Függőleges eszköztár a különböző helyek közti váltáshoz. Használja a nyílbillentyűket az elérheti gombokon történő navigációhoz.
+    .aria-label = Helyek eszköztár
+    .toolbarname = Helyek eszköztár
 spaces-toolbar-button-mail2 =
     .title = Levelezés
 spaces-toolbar-button-address-book2 =

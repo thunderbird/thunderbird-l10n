@@ -210,9 +210,6 @@
 <!ENTITY calendar.tasks.view.calendarlist.accesskey "l">
 <!ENTITY calendar.tasks.view.filtertasks.label "Suodata tehtäviä">
 <!ENTITY calendar.tasks.view.filtertasks.accesskey "S">
-
-<!-- Calendar Alarm Dialog -->
-
 <!ENTITY calendar.alarm.location.label "Osoite:">
 <!ENTITY calendar.alarm.details.label "Lisätiedot…">
 <!ENTITY calendar.alarm.snoozefor.label "Lykkää">

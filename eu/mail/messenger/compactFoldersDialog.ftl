@@ -5,10 +5,10 @@
 compact-folders-dialog-title = Trinkotu karpetak
 compact-dialog =
     .buttonlabelaccept = Trinkotu orain
-    .buttonaccesskeyaccept = T
     .buttonlabelcancel = Gogorarazi beranduago
-    .buttonaccesskeycancel = b
     .buttonlabelextra1 = Argibide gehiago…
+    .buttonaccesskeyaccept = T
+    .buttonaccesskeycancel = b
     .buttonaccesskeyextra1 = A
 # Variables:
 #  $data (String): The amount of space to be freed, formatted byte, MB, GB, etc., based on the size.

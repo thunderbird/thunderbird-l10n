@@ -10,9 +10,6 @@
 
 customize-menu-customize =
     .label = Tichinäx…
-
-# Unified toolbar get messages button context menu
-
 toolbar-get-all-messages-menuitem =
     .label = Kek'ul Ronojel K'ak'a' taq Tzijol
     .accesskey = K

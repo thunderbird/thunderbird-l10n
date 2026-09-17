@@ -5,10 +5,10 @@
 compact-folders-dialog-title = Làm gọn thư mục
 compact-dialog =
     .buttonlabelaccept = Làm gọn ngay
-    .buttonaccesskeyaccept = C
     .buttonlabelcancel = Nhắc tôi sau
-    .buttonaccesskeycancel = R
     .buttonlabelextra1 = Tìm hiểu thêm…
+    .buttonaccesskeyaccept = C
+    .buttonaccesskeycancel = R
     .buttonaccesskeyextra1 = L
 # Variables:
 #  $data (String): The amount of space to be freed, formatted byte, MB, GB, etc., based on the size.

@@ -3,8 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 otr-auth =
-    .title = Asenqed n tmagit n unermas
     .buttonlabelaccept = Senqed
+    .title = Asenqed n tmagit n unermas
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 auth-title = Senqed timagit n { $name }

@@ -2,8 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from am-addressing.xhtml -->
-
 <!ENTITY addressing.label "Composition &amp; Adresses">
 <!ENTITY addressingGroupTitle.label "Adresses">
 <!ENTITY addressingText.label "Durante le recerca del adresses:">
@@ -16,9 +14,6 @@
 <!ENTITY directories.label "Usar un servitor LDAP differente:">
 <!ENTITY directories.accesskey "d">
 <!ENTITY directoriesNone.label "Nulle">
-
-<!-- am-addressing.xhtml -->
-
 <!ENTITY compositionGroupTitle.label "Composition">
 <!-- LOCALIZATION NOTE (useHtml.label) : do not translate "html" in below line -->
 <!ENTITY useHtml.label "Rediger le messages in HTML">

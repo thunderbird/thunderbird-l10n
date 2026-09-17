@@ -32,55 +32,43 @@ content-tab-security-high-icon =
     .alt = Povezava je varna
 content-tab-security-broken-icon =
     .alt = Povezava ni zavarovana
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = Pojdi na prejšnjo stran ({ $shortcut })
     .aria-label = Nazaj
+    .tooltiptext = Pojdi na prejšnjo stran ({ $shortcut })
     .accesskey = z
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Nazaj
     .accesskey = z
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
-    .tooltiptext = Pojdi na naslednjo stran ({ $shortcut })
     .aria-label = Naprej
+    .tooltiptext = Pojdi na naslednjo stran ({ $shortcut })
     .accesskey = p
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = Naprej
     .accesskey = p
-
-# Reload
-
 content-tab-menu-reload =
-    .tooltiptext = Ponovno naloži stran
     .aria-label = Znova naloži
+    .tooltiptext = Ponovno naloži stran
     .accesskey = n
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
-    .tooltiptext = Ponovno naloži stran
     .label = Znova naloži
+    .tooltiptext = Ponovno naloži stran
     .accesskey = n
-
-# Stop
-
 content-tab-menu-stop =
-    .tooltiptext = Ustavi nalaganje strani
     .aria-label = Ustavi
+    .tooltiptext = Ustavi nalaganje strani
     .accesskey = U
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
-    .tooltiptext = Ustavi nalaganje strani
     .label = Ustavi
+    .tooltiptext = Ustavi nalaganje strani
     .accesskey = U
 open-windows-warning-confirmation-title = Potrdi
 # Variables:
@@ -380,8 +368,8 @@ other-action-copy-message-link =
 other-action-copy-news-link =
     .label = Kopiraj povezavo novice
 message-header-msg-flagged =
-    .title = Označeno z zvezdico
     .aria-label = Označeno z zvezdico
+    .title = Označeno z zvezdico
 message-header-delete =
     .label = Izbriši
     .tooltiptext = Izbriši to sporočilo
@@ -477,9 +465,9 @@ decrypt-and-copy-failures-multiple =
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = Vrstica komponent
-    .aria-label = Vrstica komponent
     .aria-description = Navpična orodna vrstica za preklop med komponentami programa. Za premikanje med razpoložljivimi gumbi lahko uporabite tipke s puščicami.
+    .aria-label = Vrstica komponent
+    .toolbarname = Vrstica komponent
 spaces-toolbar-button-mail2 =
     .title = Pošta
 spaces-toolbar-button-address-book2 =

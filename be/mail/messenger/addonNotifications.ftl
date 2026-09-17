@@ -26,12 +26,6 @@ xpinstall-prompt-never-allow =
 xpinstall-prompt-install =
     .label = Працягнуць усталяванне
     .accesskey = П
-
-# These messages are shown when a website invokes navigator.requestMIDIAccess.
-
-
-##
-
 xpinstall-disabled-locked = Усталяванне праграмнага забеспячэння забаронена вашым сістэмным адміністратарам.
 xpinstall-disabled = Усталяванне праграмнага забеспячэння зараз забаронена. Пстрыкніце Дазволіць і паспрабуйце зноў.
 xpinstall-disabled-button =

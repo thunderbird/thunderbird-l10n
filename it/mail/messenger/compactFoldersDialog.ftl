@@ -5,10 +5,10 @@
 compact-folders-dialog-title = Compatta cartelle
 compact-dialog =
     .buttonlabelaccept = Compatta ora
-    .buttonaccesskeyaccept = C
     .buttonlabelcancel = Ricordamelo più tardi
-    .buttonaccesskeycancel = R
     .buttonlabelextra1 = Ulteriori informazioni…
+    .buttonaccesskeyaccept = C
+    .buttonaccesskeycancel = R
     .buttonaccesskeyextra1 = o
 # Variables:
 #  $data (String): The amount of space to be freed, formatted byte, MB, GB, etc., based on the size.

@@ -210,9 +210,6 @@
 <!ENTITY calendar.tasks.view.calendarlist.accesskey "S">
 <!ENTITY calendar.tasks.view.filtertasks.label "Tapis Tugasan">
 <!ENTITY calendar.tasks.view.filtertasks.accesskey "T">
-
-<!-- Calendar Alarm Dialog -->
-
 <!ENTITY calendar.alarm.location.label "Lokasi:">
 <!ENTITY calendar.alarm.details.label "Butiran…">
 <!ENTITY calendar.alarm.snoozefor.label "Lena untuk">

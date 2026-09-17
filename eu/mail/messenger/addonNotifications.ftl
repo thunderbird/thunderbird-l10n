@@ -31,14 +31,8 @@ xpinstall-prompt-never-allow-and-report =
 xpinstall-prompt-install =
     .label = Jarraitu instalazioa
     .accesskey = J
-
-# These messages are shown when a website invokes navigator.requestMIDIAccess.
-
 site-permission-install-first-prompt-midi-header = Gune hau zure MIDI (Musical Instrument Digital Interface) gailuetarako sarbidea eskatzen ari da. Gehigarri bat instalatuz gai daiteke gailuetarako sarbidea.
 site-permission-install-first-prompt-midi-message = Sarbide hau ez dago bermatua segurua denik. Jarraitu bakarrik gunean konfiantza baduzu.
-
-##
-
 xpinstall-disabled-locked = Software instalazioa ezgaitu du sistemaren administratzaileak.
 xpinstall-disabled = Softwareren instalazioa ezgaituta dago. Egin klik 'Gaitu' botoian eta saiatu berriro.
 xpinstall-disabled-button =

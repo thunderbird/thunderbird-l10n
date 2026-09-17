@@ -2,8 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from am-copies.xhtml -->
-
 <!ENTITY copyAndFolderTitle.label "Copii și dosare">
 <!ENTITY sendingPrefix.label "La trimiterea unui mesaj, automat: ">
 <!ENTITY fccMailFolder.label "Plasează automat o copie în:">

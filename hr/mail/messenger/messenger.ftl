@@ -31,55 +31,43 @@ content-tab-security-high-icon =
     .alt = Veza je sigurna
 content-tab-security-broken-icon =
     .alt = Veza nije sigurna
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = Idi jednu stranicu natrag ({ $shortcut })
     .aria-label = Natrag
+    .tooltiptext = Idi jednu stranicu natrag ({ $shortcut })
     .accesskey = N
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Natrag
     .accesskey = N
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
-    .tooltiptext = Idi jednu stranicu naprijed ({ $shortcut })
     .aria-label = Naprijed
+    .tooltiptext = Idi jednu stranicu naprijed ({ $shortcut })
     .accesskey = p
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = Naprijed
     .accesskey = p
-
-# Reload
-
 content-tab-menu-reload =
-    .tooltiptext = Ponovno učitaj stranicu
     .aria-label = Ponovno učitaj
+    .tooltiptext = Ponovno učitaj stranicu
     .accesskey = o
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
-    .tooltiptext = Ponovno učitaj stranicu
     .label = Ponovno učitaj
+    .tooltiptext = Ponovno učitaj stranicu
     .accesskey = o
-
-# Stop
-
 content-tab-menu-stop =
-    .tooltiptext = Zaustavi učitavanje stranice
     .aria-label = Zaustavi
+    .tooltiptext = Zaustavi učitavanje stranice
     .accesskey = s
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
-    .tooltiptext = Zaustavi učitavanje stranice
     .label = Zaustavi
+    .tooltiptext = Zaustavi učitavanje stranice
     .accesskey = s
 open-windows-warning-confirmation-title = Potvrda
 # Variables:
@@ -371,8 +359,8 @@ other-action-copy-message-link =
 other-action-copy-news-link =
     .label = Kopiraj poveznicu za vijesti
 message-header-msg-flagged =
-    .title = Zvjezdica
     .aria-label = Zvjezdica
+    .title = Zvjezdica
 message-header-delete =
     .label = Obriši
     .tooltiptext = Obriši ovu poruku
@@ -467,9 +455,9 @@ decrypt-and-copy-failures-multiple =
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = Alatna traka zbijenosti
-    .aria-label = Alatna traka zbijenosti
     .aria-description = Okomita alatna traka za prebacivanje između različitih zbijenosti. Koristite strelice kako biste navigirali kroz dostupne tipke.
+    .aria-label = Alatna traka zbijenosti
+    .toolbarname = Alatna traka zbijenosti
 spaces-toolbar-button-mail2 =
     .title = Pošta
 spaces-toolbar-button-address-book2 =

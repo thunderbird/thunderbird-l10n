@@ -2,12 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- Entities for AccountWizard -->
-
 <!ENTITY windowTitle.label "Волшебник за сметки">
-
-<!-- Entities for Identity page -->
-
 <!ENTITY identityTitle.label "Идентитет">
 <!ENTITY identityDesc.label "Секоја сметка може да има сопствен идентитет. Во идентитетот се чуваат информациите кои ве идентификуваат кај примачите на пораката.">
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
@@ -20,16 +15,10 @@
 <!ENTITY fullnameLabel.accesskey "а">
 <!ENTITY emailLabel.label "Адреса за е-пошта:">
 <!ENTITY emailLabel.accesskey "е">
-
-<!-- Entities for Incoming Server page -->
-
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
 <!ENTITY newsServerNameDesc.label "Внесете го името на Вашиот NNTP сервер (на пример:&quot;news.example.net&quot;).">
 <!ENTITY newsServerLabel.label "Дискусиони групи:">
 <!ENTITY newsServerLabel.accesskey "и">
-
-<!-- Entities for Account name page -->
-
 <!ENTITY accnameTitle.label "Име на сметката">
 <!-- LOCALIZATION NOTE (accnameDesc.label) : do not translate any "&quot;" in below line -->
 <!ENTITY accnameDesc.label "Внесете го името кое ќе се однесува на оваа сметка (на пример: „Работна сметка“, „Домашна сметка“ или „Сметка за дискусии“).">

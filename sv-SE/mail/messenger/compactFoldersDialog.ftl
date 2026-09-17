@@ -5,10 +5,10 @@
 compact-folders-dialog-title = Komprimera mappar
 compact-dialog =
     .buttonlabelaccept = Komprimera nu
-    .buttonaccesskeyaccept = n
     .buttonlabelcancel = Påminn mig senare
-    .buttonaccesskeycancel = P
     .buttonlabelextra1 = Läs mer
+    .buttonaccesskeyaccept = n
+    .buttonaccesskeycancel = P
     .buttonaccesskeyextra1 = L
 # Variables:
 #  $data (String): The amount of space to be freed, formatted byte, MB, GB, etc., based on the size.

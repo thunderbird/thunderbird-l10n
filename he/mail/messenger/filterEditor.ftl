@@ -60,9 +60,6 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } מתוך { $total }
-
-## Filter List Dialog
-
 filter-window-title = מסננים להודעות
 filter-name-column =
     .label = שם מסנן
@@ -82,8 +79,8 @@ filter-delete-button =
     .accesskey = מ
 filter-reorder-top-button =
     .label = העברה כעליון
-    .accesskey = ל
     .tooltiptext = סידור המסנן מחדש כדי שיופעל לפני כל האחרים
+    .accesskey = ל
 filter-reorder-up-button =
     .label = העברה למעלה
     .accesskey = ע
@@ -92,8 +89,8 @@ filter-reorder-down-button =
     .accesskey = ט
 filter-reorder-bottom-button =
     .label = העברה כתחתון
-    .accesskey = ת
     .tooltiptext = סידור המסנן מחדש כדי שיופעל אחרי כל האחרים
+    .accesskey = ת
 filter-header-label =
     .value = מסננים מאופשרים יופעלו אוטומטית בסדר הנראה להלן.
 filter-filters-for-prefix =

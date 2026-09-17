@@ -13,8 +13,8 @@ recurrent-event =
     .value = Поновљајући догађај
 # $locationProperty is the location of the event
 calendar-invitation-location =
-    .value = Место: { $locationProperty }
     .tooltiptext = { $locationProperty }
+    .value = Место: { $locationProperty }
 # $locationProperty is the location of the event
 calendar-invitations-location =
     .value = Место: { $locationProperty }

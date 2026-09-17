@@ -31,14 +31,8 @@ xpinstall-prompt-never-allow-and-report =
 xpinstall-prompt-install =
     .label = Tiếp tục cài đặt
     .accesskey = C
-
-# These messages are shown when a website invokes navigator.requestMIDIAccess.
-
 site-permission-install-first-prompt-midi-header = Trang web này đang yêu cầu quyền truy cập vào các thiết bị MIDI (Giao diện kỹ thuật số dành cho nhạc cụ) của bạn. Có thể bật quyền truy cập thiết bị bằng cách cài đặt tiện ích mở rộng.
 site-permission-install-first-prompt-midi-message = Lần truy cập này không được đảm bảo an toàn. Chỉ tiếp tục nếu bạn tin tưởng trang web này.
-
-##
-
 xpinstall-disabled-locked = Quản trị hệ thống của bạn đã vô hiệu hóa cài đặt phần mềm.
 xpinstall-disabled = Hiện tại việc cài đặt phần mềm đã bị vô hiệu hóa. Hãy nhấn Bật rồi thử lại.
 xpinstall-disabled-button =

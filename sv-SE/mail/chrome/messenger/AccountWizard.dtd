@@ -2,12 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- Entities for AccountWizard -->
-
 <!ENTITY windowTitle.label "Kontoguiden">
-
-<!-- Entities for Identity page -->
-
 <!ENTITY identityTitle.label "Identitet">
 <!ENTITY identityDesc.label "Varje konto har en egen identitet som andra ser och identifierar dig med när du skickar meddelanden.">
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
@@ -20,18 +15,12 @@
 <!ENTITY fullnameLabel.accesskey "D">
 <!ENTITY emailLabel.label "E-postadress:">
 <!ENTITY emailLabel.accesskey "E">
-
-<!-- Entities for Incoming Server page -->
-
 <!ENTITY incomingTitle.label "Serverinställningar">
 <!ENTITY incomingUsername.label "Användarnamn:">
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
 <!ENTITY newsServerNameDesc.label "Ange namnet på servern för diskussionsgrupper (NNTP) (t.ex. &quot;news.example.net&quot;).">
 <!ENTITY newsServerLabel.label "Server för diskussionsgrupper:">
 <!ENTITY newsServerLabel.accesskey "S">
-
-<!-- Entities for Account name page -->
-
 <!ENTITY accnameTitle.label "Kontonamn">
 <!-- LOCALIZATION NOTE (accnameDesc.label) : do not translate any "&quot;" in below line -->
 <!ENTITY accnameDesc.label "Ange namnet som du vill hänvisa till detta konto (t.ex. &quot;Arbetskonto&quot;, &quot;Privat konto&quot; or &quot;Diskussiongrupperna&quot;).">

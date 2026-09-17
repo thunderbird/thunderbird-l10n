@@ -3,8 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 otr-auth =
-    .title = A partner személyazonosságának ellenőrzése
     .buttonlabelaccept = Ellenőrzés
+    .title = A partner személyazonosságának ellenőrzése
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 auth-title = { $name } személyazonosságának ellenőrzése

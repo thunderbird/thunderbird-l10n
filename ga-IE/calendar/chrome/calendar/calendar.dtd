@@ -177,9 +177,6 @@
 <!ENTITY calendar.tasks.view.calendarlist.accesskey "L">
 <!ENTITY calendar.tasks.view.filtertasks.label "Scag Tascanna">
 <!ENTITY calendar.tasks.view.filtertasks.accesskey "S">
-
-<!-- Calendar Alarm Dialog -->
-
 <!ENTITY calendar.alarm.location.label "Suíomh:">
 <!ENTITY calendar.alarm.details.label "Mionsonraí…">
 <!ENTITY calendar.alarm.snoozefor.label "Déan néal codlata ar feadh">

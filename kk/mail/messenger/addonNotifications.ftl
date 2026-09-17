@@ -31,14 +31,8 @@ xpinstall-prompt-never-allow-and-report =
 xpinstall-prompt-install =
     .label = Орнатуға жалғастыру
     .accesskey = с
-
-# These messages are shown when a website invokes navigator.requestMIDIAccess.
-
 site-permission-install-first-prompt-midi-header = Бұл сайт сіздің MIDI (музыкалық аспаптың цифрлық интерфейсі) құрылғыларыңызға қатынау рұқсатын сұрайды. Құрылғыға қатынау рұқсатын қосымшаны орнату арқылы іске қосуға болады.
 site-permission-install-first-prompt-midi-message = Бұл қатынау рұқсаты қауіпсіз болатынына кепілдік берілмейді. Бұл сайтқа сенсеңіз ғана жалғастырыңыз.
-
-##
-
 xpinstall-disabled-locked = Бағдарламалық қамтамасын орнату мүмкіндігін сіздің жүйелік администраторыңыз сөндірген.
 xpinstall-disabled = Қазір бағдарламалық қамтамасын орнату мүмкіндігі өшулі тұр. "Қосу" батырмасын басып, қайталап көріңіз
 xpinstall-disabled-button =

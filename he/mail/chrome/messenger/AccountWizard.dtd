@@ -2,12 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- Entities for AccountWizard -->
-
 <!ENTITY windowTitle.label "אשף החשבונות">
-
-<!-- Entities for Identity page -->
-
 <!ENTITY identityTitle.label "זהות">
 <!ENTITY identityDesc.label "לכל חשבון יש זהות, שהיא המידע שמזהה אותך לאחרים כשהם מקבלים הודעות ממך.">
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
@@ -20,18 +15,12 @@
 <!ENTITY fullnameLabel.accesskey "ש">
 <!ENTITY emailLabel.label "כתובת דוא״ל:">
 <!ENTITY emailLabel.accesskey "ד">
-
-<!-- Entities for Incoming Server page -->
-
 <!ENTITY incomingTitle.label "פרטי השרת הנכנס">
 <!ENTITY incomingUsername.label "שם משתמש:">
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
 <!ENTITY newsServerNameDesc.label "הכנס את שם שרת קבוצות הדיון (NNTP) שלך (לדוגמה, &quot;news.example.net&quot;).">
 <!ENTITY newsServerLabel.label "שרת קבוצות דיון:">
 <!ENTITY newsServerLabel.accesskey "N">
-
-<!-- Entities for Account name page -->
-
 <!ENTITY accnameTitle.label "שם החשבון">
 <!-- LOCALIZATION NOTE (accnameDesc.label) : do not translate any "&quot;" in below line -->
 <!ENTITY accnameDesc.label "נא להכניס את השם שבעזרתו ברצונך להתייחס לחשבון זה (לדוגמה, &quot;חשבון עבודה&quot;, &quot;חשבון בית&quot; או &quot;חשבון קבוצות דיון&quot;).">

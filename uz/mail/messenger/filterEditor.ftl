@@ -58,9 +58,6 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } – { $total }
-
-## Filter List Dialog
-
 filter-window-title = Xabar filterlari
 filter-name-column =
     .label = Filtrning nomi
@@ -77,8 +74,8 @@ filter-delete-button =
     .accesskey = c
 filter-reorder-top-button =
     .label = Yuqoriga ko‘chirish
-    .accesskey = o
     .tooltiptext = Boshqa barchasini filterlashdan oldin uni tartiblash
+    .accesskey = o
 filter-reorder-up-button =
     .label = Yuqoriga ko‘chirish
     .accesskey = Y
@@ -87,8 +84,8 @@ filter-reorder-down-button =
     .accesskey = P
 filter-reorder-bottom-button =
     .label = Eng pastga ko‘chirish
-    .accesskey = B
     .tooltiptext = Boshqa barchasini filterlashdan keyin uni tartiblash
+    .accesskey = B
 filter-header-label =
     .value = Yoqib qo‘yilgan filterlar pastga ko‘rsatilgan tartibga ko‘ra avtomatik ishga tushadi.
 filter-filters-for-prefix =

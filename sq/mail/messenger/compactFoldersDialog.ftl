@@ -5,10 +5,10 @@
 compact-folders-dialog-title = Ngjeshi dosjet
 compact-dialog =
     .buttonlabelaccept = Ngjeshi tani
-    .buttonaccesskeyaccept = N
     .buttonlabelcancel = Kujtoma më vonë
-    .buttonaccesskeycancel = K
     .buttonlabelextra1 = Mësoni më tepër…
+    .buttonaccesskeyaccept = N
+    .buttonaccesskeycancel = K
     .buttonaccesskeyextra1 = M
 # Variables:
 #  $data (String): The amount of space to be freed, formatted byte, MB, GB, etc., based on the size.

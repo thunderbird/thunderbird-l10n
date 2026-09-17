@@ -5,10 +5,10 @@
 compact-folders-dialog-title = Ordner komprimieren
 compact-dialog =
     .buttonlabelaccept = Jetzt komprimieren
-    .buttonaccesskeyaccept = J
     .buttonlabelcancel = Später erinnern
-    .buttonaccesskeycancel = S
     .buttonlabelextra1 = Weitere Informationen…
+    .buttonaccesskeyaccept = J
+    .buttonaccesskeycancel = S
     .buttonaccesskeyextra1 = W
 # Variables:
 #  $data (String): The amount of space to be freed, formatted byte, MB, GB, etc., based on the size.

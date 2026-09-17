@@ -80,9 +80,6 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } (kokku { $total })
-
-## Filter List Dialog
-
 filter-window-title = Kirjade filtrid
 filter-name-column =
     .label = Filtri nimi
@@ -102,8 +99,8 @@ filter-delete-button =
     .accesskey = K
 filter-reorder-top-button =
     .label = Liiguta esimeseks
-    .accesskey = g
     .tooltiptext = Liiguta filter esimeseks, nii et see käivituks enne teisi
+    .accesskey = g
 filter-reorder-up-button =
     .label = Liiguta üles
     .accesskey = t
@@ -112,8 +109,8 @@ filter-reorder-down-button =
     .accesskey = a
 filter-reorder-bottom-button =
     .label = Liiguta viimaseks
-    .accesskey = v
     .tooltiptext = Liiguta filter viimaseks, nii et see käivituks pärast teisi
+    .accesskey = v
 filter-header-label =
     .value = Aktiivsed filtrid rakenduvad alljärgnevas järjestuses.
 filter-filters-for-prefix =

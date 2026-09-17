@@ -2,8 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from am-addressing.xhtml -->
-
 <!ENTITY addressing.label "Sgrìobhadh ⁊ seòlachadh">
 <!ENTITY addressingGroupTitle.label "Seòlachadh">
 <!ENTITY addressingText.label "Nuair a lorgas mi seòladh:">
@@ -16,9 +14,6 @@
 <!ENTITY directories.label "Cleachd frithealaiche LDAP eile:">
 <!ENTITY directories.accesskey "D">
 <!ENTITY directoriesNone.label "Chan eil gin">
-
-<!-- am-addressing.xhtml -->
-
 <!ENTITY compositionGroupTitle.label "Sgrìobhadh">
 <!-- LOCALIZATION NOTE (useHtml.label) : do not translate "html" in below line -->
 <!ENTITY useHtml.label "Sgrìobh teachdaireachdan ann an cruth HTML">

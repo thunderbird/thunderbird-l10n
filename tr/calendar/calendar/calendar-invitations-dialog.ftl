@@ -13,8 +13,8 @@ recurrent-event =
     .value = Tekrarlanan etkinlik
 # $locationProperty is the location of the event
 calendar-invitation-location =
-    .value = Konum: { $locationProperty }
     .tooltiptext = { $locationProperty }
+    .value = Konum: { $locationProperty }
 # $locationProperty is the location of the event
 calendar-invitations-location =
     .value = Konum: { $locationProperty }

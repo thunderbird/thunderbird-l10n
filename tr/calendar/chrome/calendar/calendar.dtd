@@ -210,9 +210,6 @@
 <!ENTITY calendar.tasks.view.calendarlist.accesskey "l">
 <!ENTITY calendar.tasks.view.filtertasks.label "Görevleri süz">
 <!ENTITY calendar.tasks.view.filtertasks.accesskey "G">
-
-<!-- Calendar Alarm Dialog -->
-
 <!ENTITY calendar.alarm.location.label "Konum:">
 <!ENTITY calendar.alarm.details.label "Ayrıntılar…">
 <!ENTITY calendar.alarm.snoozefor.label "Ertele">

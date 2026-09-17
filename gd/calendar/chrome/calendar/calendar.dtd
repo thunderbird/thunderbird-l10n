@@ -210,9 +210,6 @@
 <!ENTITY calendar.tasks.view.calendarlist.accesskey "L">
 <!ENTITY calendar.tasks.view.filtertasks.label "Criathraich na saothraichean">
 <!ENTITY calendar.tasks.view.filtertasks.accesskey "C">
-
-<!-- Calendar Alarm Dialog -->
-
 <!ENTITY calendar.alarm.location.label "Seòladh:">
 <!ENTITY calendar.alarm.details.label "Mion-fhiosrachadh…">
 <!ENTITY calendar.alarm.snoozefor.label "Dèan dùsal fad">

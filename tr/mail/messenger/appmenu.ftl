@@ -50,9 +50,6 @@ appmenu-new-feed =
 appmenu-new-newsgroup =
     .label = Haber grubu
     .accesskey = u
-
-## Add Account
-
 appmenu-add-account-panel-title =
     .title = Hesap ekle
 appmenu-add-account-panel =

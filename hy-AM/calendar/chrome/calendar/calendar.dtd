@@ -210,9 +210,6 @@
 <!ENTITY calendar.tasks.view.calendarlist.accesskey "L">
 <!ENTITY calendar.tasks.view.filtertasks.label "Զտել առաջադրանքները">
 <!ENTITY calendar.tasks.view.filtertasks.accesskey "F">
-
-<!-- Calendar Alarm Dialog -->
-
 <!ENTITY calendar.alarm.location.label "Տեղ՝">
 <!ENTITY calendar.alarm.details.label "Մանրամասներ…">
 <!ENTITY calendar.alarm.snoozefor.label "Ննջեցնել">

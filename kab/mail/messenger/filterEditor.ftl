@@ -80,9 +80,6 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } si { $total }
-
-## Filter List Dialog
-
 filter-window-title = Imzizdigen n yizen
 filter-name-column =
     .label = Isem n imzizdig
@@ -102,8 +99,8 @@ filter-delete-button =
     .accesskey = k
 filter-reorder-top-button =
     .label = Senkez s afella
-    .accesskey = o
     .tooltiptext = Seggem imzizdigen akken ad ttwaselkmen wa deffir wa
+    .accesskey = o
 filter-reorder-up-button =
     .label = Ali
     .accesskey = A
@@ -112,8 +109,8 @@ filter-reorder-down-button =
     .accesskey = d
 filter-reorder-bottom-button =
     .label = Senkez s adda
-    .accesskey = B
     .tooltiptext = Seggem imzizdigen akken ad ttwaselkmen wa deffir wa
+    .accesskey = B
 filter-header-label =
     .value = Imzizdigen yettwaremden ttwaselkamen s wudem awurman deg umizzwer d-yettwaseknen daw-a.
 filter-filters-for-prefix =

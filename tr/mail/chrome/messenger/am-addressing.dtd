@@ -2,8 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from am-addressing.xhtml -->
-
 <!ENTITY addressing.label "Düzenleme ve adresler">
 <!ENTITY addressingGroupTitle.label "Adresler">
 <!ENTITY addressingText.label "Adreslere bakılırken:">
@@ -16,9 +14,6 @@
 <!ENTITY directories.label "Farklı bir LDAP sunucusu kullan:">
 <!ENTITY directories.accesskey "F">
 <!ENTITY directoriesNone.label "Hiçbiri">
-
-<!-- am-addressing.xhtml -->
-
 <!ENTITY compositionGroupTitle.label "Düzenleme">
 <!-- LOCALIZATION NOTE (useHtml.label) : do not translate "html" in below line -->
 <!ENTITY useHtml.label "İletileri HTML biçiminde yaz">

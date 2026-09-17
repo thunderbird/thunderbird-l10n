@@ -2,8 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from am-addressing.xhtml -->
-
 <!ENTITY addressingGroupTitle.label "Adresbediener">
 <!ENTITY addressingText.label "Wanneer adresse deursoek word:">
 <!-- LOCALIZATION NOTE (override.label) : do not translate "LDAP" in below line -->
@@ -12,9 +10,6 @@
 <!ENTITY editDirectories.label "Wysig gidse…">
 <!ENTITY editDirectories.accesskey "W">
 <!ENTITY directoriesNone.label "Geen">
-
-<!-- am-addressing.xhtml -->
-
 <!ENTITY compositionGroupTitle.label "Opstelling">
 <!-- LOCALIZATION NOTE (useHtml.label) : do not translate "html" in below line -->
 <!ENTITY useHtml.label "Skryf boodskappe in HTML-formaat">

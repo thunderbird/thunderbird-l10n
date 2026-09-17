@@ -155,9 +155,6 @@
 <!ENTITY calendar.tasks.view.calendarlist.accesskey "L">
 <!ENTITY calendar.tasks.view.filtertasks.label "Filter Tasks">
 <!ENTITY calendar.tasks.view.filtertasks.accesskey "F">
-
-<!-- Calendar Alarm Dialog -->
-
 <!ENTITY calendar.alarm.location.label "ਟਿਕਾਣਾ:">
 <!ENTITY calendar.alarm.details.label "ਵੇਰਵੇ…">
 <!ENTITY calendar.alarm.snoozefor.label "ਇਸ ਤੱਕ ਟਾਲੋ">

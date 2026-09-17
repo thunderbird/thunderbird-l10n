@@ -8,5 +8,5 @@ add-on-search-alternative-button-label = Намиране на алтернат�
 atn-addons-heading-search-input =
     .placeholder = Търсене в addons.thunderbird.net
 atn-addons-heading-search-button =
-    .title = Търсене в addons.thunderbird.net
     .aria-label = Търсене в addons.thunderbird.net
+    .title = Търсене в addons.thunderbird.net

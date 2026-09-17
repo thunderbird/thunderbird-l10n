@@ -5,10 +5,10 @@
 compact-folders-dialog-title = 压缩邮件夹
 compact-dialog =
     .buttonlabelaccept = 立即压缩
-    .buttonaccesskeyaccept = C
     .buttonlabelcancel = 以后再提醒我
-    .buttonaccesskeycancel = R
     .buttonlabelextra1 = 详细了解…
+    .buttonaccesskeyaccept = C
+    .buttonaccesskeycancel = R
     .buttonaccesskeyextra1 = L
 # Variables:
 #  $data (String): The amount of space to be freed, formatted byte, MB, GB, etc., based on the size.

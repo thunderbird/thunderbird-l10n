@@ -26,55 +26,43 @@ content-tab-security-high-icon =
     .alt = Sambungan aman
 content-tab-security-broken-icon =
     .alt = Sambungan tidak aman
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = Mundur satu laman ({ $shortcut })
     .aria-label = Mundur
+    .tooltiptext = Mundur satu laman ({ $shortcut })
     .accesskey = M
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Mundur
     .accesskey = M
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
-    .tooltiptext = Maju satu laman ({ $shortcut })
     .aria-label = Maju
+    .tooltiptext = Maju satu laman ({ $shortcut })
     .accesskey = u
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = Maju
     .accesskey = u
-
-# Reload
-
 content-tab-menu-reload =
-    .tooltiptext = Muat ulang laman
     .aria-label = Muat ulang
+    .tooltiptext = Muat ulang laman
     .accesskey = g
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
-    .tooltiptext = Muat ulang laman
     .label = Muat ulang
+    .tooltiptext = Muat ulang laman
     .accesskey = g
-
-# Stop
-
 content-tab-menu-stop =
-    .tooltiptext = Hentikan pemuatan laman
     .aria-label = Berhenti
+    .tooltiptext = Hentikan pemuatan laman
     .accesskey = h
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
-    .tooltiptext = Hentikan pemuatan laman
     .label = Berhenti
+    .tooltiptext = Hentikan pemuatan laman
     .accesskey = h
 open-windows-warning-confirmation-title = Konfirmasi
 # Variables:
@@ -332,8 +320,8 @@ other-action-copy-message-link =
 other-action-copy-news-link =
     .label = Salin Tautan Berita
 message-header-msg-flagged =
-    .title = Dibintangi
     .aria-label = Dibintangi
+    .title = Dibintangi
 message-header-delete =
     .label = Hapus
     .tooltiptext = Hapus pesan ini
@@ -423,9 +411,9 @@ decrypt-and-copy-failures-multiple = { $failures } dari { $total } pesan tidak d
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = Bilah Alat Spaces
-    .aria-label = Bilah Alat Spaces
     .aria-description = Bilah alat vertikal untuk beralih antara berbagai space. Gunakan tombol panah untuk menavigasi tombol yang tersedia.
+    .aria-label = Bilah Alat Spaces
+    .toolbarname = Bilah Alat Spaces
 spaces-toolbar-button-mail2 =
     .title = Surat
 spaces-toolbar-button-address-book2 =

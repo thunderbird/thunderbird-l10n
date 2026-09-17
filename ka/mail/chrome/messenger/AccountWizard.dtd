@@ -2,12 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- Entities for AccountWizard -->
-
 <!ENTITY windowTitle.label "ანგარიშის გამართვის მეგზური">
-
-<!-- Entities for Identity page -->
-
 <!ENTITY identityTitle.label "ვინაობა">
 <!ENTITY identityDesc.label "თითოეულ ანგარიშს გააჩნია საკუთარი დასამოწმებელი მონაცემები, რომლის საშუალებითაც ხდება თქვენი გამორჩევა სხვებისგან, თქვენი წერილების მიღებისას.">
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
@@ -20,18 +15,12 @@
 <!ENTITY fullnameLabel.accesskey "ს">
 <!ENTITY emailLabel.label "ელფოსტა:">
 <!ENTITY emailLabel.accesskey "ე">
-
-<!-- Entities for Incoming Server page -->
-
 <!ENTITY incomingTitle.label "შემომავალი სერვერის მონაცემები">
 <!ENTITY incomingUsername.label "სახელი:">
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
 <!ENTITY newsServerNameDesc.label "მიუთითეთ თქვენი სიახლეთა ჯგუფის სერვერის (NNTP) სახელი (მაგალითად, &quot;news.example.net&quot;).">
 <!ENTITY newsServerLabel.label "სასაუბრო ჯგუფის სერვერი:">
 <!ENTITY newsServerLabel.accesskey "ს">
-
-<!-- Entities for Account name page -->
-
 <!ENTITY accnameTitle.label "ანგარიშის სახელი">
 <!-- LOCALIZATION NOTE (accnameDesc.label) : do not translate any "&quot;" in below line -->
 <!ENTITY accnameDesc.label "მიუთითეთ სახელი, რომლითაც ამ ანგარიშს ამოიცნობთ (მაგალითად, &quot;სამსახური&quot;, &quot;ბინა&quot; ან &quot;ჯგუფები&quot;).">

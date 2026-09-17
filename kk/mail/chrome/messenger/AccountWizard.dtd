@@ -2,12 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- Entities for AccountWizard -->
-
 <!ENTITY windowTitle.label "Тіркелгілер шебері">
-
-<!-- Entities for Identity page -->
-
 <!ENTITY identityTitle.label "Жеке мәліметтер">
 <!ENTITY identityDesc.label "Әр тіркелгінің жеке мәліметтері бар, ол арқылы басқа адамдар сіздің хабарламаларыңызда алған кезде сізді таниды.">
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
@@ -20,18 +15,12 @@
 <!ENTITY fullnameLabel.accesskey "ы">
 <!ENTITY emailLabel.label "Эл. пошта адресі:">
 <!ENTITY emailLabel.accesskey "Э">
-
-<!-- Entities for Incoming Server page -->
-
 <!ENTITY incomingTitle.label "Кіріс сервер ақпараты">
 <!ENTITY incomingUsername.label "Пайдаланушы аты:">
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
 <!ENTITY newsServerNameDesc.label "Жаңалық топтар сервері (NNTP) атын көрсетіңіз (мысалы, &quot;news.example.net&quot;).">
 <!ENTITY newsServerLabel.label "Жаңалық топтар сервері:">
 <!ENTITY newsServerLabel.accesskey "с">
-
-<!-- Entities for Account name page -->
-
 <!ENTITY accnameTitle.label "Тіркелгі атауы">
 <!-- LOCALIZATION NOTE (accnameDesc.label) : do not translate any "&quot;" in below line -->
 <!ENTITY accnameDesc.label "Бұл тіркелгіні сипаттайтын атауды көрсетіңіз (мысалы, &quot;Жұмыс тіркелгісі&quot;, &quot;Үй тіркелгісі&quot; немесе &quot;Жаңалықтар тіркелгісі&quot;).">

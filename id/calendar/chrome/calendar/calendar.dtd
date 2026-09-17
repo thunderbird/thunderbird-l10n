@@ -210,9 +210,6 @@
 <!ENTITY calendar.tasks.view.calendarlist.accesskey "D">
 <!ENTITY calendar.tasks.view.filtertasks.label "Saring Tugas">
 <!ENTITY calendar.tasks.view.filtertasks.accesskey "S">
-
-<!-- Calendar Alarm Dialog -->
-
 <!ENTITY calendar.alarm.location.label "Lokasi:">
 <!ENTITY calendar.alarm.details.label "Detail…">
 <!ENTITY calendar.alarm.snoozefor.label "Getarkan selama">

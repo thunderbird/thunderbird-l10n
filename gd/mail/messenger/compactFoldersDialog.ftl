@@ -5,10 +5,10 @@
 compact-folders-dialog-title = Dùmhlaich na pasganan
 compact-dialog =
     .buttonlabelaccept = Dùmhlaich an-dràsta
-    .buttonaccesskeyaccept = D
     .buttonlabelcancel = Cuir nam chuimhne a-rithist an ceann greis
-    .buttonaccesskeycancel = C
     .buttonlabelextra1 = Barrachd fiosrachaidh…
+    .buttonaccesskeyaccept = D
+    .buttonaccesskeycancel = C
     .buttonaccesskeyextra1 = B
 # Variables:
 #  $data (String): The amount of space to be freed, formatted byte, MB, GB, etc., based on the size.

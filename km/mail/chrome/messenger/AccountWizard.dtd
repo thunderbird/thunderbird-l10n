@@ -2,12 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- Entities for AccountWizard -->
-
 <!ENTITY windowTitle.label "Փոստարկղի Վարպետ">
-
-<!-- Entities for Identity page -->
-
 <!ENTITY identityTitle.label "Որոշիչ">
 <!ENTITY identityDesc.label "Յուրք. փոստարկղ անհատական է, այն ուղարկում է նշված տեղեկությունը Ձեր մասին, երբ որևէ մեկը ստանում է Ձեր նամակը։">
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
@@ -20,18 +15,12 @@
 <!ENTITY fullnameLabel.accesskey "Y">
 <!ENTITY emailLabel.label "Էլ. հասցեներ.">
 <!ENTITY emailLabel.accesskey "E">
-
-<!-- Entities for Incoming Server page -->
-
 <!ENTITY incomingTitle.label "ព័ត៌មាន​ម៉ាស៊ីន​មេ​ចូល">
 <!ENTITY incomingUsername.label "ឈ្មោះ​អ្នកប្រើ៖">
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
 <!ENTITY newsServerNameDesc.label "Նշեք նորությունների սպասարկիչի անունը (NNTP) (օրինակ՝ &quot;news.example.net&quot;)։">
 <!ENTITY newsServerLabel.label "Նորությունների սպասարկիչ.">
 <!ENTITY newsServerLabel.accesskey "S">
-
-<!-- Entities for Account name page -->
-
 <!ENTITY accnameTitle.label "Փոստարկղի անունը">
 <!-- LOCALIZATION NOTE (accnameDesc.label) : do not translate any "&quot;" in below line -->
 <!ENTITY accnameDesc.label "Նշեք անունը, որին ցանանում եք կցել այս փոստարկղը (օրինակ՝ &quot;Աշխ. փոստարկղ&quot;, &quot;Տնային փոստարկղ&quot; կամ &quot;Նորությունների փոստարկղ&quot;)։">

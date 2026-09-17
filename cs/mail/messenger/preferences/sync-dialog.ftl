@@ -6,6 +6,6 @@ config-sync-dailog-title =
     .title = Vyberte obsah synchronizace
 sync-dialog =
     .buttonlabelaccept = Uložit změny
-    .buttonaccesskeyaccept = U
     .buttonlabelextra2 = Odpojit…
+    .buttonaccesskeyaccept = U
     .buttonaccesskeyextra2 = d

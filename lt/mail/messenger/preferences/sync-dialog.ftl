@@ -6,6 +6,6 @@ config-sync-dailog-title =
     .title = Pasirinkite, ką sinchronizuosite
 sync-dialog =
     .buttonlabelaccept = Išsaugoti pakeitimus
-    .buttonaccesskeyaccept = s
     .buttonlabelextra2 = Atsijungti…
+    .buttonaccesskeyaccept = s
     .buttonaccesskeyextra2 = a

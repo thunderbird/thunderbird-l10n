@@ -31,14 +31,8 @@ xpinstall-prompt-never-allow-and-report =
 xpinstall-prompt-install =
     .label = Doorgaan naar installatie
     .accesskey = D
-
-# These messages are shown when a website invokes navigator.requestMIDIAccess.
-
 site-permission-install-first-prompt-midi-header = Deze website vraagt toegang tot uw MIDI-apparaten (Musical Instrument Digital Interface). Toegang tot apparaten kan worden ingeschakeld door een add-on te installeren.
 site-permission-install-first-prompt-midi-message = Deze toegang is niet gegarandeerd veilig. Ga alleen verder als u deze website vertrouwt.
-
-##
-
 xpinstall-disabled-locked = Installatie van software is uitgeschakeld door uw systeembeheerder.
 xpinstall-disabled = Installatie van software is momenteel uitgeschakeld. Klik op Inschakelen en probeer het opnieuw.
 xpinstall-disabled-button =

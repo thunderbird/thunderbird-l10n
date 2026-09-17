@@ -82,9 +82,6 @@ recurrence-monthly-days-of-nth-day =
         [one] יום אחד
        *[other] { $days } ימים
     }
-
-# Edit recurrence window -> Recurrence pattern -> Monthly repeat rules
-
 # Edit recurrence window -> Recurrence pattern -> Yearly repeat rules
 # Variables:
 #   $month - month name

@@ -2,12 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- Entities for AccountWizard -->
-
 <!ENTITY windowTitle.label "Draoidh nan cunntasan">
-
-<!-- Entities for Identity page -->
-
 <!ENTITY identityTitle.label "Dearbh-aithne">
 <!ENTITY identityDesc.label "Tha dearbh-aithne aig gach cunntas; sin am fiosrachadh air a dh'aithnichear thusa nuair a gheibhear teachdaireachdan uat.">
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
@@ -20,18 +15,12 @@
 <!ENTITY fullnameLabel.accesskey "D">
 <!ENTITY emailLabel.label "An seòladh puist-dhealain:">
 <!ENTITY emailLabel.accesskey "e">
-
-<!-- Entities for Incoming Server page -->
-
 <!ENTITY incomingTitle.label "Fiosrachadh an fhrithealaiche a-steach">
 <!ENTITY incomingUsername.label "Ainm-cleachdaiche:">
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
 <!ENTITY newsServerNameDesc.label "Cuir a-steach ainm frithealaiche nan naidheachdan (NNTP) agad (mar eisimpleir &quot;news.example.net&quot;).">
 <!ENTITY newsServerLabel.label "Frithealaiche nam buidhnean-naidheachd:">
 <!ENTITY newsServerLabel.accesskey "F">
-
-<!-- Entities for Account name page -->
-
 <!ENTITY accnameTitle.label "Ainm a' chunntais">
 <!-- LOCALIZATION NOTE (accnameDesc.label) : do not translate any "&quot;" in below line -->
 <!ENTITY accnameDesc.label "Cuir a-steach an t-ainm a bu toigh leat a bhith air a&apos; chunntas seo (mar eisimpleir &quot;Cunntas m&apos; obrach&quot;, &quot;Cunntas an taighe&quot; no &quot;Cunntas nan naidheachdan&quot;).">

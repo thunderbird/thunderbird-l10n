@@ -30,55 +30,43 @@ content-tab-security-high-icon =
     .alt = La connessione è sicura
 content-tab-security-broken-icon =
     .alt = La connessione non è sicura
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = Torna indietro di una pagina ({ $shortcut })
     .aria-label = Indietro
+    .tooltiptext = Torna indietro di una pagina ({ $shortcut })
     .accesskey = T
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Indietro
     .accesskey = n
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
-    .tooltiptext = Vai avanti di una pagina ({ $shortcut })
     .aria-label = Avanti
+    .tooltiptext = Vai avanti di una pagina ({ $shortcut })
     .accesskey = V
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = Avanti
     .accesskey = A
-
-# Reload
-
 content-tab-menu-reload =
-    .tooltiptext = Ricarica la pagina
     .aria-label = Ricarica
+    .tooltiptext = Ricarica la pagina
     .accesskey = R
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
-    .tooltiptext = Ricarica la pagina
     .label = Ricarica
+    .tooltiptext = Ricarica la pagina
     .accesskey = R
-
-# Stop
-
 content-tab-menu-stop =
-    .tooltiptext = Interrompi caricamento della pagina
     .aria-label = Interrompi
+    .tooltiptext = Interrompi caricamento della pagina
     .accesskey = e
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
-    .tooltiptext = Interrompi caricamento della pagina
     .label = Interrompi
+    .tooltiptext = Interrompi caricamento della pagina
     .accesskey = e
 open-windows-warning-confirmation-title = Confermare
 # Variables:
@@ -360,8 +348,8 @@ other-action-copy-message-link =
 other-action-copy-news-link =
     .label = Copia link alla notizia
 message-header-msg-flagged =
-    .title = Speciale
     .aria-label = Speciale
+    .title = Speciale
 message-header-delete =
     .label = Elimina
     .tooltiptext = Elimina questo messaggio
@@ -455,9 +443,9 @@ decrypt-and-copy-failures-multiple =
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = Barra degli spazi
-    .aria-label = Barra degli spazi
     .aria-description = Barra degli strumenti verticale per passare da uno spazio all’altro. Utilizzare i tasti freccia per selezionare i pulsanti disponibili.
+    .aria-label = Barra degli spazi
+    .toolbarname = Barra degli spazi
 spaces-toolbar-button-mail2 =
     .title = Posta
 spaces-toolbar-button-address-book2 =

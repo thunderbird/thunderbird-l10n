@@ -84,9 +84,6 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } à { $total }
-
-## Filter List Dialog
-
 filter-window-title = Criathragan nan teachdaireachd
 filter-name-column =
     .label = Ainm na criathraige
@@ -106,8 +103,8 @@ filter-delete-button =
     .accesskey = S
 filter-reorder-top-button =
     .label = Gluais gun bharr
-    .accesskey = o
     .tooltiptext = Cuir a' chriathrag air dòigh airson 's gun dèid a chleachdadh a thoiseach air càch
+    .accesskey = o
 filter-reorder-up-button =
     .label = Gluais suas
     .accesskey = u
@@ -116,8 +113,8 @@ filter-reorder-down-button =
     .accesskey = G
 filter-reorder-bottom-button =
     .label = Gluais gun bhonn
-    .accesskey = B
     .tooltiptext = Cuir a' chriathrag air dòigh airson 's gun dèid a chleachdadh an dèidh chàch
+    .accesskey = B
 filter-header-label =
     .value = Tha na criathragan a tha air a chur an comas 'gan ruith leotha fhèin san òrdugh a chì thu gu h-ìosal.
 filter-filters-for-prefix =

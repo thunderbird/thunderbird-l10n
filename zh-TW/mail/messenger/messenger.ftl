@@ -29,55 +29,43 @@ content-tab-security-high-icon =
     .alt = 連線是安全的
 content-tab-security-broken-icon =
     .alt = 連線不安全
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = 回到上一頁（{ $shortcut }）
     .aria-label = 回上一頁
+    .tooltiptext = 回到上一頁（{ $shortcut }）
     .accesskey = B
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = 上一頁
     .accesskey = B
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
-    .tooltiptext = 前進下一頁（{ $shortcut }）
     .aria-label = 下一頁
+    .tooltiptext = 前進下一頁（{ $shortcut }）
     .accesskey = F
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = 下一頁
     .accesskey = F
-
-# Reload
-
 content-tab-menu-reload =
-    .tooltiptext = 重新載入網頁
     .aria-label = 重新載入
+    .tooltiptext = 重新載入網頁
     .accesskey = R
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
-    .tooltiptext = 重新載入網頁
     .label = 重新載入
+    .tooltiptext = 重新載入網頁
     .accesskey = R
-
-# Stop
-
 content-tab-menu-stop =
-    .tooltiptext = 停止載入頁面
     .aria-label = 停止
+    .tooltiptext = 停止載入頁面
     .accesskey = S
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
-    .tooltiptext = 停止載入頁面
     .label = 停止
+    .tooltiptext = 停止載入頁面
     .accesskey = S
 open-windows-warning-confirmation-title = 確認
 # Variables:
@@ -346,8 +334,8 @@ other-action-copy-message-link =
 other-action-copy-news-link =
     .label = 複製新聞鏈結
 message-header-msg-flagged =
-    .title = 已標星號
     .aria-label = 已標星號
+    .title = 已標星號
 message-header-delete =
     .label = 刪除
     .tooltiptext = 刪除此郵件
@@ -440,9 +428,9 @@ decrypt-and-copy-failures-multiple =
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = 按鈕空間
-    .aria-label = 按鈕空間
     .aria-description = 用來切換各種空間的垂直工具列。可使用方向鍵來切換不同按鈕。
+    .aria-label = 按鈕空間
+    .toolbarname = 按鈕空間
 spaces-toolbar-button-mail2 =
     .title = 郵件
 spaces-toolbar-button-address-book2 =

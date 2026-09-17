@@ -26,9 +26,6 @@ search-bar-placeholder-with-key2 =
 
 customize-menu-customize =
     .label = Персаналізаваць…
-
-# Unified toolbar get messages button context menu
-
 toolbar-get-all-messages-menuitem =
     .label = Атрымаць усе новыя паведамленні
     .accesskey = А

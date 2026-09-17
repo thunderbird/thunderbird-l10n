@@ -5,10 +5,10 @@
 compact-folders-dialog-title = Cywasgu ffolderi
 compact-dialog =
     .buttonlabelaccept = Cywasgu nawr
-    .buttonaccesskeyaccept = C
     .buttonlabelcancel = Atgoffa fi yn hwyrach
-    .buttonaccesskeycancel = A
     .buttonlabelextra1 = Dysgu rhagor…
+    .buttonaccesskeyaccept = C
+    .buttonaccesskeycancel = A
     .buttonaccesskeyextra1 = D
 # Variables:
 #  $data (String): The amount of space to be freed, formatted byte, MB, GB, etc., based on the size.

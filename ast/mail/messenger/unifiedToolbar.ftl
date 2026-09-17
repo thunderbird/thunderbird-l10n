@@ -10,9 +10,6 @@
 
 customize-menu-customize =
     .label = Personalizar…
-
-# Unified toolbar get messages button context menu
-
 toolbar-get-all-messages-menuitem =
     .label = Recibir tolos mensaxes nuevos
     .accesskey = R

@@ -26,12 +26,6 @@ xpinstall-prompt-never-allow =
 xpinstall-prompt-install =
     .label = Kenderc'hel d'ar staliadur
     .accesskey = C
-
-# These messages are shown when a website invokes navigator.requestMIDIAccess.
-
-
-##
-
 xpinstall-disabled-locked = Diweredekaet eo bet staliadur meziantoù gant hoc'h ardoer reizhiad.
 xpinstall-disabled = Diweredekaet eo ar staliadur meziantoù evit ar mare. Klikit war Gweredekaat ha klaskit en-dro.
 xpinstall-disabled-button =

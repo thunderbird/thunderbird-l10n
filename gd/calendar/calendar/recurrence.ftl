@@ -96,9 +96,6 @@ recurrence-monthly-days-of-nth-day =
         [few] làithean { $days }
        *[other] làithean { $days }
     }
-
-# Edit recurrence window -> Recurrence pattern -> Monthly repeat rules
-
 # Variables:
 #   $monthlyDays - day of month or a sequence of days of month, possibly followed
 #   by an ordinal symbol, separated with commas;

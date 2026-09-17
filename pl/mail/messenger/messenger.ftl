@@ -31,55 +31,43 @@ content-tab-security-high-icon =
     .alt = Połączenie jest zabezpieczone
 content-tab-security-broken-icon =
     .alt = Połączenie nie jest zabezpieczone
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = Przejdź do poprzedniej strony ({ $shortcut })
     .aria-label = Wstecz
+    .tooltiptext = Przejdź do poprzedniej strony ({ $shortcut })
     .accesskey = W
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Wstecz
     .accesskey = W
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
-    .tooltiptext = Przejdź do następnej strony ({ $shortcut })
     .aria-label = Do przodu
+    .tooltiptext = Przejdź do następnej strony ({ $shortcut })
     .accesskey = D
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = Do przodu
     .accesskey = D
-
-# Reload
-
 content-tab-menu-reload =
-    .tooltiptext = Odśwież stronę
     .aria-label = Odśwież
+    .tooltiptext = Odśwież stronę
     .accesskey = O
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
-    .tooltiptext = Odśwież stronę
     .label = Odśwież
+    .tooltiptext = Odśwież stronę
     .accesskey = O
-
-# Stop
-
 content-tab-menu-stop =
-    .tooltiptext = Zatrzymaj wczytywanie strony
     .aria-label = Zatrzymaj
+    .tooltiptext = Zatrzymaj wczytywanie strony
     .accesskey = Z
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
-    .tooltiptext = Zatrzymaj wczytywanie strony
     .label = Zatrzymaj
+    .tooltiptext = Zatrzymaj wczytywanie strony
     .accesskey = Z
 open-windows-warning-confirmation-title = Potwierdź
 # Variables:
@@ -366,8 +354,8 @@ other-action-copy-message-link =
 other-action-copy-news-link =
     .label = Kopiuj odnośnik do grupy dyskusyjnej
 message-header-msg-flagged =
-    .title = Z gwiazdką
     .aria-label = Z gwiazdką
+    .title = Z gwiazdką
 message-header-delete =
     .label = Usuń
     .tooltiptext = Usuń tę wiadomość
@@ -462,9 +450,9 @@ decrypt-and-copy-failures-multiple =
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = Pasek miejsc
-    .aria-label = Pasek miejsc
     .aria-description = Pionowy pasek narzędzi do przełączania między różnymi miejscami. Używaj klawiszy strzałek, aby poruszać się po dostępnych przyciskach.
+    .aria-label = Pasek miejsc
+    .toolbarname = Pasek miejsc
 spaces-toolbar-button-mail2 =
     .title = Poczta
 spaces-toolbar-button-address-book2 =

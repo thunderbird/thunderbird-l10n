@@ -2,8 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from am-addressing.xhtml -->
-
 <!ENTITY addressing.label "Komposition &amp; adressering">
 <!ENTITY addressingGroupTitle.label "Adressering">
 <!ENTITY addressingText.label "Ved opslag af adresser:">
@@ -16,9 +14,6 @@
 <!ENTITY directories.label "Benyt en anden LDAP-server:">
 <!ENTITY directories.accesskey "B">
 <!ENTITY directoriesNone.label "Ingen">
-
-<!-- am-addressing.xhtml -->
-
 <!ENTITY compositionGroupTitle.label "Nye meddelelser">
 <!-- LOCALIZATION NOTE (useHtml.label) : do not translate "html" in below line -->
 <!ENTITY useHtml.label "Skriv meddelelser i HTML-format">

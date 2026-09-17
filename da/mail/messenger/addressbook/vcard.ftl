@@ -2,23 +2,14 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, you can obtain one at http://mozilla.org/MPL/2.0/.
 
-
-# Display Name
-
 vcard-displayname = Visningsnavn
 vcard-displayname-placeholder =
     .placeholder = { vcard-displayname }
-
-# Type selection
-
 vcard-entry-type-label = Type
 vcard-entry-type-home = Hjem
 vcard-entry-type-work = Arbejde
 vcard-entry-type-none = Ingen
 vcard-entry-type-custom = Brugerdefineret
-
-# N vCard field
-
 vcard-name-header = Navn
 vcard-n-prefix = Præfiks
 vcard-n-add-prefix =
@@ -35,26 +26,14 @@ vcard-n-add-lastname =
 vcard-n-suffix = Suffiks
 vcard-n-add-suffix =
     .title = Tilføj suffiks
-
-# Nickname
-
 vcard-nickname = Alias
-
-# Email vCard field
-
 vcard-email-header = Mailadresser
 vcard-email-add = Tilføj mailadresse
 vcard-email-label = Mailadresse
 vcard-primary-email-label = Standard
-
-# URL vCard field
-
 vcard-url-header = Websteder
 vcard-url-add = Tilføj websted
 vcard-url-label = Websted
-
-# Tel vCard field
-
 vcard-tel-header = Telefonnumre
 vcard-tel-add = Tilføj telefonnummer
 vcard-tel-label = Telefonnummer
@@ -62,14 +41,8 @@ vcard-tel-label = Telefonnummer
 vcard-entry-type-cell = Mobil
 vcard-entry-type-fax = Fax
 vcard-entry-type-pager = Personsøger
-
-# TZ vCard field
-
 vcard-tz-header = Tidszone
 vcard-tz-add = Tilføj tidszone
-
-# IMPP vCard field
-
 vcard-impp2-header = Chat
 vcard-impp-add = Tilføj chat-konto
 vcard-impp-label = Chat-konto
@@ -77,9 +50,6 @@ vcard-impp-select = Protokol
 vcard-impp-option-other = Andet
 vcard-impp-input-label = URI
 vcard-impp-input-title = Chat-URI
-
-# BDAY and ANNIVERSARY vCard field
-
 vcard-bday-anniversary-header = Særlige datoer
 vcard-bday-anniversary-add = Tilføj særlig dato
 vcard-bday-label = Fødselsdag
@@ -87,9 +57,6 @@ vcard-anniversary-label = Jubilæum
 vcard-date-day = Dag
 vcard-date-month = Måned
 vcard-date-year = År
-
-# ADR vCard field
-
 vcard-adr-header = Adresser
 vcard-adr-add = Tilføj adresse
 vcard-adr-label = Adresse
@@ -102,35 +69,26 @@ vcard-adr-region = Stat/provins
 # The term "ZIP code" only applies in USA. Most locales should use "Postal code" only.
 vcard-adr-code = Postnummer
 vcard-adr-country = Land
-
-# NOTE vCard field
-
 vcard-note-header = Noter
 vcard-note-add = Tilføj note
-
-# TITLE, ROLE and ORGANIZATION vCard fields
-
 vcard-org-header = Organisatoriske egenskaber
 vcard-org-add = Tilføj organisatoriske egenskaber
 vcard-org-title = Titel
 vcard-org-title-input =
-    .title = Stilling eller job
     .placeholder = Stillingsbetegnelse
+    .title = Stilling eller job
 vcard-org-role = Rolle
 vcard-org-role-input =
-    .title = Funktion eller rolle i en given situation
     .placeholder = Rolle i et projekt
+    .title = Funktion eller rolle i en given situation
 vcard-org-org = Organisation
 vcard-org-org-input =
-    .title = Organisationsnavn
     .placeholder = Virksomhedsnavn
+    .title = Organisationsnavn
 vcard-org-org-unit = Afdeling
 vcard-org-org-unit-input =
-    .title = Organisationsafdelingsnavn
     .placeholder = Afdeling
-
-# Custom properties
-
+    .title = Organisationsafdelingsnavn
 vcard-custom-header = Tilpassede egenskaber
 vcard-custom-add = Tilføj tilpassede egenskaber
 vcard-remove-button-title =

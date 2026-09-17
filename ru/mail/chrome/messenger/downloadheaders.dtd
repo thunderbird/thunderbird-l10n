@@ -4,13 +4,6 @@
 
 <!ENTITY all.label "Скачать все заголовки">
 <!ENTITY all.accesskey "в">
-
-<!-- LOCALIZATION NOTE (download.label):
-    consider the download.label and headers.label as a single sentence
-    with the number of headers to be downloaded inserted between them:
-    EXAMPLE: "Download" <some number> "headers"
-    Either label could be set to null ("") if required grammatically. -->
-
 <!ENTITY download.label "Скачать">
 <!ENTITY download.accesskey "З">
 <!-- LOCALIZATION NOTE (headers.label): see note for download.label -->

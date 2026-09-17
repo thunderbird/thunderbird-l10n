@@ -13,8 +13,8 @@ recurrent-event =
     .value = Errepikatuko den gertaera
 # $locationProperty is the location of the event
 calendar-invitation-location =
-    .value = Kokapena: { $locationProperty }
     .tooltiptext = { $locationProperty }
+    .value = Kokapena: { $locationProperty }
 # $locationProperty is the location of the event
 calendar-invitations-location =
     .value = Kokapena: { $locationProperty }

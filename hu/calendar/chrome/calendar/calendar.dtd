@@ -210,9 +210,6 @@
 <!ENTITY calendar.tasks.view.calendarlist.accesskey "l">
 <!ENTITY calendar.tasks.view.filtertasks.label "Feladatok szűrése">
 <!ENTITY calendar.tasks.view.filtertasks.accesskey "F">
-
-<!-- Calendar Alarm Dialog -->
-
 <!ENTITY calendar.alarm.location.label "Hely:">
 <!ENTITY calendar.alarm.details.label "Részletek…">
 <!ENTITY calendar.alarm.snoozefor.label "Szundi">

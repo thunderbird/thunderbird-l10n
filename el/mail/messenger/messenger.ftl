@@ -30,55 +30,43 @@ content-tab-security-high-icon =
     .alt = Η σύνδεση είναι ασφαλής
 content-tab-security-broken-icon =
     .alt = Η σύνδεση δεν είναι ασφαλής
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = Μετάβαση πίσω κατά μία σελίδα ({ $shortcut })
     .aria-label = Πίσω
+    .tooltiptext = Μετάβαση πίσω κατά μία σελίδα ({ $shortcut })
     .accesskey = Π
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Πίσω
     .accesskey = Π
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
-    .tooltiptext = Μετάβαση εμπρός κατά μία σελίδα ({ $shortcut })
     .aria-label = Εμπρός
+    .tooltiptext = Μετάβαση εμπρός κατά μία σελίδα ({ $shortcut })
     .accesskey = Ε
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = Εμπρός
     .accesskey = Ε
-
-# Reload
-
 content-tab-menu-reload =
-    .tooltiptext = Επαναφόρτωση σελίδας
     .aria-label = Επαναφόρτωση
+    .tooltiptext = Επαναφόρτωση σελίδας
     .accesskey = π
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
-    .tooltiptext = Επαναφόρτωση σελίδας
     .label = Επαναφόρτωση
+    .tooltiptext = Επαναφόρτωση σελίδας
     .accesskey = π
-
-# Stop
-
 content-tab-menu-stop =
-    .tooltiptext = Διακοπή φόρτωσης σελίδας
     .aria-label = Διακοπή
+    .tooltiptext = Διακοπή φόρτωσης σελίδας
     .accesskey = Δ
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
-    .tooltiptext = Διακοπή φόρτωσης σελίδας
     .label = Διακοπή
+    .tooltiptext = Διακοπή φόρτωσης σελίδας
     .accesskey = Δ
 open-windows-warning-confirmation-title = Επιβεβαίωση
 # Variables:
@@ -360,8 +348,8 @@ other-action-copy-message-link =
 other-action-copy-news-link =
     .label = Αντιγραφή συνδέσμου συζητήσεων
 message-header-msg-flagged =
-    .title = Με αστέρι
     .aria-label = Με αστέρι
+    .title = Με αστέρι
 message-header-delete =
     .label = Διαγραφή
     .tooltiptext = Διαγραφή μηνύματος
@@ -455,9 +443,9 @@ decrypt-and-copy-failures-multiple =
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = Γραμμή χώρων
-    .aria-label = Γραμμή χώρων
     .aria-description = Κάθετη γραμμή εργαλείων για την εναλλαγή μεταξύ διαφορετικών χώρων. Χρησιμοποιήστε τα πλήκτρα βελών για να πλοηγηθείτε στα διαθέσιμα κουμπιά.
+    .aria-label = Γραμμή χώρων
+    .toolbarname = Γραμμή χώρων
 spaces-toolbar-button-mail2 =
     .title = Αλληλογραφία
 spaces-toolbar-button-address-book2 =

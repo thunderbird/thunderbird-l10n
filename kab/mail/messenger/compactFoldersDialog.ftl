@@ -5,10 +5,10 @@
 compact-folders-dialog-title = Ssed ikaramen
 compact-dialog =
     .buttonlabelaccept = Ssed tura
-    .buttonaccesskeyaccept = S
     .buttonlabelcancel = Smekti-yi-d ticki
-    .buttonaccesskeycancel = S
     .buttonlabelextra1 = Issin ugar…
+    .buttonaccesskeyaccept = S
+    .buttonaccesskeycancel = S
     .buttonaccesskeyextra1 = I
 compact-dialog-never-ask-checkbox =
     .label = Ssed ikaramen s wudem awurman sya ɣer sdat

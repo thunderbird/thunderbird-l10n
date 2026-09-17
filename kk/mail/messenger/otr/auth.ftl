@@ -3,8 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 otr-auth =
-    .title = Контактінің жеке басын растау
     .buttonlabelaccept = Растау
+    .title = Контактінің жеке басын растау
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 auth-title = { $name } жеке басын растау

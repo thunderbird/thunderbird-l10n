@@ -31,55 +31,43 @@ content-tab-security-high-icon =
     .alt = Веза је безбедна
 content-tab-security-broken-icon =
     .alt = Веза није безбедна
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = Иди на претходну страницу ({ $shortcut })
     .aria-label = Назад
+    .tooltiptext = Иди на претходну страницу ({ $shortcut })
     .accesskey = Н
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Назад
     .accesskey = Н
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
-    .tooltiptext = Иди на следећу страницу ({ $shortcut })
     .aria-label = Напред
+    .tooltiptext = Иди на следећу страницу ({ $shortcut })
     .accesskey = д
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = Напред
     .accesskey = д
-
-# Reload
-
 content-tab-menu-reload =
-    .tooltiptext = Поново учитај страницу
     .aria-label = Поново учитај
+    .tooltiptext = Поново учитај страницу
     .accesskey = р
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
-    .tooltiptext = Поново учитај страницу
     .label = Поново учитај
+    .tooltiptext = Поново учитај страницу
     .accesskey = р
-
-# Stop
-
 content-tab-menu-stop =
-    .tooltiptext = Заустави учитавање странице
     .aria-label = Заустави
+    .tooltiptext = Заустави учитавање странице
     .accesskey = З
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
-    .tooltiptext = Заустави учитавање странице
     .label = Заустави
+    .tooltiptext = Заустави учитавање странице
     .accesskey = З
 open-windows-warning-confirmation-title = Потврди
 # Variables:
@@ -170,13 +158,13 @@ menu-file-get-next-n-news-msgs =
 # Variables:
 # $count (Number) - One or more than one folder selected for compacting
 menu-file-compact =
-    .accesskey = С
     .label =
         { $count ->
             [one] Сажми фасциклу
             [few] Сажми фасцикле
            *[other] Сажми фасцикле
         }
+    .accesskey = С
 # One or more servers selected for compacting all their folders. Only this or
 # menu-file-compact string will appear at a time, not both.
 menu-file-compact-all =
@@ -370,8 +358,8 @@ other-action-copy-message-link =
 other-action-copy-news-link =
     .label = Умножи везу вести
 message-header-msg-flagged =
-    .title = Са звездицом
     .aria-label = Са звездицом
+    .title = Са звездицом
 message-header-delete =
     .label = Обриши
     .tooltiptext = Обриши ову поруку
@@ -466,9 +454,9 @@ decrypt-and-copy-failures-multiple =
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = Просторна трака
-    .aria-label = Просторна трака
     .aria-description = Усправна трака за пребацивање између различитих простора. Користите тастере са стрелицама за кретање кроз доступну дугмад.
+    .aria-label = Просторна трака
+    .toolbarname = Просторна трака
 spaces-toolbar-button-mail2 =
     .title = Пошта
 spaces-toolbar-button-address-book2 =

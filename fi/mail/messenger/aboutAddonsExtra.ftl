@@ -9,5 +9,5 @@ add-on-learn-more-and-search-alternative-button-label = Lue lisää ja etsi vaih
 atn-addons-heading-search-input =
     .placeholder = Hae addons.thunderbird.netistä
 atn-addons-heading-search-button =
-    .title = Hae addons.thunderbird.netistä
     .aria-label = Hae addons.thunderbird.netistä
+    .title = Hae addons.thunderbird.netistä

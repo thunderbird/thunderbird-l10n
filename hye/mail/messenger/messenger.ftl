@@ -30,18 +30,6 @@ content-tab-security-high-icon =
     .alt = Կապն ապահով է
 content-tab-security-broken-icon =
     .alt = Կապն ապահով չէ
-
-# Back
-
-
-# Forward
-
-
-# Reload
-
-
-# Stop
-
 open-windows-warning-confirmation-title = Հաստատել
 # Variables:
 #   $count - number of messages to open
@@ -106,9 +94,6 @@ show-tags-folders-label =
 folder-toolbar-toggle-folder-compact-view =
     .label = Ամփոփ տեսք
     .accesskey = Ա
-
-## Folder names
-
 
 ## File Menu
 
@@ -210,8 +195,8 @@ context-menu-redirect-msg =
 other-action-redirect-msg =
     .label = Վերահասցէաւորել
 message-header-msg-flagged =
-    .title = Աստղանշուած
     .aria-label = Աստղանշուած
+    .title = Աստղանշուած
 
 ## Message header customize panel
 
@@ -262,15 +247,12 @@ no-reply-title = Պատասխանը չի աջակցուում
 no-reply-message = Պատասխանի հասցէն ({ $email }) կարծէս վերահսկուող հասցէ չէ: Այս հասցէին ուղղուած հաղորդագրութիւնները հաւանաբար ոչ ոք չի կարդայ:
 no-reply-reply-anyway-button = Պատասխանել ամէն դէպքում
 
-## error messages
-
-
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = Բացատների գործիքագաւտի
-    .aria-label = Բացատների գործիքագաւտի
     .aria-description = Ուղղահայեաց գործիքագաւտի՝ տարբեր տարածքների միջեւ անցում կատարելու համար: Աւգտագործէք սլաքների ստեղները՝ հասանելի կոճակներով ուղղորդուելու համար:
+    .aria-label = Բացատների գործիքագաւտի
+    .toolbarname = Բացատների գործիքագաւտի
 spaces-toolbar-button-mail2 =
     .title = Փոստ
 spaces-toolbar-button-address-book2 =
@@ -349,33 +331,12 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
-## OpenPGP
-
-
-## Quota panel.
-
-
-## Sort menu.
-
-
 ## Message menu.
 
 mark-as-junk-key =
     .key = թ
 mark-not-junk-key =
     .key = փ
-
-## Folder pane context.
-
-
-## Thread pane.
-
-
-## Message header.
-
-
-## Actions for the New Mail Notification
-
 
 ## Message list.
 
@@ -409,15 +370,6 @@ message-group-starred = Աստղանշուած
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = եւ այղոք
-
-## Prompts
-
-
-## Spam commands
-
-
-## Ignore threads
-
 
 ## Attachments
 

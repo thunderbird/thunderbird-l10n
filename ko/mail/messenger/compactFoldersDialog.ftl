@@ -5,10 +5,10 @@
 compact-folders-dialog-title = 폴더 압축
 compact-dialog =
     .buttonlabelaccept = 지금 압축
-    .buttonaccesskeyaccept = C
     .buttonlabelcancel = 나중에 알림
-    .buttonaccesskeycancel = R
     .buttonlabelextra1 = 더 알아보기…
+    .buttonaccesskeyaccept = C
+    .buttonaccesskeycancel = R
     .buttonaccesskeyextra1 = L
 # Variables:
 #  $data (String): The amount of space to be freed, formatted byte, MB, GB, etc., based on the size.

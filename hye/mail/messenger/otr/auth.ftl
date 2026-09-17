@@ -3,8 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 otr-auth =
-    .title = Հաստատել  կապորդի ինքնութիւնը
     .buttonlabelaccept = Հաստատել
+    .title = Հաստատել  կապորդի ինքնութիւնը
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 auth-title = Հաստատել { $name } - ի ինքնութիւնը

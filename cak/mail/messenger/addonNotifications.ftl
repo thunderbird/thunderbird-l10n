@@ -26,12 +26,6 @@ xpinstall-prompt-never-allow =
 xpinstall-prompt-install =
     .label = Tib'an ri Yakoj
     .accesskey = b
-
-# These messages are shown when a website invokes navigator.requestMIDIAccess.
-
-
-##
-
 xpinstall-disabled-locked = Xchup ruyakik ri solkema' ruma ri runuk'samajel aq'inoj.
 xpinstall-disabled = Wakami ri ruyakik solkema' chupül. Tapitz'a' pa Titzij richin natojtob'ej chik jub'ey.
 xpinstall-disabled-button =

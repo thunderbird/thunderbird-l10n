@@ -2,12 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- Entities for AccountWizard -->
-
 <!ENTITY windowTitle.label "Kontua sortzeko morroia">
-
-<!-- Entities for Identity page -->
-
 <!ENTITY identityTitle.label "Identitatea">
 <!ENTITY identityDesc.label "Kontu bakoitzak identitate bat du, besteen aurrean identifikatzen zaituen informazioa duena zure mezuak jasotzen dituztenean.">
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
@@ -20,18 +15,12 @@
 <!ENTITY fullnameLabel.accesskey "Z">
 <!ENTITY emailLabel.label "Helbide elektronikoa:">
 <!ENTITY emailLabel.accesskey "e">
-
-<!-- Entities for Incoming Server page -->
-
 <!ENTITY incomingTitle.label "Hartzeko zerbitzariaren informazioa">
 <!ENTITY incomingUsername.label "Erabiltzaile-izena:">
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
 <!ENTITY newsServerNameDesc.label "Sartu berri-zerbitzariaren izena (NNTP) (adibidez, &quot;berriak.adibidea.eus&quot;).">
 <!ENTITY newsServerLabel.label "Berri-talde zerbitzaria:">
 <!ENTITY newsServerLabel.accesskey "B">
-
-<!-- Entities for Account name page -->
-
 <!ENTITY accnameTitle.label "Kontuaren izena">
 <!-- LOCALIZATION NOTE (accnameDesc.label) : do not translate any "&quot;" in below line -->
 <!ENTITY accnameDesc.label "Sartu kontu hau izendatzeko erabili nahi duzun testua (adibidez, &quot;Laneko Kontua&quot;, &quot;Etxeko kontua&quot; edo &quot;Berrien kontua&quot;).">

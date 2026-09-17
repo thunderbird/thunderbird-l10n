@@ -50,9 +50,6 @@ appmenu-new-feed =
 appmenu-new-newsgroup =
     .label = Fréttahópur
     .accesskey = h
-
-## Add Account
-
 appmenu-add-account-panel-title =
     .title = Bæta við reikningi
 appmenu-add-account-panel =

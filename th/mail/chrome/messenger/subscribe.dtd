@@ -16,9 +16,5 @@
 <!ENTITY server.label "บัญชี:">
 <!ENTITY server.accesskey "ช">
 <!ENTITY subscribedHeader.label "บอกรับ">
-
-<!-- commenting out until bug 38906 is fixed
-     <!ENTITY messagesHeader.label         "Messages"> -->
-
 <!ENTITY namefield.label "แสดงรายการที่มี:">
 <!ENTITY namefield.accesskey "ส">

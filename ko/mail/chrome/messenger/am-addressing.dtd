@@ -2,8 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from am-addressing.xhtml -->
-
 <!ENTITY addressing.label "쓰기 및 주소">
 <!ENTITY addressingGroupTitle.label "쓰기 및 주소">
 <!ENTITY addressingText.label "주소 검색 설정:">
@@ -16,9 +14,6 @@
 <!ENTITY directories.label "다른 LDAP 서버 사용:">
 <!ENTITY directories.accesskey "d">
 <!ENTITY directoriesNone.label "없음">
-
-<!-- am-addressing.xhtml -->
-
 <!ENTITY compositionGroupTitle.label "메시지 쓰기">
 <!-- LOCALIZATION NOTE (useHtml.label) : do not translate "html" in below line -->
 <!ENTITY useHtml.label "HTML 형식으로 메일 쓰기">

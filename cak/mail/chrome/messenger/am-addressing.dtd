@@ -2,8 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- extracted from am-addressing.xhtml -->
-
 <!ENTITY addressing.label "Tz'ib'anïk &amp; Ochochib'äl">
 <!ENTITY addressingGroupTitle.label "Taq ochochib'äl">
 <!ENTITY addressingText.label "Toq yekanöx taq ochochib'äl:">
@@ -16,9 +14,6 @@
 <!ENTITY directories.label "Tokisäx jun chik wi chi LDAP k'uxasamaj:">
 <!ENTITY directories.accesskey "c">
 <!ENTITY directoriesNone.label "Majun">
-
-<!-- am-addressing.xhtml -->
-
 <!ENTITY compositionGroupTitle.label "Ruch'akulal">
 <!-- LOCALIZATION NOTE (useHtml.label) : do not translate "html" in below line -->
 <!ENTITY useHtml.label "Ketz'ib'äx taq tzijol pa HTML b'anikil">

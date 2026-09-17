@@ -16,9 +16,5 @@
 <!ENTITY server.label "Konto:">
 <!ENTITY server.accesskey "K">
 <!ENTITY subscribedHeader.label "Telli">
-
-<!-- commenting out until bug 38906 is fixed
-     <!ENTITY messagesHeader.label         "Messages"> -->
-
 <!ENTITY namefield.label "Kuvatakse uudistegruppe, mille nimes sisaldub:">
 <!ENTITY namefield.accesskey "v">

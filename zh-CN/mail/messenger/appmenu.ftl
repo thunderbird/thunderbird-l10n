@@ -50,9 +50,6 @@ appmenu-new-feed =
 appmenu-new-newsgroup =
     .label = 新闻组
     .accesskey = N
-
-## Add Account
-
 appmenu-add-account-panel-title =
     .title = 添加账户
 appmenu-add-account-panel =

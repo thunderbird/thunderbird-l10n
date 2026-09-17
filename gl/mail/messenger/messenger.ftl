@@ -30,55 +30,43 @@ content-tab-security-high-icon =
     .alt = A conexión é segura
 content-tab-security-broken-icon =
     .alt = A conexión non é segura
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = Recuar unha páxina ({ $shortcut })
     .aria-label = Recuar
+    .tooltiptext = Recuar unha páxina ({ $shortcut })
     .accesskey = R
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Recuar
     .accesskey = R
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
-    .tooltiptext = Avanzar unha páxina ({ $shortcut })
     .aria-label = Avanzar
+    .tooltiptext = Avanzar unha páxina ({ $shortcut })
     .accesskey = A
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = Avanzar
     .accesskey = A
-
-# Reload
-
 content-tab-menu-reload =
-    .tooltiptext = Recargar a páxina
     .aria-label = Recargar
+    .tooltiptext = Recargar a páxina
     .accesskey = R
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
-    .tooltiptext = Recargar a páxina
     .label = Recargar
+    .tooltiptext = Recargar a páxina
     .accesskey = R
-
-# Stop
-
 content-tab-menu-stop =
-    .tooltiptext = Deter a carga da páxina
     .aria-label = Deter
+    .tooltiptext = Deter a carga da páxina
     .accesskey = D
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
-    .tooltiptext = Deter a carga da páxina
     .label = Deter
+    .tooltiptext = Deter a carga da páxina
     .accesskey = D
 open-windows-warning-confirmation-title = Confirmar
 # Variables:
@@ -334,8 +322,8 @@ other-action-copy-message-link =
 other-action-copy-news-link =
     .label = Copiar a ligazón das noticias
 message-header-msg-flagged =
-    .title = Con estrela
     .aria-label = Con estrela
+    .title = Con estrela
 message-header-delete =
     .label = Eliminar
     .tooltiptext = Eliminar esta mensaxe
@@ -429,9 +417,9 @@ decrypt-and-copy-failures-multiple =
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = Barra de ferramentas de espazos
-    .aria-label = Barra de ferramentas de espazos
     .aria-description = Barra de ferramentas vertical para cambiar entre diferentes espazos. Use as teclas de frecha para navegar polos botóns dispoñibles.
+    .aria-label = Barra de ferramentas de espazos
+    .toolbarname = Barra de ferramentas de espazos
 spaces-toolbar-button-mail2 =
     .title = Correo
 spaces-toolbar-button-address-book2 =
@@ -539,21 +527,12 @@ quota-panel-percent-used = { $percent }% cheo
         IMAP quota: { $usage } used of { $limit } total
         Cota de IMAP: { $usage } usado dun total de { $limit }
 
-## Sort menu.
-
-
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
-
-## Folder pane context.
-
-
-## Thread pane.
-
 
 ## Message header.
 
@@ -609,12 +588,6 @@ and-others = e outros.
 ## Prompts
 
 prompt-dont-ask-again = Non preguntar de novo.
-
-## Spam commands
-
-
-## Ignore threads
-
 
 ## Attachments
 

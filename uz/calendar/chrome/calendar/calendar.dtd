@@ -176,9 +176,6 @@
 <!ENTITY calendar.tasks.view.calendarlist.accesskey "r">
 <!ENTITY calendar.tasks.view.filtertasks.label "Vazifalarni filterlash">
 <!ENTITY calendar.tasks.view.filtertasks.accesskey "f">
-
-<!-- Calendar Alarm Dialog -->
-
 <!ENTITY calendar.alarm.location.label "Joylashuvi:">
 <!ENTITY calendar.alarm.details.label "Tafsilotlari…">
 <!ENTITY calendar.alarm.snoozefor.label "Ortga surish: ">

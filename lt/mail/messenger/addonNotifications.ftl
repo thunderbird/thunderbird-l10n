@@ -26,12 +26,6 @@ xpinstall-prompt-never-allow =
 xpinstall-prompt-install =
     .label = Tęsti diegimą
     .accesskey = C
-
-# These messages are shown when a website invokes navigator.requestMIDIAccess.
-
-
-##
-
 xpinstall-disabled-locked = Programinės įrangos diegimas šiame kompiuteryje uždraustas administratoriaus.
 xpinstall-disabled = Programinės įrangos diegimas šiuo metu neleidžiamas. Jei norite leisti, spustelėkite „Leisti“ ir bandykite vėl.
 xpinstall-disabled-button =

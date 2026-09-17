@@ -89,9 +89,6 @@
 <!ENTITY calendar.tasks.view.minimonth.accesskey "М">
 <!ENTITY calendar.tasks.view.calendarlist.label "Список со календари">
 <!ENTITY calendar.tasks.view.calendarlist.accesskey "л">
-
-<!-- Calendar Alarm Dialog -->
-
 <!ENTITY calendar.alarm.location.label "Локација:">
 <!ENTITY calendar.alarm.details.label "Детали…">
 <!ENTITY calendar.alarm.snoozefor.label "Дремка за">

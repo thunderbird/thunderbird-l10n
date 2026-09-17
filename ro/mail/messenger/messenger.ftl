@@ -31,55 +31,43 @@ content-tab-security-high-icon =
     .alt = Conexiunea este securizată
 content-tab-security-broken-icon =
     .alt = Conexiunea nu este securizată
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = Înapoi cu o pagină ({ $shortcut })
     .aria-label = Înapoi
+    .tooltiptext = Înapoi cu o pagină ({ $shortcut })
     .accesskey = B
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Înapoi
     .accesskey = B
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
-    .tooltiptext = Înainte cu o pagină ({ $shortcut })
     .aria-label = Înainte
+    .tooltiptext = Înainte cu o pagină ({ $shortcut })
     .accesskey = F
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = Înainte
     .accesskey = F
-
-# Reload
-
 content-tab-menu-reload =
-    .tooltiptext = Reîncarcă pagina
     .aria-label = Reîncarcă
+    .tooltiptext = Reîncarcă pagina
     .accesskey = R
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
-    .tooltiptext = Reîncarcă pagina
     .label = Reîncarcă
+    .tooltiptext = Reîncarcă pagina
     .accesskey = R
-
-# Stop
-
 content-tab-menu-stop =
-    .tooltiptext = Oprește încărcarea paginii
     .aria-label = Oprește
+    .tooltiptext = Oprește încărcarea paginii
     .accesskey = S
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
-    .tooltiptext = Oprește încărcarea paginii
     .label = Oprește
+    .tooltiptext = Oprește încărcarea paginii
     .accesskey = S
 open-windows-warning-confirmation-title = Confirmare
 # Variables:
@@ -369,8 +357,8 @@ other-action-copy-message-link =
 other-action-copy-news-link =
     .label = Copiază linkul de știri
 message-header-msg-flagged =
-    .title = Cu steluță
     .aria-label = Cu steluță
+    .title = Cu steluță
 message-header-delete =
     .label = Șterge
     .tooltiptext = Șterge mesajul
@@ -465,9 +453,9 @@ decrypt-and-copy-failures-multiple =
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = Bară de instrumente pentru spații
-    .aria-label = Bară de instrumente pentru spații
     .aria-description = Bară de instrumente verticală pentru trecerea de la un spațiu la latul. Folosește tastele cu săgeți pentru a merge la butoanele disponibile.
+    .aria-label = Bară de instrumente pentru spații
+    .toolbarname = Bară de instrumente pentru spații
 spaces-toolbar-button-mail2 =
     .title = E-mail
 spaces-toolbar-button-address-book2 =

@@ -26,12 +26,6 @@ xpinstall-prompt-never-allow =
 xpinstall-prompt-install =
     .label = Շարունակել տեղադրումը
     .accesskey = Շ
-
-# These messages are shown when a website invokes navigator.requestMIDIAccess.
-
-
-##
-
 xpinstall-disabled-locked = Ծրագրաշարի տեղադրումը անջատուել է համակարգավարի կողմից։
 xpinstall-disabled = Ծրագրերի տեղադրումը ժամանակաւորապէս անջատուած է: Սեղմէք միացնել եւ կրկին փորձէք:
 xpinstall-disabled-button =

@@ -31,14 +31,8 @@ xpinstall-prompt-never-allow-and-report =
 xpinstall-prompt-install =
     .label = Z instalaciju pokročować
     .accesskey = Z
-
-# These messages are shown when a website invokes navigator.requestMIDIAccess.
-
 site-permission-install-first-prompt-midi-header = Tute sydła sej přistup k wašim gratam MIDI (Musical Instrument Digital Interface) žada. Gratowy přistup da so zmóžnić, hdyž přidatk instalujeće.
 site-permission-install-first-prompt-midi-message = Wěsty přistup so njegarantuje. Postupujće jenož, jeli tutomu sydłu dowěrjeće.
-
-##
-
 xpinstall-disabled-locked = Softwarowa instalacija je so wot wašeho systemoweho administratora znjemóžniła.
 xpinstall-disabled = Instalacija softwary je tuchwilu znjemóžnjena. Klikńće na Zmóžnić a spytajće hišće raz.
 xpinstall-disabled-button =

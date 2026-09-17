@@ -519,10 +519,6 @@ mark-read-delay =
     .label = Post monstrar pro
     .accesskey = m
 seconds-label = secundas
-
-## Note: This will concatenate to "After viewing for [___] seconds",
-## using (mark-read-after-viewing) and a number (seconds-label).
-
 mark-read-after-viewing =
     .label = Post visualisar pro
     .accesskey = v

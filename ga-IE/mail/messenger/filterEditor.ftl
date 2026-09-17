@@ -61,9 +61,6 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } as { $total }
-
-## Filter List Dialog
-
 filter-window-title = Scagairí Teachtaireachta
 filter-name-column =
     .label = Ainm an Scagaire
@@ -83,8 +80,8 @@ filter-delete-button =
     .accesskey = o
 filter-reorder-top-button =
     .label = Go dtí an barr
-    .accesskey = o
     .tooltiptext = Cuir an scagaire seo i bhfeidhm roimh na cinn eile
+    .accesskey = o
 filter-reorder-up-button =
     .label = Bog Suas
     .accesskey = u
@@ -93,8 +90,8 @@ filter-reorder-down-button =
     .accesskey = o
 filter-reorder-bottom-button =
     .label = Go dtí an bun
-    .accesskey = B
     .tooltiptext = Cuir an scagaire seo i bhfeidhm tar éis na cinn eile
+    .accesskey = B
 filter-header-label =
     .value = Cuirtear scagairí cumasaithe i bhfeidhm san ord thíos go huathoibríoch.
 filter-filters-for-prefix =

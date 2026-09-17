@@ -31,14 +31,8 @@ xpinstall-prompt-never-allow-and-report =
 xpinstall-prompt-install =
     .label = Continuar coa instalación
     .accesskey = C
-
-# These messages are shown when a website invokes navigator.requestMIDIAccess.
-
 site-permission-install-first-prompt-midi-header = Este sitio está solicitando acceso aos seus dispositivos MIDI (Interface dixital de instrumentos musicais). O acceso ao dispositivo pódese activar instalando un complemento.
 site-permission-install-first-prompt-midi-message = Non se garante que este acceso sexa seguro. Continúe só se confía neste sitio.
-
-##
-
 xpinstall-disabled-locked = O administrador do sistema desactivou a instalación de programas.
 xpinstall-disabled = Actualmente a instalación de programas está desactivada. Prema en Activar e ténteo de novo.
 xpinstall-disabled-button =

@@ -50,9 +50,6 @@ appmenu-new-feed =
 appmenu-new-newsgroup =
     .label = Hírcsoport
     .accesskey = r
-
-## Add Account
-
 appmenu-add-account-panel-title =
     .title = Fiók hozzáadása
 appmenu-add-account-panel =

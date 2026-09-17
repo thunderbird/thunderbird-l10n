@@ -90,9 +90,6 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } / { $total }
-
-## Filter List Dialog
-
 filter-window-title = İleti Süzgeçleri
 filter-name-column =
     .label = Süzgeç adı
@@ -112,8 +109,8 @@ filter-delete-button =
     .accesskey = S
 filter-reorder-top-button =
     .label = Üste taşı
-    .accesskey = Ü
     .tooltiptext = Süzgeci diğerlerinden önce çalışacak şekilde yeniden düzenle
+    .accesskey = Ü
 filter-reorder-up-button =
     .label = Yukarı taşı
     .accesskey = Y
@@ -122,8 +119,8 @@ filter-reorder-down-button =
     .accesskey = A
 filter-reorder-bottom-button =
     .label = Alta taşı
-    .accesskey = A
     .tooltiptext = Süzgeci diğerlerinden sonra çalışacak şekilde yeniden düzenle
+    .accesskey = A
 filter-header-label =
     .value = Etkin süzgeçler aşağıdaki sıralamaya göre otomatik olarak çalıştırılır.
 filter-filters-for-prefix =

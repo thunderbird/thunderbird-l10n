@@ -9,5 +9,5 @@ add-on-learn-more-and-search-alternative-button-label = Saiba mais e encontre um
 atn-addons-heading-search-input =
     .placeholder = Pesquisar em addons.thunderbird.net
 atn-addons-heading-search-button =
-    .title = Pesquisar em addons.thunderbird.net
     .aria-label = Pesquisar em addons.thunderbird.net
+    .title = Pesquisar em addons.thunderbird.net

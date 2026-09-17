@@ -16,9 +16,5 @@
 <!ENTITY server.label "Λογαριασμός:">
 <!ENTITY server.accesskey "γ">
 <!ENTITY subscribedHeader.label "Συνδρομή">
-
-<!-- commenting out until bug 38906 is fixed
-     <!ENTITY messagesHeader.label         "Messages"> -->
-
 <!ENTITY namefield.label "Εμφάνιση στοιχείων που περιέχουν:">
 <!ENTITY namefield.accesskey "χ">

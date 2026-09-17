@@ -50,9 +50,6 @@ appmenu-new-feed =
 appmenu-new-newsgroup =
     .label = Interesna grupa
     .accesskey = n
-
-## Add Account
-
 appmenu-add-account-panel-title =
     .title = Dodaj račun
 appmenu-add-account-panel =

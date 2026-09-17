@@ -5,10 +5,10 @@
 compact-folders-dialog-title = Mappák tömörítése
 compact-dialog =
     .buttonlabelaccept = Tömörítés most
-    .buttonaccesskeyaccept = T
     .buttonlabelcancel = Emlékeztessen később
-    .buttonaccesskeycancel = E
     .buttonlabelextra1 = További tudnivalók…
+    .buttonaccesskeyaccept = T
+    .buttonaccesskeycancel = E
     .buttonaccesskeyextra1 = v
 # Variables:
 #  $data (String): The amount of space to be freed, formatted byte, MB, GB, etc., based on the size.

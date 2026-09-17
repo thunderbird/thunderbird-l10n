@@ -192,9 +192,6 @@
 <!ENTITY calendar.tasks.view.calendarlist.accesskey "ר">
 <!ENTITY calendar.tasks.view.filtertasks.label "סנן משימות">
 <!ENTITY calendar.tasks.view.filtertasks.accesskey "מ">
-
-<!-- Calendar Alarm Dialog -->
-
 <!ENTITY calendar.alarm.location.label "מיקום:">
 <!ENTITY calendar.alarm.details.label "פרטים…">
 <!ENTITY calendar.alarm.snoozefor.label "תנומה למשך">

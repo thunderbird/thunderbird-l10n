@@ -8,5 +8,5 @@ add-on-search-alternative-button-label = Chattar in supplement alternativ
 atn-addons-heading-search-input =
     .placeholder = Tschertgar sin addons.thunderbird.net
 atn-addons-heading-search-button =
-    .title = Tschertgar sin addons.thunderbird.net
     .aria-label = Tschertgar sin addons.thunderbird.net
+    .title = Tschertgar sin addons.thunderbird.net

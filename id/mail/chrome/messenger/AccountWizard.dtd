@@ -2,12 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- Entities for AccountWizard -->
-
 <!ENTITY windowTitle.label "Penuntun Pembuatan Akun">
-
-<!-- Entities for Identity page -->
-
 <!ENTITY identityTitle.label "Identitas">
 <!ENTITY identityDesc.label "Setiap akun memiliki satu identitas. Identitas ini akan digunakan oleh orang lain untuk mengenali Anda saat mereka menerima pesan Anda.">
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
@@ -20,18 +15,12 @@
 <!ENTITY fullnameLabel.accesskey "N">
 <!ENTITY emailLabel.label "Alamat Email:">
 <!ENTITY emailLabel.accesskey "E">
-
-<!-- Entities for Incoming Server page -->
-
 <!ENTITY incomingTitle.label "Informasi Server Penerima">
 <!ENTITY incomingUsername.label "Nama Pengguna:">
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
 <!ENTITY newsServerNameDesc.label "Masukkan nama server news (NNTP) Anda (contohnya, &quot;news.example.net&quot;).">
 <!ENTITY newsServerLabel.label "Server Newsgroup:">
 <!ENTITY newsServerLabel.accesskey "N">
-
-<!-- Entities for Account name page -->
-
 <!ENTITY accnameTitle.label "Nama Akun">
 <!-- LOCALIZATION NOTE (accnameDesc.label) : do not translate any "&quot;" in below line -->
 <!ENTITY accnameDesc.label "Masukkan nama yang ingin Anda jadikan sebagai referensi akun ini (contohnya, &quot;Akun Kantor&quot;, &quot;Akun Pribadi&quot;, atau &quot;Akun News&quot;).">

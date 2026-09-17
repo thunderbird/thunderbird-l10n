@@ -5,10 +5,10 @@
 compact-folders-dialog-title = Údržba priečinkov
 compact-dialog =
     .buttonlabelaccept = Vykonať údržbu teraz
-    .buttonaccesskeyaccept = V
     .buttonlabelcancel = Pripomenúť neskôr
-    .buttonaccesskeycancel = P
     .buttonlabelextra1 = Ďalšie informácie…
+    .buttonaccesskeyaccept = V
+    .buttonaccesskeycancel = P
     .buttonaccesskeyextra1 = a
 # Variables:
 #  $data (String): The amount of space to be freed, formatted byte, MB, GB, etc., based on the size.

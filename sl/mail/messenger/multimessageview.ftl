@@ -14,8 +14,8 @@ multi-message-undelete-button =
     .label = Razveljavi izbris
     .tooltiptext = Razveljavi brisanje
 multi-message-flagged-button =
-    .title = Z zvezdico
     .aria-label = Z zvezdico
+    .title = Z zvezdico
 # Variables:
 #   $count - total number of conversations (threads or solitary messages) selected
 num-conversations =

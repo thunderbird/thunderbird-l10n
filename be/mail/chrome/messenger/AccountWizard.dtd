@@ -2,12 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- Entities for AccountWizard -->
-
 <!ENTITY windowTitle.label "Майстар стварэння ўліковых запісаў">
-
-<!-- Entities for Identity page -->
-
 <!ENTITY identityTitle.label "Адмета">
 <!ENTITY identityDesc.label "Кожны ўліковы запіс мае ідэнтыфікацыйныя даныя. Гэта інфармацыя, якая прадстаўляе вас у паведамленнях, якія вы адпраўляеце.">
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
@@ -20,18 +15,12 @@
 <!ENTITY fullnameLabel.accesskey "В">
 <!ENTITY emailLabel.label "Адрас электроннай пошты:">
 <!ENTITY emailLabel.accesskey "Э">
-
-<!-- Entities for Incoming Server page -->
-
 <!ENTITY incomingTitle.label "Інфармацыя пра сервер уваходнай пошты">
 <!ENTITY incomingUsername.label "Імя карыстальніка:">
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
 <!ENTITY newsServerNameDesc.label "Увядзіце імя вашага сервера навін (NNTP) (напрыклад: «news.example.net»).">
 <!ENTITY newsServerLabel.label "Сервер груп навін:">
 <!ENTITY newsServerLabel.accesskey "н">
-
-<!-- Entities for Account name page -->
-
 <!ENTITY accnameTitle.label "Імя ўліковага запісу">
 <!-- LOCALIZATION NOTE (accnameDesc.label) : do not translate any "&quot;" in below line -->
 <!ENTITY accnameDesc.label "Увядзіце назву, па якой вы будзеце спасылацца на гэты ўліковы запіс (напрыклад, «Працоўны», «Хатні», «Навінавы»).">

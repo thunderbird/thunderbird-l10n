@@ -3,8 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 otr-auth =
-    .title = Gwirio hunaniaeth cyswllt
     .buttonlabelaccept = Gwirio
+    .title = Gwirio hunaniaeth cyswllt
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 auth-title = Gwirio hunaniaeth { $name }

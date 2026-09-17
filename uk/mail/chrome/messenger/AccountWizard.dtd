@@ -2,12 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- Entities for AccountWizard -->
-
 <!ENTITY windowTitle.label "Майстер облікових записів">
-
-<!-- Entities for Identity page -->
-
 <!ENTITY identityTitle.label "Ідентифікація">
 <!ENTITY identityDesc.label "Кожен обліковий запис має ідентифікатор – інформацію, що визначає вас для інших, коли вони отримують ваші повідомлення.">
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
@@ -20,18 +15,12 @@
 <!ENTITY fullnameLabel.accesskey "В">
 <!ENTITY emailLabel.label "Електронна адреса:">
 <!ENTITY emailLabel.accesskey "а">
-
-<!-- Entities for Incoming Server page -->
-
 <!ENTITY incomingTitle.label "Інформація щодо сервера вхідної пошти">
 <!ENTITY incomingUsername.label "Ім'я користувача:">
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
 <!ENTITY newsServerNameDesc.label "Введіть назву сервера новин (NNTP) (наприклад, &quot;news.example.net&quot;).">
 <!ENTITY newsServerLabel.label "Сервер новин:">
 <!ENTITY newsServerLabel.accesskey "н">
-
-<!-- Entities for Account name page -->
-
 <!ENTITY accnameTitle.label "Назва облікового запису">
 <!-- LOCALIZATION NOTE (accnameDesc.label) : do not translate any "&quot;" in below line -->
 <!ENTITY accnameDesc.label "Введіть бажану назву для цього облікового запису (наприклад, &quot;Робота&quot;, &quot;Особисте&quot; або &quot;Новини&quot;).">

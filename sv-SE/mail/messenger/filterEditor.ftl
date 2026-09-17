@@ -90,9 +90,6 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } av { $total }
-
-## Filter List Dialog
-
 filter-window-title = Meddelandefilter
 filter-name-column =
     .label = Filternamn
@@ -112,8 +109,8 @@ filter-delete-button =
     .accesskey = T
 filter-reorder-top-button =
     .label = Flytta till toppen
-    .accesskey = o
     .tooltiptext = Ordna filter så det utförs före alla andra
+    .accesskey = o
 filter-reorder-up-button =
     .label = Flytta upp
     .accesskey = u
@@ -122,8 +119,8 @@ filter-reorder-down-button =
     .accesskey = y
 filter-reorder-bottom-button =
     .label = Flytta till botten
-    .accesskey = b
     .tooltiptext = Ordna filter så det utförs efter alla andra
+    .accesskey = b
 filter-header-label =
     .value = Aktiva filterregler körs i följande ordning.
 filter-filters-for-prefix =

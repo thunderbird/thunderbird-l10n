@@ -210,9 +210,6 @@
 <!ENTITY calendar.tasks.view.calendarlist.accesskey "l">
 <!ENTITY calendar.tasks.view.filtertasks.label "Sía verkefni">
 <!ENTITY calendar.tasks.view.filtertasks.accesskey "S">
-
-<!-- Calendar Alarm Dialog -->
-
 <!ENTITY calendar.alarm.location.label "Staðsetning:">
 <!ENTITY calendar.alarm.details.label "Upplýsingar…">
 <!ENTITY calendar.alarm.snoozefor.label "Blunda í">

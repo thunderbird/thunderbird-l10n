@@ -210,9 +210,6 @@
 <!ENTITY calendar.tasks.view.calendarlist.accesskey "A">
 <!ENTITY calendar.tasks.view.filtertasks.label "Taken filterje">
 <!ENTITY calendar.tasks.view.filtertasks.accesskey "f">
-
-<!-- Calendar Alarm Dialog -->
-
 <!ENTITY calendar.alarm.location.label "Lokaasje:">
 <!ENTITY calendar.alarm.details.label "Details…">
 <!ENTITY calendar.alarm.snoozefor.label "Slommerje foar">

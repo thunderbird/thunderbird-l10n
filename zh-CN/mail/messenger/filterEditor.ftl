@@ -82,9 +82,6 @@ filter-count-items = { $count } 项
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } / { $total }
-
-## Filter List Dialog
-
 filter-window-title = 消息过滤器
 filter-name-column =
     .label = 描述
@@ -104,8 +101,8 @@ filter-delete-button =
     .accesskey = t
 filter-reorder-top-button =
     .label = 移动到顶端
-    .accesskey = o
     .tooltiptext = 重新排列过滤器以便它可以最先执行
+    .accesskey = o
 filter-reorder-up-button =
     .label = 上移
     .accesskey = U
@@ -114,8 +111,8 @@ filter-reorder-down-button =
     .accesskey = D
 filter-reorder-bottom-button =
     .label = 移动到底部
-    .accesskey = B
     .tooltiptext = 重新排列过滤器以便它可以最后执行
+    .accesskey = B
 filter-header-label =
     .value = 可用过滤器按如下显示的顺序运行。
 filter-filters-for-prefix =

@@ -5,10 +5,10 @@
 compact-folders-dialog-title = Уплътняване на папки
 compact-dialog =
     .buttonlabelaccept = Уплътняване
-    .buttonaccesskeyaccept = ъ
     .buttonlabelcancel = Напомнете ми по-късно
-    .buttonaccesskeycancel = к
     .buttonlabelextra1 = Научете повече
+    .buttonaccesskeyaccept = ъ
+    .buttonaccesskeycancel = к
     .buttonaccesskeyextra1 = п
 # Variables:
 #  $data (String): The amount of space to be freed, formatted byte, MB, GB, etc., based on the size.

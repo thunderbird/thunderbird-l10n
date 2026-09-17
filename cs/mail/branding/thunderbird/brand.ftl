@@ -22,8 +22,8 @@
         [ins] Thunderbirdem
        *[nom] Thunderbird
     }
-    .gender = masculine
     .case-status = with-cases
+    .gender = masculine
 -brand-short-name =
     { $case ->
         [gen] Thunderbirdu
@@ -34,8 +34,8 @@
         [ins] Thunderbirdem
        *[nom] Thunderbird
     }
-    .gender = masculine
     .case-status = with-cases
+    .gender = masculine
 -brand-full-name =
     { $case ->
         [gen] Mozilly Thunderbirdu
@@ -46,8 +46,8 @@
         [ins] Mozillou Thunderbirdem
        *[nom] Mozilla Thunderbird
     }
-    .gender = masculine
     .case-status = with-cases
+    .gender = masculine
 # This brand name can be used in messages where the product name needs to
 # remain unchanged across different versions (Daily, Beta, etc.).
 -brand-product-name =
@@ -60,8 +60,8 @@
         [ins] Thunderbirdem
        *[nom] Thunderbird
     }
-    .gender = masculine
     .case-status = with-cases
+    .gender = masculine
 -vendor-short-name =
     { $case ->
         [gen] Mozilly
@@ -72,6 +72,6 @@
         [ins] Mozillou
        *[nom] Mozilla
     }
-    .gender = feminine
     .case-status = with-cases
+    .gender = feminine
 trademarkInfo = Mozilla Thunderbird a jeho loga jsou ochrannými známkami organizace Mozilla Foundation.

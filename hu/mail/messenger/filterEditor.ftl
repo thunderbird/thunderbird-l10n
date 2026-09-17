@@ -90,9 +90,6 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } / { $total }
-
-## Filter List Dialog
-
 filter-window-title = Üzenetszűrők
 filter-name-column =
     .label = Szűrő neve
@@ -112,8 +109,8 @@ filter-delete-button =
     .accesskey = T
 filter-reorder-top-button =
     .label = Mozgatás a tetejére
-    .accesskey = M
     .tooltiptext = Szűrő átrendezése, hogy a többi előtt fusson
+    .accesskey = M
 filter-reorder-up-button =
     .label = Mozgatás felfelé
     .accesskey = f
@@ -122,8 +119,8 @@ filter-reorder-down-button =
     .accesskey = l
 filter-reorder-bottom-button =
     .label = Mozgatás az aljára
-    .accesskey = a
     .tooltiptext = Szűrő átrendezése, hogy a többi után fusson
+    .accesskey = a
 filter-header-label =
     .value = Az engedélyezett szűrők a következő sorrendben fognak futni:
 filter-filters-for-prefix =

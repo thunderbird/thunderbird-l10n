@@ -16,9 +16,5 @@
 <!ENTITY server.label "Регистрация:">
 <!ENTITY server.accesskey "Р">
 <!ENTITY subscribedHeader.label "Абониране">
-
-<!-- commenting out until bug 38906 is fixed
-     <!ENTITY messagesHeader.label         "Messages"> -->
-
 <!ENTITY namefield.label "Показване на елементи, съдържащи:">
 <!ENTITY namefield.accesskey "П">

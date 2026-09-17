@@ -22,18 +22,6 @@ content-tab-security-high-icon =
     .alt = החיבור מאובטח
 content-tab-security-broken-icon =
     .alt = החיבור אינו מאובטח
-
-# Back
-
-
-# Forward
-
-
-# Reload
-
-
-# Stop
-
 open-windows-warning-confirmation-title = אישור
 open-tabs-warning-confirmation-title = אישור
 

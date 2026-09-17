@@ -210,9 +210,6 @@
 <!ENTITY calendar.tasks.view.calendarlist.accesskey "Λ">
 <!ENTITY calendar.tasks.view.filtertasks.label "Φιλτράρισμα εργασιών">
 <!ENTITY calendar.tasks.view.filtertasks.accesskey "Φ">
-
-<!-- Calendar Alarm Dialog -->
-
 <!ENTITY calendar.alarm.location.label "Τοποθεσία:">
 <!ENTITY calendar.alarm.details.label "Λεπτομέρειες…">
 <!ENTITY calendar.alarm.snoozefor.label "Αναστολή υπενθύμισης για">

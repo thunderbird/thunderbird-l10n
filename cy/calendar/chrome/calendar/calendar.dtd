@@ -210,9 +210,6 @@
 <!ENTITY calendar.tasks.view.calendarlist.accesskey "R">
 <!ENTITY calendar.tasks.view.filtertasks.label "Hidlo Tasgau">
 <!ENTITY calendar.tasks.view.filtertasks.accesskey "H">
-
-<!-- Calendar Alarm Dialog -->
-
 <!ENTITY calendar.alarm.location.label "Lleoliad:">
 <!ENTITY calendar.alarm.details.label "Manylion…">
 <!ENTITY calendar.alarm.snoozefor.label "Cysgu am">

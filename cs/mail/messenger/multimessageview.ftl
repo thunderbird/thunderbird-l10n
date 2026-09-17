@@ -14,8 +14,8 @@ multi-message-undelete-button =
     .label = Zrušit smazání
     .tooltiptext = Zruší smazání
 multi-message-flagged-button =
-    .title = S hvězdičkou
     .aria-label = S hvězdičkou
+    .title = S hvězdičkou
 # Variables:
 #   $count - total number of conversations (threads or solitary messages) selected
 num-conversations =

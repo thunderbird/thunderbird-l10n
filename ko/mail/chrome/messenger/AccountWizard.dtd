@@ -2,12 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- Entities for AccountWizard -->
-
 <!ENTITY windowTitle.label "계정 마법사">
-
-<!-- Entities for Identity page -->
-
 <!ENTITY identityTitle.label "아이디">
 <!ENTITY identityDesc.label "메시지 전송 시 계정마다 다른 아이디로 보낼 수 있습니다.">
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
@@ -20,18 +15,12 @@
 <!ENTITY fullnameLabel.accesskey "Y">
 <!ENTITY emailLabel.label "메일 주소:">
 <!ENTITY emailLabel.accesskey "E">
-
-<!-- Entities for Incoming Server page -->
-
 <!ENTITY incomingTitle.label "받는 서버 정보">
 <!ENTITY incomingUsername.label "사용자명:">
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
 <!ENTITY newsServerNameDesc.label "뉴스(NNTP) 서버의 이름을 입력해 주십시오. (예:  news.example.kr)">
 <!ENTITY newsServerLabel.label "뉴스 서버:">
 <!ENTITY newsServerLabel.accesskey "S">
-
-<!-- Entities for Account name page -->
-
 <!ENTITY accnameTitle.label "계정 이름">
 <!-- LOCALIZATION NOTE (accnameDesc.label) : do not translate any "&quot;" in below line -->
 <!ENTITY accnameDesc.label "참조할 계정 이름을 입력하십시오.">

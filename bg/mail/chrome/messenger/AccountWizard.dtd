@@ -2,12 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- Entities for AccountWizard -->
-
 <!ENTITY windowTitle.label "Помощник за регистрация">
-
-<!-- Entities for Identity page -->
-
 <!ENTITY identityTitle.label "Идентичност">
 <!ENTITY identityDesc.label "Всяка регистрация е уникална, така другите разбират, че писмото е от вас.">
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
@@ -20,18 +15,12 @@
 <!ENTITY fullnameLabel.accesskey "В">
 <!ENTITY emailLabel.label "Адрес на ел. поща:">
 <!ENTITY emailLabel.accesskey "А">
-
-<!-- Entities for Incoming Server page -->
-
 <!ENTITY incomingTitle.label "Информация за входящия сървър">
 <!ENTITY incomingUsername.label "Потребителско име:">
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
 <!ENTITY newsServerNameDesc.label "Въведете името на новинарския сървър (NNTP) (например: &quot;news.example.net&quot;).">
 <!ENTITY newsServerLabel.label "Сървър на дискусионна група:">
 <!ENTITY newsServerLabel.accesskey "С">
-
-<!-- Entities for Account name page -->
-
 <!ENTITY accnameTitle.label "Име на профила">
 <!-- LOCALIZATION NOTE (accnameDesc.label) : do not translate any "&quot;" in below line -->
 <!ENTITY accnameDesc.label "Напишете името, под което ще използвате тази регистрация (например, &quot;Служебна поща&quot;, &quot;Домашна поща&quot; или &quot;Регистрация за новини&quot;).">

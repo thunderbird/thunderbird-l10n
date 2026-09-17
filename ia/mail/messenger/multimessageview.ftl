@@ -14,8 +14,8 @@ multi-message-undelete-button =
     .label = Restabilir
     .tooltiptext = Restabilir
 multi-message-flagged-button =
-    .title = Stellate
     .aria-label = Stellate
+    .title = Stellate
 # Variables:
 #   $count - total number of conversations (threads or solitary messages) selected
 num-conversations =

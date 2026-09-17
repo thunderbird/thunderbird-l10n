@@ -13,8 +13,8 @@ recurrent-event =
     .value = Sự kiện lặp lại
 # $locationProperty is the location of the event
 calendar-invitation-location =
-    .value = Địa chỉ: { $locationProperty }
     .tooltiptext = { $locationProperty }
+    .value = Địa chỉ: { $locationProperty }
 # $locationProperty is the location of the event
 calendar-invitations-location =
     .value = Địa chỉ: { $locationProperty }

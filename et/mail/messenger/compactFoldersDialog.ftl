@@ -5,10 +5,10 @@
 compact-folders-dialog-title = Suru kaustad kokku
 compact-dialog =
     .buttonlabelaccept = Suru kokku
-    .buttonaccesskeyaccept = S
     .buttonlabelcancel = Tuleta hiljem meelde
-    .buttonaccesskeycancel = T
     .buttonlabelextra1 = Rohkem teavet…
+    .buttonaccesskeyaccept = S
+    .buttonaccesskeycancel = T
     .buttonaccesskeyextra1 = R
 # Variables:
 #  $data (String): The amount of space to be freed, formatted byte, MB, GB, etc., based on the size.

@@ -14,8 +14,8 @@ multi-message-undelete-button =
     .label = Wótnowiś
     .tooltiptext = Wótnowiś
 multi-message-flagged-button =
-    .title = Z gwězdku
     .aria-label = Z gwězdku
+    .title = Z gwězdku
 # Variables:
 #   $count - total number of conversations (threads or solitary messages) selected
 num-conversations =

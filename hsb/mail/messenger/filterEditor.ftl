@@ -94,9 +94,6 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } z { $total }
-
-## Filter List Dialog
-
 filter-window-title = Powěsćowe filtry
 filter-name-column =
     .label = Mjeno filtra
@@ -116,8 +113,8 @@ filter-delete-button =
     .accesskey = Z
 filter-reorder-top-button =
     .label = Do spočatka přesunyć
-    .accesskey = s
     .tooltiptext = Filter takle přerjadować, zo by so před wšěmi druhimi wuwjedł
+    .accesskey = s
 filter-reorder-up-button =
     .label = Horje
     .accesskey = H
@@ -126,8 +123,8 @@ filter-reorder-down-button =
     .accesskey = D
 filter-reorder-bottom-button =
     .label = Do kónca přesunyć
-    .accesskey = k
     .tooltiptext = Filter takle přerjadować, zo by so po wšěch druhich wuwjedł
+    .accesskey = k
 filter-header-label =
     .value = Zmóžnjene filtry so awtomatisce w deleka podatym porjedźe nałožuja.
 filter-filters-for-prefix =

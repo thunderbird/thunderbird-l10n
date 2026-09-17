@@ -50,9 +50,6 @@ appmenu-new-feed =
 appmenu-new-newsgroup =
     .label = Nieuwsgroep
     .accesskey = N
-
-## Add Account
-
 appmenu-add-account-panel-title =
     .title = Account toevoegen
 appmenu-add-account-panel =

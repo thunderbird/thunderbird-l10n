@@ -90,9 +90,6 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } nga { $total }
-
-## Filter List Dialog
-
 filter-window-title = Filtra Mesazhesh
 filter-name-column =
     .label = Emër Filtri
@@ -112,8 +109,8 @@ filter-delete-button =
     .accesskey = e
 filter-reorder-top-button =
     .label = Shpjere në Krye
-    .accesskey = k
     .tooltiptext = Risistemojeni filtrin që të ekzekutohet përpara krejt të tjerëve
+    .accesskey = k
 filter-reorder-up-button =
     .label = Ngrije
     .accesskey = S
@@ -122,8 +119,8 @@ filter-reorder-down-button =
     .accesskey = o
 filter-reorder-bottom-button =
     .label = Shpjere në Fund
-    .accesskey = F
     .tooltiptext = Risistemojeni filtrin që të ekzekutohet pas krejt të tjerëve
+    .accesskey = F
 filter-header-label =
     .value = Filtrat veprues punojnë vetvetiu në radhën e treguar më poshtë.
 filter-filters-for-prefix =

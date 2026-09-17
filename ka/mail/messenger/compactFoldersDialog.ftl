@@ -5,10 +5,10 @@
 compact-folders-dialog-title = შეკუმშული საქაღალდეები
 compact-dialog =
     .buttonlabelaccept = შეკუმშვა ახლავე
-    .buttonaccesskeyaccept = ხ
     .buttonlabelcancel = შეხსენება მოგვიანებით
-    .buttonaccesskeycancel = ო
     .buttonlabelextra1 = ვრცლად…
+    .buttonaccesskeyaccept = ხ
+    .buttonaccesskeycancel = ო
     .buttonaccesskeyextra1 = ც
 # Variables:
 #  $data (String): The amount of space to be freed, formatted byte, MB, GB, etc., based on the size.

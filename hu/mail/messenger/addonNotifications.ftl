@@ -31,14 +31,8 @@ xpinstall-prompt-never-allow-and-report =
 xpinstall-prompt-install =
     .label = Telepítés folytatása
     .accesskey = C
-
-# These messages are shown when a website invokes navigator.requestMIDIAccess.
-
 site-permission-install-first-prompt-midi-header = Ez az oldal hozzáférést kér a MIDI-eszközeihez (Musical Instrument Digital Interface). Az eszközhozzáférés egy kiegészítő telepítésével engedélyezhető.
 site-permission-install-first-prompt-midi-message = Ez a hozzáférés nem garantált, hogy biztonságos. Csak akkor folytassa, ha megbízik ebben a webhelyben.
-
-##
-
 xpinstall-disabled-locked = A szoftvertelepítést a rendszergazda megtiltotta.
 xpinstall-disabled = A szoftvertelepítés jelenleg tiltva van. Kattintson az Engedélyezés gombra, és próbálja újra.
 xpinstall-disabled-button =

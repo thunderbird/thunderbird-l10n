@@ -8,5 +8,5 @@ add-on-search-alternative-button-label = Rasti alternatyvų priedą
 atn-addons-heading-search-input =
     .placeholder = Ieškoti addons.thunderbird.net
 atn-addons-heading-search-button =
-    .title = Ieškoti addons.thunderbird.net
     .aria-label = Ieškoti addons.thunderbird.net
+    .title = Ieškoti addons.thunderbird.net

@@ -30,55 +30,43 @@ content-tab-security-high-icon =
     .alt = A conexão é segura
 content-tab-security-broken-icon =
     .alt = A conexão não é segura
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
-    .tooltiptext = Voltar uma página ({ $shortcut })
     .aria-label = Voltar
+    .tooltiptext = Voltar uma página ({ $shortcut })
     .accesskey = V
 # This menuitem is only visible on macOS
 content-tab-menu-back-mac =
     .label = Voltar
     .accesskey = V
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
-    .tooltiptext = Avançar uma página ({ $shortcut })
     .aria-label = Avançar
+    .tooltiptext = Avançar uma página ({ $shortcut })
     .accesskey = A
 # This menuitem is only visible on macOS
 content-tab-menu-forward-mac =
     .label = Avançar
     .accesskey = A
-
-# Reload
-
 content-tab-menu-reload =
-    .tooltiptext = Recarregar página
     .aria-label = Recarregar
+    .tooltiptext = Recarregar página
     .accesskey = R
 # This menuitem is only visible on macOS
 content-tab-menu-reload-mac =
-    .tooltiptext = Recarregar página
     .label = Recarregar
+    .tooltiptext = Recarregar página
     .accesskey = R
-
-# Stop
-
 content-tab-menu-stop =
-    .tooltiptext = Interromper carregamento da página
     .aria-label = Interromper
+    .tooltiptext = Interromper carregamento da página
     .accesskey = I
 # This menuitem is only visible on macOS
 content-tab-menu-stop-mac =
-    .tooltiptext = Interromper carregamento da página
     .label = Interromper
+    .tooltiptext = Interromper carregamento da página
     .accesskey = I
 open-windows-warning-confirmation-title = Confirmar
 # Variables:
@@ -360,8 +348,8 @@ other-action-copy-message-link =
 other-action-copy-news-link =
     .label = Copiar link da notícia
 message-header-msg-flagged =
-    .title = Com estrela
     .aria-label = Com estrela
+    .title = Com estrela
 message-header-delete =
     .label = Excluir
     .tooltiptext = Excluir esta mensagem
@@ -455,9 +443,9 @@ decrypt-and-copy-failures-multiple =
 ## Spaces toolbar
 
 spaces-toolbar-element =
-    .toolbarname = Barra de áreas
-    .aria-label = Barra de áreas
     .aria-description = Barra de ferramentas vertical para alternar entre áreas diferentes. Use as teclas de setas para navegar nos botões disponíveis.
+    .aria-label = Barra de áreas
+    .toolbarname = Barra de áreas
 spaces-toolbar-button-mail2 =
     .title = Email
 spaces-toolbar-button-address-book2 =
@@ -670,9 +658,6 @@ prompt-dont-ask-again = Não perguntar novamente.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Análise de spam { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } concluída
 spam-processing-message = Processando mensagens de spam
-
-## Ignore threads
-
 
 ## Attachments
 

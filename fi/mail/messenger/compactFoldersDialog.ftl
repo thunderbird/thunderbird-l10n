@@ -5,10 +5,10 @@
 compact-folders-dialog-title = Tiivistä kansiot
 compact-dialog =
     .buttonlabelaccept = Tiivistä nyt
-    .buttonaccesskeyaccept = T
     .buttonlabelcancel = Muistuta myöhemmin
-    .buttonaccesskeycancel = M
     .buttonlabelextra1 = Lue lisää…
+    .buttonaccesskeyaccept = T
+    .buttonaccesskeycancel = M
     .buttonaccesskeyextra1 = L
 # Variables:
 #  $data (String): The amount of space to be freed, formatted byte, MB, GB, etc., based on the size.

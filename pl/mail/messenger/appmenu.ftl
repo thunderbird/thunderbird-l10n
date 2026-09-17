@@ -50,9 +50,6 @@ appmenu-new-feed =
 appmenu-new-newsgroup =
     .label = Grupa dyskusyjna
     .accesskey = G
-
-## Add Account
-
 appmenu-add-account-panel-title =
     .title = Dodaj konto
 appmenu-add-account-panel =

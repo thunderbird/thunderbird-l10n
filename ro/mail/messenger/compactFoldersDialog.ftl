@@ -5,10 +5,10 @@
 compact-folders-dialog-title = Compactează dosarele
 compact-dialog =
     .buttonlabelaccept = Compactează acum
-    .buttonaccesskeyaccept = C
     .buttonlabelcancel = Amintește-mi mai târziu
-    .buttonaccesskeycancel = R
     .buttonlabelextra1 = Află mai multe...
+    .buttonaccesskeyaccept = C
+    .buttonaccesskeycancel = R
     .buttonaccesskeyextra1 = L
 # Variables:
 #  $data (String): The amount of space to be freed, formatted byte, MB, GB, etc., based on the size.

@@ -54,9 +54,6 @@ filter-count-items = { $count } item
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } daripada { $total }
-
-## Filter List Dialog
-
 filter-window-title = Tapis Mesej
 filter-name-column =
     .label = Nama Penapis
@@ -76,8 +73,8 @@ filter-delete-button =
     .accesskey = g
 filter-reorder-top-button =
     .label = Pindah ke Atas
-    .accesskey = t
     .tooltiptext = Susun semula penapis supaya dilaksanakan sebelum semua yang lain
+    .accesskey = t
 filter-reorder-up-button =
     .label = Pindah Atas
     .accesskey = A
@@ -86,8 +83,8 @@ filter-reorder-down-button =
     .accesskey = B
 filter-reorder-bottom-button =
     .label = Pindah ke Bawah
-    .accesskey = B
     .tooltiptext = Susun semula penapis supaya dilaksanakan selepas semua yang lain
+    .accesskey = B
 filter-header-label =
     .value = Penapis yang aktif dilaksanakan secara automatik mengikut susunan di bawah.
 filter-filters-for-prefix =

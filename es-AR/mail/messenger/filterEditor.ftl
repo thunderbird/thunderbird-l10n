@@ -90,9 +90,6 @@ filter-count-items =
 #   $visible - the number of visible items
 #   $total - the total number of items
 filter-count-visible-of-total = { $visible } de { $total }
-
-## Filter List Dialog
-
 filter-window-title = Filtros de mensajes
 filter-name-column =
     .label = Nombre del filtro
@@ -112,8 +109,8 @@ filter-delete-button =
     .accesskey = B
 filter-reorder-top-button =
     .label = Mover al inicio
-    .accesskey = o
     .tooltiptext = Reordenar filtro para que se ejecute antes que todos los otros
+    .accesskey = o
 filter-reorder-up-button =
     .label = Subir
     .accesskey = S
@@ -122,8 +119,8 @@ filter-reorder-down-button =
     .accesskey = j
 filter-reorder-bottom-button =
     .label = Mover al final
-    .accesskey = f
     .tooltiptext = Reordenar filtro para que se ejecute después que todos los otros
+    .accesskey = f
 filter-header-label =
     .value = Los filtros activos se ejecutan automáticamente en el orden indicado debajo.
 filter-filters-for-prefix =

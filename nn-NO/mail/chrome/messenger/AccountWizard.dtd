@@ -2,12 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- Entities for AccountWizard -->
-
 <!ENTITY windowTitle.label "Kontovegvisar">
-
-<!-- Entities for Identity page -->
-
 <!ENTITY identityTitle.label "Identitet">
 <!ENTITY identityDesc.label "Kvar konto har sin eigen identitet, som er den informasjonen som identifiserer deg til andre når dei får ei melding frå deg.">
 <!-- LOCALIZATION NOTE (fullnameDesc.label) : do not translate two of "&quot;" in below line -->
@@ -20,18 +15,12 @@
 <!ENTITY fullnameLabel.accesskey "N">
 <!ENTITY emailLabel.label "E-postadresse:">
 <!ENTITY emailLabel.accesskey "E">
-
-<!-- Entities for Incoming Server page -->
-
 <!ENTITY incomingTitle.label "Info om innkomande server">
 <!ENTITY incomingUsername.label "Brukarnamn:">
 <!-- LOCALIZATION NOTE (newsServerNameDesc.label) : Do not translate "NNTP" or the "&quot;" entities in below line -->
 <!ENTITY newsServerNameDesc.label "Skriv inn namnet på nyheitsgruppeserveren din (NNTP-server, til dømes «nyhende.eksempel.no»).">
 <!ENTITY newsServerLabel.label "Nyhendegruppeserver:">
 <!ENTITY newsServerLabel.accesskey "N">
-
-<!-- Entities for Account name page -->
-
 <!ENTITY accnameTitle.label "Kontonamn">
 <!-- LOCALIZATION NOTE (accnameDesc.label) : do not translate any "&quot;" in below line -->
 <!ENTITY accnameDesc.label "Skriv inn namnet du vil ha på denne kontoen (til dømes «Jobbkonto», «Heimekonto» eller «Nyheitskonto»).">
