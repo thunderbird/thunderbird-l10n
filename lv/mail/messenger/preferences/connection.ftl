@@ -14,6 +14,7 @@ connection-dns-over-https-url-custom =
     .tooltiptext = Ievadiet jums vēlamu DNS caur HTTPS URL
     .accesskey = P
 connection-dns-over-https-custom-label = Pielāgots
+connection-internet-proxy-legend = Savienojums ar internetu un starpniekserveris
 connection-proxy-legend = Lai piekļūtu internetam, iestatiet starpniekserverus
 proxy-type-no =
     .label = Nav starpniekservera

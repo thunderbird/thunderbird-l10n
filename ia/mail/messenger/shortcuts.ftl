@@ -104,6 +104,15 @@ menuitem-shortcut-attributes =
     .label = { $label }
     .accesskey = { $accesskey }
 # Variables:
+#  $label (String): The label coming from the original element.
+#  $shortcut (String): The shortcut generated from the keystroke combination.
+#  $tooltiptext (String): The tooltiptext coming from the original element.
+toolbar-button-shortcut-string =
+    .aria-keyshortcuts = { $shortcut }
+    .label = { $label }
+    .shortcut = { $shortcut }
+    .tooltiptext = { $tooltiptext } ({ $shortcut })
+# Variables:
 #  $label (String): The text label coming from the original element.
 #  $shortcut (String): The shortcut generated from the keystroke combination.
 menuitem-shortcut-string =
