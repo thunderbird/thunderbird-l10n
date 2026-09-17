@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 attachment-reminder-dialog-title = Stikkorð fyrir viðhengis áminningu
+attachment-reminder-description = Sýna áminningu um viðhengi sem vantar ef tölvupósturinn inniheldur samsvarandi leitarorð.
 attachment-reminder-label = { -brand-short-name } mun vara þig við ef þú hefur gleymt að bæta við viðhengi í póst sem inniheldur eitthvað af þessum stikkorðum.
 keyword-new-button =
     .label = Ný…

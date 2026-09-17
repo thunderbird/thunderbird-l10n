@@ -3,7 +3,23 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 offline-dialog-title = Stillingar fyrir ónettengdur
+autodetect-connection-label =
+    .label = Skipta sjálfkrafa um ham þegar nettenging finnst
+    .accesskey = p
 offline-startup-label = Þegar { -brand-short-name } er opnað:
+status-radio-last-used =
+    .label = Nota síðast notaða tengiham
+    .accesskey = h
+status-radio-ask-connect =
+    .label = Spyrja hvort eigi að tengjast í gegnum netið
+    .accesskey = y
+status-radio-start-online =
+    .label = Byrja nettengt
+    .accesskey = B
+status-radio-start-offline =
+    .label = Byrja án nettengingar
+    .accesskey = g
+going-online-prompt = Senda skilaboð sem bíða í úthólfinu þínu
 autodetect-online-label =
     .label = Fylgja sjálfvirkt eftir netstöðu
     .accesskey = ð

@@ -72,6 +72,9 @@ proxy-socks4-label =
 proxy-socks5-label =
     .label = SOCKS v5
     .accesskey = v
+proxy-auto-script-url =
+    .label = Vefslóð fyrir sjálfvirka uppsetningarskriftu:
+    .accesskey = a
 proxy-type-auto =
     .label = Sjálfvirk URL-slóð fyrir stillingar á milliþjóni:
     .accesskey = U
@@ -87,6 +90,13 @@ no-proxy-label =
 no-proxy-example = T.d.: .mozilla.org, .net.nz, 192.168.1.0/24
 # Do not translate "localhost", "127.0.0.1/8" and "::1". (You can translate "and".)
 connection-proxy-local-network-desc = Staðbundnar nettengingar (eins og localhost) nota aldrei milliþjón.
+proxy-auto-login-saved-password =
+    .label = Skrá sjálfkrafa inn ef lykilorð er vistað
+    .tooltiptext = Þessi valkostur auðkennir þig á bakvið við milliþjóna ef búið er að vista auðkenni. Spurt verður um auðkenni ef innskráning misheppnast.
+    .accesskey = l
+proxy-socks-remote-dns =
+    .label = Beina lénabeiðnum (DNS) í gegnum SOCKS v5 milliþjón
+    .accesskey = d
 # Do not translate "localhost", "127.0.0.1/8" and "::1". (You can translate "and".)
 connection-proxy-noproxy-localhost-desc-2 = Tengingar við localhost, 127.0.0.1, og :: 1 nota aldrei milliþjóna.
 proxy-password-prompt =

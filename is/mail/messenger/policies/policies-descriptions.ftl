@@ -28,6 +28,7 @@ policy-DisabledCiphers = Gera dulritun óvirka.
 policy-DefaultDownloadDirectory = Stilla sjálfgefna möppu fyrir sóttar skrár.
 policy-DisableAppUpdate = Koma í veg fyrir að { -brand-short-name } uppfærist.
 policy-DisableChat = Gera spjallvirkni óvirka.
+policy-DisableCommunity = Ekki birta samfélagsatriði í notandaviðmótinu (eins og að Styrkja, Taka þátt, Deila hugmyndum o.s.frv.)
 policy-DisableDataCollectionSettings = Koma í veg fyrir að notandinn breyti stillingum gagnasöfnunar.
 policy-DisableDefaultClientAgent = Koma í veg fyrir að sjálfgefið forritskenni (client agent) grípi til aðgerða. Gildir aðeins fyrir Windows; önnur stýrikerfi hafa ekki slíkt kenni.
 policy-DisableDeveloperTools = Loka fyrir aðgang að þróunarverkfærunum.

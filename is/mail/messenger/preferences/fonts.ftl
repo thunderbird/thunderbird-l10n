@@ -124,6 +124,13 @@ use-document-fonts-checkbox =
 use-fixed-width-plain-checkbox =
     .label = Nota leturgerð með fasta breidd fyrir venjuleg textaskilaboð
     .accesskey = x
+message-font-permissions-legend = Heimildir leturs í skilaboðum
+allow-incoming-fonts-checkbox =
+    .label = Leyfa skilaboðum sem berast noti sínar eigin leturgerðir
+    .accesskey = o
+display-fixed-width-plain-checkbox =
+    .label = Birta venjuleg textaskilaboð í jafnbreiðu letri
+    .accesskey = x
 
 ## Language settings
 
