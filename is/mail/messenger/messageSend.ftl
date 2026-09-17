@@ -75,6 +75,7 @@ send-undisclosed-recipients = ónafngreindir-viðtakendur
 # Variables:
 # $recipient - recipient address
 smtp-error-illegal-local-part = Það eru ekki-ASCII stafir í staðbundnum hluta viðtakandanetfangsins { $recipient } og þjónninn þinn styður ekki SMTPUTF8. Breyttu þessu póstfangi og reyndu aftur.
+smtp-error-no-recipients = Engir viðtakendur voru tilgreindir fyrir SMTP-afhendingu.
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = Póstþjónn fyrir útsendan póst (SMTP) { $hostname } virðist ekki styðja dulkóðuð lykilorð. Ef þú varst að setja upp reikninginn rétt í þessu, prufaðu þá að breyta ‘Auðkennisaðferð’ í ‘Lykilorð, sent á óöruggan hátt’ í ‘Stillingar reiknings | Póstþjónn út (SMTP)’. Ef það virkaði áður að skrá þig inn, en hætti skyndilega að virka, gæti verið að einhver hafi stolið lykilorðinu þínu.

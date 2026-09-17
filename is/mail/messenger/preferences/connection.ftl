@@ -22,6 +22,7 @@ disable-extension-button = Slökkva á viðbót
 # The extension-icon is the extension's icon, or a fallback image. It should be
 # purely decoration for the actual extension name, with alt="".
 proxy-settings-controlled-by-extension = Viðbótin <img data-l10n-name="icon"/> { $name }, er að stjórna hvernig { -brand-short-name } tengist við Internetið.
+connection-internet-proxy-legend = Internettenging og milliþjónn
 connection-proxy-legend = Stilla milliþjóna (proxy) til að tengjast internetinu
 proxy-type-no =
     .label = Enginn milliþjónn
@@ -32,6 +33,9 @@ proxy-type-wpad =
 proxy-type-system =
     .label = Nota milliþjónastillingar kerfisins
     .accesskey = k
+proxy-manual-setup =
+    .label = Handvirk uppsetning milliþjóns:
+    .accesskey = m
 proxy-type-manual =
     .label = Handvirk stilling á milliþjónum:
     .accesskey = m
@@ -41,6 +45,9 @@ proxy-http-label =
 http-port-label =
     .value = Gátt:
     .accesskey = G
+proxy-https-sharing =
+    .label = Nota þennan milliþjón fyrir örugg vefföng (HTTPS)
+    .accesskey = x
 proxy-http-sharing =
     .label = Notaðu einnig þennan milliþjón fyrir HTTPS
     .accesskey = m
@@ -68,10 +75,15 @@ proxy-type-auto =
 proxy-reload-label =
     .label = Endurnýja
     .accesskey = d
+no-proxy-addresses-label =
+    .value = Ekki nota milliþjón fyrir þessi vistföng:
+    .accesskey = n
 no-proxy-label =
     .value = Engir milliþjónar fyrir:
     .accesskey = n
 no-proxy-example = T.d.: .mozilla.org, .net.nz, 192.168.1.0/24
+# Do not translate "localhost", "127.0.0.1/8" and "::1". (You can translate "and".)
+connection-proxy-local-network-desc = Staðbundnar nettengingar (eins og localhost) nota aldrei milliþjón.
 # Do not translate "localhost", "127.0.0.1/8" and "::1". (You can translate "and".)
 connection-proxy-noproxy-localhost-desc-2 = Tengingar við localhost, 127.0.0.1, og :: 1 nota aldrei milliþjóna.
 proxy-password-prompt =

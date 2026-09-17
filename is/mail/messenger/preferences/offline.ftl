@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 offline-dialog-title = Stillingar fyrir ónettengdur
+offline-startup-label = Þegar { -brand-short-name } er opnað:
 autodetect-online-label =
     .label = Fylgja sjálfvirkt eftir netstöðu
     .accesskey = ð

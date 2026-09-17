@@ -9,12 +9,19 @@ fonts-label-default =
     .label = Sjálfgefið ({ $name })
 fonts-label-default-unnamed =
     .label = Sjálfgefið
+fonts-character-set-legend =
+    .value = Stafatafla:
+    .accesskey = t
+font-main-style-label =
+    .value = Stíll aðalleturs:
+    .accesskey = l
 fonts-language-legend =
     .value = Letur fyrir:
     .accesskey = t
 fonts-proportional-label =
     .value = Hlutfallslegt:
     .accesskey = H
+text-font-options-dialog-title = Texti og leturgerðir
 
 ## Languages
 
@@ -93,6 +100,9 @@ font-size-monospace-label =
 font-serif-label =
     .value = Serif:
     .accesskey = S
+sans-serif-font-label =
+    .value = Sans-serif letur:
+    .accesskey = n
 font-sans-serif-label =
     .value = Sans-serif:
     .accesskey = n

@@ -32,6 +32,7 @@ policy-DisableDataCollectionSettings = Koma í veg fyrir að notandinn breyti st
 policy-DisableDefaultClientAgent = Koma í veg fyrir að sjálfgefið forritskenni (client agent) grípi til aðgerða. Gildir aðeins fyrir Windows; önnur stýrikerfi hafa ekki slíkt kenni.
 policy-DisableDeveloperTools = Loka fyrir aðgang að þróunarverkfærunum.
 policy-DisableFeedbackCommands = Gera skipanirnar "Senda umsögn" og "Tilkynna svindlsvæði" óvirkar í hjálparvalmyndinni.
+policy-DisableFileLink = Gera Filelink-eiginleikann óvirkan.
 policy-DisableForgetButton = Koma í veg fyrir aðgang að Gleyma-hnappnum.
 policy-DisableFormHistory = Ekki muna leitar- og innfyllingarferil.
 policy-DisableMasterPasswordCreation = Ef satt, er ekki hægt að búa til aðallykilorð.
