@@ -249,19 +249,19 @@ cloud-file-attach-picker-title = צירוף קבצים דרך { $provider }
 ## Compose toolbar buttons
 
 compose-button-send =
-    .label = שלח
-    .tooltiptext = שלח הודעה זו כעת
+    .label = שליחה
+    .tooltiptext = שליחת הודעה זו כעת
 compose-button-send-later =
-    .label = שלח מאוחר יותר
-    .tooltiptext = שלח הודעה זו מאוחר יותר
+    .label = לשלוח מאוחר יותר
+    .tooltiptext = לשלוח הודעה זו מאוחר יותר
 
 ## Compose menubar
 
 compose-menu-item-send =
-    .label = שלח
-    .tooltiptext = שלח הודעה זו כעת
-    .accesskey = ע
+    .label = שליחה
+    .tooltiptext = שליחת הודעה זו כעת
+    .accesskey = ש
 compose-menu-item-send-later =
-    .label = שלח מאוחר יותר
-    .tooltiptext = שלח הודעה זו מאוחר יותר
+    .label = לשלוח מאוחר יותר
+    .tooltiptext = לשלוח הודעה זו מאוחר יותר
     .accesskey = א
