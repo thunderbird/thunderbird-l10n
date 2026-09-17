@@ -8,7 +8,11 @@ chat-autologin =
     .label = Pieteikšanāš palaišanās laikā
 chat-encryption-log =
     .label = Sarunu žurnālos iekļaut pilnībā šifrētus ziņojumus
+# Variables:
+# $protocol (String) - Name of the chat protocol. Example: Matrix
+chat-encryption-description = { $protocol } nodrošina pilnīgu šifrēšanu tērzēšanas ziņojumiem. Tas neļauj trešajām pusēm pārtvert sarunu. Var būt nepieciešama papildu iestatīšana (zemāk), lai šifrēšana būtu darba kārtībā.
 chat-encryption-status = Šifrēšanas stāvoklis
+chat-encryption-placeholder = Šifrēšana nav iesākta.
 chat-encryption-sessions = Sesijas
 chat-encryption-sessions-description = Lai pilnīga šifrēšana darbotos pareizi, ir jāuzticas citām sesijām, kurās pašlaik esi pieteicies(kusies) savā kontā. Ir nepieciešama mijiedarbība ar otru klientu, lai apliecinātu sesiju. Sesijas apliecināšana var novest pie tā, ka sesijām, kurām tā uzticas, uzticēsies arī { -brand-short-name }..
 chat-encryption-session-verify = apliecināt
