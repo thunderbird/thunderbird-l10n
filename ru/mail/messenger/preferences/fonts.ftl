@@ -9,12 +9,19 @@ fonts-label-default =
     .label = По умолчанию ({ $name })
 fonts-label-default-unnamed =
     .label = По умолчанию
+fonts-character-set-legend =
+    .value = Кодировка:
+    .accesskey = t
+font-main-style-label =
+    .value = Начертание основного шрифта:
+    .accesskey = f
 fonts-language-legend =
     .value = Шрифты для набора символов:
     .accesskey = ф
 fonts-proportional-label =
     .value = Пропорциональный:
     .accesskey = р
+text-font-options-dialog-title = Настройки текста и шрифта
 
 ## Languages
 
@@ -93,6 +100,9 @@ font-size-monospace-label =
 font-serif-label =
     .value = С засечками:
     .accesskey = а
+sans-serif-font-label =
+    .value = Шрифт без засечек:
+    .accesskey = n
 font-sans-serif-label =
     .value = Без засечек:
     .accesskey = з
@@ -114,6 +124,13 @@ use-document-fonts-checkbox =
 use-fixed-width-plain-checkbox =
     .label = Использовать моноширинный шрифт для простых текстовых сообщений
     .accesskey = н
+message-font-permissions-legend = Разрешения на шрифты сообщений
+allow-incoming-fonts-checkbox =
+    .label = Разрешить входящим сообщениям использовать свои шрифты
+    .accesskey = o
+display-fixed-width-plain-checkbox =
+    .label = Отображать простые текстовые сообщения моноширинным шрифтом
+    .accesskey = x
 
 ## Language settings
 

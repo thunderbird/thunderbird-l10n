@@ -32,6 +32,7 @@ pane-qr-export-title = Экспорт для мобильного
 category-qr-export =
     .tooltiptext = Экспорт для мобильного
 general-language-and-fonts-header = Язык и шрифты
+general-email-notifications-header = Уведомления по электронной почте
 general-language-and-appearance-header = Язык и внешний вид
 general-incoming-mail-header = Входящие сообщения
 general-files-and-attachment-header = Файлы и вложения

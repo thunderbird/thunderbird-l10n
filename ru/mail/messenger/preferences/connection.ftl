@@ -94,6 +94,9 @@ proxy-auto-login-saved-password =
     .label = Совершать вход автоматически, если был сохранён пароль
     .tooltiptext = Эта настройка аутентифицирует вас на прокси, не выдавая запросов, если вы сохранили для них учётные данные. Если аутентификация не удастся, вам будет выдан запрос.
     .accesskey = i
+proxy-socks-remote-dns =
+    .label = Направлять доменные запросы (DNS) через прокси SOCKS v5
+    .accesskey = d
 # Do not translate "localhost", "127.0.0.1/8" and "::1". (You can translate "and".)
 connection-proxy-noproxy-localhost-desc-2 = Соединения с localhost, 127.0.0.1/8 и ::1 никогда не проксируются.
 proxy-password-prompt =
