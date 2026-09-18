@@ -7,6 +7,12 @@ calendar-summary-dialog-edit-button =
     .accesskey = L
 calendar-summary-dialog-edit-menu-button =
     .label = Labot
+edit-button-context-menu-this-occurrence =
+    .label = Labot tikai šo gadījumu
+    .accesskey = t
+edit-button-context-menu-all-occurrences =
+    .label = Labot visus gadījumus
+    .accesskey = v
 description-context-menu-copy-link-text =
     .label = Ievietot starpliktuvē saites tekstu
 # This will be displayed as notification in the summary dialog if the user has
