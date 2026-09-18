@@ -85,11 +85,11 @@ policy-PasswordManagerEnabled = Habilitar guardar contraseñas en el administrad
 # PDF.js and PDF should not be translated
 policy-PDFjs = Deshabilitar o configurar PDF.js, el visor de PDF incorporado en { -brand-short-name }.
 policy-Permissions2 = Configurar permisos para cámara, micrófono, ubicación, notificaciones y reproducción automática.
-policy-Preferences = Establezca y bloquee el valor para un subconjunto de preferencias.
+policy-Preferences = Establecer y bloquear el valor para un subconjunto de preferencias.
 policy-PrimaryPassword = Pedir o evitar el uso de una contraseña primaria.
 policy-PromptForDownloadLocation = Preguntar dónde guardar los archivos al descargar.
 policy-Proxy = Configurar opciones de proxy.
-policy-RequestedLocales = Establezca la lista de localizaciones solicitadas para la aplicación ordenadas por preferencia.
+policy-RequestedLocales = Establecer la lista de localizaciones solicitadas para la aplicación ordenadas por preferencia.
 policy-SanitizeOnShutdown2 = Borrar datos de navegación al cerrar.
 policy-SearchEngines = Configurar los ajustes del buscador. Esta política solo está disponible en la versión Extended Support Release (ESR).
 policy-SearchSuggestEnabled = Habilitar o deshabilitar las sugerencias de búsqueda.
