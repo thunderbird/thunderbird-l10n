@@ -6,6 +6,7 @@ account-settings-title = Autentificēšanās iestatījumi
 account-channel-title = Noklusējuma kanāli
 chat-autologin =
     .label = Pieteikšanāš palaišanās laikā
+chat-encryption-generic = Vispārīgi
 chat-encryption-log =
     .label = Sarunu žurnālos iekļaut pilnībā šifrētus ziņojumus
 # Variables:
