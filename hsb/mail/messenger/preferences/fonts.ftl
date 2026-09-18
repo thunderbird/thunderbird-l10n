@@ -12,12 +12,16 @@ fonts-label-default-unnamed =
 fonts-character-set-legend =
     .value = Znamješkowa sadźba:
     .accesskey = Z
+font-main-style-label =
+    .value = Hłowna pismowa družina:
+    .accesskey = H
 fonts-language-legend =
     .value = Pisma:
     .accesskey = P
 fonts-proportional-label =
     .value = Proporcionalny:
     .accesskey = P
+text-font-options-dialog-title = Tekstowe a pismowe nastajenja
 
 ## Languages
 
@@ -120,6 +124,9 @@ use-document-fonts-checkbox =
 use-fixed-width-plain-checkbox =
     .label = Pismo z krutej šěrokosću za powěsće z luteho teksta wužiwać
     .accesskey = l
+allow-incoming-fonts-checkbox =
+    .label = Dochadźacym powěsćam dowolić, zo bychu swójske pisma wužiwali
+    .accesskey = o
 
 ## Language settings
 

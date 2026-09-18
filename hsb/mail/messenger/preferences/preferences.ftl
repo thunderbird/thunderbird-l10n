@@ -577,6 +577,11 @@ as-attachment-label =
 extension-label =
     .label = Sufiks datajowemu mjenu přidać
     .accesskey = f
+forward-messages-label =
+    .value = Powěsće dale sposrědkować jako:
+    .accesskey = P
+forward-inline-label =
+    .label = Znutřka powěsće (inline)
 
 ## Note: This will concatenate to "Auto Save every [___] minutes",
 ## using (auto-save-label) and a number (auto-save-end).
@@ -632,6 +637,9 @@ compose-format-html-option =
     .label = Jenož Rich text (HTML)
 compose-format-plain-option =
     .label = Jenož luty tekst
+directory-server-label =
+    .label = Zapisowy serwer
+    .accesskey = Z
 compose-send-automatic-option =
     .label = Awtomatiski
 compose-send-automatic-description = Jeli so stile w powěsći njewužiwaja, sćelće luty tekst. Sćelće hewak HTML z lutym tekstom jako alternatiwu.
@@ -653,6 +661,9 @@ directories-label =
     .accesskey = Z
 directories-none-label =
     .none = Žadyn
+manage-directories-label =
+    .label = Zapisy rjadować…
+    .accesskey = r
 edit-directories-label =
     .label = Zapisy wobdźěłać…
     .accesskey = b
@@ -1014,6 +1025,7 @@ chat-variant-label =
 search-preferences-input2 =
     .placeholder = W nastajenjach pytać
     .style = width: 15.4em
+managed-by-organization-notice = { -brand-short-name } so přez organizaciju rjaduje.
 managed-notice = { -brand-short-name } so wot wašeje organizacije rjaduje.
 
 ## Settings UI Search Results
