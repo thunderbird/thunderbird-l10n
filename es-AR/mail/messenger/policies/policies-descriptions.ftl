@@ -10,7 +10,7 @@
 ## These are short descriptions for individual policies, to be displayed
 ## in the documentation section in about:policies.
 
-policy-3rdparty = Establezca políticas a las que WebExtensions pueda acceder mediante chrome.storage.managed.
+policy-3rdparty = Establecer políticas a las que WebExtensions pueda acceder mediante chrome.storage.managed.
 policy-AppAutoUpdate = Habilitar o deshabilitar la actualización automática de la aplicación.
 policy-AppUpdatePin = Impedir que { -brand-short-name } se actualice más allá de la versión especificada.
 policy-AppUpdateURL = Establecer la URL de actualización de la aplicación personalizada.
