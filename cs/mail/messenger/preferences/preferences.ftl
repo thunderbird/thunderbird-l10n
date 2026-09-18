@@ -156,6 +156,15 @@ update-in-progress-ok-button = &Nepokračovat
 update-in-progress-cancel-button = &Pokračovat
 account-button = Nastavení účtu
 open-addons-sidebar-button = Doplňky a vzhledy
+manual-storage-limit-label =
+    .label = Ručně nastavit limity úložiště pro dočasné soubory
+    .accesskey = R
+clear-temp-files-button =
+    .label = Vymazat dočasné soubory
+    .accesskey = V
+clear-temp-files-shutdown-label =
+    .label = Vymazat dočasné soubory při ukončení aplikace { -brand-short-name }
+    .accesskey = V
 
 ## OS Authentication dialog
 
@@ -180,6 +189,9 @@ general-legend =
         [with-cases] Úvodní stránka { -brand-short-name(case: "gen") }
        *[no-cases] Úvodní stránka aplikace { -brand-short-name }
     }
+show-start-page-label =
+    .label = Při otevření aplikace { -brand-short-name } zobrazit úvodní stránku
+    .accesskey = P
 start-page-label =
     .label =
         { -brand-short-name.case-status ->
@@ -212,6 +224,7 @@ close-to-tray-label =
 start-in-tray-label =
     .label = Spouštět { -brand-short-name(case: "acc") } v oznamovací oblasti
     .accesskey = S
+new-message-arrival-legend = Při přijetí nové zprávy:
 minimize-to-tray-label =
     .label =
         { -brand-short-name.gender ->
@@ -240,6 +253,12 @@ change-dock-icon = Změna nastavení pro ikonu aplikace
 app-icon-options =
     .label = Nastavení ikony aplikace…
     .accesskey = n
+new-email-alert-label =
+    .label = Upozorňovat na nové e-maily
+    .accesskey = U
+customize-alerts-label =
+    .label = Přizpůsobit upozornění…
+    .accesskey = P
 notification-settings2 = Upozornění a výchozí zvuk můžete zakázat v systémovém nastavení panelu upozornění.
 animated-alert-label =
     .label = Zobrazit upozornění
@@ -256,6 +275,12 @@ tray-icon-unread-description = Doporučeno, pokud máte na systémovém hlavním
 mail-system-sound-label =
     .label = Zvuk nové pošty v systému
     .accesskey = u
+use-custom-sound-label =
+    .label = Použít pro upozornění vlastní zvuk
+    .accesskey = z
+mail-select-audio-button =
+    .label = Vybrat zvukový soubor…
+    .accesskey = V
 mail-custom-sound-label =
     .label = Vlastní zvukový soubor
     .accesskey = V
