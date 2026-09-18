@@ -2,5 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+calendar-event-reminder-icon-display =
+    .alt = Parādīt paziņojumu
 calendar-event-reminder-icon-email =
     .alt = Nosūtīt e-pastā
+calendar-event-reminder-icon-audio =
+    .alt = Atskaņot skaņas paziņojumu
