@@ -124,6 +124,13 @@ use-document-fonts-checkbox =
 use-fixed-width-plain-checkbox =
     .label = Pro zprávy v prostém textu použít neproporcionální písmo
     .accesskey = r
+message-font-permissions-legend = Oprávnění k písmům ve zprávách
+allow-incoming-fonts-checkbox =
+    .label = Povolit příchozím zprávám používat vlastní písma
+    .accesskey = P
+display-fixed-width-plain-checkbox =
+    .label = Zobrazovat zprávy v prostém textu s pevnou šířkou písma
+    .accesskey = Z
 
 ## Language settings
 
