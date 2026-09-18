@@ -89,7 +89,7 @@ no-proxy-label =
     .accesskey = N
 no-proxy-example = Przykład: .mozilla.org, .com.pl, 192.168.1.0/24
 # Do not translate "localhost", "127.0.0.1/8" and "::1". (You can translate "and".)
-connection-proxy-local-network-desc = Połączenia w sieci lokalnej (takie jak localhost) nigdy nie korzystają z  serwera proxy.
+connection-proxy-local-network-desc = Połączenia w sieci lokalnej (takie jak localhost) nigdy nie korzystają z serwera proxy.
 proxy-auto-login-saved-password =
     .label = Automatycznie zaloguj w przypadku zapisania hasła
     .tooltiptext = Umożliwia automatyczne uwierzytelnianie na serwerach proxy, jeśli wcześniej zostały zachowane dane logowania. W przypadku nieudanego uwierzytelniania zostanie wyświetlone standardowe pytanie.
