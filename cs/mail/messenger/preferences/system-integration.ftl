@@ -7,6 +7,11 @@ system-integration-dialog =
     .buttonlabelaccept = Nastavit jako výchozí
     .buttonlabelcancel = Přeskočit integraci
     .buttonlabelcancel2 = Zrušit
+default-app-intro =
+    { -brand-short-name.case-status ->
+        [with-cases] Použít { -brand-short-name(case: "acc") } jako výchozí pro:
+       *[no-cases] Použít aplikaci { -brand-short-name } jako výchozí pro:
+    }
 default-client-intro =
     { -brand-short-name.case-status ->
         [with-cases] Použít { -brand-short-name(case: "acc") } jako výchozí pro:
@@ -45,6 +50,9 @@ system-search-engine-name =
     }
 system-search-integration-label =
     .label = Povolit službě { system-search-engine-name } prohledávat zprávy
+    .accesskey = P
+check-default-email-app-label =
+    .label = Při startu aplikace { -brand-short-name } kontrolovat, zda je výchozím poštovním klientem
     .accesskey = P
 check-on-startup-label =
     .label =
