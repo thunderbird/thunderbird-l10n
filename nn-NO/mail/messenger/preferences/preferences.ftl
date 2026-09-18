@@ -276,6 +276,9 @@ check-updates-label =
 update-application-background-enabled =
     .label = Når { -brand-short-name } ikkje køyrer
     .accesskey = N
+show-history-button =
+    .label = Vis historikk
+    .accesskey = V
 update-history-button =
     .label = Vis oppdateringshistorikk
     .accesskey = V
@@ -471,6 +474,7 @@ dark-message-mode-description = Tving meldingsteksten til å følgje mørke tema
 dark-message-mode-toggle-label =
     .label = Vis veksleknapp for mørk meldingsmodus
     .accesskey = V
+general-folder-settings-header = Mappeinnstillingar
 dark-message-mode-toggle-description = Vis ein veksleknapp i meldingshovudet for raskt å deaktivere mørk meldingsmodus
 general-folder-options-header = Alternativ for mappehandsaming
 recent-destinations-legend = Nylege destinasjonar
@@ -513,6 +517,9 @@ as-attachment-label =
 extension-label =
     .label = legg til filtype i filnamnet
     .accesskey = l
+forward-messages-label =
+    .value = Vidaresend meldingar som:
+    .accesskey = d
 
 ## Note: This will concatenate to "Auto Save every [___] minutes",
 ## using (auto-save-label) and a number (auto-save-end).
@@ -1106,6 +1113,7 @@ default-flag-threaded =
     .label = Tråd
 default-flag-grouped =
     .label = Gruppert etter sortering
+default-sort-by-label = Sorter meldingar etter:
 default-sort-label = Sorter som standard etter:
 default-sort-date =
     .label = Dato
