@@ -75,6 +75,7 @@ send-undisclosed-recipients = undisclosed-recipients
 # Variables:
 # $recipient - recipient address
 smtp-error-illegal-local-part = { $recipient } алушы адресінің жергілікіті бөліміндегі ASCII-емес таңбалары бар, ал сіздің серверіңіз SMTPUTF8 қолдамайды. Бұл адресті өзгертіп, қайталап көріңіз.
+smtp-error-no-recipients = SMTP жеткізу үшін алушылар көрсетілмеген.
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = { $hostname } шығыс пошта сервері (SMTP) шифрленген парольдерді қолдамайтын сияқты. Егер сіз бұл тіркелгіні жаңа баптасаңыз, "Тіркелгі баптаулары | Шығыс сервері (SMTP)" ішіндегі "Аутентификация тәсілін" "Қауіпсіз емес түрде берілетін пароль" етіп орнатып көріңіз. Егер ол бұрын жасап, енді жасамай қалса, онда бұл жағдай біреу сіздің пароліңізді ұрлағанға өте ұқсайды.
