@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 attachment-reminder-dialog-title = Klucowe słowa za pśidankowe napominanje
+attachment-reminder-description = Dopomnjeśe za felujuce pśidanki pokazaś, jolic e-mail pśitrjefjece klucowe słowa wopśimujo.
 attachment-reminder-label = { -brand-short-name } buźo was wo felujucych pśidankach warnowaś, jolic cośo e-mailku pósłać, kótaraž wopśimujo jadne z toś tych klucowych słowow.
 keyword-new-button =
     .label = Nowy…

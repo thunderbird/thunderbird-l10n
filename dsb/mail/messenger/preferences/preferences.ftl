@@ -508,6 +508,8 @@ dark-message-mode-description = Wobceŕk powěsćow nuzkaś, śamnym drastwam sl
 dark-message-mode-toggle-label =
     .label = Šalter za śamny powěsćowy modus pokazaś
     .accesskey = t
+general-folder-settings-header = Nastajenja zarědnika
+recent-folders-legend = Nejnowše zarědniki
 dark-message-mode-toggle-description = Šalter w powěsćowej głowje pokazaś, aby śamny powěsćowy modus znjemóžnił
 general-folder-options-header = Nastajenja zastojanja zarědnikow
 recent-destinations-legend = Nejnowše cele
@@ -550,6 +552,8 @@ as-attachment-label =
 extension-label =
     .label = Sufiks datajowemu mjenjoju pśidaś
     .accesskey = u
+forward-inline-label =
+    .label = W powěsći (inline)
 
 ## Note: This will concatenate to "Auto Save every [___] minutes",
 ## using (auto-save-label) and a number (auto-save-end).
@@ -599,6 +603,15 @@ default-format-label =
     .label = Pó standarźe wótstawkowy format město wopśimjeśowego teksta wužywaś
     .accesskey = P
 compose-send-format-title = Słański format
+compose-format-automatic-option =
+    .label = Awtomatiski (dopórucony)
+compose-format-html-option =
+    .label = Jano Rich text (HTML)
+compose-format-plain-option =
+    .label = Jano lutny tekst
+directory-server-label =
+    .label = Zapisowy serwer
+    .accesskey = Z
 compose-send-automatic-option =
     .label = Awtomatiski
 compose-send-automatic-description = Jolic se stile w powěsći njewužywaju, sćelśo lutny tekst. Sćelśo howac HTML z lutnym tekstom ako alternatiwu.
@@ -984,6 +997,7 @@ chat-variant-label =
 search-preferences-input2 =
     .placeholder = W nastajenjach pytaś
     .style = width: 15.4em
+managed-by-organization-notice = { -brand-short-name } se pśez organizaciju zastoj.
 managed-notice = { -brand-short-name } se wót wašeje organizacije zastoj.
 
 ## Settings UI Search Results
@@ -1147,6 +1161,7 @@ appearance-card-style-3 =
 appearance-card-style-2 =
     .label = 2 smužce
 default-message-list-sorting-legend = Sortěrowaś a temy
+default-message-list-new-folders-description = Wubjeŕśo standardne nastajenja za sortěrowanje a strukturu nitkow za nowe zarědniki
 default-message-list-description = Standardne nastajenja za sortěrowanje a strukturu nitkow za nowo napórane zarědniki definěrowaś.
 default-flag-label =
     .value = Standardna struktura nitkow:
@@ -1199,6 +1214,7 @@ default-sort-newest-bottom =
     .label = Nejnowše powěsći dołojce
 default-sort-new-messages-top =
     .label = Nejnowše powěsći górjejce
+apply-view-settings-label = Toś te nastajenja naglěda nałožyś na:
 apply-view-settings-to-all-folders-button =
     .label = Wšykne zarědniki a pódzardniki
     .accesskey = W
