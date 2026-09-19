@@ -36,6 +36,7 @@ general-language-and-appearance-header = Тіл және сыртқы түрі
 general-incoming-mail-header = Кіріс хабарламалар
 general-files-and-attachment-header = Файлдар және салынымдар
 general-tags-header = Тегтер
+general-reading-and-viewing-header = Оқу және қарау
 general-reading-and-display-header = Оқу және көрсету
 general-updates-header = Жаңартулар
 general-network-and-diskspace-header = Желі және дискілік орын
