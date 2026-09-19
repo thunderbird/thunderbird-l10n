@@ -75,6 +75,7 @@ send-undisclosed-recipients = schowane dostawarje
 # Variables:
 # $recipient - recipient address
 smtp-error-illegal-local-part = W lokalnem źělu adrese dostawarja { $recipient } su nje-ASCII-znamuška a waš serwer SMTPUTF8 njepódpěra. Pšosym změńśo toś tu adresu a wopytajśo hyšći raz.
+smtp-error-no-recipients = Za pśipósłanje SMTP njejsu se dostawarje pódali.
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = Zda se, až wuchadny serwer (SMTP) { $hostname } njepódpěra skoděrowane gronidła. Jolic rowno konto konfigurěrujośo, wopytajśo ‘awtentifikacisku metodu’ w ‘Kontowe nastajenja | Wuchadny serwer (SMTP)’ do ‘Gronidło, njewěsće pśenjasone’ změniś. Jolic to zwětšego funkcioněrujo, ale něnto nic, jo móžno, až se wašo gronidło kšadnjo.

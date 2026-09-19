@@ -577,6 +577,9 @@ as-attachment-label =
 extension-label =
     .label = Sufiks datajowemu mjenjoju pśidaś
     .accesskey = u
+forward-messages-label =
+    .value = Powěsći dalej pósrědniś ako:
+    .accesskey = P
 forward-inline-label =
     .label = W powěsći (inline)
 
