@@ -483,7 +483,7 @@ choose-folder-label =
            *[other] P
         }
 always-ask-label =
-    .label = Zawsze pytaj gdzie zapisać plik
+    .label = Zawsze pytaj, gdzie zapisać plik
     .accesskey = e
 use-tags-text = Użyj etykiet, aby kategoryzować i ustalać priorytety wiadomości.
 display-tags-text = Etykiety mogą być używane do klasyfikowania wiadomości oraz nadawania im priorytetów.
