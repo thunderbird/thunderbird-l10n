@@ -9,12 +9,19 @@ fonts-label-default =
     .label = Бастапқы ({ $name })
 fonts-label-default-unnamed =
     .label = Бастапқы
+fonts-character-set-legend =
+    .value = Таңбалар жиынтығы:
+    .accesskey = Т
+font-main-style-label =
+    .value = Негізгі қаріп стилі:
+    .accesskey = Н
 fonts-language-legend =
     .value = Келесі үшін қаріптер:
     .accesskey = п
 fonts-proportional-label =
     .value = Пропорционалды:
     .accesskey = П
+text-font-options-dialog-title = Мәтін және қаріп опциялары
 
 ## Languages
 
