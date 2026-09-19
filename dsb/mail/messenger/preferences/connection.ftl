@@ -81,10 +81,15 @@ proxy-type-auto =
 proxy-reload-label =
     .label = Znowego
     .accesskey = Z
+no-proxy-addresses-label =
+    .value = Proksy za toś te adrese njewužywaś:
+    .accesskey = n
 no-proxy-label =
     .value = Žeden proksy za:
     .accesskey = d
 no-proxy-example = Pśikład: .mozilla.org, .net.nz, 192.168.1.0/24
+# Do not translate "localhost", "127.0.0.1/8" and "::1". (You can translate "and".)
+connection-proxy-local-network-desc = Lokalne seśowe zwiski (ako localhost) proksy nigda njewužywaju.
 # Do not translate "localhost", "127.0.0.1/8" and "::1". (You can translate "and".)
 connection-proxy-noproxy-localhost-desc-2 = Zwiski z localhost, 127.0.0.1/8 a ::1 nigda pśez proksy njejdu.
 proxy-password-prompt =

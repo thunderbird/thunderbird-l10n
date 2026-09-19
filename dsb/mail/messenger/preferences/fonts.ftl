@@ -124,6 +124,9 @@ use-document-fonts-checkbox =
 use-fixed-width-plain-checkbox =
     .label = Pismo z kšuteju šyrokosću za powěsći z lutnego teksta wužywaś
     .accesskey = l
+allow-incoming-fonts-checkbox =
+    .label = Dochadajucym powěsćam dowóliś, aby swójske pisma wužywali
+    .accesskey = o
 
 ## Language settings
 
