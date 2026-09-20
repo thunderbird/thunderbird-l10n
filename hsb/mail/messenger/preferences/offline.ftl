@@ -3,7 +3,13 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 offline-dialog-title = Nastajenja offline
+autodetect-connection-label =
+    .label = Modusy awtomatisce wuměnić, hdyž so internetny zwisk namaka
+    .accesskey = d
 offline-startup-label = Hdyž so { -brand-short-name } wočinja:
+status-radio-last-used =
+    .label = Zwiskowy modus wužiwać, kotrež je so jako posledni wužiwał
+    .accesskey = Z
 status-radio-start-online =
     .label = Online startować
     .accesskey = l
