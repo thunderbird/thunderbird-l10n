@@ -19,6 +19,7 @@ status-radio-start-online =
 status-radio-start-offline =
     .label = Offline startować
     .accesskey = f
+going-online-prompt = Powěsće słać, kotrež we wašim póstowym wuchadźe čakaja
 going-online-send =
     .label = Haj, awtomatisce pósłać
     .accesskey = H
