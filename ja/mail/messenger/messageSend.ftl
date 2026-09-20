@@ -75,24 +75,25 @@ send-undisclosed-recipients = undisclosed-recipients
 # Variables:
 # $recipient - recipient address
 smtp-error-illegal-local-part = 受信者アドレス { $recipient } のローカル部分に非 ASCII 文字が含まれています。ご利用のサーバーは SMTPUTF8 をサポートしていません。非 ASCII 文字を含まないアドレスに変更してください。
+smtp-error-no-recipients = SMTP 送信先の受信者が指定されていません。
 # Variables:
 # $hostname - outgoing server hostname
-smtp-auth-hint-encrypt-to-plain-no-ssl = 送信 (SMTP) サーバー { $hostname } が暗号化されたパスワードをサポートしていないようです。アカウントの設定直後の場合は、[アカウント設定] の [送信 (SMTP) サーバー] で [認証方式] を [平文のパスワード認証 (安全でない)] に変更し、再度試してください。認証が突然失敗するようになった場合は、誰かがパスワードを盗もうとしている可能性があります。
+smtp-auth-hint-encrypt-to-plain-no-ssl = 送信 (SMTP) サーバー { $hostname } が暗号化されたパスワードをサポートしていないようです。アカウントの設定直後の場合は、“アカウント設定” の “送信 (SMTP) サーバー” で “認証方式” を “平文のパスワード認証 (安全でない)” に変更し、再度試してください。認証が突然失敗するようになった場合は、誰かがパスワードを盗もうとしている可能性があります。
 # Variables:
 # $hostname - outgoing server hostname
-smtp-auth-hint-encrypt-to-plain-ssl = 送信 (SMTP) サーバー { $hostname } が暗号化されたパスワードをサポートしていないようです。アカウントの設定直後の場合は、[アカウント設定] の [送信 (SMTP) サーバー] で [認証方式] を [通常のパスワード認証] に変更し、再度試してください。
+smtp-auth-hint-encrypt-to-plain-ssl = 送信 (SMTP) サーバー { $hostname } が暗号化されたパスワードをサポートしていないようです。アカウントの設定直後の場合は、“アカウント設定” の “送信 (SMTP) サーバー” で “認証方式” を “通常のパスワード認証” に変更し、再度試してください。
 # Variables:
 # $hostname - outgoing server hostname
-smtp-auth-hint-plain-to-encrypt = 送信 (SMTP) サーバー { $hostname } が平文のパスワードを許可していません。[アカウント設定] の [送信 (SMTP) サーバー] で [認証方式] を [暗号化されたパスワード認証] に変更し、再度試してください。
+smtp-auth-hint-plain-to-encrypt = 送信 (SMTP) サーバー { $hostname } が平文のパスワードを許可していません。“アカウント設定” の “送信 (SMTP) サーバー” で “認証方式” を “暗号化されたパスワード認証” に変更し、再度試してください。
 # Variables:
 # $hostname - outgoing server hostname
-smtp-auth-failure = 送信 (SMTP) サーバー { $hostname } の認証に失敗しました。パスワードを確認し、[アカウント設定] の [送信 (SMTP) サーバー] で [認証方式] が正しいことを確認してください。
+smtp-auth-failure = 送信 (SMTP) サーバー { $hostname } の認証に失敗しました。パスワードを確認し、“アカウント設定” の “送信 (SMTP) サーバー” で “認証方式” が正しいことを確認してください。
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-gssapi = Kerberos/GSSAPI チケットが送信 (SMTP) サーバー { $hostname } に受け入れられませんでした。Kerberos/GSSAPI レルムにログインしているか確認してください。
 # Variables:
 # $hostname - outgoing server hostname
-smtp-auth-mechanism-not-supported = 送信 (SMTP) サーバー { $hostname } が選択された認証方式をサポートしていません。[アカウント設定] の [送信 (SMTP) サーバー] で [認証方式] を変更してください。
+smtp-auth-mechanism-not-supported = 送信 (SMTP) サーバー { $hostname } が選択された認証方式をサポートしていません。“アカウント設定” の “送信 (SMTP) サーバー” で “認証方式” を変更してください。
 # Variables:
 # $serverResponse - server response
 smtp-server-error = メールの送信中に送信 (SMTP) サーバーエラーが発生しました。サーバーからの応答: { $serverResponse }

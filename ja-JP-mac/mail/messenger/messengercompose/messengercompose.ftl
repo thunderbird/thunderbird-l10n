@@ -515,10 +515,10 @@ cloud-file-size-error-title = ファイルサイズエラー
 # $provider - name of the online storage service
 # $filename - name of the file that exceeded the size limit
 cloud-file-size-error = { $filename } ファイルのサイズが { $provider } の最大サイズを超えています。
-cloud-file-unknown-error-title = 不明なエラー
+cloud-file-unknown-error-title = 原因不明のエラー
 # Variables:
 # $provider - name of the online storage service
-cloud-file-unknown-error = { $provider } との通信中に不明なエラーが発生しました。
+cloud-file-unknown-error = { $provider } との通信中に原因不明のエラーが発生しました。
 cloud-file-deletion-error-title = 削除エラー
 # Variables:
 # $provider - name of the online storage service
