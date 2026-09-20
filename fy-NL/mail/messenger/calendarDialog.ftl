@@ -9,6 +9,8 @@
 calendar-dialog-close-button =
     .aria-label = Slute
     .title = Slute
+calendar-event-create-edit-dialog =
+    .aria-label = Barren
 calendar-dialog-menu-button =
     .aria-label = Menu iepenje
     .title = Menu iepenje
@@ -68,6 +70,7 @@ calendar-dialog-more-categories =
     .title = { $categories }
 calendar-dialog-delete-reminder-button =
     .alt = Omtinken fuortsmite
+calendar-dialog-add-reminder-button = Omtinken tafoegje
 # Variables:
 #   $count (Number): Number of reminders.
 calendar-dialog-reminder-count =

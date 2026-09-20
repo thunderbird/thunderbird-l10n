@@ -38,3 +38,4 @@ panel-settings-spam = Net-winskeynstellingen
 # Variables:
 # $account (String) - The account name.
 spam-settings-alert-message = Probleem mei de net-winske-e-mailynstellingen foar { $account } ûntdutsen. Wolle jo se kontrolearje eardat jo de wizigingen bewarje?
+open-settings-sidebar-button = Ynstellingen

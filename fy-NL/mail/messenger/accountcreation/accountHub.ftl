@@ -258,6 +258,7 @@ account-hub-oauth-unsupported-title = Oanfoljende konfiguraasje fereaske
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
 account-hub-oauth-unsupported-description = { -brand-short-name } kin OAuth2 net automatysk konfigurearje foar dizze hostnamme. Selektearje Avansearre konfiguraasje om de account oan te meitsjen en foltôgje dan de ynstallaasje fan Accountynstellingen út. <a data-l10n-name="oauth-support-link">Help by it ynstellen fan OAuth2.</a>
 account-hub-username-help-text = Meastentiids jo folsleine e-mailadres
+account-hub-port-help-text = As it leech litten wurdt, sil { -brand-short-name } probearje de poarte te ûntdekken.
 account-hub-notification-show-more = Mear toane
 account-hub-notification-show-less = Minder toane
 account-hub-email-setup-header = Jo e-mailadres tafoegje
