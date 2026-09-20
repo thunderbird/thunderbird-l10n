@@ -473,6 +473,12 @@ delete-tag-button =
 auto-mark-as-read =
     .label = Powěsće awtomatisce jako přečitane markěrować
     .accesskey = P
+mark-read-when-opened =
+    .label = Hnydom po wočinjenju
+    .accesskey = d
+show-attachments-inline-label =
+    .label = Přiwěški w powěsćowym teksće pokazać
+    .accesskey = i
 mark-read-no-delay =
     .label = Hnydom při zwobraznjenju
     .accesskey = H
@@ -487,6 +493,9 @@ mark-read-delay =
     .label = Po zwobraznjenju za
     .accesskey = z
 seconds-label = sekundow
+mark-read-after-viewing =
+    .label = Po pokazowanju za
+    .accesskey = k
 
 ##
 
@@ -532,6 +541,9 @@ conversation-view-checkbox-label =
 conversation-view-checkbox-description = Eksperimentelna funkcija, kotraž na Gloda bazuje, wužiwajće ju na swoje riziko
 label-experiment = Eksperimentelne
 dark-mode-message-appearance = Powěsćowy napohlad
+dark-mode-checkbox-label =
+    .label = Ćmowy modus za powěsćowy tekst wužiwać
+    .accesskey = m
 dark-message-mode-legend = Stil powěsćoweho čitaka
 dark-message-mode-checkbox-label =
     .label = Ćmowy powěsćowy modus zmóžnić
