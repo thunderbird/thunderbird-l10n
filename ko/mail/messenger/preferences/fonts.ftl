@@ -9,12 +9,19 @@ fonts-label-default =
     .label = 기본 ({ $name })
 fonts-label-default-unnamed =
     .label = 기본
+fonts-character-set-legend =
+    .value = 문자 세트:
+    .accesskey = t
+font-main-style-label =
+    .value = 기본 글꼴 스타일:
+    .accesskey = f
 fonts-language-legend =
     .value = 언어
     .accesskey = t
 fonts-proportional-label =
     .value = 가변폭 글꼴:
     .accesskey = P
+text-font-options-dialog-title = 텍스트 및 글꼴 옵션
 
 ## Languages
 
@@ -93,6 +100,9 @@ font-size-monospace-label =
 font-serif-label =
     .value = 세리프:
     .accesskey = S
+sans-serif-font-label =
+    .value = 산세리프 글꼴:
+    .accesskey = n
 font-sans-serif-label =
     .value = 산세리프:
     .accesskey = n
@@ -113,6 +123,13 @@ use-document-fonts-checkbox =
     .accesskey = o
 use-fixed-width-plain-checkbox =
     .label = 평문 메시지에 고정폭 글꼴 사용
+    .accesskey = x
+message-font-permissions-legend = 메시지 글꼴 권한
+allow-incoming-fonts-checkbox =
+    .label = 받는 메시지에 자체 글꼴 사용 허용
+    .accesskey = o
+display-fixed-width-plain-checkbox =
+    .label = 일반 텍스트 메시지를 고정폭 폰트로 표시
     .accesskey = x
 
 ## Language settings
