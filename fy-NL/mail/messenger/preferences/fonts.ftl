@@ -125,6 +125,12 @@ use-fixed-width-plain-checkbox =
     .label = Fêstebreedtelettertype brûke foar platte tekstberjochten
     .accesskey = F
 message-font-permissions-legend = Tastimmingen foar berjochtlettertypen
+allow-incoming-fonts-checkbox =
+    .label = Tastean dat ynkommende berjochten harren eigen lettertypen brûke
+    .accesskey = T
+display-fixed-width-plain-checkbox =
+    .label = Plattetekstberjochten werjaan yn in lettertype mei fêste breedte
+    .accesskey = P
 
 ## Language settings
 
