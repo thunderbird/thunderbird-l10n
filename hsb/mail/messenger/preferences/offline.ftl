@@ -28,6 +28,7 @@ going-online-keep =
 going-online-ask-send =
     .label = Před słanjom so prašeć
     .accesskey = P
+going-offline-prompt = Chceće powěsće sćahnyć, zo byšće je offline čitał?
 going-offline-download =
     .label = Haj, awtomatisce sćahnyć
     .accesskey = a
