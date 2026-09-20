@@ -9,6 +9,8 @@
 calendar-dialog-close-button =
     .aria-label = 닫기
     .title = 닫기
+calendar-event-create-edit-dialog =
+    .aria-label = 이벤트
 calendar-dialog-menu-button =
     .aria-label = 메뉴 열기
     .title = 메뉴 열기
@@ -60,6 +62,21 @@ calendar-dialog-more-categories = +{ $additionalCategories }개 더
     .title = { $categories }
 calendar-dialog-delete-reminder-button =
     .alt = 미리 알림 삭제
+calendar-dialog-add-reminder-button = 알림 추가
+calendar-dialog-reminder-select =
+    .aria-label = 새 알림 시간 선택
+calendar-dialog-save-reminder-button = 저장
+calendar-dialog-reminder-event-start = 0분 전
+# Variables:
+#  $count (Number): Number of minutes before the event.
+calendar-dialog-reminder-minutes-before = { $count }분 전
+# Variables:
+#  $count (Number): Number of hours before the event.
+calendar-dialog-reminder-hours-before = { $count }시간 전
+# Variables:
+#  $count (Number): Number of days before the event.
+calendar-dialog-reminder-days-before = { $count }일 전
+calendar-dialog-reminder-week-before = 1주일 전
 # Variables:
 #   $count (Number): Number of reminders.
 calendar-dialog-reminder-count = 미리 알림 { $count }개

@@ -22,16 +22,23 @@ disable-extension-button = 확장 기능 비활성화
 # The extension-icon is the extension's icon, or a fallback image. It should be
 # purely decoration for the actual extension name, with alt="".
 proxy-settings-controlled-by-extension = <img data-l10n-name="extension-icon" alt="" /> { $name } 확장 기능이 { -brand-short-name }가 인터넷에 연결하는 방식을 제어합니다.
+connection-internet-proxy-legend = 인터넷 연결 및 프록시
 connection-proxy-legend = 프록시 설정
 proxy-type-no =
     .label = 프록시 사용 안함
     .accesskey = y
+proxy-autodetect-network =
+    .label = 네트워크 프록시 자동 감지
+    .accesskey = w
 proxy-type-wpad =
     .label = 자동 설정
     .accesskey = w
 proxy-type-system =
     .label = 시스템 프록시 설정 사용
     .accesskey = u
+proxy-manual-setup =
+    .label = 수동 프록시 설정:
+    .accesskey = m
 proxy-type-manual =
     .label = 수동 설정
     .accesskey = m

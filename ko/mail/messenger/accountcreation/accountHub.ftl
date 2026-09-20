@@ -265,6 +265,7 @@ account-hub-oauth-unsupported-title = 추가 설정 필요
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
 account-hub-oauth-unsupported-description = { -brand-short-name }가 이 호스트 이름에 대해 OAuth2를 자동으로 구성할 수 없습니다. 생성을 위한 고급 설정을 선택하고, 계정 설정에서 설정을 완료해 주십시오. <a data-l10n-name="oauth-support-link">OAuth2 설정에 대한 도움 받기</a>
 account-hub-username-help-text = 보통 전체 이메일 주소
+account-hub-port-help-text = 비워 두면 { -brand-short-name }가 포트 검색을 시도합니다.
 account-hub-notification-show-more = 더 보기
 account-hub-notification-show-less = 간단히 보기
 account-hub-email-setup-header = 이메일 주소 추가

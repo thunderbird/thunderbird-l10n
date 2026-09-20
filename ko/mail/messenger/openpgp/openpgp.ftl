@@ -273,6 +273,8 @@ openpgp-key-details-upgrade-unsafe =
 openpgp-key-details-upgrade-ok = 키가 성공적으로 업그레이드되었습니다. 업그레이드된 공개 키는 상대방과 공유해야 합니다.
 openpgp-key-details-algorithm-label =
     .label = 알고리즘
+openpgp-key-details-version-label =
+    .label = 버전
 openpgp-key-details-size-label =
     .label = 크기
 openpgp-key-details-created-label =
@@ -747,6 +749,9 @@ key-in-message-body = 메시지 본문에서 키를 찾았습니다. 키를 가�
 sig-mismatch = 오류 - 서명 불일치
 invalid-email = 오류 - 잘못된 이메일 주소
 # Variables:
+#   $name (String) - File name of the attachment.
+attachment-pgp-key-import = ‘{ $name }’ 첨부파일이 OpenPGP 키 파일인 것으로 보입니다. 포함된 키를 가져 오시겠습니까?
+# Variables:
 # $name (String) - File name of the attachment.
 attachment-pgp-key =
     여는 첨부 파일 '{ $name }'이 OpenPGP 키 파일 인 것 같습니다.
@@ -770,6 +775,8 @@ debug-log-title = OpenPGP 디버그 로그
 dlg-button-ok = 확인
 dlg-button-close = 닫기
 dlg-button-cancel = 취소
+dlg-button-open = 열기(&O)…
+dlg-button-save = 저장(&S)
 dlg-no-prompt = 이 대화 상자를 다시 표시하지 않음
 enig-prompt = OpenPGP 프롬프트
 enig-confirm = OpenPGP 확인
