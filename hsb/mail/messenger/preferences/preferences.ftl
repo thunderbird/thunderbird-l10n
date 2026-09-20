@@ -710,6 +710,7 @@ compose-format-html-description = Wobchowuje swójske pisma, barby a wobrazy, n�
 compose-format-plain-option =
     .label = Jenož luty tekst
 compose-format-plain-description = Wotstronja kóžde formatěrowanje, barby a wobrazy. Najlěpše za jednore tekstowe mejlki, kotrež wšudźe funguja.
+autocomplete-matches-description = Hdyž mjeno abo e-mejlowu adresu přijimarja zapodawaće, pytajće za wotpowědnikami w:
 company-network-directory-label =
     .label = Předewzaćelski abo syćowy zapis
     .accesskey = P
