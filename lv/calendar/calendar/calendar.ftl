@@ -40,6 +40,7 @@ status-confirmed = Apstiprināts
 event-status-cancelled = Atcelts
 todo-status-cancelled = Atcelts
 status-needs-action = Nepieciešama darbība
+status-in-process = Notiekošs
 status-completed = Pabeigts
 # Task priority, these should match the calendar-priority-* levels
 high-priority = Augsts
