@@ -3,6 +3,27 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 offline-dialog-title = Nastavení režimu offline
+autodetect-connection-label =
+    .label = Automaticky přepnout režim po zjištění připojení k internetu
+    .accesskey = p
+offline-startup-label =
+    { -brand-short-name.case-status ->
+        [with-cases] Po spuštění { -brand-short-name(case: "gen") }:
+       *[no-cases] Po spuštění aplikace { -brand-short-name }:
+    }
+status-radio-last-used =
+    .label = Použít naposledy použitý režim připojení
+    .accesskey = r
+status-radio-ask-connect =
+    .label = Před připojením online se zeptat
+    .accesskey = P
+status-radio-start-online =
+    .label = Spustit s připojením k internetu
+    .accesskey = i
+status-radio-start-offline =
+    .label = Spustit bez připojení k internetu
+    .accesskey = S
+going-online-prompt = Odeslat zprávy čekající ve složce Pošta k odeslání
 going-online-send =
     .label = Ano, odeslat automaticky
     .accesskey = A

@@ -28,3 +28,4 @@ count-new-messages-radio =
     .label = Počet nových zpráv
     .accesskey = n
 notification-settings-info2 = Ikonu notifikace můžete zakázat v systémovém nastavení panelu upozornění.
+dock-icon-notification-dialog-title = Nastavení oznámení na ikoně aplikace
