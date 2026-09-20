@@ -71,6 +71,32 @@ calendar-dialog-more-categories =
 calendar-dialog-delete-reminder-button =
     .alt = Omtinken fuortsmite
 calendar-dialog-add-reminder-button = Omtinken tafoegje
+calendar-dialog-reminder-select =
+    .aria-label = Nije omtinkensdour selektearje
+calendar-dialog-save-reminder-button = Bewarje
+calendar-dialog-reminder-event-start = 0 minuten yn it foar
+# Variables:
+#  $count (Number): Number of minutes before the event.
+calendar-dialog-reminder-minutes-before =
+    { $count ->
+        [one] { $count } minút yn it foar
+       *[other] { $count } minuten yn it foar
+    }
+# Variables:
+#  $count (Number): Number of hours before the event.
+calendar-dialog-reminder-hours-before =
+    { $count ->
+        [one] { $count } oere yn it foar
+       *[other] { $count } oeren yn it foar
+    }
+# Variables:
+#  $count (Number): Number of days before the event.
+calendar-dialog-reminder-days-before =
+    { $count ->
+        [one] { $count } dei yn it foar
+       *[other] { $count } dagen yn it foar
+    }
+calendar-dialog-reminder-week-before = 1 wike yn it foar
 # Variables:
 #   $count (Number): Number of reminders.
 calendar-dialog-reminder-count =

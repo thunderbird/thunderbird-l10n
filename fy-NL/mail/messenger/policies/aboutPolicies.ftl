@@ -12,3 +12,6 @@ inactive-message = It bedriuwsbelied is ynaktyf.
 policy-name = Beliedsnamme
 policy-value = Beliedswearde
 policy-errors = Beliedsflaters
+# Shown under the name of a policy in the Active list when at least one of the
+# operations of that policy failed to apply. The Errors tab has the details.
+policy-not-fully-applied = Net folslein tapast

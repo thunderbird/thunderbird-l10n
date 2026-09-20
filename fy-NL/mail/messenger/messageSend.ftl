@@ -75,6 +75,7 @@ send-undisclosed-recipients = net-iepenbiere ûntfangers
 # Variables:
 # $recipient - recipient address
 smtp-error-illegal-local-part = Der komme net-ASCII-tekens foar yn it lokale part fan it ûntfangeradres { $recipient } en jo server stipet gjin SMTPUTF8. Wizigje dit adres en probearje it opnij.
+smtp-error-no-recipients = Der binne gjin ûntfangers opjûn foar ferstjoeren fia SMTP.
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = De útgeande (SMTP-)server { $hostname } liket gjin fersifere wachtwurden te stypjen. As jo de account krekt ynsteld hawwe, probearje dan de ‘Autentikaasjemetoade’ yn de ‘Accountynstellingen | Utgeande server (SMTP)’ nei ‘Wachtwurd, ûnbefeilige ferstjoerd’ te wizigjen. As dit earder wurke hat en no ynienen net mear, is dit in faakfoarkommend scenario wannear’t ien jo wachtwurd probearret te stellen.

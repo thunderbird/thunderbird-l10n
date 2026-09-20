@@ -279,6 +279,8 @@ openpgp-key-details-upgrade-unsafe =
 openpgp-key-details-upgrade-ok = De kaai is mei sukses opwurdearre. Jo moatte de opwurdearre iepenbiere kaai diele mei jo kontaktpersoanen.
 openpgp-key-details-algorithm-label =
     .label = Algoritme
+openpgp-key-details-version-label =
+    .label = Ferzje
 openpgp-key-details-size-label =
     .label = Grutte
 openpgp-key-details-created-label =
@@ -757,6 +759,9 @@ key-in-message-body = Der is in kaai fûn yn de berjochttekst. Klik op ‘Kaai y
 sig-mismatch = Flater – hantekening komt net oerien
 invalid-email = Flater – ûnjildich(ge) e-mailadres(sen)
 # Variables:
+#   $name (String) - File name of the attachment.
+attachment-pgp-key-import = De bylage ‘{ $name }’ liket in OpenPGP-kaaibestân te wêzen. Wolle jo de kaaien ú dit bestân ymportearje?
+# Variables:
 # $name (String) - File name of the attachment.
 attachment-pgp-key =
     De bylage ‘{ $name }’ dy’t jo probearje te iepenjen liket in OpenPGP-kaaibestân te wêzen.
@@ -780,6 +785,8 @@ debug-log-title = OpenPGP-debuglochboek
 dlg-button-ok = &OK
 dlg-button-close = &Slute
 dlg-button-cancel = &Annulearje
+dlg-button-open = &Iepenje…
+dlg-button-save = &Bewarje
 dlg-no-prompt = Dit dialoochfinster net mear toane.
 enig-prompt = OpenPGP-fraach
 enig-confirm = OpenPGP-befêstiging
