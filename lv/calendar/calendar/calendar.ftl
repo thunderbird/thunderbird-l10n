@@ -36,6 +36,9 @@ warning-until-date-before-start = Beigu datums ir pirms sākuma datuma
 home-calendar-name = Sākums
 # The name given to a calendar if an opened calendar has an empty filename
 untitled-calendar-name = Kalendārs bez nosaukuma
+# Event status: Tentative, Confirmed, Cancelled
+# ToDo task status: NeedsAction, InProcess, Completed, Cancelled
+status-tentative = Iespējams
 status-confirmed = Apstiprināts
 event-status-cancelled = Atcelts
 todo-status-cancelled = Atcelts
