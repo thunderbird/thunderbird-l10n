@@ -9,12 +9,19 @@ fonts-label-default =
     .label = Standert ({ $name })
 fonts-label-default-unnamed =
     .label = Standert
+fonts-character-set-legend =
+    .value = Tekenset:
+    .accesskey = T
+font-main-style-label =
+    .value = Haadlettertypestyl:
+    .accesskey = l
 fonts-language-legend =
     .value = Lettertypen foar:
     .accesskey = L
 fonts-proportional-label =
     .value = Proporsjoneel:
     .accesskey = P
+text-font-options-dialog-title = Tekst- en lettertypeopsjes
 
 ## Languages
 
@@ -93,6 +100,9 @@ font-size-monospace-label =
 font-serif-label =
     .value = Mei skreef:
     .accesskey = s
+sans-serif-font-label =
+    .value = Lettertype Sans-serif:
+    .accesskey = n
 font-sans-serif-label =
     .value = Skreefleas:
     .accesskey = k
@@ -114,6 +124,7 @@ use-document-fonts-checkbox =
 use-fixed-width-plain-checkbox =
     .label = Fêstebreedtelettertype brûke foar platte tekstberjochten
     .accesskey = F
+message-font-permissions-legend = Tastimmingen foar berjochtlettertypen
 
 ## Language settings
 

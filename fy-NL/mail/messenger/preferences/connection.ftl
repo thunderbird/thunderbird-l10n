@@ -94,6 +94,9 @@ proxy-auto-login-saved-password =
     .label = Automatysk oanmelde as in wachtwurd bewarre is
     .tooltiptext = Dizze opsje autentisearret jo automatysk by proxies as jo derfoar bewarre gegevens hawwe. Jo sille frege wurde as autentikaasje mislearret.
     .accesskey = A
+proxy-socks-remote-dns =
+    .label = Domeinoanfragen (DNS) troch SOCKS v5-proxy liede
+    .accesskey = D
 # Do not translate "localhost", "127.0.0.1/8" and "::1". (You can translate "and".)
 connection-proxy-noproxy-localhost-desc-2 = Ferbiningen mei localhost, 127.0.0.1/8 en ::1 gean nea fia in proxy.
 proxy-password-prompt =
