@@ -130,9 +130,20 @@ duplicate-error =
         [zero] { $count } vienumu netika ņemti vērā, jo tie pastāv gan mērķa kalendārā, gan { $filePath }.
        *[other] { $count } vienumi netika ņemti vērāk, jo tie pastāv gan mērķa kalendārā, gan { $filePath }.
     }
+# $location unknown calendar location
+unable-to-create-provider = Kalendāra, kas atrodas { $location }, sagatavošanas lietošanai laikā radās kļūda. Tas nebūs pieejams
+# Sample: Unknown timezone "USPacific" in "Dentist Appt".  Using the 'floating' local timezone instead: 2008/02/28 14:00:00
+# $timezone timezone name, $title item title, $datetime date-time
+unknown-timezone-in-item = “{ $title }” ir nezināma laika josla “{ $timezone }”. Tā tiek uzskatīt par “peldošu” vietējo laika joslu: { $datetime }
+timezone-errors-alert-title = Laika joslas kļūdas
 # The following strings are for the prompt to delete/unsubscribe from the calendar
 remove-calendar-title = Noņemt kalendāru
 remove-calendar-button-delete = Izdzēst kalendāru
+# $title title
+week-title = { $title }. nedēļa
+# $title title
+week-title-label =
+    .aria-label = { $title }. nedēļa
 tooltip-due = Paredzēts:
 filepicker-title-export = Izgūt
 item-modified-on-server-title = Vienums ir izmainīts serverī

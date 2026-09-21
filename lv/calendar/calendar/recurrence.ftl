@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+recurrence-rule-too-complex = Atkārtošanās informācija nav zināma
 #  Daily repeat rules: like repeats "every day", or "every 4 days"
 # Variables:
 #   $interval is a number, the recurrence interval
@@ -11,6 +12,7 @@ recurrence-daily-every-nth =
         [zero] ik pēc { $interval } dienām
        *[other] ik pēc { $interval } dienām
     }
+recurrence-every-weekday = katru darba dienu
 recurrence-repeat-ordinal-1 = pirmā
 recurrence-repeat-ordinal-2 = otrā
 recurrence-repeat-ordinal-3 = trešā
