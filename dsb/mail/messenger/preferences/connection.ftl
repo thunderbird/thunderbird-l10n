@@ -90,6 +90,13 @@ no-proxy-label =
 no-proxy-example = Pśikład: .mozilla.org, .net.nz, 192.168.1.0/24
 # Do not translate "localhost", "127.0.0.1/8" and "::1". (You can translate "and".)
 connection-proxy-local-network-desc = Lokalne seśowe zwiski (ako localhost) proksy nigda njewužywaju.
+proxy-auto-login-saved-password =
+    .label = Awtomatiski pśizjawiś, jolic gronidło jo skłaźone
+    .tooltiptext = Toś to nastajenje was mjelcyno pla proksijow awtentificěrujo, gaž sćo pśizjawjeńske za nje składł. Dostanjośo napominanje, jolic se awtentifikacija njeraźi.
+    .accesskey = m
+proxy-socks-remote-dns =
+    .label = Napšašowanja DNS pśez proksy SOCKS v5 wjasć
+    .accesskey = r
 # Do not translate "localhost", "127.0.0.1/8" and "::1". (You can translate "and".)
 connection-proxy-noproxy-localhost-desc-2 = Zwiski z localhost, 127.0.0.1/8 a ::1 nigda pśez proksy njejdu.
 proxy-password-prompt =
