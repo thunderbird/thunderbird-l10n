@@ -3,13 +3,23 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 offline-dialog-title = Nastajenja offline
+autodetect-connection-label =
+    .label = Moduse awtomatiski wuměniś, gaž se internetny zwisk namakajo
+    .accesskey = d
 offline-startup-label = Gaž se { -brand-short-name } wócynja:
+status-radio-last-used =
+    .label = Zwiskowy modus wužywaś, kótarež jo se ako slědny wužywał
+    .accesskey = Z
+status-radio-ask-connect =
+    .label = Pšašaś se, lěc se ma online zwězaś
+    .accesskey = l
 status-radio-start-online =
     .label = Online zachopiś
     .accesskey = n
 status-radio-start-offline =
     .label = Offline zachopiś
     .accesskey = f
+going-online-prompt = Powěsći słaś, kótarež we wašom postowem wuchaźe cakaju
 going-online-send =
     .label = Jo, awtomatiski pósłaś
     .accesskey = J
@@ -19,6 +29,7 @@ going-online-keep =
 going-online-ask-send =
     .label = Pśed słanim se pšašaś
     .accesskey = P
+going-offline-prompt = Cośo powěsći ześěgnuś, aby je offline cytał?
 going-offline-download =
     .label = Jo, awtomatiski ześěgnuś
     .accesskey = o

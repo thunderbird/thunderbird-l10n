@@ -127,6 +127,9 @@ use-fixed-width-plain-checkbox =
 allow-incoming-fonts-checkbox =
     .label = Dochadajucym powěsćam dowóliś, aby swójske pisma wužywali
     .accesskey = o
+display-fixed-width-plain-checkbox =
+    .label = Powěsći w lutnem teksće w njeproporcionalnem pismje pokazaś
+    .accesskey = c
 
 ## Language settings
 
