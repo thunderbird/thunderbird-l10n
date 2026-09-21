@@ -21,6 +21,7 @@ total-unread-messages-radio =
 total-new-messages-radio =
     .label = Celkem nových zpráv
     .accesskey = n
+notification-badge-system-info = Oznámení lze také zapnout nebo vypnout v systémových nastaveních počítače.
 dock-icon-show-label =
     .value = Ikona notifikace s:
 count-unread-messages-radio =
