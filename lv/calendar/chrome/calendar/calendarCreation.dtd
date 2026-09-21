@@ -1,0 +1,14 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY wizard.title "Izveidot jaunu kalendāru">
+<!ENTITY wizard.label "Izveidot jaunu kalendāru">
+<!ENTITY initialpage.computer.label "Manā datorā">
+<!ENTITY initialpage.network.label "Tīklā">
+<!ENTITY locationpage.username.label "Lietotājvārds:">
+<!ENTITY locationpage.password.label "Parole:">
+<!ENTITY finishpage.shortdescription "Kalendārs izveidots">
+<!ENTITY finishpage.longdescription "Kalendārs tika izveidots.">
+<!ENTITY buttons.create.label "Izveidot kalendāru">
+<!ENTITY buttons.find.label "Atrast kalendārus">

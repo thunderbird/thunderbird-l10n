@@ -13,6 +13,23 @@ recurrence-daily-every-nth =
        *[other] ik pēc { $interval } dienām
     }
 recurrence-every-weekday = katru darba dienu
+# Variables:
+#   $interval is a number, the recurrence interval
+#   $weekdays is a list of weekday names
+recurrence-weekly-every-nth-on =
+    { $interval ->
+        [one] katru { $interval }. nedēļu { $weekdays }
+        [zero] katru { $interval }. nedēļu { $weekdays }
+       *[other] katru { $interval }. nedēļu { $weekdays }
+    }
+# Variables:
+#  $interval is a number, the recurrence interval
+recurrence-weekly-every-nth =
+    { $interval ->
+        [one] katru { $interval }. nedēļu
+        [zero] katru { $interval }. nedēļu
+       *[other] katru { $interval }. nedēļu
+    }
 recurrence-repeat-ordinal-1 = pirmā
 recurrence-repeat-ordinal-2 = otrā
 recurrence-repeat-ordinal-3 = trešā
