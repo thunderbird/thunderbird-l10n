@@ -38,3 +38,4 @@ panel-settings-spam = Подешавања непожељног
 # Variables:
 # $account (String) - The account name.
 spam-settings-alert-message = Откривен је проблем са подешавањима за непожељне поруке за налог { $account }. Желите ли да их прегледате пре чувања измена?
+open-settings-sidebar-button = Подешавања

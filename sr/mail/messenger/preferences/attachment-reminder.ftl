@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 attachment-reminder-dialog-title = Речи које покрећу подсетник о прилогу
+attachment-reminder-description = Прикажи подсетник за недостајуће прилоге ако е-порука садржи одговарајуће кључне речи.
 attachment-reminder-label = { -brand-short-name } ће вас упозорити о прилозима који недостају ако пробате да пошаљете поруку која садржи једну од ових речи.
 keyword-new-button =
     .label = Нова…

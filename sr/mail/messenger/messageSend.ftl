@@ -75,6 +75,7 @@ send-undisclosed-recipients = неоткривени-примаоци
 # Variables:
 # $recipient - recipient address
 smtp-error-illegal-local-part = Има знакова који нису ASCII у локалном делу адресе примаоца { $recipient } а ваш сервер не подржава SMTPUTF8. Промените ову адресу и покушајте поново.
+smtp-error-no-recipients = Ниједан прималац није наведен за СМТП испоруку.
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = Изгледа да одлазни (SMTP) сервер { $hostname } не подржава шифроване лозинке. Ако сте тек подесили налог, промените начин пријаве у подешавањима налога | одлазни сервер (SMTP) у ‘Лозинка - послата несигурно’. Ако је ово некада радило а сада одједном не ради, можда вам неко покушава украсти лозинку.
