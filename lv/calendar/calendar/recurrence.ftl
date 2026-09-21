@@ -30,6 +30,14 @@ recurrence-weekly-every-nth =
         [zero] katru { $interval }. nedēļu
        *[other] katru { $interval }. nedēļu
     }
+# Variables:
+#   $interval is a number, the recurrence interval
+recurrence-monthly-every-day-of-nth =
+    { $interval ->
+        [one] katra mēneša katru dienu
+        [zero] katra { $interval }. mēneša katru dienu
+       *[other] katra { $interval }. mēneša katru dienu
+    }
 recurrence-repeat-ordinal-1 = pirmā
 recurrence-repeat-ordinal-2 = otrā
 recurrence-repeat-ordinal-3 = trešā
