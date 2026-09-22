@@ -40,7 +40,7 @@ import-label = Importálás
 about-paragraph = A Thunderbird a vezető nyílt forráskódú, keresztplatformos levelező- és naptárprogram, amely üzleti és személyes használatra is ingyenes. Azt akarjuk, hogy biztonságos maradjon, és még jobbá váljon. Az adományozás lehetővé teszi, hogy fejlesztőket vegyünk fel, fizessük az infrastruktúrát, és folyamatosan fejlesszünk.
 about-paragraph-consider-donation = <b>A Thunderbirdöt az Önhöz hasonló felhasználók finanszírozzák! Ha szereti a Thunderbirdöt, fontolja meg az adományozást.</b> A Thunderbird további elérhetőségének biztosításának legjobb módja az <a data-l10n-name="donation-link">adományozás</a>.
 support-link = Támogatás
-involved-link = Csatlakozzon
+involved-link = Csatlakozás
 developer-link = Fejlesztői dokumentáció
 read = Üzenetek olvasása
 compose = Új üzenet írása

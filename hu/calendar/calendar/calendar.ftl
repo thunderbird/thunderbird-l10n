@@ -1132,6 +1132,10 @@ attachments-tab-label = Mellékletek ({ $count }):
 calendar-window-title = { $docTitle } – { -brand-full-name }
 calendar-window-title-base = { -brand-full-name }
 # Variables:
+#   $calendarName (String) - Calendar name as given by the user.
+#   $location (String) - The calendar server location.
+calendar-auth-enter-user-password-for-calendar = A(z) „{ $calendarName }” ({ $location }) a felhasználónevét és jelszavát kéri.
+# Variables:
 #   $username (String) - The account username.
 #   $location (String) - The calendar server location.
 calendar-auth-enter-password-for = Adja meg { $username } jelszavát itt: { $location }

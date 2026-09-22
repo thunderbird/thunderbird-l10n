@@ -75,6 +75,7 @@ send-undisclosed-recipients = undisclosed-recipients
 # Variables:
 # $recipient - recipient address
 smtp-error-illegal-local-part = Nem ASCII karakterek is vannak a címzett { $recipient } címének helyi részében, és a kiszolgálója nem támogatja az SMTPUTF8-at. Módosítsa a címet, és próbálja újra.
+smtp-error-no-recipients = Az SMTP-kézbesítéshez nem adtak meg címzettet.
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = Úgy tűnik, a levélküldő (SMTP) kiszolgáló ({ $hostname }) nem támogatja a titkosított jelszavakat. Ha most állította be a fiókot, akkor próbálja meg módosítani a „Hitelesítési módszert” a „Postafiók beállításai | Levélküldő kiszolgáló (SMTP)” alatt a „Jelszó, nem biztonságos átvitellel” lehetőségre. Ha ez korábban működött, de már nem, akkor lehet, hogy ellopták a jelszavát.
