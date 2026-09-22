@@ -6,3 +6,7 @@
 ## These strings are shown in a desktop notification after the user requests we resend a verification email.
 
 sync-verification-not-sent-body = Mums šobrīd neizdodas nosūtīt apliecinājuma e-pasta ziņojumu, tāpēc lūgums vēlāk mēģināt vēlreiz.
+
+## These strings are shown in a confirmation dialog when the user chooses to sign out.
+
+sync-signout-dialog-body = Vienādotie dati paliks Tavā kontā.
