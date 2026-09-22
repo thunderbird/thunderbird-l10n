@@ -295,7 +295,7 @@ key-do-you-accept = Vai jūs pieņemat šo atslēgu digitālo parakstu pārbaude
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Neizdevās nosūtīt vēstuli, jo radās problēma ar jūsu personīgo atslēgu. { $problem }
-window-locked = Salikšanas logs ir bloķēts; sūtīšana atcelta
+window-locked = Veidošanas logs ir slēgts; sūtīšana atcelta
 
 ## Strings in keyserver.sys.mjs
 
