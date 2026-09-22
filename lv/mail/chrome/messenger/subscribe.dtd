@@ -2,8 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY subscribeDialog.title "Pierakstīties">
-<!ENTITY subscribeButton.label "Pierakstīties">
+<!ENTITY subscribeDialog.title "Abonēt">
+<!ENTITY subscribeButton.label "Abonēt">
 <!ENTITY subscribeButton.accesskey "P">
 <!ENTITY unsubscribeButton.label "Atrakstīties">
 <!ENTITY unsubscribeButton.accesskey "A">
@@ -15,6 +15,6 @@
 <!ENTITY stopButton.accesskey "A">
 <!ENTITY server.label "Konts:">
 <!ENTITY server.accesskey "K">
-<!ENTITY subscribedHeader.label "Pierakstīties">
+<!ENTITY subscribedHeader.label "Abonēt">
 <!ENTITY namefield.label "Rādīt vienumus, kas satur:">
 <!ENTITY namefield.accesskey "v">

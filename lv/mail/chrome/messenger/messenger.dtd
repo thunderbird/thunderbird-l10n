@@ -588,7 +588,7 @@
 <!ENTITY folderContextUnsubscribe.accesskey "A">
 <!ENTITY folderContextMarkNewsgroupRead.label "Atzīmēt ziņu grupu kā lasītu">
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "z">
-<!ENTITY folderContextSubscribe.label "Pierakstīties…">
+<!ENTITY folderContextSubscribe.label "Abonēt…">
 <!ENTITY folderContextSubscribe.accesskey "P">
 <!ENTITY folderContextSearchForMessages.label "Meklēt ziņojumus…">
 <!ENTITY folderContextSearchForMessages.accesskey "M">
@@ -787,7 +787,7 @@
 <!ENTITY EditContact1.accesskey "R">
 <!ENTITY ViewContact.label "Skatīt kontaktu">
 <!ENTITY ViewContact.accesskey "S">
-<!ENTITY SubscribeToNewsgroup.label "Pierakstīties ziņu grupai">
+<!ENTITY SubscribeToNewsgroup.label "Abonēt ziņu kopu">
 <!ENTITY SubscribeToNewsgroup.accesskey "P">
 <!ENTITY SendMessageTo.label "Rakstīt vēstuli uz">
 <!ENTITY SendMessageTo.accesskey "R">

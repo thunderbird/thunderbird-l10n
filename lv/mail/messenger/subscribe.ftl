@@ -2,7 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-subscribe-window-title = Pierakstīties
+subscribe-window-title = Abonēt
 subscribe-server = Konts:
     .accesskey = K
 subscribe-namefield = Rādīt vienumus, kas satur:
