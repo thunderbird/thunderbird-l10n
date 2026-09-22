@@ -2,7 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-offline-dialog-title = Nastavení režimu offline
+offline-dialog-title = Nastavení offline režimu
 autodetect-connection-label =
     .label = Automaticky přepnout režim po zjištění připojení k internetu
     .accesskey = p
