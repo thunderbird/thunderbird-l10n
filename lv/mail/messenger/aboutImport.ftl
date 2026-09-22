@@ -3,6 +3,10 @@
 # file, you can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Buttons
+
+button-continue = Turpināt
+
 ## Import dialog
 
 error-pane-title = Kļūda

@@ -9,10 +9,20 @@ account-setup-tab-title = Konta iestatīšana
 account-setup-title = Iestatiet savu esošo e-pasta adresi
 account-setup-description = Lai izmantotu savu pašreizējo e-pasta adresi, aizpildiet jūsu akreditācijas datus.
 
+## Action buttons
+
+account-setup-button-continue = Turpināt
+    .accesskey = T
+
 ## Illustrations
 
 account-setup-step4-image =
     .title = Savienojuma kļūda
+
+## Dismiss account creation dialog
+
+exit-dialog-cancel-button = Turpināt iestatīšanu
+    .accesskey = T
 
 ## Alert dialogs
 

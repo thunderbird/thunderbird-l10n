@@ -4,6 +4,8 @@
 
 e2e-intro-description = Lai nosūtītu šifrētas vai digitāli parakstītas vēstules, jums jāiestata šifrēšanas tehnoloģija: OpenPGP vai S/MIME.
 e2e-intro-description-more = Atlasiet savu personīgo atslēgu, lai ieslēgtu OpenPGP, vai personīgo sertifikātu, lai ieslēgtu S/MIME lietošanu. Personīgajai atslēgai vai sertifikātam jums ir attiecīgā slepenā atslēga.
+# A label for a button that proceeds to the next step
+e2e-csr-continue = Turpināt
 openpgp-key-expiry-label =
     .label = Derīgums
 openpgp-key-id-label =

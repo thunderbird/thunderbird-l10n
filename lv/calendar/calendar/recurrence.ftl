@@ -54,4 +54,13 @@ recurrence-repeat-ordinal--1 = pēdējā
 #   $weekday - weekday name
 # e.g. "'the first' 'Monday'"
 recurrence-ordinal-weekday = { $ordinal } { $weekday }
+# Variables:
+#   $interval is a number, the recurrence interval
+#   $weekdays - weekday name(s)
+recurrence-monthly-every-of-every =
+    { $interval ->
+        [zero] katra { $interval }. mēneša katrā { $weekdays }
+        [one] katra mēneša katru { $weekdays }
+       *[other] katra { $interval }. mēneša katrā { $weekdays }
+    }
 recurrence-monthly-last-day = pēdējā diena

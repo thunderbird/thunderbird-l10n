@@ -7,6 +7,10 @@
 ### Account hub is where user can setup new accounts in Thunderbird.
 
 
+## Email page
+
+account-hub-email-continue-button = Turpināt
+
 ## Other Account Hub strings (sadly not sorted into sections)
 
 account-hub-select-option =
