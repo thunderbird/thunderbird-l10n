@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 attachment-reminder-dialog-title = Mellékletre figyelmeztető kulcsszavak
+attachment-reminder-description = Hiányzó mellékletre való figyelmeztetés megjelenítése, ha az e-mail mellékletre utaló kulcsszavakat tartalmaz.
 attachment-reminder-label = A { -brand-short-name } figyelmeztetni fog a hiányzó mellékletekre, ha az elküldendő levél tartalmazza a következő kulcsszavak egyikét.
 keyword-new-button =
     .label = Új…
