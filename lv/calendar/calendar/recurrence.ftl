@@ -63,4 +63,23 @@ recurrence-monthly-every-of-every =
         [one] katra mēneša katru { $weekdays }
        *[other] katra { $interval }. mēneša katrā { $weekdays }
     }
+#  $weekdays - weekday name(s)
+#  $interval is a number, the recurrence interval
+recurrence-monthly-nth-of-every =
+    { $interval ->
+        [zero] { $weekdays } katru { $interval }. mēnesi
+        [one] katra mēneša { $weekdays }
+       *[other] { $weekdays } katru { $interval }. mēnesi
+    }
 recurrence-monthly-last-day = pēdējā diena
+# Variables:
+#   $count - number of days listed in days
+#   $days - day of month or a sequence of days of month, possibly followed by an ordinal symbol
+#    separated with commas;
+# e.g. "days 3, 6 and 9" or "days 3rd, 6th and 9th"
+recurrence-monthly-days-of-nth-day =
+    { $count ->
+        [zero] { $days } dienu
+        [one] { $days } diena
+       *[other] { $days } dienas
+    }

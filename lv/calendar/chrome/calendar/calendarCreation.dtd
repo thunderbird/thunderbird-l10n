@@ -12,4 +12,14 @@
 <!ENTITY finishpage.longdescription "Kalendārs tika izveidots.">
 <!ENTITY buttons.create.label "Izveidot kalendāru">
 <!ENTITY buttons.find.label "Atrast kalendārus">
+<!ENTITY buttons.back.label "Atpakaļ">
 <!ENTITY buttons.subscribe.label "Abonēt">
+<!ENTITY calendartype.label "Kalendāra veids:">
+<!ENTITY location.label "Atrašanās vieta:">
+<!ENTITY location.placeholder "Kalendāra servera URL vai saimniekdatora nosaukums">
+<!ENTITY network.nocredentials.label "Šai atrašanās vietai nav nepieciešami pieteikšanās dati">
+<!ENTITY network.loading.description "Lūgums uzgaidīt, kamēr kalendāri tiek atklāti.">
+<!ENTITY network.notfound.description "Šajā atrašanās vietā nevarēja atrast kalendārus. Lūgums pārbaudīt iestatījumus.">
+<!ENTITY network.authfail.description "Ievadītie pieteikšanās dati netika pieņemti. Lūgums pārbaudīt iestatījumus.">
+<!ENTITY network.subscribe.single.description "Lūgums atlasīt kalendārus, kurus ir vēlme abonēt.">
+<!ENTITY network.subscribe.multiple.description "Šai atrašanās vietai ir pieejami vairāki kalendāru veidi. Lūgums atlasīt kalendāra veidu un pēc tam atzīmēt kalendārus, kurus ir vēlme abonēt.">
