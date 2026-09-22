@@ -9,12 +9,19 @@ fonts-label-default =
     .label = Alapértelmezett ({ $name })
 fonts-label-default-unnamed =
     .label = Alapértelmezett
+fonts-character-set-legend =
+    .value = Karakterkészlet:
+    .accesskey = K
+font-main-style-label =
+    .value = Fő betűstílus:
+    .accesskey = F
 fonts-language-legend =
     .value = Kódolás:
     .accesskey = K
 fonts-proportional-label =
     .value = Proporcionális:
     .accesskey = P
+text-font-options-dialog-title = Szöveg- és betűkészlet-beállítások
 
 ## Languages
 
@@ -93,6 +100,9 @@ font-size-monospace-label =
 font-serif-label =
     .value = Talpas:
     .accesskey = T
+sans-serif-font-label =
+    .value = Talpatlan betűkészlet:
+    .accesskey = T
 font-sans-serif-label =
     .value = Talpatlan:
     .accesskey = n
@@ -114,6 +124,13 @@ use-document-fonts-checkbox =
 use-fixed-width-plain-checkbox =
     .label = Fix szélességű betűk a normál szöveges üzenetekhez
     .accesskey = x
+message-font-permissions-legend = Üzenet betűkészlet-engedélyei
+allow-incoming-fonts-checkbox =
+    .label = Engedélyezés, hogy a bejövő üzenetek a saját betűkészleteiket használják
+    .accesskey = s
+display-fixed-width-plain-checkbox =
+    .label = Egyszerű szöveges üzenetek megjelenítése fix szélességű betűkészlettel
+    .accesskey = E
 
 ## Language settings
 

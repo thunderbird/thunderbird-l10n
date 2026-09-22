@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 offline-dialog-title = Kapcsolat nélküli beállítások
+autodetect-connection-label =
+    .label = Automatikus módváltás internetkapcsolat észlelésekor
+    .accesskey = A
+offline-startup-label = A { -brand-short-name } megnyitásakor:
 autodetect-online-label =
     .label = A felismert online állapot követése automatikusan
     .accesskey = f
