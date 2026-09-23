@@ -49,7 +49,10 @@ account-hub-email-retest-button = Поново пробај
 account-hub-email-finish-button = Доврши
 account-hub-email-manually-configure-button = Подесите ручно
 account-hub-email-continue-button = Настави
+account-hub-email-set-up-account-button = Подеси налог
 account-hub-email-confirm-button = Потврди
+account-hub-email-find-settings-button = Пронађи подешавања
+account-hub-email-connect-button = Повежи
 account-hub-result-incoming-legend = Долазни
 account-hub-result-outgoing-legend = Одлазни
 account-hub-all-servers-legend = Сви сервери
@@ -84,12 +87,19 @@ account-hub-result-authentication-external = Спољно
 account-hub-result-authentication-oauth2 = OAuth2
     .title = OAuth2
 account-hub-result-auth-none = Ништа
+    .title = Ништа
 account-hub-result-auth-password = Обична лозинка
+    .title = Обична лозинка
 account-hub-result-auth-encrypted-password = Шифрована лозинка
+    .title = Шифрована лозинка
 account-hub-result-auth-gssapi = Керберос
+    .title = Керберос
 account-hub-result-auth-ntlm = NTLM
+    .title = НТЛМ
 account-hub-result-auth-external = Спољно
+    .title = Спољно
 account-hub-result-auth-oauth2 = OAuth2
+    .title = ОАут2
 account-hub-on-port-label = Порт
 account-hub-result-authentication-label = Потврђивање идентитета
     .title = Потврђивање идентитета
@@ -116,6 +126,8 @@ account-hub-ssl-noencryption-option =
 account-hub-auth-no-authentication-option =
     .label = Без потврђивања идентитета
 account-hub-auth-label = Начин пријаве
+account-hub-select-option =
+    .label = Изаберите опцију
 account-hub-username-label = Корисничко име
 account-hub-username-warning-icon = Корисничко име је обавезно
 account-hub-address-book-username-error-text = Унесите корисничко име
@@ -151,6 +163,7 @@ address-book-ldap-duplicate-error = Име LDAP именика већ посто
 address-book-ldap-creation-error = Није могуће направити LDAP именик.
 account-hub-email-setup-ews = Поставке сервера
 account-hub-result-exchange-url-label = Exchange URL адреса крајње тачке
+account-hub-exchange-service-url-label = Унесите URL услуге
 account-hub-email-credentials-confirmation = Подешавање налога
 account-hub-result-unknown-hostname = Непознато име домаћина
 account-hub-result-unknown-cert = Непроверен сертификат
@@ -194,8 +207,11 @@ account-hub-result-security-ssl = SSL/TLS
 account-hub-result-security-starttls = STARTTLS
     .title = STARTTLS
 account-hub-result-no-encryption = Без шифровања
+    .title = Нема шифровања
 account-hub-result-ssl = SSL/TLS
+    .title = SSL/TLS
 account-hub-result-starttls = STARTTLS
+    .title = СтартТЛС
 account-hub-credentials-wrong = Потврда идентитета није успела. Проверите корисничко име и лозинку
 account-hub-result-username-label = Корисничко име
     .title = Корисничко име
@@ -225,14 +241,43 @@ account-hub-calendars-button = Календари
 account-hub-thundermail-button = Пријавите се уз Thundermail
 # Used as part of a divider between sign in button and a sign in form.
 account-hub-thundermail-divider-text = или
+account-hub-manual-config-imap-title = Подешавања за ИМАП
+account-hub-manual-config-pop3-title = Подешавања POP3
+account-hub-manual-config-review-settings-title = Преглед ажурираних подешавања
 account-hub-manual-config-incoming-legend = Долазни сервер
 account-hub-manual-config-outgoing-legend = Одлазни сервер
+# Label for checkbox that will hide an outgoing username input if it's the same is the incoming
+account-hub-same-username-checkbox = Исто корисничко име као на долазном серверу
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-security-changed = Нисам могао да пронађем { $oldValue }, али је { $newValue } доступно.
+# Variables:
+# $oldValue (String): The port requested before the configuration was tested.
+# $newValue (String): The port found after the configuration was tested.
+account-hub-manual-config-port-changed = Нисам могао да достигнем порт { $oldValue }, али је порт { $newValue } доступан.
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-value-changed = Нисам могао да употребим { $oldValue }, али је { $newValue } доступно.
+account-hub-protocol-imap = Усклађујте између уређаја
+account-hub-protocol-microsoft = Exchange или Microsoft 365
+account-hub-protocol-pop3 = Преузми на уређај
+account-hub-oauth-unsupported-title = Потребна су додатна подешавања
+# Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
+# 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
+account-hub-oauth-unsupported-description = { -brand-short-name } не може самостално да подеси OAuth2 за овај назив домаћина. Изаберите Напредна подешавања да направите налог, затим завршите подешавање у Подешавањима налога. <a data-l10n-name="oauth-support-link">Прибавите помоћ о подешавању OAuth2.</a>
+account-hub-username-help-text = Често је то ваша пуна адреса е-поште
+account-hub-port-help-text = Ако оставите празно, { -brand-short-name } ће покушати да открије порт.
 account-hub-notification-show-more = Прикажи више
 account-hub-notification-show-less = Прикажи мање
 account-hub-email-setup-header = Додајте вашу адресу е-поште
 account-hub-email-setup-incoming = Подешавања долазног сервера
 account-hub-email-setup-outgoing = Подешавања одлазног сервера
+account-hub-email-exchange-settings = Exchange подешавања
 account-hub-email-connect-settings = Повежите подешавања е-поште
+account-hub-email-protocol-select-header = Изаберите врсту налога е-поште
+account-hub-email-protocol-select-additional-info = Потребни су додатни подаци за подешавање овог налога.
 account-hub-email-config-found = Изаберите врсту вашег налога е-поште
 account-hub-email-enter-password = Унесите лозинку за ваш налог е-поште
 account-hub-email-sync-accounts = Усагласите ваше календаре и именике
@@ -242,6 +287,8 @@ account-hub-result-imap-description = Држите ваше фасцикле и 
 account-hub-result-pop-description = Држите ваше фасцикле и е-поште на вашем рачунару
 account-hub-result-ews-shortname = Exchange
 account-hub-result-ews-description = Користите Microsoft Exchange Web Services за усаглашавање ваших фасцикли и е-пошта
+account-hub-result-graph-api-shortname = Microsoft Graph API
+account-hub-result-graph-api-description = Употреби Microsoft Graph API да ускладиш своје фасцикле и е-пошту са Microsoft 365
 account-hub-result-graph-shortname = Exchange (Graph)
 account-hub-result-graph-description = Користите Microsoft Graph API за усклађивање својих фасцикли и е-поште
 account-hub-result-exchange-description = Усагласите фасцикле и е-пошту са Exchange-ом или Office-ом 365
@@ -287,6 +334,7 @@ account-hub-port-error-text = Прикључник мора бити измеђ�
     .title = Прикључник мора бити између 1 и 65535
 account-hub-username-error-text = Корисничко име је обавезно
     .title = Корисничко име је обавезно
+account-hub-manual-config-error-summary = Разреши следеће грешке:
 account-hub-oauth-pending = Чекање на овлашћење у искачућем прозору за пријаву…
 account-hub-addon-install-button = Инсталирај
 account-hub-addon-install-needed = { -brand-short-name } не подржава изворно овај сервер. Да бисте приступили Exchange е-пошти, <a data-l10n-name="addon-install">инсталирајте додатак треће стране као што је Owl (плаћа се).</a>
@@ -298,14 +346,20 @@ account-hub-add-address-book = Додај именик
 address-book-sync-existing-icon =
     .alt = Усагласите именик са постојећег налога
 address-book-sync-existing = Усагласи са постојећег налога
+address-book-add-remote-icon2 =
+    .alt = Додај удаљени именик
 address-book-add-remote-icon =
     .alt = Додај нови удаљени именик
 address-book-add-remote = Додај удаљени именик
+address-book-add-remote-carddav-description = Повежи се са CardDAV имеником
 address-book-add-remote-description = Повежите се на удаљени CardDAV именик
 address-book-add-local-icon =
     .alt = Направи нови локални именик
 address-book-add-local = Нови локални именик
 address-book-add-local-description = Направите нови локални именик на свом уређају
+address-book-add-ldap-icon2 =
+    .alt = Додавање ЛДАП именика
+address-book-add-ldap-button = Додај LDAP именик
 address-book-add-ldap-icon =
     .alt = Повежите се на удаљени LDAP именик
 address-book-add-ldap = Нови LDAP именик
@@ -330,3 +384,22 @@ account-hub-local-address-book-label = Име именика
 account-hub-local-error-text = Унесите име именика
 account-hub-sync-address-books = Усагласи постојеће именике
 account-hub-new-remote-address-book = Нови удаљени именик
+
+## Exchange Type Manual Config Step
+
+account-hub-exchange-type-account-type = Врста налога
+account-hub-card-graph-title = Microsoft Graph
+account-hub-card-graph-description = Microsoft Graph је савремени начин повезивања за Microsoft 365.
+account-hub-card-ews-title = Exchange веб услуге
+account-hub-card-ews-tag = Застарело
+account-hub-card-ews-description = Exchange Web Services (EWS) се повезује са Microsoft Exchange-ом да усклади вашу е-пошту.
+# This is shown after the type description, so "it" is referring to the type (either Microsoft Graph or Exchange Web Services).
+account-hub-card-recommended-description = Препоручено је зато што се подудара са адресом ваше услуге.
+account-hub-exchange-type-username = Корисничко име
+account-hub-exchange-type-username-hint = Обично је то ваша адреса е-поште или Active Directory UPN.
+account-hub-exchange-type-authentication = Начин потврде идентитета
+# Checkbox that can be unchecked to use a custom OAuth config.
+account-hub-exchange-type-default-oauth = Употреби подразумевана подешавања за потврђивање идентитета Microsoft 365 Copilot-а
+account-hub-exchange-type-oauth-tenant = ИД тенанта:
+account-hub-exchange-type-oauth-app = ИД програма
+account-hub-exchange-type-title = Изаберите врсту налога
