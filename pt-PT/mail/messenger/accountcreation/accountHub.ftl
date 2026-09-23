@@ -17,7 +17,7 @@ account-hub-title = Centro da Conta
 
 account-hub-release-notes = Notas de lançamento
 account-hub-support = Apoio
-account-hub-donate = Fazer donativo
+account-hub-donate = Doar
 
 ## Initial setup page
 

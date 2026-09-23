@@ -37,8 +37,8 @@ import-title = Importar de outro programa
 import-paragraph2 = O { -brand-short-name } permite importar mensagens de correio, entradas do livro de endereços, subscrições em fontes, preferências e/ou filtros de outros programas de correio e tipos comuns de livros de endereços.
 import-label = Importar
     .aria-label = Importe dados de outros programas
-about-paragraph = O Thunderbird é a solução de código aberto líder para cliente de e-mail e calendário multi-plataforma, gratuita para utilização empresarial e pessoal. Queremos que se mantenha em segurança e que continue a melhorar ainda mais. Um donativo irá permitir-nos contratar programadores, pagar a infraestrutura e continuar a melhorar.
-about-paragraph-consider-donation = <b>O Thunderbird é financiado por utilizadores como você! Se gosta do Thunderbird, considere fazer um donativo.</b> A melhor forma para si de garantir que o Thunderbird se mantém disponível é <a data-l10n-name="donation-link">fazer um donativo.</a>
+about-paragraph = O Thunderbird é a solução de código aberto líder para cliente de e-mail e calendário multi-plataforma, gratuita para utilização empresarial e pessoal. Queremos que se mantenha em segurança e que continue a melhorar ainda mais. Uma doação irá permitir-nos contratar programadores, pagar a infraestrutura e continuar a melhorar.
+about-paragraph-consider-donation = <b>O Thunderbird é financiado por utilizadores como você! Se gosta do Thunderbird, considere fazer uma doação.</b> A melhor forma para si de garantir que o Thunderbird se mantém disponível é <a data-l10n-name="donation-link">fazer uma doação.</a>
 support-link = Apoio
 involved-link = Participar
 developer-link = Documentação do programador
