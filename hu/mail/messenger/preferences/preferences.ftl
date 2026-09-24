@@ -456,6 +456,8 @@ smaller-size-item =
 quoted-text-color =
     .label = Szín:
     .accesskey = z
+search-content-types =
+    .placeholder = Tartalomtípusok keresése
 search-handler-table =
     .placeholder = Tartalomtípusok és műveletek szűrése
 type-column-header = Tartalomtípus
@@ -477,7 +479,8 @@ choose-folder-label =
 always-ask-label =
     .label = Rákérdezés a fájlok letöltési helyére
     .accesskey = R
-display-tags-text = A címkék az üzenetek kategorizálására és priorálására használhatók.
+use-tags-text = Címkék használata az üzenetek kategorizálására és priorizálására.
+display-tags-text = A címkék az üzenetek kategorizálására és priorizálására használhatók.
 new-tag-button =
     .label = Új…
     .accesskey = j
@@ -510,6 +513,9 @@ mark-read-delay =
     .label = Megjelenítés után
     .accesskey = e
 seconds-label = másodperc
+mark-read-after-viewing =
+    .label = Ennyi idejű megtekintés után:
+    .accesskey = m
 
 ##
 
