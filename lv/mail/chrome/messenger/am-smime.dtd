@@ -16,7 +16,7 @@
 <!ENTITY encryption.certificate_clear.button "Attīrīt">
 <!ENTITY encryption.certificate_clear.accesskey "t">
 <!ENTITY signingGroupTitle.label "Digitālā parakstīšana">
-<!ENTITY signingCert2.message "Personīgais sertifikāts digitālajai parakstīšanai:">
+<!ENTITY signingCert2.message "Personīgais sertifikāts ciparu parakstiem:">
 <!ENTITY sendingDefaults.label "Noklusētie iestatījumi vēstuļu sūtīšanai">
 <!ENTITY technologyAutomatic.label "Izvēlēties automātiski, balstoties uz pieejamām atslēgām vai sertifikātiem">
 <!ENTITY certificates2.label "S/MIME">

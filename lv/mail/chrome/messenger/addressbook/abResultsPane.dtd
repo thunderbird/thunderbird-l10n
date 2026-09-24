@@ -27,7 +27,7 @@
 <!ENTITY FaxNumber.accesskey "F">
 <!ENTITY HomePhone.label "Mājas telefons">
 <!ENTITY HomePhone.accesskey "M">
-<!ENTITY WorkPhone.label "Darba telefons">
+<!ENTITY WorkPhone.label "Darba tālruņa numurs">
 <!ENTITY WorkPhone.accesskey "D">
 <!ENTITY ChatName.label "Tērzēšanas segvārds">
 <!ENTITY ChatName.accesskey "T">

@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY doNotDownloadPop3Movemail.label "Lai ietaupītu diska vietu, nelejuplādēt:">
-<!ENTITY doNotDownloadNntp.label "Lai ietaupītu diska vietu, nelejuplādēt nesaistes darbam:">
+<!ENTITY doNotDownloadNntp.label "Lai ietaupītu vietu diskā, nelejupielādēt nesaistes darbam:">
 <!ENTITY doNotDownloadImap.label "Lai ietaupītu diska vietu, vēstuļu lejuplādi no servera un vietējo kopiju glabāšanu nesaistē var ierobežot pēc vecuma vai izmēra.">
 <!ENTITY allFoldersOffline2.label "Saglabāt vēstules šajā datorā visām šī konta mapēm">
 <!ENTITY allFoldersOffline2.accesskey "S">
