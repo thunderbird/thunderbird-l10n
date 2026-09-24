@@ -1,0 +1,22 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!ENTITY month.1.name "Janvāris">
+<!ENTITY month.2.name "Februāris">
+<!ENTITY month.3.name "Marts">
+<!ENTITY month.4.name "Aprīlis">
+<!ENTITY month.5.name "Maijs">
+<!ENTITY month.6.name "Jūnijs">
+<!ENTITY month.7.name "Jūlijs">
+<!ENTITY month.8.name "Augusts">
+<!ENTITY month.9.name "Septembris">
+<!ENTITY month.10.name "Oktobris">
+<!ENTITY month.11.name "Novembris">
+<!ENTITY month.12.name "Decembris">
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!ENTITY showToday.tooltip "Doties uz šodienu">
+<!ENTITY onedayforward.tooltip "Uz nākamo dienu">
+<!ENTITY onedaybackward.tooltip "Uz iepriekšējo dienu">
+<!ENTITY showselectedday.tooltip "Rādīt atlasītās dienas notikumus">

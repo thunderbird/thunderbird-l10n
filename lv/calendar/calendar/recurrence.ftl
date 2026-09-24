@@ -71,6 +71,13 @@ recurrence-monthly-nth-of-every =
         [one] katra mēneša { $weekdays }
        *[other] { $weekdays } katru { $interval }. mēnesi
     }
+#  $interval is a number, the recurrence interval
+recurrence-monthly-last-day-of-nth =
+    { $interval ->
+        [zero] katra { $interval }. mēneša pēdējā dienā
+        [one] katra mēneša pēdējā dienā
+       *[other] katra { $interval }. mēneša pēdējā dienā
+    }
 recurrence-monthly-last-day = pēdējā diena
 # Variables:
 #   $count - number of days listed in days
