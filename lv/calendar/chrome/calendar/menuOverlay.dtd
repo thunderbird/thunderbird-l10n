@@ -4,3 +4,19 @@
 
 <!-- Event Menu -->
 <!ENTITY event.new.event "Jauns notikums…">
+<!ENTITY event.new.event.accesskey "J">
+<!ENTITY event.new.task "Jauns uzdevums…">
+<!ENTITY event.new.task.accesskey "u">
+<!ENTITY calendar.import.label "Ievietot…">
+<!ENTITY calendar.import.accesskey "I">
+<!ENTITY calendar.export.label "Izgūt…">
+<!ENTITY calendar.export.accesskey "g">
+<!ENTITY calendar.deletecalendar.label "Izdzēst atlasīto kalendāru…">
+<!ENTITY calendar.deletecalendar.accesskey "d">
+<!ENTITY calendar.unsubscribecalendar.label "Atcelt atlasītā kalendāra abonēšanu…">
+<!ENTITY calendar.unsubscribecalendar.accesskey "A">
+<!-- LOCALIZATION NOTE (calendar.removecalendar.label): Removing the calendar
+      is the general action of removing it, while deleting means to clear the
+      data and unsubscribing means just taking it out of the calendar list. -->
+<!ENTITY calendar.removecalendar.label "Noņemt atlasīto kalendāru…">
+<!ENTITY calendar.removecalendar.accesskey "N">

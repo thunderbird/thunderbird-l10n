@@ -5,6 +5,9 @@
 new-account-label = Jauns konts
 # Instant messaging account status window for Thunderbird
 accounts-window-title = Tūlītējās ziņojumapmaiņas stāvoklis
+account-manager-add-account =
+    .label = { add-account-label }
+    .accesskey = P
 account-manager-new-account =
     .label = { new-account-label }
     .accesskey = n
@@ -40,3 +43,4 @@ account-disconnecting =
     .value = Atvienojas…
 account-disconnected =
     .value = Nav savienots
+add-account-label = Pievienot kontu

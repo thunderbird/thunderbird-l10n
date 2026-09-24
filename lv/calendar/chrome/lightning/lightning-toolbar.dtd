@@ -1,0 +1,20 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- Mode Toolbar -->
+<!ENTITY lightning.toolbar.calendar.label "Kalendārs">
+<!ENTITY lightning.toolbar.calendar.tooltip "Pārslēgties uz kalendāra cilni">
+<!ENTITY lightning.toolbar.calendar.accesskey "C">
+<!ENTITY lightning.toolbar.task.label "Uzdevumi">
+<!ENTITY lightning.toolbar.task.tooltip "Pārslēgties uz uzdevumu cilni">
+<!ENTITY lightning.toolbar.task.accesskey "u">
+<!-- Calendar and Task Mode Toolbar -->
+<!ENTITY lightning.toolbar.day.label "Diena">
+<!ENTITY lightning.toolbar.day.accesskey "D">
+<!ENTITY lightning.toolbar.week.label "Nedēļa">
+<!ENTITY lightning.toolbar.week.accesskey "N">
+<!ENTITY lightning.toolbar.multiweek.label "Vairāku nedēļu">
+<!ENTITY lightning.toolbar.multiweek.accesskey "V">
+<!ENTITY lightning.toolbar.month.label "Mēnesis">
+<!ENTITY lightning.toolbar.month.accesskey "M">
