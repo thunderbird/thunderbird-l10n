@@ -170,7 +170,7 @@ filter-editor-action-order-link =
 filter-editor-duplicate-title = Dublēts filtra nosaukums
 filter-editor-duplicate-msg = Ievadītais atsijātāja nosaukums jau pastāv. Lūgums ievadīt citu nosaukumu.
 filter-editor-no-event-title = Nav izvēlēts neviens filtrēšanas notikums
-filter-editor-no-event-msg = Kad pielietojat filtru, jums jāizvēlas vismaz viens notikums. Ja īslaicīgi nevēlaties, lai filtrs darbotos uz jebkuru notikumu, dialogā Ziņojumu filtri noņemiet atzīmi no tā iespējotā stāvokļa.
+filter-editor-no-event-msg = Ir jāatlasa vismaz viens notikums, kad tiek pielietots šis atsijātājs. Ja īslaicīgi ir vēlēšanās atsijātāju neizmantot nevienā notikumā, dialogloga “Ziņojumu atsijātāji” tā iespējošanas rūtiņā jānoņem atzīme.
 filter-editor-match-all-name = Atbilst visām vēstulēm
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
