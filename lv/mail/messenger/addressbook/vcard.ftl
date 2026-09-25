@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, you can obtain one at http://mozilla.org/MPL/2.0/.
 
+vcard-n-firstname = Vārds
+vcard-n-add-firstname =
+    .title = Pievienot vārdu
 vcard-n-middlename = Otrais vārds
 vcard-n-add-middlename =
     .title = Pievienot otro vārdu
@@ -44,3 +47,16 @@ vcard-date-year = Gads
 vcard-adr-header = Adreses
 vcard-adr-add = Pievienot adresi
 vcard-adr-label = Adrese
+vcard-adr-street = Ielas adrese
+# Or "Locality"
+vcard-adr-locality = Pilsēta
+# Or "Region"
+vcard-adr-region = Pavalsts/apgabals
+# The term "ZIP code" only applies in USA. Most locales should use "Postal code" only.
+vcard-adr-code = Pasta indekss
+vcard-adr-country = Valsts
+vcard-note-header = Piezīmes
+vcard-note-add = Pievienot piezīmi
+vcard-remove-button-title =
+    .title = Noņemt
+vcard-remove-button = Noņemt

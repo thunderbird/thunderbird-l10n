@@ -20,3 +20,5 @@
       data and unsubscribing means just taking it out of the calendar list. -->
 <!ENTITY calendar.removecalendar.label "Noņemt atlasīto kalendāru…">
 <!ENTITY calendar.removecalendar.accesskey "N">
+<!ENTITY showUnifinderCmd.label "Atrast notikumus">
+<!ENTITY showUnifinderCmd.accesskey "F">
