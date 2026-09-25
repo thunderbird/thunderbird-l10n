@@ -437,6 +437,7 @@ display-width-legend = ტექსტური წერილები
 convert-emoticons-label =
     .label = მიმიკების გრაფიკულად ჩვენება
     .accesskey = რ
+display-text-formatting-label = ციტირებული ტექსტის გაფორმება
 display-text-label = ციტირებული ტექსტური წერილების ჩვენებისას:
 style-label =
     .value = სტილი:
@@ -644,6 +645,9 @@ auto-save-label =
     .label = თვითშენახვა ყოველ
     .accesskey = თ
 auto-save-end = წუთში
+autosave-draft-label =
+    .label = თავისთავად წინასწარ ნამუშევრებში შენახვა ყოველ
+    .accesskey = მ
 
 ##
 
