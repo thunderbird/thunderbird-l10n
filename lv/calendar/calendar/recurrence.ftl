@@ -90,3 +90,14 @@ recurrence-monthly-days-of-nth-day =
         [one] { $days } diena
        *[other] { $days } dienas
     }
+# Variables:
+#   $monthlyDays - day of month or a sequence of days of month, possibly followed
+#   by an ordinal symbol, separated with commas;
+#  $interval is a number, the recurrence interval
+# e.g. "days 3, 6, 9 and 12 of every 3 months"
+recurrence-monthly-days-of-nth =
+    { $interval ->
+        [zero] katra mēneša { $monthlyDays }.
+        [one] katra mēneša { $monthlyDays }.
+       *[other] katra { $interval }. mēneša { $monthlyDays }.
+    }
