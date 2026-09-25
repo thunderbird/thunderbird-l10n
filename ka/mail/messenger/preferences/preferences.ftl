@@ -331,6 +331,7 @@ update-settings-title = განახლების პარამეტრ�
 install-updates-automatically-label =
     .label = თავად დააყენოს განახლებები (სასურველია)
     .accesskey = ვ
+install-updates-automatically-description = იცავს { -brand-short-name } უსაფრთხოების უახლესი შესწორებებით.
 check-updates-ask-label =
     .label = შემოწმდეს განახლებები, ოღონდ იკითხოს დაყენებამდე
     .accesskey = შ
