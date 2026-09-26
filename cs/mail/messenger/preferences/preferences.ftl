@@ -967,6 +967,9 @@ spam-log-button =
 reset-spam-button =
     .label = Vymazat naučená pravidla
     .accesskey = V
+certificate-ask-every =
+    .label = Vždy se zeptat
+    .accesskey = V
 junk-description = Další nastavení nevyžádané pošty lze provést v dialogu Nastavení účtu.
 junk-marked-label =
     .label = Když jsou zprávy označeny jako nevyžádané:
@@ -1278,6 +1281,7 @@ qr-export-select-accounts = Vyberte, které účty se mají exportovat:
 qr-export-no-accounts = Nevidíte všechny své účty? Některé účty mohou být zakázány, protože je { -brand-product-name } pro Android nepodporuje. <a data-l10n-name="account-support-link">Podpora</a>
 qr-export-accounts-legend = E-mailové účty
 qr-export-select-all-accounts = Vybrat vše
+qr-export-passwords-legend = Hesla
 qr-export-security-legend = Zabezpečení
 qr-export-include-passwords = Zahrnout hesla všech účtů
 qr-export-oauth-warning = Některé vaše účty používají metodu ověřování, která může vyžadovat opětovné ověření na vašem mobilním zařízení. Během tohoto procesu může být nutné znovu zadat hesla.
