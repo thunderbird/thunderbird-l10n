@@ -886,11 +886,11 @@ spam-marked-label =
     .label = W przypadku oznaczenia wiadomości jako niechcianej:
     .accesskey = W
 spam-move-folder-label =
-    .label = Przenieś do folderu z niechcianą pocztą
+    .label = przenieś do folderu z niechcianą pocztą
     .accesskey = o
 spam-delete-immediately-label =
-    .label = Usuń natychmiast
-    .accesskey = U
+    .label = usuń natychmiast
+    .accesskey = u
 spam-move-label =
     .label = przenoś wiadomości do folderu „Niechciane”
     .accesskey = p
@@ -937,6 +937,9 @@ certificate-choose-auto =
 certificate-ask-every =
     .label = pytaj za każdym razem
     .accesskey = p
+ocsp-check-label =
+    .label = Sprawdzaj serwery weryfikacji certyfikatów (OCSP), aby upewnić się, że certyfikaty są nadal poprawne.
+    .accesskey = f
 junk-description = W tym miejscu można zmienić domyślne ustawienia filtru niechcianej poczty. Aby zmienić ustawienia niechcianej poczty dotyczące konkretnego konta, należy przejść do Konfiguracji kont.
 junk-marked-label =
     .label = W przypadku oznaczenia wiadomości jako niechcianej:
@@ -989,9 +992,18 @@ security-devices-button =
     .accesskey = U
 email-e2ee-header = Szyfrowanie „end-to-end” wiadomości
 account-settings = Ustawienia konta
+email-e2ee-accounts-info = Zaszyfrowane wiadomości e-mail mogą odczytać wyłącznie ich nadawca i odbiorcy. Skonfiguruj konta i tożsamości pocztowe na potrzeby szyfrowania typu „end-to-end” w sekcji <a data-l10n-name="account-settings-url">Ustawienia konta</a>.
 email-e2ee-enable-accounts-info = Skonfiguruj konta e-mail i tożsamości do szyfrowania „end-to-end” w <a data-l10n-name="account-settings-url">ustawieniach konta</a>.
 email-e2ee-enable-info = Skonfiguruj konta e-mail i tożsamości do szyfrowania „end-to-end” w ustawieniach konta.
 email-e2ee-automatism = Automatyczne używanie szyfrowania
+email-e2ee-automatism-intro = { -brand-short-name } może włączyć szyfrowanie, jeśli dla wszystkich odbiorców wiadomości dostępne są ważne akceptowane klucze lub certyfikaty.
+email-e2ee-turn-on =
+    .label = Automatycznie włączaj szyfrowanie, gdy jest to możliwe
+email-e2ee-turn-off =
+    .label = Automatycznie wyłączaj szyfrowanie, gdy zmieniają się odbiorcy i szyfrowanie nie jest już możliwe
+email-e2ee-turn-off-notify =
+    .label = Wyświetlaj powiadomienie za każdym razem, gdy szyfrowanie zostanie automatycznie wyłączone
+email-e2ee-automatism-note = Uwaga: podczas pisania wiadomości możesz też ręcznie włączyć lub wyłączyć szyfrowanie. Przy odpowiadaniu na zaszyfrowaną wiadomość szyfrowanie jest zawsze włączane.
 email-e2ee-automatism-pre =
     { -brand-short-name } może pomagać w automatycznym włączaniu lub wyłączaniu szyfrowania podczas tworzenia wiadomości.
     Ta funkcja działa na podstawie dostępności ważnych i zaakceptowanych kluczy lub certyfikatów rozmówców.
@@ -1004,6 +1016,10 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     Automatyczne decyzje mogą zostać zastąpione przez ręczne włączenie lub wyłączenie szyfrowania podczas tworzenia wiadomości.
     Uwaga: szyfrowanie jest zawsze automatycznie włączane podczas odpowiadania na zaszyfrowaną wiadomość.
+email-content = Zawartość wiadomości e-mail
+remote-content-images-label =
+    .label = Zdalne treści w wiadomościach (obrazy i style)
+    .accesskey = h
 
 ## DoH Section
 
@@ -1027,6 +1043,10 @@ preferences-doh-status-not-active = Nieaktywne ({ $reason })
 preferences-doh-group-message = Włącz serwer DNS poprzez HTTPS:
 preferences-doh-expand-section =
     .tooltiptext = Więcej informacji
+preferences-doh-setting-automatic =
+    .label = Ochrona automatyczna (zalecana)
+    .accesskey = O
+preferences-doh-automatic-desc = { -brand-short-name } automatycznie szyfruje wyszukiwanie adresów, gdy jest dostępne. Przełącza z powrotem na standardowe wyszukiwanie sieciowe w przypadku problemów z połączeniem lub gdy wymaga tego sieć VPN lub zarządzana.
 preferences-doh-setting-default =
     .label = Domyślna ochrona
     .accesskey = D
@@ -1039,9 +1059,13 @@ preferences-doh-default-detailed-desc-5 = Wyłącza, kiedy sieć mówi { -brand-
 preferences-doh-setting-enabled =
     .label = Zwiększona ochrona
     .accesskey = Z
+preferences-doh-increased-desc = Zawsze korzysta z wybranego dostawcy. Używa standardowego połączenia tylko wtedy, gdy bezpieczny dostawca zawiedzie.
 preferences-doh-enabled-desc = Użytkownik decyduje, kiedy używać zabezpieczonego serwera DNS i wybiera dostawcę.
 preferences-doh-enabled-detailed-desc-1 = Używa dostawcy wybranego przez użytkownika
 preferences-doh-enabled-detailed-desc-2 = Używa domyślnego serwera DNS tylko, jeśli występuje problem z zabezpieczonym serwerem DNS
+preferences-doh-setting-maximum =
+    .label = Maksymalna ochrona
+    .accesskey = M
 preferences-doh-setting-strict =
     .label = Maksymalna ochrona
     .accesskey = M

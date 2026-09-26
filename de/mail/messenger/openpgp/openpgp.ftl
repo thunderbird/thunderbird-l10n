@@ -208,6 +208,13 @@ openpgp-key-man-change-expiry =
 openpgp-key-man-refresh-online =
     .label = Online aktualisieren
     .accesskey = O
+# Do not translate: PQC
+openpgp-key-man-add-pqc =
+    .label = PQC-Unterschlüssel zur Verschlüsselung erzeugen
+    .accesskey = g
+# Do not translate: PQC
+openpgp-pqc-confirm-generate = Einen Verschlüsselungsunterschlüssel mit Post-Quanten-Kryptografie (PQC) erzeugen? Dies kann mehrere Minuten dauern.
+openpgp-pqc-generate-failed = Der PQC-Unterschlüssel für die Verschlüsselung konnte nicht erstellt werden.
 openpgp-key-man-ignored-ids =
     .label = E-Mail-Adressen
 openpgp-key-man-del-key =
@@ -325,6 +332,7 @@ openpgp-passphrase-instruction-primary-password = Alternativ können Sie diesen 
 openpgp-passphrase-instruction-user-passphrase = Entsperren Sie diesen Schlüssel, um seinen Schutz zu ändern.
 openpgp-passphrase-unlock = Entsperren
 openpgp-passphrase-unlocked = Schlüssel erfolgreich entsperrt.
+openpgp-passphrase-unlock-failed = Der Schlüssel oder einzelne Unterschlüssel konnten nicht entsperrt werden.
 openpgp-remove-protection = Passphrasenschutz entfernen
 openpgp-use-primary-password = Passphrase entfernen und mit Hauptpasswort schützen
 openpgp-passphrase-new = Neue Passphrase
