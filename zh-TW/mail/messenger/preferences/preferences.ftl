@@ -68,7 +68,7 @@ collection-health-report-telemetry-disabled = 將不再允許 { -vendor-short-na
 collection-health-report-telemetry-disabled-link = 了解更多
 collection-share-performance =
     .label = 與 { -vendor-short-name } 匿名分享效能資料
-    .accesskey = 與
+    .accesskey = r
 collection-share-performance-description = 包含基本的技術資訊例如您的作業系統、記憶體使用情況、功能使用狀況。{ -brand-short-name } 從不收集電子郵件內容、聯絡人或個人訊息。
 collection-health-report =
     .label = 允許 { -brand-short-name } 傳送技術與互動資料給 { -vendor-short-name }
@@ -79,7 +79,7 @@ collection-health-report-link = 了解更多
 collection-health-report-disabled = 進行編譯設定時，已停用了資料回報功能
 collection-share-crash-data =
     .label = 傳送匿名的錯誤報告給 { -vendor-short-name }
-    .accesskey = 傳
+    .accesskey = c
 collection-backlogged-crash-reports =
     .label = 允許 { -brand-short-name } 為您傳送先前紀錄下的錯誤報告
     .accesskey = c
@@ -846,7 +846,7 @@ cookies-button =
 global-privacy-control-search = Global Privacy Control (GPC)
 global-privacy-control-label =
     .label = 要求網站不要銷售或分享個人資料
-    .accesskey = 要
+    .accesskey = n
 global-privacy-control-description =
     .label = 告訴網站不要銷售或分享我的資料
     .accesskey = n
@@ -880,7 +880,7 @@ primary-password-button =
     .accesskey = C
 forms-primary-pw-fips-title = 您目前使用 FIPS 模式。FIPS 模式需要有主控密碼。
 forms-master-pw-fips-desc = 密碼變更失敗
-spam-accounts-description = 這些設定會套用到所有帳號。可以到帳號設定當中修改各個帳號的選項。
+spam-accounts-description = 這些設定適用於所有帳號。各帳號的選項可在「帳號設定」中調整。
 spam-description = 設定您的預設垃圾信處理方式。可以到「帳號設定」調整各個帳號自己的處理方式。
 spam-marked-label =
     .label = 當郵件被標示為垃圾郵件時：
@@ -1264,9 +1264,9 @@ qr-export-accounts-legend = 電子郵件帳號
 qr-export-select-all-accounts = 選擇全部
 qr-export-passwords-legend = 密碼
 qr-export-include-passwords-label = 在 QR Code 中包含帳號密碼
-qr-export-web-sign-in-note = <strong>注:</strong> 使用網頁登入的帳號例如 Gmail 或 Yahoo需要在您的裝置上再次驗證。
-qr-export-private-transfer-note = <strong>私人轉移:</strong> 您的設定與密碼會直接從這台電腦轉移到您的手機。不會傳送任何東西或儲存任何東西到 Mozilla 伺服器。
-qr-export-screen-privacy-tip = <strong>小秘訣:</strong> 掃描 QR Code 時請隱藏起來讓別人無法看到您的螢幕。
+qr-export-web-sign-in-note = <strong>註：</strong>使用網頁登入的帳號（例如 Gmail 或 Yahoo）需要您在裝置上再次驗證。
+qr-export-private-transfer-note = <strong>隱私資料轉移：</strong>您的設定與密碼會直接從這台電腦轉移到您的手機。Mozilla 的伺服器不會接觸或儲存任何資料。
+qr-export-screen-privacy-tip = <strong>秘訣：</strong>顯示 QR Code 時，請遮掩螢幕並確認背後，讓別人無法側錄您的螢幕內容。
 qr-export-security-legend = 安全性
 qr-export-include-passwords = 包含所有帳號的密碼
 qr-export-oauth-warning = 您的某些帳號使用的認證方式，在行動裝置使用時可能需要重新驗證。在此過程中您可能需要再次輸入密碼。
@@ -1313,10 +1313,10 @@ qr-export-summary-passwords-included = 包含密碼
 qr-export-summary-passwords-excluded = 不包含密碼
 qr-export-more-accounts = 匯出更多帳號
 qr-export-pane-header-mobile = 匯出至 { -brand-product-name } 行動版
-qr-export-description-email-accounts = 透過 QR Code 將您這台電腦的郵件帳號轉移到手機上的 { -brand-product-name }。
-qr-export-get-app-google-play = <a data-l10n-name="app-link">在 Google Play 上獲得 { -brand-product-name }</a>
+qr-export-description-email-accounts = 使用 QR Code，將您這台電腦的郵件帳號轉移到手機上的 { -brand-product-name }。
+qr-export-get-app-google-play = <a data-l10n-name="app-link">到 Google Play 安裝 { -brand-product-name }</a>
 qr-export-select-accounts-title = 選取要匯出的帳號：
-qr-export-missing-accounts-support = 找不到帳號嗎無法選擇 { -brand-product-name } for Android 不支援的帳號。 <a data-l10n-name="account-support-link">了解我們支援哪些帳號</a>
+qr-export-missing-accounts-support = 找不到帳號嗎？無法選擇 { -brand-product-name } for Android 不支援的帳號。<a data-l10n-name="account-support-link">了解我們支援哪些帳號</a>
 
 ## Appearance Tab
 
