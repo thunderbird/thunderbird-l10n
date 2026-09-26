@@ -1073,7 +1073,7 @@ preferences-doh-strict-detailed-desc-3 = 若無法使用安全 DNS，就不開�
 preferences-doh-setting-off =
     .label = 關閉
     .accesskey = O
-preferences-doh-off-standard-desc = 使用標準的網路業者或網路查詢網址
+preferences-doh-off-standard-desc = 透過一般電信業者或網路來查詢網址
 preferences-doh-off-desc = 使用您系統預設的 DNS 解析器
 preferences-doh-checkbox-warn =
     .label = 若有第三方系統主動封鎖安全 DNS 時警告我
@@ -1086,8 +1086,8 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = 自訂
     .accesskey = C
-preferences-doh-secure-header = 安全 DNS (DNS over HTTPS)
-preferences-doh-secure-description = 安全的 DNS 會加密 { -brand-short-name } 用來尋找網站的請求讓您的上網行為更加隱私不受任何網路監控。
+preferences-doh-secure-header = 安全 DNS（DNS over HTTPS）
+preferences-doh-secure-description = 安全 DNS 會加密 { -brand-short-name } 查詢網站時的請求內容，避免網路業者監控您的上網行為。
 
 ## Keyservers
 
@@ -1263,7 +1263,7 @@ qr-export-no-accounts = 沒有看到您的所有帳號嗎？某些帳號可能�
 qr-export-accounts-legend = 電子郵件帳號
 qr-export-select-all-accounts = 選擇全部
 qr-export-passwords-legend = 密碼
-qr-export-include-passwords-label = 在 QR Code 中加入帳號密碼
+qr-export-include-passwords-label = 在 QR Code 中包含帳號密碼
 qr-export-web-sign-in-note = <strong>注:</strong> 使用網頁登入的帳號例如 Gmail 或 Yahoo需要在您的裝置上再次驗證。
 qr-export-private-transfer-note = <strong>私人轉移:</strong> 您的設定與密碼會直接從這台電腦轉移到您的手機。不會傳送任何東西或儲存任何東西到 Mozilla 伺服器。
 qr-export-screen-privacy-tip = <strong>小秘訣:</strong> 掃描 QR Code 時請隱藏起來讓別人無法看到您的螢幕。
