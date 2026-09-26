@@ -56,6 +56,8 @@ composition-addressing-header = Adresler
 privacy-main-header = Gizlilik
 privacy-passwords-header = Parolalar
 privacy-spam-header = Spam
+collection-improve-header = { -brand-short-name } uygulamasını iyileştirmek için toplanan veriler
+collection-privacy-policy = Gizlilik ilkelerimizi okuyun
 privacy-junk-header = Gereksiz
 collection-header = { -brand-short-name } Veri Toplama ve Kullanma İzinleri
 collection-description = Yalnızca { -brand-short-name } uygulamasını geliştirmemize yarayacak verileri topluyoruz ve istemezseniz onları da toplamıyoruz. Kişisel verilerinizi sunucularımıza göndermeden önce mutlaka izninizi istiyoruz.
@@ -76,6 +78,7 @@ collection-backlogged-crash-reports-link = Daha fazla bilgi al
 privacy-security-header = Güvenlik
 privacy-scam-detection-title = Dolandırıcılık Algılama
 privacy-anti-virus-title = Antivirüs
+privacy-security-certificates-title = Güvenlik sertifikaları
 privacy-certificates-title = Sertifikalar
 chat-pane-header = Sohbet
 chat-status-title = Durum
@@ -205,6 +208,9 @@ tray-icon-unread-description = Küçük görev çubuğu düğmelerini kullanırk
 mail-system-sound-label =
     .label = Yeni posta için varsayılan sistem sesi
     .accesskey = v
+use-custom-sound-label =
+    .label = Uyarılar için özel ses kullan
+    .accesskey = U
 enable-global-search-label =
     .label = Tüm e-posta hesaplarında aramayı etkinleştir
     .accesskey = T
@@ -603,6 +609,9 @@ add-link-previews =
 spellcheck-label =
     .label = Göndermeden önce yazım denetimi yap
     .accesskey = a
+spellcheck-while-typing-label =
+    .label = Yazarken yazım denetimi yap
+    .accesskey = z
 spellcheck-inline-label =
     .label = Yazı yazarken anında yazım denetimini etkinleştir
     .accesskey = k
@@ -746,6 +755,12 @@ global-privacy-control-description =
     .label = Web sitelerine verilerimi satmamalarını ve paylaşmamalarını söyle
     .accesskey = W
 do-not-track-removal = Artık “Do Not Track” sinyalini desteklemiyoruz
+view-saved-passwords-button =
+    .label = Kayıtlı parolaları göster…
+    .accesskey = K
+use-primary-password-label =
+    .label = Ana parola kullan
+    .accesskey = A
 do-not-track-label =
     .label = Web sitelerine izlenmek istemediğimi bildiren “Do Not Track” sinyalini gönder
     .accesskey = n
@@ -771,6 +786,12 @@ spam-description = Varsayılan spam ayarlarınızı yapılandırın. Hesaba öze
 spam-marked-label =
     .label = İletiler spam olarak işaretlendiğinde
     .accesskey = e
+spam-move-folder-label =
+    .label = Spam klasörüne taşı
+    .accesskey = S
+spam-delete-immediately-label =
+    .label = Hemen sil
+    .accesskey = H
 spam-move-label =
     .label = Hesaba ait “Spam” klasörüne taşı
     .accesskey = H
@@ -860,6 +881,7 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     Otomatik kararlar, bir ileti oluşturulurken şifrelemenin manuel olarak etkinleştirilmesi veya devre dışı bırakılmasıyla geçersiz kılınabilir.
     Not: Şifreli bir iletiye yanıt verilirken şifreleme her zaman otomatik olarak etkinleştirilir.
+email-content = E-posta içeriği
 
 ## DoH Section
 
@@ -883,6 +905,9 @@ preferences-doh-status-not-active = Etkin değil ({ $reason })
 preferences-doh-group-message = HTTPS üzerinden DNS’i etkinleştir:
 preferences-doh-expand-section =
     .tooltiptext = Daha fazla bilgi
+preferences-doh-setting-automatic =
+    .label = Otomatik koruma (Önerilen)
+    .accesskey = O
 preferences-doh-setting-default =
     .label = Varsayılan koruma
     .accesskey = a
@@ -898,6 +923,9 @@ preferences-doh-setting-enabled =
 preferences-doh-enabled-desc = Güvenli DNS’in ne zaman kullanılacağını siz belirler ve sağlayıcınızı siz seçersiniz.
 preferences-doh-enabled-detailed-desc-1 = Seçtiğiniz sağlayıcı kullanılır
 preferences-doh-enabled-detailed-desc-2 = Yalnızca güvenli DNS sağlayıcınızda sorun yaşanırsa varsayılan DNS çözümleyiciniz kullanılır
+preferences-doh-setting-maximum =
+    .label = Maksimum koruma
+    .accesskey = M
 preferences-doh-setting-strict =
     .label = Maksimum koruma
     .accesskey = M
@@ -920,6 +948,7 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = Özel
     .accesskey = Ö
+preferences-doh-secure-header = Güvenli DNS (HTTPS üzerinden DNS)
 
 ## Keyservers
 
@@ -1096,6 +1125,7 @@ qr-export-select-accounts = Dışa aktarılacak hesapları seçin:
 qr-export-no-accounts = Tüm hesaplarınızı göremiyor musunuz? Android için { -brand-product-name } tarafından desteklenmeyen hesaplarınız devre dışı bırakılmış olabilir. <a data-l10n-name="account-support-link">Destek alın</a>
 qr-export-accounts-legend = E-posta hesapları
 qr-export-select-all-accounts = Tümünü seç
+qr-export-passwords-legend = Parolalar
 qr-export-security-legend = Güvenlik
 qr-export-include-passwords = Tüm hesap parolalarını dahil et
 qr-export-oauth-warning = Bazı hesaplarınız, mobil cihazınızda yeniden doğrulama gerektirebilecek bir kimlik doğrulama yöntemi kullanıyor. Bu işlem sırasında parolalarınızı tekrar girmeniz gerekebilir.
@@ -1145,6 +1175,7 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Parolalar dahil edildi
 qr-export-summary-passwords-excluded = Parolalar hariç tutuldu
 qr-export-more-accounts = Daha fazla hesabı dışa aktar
+qr-export-select-accounts-title = Dışa aktarılacak hesapları seçin:
 
 ## Appearance Tab
 

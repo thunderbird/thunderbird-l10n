@@ -30,6 +30,7 @@ isp-headers-checkbox =
     .label = Buradan gelen spam üst bilgilerine güven:
     .accesskey = B
 isp-warning-description = Bunu etkinleştirirseniz { -brand-short-name } bu harici sınıflandırıcı tarafından işaretlenen iletileri otomatik olarak spam kabul edecektir.
+spam-storage-deletion-legend = Depolama ve silme
 spam-classification-legend = Seçim
 spam-actions-legend = Hedef ve saklama
 global-spam-preferences-button =

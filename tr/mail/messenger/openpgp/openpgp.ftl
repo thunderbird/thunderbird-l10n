@@ -208,6 +208,11 @@ openpgp-key-man-change-expiry =
 openpgp-key-man-refresh-online =
     .label = Çevrimiçi tazele
     .accesskey = T
+# Do not translate: PQC
+openpgp-key-man-add-pqc =
+    .label = PQC şifreleme alt anahtarı üret
+    .accesskey = ü
+openpgp-pqc-generate-failed = PQC şifreleme alt anahtarı üretilemedi.
 openpgp-key-man-ignored-ids =
     .label = E-posta adresleri
 openpgp-key-man-del-key =
