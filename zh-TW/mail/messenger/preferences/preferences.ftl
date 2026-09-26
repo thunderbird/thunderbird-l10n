@@ -992,7 +992,7 @@ security-devices-button =
     .accesskey = D
 email-e2ee-header = 電子郵件端到端加密
 account-settings = 帳號設定
-email-e2ee-accounts-info = 只有您與您的收件者可以閱讀加密過的郵件。到<a data-l10n-name="account-settings-url">帳號設定</a>當中設定要進行端到端加密的電子郵件帳號與身份。
+email-e2ee-accounts-info = 加密郵件只有您與收件者能夠閱讀。請前往<a data-l10n-name="account-settings-url">帳號設定</a>，設定要進行端對端加密的電子郵件帳號與身分。
 email-e2ee-enable-accounts-info = 到<a data-l10n-name="account-settings-url">帳號設定</a>設定要使用端到端加密的郵件帳號與身份。
 email-e2ee-enable-info = 可以在「帳號設定」中設定用來進行端到端加密的電子郵件帳號與身份。
 email-e2ee-automatism = 自動使用加密
@@ -1002,8 +1002,8 @@ email-e2ee-turn-on =
 email-e2ee-turn-off =
     .label = 當變更收件者，無法再加密時，自動關閉加密
 email-e2ee-turn-off-notify =
-    .label = 自動關閉加密時顯示通知
-email-e2ee-automatism-note = 注: 您也可以在寫訊息時手動開啟或關閉加密。回覆加密訊息時總是會開啟加密功能。
+    .label = 系統自動關閉加密時顯示通知
+email-e2ee-automatism-note = 註：撰寫訊息時，您也可以手動開啟或關閉加密。回覆加密訊息時，則一律會自動開啟加密。
 email-e2ee-automatism-pre = { -brand-short-name } 可在撰寫郵件時自動開啟或關閉加密功能。是否要自動開啟 / 關閉，取決於您有多少往來通訊者的有效且已接受的金鑰或憑證。
 email-e2ee-auto-on =
     .label = 盡可能自動開啟加密
@@ -1312,10 +1312,10 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = 包含密碼
 qr-export-summary-passwords-excluded = 不包含密碼
 qr-export-more-accounts = 匯出更多帳號
-qr-export-pane-header-mobile = 匯出至 { -brand-product-name } 行動裝置
+qr-export-pane-header-mobile = 匯出至 { -brand-product-name } 行動版
 qr-export-description-email-accounts = 透過 QR Code 將您這台電腦的郵件帳號轉移到手機上的 { -brand-product-name }。
 qr-export-get-app-google-play = <a data-l10n-name="app-link">在 Google Play 上獲得 { -brand-product-name }</a>
-qr-export-select-accounts-title = 選取要匯出的帳號:
+qr-export-select-accounts-title = 選取要匯出的帳號：
 qr-export-missing-accounts-support = 找不到帳號嗎無法選擇 { -brand-product-name } for Android 不支援的帳號。 <a data-l10n-name="account-support-link">了解我們支援哪些帳號</a>
 
 ## Appearance Tab
