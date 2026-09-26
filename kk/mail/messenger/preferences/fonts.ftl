@@ -100,6 +100,9 @@ font-size-monospace-label =
 font-serif-label =
     .value = Serif:
     .accesskey = S
+sans-serif-font-label =
+    .value = Sans-serif қарібі:
+    .accesskey = р
 font-sans-serif-label =
     .value = Sans-serif:
     .accesskey = n
@@ -121,6 +124,13 @@ use-document-fonts-checkbox =
 use-fixed-width-plain-checkbox =
     .label = Ашық мәтін хабарламалары үшін ені біркелкі қаріпті қолдану
     .accesskey = к
+message-font-permissions-legend = Хабарлама қаріптерінің рұқсаттары
+allow-incoming-fonts-checkbox =
+    .label = Кіріс хабарламаларға өз қаріптерін пайдалануға рұқсат ету
+    .accesskey = с
+display-fixed-width-plain-checkbox =
+    .label = Жай мәтіндік хабарламаларды ені бекітілген қаріппен көрсету
+    .accesskey = н
 
 ## Language settings
 

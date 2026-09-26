@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 attachment-reminder-dialog-title = Салынымдар туралы еске салудың кілт сөздері
+attachment-reminder-description = Егер эл. пошта хатында сәйкес кілтсөздер болса, жоқ салынымдар туралы еске салғышты көрсету.
 attachment-reminder-label = { -brand-short-name } жоқ салынымдар туралы сізге еске салады, егер сіз жіберем деген хатта келесі кілт сөздердің біреуі болса.
 keyword-new-button =
     .label = Жаңа…

@@ -209,6 +209,9 @@ openpgp-key-man-refresh-online =
 openpgp-key-man-add-pqc =
     .label = PQC шифрлеу ішкі кілтін генерациялау
     .accesskey = г
+# Do not translate: PQC
+openpgp-pqc-confirm-generate = Пост-кванттық криптографияны (PQC) пайдаланып, шифрлеу ішкі кілтін генерациялау керек пе? Генерациялау бірнеше минут алуы мүмкін.
+openpgp-pqc-generate-failed = PQC шифрлеу ішкі кілтін генерациялау мүмкін болмады.
 openpgp-key-man-ignored-ids =
     .label = Эл. пошта адрестері
 openpgp-key-man-del-key =
@@ -326,6 +329,7 @@ openpgp-passphrase-instruction-primary-password = Балама ретінде б
 openpgp-passphrase-instruction-user-passphrase = Бұл кілттік қорғанысын өзгерті үшін оны босатыңыз.
 openpgp-passphrase-unlock = Босату
 openpgp-passphrase-unlocked = Кілт блоктауы сәтті ашылды.
+openpgp-passphrase-unlock-failed = Кілттің немесе кілттің қосалқы бөліктерінің құлпын ашу мүмкін болмады.
 openpgp-remove-protection = Кілттік фразамен қорғауды алып тастау
 openpgp-use-primary-password = Кілттік фразаны өшіріп, басты парольмен қорғау
 openpgp-passphrase-new = Жаңа кілттік фраза

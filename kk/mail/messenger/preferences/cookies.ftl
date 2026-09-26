@@ -10,6 +10,7 @@ window-focus-search-alt-key =
 filter-search-label =
     .value = Іздеу:
     .accesskey = з
+cookies-stored-label = Cookie файлдары осы компьютерде сақталады
 cookies-on-system-label = Компьютеріңізде келесі Cookies сақталған:
 treecol-site-header =
     .label = Сайты

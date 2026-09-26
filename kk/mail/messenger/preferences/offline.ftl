@@ -3,6 +3,13 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 offline-dialog-title = Желіден тыс режимінің баптаулары
+autodetect-connection-label =
+    .label = Интернет қосылымы табылған кезде режимдерді автоматты түрде ауыстыру
+    .accesskey = б
+offline-startup-label = { -brand-short-name } ашылған кезде:
+status-radio-last-used =
+    .label = Соңғы қолданылған қосылым режимін пайдалану
+    .accesskey = й
 going-offline-download =
     .label = Иә, автоматты түрде жүктеп алу
     .accesskey = И
