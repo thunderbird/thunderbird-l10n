@@ -69,6 +69,7 @@ collection-health-report-telemetry-disabled-link = Learn more
 collection-share-performance =
     .label = Share anonymous performance data with { -vendor-short-name }
     .accesskey = r
+collection-share-performance-description = (Includes basic technical info like your operating system, memory usage and feature activity. { -brand-short-name } never collects email content, contacts or personal messages.)
 collection-health-report =
     .label = Allow { -brand-short-name } to send technical and interaction data to { -vendor-short-name }
     .accesskey = r
@@ -76,6 +77,9 @@ collection-health-report-link = Learn more
 # This message is displayed above disabled data sharing options in developer builds
 # or builds with no Telemetry support available.
 collection-health-report-disabled = Data reporting is disabled for this build configuration
+collection-share-crash-data =
+    .label = Send anonymous crash reports to { -vendor-short-name }
+    .accesskey = c
 collection-backlogged-crash-reports =
     .label = Allow { -brand-short-name } to send backlogged crash reports on your behalf
     .accesskey = c
@@ -83,6 +87,7 @@ collection-backlogged-crash-reports-link = Learn more
 privacy-security-header = Security
 privacy-scam-detection-title = Scam Detection
 privacy-anti-virus-title = Antivirus
+privacy-security-certificates-title = Security certificates
 privacy-certificates-title = Certificates
 chat-pane-header = Chat
 chat-status-title = Status
@@ -810,6 +815,7 @@ remote-content-label =
 exceptions-button =
     .label = Exceptions…
     .accesskey = E
+remote-content-privacy-link = How remote content affects privacy
 remote-content-privacy-info = Learn more about the privacy issues of remote content
 remote-content-info =
     .value = Learn more about the privacy issues of remote content
@@ -827,6 +833,8 @@ third-party-always =
     .label = Always
 third-party-never =
     .label = Never
+third-party-visited-only =
+    .label = From visited sites only
 third-party-visited =
     .label = From visited
 cookies-button =
@@ -836,10 +844,21 @@ cookies-button =
 # "Global Privacy Control" or "GPC" are a web platform feature name and abbreviation
 # included to facilitate power-user search of the about:preferences page.
 global-privacy-control-search = Global Privacy Control (GPC)
+global-privacy-control-label =
+    .label = Ask web sites not to sell or share personal data
+    .accesskey = n
 global-privacy-control-description =
     .label = Tell web sites not to sell or share my data
     .accesskey = n
 do-not-track-removal = We no longer support the “Do Not Track” signal
+passwords-registered-description = { -brand-short-name } can save passwords for registered accounts.
+view-saved-passwords-button =
+    .label = View Saved Passwords…
+    .accesskey = S
+primary-password-session-description = A Primary Password protects all passwords and is entered once per session.
+use-primary-password-label =
+    .label = Use Primary Password
+    .accesskey = U
 do-not-track-label =
     .label = Send web sites a “Do Not Track” signal that you don’t want to be tracked
     .accesskey = n
@@ -861,10 +880,17 @@ primary-password-button =
     .accesskey = C
 forms-primary-pw-fips-title = You are currently in FIPS mode. FIPS requires a non-empty Primary Password.
 forms-master-pw-fips-desc = Password Change Failed
+spam-accounts-description = These settings apply to all accounts. Individual account options can be changed in Account Settings.
 spam-description = Set your default spam settings. Account-specific spam settings can be configured in Account Settings.
 spam-marked-label =
     .label = When messages are marked as spam:
     .accesskey = W
+spam-move-folder-label =
+    .label = Move to the Spam folder
+    .accesskey = o
+spam-delete-immediately-label =
+    .label = Delete immediately
+    .accesskey = D
 spam-move-label =
     .label = Move them to the account’s “Spam” folder
     .accesskey = o
@@ -872,6 +898,15 @@ spam-delete-label =
     .label = Delete them
     .accesskey = D
 spam-read-description = Mark messages as read
+spam-marked-manually-label =
+    .label = When marked manually
+    .accesskey = m
+spam-detected-auto-label =
+    .label = When detected automatically by { -brand-short-name }
+    .accesskey = t
+spam-log-keep-label =
+    .label = Keep a log of automatic spam detection
+    .accesskey = e
 spam-read-manual-label =
     .label = When manually marked as spam
     .accesskey = M
@@ -887,6 +922,24 @@ spam-log-button =
 reset-spam-button =
     .label = Reset Training Data
     .accesskey = R
+scam-detection-description = { -brand-short-name } checks messages for phishing links and common signs of email scams.
+scam-detection-label =
+    .label = Warn when reading an email that looks like a scam
+    .accesskey = t
+antivirus-check-description = Allows antivirus software to check incoming messages individually before they are saved to your computer.
+antivirus-isolate-label =
+    .label = Allow antivirus software to isolate infected incoming emails
+    .accesskey = A
+certificate-verify-description = When a server asks for a certificate to verify your identity:
+certificate-choose-auto =
+    .label = Choose a certificate automatically
+    .accesskey = h
+certificate-ask-every =
+    .label = Ask every time
+    .accesskey = A
+ocsp-check-label =
+    .label = Check certificate validation servers (OCSP) to confirm certificates are still correct.
+    .accesskey = v
 junk-description = Set your default junk mail settings. Account-specific junk mail settings can be configured in Account Settings.
 junk-marked-label =
     .label = When messages are marked as junk:
@@ -939,9 +992,18 @@ security-devices-button =
     .accesskey = D
 email-e2ee-header = Email End-To-End Encryption
 account-settings = Account Settings
+email-e2ee-accounts-info = Encrypted emails can only be read by you and your recipients. Set up email accounts and identities for end-to-end encryption in the <a data-l10n-name="account-settings-url">Account settings</a>.
 email-e2ee-enable-accounts-info = Set up email accounts and identities for End-To-End Encryption in the <a data-l10n-name="account-settings-url">Account Settings</a>.
 email-e2ee-enable-info = Set up email accounts and identities for End-To-End Encryption in Account Settings.
 email-e2ee-automatism = Automatic Use of Encryption
+email-e2ee-automatism-intro = { -brand-short-name } can turn encryption on if valid accepted keys or certificates are available for all recipients of a message.
+email-e2ee-turn-on =
+    .label = Automatically turn on encryption when possible
+email-e2ee-turn-off =
+    .label = Automatically turn off encryption when recipients change and encryption is no longer possible
+email-e2ee-turn-off-notify =
+    .label = Show a notification whenever encryption is turned off automatically
+email-e2ee-automatism-note = Note: You can also manually turn encryption on or off while writing a message. Replying to an encrypted messages always turns on encryption.
 email-e2ee-automatism-pre =
     { -brand-short-name } can assist by automatically enabling or disabling encryption while composing an email.
     Auto enabling/disabling is based on the availability of valid and accepted correspondents’ keys or certificates.
@@ -954,6 +1016,10 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     Automatic decisions may be overridden by manually enabling or disabling encryption when composing a message.
     Note: encryption is always automatically enabled when replying to an encrypted message.
+email-content = Email content
+remote-content-images-label =
+    .label = Allow remote content (images and styles)
+    .accesskey = m
 
 ## DoH Section
 
@@ -977,6 +1043,10 @@ preferences-doh-status-not-active = Not active ({ $reason })
 preferences-doh-group-message = Enable DNS over HTTPS using:
 preferences-doh-expand-section =
     .tooltiptext = More information
+preferences-doh-setting-automatic =
+    .label = Automatic protection (Recommended)
+    .accesskey = d
+preferences-doh-automatic-desc = { -brand-short-name } automatically encrypts address lookups when available. Switches back to standard network lookups if there’s a connection issue or if a VPN/managed network requires it.
 preferences-doh-setting-default =
     .label = Default Protection
     .accesskey = D
@@ -989,9 +1059,14 @@ preferences-doh-default-detailed-desc-5 = Turn off when a network tells { -brand
 preferences-doh-setting-enabled =
     .label = Increased Protection
     .accesskey = I
+preferences-doh-increased-desc = Always uses chosen provider. Uses standard connection only if secure provider fails.
 preferences-doh-enabled-desc = You control when to use secure DNS and choose your provider.
 preferences-doh-enabled-detailed-desc-1 = Use the provider you select
 preferences-doh-enabled-detailed-desc-2 = Only use your default DNS resolver if there is a problem with secure DNS
+preferences-doh-setting-maximum =
+    .label = Maximum protection
+    .accesskey = M
+preferences-doh-maximum-desc = Strictly requires encrypted DNS. Web sites will not load if secure connection fails.
 preferences-doh-setting-strict =
     .label = Max Protection
     .accesskey = M
@@ -1002,6 +1077,7 @@ preferences-doh-strict-detailed-desc-3 = If secure DNS is not available sites wi
 preferences-doh-setting-off =
     .label = Off
     .accesskey = O
+preferences-doh-off-standard-desc = Uses standard internet provider or network to look up web addresses
 preferences-doh-off-desc = Use your default DNS resolver
 preferences-doh-checkbox-warn =
     .label = Warn if a third party actively prevents secure DNS
@@ -1014,6 +1090,8 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = Custom
     .accesskey = C
+preferences-doh-secure-header = Secure DNS (DNS over HTTPS)
+preferences-doh-secure-description = Secure DNS encrypts the lookup requests { -brand-short-name } sends to find web sites, keeping your browsing activity private from any network monitoring.
 
 ## Keyservers
 
@@ -1190,6 +1268,11 @@ qr-export-select-accounts = Select which accounts to export:
 qr-export-no-accounts = Not seeing all your accounts? Some accounts may be disabled because they are not supported by { -brand-product-name } for Android. <a data-l10n-name="account-support-link">Support</a>
 qr-export-accounts-legend = Email accounts
 qr-export-select-all-accounts = Select all
+qr-export-passwords-legend = Passwords
+qr-export-include-passwords-label = Include account passwords in the QR code
+qr-export-web-sign-in-note = <strong>Note:</strong> Accounts that use web sign-in (like Gmail or Yahoo), require authentication again on your device.
+qr-export-private-transfer-note = <strong>Private transfer:</strong> Your settings and passwords move directly from this computer to your phone. Nothing is sent to or stored on Mozilla servers.
+qr-export-screen-privacy-tip = <strong>Tip:</strong> Keep your screen hidden from others while the QR code is displayed.
 qr-export-security-legend = Security
 qr-export-include-passwords = Include all accounts passwords
 qr-export-oauth-warning = Some of your accounts use an authentication method that may require re-authentication on your mobile device. You may need to enter your passwords again during this process.
@@ -1239,6 +1322,11 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Passwords included
 qr-export-summary-passwords-excluded = Passwords excluded
 qr-export-more-accounts = Export more accounts
+qr-export-pane-header-mobile = Export to { -brand-product-name } mobile
+qr-export-description-email-accounts = Transfer your email accounts from this computer to { -brand-product-name } on your phone using a QR code.
+qr-export-get-app-google-play = <a data-l10n-name="app-link">Get { -brand-product-name } on Google Play</a>
+qr-export-select-accounts-title = Select accounts to export:
+qr-export-missing-accounts-support = Missing an account? Accounts that are not supported on { -brand-product-name } for Android cannot be selected. <a data-l10n-name="account-support-link">Learn which account types are supported</a>
 
 ## Appearance Tab
 
