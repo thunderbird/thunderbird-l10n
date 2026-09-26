@@ -35,3 +35,6 @@ spam-actions-legend = Destination e retention
 global-spam-preferences-button =
     .label = Configuration global de spam…
     .accesskey = g
+manage-spam-title = Gerer le spam
+manage-spam-header =
+    .value = Gerer le spam

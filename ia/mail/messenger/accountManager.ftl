@@ -34,6 +34,7 @@ outgoing-server-section-name = Servitor de exito
 outgoing-server-settings-title = Parametros de servitor in exito
 outgoing-server-settings-description = Gerente tu identitates tu pote usar un servitor ab iste lista seligente lo como le servitor in exito, o tu pote usar le servitor predefinite ab iste lista seligente “Usar servitor predefinite”.
 outgoing-server-type = Typo de servitor:
+panel-manage-spam = Gerer le spam
 panel-settings-spam = Parametros de spam
 # Variables:
 # $account (String) - The account name.
