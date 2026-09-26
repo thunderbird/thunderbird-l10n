@@ -3,6 +3,15 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 offline-dialog-title = Желіден тыс режимінің баптаулары
+going-offline-download =
+    .label = Иә, автоматты түрде жүктеп алу
+    .accesskey = И
+going-offline-keep =
+    .label = Жоқ, жүктеп алмау
+    .accesskey = о
+going-offline-ask-download =
+    .label = Жүктеп алу алдында сұрау
+    .accesskey = а
 autodetect-online-label =
     .label = Табылған байланысу күйін автоқолдану
     .accesskey = б

@@ -34,6 +34,7 @@ outgoing-server-section-name = Шығыс пошта сервері
 outgoing-server-settings-title = Шығыс пошта сервері баптаулары
 outgoing-server-settings-description = Тіркелу мәліметтеріңізді басқару кезінде сіз бұл тізімнен серверді оны шығыс пошта сервері ретінде таңдау арқылы қолдана аласыз, немесе сіз "Негізгі серверді орнату" арқылы бұл тізімнен үнсіз келісім бойынша серверін қолдана аласыз.
 outgoing-server-type = Сервер түрі:
+panel-manage-spam = Спамды басқару
 panel-settings-spam = Спам баптаулары
 # Variables:
 # $account (String) - The account name.
