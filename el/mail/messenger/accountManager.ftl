@@ -34,6 +34,7 @@ outgoing-server-section-name = Διακομιστής εξερχομένων
 outgoing-server-settings-title = Ρυθμίσεις διακομιστή εξερχομένων
 outgoing-server-settings-description = Κατά τη διαχείριση των ταυτοτήτων σας, μπορείτε να χρησιμοποιήσετε έναν διακομιστή από αυτήν τη λίστα, επιλέγοντάς τον ως διακομιστή εξερχομένων, ή μπορείτε να χρησιμοποιήσετε τον προεπιλεγμένο διακομιστή επιλέγοντας «Χρήση προεπιλεγμένου διακομιστή».
 outgoing-server-type = Τύπος διακομιστή:
+panel-manage-spam = Διαχείριση ανεπιθύμητων email
 panel-settings-spam = Ρυθμίσεις ανεπιθύμητων
 # Variables:
 # $account (String) - The account name.

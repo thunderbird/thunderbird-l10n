@@ -208,6 +208,10 @@ openpgp-key-man-change-expiry =
 openpgp-key-man-refresh-online =
     .label = Ανανέωση από το διαδίκτυο
     .accesskey = δ
+# Do not translate: PQC
+openpgp-key-man-add-pqc =
+    .label = Δημιουργία υποκλειδιού κρυπτογράφησης PQC
+    .accesskey = Δ
 openpgp-key-man-ignored-ids =
     .label = Διευθύνσεις email
 openpgp-key-man-del-key =
