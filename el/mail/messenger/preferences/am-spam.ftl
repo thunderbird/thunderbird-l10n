@@ -30,6 +30,7 @@ isp-headers-checkbox =
     .label = Να θεωρούνται αξιόπιστες οι κεφαλίδες ανεπιθύμητων που έχουν οριστεί από:
     .accesskey = θ
 isp-warning-description = Εάν ενεργοποιηθεί, το { -brand-short-name } θα θεωρεί αυτομάτως ανεπιθύμητα τα μηνύματα που επισημαίνονται από αυτήν την εξωτερική υπηρεσία ταξινόμησης.
+spam-storage-deletion-legend = Αποθήκευση και διαγραφή
 spam-classification-legend = Διαλογή
 spam-actions-legend = Προορισμός και φύλαξη
 global-spam-preferences-button =
