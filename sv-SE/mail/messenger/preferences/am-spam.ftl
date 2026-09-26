@@ -43,3 +43,7 @@ global-spam-preferences-button =
 manage-spam-title = Hantera skräppost
 manage-spam-header =
     .value = Hantera skräppost
+training-description-learns = När funktionen är aktiverad lär sig { -brand-short-name } av de meddelanden du markerar som skräppost eller inte skräppost. Ju mer du tränar funktionen, desto bättre blir { -brand-short-name } på att upptäcka skräppost.
+spam-auto-detection-checkbox =
+    .label = Aktivera automatisk identifiering av skräppost för det här kontot
+    .accesskey = A

@@ -10,6 +10,7 @@ window-focus-search-alt-key =
 filter-search-label =
     .value = Sök:
     .accesskey = S
+cookies-stored-label = Kakor sparas på den här datorn
 cookies-on-system-label = Följande kakor lagras på datorn:
 treecol-site-header =
     .label = Webbplats
