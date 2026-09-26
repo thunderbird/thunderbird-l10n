@@ -223,6 +223,7 @@ browsing-gtk-use-non-overlay-scrollbars =
     .label = Vis alltid rullefelt
     .accesskey = s
 window-layout-legend = Vindaugsoppsett
+system-settings-legend = Systeminnstillingar
 draw-in-titlebar-label =
     .label = Gøym tittellinja til systemvindauget
     .accesskey = G
@@ -782,6 +783,7 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     Automatiske avgjerder kan tilsidesettast ved å manuelt aktivere eller deaktivere kryptering når du skriv ei melding.
     Merk: kryptering vert alltid automatisk aktivert når du svarar på ei kryptert melding.
+email-content = E-postinnhald
 
 ## DoH Section
 
@@ -1017,6 +1019,7 @@ qr-export-select-accounts = Vel kva for konto du vil eksportere:
 qr-export-no-accounts = Ser du ikkje alle kontoane dine? Nokre kontoar kan bli deaktiverte fordi dei ikkje blir støtta av { -brand-product-name } for Android. <a data-l10n-name="account-support-link">Brukarstøtte</a>
 qr-export-accounts-legend = E-postkontoar
 qr-export-select-all-accounts = Marker alle
+qr-export-passwords-legend = Passord
 qr-export-security-legend = Sikkerheit
 qr-export-include-passwords = Inkluder alle kontopassord
 qr-export-oauth-warning = Nokre av kontoane dine brukar ein autentiseringsmetode som kan krevje ny autentisering på mobileininga di. Du må kanskje skrive inn passorda dine på nytt under denne prosessen.
@@ -1066,6 +1069,7 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Passord inkludert
 qr-export-summary-passwords-excluded = Passord eksludert
 qr-export-more-accounts = Eksporter fleire kontoar
+qr-export-select-accounts-title = Vel kva for kontoar du vil eksportere:
 
 ## Appearance Tab
 

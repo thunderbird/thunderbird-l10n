@@ -886,7 +886,7 @@ spam-marked-label =
     .label = W przypadku oznaczenia wiadomości jako niechcianej:
     .accesskey = W
 spam-move-folder-label =
-    .label = przenieś do folderu z niechcianą pocztą
+    .label = przenieś do folderu Niechciane
     .accesskey = o
 spam-delete-immediately-label =
     .label = usuń natychmiast
@@ -1066,6 +1066,7 @@ preferences-doh-enabled-detailed-desc-2 = Używa domyślnego serwera DNS tylko, 
 preferences-doh-setting-maximum =
     .label = Maksymalna ochrona
     .accesskey = M
+preferences-doh-maximum-desc = Bezwzględnie wymaga szyfrowanego DNS. Witryny nie zostaną wczytane, jeśli nie uda się nawiązać bezpiecznego połączenia.
 preferences-doh-setting-strict =
     .label = Maksymalna ochrona
     .accesskey = M
@@ -1076,6 +1077,7 @@ preferences-doh-strict-detailed-desc-3 = Jeśli zabezpieczony serwer DNS jest ni
 preferences-doh-setting-off =
     .label = Wyłączone
     .accesskey = W
+preferences-doh-off-standard-desc = Wyszukuje adresy internetowe za pośrednictwem standardowego dostawcy Internetu lub sieci
 preferences-doh-off-desc = Używa domyślnego serwera DNS
 preferences-doh-checkbox-warn =
     .label = Ostrzeganie, jeśli ktoś inny aktywnie uniemożliwia korzystanie z zabezpieczonego serwera DNS
@@ -1088,6 +1090,8 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = Własny adres
     .accesskey = W
+preferences-doh-secure-header = Bezpieczny DNS (DNS poprzez HTTPS)
+preferences-doh-secure-description = Bezpieczny DNS szyfruje zapytania wysyłane przez program { -brand-short-name } podczas wyszukiwania witryn, chroniąc aktywność użytkownika przed monitorowaniem w sieci.
 
 ## Keyservers
 
@@ -1264,6 +1268,11 @@ qr-export-select-accounts = Wybierz konta do wyeksportowania:
 qr-export-no-accounts = Nie widzisz wszystkich kont? Część z nich może być wyłączona, ponieważ nie są obsługiwane przez { -brand-product-name(case: "acc") } na Androida. <a data-l10n-name="account-support-link">Pomoc programu</a>
 qr-export-accounts-legend = Konta pocztowe
 qr-export-select-all-accounts = Wybierz wszystkie
+qr-export-passwords-legend = Hasła
+qr-export-include-passwords-label = Umieść hasła do kont w kodzie QR
+qr-export-web-sign-in-note = <strong>Uwaga:</strong> konta korzystające z logowania przez Internet (np. Gmail lub Yahoo) wymagają ponownego uwierzytelnienia na Twoim urządzeniu.
+qr-export-private-transfer-note = <strong>Transfer prywatny:</strong> twoje ustawienia i hasła są przesyłane bezpośrednio z tego komputera na telefon. Nic nie jest wysyłane ani przechowywane na serwerach Mozilli.
+qr-export-screen-privacy-tip = <strong>Wskazówka:</strong> podczas wyświetlania kodu QR ukryj ekran przed innymi osobami.
 qr-export-security-legend = Bezpieczeństwo
 qr-export-include-passwords = W tym wszystkie hasła do kont
 qr-export-oauth-warning = Część kont używa metody uwierzytelniania, która może wymagać ponownego uwierzytelnienia na telefonie. Podczas tego procesu może być konieczne ponowne wpisanie haseł.
@@ -1316,6 +1325,11 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = W tym hasła
 qr-export-summary-passwords-excluded = Bez haseł
 qr-export-more-accounts = Eksportuj więcej kont
+qr-export-pane-header-mobile = Eksportuj do mobilnej wersji programu { -brand-product-name }
+qr-export-description-email-accounts = Przenieś konta e-mail z tego komputera do programu { -brand-product-name } na telefonie za pomocą kodu QR.
+qr-export-get-app-google-play = <a data-l10n-name="app-link">Pobierz program { -brand-product-name } z Google Play</a>
+qr-export-select-accounts-title = Wybierz konta do wyeksportowania:
+qr-export-missing-accounts-support = Brakuje konta? Nie można wybrać kont, które nie są obsługiwane w programie { -brand-product-name } dla systemu Android. <a data-l10n-name="account-support-link">Dowiedz się, jakie typy kont są obsługiwane</a>
 
 ## Appearance Tab
 
