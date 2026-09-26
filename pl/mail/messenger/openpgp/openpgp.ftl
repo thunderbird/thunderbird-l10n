@@ -219,8 +219,8 @@ openpgp-key-man-add-pqc =
     .label = Wygeneruj podklucz szyfrowania PQC
     .accesskey = W
 # Do not translate: PQC
-openpgp-pqc-confirm-generate = Wygenerować podklucz szyfrujący za pomocą kryptografii postkwantowej (PQC)? Generowanie może potrwać kilka minut.
-openpgp-pqc-generate-failed = Nie można wygenerować podklucza szyfrującego PQC.
+openpgp-pqc-confirm-generate = Wygenerować podklucz szyfrowania za pomocą kryptografii postkwantowej (PQC)? Generowanie może potrwać kilka minut.
+openpgp-pqc-generate-failed = Nie można wygenerować podklucza szyfrowania PQC.
 openpgp-key-man-ignored-ids =
     .label = Adresy e-mail
 openpgp-key-man-del-key =
