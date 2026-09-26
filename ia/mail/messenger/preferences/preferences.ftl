@@ -56,13 +56,22 @@ composition-addressing-header = Adresses
 privacy-main-header = Confidentialitate
 privacy-passwords-header = Contrasignos
 privacy-spam-header = Spam
+collection-improve-header = Le datos colligite pro meliorar { -brand-short-name }
+collection-community-description =
+    { -brand-short-name } es producite per un communitate mundial. 
+    Condivider datos de prestation anonyme adjuta nos a reparar errores plus velocemente e facer le application plus veloce pro omnes.
 collection-privacy-policy = Lege nostre politica de confidentialitate
+collection-data-sharing-off = Le <strong>condivision de datos es disactivate.</strong> Le datos de uso passate sera permanentemente delite ab le servitores de { -vendor-short-name } in 30 dies.
 privacy-junk-header = Indesirate
 collection-header = Collecta e uso de datos per { -brand-short-name }
 collection-description = Nos nos effortia pro lassar te in le commando e colliger solmente lo que nos ha necessitate pro provider e meliorar { -brand-short-name } a totes. Nos sempre demanda permission ante reciper informationes personal.
 collection-privacy-notice = Aviso de confidentialitate
 collection-health-report-telemetry-disabled = Tu non plus permitte que { -vendor-short-name } captura datos technic e de interaction. Tote le datos jam capturate essera delite intra 30 dies.
 collection-health-report-telemetry-disabled-link = Saper plus
+collection-share-performance =
+    .label = Condivider datos de prestation anonyme con { -vendor-short-name }
+    .accesskey = r
+collection-share-performance-description = (include informationes technic basic como tu systema operative, uso de memoria, e function activitate. { -brand-short-name } jammais collige contento de e-mails, contactos, o messages personal.)
 collection-health-report =
     .label = Permitter que { -brand-short-name } invia datos technic e de interaction a { -vendor-short-name }
     .accesskey = P
@@ -70,6 +79,9 @@ collection-health-report-link = Saper plus
 # This message is displayed above disabled data sharing options in developer builds
 # or builds with no Telemetry support available.
 collection-health-report-disabled = Le reporto de datos es inactive pro iste configuration de compilation
+collection-share-crash-data =
+    .label = Inviar reportos de crash anonyme a { -vendor-short-name }
+    .accesskey = c
 collection-backlogged-crash-reports =
     .label = Permitter a { -brand-short-name } de inviar reportos de collapso arretrate in tu nomine
     .accesskey = c
@@ -805,6 +817,7 @@ remote-content-label =
 exceptions-button =
     .label = Exceptiones…
     .accesskey = E
+remote-content-privacy-link = Como le contento remote affice le confidentialitate
 remote-content-privacy-info = Saper plus re le problemas de confidentialitate de contento remote
 remote-content-info =
     .value = Saper plus re le problemas de confidentialitate de contento remote
@@ -822,6 +835,8 @@ third-party-always =
     .label = Sempre
 third-party-never =
     .label = Nunquam
+third-party-visited-only =
+    .label = Ab solo le sitos visitate
 third-party-visited =
     .label = De sitos visitate
 cookies-button =
@@ -831,10 +846,21 @@ cookies-button =
 # "Global Privacy Control" or "GPC" are a web platform feature name and abbreviation
 # included to facilitate power-user search of the about:preferences page.
 global-privacy-control-search = Controlo global del confidentialitate (GPC)
+global-privacy-control-label =
+    .label = Demanda al sitos web de non vender o condivider datos personal
+    .accesskey = n
 global-privacy-control-description =
     .label = Demandar al sitos web de non vender ni compartir mi datos
     .accesskey = n
 do-not-track-removal = Le signal “Non me traciar” non es plus supportate
+passwords-registered-description = { -brand-short-name } pote salvar contrasignos pro contos registrate.
+view-saved-passwords-button =
+    .label = Vider contrasignos reservate…
+    .accesskey = r
+primary-password-session-description = Un contrasigno principal protege tote le contrasignos e es inserite un vice per session.
+use-primary-password-label =
+    .label = Usar contrasigno principal
+    .accesskey = U
 do-not-track-label =
     .label = Inviar al sitos web un signal “Non traciar” indicante que vos non vole esser traciate
     .accesskey = n
@@ -856,10 +882,17 @@ primary-password-button =
     .accesskey = M
 forms-primary-pw-fips-title = Tu es actualmente in modo FIPS. Tal modo require un contrasigno primari non vacue.
 forms-master-pw-fips-desc = Le cambio de contrasigno ha fallite
+spam-accounts-description = Iste parametros se applica a tote le contos. Le optiones de conto individual pote esser cambiate in Parametros de conto.
 spam-description = Defini tu parametros predefinite del spam. Le parametros del spam specific del conto pote esser configurate in Parametros de conto.
 spam-marked-label =
     .label = Quando le messages es marcate como spam:
     .accesskey = Q
+spam-move-folder-label =
+    .label = Mover verso le plica de SPAM
+    .accesskey = o
+spam-delete-immediately-label =
+    .label = Deler immediatemente
+    .accesskey = D
 spam-move-label =
     .label = Mover los al plica “Spam” del conto
     .accesskey = o
@@ -867,6 +900,15 @@ spam-delete-label =
     .label = Deler los
     .accesskey = D
 spam-read-description = Marcar messages como legite
+spam-marked-manually-label =
+    .label = Quando marcate manualmente
+    .accesskey = m
+spam-detected-auto-label =
+    .label = Quando detegite automaticamente per { -brand-short-name }
+    .accesskey = t
+spam-log-keep-label =
+    .label = Mantene un registro de detection automatic de spam
+    .accesskey = e
 spam-read-manual-label =
     .label = Quando manualmente marcate como spam
     .accesskey = m
@@ -882,6 +924,24 @@ spam-log-button =
 reset-spam-button =
     .label = Reinitialisar datos de exercitation
     .accesskey = i
+scam-detection-description = { -brand-short-name } controla messages pro ligamines de fraude e signos commun de fraudes via e-mails.
+scam-detection-label =
+    .label = Adverter legente un e-mail que pare fraudulente
+    .accesskey = t
+antivirus-check-description = Permitte al software antivirus de verificar messages in ingresso individualmente ante que illos es salvate a tu computator.
+antivirus-isolate-label =
+    .label = Permitter al software antivirus de isolar e-mails infectate in ingresso
+    .accesskey = P
+certificate-verify-description = Quando un servitor demanda pro un certificato pro verificar tu identitate:
+certificate-choose-auto =
+    .label = Elige un certificato automaticamente
+    .accesskey = a
+certificate-ask-every =
+    .label = Demanda cata vice
+    .accesskey = D
+ocsp-check-label =
+    .label = Verifica con le servitores de validation del certificatos (OCSP) pro confirmar que le certificatos es ancora correcte.
+    .accesskey = v
 junk-description = Configura hic le parametros global de posta indesirate. Le parametros de posta indesirate specific pro cata conto pote esser configurate in Parametros de contos.
 junk-marked-label =
     .label = Quando le messages es marcate como immunditia:
@@ -934,9 +994,18 @@ security-devices-button =
     .accesskey = D
 email-e2ee-header = Cryptation de extremo-a-extremo de email
 account-settings = Parametros del conto
+email-e2ee-accounts-info = E-mails cryptate pote solo esser legite per te e tu destinatarios. Configura contos e identitates de e-mail pro cryptation de extremo-a-extremo in le <a data-l10n-name="account-settings-url">Parametros de conto</a>.
 email-e2ee-enable-accounts-info = Configura contos email e identitates pro le cryptation de extremo-a-extremo in le <a data-l10n-name="account-settings-url">Parametros de conto</a>.
 email-e2ee-enable-info = Configura contos e identitates email pro cryptation de extremo-a-extremo in Parametros de conto.
 email-e2ee-automatism = Uso automatic del cryptation
+email-e2ee-automatism-intro = { -brand-short-name } pote activar le cryptation si claves acceptate o certificatos valide es disponibile pro omne le destinatarios de un message.
+email-e2ee-turn-on =
+    .label = Automaticamente activar cryptation quando possibile
+email-e2ee-turn-off =
+    .label = Automaticamente disactivar cryptation quando le destinatarios cambia e le cryptation non es plus possibile
+email-e2ee-turn-off-notify =
+    .label = Monstrar un aviso quandocunque le cryptation es disactivate automaticamente
+email-e2ee-automatism-note = Nota: tu alsi pote manualmente activar o disactivar cryptation dum tu scribe un message. Responder a un message cryptate sempre activa le cryptation.
 email-e2ee-automatism-pre =
     { -brand-short-name } pote assister per activar o disactivar automaticamente le cryptation durante le composition de un e-mail.
     Le activation/disactivation automatic se basa sur le disponibilitate de claves o certificatos valide e acceptate del correspondentes.
@@ -949,6 +1018,10 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     Le decisiones automatic pote esser annullate per activar o disactivar manualmente le cryptation durante le composition de un message.
     Nota: le cryptation es sempre automaticamente activate quando on responde a un message cryptate.
+email-content = Contento de e-mail
+remote-content-images-label =
+    .label = Permitter contento remote (imagines e stilos)
+    .accesskey = m
 
 ## DoH Section
 
@@ -987,6 +1060,10 @@ preferences-doh-setting-enabled =
 preferences-doh-enabled-desc = Tu controla quando usar DNS secur e eliger tu fornitor.
 preferences-doh-enabled-detailed-desc-1 = Usar le fornitor que tu elige
 preferences-doh-enabled-detailed-desc-2 = Usa solo tu predefinite resolutor de DNS si il ha un problema con DNS secur
+preferences-doh-setting-maximum =
+    .label = Maxime protection
+    .accesskey = M
+preferences-doh-maximum-desc = Strictemente require DNS cryptate. Le sitos web non se cargara si le connexion secur falle.
 preferences-doh-setting-strict =
     .label = Protection maxime
     .accesskey = m
@@ -997,6 +1074,7 @@ preferences-doh-strict-detailed-desc-3 = Si DNS secur non es disponibile, le sit
 preferences-doh-setting-off =
     .label = Inactive
     .accesskey = I
+preferences-doh-off-standard-desc = Usa fornitor de internet o rete standard pro recercar adresses web
 preferences-doh-off-desc = Usar tu resolutor de DNS predefinite
 preferences-doh-checkbox-warn =
     .label = Adverter si un tertie parte activemente impedi DNS secur
@@ -1009,6 +1087,8 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = Personalisate
     .accesskey = P
+preferences-doh-secure-header = DNS secur (DNS sur HTTPS)
+preferences-doh-secure-description = Le DNS secur crypta le requestas de recerca que { -brand-short-name } invia pro trovar le sitos web, mantenente tu navigation private contra qualcunque surveliantia de rete.
 
 ## Keyservers
 
@@ -1186,6 +1266,10 @@ qr-export-no-accounts = Non vide tu tote i tu contos? Alcunos poterea esser disa
 qr-export-accounts-legend = Contos email
 qr-export-select-all-accounts = Seliger toto
 qr-export-passwords-legend = Contrasignos
+qr-export-include-passwords-label = Includer contrasignos de conto in le codice QR
+qr-export-web-sign-in-note = <strong>Nota:</strong> le contos que usa accesso web (como Gmail o Yahoo), de novo require authentication sur tu apparato.
+qr-export-private-transfer-note = <strong>Transferentia private:</strong> tu parametros e contrasignos move directemente ab iste computator a tu telephono. Nihil es inviate a o immagazinate sur le servitores de Mozilla.
+qr-export-screen-privacy-tip = <strong>Consilio:</strong> Mantene tu schermo celate ab alteres dum le codice QR es monstrate.
 qr-export-security-legend = Securitate
 qr-export-include-passwords = Includer tote le contrasignos del contos
 qr-export-oauth-warning = Parte de tu contos usa un methodo de authentication que pote requirer re-authentication sur tu apparato mobile. Tu pote haber besonio de insere tu contrasignos ancora durante iste processo.
@@ -1235,6 +1319,11 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Contrasignos includite
 qr-export-summary-passwords-excluded = Contrasignos excludite
 qr-export-more-accounts = Exportar plus de contos
+qr-export-pane-header-mobile = Exportar a { -brand-product-name } pro apparato mobile
+qr-export-description-email-accounts = Transferer tu contos e-mail ab iste computator a { -brand-product-name } sur tu telephono mediante un codice QR.
+qr-export-get-app-google-play = <a data-l10n-name="app-link">Obtene { -brand-product-name } sur Google Play</a>
+qr-export-select-accounts-title = Seliger contos a exportar:
+qr-export-missing-accounts-support = An manca un conto? Le contos que non es supportate sur { -brand-product-name } pro Android non pote esser seligite. <a data-l10n-name="account-support-link">Apprende que typos de conto es supportate</a>
 
 ## Appearance Tab
 
