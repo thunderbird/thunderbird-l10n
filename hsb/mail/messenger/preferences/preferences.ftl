@@ -76,6 +76,7 @@ collection-backlogged-crash-reports-link = Dalše informacije
 privacy-security-header = Wěstota
 privacy-scam-detection-title = Wotkrywanje wobšudstwa
 privacy-anti-virus-title = Antiwirusowy program
+privacy-security-certificates-title = Wěstotne certifikaty
 privacy-certificates-title = Certifikaty
 chat-pane-header = Chat
 chat-status-title = Status
