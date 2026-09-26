@@ -10,6 +10,7 @@ window-focus-search-alt-key =
 filter-search-label =
     .value = 搜尋：
     .accesskey = S
+cookies-stored-label = Cookie 會儲存在此電腦
 cookies-on-system-label = 您的電腦中已儲存下列的 Cookie:
 treecol-site-header =
     .label = 網站

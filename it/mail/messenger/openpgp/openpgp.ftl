@@ -208,6 +208,13 @@ openpgp-key-man-change-expiry =
 openpgp-key-man-refresh-online =
     .label = Aggiorna in linea
     .accesskey = A
+# Do not translate: PQC
+openpgp-key-man-add-pqc =
+    .label = Genera sottochiave di crittografia PQC
+    .accesskey = G
+# Do not translate: PQC
+openpgp-pqc-confirm-generate = Generare una sottochiave di crittografia utilizzando la crittografia post-quantistica (PQC)? La generazione potrebbe richiedere alcuni minuti.
+openpgp-pqc-generate-failed = Impossibile generare la sottochiave di crittografia PQC.
 openpgp-key-man-ignored-ids =
     .label = Indirizzi email
 openpgp-key-man-del-key =
@@ -325,6 +332,7 @@ openpgp-passphrase-instruction-primary-password = In alternativa, proteggi quest
 openpgp-passphrase-instruction-user-passphrase = Sblocca questa chiave per modificarne la protezione.
 openpgp-passphrase-unlock = Sblocca
 openpgp-passphrase-unlocked = Chiave sbloccata correttamente.
+openpgp-passphrase-unlock-failed = Impossibile sbloccare la chiave o parti subordinate della chiave.
 openpgp-remove-protection = Rimuovi protezione passphrase
 openpgp-use-primary-password = Rimuovi passphrase e proteggi con la password principale
 openpgp-passphrase-new = Nuova passphrase

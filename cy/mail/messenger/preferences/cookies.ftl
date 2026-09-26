@@ -10,6 +10,7 @@ window-focus-search-alt-key =
 filter-search-label =
     .value = Chwilio:
     .accesskey = h
+cookies-stored-label = Mae cwcis yn cael eu storio ar y cyfrifiadur hwn
 cookies-on-system-label = Mae'r cwcis canlynol wedi'u cadw ar eich cyfrifiadur:
 treecol-site-header =
     .label = Gwefan

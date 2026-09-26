@@ -34,6 +34,7 @@ outgoing-server-section-name = 寄件伺服器
 outgoing-server-settings-title = 寄件伺服器設定
 outgoing-server-settings-description = 管理您的身份識別資訊時，可以自此清單選擇一個伺服器作為外寄郵件伺服器或「使用預設伺服器」以使用預設的伺服器。
 outgoing-server-type = 伺服器類型：
+panel-manage-spam = 管理垃圾信
 panel-settings-spam = 垃圾信選項
 # Variables:
 # $account (String) - The account name.

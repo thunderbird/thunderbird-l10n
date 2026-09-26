@@ -202,6 +202,13 @@ openpgp-key-man-change-expiry =
 openpgp-key-man-refresh-online =
     .label = 從網路重新整理
     .accesskey = R
+# Do not translate: PQC
+openpgp-key-man-add-pqc =
+    .label = 產生 PQR 加密子金鑰
+    .accesskey = 產
+# Do not translate: PQC
+openpgp-pqc-confirm-generate = 產生加密時使用的子金鑰(PQR)產生過程可能需要幾分鐘時間。
+openpgp-pqc-generate-failed = 無法產生 PQR 加密子金鑰。
 openpgp-key-man-ignored-ids =
     .label = 電子郵件地址
 openpgp-key-man-del-key =
@@ -317,6 +324,7 @@ openpgp-passphrase-instruction-primary-password = 或者使用不同的密語來
 openpgp-passphrase-instruction-user-passphrase = 解鎖這把金鑰即可更改保護方式。
 openpgp-passphrase-unlock = 解鎖
 openpgp-passphrase-unlocked = 金鑰解鎖成功。
+openpgp-passphrase-unlock-failed = 無法解鎖金鑰或金鑰的從屬部分。
 openpgp-remove-protection = 移除密語保護
 openpgp-use-primary-password = 移除密語並使用主密碼保護
 openpgp-passphrase-new = 新密語

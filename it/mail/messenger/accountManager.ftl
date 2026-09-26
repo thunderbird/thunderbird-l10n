@@ -34,6 +34,7 @@ outgoing-server-section-name = Server posta in uscita
 outgoing-server-settings-title = Impostazioni server in uscita
 outgoing-server-settings-description = Nella gestione delle proprie identità è possibile utilizzare un server della lista seguente selezionandolo come Server posta in uscita o lasciare il predefinito selezionando “Server predefinito”.
 outgoing-server-type = Tipo di server:
+panel-manage-spam = Gestisci lo spam
 panel-settings-spam = Impostazioni spam
 # Variables:
 # $account (String) - The account name.

@@ -34,6 +34,7 @@ outgoing-server-section-name = Gweinydd Anfon
 outgoing-server-settings-title = Gosodiadau'r Gweinydd Anfon
 outgoing-server-settings-description = Wrth reoli eich hunaniaethau gallwch ddefnyddio gweinydd o'r rhestr hon trwy ei ddewis fel y Gweinydd Anfon, neu gallwch ddefnyddio'r gweinydd rhagosodedig o'r rhestr hon trwy ddewis "Defnyddio'r Gweinydd Rhagosodedig".
 outgoing-server-type = Math o Weinydd:
+panel-manage-spam = Rheoli sbam
 panel-settings-spam = Gosodiadau Sbam
 # Variables:
 # $account (String) - The account name.

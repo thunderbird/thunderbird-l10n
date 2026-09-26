@@ -34,6 +34,7 @@ outgoing-server-section-name = Serveur sortant
 outgoing-server-settings-title = Paramètres du serveur sortant
 outgoing-server-settings-description = Lorsque vous gérez vos identités, vous pouvez utiliser un serveur de cette liste en le sélectionnant comme Serveur sortant, ou vous pouvez utiliser le serveur par défaut de cette liste en sélectionnant « Utiliser le serveur par défaut ».
 outgoing-server-type = Type de serveur :
+panel-manage-spam = Gestion des messages indésirables
 panel-settings-spam = Paramètres des indésirables
 # Variables:
 # $account (String) - The account name.
