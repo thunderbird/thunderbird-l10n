@@ -34,6 +34,7 @@ outgoing-server-section-name = გამავალი სერვერი
 outgoing-server-settings-title = გამავალი სერვერის პარამეტრები
 outgoing-server-settings-description = თქვენი ანგარიშების მართვისას შეგიძლიათ ისარგებლოთ სერვერების ამ სიით და მიუთითოთ რომელიმე გამავალ სერვერად ან გამოიყენოთ ნაგულისხმევად ამ სიიდანვე, ესე იგი აირჩიოთ „ნაგულისხმევი სერვერის გამოყენება“.
 outgoing-server-type = სერვერის სახეობა:
+panel-manage-spam = ჯართის მართვა
 panel-settings-spam = ჯართის პარამეტრები
 # Variables:
 # $account (String) - The account name.

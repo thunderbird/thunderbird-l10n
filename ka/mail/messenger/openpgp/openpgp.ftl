@@ -208,6 +208,13 @@ openpgp-key-man-change-expiry =
 openpgp-key-man-refresh-online =
     .label = განახლება ქსელიდან
     .accesskey = ნ
+# Do not translate: PQC
+openpgp-key-man-add-pqc =
+    .label = PQC-დაშიფვრის ქვეგასაღების შედგენა
+    .accesskey = P
+# Do not translate: PQC
+openpgp-pqc-confirm-generate = გსურთ დაშიფვრის ქვეგასაღების შედგენა კვანტურმედეგი დაშიფვრის (PQC) გამოყენებით? შედგენამ შეიძლება რამდენიმე წუთს გასტანოს.
+openpgp-pqc-generate-failed = PQC-დაშიფვრის ქვეგასაღების შედგენა ვერ მოხერხდა.
 openpgp-key-man-ignored-ids =
     .label = ელფოსტის მისამართები
 openpgp-key-man-del-key =
@@ -325,6 +332,7 @@ openpgp-passphrase-instruction-primary-password = ამ გასაღებ�
 openpgp-passphrase-instruction-user-passphrase = ამ გასაღების გახსნა დაცვის ცვლილებისთვის.
 openpgp-passphrase-unlock = გახსნა
 openpgp-passphrase-unlocked = გასაღები წარმატებით გაიხსნა.
+openpgp-passphrase-unlock-failed = გასაღები ან გასაღებს დაქვემდებარებული ნაწილების გაღება ვერ მოხერხდა.
 openpgp-remove-protection = შემშვები ფრაზით დაცვის მოხსნა
 openpgp-use-primary-password = შემშვები ფრაზით დაცვის მოხსნა და სანაცვლოდ მთავარი პაროლის დადება
 openpgp-passphrase-new = ახალი შემშვები ფრაზა

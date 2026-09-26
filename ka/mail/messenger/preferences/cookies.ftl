@@ -10,6 +10,7 @@ window-focus-search-alt-key =
 filter-search-label =
     .value = ძიება:
     .accesskey = S
+cookies-stored-label = ფუნთუშები ინახება ამ კომპიუტერში
 cookies-on-system-label = თქვენს კომპიუტერში შემდეგი ფუნთუშები ინახება:
 treecol-site-header =
     .label = საიტი
