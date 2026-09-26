@@ -1267,6 +1267,8 @@ qr-export-select-all-accounts = Markera alla
 qr-export-passwords-legend = Lösenord
 qr-export-include-passwords-label = Inkludera kontolösenord i QR-koden
 qr-export-web-sign-in-note = <strong>Obs!</strong> Konton som använder webbinloggning (till exempel Gmail eller Yahoo) måste autentiseras på nytt på din enhet.
+qr-export-private-transfer-note = <strong>Privat överföring:</strong> Dina inställningar och lösenord flyttas direkt från den här datorn till din telefon. Ingenting skickas till eller lagras på Mozillas servrar.
+qr-export-screen-privacy-tip = <strong>Tips:</strong> Håll din skärm dold från andra medan QR-koden visas.
 qr-export-security-legend = Säkerhet
 qr-export-include-passwords = Inkludera lösenorden för alla konton
 qr-export-oauth-warning = Vissa av dina konton använder en autentiseringsmetod som kan kräva ny autentisering på din mobila enhet. Du kan behöva ange dina lösenord igen under denna process.
@@ -1316,6 +1318,11 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Lösenord medföljer
 qr-export-summary-passwords-excluded = Lösenord exkluderas
 qr-export-more-accounts = Exportera fler konton
+qr-export-pane-header-mobile = Exportera till { -brand-product-name } för mobil
+qr-export-description-email-accounts = Överför dina e-postkonton från den här datorn till { -brand-product-name } på din telefon med hjälp av en QR-kod.
+qr-export-get-app-google-play = <a data-l10n-name="app-link">Ladda ned { -brand-product-name } från Google Play</a>
+qr-export-select-accounts-title = Välj konton som ska exporteras:
+qr-export-missing-accounts-support = Saknar du ett konto? Konton som inte stöds i { -brand-product-name } för Android kan inte väljas. <a data-l10n-name="account-support-link">Lär dig vilka kontotyper som stöds</a>
 
 ## Appearance Tab
 
