@@ -204,11 +204,11 @@ openpgp-key-man-refresh-online =
     .accesskey = R
 # Do not translate: PQC
 openpgp-key-man-add-pqc =
-    .label = 產生 PQR 加密子金鑰
-    .accesskey = 產
+    .label = 產生 PQC 加密子金鑰
+    .accesskey = G
 # Do not translate: PQC
-openpgp-pqc-confirm-generate = 產生加密時使用的子金鑰(PQR)產生過程可能需要幾分鐘時間。
-openpgp-pqc-generate-failed = 無法產生 PQR 加密子金鑰。
+openpgp-pqc-confirm-generate = 要使用後量子加密演算法（PQC）產生加密子金鑰嗎？產生過程可能需要幾分鐘。
+openpgp-pqc-generate-failed = 無法產生 PQC 加密子金鑰。
 openpgp-key-man-ignored-ids =
     .label = 電子郵件地址
 openpgp-key-man-del-key =
