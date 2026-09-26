@@ -34,6 +34,7 @@ outgoing-server-section-name = Server för utgående e-post
 outgoing-server-settings-title = Serverinställningar för utgående e-post
 outgoing-server-settings-description = När du hanterar dina identiteter kan du använda en server från listan genom att välja den som server för utgående e-post, eller så kan du använda standardservern från listan genom att välja "Använd standardserver".
 outgoing-server-type = Servertyp:
+panel-manage-spam = Hantera skräppost
 panel-settings-spam = Skräppostinställningar
 # Variables:
 # $account (String) - The account name.
