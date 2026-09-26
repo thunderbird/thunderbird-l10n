@@ -205,6 +205,10 @@ openpgp-key-man-change-expiry =
 openpgp-key-man-refresh-online =
     .label = Онлайн жаңарту
     .accesskey = р
+# Do not translate: PQC
+openpgp-key-man-add-pqc =
+    .label = PQC шифрлеу ішкі кілтін генерациялау
+    .accesskey = г
 openpgp-key-man-ignored-ids =
     .label = Эл. пошта адрестері
 openpgp-key-man-del-key =
