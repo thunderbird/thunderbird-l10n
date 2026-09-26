@@ -29,7 +29,7 @@
 <!ENTITY scopeSubtree.accesskey "A">
 <!ENTITY return.label "Neatgriezt vairāk par">
 <!ENTITY return.accesskey "n">
-<!ENTITY results.label "rezultāti">
+<!ENTITY results.label "iznākums">
 <!ENTITY offlineText.label "Varat lejuplādēt šīs mapes lokālu kopiju, lai tā būtu pieejama, strādājot nesaistē.">
 <!ENTITY saslMechanism.label "Pieteikšanās veids:">
 <!ENTITY saslMechanism.accesskey "m">

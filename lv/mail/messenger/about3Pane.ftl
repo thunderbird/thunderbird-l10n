@@ -51,7 +51,7 @@ quick-filter-bar-attachment =
 quick-filter-bar-attachment-label = Ar pielikumiem
 # The contents of the results box when there is a filter active but there
 # are no messages matching the filter.
-quick-filter-bar-no-results = Nav rezultātu
+quick-filter-bar-no-results = Nav iznākuma
 # This is used to populate the results box; it either displays the
 # number of messages found using this string, that there are no messages
 # (using quick-filter-bar-no-results), or the box is hidden.

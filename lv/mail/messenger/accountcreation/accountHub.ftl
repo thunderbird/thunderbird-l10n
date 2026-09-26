@@ -15,6 +15,7 @@ account-hub-email-continue-button = Turpināt
 
 account-hub-select-option =
     .label = Atlasīt iespēju
+account-hub-max-results-label = Lielākais pieļaujamais skaits iznākumā
 account-hub-creation-error-title = Kļūda konta izveidošanā
 # Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub

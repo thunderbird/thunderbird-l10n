@@ -16,7 +16,7 @@
 <!ENTITY deleteButton.label "Dzēst">
 <!ENTITY deleteButton.accesskey "D">
 <!ENTITY searchDialogTitle.label "Meklēt ziņojumus">
-<!ENTITY results.label "Rezultāti">
+<!ENTITY results.label "Iznākums">
 <!ENTITY moveButton.label "Pārvietot uz">
 <!ENTITY moveButton.accesskey "P">
 <!ENTITY closeCmd.key "W">
