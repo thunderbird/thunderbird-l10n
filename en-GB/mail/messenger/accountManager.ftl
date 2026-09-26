@@ -34,6 +34,7 @@ outgoing-server-section-name = Outgoing Server
 outgoing-server-settings-title = Outgoing Server Settings
 outgoing-server-settings-description = When managing your identities you can use a server from this list by selecting it as the Outgoing Server, or you can use the default server from this list by selecting “Use Default Server”.
 outgoing-server-type = Server Type:
+panel-manage-spam = Manage spam
 panel-settings-spam = Spam Settings
 # Variables:
 # $account (String) - The account name.

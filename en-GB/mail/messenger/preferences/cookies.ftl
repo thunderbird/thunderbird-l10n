@@ -10,6 +10,7 @@ window-focus-search-alt-key =
 filter-search-label =
     .value = Search:
     .accesskey = S
+cookies-stored-label = Cookies are stored on this computer
 cookies-on-system-label = The following cookies are stored on your computer:
 treecol-site-header =
     .label = Site
