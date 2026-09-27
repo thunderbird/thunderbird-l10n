@@ -1043,6 +1043,10 @@ preferences-doh-status-not-active = Неактивно ({ $reason })
 preferences-doh-group-message = Включить DNS через HTTPS, используя:
 preferences-doh-expand-section =
     .tooltiptext = Подробная информация
+preferences-doh-setting-automatic =
+    .label = Автоматическая защита (Рекомендуется)
+    .accesskey = В
+preferences-doh-automatic-desc = { -brand-short-name } автоматически шифрует поиск адресов, когда это возможно. Переключается на стандартный поиск сети, если есть проблема с подключением или если этого требует VPN/управляемая сеть.
 preferences-doh-setting-default =
     .label = Защита по умолчанию
     .accesskey = В
@@ -1055,9 +1059,14 @@ preferences-doh-default-detailed-desc-5 = Отключить, когда сет�
 preferences-doh-setting-enabled =
     .label = Повышенная защита
     .accesskey = Ш
+preferences-doh-increased-desc = Всегда использует выбранного поставщика. Использует стандартное соединение, только если не работает безопасный провайдер.
 preferences-doh-enabled-desc = Вы сами решаете, когда использовать безопасный DNS, и выбираете своего провайдера.
 preferences-doh-enabled-detailed-desc-1 = Использовать выбранного вами провайдера
 preferences-doh-enabled-detailed-desc-2 = Использовать разрешение DNS по умолчанию только в том случае, если есть проблема с безопасным DNS
+preferences-doh-setting-maximum =
+    .label = Максимальная защита
+    .accesskey = Ь
+preferences-doh-maximum-desc = Строго требует зашифрованного DNS. Веб-сайты не будут загружаться, если не удалось установить безопасное соединение.
 preferences-doh-setting-strict =
     .label = Максимальная защита
     .accesskey = Ь
@@ -1068,6 +1077,7 @@ preferences-doh-strict-detailed-desc-3 = Если безопасный DNS не�
 preferences-doh-setting-off =
     .label = Откл.
     .accesskey = Щ
+preferences-doh-off-standard-desc = Использует стандартного интернет-провайдера или сеть для поиска веб-адресов
 preferences-doh-off-desc = Использовать разрешение DNS по умолчанию
 preferences-doh-checkbox-warn =
     .label = Предупреждать, если третья сторона активно препятствует безопасному DNS
@@ -1080,6 +1090,8 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = Персональный
     .accesskey = С
+preferences-doh-secure-header = Безопасный DNS (DNS через HTTPS)
+preferences-doh-secure-description = Безопасный DNS шифрует запросы на поиск веб-сайтов, которые { -brand-short-name } отправляет, сохраняя конфиденциальность вашей активности в Интернете от любого мониторинга сети.
 
 ## Keyservers
 
@@ -1256,6 +1268,11 @@ qr-export-select-accounts = Выберите учётные записи для 
 qr-export-no-accounts = Не видите все ваши учётные записи? Некоторые учётные записи могут быть отключены, поскольку они не поддерживаются { -brand-product-name } для Android. <a data-l10n-name="account-support-link">Поддержка</a>
 qr-export-accounts-legend = Учётные записи электронной почты
 qr-export-select-all-accounts = Выбрать все
+qr-export-passwords-legend = Пароли
+qr-export-include-passwords-label = Включить пароли учётных записей в QR-код
+qr-export-web-sign-in-note = <strong>Примечание:</strong> Учётные записи, использующие веб-вход (например, Gmail или Yahoo), требуют повторной аутентификации на вашем устройстве.
+qr-export-private-transfer-note = <strong>Приватная передача:</strong> Ваши настройки и пароли перемещаются прямо с этого компьютера в ваш телефон. Ничего не отправляется и не хранится на серверах Mozilla.
+qr-export-screen-privacy-tip = <strong>Совет:</strong> Скрывайте свой экран от других, пока отображается QR-код.
 qr-export-security-legend = Защита
 qr-export-include-passwords = Включить пароли всех учётных записей
 qr-export-oauth-warning = В некоторых ваших учётных записях используется метод аутентификации, который может потребовать повторной аутентификации на вашем мобильном устройстве. В ходе этого процесса вам может потребоваться повторно ввести свои пароли.
@@ -1309,6 +1326,11 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Включая пароли
 qr-export-summary-passwords-excluded = Исключая пароли
 qr-export-more-accounts = Экспортировать другие учётные записи
+qr-export-pane-header-mobile = Экспорт в { -brand-product-name } для мобильных устройств
+qr-export-description-email-accounts = Перенесите свои учётные записи электронной почты с этого компьютера в { -brand-product-name } на вашем телефоне, используя QR-код.
+qr-export-get-app-google-play = <a data-l10n-name="app-link">Скачать { -brand-product-name } из Google Play</a>
+qr-export-select-accounts-title = Выберите учётные записи для экспорта:
+qr-export-missing-accounts-support = Отсутствует учётная запись? Учётные записи, не поддерживаемые в { -brand-product-name } для Android, не могут быть выбраны. <a data-l10n-name="account-support-link">Узнайте, какие типы учётных записей поддерживаются</a>
 
 ## Appearance Tab
 
