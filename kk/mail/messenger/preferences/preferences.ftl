@@ -854,6 +854,9 @@ spam-marked-label =
 spam-move-folder-label =
     .label = Спам бумасына жылжыту
     .accesskey = ы
+spam-delete-immediately-label =
+    .label = Бірден өшіру
+    .accesskey = д
 spam-move-label =
     .label = Оларды тіркелгінің "Спам" бумасына жылжыту
     .accesskey = ы
@@ -861,6 +864,9 @@ spam-delete-label =
     .label = Оларды өшіру
     .accesskey = ш
 spam-read-description = Хабарламаларды оқылған ретінде белгілеу
+spam-marked-manually-label =
+    .label = Қолмен белгіленген кезде
+    .accesskey = м
 spam-read-manual-label =
     .label = Спам ретінде қолмен белгіленген кезде
     .accesskey = м
@@ -876,12 +882,23 @@ spam-log-button =
 reset-spam-button =
     .label = Үйрету деректерін тастау
     .accesskey = р
+scam-detection-label =
+    .label = Алаяқтық сияқты көрінетін эл. пошта хатын оқу кезінде ескерту
+    .accesskey = А
+antivirus-check-description = Кіріс хабарламалар компьютерге сақталғанға дейін оларды вирусқа қарсы бағдарламалық қамтаманың жеке-жеке тексеруіне рұқсат етеді.
+antivirus-isolate-label =
+    .label = Вирусқа қарсы бағдарламалық қамтамаға зақымдалған кіріс эл. пошталарын оқшаулауға рұқсат ету
+    .accesskey = а
+certificate-verify-description = Сервер сіздің жеке басыңызды тексеру үшін сертификат сұраған кезде:
 certificate-choose-auto =
     .label = Сертификатты автоматты түрде таңдау
     .accesskey = д
 certificate-ask-every =
     .label = Әрқашан сұрау
     .accesskey = а
+ocsp-check-label =
+    .label = Сертификаттардың әлі де жарамды екенін растау үшін сертификаттарды тексеру серверлерін (OCSP) тексеру.
+    .accesskey = ф
 junk-description = Бастапқы спам баптауларын орнатыңыз. Тіркелгілердің спам баптаулары Тіркелгі баптауларында өзгертуге болады.
 junk-marked-label =
     .label = Хабарлама спам ретінде белгіленген кезде:
@@ -934,6 +951,7 @@ security-devices-button =
     .accesskey = р
 email-e2ee-header = Эл. поштаны өтпелі шифрлеу
 account-settings = Тіркелгі баптаулары
+email-e2ee-accounts-info = Шифрленген эл. пошталарды тек сіз және сіздің алушыларыңыз оқи алады. <a data-l10n-name="account-settings-url">Тіркелгі баптауларында</a> өтпелі шифрлеу үшін эл. пошта тіркелгілері мен сәйкестіктерін баптаңыз.
 email-e2ee-enable-accounts-info = <a data-l10n-name="account-settings-url">Тіркелгі баптауларында</a> өтпелі шифрлеу үшін эл. пошта тіркелгілері мен сәйкестіктерін баптаңыз.
 email-e2ee-enable-info = Өтпелі шифрлеу үшін электрондық пошта тіркелгілері мен идентификаторларды Тіркелгі параметрлерінде орнатыңыз.
 email-e2ee-automatism = Шифрлеуді автоматты түрде пайдалану
@@ -949,6 +967,10 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     Хабарламаны құрастыру кезінде шифрлеуді қолмен іске қосу немесе сөндіру арқылы автоматты шешімдерді қайта анықтауға болады.
     Ескертпе: шифрленген хабарламаға жауап беру кезінде шифрлеу әрқашан автоматты түрде іске қосылады.
+email-content = Эл. пошта мазмұны
+remote-content-images-label =
+    .label = Қашықтағы мазмұнға (суреттер мен стильдер) рұқсат ету
+    .accesskey = ш
 
 ## DoH Section
 
@@ -1009,6 +1031,8 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = Таңдауыңызша
     .accesskey = д
+preferences-doh-secure-header = Қауіпсіз DNS (HTTPS арқылы DNS)
+preferences-doh-secure-description = Қауіпсіз DNS веб-сайттарды табу үшін { -brand-short-name } жіберетін іздеу сұрауларын шифрлеп, шолу әрекетіңізді кез келген желілік бақылаудан жеке сақтайды.
 
 ## Keyservers
 
@@ -1119,6 +1143,7 @@ chat-variant-label =
 search-preferences-input2 =
     .placeholder = Баптаулардан табу
     .style = width: 15.4em
+managed-by-organization-notice = { -brand-short-name } ұйыммен басқарылады.
 managed-notice = { -brand-short-name } сіздің ұйымыңызбен басқаралады.
 
 ## Settings UI Search Results
@@ -1185,6 +1210,8 @@ qr-export-no-accounts = Тіркелгілеріңіздің барлығын б
 qr-export-accounts-legend = Эл. пошта тіркелгілері
 qr-export-select-all-accounts = Барлығын таңдау
 qr-export-passwords-legend = Парольдер
+qr-export-include-passwords-label = QR кодына тіркелгі парольдерін қосу
+qr-export-web-sign-in-note = <strong>Ескертпе:</strong> Веб арқылы кіруді пайдаланатын тіркелгілер (Gmail немесе Yahoo сияқты) құрылғыңызда қайта аутентификацияны талап етеді.
 qr-export-security-legend = Қауіпсіздік
 qr-export-include-passwords = Барлық тіркелгілер парольдерін қосу
 qr-export-oauth-warning = Кейбір тіркелгілеріңіз мобильді құрылғыда қайта аутентификацияны қажет етуі мүмкін аутентификация әдісін пайдаланады. Бұл процесс барысында парольдерді қайта енгізу қажет болуы мүмкін.
