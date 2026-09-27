@@ -992,9 +992,18 @@ security-devices-button =
     .accesskey = D
 email-e2ee-header = Encriptação de e-mail ponto a ponto
 account-settings = Definições da Conta
+email-e2ee-accounts-info = E-mails encriptados apenas podem ser lidos por si e pelos seus destinatários. Configure contas de e-mail e identidades para encriptação ponto a ponto nas <a data-l10n-name="account-settings-url">Definições da conta</a>.
 email-e2ee-enable-accounts-info = Configure as contas de e-mail e identidades para a encriptação ponta-a-ponta nas <a data-l10n-name="account-settings-url">Definições da conta</a>.
 email-e2ee-enable-info = Configurar contas de e-mail e identidades para a encriptação ponto a ponto nas Definições de conta.
 email-e2ee-automatism = Utilização automática de encriptação
+email-e2ee-automatism-intro = O { -brand-short-name } pode ativar a encriptação se chaves ou certificados válidos estiverem disponíveis para todos os destinatários de uma mensagem.
+email-e2ee-turn-on =
+    .label = Ativar automaticamente a encriptação quando possível
+email-e2ee-turn-off =
+    .label = Desativar automaticamente a encriptação quando os destinatários forem alterados e a encriptação já não for possível
+email-e2ee-turn-off-notify =
+    .label = Mostrar uma notificação quando a encriptação é desativada automaticamente
+email-e2ee-automatism-note = Nota: pode também ativar ou desativar manualmente a encriptação enquanto escreve uma mensagem. Responder a uma mensagem encriptada ativa sempre a encriptação.
 email-e2ee-automatism-pre =
     O { -brand-short-name } pode ajudar ativando ou desativando automaticamente a encriptação ao escrever um e-mail.
     A ativação/desativação automática é baseada na disponibilidade de chaves ou certificados correspondentes válidos e aceites.
@@ -1007,6 +1016,10 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     Decisões automáticas podem ser substituídas ao ativar ou desativar manualmente a encriptação ao compor uma mensagem.
     Nota: a encriptação é sempre ativada automaticamente ao responder a uma mensagem encriptada.
+email-content = Conteúdo do e-mail
+remote-content-images-label =
+    .label = Permitir conteúdo remoto (imagens e estilos)
+    .accesskey = m
 
 ## DoH Section
 
@@ -1030,6 +1043,10 @@ preferences-doh-status-not-active = Inativo ({ $reason })
 preferences-doh-group-message = Ativar DNS sobre HTTPS, utilizando:
 preferences-doh-expand-section =
     .tooltiptext = Mais informação
+preferences-doh-setting-automatic =
+    .label = Proteção automática (Recomendado)
+    .accesskey = P
+preferences-doh-automatic-desc = O { -brand-short-name } encripta automaticamente as pesquisas de endereços quando disponíveis. Muda de volta para as pesquisas de rede padrão se houver um problema de ligação ou se uma VPN/rede gerida o requerer.
 preferences-doh-setting-default =
     .label = Proteção predefinida
     .accesskey = P
