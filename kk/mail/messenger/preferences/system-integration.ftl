@@ -39,3 +39,4 @@ system-search-integration-label =
 check-on-startup-label =
     .label = { -brand-short-name } іске қосылған кезде әрқашан да осыны тексеру
     .accesskey = ш
+system-settings-dialog-title = Жүйелік баптаулар
