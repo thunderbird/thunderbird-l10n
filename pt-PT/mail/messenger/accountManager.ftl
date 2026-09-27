@@ -34,6 +34,7 @@ outgoing-server-section-name = Servidor de envio
 outgoing-server-settings-title = Definições do servidor de envio
 outgoing-server-settings-description = Ao gerir as suas identidades, pode utilizar um servidor desta lista selecionando-o como servidor de envio““, ou pode utilizar o servidor pré-definido indicado nesta lista selecionando “Usar servidor pré-definido”.
 outgoing-server-type = Tipo de servidor:
+panel-manage-spam = Gerir spam
 panel-settings-spam = Definições de lixo eletrónico
 # Variables:
 # $account (String) - The account name.
