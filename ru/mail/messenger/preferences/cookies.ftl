@@ -10,6 +10,7 @@ window-focus-search-alt-key =
 filter-search-label =
     .value = Поиск:
     .accesskey = П
+cookies-stored-label = Куки хранятся на этом компьютере
 cookies-on-system-label = На вашем компьютере сохранены следующие куки:
 treecol-site-header =
     .label = Сайт

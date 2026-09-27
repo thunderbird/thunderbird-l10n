@@ -214,6 +214,13 @@ openpgp-key-man-change-expiry =
 openpgp-key-man-refresh-online =
     .label = Обновить онлайн
     .accesskey = н
+# Do not translate: PQC
+openpgp-key-man-add-pqc =
+    .label = Сгенерировать подключ шифрования PQC
+    .accesskey = П
+# Do not translate: PQC
+openpgp-pqc-confirm-generate = Сгенерировать подключ шифрования с помощью постквантовой криптографии (PQC)? Генерация может занять несколько минут.
+openpgp-pqc-generate-failed = Не удалось сгенерировать подключ шифрования PQC.
 openpgp-key-man-ignored-ids =
     .label = Адреса электронной почты
 openpgp-key-man-del-key =
@@ -331,6 +338,7 @@ openpgp-passphrase-instruction-primary-password = В качестве альте
 openpgp-passphrase-instruction-user-passphrase = Разблокируйте этот ключ, чтобы изменить его защиту.
 openpgp-passphrase-unlock = Разблокировать
 openpgp-passphrase-unlocked = Ключ успешно разблокирован.
+openpgp-passphrase-unlock-failed = Ключ или подчиненные части ключа не могут быть разблокированы.
 openpgp-remove-protection = Снять защиту парольной фразой
 openpgp-use-primary-password = Удалить парольную фразу и защитить с помощью основного пароля
 openpgp-passphrase-new = Новая парольная фраза
