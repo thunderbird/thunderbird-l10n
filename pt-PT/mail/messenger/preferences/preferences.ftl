@@ -1059,9 +1059,14 @@ preferences-doh-default-detailed-desc-5 = Desativar quando uma rede informar que
 preferences-doh-setting-enabled =
     .label = Maior proteção
     .accesskey = M
+preferences-doh-increased-desc = Usa sempre o fornecedor escolhido. Usa ligação padrão apenas se um fornecedor seguro falhar.
 preferences-doh-enabled-desc = Você controla quando deve utilizar o DNS seguro e escolhe o seu fornecedor.
 preferences-doh-enabled-detailed-desc-1 = Utiliza o fornecedor que você selecionar
 preferences-doh-enabled-detailed-desc-2 = Utilizar apenas o seu tradutor de DNS predefinido se existir um problema com o DNS seguro
+preferences-doh-setting-maximum =
+    .label = Proteção máxima
+    .accesskey = m
+preferences-doh-maximum-desc = Requer estritamente DNS encriptado. Os websites não serão carregados se a ligação segura falhar.
 preferences-doh-setting-strict =
     .label = Proteção máxima
     .accesskey = m
@@ -1072,6 +1077,7 @@ preferences-doh-strict-detailed-desc-3 = Se o DNS seguro não estiver disponíve
 preferences-doh-setting-off =
     .label = Desligado
     .accesskey = D
+preferences-doh-off-standard-desc = Utiliza um fornecedor de Internet ou uma rede padrão para procurar endereços web
 preferences-doh-off-desc = Utilize o seu tradutor de DNS predefinido
 preferences-doh-checkbox-warn =
     .label = Avisar se um terceiro impedir ativamente o DNS seguro
@@ -1084,6 +1090,8 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = Personalizado
     .accesskey = P
+preferences-doh-secure-header = DNS seguro (DNS sobre HTTPS)
+preferences-doh-secure-description = O DNS seguro encripta os pedidos de pesquisa que o { -brand-short-name } envia para encontrar sites, mantendo a sua atividade de navegação privada a qualquer monitorização de rede.
 
 ## Keyservers
 
@@ -1260,6 +1268,11 @@ qr-export-select-accounts = Selecione as contas a exportar:
 qr-export-no-accounts = Não está a ver todas as suas contas? Algumas contas podem estar desativadas por não serem suportadas pela { -brand-product-name } para Android. <a data-l10n-name="account-support-link">Apoio</a>
 qr-export-accounts-legend = Contas de correio eletrónico
 qr-export-select-all-accounts = Selecionar tudo
+qr-export-passwords-legend = Palavras-passe
+qr-export-include-passwords-label = Incluir palavras-passe da conta no código QR
+qr-export-web-sign-in-note = <strong>Nota:</strong> As contas que usam início de sessão na Internet (como Gmail ou Yahoo), requerem novamente autenticação no seu dispositivo.
+qr-export-private-transfer-note = <strong>Transferência privada:</strong> As suas definições e palavras-passe são movidas diretamente deste computador para o seu telefone. Nada é enviado ou armazenado nos servidores da Mozilla.
+qr-export-screen-privacy-tip = <strong>Dica:</strong> Mantenha o seu ecrã escondido de outros enquanto o código QR é apresentado.
 qr-export-security-legend = Segurança
 qr-export-include-passwords = Incluir todas as palavras-passe das contas
 qr-export-oauth-warning = Algumas das suas contas utilizam um método de autenticação que pode requerer uma reautenticação no seu dispositivo móvel. Pode necessitar de introduzir novamente as suas palavras-passe durante este processo.
