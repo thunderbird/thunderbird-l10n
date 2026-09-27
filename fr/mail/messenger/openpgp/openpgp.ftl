@@ -214,7 +214,7 @@ openpgp-key-man-add-pqc =
     .accesskey = G
 # Do not translate: PQC
 openpgp-pqc-confirm-generate = Générer une sous-clé de chiffrement à l’aide de la cryptographie post-quantique (PQC) ? La génération peut prendre plusieurs minutes.
-openpgp-pqc-generate-failed = La sous-clé de chiffrement PQC n’a pas pu être générée.
+openpgp-pqc-generate-failed = Impossible de générer la sous-clé de chiffrement PQC.
 openpgp-key-man-ignored-ids =
     .label = Adresses e-mail
 openpgp-key-man-del-key =

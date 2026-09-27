@@ -14,4 +14,4 @@ policy-value = Valeur de la politique
 policy-errors = Erreurs de politique
 # Shown under the name of a policy in the Active list when at least one of the
 # operations of that policy failed to apply. The Errors tab has the details.
-policy-not-fully-applied = Pas entièrement appliqué
+policy-not-fully-applied = Application partielle

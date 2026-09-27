@@ -72,29 +72,29 @@ calendar-dialog-delete-reminder-button =
     .alt = Supprimer le rappel
 calendar-dialog-add-reminder-button = Ajouter un rappel
 calendar-dialog-reminder-select =
-    .aria-label = Sélectionner la durée d’un nouveau rappel
+    .aria-label = Choisir la durée du nouveau rappel
 calendar-dialog-save-reminder-button = Enregistrer
 calendar-dialog-reminder-event-start = 0 minutes avant
 # Variables:
 #  $count (Number): Number of minutes before the event.
 calendar-dialog-reminder-minutes-before =
     { $count ->
-        [one] { $count } minute avant
-       *[other] { $count } minutes avant
+        [one] { $count } minute avant
+       *[other] { $count } minutes avant
     }
 # Variables:
 #  $count (Number): Number of hours before the event.
 calendar-dialog-reminder-hours-before =
     { $count ->
-        [one] { $count } heure avant
-       *[other] { $count } heures avant
+        [one] { $count } heure avant
+       *[other] { $count } heures avant
     }
 # Variables:
 #  $count (Number): Number of days before the event.
 calendar-dialog-reminder-days-before =
     { $count ->
-        [one] { $count } jour avant
-       *[other] { $count } jours avant
+        [one] { $count } jour avant
+       *[other] { $count } jours avant
     }
 calendar-dialog-reminder-week-before = 1 semaine avant
 # Variables:
