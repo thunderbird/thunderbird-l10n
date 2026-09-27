@@ -1322,6 +1322,11 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Palavras-passe incluídas
 qr-export-summary-passwords-excluded = Palavras-passe excluídas
 qr-export-more-accounts = Exportar mais contas
+qr-export-pane-header-mobile = Exportar para o { -brand-product-name } para dispositivos móveis
+qr-export-description-email-accounts = Transfira as suas contas de e-mail deste computador para o { -brand-product-name } no seu telemóvel usando um código QR.
+qr-export-get-app-google-play = <a data-l10n-name="app-link">Obtenha o { -brand-product-name } no Google Play</a>
+qr-export-select-accounts-title = Selecione as contas a exportar:
+qr-export-missing-accounts-support = Falta uma conta? As contas que não são suportadas no { -brand-product-name } para Android não podem ser selecionadas. <a data-l10n-name="account-support-link">Saiba que tipos de conta são suportados</a>
 
 ## Appearance Tab
 
