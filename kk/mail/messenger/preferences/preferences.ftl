@@ -640,6 +640,11 @@ add-file-type-label =
 extension-label =
     .label = файл атына кеңейтуді қосу
     .accesskey = е
+forward-messages-label =
+    .value = Хабарламаларды келесідей қайта бағыттау:
+    .accesskey = й
+forward-inline-label =
+    .label = Хабарлама ішінде (жолішілік)
 
 ## Note: This will concatenate to "Auto Save every [___] minutes",
 ## using (auto-save-label) and a number (auto-save-end).
@@ -703,6 +708,13 @@ compose-format-automatic-option =
 compose-format-automatic-description = Егер стильдерді (жуан немесе сілтемелер сияқты) қоссаңыз, пішімделген мәтінді, қоспасаңыз, жай мәтінді жіберу.
 compose-format-both-option =
     .label = Пішімделген мәтін (HTML) және жай мәтін (екеуін де)
+compose-format-both-description = Алушының эл. пошта қолданбасы қайсысын көрсетуді таңдай алуы үшін әрқашан екі нұсқаны да жібереді.
+compose-format-html-option =
+    .label = Тек пішімделген мәтін (HTML)
+compose-format-html-description = Пайдаланушылық қаріптерді, түстерді және суреттерді сақтайды, бірақ кейбір ескі эл. пошта қолданбалары оны дұрыс көрсетпеуі мүмкін.
+compose-format-plain-option =
+    .label = Тек қарапайым мәтін
+compose-format-plain-description = Барлық пішімдеуді, түстерді және суреттерді өшіреді. Барлық жерде жұмыс істейтін қарапайым мәтіндік хаттар үшін ең жақсы.
 directory-server-label =
     .label = Каталогтар сервері
     .accesskey = К
@@ -806,6 +818,13 @@ global-privacy-control-description =
     .label = Веб-сайттарға менің деректерімді сатпауды немесе олармен бөліспеуді айту
     .accesskey = п
 do-not-track-removal = Біз енді «Мені бақыламау» сигналын қолдамаймыз
+view-saved-passwords-button =
+    .label = Сақталған парольдерді қарау…
+    .accesskey = С
+primary-password-session-description = Басты пароль барлық парольдерді қорғайды және сеансына бір рет енгізіледі.
+use-primary-password-label =
+    .label = Басты парольді қолдану
+    .accesskey = у
 do-not-track-label =
     .label = Сайттарға "Мені бақыламау" сигналын жіберу арқылы сіз өзіңізді бақыламауды қалайтыныңыз туралы хабарлау
     .accesskey = н
@@ -1211,6 +1230,8 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Парольдермен қоса
 qr-export-summary-passwords-excluded = Парольдерсіз
 qr-export-more-accounts = Көбірек тіркелгілерді экспорттау
+qr-export-select-accounts-title = Экспорттау үшін тіркелгілерді таңдаңыз:
+qr-export-missing-accounts-support = Тіркелгі жоқ па? Android үшін { -brand-product-name } ішінде қолдау көрсетілмейтін тіркелгілерді таңдау мүмкін емес. <a data-l10n-name="account-support-link">Қандай тіркелгі түрлеріне қолдау көрсетілетінін біліңіз</a>
 
 ## Appearance Tab
 
