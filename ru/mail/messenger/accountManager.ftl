@@ -34,6 +34,7 @@ outgoing-server-section-name = Сервер исходящей почты
 outgoing-server-settings-title = Параметры сервера исходящей почты
 outgoing-server-settings-description = При настройке ваших адресов электронной почты вы можете использовать сервер из этого списка, выбрав его в качестве Сервера исходящей почты, или же вы можете использовать сервер по умолчанию из этого списка, выбрав «Использовать сервер по умолчанию».
 outgoing-server-type = Тип сервера:
+panel-manage-spam = Управление спамом
 panel-settings-spam = Параметры спама
 # Variables:
 # $account (String) - The account name.
