@@ -234,10 +234,10 @@ openpgp-key-man-refresh-online =
     .accesskey = d
 # Do not translate: PQC
 openpgp-key-man-add-pqc =
-    .label = Cynhyrchu Iskey Amgryptio PQC
+    .label = Cynhyrchu Isallwedd Amgryptio PQC
     .accesskey = C
 # Do not translate: PQC
-openpgp-pqc-confirm-generate = Cynhyrchu subkey amgryptio gan ddefnyddio cryptograffeg ôl-cwantwm (PQC)? Gall cynhyrchu gymryd sawl munud.
+openpgp-pqc-confirm-generate = Cynhyrchu isallwedd amgryptio gan ddefnyddio cryptograffeg ôl-cwantwm (PQC)? Gall y cynhyrchu gymryd sawl munud.
 openpgp-pqc-generate-failed = Nid oedd modd cynhyrchu'r isbysell amgryptio PQC.
 openpgp-key-man-ignored-ids =
     .label = Cyfeiriadau e-bost
