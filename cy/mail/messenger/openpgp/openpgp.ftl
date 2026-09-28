@@ -238,7 +238,7 @@ openpgp-key-man-add-pqc =
     .accesskey = C
 # Do not translate: PQC
 openpgp-pqc-confirm-generate = Cynhyrchu isallwedd amgryptio gan ddefnyddio cryptograffeg ôl-cwantwm (PQC)? Gall y cynhyrchu gymryd sawl munud.
-openpgp-pqc-generate-failed = Nid oedd modd cynhyrchu'r isbysell amgryptio PQC.
+openpgp-pqc-generate-failed = Doedd dim modd cynhyrchu'r isallwedd amgryptio PQC.
 openpgp-key-man-ignored-ids =
     .label = Cyfeiriadau e-bost
 openpgp-key-man-del-key =
@@ -356,7 +356,7 @@ openpgp-passphrase-instruction-primary-password = Fel arall, diogelwch yr allwed
 openpgp-passphrase-instruction-user-passphrase = Datglowch yr allwedd hon i newid ei ddiogelwch.
 openpgp-passphrase-unlock = Datgloi
 openpgp-passphrase-unlocked = Datglowyd yr allwedd yn llwyddiannus.
-openpgp-passphrase-unlock-failed = Nid oedd modd datgloi'r allwedd, neu is-rannau'r allwedd.
+openpgp-passphrase-unlock-failed = Nid oedd modd datgloi'r allwedd, neu is-rannau'r allwedd
 openpgp-remove-protection = Tynnu diogelwch cyfrinymadrodd
 openpgp-use-primary-password = Tynnu cyfrinymadrodd a'i ddiogelu gyda Phrif Gyfrinair
 openpgp-passphrase-new = Cyfrinymadrodd newydd

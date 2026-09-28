@@ -57,9 +57,9 @@ privacy-main-header = Preifatrwydd
 privacy-passwords-header = Cyfrineiriau
 privacy-spam-header = Sbam
 collection-improve-header = Data a gasglwyd i wella { -brand-short-name }
-collection-community-description = Mae { -brand-short-name } wedi'i adeiladu gan gymuned fyd-eang. Mae rhannu data perfformiad dienw yn ein helpu i drwsio chwilod yn gyflymach a gwneud yr ap yn gyflymach i bawb.
+collection-community-description = Mae { -brand-short-name } wedi'i adeiladu gan gymuned fyd-eang. Mae rhannu data perfformiad dienw yn ein helpu i drwsio materion yn gynt a gwneud yr ap yn gynt i bawb.
 collection-privacy-policy = Darllenwch ei polisi preifatrwydd
-collection-data-sharing-off = <strong>Rhannu data wedi'i ddiffodd.</strong> Bydd data defnydd blaenorol yn cael ei ddileu'n barhaol o weinyddion { -vendor-short-name } o fewn 30 diwrnod.
+collection-data-sharing-off = <strong>Mae rhannu data wedi'i ddiffodd.</strong> Bydd data defnydd blaenorol yn cael ei ddileu'n barhaol o weinyddion { -vendor-short-name } o fewn 30 diwrnod.
 privacy-junk-header = Sbam
 collection-header = Casglu a Defnyddio Data { -brand-short-name }
 collection-description = Rydym yn ceisio darparu dewisiadau i chi a chasglu dim ond beth sydd ei angen arnom i ddarparu a gwella { -brand-short-name } ar gyfer pawb. Rydym yn gofyn caniatâd bob tro cyn derbyn manylion personol.
@@ -67,7 +67,7 @@ collection-privacy-notice = Hysbysiad Preifatrwydd
 collection-health-report-telemetry-disabled = Nid ydych bellach yn caniatáu i { -vendor-short-name } ddal data technegol a rhyngweithiol. Bydd holl ddata'r gorffennol yn cael ei ddileu cyn pen 30 diwrnod.
 collection-health-report-telemetry-disabled-link = Dysgu rhagor
 collection-share-performance =
-    .label = Rhannu data perfformiad dienw â { -vendor-short-name }
+    .label = Rhannu data perfformiad dienw gyda { -vendor-short-name }
     .accesskey = R
 collection-share-performance-description = (Yn cynnwys gwybodaeth dechnegol sylfaenol fel eich system weithredu, defnydd cof, a gweithgaredd nodwedd. Nid yw { -brand-short-name } byth yn casglu cynnwys e-bost, cysylltiadau na negeseuon personol.)
 collection-health-report =
@@ -1267,8 +1267,8 @@ qr-export-select-all-accounts = Dewis y cyfan
 qr-export-passwords-legend = Cyfrineiriau
 qr-export-include-passwords-label = Cynhwyswch gyfrineiriau cyfrif yn y cod QR
 qr-export-web-sign-in-note = <strong>Sylwer:</strong> Mae cyfrifon sy'n defnyddio mewngofnodi gwe (fel Gmail neu Yahoo), angen eu dilysu eto ar eich dyfais.
-qr-export-private-transfer-note = <strong>Trosglwyddo preifat:</strong> Mae eich gosodiadau a'ch cyfrineiriau'n symud yn syth o'r cyfrifiadur hwn i'ch ffôn. Nid oes dim yn cael ei anfon at weinyddion Mozilla na'i storio arnynt.
-qr-export-screen-privacy-tip = <strong>Awgrym:</strong> Cadwch eich sgrin yn gudd rhag eraill tra bod y cod QR yn cael ei ddangos.
+qr-export-private-transfer-note = <strong>Trosglwyddo preifat:</strong> Mae eich gosodiadau a'ch cyfrineiriau'n symud yn syth o'r cyfrifiadur hwn i'ch ffôn. Does dim yn cael eu hanfon at weinyddion Mozilla na'u cadw.
+qr-export-screen-privacy-tip = <strong>Awgrym:</strong> Cadwch eich sgrin yn gudd rhag pobl eraill pan mae'r cod QR yn cael ei ddangos.
 qr-export-security-legend = Diogelwch
 qr-export-include-passwords = Cynnwys gyfrineiriau pob cyfrif
 qr-export-oauth-warning = Mae rhai o'ch cyfrifon yn defnyddio dull dilysu a allai fod angen ei ail-ddilysu ar eich dyfais symudol. Efallai y bydd angen i chi roi'ch cyfrineiriau eto yn ystod y broses hon.
@@ -1334,11 +1334,11 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Cyfrineiriau wedi'u cynnwys
 qr-export-summary-passwords-excluded = Cyfrineiriau wedi'u heithrio
 qr-export-more-accounts = Allforio rhagor o gyfrifon
-qr-export-pane-header-mobile = Allforio i { -brand-product-name } ffôn symudol
+qr-export-pane-header-mobile = Allforio i ffôn symudol { -brand-product-name }
 qr-export-description-email-accounts = Trosglwyddwch eich cyfrifon e-bost o'r cyfrifiadur hwn i { -brand-product-name } ar eich ffôn gan ddefnyddio cod QR.
 qr-export-get-app-google-play = <a data-l10n-name="app-link">Cael { -brand-product-name } ar Google Play</a>
 qr-export-select-accounts-title = Dewiswch gyfrifon i'w hallforio:
-qr-export-missing-accounts-support = Ar goll cyfrif? Nid oes modd dewis cyfrifon nad ydynt yn cael eu cefnogi ar { -brand-product-name } ar gyfer Android. <a data-l10n-name="account-support-link">Dysgu pa fathau o gyfrifon sy'n cael eu cefnogi</a>
+qr-export-missing-accounts-support = Wedi colli cyfrif? Does dim modd dewis cyfrifon nad ydyn nhw'n cael eu cefnogi ar { -brand-product-name } ar gyfer Android. <a data-l10n-name="account-support-link">Deall pa fathau o gyfrifon sy'n cael eu cefnogi</a>
 
 ## Appearance Tab
 
