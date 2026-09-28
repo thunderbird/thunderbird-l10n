@@ -213,7 +213,7 @@ openpgp-key-man-add-pqc =
     .label = Genera sottochiave di crittografia PQC
     .accesskey = G
 # Do not translate: PQC
-openpgp-pqc-confirm-generate = Generare una sottochiave di crittografia utilizzando la crittografia post-quantistica (PQC)? La generazione potrebbe richiedere alcuni minuti.
+openpgp-pqc-confirm-generate = Generare una sottochiave utilizzando la crittografia post-quantistica (PQC)? Il completamento del processo di generazione potrebbe richiedere alcuni minuti.
 openpgp-pqc-generate-failed = Impossibile generare la sottochiave di crittografia PQC.
 openpgp-key-man-ignored-ids =
     .label = Indirizzi email
