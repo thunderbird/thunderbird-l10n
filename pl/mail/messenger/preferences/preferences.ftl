@@ -57,7 +57,7 @@ privacy-main-header = Prywatność
 privacy-passwords-header = Hasła
 privacy-spam-header = Niechciana poczta
 collection-improve-header = Zebrane dane w celu ulepszenia programu { -brand-short-name }
-collection-community-description = { -brand-short-name } powstaje dzięki globalnej społeczności. Udostępniając anonimowe dane o  wydajności, pomagasz nam szybciej usuwać błędy i przyspieszać wszystkim działanie programu.
+collection-community-description = { -brand-short-name } powstaje dzięki globalnej społeczności. Udostępniając anonimowe dane o wydajności, pomagasz nam szybciej usuwać błędy i przyspieszać wszystkim działanie programu.
 collection-privacy-policy = Poznaj nasze zasady ochrony prywatności
 collection-data-sharing-off = <strong>Udostępnianie danych jest wyłączone.</strong> Dane dotyczące wcześniejszego wykorzystania zostaną trwale usunięte z serwerów programu { -vendor-short-name } w ciągu 30 dni.
 privacy-junk-header = Niechciana poczta
@@ -992,7 +992,7 @@ security-devices-button =
     .accesskey = U
 email-e2ee-header = Szyfrowanie „end-to-end” wiadomości
 account-settings = Ustawienia konta
-email-e2ee-accounts-info = Zaszyfrowane wiadomości e-mail mogą odczytać wyłącznie ich nadawca i odbiorcy. Skonfiguruj konta i tożsamości pocztowe na potrzeby szyfrowania typu „end-to-end” w sekcji <a data-l10n-name="account-settings-url">Ustawienia konta</a>.
+email-e2ee-accounts-info = Zaszyfrowane wiadomości e-mail mogą odczytać wyłącznie ich nadawca i odbiorcy. Skonfiguruj konta i tożsamości pocztowe na potrzeby szyfrowania „end-to-end” w <a data-l10n-name="account-settings-url">ustawieniach konta</a>.
 email-e2ee-enable-accounts-info = Skonfiguruj konta e-mail i tożsamości do szyfrowania „end-to-end” w <a data-l10n-name="account-settings-url">ustawieniach konta</a>.
 email-e2ee-enable-info = Skonfiguruj konta e-mail i tożsamości do szyfrowania „end-to-end” w ustawieniach konta.
 email-e2ee-automatism = Automatyczne używanie szyfrowania
