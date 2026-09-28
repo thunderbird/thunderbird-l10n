@@ -928,7 +928,7 @@ scam-detection-label =
     .accesskey = A
 antivirus-check-description = Permet aux logiciels antivirus de vérifier les messages entrants individuellement avant qu’ils ne soient enregistrés sur votre ordinateur.
 antivirus-isolate-label =
-    .label = Autoriser le logiciel antivirus à isoler les e-mails entrants infectés
+    .label = Autoriser les logiciels antivirus à mettre en quarantaine les e-mails entrants infectés
     .accesskey = A
 certificate-verify-description = Lorsqu’un serveur demande un certificat pour vérifier votre identité :
 certificate-choose-auto =
@@ -992,7 +992,7 @@ security-devices-button =
     .accesskey = P
 email-e2ee-header = Chiffrement de bout en bout des e-mails
 account-settings = Paramètres du compte
-email-e2ee-accounts-info = Les courriels chiffrés ne peuvent être lus que par vous et vos destinataires. Configurez les comptes de messagerie et les identités pour le chiffrement de bout en bout dans les <a data-l10n-name="account-settings-url">paramètres des comptes</a>.
+email-e2ee-accounts-info = Seuls vous et vos destinataires pouvez lire les e-mails chiffrés. Configurez les comptes de messagerie et les identités pour le chiffrement de bout en bout dans les <a data-l10n-name="account-settings-url">paramètres du compte</a>.
 email-e2ee-enable-accounts-info = Configurez les comptes de messagerie et les identités pour le chiffrement de bout en bout dans les <a data-l10n-name="account-settings-url">paramètres des comptes</a>.
 email-e2ee-enable-info = Configurez les comptes de messagerie et les identités pour le chiffrement de bout en bout dans les paramètres des comptes.
 email-e2ee-automatism = Utilisation automatique du chiffrement
@@ -1017,7 +1017,7 @@ email-e2ee-automatism-post =
 email-content = Contenu des e-mails
 remote-content-images-label =
     .label = Autoriser le contenu distant (images et styles)
-    .accesskey = A
+    .accesskey = d
 
 ## DoH Section
 
@@ -1044,7 +1044,7 @@ preferences-doh-expand-section =
 preferences-doh-setting-automatic =
     .label = Protection automatique (recommandé)
     .accesskey = P
-preferences-doh-automatic-desc = { -brand-short-name } chiffre automatiquement les recherches d’adresses lorsqu’elles sont disponibles. Revient à des recherches réseau standard s’il y a un problème de connexion ou si un réseau VPN/administré le nécessite.
+preferences-doh-automatic-desc = { -brand-short-name } chiffre automatiquement les recherches d’adresses lorsque cela est possible. En cas de problème de connexion ou si un VPN ou un réseau administré l’exige, les recherches réseau standard sont rétablies.
 preferences-doh-setting-default =
     .label = Protection par défaut
     .accesskey = P
@@ -1057,14 +1057,14 @@ preferences-doh-default-detailed-desc-5 = Désactiver lorsqu’un réseau indiqu
 preferences-doh-setting-enabled =
     .label = Protection renforcée
     .accesskey = P
-preferences-doh-increased-desc = Utilise toujours le fournisseur choisi. Utiliser une connexion standard uniquement si le fournisseur sécurisé échoue.
+preferences-doh-increased-desc = Utilise toujours le fournisseur sélectionné. Ne recourt à une connexion standard qu’en cas d’échec du fournisseur sécurisé.
 preferences-doh-enabled-desc = Vous contrôlez le recours au DNS sécurisé et choisissez votre fournisseur.
 preferences-doh-enabled-detailed-desc-1 = Utiliser le fournisseur que vous avez sélectionné
 preferences-doh-enabled-detailed-desc-2 = Utiliser votre serveur DNS par défaut uniquement s’il y a un problème avec le DNS sécurisé
 preferences-doh-setting-maximum =
     .label = Protection maximale
     .accesskey = P
-preferences-doh-maximum-desc = Nécessite strictement un DNS chiffré. Les sites web ne se chargeront pas en cas d’échec de la connexion sécurisée.
+preferences-doh-maximum-desc = Exige impérativement un DNS chiffré. Les sites web ne se chargeront pas en cas d’échec de la connexion sécurisée.
 preferences-doh-setting-strict =
     .label = Protection maximale
     .accesskey = P
