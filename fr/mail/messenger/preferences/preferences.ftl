@@ -845,7 +845,7 @@ cookies-button =
 # included to facilitate power-user search of the about:preferences page.
 global-privacy-control-search = Global Privacy Control (GPC)
 global-privacy-control-label =
-    .label = Demandez aux sites web de ne pas vendre ni partager de données personnelles
+    .label = Demander aux sites web de ne pas vendre ni partager mes données personnelles
     .accesskey = D
 global-privacy-control-description =
     .label = Demander aux sites web de ne pas vendre ni partager mes données
@@ -938,8 +938,8 @@ certificate-ask-every =
     .label = Demander à chaque fois
     .accesskey = D
 ocsp-check-label =
-    .label = Vérifiez les serveurs de validation de certificats (OCSP) pour vous assurer que les certificats sont toujours corrects.
-    .accesskey = V
+    .label = Interroger les serveurs de validation des certificats (OCSP) pour vérifier que les certificats sont toujours valides.
+    .accesskey = v
 junk-description = Définir les paramètres par défaut des indésirables. Les paramètres pour les indésirables propres à chaque compte peuvent être configurés dans le menu  « Paramètres des comptes… ».
 junk-marked-label =
     .label = Lorsque des messages sont marqués comme indésirables :
@@ -1014,7 +1014,7 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     Les décisions automatiques peuvent être outrepassées en activant ou désactivant manuellement le chiffrement lors de la rédaction d’un message.
     Remarque : le chiffrement est toujours activé automatiquement lorsque vous répondez à un message chiffré.
-email-content = Contenu de l’e-mail
+email-content = Contenu des e-mails
 remote-content-images-label =
     .label = Autoriser le contenu distant (images et styles)
     .accesskey = A
@@ -1042,7 +1042,7 @@ preferences-doh-group-message = Activer le DNS via HTTPS en utilisant :
 preferences-doh-expand-section =
     .tooltiptext = Plus d’informations
 preferences-doh-setting-automatic =
-    .label = Protection automatique (recommandée)
+    .label = Protection automatique (recommandé)
     .accesskey = P
 preferences-doh-automatic-desc = { -brand-short-name } chiffre automatiquement les recherches d’adresses lorsqu’elles sont disponibles. Revient à des recherches réseau standard s’il y a un problème de connexion ou si un réseau VPN/administré le nécessite.
 preferences-doh-setting-default =
@@ -1088,7 +1088,7 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = Personnalisé
     .accesskey = P
-preferences-doh-secure-header = DNS sécurisés (DNS via HTTPS)
+preferences-doh-secure-header = DNS sécurisé (DNS via HTTPS)
 preferences-doh-secure-description = Le DNS sécurisé chiffre les requêtes envoyées par { -brand-short-name } pour trouver des sites web, ce qui protège votre navigation de toute surveillance du réseau.
 
 ## Keyservers
@@ -1265,7 +1265,7 @@ qr-export-no-accounts = Vous ne voyez pas tous vos comptes ? Certains comptes p
 qr-export-accounts-legend = Comptes de messagerie
 qr-export-select-all-accounts = Tout sélectionner
 qr-export-passwords-legend = Mots de passe
-qr-export-include-passwords-label = Inclure les mots de passe du compte dans le code QR
+qr-export-include-passwords-label = Inclure les mots de passe des comptes dans le code QR
 qr-export-web-sign-in-note = <strong>Remarque :</strong> les comptes qui utilisent la connexion sur le Web (comme Gmail ou Yahoo) nécessitent à nouveau une authentification sur votre appareil.
 qr-export-private-transfer-note = <strong>Transfert privé :</strong> vos paramètres et mots de passe sont directement transférés de cet ordinateur vers votre téléphone. Rien n’est envoyé ou stocké sur les serveurs de Mozilla.
 qr-export-screen-privacy-tip = <strong>Conseil :</strong> Gardez votre écran caché des autres pendant que le code QR est affiché.
