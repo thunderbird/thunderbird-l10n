@@ -4,7 +4,7 @@
 
 offline-dialog-title = Paramètres hors connexion
 autodetect-connection-label =
-    .label = Changer automatiquement de mode lorsqu’une connexion Internet est trouvée
+    .label = Changer automatiquement de mode lorsqu’une connexion Internet est détectée
     .accesskey = C
 offline-startup-label = Lors de l’ouverture de { -brand-short-name } :
 status-radio-last-used =

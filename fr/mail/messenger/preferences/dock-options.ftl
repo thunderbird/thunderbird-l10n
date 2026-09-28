@@ -31,4 +31,4 @@ count-new-messages-radio =
     .label = Le nombre de nouveaux messages
     .accesskey = n
 notification-settings-info2 = Vous pouvez désactiver la pastille depuis le panneau Notifications situé dans les paramètres système.
-dock-icon-notification-dialog-title = Paramètres des notifications par les icônes d’application
+dock-icon-notification-dialog-title = Paramètres des notifications sur l’icône de l’application

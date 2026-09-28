@@ -13,7 +13,7 @@ fonts-character-set-legend =
     .value = Jeu de caractères :
     .accesskey = J
 font-main-style-label =
-    .value = Style de police principal :
+    .value = Style de la police principale :
     .accesskey = S
 fonts-language-legend =
     .value = Polices pour :
@@ -101,7 +101,7 @@ font-serif-label =
     .value = Serif :
     .accesskey = S
 sans-serif-font-label =
-    .value = Police sans sérif :
+    .value = Police sans empattement :
     .accesskey = P
 font-sans-serif-label =
     .value = Sans serif :
@@ -129,7 +129,7 @@ allow-incoming-fonts-checkbox =
     .label = Autoriser les messages entrants à utiliser leurs propres polices
     .accesskey = A
 display-fixed-width-plain-checkbox =
-    .label = Afficher les messages texte bruts avec une police à largeur fixe
+    .label = Afficher les messages en texte simple avec une police à largeur fixe
     .accesskey = A
 
 ## Language settings
