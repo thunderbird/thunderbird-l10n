@@ -10,6 +10,7 @@ window-focus-search-alt-key =
 filter-search-label =
     .value = Išči:
     .accesskey = š
+cookies-stored-label = Piškotki so shranjeni na tem računalniku
 cookies-on-system-label = Na vašem računalniku so shranjeni naslednji piškotki:
 treecol-site-header =
     .label = Stran

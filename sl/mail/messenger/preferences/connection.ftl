@@ -22,6 +22,7 @@ disable-extension-button = Onemogoči razširitev
 # The extension-icon is the extension's icon, or a fallback image. It should be
 # purely decoration for the actual extension name, with alt="".
 proxy-settings-controlled-by-extension = Razširitev <img data-l10n-name="extension-icon" alt="" /> { $name } nadzira { -brand-short-name }ovo povezovanje z internetom.
+connection-internet-proxy-legend = Internetna povezava in posredniški strežnik
 connection-proxy-legend = Nastavitve posrednika za dostop do interneta
 proxy-type-no =
     .label = Brez posrednika

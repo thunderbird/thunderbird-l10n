@@ -9,12 +9,19 @@ fonts-label-default =
     .label = Privzeta ({ $name })
 fonts-label-default-unnamed =
     .label = Privzeta
+fonts-character-set-legend =
+    .value = Nabor znakov:
+    .accesskey = z
+font-main-style-label =
+    .value = Glavni slog pisave:
+    .accesskey = G
 fonts-language-legend =
     .value = Pisave za:
     .accesskey = P
 fonts-proportional-label =
     .value = Večširinska pisava:
     .accesskey = S
+text-font-options-dialog-title = Možnosti besedila in pisave
 
 ## Languages
 
@@ -93,6 +100,9 @@ font-size-monospace-label =
 font-serif-label =
     .value = Serif:
     .accesskey = r
+sans-serif-font-label =
+    .value = Brezserifna pisava:
+    .accesskey = n
 font-sans-serif-label =
     .value = Sans-serif:
     .accesskey = a
@@ -114,6 +124,13 @@ use-document-fonts-checkbox =
 use-fixed-width-plain-checkbox =
     .label = Za sporočila v golem besedilu uporabi enoširinsko pisavo
     .accesskey = Z
+message-font-permissions-legend = Dovoljenja za pisave v sporočilih
+allow-incoming-fonts-checkbox =
+    .label = Dohodnim sporočilom dovoli uporabo lastnih pisav
+    .accesskey = o
+display-fixed-width-plain-checkbox =
+    .label = Sporočila z golim besedilom prikaži v enakoširinski pisavi
+    .accesskey = g
 
 ## Language settings
 

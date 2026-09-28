@@ -3,6 +3,16 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 offline-dialog-title = Nastavitve za stanje brez povezave
+going-offline-prompt = Ali želite sporočila prenesti za branje brez povezave?
+going-offline-download =
+    .label = Da, prenesi samodejno
+    .accesskey = D
+going-offline-keep =
+    .label = Ne, ne prenesi
+    .accesskey = N
+going-offline-ask-download =
+    .label = Vprašaj pred prenosom
+    .accesskey = V
 autodetect-online-label =
     .label = Samodejno zaznavaj, ali je povezava vzpostavljena
     .accesskey = m
