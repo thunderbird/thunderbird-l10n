@@ -639,7 +639,7 @@ header-spam-button =
 
 mark-as-read-action = Marcio fel wedi ei Darllen
 delete-action = Dileu
-mark-as-starred-action = Marciwch fel Serennog
+mark-as-starred-action = Marcio fel Serennog
 mark-as-spam-action = Marcio fel Sbam
 archive-action = Archifo
 
