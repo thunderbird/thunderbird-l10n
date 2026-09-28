@@ -28,7 +28,7 @@
 <!ENTITY selectAndQuote.label "dewis y dyfyniad">
 <!ENTITY place.label "a gosod fy llofnod">
 <!ENTITY place.accesskey "l">
-<!ENTITY belowText.label "islaw'r dyfyniad (argymhellir)">
+<!ENTITY belowText.label "islaw'r dyfyniad (argymell)">
 <!ENTITY aboveText.label "o dan fy ateb (uwchlaw'r dyfyniad)">
 <!ENTITY includeSigOnReply.label "Cynnwys llofnod mewn atebion">
 <!ENTITY includeSigOnReply.accesskey "a">
