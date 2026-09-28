@@ -1268,7 +1268,7 @@ qr-export-passwords-legend = Mots de passe
 qr-export-include-passwords-label = Inclure les mots de passe des comptes dans le code QR
 qr-export-web-sign-in-note = <strong>Remarque :</strong> les comptes utilisant une connexion web (comme Gmail ou Yahoo) exigent une nouvelle authentification sur votre appareil.
 qr-export-private-transfer-note = <strong>Transfert privé :</strong> vos paramètres et mots de passe sont directement transférés de cet ordinateur vers votre téléphone. Rien n’est envoyé ou stocké sur les serveurs de Mozilla.
-qr-export-screen-privacy-tip = <strong>Conseil :</strong> Gardez votre écran caché des autres pendant que le code QR est affiché.
+qr-export-screen-privacy-tip = <strong>Conseil :</strong> veillez à ce que personne d’autre ne regarde votre écran lorsque le code QR est affiché.
 qr-export-security-legend = Sécurité
 qr-export-include-passwords = Inclure tous les mots de passe des comptes
 qr-export-oauth-warning = Certains de vos comptes utilisent une méthode d’authentification qui peut exiger une nouvelle authentification sur votre appareil mobile. Vous devrez peut-être saisir à nouveau vos mots de passe au cours de ce processus.
@@ -1318,14 +1318,14 @@ qr-export-pane-header-mobile = Exportation vers { -brand-product-name } mobile
 qr-export-description-email-accounts = Transférez vos comptes de messagerie depuis cet ordinateur vers { -brand-product-name } sur votre téléphone en utilisant un code QR.
 qr-export-get-app-google-play = <a data-l10n-name="app-link">Obtenir { -brand-product-name } sur Google Play</a>
 qr-export-select-accounts-title = Sélectionnez les comptes à exporter :
-qr-export-missing-accounts-support = Compte manquant ? Les comptes qui ne sont pas pris en charge par { -brand-product-name } pour Android ne peuvent pas être sélectionnés. <a data-l10n-name="account-support-link">Découvrez quels types de comptes sont pris en charge</a>
+qr-export-missing-accounts-support = Un compte n’apparaît pas ? Les comptes non compatibles avec { -brand-product-name } pour Android ne peuvent pas être sélectionnés. <a data-l10n-name="account-support-link">Voir les types de comptes compatibles</a>
 
 ## Appearance Tab
 
 appearance-category-header = Apparence
 accent-color-legend = Couleur d’accentuation
 accent-color-selection-label =
-    .value = Choisir la couleur du bouton principal et des surlignages
+    .value = Choisir la couleur des boutons principaux et des éléments en surbrillance
 accent-color-label =
     .value = Définissez la couleur à appliquer aux boutons principaux ainsi qu’aux éléments mis en avant :
 accent-color-os =
@@ -1345,7 +1345,7 @@ accent-color-teal =
 accent-color-disabled-description = Les couleurs d’accentuation ne sont pas prises en charge en mode Contraste élevé.
 default-message-list-legend = Liste des messages
 appearance-view-style-select =
-    .value = Sélectionner le style d’affichage :
+    .value = Choisissez le mode d’affichage :
 appearance-view-style =
     .value = Style d’affichage :
 appearance-radio-table =
