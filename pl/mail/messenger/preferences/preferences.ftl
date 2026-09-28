@@ -992,7 +992,7 @@ security-devices-button =
     .accesskey = U
 email-e2ee-header = Szyfrowanie „end-to-end” wiadomości
 account-settings = Ustawienia konta
-email-e2ee-accounts-info = Zaszyfrowane wiadomości e-mail mogą odczytać wyłącznie ich nadawca i odbiorcy. Skonfiguruj konta i tożsamości pocztowe na potrzeby szyfrowania „end-to-end” w <a data-l10n-name="account-settings-url">ustawieniach konta</a>.
+email-e2ee-accounts-info = Zaszyfrowane wiadomości e-mail mogą odczytać wyłącznie ich nadawca i odbiorcy. Skonfiguruj konta e-mail i tożsamości do szyfrowania „end-to-end” w <a data-l10n-name="account-settings-url">ustawieniach konta</a>.
 email-e2ee-enable-accounts-info = Skonfiguruj konta e-mail i tożsamości do szyfrowania „end-to-end” w <a data-l10n-name="account-settings-url">ustawieniach konta</a>.
 email-e2ee-enable-info = Skonfiguruj konta e-mail i tożsamości do szyfrowania „end-to-end” w ustawieniach konta.
 email-e2ee-automatism = Automatyczne używanie szyfrowania
@@ -1271,7 +1271,7 @@ qr-export-select-all-accounts = Wybierz wszystkie
 qr-export-passwords-legend = Hasła
 qr-export-include-passwords-label = Umieść hasła do kont w kodzie QR
 qr-export-web-sign-in-note = <strong>Uwaga:</strong> konta korzystające z logowania przez Internet (np. Gmail lub Yahoo) wymagają ponownego uwierzytelnienia na Twoim urządzeniu.
-qr-export-private-transfer-note = <strong>Transfer prywatny:</strong> twoje ustawienia i hasła są przesyłane bezpośrednio z tego komputera na telefon. Nic nie jest wysyłane ani przechowywane na serwerach Mozilli.
+qr-export-private-transfer-note = <strong>Transfer prywatny:</strong> ustawienia i hasła są przesyłane bezpośrednio z tego komputera na telefon. Nic nie jest wysyłane ani przechowywane na serwerach Mozilli.
 qr-export-screen-privacy-tip = <strong>Wskazówka:</strong> podczas wyświetlania kodu QR ukryj ekran przed innymi osobami.
 qr-export-security-legend = Bezpieczeństwo
 qr-export-include-passwords = W tym wszystkie hasła do kont
