@@ -10,6 +10,7 @@ window-focus-search-alt-key =
 filter-search-label =
     .value = Keresés:
     .accesskey = K
+cookies-stored-label = A sütik ezen a számítógépen vannak tárolva
 cookies-on-system-label = Az alábbi sütik vannak a számítógépen tárolva:
 treecol-site-header =
     .label = Webhely

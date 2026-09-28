@@ -208,6 +208,13 @@ openpgp-key-man-change-expiry =
 openpgp-key-man-refresh-online =
     .label = Frissítés online
     .accesskey = r
+# Do not translate: PQC
+openpgp-key-man-add-pqc =
+    .label = PQC titkosítási alkulcs előállítása
+    .accesskey = P
+# Do not translate: PQC
+openpgp-pqc-confirm-generate = Előállít egy titkosítási alkulcsot posztkvantum kriptográfia (PQC) használatával? Az előállítás néhány percig tarthat.
+openpgp-pqc-generate-failed = A PQC titkosítási alkulcs nem állítható elő.
 openpgp-key-man-ignored-ids =
     .label = E-mail-címek
 openpgp-key-man-del-key =
@@ -325,6 +332,7 @@ openpgp-passphrase-instruction-primary-password = Vagy védje meg ezt a kulcsot 
 openpgp-passphrase-instruction-user-passphrase = Oldja fel a kulcsot a védelmének módosításához.
 openpgp-passphrase-unlock = Feloldás
 openpgp-passphrase-unlocked = A kulcs feloldása sikeres.
+openpgp-passphrase-unlock-failed = A kulcs vagy a kulcs alárendelt részei nem oldhatók fel.
 openpgp-remove-protection = Jelmondatos védelem eltávolítása
 openpgp-use-primary-password = Jelmondat eltávolítása és védelem elsődleges jelszóval
 openpgp-passphrase-new = Új jelmondat
