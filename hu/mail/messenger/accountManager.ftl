@@ -34,6 +34,7 @@ outgoing-server-section-name = Kimenő kiszolgáló
 outgoing-server-settings-title = Kimenő kiszolgáló beállításai
 outgoing-server-settings-description = Személyazonosságainak kezelésekor ezen lista egyik kiszolgálóját használhatja Kimenő kiszolgálóként kiválasztva, vagy használhatja a lista alapértelmezett kiszolgálóját az „Alapértelmezett kiszolgáló kiválasztása” használatával.
 outgoing-server-type = Kiszolgálótípus:
+panel-manage-spam = Levélszemét kezelése
 panel-settings-spam = Levélszemét-beállítások
 # Variables:
 # $account (String) - The account name.

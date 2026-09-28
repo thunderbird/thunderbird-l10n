@@ -919,6 +919,13 @@ spam-log-button =
 reset-spam-button =
     .label = Tanulási adatok törlése
     .accesskey = T
+certificate-verify-description = Ha a kiszolgáló tanúsítványt kér a személyazonossága ellenőrzéséhez:
+certificate-choose-auto =
+    .label = Tanúsítvány automatikus kiválasztása
+    .accesskey = T
+certificate-ask-every =
+    .label = Kérdezzen rá minden alkalommal
+    .accesskey = K
 junk-description = Az alapértelmezett levélszemét-kezelés beállítása. A postafiókra jellemző levélszemét-kezelés beállításait a Postafiókok beállításai alatt végezheti el.
 junk-marked-label =
     .label = Ha az üzenetek levélszemétként lettek megjelölve:
@@ -986,6 +993,10 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     Az automatikus döntések felülbírálhatók a titkosítás kézi be- vagy kikapcsolásával üzenetíráskor.
     Megjegyzés: a titkosítás mindig automatikusan be van kapcsolva, ha titkosított üzenetre válaszol.
+email-content = E-mail tartalma
+remote-content-images-label =
+    .label = Távoli tartalom engedélyezése (képek és stílusok)
+    .accesskey = T
 
 ## DoH Section
 
