@@ -10,6 +10,7 @@ window-focus-search-alt-key =
 filter-search-label =
     .value = Pytać:
     .accesskey = P
+cookies-stored-label = Placki so na tutym ličaku składuja
 cookies-on-system-label = Slědowace placki su na wašim ličaku składowane:
 treecol-site-header =
     .label = Sydło
