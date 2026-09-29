@@ -1270,6 +1270,9 @@ qr-export-accounts-legend = Conturi de e-mail
 qr-export-select-all-accounts = Selectează tot
 qr-export-passwords-legend = Parole
 qr-export-include-passwords-label = Include parolele contului în codul QR
+qr-export-web-sign-in-note = <strong>Notă:</strong> Conturile care folosesc autentificarea web (cum ar fi Gmail sau Yahoo), necesită încă o autentificare pe dispozitiv.
+qr-export-private-transfer-note = <strong>Transfer privat:</strong> Setările și parolele tale se mută direct de pe acest calculator pe telefon. Nu ajunge nimic și nu este stocat nimic pe serverele Mozilla.
+qr-export-screen-privacy-tip = <strong>Sfat:</strong> Ține-ți ecranul ascuns de alții când este afișat codul QR.
 qr-export-security-legend = Securitate
 qr-export-include-passwords = Include toate parolele conturilor
 qr-export-oauth-warning = Unele conturi utilizează o metodă de autentificare care poate necesita reautentificarea pe dispozitivul mobil. Este posibil să fie nevoie să introduci din nou parolele.
@@ -1322,6 +1325,11 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Parole incluse
 qr-export-summary-passwords-excluded = Parole excluse
 qr-export-more-accounts = Exportă mai multe conturi
+qr-export-pane-header-mobile = Export către { -brand-product-name } pentru dispozitive mobile
+qr-export-description-email-accounts = Transferă-ți conturile de e-mail de pe acest calculator pe { -brand-product-name } de pe telefon folosind un cod QR.
+qr-export-get-app-google-play = <a data-l10n-name="app-link">Descarcă { -brand-product-name } de pe Google Play</a>
+qr-export-select-accounts-title = Selectează conturile de exportat:
+qr-export-missing-accounts-support = Îți lipsește un cont? Conturile care nu au suport pe { -brand-product-name } pentru Android nu pot fi selectate. <a data-l10n-name="account-support-link">Află ce tipuri de conturi sunt acceptate</a>
 
 ## Appearance Tab
 
