@@ -1311,11 +1311,11 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Password incluse
 qr-export-summary-passwords-excluded = Password escluse
 qr-export-more-accounts = Esporta altri account
-qr-export-pane-header-mobile = Esporta su { -brand-product-name } dispositivi mobili
-qr-export-description-email-accounts = Trasferisci i tuoi account di posta elettronica da questo computer a { -brand-product-name } sul tuo telefono utilizzando un codice QR.
+qr-export-pane-header-mobile = Esporta su { -brand-product-name } Mobile
+qr-export-description-email-accounts = Trasferisci i tuoi account di posta elettronica da questo computer all’app di { -brand-product-name } sul tuo dispositivo mobile utilizzando un codice QR.
 qr-export-get-app-google-play = <a data-l10n-name="app-link">Scarica { -brand-product-name } su Google Play</a>
 qr-export-select-accounts-title = Seleziona gli account da esportare:
-qr-export-missing-accounts-support = Manca un account? Non è possibile selezionare account non supportati su { -brand-product-name } per Android. <a data-l10n-name="account-support-link">Scopri quali tipi di account sono supportati</a>
+qr-export-missing-accounts-support = Manca un account? Gli account non supportati da { -brand-product-name } per Android non possono essere selezionati. <a data-l10n-name="account-support-link">Scopri quali tipi di account sono supportati</a>
 
 ## Appearance Tab
 
