@@ -971,7 +971,7 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     Automatische beslissingen kunnen worden opgeheven door versleuteling handmatig in of uit te schakelen bij het opstellen van een bericht.
     Opmerking: versleuteling is altijd automatisch ingeschakeld bij het beantwoorden van een versleuteld bericht.
-email-content = E-mailinhoud
+email-content = E-mailberichtinhoud
 
 ## DoH Section
 
@@ -995,6 +995,9 @@ preferences-doh-status-not-active = Niet actief ({ $reason })
 preferences-doh-group-message = DNS over HTTPS inschakelen via:
 preferences-doh-expand-section =
     .tooltiptext = Meer informatie
+preferences-doh-setting-automatic =
+    .label = Automatische bescherming (Aanbevolen)
+    .accesskey = A
 preferences-doh-setting-default =
     .label = Standaardbescherming
     .accesskey = S
@@ -1257,6 +1260,8 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Wachtwoorden inbegrepen
 qr-export-summary-passwords-excluded = Wachtwoorden niet inbegrepen
 qr-export-more-accounts = Meer accounts exporteren
+qr-export-pane-header-mobile = Naar { -brand-product-name } mobiel exporteren
+qr-export-select-accounts-title = Selecteer te exporteren accounts:
 
 ## Appearance Tab
 

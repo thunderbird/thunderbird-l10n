@@ -937,8 +937,8 @@ certificate-ask-every =
     .label = Chiedi ogni volta
     .accesskey = o
 ocsp-check-label =
-    .label = Controllare i server di convalida dei certificati (OCSP) per verificare che i certificati siano ancora corretti.
-    .accesskey = C
+    .label = Controlla i server di convalida dei certificati (OCSP) per confermare l’attuale validità dei certificati
+    .accesskey = d
 junk-description = Scegliere le impostazioni predefinite per la posta indesiderata. Le impostazioni di posta indesiderata specifiche possono essere configurate nelle Impostazioni account.
 junk-marked-label =
     .label = Quando i messaggi sono contrassegnati come posta indesiderata:
@@ -991,11 +991,11 @@ security-devices-button =
     .accesskey = D
 email-e2ee-header = Crittografia end-to-end delle email
 account-settings = Impostazioni account
-email-e2ee-accounts-info = Le email crittate possono essere lette solo da te e dai tuoi destinatari. Configura account email e identità per la crittografia end-to-end nelle <a data-l10n-name="account-settings-url">Impostazioni account</a>.
+email-e2ee-accounts-info = Le email crittate possono essere lette solamente da te e dai tuoi destinatari. È possibile configurare account e identità per la crittografia end-to-end nelle <a data-l10n-name="account-settings-url">Impostazioni account</a>.
 email-e2ee-enable-accounts-info = Configura account di posta elettronica e identità per la crittografia end-to-end nelle <a data-l10n-name="account-settings-url">Impostazioni account</a>.
 email-e2ee-enable-info = Configura account di posta elettronica e identità per la crittografia end-to-end in Impostazioni account.
 email-e2ee-automatism = Utilizza automaticamente crittografia
-email-e2ee-automatism-intro = { -brand-short-name } può attivare la crittografia se sono disponibili chiavi o certificati accettati validi per tutti i destinatari di un messaggio.
+email-e2ee-automatism-intro = { -brand-short-name } può attivare la crittografia se sono disponibili chiavi o certificati validi e accettati per tutti i destinatari di un messaggio.
 email-e2ee-turn-on =
     .label = Attiva automaticamente la crittografia quando possibile
 email-e2ee-turn-off =
