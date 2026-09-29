@@ -35,3 +35,6 @@ spam-actions-legend = Doel en behoud
 global-spam-preferences-button =
     .label = Algemene spaminstellingen…
     .accesskey = A
+manage-spam-title = Spam beheren
+manage-spam-header =
+    .value = Spam beheren
