@@ -10,6 +10,7 @@ window-focus-search-alt-key =
 filter-search-label =
     .value = Leita:
     .accesskey = L
+cookies-stored-label = Vefkökur eru geymdar á þessari tölvu
 cookies-on-system-label = Eftirfarandi vefkökur eru geymdar á tölvunni þinni:
 treecol-site-header =
     .label = Vefsvæði
