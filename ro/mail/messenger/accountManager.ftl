@@ -34,6 +34,7 @@ outgoing-server-section-name = Server de trimitere a mesajelor
 outgoing-server-settings-title = Setări server de trimitere
 outgoing-server-settings-description = Când îți gestionezi identitățile, poți folosi un server din această listă prin selectarea lui ca server de trimitere sau poți folosi serverul implicit din listă selectând „Folosește serverul implicit”.
 outgoing-server-type = Tip server:
+panel-manage-spam = Gestionează mesajele nedorite
 panel-settings-spam = Setări pentru mesaje nedorite
 # Variables:
 # $account (String) - The account name.

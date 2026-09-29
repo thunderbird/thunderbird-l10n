@@ -208,6 +208,13 @@ openpgp-key-man-change-expiry =
 openpgp-key-man-refresh-online =
     .label = Reîmprospătare online
     .accesskey = R
+# Do not translate: PQC
+openpgp-key-man-add-pqc =
+    .label = Generează subcheia de criptare PQC
+    .accesskey = G
+# Do not translate: PQC
+openpgp-pqc-confirm-generate = Generezi o subcheie de criptare folosind criptografie post-cuantică (PQC)? Poate dura câteva minute.
+openpgp-pqc-generate-failed = Nu a putut fi generată subcheia de criptare PQC.
 openpgp-key-man-ignored-ids =
     .label = Adrese de e-mail
 openpgp-key-man-del-key =
@@ -325,6 +332,7 @@ openpgp-passphrase-instruction-primary-password = Alternativ, protejează cheia 
 openpgp-passphrase-instruction-user-passphrase = Deblochează cheia pentru a-i schimba protecția.
 openpgp-passphrase-unlock = Deblochează
 openpgp-passphrase-unlocked = Cheia a fost deblocată cu succes.
+openpgp-passphrase-unlock-failed = Nu a(u) putut fi deblocată(e) cheia sau părți subordonate ale cheii.
 openpgp-remove-protection = Elimină protecția prin parolă
 openpgp-use-primary-password = Elimină parola și protejeaz-o cu parola primară
 openpgp-passphrase-new = Parolă nouă
