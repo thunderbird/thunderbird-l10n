@@ -991,7 +991,7 @@ security-devices-button =
     .accesskey = D
 email-e2ee-header = Crittografia end-to-end delle email
 account-settings = Impostazioni account
-email-e2ee-accounts-info = Le email crittate possono essere lette solamente da te e dai tuoi destinatari. È possibile configurare account e identità per la crittografia end-to-end nelle <a data-l10n-name="account-settings-url">Impostazioni account</a>.
+email-e2ee-accounts-info = Le email crittate possono essere lette solamente da te e dai tuoi destinatari. È possibile configurare account e identità per la crittografia end-to-end in <a data-l10n-name="account-settings-url">Impostazioni account</a>.
 email-e2ee-enable-accounts-info = Configura account di posta elettronica e identità per la crittografia end-to-end nelle <a data-l10n-name="account-settings-url">Impostazioni account</a>.
 email-e2ee-enable-info = Configura account di posta elettronica e identità per la crittografia end-to-end in Impostazioni account.
 email-e2ee-automatism = Utilizza automaticamente crittografia
