@@ -220,6 +220,10 @@ openpgp-key-man-change-expiry =
 openpgp-key-man-refresh-online =
     .label = Online aktualizować
     .accesskey = O
+# Do not translate: PQC
+openpgp-key-man-add-pqc =
+    .label = Podkluč PQC za zaklučowanje generować
+    .accesskey = P
 openpgp-key-man-ignored-ids =
     .label = E-mejlowe adresy
 openpgp-key-man-del-key =
