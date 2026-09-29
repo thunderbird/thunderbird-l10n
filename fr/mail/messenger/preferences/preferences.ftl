@@ -43,7 +43,7 @@ general-reading-and-display-header = Lecture et affichage
 general-updates-header = Mises à jour
 general-network-and-storage-header = Réseau et stockage
 general-search-performance-label = Recherche et performances
-compose-writing-emails-header = Rédaction d’e-mails
+compose-writing-emails-header = Rédaction des e-mails
 general-network-and-diskspace-header = Réseau et espace disque
 general-indexing-label = Indexation
 composition-category-header = Rédaction
@@ -648,7 +648,7 @@ forward-messages-label =
     .value = Mode de transfert des messages :
     .accesskey = M
 forward-inline-label =
-    .label = Dans le corps du message (intégré)
+    .label = dans le corps du message (intégré)
 
 ## Note: This will concatenate to "Auto Save every [___] minutes",
 ## using (auto-save-label) and a number (auto-save-end).
