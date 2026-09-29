@@ -56,6 +56,7 @@ composition-addressing-header = Adressering
 privacy-main-header = Privacy
 privacy-passwords-header = Wachtwoorden
 privacy-spam-header = Spam
+collection-privacy-policy = Lees ons privacybeleid
 privacy-junk-header = Ongewenste berichten
 collection-header = { -brand-short-name }-gegevensverzameling en -gebruik
 collection-description = We streven ernaar u keuzes te bieden en alleen te verzamelen wat we nodig hebben om { -brand-short-name } voor iedereen beschikbaar te maken en te verbeteren. We vragen altijd toestemming voordat we persoonlijke gegevens ontvangen.
@@ -76,6 +77,7 @@ collection-backlogged-crash-reports-link = Meer info
 privacy-security-header = Beveiliging
 privacy-scam-detection-title = Scamdetectie
 privacy-anti-virus-title = Antivirus
+privacy-security-certificates-title = Beveiligingscertificaten
 privacy-certificates-title = Certificaten
 chat-pane-header = Chat
 chat-status-title = Status
@@ -815,6 +817,7 @@ remote-content-label =
 exceptions-button =
     .label = Uitzonderingen…
     .accesskey = U
+remote-content-privacy-link = Hoe externe inhoud privacy beïnvloedt
 remote-content-privacy-info = Meer info over de privacyproblemen van externe inhoud
 remote-content-info =
     .value = Meer info over de privacyproblemen van externe inhoud
@@ -832,6 +835,8 @@ third-party-always =
     .label = Altijd
 third-party-never =
     .label = Nooit
+third-party-visited-only =
+    .label = Alleen van bezochte websites
 third-party-visited =
     .label = Van bezochte
 cookies-button =
@@ -845,6 +850,13 @@ global-privacy-control-description =
     .label = Websites vertellen mijn gegevens niet te verkopen of te delen
     .accesskey = m
 do-not-track-removal = We ondersteunen het ‘Niet volgen’-signaal niet meer
+view-saved-passwords-button =
+    .label = Opgeslagen wachtwoorden bekijken…
+    .accesskey = O
+primary-password-session-description = Een hoofdwachtwoord beveiligt al uw wachtwoorden en wordt eens per sessie ingevoerd.
+use-primary-password-label =
+    .label = Hoofdwachtwoord gebruiken
+    .accesskey = H
 do-not-track-label =
     .label = Websites een ‘Niet volgen’-signaal sturen om te laten weten dat u niet gevolgd wilt worden
     .accesskey = N
@@ -959,6 +971,7 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     Automatische beslissingen kunnen worden opgeheven door versleuteling handmatig in of uit te schakelen bij het opstellen van een bericht.
     Opmerking: versleuteling is altijd automatisch ingeschakeld bij het beantwoorden van een versleuteld bericht.
+email-content = E-mailinhoud
 
 ## DoH Section
 
