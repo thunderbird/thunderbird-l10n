@@ -43,3 +43,6 @@ global-spam-preferences-button =
 manage-spam-title = Spam rjadować
 manage-spam-header =
     .value = Spam rjadować
+spam-auto-detection-checkbox =
+    .label = Awtomatiske spóznaće spama za tute konto zmóžnić
+    .accesskey = A

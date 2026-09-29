@@ -976,6 +976,8 @@ account-settings = Kontowe nastajenja
 email-e2ee-enable-accounts-info = Konfigurujće e-mejlowe konta a identity za zaklučowanje kónc do kónca w <a data-l10n-name="account-settings-url">kontowych nastajenjach</a>.
 email-e2ee-enable-info = Konfigurujće e-mejlowe konta a identity za zaklučowanje kónc do kónca w kontowych nastajenjach.
 email-e2ee-automatism = Awtomatiske wužiwanje zaklučowanja
+email-e2ee-turn-on =
+    .label = Zaklučowanje awtomatisce zmóžnić, jeli móžno
 email-e2ee-automatism-pre =
     { -brand-short-name } móže was podpěrować, hdyž zaklučowanje awtomatisce zmóžna abo znjemóžnja, mjeztym zo e-mejl pisaće.
     Awtomatiske zmóžnjenje/znjemóžnjenje na disponujomnosći płaćiwych a akceptowanych klučow abo certifikatow dopisowarjow bazuje.
@@ -1234,6 +1236,7 @@ qr-export-no-accounts = Njewidźiće wšě konta? Někotre konta su snano znjem�
 qr-export-accounts-legend = E-mejlowe konta
 qr-export-select-all-accounts = Wšě wubrać
 qr-export-passwords-legend = Hesła
+qr-export-include-passwords-label = Kontowe hesła do QR-koda zapřijeć
 qr-export-security-legend = Wěstota
 qr-export-include-passwords = Wšě kontowe hesła zapřijeć
 qr-export-oauth-warning = Někotre z wašich kontow metodu awtentifikacije wužiwaja, kotraž sej wospjetnu awtentifikaciju na mobilnych gratach wužaduje. Dyrbiće snano swoje hesła za tutón proces znowa zapodać.
@@ -1291,6 +1294,9 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Hesła zapřijate
 qr-export-summary-passwords-excluded = Hesła wuzamknjene
 qr-export-more-accounts = Dalše konta eksportować
+qr-export-pane-header-mobile = Do mobilneho { -brand-product-name } eksportować
+qr-export-get-app-google-play = <a data-l10n-name="app-link">{ -brand-product-name } wot Google Play sćahnyć</a>
+qr-export-select-accounts-title = Wubjerće konta, kotrež so maja eksportować:
 
 ## Appearance Tab
 
