@@ -898,6 +898,15 @@ spam-delete-label =
     .label = Șterge-le
     .accesskey = D
 spam-read-description = Marchează mesajele ca citite
+spam-marked-manually-label =
+    .label = La marcare manuală
+    .accesskey = M
+spam-detected-auto-label =
+    .label = La ștergere automată de către { -brand-short-name }
+    .accesskey = T
+spam-log-keep-label =
+    .label = Păstrează un jurnal cu ștergerea automată a mesajelor nedorite
+    .accesskey = E
 spam-read-manual-label =
     .label = Când sunt marcate manual ca nedorite
     .accesskey = M
@@ -913,6 +922,24 @@ spam-log-button =
 reset-spam-button =
     .label = Resetează datele de antrenament
     .accesskey = R
+scam-detection-description = { -brand-short-name } verifică mesajele pentru linkuri de phishing și semne frecvente de escrocherie prin e-mail.
+scam-detection-label =
+    .label = Avertizează-mă când citesc un mesaj pe e-mail care pare să fie înșelătorie
+    .accesskey = T
+antivirus-check-description = Permite software-ului antivirus să verifice mesajele primite, individual, înainte să fie salvate pe calculator.
+antivirus-isolate-label =
+    .label = Permite software-ului antivirus să izoleze mesaje primite infectate
+    .accesskey = A
+certificate-verify-description = Când un server cere un certificat pentru a-ți verifica identitatea:
+certificate-choose-auto =
+    .label = Alege automat un certificat
+    .accesskey = h
+certificate-ask-every =
+    .label = Întreabă de fiecare dată
+    .accesskey = A
+ocsp-check-label =
+    .label = Verifică serverele de validare a certificatelor (OCSP) pentru confirmarea că certificatele sunt încă corecte.
+    .accesskey = v
 junk-description = Definește setările implicite pentru mesaje nesolicitate. Setările specifice contului pentru mesaje nesolicitate pot fi configurate în setările contului.
 junk-marked-label =
     .label = Când mesajele sunt marcate ca nesolicitate:
@@ -965,9 +992,18 @@ security-devices-button =
     .accesskey = D
 email-e2ee-header = Criptare end-to-end a mesajelor e-mail
 account-settings = Setări cont
+email-e2ee-accounts-info = Mesajele criptate de pe e-mail pot fi citite numai de tine și destinatarii setați de tine. Configurează conturi și identități de e-mail pentru criptare end-to-end în <a data-l10n-name="account-settings-url">Setările contului</a>.
 email-e2ee-enable-accounts-info = Configurează conturi de e-mail și identități pentru criptarea end-to-end în <a data-l10n-name="account-settings-url">setările contului</a>.
 email-e2ee-enable-info = Configurează conturi de e-mail și identități pentru criptarea end-to-end în setările contului.
 email-e2ee-automatism = Utilizarea automată a criptării
+email-e2ee-automatism-intro = { -brand-short-name } poate activa criptarea dacă sunt disponibile chei sau certificate acceptate valide pentru toți destinatarii unui mesaj.
+email-e2ee-turn-on =
+    .label = Activează automat criptarea când este posibil
+email-e2ee-turn-off =
+    .label = Dezactivează automat criptarea la modificarea destinatarilor și criptarea nu mai este posibilă
+email-e2ee-turn-off-notify =
+    .label = Afișează o notificare ori de câte ori criptarea este dezactivată automat
+email-e2ee-automatism-note = Notă: Poți activa sau dezactiva criptarea și manual în timp ce scrii un mesaj. Când răspunzi la mesaje criptate, criptarea este întotdeauna activată.
 email-e2ee-automatism-pre =
     { -brand-short-name } te poate ajuta prin activarea sau dezactivarea automată a criptării în timpul redactării unui mesaje pe e-mail.
     Activarea/dezactivarea automată se bazează pe disponibilitatea cheilor sau certificatelor valide și acceptate ale  corespondenților.
@@ -980,6 +1016,10 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     Deciziile automate pot fi anulate prin activarea sau dezactivarea manuală a criptării la redactarea unui mesaj.
     Notă: criptarea este întotdeauna activată automat când se răspunde la un mesaj criptat.
+email-content = Conținutul mesajelor
+remote-content-images-label =
+    .label = Permite conținut la distanță (imagini și stiluri)
+    .accesskey = m
 
 ## DoH Section
 
@@ -1003,6 +1043,10 @@ preferences-doh-status-not-active = Inactiv ({ $reason })
 preferences-doh-group-message = Activează DNS prin HTTPS folosind:
 preferences-doh-expand-section =
     .tooltiptext = Mai multe informații
+preferences-doh-setting-automatic =
+    .label = Protecție automată (recomandat)
+    .accesskey = D
+preferences-doh-automatic-desc = { -brand-short-name } criptează automat căutările de adrese când este posibil. Revine la căutări standard în rețea dacă apare o problemă de conexiune sau la cererea unui VPN/unei rețele gestionate.
 preferences-doh-setting-default =
     .label = Protecție implicită
     .accesskey = D
@@ -1015,9 +1059,14 @@ preferences-doh-default-detailed-desc-5 = Dezactivează când o rețea transmite
 preferences-doh-setting-enabled =
     .label = Protecție sporită
     .accesskey = I
+preferences-doh-increased-desc = Folosește întotdeauna furnizorul selectat. Folosește conexiunea standard numai în cazul eșuării furnizorului securizat.
 preferences-doh-enabled-desc = Tu controlezi când să utilizezi DNS securizat și îți alegi furnizorul.
 preferences-doh-enabled-detailed-desc-1 = Folosește furnizorul pe care îl alegi
 preferences-doh-enabled-detailed-desc-2 = Folosește rezolverul DNS implicit doar dacă există o problemă cu DNS-ul securizat
+preferences-doh-setting-maximum =
+    .label = Protecție maximă
+    .accesskey = M
+preferences-doh-maximum-desc = Necesită neapărat DNS criptat. Site-urile web nu se vor încărca dacă eșuează conexiunea securizată.
 preferences-doh-setting-strict =
     .label = Protecție max
     .accesskey = M
@@ -1028,6 +1077,7 @@ preferences-doh-strict-detailed-desc-3 = Dacă DNS-ul securizat nu este disponib
 preferences-doh-setting-off =
     .label = Dezactivat
     .accesskey = O
+preferences-doh-off-standard-desc = Folosește un furnizor de internet sau o rețea standard pentru căutarea de adrese web
 preferences-doh-off-desc = Folosește rezolverul DNS implicit
 preferences-doh-checkbox-warn =
     .label = Avertizează dacă un terț împiedică în mod activ utilizarea unui DNS securizat
@@ -1040,6 +1090,8 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = Personalizat
     .accesskey = C
+preferences-doh-secure-header = DNS securizat (DNS prin HTTPS)
+preferences-doh-secure-description = DNS-ul securizat criptează cererile de căutare pe care le trimite { -brand-short-name } pentru găsirea de site-uri web, ceea ce ajută la a-ți menține activitatea de navigare confidențială față de orice monitorizare în rețea.
 
 ## Keyservers
 
@@ -1216,6 +1268,8 @@ qr-export-select-accounts = Selectează conturile de exportat:
 qr-export-no-accounts = Nu îți vezi toate conturile? Este posibil ca unele conturi să fie dezactivate deoarece nu sunt acceptate de { -brand-product-name } pentru Android. <a data-l10n-name="account-support-link">Asistență</a>
 qr-export-accounts-legend = Conturi de e-mail
 qr-export-select-all-accounts = Selectează tot
+qr-export-passwords-legend = Parole
+qr-export-include-passwords-label = Include parolele contului în codul QR
 qr-export-security-legend = Securitate
 qr-export-include-passwords = Include toate parolele conturilor
 qr-export-oauth-warning = Unele conturi utilizează o metodă de autentificare care poate necesita reautentificarea pe dispozitivul mobil. Este posibil să fie nevoie să introduci din nou parolele.
