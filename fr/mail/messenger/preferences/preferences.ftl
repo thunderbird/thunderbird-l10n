@@ -1197,7 +1197,7 @@ chat-variant-label =
 # Do not translate.
 search-preferences-input2 =
     .placeholder = Rechercher dans les paramètres
-    .style = width: 23em
+    .style = width: 21em
 managed-by-organization-notice = { -brand-short-name } est géré par une organisation.
 managed-notice = { -brand-short-name } est géré par votre organisation.
 
