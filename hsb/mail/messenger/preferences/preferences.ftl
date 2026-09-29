@@ -838,10 +838,21 @@ cookies-button =
 # "Global Privacy Control" or "GPC" are a web platform feature name and abbreviation
 # included to facilitate power-user search of the about:preferences page.
 global-privacy-control-search = Global Privacy Control (GPC)
+global-privacy-control-label =
+    .label = Websydłam prosyć, zo nimaja wosobinske daty předać abo dźělić
+    .accesskey = b
 global-privacy-control-description =
     .label = Websydłam zdźělić, zo nimaja moje daty předać abo dźělić
     .accesskey = z
 do-not-track-removal = Hižo njepodpěrujemy signal „Njeslědować“
+passwords-registered-description = { -brand-short-name } móže hesła za zregistrowane konta składować.
+view-saved-passwords-button =
+    .label = Składowane hesła pokazać…
+    .accesskey = S
+primary-password-session-description = Hłowne hesło wšě hesła škita, a zapodawa so jónu na posedźenje.
+use-primary-password-label =
+    .label = Hłowne hesło wužiwać
+    .accesskey = H
 do-not-track-label =
     .label = Websydłam signal “Njeslědować” pósłać, zo nochceće, zo wone was slěduja
     .accesskey = s
@@ -867,6 +878,12 @@ spam-description = Nastajće swoje standardne spamowe nastajenja. Spamowe nastaj
 spam-marked-label =
     .label = Hdyž so powěsće jako spam markěruja:
     .accesskey = H
+spam-move-folder-label =
+    .label = Do rjadowaka Spam přesunyć
+    .accesskey = o
+spam-delete-immediately-label =
+    .label = Hnydom zhašeć
+    .accesskey = d
 spam-move-label =
     .label = Je do kontoweho rjadowaka "Spam" přesunyć
     .accesskey = k
@@ -874,6 +891,15 @@ spam-delete-label =
     .label = Je zhašeć
     .accesskey = z
 spam-read-description = Powěsće jako přečitane markěrować
+spam-marked-manually-label =
+    .label = Při manuelnym markěrowanju
+    .accesskey = m
+spam-detected-auto-label =
+    .label = Při awtomatiskeho spóznaće přez { -brand-short-name }
+    .accesskey = a
+spam-log-keep-label =
+    .label = Awtomatiske spóznaće spama protokolować
+    .accesskey = t
 spam-read-manual-label =
     .label = Hdyž so manuelnje jako spam markěruja
     .accesskey = m
@@ -889,6 +915,12 @@ spam-log-button =
 reset-spam-button =
     .label = Trenowanske daty wróćo stajić
     .accesskey = r
+certificate-choose-auto =
+    .label = Certifikat awtomatisce wubrać
+    .accesskey = C
+certificate-ask-every =
+    .label = Kóždy raz so prašeć
+    .accesskey = K
 junk-description = Nastajće swoje standardne nastajenja za čaporowu e-mejl. Nastajenja čaporoweje e-mejle specifiske za konto dadźa so w Kontowych nastajenjach konfigurować.
 junk-marked-label =
     .label = Hdyž so powěsće jako čapor markěruja:
@@ -956,6 +988,10 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     Awtomatiske rozsudy dadźa so přepisać, hdyž so zaklučowanje manuelnje zmóžnja abo znjemóžnja, mjeztym zo powěsć pisaće.
     Pokaz: Zaklučowanje so přeco awtomatisce zmóžnja, hdyž na zaklučowanu powěsć wotmołwjeće.
+email-content = E-mejlowy wobsah
+remote-content-images-label =
+    .label = Zdaleny wobsah dowolić (wobrazy a stile)
+    .accesskey = l
 
 ## DoH Section
 
@@ -979,6 +1015,9 @@ preferences-doh-status-not-active = Njeaktiwny ({ $reason })
 preferences-doh-group-message = DNS přez HTTPS zmóžnić z pomocu:
 preferences-doh-expand-section =
     .tooltiptext = Dalše informacije
+preferences-doh-setting-automatic =
+    .label = Awtomatiski škit (doporučeny)
+    .accesskey = A
 preferences-doh-setting-default =
     .label = Standardny škit
     .accesskey = S
@@ -994,6 +1033,9 @@ preferences-doh-setting-enabled =
 preferences-doh-enabled-desc = Kontrolujeće, hdyž so ma wěsty DNS wužiwać a wuběraće swojeho poskićowarja.
 preferences-doh-enabled-detailed-desc-1 = Poskićowarja wužiwać, kotrehož sće wubrał
 preferences-doh-enabled-detailed-desc-2 = Wužiwajće jenož swój standardny DNS-resolwer, jeli je problem z wěstym DNS
+preferences-doh-setting-maximum =
+    .label = Maksimalny škit
+    .accesskey = M
 preferences-doh-setting-strict =
     .label = Maksimalny škit
     .accesskey = M
@@ -1016,6 +1058,7 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = Swójski
     .accesskey = S
+preferences-doh-secure-header = Wěsty DNS (DNS přez HTTPS)
 
 ## Keyservers
 
@@ -1190,6 +1233,7 @@ qr-export-select-accounts = Wubjerće konta, kotrež so maja eksportować:
 qr-export-no-accounts = Njewidźiće wšě konta? Někotre konta su snano znjemóžnjene, dokelž so wot { -brand-product-name } za Android njepodpěruja. <a data-l10n-name="account-support-link">Podpěra</a>
 qr-export-accounts-legend = E-mejlowe konta
 qr-export-select-all-accounts = Wšě wubrać
+qr-export-passwords-legend = Hesła
 qr-export-security-legend = Wěstota
 qr-export-include-passwords = Wšě kontowe hesła zapřijeć
 qr-export-oauth-warning = Někotre z wašich kontow metodu awtentifikacije wužiwaja, kotraž sej wospjetnu awtentifikaciju na mobilnych gratach wužaduje. Dyrbiće snano swoje hesła za tutón proces znowa zapodać.
