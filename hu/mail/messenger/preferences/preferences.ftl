@@ -1035,6 +1035,10 @@ preferences-doh-setting-enabled =
 preferences-doh-enabled-desc = Ön szabályozza, hogy mikor használ biztonságos DNS-t, és kiválaszthatja a szolgáltatót.
 preferences-doh-enabled-detailed-desc-1 = Kiválasztott szolgáltató használata
 preferences-doh-enabled-detailed-desc-2 = Csak akkor használja az alapértelmezett DNS-feloldót, ha probléma van a biztonságos DNS-sel
+preferences-doh-setting-maximum =
+    .label = Maximális védelem
+    .accesskey = M
+preferences-doh-maximum-desc = Titkosított DNS szigorú megkövetelése. A webhelyek nem fognak betöltődni, ha a biztonságos kapcsolat nem lehetséges.
 preferences-doh-setting-strict =
     .label = Maximális védelem
     .accesskey = M
@@ -1045,6 +1049,7 @@ preferences-doh-strict-detailed-desc-3 = Ha a biztonságos DNS nem érhető el, 
 preferences-doh-setting-off =
     .label = Ki
     .accesskey = K
+preferences-doh-off-standard-desc = A szokásos internetszolgáltatón vagy hálózaton keresztül keresi meg a webcímeket
 preferences-doh-off-desc = Az alapértelmezett DNS-feloldó használata
 preferences-doh-checkbox-warn =
     .label = Figyelmeztetés, ha egy harmadik fél aktívan megakadályozza a biztonságos DNS használatát
@@ -1233,6 +1238,11 @@ qr-export-select-accounts = Válassza ki az exportálandó fiókokat:
 qr-export-no-accounts = Nem látja az összes fiókját? Előfordulhat, hogy egyes fiókok le lettek tiltva, mert az androidos { -brand-product-name } nem támogatja őket. <a data-l10n-name="account-support-link">Támogatás</a>
 qr-export-accounts-legend = Levelezőfiókok
 qr-export-select-all-accounts = Összes kijelölése
+qr-export-passwords-legend = Jelszavak
+qr-export-include-passwords-label = Fiókjelszavak hozzáadása a QR-kódhoz
+qr-export-web-sign-in-note = <strong>Megjegyzés:</strong> A webes bejelentkezést használó fiókok (mint a Gmail vagy a Yahoo), újra hitelesítést igényelnek az eszközén.
+qr-export-private-transfer-note = <strong>Privát átvitel:</strong> Beállításai és jelszavai közvetlenül erről a számítógépről kerülnek át a telefonjára. A rendszer semmit sem tárol a Mozilla kiszolgálóin.
+qr-export-screen-privacy-tip = <strong>Tipp:</strong> Tartsa rejtve a képernyőt mások elől, amíg a QR-kód megjelenik.
 qr-export-security-legend = Biztonság
 qr-export-include-passwords = Tartalmazza az összes fiókjelszót
 qr-export-oauth-warning = Egyes fiókok olyan hitelesítési módszert használnak, amely újrahitelesítést igényelhet a mobileszközén. Lehet, hogy újra meg kell adnia a jelszavait a folyamat során.
@@ -1282,6 +1292,9 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Tartalmazza a jelszavakat
 qr-export-summary-passwords-excluded = Nem tartalmaz jelszavakat
 qr-export-more-accounts = További fiókok exportálása
+qr-export-pane-header-mobile = Exportálás a mobilos { -brand-product-name } alkalmazásba
+qr-export-select-accounts-title = Válassza ki az exportálandó fiókokat:
+qr-export-missing-accounts-support = Hiányzik egy fiók? Az androidos { -brand-product-name }ben nem támogatott fiókok nem választhatók ki. <a data-l10n-name="account-support-link">Ismerje meg a támogatott fióktípusokat</a>
 
 ## Appearance Tab
 
