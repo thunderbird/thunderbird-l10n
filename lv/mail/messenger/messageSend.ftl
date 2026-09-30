@@ -19,10 +19,10 @@ send-error-smtp-unknown-server = Sūtot pastu, radās kļūda: Izejošais server
 send-error-smtp-request-refused = Vēstuli neizdevās nosūtīt, jo neizdevās izveidot savienojumu ar izejošo serveri (SMTP) { $hostname }. Iespējams, ka serveris nav pieejams vai atsaka SMTP savienojumu izveidi. Lūdzu, pārbaudiet, vai jūsu izejošā servera (SMTP) iestatījumi ir pareizi, un mēģiniet vēlreiz.
 # Variables:
 # $hostname - outgoing server hostname
-send-error-smtp-interrupted = Vēstuli neizdevās nosūtīt, jo darbības laikā pazuda savienojums ar izejošo serveri (SMTP) { $hostname }. Mēģiniet vēlreiz.
+send-error-smtp-interrupted = Ziņojumu neizdevās nosūtīt, jo darbības laikā pazuda savienojums ar izejošo serveri (SMTP) { $hostname }. Jāmēģina vēlreiz.
 # Variables:
 # $hostname - outgoing server hostname
-send-error-smtp-timeout = Vēstuli neizdevās nosūtīt, jo iestājās savienojuma noildze ar izejošo serveri (SMTP) { $hostname }. Mēģiniet vēlreiz.
+send-error-smtp-timeout = Ziņojumu neizdevās nosūtīt, jo savienojumam ar izejošo serveri (SMTP) { $hostname } iestājās noildze. Jāmēģina vēlreiz.
 send-error-title = Vēstules sūtīšanas kļūda
 send-progress-assembling-mail-information = Apkopoju pasta informāciju…
 send-progress-assembling-message = Montēju vēstuli…
