@@ -126,6 +126,14 @@ calendar-dialog-attachments-summary-label =
         [one] { $count } салыным
        *[other] { $count } салыным
     }
+calendar-event-prompt-delete-title = Оқиғаны өшіру
+calendar-event-prompt-delete-header = Келесі оқиға(лар)ды толығымен өшіру керек пе?
+calendar-single-event-prompt-delete-header = Бұл оқиғаны толығымен өшіру керек пе?
+calendar-prompt-this-event =
+    .label = Бұл оқиға
+calendar-prompt-all-events =
+    .label = Барлық оқиғалар
+calendar-prompt-delete-button = Өшіру
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =
