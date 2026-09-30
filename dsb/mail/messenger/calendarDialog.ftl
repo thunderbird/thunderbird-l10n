@@ -141,6 +141,14 @@ calendar-dialog-attachments-summary-label =
         [few] { $count } pśidanki
        *[other] { $count } pśidanki
     }
+calendar-event-prompt-delete-title = Tšojenje wulašowaś
+calendar-event-prompt-delete-header = Slědujuce tšojenja na pśecej wótwónoźeś??
+calendar-single-event-prompt-delete-header = Toś to tšojenje na pśecej wótwónoźeś?
+calendar-prompt-this-event =
+    .label = Toś to tšojenje
+calendar-prompt-all-events =
+    .label = Wšykne tšojenja
+calendar-prompt-delete-button = Lašowaś
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =

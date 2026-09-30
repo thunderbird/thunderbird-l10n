@@ -38,3 +38,11 @@ calendar-dialog-reminder-days-before =
        *[other] Pirms { $count } dienām
     }
 calendar-dialog-reminder-week-before = Pirms 1 nedēļas
+calendar-event-prompt-delete-title = Izdzēst notikumu
+calendar-event-prompt-delete-header = Neatgriezeniski noņemt šo(s) notikumu(s)?
+calendar-single-event-prompt-delete-header = Neatgriezeniski noņemt šo notikumu?
+calendar-prompt-this-event =
+    .label = Šis notikums
+calendar-prompt-all-events =
+    .label = Visi notikumi
+calendar-prompt-delete-button = Izdzēst
