@@ -121,8 +121,8 @@ calendar-dialog-attachments-summary-label =
        *[other] { $count } 個附件
     }
 calendar-event-prompt-delete-title = 刪除事件
-calendar-event-prompt-delete-header = 確定要永久移除下列事件嗎
-calendar-single-event-prompt-delete-header = 確定要永久移除此事件嗎
+calendar-event-prompt-delete-header = 確定要永久刪除下列事件嗎？
+calendar-single-event-prompt-delete-header = 確定要永久刪除此事件嗎？
 calendar-prompt-this-event =
     .label = 此事件
 calendar-prompt-all-events =

@@ -141,6 +141,14 @@ calendar-dialog-attachments-summary-label =
         [few] { $count } přiwěški
        *[other] { $count } přiwěškow
     }
+calendar-event-prompt-delete-title = Podawk zhašeć
+calendar-event-prompt-delete-header = Slědowace podawki na přeco wotstronić?
+calendar-single-event-prompt-delete-header = Tutón podawk na přeco wotstronić?
+calendar-prompt-this-event =
+    .label = Tutón podawk
+calendar-prompt-all-events =
+    .label = Wšě podawki
+calendar-prompt-delete-button = Zhašeć
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =
