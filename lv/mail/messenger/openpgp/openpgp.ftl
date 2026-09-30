@@ -549,7 +549,7 @@ signature-verified-ok = Pielikuma { $attachment } paraksts tika sekmīgi pārbau
 signature-verify-failed = Neizdevās pārbaudīt parakstu pielikumam { $attachment }
 decrypt-ok-no-sig =
     Brīdinājums!
-    Atšifrēšana bija veiksmīga, taču parakstu neizdevās pareizi pārbaudīt
+    Atšifrēšana bija sekmīga, taču parakstu nevarēja pareizi apliecināt
 msg-ovl-button-cont-anyway = &Turpināt tik un tā
 enig-content-note = *Pielikumi šai vēstulei nav parakstīti un šifrēti*
 
