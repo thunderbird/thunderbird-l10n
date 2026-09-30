@@ -126,6 +126,14 @@ calendar-dialog-attachments-summary-label =
         [one] { $count } bilaga
        *[other] { $count } bilagor
     }
+calendar-event-prompt-delete-title = Ta bort händelse
+calendar-event-prompt-delete-header = Vill du ta bort följande händelse permanent?
+calendar-single-event-prompt-delete-header = Vill du ta bort denna händelse permanent?
+calendar-prompt-this-event =
+    .label = Denna händelse
+calendar-prompt-all-events =
+    .label = Alla händelser
+calendar-prompt-delete-button = Ta bort
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =
