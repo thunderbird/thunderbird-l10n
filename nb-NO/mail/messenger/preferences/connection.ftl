@@ -89,6 +89,15 @@ no-proxy-label =
     .accesskey = n
 no-proxy-example = Eksempel: .mozilla.org, .net.nz, 192.168.1.0/24
 # Do not translate "localhost", "127.0.0.1/8" and "::1". (You can translate "and".)
+connection-proxy-local-network-desc = Lokale nettverkstilkoblinger (som localhost) bruker aldri en proxy.
+proxy-auto-login-saved-password =
+    .label = Logg inn automatisk hvis et passord er lagret
+    .tooltiptext = Dette valget autentiserer deg stille mot proxier når du har lagrede innloggingsdetaljer for de. Du vil få spørsmål dersom autentisering er mislykket.
+    .accesskey = i
+proxy-socks-remote-dns =
+    .label = Diriger domenenavnforespørsler (DNS) gjennom SOCKS v5-proxy
+    .accesskey = d
+# Do not translate "localhost", "127.0.0.1/8" and "::1". (You can translate "and".)
 connection-proxy-noproxy-localhost-desc-2 = Tilkoblinger til localhost, 127.0.0.1/8, og ::1 er aldri koblet til via proxy.
 proxy-password-prompt =
     .label = Ikke be om autentisering hvis passordet er lagret

@@ -9,12 +9,19 @@ fonts-label-default =
     .label = Standard ({ $name })
 fonts-label-default-unnamed =
     .label = Standard
+fonts-character-set-legend =
+    .value = Tegnsett:
+    .accesskey = T
+font-main-style-label =
+    .value = Hovedskrifttype:
+    .accesskey = s
 fonts-language-legend =
     .value = Skrifttyper for:
     .accesskey = t
 fonts-proportional-label =
     .value = Proporsjonal:
     .accesskey = P
+text-font-options-dialog-title = Tekst- og skriftinnstillinger
 
 ## Languages
 

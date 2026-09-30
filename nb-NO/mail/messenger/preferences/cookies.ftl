@@ -10,6 +10,7 @@ window-focus-search-alt-key =
 filter-search-label =
     .value = Søk:
     .accesskey = S
+cookies-stored-label = Infokapsler lagres på denne datamaskinen
 cookies-on-system-label = Følgende infokapsler er lagret på datamaskinen din:
 treecol-site-header =
     .label = Nettsted
