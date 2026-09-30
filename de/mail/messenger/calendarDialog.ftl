@@ -126,6 +126,14 @@ calendar-dialog-attachments-summary-label =
         [one] { $count } Anhang
        *[other] { $count } Anhänge
     }
+calendar-event-prompt-delete-title = Termin löschen
+calendar-event-prompt-delete-header = Die folgenden Termine endgültig löschen?
+calendar-single-event-prompt-delete-header = Diesen Termin endgültig löschen?
+calendar-prompt-this-event =
+    .label = Dieser Termin
+calendar-prompt-all-events =
+    .label = Alle Termine
+calendar-prompt-delete-button = Löschen
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =

@@ -13,7 +13,7 @@
 <!ENTITY locationpage.username.label "Benutzername:">
 <!ENTITY locationpage.password.label "Passwort:">
 <!ENTITY custompage.shortdescription "Ihren Kalender anpassen">
-<!ENTITY custompage.longdescription "Sie können Ihrem Kalender einen Namen geben und Ereignisse dieses Kalenders einfärben.">
+<!ENTITY custompage.longdescription "Sie können Ihrem Kalender einen Namen geben und Termine dieses Kalenders einfärben.">
 <!ENTITY finishpage.shortdescription "Kalender erstellt">
 <!ENTITY finishpage.longdescription "Ihr Kalender wurde erstellt.">
 <!-- Below are new strings for the revised new calendar dialog. The above strings should be

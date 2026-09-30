@@ -94,13 +94,13 @@ power-level-room-name = Namen des Raumes ändern: { $powerLevelName }
 #    $powerLevelName is the power level name
 power-level-change-permissions = Berechtigungen ändern: { $powerLevelName }
 #    $powerLevelName is the power level name
-power-level-server-acl = m.room.server_acl Ereignisse senden: { $powerLevelName }
+power-level-server-acl = m.room.server_acl-Termine senden: { $powerLevelName }
 #    $powerLevelName is the power level name
 power-level-upgrade-room = Raum aktualisieren: { $powerLevelName }
 #    $powerLevelName is the power level name
 power-level-remove = Nachrichten entfernen: { $powerLevelName }
 #    $powerLevelName is the power level name
-power-level-events-default = Standard für Ereignisse: { $powerLevelName }
+power-level-events-default = Standard für Termine: { $powerLevelName }
 #    $powerLevelName is the power level name
 power-level-state-default = Einstellung ändern: { $powerLevelName }
 #    $powerLevelName is the power level name
