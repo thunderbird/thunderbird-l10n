@@ -1042,7 +1042,6 @@ preferences-doh-expand-section =
 preferences-doh-setting-automatic =
     .label = Protezione automatica (consigliata)
     .accesskey = a
-preferences-doh-automatic-desc = { -brand-short-name } critta automaticamente le ricerche degli indirizzi quando possibile; ritorna invece a una rete standard in caso di problemi di connessione oppure se una VPN o un servizio di gestione della rete lo richiede.
 preferences-doh-setting-default =
     .label = Protezione predefinita
     .accesskey = P
