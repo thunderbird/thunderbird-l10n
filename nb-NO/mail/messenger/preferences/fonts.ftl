@@ -100,6 +100,9 @@ font-size-monospace-label =
 font-serif-label =
     .value = Seriffskrift:
     .accesskey = S
+sans-serif-font-label =
+    .value = Seriffløs skrift:
+    .accesskey = e
 font-sans-serif-label =
     .value = Seriffløs skrift:
     .accesskey = ø
@@ -121,6 +124,13 @@ use-document-fonts-checkbox =
 use-fixed-width-plain-checkbox =
     .label = Bruk skrifttype med fast tegnavstand for meldinger i ren tekst
     .accesskey = B
+message-font-permissions-legend = Skrifttillatelser for meldinger
+allow-incoming-fonts-checkbox =
+    .label = Tillat at innkommende meldinger bruker sine egne skrifter
+    .accesskey = o
+display-fixed-width-plain-checkbox =
+    .label = Vis meldinger i ren tekst med en fastbreddeskrift
+    .accesskey = s
 
 ## Language settings
 

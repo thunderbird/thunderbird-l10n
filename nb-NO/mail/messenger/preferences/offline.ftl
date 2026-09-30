@@ -3,6 +3,22 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 offline-dialog-title = Frakoblet modus
+autodetect-connection-label =
+    .label = Bytt modus automatisk når en internettforbindelse blir funnet
+    .accesskey = d
+offline-startup-label = Når du åpner { -brand-short-name }:
+status-radio-last-used =
+    .label = Bruk den sist brukte tilkoblingsmodusen
+    .accesskey = u
+status-radio-ask-connect =
+    .label = Spør om du vil koble til på nett
+    .accesskey = p
+status-radio-start-online =
+    .label = Start tilkoblet
+    .accesskey = t
+status-radio-start-offline =
+    .label = Start frakoblet
+    .accesskey = f
 autodetect-online-label =
     .label = Automatisk følg oppdaget tilkoblingstilstand
     .accesskey = A
