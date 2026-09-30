@@ -214,6 +214,13 @@ openpgp-key-man-change-expiry =
 openpgp-key-man-refresh-online =
     .label = Obnoviť online
     .accesskey = b
+# Do not translate: PQC
+openpgp-key-man-add-pqc =
+    .label = Vygenerovať podkľúč PQC na šifrovanie
+    .accesskey = V
+# Do not translate: PQC
+openpgp-pqc-confirm-generate = Vygenerovať šifrovací podkľúč pomocou postkvantovej kryptografie (PQC)? Generovanie môže trvať niekoľko minút.
+openpgp-pqc-generate-failed = Podkľúč šifrovania PQC sa nepodarilo vygenerovať.
 openpgp-key-man-ignored-ids =
     .label = E‑mailové adresy
 openpgp-key-man-del-key =
@@ -331,6 +338,7 @@ openpgp-passphrase-instruction-primary-password = Alternatívne chráňte tento 
 openpgp-passphrase-instruction-user-passphrase = Odomknite tento kľúč, ak chcete zmeniť jeho ochranu.
 openpgp-passphrase-unlock = Odomknúť
 openpgp-passphrase-unlocked = Kľúč bol úspešne odomknutý.
+openpgp-passphrase-unlock-failed = Kľúč alebo jeho podriadené časti sa nepodarilo odomknúť.
 openpgp-remove-protection = Odstrániť ochranu prístupovou frázou
 openpgp-use-primary-password = Odstrániť prístupovú frázu a chrániť pomocou hlavného hesla
 openpgp-passphrase-new = Nová prístupová fráza

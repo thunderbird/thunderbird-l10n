@@ -10,6 +10,7 @@ window-focus-search-alt-key =
 filter-search-label =
     .value = Hľadať:
     .accesskey = H
+cookies-stored-label = Súbory cookie sa ukladajú do tohto počítača
 cookies-on-system-label = Tieto cookies sú uložené v počítači:
 treecol-site-header =
     .label = Stránka
