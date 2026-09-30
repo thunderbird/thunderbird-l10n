@@ -155,6 +155,14 @@ calendar-dialog-attachments-summary-label =
         [many] { $count } Atodiad
        *[other] { $count } Atodiad
     }
+calendar-event-prompt-delete-title = Dileu digwyddiad
+calendar-event-prompt-delete-header = Dileu'r digwyddiad(au) canlynol yn barhaol?
+calendar-single-event-prompt-delete-header = Dileu'r digwyddiad hwn yn barhaol?
+calendar-prompt-this-event =
+    .label = Y digwyddiad hwn
+calendar-prompt-all-events =
+    .label = Pob digwyddiad
+calendar-prompt-delete-button = Dileu
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =

@@ -56,6 +56,7 @@ composition-addressing-header = Adressering
 privacy-main-header = Privacy
 privacy-passwords-header = Wachtwoorden
 privacy-spam-header = Spam
+collection-improve-header = Gegevens verzameld om { -brand-short-name } te verbeteren.
 collection-privacy-policy = Lees ons privacybeleid
 privacy-junk-header = Ongewenste berichten
 collection-header = { -brand-short-name }-gegevensverzameling en -gebruik

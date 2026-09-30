@@ -208,6 +208,9 @@ openpgp-key-man-change-expiry =
 openpgp-key-man-refresh-online =
     .label = Online vernieuwen
     .accesskey = v
+# Do not translate: PQC
+openpgp-pqc-confirm-generate = Een versleutelingssubsleutel genereren met post-quantumcryptography (PQC)? Het aanmaken kan enkele minuten duren.
+openpgp-pqc-generate-failed = De PQC-subsleutel voor versleuteling kon niet worden gegenereerd.
 openpgp-key-man-ignored-ids =
     .label = E-mailadressen
 openpgp-key-man-del-key =
@@ -325,6 +328,7 @@ openpgp-passphrase-instruction-primary-password = Deze sleutel ook beveiligen me
 openpgp-passphrase-instruction-user-passphrase = Ontgrendel deze sleutel om de beveiliging te wijzigen.
 openpgp-passphrase-unlock = Ontgrendelen
 openpgp-passphrase-unlocked = Sleutel met succes ontgrendeld.
+openpgp-passphrase-unlock-failed = De sleutel, of ondergeschikte delen ervan, kunnen niet worden ontgrendeld.
 openpgp-remove-protection = Wachtwoordzinbeveiliging verwijderen
 openpgp-use-primary-password = Verwijder de wachtwoordzin en beveilig met het hoofdwachtwoord
 openpgp-passphrase-new = Nieuwe wachtwoordzin

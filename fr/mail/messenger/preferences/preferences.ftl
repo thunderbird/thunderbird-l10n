@@ -1089,7 +1089,7 @@ preferences-doh-url-custom =
     .label = Personnalisé
     .accesskey = P
 preferences-doh-secure-header = DNS sécurisé (DNS via HTTPS)
-preferences-doh-secure-description = Le DNS sécurisé chiffre les requêtes envoyées par { -brand-short-name } pour trouver des sites web, ce qui protège votre navigation de toute surveillance du réseau.
+preferences-doh-secure-description = Le DNS sécurisé chiffre les requêtes envoyées par { -brand-short-name } pour trouver les sites web, afin de préserver la confidentialité de votre navigation face à toute surveillance du réseau.
 
 ## Keyservers
 
