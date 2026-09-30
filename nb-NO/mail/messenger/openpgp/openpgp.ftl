@@ -208,6 +208,13 @@ openpgp-key-man-change-expiry =
 openpgp-key-man-refresh-online =
     .label = Oppdater på nett
     .accesskey = O
+# Do not translate: PQC
+openpgp-key-man-add-pqc =
+    .label = Generer PQC-krypteringsundernøkkel
+    .accesskey = G
+# Do not translate: PQC
+openpgp-pqc-confirm-generate = Generere en krypteringsundernøkkel med postkvantekryptografi (PQC)? Genereringen kan ta flere minutter.
+openpgp-pqc-generate-failed = Kunne ikke generere PQC-krypteringsundernøkkelen.
 openpgp-key-man-ignored-ids =
     .label = E-postadresser
 openpgp-key-man-del-key =
@@ -325,6 +332,7 @@ openpgp-passphrase-instruction-primary-password = Alternativt kan du beskytte de
 openpgp-passphrase-instruction-user-passphrase = Lås opp denne nøkkelen for å endre beskyttelsen.
 openpgp-passphrase-unlock = Lås opp
 openpgp-passphrase-unlocked = Nøkkelen er opplåst.
+openpgp-passphrase-unlock-failed = Nøkkelen, eller underordnede deler av nøkkelen, kunne ikke låses opp.
 openpgp-remove-protection = Fjern passordfrasebeskyttelse
 openpgp-use-primary-password = Fjern passordfrasen og beskytt med hovedpassordet
 openpgp-passphrase-new = Ny passordfrase

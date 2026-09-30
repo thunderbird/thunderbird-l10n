@@ -122,6 +122,14 @@ calendar-dialog-attachments-expand-icon =
 # Variables:
 #   $count (Number): Number of attachments.
 calendar-dialog-attachments-summary-label = { $count } vedlegg
+calendar-event-prompt-delete-title = Slett hendelse
+calendar-event-prompt-delete-header = Fjerne følgende hendelse(r) permanent?
+calendar-single-event-prompt-delete-header = Fjerne denne hendelsen permanent?
+calendar-prompt-this-event =
+    .label = Denne hendelsen
+calendar-prompt-all-events =
+    .label = Alle hendelser
+calendar-prompt-delete-button = Slett
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =
