@@ -52,6 +52,7 @@
 <!ENTITY fontCourier.accesskey "C">
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "Alege o dimensiune pentru font">
+<!-- Font Size SubMenu -->
 <!ENTITY decreaseFontSize.label "Mai mică">
 <!ENTITY decreaseFontSize.accesskey "M">
 <!ENTITY decrementFontSize.key "&lt;">

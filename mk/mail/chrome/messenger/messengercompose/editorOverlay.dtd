@@ -28,6 +28,7 @@
 <!ENTITY fontCourier.label "Courier">
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "Избор на големина на фонт">
+<!-- Font Size SubMenu -->
 <!ENTITY decreaseFontSize.label "Помал">
 <!ENTITY increaseFontSize.label "Поголем">
 <!ENTITY size-smallCmd.label "мала">

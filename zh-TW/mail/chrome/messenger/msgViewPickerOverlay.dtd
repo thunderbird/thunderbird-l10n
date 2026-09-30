@@ -5,6 +5,7 @@
 <!-- LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder -->
 <!ENTITY viewPicker.label "檢視:">
 <!ENTITY viewPicker.accesskey "i">
+<!-- LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder -->
 <!ENTITY viewAll.label "全部">
 <!ENTITY viewAll.accesskey "A">
 <!ENTITY viewUnread.label "未讀">

@@ -225,6 +225,7 @@
 <!ENTITY smiley17Cmd.label "生氣">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "找不到任何建議">
+<!-- Message Pane Context Menu -->
 <!ENTITY spellCheckIgnoreWord.label "忽略單字">
 <!ENTITY spellCheckIgnoreWord.accesskey "I">
 <!ENTITY spellCheckAddToDictionary.label "新增到字典">

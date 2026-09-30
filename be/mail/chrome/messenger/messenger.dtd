@@ -463,6 +463,7 @@
 <!ENTITY compactButton.label "Сціснуць">
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "Пашыраны рэжым пошуку паведамленняў">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY getMsgButton.tooltip "Атрымаць новыя паведамленні">
 <!ENTITY getAllNewMsgCmd.label "Атрымаць усе новыя паведамленні">
 <!ENTITY getAllNewMsgCmd.accesskey "А">
@@ -507,6 +508,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Новае паведамленне">
 <!ENTITY appmenuNewContactCmd.label "Кантакт у адраснай кнізе…">
+<!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Макет панэлі інструментаў…">
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Новая метка…">
@@ -722,6 +724,7 @@
 <!ENTITY zoomWindow.label "Змяніць маштаб">
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac2.label "Перавагі">
+<!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac.commandkey ",">
 <!ENTITY preferencesCmdMac.modifiers "accel">
 <!ENTITY servicesMenuMac.label "Службы">

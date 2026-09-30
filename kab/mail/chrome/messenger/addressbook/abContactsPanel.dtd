@@ -10,6 +10,9 @@
 <!ENTITY contactPropertiesMenu.accesskey "m">
 <!ENTITY mailingListPropertiesMenu.label "Timeẓliyin n tebdart n telɣut">
 <!ENTITY mailingListPropertiesMenu.accesskey "ɣ">
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY abContextMenuButton.tooltip "Sken-d umuγ n umnaḍ n imedlis n tansiwin">
 <!ENTITY addressbookPicker.label "Imedlis n tensa:">
 <!ENTITY addressbookPicker.accesskey "m">

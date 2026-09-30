@@ -47,6 +47,7 @@
 <!ENTITY fontCourier.accesskey "C">
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "ਫੋਂਟ ਆਕਾਰ ਚੁਣੋ">
+<!-- Font Size SubMenu -->
 <!ENTITY decreaseFontSize.label "ਹੋਰ ਛੋਟੇ">
 <!ENTITY decreaseFontSize.accesskey "r">
 <!ENTITY decrementFontSize.key "&lt;">

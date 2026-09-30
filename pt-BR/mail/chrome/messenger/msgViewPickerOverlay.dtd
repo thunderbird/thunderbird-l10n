@@ -5,6 +5,7 @@
 <!-- LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder -->
 <!ENTITY viewPicker.label "Ver:">
 <!ENTITY viewPicker.accesskey "V">
+<!-- LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder -->
 <!ENTITY viewAll.label "Tudo">
 <!ENTITY viewAll.accesskey "u">
 <!ENTITY viewUnread.label "Não lidas">

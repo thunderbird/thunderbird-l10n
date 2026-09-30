@@ -503,6 +503,7 @@
 <!ENTITY appmenuButton.label "Sovellusvalikko">
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "Tarkennettu viestien haku">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY getMsgButton.tooltip "Nouda uudet viestit">
 <!ENTITY getAllNewMsgCmd.label "Nouda kaikki uudet viestit">
 <!ENTITY getAllNewMsgCmd.accesskey "N">
@@ -550,6 +551,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Uusi viesti">
 <!ENTITY appmenuNewContactCmd.label "Osoitekirjan yhteyshenkilö…">
+<!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Työkalupalkin asettelu…">
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Uusi tunnus…">
@@ -834,6 +836,7 @@
 <!ENTITY zoomWindow.label "Suurenna ikkunaa">
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac2.label "Asetukset">
+<!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac.commandkey ",">
 <!ENTITY preferencesCmdMac.modifiers "accel">
 <!ENTITY servicesMenuMac.label "Palvelut">

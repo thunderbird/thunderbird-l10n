@@ -34,6 +34,8 @@
      - tooltiptext1 is used in the calendar wizard when setting a new caldav calendar
      - tooltiptext2 is used in the calendar properties dialog for caldav calendars -->
 <!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext1 "Цяпер вы можаце ўключыць гэты параметр толькі пасля наладжвання гэтага календара ў дыялогавым акне яго ўласцівасцяў і ў выпадку, калі сервер календара самастойна займаецца адпраўкай электроннай пошты з запрашэннямі.">
+<!-- LOCALIZATON NOTE(lightning.calendarproperties.forceEmailScheduling.tooltiptext2)
+     This is used in the calendar properties dialog for caldav calendars. -->
 <!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext2 "Гэты параметр даступны толькі ў выпадку, калі сервер самастойна займаецца адпраўкай электроннай пошты з запрашэннямі. Яго ўключэнне дазволіць вярнуцца да планавання шляхам адпраўкі электроннай пошты з запрашэннямі з боку кліента.">
 <!-- The notifications settings in the properties dialog -->
 <!ENTITY lightning.calendarproperties.notifications.label "Апавяшчэнні">

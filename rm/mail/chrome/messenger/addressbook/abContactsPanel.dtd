@@ -10,6 +10,9 @@
 <!ENTITY contactPropertiesMenu.accesskey "i">
 <!ENTITY mailingListPropertiesMenu.label "Caracteristicas da las glistas d'e-mail">
 <!ENTITY mailingListPropertiesMenu.accesskey "i">
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY abContextMenuButton.tooltip "Mussar il menu contextual dal cudeschet d'adressas">
 <!ENTITY addressbookPicker.label "Cudeschet d'adressas:">
 <!ENTITY addressbookPicker.accesskey "a">

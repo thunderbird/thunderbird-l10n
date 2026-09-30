@@ -487,6 +487,7 @@
 <!ENTITY compactButton.label "כווץ">
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "חיפוש הודעות מתקדם">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY getMsgButton.tooltip "קבל הודעות חדשות">
 <!ENTITY getAllNewMsgCmd.label "קבל את כל ההודעות החדשות">
 <!ENTITY getAllNewMsgCmd.accesskey "G">
@@ -533,6 +534,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "הודעה חדשה">
 <!ENTITY appmenuNewContactCmd.label "איש קשר בפנקס הכתובות…">
+<!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "פריסת סרגל כלים…">
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "תווית חדשה…">
@@ -792,6 +794,7 @@
 <!ENTITY zoomWindow.label "הגדלת חלון">
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac2.label "העדפות">
+<!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac.commandkey ",">
 <!ENTITY preferencesCmdMac.modifiers "accel">
 <!ENTITY servicesMenuMac.label "שרותים">

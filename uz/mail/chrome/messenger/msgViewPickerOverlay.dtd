@@ -5,6 +5,7 @@
 <!-- LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder -->
 <!ENTITY viewPicker.label "Ko‘rinishi:">
 <!ENTITY viewPicker.accesskey "K">
+<!-- LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder -->
 <!ENTITY viewAll.label "Barchasi">
 <!ENTITY viewAll.accesskey "B">
 <!ENTITY viewUnread.label "O‘qilmagan">

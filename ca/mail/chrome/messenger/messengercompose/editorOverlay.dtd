@@ -52,6 +52,7 @@
 <!ENTITY fontCourier.accesskey "C">
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "Trieu una mida de lletra">
+<!-- Font Size SubMenu -->
 <!ENTITY decreaseFontSize.label "Més petita">
 <!ENTITY decreaseFontSize.accesskey "p">
 <!ENTITY decrementFontSize.key "&lt;">

@@ -503,6 +503,7 @@
 <!ENTITY appmenuButton.label "გარე მენიუ">
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "წერილების დეტალური ძიება">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY getMsgButton.tooltip "ახალი წერილების მიღება">
 <!ENTITY getAllNewMsgCmd.label "ყველა ახალი წერილის მიღება">
 <!ENTITY getAllNewMsgCmd.accesskey "მ">
@@ -550,6 +551,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "ახალი წერილი">
 <!ENTITY appmenuNewContactCmd.label "პირი წიგნაკიდან…">
+<!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "ხელსაწყოთა ზოლის განლაგება…">
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "ახალი ჭდე…">
@@ -834,6 +836,7 @@
 <!ENTITY zoomWindow.label "ზომის ცვლილება">
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac2.label "პარამეტრები">
+<!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac.commandkey ",">
 <!ENTITY preferencesCmdMac.modifiers "accel">
 <!ENTITY servicesMenuMac.label "მომსახურებები">

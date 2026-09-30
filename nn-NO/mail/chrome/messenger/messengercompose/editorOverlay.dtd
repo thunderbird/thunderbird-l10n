@@ -52,6 +52,7 @@
 <!ENTITY fontCourier.accesskey "C">
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "Vel skriftstorleik">
+<!-- Font Size SubMenu -->
 <!ENTITY decreaseFontSize.label "Mindre">
 <!ENTITY decreaseFontSize.accesskey "M">
 <!ENTITY decrementFontSize.key "&lt;">

@@ -501,6 +501,7 @@
 <!ENTITY appmenuButton.label "AppMenu">
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "Izvērstā vēstuļu meklēšana">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY getMsgButton.tooltip "Saņemt jaunās vēstules">
 <!ENTITY getAllNewMsgCmd.label "Saņemt visas vēstules">
 <!ENTITY getAllNewMsgCmd.accesskey "S">
@@ -548,6 +549,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Jauna vēstule">
 <!ENTITY appmenuNewContactCmd.label "Adrešu grāmatas kontakts...">
+<!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Rīkjoslas izklājums…">
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Jauna birka…">
@@ -830,6 +832,7 @@
 <!ENTITY zoomWindow.label "Tālummaiņa">
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac2.label "Iestatījumi">
+<!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac.commandkey ",">
 <!ENTITY preferencesCmdMac.modifiers "paātr">
 <!ENTITY servicesMenuMac.label "Pakalpojumi">

@@ -34,6 +34,8 @@
      - tooltiptext1 is used in the calendar wizard when setting a new caldav calendar
      - tooltiptext2 is used in the calendar properties dialog for caldav calendars -->
 <!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext1 "Hiện tại, bạn chỉ có thể kích hoạt tính năng này sau khi thiết lập lịch này trong hộp thoại thuộc tính của nó nếu máy chủ lịch đảm nhiệm việc lên lịch.">
+<!-- LOCALIZATON NOTE(lightning.calendarproperties.forceEmailScheduling.tooltiptext2)
+     This is used in the calendar properties dialog for caldav calendars. -->
 <!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext2 "Tùy chọn này chỉ khả dụng nếu máy chủ lịch xử lý lập lịch. Kích hoạt sẽ cho phép quay trở lại lịch trình dựa trên email tiêu chuẩn thay vì để nó đến máy chủ.">
 <!-- The notifications settings in the properties dialog -->
 <!ENTITY lightning.calendarproperties.notifications.label "Thông báo">

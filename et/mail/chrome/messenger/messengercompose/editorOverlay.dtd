@@ -52,6 +52,7 @@
 <!ENTITY fontCourier.accesskey "C">
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "Vali fondi suurus">
+<!-- Font Size SubMenu -->
 <!ENTITY decreaseFontSize.label "Väiksem">
 <!ENTITY decreaseFontSize.accesskey "V">
 <!ENTITY decrementFontSize.key "&lt;">

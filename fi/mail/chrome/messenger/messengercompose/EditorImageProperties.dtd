@@ -62,6 +62,7 @@
 <!ENTITY LinkAdvancedEditButton.tooltip "Lisää tai muokkaa HTML-attribuutteja, tyyliattribuutteja ja JavaScript-komentosarjoja">
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "Lomake">
+<!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageLocationTab.label "Sijainti">
 <!ENTITY imageDimensionsTab.label "Mitat">
 <!ENTITY imageAppearanceTab.label "Ulkoasu">

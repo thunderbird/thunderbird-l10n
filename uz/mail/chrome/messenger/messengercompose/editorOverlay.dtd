@@ -52,6 +52,7 @@
 <!ENTITY fontCourier.accesskey "C">
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "Shrift hajmini tanlash">
+<!-- Font Size SubMenu -->
 <!ENTITY decreaseFontSize.label "Kichikroq">
 <!ENTITY decreaseFontSize.accesskey "K">
 <!ENTITY decrementFontSize.key "&lt;">

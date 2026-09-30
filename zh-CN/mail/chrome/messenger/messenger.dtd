@@ -503,6 +503,7 @@
 <!ENTITY appmenuButton.label "应用菜单">
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "高级消息搜索">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY getMsgButton.tooltip "获取新消息">
 <!ENTITY getAllNewMsgCmd.label "获取所有新消息">
 <!ENTITY getAllNewMsgCmd.accesskey "G">
@@ -550,6 +551,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "新建消息">
 <!ENTITY appmenuNewContactCmd.label "通讯录联系人…">
+<!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "工具栏布局…">
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "新建标签…">
@@ -834,6 +836,7 @@
 <!ENTITY zoomWindow.label "缩放">
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac2.label "首选项">
+<!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac.commandkey ",">
 <!ENTITY preferencesCmdMac.modifiers "accel">
 <!ENTITY servicesMenuMac.label "服务">

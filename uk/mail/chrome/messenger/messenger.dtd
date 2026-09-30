@@ -503,6 +503,7 @@
 <!ENTITY appmenuButton.label "Меню програми">
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "Розширений режим пошуку">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY getMsgButton.tooltip "Отримати нові повідомлення">
 <!ENTITY getAllNewMsgCmd.label "Отримати всі нові повідомлення">
 <!ENTITY getAllNewMsgCmd.accesskey "О">
@@ -550,6 +551,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Нове повідомлення">
 <!ENTITY appmenuNewContactCmd.label "Контакт адресної книги…">
+<!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Розклад панелей…">
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Нова мітка…">
@@ -834,6 +836,7 @@
 <!ENTITY zoomWindow.label "Розгорнути вікно">
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac2.label "Налаштування…">
+<!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac.commandkey ",">
 <!ENTITY preferencesCmdMac.modifiers "accel">
 <!ENTITY servicesMenuMac.label "Служби">

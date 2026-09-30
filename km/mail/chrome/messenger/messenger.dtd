@@ -469,6 +469,7 @@
 <!ENTITY appmenuButton.label "ម៉ឺនុយ​កម្មវិធី">
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "Նամակի ընդլայնված որոնում">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY getMsgButton.tooltip "Get new messages">
 <!ENTITY getAllNewMsgCmd.label "Ստանալ բոլոր նոր նամակները">
 <!ENTITY getAllNewMsgCmd.accesskey "G">
@@ -515,6 +516,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "សារ​ថ្មី">
 <!ENTITY appmenuNewContactCmd.label "ទំនាក់ទំនង​សៀវភៅ​អាសយដ្ឋាន…">
+<!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "ប្លង់​របារ​ឧបករណ៍…">
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Նոր պիտակ...">
@@ -770,6 +772,7 @@
 <!ENTITY zoomWindow.label "Zoom">
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac2.label "ចំណូល​ចិត្ត">
+<!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac.commandkey "Կ">
 <!ENTITY preferencesCmdMac.modifiers "accel">
 <!ENTITY servicesMenuMac.label "Services">

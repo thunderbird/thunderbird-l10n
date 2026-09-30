@@ -503,6 +503,7 @@
 <!ENTITY appmenuButton.label "Programmeny">
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "Avancerad sökning efter meddelanden">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY getMsgButton.tooltip "Hämtar nya meddelanden">
 <!ENTITY getAllNewMsgCmd.label "Hämta alla nya meddelanden">
 <!ENTITY getAllNewMsgCmd.accesskey "H">
@@ -550,6 +551,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Nytt meddelande">
 <!ENTITY appmenuNewContactCmd.label "Ny adressbokskontakt…">
+<!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Layout verktygsfält…">
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Ny etikett…">
@@ -834,6 +836,7 @@
 <!ENTITY zoomWindow.label "Zooma fönster">
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac2.label "Inställningar">
+<!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac.commandkey ",">
 <!ENTITY preferencesCmdMac.modifiers "accel">
 <!ENTITY servicesMenuMac.label "Tjänster">

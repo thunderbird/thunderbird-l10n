@@ -5,6 +5,7 @@
 <!-- LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder -->
 <!ENTITY viewPicker.label "اعرض:">
 <!ENTITY viewPicker.accesskey "ض">
+<!-- LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder -->
 <!ENTITY viewAll.label "الكل">
 <!ENTITY viewAll.accesskey "ك">
 <!ENTITY viewUnread.label "غير المقروء">

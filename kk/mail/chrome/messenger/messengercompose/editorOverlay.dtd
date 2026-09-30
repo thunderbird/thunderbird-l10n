@@ -52,6 +52,7 @@
 <!ENTITY fontCourier.accesskey "C">
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "Қаріп өлшемін таңдау">
+<!-- Font Size SubMenu -->
 <!ENTITY decreaseFontSize.label "Кішірек">
 <!ENTITY decreaseFontSize.accesskey "к">
 <!ENTITY decrementFontSize.key "&lt;">

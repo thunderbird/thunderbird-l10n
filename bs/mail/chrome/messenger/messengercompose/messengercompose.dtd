@@ -214,6 +214,7 @@
 <!ENTITY smiley16Cmd.label "Šutanja">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Prijedlog nije pronađen">
+<!-- Message Pane Context Menu -->
 <!ENTITY spellCheckIgnoreWord.label "Ignoriši riječ">
 <!ENTITY spellCheckIgnoreWord.accesskey "I">
 <!ENTITY spellCheckAddToDictionary.label "Dodaj u rječnik">

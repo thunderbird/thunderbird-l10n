@@ -225,6 +225,7 @@
 <!ENTITY smiley17Cmd.label "Enojado">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "No se encontraron sugerencias">
+<!-- Message Pane Context Menu -->
 <!ENTITY spellCheckIgnoreWord.label "Ignorar la palabra">
 <!ENTITY spellCheckIgnoreWord.accesskey "I">
 <!ENTITY spellCheckAddToDictionary.label "Agregar al diccionario">

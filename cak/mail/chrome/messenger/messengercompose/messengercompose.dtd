@@ -223,6 +223,7 @@
 <!ENTITY smiley16Cmd.label "Chi'aj-e-Tz'apäl">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Majun Chilab'enïk Xilitäj">
+<!-- Message Pane Context Menu -->
 <!ENTITY spellCheckIgnoreWord.label "Tirepüx ri Tzij">
 <!ENTITY spellCheckIgnoreWord.accesskey "T">
 <!ENTITY spellCheckAddToDictionary.label "Titz'aqatisäx pa Soltzij">

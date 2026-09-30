@@ -371,6 +371,7 @@
 <!ENTITY compactButton.label "Kompakteer">
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "Gevorderde boodskapsoektog">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY getMsgButton.tooltip "Kry nuwe boodskappe">
 <!ENTITY getAllNewMsgCmd.label "Kry alle nuwe boodskappe">
 <!ENTITY getAllNewMsgCmd.accesskey "K">
@@ -580,6 +581,7 @@
 <!ENTITY minimizeWindow.key "m">
 <!ENTITY bringAllToFront.label "Bring alles na vore">
 <!ENTITY zoomWindow.label "Zoem">
+<!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac.commandkey ",">
 <!ENTITY preferencesCmdMac.modifiers "accel">
 <!ENTITY servicesMenuMac.label "Dienste">

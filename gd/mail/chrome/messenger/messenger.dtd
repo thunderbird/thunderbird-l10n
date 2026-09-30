@@ -503,6 +503,7 @@
 <!ENTITY appmenuButton.label "Clàr-taice na h-aplacaid">
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "Lorg adhartach nan teachdaireachdan">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY getMsgButton.tooltip "Faigh teachdaireachdan ùra">
 <!ENTITY getAllNewMsgCmd.label "Faigh a h-uile teachdaireachd ùr">
 <!ENTITY getAllNewMsgCmd.accesskey "g">
@@ -550,6 +551,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Teachdaireachd ùr">
 <!ENTITY appmenuNewContactCmd.label "neach-aithne ann an leabhar nan seòladh…">
+<!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Co-dhealbhachd a' bhàr-inneal…">
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Taga ùr…">
@@ -832,6 +834,7 @@
 <!ENTITY zoomWindow.label "Sùm">
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac2.label "Roghainnean">
+<!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac.commandkey ",">
 <!ENTITY preferencesCmdMac.modifiers "accel">
 <!ENTITY servicesMenuMac.label "Seirbheisean">

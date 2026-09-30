@@ -181,6 +181,7 @@
 <!ENTITY smiley16Cmd.label "Lips-are-Sealed">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "ਕੋਈ ਸੁਝਾਅ ਨਹੀਂ ਲੱਭਿਆ">
+<!-- Message Pane Context Menu -->
 <!ENTITY spellCheckIgnoreWord.label "ਸ਼ਬਦ ਅਣਡਿੱਠਾ">
 <!ENTITY spellCheckIgnoreWord.accesskey "I">
 <!ENTITY spellCheckAddToDictionary.label "ਡਿਕਸ਼ਨਰੀ ਵਿੱਚ ਸ਼ਾਮਲ">

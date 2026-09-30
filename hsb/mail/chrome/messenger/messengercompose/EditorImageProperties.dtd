@@ -62,6 +62,7 @@
 <!ENTITY LinkAdvancedEditButton.tooltip "HTML-atributy, stilowe atributy a JavaScript-atributy přidać abo změnić">
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "Formular">
+<!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageLocationTab.label "Adresa">
 <!ENTITY imageDimensionsTab.label "Wotměry">
 <!ENTITY imageAppearanceTab.label "Napohlad">

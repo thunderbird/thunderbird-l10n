@@ -5,6 +5,7 @@
 <!-- LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder -->
 <!ENTITY viewPicker.label "Προβολή:">
 <!ENTITY viewPicker.accesskey "β">
+<!-- LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder -->
 <!ENTITY viewAll.label "Όλα">
 <!ENTITY viewAll.accesskey "λ">
 <!ENTITY viewUnread.label "Μη αναγνωσμένα">

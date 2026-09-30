@@ -5,6 +5,7 @@
 <!-- LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder -->
 <!ENTITY viewPicker.label "Näytä:">
 <!ENTITY viewPicker.accesskey "y">
+<!-- LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder -->
 <!ENTITY viewAll.label "Kaikki">
 <!ENTITY viewAll.accesskey "K">
 <!ENTITY viewUnread.label "Lukematta">

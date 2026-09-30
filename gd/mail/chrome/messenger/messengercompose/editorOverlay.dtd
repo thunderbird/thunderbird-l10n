@@ -52,6 +52,7 @@
 <!ENTITY fontCourier.accesskey "C">
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "Tagh meud a' chrutha-chlò">
+<!-- Font Size SubMenu -->
 <!ENTITY decreaseFontSize.label "Nas lugha">
 <!ENTITY decreaseFontSize.accesskey "N">
 <!ENTITY decrementFontSize.key "&lt;">

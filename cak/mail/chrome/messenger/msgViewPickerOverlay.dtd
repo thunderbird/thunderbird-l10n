@@ -5,6 +5,7 @@
 <!-- LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder -->
 <!ENTITY viewPicker.label "Titz'et:">
 <!ENTITY viewPicker.accesskey "i">
+<!-- LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder -->
 <!ENTITY viewAll.label "Ronojel">
 <!ENTITY viewAll.accesskey "R">
 <!ENTITY viewUnread.label "Man sik'in ta">

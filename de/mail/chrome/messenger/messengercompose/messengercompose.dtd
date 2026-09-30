@@ -225,6 +225,7 @@
 <!ENTITY smiley17Cmd.label "Wütend">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Keine Vorschläge gefunden">
+<!-- Message Pane Context Menu -->
 <!ENTITY spellCheckIgnoreWord.label "Wort ignorieren">
 <!ENTITY spellCheckIgnoreWord.accesskey "g">
 <!ENTITY spellCheckAddToDictionary.label "Zu Benutzerwörterbuch hinzufügen">

@@ -225,6 +225,7 @@
 <!ENTITY smiley17Cmd.label "Զայրացած">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Առաջարկություններ չկան">
+<!-- Message Pane Context Menu -->
 <!ENTITY spellCheckIgnoreWord.label "Անտեսել բառը">
 <!ENTITY spellCheckIgnoreWord.accesskey "Ա">
 <!ENTITY spellCheckAddToDictionary.label "Ավելացնել բառարանում">

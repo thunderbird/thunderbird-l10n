@@ -52,6 +52,7 @@
 <!ENTITY fontCourier.accesskey "C">
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "Wybierz rozmiar czcionki">
+<!-- Font Size SubMenu -->
 <!ENTITY decreaseFontSize.label "Mniejszy">
 <!ENTITY decreaseFontSize.accesskey "n">
 <!ENTITY decrementFontSize.key "&lt;">

@@ -61,6 +61,7 @@
 <!ENTITY LinkAdvancedEditButton.tooltip "JavaScript, HTML atributlar va uslub atributlarini qo‘shish va o‘zgartirish">
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "Shakl">
+<!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageLocationTab.label "Manzili">
 <!ENTITY imageDimensionsTab.label "O‘lchamlari">
 <!ENTITY imageAppearanceTab.label "Ko‘rinishi">

@@ -58,6 +58,7 @@
 <!ENTITY showImageLinkBorder.accessKey "р">
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "Образец">
+<!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageLocationTab.label "Локација">
 <!ENTITY imageDimensionsTab.label "Димензии">
 <!ENTITY imageAppearanceTab.label "Изглед">

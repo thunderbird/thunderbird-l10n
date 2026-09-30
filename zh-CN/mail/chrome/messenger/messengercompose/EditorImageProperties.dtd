@@ -62,6 +62,7 @@
 <!ENTITY LinkAdvancedEditButton.tooltip "添加或修改 HTML 属性、样式属性以及 JavaScript">
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "表单">
+<!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageLocationTab.label "地址">
 <!ENTITY imageDimensionsTab.label "尺寸">
 <!ENTITY imageAppearanceTab.label "外观">

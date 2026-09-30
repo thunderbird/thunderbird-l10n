@@ -225,6 +225,7 @@
 <!ENTITY smiley17Cmd.label "Zangado">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Não existem sugestões">
+<!-- Message Pane Context Menu -->
 <!ENTITY spellCheckIgnoreWord.label "Ignorar palavra">
 <!ENTITY spellCheckIgnoreWord.accesskey "I">
 <!ENTITY spellCheckAddToDictionary.label "Adicionar ao dicionário">

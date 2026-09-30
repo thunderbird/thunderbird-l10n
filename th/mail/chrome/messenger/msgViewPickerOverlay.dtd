@@ -5,6 +5,7 @@
 <!-- LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder -->
 <!ENTITY viewPicker.label "มุมมอง:">
 <!ENTITY viewPicker.accesskey "ม">
+<!-- LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder -->
 <!ENTITY viewAll.label "ทั้งหมด">
 <!ENTITY viewAll.accesskey "ท">
 <!ENTITY viewUnread.label "ยังไม่ได้อ่าน">

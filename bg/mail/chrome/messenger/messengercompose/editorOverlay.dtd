@@ -52,6 +52,7 @@
 <!ENTITY fontCourier.accesskey "C">
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "Изберете размер на шрифта">
+<!-- Font Size SubMenu -->
 <!ENTITY decreaseFontSize.label "Намаляване">
 <!ENTITY decreaseFontSize.accesskey "я">
 <!ENTITY decrementFontSize.key "&lt;">

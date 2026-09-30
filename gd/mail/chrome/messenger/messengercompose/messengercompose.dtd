@@ -224,6 +224,7 @@
 <!ENTITY smiley16Cmd.label "Bilean dùinte">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Cha deach moladh sam bith a lorg">
+<!-- Message Pane Context Menu -->
 <!ENTITY spellCheckIgnoreWord.label "Leig seachad am facal seo">
 <!ENTITY spellCheckIgnoreWord.accesskey "i">
 <!ENTITY spellCheckAddToDictionary.label "Cuir ris an fhaclair">

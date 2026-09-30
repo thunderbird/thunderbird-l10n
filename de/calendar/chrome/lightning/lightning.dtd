@@ -34,6 +34,8 @@
      - tooltiptext1 is used in the calendar wizard when setting a new caldav calendar
      - tooltiptext2 is used in the calendar properties dialog for caldav calendars -->
 <!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext1 "Derzeit können Sie diese Option nur aktivieren, wenn Sie im Eigenschaftsdialog des Kalenders eingestellt haben, ob der Kalenderserver die Terminplanung übernimmt.">
+<!-- LOCALIZATON NOTE(lightning.calendarproperties.forceEmailScheduling.tooltiptext2)
+     This is used in the calendar properties dialog for caldav calendars. -->
 <!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext2 "Diese Option ist nur verfügbar, wenn der Kalenderserver die Terminplanung übernimmt. Wenn Sie diese Option aktivieren, können Sie auf die standardmäßige, E-Mail-basierte Terminplanung zurückgreifen, anstatt sie dem Server zu überlassen.">
 <!-- The notifications settings in the properties dialog -->
 <!ENTITY lightning.calendarproperties.notifications.label "Benachrichtigungen">

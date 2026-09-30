@@ -503,6 +503,7 @@
 <!ENTITY appmenuButton.label "Menu de aplicações">
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "Pesquisa avançada de mensagens">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY getMsgButton.tooltip "Obter novas mensagens">
 <!ENTITY getAllNewMsgCmd.label "Obter todas as novas mensagens">
 <!ENTITY getAllNewMsgCmd.accesskey "g">
@@ -550,6 +551,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Nova mensagem">
 <!ENTITY appmenuNewContactCmd.label "Contacto do livro de endereços...">
+<!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Esquema da barra de ferramentas…">
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Nova etiqueta...">
@@ -834,6 +836,7 @@
 <!ENTITY zoomWindow.label "Zoom">
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac2.label "Preferências">
+<!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac.commandkey ",">
 <!ENTITY preferencesCmdMac.modifiers "accel">
 <!ENTITY servicesMenuMac.label "Serviços">

@@ -225,6 +225,7 @@
 <!ENTITY smiley17Cmd.label "Kızgın">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Öneri bulunamadı">
+<!-- Message Pane Context Menu -->
 <!ENTITY spellCheckIgnoreWord.label "Sözcüğü görmezden gel">
 <!ENTITY spellCheckIgnoreWord.accesskey "G">
 <!ENTITY spellCheckAddToDictionary.label "Sözlüğe Ekle">

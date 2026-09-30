@@ -5,6 +5,7 @@
 <!-- LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder -->
 <!ENTITY viewPicker.label "Tampilkan:">
 <!ENTITY viewPicker.accesskey "T">
+<!-- LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder -->
 <!ENTITY viewAll.label "Semua">
 <!ENTITY viewAll.accesskey "a">
 <!ENTITY viewUnread.label "Belum Dibaca">

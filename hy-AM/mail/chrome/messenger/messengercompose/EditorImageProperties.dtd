@@ -62,6 +62,7 @@
 <!ENTITY LinkAdvancedEditButton.tooltip "Ավելացնել կամ փոփոխել HTML հատկությունները, ոճի հատկությունները և JavaScript-ը">
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "Բլանկ">
+<!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageLocationTab.label "Տեղադրությունը">
 <!ENTITY imageDimensionsTab.label "Չափերը">
 <!ENTITY imageAppearanceTab.label "Տեսք">

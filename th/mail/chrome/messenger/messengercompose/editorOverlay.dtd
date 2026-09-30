@@ -52,6 +52,7 @@
 <!ENTITY fontCourier.accesskey "C">
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "เลือกขนาดแบบอักษร">
+<!-- Font Size SubMenu -->
 <!ENTITY decreaseFontSize.label "เล็กลง">
 <!ENTITY decreaseFontSize.accesskey "ล">
 <!ENTITY decrementFontSize.key "&lt;">

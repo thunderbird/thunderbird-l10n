@@ -503,6 +503,7 @@
 <!ENTITY appmenuButton.label "AppMeny">
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "Avansert meldingssøk">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY getMsgButton.tooltip "Hent nye meldingar">
 <!ENTITY getAllNewMsgCmd.label "Hent alle nye meldingar">
 <!ENTITY getAllNewMsgCmd.accesskey "e">
@@ -550,6 +551,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Ny melding">
 <!ENTITY appmenuNewContactCmd.label "Adressebokkontaktar …">
+<!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Verktøylinjeutsjånad…">
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Ny etikett…">
@@ -834,6 +836,7 @@
 <!ENTITY zoomWindow.label "Zoom">
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac2.label "Innstillingar">
+<!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac.commandkey ",">
 <!ENTITY preferencesCmdMac.modifiers "accel">
 <!ENTITY servicesMenuMac.label "Tenester">

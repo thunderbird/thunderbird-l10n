@@ -5,6 +5,7 @@
 <!-- LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder -->
 <!ENTITY viewPicker.label "Prikaži:">
 <!ENTITY viewPicker.accesskey "i">
+<!-- LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder -->
 <!ENTITY viewAll.label "Sve">
 <!ENTITY viewAll.accesskey "A">
 <!ENTITY viewUnread.label "Nepročitano">

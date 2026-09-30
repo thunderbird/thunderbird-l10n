@@ -503,6 +503,7 @@
 <!ENTITY appmenuButton.label "Меню с приложения">
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "Разширено търсене">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY getMsgButton.tooltip "Проверка и изтегляне на нови писма">
 <!ENTITY getAllNewMsgCmd.label "Проверка за нови писма">
 <!ENTITY getAllNewMsgCmd.accesskey "П">
@@ -550,6 +551,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Ново съобщение">
 <!ENTITY appmenuNewContactCmd.label "Контакт към адресника…">
+<!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Оформление на лентата с инструменти…">
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Нов етикет…">
@@ -834,6 +836,7 @@
 <!ENTITY zoomWindow.label "Мащабиране">
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac2.label "Настройки">
+<!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac.commandkey ",">
 <!ENTITY preferencesCmdMac.modifiers "accel">
 <!ENTITY servicesMenuMac.label "Услуги">

@@ -503,6 +503,7 @@
 <!ENTITY appmenuButton.label "Meni nałoženjow">
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "Rozšěrjene pytanje powěsćow">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY getMsgButton.tooltip "Nowe powěsće wobstarać">
 <!ENTITY getAllNewMsgCmd.label "Wšě nowe powěsće wobstarać">
 <!ENTITY getAllNewMsgCmd.accesskey "W">
@@ -550,6 +551,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Nowa powěsć">
 <!ENTITY appmenuNewContactCmd.label "Kontakt adresnika…">
+<!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Wuhotowanje symboloweje lajsty…">
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Nowa značka…">
@@ -834,6 +836,7 @@
 <!ENTITY zoomWindow.label "Skalować">
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac2.label "Nastajenja">
+<!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac.commandkey ",">
 <!ENTITY preferencesCmdMac.modifiers "accel">
 <!ENTITY servicesMenuMac.label "Słužby">

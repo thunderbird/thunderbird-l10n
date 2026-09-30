@@ -224,6 +224,7 @@
 <!ENTITY smiley16Cmd.label "Բերանփակ">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Առաջարկութիւններ չեն գտնուել">
+<!-- Message Pane Context Menu -->
 <!ENTITY spellCheckIgnoreWord.label "Անտեսել բառը">
 <!ENTITY spellCheckIgnoreWord.accesskey "Ա">
 <!ENTITY spellCheckAddToDictionary.label "Աւելացնել բառարանում">

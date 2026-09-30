@@ -225,6 +225,7 @@
 <!ENTITY smiley17Cmd.label "โกรธ">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "ไม่พบคำแนะนำ">
+<!-- Message Pane Context Menu -->
 <!ENTITY spellCheckIgnoreWord.label "เพิกเฉยคำ">
 <!ENTITY spellCheckIgnoreWord.accesskey "พ">
 <!ENTITY spellCheckAddToDictionary.label "เพิ่มไปยังพจนานุกรม">

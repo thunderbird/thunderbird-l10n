@@ -34,6 +34,8 @@
      - tooltiptext1 is used in the calendar wizard when setting a new caldav calendar
      - tooltiptext2 is used in the calendar properties dialog for caldav calendars -->
 <!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext1 "Í bili geturðu aðeins virkjað þetta eftir að hafa sett upp þetta dagatal í eiginleikaglugganum ef dagatalsmiðlarinn sér um áætlanir.">
+<!-- LOCALIZATON NOTE(lightning.calendarproperties.forceEmailScheduling.tooltiptext2)
+     This is used in the calendar properties dialog for caldav calendars. -->
 <!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext2 "Þessi valkostur er aðeins í boði ef dagatalsmiðlarinn sér um áætlanir. Virkjun gerir kleift að falla aftur í hefðbundnar áætlanir í tölvupósti í stað þess að skilja þær eftir á þjóninum.">
 <!-- The notifications settings in the properties dialog -->
 <!ENTITY lightning.calendarproperties.notifications.label "Tilkynningar">

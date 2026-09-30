@@ -225,6 +225,7 @@
 <!ENTITY smiley17Cmd.label "Ашулы">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Ұсыныстар табылмады">
+<!-- Message Pane Context Menu -->
 <!ENTITY spellCheckIgnoreWord.label "Сөзді елемеу">
 <!ENTITY spellCheckIgnoreWord.accesskey "е">
 <!ENTITY spellCheckAddToDictionary.label "Сөздікке қосу">

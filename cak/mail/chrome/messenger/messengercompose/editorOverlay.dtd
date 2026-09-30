@@ -52,6 +52,7 @@
 <!ENTITY fontCourier.accesskey "C">
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "Tacha' jun runimilem ruwäch tz'ib'">
+<!-- Font Size SubMenu -->
 <!ENTITY decreaseFontSize.label "Ko'öl">
 <!ENTITY decreaseFontSize.accesskey "l">
 <!ENTITY decrementFontSize.key "&lt;">

@@ -52,6 +52,7 @@
 <!ENTITY fontCourier.accesskey "C">
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "Pilih ukuran huruf">
+<!-- Font Size SubMenu -->
 <!ENTITY decreaseFontSize.label "Lebih Kecil">
 <!ENTITY decreaseFontSize.accesskey "K">
 <!ENTITY decrementFontSize.key "&lt;">

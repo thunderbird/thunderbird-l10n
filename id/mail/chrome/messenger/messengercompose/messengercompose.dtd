@@ -225,6 +225,7 @@
 <!ENTITY smiley17Cmd.label "Marah">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Tidak ada saran ditemukan">
+<!-- Message Pane Context Menu -->
 <!ENTITY spellCheckIgnoreWord.label "Abaikan kata">
 <!ENTITY spellCheckIgnoreWord.accesskey "i">
 <!ENTITY spellCheckAddToDictionary.label "Tambahkan ke Kamus">

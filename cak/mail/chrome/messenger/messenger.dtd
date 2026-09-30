@@ -503,6 +503,7 @@
 <!ENTITY appmenuButton.label "AppMenu">
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "Q'axinäq rukanoxik tzijol">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY getMsgButton.tooltip "Kek'ul k'ak'a' taq tzijol">
 <!ENTITY getAllNewMsgCmd.label "Kek'ul Ronojel K'ak'a' taq Tzijol">
 <!ENTITY getAllNewMsgCmd.accesskey "K">
@@ -550,6 +551,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "K'ak'a' Rutzijol">
 <!ENTITY appmenuNewContactCmd.label "Kib'i' Achib'il pa Kitz'ib'awuj Ochochib'äl…">
+<!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Ruwachib'enïk Rukajtz'ik Samajib'äl…">
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "K'ak'a' Etal…">
@@ -832,6 +834,7 @@
 <!ENTITY zoomWindow.label "Sum">
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac2.label "Taq ajowab'äl">
+<!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac.commandkey ",">
 <!ENTITY preferencesCmdMac.modifiers "accel">
 <!ENTITY servicesMenuMac.label "Taq samaj">

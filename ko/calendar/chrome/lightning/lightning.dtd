@@ -34,6 +34,8 @@
      - tooltiptext1 is used in the calendar wizard when setting a new caldav calendar
      - tooltiptext2 is used in the calendar properties dialog for caldav calendars -->
 <!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext1 "달력 서버가 예약을 다룬다면 이제부터 속성 창에서 이 달력을 설정 한 후에 이것을 활성화 할 수 있습니다.">
+<!-- LOCALIZATON NOTE(lightning.calendarproperties.forceEmailScheduling.tooltiptext2)
+     This is used in the calendar properties dialog for caldav calendars. -->
 <!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext2 "이 설정은 달력 서버가 예약을 다룰때에만 사용할 수 있습니다. 활성화 하면 예약을 서버에 남기지 않고 이메일 기반의 표준을 사용할 수 있게 합니다.">
 <!-- The notifications settings in the properties dialog -->
 <!ENTITY lightning.calendarproperties.notifications.label "알림">

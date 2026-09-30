@@ -62,6 +62,7 @@
 <!ENTITY LinkAdvancedEditButton.tooltip "Tambah atau modifikasi atribut HTML, gaya, dan JavaScript">
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "Form">
+<!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageLocationTab.label "Lokasi">
 <!ENTITY imageDimensionsTab.label "Dimensi">
 <!ENTITY imageAppearanceTab.label "Tampilan">

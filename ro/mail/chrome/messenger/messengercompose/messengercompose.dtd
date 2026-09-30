@@ -225,6 +225,7 @@
 <!ENTITY smiley17Cmd.label "Mâniat">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Nicio sugestie găsită">
+<!-- Message Pane Context Menu -->
 <!ENTITY spellCheckIgnoreWord.label "Ignoră cuvântul">
 <!ENTITY spellCheckIgnoreWord.accesskey "I">
 <!ENTITY spellCheckAddToDictionary.label "Adaugă în dicționar">

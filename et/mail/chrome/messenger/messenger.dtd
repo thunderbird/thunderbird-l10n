@@ -503,6 +503,7 @@
 <!ENTITY appmenuButton.label "Rakenduse menüü">
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "Laiendatud otsing kirjadest">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY getMsgButton.tooltip "Kontrolli, kas on uusi kirju">
 <!ENTITY getAllNewMsgCmd.label "Tõmba kõik uued kirjad">
 <!ENTITY getAllNewMsgCmd.accesskey "T">
@@ -550,6 +551,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Uus kiri">
 <!ENTITY appmenuNewContactCmd.label "Aadressiraamatu kontakt…">
+<!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Kohanda tööriistariba…">
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Uus silt…">
@@ -834,6 +836,7 @@
 <!ENTITY zoomWindow.label "Suurendus">
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac2.label "Eelistused">
+<!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac.commandkey ",">
 <!ENTITY preferencesCmdMac.modifiers "accel">
 <!ENTITY servicesMenuMac.label "Teenused">

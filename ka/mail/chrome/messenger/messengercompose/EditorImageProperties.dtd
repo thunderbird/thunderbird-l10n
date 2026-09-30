@@ -62,6 +62,7 @@
 <!ENTITY LinkAdvancedEditButton.tooltip "HTML ან სტილის ატრიბუტებისა და JavaScript-ის დამატება ან შეცვლა">
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "ფორმა">
+<!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageLocationTab.label "მისამართი">
 <!ENTITY imageDimensionsTab.label "ზომები">
 <!ENTITY imageAppearanceTab.label "იერსახე">

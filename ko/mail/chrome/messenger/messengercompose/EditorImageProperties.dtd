@@ -62,6 +62,7 @@
 <!ENTITY LinkAdvancedEditButton.tooltip "HTML 속성 및 스타일 속성 그리고 자바스크립트 변경 및 추가">
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "폼">
+<!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageLocationTab.label "위치">
 <!ENTITY imageDimensionsTab.label "크기">
 <!ENTITY imageAppearanceTab.label "모양">

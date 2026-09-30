@@ -225,6 +225,7 @@
 <!ENTITY smiley17Cmd.label "Enfadado">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Non se atoparon suxestións">
+<!-- Message Pane Context Menu -->
 <!ENTITY spellCheckIgnoreWord.label "Ignorar a palabra">
 <!ENTITY spellCheckIgnoreWord.accesskey "a">
 <!ENTITY spellCheckAddToDictionary.label "Engadir ao dicionario">

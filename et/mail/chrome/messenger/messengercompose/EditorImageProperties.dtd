@@ -62,6 +62,7 @@
 <!ENTITY LinkAdvancedEditButton.tooltip "Lisa või muuda HTMLi atribuute, stiilide atribuute ja JavaScripti">
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "Vorm">
+<!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageLocationTab.label "Asukoht">
 <!ENTITY imageDimensionsTab.label "Mõõtmed">
 <!ENTITY imageAppearanceTab.label "Välimus">

@@ -158,6 +158,7 @@
 <!ENTITY smiley16Cmd.label "Залепени усни">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Не пронајдов предлози">
+<!-- Message Pane Context Menu -->
 <!ENTITY spellCheckIgnoreWord.label "Игнорирај го зборот">
 <!ENTITY spellCheckIgnoreWord.accesskey "И">
 <!ENTITY spellCheckAddToDictionary.label "Додај во речник">

@@ -62,6 +62,7 @@
 <!ENTITY LinkAdvancedEditButton.tooltip "Hinzufügen oder ändern von HTML-Attributen, Style-Attributen und JavaScript">
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "Formular">
+<!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageLocationTab.label "Adresse">
 <!ENTITY imageDimensionsTab.label "Dimensionen">
 <!ENTITY imageAppearanceTab.label "Erscheinungsbild">

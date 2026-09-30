@@ -503,6 +503,7 @@
 <!ENTITY appmenuButton.label "AplMenua">
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "Mezuen bilaketa aurreratua">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY getMsgButton.tooltip "Hartu mezu berriak">
 <!ENTITY getAllNewMsgCmd.label "Hartu mezu berri guztiak">
 <!ENTITY getAllNewMsgCmd.accesskey "H">
@@ -550,6 +551,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Mezu berria">
 <!ENTITY appmenuNewContactCmd.label "Helbide-liburuko kontaktua…">
+<!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Tresna-barraren diseinua…">
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Etiketa berria…">
@@ -834,6 +836,7 @@
 <!ENTITY zoomWindow.label "Zooma">
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac2.label "Hobespenak">
+<!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac.commandkey ",">
 <!ENTITY preferencesCmdMac.modifiers "azel">
 <!ENTITY servicesMenuMac.label "Zerbitzuak">

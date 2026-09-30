@@ -61,6 +61,7 @@
 <!ENTITY LinkAdvancedEditButton.tooltip "Add or modify HTML attributes, style attributes, and JavaScript">
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "ਫਾਰਮ">
+<!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageLocationTab.label "ਸਥਿਤੀ">
 <!ENTITY imageDimensionsTab.label "ਮਾਪ">
 <!ENTITY imageAppearanceTab.label "ਸ਼ਕਲ">

@@ -52,6 +52,7 @@
 <!ENTITY fontCourier.accesskey "К">
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "Изабери величину фонта">
+<!-- Font Size SubMenu -->
 <!ENTITY decreaseFontSize.label "Мања">
 <!ENTITY decreaseFontSize.accesskey "М">
 <!ENTITY decrementFontSize.key "&lt;">

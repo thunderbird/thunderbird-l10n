@@ -481,6 +481,7 @@
 <!ENTITY appmenuButton.label "Feidhmchláir">
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "Ardchuardach na dteachtaireachtaí">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY getMsgButton.tooltip "Faigh teachtaireachtaí nua">
 <!ENTITY getAllNewMsgCmd.label "Faigh Gach Teachtaireacht Nua">
 <!ENTITY getAllNewMsgCmd.accesskey "g">
@@ -527,6 +528,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Teachtaireacht Nua">
 <!ENTITY appmenuNewContactCmd.label "Teagmhálaí sa Leabhar Seoltaí…">
+<!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Leagan Amach an Bharra Uirlisí…">
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Clib Nua…">
@@ -797,6 +799,7 @@
 <!ENTITY zoomWindow.label "Súmáil">
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac2.label "Sainroghanna">
+<!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac.commandkey ",">
 <!ENTITY preferencesCmdMac.modifiers "accel">
 <!ENTITY servicesMenuMac.label "Seirbhísí">

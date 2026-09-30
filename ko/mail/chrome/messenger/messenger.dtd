@@ -503,6 +503,7 @@
 <!ENTITY appmenuButton.label "앱 메뉴">
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "고급 메시지 검색">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY getMsgButton.tooltip "새 메시지 받기">
 <!ENTITY getAllNewMsgCmd.label "새 메시지 모두 받기">
 <!ENTITY getAllNewMsgCmd.accesskey "G">
@@ -550,6 +551,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "새 메시지">
 <!ENTITY appmenuNewContactCmd.label "주소록 연락처…">
+<!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "툴바 레이아웃…">
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "새 태그…">
@@ -834,6 +836,7 @@
 <!ENTITY zoomWindow.label "창 확대">
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac2.label "환경 설정…">
+<!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac.commandkey ",">
 <!ENTITY preferencesCmdMac.modifiers "accel">
 <!ENTITY servicesMenuMac.label "서비스">

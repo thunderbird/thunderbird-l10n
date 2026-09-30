@@ -225,6 +225,7 @@
 <!ENTITY smiley17Cmd.label "Rozmjerzany">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Žane namjety namakane">
+<!-- Message Pane Context Menu -->
 <!ENTITY spellCheckIgnoreWord.label "Słowo ignorować">
 <!ENTITY spellCheckIgnoreWord.accesskey "i">
 <!ENTITY spellCheckAddToDictionary.label "Słownikej přidać">

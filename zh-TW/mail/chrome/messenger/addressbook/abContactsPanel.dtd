@@ -10,6 +10,9 @@
 <!ENTITY contactPropertiesMenu.accesskey "i">
 <!ENTITY mailingListPropertiesMenu.label "郵件群組屬性">
 <!ENTITY mailingListPropertiesMenu.accesskey "i">
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY abContextMenuButton.tooltip "顯示通訊錄選單">
 <!ENTITY addressbookPicker.label "通訊錄:">
 <!ENTITY addressbookPicker.accesskey "k">

@@ -52,6 +52,7 @@
 <!ENTITY fontCourier.accesskey "C">
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "Zgjidhni madhësi shkronjash">
+<!-- Font Size SubMenu -->
 <!ENTITY decreaseFontSize.label "Më të vogla">
 <!ENTITY decreaseFontSize.accesskey "v">
 <!ENTITY decrementFontSize.key "&lt;">

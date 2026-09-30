@@ -10,6 +10,9 @@
 <!ENTITY contactPropertiesMenu.accesskey "и">
 <!ENTITY mailingListPropertiesMenu.label "Хаттарды тарату тізімінің қасиеттері">
 <!ENTITY mailingListPropertiesMenu.accesskey "т">
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY abContextMenuButton.tooltip "Адрестік кітапшаның контекст мәзірін көрсету">
 <!ENTITY addressbookPicker.label "Адрестік кітапша:">
 <!ENTITY addressbookPicker.accesskey "к">

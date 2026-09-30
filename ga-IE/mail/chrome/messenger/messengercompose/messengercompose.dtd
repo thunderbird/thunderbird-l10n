@@ -196,6 +196,7 @@
 <!ENTITY smiley16Cmd.label "Glas ar an teanga">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Níl Aon Mholadh">
+<!-- Message Pane Context Menu -->
 <!ENTITY spellCheckIgnoreWord.label "Tabhair neamhaird ar an bhFocal Seo">
 <!ENTITY spellCheckIgnoreWord.accesskey "i">
 <!ENTITY spellCheckAddToDictionary.label "Cuir san Fhoclóir">

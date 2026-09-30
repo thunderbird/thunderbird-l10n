@@ -52,6 +52,7 @@
 <!ENTITY fontCourier.accesskey "c">
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "글꼴 크기 선택">
+<!-- Font Size SubMenu -->
 <!ENTITY decreaseFontSize.label "작게">
 <!ENTITY decreaseFontSize.accesskey "r">
 <!ENTITY decrementFontSize.key "-">

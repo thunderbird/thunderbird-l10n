@@ -34,6 +34,8 @@
      - tooltiptext1 is used in the calendar wizard when setting a new caldav calendar
      - tooltiptext2 is used in the calendar properties dialog for caldav calendars -->
 <!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext1 "Foarearst kinne jo dit allinnich ynskeakelje nei it ynstellen fan dizze aginda yn it eigenskippenfinster derfan as de agindaserver de planning fersoarget.">
+<!-- LOCALIZATON NOTE(lightning.calendarproperties.forceEmailScheduling.tooltiptext2)
+     This is used in the calendar properties dialog for caldav calendars. -->
 <!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext2 "Dizze opsje is allinnich beskikber as de agindaserver planning fersoarget. By ynskeakeljen kin weromfallen wurde nei de standert op e-mail basearre planning yn stee fan dit oan de server oer te litten.">
 <!-- The notifications settings in the properties dialog -->
 <!ENTITY lightning.calendarproperties.notifications.label "Meldingen">

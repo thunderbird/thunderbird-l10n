@@ -225,6 +225,7 @@
 <!ENTITY smiley17Cmd.label "愤怒">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "无法找到可建议修改的词">
+<!-- Message Pane Context Menu -->
 <!ENTITY spellCheckIgnoreWord.label "忽略词">
 <!ENTITY spellCheckIgnoreWord.accesskey "I">
 <!ENTITY spellCheckAddToDictionary.label "添加至字典">

@@ -224,6 +224,7 @@
 <!ENTITY smiley16Cmd.label "Ḥmimuc">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Ulac isumar yettwafen">
+<!-- Message Pane Context Menu -->
 <!ENTITY spellCheckIgnoreWord.label "Zgel awal">
 <!ENTITY spellCheckIgnoreWord.accesskey "Z">
 <!ENTITY spellCheckAddToDictionary.label "Rnu ɣer umawal">

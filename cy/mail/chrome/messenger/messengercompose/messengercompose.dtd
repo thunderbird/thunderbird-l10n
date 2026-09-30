@@ -225,6 +225,7 @@
 <!ENTITY smiley17Cmd.label "Blin">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Heb Ganfod Awgrymiadau">
+<!-- Message Pane Context Menu -->
 <!ENTITY spellCheckIgnoreWord.label "Anwybyddu Gair">
 <!ENTITY spellCheckIgnoreWord.accesskey "A">
 <!ENTITY spellCheckAddToDictionary.label "Ychwanegu i'r Geiriadur">

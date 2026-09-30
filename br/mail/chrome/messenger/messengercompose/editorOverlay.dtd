@@ -52,6 +52,7 @@
 <!ENTITY fontCourier.accesskey "C">
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "Diuzañ ur vent nodrezh">
+<!-- Font Size SubMenu -->
 <!ENTITY decreaseFontSize.label "Bihanoc'h">
 <!ENTITY decreaseFontSize.accesskey "B">
 <!ENTITY decrementFontSize.key "&lt;">

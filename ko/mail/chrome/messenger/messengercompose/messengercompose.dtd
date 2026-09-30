@@ -225,6 +225,7 @@
 <!ENTITY smiley17Cmd.label "성난">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "추천 단어 없음">
+<!-- Message Pane Context Menu -->
 <!ENTITY spellCheckIgnoreWord.label "무시하기">
 <!ENTITY spellCheckIgnoreWord.accesskey "I">
 <!ENTITY spellCheckAddToDictionary.label "사전에 추가">

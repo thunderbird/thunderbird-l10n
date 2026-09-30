@@ -52,6 +52,7 @@
 <!ENTITY fontCourier.accesskey "C">
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "შრიფტის ზომის არჩევა">
+<!-- Font Size SubMenu -->
 <!ENTITY decreaseFontSize.label "შემცირება">
 <!ENTITY decreaseFontSize.accesskey "რ">
 <!ENTITY decrementFontSize.key "&lt;">

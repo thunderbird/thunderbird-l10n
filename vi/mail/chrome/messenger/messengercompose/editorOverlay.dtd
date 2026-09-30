@@ -52,6 +52,7 @@
 <!ENTITY fontCourier.accesskey "C">
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "Chọn cỡ chữ">
+<!-- Font Size SubMenu -->
 <!ENTITY decreaseFontSize.label "Nhỏ hơn">
 <!ENTITY decreaseFontSize.accesskey "r">
 <!ENTITY decrementFontSize.key "&lt;">

@@ -217,6 +217,7 @@
 <!ENTITY smiley16Cmd.label "Diweuz serret">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Kinnig kavet ebet">
+<!-- Message Pane Context Menu -->
 <!ENTITY spellCheckIgnoreWord.label "Leuskel ar ger a-gostez">
 <!ENTITY spellCheckIgnoreWord.accesskey "g">
 <!ENTITY spellCheckAddToDictionary.label "Ouzhpennañ d'ar geriadur">

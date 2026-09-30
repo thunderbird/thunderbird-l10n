@@ -503,6 +503,7 @@
 <!ENTITY appmenuButton.label "Meniu aplicație">
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "Căutare avansată în mesaje">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY getMsgButton.tooltip "Ia mesajele noi de pe server">
 <!ENTITY getAllNewMsgCmd.label "Toate conturile">
 <!ENTITY getAllNewMsgCmd.accesskey "T">
@@ -550,6 +551,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Mesaj nou">
 <!ENTITY appmenuNewContactCmd.label "Contact în agendă…">
+<!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Aranjamentul barei de unelte…">
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Etichetă nouă…">
@@ -834,6 +836,7 @@
 <!ENTITY zoomWindow.label "Zoom">
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac2.label "Preferințe">
+<!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac.commandkey ",">
 <!ENTITY preferencesCmdMac.modifiers "accel">
 <!ENTITY servicesMenuMac.label "Servicii">

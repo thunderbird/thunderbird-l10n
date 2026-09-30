@@ -503,6 +503,7 @@
 <!ENTITY appmenuButton.label "Қолданба мәзірі">
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "Хабарламаларды кеңейтілген іздеу">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY getMsgButton.tooltip "Жаңа хабарламаларды алу">
 <!ENTITY getAllNewMsgCmd.label "Барлық жаңа хабарламаларды алу">
 <!ENTITY getAllNewMsgCmd.accesskey "л">
@@ -550,6 +551,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Жаңа хабарлама">
 <!ENTITY appmenuNewContactCmd.label "Адрестік кітапша контакты…">
+<!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Панельдер орналасуы…">
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Жаңа тег…">
@@ -834,6 +836,7 @@
 <!ENTITY zoomWindow.label "Үлкейту">
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac2.label "Баптаулар">
+<!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac.commandkey ",">
 <!ENTITY preferencesCmdMac.modifiers "accel">
 <!ENTITY servicesMenuMac.label "Қызметтер">

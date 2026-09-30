@@ -214,6 +214,7 @@
 <!ENTITY smiley16Cmd.label "Bibir-Terkatup">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Tiada Cadangan Ditemui">
+<!-- Message Pane Context Menu -->
 <!ENTITY spellCheckIgnoreWord.label "Abaikan Perkataan">
 <!ENTITY spellCheckIgnoreWord.accesskey "A">
 <!ENTITY spellCheckAddToDictionary.label "Tambah dalam Kamus">

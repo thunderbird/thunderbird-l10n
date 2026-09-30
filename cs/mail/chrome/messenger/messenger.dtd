@@ -503,6 +503,7 @@
 <!ENTITY appmenuButton.label "Nabídka aplikace">
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "Rozšířené vyhledávání zpráv">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY getMsgButton.tooltip "Přijme nové zprávy">
 <!ENTITY getAllNewMsgCmd.label "Přijmout všechny nové zprávy">
 <!ENTITY getAllNewMsgCmd.accesskey "P">
@@ -550,6 +551,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Nová zpráva">
 <!ENTITY appmenuNewContactCmd.label "Kontakt…">
+<!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Upravit lišty…">
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Nový štítek…">
@@ -834,6 +836,7 @@
 <!ENTITY zoomWindow.label "Zvětšit okno">
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac2.label "Předvolby">
+<!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac.commandkey ",">
 <!ENTITY preferencesCmdMac.modifiers "accel">
 <!ENTITY servicesMenuMac.label "Služby">

@@ -5,6 +5,7 @@
 <!-- LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder -->
 <!ENTITY viewPicker.label "Nézet:">
 <!ENTITY viewPicker.accesskey "N">
+<!-- LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder -->
 <!ENTITY viewAll.label "Összes">
 <!ENTITY viewAll.accesskey "s">
 <!ENTITY viewUnread.label "Olvasatlan">

@@ -10,6 +10,9 @@
 <!ENTITY contactPropertiesMenu.accesskey "ι">
 <!ENTITY mailingListPropertiesMenu.label "Ιδιότητες λίστας αλληλογραφίας">
 <!ENTITY mailingListPropertiesMenu.accesskey "ι">
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY abContextMenuButton.tooltip "Προβολή μενού επιλογών ευρετηρίου">
 <!ENTITY addressbookPicker.label "Ευρετήριο:">
 <!ENTITY addressbookPicker.accesskey "υ">

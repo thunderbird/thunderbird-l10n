@@ -225,6 +225,7 @@
 <!ENTITY smiley17Cmd.label "Boos">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Geen suggesties gevonden">
+<!-- Message Pane Context Menu -->
 <!ENTITY spellCheckIgnoreWord.label "Woord negeren">
 <!ENTITY spellCheckIgnoreWord.accesskey "d">
 <!ENTITY spellCheckAddToDictionary.label "Toevoegen aan woordenboek">

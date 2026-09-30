@@ -225,6 +225,7 @@
 <!ENTITY smiley17Cmd.label "Piktas">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Siūlymų nėra">
+<!-- Message Pane Context Menu -->
 <!ENTITY spellCheckIgnoreWord.label "Praleisti žodį">
 <!ENTITY spellCheckIgnoreWord.accesskey "P">
 <!ENTITY spellCheckAddToDictionary.label "Įtraukti į žodyną">

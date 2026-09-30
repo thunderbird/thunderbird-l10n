@@ -5,6 +5,7 @@
 <!-- LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder -->
 <!ENTITY viewPicker.label "Показване на:">
 <!ENTITY viewPicker.accesskey "к">
+<!-- LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder -->
 <!ENTITY viewAll.label "Всичко">
 <!ENTITY viewAll.accesskey "В">
 <!ENTITY viewUnread.label "Непрочетени">

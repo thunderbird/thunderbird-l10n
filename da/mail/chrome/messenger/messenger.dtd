@@ -503,6 +503,7 @@
 <!ENTITY appmenuButton.label "Programmenu">
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "Avanceret adressesøgning">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY getMsgButton.tooltip "Hent nye meddelelser">
 <!ENTITY getAllNewMsgCmd.label "Hent alle nye meddelelser">
 <!ENTITY getAllNewMsgCmd.accesskey "H">
@@ -550,6 +551,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Ny meddelelse">
 <!ENTITY appmenuNewContactCmd.label "Kontakt…">
+<!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Tilpas værktøjslinje…">
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Nyt mærkat…">
@@ -834,6 +836,7 @@
 <!ENTITY zoomWindow.label "Zoom">
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac2.label "Indstillinger">
+<!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac.commandkey ",">
 <!ENTITY preferencesCmdMac.modifiers "accel">
 <!ENTITY servicesMenuMac.label "Tjenester">

@@ -225,6 +225,7 @@
 <!ENTITY smiley17Cmd.label "Lilk">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Gjin suggestjes fûn">
+<!-- Message Pane Context Menu -->
 <!ENTITY spellCheckIgnoreWord.label "Wurd negearje">
 <!ENTITY spellCheckIgnoreWord.accesskey "d">
 <!ENTITY spellCheckAddToDictionary.label "Tafoegje oan wurdboek">

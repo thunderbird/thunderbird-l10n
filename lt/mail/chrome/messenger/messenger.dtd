@@ -503,6 +503,7 @@
 <!ENTITY appmenuButton.label "Programos meniu">
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "Ieškoti laiškų…">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY getMsgButton.tooltip "Atsiųsti laiškus">
 <!ENTITY getAllNewMsgCmd.label "Atsiųsti visus laiškus">
 <!ENTITY getAllNewMsgCmd.accesskey "s">
@@ -550,6 +551,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Naujas laiškas">
 <!ENTITY appmenuNewContactCmd.label "Adresatas…">
+<!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Tvarkyti priemonių juostas…">
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Nauja gairė…">
@@ -834,6 +836,7 @@
 <!ENTITY zoomWindow.label "Pakeisti dydį">
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac2.label "Nuostatos">
+<!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac.commandkey ",">
 <!ENTITY preferencesCmdMac.modifiers "accel">
 <!ENTITY servicesMenuMac.label "Paslaugos">

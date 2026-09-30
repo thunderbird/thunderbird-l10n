@@ -10,6 +10,9 @@
 <!ENTITY contactPropertiesMenu.accesskey "i">
 <!ENTITY mailingListPropertiesMenu.label "Proprietà lista di distribuzione">
 <!ENTITY mailingListPropertiesMenu.accesskey "i">
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY abContextMenuButton.tooltip "Mostra il menu contestuale della rubrica">
 <!ENTITY addressbookPicker.label "Rubrica:">
 <!ENTITY addressbookPicker.accesskey "R">

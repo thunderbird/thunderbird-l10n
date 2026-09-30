@@ -10,6 +10,9 @@
 <!ENTITY contactPropertiesMenu.accesskey "в">
 <!ENTITY mailingListPropertiesMenu.label "Свойства списка рассылки">
 <!ENTITY mailingListPropertiesMenu.accesskey "в">
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY abContextMenuButton.tooltip "Отобразить контекстное меню адресной книги">
 <!ENTITY addressbookPicker.label "Адресная книга:">
 <!ENTITY addressbookPicker.accesskey "е">

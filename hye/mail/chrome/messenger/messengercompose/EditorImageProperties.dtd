@@ -62,6 +62,7 @@
 <!ENTITY LinkAdvancedEditButton.tooltip "Աւելացնել կամ փոփոխել HTML֊ի, ոճի յատկանիշները եւ JavaScript-ը">
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "Ձեւ">
+<!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageLocationTab.label "Տեղադրութիւն">
 <!ENTITY imageDimensionsTab.label "Չափերը">
 <!ENTITY imageAppearanceTab.label "Տեսք">

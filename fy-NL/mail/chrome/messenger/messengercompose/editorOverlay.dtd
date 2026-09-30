@@ -52,6 +52,7 @@
 <!ENTITY fontCourier.accesskey "C">
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "Tekengrutte kieze">
+<!-- Font Size SubMenu -->
 <!ENTITY decreaseFontSize.label "Lytser">
 <!ENTITY decreaseFontSize.accesskey "L">
 <!ENTITY decrementFontSize.key "&lt;">

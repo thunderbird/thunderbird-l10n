@@ -61,6 +61,7 @@
 <!ENTITY LinkAdvancedEditButton.tooltip "Amiesta o modifica atributos HTML, atributos d'estilu y JavaScript">
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "Formulariu">
+<!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageLocationTab.label "Llocalización">
 <!ENTITY imageDimensionsTab.label "Dimensiones">
 <!ENTITY imageAppearanceTab.label "Aspeutu">

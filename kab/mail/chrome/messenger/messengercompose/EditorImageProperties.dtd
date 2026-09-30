@@ -62,6 +62,7 @@
 <!ENTITY LinkAdvancedEditButton.tooltip "Rnu neɣ snifel imyerren HTML, imyerren n uɣanib, d JavaScript">
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "Tiferkit">
+<!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageLocationTab.label "Tansa">
 <!ENTITY imageDimensionsTab.label "Tisektiwin">
 <!ENTITY imageAppearanceTab.label "Arwes">

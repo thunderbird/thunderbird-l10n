@@ -34,6 +34,8 @@
      - tooltiptext1 is used in the calendar wizard when setting a new caldav calendar
      - tooltiptext2 is used in the calendar properties dialog for caldav calendars -->
 <!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext1 "Akka tura, tzemreḍ kan ad tremdeḍ ayagi deffir uswel n uwitay-agi di tnaka n udiwenni n tmeẓliyin, ma yella aqeddac yessefrak aɣawas.">
+<!-- LOCALIZATON NOTE(lightning.calendarproperties.forceEmailScheduling.tooltiptext2)
+     This is used in the calendar properties dialog for caldav calendars. -->
 <!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext2 "Aɣewwaṛ-agi yella kan ma yella aqeddac n uwitay yessefrak aɣawas. Armad ad yeǧǧ ad tuɣaleḍ ar uɣawas s yimayl deg umḍiq n tiǧǧin-is i uqaddac.">
 <!-- The notifications settings in the properties dialog -->
 <!ENTITY lightning.calendarproperties.notifications.label "Ilɣa">

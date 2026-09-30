@@ -52,6 +52,7 @@
 <!ENTITY fontCourier.accesskey "C">
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "Aukeratu letra-tipoaren tamaina">
+<!-- Font Size SubMenu -->
 <!ENTITY decreaseFontSize.label "Txikiagoa">
 <!ENTITY decreaseFontSize.accesskey "x">
 <!ENTITY decrementFontSize.key "&lt;">

@@ -34,6 +34,8 @@
      - tooltiptext1 is used in the calendar wizard when setting a new caldav calendar
      - tooltiptext2 is used in the calendar properties dialog for caldav calendars -->
 <!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext1 "Այսուհետ դուք կարող եք միացնել այս օրացույցի հատկությունների երկխոսության սահմանումից հետո, եթե օրացույցի սպասարկիչը զբաղվում է հերթագրումով։">
+<!-- LOCALIZATON NOTE(lightning.calendarproperties.forceEmailScheduling.tooltiptext2)
+     This is used in the calendar properties dialog for caldav calendars. -->
 <!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext2 "Այս տարբերակը մատչելի է միայն այն դեպքում, եթե օրացուցային սպասարկիչը մշակում է հերթագրումը։ Թույլատրումը կթողնի վերադառնալ հիմնական փստին, որը հիմնվում է հերթագրության վրա, չթողնելով այն սպասարկչին։">
 <!-- The notifications settings in the properties dialog -->
 <!ENTITY lightning.calendarproperties.notifications.label "Ծանուցումներ">

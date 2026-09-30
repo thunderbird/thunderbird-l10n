@@ -52,6 +52,7 @@
 <!ENTITY fontCourier.accesskey "C">
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "Pismowu wulkosć wubrać">
+<!-- Font Size SubMenu -->
 <!ENTITY decreaseFontSize.label "Pomjeńšić">
 <!ENTITY decreaseFontSize.accesskey "m">
 <!ENTITY decrementFontSize.key "&lt;">

@@ -52,6 +52,7 @@
 <!ENTITY fontCourier.accesskey "C">
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "Fren teɣzi n tsefsit">
+<!-- Font Size SubMenu -->
 <!ENTITY decreaseFontSize.label "Meẓẓi">
 <!ENTITY decreaseFontSize.accesskey "M">
 <!ENTITY decrementFontSize.key "&lt;">

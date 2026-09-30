@@ -503,6 +503,7 @@
 <!ENTITY appmenuButton.label "Uygulama Menüsü">
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "Gelişmiş ileti arama">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY getMsgButton.tooltip "Yeni iletileri indir">
 <!ENTITY getAllNewMsgCmd.label "Tüm yeni iletileri indir">
 <!ENTITY getAllNewMsgCmd.accesskey "T">
@@ -550,6 +551,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Yeni ileti">
 <!ENTITY appmenuNewContactCmd.label "Adres defteri kişisi…">
+<!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Araç çubuğu düzeni…">
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Yeni etiket…">
@@ -834,6 +836,7 @@
 <!ENTITY zoomWindow.label "Yakınlaştırma">
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac2.label "Tercihler">
+<!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac.commandkey ",">
 <!ENTITY preferencesCmdMac.modifiers "accel">
 <!ENTITY servicesMenuMac.label "Hizmetler">

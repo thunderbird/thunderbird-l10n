@@ -225,6 +225,7 @@
 <!ENTITY smiley17Cmd.label "Ядосан">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Няма предложения">
+<!-- Message Pane Context Menu -->
 <!ENTITY spellCheckIgnoreWord.label "Пренебрегване на думата">
 <!ENTITY spellCheckIgnoreWord.accesskey "д">
 <!ENTITY spellCheckAddToDictionary.label "Добавяне към речника">

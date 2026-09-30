@@ -52,6 +52,7 @@
 <!ENTITY fontCourier.accesskey "C">
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "Pismowu wjelikosć wubraś">
+<!-- Font Size SubMenu -->
 <!ENTITY decreaseFontSize.label "Mjeńšy">
 <!ENTITY decreaseFontSize.accesskey "M">
 <!ENTITY decrementFontSize.key "&lt;">

@@ -478,6 +478,7 @@
 <!ENTITY appmenuButton.label "AppMenu">
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "Gueta avanzada de mensaxes">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY getMsgButton.tooltip "Recibir mensaxes nuevos">
 <!ENTITY getAllNewMsgCmd.label "Recibir tolos mensaxes nuevos">
 <!ENTITY getAllNewMsgCmd.accesskey "R">
@@ -524,6 +525,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Mensaxe nuevu">
 <!ENTITY appmenuNewContactCmd.label "Contautu de la llibreta de direiciones…">
+<!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Disposición de la barra de ferramientes…">
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Etiqueta nueva…">
@@ -791,6 +793,7 @@
 <!ENTITY zoomWindow.label "Averar ventana">
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac2.label "Preferencies">
+<!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac.commandkey ",">
 <!ENTITY preferencesCmdMac.modifiers "accel">
 <!ENTITY servicesMenuMac.label "Servicios">

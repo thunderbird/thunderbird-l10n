@@ -503,6 +503,7 @@
 <!ENTITY appmenuButton.label "Trình đơn ứng dụng">
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "Tìm kiếm thư nâng cao">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY getMsgButton.tooltip "Nhận thư mới">
 <!ENTITY getAllNewMsgCmd.label "Nhận tất cả thư mới">
 <!ENTITY getAllNewMsgCmd.accesskey "y">
@@ -550,6 +551,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Thư mới">
 <!ENTITY appmenuNewContactCmd.label "Liên hệ trong sổ địa chỉ…">
+<!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Bố cục thanh công cụ…">
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Nhãn mới…">
@@ -834,6 +836,7 @@
 <!ENTITY zoomWindow.label "Thu phóng">
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac2.label "Tùy chỉnh">
+<!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac.commandkey ",">
 <!ENTITY preferencesCmdMac.modifiers "accel">
 <!ENTITY servicesMenuMac.label "Dịch vụ">

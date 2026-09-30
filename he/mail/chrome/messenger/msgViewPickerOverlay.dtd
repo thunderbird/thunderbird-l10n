@@ -5,6 +5,7 @@
 <!-- LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder -->
 <!ENTITY viewPicker.label "הצג:">
 <!ENTITY viewPicker.accesskey "צ">
+<!-- LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder -->
 <!ENTITY viewAll.label "הכול">
 <!ENTITY viewAll.accesskey "כ">
 <!ENTITY viewUnread.label "לא נקרא">

@@ -503,6 +503,7 @@
 <!ENTITY appmenuButton.label "應用程式選單">
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "進階郵件搜尋">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY getMsgButton.tooltip "下載新郵件">
 <!ENTITY getAllNewMsgCmd.label "下載所有新郵件">
 <!ENTITY getAllNewMsgCmd.accesskey "G">
@@ -550,6 +551,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "寫新訊息">
 <!ENTITY appmenuNewContactCmd.label "通訊錄連絡人…">
+<!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "工具列配置…">
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "新標籤…">
@@ -834,6 +836,7 @@
 <!ENTITY zoomWindow.label "縮放">
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac2.label "偏好設定">
+<!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac.commandkey ",">
 <!ENTITY preferencesCmdMac.modifiers "accel">
 <!ENTITY servicesMenuMac.label "服務">

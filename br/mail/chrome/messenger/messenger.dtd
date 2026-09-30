@@ -497,6 +497,7 @@
 <!ENTITY appmenuButton.label "Lañser an arloadoù">
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "Klask kempleshoc'h er c'hemennadennoù">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY getMsgButton.tooltip "Kerc'hat ar posteloù nevez">
 <!ENTITY getAllNewMsgCmd.label "Kerc'hat an holl bosteloù nevez">
 <!ENTITY getAllNewMsgCmd.accesskey "e">
@@ -544,6 +545,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Kemennadenn nevez">
 <!ENTITY appmenuNewContactCmd.label "Darempred ar c'harned chomlec'hioù …">
+<!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Aozadur ar varrenn ostilhoù…">
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Merk nevez…">
@@ -823,6 +825,7 @@
 <!ENTITY zoomWindow.label "Zoum">
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac2.label "Gwellvezioù">
+<!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac.commandkey ",">
 <!ENTITY preferencesCmdMac.modifiers "accel">
 <!ENTITY servicesMenuMac.label "Gwazerezhioù">

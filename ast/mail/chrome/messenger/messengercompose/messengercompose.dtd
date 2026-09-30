@@ -196,6 +196,7 @@
 <!ENTITY smiley16Cmd.label "Llabios pesllaos">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Nun s'alcontraron suxerencies">
+<!-- Message Pane Context Menu -->
 <!ENTITY spellCheckIgnoreWord.label "Inorar pallabra">
 <!ENTITY spellCheckIgnoreWord.accesskey "I">
 <!ENTITY spellCheckAddToDictionary.label "Amestar al diccionariu">

@@ -503,6 +503,7 @@
 <!ENTITY appmenuButton.label "AppMenu">
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "Ítarleg póstleit">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY getMsgButton.tooltip "Ná í nýjan póst">
 <!ENTITY getAllNewMsgCmd.label "Ná í nýjan póst">
 <!ENTITY getAllNewMsgCmd.accesskey "N">
@@ -550,6 +551,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Nýr póstur">
 <!ENTITY appmenuNewContactCmd.label "Tengiliður í nafnaskrá…">
+<!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Útlit verkfærastiku…">
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Nýtt merki…">
@@ -834,6 +836,7 @@
 <!ENTITY zoomWindow.label "Aðdráttur">
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac2.label "Kjörstillingar">
+<!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac.commandkey ",">
 <!ENTITY preferencesCmdMac.modifiers "accel">
 <!ENTITY servicesMenuMac.label "Þjónustur">

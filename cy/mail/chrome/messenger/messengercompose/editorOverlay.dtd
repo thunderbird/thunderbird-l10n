@@ -52,6 +52,7 @@
 <!ENTITY fontCourier.accesskey "C">
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "Dewiswch faint y ffont">
+<!-- Font Size SubMenu -->
 <!ENTITY decreaseFontSize.label "Llai">
 <!ENTITY decreaseFontSize.accesskey "L">
 <!ENTITY decrementFontSize.key "&lt;">

@@ -497,6 +497,7 @@
 <!ENTITY appmenuButton.label "AppMenu">
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "Carian mesej lanjutan">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY getMsgButton.tooltip "Dapatkan mesej baru">
 <!ENTITY getAllNewMsgCmd.label "Dapatkan Semua Mesej Baru">
 <!ENTITY getAllNewMsgCmd.accesskey "D">
@@ -543,6 +544,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Mesej Baru">
 <!ENTITY appmenuNewContactCmd.label "Kenalan Buku Alamat…">
+<!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Susun atur Bar alatan…">
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Tag Baru…">
@@ -818,6 +820,7 @@
 <!ENTITY zoomWindow.label "Zum">
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac2.label "Keutamaan">
+<!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac.commandkey ",">
 <!ENTITY preferencesCmdMac.modifiers "accel">
 <!ENTITY servicesMenuMac.label "Perkhidmatan">

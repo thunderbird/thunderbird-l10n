@@ -503,6 +503,7 @@
 <!ENTITY appmenuButton.label "Menu cumpact">
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "Tschertga da messadis avanzada">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY getMsgButton.tooltip "Retschaiver novs messadis">
 <!ENTITY getAllNewMsgCmd.label "Retschaiver tut ils messadis novs">
 <!ENTITY getAllNewMsgCmd.accesskey "n">
@@ -550,6 +551,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Nov messadi">
 <!ENTITY appmenuNewContactCmd.label "Contact en il cudeschet d'adressas…">
+<!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Design da las travs d'utensils…">
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Nova etichetta…">
@@ -834,6 +836,7 @@
 <!ENTITY zoomWindow.label "Zoom">
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac2.label "Preferenzas">
+<!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac.commandkey ",">
 <!ENTITY preferencesCmdMac.modifiers "accel">
 <!ENTITY servicesMenuMac.label "Servetschs">

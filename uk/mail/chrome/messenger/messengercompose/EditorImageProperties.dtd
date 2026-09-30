@@ -62,6 +62,7 @@
 <!ENTITY LinkAdvancedEditButton.tooltip "Додати або змінити атрибути HTML, атрибути стилю, та JavaScript">
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "Форма">
+<!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageLocationTab.label "Адреса">
 <!ENTITY imageDimensionsTab.label "Розміри">
 <!ENTITY imageAppearanceTab.label "Зовнішній вигляд">

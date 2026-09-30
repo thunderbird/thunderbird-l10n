@@ -225,6 +225,7 @@
 <!ENTITY smiley17Cmd.label "Ljuto">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Prijedlog nije pronađen">
+<!-- Message Pane Context Menu -->
 <!ENTITY spellCheckIgnoreWord.label "Ignoriraj riječ">
 <!ENTITY spellCheckIgnoreWord.accesskey "I">
 <!ENTITY spellCheckAddToDictionary.label "Dodaj u riječnik">

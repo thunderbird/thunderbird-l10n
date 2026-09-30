@@ -5,6 +5,7 @@
 <!-- LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder -->
 <!ENTITY viewPicker.label "ਵੇਖੋ:">
 <!ENTITY viewPicker.accesskey "i">
+<!-- LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder -->
 <!ENTITY viewAll.label "ਸਭ">
 <!ENTITY viewAll.accesskey "A">
 <!ENTITY viewUnread.label "ਨਾ-ਪੜ੍ਹੇ">

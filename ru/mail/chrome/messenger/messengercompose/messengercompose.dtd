@@ -225,6 +225,7 @@
 <!ENTITY smiley17Cmd.label "Злой">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Вариантов не найдено">
+<!-- Message Pane Context Menu -->
 <!ENTITY spellCheckIgnoreWord.label "Пропустить слово">
 <!ENTITY spellCheckIgnoreWord.accesskey "П">
 <!ENTITY spellCheckAddToDictionary.label "Добавить в словарь">

@@ -329,6 +329,7 @@
 <!ENTITY tagButton.label "Етикета">
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "Напредно пребарување на пораки">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY getMsgButton.tooltip "Соберете нови пораки">
 <!ENTITY getAllNewMsgCmd.label "Собери ги сите нови пораки">
 <!ENTITY newMsgButton.tooltip "Креирајте нова порака">

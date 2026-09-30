@@ -62,6 +62,7 @@
 <!ENTITY LinkAdvancedEditButton.tooltip "Pievienot vai mainīt HTML atribūtus, stila atribūtus un JavaScript">
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "Forma">
+<!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageLocationTab.label "Atrašanās vieta">
 <!ENTITY imageDimensionsTab.label "Izmēri">
 <!ENTITY imageAppearanceTab.label "Izskats">

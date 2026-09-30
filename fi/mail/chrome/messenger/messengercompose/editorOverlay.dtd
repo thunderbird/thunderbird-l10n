@@ -52,6 +52,7 @@
 <!ENTITY fontCourier.accesskey "C">
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "Valitse kirjasinten koko">
+<!-- Font Size SubMenu -->
 <!ENTITY decreaseFontSize.label "Pienempi">
 <!ENTITY decreaseFontSize.accesskey "P">
 <!ENTITY decrementFontSize.key "-">

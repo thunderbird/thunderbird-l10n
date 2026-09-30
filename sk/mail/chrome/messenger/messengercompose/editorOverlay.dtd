@@ -52,6 +52,7 @@
 <!ENTITY fontCourier.accesskey "C">
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "Vyberte veľkosť písma">
+<!-- Font Size SubMenu -->
 <!ENTITY decreaseFontSize.label "Zmenšiť">
 <!ENTITY decreaseFontSize.accesskey "e">
 <!ENTITY decrementFontSize.key "&lt;">

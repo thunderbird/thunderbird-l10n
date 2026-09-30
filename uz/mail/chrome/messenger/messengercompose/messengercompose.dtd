@@ -196,6 +196,7 @@
 <!ENTITY smiley16Cmd.label "Labini tishlagan">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Tavsiyalar topilmadi">
+<!-- Message Pane Context Menu -->
 <!ENTITY spellCheckIgnoreWord.label "So‘zni e’tiborsiz qoldirish">
 <!ENTITY spellCheckIgnoreWord.accesskey "I">
 <!ENTITY spellCheckAddToDictionary.label "Lug‘atga qo‘shish">

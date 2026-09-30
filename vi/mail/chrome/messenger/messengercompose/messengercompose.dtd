@@ -224,6 +224,7 @@
 <!ENTITY smiley17Cmd.label "Tức giận">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Không tìm thấy đề xuất nào">
+<!-- Message Pane Context Menu -->
 <!ENTITY spellCheckIgnoreWord.label "Bỏ qua từ">
 <!ENTITY spellCheckIgnoreWord.accesskey "u">
 <!ENTITY spellCheckAddToDictionary.label "Thêm vào từ điển">

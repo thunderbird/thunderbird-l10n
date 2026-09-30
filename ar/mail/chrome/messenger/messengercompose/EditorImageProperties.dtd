@@ -62,6 +62,7 @@
 <!ENTITY LinkAdvancedEditButton.tooltip "أضِف أو عدّل صفات HTML، و صفات الطراز و جافا سكربت">
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "مِن">
+<!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageLocationTab.label "المكان">
 <!ENTITY imageDimensionsTab.label "الأبعاد">
 <!ENTITY imageAppearanceTab.label "المظهر">

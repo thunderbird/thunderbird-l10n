@@ -503,6 +503,7 @@
 <!ENTITY appmenuButton.label "เมนูแอป">
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "การค้นหาข้อความขั้นสูง">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY getMsgButton.tooltip "รับข้อความใหม่">
 <!ENTITY getAllNewMsgCmd.label "รับข้อความใหม่ทั้งหมด">
 <!ENTITY getAllNewMsgCmd.accesskey "ร">
@@ -550,6 +551,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "ข้อความใหม่">
 <!ENTITY appmenuNewContactCmd.label "ผู้ติดต่อของสมุดรายชื่อ…">
+<!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "เค้าโครงแถบเครื่องมือ…">
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "ป้ายกำกับใหม่…">
@@ -834,6 +836,7 @@
 <!ENTITY zoomWindow.label "ซูม">
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac2.label "ค่าปรับแต่ง">
+<!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac.commandkey ",">
 <!ENTITY preferencesCmdMac.modifiers "accel">
 <!ENTITY servicesMenuMac.label "บริการ">

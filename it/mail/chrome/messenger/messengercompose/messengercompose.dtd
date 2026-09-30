@@ -225,6 +225,7 @@
 <!ENTITY smiley17Cmd.label "Arrabbiato">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Non trovato alcun suggerimento">
+<!-- Message Pane Context Menu -->
 <!ENTITY spellCheckIgnoreWord.label "Ignora parola">
 <!ENTITY spellCheckIgnoreWord.accesskey "I">
 <!ENTITY spellCheckAddToDictionary.label "Aggiungi al dizionario">

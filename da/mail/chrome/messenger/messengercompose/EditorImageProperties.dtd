@@ -62,6 +62,7 @@
 <!ENTITY LinkAdvancedEditButton.tooltip "Tilføj eller rediger HTML-attributter, CSS-attributter og JavaScript">
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "Formular">
+<!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageLocationTab.label "Placering">
 <!ENTITY imageDimensionsTab.label "Dimensioner">
 <!ENTITY imageAppearanceTab.label "Udseende">

@@ -62,6 +62,7 @@
 <!ENTITY LinkAdvancedEditButton.tooltip "Ketz'aqatisäx o kejalwachïx HTML taq b'anikil, che't taq b'anikil chuqa' JavaScript">
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "Nojwuj">
+<!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageLocationTab.label "K'ojlib'äl">
 <!ENTITY imageDimensionsTab.label "Taq runimilem">
 <!ENTITY imageAppearanceTab.label "Ruwäch">

@@ -224,6 +224,7 @@
 <!ENTITY smiley16Cmd.label "Llavis segellats">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "No s'ha trobat cap suggeriment">
+<!-- Message Pane Context Menu -->
 <!ENTITY spellCheckIgnoreWord.label "Ignora la paraula">
 <!ENTITY spellCheckIgnoreWord.accesskey "I">
 <!ENTITY spellCheckAddToDictionary.label "Afegeix al diccionari">

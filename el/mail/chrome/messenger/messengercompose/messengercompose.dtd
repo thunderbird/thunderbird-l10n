@@ -225,6 +225,7 @@
 <!ENTITY smiley17Cmd.label "Θυμός">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Δεν βρέθηκαν προτάσεις">
+<!-- Message Pane Context Menu -->
 <!ENTITY spellCheckIgnoreWord.label "Παράβλεψη λέξης">
 <!ENTITY spellCheckIgnoreWord.accesskey "ψ">
 <!ENTITY spellCheckAddToDictionary.label "Προσθήκη στο λεξικό">

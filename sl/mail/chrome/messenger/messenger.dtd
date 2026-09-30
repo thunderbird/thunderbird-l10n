@@ -503,6 +503,7 @@
 <!ENTITY appmenuButton.label "Meni programa">
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "Napredno iskanje sporočil">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY getMsgButton.tooltip "Prejmi nova sporočila">
 <!ENTITY getAllNewMsgCmd.label "Prejmi vsa nova sporočila">
 <!ENTITY getAllNewMsgCmd.accesskey "P">
@@ -550,6 +551,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Novo sporočilo">
 <!ENTITY appmenuNewContactCmd.label "Stik iz imenika …">
+<!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Razporeditev orodne vrstice …">
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Nova oznaka …">
@@ -834,6 +836,7 @@
 <!ENTITY zoomWindow.label "Povečava">
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac2.label "Nastavitve">
+<!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac.commandkey ",">
 <!ENTITY preferencesCmdMac.modifiers "accel">
 <!ENTITY servicesMenuMac.label "Storitve">

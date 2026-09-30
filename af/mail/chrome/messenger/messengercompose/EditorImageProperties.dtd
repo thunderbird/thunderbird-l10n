@@ -59,6 +59,7 @@
 <!ENTITY LinkAdvancedEditButton.tooltip "Wysig of voeg HTML-attribute, styl-attribute en JavaScript by">
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "Vorm">
+<!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageLocationTab.label "Ligging">
 <!ENTITY imageDimensionsTab.label "Dimensies">
 <!ENTITY imageAppearanceTab.label "Voorkoms">

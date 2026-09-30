@@ -503,6 +503,7 @@
 <!ENTITY appmenuButton.label "Alkalmazásmenü">
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "Keresés az üzenetekben…">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY getMsgButton.tooltip "Új üzenetek letöltése">
 <!ENTITY getAllNewMsgCmd.label "Összes új üzenet letöltése">
 <!ENTITY getAllNewMsgCmd.accesskey "s">
@@ -550,6 +551,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Új üzenet">
 <!ENTITY appmenuNewContactCmd.label "Névjegy…">
+<!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Eszköztár elrendezése…">
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Új címke…">
@@ -834,6 +836,7 @@
 <!ENTITY zoomWindow.label "Nagyítás">
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac2.label "Beállítások">
+<!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac.commandkey ",">
 <!ENTITY preferencesCmdMac.modifiers "accel">
 <!ENTITY servicesMenuMac.label "Szolgáltatások">

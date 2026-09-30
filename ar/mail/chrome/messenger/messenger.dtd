@@ -495,6 +495,7 @@
 <!ENTITY appmenuButton.label "قائمة التطبيق">
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "بحث متقدِّم في الرسائل">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY getMsgButton.tooltip "اجلب الرسائل الجديدة">
 <!ENTITY getAllNewMsgCmd.label "اجلب كل الرسائل الجديدة">
 <!ENTITY getAllNewMsgCmd.accesskey "ج">
@@ -542,6 +543,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "رسالة جديدة">
 <!ENTITY appmenuNewContactCmd.label "جهة اتصال دفتر العناوين…">
+<!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "تنسيق شريط الأدوات…">
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "وسم جديد…">
@@ -820,6 +822,7 @@
 <!ENTITY zoomWindow.label "قرّب">
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac2.label "التفضيلات">
+<!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac.commandkey ",">
 <!ENTITY preferencesCmdMac.modifiers "accel">
 <!ENTITY servicesMenuMac.label "خدمات">

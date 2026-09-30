@@ -52,6 +52,7 @@
 <!ENTITY fontCourier.accesskey "C">
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "اختر حجم الخط">
+<!-- Font Size SubMenu -->
 <!ENTITY decreaseFontSize.label "أصغر">
 <!ENTITY decreaseFontSize.accesskey "ر">
 <!ENTITY decrementFontSize.key "&lt;">

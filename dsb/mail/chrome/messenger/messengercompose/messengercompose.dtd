@@ -225,6 +225,7 @@
 <!ENTITY smiley17Cmd.label "Pógóršny">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Žedne naraźenja namakane">
+<!-- Message Pane Context Menu -->
 <!ENTITY spellCheckIgnoreWord.label "Słowo ignorěrowaś">
 <!ENTITY spellCheckIgnoreWord.accesskey "i">
 <!ENTITY spellCheckAddToDictionary.label "Słownikoju pśidaś">

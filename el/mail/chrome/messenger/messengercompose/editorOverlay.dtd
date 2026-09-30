@@ -52,6 +52,7 @@
 <!ENTITY fontCourier.accesskey "C">
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "Επιλογή μεγέθους γραμματοσειράς">
+<!-- Font Size SubMenu -->
 <!ENTITY decreaseFontSize.label "Μικρότερα">
 <!ENTITY decreaseFontSize.accesskey "ρ">
 <!ENTITY decrementFontSize.key "&lt;">

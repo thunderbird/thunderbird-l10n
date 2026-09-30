@@ -62,6 +62,7 @@
 <!ENTITY LinkAdvancedEditButton.tooltip "Dodaj ili promijeni HTML atribute, atribute stila i JavaScript">
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "Obrazac">
+<!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageLocationTab.label "Lokacija">
 <!ENTITY imageDimensionsTab.label "Dimenzije">
 <!ENTITY imageAppearanceTab.label "Prikaz">

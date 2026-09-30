@@ -34,6 +34,8 @@
      - tooltiptext1 is used in the calendar wizard when setting a new caldav calendar
      - tooltiptext2 is used in the calendar properties dialog for caldav calendars -->
 <!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext1 "Chan urrainn dhut, aig an àm seo, seo a chur an comas an dèidh dhut am mìosachan seo a shuidheachadh ann an còmhradh nan roghainnean aige ma dhèiligeas frithealaiche a’ mhìosachain ris an sgeidealachadh.">
+<!-- LOCALIZATON NOTE(lightning.calendarproperties.forceEmailScheduling.tooltiptext2)
+     This is used in the calendar properties dialog for caldav calendars. -->
 <!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext2 "Chan eil an roghainn seo ri làimh ach ma tha frithealaiche a’ mhìosachain a’ dèiligeadh ris an sgeidealachadh. Ma chuireas tu seo an comas, ceadaichidh seo tilleadh gu sgeidealachadh stannardach a tha stèidhichte air puist-d seach fhàgail aig an fhrithealaiche.">
 <!-- The notifications settings in the properties dialog -->
 <!ENTITY lightning.calendarproperties.notifications.label "Brathan">

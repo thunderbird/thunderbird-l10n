@@ -52,6 +52,7 @@
 <!ENTITY fontCourier.accesskey "C">
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "Roghnaigh clómhéid">
+<!-- Font Size SubMenu -->
 <!ENTITY decreaseFontSize.label "Níos Lú">
 <!ENTITY decreaseFontSize.accesskey "s">
 <!ENTITY decrementFontSize.key "&lt;">

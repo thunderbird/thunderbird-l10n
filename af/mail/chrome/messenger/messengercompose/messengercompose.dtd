@@ -170,6 +170,7 @@
 <!ENTITY smiley16Cmd.label "Mond-is-verseël">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "Geen voorstel gevind nie">
+<!-- Message Pane Context Menu -->
 <!ENTITY spellCheckIgnoreWord.label "Ignoreer woord">
 <!ENTITY spellCheckIgnoreWord.accesskey "I">
 <!ENTITY spellCheckAddToDictionary.label "Voeg by woordeboek">

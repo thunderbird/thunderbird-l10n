@@ -214,6 +214,7 @@
 <!ENTITY smiley16Cmd.label "شفاه حمراء">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "لم يُعثر على اقتراحات">
+<!-- Message Pane Context Menu -->
 <!ENTITY spellCheckIgnoreWord.label "تجاهل الكلمة">
 <!ENTITY spellCheckIgnoreWord.accesskey "ج">
 <!ENTITY spellCheckAddToDictionary.label "أضِف إلى القاموس">

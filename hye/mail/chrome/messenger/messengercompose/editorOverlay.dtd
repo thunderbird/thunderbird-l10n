@@ -52,6 +52,7 @@
 <!ENTITY fontCourier.accesskey "C">
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "Ընտրել տառատեսակի չափը">
+<!-- Font Size SubMenu -->
 <!ENTITY decreaseFontSize.label "Աւելի փոքր">
 <!ENTITY decreaseFontSize.accesskey "ր">
 <!ENTITY decrementFontSize.key "&lt;">

@@ -196,6 +196,7 @@
 <!ENTITY smiley16Cmd.label "Lips-are-Sealed">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "No Suggestions Found">
+<!-- Message Pane Context Menu -->
 <!ENTITY spellCheckIgnoreWord.label "Ignore Word">
 <!ENTITY spellCheckIgnoreWord.accesskey "I">
 <!ENTITY spellCheckAddToDictionary.label "Add to Dictionary">

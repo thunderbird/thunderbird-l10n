@@ -62,6 +62,7 @@
 <!ENTITY LinkAdvancedEditButton.tooltip "Gehitu edo aldatu HTML atributuak, estilo-atributuak eta JavaScript">
 <!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageInputTab.label "Inprimakia">
+<!-- These tabs are currently used in the image input dialog -->
 <!ENTITY imageLocationTab.label "Kokalekua">
 <!ENTITY imageDimensionsTab.label "Neurriak">
 <!ENTITY imageAppearanceTab.label "Itxura">

@@ -52,6 +52,7 @@
 <!ENTITY fontCourier.accesskey "C">
 <!-- Font Size SubMenu -->
 <!ENTITY FontSizeSelect.tooltip "Izvēlieties fonta izmēru">
+<!-- Font Size SubMenu -->
 <!ENTITY decreaseFontSize.label "Mazāks">
 <!ENTITY decreaseFontSize.accesskey "m">
 <!ENTITY decrementFontSize.key "&lt;">

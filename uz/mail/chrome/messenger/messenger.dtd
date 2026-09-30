@@ -478,6 +478,7 @@
 <!ENTITY appmenuButton.label "AppMenu">
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY advancedButton.tooltip "Qo‘shimcha xabar qidiruvi">
+<!-- Mail Toolbar Tooltips -->
 <!ENTITY getMsgButton.tooltip "Yangi xabarlarni yuklab olish">
 <!ENTITY getAllNewMsgCmd.label "Barcha yangi xabarlarni yuklab olish">
 <!ENTITY getAllNewMsgCmd.accesskey "y">
@@ -524,6 +525,7 @@
 <!-- AppMenu Popup -->
 <!ENTITY appmenuNewMsgCmd.label "Yangi xabar">
 <!ENTITY appmenuNewContactCmd.label "Manzillar kitobidagi kontakt…">
+<!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Asboblar paneli joylashuvi…">
 <!-- Tags Menu Popup -->
 <!ENTITY addNewTag.label "Yangi teg…">
@@ -794,6 +796,7 @@
 <!ENTITY zoomWindow.label "Masshtab">
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac2.label "Parametrlar">
+<!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac.commandkey ",">
 <!ENTITY preferencesCmdMac.modifiers "tezlatkich">
 <!ENTITY servicesMenuMac.label "Xizmatlar">
