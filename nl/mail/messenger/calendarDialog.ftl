@@ -127,6 +127,8 @@ calendar-dialog-attachments-summary-label =
         [one] { $count } bijlage
        *[other] { $count } bijlagen
     }
+calendar-event-prompt-delete-title = Gebeurtenis verwijderen
+calendar-prompt-delete-button = Verwijderen
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =

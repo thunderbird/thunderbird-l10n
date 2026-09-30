@@ -126,6 +126,14 @@ calendar-dialog-attachments-summary-label =
         [one] { $count } vedlegg
        *[other] { $count } vedlegg
     }
+calendar-event-prompt-delete-title = Slett hending
+calendar-event-prompt-delete-header = Permanent fjerne følgjande hending(ar)?
+calendar-single-event-prompt-delete-header = Permanent fjerne denne hendinga?
+calendar-prompt-this-event =
+    .label = Denne hendinga
+calendar-prompt-all-events =
+    .label = Alle hendingar
+calendar-prompt-delete-button = Slett
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =

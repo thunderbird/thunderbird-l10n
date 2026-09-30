@@ -130,6 +130,10 @@ calendar-dialog-attachments-summary-label =
 calendar-event-prompt-delete-title = Esemény törlése
 calendar-event-prompt-delete-header = Végleg törli a következő eseményeket?
 calendar-single-event-prompt-delete-header = Végleg törli ezt az eseményt?
+calendar-prompt-this-event =
+    .label = Ez az esemény
+calendar-prompt-all-events =
+    .label = Összes esemény
 calendar-prompt-delete-button = Törlés
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
