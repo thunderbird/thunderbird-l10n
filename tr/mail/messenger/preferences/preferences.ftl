@@ -814,6 +814,9 @@ spam-log-button =
 reset-spam-button =
     .label = Eğitim verilerini sıfırla
     .accesskey = E
+certificate-ask-every =
+    .label = Her seferinde sor
+    .accesskey = H
 junk-description = Varsayılan gereksiz e-posta ayarlarınızı yapılandırın. Hesaba özel gereksiz e-posta ayarlarını hesap ayarlarından yapılandırabilirsiniz.
 junk-marked-label =
     .label = İletiler gereksiz olarak işaretlendiğinde
@@ -869,6 +872,8 @@ account-settings = Hesap ayarları
 email-e2ee-enable-accounts-info = Uçtan uca şifreleme için e-posta hesaplarını ve kimlikleri <a data-l10n-name="account-settings-url">Hesap ayarları</a>’ndan ayarlayabilirsiniz.
 email-e2ee-enable-info = Uçtan uca şifreleme için e-posta hesaplarını ve kimlikleri hesap ayarlarından ayarlayabilirsiniz.
 email-e2ee-automatism = Otomatik Şifreleme Kullanımı
+email-e2ee-turn-on =
+    .label = Mümkün olduğunda şifrelemeyi otomatik olarak aç
 email-e2ee-automatism-pre =
     { -brand-short-name }, e-posta oluştururken şifrelemeyi otomatik olarak etkinleştirerek veya devre dışı bırakarak işinizi kolaylaştırabilir.
     Otomatik etkinleştirme/devre dışı bırakmanın çalışması için, yazıştığınız kişilerin geçerli ve kabul edilmiş anahtar veya sertifikalarının bulunması gerekir.
@@ -1175,6 +1180,7 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Parolalar dahil edildi
 qr-export-summary-passwords-excluded = Parolalar hariç tutuldu
 qr-export-more-accounts = Daha fazla hesabı dışa aktar
+qr-export-pane-header-mobile = { -brand-product-name } mobil uygulamasına aktar
 qr-export-select-accounts-title = Dışa aktarılacak hesapları seçin:
 
 ## Appearance Tab
