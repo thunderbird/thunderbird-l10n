@@ -133,6 +133,14 @@ calendar-dialog-attachments-summary-label =
         [few] { $count } atașamente
        *[other] { $count } de atașamente
     }
+calendar-event-prompt-delete-title = Șterge evenimentul
+calendar-event-prompt-delete-header = Ștergi definitiv evenimentul(ele) următor(oare)?
+calendar-single-event-prompt-delete-header = Ștergi definitiv evenimentul?
+calendar-prompt-this-event =
+    .label = Acest eveniment
+calendar-prompt-all-events =
+    .label = Toate evenimentele
+calendar-prompt-delete-button = Șterge
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =
