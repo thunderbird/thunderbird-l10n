@@ -5,7 +5,7 @@
 <!-- extracted from MsgSynchronize.xhtml and msgSelectOfflineFolders.xhtml -->
 <!ENTITY MsgSynchronize.label "Lejuplādēt un sinhronizēt vēstules">
 <!ENTITY MsgSelect.label "Vienumi izmantošanai bezsaistes">
-<!ENTITY MsgSyncDesc.label "Ja jau esat atlasījis pasta mapes vai ziņu grupas lietošanai nesaistē, varat tās tagad lejuplādēt un/vai sinhronizēt. Pretējā gadījumā izmantojiet &quot;Atlasīt&quot; pogu, lai izvēlētos pasta mapes un ziņu grupas lietošanai nesaistē.">
+<!ENTITY MsgSyncDesc.label "Ja jau ir atlasītas pasta mapes vai ziņu kopas izmantošanai bezsaistē, tās var lejupielādēt un/vai vienādot tagad. Pretējā gadījumā jāizmanto poga &quot;Atlasīt&quot;, lai izvēlētos pasta mapes un ziņu kopas izmantošanai bezsaistē.">
 <!ENTITY MsgSyncDirections.label "Lejuplādēt un/vai sinhronizēt sekojošus:">
 <!ENTITY syncTypeMail.label "Pasta vēstules">
 <!ENTITY syncTypeMail.accesskey "P">

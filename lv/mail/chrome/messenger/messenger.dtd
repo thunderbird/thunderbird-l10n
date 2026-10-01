@@ -67,7 +67,7 @@
 <!ENTITY offlineMenu.accesskey "N">
 <!ENTITY offlineGoOfflineCmd.label "Strādāt nesaistē">
 <!ENTITY offlineGoOfflineCmd.accesskey "S">
-<!ENTITY synchronizeOfflineCmd.label "Lejuplādēt/sinhronizēt tagad…">
+<!ENTITY synchronizeOfflineCmd.label "Lejupielādēt/vienādot tagad…">
 <!ENTITY synchronizeOfflineCmd.accesskey "L">
 <!ENTITY settingsOfflineCmd2.label "Bezsaistes iestatījumi">
 <!ENTITY settingsOfflineCmd2.accesskey "N">
