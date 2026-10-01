@@ -66,6 +66,12 @@ appmenu-new-addressbook =
 appmenu-create-panel-title =
     .title = Izveidot
 
+## Tools
+
+appmenu-tools-activity-manager =
+    .label = Darbību pārvaldnieks
+    .accesskey = D
+
 ## Help
 
 appmenu-help-panel-title =
@@ -73,3 +79,6 @@ appmenu-help-panel-title =
 appmenu-help-get-help =
     .label = Iegūt palīdzību
     .accesskey = p
+appmenu-help-about-product =
+    .label = Par { -brand-short-name }
+    .accesskey = P
