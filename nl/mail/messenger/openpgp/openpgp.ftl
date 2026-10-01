@@ -209,6 +209,10 @@ openpgp-key-man-refresh-online =
     .label = Online vernieuwen
     .accesskey = v
 # Do not translate: PQC
+openpgp-key-man-add-pqc =
+    .label = PQC-versleutelingssubsleutel genereren
+    .accesskey = P
+# Do not translate: PQC
 openpgp-pqc-confirm-generate = Een versleutelingssubsleutel genereren met post-quantumcryptography (PQC)? Het aanmaken kan enkele minuten duren.
 openpgp-pqc-generate-failed = De PQC-subsleutel voor versleuteling kon niet worden gegenereerd.
 openpgp-key-man-ignored-ids =

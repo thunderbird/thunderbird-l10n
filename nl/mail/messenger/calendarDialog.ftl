@@ -128,6 +128,12 @@ calendar-dialog-attachments-summary-label =
        *[other] { $count } bijlagen
     }
 calendar-event-prompt-delete-title = Gebeurtenis verwijderen
+calendar-event-prompt-delete-header = De volgende gebeurtenis(sen) permanent verwijderen?
+calendar-single-event-prompt-delete-header = Deze gebeurtenis permanent verwijderen?
+calendar-prompt-this-event =
+    .label = Deze gebeurtenis
+calendar-prompt-all-events =
+    .label = Alle gebeurtenissen
 calendar-prompt-delete-button = Verwijderen
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
