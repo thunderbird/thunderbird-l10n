@@ -69,6 +69,7 @@ collection-health-report-telemetry-disabled-link = Meer info
 collection-share-performance =
     .label = Anonieme prestatiegegevens delen met { -vendor-short-name }
     .accesskey = d
+collection-share-performance-description = (Omvat technische basisinformatie zoals uw besturingssysteem, geheugengebruik en functieactiviteit. { -brand-short-name } verzamelt nooit e-mailinhoud, contacten of persoonlijke berichten.)
 collection-health-report =
     .label = { -brand-short-name } toestaan om technische en interactiegegevens naar { -vendor-short-name } te verzenden
     .accesskey = r
@@ -76,6 +77,9 @@ collection-health-report-link = Meer info
 # This message is displayed above disabled data sharing options in developer builds
 # or builds with no Telemetry support available.
 collection-health-report-disabled = Gegevensrapportage is uitgeschakeld voor deze buildconfiguratie
+collection-share-crash-data =
+    .label = Anonieme crashrapporten naar { -vendor-short-name } verzenden
+    .accesskey = c
 collection-backlogged-crash-reports =
     .label = { -brand-short-name } toestaan om namens u achterstallige crashrapporten te verzenden
     .accesskey = c
@@ -852,6 +856,9 @@ cookies-button =
 # "Global Privacy Control" or "GPC" are a web platform feature name and abbreviation
 # included to facilitate power-user search of the about:preferences page.
 global-privacy-control-search = Global Privacy Control (GPC)
+global-privacy-control-label =
+    .label = Websites vragen geen persoonlijke gegevens te verkopen of te delen
+    .accesskey = p
 global-privacy-control-description =
     .label = Websites vertellen mijn gegevens niet te verkopen of te delen
     .accesskey = m
@@ -910,6 +917,9 @@ spam-log-button =
 reset-spam-button =
     .label = Trainingsgegevens herinitialiseren
     .accesskey = h
+ocsp-check-label =
+    .label = De certificaatvalidatieservers (OCSP) controleren om te bevestigen dat certificaten nog steeds correct zijn.
+    .accesskey = v
 junk-description = Stel uw standaardinstellingen voor ongewensteberichtendetectie in. Accountspecifieke instellingen kunnen worden geconfigureerd in Accountinstellingen.
 junk-marked-label =
     .label = Wanneer berichten als ongewenst worden gemarkeerd:
@@ -962,9 +972,18 @@ security-devices-button =
     .accesskey = B
 email-e2ee-header = E-mail end-to-end-versleuteling
 account-settings = Accountinstellingen
+email-e2ee-accounts-info = Versleutelde e-mailberichten kunnen alleen door u en uw ontvangers worden gelezen. Stel e-mailaccounts en identiteiten in voor end-to-end-versleuteling in de <a data-l10n-name="account-settings-url">Accountinstellingen</a>.
 email-e2ee-enable-accounts-info = Stel e-mailaccounts en identiteiten in voor end-to-end-versleuteling in de <a data-l10n-name="account-settings-url">Accountinstellingen</a>.
 email-e2ee-enable-info = E-mailaccounts en identiteiten voor end-to-end-versleuteling in accountinstellingen instellen.
 email-e2ee-automatism = Automatisch gebruik van versleuteling
+email-e2ee-automatism-intro = { -brand-short-name } kan versleuteling inschakelen als geldige geaccepteerde sleutels of certificaten beschikbaar zijn voor alle ontvangers van een bericht.
+email-e2ee-turn-on =
+    .label = Versleuteling indien mogelijk automatisch inschakelen
+email-e2ee-turn-off =
+    .label = Versleuteling automatisch uitschakelen wanneer ontvangers wijzigen en versleuteling niet meer mogelijk is
+email-e2ee-turn-off-notify =
+    .label = Een melding tonen wanneer versleuteling automatisch wordt uitgeschakeld
+email-e2ee-automatism-note = Noot: u kunt versleuteling tijdens het schrijven van een bericht ook handmatig in- of uitschakelen. Als u een versleuteld bericht beantwoordt, wordt versleuteling altijd ingeschakeld.
 email-e2ee-automatism-pre =
     { -brand-short-name } kan helpen door versleuteling automatisch in of uit te schakelen tijdens het opstellen van een e-mailbericht.
     Automatisch inschakelen/uitschakelen is gebaseerd op de beschikbaarheid van geldige en geaccepteerde sleutels of certificaten van ontvangers.
@@ -978,6 +997,9 @@ email-e2ee-automatism-post =
     Automatische beslissingen kunnen worden opgeheven door versleuteling handmatig in of uit te schakelen bij het opstellen van een bericht.
     Opmerking: versleuteling is altijd automatisch ingeschakeld bij het beantwoorden van een versleuteld bericht.
 email-content = E-mailberichtinhoud
+remote-content-images-label =
+    .label = Externe inhoud (afbeeldingen en stijlen) toestaan
+    .accesskey = x
 
 ## DoH Section
 
@@ -1004,6 +1026,7 @@ preferences-doh-expand-section =
 preferences-doh-setting-automatic =
     .label = Automatische bescherming (Aanbevolen)
     .accesskey = A
+preferences-doh-automatic-desc = { -brand-short-name } versleutelt adreszoekacties automatisch wanneer beschikbaar. Schakelt terug naar standaard netwerkzoekacties als er een verbindingsprobleem is of als een VPN/beheerd netwerk dit vereist.
 preferences-doh-setting-default =
     .label = Standaardbescherming
     .accesskey = S
@@ -1016,9 +1039,14 @@ preferences-doh-default-detailed-desc-5 = Uitschakelen als een netwerk { -brand-
 preferences-doh-setting-enabled =
     .label = Verhoogde bescherming
     .accesskey = h
+preferences-doh-increased-desc = Gebruikt altijd de gekozen provider. Gebruikt alleen een standaardverbinding als verbinden met de beveiligde provider mislukt.
 preferences-doh-enabled-desc = U bepaalt wanneer beveiligde DNS wordt gebruikt en kiest uw provider.
 preferences-doh-enabled-detailed-desc-1 = De aanbieder die u selecteert gebruiken
 preferences-doh-enabled-detailed-desc-2 = Alleen uw standaard DNS-resolver gebruiken als er een probleem met beveiligde DNS is
+preferences-doh-setting-maximum =
+    .label = Maximale bescherming
+    .accesskey = M
+preferences-doh-maximum-desc = Vereist strikt versleutelde DNS. Websites worden niet geladen als een beveiligde verbinding mislukt.
 preferences-doh-setting-strict =
     .label = Max. bescherming
     .accesskey = M
@@ -1029,6 +1057,7 @@ preferences-doh-strict-detailed-desc-3 = Als beveiligde DNS niet beschikbaar is,
 preferences-doh-setting-off =
     .label = Uit
     .accesskey = U
+preferences-doh-off-standard-desc = Gebruikt een standaard internetprovider of -netwerk om webadressen op te zoeken
 preferences-doh-off-desc = Uw standaard DNS-resolver gebruiken
 preferences-doh-checkbox-warn =
     .label = Waarschuwen als een derde partij beveiligde DNS actief verhindert
@@ -1041,6 +1070,8 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = Aangepast
     .accesskey = A
+preferences-doh-secure-header = Beveiligde DNS (DNS over HTTPS)
+preferences-doh-secure-description = Beveiligde DNS versleutelt de zoekopdrachten waarmee { -brand-short-name } websites opzoekt, zodat uw surfactiviteit privé blijft voor netwerkmonitoring.
 
 ## Keyservers
 
@@ -1217,6 +1248,11 @@ qr-export-select-accounts = Selecteer de te exporteren accounts:
 qr-export-no-accounts = Ziet u niet al uw accounts? Sommige accounts zijn mogelijk uitgeschakeld, omdat ze niet door { -brand-product-name } voor Android worden ondersteund. <a data-l10n-name="account-support-link">Ondersteuning</a>
 qr-export-accounts-legend = E-mailaccounts
 qr-export-select-all-accounts = Alles selecteren
+qr-export-passwords-legend = Wachtwoorden
+qr-export-include-passwords-label = Accountwachtwoorden in de QR-code opnemen
+qr-export-web-sign-in-note = <strong>Noot:</strong> accounts die aanmelden via het web (zoals Gmail of Yahoo) vereisen opnieuw authenticatie op uw apparaat.
+qr-export-private-transfer-note = <strong>Privéoverdracht:</strong> uw instellingen en wachtwoorden worden rechtstreeks van deze computer naar uw telefoon overgebracht. Er wordt niets verzonden naar of opgeslagen op servers van Mozilla.
+qr-export-screen-privacy-tip = <strong>Tip:</strong> zorg dat anderen uw scherm niet kunnen zien zolang de QR-code wordt weergegeven.
 qr-export-security-legend = Beveiliging
 qr-export-include-passwords = Alle accountwachtwoorden opnemen
 qr-export-oauth-warning = Sommige van uw accounts gebruiken een authenticatiemethode die mogelijk herauthenticatie op uw mobiele apparaat vereist. Mogelijk moet u tijdens dit proces uw wachtwoorden opnieuw invoeren.
@@ -1267,7 +1303,10 @@ qr-export-summary-passwords-included = Wachtwoorden inbegrepen
 qr-export-summary-passwords-excluded = Wachtwoorden niet inbegrepen
 qr-export-more-accounts = Meer accounts exporteren
 qr-export-pane-header-mobile = Naar { -brand-product-name } mobiel exporteren
+qr-export-description-email-accounts = Breng uw e-mailaccounts van deze computer met een QR-code over naar { -brand-product-name } op uw telefoon.
+qr-export-get-app-google-play = <a data-l10n-name="app-link">{ -brand-product-name } downloaden op Google Play</a>
 qr-export-select-accounts-title = Selecteer te exporteren accounts:
+qr-export-missing-accounts-support = Mist u een account? Accounts die niet worden ondersteund op { -brand-product-name } voor Android kunnen niet worden geselecteerd. <a data-l10n-name="account-support-link">Lees welke accounttypen worden ondersteund</a>
 
 ## Appearance Tab
 
