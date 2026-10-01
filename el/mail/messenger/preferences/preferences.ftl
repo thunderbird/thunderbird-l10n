@@ -71,6 +71,9 @@ collection-health-report-link = Μάθετε περισσότερα
 # This message is displayed above disabled data sharing options in developer builds
 # or builds with no Telemetry support available.
 collection-health-report-disabled = Η αναφορά δεδομένων είναι ανενεργή για αυτήν τη δομή
+collection-share-crash-data =
+    .label = Αποστολή ανώνυμων αναφορών κατάρρευσης στη { -vendor-short-name }
+    .accesskey = σ
 collection-backlogged-crash-reports =
     .label = Να επιτρέπεται στο { -brand-short-name } η αποστολή εκκρεμών αναφορών κατάρρευσης
     .accesskey = κ
@@ -802,6 +805,7 @@ remote-content-label =
 exceptions-button =
     .label = Εξαιρέσεις…
     .accesskey = Ε
+remote-content-privacy-link = Πώς το απομακρυσμένο περιεχόμενο επηρεάζει το απόρρητο
 remote-content-privacy-info = Μάθετε περισσότερα σχετικά με τα θέματα απορρήτου του απομακρυσμένου περιεχομένου
 remote-content-info =
     .value = Μάθετε περισσότερα σχετικά με τα θέματα απορρήτου του απομακρυσμένου περιεχομένου
@@ -819,6 +823,8 @@ third-party-always =
     .label = Πάντα
 third-party-never =
     .label = Ποτέ
+third-party-visited-only =
+    .label = Μόνο από ιστοτόπους που έχετε επισκεφτεί
 third-party-visited =
     .label = Από τις επισκέψεις
 cookies-button =
@@ -828,6 +834,9 @@ cookies-button =
 # "Global Privacy Control" or "GPC" are a web platform feature name and abbreviation
 # included to facilitate power-user search of the about:preferences page.
 global-privacy-control-search = Global Privacy Control (GPC)
+global-privacy-control-label =
+    .label = Αίτημα προς τους ιστοτόπους να μην πωλούν ή κοινοποιούν προσωπικά δεδομένα
+    .accesskey = ν
 global-privacy-control-description =
     .label = Αποστολή αιτήματος μη πώλησης ή κοινοποίησης δεδομένων στους ιστοτόπους
     .accesskey = π
@@ -1024,6 +1033,7 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = Προσαρμοσμένο
     .accesskey = Π
+preferences-doh-secure-header = Ασφαλές DNS (DNS μέσω HTTPS)
 
 ## Keyservers
 
@@ -1250,6 +1260,7 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Περιλαμβάνονται οι κωδικοί πρόσβασης
 qr-export-summary-passwords-excluded = Εξαιρούνται οι κωδικοί πρόσβασης
 qr-export-more-accounts = Εξαγωγή περισσότερων λογαριασμών
+qr-export-pane-header-mobile = Εξαγωγή στο { -brand-product-name } για κινητές συσκευές
 
 ## Appearance Tab
 
