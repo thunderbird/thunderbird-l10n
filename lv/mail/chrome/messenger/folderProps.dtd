@@ -26,7 +26,7 @@
 <!ENTITY retentionKeepRecent.accesskey "v">
 <!ENTITY retentionApplyToFlagged.label "Vienmēr saglabāt zvaigžņotās vēstules">
 <!ENTITY retentionApplyToFlagged.accesskey "s">
-<!ENTITY folderSynchronizationTab.label "Sinhronizācija">
+<!ENTITY folderSynchronizationTab.label "Vienādošana">
 <!ENTITY folderCheckForNewMessages2.label "Saņemot jaunas vēstules šajā kontā, vienmēr pārbaudīt šo mapi">
 <!ENTITY folderCheckForNewMessages2.accesskey "S">
 <!ENTITY offlineFolder.check.label "Atlasīt šo mapi izmantošanai bezsaistē">

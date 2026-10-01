@@ -13,7 +13,7 @@
 <!ENTITY syncTypeNews.accesskey "Z">
 <!ENTITY sendMessage.label "Sūtīt nenosūtītās vēstules">
 <!ENTITY sendMessage.accesskey "S">
-<!ENTITY workOffline.label "Kad lejuplāde un/vai sinhronizācija ir pabeigta, strādāt nesaistē">
+<!ENTITY workOffline.label "Darboties bezsaistē, tiklīdz lejupielāde un/vai vienādošana ir pabeigta">
 <!ENTITY workOffline.accesskey "n">
 <!ENTITY selectButton.label "Atlasīt…">
 <!ENTITY selectButton.accesskey "A">

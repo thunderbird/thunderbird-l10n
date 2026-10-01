@@ -7,6 +7,9 @@
 
 appmenu-sync-panel-title =
     .title = Vienādot
+appmenu-sync-sync =
+    .value = Konta vienādošana
+    .accesskey = K
 appmenu-sync-manage =
     .value = Pārvaldīt kontu
     .accesskey = P

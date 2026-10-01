@@ -44,7 +44,7 @@ folder-props-rebuild-summary-explanation = Dažreiz mapes indeksa (.msf) datne k
 ## Synchronization tab
 
 folder-props-synchronization-tab =
-    .label = Sinhronizācija
+    .label = Vienādošana
 folder-props-select-for-offline =
     .label = Izvēlēties šo mapi lietošanai nesaistē
     .accesskey = I
