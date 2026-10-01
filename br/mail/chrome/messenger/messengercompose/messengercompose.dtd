@@ -192,6 +192,7 @@
 <!ENTITY copyButton.tooltip "Eilañ">
 <!ENTITY pasteButton.tooltip "Pegañ">
 <!ENTITY printButton.tooltip "Moullañ ar gemennadenn-mañ">
+<!-- Headers -->
 <!ENTITY fromAddr2.label "A-berzh">
 <!ENTITY fromAddr.accesskey "b">
 <!ENTITY subject2.label "Danvez">
