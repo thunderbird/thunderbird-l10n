@@ -126,6 +126,12 @@ calendar-dialog-attachments-summary-label =
         [one] { $count } annexo
        *[other] { $count } annexos
     }
+calendar-event-prompt-delete-title = Deler evento
+calendar-prompt-this-event =
+    .label = Iste evento
+calendar-prompt-all-events =
+    .label = Tote le eventos
+calendar-prompt-delete-button = Deler
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =
