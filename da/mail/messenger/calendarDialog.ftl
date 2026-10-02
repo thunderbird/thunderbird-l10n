@@ -126,6 +126,14 @@ calendar-dialog-attachments-summary-label =
         [one] { $count } vedhæftede fil
        *[other] { $count } vedhæftede filer
     }
+calendar-event-prompt-delete-title = Slet begivenhed
+calendar-event-prompt-delete-header = Slet følgende begivenhed(er) permanent?
+calendar-single-event-prompt-delete-header = Slet denne begivenhed permanent?
+calendar-prompt-this-event =
+    .label = Denne begivenhed
+calendar-prompt-all-events =
+    .label = Alle begivenheder
+calendar-prompt-delete-button = Slet
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =
