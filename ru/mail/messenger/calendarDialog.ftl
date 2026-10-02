@@ -134,6 +134,13 @@ calendar-dialog-attachments-summary-label =
         [few] { $count } вложения
        *[many] { $count } вложения
     }
+calendar-event-prompt-delete-title = Удалить событие
+calendar-event-prompt-delete-header = Навсегда удалить следующие события?
+calendar-single-event-prompt-delete-header = Удалить это событие навсегда?
+calendar-prompt-this-event =
+    .label = Это событие
+calendar-prompt-all-events =
+    .label = Все события
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =
