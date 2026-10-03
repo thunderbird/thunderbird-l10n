@@ -127,6 +127,8 @@ calendar-dialog-attachments-summary-label =
        *[other] { $count } annexos
     }
 calendar-event-prompt-delete-title = Deler evento
+calendar-event-prompt-delete-header = Permanentemente remover le evento(s) sequente?
+calendar-single-event-prompt-delete-header = Permanentemente remover iste evento?
 calendar-prompt-this-event =
     .label = Iste evento
 calendar-prompt-all-events =
