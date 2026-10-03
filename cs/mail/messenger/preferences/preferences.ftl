@@ -1105,6 +1105,9 @@ preferences-doh-setting-enabled =
 preferences-doh-enabled-desc = Sami si nastavíte, kdy se zabezpečené DNS použije, a od jakého poskytovatele.
 preferences-doh-enabled-detailed-desc-1 = Použije se poskytovatel, kterého jste si vybrali
 preferences-doh-enabled-detailed-desc-2 = Výchozí překladač DNS se použijte jen v případě problému se zabezpečeným DNS
+preferences-doh-setting-maximum =
+    .label = Maximální ochrana
+    .accesskey = M
 preferences-doh-setting-strict =
     .label = Maximální ochrana
     .accesskey = M
@@ -1115,6 +1118,7 @@ preferences-doh-strict-detailed-desc-3 = Pokud není zabezpečené DNS dostupné
 preferences-doh-setting-off =
     .label = Vypnuto
     .accesskey = V
+preferences-doh-off-standard-desc = K vyhledání webových adres použije standardního poskytovatele připojení k internetu nebo síť
 preferences-doh-off-desc = Použije výchozí překladač DNS
 preferences-doh-checkbox-warn =
     .label = Upozornit, pokud třetí strana aktivně brání zabezpečenému DNS
@@ -1127,6 +1131,7 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = Vlastní
     .accesskey = V
+preferences-doh-secure-header = Zabezpečené DNS (DNS over HTTPS)
 
 ## Keyservers
 
@@ -1312,6 +1317,7 @@ qr-export-no-accounts = Nevidíte všechny své účty? Některé účty mohou b
 qr-export-accounts-legend = E-mailové účty
 qr-export-select-all-accounts = Vybrat vše
 qr-export-passwords-legend = Hesla
+qr-export-include-passwords-label = Zahrnout do QR kódu hesla k účtům
 qr-export-security-legend = Zabezpečení
 qr-export-include-passwords = Zahrnout hesla všech účtů
 qr-export-oauth-warning = Některé vaše účty používají metodu ověřování, která může vyžadovat opětovné ověření na vašem mobilním zařízení. Během tohoto procesu může být nutné znovu zadat hesla.
@@ -1369,6 +1375,7 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Včetně hesel
 qr-export-summary-passwords-excluded = Hesla vynechána
 qr-export-more-accounts = Exportovat více účtů
+qr-export-select-accounts-title = Zvolte účty, které chcete exportovat:
 
 ## Appearance Tab
 
