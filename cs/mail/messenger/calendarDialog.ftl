@@ -141,6 +141,14 @@ calendar-dialog-attachments-summary-label =
         [many] { $count } příloh
        *[other] { $count } příloh
     }
+calendar-event-prompt-delete-title = Smazat událost
+calendar-event-prompt-delete-header = Chcete trvale odebrat následující události?
+calendar-single-event-prompt-delete-header = Chcete tuto událost trvale odebrat?
+calendar-prompt-this-event =
+    .label = Tato událost
+calendar-prompt-all-events =
+    .label = Všechny události
+calendar-prompt-delete-button = Smazat
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =

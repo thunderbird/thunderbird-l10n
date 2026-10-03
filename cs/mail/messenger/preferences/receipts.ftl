@@ -35,3 +35,7 @@ sender-outside-domain-label =
 other-cases-text-label =
     .value = Ve všech ostatních případech:
     .accesskey = a
+read-receipts-dialog-title = Potvrzení o přečtení
+return-receipt-request-control =
+    .label = Při odesílání e-mailů vždy požadovat potvrzení o přečtení
+    .accesskey = P
