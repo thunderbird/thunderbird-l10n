@@ -81,10 +81,17 @@ proxy-type-auto =
 proxy-reload-label =
     .label = Ponovno naloži
     .accesskey = P
+no-proxy-addresses-label =
+    .value = Za naslednje naslove ne uporabljaj posrednika:
+    .accesskey = n
 no-proxy-label =
     .value = Brez posrednika za:
     .accesskey = e
 no-proxy-example = Primer: .mozilla.org, .net.nz, 192.168.1.0/24
+proxy-auto-login-saved-password =
+    .label = Samodejno se prijavi, če je geslo shranjeno
+    .tooltiptext = Ta možnost izvede tiho overitev s posredniki, če imate shranjena gesla zanje. Če overjanje ne uspe, morate vnesti geslo.
+    .accesskey = S
 # Do not translate "localhost", "127.0.0.1/8" and "::1". (You can translate "and".)
 connection-proxy-noproxy-localhost-desc-2 = Povezave na localhost, 127.0.0.1/8 in ::1 niso nikoli usmerjene preko posrednika.
 proxy-password-prompt =

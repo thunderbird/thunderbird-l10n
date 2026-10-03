@@ -72,6 +72,8 @@ calendar-dialog-more-categories =
 calendar-dialog-delete-reminder-button =
     .alt = Izbriši opomnik
 calendar-dialog-add-reminder-button = Dodaj opomnik
+calendar-dialog-reminder-select =
+    .aria-label = Izberite trajanje novega opomnika
 calendar-dialog-save-reminder-button = Shrani
 calendar-dialog-reminder-event-start = 0 minut prej
 # Variables:
@@ -136,6 +138,14 @@ calendar-dialog-attachments-summary-label =
         [few] { $count } priponke
        *[other] { $count } priponk
     }
+calendar-event-prompt-delete-title = Izbriši dogodek
+calendar-event-prompt-delete-header = Ali želite trajno odstraniti naslednje dogodke?
+calendar-single-event-prompt-delete-header = Ali želite trajno odstraniti ta dogodek?
+calendar-prompt-this-event =
+    .label = Ta dogodek
+calendar-prompt-all-events =
+    .label = Vsi dogodki
+calendar-prompt-delete-button = Izbriši
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =
