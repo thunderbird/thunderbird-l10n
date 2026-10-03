@@ -101,3 +101,16 @@ recurrence-monthly-days-of-nth =
         [one] katra mēneša { $monthlyDays }.
        *[other] katra { $interval }. mēneša { $monthlyDays }.
     }
+# Edit recurrence window -> Recurrence pattern -> Yearly repeat rules
+# Variables:
+#   $month - month name
+#   $monthDay - day of month possibly followed by an ordinal symbol
+#   $interval is a number, the recurrence interval
+# e.g. "every 3 years on December 14"
+#      "every 2 years on December 8th"
+recurrence-yearly-nth-on =
+    { $interval ->
+        [zero] katru { $interval }. gadu { $monthDay }. { $month }
+        [one] katru { $interval }. gadu { $monthDay }. { $month }
+       *[other] katru { $interval }. gadu { $monthDay }. { $month }
+    }
