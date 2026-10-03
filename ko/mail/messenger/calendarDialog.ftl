@@ -99,6 +99,14 @@ calendar-dialog-attachments-expand-icon =
 # Variables:
 #   $count (Number): Number of attachments.
 calendar-dialog-attachments-summary-label = 첨부 파일 { $count }개
+calendar-event-prompt-delete-title = 이벤트 삭제
+calendar-event-prompt-delete-header = 다음 이벤트를 완전히 삭제하시겠습니까?
+calendar-single-event-prompt-delete-header = 이 이벤트를 완전히 삭제하시겠습니까?
+calendar-prompt-this-event =
+    .label = 이 이벤트
+calendar-prompt-all-events =
+    .label = 모든 이벤트
+calendar-prompt-delete-button = 삭제
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going = 참적 { $count }명
