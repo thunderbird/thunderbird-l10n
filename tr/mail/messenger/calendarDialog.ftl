@@ -127,6 +127,14 @@ calendar-dialog-attachments-summary-label =
         [one] { $count } ek
        *[other] { $count } ek
     }
+calendar-event-prompt-delete-title = Etkinliği sil
+calendar-event-prompt-delete-header = Aşağıdaki etkinlik(ler) kalıcı olarak silinsin mi?
+calendar-single-event-prompt-delete-header = Bu etkinlik kalıcı olarak silinsin mi?
+calendar-prompt-this-event =
+    .label = Bu etkinlik
+calendar-prompt-all-events =
+    .label = Tüm etkinlikler
+calendar-prompt-delete-button = Sil
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =
