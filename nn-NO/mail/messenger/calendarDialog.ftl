@@ -127,7 +127,7 @@ calendar-dialog-attachments-summary-label =
        *[other] { $count } vedlegg
     }
 calendar-event-prompt-delete-title = Slett hending
-calendar-event-prompt-delete-header = Permanent fjerne følgjande hending(ar)?
+calendar-event-prompt-delete-header = Fjerne følgjande hending(ar) permanent?
 calendar-single-event-prompt-delete-header = Permanent fjerne denne hendinga?
 calendar-prompt-this-event =
     .label = Denne hendinga
