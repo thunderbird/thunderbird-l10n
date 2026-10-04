@@ -127,6 +127,11 @@ calendar-dialog-attachments-summary-label =
         [one] { $count } viðhengi
        *[other] { $count } viðhengi
     }
+calendar-prompt-this-event =
+    .label = Þessi atburður
+calendar-prompt-all-events =
+    .label = Allir atburðir
+calendar-prompt-delete-button = Eyða
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =

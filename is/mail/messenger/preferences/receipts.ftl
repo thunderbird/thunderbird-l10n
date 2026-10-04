@@ -35,3 +35,4 @@ sender-outside-domain-label =
 other-cases-text-label =
     .value = Í öllum öðrum tilfellum:
     .accesskey = u
+read-receipts-dialog-title = Viðtökusvör
