@@ -36,6 +36,7 @@ general-email-notifications-header = E-postvarsler
 general-language-and-appearance-header = Språk og utseende
 general-incoming-mail-header = Innkommende e-post
 general-files-and-attachment-header = Filer og vedlegg
+general-files-and-attachment-description = Velg hvilke filer som skal lagres og hvor de skal lagres på datamaskinen din.
 general-tags-header = Etiketter
 general-reading-and-display-header = Lesing og visning
 general-updates-header = Oppdateringer
