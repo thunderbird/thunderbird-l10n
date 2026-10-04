@@ -9,12 +9,19 @@ fonts-label-default =
     .label = Standard ({ $name })
 fonts-label-default-unnamed =
     .label = Standard
+fonts-character-set-legend =
+    .value = Teiknsett:
+    .accesskey = T
+font-main-style-label =
+    .value = Hovudskrifttype:
+    .accesskey = s
 fonts-language-legend =
     .value = Skrifttypar for:
     .accesskey = t
 fonts-proportional-label =
     .value = Proporsjonal:
     .accesskey = P
+text-font-options-dialog-title = Tekst- og skriftinnstillingar
 
 ## Languages
 
@@ -93,6 +100,9 @@ font-size-monospace-label =
 font-serif-label =
     .value = Seriffskrift:
     .accesskey = S
+sans-serif-font-label =
+    .value = Serifflaus skrift:
+    .accesskey = e
 font-sans-serif-label =
     .value = Serrifflaus-skrift:
     .accesskey = u
@@ -114,6 +124,10 @@ use-document-fonts-checkbox =
 use-fixed-width-plain-checkbox =
     .label = Bruk skrifttype med fast teiknavstand for meldingar i rein tekst
     .accesskey = B
+message-font-permissions-legend = Skriftløyve for meldingar
+allow-incoming-fonts-checkbox =
+    .label = Tillat at innkomande meldingar brukar sine eigne skrifter
+    .accesskey = o
 
 ## Language settings
 
