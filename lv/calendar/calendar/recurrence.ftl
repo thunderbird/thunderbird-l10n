@@ -114,3 +114,17 @@ recurrence-yearly-nth-on =
         [one] katru { $interval }. gadu { $monthDay }. { $month }
        *[other] katru { $interval }. gadu { $monthDay }. { $month }
     }
+# Edit recurrence window -> Recurrence pattern -> Yearly repeat rules
+# This string describes part of a yearly rule which includes every day of a month.
+# Variables:
+#   $month - month name
+#   $interval is a number, the recurrence interval
+# e.g. "every day of December"
+# e.g. "every 3 years every day of December"
+recurrence-yearly-every-day-of =
+    { $interval ->
+        [zero] katru { $interval }. gadu katru { $month } dienu
+        [1] katru { $month } dienu
+        [one] katru { $interval }. gadu katru { $month } dienu
+       *[other] katru { $interval }. gadu katru { $month } dienu
+    }
