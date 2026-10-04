@@ -21,6 +21,7 @@ total-unread-messages-radio =
 total-new-messages-radio =
     .label = Totalt antall nye meldinger
     .accesskey = n
+notification-badge-system-info = Varslingsmerker kan også slås på eller av i systeminnstillingene på datamaskinen.
 dock-icon-show-label =
     .value = Merk programikonet med:
 count-unread-messages-radio =
