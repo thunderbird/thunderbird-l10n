@@ -32,6 +32,7 @@ pane-qr-export-title = Eksporter for mobil
 category-qr-export =
     .tooltiptext = Eksporter for mobil
 general-language-and-fonts-header = Språk og skrifttyper
+general-email-notifications-header = E-postvarsler
 general-language-and-appearance-header = Språk og utseende
 general-incoming-mail-header = Innkommende e-post
 general-files-and-attachment-header = Filer og vedlegg
