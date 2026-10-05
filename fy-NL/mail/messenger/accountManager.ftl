@@ -34,6 +34,7 @@ outgoing-server-section-name = Utgeande server
 outgoing-server-settings-title = Ynstellingen fan útgeande server
 outgoing-server-settings-description = By it behearen fan jo identiteiten kinne jo in server fan dizze list brûke troch it te selektearjen as de útgeande server, of jo kinne de standertserver fan dizze list brûke troch ‘Standertserver brûke’ te selektearjen.
 outgoing-server-type = Servertype:
+panel-manage-spam = Net-winske beheare
 panel-settings-spam = Net-winskeynstellingen
 # Variables:
 # $account (String) - The account name.

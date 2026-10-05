@@ -56,6 +56,7 @@ composition-addressing-header = Addressearring
 privacy-main-header = Privacy
 privacy-passwords-header = Wachtwurden
 privacy-spam-header = Net-winske
+collection-improve-header = Gegevens sammele om { -brand-short-name } te ferbetterjen.
 privacy-junk-header = Net-winske berjochten
 collection-header = Gegevenssamling en gebrûk fan { -brand-short-name }
 collection-description = Wy stribje dernei jo kar te bieden en allinnich te sammeljen wat wy nedich hawwe om { -brand-short-name } foar elkenien beskikber te meitsjen en te ferbetterjen. Wy freegje altyd tastimming eardat wy persoanlike gegevens ûntfange.

@@ -127,6 +127,14 @@ calendar-dialog-attachments-summary-label =
         [one] { $count } bylage
        *[other] { $count } bylagen
     }
+calendar-event-prompt-delete-title = Barren fuortsmite
+calendar-event-prompt-delete-header = It folgjende barren(s) permanint fuortsmite?
+calendar-single-event-prompt-delete-header = Dit barren permanint fuortsmite?
+calendar-prompt-this-event =
+    .label = Dit barren
+calendar-prompt-all-events =
+    .label = Alle barrens
+calendar-prompt-delete-button = Fuortsmite
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =

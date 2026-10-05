@@ -10,6 +10,7 @@ window-focus-search-alt-key =
 filter-search-label =
     .value = Sykje:
     .accesskey = k
+cookies-stored-label = Cookies wurde op dizze kompjûter bewarre
 cookies-on-system-label = De folgjende cookies binne op jo kompjûter bewarre:
 treecol-site-header =
     .label = Side

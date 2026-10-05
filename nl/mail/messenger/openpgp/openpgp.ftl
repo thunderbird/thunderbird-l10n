@@ -214,7 +214,7 @@ openpgp-key-man-add-pqc =
     .accesskey = P
 # Do not translate: PQC
 openpgp-pqc-confirm-generate = Een versleutelingssubsleutel genereren met post-quantumcryptography (PQC)? Het aanmaken kan enkele minuten duren.
-openpgp-pqc-generate-failed = De PQC-subsleutel voor versleuteling kon niet worden gegenereerd.
+openpgp-pqc-generate-failed = De PQC-versleutelingssubsleutel kon niet worden gegenereerd.
 openpgp-key-man-ignored-ids =
     .label = E-mailadressen
 openpgp-key-man-del-key =

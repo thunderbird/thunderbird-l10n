@@ -208,6 +208,13 @@ openpgp-key-man-change-expiry =
 openpgp-key-man-refresh-online =
     .label = Online fernije
     .accesskey = f
+# Do not translate: PQC
+openpgp-key-man-add-pqc =
+    .label = PQC-fersiferingssubkaai generearje
+    .accesskey = P
+# Do not translate: PQC
+openpgp-pqc-confirm-generate = In fersiferingssubkaai generearje mei post-kwantumkryptografy (PQC)? Generaasje kin ferskate minuten duorje.
+openpgp-pqc-generate-failed = De PQC-fersiferingssubkaai koe net generearre wurde.
 openpgp-key-man-ignored-ids =
     .label = E-mailadressen
 openpgp-key-man-del-key =
@@ -325,6 +332,7 @@ openpgp-passphrase-instruction-primary-password = Dizze kaai ek befeiligje mei i
 openpgp-passphrase-instruction-user-passphrase = Untskoattelje dizze kaai om de befeiliging te wizigjen.
 openpgp-passphrase-unlock = Untskoattelje
 openpgp-passphrase-unlocked = Kaai mei sukses ûntskoattele.
+openpgp-passphrase-unlock-failed = De kaai, of ûndergeskikte dielen derfan, koene net ûntskoattele wurde.
 openpgp-remove-protection = Wachtwurdsinbefeiliging fuortsmite
 openpgp-use-primary-password = Smyt de wachtwurdsin en befeiligje mei it haadwachtwurd
 openpgp-passphrase-new = Nije wachtwurdsin
