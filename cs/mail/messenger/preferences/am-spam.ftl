@@ -43,6 +43,7 @@ global-spam-preferences-button =
 manage-spam-title = Nevyžádaná pošta
 manage-spam-header =
     .value = Nevyžádaná pošta
+training-description-learns = Je-li tato funkce zapnutá, { -brand-short-name } se učí ze zpráv, které označíte jako nevyžádané nebo jako legitimní. Čím více ji budete trénovat, tím lépe bude { -brand-short-name } nevyžádanou poštu rozpoznávat.
 spam-auto-detection-checkbox =
     .label = Zapnout automatické rozpoznávání nevyžádané pošty pro tento účet
     .accesskey = Z

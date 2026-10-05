@@ -61,6 +61,7 @@ collection-improve-header =
         [with-cases] Údaje shromažďované za účelem vylepšování { -brand-short-name(case: "gen") }
        *[no-cases] Údaje shromažďované za účelem vylepšování aplikace { -brand-short-name }
     }
+collection-community-description = { -brand-short-name } vzniká díky celosvětové komunitě. Sdílením anonymních údajů o výkonu nám pomáháte rychleji opravovat chyby a zrychlovat aplikaci pro všechny.
 collection-privacy-policy = Přečtěte si naše prohlášení o zásadách ochrany osobních údajů.
 collection-data-sharing-off = <strong>Sdílení dat je vypnuto.</strong> Data o minulém používání budou ze serverů organizace { -vendor-short-name } během 30 dní trvale smazána.
 privacy-junk-header = Nevyžádaná
