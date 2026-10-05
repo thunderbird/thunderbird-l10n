@@ -34,6 +34,7 @@ outgoing-server-section-name = 送信サーバー
 outgoing-server-settings-title = 送信サーバー設定
 outgoing-server-settings-description = 複数の差出人情報を管理している場合、使用する送信サーバーをこのリストから選択できます。“デフォルトサーバーを使用する” を選択すると、このリストのデフォルトサーバーを使用します。
 outgoing-server-type = サーバーの種類:
+panel-manage-spam = 迷惑メールの管理
 panel-settings-spam = 迷惑メール
 # Variables:
 # $account (String) - The account name.
