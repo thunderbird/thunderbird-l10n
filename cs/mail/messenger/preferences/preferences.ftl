@@ -62,6 +62,7 @@ collection-improve-header =
        *[no-cases] Údaje shromažďované za účelem vylepšování aplikace { -brand-short-name }
     }
 collection-privacy-policy = Přečtěte si naše prohlášení o zásadách ochrany osobních údajů.
+collection-data-sharing-off = <strong>Sdílení dat je vypnuto.</strong> Data o minulém používání budou ze serverů organizace { -vendor-short-name } během 30 dní trvale smazána.
 privacy-junk-header = Nevyžádaná
 collection-header =
     { -brand-short-name.case-status ->
@@ -1012,6 +1013,9 @@ reset-spam-button =
     .label = Vymazat naučená pravidla
     .accesskey = V
 scam-detection-description = { -brand-short-name } kontroluje, zda zprávy neobsahují phishingové odkazy a typické znaky e-mailových podvodů.
+scam-detection-label =
+    .label = Upozornit při čtení e-mailu, který vypadá jako podvodný
+    .accesskey = U
 antivirus-check-description = Antivirový program umožňuje kontrolovat příchozí zprávy jednotlivě před jejich uložením do vašeho počítače.
 antivirus-isolate-label =
     .label = Povolit antivirům izolovat infikované příchozí e-maily
@@ -1426,7 +1430,14 @@ qr-export-pane-header-mobile =
         [with-cases] Export do { -brand-product-name(case: "gen") } na mobilu
        *[no-cases] Export do aplikace { -brand-product-name } na mobilu
     }
+qr-export-description-email-accounts =
+    { -brand-product-name.case-status ->
+        [with-cases] Pomocí QR kódu přeneste své e-mailové účty z tohoto počítače do { -brand-product-name(case: "gen") } v telefonu.
+       *[no-cases] Pomocí QR kódu přeneste své e-mailové účty z tohoto počítače do aplikace { -brand-product-name } v telefonu.
+    }
+qr-export-get-app-google-play = <a data-l10n-name="app-link">Získat { -brand-product-name } na Google Play</a>
 qr-export-select-accounts-title = Zvolte účty, které chcete exportovat:
+qr-export-missing-accounts-support = Chybí vám některý účet? Účty, které { -brand-product-name } pro Android nepodporuje, nelze vybrat. <a data-l10n-name="account-support-link">Zjistěte, které typy účtů jsou podporovány</a>
 
 ## Appearance Tab
 
