@@ -56,6 +56,11 @@ composition-addressing-header = Adresování
 privacy-main-header = Soukromí
 privacy-passwords-header = Hesla
 privacy-spam-header = Nevyžádaná
+collection-improve-header =
+    { -brand-short-name.case-status ->
+        [with-cases] Údaje shromažďované za účelem vylepšování { -brand-short-name(case: "gen") }
+       *[no-cases] Údaje shromažďované za účelem vylepšování aplikace { -brand-short-name }
+    }
 collection-privacy-policy = Přečtěte si naše prohlášení o zásadách ochrany osobních údajů.
 privacy-junk-header = Nevyžádaná
 collection-header =
@@ -75,6 +80,10 @@ collection-health-report-telemetry-disabled =
        *[no-cases] Odesílání technických údajů a údajů o interakcích organizaci { -vendor-short-name } není nadále povoleno. Všechny historické údaje budou smazány do 30 dnů.
     }
 collection-health-report-telemetry-disabled-link = Zjistit více
+collection-share-performance =
+    .label = Sdílet anonymní data o výkonu s organizací { -vendor-short-name }
+    .accesskey = S
+collection-share-performance-description = (Zahrnuje základní technické údaje, například informace o operačním systému, využití paměti a používání funkcí. { -brand-short-name } nikdy neshromažďuje obsah e-mailů, kontakty ani osobní zprávy.)
 collection-health-report =
     .label =
         { -vendor-short-name.case-status ->
@@ -86,6 +95,9 @@ collection-health-report-link = Zjistit více
 # This message is displayed above disabled data sharing options in developer builds
 # or builds with no Telemetry support available.
 collection-health-report-disabled = Odesílání dat je zakázáno konfigurací tohoto sestavení
+collection-share-crash-data =
+    .label = Odesílat anonymní hlášení o pádu organizaci { -vendor-short-name }
+    .accesskey = O
 collection-backlogged-crash-reports =
     .label =
         { -brand-short-name.case-status ->
@@ -921,13 +933,18 @@ cookies-button =
 # "Global Privacy Control" or "GPC" are a web platform feature name and abbreviation
 # included to facilitate power-user search of the about:preferences page.
 global-privacy-control-search = Global Privacy Control (GPC)
+global-privacy-control-label =
+    .label = Žádat weby, aby neprodávaly ani nesdílely osobní údaje
+    .accesskey = d
 global-privacy-control-description =
     .label = Říkat webům, aby neprodávaly ani nesdílely vaše údaje
     .accesskey = n
 do-not-track-removal = Funkce „Do Not Track“ už není podporována
+passwords-registered-description = { -brand-short-name } může ukládat hesla k vašim účtům.
 view-saved-passwords-button =
     .label = Zobrazit uložená hesla…
     .accesskey = Z
+primary-password-session-description = Hlavní heslo chrání všechna uložená hesla a zadává se jednou za relaci.
 use-primary-password-label =
     .label = Použít hlavní heslo
     .accesskey = P
@@ -952,6 +969,7 @@ primary-password-button =
     .accesskey = m
 forms-primary-pw-fips-title = Momentálně jste v režimu FIPS, který vyžaduje neprázdné hlavní heslo.
 forms-master-pw-fips-desc = Neúspěšná změna hesla
+spam-accounts-description = Tato nastavení platí pro všechny účty. Nastavení jednotlivých účtů lze změnit v Nastavení účtu.
 spam-description = Nastavte výchozí nastavení nevyžádané pošty. Nastavení nevyžádané pošty pro konkrétní účet lze nakonfigurovat v Nastavení účtu.
 spam-marked-label =
     .label = Když jsou zprávy označeny jako nevyžádané:
@@ -972,6 +990,12 @@ spam-read-description = Označovat zprávy jako přečtené
 spam-marked-manually-label =
     .label = Při ručním označení
     .accesskey = P
+spam-detected-auto-label =
+    .label = Při automatickém rozpoznání aplikací { -brand-short-name }
+    .accesskey = P
+spam-log-keep-label =
+    .label = Uchovávat záznamy o automatickém rozpoznávání nevyžádané pošty
+    .accesskey = U
 spam-read-manual-label =
     .label = Při ručním označení jako nevyžádané
     .accesskey = P
