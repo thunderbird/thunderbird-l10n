@@ -1011,12 +1011,21 @@ spam-log-button =
 reset-spam-button =
     .label = Vymazat naučená pravidla
     .accesskey = V
+scam-detection-description = { -brand-short-name } kontroluje, zda zprávy neobsahují phishingové odkazy a typické znaky e-mailových podvodů.
+antivirus-check-description = Antivirový program umožňuje kontrolovat příchozí zprávy jednotlivě před jejich uložením do vašeho počítače.
+antivirus-isolate-label =
+    .label = Povolit antivirům izolovat infikované příchozí e-maily
+    .accesskey = P
+certificate-verify-description = Když server požádá o certifikát pro ověření vaší identity:
 certificate-choose-auto =
     .label = Vybrat certifikát automaticky
     .accesskey = V
 certificate-ask-every =
     .label = Vždy se zeptat
     .accesskey = V
+ocsp-check-label =
+    .label = Ověřovat na validačních serverech (OCSP), zda jsou certifikáty stále platné.
+    .accesskey = O
 junk-description = Další nastavení nevyžádané pošty lze provést v dialogu Nastavení účtu.
 junk-marked-label =
     .label = Když jsou zprávy označeny jako nevyžádané:
@@ -1069,9 +1078,18 @@ security-devices-button =
     .accesskey = B
 email-e2ee-header = Oboustranné šifrování e-mailů
 account-settings = Nastavení účtu
+email-e2ee-accounts-info = Šifrované e-maily můžete číst pouze vy a vaši příjemci. Nastavte e-mailové účty a identity pro koncové šifrování v <a data-l10n-name="account-settings-url">Nastavení účtu</a>.
 email-e2ee-enable-accounts-info = Nastavte e-mailové účty a identity pro oboustranné šifrování v <a data-l10n-name="account-settings-url">Nastavení účtu</a>.
 email-e2ee-enable-info = V Nastavení účtu nastavte koncové šifrování pro e-mailové účty a identity.
 email-e2ee-automatism = Automatické použití šifrování
+email-e2ee-automatism-intro = { -brand-short-name } může automaticky zapnout šifrování, pokud jsou pro všechny příjemce zprávy k dispozici platné a přijaté klíče nebo certifikáty.
+email-e2ee-turn-on =
+    .label = Automaticky zapínat šifrování, kdykoli je to možné
+email-e2ee-turn-off =
+    .label = Automaticky vypnout šifrování, když se změní příjemci a šifrování už není možné
+email-e2ee-turn-off-notify =
+    .label = Upozornit pokaždé, když se šifrování automaticky vypne
+email-e2ee-automatism-note = Poznámka: Při psaní zprávy můžete šifrování také ručně zapnout nebo vypnout. Při odpovědi na zašifrovanou zprávu se šifrování vždy zapne.
 email-e2ee-automatism-pre =
     { -brand-short-name } pomůže tak, že při psaní e-mailu automaticky zapne nebo vypne šifrování.
     Automatické zapnutí/vypnutí závisí na dostupnosti platných a přijatých klíčů nebo certifikátů korespondentů.
@@ -1114,6 +1132,7 @@ preferences-doh-expand-section =
 preferences-doh-setting-automatic =
     .label = Automatická ochrana (doporučeno)
     .accesskey = A
+preferences-doh-automatic-desc = { -brand-short-name } automaticky šifruje vyhledávání adres, kdykoli je to možné. Při potížích s připojením nebo pokud to vyžaduje VPN či spravovaná síť, přejde zpět na standardní síťové vyhledávání.
 preferences-doh-setting-default =
     .label = Výchozí ochrana
     .accesskey = V
@@ -1126,12 +1145,14 @@ preferences-doh-default-detailed-desc-5 = Vypne se, když síť oznámí aplikac
 preferences-doh-setting-enabled =
     .label = Zvýšená ochrana
     .accesskey = Z
+preferences-doh-increased-desc = Vždy používá vybraného poskytovatele. Ke standardnímu připojení přejde pouze při selhání zabezpečeného poskytovatele.
 preferences-doh-enabled-desc = Sami si nastavíte, kdy se zabezpečené DNS použije, a od jakého poskytovatele.
 preferences-doh-enabled-detailed-desc-1 = Použije se poskytovatel, kterého jste si vybrali
 preferences-doh-enabled-detailed-desc-2 = Výchozí překladač DNS se použijte jen v případě problému se zabezpečeným DNS
 preferences-doh-setting-maximum =
     .label = Maximální ochrana
     .accesskey = M
+preferences-doh-maximum-desc = Bezpodmínečně vyžaduje šifrované DNS. Pokud se nepodaří navázat zabezpečené připojení, webové stránky se nenačtou.
 preferences-doh-setting-strict =
     .label = Maximální ochrana
     .accesskey = M
@@ -1156,6 +1177,7 @@ preferences-doh-url-custom =
     .label = Vlastní
     .accesskey = V
 preferences-doh-secure-header = Zabezpečené DNS (DNS over HTTPS)
+preferences-doh-secure-description = Zabezpečené DNS šifruje požadavky, pomocí kterých { -brand-short-name } vyhledává webové stránky, a chrání tak vaši aktivitu při procházení před sledováním v síti.
 
 ## Keyservers
 
@@ -1399,6 +1421,11 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Včetně hesel
 qr-export-summary-passwords-excluded = Hesla vynechána
 qr-export-more-accounts = Exportovat více účtů
+qr-export-pane-header-mobile =
+    { -brand-product-name.case-status ->
+        [with-cases] Export do { -brand-product-name(case: "gen") } na mobilu
+       *[no-cases] Export do aplikace { -brand-product-name } na mobilu
+    }
 qr-export-select-accounts-title = Zvolte účty, které chcete exportovat:
 
 ## Appearance Tab
