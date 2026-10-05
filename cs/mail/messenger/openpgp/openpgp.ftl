@@ -218,6 +218,8 @@ openpgp-key-man-refresh-online =
 openpgp-key-man-add-pqc =
     .label = Vygenerovat podklíč PQC pro šifrování
     .accesskey = g
+# Do not translate: PQC
+openpgp-pqc-confirm-generate = Vygenerovat podklíč pro šifrování pomocí postkvantové kryptografie (PQC)? Generování může trvat několik minut.
 openpgp-pqc-generate-failed = Podklíč pro šifrování PQC se nepodařilo vygenerovat.
 openpgp-key-man-ignored-ids =
     .label = E-mailové adresy
