@@ -10,6 +10,7 @@ window-focus-search-alt-key =
 filter-search-label =
     .value = Αναζήτηση:
     .accesskey = ζ
+cookies-stored-label = Τα cookie αποθηκεύονται σε αυτόν τον υπολογιστή
 cookies-on-system-label = Τα ακόλουθα cookie έχουν αποθηκευτεί στον υπολογιστή σας:
 treecol-site-header =
     .label = Ιστότοπος

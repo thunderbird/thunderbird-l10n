@@ -970,6 +970,10 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     Οι αυτόματες αποφάσεις μπορούν να παρακαμφθούν από τη μη αυτόματη (απ)ενεργοποίηση της κρυπτογράφησης κατά τη σύνταξη ενός μηνύματος.
     Σημείωση: Η κρυπτογράφηση ενεργοποιείται πάντα αυτόματα όταν απαντάτε σε κρυπτογραφημένο μήνυμα.
+email-content = Περιεχόμενο email
+remote-content-images-label =
+    .label = Αποδοχή απομακρυσμένου περιεχομένου (εικόνες και μορφοποιήσεις)
+    .accesskey = μ
 
 ## DoH Section
 
@@ -993,6 +997,9 @@ preferences-doh-status-not-active = Μη ενεργό ({ $reason })
 preferences-doh-group-message = Ενεργοποίηση DNS μέσω HTTPS χρησιμοποιώντας:
 preferences-doh-expand-section =
     .tooltiptext = Περισσότερες πληροφορίες
+preferences-doh-setting-automatic =
+    .label = Αυτόματη προστασία (προτείνεται)
+    .accesskey = Α
 preferences-doh-setting-default =
     .label = Προεπιλεγμένη προστασία
     .accesskey = Π
@@ -1211,6 +1218,7 @@ qr-export-no-accounts = Δεν βλέπετε όλους τους λογαρια
 qr-export-accounts-legend = Λογαριασμοί email
 qr-export-select-all-accounts = Επιλογή όλων
 qr-export-passwords-legend = Κωδικοί πρόσβασης
+qr-export-include-passwords-label = Συμπερίληψη των κωδικών πρόσβασης των λογαριασμών στον κωδικό QR
 qr-export-security-legend = Ασφάλεια
 qr-export-include-passwords = Συμπερίληψη όλων των κωδικών πρόσβασης λογαριασμών
 qr-export-oauth-warning = Ορισμένοι από τους λογαριασμούς σας χρησιμοποιούν μια μέθοδο ταυτοποίησης που ενδέχεται να απαιτήσει εκ νέου ταυτοποίηση στην κινητή σας συσκευή. Ίσως χρειαστεί να εισαγάγετε ξανά τους κωδικούς πρόσβασής σας κατά τη διάρκεια αυτής της διαδικασίας.
@@ -1261,6 +1269,8 @@ qr-export-summary-passwords-included = Περιλαμβάνονται οι κω�
 qr-export-summary-passwords-excluded = Εξαιρούνται οι κωδικοί πρόσβασης
 qr-export-more-accounts = Εξαγωγή περισσότερων λογαριασμών
 qr-export-pane-header-mobile = Εξαγωγή στο { -brand-product-name } για κινητές συσκευές
+qr-export-get-app-google-play = <a data-l10n-name="app-link">Λήψη του { -brand-product-name } στο Google Play</a>
+qr-export-select-accounts-title = Επιλέξτε λογαριασμούς προς εξαγωγή:
 
 ## Appearance Tab
 

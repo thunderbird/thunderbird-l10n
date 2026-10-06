@@ -129,6 +129,10 @@ calendar-dialog-attachments-summary-label =
 calendar-event-prompt-delete-title = Διαγραφή εκδήλωσης
 calendar-event-prompt-delete-header = Οριστική αφαίρεση των ακόλουθων εκδηλώσεων;
 calendar-single-event-prompt-delete-header = Οριστική αφαίρεση της εκδήλωσης;
+calendar-prompt-this-event =
+    .label = Αυτή η εκδήλωση
+calendar-prompt-all-events =
+    .label = Όλες οι εκδηλώσεις
 calendar-prompt-delete-button = Διαγραφή
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
