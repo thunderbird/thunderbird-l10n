@@ -212,6 +212,9 @@ openpgp-key-man-refresh-online =
 openpgp-key-man-add-pqc =
     .label = Δημιουργία υποκλειδιού κρυπτογράφησης PQC
     .accesskey = Δ
+# Do not translate: PQC
+openpgp-pqc-confirm-generate = Να δημιουργηθεί υποκλειδί κρυπτογράφησης με μετακβαντική κρυπτογραφία (PQC); Η διαδικασία ενδέχεται να διαρκέσει αρκετά λεπτά.
+openpgp-pqc-generate-failed = Δεν ήταν δυνατή η δημιουργία του υποκλειδιού κρυπτογράφησης PQC.
 openpgp-key-man-ignored-ids =
     .label = Διευθύνσεις email
 openpgp-key-man-del-key =
@@ -329,6 +332,7 @@ openpgp-passphrase-instruction-primary-password = Εναλλακτικά, προ
 openpgp-passphrase-instruction-user-passphrase = Ξεκλειδώστε αυτό το κλειδί για να αλλάξετε την προστασία του.
 openpgp-passphrase-unlock = Ξεκλείδωμα
 openpgp-passphrase-unlocked = Το κλειδί ξεκλειδώθηκε επιτυχώς.
+openpgp-passphrase-unlock-failed = Δεν ήταν δυνατό το ξεκλείδωμα του κλειδιού ή των δευτερευόντων τμημάτων του.
 openpgp-remove-protection = Αφαίρεση προστασίας με φράση πρόσβασης
 openpgp-use-primary-password = Αφαίρεση φράσης πρόσβασης και προστασία με κύριο κωδικό πρόσβασης
 openpgp-passphrase-new = Νέα φράση πρόσβασης
