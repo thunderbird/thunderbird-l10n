@@ -1016,6 +1016,10 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     Automatické rozhodnutia možno prepísať manuálnym povolením alebo zakázaním šifrovania pri vytváraní správy.
     Poznámka: šifrovanie je vždy automaticky povolené pri odpovedi na zašifrovanú správu.
+email-content = Obsah e‑mailových správ
+remote-content-images-label =
+    .label = Povoliť vzdialený obsah (obrázky a štýly)
+    .accesskey = v
 
 ## DoH Section
 
