@@ -34,6 +34,7 @@ outgoing-server-section-name = Server Keluar
 outgoing-server-settings-title = Pengaturan Server Keluar
 outgoing-server-settings-description = Saat mengelola identitas Anda, Anda dapat menggunakan server dari daftar ini dengan memilihnya sebagai Server Keluar, atau Anda dapat menggunakan server baku dari daftar ini dengan memilih "Gunakan Server Baku".
 outgoing-server-type = Jenis Server:
+panel-manage-spam = Kelola spam
 panel-settings-spam = Pengaturan Spam
 # Variables:
 # $account (String) - The account name.

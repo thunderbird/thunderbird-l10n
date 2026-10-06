@@ -202,6 +202,13 @@ openpgp-key-man-change-expiry =
 openpgp-key-man-refresh-online =
     .label = Segarkan Daring
     .accesskey = r
+# Do not translate: PQC
+openpgp-key-man-add-pqc =
+    .label = Buat Subkunci Enkripsi PQC
+    .accesskey = B
+# Do not translate: PQC
+openpgp-pqc-confirm-generate = Buat subkunci enkripsi menggunakan kriptografi pasca-kuantum (PQC)? Pembuatan mungkin membutuhkan waktu beberapa menit.
+openpgp-pqc-generate-failed = Subkunci enkripsi PQC tidak dapat dibuat.
 openpgp-key-man-ignored-ids =
     .label = Alamat surel
 openpgp-key-man-del-key =
@@ -319,6 +326,7 @@ openpgp-passphrase-instruction-primary-password = Atau lindungi kunci ini dengan
 openpgp-passphrase-instruction-user-passphrase = Buka kunci ini untuk mengubah perlindungannya.
 openpgp-passphrase-unlock = Buka kunci
 openpgp-passphrase-unlocked = Kunci berhasil dibuka.
+openpgp-passphrase-unlock-failed = Kunci, atau bagian bawahan dari kunci, tidak dapat dibuka.
 openpgp-remove-protection = Hapus perlindungan frasa sandi
 openpgp-use-primary-password = Hapus frasa sandi dan lindungi dengan Sandi Utama
 openpgp-passphrase-new = Frasa sandi baru

@@ -99,6 +99,14 @@ calendar-dialog-attachments-expand-icon =
 # Variables:
 #   $count (Number): Number of attachments.
 calendar-dialog-attachments-summary-label = { $count } Lampiran
+calendar-event-prompt-delete-title = Hapus acara
+calendar-event-prompt-delete-header = Hapus acara berikut secara permanen?
+calendar-single-event-prompt-delete-header = Hapus acara ini secara permanen?
+calendar-prompt-this-event =
+    .label = Acara ini
+calendar-prompt-all-events =
+    .label = Semua acara
+calendar-prompt-delete-button = Hapus
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going = { $count } hadir

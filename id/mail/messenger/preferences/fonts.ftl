@@ -9,12 +9,19 @@ fonts-label-default =
     .label = Baku ({ $name })
 fonts-label-default-unnamed =
     .label = Asali
+fonts-character-set-legend =
+    .value = Kumpulan karakter:
+    .accesskey = t
+font-main-style-label =
+    .value = Gaya font utama:
+    .accesskey = f
 fonts-language-legend =
     .value = Huruf untuk:
     .accesskey = H
 fonts-proportional-label =
     .value = Proporsional:
     .accesskey = P
+text-font-options-dialog-title = Opsi teks & font
 
 ## Languages
 
@@ -93,6 +100,9 @@ font-size-monospace-label =
 font-serif-label =
     .value = Serif:
     .accesskey = S
+sans-serif-font-label =
+    .value = Font sans-serif:
+    .accesskey = n
 font-sans-serif-label =
     .value = Tanpa-serif:
     .accesskey = T
@@ -114,6 +124,7 @@ use-document-fonts-checkbox =
 use-fixed-width-plain-checkbox =
     .label = Gunakan huruf dengan lebar tetap untuk pesan dalam teks polos
     .accesskey = s
+message-font-permissions-legend = Izin font pesan
 
 ## Language settings
 

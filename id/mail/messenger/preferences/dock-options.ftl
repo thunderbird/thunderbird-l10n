@@ -31,3 +31,4 @@ count-new-messages-radio =
     .label = Jumlah pesan baru
     .accesskey = n
 notification-settings-info2 = Anda dapat menonaktifkan lencana di panel Pemberitahuan dari Pengaturan Sistem.
+dock-icon-notification-dialog-title = Pengaturan pemberitahuan ikon aplikasi
