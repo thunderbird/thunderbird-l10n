@@ -1286,8 +1286,8 @@ qr-export-scan-description =
         [one] Scannez le code QR avec { -brand-product-name } sur votre appareil mobile
        *[other] Scannez les codes QR avec { -brand-product-name } sur votre appareil mobile
     }
-qr-export-scan-step1 = Ouvrir { -brand-product-name } sur votre appareil mobile
-qr-export-scan-step2 = Ouvrir les paramètres
+qr-export-scan-step1 = Ouvrez { -brand-product-name } sur votre appareil mobile
+qr-export-scan-step2 = Ouvrez les paramètres
 # The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
 qr-export-scan-step3 = Sélectionnez <strong>Importer les paramètres</strong>
 # The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
