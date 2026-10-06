@@ -923,6 +923,23 @@ reset-spam-button =
     .label = Vymazať zozbierané údaje
     .accesskey = V
 scam-detection-description = { -brand-short-name } vyhľadáva v správach podvodné odkazy a typické znaky e‑mailových podvodov.
+scam-detection-label =
+    .label = Upozorniť pri čítaní e‑mailu, ktorý pôsobí podozrivo
+    .accesskey = U
+antivirus-check-description = Umožňuje antivírusovému programu skontrolovať každú prichádzajúcu správu pred jej uložením do počítača.
+antivirus-isolate-label =
+    .label = Povoliť antivírusovému softvéru izolovať infikované prichádzajúce e‑maily
+    .accesskey = v
+certificate-verify-description = Ak server vyžiada certifikát na potvrdenie vašej identity:
+certificate-choose-auto =
+    .label = Automaticky vybrať certifikát
+    .accesskey = A
+certificate-ask-every =
+    .label = Vždy sa opýtať
+    .accesskey = V
+ocsp-check-label =
+    .label = Overiť platnosť certifikátov pomocou serverov OCSP.
+    .accesskey = v
 junk-description = Ak chcete zmeniť špecifické nastavenia nevyžiadanej pošty svojho účtu, prejdite do jeho nastavenia.
 junk-marked-label =
     .label = Keď sú správy označené ako nevyžiadané:
@@ -975,9 +992,18 @@ security-devices-button =
     .accesskey = z
 email-e2ee-header = Obojstranné šifrovanie e‑mailov
 account-settings = Nastavenia účtu
+email-e2ee-accounts-info = Zašifrované e‑maily si môžete prečítať iba vy a ich príjemcovia. E‑mailové účty a identity pre obojstranné šifrovanie nastavíte v <a data-l10n-name="account-settings-url">nastaveniach účtu</a>.
 email-e2ee-enable-accounts-info = Nastavte e‑mailové účty a identity pre obojstranné šifrovanie v <a data-l10n-name="account-settings-url">Nastaveniach účtu</a>.
 email-e2ee-enable-info = Obojstranné šifrovanie pre jednotlivé účty a identity nastavíte v Nastaveniach účtov.
 email-e2ee-automatism = Automatické používanie šifrovania
+email-e2ee-automatism-intro = { -brand-short-name } môže automaticky zapnúť šifrovanie, ak sú pre všetkých príjemcov správy k dispozícii platné a akceptované kľúče alebo certifikáty.
+email-e2ee-turn-on =
+    .label = Automaticky zapnúť šifrovanie, ak je k dispozícii
+email-e2ee-turn-off =
+    .label = Automaticky vypnúť šifrovanie po zmene príjemcov, ak už šifrovanie nie je možné
+email-e2ee-turn-off-notify =
+    .label = Upozorniť vždy, keď sa šifrovanie automaticky vypne
+email-e2ee-automatism-note = Poznámka: Šifrovanie môžete zapnúť alebo vypnúť aj manuálne počas písania správy. Pri odpovedi na šifrovanú správu sa šifrovanie zapne vždy.
 email-e2ee-automatism-pre =
     { -brand-short-name } môže pomôcť automatickým povolením alebo zakázaním šifrovania pri písaní e‑mailu.
     Automatické zapnutie/vypnutie je založené na dostupnosti platných a akceptovaných kľúčov alebo certifikátov korešpondentov.
@@ -1013,6 +1039,10 @@ preferences-doh-status-not-active = Neaktívne ({ $reason })
 preferences-doh-group-message = Zapnúť DNS cez HTTPS s použitím:
 preferences-doh-expand-section =
     .tooltiptext = Ďalšie informácie
+preferences-doh-setting-automatic =
+    .label = Automatická ochrana (odporúčané)
+    .accesskey = A
+preferences-doh-automatic-desc = { -brand-short-name } automaticky šifruje vyhľadávanie adries, keď je to možné. Ak nastane problém s pripojením alebo to vyžaduje VPN či spravovaná sieť, prepne späť na štandardné sieťové vyhľadávanie.
 preferences-doh-setting-default =
     .label = Predvolená ochrana
     .accesskey = P
@@ -1025,9 +1055,14 @@ preferences-doh-default-detailed-desc-5 = Vypne sa, keď sieť oznámi { -brand-
 preferences-doh-setting-enabled =
     .label = Zvýšená ochrana
     .accesskey = Z
+preferences-doh-increased-desc = Vždy používa vybraného poskytovateľa. Bežné pripojenie použije iba vtedy, ak zabezpečený poskytovateľ zlyhá.
 preferences-doh-enabled-desc = Vy určujete, kedy sa použije zabezpečené DNS, a vyberáte si svojho poskytovateľa.
 preferences-doh-enabled-detailed-desc-1 = Použije sa poskytovateľ, ktorého ste si vybrali
 preferences-doh-enabled-detailed-desc-2 = Predvolený nástroj na prekladanie DNS sa použije iba v prípade, že sa vyskytne problém so zabezpečeným DNS
+preferences-doh-setting-maximum =
+    .label = Maximálna ochrana
+    .accesskey = M
+preferences-doh-maximum-desc = Bez výnimky vyžaduje šifrované DNS. Ak sa nepodarí vytvoriť zabezpečené pripojenie, webové stránky sa nenačítajú.
 preferences-doh-setting-strict =
     .label = Maximálna ochrana
     .accesskey = M
@@ -1038,6 +1073,7 @@ preferences-doh-strict-detailed-desc-3 = Ak zabezpečené DNS nie je k dispozíc
 preferences-doh-setting-off =
     .label = Vypnuté
     .accesskey = V
+preferences-doh-off-standard-desc = Na vyhľadávanie webových adries používa bežného poskytovateľa internetu alebo sieť
 preferences-doh-off-desc = Použije sa predvolený prekladač DNS
 preferences-doh-checkbox-warn =
     .label = Upozorniť, ak tretia strana aktívne bráni použitiu zabezpečeného DNS
@@ -1050,6 +1086,8 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = Vlastný
     .accesskey = V
+preferences-doh-secure-header = Zabezpečený DNS server (DNS cez HTTPS)
+preferences-doh-secure-description = Zabezpečený DNS server šifruje požiadavky, ktoré { -brand-short-name } odosiela pri vyhľadávaní webových stránok, a chráni tak vašu aktivitu pri prehliadaní pred sledovaním v sieti.
 
 ## Keyservers
 
@@ -1228,6 +1266,9 @@ qr-export-accounts-legend = E‑mailové účty
 qr-export-select-all-accounts = Vybrať všetky
 qr-export-passwords-legend = Heslá
 qr-export-include-passwords-label = Zahrnúť heslá k účtom do QR kódu
+qr-export-web-sign-in-note = <strong>Poznámka:</strong> Pri účtoch s prihlásením cez web (napríklad Gmail alebo Yahoo) sa budete musieť na svojom zariadení znova overiť.
+qr-export-private-transfer-note = <strong>Súkromný prenos:</strong> Nastavenia a heslá sa prenesú priamo z tohto počítača do vášho telefónu. Na servery Mozilly sa nič neodošle ani neuloží.
+qr-export-screen-privacy-tip = <strong>Tip:</strong> Počas zobrazenia QR kódu chráňte obrazovku pred pohľadmi ostatných.
 qr-export-security-legend = Bezpečnosť
 qr-export-include-passwords = Zahrnúť heslá všetkých účtov
 qr-export-oauth-warning = Niektoré z vašich účtov používajú metódu overenia, ktorá môže vyžadovať opätovné overenie na vašom mobilnom zariadení. Počas tohto procesu možno budete musieť znova zadať svoje heslá.
@@ -1285,6 +1326,9 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Vrátane hesiel
 qr-export-summary-passwords-excluded = Heslá nie sú súčasťou
 qr-export-more-accounts = Exportovať ďalšie účty
+qr-export-pane-header-mobile = Export do { -brand-product-name(case: "gen") } pre mobilné zariadenia
+qr-export-description-email-accounts = Pomocou QR kódu preneste svoje e‑mailové účty z tohto počítača do aplikácie { -brand-product-name } v telefóne.
+qr-export-get-app-google-play = <a data-l10n-name="app-link">Stiahnite si { -brand-product-name(case: "acc") } z Google Play</a>
 qr-export-select-accounts-title = Vyberte účty, ktoré chcete exportovať:
 qr-export-missing-accounts-support = Chýba vám niektorý účet? Účty, ktoré { -brand-product-name } pre Android nepodporuje, nemožno vybrať. <a data-l10n-name="account-support-link">Pozrite si podporované typy účtov</a>
 

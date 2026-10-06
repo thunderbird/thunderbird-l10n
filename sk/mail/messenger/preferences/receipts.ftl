@@ -48,3 +48,7 @@ sender-outside-domain-label =
 other-cases-text-label =
     .value = V ostatných prípadoch:
     .accesskey = V
+read-receipts-dialog-title = Potvrdenia o prečítaní
+return-receipt-request-control =
+    .label = Pri odosielaní e‑mailov vždy požadovať potvrdenie o doručení
+    .accesskey = e
