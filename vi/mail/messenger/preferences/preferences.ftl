@@ -1308,6 +1308,9 @@ qr-export-summary-passwords-excluded = Đã loại trừ mật khẩu
 qr-export-more-accounts = Xuất tài khoản khác
 qr-export-pane-header-mobile = Xuất sang { -brand-product-name } dành cho di động
 qr-export-description-email-accounts = Chuyển tài khoản email của bạn từ máy tính này sang { -brand-product-name } trên điện thoại bằng mã QR.
+qr-export-get-app-google-play = <a data-l10n-name="app-link">Tải { -brand-product-name } trên Google Play</a>
+qr-export-select-accounts-title = Chọn tài khoản để xuất:
+qr-export-missing-accounts-support = Bạn không thấy tài khoản của mình? Một số tài khoản không được hỗ trợ không thể chọn để xuất sang { -brand-product-name } dành cho Android. <a data-l10n-name="account-support-link">Tìm hiểu các loại tài khoản được hỗ trợ</a>
 
 ## Appearance Tab
 

@@ -202,6 +202,13 @@ openpgp-key-man-change-expiry =
 openpgp-key-man-refresh-online =
     .label = Làm mới trực tuyến
     .accesskey = R
+# Do not translate: PQC
+openpgp-key-man-add-pqc =
+    .label = Tạo PQC Encryption Subkey
+    .accesskey = G
+# Do not translate: PQC
+openpgp-pqc-confirm-generate = Tạo subkey mã hóa sử dụng mật mã hậu lượng tử (PQC)? Quá trình tạo có thể mất vài phút.
+openpgp-pqc-generate-failed = Không thể tạo PQC encryption subkey.
 openpgp-key-man-ignored-ids =
     .label = Địa chỉ email
 openpgp-key-man-del-key =
