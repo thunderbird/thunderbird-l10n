@@ -3,6 +3,29 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 offline-dialog-title = Pengaturan Luring
+status-radio-start-online =
+    .label = Mulai daring
+    .accesskey = l
+status-radio-start-offline =
+    .label = Mulai luring
+    .accesskey = g
+going-online-prompt = Kirim pesan yang menunggu di Kotak Keluar Anda
+going-online-send =
+    .label = Ya, kirim secara otomatis
+    .accesskey = Y
+going-online-keep =
+    .label = Tidak, simpan di Kotak Keluar
+    .accesskey = n
+going-online-ask-send =
+    .label = Tanyakan sebelum mengirim
+    .accesskey = s
+going-offline-prompt = Ingin mengunduh pesan untuk dibaca secara luring?
+going-offline-download =
+    .label = Ya, unduh secara otomatis
+    .accesskey = e
+going-offline-keep =
+    .label = Tidak, jangan unduh
+    .accesskey = a
 autodetect-online-label =
     .label = Secara otomatis mengikuti keadaan daring yang terdeteksi
     .accesskey = d
