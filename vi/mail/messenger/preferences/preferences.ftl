@@ -1063,6 +1063,10 @@ preferences-doh-increased-desc = Luôn sử dụng nhà cung cấp đã chọn. 
 preferences-doh-enabled-desc = Bạn kiểm soát thời điểm sử dụng DNS bảo mật và chọn nhà cung cấp của mình.
 preferences-doh-enabled-detailed-desc-1 = Sử dụng nhà cung cấp bạn chọn
 preferences-doh-enabled-detailed-desc-2 = Chỉ sử dụng trình phân giải DNS mặc định của bạn nếu có sự cố với DNS bảo mật
+preferences-doh-setting-maximum =
+    .label = Bảo vệ tối đa
+    .accesskey = M
+preferences-doh-maximum-desc = Yêu cầu bắt buộc phải sử dụng DNS mã hóa. Các trang web sẽ không tải được nếu kết nối bảo mật bị lỗi.
 preferences-doh-setting-strict =
     .label = Bảo vệ tối đa
     .accesskey = M
@@ -1073,6 +1077,7 @@ preferences-doh-strict-detailed-desc-3 = Nếu không có DNS an toàn, các tra
 preferences-doh-setting-off =
     .label = Tắt
     .accesskey = O
+preferences-doh-off-standard-desc = Sử dụng nhà cung cấp dịch vụ internet hoặc mạng tiêu chuẩn để tra cứu địa chỉ web
 preferences-doh-off-desc = Sử dụng trình phân giải DNS mặc định của bạn
 preferences-doh-checkbox-warn =
     .label = Cảnh báo nếu bên thứ ba chủ động ngăn chặn DNS an toàn
@@ -1085,6 +1090,8 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = Tuỳ chỉnh
     .accesskey = C
+preferences-doh-secure-header = DNS an toàn (DNS qua HTTPS)
+preferences-doh-secure-description = DNS bảo mật mã hóa các yêu cầu tra cứu { -brand-short-name } gửi để tìm các trang web, giữ cho hoạt động duyệt web của bạn được riêng tư khỏi bất kỳ sự giám sát mạng nào.
 
 ## Keyservers
 
@@ -1261,6 +1268,11 @@ qr-export-select-accounts = Chọn tài khoản để xuất:
 qr-export-no-accounts = Không thấy tất cả tài khoản của bạn? Một số tài khoản có thể bị vô hiệu hóa vì chúng không được hỗ trợ bởi { -brand-product-name } trên Android. <a data-l10n-name="account-support-link">Hỗ trợ</a>
 qr-export-accounts-legend = Tài khoản email
 qr-export-select-all-accounts = Chọn tất cả
+qr-export-passwords-legend = Mật khẩu
+qr-export-include-passwords-label = Bao gồm mật khẩu tài khoản trong mã QR
+qr-export-web-sign-in-note = <strong>Lưu ý:</strong> Các tài khoản sử dụng đăng nhập web (như Gmail hoặc Yahoo) yêu cầu xác thực lại trên thiết bị của bạn.
+qr-export-private-transfer-note = <strong>Truyền dữ liệu riêng tư:</strong> Cài đặt và mật khẩu của bạn được chuyển trực tiếp từ máy tính này sang điện thoại. Không có dữ liệu nào được gửi đến hoặc lưu trữ trên máy chủ của Mozilla.
+qr-export-screen-privacy-tip = <strong>Mẹo:</strong> Hãy ẩn màn hình khỏi người khác trong khi mã QR đang hiển thị.
 qr-export-security-legend = Bảo mật
 qr-export-include-passwords = Bao gồm tất cả mật khẩu tài khoản
 qr-export-oauth-warning = Một số tài khoản của bạn sử dụng phương thức xác minh có thể yêu cầu xác minh lại trên thiết bị di động của bạn. Bạn có thể cần phải nhập lại mật khẩu của mình trong quá trình này.
@@ -1294,6 +1306,8 @@ qr-export-summary-accounts = { $count } tài khoản đã xuất:
 qr-export-summary-passwords-included = Đã bao gồm mật khẩu
 qr-export-summary-passwords-excluded = Đã loại trừ mật khẩu
 qr-export-more-accounts = Xuất tài khoản khác
+qr-export-pane-header-mobile = Xuất sang { -brand-product-name } dành cho di động
+qr-export-description-email-accounts = Chuyển tài khoản email của bạn từ máy tính này sang { -brand-product-name } trên điện thoại bằng mã QR.
 
 ## Appearance Tab
 
