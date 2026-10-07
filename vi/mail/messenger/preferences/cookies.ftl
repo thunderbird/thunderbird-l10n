@@ -10,6 +10,7 @@ window-focus-search-alt-key =
 filter-search-label =
     .value = Tìm:
     .accesskey = S
+cookies-stored-label = Cookie được lưu trữ trên máy tính này
 cookies-on-system-label = Các cookie sau được lưu trong máy tính của bạn:
 treecol-site-header =
     .label = Trang
