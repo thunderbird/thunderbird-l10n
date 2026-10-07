@@ -34,6 +34,7 @@ outgoing-server-section-name = Máy chủ gửi thư
 outgoing-server-settings-title = Cài đặt máy chủ gửi thư
 outgoing-server-settings-description = Khi quản lý danh tính của bạn, bạn có thể sử dụng máy chủ từ danh sách này bằng cách chọn nó làm máy chủ gửi thư hoặc bạn có thể sử dụng máy chủ mặc định từ danh sách này bằng cách chọn “Sử dụng máy chủ mặc định”.
 outgoing-server-type = Kiểu máy chủ:
+panel-manage-spam = Quản lý thư rác
 panel-settings-spam = Cài đặt thư rác
 # Variables:
 # $account (String) - The account name.

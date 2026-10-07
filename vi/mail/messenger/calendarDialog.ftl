@@ -99,6 +99,14 @@ calendar-dialog-attachments-expand-icon =
 # Variables:
 #   $count (Number): Number of attachments.
 calendar-dialog-attachments-summary-label = { $count } đính kèm
+calendar-event-prompt-delete-title = Xoá sự kiện
+calendar-event-prompt-delete-header = Xóa vĩnh viễn (các) sự kiện sau đây?
+calendar-single-event-prompt-delete-header = Xóa vĩnh viễn sự kiện này?
+calendar-prompt-this-event =
+    .label = Sự kiện này
+calendar-prompt-all-events =
+    .label = Tất cả sự kiện
+calendar-prompt-delete-button = Xoá
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going = { $count } tham dự
