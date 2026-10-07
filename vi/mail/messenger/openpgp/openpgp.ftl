@@ -321,6 +321,7 @@ openpgp-passphrase-instruction-primary-password = Hoặc bảo vệ khóa này b
 openpgp-passphrase-instruction-user-passphrase = Mở khóa khóa này để thay đổi bảo vệ của nó.
 openpgp-passphrase-unlock = Mở khóa
 openpgp-passphrase-unlocked = Khóa đã mở khóa thành công.
+openpgp-passphrase-unlock-failed = Không thể mở khoá hoặc các phần phụ liên quan của khoá.
 openpgp-remove-protection = Xóa bảo vệ cụm mật khẩu
 openpgp-use-primary-password = Xóa cụm mật khẩu và bảo vệ bằng mật khẩu chính
 openpgp-passphrase-new = Cụm mật khẩu mới
@@ -353,6 +354,7 @@ openpgp-add-key-button =
 e2e-learn-more = Tìm hiểu thêm
 openpgp-keygen-success = Khóa OpenPGP đã được tạo thành công!
 openpgp-keygen-import-success = Đã nhập khóa OpenPGP thành công!
+openpgp-keygen-external-success = Đã lưu External GnuPG Key ID!
 
 ## OpenPGP Key selection area
 
@@ -379,6 +381,10 @@ openpgp-manager-description = Sử dụng Trình quản lý khóa OpenPGP để 
 openpgp-manager-button =
     .label = Trình quản lý khóa OpenPGP
     .accesskey = K
+openpgp-key-remove-external =
+    .label = Xoá External Key ID
+    .accesskey = E
+key-external-label = External GnuPG Key
 
 ## Strings in keyDetailsDlg.xhtml
 
