@@ -128,6 +128,9 @@ message-font-permissions-legend = İleti yazı tipi izinleri
 allow-incoming-fonts-checkbox =
     .label = Gelen iletilerin kendi yazı tiplerini kullanmasına izin ver
     .accesskey = G
+display-fixed-width-plain-checkbox =
+    .label = Düz metin mesajlarını eş aralıklı yazı tipiyle göster
+    .accesskey = D
 
 ## Language settings
 
