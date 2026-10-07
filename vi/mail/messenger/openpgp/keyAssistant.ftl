@@ -70,6 +70,8 @@ openpgp-key-assistant-key-collected-attachment = tập tin đính kèm email
 openpgp-key-assistant-key-collected-autocrypt = Tiêu đề tự động mã hóa
 # Web Key Directory (WKD) is a concept.
 openpgp-key-assistant-key-collected-wkd = Thư mục khoá Web
+# Do not translate GnuPG, it's a name of other software.
+openpgp-key-assistant-key-collected-gnupg = GnuPG keyring
 # Variables:
 # $count (Number) - Number of found keys.
 openpgp-key-assistant-keys-has-collected =

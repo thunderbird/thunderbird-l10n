@@ -566,6 +566,8 @@ after-revoke-info =
 
 key-man-button-import = Nhập (&I)
 delete-key-title = Xóa khóa OpenPGP
+delete-external-key-title = Xoá External GnuPG Key
+delete-external-key-description = Bạn có muốn xoá ID External GnuPG key này không?
 key-in-use-title = Khóa OpenPGP hiện đang được sử dụng
 delete-key-in-use-description = Không thể tiếp tục! Chìa khóa bạn đã chọn để xóa hiện đang được sử dụng bởi danh tính này. Chọn một khóa khác hoặc chọn không có khóa nào và thử lại.
 revoke-key-in-use-description = Không thể tiếp tục! Chìa khóa bạn đã chọn để thu hồi hiện đang được sử dụng bởi danh tính này. Chọn một khóa khác hoặc chọn không có khóa nào và thử lại.
