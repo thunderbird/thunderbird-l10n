@@ -208,6 +208,10 @@ openpgp-key-man-change-expiry =
 openpgp-key-man-refresh-online =
     .label = Endurnýja á netinu
     .accesskey = r
+# Do not translate: PQC
+openpgp-key-man-add-pqc =
+    .label = Búa til undirlykil PQC-dulritunar
+    .accesskey = Q
 openpgp-key-man-ignored-ids =
     .label = Tölvupóstföng
 openpgp-key-man-del-key =

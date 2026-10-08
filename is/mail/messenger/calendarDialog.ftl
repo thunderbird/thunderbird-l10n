@@ -127,6 +127,9 @@ calendar-dialog-attachments-summary-label =
         [one] { $count } viðhengi
        *[other] { $count } viðhengi
     }
+calendar-event-prompt-delete-title = Eyða atburði
+calendar-event-prompt-delete-header = Fjarlægja eftirfarandi atburð(i) fyrir fullt og allt?
+calendar-single-event-prompt-delete-header = Fjarlægja þennan atburð fyrir fullt og allt?
 calendar-prompt-this-event =
     .label = Þessi atburður
 calendar-prompt-all-events =
