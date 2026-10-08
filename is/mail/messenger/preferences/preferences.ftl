@@ -905,6 +905,17 @@ spam-log-button =
 reset-spam-button =
     .label = Endurstilla þjálfunargögn
     .accesskey = r
+scam-detection-label =
+    .label = Vara við lestri tölvupósts sem lítur út eins og svindl
+    .accesskey = t
+antivirus-check-description = Leyfir vírusvarnarforritum að athuga móttekin skilaboð hver fyrir sig áður en þau eru vistuð á tölvunni þinni.
+antivirus-isolate-label =
+    .label = Leyfa vírusvarnarforritum að einangra sýktan tölvupóst sem berst
+    .accesskey = a
+certificate-verify-description = Þegar netþjónn biður um skilríki til að staðfesta auðkenni þitt:
+certificate-choose-auto =
+    .label = Velja skilríki sjálfvirkt
+    .accesskey = k
 certificate-ask-every =
     .label = Spyrja í hvert skipti
     .accesskey = a
@@ -963,6 +974,12 @@ account-settings = Stillingar reiknings
 email-e2ee-enable-accounts-info = Settu upp tölvupóstreikninga og auðkenni fyrir enda-í-enda dulritun í <a data-l10n-name="account-settings-url">stillingum reikninga</a>.
 email-e2ee-enable-info = Settu upp tölvupóstreikninga og auðkenni fyrir enda-til-enda dulritun í stillingum reikningsins.
 email-e2ee-automatism = Sjálfvirk notkun dulritunar
+email-e2ee-turn-on =
+    .label = Virkja dulritun sjálfkrafa þegar mögulegt er
+email-e2ee-turn-off =
+    .label = Slökkva sjálfkrafa á dulritun þegar viðtakendur breytast og dulritun er ekki lengur möguleg
+email-e2ee-turn-off-notify =
+    .label = Birta tilkynningu þegar slökkt er sjálfkrafa á dulritun
 email-e2ee-automatism-pre =
     { -brand-short-name } getur hjálpað með því að kveikja eða slökkva sjálfkrafa á dulritun á meðan þú skrifar tölvupóst.
     Að kveikja/slökkva sjálfvirkt byggist á því að gildir og viðurkenndir dulritunarlyklar eða skilríki séu til staðar.

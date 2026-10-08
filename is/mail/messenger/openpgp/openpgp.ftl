@@ -212,6 +212,9 @@ openpgp-key-man-refresh-online =
 openpgp-key-man-add-pqc =
     .label = Búa til undirlykil PQC-dulritunar
     .accesskey = Q
+# Do not translate: PQC
+openpgp-pqc-confirm-generate = Búa til dulritunarundirlykil með því að nota post-quantum dulritun (PQC)? Gerð hans gæti tekið nokkrar mínútur.
+openpgp-pqc-generate-failed = Ekki var hægt að búa til undirlykil PQC-dulritunar.
 openpgp-key-man-ignored-ids =
     .label = Tölvupóstföng
 openpgp-key-man-del-key =
@@ -329,6 +332,7 @@ openpgp-passphrase-instruction-primary-password = Að öðrum kosti vernda þenn
 openpgp-passphrase-instruction-user-passphrase = Aflæstu þessum lykli til að breyta vernd hans.
 openpgp-passphrase-unlock = Aflæsa
 openpgp-passphrase-unlocked = Tókst að aflæsa lykli.
+openpgp-passphrase-unlock-failed = Ekki var hægt að opna lykilinn, eða undirliggjandi hluta hans.
 openpgp-remove-protection = Fjarlægja vernd með aðgangsorðum
 openpgp-use-primary-password = Fjarlægja aðgangsorð og vernda með aðallykilorði
 openpgp-passphrase-new = Ný aðgangsorð
