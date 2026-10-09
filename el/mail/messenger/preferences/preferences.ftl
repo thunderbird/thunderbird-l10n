@@ -1269,6 +1269,7 @@ qr-export-summary-passwords-included = Περιλαμβάνονται οι κω�
 qr-export-summary-passwords-excluded = Εξαιρούνται οι κωδικοί πρόσβασης
 qr-export-more-accounts = Εξαγωγή περισσότερων λογαριασμών
 qr-export-pane-header-mobile = Εξαγωγή στο { -brand-product-name } για κινητές συσκευές
+qr-export-description-email-accounts = Μεταφέρετε τους λογαριασμούς email σας από αυτόν τον υπολογιστή στο { -brand-product-name } του τηλεφώνου σας με έναν κωδικό QR.
 qr-export-get-app-google-play = <a data-l10n-name="app-link">Λήψη του { -brand-product-name } στο Google Play</a>
 qr-export-select-accounts-title = Επιλέξτε λογαριασμούς προς εξαγωγή:
 
