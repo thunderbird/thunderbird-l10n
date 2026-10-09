@@ -6,8 +6,10 @@
 <!ENTITY wizard.label "Izveidot jaunu kalendāru">
 <!ENTITY initialpage.computer.label "Manā datorā">
 <!ENTITY initialpage.network.label "Tīklā">
+<!ENTITY locationpage.login.description "Pēc izvēles: ievadi lietotājvārdu un paroli">
 <!ENTITY locationpage.username.label "Lietotājvārds:">
 <!ENTITY locationpage.password.label "Parole:">
+<!ENTITY custompage.shortdescription "Pielāgo savu kalendāru">
 <!ENTITY finishpage.shortdescription "Kalendārs izveidots">
 <!ENTITY finishpage.longdescription "Kalendārs tika izveidots.">
 <!ENTITY buttons.create.label "Izveidot kalendāru">

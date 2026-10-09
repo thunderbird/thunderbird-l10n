@@ -128,3 +128,17 @@ recurrence-yearly-every-day-of =
         [one] katru { $interval }. gadu katru { $month } dienu
        *[other] katru { $interval }. gadu katru { $month } dienu
     }
+# Edit recurrence window -> Recurrence pattern -> Yearly repeat rules
+# Variables:
+#   $weekday - weekday
+#   $month - month name
+#   $interval is a number, the recurrence interval
+# e.g. "every Thursday of March"
+# e.g  "every 3 years on every Thursday of March"
+recurrence-yearly-nth-of-nth =
+    { $interval ->
+        [zero] katra { $interval }. gada { $month } katrā { $weekday }
+        [1] katru { $month } { $weekday }
+        [one] katra { $interval }. gada { $month } katrā { $weekday }
+       *[other] katra { $interval }. gada { $month } katrā { $weekday }
+    }
