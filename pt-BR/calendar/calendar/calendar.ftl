@@ -549,6 +549,11 @@ format-date-long = { $dayName } às { $dayIndex } a { $monthName } às { $year }
 day-header = { $dayName } de { $dayIndex }
 day-header-elem =
     .label = { day-header }
+# LOCALIZATION NOTE (calendar-multiday-hour-slot):
+# Label for a time slot in the day/week calendar views.
+#    $date will be replaced with the day label, e.g. "Monday 6 Oct.";
+#    $time will be replaced with the time of the slot, e.g. "9:00 AM".
+calendar-multiday-hour-slot = { $date }, { $time }
 # LOCALIZATION NOTE (datetime-interval-task-without-date):
 # used for task without start and due date
 # (showed only in exported calendar in Html format)
@@ -1119,3 +1124,18 @@ event-recurrence-forever =
 attendees-tab-label = Participantes ({ $count }):
 # $count - the number of attachments
 attachments-tab-label = Anexos ({ $count }):
+# Variables:
+#   $docTitle (String) - The date or view label for the current calendar view.
+calendar-window-title = { $docTitle } - { -brand-full-name }
+calendar-window-title-base = { -brand-full-name }
+# Variables:
+#   $calendarName (String) - Calendar name as given by the user.
+#   $location (String) - The calendar server location.
+calendar-auth-enter-user-password-for-calendar = “{ $calendarName }” ({ $location }) está pedindo seu nome de usuário e senha.
+# Variables:
+#   $username (String) - The account username.
+#   $location (String) - The calendar server location.
+calendar-auth-enter-password-for = Digite a senha de { $username } em { $location }
+# Variables:
+#   $location (String) - The calendar server location.
+calendar-auth-enter-user-password-for = { $location } está pedindo seu nome de usuário e senha.
