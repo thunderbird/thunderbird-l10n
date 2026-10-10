@@ -839,7 +839,7 @@ cookies-button =
 # included to facilitate power-user search of the about:preferences page.
 global-privacy-control-search = Global Privacy Control (GPC)
 global-privacy-control-label =
-    .label = Websydłam prosyć, zo nimaja wosobinske daty předać abo dźělić
+    .label = Websydła prosyć, zo nimaja wosobinske daty předać abo dźělić
     .accesskey = b
 global-privacy-control-description =
     .label = Websydłam zdźělić, zo nimaja moje daty předać abo dźělić
@@ -895,7 +895,7 @@ spam-marked-manually-label =
     .label = Při manuelnym markěrowanju
     .accesskey = m
 spam-detected-auto-label =
-    .label = Při awtomatiskeho spóznaće přez { -brand-short-name }
+    .label = Při awtomatiskim spóznaću přez { -brand-short-name }
     .accesskey = a
 spam-log-keep-label =
     .label = Awtomatiske spóznaće spama protokolować
