@@ -10,6 +10,7 @@ window-focus-search-alt-key =
 filter-search-label =
     .value = Pytaś:
     .accesskey = P
+cookies-stored-label = Cookieje se na toś tom licadle składuju
 cookies-on-system-label = Slědujuce cookieje su na wašom licadle składowane:
 treecol-site-header =
     .label = Sedło
