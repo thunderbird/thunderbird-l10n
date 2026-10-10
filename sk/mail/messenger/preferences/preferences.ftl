@@ -64,14 +64,14 @@ privacy-junk-header = Nevyžiadaná pošta
 collection-header = Zber a použitie údajov o aplikácii { -brand-short-name }
 collection-description = Keď sa jedná o údaje, dávame vám vždy na výber. Zbierame len údaje, ktoré nám pomôžu aplikáciu { -brand-short-name } naďalej zlepšovať. Pred odoslaním osobných údajov vždy žiadame o váš súhlas.
 collection-privacy-notice = Vyhlásenie o ochrane osobných údajov
-collection-health-report-telemetry-disabled = Odosielanie technických údajov a údajov o interakciách spoločnosti { -vendor-short-name } nie je naďalej povolené. Všetky historické údaje budú odstránené v priebehu 30 dní.
+collection-health-report-telemetry-disabled = Odosielanie technických údajov a údajov o používaní spoločnosti { -vendor-short-name } nie je naďalej povolené. Všetky historické údaje budú odstránené v priebehu 30 dní.
 collection-health-report-telemetry-disabled-link = Ďalšie informácie
 collection-share-performance =
     .label = Zdieľať anonymné údaje o výkone s { -vendor-short-name(case: "ins") }
     .accesskey = Z
 collection-share-performance-description = (Zahŕňa základné technické údaje, napríklad informácie o vašom operačnom systéme, využití pamäte a používaní funkcií. { -brand-short-name } nikdy nezhromažďuje obsah e‑mailov, kontakty ani osobné správy.)
 collection-health-report =
-    .label = Povoliť aplikácii { -brand-short-name } odosielať technické údaje a údaje o interakciách spoločnosti { -vendor-short-name }
+    .label = Povoliť aplikácii { -brand-short-name } odosielať technické údaje a údaje o používaní spoločnosti { -vendor-short-name }
     .accesskey = r
 collection-health-report-link = Ďalšie informácie
 # This message is displayed above disabled data sharing options in developer builds
