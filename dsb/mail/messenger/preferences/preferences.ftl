@@ -978,6 +978,10 @@ email-e2ee-enable-info = Konfigurěrujśo e-mailowe konta a identity za koděrow
 email-e2ee-automatism = Awtomatiske wužywanje koděrowanja
 email-e2ee-turn-on =
     .label = Koděrowanje awtomatiski zmóžniś, jolic móžno
+email-e2ee-turn-off =
+    .label = Koděrowanje awtomatiski znjemóžniś, gaž se dostawarje změnjaju a koděrowanje wěcej njejo móžne
+email-e2ee-turn-off-notify =
+    .label = Powěźeńku pokazaś, gažkuli se koděrowanje awtomatiski znjemóžnja
 email-e2ee-automatism-pre =
     { -brand-short-name } móžo was pódpěraś, gaž koděrowanje awtomatiski zmóžna abo znjemóžnja, mjaztym až mejlku pišośo.
     Awtomatiske zmóžnjanje/znjemóžnjanje na k-dispoziciji-měśe płaśiwych a akceptěrowanych klucow abo certifikatow dopisowarjow bazěrujo.
@@ -990,6 +994,10 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     Awtomatiske rozsudy daju se pśepisaś, gaž se koděrowanje manuelnje zmóžnja abo znjemóžnja, mjaztym až powěsć pišośo.
     Pokaz: Koděrowanje se pśecej awtomatiski zmóžnja, gaž na skoděrowanu powěsć wótegranjaśo.
+email-content = E-mailowe wopśimjeśe
+remote-content-images-label =
+    .label = Zdalony wopśimjeśe dowóliś (wobraze a stile)
+    .accesskey = l
 
 ## DoH Section
 
@@ -1013,6 +1021,9 @@ preferences-doh-status-not-active = Njeaktiwny ({ $reason })
 preferences-doh-group-message = DNS pśez HTTPS zmóžniś z pomocu:
 preferences-doh-expand-section =
     .tooltiptext = Dalšne informacije
+preferences-doh-setting-automatic =
+    .label = Awtomatiski šćit (dopórucony)
+    .accesskey = A
 preferences-doh-setting-default =
     .label = Standardny šćit
     .accesskey = S
@@ -1028,6 +1039,9 @@ preferences-doh-setting-enabled =
 preferences-doh-enabled-desc = Kontrolěrujośo, gaž se ma wěsty DNS wužywaś a wuběraśo swójogo póbitowarja.
 preferences-doh-enabled-detailed-desc-1 = Póbitowarja wužywaś, kótaregož sćo wubrał
 preferences-doh-enabled-detailed-desc-2 = Wužywajśo jano swój standardny DNS-resolwer, jolic dajo problem z wěstym DNS
+preferences-doh-setting-maximum =
+    .label = Maksimalny šćit
+    .accesskey = M
 preferences-doh-setting-strict =
     .label = Maksimalny šćit
     .accesskey = M
@@ -1050,6 +1064,7 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = Swójski
     .accesskey = S
+preferences-doh-secure-header = Wěsty DNS (DNS pśez HTTPS)
 
 ## Keyservers
 
@@ -1224,6 +1239,8 @@ qr-export-select-accounts = Wubjeŕśo konta, kótarež se maju eksportěrowaś:
 qr-export-no-accounts = Njewiźiśo wšykne konta? Někotare konta su snaź znjemóžnjone, dokulaž se wót { -brand-product-name } za Android njepódpěraju. <a data-l10n-name="account-support-link">Pódpěra</a>
 qr-export-accounts-legend = E-mailowe konta
 qr-export-select-all-accounts = Wšykne wubraś
+qr-export-passwords-legend = Gronidła
+qr-export-include-passwords-label = Kontowe gronidła do QR-koda zapśimjeś
 qr-export-security-legend = Wěstota
 qr-export-include-passwords = Wšykne kontowe gronidła zapśimjeś
 qr-export-oauth-warning = Někotare z wašych kontow metodu awtentificiěrowanja wužywaju, kótaraž se wóspjetne awtentificěrowanje na mobilnych rědach pomina. Musyśo snaź swóje gronidła za toś ten proces znowego zapódaś.
@@ -1281,6 +1298,9 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Gronidła zapśimjone
 qr-export-summary-passwords-excluded = Gronidła wuzamknjone
 qr-export-more-accounts = Dalšne konta eksportěrowaś
+qr-export-pane-header-mobile = Do mobilnego { -brand-product-name } eksportěrowaś
+qr-export-get-app-google-play = <a data-l10n-name="app-link">{ -brand-product-name } wót Google Play ześěgnuś</a>
+qr-export-select-accounts-title = Wubjeŕśo konta, kótarež se maju eksportěrowaś:
 
 ## Appearance Tab
 
