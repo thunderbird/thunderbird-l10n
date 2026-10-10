@@ -48,3 +48,4 @@ sender-outside-domain-label =
 other-cases-text-label =
     .value = We wšych drugich padach:
     .accesskey = u
+read-receipts-dialog-title = Cytańske kwitowanki
