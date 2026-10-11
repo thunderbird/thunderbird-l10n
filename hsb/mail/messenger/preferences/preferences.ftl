@@ -57,6 +57,7 @@ privacy-main-header = Priwatnosć
 privacy-passwords-header = Hesła
 privacy-spam-header = Spam
 collection-improve-header = Daty, kotrež so hromadźa, zo bychu { -brand-short-name } polěpšili
+collection-community-description = { -brand-short-name } so wot globalneho zhromadźenstwa wuwiwa. Dźělenje anonymnych wukonowych datow nam pomha, zmylki spěšnišo porjedźić a nałoženje za wšěch pospěšić.
 collection-privacy-policy = Čitajće naše prawidła priwatnosće
 privacy-junk-header = Čapor
 collection-header = Hromadźenje a wužiwanje datow { -brand-short-name }
