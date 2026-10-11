@@ -224,6 +224,9 @@ openpgp-key-man-refresh-online =
 openpgp-key-man-add-pqc =
     .label = Podkluč PQC za zaklučowanje generować
     .accesskey = P
+# Do not translate: PQC
+openpgp-pqc-confirm-generate = Zaklučowanski podkluč z pomocu postkwantumoweje kryptografije (PQC) generować? Generowanje móže někotre mjeńšiny trać.
+openpgp-pqc-generate-failed = Podkluč za zaklučowanje PQC njeda so generować.
 openpgp-key-man-ignored-ids =
     .label = E-mejlowe adresy
 openpgp-key-man-del-key =
