@@ -1003,6 +1003,7 @@ email-e2ee-turn-off =
     .label = Zaklučowanje awtomatisce znjemóžnić, hdyž so přijimarjo měnjeja a zaklučowanje hižo móžne njeje
 email-e2ee-turn-off-notify =
     .label = Zdźělenku pokazać, hdyžkuli so zaklučowanje awtomatisce znjemóžnja
+email-e2ee-automatism-note = Pokiw: Móžeće tež zaklučowanje manuelnje zmóžnić abo znjemóžnić, hdyž powěsć pisaće. Hdyž na zaklučowane powěsće wotmołwjeće, so zaklučowanje přeco zmóžnja.
 email-e2ee-automatism-pre =
     { -brand-short-name } móže was podpěrować, hdyž zaklučowanje awtomatisce zmóžna abo znjemóžnja, mjeztym zo e-mejl pisaće.
     Awtomatiske zmóžnjenje/znjemóžnjenje na disponujomnosći płaćiwych a akceptowanych klučow abo certifikatow dopisowarjow bazuje.
