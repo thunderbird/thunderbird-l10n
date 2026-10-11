@@ -937,6 +937,9 @@ certificate-choose-auto =
 certificate-ask-every =
     .label = Kóždy raz so prašeć
     .accesskey = K
+ocsp-check-label =
+    .label = Serwerow za přepruwowanje certifikatow (OCSP) so prašeć, hač certifikaty su korektne.
+    .accesskey = S
 junk-description = Nastajće swoje standardne nastajenja za čaporowu e-mejl. Nastajenja čaporoweje e-mejle specifiske za konto dadźa so w Kontowych nastajenjach konfigurować.
 junk-marked-label =
     .label = Hdyž so powěsće jako čapor markěruja:
@@ -989,6 +992,7 @@ security-devices-button =
     .accesskey = W
 email-e2ee-header = Zaklučowanje wot kónca do kónca za e-mejle
 account-settings = Kontowe nastajenja
+email-e2ee-accounts-info = Zaklučowane mejlki dadźa so jenož wote was a wašich přijimarjow čitać. Konfigurujće e-mejlowe konta a identity za zaklučowanje kónc do kónca w <a data-l10n-name="account-settings-url">kontowych nastajenjach</a>.
 email-e2ee-enable-accounts-info = Konfigurujće e-mejlowe konta a identity za zaklučowanje kónc do kónca w <a data-l10n-name="account-settings-url">kontowych nastajenjach</a>.
 email-e2ee-enable-info = Konfigurujće e-mejlowe konta a identity za zaklučowanje kónc do kónca w kontowych nastajenjach.
 email-e2ee-automatism = Awtomatiske wužiwanje zaklučowanja
