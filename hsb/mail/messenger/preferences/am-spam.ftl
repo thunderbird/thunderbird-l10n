@@ -43,6 +43,7 @@ global-spam-preferences-button =
 manage-spam-title = Spam rjadować
 manage-spam-header =
     .value = Spam rjadować
+training-description-learns = Hdyž je tuta funkcija zmóžnjena, { -brand-short-name } z powěsćow wuknje, kotrež jako spam abo njespam markěrujeće. Čim wjace ju trenujeće, ćim lěpje { -brand-short-name } spam spóznawa.
 spam-auto-detection-checkbox =
     .label = Awtomatiske spóznaće spama za tute konto zmóžnić
     .accesskey = A

@@ -344,6 +344,7 @@ openpgp-passphrase-instruction-primary-password = Alternatiwnje móžeće tutón
 openpgp-passphrase-instruction-user-passphrase = Wotewriće tutón kluč, zo byšće jeho škit změnił.
 openpgp-passphrase-unlock = Wotewrěć
 openpgp-passphrase-unlocked = Kluč je so wuspěšnje wotewrěł.
+openpgp-passphrase-unlock-failed = Kluč abo podrjadowane dźěle kluča njedachu so wotewrić.
 openpgp-remove-protection = Škit přez hesłowy wuraz wotstronić
 openpgp-use-primary-password = Hesłowy wuraz wotstronić a z hłownym hesłom škitać
 openpgp-passphrase-new = Nowy hesłowy wuraz
