@@ -1091,6 +1091,7 @@ preferences-doh-url-custom =
     .label = Swójski
     .accesskey = S
 preferences-doh-secure-header = Wěsty DNS (DNS přez HTTPS)
+preferences-doh-secure-description = Wěsty DNS pytanske naprašowanja zaklučuje, kotrež { -brand-short-name } sćele, zo by websydła namakał a škita tak wašu aktiwitu přehladowanja před dohladowanjom w syći.
 
 ## Keyservers
 
@@ -1267,6 +1268,7 @@ qr-export-accounts-legend = E-mejlowe konta
 qr-export-select-all-accounts = Wšě wubrać
 qr-export-passwords-legend = Hesła
 qr-export-include-passwords-label = Kontowe hesła do QR-koda zapřijeć
+qr-export-web-sign-in-note = <strong>Kedźbu:</strong> Konta, kotrež webpřizjewjenje wužiwaja (na př. Gmail abo Yahoo) sej nowu awtentifikaciju wužaduja.
 qr-export-security-legend = Wěstota
 qr-export-include-passwords = Wšě kontowe hesła zapřijeć
 qr-export-oauth-warning = Někotre z wašich kontow metodu awtentifikacije wužiwaja, kotraž sej wospjetnu awtentifikaciju na mobilnych gratach wužaduje. Dyrbiće snano swoje hesła za tutón proces znowa zapodać.
