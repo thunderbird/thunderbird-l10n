@@ -1269,6 +1269,8 @@ qr-export-select-all-accounts = Wšě wubrać
 qr-export-passwords-legend = Hesła
 qr-export-include-passwords-label = Kontowe hesła do QR-koda zapřijeć
 qr-export-web-sign-in-note = <strong>Kedźbu:</strong> Konta, kotrež webpřizjewjenje wužiwaja (na př. Gmail abo Yahoo) sej nowu awtentifikaciju wužaduja.
+qr-export-private-transfer-note = <strong>Priwatne přenjesenje:</strong> Waše nastajenja a hesła so direktnje wot tutoho ličaka do wašeho telefona přenošuja. Ničo so na serwery Mozilla njesćele abo na nich njeskładuje.
+qr-export-screen-privacy-tip = <strong>Pokiw:</strong> Škitajće swoju wobrazowku před pohladami druhich, mjeztym zo so QR-kode pokazuje.
 qr-export-security-legend = Wěstota
 qr-export-include-passwords = Wšě kontowe hesła zapřijeć
 qr-export-oauth-warning = Někotre z wašich kontow metodu awtentifikacije wužiwaja, kotraž sej wospjetnu awtentifikaciju na mobilnych gratach wužaduje. Dyrbiće snano swoje hesła za tutón proces znowa zapodać.
@@ -1327,6 +1329,7 @@ qr-export-summary-passwords-included = Hesła zapřijate
 qr-export-summary-passwords-excluded = Hesła wuzamknjene
 qr-export-more-accounts = Dalše konta eksportować
 qr-export-pane-header-mobile = Do mobilneho { -brand-product-name } eksportować
+qr-export-description-email-accounts = Přenošujće swoje e-mejlowe konta wot tutoho ličaka do { -brand-product-name } na wašim telefonje z pomocu QR-koda.
 qr-export-get-app-google-play = <a data-l10n-name="app-link">{ -brand-product-name } wot Google Play sćahnyć</a>
 qr-export-select-accounts-title = Wubjerće konta, kotrež so maja eksportować:
 
