@@ -76,6 +76,9 @@ collection-health-report-link = Daha fazla bilgi al
 # This message is displayed above disabled data sharing options in developer builds
 # or builds with no Telemetry support available.
 collection-health-report-disabled = Bu yapılandırma için veri raporlama devre dışı bırakılmış
+collection-share-crash-data =
+    .label = Anonim çökme raporlarını { -vendor-short-name }’ya gönder
+    .accesskey = A
 collection-backlogged-crash-reports =
     .label = { -brand-short-name } geriye dönük çökme raporlarını benim adıma gönderebilir
     .accesskey = ö
@@ -122,6 +125,9 @@ manual-storage-limit-label =
 clear-temp-files-button =
     .label = Geçici dosyaları temizle
     .accesskey = G
+clear-temp-files-shutdown-label =
+    .label = { -brand-short-name } kapatılınca geçici dosyaları temizle
+    .accesskey = k
 
 ## OS Authentication dialog
 
@@ -194,6 +200,9 @@ change-dock-icon = Uygulama simgesi tercihlerini değiştir
 app-icon-options =
     .label = Uygulama simgesi seçenekleri…
     .accesskey = m
+new-email-alert-label =
+    .label = Yeni e-postalarda uyarı göster
+    .accesskey = Y
 customize-alerts-label =
     .label = Uyarıları özelleştir…
     .accesskey = U
@@ -489,6 +498,9 @@ delete-tag-button =
 auto-mark-as-read =
     .label = İletileri otomatik olarak okundu olarak işaretle
     .accesskey = o
+show-attachments-inline-label =
+    .label = Ekleri ileti gövdesinde göster
+    .accesskey = E
 mark-read-no-delay =
     .label = İletiye bakar bakmaz
     .accesskey = z

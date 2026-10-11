@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 offline-dialog-title = Çevrimdışı Ayarları
+offline-startup-label = { -brand-short-name } açılırken:
+status-radio-last-used =
+    .label = Son kullanılan bağlantı modunu kullan
+    .accesskey = S
 going-online-send =
     .label = Evet, otomatik gönder
     .accesskey = E
