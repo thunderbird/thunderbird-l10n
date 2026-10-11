@@ -1077,6 +1077,7 @@ preferences-doh-strict-detailed-desc-3 = Jolic wěsty DNS njejo k dispoziciji, s
 preferences-doh-setting-off =
     .label = Wušaltowany
     .accesskey = u
+preferences-doh-off-standard-desc = Wužywa standardnego internetnego póbitowarja abo seś, aby za webadresami pytał
 preferences-doh-off-desc = Wužywajśo swój standardny DNS-resolwer
 preferences-doh-checkbox-warn =
     .label = Warnowaś, jolic tśeśi póbitowaŕ wěstemu DNS aktiwnje zajźujo
@@ -1090,6 +1091,7 @@ preferences-doh-url-custom =
     .label = Swójski
     .accesskey = S
 preferences-doh-secure-header = Wěsty DNS (DNS pśez HTTPS)
+preferences-doh-secure-description = Wěsty DNS pytańske napšašowanja koděrujo, kótarež { -brand-short-name } sćelo, aby websedła namakał a šćita tak wašu aktiwitu pśeglědowanja pśed doglědowanim w seśi.
 
 ## Keyservers
 
@@ -1266,6 +1268,9 @@ qr-export-accounts-legend = E-mailowe konta
 qr-export-select-all-accounts = Wšykne wubraś
 qr-export-passwords-legend = Gronidła
 qr-export-include-passwords-label = Kontowe gronidła do QR-koda zapśimjeś
+qr-export-web-sign-in-note = <strong>Glědajśo:</strong> Konta, kótarež webpśizjawjenje wužywaju (na pś. Gmail abo Yahoo) se nowu awtentifikaciju pominaju.
+qr-export-private-transfer-note = <strong>Priwatne pśenjasenje:</strong> Waše nastajenja a gronidła se direktnje wót toś togo licadła do wašogo telefona pśenosuju. Nic se na serwery Mozilla njesćelo abo na nich njeskładujo.
+qr-export-screen-privacy-tip = <strong>Pokaz:</strong> Šćitajśo swóju wobrazowku pśed póglědami drugich, mjaztym až se QR-kode pokazujo.
 qr-export-security-legend = Wěstota
 qr-export-include-passwords = Wšykne kontowe gronidła zapśimjeś
 qr-export-oauth-warning = Někotare z wašych kontow metodu awtentificiěrowanja wužywaju, kótaraž se wóspjetne awtentificěrowanje na mobilnych rědach pomina. Musyśo snaź swóje gronidła za toś ten proces znowego zapódaś.
@@ -1324,8 +1329,10 @@ qr-export-summary-passwords-included = Gronidła zapśimjone
 qr-export-summary-passwords-excluded = Gronidła wuzamknjone
 qr-export-more-accounts = Dalšne konta eksportěrowaś
 qr-export-pane-header-mobile = Do mobilnego { -brand-product-name } eksportěrowaś
+qr-export-description-email-accounts = Pśenosujśo swóje e-mailowe konta wót toś togo licadła do { -brand-product-name } na wašom telefonje z pomocu QR-koda.
 qr-export-get-app-google-play = <a data-l10n-name="app-link">{ -brand-product-name } wót Google Play ześěgnuś</a>
 qr-export-select-accounts-title = Wubjeŕśo konta, kótarež se maju eksportěrowaś:
+qr-export-missing-accounts-support = Konto felujo? Konta, kótarež se na { -brand-product-name } za Android njepódpěraju, njedaju se wubraś. <a data-l10n-name="account-support-link">Zgóńśo, kótare kontowe typy se pódpěraju</a>
 
 ## Appearance Tab
 
