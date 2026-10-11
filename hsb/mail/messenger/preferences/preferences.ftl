@@ -59,6 +59,7 @@ privacy-spam-header = Spam
 collection-improve-header = Daty, kotrež so hromadźa, zo bychu { -brand-short-name } polěpšili
 collection-community-description = { -brand-short-name } so wot globalneho zhromadźenstwa wuwiwa. Dźělenje anonymnych wukonowych datow nam pomha, zmylki spěšnišo porjedźić a nałoženje za wšěch pospěšić.
 collection-privacy-policy = Čitajće naše prawidła priwatnosće
+collection-data-sharing-off = <strong>Dźělenje datow je znjemóžnjene.</strong> Dotalne wužiwanske daty so w běhu 30 dnjow na přeco ze serwerow { -vendor-short-name } zhašeja.
 privacy-junk-header = Čapor
 collection-header = Hromadźenje a wužiwanje datow { -brand-short-name }
 collection-description = Chcemy was z wuběrami wobstarać a jenož to hromadźić, štož dyrbimy poskićić, zo bychmy { -brand-short-name } za kóždeho polěpšili. Prosymy přeco wo dowolnosć, prjedy hač wosobinske daty dóstanjemy.
