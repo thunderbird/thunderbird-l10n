@@ -49,3 +49,6 @@ other-cases-text-label =
     .value = We wšěch druhich padach:
     .accesskey = h
 read-receipts-dialog-title = Čitanske kwitowanki
+return-receipt-request-control =
+    .label = Přeco wobkrućenje přijeća žadać, hdyž so mejlki sćelu
+    .accesskey = b
