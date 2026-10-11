@@ -224,6 +224,9 @@ openpgp-key-man-refresh-online =
 openpgp-key-man-add-pqc =
     .label = Pódkluc PQC za koděrowanje generěrowaś
     .accesskey = P
+# Do not translate: PQC
+openpgp-pqc-confirm-generate = Koděrowański pódkluc z pomocu postkwantumoweje kryptografije (PQC) generěrowaś? Generěrowanje móžo někotare minuty traś.
+openpgp-pqc-generate-failed = Pódkluc za koděrowanje PQC njedajo se generěrowaś.
 openpgp-key-man-ignored-ids =
     .label = E-mailowe adrese
 openpgp-key-man-del-key =
@@ -341,6 +344,7 @@ openpgp-passphrase-instruction-primary-password = Alternatiwnje móžośo toś t
 openpgp-passphrase-instruction-user-passphrase = Wótwóŕśo toś ten kluc, aby jogo šćit změnił.
 openpgp-passphrase-unlock = Wótwóriś
 openpgp-passphrase-unlocked = Kluc jo se wuspěšnje wótwórił.
+openpgp-passphrase-unlock-failed = Kluc abo pódrědowane źěle kluca njedaju se wótwóriś.
 openpgp-remove-protection = Šćit pśez gronidłowy wuraz wótpóraś
 openpgp-use-primary-password = Gronidłowy wuraz wótwónoźeś a z głownym gronidłom šćitaś
 openpgp-passphrase-new = Nowy gronidłowy wuraz

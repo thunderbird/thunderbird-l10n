@@ -1332,6 +1332,7 @@ qr-export-pane-header-mobile = Do mobilneho { -brand-product-name } eksportować
 qr-export-description-email-accounts = Přenošujće swoje e-mejlowe konta wot tutoho ličaka do { -brand-product-name } na wašim telefonje z pomocu QR-koda.
 qr-export-get-app-google-play = <a data-l10n-name="app-link">{ -brand-product-name } wot Google Play sćahnyć</a>
 qr-export-select-accounts-title = Wubjerće konta, kotrež so maja eksportować:
+qr-export-missing-accounts-support = Konto faluje? Konta, kotrež so na { -brand-product-name } za Android njepodpěruja, njedadźa so wubrać. <a data-l10n-name="account-support-link">Zhońće, kotre kontowe typy so podpěruja</a>
 
 ## Appearance Tab
 
