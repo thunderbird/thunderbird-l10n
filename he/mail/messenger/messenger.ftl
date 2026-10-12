@@ -5,10 +5,16 @@
 
 ## Message files
 
+messenger-eml-files-filter = קובצי דואר
+messenger-open-eml-file-title = פתח הודעה
 # Keep the .eml extension and use an 8.3 file name.
 messenger-default-save-message-file-name = message.eml
 messenger-save-message-as = שמור הודעה בשם
 messenger-choose-folder = בחר תיקייה
+messenger-save-message-failed = לא ניתן לשמור את ההודעה. נא לבדוק את שם הקובץ שלך ולנסות שוב מאוחר יותר.
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = { $filename } כבר קיים. האם ברצונך להחליפו?
 
 ## Window controls
 
