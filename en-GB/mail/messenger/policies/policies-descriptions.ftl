@@ -38,6 +38,7 @@ policy-DisableForgetButton = Prevent access to the Forget button.
 policy-DisableFormHistory = Don’t remember search and form history.
 policy-DisableMasterPasswordCreation = If true, a master password can’t be created.
 policy-DisableMessageForwardingFilters = Prevent message filters from automatically forwarding messages.
+policy-DisablePasswordReveal2 = Do not allow passwords to be revealed in saved logins or password fields.
 policy-DisablePasswordReveal = Do not allow passwords to be revealed in saved logins.
 policy-DisableProfileImport = Disable the menu command to Import data from another application.
 policy-DisableExperimentalFeatures = Disable experimental features in Thunderbird.
