@@ -106,7 +106,7 @@ browser-request-cookies-blocked = Les cookies sont bloqués, ce qui peut empêch
 # Turns cookies back on. Same action as the "Accept cookies from sites" option
 # in Settings, Privacy & Security.
 browser-request-cookies-accept =
-    .label = Accepter les cookies
+    .label = Accepter les cookies des sites
     .accesskey = A
 
 ## Toolbar
