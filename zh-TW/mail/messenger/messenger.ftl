@@ -93,12 +93,12 @@ open-tabs-warning-confirmation = 一次開啟 { $count } 封訊息可能會很�
 
 # Shown when the provider's sign-in page cannot use cookies because they are
 # blocked.
-browser-request-cookies-blocked = 已封鎖 Cookie可能會造成無法登入。
+browser-request-cookies-blocked = 已封鎖 Cookie，可能會造成無法登入。
 # Turns cookies back on. Same action as the "Accept cookies from sites" option
 # in Settings, Privacy & Security.
 browser-request-cookies-accept =
     .label = 允許網站設定 Cookie
-    .accesskey = 允
+    .accesskey = A
 
 ## Toolbar
 

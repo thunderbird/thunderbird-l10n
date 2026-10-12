@@ -62,7 +62,7 @@ auto-subscribe-text = 您想訂閱 { $newsgroup } 嗎？
 
 # Variables:
 # $server (String) - The hostname:port of the news server, e.g. news.example.com:119.
-unknown-news-server-text = 此鏈結指向 { $server }但該新聞伺服器並未設定帳號。還是要連線
+unknown-news-server-text = 此鏈結指向 { $server }，但尚未設定該新聞伺服器的帳號。還是要連線嗎？
 
 ## News Server Credentials
 

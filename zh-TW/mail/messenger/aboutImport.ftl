@@ -106,7 +106,7 @@ calendar-items-loading = 正在載入項目…
 # $count (Number) - The number of items in the calendar file.
 calendar-items-count =
     { $count ->
-       *[other] 檔案包含 { $count } 項目。
+       *[other] 檔案包含 { $count } 個項目。
     }
 # Column headers of the list of calendar items to import.
 calendar-items-column-title-a11y =
@@ -115,14 +115,14 @@ calendar-items-column-title = 標題
     .title = 依照標題排序
 # The start date and time of each item.
 calendar-items-column-start-a11y =
-    .aria-label = 開始
-calendar-items-column-start = 開始
-    .title = 依照開始排序
+    .aria-label = 開始時間
+calendar-items-column-start = 開始時間
+    .title = 依照開始時間排序
 # The end date and time of each item.
 calendar-items-column-end-a11y =
-    .aria-label = 結束
-calendar-items-column-end = 結束
-    .title = 以結尾排序
+    .aria-label = 結束時間
+calendar-items-column-end = 結束時間
+    .title = 依照結束時間排序
 # The column of checkboxes, to choose which items to import.
 calendar-items-column-import-a11y =
     .aria-label = 匯入
