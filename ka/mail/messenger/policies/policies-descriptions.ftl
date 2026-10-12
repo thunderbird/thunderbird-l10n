@@ -38,6 +38,7 @@ policy-DisableForgetButton = ისტორიის დავიწყებ�
 policy-DisableFormHistory = ძიებისა და ველების ისტორიის დამახსოვრების შეზღუდვა.
 policy-DisableMasterPasswordCreation = თუ მოქმედია, მთავარი პაროლი ვერ შეიქმნება.
 policy-DisableMessageForwardingFilters = ფილტრებით წერილების თავისთავად გადამისამართების შეზღუდვა.
+policy-DisablePasswordReveal2 = პაროლების გამჟღავნების აკრძალვა ანგარიშის შენახულ მონაცემებსა თუ პაროლის ველებში.
 policy-DisablePasswordReveal = შენახული ანგარიშების პაროლებთან წვდომის აკრძალვა.
 policy-DisableProfileImport = მენიუდან სხვა პროგრამის მონაცემების გადმოტანის შესაძლებლობის გათიშვა.
 policy-DisableExperimentalFeatures = საცდელი შესაძლებლობების გამორთვა Thunderbird-ში.

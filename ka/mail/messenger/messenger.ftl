@@ -90,6 +90,17 @@ open-tabs-warning-confirmation-title = დადასტურება
 #   $count - number of messages to open
 open-tabs-warning-confirmation = { $count } წერილის გახსნას შეიძლება დიდი დრო დასჭირდეს.  გავაგრძელო?
 
+## Sign-in window
+
+# Shown when the provider's sign-in page cannot use cookies because they are
+# blocked.
+browser-request-cookies-blocked = ფუნთუშები იზღუდება, რამაც შესაძლოა შესვლა შეაფერხოს.
+# Turns cookies back on. Same action as the "Accept cookies from sites" option
+# in Settings, Privacy & Security.
+browser-request-cookies-accept =
+    .label = ფუნთუშების მიღება საიტებიდან
+    .accesskey = ფ
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =

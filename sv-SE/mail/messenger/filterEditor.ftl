@@ -188,6 +188,11 @@ filter-editor-invalid-search-title = Ogiltiga söktermer
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
 filter-editor-invalid-search-rule = Detta filter kan inte sparas eftersom vissa söktermer "{ $attribute } { $operator }" är ogiltiga i det aktuella sammanhanget.
+filter-editor-missing-value-title = Sökvärde saknas
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+filter-editor-missing-value-rule = Det går inte att spara filtret eftersom inget värde har angetts för sökvillkoret ”{ $attribute } { $operator }”.
 filter-editor-action-order-explanation = När ett meddelande matchar filtret kommer åtgärderna att köras i denna ordning:
 filter-editor-action-order-title = Verklig åtgärdsordning
 # Variables:

@@ -38,6 +38,7 @@ policy-DisableForgetButton = Förhindra åtkomst till ångraknappen.
 policy-DisableFormHistory = Kom inte ihåg sök- och formulärhistorik.
 policy-DisableMasterPasswordCreation = Om sant, ett huvudlösenord kan inte skapas.
 policy-DisableMessageForwardingFilters = Förhindra att meddelandefilter automatiskt vidarebefordrar meddelanden.
+policy-DisablePasswordReveal2 = Förhindra att lösenord visas i sparade inloggningar eller lösenordsfält.
 policy-DisablePasswordReveal = Låt inte lösenord avslöjas i sparade inloggningar.
 policy-DisableProfileImport = Inaktivera menykommandot för att importera data från en annan applikation.
 policy-DisableExperimentalFeatures = Inaktivera experimentella funktioner i Thunderbird.

@@ -103,6 +103,31 @@ addr-book-summary-description = შეიქმნება ახალი მ�
 import-from-calendar-file-desc = აირჩიეთ ფაილი iCalendar (.ics), რომლის გადმოტანაც გსურთ.
 calendar-items-title = მიუთითეთ შემოსატანი მონაცემები.
 calendar-items-loading = იტვირთება ჩანაწერები…
+# $count (Number) - The number of items in the calendar file.
+calendar-items-count =
+    { $count ->
+        [one] ფაილი შეიცავს { $count } ერთეულს.
+       *[other] ფაილი შეიცავს { $count } ერთეულს.
+    }
+# Column headers of the list of calendar items to import.
+calendar-items-column-title-a11y =
+    .aria-label = სათაური
+calendar-items-column-title = სათაური
+    .title = დასახელებით დალაგება
+# The start date and time of each item.
+calendar-items-column-start-a11y =
+    .aria-label = დაწყება
+calendar-items-column-start = დაწყება
+    .title = დასაწყისით დალაგება
+# The end date and time of each item.
+calendar-items-column-end-a11y =
+    .aria-label = დასრულება
+calendar-items-column-end = დასრულება
+    .title = დასასრულით დალაგება
+# The column of checkboxes, to choose which items to import.
+calendar-items-column-import-a11y =
+    .aria-label = გადმოტანა
+calendar-items-column-import = გადმოტანა
 calendar-items-filter-input2 =
     .label = ჩანაწერების გამორჩევა
     .placeholder = ჩანაწერების გამორჩევა…

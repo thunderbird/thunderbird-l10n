@@ -188,6 +188,11 @@ filter-editor-invalid-search-title = ძიების პირობები
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
 filter-editor-invalid-search-rule = ფილტრი ვერ შეინახება, რადგან საძიებო პირობა "{ $attribute } { $operator }" მიმდინარე კონტექსტში უმართებულოა.
+filter-editor-missing-value-title = ძიების მნიშვნელობა აკლია
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+filter-editor-missing-value-rule = ფილტრი ვერ შეინახება, რადგან მნიშვნელობა შეყვანილი არაა საძიებო ფრაზისთვის „{ $attribute } { $operator }“.
 filter-editor-action-order-explanation = როცა გზავნილი ამ ფილტრს შეესაბამება ქმედებები შემდეგი რიგით შესრულდება:
 filter-editor-action-order-title = ქმედებათა რეალური რიგი
 # Variables:

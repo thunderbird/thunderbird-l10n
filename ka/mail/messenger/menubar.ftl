@@ -5,6 +5,7 @@
 toolbar-context-menu-menu-bar =
     .toolbarname = მენიუს ზოლი
     .accesskey = მ
+system-tray-app-name = { -brand-full-name }
 
 ## Tools Menu
 
@@ -162,6 +163,9 @@ file-new-newsgroup-account =
 file-new-addressbook =
     .label = მისამართების წიგნაკი
     .accesskey = წ
+file-new-mailing-list =
+    .label = დაგზავნის სია…
+    .accesskey = დ
 file-new-local-addressbook =
     .label = ადგილობრივ წიგნაკი
     .accesskey = ა

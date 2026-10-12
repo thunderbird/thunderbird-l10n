@@ -66,6 +66,12 @@ cancel-confirm = ნამდვილად გსურთ ამ წერი
 # $newsgroup (String) - The name of the newsgroup.
 auto-subscribe-text = გსურთ, გამოიწეროთ { $newsgroup }?
 
+## Unknown News Server Dialog
+
+# Variables:
+# $server (String) - The hostname:port of the news server, e.g. news.example.com:119.
+unknown-news-server-text = ბმულით მითითებულია { $server }, მაგრამ სიახლეების ამ სერვერისთვის ანგარიში არ არის გამართული. მაინც დაკავშირდეს?
+
 ## News Server Credentials
 
 enter-news-credentials-title = სიახლეთ სერვერის მონაწილის სახელი და პაროლი სავალდებულოა

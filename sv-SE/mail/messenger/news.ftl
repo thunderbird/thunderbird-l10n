@@ -66,6 +66,12 @@ cancel-confirm = Är du säker på att du vill ta tillbaka meddelandet?
 # $newsgroup (String) - The name of the newsgroup.
 auto-subscribe-text = Vill du prenumerera på { $newsgroup }?
 
+## Unknown News Server Dialog
+
+# Variables:
+# $server (String) - The hostname:port of the news server, e.g. news.example.com:119.
+unknown-news-server-text = Den här länken leder till { $server }, men inget konto har konfigurerats för den nyhetsservern. Vill du ansluta ändå?
+
 ## News Server Credentials
 
 enter-news-credentials-title = Servern för diskussionsgrupper kräver användarnamn och lösenord

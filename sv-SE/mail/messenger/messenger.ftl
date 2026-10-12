@@ -98,6 +98,17 @@ open-tabs-warning-confirmation =
        *[other] Öppning av { $count } meddelanden kan gå långsamt. Fortsätt?
     }
 
+## Sign-in window
+
+# Shown when the provider's sign-in page cannot use cookies because they are
+# blocked.
+browser-request-cookies-blocked = Kakor är blockerade, vilket kan hindra inloggningen.
+# Turns cookies back on. Same action as the "Accept cookies from sites" option
+# in Settings, Privacy & Security.
+browser-request-cookies-accept =
+    .label = Acceptera kakor från webbplatser
+    .accesskey = A
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
