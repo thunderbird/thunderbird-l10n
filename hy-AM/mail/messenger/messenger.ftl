@@ -9,6 +9,12 @@ messenger-eml-files-filter = Նամակի ֆայլեր
 messenger-open-eml-file-title = Բացել նամակը
 # Keep the .eml extension and use an 8.3 file name.
 messenger-default-save-message-file-name = message.eml
+messenger-save-message-as = Պահպանել նամակը որպես
+messenger-choose-folder = Ընտրել պանակը
+messenger-save-message-failed = Հնարավոր չէ պահել նամակը։ Ստուգեք ֆայլի անունը և կրկին փորձեք։
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = { $filename } արդեն առկա է։ Փոխարինե՞լ։
 
 ## Window controls
 
