@@ -103,9 +103,32 @@ addr-book-summary-description = Будет создана новая адрес�
 import-from-calendar-file-desc = Выберите файл iCalendar (.ics), который вы хотите импортировать.
 calendar-items-title = Выберите элементы для импорта.
 calendar-items-loading = Загрузка элементов…
+# $count (Number) - The number of items in the calendar file.
+calendar-items-count =
+    { $count ->
+        [one] Файл содержит { $count } элемент.
+        [few] Файл содержит { $count } элемента.
+       *[many] Файл содержит { $count } элементов.
+    }
 # Column headers of the list of calendar items to import.
 calendar-items-column-title-a11y =
     .aria-label = Заголовок
+calendar-items-column-title = Заголовок
+    .title = Сортировка по названию
+# The start date and time of each item.
+calendar-items-column-start-a11y =
+    .aria-label = Начало
+calendar-items-column-start = Начало
+    .title = Сортировать по началу
+# The end date and time of each item.
+calendar-items-column-end-a11y =
+    .aria-label = Окончание
+calendar-items-column-end = Окончание
+    .title = Сортировать по окончанию
+# The column of checkboxes, to choose which items to import.
+calendar-items-column-import-a11y =
+    .aria-label = Импорт
+calendar-items-column-import = Импорт
 calendar-items-filter-input2 =
     .label = Поиск элементов
     .placeholder = Поиск элементов…

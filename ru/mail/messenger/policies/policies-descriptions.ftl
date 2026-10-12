@@ -38,6 +38,7 @@ policy-DisableForgetButton = Закрывает доступ к кнопке «�
 policy-DisableFormHistory = Отключает запоминание истории поиска и данных форм.
 policy-DisableMasterPasswordCreation = Не позволяет устанавливать мастер-пароль, если установлено значение true.
 policy-DisableMessageForwardingFilters = Запрещает фильтрам автоматически пересылать сообщения.
+policy-DisablePasswordReveal2 = Не позволяет просматривать пароли в сохранённых логинах или полях для паролей.
 policy-DisablePasswordReveal = Не позволяет просматривать пароли у сохранённых логинов.
 policy-DisableProfileImport = Отключает команду меню для импорта данных из других приложений.
 policy-DisableExperimentalFeatures = Отключает экспериментальные функции в Thunderbird.

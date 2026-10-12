@@ -101,6 +101,17 @@ open-tabs-warning-confirmation =
        *[many] Открытие { $count } сообщений может быть медленным. Продолжить?
     }
 
+## Sign-in window
+
+# Shown when the provider's sign-in page cannot use cookies because they are
+# blocked.
+browser-request-cookies-blocked = Куки заблокированы, что может помешать входу.
+# Turns cookies back on. Same action as the "Accept cookies from sites" option
+# in Settings, Privacy & Security.
+browser-request-cookies-accept =
+    .label = Принимать куки с сайтов
+    .accesskey = Ф
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =

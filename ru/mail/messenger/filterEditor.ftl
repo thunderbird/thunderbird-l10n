@@ -190,6 +190,11 @@ filter-editor-invalid-search-title = Поисковые запросы неко�
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
 filter-editor-invalid-search-rule = Этот фильтр не может быть сохранён, так как поисковый запрос "{ $attribute } { $operator }" в текущем контексте некорректен.
+filter-editor-missing-value-title = Значение поиска отсутствует
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+filter-editor-missing-value-rule = Этот фильтр не может быть сохранён, так как не было введено значение для поискового запроса "{ $attribute } { $operator }".
 filter-editor-action-order-explanation = Когда сообщение подходит под этот фильтр, действия будут произведены в следующем порядке:
 filter-editor-action-order-title = Реальный порядок действий
 # Variables:
