@@ -9,6 +9,12 @@ messenger-eml-files-filter = Ffeiliau E-bost
 messenger-open-eml-file-title = Agor Neges
 # Keep the .eml extension and use an 8.3 file name.
 messenger-default-save-message-file-name = message.eml
+messenger-save-message-as = Cadw Neges Fel
+messenger-choose-folder = Dewis Ffolder
+messenger-save-message-failed = Methu cadw'r neges. Gwirio enw'r ffeil a cheisio eto yn ddiweddarach.
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = Mae { $filename } yn bodoli yn barod. Hoffech chi newid y ffeil?
 
 ## Window controls
 
