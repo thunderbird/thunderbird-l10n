@@ -5,8 +5,16 @@
 
 ## Message files
 
+messenger-eml-files-filter = Fichiers de message
+messenger-open-eml-file-title = Ouvrir le message
 # Keep the .eml extension and use an 8.3 file name.
 messenger-default-save-message-file-name = message.eml
+messenger-save-message-as = Enregistrer le message sous
+messenger-choose-folder = Choisir un dossier
+messenger-save-message-failed = Impossible d’enregistrer le message. Veuillez vérifier le nom du fichier et essayer à nouveau.
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = { $filename } existe déjà. Voulez-vous le remplacer ?
 
 ## Window controls
 
