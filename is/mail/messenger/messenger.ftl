@@ -5,6 +5,8 @@
 
 ## Message files
 
+messenger-eml-files-filter = Póstskrár
+messenger-open-eml-file-title = Opna póst
 # Keep the .eml extension and use an 8.3 file name.
 messenger-default-save-message-file-name = skilaboð.eml
 messenger-save-message-as = Vista boð sem
