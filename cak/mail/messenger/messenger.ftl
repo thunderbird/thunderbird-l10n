@@ -3,6 +3,19 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message files
+
+messenger-eml-files-filter = Kiyakb'al Taqoya'l
+messenger-open-eml-file-title = Tijaq Rutzijol
+# Keep the .eml extension and use an 8.3 file name.
+messenger-default-save-message-file-name = tzijol.eml
+messenger-save-message-as = Tiyak Tzijol Achi'el
+messenger-choose-folder = Ticha' Yakwuj
+messenger-save-message-failed = K'ayew chi niyak ri rutzijol. Tinik'öx rub'i' yakb'äl k'a ri' titojtob'ëx chik.
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = { $filename } k'o chik. ¿La nawajo' najalwachij?
+
 ## Window controls
 
 messenger-window-minimize-button =
@@ -15,6 +28,18 @@ messenger-window-close-button =
     .tooltiptext = Titz'apïx
 
 ## Content tabs
+
+
+# Back
+
+
+# Forward
+
+
+# Reload
+
+
+# Stop
 
 open-windows-warning-confirmation-title = Tijikib'äx
 # Variables:
@@ -32,6 +57,12 @@ open-tabs-warning-confirmation =
         [one] Nijaq { $count } rutzijol rik'in jub'a' eqal. ¿La k'a nasamajij?
        *[other] Yejaq { $count } taq rutzijol rik'in jub'a' eqal. ¿La k'a nasamajij?
     }
+
+## Sign-in window
+
+
+## Toolbar
+
 
 ## Folder Pane
 
@@ -66,6 +97,9 @@ show-tags-folders-label =
 folder-toolbar-toggle-folder-compact-view =
     .label = Molk'ïy Tz'etoj
     .accesskey = M
+
+## Folder names
+
 
 ## File Menu
 
@@ -113,6 +147,9 @@ menu-edit-newsgroup-properties =
     .label = Kichinil Kimolaj Tzijol
     .accesskey = o
 
+## Message Menu
+
+
 ## Shared Menu Items
 
 menu-move-again =
@@ -158,6 +195,9 @@ mail-context-menu-forward-forward =
     .label = Jun chik
     .accesskey = J
 
+## Message header pane
+
+
 ## Message header customize panel
 
 message-header-button-style-default =
@@ -183,6 +223,12 @@ toolbar-context-menu-remove-extension =
 addon-removal-title = ¿La niyuj { $name }?
 addon-removal-confirmation-button = Tiyuj
 caret-browsing-prompt-title = Okem pa K'amaya'l Rik'in Retal Ch'oy
+
+## no-reply handling
+
+
+## error messages
+
 
 ## Spaces toolbar
 
@@ -246,12 +292,33 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
+## OpenPGP
+
+
+## Quota panel.
+
+
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = s
 mark-not-junk-key =
     .key = s
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
 
 ## Message list.
 
@@ -285,6 +352,15 @@ message-group-starred = Ya'on ruq'ij
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = et al.
+
+## Prompts
+
+
+## Spam commands
+
+
+## Ignore threads
+
 
 ## Attachments
 
