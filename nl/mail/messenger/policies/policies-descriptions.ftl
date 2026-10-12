@@ -38,6 +38,7 @@ policy-DisableForgetButton = Toegang tot de knop Vergeten voorkomen.
 policy-DisableFormHistory = Geen zoek- en formuliergeschiedenis onthouden.
 policy-DisableMasterPasswordCreation = Wanneer true, kan geen hoofdwachtwoord worden aangemaakt.
 policy-DisableMessageForwardingFilters = Voorkomen dat berichtenfilters automatisch berichten doorsturen.
+policy-DisablePasswordReveal2 = Niet toestaan dat wachtwoorden worden onthuld in opgeslagen aanmeldingen of wachtwoordvelden.
 policy-DisablePasswordReveal = Niet toestaan dat wachtwoorden worden onthuld in opgeslagen aanmeldingen.
 policy-DisableProfileImport = De menuopdracht voor het importeren van gegevens vanuit een andere applicatie uitschakelen.
 policy-DisableExperimentalFeatures = Experimentele functies in Thunderbird uitschakelen.

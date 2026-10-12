@@ -114,6 +114,16 @@ calendar-items-column-title-a11y =
     .aria-label = Titel
 calendar-items-column-title = Titel
     .title = Sorteren op titel
+# The start date and time of each item.
+calendar-items-column-start-a11y =
+    .aria-label = Start
+calendar-items-column-start = Start
+    .title = Sorteren op start
+# The end date and time of each item.
+calendar-items-column-end-a11y =
+    .aria-label = Einde
+calendar-items-column-end = Einde
+    .title = Sorteren op einde
 # The column of checkboxes, to choose which items to import.
 calendar-items-column-import-a11y =
     .aria-label = Importeren
