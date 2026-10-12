@@ -3,6 +3,15 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message files
+
+messenger-eml-files-filter = E-mailowe dataje
+messenger-open-eml-file-title = Powěsć wócyniś
+# Keep the .eml extension and use an 8.3 file name.
+messenger-default-save-message-file-name = powěsć.eml
+messenger-save-message-as = Powěsć składowaś ako
+messenger-choose-folder = Zarědnik wubraś
+
 ## Window controls
 
 messenger-window-minimize-button =
@@ -32,6 +41,9 @@ content-tab-security-high-icon =
     .alt = Zwisk jo wěsty
 content-tab-security-broken-icon =
     .alt = Zwisk njejo wěsty
+
+# Back
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -42,6 +54,9 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Slědk
     .accesskey = S
+
+# Forward
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -52,6 +67,9 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Doprědka
     .accesskey = D
+
+# Reload
+
 content-tab-menu-reload =
     .aria-label = Zacytaś
     .tooltiptext = Bok znowego zacytaś
@@ -61,6 +79,9 @@ content-tab-menu-reload-mac =
     .label = Zacytaś
     .tooltiptext = Bok znowego zacytaś
     .accesskey = Z
+
+# Stop
+
 content-tab-menu-stop =
     .aria-label = Zastajiś
     .tooltiptext = Zacytanje boka zastajiś
@@ -90,6 +111,9 @@ open-tabs-warning-confirmation =
         [few] Wócynjanje { $count } powěsćow móžo dlej traś. Pókšacowaś?
        *[other] Wócynjanje { $count } powěsćow móžo dlej traś. Pókšacowaś?
     }
+
+## Sign-in window
+
 
 ## Toolbar
 
