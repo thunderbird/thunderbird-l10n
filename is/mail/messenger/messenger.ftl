@@ -98,6 +98,17 @@ open-tabs-warning-confirmation =
        *[other] Að opna { $count } pósta gæti verið hægvirkt. Halda áfram?
     }
 
+## Sign-in window
+
+# Shown when the provider's sign-in page cannot use cookies because they are
+# blocked.
+browser-request-cookies-blocked = Lokað er á vefkökur, sem gæti komið í veg fyrir innskráningu.
+# Turns cookies back on. Same action as the "Accept cookies from sites" option
+# in Settings, Privacy & Security.
+browser-request-cookies-accept =
+    .label = Þiggja vefkökur frá vefsvæðum
+    .accesskey = a
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =

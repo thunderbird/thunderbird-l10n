@@ -38,6 +38,7 @@ policy-DisableForgetButton = Koma í veg fyrir aðgang að Gleyma-hnappnum.
 policy-DisableFormHistory = Ekki muna leitar- og innfyllingarferil.
 policy-DisableMasterPasswordCreation = Ef satt, er ekki hægt að búa til aðallykilorð.
 policy-DisableMessageForwardingFilters = Koma í veg fyrir að skilaboðasíur áframsendi skilaboð sjálfkrafa.
+policy-DisablePasswordReveal2 = Ekki leyfa birtingu lykilorða í vistuðum innskráningum eða lykilorðareitum.
 policy-DisablePasswordReveal = Ekki leyfa birtingu lykilorða í vistuðum innskráningum.
 policy-DisableProfileImport = Slökkva á valmyndarskipuninni til að flytja inn gögn úr öðru forriti.
 policy-DisableExperimentalFeatures = Gera tilraunaeiginleika í Thunderbird óvirka.

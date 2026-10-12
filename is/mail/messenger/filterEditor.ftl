@@ -188,6 +188,11 @@ filter-editor-invalid-search-title = Leitarskilyrði ógilt
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
 filter-editor-invalid-search-rule = Ekki er hægt að vista þessa síðu vegna þess að leitarskilyrðið "{ $attribute } { $operator }" er ógilt í núverandi samhengi.
+filter-editor-missing-value-title = Leitargildi vantar
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+filter-editor-missing-value-rule = Ekki er hægt að vista þessa síu því ekkert gildi var sett inn fyrir leitarorðið "{ $attribute } { $operator }".
 filter-editor-action-order-explanation = Þegar póstur passar við þessa síu verða aðgerðirnar keyrðar í eftirfarandi röð:
 filter-editor-action-order-title = Raunveruleg aðgerðaröð
 # Variables:
