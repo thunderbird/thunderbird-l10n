@@ -103,6 +103,9 @@ addr-book-summary-description = 将创建一个名为“{ $addressBookName }”�
 import-from-calendar-file-desc = 选择您要导入的 iCalendar（.ics）文件。
 calendar-items-title = 选择要导入的项目。
 calendar-items-loading = 正在加载项目…
+# The start date and time of each item.
+calendar-items-column-start-a11y =
+    .aria-label = 开始时间
 calendar-items-filter-input2 =
     .label = 过滤项目
     .placeholder = 过滤项目…
