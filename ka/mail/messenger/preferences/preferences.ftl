@@ -999,6 +999,11 @@ email-e2ee-automatism = დაშიფვრის თვითგამოყ�
 email-e2ee-automatism-intro = { -brand-short-name } თავადვე შეძლებს დაშიფვრის ჩართვას, თუ მოქმედი გასაღებები ან სერტიფიკატები წერილის ყველა მიმღებისთვის ხელმისაწვდომი იქნება.
 email-e2ee-turn-on =
     .label = დაშიფვრის თვითჩართვა, როცა კი შესაძლებელია
+email-e2ee-turn-off =
+    .label = დაშიფვრის თვითგამორთვა, როცა მიმღებთა ცვლილების გამო დაშიფვრა შეუძლებელი ხდება
+email-e2ee-turn-off-notify =
+    .label = შეტყობინების ჩვენება დაშიფვრის თვითგამორთვისას
+email-e2ee-automatism-note = შენიშვნა: ასევე შეგიძლიათ დაშიფვრის ჩართვა ან გამორთვა წერილის შედგენისას. დაშიფრულ წერილებზე პასუხისას ყოველთვის ამოქმედდება დაშიფვრა.
 email-e2ee-automatism-pre =
     { -brand-short-name } თავად ჩართავს ან გამორთავს დაშიფვრას ახალი წერილის შედგენისას.
     ავტომატურ ჩართვა/გამორთვას განსაზღვრავს მოპასუხის მხრიდან გამართული და ნებადართული გასაღებების ან სერტიფიკატების ხელმისაწვდომობა.
@@ -1011,6 +1016,10 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     თვითნებურ გადაწყვეტილებებს ჩაანაცვლებს დაშიფვრის ხელით ჩართვა ან გამორთვა წერილის შედგენისას.
     შენიშვნა: დაშიფვრა ყოველთვის თავისთავადაა ჩართული დაშიფრულ წერილზე პასუხისას.
+email-content = წერილის შიგთავსი
+remote-content-images-label =
+    .label = გარეშე მასალების ნებართვა (სურათებისა და გაფორმებების)
+    .accesskey = რ
 
 ## DoH Section
 
@@ -1034,6 +1043,10 @@ preferences-doh-status-not-active = უქმი ({ $reason })
 preferences-doh-group-message = ჩაირთოს DNS-მოთხოვნა HTTPS-ით:
 preferences-doh-expand-section =
     .tooltiptext = ვრცლად
+preferences-doh-setting-automatic =
+    .label = თვითდაცვა (სასურველია)
+    .accesskey = ვ
+preferences-doh-automatic-desc = { -brand-short-name } თავისთავად შიფრავს მისამართებს მოძიებისას, როცა კი შესაძლებელია. უბრუნდება ქსელში ჩვეულებრივ ძიებას კავშირის ხარვეზებისას ან, თუ ამას VPN/მართული ქსელი მოითხოვს.
 preferences-doh-setting-default =
     .label = ნაგულისხმევი უსაფრთხოება
     .accesskey = გ
@@ -1046,9 +1059,14 @@ preferences-doh-default-detailed-desc-5 = გამოირთვება, თ
 preferences-doh-setting-enabled =
     .label = გაზრდილი უსაფრთხოება
     .accesskey = ზ
+preferences-doh-increased-desc = ყოველთვის შერჩეული მომწოდებლის გამოყენება. ჩვეულებრივ კავშირს დაუბრუნდება მხოლოდ მაშინ, როცა დაცული მომწოდებელით სარგებლობა უშედეგოა.
 preferences-doh-enabled-desc = თავად საზღვრავთ, როდის გამოიყენოს დაცული DNS და ირჩევთ მომწოდებელს.
 preferences-doh-enabled-detailed-desc-1 = გამოიყენება თქვენი შერჩეული მომწოდებელი
 preferences-doh-enabled-detailed-desc-2 = გამოიყენება ნაგულისხმევი DNS მხოლოდ მაშინ, თუ ხარვეზითაა დაცული DNS
+preferences-doh-setting-maximum =
+    .label = უმაღლესი დაცვა
+    .accesskey = უ
+preferences-doh-maximum-desc = მკაცრად მოითხოვება დაშიფრული DNS. საიტები არ ჩაიტვირთება, თუ დაცული კავშირი ვერ ხერხდება.
 preferences-doh-setting-strict =
     .label = უმაღლესი უსაფრთხოება
     .accesskey = უ
@@ -1059,6 +1077,7 @@ preferences-doh-strict-detailed-desc-3 = თუ დაცული DNS მიუ
 preferences-doh-setting-off =
     .label = გამორთ.
     .accesskey = ო
+preferences-doh-off-standard-desc = იყენებს ჩვეულებრივ ინტერნეტმომწოდებელს ან ქსელს ვებმისამართების მოსაძიებლად
 preferences-doh-off-desc = გამოიყენება თქვენი ნაგულისხმევი DNS-გადამყვანი
 preferences-doh-checkbox-warn =
     .label = გაფრთხილება, თუ გარეშე მხარე ცდილობს აირიდოს დაცული DNS
@@ -1071,6 +1090,8 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = მითითებული
     .accesskey = თ
+preferences-doh-secure-header = დაცული DNS (DNS მოთხოვნა HTTPS-ით)
+preferences-doh-secure-description = დაცული DNS შიფრავს ყველა მოთხოვნას, რომელსაც { -brand-short-name } აგზავნის საიტების საპოვნელად, ფარავს რა თქვენს მოქმედებებს ქსელში ნებისმიერი თვალთვალისგან.
 
 ## Keyservers
 
@@ -1247,6 +1268,9 @@ qr-export-select-accounts = მიუთითეთ გასატანი �
 qr-export-no-accounts = თქვენს ყველა ანგარიშს ვერ პოულობთ? ზოგიერთი მათგანი შესაძლოა, გამოითიშოს, ვინაიდან { -brand-product-name } Android-ზე არ უჭერდეს მხარს. <a data-l10n-name="account-support-link">დახმარება</a>
 qr-export-accounts-legend = ელფოსტის ანგარიშები
 qr-export-select-all-accounts = ყველას მონიშვნა
+qr-export-passwords-legend = პაროლები
+qr-export-include-passwords-label = ანგარიშის პაროლების დართვა QR-კოდში
+qr-export-web-sign-in-note = <strong>გაითვალისწინეთ:</strong> ანგარიშები, რომლებიც შესასვლელად იყენებს ვებგვერდს (მაგალითად, Gmail და Yahoo), ხელახლა მოითხოვს შესვლის დამოწმებას თქვენს მოწყობილობაზე.
 qr-export-security-legend = უსაფრთხოება
 qr-export-include-passwords = ყველა ანგარიშის პაროლის დართვა
 qr-export-oauth-warning = თქვენი ზოგიერთი ანგარიში შესვლისას იყენებს დამოწმების ხერხს, რომელმაც შესაძლოა მოითხოვოს ხელახალი დამოწმება თქვენს მობილურ მოწყობილობაზე. შეიძლება მოგიწიოთ პაროლის ხელმეორედ შეყვანა ასეთ შემთხვევაში.
