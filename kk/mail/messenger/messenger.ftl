@@ -5,6 +5,10 @@
 
 ## Message files
 
+messenger-eml-files-filter = Файлдарды поштамен жіберу
+messenger-open-eml-file-title = Хатты ашу
+# Keep the .eml extension and use an 8.3 file name.
+messenger-default-save-message-file-name = хабарлама.eml
 messenger-save-message-as = Хабарламаны қалайша сақтау
 messenger-choose-folder = Буманы таңдау
 messenger-save-message-failed = Хабарламаны сақтау мүмкін емес. Файл атын тексеріп, кейінірек қайталап көріңіз.
