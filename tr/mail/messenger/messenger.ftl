@@ -5,6 +5,8 @@
 
 ## Message files
 
+messenger-eml-files-filter = Posta dosyaları
+messenger-open-eml-file-title = İletiyi aç
 # Keep the .eml extension and use an 8.3 file name.
 messenger-default-save-message-file-name = ileti.eml
 
