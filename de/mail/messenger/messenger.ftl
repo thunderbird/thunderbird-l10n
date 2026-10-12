@@ -5,6 +5,8 @@
 
 ## Message files
 
+messenger-eml-files-filter = Mail-Dateien (*.eml)
+messenger-open-eml-file-title = Nachricht öffnen…
 # Keep the .eml extension and use an 8.3 file name.
 messenger-default-save-message-file-name = nachricht.eml
 messenger-save-message-as = Nachricht speichern unter
