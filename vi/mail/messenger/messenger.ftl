@@ -5,6 +5,8 @@
 
 ## Message files
 
+messenger-eml-files-filter = Tập tin thư
+messenger-open-eml-file-title = Mở thư
 # Keep the .eml extension and use an 8.3 file name.
 messenger-default-save-message-file-name = message.eml
 messenger-save-message-as = Lưu thư dưới dạng
