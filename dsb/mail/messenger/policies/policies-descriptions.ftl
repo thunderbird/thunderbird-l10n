@@ -38,6 +38,7 @@ policy-DisableForgetButton = Pśistupoju k tłocaškoju Zabyś zajźowaś.
 policy-DisableFormHistory = Pytańsku a formularnu historiju se njespomnjeś.
 policy-DisableMasterPasswordCreation = Jolic to trjefijo, njedajo se głowne gronidło napóraś.
 policy-DisableMessageForwardingFilters = Tomu zaźjowaś, až se powěsćowe filtry powěsći awtomatiski dalej pósrědnjaju.
+policy-DisablePasswordReveal2 = Njedowóliś, až se gronidła w skłaźonych pśizjawjenjach abo gronidłowych pólach pokazuju.
 policy-DisablePasswordReveal = Njedowóliś, až se gronidła w skłaźonych pśizjawjenjach pokazuju
 policy-DisableProfileImport = Menijowy pśikaz za importěrowanje datow z drugego nałoženja znjemóžniś.
 policy-DisableExperimentalFeatures = Eksperimentelne funkcije w Thunderbird znjemóžniś.

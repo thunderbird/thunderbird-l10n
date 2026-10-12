@@ -103,6 +103,33 @@ addr-book-summary-description = Nowy adresnik z mjenim „{ $addressBookName }�
 import-from-calendar-file-desc = Wubjeŕśo dataju iCalendar (.ics), kótaruž cośo importěrowaś:
 calendar-items-title = Wubjeŕśo elementy za importěrowanje.
 calendar-items-loading = Zapiski se cytaju…
+# $count (Number) - The number of items in the calendar file.
+calendar-items-count =
+    { $count ->
+        [one] Dataja { $count } zapisk wopśimujo.
+        [two] Dataja { $count } zapiska wopśimujo.
+        [few] Dataja { $count } zapiski wopśimujo.
+       *[other] Dataja { $count } zapiskow wopśimujo.
+    }
+# Column headers of the list of calendar items to import.
+calendar-items-column-title-a11y =
+    .aria-label = Titel
+calendar-items-column-title = Titel
+    .title = Pó titelu sortěrowaś
+# The start date and time of each item.
+calendar-items-column-start-a11y =
+    .aria-label = Start
+calendar-items-column-start = Start
+    .title = Pó starśe sortěrowaś
+# The end date and time of each item.
+calendar-items-column-end-a11y =
+    .aria-label = Kóńc
+calendar-items-column-end = Kóńc
+    .title = Pó kóńcu sortěrowaś
+# The column of checkboxes, to choose which items to import.
+calendar-items-column-import-a11y =
+    .aria-label = Importěrowaś
+calendar-items-column-import = Importěrowaś
 calendar-items-filter-input2 =
     .label = Zapiski filtrowaś
     .placeholder = Zapiski filtrowaś…

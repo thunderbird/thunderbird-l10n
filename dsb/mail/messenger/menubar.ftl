@@ -5,6 +5,7 @@
 toolbar-context-menu-menu-bar =
     .toolbarname = Menijowa rědka
     .accesskey = M
+system-tray-app-name = { -brand-full-name }
 
 ## Tools Menu
 
@@ -162,6 +163,9 @@ file-new-newsgroup-account =
 file-new-addressbook =
     .label = Adresnik
     .accesskey = A
+file-new-mailing-list =
+    .label = Rozpósłańska lisćina…
+    .accesskey = R
 file-new-local-addressbook =
     .label = Lokalny adresnik
     .accesskey = L

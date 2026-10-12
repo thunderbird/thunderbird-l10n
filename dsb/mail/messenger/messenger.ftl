@@ -104,6 +104,17 @@ open-tabs-warning-confirmation =
        *[other] Wócynjanje { $count } powěsćow móžo dlej traś. Pókšacowaś?
     }
 
+## Sign-in window
+
+# Shown when the provider's sign-in page cannot use cookies because they are
+# blocked.
+browser-request-cookies-blocked = Cookieje se blokěruju, což snaź pśizjawjenjeju zajźujo.
+# Turns cookies back on. Same action as the "Accept cookies from sites" option
+# in Settings, Privacy & Security.
+browser-request-cookies-accept =
+    .label = Cookieje ze sedłow akceptěrowaś
+    .accesskey = C
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
