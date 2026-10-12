@@ -5,8 +5,11 @@
 
 ## Message files
 
+messenger-eml-files-filter = 郵件檔
+messenger-open-eml-file-title = 開啟郵件
 # Keep the .eml extension and use an 8.3 file name.
 messenger-default-save-message-file-name = message.eml
+messenger-save-message-as = 另存郵件
 
 ## Window controls
 
