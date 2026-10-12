@@ -188,6 +188,7 @@ filter-editor-invalid-search-title = Zoektermen ongeldig
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
 filter-editor-invalid-search-rule = Dit filter kan niet worden opgeslagen, omdat de zoekterm ‘{ $attribute } { $operator }’ in de huidige context ongeldig is.
+filter-editor-missing-value-title = Zoekwaarde ontbreekt
 filter-editor-action-order-explanation = Als een bericht met dit filter overeenkomt, worden de acties in deze volgorde uitgevoerd:
 filter-editor-action-order-title = Werkelijke actievolgorde
 # Variables:
