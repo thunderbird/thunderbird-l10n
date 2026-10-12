@@ -101,6 +101,12 @@ open-tabs-warning-confirmation =
        *[many] Otworzenie { $count } wiadomości może trochę potrwać. Kontynuować?
     }
 
+## Sign-in window
+
+# Shown when the provider's sign-in page cannot use cookies because they are
+# blocked.
+browser-request-cookies-blocked = Ciasteczka są zablokowane, co może uniemożliwić logowanie.
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
