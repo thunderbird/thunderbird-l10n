@@ -5,8 +5,16 @@
 
 ## Message files
 
+messenger-eml-files-filter = E-postfiler
+messenger-open-eml-file-title = Öppna meddelande
 # Keep the .eml extension and use an 8.3 file name.
 messenger-default-save-message-file-name = brev.eml
+messenger-save-message-as = Spara meddelande som
+messenger-choose-folder = Välj mapp
+messenger-save-message-failed = Det gick inte att spara meddelandet. Kontrollera filnamnet och försök igen.
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = Filen { $filename } finns redan. Vill du ersätta den?
 
 ## Window controls
 
