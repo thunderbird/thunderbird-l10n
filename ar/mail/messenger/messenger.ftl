@@ -5,6 +5,8 @@
 
 ## Message files
 
+messenger-eml-files-filter = ملفات البريد
+messenger-open-eml-file-title = افتح الرسالة
 # Keep the .eml extension and use an 8.3 file name.
 messenger-default-save-message-file-name = message.eml
 
