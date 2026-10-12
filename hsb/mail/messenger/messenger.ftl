@@ -3,6 +3,19 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message files
+
+messenger-eml-files-filter = Póstowe dataje
+messenger-open-eml-file-title = Powěsć wočinić
+# Keep the .eml extension and use an 8.3 file name.
+messenger-default-save-message-file-name = powěsć.eml
+messenger-save-message-as = Powěsć składować jako
+messenger-choose-folder = Rjadowak wubrać
+messenger-save-message-failed = Njeje móžno, powěsć składować. Prošu přepruwujće swoje datajowe mjeno a spytajće pozdźišo hišće raz.
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = { $filename } hižo eksistuje. Chceće ju narunać?
+
 ## Window controls
 
 messenger-window-minimize-button =
@@ -32,6 +45,9 @@ content-tab-security-high-icon =
     .alt = Zwisk je wěsty
 content-tab-security-broken-icon =
     .alt = Zwisk wěsty njeje
+
+# Back
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -42,6 +58,9 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Wróćo
     .accesskey = W
+
+# Forward
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -52,6 +71,9 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Doprědka
     .accesskey = D
+
+# Reload
+
 content-tab-menu-reload =
     .aria-label = Znowa začitać
     .tooltiptext = Stronu znowa začitać
@@ -61,6 +83,9 @@ content-tab-menu-reload-mac =
     .label = Znowa začitać
     .tooltiptext = Stronu znowa začitać
     .accesskey = Z
+
+# Stop
+
 content-tab-menu-stop =
     .aria-label = Zastajić
     .tooltiptext = Začitanje stronje zastajić
@@ -90,6 +115,9 @@ open-tabs-warning-confirmation =
         [few] Wočinjenje { $count } powěsćow móže dlěje trać. Pokročować?
        *[other] Wočinjenje { $count } powěsćow móže dlěje trać. Pokročować?
     }
+
+## Sign-in window
+
 
 ## Toolbar
 
