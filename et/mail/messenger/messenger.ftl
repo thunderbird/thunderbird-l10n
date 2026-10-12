@@ -7,6 +7,8 @@
 
 messenger-eml-files-filter = Saada failid
 messenger-open-eml-file-title = Ava kiri
+# Keep the .eml extension and use an 8.3 file name.
+messenger-default-save-message-file-name = kiri.eml
 messenger-save-message-as = Salvesta kiri kui
 messenger-choose-folder = Vali kaust
 messenger-save-message-failed = Kirja salvestamine ei õnnestunud. Kontrolli faili nime ja proovi uuesti.
