@@ -3,6 +3,13 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message files
+
+messenger-save-message-failed = Δεν είναι δυνατή η αποθήκευση του μηνύματος. Ελέγξτε το όνομα του αρχείου και δοκιμάστε ξανά αργότερα.
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = Το { $filename } υπάρχει ήδη. Θέλετε να το αντικαταστήσετε;
+
 ## Window controls
 
 messenger-window-minimize-button =
@@ -30,6 +37,9 @@ content-tab-security-high-icon =
     .alt = Η σύνδεση είναι ασφαλής
 content-tab-security-broken-icon =
     .alt = Η σύνδεση δεν είναι ασφαλής
+
+# Back
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -40,6 +50,9 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Πίσω
     .accesskey = Π
+
+# Forward
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -50,6 +63,9 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Εμπρός
     .accesskey = Ε
+
+# Reload
+
 content-tab-menu-reload =
     .aria-label = Επαναφόρτωση
     .tooltiptext = Επαναφόρτωση σελίδας
@@ -59,6 +75,9 @@ content-tab-menu-reload-mac =
     .label = Επαναφόρτωση
     .tooltiptext = Επαναφόρτωση σελίδας
     .accesskey = π
+
+# Stop
+
 content-tab-menu-stop =
     .aria-label = Διακοπή
     .tooltiptext = Διακοπή φόρτωσης σελίδας
@@ -84,6 +103,9 @@ open-tabs-warning-confirmation =
         [one] Το άνοιγμα { $count } μηνύματος ενδέχεται να καθυστερήσει. Θέλετε να συνεχίσετε;
        *[other] Το άνοιγμα { $count } μηνυμάτων ενδέχεται να καθυστερήσει. Θέλετε να συνεχίσετε;
     }
+
+## Sign-in window
+
 
 ## Toolbar
 
