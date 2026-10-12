@@ -3,6 +3,19 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message files
+
+messenger-eml-files-filter = 메일 파일 (*.eml)
+messenger-open-eml-file-title = 메시지 열기
+# Keep the .eml extension and use an 8.3 file name.
+messenger-default-save-message-file-name = message.eml
+messenger-save-message-as = 메시지 저장
+messenger-choose-folder = 폴더 선택
+messenger-save-message-failed = 메시지를 저장할 수 없음. 파일 이름을 확인하십시오.
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = { $filename }은(는) 이미 존재합니다. 바꾸시겠습니까?
+
 ## Window controls
 
 messenger-window-minimize-button =
@@ -26,6 +39,9 @@ content-tab-security-high-icon =
     .alt = 안전한 연결
 content-tab-security-broken-icon =
     .alt = 안전하지 않은 연결
+
+# Back
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -36,6 +52,9 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = 뒤로
     .accesskey = B
+
+# Forward
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -46,6 +65,9 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = 앞으로
     .accesskey = F
+
+# Reload
+
 content-tab-menu-reload =
     .aria-label = 새로 고침
     .tooltiptext = 페이지 새로 고침
@@ -55,6 +77,9 @@ content-tab-menu-reload-mac =
     .label = 새로 고침
     .tooltiptext = 페이지 새로 고침
     .accesskey = R
+
+# Stop
+
 content-tab-menu-stop =
     .aria-label = 중지
     .tooltiptext = 페이지 로딩 중지
@@ -72,6 +97,9 @@ open-tabs-warning-confirmation-title = 확인
 # Variables:
 #   $count - number of messages to open
 open-tabs-warning-confirmation = 메시지 { $count }개를 여는 작업은 느릴 수 있습니다. 계속하시겠습니까?
+
+## Sign-in window
+
 
 ## Toolbar
 
