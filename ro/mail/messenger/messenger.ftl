@@ -3,6 +3,11 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message files
+
+# Keep the .eml extension and use an 8.3 file name.
+messenger-default-save-message-file-name = mesaj.eml
+
 ## Window controls
 
 messenger-window-minimize-button =
@@ -31,6 +36,9 @@ content-tab-security-high-icon =
     .alt = Conexiunea este securizată
 content-tab-security-broken-icon =
     .alt = Conexiunea nu este securizată
+
+# Back
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -41,6 +49,9 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Înapoi
     .accesskey = B
+
+# Forward
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -51,6 +62,9 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Înainte
     .accesskey = F
+
+# Reload
+
 content-tab-menu-reload =
     .aria-label = Reîncarcă
     .tooltiptext = Reîncarcă pagina
@@ -60,6 +74,9 @@ content-tab-menu-reload-mac =
     .label = Reîncarcă
     .tooltiptext = Reîncarcă pagina
     .accesskey = R
+
+# Stop
+
 content-tab-menu-stop =
     .aria-label = Oprește
     .tooltiptext = Oprește încărcarea paginii
@@ -87,6 +104,9 @@ open-tabs-warning-confirmation =
         [few] Deschiderea a { $count } mesaje poate fi lentă. Continuați?
        *[other] Deschiderea a { $count } mesaje poate fi lentă. Continuați?
     }
+
+## Sign-in window
+
 
 ## Toolbar
 
