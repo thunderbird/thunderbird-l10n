@@ -101,6 +101,17 @@ open-tabs-warning-confirmation =
        *[other] Deschiderea a { $count } mesaje poate fi lentă. Continuați?
     }
 
+## Sign-in window
+
+# Shown when the provider's sign-in page cannot use cookies because they are
+# blocked.
+browser-request-cookies-blocked = Cookie-urile sunt blocate, ceea ce poate împiedica autentificarea.
+# Turns cookies back on. Same action as the "Accept cookies from sites" option
+# in Settings, Privacy & Security.
+browser-request-cookies-accept =
+    .label = Acceptă cookie-uri de la site-uri
+    .accesskey = A
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =

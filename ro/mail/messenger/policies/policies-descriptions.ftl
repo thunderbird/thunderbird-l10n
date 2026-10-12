@@ -38,6 +38,7 @@ policy-DisableForgetButton = Împiedică accesul la butonul Uitare.
 policy-DisableFormHistory = Nu memora istoricul căutărilor și formularelor.
 policy-DisableMasterPasswordCreation = Dacă este adevărat, nu se poate crea o parolă generală.
 policy-DisableMessageForwardingFilters = Blochează redirecționarea automată a mesajelor prin filtrele de mesaje.
+policy-DisablePasswordReveal2 = Nu permite afișarea parolelor în date de autentificare salvate sau în câmpuri pentru parolă.
 policy-DisablePasswordReveal = Nu permite afișarea parolelor în datele de autentificare salvate.
 policy-DisableProfileImport = Dezactivează comanda de meniu pentru importul de date din alte aplicații.
 policy-DisableExperimentalFeatures = Dezactivează funcționalitățile experimentale din Thunderbird.

@@ -5,6 +5,7 @@
 toolbar-context-menu-menu-bar =
     .toolbarname = Bară de meniu
     .accesskey = M
+system-tray-app-name = { -brand-full-name }
 
 ## Tools Menu
 
@@ -162,6 +163,9 @@ file-new-newsgroup-account =
 file-new-addressbook =
     .label = Agendă de contacte
     .accesskey = A
+file-new-mailing-list =
+    .label = Listă de adrese de e-mail…
+    .accesskey = l
 file-new-local-addressbook =
     .label = Agendă de contacte locală
     .accesskey = A

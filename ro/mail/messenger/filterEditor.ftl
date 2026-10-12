@@ -190,6 +190,11 @@ filter-editor-invalid-search-title = Termeni de căutare nevalizi
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
 filter-editor-invalid-search-rule = Acest filtru nu poate fi salvat deoarece termenul de căutare „{ $attribute } { $operator }” este nevalid în contextul actual.
+filter-editor-missing-value-title = Valoare de căutare lipsă
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+filter-editor-missing-value-rule = Filtrul nu poate fi salvat pentru că nu a fost introdusă nicio valoare pentru termenul de căutare „{ $attribute } { $operator }”.
 filter-editor-action-order-explanation = Când un mesaj corespunde filtrului, acțiunile vin executate în această ordine:
 filter-editor-action-order-title = Ordine reală a acțiunilor
 # Variables:

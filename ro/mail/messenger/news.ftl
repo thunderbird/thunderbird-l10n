@@ -68,6 +68,12 @@ cancel-confirm = Sigur vrei să anulezi acest mesaj?
 # $newsgroup (String) - The name of the newsgroup.
 auto-subscribe-text = Vrei să te abonezi la { $newsgroup }?
 
+## Unknown News Server Dialog
+
+# Variables:
+# $server (String) - The hostname:port of the news server, e.g. news.example.com:119.
+unknown-news-server-text = Linkul trimite la { $server }, dar nu este setat niciun cont pentru acel server de știri. Te conectezi oricum?
+
 ## News Server Credentials
 
 enter-news-credentials-title = Nume de utilizator și parolă necesare pentru serverul de grupuri de discuții

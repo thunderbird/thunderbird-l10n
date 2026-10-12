@@ -103,6 +103,32 @@ addr-book-summary-description = Va fi creată o nouă agendă numită „{ $addr
 import-from-calendar-file-desc = Selectează fișierul iCalendar (.ics) pe care vrei să îl imporți.
 calendar-items-title = Selectează elementele de importat.
 calendar-items-loading = Se încarcă elementele...
+# $count (Number) - The number of items in the calendar file.
+calendar-items-count =
+    { $count ->
+        [one] Fila conține { $count } element.
+        [few] Fila conține { $count } elemente.
+       *[other] Fila conține { $count } de elemente.
+    }
+# Column headers of the list of calendar items to import.
+calendar-items-column-title-a11y =
+    .aria-label = Titlu
+calendar-items-column-title = Titlu
+    .title = Sortează după titlu
+# The start date and time of each item.
+calendar-items-column-start-a11y =
+    .aria-label = Început
+calendar-items-column-start = Început
+    .title = Sortează după data și ora de început
+# The end date and time of each item.
+calendar-items-column-end-a11y =
+    .aria-label = Sfârșit
+calendar-items-column-end = Sfârșit
+    .title = Sortează după data și ora de sfârșit
+# The column of checkboxes, to choose which items to import.
+calendar-items-column-import-a11y =
+    .aria-label = Importă
+calendar-items-column-import = Importă
 calendar-items-filter-input2 =
     .label = Filtrează elementele
     .placeholder = Filtrează elementele…
