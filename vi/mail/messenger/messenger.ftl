@@ -3,6 +3,17 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message files
+
+# Keep the .eml extension and use an 8.3 file name.
+messenger-default-save-message-file-name = message.eml
+messenger-save-message-as = Lưu thư dưới dạng
+messenger-choose-folder = Chọn thư mục
+messenger-save-message-failed = Không thể lưu thư. Vui lòng kiểm tra tên tập tin và thử lại sau.
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = { $filename } đã tồn tại. Bạn có muốn thay thế nó?
+
 ## Window controls
 
 messenger-window-minimize-button =
@@ -29,6 +40,9 @@ content-tab-security-high-icon =
     .alt = Kết nối an toàn
 content-tab-security-broken-icon =
     .alt = Kết nối không an toàn
+
+# Back
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -39,6 +53,9 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Quay lại
     .accesskey = B
+
+# Forward
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -49,6 +66,9 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Tiến
     .accesskey = F
+
+# Reload
+
 content-tab-menu-reload =
     .aria-label = Tải lại
     .tooltiptext = Tải lại trang này
@@ -58,6 +78,9 @@ content-tab-menu-reload-mac =
     .label = Tải lại
     .tooltiptext = Tải lại trang này
     .accesskey = R
+
+# Stop
+
 content-tab-menu-stop =
     .aria-label = Dừng
     .tooltiptext = Dừng tải trang
@@ -75,6 +98,9 @@ open-tabs-warning-confirmation-title = Xác nhận
 # Variables:
 #   $count - number of messages to open
 open-tabs-warning-confirmation = Việc mở { $count } thư có thể bị chậm. Tiếp tục?
+
+## Sign-in window
+
 
 ## Toolbar
 
