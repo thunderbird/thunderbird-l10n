@@ -3,6 +3,13 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message files
+
+messenger-eml-files-filter = Ffeiliau E-bost
+messenger-open-eml-file-title = Agor Neges
+# Keep the .eml extension and use an 8.3 file name.
+messenger-default-save-message-file-name = message.eml
+
 ## Window controls
 
 messenger-window-minimize-button =
@@ -34,6 +41,9 @@ content-tab-security-high-icon =
     .alt = Mae'r cysylltiad yn ddiogel
 content-tab-security-broken-icon =
     .alt = Nid yw'r cysylltiad yn ddiogel
+
+# Back
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -44,6 +54,9 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Nôl
     .accesskey = ô
+
+# Forward
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -54,6 +67,9 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Ymlaen
     .accesskey = m
+
+# Reload
+
 content-tab-menu-reload =
     .aria-label = Ail-lwytho
     .tooltiptext = Ail-lwytho tudalen
@@ -63,6 +79,9 @@ content-tab-menu-reload-mac =
     .label = Ail-lwytho
     .tooltiptext = Ail-lwytho tudalen
     .accesskey = i
+
+# Stop
+
 content-tab-menu-stop =
     .aria-label = Atal
     .tooltiptext = Atal llwytho tudalen
@@ -90,6 +109,9 @@ open-tabs-warning-confirmation =
         [one] Efallai bydd agor { $count }neges yn araf. Parhau?
        *[other] Efallai bydd agor { $count }neges yn araf. Parhau?
     }
+
+## Sign-in window
+
 
 ## Toolbar
 
