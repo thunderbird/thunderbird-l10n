@@ -3,6 +3,19 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message files
+
+messenger-eml-files-filter = Файлы почты
+messenger-open-eml-file-title = Открыть сообщение
+# Keep the .eml extension and use an 8.3 file name.
+messenger-default-save-message-file-name = message.eml
+messenger-save-message-as = Сохранить сообщение как
+messenger-choose-folder = Выбор папки
+messenger-save-message-failed = Не удалось сохранить сообщение. Проверьте правильность написания имени файла, подождите некоторое время и попробуйте снова.
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = «{ $filename }» уже существует. Заменить его?
+
 ## Window controls
 
 messenger-window-minimize-button =
@@ -31,6 +44,9 @@ content-tab-security-high-icon =
     .alt = Защищённое соединение
 content-tab-security-broken-icon =
     .alt = Соединение не защищено
+
+# Back
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -41,6 +57,9 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Назад
     .accesskey = а
+
+# Forward
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -51,6 +70,9 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Вперёд
     .accesskey = е
+
+# Reload
+
 content-tab-menu-reload =
     .aria-label = Перезагрузить
     .tooltiptext = Перезагрузить страницу
@@ -60,6 +82,9 @@ content-tab-menu-reload-mac =
     .label = Перезагрузить
     .tooltiptext = Перезагрузить страницу
     .accesskey = з
+
+# Stop
+
 content-tab-menu-stop =
     .aria-label = Остановить
     .tooltiptext = Остановить загрузку страницы
@@ -87,6 +112,9 @@ open-tabs-warning-confirmation =
         [few] Открытие { $count } сообщений может быть медленным. Продолжить?
        *[many] Открытие { $count } сообщений может быть медленным. Продолжить?
     }
+
+## Sign-in window
+
 
 ## Toolbar
 
