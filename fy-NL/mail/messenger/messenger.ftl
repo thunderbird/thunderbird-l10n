@@ -5,8 +5,16 @@
 
 ## Message files
 
+messenger-eml-files-filter = E-mailbestannen
+messenger-open-eml-file-title = Berjocht iepenje
 # Keep the .eml extension and use an 8.3 file name.
 messenger-default-save-message-file-name = berjocht.eml
+messenger-save-message-as = Berjocht bewarje as
+messenger-choose-folder = Kies map
+messenger-save-message-failed = It is net slagge om it berjocht te bewarjen. Kontrolearje de bestânsnamme en probearje it letter nochris.
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = { $filename } bestiet al. Wolle jo it ferfange?
 
 ## Window controls
 
