@@ -3,6 +3,19 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message files
+
+messenger-eml-files-filter = ไฟล์จดหมาย
+messenger-open-eml-file-title = เปิดข้อความ
+# Keep the .eml extension and use an 8.3 file name.
+messenger-default-save-message-file-name = message.eml
+messenger-save-message-as = บันทึกข้อความเป็น
+messenger-choose-folder = เลือกโฟลเดอร์
+messenger-save-message-failed = ไม่สามารถบันทึกข้อความ โปรดตรวจสอบชื่อไฟล์ของคุณแล้วลองอีกครั้งในภายหลัง
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = { $filename } มีอยู่แล้ว คุณต้องการแทนที่หรือไม่?
+
 ## Window controls
 
 messenger-window-minimize-button =
@@ -26,6 +39,9 @@ content-tab-security-high-icon =
     .alt = การเชื่อมต่อปลอดภัย
 content-tab-security-broken-icon =
     .alt = การเชื่อมต่อไม่ปลอดภัย
+
+# Back
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -36,6 +52,9 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = ย้อนกลับ
     .accesskey = ย
+
+# Forward
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -46,6 +65,9 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = เดินหน้า
     .accesskey = ด
+
+# Reload
+
 content-tab-menu-reload =
     .aria-label = โหลดใหม่
     .tooltiptext = โหลดหน้าใหม่
@@ -55,6 +77,9 @@ content-tab-menu-reload-mac =
     .label = โหลดใหม่
     .tooltiptext = โหลดหน้าใหม่
     .accesskey = โ
+
+# Stop
+
 content-tab-menu-stop =
     .aria-label = หยุด
     .tooltiptext = หยุดโหลดหน้า
@@ -72,6 +97,9 @@ open-tabs-warning-confirmation-title = ยืนยัน
 # Variables:
 #   $count - number of messages to open
 open-tabs-warning-confirmation = การเปิด { $count } ข้อความอาจช้า ดำเนินการต่อหรือไม่?
+
+## Sign-in window
+
 
 ## Toolbar
 
@@ -610,6 +638,9 @@ prompt-dont-ask-again = ไม่ต้องถามอีก
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = การวิเคราะห์สแปมเสร็จสมบูรณ์ { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") }
 spam-processing-message = กำลังประมวลผลข้อความสแปม
+
+## Ignore threads
+
 
 ## Attachments
 
