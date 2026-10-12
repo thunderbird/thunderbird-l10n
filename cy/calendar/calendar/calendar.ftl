@@ -533,7 +533,7 @@ multiweek-view-week = W { $number }
 calendar-view-more-items =
     { $count ->
         [one] … a { $count } arall
-        [zero] … a { $count } arall
+        [zero] … a { $count } eraill
         [two] … a { $count } arall
         [few] … a { $count } arall
         [many] … a { $count } arall

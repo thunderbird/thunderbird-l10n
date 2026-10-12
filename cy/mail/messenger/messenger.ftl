@@ -108,11 +108,11 @@ open-tabs-warning-confirmation =
 
 # Shown when the provider's sign-in page cannot use cookies because they are
 # blocked.
-browser-request-cookies-blocked = Mae cwcis wedi'u rhwystro, a all atal mewngofnodi.
+browser-request-cookies-blocked = Mae cwcis wedi'u rhwystro, sy'n gallu atal mewngofnodi.
 # Turns cookies back on. Same action as the "Accept cookies from sites" option
 # in Settings, Privacy & Security.
 browser-request-cookies-accept =
-    .label = Derbyn Cwcis o Safleoedd
+    .label = Derbyn Cwcis o Wefannau
     .accesskey = D
 
 ## Toolbar

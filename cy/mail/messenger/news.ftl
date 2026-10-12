@@ -78,7 +78,7 @@ auto-subscribe-text = Hoffech chi danysgrifio i { $newsgroup }?
 
 # Variables:
 # $server (String) - The hostname:port of the news server, e.g. news.example.com:119.
-unknown-news-server-text = Mae'r ddolen hon yn pwyntio at { $server }, ond nid oes cyfrif wedi'i osod ar gyfer y gweinydd newyddion hwnnw. Cysylltu beth bynnag?
+unknown-news-server-text = Mae'r ddolen hon yn pwyntio at { $server }, ond does dim cyfrif wedi'i osod ar gyfer y gweinydd newyddion hwnnw. Cysylltu beth bynnag?
 
 ## News Server Credentials
 

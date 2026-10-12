@@ -107,7 +107,7 @@ calendar-items-loading = Wrthi'n llwytho eitemau…
 calendar-items-count =
     { $count ->
         [one] Mae'r ffeil yn cynnwys { $count } eitem.
-        [zero] Mae'r ffeil yn cynnwys { $count } eitem.
+        [zero] Mae'r ffeil yn cynnwys { $count } eitemau.
         [two] Mae'r ffeil yn cynnwys { $count } eitem.
         [few] Mae'r ffeil yn cynnwys { $count } eitem.
         [many] Mae'r ffeil yn cynnwys { $count } eitem.
@@ -127,7 +127,7 @@ calendar-items-column-start = Cychwyn
 calendar-items-column-end-a11y =
     .aria-label = Diwedd
 calendar-items-column-end = Diwedd
-    .title = Trefnu erbyn diwedd
+    .title = Trefnu yn ôl y diwedd
 # The column of checkboxes, to choose which items to import.
 calendar-items-column-import-a11y =
     .aria-label = Mewnforio

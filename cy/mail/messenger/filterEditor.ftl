@@ -200,7 +200,7 @@ filter-editor-missing-value-title = Gwerth Chwilio ar Goll
 # Variables:
 #   $attribute (String) - The search attribute name from the incomplete rule.
 #   $operator (String) - The search operator from the incomplete rule.
-filter-editor-missing-value-rule = Nid oes modd cadw'r hidlydd hwn oherwydd ni roddwyd gwerth ar gyfer y term chwilio "{ $attribute } { $operator }".
+filter-editor-missing-value-rule = Does dim modd cadw'r hidlydd hwn oherwydd doed dim gwerth wedi'i roi i'r term chwilio " { $attribute } { $operator } ".
 filter-editor-action-order-explanation = Pan fydd neges yn cydweddu'r hidl bydd gweithredoedd yn cael eu rhedeg yn y drefn yma:
 filter-editor-action-order-title = Trefn gweithredu go iawn
 # Variables:
