@@ -68,6 +68,12 @@ cancel-confirm = Czy na pewno wycofać tę wiadomość?
 # $newsgroup (String) - The name of the newsgroup.
 auto-subscribe-text = Czy subskrybować { $newsgroup }?
 
+## Unknown News Server Dialog
+
+# Variables:
+# $server (String) - The hostname:port of the news server, e.g. news.example.com:119.
+unknown-news-server-text = Ten odnośnik prowadzi do serwera { $server }, ale nie skonfigurowano dla niego konta grup dyskusyjnych. Czy połączyć mimo to?
+
 ## News Server Credentials
 
 enter-news-credentials-title = Wymagane hasło i nazwa użytkownika serwera grup dyskusyjnych

@@ -106,6 +106,11 @@ open-tabs-warning-confirmation =
 # Shown when the provider's sign-in page cannot use cookies because they are
 # blocked.
 browser-request-cookies-blocked = Ciasteczka są zablokowane, co może uniemożliwić logowanie.
+# Turns cookies back on. Same action as the "Accept cookies from sites" option
+# in Settings, Privacy & Security.
+browser-request-cookies-accept =
+    .label = Akceptowanie ciasteczek
+    .accesskey = c
 
 ## Toolbar
 

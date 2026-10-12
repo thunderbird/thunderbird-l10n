@@ -38,6 +38,7 @@ policy-DisableForgetButton = Wyłączenie dostępu do przycisku „Wyczyść”.
 policy-DisableFormHistory = Wyłączenie zachowywania historii wyszukiwania i formularzy.
 policy-DisableMasterPasswordCreation = Wartość „prawda” powoduje, że nie można utworzyć hasła głównego.
 policy-DisableMessageForwardingFilters = Uniemożliwienie filtrom wiadomości automatycznego przekazywania wiadomości.
+policy-DisablePasswordReveal2 = Wyłączenie możliwości wyświetlania haseł w zachowanych danych logowania lub w polach haseł.
 policy-DisablePasswordReveal = Wyłączenie możliwości wyświetlania haseł w zachowanych danych logowania.
 policy-DisableProfileImport = Wyłączenie polecenia menu do importowania danych z innego programu.
 policy-DisableExperimentalFeatures = Wyłącz funkcje eksperymentalne w programie Thunderbird.
