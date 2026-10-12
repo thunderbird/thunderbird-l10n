@@ -9,6 +9,12 @@ messenger-eml-files-filter = Poštne datoteke
 messenger-open-eml-file-title = Odpri sporočilo
 # Keep the .eml extension and use an 8.3 file name.
 messenger-default-save-message-file-name = sporočilo.eml
+messenger-save-message-as = Shrani sporočilo kot
+messenger-choose-folder = Izberite mapo
+messenger-save-message-failed = Sporočila ni mogoče shraniti. Preverite ime svoje datoteke in poskusite znova kasneje.
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = { $filename } že obstaja. Ali jo želite zamenjati?
 
 ## Window controls
 
