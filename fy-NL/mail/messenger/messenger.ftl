@@ -3,6 +3,11 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message files
+
+# Keep the .eml extension and use an 8.3 file name.
+messenger-default-save-message-file-name = berjocht.eml
+
 ## Window controls
 
 messenger-window-minimize-button =
@@ -30,6 +35,9 @@ content-tab-security-high-icon =
     .alt = De ferbining is befeilige
 content-tab-security-broken-icon =
     .alt = De ferbining is net befeilige
+
+# Back
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -40,6 +48,9 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Tebek
     .accesskey = T
+
+# Forward
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -50,6 +61,9 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Foarút
     .accesskey = F
+
+# Reload
+
 content-tab-menu-reload =
     .aria-label = Fernije
     .tooltiptext = Side fernije
@@ -59,6 +73,9 @@ content-tab-menu-reload-mac =
     .label = Fernije
     .tooltiptext = Side fernije
     .accesskey = n
+
+# Stop
+
 content-tab-menu-stop =
     .aria-label = Stopje
     .tooltiptext = Side laden stopje
@@ -84,6 +101,9 @@ open-tabs-warning-confirmation =
         [one] It iepenjen fan { $count } berjocht ferrint miskien stadich. Trochgean?
        *[other] It iepenjen fan { $count } berjochten ferrint miskien stadich. Trochgean?
     }
+
+## Sign-in window
+
 
 ## Toolbar
 
