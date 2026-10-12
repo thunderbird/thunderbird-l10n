@@ -5,6 +5,12 @@
 
 ## Message files
 
+messenger-eml-files-filter = Αρχεία email
+messenger-open-eml-file-title = Άνοιγμα μηνύματος
+# Keep the .eml extension and use an 8.3 file name.
+messenger-default-save-message-file-name = message.eml
+messenger-save-message-as = Αποθήκευση μηνύματος ως
+messenger-choose-folder = Επιλογή φακέλου
 messenger-save-message-failed = Δεν είναι δυνατή η αποθήκευση του μηνύματος. Ελέγξτε το όνομα του αρχείου και δοκιμάστε ξανά αργότερα.
 # Variables:
 # $filename (String) - Full path of the file that already exists.
