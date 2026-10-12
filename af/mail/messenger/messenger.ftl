@@ -5,6 +5,8 @@
 
 ## Message files
 
+messenger-eml-files-filter = Poslêers
+messenger-open-eml-file-title = Open boodskap
 # Keep the .eml extension and use an 8.3 file name.
 messenger-default-save-message-file-name = boodskap.eml
 messenger-save-message-as = Stoor boodskap as
