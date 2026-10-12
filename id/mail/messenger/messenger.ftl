@@ -3,6 +3,19 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message files
+
+messenger-eml-files-filter = Berkas email
+messenger-open-eml-file-title = Buka Pesan
+# Keep the .eml extension and use an 8.3 file name.
+messenger-default-save-message-file-name = message.eml
+messenger-save-message-as = Simpan Pesan Sebagai
+messenger-choose-folder = Pilih Folder
+messenger-save-message-failed = Gagal menyimpan pesan. Silakan periksa nama berkas Anda dan coba lagi.
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = { $filename } sudah ada sebelumnya. Ingin menimpa?
+
 ## Window controls
 
 messenger-window-minimize-button =
@@ -26,6 +39,9 @@ content-tab-security-high-icon =
     .alt = Sambungan aman
 content-tab-security-broken-icon =
     .alt = Sambungan tidak aman
+
+# Back
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -36,6 +52,9 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Mundur
     .accesskey = M
+
+# Forward
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -46,6 +65,9 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Maju
     .accesskey = u
+
+# Reload
+
 content-tab-menu-reload =
     .aria-label = Muat ulang
     .tooltiptext = Muat ulang laman
@@ -55,6 +77,9 @@ content-tab-menu-reload-mac =
     .label = Muat ulang
     .tooltiptext = Muat ulang laman
     .accesskey = g
+
+# Stop
+
 content-tab-menu-stop =
     .aria-label = Berhenti
     .tooltiptext = Hentikan pemuatan laman
@@ -72,6 +97,9 @@ open-tabs-warning-confirmation-title = Konfirmasi
 # Variables:
 #   $count - number of messages to open
 open-tabs-warning-confirmation = Membuka pesan { $count } mungkin lambat. Lanjutkan?
+
+## Sign-in window
+
 
 ## Toolbar
 
