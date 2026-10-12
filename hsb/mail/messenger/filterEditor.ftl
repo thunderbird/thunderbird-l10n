@@ -192,6 +192,11 @@ filter-editor-invalid-search-title = Pytanske wurazy njepłaćiwe
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
 filter-editor-invalid-search-rule = Tutón filter njeda so składować, dokelž pytanski wuraz "{ $attribute } { $operator }" je njepłaćiwy w aktualnym konteksće.
+filter-editor-missing-value-title = Pytanska hódnota faluje
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+filter-editor-missing-value-rule = Tutón filter njeda so składować, dokelž žana hódnota njeje so za pytanske zapřijeće „{ $attribute } { $operator }“ zapodała.
 filter-editor-action-order-explanation = Hdyž powěsć tutómu filtrej wotpowěduje, akcije přewjedu so po tutym porjedźe:
 filter-editor-action-order-title = Woprawdźity porjad akcijow
 # Variables:

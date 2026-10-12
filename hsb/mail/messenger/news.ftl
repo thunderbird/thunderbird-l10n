@@ -70,6 +70,12 @@ cancel-confirm = Chceće woprawdźe tutu powěsć přetorhnyć?
 # $newsgroup (String) - The name of the newsgroup.
 auto-subscribe-text = Chceće { $newsgroup } abonować?
 
+## Unknown News Server Dialog
+
+# Variables:
+# $server (String) - The hostname:port of the news server, e.g. news.example.com:119.
+unknown-news-server-text = Tutón wotkaz na { $server } wotkazuje, ale njeje žane konto za tón serwer powěsćow konfigurowało. Najebać toho zwjazać?
+
 ## News Server Credentials
 
 enter-news-credentials-title = Wužiwarske mjeno a hesło serwera diskusijnych skupinow trěbnej

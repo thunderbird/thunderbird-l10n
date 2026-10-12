@@ -119,6 +119,17 @@ calendar-items-column-title = Titul
 # The start date and time of each item.
 calendar-items-column-start-a11y =
     .aria-label = Start
+calendar-items-column-start = Start
+    .title = Po starće sortěrować
+# The end date and time of each item.
+calendar-items-column-end-a11y =
+    .aria-label = Kónc
+calendar-items-column-end = Kónc
+    .title = Po kóncu sortěrować
+# The column of checkboxes, to choose which items to import.
+calendar-items-column-import-a11y =
+    .aria-label = Importować
+calendar-items-column-import = Importować
 calendar-items-filter-input2 =
     .label = Zapiski filtrować
     .placeholder = Zapiski filtrować…
