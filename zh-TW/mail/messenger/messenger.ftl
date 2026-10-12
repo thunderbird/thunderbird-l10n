@@ -10,6 +10,11 @@ messenger-open-eml-file-title = 開啟郵件
 # Keep the .eml extension and use an 8.3 file name.
 messenger-default-save-message-file-name = message.eml
 messenger-save-message-as = 另存郵件
+messenger-choose-folder = 選擇信件匣
+messenger-save-message-failed = 無法儲存訊息，請檢查檔名是否正確後再試一次。
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = { $filename } 已存在。您要取代它嗎？
 
 ## Window controls
 
