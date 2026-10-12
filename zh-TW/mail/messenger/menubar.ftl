@@ -5,6 +5,7 @@
 toolbar-context-menu-menu-bar =
     .toolbarname = 選單列
     .accesskey = M
+system-tray-app-name = { -brand-full-name }
 
 ## Tools Menu
 
@@ -162,6 +163,9 @@ file-new-newsgroup-account =
 file-new-addressbook =
     .label = 通訊錄
     .accesskey = A
+file-new-mailing-list =
+    .label = 群組名單…
+    .accesskey = 群
 file-new-local-addressbook =
     .label = 本機通訊錄
     .accesskey = A

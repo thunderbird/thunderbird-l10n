@@ -188,6 +188,11 @@ filter-editor-invalid-search-title = Termes recherchés invalides
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
 filter-editor-invalid-search-rule = Ce filtre ne peut pas être enregistré car le terme recherché « { $attribute } { $operator } » est invalide dans le contexte actuel.
+filter-editor-missing-value-title = Valeur de recherche manquante
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+filter-editor-missing-value-rule = Ce filtre ne peut pas être enregistré car aucune valeur n’a été saisie pour le terme de recherche « { $attribute } { $operator } ».
 filter-editor-action-order-explanation = Lorsqu’un message correspond à ce filtre, les actions sont exécutées dans cet ordre :
 filter-editor-action-order-title = Ordre d’exécution des actions
 # Variables:

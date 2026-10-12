@@ -66,6 +66,12 @@ cancel-confirm = Voulez-vous vraiment annuler ce message ?
 # $newsgroup (String) - The name of the newsgroup.
 auto-subscribe-text = Voulez-vous vous abonner à { $newsgroup } ?
 
+## Unknown News Server Dialog
+
+# Variables:
+# $server (String) - The hostname:port of the news server, e.g. news.example.com:119.
+unknown-news-server-text = Ce lien pointe vers { $server }, mais aucun compte n’est configuré pour ce serveur de groupes. Se connecter quand même ?
+
 ## News Server Credentials
 
 enter-news-credentials-title = Un nom d’utilisateur et un mot de passe sont requis pour le serveur de groupes

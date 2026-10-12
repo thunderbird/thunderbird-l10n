@@ -38,6 +38,7 @@ policy-DisableForgetButton = Rhwystro mynediad at y botwm Anghofio.
 policy-DisableFormHistory = Peidio cofio chwilio a hanes ffurflenni.
 policy-DisableMasterPasswordCreation = Os true, nid oes modd creu prif gyfrinair.
 policy-DisableMessageForwardingFilters = Atal hidlwyr negeseuon rhag anfon negeseuon ymlaen yn awtomatig.
+policy-DisablePasswordReveal2 = Peidiwch gadael i gyfrineiriau gael eu gweld mewn meysydd mewngofnodi neu gyfrineiriau sydd wedi'u cadw.
 policy-DisablePasswordReveal = Peidio gadael i gyfrineiriau gael eu datgelu mewn mewngofnodion wedi'u cadw.
 policy-DisableProfileImport = Analluogi'r gorchymyn dewislen i Fewnforio data o raglen arall.
 policy-DisableExperimentalFeatures = Analluogi nodweddion arbrofol yn Thunderbird.

@@ -196,6 +196,11 @@ filter-editor-invalid-search-title = Termau Chwilio yn Annilys
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
 filter-editor-invalid-search-rule = Nid oes modd cadw'r hidl gan fod y term chwilio "{ $attribute } { $operator }" yn annilys yn y cyd-destun cyfredol.
+filter-editor-missing-value-title = Gwerth Chwilio ar Goll
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+filter-editor-missing-value-rule = Nid oes modd cadw'r hidlydd hwn oherwydd ni roddwyd gwerth ar gyfer y term chwilio "{ $attribute } { $operator }".
 filter-editor-action-order-explanation = Pan fydd neges yn cydweddu'r hidl bydd gweithredoedd yn cael eu rhedeg yn y drefn yma:
 filter-editor-action-order-title = Trefn gweithredu go iawn
 # Variables:

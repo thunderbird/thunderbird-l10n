@@ -5,6 +5,7 @@
 toolbar-context-menu-menu-bar =
     .toolbarname = Bar Dewislen
     .accesskey = D
+system-tray-app-name = { -brand-full-name }
 
 ## Tools Menu
 
@@ -162,6 +163,9 @@ file-new-newsgroup-account =
 file-new-addressbook =
     .label = Llyfr Cyfeiriadau
     .accesskey = L
+file-new-mailing-list =
+    .label = Rhestr E-bostio…
+    .accesskey = R
 file-new-local-addressbook =
     .label = Llyfrau Cyfeiriadau Lleol
     .accesskey = C

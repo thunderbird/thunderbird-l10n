@@ -74,6 +74,12 @@ cancel-confirm = Ydych chi'n siŵr eich bod am ddiddymu'r neges?
 # $newsgroup (String) - The name of the newsgroup.
 auto-subscribe-text = Hoffech chi danysgrifio i { $newsgroup }?
 
+## Unknown News Server Dialog
+
+# Variables:
+# $server (String) - The hostname:port of the news server, e.g. news.example.com:119.
+unknown-news-server-text = Mae'r ddolen hon yn pwyntio at { $server }, ond nid oes cyfrif wedi'i osod ar gyfer y gweinydd newyddion hwnnw. Cysylltu beth bynnag?
+
 ## News Server Credentials
 
 enter-news-credentials-title = Mae Angen Enw Defnyddiwr a Chyfrinair Gweinydd Newyddion

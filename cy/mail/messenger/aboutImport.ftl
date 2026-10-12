@@ -103,6 +103,35 @@ addr-book-summary-description = Bydd llyfr cyfeiriadau newydd o'r enw " { $addre
 import-from-calendar-file-desc = Dewiswch y ffeil iCalendar (.ics) yr hoffech ei mewnforio.
 calendar-items-title = Dewiswch pa eitemau i'w mewnforio.
 calendar-items-loading = Wrthi'n llwytho eitemau…
+# $count (Number) - The number of items in the calendar file.
+calendar-items-count =
+    { $count ->
+        [one] Mae'r ffeil yn cynnwys { $count } eitem.
+        [zero] Mae'r ffeil yn cynnwys { $count } eitem.
+        [two] Mae'r ffeil yn cynnwys { $count } eitem.
+        [few] Mae'r ffeil yn cynnwys { $count } eitem.
+        [many] Mae'r ffeil yn cynnwys { $count } eitem.
+       *[other] Mae'r ffeil yn cynnwys { $count } eitem.
+    }
+# Column headers of the list of calendar items to import.
+calendar-items-column-title-a11y =
+    .aria-label = Teitl
+calendar-items-column-title = Teitl
+    .title = Trefnu yn ôl teitl
+# The start date and time of each item.
+calendar-items-column-start-a11y =
+    .aria-label = Cychwyn
+calendar-items-column-start = Cychwyn
+    .title = Trefnu yn ôl y dechrau
+# The end date and time of each item.
+calendar-items-column-end-a11y =
+    .aria-label = Diwedd
+calendar-items-column-end = Diwedd
+    .title = Trefnu erbyn diwedd
+# The column of checkboxes, to choose which items to import.
+calendar-items-column-import-a11y =
+    .aria-label = Mewnforio
+calendar-items-column-import = Mewnforio
 calendar-items-filter-input2 =
     .label = Hidlo eitemau
     .placeholder = Hidlo eitemau…

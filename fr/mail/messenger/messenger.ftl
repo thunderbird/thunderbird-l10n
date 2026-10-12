@@ -98,6 +98,17 @@ open-tabs-warning-confirmation =
        *[other] L’ouverture de { $count } messages risque de prendre beaucoup de temps. Continuer ?
     }
 
+## Sign-in window
+
+# Shown when the provider's sign-in page cannot use cookies because they are
+# blocked.
+browser-request-cookies-blocked = Les cookies sont bloqués, ce qui peut empêcher la connexion.
+# Turns cookies back on. Same action as the "Accept cookies from sites" option
+# in Settings, Privacy & Security.
+browser-request-cookies-accept =
+    .label = Accepter les cookies
+    .accesskey = A
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =

@@ -38,6 +38,7 @@ policy-DisableForgetButton = 防止使用「忘記」功能。
 policy-DisableFormHistory = 不要記住搜尋與表單填寫紀錄。
 policy-DisableMasterPasswordCreation = 若為 true，將無法建立主控密碼。
 policy-DisableMessageForwardingFilters = 防止經由郵件篩選器自動轉寄。
+policy-DisablePasswordReveal2 = 不允許於儲存的登入資訊畫面或密碼欄位中，顯示密碼的明碼。
 policy-DisablePasswordReveal = 不允許於儲存的登入資訊畫面中顯示密碼。
 policy-DisableProfileImport = 停用自其他應用程式匯入資料的選單功能。
 policy-DisableExperimentalFeatures = 停用 Thunderbird 的實驗性功能。

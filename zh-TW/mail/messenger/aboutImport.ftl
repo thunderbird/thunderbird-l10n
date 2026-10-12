@@ -103,6 +103,30 @@ addr-book-summary-description = 將建立新的通訊錄「{ $addressBookName }�
 import-from-calendar-file-desc = 請選擇您要匯入的 iCalendar（.ics）檔案。
 calendar-items-title = 請選擇要匯入的項目。
 calendar-items-loading = 正在載入項目…
+# $count (Number) - The number of items in the calendar file.
+calendar-items-count =
+    { $count ->
+       *[other] 檔案包含 { $count } 項目。
+    }
+# Column headers of the list of calendar items to import.
+calendar-items-column-title-a11y =
+    .aria-label = 標題
+calendar-items-column-title = 標題
+    .title = 依照標題排序
+# The start date and time of each item.
+calendar-items-column-start-a11y =
+    .aria-label = 開始
+calendar-items-column-start = 開始
+    .title = 依照開始排序
+# The end date and time of each item.
+calendar-items-column-end-a11y =
+    .aria-label = 結束
+calendar-items-column-end = 結束
+    .title = 以結尾排序
+# The column of checkboxes, to choose which items to import.
+calendar-items-column-import-a11y =
+    .aria-label = 匯入
+calendar-items-column-import = 匯入
 calendar-items-filter-input2 =
     .label = 過濾項目
     .placeholder = 過濾項目…

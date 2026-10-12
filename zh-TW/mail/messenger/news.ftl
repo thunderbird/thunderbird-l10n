@@ -58,6 +58,12 @@ cancel-confirm = 您確定要取消這封郵件嗎？
 # $newsgroup (String) - The name of the newsgroup.
 auto-subscribe-text = 您想訂閱 { $newsgroup } 嗎？
 
+## Unknown News Server Dialog
+
+# Variables:
+# $server (String) - The hostname:port of the news server, e.g. news.example.com:119.
+unknown-news-server-text = 此鏈結指向 { $server }但該新聞伺服器並未設定帳號。還是要連線
+
 ## News Server Credentials
 
 enter-news-credentials-title = 需要輸入新聞群組伺服器的使用者名稱與密碼

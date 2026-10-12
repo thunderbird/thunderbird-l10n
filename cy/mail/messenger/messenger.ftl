@@ -104,6 +104,17 @@ open-tabs-warning-confirmation =
        *[other] Efallai bydd agor { $count }neges yn araf. Parhau?
     }
 
+## Sign-in window
+
+# Shown when the provider's sign-in page cannot use cookies because they are
+# blocked.
+browser-request-cookies-blocked = Mae cwcis wedi'u rhwystro, a all atal mewngofnodi.
+# Turns cookies back on. Same action as the "Accept cookies from sites" option
+# in Settings, Privacy & Security.
+browser-request-cookies-accept =
+    .label = Derbyn Cwcis o Safleoedd
+    .accesskey = D
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =

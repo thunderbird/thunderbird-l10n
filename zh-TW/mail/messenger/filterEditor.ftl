@@ -180,6 +180,11 @@ filter-editor-invalid-search-title = 無效搜尋條件
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
 filter-editor-invalid-search-rule = 因為所搜尋的詞彙「{ $attribute } { $operator }」在此環境中無效，無法儲存此篩選條件。
+filter-editor-missing-value-title = 缺少搜尋值
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+filter-editor-missing-value-rule = 因為並未輸入搜尋詞「{ $attribute } { $operator }」的值) 無法儲存此篩選條件。
 filter-editor-action-order-explanation = 當有訊息符合此篩選條件時，將依照此順序進行篩選:
 filter-editor-action-order-title = 實際執行順序
 # Variables:

@@ -103,6 +103,31 @@ addr-book-summary-description = Se creará una nueva libreta de direcciones llam
 import-from-calendar-file-desc = Seleccione el archivo iCalendar (.ics) que quiere importar.
 calendar-items-title = Seleccionar que elementos importar:
 calendar-items-loading = Cargando elementos…
+# $count (Number) - The number of items in the calendar file.
+calendar-items-count =
+    { $count ->
+        [one] El archivo contiene { $count } elemento.
+       *[other] El archivo contiene { $count } ítems.
+    }
+# Column headers of the list of calendar items to import.
+calendar-items-column-title-a11y =
+    .aria-label = Título
+calendar-items-column-title = Título
+    .title = Ordenar por título
+# The start date and time of each item.
+calendar-items-column-start-a11y =
+    .aria-label = Inicio
+calendar-items-column-start = Inicio
+    .title = Ordenar por inicio
+# The end date and time of each item.
+calendar-items-column-end-a11y =
+    .aria-label = Fin
+calendar-items-column-end = Fin
+    .title = Ordenar por fin
+# The column of checkboxes, to choose which items to import.
+calendar-items-column-import-a11y =
+    .aria-label = Importar
+calendar-items-column-import = Importar
 calendar-items-filter-input2 =
     .label = Filtrar ítems
     .placeholder = Filtrar ítems…

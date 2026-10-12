@@ -5,6 +5,7 @@
 toolbar-context-menu-menu-bar =
     .toolbarname = Barra dei menu
     .accesskey = B
+system-tray-app-name = { -brand-full-name }
 
 ## Tools Menu
 
@@ -146,6 +147,9 @@ file-new-newsgroup-account =
 file-new-addressbook =
     .label = Rubrica
     .accesskey = R
+file-new-mailing-list =
+    .label = Lista di distribuzione…
+    .accesskey = L
 file-new-local-addressbook =
     .label = Rubrica locale
     .accesskey = o
