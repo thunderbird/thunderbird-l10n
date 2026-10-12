@@ -38,6 +38,7 @@ policy-DisableForgetButton = Zugriff auf "Vergessen"-Schaltfläche verhindern
 policy-DisableFormHistory = Formular- und Suchchronik nicht speichern
 policy-DisableMasterPasswordCreation = Master-Passwort kann nicht erstellt werden, falls true
 policy-DisableMessageForwardingFilters = Nachrichtenfilter an der automatischen Weiterleitung von Nachrichten hindern
+policy-DisablePasswordReveal2 = Option zur Klartextanzeige von Passwörtern in gespeicherten Zugangsdaten oder Passwortfeldern deaktivieren
 policy-DisablePasswordReveal = Option zur Klartextanzeige von Passwörtern in gespeicherten Zugangsdaten deaktivieren
 policy-DisableProfileImport = Datenimport aus anderen Anwendungen (Menüeintrag) deaktivieren
 policy-DisableExperimentalFeatures = Experimentelle Funktionen in Thunderbird deaktivieren.

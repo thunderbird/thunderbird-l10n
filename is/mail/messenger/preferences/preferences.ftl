@@ -906,6 +906,7 @@ spam-log-button =
 reset-spam-button =
     .label = Endurstilla þjálfunargögn
     .accesskey = r
+scam-detection-description = { -brand-short-name } kannar skilaboð vegna tengla sem tengjast netveiðum og algengra merkja um tölvupóstsvik.
 scam-detection-label =
     .label = Vara við lestri tölvupósts sem lítur út eins og svindl
     .accesskey = t
@@ -920,6 +921,9 @@ certificate-choose-auto =
 certificate-ask-every =
     .label = Spyrja í hvert skipti
     .accesskey = a
+ocsp-check-label =
+    .label = Athuga staðfestingarþjóna skilríkja (OCSP) til að staðfesta að skilríkin séu enn rétt.
+    .accesskey = C
 junk-description = Stilla sjálfgefnar ruslpóstsstillingar. Stillingar fyrir ruslpóst fyrir ákveðinn reikning er hægt að stilla í stillingum reiknings.
 junk-marked-label =
     .label = Þegar skilaboð eru merkt sem rusl:
@@ -972,6 +976,7 @@ security-devices-button =
     .accesskey = g
 email-e2ee-header = Enda-í-enda dulritun tölvupósts
 account-settings = Stillingar reiknings
+email-e2ee-accounts-info = Aðeins þú og viðtakendur þínir geta lesið dulritða tölvupósta. Settu upp tölvupóstreikninga og auðkenni fyrir enda-í-enda dulritun í <a data-l10n-name="account-settings-url">stillingum reikninga</a>.
 email-e2ee-enable-accounts-info = Settu upp tölvupóstreikninga og auðkenni fyrir enda-í-enda dulritun í <a data-l10n-name="account-settings-url">stillingum reikninga</a>.
 email-e2ee-enable-info = Settu upp tölvupóstreikninga og auðkenni fyrir enda-til-enda dulritun í stillingum reikningsins.
 email-e2ee-automatism = Sjálfvirk notkun dulritunar
