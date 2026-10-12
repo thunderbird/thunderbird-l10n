@@ -11,6 +11,10 @@ messenger-open-eml-file-title = Powěsć wócyniś
 messenger-default-save-message-file-name = powěsć.eml
 messenger-save-message-as = Powěsć składowaś ako
 messenger-choose-folder = Zarědnik wubraś
+messenger-save-message-failed = Njejo móžno, powěsć składowaś. Pśekontrolěrujśo swójo datajowe mě a wopytajśo pózdźej hyšći raz.
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = { $filename } južo eksistěrujo. Cośo ju wuměniś?
 
 ## Window controls
 
