@@ -801,6 +801,7 @@ remote-content-label =
 exceptions-button =
     .label = Undanþágur…
     .accesskey = U
+remote-content-privacy-link = Hvernig fjartengt efni hefur áhrif á friðhelgi einkalífsins
 remote-content-info =
     .value = Frekari upplýsingar um friðhelgisvandamál í fjartengdu efni
 web-content = Vefur
@@ -817,6 +818,8 @@ third-party-always =
     .label = Alltaf
 third-party-never =
     .label = Aldrei
+third-party-visited-only =
+    .label = Aðeins frá heimsóttum vefsvæðum
 third-party-visited =
     .label = Frá heimsóttum síðum
 cookies-button =
@@ -833,6 +836,7 @@ global-privacy-control-description =
     .label = Segja vefsvæðum að selja ekki eða deila gögnunum mínum
     .accesskey = m
 do-not-track-removal = Við styðjum ekki lengur „Ekki rekja“ merkinguna
+passwords-registered-description = { -brand-short-name } getur vistað lykilorð fyrir skráða reikninga.
 view-saved-passwords-button =
     .label = Skoða vistuð lykilorð…
     .accesskey = S
@@ -881,6 +885,12 @@ spam-read-description = Merkja skilaboð sem lesin
 spam-marked-manually-label =
     .label = Þegar merkt er handvirkt
     .accesskey = m
+spam-detected-auto-label =
+    .label = Þegar { -brand-short-name } greinir það sjálfkrafa
+    .accesskey = g
+spam-log-keep-label =
+    .label = Halda skrá yfir sjálfvirka ruslpóstsgreiningu
+    .accesskey = H
 spam-read-manual-label =
     .label = Þegar merkt er handvirkt sem rusl
     .accesskey = m
@@ -1028,6 +1038,9 @@ preferences-doh-setting-enabled =
 preferences-doh-enabled-desc = Þú stjórnar hvenær á að nota öruggt DNS og velur þjónustuveituna þína.
 preferences-doh-enabled-detailed-desc-1 = Nota þjónustuveituna sem þú velur
 preferences-doh-enabled-detailed-desc-2 = Aðeins nota sjálfgefna DNS-leysarann þinn ef vandamál er með öruggu DNS-veituna
+preferences-doh-setting-maximum =
+    .label = Hámarksvernd
+    .accesskey = m
 preferences-doh-setting-strict =
     .label = Hámarksvernd
     .accesskey = m
@@ -1038,6 +1051,7 @@ preferences-doh-strict-detailed-desc-3 = Ef öruggt DNS er ekki tiltækt munu ve
 preferences-doh-setting-off =
     .label = Slökkt
     .accesskey = k
+preferences-doh-off-standard-desc = Notar venjulega internetþjónustu eða netkerfi til að leita að vefslóðum
 preferences-doh-off-desc = Nota sjálfgefna DNS-leysarann þinn
 preferences-doh-checkbox-warn =
     .label = Aðvörun ef utanaðkomandi aðili er virkur í að koma í veg fyrir öruggt DNS
@@ -1050,6 +1064,7 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = Sérsniðið
     .accesskey = n
+preferences-doh-secure-header = Öruggt DNS (DNS yfir HTTPS)
 
 ## Keyservers
 
@@ -1224,6 +1239,10 @@ qr-export-select-accounts = Veldu hvaða reikninga á að flytja út:
 qr-export-no-accounts = Sérðu ekki alla reikningana þína? Sumir reikningar gætu verið óvirkir vegna þess að þeir eru ekki studdir af { -brand-product-name } fyrir Android. <a data-l10n-name="account-support-link">Aðstoð</a>
 qr-export-accounts-legend = Tölvupóstsreikningar
 qr-export-select-all-accounts = Velja allt
+qr-export-passwords-legend = Lykilorð
+qr-export-include-passwords-label = Hafa lykilorð reikningsins með í QR-kóðanum
+qr-export-web-sign-in-note = <strong>Athugið:</strong> Aðgangur sem notar vefinnskráningu (eins og Gmail eða Yahoo) krefst aftur auðkenningar á tækinu þínu.
+qr-export-screen-privacy-tip = <strong>Ábending:</strong> Haltu skjánum þínum földum fyrir öðrum á meðan QR-kóðinn birtist.
 qr-export-security-legend = Öryggi
 qr-export-include-passwords = Hafa með öll lykilorð reikninga
 qr-export-oauth-warning = Sumir reikningar þínir nota auðkenningaraðferð sem gæti krafist endurvottunar á farsímanum þínum. Þú gætir þurft að setja aftur inn lykilorðin þín meðan á þessu ferli stendur.
@@ -1273,6 +1292,9 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Lykilorð fylgja með
 qr-export-summary-passwords-excluded = Lykilorð ekki með
 qr-export-more-accounts = Flytja út fleiri reikninga
+qr-export-pane-header-mobile = Flytja út í { -brand-product-name } fyrir farsíma
+qr-export-get-app-google-play = <a data-l10n-name="app-link">Sækja { -brand-product-name } á Google Play</a>
+qr-export-select-accounts-title = Veldu hvaða reikninga á að flytja út:
 
 ## Appearance Tab
 

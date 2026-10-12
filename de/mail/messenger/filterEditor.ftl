@@ -188,6 +188,11 @@ filter-editor-invalid-search-title = Suchbedingungen ungültig
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
 filter-editor-invalid-search-rule = Dieser Filter kann nicht gespeichert werden, da der Suchbegriff "{ $attribute } { $operator }" im aktuellen Kontext ungültig ist.
+filter-editor-missing-value-title = Suchwert fehlt
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+filter-editor-missing-value-rule = Dieser Filter kann nicht gespeichert werden, weil kein Wert für den Suchbegriff "{ $attribute } { $operator }" eingegeben wurde.
 filter-editor-action-order-explanation = Wenn eine Nachricht diesem Filter entspricht, werden die Aktionen in folgender Reihenfolge ausgeführt:
 filter-editor-action-order-title = Tatsächliche Ausführreihenfolge
 # Variables:

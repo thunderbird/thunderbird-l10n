@@ -103,6 +103,31 @@ addr-book-summary-description = Es wird ein neues Adressbuch mit dem Namen "{ $a
 import-from-calendar-file-desc = Zu importierende Kalenderdatei (.ics) auswählen
 calendar-items-title = Zu importierende Elemente auswählen
 calendar-items-loading = Elemente werden geladen…
+# $count (Number) - The number of items in the calendar file.
+calendar-items-count =
+    { $count ->
+        [one] Die Datei enthält { $count } Eintrag.
+       *[other] Die Datei enthält { $count } Einträge.
+    }
+# Column headers of the list of calendar items to import.
+calendar-items-column-title-a11y =
+    .aria-label = Titel
+calendar-items-column-title = Titel
+    .title = Nach Titel sortieren
+# The start date and time of each item.
+calendar-items-column-start-a11y =
+    .aria-label = Beginn
+calendar-items-column-start = Beginn
+    .title = Nach Beginn sortieren
+# The end date and time of each item.
+calendar-items-column-end-a11y =
+    .aria-label = Ende
+calendar-items-column-end = Ende
+    .title = Nach Ende sortieren
+# The column of checkboxes, to choose which items to import.
+calendar-items-column-import-a11y =
+    .aria-label = Importieren
+calendar-items-column-import = Importieren
 calendar-items-filter-input2 =
     .label = Elemente filtern
     .placeholder = Elemente filtern…

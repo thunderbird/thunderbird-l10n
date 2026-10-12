@@ -98,6 +98,12 @@ open-tabs-warning-confirmation =
        *[other] { $count } Nachrichten zu öffnen könnte lange dauern. Fortfahren?
     }
 
+## Sign-in window
+
+# Shown when the provider's sign-in page cannot use cookies because they are
+# blocked.
+browser-request-cookies-blocked = Cookies werden blockiert, was eine Anmeldung verhindern könnte.
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =

@@ -5,6 +5,7 @@
 toolbar-context-menu-menu-bar =
     .toolbarname = Menüleiste
     .accesskey = M
+system-tray-app-name = { -brand-full-name }
 
 ## Tools Menu
 
