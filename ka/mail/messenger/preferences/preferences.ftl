@@ -1271,6 +1271,8 @@ qr-export-select-all-accounts = ყველას მონიშვნა
 qr-export-passwords-legend = პაროლები
 qr-export-include-passwords-label = ანგარიშის პაროლების დართვა QR-კოდში
 qr-export-web-sign-in-note = <strong>გაითვალისწინეთ:</strong> ანგარიშები, რომლებიც შესასვლელად იყენებს ვებგვერდს (მაგალითად, Gmail და Yahoo), ხელახლა მოითხოვს შესვლის დამოწმებას თქვენს მოწყობილობაზე.
+qr-export-private-transfer-note = <strong>პირადი გადაცემა:</strong> თქვენი პარამეტრები და პაროლები პირდაპირ გადავა ამ კომპიუტერიდან თქვენს ტელეფონში. Mozilla-სერვერებზე არაფერი გაიგზავნება და არც შეინახება.
+qr-export-screen-privacy-tip = <strong>რჩევა:</strong> QR-კოდის გამოჩენისას დამალეთ ეკრანი უცხო თვალისგან.
 qr-export-security-legend = უსაფრთხოება
 qr-export-include-passwords = ყველა ანგარიშის პაროლის დართვა
 qr-export-oauth-warning = თქვენი ზოგიერთი ანგარიში შესვლისას იყენებს დამოწმების ხერხს, რომელმაც შესაძლოა მოითხოვოს ხელახალი დამოწმება თქვენს მობილურ მოწყობილობაზე. შეიძლება მოგიწიოთ პაროლის ხელმეორედ შეყვანა ასეთ შემთხვევაში.
@@ -1320,6 +1322,11 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = პაროლები დართულია
 qr-export-summary-passwords-excluded = პაროლები ამოკლებულია
 qr-export-more-accounts = სხვა ანგარიშების გატანა
+qr-export-pane-header-mobile = გადაიტანეთ { -brand-product-name } მობილურზე
+qr-export-description-email-accounts = გადაიტანეთ თქვენი ელფოსტის ანგარიშები, რომელთაც მიიღებს { -brand-product-name } თქვენს ტელეფონზე QR-კოდის მეშვეობით.
+qr-export-get-app-google-play = <a data-l10n-name="app-link">{ -brand-product-name } რომ გადმოწეროთ, იხილეთ Google Play</a>
+qr-export-select-accounts-title = ანგარიშების შერჩევა გადასატანად:
+qr-export-missing-accounts-support = აკლია რომელიმე ანგარიში? ანგარიშები, რომელთაც არ უჭერს მხარს { -brand-product-name } Android-ზე, ვერ აირჩევა. <a data-l10n-name="account-support-link">იხილეთ, რა სახის ანგარიშებია მხარდაჭერილი</a>
 
 ## Appearance Tab
 
