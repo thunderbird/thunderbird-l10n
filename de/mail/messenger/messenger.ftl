@@ -7,6 +7,12 @@
 
 # Keep the .eml extension and use an 8.3 file name.
 messenger-default-save-message-file-name = nachricht.eml
+messenger-save-message-as = Nachricht speichern unter
+messenger-choose-folder = Ordner wählen
+messenger-save-message-failed = Die Nachricht kann nicht gespeichert werden. Bitte überprüfen Sie den Dateinamen und versuchen Sie es später erneut.
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = { $filename } existiert bereits. Soll die Datei überschrieben werden?
 
 ## Window controls
 
