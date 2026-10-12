@@ -5,6 +5,8 @@
 
 ## Message files
 
+messenger-eml-files-filter = Poštne datoteke
+messenger-open-eml-file-title = Odpri sporočilo
 # Keep the .eml extension and use an 8.3 file name.
 messenger-default-save-message-file-name = sporočilo.eml
 
