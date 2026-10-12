@@ -188,6 +188,7 @@ filter-editor-invalid-search-title = Μη έγκυροι όροι αναζήτη
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
 filter-editor-invalid-search-rule = Δεν είναι δυνατή η αποθήκευση του φίλτρου επειδή οι όροι αναζήτησης «{ $attribute } { $operator }» δεν είναι έγκυροι στο παρόν πλαίσιο.
+filter-editor-missing-value-title = Απουσία τιμής αναζήτησης
 filter-editor-action-order-explanation = Όταν ένα μήνυμα ταιριάξει με το φίλτρο, οι ενέργειες θα εκτελεστούν με την ακόλουθη σειρά:
 filter-editor-action-order-title = Πραγματική σειρά ενεργειών
 # Variables:

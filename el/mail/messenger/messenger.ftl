@@ -98,6 +98,14 @@ open-tabs-warning-confirmation =
        *[other] Το άνοιγμα { $count } μηνυμάτων ενδέχεται να καθυστερήσει. Θέλετε να συνεχίσετε;
     }
 
+## Sign-in window
+
+# Turns cookies back on. Same action as the "Accept cookies from sites" option
+# in Settings, Privacy & Security.
+browser-request-cookies-accept =
+    .label = Αποδοχή cookie από ιστοτόπους
+    .accesskey = Α
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
