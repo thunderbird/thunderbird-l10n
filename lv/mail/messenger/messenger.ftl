@@ -3,6 +3,19 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message files
+
+messenger-eml-files-filter = Pasta datnes
+messenger-open-eml-file-title = Atvērt vēstuli
+# Keep the .eml extension and use an 8.3 file name.
+messenger-default-save-message-file-name = vēstule.eml
+messenger-save-message-as = Saglabāt vēstuli kā
+messenger-choose-folder = Izvēlieties mapi
+messenger-save-message-failed = Neizdevās saglabāt vēstuli. Lūdzu, pārbaudiet faila nosaukumu un mēģiniet vēlreiz.
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = { $filename } jau pastāv. Vai vēlaties to aizvietot?
+
 ## Window controls
 
 messenger-window-minimize-button =
@@ -29,6 +42,9 @@ content-tab-security-high-icon =
     .alt = Savienojums ir drošs
 content-tab-security-broken-icon =
     .alt = Savienojums nav drošs
+
+# Back
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -39,6 +55,9 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Atpakaļ
     .accesskey = A
+
+# Forward
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -49,6 +68,9 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Uz priekšu
     .accesskey = p
+
+# Reload
+
 content-tab-menu-reload =
     .aria-label = Pārlādēt
     .tooltiptext = Pārlādēt lapu
@@ -58,6 +80,9 @@ content-tab-menu-reload-mac =
     .label = Pārlādēt
     .tooltiptext = Pārlādēt lapu
     .accesskey = P
+
+# Stop
+
 content-tab-menu-stop =
     .aria-label = Apturēt
     .tooltiptext = Apturēt lapas ielādi
@@ -85,6 +110,9 @@ open-tabs-warning-confirmation =
         [one] { $count } vēstuļu atvēršana var būt lēna. Turpināt?
        *[other] { $count } vēstuļu atvēršana var būt lēna. Turpināt?
     }
+
+## Sign-in window
+
 
 ## Toolbar
 
@@ -319,6 +347,24 @@ context-menu-redirect-msg =
 context-menu-cancel-msg =
     .label = Atcelt ziņojumu
 
+## Message header pane
+
+
+## Message header customize panel
+
+
+## Action Button Context Menu
+
+
+## Add-on removal warning
+
+
+## no-reply handling
+
+
+## error messages
+
+
 ## Spaces toolbar
 
 spaces-toolbar-element =
@@ -348,12 +394,33 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
+## OpenPGP
+
+
+## Quota panel.
+
+
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
 
 ## Message list.
 
@@ -386,6 +453,15 @@ message-group-starred = Zvaigžņotas
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = un citi.
+
+## Prompts
+
+
+## Spam commands
+
+
+## Ignore threads
+
 
 ## Attachments
 

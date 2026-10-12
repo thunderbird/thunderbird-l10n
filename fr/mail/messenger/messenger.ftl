@@ -3,6 +3,19 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message files
+
+messenger-eml-files-filter = Fichiers de message
+messenger-open-eml-file-title = Ouvrir le message
+# Keep the .eml extension and use an 8.3 file name.
+messenger-default-save-message-file-name = message.eml
+messenger-save-message-as = Enregistrer le message sous
+messenger-choose-folder = Choisir un dossier
+messenger-save-message-failed = Impossible d’enregistrer le message. Veuillez vérifier le nom du fichier et essayer à nouveau.
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = { $filename } existe déjà. Voulez-vous le remplacer ?
+
 ## Window controls
 
 messenger-window-minimize-button =
@@ -30,6 +43,9 @@ content-tab-security-high-icon =
     .alt = La connexion est sécurisée
 content-tab-security-broken-icon =
     .alt = La connexion n’est pas sécurisée
+
+# Back
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -40,6 +56,9 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Page précédente
     .accesskey = P
+
+# Forward
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -50,6 +69,9 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Page suivante
     .accesskey = s
+
+# Reload
+
 content-tab-menu-reload =
     .aria-label = Actualiser
     .tooltiptext = Actualiser la page
@@ -59,6 +81,9 @@ content-tab-menu-reload-mac =
     .label = Actualiser
     .tooltiptext = Actualiser la page
     .accesskey = A
+
+# Stop
+
 content-tab-menu-stop =
     .aria-label = Arrêter
     .tooltiptext = Arrêter le chargement de la page
@@ -84,6 +109,9 @@ open-tabs-warning-confirmation =
         [one] L’ouverture de ce message risque de prendre beaucoup de temps. Continuer ?
        *[other] L’ouverture de { $count } messages risque de prendre beaucoup de temps. Continuer ?
     }
+
+## Sign-in window
+
 
 ## Toolbar
 

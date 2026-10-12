@@ -3,6 +3,19 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message files
+
+messenger-eml-files-filter = Soubory s poštou
+messenger-open-eml-file-title = Otevřít zprávu
+# Keep the .eml extension and use an 8.3 file name.
+messenger-default-save-message-file-name = zprava.eml
+messenger-save-message-as = Uložit zprávu jako
+messenger-choose-folder = Vybrat složku
+messenger-save-message-failed = Nelze uložit zprávu. Zkontrolujte prosím název souboru a zkuste to znovu.
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = { $filename } už existuje. Chcete ho nahradit?
+
 ## Window controls
 
 messenger-window-minimize-button =
@@ -31,6 +44,9 @@ content-tab-security-high-icon =
     .alt = Spojení je zabezpečené
 content-tab-security-broken-icon =
     .alt = Spojení není zabezepečené
+
+# Back
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -41,6 +57,9 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Zpět
     .accesskey = Z
+
+# Forward
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -51,6 +70,9 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Vpřed
     .accesskey = V
+
+# Reload
+
 content-tab-menu-reload =
     .aria-label = Znovu načíst
     .tooltiptext = Znovu načte stránku
@@ -60,6 +82,9 @@ content-tab-menu-reload-mac =
     .label = Znovu načíst
     .tooltiptext = Znovu načte stránku
     .accesskey = n
+
+# Stop
+
 content-tab-menu-stop =
     .aria-label = Zastavit
     .tooltiptext = Zastaví načítání stránky
@@ -87,6 +112,9 @@ open-tabs-warning-confirmation =
         [few] Otevření { $count } zpráv může být pomalé. Chcete pokračovat?
        *[other] Otevření { $count } zpráv může být pomalé. Chcete pokračovat?
     }
+
+## Sign-in window
+
 
 ## Toolbar
 

@@ -3,6 +3,19 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message files
+
+messenger-eml-files-filter = Levélfájlok
+messenger-open-eml-file-title = Levél megnyitása
+# Keep the .eml extension and use an 8.3 file name.
+messenger-default-save-message-file-name = message.eml
+messenger-save-message-as = Üzenet mentése mint
+messenger-choose-folder = Válasszon mappát
+messenger-save-message-failed = Nem lehetett a levelet menteni. Ellenőrizze a fájl nevét majd próbálja újra!
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = { $filename } már létezik. Felülírja?
+
 ## Window controls
 
 messenger-window-minimize-button =
@@ -30,6 +43,9 @@ content-tab-security-high-icon =
     .alt = A kapcsolat biztonságos
 content-tab-security-broken-icon =
     .alt = A kapcsolat nem biztonságos
+
+# Back
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -40,6 +56,9 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Vissza
     .accesskey = V
+
+# Forward
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -50,6 +69,9 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Előre
     .accesskey = E
+
+# Reload
+
 content-tab-menu-reload =
     .aria-label = Újratöltés
     .tooltiptext = Oldal újratöltése
@@ -59,6 +81,9 @@ content-tab-menu-reload-mac =
     .label = Újratöltés
     .tooltiptext = Oldal újratöltése
     .accesskey = r
+
+# Stop
+
 content-tab-menu-stop =
     .aria-label = Leállítás
     .tooltiptext = Oldalbetöltés leállítása
@@ -84,6 +109,9 @@ open-tabs-warning-confirmation =
         [one] { $count } üzenet megnyitása lassú lehet. Folytatja?
        *[other] { $count } üzenet megnyitása lassú lehet. Folytatja?
     }
+
+## Sign-in window
+
 
 ## Toolbar
 

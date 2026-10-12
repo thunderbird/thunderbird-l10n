@@ -3,6 +3,19 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message files
+
+messenger-eml-files-filter = Файли пошти
+messenger-open-eml-file-title = Відкрити повідомлення
+# Keep the .eml extension and use an 8.3 file name.
+messenger-default-save-message-file-name = лист.eml
+messenger-save-message-as = Зберегти повідомлення як
+messenger-choose-folder = Вибрати теку
+messenger-save-message-failed = Неможливо зберегти повідомлення. Перевірте правильність написання назви файлу, почекайте якийсь час і спробуйте знову.
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = { $filename } вже існує. Замінити його?
+
 ## Window controls
 
 messenger-window-minimize-button =
@@ -31,6 +44,9 @@ content-tab-security-high-icon =
     .alt = З’єднання захищене
 content-tab-security-broken-icon =
     .alt = З’єднання не захищене
+
+# Back
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -41,6 +57,9 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Назад
     .accesskey = Н
+
+# Forward
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -51,6 +70,9 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Уперед
     .accesskey = У
+
+# Reload
+
 content-tab-menu-reload =
     .aria-label = Перезавантажити
     .tooltiptext = Перезавантажити сторінку
@@ -60,6 +82,9 @@ content-tab-menu-reload-mac =
     .label = Перезавантажити
     .tooltiptext = Перезавантажити сторінку
     .accesskey = П
+
+# Stop
+
 content-tab-menu-stop =
     .aria-label = Зупинити
     .tooltiptext = Зупинити завантаження сторінки
@@ -87,6 +112,9 @@ open-tabs-warning-confirmation =
         [few] Відкриття { $count } повідомлень може бути повільним. Продовжити?
        *[many] Відкриття { $count } повідомлень може бути повільним. Продовжити?
     }
+
+## Sign-in window
+
 
 ## Toolbar
 
@@ -135,6 +163,9 @@ show-tags-folders-label =
 folder-toolbar-toggle-folder-compact-view =
     .label = Компактне подання
     .accesskey = К
+
+## Folder names
+
 
 ## File Menu
 
@@ -528,12 +559,24 @@ openpgp-forget = Забути парольні фрази OpenPGP
 quota-panel-percent-used = { $percent }% заповнено
     .title = Квота IMAP: Усього використано { $usage } з { $limit }
 
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
 
 ## Actions for the New Mail Notification
 
@@ -573,6 +616,15 @@ message-group-starred = З зіркою
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = та ін.
+
+## Prompts
+
+
+## Spam commands
+
+
+## Ignore threads
+
 
 ## Attachments
 

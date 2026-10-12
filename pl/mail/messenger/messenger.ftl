@@ -3,6 +3,19 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message files
+
+messenger-eml-files-filter = Pliki poczty
+messenger-open-eml-file-title = Otwórz wiadomość
+# Keep the .eml extension and use an 8.3 file name.
+messenger-default-save-message-file-name = wiadomość.eml
+messenger-save-message-as = Zapisz wiadomość jako
+messenger-choose-folder = Wybierz folder
+messenger-save-message-failed = Wiadomość nie może zostać zapisana. Należy sprawdzić nazwę pliku, a następnie spróbować ponownie.
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = Plik { $filename } już istnieje. Czy na pewno zastąpić istniejący plik?
+
 ## Window controls
 
 messenger-window-minimize-button =
@@ -31,6 +44,9 @@ content-tab-security-high-icon =
     .alt = Połączenie jest zabezpieczone
 content-tab-security-broken-icon =
     .alt = Połączenie nie jest zabezpieczone
+
+# Back
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -41,6 +57,9 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Wstecz
     .accesskey = W
+
+# Forward
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -51,6 +70,9 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Do przodu
     .accesskey = D
+
+# Reload
+
 content-tab-menu-reload =
     .aria-label = Odśwież
     .tooltiptext = Odśwież stronę
@@ -60,6 +82,9 @@ content-tab-menu-reload-mac =
     .label = Odśwież
     .tooltiptext = Odśwież stronę
     .accesskey = O
+
+# Stop
+
 content-tab-menu-stop =
     .aria-label = Zatrzymaj
     .tooltiptext = Zatrzymaj wczytywanie strony
@@ -87,6 +112,9 @@ open-tabs-warning-confirmation =
         [few] Otworzenie { $count } wiadomości może trochę potrwać. Kontynuować?
        *[many] Otworzenie { $count } wiadomości może trochę potrwać. Kontynuować?
     }
+
+## Sign-in window
+
 
 ## Toolbar
 

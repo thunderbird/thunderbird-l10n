@@ -3,6 +3,19 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message files
+
+messenger-eml-files-filter = Faidhlichean puist
+messenger-open-eml-file-title = Fosgail an teachdaireachd
+# Keep the .eml extension and use an 8.3 file name.
+messenger-default-save-message-file-name = teachdaireachd.eml
+messenger-save-message-as = Sàbhail an teachdaireachd mar
+messenger-choose-folder = Tagh am pasgan seo
+messenger-save-message-failed = Cha ghabh an teachdaireachd a shàbhaladh. Cuir sùil air ainm an fhaidhle is feuch ris a-rithist an ceann tamaill.
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = Tha { $filename } ann mu thràth. A bheil thu airson a chur 'na àite?
+
 ## Window controls
 
 messenger-window-minimize-button =
@@ -32,6 +45,9 @@ content-tab-security-high-icon =
     .alt = Tha an ceangal tèarainte
 content-tab-security-broken-icon =
     .alt = Chan eil an ceangal tèarainte
+
+# Back
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -42,6 +58,9 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Air ais
     .accesskey = r
+
+# Forward
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -52,6 +71,9 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Air adhart
     .accesskey = A
+
+# Reload
+
 content-tab-menu-reload =
     .aria-label = Ath-luchdaich
     .tooltiptext = Ath-luchdaich an duilleag
@@ -61,6 +83,9 @@ content-tab-menu-reload-mac =
     .label = Ath-luchdaich
     .tooltiptext = Ath-luchdaich an duilleag
     .accesskey = h
+
+# Stop
+
 content-tab-menu-stop =
     .aria-label = Sguir dheth
     .tooltiptext = Sguir de luchdadh na duilleige
@@ -90,6 +115,9 @@ open-tabs-warning-confirmation =
         [few] Faodaidh gum bi e slaodadh ma dh'fhosglas tu { $count } teachdaireachdan. A bheil thu airson leantainn air adhart?
        *[other] Faodaidh gum bi e slaodadh ma dh'fhosglas tu { $count } teachdaireachd. A bheil thu airson leantainn air adhart?
     }
+
+## Sign-in window
+
 
 ## Toolbar
 
@@ -138,6 +166,9 @@ show-tags-folders-label =
 folder-toolbar-toggle-folder-compact-view =
     .label = Sealladh dùmhail
     .accesskey = S
+
+## Folder names
+
 
 ## File Menu
 
@@ -323,6 +354,9 @@ no-reply-title = Chan eil taic ri freagairtean
 no-reply-message = Tha coltas nach eil duine sam bith a’ cumail sùil air an t-seòladh airson freagairtean, { $email }, agus tha e cha mhòr cinnteach nach leugh duine sam bith teachdaireachdan a chuirear gun t-seòladh seo.
 no-reply-reply-anyway-button = Cuir an fhreagairt co-dhiù
 
+## error messages
+
+
 ## Spaces toolbar
 
 spaces-toolbar-element =
@@ -434,12 +468,27 @@ openpgp-forget = Dìochuimhnich abairtean-faire OpenPGP
 quota-panel-percent-used = { $percent }% làn
     .title = Cuòta IMAP: { $usage } à { $limit } air a chleachdadh uile gu lèir
 
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
 
 ## Message list.
 
@@ -473,6 +522,15 @@ message-group-starred = Le rionnag ris
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = et al.
+
+## Prompts
+
+
+## Spam commands
+
+
+## Ignore threads
+
 
 ## Attachments
 

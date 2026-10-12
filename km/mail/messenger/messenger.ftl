@@ -3,7 +3,35 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message files
+
+messenger-eml-files-filter = ឯកសារ​អ៊ីមែល
+messenger-open-eml-file-title = បើក​សារ
+# Keep the .eml extension and use an 8.3 file name.
+messenger-default-save-message-file-name = message.eml
+messenger-save-message-as = រក្សាទុក​សារ​ជា
+messenger-choose-folder = ជ្រើស​ថត
+messenger-save-message-failed = មិន​អាច​រក្សាទុក​សារ។ សូម​ពិនិត្យមើល​ឈ្មោះ​ឯកសារ​របស់​អ្នក ហើយ​ព្យាយាម​ម្ដងទៀត​ពេលក្រោយ។
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = { $filename } មាន​រួច​ហើយ។ តើ​អ្នក​ចង់​ជំនួស​វា​ឬ?
+
+## Window controls
+
+
 ## Content tabs
+
+
+# Back
+
+
+# Forward
+
+
+# Reload
+
+
+# Stop
 
 open-windows-warning-confirmation-title = បញ្ជាក់
 # Variables:
@@ -14,11 +42,23 @@ open-tabs-warning-confirmation-title = បញ្ជាក់
 #   $count - number of messages to open
 open-tabs-warning-confirmation = ការ​បើក​សារ { $count } អាច​យឺត។ បន្ត? ការ​បើក​សារ { $count } អាច​យឺត។ បន្ត?
 
+## Sign-in window
+
+
+## Toolbar
+
+
+## Folder Pane
+
+
 ## Folder Toolbar Header Popup
 
 show-tags-folders-label =
     .label = Պիտակներ
     .accesskey = T
+
+## Folder names
+
 
 ## File Menu
 
@@ -59,6 +99,9 @@ menu-edit-newsgroup-properties =
     .label = លក្ខណសម្បត្តិ​វេទិកា​ព័ត៌មាន…
     .accesskey = o
 
+## Message Menu
+
+
 ## Shared Menu Items
 
 menu-move-again =
@@ -84,6 +127,9 @@ menu-copy-to =
     .label = Պատճենել՝
     .accesskey = C
 
+## AppMenu
+
+
 ## Context menu
 
 mail-context-menu-forward-forward =
@@ -106,6 +152,27 @@ message-header-undelete =
 message-header-recipient-avatar =
     .alt = រូបភាពប្រវត្តិរូបរបស់ { $address }។
 
+## Message header customize panel
+
+
+## Action Button Context Menu
+
+
+## Add-on removal warning
+
+
+## no-reply handling
+
+
+## error messages
+
+
+## Spaces toolbar
+
+
+## Spaces toolbar pinned tab menupopup
+
+
 ## Spaces toolbar customize panel
 
 spaces-customize-icon-color = ពណ៌ប៊ូតុង
@@ -124,6 +191,15 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
+## OpenPGP
+
+
+## Quota panel.
+
+
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
@@ -133,6 +209,15 @@ mark-not-junk-key =
 menu-delete-spam =
     .label = លុបសារ ដែលបានសម្គាល់ថា ជាសារឥតបានការនៅក្នុងថតឯកសារ
     .accesskey = D
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
 
 ## Actions for the New Mail Notification
 
@@ -170,11 +255,20 @@ message-group-starred = បាន​ដាក់​ផ្កាយ
 # $folder (String) - The name of the selected folder.
 prompt-empty-folder-message = លុបសារ និងថតឯកសាររងទាំងអស់នៅក្នុងថត { $folder }?
 
+## Spam commands
+
+
+## Ignore threads
+
+
 ## Attachments
 
 # Variables:
 #    $count - the number of attachments
 attachment-view-attachment-count = ឯកសារ​ភ្ជាប់ { $count }
+
+## Remote content blocking
+
 
 ## Tags
 

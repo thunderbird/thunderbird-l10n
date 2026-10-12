@@ -3,7 +3,35 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message files
+
+messenger-eml-files-filter = Mail Files
+messenger-open-eml-file-title = Open Message
+# Keep the .eml extension and use an 8.3 file name.
+messenger-default-save-message-file-name = message.eml
+messenger-save-message-as = Save Message As
+messenger-choose-folder = Choose Folder
+messenger-save-message-failed = Unable to save the message. Please check your file name and try again later.
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = { $filename } already exists. Do you want to replace it?
+
+## Window controls
+
+
 ## Content tabs
+
+
+# Back
+
+
+# Forward
+
+
+# Reload
+
+
+# Stop
 
 open-windows-warning-confirmation-title = Confirm
 # Variables:
@@ -22,11 +50,23 @@ open-tabs-warning-confirmation =
        *[other] Opening { $count } messages may be slow. Continue?
     }
 
+## Sign-in window
+
+
+## Toolbar
+
+
+## Folder Pane
+
+
 ## Folder Toolbar Header Popup
 
 show-tags-folders-label =
     .label = ਟੈਗ
     .accesskey = T
+
+## Folder names
+
 
 ## File Menu
 
@@ -71,6 +111,9 @@ menu-edit-newsgroup-properties =
     .label = Newsgroup Properties
     .accesskey = o
 
+## Message Menu
+
+
 ## Shared Menu Items
 
 menu-move-again =
@@ -96,11 +139,41 @@ menu-copy-to =
     .label = Copy To
     .accesskey = C
 
+## AppMenu
+
+
 ## Context menu
 
 mail-context-menu-forward-forward =
     .label = Forward
     .accesskey = F
+
+## Message header pane
+
+
+## Message header customize panel
+
+
+## Action Button Context Menu
+
+
+## Add-on removal warning
+
+
+## no-reply handling
+
+
+## error messages
+
+
+## Spaces toolbar
+
+
+## Spaces toolbar pinned tab menupopup
+
+
+## Spaces toolbar customize panel
+
 
 ## Quick Filter Bar
 
@@ -114,12 +187,33 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
+## OpenPGP
+
+
+## Quota panel.
+
+
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
 
 ## Message list.
 
@@ -147,6 +241,15 @@ message-group-attachments = Attachments
 message-group-not-starred = Not Starred
 message-group-starred = Starred
 
+## Prompts
+
+
+## Spam commands
+
+
+## Ignore threads
+
+
 ## Attachments
 
 # Variables:
@@ -156,6 +259,9 @@ attachment-view-attachment-count =
         [one] { $count } attachment
        *[other] { $count } attachments
     }
+
+## Remote content blocking
+
 
 ## Tags
 

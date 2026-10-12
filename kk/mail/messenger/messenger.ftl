@@ -3,6 +3,19 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message files
+
+messenger-eml-files-filter = Файлдарды поштамен жіберу
+messenger-open-eml-file-title = Хатты ашу
+# Keep the .eml extension and use an 8.3 file name.
+messenger-default-save-message-file-name = хабарлама.eml
+messenger-save-message-as = Хабарламаны қалайша сақтау
+messenger-choose-folder = Буманы таңдау
+messenger-save-message-failed = Хабарламаны сақтау мүмкін емес. Файл атын тексеріп, кейінірек қайталап көріңіз.
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = { $filename } бар болып тұр. Оны алмастыру керек пе?
+
 ## Window controls
 
 messenger-window-minimize-button =
@@ -29,6 +42,9 @@ content-tab-security-high-icon =
     .alt = Байланыс қауіпсіз
 content-tab-security-broken-icon =
     .alt = Байланыс қауіпсіз емес
+
+# Back
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -39,6 +55,9 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Артқа
     .accesskey = р
+
+# Forward
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -49,6 +68,9 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Алға
     .accesskey = л
+
+# Reload
+
 content-tab-menu-reload =
     .aria-label = Қайта жүктеу
     .tooltiptext = Парақты қайта жүктеу
@@ -58,6 +80,9 @@ content-tab-menu-reload-mac =
     .label = Қайта жүктеу
     .tooltiptext = Парақты қайта жүктеу
     .accesskey = й
+
+# Stop
+
 content-tab-menu-stop =
     .aria-label = Тоқтату
     .tooltiptext = Парақ жүктелуін тоқтату
@@ -83,6 +108,9 @@ open-tabs-warning-confirmation =
         [one] { $count } хабарламаны ашу баяу болуы мүмкін. Жалғастыру керек пе?
        *[other] { $count } хабарламаны ашу баяу болуы мүмкін. Жалғастыру керек пе?
     }
+
+## Sign-in window
+
 
 ## Toolbar
 

@@ -3,6 +3,19 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message files
+
+messenger-eml-files-filter = Pašto failai
+messenger-open-eml-file-title = Atverti laišką
+# Keep the .eml extension and use an 8.3 file name.
+messenger-default-save-message-file-name = laiškas.eml
+messenger-save-message-as = Laiško įrašymas kaip
+messenger-choose-folder = Parinkite aplanką
+messenger-save-message-failed = Negalima įrašyti laiško. Patikrinkite failo vardą ir bandykite dar kartą.
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = Failas { $filename } jau yra. Ar pakeisti?
+
 ## Window controls
 
 messenger-window-close-button =
@@ -18,6 +31,18 @@ unread-messages-os-tooltip =
 about-rights-notification-text = „{ -brand-short-name }“ yra nemokama ir atvirojo kodo programinė įranga, sukurta pasaulio bendruomenės.
 
 ## Content tabs
+
+
+# Back
+
+
+# Forward
+
+
+# Reload
+
+
+# Stop
 
 open-windows-warning-confirmation-title = Patvirtinimas
 # Variables:
@@ -37,6 +62,9 @@ open-tabs-warning-confirmation =
         [few] { $count } laiškų atvėrimas gali ilgai užtrukti. Ar tęsti?
        *[other] { $count } laiškų atvėrimas gali ilgai užtrukti. Ar tęsti?
     }
+
+## Sign-in window
+
 
 ## Toolbar
 
@@ -82,6 +110,9 @@ show-tags-folders-label =
 folder-toolbar-toggle-folder-compact-view =
     .label = Kompaktiškas vaizdas
     .accesskey = K
+
+## Folder names
+
 
 ## File Menu
 
@@ -246,6 +277,9 @@ mail-context-messages-delete =
 other-action-redirect-msg =
     .label = Peradresuoti
 
+## Message header customize panel
+
+
 ## Action Button Context Menu
 
 toolbar-context-menu-manage-extension =
@@ -265,6 +299,12 @@ addon-removal-confirmation-button = Pašalinti
 #  $name (String): The name of the add-on that will be removed.
 addon-removal-confirmation-message = Pašalinti „{ $name }“ ir jo konfigūraciją bei duomenis iš „{ -brand-short-name }“?
 
+## no-reply handling
+
+
+## error messages
+
+
 ## Spaces toolbar
 
 spaces-toolbar-button-settings2 =
@@ -273,6 +313,12 @@ settings-context-open-settings-item2 =
     .label = Nuostatos
 settings-context-open-account-settings-item2 =
     .label = Paskyros nuostatos
+
+## Spaces toolbar pinned tab menupopup
+
+
+## Spaces toolbar customize panel
+
 
 ## Quick Filter Bar
 
@@ -286,12 +332,33 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
+## OpenPGP
+
+
+## Quota panel.
+
+
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
 
 ## Message list.
 
@@ -325,6 +392,15 @@ message-group-starred = Pažymėti žvaigždute
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = et al.
+
+## Prompts
+
+
+## Spam commands
+
+
+## Ignore threads
+
 
 ## Attachments
 

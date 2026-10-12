@@ -3,6 +3,19 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message files
+
+messenger-eml-files-filter = Փոստի նիշք
+messenger-open-eml-file-title = Բացել հաղորդագրութիւնը
+# Keep the .eml extension and use an 8.3 file name.
+messenger-default-save-message-file-name = հաղորդագրութիւն.eml
+messenger-save-message-as = Պահպանել հաղորդագրութիւնը որպէս՝
+messenger-choose-folder = Ընտրել պանակը
+messenger-save-message-failed = Անհնար է պահպանել հաղորդագրութիւնները։ Ստուգէ՛ք Ձեր նիշի անունը եւ կրկին փորձէք։
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = { $filename } արդէն գոյութիւն ունի։ Դուք ցանկանու՞մ եք փոխարինել այն։
+
 ## Window controls
 
 messenger-window-minimize-button =
@@ -30,6 +43,18 @@ content-tab-security-high-icon =
     .alt = Կապն ապահով է
 content-tab-security-broken-icon =
     .alt = Կապն ապահով չէ
+
+# Back
+
+
+# Forward
+
+
+# Reload
+
+
+# Stop
+
 open-windows-warning-confirmation-title = Հաստատել
 # Variables:
 #   $count - number of messages to open
@@ -46,6 +71,9 @@ open-tabs-warning-confirmation =
         [one] { $count } հաղորդագրութեան բացումը հաւանաբար դանդաղ կը տեւի: Շարունակե՞լ
        *[other] { $count } հաղոորդագրութիւնների բացումը հաւանաբար երկար կը տեւի: Շարունակե՞լ:
     }
+
+## Sign-in window
+
 
 ## Toolbar
 
@@ -94,6 +122,9 @@ show-tags-folders-label =
 folder-toolbar-toggle-folder-compact-view =
     .label = Ամփոփ տեսք
     .accesskey = Ա
+
+## Folder names
+
 
 ## File Menu
 
@@ -247,6 +278,9 @@ no-reply-title = Պատասխանը չի աջակցուում
 no-reply-message = Պատասխանի հասցէն ({ $email }) կարծէս վերահսկուող հասցէ չէ: Այս հասցէին ուղղուած հաղորդագրութիւնները հաւանաբար ոչ ոք չի կարդայ:
 no-reply-reply-anyway-button = Պատասխանել ամէն դէպքում
 
+## error messages
+
+
 ## Spaces toolbar
 
 spaces-toolbar-element =
@@ -331,12 +365,33 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
+## OpenPGP
+
+
+## Quota panel.
+
+
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = թ
 mark-not-junk-key =
     .key = փ
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
 
 ## Message list.
 
@@ -370,6 +425,15 @@ message-group-starred = Աստղանշուած
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = եւ այղոք
+
+## Prompts
+
+
+## Spam commands
+
+
+## Ignore threads
+
 
 ## Attachments
 

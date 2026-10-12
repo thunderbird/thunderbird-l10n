@@ -3,15 +3,58 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message files
+
+messenger-eml-files-filter = Poslêers
+messenger-open-eml-file-title = Open boodskap
+# Keep the .eml extension and use an 8.3 file name.
+messenger-default-save-message-file-name = boodskap.eml
+messenger-save-message-as = Stoor boodskap as
+messenger-choose-folder = Kies gids
+messenger-save-message-failed = Kon nie die boodskap stoor nie. Kontroleer u lêernaam en probeer later weer.
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = { $filename } bestaan reeds. Wil u dit vervang?
+
+## Window controls
+
+
 ## Content tabs
 
+
+# Back
+
+
+# Forward
+
+
+# Reload
+
+
+# Stop
+
 open-windows-warning-confirmation-title = Bevestig
+
+## Sign-in window
+
+
+## Toolbar
+
+
+## Folder Pane
+
 
 ## Folder Toolbar Header Popup
 
 show-tags-folders-label =
     .label = Merkers
     .accesskey = M
+
+## Folder names
+
+
+## File Menu
+
 
 ## Edit Menu
 
@@ -36,6 +79,9 @@ menu-edit-undelete-messages =
            *[other] Ontskrap gemerkte boodskappe
         }
     .accesskey = t
+
+## Message Menu
+
 
 ## Shared Menu Items
 
@@ -62,11 +108,41 @@ menu-copy-to =
     .label = Kopieer na
     .accesskey = K
 
+## AppMenu
+
+
 ## Context menu
 
 mail-context-menu-forward-forward =
     .label = Aanstuur
     .accesskey = A
+
+## Message header pane
+
+
+## Message header customize panel
+
+
+## Action Button Context Menu
+
+
+## Add-on removal warning
+
+
+## no-reply handling
+
+
+## error messages
+
+
+## Spaces toolbar
+
+
+## Spaces toolbar pinned tab menupopup
+
+
+## Spaces toolbar customize panel
+
 
 ## Quick Filter Bar
 
@@ -76,12 +152,33 @@ quick-filter-bar-toggle =
     .label = Kitsfilterbalk
     .accesskey = K
 
+## OpenPGP
+
+
+## Quota panel.
+
+
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
+
+## Actions for the New Mail Notification
+
 
 ## Message list.
 
@@ -107,6 +204,21 @@ message-group-no-attachments = Geen aanhegsels
 message-group-attachments = Aanhegsels
 message-group-not-starred = Nie gevlag nie
 message-group-starred = Gevlag
+
+## Prompts
+
+
+## Spam commands
+
+
+## Ignore threads
+
+
+## Attachments
+
+
+## Remote content blocking
+
 
 ## Tags
 

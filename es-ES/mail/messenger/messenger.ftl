@@ -3,6 +3,19 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message files
+
+messenger-eml-files-filter = Archivos de correo (*.eml)
+messenger-open-eml-file-title = Abrir mensaje
+# Keep the .eml extension and use an 8.3 file name.
+messenger-default-save-message-file-name = message.eml
+messenger-save-message-as = Guardar mensaje como
+messenger-choose-folder = Escoger carpeta
+messenger-save-message-failed = Imposible guardar el mensaje. Compruebe el nombre del archivo y pruebe otra vez.
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = { $filename } ya existe. ¿Desea reemplazarlo?
+
 ## Window controls
 
 messenger-window-minimize-button =
@@ -30,6 +43,9 @@ content-tab-security-high-icon =
     .alt = La conexión es segura
 content-tab-security-broken-icon =
     .alt = La conexión no es segura
+
+# Back
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -40,6 +56,9 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Atrás
     .accesskey = A
+
+# Forward
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -50,6 +69,9 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Siguiente
     .accesskey = S
+
+# Reload
+
 content-tab-menu-reload =
     .aria-label = Recargar
     .tooltiptext = Recargar página
@@ -59,6 +81,9 @@ content-tab-menu-reload-mac =
     .label = Recargar
     .tooltiptext = Recargar página
     .accesskey = R
+
+# Stop
+
 content-tab-menu-stop =
     .aria-label = Detener
     .tooltiptext = Detener carga de página
@@ -84,6 +109,9 @@ open-tabs-warning-confirmation =
         [one] Abrir { $count } mensaje puede ser lento. ¿Continuar?
        *[other] Abrir { $count } mensajes puede ser lento. ¿Continuar?
     }
+
+## Sign-in window
+
 
 ## Toolbar
 

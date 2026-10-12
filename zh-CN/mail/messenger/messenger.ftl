@@ -3,6 +3,19 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message files
+
+messenger-eml-files-filter = 邮件文件
+messenger-open-eml-file-title = 打开消息
+# Keep the .eml extension and use an 8.3 file name.
+messenger-default-save-message-file-name = 消息.eml
+messenger-save-message-as = 另存消息为
+messenger-choose-folder = 选择文件夹
+messenger-save-message-failed = 不能保存消息。请检查文件名并稍后重试。
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = { $filename } 已存在。您要覆盖它吗？
+
 ## Window controls
 
 messenger-window-minimize-button =
@@ -29,6 +42,9 @@ content-tab-security-high-icon =
     .alt = 连接是安全的
 content-tab-security-broken-icon =
     .alt = 连接不安全
+
+# Back
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -39,6 +55,9 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = 返回
     .accesskey = B
+
+# Forward
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -49,6 +68,9 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = 下一页
     .accesskey = F
+
+# Reload
+
 content-tab-menu-reload =
     .aria-label = 重新加载
     .tooltiptext = 重新加载页面
@@ -58,6 +80,9 @@ content-tab-menu-reload-mac =
     .label = 重新加载
     .tooltiptext = 重新加载页面
     .accesskey = R
+
+# Stop
+
 content-tab-menu-stop =
     .aria-label = 停止
     .tooltiptext = 停止页面加载
@@ -75,6 +100,9 @@ open-tabs-warning-confirmation-title = 确认
 # Variables:
 #   $count - number of messages to open
 open-tabs-warning-confirmation = 打开 { $count } 个消息可能很慢。确定继续吗？
+
+## Sign-in window
+
 
 ## Toolbar
 

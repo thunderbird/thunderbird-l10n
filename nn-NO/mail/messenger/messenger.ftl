@@ -3,6 +3,19 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message files
+
+messenger-eml-files-filter = E-postfiler
+messenger-open-eml-file-title = Opne melding
+# Keep the .eml extension and use an 8.3 file name.
+messenger-default-save-message-file-name = melding.eml
+messenger-save-message-as = Lagre melding som
+messenger-choose-folder = Vel mappe
+messenger-save-message-failed = Klarte ikkje å lagre meldinga. Kontroller at filnamnet er gyldig og prøv på nytt.
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = { $filename } finst frå før. Vil du byte ut fila?
+
 ## Window controls
 
 messenger-window-minimize-button =
@@ -30,6 +43,9 @@ content-tab-security-high-icon =
     .alt = Tilkoplinga er trygg
 content-tab-security-broken-icon =
     .alt = Tilkoplinga er ikkje trygg
+
+# Back
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -40,6 +56,9 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Tilbake
     .accesskey = T
+
+# Forward
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -50,6 +69,9 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Fram
     .accesskey = F
+
+# Reload
+
 content-tab-menu-reload =
     .aria-label = Oppdater
     .tooltiptext = Oppdater sida
@@ -59,6 +81,9 @@ content-tab-menu-reload-mac =
     .label = Oppdater
     .tooltiptext = Oppdater sida
     .accesskey = O
+
+# Stop
+
 content-tab-menu-stop =
     .aria-label = Stopp
     .tooltiptext = Stopp sidelasting
@@ -84,6 +109,9 @@ open-tabs-warning-confirmation =
         [one] Opning av { $count } melding kan vera tregt. Halda fram?
        *[other] Opning av { $count } meldingar kan vera tregt. Halda fram?
     }
+
+## Sign-in window
+
 
 ## Toolbar
 

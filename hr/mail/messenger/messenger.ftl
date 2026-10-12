@@ -3,6 +3,19 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message files
+
+messenger-eml-files-filter = Datoteke pošte
+messenger-open-eml-file-title = Otvori poruku
+# Keep the .eml extension and use an 8.3 file name.
+messenger-default-save-message-file-name = poruka.eml
+messenger-save-message-as = Spremi poruku kao
+messenger-choose-folder = Odaberi direktorij
+messenger-save-message-failed = Nije moguće spremiti poruku. Provjerite naziv datoteke i pokušajte ponovno.
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = { $filename } već postoji. Želite li je zamijeniti?
+
 ## Window controls
 
 messenger-window-minimize-button =
@@ -31,6 +44,9 @@ content-tab-security-high-icon =
     .alt = Veza je sigurna
 content-tab-security-broken-icon =
     .alt = Veza nije sigurna
+
+# Back
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -41,6 +57,9 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Natrag
     .accesskey = N
+
+# Forward
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -51,6 +70,9 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Naprijed
     .accesskey = p
+
+# Reload
+
 content-tab-menu-reload =
     .aria-label = Ponovno učitaj
     .tooltiptext = Ponovno učitaj stranicu
@@ -60,6 +82,9 @@ content-tab-menu-reload-mac =
     .label = Ponovno učitaj
     .tooltiptext = Ponovno učitaj stranicu
     .accesskey = o
+
+# Stop
+
 content-tab-menu-stop =
     .aria-label = Zaustavi
     .tooltiptext = Zaustavi učitavanje stranice
@@ -87,6 +112,9 @@ open-tabs-warning-confirmation =
         [few] Otvaranje { $count } poruke će možda biti sporo. Nastavi?
        *[other] Otvaranje { $count } poruka će možda biti sporo. Nastavi?
     }
+
+## Sign-in window
+
 
 ## Toolbar
 

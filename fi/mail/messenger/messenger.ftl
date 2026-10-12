@@ -3,6 +3,19 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message files
+
+messenger-eml-files-filter = Viestitiedostot (*.eml)
+messenger-open-eml-file-title = Avaa viesti
+# Keep the .eml extension and use an 8.3 file name.
+messenger-default-save-message-file-name = viesti.eml
+messenger-save-message-as = Tallenna viesti nimellä
+messenger-choose-folder = Valitse kansio
+messenger-save-message-failed = Viestin tallentaminen epäonnistui. Tarkista tiedoston nimi ja yritä myöhemmin uudelleen.
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = Tiedosto { $filename } on jo olemassa. Korvataanko se?
+
 ## Window controls
 
 messenger-window-minimize-button =
@@ -30,6 +43,9 @@ content-tab-security-high-icon =
     .alt = Yhteys on suojattu
 content-tab-security-broken-icon =
     .alt = Yhteys ei ole suojattu
+
+# Back
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -40,6 +56,9 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Edellinen
     .accesskey = E
+
+# Forward
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -50,6 +69,9 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Seuraava
     .accesskey = S
+
+# Reload
+
 content-tab-menu-reload =
     .aria-label = Lataa uudelleen
     .tooltiptext = Lataa sivu uudelleen
@@ -59,6 +81,9 @@ content-tab-menu-reload-mac =
     .label = Lataa uudelleen
     .tooltiptext = Lataa sivu uudelleen
     .accesskey = d
+
+# Stop
+
 content-tab-menu-stop =
     .aria-label = Pysäytä
     .tooltiptext = Pysäytä sivun lataaminen
@@ -84,6 +109,9 @@ open-tabs-warning-confirmation =
         [one] Viestin avaaminen voi olla hidasta. Jatketaanko silti?
        *[other] { $count } viestin avaaminen voi olla hidasta. Jatketaanko silti?
     }
+
+## Sign-in window
+
 
 ## Toolbar
 
@@ -552,6 +580,9 @@ folder-context-empty-spam =
     .label = Tyhjennä roskapostikansio
     .accesskey = T
 
+## Thread pane.
+
+
 ## Message header.
 
 header-spam-button =
@@ -616,6 +647,9 @@ prompt-dont-ask-again = Älä kysy uudestaan.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Roskapostianalyysi { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } valmis
 spam-processing-message = Käsitellään roskapostiviestejä
+
+## Ignore threads
+
 
 ## Attachments
 

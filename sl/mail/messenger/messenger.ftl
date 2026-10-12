@@ -3,6 +3,19 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message files
+
+messenger-eml-files-filter = Poštne datoteke
+messenger-open-eml-file-title = Odpri sporočilo
+# Keep the .eml extension and use an 8.3 file name.
+messenger-default-save-message-file-name = sporočilo.eml
+messenger-save-message-as = Shrani sporočilo kot
+messenger-choose-folder = Izberite mapo
+messenger-save-message-failed = Sporočila ni mogoče shraniti. Preverite ime svoje datoteke in poskusite znova kasneje.
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = { $filename } že obstaja. Ali jo želite zamenjati?
+
 ## Window controls
 
 messenger-window-minimize-button =
@@ -32,6 +45,9 @@ content-tab-security-high-icon =
     .alt = Povezava je varna
 content-tab-security-broken-icon =
     .alt = Povezava ni zavarovana
+
+# Back
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -42,6 +58,9 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Nazaj
     .accesskey = z
+
+# Forward
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -52,6 +71,9 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Naprej
     .accesskey = p
+
+# Reload
+
 content-tab-menu-reload =
     .aria-label = Znova naloži
     .tooltiptext = Ponovno naloži stran
@@ -61,6 +83,9 @@ content-tab-menu-reload-mac =
     .label = Znova naloži
     .tooltiptext = Ponovno naloži stran
     .accesskey = n
+
+# Stop
+
 content-tab-menu-stop =
     .aria-label = Ustavi
     .tooltiptext = Ustavi nalaganje strani
@@ -90,6 +115,9 @@ open-tabs-warning-confirmation =
         [few] Odpiranje { $count } sporočil lahko traja. Želite nadaljevati?
        *[other] Odpiranje { $count } sporočil lahko traja. Želite nadaljevati?
     }
+
+## Sign-in window
+
 
 ## Toolbar
 
@@ -573,6 +601,9 @@ openpgp-forget = Pozabi gesla za OpenPGP
 quota-panel-percent-used = { $percent }-% zasedeno
     .title = Kvota IMAP: zasedeno { $usage } od skupno { $limit }
 
+## Sort menu.
+
+
 ## Message menu.
 
 menu-mark-as-spam =
@@ -594,6 +625,9 @@ menu-delete-spam =
 folder-context-empty-spam =
     .label = Izprazni neželeno pošto
     .accesskey = I
+
+## Thread pane.
+
 
 ## Message header.
 
