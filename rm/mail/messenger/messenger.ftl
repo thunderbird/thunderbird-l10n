@@ -3,6 +3,19 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message files
+
+messenger-eml-files-filter = Datotecas dad e-mail
+messenger-open-eml-file-title = Avrir il messadi
+# Keep the .eml extension and use an 8.3 file name.
+messenger-default-save-message-file-name = messadi.eml
+messenger-save-message-as = Memorisar il messadi sut
+messenger-choose-folder = Tscherner in ordinatur
+messenger-save-message-failed = Impussibel da memorisar il messadi. Controllescha per plaschair il num da datoteca ed emprova pli tard anc ina giada.
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = { $filename } exista gia. Vuls ti remplazzar la datoteca?
+
 ## Window controls
 
 messenger-window-minimize-button =
@@ -30,6 +43,9 @@ content-tab-security-high-icon =
     .alt = La connexiun è segirada
 content-tab-security-broken-icon =
     .alt = La connexiun n'è betg segirada
+
+# Back
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -40,6 +56,9 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Enavos
     .accesskey = E
+
+# Forward
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -50,6 +69,9 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Enavant
     .accesskey = v
+
+# Reload
+
 content-tab-menu-reload =
     .aria-label = Rechargiar
     .tooltiptext = Rechargiar la pagina
@@ -59,6 +81,9 @@ content-tab-menu-reload-mac =
     .label = Rechargiar
     .tooltiptext = Rechargiar la pagina
     .accesskey = R
+
+# Stop
+
 content-tab-menu-stop =
     .aria-label = Interrumper
     .tooltiptext = Interrumper il chargiament da la pagina
@@ -84,6 +109,9 @@ open-tabs-warning-confirmation =
         [one] Avrir { $count } messadi pudess durar in mument. Cuntinuar?
        *[other] Avrir { $count } messadis pudess durar in mument. Cuntinuar?
     }
+
+## Sign-in window
+
 
 ## Toolbar
 
@@ -132,6 +160,9 @@ show-tags-folders-label =
 folder-toolbar-toggle-folder-compact-view =
     .label = Vista cumpacta
     .accesskey = c
+
+## Folder names
+
 
 ## File Menu
 
@@ -515,12 +546,24 @@ openpgp-forget = Emblidar las frasas-clav OpenPGP
 quota-panel-percent-used = Occupà: { $percent }%
     .title = Quota IMAP: { $usage } occupà da  { $limit } en total
 
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
 
 ## Actions for the New Mail Notification
 
@@ -559,6 +602,15 @@ message-group-starred = Cun staila
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = et al.
+
+## Prompts
+
+
+## Spam commands
+
+
+## Ignore threads
+
 
 ## Attachments
 
