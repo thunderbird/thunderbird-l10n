@@ -7,6 +7,12 @@
 
 # Keep the .eml extension and use an 8.3 file name.
 messenger-default-save-message-file-name = mesaj.eml
+messenger-save-message-as = Salvează mesajul ca
+messenger-choose-folder = Alege dosarul
+messenger-save-message-failed = Nu se poate salva mesajul. Te rugăm să verifici numele fișierului și să încerci din nou.
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = { $filename } există deja. Vrei să-l înlocuiești?
 
 ## Window controls
 
