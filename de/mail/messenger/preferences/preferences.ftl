@@ -1253,7 +1253,7 @@ sync-disconnected-turn-on-sync = Synchronisierung einschalten…
 
 qr-export-pane-header = Konten nach { -brand-product-name } Mobile exportieren
 qr-export-description = Übertragen Sie Ihre Kontoeinstellungen schnell vom Desktop auf Ihr Mobilgerät, indem Sie einen QR-Code erzeugen. Wählen Sie aus, welche Konten eingeschlossen werden sollen, entscheiden Sie, ob Sie Ihr Passwort übertragen möchten und scannen Sie den Code mit Ihrem Mobilgerät. Schnell, sicher und einfach.
-qr-export-get-app = Sie haben { -brand-product-name } noch nicht Ihrem Mobilgerät? <a data-l10n-name="app-link"> Sie erhalten ihn bei Google Play</a>
+qr-export-get-app = Sie haben { -brand-product-name } noch nicht auf Ihrem Mobilgerät? <a data-l10n-name="app-link"> Sie erhalten ihn bei Google Play</a>
 qr-export-create = Erstellen Sie einen QR-Code, um Ihre Konten zu exportieren
 qr-export-select-accounts = Wählen Sie, welche Konten exportiert werden sollen:
 qr-export-no-accounts = Sehen Sie nicht alle Ihre Konten? Einige Konten sind möglicherweise deaktiviert, weil sie von { -brand-product-name } für Android nicht unterstützt werden. <a data-l10n-name="account-support-link">Hilfe</a>

@@ -103,6 +103,9 @@ addr-book-summary-description = Будет создана новая адрес�
 import-from-calendar-file-desc = Выберите файл iCalendar (.ics), который вы хотите импортировать.
 calendar-items-title = Выберите элементы для импорта.
 calendar-items-loading = Загрузка элементов…
+# Column headers of the list of calendar items to import.
+calendar-items-column-title-a11y =
+    .aria-label = Заголовок
 calendar-items-filter-input2 =
     .label = Поиск элементов
     .placeholder = Поиск элементов…
