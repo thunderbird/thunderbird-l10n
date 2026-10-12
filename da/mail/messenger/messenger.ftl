@@ -3,6 +3,19 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message files
+
+messenger-eml-files-filter = Mailfiler (*.eml)
+messenger-open-eml-file-title = Åbn meddelelse
+# Keep the .eml extension and use an 8.3 file name.
+messenger-default-save-message-file-name = meddelelse.eml
+messenger-save-message-as = Gem meddelelsen som
+messenger-choose-folder = Vælg mappe
+messenger-save-message-failed = Kan ikke gemme meddelelsen. Kontroller filnavnet og prøv igen senere.
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = { $filename } findes allerede. Vil du erstatte den med den nye kopi?
+
 ## Window controls
 
 messenger-window-minimize-button =
@@ -30,6 +43,9 @@ content-tab-security-high-icon =
     .alt = Forbindelsen er sikker
 content-tab-security-broken-icon =
     .alt = Forbindelsen er ikke sikker
+
+# Back
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -40,6 +56,9 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Tilbage
     .accesskey = T
+
+# Forward
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -50,6 +69,9 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Frem
     .accesskey = F
+
+# Reload
+
 content-tab-menu-reload =
     .aria-label = Genindlæs
     .tooltiptext = Genindlæs side
@@ -59,6 +81,9 @@ content-tab-menu-reload-mac =
     .label = Genindlæs
     .tooltiptext = Genindlæs side
     .accesskey = G
+
+# Stop
+
 content-tab-menu-stop =
     .aria-label = Stop
     .tooltiptext = Stop indlæsning af side
@@ -84,6 +109,9 @@ open-tabs-warning-confirmation =
         [one] Åbning af { $count } meddelelse kan tage lang tid. Fortsæt?
        *[other] Åbning af { $count } meddelelser kan tage lang tid. Fortsæt?
     }
+
+## Sign-in window
+
 
 ## Toolbar
 
