@@ -9,6 +9,12 @@ messenger-eml-files-filter = Faidhlichean puist
 messenger-open-eml-file-title = Fosgail an teachdaireachd
 # Keep the .eml extension and use an 8.3 file name.
 messenger-default-save-message-file-name = teachdaireachd.eml
+messenger-save-message-as = Sàbhail an teachdaireachd mar
+messenger-choose-folder = Tagh am pasgan seo
+messenger-save-message-failed = Cha ghabh an teachdaireachd a shàbhaladh. Cuir sùil air ainm an fhaidhle is feuch ris a-rithist an ceann tamaill.
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = Tha { $filename } ann mu thràth. A bheil thu airson a chur 'na àite?
 
 ## Window controls
 
