@@ -9,6 +9,12 @@ messenger-eml-files-filter = E-postfiler
 messenger-open-eml-file-title = Opne melding
 # Keep the .eml extension and use an 8.3 file name.
 messenger-default-save-message-file-name = melding.eml
+messenger-save-message-as = Lagre melding som
+messenger-choose-folder = Vel mappe
+messenger-save-message-failed = Klarte ikkje å lagre meldinga. Kontroller at filnamnet er gyldig og prøv på nytt.
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = { $filename } finst frå før. Vil du byte ut fila?
 
 ## Window controls
 
