@@ -7,6 +7,8 @@
 
 messenger-eml-files-filter = Pašto failai
 messenger-open-eml-file-title = Atverti laišką
+# Keep the .eml extension and use an 8.3 file name.
+messenger-default-save-message-file-name = laiškas.eml
 messenger-save-message-as = Laiško įrašymas kaip
 messenger-choose-folder = Parinkite aplanką
 messenger-save-message-failed = Negalima įrašyti laiško. Patikrinkite failo vardą ir bandykite dar kartą.
