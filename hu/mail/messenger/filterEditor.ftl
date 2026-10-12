@@ -188,6 +188,11 @@ filter-editor-invalid-search-title = Érvénytelen keresési kifejezés
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
 filter-editor-invalid-search-rule = Ezt a szűrőt nem lehet menteni, mert a(z) „{ $attribute } { $operator }” keresési kifejezés érvénytelen ebben a kontextusban.
+filter-editor-missing-value-title = Hiányzó keresési érték
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+filter-editor-missing-value-rule = Ez a szűrő nem menthető, mert nem adott meg értéket a(z) „{ $attribute } { $operator }” keresési feltételhez.
 filter-editor-action-order-explanation = Amikor egy üzenet illeszkedik erre a szűrőre, a műveletek ebben a sorrendben lesznek futtatva:
 filter-editor-action-order-title = Valódi műveletsorrend
 # Variables:

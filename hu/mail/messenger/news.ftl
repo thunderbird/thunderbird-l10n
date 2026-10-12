@@ -66,6 +66,12 @@ cancel-confirm = Biztos benne, hogy ezt a cikket vissza kívánja vonni?
 # $newsgroup (String) - The name of the newsgroup.
 auto-subscribe-text = Szeretne feliratkozni erre: { $newsgroup }?
 
+## Unknown News Server Dialog
+
+# Variables:
+# $server (String) - The hostname:port of the news server, e.g. news.example.com:119.
+unknown-news-server-text = Ez a hivatkozás a(z) { $server } oldalra mutat, de ehhez a hírkiszolgálóhoz nincs fiók beállítva. Mégis kapcsolódik?
+
 ## News Server Credentials
 
 enter-news-credentials-title = Hírcsoport-kiszolgáló eléréséhez felhasználónév és jelszó szükséges

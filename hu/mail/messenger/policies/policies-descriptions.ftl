@@ -38,6 +38,7 @@ policy-DisableForgetButton = Az Elfelejtés gomb elérésének megakadályozása
 policy-DisableFormHistory = Ne jegyezze meg a keresőmezők és űrlapmezők előzményeit.
 policy-DisableMasterPasswordCreation = Ha igaz, akkor nem hozható létre mesterjelszó.
 policy-DisableMessageForwardingFilters = Megakadályozás, hogy az üzenetszűrők automatikusan továbbítsák az üzeneteket.
+policy-DisablePasswordReveal2 = Ne engedje, hogy a mentett bejelentkezésekben szereplő jelszavak megjelenítésre kerüljenek.
 policy-DisablePasswordReveal = Ne engedje, hogy a mentet bejelentkezésekben szereplő jelszavak megjelenítésre kerüljenek.
 policy-DisableProfileImport = Az Importálás egy másik böngészőből menüparancs letiltása.
 policy-DisableExperimentalFeatures = A Thunderbird kísérleti funkcióinak letiltása

@@ -98,6 +98,17 @@ open-tabs-warning-confirmation =
        *[other] { $count } üzenet megnyitása lassú lehet. Folytatja?
     }
 
+## Sign-in window
+
+# Shown when the provider's sign-in page cannot use cookies because they are
+# blocked.
+browser-request-cookies-blocked = A sütik blokkolva vannak, ami megakadályozhatja a bejelentkezést.
+# Turns cookies back on. Same action as the "Accept cookies from sites" option
+# in Settings, Privacy & Security.
+browser-request-cookies-accept =
+    .label = Sütik elfogadása a webhelyektől
+    .accesskey = S
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =

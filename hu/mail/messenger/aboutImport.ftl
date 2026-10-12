@@ -103,6 +103,31 @@ addr-book-summary-description = Létrejön egy új, „{ $addressBookName }” n
 import-from-calendar-file-desc = Válassza ki az importálandó iCalendar (.ics) fájlt.
 calendar-items-title = Válassza ki az importálandó elemeket.
 calendar-items-loading = Elemek betöltése…
+# $count (Number) - The number of items in the calendar file.
+calendar-items-count =
+    { $count ->
+        [one] A fájl { $count } elemet tartalmaz.
+       *[other] A fájl { $count } elemet tartalmaz.
+    }
+# Column headers of the list of calendar items to import.
+calendar-items-column-title-a11y =
+    .aria-label = Cím
+calendar-items-column-title = Cím
+    .title = Rendezés cím szerint
+# The start date and time of each item.
+calendar-items-column-start-a11y =
+    .aria-label = Kezdés
+calendar-items-column-start = Kezdés
+    .title = Rendezés kezdés szerint
+# The end date and time of each item.
+calendar-items-column-end-a11y =
+    .aria-label = Befejezés
+calendar-items-column-end = Befejezés
+    .title = Rendezés befejezés szerint
+# The column of checkboxes, to choose which items to import.
+calendar-items-column-import-a11y =
+    .aria-label = Importálás
+calendar-items-column-import = Importálás
 calendar-items-filter-input2 =
     .label = Elemek szűrése
     .placeholder = Elemek szűrése…

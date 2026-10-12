@@ -5,6 +5,7 @@
 toolbar-context-menu-menu-bar =
     .toolbarname = Menüsor
     .accesskey = M
+system-tray-app-name = { -brand-full-name }
 
 ## Tools Menu
 
@@ -162,6 +163,9 @@ file-new-newsgroup-account =
 file-new-addressbook =
     .label = Címjegyzék
     .accesskey = C
+file-new-mailing-list =
+    .label = Levelezőlista…
+    .accesskey = L
 file-new-local-addressbook =
     .label = Helyi címjegyzék
     .accesskey = H
