@@ -106,7 +106,7 @@ calendar-items-loading = Chargement des éléments…
 # $count (Number) - The number of items in the calendar file.
 calendar-items-count =
     { $count ->
-        [one] Le fichier contient { $count } éléments.
+        [one] Le fichier contient { $count } élément.
        *[other] Le fichier contient { $count } éléments.
     }
 # Column headers of the list of calendar items to import.
@@ -116,14 +116,14 @@ calendar-items-column-title = Titre
     .title = Trier par titre
 # The start date and time of each item.
 calendar-items-column-start-a11y =
-    .aria-label = Démarrer
-calendar-items-column-start = Démarrer
-    .title = Trier par début
+    .aria-label = Début
+calendar-items-column-start = Début
+    .title = Trier par date de début
 # The end date and time of each item.
 calendar-items-column-end-a11y =
     .aria-label = Fin
 calendar-items-column-end = Fin
-    .title = Trier par fin
+    .title = Trier par date de fin
 # The column of checkboxes, to choose which items to import.
 calendar-items-column-import-a11y =
     .aria-label = Importer
