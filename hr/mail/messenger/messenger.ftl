@@ -9,6 +9,12 @@ messenger-eml-files-filter = Datoteke pošte
 messenger-open-eml-file-title = Otvori poruku
 # Keep the .eml extension and use an 8.3 file name.
 messenger-default-save-message-file-name = poruka.eml
+messenger-save-message-as = Spremi poruku kao
+messenger-choose-folder = Odaberi direktorij
+messenger-save-message-failed = Nije moguće spremiti poruku. Provjerite naziv datoteke i pokušajte ponovno.
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = { $filename } već postoji. Želite li je zamijeniti?
 
 ## Window controls
 
