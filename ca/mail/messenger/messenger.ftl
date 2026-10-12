@@ -5,8 +5,16 @@
 
 ## Message files
 
+messenger-eml-files-filter = Fitxers de correu (*.eml)
+messenger-open-eml-file-title = Obre el missatge
 # Keep the .eml extension and use an 8.3 file name.
 messenger-default-save-message-file-name = message.eml
+messenger-save-message-as = Anomena i desa el missatge
+messenger-choose-folder = Selecciona la carpeta
+messenger-save-message-failed = No es pot desar el missatge. Comproveu el nom del fitxer i torneu-ho a provar més tard.
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = { $filename } ja existeix. Voleu reemplaçar-lo?
 
 ## Window controls
 
