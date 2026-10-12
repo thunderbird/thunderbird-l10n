@@ -3,6 +3,13 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message files
+
+messenger-eml-files-filter = E-mailbestanden
+messenger-open-eml-file-title = Bericht openen
+# Keep the .eml extension and use an 8.3 file name.
+messenger-default-save-message-file-name = bericht.eml
+
 ## Window controls
 
 messenger-window-minimize-button =
@@ -30,6 +37,9 @@ content-tab-security-high-icon =
     .alt = De verbinding is beveiligd
 content-tab-security-broken-icon =
     .alt = De verbinding is niet beveiligd
+
+# Back
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -40,6 +50,9 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Terug
     .accesskey = T
+
+# Forward
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -50,6 +63,9 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Vooruit
     .accesskey = V
+
+# Reload
+
 content-tab-menu-reload =
     .aria-label = Vernieuwen
     .tooltiptext = Pagina vernieuwen
@@ -59,6 +75,9 @@ content-tab-menu-reload-mac =
     .label = Vernieuwen
     .tooltiptext = Pagina vernieuwen
     .accesskey = n
+
+# Stop
+
 content-tab-menu-stop =
     .aria-label = Stoppen
     .tooltiptext = Pagina laden stoppen
@@ -84,6 +103,9 @@ open-tabs-warning-confirmation =
         [one] Het openen van { $count } bericht gaat wellicht langzaam. Doorgaan?
        *[other] Het openen van { $count } berichten gaat wellicht langzaam. Doorgaan?
     }
+
+## Sign-in window
+
 
 ## Toolbar
 
