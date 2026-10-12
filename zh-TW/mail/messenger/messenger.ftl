@@ -3,6 +3,11 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message files
+
+# Keep the .eml extension and use an 8.3 file name.
+messenger-default-save-message-file-name = message.eml
+
 ## Window controls
 
 messenger-window-minimize-button =
@@ -29,6 +34,9 @@ content-tab-security-high-icon =
     .alt = 連線是安全的
 content-tab-security-broken-icon =
     .alt = 連線不安全
+
+# Back
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -39,6 +47,9 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = 上一頁
     .accesskey = B
+
+# Forward
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -49,6 +60,9 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = 下一頁
     .accesskey = F
+
+# Reload
+
 content-tab-menu-reload =
     .aria-label = 重新載入
     .tooltiptext = 重新載入網頁
@@ -58,6 +72,9 @@ content-tab-menu-reload-mac =
     .label = 重新載入
     .tooltiptext = 重新載入網頁
     .accesskey = R
+
+# Stop
+
 content-tab-menu-stop =
     .aria-label = 停止
     .tooltiptext = 停止載入頁面
@@ -75,6 +92,9 @@ open-tabs-warning-confirmation-title = 確認
 # Variables:
 #   $count - number of messages to open
 open-tabs-warning-confirmation = 一次開啟 { $count } 封訊息可能會很緩慢，要繼續嗎？
+
+## Sign-in window
+
 
 ## Toolbar
 
