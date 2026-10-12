@@ -3,6 +3,11 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message files
+
+# Keep the .eml extension and use an 8.3 file name.
+messenger-default-save-message-file-name = brev.eml
+
 ## Window controls
 
 messenger-window-minimize-button =
@@ -30,6 +35,9 @@ content-tab-security-high-icon =
     .alt = Anslutningen är säker
 content-tab-security-broken-icon =
     .alt = Anslutningen är inte säker
+
+# Back
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -40,6 +48,9 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Tillbaka
     .accesskey = T
+
+# Forward
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -50,6 +61,9 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Framåt
     .accesskey = F
+
+# Reload
+
 content-tab-menu-reload =
     .aria-label = Ladda om
     .tooltiptext = Ladda om sidan
@@ -59,6 +73,9 @@ content-tab-menu-reload-mac =
     .label = Ladda om
     .tooltiptext = Ladda om sidan
     .accesskey = L
+
+# Stop
+
 content-tab-menu-stop =
     .aria-label = Stoppa
     .tooltiptext = Stoppa sidladdning
@@ -84,6 +101,9 @@ open-tabs-warning-confirmation =
         [one] Öppning av { $count } meddelande kan gå långsamt. Fortsätt?
        *[other] Öppning av { $count } meddelanden kan gå långsamt. Fortsätt?
     }
+
+## Sign-in window
+
 
 ## Toolbar
 
