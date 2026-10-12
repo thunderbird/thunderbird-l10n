@@ -123,6 +123,14 @@ calendar-dialog-attachments-summary-label =
         [one] { $count } დანართი
        *[other] { $count } დანართი
     }
+calendar-event-prompt-delete-title = ღონისძიების წაშლა
+calendar-event-prompt-delete-header = სამუდამოდ მოცილდეს აღნიშნული ღონისძიება(ებ)ი?
+calendar-single-event-prompt-delete-header = სამუდამოდ მოცილდეს ეს ღონისძიება?
+calendar-prompt-this-event =
+    .label = ეს ღონისძიება
+calendar-prompt-all-events =
+    .label = ყველა ღონისძიება
+calendar-prompt-delete-button = წაშლა
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =
