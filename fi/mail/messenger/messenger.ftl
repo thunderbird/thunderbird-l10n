@@ -7,6 +7,8 @@
 
 messenger-eml-files-filter = Viestitiedostot (*.eml)
 messenger-open-eml-file-title = Avaa viesti
+# Keep the .eml extension and use an 8.3 file name.
+messenger-default-save-message-file-name = viesti.eml
 messenger-save-message-as = Tallenna viesti nimellä
 messenger-choose-folder = Valitse kansio
 messenger-save-message-failed = Viestin tallentaminen epäonnistui. Tarkista tiedoston nimi ja yritä myöhemmin uudelleen.
