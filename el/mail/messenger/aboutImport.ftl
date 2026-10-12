@@ -103,6 +103,31 @@ addr-book-summary-description = Θα δημιουργηθεί ένα νέο ευ
 import-from-calendar-file-desc = Επιλέξτε το αρχείο iCalendar (.ics) που θέλετε να εισαγάγετε.
 calendar-items-title = Επιλέξτε στοιχεία προς εισαγωγή.
 calendar-items-loading = Φόρτωση στοιχείων…
+# $count (Number) - The number of items in the calendar file.
+calendar-items-count =
+    { $count ->
+        [one] Το αρχείο περιέχει { $count } στοιχείο.
+       *[other] Το αρχείο περιέχει { $count } στοιχεία.
+    }
+# Column headers of the list of calendar items to import.
+calendar-items-column-title-a11y =
+    .aria-label = Τίτλος
+calendar-items-column-title = Τίτλος
+    .title = Ταξινόμηση βάσει τίτλου
+# The start date and time of each item.
+calendar-items-column-start-a11y =
+    .aria-label = Έναρξη
+calendar-items-column-start = Έναρξη
+    .title = Ταξινόμηση βάσει έναρξης
+# The end date and time of each item.
+calendar-items-column-end-a11y =
+    .aria-label = Λήξη
+calendar-items-column-end = Λήξη
+    .title = Ταξινόμηση βάσει λήξης
+# The column of checkboxes, to choose which items to import.
+calendar-items-column-import-a11y =
+    .aria-label = Εισαγωγή
+calendar-items-column-import = Εισαγωγή
 calendar-items-filter-input2 =
     .label = Φιλτράρισμα στοιχείων
     .placeholder = Φιλτράρισμα στοιχείων…

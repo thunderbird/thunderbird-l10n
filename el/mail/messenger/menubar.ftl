@@ -5,6 +5,7 @@
 toolbar-context-menu-menu-bar =
     .toolbarname = Γραμμή μενού
     .accesskey = μ
+system-tray-app-name = { -brand-full-name }
 
 ## Tools Menu
 
@@ -162,6 +163,9 @@ file-new-newsgroup-account =
 file-new-addressbook =
     .label = Ευρετήριο
     .accesskey = Ε
+file-new-mailing-list =
+    .label = Λίστα αλληλογραφίας…
+    .accesskey = Λ
 file-new-local-addressbook =
     .label = Τοπικό ευρετήριο
     .accesskey = ε
