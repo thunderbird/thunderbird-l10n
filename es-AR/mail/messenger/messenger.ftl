@@ -7,6 +7,8 @@
 
 messenger-eml-files-filter = Archivos de correo
 messenger-open-eml-file-title = Abrir mensaje
+# Keep the .eml extension and use an 8.3 file name.
+messenger-default-save-message-file-name = mensaje.eml
 messenger-save-message-as = Guardar mensaje como
 messenger-choose-folder = Seleccionar carpeta
 messenger-save-message-failed = Imposible guardar el mensaje. Por favor, compruebe el nombre del archivo y vuelva a intentar.
