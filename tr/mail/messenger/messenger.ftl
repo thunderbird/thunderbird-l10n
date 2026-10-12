@@ -3,6 +3,11 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message files
+
+# Keep the .eml extension and use an 8.3 file name.
+messenger-default-save-message-file-name = ileti.eml
+
 ## Window controls
 
 messenger-window-minimize-button =
@@ -30,6 +35,9 @@ content-tab-security-high-icon =
     .alt = Bağlantı güvenli
 content-tab-security-broken-icon =
     .alt = Bağlantı güvenli değil
+
+# Back
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -40,6 +48,9 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Geri
     .accesskey = G
+
+# Forward
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -50,6 +61,9 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = İleri
     .accesskey = İ
+
+# Reload
+
 content-tab-menu-reload =
     .aria-label = Tazele
     .tooltiptext = Sayfayı tazele
@@ -59,6 +73,9 @@ content-tab-menu-reload-mac =
     .label = Tazele
     .tooltiptext = Sayfayı tazele
     .accesskey = T
+
+# Stop
+
 content-tab-menu-stop =
     .aria-label = Durdur
     .tooltiptext = Sayfa yüklemeyi durdur
@@ -84,6 +101,9 @@ open-tabs-warning-confirmation =
         [one] { $count } ileti açmak yavaş olabilir. Devam edilsin mi?
        *[other] { $count } ileti açmak yavaş olabilir. Devam edilsin mi?
     }
+
+## Sign-in window
+
 
 ## Toolbar
 
@@ -653,6 +673,9 @@ prompt-dont-ask-again = Tekrar sorma.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Spam analizi { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } tamamlandı
 spam-processing-message = Spam iletiler işleniyor
+
+## Ignore threads
+
 
 ## Attachments
 
