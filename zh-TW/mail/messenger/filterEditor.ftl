@@ -184,7 +184,7 @@ filter-editor-missing-value-title = 未輸入搜尋值
 # Variables:
 #   $attribute (String) - The search attribute name from the incomplete rule.
 #   $operator (String) - The search operator from the incomplete rule.
-filter-editor-missing-value-rule = 因為並未輸入搜尋詞「{ $attribute } { $operator }」的值) 無法儲存此篩選條件。
+filter-editor-missing-value-rule = 因為未輸入搜尋詞「{ $attribute } { $operator }」的值，無法儲存此篩選條件。
 filter-editor-action-order-explanation = 當有訊息符合此篩選條件時，將依照此順序進行篩選:
 filter-editor-action-order-title = 實際執行順序
 # Variables:
