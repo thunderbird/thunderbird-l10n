@@ -9,6 +9,12 @@ messenger-eml-files-filter = E-mailbestanden
 messenger-open-eml-file-title = Bericht openen
 # Keep the .eml extension and use an 8.3 file name.
 messenger-default-save-message-file-name = bericht.eml
+messenger-save-message-as = Bericht opslaan als
+messenger-choose-folder = Map kiezen
+messenger-save-message-failed = Kan het bericht niet opslaan. Controleer uw bestandsnaam en probeer het later opnieuw.
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = { $filename } bestaat al. Wilt u het vervangen?
 
 ## Window controls
 
