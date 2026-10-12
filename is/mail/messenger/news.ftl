@@ -66,6 +66,12 @@ cancel-confirm = Ertu viss um að þú viljir eyða þessum pósti?
 # $newsgroup (String) - The name of the newsgroup.
 auto-subscribe-text = Viltu gerast áskrifandi að { $newsgroup }?
 
+## Unknown News Server Dialog
+
+# Variables:
+# $server (String) - The hostname:port of the news server, e.g. news.example.com:119.
+unknown-news-server-text = Þessi tengill vísar á { $server }, en enginn aðgangur er settur upp fyrir þann fréttaþjón. Tengjast samt?
+
 ## News Server Credentials
 
 enter-news-credentials-title = Nauðsynlegt er að setja inn notandadafn og lykilorð fyrir fréttaþjón

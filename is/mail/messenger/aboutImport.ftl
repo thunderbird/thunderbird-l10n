@@ -103,6 +103,31 @@ addr-book-summary-description = Ný nafnaskrá sem heitir "{ $addressBookName }"
 import-from-calendar-file-desc = Veldu iCalendar-skrána (.ics) sem þú ætlar að flytja inn.
 calendar-items-title = Veldu hvaða atriði þú vilt flytja inn.
 calendar-items-loading = Hleð inn atriðum...
+# $count (Number) - The number of items in the calendar file.
+calendar-items-count =
+    { $count ->
+        [one] Skráin inniheldur { $count } atriði.
+       *[other] Skráin inniheldur { $count } atriði.
+    }
+# Column headers of the list of calendar items to import.
+calendar-items-column-title-a11y =
+    .aria-label = Titill
+calendar-items-column-title = Titill
+    .title = Raða eftir titli
+# The start date and time of each item.
+calendar-items-column-start-a11y =
+    .aria-label = Byrjar
+calendar-items-column-start = Byrjar
+    .title = Raða eftir upphafi
+# The end date and time of each item.
+calendar-items-column-end-a11y =
+    .aria-label = Endar
+calendar-items-column-end = Endar
+    .title = Raða eftir lokum
+# The column of checkboxes, to choose which items to import.
+calendar-items-column-import-a11y =
+    .aria-label = Flytja inn
+calendar-items-column-import = Flytja inn
 calendar-items-filter-input2 =
     .label = Sía atriði
     .placeholder = Sía atriði…

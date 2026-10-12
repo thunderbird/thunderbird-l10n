@@ -5,6 +5,7 @@
 toolbar-context-menu-menu-bar =
     .toolbarname = Valmyndastika
     .accesskey = m
+system-tray-app-name = { -brand-full-name }
 
 ## Tools Menu
 
@@ -162,6 +163,9 @@ file-new-newsgroup-account =
 file-new-addressbook =
     .label = Nafnaskrá
     .accesskey = a
+file-new-mailing-list =
+    .label = Póstlisti…
+    .accesskey = l
 file-new-local-addressbook =
     .label = Staðbundin nafnaskrá
     .accesskey = a
