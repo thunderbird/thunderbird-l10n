@@ -103,6 +103,31 @@ addr-book-summary-description = Der wurdt in nij adresboek mei de namme ‘{ $ad
 import-from-calendar-file-desc = Selektearje it iCalendar (.ics)-bestânstype dat jo ymportearje wolle.
 calendar-items-title = Selektearje de te ymportearjen ûnderdielen.
 calendar-items-loading = Items lade…
+# $count (Number) - The number of items in the calendar file.
+calendar-items-count =
+    { $count ->
+        [one] It bestân befettet { $count } item.
+       *[other] It bestân befettet { $count } items.
+    }
+# Column headers of the list of calendar items to import.
+calendar-items-column-title-a11y =
+    .aria-label = Titel
+calendar-items-column-title = Titel
+    .title = Sortearje op titel
+# The start date and time of each item.
+calendar-items-column-start-a11y =
+    .aria-label = Start
+calendar-items-column-start = Start
+    .title = Sortearje op start
+# The end date and time of each item.
+calendar-items-column-end-a11y =
+    .aria-label = Ein
+calendar-items-column-end = Ein
+    .title = Sortearje op ein
+# The column of checkboxes, to choose which items to import.
+calendar-items-column-import-a11y =
+    .aria-label = Ymportearje
+calendar-items-column-import = Ymportearje
 calendar-items-filter-input2 =
     .label = Items filterje
     .placeholder = Items filterje…
