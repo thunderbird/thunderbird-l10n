@@ -3,6 +3,19 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message files
+
+messenger-eml-files-filter = Ifuyla n tirawt
+messenger-open-eml-file-title = Ldi izen
+# Keep the .eml extension and use an 8.3 file name.
+messenger-default-save-message-file-name = message.eml
+messenger-save-message-as = Kles izen daw
+messenger-choose-folder = Fren akaram
+messenger-save-message-failed = D awezɣi aklas nyizen. Ma ulac aɣilif, senqed isem n ufaylu u ɛṛeḍ tikelt nniḍen ticki.
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = { $filename } yella yakan. Tebɣiḍ aţsemselsiṭ?
+
 ## Window controls
 
 messenger-window-minimize-button =
@@ -30,6 +43,9 @@ content-tab-security-high-icon =
     .alt = Tuqqna d taɣellsant
 content-tab-security-broken-icon =
     .alt = Tuqqna d taraɣelsant
+
+# Back
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -40,6 +56,9 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Uɣal ɣer deffir
     .accesskey = U
+
+# Forward
+
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -50,6 +69,12 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Welleh
     .accesskey = W
+
+# Reload
+
+
+# Stop
+
 open-windows-warning-confirmation-title = Sentem
 # Variables:
 #   $count - number of messages to open
@@ -66,6 +91,9 @@ open-tabs-warning-confirmation =
         [one] Tulya n { $count } n yizen yezmer ad yili ẓẓay. Ad tkemleḍ?
        *[other] Tulya n { $count } n yeznan yezmer ad yili ẓẓay. Ad tkemleḍ?
     }
+
+## Sign-in window
+
 
 ## Toolbar
 
@@ -114,6 +142,9 @@ show-tags-folders-label =
 folder-toolbar-toggle-folder-compact-view =
     .label = Timeẓri yessden
     .accesskey = T
+
+## Folder names
+
 
 ## File Menu
 
@@ -419,12 +450,30 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
+## OpenPGP
+
+
+## Quota panel.
+
+
+## Sort menu.
+
+
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
+
+## Folder pane context.
+
+
+## Thread pane.
+
+
+## Message header.
+
 
 ## Actions for the New Mail Notification
 
@@ -462,6 +511,15 @@ message-group-starred = Ɣur-s itri
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = d wiyaḍ
+
+## Prompts
+
+
+## Spam commands
+
+
+## Ignore threads
+
 
 ## Attachments
 
