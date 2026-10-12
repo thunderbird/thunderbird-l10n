@@ -1135,10 +1135,3 @@ calendar-window-title-base = { -brand-full-name }
 #   $calendarName (String) - Calendar name as given by the user.
 #   $location (String) - The calendar server location.
 calendar-auth-enter-user-password-for-calendar = “{ $calendarName }” ({ $location }) require tu nomine de usator e contrasigno.
-# Variables:
-#   $username (String) - The account username.
-#   $location (String) - The calendar server location.
-calendar-auth-enter-password-for = Insere le contrasigno pro { $username } sur { $location }
-# Variables:
-#   $location (String) - The calendar server location.
-calendar-auth-enter-user-password-for = { $location } require tu nomine de usator e contrasigno.

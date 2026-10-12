@@ -1079,10 +1079,3 @@ calendar-window-title-base = { -brand-full-name }
 #   $calendarName (String) - Calendar name as given by the user.
 #   $location (String) - The calendar server location.
 calendar-auth-enter-user-password-for-calendar = 「{ $calendarName }」（{ $location }）要求您輸入帳號與密碼。
-# Variables:
-#   $username (String) - The account username.
-#   $location (String) - The calendar server location.
-calendar-auth-enter-password-for = 請輸入 { $username } 在 { $location } 上的密碼
-# Variables:
-#   $location (String) - The calendar server location.
-calendar-auth-enter-user-password-for = { $location } 要求您輸入帳號與密碼。

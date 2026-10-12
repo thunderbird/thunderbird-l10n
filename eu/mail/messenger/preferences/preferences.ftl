@@ -575,7 +575,6 @@ remote-content-label =
 exceptions-button =
     .label = Salbuespenak…
     .accesskey = e
-remote-content-privacy-info = Urruneko edukiaren pribatutasun-arazoei buruzko argibide gehiago
 remote-content-info =
     .value = Urruneko edukiaren pribatutasun-arazoei buruzko argibide gehiago
 web-content = Web edukia

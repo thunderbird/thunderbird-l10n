@@ -1128,10 +1128,3 @@ attachments-tab-label = Liitteet ({ $count }):
 #   $docTitle (String) - The date or view label for the current calendar view.
 calendar-window-title = { $docTitle } - { -brand-full-name }
 calendar-window-title-base = { -brand-full-name }
-# Variables:
-#   $username (String) - The account username.
-#   $location (String) - The calendar server location.
-calendar-auth-enter-password-for = Anna käyttäjän { $username } salasana palvelimelle { $location }
-# Variables:
-#   $location (String) - The calendar server location.
-calendar-auth-enter-user-password-for = { $location } pyytää käyttäjätunnustasi ja salasanaasi.

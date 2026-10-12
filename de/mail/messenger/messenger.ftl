@@ -43,9 +43,6 @@ content-tab-security-high-icon =
     .alt = Die Verbindung ist verschlüsselt.
 content-tab-security-broken-icon =
     .alt = Die Verbindung ist nicht verschlüsselt.
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -56,9 +53,6 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Zurück
     .accesskey = Z
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -69,9 +63,6 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Vor
     .accesskey = V
-
-# Reload
-
 content-tab-menu-reload =
     .aria-label = Neu laden
     .tooltiptext = Seite neu laden
@@ -81,9 +72,6 @@ content-tab-menu-reload-mac =
     .label = Neu laden
     .tooltiptext = Seite neu laden
     .accesskey = N
-
-# Stop
-
 content-tab-menu-stop =
     .aria-label = Beenden
     .tooltiptext = Laden der Seite beenden
@@ -109,9 +97,6 @@ open-tabs-warning-confirmation =
         [one] { $count } Nachricht zu öffnen könnte lange dauern. Fortfahren?
        *[other] { $count } Nachrichten zu öffnen könnte lange dauern. Fortfahren?
     }
-
-## Sign-in window
-
 
 ## Toolbar
 

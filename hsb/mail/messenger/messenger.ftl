@@ -45,9 +45,6 @@ content-tab-security-high-icon =
     .alt = Zwisk je wěsty
 content-tab-security-broken-icon =
     .alt = Zwisk wěsty njeje
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -58,9 +55,6 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Wróćo
     .accesskey = W
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -71,9 +65,6 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Doprědka
     .accesskey = D
-
-# Reload
-
 content-tab-menu-reload =
     .aria-label = Znowa začitać
     .tooltiptext = Stronu znowa začitać
@@ -83,9 +74,6 @@ content-tab-menu-reload-mac =
     .label = Znowa začitać
     .tooltiptext = Stronu znowa začitać
     .accesskey = Z
-
-# Stop
-
 content-tab-menu-stop =
     .aria-label = Zastajić
     .tooltiptext = Začitanje stronje zastajić
@@ -115,9 +103,6 @@ open-tabs-warning-confirmation =
         [few] Wočinjenje { $count } powěsćow móže dlěje trać. Pokročować?
        *[other] Wočinjenje { $count } powěsćow móže dlěje trać. Pokročować?
     }
-
-## Sign-in window
-
 
 ## Toolbar
 

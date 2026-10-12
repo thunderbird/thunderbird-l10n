@@ -47,9 +47,6 @@ content-tab-security-high-icon =
     .alt = Mae'r cysylltiad yn ddiogel
 content-tab-security-broken-icon =
     .alt = Nid yw'r cysylltiad yn ddiogel
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -60,9 +57,6 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Nôl
     .accesskey = ô
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -73,9 +67,6 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Ymlaen
     .accesskey = m
-
-# Reload
-
 content-tab-menu-reload =
     .aria-label = Ail-lwytho
     .tooltiptext = Ail-lwytho tudalen
@@ -85,9 +76,6 @@ content-tab-menu-reload-mac =
     .label = Ail-lwytho
     .tooltiptext = Ail-lwytho tudalen
     .accesskey = i
-
-# Stop
-
 content-tab-menu-stop =
     .aria-label = Atal
     .tooltiptext = Atal llwytho tudalen
@@ -115,9 +103,6 @@ open-tabs-warning-confirmation =
         [one] Efallai bydd agor { $count }neges yn araf. Parhau?
        *[other] Efallai bydd agor { $count }neges yn araf. Parhau?
     }
-
-## Sign-in window
-
 
 ## Toolbar
 

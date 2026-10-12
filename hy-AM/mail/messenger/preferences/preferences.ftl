@@ -459,7 +459,6 @@ remote-content-label =
 exceptions-button =
     .label = Բացառություններ...
     .accesskey = E
-remote-content-privacy-info = Մանրամասներ՝ հեռակա բովանդակության անվտանգության մասին
 remote-content-info =
     .value = Մանրամասներ՝ հեռակա բովանդակության անվտանգության մասին
 web-content = Վեբ բովանդակություն

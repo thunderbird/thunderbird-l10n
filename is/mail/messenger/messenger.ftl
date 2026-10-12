@@ -43,9 +43,6 @@ content-tab-security-high-icon =
     .alt = Tengingin er örugg
 content-tab-security-broken-icon =
     .alt = Tengingin er ekki örugg
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -56,9 +53,6 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Til baka
     .accesskey = b
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -69,9 +63,6 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Áfram
     .accesskey = f
-
-# Reload
-
 content-tab-menu-reload =
     .aria-label = Endurlesa
     .tooltiptext = Endurlesa síðu
@@ -81,9 +72,6 @@ content-tab-menu-reload-mac =
     .label = Endurlesa
     .tooltiptext = Endurlesa síðu
     .accesskey = r
-
-# Stop
-
 content-tab-menu-stop =
     .aria-label = Hætta
     .tooltiptext = Hætta að hlaða síðu
@@ -109,9 +97,6 @@ open-tabs-warning-confirmation =
         [one] Að opna { $count } póst gæti verið hægvirkt. Halda áfram?
        *[other] Að opna { $count } pósta gæti verið hægvirkt. Halda áfram?
     }
-
-## Sign-in window
-
 
 ## Toolbar
 

@@ -1139,10 +1139,3 @@ calendar-window-title-base = { -brand-full-name }
 #   $calendarName (String) - Calendar name as given by the user.
 #   $location (String) - The calendar server location.
 calendar-auth-enter-user-password-for-calendar = ‘{ $calendarName }’ ({ $location }) freget om jo brûkersnamme en wachtwurd.
-# Variables:
-#   $username (String) - The account username.
-#   $location (String) - The calendar server location.
-calendar-auth-enter-password-for = Fier wachtwurd yn foar { $username } op { $location }
-# Variables:
-#   $location (String) - The calendar server location.
-calendar-auth-enter-user-password-for = { $location } freget om jo brûkersnamme en wachtwurd.

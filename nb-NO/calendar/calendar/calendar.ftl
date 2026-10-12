@@ -1135,10 +1135,3 @@ calendar-window-title-base = { -brand-full-name }
 #   $calendarName (String) - Calendar name as given by the user.
 #   $location (String) - The calendar server location.
 calendar-auth-enter-user-password-for-calendar = «{ $calendarName }» ({ $location }) ber om brukernavn og passord.
-# Variables:
-#   $username (String) - The account username.
-#   $location (String) - The calendar server location.
-calendar-auth-enter-password-for = Skriv inn passordet for { $username } på { $location }
-# Variables:
-#   $location (String) - The calendar server location.
-calendar-auth-enter-user-password-for = { $location } krever brukernavn og passord.

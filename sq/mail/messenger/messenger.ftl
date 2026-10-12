@@ -43,9 +43,6 @@ content-tab-security-high-icon =
     .alt = Lidhja është e sigurt
 content-tab-security-broken-icon =
     .alt = Lidhja s’është e sigurt
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -56,9 +53,6 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Mbrapsht
     .accesskey = M
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -69,9 +63,6 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Përpara
     .accesskey = P
-
-# Reload
-
 content-tab-menu-reload =
     .aria-label = Ringarkoje
     .tooltiptext = Ringarkoje faqen
@@ -81,9 +72,6 @@ content-tab-menu-reload-mac =
     .label = Ringarkoje
     .tooltiptext = Ringarkoje faqen
     .accesskey = R
-
-# Stop
-
 content-tab-menu-stop =
     .aria-label = Ndale
     .tooltiptext = Ndale ngarkimin e faqes
@@ -109,9 +97,6 @@ open-tabs-warning-confirmation =
         [one] Hapja e { $count } mesazhi mund të jetë e ngadaltë. Të vazhdohet?
        *[other] Hapja e { $count } mesazheve mund të jetë e ngadaltë. Të vazhdohet?
     }
-
-## Sign-in window
-
 
 ## Toolbar
 

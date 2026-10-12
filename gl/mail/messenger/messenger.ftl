@@ -43,9 +43,6 @@ content-tab-security-high-icon =
     .alt = A conexión é segura
 content-tab-security-broken-icon =
     .alt = A conexión non é segura
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -56,9 +53,6 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Recuar
     .accesskey = R
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -69,9 +63,6 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Avanzar
     .accesskey = A
-
-# Reload
-
 content-tab-menu-reload =
     .aria-label = Recargar
     .tooltiptext = Recargar a páxina
@@ -81,9 +72,6 @@ content-tab-menu-reload-mac =
     .label = Recargar
     .tooltiptext = Recargar a páxina
     .accesskey = R
-
-# Stop
-
 content-tab-menu-stop =
     .aria-label = Deter
     .tooltiptext = Deter a carga da páxina
@@ -109,9 +97,6 @@ open-tabs-warning-confirmation =
         [one] A apertura dunha mensaxe pode ser lento. Continuar?
        *[other] A apertura de { $count } mensaxes pode ser lento. Continuar?
     }
-
-## Sign-in window
-
 
 ## Toolbar
 
@@ -555,21 +540,12 @@ quota-panel-percent-used = { $percent }% cheo
         IMAP quota: { $usage } used of { $limit } total
         Cota de IMAP: { $usage } usado dun total de { $limit }
 
-## Sort menu.
-
-
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
-
-## Folder pane context.
-
-
-## Thread pane.
-
 
 ## Message header.
 
@@ -625,12 +601,6 @@ and-others = e outros.
 ## Prompts
 
 prompt-dont-ask-again = Non preguntar de novo.
-
-## Spam commands
-
-
-## Ignore threads
-
 
 ## Attachments
 

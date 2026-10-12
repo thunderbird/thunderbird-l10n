@@ -43,9 +43,6 @@ content-tab-security-high-icon =
     .alt = Връзката е защитена
 content-tab-security-broken-icon =
     .alt = Връзката не е защитена
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -56,9 +53,6 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Назад
     .accesskey = Н
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -69,9 +63,6 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Напред
     .accesskey = р
-
-# Reload
-
 content-tab-menu-reload =
     .aria-label = Презареждане
     .tooltiptext = Презареждане на страница
@@ -81,9 +72,6 @@ content-tab-menu-reload-mac =
     .label = Презареждане
     .tooltiptext = Презареждане на страницата
     .accesskey = П
-
-# Stop
-
 content-tab-menu-stop =
     .aria-label = Спиране
     .tooltiptext = Спиране на зареждането на страницата
@@ -109,9 +97,6 @@ open-tabs-warning-confirmation =
         [one] Отварянето на { $count } съобщение може да е бавно. Продължаване?
        *[other] Отварянето на { $count } съобщения може да е бавно. Продължаване?
     }
-
-## Sign-in window
-
 
 ## Toolbar
 
@@ -683,9 +668,6 @@ prompt-dont-ask-again = Спиране на този въпрос.
 # $percentage (Number) - The percentage of completion of the spam analysis.
 spam-analysis-percentage = Анализ на нежелана поща { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } завършен
 spam-processing-message = Обработване на нежелани съобщения
-
-## Ignore threads
-
 
 ## Attachments
 

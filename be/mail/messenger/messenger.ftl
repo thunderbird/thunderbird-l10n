@@ -42,9 +42,6 @@ content-tab-security-high-icon =
     .alt = Злучэнне абаронена
 content-tab-security-broken-icon =
     .alt = Злучэнне не абаронена
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -55,9 +52,6 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Назад
     .accesskey = з
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -68,9 +62,6 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Наперад
     .accesskey = п
-
-# Reload
-
 content-tab-menu-reload =
     .aria-label = Перазагрузіць
     .tooltiptext = Перазагрузіць старонку
@@ -80,9 +71,6 @@ content-tab-menu-reload-mac =
     .label = Перазагрузіць
     .tooltiptext = Перазагрузіць старонку
     .accesskey = П
-
-# Stop
-
 content-tab-menu-stop =
     .aria-label = Спыніць
     .tooltiptext = Спыніць загрузку старонкі
@@ -110,9 +98,6 @@ open-tabs-warning-confirmation =
         [few] Адкрыццё { $count } лістоў можа быць марудным.  Працягнуць?
        *[many] Адкрыццё { $count } лістоў можа быць марудным.  Працягнуць?
     }
-
-## Sign-in window
-
 
 ## Toolbar
 
@@ -161,9 +146,6 @@ show-tags-folders-label =
 folder-toolbar-toggle-folder-compact-view =
     .label = Кампактны выгляд
     .accesskey = К
-
-## Folder names
-
 
 ## File Menu
 
@@ -410,9 +392,6 @@ repair-text-encoding-button =
 no-reply-title = Адказ не падтрымліваецца
 no-reply-reply-anyway-button = Усё роўна адказаць
 
-## error messages
-
-
 ## Spaces toolbar
 
 spaces-toolbar-element =
@@ -508,33 +487,12 @@ quick-filter-bar-toggle =
 quick-filter-bar-show =
     .key = k
 
-## OpenPGP
-
-
-## Quota panel.
-
-
-## Sort menu.
-
-
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
-
-## Folder pane context.
-
-
-## Thread pane.
-
-
-## Message header.
-
-
-## Actions for the New Mail Notification
-
 
 ## Message list.
 
@@ -564,15 +522,6 @@ message-group-no-attachments = Няма далучэнняў
 message-group-attachments = Далучэнні
 message-group-not-starred = Без зорак
 message-group-starred = З зоркамі
-
-## Prompts
-
-
-## Spam commands
-
-
-## Ignore threads
-
 
 ## Attachments
 

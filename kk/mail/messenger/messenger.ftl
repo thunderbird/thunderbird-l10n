@@ -42,9 +42,6 @@ content-tab-security-high-icon =
     .alt = Байланыс қауіпсіз
 content-tab-security-broken-icon =
     .alt = Байланыс қауіпсіз емес
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -55,9 +52,6 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Артқа
     .accesskey = р
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -68,9 +62,6 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Алға
     .accesskey = л
-
-# Reload
-
 content-tab-menu-reload =
     .aria-label = Қайта жүктеу
     .tooltiptext = Парақты қайта жүктеу
@@ -80,9 +71,6 @@ content-tab-menu-reload-mac =
     .label = Қайта жүктеу
     .tooltiptext = Парақты қайта жүктеу
     .accesskey = й
-
-# Stop
-
 content-tab-menu-stop =
     .aria-label = Тоқтату
     .tooltiptext = Парақ жүктелуін тоқтату
@@ -108,9 +96,6 @@ open-tabs-warning-confirmation =
         [one] { $count } хабарламаны ашу баяу болуы мүмкін. Жалғастыру керек пе?
        *[other] { $count } хабарламаны ашу баяу болуы мүмкін. Жалғастыру керек пе?
     }
-
-## Sign-in window
-
 
 ## Toolbar
 

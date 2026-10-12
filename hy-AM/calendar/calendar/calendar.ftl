@@ -1093,6 +1093,3 @@ event-recurrence-forever =
 attendees-tab-label = Մասնակիցներ ({ $count })․
 # $count - the number of attachments
 attachments-tab-label = Հավելվածներ ({ $count })․
-# Variables:
-#   $location (String) - The calendar server location.
-calendar-auth-enter-user-password-for = { $location }-ը խնդրում է ձեր օգտատիրոջ անունը և գաղտնաբառը։

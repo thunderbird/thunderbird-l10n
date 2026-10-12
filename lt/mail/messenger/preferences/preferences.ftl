@@ -477,7 +477,6 @@ remote-content-label =
 exceptions-button =
     .label = Išimtys…
     .accesskey = š
-remote-content-privacy-info = Sužinoti daugiau apie privatumo problemas, leidžiant intarpus iš tinklo
 remote-content-info =
     .value = Sužinoti daugiau apie privatumo problemas, leidžiant intarpus iš tinklo
 web-content = Saityno turinys

@@ -43,9 +43,6 @@ content-tab-security-high-icon =
     .alt = La connexió és segura
 content-tab-security-broken-icon =
     .alt = La connexió no és segura
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -56,9 +53,6 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Enrere
     .accesskey = E
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -69,9 +63,6 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Endavant
     .accesskey = d
-
-# Reload
-
 content-tab-menu-reload =
     .aria-label = Torna a carregar
     .tooltiptext = Torna a carregar la pàgina
@@ -81,9 +72,6 @@ content-tab-menu-reload-mac =
     .label = Torna a carregar
     .tooltiptext = Torna a carregar la pàgina
     .accesskey = r
-
-# Stop
-
 content-tab-menu-stop =
     .aria-label = Atura
     .tooltiptext = Atura la càrrega de la pàgina
@@ -109,9 +97,6 @@ open-tabs-warning-confirmation =
         [one] Obrir { $count } missatge pot ser lent. Voleu continuar?
        *[other] Obrir { $count } missatges pot ser lent. Voleu continuar?
     }
-
-## Sign-in window
-
 
 ## Toolbar
 
@@ -160,9 +145,6 @@ show-tags-folders-label =
 folder-toolbar-toggle-folder-compact-view =
     .label = Visualització compacta
     .accesskey = c
-
-## Folder names
-
 
 ## File Menu
 
@@ -529,27 +511,12 @@ openpgp-forget = Oblida les frases de contrasenya de l'OpenPGP
 quota-panel-percent-used = { $percent }% ple
     .title = Quota d'IMAP: { $usage } en ús d'un total de { $limit }
 
-## Sort menu.
-
-
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
-
-## Folder pane context.
-
-
-## Thread pane.
-
-
-## Message header.
-
-
-## Actions for the New Mail Notification
-
 
 ## Message list.
 
@@ -583,15 +550,6 @@ message-group-starred = Destacats
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = i altres
-
-## Prompts
-
-
-## Spam commands
-
-
-## Ignore threads
-
 
 ## Attachments
 

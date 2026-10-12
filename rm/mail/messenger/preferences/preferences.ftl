@@ -572,7 +572,6 @@ remote-content-label =
 exceptions-button =
     .label = Excepziuns…
     .accesskey = E
-remote-content-privacy-info = Ulteriuras infurmaziuns davart cuntegns externs ed il problem per la sfera privata
 remote-content-info =
     .value = Ulteriuras infurmaziuns davart cuntegns externs ed il problem per la sfera privata
 web-content = Cuntegn dal web

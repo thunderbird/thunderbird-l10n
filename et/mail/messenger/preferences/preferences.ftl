@@ -527,7 +527,6 @@ remote-content-label =
 exceptions-button =
     .label = Erandid…
     .accesskey = E
-remote-content-privacy-info = Rohkem teavet välise sisuga seonduvatest privaatsuse probleemidest
 remote-content-info =
     .value = Rohkem teavet välise sisuga seonduvatest privaatsuse probleemidest
 web-content = Veebisisu

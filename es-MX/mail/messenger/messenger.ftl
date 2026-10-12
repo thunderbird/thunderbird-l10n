@@ -43,9 +43,6 @@ content-tab-security-high-icon =
     .alt = La conexión es segura
 content-tab-security-broken-icon =
     .alt = La conexión no es segura
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -56,9 +53,6 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Atrás
     .accesskey = A
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -69,9 +63,6 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Siguiente
     .accesskey = S
-
-# Reload
-
 content-tab-menu-reload =
     .aria-label = Recargar
     .tooltiptext = Recargar página
@@ -81,9 +72,6 @@ content-tab-menu-reload-mac =
     .label = Recargar
     .tooltiptext = Recargar la página
     .accesskey = R
-
-# Stop
-
 content-tab-menu-stop =
     .aria-label = Detener
     .tooltiptext = Detener la carga de la página
@@ -109,9 +97,6 @@ open-tabs-warning-confirmation =
         [one] Abrir { $count } mensaje puede tardar. ¿Continuar?
        *[other] Abrir { $count } mensajes puede tardar. ¿Continuar?
     }
-
-## Sign-in window
-
 
 ## Toolbar
 
@@ -376,9 +361,6 @@ no-reply-title = Respuesta no admitida
 no-reply-message = La dirección de respuesta ({ $email }) no parece ser una dirección supervisada. Es probable que los mensajes a esta dirección no sean leídos por nadie.
 no-reply-reply-anyway-button = Responder de todos modos
 
-## error messages
-
-
 ## Spaces toolbar
 
 spaces-toolbar-element =
@@ -479,9 +461,6 @@ quick-filter-bar-show =
 
 openpgp-forget = Olvídate de las frases de contraseña de OpenPGP
 
-## Quota panel.
-
-
 ## Sort menu.
 
 sort-by-spam-status =
@@ -497,15 +476,6 @@ mark-as-junk-key =
     .key = b
 mark-not-junk-key =
     .key = l
-
-## Folder pane context.
-
-
-## Thread pane.
-
-
-## Message header.
-
 
 ## Actions for the New Mail Notification
 
@@ -546,15 +516,6 @@ message-group-starred = Destacado
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = et al.
-
-## Prompts
-
-
-## Spam commands
-
-
-## Ignore threads
-
 
 ## Attachments
 

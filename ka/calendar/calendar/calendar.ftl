@@ -1131,10 +1131,3 @@ calendar-window-title-base = { -brand-full-name }
 #   $calendarName (String) - Calendar name as given by the user.
 #   $location (String) - The calendar server location.
 calendar-auth-enter-user-password-for-calendar = „{ $calendarName }“ ({ $location }) ითხოვს თქვენი მომხმარებლის სახელსა და პაროლს.
-# Variables:
-#   $username (String) - The account username.
-#   $location (String) - The calendar server location.
-calendar-auth-enter-password-for = დაიცავით { $username } პაროლით მისამართზე { $location }
-# Variables:
-#   $location (String) - The calendar server location.
-calendar-auth-enter-user-password-for = { $location } ითხოვს მომხმარებლის სახელსა და პაროლს.

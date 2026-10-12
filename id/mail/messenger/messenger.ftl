@@ -39,9 +39,6 @@ content-tab-security-high-icon =
     .alt = Sambungan aman
 content-tab-security-broken-icon =
     .alt = Sambungan tidak aman
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -52,9 +49,6 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Mundur
     .accesskey = M
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -65,9 +59,6 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Maju
     .accesskey = u
-
-# Reload
-
 content-tab-menu-reload =
     .aria-label = Muat ulang
     .tooltiptext = Muat ulang laman
@@ -77,9 +68,6 @@ content-tab-menu-reload-mac =
     .label = Muat ulang
     .tooltiptext = Muat ulang laman
     .accesskey = g
-
-# Stop
-
 content-tab-menu-stop =
     .aria-label = Berhenti
     .tooltiptext = Hentikan pemuatan laman
@@ -97,9 +85,6 @@ open-tabs-warning-confirmation-title = Konfirmasi
 # Variables:
 #   $count - number of messages to open
 open-tabs-warning-confirmation = Membuka pesan { $count } mungkin lambat. Lanjutkan?
-
-## Sign-in window
-
 
 ## Toolbar
 

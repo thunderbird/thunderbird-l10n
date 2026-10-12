@@ -43,9 +43,6 @@ content-tab-security-high-icon =
     .alt = Forbindelsen er sikker
 content-tab-security-broken-icon =
     .alt = Forbindelsen er ikke sikker
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -56,9 +53,6 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Tilbage
     .accesskey = T
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -69,9 +63,6 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Frem
     .accesskey = F
-
-# Reload
-
 content-tab-menu-reload =
     .aria-label = Genindlæs
     .tooltiptext = Genindlæs side
@@ -81,9 +72,6 @@ content-tab-menu-reload-mac =
     .label = Genindlæs
     .tooltiptext = Genindlæs side
     .accesskey = G
-
-# Stop
-
 content-tab-menu-stop =
     .aria-label = Stop
     .tooltiptext = Stop indlæsning af side
@@ -109,9 +97,6 @@ open-tabs-warning-confirmation =
         [one] Åbning af { $count } meddelelse kan tage lang tid. Fortsæt?
        *[other] Åbning af { $count } meddelelser kan tage lang tid. Fortsæt?
     }
-
-## Sign-in window
-
 
 ## Toolbar
 

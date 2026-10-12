@@ -43,9 +43,6 @@ content-tab-security-high-icon =
     .alt = La connexion est sécurisée
 content-tab-security-broken-icon =
     .alt = La connexion n’est pas sécurisée
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -56,9 +53,6 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Page précédente
     .accesskey = P
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -69,9 +63,6 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Page suivante
     .accesskey = s
-
-# Reload
-
 content-tab-menu-reload =
     .aria-label = Actualiser
     .tooltiptext = Actualiser la page
@@ -81,9 +72,6 @@ content-tab-menu-reload-mac =
     .label = Actualiser
     .tooltiptext = Actualiser la page
     .accesskey = A
-
-# Stop
-
 content-tab-menu-stop =
     .aria-label = Arrêter
     .tooltiptext = Arrêter le chargement de la page
@@ -109,9 +97,6 @@ open-tabs-warning-confirmation =
         [one] L’ouverture de ce message risque de prendre beaucoup de temps. Continuer ?
        *[other] L’ouverture de { $count } messages risque de prendre beaucoup de temps. Continuer ?
     }
-
-## Sign-in window
-
 
 ## Toolbar
 

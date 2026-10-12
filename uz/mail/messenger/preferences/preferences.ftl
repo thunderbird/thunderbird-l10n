@@ -325,7 +325,6 @@ remote-content-label =
 exceptions-button =
     .label = Istisnolar...
     .accesskey = I
-remote-content-privacy-info = Masofadagi sayt maxfiylik muammolari haqida batafsil ma’lumot
 remote-content-info =
     .value = Masofadagi sayt maxfiylik muammolari haqida batafsil ma’lumot
 web-content = Veb sayt

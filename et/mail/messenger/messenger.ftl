@@ -43,9 +43,6 @@ content-tab-security-high-icon =
     .alt = Turvaline ühendus
 content-tab-security-broken-icon =
     .alt = Ühendus pole turvaline
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -56,9 +53,6 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Tagasi
     .accesskey = g
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -69,9 +63,6 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Edasta
     .accesskey = E
-
-# Reload
-
 content-tab-menu-reload =
     .aria-label = Laadi uuesti
     .tooltiptext = Laadi leht uuesti
@@ -81,9 +72,6 @@ content-tab-menu-reload-mac =
     .label = Laadi uuesti
     .tooltiptext = Laadi leht uuesti
     .accesskey = u
-
-# Stop
-
 content-tab-menu-stop =
     .aria-label = Stopp
     .tooltiptext = Peata lehe laadimine
@@ -109,9 +97,6 @@ open-tabs-warning-confirmation =
         [one] { $count } kirja avamine võib olla aeglane. Kas jätkata?
        *[other] { $count } kirja avamine võib olla aeglane. Kas jätkata?
     }
-
-## Sign-in window
-
 
 ## Toolbar
 
@@ -160,9 +145,6 @@ show-tags-folders-label =
 folder-toolbar-toggle-folder-compact-view =
     .label = Kompaktne vaade
     .accesskey = v
-
-## Folder names
-
 
 ## File Menu
 
@@ -546,24 +528,12 @@ openpgp-forget = Unusta OpenPGP paroolid
 quota-panel-percent-used = { $percent }% täis
     .title = IMAP kvoot: kasutusel { $usage }, kokku { $limit }
 
-## Sort menu.
-
-
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
-
-## Folder pane context.
-
-
-## Thread pane.
-
-
-## Message header.
-
 
 ## Actions for the New Mail Notification
 
@@ -605,15 +575,6 @@ message-group-starred = Tähistatud
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = jt
-
-## Prompts
-
-
-## Spam commands
-
-
-## Ignore threads
-
 
 ## Attachments
 

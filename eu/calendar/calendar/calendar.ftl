@@ -1131,10 +1131,3 @@ attachments-tab-label = Eranskinak ({ $count }):
 #   $docTitle (String) - The date or view label for the current calendar view.
 calendar-window-title = { $docTitle } - { -brand-full-name }
 calendar-window-title-base = { -brand-full-name }
-# Variables:
-#   $username (String) - The account username.
-#   $location (String) - The calendar server location.
-calendar-auth-enter-password-for = Sartu { $location }(e)ko  { $username }-ren pasahitza
-# Variables:
-#   $location (String) - The calendar server location.
-calendar-auth-enter-user-password-for = { $location } zure erabiltzaile-izena eta pasahitza eskatzen ari da

@@ -582,7 +582,6 @@ remote-content-label =
 exceptions-button =
     .label = Excepcións…
     .accesskey = E
-remote-content-privacy-info = Obteña máis información sobre os problemas de privacidade do contido remoto
 remote-content-info =
     .value = Obteña máis información sobre os problemas de privacidade do contido remoto
 web-content = Contido web

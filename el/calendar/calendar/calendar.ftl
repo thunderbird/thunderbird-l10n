@@ -1135,10 +1135,3 @@ calendar-window-title-base = { -brand-full-name }
 #   $calendarName (String) - Calendar name as given by the user.
 #   $location (String) - The calendar server location.
 calendar-auth-enter-user-password-for-calendar = Το ημερολόγιο «{ $calendarName }» ({ $location }) ζητά το όνομα χρήστη και τον κωδικό πρόσβασής σας.
-# Variables:
-#   $username (String) - The account username.
-#   $location (String) - The calendar server location.
-calendar-auth-enter-password-for = Εισαγάγετε τον κωδικό πρόσβασης για το { $username } στο { $location }
-# Variables:
-#   $location (String) - The calendar server location.
-calendar-auth-enter-user-password-for = Το { $location } ζητά το όνομα χρήστη και τον κωδικό πρόσβασής σας.

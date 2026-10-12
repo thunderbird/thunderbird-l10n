@@ -44,9 +44,6 @@ content-tab-security-high-icon =
     .alt = Spojení je zabezpečené
 content-tab-security-broken-icon =
     .alt = Spojení není zabezepečené
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -57,9 +54,6 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Zpět
     .accesskey = Z
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -70,9 +64,6 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Vpřed
     .accesskey = V
-
-# Reload
-
 content-tab-menu-reload =
     .aria-label = Znovu načíst
     .tooltiptext = Znovu načte stránku
@@ -82,9 +73,6 @@ content-tab-menu-reload-mac =
     .label = Znovu načíst
     .tooltiptext = Znovu načte stránku
     .accesskey = n
-
-# Stop
-
 content-tab-menu-stop =
     .aria-label = Zastavit
     .tooltiptext = Zastaví načítání stránky
@@ -112,9 +100,6 @@ open-tabs-warning-confirmation =
         [few] Otevření { $count } zpráv může být pomalé. Chcete pokračovat?
        *[other] Otevření { $count } zpráv může být pomalé. Chcete pokračovat?
     }
-
-## Sign-in window
-
 
 ## Toolbar
 

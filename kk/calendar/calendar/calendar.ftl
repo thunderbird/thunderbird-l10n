@@ -1138,10 +1138,3 @@ calendar-window-title-base = { -brand-full-name }
 #   $calendarName (String) - Calendar name as given by the user.
 #   $location (String) - The calendar server location.
 calendar-auth-enter-user-password-for-calendar = “{ $calendarName }” ({ $location }) сіздің пайдаланушы атын және паролін сұрап тұр.
-# Variables:
-#   $username (String) - The account username.
-#   $location (String) - The calendar server location.
-calendar-auth-enter-password-for = { $location } жеріндегі { $username } үшін паролін енгізіңіз
-# Variables:
-#   $location (String) - The calendar server location.
-calendar-auth-enter-user-password-for = { $location } сіздің пайдаланушы атын және паролін сұрап тұр.

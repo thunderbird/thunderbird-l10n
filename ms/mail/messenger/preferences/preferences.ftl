@@ -374,7 +374,6 @@ remote-content-label =
 exceptions-button =
     .label = Pengecualian…
     .accesskey = P
-remote-content-privacy-info = Ketahui lebih lanjut perihal isu privasi kandungan jauh
 remote-content-info =
     .value = Ketahui lebih lanjut perihal isu privasi kandungan jauh
 web-content = Kandungan Web

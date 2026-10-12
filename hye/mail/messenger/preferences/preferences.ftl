@@ -503,7 +503,6 @@ remote-content-label =
 exceptions-button =
     .label = Բացառութիւններ...
     .accesskey = Բ
-remote-content-privacy-info = Իմացիր աւելին՝ հեռակայ բովանդակութեան անվտանգութեան մասին
 remote-content-info =
     .value = Իմացիր աւելին՝ հեռակայ բովանդակութեան անվտանգութեան մասին
 web-content = Վեբ բովանդակութիւն

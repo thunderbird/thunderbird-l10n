@@ -475,7 +475,6 @@ remote-content-label =
 exceptions-button =
     .label = Eisgeachdan...
     .accesskey = E
-remote-content-privacy-info = Barrachd fiosrachaidh air ceistean prìobhaideachd a thaobh susbaint chèin
 remote-content-info =
     .value = Barrachd fiosrachaidh air ceistean prìobhaideachd a thaobh susbaint chèin
 web-content = Susbaint-lìn

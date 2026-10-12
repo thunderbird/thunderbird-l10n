@@ -361,7 +361,6 @@ remote-content-label =
 exceptions-button =
     .label = Izuzeci…
     .accesskey = I
-remote-content-privacy-info = Saznajte više o problemima oko privatnosti kod vanjskog sadržaja
 remote-content-info =
     .value = Saznajte više o problemima oko privatnosti kod vanjskog sadržaja
 web-content = Web sadržaj

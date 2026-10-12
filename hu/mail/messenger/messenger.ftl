@@ -43,9 +43,6 @@ content-tab-security-high-icon =
     .alt = A kapcsolat biztonságos
 content-tab-security-broken-icon =
     .alt = A kapcsolat nem biztonságos
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -56,9 +53,6 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Vissza
     .accesskey = V
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -69,9 +63,6 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Előre
     .accesskey = E
-
-# Reload
-
 content-tab-menu-reload =
     .aria-label = Újratöltés
     .tooltiptext = Oldal újratöltése
@@ -81,9 +72,6 @@ content-tab-menu-reload-mac =
     .label = Újratöltés
     .tooltiptext = Oldal újratöltése
     .accesskey = r
-
-# Stop
-
 content-tab-menu-stop =
     .aria-label = Leállítás
     .tooltiptext = Oldalbetöltés leállítása
@@ -109,9 +97,6 @@ open-tabs-warning-confirmation =
         [one] { $count } üzenet megnyitása lassú lehet. Folytatja?
        *[other] { $count } üzenet megnyitása lassú lehet. Folytatja?
     }
-
-## Sign-in window
-
 
 ## Toolbar
 

@@ -418,7 +418,6 @@ remote-content-label =
 exceptions-button =
     .label = Eisceachtaí…
     .accesskey = E
-remote-content-privacy-info = Tuilleadh eolais faoin phríobháideacht agus ábhar i gcéin
 remote-content-info =
     .value = Tuilleadh eolais faoin phríobháideacht agus ábhar i gcéin
 web-content = Inneachar Gréasáin

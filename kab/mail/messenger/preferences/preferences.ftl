@@ -499,7 +499,6 @@ remote-content-label =
 exceptions-button =
     .label = Tisuraf...
     .accesskey = r
-remote-content-privacy-info = Issin ugar ɣef wuguren n tbaḍnit n ugbur anmeggag
 remote-content-info =
     .value = Issin ugar ɣef wuguren n tbaḍnit n ugbur anmeggag
 web-content = Agbur Web

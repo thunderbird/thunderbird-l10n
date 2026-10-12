@@ -44,9 +44,6 @@ content-tab-security-high-icon =
     .alt = Веза је безбедна
 content-tab-security-broken-icon =
     .alt = Веза није безбедна
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -57,9 +54,6 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Назад
     .accesskey = Н
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -70,9 +64,6 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Напред
     .accesskey = д
-
-# Reload
-
 content-tab-menu-reload =
     .aria-label = Поново учитај
     .tooltiptext = Поново учитај страницу
@@ -82,9 +73,6 @@ content-tab-menu-reload-mac =
     .label = Поново учитај
     .tooltiptext = Поново учитај страницу
     .accesskey = р
-
-# Stop
-
 content-tab-menu-stop =
     .aria-label = Заустави
     .tooltiptext = Заустави учитавање странице
@@ -112,9 +100,6 @@ open-tabs-warning-confirmation =
         [few] Отварање { $count } порука може бити споро. Наставити?
        *[other] Отварање { $count } порука може бити споро. Наставити?
     }
-
-## Sign-in window
-
 
 ## Toolbar
 

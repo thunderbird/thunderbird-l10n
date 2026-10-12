@@ -549,7 +549,6 @@ remote-content-label =
 exceptions-button =
     .label = Винятки…
     .accesskey = В
-remote-content-privacy-info = Докладніше про питання приватності й віддалений вміст
 remote-content-info =
     .value = Докладніше про питання приватності й віддалений вміст
 web-content = Вебвміст

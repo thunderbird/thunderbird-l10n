@@ -43,9 +43,6 @@ content-tab-security-high-icon =
     .alt = კავშირი დაცულია
 content-tab-security-broken-icon =
     .alt = კავშირი დაუცველია
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -56,9 +53,6 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = წინა
     .accesskey = წ
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -69,9 +63,6 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = შემდეგი
     .accesskey = გ
-
-# Reload
-
 content-tab-menu-reload =
     .aria-label = გაახლება
     .tooltiptext = გვერდის გაახლება
@@ -81,9 +72,6 @@ content-tab-menu-reload-mac =
     .label = გაახლება
     .tooltiptext = გვერდის გაახლება
     .accesskey = ხ
-
-# Stop
-
 content-tab-menu-stop =
     .aria-label = შეწყვეტა
     .tooltiptext = გვერდის ჩატვირთვის შეწყვეტა
@@ -101,9 +89,6 @@ open-tabs-warning-confirmation-title = დადასტურება
 # Variables:
 #   $count - number of messages to open
 open-tabs-warning-confirmation = { $count } წერილის გახსნას შეიძლება დიდი დრო დასჭირდეს.  გავაგრძელო?
-
-## Sign-in window
-
 
 ## Toolbar
 

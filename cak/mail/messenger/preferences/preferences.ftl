@@ -420,7 +420,6 @@ remote-content-label =
 exceptions-button =
     .label = Taq man relik ta…
     .accesskey = m
-remote-content-privacy-info = Tetamäx ch'aqa' chik chi kij ri taq ruk'ayewal richinanem näj rupam
 remote-content-info =
     .value = Tetamäx ch'aqa' chik chi kij ri taq ruk'ayewal richinanem näj rupam
 web-content = Ajk'amaya'l Rupam

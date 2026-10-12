@@ -44,9 +44,6 @@ content-tab-security-high-icon =
     .alt = Защищённое соединение
 content-tab-security-broken-icon =
     .alt = Соединение не защищено
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -57,9 +54,6 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Назад
     .accesskey = а
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -70,9 +64,6 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Вперёд
     .accesskey = е
-
-# Reload
-
 content-tab-menu-reload =
     .aria-label = Перезагрузить
     .tooltiptext = Перезагрузить страницу
@@ -82,9 +73,6 @@ content-tab-menu-reload-mac =
     .label = Перезагрузить
     .tooltiptext = Перезагрузить страницу
     .accesskey = з
-
-# Stop
-
 content-tab-menu-stop =
     .aria-label = Остановить
     .tooltiptext = Остановить загрузку страницы
@@ -112,9 +100,6 @@ open-tabs-warning-confirmation =
         [few] Открытие { $count } сообщений может быть медленным. Продолжить?
        *[many] Открытие { $count } сообщений может быть медленным. Продолжить?
     }
-
-## Sign-in window
-
 
 ## Toolbar
 

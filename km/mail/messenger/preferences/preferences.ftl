@@ -331,7 +331,6 @@ remote-content-label =
 exceptions-button =
     .label = ករណី​លើកលែង…
     .accesskey = E
-remote-content-privacy-info = ស្វែងយល់​បន្ថែម​អំពី​បញ្ហា​ភាព​ឯកជន​នៃ​មាតិកា​ពី​ចម្ងាយ
 remote-content-info =
     .value = ស្វែងយល់​បន្ថែម​អំពី​បញ្ហា​ភាព​ឯកជន​នៃ​មាតិកា​ពី​ចម្ងាយ
 web-content = Web Content

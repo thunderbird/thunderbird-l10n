@@ -512,7 +512,6 @@ remote-content-label =
 exceptions-button =
     .label = Выключэнні…
     .accesskey = ы
-remote-content-privacy-info = Даведайцеся больш пра прыватнасць аддаленага змесціва
 remote-content-info =
     .value = Даведайцеся больш пра прыватнасць аддаленага змесціва
 web-content = Змесціва вэб-сайтаў

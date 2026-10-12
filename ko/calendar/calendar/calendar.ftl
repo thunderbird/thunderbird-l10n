@@ -1060,10 +1060,3 @@ attachments-tab-label = 첨부파일({ $count }):
 #   $docTitle (String) - The date or view label for the current calendar view.
 calendar-window-title = { $docTitle } - { -brand-full-name }
 calendar-window-title-base = { -brand-full-name }
-# Variables:
-#   $username (String) - The account username.
-#   $location (String) - The calendar server location.
-calendar-auth-enter-password-for = { $location } 내 { $username }의 비밀번호 입력
-# Variables:
-#   $location (String) - The calendar server location.
-calendar-auth-enter-user-password-for = { $location } 서버가 사용자 이름과 비밀번호를 요청하고 있습니다.

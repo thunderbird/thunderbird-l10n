@@ -43,9 +43,6 @@ content-tab-security-high-icon =
     .alt = Konexioa segurua da
 content-tab-security-broken-icon =
     .alt = Konexioa ez da segurua
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -56,9 +53,6 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Atzera
     .accesskey = A
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -69,9 +63,6 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Aurrera
     .accesskey = r
-
-# Reload
-
 content-tab-menu-reload =
     .aria-label = Berritu
     .tooltiptext = Berritu orria
@@ -81,9 +72,6 @@ content-tab-menu-reload-mac =
     .label = Berritu
     .tooltiptext = Berritu orria
     .accesskey = B
-
-# Stop
-
 content-tab-menu-stop =
     .aria-label = Gelditu
     .tooltiptext = Gelditu orria kargatzea
@@ -109,9 +97,6 @@ open-tabs-warning-confirmation =
         [one] Mezua irekitzea makala izan daiteke. Jarraitu?
        *[other] { $count } mezu irekitzea makala izan daiteke. Jarraitu?
     }
-
-## Sign-in window
-
 
 ## Toolbar
 
@@ -160,9 +145,6 @@ show-tags-folders-label =
 folder-toolbar-toggle-folder-compact-view =
     .label = Ikuspegi trinkoa
     .accesskey = t
-
-## Folder names
-
 
 ## File Menu
 
@@ -550,24 +532,12 @@ openpgp-forget = Ahaztu OpenPGP pasa-esdaldiak
 quota-panel-percent-used = { $percent }% full
     .title = IMAP kuota: { $usage } erabilia { $limit } guztirako limitetik
 
-## Sort menu.
-
-
 ## Message menu.
 
 mark-as-junk-key =
     .key = j
 mark-not-junk-key =
     .key = j
-
-## Folder pane context.
-
-
-## Thread pane.
-
-
-## Message header.
-
 
 ## Actions for the New Mail Notification
 
@@ -613,12 +583,6 @@ and-others = eta beste
 ## Prompts
 
 prompt-dont-ask-again = Ez galdetu berriz.
-
-## Spam commands
-
-
-## Ignore threads
-
 
 ## Attachments
 

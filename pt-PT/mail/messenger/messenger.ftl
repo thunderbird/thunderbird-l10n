@@ -43,9 +43,6 @@ content-tab-security-high-icon =
     .alt = A ligação é segura
 content-tab-security-broken-icon =
     .alt = A ligação não é segura
-
-# Back
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Back command.
 content-tab-menu-back =
@@ -56,9 +53,6 @@ content-tab-menu-back =
 content-tab-menu-back-mac =
     .label = Anterior
     .accesskey = A
-
-# Forward
-
 # Variables
 #   $shortcut (String) - A keyboard shortcut for the Go Forward command.
 content-tab-menu-forward =
@@ -69,9 +63,6 @@ content-tab-menu-forward =
 content-tab-menu-forward-mac =
     .label = Avançar
     .accesskey = v
-
-# Reload
-
 content-tab-menu-reload =
     .aria-label = Recarregar
     .tooltiptext = Recarregar página
@@ -81,9 +72,6 @@ content-tab-menu-reload-mac =
     .label = Recarregar
     .tooltiptext = Recarregar página
     .accesskey = R
-
-# Stop
-
 content-tab-menu-stop =
     .aria-label = Parar
     .tooltiptext = Parar carregamento da página
@@ -109,9 +97,6 @@ open-tabs-warning-confirmation =
         [one] A abertura de { $count } mensagem pode ser demorada. Continuar?
        *[other] A abertura de { $count } mensagens pode ser demorada. Continuar?
     }
-
-## Sign-in window
-
 
 ## Toolbar
 
