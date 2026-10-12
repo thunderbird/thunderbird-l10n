@@ -7,6 +7,8 @@
 
 messenger-eml-files-filter = Soubory s poštou
 messenger-open-eml-file-title = Otevřít zprávu
+# Keep the .eml extension and use an 8.3 file name.
+messenger-default-save-message-file-name = zprava.eml
 messenger-save-message-as = Uložit zprávu jako
 messenger-choose-folder = Vybrat složku
 messenger-save-message-failed = Nelze uložit zprávu. Zkontrolujte prosím název souboru a zkuste to znovu.
