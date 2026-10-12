@@ -9,6 +9,12 @@ messenger-eml-files-filter = Posta dosyaları
 messenger-open-eml-file-title = İletiyi aç
 # Keep the .eml extension and use an 8.3 file name.
 messenger-default-save-message-file-name = ileti.eml
+messenger-save-message-as = İletiyi farklı kaydet
+messenger-choose-folder = Klasör seç
+messenger-save-message-failed = İleti kaydedilemedi. Lütfen dosya adını kontrol edip yeniden deneyin.
+# Variables:
+# $filename (String) - Full path of the file that already exists.
+messenger-file-exists = { $filename } zaten mevcut. Üstüne yazmak ister misiniz?
 
 ## Window controls
 
