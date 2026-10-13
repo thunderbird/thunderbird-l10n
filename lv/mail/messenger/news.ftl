@@ -38,6 +38,12 @@ cancel-confirm = Vai tiešām atcelt šo ziņu?
 # $newsgroup (String) - The name of the newsgroup.
 auto-subscribe-text = Vai vēlaties abonēt { $newsgroup }?
 
+## Unknown News Server Dialog
+
+# Variables:
+# $server (String) - The hostname:port of the news server, e.g. news.example.com:119.
+unknown-news-server-text = Šī saite norāda uz { $server }, bet šim ziņu serverim nav iestatīts neviens konts. Vienalga izveidot savienojumu?
+
 ## News Server Credentials
 
 enter-news-credentials-title = Nepieciešams ziņu servera lietotājvārds un parole

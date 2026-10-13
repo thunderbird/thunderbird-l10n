@@ -155,6 +155,16 @@ error-code = Kļūdas kods: { $errorCode }
 # LOCALIZATION NOTE (error-description):
 #    $errorDescription will be replaced with the description of an error
 error-description = Apraksts: { $errorDescription }
+# Shown after the items of a day in the calendar views, when the day has too
+# many items to display at once. Clicking it displays more of them.
+# Variables:
+#   $count (Number) - The number of items in the day that are not displayed.
+calendar-view-more-items =
+    { $count ->
+        [zero] … un vēl { $count }
+        [one] … un vēl { $count }
+       *[other] … un vēl { $count }
+    }
 # LOCALIZATION NOTE (calendar-multiday-hour-slot):
 # Label for a time slot in the day/week calendar views.
 #    $date will be replaced with the day label, e.g. "Monday 6 Oct.";

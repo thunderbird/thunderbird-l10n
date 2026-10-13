@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+system-tray-app-name = { -brand-full-name }
 
 ## Mail Toolbar
 
@@ -17,3 +18,9 @@ toolbar-delete-button =
 toolbar-undelete-button =
     .label = Atdzēst
     .tooltiptext = Atdzēst atlasītās vēstules
+
+## File
+
+file-new-mailing-list =
+    .label = Adresātu saraksts…
+    .accesskey = A

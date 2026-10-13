@@ -33,6 +33,7 @@ policy-DisableForgetButton = Liegt pieeju Aizmirst pogai.
 policy-DisableFormHistory = Neatcerēties meklēšanas un veidlapu vēsturi.
 policy-DisableMasterPasswordCreation = Ja iestatīts, nevar iestatīt galveno paroli.
 policy-DisableMessageForwardingFilters = Neļaut ziņojumu atsijātāju izraisītu automātisku ziņojumu pārvirzīšanu.
+policy-DisablePasswordReveal2 = Neļaut atklāt paroles saglabātajos pieteikšanās vienumos vai paroļu laukos.
 policy-DisablePasswordReveal = Liegt izpaust paroles saglabātos pieteikšanās datos.
 policy-DisableProfileImport = Liegt izvēlnes komandu, kas importē datus no citas lietotnes.
 policy-DisableExperimentalFeatures = Atspējot Thunderbird izmēģinājuma iespējas

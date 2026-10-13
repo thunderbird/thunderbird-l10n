@@ -180,6 +180,11 @@ filter-editor-invalid-search-title = Nepareizi meklēšanas noteikumi
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
 filter-editor-invalid-search-rule = Šo filtru nevar saglabāt, jo meklēšanas likums "{ $attribute }{ $operator }" pašreizējā kontekstā nav pareizs.
+filter-editor-missing-value-title = Trūkst meklēšanas vērtības
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+filter-editor-missing-value-rule = Šo atsijātāju nevar saglabāt, jo meklēšanas vērtībai “{ $attribute } { $operator }” netika ievadīta vērtība.
 filter-editor-action-order-explanation = Kad ziņojums atbilst šim filtram, darbības tiks veiktas šādā secībā:
 filter-editor-action-order-title = Patiesā darbību kārtība
 # Variables:

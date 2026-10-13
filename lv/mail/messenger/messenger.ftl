@@ -6,15 +6,15 @@
 ## Message files
 
 messenger-eml-files-filter = Pasta datnes
-messenger-open-eml-file-title = Atvērt vēstuli
+messenger-open-eml-file-title = Atvērt ziņojumu
 # Keep the .eml extension and use an 8.3 file name.
-messenger-default-save-message-file-name = vēstule.eml
-messenger-save-message-as = Saglabāt vēstuli kā
-messenger-choose-folder = Izvēlieties mapi
-messenger-save-message-failed = Neizdevās saglabāt vēstuli. Lūdzu, pārbaudiet faila nosaukumu un mēģiniet vēlreiz.
+messenger-default-save-message-file-name = ziņojums.eml
+messenger-save-message-as = Saglabāt ziņojumu kā
+messenger-choose-folder = Izvēlēties mapi
+messenger-save-message-failed = Ziņojumu nevar saglabāt. Lūgums pārbaudīt datnes nosaukumu un mēģināt vēlreiz.
 # Variables:
 # $filename (String) - Full path of the file that already exists.
-messenger-file-exists = { $filename } jau pastāv. Vai vēlaties to aizvietot?
+messenger-file-exists = { $filename } jau pastāv. Vai aizvietot to?
 
 ## Window controls
 
@@ -98,6 +98,17 @@ open-tabs-warning-confirmation =
         [one] { $count } vēstuļu atvēršana var būt lēna. Turpināt?
        *[other] { $count } vēstuļu atvēršana var būt lēna. Turpināt?
     }
+
+## Sign-in window
+
+# Shown when the provider's sign-in page cannot use cookies because they are
+# blocked.
+browser-request-cookies-blocked = Sīkdatnes ir liegtas, kas var traucēt pieteikties.
+# Turns cookies back on. Same action as the "Accept cookies from sites" option
+# in Settings, Privacy & Security.
+browser-request-cookies-accept =
+    .label = Pieņemt no vietnēm sīkdatnes
+    .accesskey = P
 
 ## Toolbar
 
