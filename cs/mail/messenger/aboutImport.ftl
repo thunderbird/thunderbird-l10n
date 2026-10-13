@@ -103,6 +103,32 @@ addr-book-summary-description = Bude vytvořena nová složka s kontakty s názv
 import-from-calendar-file-desc = Vyberte soubor iCalendar (.ics), který chcete importovat.
 calendar-items-title = Vyberte, co chcete importovat.
 calendar-items-loading = Načítání položek…
+# $count (Number) - The number of items in the calendar file.
+calendar-items-count =
+    { $count ->
+        [one] Soubor obsahuje { $count } položku.
+        [few] Soubor obsahuje { $count } položky.
+       *[other] Soubor obsahuje { $count } položek.
+    }
+# Column headers of the list of calendar items to import.
+calendar-items-column-title-a11y =
+    .aria-label = Název
+calendar-items-column-title = Název
+    .title = Seřadíte podle názvu
+# The start date and time of each item.
+calendar-items-column-start-a11y =
+    .aria-label = Začátek
+calendar-items-column-start = Začátek
+    .title = Seřadíte podle začátku
+# The end date and time of each item.
+calendar-items-column-end-a11y =
+    .aria-label = Konec
+calendar-items-column-end = Konec
+    .title = Seřadíte podle konce
+# The column of checkboxes, to choose which items to import.
+calendar-items-column-import-a11y =
+    .aria-label = Importovat
+calendar-items-column-import = Importovat
 calendar-items-filter-input2 =
     .label = Filtrování položky
     .placeholder = Filtrování položek…

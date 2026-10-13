@@ -5,6 +5,7 @@
 toolbar-context-menu-menu-bar =
     .toolbarname = Lišta nabídek
     .accesskey = A
+system-tray-app-name = { -brand-full-name }
 
 ## Tools Menu
 
