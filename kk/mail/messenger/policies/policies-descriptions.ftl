@@ -38,6 +38,7 @@ policy-DisableForgetButton = Ұмыту батырмасына қатынауд�
 policy-DisableFormHistory = Іздеу және формалар тарихын сақтамау.
 policy-DisableMasterPasswordCreation = Мәні true болса, мастер-парольді орнату мүмкін болмайды.
 policy-DisableMessageForwardingFilters = Хабарлама сүзгілеріне хабарламаларды автоматты түрде қайта бағдарлауға жол бермеу.
+policy-DisablePasswordReveal2 = Сақталған логиндерде немесе парольдер өрістерінде парольдерді көрсетуге жол бермеу.
 policy-DisablePasswordReveal = Сақталған логиндерде парольдердің ашылуына жол бермеу.
 policy-DisableProfileImport = Басқа қолданбадан деректерді импорттау мәзір командасын сөндіру.
 policy-DisableExperimentalFeatures = Thunderbird ішіндегі эксперименттік мүмкіндіктерді сөндіру.

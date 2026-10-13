@@ -188,6 +188,11 @@ filter-editor-invalid-search-title = Іздеу ұғымдары жарамсы�
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
 filter-editor-invalid-search-rule = Сүзгіні сақтау мүмкін емес, өйткені "{ $attribute } { $operator }" іздеу ұғымдары ағымдағы контекстте жарамсыз.
+filter-editor-missing-value-title = Іздеу мәні жоқ
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+filter-editor-missing-value-rule = Бұл сүзгіні сақтау мүмкін емес, себебі { $attribute } { $operator }" іздеу термині үшін ешқандай мән енгізілмеген.
 filter-editor-action-order-explanation = Хабарлама бұл сүзгіге сәйкес келсе, әрекеттер келесі ретпен орындалады:
 filter-editor-action-order-title = Шын әрекеттер реті
 # Variables:

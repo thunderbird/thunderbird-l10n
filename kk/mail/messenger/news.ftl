@@ -66,6 +66,12 @@ cancel-confirm = Бұл хабарламадан бас тартуды қала�
 # $newsgroup (String) - The name of the newsgroup.
 auto-subscribe-text = { $newsgroup } тобына жазылуды қалайсыз ба?
 
+## Unknown News Server Dialog
+
+# Variables:
+# $server (String) - The hostname:port of the news server, e.g. news.example.com:119.
+unknown-news-server-text = Бұл сілтеме { $server } серверіне нұсқайды, бірақ сол жаңалықтар сервері үшін ешқандай тіркелгі орнатылмаған. Қалай болғанда да қосыласыз ба?
+
 ## News Server Credentials
 
 enter-news-credentials-title = Жаңалықтар серверінің пайдаланушы аты және паролі керек

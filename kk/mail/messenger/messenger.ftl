@@ -97,6 +97,17 @@ open-tabs-warning-confirmation =
        *[other] { $count } хабарламаны ашу баяу болуы мүмкін. Жалғастыру керек пе?
     }
 
+## Sign-in window
+
+# Shown when the provider's sign-in page cannot use cookies because they are
+# blocked.
+browser-request-cookies-blocked = Cookie файлдары бұғатталған, бұл жүйеге кіруге кедергі келтіруі мүмкін.
+# Turns cookies back on. Same action as the "Accept cookies from sites" option
+# in Settings, Privacy & Security.
+browser-request-cookies-accept =
+    .label = Сайттардан cookie файлдарын қабылдау
+    .accesskey = а
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =

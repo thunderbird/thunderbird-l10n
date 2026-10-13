@@ -103,6 +103,31 @@ addr-book-summary-description = "{ $addressBookName }" деп аталатын �
 import-from-calendar-file-desc = Импорттағыңыз келетін iCalendar(.ics) файлын таңдаңыз.
 calendar-items-title = Импортталатын объектілерді таңдаңыз.
 calendar-items-loading = Нәрселерді жүктеу…
+# $count (Number) - The number of items in the calendar file.
+calendar-items-count =
+    { $count ->
+        [one] Бұл файлда { $count } элемент бар.
+       *[other] Бұл файлда { $count } элемент бар.
+    }
+# Column headers of the list of calendar items to import.
+calendar-items-column-title-a11y =
+    .aria-label = Атауы
+calendar-items-column-title = Атауы
+    .title = Атауы бойынша сұрыптау
+# The start date and time of each item.
+calendar-items-column-start-a11y =
+    .aria-label = Бастау
+calendar-items-column-start = Бастау
+    .title = Басталуы бойынша сұрыптау
+# The end date and time of each item.
+calendar-items-column-end-a11y =
+    .aria-label = Аяқтау
+calendar-items-column-end = Аяқтау
+    .title = Аяқталуы бойынша сұрыптау
+# The column of checkboxes, to choose which items to import.
+calendar-items-column-import-a11y =
+    .aria-label = Импорттау
+calendar-items-column-import = Импорттау
 calendar-items-filter-input2 =
     .label = Нәрселерді сүзгілеу
     .placeholder = Нәрселерді сүзгілеу…

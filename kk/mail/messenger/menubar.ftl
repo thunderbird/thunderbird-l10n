@@ -5,6 +5,7 @@
 toolbar-context-menu-menu-bar =
     .toolbarname = Мәзір жолағы
     .accesskey = М
+system-tray-app-name = { -brand-full-name }
 
 ## Tools Menu
 
@@ -162,6 +163,9 @@ file-new-newsgroup-account =
 file-new-addressbook =
     .label = Адрестік кітапша
     .accesskey = А
+file-new-mailing-list =
+    .label = Хаттарды тарату тізімі…
+    .accesskey = Х
 file-new-local-addressbook =
     .label = Жергілікті адрестік кітапша
     .accesskey = а
