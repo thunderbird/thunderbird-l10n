@@ -107,7 +107,7 @@ calendar-items-loading = Cargando elementos…
 calendar-items-count =
     { $count ->
         [one] El archivo contiene { $count } elemento.
-       *[other] El archivo contiene { $count } ítems.
+       *[other] El archivo contiene { $count } elementos.
     }
 # Column headers of the list of calendar items to import.
 calendar-items-column-title-a11y =
