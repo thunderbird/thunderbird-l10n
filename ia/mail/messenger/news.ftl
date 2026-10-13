@@ -66,6 +66,12 @@ cancel-confirm = Desira tu vermente cancellar iste message?
 # $newsgroup (String) - The name of the newsgroup.
 auto-subscribe-text = Vole tu abonar te a { $newsgroup }?
 
+## Unknown News Server Dialog
+
+# Variables:
+# $server (String) - The hostname:port of the news server, e.g. news.example.com:119.
+unknown-news-server-text = Iste ligamine indica { $server }, ma necun conto es definite pro ille servitor de gruppos de discussion. Connecter comocunque?
+
 ## News Server Credentials
 
 enter-news-credentials-title = Nomine de usator e contrasigno del servitor de gruppos de discussion obligatori

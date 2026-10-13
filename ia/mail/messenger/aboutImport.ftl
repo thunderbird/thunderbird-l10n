@@ -121,12 +121,31 @@ addr-book-summary-description = Un nove libro de adresses appellate "{ $addressB
 import-from-calendar-file-desc = Selige le file iCalendar (.ics) que tu vole importar.
 calendar-items-title = Selige le elementos a importar.
 calendar-items-loading = Cargante elementos…
+# $count (Number) - The number of items in the calendar file.
+calendar-items-count =
+    { $count ->
+        [one] Le file contine { $count } elemento.
+       *[other] Le file contine { $count } elementos.
+    }
 # Column headers of the list of calendar items to import.
 calendar-items-column-title-a11y =
     .aria-label = Titulo
+calendar-items-column-title = Titulo
+    .title = Ordinar per titulo
 # The start date and time of each item.
 calendar-items-column-start-a11y =
     .aria-label = Initiar
+calendar-items-column-start = Initiar
+    .title = Ordinar per initio
+# The end date and time of each item.
+calendar-items-column-end-a11y =
+    .aria-label = Fin
+calendar-items-column-end = Fin
+    .title = Ordinar per fin
+# The column of checkboxes, to choose which items to import.
+calendar-items-column-import-a11y =
+    .aria-label = Importar
+calendar-items-column-import = Importar
 calendar-items-filter-input2 =
     .label = Filtrar elementos
     .placeholder = Filtrar elementos…

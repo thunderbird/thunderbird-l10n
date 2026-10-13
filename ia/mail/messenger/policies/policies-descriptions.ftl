@@ -38,6 +38,7 @@ policy-DisableForgetButton = Impedir accesso al button Oblidar.
 policy-DisableFormHistory = Non rememorar le chronologia de recercas e formularios.
 policy-DisableMasterPasswordCreation = Si ver, non pote esser create un contrasigno maestro.
 policy-DisableMessageForwardingFilters = Impedir al filtros del messages de automaticamente inultrar messages.
+policy-DisablePasswordReveal2 = Non permitter contrasignos esser revelate in credentiales salvate o campos de contrasigno. Non permitter contrasignos esser revelate in credentiales salvate o campos de contrasigno.
 policy-DisablePasswordReveal = Non permitter de monstrar le contrasignos in le credentiales salvate.
 policy-DisableProfileImport = Disactivar le commando del menu pro importar datos ab un altere application.
 policy-DisableExperimentalFeatures = Disactivar functiones experimental in Thunderbird.
