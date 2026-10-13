@@ -101,6 +101,17 @@ open-tabs-warning-confirmation =
        *[other] Otvorenie { $count } správ môže trvať dlho. Pokračovať?
     }
 
+## Sign-in window
+
+# Shown when the provider's sign-in page cannot use cookies because they are
+# blocked.
+browser-request-cookies-blocked = Súbory cookie sú blokované, čo môže zabrániť prihláseniu.
+# Turns cookies back on. Same action as the "Accept cookies from sites" option
+# in Settings, Privacy & Security.
+browser-request-cookies-accept =
+    .label = Povoliť cookies webových stránok
+    .accesskey = P
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =

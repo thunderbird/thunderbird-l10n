@@ -38,6 +38,7 @@ policy-DisableForgetButton = Zablokuje prístup ku tlačidlu Zabudnúť.
 policy-DisableFormHistory = Vypne ukladanie histórie vyhľadávania a formulárov.
 policy-DisableMasterPasswordCreation = Hodnota true znemožní nastavenie hlavného hesla.
 policy-DisableMessageForwardingFilters = Zakáže automatické preposielanie správ pomocou filtrov.
+policy-DisablePasswordReveal2 = Zakáže zobrazovanie hesiel v uložených prihlasovacích údajoch a poliach pre heslá.
 policy-DisablePasswordReveal = Zablokuje zobrazovanie hesiel v správcovi prihlasovacích údajov.
 policy-DisableProfileImport = Zablokuje možnosť importu údajov z iných aplikácií.
 policy-DisableExperimentalFeatures = Zakáže experimentálne funkcie v Thunderbirde.
