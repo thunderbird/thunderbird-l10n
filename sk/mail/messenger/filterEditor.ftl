@@ -190,6 +190,11 @@ filter-editor-invalid-search-title = Neplatné výrazy vyhľadávania
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
 filter-editor-invalid-search-rule = Tento filter nie je možné uložiť, pretože výraz vyhľadávania "{ $attribute } { $operator }" nie je v aktuálnom kontexte platný.
+filter-editor-missing-value-title = Chýba hodnota vyhľadávania
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+filter-editor-missing-value-rule = Tento filter nie je možné uložiť, pretože pre vyhľadávací výraz "{ $attribute } { $operator }" nebola zadaná žiadna hodnota.
 filter-editor-action-order-explanation = Ak správa zodpovedá filtru, akcie budú spustené v tomto poradí:
 filter-editor-action-order-title = Skutočné poradie akcií
 # Variables:

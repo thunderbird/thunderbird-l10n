@@ -5,6 +5,7 @@
 toolbar-context-menu-menu-bar =
     .toolbarname = Panel Ponuka
     .accesskey = P
+system-tray-app-name = { -brand-full-name }
 
 ## Tools Menu
 
@@ -162,6 +163,9 @@ file-new-newsgroup-account =
 file-new-addressbook =
     .label = Adresár
     .accesskey = A
+file-new-mailing-list =
+    .label = Rozosielací zoznam…
+    .accesskey = R
 file-new-local-addressbook =
     .label = Lokálny adresár
     .accesskey = L
