@@ -38,6 +38,7 @@ policy-DisableForgetButton = Unut düğmesine erişimi engelle.
 policy-DisableFormHistory = Arama ve form geçmişini hatırlama.
 policy-DisableMasterPasswordCreation = True olarak ayarlanırsa ana parola oluşturulamaz.
 policy-DisableMessageForwardingFilters = İleti süzgeçlerinin iletileri otomatik olarak iletmesini engelle.
+policy-DisablePasswordReveal2 = Kayıtlı hesaplarda veya parola alanlarında parolaların görüntülenmesine izin verme.
 policy-DisablePasswordReveal = Kayıtlı hesaplardaki parolaların görüntülenmesine izin verme.
 policy-DisableProfileImport = Başka uygulamalardan verileri içe aktarmayı sağlayan menü komutunu devre dışı bırak.
 policy-DisableExperimentalFeatures = Thunderbird’deki deneysel özellikleri devre dışı bırak.

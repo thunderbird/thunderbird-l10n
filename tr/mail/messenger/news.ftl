@@ -66,6 +66,12 @@ cancel-confirm = Bu iletiden vazgeçmek istediğinizden emin misiniz?
 # $newsgroup (String) - The name of the newsgroup.
 auto-subscribe-text = { $newsgroup } haber grubuna abone olmak ister misiniz?
 
+## Unknown News Server Dialog
+
+# Variables:
+# $server (String) - The hostname:port of the news server, e.g. news.example.com:119.
+unknown-news-server-text = Bu bağlantı { $server } adresini gösteriyor ama bu haber sunucusu için hesap ayarlanmamış. Yine de bağlanılsın mı?
+
 ## News Server Credentials
 
 enter-news-credentials-title = Haber sunucusu kullanıcı adı ve parolası gerekli

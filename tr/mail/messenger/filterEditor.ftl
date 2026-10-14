@@ -188,6 +188,11 @@ filter-editor-invalid-search-title = Arama terimleri geçersiz
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
 filter-editor-invalid-search-rule = "{ $attribute } { $operator }" arama terimi bu bağlamda geçersiz olduğu için bu süzgeç kaydedilemez.
+filter-editor-missing-value-title = Arama değeri eksik
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+filter-editor-missing-value-rule = "{ $attribute } { $operator }" arama terimi için hiçbir değer girilmediğinden bu süzgeç kaydedilemez.
 filter-editor-action-order-explanation = Bir ileti bu süzgeçle eşleştiği zaman eylemler bu sırayla çalıştırılacaktır:
 filter-editor-action-order-title = Gerçek eylem sırası
 # Variables:
