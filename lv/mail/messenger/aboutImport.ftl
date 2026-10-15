@@ -44,4 +44,5 @@ error-export-failed = Izgūšana neparedzēti neizdevās, vairāk informācijas 
 
 ## Footer area
 
+footer-help = Nepieciešama palīdzība?
 footer-support-forum = Atbalsta forums

@@ -9,11 +9,13 @@
 ## Always included in the page
 
 oauth-result-wordmark-alt = { -brand-full-name }
+oauth-result-footer-text = Nepieciešama palīdzība? Jāsazinās ar atbalstu.
 
 ## Successful authentication
 
 oauth-success-title = Viss iestatīts
 oauth-success-subtitle = Tavs konts tika droši savienots ar { -brand-short-name }.
+oauth-success-body = Šo logu var aizvērt.
 
 ## Authentication error
 

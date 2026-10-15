@@ -20,6 +20,10 @@ account-hub-release-notes = Laidiena piezīmes
 
 account-hub-email-cancel-button = Atcelt
 account-hub-email-continue-button = Turpināt
+account-hub-result-incoming-legend = Ienākošie
+account-hub-incoming-server-legend = Ienākošais serveris
+account-hub-result-incoming-server-legend = Ienākošais serveris
+    .title = Ienākošais serveris
 
 ## Other Account Hub strings (sadly not sorted into sections)
 
@@ -38,15 +42,18 @@ account-hub-name-label = Pilns vārds
 account-hub-lookup-email-configuration-title = Uzmeklē iestatījumus
 account-hub-find-settings-failed = { -brand-full-name } neizdevās atrast e-pasta konta iestatījumus.
 account-hub-creation-error-title = Kļūda konta izveidošanā
+account-hub-error-server-exists = Ienākošais serveris jau pastāv.
 account-hub-thundermail-button = Pieteikties ar Thundermail
 # Used as part of a divider between sign in button and a sign in form.
 account-hub-thundermail-divider-text = vai
+account-hub-manual-config-incoming-legend = Ienākošais serveris
 account-hub-protocol-microsoft = Exchange vai Microsoft 365
 # Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
 account-hub-oauth-unsupported-description = { -brand-short-name } nevar automātiski konfigurēt OAuth2 šim saimniekdatora nosaukumam. Jāatlasa “Paplašinātā konfigurācija”, lai izveidotu kontu, tad pabeigtu iestatīšanu no konta iestatījumiem. <a data-l10n-name="oauth-support-link">Iegūt palīdzību ar OAuth2 iestatīšanu.</a>
 account-hub-username-help-text = Pārsvarā pilna e-pasta adrese
 account-hub-port-help-text = Ja atstāts tukšs, { -brand-short-name } mēģinās atklāt portu.
+account-hub-notification-show-more = Rādīt vairāk
 account-hub-email-setup-header = Pievieno savu e-pasta adresi
 account-hub-email-connect-settings = Savieno savus e-pasta iestatījumus
 account-hub-result-imap-description = Glabā mapes un e-pasta ziņojumus vienādotus serverī
@@ -56,6 +63,7 @@ account-hub-result-graph-api-description = Izmantot Microsoft Graphp API, lai vi
 account-hub-result-graph-description = Izmantot Microsoft Graph API, lai vienādotu mapes un e-pasta ziņojumus
 account-hub-result-exchange-description = Mapju un e-pasta ziņojumu vienādošana ar Exchange vai Office 365
 account-hub-result-recommended-label = Ieteicams
+account-hub-config-success-title = Konta iestatījumi tika atrasti automātiski.
 account-hub-email-error-text = Lūgums ievadīt derīgu e-pasta adresi
 account-hub-manual-config-error-summary = Lūgums novērst šīs kļūdas:
 account-hub-account-authentication-error = Autentificēšanās kļūda.

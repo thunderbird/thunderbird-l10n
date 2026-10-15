@@ -43,6 +43,7 @@ account-setup-looking-up-exchange = Uzmeklē iestatījumus: Exchange serveris…
 
 account-setup-step4-image =
     .title = Savienojuma kļūda
+account-setup-selection-error = Nepieciešama palīdzība?
 account-setup-privacy-help = Privātuma pamatnostādnes
 
 ## Results area

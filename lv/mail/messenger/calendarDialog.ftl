@@ -8,6 +8,7 @@
 
 calendar-event-create-edit-dialog =
     .aria-label = Notikums
+calendar-dialog-attendees-too-many-guests = Viesu sarakstu nevar parādīt, jo tas satur vairāk nekā 50 viesu.
 calendar-dialog-add-reminder-button = Pievienot atgādinājumu
 calendar-dialog-reminder-select =
     .aria-label = Atlasīt jaunu atgādinājuma ilgumu
