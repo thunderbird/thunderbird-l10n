@@ -70,6 +70,7 @@ account-hub-lookup-email-configuration-title = Uzmeklē iestatījumus
 account-hub-find-settings-failed = { -brand-full-name } neizdevās atrast e-pasta konta iestatījumus.
 account-hub-creation-error-title = Kļūda konta izveidošanā
 account-hub-error-server-exists = Ienākošais serveris jau pastāv.
+account-hub-encryption-button = Pilnīga šifrēšana
 account-hub-thundermail-button = Pieteikties ar Thundermail
 # Used as part of a divider between sign in button and a sign in form.
 account-hub-thundermail-divider-text = vai

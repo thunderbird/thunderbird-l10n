@@ -170,6 +170,9 @@ default-delete-cmd =
 encryption-menu =
     .label = Drošība
     .accesskey = D
+encryption-toggle =
+    .label = Šifrēt
+    .tooltiptext = Šim ziņojumam izmantot pilnīgo šifrēšanu
 encryption-options-openpgp =
     .label = OpenPGP
     .tooltiptext = Apskatīt vai mainīt OpenPGP šifrēšanas iestatījumus
@@ -179,6 +182,9 @@ encryption-options-smime =
 menu-view-certificates =
     .label = Apskatīt saņēmēju sertifikātus
     .accesskey = A
+# Variables:
+# $addr (String) - Email address with key issues.
+openpgp-key-issue-notification-single = Pilnīgai šifrēšanai ir nepieciešams novērst nebūšanas ar { $addr } atslēgu.
 
 ## Addressing Area
 

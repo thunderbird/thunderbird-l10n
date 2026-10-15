@@ -4,7 +4,7 @@
 
 <!ENTITY e2eTitle.label "Pilnīga šifrēšana">
 <!ENTITY e2eLearnMore.label "Uzzināt vairāk">
-<!ENTITY e2eEnc.description "Bez tiešās saziņas šifrēšanas, vēstuļu saturs ir atklāts jūsu epasta pakalpojumu sniedzējam un masu uzraudzībai.">
+<!ENTITY e2eEnc.description "Bez pilnīgas šifrēšanas ziņojumu saturs ir atklāts e-pasta pakalpojumu sniedzējam un masveida uzraudzībai.">
 <!ENTITY e2eTechPref.description "Vēlamā šifrēšanas tehnoloģija:">
 <!ENTITY encryptionCert2.message "Personīgais sertifikāts šifrēšanai:">
 <!ENTITY digitalSign.certificate.button "Izvēlieties…">

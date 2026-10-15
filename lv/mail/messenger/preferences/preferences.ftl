@@ -565,6 +565,8 @@ certificate-button =
 security-devices-button =
     .label = Drošības ierīces…
     .accesskey = D
+email-e2ee-header = E-pasta pilnīga šifrēšana
+email-e2ee-enable-info = E-pasta kontus un identitātes pilnīgai šifrēšanai var iestatīt konta iestatījumos.
 
 ## Keyservers
 

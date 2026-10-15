@@ -51,4 +51,4 @@ search = Meklēt ziņojumus
 filter = Pārvaldīt vēstuļu filtrus
 nntp-subscription = Pārvaldīt ziņu grupu abonementus
 rss-subscription = Pārvaldīt plūsmu abonementus
-e2e = Tiešās saziņas šifrēšana
+e2e = Pilnīga šifrēšana
