@@ -12,6 +12,10 @@
 account-hub-brand = { -brand-full-name }
 account-hub-welcome-line = Laipni lūdzam <span data-l10n-name="brand-name">{ -brand-full-name }</span>
 
+## Footer
+
+account-hub-release-notes = Laidiena piezīmes
+
 ## Email page
 
 account-hub-email-continue-button = Turpināt
@@ -23,6 +27,10 @@ account-hub-select-option =
 account-hub-max-results-label = Lielākais pieļaujamais skaits iznākumā
 account-hub-welcome = Laipni lūdzam
 account-hub-welcome-text = Laipni lūdzam { -brand-short-name }
+account-hub-email-label = E-pasta adrese
+    .accesskey = E
+account-hub-email-warning-icon =
+    .title = Nederīga e-pasta adrese
 account-hub-name-label = Pilns vārds
     .accesskey = v
 account-hub-find-settings-failed = { -brand-full-name } neizdevās atrast e-pasta konta iestatījumus.
@@ -38,6 +46,7 @@ account-hub-username-help-text = Pārsvarā pilna e-pasta adrese
 account-hub-port-help-text = Ja atstāts tukšs, { -brand-short-name } mēģinās atklāt portu.
 account-hub-email-setup-header = Pievieno savu e-pasta adresi
 account-hub-result-exchange-description = Mapju un e-pasta ziņojumu vienādošana ar Exchange vai Office 365
+account-hub-email-error-text = Lūgums ievadīt derīgu e-pasta adresi
 account-hub-manual-config-error-summary = Lūgums novērst šīs kļūdas:
 account-hub-account-authentication-error = Autentificēšanās kļūda.
 

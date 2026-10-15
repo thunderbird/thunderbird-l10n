@@ -12,9 +12,27 @@ about-addressbook-confirm-delete-book = Vai tiešām izdzēst { $name } un visas
 # $name (String) - Name of the remote address book to be removed.
 about-addressbook-confirm-remove-remote-book = Vai tiešām noņemt { $name }?
 
+## Cards
+
+about-addressbook-sort-email-ascending =
+    .label = Kārtot pēc e-pasta adreses (A > Z)
+about-addressbook-sort-email-descending =
+    .label = Kārtot pēc e-pasta adreses (Z > A)
+
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
+about-addressbook-column-header-a11y-emailaddresses2 =
+    .aria-label = E-pasta adreses
+about-addressbook-column-header-emailaddresses2 = E-pasta adreses
+    .title = Kārtot pēc e-pasta adresēm
+about-addressbook-column-label-emailaddresses2 =
+    .label = E-pasta adreses
+# Variables:
+# $title (String) - Contact email addresses for tooltip.
+about-addressbook-cell-emailaddresses2 =
+    .aria-label = E-pasta adreses
+    .title = { $title }
 # Variables:
 # $count (Number) - The number of contacts and lists to be deleted. Always greater than 1.
 about-addressbook-confirm-delete-mixed = Vai tiešām izdzēst šīs { $count } kontaktpersonas un sarakstus?
@@ -54,6 +72,7 @@ about-addressbook-confirm-delete-contacts-multi =
 
 ## Details
 
+about-addressbook-details-email-addresses-header = E-pasta adreses
 about-addressbook-photo-dialog-title =
     .aria-label = Pārvaldīt šīs kontaktpersonas fotoattēlu.
 

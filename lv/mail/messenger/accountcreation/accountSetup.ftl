@@ -13,8 +13,12 @@ account-setup-description = Lai izmantotu savu pašreizējo e-pasta adresi, jāi
 
 account-setup-name-label = Tavs pilnais vārds
     .accesskey = p
+account-setup-email-label = E-pasta adrese
+    .accesskey = E
 account-setup-email-info-icon =
     .title = Esošā e-pasta adrese
+account-setup-email-warning-icon =
+    .title = Nederīga e-pasta adrese
 
 ## Action buttons
 

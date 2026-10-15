@@ -123,6 +123,8 @@ pill-aria-label =
        *[other] { $email }, 1 no { $count }: spiest ievades taustiņu, lai labotu, izdzēšanas, lai noņemtu
     }
 #   $email (String) - the email address
+pill-tooltip-invalid-address = { $email } nav derīga e-pasta adrese
+#   $email (String) - the email address
 pill-tooltip-not-in-address-book = { $email } nav Tavā adrešu grāmatā
 pill-action-edit =
     .label = Labot adresi

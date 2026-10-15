@@ -41,3 +41,7 @@ calendar-items-column-import = Ievietot
 error-pane-title = Kļūda
 error-message-failed = Ievietošana neparedzēti neizdevās, vairāk informācijas var būt pieejama kļūdu konsolē.
 error-export-failed = Izgūšana neparedzēti neizdevās, vairāk informācijas var būt pieejama kļūdu konsolē.
+
+## Footer area
+
+footer-support-forum = Atbalsta forums

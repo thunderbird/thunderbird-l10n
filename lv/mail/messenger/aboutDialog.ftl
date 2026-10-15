@@ -29,6 +29,6 @@ community-desc = { -brand-short-name } izstrādā<a data-l10n-name="community-mo
 about-donation = Vēlaties palīdzēt? <a data-l10n-name="helpus-donate-link">Ziedojiet</a> or <a data-l10n-name="helpus-get-involved-link">iesaistieties!</a>
 bottom-links-license = Licences informācija
 bottom-links-rights = Gala lietotāja tiesības
-bottom-links-privacy = Privātuma politika
+bottom-links-privacy = Privātuma pamatnostādnes
 cmd-close-mac-command-key =
     .key = w

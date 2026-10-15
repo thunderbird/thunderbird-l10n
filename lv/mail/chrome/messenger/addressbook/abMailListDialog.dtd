@@ -14,7 +14,7 @@
 <!ENTITY ListDescription.label "Apraksts:">
 <!ENTITY ListDescription.accesskey "A">
 <!-- See bug 58485, when we implement drag and drop, add 'or drag addresses' back in -->
-<!ENTITY AddressTitle.label "Lai pievienotu epastus adresātu sarakstam, ierakstiet tās:">
+<!ENTITY AddressTitle.label "Ievadīt e-pasta adreses, lai tās pievienotu saņēmēju sarakstam:">
 <!ENTITY AddressTitle.accesskey "L">
 <!ENTITY UpButton.label "Pārvietot augšup">
 <!ENTITY DownButton.label "Pārvietot lejup">

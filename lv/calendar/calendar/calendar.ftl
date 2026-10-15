@@ -161,6 +161,7 @@ error-code = Kļūdas kods: { $errorCode }
 # LOCALIZATION NOTE (error-description):
 #    $errorDescription will be replaced with the description of an error
 error-description = Apraksts: { $errorDescription }
+task-edit-instructions-capability = Lūgums atlasīt kalendāru, kas atbalsta uzdevumus
 # Shown after the items of a day in the calendar views, when the day has too
 # many items to display at once. Clicking it displays more of them.
 # Variables:
