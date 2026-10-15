@@ -17,6 +17,11 @@ about-addressbook-confirm-remove-remote-book = Vai tiešām noņemt { $name }?
 
 ## Cards
 
+# Variables:
+# $name (String) - Name of the address book that will be searched.
+about-addressbook-search2 =
+    .label = Meklēt { $name }
+    .placeholder = Meklēt { $name }…
 about-addressbook-sort-email-ascending =
     .label = Kārtot pēc e-pasta adreses (A > Z)
 about-addressbook-sort-email-descending =
@@ -75,6 +80,7 @@ about-addressbook-confirm-delete-contacts-multi =
 
 ## Details
 
+about-addressbook-search-action-button = Meklēt
 about-addressbook-delete-edit-contact-button = Izdzēst
 about-addressbook-cancel-edit-contact-button = Atcelt
 about-addressbook-details-email-addresses-header = E-pasta adreses

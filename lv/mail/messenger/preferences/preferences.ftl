@@ -675,6 +675,7 @@ qr-export-security-legend = Drošība
 qr-export-security-warning = Savai drošībai lūgums pārliecināties, ka atrodies privātā vidē, un nolasi kvadrātkodus no uzticamiem avotiem.
 qr-export-back = Atpakaļ
 qr-export-select-accounts-title = Atlasīt izgūstamos kontus:
+qr-export-missing-accounts-support = Trūkst konta? Kontus, kas netiek atbalstīti { -brand-product-name } Android, nevar atlasīt. <a data-l10n-name="account-support-link">Uzzināt, kuri kontu veidi tiek atbalstīti</a>
 
 ## Appearance Tab
 

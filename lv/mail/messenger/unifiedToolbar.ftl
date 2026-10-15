@@ -6,6 +6,26 @@
 ### Unified Toolbar strings
 
 
+## Search bar
+
+search-bar-button =
+    .alt = Meklēt
+search-bar-item2 =
+    .label = Meklēt
+# This is the empty text for the quick filter text search box.
+# The goal is to convey to the user that typing in the box will filter the
+# messages and that there is a hotkey they can press to get to the box faster.
+search-bar-placeholder-with-key = Meklēt… { search-bar-placeholder-search-shortcut }
+search-bar-placeholder = Meklēt...
+# Search bar placeholder with formatted key shortcut hint (platform dependent).
+# The key after the control modifier should match the key from quickSearchCmd.key
+# in messenger.dtd.
+search-bar-placeholder-with-key2 =
+    { PLATFORM() ->
+        [macos] { search-bar-placeholder } <kbd>⌘</kbd> <kbd>K</kbd>
+       *[other] { search-bar-placeholder } <kbd>Ctrl</kbd> + <kbd>K</kbd>
+    }
+
 ## Unified toolbar context menu
 
 customize-menu-customize =
@@ -20,6 +40,9 @@ customize-title = Pielāgot rīkjoslas
 customize-change-appearance = Mainīt izskatu
 customize-button-style-icons-beside-text-option = Ikonas blakus tekstam
 customize-cancel = Atcelt
+customize-search-bar2 =
+    .label = Meklēšanas rīkjoslas pogas
+    .placeholder = Meklēšanas rīkjoslas pogas…
 
 ## Unified toolbar customization target context menu
 

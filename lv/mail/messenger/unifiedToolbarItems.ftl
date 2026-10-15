@@ -6,6 +6,7 @@
 ### Unified Toolbar Item Label strings
 
 spacer-label = Elastīga atstarpe
+search-bar-label = Meklēt
 toolbar-write-message-label = Rakstīt
 toolbar-write-message =
     .title = Izveidot jaunu vēstuli
@@ -53,9 +54,11 @@ toolbar-delete-label = Izdzēst
 toolbar-delete-title =
     .title = Izdzēst atlasītos ziņojumus
 toolbar-undelete-label = Atcelt izdzēšanu
+toolbar-undelete =
+    .title = Atcelt atlasīto ziņojumu izdzēšanu
 toolbar-compact-label = Saspiest
 toolbar-compact =
-    .title = Noņemt dzēstās vēstules no atlasītās mapes
+    .title = Noņemt izdzēstos ziņojumus no atlasītās mapes
 toolbar-tag-message-label = Atzīmēt
 toolbar-tag-message =
     .title = Birkot vēstules
@@ -79,6 +82,9 @@ toolbar-print-label = Drukāt
 toolbar-print =
     .title = Drukāt šo vēstuli
 toolbar-quick-filter-bar-label = Ātrais atsijātājs
+toolbar-delete-event-label = Izdzēst
+toolbar-delete-event =
+    .title = Izdzēst atlasītos notikumus vai uzdevumus
 toolbar-print-event =
     .title = Drukāt notikumus vai uzdevumus
 toolbar-go-back-label = Atpakaļ

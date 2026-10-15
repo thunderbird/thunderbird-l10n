@@ -42,4 +42,4 @@ virtual-folder-accept-button-update =
 ## the user clicks the "Choose..." button to select folders.
 
 virtual-folder-list-title = Atlasiet mapi(-es)
-virtual-folder-list-desc = Atlasiet meklējamās mapes:
+virtual-folder-list-desc = Atlasīt mapes, kurās meklēt:
