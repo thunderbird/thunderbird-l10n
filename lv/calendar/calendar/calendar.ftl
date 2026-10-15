@@ -139,6 +139,10 @@ timezone-errors-alert-title = Laika joslas kļūdas
 # The following strings are for the prompt to delete/unsubscribe from the calendar
 remove-calendar-title = Noņemt kalendāru
 remove-calendar-button-delete = Izdzēst kalendāru
+# LOCALIZATION NOTE (remove-calendar-message-delete): Shown for calendar where
+# deleting is the only option.
+# $name:  The name of a calendar
+remove-calendar-message-delete = Vai tiešām neatgriezeniski izdzēst kalendāru “{ $name }”?
 # $title title
 week-title = { $title }. nedēļa
 # $title title
@@ -150,6 +154,8 @@ filepicker-title-export = Izgūt
 item-modified-on-server-title = Vienums ir izmainīts serverī
 calendar-conflicts-dialog =
     .buttonlabelcancel = Atmest izmaiņas un pārlādēt
+proceed-delete =
+    .label = Vienalga izdzēst
 cal-dav-request-status-code-string-500 = Iekšēja servera kļūda.
 cal-dav-request-status-code-string-503 = Iekšēja servera kļūda (Īslaicīgs servera darbības pārtraukums?).
 calendar-tomorrow = Rīt
@@ -180,6 +186,27 @@ calendar-view-more-items =
 #    $date will be replaced with the day label, e.g. "Monday 6 Oct.";
 #    $time will be replaced with the time of the slot, e.g. "9:00 AM".
 calendar-multiday-hour-slot = { $date }, { $time }
+delete-task =
+    .label = Izdzēst uzdevumu
+    .accesskey = d
+delete-item =
+    .label = Izdzēst
+    .accesskey = d
+delete-event =
+    .label = Izdzēst notikumu
+    .accesskey = d
+calendar-context-delete-task =
+    .label = Izdzēst uzdevumu
+    .accesskey = d
+calendar-context-delete-event =
+    .label = Izdzēst notikumu
+    .accesskey = d
+calendar-taskview-delete =
+    .label = Izdzēst
+    .tooltiptext = Izdzēst uzdevumu
+calendar-context-delete-server =
+    .label = Izdzēst kalendāru…
+    .accesskey = I
 calendar-context-export =
     .label = Izgūt kalendāru
     .accesskey = I

@@ -8,15 +8,15 @@
 
 calendar-delete-event-prompt-title =
     { $count ->
-        [zero] Dzēst notikumu
-        [one] Dzēst notikumu
-       *[other] Dzēst notikumus
+        [zero] Izdzēst notikumus
+        [one] Izdzēst notikumu
+       *[other] Izdzēst notikumus
     }
 calendar-delete-event-prompt-message =
     { $count ->
-        [zero] Vai tiešām vēlaties dzēst šo notikumu?
-        [one] Vai tiešām vēlaties dzēst šos { $count } notikumus?
-       *[other] Vai tiešām vēlaties dzēst šo { $count } notikumu?
+        [zero] Vai tiešām izdzēst šos { $count } notikumus?
+        [one] Vai tiešām izdzēst šo { $count } notikumu?
+       *[other] Vai tiešām izdzēst šos { $count } notikumus?
     }
 
 ## Variables:
@@ -24,15 +24,15 @@ calendar-delete-event-prompt-message =
 
 calendar-delete-task-prompt-title =
     { $count ->
-        [zero] Dzēst uzdevumu
-        [one] Dzēst uzdevumus
-       *[other] Dzēst uzdevumus
+        [zero] Izdzēst uzdevumus
+        [one] Izdzēst uzdevumu
+       *[other] Izdzēst uzdevumus
     }
 calendar-delete-task-prompt-message =
     { $count ->
-        [zero] Vai tiešām vēlaties dzēst šo uzdevumu?
-        [one] Vai tiešām vēlaties dzēst šos { $count } uzdevumus?
-       *[other] Vai tiešām vēlaties dzēst šos { $count } uzdevumus?
+        [zero] Vai tiešām izdzēst šos { $count } uzdevumus?
+        [one] Vai tiešām izdzēst šo { $count } uzdevumu?
+       *[other] Vai tiešām izdzēst šos { $count } uzdevumus?
     }
 
 ## Variables:

@@ -3,5 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY lightning.imipbar.btnAdd.label "Pievienot">
+<!ENTITY lightning.imipbar.btnDelete.label "Izdzēst">
+<!ENTITY lightning.imipbar.btnDelete.tooltiptext "Izdzēst no kalendāra">
 <!ENTITY lightning.imipbar.btnDoNotShowImipBar.label "Nerādīt man šos ziņojumus">
 <!ENTITY lightning.imipbar.btnMore.tooltiptext "Klikšķināt, lai parādītu vairāk iespēju">

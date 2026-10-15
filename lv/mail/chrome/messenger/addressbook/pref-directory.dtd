@@ -13,5 +13,5 @@
 <!ENTITY addDirectory.accesskey "a">
 <!ENTITY editDirectory.label "Labot">
 <!ENTITY editDirectory.accesskey "R">
-<!ENTITY deleteDirectory.label "Dzēst">
+<!ENTITY deleteDirectory.label "Izdzēst">
 <!ENTITY deleteDirectory.accesskey "D">

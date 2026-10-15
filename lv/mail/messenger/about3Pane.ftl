@@ -3,6 +3,12 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+quick-filter-button =
+    .title = Pārslēgt ātrās atsijāšanas joslu
+quick-filter-button-label = Ātrā atsijāšana
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
@@ -12,6 +18,10 @@
 # filters are propagated between folder changes and when opening new tabs.)
 quick-filter-bar-sticky =
     .title = Pārslēdzot mapes, saglabāt filtru pielietošanu
+# The tooltip for the filter button that replaces the quick filter buttons with
+# a dropdown menu.
+quick-filter-bar-dropdown =
+    .title = Ātrās atsijāšanas izvēlne
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =
@@ -63,6 +73,10 @@ quick-filter-bar-results =
         [one] { $count } vēstules
        *[other] { $count } vēstules
     }
+# This is the empty text for the text search box.
+# The goal is to convey to the user that typing in the box will filter the
+# messages and that there is a hotkey they can press to get to the box faster.
+quick-filter-bar-search-placeholder-with-key = Atsijāt ziņojumus… { quick-filter-bar-search-shortcut }
 # Tooltip of the Any-of/All-of tagging mode selector.
 quick-filter-bar-boolean-mode =
     .title = Birku filtrēšanas režīms
@@ -108,6 +122,9 @@ folder-pane-get-all-messages-menuitem =
     .accesskey = S
 folder-pane-write-message-button = Jauns ziņojums
     .title = Sastādīt jaunu ziņojumu
+# Context menu item to toggle display of "New Message" button in folder pane header
+folder-pane-header-context-toggle-new-message =
+    .label = Rādīt “Jauns ziņojums”
 folder-pane-mode-header-all = Visas mapes
 folder-pane-mode-header-unread = Nelasītās mapes
 folder-pane-mode-header-favorite = Izlases mapes
@@ -245,6 +262,9 @@ threadpane-column-header-a11y-select =
 
 ## Message state variations
 
+threadpane-message-new =
+    .alt = Jauna ziņojuma rādītājs
+    .title = Jauns ziņojums
 apply-columns-to-menu =
     .label = Lietot kolonnas…
 apply-current-view-to-folder =

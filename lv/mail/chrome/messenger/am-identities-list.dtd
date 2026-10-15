@@ -8,7 +8,7 @@
 <!ENTITY identitiesListEdit.accesskey "R">
 <!ENTITY identitiesListDefault.label "Iestatīt noklusēto">
 <!ENTITY identitiesListDefault.accesskey "I">
-<!ENTITY identitiesListDelete.label "Dzēst">
+<!ENTITY identitiesListDelete.label "Izdzēst">
 <!ENTITY identitiesListDelete.accesskey "D">
 <!ENTITY identitiesListClose.label "Aizvērt">
 <!ENTITY identitiesListClose.accesskey "A">

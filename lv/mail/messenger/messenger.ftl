@@ -114,7 +114,7 @@ browser-request-cookies-accept =
 
 quick-filter-toolbarbutton =
     .label = Ātrais atsijātājs
-    .tooltiptext = Atsijāt ziņoas
+    .tooltiptext = Atsijāt ziņojumus
 redirect-msg-button =
     .label = Pārvirzīt
     .tooltiptext = Pārvirzīt atlasīto ziņojumu
@@ -365,7 +365,7 @@ menuitem-customize-label =
 # The label to display for the "View... Toolbars..." menu item that controls
 # whether the quick filter bar is visible.
 quick-filter-bar-toggle =
-    .label = Ātrā atsijātāja josla
+    .label = Ātrās atsijāšanas josla
     .accesskey = t
 # This is the key used to show the quick filter bar.
 # This should match quick-filter-bar-search-shortcut in about3Pane.ftl.

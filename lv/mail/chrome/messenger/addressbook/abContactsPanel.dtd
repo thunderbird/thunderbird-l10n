@@ -25,7 +25,7 @@
 <!ENTITY addtoCcFieldMenu.accesskey "K">
 <!ENTITY addtoBccFieldMenu.label "Pievienot Slēpta kopija laukam">
 <!ENTITY addtoBccFieldMenu.accesskey "S">
-<!ENTITY deleteAddrBookCard.label "Dzēst">
+<!ENTITY deleteAddrBookCard.label "Izdzēst">
 <!ENTITY deleteAddrBookCard.accesskey "D">
 <!ENTITY propertiesContext.label "Īpašības">
 <!ENTITY propertiesContext.accesskey "p">

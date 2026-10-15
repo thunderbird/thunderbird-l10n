@@ -2,4 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!ENTITY event.menu.item.delete.label "Izdzēst…">
 <!ENTITY event.menu.view.toolbars.customize.label "Pielāgot…">
+<!ENTITY event.toolbar.delete.label "Izdzēst">
+<!ENTITY event.toolbar.delete.tooltip "Izdzēst">
