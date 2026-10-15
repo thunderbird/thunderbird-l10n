@@ -47,6 +47,8 @@ account-hub-thundermail-button = Pieteikties ar Thundermail
 # Used as part of a divider between sign in button and a sign in form.
 account-hub-thundermail-divider-text = vai
 account-hub-manual-config-incoming-legend = Ienākošais serveris
+# Label for checkbox that will hide an outgoing username input if it's the same is the incoming
+account-hub-same-username-checkbox = Tāds pats lietotājvārds kā ienākošajam serverim
 account-hub-protocol-microsoft = Exchange vai Microsoft 365
 # Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
@@ -55,6 +57,7 @@ account-hub-username-help-text = Pārsvarā pilna e-pasta adrese
 account-hub-port-help-text = Ja atstāts tukšs, { -brand-short-name } mēģinās atklāt portu.
 account-hub-notification-show-more = Rādīt vairāk
 account-hub-email-setup-header = Pievieno savu e-pasta adresi
+account-hub-email-setup-incoming = Ienākošā servera iestatījumi
 account-hub-email-connect-settings = Savieno savus e-pasta iestatījumus
 account-hub-result-imap-description = Glabā mapes un e-pasta ziņojumus vienādotus serverī
 account-hub-result-pop-description = Glabā mapes un e-pasta ziņojumus datorā

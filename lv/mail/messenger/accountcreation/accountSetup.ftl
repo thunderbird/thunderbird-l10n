@@ -50,6 +50,7 @@ account-setup-privacy-help = Privātuma pamatnostādnes
 
 account-setup-result-imap-description = Glabā mapes un e-pasta ziņojumus vienādotus serverī
 account-setup-result-pop-description = Glabā mapes un e-pasta ziņojumus datorā
+account-setup-incoming-title = Ienākošie
 
 ## Warning Exchange confirmation dialog
 
