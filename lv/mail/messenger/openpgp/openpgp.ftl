@@ -147,11 +147,11 @@ openpgp-key-man-change-expiry =
 openpgp-key-man-ignored-ids =
     .label = E-pasta adreses
 openpgp-key-man-del-key =
-    .label = Dzēst atslēgu(-as)
-    .accesskey = D
+    .label = Izdzēst atslēgu(-as)
+    .accesskey = I
 openpgp-delete-key =
-    .label = Dzēst atslēgu
-    .accesskey = D
+    .label = Izdzēst atslēgu
+    .accesskey = I
 openpgp-key-man-revoke-key =
     .label = Atsaukt atslēgu
     .accesskey = A
@@ -408,7 +408,7 @@ preview-failed = Neizdevās nolasīt publiskās atslēgas failu.
 # Variables:
 # $reason (String) - Error description.
 general-error = Kļūda: { $reason }
-dlg-button-delete = &Dzēst
+dlg-button-delete = &Izdzēst
 
 ## Account settings export output
 
@@ -462,7 +462,7 @@ after-revoke-info =
 ## Strings in keyRing.sys.mjs & decryption.sys.mjs
 
 key-man-button-import = &Ievietot
-delete-key-title = Dzēst OpenPGP atslēgu
+delete-key-title = Izdzēst OpenPGP atslēgu
 delete-external-key-title = Noņemt ārēju GnuPG atslēgu
 delete-external-key-description = Vai vēlaties noņemt šo ārējās GnuPG atslēgas ID?
 key-in-use-title = OpenPGP atslēga pašlaik tiek izmantota

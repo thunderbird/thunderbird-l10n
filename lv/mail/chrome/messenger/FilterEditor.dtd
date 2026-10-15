@@ -39,8 +39,8 @@
 <!ENTITY setPriority.label "Iestatīt prioritāti uz">
 <!ENTITY addTag.label "Birkot vēstuli">
 <!ENTITY setJunkScore.label "Iestatīt mēstules statusu uz">
-<!ENTITY deleteMessage.label "Dzēst vēstuli">
-<!ENTITY deleteFromPOP.label "Dzēst no POP servera">
+<!ENTITY deleteMessage.label "Izdzēst ziņojumu">
+<!ENTITY deleteFromPOP.label "Izdzēst no POP servera">
 <!ENTITY fetchFromPOP.label "Ielādēt no POP servera">
 <!ENTITY ignoreThread.label "Ignorēt pavedienu">
 <!ENTITY ignoreSubthread.label "Ignorēt apakšpavedienu">

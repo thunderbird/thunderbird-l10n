@@ -59,7 +59,7 @@
 <!ENTITY pasteNoFormattingCmd.key "V">
 <!ENTITY pasteAsQuotationCmd.key "o">
 <!ENTITY editRewrapCmd.accesskey "w">
-<!ENTITY deleteCmd.label "Dzēst">
+<!ENTITY deleteCmd.label "Izdzēst">
 <!ENTITY deleteCmd.accesskey "D">
 <!ENTITY editRewrapCmd.label "Pārtīt">
 <!ENTITY editRewrapCmd.key "P">
@@ -242,7 +242,7 @@
 <!-- Attachment Item and List Context Menus -->
 <!ENTITY openAttachment.label "Atvērt">
 <!ENTITY openAttachment.accesskey "A">
-<!ENTITY delete.label "Dzēst">
+<!ENTITY delete.label "Izdzēst">
 <!ENTITY delete.accesskey "D">
 <!ENTITY removeAttachment.label "Noņemt pielikumu">
 <!ENTITY removeAttachment.accesskey "N">

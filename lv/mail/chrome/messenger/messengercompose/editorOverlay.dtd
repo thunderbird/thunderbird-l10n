@@ -227,7 +227,7 @@
 <!ENTITY tableCellAfter.label "Šūna pēc">
 <!ENTITY tableCellAfter.accesskey "c">
 <!-- Delete SubMenu -->
-<!ENTITY tableDeleteMenu.label "Dzēst">
+<!ENTITY tableDeleteMenu.label "Izdzēst">
 <!ENTITY tableDeleteMenu.accesskey "D">
 <!-- text for "Join Cells" is in editor.properties
      ("JoinSelectedCells" and "JoinCellToRight")

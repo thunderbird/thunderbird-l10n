@@ -8,8 +8,11 @@ multi-message-archive-button =
     .label = Arhivēt
     .tooltiptext = Arhivēt
 multi-message-delete-button =
-    .label = Dzēst
-    .tooltiptext = Dzēst
+    .label = Izdzēst
+    .tooltiptext = Izdzēst
+multi-message-undelete-button =
+    .label = Atcelt izdzēšanu
+    .tooltiptext = Atcelt izdzēšanu
 # Variables:
 #   $count - total number of conversations (threads or solitary messages) selected
 num-conversations =

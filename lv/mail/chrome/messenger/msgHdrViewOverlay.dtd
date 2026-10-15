@@ -35,8 +35,8 @@
 <!ENTITY hdrForwardButton1.tooltip "Pārsūtīt šo vēstuli">
 <!ENTITY hdrJunkButton1.label "Draza">
 <!ENTITY hdrJunkButton1.tooltip "Atzīmēt šo vēstuli kā drazu">
-<!ENTITY hdrTrashButton1.label "Dzēst">
-<!ENTITY hdrTrashButton1.tooltip "Dzēst šo vēstuli">
+<!ENTITY hdrTrashButton1.label "Izdzēst">
+<!ENTITY hdrTrashButton1.tooltip "Izdzēst šo ziņojumu">
 <!ENTITY hdrViewToolbarShowFull.label "Rādīt ikonas un tekstu">
 <!ENTITY hdrViewToolbarShowFull.accesskey "u">
 <!ENTITY hdrViewToolbarShowIcons.label "Rādīt tikai ikonas">
@@ -73,7 +73,7 @@
 <!ENTITY saveAsAttachmentCmd.accesskey "S">
 <!ENTITY detachAttachmentCmd.label "Atdalīt…">
 <!ENTITY detachAttachmentCmd.accesskey "A">
-<!ENTITY deleteAttachmentCmd.label "Dzēst">
+<!ENTITY deleteAttachmentCmd.label "Izdzēst">
 <!ENTITY deleteAttachmentCmd.accesskey "D">
 <!ENTITY openAllAttachmentsCmd.label "Atvērt visus…">
 <!ENTITY openAllAttachmentsCmd.accesskey "v">
@@ -81,7 +81,7 @@
 <!ENTITY saveAllAttachmentsCmd.accesskey "k">
 <!ENTITY detachAllAttachmentsCmd.label "Atdalīt visus…">
 <!ENTITY detachAllAttachmentsCmd.accesskey "t">
-<!ENTITY deleteAllAttachmentsCmd.label "Dzēst visus…">
+<!ENTITY deleteAllAttachmentsCmd.label "Izdzēst visus…">
 <!ENTITY deleteAllAttachmentsCmd.accesskey "D">
 <!ENTITY openAttachment.tooltip "Atvērt pievienoto failu">
 <!ENTITY detachedAttachmentFolder.show.label "Atvērt saturošo mapi">

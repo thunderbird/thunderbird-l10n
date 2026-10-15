@@ -13,7 +13,7 @@
 <!ENTITY resetButton.accesskey "N">
 <!ENTITY openButton.label "Atvērt">
 <!ENTITY openButton.accesskey "A">
-<!ENTITY deleteButton.label "Dzēst">
+<!ENTITY deleteButton.label "Izdzēst">
 <!ENTITY deleteButton.accesskey "D">
 <!ENTITY searchDialogTitle.label "Meklēt ziņojumus">
 <!ENTITY results.label "Iznākums">
@@ -31,6 +31,6 @@
 <!ENTITY propertiesButton.accesskey "p">
 <!ENTITY composeButton.label "Rakstīt">
 <!ENTITY composeButton.accesskey "R">
-<!ENTITY deleteCardButton.label "Dzēst">
+<!ENTITY deleteCardButton.label "Izdzēst">
 <!ENTITY deleteCardButton.accesskey "D">
 <!ENTITY abSearchDialogTitle.label "Izvērsta adrešu grāmatas meklēšana">

@@ -5,6 +5,9 @@
 
 ## Books
 
+about-addressbook-books-context-delete =
+    .label = Izdzēst
+about-addressbook-confirm-delete-book-title = Izdzēst adrešu grāmatu
 # Variables:
 # $name (String) - Name of the address book to be deleted.
 about-addressbook-confirm-delete-book = Vai tiešām izdzēst { $name } un visas tā kontaktpersonas?
@@ -72,6 +75,7 @@ about-addressbook-confirm-delete-contacts-multi =
 
 ## Details
 
+about-addressbook-delete-edit-contact-button = Izdzēst
 about-addressbook-cancel-edit-contact-button = Atcelt
 about-addressbook-details-email-addresses-header = E-pasta adreses
 about-addressbook-photo-dialog-title =
@@ -107,8 +111,8 @@ ab-search-dialog-compose-button =
     .label = Rakstīt
     .accesskey = R
 ab-search-dialog-delete-button =
-    .label = Dzēst
-    .accesskey = D
+    .label = Izdzēst
+    .accesskey = I
 ab-search-dialog-title = Izvērsta adrešu grāmatas meklēšana
 ab-search-dialog-close-cmd =
     .key = W

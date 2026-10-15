@@ -54,7 +54,7 @@
 <!ENTITY sendUnsentCmd.accesskey "S">
 <!ENTITY subscribeCmd.label "Abonēt…">
 <!ENTITY subscribeCmd.accesskey "A">
-<!ENTITY deleteFolder.label "Dzēst mapi">
+<!ENTITY deleteFolder.label "Izdzēst mapi">
 <!ENTITY deleteFolder.accesskey "D">
 <!ENTITY renameFolder.label "Pārsaukt mapi…">
 <!ENTITY renameFolder.accesskey "P">
@@ -90,8 +90,8 @@
 <!ENTITY selectFlaggedCmd.accesskey "Z">
 <!ENTITY menuFavoriteFolder.label "Izlases mape">
 <!ENTITY menuFavoriteFolder.accesskey "I">
-<!ENTITY undoDeleteMsgCmd.label "Atsaukt vēstules dzēšanu">
-<!ENTITY redoDeleteMsgCmd.label "Atatsaukt vēstules dzēšanu">
+<!ENTITY undoDeleteMsgCmd.label "Atsaukt ziņojuma izdzēšanu">
+<!ENTITY redoDeleteMsgCmd.label "Atatsaukt ziņojuma izdzēšanu">
 <!ENTITY undoMoveMsgCmd.label "Atsaukt vēstules pārvietošanu">
 <!ENTITY redoMoveMsgCmd.label "Atatsaukt vēstules pārvietošanu">
 <!ENTITY undoCopyMsgCmd.label "Atsaukt vēstules kopēšanu">
@@ -443,7 +443,7 @@
 <!ENTITY filtersApplyToMessage.accesskey "v">
 <!ENTITY runJunkControls.label "Palaist mēstuļu vadīklas mapei">
 <!ENTITY runJunkControls.accesskey "m">
-<!ENTITY deleteJunk.label "Dzēst mēstules mapē">
+<!ENTITY deleteJunk.label "Izdzēst pastu, kas atzīmēts kā nevērtīgs, mapē">
 <!ENTITY deleteJunk.accesskey "D">
 <!ENTITY importCmd.label "Ievietot…">
 <!ENTITY importCmd.accesskey "I">
@@ -484,7 +484,7 @@
 <!ENTITY previousMsgButton.label "Iepriekšējais">
 <!ENTITY backButton1.label "Atpakaļ">
 <!ENTITY goForwardButton1.label "Uz priekšu">
-<!ENTITY deleteItem.title "Dzēst">
+<!ENTITY deleteItem.title "Izdzēst">
 <!ENTITY markButton.label "Atzīmēt">
 <!ENTITY printButton.label "Drukāt">
 <!ENTITY stopButton.label "Apturēt">
@@ -527,7 +527,7 @@
 <!ENTITY addressBookButton.tooltip "Doties uz adrešu grāmatu">
 <!ENTITY chatButton.tooltip "Rādīt Tērzēšana cilni">
 <!ENTITY tagButton.tooltip "Birkot vēstules">
-<!ENTITY compactButton.tooltip "Noņemt dzēstās vēstules no atlasītās mapes">
+<!ENTITY compactButton.tooltip "Noņemt izdzēstos ziņojumus no atlasītās mapes">
 <!ENTITY appmenuButton1.tooltip "Parādīt &brandShortName; izvēlni">
 <!-- Toolbar Button Popup -->
 <!ENTITY buttonMenuForwardAsInline.label "Pārsūtīt iekļauti">
@@ -576,7 +576,7 @@
 <!ENTITY folderContextNew.accesskey "a">
 <!ENTITY folderContextRename.label "Pārdēvēt">
 <!ENTITY folderContextRename.accesskey "P">
-<!ENTITY folderContextRemove.label "Dzēst">
+<!ENTITY folderContextRemove.label "Izdzēst">
 <!ENTITY folderContextRemove.accesskey "D">
 <!ENTITY folderContextCompact.label "Kompakts">
 <!ENTITY folderContextCompact.accesskey "K">
@@ -635,7 +635,7 @@
 <!ENTITY locationColumn.label "Atrašanās vieta">
 <!ENTITY idColumn.label "Pieprasījums saņemts">
 <!ENTITY attachmentColumn.label "Pielikumi">
-<!ENTITY deleteColumn.label "Dzēst">
+<!ENTITY deleteColumn.label "Izdzēst">
 <!-- Thread Pane Tooltips -->
 <!ENTITY columnChooser2.tooltip "Atlasiet rādāmās kolonnas">
 <!ENTITY selectColumn.tooltip "Pārslēgt visu vēstuļu atlasi">
@@ -659,7 +659,7 @@
 <!ENTITY locationColumn2.tooltip "Kārtot pēc atrašanās vietas">
 <!ENTITY idColumn2.tooltip "Kārtot pēc pieprasījuma saņemšanas">
 <!ENTITY attachmentColumn2.tooltip "Kārtot pēc pielikumiem">
-<!ENTITY deleteColumn.tooltip "Dzēst vēstuli">
+<!ENTITY deleteColumn.tooltip "Izdzēst ziņojumu">
 <!-- Thread Pane Context Menu -->
 <!ENTITY contextNewMsgFromTemplate.label "Jauna vēstule no veidnes">
 <!ENTITY contextOpenNewWindow.label "Atvērt vēstuli jaunā logā">

@@ -252,11 +252,13 @@ threadpane-column-header-id = Pieprasījums saņemts
 threadpane-column-label-id =
     .label = Pieprasījums saņemts
 threadpane-column-header-a11y-delete =
-    .aria-label = Dzēst
+    .aria-label = Izdzēst
 threadpane-column-header-delete =
-    .title = Dzēst vēstuli
+    .title = Izdzēst ziņojumu
 threadpane-column-label-delete =
-    .label = Dzēst
+    .label = Izdzēst
+threadpane-cell-delete =
+    .aria-label = Izdzēst
 threadpane-column-header-a11y-select =
     .aria-label = Atlasīt vēstules
 

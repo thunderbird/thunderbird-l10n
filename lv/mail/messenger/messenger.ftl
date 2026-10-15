@@ -343,6 +343,15 @@ context-menu-redirect-msg =
 context-menu-cancel-msg =
     .label = Atcelt ziņojumu
 
+## Message header pane
+
+message-header-delete =
+    .label = Izdzēst
+    .tooltiptext = Izdzēst šo ziņojumu
+message-header-undelete =
+    .label = Atcelt izdzēšanu
+    .tooltiptext = Atcelt šī ziņojuma izdzēšanu
+
 ## Spaces toolbar
 
 spaces-toolbar-element =
@@ -393,6 +402,7 @@ header-spam-button =
 
 ## Actions for the New Mail Notification
 
+delete-action = Izdzēst
 mark-as-spam-action = Atzīmēt kā mēstuli
 
 ## Message list.

@@ -10,7 +10,7 @@
 <!ENTITY newButton.popupCopy.accesskey "K">
 <!ENTITY editButton.label "Labot…">
 <!ENTITY editButton.accesskey "R">
-<!ENTITY deleteButton.label "Dzēst">
+<!ENTITY deleteButton.label "Izdzēst">
 <!ENTITY deleteButton.accesskey "D">
 <!ENTITY reorderTopButton "Pārvietot uz augšu">
 <!ENTITY reorderTopButton.accessKey "a">

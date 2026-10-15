@@ -162,8 +162,8 @@ remove-attachment-cmd =
         }
     .accesskey = N
 default-delete-cmd =
-    .label = Dzēst
-    .accesskey = D
+    .label = Izdzēst
+    .accesskey = I
 
 ## Encryption
 

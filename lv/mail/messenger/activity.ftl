@@ -15,9 +15,9 @@ pop3-event-status-text =
 #   $folderName - folder name
 deleted-messages-from-folder =
     { $count ->
-        [zero] Dzēsta { $count } vēstule no { $folderName }
-        [one] Dzēstas { $count } vēstules no { $folderName }
-       *[other] Dzēstas { $count } vēstules no { $folderName }
+        [zero] Izdzēsti { $count } ziņojumi no { $folderName }
+        [one] Izdzēsts { $count } ziņojums no { $folderName }
+       *[other] Izdzēsti { $count } ziņojumi no { $folderName }
     }
 # Variables:
 #   $count - number of messages
