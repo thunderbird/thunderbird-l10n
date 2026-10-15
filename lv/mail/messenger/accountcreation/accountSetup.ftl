@@ -6,8 +6,13 @@ account-setup-tab-title = Konta iestatīšana
 
 ## Header
 
-account-setup-title = Iestatiet savu esošo e-pasta adresi
-account-setup-description = Lai izmantotu savu pašreizējo e-pasta adresi, aizpildiet jūsu akreditācijas datus.
+account-setup-title = Iestati savu esošo e-pasta adresi
+account-setup-description = Lai izmantotu savu pašreizējo e-pasta adresi, jāievada savi pieteikšanās dati.
+
+## Form fields
+
+account-setup-email-info-icon =
+    .title = Esošā e-pasta adrese
 
 ## Action buttons
 
@@ -27,6 +32,17 @@ exit-dialog-cancel-button = Turpināt iestatīšanu
 ## Alert dialogs
 
 account-setup-creation-error-title = Kļūda konta izveidošanā
+
+## Success view
+
+# Variables:
+# $count (Number) - The number of address books found during autoconfig.
+account-setup-found-address-books-description =
+    { $count ->
+        [zero] { -brand-short-name } atrada { $count } ar e-pasta kontu saistītu adrešu grāmatu
+        [one] { -brand-short-name } atrada { $count } ar e-pasta kontu saistītu adrešu grāmatu
+       *[other] { -brand-short-name } atrada { $count } ar e-pasta kontu saistītas adrešu grāmatas
+    }
 
 ## Calendar synchronization dialog
 

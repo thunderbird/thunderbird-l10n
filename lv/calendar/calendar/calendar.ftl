@@ -145,10 +145,16 @@ week-title = { $title }. nedēļa
 week-title-label =
     .aria-label = { $title }. nedēļa
 tooltip-due = Paredzēts:
+filepicker-title-import = Ievietot
 filepicker-title-export = Izgūt
 item-modified-on-server-title = Vienums ir izmainīts serverī
 cal-dav-request-status-code-string-500 = Iekšēja servera kļūda.
 cal-dav-request-status-code-string-503 = Iekšēja servera kļūda (Īslaicīgs servera darbības pārtraukums?).
+calendar-tomorrow = Rīt
+# LOCALIZATION NOTE (alarm-tomorrow-at):
+# used for a display the date-time of an alarm like 'Tomorrow at Thu 2 Oct 2008 13:21'
+#    $datetime will be replaced with a date-time
+alarm-tomorrow-at = Rīt { $datetime }
 # LOCALIZATION NOTE (error-code):
 #    $errorCode will be replaced with the number of an error code
 error-code = Kļūdas kods: { $errorCode }
@@ -170,11 +176,26 @@ calendar-view-more-items =
 #    $date will be replaced with the day label, e.g. "Monday 6 Oct.";
 #    $time will be replaced with the time of the slot, e.g. "9:00 AM".
 calendar-multiday-hour-slot = { $date }, { $time }
+calendar-context-export =
+    .label = Izgūt kalendāru
+    .accesskey = I
+calendar-task-details-priority = svarīgums
+calendar-task-details-priority-normal = Parasts
+calendar-task-details-category = kategorija
+calendar-task-change-priority =
+    .label = Svarīgums
+    .tooltiptext = Mainīt svarīgumu
+    .accesskey = S
 calendar-task-input-filter-field =
     .aria-label = Atsijāt uzdevumus
     .emptytextbase = Atsijāt uzdevumus #1
     .keylabelmac = <⇧⌘K>
     .keylabelnonmac = <Ctrl+Shift+K>
+calendar-priority-normal =
+    .label = Parasts
+    .accesskey = P
+calendar-properties-color =
+    .value = Krāsa:
 calendar-properties-offline-support =
     .label = Bezsaistes atbalsts
 calendar-error-code =

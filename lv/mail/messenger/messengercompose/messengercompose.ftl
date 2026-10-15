@@ -122,6 +122,8 @@ pill-aria-label =
         [one] { $email }, 1 no { $count }: spiest ievades taustiņu, lai labotu, izdzēšanas, lai noņemtu
        *[other] { $email }, 1 no { $count }: spiest ievades taustiņu, lai labotu, izdzēšanas, lai noņemtu
     }
+#   $email (String) - the email address
+pill-tooltip-not-in-address-book = { $email } nav Tavā adrešu grāmatā
 pill-action-edit =
     .label = Labot adresi
     .accesskey = e

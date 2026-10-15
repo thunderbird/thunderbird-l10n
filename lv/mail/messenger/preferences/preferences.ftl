@@ -656,6 +656,7 @@ search-results-help-link = Vajadzīga palīdzība? Apmeklē <a data-l10n-name="u
 ## Sync Tab
 
 show-synced-learn-more = Uzzināt vairāk…
+sync-disconnected-text = Vienādo visās savās ierīcēs savus e-pasta kontus, adrešu grāmatas, kalendārus un identitātes.
 
 ## Appearance Tab
 

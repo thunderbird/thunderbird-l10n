@@ -7,6 +7,10 @@
 ### Account hub is where user can setup new accounts in Thunderbird.
 
 
+## Header
+
+account-hub-welcome-line = Laipni lūdzam <span data-l10n-name="brand-name">{ -brand-full-name }</span>
+
 ## Email page
 
 account-hub-email-continue-button = Turpināt
@@ -16,11 +20,19 @@ account-hub-email-continue-button = Turpināt
 account-hub-select-option =
     .label = Atlasīt iespēju
 account-hub-max-results-label = Lielākais pieļaujamais skaits iznākumā
+account-hub-welcome = Laipni lūdzam
+account-hub-welcome-text = Laipni lūdzam { -brand-short-name }
 account-hub-creation-error-title = Kļūda konta izveidošanā
+account-hub-thundermail-button = Pieteikties ar Thundermail
 # Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
 account-hub-oauth-unsupported-description = { -brand-short-name } nevar automātiski konfigurēt OAuth2 šim saimniekdatora nosaukumam. Jāatlasa “Paplašinātā konfigurācija”, lai izveidotu kontu, tad pabeigtu iestatīšanu no konta iestatījumiem. <a data-l10n-name="oauth-support-link">Iegūt palīdzību ar OAuth2 iestatīšanu.</a>
 account-hub-username-help-text = Pārsvarā pilna e-pasta adrese
 account-hub-port-help-text = Ja atstāts tukšs, { -brand-short-name } mēģinās atklāt portu.
+account-hub-email-setup-header = Pievieno savu e-pasta adresi
 account-hub-manual-config-error-summary = Lūgums novērst šīs kļūdas:
 account-hub-account-authentication-error = Autentificēšanās kļūda.
+
+## Exchange Type Manual Config Step
+
+account-hub-exchange-type-username-hint = Parasti e-pasta adrese vai Active Directory UPN.

@@ -6,3 +6,5 @@
 ## Side panel
 
 calendar-enable-button = Atļaut
+calendar-add-calendar = Pievienot kalendāru…
+    .title = Izveidot vai abonēt kalendāru
