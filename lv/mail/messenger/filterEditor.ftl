@@ -50,6 +50,7 @@ filter-action-log-forwarded = pārsūtīta
 filter-action-log-stop = izpilde apturēta
 filter-action-log-pop3-delete = izdzēsta no POP3 servera
 filter-action-log-pop3-leave = atstāta POP3 serverī
+filter-action-log-spam = mēstuļu novērtējums
 filter-action-log-pop3-fetch = pamatteksts iegūts no POP3 servera
 filter-action-log-tagged = birkota
 filter-action-log-ignore-subthread = apakšpavediens ignorēts

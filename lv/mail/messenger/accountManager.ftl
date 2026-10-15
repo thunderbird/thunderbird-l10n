@@ -7,4 +7,6 @@ edit-vcard-dialog-cancel-button = Atcelt
 outgoing-server-section-name = Izejošais serveris
 # Used in the Outgoing Server section of the account manager
 outgoing-server-settings-title = Izejošā servera iestatījumi
+panel-manage-spam = Pārvaldīt mēstules
+panel-settings-spam = Mēstuļu iestatījumi
 open-settings-sidebar-button = Iestatījumi

@@ -374,10 +374,26 @@ quick-filter-bar-show =
 
 ## Message menu.
 
+menu-mark-as-spam =
+    .label = Kā mēstuli
+    .accesskey = m
 mark-as-junk-key =
     .key = j
+menu-mark-not-spam =
+    .label = Kā ne mēstuli
+    .accesskey = n
 mark-not-junk-key =
     .key = j
+
+## Message header.
+
+header-spam-button =
+    .label = Mēstule
+    .tooltiptext = Atzīmēt šo ziņojumu kā mēstuli
+
+## Actions for the New Mail Notification
+
+mark-as-spam-action = Atzīmēt kā mēstuli
 
 ## Message list.
 

@@ -7,6 +7,10 @@ message-header-field-show-more = Vēl
 
 ## Spam filter
 
+message-bar-spam = { -brand-short-name } uzskata, ka šis ziņojums ir mēstule.
+message-bar-not-spam-button =
+    .label = Nav mēstules
+    .accesskey = N
 message-bar-learn-more-button =
     .label = Uzzināt vairāk…
     .accesskey = U

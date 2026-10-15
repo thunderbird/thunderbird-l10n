@@ -86,6 +86,8 @@ search-val-flag-forwarded =
     .label = Pārsūtīja
 search-val-flag-starred =
     .label = Zvaigžņoja
+search-val-spam =
+    .label = Mēstule
 search-val-spam-score-origin-plugin =
     .label = Spraudnis
 search-val-spam-score-origin-filter =
@@ -165,6 +167,8 @@ rule-action-stop =
 
 ## Rule Action Targets
 
+rule-menuitem-spam =
+    .label = Mēstules
 rule-priority-highest =
     .label = Augstākā
 rule-priority-high =

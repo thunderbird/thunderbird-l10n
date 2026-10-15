@@ -39,6 +39,7 @@ compose-html-style-title = HTML stils
 composition-addressing-header = Adresēšana
 privacy-main-header = Privātums
 privacy-passwords-header = Paroles
+privacy-spam-header = Mēstules
 collection-privacy-policy = Lasīt mūsu privātuma pamatnostādnes
 privacy-junk-header = Draza
 collection-header = { -brand-short-name } datu vākšana un izmantošana

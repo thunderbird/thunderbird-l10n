@@ -32,6 +32,12 @@ toolbar-delete-button =
 toolbar-undelete-button =
     .label = Atdzēst
     .tooltiptext = Atdzēst atlasītās vēstules
+toolbar-spam-button =
+    .label = Mēstules
+    .tooltiptext = Atzīmēt atlasītos ziņojumus kā mēstules
+toolbar-not-spam-button =
+    .label = Nav mēstules
+    .tooltiptext = Atzīmēt atlasītos ziņojumus kā ne mēstules
 
 ## File
 

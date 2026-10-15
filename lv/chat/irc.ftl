@@ -197,7 +197,7 @@ error-unavailable = { $name } ir īslaicīgi nepieejams.
 #    $name is the channel name.
 error-channel-banned = Jūs esat izraidīts no { $name }.
 #    $name is the channel name.
-error-cannot-send-to-channel = Jūs nevarat nosūtīt ziņojumus uz { $name }.
+error-cannot-send-to-channel = Nevar nosūtīt ziņojumus { $name }.
 #    $name is the channel name.
 error-channel-full = Kanāls { $name } ir pilns.
 #    $name is the channel name.

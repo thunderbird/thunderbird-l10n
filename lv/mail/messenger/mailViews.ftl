@@ -5,4 +5,5 @@
 mail-view-known-people = Cilvēki, kurus es pazīstu
 mail-view-recent = Nesenākais pasts
 mail-view-last-five-days = Pēdējās 5 dienas
+mail-view-not-spam = Nav mēstules
 mail-view-has-attachments = Ir pielikumi
