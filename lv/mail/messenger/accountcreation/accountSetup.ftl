@@ -29,6 +29,7 @@ account-setup-button-continue = Turpināt
 
 account-setup-step4-image =
     .title = Savienojuma kļūda
+account-setup-privacy-help = Privātuma pamatnostādnes
 
 ## Dismiss account creation dialog
 

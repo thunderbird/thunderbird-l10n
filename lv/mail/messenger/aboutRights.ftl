@@ -9,7 +9,11 @@ rights-intro-point-2 =
     Mozilla fonds nedod jums nekādas tiesības izmantot tās zīmolus un logo, tajā skaitā arī Thunderbird nosaukumu. Papildu informāciju par zīmoliem varat atrast 
     <a data-l10n-name="mozilla-trademarks-link">šeit</a>.
 rights-intro-point-3 = Dažas no { -brand-short-name } iespējām, piemēram, avāriju gadījumu ziņošanas rīks, piedāvā jums iespēju nosūtīt savu viedokli par { -vendor-short-name }. Izvēloties nosūtīt savu viedokli, jūs dodat atļauju { -vendor-short-name } izmantot šo jūsu sniegto informāciju, lai uzlabotu savus produktus, publicēt to savās mājas lapās vai kā citādi izplatīt šo saņemto informāciju.
-rights-intro-point-4 = Tas kā mēs izmantojam jūsu personisko informāciju un { -vendor-short-name } nosūtīto viedokli izmantojot { -brand-short-name } ir aprakstīts <a data-l10n-name="mozilla-privacy-policy-link">{ -brand-short-name } privātuma politikā</a>.
+rights-intro-point-4 =
+    Tas, kā mēs izmantojam Tavu personisko informāciju un atsauksmes,
+    kas ir iesniegtas { -vendor-short-name } ar { -brand-short-name },
+    ir aprakstīts <a data-l10n-name="mozilla-privacy-policy-link">{ -brand-short-name }
+    privātuma pamatnostādnēs</a>.
 rights-intro-point-4-unbranded = Šeit ir uzskaitītas visas piemērojamās produkta privātuma politikas.
 rights-intro-point-5 = Dažas { -brand-short-name } iespējas izmanto tīmeklī balstītus informācijas pakalpojumus, tomēr mēs nevaram nodrošināt, ka tie ir 100% pareizi un bez kļūdām. Vairāk informācijas par šiem pakalpojumiem un to atspējošanu ir pieejama <a data-l10n-name="mozilla-service-terms-link">pakalpojumu noteikumos</a>.
 rights-intro-point-5-unbranded = Ja šajā produktā ir iekļauti tīmekļa pakalpojumi, visiem aktuālajiem pakalpojuma nosacījumiem jābūt pieejamiem <a data-l10n-name="mozilla-website-services-link">mājas lapu pakalpojumu</a> sadaļā.
