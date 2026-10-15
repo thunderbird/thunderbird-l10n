@@ -19,6 +19,12 @@ account-setup-email-info-icon =
     .title = Esošā e-pasta adrese
 account-setup-email-warning-icon =
     .title = Nederīga e-pasta adrese
+account-setup-password-label = Parole
+    .title = Izvēles, bet var tikt izmantota lietotājvārda pārbaudīšanai
+    .accesskey = P
+#   YOURDOMAIN refers to the Windows domain in ActiveDirectory. yourusername refers to the user's account name in Windows.
+account-setup-exchange-input =
+    .placeholder = DOMENS\lietotajvards
 
 ## Action buttons
 
@@ -52,6 +58,7 @@ account-setup-result-imap-description = Glabā mapes un e-pasta ziņojumus vien�
 account-setup-result-pop-description = Glabā mapes un e-pasta ziņojumus datorā
 account-setup-incoming-title = Ienākošie
 account-setup-outgoing-title = Izejošais
+account-setup-username-title = Lietotājvārds
 account-setup-result-outgoing-existing = Izmantot esošo izejošo SMTP serveri
 # Variables:
 #  $incoming (String): The email/username used to log into the incoming server
@@ -61,7 +68,14 @@ account-setup-result-username-different = Ienākošais: { $incoming }, izejošai
 ## Manual configuration area
 
 account-setup-incoming-server-legend = Ienākošais serveris
+account-setup-port-label = Ports:
+    .title = Iestatīt porta numuru 0 automātiskai noteikšanai
+account-setup-ssl-label = Savienojuma drošība:
 account-setup-outgoing-server-legend = Izejošais serveris
+
+## Incoming/Outgoing SSL options
+
+account-setup-username-label = Lietotājvārds:
 
 ## Warning insecure server dialog
 

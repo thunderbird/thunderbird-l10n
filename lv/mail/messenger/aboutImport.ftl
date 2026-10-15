@@ -5,6 +5,7 @@
 
 ## Buttons
 
+button-back = Atpakaļ
 button-continue = Turpināt
 
 ## Import from calendar file steps

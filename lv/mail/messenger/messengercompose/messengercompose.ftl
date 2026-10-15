@@ -167,6 +167,9 @@ default-delete-cmd =
 
 ## Encryption
 
+encryption-menu =
+    .label = Drošība
+    .accesskey = D
 encryption-options-openpgp =
     .label = OpenPGP
     .tooltiptext = Apskatīt vai mainīt OpenPGP šifrēšanas iestatījumus

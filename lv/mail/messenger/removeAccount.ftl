@@ -25,3 +25,12 @@ remove-data-chat-account-description = Tiek noņemti visi šim kontam lokālā d
 show-data-button =
     .label = Rādīt datu vietu
     .accesskey = R
+# Variables:
+# $count (Number) - The number of outgoing servers to be removed.
+remove-outgoing-servers-checkbox =
+    .label =
+        { $count ->
+            [zero] Noņemt { $count } izejošo serveru
+            [one] Noņemt { $count } izejošo serveri
+           *[other] Noņemt { $count } izejošos serverus
+        }

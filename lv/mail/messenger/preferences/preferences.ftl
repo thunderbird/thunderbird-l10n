@@ -60,6 +60,7 @@ collection-backlogged-crash-reports-link = Uzzināt vairāk
 privacy-security-header = Drošība
 privacy-scam-detection-title = Krāpšanas noteikšana
 privacy-anti-virus-title = Vīrusu aizsardzība
+privacy-security-certificates-title = Drošības sertifikāti
 privacy-certificates-title = Sertifikāti
 chat-pane-header = Tērzēšana
 chat-status-title = Stāvoklis
@@ -213,6 +214,7 @@ update-app-legend = { -brand-short-name } atjaunojumi
 # Variables:
 #   $version (String): version of Thunderbird, e.g. 68.0.1
 update-app-version = Versija { $version }
+install-updates-automatically-description = Nodrošina { -brand-short-name } drošību ar jaunākajiem drošības labojumiem.
 allow-description = Ļaut { -brand-short-name }
 automatic-updates-label =
     .label = Automātiski uzstādīt atjaunojumus (ieteicams: uzlabota drošība)
@@ -662,6 +664,13 @@ search-results-help-link = Vajadzīga palīdzība? Apmeklē <a data-l10n-name="u
 sync-pane-cancel = Atcelt
 show-synced-learn-more = Uzzināt vairāk…
 sync-disconnected-text = Vienādo visās savās ierīcēs savus e-pasta kontus, adrešu grāmatas, kalendārus un identitātes.
+
+## Mobile QR Export Pane
+
+qr-export-select-accounts = Atlasīt, kurus kontus izgūt:
+qr-export-security-legend = Drošība
+qr-export-security-warning = Savai drošībai lūgums pārliecināties, ka atrodies privātā vidē, un nolasi kvadrātkodus no uzticamiem avotiem.
+qr-export-select-accounts-title = Atlasīt izgūstamos kontus:
 
 ## Appearance Tab
 

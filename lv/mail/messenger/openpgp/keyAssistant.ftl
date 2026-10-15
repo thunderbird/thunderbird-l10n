@@ -10,3 +10,4 @@ openpgp-key-assistant-key-rejected = Šī atslēga iepriekš ir tikusi noraidīt
 ## Dialog buttons
 
 openpgp-key-assistant-cancel-button = Atcelt
+openpgp-key-assistant-back-button = Atpakaļ
