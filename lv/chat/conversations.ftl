@@ -32,16 +32,16 @@ status-changed-from-unknown-with-status-text = { $displayName } ir { $statusType
 # mislead the user into thinking the person's status has just changed.
 #  $displayName is the display name of the contact.
 #  $statusType is the new status type (a value from status.ftl).
-status-known = Jūsu konts tika atkārtoti savienots ({ $displayName } ir { $statusType }).
+status-known = Tavs konts tika atkārtoti savienots ({ $displayName } ir { $statusType }).
 #  $displayName is the display name of the contact.
 #  $statusType is the new status type (a value from status.ftl).
 #  $statusText is the status text (eg. "I'm currently away from the computer").
-status-known-with-status-text = Jūsu konts ir pārsavienots ({ $displayName } is { $statusType }: { $statusText }).
+status-known-with-status-text = Tavs konts ir atkārtoti savienots ({ $displayName } is { $statusType }: { $statusText }).
 # LOCALIZATION NOTE (status-unknown):
 #  $displayName is the display name of the contact.
 status-unknown = Jūsu konts ir atvienots ({ $displayName } stāvoklis vairs nav zināms).
 account-disconnected = Jūsu konts ir atvienots.
-account-reconnected = Ar jūsu kontu atkal ir izveidots savienojums.
+account-reconnected = Ar Tavu kontu no jauna ir izveidots savienojumus.
 # LOCALIZATION NOTE (auto-reply):
 #  $message is replaced by the text of a message that was sent as an automatic reply.
 auto-reply = Automātiskā-atbilde - { $message }

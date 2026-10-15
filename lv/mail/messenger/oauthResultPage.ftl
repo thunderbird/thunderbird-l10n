@@ -13,6 +13,7 @@ oauth-result-wordmark-alt = { -brand-full-name }
 ## Successful authentication
 
 oauth-success-title = Viss iestatīts
+oauth-success-subtitle = Tavs konts tika droši savienots ar { -brand-short-name }.
 
 ## Authentication error
 
