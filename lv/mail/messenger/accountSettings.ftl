@@ -2,6 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+outgoing-server-name = Izejošais serveris:
+    .accesskey = I
+outgoing-server-edit =
+    .label = Labot izejošo serveri…
+    .accesskey = i
 oauth2-use-custom-details =
     .label = Izmantot pielāgotus OAuth2 iestatījumus
     .accesskey = p

@@ -21,9 +21,13 @@ account-hub-release-notes = Laidiena piezīmes
 account-hub-email-cancel-button = Atcelt
 account-hub-email-continue-button = Turpināt
 account-hub-result-incoming-legend = Ienākošie
+account-hub-result-outgoing-legend = Izejošais
 account-hub-incoming-server-legend = Ienākošais serveris
+account-hub-outgoing-server-legend = Izejošais serveris
 account-hub-result-incoming-server-legend = Ienākošais serveris
     .title = Ienākošais serveris
+account-hub-result-outgoing-server-legend = Izejošais serveris
+    .title = Izejošais serveris
 
 ## Other Account Hub strings (sadly not sorted into sections)
 
@@ -47,6 +51,7 @@ account-hub-thundermail-button = Pieteikties ar Thundermail
 # Used as part of a divider between sign in button and a sign in form.
 account-hub-thundermail-divider-text = vai
 account-hub-manual-config-incoming-legend = Ienākošais serveris
+account-hub-manual-config-outgoing-legend = Izejošais serveris
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
 account-hub-same-username-checkbox = Tāds pats lietotājvārds kā ienākošajam serverim
 account-hub-protocol-microsoft = Exchange vai Microsoft 365
@@ -58,6 +63,7 @@ account-hub-port-help-text = Ja atstāts tukšs, { -brand-short-name } mēģinā
 account-hub-notification-show-more = Rādīt vairāk
 account-hub-email-setup-header = Pievieno savu e-pasta adresi
 account-hub-email-setup-incoming = Ienākošā servera iestatījumi
+account-hub-email-setup-outgoing = Izejošā servera iestatījumi
 account-hub-email-connect-settings = Savieno savus e-pasta iestatījumus
 account-hub-result-imap-description = Glabā mapes un e-pasta ziņojumus vienādotus serverī
 account-hub-result-pop-description = Glabā mapes un e-pasta ziņojumus datorā

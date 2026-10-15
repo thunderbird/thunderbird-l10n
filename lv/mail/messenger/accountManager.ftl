@@ -4,4 +4,7 @@
 
 edit-vcard-dialog-cancel-button = Atcelt
     .accesskey = A
+outgoing-server-section-name = Izejošais serveris
+# Used in the Outgoing Server section of the account manager
+outgoing-server-settings-title = Izejošā servera iestatījumi
 open-settings-sidebar-button = Iestatījumi

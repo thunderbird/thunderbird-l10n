@@ -110,6 +110,9 @@ use-document-fonts-checkbox =
 use-fixed-width-plain-checkbox =
     .label = Vienkārša teksta ziņām izmantot vienāda platuma fontu
     .accesskey = V
+allow-incoming-fonts-checkbox =
+    .label = Ļaut ienākošajiem ziņojumiem izmantot savus fontus
+    .accesskey = s
 
 ## Language settings
 
@@ -120,7 +123,7 @@ font-outgoing-email-label =
     .accesskey = e
 font-incoming-email-label =
     .value = Ienākošais pasts:
-    .accesskey = n
+    .accesskey = I
 default-font-reply-checkbox =
     .label = Ja iespējams, atbildēs izmantot noklusēto teksta kodējumu
     .accesskey = n

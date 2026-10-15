@@ -51,6 +51,22 @@ account-setup-privacy-help = Privātuma pamatnostādnes
 account-setup-result-imap-description = Glabā mapes un e-pasta ziņojumus vienādotus serverī
 account-setup-result-pop-description = Glabā mapes un e-pasta ziņojumus datorā
 account-setup-incoming-title = Ienākošie
+account-setup-outgoing-title = Izejošais
+account-setup-result-outgoing-existing = Izmantot esošo izejošo SMTP serveri
+# Variables:
+#  $incoming (String): The email/username used to log into the incoming server
+#  $outgoing (String): The email/username used to log into the outgoing server
+account-setup-result-username-different = Ienākošais: { $incoming }, izejošais: { $outgoing }
+
+## Manual configuration area
+
+account-setup-incoming-server-legend = Ienākošais serveris
+account-setup-outgoing-server-legend = Izejošais serveris
+
+## Warning insecure server dialog
+
+account-setup-insecure-incoming-title = Ienākošā iestatījumi:
+account-setup-insecure-outgoing-title = Izejošā iestatījumi:
 
 ## Warning Exchange confirmation dialog
 
@@ -65,6 +81,7 @@ exit-dialog-cancel-button = Turpināt iestatīšanu
 ## Alert dialogs
 
 account-setup-creation-error-title = Kļūda konta izveidošanā
+account-setup-error-server-exists = Ienākošais serveris jau pastāv.
 
 ## Success view
 
