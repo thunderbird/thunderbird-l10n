@@ -7,6 +7,7 @@
 
 button-back = Atpakaļ
 button-continue = Turpināt
+button-finish = Pabeigt
 
 ## Import from calendar file steps
 

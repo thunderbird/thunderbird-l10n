@@ -20,3 +20,8 @@ customize-title = Pielāgot rīkjoslas
 customize-change-appearance = Mainīt izskatu
 customize-button-style-icons-beside-text-option = Ikonas blakus tekstam
 customize-cancel = Atcelt
+
+## Unified toolbar customization target context menu
+
+customize-target-backward =
+    .label = Pārvietot atpakaļ

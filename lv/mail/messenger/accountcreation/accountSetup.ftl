@@ -107,6 +107,8 @@ account-setup-found-address-books-description =
         [one] { -brand-short-name } atrada { $count } ar e-pasta kontu saistītu adrešu grāmatu
        *[other] { -brand-short-name } atrada { $count } ar e-pasta kontu saistītas adrešu grāmatas
     }
+account-setup-button-finish = Pabeigt
+    .accesskey = P
 
 ## Calendar synchronization dialog
 

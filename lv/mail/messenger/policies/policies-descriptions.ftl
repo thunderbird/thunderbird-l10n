@@ -25,6 +25,7 @@ policy-DisabledCiphers = Liegt šifrus.
 policy-DefaultDownloadDirectory = Iestatīt noklusēto lejuplādes mapi.
 policy-DisableAppUpdate = Liegt { -brand-short-name } atjaunošanu.
 policy-DisableChat = Atspējot tērzēšanas iespēju.
+policy-DisableCommunity = Nerādīt saskarnē kopienas iespējas (piemēram, “Ziedot”, “Iesaistīties”, “Dalīties ar ierosinājumiem” utt.)
 policy-DisableDataCollectionSettings = Neļaut lietotājiem mainīt datu ievākšanas iestatījumus.
 policy-DisableDefaultClientAgent = Liegt noklusētajam klienta aģentam veikt jebkādas darbības. Attiecas tikai uz Windows; citās platformās aģenta nav.
 policy-DisableDeveloperTools = Liegt piekļuvi izstrādātāju rīkiem.

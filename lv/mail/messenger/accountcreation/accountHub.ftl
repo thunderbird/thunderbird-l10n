@@ -15,6 +15,7 @@ account-hub-welcome-line = Laipni lūdzam <span data-l10n-name="brand-name">{ -b
 ## Footer
 
 account-hub-release-notes = Laidiena piezīmes
+account-hub-donate = Ziedot
 
 ## Initial setup page
 
@@ -25,6 +26,7 @@ account-hub-import-setup-button = Ievietot
 
 account-hub-email-cancel-button = Atcelt
 account-hub-email-back-button = Atpakaļ
+account-hub-email-finish-button = Pabeigt
 account-hub-email-continue-button = Turpināt
 account-hub-result-incoming-legend = Ienākošie
 account-hub-result-outgoing-legend = Izejošais
@@ -86,6 +88,7 @@ account-hub-email-setup-header = Pievieno savu e-pasta adresi
 account-hub-email-setup-incoming = Ienākošā servera iestatījumi
 account-hub-email-setup-outgoing = Izejošā servera iestatījumi
 account-hub-email-connect-settings = Savieno savus e-pasta iestatījumus
+account-hub-add-new-email = Pievienot vēl vienu e-pasta kontu
 account-hub-result-imap-description = Glabā mapes un e-pasta ziņojumus vienādotus serverī
 account-hub-result-pop-description = Glabā mapes un e-pasta ziņojumus datorā
 account-hub-result-ews-description = Izmantot Microsoft Exchange Web Services, lai vienādotu mapes un e-pasta ziņojumus
@@ -95,6 +98,7 @@ account-hub-result-exchange-description = Mapju un e-pasta ziņojumu vienādoša
 account-hub-result-recommended-label = Ieteicams
 account-hub-edit-configuration = Labot konfigurāciju
 account-hub-config-success-title = Konta iestatījumi tika atrasti automātiski.
+account-hub-email-added-success-links-title = Izpēti drošības un pielāgošanas iespējas:
 account-hub-email-error-text = Lūgums ievadīt derīgu e-pasta adresi
 account-hub-username-error-text = Lietotājvārds ir nepieciešams
     .title = Lietotājvārds ir nepieciešams

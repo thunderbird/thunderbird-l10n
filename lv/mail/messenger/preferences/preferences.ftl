@@ -670,6 +670,7 @@ sync-disconnected-text = Vienādo visās savās ierīcēs savus e-pasta kontus, 
 qr-export-select-accounts = Atlasīt, kurus kontus izgūt:
 qr-export-security-legend = Drošība
 qr-export-security-warning = Savai drošībai lūgums pārliecināties, ka atrodies privātā vidē, un nolasi kvadrātkodus no uzticamiem avotiem.
+qr-export-back = Atpakaļ
 qr-export-select-accounts-title = Atlasīt izgūstamos kontus:
 
 ## Appearance Tab
