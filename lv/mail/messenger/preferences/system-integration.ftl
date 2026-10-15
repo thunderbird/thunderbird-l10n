@@ -4,8 +4,8 @@
 
 system-integration-dialog-title = Sistēmas integrācija
 system-integration-dialog =
-    .buttonlabelaccept = Iestatīt kā noklusēto
-    .buttonlabelcancel = Izlaist integrāciju
+    .buttonlabelaccept = Iestatīt kā noklusējumu
+    .buttonlabelcancel = Izlaist iekļaušanu
     .buttonlabelcancel2 = Atcelt
 default-client-intro = Izmantot { -brand-short-name } kā noklusēto klientu:
 unset-default-tooltip = Nav iespējams { -brand-short-name } noņemt kā noklusēto klientu, darbojoties { -brand-short-name }. Lai padarītu par noklusēto citu lietotni, ir jāizmanto tās 'Iestatīt kā noklusēto' dialogs.

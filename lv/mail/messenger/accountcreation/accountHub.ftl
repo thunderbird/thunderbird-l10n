@@ -18,6 +18,7 @@ account-hub-release-notes = Laidiena piezīmes
 
 ## Email page
 
+account-hub-email-cancel-button = Atcelt
 account-hub-email-continue-button = Turpināt
 
 ## Other Account Hub strings (sadly not sorted into sections)
@@ -34,7 +35,7 @@ account-hub-email-warning-icon =
     .title = Nederīga e-pasta adrese
 account-hub-name-label = Pilns vārds
     .accesskey = v
-account-hub-lookup-email-configuration-title = Uzmeklē konfigurāciju
+account-hub-lookup-email-configuration-title = Uzmeklē iestatījumus
 account-hub-find-settings-failed = { -brand-full-name } neizdevās atrast e-pasta konta iestatījumus.
 account-hub-creation-error-title = Kļūda konta izveidošanā
 account-hub-thundermail-button = Pieteikties ar Thundermail
@@ -47,6 +48,7 @@ account-hub-oauth-unsupported-description = { -brand-short-name } nevar automāt
 account-hub-username-help-text = Pārsvarā pilna e-pasta adrese
 account-hub-port-help-text = Ja atstāts tukšs, { -brand-short-name } mēģinās atklāt portu.
 account-hub-email-setup-header = Pievieno savu e-pasta adresi
+account-hub-email-connect-settings = Savieno savus e-pasta iestatījumus
 account-hub-result-exchange-description = Mapju un e-pasta ziņojumu vienādošana ar Exchange vai Office 365
 account-hub-email-error-text = Lūgums ievadīt derīgu e-pasta adresi
 account-hub-manual-config-error-summary = Lūgums novērst šīs kļūdas:

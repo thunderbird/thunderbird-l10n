@@ -10,6 +10,10 @@
 
 oauth-result-wordmark-alt = { -brand-full-name }
 
+## Successful authentication
+
+oauth-success-title = Viss iestatīts
+
 ## Authentication error
 
 oauth-error-subtitle = { -brand-short-name } nevarēja pabeigt pieteikšanos ar šiem iestatījumiem.

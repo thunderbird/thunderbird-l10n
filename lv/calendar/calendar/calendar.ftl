@@ -148,6 +148,8 @@ tooltip-due = Paredzēts:
 filepicker-title-import = Ievietot
 filepicker-title-export = Izgūt
 item-modified-on-server-title = Vienums ir izmainīts serverī
+calendar-conflicts-dialog =
+    .buttonlabelcancel = Atmest izmaiņas un pārlādēt
 cal-dav-request-status-code-string-500 = Iekšēja servera kļūda.
 cal-dav-request-status-code-string-503 = Iekšēja servera kļūda (Īslaicīgs servera darbības pārtraukums?).
 calendar-tomorrow = Rīt
@@ -155,6 +157,7 @@ calendar-tomorrow = Rīt
 # used for a display the date-time of an alarm like 'Tomorrow at Thu 2 Oct 2008 13:21'
 #    $datetime will be replaced with a date-time
 alarm-tomorrow-at = Rīt { $datetime }
+task-details-status-cancelled = Atcelts
 # LOCALIZATION NOTE (error-code):
 #    $errorCode will be replaced with the number of an error code
 error-code = Kļūdas kods: { $errorCode }

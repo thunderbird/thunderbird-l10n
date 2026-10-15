@@ -72,9 +72,11 @@ about-addressbook-confirm-delete-contacts-multi =
 
 ## Details
 
+about-addressbook-cancel-edit-contact-button = Atcelt
 about-addressbook-details-email-addresses-header = E-pasta adreses
 about-addressbook-photo-dialog-title =
     .aria-label = Pārvaldīt šīs kontaktpersonas fotoattēlu.
+about-addressbook-photo-cancel = Atcelt
 
 ## Address Book Search Dialog
 

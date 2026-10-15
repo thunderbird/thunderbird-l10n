@@ -156,3 +156,4 @@ message-accepted-invite = { $user } pieņēma uzaicinājumu.
 message-invited = { $user } uzaicnāja { $userWhoGotInvited }.
 #    Label in the message context menu
 message-action-request-key = Atkārtoti pieprasīt atslēgas
+message-action-cancel = Atcelt ziņojumu

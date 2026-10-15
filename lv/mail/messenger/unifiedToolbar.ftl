@@ -19,3 +19,4 @@ toolbar-get-all-messages-menuitem =
 customize-title = Pielāgot rīkjoslas
 customize-change-appearance = Mainīt izskatu
 customize-button-style-icons-beside-text-option = Ikonas blakus tekstam
+customize-cancel = Atcelt

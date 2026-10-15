@@ -6,3 +6,7 @@
 ## Resolve section
 
 openpgp-key-assistant-key-rejected = Šī atslēga iepriekš ir tikusi noraidīta.
+
+## Dialog buttons
+
+openpgp-key-assistant-cancel-button = Atcelt

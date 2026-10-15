@@ -177,6 +177,10 @@ menu-view-certificates =
     .label = Apskatīt saņēmēju sertifikātus
     .accesskey = A
 
+## Addressing Area
+
+many-public-recipients-prompt-cancel = Atcelt nosūtīšanu
+
 ## Notifications
 
 # Variables:

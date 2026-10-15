@@ -659,9 +659,11 @@ search-results-help-link = Vajadzīga palīdzība? Apmeklē <a data-l10n-name="u
 
 ## Sync Tab
 
+sync-pane-cancel = Atcelt
 show-synced-learn-more = Uzzināt vairāk…
 sync-disconnected-text = Vienādo visās savās ierīcēs savus e-pasta kontus, adrešu grāmatas, kalendārus un identitātes.
 
 ## Appearance Tab
 
 appearance-category-header = Izskats
+apply-changes-prompt-message = Pielietot pašreizējos pavedienu veidošanas un kārtošanas iestatījumus visām mapēm?
