@@ -45,6 +45,11 @@ account-setup-step4-image =
     .title = Savienojuma kļūda
 account-setup-privacy-help = Privātuma pamatnostādnes
 
+## Results area
+
+account-setup-result-imap-description = Glabā mapes un e-pasta ziņojumus vienādotus serverī
+account-setup-result-pop-description = Glabā mapes un e-pasta ziņojumus datorā
+
 ## Warning Exchange confirmation dialog
 
 exchange-dialog-cancel-button = Atcelt
