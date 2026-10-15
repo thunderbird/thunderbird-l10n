@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY e2eTitle.label "Tiešās saziņas šifrēšana">
+<!ENTITY e2eTitle.label "Pilnīga šifrēšana">
 <!ENTITY e2eLearnMore.label "Uzzināt vairāk">
 <!ENTITY e2eEnc.description "Bez tiešās saziņas šifrēšanas, vēstuļu saturs ir atklāts jūsu epasta pakalpojumu sniedzējam un masu uzraudzībai.">
 <!ENTITY e2eTechPref.description "Vēlamā šifrēšanas tehnoloģija:">
