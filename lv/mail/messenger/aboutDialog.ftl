@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 about-update-whats-new = Kas jauns
+about-dialog-title = Par { -brand-full-name }
 release-notes-link = Laidiena piezīmes
 update-check-for-updates-button = Pārbaudīt atjaunojumus
     .accesskey = P

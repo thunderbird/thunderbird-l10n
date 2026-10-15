@@ -6,6 +6,10 @@
 ### These strings are formatted and used in a generated HTML page, shown in the user's default browser. Because of that, they have to use slightly unconventional formatting. It also means instead of strings having attributes, each attribute is its own entry.
 
 
+## Always included in the page
+
+oauth-result-wordmark-alt = { -brand-full-name }
+
 ## Authentication error
 
 oauth-error-subtitle = { -brand-short-name } nevarēja pabeigt pieteikšanos ar šiem iestatījumiem.

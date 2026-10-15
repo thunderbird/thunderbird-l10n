@@ -6,3 +6,6 @@
 #   $hostname (string) - Hostname (and possibly port) of the server.
 cert-error-ssl-connection-error = Atgadījās kļūda savienojuma ar { $hostname } izveidošanā.
 certificate-check-view-button = Apskatīt sertifikātu
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-test-success = Sekmīgi izveidots drošs savienojums ar { $hostname }.

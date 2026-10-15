@@ -13,7 +13,7 @@
 <!ENTITY fullnameExample.label "(piemēram, &quot;Džons Smits&quot;).">
 <!ENTITY fullnameLabel.label "Jūsu vārds:">
 <!ENTITY fullnameLabel.accesskey "v">
-<!ENTITY emailLabel.label "Epasta adrese:">
+<!ENTITY emailLabel.label "E-pasta adrese:">
 <!ENTITY emailLabel.accesskey "E">
 <!ENTITY incomingTitle.label "Ienākošā servera informācija">
 <!ENTITY incomingUsername.label "Lietotājvārds:">

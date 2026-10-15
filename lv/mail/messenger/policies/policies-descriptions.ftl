@@ -57,6 +57,7 @@ policy-Extensions = Uzstādīt, noņemt vai noslēgt paplašinājumus. Uzstādī
 policy-ExtensionSettings = Pārvaldīt visus paplašinājumu uzstādīšanas aspektus.
 policy-ExtensionUpdate = Ieslēgt vai atslēgt automātiskus paplašinājumu atjaunojumus.
 policy-HardwareAcceleration = Ja atslēgts, izslēdz aparatūrisku paātrināšanu.
+policy-InAppNotification = Iespējot vai atspējot paziņojumu veidus.
 policy-InstallAddonsPermission = Ļaut noteiktām vietnēm uzstādīt papildinājumus.
 policy-LegacyProfiles = Atslēgt iespēja, kas katram uzstādījumam nodrošina atsevišķu profilu.
 

@@ -11,6 +11,8 @@ account-setup-description = Lai izmantotu savu pašreizējo e-pasta adresi, jāi
 
 ## Form fields
 
+account-setup-name-label = Tavs pilnais vārds
+    .accesskey = p
 account-setup-email-info-icon =
     .title = Esošā e-pasta adrese
 

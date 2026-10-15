@@ -165,6 +165,12 @@ default-delete-cmd =
 
 ## Encryption
 
+encryption-options-openpgp =
+    .label = OpenPGP
+    .tooltiptext = Apskatīt vai mainīt OpenPGP šifrēšanas iestatījumus
+encryption-options-smime =
+    .label = S/MIME
+    .tooltiptext = Apskatīt vai mainīt S/MIME šifrēšanas iestatījumus
 menu-view-certificates =
     .label = Apskatīt saņēmēju sertifikātus
     .accesskey = A

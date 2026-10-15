@@ -4,6 +4,20 @@
 
 system-tray-app-name = { -brand-full-name }
 
+## Help Menu
+
+system-tray-menuitem-quit =
+    { PLATFORM() ->
+        [windows] Iziet no { -brand-full-name }
+       *[other] Aizvērt { -brand-full-name }
+    }
+system-tray-menu-quit =
+    .label =
+        { PLATFORM() ->
+            [windows] Iziet no { -brand-full-name }
+           *[other] Aizvērt { -brand-full-name }
+        }
+
 ## Mail Toolbar
 
 toolbar-junk-button =
@@ -13,8 +27,8 @@ toolbar-not-junk-button =
     .label = Nedraza
     .tooltiptext = Atzīmēt atlasītās vēstules kā nedrazu
 toolbar-delete-button =
-    .label = Dzēst
-    .tooltiptext = Dzēst mapē atlasītās vēstules
+    .label = Izdzēst
+    .tooltiptext = Izdzēst atlasītos ziņojumus vai mapi
 toolbar-undelete-button =
     .label = Atdzēst
     .tooltiptext = Atdzēst atlasītās vēstules

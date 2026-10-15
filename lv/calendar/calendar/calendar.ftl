@@ -242,6 +242,10 @@ saveandsend-button =
     .label = Saglabāt un nosūtīt
     .tooltiptext = Saglabāt un paziņot apmeklētājiem
 # Variables:
+#   $docTitle (String) - The date or view label for the current calendar view.
+calendar-window-title = { $docTitle } - { -brand-full-name }
+calendar-window-title-base = { -brand-full-name }
+# Variables:
 #   $calendarName (String) - Calendar name as given by the user.
 #   $location (String) - The calendar server location.
 calendar-auth-enter-user-password-for-calendar = “{ $calendarName }” ({ $location }) pieprasa Tavu lietotājvārdu un paroli.
