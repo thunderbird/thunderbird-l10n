@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Title -->
-<!ENTITY mailListWindowAdd.title "Danh sách gửi thư mới">
+<!ENTITY mailListWindowAdd.title "Danh sách thư mới">
 <!-- Labels and Access Keys -->
 <!ENTITY addToAddressBook.label "Thêm vào: ">
 <!ENTITY addToAddressBook.accesskey "v">

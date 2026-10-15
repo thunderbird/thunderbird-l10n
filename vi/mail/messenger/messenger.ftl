@@ -89,6 +89,17 @@ open-tabs-warning-confirmation-title = Xác nhận
 #   $count - number of messages to open
 open-tabs-warning-confirmation = Việc mở { $count } thư có thể bị chậm. Tiếp tục?
 
+## Sign-in window
+
+# Shown when the provider's sign-in page cannot use cookies because they are
+# blocked.
+browser-request-cookies-blocked = Cookie đã bị chặn, có thể bị ngăn cản việc đăng nhập.
+# Turns cookies back on. Same action as the "Accept cookies from sites" option
+# in Settings, Privacy & Security.
+browser-request-cookies-accept =
+    .label = Chấp nhận cookie từ trang này
+    .accesskey = A
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =

@@ -58,6 +58,12 @@ cancel-confirm = Bạn có chắc là bạn muốn hủy thư này?
 # $newsgroup (String) - The name of the newsgroup.
 auto-subscribe-text = Bạn có muốn theo dõi { $newsgroup }?
 
+## Unknown News Server Dialog
+
+# Variables:
+# $server (String) - The hostname:port of the news server, e.g. news.example.com:119.
+unknown-news-server-text = Liên kết này trỏ đến { $server }, nhưng chưa có tài khoản nào được thiết lập cho máy chủ tin tức đó. Vẫn kết nối?
+
 ## News Server Credentials
 
 enter-news-credentials-title = Yêu cầu tên người dùng và mật khẩu cho máy chủ tin tức

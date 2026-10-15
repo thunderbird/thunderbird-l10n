@@ -180,6 +180,11 @@ filter-editor-invalid-search-title = Thuật ngữ tìm kiếm không hợp lệ
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
 filter-editor-invalid-search-rule = Bộ lọc này không thể được lưu vì thuật ngữ tìm kiếm "{ $attribute } { $operator }" không hợp lệ trong ngữ cảnh hiện tại.
+filter-editor-missing-value-title = Thiếu giá trị tìm kiếm
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+filter-editor-missing-value-rule = Không thể lưu bộ lọc này vì chưa nhập giá trị nào cho cụm từ tìm kiếm "{ $attribute } { $operator }".
 filter-editor-action-order-explanation = Khi một thông báo khớp với bộ lọc này, các hành động sẽ được chạy theo thứ tự này:
 filter-editor-action-order-title = Lệnh hành động thực sự
 # Variables:

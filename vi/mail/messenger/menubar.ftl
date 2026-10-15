@@ -5,6 +5,7 @@
 toolbar-context-menu-menu-bar =
     .toolbarname = Thanh menu
     .accesskey = M
+system-tray-app-name = { -brand-full-name }
 
 ## Tools Menu
 
@@ -162,6 +163,9 @@ file-new-newsgroup-account =
 file-new-addressbook =
     .label = Sổ địa chỉ
     .accesskey = A
+file-new-mailing-list =
+    .label = Danh sách thư…
+    .accesskey = I
 file-new-local-addressbook =
     .label = Sổ địa chỉ cục bộ
     .accesskey = A

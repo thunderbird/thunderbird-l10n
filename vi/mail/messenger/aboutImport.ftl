@@ -103,6 +103,27 @@ addr-book-summary-description = Sổ địa chỉ mới có tên "{ $addressBook
 import-from-calendar-file-desc = Chọn tập tin iCalendar (.ics) bạn muốn nhập.
 calendar-items-title = Chọn các mục để nhập.
 calendar-items-loading = Đang tải các mục…
+# $count (Number) - The number of items in the calendar file.
+calendar-items-count = Tập tin chứa { $count } mục.
+# Column headers of the list of calendar items to import.
+calendar-items-column-title-a11y =
+    .aria-label = Tiêu đề
+calendar-items-column-title = Tiêu đề
+    .title = Sắp xếp theo tiêu đề
+# The start date and time of each item.
+calendar-items-column-start-a11y =
+    .aria-label = Bắt đầu
+calendar-items-column-start = Bắt đầu
+    .title = Sắp xếp theo thời gian bắt đầu
+# The end date and time of each item.
+calendar-items-column-end-a11y =
+    .aria-label = Kết thúc
+calendar-items-column-end = Kết thúc
+    .title = Sắp xếp theo thời gian kết thúc
+# The column of checkboxes, to choose which items to import.
+calendar-items-column-import-a11y =
+    .aria-label = Nhập
+calendar-items-column-import = Nhập
 calendar-items-filter-input2 =
     .label = Lọc các mục
     .placeholder = Lọc các mục…

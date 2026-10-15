@@ -38,6 +38,7 @@ policy-DisableForgetButton = Ngăn chặn truy cập vào nút Quên.
 policy-DisableFormHistory = Không lưu lịch sử tìm kiếm và biểu mẫu.
 policy-DisableMasterPasswordCreation = Nếu đúng, mật khẩu chính không thể được tạo ra.
 policy-DisableMessageForwardingFilters = Ngăn chặn bộ lọc thư tự động chuyển tiếp thư.
+policy-DisablePasswordReveal2 = Không cho phép mật khẩu được tiết lộ trong thông tin đăng nhập đã lưu hoặc trường mật khẩu.
 policy-DisablePasswordReveal = Không cho phép mật khẩu được tiết lộ trong thông tin đăng nhập đã lưu.
 policy-DisableProfileImport = Vô hiệu hóa lệnh menu để nhập dữ liệu từ một ứng dụng khác.
 policy-DisableExperimentalFeatures = Vô hiệu hóa các tính năng thử nghiệm trong Thunderbird.
