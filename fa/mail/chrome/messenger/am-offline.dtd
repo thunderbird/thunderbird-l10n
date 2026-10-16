@@ -1,0 +1,21 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY doNotDownloadPop3Movemail.label "To save disk space, do not download:">
+<!ENTITY offlineNotDownload.label "Messages larger than">
+<!ENTITY offlineNotDownload.accesskey "M">
+<!ENTITY kb.label "کیلوبایت">
+<!ENTITY daysOld.label "days old">
+<!ENTITY nntpNotDownloadRead.label "Read messages">
+<!ENTITY nntpNotDownloadRead.accesskey "d">
+<!ENTITY nntpDownloadMsg.label "Messages more than">
+<!ENTITY nntpDownloadMsg.accesskey "e">
+<!ENTITY offlineSelectNntp.label "Select newsgroups for offline use…">
+<!ENTITY offlineSelectNntp.accesskey "S">
+<!ENTITY offlineImapAdvancedOffline.label "پیشرفته…">
+<!ENTITY offlineImapAdvancedOffline.accesskey "پ">
+<!ENTITY syncGroupTitle.label "Message Synchronizing">
+<!ENTITY diskspaceGroupTitle.label "Disk Space">
+<!ENTITY ageAutosyncMiddle.label "">
+<!ENTITY ageAutosyncAfter.label "">

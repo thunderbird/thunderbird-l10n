@@ -1,0 +1,16 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY subscribeDialog.title "آبونه شدن">
+<!ENTITY newGroupsTab.label "New Groups">
+<!ENTITY newGroupsTab.accesskey "N">
+<!ENTITY refreshButton.label "Refresh">
+<!ENTITY refreshButton.accesskey "R">
+<!ENTITY stopButton.label "توقف">
+<!ENTITY stopButton.accesskey "ت">
+<!ENTITY server.label "Account:">
+<!ENTITY server.accesskey "A">
+<!ENTITY subscribedHeader.label "آبونه شدن">
+<!ENTITY namefield.label "Show items that contain:">
+<!ENTITY namefield.accesskey "o">

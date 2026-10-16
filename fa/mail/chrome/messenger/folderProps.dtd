@@ -1,0 +1,26 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY folderProps.windowtitle.label "ویژگی‌ها">
+<!ENTITY generalInfo.label "General Information">
+<!ENTITY offlineFolder.check.label "Select this folder for offline use">
+<!ENTITY offlineFolder.check.accesskey "S">
+<!ENTITY offlineFolder.button.label "Download Now">
+<!ENTITY offlineFolder.button.accesskey "D">
+<!ENTITY selectofflineNewsgroup.check.label "Select this newsgroup for offline use">
+<!ENTITY selectofflineNewsgroup.check.accesskey "o">
+<!ENTITY offlineNewsgroup.button.label "Download Now">
+<!ENTITY offlineNewsgroup.button.accesskey "D">
+<!ENTITY folderProps.name.label "نام:">
+<!ENTITY folderProps.name.accesskey "ن">
+<!ENTITY folderProps.location.label "مکان:">
+<!ENTITY folderProps.location.accesskey "م">
+<!ENTITY folderSharingTab.label "Sharing">
+<!ENTITY privileges.button.label "Privileges…">
+<!ENTITY privileges.button.accesskey "P">
+<!ENTITY permissionsDesc.label "You have the following permissions:">
+<!ENTITY folderType.label "Folder Type:">
+<!ENTITY folderQuotaTab.label "Quota">
+<!ENTITY folderQuotaUsage.label "Usage:">
+<!ENTITY folderQuotaStatus.label "وضعیت:">
