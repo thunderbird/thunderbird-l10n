@@ -1262,6 +1262,8 @@ qr-export-select-all-accounts = Alles selektearje
 qr-export-passwords-legend = Wachtwurden
 qr-export-include-passwords-label = Accountwachtwurden yn de QR-koade opnimme
 qr-export-web-sign-in-note = <strong>Noat:</strong> accounts dy’t oanmelding fia it web (lykas Gmail of Yahoo), fereaskje opnij autentikaasje op jo apparaat.
+qr-export-private-transfer-note = <strong>Privee-oerdracht:</strong> jo ynstellingen en wachtwurden wurde streekrjocht fan dizze kompjûter nei jo telefoan oerbrocht. Neat wurdt nei Mozilla-servers ferstjoerd of bewarre.
+qr-export-screen-privacy-tip = <strong>Tip:</strong> soargje dat oaren jo skerm net sjen kinne sa lang as de QR-koade werjûn wurdt.
 qr-export-security-legend = Befeiliging
 qr-export-include-passwords = Alle accountwachtwurden opnimme
 qr-export-oauth-warning = Guon fan jo accounts brûke in autentikaasjemetoade dy’t mooglik opnij autentikaasje fereaskje op jo mobile apparaat. Jo moatte mooglik wylst dit proses jo wachtwurden opnij ynfiere.
@@ -1311,6 +1313,11 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Wachtwurden ynbegrepen
 qr-export-summary-passwords-excluded = Wachtwurden net ynbegrepen
 qr-export-more-accounts = Mear accounts eksportearje
+qr-export-pane-header-mobile = Nei { -brand-product-name } mobyl eksportearje
+qr-export-description-email-accounts = Bring jo e-mailaccounts fan dizze kompjûter mei in QR-koade oer nei { -brand-product-name } op jo telefoan.
+qr-export-get-app-google-play = <a data-l10n-name="app-link">{ -brand-product-name } downloade op Google Play</a>
+qr-export-select-accounts-title = Selektearje te eksportearjen accounts:
+qr-export-missing-accounts-support = Misse jo in account? Accounts dy’t net stipe wurde op { -brand-product-name } foar Android kinne net selektearre wurde. <a data-l10n-name="account-support-link">Lês hokker accounttypen stipe wurde</a>
 
 ## Appearance Tab
 
