@@ -45,7 +45,7 @@
 <!ENTITY modelMoveToTrash.accesskey "P">
 <!ENTITY modelMarkDeleted.label "Vienkārši atzīmēt to kā dzēstu">
 <!ENTITY modelMarkDeleted.accesskey "V">
-<!ENTITY modelDeleteImmediately.label "Dzēst nekavējoties">
+<!ENTITY modelDeleteImmediately.label "Izdzēst uzreiz">
 <!ENTITY modelDeleteImmediately.accesskey "D">
 <!-- LOCALIZATION NOTE (expungeOnExit.label) : do not translate two of "&quot;" in below line -->
 <!ENTITY expungeOnExit.label "Izejot iztīrīt (&quot;izdzēst&quot;) iesūtni">

@@ -6,6 +6,9 @@ system-tray-app-name = { -brand-full-name }
 
 ## Tools Menu
 
+menu-tools-settings =
+    .label = Iestatījumi
+    .accesskey = I
 menu-export-for-mobile =
     .label = Izgūt mobilajām ierīcēm…
     .accesskey = g

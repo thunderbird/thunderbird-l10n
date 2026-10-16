@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 attachment-reminder-dialog-title = Pielikuma atgādinājuma atslēgvārdi
+attachment-reminder-description = Rādīt atgādinājumu par trūkstošiem pielikumiem, ja e-pasta ziņojums satur atbilstošus atslēgvārdus.
 attachment-reminder-label = Ja mēģināsiet nosūtīt epastu ar kādu no šiem atslēgvārdiem, { -brand-short-name } brīdinās par trūkstošajiem pielikumiem.
 keyword-new-button =
     .label = Jauns…

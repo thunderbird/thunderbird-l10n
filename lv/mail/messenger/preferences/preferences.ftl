@@ -4,6 +4,7 @@
 
 close-button =
     .aria-label = Aizvērt
+preferences-doc-title2 = Iestatījumi
 category-list =
     .aria-label = Kategorijas
 pane-general-title = Vispārīgi
@@ -268,6 +269,9 @@ smart-cache-label =
 clear-cache-button =
     .label = Notīrīt tagad
     .accesskey = N
+underline-text-links-label =
+    .label = Ziņojumos pasvītrot teksta saites
+    .accesskey = k
 always-underline-links =
     .label = Vienmēr pasvītrot saites
     .accesskey = V
@@ -287,7 +291,7 @@ color-options-button =
 display-width-legend = Vienkārša teksta vēstules
 # Note : convert-emoticons-label 'Emoticons' are also known as 'Smileys', e.g. :-)
 convert-emoticons-label =
-    .label = Rādīt emodžus kā grafiku
+    .label = Rādīt emocijzīmes kā attēlus
     .accesskey = e
 display-text-label = Rādot citētas vienkārša teksta vēstules:
 style-label =
@@ -343,9 +347,15 @@ delete-tag-button =
 auto-mark-as-read =
     .label = Automātiski atzīmēt vēstules kā lasītas
     .accesskey = A
+mark-read-when-opened =
+    .label = Uzreiz pēc atvēršanas
+    .accesskey = a
+show-attachments-inline-label =
+    .label = Rādīt pielikumus ziņojuma saturā
+    .accesskey = z
 mark-read-no-delay =
-    .label = Uzreiz parādot
-    .accesskey = U
+    .label = Uzreiz pēc parādīšanas
+    .accesskey = p
 
 ## Note: This will concatenate to "After viewing for [___] seconds",
 ## using (mark-read-after-viewing) and a number (seconds-label).
@@ -354,6 +364,9 @@ mark-read-delay =
     .label = Pēc parādīšanas
     .accesskey = P
 seconds-label = sekundes
+mark-read-after-viewing =
+    .label = Apskatot
+    .accesskey = s
 
 ##
 
@@ -527,6 +540,9 @@ primary-password-button =
     .accesskey = M
 forms-primary-pw-fips-title = Šobrīd jūs esat FIPS režīmā. FIPS pieprasa netukšu galveno paroli.
 forms-master-pw-fips-desc = Paroles maiņa neizdevās
+spam-delete-immediately-label =
+    .label = Izdzēst uzreiz
+    .accesskey = d
 certificate-ask-every =
     .label = Vaicāt katru reizi
     .accesskey = V
@@ -675,10 +691,12 @@ sync-disconnected-text = Vienādo visās savās ierīcēs savus e-pasta kontus, 
 ## Mobile QR Export Pane
 
 qr-export-pane-header = Izgūt kontus { -brand-product-name } Mobile
+qr-export-create = Izveidot kvadrātkodu savu kontu izgūšanai
 qr-export-select-accounts = Atlasīt, kurus kontus izgūt:
 qr-export-security-legend = Drošība
 qr-export-security-warning = Savai drošībai lūgums pārliecināties, ka atrodies privātā vidē, un nolasi kvadrātkodus no uzticamiem avotiem.
 qr-export-back = Atpakaļ
+qr-export-pane-header-mobile = Izgūt { -brand-product-name } mobilajai versijai
 qr-export-select-accounts-title = Atlasīt izgūstamos kontus:
 qr-export-missing-accounts-support = Trūkst konta? Kontus, kas netiek atbalstīti { -brand-product-name } Android, nevar atlasīt. <a data-l10n-name="account-support-link">Uzzināt, kuri kontu veidi tiek atbalstīti</a>
 

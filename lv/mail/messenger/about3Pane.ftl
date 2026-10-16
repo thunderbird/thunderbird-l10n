@@ -55,7 +55,7 @@ quick-filter-bar-tags-label = Birkas
 # The tooltip for the filter button that causes us to filter results to only
 # include messages with attachments.
 quick-filter-bar-attachment =
-    .title = Rādīt tikai vēstules ar pielikumiem
+    .title = Rādīt tikai ziņojumus ar pielikumiem
 # The label for the filter button that causes us to filter results to only
 # include messages with attachments.
 quick-filter-bar-attachment-label = Ar pielikumiem

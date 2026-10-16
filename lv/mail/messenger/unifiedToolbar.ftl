@@ -37,12 +37,15 @@ toolbar-get-all-messages-menuitem =
 ## Unified Toolbar customization
 
 customize-title = Pielāgot rīkjoslas
+customize-space-tab-settings = Iestatījumi
+    .title = Iestatījumi
 customize-change-appearance = Mainīt izskatu
 customize-button-style-icons-beside-text-option = Ikonas blakus tekstam
 customize-cancel = Atcelt
 customize-search-bar2 =
     .label = Meklēšanas rīkjoslas pogas
     .placeholder = Meklēšanas rīkjoslas pogas…
+customize-palette-settings-specific-title = Pieejams tikai iestatījumu vietai
 
 ## Unified toolbar customization target context menu
 

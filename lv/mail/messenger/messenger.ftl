@@ -358,11 +358,19 @@ spaces-toolbar-element =
     .aria-description = Stateniska rīkjosla, lai pārslēgtos starp dažādām vietām. Bultu taustiņi ir izmantojami, lai pārvietotos starp pieejamajām pogām.
     .aria-label = Vietu rīkjosla
     .toolbarname = Vietu rīkjosla
+spaces-toolbar-button-settings2 =
+    .title = Iestatījumi
+settings-context-open-settings-item2 =
+    .label = Iestatījumi
+settings-context-open-account-settings-item2 =
+    .label = Konta iestatījumi
 
 ## Spaces toolbar pinned tab menupopup
 
 spaces-pinned-button-menuitem-address-book2 =
     .label = { spaces-toolbar-button-address-book2.title }
+spaces-pinned-button-menuitem-settings2 =
+    .label = { spaces-toolbar-button-settings2.title }
 
 ## Spaces toolbar customize panel
 
