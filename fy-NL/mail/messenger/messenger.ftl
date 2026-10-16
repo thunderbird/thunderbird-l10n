@@ -98,6 +98,17 @@ open-tabs-warning-confirmation =
        *[other] It iepenjen fan { $count } berjochten ferrint miskien stadich. Trochgean?
     }
 
+## Sign-in window
+
+# Shown when the provider's sign-in page cannot use cookies because they are
+# blocked.
+browser-request-cookies-blocked = Cookies binne blokkearre, wat oanmelden mooglik opkeare kin.
+# Turns cookies back on. Same action as the "Accept cookies from sites" option
+# in Settings, Privacy & Security.
+browser-request-cookies-accept =
+    .label = Cookies fan websites akseptearje
+    .accesskey = C
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =

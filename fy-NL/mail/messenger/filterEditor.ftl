@@ -189,6 +189,10 @@ filter-editor-invalid-search-title = Syktermen ferkeard
 #   $operator (String) - The search operator from the bad rule.
 filter-editor-invalid-search-rule = Dit filter kin net bewarre wurde, omdat de sykterm ‘{ $attribute } { $operator }’ yn de aktuele kontekst net jildich is.
 filter-editor-missing-value-title = Sykwearde ûntbrekt
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+filter-editor-missing-value-rule = Dit filter kin net bewarre wurde, omdat der gjin wearde ynfierd is foar de sykterm ‘{ $attribute } { $operator }’.
 filter-editor-action-order-explanation = Wannear’t in berjocht oerienkomt mei dit filter sille de aksjes útfierd wurde yn dizze folchoarder:
 filter-editor-action-order-title = Werklike aksjefolchoarder
 # Variables:

@@ -66,6 +66,12 @@ cancel-confirm = Witte jo seker dat jo dit berjocht annulearje wolle?
 # $newsgroup (String) - The name of the newsgroup.
 auto-subscribe-text = Wolle jo jo oanmelde by { $newsgroup }?
 
+## Unknown News Server Dialog
+
+# Variables:
+# $server (String) - The hostname:port of the news server, e.g. news.example.com:119.
+unknown-news-server-text = Dizze keppeling ferwiist nei { $server }, mar der is gjin account foar dy nijstserver ynsteld. Dochs ferbine?
+
 ## News Server Credentials
 
 enter-news-credentials-title = Nijsserverbrûkersnamme en wachtwurd fereaske
