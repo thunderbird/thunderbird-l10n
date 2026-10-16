@@ -1,0 +1,20 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- extracted from am-advanced.xhtml -->
+<!ENTITY smtpListAdd.label "Aldoni…">
+<!ENTITY smtpListAdd.accesskey "A">
+<!ENTITY smtpListEdit.label "Redakti…">
+<!ENTITY smtpListEdit.accesskey "R">
+<!ENTITY smtpListDelete.label "Forigi">
+<!ENTITY smtpListDelete.accesskey "F">
+<!ENTITY smtpListSetDefault.label "Implicita">
+<!ENTITY smtpListSetDefault.accesskey "I">
+<!ENTITY serverDetails.label "Detaloj pri elektita servilo:">
+<!ENTITY serverDescription.label "Priskribo: ">
+<!ENTITY serverName.label "Servila nomo: ">
+<!ENTITY serverPort.label "Pordo: ">
+<!ENTITY userName.label "Nomo de uzanto: ">
+<!ENTITY connectionSecurity.label "Sekureco de konekto: ">
+<!ENTITY authMethod.label "Aŭtentigo: ">
