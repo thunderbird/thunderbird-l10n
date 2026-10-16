@@ -148,6 +148,17 @@ week-title = { $title }. nedēļa
 # $title title
 week-title-label =
     .aria-label = { $title }. nedēļa
+# Variables:
+#   $fileName (String) - The backup file name, e.g. 'local-2020-05-11T21-30-17.sqlite'.
+too-new-dbschema-error-text = Jūsu kalendāra dati nav saderīgi ar šo { -brand-short-name } versiju. Jūsu profila kalendāra dati ir atjaunināti, izmantojot jaunāku { -brand-short-name } versiju. Ir izveidota datu faila dublējumkopija ar nosaukumu “{ $fileName }”. Turpinām ar jaunizveidotu datu failu.
+imip-bar-unsupported-text = Šajā ziņojumā ir ietverts notikums, ko šī { -brand-short-name } versija nevar apstrādāt.
+# Error strings
+# @name UID_NOT_FOUND
+# @loc none
+# LOCALIZATION NOTE (too-new-schema-error-text):
+#    $hostApplication will be replaced with the name of the host application, e.g. 'Thunderbird'
+#    $fileName will be replaced with the name of the new copy of the file, e.g. 'local-2020-05-11T21-30-17.sqlite'
+too-new-schema-error-text = Jūsu kalendāra dati nav saderīgi ar šo { $hostApplication } versiju. Jūsu profilā esošie kalendāra dati ir atjaunināti, izmantojot jaunāku { $hostApplication } versiju. Ir izveidota datu faila dublējumkopija ar nosaukumu “{ $fileName }”. Turpināsim ar svaigi izveidotu datu failu.
 tooltip-due = Paredzēts:
 filepicker-title-import = Ievietot
 filepicker-title-export = Izgūt
