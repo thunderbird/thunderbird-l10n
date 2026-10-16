@@ -33,5 +33,5 @@ system-search-integration-label =
     .label = Atļaut { system-search-engine-name } meklēt ziņojumus
     .accesskey = m
 check-on-startup-label =
-    .label = Vienmēr veikt šo pārbaudi, palaižot { -brand-short-name }
+    .label = Vienmēr veikt šo pārbaudi pēc{ -brand-short-name } palaišanas
     .accesskey = V

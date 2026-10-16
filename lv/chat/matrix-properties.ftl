@@ -67,7 +67,7 @@ tooltip-last-active = Pēdējā darbība
 #    $powerLevelName (String) are one of the power levels, Default/Moderator/Admin/Restricted/Custom.
 #    $powerLevelName (String) is the power level name
 #    $powerLevelNumber (String) is the power level number
-power-level-default = Noklusētais
+power-level-default = Noklusējums
 power-level-moderator = Moderators
 power-level-admin = Admin.
 power-level-restricted = Liegts
@@ -100,7 +100,7 @@ power-level-upgrade-room = Atjaunot telpu: { $powerLevelName }
 #    $powerLevelName is the power level name
 power-level-remove = Noņemt ziņojumus: { $powerLevelName }
 #    $powerLevelName is the power level name
-power-level-events-default = Notikumu noklusētais: { $powerLevelName }
+power-level-events-default = Notikumu noklusējums: { $powerLevelName }
 #    $powerLevelName is the power level name
 power-level-state-default = Mainīt iestatījumu: { $powerLevelName }
 #    $powerLevelName is the power level name

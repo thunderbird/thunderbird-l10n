@@ -5,9 +5,9 @@
 # Variables:
 #   $name {string, "Arial"} - Name of the default font
 fonts-label-default =
-    .label = Noklusētais ({ $name })
+    .label = Noklusējums ({ $name })
 fonts-label-default-unnamed =
-    .label = Noklusētais
+    .label = Noklusējums
 fonts-language-legend =
     .value = Fonti:
     .accesskey = t

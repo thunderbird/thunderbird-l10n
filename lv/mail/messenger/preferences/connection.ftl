@@ -7,8 +7,8 @@ connection-dns-over-https-url-resolver = Izmantot pakalpojumu sniedzēju
 # Variables:
 #   $name (String) - Display name or URL for the DNS over HTTPS provider
 connection-dns-over-https-url-item-default =
-    .label = { $num } (noklusētais)
-    .tooltiptext = Lai atrisinātu DNS caur HTTPS, lietot noklusēto URL
+    .label = { $num } (noklusējums)
+    .tooltiptext = Izmantot noklusējuma URL DNS atrisināšanai ar HTTPS
 connection-dns-over-https-url-custom =
     .label = Pielāgots
     .tooltiptext = Ievadiet jums vēlamu DNS caur HTTPS URL

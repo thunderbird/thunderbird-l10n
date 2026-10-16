@@ -220,7 +220,7 @@
 <!ENTITY viewFeedWebPage.accesskey "T">
 <!ENTITY viewFeedSummary.label "Kopsavilkums">
 <!ENTITY viewFeedSummary.accesskey "K">
-<!ENTITY viewFeedSummaryFeedPropsPref.label "Noklusētais formāts">
+<!ENTITY viewFeedSummaryFeedPropsPref.label "Noklusējuma formāts">
 <!ENTITY viewFeedSummaryFeedPropsPref.accesskey "N">
 <!ENTITY viewAttachmentsInlineCmd.label "Rādīt pielikumus vienā rindā">
 <!ENTITY viewAttachmentsInlineCmd.accesskey "R">

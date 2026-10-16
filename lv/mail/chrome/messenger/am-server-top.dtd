@@ -12,7 +12,7 @@
 <!ENTITY userName.accesskey "L">
 <!ENTITY port.label "Ports:">
 <!ENTITY port.accesskey "P">
-<!ENTITY serverPortDefault.label "Noklusētais:">
+<!ENTITY serverPortDefault.label "Noklusējums:">
 <!-- LOCALIZATION NOTE (biffStart.label) : translate below 2 line with grammar dependency
         For example, in Japanese cases:
                 biffStart.label "every"
@@ -52,7 +52,7 @@
 <!ENTITY expungeOnExit.accesskey "I">
 <!ENTITY emptyTrashOnExit.label "Izejot iztukšot atkritni">
 <!ENTITY emptyTrashOnExit.accesskey "a">
-<!ENTITY loginAtStartup.label "Pārbaudīt jaunas vēstules palaižot">
+<!ENTITY loginAtStartup.label "Pēc palaišanas pārbaudīt, vai ir jauni ziņojumi">
 <!ENTITY loginAtStartup.accesskey "j">
 <!-- LOCALIZATION NOTE (maxMessagesStart.label) : translate below 2 lines with grammar dependency
     maxMessengerStart.label will be followed by maxMessagesEnd.label with the number
@@ -70,7 +70,7 @@
 <!ENTITY abbreviateOff.label "Saīsināt nosaukumus (piemēram, 'n.p.m.mail-news')">
 <!ENTITY advancedButton.label "Paplašināti…">
 <!ENTITY advancedButton.accesskey "P">
-<!ENTITY serverDefaultCharset2.label "Noklusētais teksta kodējums:">
+<!ENTITY serverDefaultCharset2.label "Noklusējuma teksta kodējums:">
 <!ENTITY localPath1.label "Lokālā mape:">
 <!ENTITY localFolderPicker.label "Izvēlieties lokālo mapi">
 <!ENTITY browseFolder.label "Pārlūkot...">
