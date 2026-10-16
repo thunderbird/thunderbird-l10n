@@ -129,7 +129,7 @@ filter-folder-picker-prefix =
     .value = Palaist izvēlētos(-os) filtru(-us) uz:
     .accesskey = i
 filter-search-box =
-    .placeholder = Meklēt filtrus pēc nosaukuma…
+    .placeholder = Meklēt atsijātājus pēc nosaukuma…
 filter-close-key =
     .key = W
 filter-delete-confirmation = Vai tiešām izdzēst atlasīto(s) atsijātāju(s)?
@@ -176,7 +176,7 @@ filter-editor-match-all-name = Atbilst visām vēstulēm
 # Variables:
 #   $name (String) - The name of the filter that is being copied.
 filter-editor-copy-name = { $name } kopija
-filter-editor-invalid-search-title = Nepareizi meklēšanas noteikumi
+filter-editor-invalid-search-title = Nederīgi meklējumi
 # Variables:
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.

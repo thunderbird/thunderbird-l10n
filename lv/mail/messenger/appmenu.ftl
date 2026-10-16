@@ -68,6 +68,9 @@ appmenu-create-panel-title =
 
 ## Tools
 
+appmenu-tools-message-search =
+    .label = Meklēt ziņojumus
+    .accesskey = M
 appmenu-tools-activity-manager =
     .label = Darbību pārvaldnieks
     .accesskey = D
