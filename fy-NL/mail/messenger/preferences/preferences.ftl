@@ -1054,6 +1054,10 @@ preferences-doh-increased-desc = Brûkt altyd de keazen provider. Brûkt allinni
 preferences-doh-enabled-desc = Jo bepale wannear’t befeilige DNS brûkt wurdt en kieze jo provider.
 preferences-doh-enabled-detailed-desc-1 = De provider dy’t jo selektearje brûke
 preferences-doh-enabled-detailed-desc-2 = Allinnich jo standert DNS-resolver brûke as der in probleem mei befeilige DNS is
+preferences-doh-setting-maximum =
+    .label = Maksimale beskerming
+    .accesskey = M
+preferences-doh-maximum-desc = Fereasket strikt fersifere DNS. Websites sille net lade as in feilige ferbining mislearret.
 preferences-doh-setting-strict =
     .label = Maks. beskerming
     .accesskey = M
@@ -1064,6 +1068,7 @@ preferences-doh-strict-detailed-desc-3 = Wannear’t befeilige DNS net beskikber
 preferences-doh-setting-off =
     .label = Ut
     .accesskey = U
+preferences-doh-off-standard-desc = Brûkt in standert ynternetprovider of -netwurk om webadressen op te sykjen
 preferences-doh-off-desc = Jo standert DNS-resolver brûke
 preferences-doh-checkbox-warn =
     .label = Warskôgje as in tredde partij befeilige DNS aktyf foarkomt
@@ -1076,6 +1081,8 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = Oanpast
     .accesskey = O
+preferences-doh-secure-header = Befeilige DNS (DNS oer HTTPS)
+preferences-doh-secure-description = Befeilige DNS fersiferet de sykopdrachten dy’t { -brand-short-name } stjoert om websites te finen, wêrtroch jo sneupaktiviteit privee bliuwt foar netwurkmonitoaring.
 
 ## Keyservers
 
@@ -1252,6 +1259,9 @@ qr-export-select-accounts = Selektearje de te eksportearjen accounts:
 qr-export-no-accounts = Sjogge jo net al jo accounts? Guon accounts binne mooglik útskeakele, omdat se net troch { -brand-product-name } foar Android stipe wurde. <a data-l10n-name="account-support-link">Stipe</a>
 qr-export-accounts-legend = E-mailaccounts
 qr-export-select-all-accounts = Alles selektearje
+qr-export-passwords-legend = Wachtwurden
+qr-export-include-passwords-label = Accountwachtwurden yn de QR-koade opnimme
+qr-export-web-sign-in-note = <strong>Noat:</strong> accounts dy’t oanmelding fia it web (lykas Gmail of Yahoo), fereaskje opnij autentikaasje op jo apparaat.
 qr-export-security-legend = Befeiliging
 qr-export-include-passwords = Alle accountwachtwurden opnimme
 qr-export-oauth-warning = Guon fan jo accounts brûke in autentikaasjemetoade dy’t mooglik opnij autentikaasje fereaskje op jo mobile apparaat. Jo moatte mooglik wylst dit proses jo wachtwurden opnij ynfiere.
