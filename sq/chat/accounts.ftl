@@ -40,3 +40,4 @@ account-disconnecting =
     .value = Po shkëputet…
 account-disconnected =
     .value = Jo i Lidhur
+add-account-label = Shtoni Llogari

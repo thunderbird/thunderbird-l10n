@@ -23,6 +23,8 @@ options-encryption-enabled = Funksione Kriptogarafikë: { $status }
 options-encryption-secret-storage = Depozitë e Fshehtë: { $status }
 # $status (String) a status
 options-encryption-key-backup = Kopjeruajtje Kyçesh Fshehtëzimi: { $status }
+# $status (String) a status
+options-encryption-cross-signing = { "" }
 options-encryption-status-ok = ok
 options-encryption-status-not-ok = jo gati
 options-encryption-need-backup-passphrase = Ju lutemi, jepni te mundësitë e protokollit frazëkalimin tuaj të kopjeruajtes së kyçeve.

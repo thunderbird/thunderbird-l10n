@@ -61,6 +61,7 @@ account-hub-hostname-label = Strehëemër
 account-hub-result-hostname-label = Strehëemër
     .title = Strehëemër
 account-hub-result-socket-type-label = Siguri lidhjeje
+account-hub-servers-username-label = Emër përdoruesi:
 account-hub-on-port-label = Portë
 account-hub-result-authentication-label = Mirëfilltësim
     .title = Mirëfilltësim

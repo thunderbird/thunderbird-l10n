@@ -22,15 +22,19 @@ prompt-remove-attachments-text =
 # Do you want to save changes?
 ask-save-title-event = Ruajeni Veprimtarinë
 ask-save-title-task = Ruajeni Punën
-ask-save-message-event = Ngjarja nuk është ruajtur. Doni të ruhet ngjarja?
+ask-save-message-event = Veprimtaria s’është ruajtur. Doni të ruhet veprimtaria?
 ask-save-message-task = Puna nuk është ruajtur. Doni të ruhet puna?
+# All day checkbox label, used both for events and tasks
+calendar-item-all-day =
+    .label = Tërë ditën
+    .accesskey = d
 # Event Dialog Warnings
 warning-end-before-start = Data e mbarimit që dhatë bie përpara datës së fillimit
 warning-until-date-before-start = Data që dhatë për deri bie përpara datës së fillimit
 # The name of the calendar provided with the application by default
 home-calendar-name = Kreu
 # The name given to a calendar if an opened calendar has an empty filename
-untitled-calendar-name = Kalendar i Patitullt
+untitled-calendar-name = Kalendar i Paemër
 # Event status: Tentative, Confirmed, Cancelled
 # ToDo task status: NeedsAction, InProcess, Completed, Cancelled
 status-tentative = Përpjekje
@@ -52,7 +56,7 @@ status-priority-img-low-priority =
     .alt = E ulët
 import-prompt = Te cili kalendar doni të importohen këta elementë?
 export-prompt = Nga cili kalendar doni të eksportohet?
-paste-prompt = Te cilët prej kalendarëve tuaj të shkrueshëm të tanishëm doni të hidhet?
+paste-prompt = Te cilët prej kalendarëve tuaj të shkrueshëm të tanishëm doni të ngjitet?
 publish-prompt = Cilin kalendar doni të botohet?
 # LOCALIZATION NOTE (paste-event-also): The users pasting operation includes among
 # others also a meeting invitation - this is used as a affix in
@@ -61,7 +65,7 @@ paste-event-also = Ngjitja juaj përfshin një takim
 # LOCALIZATION NOTE (paste-events-also): The users pasting operation includes among
 # others also several meeting invitations  - this is used as a affix in
 # paste-notify-about
-paste-events-also = Ngjitja juaj përmban takime
+paste-events-also = Ngjitja juaj përfshin takime
 # LOCALIZATION NOTE (paste-task-also): The users pasting operation includes among
 # others also an assigned task - this is used as a affix in paste-notify-about
 paste-task-also = Ngjitja juaj përmban një punë të caktuar
