@@ -34,7 +34,7 @@
 <!ENTITY includeSigOnReply.accesskey "p">
 <!ENTITY includeSigOnForward.label "Pārsūtot iekļaut parakstu">
 <!ENTITY includeSigOnForward.accesskey "p">
-<!ENTITY globalComposingPrefs.label "Globālie salikšanas iestatījumi…">
+<!ENTITY globalComposingPrefs.label "Visaptverošie sastādīšanas iestatījumi…">
 <!ENTITY globalComposingPrefs.accesskey "G">
 <!ENTITY globalAddressingPrefs.label "Globālie adresēšanas iestatījumi…">
 <!ENTITY globalAddressingPrefs.accesskey "P">

@@ -428,7 +428,7 @@ message-group-future-date = Nākotnē
 # Different Grouped By Sort thread pane titles
 message-group-untagged = Nebirkotās vēstules
 message-group-no-status = Nav statusa
-message-group-no-priority = Nav prioritātes
+message-group-no-priority = Nav svarīguma
 message-group-no-attachments = Nav pielikumu
 message-group-attachments = Pielikumi
 message-group-not-starred = Nav zvaigžņotas

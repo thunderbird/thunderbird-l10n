@@ -9,6 +9,7 @@
      task action buttons -->
 <!ENTITY calendar.taskview.delete.label "Izdzēst">
 <!ENTITY calendar.context.deleteserver2.label "Izdzēst kalendāru…">
+<!ENTITY calendar.context.export.label "Izgūt kalendāru…">
 <!ENTITY calendarproperties.cache3.label "Bezsaistes atbalsts">
 <!ENTITY calendar.error.code "Kļūdas kods:">
 <!ENTITY calendar.error.title "Ir atgadījusies kļūda">

@@ -39,7 +39,7 @@ moved-message-log = pārvietoju vēstuli id = { $id } uz { $folder }
 # $folder (String) - The destination folder of the copied message.
 copied-message-log = nokopēju vēstuli id = { $id } uz { $folder }
 filter-missing-custom-action = Trūkst pielāgotas darbības
-filter-action-log-priority = mainīta prioritāte
+filter-action-log-priority = mainīts svarīgums
 filter-action-log-deleted = izdzēsts
 filter-action-log-read = atzīmēta kā izlasīta
 filter-action-log-kill = nogalināts pavediens

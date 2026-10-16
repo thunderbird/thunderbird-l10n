@@ -68,6 +68,12 @@ appmenu-create-panel-title =
 
 ## Tools
 
+appmenu-tools-export =
+    .label = Izgūt
+    .accesskey = I
+appmenu-export-for-mobile =
+    .label = Izgūt mobilajām ierīcēm
+    .accesskey = g
 appmenu-tools-message-search =
     .label = Meklēt ziņojumus
     .accesskey = M

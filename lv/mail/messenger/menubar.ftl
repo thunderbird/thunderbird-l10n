@@ -4,6 +4,12 @@
 
 system-tray-app-name = { -brand-full-name }
 
+## Tools Menu
+
+menu-export-for-mobile =
+    .label = Izgūt mobilajām ierīcēm…
+    .accesskey = g
+
 ## Help Menu
 
 system-tray-menuitem-quit =

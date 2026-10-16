@@ -10,8 +10,8 @@ compose-message-attachment-name = Pievienotais ziņojums
 
 ## Compose window
 
-compose-initialization-error-title = Vēstules salikšana
-compose-initialization-error = Veidojot vēstules salikšanas logu, radās kļūda. Lūdzu, mēģiniet vēlreiz.
+compose-initialization-error-title = Ziņojuma sastādīšana
+compose-initialization-error = Ziņojuma sastādīšanas loga laikā atgadījās kļūda. Lūgums mēģināt vēlreiz.
 compose-default-subject = (nav tēmas)
 # Variables:
 # $subject - message subject

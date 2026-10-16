@@ -240,7 +240,7 @@ conversation-message-version-with-os = { $user } lieto "{ $clientName } { $clien
 #   These are the protocol specific options shown in the account manager and
 #   account wizard windows.
 options-resource = Resurss
-options-priority = Prioritāte
+options-priority = Svarīgums
 options-connection-security = Savienojuma drošība
 options-connection-security-require-encryption = Pieprasīt šifrēšanu
 options-connection-security-opportunistic-tls = Lietot šifrēšanu, ja tā ir pieejama

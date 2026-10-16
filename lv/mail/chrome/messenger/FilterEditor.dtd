@@ -36,7 +36,7 @@
 <!ENTITY markMessageRead.label "Atzīmēt kā lasītu">
 <!ENTITY markMessageUnread.label "Atzīmēt kā nelasītu">
 <!ENTITY markMessageStarred.label "Pievienot zvaigznīti">
-<!ENTITY setPriority.label "Iestatīt prioritāti uz">
+<!ENTITY setPriority.label "Iestatīt svarīgumu uz">
 <!ENTITY addTag.label "Birkot vēstuli">
 <!ENTITY setJunkScore.label "Iestatīt mēstules statusu uz">
 <!ENTITY deleteMessage.label "Izdzēst ziņojumu">

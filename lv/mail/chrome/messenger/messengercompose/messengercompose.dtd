@@ -104,7 +104,7 @@
 <!ENTITY viewToolbarsMenuNew.accesskey "R">
 <!ENTITY menubarCmd.label "Izvēlnes josla">
 <!ENTITY menubarCmd.accesskey "I">
-<!ENTITY showCompositionToolbarCmd.label "Salikšanas rīkjosla">
+<!ENTITY showCompositionToolbarCmd.label "Sastādīšanas rīkjosla">
 <!ENTITY showCompositionToolbarCmd.accesskey "S">
 <!ENTITY showFormattingBarCmd.label "Formatēšanas josla">
 <!ENTITY showFormattingBarCmd.accesskey "F">
@@ -135,11 +135,11 @@
 <!ENTITY returnReceiptMenu.accesskey "S">
 <!ENTITY dsnMenu.label "Piegādes statusa paziņojums">
 <!ENTITY dsnMenu.accesskey "P">
-<!ENTITY priorityMenu.label "Prioritāte">
+<!ENTITY priorityMenu.label "Svarīgums">
 <!ENTITY priorityMenu.accesskey "P">
-<!ENTITY priorityButton.title "Prioritāte">
-<!ENTITY priorityButton.tooltiptext "Mainīt vēstules prioritāti">
-<!ENTITY priorityButton.label "Prioritāte:">
+<!ENTITY priorityButton.title "Svarīgums">
+<!ENTITY priorityButton.tooltiptext "Mainīt ziņojuma svarīgumu">
+<!ENTITY priorityButton.label "Svarīgums:">
 <!ENTITY lowestPriorityCmd.label "Viszemākā">
 <!ENTITY lowestPriorityCmd.accesskey "v">
 <!ENTITY lowPriorityCmd.label "Zema">

@@ -2,11 +2,17 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, you can obtain one at http://mozilla.org/MPL/2.0/.
 
+export-page-title = Izgūt
+
+## Header
+
+export-profile = Izgūt
 
 ## Buttons
 
 button-back = Atpakaļ
 button-continue = Turpināt
+button-export = Izgūt
 button-finish = Pabeigt
 
 ## Import from calendar file steps
@@ -40,11 +46,18 @@ calendar-items-column-import = Ievietot
 
 ## Import dialog
 
+# $progressPercent (string) - percent formatted progress (for example "10%")
+progress-pane-exporting2 = Izgūst… { $progressPercent }
 error-pane-title = Kļūda
 error-message-failed = Ievietošana neparedzēti neizdevās, vairāk informācijas var būt pieejama kļūdu konsolē.
 error-export-failed = Izgūšana neparedzēti neizdevās, vairāk informācijas var būt pieejama kļūdu konsolē.
 
+## Export tab
+
+export-file-picker2 = Izgūt ZIP datnē
+
 ## Footer area
 
 footer-help = Nepieciešama palīdzība?
+footer-export-documentation = Izgūt dokumentāciju
 footer-support-forum = Atbalsta forums

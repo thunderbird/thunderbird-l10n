@@ -146,7 +146,7 @@
 <!ENTITY sortByStarCmd.accesskey "Z">
 <!ENTITY sortByAttachmentsCmd.label "Pielikumi">
 <!ENTITY sortByAttachmentsCmd.accesskey "P">
-<!ENTITY sortByPriorityCmd.label "Prioritāte">
+<!ENTITY sortByPriorityCmd.label "Svarīgums">
 <!ENTITY sortByPriorityCmd.accesskey "r">
 <!ENTITY sortBySizeCmd.label "Izmērs">
 <!ENTITY sortBySizeCmd.accesskey "z">
@@ -447,6 +447,7 @@
 <!ENTITY deleteJunk.accesskey "D">
 <!ENTITY importCmd.label "Ievietot…">
 <!ENTITY importCmd.accesskey "I">
+<!ENTITY exportCmd.label "Izgūt…">
 <!ENTITY clearRecentHistory.label "Dzēst neseno vēsturi…">
 <!ENTITY clearRecentHistory.accesskey "D">
 <!ENTITY accountManagerCmd2.label "Konta iestatījumi">
@@ -621,7 +622,7 @@
 <!ENTITY correspondentColumn.label "Korespondenti">
 <!ENTITY subjectColumn.label "Temats">
 <!ENTITY dateColumn.label "Datums">
-<!ENTITY priorityColumn.label "Prioritāte">
+<!ENTITY priorityColumn.label "Svarīgums">
 <!ENTITY tagsColumn.label "Birka">
 <!ENTITY accountColumn.label "Konts">
 <!ENTITY statusColumn.label "Stāvoklis">
@@ -645,7 +646,7 @@
 <!ENTITY correspondentColumn2.tooltip "Kārtot pēc korespondentiem">
 <!ENTITY subjectColumn2.tooltip "Kārtot pēc tēmas">
 <!ENTITY dateColumn2.tooltip "Kārtot pēc datuma">
-<!ENTITY priorityColumn2.tooltip "Kārtot pēc prioritātes">
+<!ENTITY priorityColumn2.tooltip "Kārtot pēc svarīguma">
 <!ENTITY tagsColumn2.tooltip "Kārtot pēc birkām">
 <!ENTITY accountColumn2.tooltip "Kārtot pēc konta">
 <!ENTITY statusColumn2.tooltip "Kārtot pēc statusa">

@@ -5,6 +5,8 @@
 
 ## Books
 
+about-addressbook-books-context-export =
+    .label = Izgūt…
 about-addressbook-books-context-delete =
     .label = Izdzēst
 about-addressbook-confirm-delete-book-title = Izdzēst adrešu grāmatu
