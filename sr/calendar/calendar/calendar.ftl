@@ -718,16 +718,6 @@ hide-calendar-name =
 show-only-calendar-name =
     .label = Прикажи само { $name }
     .accesskey = к
-# $name calendar name
-show-calendar-label =
-    .label = Прикажи { $name }
-# $name calendar name
-hide-calendar-label =
-    .label = Сакриј { $name }
-# uses the access key calendar.context.showonly.accesskey
-# $name calendar name
-show-only-calendar =
-    .label = Прикажи само { $name }
 # LOCALIZATION NOTE (modify-conflict-*)
 # Used by the event dialog to resolve item modification conflicts.
 modify-conflict-prompt-title = Сукоб у измени ставке

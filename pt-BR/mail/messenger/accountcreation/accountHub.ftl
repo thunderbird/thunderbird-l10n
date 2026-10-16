@@ -55,14 +55,7 @@ account-hub-email-find-settings-button = Procurar configurações
 account-hub-result-incoming-legend = Entrada
 account-hub-result-outgoing-legend = Saída
 account-hub-all-servers-legend = Todos os servidores
-account-hub-incoming-server-legend = Servidor de recebimento
-account-hub-outgoing-server-legend = Servidor de envio
-account-hub-result-incoming-server-legend = Servidor de recebimento
-    .title = Servidor de recebimento
-account-hub-result-outgoing-server-legend = Servidor de envio
-    .title = Servidor de envio
 account-hub-protocol-label = Protocolo
-account-hub-hostname-label = Servidor
 account-hub-result-hostname-label = Servidor
     .title = Servidor
 account-hub-result-socket-type-label = Segurança da conexão
@@ -100,10 +93,6 @@ account-hub-result-auth-external = Externo
 account-hub-result-auth-oauth2 = OAuth2
     .title = OAuth2
 account-hub-on-port-label = Porta
-account-hub-result-authentication-label = Autenticação
-    .title = Autenticação
-account-hub-port-label = Porta
-    .title = Defina o número da porta como 0 para detecção automática
 account-hub-auto-description = O { -brand-short-name } tentará detectar automaticamente os campos deixados vazios.
 account-hub-ssl-label = Segurança da conexão
 
@@ -111,8 +100,6 @@ account-hub-ssl-label = Segurança da conexão
 
 account-hub-ssl-autodetect-option =
     .label = Detectar automaticamente
-account-hub-ssl-no-authentication-option =
-    .label = Sem autenticação
 account-hub-ssl-cleartext-password-option =
     .label = Senha normal
 account-hub-ssl-encrypted-password-option =
@@ -252,7 +239,6 @@ account-hub-email-setup-outgoing = Configurações do servidor de envio
 account-hub-email-exchange-settings = Configurações do Exchange
 account-hub-email-connect-settings = Conecte suas configurações de email
 account-hub-email-protocol-select-header = Escolha um tipo de conta de email
-account-hub-email-config-found = Escolha o tipo de conta de email
 account-hub-email-enter-password = Digite a senha da sua conta de email
 account-hub-email-sync-accounts = Sincronizar suas agendas e catálogos de endereços
 account-hub-test-configuration = Testar
@@ -279,7 +265,6 @@ account-hub-config-success-description-guess = Configuração encontrada ao expe
 account-hub-config-success-description-disk = Configuração encontrada na instalação do { -brand-short-name }.
 account-hub-config-success-description-isp = Configuração encontrada no provedor de email.
 account-hub-config-success-description-read-more = Você pode <a data-l10n-name="automated-setup-link">ler sobre como funciona a configuração automática de email.</a>
-account-hub-config-success = Configuração encontrada na base de dados de configuração automática (Mozilla ISPDB)
 account-hub-password-info = Suas credenciais só são armazenadas localmente neste computador
 account-hub-creating-account = Criando conta…
 account-hub-sync-accounts-found = O { -brand-short-name } encontrou alguns serviços conectados
@@ -309,9 +294,7 @@ account-hub-username-error-text = Nome de usuário é obrigatório
     .title = Nome de usuário é obrigatório
 account-hub-oauth-pending = Aguardando autorização na janela de entrada na conta…
 account-hub-addon-install-button = Instalar
-account-hub-addon-install-needed = O { -brand-short-name } não tem suporte nativo para este servidor. Para acessar email do Exchange, <a data-l10n-name="addon-install"> instale uma extensão de terceiros, como o Owl (pago)</a>.
 account-hub-addon-error = Falha na instalação da extensão. Tente novamente ou entre em contato com a pessoa responsável pela extensão para receber ajuda.
-account-hub-security-warning = <span data-l10n-name="security-warning">Aviso: Detectado servidor não seguro de email.</span> Este servidor não tem criptografia, expondo sua senha e dados. Entre em contato com seu administrador para proteger a conexão ou prossiga por sua conta e risco. <a data-l10n-name="faq-link">Consulte mais dúvidas frequentes.</a>
 account-hub-account-authentication-error = Erro de autenticação.
 account-hub-add-address-book = Adicionar um catálogo de endereços
 address-book-sync-existing-icon =
@@ -341,7 +324,6 @@ account-hub-address-book-sync-books-data =
         [one] 1 catálogo de endereços disponível
        *[other] { $addressBooks } catálogos de endereços disponíveis
     }
-account-hub-fetching-sync-accounts = Descobrindo catálogos de endereços e agendas…
 address-book-sync-existing-description = Obtendo contas existentes…
 account-hub-select-address-book-account = Selecione uma conta com catálogos de endereços
 # $synced (Number) - The number of address books that are synced.

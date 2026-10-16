@@ -48,8 +48,6 @@
 <!ENTITY getAllNewMsgCmdPopupMenu.accesskey "P">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.label "Cyfrif Cyfredol">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.accesskey "y">
-<!ENTITY getNextNMsgCmd2.label "Estyn y Negeseuon Newyddion Nesaf">
-<!ENTITY getNextNMsgCmd2.accesskey "E">
 <!ENTITY sendUnsentCmd.label "Anfon Negeseuon heb eu Hanfon">
 <!ENTITY sendUnsentCmd.accesskey "H">
 <!ENTITY subscribeCmd.label "Tanysgrifio…">
@@ -59,8 +57,6 @@
 <!ENTITY renameFolder.label "Ailenwi Ffolder…">
 <!ENTITY renameFolder.accesskey "F">
 <!ENTITY renameFolder.key "VK_F2">
-<!ENTITY compactFolders.label "Cywasgu'r Ffolderi">
-<!ENTITY compactFolders.accesskey "w">
 <!ENTITY emptyTrashCmd.label "Gwagio'r Sbwriel">
 <!ENTITY emptyTrashCmd.accesskey "w">
 <!ENTITY offlineMenu.label "All-lein">
@@ -129,10 +125,6 @@
 <!ENTITY allFolders.accesskey "C">
 <!ENTITY unreadFolders.label "Heb eu Darllen">
 <!ENTITY unreadFolders.accesskey "H">
-<!ENTITY favoriteFolders.label "Ffefryn">
-<!ENTITY favoriteFolders.accesskey "F">
-<!ENTITY recentFolders.label "Diweddar">
-<!ENTITY recentFolders.accesskey "D">
 <!ENTITY compactVersion.label "Golwg Cryno">
 <!ENTITY compactVersion.accesskey "G">
 <!-- Sort Menu -->
@@ -154,8 +146,6 @@
 <!ENTITY sortByStatusCmd.accesskey "S">
 <!ENTITY sortByTagsCmd.label "Tagiau">
 <!ENTITY sortByTagsCmd.accesskey "g">
-<!ENTITY sortByJunkStatusCmd.label "Statws Sbam">
-<!ENTITY sortByJunkStatusCmd.accesskey "S">
 <!ENTITY sortBySubjectCmd.label "Pwnc">
 <!ENTITY sortBySubjectCmd.accesskey "P">
 <!ENTITY sortByFromCmd.label "Oddi wrth">
@@ -243,7 +233,6 @@
 <!ENTITY findPrevCmd.key2 "VK_F3">
 <!ENTITY searchMailCmd.label "Chwilio Negeseuon…">
 <!ENTITY searchMailCmd.accesskey "N">
-<!ENTITY searchMailCmd.key "f">
 <!ENTITY glodaSearchCmd.label "Chwilio Eang…">
 <!ENTITY glodaSearchCmd.accesskey "C">
 <!ENTITY searchAddressesCmd.label "Chwilio Cyfeiriadau…">
@@ -334,17 +323,6 @@
 <!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN">
 <!ENTITY createFilter.label "Creu Hidl o'r Neges…">
 <!ENTITY createFilter.accesskey "H">
-<!ENTITY moveMsgToMenu.label "Symud i">
-<!ENTITY moveMsgToMenu.accesskey "S">
-<!ENTITY moveCopyMsgRecentMenu.label "Diweddar">
-<!ENTITY moveCopyMsgRecentMenu.accesskey "D">
-<!ENTITY copyMessageLocation.label "Copïo Lleoliad Neges">
-<!ENTITY copyMessageLocation.accesskey "L">
-<!ENTITY copyMsgToMenu.label "Copïo i">
-<!ENTITY copyMsgToMenu.accesskey "C">
-<!ENTITY moveToFolderAgain.label "Symud Eto">
-<!ENTITY moveToFolderAgain.accesskey "y">
-<!ENTITY moveToFolderAgainCmd.key "m">
 <!ENTITY killThreadMenu.label "Anwybyddu'r Edefyn">
 <!ENTITY killThreadMenu.accesskey "A">
 <!ENTITY killThreadMenu.key "k">
@@ -356,16 +334,6 @@
 <!ENTITY watchThreadMenu.key "w">
 <!ENTITY tagMenu.label "Tag">
 <!ENTITY tagMenu.accesskey "g">
-<!ENTITY tagCmd0.key "0">
-<!ENTITY tagCmd1.key "1">
-<!ENTITY tagCmd2.key "2">
-<!ENTITY tagCmd3.key "3">
-<!ENTITY tagCmd4.key "4">
-<!ENTITY tagCmd5.key "5">
-<!ENTITY tagCmd6.key "6">
-<!ENTITY tagCmd7.key "7">
-<!ENTITY tagCmd8.key "8">
-<!ENTITY tagCmd9.key "9">
 <!ENTITY markMenu.label "Marcio">
 <!ENTITY markMenu.accesskey "M">
 <!ENTITY toggleReadCmd.key "m">
@@ -385,14 +353,6 @@
 <!ENTITY markStarredCmd.label "Ychwanegu Seren">
 <!ENTITY markStarredCmd.accesskey "S">
 <!ENTITY markStarredCmd.key "S">
-<!ENTITY markAsJunkCmd.label "Fel Sbam">
-<!ENTITY markAsJunkCmd.accesskey "b">
-<!ENTITY markAsJunkCmd.key "j">
-<!ENTITY markAsNotJunkCmd.label "Fel Nid Sbam">
-<!ENTITY markAsNotJunkCmd.accesskey "N">
-<!ENTITY markAsNotJunkCmd.key "j">
-<!ENTITY recalculateJunkScoreCmd.label "Rhedeg Rheolydd E-bost Sbam">
-<!ENTITY recalculateJunkScoreCmd.accesskey "R">
 <!ENTITY openMessageWindowCmd.label "Agor Neges">
 <!ENTITY openMessageWindowCmd.accesskey "A">
 <!ENTITY openMessageWindowCmd.key "o">
@@ -441,10 +401,6 @@
 <!ENTITY filtersApplyToSelection.accesskey "P">
 <!ENTITY filtersApplyToMessage.label "Rhedeg Hidlau ar Neges">
 <!ENTITY filtersApplyToMessage.accesskey "N">
-<!ENTITY runJunkControls.label "Rhedeg Rheolydd Sbam ar Ffolder">
-<!ENTITY runJunkControls.accesskey "R">
-<!ENTITY deleteJunk.label "Dileu E-bost wedi'i Nodi fel Sbam yn y Ffolder">
-<!ENTITY deleteJunk.accesskey "D">
 <!ENTITY importCmd.label "Mewnforio…">
 <!ENTITY importCmd.accesskey "M">
 <!ENTITY exportCmd.label "Allforio…">
@@ -491,7 +447,6 @@
 <!ENTITY printButton.label "Argraffu">
 <!ENTITY stopButton.label "Atal">
 <!ENTITY throbberItem.title "Dangosydd Gweithgaredd">
-<!ENTITY junkItem.title "Sbam">
 <!ENTITY addressBookButton.label "Llyfr Cyfeiriadau">
 <!ENTITY chatButton.label "Sgwrsio">
 <!ENTITY glodaSearch.title "Chwilio Eang">
@@ -553,11 +508,6 @@
 <!ENTITY appmenuNewContactCmd.label "Cysylltiad Llyfr Cyfeiriadau…">
 <!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Cynllun Bar Offer…">
-<!-- Tags Menu Popup -->
-<!ENTITY addNewTag.label "Tag Newydd…">
-<!ENTITY addNewTag.accesskey "T">
-<!ENTITY manageTags.label "Rheoli Tagiau…">
-<!ENTITY manageTags.accesskey "T">
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "Enw">
 <!ENTITY folderUnreadColumn.label "Heb eu Darllen">
@@ -580,12 +530,8 @@
 <!ENTITY folderContextRename.accesskey "A">
 <!ENTITY folderContextRemove.label "Dileu">
 <!ENTITY folderContextRemove.accesskey "D">
-<!ENTITY folderContextCompact.label "Cywasgu">
-<!ENTITY folderContextCompact.accesskey "C">
 <!ENTITY folderContextEmptyTrash.label "Gwagio'r Sbwriel">
 <!ENTITY folderContextEmptyTrash.accesskey "G">
-<!ENTITY folderContextEmptyJunk.label "Gwagio'r Sbam">
-<!ENTITY folderContextEmptyJunk.accesskey "S">
 <!ENTITY folderContextSendUnsentMessages.label "Anfon Negeseuon heb eu Hanfon">
 <!ENTITY folderContextSendUnsentMessages.accesskey "A">
 <!ENTITY folderContextUnsubscribe.label "Dad-danysgrifio">
@@ -628,7 +574,6 @@
 <!ENTITY accountColumn.label "Cyfrif">
 <!ENTITY statusColumn.label "Statws">
 <!ENTITY sizeColumn.label "Maint">
-<!ENTITY junkStatusColumn.label "Statws Sbam">
 <!ENTITY unreadColumn.label "Heb eu Darllen">
 <!ENTITY totalColumn.label "Cyfanswm">
 <!ENTITY readColumn.label "Darllenwyd">
@@ -652,7 +597,6 @@
 <!ENTITY accountColumn2.tooltip "Trefnu yn ôl cyfrif">
 <!ENTITY statusColumn2.tooltip "Trefnu yn ôl statws">
 <!ENTITY sizeColumn2.tooltip "Trefnu yn ôl maint">
-<!ENTITY junkStatusColumn2.tooltip "Trefnu yn ôl statws sbam">
 <!ENTITY unreadColumn2.tooltip "Nifer y negeseuon heb eu darllen yn yr edafedd">
 <!ENTITY totalColumn2.tooltip "Cyfanswm y nifer o negeseuon yn yr edafedd">
 <!ENTITY readColumn2.tooltip "Trefnu yn ôl darllenwyd">
@@ -691,16 +635,6 @@
 <!ENTITY contextReplyAll.accesskey "B">
 <!ENTITY contextReplyList.label "Ateb i'r Rhestr">
 <!ENTITY contextReplyList.accesskey "R">
-<!ENTITY contextMoveMsgMenu.label "Symud i">
-<!ENTITY contextMoveMsgMenu.accesskey "S">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Cyrchfannau Diweddar">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "D">
-<!ENTITY contextMoveCopyMsgRecentMenu.label "Diweddar">
-<!ENTITY contextMoveCopyMsgRecentMenu.accesskey "D">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.label "Ffefrynnau">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.accesskey "F">
-<!ENTITY contextCopyMsgMenu.label "Copïo i">
-<!ENTITY contextCopyMsgMenu.accesskey "C">
 <!ENTITY contextKillThreadMenu.label "Anwybyddu'r Edefyn">
 <!ENTITY contextKillSubthreadMenu.accesskey "I">
 <!ENTITY contextKillThreadMenu.accesskey "A">

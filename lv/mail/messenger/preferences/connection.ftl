@@ -2,18 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-connection-dns-over-https-url-resolver = Izmantot pakalpojumu sniedzēju
-    .accesskey = p
-# Variables:
-#   $name (String) - Display name or URL for the DNS over HTTPS provider
-connection-dns-over-https-url-item-default =
-    .label = { $num } (noklusējums)
-    .tooltiptext = Izmantot noklusējuma URL DNS atrisināšanai ar HTTPS
-connection-dns-over-https-url-custom =
-    .label = Pielāgots
-    .tooltiptext = Ievadiet jums vēlamu DNS caur HTTPS URL
-    .accesskey = P
-connection-dns-over-https-custom-label = Pielāgots
 connection-internet-proxy-legend = Savienojums ar internetu un starpniekserveris
 connection-proxy-legend = Lai piekļūtu internetam, iestatiet starpniekserverus
 proxy-type-no =
@@ -72,6 +60,3 @@ proxy-password-prompt =
 proxy-remote-dns =
     .label = Starpniekservera DNS izmantojot SOCKS v5
     .accesskey = 5
-proxy-enable-doh =
-    .label = Ieslēgt DNS caur HTTPS
-    .accesskey = H

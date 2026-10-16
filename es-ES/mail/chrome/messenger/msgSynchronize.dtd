@@ -18,5 +18,3 @@
 <!ENTITY selectButton.label "Seleccionar…">
 <!ENTITY selectButton.accesskey "E">
 <!ENTITY MsgSelectDesc.label "Seleccionar las carpetas de correo y noticias para usar sin conexión.">
-<!ENTITY MsgSelectInd.label "Descargar">
-<!ENTITY MsgSelectItems.label "Carpetas y grupos de noticias">

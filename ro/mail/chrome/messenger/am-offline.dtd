@@ -14,24 +14,10 @@
 <!ENTITY autosyncNotDownload.accesskey "m">
 <!ENTITY kb.label "KB">
 <!ENTITY daysOld.label "zile">
-<!ENTITY message.label "mesaje">
 <!ENTITY nntpNotDownloadRead.label "Mesaje citite">
 <!ENTITY nntpNotDownloadRead.accesskey "c">
 <!ENTITY nntpDownloadMsg.label "Mesaje mai vechi de">
 <!ENTITY nntpDownloadMsg.accesskey "e">
-<!ENTITY retentionCleanup.label "Pentru a economisi spațiu pe disc, mesajele vechi pot fi șterse definitiv.">
-<!ENTITY retentionCleanupImap.label "Pentru a economisi spațiu pe disc, mesajele vechi pot fi șterse definitiv, atât copiile locale cât și cele originale de pe serverul la distanță.">
-<!ENTITY retentionCleanupPop.label "Pentru a economisi spațiu pe disc, mesajele vechi pot fi șterse definitiv, inclusiv originale de pe serverul la distanță.">
-<!ENTITY retentionKeepMsg.label "Șterge mesajele mai vechi de">
-<!ENTITY retentionKeepMsg.accesskey "g">
-<!ENTITY retentionKeepAll.label "Nu șterge niciun mesaj">
-<!ENTITY retentionKeepAll.accesskey "N">
-<!ENTITY retentionKeepRecent.label "Șterge tot cu excepția celor mai recente">
-<!ENTITY retentionKeepRecent.accesskey "t">
-<!ENTITY retentionApplyToFlagged.label "Păstrează întotdeauna mesajele cu steluță">
-<!ENTITY retentionApplyToFlagged.accesskey "e">
-<!ENTITY nntpRemoveMsgBody.label "Elimină corpul mesajelor mai mari de">
-<!ENTITY nntpRemoveMsgBody.accesskey "o">
 <!ENTITY offlineSelectNntp.label "Selectează grupurile de discuții pentru utilizare offline…">
 <!ENTITY offlineSelectNntp.accesskey "S">
 <!ENTITY offlineImapAdvancedOffline.label "Avansat…">

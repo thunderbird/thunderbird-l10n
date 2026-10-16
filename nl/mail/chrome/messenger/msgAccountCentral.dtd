@@ -16,5 +16,4 @@
 <!ENTITY advFeaturesSectionHdr.label "Geavanceerde functies">
 <!ENTITY searchMsgsLink.label "Berichten zoeken">
 <!ENTITY filtersLink.label "Berichtenfilters beheren">
-<!ENTITY junkSettings.label "Ongewensteberichtenfilters instellen">
 <!ENTITY offlineLink.label "Offline-instellingen">

@@ -3,5 +3,3 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY virtualFolderListTitle.title "Map(pen) selektearje">
 <!ENTITY virtualFolderDesc.label "Selektearje de mappen om troch te sykjen:">
-<!ENTITY folderName.label "Mapnamme">
-<!ENTITY folderSearch.label "Sykje">

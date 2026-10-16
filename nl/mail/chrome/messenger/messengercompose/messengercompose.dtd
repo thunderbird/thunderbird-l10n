@@ -216,7 +216,6 @@
 <!ENTITY smiley7Cmd.label "Twijfel">
 <!ENTITY smiley8Cmd.label "Verbazing">
 <!ENTITY smiley9Cmd.label "Kus">
-<!ENTITY smiley10Cmd.label "Schreeuw">
 <!ENTITY smiley11Cmd.label "Cool">
 <!ENTITY smiley12Cmd.label "Hebzucht">
 <!ENTITY smiley13Cmd.label "Mond vol tanden">
@@ -266,12 +265,6 @@
 <!ENTITY convertRegularAttachment.accesskey "b">
 <!ENTITY attachPage.label "Webpagina koppelen…">
 <!ENTITY attachPage.accesskey "W">
-<!-- Attachment Pane Header Bar Context Menu
-     LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
-     Should use the same wording as startExpandedCmd.label
-     in msgHdrViewOverlay.dtd. -->
-<!ENTITY initiallyShowAttachmentPane.label "Bijlagenpaneel initieel tonen">
-<!ENTITY initiallyShowAttachmentPane.accesskey "B">
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Woordenboeken toevoegen…">
 <!ENTITY spellAddDictionaries.accesskey "W">

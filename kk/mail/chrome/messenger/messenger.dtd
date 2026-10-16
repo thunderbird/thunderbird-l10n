@@ -48,8 +48,6 @@
 <!ENTITY getAllNewMsgCmdPopupMenu.accesskey "а">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.label "Ағымдағы тіркелгі">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.accesskey "ы">
-<!ENTITY getNextNMsgCmd2.label "Келесі жаңалықтар хабарламаларын алу">
-<!ENTITY getNextNMsgCmd2.accesskey "у">
 <!ENTITY sendUnsentCmd.label "Жіберілмеген хабарламаларды жіберу">
 <!ENTITY sendUnsentCmd.accesskey "б">
 <!ENTITY subscribeCmd.label "Жазылу…">
@@ -59,8 +57,6 @@
 <!ENTITY renameFolder.label "Бума атауын өзгерту…">
 <!ENTITY renameFolder.accesskey "з">
 <!ENTITY renameFolder.key "VK_F2">
-<!ENTITY compactFolders.label "Бумаларды ықшамдау">
-<!ENTITY compactFolders.accesskey "Б">
 <!ENTITY emptyTrashCmd.label "Қоқыс шелегін тазарту">
 <!ENTITY emptyTrashCmd.accesskey "а">
 <!ENTITY offlineMenu.label "Желіден тыс">
@@ -129,10 +125,6 @@
 <!ENTITY allFolders.accesskey "Б">
 <!ENTITY unreadFolders.label "Оқылмаған">
 <!ENTITY unreadFolders.accesskey "м">
-<!ENTITY favoriteFolders.label "Таңдамалы">
-<!ENTITY favoriteFolders.accesskey "Т">
-<!ENTITY recentFolders.label "Соңғы">
-<!ENTITY recentFolders.accesskey "о">
 <!ENTITY compactVersion.label "Ықшам көрініс">
 <!ENTITY compactVersion.accesskey "Ы">
 <!-- Sort Menu -->
@@ -154,8 +146,6 @@
 <!ENTITY sortByStatusCmd.accesskey "ж">
 <!ENTITY sortByTagsCmd.label "Тегтер">
 <!ENTITY sortByTagsCmd.accesskey "г">
-<!ENTITY sortByJunkStatusCmd.label "Спам күйі">
-<!ENTITY sortByJunkStatusCmd.accesskey "С">
 <!ENTITY sortBySubjectCmd.label "Тегтер">
 <!ENTITY sortBySubjectCmd.accesskey "т">
 <!ENTITY sortByFromCmd.label "Кімнен">
@@ -243,7 +233,6 @@
 <!ENTITY findPrevCmd.key2 "VK_F3">
 <!ENTITY searchMailCmd.label "Хабарламаларды іздеу…">
 <!ENTITY searchMailCmd.accesskey "м">
-<!ENTITY searchMailCmd.key "f">
 <!ENTITY glodaSearchCmd.label "Глобалды іздеу…">
 <!ENTITY glodaSearchCmd.accesskey "Г">
 <!ENTITY searchAddressesCmd.label "Адрестерді іздеу…">
@@ -334,17 +323,6 @@
 <!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN">
 <!ENTITY createFilter.label "Хабарламадан сүзгіні жасау…">
 <!ENTITY createFilter.accesskey "а">
-<!ENTITY moveMsgToMenu.label "Қайда жылжыту">
-<!ENTITY moveMsgToMenu.accesskey "й">
-<!ENTITY moveCopyMsgRecentMenu.label "Соңғы">
-<!ENTITY moveCopyMsgRecentMenu.accesskey "о">
-<!ENTITY copyMessageLocation.label "Хабарлама адресін көшіріп алу">
-<!ENTITY copyMessageLocation.accesskey "м">
-<!ENTITY copyMsgToMenu.label "Қайда көшіріп алу">
-<!ENTITY copyMsgToMenu.accesskey "к">
-<!ENTITY moveToFolderAgain.label "Қайта жылжыту">
-<!ENTITY moveToFolderAgain.accesskey "й">
-<!ENTITY moveToFolderAgainCmd.key "m">
 <!ENTITY killThreadMenu.label "Ағынды елемеу">
 <!ENTITY killThreadMenu.accesskey "м">
 <!ENTITY killThreadMenu.key "k">
@@ -356,16 +334,6 @@
 <!ENTITY watchThreadMenu.key "w">
 <!ENTITY tagMenu.label "Тег">
 <!ENTITY tagMenu.accesskey "г">
-<!ENTITY tagCmd0.key "0">
-<!ENTITY tagCmd1.key "1">
-<!ENTITY tagCmd2.key "2">
-<!ENTITY tagCmd3.key "3">
-<!ENTITY tagCmd4.key "4">
-<!ENTITY tagCmd5.key "5">
-<!ENTITY tagCmd6.key "6">
-<!ENTITY tagCmd7.key "7">
-<!ENTITY tagCmd8.key "8">
-<!ENTITY tagCmd9.key "9">
 <!ENTITY markMenu.label "Белгілеу">
 <!ENTITY markMenu.accesskey "у">
 <!ENTITY toggleReadCmd.key "m">
@@ -385,14 +353,6 @@
 <!ENTITY markStarredCmd.label "Жұлдызшаны қосу">
 <!ENTITY markStarredCmd.accesskey "Ж">
 <!ENTITY markStarredCmd.key "S">
-<!ENTITY markAsJunkCmd.label "Спам ретінде">
-<!ENTITY markAsJunkCmd.accesskey "С">
-<!ENTITY markAsJunkCmd.key "j">
-<!ENTITY markAsNotJunkCmd.label "Спам емес ретінде">
-<!ENTITY markAsNotJunkCmd.accesskey "м">
-<!ENTITY markAsNotJunkCmd.key "j">
-<!ENTITY recalculateJunkScoreCmd.label "Антиспам сүзгілерін жөнелту">
-<!ENTITY recalculateJunkScoreCmd.accesskey "с">
 <!ENTITY openMessageWindowCmd.label "Хабарламаны ашу">
 <!ENTITY openMessageWindowCmd.accesskey "ш">
 <!ENTITY openMessageWindowCmd.key "o">
@@ -441,10 +401,6 @@
 <!ENTITY filtersApplyToSelection.accesskey "е">
 <!ENTITY filtersApplyToMessage.label "Хабарламаларға сүзгілерді жөнелту">
 <!ENTITY filtersApplyToMessage.accesskey "е">
-<!ENTITY runJunkControls.label "Бумаға антиспам сүзгілерін жөнелту">
-<!ENTITY runJunkControls.accesskey "с">
-<!ENTITY deleteJunk.label "Бумадан спам ретінде белгіленгендерді өшіру">
-<!ENTITY deleteJunk.accesskey "ш">
 <!ENTITY importCmd.label "Импорттау…">
 <!ENTITY importCmd.accesskey "м">
 <!ENTITY exportCmd.label "Экспорттау…">
@@ -491,7 +447,6 @@
 <!ENTITY printButton.label "Баспаға шығару">
 <!ENTITY stopButton.label "Тоқтату">
 <!ENTITY throbberItem.title "Активтілік айқындағышы">
-<!ENTITY junkItem.title "Спам">
 <!ENTITY addressBookButton.label "Адрестік кітапша">
 <!ENTITY chatButton.label "Чат">
 <!ENTITY glodaSearch.title "Глобалды іздеу">
@@ -553,11 +508,6 @@
 <!ENTITY appmenuNewContactCmd.label "Адрестік кітапша контакты…">
 <!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Панельдер орналасуы…">
-<!-- Tags Menu Popup -->
-<!ENTITY addNewTag.label "Жаңа тег…">
-<!ENTITY addNewTag.accesskey "Ж">
-<!ENTITY manageTags.label "Тегтерді басқару…">
-<!ENTITY manageTags.accesskey "б">
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "Аты">
 <!ENTITY folderUnreadColumn.label "Оқылмаған">
@@ -580,12 +530,8 @@
 <!ENTITY folderContextRename.accesskey "А">
 <!ENTITY folderContextRemove.label "Өшіру">
 <!ENTITY folderContextRemove.accesskey "ш">
-<!ENTITY folderContextCompact.label "Ықшамдау">
-<!ENTITY folderContextCompact.accesskey "Ы">
 <!ENTITY folderContextEmptyTrash.label "Қоқыс шелегін тазарту">
 <!ENTITY folderContextEmptyTrash.accesskey "а">
-<!ENTITY folderContextEmptyJunk.label "Спам бумасын өшіру">
-<!ENTITY folderContextEmptyJunk.accesskey "С">
 <!ENTITY folderContextSendUnsentMessages.label "Жіберілмеген хабарламаларды жіберу">
 <!ENTITY folderContextSendUnsentMessages.accesskey "б">
 <!ENTITY folderContextUnsubscribe.label "Жазылудан бас тарту">
@@ -628,7 +574,6 @@
 <!ENTITY accountColumn.label "Тіркелгі">
 <!ENTITY statusColumn.label "Күйі">
 <!ENTITY sizeColumn.label "Өлшемі">
-<!ENTITY junkStatusColumn.label "Спам күйі">
 <!ENTITY unreadColumn.label "Оқылмаған">
 <!ENTITY totalColumn.label "Жалпы">
 <!ENTITY readColumn.label "Оқу">
@@ -652,7 +597,6 @@
 <!ENTITY accountColumn2.tooltip "Тіркелгі бойынша сұрыптау">
 <!ENTITY statusColumn2.tooltip "Қалып-күйі бойынша сұрыптау">
 <!ENTITY sizeColumn2.tooltip "Өлшемі бойынша сұрыптау">
-<!ENTITY junkStatusColumn2.tooltip "Спам күйі бойынша сұрыптау">
 <!ENTITY unreadColumn2.tooltip "Ағындағы оқылмаған хабарламалар саны">
 <!ENTITY totalColumn2.tooltip "Ағындағы барлық хабарламалар саны">
 <!ENTITY readColumn2.tooltip "Оқылғаны бойынша сұрыптау">
@@ -691,16 +635,6 @@
 <!ENTITY contextReplyAll.accesskey "а">
 <!ENTITY contextReplyList.label "Тізімге жауап беру">
 <!ENTITY contextReplyList.accesskey "Т">
-<!ENTITY contextMoveMsgMenu.label "Қайда жылжыту">
-<!ENTITY contextMoveMsgMenu.accesskey "й">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Жуырдағы мақсаттар">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "R">
-<!ENTITY contextMoveCopyMsgRecentMenu.label "Соңғы">
-<!ENTITY contextMoveCopyMsgRecentMenu.accesskey "о">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.label "Таңдамалы">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.accesskey "Т">
-<!ENTITY contextCopyMsgMenu.label "Қайда көшіріп алу">
-<!ENTITY contextCopyMsgMenu.accesskey "к">
 <!ENTITY contextKillThreadMenu.label "Ағынды елемеу">
 <!ENTITY contextKillSubthreadMenu.accesskey "ш">
 <!ENTITY contextKillThreadMenu.accesskey "м">

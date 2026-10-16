@@ -10,22 +10,6 @@
 <!ENTITY folderRebuildSummaryFile.explanation "Soms raak die vouerindekslêer (.msf) beskadig en boodskappe lyk of dit weg is, of geskrapte boodskappe wys steeds; herstel van die vouer kan dalk sulke probleme oplos.">
 <!ENTITY folderIncludeInGlobalSearch.label "Sluit boodskappe in dié gids in by die globale soekresultate">
 <!ENTITY folderIncludeInGlobalSearch.accesskey "g">
-<!ENTITY retention.label "Behoubeleid">
-<!ENTITY retentionUseAccount.label "Gebruik my rekeningopstelling">
-<!ENTITY retentionUseAccount.accesskey "G">
-<!ENTITY daysOld.label "dae oud">
-<!ENTITY message.label "boodskappe">
-<!ENTITY retentionCleanup.label "Om skyfspasie te herwin, kan ou boodskappe permanent geskrap word.">
-<!ENTITY retentionCleanupImap.label "Om skyfspasie te herwin, kan ou boodskappe permanent geskrap word (beide die plaaslike kopie en die oorspronklike op die afgeleë bediener).">
-<!ENTITY retentionCleanupPop.label "Om skyfspasie te herwin, kan ou boodskappe permanent geskrap word, insluitend die oorspronklike op die afgeleë bediener.">
-<!ENTITY retentionDeleteMsg.label "Skrap boodskappe van meer as">
-<!ENTITY retentionDeleteMsg.accesskey "b">
-<!ENTITY retentionKeepAll.label "Moenie enige boodskappe skrap nie">
-<!ENTITY retentionKeepAll.accesskey "e">
-<!ENTITY retentionKeepRecent.label "Skrap alles behalwe die mees onlangse">
-<!ENTITY retentionKeepRecent.accesskey "S">
-<!ENTITY retentionApplyToFlagged.label "Hou altyd gevlagde boodskappe">
-<!ENTITY retentionApplyToFlagged.accesskey "H">
 <!ENTITY folderSynchronizationTab.label "Sinchronisasie">
 <!ENTITY folderCheckForNewMessages2.label "Wanneer nuwe boodskappe verkry word vir dié rekening, kontroleer altyd dié gids">
 <!ENTITY folderCheckForNewMessages2.accesskey "W">

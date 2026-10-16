@@ -54,8 +54,6 @@ policy-Proxy = ضبط إعدادات الوسيط.
 policy-RequestedLocales = ضبط قائمة المحليّات المطلوبة للتطبيق بقائمة مرتّبة.
 policy-SanitizeOnShutdown2 = مسح معلومات التنقّل عند الإطفاء.
 policy-SearchEngines = ضبط إعدادات محرّك البحث. هذه السياسة متاحة في النسخة ممتدّة الدعم (ESR) لا غير.
-# For more information, see https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
-policy-SecurityDevices = تثبيت وحدات PKCS #11.
 policy-SSLVersionMax = ضبط إصدارة SSL العليا.
 policy-SSLVersionMin = ضبط إصدارة SSL الدنيا.
 # “format” refers to the format used for the value of this policy.

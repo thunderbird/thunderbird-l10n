@@ -10,22 +10,6 @@
 <!ENTITY folderRebuildSummaryFile.explanation "บางครั้งไฟล์ดัชนีโฟลเดอร์ (.msf) อาจเสียหาย ส่งผลให้ข้อความอาจหายไปหรือข้อความที่ถูกลบแสดงขึ้น การซ่อมแซมโฟลเดอร์อาจซ่อมแซมปัญหาเหล่านี้ได้">
 <!ENTITY folderIncludeInGlobalSearch.label "รวมข้อความในโฟลเดอร์นี้ในผลการค้นหาส่วนกลาง">
 <!ENTITY folderIncludeInGlobalSearch.accesskey "ว">
-<!ENTITY retention.label "นโยบายการเก็บข้อมูล">
-<!ENTITY retentionUseAccount.label "ใช้การตั้งค่าบัญชีของฉัน">
-<!ENTITY retentionUseAccount.accesskey "ใ">
-<!ENTITY daysOld.label "วัน">
-<!ENTITY message.label "ข้อความ">
-<!ENTITY retentionCleanup.label "เพื่อกู้คืนเนื้อที่ดิสก์ สามารถลบข้อความเก่าอย่างถาวรได้">
-<!ENTITY retentionCleanupImap.label "เพื่อกู้คืนเนื้อที่ดิสก์ สามารถลบข้อความเก่าอย่างถาวรได้ทั้งสำเนาภายในและต้นฉบับที่อยู่บนเซิร์ฟเวอร์ระยะไกล">
-<!ENTITY retentionCleanupPop.label "เพื่อกู้คืนเนื้อที่ดิสก์ สามารถลบข้อความเก่าอย่างถาวรได้รวมถึงต้นฉบับที่อยู่บนเซิร์ฟเวอร์ระยะไกล">
-<!ENTITY retentionDeleteMsg.label "ลบข้อความที่เก่ากว่า">
-<!ENTITY retentionDeleteMsg.accesskey "ล">
-<!ENTITY retentionKeepAll.label "ไม่ต้องลบข้อความใด ๆ">
-<!ENTITY retentionKeepAll.accesskey "ม">
-<!ENTITY retentionKeepRecent.label "ลบทั้งหมดยกเว้นรายการล่าสุด">
-<!ENTITY retentionKeepRecent.accesskey "บ">
-<!ENTITY retentionApplyToFlagged.label "เก็บข้อความที่ติดดาวไว้เสมอ">
-<!ENTITY retentionApplyToFlagged.accesskey "ก">
 <!ENTITY folderSynchronizationTab.label "การประสานข้อมูล">
 <!ENTITY folderCheckForNewMessages2.label "เมื่อได้รับข้อความใหม่สำหรับบัญชีนี้ ให้ตรวจสอบโฟลเดอร์นี้เสมอ">
 <!ENTITY folderCheckForNewMessages2.accesskey "เ">

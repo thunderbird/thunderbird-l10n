@@ -3,10 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY subscribeDialog.title "Sottoscrizioni">
-<!ENTITY subscribeButton.label "Sottoscrivi">
-<!ENTITY subscribeButton.accesskey "S">
-<!ENTITY unsubscribeButton.label "Rimuovi sottoscrizione">
-<!ENTITY unsubscribeButton.accesskey "R">
 <!ENTITY newGroupsTab.label "Nuovi gruppi">
 <!ENTITY newGroupsTab.accesskey "N">
 <!ENTITY refreshButton.label "Aggiorna">

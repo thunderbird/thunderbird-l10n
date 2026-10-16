@@ -5,10 +5,6 @@
 open-preferences-sidebar-button2 = Paramètres de { -brand-short-name }
 open-addons-sidebar-button = Modules complémentaires et thèmes
 account-tree-add-account-button = Ajouter un compte
-account-action-add-newsgroup-account =
-    .label = Ajouter un compte de groupes de discussion
-    .accesskey = g
-account-tree-create-account-button = Nouveau compte
 account-tree-add-mail-account =
     .label = Compte de messagerie…
     .accesskey = C

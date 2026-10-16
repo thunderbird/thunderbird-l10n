@@ -48,8 +48,6 @@
 <!ENTITY getAllNewMsgCmdPopupMenu.accesskey "K">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.label "Valittu tili">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.accesskey "V">
-<!ENTITY getNextNMsgCmd2.label "Lataa uudet viestit">
-<!ENTITY getNextNMsgCmd2.accesskey "L">
 <!ENTITY sendUnsentCmd.label "Lähetä lähtevät viestit">
 <!ENTITY sendUnsentCmd.accesskey "ä">
 <!ENTITY subscribeCmd.label "Tilaa…">
@@ -59,8 +57,6 @@
 <!ENTITY renameFolder.label "Nimeä kansio uudelleen…">
 <!ENTITY renameFolder.accesskey "m">
 <!ENTITY renameFolder.key "VK_F2">
-<!ENTITY compactFolders.label "Tiivistä kansiot">
-<!ENTITY compactFolders.accesskey "k">
 <!ENTITY emptyTrashCmd.label "Tyhjennä roskakori">
 <!ENTITY emptyTrashCmd.accesskey "r">
 <!ENTITY offlineMenu.label "Yhteydetön tila">
@@ -129,10 +125,6 @@
 <!ENTITY allFolders.accesskey "a">
 <!ENTITY unreadFolders.label "Lukematta">
 <!ENTITY unreadFolders.accesskey "L">
-<!ENTITY favoriteFolders.label "Suosikit">
-<!ENTITY favoriteFolders.accesskey "S">
-<!ENTITY recentFolders.label "Nykyinen">
-<!ENTITY recentFolders.accesskey "u">
 <!ENTITY compactVersion.label "Tiivis näkkymä">
 <!ENTITY compactVersion.accesskey "T">
 <!-- Sort Menu -->
@@ -154,8 +146,6 @@
 <!ENTITY sortByStatusCmd.accesskey "i">
 <!ENTITY sortByTagsCmd.label "Tunnukset">
 <!ENTITY sortByTagsCmd.accesskey "n">
-<!ENTITY sortByJunkStatusCmd.label "Roskapostitila">
-<!ENTITY sortByJunkStatusCmd.accesskey "R">
 <!ENTITY sortBySubjectCmd.label "Aihe">
 <!ENTITY sortBySubjectCmd.accesskey "A">
 <!ENTITY sortByFromCmd.label "Lähettäjä">
@@ -243,7 +233,6 @@
 <!ENTITY findPrevCmd.key2 "VK_F3">
 <!ENTITY searchMailCmd.label "Etsi viesteistä…">
 <!ENTITY searchMailCmd.accesskey "v">
-<!ENTITY searchMailCmd.key "f">
 <!ENTITY glodaSearchCmd.label "Globaali haku…">
 <!ENTITY glodaSearchCmd.accesskey "G">
 <!ENTITY searchAddressesCmd.label "Etsi osoitekirjasta…">
@@ -334,17 +323,6 @@
 <!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN">
 <!ENTITY createFilter.label "Luo viestistä suodatin…">
 <!ENTITY createFilter.accesskey "d">
-<!ENTITY moveMsgToMenu.label "Siirrä">
-<!ENTITY moveMsgToMenu.accesskey "S">
-<!ENTITY moveCopyMsgRecentMenu.label "Nykyinen">
-<!ENTITY moveCopyMsgRecentMenu.accesskey "T">
-<!ENTITY copyMessageLocation.label "Kopioi viestin sijainti">
-<!ENTITY copyMessageLocation.accesskey "o">
-<!ENTITY copyMsgToMenu.label "Kopioi">
-<!ENTITY copyMsgToMenu.accesskey "K">
-<!ENTITY moveToFolderAgain.label "Siirrä uudestaan">
-<!ENTITY moveToFolderAgain.accesskey "u">
-<!ENTITY moveToFolderAgainCmd.key "m">
 <!ENTITY killThreadMenu.label "Ohita viestiketju">
 <!ENTITY killThreadMenu.accesskey "h">
 <!ENTITY killThreadMenu.key "k">
@@ -356,16 +334,6 @@
 <!ENTITY watchThreadMenu.key "w">
 <!ENTITY tagMenu.label "Tunnus">
 <!ENTITY tagMenu.accesskey "T">
-<!ENTITY tagCmd0.key "0">
-<!ENTITY tagCmd1.key "1">
-<!ENTITY tagCmd2.key "2">
-<!ENTITY tagCmd3.key "3">
-<!ENTITY tagCmd4.key "4">
-<!ENTITY tagCmd5.key "5">
-<!ENTITY tagCmd6.key "6">
-<!ENTITY tagCmd7.key "7">
-<!ENTITY tagCmd8.key "8">
-<!ENTITY tagCmd9.key "9">
 <!ENTITY markMenu.label "Merkitse">
 <!ENTITY markMenu.accesskey "e">
 <!ENTITY toggleReadCmd.key "m">
@@ -385,14 +353,6 @@
 <!ENTITY markStarredCmd.label "Lisää tähti">
 <!ENTITY markStarredCmd.accesskey "t">
 <!ENTITY markStarredCmd.key "S">
-<!ENTITY markAsJunkCmd.label "Roskapostiksi">
-<!ENTITY markAsJunkCmd.accesskey "R">
-<!ENTITY markAsJunkCmd.key "j">
-<!ENTITY markAsNotJunkCmd.label "Ei roskapostiksi">
-<!ENTITY markAsNotJunkCmd.accesskey "i">
-<!ENTITY markAsNotJunkCmd.key "j">
-<!ENTITY recalculateJunkScoreCmd.label "Tunnista roskapostit">
-<!ENTITY recalculateJunkScoreCmd.accesskey "n">
 <!ENTITY openMessageWindowCmd.label "Avaa viesti">
 <!ENTITY openMessageWindowCmd.accesskey "i">
 <!ENTITY openMessageWindowCmd.key "o">
@@ -441,10 +401,6 @@
 <!ENTITY filtersApplyToSelection.accesskey "u">
 <!ENTITY filtersApplyToMessage.label "Suorita suodattimet viestille">
 <!ENTITY filtersApplyToMessage.accesskey "u">
-<!ENTITY runJunkControls.label "Tunnista kansion roskapostit">
-<!ENTITY runJunkControls.accesskey "u">
-<!ENTITY deleteJunk.label "Poista kansiosta roskapostiviestiksi merkityt">
-<!ENTITY deleteJunk.accesskey "P">
 <!ENTITY importCmd.label "Tuo toisista ohjelmista…">
 <!ENTITY importCmd.accesskey "T">
 <!ENTITY exportCmd.label "Vie…">
@@ -491,7 +447,6 @@
 <!ENTITY printButton.label "Tulosta">
 <!ENTITY stopButton.label "Pysäytä">
 <!ENTITY throbberItem.title "Toimintaindikaattori">
-<!ENTITY junkItem.title "Roskapostiksi">
 <!ENTITY addressBookButton.label "Osoitekirja">
 <!ENTITY chatButton.label "Keskustele">
 <!ENTITY glodaSearch.title "Yleishaku">
@@ -553,11 +508,6 @@
 <!ENTITY appmenuNewContactCmd.label "Osoitekirjan yhteyshenkilö…">
 <!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Työkalupalkin asettelu…">
-<!-- Tags Menu Popup -->
-<!ENTITY addNewTag.label "Uusi tunnus…">
-<!ENTITY addNewTag.accesskey "t">
-<!ENTITY manageTags.label "Hallinnoi tunnuksia…">
-<!ENTITY manageTags.accesskey "M">
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "Nimi">
 <!ENTITY folderUnreadColumn.label "Lukematta">
@@ -580,12 +530,8 @@
 <!ENTITY folderContextRename.accesskey "m">
 <!ENTITY folderContextRemove.label "Poista">
 <!ENTITY folderContextRemove.accesskey "o">
-<!ENTITY folderContextCompact.label "Tiivistä">
-<!ENTITY folderContextCompact.accesskey "T">
 <!ENTITY folderContextEmptyTrash.label "Tyhjennä roskakori">
 <!ENTITY folderContextEmptyTrash.accesskey "h">
-<!ENTITY folderContextEmptyJunk.label "Tyhjennä roskaposti">
-<!ENTITY folderContextEmptyJunk.accesskey "h">
 <!ENTITY folderContextSendUnsentMessages.label "Lähetä lähtevät viestit">
 <!ENTITY folderContextSendUnsentMessages.accesskey "ä">
 <!ENTITY folderContextUnsubscribe.label "Peruuta tilaus">
@@ -628,7 +574,6 @@
 <!ENTITY accountColumn.label "Tili">
 <!ENTITY statusColumn.label "Tila">
 <!ENTITY sizeColumn.label "Koko">
-<!ENTITY junkStatusColumn.label "Roskapostitila">
 <!ENTITY unreadColumn.label "Lukematta">
 <!ENTITY totalColumn.label "Yhteensä">
 <!ENTITY readColumn.label "Luettu">
@@ -652,7 +597,6 @@
 <!ENTITY accountColumn2.tooltip "Järjestä tilin mukaan">
 <!ENTITY statusColumn2.tooltip "Järjestä tilan mukaan">
 <!ENTITY sizeColumn2.tooltip "Järjestä koon mukaan">
-<!ENTITY junkStatusColumn2.tooltip "Järjestä roskapostitilan mukaan">
 <!ENTITY unreadColumn2.tooltip "Viestiketjun lukematta olevien viestien määrä">
 <!ENTITY totalColumn2.tooltip "Viestien määrä viestiketjussa">
 <!ENTITY readColumn2.tooltip "Järjestä luettujen mukaan">
@@ -691,16 +635,6 @@
 <!ENTITY contextReplyAll.accesskey "a">
 <!ENTITY contextReplyList.label "Vastaa listalle">
 <!ENTITY contextReplyList.accesskey "l">
-<!ENTITY contextMoveMsgMenu.label "Siirrä kansioon">
-<!ENTITY contextMoveMsgMenu.accesskey "S">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Viimeisimmät kohteet">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "R">
-<!ENTITY contextMoveCopyMsgRecentMenu.label "Nykyinen">
-<!ENTITY contextMoveCopyMsgRecentMenu.accesskey "T">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.label "Suosikit">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.accesskey "o">
-<!ENTITY contextCopyMsgMenu.label "Kopioi kansioon">
-<!ENTITY contextCopyMsgMenu.accesskey "K">
 <!ENTITY contextKillThreadMenu.label "Ohita viestiketju">
 <!ENTITY contextKillSubthreadMenu.accesskey "a">
 <!ENTITY contextKillThreadMenu.accesskey "O">

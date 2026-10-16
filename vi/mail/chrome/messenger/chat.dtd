@@ -23,8 +23,6 @@
 <!ENTITY closeConversationCmd.accesskey "C">
 <!ENTITY aliasCmd.label "Đổi tên">
 <!ENTITY aliasCmd.accesskey "R">
-<!ENTITY deleteCmd.label "Xóa liên hệ">
-<!ENTITY deleteCmd.accesskey "v">
 <!ENTITY openConversationButton.tooltip "Bắt đầu một cuộc trò chuyện">
 <!ENTITY closeConversationButton.tooltip "Đóng cuộc trò chuyện">
 <!ENTITY addBuddyButton.label "Thêm liên hệ">

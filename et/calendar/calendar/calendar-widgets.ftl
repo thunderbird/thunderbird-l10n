@@ -20,8 +20,6 @@ calendar-enable-button = Luba
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-context-button =
     .title = Kalendri { $calendarName } valikud
-calendar-import-new-calendar = Uus kalender…
-    .title = Lisa või telli uus kalender
 calendar-refresh-calendars =
     .title = Laadi kõik kalendrid uuesti ja sünkroniseeri muudatused
 calendar-new-event-primary-button = Uus sündmus

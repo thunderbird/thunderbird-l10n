@@ -460,7 +460,6 @@ key-verification = Dilyswch bysbrint yr allwedd gan ddefnyddio sianel gyfathrebu
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Methu anfon y neges, oherwydd mae problem gyda'ch allwedd bersonol. { $problem }
-window-locked = Mae'r ffenestr gyfansoddi wedi'i chloi; anfon wedi'i ddiddymu
 
 ## Strings in keyserver.sys.mjs
 
@@ -494,9 +493,6 @@ converter-decrypt-body-failed =
 ## Strings filters.sys.mjs
 
 filter-folder-required = Rhaid dewis ffolder targed.
-filter-decrypt-move-warn-experimental =
-    Rhybudd - gall y weithred hidlo "Dadgryptio yn barhaol" arwain at negeseuon wedi'u dinistrio.
-    Rydym yn argymell yn gryf eich bod yn gyntaf yn rhoi cynnig ar yr hidlydd "Creu Copi wedi'i ddadgryptio", profi'r canlyniad yn ofalus, a dim ond ar ôl i chi fod yn fodlon â'r canlyniad yn dechrau defnyddio'r hidlydd.
 filter-term-pgpencrypted-label = Amgryptio OpenPGP
 filter-key-required = Rhaid dewis allwedd derbynnydd.
 # Variables:
@@ -659,7 +655,6 @@ fail-key-import = Gwall - methodd mewnforio allweddi
 # $output (String) - File that writing was attempted to.
 file-write-failed = Methwyd ysgrifennu at ffeil { $output }
 no-pgp-block = Gwall - Heb ddarganfod bloc data arfogaeth dilys OpenPGP
-confirm-permissive-import = Methodd y mewnforio. Efallai bod yr allwedd rydych chi'n ceisio ei fewnforio yn llygredig neu'n defnyddio priodoleddau anhysbys. Hoffech chi geisio mewnforio'r rhannau sy'n gywir? Gall hyn arwain at fewnforio allweddi anghyflawn ac nad oes modd eu defnyddio.
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = Mae rhai o'r allweddi cyfrinachol a fewnforiwyd yn hysbysebu nodwedd nad yw'n cael ei chynnal. Os ydych chi'n defnyddio allwedd o'r fath fel eich allwedd bersonol, gall gohebwyr anfon e-byst neu allweddi cyhoeddus atoch mewn fformat anghydnaws. Mae hyn yn effeithio ar allweddi cyfrinachol a fewnforiwyd gyda'r bysbrintiau canlynol: { $fingerprints }.
@@ -718,9 +713,6 @@ key-man-button-generate-key-continue = &Parhau i Gynhyrchu Allweddi
 
 failed-decrypt = Gwall - methodd y dadgryptio
 fix-broken-exchange-msg-failed = Heb lwyddo i atgyweirio neges.
-# Variables:
-# $attachment (String) - File name of the signature file.
-attachment-no-match-from-signature = Methu cydweddu ffeil llofnod '{ $attachment }' ag atodiad
 # Variables:
 # Variables:
 # $attachment (String) - File name of the attachment.
@@ -831,8 +823,3 @@ enig-confirm = Cadarnhad OpenPGP
 
 dlg-button-retry = &Ceisio eto
 dlg-button-skip = &Hepgor
-
-## Strings used in enigmailMsgBox.js
-
-enig-alert-title =
-    .title = Rhybudd OpenPGP

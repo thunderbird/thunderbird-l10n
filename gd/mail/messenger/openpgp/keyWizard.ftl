@@ -125,7 +125,4 @@ openpgp-external-key-title = Iuchair GnuPG air an taobh a-muigh
 openpgp-external-key-description = Rèitich iuchair GnuPG air an taobh a-muigh le bhith a’ cur a-steach ID na h-iuchrach
 openpgp-external-key-info = A bharrachd air sin, feumaidh tu manaidsear nan iuchaireach a chleachdadh airson an iuchair phoblach cho-cheangailte ion-phortadh is gabhail ris.
 openpgp-external-key-warning = <b>Chan fhaod thu barrachd air aon iuchair GnuPG air an taobh a-muigh a rèiteachadh.</b> Thèid a cur an àite na tè a bh’ agad roimhe seo.
-openpgp-save-external-button = Sàbhail ID na h-iuchrach
 openpgp-external-key-label = ID na h-iuchrach rùin:
-openpgp-external-key-input =
-    .placeholder = 123456789341298340

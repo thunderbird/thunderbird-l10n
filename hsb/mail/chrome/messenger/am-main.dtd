@@ -34,9 +34,4 @@
 <!ENTITY attachVCard.accesskey "z">
 <!ENTITY manageIdentities.label "Identity zrjadować…">
 <!ENTITY manageIdentities.accesskey "I">
-<!-- LOCALIZATION NOTE (smtpName.label) : do not translate "SMTP" in below line -->
-<!ENTITY smtpName.label "Wuchadny serwer (SMTP):">
-<!ENTITY smtpName.accesskey "u">
 <!ENTITY smtpDefaultServer.label "Standardny serwer wužiwać">
-<!ENTITY smtpServerEdit.label "SMTP-serwer wobdźěłać…">
-<!ENTITY smtpServerEdit.accesskey "P">

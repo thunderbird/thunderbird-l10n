@@ -14,24 +14,10 @@
 <!ENTITY autosyncNotDownload.accesskey "P">
 <!ENTITY kb.label "KB">
 <!ENTITY daysOld.label "diwrnod oed">
-<!ENTITY message.label "neges">
 <!ENTITY nntpNotDownloadRead.label "Darllen negeseuon">
 <!ENTITY nntpNotDownloadRead.accesskey "D">
 <!ENTITY nntpDownloadMsg.label "Negeseuon mwy na">
 <!ENTITY nntpDownloadMsg.accesskey "e">
-<!ENTITY retentionCleanup.label "I adfer lle ar ddisg, mae modd dileu hen negesuon yn barhaol.">
-<!ENTITY retentionCleanupImap.label "I adfer lle ar ddisg, mae modd dileu hen negeseuon yn barhaol yn gopïau lleol a'r gwreiddiol ar y gweinydd pell.">
-<!ENTITY retentionCleanupPop.label "I adfer lle ar ddisg, mae modd dileu hen negeseuon yn barhaol gan gynnwys y gwreiddiol ar y gweinydd pell.">
-<!ENTITY retentionKeepMsg.label "Dileu negeseuon sy'n fwy na">
-<!ENTITY retentionKeepMsg.accesskey "D">
-<!ENTITY retentionKeepAll.label "Peidio dileu unrhyw negeseuon">
-<!ENTITY retentionKeepAll.accesskey "e">
-<!ENTITY retentionKeepRecent.label "Dileu pob un heblaw'r mwyaf diweddar">
-<!ENTITY retentionKeepRecent.accesskey "i">
-<!ENTITY retentionApplyToFlagged.label "Cadw negeseuon serennog bob tro">
-<!ENTITY retentionApplyToFlagged.accesskey "s">
-<!ENTITY nntpRemoveMsgBody.label "Tynnu corff neges mwy na">
-<!ENTITY nntpRemoveMsgBody.accesskey "c">
 <!ENTITY offlineSelectNntp.label "Dewis grwpiau newyddion ar gyfer defnydd all-lein…">
 <!ENTITY offlineSelectNntp.accesskey "g">
 <!ENTITY offlineImapAdvancedOffline.label "Uwch…">

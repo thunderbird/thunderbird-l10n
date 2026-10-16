@@ -723,16 +723,6 @@ hide-calendar-name =
 show-only-calendar-name =
     .label = Тек { $name } көрсету
     .accesskey = е
-# $name calendar name
-show-calendar-label =
-    .label = { $name } көрсету
-# $name calendar name
-hide-calendar-label =
-    .label = { $name } жасыру
-# uses the access key calendar.context.showonly.accesskey
-# $name calendar name
-show-only-calendar =
-    .label = Тек { $name } көрсету
 # LOCALIZATION NOTE (modify-conflict-*)
 # Used by the event dialog to resolve item modification conflicts.
 modify-conflict-prompt-title = Нәрсені түзету ерегісі

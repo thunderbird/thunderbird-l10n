@@ -53,6 +53,3 @@ proxy-password-prompt =
 proxy-remote-dns =
     .label = Proksi DNS apabila menggunakan SOCKS v5
     .accesskey = a
-proxy-enable-doh =
-    .label = Dayakan DNS mengatasi HTTPS
-    .accesskey = y

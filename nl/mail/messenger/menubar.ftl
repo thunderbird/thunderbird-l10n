@@ -88,12 +88,6 @@ quit-app-shortcut =
 
 ## Mail Toolbar
 
-toolbar-junk-button =
-    .label = Ongewenst
-    .tooltiptext = De geselecteerde berichten als ongewenst markeren
-toolbar-not-junk-button =
-    .label = Niet ongewenst
-    .tooltiptext = De geselecteerde berichten als niet ongewenst markeren
 toolbar-delete-button =
     .label = Verwijderen
     .tooltiptext = Geselecteerde berichten of map verwijderen

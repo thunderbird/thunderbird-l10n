@@ -3,10 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY subscribeDialog.title "ਮੈਂਬਰ ਬਣੋ">
-<!ENTITY subscribeButton.label "ਮੈਂਬਰ ਬਣੋ">
-<!ENTITY subscribeButton.accesskey "S">
-<!ENTITY unsubscribeButton.label "ਮੈਂਬਰੀ ਹਟਾਓ">
-<!ENTITY unsubscribeButton.accesskey "U">
 <!ENTITY newGroupsTab.label "ਨਵੇਂ ਗਰੁੱਪ">
 <!ENTITY newGroupsTab.accesskey "N">
 <!ENTITY refreshButton.label "ਤਾਜ਼ਾ ਕਰੋ">

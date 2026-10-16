@@ -29,12 +29,6 @@ system-tray-menu-quit =
 
 ## Mail Toolbar
 
-toolbar-junk-button =
-    .label = Draza
-    .tooltiptext = Atzīmēt atlasītās vēstules kā drazu
-toolbar-not-junk-button =
-    .label = Nedraza
-    .tooltiptext = Atzīmēt atlasītās vēstules kā nedrazu
 toolbar-delete-button =
     .label = Izdzēst
     .tooltiptext = Izdzēst atlasītos ziņojumus vai mapi

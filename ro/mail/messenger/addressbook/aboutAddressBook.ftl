@@ -6,8 +6,6 @@ about-addressbook-title = Agendă de contacte
 
 ## Toolbar
 
-about-addressbook-toolbar-new-address-book =
-    .label = Agendă de contacte nouă
 about-addressbook-toolbar-add-address-book =
     .label = Adaugă o agendă locală de contacte
 about-addressbook-toolbar-add-carddav-address-book =
@@ -18,8 +16,6 @@ books-pane-create-contact-button = Contact nou
     .title = Creează un contact nou
 books-pane-add-book-button =
     .title = Adaugă o agendă de contacte
-books-pane-create-book-button =
-    .title = Creează o agendă de contacte nouă
 books-pane-create-list-button =
     .title = Creează o listă nouă de corespondență
 books-pane-import-button = Importă

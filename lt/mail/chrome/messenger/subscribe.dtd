@@ -3,10 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY subscribeDialog.title "Naujienų prenumerata">
-<!ENTITY subscribeButton.label "Prenumeruoti">
-<!ENTITY subscribeButton.accesskey "P">
-<!ENTITY unsubscribeButton.label "Atsisakyti prenumeratos">
-<!ENTITY unsubscribeButton.accesskey "A">
 <!ENTITY newGroupsTab.label "Naujos grupės">
 <!ENTITY newGroupsTab.accesskey "g">
 <!ENTITY refreshButton.label "Atsiųsti iš naujo">

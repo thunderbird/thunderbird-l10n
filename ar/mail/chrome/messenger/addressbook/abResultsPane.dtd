@@ -9,8 +9,6 @@
 <!ENTITY PrimaryEmail.accesskey "د">
 <!ENTITY Company.label "المنظّمة">
 <!ENTITY Company.accesskey "ظ">
-<!ENTITY _PhoneticName.label "الاسم الصوتي">
-<!ENTITY _PhoneticName.accesskey "ص">
 <!ENTITY NickName.label "الاسم المستعار">
 <!ENTITY NickName.accesskey "ع">
 <!ENTITY SecondEmail.label "البريد الإضافي">

@@ -95,8 +95,6 @@ policy-SanitizeOnShutdown2 = Hreinsa ferilsgögn við lokun.
 policy-SearchEngines = Stilla leitarvélar. Þessi stefna er aðeins í boði í ESR-langtímaútgáfum (Extended Support Release).
 policy-SearchSuggestEnabled = Virkja eða slökkva á leitartillögum.
 policy-SecurityDevices2 = Bæta við eða eyða PKCS #11 einingum.
-# For more information, see https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
-policy-SecurityDevices = Setja inn PKCS #11 forritseiningar.
 policy-SSLVersionMax = Stilltu hámarksútgáfu SSL.
 policy-SSLVersionMin = Stilltu lágmarksútgáfu SSL.
 policy-SupportMenu = Bæta sérsniðinni færslu fyrir aðstoð við hjálparvalmyndina.

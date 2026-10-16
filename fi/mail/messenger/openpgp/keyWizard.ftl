@@ -129,12 +129,9 @@ openpgp-external-key-title = Ulkoinen GnuPG-avain
 openpgp-external-key-description = Määritä ulkoinen GnuPG-avain kiroittamalla avaimen tunnisteen (Key ID)
 openpgp-external-key-info = Lisäksi sinun tulee käyttää avainhallintaa tuodaksesi ja hyväksyäksesi vastaavan julkisen avaimen.
 openpgp-external-key-warning = <b>Voit määrittää vain yhden ulkoisen GnuPG-avaimen.</b> Aiempi tietue korvataan.
-openpgp-save-external-button = Tallenna avaimen tunniste
 openpgp-external-key-label = Salaisen avaimen tunniste:
 openpgp-import-own-key-title = Tuo julkinen avain
 #   $keyId (String) - The Key ID.
 openpgp-import-own-key-description = { -brand-short-name } ei löytänyt julkista avainta tunnuksella { $keyId }. Tuo se jatkaaksesi.
 #   $keyId (String) - The Key ID.
 openpgp-import-keyid-failed = Julkista avainta { $keyId } ei voitu tuoda kyseisestä tiedostosta.
-openpgp-external-key-input =
-    .placeholder = 123456789341298340

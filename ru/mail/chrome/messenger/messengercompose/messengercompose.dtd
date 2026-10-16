@@ -216,7 +216,6 @@
 <!ENTITY smiley7Cmd.label "Нерешительность">
 <!ENTITY smiley8Cmd.label "Сюрприз">
 <!ENTITY smiley9Cmd.label "Поцелуй">
-<!ENTITY smiley10Cmd.label "Вопль">
 <!ENTITY smiley11Cmd.label "Класс">
 <!ENTITY smiley12Cmd.label "Денежки">
 <!ENTITY smiley13Cmd.label "В рот мне ноги">
@@ -266,12 +265,6 @@
 <!ENTITY convertRegularAttachment.accesskey "ы">
 <!ENTITY attachPage.label "Вложить веб-страницу…">
 <!ENTITY attachPage.accesskey "е">
-<!-- Attachment Pane Header Bar Context Menu
-     LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
-     Should use the same wording as startExpandedCmd.label
-     in msgHdrViewOverlay.dtd. -->
-<!ENTITY initiallyShowAttachmentPane.label "Сначала показать панель вложений">
-<!ENTITY initiallyShowAttachmentPane.accesskey "л">
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Добавить словари…">
 <!ENTITY spellAddDictionaries.accesskey "Д">

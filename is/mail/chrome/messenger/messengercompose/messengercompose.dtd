@@ -217,7 +217,6 @@
 <!ENTITY smiley7Cmd.label "Óákveðin">
 <!ENTITY smiley8Cmd.label "Óvænt">
 <!ENTITY smiley9Cmd.label "Kyssa">
-<!ENTITY smiley10Cmd.label "Öskra">
 <!ENTITY smiley11Cmd.label "Svalur">
 <!ENTITY smiley12Cmd.label "Peningamunnur">
 <!ENTITY smiley13Cmd.label "Fótur-í-Munn">
@@ -267,12 +266,6 @@
 <!ENTITY convertRegularAttachment.accesskey "V">
 <!ENTITY attachPage.label "Bæta við vefsíðu…">
 <!ENTITY attachPage.accesskey "v">
-<!-- Attachment Pane Header Bar Context Menu
-     LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
-     Should use the same wording as startExpandedCmd.label
-     in msgHdrViewOverlay.dtd. -->
-<!ENTITY initiallyShowAttachmentPane.label "Sýna viðhengjaspjald í byrjun">
-<!ENTITY initiallyShowAttachmentPane.accesskey "S">
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Bæta við orðasöfnum…">
 <!ENTITY spellAddDictionaries.accesskey "a">

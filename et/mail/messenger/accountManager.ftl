@@ -4,10 +4,6 @@
 
 open-preferences-sidebar-button2 = { -brand-short-name }i sätted
 open-addons-sidebar-button = Lisad ja teemad
-account-action-add-newsgroup-account =
-    .label = Lisa uudistegruppide konto
-    .accesskey = u
-account-tree-create-account-button = Uus konto
 account-tree-add-mail-account =
     .label = E-posti konto…
     .accesskey = E

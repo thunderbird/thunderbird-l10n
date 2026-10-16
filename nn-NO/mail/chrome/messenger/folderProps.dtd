@@ -10,22 +10,6 @@
 <!ENTITY folderRebuildSummaryFile.explanation "Av og til kan oppsummeringsfila (.msf) verte skada, og meldingar kan sjå ut til å forsvinne, eller sletta meldingar kan bli vist. Å reparere mappa kan rette opp desse problema.">
 <!ENTITY folderIncludeInGlobalSearch.label "Inkluder meldingar i denne mappa i globalt søkjeresultat">
 <!ENTITY folderIncludeInGlobalSearch.accesskey "n">
-<!ENTITY retention.label "Ivaretaking av meldingar">
-<!ENTITY retentionUseAccount.label "Bruk innstillingane for kontoen">
-<!ENTITY retentionUseAccount.accesskey "r">
-<!ENTITY daysOld.label "dagar gamle">
-<!ENTITY message.label "meldingar">
-<!ENTITY retentionCleanup.label "For å spare diskplass kan gamle meldingar slettast permanent.">
-<!ENTITY retentionCleanupImap.label "For å spare diskplass, kan gamle meldingar verte permanent sletta, både lokale kopiar og originalar på e-postserveren.">
-<!ENTITY retentionCleanupPop.label "For å spare diskplass, kan gamle meldingar slettast permanent, òg originalmeldingar på e-postserveren.">
-<!ENTITY retentionDeleteMsg.label "Slett meldingar eldre enn">
-<!ENTITY retentionDeleteMsg.accesskey "e">
-<!ENTITY retentionKeepAll.label "Ikkje slett meldingar">
-<!ENTITY retentionKeepAll.accesskey "I">
-<!ENTITY retentionKeepRecent.label "Slett alle unntatt dei aller siste">
-<!ENTITY retentionKeepRecent.accesskey "S">
-<!ENTITY retentionApplyToFlagged.label "Ta alltid vare på stjernemarkerte meldingar">
-<!ENTITY retentionApplyToFlagged.accesskey "d">
 <!ENTITY folderSynchronizationTab.label "Synkronisering">
 <!ENTITY folderCheckForNewMessages2.label "Ved nedlasting av nye meldingar for denne kontoen, kontroller alltid denne mappa">
 <!ENTITY folderCheckForNewMessages2.accesskey "d">

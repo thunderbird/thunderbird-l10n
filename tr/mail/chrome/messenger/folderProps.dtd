@@ -10,22 +10,6 @@
 <!ENTITY folderRebuildSummaryFile.explanation "Bazen klasörün dizin dosyası (.msf) hasar gördüğü için iletiler eksik görünebilir veya silinmiş iletiler görünmeye devam edebilir. Klasörü onarmak bu sorunları çözebilir.">
 <!ENTITY folderIncludeInGlobalSearch.label "Bu klasördeki iletileri global arama sonuçlarına dahil et">
 <!ENTITY folderIncludeInGlobalSearch.accesskey "o">
-<!ENTITY retention.label "Kayıt ilkeleri">
-<!ENTITY retentionUseAccount.label "Hesap ayarlarımı kullan">
-<!ENTITY retentionUseAccount.accesskey "H">
-<!ENTITY daysOld.label "günden eski ise sil">
-<!ENTITY message.label "ileti dışındakileri sil">
-<!ENTITY retentionCleanup.label "Disk alanı kazanmak için eski iletileri kalıcı olarak silebilirsiniz.">
-<!ENTITY retentionCleanupImap.label "Disk alanı kazanmak için sunucudaki eski özgün iletiler ve yerel kopyaları tamamen silinebilir.">
-<!ENTITY retentionCleanupPop.label "Disk alanı kazanmak için sunucudaki eski özgün iletiler tamamen silinebilir.">
-<!ENTITY retentionDeleteMsg.label "İleti">
-<!ENTITY retentionDeleteMsg.accesskey "t">
-<!ENTITY retentionKeepAll.label "Hiçbir iletiyi silme">
-<!ENTITY retentionKeepAll.accesskey "y">
-<!ENTITY retentionKeepRecent.label "Son">
-<!ENTITY retentionKeepRecent.accesskey "S">
-<!ENTITY retentionApplyToFlagged.label "Yıldızlı iletileri hiçbir zaman silme">
-<!ENTITY retentionApplyToFlagged.accesskey "Y">
 <!ENTITY folderSynchronizationTab.label "Eşitleme">
 <!ENTITY folderCheckForNewMessages2.label "Bu hesap için yeni ileti alırken her zaman bu klasörü denetle">
 <!ENTITY folderCheckForNewMessages2.accesskey "y">

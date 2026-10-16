@@ -6,8 +6,6 @@ about-addressbook-title = Rubrica
 
 ## Toolbar
 
-about-addressbook-toolbar-new-address-book =
-    .label = Nuova rubrica
 about-addressbook-toolbar-add-address-book =
     .label = Aggiungi rubrica locale
 about-addressbook-toolbar-add-carddav-address-book =
@@ -18,8 +16,6 @@ books-pane-create-contact-button = Nuovo contatto
     .title = Crea un nuovo contatto
 books-pane-add-book-button =
     .title = Aggiungi rubrica
-books-pane-create-book-button =
-    .title = Crea una nuova rubrica
 books-pane-create-list-button =
     .title = Crea una nuova lista di distribuzione
 books-pane-import-button = Importa

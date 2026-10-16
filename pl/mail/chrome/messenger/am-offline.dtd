@@ -14,24 +14,10 @@
 <!ENTITY autosyncNotDownload.accesskey "N">
 <!ENTITY kb.label "KB">
 <!ENTITY daysOld.label "dni">
-<!ENTITY message.label "wiadomości">
 <!ENTITY nntpNotDownloadRead.label "Nie pobieraj treści przeczytanych wiadomości">
 <!ENTITY nntpNotDownloadRead.accesskey "h">
 <!ENTITY nntpDownloadMsg.label "Nie pobieraj treści wiadomości starszych niż">
 <!ENTITY nntpDownloadMsg.accesskey "b">
-<!ENTITY retentionCleanup.label "W celu zaoszczędzenia miejsca na dysku, stare wiadomości mogą być nieodwracalnie usuwane.">
-<!ENTITY retentionCleanupImap.label "W celu zaoszczędzenia miejsca na dysku, stare wiadomości – zarówno lokalne kopie, jak i oryginały na zdalnym serwerze – mogą być nieodwracalnie usuwane.">
-<!ENTITY retentionCleanupPop.label "W celu zaoszczędzenia miejsca na dysku, stare wiadomości – łącznie z oryginałami na zdalnym serwerze – mogą być nieodwracalnie usuwane.">
-<!ENTITY retentionKeepMsg.label "Usuwaj wiadomości starsze niż">
-<!ENTITY retentionKeepMsg.accesskey "m">
-<!ENTITY retentionKeepAll.label "Nie usuwaj żadnych wiadomości">
-<!ENTITY retentionKeepAll.accesskey "a">
-<!ENTITY retentionKeepRecent.label "Usuwaj wszystko, pomijając ostatnie">
-<!ENTITY retentionKeepRecent.accesskey "k">
-<!ENTITY retentionApplyToFlagged.label "Zawsze przechowuj wiadomości oznaczone gwiazdką">
-<!ENTITY retentionApplyToFlagged.accesskey "e">
-<!ENTITY nntpRemoveMsgBody.label "Usuwaj treść wiadomości starszych niż">
-<!ENTITY nntpRemoveMsgBody.accesskey "U">
 <!ENTITY offlineSelectNntp.label "Wybierz grupy dostępne w trybie offline…">
 <!ENTITY offlineSelectNntp.accesskey "W">
 <!ENTITY offlineImapAdvancedOffline.label "Zaawansowane…">

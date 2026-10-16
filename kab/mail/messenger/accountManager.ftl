@@ -4,10 +4,6 @@
 
 open-preferences-sidebar-button2 = Iɣewwaren n { -brand-short-name }
 open-addons-sidebar-button = Izegrar d yisental
-account-action-add-newsgroup-account =
-    .label = Rnu amiḍan n ugraw amaynut…
-    .accesskey = A
-account-tree-create-account-button = Amiḍan amaynut
 account-tree-add-mail-account =
     .label = Amiḍan n yimayl…
     .accesskey = A

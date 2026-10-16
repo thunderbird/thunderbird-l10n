@@ -22,11 +22,3 @@ archive-folder-name-label = Archivos
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name-label = Bandeja de entrada
 child-folder-name-label = Subcarpeta de la Bandeja de entrada
-# This should match the default name for the "Archives" folder.
-archive-folder-name =
-    .label = Archivos
-# This should match the default name for the "Inbox" folder.
-inbox-folder-name =
-    .label = Bandeja de entrada
-child-folder-name =
-    .label = Subcarpeta de la Bandeja de entrada

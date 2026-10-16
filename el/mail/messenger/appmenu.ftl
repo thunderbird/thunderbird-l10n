@@ -30,11 +30,6 @@ appmenu-sync-sign-out =
 
 ## Add Account
 
-appmenu-new-account-panel-title =
-    .title = Νέος λογαριασμός
-appmenu-new-account-panel =
-    .label = Νέος λογαριασμός
-    .accesskey = Ν
 appmenu-new-email-account =
     .label = Email
     .accesskey = E
@@ -58,11 +53,6 @@ appmenu-add-account-panel =
 
 ## New Account / Address Book
 
-appmenu-newab-panel-title =
-    .title = Νέο ευρετήριο
-appmenu-newab-panel =
-    .label = Νέο ευρετήριο
-    .accesskey = ε
 appmenu-new-addressbook =
     .label = Τοπικό ευρετήριο
     .accesskey = Τ

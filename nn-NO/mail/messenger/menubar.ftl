@@ -88,12 +88,6 @@ quit-app-shortcut =
 
 ## Mail Toolbar
 
-toolbar-junk-button =
-    .label = Uønskt
-    .tooltiptext = Merk dei valde meldingane som uønskt e-post
-toolbar-not-junk-button =
-    .label = Ønskt
-    .tooltiptext = Merk dei valde meldingene som ønskt e-post
 toolbar-delete-button =
     .label = Slett
     .tooltiptext = Slett valgte meldinger eller mappe

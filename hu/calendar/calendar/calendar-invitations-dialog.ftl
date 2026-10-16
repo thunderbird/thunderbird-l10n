@@ -15,9 +15,6 @@ recurrent-event =
 calendar-invitation-location =
     .tooltiptext = { $locationProperty }
     .value = Hely: { $locationProperty }
-# $locationProperty is the location of the event
-calendar-invitations-location =
-    .value = Hely: { $locationProperty }
 # $organizerProperty is the organizer of the event
 organizer =
     .value = Szervező: { $organizerProperty }

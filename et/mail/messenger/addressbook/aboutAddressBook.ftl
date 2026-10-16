@@ -6,8 +6,6 @@ about-addressbook-title = Aadressiraamat
 
 ## Toolbar
 
-about-addressbook-toolbar-new-address-book =
-    .label = Uus aadressiraamat
 about-addressbook-toolbar-add-address-book =
     .label = Lisa kohalik aadressiraamat
 about-addressbook-toolbar-add-carddav-address-book =
@@ -16,8 +14,6 @@ about-addressbook-toolbar-add-ldap-address-book =
     .label = Lisa LDAPi aadressiraamat
 books-pane-create-contact-button = Uus kontakt
     .title = Loo uus kontakt
-books-pane-create-book-button =
-    .title = Loo uus aadressiraamat
 books-pane-create-list-button =
     .title = Loo uus meililist
 books-pane-import-button = Impordi

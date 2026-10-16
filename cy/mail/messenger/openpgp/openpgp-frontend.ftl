@@ -43,14 +43,9 @@ openpgp-cannot-decrypt-because-mdc =
     Gall fod wedi cael ei addasu wrth gael ei gludo, gyda'r bwriad o ddwyn ei gynnwys.
     Er mwyn atal y risg hon, nid yw'r cynnwys yn cael ei ddangos.
 openpgp-cannot-decrypt-because-missing-key = Nid yw'r allwedd gyfrinachol sy'n ofynnol i ddadgryptio'r neges hon ar gael.
-openpgp-partially-signed =
-    Dim ond is-set o'r neges hon a lofnodwyd yn ddigidol gan ddefnyddio OpenPGP.
-    Os cliciwch y botwm gwirio, bydd y rhannau heb ddiogelwch yn cael eu cuddio, a bydd statws y llofnod digidol yn cael ei ddangos.
 openpgp-partially-encrypted =
     Dim ond is-set o'r neges hon a amgryptiwyd gan ddefnyddio OpenPGP.
     Nid yw rhannau darllenadwy o'r neges sy'n cael eu dangos eisoes wedi eu hamgryptio.
     Os cliciwch y botwm dadgryptio, bydd cynnwys y rhannau wedi'u hamgryptio yn cael eu dangos.
-openpgp-reminder-partial-display = Nodyn i'ch atgoffa: Dim ond is-set o'r neges wreiddiol yw'r neges sy'n cael ei ddangos isod.
-openpgp-partial-verify-button = Gwirio
 openpgp-partial-decrypt-button = Dadgryptio
 openpgp-unexpected-key-for-you = Rhybudd: Mae'r neges hon yn cynnwys allwedd OpenPGP anhysbys sy'n cyfeirio at un o'ch cyfeiriadau e-bost chi eich hun. Os nad yw hwn yn un o'ch allweddi chi, gall fod yn ymgais i dwyllo gohebwyr eraill.

@@ -87,12 +87,6 @@ quit-app-shortcut =
 
 ## Mail Toolbar
 
-toolbar-junk-button =
-    .label = I pavlerë
-    .tooltiptext = Vëri shenjë si i pavlerë mesazhit të përzgjedhur
-toolbar-not-junk-button =
-    .label = Jo i Pavlerë
-    .tooltiptext = Vëri shenjë si jo i pavlerë mesazhit të përzgjedhur
 toolbar-delete-button =
     .label = Fshije
     .tooltiptext = Fsji mesazhet ose dosjen e përzgjedhur

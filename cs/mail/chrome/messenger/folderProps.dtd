@@ -10,22 +10,6 @@
 <!ENTITY folderRebuildSummaryFile.explanation "Pokud se ve složce nezobrazují existující zprávy či se objevují zprávy smazané, je pravděpodobně poškozen soubor s indexem. Oprava složky může tyto problémy vyřešit.">
 <!ENTITY folderIncludeInGlobalSearch.label "Zahrnout zprávy v této složce do výsledků globálního hledání">
 <!ENTITY folderIncludeInGlobalSearch.accesskey "Z">
-<!ENTITY retention.label "Pravidla uchovávání zpráv">
-<!ENTITY retentionUseAccount.label "Použít nastavení účtu">
-<!ENTITY retentionUseAccount.accesskey "n">
-<!ENTITY daysOld.label "dny(ů)">
-<!ENTITY message.label "zpráv">
-<!ENTITY retentionCleanup.label "Pro ušetření místa na disku lze automaticky mazat staré zprávy.">
-<!ENTITY retentionCleanupImap.label "Pro ušetření místa na disku lze automaticky mazat staré zprávy, jak místní kopie, tak originály na vzdáleném serveru.">
-<!ENTITY retentionCleanupPop.label "Pro ušetření místa na disku lze automaticky mazat staré zprávy, včetně originálů na vzdáleném serveru.">
-<!ENTITY retentionDeleteMsg.label "Smazat zprávy starší než">
-<!ENTITY retentionDeleteMsg.accesskey "S">
-<!ENTITY retentionKeepAll.label "Nemazat žádné zprávy">
-<!ENTITY retentionKeepAll.accesskey "N">
-<!ENTITY retentionKeepRecent.label "Smazat vše mimo posledních">
-<!ENTITY retentionKeepRecent.accesskey "m">
-<!ENTITY retentionApplyToFlagged.label "Vždy ukládat zprávy s hvězdičkou">
-<!ENTITY retentionApplyToFlagged.accesskey "u">
 <!ENTITY folderSynchronizationTab.label "Synchronizace">
 <!ENTITY folderCheckForNewMessages2.label "Při přijímání zpráv pro tento účet kontrolovat nové zprávy v této složce">
 <!ENTITY folderCheckForNewMessages2.accesskey "k">

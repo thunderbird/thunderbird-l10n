@@ -216,7 +216,6 @@
 <!ENTITY smiley7Cmd.label "Rådvill">
 <!ENTITY smiley8Cmd.label "Överraskad">
 <!ENTITY smiley9Cmd.label "Puss">
-<!ENTITY smiley10Cmd.label "Skriker">
 <!ENTITY smiley11Cmd.label "Cool">
 <!ENTITY smiley12Cmd.label "Skrytmåns">
 <!ENTITY smiley13Cmd.label "Bortgjord">
@@ -266,12 +265,6 @@
 <!ENTITY convertRegularAttachment.accesskey "V">
 <!ENTITY attachPage.label "Bifoga webbsida…">
 <!ENTITY attachPage.accesskey "w">
-<!-- Attachment Pane Header Bar Context Menu
-     LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
-     Should use the same wording as startExpandedCmd.label
-     in msgHdrViewOverlay.dtd. -->
-<!ENTITY initiallyShowAttachmentPane.label "Inledningsvis visa bifogningsfönstret">
-<!ENTITY initiallyShowAttachmentPane.accesskey "v">
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Lägg till ordlista…">
 <!ENTITY spellAddDictionaries.accesskey "L">

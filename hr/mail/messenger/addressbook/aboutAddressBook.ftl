@@ -6,8 +6,6 @@ about-addressbook-title = Adresar
 
 ## Toolbar
 
-about-addressbook-toolbar-new-address-book =
-    .label = Novi adresar
 about-addressbook-toolbar-add-address-book =
     .label = Dodaj lokalni adresar
 about-addressbook-toolbar-add-carddav-address-book =
@@ -18,8 +16,6 @@ books-pane-create-contact-button = Novi kontakt
     .title = Stvori novi kontakt
 books-pane-add-book-button =
     .title = Dodaj adresar
-books-pane-create-book-button =
-    .title = Stvori novi adresar
 books-pane-create-list-button =
     .title = Stvori novi popis primatelja
 books-pane-import-button = Uvezi

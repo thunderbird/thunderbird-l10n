@@ -95,8 +95,6 @@ policy-SanitizeOnShutdown2 = გადაადგილების ყვე�
 policy-SearchEngines = საძიებო პარამეტრების გამართვა. ეს დებულება ხელმისაწვდომია, მხოლოდ გაფართოებული მხარდაჭერის (ESR) გამოშვებაზე.
 policy-SearchSuggestEnabled = ძიების შემოთავაზებების ჩართვა ან გამორთვა.
 policy-SecurityDevices2 = დაემატოს ან წაიშალოს მოდულები PKCS #11.
-# For more information, see https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
-policy-SecurityDevices = PKCS #11 მოდულების დაყენება.
 policy-SSLVersionMax = SSL-ის უმაღლესი ვერსიის განსაზღვრა.
 policy-SSLVersionMin = SSL-ის უმცირესი ვერსიის განსაზღვრა.
 policy-SupportMenu = საკუთარი მხარდაჭერის მენიუს დამატება დახმარების მენიუში.

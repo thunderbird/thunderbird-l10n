@@ -95,8 +95,6 @@ policy-SanitizeOnShutdown2 = Сөндірілген кезде навигаци�
 policy-SearchEngines = Іздеу жүйесі параметрлерін баптау. Бұл саясат тек ұзақ мерзімді қолдауы бар (ESR) нұсқасында қолжетімді.
 policy-SearchSuggestEnabled = Іздеу ұсыныстарын іске қосу немесе сөндіру.
 policy-SecurityDevices2 = PKCS #11 модульдерін қосу немесе өшіру.
-# For more information, see https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
-policy-SecurityDevices = PKCS #11 модульдерін орнату.
 policy-SSLVersionMax = Максималды SSL нұсқасын орнату.
 policy-SSLVersionMin = Минималды SSL нұсқасын орнату.
 policy-SupportMenu = Көмек мәзіріне таңдауыңызша қолдау көрсету мәзір элементін қосу.

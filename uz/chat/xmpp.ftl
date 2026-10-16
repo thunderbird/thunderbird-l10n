@@ -246,11 +246,6 @@ options-domain = Domen
 #  This name is used whenever the name of the protocol is shown.
 gtalk-protocol-name = Google Talk
 odnoklassniki-protocol-name = Odnoklassniki
-# LOCALIZATION NOTE (odnoklassniki-username-hint):
-#  This is displayed inside the accountUsernameInfoWithDescription
-#  string defined in imAccounts.properties when the user is
-#  configuring a Odnoklassniki account.
-odnoklassniki-username-hint = Profil ID raqami
 # LOCALIZATION NOTE (command-*):
 #  These are the help messages for each command.
 # $commandName (String): command name

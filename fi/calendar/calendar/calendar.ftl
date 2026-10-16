@@ -708,16 +708,6 @@ hide-calendar-name =
 show-only-calendar-name =
     .label = Näytä vain { $name }
     .accesskey = v
-# $name calendar name
-show-calendar-label =
-    .label = Näytä { $name }
-# $name calendar name
-hide-calendar-label =
-    .label = Piilota { $name }
-# uses the access key calendar.context.showonly.accesskey
-# $name calendar name
-show-only-calendar =
-    .label = Näytä vain { $name }
 # LOCALIZATION NOTE (modify-conflict-*)
 # Used by the event dialog to resolve item modification conflicts.
 modify-conflict-prompt-title = Ristiriita kohteen muokkauksessa

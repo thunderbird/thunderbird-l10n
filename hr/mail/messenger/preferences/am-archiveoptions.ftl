@@ -26,13 +26,3 @@ archive-folder-name-label = Arhiva
 inbox-folder-name-label = Primljena pošta
 child-folder-name-label = Podmapa primljene pošte
 sibling-folder-name-label = Srodna mapa primljenoj pošti
-# This should match the default name for the "Archives" folder.
-archive-folder-name =
-    .label = Arhiva
-# This should match the default name for the "Inbox" folder.
-inbox-folder-name =
-    .label = Primljena pošta
-child-folder-name =
-    .label = Podmapa primljene pošte
-sibling-folder-name =
-    .label = Srodna mapa primljenoj pošti

@@ -21,8 +21,6 @@
 <!ENTITY closeConversationCmd.accesskey "ס">
 <!ENTITY aliasCmd.label "שינוי שם">
 <!ENTITY aliasCmd.accesskey "ש">
-<!ENTITY deleteCmd.label "הסרת איש קשר">
-<!ENTITY deleteCmd.accesskey "ר">
 <!ENTITY openConversationButton.tooltip "התחלת שיחה">
 <!ENTITY closeConversationButton.tooltip "סגירת שיחה">
 <!ENTITY addBuddyButton.label "הוספת איש קשר">

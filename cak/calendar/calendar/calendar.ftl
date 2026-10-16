@@ -303,16 +303,6 @@ hide-calendar-name =
 show-only-calendar-name =
     .label = Xa xe tik'ut { $name }
     .accesskey = O
-# $name calendar name
-show-calendar-label =
-    .label = Tik'ut { $name }
-# $name calendar name
-hide-calendar-label =
-    .label = Tewäx { $name }
-# uses the access key calendar.context.showonly.accesskey
-# $name calendar name
-show-only-calendar =
-    .label = Xa xe tik'ut { $name }
 # Accessible description of a grid calendar with no selected date
 minimonth-no-selected-date =
     .aria-label = Majun q'ijul cha'on

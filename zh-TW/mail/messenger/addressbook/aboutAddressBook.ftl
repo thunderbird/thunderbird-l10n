@@ -6,8 +6,6 @@ about-addressbook-title = 通訊錄
 
 ## Toolbar
 
-about-addressbook-toolbar-new-address-book =
-    .label = 新增通訊錄
 about-addressbook-toolbar-add-address-book =
     .label = 新增本機通訊錄
 about-addressbook-toolbar-add-carddav-address-book =
@@ -18,8 +16,6 @@ books-pane-create-contact-button = 新增聯絡人
     .title = 建立新聯絡人
 books-pane-add-book-button =
     .title = 新增通訊錄
-books-pane-create-book-button =
-    .title = 建立新通訊錄
 books-pane-create-list-button =
     .title = 建立新郵件群組
 books-pane-import-button = 匯入

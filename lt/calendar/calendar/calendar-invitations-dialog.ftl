@@ -11,9 +11,6 @@ calendar-invitation-current-participation-status-icon-needs-action =
 allday-event = Visos dienos įvykis
 recurrent-event =
     .value = Pasikartojantis įvykis
-# $locationProperty is the location of the event
-calendar-invitations-location =
-    .value = Vieta: { $locationProperty }
 # $organizerProperty is the organizer of the event
 organizer =
     .value = Organizuoja: { $organizerProperty }

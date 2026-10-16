@@ -216,7 +216,6 @@
 <!ENTITY smiley7Cmd.label "Ur yerkid ara">
 <!ENTITY smiley8Cmd.label "Yewhem">
 <!ENTITY smiley9Cmd.label "Asuden">
-<!ENTITY smiley10Cmd.label "Aɛeggeḍ">
 <!ENTITY smiley11Cmd.label "Yers">
 <!ENTITY smiley12Cmd.label "Aqemmuc n yedrimen">
 <!ENTITY smiley13Cmd.label "Aḍar deg uqemmuc">
@@ -265,12 +264,6 @@
 <!ENTITY convertRegularAttachment.accesskey "d">
 <!ENTITY attachPage.label "Seddu asebter Web…">
 <!ENTITY attachPage.accesskey "W">
-<!-- Attachment Pane Header Bar Context Menu
-     LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
-     Should use the same wording as startExpandedCmd.label
-     in msgHdrViewOverlay.dtd. -->
-<!ENTITY initiallyShowAttachmentPane.label "Sken di tazwara agalis n yifuyla yeddan">
-<!ENTITY initiallyShowAttachmentPane.accesskey "s">
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Rnu imawalen...">
 <!ENTITY spellAddDictionaries.accesskey "n">

@@ -6,8 +6,6 @@ about-addressbook-title = Kontakty
 
 ## Toolbar
 
-about-addressbook-toolbar-new-address-book =
-    .label = Nová složka
 about-addressbook-toolbar-add-address-book =
     .label = Přidat místní složku kontaktů
 about-addressbook-toolbar-add-carddav-address-book =
@@ -18,8 +16,6 @@ books-pane-create-contact-button = Nový kontakt
     .title = Vytvoří nový kontakt
 books-pane-add-book-button =
     .title = Přidat složku kontaktů
-books-pane-create-book-button =
-    .title = Vytvoření nové složky kontaktů
 books-pane-create-list-button =
     .title = Vytvořit novou skupinu
 books-pane-import-button = Import

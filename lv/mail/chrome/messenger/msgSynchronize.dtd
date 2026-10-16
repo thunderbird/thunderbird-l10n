@@ -18,5 +18,3 @@
 <!ENTITY selectButton.label "Atlasīt…">
 <!ENTITY selectButton.accesskey "A">
 <!ENTITY MsgSelectDesc.label "Izvēlieties pasta mapes un ziņu grupas lietošanai nesaistē.">
-<!ENTITY MsgSelectInd.label "Lejuplādēt">
-<!ENTITY MsgSelectItems.label "Mapes un ziņu grupas">

@@ -13,8 +13,6 @@
 <!ENTITY undoCmd.accesskey "v">
 <!ENTITY redoCmd.label "Restituir">
 <!ENTITY redoCmd.accesskey "s">
-<!ENTITY deleteCmd.label "Stizzar">
-<!ENTITY deleteCmd.accesskey "S">
 <!ENTITY customizeCmd.label "Persunalisar">
 <!ENTITY customizeCmd.accesskey "l">
 <!ENTITY viewMenu.label "Vista">

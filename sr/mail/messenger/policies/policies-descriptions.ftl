@@ -87,8 +87,6 @@ policy-SanitizeOnShutdown2 = Обришите податке о навигаци
 policy-SearchEngines = Конфигуришите подешавања претраживача. Ово својство је доступно само на издању проширене подршке (ESR).
 policy-SearchSuggestEnabled = Омогућите или онемогућите предлоге за претрагу.
 policy-SecurityDevices2 = Додајте или обришите PKCS #11 модуле.
-# For more information, see https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
-policy-SecurityDevices = Инсталирајте PKCS #11 модуле.
 policy-SSLVersionMax = Поставите максималну SSL верзију.
 policy-SSLVersionMin = Поставите минималну SSL верзију.
 policy-SupportMenu = Додајте прилагођену ставку менија за подршку у мени Помоћ.

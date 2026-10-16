@@ -43,14 +43,9 @@ openpgp-cannot-decrypt-because-mdc =
     Bere edukia lapurtzeko asmoz, bere ibilbidean aldatua izan ahal da.
     Arrisku hau ekiditeko, edukiak ez dira erakusten.
 openpgp-cannot-decrypt-because-missing-key = Mezu hau deszifratzeko behar den gako sekretua ez dago erabilgarri.
-openpgp-partially-signed =
-    Mezu honen atal bat bakarrik dago digitalki sinatua OpenPGP erabiliz.
-    Egiaztatu botoia sakatzen baduzu, atal ez abestuak gorde egingo dira, eta sinadura digitalaren egoera erakutsiko da.
 openpgp-partially-encrypted =
     Mezu honen atal bat bakarrik dago zifratua OpenPGP erabiliz.
     Erakusten diren mezuaren atal irakurgarriak ez daude zifratuak.
     Deszifratu botoia sakatzen baduzu, atal zifratuak erakutsiko dira.
-openpgp-reminder-partial-display = Gogoratu: Azpian erakutsitako mezua, mezu originalaren atal bat besterik ez da.
-openpgp-partial-verify-button = Egiaztatu
 openpgp-partial-decrypt-button = Deszifratu
 openpgp-unexpected-key-for-you = Kontuz: mezuak OpenPGP gako ezezagun bat dauka zure posta elektroniko helbide bati erreferentzi egiten diona. Ez bada zure gakoetako bat, beste hartzaile batzuk engainatzeko trikimailua izan daiteke.

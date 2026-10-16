@@ -16,5 +16,4 @@
 <!ENTITY advFeaturesSectionHdr.label "高级功能">
 <!ENTITY searchMsgsLink.label "查找">
 <!ENTITY filtersLink.label "管理消息过滤器">
-<!ENTITY junkSettings.label "垃圾邮件设置">
 <!ENTITY offlineLink.label "脱机设置">

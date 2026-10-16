@@ -50,23 +50,12 @@ account-hub-email-finish-button = Përfundoje
 account-hub-email-manually-configure-button = Formësojeni Dorazi
 account-hub-email-continue-button = Vazhdo
 account-hub-email-confirm-button = Ripohojeni
-account-hub-incoming-server-legend = Shërbyes marrës
-account-hub-outgoing-server-legend = Shërbyes dërgues
-account-hub-result-incoming-server-legend = Shërbyes marrës
-    .title = Shërbyes marrës
-account-hub-result-outgoing-server-legend = Shërbyes dërgues
-    .title = Shërbyes dërgues
 account-hub-protocol-label = Protokoll
-account-hub-hostname-label = Strehëemër
 account-hub-result-hostname-label = Strehëemër
     .title = Strehëemër
 account-hub-result-socket-type-label = Siguri lidhjeje
 account-hub-servers-username-label = Emër përdoruesi:
 account-hub-on-port-label = Portë
-account-hub-result-authentication-label = Mirëfilltësim
-    .title = Mirëfilltësim
-account-hub-port-label = Portë
-    .title = Për vetëpikasje, numrin e portës vendoseni 0
 account-hub-auto-description = { -brand-short-name } do të përpiqet të vetëpikasë vlerat për fushat që janë lënë të zbrazëta.
 account-hub-ssl-label = Siguri lidhjeje
 
@@ -74,8 +63,6 @@ account-hub-ssl-label = Siguri lidhjeje
 
 account-hub-ssl-autodetect-option =
     .label = Vetëzbuloje
-account-hub-ssl-no-authentication-option =
-    .label = Pa mirëfilltësim
 account-hub-ssl-cleartext-password-option =
     .label = Fjalëkalim normal
 account-hub-ssl-encrypted-password-option =
@@ -194,7 +181,6 @@ account-hub-notification-show-less = Shfaq më pak
 account-hub-email-setup-header = Shtoni adresën tuaj email
 account-hub-email-setup-incoming = Rregullime për shërbyesin marrës
 account-hub-email-setup-outgoing = Rregullime për shërbyesin dërgues
-account-hub-email-config-found = Zgjidhni llojin e llogarisë tuaj email
 account-hub-email-enter-password = Jepni fjalëkalimin për llogarinë tuaj email
 account-hub-email-sync-accounts = Njëkohësoni kalendarët dhe librat tuaj të adresave
 account-hub-test-configuration = Testim
@@ -209,7 +195,6 @@ account-hub-result-ews-text = Shërbyes
 account-hub-result-recommended-label = E rekomanduar
 account-hub-result-addon-label = Lyp Shtesë
 account-hub-edit-configuration = Përpunoni formësimin
-account-hub-config-success = Formësimi u gjet te Baze të Dhënash Mozilla për ISP
 account-hub-password-info = Kredencialet tuaja do të depozitohen vetëm lokalisht, në kompjuterin tuaj
 account-hub-creating-account = Po kriiohet llogari…
 account-hub-sync-accounts-found = { -brand-short-name }-i gjeti disa pajisje të lidhura
@@ -239,10 +224,8 @@ account-hub-username-error-text = Emri i përdoruesit është i domosdoshëm
     .title = Emri i përdoruesit është i domosdoshëm
 account-hub-oauth-pending = Po pritet për autorizim te flluska për hyrjen…
 account-hub-addon-install-button = Instaloje
-account-hub-addon-install-needed = { -brand-short-name }-i s’e mbulon së brendshmi këtë shërbyes. Që të përdorni email Exchange, <a data-l10n-name="addon-install"> instaloni një shtesë prej pale të tretë, bie fjala Owl (me pagesë).</a>
 account-hub-addon-error = Instalimi i shtesës dështoi. Ju lutemi, riprovoni, ose lidhuni me autorin e shtesës, për asistencë.
 account-hub-select-security-warning = <span data-l10n-name="error-text">Kujdes: U pikas shërbyes email jo i siguruar.</span> Këtij shërbyesi i mungon fshehtëzimi, duke ekspozuar kështu fjalëkalimin dhe të dhëna tuajat. Lidhuni me përgjegjësin tuaj që të sigurojë lidhjen, ose vazhdoni duke e marrë vetë rrezikun përsipër. <a data-l10n-name="error-link">Për më tepër hollësi, shihni PBR.</a>
-account-hub-security-warning = <span data-l10n-name="security-warning">Kujdes: U pikas shërbyes poste i pasiguruar.</span> Këtij shërbyesi i mungon fshehtëzimi, duke ekspozuar kështu fjalëkalim dhe të dhëna tuajat. Lidhuni me përgjegjësin tuaj që të bëhet lidhja e siguruar, ose vazhdoni me kokën tuaj. <a data-l10n-name="faq-link">Për më tepër, shihni PBR.</a>
 account-hub-account-authentication-error = Gabim mirëfilltësimi.
 account-hub-add-address-book = Shtoni një libër adresash
 address-book-sync-existing-icon =
@@ -260,7 +243,6 @@ address-book-add-ldap-icon =
     .alt = Lidheni me një libër adresash LDAP të largët
 address-book-add-ldap = Libër i Ri Adresash LDAP
 address-book-add-ldap-description = Lidheni me një libër adresash LDAP të largët
-account-hub-fetching-sync-accounts = Po pikasen libra adresash dhe kalendarë…
 address-book-sync-existing-description = Po merren llogari ekzistuese…
 account-hub-select-address-book-account = Përzgjidhni një llogari me libra Adresash
 # $synced (Number) - The number of address books that are synced.

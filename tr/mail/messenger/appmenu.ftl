@@ -30,11 +30,6 @@ appmenu-sync-sign-out =
 
 ## Add Account
 
-appmenu-new-account-panel-title =
-    .title = Yeni hesap
-appmenu-new-account-panel =
-    .label = Yeni hesap
-    .accesskey = h
 appmenu-new-email-account =
     .label = E-posta
     .accesskey = E
@@ -58,11 +53,6 @@ appmenu-add-account-panel =
 
 ## New Account / Address Book
 
-appmenu-newab-panel-title =
-    .title = Yeni adres defteri
-appmenu-newab-panel =
-    .label = Yeni adres defteri
-    .accesskey = a
 appmenu-new-addressbook =
     .label = Yerel adres defterleri
     .accesskey = Y

@@ -5,16 +5,3 @@
 <!-- extracted from AccountManager.xhtml -->
 <!ENTITY accountManagerTitle.label "Kontode sätted">
 <!ENTITY accountManagerCloseButton.label "Sulge">
-<!ENTITY accountActionsButton.label "Konto tegevused">
-<!ENTITY accountActionsButton.accesskey "K">
-<!ENTITY addMailAccountButton.label "Lisa e-posti konto…">
-<!ENTITY addMailAccountButton.accesskey "L">
-<!ENTITY addIMAccountButton.label "Lisa kiirsuhtluse konto…">
-<!ENTITY addIMAccountButton.accesskey "k">
-<!ENTITY addFeedAccountButton.label "Lisa uudistevoogude konto…">
-<!ENTITY addFeedAccountButton.accesskey "u">
-<!ENTITY setDefaultButton.label "Määra vaikeväärtuseks">
-<!ENTITY setDefaultButton.accesskey "v">
-<!ENTITY removeButton.label "Eemalda konto">
-<!ENTITY removeButton.accesskey "E">
-<!ENTITY addonsButton.label "Laiendused ja teemad">

@@ -32,7 +32,4 @@
 <!ENTITY attachVCard.accesskey "v">
 <!ENTITY manageIdentities.label "Shaxsiyatlarni boshqarish…">
 <!ENTITY manageIdentities.accesskey "b">
-<!-- LOCALIZATION NOTE (smtpName.label) : do not translate "SMTP" in below line -->
-<!ENTITY smtpName.label "Chiquvchi server (SMTP):">
-<!ENTITY smtpName.accesskey "C">
 <!ENTITY smtpDefaultServer.label "Asosiy serverdan foydalanish">

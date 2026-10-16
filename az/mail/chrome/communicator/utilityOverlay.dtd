@@ -13,8 +13,6 @@
 <!ENTITY undoCmd.accesskey "r">
 <!ENTITY redoCmd.label "Təkrarla">
 <!ENTITY redoCmd.accesskey "r">
-<!ENTITY deleteCmd.label "Sil">
-<!ENTITY deleteCmd.accesskey "S">
 <!ENTITY viewMenu.label "Görünüş">
 <!ENTITY viewMenu.accesskey "G">
 <!ENTITY viewToolbarsMenu.label "Alət Sətirləri">

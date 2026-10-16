@@ -180,8 +180,6 @@
 <!ENTITY event.calendar.accesskey "a">
 <!ENTITY event.attendees.label "Mynychwyr:">
 <!ENTITY event.attendees.accesskey "y">
-<!ENTITY event.alldayevent.label "Digwyddiad drwy'r Dydd">
-<!ENTITY event.alldayevent.accesskey "D">
 <!ENTITY event.from.label "Cychwyn:">
 <!ENTITY event.from.accesskey "C">
 <!ENTITY task.from.label "Cychwyn:">
@@ -262,13 +260,6 @@
 <!ENTITY event.recurrence.monthly.fourth.label "Y Pedwerydd">
 <!ENTITY event.recurrence.monthly.fifth.label "Y Pumed">
 <!ENTITY event.recurrence.monthly.last.label "Yr Olaf">
-<!ENTITY event.recurrence.pattern.monthly.week.1.label "Sul">
-<!ENTITY event.recurrence.pattern.monthly.week.2.label "Llun">
-<!ENTITY event.recurrence.pattern.monthly.week.3.label "Mawrth">
-<!ENTITY event.recurrence.pattern.monthly.week.4.label "Mercher">
-<!ENTITY event.recurrence.pattern.monthly.week.5.label "Iau">
-<!ENTITY event.recurrence.pattern.monthly.week.6.label "Gwener">
-<!ENTITY event.recurrence.pattern.monthly.week.7.label "Sadwrn">
 <!ENTITY event.recurrence.repeat.dayofmonth.label "Diwrnod y mis">
 <!ENTITY event.recurrence.repeat.recur.label "Ail ddigwydd ar ddydd(iau)">
 <!ENTITY event.recurrence.every.label "Pob:">
@@ -281,18 +272,6 @@
      event.recurrence.pattern.yearly.of.label is "of" in
      Edit recurrence window -> Recurrence pattern -> Repeat yearly -->
 <!ENTITY event.recurrence.pattern.yearly.of.label "">
-<!ENTITY event.recurrence.pattern.yearly.month.1.label "Ionawr">
-<!ENTITY event.recurrence.pattern.yearly.month.2.label "Chwefror">
-<!ENTITY event.recurrence.pattern.yearly.month.3.label "Mawrth">
-<!ENTITY event.recurrence.pattern.yearly.month.4.label "Ebrill">
-<!ENTITY event.recurrence.pattern.yearly.month.5.label "Mai">
-<!ENTITY event.recurrence.pattern.yearly.month.6.label "Mehefin">
-<!ENTITY event.recurrence.pattern.yearly.month.7.label "Gorffennaf">
-<!ENTITY event.recurrence.pattern.yearly.month.8.label "Awst">
-<!ENTITY event.recurrence.pattern.yearly.month.9.label "Medi">
-<!ENTITY event.recurrence.pattern.yearly.month.10.label "Hydref">
-<!ENTITY event.recurrence.pattern.yearly.month.11.label "Tachwedd">
-<!ENTITY event.recurrence.pattern.yearly.month.12.label "Rhagfyr">
 <!ENTITY event.recurrence.yearly.every.label "Pob">
 <!ENTITY event.recurrence.yearly.first.label "Y Cyntaf">
 <!ENTITY event.recurrence.yearly.second.label "Yr Ail">
@@ -300,27 +279,8 @@
 <!ENTITY event.recurrence.yearly.fourth.label "Y Pedwerydd">
 <!ENTITY event.recurrence.yearly.fifth.label "Y Pumed">
 <!ENTITY event.recurrence.yearly.last.label "Yr Olaf">
-<!ENTITY event.recurrence.pattern.yearly.week.1.label "Sul">
-<!ENTITY event.recurrence.pattern.yearly.week.2.label "Llun">
-<!ENTITY event.recurrence.pattern.yearly.week.3.label "Mawrth">
-<!ENTITY event.recurrence.pattern.yearly.week.4.label "Mercher">
-<!ENTITY event.recurrence.pattern.yearly.week.5.label "Iau">
-<!ENTITY event.recurrence.pattern.yearly.week.6.label "Gwener">
-<!ENTITY event.recurrence.pattern.yearly.week.7.label "Sadwrn">
 <!ENTITY event.recurrence.pattern.yearly.day.label "diwrnod">
 <!ENTITY event.recurrence.of.label "o">
-<!ENTITY event.recurrence.pattern.yearly.month2.1.label "Ionawr">
-<!ENTITY event.recurrence.pattern.yearly.month2.2.label "Chwefror">
-<!ENTITY event.recurrence.pattern.yearly.month2.3.label "Mawrth">
-<!ENTITY event.recurrence.pattern.yearly.month2.4.label "Ebrill">
-<!ENTITY event.recurrence.pattern.yearly.month2.5.label "Mai">
-<!ENTITY event.recurrence.pattern.yearly.month2.6.label "Mehefin">
-<!ENTITY event.recurrence.pattern.yearly.month2.7.label "Gorffennaf">
-<!ENTITY event.recurrence.pattern.yearly.month2.8.label "Awst">
-<!ENTITY event.recurrence.pattern.yearly.month2.9.label "Medi">
-<!ENTITY event.recurrence.pattern.yearly.month2.10.label "Hydref">
-<!ENTITY event.recurrence.pattern.yearly.month2.11.label "Tachwedd">
-<!ENTITY event.recurrence.pattern.yearly.month2.12.label "Rhagfyr">
 <!ENTITY event.recurrence.range.label "Ystod ailadrodd">
 <!ENTITY event.recurrence.forever.label "Dim dyddiad gorffen">
 <!ENTITY event.recurrence.repeat.for.label "Creu">

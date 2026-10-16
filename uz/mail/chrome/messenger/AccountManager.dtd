@@ -4,15 +4,3 @@
 
 <!-- extracted from AccountManager.xhtml -->
 <!ENTITY accountManagerTitle.label "Hisob sozlamalari">
-<!ENTITY accountActionsButton.label "Hisob amallari">
-<!ENTITY accountActionsButton.accesskey "H">
-<!ENTITY addMailAccountButton.label "E-pochta hisobini qo‘shish…">
-<!ENTITY addMailAccountButton.accesskey "q">
-<!ENTITY addIMAccountButton.label "Chat hisobini qo‘shish…">
-<!ENTITY addIMAccountButton.accesskey "C">
-<!ENTITY addFeedAccountButton.label "Tasma hisobini qo‘shish…">
-<!ENTITY addFeedAccountButton.accesskey "T">
-<!ENTITY setDefaultButton.label "Asosiy sifatida o‘rnatish">
-<!ENTITY setDefaultButton.accesskey "A">
-<!ENTITY removeButton.label "Hisobni olib tashlash">
-<!ENTITY removeButton.accesskey "o">

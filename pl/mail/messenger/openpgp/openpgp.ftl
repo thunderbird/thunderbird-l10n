@@ -439,7 +439,6 @@ key-verification = Zweryfikuj odcisk klucza za pomocą zabezpieczonego środka k
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Nie można wysłać wiadomości, ponieważ wystąpił problem z kluczem osobistym. { $problem }
-window-locked = Okno tworzenia wiadomości jest zablokowane; anulowano wysyłanie
 
 ## Strings in keyserver.sys.mjs
 
@@ -473,9 +472,6 @@ converter-decrypt-body-failed =
 ## Strings filters.sys.mjs
 
 filter-folder-required = Musisz wybrać folder docelowy.
-filter-decrypt-move-warn-experimental =
-    Ostrzeżenie: działanie filtru „Odszyfruj na stałe” może spowodować uszkodzenie wiadomości.
-    Zdecydowanie zalecamy najpierw wypróbować filtr „Utwórz odszyfrowaną kopię”, dokładnie sprawdzić wynik i zacząć korzystać z tego filtru dopiero wtedy, gdy wynik jest zadowalający.
 filter-term-pgpencrypted-label = Zaszyfrowane za pomocą OpenPGP
 filter-key-required = Musisz wybrać klucz odbiorcy.
 # Variables:
@@ -638,7 +634,6 @@ fail-key-import = Błąd: zaimportowanie klucza się nie powiodło
 # $output (String) - File that writing was attempted to.
 file-write-failed = Zapisanie do pliku { $output } się nie powiodło
 no-pgp-block = Błąd: nie odnaleziono prawidłowego zakodowanego bloku danych OpenPGP
-confirm-permissive-import = Zaimportowanie się nie powiodło. Importowany klucz może być uszkodzony lub używać nieznanych atrybutów. Czy spróbować zaimportować części, które są poprawne? Może to skończyć się zaimportowaniem niepełnych lub nienadających się do użytku kluczy.
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = Część zaimportowanych tajnych kluczy ogłasza nieobsługiwaną funkcję. Jeśli użyjesz takiego klucza jako klucza osobistego, rozmówcy mogą wysyłać Ci wiadomości lub klucze publiczne w niezgodnym formacie. Dotyczy to importowanych tajnych kluczy z następującymi odciskami: { $fingerprints }.
@@ -697,9 +692,6 @@ key-man-button-generate-key-continue = &Kontynuuj generowanie klucza
 
 failed-decrypt = Błąd: odszyfrowanie się nie powiodło
 fix-broken-exchange-msg-failed = Nie można naprawić tej wiadomości.
-# Variables:
-# $attachment (String) - File name of the signature file.
-attachment-no-match-from-signature = Nie można dopasować pliku podpisu „{ $attachment }” do załącznika
 # Variables:
 # Variables:
 # $attachment (String) - File name of the attachment.
@@ -810,8 +802,3 @@ enig-confirm = Potwierdzenie OpenPGP
 
 dlg-button-retry = &Ponów
 dlg-button-skip = Po&miń
-
-## Strings used in enigmailMsgBox.js
-
-enig-alert-title =
-    .title = Komunikat OpenPGP

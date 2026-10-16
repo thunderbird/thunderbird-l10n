@@ -180,8 +180,6 @@
 <!ENTITY event.calendar.accesskey "а">
 <!ENTITY event.attendees.label "Участники:">
 <!ENTITY event.attendees.accesskey "У">
-<!ENTITY event.alldayevent.label "Весь день">
-<!ENTITY event.alldayevent.accesskey "д">
 <!ENTITY event.from.label "Начало:">
 <!ENTITY event.from.accesskey "ч">
 <!ENTITY task.from.label "Начало:">
@@ -262,13 +260,6 @@
 <!ENTITY event.recurrence.monthly.fourth.label "четвёртый">
 <!ENTITY event.recurrence.monthly.fifth.label "пятый">
 <!ENTITY event.recurrence.monthly.last.label "последний">
-<!ENTITY event.recurrence.pattern.monthly.week.1.label "Воскресенье">
-<!ENTITY event.recurrence.pattern.monthly.week.2.label "Понедельник">
-<!ENTITY event.recurrence.pattern.monthly.week.3.label "Вторник">
-<!ENTITY event.recurrence.pattern.monthly.week.4.label "Среда">
-<!ENTITY event.recurrence.pattern.monthly.week.5.label "Четверг">
-<!ENTITY event.recurrence.pattern.monthly.week.6.label "Пятница">
-<!ENTITY event.recurrence.pattern.monthly.week.7.label "Суббота">
 <!ENTITY event.recurrence.repeat.dayofmonth.label "День месяца">
 <!ENTITY event.recurrence.repeat.recur.label "В следующие дни">
 <!ENTITY event.recurrence.every.label "Каждый:">
@@ -281,18 +272,6 @@
      event.recurrence.pattern.yearly.of.label is "of" in
      Edit recurrence window -> Recurrence pattern -> Repeat yearly -->
 <!ENTITY event.recurrence.pattern.yearly.of.label "">
-<!ENTITY event.recurrence.pattern.yearly.month.1.label "Январь">
-<!ENTITY event.recurrence.pattern.yearly.month.2.label "Февраль">
-<!ENTITY event.recurrence.pattern.yearly.month.3.label "Март">
-<!ENTITY event.recurrence.pattern.yearly.month.4.label "Апрель">
-<!ENTITY event.recurrence.pattern.yearly.month.5.label "Май">
-<!ENTITY event.recurrence.pattern.yearly.month.6.label "Июнь">
-<!ENTITY event.recurrence.pattern.yearly.month.7.label "Июль">
-<!ENTITY event.recurrence.pattern.yearly.month.8.label "Август">
-<!ENTITY event.recurrence.pattern.yearly.month.9.label "Сентябрь">
-<!ENTITY event.recurrence.pattern.yearly.month.10.label "Октябрь">
-<!ENTITY event.recurrence.pattern.yearly.month.11.label "Ноябрь ">
-<!ENTITY event.recurrence.pattern.yearly.month.12.label "Декабрь">
 <!ENTITY event.recurrence.yearly.every.label "Каждый">
 <!ENTITY event.recurrence.yearly.first.label "первый">
 <!ENTITY event.recurrence.yearly.second.label "второй">
@@ -300,27 +279,8 @@
 <!ENTITY event.recurrence.yearly.fourth.label "четвёртый">
 <!ENTITY event.recurrence.yearly.fifth.label "пятый">
 <!ENTITY event.recurrence.yearly.last.label "последний">
-<!ENTITY event.recurrence.pattern.yearly.week.1.label "Воскресенье">
-<!ENTITY event.recurrence.pattern.yearly.week.2.label "Понедельник">
-<!ENTITY event.recurrence.pattern.yearly.week.3.label "Вторник">
-<!ENTITY event.recurrence.pattern.yearly.week.4.label "Среда">
-<!ENTITY event.recurrence.pattern.yearly.week.5.label "Четверг">
-<!ENTITY event.recurrence.pattern.yearly.week.6.label "Пятница">
-<!ENTITY event.recurrence.pattern.yearly.week.7.label "Суббота">
 <!ENTITY event.recurrence.pattern.yearly.day.label "день">
 <!ENTITY event.recurrence.of.label "">
-<!ENTITY event.recurrence.pattern.yearly.month2.1.label "Январь">
-<!ENTITY event.recurrence.pattern.yearly.month2.2.label "Февраль">
-<!ENTITY event.recurrence.pattern.yearly.month2.3.label "Март">
-<!ENTITY event.recurrence.pattern.yearly.month2.4.label "Апрель">
-<!ENTITY event.recurrence.pattern.yearly.month2.5.label "Май">
-<!ENTITY event.recurrence.pattern.yearly.month2.6.label "Июнь">
-<!ENTITY event.recurrence.pattern.yearly.month2.7.label "Июль">
-<!ENTITY event.recurrence.pattern.yearly.month2.8.label "Август">
-<!ENTITY event.recurrence.pattern.yearly.month2.9.label "Сентябрь">
-<!ENTITY event.recurrence.pattern.yearly.month2.10.label "Октябрь">
-<!ENTITY event.recurrence.pattern.yearly.month2.11.label "Ноябрь">
-<!ENTITY event.recurrence.pattern.yearly.month2.12.label "Декабрь">
 <!ENTITY event.recurrence.range.label "Уровень повторений">
 <!ENTITY event.recurrence.forever.label "Нет конечной даты">
 <!ENTITY event.recurrence.repeat.for.label "Повторять только">

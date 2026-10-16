@@ -10,22 +10,6 @@
 <!ENTITY folderRebuildSummaryFile.explanation "Thèid faidhle clàr-innse nam pasgan (.msf) a thruailleadh uaireannan 's bidh coltas gu bheil teachdaireachdan air chall no bidh feadhainn a chaidh a sguabadh às ri fhaicinn fhathast; ma chàraicheas tu am pasgan, thèid seo a chur ceart.">
 <!ENTITY folderIncludeInGlobalSearch.label "Gabh a-steach teachdaireachdan sa phasgan seo ann an toraidhean de lorg uile-choitcheann">
 <!ENTITY folderIncludeInGlobalSearch.accesskey "G">
-<!ENTITY retention.label "Am poileasaidh glèidhidh">
-<!ENTITY retentionUseAccount.label "Cleachd roghainnean a' chunntais agam">
-<!ENTITY retentionUseAccount.accesskey "u">
-<!ENTITY daysOld.label "là(ithean) a dh'aois">
-<!ENTITY message.label "teachdaireachdan">
-<!ENTITY retentionCleanup.label "'S urrainn dhut seann teachdaireachdan a sguabadh às gu buan gus àite air an diosg fhaighinn air ais.">
-<!ENTITY retentionCleanupImap.label "'S urrainn dhut seann teachdaireachdan a sguabadh às gu buan gus àite air an diosg fhaighinn air ais, an dà chuid lethbhric ionadail is an fheadhainn thùsail air an fhrithealaiche chèin.">
-<!ENTITY retentionCleanupPop.label "'S urrainn dhut seann teachdaireachdan a sguabadh às gu buan gus àite air an diosg fhaighinn air ais, a' gabhail a-steach na feadhainn thùsail air an fhrithealaiche chèin.">
-<!ENTITY retentionDeleteMsg.label "Sguab às teachdaireachdan a tha nas sine na">
-<!ENTITY retentionDeleteMsg.accesskey "S">
-<!ENTITY retentionKeepAll.label "Na sguab às teachdaireachd sam bith">
-<!ENTITY retentionKeepAll.accesskey "a">
-<!ENTITY retentionKeepRecent.label "Sguab às a h-uile ach an fheadhainn as ùire">
-<!ENTITY retentionKeepRecent.accesskey "l">
-<!ENTITY retentionApplyToFlagged.label "Cum teachdaireachdan ris a bheil rionnag an-còmhnaidh">
-<!ENTITY retentionApplyToFlagged.accesskey "e">
 <!ENTITY folderSynchronizationTab.label "Sioncronachadh">
 <!ENTITY folderCheckForNewMessages2.label "Nuair a lorgar teachdaireachdan ùra airson a' chunntais seo, thoir sùil sa phasgan seo an-còmhnaidh">
 <!ENTITY folderCheckForNewMessages2.accesskey "c">

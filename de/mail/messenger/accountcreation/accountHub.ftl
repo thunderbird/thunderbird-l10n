@@ -56,14 +56,7 @@ account-hub-email-connect-button = Verbinden
 account-hub-result-incoming-legend = Posteingangs-Server
 account-hub-result-outgoing-legend = Postausgangs-Server
 account-hub-all-servers-legend = Alle Server
-account-hub-incoming-server-legend = Posteingangs-Server
-account-hub-outgoing-server-legend = Postausgangs-Server
-account-hub-result-incoming-server-legend = Posteingangs-Server
-    .title = Posteingangs-Server
-account-hub-result-outgoing-server-legend = Postausgangs-Server
-    .title = Postausgangs-Server
 account-hub-protocol-label = Protokoll
-account-hub-hostname-label = Hostname
 account-hub-result-hostname-label = Serveradresse
     .title = Serveradresse
 account-hub-result-socket-type-label = Verbindungssicherheit
@@ -94,10 +87,6 @@ account-hub-result-auth-ntlm = NTLM
 account-hub-result-auth-external = Extern
 account-hub-result-auth-oauth2 = OAuth2
 account-hub-on-port-label = Port
-account-hub-result-authentication-label = Authentifizierung
-    .title = Authentifizierung
-account-hub-port-label = Port:
-    .title = Setzen Sie die Portnummer auf 0, um sie automatisch erkennen zu lassen
 account-hub-auto-description = { -brand-short-name } wird versuchen, die Werte für leer gelassene Felder automatisch zu erkennen.
 account-hub-ssl-label = Verbindungssicherheit
 
@@ -105,8 +94,6 @@ account-hub-ssl-label = Verbindungssicherheit
 
 account-hub-ssl-autodetect-option =
     .label = Automatisch erkennen
-account-hub-ssl-no-authentication-option =
-    .label = Keine Authentifizierung
 account-hub-ssl-cleartext-password-option =
     .label = Passwort, normal
 account-hub-ssl-encrypted-password-option =
@@ -268,7 +255,6 @@ account-hub-email-exchange-settings = Exchange-Einstellungen
 account-hub-email-connect-settings = Ihre E-Mail-Einstellungen verbinden
 account-hub-email-protocol-select-header = Wählen Sie einen E-Mail-Kontotyp
 account-hub-email-protocol-select-additional-info = Um dieses Konto einzurichten, sind zusätzliche Informationen erforderlich.
-account-hub-email-config-found = Wählen Sie Ihren E-Mail-Kontotyp
 account-hub-email-enter-password = Geben Sie das Passwort für Ihr E-Mail-Konto ein
 account-hub-email-sync-accounts = Synchronisieren Sie Ihre Kalender und Adressbücher
 account-hub-test-configuration = Testen
@@ -295,7 +281,6 @@ account-hub-config-success-description-guess = Einstellungen wurden durch Auspro
 account-hub-config-success-description-disk = Einstellungen wurden in der { -brand-short-name }-Installation gefunden.
 account-hub-config-success-description-isp = Einstellungen wurden beim E-Mail-Anbieter gefunden.
 account-hub-config-success-description-read-more = Sie können hier erfahren<a data-l10n-name="automated-setup-link">wie die automatische Einrichtung von E-Mails funktioniert.</a>
-account-hub-config-success = Einstellungen wurden in der Mozilla-ISPDB gefunden.
 account-hub-password-info = Ihre Zugangsdaten werden nur lokal auf Ihrem Computer gespeichert.
 account-hub-creating-account = Konto wird erstellt…
 account-hub-sync-accounts-found = { -brand-short-name } hat verbundene Dienste gefunden
@@ -326,10 +311,8 @@ account-hub-username-error-text = Benutzername ist erforderlich
 account-hub-manual-config-error-summary = Bitte beheben Sie die folgenden Fehler:
 account-hub-oauth-pending = Warten auf Autorisierung im Anmelde-Popup…
 account-hub-addon-install-button = Installieren
-account-hub-addon-install-needed = { -brand-short-name } unterstützt diesen Server nicht nativ. Um auf Exchange-E-Mail-Adressen zuzugreifen, <a data-l10n-name="addon-install">installieren Sie das Add-on eines Drittanbieters wie Owl (kostenpflichtig).</a>
 account-hub-addon-error = Add-on-Installation fehlgeschlagen. Bitte versuchen Sie es erneut oder wenden Sie sich an den Add-on-Autor, um Unterstützung zu erhalten.
 account-hub-select-security-warning = <span data-l10n-name="error-text">Warnung: Unsicherer Mail-Server erkannt.</span> Dieser Server ist nicht verschlüsselt, sodass Ihr Passwort und Ihre Daten offengelegt werden. Kontaktieren Sie Ihren Administrator, um die Verbindung zu sichern oder fahren Sie auf eigene Gefahr fort. <a data-l10n-name="error-link">Weitere Informationen finden Sie in den FAQ.</a>
-account-hub-security-warning = <span data-l10n-name="security-warning">Warnung: Unsicherer Mail-Server erkannt.</span> Dieser Server ist nicht verschlüsselt, sodass Ihr Passwort und Ihre Daten offengelegt werden. Kontaktieren Sie Ihren Administrator, um die Verbindung zu sichern oder fahren Sie auf eigene Gefahr fort. <a data-l10n-name="faq-link">Weitere Informationen finden Sie in den FAQ.</a>
 account-hub-account-authentication-error = Fehler bei der Authentifizierung.
 account-hub-add-address-book = Zu einem Adressbuch hinzufügen
 address-book-sync-existing-icon =
@@ -359,7 +342,6 @@ account-hub-address-book-sync-books-data =
         [one] 1 Adressbuch verfügbar
        *[other] { $addressBooks } Adressbücher verfügbar
     }
-account-hub-fetching-sync-accounts = Adressbücher und Kalender werden erkannt…
 address-book-sync-existing-description = Bestehende Konten werden abgerufen…
 account-hub-select-address-book-account = Wählen Sie ein Konto mit Adressbüchern
 # $synced (Number) - The number of address books that are synced.

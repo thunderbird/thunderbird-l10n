@@ -23,8 +23,6 @@
 <!ENTITY closeConversationCmd.accesskey "k">
 <!ENTITY aliasCmd.label "Adını değiștir">
 <!ENTITY aliasCmd.accesskey "d">
-<!ENTITY deleteCmd.label "Kişiyi sil">
-<!ENTITY deleteCmd.accesskey "s">
 <!ENTITY openConversationButton.tooltip "Sohbet başlat">
 <!ENTITY closeConversationButton.tooltip "Sohbeti kapat">
 <!ENTITY addBuddyButton.label "Kişi ekle">

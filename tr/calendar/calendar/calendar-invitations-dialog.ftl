@@ -15,9 +15,6 @@ recurrent-event =
 calendar-invitation-location =
     .tooltiptext = { $locationProperty }
     .value = Konum: { $locationProperty }
-# $locationProperty is the location of the event
-calendar-invitations-location =
-    .value = Konum: { $locationProperty }
 # $organizerProperty is the organizer of the event
 organizer =
     .value = Düzenleyen: { $organizerProperty }

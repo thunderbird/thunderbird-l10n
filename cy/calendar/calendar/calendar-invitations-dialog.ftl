@@ -15,9 +15,6 @@ recurrent-event =
 calendar-invitation-location =
     .tooltiptext = { $locationProperty }
     .value = Lleoliad: { $locationProperty }
-# $locationProperty is the location of the event
-calendar-invitations-location =
-    .value = Lleoliad: { $locationProperty }
 # $organizerProperty is the organizer of the event
 organizer =
     .value = Trefnydd: { $organizerProperty }

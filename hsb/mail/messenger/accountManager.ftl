@@ -5,10 +5,6 @@
 open-preferences-sidebar-button2 = Nastajenja { -brand-short-name }
 open-addons-sidebar-button = Přidatki a drasty
 account-tree-add-account-button = Konto přidać
-account-action-add-newsgroup-account =
-    .label = Konto za diskusijnu skupinu přidać…
-    .accesskey = d
-account-tree-create-account-button = Nowe konto
 account-tree-add-mail-account =
     .label = E-mejlowe konto…
     .accesskey = E

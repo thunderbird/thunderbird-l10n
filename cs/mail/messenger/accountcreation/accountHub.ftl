@@ -56,14 +56,7 @@ account-hub-email-connect-button = Připojit
 account-hub-result-incoming-legend = Příchozí
 account-hub-result-outgoing-legend = Odchozí
 account-hub-all-servers-legend = Všechny servery
-account-hub-incoming-server-legend = Příchozí server
-account-hub-outgoing-server-legend = Server odchozí pošty
-account-hub-result-incoming-server-legend = Příchozí server
-    .title = Příchozí server
-account-hub-result-outgoing-server-legend = Odchozí server
-    .title = Odchozí server
 account-hub-protocol-label = Protokol
-account-hub-hostname-label = Server
 account-hub-result-hostname-label = Server
     .title = Server
 account-hub-result-socket-type-label = Zabezpečení připojení
@@ -94,10 +87,6 @@ account-hub-result-auth-ntlm = NTLM
 account-hub-result-auth-external = Externí
 account-hub-result-auth-oauth2 = OAuth2
 account-hub-on-port-label = Port
-account-hub-result-authentication-label = Autentizace
-    .title = Autentizace
-account-hub-port-label = Port
-    .title = Pro automatickou detekci nastavte číslo portu na 0
 account-hub-auto-description = { -brand-short-name } se pokusí automaticky doplnit pole, která jste nevyplnili.
 account-hub-ssl-label = Zabezpečení připojení
 
@@ -105,8 +94,6 @@ account-hub-ssl-label = Zabezpečení připojení
 
 account-hub-ssl-autodetect-option =
     .label = Rozpoznat automaticky
-account-hub-ssl-no-authentication-option =
-    .label = Bez autentizace
 account-hub-ssl-cleartext-password-option =
     .label = Heslo, zabezpečený přenos
 account-hub-ssl-encrypted-password-option =
@@ -282,7 +269,6 @@ account-hub-email-exchange-settings = Nastavení Exchange
 account-hub-email-connect-settings = Připojit vaše nastavení e-mailu
 account-hub-email-protocol-select-header = Vyberte typ poštovního účtu
 account-hub-email-protocol-select-additional-info = K nastavení tohoto účtu jsou vyžadovány další informace.
-account-hub-email-config-found = Vyberte si typ poštovního účtu
 account-hub-email-enter-password = Zadejte heslo k poštovnímu účtu
 account-hub-email-sync-accounts = Synchronizace kalendářů a kontaktů
 account-hub-test-configuration = Test
@@ -313,7 +299,6 @@ account-hub-config-success-description-disk =
     }
 account-hub-config-success-description-isp = U poskytovatele e-mailu bylo nalezeno následující nastavení.
 account-hub-config-success-description-read-more = Můžete si <a data-l10n-name="automated-setup-link">přečíst, jak funguje automatické nastavení e-mailu.</a>
-account-hub-config-success = Nastavení bylo nalezeno v Mozilla ISPDB
 account-hub-password-info = Vaše přihlašovací údaje budou uloženy pouze na vašem počítači
 account-hub-creating-account = Vytváří se účet…
 account-hub-sync-accounts-found = { -brand-short-name } nalezl některé připojené služby
@@ -346,10 +331,8 @@ account-hub-username-error-text = Uživatelské jméno je vyžadováno
 account-hub-manual-config-error-summary = Vyřešte prosím následující chyby:
 account-hub-oauth-pending = Čekání na autorizaci ve vyskakovacím okně přihlášení…
 account-hub-addon-install-button = Instalovat
-account-hub-addon-install-needed = { -brand-short-name } nepodporuje tento server nativně. Chcete-li získat přístup k e-mailu Exchange, <a data-l10n-name="addon-install"> nainstalujte si doplněk třetí strany, například Owl (placený).</a>
 account-hub-addon-error = Instalace doplňku se nezdařila. Zkuste to prosím znovu nebo se obraťte na autora doplňku.
 account-hub-select-security-warning = <span data-l10n-name="error-text">Varování: Zjištěn nezabezpečený poštovní server.</span> Tento server postrádá šifrování, v důsledku čehož může být odhaleno vaše heslo a data. Pro zabezpečení připojení kontaktujte správce nebo pokračujte na vlastní nebezpečí. Další informace najdete v <a data-l10n-name="error-link">často kladených otázkách</a>
-account-hub-security-warning = <span data-l10n-name="security-warning">Varování: Zjištěn nezabezpečený poštovní server.</span> Tento server postrádá šifrování, v důsledku toho může být vyzrazeno vaše heslo a data. Pro zabezpečení připojení kontaktujte správce nebo pokračujte na vlastní nebezpečí. Další informace najdete v <a data-l10n-name="faq-link">často kladených otázkách</a>.
 account-hub-account-authentication-error = Chyba autentizace.
 account-hub-add-address-book = Přidání složky kontaktů
 address-book-sync-existing-icon =
@@ -381,7 +364,6 @@ account-hub-address-book-sync-books-data =
         [many] Dostupných { $addressBooks } složek s kontakty
        *[other] Dostupných { $addressBooks } složek s kontakty
     }
-account-hub-fetching-sync-accounts = Vyhledávají se složky s kontakty a kalendáře…
 address-book-sync-existing-description = Načítání existujících účtů…
 account-hub-select-address-book-account = Vyberte účet s kontakty
 # $synced (Number) - The number of address books that are synced.

@@ -9,8 +9,6 @@
 <!ENTITY PrimaryEmail.accesskey "E">
 <!ENTITY Company.label "Organizacija">
 <!ENTITY Company.accesskey "z">
-<!ENTITY _PhoneticName.label "Fonetiske mě">
-<!ENTITY _PhoneticName.accesskey "o">
 <!ENTITY NickName.label "Pśimě">
 <!ENTITY NickName.accesskey "i">
 <!ENTITY SecondEmail.label "Pśidatna e-mail">

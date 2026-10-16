@@ -33,8 +33,6 @@
 <!ENTITY hdrFollowupButton1.tooltip "Dalesposrědkowanje na tutu diskusijnu skupinu pósłać">
 <!ENTITY hdrForwardButton1.label "Dale sposrědkować">
 <!ENTITY hdrForwardButton1.tooltip "Tute powěsć dale sposrědkować">
-<!ENTITY hdrJunkButton1.label "Čapor">
-<!ENTITY hdrJunkButton1.tooltip "Tutu powěsć jako čapor markěrować">
 <!ENTITY hdrTrashButton1.label "Zhašeć">
 <!ENTITY hdrTrashButton1.tooltip "Tutu powěsć zhašeć">
 <!ENTITY hdrViewToolbarShowFull.label "Symbole a tekst pokazać">

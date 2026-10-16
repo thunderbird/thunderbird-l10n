@@ -37,7 +37,6 @@ account-hub-email-confirm-button = אישור
 account-hub-email-find-settings-button = חיפוש הגדרות
 account-hub-all-servers-legend = כל השרתים
 account-hub-protocol-label = פרוטוקול
-account-hub-hostname-label = שם מארח
 account-hub-result-hostname-label = שם מארח
     .title = שם מארח
 account-hub-result-socket-type-label = אבטחת החיבור
@@ -67,18 +66,12 @@ account-hub-result-auth-external = חיצוני
 account-hub-result-auth-oauth2 = OAuth2
     .title = OAuth2
 account-hub-on-port-label = פתחה
-account-hub-result-authentication-label = אימות
-    .title = אימות
-account-hub-port-label = פתחה
-    .title = אפשר להגדיר את מספר הפתחה ל־0 כדי לזהות אותה אוטומטית
 account-hub-ssl-label = אבטחת החיבור
 
 ## Incoming/Outgoing authentication method options
 
 account-hub-ssl-autodetect-option =
     .label = זיהוי אוטומטי
-account-hub-ssl-no-authentication-option =
-    .label = ללא אימות
 account-hub-ssl-cleartext-password-option =
     .label = סיסמה רגילה
 account-hub-ssl-encrypted-password-option =

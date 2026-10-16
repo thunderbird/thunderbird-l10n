@@ -16,5 +16,4 @@
 <!ENTITY advFeaturesSectionHdr.label "Caratteristiche avanzate">
 <!ENTITY searchMsgsLink.label "Cerca messaggi">
 <!ENTITY filtersLink.label "Gestisci i filtri per i messaggi">
-<!ENTITY junkSettings.label "Posta indesiderata">
 <!ENTITY offlineLink.label "Impostazioni “non in linea”">

@@ -13,11 +13,6 @@ appmenu-sync-sign-out =
 
 ## Add Account
 
-appmenu-new-account-panel-title =
-    .title = Cuntas Nua
-appmenu-new-account-panel =
-    .label = Cuntas Nua
-    .accesskey = N
 appmenu-new-calendar =
     .label = Féilire
     .accesskey = F

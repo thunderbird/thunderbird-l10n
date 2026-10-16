@@ -18,5 +18,3 @@
 <!ENTITY selectButton.label "Selecteren…">
 <!ENTITY selectButton.accesskey "S">
 <!ENTITY MsgSelectDesc.label "Kies e-mailmappen en nieuwsgroepen voor offlinegebruik.">
-<!ENTITY MsgSelectInd.label "Downloaden">
-<!ENTITY MsgSelectItems.label "Mappen en nieuwsgroepen">

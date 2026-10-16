@@ -418,7 +418,6 @@ key-verification = Xác minh dấu vân tay của khóa bằng kênh liên lạc
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Không thể gửi tin nhắn vì có sự cố với khóa cá nhân của bạn. { $problem }
-window-locked = Cửa sổ soạn thảo bị khóa; đã hủy gửi
 
 ## Strings in keyserver.sys.mjs
 
@@ -447,9 +446,6 @@ converter-decrypt-body-failed =
 ## Strings filters.sys.mjs
 
 filter-folder-required = Bạn phải chọn một thư mục đích.
-filter-decrypt-move-warn-experimental =
-    Cảnh báo - hành động bộ lọc “Giải mã vĩnh viễn” có thể dẫn đến các thư bị phá hủy.
-    Chúng tôi thực sự khuyên bạn trước tiên nên thử bộ lọc “Tạo bản sao được giải mã”, kiểm tra kết quả một cách cẩn thận và chỉ bắt đầu sử dụng bộ lọc này khi bạn hài lòng với kết quả.
 filter-term-pgpencrypted-label = OpenPGP được mã hóa
 filter-key-required = Bạn phải chọn một khóa người nhận.
 # Variables:
@@ -593,7 +589,6 @@ fail-key-import = Lỗi - nhập khóa không thành công
 # Variables:
 # $output (String) - File that writing was attempted to.
 file-write-failed = Không thể ghi vào tập tin { $output }
-confirm-permissive-import = Nhập không thành công. Khóa bạn đang cố gắng nhập có thể bị hỏng hoặc sử dụng các thuộc tính không xác định. Bạn có muốn cố gắng nhập các bộ phận chính xác không? Điều này có thể dẫn đến việc nhập các khóa không đầy đủ và không sử dụng được.
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = Một số khóa bí mật đã nhập có một vài tính năng không được hỗ trợ. Nếu bạn sử dụng khóa đó làm khóa cá nhân của mình, những người khác có thể gửi cho bạn email hoặc khóa công khai ở định dạng không tương thích. Điều này ảnh hưởng đến các khóa bí mật đã nhập có dấu vân tay sau: { $fingerprints }.
@@ -650,9 +645,6 @@ key-man-button-generate-key-continue = &Tiếp tục tạo khóa
 
 failed-decrypt = Lỗi - giải mã không thành công
 fix-broken-exchange-msg-failed = Không thể sửa chữa thư này.
-# Variables:
-# $attachment (String) - File name of the signature file.
-attachment-no-match-from-signature = Tập tin chữ ký ‘{ $attachment }’ với tập tin đính kèm không khớp
 # Variables:
 # Variables:
 # $attachment (String) - File name of the attachment.
@@ -763,8 +755,3 @@ enig-confirm = Xác nhận OpenPGP
 
 dlg-button-retry = &Thử lại
 dlg-button-skip = &Bỏ qua
-
-## Strings used in enigmailMsgBox.js
-
-enig-alert-title =
-    .title = Cảnh báo OpenPGP

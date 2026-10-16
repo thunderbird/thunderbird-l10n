@@ -33,8 +33,6 @@
 <!ENTITY hdrFollowupButton1.tooltip "이 뉴스 그룹에 팔로우업 투고">
 <!ENTITY hdrForwardButton1.label "전달">
 <!ENTITY hdrForwardButton1.tooltip "이 메시지를 전달">
-<!ENTITY hdrJunkButton1.label "스팸 표시">
-<!ENTITY hdrJunkButton1.tooltip "이 메시지를 스팸으로 표시">
 <!ENTITY hdrTrashButton1.label "삭제">
 <!ENTITY hdrTrashButton1.tooltip "이 메시지 삭제">
 <!ENTITY hdrViewToolbarShowFull.label "아이콘 텍스트 모두 보기">

@@ -13,8 +13,6 @@
 <!ENTITY undoCmd.accesskey "b">
 <!ENTITY redoCmd.label "Amalni qaytarish">
 <!ENTITY redoCmd.accesskey "q">
-<!ENTITY deleteCmd.label "O‘chirish">
-<!ENTITY deleteCmd.accesskey "O">
 <!ENTITY viewMenu.label "Ko‘rinishi">
 <!ENTITY viewMenu.accesskey "K">
 <!ENTITY viewToolbarsMenu.label "Asboblar paneli">

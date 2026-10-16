@@ -50,22 +50,11 @@ account-hub-email-finish-button = Terminar
 account-hub-email-manually-configure-button = Configurar manualmain
 account-hub-email-continue-button = Cuntinuar
 account-hub-email-confirm-button = Confermar
-account-hub-incoming-server-legend = Server d'entrada
-account-hub-outgoing-server-legend = Server da sortida
-account-hub-result-incoming-server-legend = Server d’entrada
-    .title = Server d’entrada
-account-hub-result-outgoing-server-legend = Server da sortida
-    .title = Server da sortida
 account-hub-protocol-label = Protocol
-account-hub-hostname-label = Num dal host
 account-hub-result-hostname-label = Num dal host
     .title = Num dal host
 account-hub-result-socket-type-label = Segirezza da la connexiun
 account-hub-on-port-label = Port
-account-hub-result-authentication-label = Autentificaziun
-    .title = Autentificaziun
-account-hub-port-label = Port
-    .title = Endatescha 0 sco numer da port per la determinaziun automatica
 account-hub-auto-description = { -brand-short-name } vegn ad empruvar dad emplenir automaticamain champs vids.
 account-hub-ssl-label = Segirezza da la connexiun
 
@@ -73,8 +62,6 @@ account-hub-ssl-label = Segirezza da la connexiun
 
 account-hub-ssl-autodetect-option =
     .label = Determinaziun automatica
-account-hub-ssl-no-authentication-option =
-    .label = Nagina autentificaziun
 account-hub-ssl-cleartext-password-option =
     .label = Pled-clav normal
 account-hub-ssl-encrypted-password-option =
@@ -194,7 +181,6 @@ account-hub-notification-show-less = Mussar damain
 account-hub-email-setup-header = Agiuntescha tia adressa dad e-mail
 account-hub-email-setup-incoming = Parameters dal server per posta entrada
 account-hub-email-setup-outgoing = Parameters dal server per posta che sorta
-account-hub-email-config-found = Tscherna tes tip da conto dad e-mail
 account-hub-email-enter-password = Endatescha il pled-clav da tes conto dad e-mail
 account-hub-email-sync-accounts = Sincronisescha tes chalenders e tes cudeschets d’adressas
 account-hub-test-configuration = Test
@@ -210,7 +196,6 @@ account-hub-result-ews-text = Server
 account-hub-result-recommended-label = Recumandà
 account-hub-result-addon-label = Pretenda in supplement
 account-hub-edit-configuration = Modifitgar la configuraziun
-account-hub-config-success = Configuraziun chattada en la banca da datas ISP da Mozilla
 account-hub-password-info = Tias infurmaziuns d’annunzia vegnan mo memorisadas localmain sin tes computer
 account-hub-creating-account = Crear il conto…
 account-hub-sync-accounts-found = { -brand-short-name } ha chattà tscherts servetschs connectads
@@ -240,10 +225,8 @@ account-hub-username-error-text = Il num d’utilisader è obligatoric
     .title = Il num d’utilisader è obligatoric
 account-hub-oauth-pending = Spetgar l’autorisaziun en il pop-up d’annunzia…
 account-hub-addon-install-button = Installar
-account-hub-addon-install-needed = { -brand-short-name } na sustegna betg a moda nativa quest server. Per acceder e-mails Exchange, <a data-l10n-name="addon-install">installar in supplement da terzas partidas sco Owl (cunter pajament).</a>
 account-hub-addon-error = L’installaziun dal supplement n’è betg reussida. Emprova per plaschair anc ina giada u contactescha l’autur dal supplement per survegnir agid.
 account-hub-select-security-warning = <span data-l10n-name="error-text">Attenziun: Chattà in server dad e-mail malsegir.</span> Quest server na dispona betg d’in criptadi e revelescha perquai tes pled-clav e tias datas. Contactescha tes administratur per segirar la connexiun u cuntinuescha sin atgna ristga. <a data-l10n-name="faq-link">Vesair las FAQ per ulteriuras infurmaziuns.</a>
-account-hub-security-warning = <span data-l10n-name="security-warning">Attenziun: Chattà in server dad e-mail malsegir.</span> Quest server na dispona betg d’in criptadi e revelescha perquai tes pled-clav e tias datas. Contactescha tes administratur per segirar la connexiun u cuntinuescha sin atgna ristga. <a data-l10n-name="faq-link">Vesair las FAQ per ulteriuras infurmaziuns.</a>
 account-hub-account-authentication-error = Errur d’autentificaziun.
 account-hub-add-address-book = Agiuntar in cudeschet d’adressas
 address-book-sync-existing-icon =
@@ -261,7 +244,6 @@ address-book-add-ldap-icon =
     .alt = Connectar cun in cudeschet d’adressas LDAP lontan
 address-book-add-ldap = Nov cudeschet d’adressas LDAP
 address-book-add-ldap-description = Connectar cun in cudeschet d’adressas LDAP lontan
-account-hub-fetching-sync-accounts = Scuvrir cudeschets d’adressas e chalenders…
 address-book-sync-existing-description = Recuperar ils contos existents…
 account-hub-select-address-book-account = Tscherna in conto cun cudeschets d’adressas
 # $synced (Number) - The number of address books that are synced.

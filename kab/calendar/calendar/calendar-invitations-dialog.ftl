@@ -11,9 +11,6 @@ calendar-invitation-current-participation-status-icon-needs-action =
 allday-event = Tadyant n wass imeṛṛa
 recurrent-event =
     .value = Tadyant i d-yettuɣalen
-# $locationProperty is the location of the event
-calendar-invitations-location =
-    .value = Adeg: { $locationProperty }
 # $organizerProperty is the organizer of the event
 organizer =
     .value = Amsuddes: { $organizerProperty }

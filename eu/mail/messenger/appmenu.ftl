@@ -30,11 +30,6 @@ appmenu-sync-sign-out =
 
 ## Add Account
 
-appmenu-new-account-panel-title =
-    .title = Kontu berria
-appmenu-new-account-panel =
-    .label = Kontu berria
-    .accesskey = b
 appmenu-new-email-account =
     .label = Helbide elektronikoa
     .accesskey = e
@@ -58,11 +53,6 @@ appmenu-add-account-panel =
 
 ## New Account / Address Book
 
-appmenu-newab-panel-title =
-    .title = Helbide-liburu berria
-appmenu-newab-panel =
-    .label = Helbide-liburu berria
-    .accesskey = H
 appmenu-new-addressbook =
     .label = Helbide-liburu lokaletan
     .accesskey = l

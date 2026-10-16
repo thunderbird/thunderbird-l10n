@@ -14,24 +14,10 @@
 <!ENTITY autosyncNotDownload.accesskey "м">
 <!ENTITY kb.label "KB">
 <!ENTITY daysOld.label "дана старо">
-<!ENTITY message.label "порука">
 <!ENTITY nntpNotDownloadRead.label "Читај поруке">
 <!ENTITY nntpNotDownloadRead.accesskey "т">
 <!ENTITY nntpDownloadMsg.label "Порука више од">
 <!ENTITY nntpDownloadMsg.accesskey "е">
-<!ENTITY retentionCleanup.label "Можете трајно обрисати старе поруке да бисте ослободили простор на диску.">
-<!ENTITY retentionCleanupImap.label "Можете трајно обрисати старе поруке, локалне копије и изворне поруке на удаљеном серверу, да бисте ослободили простор на диску.">
-<!ENTITY retentionCleanupPop.label "Можете трајно обрисати старе поруке, укључујући изворне поруке са удаљеног сервера, да бисте ослободили простор на диску.">
-<!ENTITY retentionKeepMsg.label "Обриши поруке више од">
-<!ENTITY retentionKeepMsg.accesskey "д">
-<!ENTITY retentionKeepAll.label "Не бриши било коју поруку">
-<!ENTITY retentionKeepAll.accesskey "ј">
-<!ENTITY retentionKeepRecent.label "Обриши све осим скорашњих">
-<!ENTITY retentionKeepRecent.accesskey "б">
-<!ENTITY retentionApplyToFlagged.label "Увек чувај поруке са звездицом">
-<!ENTITY retentionApplyToFlagged.accesskey "к">
-<!ENTITY nntpRemoveMsgBody.label "Уклони садржај из порука које су више од">
-<!ENTITY nntpRemoveMsgBody.accesskey "о">
 <!ENTITY offlineSelectNntp.label "Изабери новинске групе за употребу ван мреже…">
 <!ENTITY offlineSelectNntp.accesskey "с">
 <!ENTITY offlineImapAdvancedOffline.label "Напредно…">

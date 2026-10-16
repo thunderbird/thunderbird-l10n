@@ -23,8 +23,6 @@
 <!ENTITY closeConversationCmd.accesskey "C">
 <!ENTITY aliasCmd.label "이름 변경">
 <!ENTITY aliasCmd.accesskey "R">
-<!ENTITY deleteCmd.label "연락처 삭제">
-<!ENTITY deleteCmd.accesskey "v">
 <!ENTITY openConversationButton.tooltip "대화 열기">
 <!ENTITY closeConversationButton.tooltip "대화 닫기">
 <!ENTITY addBuddyButton.label "연락처 추가">

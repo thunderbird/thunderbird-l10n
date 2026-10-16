@@ -3,10 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY subscribeDialog.title "Theo dõi">
-<!ENTITY subscribeButton.label "Theo dõi">
-<!ENTITY subscribeButton.accesskey "e">
-<!ENTITY unsubscribeButton.label "Dừng theo dõi">
-<!ENTITY unsubscribeButton.accesskey "D">
 <!ENTITY newGroupsTab.label "Nhóm Mới">
 <!ENTITY newGroupsTab.accesskey "N">
 <!ENTITY refreshButton.label "Làm mới">

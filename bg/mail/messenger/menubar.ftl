@@ -87,12 +87,6 @@ quit-app-shortcut =
 
 ## Mail Toolbar
 
-toolbar-junk-button =
-    .label = Нежелана поща
-    .tooltiptext = Маркиране на съобщенията като нежелани
-toolbar-not-junk-button =
-    .label = Не е нежелана поща
-    .tooltiptext = Отбелязване на съобщенията като желана поща
 toolbar-delete-button =
     .label = Изтриване
     .tooltiptext = Изтриване на избраните съобщения или папки

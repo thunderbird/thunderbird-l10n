@@ -14,24 +14,10 @@
 <!ENTITY autosyncNotDownload.accesskey "m">
 <!ENTITY kb.label "KB">
 <!ENTITY daysOld.label "días de antigüedad">
-<!ENTITY message.label "mensajes">
 <!ENTITY nntpNotDownloadRead.label "Mensajes leídos">
 <!ENTITY nntpNotDownloadRead.accesskey "l">
 <!ENTITY nntpDownloadMsg.label "Mensajes de más de">
 <!ENTITY nntpDownloadMsg.accesskey "e">
-<!ENTITY retentionCleanup.label "Para recuperar espacio en disco, los mensajes viejos pueden ser borrados permanentemente.">
-<!ENTITY retentionCleanupImap.label "Para recuperar espacio en disco, los mensajes viejos pueden ser borrados permanentemente tanto las copias locales como los originales en el servidor remoto.">
-<!ENTITY retentionCleanupPop.label "Para recuperar espacio en disco, los mensajes viejos pueden ser borrados permanentemente incluyendo los originales en el servidor remoto.">
-<!ENTITY retentionKeepMsg.label "Borrar mensajes de más de">
-<!ENTITY retentionKeepMsg.accesskey "m">
-<!ENTITY retentionKeepAll.label "No borrar ningún mensaje">
-<!ENTITY retentionKeepAll.accesskey "A">
-<!ENTITY retentionKeepRecent.label "Borrar todos excepto los más recientes">
-<!ENTITY retentionKeepRecent.accesskey "b">
-<!ENTITY retentionApplyToFlagged.label "Siempre mantener los mensajes destacados">
-<!ENTITY retentionApplyToFlagged.accesskey "e">
-<!ENTITY nntpRemoveMsgBody.label "Eliminar cuerpos de los mensajes mayores de">
-<!ENTITY nntpRemoveMsgBody.accesskey "o">
 <!ENTITY offlineSelectNntp.label "Seleccionar grupos de noticias para su uso sin conexión…">
 <!ENTITY offlineSelectNntp.accesskey "S">
 <!ENTITY offlineImapAdvancedOffline.label "Avanzadas…">

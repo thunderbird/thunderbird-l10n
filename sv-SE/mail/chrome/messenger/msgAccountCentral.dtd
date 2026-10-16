@@ -16,5 +16,4 @@
 <!ENTITY advFeaturesSectionHdr.label "Avancerade funktioner">
 <!ENTITY searchMsgsLink.label "Sök efter meddelanden">
 <!ENTITY filtersLink.label "Hantera filterregler">
-<!ENTITY junkSettings.label "Inställningar för skräppost">
 <!ENTITY offlineLink.label "Inställningar för nedkopplat läge">

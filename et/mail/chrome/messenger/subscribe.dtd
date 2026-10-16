@@ -3,10 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY subscribeDialog.title "Tellimine">
-<!ENTITY subscribeButton.label "Telli">
-<!ENTITY subscribeButton.accesskey "T">
-<!ENTITY unsubscribeButton.label "Katkesta tellimine...">
-<!ENTITY unsubscribeButton.accesskey "K">
 <!ENTITY newGroupsTab.label "Uued grupid">
 <!ENTITY newGroupsTab.accesskey "U">
 <!ENTITY refreshButton.label "Värskenda">

@@ -87,12 +87,6 @@ quit-app-shortcut =
 
 ## Mail Toolbar
 
-toolbar-junk-button =
-    .label = Correo lixo
-    .tooltiptext = Marcar as mensaxes seleccionadas como correo lixo
-toolbar-not-junk-button =
-    .label = Correo normal
-    .tooltiptext = Quitar a marca de correo lixo as mensaxes seleccionadas
 toolbar-delete-button =
     .label = Eliminar
     .tooltiptext = Eliminar as mensaxes ou cartafoles seleccionados

@@ -216,7 +216,6 @@
 <!ENTITY smiley7Cmd.label "Zalantzati">
 <!ENTITY smiley8Cmd.label "Ezustea">
 <!ENTITY smiley9Cmd.label "Muxua">
-<!ENTITY smiley10Cmd.label "Garrasia">
 <!ENTITY smiley11Cmd.label "Primeran">
 <!ENTITY smiley12Cmd.label "Dirua ahoan">
 <!ENTITY smiley13Cmd.label "Oina ahoan">
@@ -266,12 +265,6 @@
 <!ENTITY convertRegularAttachment.accesskey "E">
 <!ENTITY attachPage.label "Erantsi webgunea…">
 <!ENTITY attachPage.accesskey "w">
-<!-- Attachment Pane Header Bar Context Menu
-     LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
-     Should use the same wording as startExpandedCmd.label
-     in msgHdrViewOverlay.dtd. -->
-<!ENTITY initiallyShowAttachmentPane.label "Erakutsi eranskinen panela hasieran">
-<!ENTITY initiallyShowAttachmentPane.accesskey "e">
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Gehitu hiztegiak…">
 <!ENTITY spellAddDictionaries.accesskey "G">

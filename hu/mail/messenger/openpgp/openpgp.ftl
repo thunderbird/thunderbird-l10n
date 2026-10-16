@@ -432,7 +432,6 @@ key-verification = Ellenőrizze a kulcs ujjlenyomatát az e-mailtől eltérő bi
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Az üzenet nem küldhető el, mert probléma van a személyes kulcsával. { $problem }
-window-locked = Az írási ablak zárolva van; küldés megszakítva
 
 ## Strings in keyserver.sys.mjs
 
@@ -466,9 +465,6 @@ converter-decrypt-body-failed =
 ## Strings filters.sys.mjs
 
 filter-folder-required = Ki kell választania a célmappát.
-filter-decrypt-move-warn-experimental =
-    Figyelmeztetés – a „Végleges visszafejtés” szűrési művelet tönkrement üzeneteket eredményezhet.
-    Erősen javasolt, hogy először használja a „Visszafejtett másolat létrehozása” szűrőt, ellenőrizze az eredményt, és csak akkor kezdje el a szűrőt használni, ha elégedett az eredménnyel.
 filter-term-pgpencrypted-label = OpenPGP-vel titkosított
 filter-key-required = Ki kell választania a címzett kulcsát.
 # Variables:
@@ -631,7 +627,6 @@ fail-key-import = Hiba – a kulcs importálása sikertelen
 # $output (String) - File that writing was attempted to.
 file-write-failed = A(z) { $output } fájlba írás sikertelen
 no-pgp-block = Hiba – nem található érvényes páncélozott OpenPGP-adatblokk
-confirm-permissive-import = Az importálás sikertelen. Lehet, hogy az importálandó kulcs sérült vagy ismeretlen attribútumokat használ. Megpróbálja a helyes részek importálását? Ez hiányos és használhatatlan kulcsokat eredményezhet.
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = Az importált titkos kulcsok egy része nem támogatott funkciót hirdet. Ha ilyen kulcsot használ személyes kulcsként, akkor előfordulhat, hogy a levelezőpartnerei nem kompatibilis formátumú e-maileket vagy nyilvános kulcsokat küldhetnek Önnek. Ez a következő ujjlenyomatokkal rendelkező importált titkos kulcsokra van hatással: { $fingerprints }.
@@ -690,9 +685,6 @@ key-man-button-generate-key-continue = Kulcselőállítás &folytatása
 
 failed-decrypt = Hiba – a visszafejtés sikertelen
 fix-broken-exchange-msg-failed = Az üzenet javítása nem sikerült.
-# Variables:
-# $attachment (String) - File name of the signature file.
-attachment-no-match-from-signature = Nem sikerült egyeztetni a(z) „{ $attachment }” aláírási fájlt egy melléklettel
 # Variables:
 # Variables:
 # $attachment (String) - File name of the attachment.
@@ -803,8 +795,3 @@ enig-confirm = OpenPGP megerősítés
 
 dlg-button-retry = Új&ra
 dlg-button-skip = &Kihagyás
-
-## Strings used in enigmailMsgBox.js
-
-enig-alert-title =
-    .title = OpenPGP figyelmeztetés

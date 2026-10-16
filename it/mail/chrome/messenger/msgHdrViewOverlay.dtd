@@ -33,8 +33,6 @@
 <!ENTITY hdrFollowupButton1.tooltip "Rispondi a questo messaggio nel gruppo di discussione">
 <!ENTITY hdrForwardButton1.label "Inoltra">
 <!ENTITY hdrForwardButton1.tooltip "Inoltra questo messaggio">
-<!ENTITY hdrJunkButton1.label "Indesiderata">
-<!ENTITY hdrJunkButton1.tooltip "Segna questo messaggio indesiderato">
 <!ENTITY hdrTrashButton1.label "Elimina">
 <!ENTITY hdrTrashButton1.tooltip "Elimina questo messaggio">
 <!ENTITY hdrViewToolbarShowFull.label "Visualizza icone e testo">

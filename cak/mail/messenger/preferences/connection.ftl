@@ -2,18 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-connection-dns-over-https-url-resolver = Tokisäx Ya'öl
-    .accesskey = l
-# Variables:
-#   $name (String) - Display name or URL for the DNS over HTTPS provider
-connection-dns-over-https-url-item-default =
-    .label = { $name } (K'o wi)
-    .tooltiptext = Takusaj k'o wi URL richin tisol ri DNS pa ruwi' HTTPS
-connection-dns-over-https-url-custom =
-    .label = Ichinan
-    .tooltiptext = Tatz'ib'aj ri URL nawajo' richin nisol DNS chi rij HTTPS
-    .accesskey = I
-connection-dns-over-https-custom-label = Ichinan
 connection-proxy-legend = Tinuk'samajïx ri taq proxi richin yatok pa k'amaya'l
 proxy-type-no =
     .label = Majun proxi
@@ -65,6 +53,3 @@ proxy-password-prompt =
 proxy-remote-dns =
     .label = K'exel DNS toq nawokisaj SOCKS v5
     .accesskey = d
-proxy-enable-doh =
-    .label = Titzij DNS chuwäch HTTPS
-    .accesskey = j

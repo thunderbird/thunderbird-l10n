@@ -95,8 +95,6 @@ policy-SanitizeOnShutdown2 = Xóa dữ liệu điều hướng khi tắt máy.
 policy-SearchEngines = Cấu hình cài đặt công cụ tìm kiếm. Chính sách này chỉ có sẵn trên phiên bản phát hành hỗ trợ mở rộng (ESR).
 policy-SearchSuggestEnabled = Bật hoặc tắt đề xuất tìm kiếm.
 policy-SecurityDevices2 = Thêm hoặc xóa module PKCS #11.
-# For more information, see https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
-policy-SecurityDevices = Cài đặt các mô-đun PKCS #11.
 policy-SSLVersionMax = Đặt phiên bản SSL tối đa.
 policy-SSLVersionMin = Đặt phiên bản SSL tối thiểu.
 policy-SupportMenu = Thêm một mục menu hỗ trợ tùy chỉnh vào menu trợ giúp.

@@ -4,11 +4,3 @@
 
 <!-- extracted from AccountManager.xhtml -->
 <!ENTITY accountManagerTitle.label "Rekeningopstelling">
-<!ENTITY accountActionsButton.label "Rekening-aksies">
-<!ENTITY accountActionsButton.accesskey "R">
-<!ENTITY addMailAccountButton.label "Voeg posrekening by…">
-<!ENTITY addMailAccountButton.accesskey "b">
-<!ENTITY setDefaultButton.label "Stel as verstek">
-<!ENTITY setDefaultButton.accesskey "v">
-<!ENTITY removeButton.label "Verwyder rekening">
-<!ENTITY removeButton.accesskey "V">

@@ -13,8 +13,6 @@
 <!ENTITY undoCmd.accesskey "U">
 <!ENTITY redoCmd.label "重做">
 <!ENTITY redoCmd.accesskey "R">
-<!ENTITY deleteCmd.label "删除">
-<!ENTITY deleteCmd.accesskey "D">
 <!ENTITY customizeCmd.label "定制">
 <!ENTITY customizeCmd.accesskey "t">
 <!ENTITY viewMenu.label "查看">

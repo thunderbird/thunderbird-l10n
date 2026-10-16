@@ -41,14 +41,9 @@ openpgp-cannot-decrypt-because-mdc =
     Seda võidi teel olles muuta, eesmärgiga varastada selle sisu.
     Selle ohu vältimiseks sisu ei kuvata.
 openpgp-cannot-decrypt-because-missing-key = Kirja dekrüptimiseks vajalik salajane võti pole saadaval.
-openpgp-partially-signed =
-    Ainult osa sellest kirjast allkirjastati OpenPGP abil.
-    Kontrollimise nupul vajutamisel peidetakse kaitsmata osad ja kuvatakse digiallkirja olekut.
 openpgp-partially-encrypted =
     Ainult osa sellest kirjast krüptiti OpenPGP abil.
     Juba loetavaid osi sellest kirjast ei krüptitud.
     Dekrüptimise nupul klõpsamisel kuvatakse krüptitud osade sisu.
-openpgp-reminder-partial-display = Meeldetuletus: allolev kiri on ainult osa algsest kirjast.
-openpgp-partial-verify-button = Kontrolli
 openpgp-partial-decrypt-button = Dekrüpti
 openpgp-unexpected-key-for-you = Hoiatus: see kiri sisaldab tundmatud OpenPGP võtit, mis viitab ühele sinu enda e-posti aadressile. Kui see pole üks sinu enda võtmetest, võib see olla katse teisi adressaate petta.

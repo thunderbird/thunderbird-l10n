@@ -9,8 +9,6 @@
 <!ENTITY PrimaryEmail.accesskey "ე">
 <!ENTITY Company.label "დაწესებულება">
 <!ENTITY Company.accesskey "ზ">
-<!ENTITY _PhoneticName.label "სახელი გამოითქმის">
-<!ENTITY _PhoneticName.accesskey "ქ">
 <!ENTITY NickName.label "მეტსახელი">
 <!ENTITY NickName.accesskey "ტ">
 <!ENTITY SecondEmail.label "დამატებითი ელფოსტა">

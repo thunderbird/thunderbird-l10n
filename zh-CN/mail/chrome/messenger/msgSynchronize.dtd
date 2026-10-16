@@ -18,5 +18,3 @@
 <!ENTITY selectButton.label "选择…">
 <!ENTITY selectButton.accesskey "e">
 <!ENTITY MsgSelectDesc.label "选择供脱机工作的邮件夹和新闻组。">
-<!ENTITY MsgSelectInd.label "下载">
-<!ENTITY MsgSelectItems.label "文件夹及新闻组">

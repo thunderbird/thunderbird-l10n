@@ -429,7 +429,6 @@ key-verification = Проверите отисак кључа користећи
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Слање поруке није успело јер постоји проблем са вашим личним кључем. { $problem }
-window-locked = Прозор за састављање је закључан, слање је отказано
 
 ## Strings in keyserver.sys.mjs
 
@@ -463,9 +462,6 @@ converter-decrypt-body-failed =
 ## Strings filters.sys.mjs
 
 filter-folder-required = Морате изабрати одредишну фасциклу.
-filter-decrypt-move-warn-experimental =
-    Упозорење — радња филтера „Трајно дешифруј“ може довести до уништења порука.
-    Препоручујемо да прво испробате филтер „Направи дешифровану копију“, пажљиво проверите резултат и почнете да користите овај филтер тек када будете задовољни резултатом.
 filter-term-pgpencrypted-label = OpenPGP шифровано
 filter-key-required = Морате изабрати кључ примаоца.
 # Variables:
@@ -628,7 +624,6 @@ fail-key-import = Грешка — увоз кључа није успео
 # $output (String) - File that writing was attempted to.
 file-write-failed = Неуспех при упису у датотеку { $output }
 no-pgp-block = Грешка — није пронађен важећи оклопљени OpenPGP блок података
-confirm-permissive-import = Увоз није успео. Кључ који покушавате да увезете је можда оштећен или користи непознате атрибуте. Желите ли да покушате да увезете делове који су исправни? Ово може довести до увоза непотпуних и неупотребљивих кључева.
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = Неки од увезених тајних кључева оглашавају неподржану функцију. Ако користите такав кључ као свој лични кључ, дописници вам могу слати е-поруке или јавне кључеве у некомпатибилном формату. Ово утиче на увезене тајне кључеве са следећим отисцима: { $fingerprints }.
@@ -687,9 +682,6 @@ key-man-button-generate-key-continue = &Настави генерисање кљ
 
 failed-decrypt = Грешка — дешифровање није успело
 fix-broken-exchange-msg-failed = Није могуће поправити ову поруку.
-# Variables:
-# $attachment (String) - File name of the signature file.
-attachment-no-match-from-signature = Није могуће упарити датотеку потписа „{ $attachment }“ са прилогом
 # Variables:
 # Variables:
 # $attachment (String) - File name of the attachment.
@@ -795,8 +787,3 @@ enig-confirm = OpenPGP потврда
 
 dlg-button-retry = &Покушај поново
 dlg-button-skip = &Прескочи
-
-## Strings used in enigmailMsgBox.js
-
-enig-alert-title =
-    .title = OpenPGP упозорење

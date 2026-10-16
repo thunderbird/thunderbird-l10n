@@ -4,10 +4,6 @@
 
 open-preferences-sidebar-button2 = Налады { -brand-short-name }
 open-addons-sidebar-button = Дадаткі і тэмы
-account-action-add-newsgroup-account =
-    .label = Дадаць уліковы запіс групы навін…
-    .accesskey = Д
-account-tree-create-account-button = Стварыць уліковы запіс
 account-tree-add-mail-account =
     .label = Уліковы запіс пошты…
     .accesskey = п

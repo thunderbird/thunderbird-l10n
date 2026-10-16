@@ -6,8 +6,6 @@ about-addressbook-title = Адрестік кітапша
 
 ## Toolbar
 
-about-addressbook-toolbar-new-address-book =
-    .label = Жаңа адрестік кітапша
 about-addressbook-toolbar-add-address-book =
     .label = Жергілікті адрестік кітапшаны қосу
 about-addressbook-toolbar-add-carddav-address-book =
@@ -18,8 +16,6 @@ books-pane-create-contact-button = Жаңа контакт
     .title = Жаңа контактты жасау
 books-pane-add-book-button =
     .title = Адрестік кітапшаны қосу
-books-pane-create-book-button =
-    .title = Жаңа адрестік кітапшаны жасау
 books-pane-create-list-button =
     .title = Жаңа хат тарату тізімін жасау
 books-pane-import-button = Импорттау

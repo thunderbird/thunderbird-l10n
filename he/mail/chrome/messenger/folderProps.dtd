@@ -10,22 +10,6 @@
 <!ENTITY folderRebuildSummaryFile.explanation "לעיתים נפגם קובץ האינדקס של תיקייה (.msf) והודעות עשויות להיעלם או שהודעות שנמחקו תמשכנה להופיע; תיקון התיקייה עשוי לתקן מקרים אלו.">
 <!ENTITY folderIncludeInGlobalSearch.label "כלול הודעות מתיקייה זו בתוצאות החיפוש הגלובליות">
 <!ENTITY folderIncludeInGlobalSearch.accesskey "ג">
-<!ENTITY retention.label "מדיניות שמירה">
-<!ENTITY retentionUseAccount.label "השתמש בהגדרות החשבון">
-<!ENTITY retentionUseAccount.accesskey "ח">
-<!ENTITY daysOld.label "הימים האחרונים">
-<!ENTITY message.label "ההודעות האחרונות">
-<!ENTITY retentionCleanup.label "כדי לשמר שטח דיסק, הודעות ישנות יכולות להימחק לצמיתות">
-<!ENTITY retentionCleanupImap.label "כדי לשמר שטח דיסק, הודעות ישנות יכולות להימחק לצמיתות, גם העותק המקומי וגם המקור על השרת המרוחק.">
-<!ENTITY retentionCleanupPop.label "כדי לשמר שטח דיסק, הודעות ישנות יכולות להימחק לצמיתות, כולל הודעות המקור בשרת המרוחק.">
-<!ENTITY retentionDeleteMsg.label "מחק הודעות בנות יותר מאשר">
-<!ENTITY retentionDeleteMsg.accesskey "י">
-<!ENTITY retentionKeepAll.label "אל תמחק שום הודעה">
-<!ENTITY retentionKeepAll.accesskey "א">
-<!ENTITY retentionKeepRecent.label "מחק הכול חוץ מההודעות האחרונות">
-<!ENTITY retentionKeepRecent.accesskey "מ">
-<!ENTITY retentionApplyToFlagged.label "שמור תמיד הודעות מסומנות בכוכבית">
-<!ENTITY retentionApplyToFlagged.accesskey "ש">
 <!ENTITY folderSynchronizationTab.label "סינכרון">
 <!ENTITY folderCheckForNewMessages2.label "כאשר מקבלים הודעות חדשות לחשבון, בדוק תמיד תיקייה זו">
 <!ENTITY folderCheckForNewMessages2.accesskey "ב">

@@ -10,22 +10,6 @@
 <!ENTITY folderRebuildSummaryFile.explanation "Երբեմն թղթապանակի ինդեքսի ֆայղը (.msf) վնասուում է եւ նամակները կարող են չերեւալ կամ ջնջուել, թղթապանակի վերականգնումը կարող է ուղղել այս սխալը։">
 <!ENTITY folderIncludeInGlobalSearch.label "Ներառել հաղոդագրութիւները այս պանակում ՝ համաշխարհային որոնման արդիւնքների ներքոյ">
 <!ENTITY folderIncludeInGlobalSearch.accesskey "Հ">
-<!ENTITY retention.label "Պահպանման քաղաքականութիւն">
-<!ENTITY retentionUseAccount.label "Աւգտագործել իմ հաշուի կարգաւորումները">
-<!ENTITY retentionUseAccount.accesskey "U">
-<!ENTITY daysOld.label "աւրական">
-<!ENTITY message.label "հաղորդագրութիւններ">
-<!ENTITY retentionCleanup.label "Սկաւառակի տարածքը վերականգնելու համար հին հաղորդագրութիւնները կարող են մշտապէս ջնջուել․">
-<!ENTITY retentionCleanupImap.label "Սկաւառակի տարածքը վերականգնելու համար, հին հաղորդագրութիւնները կարող են մշտապէս ջնջուել, տեղական եւ ինքնատիպ պատճէնները  կը մնան հեռակայ սպասարկիչի նեքոյ․․․">
-<!ENTITY retentionCleanupPop.label "Սկաւառակի տարածքը վերականգնելու համար հին հաղորդագրութիւնները կարող են ընդմիշտ ջնջուել, ներառեալ հեռաւոր սպասարկիչի վրայի բնաւրինակները:">
-<!ENTITY retentionDeleteMsg.label "Ջնջել հաղորդագրութիւնները աւելի քան">
-<!ENTITY retentionDeleteMsg.accesskey "m">
-<!ENTITY retentionKeepAll.label "Չջնջել որեւէ հաղորդագրութիւն">
-<!ENTITY retentionKeepAll.accesskey "A">
-<!ENTITY retentionKeepRecent.label "Ջնջել բոլորը, բացի վերջիններից">
-<!ENTITY retentionKeepRecent.accesskey "l">
-<!ENTITY retentionApplyToFlagged.label "Միշտ պահել աստղանշուած հաղորդագրութիւնները">
-<!ENTITY retentionApplyToFlagged.accesskey "e">
 <!ENTITY folderSynchronizationTab.label "Համաժամեցում">
 <!ENTITY folderCheckForNewMessages2.label "Այս հաշուին նոր հաղորդագրութիւններ ստանալիս միշտ ստուգել այս թղթապանակը">
 <!ENTITY folderCheckForNewMessages2.accesskey "c">

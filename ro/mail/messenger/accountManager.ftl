@@ -5,10 +5,6 @@
 open-preferences-sidebar-button2 = Setări { -brand-short-name }
 open-addons-sidebar-button = Suplimente și teme
 account-tree-add-account-button = Adaugă un cont
-account-action-add-newsgroup-account =
-    .label = Adaugă un cont pentru grupuri de discuții…
-    .accesskey = N
-account-tree-create-account-button = Cont nou
 account-tree-add-mail-account =
     .label = Cont de e-mail…
     .accesskey = M

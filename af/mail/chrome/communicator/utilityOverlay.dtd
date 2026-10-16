@@ -13,8 +13,6 @@
 <!ENTITY undoCmd.accesskey "O">
 <!ENTITY redoCmd.label "Herdoen">
 <!ENTITY redoCmd.accesskey "H">
-<!ENTITY deleteCmd.label "Skrap">
-<!ENTITY deleteCmd.accesskey "S">
 <!ENTITY viewMenu.label "Bekyk">
 <!ENTITY viewMenu.accesskey "B">
 <!ENTITY viewToolbarsMenu.label "Nutsbalke">

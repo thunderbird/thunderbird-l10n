@@ -30,11 +30,6 @@ appmenu-sync-sign-out =
 
 ## Add Account
 
-appmenu-new-account-panel-title =
-    .title = Nytt konto
-appmenu-new-account-panel =
-    .label = Nytt konto
-    .accesskey = N
 appmenu-new-email-account =
     .label = E-post
     .accesskey = E
@@ -58,11 +53,6 @@ appmenu-add-account-panel =
 
 ## New Account / Address Book
 
-appmenu-newab-panel-title =
-    .title = Ny adressbok
-appmenu-newab-panel =
-    .label = Ny adressbok
-    .accesskey = a
 appmenu-new-addressbook =
     .label = Lokal adressbok
     .accesskey = L

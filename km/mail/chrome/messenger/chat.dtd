@@ -23,8 +23,6 @@
 <!ENTITY closeConversationCmd.accesskey "C">
 <!ENTITY aliasCmd.label "Անվանափոխել">
 <!ENTITY aliasCmd.accesskey "R">
-<!ENTITY deleteCmd.label "លុប​ទំនាក់ទំនង​ចេញ​">
-<!ENTITY deleteCmd.accesskey "v">
 <!ENTITY openConversationButton.tooltip "ចាប់ផ្ដើម​ការសន្ទនា">
 <!ENTITY closeConversationButton.tooltip "បិទ​ការសន្ទនា">
 <!ENTITY addBuddyButton.label "បន្ថែម​ទំនាក់ទំនង​">

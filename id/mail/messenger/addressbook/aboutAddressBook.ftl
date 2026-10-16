@@ -6,8 +6,6 @@ about-addressbook-title = Buku Alamat
 
 ## Toolbar
 
-about-addressbook-toolbar-new-address-book =
-    .label = Buku Alamat Baru
 about-addressbook-toolbar-add-address-book =
     .label = Tambah Buku Alamat Baru
 about-addressbook-toolbar-add-carddav-address-book =
@@ -18,8 +16,6 @@ books-pane-create-contact-button = Kontak Baru
     .title = Buat kontak baru
 books-pane-add-book-button =
     .title = Tambahkan buku alamat
-books-pane-create-book-button =
-    .title = Buat buku alamat baru
 books-pane-create-list-button =
     .title = Buat milis baru
 books-pane-import-button = Impor

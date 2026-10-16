@@ -56,14 +56,7 @@ account-hub-email-connect-button = Poveži
 account-hub-result-incoming-legend = Dohodna
 account-hub-result-outgoing-legend = Odhodna
 account-hub-all-servers-legend = Vsi strežniki
-account-hub-incoming-server-legend = Dohodni strežnik
-account-hub-outgoing-server-legend = Odhodni strežnik
-account-hub-result-incoming-server-legend = Dohodni strežnik
-    .title = Dohodni strežnik
-account-hub-result-outgoing-server-legend = Odhodni strežnik
-    .title = Odhodni strežnik
 account-hub-protocol-label = Protokol
-account-hub-hostname-label = Ime gostitelja
 account-hub-result-hostname-label = Ime gostitelja
     .title = Ime gostitelja
 account-hub-result-socket-type-label = Varnost povezave
@@ -94,10 +87,6 @@ account-hub-result-auth-ntlm = NTLM
 account-hub-result-auth-external = Zunanja
 account-hub-result-auth-oauth2 = OAuth2
 account-hub-on-port-label = Vrata
-account-hub-result-authentication-label = Overitev
-    .title = Overitev
-account-hub-port-label = Vrata
-    .title = Za samodejno zaznavo nastavite številko vrat na 0
 account-hub-auto-description = { -brand-short-name } bo poskusil samodejno zaznati vrednosti za neizpolnjena polja.
 account-hub-ssl-label = Varnost povezave
 
@@ -105,8 +94,6 @@ account-hub-ssl-label = Varnost povezave
 
 account-hub-ssl-autodetect-option =
     .label = Zaznaj samodejno
-account-hub-ssl-no-authentication-option =
-    .label = Brez overitve
 account-hub-ssl-cleartext-password-option =
     .label = Običajno geslo
 account-hub-ssl-encrypted-password-option =
@@ -267,7 +254,6 @@ account-hub-email-setup-outgoing = Nastavitve odhodnega strežnika
 account-hub-email-exchange-settings = Nastavitve za Exchange
 account-hub-email-protocol-select-header = Izberite vrsto e-poštnega računa
 account-hub-email-protocol-select-additional-info = Za nastavitev računa so potrebni dodatni podatki.
-account-hub-email-config-found = Izberite vrsto e-poštnega računa
 account-hub-email-enter-password = Vnesite geslo svojega e-poštnega računa
 account-hub-email-sync-accounts = Sinhronizirajte koledarje in imenike
 account-hub-test-configuration = Preizkus
@@ -293,7 +279,6 @@ account-hub-config-success-description-guess = Nastavitve so bile najdene s pres
 account-hub-config-success-description-disk = Nastavitve so bile najdene v { -brand-short-name(sklon: "mestnik") }.
 account-hub-config-success-description-isp = Nastavitve so bile najdene pri ponudniku e-pošte.
 account-hub-config-success-description-read-more = <a data-l10n-name="automated-setup-link">Preberite, kako deluje samodejna nastavitev e-poštnega računa</a>.
-account-hub-config-success = Nastavitve so bile najdene v Mozillini podatkovni zbirki ponudnikov
 account-hub-password-info = Poverilnice bodo shranjene izključno na vašem računalniku
 account-hub-creating-account = Ustvarjanje računa …
 account-hub-sync-accounts-found = { -brand-short-name } je odkril nekaj povezanih storitev
@@ -326,10 +311,8 @@ account-hub-username-error-text = Uporabniško ime je obvezno
 account-hub-manual-config-error-summary = Odpravite naslednje napake:
 account-hub-oauth-pending = Čakanje na pooblastitev v pojavnem oknu za prijavo …
 account-hub-addon-install-button = Namesti
-account-hub-addon-install-needed = { -brand-short-name } sam po sebi tega strežnika ne podpira. Za dostop do e-pošte Exchange <a data-l10n-name="addon-install">namestite dodatek tretjega ponudnika, na primer Owl (plačljiv)</a>.
 account-hub-addon-error = Namestitev dodatka ni uspela. Poskusite znova ali pa se za pomoč obrnite na njegovega avtorja.
 account-hub-select-security-warning = <span data-l10n-name="error-text">Opozorilo: zaznan je bil nezavarovan poštni strežnik.</span> Ta strežnik ne uporablja šifriranja, zato so vaše geslo in podatki izpostavljeni prisluškovalcem. Svetujte skrbniku, naj zavaruje povezavo, ali nadaljujte na lastno odgovornost. <a data-l10n-name="error-link">Za več informacij glejte pogosta vprašanja.</a>
-account-hub-security-warning = <span data-l10n-name="security-warning">Opozorilo: zaznan je bil nezavarovan poštni strežnik.</span> Ta strežnik ne uporablja šifriranja, zato so vaše geslo in podatki izpostavljeni prisluškovalcem. Svetujte skrbniku, naj zavaruje povezavo, ali nadaljujte na lastno odgovornost. <a data-l10n-name="faq-link">Za več informacij glejte pogosta vprašanja.</a>
 account-hub-account-authentication-error = Napaka pri preverjanju pristnosti.
 account-hub-add-address-book = Dodaj imenik
 address-book-sync-existing-icon =
@@ -361,7 +344,6 @@ account-hub-address-book-sync-books-data =
         [few] Na voljo so { $addressBooks } imeniki
        *[other] Na voljo je { $addressBooks } imenikov
     }
-account-hub-fetching-sync-accounts = Odkrivanje imenikov in koledarjev …
 address-book-sync-existing-description = Pridobivanje obstoječih računov …
 account-hub-select-address-book-account = Izberite račun z imeniki
 # $synced (Number) - The number of address books that are synced.

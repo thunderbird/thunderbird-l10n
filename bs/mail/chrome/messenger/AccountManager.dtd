@@ -4,15 +4,3 @@
 
 <!-- extracted from AccountManager.xhtml -->
 <!ENTITY accountManagerTitle.label "Postavke računa">
-<!ENTITY accountActionsButton.label "Radnje računa">
-<!ENTITY accountActionsButton.accesskey "a">
-<!ENTITY addMailAccountButton.label "Dodaj email račun…">
-<!ENTITY addMailAccountButton.accesskey "a">
-<!ENTITY addIMAccountButton.label "Dodaj Chat račun…">
-<!ENTITY addIMAccountButton.accesskey "C">
-<!ENTITY addFeedAccountButton.label "Dodaj feed račun">
-<!ENTITY addFeedAccountButton.accesskey "f">
-<!ENTITY setDefaultButton.label "Postavi kao glavno">
-<!ENTITY setDefaultButton.accesskey "g">
-<!ENTITY removeButton.label "Ukloni račun">
-<!ENTITY removeButton.accesskey "r">

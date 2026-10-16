@@ -151,8 +151,6 @@
 <!ENTITY event.calendar.accesskey "C">
 <!ENTITY event.attendees.label "Attendees:">
 <!ENTITY event.attendees.accesskey "I">
-<!ENTITY event.alldayevent.label "All day Event">
-<!ENTITY event.alldayevent.accesskey "d">
 <!ENTITY event.from.label "ਸ਼ੁਰੂ:">
 <!ENTITY event.from.accesskey "S">
 <!ENTITY task.from.label "ਸ਼ੁਰੂ:">
@@ -233,13 +231,6 @@
 <!ENTITY event.recurrence.monthly.fourth.label "ਚੌਥੇ">
 <!ENTITY event.recurrence.monthly.fifth.label "ਪੰਜਵੇਂ">
 <!ENTITY event.recurrence.monthly.last.label "ਆਖਰੀ">
-<!ENTITY event.recurrence.pattern.monthly.week.1.label "ਐਤਵਾਰ">
-<!ENTITY event.recurrence.pattern.monthly.week.2.label "ਸੋਮਵਾਰ">
-<!ENTITY event.recurrence.pattern.monthly.week.3.label "ਮੰਗਲਵਾਰ">
-<!ENTITY event.recurrence.pattern.monthly.week.4.label "ਬੁੱਧਵਾਰ">
-<!ENTITY event.recurrence.pattern.monthly.week.5.label "ਵੀਰਵਾਰ">
-<!ENTITY event.recurrence.pattern.monthly.week.6.label "ਸ਼ੁੱਕਰਵਾਰ">
-<!ENTITY event.recurrence.pattern.monthly.week.7.label "ਸ਼ਨਿੱਚਰਵਾਰ">
 <!ENTITY event.recurrence.repeat.dayofmonth.label "ਮਹੀਨੇ ਦੇ ਦਿਨ">
 <!ENTITY event.recurrence.repeat.recur.label "ਦਿਨ ਉੱਤੇ ਦੁਹਰਾਅ">
 <!ENTITY event.recurrence.every.label "ਹਰ:">
@@ -252,18 +243,6 @@
      event.recurrence.pattern.yearly.of.label is "of" in
      Edit recurrence window -> Recurrence pattern -> Repeat yearly -->
 <!ENTITY event.recurrence.pattern.yearly.of.label "">
-<!ENTITY event.recurrence.pattern.yearly.month.1.label "ਜਨਵਰੀ">
-<!ENTITY event.recurrence.pattern.yearly.month.2.label "ਫਰਵਰੀ">
-<!ENTITY event.recurrence.pattern.yearly.month.3.label "ਮਾਰਚ">
-<!ENTITY event.recurrence.pattern.yearly.month.4.label "ਅਪਰੈਲ">
-<!ENTITY event.recurrence.pattern.yearly.month.5.label "ਮਈ">
-<!ENTITY event.recurrence.pattern.yearly.month.6.label "ਜੂਨ">
-<!ENTITY event.recurrence.pattern.yearly.month.7.label "ਜੁਲਾਈ">
-<!ENTITY event.recurrence.pattern.yearly.month.8.label "ਅਗਸਤ">
-<!ENTITY event.recurrence.pattern.yearly.month.9.label "ਸਤੰਬਰ">
-<!ENTITY event.recurrence.pattern.yearly.month.10.label "ਅਕਤੂਬਰ">
-<!ENTITY event.recurrence.pattern.yearly.month.11.label "ਨਵੰਬਰ">
-<!ENTITY event.recurrence.pattern.yearly.month.12.label "ਦਸੰਬਰ">
 <!ENTITY event.recurrence.yearly.every.label "ਹਰ">
 <!ENTITY event.recurrence.yearly.first.label "ਪਹਿਲੇ">
 <!ENTITY event.recurrence.yearly.second.label "ਦੂਜੇ">
@@ -271,26 +250,7 @@
 <!ENTITY event.recurrence.yearly.fourth.label "ਚੌਥੇ">
 <!ENTITY event.recurrence.yearly.fifth.label "ਪੰਜਵੇਂ">
 <!ENTITY event.recurrence.yearly.last.label "ਆਖਰੀ">
-<!ENTITY event.recurrence.pattern.yearly.week.1.label "ਐਤਵਾਰ">
-<!ENTITY event.recurrence.pattern.yearly.week.2.label "ਸੋਮਵਾਰ">
-<!ENTITY event.recurrence.pattern.yearly.week.3.label "ਮੰਗਲਵਾਰ">
-<!ENTITY event.recurrence.pattern.yearly.week.4.label "ਬੁੱਧਵਾਰ">
-<!ENTITY event.recurrence.pattern.yearly.week.5.label "ਵੀਰਵਾਰ">
-<!ENTITY event.recurrence.pattern.yearly.week.6.label "ਸ਼ੁੱਕਰਵਾਰ">
-<!ENTITY event.recurrence.pattern.yearly.week.7.label "ਸ਼ਨਿੱਚਰਵਾਰ">
 <!ENTITY event.recurrence.of.label "ਦੇ">
-<!ENTITY event.recurrence.pattern.yearly.month2.1.label "ਜਨਵਰੀ">
-<!ENTITY event.recurrence.pattern.yearly.month2.2.label "ਫਰਵਰੀ">
-<!ENTITY event.recurrence.pattern.yearly.month2.3.label "ਮਾਰਚ">
-<!ENTITY event.recurrence.pattern.yearly.month2.4.label "ਅਪਰੈਲ">
-<!ENTITY event.recurrence.pattern.yearly.month2.5.label "ਮਈ">
-<!ENTITY event.recurrence.pattern.yearly.month2.6.label "ਜੂਨ">
-<!ENTITY event.recurrence.pattern.yearly.month2.7.label "ਜੁਲਾਈ">
-<!ENTITY event.recurrence.pattern.yearly.month2.8.label "ਅਗਸਤ">
-<!ENTITY event.recurrence.pattern.yearly.month2.9.label "ਸਤੰਬਰ">
-<!ENTITY event.recurrence.pattern.yearly.month2.10.label "ਅਕਤੂਬਰ">
-<!ENTITY event.recurrence.pattern.yearly.month2.11.label "ਨਵੰਬਰ">
-<!ENTITY event.recurrence.pattern.yearly.month2.12.label "ਦਸੰਬਰ">
 <!ENTITY event.recurrence.range.label "Range of recurrence">
 <!ENTITY event.recurrence.forever.label "No end date">
 <!ENTITY event.recurrence.repeat.for.label "ਬਣਾਓ">

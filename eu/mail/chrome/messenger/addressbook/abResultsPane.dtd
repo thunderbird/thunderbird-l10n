@@ -9,8 +9,6 @@
 <!ENTITY PrimaryEmail.accesskey "H">
 <!ENTITY Company.label "Erakundea">
 <!ENTITY Company.accesskey "E">
-<!ENTITY _PhoneticName.label "Izen fonetikoa">
-<!ENTITY _PhoneticName.accesskey "f">
 <!ENTITY NickName.label "Goitizena">
 <!ENTITY NickName.accesskey "G">
 <!ENTITY SecondEmail.label "Helbide elektroniko gehigarria">

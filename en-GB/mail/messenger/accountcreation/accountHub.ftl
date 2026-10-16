@@ -56,14 +56,7 @@ account-hub-email-connect-button = Connect
 account-hub-result-incoming-legend = Incoming
 account-hub-result-outgoing-legend = Outgoing
 account-hub-all-servers-legend = All servers
-account-hub-incoming-server-legend = Incoming server
-account-hub-outgoing-server-legend = Outgoing server
-account-hub-result-incoming-server-legend = Incoming server
-    .title = Incoming server
-account-hub-result-outgoing-server-legend = Outgoing server
-    .title = Outgoing server
 account-hub-protocol-label = Protocol
-account-hub-hostname-label = Hostname
 account-hub-result-hostname-label = Hostname
     .title = Hostname
 account-hub-result-socket-type-label = Connection security
@@ -94,10 +87,6 @@ account-hub-result-auth-ntlm = NTLM
 account-hub-result-auth-external = External
 account-hub-result-auth-oauth2 = OAuth2
 account-hub-on-port-label = Port
-account-hub-result-authentication-label = Authentication
-    .title = Authentication
-account-hub-port-label = Port
-    .title = Set the port number to 0 for autodetection
 account-hub-auto-description = { -brand-short-name } will attempt to auto-detect fields that are left blank.
 account-hub-ssl-label = Connection security
 
@@ -105,8 +94,6 @@ account-hub-ssl-label = Connection security
 
 account-hub-ssl-autodetect-option =
     .label = Autodetect
-account-hub-ssl-no-authentication-option =
-    .label = No authentication
 account-hub-ssl-cleartext-password-option =
     .label = Normal password
 account-hub-ssl-encrypted-password-option =
@@ -268,7 +255,6 @@ account-hub-email-exchange-settings = Exchange settings
 account-hub-email-connect-settings = Connect your email settings
 account-hub-email-protocol-select-header = Choose an email account type
 account-hub-email-protocol-select-additional-info = Additional information is required to set up this account.
-account-hub-email-config-found = Choose your email account type
 account-hub-email-enter-password = Enter your email account password
 account-hub-email-sync-accounts = Synchronise your calendars and address books
 account-hub-test-configuration = Test
@@ -295,7 +281,6 @@ account-hub-config-success-description-guess = Configuration found by trying com
 account-hub-config-success-description-disk = Configuration found in { -brand-short-name } installation.
 account-hub-config-success-description-isp = Configuration found at email provider.
 account-hub-config-success-description-read-more = You can <a data-l10n-name="automated-setup-link">read about how automated email setup works.</a>
-account-hub-config-success = Configuration found in Mozilla ISPDB
 account-hub-password-info = Your credentials will only be stored locally on your computer
 account-hub-creating-account = Creating account…
 account-hub-sync-accounts-found = { -brand-short-name } found some connected services
@@ -326,10 +311,8 @@ account-hub-username-error-text = Username is required
 account-hub-manual-config-error-summary = Please resolve the following errors:
 account-hub-oauth-pending = Waiting for authorisation in login popup…
 account-hub-addon-install-button = Install
-account-hub-addon-install-needed = { -brand-short-name } doesn’t natively support this server. To access Exchange email, <a data-l10n-name="addon-install"> install a third-party add-on like Owl (paid).</a>
 account-hub-addon-error = Add-on installation failed. Please try again or contact the add-on author for assistance.
 account-hub-select-security-warning = <span data-l10n-name="error-text">Warning: Insecure mail server detected.</span> This server lacks encryption, exposing your password and data. Contact your administrator to secure the connection or proceed at your own risk. <a data-l10n-name="error-link">See FAQ for more.</a>
-account-hub-security-warning = <span data-l10n-name="security-warning">Warning: Insecure mail server detected.</span> This server lacks encryption, exposing your password and data. Contact your administrator to secure the connection or proceed at your own risk. <a data-l10n-name="faq-link">See FAQ for more.</a>
 account-hub-account-authentication-error = Authentication error.
 account-hub-add-address-book = Add an address book
 address-book-sync-existing-icon =
@@ -359,7 +342,6 @@ account-hub-address-book-sync-books-data =
         [one] 1 address book available
        *[other] { $addressBooks } address books available
     }
-account-hub-fetching-sync-accounts = Discovering address books and calendars…
 address-book-sync-existing-description = Retrieving existing accounts…
 account-hub-select-address-book-account = Select an account with Address books
 # $synced (Number) - The number of address books that are synced.

@@ -3,5 +3,3 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY virtualFolderListTitle.title "Бума(лар) таңдау">
 <!ENTITY virtualFolderDesc.label "Іздеу үшін бумаларды таңдаңыз:">
-<!ENTITY folderName.label "Бума аты">
-<!ENTITY folderSearch.label "Іздеу">

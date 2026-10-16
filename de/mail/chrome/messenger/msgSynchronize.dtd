@@ -18,5 +18,3 @@
 <!ENTITY selectButton.label "Wählen…">
 <!ENTITY selectButton.accesskey "W">
 <!ENTITY MsgSelectDesc.label "Wählen Sie Nachrichten-Ordner und Newsgruppen zum Offline-Lesen.">
-<!ENTITY MsgSelectInd.label "Herunterladen">
-<!ENTITY MsgSelectItems.label "Ordner und Newsgruppen">

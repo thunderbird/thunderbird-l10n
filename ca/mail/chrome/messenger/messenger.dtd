@@ -48,8 +48,6 @@
 <!ENTITY getAllNewMsgCmdPopupMenu.accesskey "T">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.label "Compte actual">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.accesskey "C">
-<!ENTITY getNextNMsgCmd2.label "Recupera els següents missatges dels grups de discussió">
-<!ENTITY getNextNMsgCmd2.accesskey "t">
 <!ENTITY sendUnsentCmd.label "Envia els missatges per enviar">
 <!ENTITY sendUnsentCmd.accesskey "l">
 <!ENTITY subscribeCmd.label "Gestiona les subscripcions…">
@@ -59,8 +57,6 @@
 <!ENTITY renameFolder.label "Reanomena la carpeta…">
 <!ENTITY renameFolder.accesskey "R">
 <!ENTITY renameFolder.key "VK_F2">
-<!ENTITY compactFolders.label "Compacta les carpetes">
-<!ENTITY compactFolders.accesskey "t">
 <!ENTITY emptyTrashCmd.label "Buida la paperera">
 <!ENTITY emptyTrashCmd.accesskey "d">
 <!ENTITY offlineMenu.label "Fora de línia">
@@ -129,10 +125,6 @@
 <!ENTITY allFolders.accesskey "o">
 <!ENTITY unreadFolders.label "Per llegir">
 <!ENTITY unreadFolders.accesskey "g">
-<!ENTITY favoriteFolders.label "Preferides">
-<!ENTITY favoriteFolders.accesskey "f">
-<!ENTITY recentFolders.label "Recents">
-<!ENTITY recentFolders.accesskey "R">
 <!ENTITY compactVersion.label "Visualització compacta">
 <!ENTITY compactVersion.accesskey "V">
 <!-- Sort Menu -->
@@ -154,8 +146,6 @@
 <!ENTITY sortByStatusCmd.accesskey "E">
 <!ENTITY sortByTagsCmd.label "Etiquetes">
 <!ENTITY sortByTagsCmd.accesskey "q">
-<!ENTITY sortByJunkStatusCmd.label "Estat del correu brossa">
-<!ENTITY sortByJunkStatusCmd.accesskey "b">
 <!ENTITY sortBySubjectCmd.label "Assumpte">
 <!ENTITY sortBySubjectCmd.accesskey "u">
 <!ENTITY sortByFromCmd.label "Remitent">
@@ -243,7 +233,6 @@
 <!ENTITY findPrevCmd.key2 "VK_F3">
 <!ENTITY searchMailCmd.label "Cerca els missatges…">
 <!ENTITY searchMailCmd.accesskey "e">
-<!ENTITY searchMailCmd.key "f">
 <!ENTITY glodaSearchCmd.label "Cerca global…">
 <!ENTITY glodaSearchCmd.accesskey "C">
 <!ENTITY searchAddressesCmd.label "Cerca les adreces…">
@@ -334,17 +323,6 @@
 <!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN">
 <!ENTITY createFilter.label "Crea un filtre a partir del missatge…">
 <!ENTITY createFilter.accesskey "a">
-<!ENTITY moveMsgToMenu.label "Mou">
-<!ENTITY moveMsgToMenu.accesskey "u">
-<!ENTITY moveCopyMsgRecentMenu.label "Recent">
-<!ENTITY moveCopyMsgRecentMenu.accesskey "R">
-<!ENTITY copyMessageLocation.label "Copia la ubicació del missatge">
-<!ENTITY copyMessageLocation.accesskey "m">
-<!ENTITY copyMsgToMenu.label "Copia a">
-<!ENTITY copyMsgToMenu.accesskey "C">
-<!ENTITY moveToFolderAgain.label "Torna a moure-ho">
-<!ENTITY moveToFolderAgain.accesskey "T">
-<!ENTITY moveToFolderAgainCmd.key "m">
 <!ENTITY killThreadMenu.label "Ignora la conversa">
 <!ENTITY killThreadMenu.accesskey "g">
 <!ENTITY killThreadMenu.key "k">
@@ -356,16 +334,6 @@
 <!ENTITY watchThreadMenu.key "w">
 <!ENTITY tagMenu.label "Etiqueta">
 <!ENTITY tagMenu.accesskey "q">
-<!ENTITY tagCmd0.key "0">
-<!ENTITY tagCmd1.key "1">
-<!ENTITY tagCmd2.key "2">
-<!ENTITY tagCmd3.key "3">
-<!ENTITY tagCmd4.key "4">
-<!ENTITY tagCmd5.key "5">
-<!ENTITY tagCmd6.key "6">
-<!ENTITY tagCmd7.key "7">
-<!ENTITY tagCmd8.key "8">
-<!ENTITY tagCmd9.key "9">
 <!ENTITY markMenu.label "Marca">
 <!ENTITY markMenu.accesskey "M">
 <!ENTITY toggleReadCmd.key "m">
@@ -385,14 +353,6 @@
 <!ENTITY markStarredCmd.label "Destacat">
 <!ENTITY markStarredCmd.accesskey "s">
 <!ENTITY markStarredCmd.key "S">
-<!ENTITY markAsJunkCmd.label "Que és correu brossa">
-<!ENTITY markAsJunkCmd.accesskey "b">
-<!ENTITY markAsJunkCmd.key "j">
-<!ENTITY markAsNotJunkCmd.label "Que no és correu brossa">
-<!ENTITY markAsNotJunkCmd.accesskey "r">
-<!ENTITY markAsNotJunkCmd.key "j">
-<!ENTITY recalculateJunkScoreCmd.label "Executa els controls del correu brossa">
-<!ENTITY recalculateJunkScoreCmd.accesskey "u">
 <!ENTITY openMessageWindowCmd.label "Obre el missatge">
 <!ENTITY openMessageWindowCmd.accesskey "O">
 <!ENTITY openMessageWindowCmd.key "o">
@@ -441,10 +401,6 @@
 <!ENTITY filtersApplyToSelection.accesskey "s">
 <!ENTITY filtersApplyToMessage.label "Executa els filtres en el missatge">
 <!ENTITY filtersApplyToMessage.accesskey "s">
-<!ENTITY runJunkControls.label "Executa els controls de brossa a la carpeta">
-<!ENTITY runJunkControls.accesskey "u">
-<!ENTITY deleteJunk.label "Suprimeix la brossa de la carpeta">
-<!ENTITY deleteJunk.accesskey "x">
 <!ENTITY importCmd.label "Importa…">
 <!ENTITY importCmd.accesskey "I">
 <!ENTITY exportCmd.label "Exporta…">
@@ -491,7 +447,6 @@
 <!ENTITY printButton.label "Imprimeix">
 <!ENTITY stopButton.label "Atura">
 <!ENTITY throbberItem.title "Indicador d'activitat">
-<!ENTITY junkItem.title "Correu brossa">
 <!ENTITY addressBookButton.label "Llibreta d'adreces">
 <!ENTITY chatButton.label "Xat">
 <!ENTITY glodaSearch.title "Cerca global">
@@ -553,11 +508,6 @@
 <!ENTITY appmenuNewContactCmd.label "Contacte de la llibreta d'adreces…">
 <!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Format de la barra d'eines…">
-<!-- Tags Menu Popup -->
-<!ENTITY addNewTag.label "Afegeix una etiqueta…">
-<!ENTITY addNewTag.accesskey "n">
-<!ENTITY manageTags.label "Gestiona les etiquetes…">
-<!ENTITY manageTags.accesskey "G">
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "Nom">
 <!ENTITY folderUnreadColumn.label "Per llegir">
@@ -580,12 +530,8 @@
 <!ENTITY folderContextRename.accesskey "R">
 <!ENTITY folderContextRemove.label "Suprimeix">
 <!ENTITY folderContextRemove.accesskey "u">
-<!ENTITY folderContextCompact.label "Compacta">
-<!ENTITY folderContextCompact.accesskey "m">
 <!ENTITY folderContextEmptyTrash.label "Buida la paperera">
 <!ENTITY folderContextEmptyTrash.accesskey "d">
-<!ENTITY folderContextEmptyJunk.label "Buida la brossa">
-<!ENTITY folderContextEmptyJunk.accesskey "B">
 <!ENTITY folderContextSendUnsentMessages.label "Envia els missatges per enviar">
 <!ENTITY folderContextSendUnsentMessages.accesskey "v">
 <!ENTITY folderContextUnsubscribe.label "Cancel·la la subscripció">
@@ -628,7 +574,6 @@
 <!ENTITY accountColumn.label "Compte">
 <!ENTITY statusColumn.label "Estat">
 <!ENTITY sizeColumn.label "Mida">
-<!ENTITY junkStatusColumn.label "Estat de correu brossa">
 <!ENTITY unreadColumn.label "Per llegir">
 <!ENTITY totalColumn.label "Total">
 <!ENTITY readColumn.label "Llegit">
@@ -652,7 +597,6 @@
 <!ENTITY accountColumn2.tooltip "Ordena per compte">
 <!ENTITY statusColumn2.tooltip "Ordena per estat">
 <!ENTITY sizeColumn2.tooltip "Ordena per mida">
-<!ENTITY junkStatusColumn2.tooltip "Ordena per estat de correu brossa">
 <!ENTITY unreadColumn2.tooltip "Nombre de missatges per llegir a la conversa">
 <!ENTITY totalColumn2.tooltip "Nombre total de missatges en la conversa">
 <!ENTITY readColumn2.tooltip "Ordena per llegit">
@@ -691,14 +635,6 @@
 <!ENTITY contextReplyAll.accesskey "p">
 <!ENTITY contextReplyList.label "Respon a la llista">
 <!ENTITY contextReplyList.accesskey "l">
-<!ENTITY contextMoveMsgMenu.label "Mou a">
-<!ENTITY contextMoveMsgMenu.accesskey "o">
-<!ENTITY contextMoveCopyMsgRecentMenu.label "Recent">
-<!ENTITY contextMoveCopyMsgRecentMenu.accesskey "R">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.label "Preferits">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.accesskey "P">
-<!ENTITY contextCopyMsgMenu.label "Copia a">
-<!ENTITY contextCopyMsgMenu.accesskey "C">
 <!ENTITY contextKillThreadMenu.label "Ignora la conversa">
 <!ENTITY contextKillSubthreadMenu.accesskey "b">
 <!ENTITY contextKillThreadMenu.accesskey "I">

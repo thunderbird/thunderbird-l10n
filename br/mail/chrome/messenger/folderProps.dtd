@@ -10,22 +10,6 @@
 <!ENTITY folderRebuildSummaryFile.explanation "A-wechoù ar restr menegva an teuliad (.msf) a c'hell bezañ gwallet ha kemennadennoù a ya diwar wel pe kemennadennoù dilamet zo skrammet c'hoazh; dresañ an teuliad a c'hell reizhañ ar c'hudennoù-mañ.">
 <!ENTITY folderIncludeInGlobalSearch.label "Enderc'hel ar c'hemennadennoù eus an teuliad-mañ e-barzh disoc'hoù ar c'hlask hollek">
 <!ENTITY folderIncludeInGlobalSearch.accesskey "n">
-<!ENTITY retention.label "Pennaennoù derc'hel">
-<!ENTITY retentionUseAccount.label "Ober gant arventennoù ma c'hont">
-<!ENTITY retentionUseAccount.accesskey "O">
-<!ENTITY daysOld.label "a zeizioù zo">
-<!ENTITY message.label "kemennadennoù">
-<!ENTITY retentionCleanup.label "Evit adkavout egor kantenn ez eo posupl lemel kuit kemennadennoù kozh da vat">
-<!ENTITY retentionCleanupImap.label "Evit adkavout egor kantenn ez eo posupl diverkañ kemennadennoù kozh da vat, an eiladoù lec'hel hag ar c'hemennadennoù orin war an dafariad.">
-<!ENTITY retentionCleanupPop.label "Evit adkavout egor kantenn ez eo posupl diverkañ kemennadennoù kozh da vat, hag ar c'hemennadennoù orin war an dafariad ivez.">
-<!ENTITY retentionDeleteMsg.label "Dilemel ar c'hemennadennoù koshoc'h eget">
-<!ENTITY retentionDeleteMsg.accesskey "m">
-<!ENTITY retentionKeepAll.label "Chom hep dilemel kemennadennoù">
-<!ENTITY retentionKeepAll.accesskey "a">
-<!ENTITY retentionKeepRecent.label "Dilemel an holl anezho nemet an nevesañ">
-<!ENTITY retentionKeepRecent.accesskey "l">
-<!ENTITY retentionApplyToFlagged.label "Atav mirout ar c’hemennadennoù gant ur steredenn">
-<!ENTITY retentionApplyToFlagged.accesskey "e">
 <!ENTITY folderSynchronizationTab.label "Goubredañ">
 <!ENTITY folderCheckForNewMessages2.label "Atav gwiriañ an teuliad-mañ pa vez degemeret kemennadennoù nevez">
 <!ENTITY folderCheckForNewMessages2.accesskey "A">

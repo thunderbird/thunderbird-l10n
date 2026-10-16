@@ -180,8 +180,6 @@
 <!ENTITY event.calendar.accesskey "K">
 <!ENTITY event.attendees.label "Účastníci:">
 <!ENTITY event.attendees.accesskey "a">
-<!ENTITY event.alldayevent.label "Celodenná udalosť">
-<!ENTITY event.alldayevent.accesskey "e">
 <!ENTITY event.from.label "Začiatok:">
 <!ENTITY event.from.accesskey "Z">
 <!ENTITY task.from.label "Začiatok:">
@@ -262,13 +260,6 @@
 <!ENTITY event.recurrence.monthly.fourth.label "Štvrtý">
 <!ENTITY event.recurrence.monthly.fifth.label "Piaty">
 <!ENTITY event.recurrence.monthly.last.label "Posledný">
-<!ENTITY event.recurrence.pattern.monthly.week.1.label "nedeľa">
-<!ENTITY event.recurrence.pattern.monthly.week.2.label "pondelok">
-<!ENTITY event.recurrence.pattern.monthly.week.3.label "utorok">
-<!ENTITY event.recurrence.pattern.monthly.week.4.label "streda">
-<!ENTITY event.recurrence.pattern.monthly.week.5.label "štvrtok">
-<!ENTITY event.recurrence.pattern.monthly.week.6.label "piatok">
-<!ENTITY event.recurrence.pattern.monthly.week.7.label "sobota">
 <!ENTITY event.recurrence.repeat.dayofmonth.label "Deň v mesiaci">
 <!ENTITY event.recurrence.repeat.recur.label "Tieto dni">
 <!ENTITY event.recurrence.every.label "Každý:">
@@ -281,18 +272,6 @@
      event.recurrence.pattern.yearly.of.label is "of" in
      Edit recurrence window -> Recurrence pattern -> Repeat yearly -->
 <!ENTITY event.recurrence.pattern.yearly.of.label "">
-<!ENTITY event.recurrence.pattern.yearly.month.1.label "január">
-<!ENTITY event.recurrence.pattern.yearly.month.2.label "február">
-<!ENTITY event.recurrence.pattern.yearly.month.3.label "marec">
-<!ENTITY event.recurrence.pattern.yearly.month.4.label "apríl">
-<!ENTITY event.recurrence.pattern.yearly.month.5.label "máj">
-<!ENTITY event.recurrence.pattern.yearly.month.6.label "jún">
-<!ENTITY event.recurrence.pattern.yearly.month.7.label "júl">
-<!ENTITY event.recurrence.pattern.yearly.month.8.label "august">
-<!ENTITY event.recurrence.pattern.yearly.month.9.label "september">
-<!ENTITY event.recurrence.pattern.yearly.month.10.label "október">
-<!ENTITY event.recurrence.pattern.yearly.month.11.label "november">
-<!ENTITY event.recurrence.pattern.yearly.month.12.label "december">
 <!ENTITY event.recurrence.yearly.every.label "Každý">
 <!ENTITY event.recurrence.yearly.first.label "Prvý">
 <!ENTITY event.recurrence.yearly.second.label "Druhý">
@@ -300,27 +279,8 @@
 <!ENTITY event.recurrence.yearly.fourth.label "Štvrtý">
 <!ENTITY event.recurrence.yearly.fifth.label "Piaty">
 <!ENTITY event.recurrence.yearly.last.label "Posledný">
-<!ENTITY event.recurrence.pattern.yearly.week.1.label "nedeľa">
-<!ENTITY event.recurrence.pattern.yearly.week.2.label "pondelok">
-<!ENTITY event.recurrence.pattern.yearly.week.3.label "utorok">
-<!ENTITY event.recurrence.pattern.yearly.week.4.label "streda">
-<!ENTITY event.recurrence.pattern.yearly.week.5.label "štvrtok">
-<!ENTITY event.recurrence.pattern.yearly.week.6.label "piatok">
-<!ENTITY event.recurrence.pattern.yearly.week.7.label "sobota">
 <!ENTITY event.recurrence.pattern.yearly.day.label "deň">
 <!ENTITY event.recurrence.of.label "v mesiaci">
-<!ENTITY event.recurrence.pattern.yearly.month2.1.label "január">
-<!ENTITY event.recurrence.pattern.yearly.month2.2.label "február">
-<!ENTITY event.recurrence.pattern.yearly.month2.3.label "marec">
-<!ENTITY event.recurrence.pattern.yearly.month2.4.label "apríl">
-<!ENTITY event.recurrence.pattern.yearly.month2.5.label "máj">
-<!ENTITY event.recurrence.pattern.yearly.month2.6.label "jún">
-<!ENTITY event.recurrence.pattern.yearly.month2.7.label "júl">
-<!ENTITY event.recurrence.pattern.yearly.month2.8.label "august">
-<!ENTITY event.recurrence.pattern.yearly.month2.9.label "september">
-<!ENTITY event.recurrence.pattern.yearly.month2.10.label "október">
-<!ENTITY event.recurrence.pattern.yearly.month2.11.label "november">
-<!ENTITY event.recurrence.pattern.yearly.month2.12.label "december">
 <!ENTITY event.recurrence.range.label "Rozsah opakovaní">
 <!ENTITY event.recurrence.forever.label "Bez konečného dátumu">
 <!ENTITY event.recurrence.repeat.for.label "Vytvoriť schôdzku">

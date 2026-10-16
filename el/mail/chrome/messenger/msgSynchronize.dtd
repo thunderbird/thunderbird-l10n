@@ -18,5 +18,3 @@
 <!ENTITY selectButton.label "Επιλογή…">
 <!ENTITY selectButton.accesskey "λ">
 <!ENTITY MsgSelectDesc.label "Επιλέξτε τους φακέλους ταχυδρομείων και ομάδων συζητήσεων για χρήση εκτός σύνδεσης.">
-<!ENTITY MsgSelectInd.label "Λήψη">
-<!ENTITY MsgSelectItems.label "Φάκελοι και ομάδες συζητήσεων">

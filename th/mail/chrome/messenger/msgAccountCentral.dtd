@@ -16,5 +16,4 @@
 <!ENTITY advFeaturesSectionHdr.label "คุณลักษณะขั้นสูง">
 <!ENTITY searchMsgsLink.label "ค้นหาข้อความ">
 <!ENTITY filtersLink.label "จัดการตัวกรองข้อความ">
-<!ENTITY junkSettings.label "การตั้งค่าจดหมายขยะ">
 <!ENTITY offlineLink.label "การตั้งค่าออฟไลน์">

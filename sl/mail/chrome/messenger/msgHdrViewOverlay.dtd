@@ -33,8 +33,6 @@
 <!ENTITY hdrFollowupButton1.tooltip "Objavi nadaljevanje v to novičarsko skupino">
 <!ENTITY hdrForwardButton1.label "Posreduj">
 <!ENTITY hdrForwardButton1.tooltip "Posreduj to sporočilo">
-<!ENTITY hdrJunkButton1.label "Neželeno">
-<!ENTITY hdrJunkButton1.tooltip "Označi to sporočilo kot neželeno">
 <!ENTITY hdrTrashButton1.label "Izbriši">
 <!ENTITY hdrTrashButton1.tooltip "Izbriši to sporočilo">
 <!ENTITY hdrViewToolbarShowFull.label "Pokaži ikone in besedilo">

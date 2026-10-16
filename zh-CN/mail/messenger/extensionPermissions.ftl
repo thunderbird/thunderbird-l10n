@@ -17,7 +17,6 @@ webext-perms-description-compose = 在撰写和发送电子邮件时阅读和修
 webext-perms-description-compose-send = 代您发送撰写的电子邮件
 webext-perms-description-compose-save = 将撰写的电子邮件另存为草稿或模板
 webext-perms-description-experiment-access = 此附加组件将拥有对 { -brand-short-name } 和您计算机的无限制完全访问权限。
-webext-perms-description-experiment = 对 { -brand-short-name } 和的您计算机拥有不受限制的完全访问权
 webext-perms-description-messagesImport = 将消息导入 Thunderbird
 webext-perms-description-messagesModify = 阅读并修改向您显示的电子邮件
 webext-perms-description-messagesModifyPermanent = 永久修改您消息的源代码（包括头、正文和附件）

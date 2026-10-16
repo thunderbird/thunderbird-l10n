@@ -23,8 +23,6 @@
 <!ENTITY closeConversationCmd.accesskey "Z">
 <!ENTITY aliasCmd.label "Renomar">
 <!ENTITY aliasCmd.accesskey "R">
-<!ENTITY deleteCmd.label "Desaniciar contautu">
-<!ENTITY deleteCmd.accesskey "D">
 <!ENTITY openConversationButton.tooltip "Aniciar una conversación">
 <!ENTITY closeConversationButton.tooltip "Zarrar conversación">
 <!ENTITY addBuddyButton.label "Amestar contautu">

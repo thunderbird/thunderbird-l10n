@@ -2,12 +2,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-new-account-label = Нов профил
 # Instant messaging account status window for Thunderbird
 accounts-window-title = Състояние на незабавните съобщения
-account-manager-new-account =
-    .label = { new-account-label }
-    .accesskey = Н
 account-manager-close =
     .label = Затваряне
     .accesskey = З
@@ -15,7 +11,6 @@ account-manager-close-command =
     .key = a
 # This title must be short, displayed with a big font size
 account-manager-no-account-title = Няма настроен профил
-account-manager-no-account-description = Изберете { new-account-label } и оставете { -brand-short-name } да ви води в процеса на настройка.
 account-auto-sign-on =
     .label = Вписване при пускане
     .accesskey = В

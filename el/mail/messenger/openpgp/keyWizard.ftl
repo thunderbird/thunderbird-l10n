@@ -129,12 +129,9 @@ openpgp-external-key-title = Εξωτερικό κλειδί GnuPG
 openpgp-external-key-description = Διαμόρφωση εξωτερικού κλειδιού GnuPG με εισαγωγή του ID κλειδιού
 openpgp-external-key-info = Επιπλέον, πρέπει να χρησιμοποιήσετε τη Διαχείριση κλειδιών για την εισαγωγή και αποδοχή του αντίστοιχου δημόσιου κλειδιού.
 openpgp-external-key-warning = <b>Μπορείτε να ρυθμίσετε μόνο ένα εξωτερικό κλειδί GnuPG.</b> Η προηγούμενή σας καταχώριση θα αντικατασταθεί.
-openpgp-save-external-button = Αποθήκευση ID κλειδιού
 openpgp-external-key-label = ID μυστικού κλειδιού:
 openpgp-import-own-key-title = Εισαγάγετε το δημόσιο κλειδί σας
 #   $keyId (String) - The Key ID.
 openpgp-import-own-key-description = Το { -brand-short-name } δεν μπόρεσε να βρει το δημόσιο κλειδί με αναγνωριστικό { $keyId }. Εισαγάγετέ το για να συνεχίσετε.
 #   $keyId (String) - The Key ID.
 openpgp-import-keyid-failed = Δεν ήταν δυνατή η εισαγωγή του δημόσιου κλειδιού { $keyId } από αυτό το αρχείο.
-openpgp-external-key-input =
-    .placeholder = 123456789341298340

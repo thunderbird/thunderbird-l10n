@@ -18,5 +18,3 @@
 <!ENTITY selectButton.label "เลือก…">
 <!ENTITY selectButton.accesskey "ล">
 <!ENTITY MsgSelectDesc.label "เลือกโฟลเดอร์จดหมายและกลุ่มข่าวสำหรับใช้งานออฟไลน์">
-<!ENTITY MsgSelectInd.label "ดาวน์โหลด">
-<!ENTITY MsgSelectItems.label "โฟลเดอร์และกลุ่มข่าว">

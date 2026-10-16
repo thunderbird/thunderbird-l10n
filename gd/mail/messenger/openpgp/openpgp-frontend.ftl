@@ -41,14 +41,9 @@ openpgp-cannot-decrypt-because-mdc =
     Dh’fhaoidte gun deach atharrachadh air an t-slighe ’s cuideigin am beachd an t-susbaint
     aige a ghoid. Chan eil an t-susbaint ga shealltainn gus do dhìon.
 openpgp-cannot-decrypt-because-missing-key = Chan eil an iuchair-rùin air a bheil feum airson an teachdaireachd seo a dhì-chrioptachadh ri làimh.
-openpgp-partially-signed =
-    Cha deach ach cuid dhen teachdaireachd seo a shoidhneadh air dòigh dhigiteach le OpenPGP.
-    Ma bhriogas tu air a’ phutan “Dearbh”, thèid na pìosan gun dìon a chur am falach agus thèid staid an t-soidhnidh dhigitich a shealltainn.
 openpgp-partially-encrypted =
     Cha deach ach cuid dhen teachdaireachd seo a chrioptachadh le OpenPGP.
     Cha deach na pìosan dhen teachdaireachd seo a ghabhas a leughadh ’s a tha gan sealltainn an crioptachadh.
     Ma bhriogas tu air a’ phutan “Dì-chrioptaich” thèid na pìosan crioptaichte a shealltainn.
-openpgp-reminder-partial-display = Cuimhneachan: Chan eil sna chì thu gu h-ìosal ach cuid dhen teachdaireachd thùsail.
-openpgp-partial-verify-button = Dearbh
 openpgp-partial-decrypt-button = Dì-chrioptaich
 openpgp-unexpected-key-for-you = Rabhadh: Tha iuchair OpenPGP neo-aithnichte san teachdaireachd seo sa bheil reifreans air aon dhe na seòlaidhean puist-d agad fhèin. Mur e seo aon dhe na h-iuchraichean agad, dh’fhaoidte gu bheil cuid-eigin airson car a thoirt à co-sgrìobhaichean eile.

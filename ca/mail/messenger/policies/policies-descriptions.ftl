@@ -84,8 +84,6 @@ policy-RequestedLocales = Defineix la llista de llengües sol·licitades per a l
 policy-SanitizeOnShutdown2 = Esborra les dades de navegació en tancar.
 policy-SearchEngines = Configura els paràmetres del motor de cerca. Aquesta política només està disponible en la versió Extended Support Release (ESR).
 policy-SearchSuggestEnabled = Activa o desactiva els suggeriments de cerca.
-# For more information, see https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
-policy-SecurityDevices = Instal·la mòduls PKCS #11.
 policy-SSLVersionMax = Defineix la versió màxima de SSL.
 policy-SSLVersionMin = Defineix la versió mínima de SSL.
 policy-SupportMenu = Afegeix un element de menú d'assistència personalitzat en el menú d'ajuda.

@@ -10,22 +10,6 @@
 <!ENTITY folderRebuildSummaryFile.explanation "Batzutan karpetaren indize-fitxategia (.msf) kaltetu egiten da eta mezuak faltan daudela edo ezabatutako mezuak oraindik erakusten direla eman lezake; karpeta konpontzeak arazo hauek desagerraraz ditzake.">
 <!ENTITY folderIncludeInGlobalSearch.label "Sartu karpeta honetako mezuak bilaketa globalaren emaitzetan">
 <!ENTITY folderIncludeInGlobalSearch.accesskey "g">
-<!ENTITY retention.label "Gordetze-politika">
-<!ENTITY retentionUseAccount.label "Erabili nire kontu-ezarpenak">
-<!ENTITY retentionUseAccount.accesskey "E">
-<!ENTITY daysOld.label "egun zahar">
-<!ENTITY message.label "mezu">
-<!ENTITY retentionCleanup.label "Diskoko lekua berreskuratzeko, mezu zaharrak betirako ezaba daitezke.">
-<!ENTITY retentionCleanupImap.label "Diskoko lekua berreskuratzeko, mezu zaharrak betirako ezaba daitezke, bai kopia lokalak eta baita urruneko zerbitzarian dauden jatorrizkoak ere.">
-<!ENTITY retentionCleanupPop.label "Diskoko lekua berreskuratzeko, mezu zaharrak betirako ezaba daitezke, urruneko zerbitzarian dauden jatorrizkoak barne.">
-<!ENTITY retentionDeleteMsg.label "Ezabatu hau baino mezu zaharragoak">
-<!ENTITY retentionDeleteMsg.accesskey "m">
-<!ENTITY retentionKeepAll.label "Ez ezabatu mezurik">
-<!ENTITY retentionKeepAll.accesskey "a">
-<!ENTITY retentionKeepRecent.label "Ezabatu guztiak azkenak izan ezik">
-<!ENTITY retentionKeepRecent.accesskey "z">
-<!ENTITY retentionApplyToFlagged.label "Mantendu beti mezu izardunak">
-<!ENTITY retentionApplyToFlagged.accesskey "e">
 <!ENTITY folderSynchronizationTab.label "Sinkronizazioa">
 <!ENTITY folderCheckForNewMessages2.label "Kontu honetarako mezu berriak eskuratzean, egiaztatu beti karpeta hau">
 <!ENTITY folderCheckForNewMessages2.accesskey "K">

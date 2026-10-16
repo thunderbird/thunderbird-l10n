@@ -33,8 +33,6 @@
 <!ENTITY hdrFollowupButton1.tooltip "Bu haber grubuna bir devam iletisi gönder">
 <!ENTITY hdrForwardButton1.label "İlet">
 <!ENTITY hdrForwardButton1.tooltip "Bu iletiyi ilet">
-<!ENTITY hdrJunkButton1.label "Gereksiz">
-<!ENTITY hdrJunkButton1.tooltip "Bu iletiyi gereksiz olarak işaretle">
 <!ENTITY hdrTrashButton1.label "Sil">
 <!ENTITY hdrTrashButton1.tooltip "Bu iletiyi sil">
 <!ENTITY hdrViewToolbarShowFull.label "Simgeleri ve metni göster">

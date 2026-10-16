@@ -26,13 +26,3 @@ archive-folder-name-label = Archieven
 inbox-folder-name-label = Postvak IN
 child-folder-name-label = Submap van Postvak IN
 sibling-folder-name-label = Map op gelijk niveau als Postvak IN
-# This should match the default name for the "Archives" folder.
-archive-folder-name =
-    .label = Archieven
-# This should match the default name for the "Inbox" folder.
-inbox-folder-name =
-    .label = Postvak IN
-child-folder-name =
-    .label = Submap van Postvak IN
-sibling-folder-name =
-    .label = Map op gelijk niveau als Postvak IN

@@ -5,9 +5,6 @@
 allday-event = אירוע של כל היום
 recurrent-event =
     .value = אירוע חוזר
-# $locationProperty is the location of the event
-calendar-invitations-location =
-    .value = מיקום: { $locationProperty }
 calendar-invitations-none = ללא
 # Invitations dialog
 calendar-invitations-title = זימונים

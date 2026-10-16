@@ -32,9 +32,4 @@
 <!ENTITY attachVCard.accesskey "v">
 <!ENTITY manageIdentities.label "Urus Identiti…">
 <!ENTITY manageIdentities.accesskey "U">
-<!-- LOCALIZATION NOTE (smtpName.label) : do not translate "SMTP" in below line -->
-<!ENTITY smtpName.label "Pelayan Keluar (SMTP):">
-<!ENTITY smtpName.accesskey "u">
 <!ENTITY smtpDefaultServer.label "Guna Pelayan Piawai">
-<!ENTITY smtpServerEdit.label "Edit pelayan SMTP…">
-<!ENTITY smtpServerEdit.accesskey "P">

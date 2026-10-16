@@ -16,5 +16,4 @@
 <!ENTITY advFeaturesSectionHdr.label "고급 기능">
 <!ENTITY searchMsgsLink.label "메시지 찾기">
 <!ENTITY filtersLink.label "메시지 필터 만들기">
-<!ENTITY junkSettings.label "스팸 메일 설정">
 <!ENTITY offlineLink.label "오프라인 설정">

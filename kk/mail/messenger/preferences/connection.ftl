@@ -2,18 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-connection-dns-over-https-url-resolver = Провайдерді қолдану
-    .accesskey = й
-# Variables:
-#   $name (String) - Display name or URL for the DNS over HTTPS provider
-connection-dns-over-https-url-item-default =
-    .label = { $name } (Бастапқы)
-    .tooltiptext = HTTPS арқылы DNS шешу кезінде бастапқы URL қолдану
-connection-dns-over-https-url-custom =
-    .label = Таңдауыңызша
-    .tooltiptext = HTTPS арқылы DNS шешу үшін өзіңіздің URL-ын енгізіңіз
-    .accesskey = д
-connection-dns-over-https-custom-label = Таңдауыңызша
 connection-dialog-title = Байланыс баптаулары
 disable-extension-button = Кеңейтуді сөндіру
 # Variables:
@@ -106,6 +94,3 @@ proxy-password-prompt =
 proxy-remote-dns =
     .label = SOCKS v5 қолдану кезінде DNS сұранымдарын прокси арқылы жіберу
     .accesskey = д
-proxy-enable-doh =
-    .label = HTTPS арқылы DNS іске қосу
-    .accesskey = е

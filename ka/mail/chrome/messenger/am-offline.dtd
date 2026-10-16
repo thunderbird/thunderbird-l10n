@@ -14,24 +14,10 @@
 <!ENTITY autosyncNotDownload.accesskey "ე">
 <!ENTITY kb.label "კბაიტს">
 <!ENTITY daysOld.label "დღეს">
-<!ENTITY message.label "წერილი">
 <!ENTITY nntpNotDownloadRead.label "წაკითხული წერილები">
 <!ENTITY nntpNotDownloadRead.accesskey "წ">
 <!ENTITY nntpDownloadMsg.label "წერილები, რომელთა ასაკი გადასცდა">
 <!ENTITY nntpDownloadMsg.accesskey "ი">
-<!ENTITY retentionCleanup.label "დისკზე ადგილის გასათავისუფლებლად შეიძლება ძველი წერილების რეგულარულად წაშლა.">
-<!ENTITY retentionCleanupImap.label "დისკზე ადგილის გასათავისუფლებლად შესაძლებელია ძველი გზავნილების შეუქცევადად წაშლა ორივეგან - ადგილობრივად და დაშორებულ სერვერზე.">
-<!ENTITY retentionCleanupPop.label "დისკზე ადგილის გასათავისუფლებლად შესაძლებელია ძველი გზავნილების შეუქცევადად წაშლა ადგილობრივად და დაშორებულ სერვერზეც.">
-<!ENTITY retentionKeepMsg.label "წერილთა წაშლა რომელთა ასაკიც აღემატება">
-<!ENTITY retentionKeepMsg.accesskey "ტ">
-<!ENTITY retentionKeepAll.label "ყველა წერილის შენარჩუნება">
-<!ENTITY retentionKeepAll.accesskey "ყ">
-<!ENTITY retentionKeepRecent.label "ყველას წაშლა უახლესების გარდა">
-<!ENTITY retentionKeepRecent.accesskey "რ">
-<!ENTITY retentionApplyToFlagged.label "ვარსკვლავიანი წერილების ყოველთვის შენარჩუნება">
-<!ENTITY retentionApplyToFlagged.accesskey "ვ">
-<!ENTITY nntpRemoveMsgBody.label "წერილების შიგთავსის წაშლა რომელთა ზომაც აღემატება">
-<!ENTITY nntpRemoveMsgBody.accesskey "შ">
 <!ENTITY offlineSelectNntp.label "სასაუბრო ჯგუფების შერჩევა კავშირგარეშე გამოყენებისთვის…">
 <!ENTITY offlineSelectNntp.accesskey "ჩ">
 <!ENTITY offlineImapAdvancedOffline.label "დამატებით…">

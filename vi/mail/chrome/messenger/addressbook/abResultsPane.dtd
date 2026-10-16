@@ -9,8 +9,6 @@
 <!ENTITY PrimaryEmail.accesskey "E">
 <!ENTITY Company.label "Tổ chức">
 <!ENTITY Company.accesskey "z">
-<!ENTITY _PhoneticName.label "Tên ngữ âm">
-<!ENTITY _PhoneticName.accesskey "o">
 <!ENTITY NickName.label "Biệt danh">
 <!ENTITY NickName.accesskey "i">
 <!ENTITY SecondEmail.label "Email phụ">

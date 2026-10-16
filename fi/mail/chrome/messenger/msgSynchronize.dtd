@@ -18,5 +18,3 @@
 <!ENTITY selectButton.label "Valitse…">
 <!ENTITY selectButton.accesskey "V">
 <!ENTITY MsgSelectDesc.label "Valitse yhteydettömässä tilassa käytettävät postikansiot ja keskusteluryhmät.">
-<!ENTITY MsgSelectInd.label "Nouda">
-<!ENTITY MsgSelectItems.label "Kansiot ja keskusteluryhmät">

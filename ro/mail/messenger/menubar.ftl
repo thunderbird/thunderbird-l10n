@@ -88,12 +88,6 @@ quit-app-shortcut =
 
 ## Mail Toolbar
 
-toolbar-junk-button =
-    .label = Nesolicitate
-    .tooltiptext = Marchează mesajele selectate ca nesolicitate
-toolbar-not-junk-button =
-    .label = Nu sunt nesolicitate
-    .tooltiptext = Marchează mesajele selectate ca nefiind nesolicitate
 toolbar-delete-button =
     .label = Șterge
     .tooltiptext = Șterge mesajele selectate sau dosarul

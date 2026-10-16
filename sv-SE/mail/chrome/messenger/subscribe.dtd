@@ -3,10 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY subscribeDialog.title "Prenumerera">
-<!ENTITY subscribeButton.label "Prenumerera">
-<!ENTITY subscribeButton.accesskey "P">
-<!ENTITY unsubscribeButton.label "Avsluta prenumeration">
-<!ENTITY unsubscribeButton.accesskey "A">
 <!ENTITY newGroupsTab.label "Ny grupp">
 <!ENTITY newGroupsTab.accesskey "N">
 <!ENTITY refreshButton.label "Uppdatera">

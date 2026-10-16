@@ -16,5 +16,4 @@
 <!ENTITY advFeaturesSectionHdr.label "Pokročilé funkcie">
 <!ENTITY searchMsgsLink.label "Vyhľadávanie v správach">
 <!ENTITY filtersLink.label "Správa filtrov správ">
-<!ENTITY junkSettings.label "Nastavenia rozpoznávania nevyžiadanej pošty">
 <!ENTITY offlineLink.label "Nastavenia režimu offline">

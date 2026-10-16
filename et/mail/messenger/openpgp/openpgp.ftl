@@ -355,7 +355,6 @@ key-verification = Kontrolli võtme sõrmejälge, kasutades muud turvalist sidek
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Kirja saatmine pole võimalik, sest esineb probleem sinu isikliku võtmega. { $problem }
-window-locked = Koostamise aken on lukus, saatmine katkestati
 
 ## Strings in keyserver.sys.mjs
 
@@ -389,9 +388,6 @@ converter-decrypt-body-failed =
 ## Strings filters.sys.mjs
 
 filter-folder-required = Sa pead valima sihtkausta.
-filter-decrypt-move-warn-experimental =
-    Hoiatus - filtri tegevus "Dekrüpti jäädavalt" võib viia kirjade hävitamiseni.
-    Me soovitame tungivalt, et proovid kõigepealt filtrit "Loo dekrüptitud koopia", testid seda põhjalikult ja ainult siis alustad selle filtri kasutamist, kui oled tulemustega rahul.
 filter-term-pgpencrypted-label = OpenPGPga krüptitud
 filter-key-required = Sa pead valima saaja võtme.
 # Variables:
@@ -552,7 +548,6 @@ fail-key-import = Viga - võtme importimine ebaõnnestus
 # $output (String) - File that writing was attempted to.
 file-write-failed = Faili { $output } kirjutamine ebaõnnestus
 no-pgp-block = Viga - kehtivat soomustatud OpenPGP andmete plokki ei leitud
-confirm-permissive-import = Importimine ebaõnnestus. Imporditav võti võib olla rikutud või kasutab tundmatuid atribuute. Kas soovid proovida importida korrektsed osad? See võib kaasa tuua mittetäielike ja kasutuskõlbmatute võtmete importimise.
 help-button = Abi
 
 ## Strings used in trust.sys.mjs
@@ -597,9 +592,6 @@ key-man-button-generate-key-continue = &Jätka võtme genereerimist
 
 failed-decrypt = Viga - dekrüptimine ebaõnnestus
 fix-broken-exchange-msg-failed = Seda kirja pole võimalik parandada.
-# Variables:
-# $attachment (String) - File name of the signature file.
-attachment-no-match-from-signature = Allkirjafaili ‘{ $attachment }’ polnud võimalik manusega sobitada
 # Variables:
 # Variables:
 # $attachment (String) - File name of the attachment.
@@ -705,8 +697,3 @@ enig-confirm = OpenPGP kinnitus
 
 dlg-button-retry = &Proovi uuesti
 dlg-button-skip = &Jäta vahele
-
-## Strings used in enigmailMsgBox.js
-
-enig-alert-title =
-    .title = OpenPGP hoiatus

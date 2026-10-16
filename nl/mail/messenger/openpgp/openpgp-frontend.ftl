@@ -43,14 +43,9 @@ openpgp-cannot-decrypt-because-mdc =
     Het kan tijdens de overdracht zijn gewijzigd met de bedoeling de inhoud te stelen.
     Om dit risico te voorkomen, wordt de inhoud niet weergegeven.
 openpgp-cannot-decrypt-because-missing-key = De geheime sleutel die nodig is om dit bericht te ontsleutelen, is niet beschikbaar.
-openpgp-partially-signed =
-    Slechts een deel van dit bericht is digitaal ondertekend met OpenPGP.
-    Als u op de verificatieknop klikt, worden de onbeschermde delen verborgen en wordt de status van de digitale ondertekening weergegeven.
 openpgp-partially-encrypted =
     Slechts een deel van dit bericht is versleuteld met OpenPGP.
     De leesbare delen van het bericht die al worden weergegeven, zijn niet versleuteld.
     Als u op de ontsleutelingsknop klikt, wordt de inhoud van de versleutelde delen weergegeven.
-openpgp-reminder-partial-display = Herinnering: het onderstaande bericht is slechts een deel van het oorspronkelijke bericht.
-openpgp-partial-verify-button = Verifiëren
 openpgp-partial-decrypt-button = Ontsleutelen
 openpgp-unexpected-key-for-you = Waarschuwing: dit bericht bevat een onbekende OpenPGP-sleutel die verwijst naar een van uw eigen e-mailadressen. Als dit niet een van uw eigen sleutels is, kan het een poging zijn om andere correspondenten te misleiden.

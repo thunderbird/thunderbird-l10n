@@ -39,13 +39,8 @@ openpgp-cannot-decrypt-because-mdc =
     Tas varētu būt izmainīts pārsūtīšanas laikā ar nodomu nozagt tā saturu.
     Lai novērstu šo apdraudējumu, saturs netiek rādīts.
 openpgp-cannot-decrypt-because-missing-key = Šīs vēstules atšifrēšanai nepieciešamā privātā atslēga nav pieejama.
-openpgp-partially-signed =
-    Tikai daļa no šī ziņojuma tika cipariski parakstīta ar OpenPGP.
-    Pēc noklikšķināšanas uz pārbaudīšanas pogas neaizsargātās daļas tiks paslēptas, un tiks parādīts ciparu paraksta stāvoklis.
 openpgp-partially-encrypted =
     Izmantojot OpenPGP, ir digitāli parakstīta tikai daļa no šīs vēstules.
     Vēstules daļas kas jau ir parādītas un ir lasāmas nav šifrētas.
     Klikšķinot uz atšifrēšanas pogas, tiks parādīts šifrētās daļas saturs.
-openpgp-reminder-partial-display = Atgādinājums: zemāk redzamais ziņojums ir tikai daļa no kopējās vēstules.
-openpgp-partial-verify-button = Pārbaudīt
 openpgp-partial-decrypt-button = Atšifrēt

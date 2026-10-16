@@ -16,5 +16,4 @@
 <!ENTITY advFeaturesSectionHdr.label "Дополнительные свойства">
 <!ENTITY searchMsgsLink.label "Поиск сообщений…">
 <!ENTITY filtersLink.label "Создать фильтры сообщений">
-<!ENTITY junkSettings.label "Параметры анти-спам фильтров">
 <!ENTITY offlineLink.label "Параметры автономной работы">

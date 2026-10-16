@@ -23,8 +23,6 @@
 <!ENTITY closeConversationCmd.accesskey "I">
 <!ENTITY aliasCmd.label "Aldatu izena">
 <!ENTITY aliasCmd.accesskey "i">
-<!ENTITY deleteCmd.label "Kendu kontaktua">
-<!ENTITY deleteCmd.accesskey "d">
 <!ENTITY openConversationButton.tooltip "Hasi berriketa">
 <!ENTITY closeConversationButton.tooltip "Itxi berriketa">
 <!ENTITY addBuddyButton.label "Gehitu kontaktua">

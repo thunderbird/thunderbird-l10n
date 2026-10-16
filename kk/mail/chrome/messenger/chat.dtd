@@ -23,8 +23,6 @@
 <!ENTITY closeConversationCmd.accesskey "ж">
 <!ENTITY aliasCmd.label "Атын ауыстыру">
 <!ENTITY aliasCmd.accesskey "А">
-<!ENTITY deleteCmd.label "Контактты өшіру">
-<!ENTITY deleteCmd.accesskey "ш">
 <!ENTITY openConversationButton.tooltip "Сөйлесуді бастау">
 <!ENTITY closeConversationButton.tooltip "Сөйлесуді жабу">
 <!ENTITY addBuddyButton.label "Контактты қосу">

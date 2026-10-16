@@ -432,7 +432,6 @@ key-verification = Kontrolearje de fingerôfdruk fan de kaai fia in oar befeilig
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Kin it berjocht net ferstjoere, omdat der in probleem is mei jo persoanlike kaai. { $problem }
-window-locked = It opstelfinster is beskoattele; ferstjoeren annulearre
 
 ## Strings in keyserver.sys.mjs
 
@@ -466,9 +465,6 @@ converter-decrypt-body-failed =
 ## Strings filters.sys.mjs
 
 filter-folder-required = Jo moatte in doelmap selektearje.
-filter-decrypt-move-warn-experimental =
-    Warskôging – de filteraksje ‘Permanint ûntsiferje’ kin liede ta ferneatigjende berjochten.
-    Wy riede jo bot oan om earst it filter ‘Untsifere kopy meitsje’ te probearjen, it resultaat soarchfuldich te testen en dit filter pas te brûken as jo tefreden binne mei it resultaat.
 filter-term-pgpencrypted-label = OpenPGP-fersifere
 filter-key-required = Jo moatte in ûntfangerskaai selektearje.
 # Variables:
@@ -631,7 +627,6 @@ fail-key-import = Flater – ymportearjen fan kaai mislearre
 # $output (String) - File that writing was attempted to.
 file-write-failed = Kin net nei bestân { $output } skriuwe
 no-pgp-block = Flater – gjin jildich armored OpenPGP-gegevensblok fûn
-confirm-permissive-import = Ymportearjen mislearre. De kaai dy’t jo probearje te ymportearjen, is mooglik skansearre of brûkt ûnbekende attributen. Wolle jo probearje de krekte dielen te ymportearjen? Dit kin der ta liede dat net folslein en net brûkbere kaaien ymportearre wurde.
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = Guon ymportearre geheime kaaien jouwe in net-stipe funksje oan. As jo sa’n kaai brûke as jo persoanlike kaai, kinne kontakten jo e-mailberjochten of iepenbiere kaaien yn in ynkompatibele opmaak stjoere. Dit hat ynfloed op ymportearre geheime kaaien mei de folgjende fingerprints: { $fingerprints }.
@@ -690,9 +685,6 @@ key-man-button-generate-key-continue = Kaaioanmaak &trochsette
 
 failed-decrypt = Flater - ûntsiferjen mislearre
 fix-broken-exchange-msg-failed = Koe berjocht net reparearje.
-# Variables:
-# $attachment (String) - File name of the signature file.
-attachment-no-match-from-signature = Kin hantekeningbestân ‘{ $attachment }’ net keppelje oan in bylage
 # Variables:
 # Variables:
 # $attachment (String) - File name of the attachment.
@@ -803,8 +795,3 @@ enig-confirm = OpenPGP-befêstiging
 
 dlg-button-retry = &Opnij probearje
 dlg-button-skip = Oer&slaan
-
-## Strings used in enigmailMsgBox.js
-
-enig-alert-title =
-    .title = OpenPGP-warskôging

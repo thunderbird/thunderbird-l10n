@@ -15,7 +15,6 @@ webext-perms-description-accountsRead = Տեսնել Ձեր ելեկտրոնայ
 webext-perms-description-addressBooks = Կարդացէք եւ փոփոխէք Ձեր հասցէի գրքերը եւ կապորդները
 webext-perms-description-compose = Կարդացէք եւ փոփոխէք Ձեր եղեկտրոնային հասցէի հաղորդագրութիւնները, երբ կազմէք եւ ուղարկէք դրանք
 webext-perms-description-compose-send = Ուղարկէք Ձեր անունից կազմուած եղեկտրոնային հասցէի հաղորդագրութիւններ
-webext-perms-description-experiment = Ամբողջական, անարգել հասանելիութիւն ունենալ { -brand-short-name } ֊ին եւ Ձեր համակարգչին
 webext-perms-description-messagesModify = Կարդացէք եւ փոփոխէք ձեր եղեկտրոնային հասցէի հաղորդագրութիւնները, երբ դրանք ցուցադրուում էն Ձեզ
 webext-perms-description-messagesMove = Պատճէնէք կամ տեղափոխէք Ձեր եղեկտրոնային հասցէի հաղորդագրութիւնները (ներառեալ դրանք աղբարկղ տեղափոխելը)
 webext-perms-description-messagesDelete = Ընդմիշտ ջնջել եղեկտրոնային հասցէի հաղորդագրութիւնները

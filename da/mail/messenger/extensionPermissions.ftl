@@ -17,7 +17,6 @@ webext-perms-description-compose = Læse og redigere dine mails, mens du skriver
 webext-perms-description-compose-send = Sende mails på dine vegne
 webext-perms-description-compose-save = Gemme oprettede mails som kladder eller skabeloner
 webext-perms-description-experiment-access = Denne tilføjelse vil have fuld, ubegrænset adgang til { -brand-short-name } og din computer.
-webext-perms-description-experiment = Få fuld, uhindret adgang til { -brand-short-name } og din computer
 webext-perms-description-messagesImport = Importere meddelelser til Thunderbird
 webext-perms-description-messagesModify = Læse og tilpasse dine mails, når de vises for dig
 webext-perms-description-messagesModifyPermanent = Lave permanente ændringer i kilden til dine meddelelser (herunder meddelelseshoveder, meddelelsesindhold og vedhæftede filer)

@@ -33,8 +33,6 @@
 <!ENTITY hdrFollowupButton1.tooltip "Freagair am buidheann-naidheachd seo">
 <!ENTITY hdrForwardButton1.label "Sìn air adhart">
 <!ENTITY hdrForwardButton1.tooltip "Sìn an teachdaireachd air adhart gu">
-<!ENTITY hdrJunkButton1.label "Truilleis">
-<!ENTITY hdrJunkButton1.tooltip "Cuir comharra truilleis ris an teachdaireachd seo">
 <!ENTITY hdrTrashButton1.label "Sguab às">
 <!ENTITY hdrTrashButton1.tooltip "Sguab às an teachdaireachd seo">
 <!ENTITY hdrViewToolbarShowFull.label "seall ìomhaigheagan is teacsa">

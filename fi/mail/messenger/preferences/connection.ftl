@@ -2,18 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-connection-dns-over-https-url-resolver = Käytä palveluntarjoajaa
-    .accesskey = K
-# Variables:
-#   $name (String) - Display name or URL for the DNS over HTTPS provider
-connection-dns-over-https-url-item-default =
-    .label = { $name } (oletus)
-    .tooltiptext = Käytä oletusosoitetta nimipalvelukyselyjen tekemiseksi HTTPS:n yli
-connection-dns-over-https-url-custom =
-    .label = Mukautettu
-    .tooltiptext = Kirjoita ensisijainen osoite nimipalvelukyselyjen tekemiseksi HTTPS:n yli
-    .accesskey = M
-connection-dns-over-https-custom-label = Mukautettu
 connection-dialog-title = Yhteysasetukset
 disable-extension-button = Poista laajennus käytöstä
 # Variables:
@@ -81,6 +69,3 @@ proxy-password-prompt =
 proxy-remote-dns =
     .label = Välipalvelimen DNS käytettäessä SOCKS v5:tä
     .accesskey = D
-proxy-enable-doh =
-    .label = Käytä DNS:ää HTTPS:n välityksellä
-    .accesskey = H

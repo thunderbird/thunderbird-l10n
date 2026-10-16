@@ -33,8 +33,6 @@
 <!ENTITY hdrFollowupButton1.tooltip "Titalüx rutzijol jun tzolin tzij pa re kimolaj tzijol re'">
 <!ENTITY hdrForwardButton1.label "Titaq chik">
 <!ENTITY hdrForwardButton1.tooltip "Titaq chik re rutzijol re'">
-<!ENTITY hdrJunkButton1.label "Seq'">
-<!ENTITY hdrJunkButton1.tooltip "Tiya' ketal re taq rutzijol re' achi'el seq'">
 <!ENTITY hdrTrashButton1.label "Tiyuj">
 <!ENTITY hdrTrashButton1.tooltip "Tiyuj re rutzijol re'">
 <!ENTITY hdrViewToolbarShowFull.label "Kek'ut taq Wachib'äl chuqa' Rucholajem Tzij">

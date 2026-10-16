@@ -716,16 +716,6 @@ hide-calendar-name =
 show-only-calendar-name =
     .label = მხოლოდ { $name }-ის ჩვენება
     .accesskey = მ
-# $name calendar name
-show-calendar-label =
-    .label = { $name }-ის გამოჩენა
-# $name calendar name
-hide-calendar-label =
-    .label = { $name }-ის დამალვა
-# uses the access key calendar.context.showonly.accesskey
-# $name calendar name
-show-only-calendar =
-    .label = მხოლოდ { $name }-ის ჩვენება
 # LOCALIZATION NOTE (modify-conflict-*)
 # Used by the event dialog to resolve item modification conflicts.
 modify-conflict-prompt-title = წინააღმდეგობრიობა ერთეულის ცვლილებისას

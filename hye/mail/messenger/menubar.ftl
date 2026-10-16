@@ -26,12 +26,6 @@ menu-help-exit-troubleshoot-mode =
 
 ## Mail Toolbar
 
-toolbar-junk-button =
-    .label = Թափաւն
-    .tooltiptext = Նշել ընտրուած հաղորդագրութիւնները որպէս թափաւն
-toolbar-not-junk-button =
-    .label = Պիտանի
-    .tooltiptext = Նշել ընտրուած հաղորդագրութիւնները որպէս պիտանի
 toolbar-delete-button =
     .label = Ջնջել
     .tooltiptext = Ջնջել ընտրուած հաղորդագրութիւնները կամ պանակը

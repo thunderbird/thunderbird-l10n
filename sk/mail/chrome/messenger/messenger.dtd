@@ -48,8 +48,6 @@
 <!ENTITY getAllNewMsgCmdPopupMenu.accesskey "V">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.label "Aktuálny účet">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.accesskey "A">
-<!ENTITY getNextNMsgCmd2.label "Prijať nové spravodajské informácie">
-<!ENTITY getNextNMsgCmd2.accesskey "d">
 <!ENTITY sendUnsentCmd.label "Odoslať neodoslané správy">
 <!ENTITY sendUnsentCmd.accesskey "l">
 <!ENTITY subscribeCmd.label "Prihlásiť k odberu…">
@@ -59,8 +57,6 @@
 <!ENTITY renameFolder.label "Premenovať priečinok…">
 <!ENTITY renameFolder.accesskey "r">
 <!ENTITY renameFolder.key "VK_F2">
-<!ENTITY compactFolders.label "Vykonať údržbu priečinkov">
-<!ENTITY compactFolders.accesskey "V">
 <!ENTITY emptyTrashCmd.label "Vyprázdniť kôš">
 <!ENTITY emptyTrashCmd.accesskey "i">
 <!ENTITY offlineMenu.label "Režim offline">
@@ -129,10 +125,6 @@
 <!ENTITY allFolders.accesskey "V">
 <!ENTITY unreadFolders.label "Neprečítané">
 <!ENTITY unreadFolders.accesskey "e">
-<!ENTITY favoriteFolders.label "Obľúbené">
-<!ENTITY favoriteFolders.accesskey "O">
-<!ENTITY recentFolders.label "Najnovšie">
-<!ENTITY recentFolders.accesskey "N">
 <!ENTITY compactVersion.label "Kompaktné zobrazenie">
 <!ENTITY compactVersion.accesskey "K">
 <!-- Sort Menu -->
@@ -154,8 +146,6 @@
 <!ENTITY sortByStatusCmd.accesskey "v">
 <!ENTITY sortByTagsCmd.label "Štítky">
 <!ENTITY sortByTagsCmd.accesskey "t">
-<!ENTITY sortByJunkStatusCmd.label "Stav nevyžiadanej pošty">
-<!ENTITY sortByJunkStatusCmd.accesskey "n">
 <!ENTITY sortBySubjectCmd.label "Predmet">
 <!ENTITY sortBySubjectCmd.accesskey "m">
 <!ENTITY sortByFromCmd.label "Od">
@@ -243,7 +233,6 @@
 <!ENTITY findPrevCmd.key2 "VK_F3">
 <!ENTITY searchMailCmd.label "Hľadať v správach…">
 <!ENTITY searchMailCmd.accesskey "s">
-<!ENTITY searchMailCmd.key "f">
 <!ENTITY glodaSearchCmd.label "Globálne vyhľadávanie…">
 <!ENTITY glodaSearchCmd.accesskey "G">
 <!ENTITY searchAddressesCmd.label "Hľadať adresy…">
@@ -334,17 +323,6 @@
 <!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN">
 <!ENTITY createFilter.label "Vytvoriť filter zo správy…">
 <!ENTITY createFilter.accesskey "f">
-<!ENTITY moveMsgToMenu.label "Presunúť do">
-<!ENTITY moveMsgToMenu.accesskey "r">
-<!ENTITY moveCopyMsgRecentMenu.label "Nedávno použité">
-<!ENTITY moveCopyMsgRecentMenu.accesskey "N">
-<!ENTITY copyMessageLocation.label "Kopírovať adresu správy">
-<!ENTITY copyMessageLocation.accesskey "s">
-<!ENTITY copyMsgToMenu.label "Skopírovať do">
-<!ENTITY copyMsgToMenu.accesskey "k">
-<!ENTITY moveToFolderAgain.label "Znova presunúť">
-<!ENTITY moveToFolderAgain.accesskey "e">
-<!ENTITY moveToFolderAgainCmd.key "m">
 <!ENTITY killThreadMenu.label "Ignorovať vlákno">
 <!ENTITY killThreadMenu.accesskey "I">
 <!ENTITY killThreadMenu.key "k">
@@ -356,16 +334,6 @@
 <!ENTITY watchThreadMenu.key "w">
 <!ENTITY tagMenu.label "Štítky">
 <!ENTITY tagMenu.accesskey "t">
-<!ENTITY tagCmd0.key "0">
-<!ENTITY tagCmd1.key "1">
-<!ENTITY tagCmd2.key "2">
-<!ENTITY tagCmd3.key "3">
-<!ENTITY tagCmd4.key "4">
-<!ENTITY tagCmd5.key "5">
-<!ENTITY tagCmd6.key "6">
-<!ENTITY tagCmd7.key "7">
-<!ENTITY tagCmd8.key "8">
-<!ENTITY tagCmd9.key "9">
 <!ENTITY markMenu.label "Označiť">
 <!ENTITY markMenu.accesskey "z">
 <!ENTITY toggleReadCmd.key "m">
@@ -385,14 +353,6 @@
 <!ENTITY markStarredCmd.label "Pridať hviezdičku">
 <!ENTITY markStarredCmd.accesskey "h">
 <!ENTITY markStarredCmd.key "S">
-<!ENTITY markAsJunkCmd.label "Správa je nevyžiadaná">
-<!ENTITY markAsJunkCmd.accesskey "r">
-<!ENTITY markAsJunkCmd.key "j">
-<!ENTITY markAsNotJunkCmd.label "Správa nie je nevyžiadaná">
-<!ENTITY markAsNotJunkCmd.accesskey "n">
-<!ENTITY markAsNotJunkCmd.key "j">
-<!ENTITY recalculateJunkScoreCmd.label "Spustiť rozpoznávanie nevyžiadanej pošty">
-<!ENTITY recalculateJunkScoreCmd.accesskey "u">
 <!ENTITY openMessageWindowCmd.label "Otvoriť správu">
 <!ENTITY openMessageWindowCmd.accesskey "t">
 <!ENTITY openMessageWindowCmd.key "o">
@@ -441,10 +401,6 @@
 <!ENTITY filtersApplyToSelection.accesskey "t">
 <!ENTITY filtersApplyToMessage.label "Spustiť filtre na správu">
 <!ENTITY filtersApplyToMessage.accesskey "t">
-<!ENTITY runJunkControls.label "Spustiť rozpoznávanie nevyžiadanej pošty pre tento priečinok">
-<!ENTITY runJunkControls.accesskey "u">
-<!ENTITY deleteJunk.label "Odstrániť z priečinka správy označené ako nevyžiadané">
-<!ENTITY deleteJunk.accesskey "O">
 <!ENTITY importCmd.label "Importovať…">
 <!ENTITY importCmd.accesskey "r">
 <!ENTITY exportCmd.label "Exportovať…">
@@ -491,7 +447,6 @@
 <!ENTITY printButton.label "Tlačiť">
 <!ENTITY stopButton.label "Zastaviť">
 <!ENTITY throbberItem.title "Indikátor činnosti">
-<!ENTITY junkItem.title "Nevyžiadaná">
 <!ENTITY addressBookButton.label "Adresár">
 <!ENTITY chatButton.label "Konverzácie">
 <!ENTITY glodaSearch.title "Globálne vyhľadávanie">
@@ -553,11 +508,6 @@
 <!ENTITY appmenuNewContactCmd.label "Kontakt adresára…">
 <!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Rozloženie panela nástrojov…">
-<!-- Tags Menu Popup -->
-<!ENTITY addNewTag.label "Nový štítok…">
-<!ENTITY addNewTag.accesskey "N">
-<!ENTITY manageTags.label "Spravovať štítky…">
-<!ENTITY manageTags.accesskey "S">
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "Názov">
 <!ENTITY folderUnreadColumn.label "Neprečítané">
@@ -580,12 +530,8 @@
 <!ENTITY folderContextRename.accesskey "r">
 <!ENTITY folderContextRemove.label "Odstrániť">
 <!ENTITY folderContextRemove.accesskey "d">
-<!ENTITY folderContextCompact.label "Vykonať údržbu tohto priečinka">
-<!ENTITY folderContextCompact.accesskey "V">
 <!ENTITY folderContextEmptyTrash.label "Vyprázdniť kôš">
 <!ENTITY folderContextEmptyTrash.accesskey "k">
-<!ENTITY folderContextEmptyJunk.label "Vyprázdniť priečinok Nevyžiadaná pošta">
-<!ENTITY folderContextEmptyJunk.accesskey "N">
 <!ENTITY folderContextSendUnsentMessages.label "Odoslať všetky neodoslané správy…">
 <!ENTITY folderContextSendUnsentMessages.accesskey "e">
 <!ENTITY folderContextUnsubscribe.label "Odhlásiť sa z diskusnej skupiny…">
@@ -628,7 +574,6 @@
 <!ENTITY accountColumn.label "Účet">
 <!ENTITY statusColumn.label "Stav">
 <!ENTITY sizeColumn.label "Veľkosť">
-<!ENTITY junkStatusColumn.label "Stav nevyžiadanej pošty">
 <!ENTITY unreadColumn.label "Neprečítané">
 <!ENTITY totalColumn.label "Celkovo">
 <!ENTITY readColumn.label "Prečítané">
@@ -652,7 +597,6 @@
 <!ENTITY accountColumn2.tooltip "Usporiadať podľa účtov">
 <!ENTITY statusColumn2.tooltip "Usporiadať podľa stavu">
 <!ENTITY sizeColumn2.tooltip "Usporiadať podľa veľkosti">
-<!ENTITY junkStatusColumn2.tooltip "Zoskupiť nevyžiadanú poštu">
 <!ENTITY unreadColumn2.tooltip "Počet nečítaných správ vo vlákne">
 <!ENTITY totalColumn2.tooltip "Celkový počet správ vo vlákne">
 <!ENTITY readColumn2.tooltip "Zoskupiť čítané / nečítané správy">
@@ -691,16 +635,6 @@
 <!ENTITY contextReplyAll.accesskey "v">
 <!ENTITY contextReplyList.label "Odpovedať zoznamu">
 <!ENTITY contextReplyList.accesskey "d">
-<!ENTITY contextMoveMsgMenu.label "Presunúť do">
-<!ENTITY contextMoveMsgMenu.accesskey "P">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Nedávne umiestnenia">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "N">
-<!ENTITY contextMoveCopyMsgRecentMenu.label "Nedávno použité">
-<!ENTITY contextMoveCopyMsgRecentMenu.accesskey "N">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.label "Obľúbené položky">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.accesskey "O">
-<!ENTITY contextCopyMsgMenu.label "Skopírovať do">
-<!ENTITY contextCopyMsgMenu.accesskey "r">
 <!ENTITY contextKillThreadMenu.label "Ignorovať vlákno">
 <!ENTITY contextKillSubthreadMenu.accesskey "I">
 <!ENTITY contextKillThreadMenu.accesskey "I">

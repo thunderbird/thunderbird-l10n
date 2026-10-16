@@ -10,22 +10,6 @@
 <!ENTITY folderRebuildSummaryFile.explanation "في بعض الأحيان، ملف فهرس المجلد (.msf) يتضرّر مما يؤدي إلى اختفاء بعض الرسائل أو ظهور الرسائل المحذوفة بعد حذفها. إصلاح المجلد قد يحلّ هذه المشكلات.">
 <!ENTITY folderIncludeInGlobalSearch.label "ضمّن رسائل هذا المجلد في نتائج البحث العمومي">
 <!ENTITY folderIncludeInGlobalSearch.accesskey "ث">
-<!ENTITY retention.label "سياسة الإبقاء">
-<!ENTITY retentionUseAccount.label "استخدم إعدادات حسابي">
-<!ENTITY retentionUseAccount.accesskey "ت">
-<!ENTITY daysOld.label "أيّام">
-<!ENTITY message.label "رسائل">
-<!ENTITY retentionCleanup.label "لاستعادة مساحة القرص يمكن حذف الرسائل القديمة نهائيًّا.">
-<!ENTITY retentionCleanupImap.label "لاستعادة مساحة القرص، يمكن حذف الرسائل القديمة نهائيًا من جهازك ومن الخادوم البعيد.">
-<!ENTITY retentionCleanupPop.label "لاستعادة مساحة القرص، يمكن حذف الرسائل القديمة نهائيًا، ويشمل ذلك نسخها الأصلية في الخادوم البعيد.">
-<!ENTITY retentionDeleteMsg.label "احذف الرسائل التي تزيد عن">
-<!ENTITY retentionDeleteMsg.accesskey "ر">
-<!ENTITY retentionKeepAll.label "لا تحذف أيًّا من الرسائل">
-<!ENTITY retentionKeepAll.accesskey "ل">
-<!ENTITY retentionKeepRecent.label "احذف الكل ما عدا الأحدث">
-<!ENTITY retentionKeepRecent.accesskey "ك">
-<!ENTITY retentionApplyToFlagged.label "احتفظ دائمًا بالرسائل ذات النجمة">
-<!ENTITY retentionApplyToFlagged.accesskey "ج">
 <!ENTITY folderSynchronizationTab.label "مزامنة">
 <!ENTITY folderCheckForNewMessages2.label "عند الحصول على رسائل جديدة، تحقق من هذا المجلد دائمًا">
 <!ENTITY folderCheckForNewMessages2.accesskey "ق">

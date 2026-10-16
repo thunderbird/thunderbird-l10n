@@ -30,11 +30,6 @@ appmenu-sync-sign-out =
 
 ## Add Account
 
-appmenu-new-account-panel-title =
-    .title = Llogari e Re
-appmenu-new-account-panel =
-    .label = Llogari e Re
-    .accesskey = o
 appmenu-new-email-account =
     .label = Email
     .accesskey = E
@@ -53,11 +48,6 @@ appmenu-new-newsgroup =
 
 ## New Account / Address Book
 
-appmenu-newab-panel-title =
-    .title = Libër i Ri Adresash
-appmenu-newab-panel =
-    .label = Libër i Ri Adresash
-    .accesskey = A
 appmenu-new-addressbook =
     .label = Libër Vendor Adresash
     .accesskey = V

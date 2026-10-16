@@ -33,8 +33,6 @@
 <!ENTITY hdrFollowupButton1.tooltip "Σύνταξη μηνύματος ως συνέχεια κάποιου στην ομάδα συζητήσεων">
 <!ENTITY hdrForwardButton1.label "Προώθηση">
 <!ENTITY hdrForwardButton1.tooltip "Προώθηση μηνύματος">
-<!ENTITY hdrJunkButton1.label "Ανεπιθύμητα">
-<!ENTITY hdrJunkButton1.tooltip "Επισήμανση μηνύματος ως ανεπιθύμητου">
 <!ENTITY hdrTrashButton1.label "Διαγραφή">
 <!ENTITY hdrTrashButton1.tooltip "Διαγραφή μηνύματος">
 <!ENTITY hdrViewToolbarShowFull.label "Προβολή εικονιδίων και κειμένου">

@@ -33,8 +33,6 @@
 <!ENTITY hdrFollowupButton1.tooltip "Azen aseḍfeṛ i ugraw-agi n isalen">
 <!ENTITY hdrForwardButton1.label "Welleh">
 <!ENTITY hdrForwardButton1.tooltip "Welleh izen-agi">
-<!ENTITY hdrJunkButton1.label "Aspam">
-<!ENTITY hdrJunkButton1.tooltip "Creḍ izen-agi d aspam">
 <!ENTITY hdrTrashButton1.label "Kkes">
 <!ENTITY hdrTrashButton1.tooltip "Kkes izen-agi">
 <!ENTITY hdrViewToolbarShowFull.label "Sken tiginitin akked uḍris">

@@ -3,5 +3,3 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY virtualFolderListTitle.title "Klasör Seçin">
 <!ENTITY virtualFolderDesc.label "Aranacak klasörleri seçin:">
-<!ENTITY folderName.label "Dizin adı">
-<!ENTITY folderSearch.label "Arama">

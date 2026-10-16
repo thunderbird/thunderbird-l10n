@@ -56,14 +56,7 @@ account-hub-email-connect-button = 連結
 account-hub-result-incoming-legend = 內送
 account-hub-result-outgoing-legend = 外寄
 account-hub-all-servers-legend = 所有伺服器
-account-hub-incoming-server-legend = 收件伺服器
-account-hub-outgoing-server-legend = 寄件伺服器
-account-hub-result-incoming-server-legend = 收件伺服器
-    .title = 收件伺服器
-account-hub-result-outgoing-server-legend = 寄件伺服器
-    .title = 寄件伺服器
 account-hub-protocol-label = 通訊協定
-account-hub-hostname-label = 主機名稱
 account-hub-result-hostname-label = 主機名稱
     .title = 主機名稱
 account-hub-result-socket-type-label = 連線安全性
@@ -94,10 +87,6 @@ account-hub-result-auth-ntlm = NTLM
 account-hub-result-auth-external = 外部驗證
 account-hub-result-auth-oauth2 = OAuth2
 account-hub-on-port-label = 埠
-account-hub-result-authentication-label = 驗證
-    .title = 驗證
-account-hub-port-label = 埠
-    .title = 埠號設定為 0 即可自動偵測
 account-hub-auto-description = { -brand-short-name } 將嘗試自動偵測留白的欄位。
 account-hub-ssl-label = 連線安全性
 
@@ -105,8 +94,6 @@ account-hub-ssl-label = 連線安全性
 
 account-hub-ssl-autodetect-option =
     .label = 自動偵測
-account-hub-ssl-no-authentication-option =
-    .label = 不認證
 account-hub-ssl-cleartext-password-option =
     .label = 普通密碼
 account-hub-ssl-encrypted-password-option =
@@ -268,7 +255,6 @@ account-hub-email-exchange-settings = Exchange 選項
 account-hub-email-connect-settings = 連結您的郵件收發設定
 account-hub-email-protocol-select-header = 請選擇電子郵件帳號類型
 account-hub-email-protocol-select-additional-info = 需要輸入其他資訊才能設定此帳號。
-account-hub-email-config-found = 選擇您的電子郵件帳號類型
 account-hub-email-enter-password = 請輸入您的電子郵件帳號密碼
 account-hub-email-sync-accounts = 同步您的行事曆與通訊錄
 account-hub-test-configuration = 測試
@@ -295,7 +281,6 @@ account-hub-config-success-description-guess = 嘗試使用常用的伺服器名
 account-hub-config-success-description-disk = 於 { -brand-short-name } 安裝找到設定。
 account-hub-config-success-description-isp = 從電子郵件服務供應商找到設定。
 account-hub-config-success-description-read-more = 您可以<a data-l10n-name=" automated-setup-link">在此了解電子郵件自動設定的原理。</a>
-account-hub-config-success = 從 Mozilla ISPDB 找到的設定
 account-hub-password-info = 您的登入資訊只會儲存在本機電腦上
 account-hub-creating-account = 正在建立帳號…
 account-hub-sync-accounts-found = { -brand-short-name } 找到一些連結的服務
@@ -325,10 +310,8 @@ account-hub-username-error-text = 必須輸入使用者名稱
 account-hub-manual-config-error-summary = 請修正下列錯誤：
 account-hub-oauth-pending = 正在等待登入視窗中的授權結果…
 account-hub-addon-install-button = 安裝
-account-hub-addon-install-needed = { -brand-short-name } 本身不支援此伺服器。若要存取 Exchange 郵件，請<a data-l10n-name="addon-install">安裝 Owl 等第三方附加元件（須付費）。</a>
 account-hub-addon-error = 附加元件安裝失敗。請再試一次或聯絡附加元件作者尋求協助。
 account-hub-select-security-warning = <span data-l10n-name="error-text">警告：偵測到不安全的郵件伺服器。</span>此伺服器未加密連線，會洩漏您的密碼與資料。請聯絡您的管理員以加密連線，或繼續使用但自負風險。<a data-l10n-name="faq-link">若需更多資訊，請參考 FAQ 常見問題集。</a>
-account-hub-security-warning = <span data-l10n-name="security-warning">警告：偵測到不安全的郵件伺服器。</span>此伺服器未加密連線，會洩漏您的密碼與資料。請聯絡您的管理員以加密連線，或繼續使用但自負風險。<a data-l10n-name="faq-link">若需更多資訊，請參考 FAQ 常見問題集。</a>
 account-hub-account-authentication-error = 驗證發生錯誤。
 account-hub-add-address-book = 新增通訊錄
 address-book-sync-existing-icon =
@@ -357,7 +340,6 @@ account-hub-address-book-sync-books-data =
     { $addressBooks ->
        *[other] 可使用 { $addressBooks } 本通訊錄
     }
-account-hub-fetching-sync-accounts = 正在尋找通訊錄與行事曆…
 address-book-sync-existing-description = 正在取得現有帳號…
 account-hub-select-address-book-account = 選擇含有通訊錄的帳號
 # $synced (Number) - The number of address books that are synced.

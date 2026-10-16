@@ -33,8 +33,6 @@
 <!ENTITY hdrFollowupButton1.tooltip "Publicar uma resposta neste grupo de notícias">
 <!ENTITY hdrForwardButton1.label "Encaminhar">
 <!ENTITY hdrForwardButton1.tooltip "Encaminhar mensagem">
-<!ENTITY hdrJunkButton1.label "Spam">
-<!ENTITY hdrJunkButton1.tooltip "Marcar mensagem como spam">
 <!ENTITY hdrTrashButton1.label "Excluir">
 <!ENTITY hdrTrashButton1.tooltip "Excluir mensagem">
 <!ENTITY hdrViewToolbarShowFull.label "Exibir ícones e texto">

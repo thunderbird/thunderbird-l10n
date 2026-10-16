@@ -16,7 +16,6 @@ webext-perms-description-addressBooks = Llegir i modificar les llibretes d'adrec
 webext-perms-description-compose = Llegir i modificar els vostres missatges de correu electrònic mentre els redacteu i els envieu
 webext-perms-description-compose-send = Enviar missatges de correu electrònic en el vostre nom
 webext-perms-description-compose-save = Desar els missatges de correu electrònic que redacteu com a esborranys o plantilles
-webext-perms-description-experiment = Tenir accés complet i il·limitat al { -brand-short-name } i al vostre ordinador
 webext-perms-description-messagesImport = Importar missatges al Thunderbird
 webext-perms-description-messagesModify = Llegir i modificar els vostres missatges de correu electrònic a mesura que es visualitzen
 webext-perms-description-messagesModifyPermanent = Modificar permanentment la font dels vostres missatges (incloses les capçaleres, el cos i els fitxers adjunts)

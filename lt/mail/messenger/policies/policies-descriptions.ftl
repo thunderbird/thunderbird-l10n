@@ -78,8 +78,6 @@ policy-RequestedLocales = Nustatyti programos prašomų kalbų sąrašą ir jo e
 policy-SanitizeOnShutdown2 = Išvalyti visus naršymo duomenis išjungiant programą.
 policy-SearchEngines = Konfigūruoti ieškyklių nuostatas. Ši strategija galima tik prailginto palaikymo laidos (ESR) versijoje.
 policy-SearchSuggestEnabled = Įjungti arba išjungti paieškos žodžių siūlymus.
-# For more information, see https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
-policy-SecurityDevices = Diegti PKCS #11 modulius.
 policy-SSLVersionMax = Nustatykite maksimalią SSL versiją.
 policy-SSLVersionMin = Nustatyti mažiausią SSL versiją.
 policy-SupportMenu = Pridėti papildomą pagalbos meniu elementą į žinyno meniu.

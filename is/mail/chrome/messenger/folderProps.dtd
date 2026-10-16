@@ -10,22 +10,6 @@
 <!ENTITY folderRebuildSummaryFile.explanation "Stundum getur komið fyrir að yfirlitsskrá möppu (.msf) skemmist og póstur virðist vera týndur eða póst sem hefur verið eytt birtist áfram; ef þú endurbyggir möppuna er venjulega hægt að laga þessi vandamál.">
 <!ENTITY folderIncludeInGlobalSearch.label "Nota póst í þessari möppu með í víðtækum leitarniðurstöðum">
 <!ENTITY folderIncludeInGlobalSearch.accesskey "v">
-<!ENTITY retention.label "Varðveislureglur">
-<!ENTITY retentionUseAccount.label "Nota sömu stillingar og eru á mínum reikningi">
-<!ENTITY retentionUseAccount.accesskey "N">
-<!ENTITY daysOld.label "daga gömlum">
-<!ENTITY message.label "skilaboðum">
-<!ENTITY retentionCleanup.label "Til að endurheimta diskpláss er hægt að eyða gömlum skilaboðum varanlega.">
-<!ENTITY retentionCleanupImap.label "Til að endurheimta diskpláss, er hægt að eyða varanlega gömlum skilaboðum, bæði staðbundnu afritum sem og upprunalegum skilaboðum á netþjóninum.">
-<!ENTITY retentionCleanupPop.label "Til að endurheimta diskpláss, er hægt að eyða varanlega gömlum skilaboðum, þar með töldum upprunalegum skilaboðum á netþjóninum.">
-<!ENTITY retentionDeleteMsg.label "Eyða skilaboðum eldri en">
-<!ENTITY retentionDeleteMsg.accesskey "m">
-<!ENTITY retentionKeepAll.label "Ekki eyða neinum skilaboðum">
-<!ENTITY retentionKeepAll.accesskey "a">
-<!ENTITY retentionKeepRecent.label "Eyða öllum nema nýjustu">
-<!ENTITY retentionKeepRecent.accesskey "l">
-<!ENTITY retentionApplyToFlagged.label "Alltaf geyma stjörnumerkt skilaboð">
-<!ENTITY retentionApplyToFlagged.accesskey "e">
 <!ENTITY folderSynchronizationTab.label "Samstilling">
 <!ENTITY folderCheckForNewMessages2.label "Alltaf athuga þessa möppu, þegar náð er í nýjan póst fyrir þennan reikning">
 <!ENTITY folderCheckForNewMessages2.accesskey "t">

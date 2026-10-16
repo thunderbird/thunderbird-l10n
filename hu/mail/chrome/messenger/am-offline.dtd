@@ -14,24 +14,10 @@
 <!ENTITY autosyncNotDownload.accesskey "N">
 <!ENTITY kb.label "KB">
 <!ENTITY daysOld.label "nap">
-<!ENTITY message.label "üzenet">
 <!ENTITY nntpNotDownloadRead.label "Üzenet olvasása">
 <!ENTITY nntpNotDownloadRead.accesskey "o">
 <!ENTITY nntpDownloadMsg.label "Üzenetek, melyek régebbiek, mint">
 <!ENTITY nntpDownloadMsg.accesskey "e">
-<!ENTITY retentionCleanup.label "Lemezhely felszabadítása céljából a régi üzenetek véglegesen törölhetők.">
-<!ENTITY retentionCleanupImap.label "Lemezhely felszabadítása céljából a régi üzenetek véglegesen törölhetők, a helyi másolatok és a távoli kiszolgálón lévők egyaránt.">
-<!ENTITY retentionCleanupPop.label "Lemezhely felszabadítása céljából a régi üzenetek véglegesen törölhetők, beleértve a távoli kiszolgálón lévő eredetieket is.">
-<!ENTITY retentionKeepMsg.label "Üzenetek törlése, ha régebbiek, mint">
-<!ENTITY retentionKeepMsg.accesskey "r">
-<!ENTITY retentionKeepAll.label "Minden üzenet megtartása">
-<!ENTITY retentionKeepAll.accesskey "M">
-<!ENTITY retentionKeepRecent.label "Minden üzenet törlése, kivéve az utolsó">
-<!ENTITY retentionKeepRecent.accesskey "u">
-<!ENTITY retentionApplyToFlagged.label "Csillagozott üzenetek megtartása">
-<!ENTITY retentionApplyToFlagged.accesskey "s">
-<!ENTITY nntpRemoveMsgBody.label "Üzenettörzsek törlése, ha régebbiek, mint">
-<!ENTITY nntpRemoveMsgBody.accesskey "t">
 <!ENTITY offlineSelectNntp.label "Hírcsoportok kiválasztása kapcsolat nélküli munkához…">
 <!ENTITY offlineSelectNntp.accesskey "k">
 <!ENTITY offlineImapAdvancedOffline.label "Speciális…">

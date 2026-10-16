@@ -216,7 +216,6 @@
 <!ENTITY smiley7Cmd.label "Njerozudźeny">
 <!ENTITY smiley8Cmd.label "Překwapjenje">
 <!ENTITY smiley9Cmd.label "Hubka">
-<!ENTITY smiley10Cmd.label "Drišćeć">
 <!ENTITY smiley11Cmd.label "Kool">
 <!ENTITY smiley12Cmd.label "Pjenježna huba">
 <!ENTITY smiley13Cmd.label "Chrobły">
@@ -266,12 +265,6 @@
 <!ENTITY convertRegularAttachment.accesskey "R">
 <!ENTITY attachPage.label "Webstronu připowěsnyć…">
 <!ENTITY attachPage.accesskey "W">
-<!-- Attachment Pane Header Bar Context Menu
-     LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
-     Should use the same wording as startExpandedCmd.label
-     in msgHdrViewOverlay.dtd. -->
-<!ENTITY initiallyShowAttachmentPane.label "Wokno přiwěškow spočatnje pokazać">
-<!ENTITY initiallyShowAttachmentPane.accesskey "W">
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Słowniki přidać…">
 <!ENTITY spellAddDictionaries.accesskey "S">

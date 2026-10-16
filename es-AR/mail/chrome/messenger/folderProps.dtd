@@ -10,22 +10,6 @@
 <!ENTITY folderRebuildSummaryFile.explanation "A veces el archivo de índice de carpetas (.msf) se daña y pueden desaparecer mensajes o pueden seguir mostrándose mensajes borrados; reparar la carpeta puede corregir estos problemas.">
 <!ENTITY folderIncludeInGlobalSearch.label "Incluir mensajes en esta carpeta en los resultados de búsqueda global">
 <!ENTITY folderIncludeInGlobalSearch.accesskey "g">
-<!ENTITY retention.label "Política de retención">
-<!ENTITY retentionUseAccount.label "Usar configuración de mi cuenta">
-<!ENTITY retentionUseAccount.accesskey "U">
-<!ENTITY daysOld.label "días">
-<!ENTITY message.label "mensajes">
-<!ENTITY retentionCleanup.label "Para recuperar espacio en disco, los mensajes viejos pueden ser borrados permanentemente">
-<!ENTITY retentionCleanupImap.label "Para recuperar espacio en disco, los mensajes viejos pueden ser borrados permanentemente tanto las copias locales como los originales en el servidor remoto.">
-<!ENTITY retentionCleanupPop.label "Para recuperar espacio en disco, los mensajes viejos pueden ser borrados permanentemente incluyendo los originales en el servidor remoto.">
-<!ENTITY retentionDeleteMsg.label "Borrar mensajes de más de">
-<!ENTITY retentionDeleteMsg.accesskey "m">
-<!ENTITY retentionKeepAll.label "No borrar ningún mensaje">
-<!ENTITY retentionKeepAll.accesskey "A">
-<!ENTITY retentionKeepRecent.label "Borrar todos excepto los más recientes">
-<!ENTITY retentionKeepRecent.accesskey "l">
-<!ENTITY retentionApplyToFlagged.label "Siempre mantener los mensajes destacados">
-<!ENTITY retentionApplyToFlagged.accesskey "e">
 <!ENTITY folderSynchronizationTab.label "Sincronización">
 <!ENTITY folderCheckForNewMessages2.label "Al buscar nuevos mensajes para esta cuenta, siempre comprobar esta carpeta">
 <!ENTITY folderCheckForNewMessages2.accesskey "c">

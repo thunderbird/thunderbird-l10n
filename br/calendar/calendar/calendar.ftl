@@ -544,16 +544,6 @@ hide-calendar-name =
 show-only-calendar-name =
     .label = Diskouez { $name } hepken
     .accesskey = N
-# $name calendar name
-show-calendar-label =
-    .label = Diskouez { $name }
-# $name calendar name
-hide-calendar-label =
-    .label = Kuzhat { $name }
-# uses the access key calendar.context.showonly.accesskey
-# $name calendar name
-show-only-calendar =
-    .label = Diskouez { $name } hepken
 # LOCALIZATION NOTE (modify-conflict-*)
 # Used by the event dialog to resolve item modification conflicts.
 modify-conflict-prompt-title = Tabut war kemm an elfenn

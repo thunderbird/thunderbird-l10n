@@ -10,22 +10,6 @@
 <!ENTITY folderRebuildSummaryFile.explanation "Dažreiz mapes indeksa (.msf) datne kļūst bojāta, un ziņojumi var šķist pazuduši vai var turpināt parādīties; mapes salabošana var novērst šīs nebūšanas.">
 <!ENTITY folderIncludeInGlobalSearch.label "Iekļaut ziņojumus no šīs mapes visaptverošās meklēšanas iznākumos">
 <!ENTITY folderIncludeInGlobalSearch.accesskey "G">
-<!ENTITY retention.label "Saglabāšanas politika">
-<!ENTITY retentionUseAccount.label "Izmantot mana konta iestatījumus">
-<!ENTITY retentionUseAccount.accesskey "m">
-<!ENTITY daysOld.label "dienu vecas">
-<!ENTITY message.label "vēstules">
-<!ENTITY retentionCleanup.label "Lai atgūtu diska vietu, vecās vēstules var izdzēst neatgriezeniski.">
-<!ENTITY retentionCleanupImap.label "Lai atgūtu diska vietu, vēstules var izdzēst neatgriezeniski: gan lokālās kopijas, gan oriģinālus attālajā serverī.">
-<!ENTITY retentionCleanupPop.label "Lai atgūtu diska vietu, vecās vēstules var izdzēst neatgriezeniski, ieskaitot oriģinālus attālajā serverī.">
-<!ENTITY retentionDeleteMsg.label "Dzēst vēstules vairāk par">
-<!ENTITY retentionDeleteMsg.accesskey "D">
-<!ENTITY retentionKeepAll.label "Nedzēst nevienu vēstuli">
-<!ENTITY retentionKeepAll.accesskey "n">
-<!ENTITY retentionKeepRecent.label "Dzēst visas, izņemot pašas nesenākās">
-<!ENTITY retentionKeepRecent.accesskey "v">
-<!ENTITY retentionApplyToFlagged.label "Vienmēr saglabāt zvaigžņotās vēstules">
-<!ENTITY retentionApplyToFlagged.accesskey "s">
 <!ENTITY folderSynchronizationTab.label "Vienādošana">
 <!ENTITY folderCheckForNewMessages2.label "Saņemot jaunas vēstules šajā kontā, vienmēr pārbaudīt šo mapi">
 <!ENTITY folderCheckForNewMessages2.accesskey "S">

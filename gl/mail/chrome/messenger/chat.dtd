@@ -23,8 +23,6 @@
 <!ENTITY closeConversationCmd.accesskey "c">
 <!ENTITY aliasCmd.label "Renomear">
 <!ENTITY aliasCmd.accesskey "R">
-<!ENTITY deleteCmd.label "Retirar contacto">
-<!ENTITY deleteCmd.accesskey "t">
 <!ENTITY openConversationButton.tooltip "Iniciar unha conversación">
 <!ENTITY closeConversationButton.tooltip "Pechar conversación">
 <!ENTITY addBuddyButton.label "Engadir contacto">

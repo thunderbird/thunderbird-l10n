@@ -30,11 +30,6 @@ appmenu-sync-sign-out =
 
 ## Add Account
 
-appmenu-new-account-panel-title =
-    .title = Új fiók
-appmenu-new-account-panel =
-    .label = Új fiók
-    .accesskey = j
 appmenu-new-email-account =
     .label = E-mail
     .accesskey = E
@@ -58,11 +53,6 @@ appmenu-add-account-panel =
 
 ## New Account / Address Book
 
-appmenu-newab-panel-title =
-    .title = Új címjegyzék
-appmenu-newab-panel =
-    .label = Új címjegyzék
-    .accesskey = j
 appmenu-new-addressbook =
     .label = Helyi címjegyzék
     .accesskey = H

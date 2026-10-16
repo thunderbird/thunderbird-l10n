@@ -17,7 +17,6 @@ webext-perms-description-compose = อ่านและแก้ไขข้อ
 webext-perms-description-compose-send = ส่งข้อความอีเมลที่เขียนในนามของคุณ
 webext-perms-description-compose-save = บันทึกข้อความอีเมลที่เขียนไว้ เป็นฉบับร่าง หรือเป็นแม่แบบ
 webext-perms-description-experiment-access = ส่วนเสริมนี้จะสามารถเข้าถึง { -brand-short-name } และคอมพิวเตอร์ของคุณได้อย่างเต็มที่และไม่จำกัด
-webext-perms-description-experiment = เข้าถึง { -brand-short-name } และคอมพิวเตอร์ของคุณได้อย่างเต็มที่และไม่จำกัด
 webext-perms-description-messagesImport = นำเข้าข้อความใน Thunderbird
 webext-perms-description-messagesModify = อ่านและเปลี่ยนแปลงข้อความอีเมลของคุณตามที่แสดงให้คุณเห็น
 webext-perms-description-messagesModifyPermanent = แก้ไขแหล่งที่มาของข้อความของคุณอย่างถาวร (รวมทั้งส่วนหัว เนื้อความ และไฟล์แนบด้วย)

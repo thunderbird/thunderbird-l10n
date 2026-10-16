@@ -14,24 +14,10 @@
 <!ENTITY autosyncNotDownload.accesskey "d">
 <!ENTITY kb.label "KB">
 <!ENTITY daysOld.label "d.">
-<!ENTITY message.label "laiškų">
 <!ENTITY nntpNotDownloadRead.label "skaitytų laiškų">
 <!ENTITY nntpNotDownloadRead.accesskey "k">
 <!ENTITY nntpDownloadMsg.label "laiškų, senesnių nei">
 <!ENTITY nntpDownloadMsg.accesskey "e">
-<!ENTITY retentionCleanup.label "Taupant vietą diske, senus laiškus galima negrąžinamai šalinti.">
-<!ENTITY retentionCleanupImap.label "Taupant vietą diske, senus laiškus (tiek vietines kopijas, tiek jų originalus serveryje) galima negrąžinamai šalinti.">
-<!ENTITY retentionCleanupPop.label "Taupant vietą diske, senus laiškus (taip pat ir jų originalus serveryje) galima negrąžinamai šalinti.">
-<!ENTITY retentionKeepMsg.label "Šalinti laiškus, senesnius nei">
-<!ENTITY retentionKeepMsg.accesskey "s">
-<!ENTITY retentionKeepAll.label "Nešalinti laiškų">
-<!ENTITY retentionKeepAll.accesskey "N">
-<!ENTITY retentionKeepRecent.label "Šalinti visus, išskyrus paskiausius">
-<!ENTITY retentionKeepRecent.accesskey "p">
-<!ENTITY retentionApplyToFlagged.label "Visada palikti žvaigždute pažymėtus laiškus">
-<!ENTITY retentionApplyToFlagged.accesskey "ž">
-<!ENTITY nntpRemoveMsgBody.label "Šalinti laiškus, senesnius nei">
-<!ENTITY nntpRemoveMsgBody.accesskey "s">
 <!ENTITY offlineSelectNntp.label "Parinkti naujienų grupes darbui neprisijungus…">
 <!ENTITY offlineSelectNntp.accesskey "P">
 <!ENTITY offlineImapAdvancedOffline.label "Papildomai…">

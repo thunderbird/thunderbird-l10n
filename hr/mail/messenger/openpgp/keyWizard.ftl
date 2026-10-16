@@ -76,12 +76,9 @@ openpgp-import-key-props =
 ## External Key section
 
 openpgp-external-key-title = Eksterni GnuPG ključ
-openpgp-save-external-button = Spremi ID ključa
 openpgp-external-key-label = ID tajnog ključa:
 openpgp-import-own-key-title = Uvezi svoj javni ključ
 #   $keyId (String) - The Key ID.
 openpgp-import-own-key-description = { -brand-short-name } nije mogao pronaći javni ključ s ID-om { $keyId }. Uvezi ga za nastavljanje.
 #   $keyId (String) - The Key ID.
 openpgp-import-keyid-failed = Nije bilo moguće uvesti javni ključ { $keyId } iz te datoteke.
-openpgp-external-key-input =
-    .placeholder = 123456789341298340

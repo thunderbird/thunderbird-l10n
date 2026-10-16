@@ -88,12 +88,6 @@ quit-app-shortcut =
 
 ## Mail Toolbar
 
-toolbar-junk-button =
-    .label = Спам
-    .tooltiptext = Таңдалған хабарламаларды спам ретінде белгілеу
-toolbar-not-junk-button =
-    .label = Спам емес
-    .tooltiptext = Таңдалған хабарламаларды спам емес ретінде белгілеу
 toolbar-delete-button =
     .label = Өшіру
     .tooltiptext = Таңдалған хабарламаларды немесе буманы өшіру

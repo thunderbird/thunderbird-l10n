@@ -18,5 +18,3 @@
 <!ENTITY selectButton.label "Vali...">
 <!ENTITY selectButton.accesskey "a">
 <!ENTITY MsgSelectDesc.label "Vali e-posti kaustad ja uudistegrupid, mida tahad võrguta režiimis kasutada. ">
-<!ENTITY MsgSelectInd.label "Tõmba">
-<!ENTITY MsgSelectItems.label "Kaustad ja uudistegrupid">

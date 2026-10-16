@@ -13,8 +13,6 @@
 <!ENTITY undoCmd.accesskey "P">
 <!ENTITY redoCmd.label "Ponovi">
 <!ENTITY redoCmd.accesskey "P">
-<!ENTITY deleteCmd.label "Obriši">
-<!ENTITY deleteCmd.accesskey "O">
 <!ENTITY viewMenu.label "Prikaz">
 <!ENTITY viewMenu.accesskey "P">
 <!ENTITY viewToolbarsMenu.label "Alatne trake">

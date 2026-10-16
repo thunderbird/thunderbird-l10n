@@ -176,8 +176,6 @@
 <!ENTITY event.calendar.accesskey "ל">
 <!ENTITY event.attendees.label "אורחים:">
 <!ENTITY event.attendees.accesskey "א">
-<!ENTITY event.alldayevent.label "אירוע לכל היום">
-<!ENTITY event.alldayevent.accesskey "כ">
 <!ENTITY event.from.label "התחלה:">
 <!ENTITY event.from.accesskey "ה">
 <!ENTITY task.from.label "התחלה:">
@@ -257,13 +255,6 @@
 <!ENTITY event.recurrence.monthly.fourth.label "הרביעי">
 <!ENTITY event.recurrence.monthly.fifth.label "החמישי">
 <!ENTITY event.recurrence.monthly.last.label "האחרון">
-<!ENTITY event.recurrence.pattern.monthly.week.1.label "יום ראשון">
-<!ENTITY event.recurrence.pattern.monthly.week.2.label "יום שני">
-<!ENTITY event.recurrence.pattern.monthly.week.3.label "יום שלישי">
-<!ENTITY event.recurrence.pattern.monthly.week.4.label "יום רביעי">
-<!ENTITY event.recurrence.pattern.monthly.week.5.label "יום חמישי">
-<!ENTITY event.recurrence.pattern.monthly.week.6.label "יום שישי">
-<!ENTITY event.recurrence.pattern.monthly.week.7.label "יום שבת">
 <!ENTITY event.recurrence.repeat.dayofmonth.label "יום בחודש">
 <!ENTITY event.recurrence.repeat.recur.label "חזור בימים">
 <!ENTITY event.recurrence.every.label "בכל:">
@@ -276,18 +267,6 @@
      event.recurrence.pattern.yearly.of.label is "of" in
      Edit recurrence window -> Recurrence pattern -> Repeat yearly -->
 <!ENTITY event.recurrence.pattern.yearly.of.label "">
-<!ENTITY event.recurrence.pattern.yearly.month.1.label "בינואר">
-<!ENTITY event.recurrence.pattern.yearly.month.2.label "בפברואר">
-<!ENTITY event.recurrence.pattern.yearly.month.3.label "במרץ">
-<!ENTITY event.recurrence.pattern.yearly.month.4.label "באפריל">
-<!ENTITY event.recurrence.pattern.yearly.month.5.label "במאי">
-<!ENTITY event.recurrence.pattern.yearly.month.6.label "ביוני">
-<!ENTITY event.recurrence.pattern.yearly.month.7.label "ביולי">
-<!ENTITY event.recurrence.pattern.yearly.month.8.label "באוגוסט">
-<!ENTITY event.recurrence.pattern.yearly.month.9.label "בספטמבר">
-<!ENTITY event.recurrence.pattern.yearly.month.10.label "באוקטובר">
-<!ENTITY event.recurrence.pattern.yearly.month.11.label "בנובמבר">
-<!ENTITY event.recurrence.pattern.yearly.month.12.label "בדצמבר">
 <!ENTITY event.recurrence.yearly.every.label "בכל">
 <!ENTITY event.recurrence.yearly.first.label "הראשון">
 <!ENTITY event.recurrence.yearly.second.label "השני">
@@ -295,27 +274,8 @@
 <!ENTITY event.recurrence.yearly.fourth.label "הרביעי">
 <!ENTITY event.recurrence.yearly.fifth.label "החמישי">
 <!ENTITY event.recurrence.yearly.last.label "האחרון">
-<!ENTITY event.recurrence.pattern.yearly.week.1.label "יום ראשון">
-<!ENTITY event.recurrence.pattern.yearly.week.2.label "יום שני">
-<!ENTITY event.recurrence.pattern.yearly.week.3.label "יום שלישי">
-<!ENTITY event.recurrence.pattern.yearly.week.4.label "יום רביעי">
-<!ENTITY event.recurrence.pattern.yearly.week.5.label "יום חמישי">
-<!ENTITY event.recurrence.pattern.yearly.week.6.label "יום שישי">
-<!ENTITY event.recurrence.pattern.yearly.week.7.label "יום שבת">
 <!ENTITY event.recurrence.pattern.yearly.day.label "יום">
 <!ENTITY event.recurrence.of.label "מתוך">
-<!ENTITY event.recurrence.pattern.yearly.month2.1.label "בינואר">
-<!ENTITY event.recurrence.pattern.yearly.month2.2.label "בפברואר">
-<!ENTITY event.recurrence.pattern.yearly.month2.3.label "במרץ">
-<!ENTITY event.recurrence.pattern.yearly.month2.4.label "באפריל">
-<!ENTITY event.recurrence.pattern.yearly.month2.5.label "במאי">
-<!ENTITY event.recurrence.pattern.yearly.month2.6.label "ביוני">
-<!ENTITY event.recurrence.pattern.yearly.month2.7.label "ביולי">
-<!ENTITY event.recurrence.pattern.yearly.month2.8.label "באוגוסט">
-<!ENTITY event.recurrence.pattern.yearly.month2.9.label "בספטמבר">
-<!ENTITY event.recurrence.pattern.yearly.month2.10.label "באוקטובר">
-<!ENTITY event.recurrence.pattern.yearly.month2.11.label "בנובמבר">
-<!ENTITY event.recurrence.pattern.yearly.month2.12.label "בדצמבר">
 <!ENTITY event.recurrence.range.label "תווך חזרה">
 <!ENTITY event.recurrence.forever.label "אין תאריך סיום">
 <!ENTITY event.recurrence.repeat.for.label "צור">

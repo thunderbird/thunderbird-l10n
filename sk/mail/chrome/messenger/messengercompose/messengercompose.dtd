@@ -216,7 +216,6 @@
 <!ENTITY smiley7Cmd.label "Nerozhodnosť">
 <!ENTITY smiley8Cmd.label "Prekvapenie">
 <!ENTITY smiley9Cmd.label "Bozk">
-<!ENTITY smiley10Cmd.label "Krik">
 <!ENTITY smiley11Cmd.label "Pohoda">
 <!ENTITY smiley12Cmd.label "O peniazoch">
 <!ENTITY smiley13Cmd.label "Umlčanie">
@@ -266,12 +265,6 @@
 <!ENTITY convertRegularAttachment.accesskey "K">
 <!ENTITY attachPage.label "Priložiť webovú stránku…">
 <!ENTITY attachPage.accesskey "w">
-<!-- Attachment Pane Header Bar Context Menu
-     LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
-     Should use the same wording as startExpandedCmd.label
-     in msgHdrViewOverlay.dtd. -->
-<!ENTITY initiallyShowAttachmentPane.label "Zobrazovať panel príloh">
-<!ENTITY initiallyShowAttachmentPane.accesskey "Z">
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Pridať slovníky…">
 <!ENTITY spellAddDictionaries.accesskey "P">

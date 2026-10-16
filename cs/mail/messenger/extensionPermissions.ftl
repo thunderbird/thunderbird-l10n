@@ -21,7 +21,6 @@ webext-perms-description-experiment-access =
         [with-cases] Tento doplněk bude mít plný a neomezený přístup k { -brand-short-name(case: "gen") } a k vašemu počítači.
        *[no-cases] Tento doplněk bude mít plný a neomezený přístup k aplikaci { -brand-short-name } a k vašemu počítači.
     }
-webext-perms-description-experiment = Plný, neomezený přístup k aplikaci { -brand-short-name } a k vašemu počítači
 webext-perms-description-messagesImport = Importovat zprávy do Thunderbirdu
 webext-perms-description-messagesModify = Číst a upravovat vaše e-mailové zprávy během jejich zobrazování
 webext-perms-description-messagesModifyPermanent = Natrvalo upravit zdroj vašich zpráv (včetně záhlaví, těla a příloh)

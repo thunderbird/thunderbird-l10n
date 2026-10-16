@@ -6,8 +6,6 @@ about-addressbook-title = Ευρετήριο
 
 ## Toolbar
 
-about-addressbook-toolbar-new-address-book =
-    .label = Νέο ευρετήριο
 about-addressbook-toolbar-add-address-book =
     .label = Προσθήκη τοπικού ευρετηρίου
 about-addressbook-toolbar-add-carddav-address-book =
@@ -18,8 +16,6 @@ books-pane-create-contact-button = Νέα επαφή
     .title = Δημιουργία νέας επαφής
 books-pane-add-book-button =
     .title = Προσθήκη ευρετηρίου
-books-pane-create-book-button =
-    .title = Δημιουργία νέου ευρετηρίου
 books-pane-create-list-button =
     .title = Δημιουργία νέας λίστας αλληλογραφίας
 books-pane-import-button = Εισαγωγή

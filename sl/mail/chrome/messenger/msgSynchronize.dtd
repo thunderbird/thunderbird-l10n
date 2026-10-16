@@ -18,5 +18,3 @@
 <!ENTITY selectButton.label "Izberi …">
 <!ENTITY selectButton.accesskey "e">
 <!ENTITY MsgSelectDesc.label "Izberite mape za pošto in novičarske skupine za rabo v načinu brez povezave.">
-<!ENTITY MsgSelectInd.label "Prenesi">
-<!ENTITY MsgSelectItems.label "Imeniki in novičarske skupine">

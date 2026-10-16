@@ -5,16 +5,3 @@
 <!-- extracted from AccountManager.xhtml -->
 <!ENTITY accountManagerTitle.label "Փոստարկղի կարգավորումներ">
 <!ENTITY accountManagerCloseButton.label "Փակել">
-<!ENTITY accountActionsButton.label "Գործողություններ">
-<!ENTITY accountActionsButton.accesskey "A">
-<!ENTITY addMailAccountButton.label "Ավելացնել փոստարկղ...">
-<!ENTITY addMailAccountButton.accesskey "Ա">
-<!ENTITY addIMAccountButton.label "Ավելացնել Զրույցի հաշիվ...">
-<!ENTITY addIMAccountButton.accesskey "Ա">
-<!ENTITY addFeedAccountButton.label "Ավելացնել Սնման հաշիվ…">
-<!ENTITY addFeedAccountButton.accesskey "Ս">
-<!ENTITY setDefaultButton.label "Նշել որպես սկզբնադիր">
-<!ENTITY setDefaultButton.accesskey "D">
-<!ENTITY removeButton.label "Ջնջել">
-<!ENTITY removeButton.accesskey "R">
-<!ENTITY addonsButton.label "Ընդլայնումներ և Ոճեր">

@@ -18,5 +18,3 @@
 <!ENTITY selectButton.label "Hautatu…">
 <!ENTITY selectButton.accesskey "a">
 <!ENTITY MsgSelectDesc.label "Hautatu lineaz kanpo erabiltzeko deskargatu nahi dituzun posta-karpetak eta berri-taldeak.">
-<!ENTITY MsgSelectInd.label "Deskargatu">
-<!ENTITY MsgSelectItems.label "Karpetak eta berri-taldeak">

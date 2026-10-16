@@ -23,8 +23,6 @@
 <!ENTITY closeConversationCmd.accesskey "M">
 <!ENTITY aliasCmd.label "Riemërtojeni">
 <!ENTITY aliasCmd.accesskey "R">
-<!ENTITY deleteCmd.label "Hiqe Kontaktin">
-<!ENTITY deleteCmd.accesskey "H">
 <!ENTITY openConversationButton.tooltip "Nisni një bisedë">
 <!ENTITY closeConversationButton.tooltip "Mbylleni bisedën">
 <!ENTITY addBuddyButton.label "Shtoni Një Kontakt">

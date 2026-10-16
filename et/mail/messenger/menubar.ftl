@@ -87,12 +87,6 @@ quit-app-shortcut =
 
 ## Mail Toolbar
 
-toolbar-junk-button =
-    .label = Rämpspost
-    .tooltiptext = R
-toolbar-not-junk-button =
-    .label = Pole rämpspost
-    .tooltiptext = o
 toolbar-delete-button =
     .label = Kustuta
     .tooltiptext = K

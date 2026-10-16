@@ -18,5 +18,3 @@
 <!ENTITY selectButton.label "Изабери…">
 <!ENTITY selectButton.accesskey "з">
 <!ENTITY MsgSelectDesc.label "Изаберите поштанске фасцикле и новинске групе за употребу ван мреже.">
-<!ENTITY MsgSelectInd.label "Преузми">
-<!ENTITY MsgSelectItems.label "Фасцикле и новинске групе">

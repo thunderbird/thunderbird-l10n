@@ -6,8 +6,6 @@ about-addressbook-title = Адресна книга
 
 ## Toolbar
 
-about-addressbook-toolbar-new-address-book =
-    .label = Нова адресна книга
 about-addressbook-toolbar-add-address-book =
     .label = Додати локальну адресну книгу
 about-addressbook-toolbar-add-carddav-address-book =
@@ -16,8 +14,6 @@ about-addressbook-toolbar-add-ldap-address-book =
     .label = Додати адресну книгу LDAP
 books-pane-create-contact-button = Новий контакт
     .title = Створити новий контакт
-books-pane-create-book-button =
-    .title = Створити нову адресну книгу
 books-pane-create-list-button =
     .title = Створити новий список розсилки
 books-pane-import-button = Імпорт

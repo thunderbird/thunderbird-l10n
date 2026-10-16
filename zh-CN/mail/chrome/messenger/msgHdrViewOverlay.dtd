@@ -33,8 +33,6 @@
 <!ENTITY hdrFollowupButton1.tooltip "向这个新闻组发送一封回复">
 <!ENTITY hdrForwardButton1.label "转发">
 <!ENTITY hdrForwardButton1.tooltip "转发此消息">
-<!ENTITY hdrJunkButton1.label "垃圾">
-<!ENTITY hdrJunkButton1.tooltip "标记为垃圾">
 <!ENTITY hdrTrashButton1.label "删除">
 <!ENTITY hdrTrashButton1.tooltip "删除此消息">
 <!ENTITY hdrViewToolbarShowFull.label "显示图标和文本">

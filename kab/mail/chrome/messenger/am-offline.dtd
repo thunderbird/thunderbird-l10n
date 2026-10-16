@@ -14,24 +14,10 @@
 <!ENTITY autosyncNotDownload.accesskey "z">
 <!ENTITY kb.label "KAT">
 <!ENTITY daysOld.label "ussan aya">
-<!ENTITY message.label "iznan">
 <!ENTITY nntpNotDownloadRead.label "Ɣaṛ iznan">
 <!ENTITY nntpNotDownloadRead.accesskey "Ɣ">
 <!ENTITY nntpDownloadMsg.label "Iznan yugaren">
 <!ENTITY nntpDownloadMsg.accesskey "z">
-<!ENTITY retentionCleanup.label "Akken ad terreḍ tallunt ɣef udebsi, iznan iqbuṛen zemren ad ttakksen i lebda.">
-<!ENTITY retentionCleanupImap.label "Akken ad terreḍ tallunt ɣef udebsi, iznan iqbuṛen zemren ad ttakksen i lebda, ama d idiganen neɣ wid yellan ɣef uqeddac anmeggag.">
-<!ENTITY retentionCleanupPop.label "Akken ad terreḍ tallunt ɣef udebsi, iznan iqbuṛen zemren ad ttakksen i lebda, ula d wid yellan ɣef uqeddac anmeggag.">
-<!ENTITY retentionKeepMsg.label "Kkes iznan nnig n">
-<!ENTITY retentionKeepMsg.accesskey "k">
-<!ENTITY retentionKeepAll.label "Ur tekkes ula d izen">
-<!ENTITY retentionKeepAll.accesskey "U">
-<!ENTITY retentionKeepRecent.label "Kkes akk acukan wid n melmi kan">
-<!ENTITY retentionKeepRecent.accesskey "c">
-<!ENTITY retentionApplyToFlagged.label "Ḥrez yal tikelt iznan s yetran">
-<!ENTITY retentionApplyToFlagged.accesskey "z">
-<!ENTITY nntpRemoveMsgBody.label "Kkes tafekka seg iznan nnig n">
-<!ENTITY nntpRemoveMsgBody.accesskey "k">
 <!ENTITY offlineSelectNntp.label "Fren igrawen n isallen i useqdec  deg uskar war tuqqna…">
 <!ENTITY offlineSelectNntp.accesskey "F">
 <!ENTITY offlineImapAdvancedOffline.label "Talqayt…">

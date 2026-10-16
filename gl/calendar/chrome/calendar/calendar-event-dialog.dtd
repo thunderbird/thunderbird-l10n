@@ -180,8 +180,6 @@
 <!ENTITY event.calendar.accesskey "C">
 <!ENTITY event.attendees.label "Asistentes:">
 <!ENTITY event.attendees.accesskey "A">
-<!ENTITY event.alldayevent.label "Evento para todo o día">
-<!ENTITY event.alldayevent.accesskey "d">
 <!ENTITY event.from.label "Inicio:">
 <!ENTITY event.from.accesskey "I">
 <!ENTITY task.from.label "Inicio:">
@@ -262,13 +260,6 @@
 <!ENTITY event.recurrence.monthly.fourth.label "O cuarto">
 <!ENTITY event.recurrence.monthly.fifth.label "O quinto">
 <!ENTITY event.recurrence.monthly.last.label "O último">
-<!ENTITY event.recurrence.pattern.monthly.week.1.label "Domingo">
-<!ENTITY event.recurrence.pattern.monthly.week.2.label "Luns">
-<!ENTITY event.recurrence.pattern.monthly.week.3.label "Martes">
-<!ENTITY event.recurrence.pattern.monthly.week.4.label "Mércores">
-<!ENTITY event.recurrence.pattern.monthly.week.5.label "Xoves">
-<!ENTITY event.recurrence.pattern.monthly.week.6.label "Venres">
-<!ENTITY event.recurrence.pattern.monthly.week.7.label "Sábado">
 <!ENTITY event.recurrence.repeat.dayofmonth.label "Día do mes">
 <!ENTITY event.recurrence.repeat.recur.label "Repetir os días">
 <!ENTITY event.recurrence.every.label "Cada:">
@@ -281,18 +272,6 @@
      event.recurrence.pattern.yearly.of.label is "of" in
      Edit recurrence window -> Recurrence pattern -> Repeat yearly -->
 <!ENTITY event.recurrence.pattern.yearly.of.label "">
-<!ENTITY event.recurrence.pattern.yearly.month.1.label "Xaneiro">
-<!ENTITY event.recurrence.pattern.yearly.month.2.label "Febreiro">
-<!ENTITY event.recurrence.pattern.yearly.month.3.label "Marzo">
-<!ENTITY event.recurrence.pattern.yearly.month.4.label "Abril">
-<!ENTITY event.recurrence.pattern.yearly.month.5.label "Maio">
-<!ENTITY event.recurrence.pattern.yearly.month.6.label "Xuño">
-<!ENTITY event.recurrence.pattern.yearly.month.7.label "Xullo">
-<!ENTITY event.recurrence.pattern.yearly.month.8.label "Agosto">
-<!ENTITY event.recurrence.pattern.yearly.month.9.label "Setembro">
-<!ENTITY event.recurrence.pattern.yearly.month.10.label "Outubro">
-<!ENTITY event.recurrence.pattern.yearly.month.11.label "Novembro">
-<!ENTITY event.recurrence.pattern.yearly.month.12.label "Decembro">
 <!ENTITY event.recurrence.yearly.every.label "Cada">
 <!ENTITY event.recurrence.yearly.first.label "O primeiro">
 <!ENTITY event.recurrence.yearly.second.label "O segundo">
@@ -300,27 +279,8 @@
 <!ENTITY event.recurrence.yearly.fourth.label "O cuarto">
 <!ENTITY event.recurrence.yearly.fifth.label "O quinto">
 <!ENTITY event.recurrence.yearly.last.label "O último">
-<!ENTITY event.recurrence.pattern.yearly.week.1.label "Domingo">
-<!ENTITY event.recurrence.pattern.yearly.week.2.label "Luns">
-<!ENTITY event.recurrence.pattern.yearly.week.3.label "Martes">
-<!ENTITY event.recurrence.pattern.yearly.week.4.label "Mércores">
-<!ENTITY event.recurrence.pattern.yearly.week.5.label "Xoves">
-<!ENTITY event.recurrence.pattern.yearly.week.6.label "Venres">
-<!ENTITY event.recurrence.pattern.yearly.week.7.label "Sábado">
 <!ENTITY event.recurrence.pattern.yearly.day.label "día">
 <!ENTITY event.recurrence.of.label "de">
-<!ENTITY event.recurrence.pattern.yearly.month2.1.label "Xaneiro">
-<!ENTITY event.recurrence.pattern.yearly.month2.2.label "Febreiro">
-<!ENTITY event.recurrence.pattern.yearly.month2.3.label "Marzo">
-<!ENTITY event.recurrence.pattern.yearly.month2.4.label "Abril">
-<!ENTITY event.recurrence.pattern.yearly.month2.5.label "Maio">
-<!ENTITY event.recurrence.pattern.yearly.month2.6.label "Xuño">
-<!ENTITY event.recurrence.pattern.yearly.month2.7.label "Xullo">
-<!ENTITY event.recurrence.pattern.yearly.month2.8.label "Agosto">
-<!ENTITY event.recurrence.pattern.yearly.month2.9.label "Setembro">
-<!ENTITY event.recurrence.pattern.yearly.month2.10.label "Outubro">
-<!ENTITY event.recurrence.pattern.yearly.month2.11.label "Novembro">
-<!ENTITY event.recurrence.pattern.yearly.month2.12.label "Decembro">
 <!ENTITY event.recurrence.range.label "Intervalo de repetición">
 <!ENTITY event.recurrence.forever.label "Sen data de remate">
 <!ENTITY event.recurrence.repeat.for.label "Crear">

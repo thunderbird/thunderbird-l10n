@@ -56,14 +56,7 @@ account-hub-email-connect-button = Zwjazać
 account-hub-result-incoming-legend = Dochadźace
 account-hub-result-outgoing-legend = Wuchadźace
 account-hub-all-servers-legend = Wšě serwery
-account-hub-incoming-server-legend = Dochadny serwer
-account-hub-outgoing-server-legend = Wuchadny serwer
-account-hub-result-incoming-server-legend = Dochadny serwer
-    .title = Dochadny serwer
-account-hub-result-outgoing-server-legend = Wuchadny serwer
-    .title = Wuchadny serwer
 account-hub-protocol-label = Protokol
-account-hub-hostname-label = Hostmjeno
 account-hub-result-hostname-label = Hostmjeno
     .title = Hostmjeno
 account-hub-result-socket-type-label = Zwiskowa wěstota
@@ -94,10 +87,6 @@ account-hub-result-auth-ntlm = NTLM
 account-hub-result-auth-external = Eksterny
 account-hub-result-auth-oauth2 = OAuth2
 account-hub-on-port-label = Port
-account-hub-result-authentication-label = Awtentifikacija
-    .title = Awtentifikacija
-account-hub-port-label = Port
-    .title = Stajće portowe čisło na 0 za awtomatiske spóznaće
 account-hub-auto-description = { -brand-short-name } budźe pospytować, pola awtomatisce wotkryć, kotrež su prózdne.
 account-hub-ssl-label = Zwiskowa wěstota
 
@@ -105,8 +94,6 @@ account-hub-ssl-label = Zwiskowa wěstota
 
 account-hub-ssl-autodetect-option =
     .label = Awtomatisce zwěsćić
-account-hub-ssl-no-authentication-option =
-    .label = Žana awtentifikacija
 account-hub-ssl-cleartext-password-option =
     .label = Normalne hesło
 account-hub-ssl-encrypted-password-option =
@@ -268,7 +255,6 @@ account-hub-email-exchange-settings = Nastajenja Exchange
 account-hub-email-connect-settings = Zwjazajće swoje e-mejlowe nastajenja
 account-hub-email-protocol-select-header = Wubjerće typ e-mejloweho konta
 account-hub-email-protocol-select-additional-info = Su přidatne informacije trěbne, zo byšće tute konto konfigurował.
-account-hub-email-config-found = Wubjerće typ swojeho e-mejloweho konta
 account-hub-email-enter-password = Zapodajće hesło swojeho e-mejloweho konta
 account-hub-email-sync-accounts = Synchronizujće swoje protyki a adresniki
 account-hub-test-configuration = Testować
@@ -295,7 +281,6 @@ account-hub-config-success-description-guess = Konfiguracija přez probowanje zw
 account-hub-config-success-description-disk = Konfiguracija w instalaciji { -brand-short-name } namakana.
 account-hub-config-success-description-isp = Konfiguracija při e-mejlowym poskićowarju namakana.
 account-hub-config-success-description-read-more = Móžeće <a data-l10n-name="automated-setup-link">čitać, kak awtomatizowana e-mejlowa konfiguracija funguje.</a>
-account-hub-config-success = Konfiguracija je so w Mozilla ISPDB namakała
 account-hub-password-info = Waše přizjewjenske daty budu so jenož lokalnje na wašim ličaku składować
 account-hub-creating-account = Konto so załožuje…
 account-hub-sync-accounts-found = { -brand-short-name } je někotre zwjazane słužby namakał
@@ -328,10 +313,8 @@ account-hub-username-error-text = Wužiwarske mjeno je trěbne
 account-hub-manual-config-error-summary = Prošu rozrisajće slědowace zmylki:
 account-hub-oauth-pending = Čaka so za awtorizaciju we wuskakowacym woknje přizjewjenja…
 account-hub-addon-install-button = Instalować
-account-hub-addon-install-needed = { -brand-short-name } wot doma tutón serwer njepodpěruje. Zo by přistup k e-mejli Exchange měł, <a data-l10n-name="addon-install">instalujće přidatk třećeho poskićowarja kaž Owl (płaćomny).</a>
 account-hub-addon-error = Instalacija přidatka je so nimokuliła. Prošu spytajće hišće raz abo stajće so z awtorom přidatka do zwiska, zo byšće pomoc dóstał.
 account-hub-select-security-warning = <span data-l10n-name="error-text">Warnowanje: Njewěsty e-mejlowy serwer je so wotkrył.</span> Tutón serwer zaklučowanje nima, wozjawnja waše hesło a waše daty. Stajće so ze swojim administratorom do zwiska, zo byšće zwisk zawěsćił abo na swójske riziko pokročował. <a data-l10n-name="error-link">Hlejće Husto stajene prašenja za dalše informacije.</a>
-account-hub-security-warning = <span data-l10n-name="security-warning">Warnowanje: Njewěsty e-mejlowy serwer je so wotkrył.</span> Tutón serwer zaklučowanje nima, wozjawnja waše hesło a waše daty. Stajće so ze swojim administratorom do zwiska, zo byšće zwisk zawěsćił abo na swójske riziko pokročował. <a data-l10n-name="faq-link">Hlejće Husto stajene prašenja za dalše informacije.</a>
 account-hub-account-authentication-error = Awtentifikaciski zmylk.
 account-hub-add-address-book = Adresnik přidać
 address-book-sync-existing-icon =
@@ -363,7 +346,6 @@ account-hub-address-book-sync-books-data =
         [few] { $addressBooks } adresniki k dispoziciji
        *[other] { $addressBooks } adresnikow k dispoziciji
     }
-account-hub-fetching-sync-accounts = Adresniki a protyki namakać…
 address-book-sync-existing-description = Eksistowace konta so wotwołuja…
 account-hub-select-address-book-account = Wubjerće konto z adresnikami
 # $synced (Number) - The number of address books that are synced.

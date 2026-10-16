@@ -17,7 +17,6 @@ webext-perms-description-compose = Lês en pas jo e-mailberjochten oan wylst jo 
 webext-perms-description-compose-send = Ut jo namme opstelde e-mailberjochten ferstjoere
 webext-perms-description-compose-save = Gearstalde e-mailberjochten bewarje as konsepten of sjabloanen
 webext-perms-description-experiment-access = Dizze add-on hat folsleine, ûnbeheinde tagong ta { -brand-short-name } en jo kompjûter.
-webext-perms-description-experiment = Krij folsleine, ûnbeheinde tagong ta { -brand-short-name } en jo kompjûter
 webext-perms-description-messagesImport = Berjochten yn Thunderbird ymportearje
 webext-perms-description-messagesModify = Lês en bewurkje jo e-mailberjochten lykas se oan jo toand wurde
 webext-perms-description-messagesModifyPermanent = De boarne fan jo berjochten permanint wizigje (ynklusyf kopteksten, tekst en bylagen)

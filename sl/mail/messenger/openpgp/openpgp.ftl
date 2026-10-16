@@ -410,7 +410,6 @@ key-do-you-accept = Ali sprejemate ta ključ za preverjanje digitalnih podpisov 
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Sporočila ni mogoče poslati, ker je prišlo do težave z vašim osebnim ključem. { $problem }
-window-locked = Okno za pisanje sporočila je zaklenjeno; pošiljanje preklicano
 
 ## Strings in keyserver.sys.mjs
 
@@ -445,9 +444,6 @@ converter-decrypt-body-failed =
 ## Strings filters.sys.mjs
 
 filter-folder-required = Izbrati morate ciljno mapo.
-filter-decrypt-move-warn-experimental =
-    Pozor – dejanje filtra "Trajno dešifriraj" lahko privede do uničenja sporočil.
-    Močno priporočamo, da najprej poskusite s filtrom "Ustvari dešifrirano kopijo", natančno preverite izid in uporabite ta filter šele, ko ste zadovoljni z izidom.
 filter-term-pgpencrypted-label = Šifrirano z OpenPGP
 filter-key-required = Izbrati morate ključ prejemnika.
 # Variables:
@@ -596,7 +592,6 @@ fail-key-import = Napaka – uvažanje ključa ni uspelo
 # Variables:
 # $output (String) - File that writing was attempted to.
 file-write-failed = Pisanje v datoteko { $output } ni bilo mogoče
-confirm-permissive-import = Uvoz ni uspel. Ključ, ki ga poskušate uvoziti, je morda poškodovan ali uporablja neznane atribute. Ali želite poskusiti uvoziti dele, ki so pravilni? To lahko povzroči uvoz nepopolnih in neuporabnih ključev.
 help-button = Pomoč
 
 ## Strings used in trust.sys.mjs
@@ -638,9 +633,6 @@ key-man-button-generate-key-continue = &Nadaljuj ustvarjanje ključev
 
 failed-decrypt = Napaka – dešifriranje ni uspelo
 fix-broken-exchange-msg-failed = Tega sporočila ni mogoče popraviti.
-# Variables:
-# $attachment (String) - File name of the signature file.
-attachment-no-match-from-signature = Datoteke s podpisom "{ $attachment }" ni mogoče povezati s priponko
 # Variables:
 # Variables:
 # $attachment (String) - File name of the attachment.
@@ -746,8 +738,3 @@ enig-confirm = Potrditev OpenPGP
 
 dlg-button-retry = &Poskusi znova
 dlg-button-skip = Pre&skoči
-
-## Strings used in enigmailMsgBox.js
-
-enig-alert-title =
-    .title = Opozorilo OpenPGP

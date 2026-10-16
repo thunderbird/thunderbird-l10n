@@ -217,7 +217,6 @@
 <!ENTITY smiley7Cmd.label "I pavendosur">
 <!ENTITY smiley8Cmd.label "I befasuar">
 <!ENTITY smiley9Cmd.label "Puthje">
-<!ENTITY smiley10Cmd.label "Gërthitje">
 <!ENTITY smiley11Cmd.label "Cool">
 <!ENTITY smiley12Cmd.label "Money-Mouth">
 <!ENTITY smiley13Cmd.label "Foot-in-Mouth">
@@ -267,12 +266,6 @@
 <!ENTITY convertRegularAttachment.accesskey "B">
 <!ENTITY attachPage.label "Bashkëngjitni Faqe Web…">
 <!ENTITY attachPage.accesskey "q">
-<!-- Attachment Pane Header Bar Context Menu
-     LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
-     Should use the same wording as startExpandedCmd.label
-     in msgHdrViewOverlay.dtd. -->
-<!ENTITY initiallyShowAttachmentPane.label "Shfaqe Fillimisht Kuadratin e Bashkëngjitjeve">
-<!ENTITY initiallyShowAttachmentPane.accesskey "S">
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Shtoni Fjalorë…">
 <!ENTITY spellAddDictionaries.accesskey "S">

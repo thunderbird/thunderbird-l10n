@@ -216,7 +216,6 @@
 <!ENTITY smiley7Cmd.label "หน้าลังเล">
 <!ENTITY smiley8Cmd.label "หน้าประหลาดใจ">
 <!ENTITY smiley9Cmd.label "หน้าจูบ">
-<!ENTITY smiley10Cmd.label "หน้าตะโกน">
 <!ENTITY smiley11Cmd.label "หน้าเท่">
 <!ENTITY smiley12Cmd.label "หน้ามีปากรูปเงิน">
 <!ENTITY smiley13Cmd.label "หน้าพลั้งปาก">
@@ -266,12 +265,6 @@
 <!ENTITY convertRegularAttachment.accesskey "ไ">
 <!ENTITY attachPage.label "แนบหน้าเว็บ…">
 <!ENTITY attachPage.accesskey "ห">
-<!-- Attachment Pane Header Bar Context Menu
-     LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
-     Should use the same wording as startExpandedCmd.label
-     in msgHdrViewOverlay.dtd. -->
-<!ENTITY initiallyShowAttachmentPane.label "แสดงบานหน้าต่างไฟล์แนบตั้งแต่เริ่มต้น">
-<!ENTITY initiallyShowAttachmentPane.accesskey "ร">
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "เพิ่มพจนานุกรม…">
 <!ENTITY spellAddDictionaries.accesskey "พ">

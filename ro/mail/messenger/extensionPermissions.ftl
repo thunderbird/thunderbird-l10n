@@ -17,7 +17,6 @@ webext-perms-description-compose = Citești și modifici mesajele pe e-mail pe m
 webext-perms-description-compose-send = Trimite mesaje e-mail compuse în numele tău
 webext-perms-description-compose-save = Salvează mesaje e-mail compuse ca schițe sau șabloane
 webext-perms-description-experiment-access = Acest supliment va avea acces complet și nerestricționat la { -brand-short-name } și la calculatorul tău.
-webext-perms-description-experiment = Acces complet, nerestricționat la { -brand-short-name } și la calculator
 webext-perms-description-messagesImport = Imporți mesaje în Thunderbird
 webext-perms-description-messagesModify = Citești și modifici mesaje de e-mail așa cum sunt afișate
 webext-perms-description-messagesModifyPermanent = Modifici permanent sursa mesajelor (inclusiv anteturi, corpul mesajelor și atașamentele)

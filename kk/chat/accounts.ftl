@@ -2,15 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-new-account-label = Жаңа тіркелгі
 # Instant messaging account status window for Thunderbird
 accounts-window-title = Лезде хабарласу қалып-күйі
 account-manager-add-account =
     .label = { add-account-label }
     .accesskey = A
-account-manager-new-account =
-    .label = { new-account-label }
-    .accesskey = Ж
 account-manager-close =
     .label = Жабу
     .accesskey = Ж
@@ -19,7 +15,6 @@ account-manager-close-command =
 # This title must be short, displayed with a big font size
 account-manager-no-account-title = Бапталған тіркелгілер жоқ
 account-manager-no-accounts-description = { -brand-short-name } үшін сізге тіркелгіні баптауға көмектесу үшін { add-account-label } батырмасына басыңыз.
-account-manager-no-account-description = { -brand-short-name } үшін сізге тіркелгіні баптауға көмектесу үшін { new-account-label } батырмасына басыңыз.
 account-auto-sign-on =
     .label = Іске қосылған кезде кіру
     .accesskey = к

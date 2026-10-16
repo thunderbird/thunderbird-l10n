@@ -5,16 +5,3 @@
 <!-- extracted from AccountManager.xhtml -->
 <!ENTITY accountManagerTitle.label "Kontoindstillinger">
 <!ENTITY accountManagerCloseButton.label "Luk">
-<!ENTITY accountActionsButton.label "Kontohåndtering">
-<!ENTITY accountActionsButton.accesskey "K">
-<!ENTITY addMailAccountButton.label "Tilføj mailkonto…">
-<!ENTITY addMailAccountButton.accesskey "T">
-<!ENTITY addIMAccountButton.label "Tilføj Chat-konto…">
-<!ENTITY addIMAccountButton.accesskey "C">
-<!ENTITY addFeedAccountButton.label "Tilføj feed-konto…">
-<!ENTITY addFeedAccountButton.accesskey "f">
-<!ENTITY setDefaultButton.label "Vælg som standard">
-<!ENTITY setDefaultButton.accesskey "s">
-<!ENTITY removeButton.label "Fjern konto">
-<!ENTITY removeButton.accesskey "R">
-<!ENTITY addonsButton.label "Udvidelser &amp; temaer">

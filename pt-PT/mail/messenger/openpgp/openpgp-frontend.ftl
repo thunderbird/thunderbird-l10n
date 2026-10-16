@@ -43,14 +43,9 @@ openpgp-cannot-decrypt-because-mdc =
     A mesma pode ter sido modificada durante a comunicação, com a intenção de roubar o respetivo conteúdo.
     Para evitar este risco, o conteúdo não é mostrado.
 openpgp-cannot-decrypt-because-missing-key = A chave secreta necessária para desencriptar esta mensagem não está disponível.
-openpgp-partially-signed =
-    Apenas um subconjunto desta mensagem foi assinado digitalmente utilizando o OpenPGP.
-    Se clicar no botão de verificação, as partes desprotegidas serão ocultadas e será mostrado o estado da assinatura digital.
 openpgp-partially-encrypted =
     Apenas um subconjunto desta mensagem foi encriptado com recurso ao OpenPGP.
     As partes legíveis da mensagem que já estão a ser mostradas não foram encriptadas.
     Se clicar no botão desencriptar, será mostrado o conteúdo das partes encriptadas.
-openpgp-reminder-partial-display = Lembrete: a mensagem apresentada abaixo é apenas um subconjunto da mensagem original.
-openpgp-partial-verify-button = Verificar
 openpgp-partial-decrypt-button = Desencriptar
 openpgp-unexpected-key-for-you = Aviso: Esta mensagem contém uma chave OpenPGP desconhecida que se refere a um dos seus próprios endereços de e-mail. Se esta não é uma das suas próprias chaves, pode ser uma tentativa para enganar outros correspondentes.

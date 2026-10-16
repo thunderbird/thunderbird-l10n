@@ -13,8 +13,6 @@
 <!ENTITY undoCmd.accesskey "F">
 <!ENTITY redoCmd.label "Gendan">
 <!ENTITY redoCmd.accesskey "G">
-<!ENTITY deleteCmd.label "Slet">
-<!ENTITY deleteCmd.accesskey "S">
 <!ENTITY customizeCmd.label "Tilpas">
 <!ENTITY customizeCmd.accesskey "T">
 <!ENTITY viewMenu.label "Vis">

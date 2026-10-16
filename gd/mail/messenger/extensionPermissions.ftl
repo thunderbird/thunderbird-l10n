@@ -16,7 +16,6 @@ webext-perms-description-addressBooks = na leabhraichean-sheòlaidhean is an luc
 webext-perms-description-compose = Na teachdaireachdan puist-d agad a leughadh is atharrachadh mar a sgrìobhas is mar a chuireas tu iad
 webext-perms-description-compose-send = Puist-d a sgrìobh thu a chur às do leth
 webext-perms-description-compose-save = Sàbhail teachdaireachdan puist-d a sgrìobh thu mar dhreachdan no teamplaidean
-webext-perms-description-experiment = Làn-inntrigeadh gun chuingeachadh dha { -brand-short-name } agus dhan choimpiutair agad
 webext-perms-description-messagesImport = Ion-phortaich teachdaireachdan gu Thunderbird
 webext-perms-description-messagesModify = Na teachdaireachdan puist-d agad a leughadh is atharrachadh mar a thèid an taisbeanadh dhut
 webext-perms-description-messagesMove = Dèan lethbhreac dhe na teachdaireachdan puist-d agad no gluais iad (fiù do phasgan an sgudail)

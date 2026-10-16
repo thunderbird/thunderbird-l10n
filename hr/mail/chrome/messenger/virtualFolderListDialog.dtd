@@ -3,5 +3,3 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY virtualFolderListTitle.title "Odaberi mapu(e)">
 <!ENTITY virtualFolderDesc.label "Odaberite mape za pretraživanje:">
-<!ENTITY folderName.label "Naziv mape">
-<!ENTITY folderSearch.label "Traži">

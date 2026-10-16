@@ -432,7 +432,6 @@ key-verification = Verifiera nyckelns fingeravtryck med en annan säker kommunik
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Det går inte att skicka meddelandet eftersom det finns ett problem med din personliga nyckel. { $problem }
-window-locked = Skrivfönstret är låst; skicka avbruten
 
 ## Strings in keyserver.sys.mjs
 
@@ -466,9 +465,6 @@ converter-decrypt-body-failed =
 ## Strings filters.sys.mjs
 
 filter-folder-required = Du måste välja en målmapp.
-filter-decrypt-move-warn-experimental =
-    Varning - filteråtgärden "Dekryptera permanent" kan leda till förstörda meddelanden.
-    Vi rekommenderar starkt att du först testar filtret "Skapa dekrypterad kopia", testar resultatet noggrant och börjar bara använda detta filter när du är nöjd med resultatet.
 filter-term-pgpencrypted-label = OpenPGP krypterat
 filter-key-required = Du måste välja en mottagarnyckel.
 # Variables:
@@ -631,7 +627,6 @@ fail-key-import = Fel - nyckelimport misslyckades
 # $output (String) - File that writing was attempted to.
 file-write-failed = Det gick inte att skriva till filen { $output }
 no-pgp-block = Fel - inget giltigt, armerat OpenPGP-datablock hittades
-confirm-permissive-import = Importen misslyckades. Nyckeln du försöker importera kan vara skadad eller använda okända attribut. Vill du försöka importera de korrekta delarna? Detta kan resultera i import av ofullständiga och oanvändbara nycklar.
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = Vissa av de importerade hemliga nycklarna annonserar en funktion som inte stöds. Om du använder en sådan nyckel som din personliga nyckel kan korrespondenter skicka dig e-postmeddelanden eller publika nycklar i ett inkompatibelt format. Detta påverkar importerade hemliga nycklar med följande fingeravtryck: { $fingerprints }.
@@ -690,9 +685,6 @@ key-man-button-generate-key-continue = &Fortsätt nyckelgenerering
 
 failed-decrypt = Fel - dekryptering misslyckades
 fix-broken-exchange-msg-failed = Lyckades inte reparera meddelandet.
-# Variables:
-# $attachment (String) - File name of the signature file.
-attachment-no-match-from-signature = Det gick inte att matcha signaturfilen '{ $attachment }' till en bilaga
 # Variables:
 # Variables:
 # $attachment (String) - File name of the attachment.
@@ -803,8 +795,3 @@ enig-confirm = OpenPGP Bekräftelse
 
 dlg-button-retry = &Försök igen
 dlg-button-skip = &Hoppa över
-
-## Strings used in enigmailMsgBox.js
-
-enig-alert-title =
-    .title = OpenPGP-varning

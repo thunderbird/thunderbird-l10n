@@ -4,10 +4,6 @@
 
 open-preferences-sidebar-button2 = Configuración de { -brand-short-name }
 open-addons-sidebar-button = Complementos e temas
-account-action-add-newsgroup-account =
-    .label = Engadir unha conta de grupo de noticias...
-    .accesskey = N
-account-tree-create-account-button = Nova conta
 account-tree-add-mail-account =
     .label = Conta de correo electrónico...
     .accesskey = C

@@ -83,8 +83,6 @@ policy-RequestedLocales = Sbadu tabdart n tutlayin yettwasutren i usnas akken i 
 policy-SanitizeOnShutdown2 = Sfeḍ isefka n tunigin deg usexsi.
 policy-SearchEngines = Swel iɣewwaṛen n umsedday n unadi. Tasertit-a tella kan deg llqem Extended Support Release (ESR).
 policy-SearchSuggestEnabled = Ad yermed neɣ ad yessens isumar n unadi.
-# For more information, see https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
-policy-SecurityDevices = Sebded izegrar n PKCS #11.
 policy-SSLVersionMax = Sbadu llqem afellay n SSL.
 policy-SSLVersionMin = Sbadu llqem adday n SSL.
 policy-SupportMenu = Rnu aferdis n wumuɣ n tallelt yugnen ɣer wumuɣ n uɛiwen.

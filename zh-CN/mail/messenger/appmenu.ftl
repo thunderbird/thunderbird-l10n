@@ -30,11 +30,6 @@ appmenu-sync-sign-out =
 
 ## Add Account
 
-appmenu-new-account-panel-title =
-    .title = 添加账户
-appmenu-new-account-panel =
-    .label = 添加账户
-    .accesskey = N
 appmenu-new-email-account =
     .label = 邮箱
     .accesskey = E
@@ -58,11 +53,6 @@ appmenu-add-account-panel =
 
 ## New Account / Address Book
 
-appmenu-newab-panel-title =
-    .title = 新建通讯录
-appmenu-newab-panel =
-    .label = 新建通讯录
-    .accesskey = A
 appmenu-new-addressbook =
     .label = 本地通讯录
     .accesskey = A

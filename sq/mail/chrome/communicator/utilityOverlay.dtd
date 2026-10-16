@@ -13,8 +13,6 @@
 <!ENTITY undoCmd.accesskey "Z">
 <!ENTITY redoCmd.label "Ribëje">
 <!ENTITY redoCmd.accesskey "R">
-<!ENTITY deleteCmd.label "Fshije">
-<!ENTITY deleteCmd.accesskey "F">
 <!ENTITY customizeCmd.label "Përshtateni">
 <!ENTITY customizeCmd.accesskey "t">
 <!ENTITY viewMenu.label "Shfaqje">

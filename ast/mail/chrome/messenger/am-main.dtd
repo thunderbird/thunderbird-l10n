@@ -32,7 +32,4 @@
 <!ENTITY attachVCard.accesskey "u">
 <!ENTITY manageIdentities.label "Alministrar identidaes…">
 <!ENTITY manageIdentities.accesskey "M">
-<!-- LOCALIZATION NOTE (smtpName.label) : do not translate "SMTP" in below line -->
-<!ENTITY smtpName.label "Sirvidor de salida (SMTP):">
-<!ENTITY smtpName.accesskey "v">
 <!ENTITY smtpDefaultServer.label "Usar sirvidor predetermináu">

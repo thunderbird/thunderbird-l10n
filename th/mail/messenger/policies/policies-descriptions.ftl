@@ -85,8 +85,6 @@ policy-RequestedLocales = ตั้งค่ารายการรูปแบ
 policy-SanitizeOnShutdown2 = ล้างข้อมูลการนำทางเมื่อปิดเครื่อง
 policy-SearchEngines = กำหนดค่าการตั้งค่าเครื่องมือค้นหา นโยบายนี้ใช้ได้บนรุ่น Extended Support Release (ESR) เท่านั้น
 policy-SearchSuggestEnabled = เปิดใช้งานหรือปิดใช้งานข้อเสนอแนะการค้นหา
-# For more information, see https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
-policy-SecurityDevices = ติดตั้งโมดูล PKCS #11
 policy-SSLVersionMax = ตั้งรุ่น SSL สูงสุด
 policy-SSLVersionMin = ตั้งรุ่น SSL ต่ำสุด
 policy-SupportMenu = เพิ่มรายการเมนูฝ่ายสนับสนุนที่กำหนดเองไปยังเมนูช่วยเหลือ

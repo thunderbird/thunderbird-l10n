@@ -6,8 +6,6 @@ about-addressbook-title = Książka adresowa
 
 ## Toolbar
 
-about-addressbook-toolbar-new-address-book =
-    .label = Nowa książka adresowa
 about-addressbook-toolbar-add-address-book =
     .label = Dodaj lokalną książkę adresową
 about-addressbook-toolbar-add-carddav-address-book =
@@ -18,8 +16,6 @@ books-pane-create-contact-button = Nowy kontakt
     .title = Utwórz nowy kontakt
 books-pane-add-book-button =
     .title = Dodaj książkę adresową
-books-pane-create-book-button =
-    .title = Utwórz nową książkę adresową
 books-pane-create-list-button =
     .title = Utwórz nową listę dystrybucyjną
 books-pane-import-button = Importuj

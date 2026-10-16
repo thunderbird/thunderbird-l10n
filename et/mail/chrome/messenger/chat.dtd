@@ -23,8 +23,6 @@
 <!ENTITY closeConversationCmd.accesskey "l">
 <!ENTITY aliasCmd.label "Alias…">
 <!ENTITY aliasCmd.accesskey "i">
-<!ENTITY deleteCmd.label "Eemalda">
-<!ENTITY deleteCmd.accesskey "m">
 <!ENTITY openConversationButton.tooltip "Alusta vestlust">
 <!ENTITY closeConversationButton.tooltip "Sulge vestlus">
 <!ENTITY addBuddyButton.label "Lisa kontakt">

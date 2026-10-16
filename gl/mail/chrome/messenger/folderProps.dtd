@@ -10,22 +10,6 @@
 <!ENTITY folderRebuildSummaryFile.explanation "A veces o ficheiro de índice de cartafol (.msf) dánase e pode que pareza que faltan mensaxes ou que se seguen amosando mensaxes borradas: reparar o cartafol debería resolver estes problemas.">
 <!ENTITY folderIncludeInGlobalSearch.label "Incluír as mensaxes deste cartafol nos resultados da Busca global">
 <!ENTITY folderIncludeInGlobalSearch.accesskey "g">
-<!ENTITY retention.label "Política de retención">
-<!ENTITY retentionUseAccount.label "Usar as configuracións da miña conta">
-<!ENTITY retentionUseAccount.accesskey "U">
-<!ENTITY daysOld.label "días de antigüidade">
-<!ENTITY message.label "mensaxes">
-<!ENTITY retentionCleanup.label "Para recuperar espazo no disco, as mensaxes antigas poden eliminarse permanentemente">
-<!ENTITY retentionCleanupImap.label "Para recuperar espazo en disco, as mensaxes antigas poden eliminarse permanentemente, tanto as copias locais como os orixinais no servidor remoto:">
-<!ENTITY retentionCleanupPop.label "Para recuperar espazo en disco, incluíndo os orixinais no servidor remoto:">
-<!ENTITY retentionDeleteMsg.label "Eliminar mensaxes maiores que">
-<!ENTITY retentionDeleteMsg.accesskey "m">
-<!ENTITY retentionKeepAll.label "Non eliminar ningunha mensaxe">
-<!ENTITY retentionKeepAll.accesskey "N">
-<!ENTITY retentionKeepRecent.label "Eliminar todas excepto as máis recentes">
-<!ENTITY retentionKeepRecent.accesskey "l">
-<!ENTITY retentionApplyToFlagged.label "Sempre manter mensaxes marcadas">
-<!ENTITY retentionApplyToFlagged.accesskey "e">
 <!ENTITY folderSynchronizationTab.label "Sincronización">
 <!ENTITY folderCheckForNewMessages2.label "Cando obteña novas mensaxes parar esta conta, comprobar sempre este cartafol">
 <!ENTITY folderCheckForNewMessages2.accesskey "c">

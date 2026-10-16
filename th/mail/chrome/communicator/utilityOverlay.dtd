@@ -13,8 +13,6 @@
 <!ENTITY undoCmd.accesskey "ล">
 <!ENTITY redoCmd.label "ทำซ้ำ">
 <!ENTITY redoCmd.accesskey "ท">
-<!ENTITY deleteCmd.label "ลบ">
-<!ENTITY deleteCmd.accesskey "บ">
 <!ENTITY customizeCmd.label "ปรับแต่ง">
 <!ENTITY customizeCmd.accesskey "ป">
 <!ENTITY viewMenu.label "มุมมอง">

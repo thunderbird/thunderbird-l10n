@@ -638,16 +638,6 @@ hide-calendar-name =
 show-only-calendar-name =
     .label = 仅显示 { $name }
     .accesskey = O
-# $name calendar name
-show-calendar-label =
-    .label = 显示 { $name }
-# $name calendar name
-hide-calendar-label =
-    .label = 隐藏 { $name }
-# uses the access key calendar.context.showonly.accesskey
-# $name calendar name
-show-only-calendar =
-    .label = 仅显示 { $name }
 # LOCALIZATION NOTE (modify-conflict-*)
 # Used by the event dialog to resolve item modification conflicts.
 modify-conflict-prompt-title = 条目修改冲突

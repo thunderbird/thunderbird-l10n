@@ -88,12 +88,6 @@ quit-app-shortcut =
 
 ## Mail Toolbar
 
-toolbar-junk-button =
-    .label = Ανεπιθύμητα
-    .tooltiptext = Επισήμανση επιλεγμένων μηνυμάτων ως ανεπιθύμητων
-toolbar-not-junk-button =
-    .label = Επιθυμητά
-    .tooltiptext = Επισήμανση επιλεγμένων μηνυμάτων ως επιθυμητών
 toolbar-delete-button =
     .label = Διαγραφή
     .tooltiptext = Διαγραφή επιλεγμένων μηνυμάτων ή φακέλου

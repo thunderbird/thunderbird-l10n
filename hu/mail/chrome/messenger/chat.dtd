@@ -23,8 +23,6 @@
 <!ENTITY closeConversationCmd.accesskey "z">
 <!ENTITY aliasCmd.label "Átnevezés">
 <!ENTITY aliasCmd.accesskey "n">
-<!ENTITY deleteCmd.label "Partner eltávolítása">
-<!ENTITY deleteCmd.accesskey "e">
 <!ENTITY openConversationButton.tooltip "Beszélgetés kezdése">
 <!ENTITY closeConversationButton.tooltip "Beszélgetés bezárása">
 <!ENTITY addBuddyButton.label "Partner hozzáadása">

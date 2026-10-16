@@ -414,7 +414,6 @@ key-verification = 이메일 이외의 보안 통신 채널을 사용하여 키�
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = 개인 키에 문제가 있어 메시지를 보낼 수 없습니다. { $problem }
-window-locked = 작성 창이 잠겨 있습니다. 전송 취소
 
 ## Strings in keyserver.sys.mjs
 
@@ -448,9 +447,6 @@ converter-decrypt-body-failed =
 ## Strings filters.sys.mjs
 
 filter-folder-required = 대상 폴더를 선택해야 합니다.
-filter-decrypt-move-warn-experimental =
-    경고- "영구적으로 암호 해독"필터 동작으로 인해 메시지가 손상 될 수 있습니다.
-    먼저 "복호화 된 복사본 만들기"필터를 시도하고 결과를 신중하게 테스트 한 다음, 결과에 만족할 때만 이 필터를 사용하는 것이 좋습니다.
 filter-term-pgpencrypted-label = OpenPGP 암호화
 filter-key-required = 수신자 키를 선택해야 합니다.
 # Variables:
@@ -613,7 +609,6 @@ fail-key-import = 오류 - 키 가져 오기 실패
 # $output (String) - File that writing was attempted to.
 file-write-failed = { $output } 파일 쓰기 실패
 no-pgp-block = 오류 - 유효한 Armored OpenPGP 데이터 블록 없음
-confirm-permissive-import = 가져 오지 못했습니다. 가져 오려는 키가 손상되었거나 알 수 없는 속성을 사용할 수 있습니다. 올바른 부분을 가져 오시겠습니까? 이로 인해 불완전하고 사용할 수 없는 키를 가져올 수도 있습니다.
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = 가져온 비밀 키 중 일부가 지원되지 않는 기능을 나타냅니다. 개인 키와 같은 키를 사용하는 경우 상대방이 호환되지 않는 형식으로 이메일이나 공개 키를 보낼 수 있습니다. 이는 { $fingerprints } 지문이 있는 가져온 비밀 키에 영향을 줍니다.
@@ -672,9 +667,6 @@ key-man-button-generate-key-continue = 키 생성 계속
 
 failed-decrypt = 오류- 복호화 실패
 fix-broken-exchange-msg-failed = 메시지를 복구하지 못했습니다.
-# Variables:
-# $attachment (String) - File name of the signature file.
-attachment-no-match-from-signature = 서명 파일 '{ $attachment }'를 첨부 파일과 일치시킬 수 없음
 # Variables:
 # Variables:
 # $attachment (String) - File name of the attachment.
@@ -785,8 +777,3 @@ enig-confirm = OpenPGP 확인
 
 dlg-button-retry = 재시도
 dlg-button-skip = 건너뛰기
-
-## Strings used in enigmailMsgBox.js
-
-enig-alert-title =
-    .title = OpenPGP 경고

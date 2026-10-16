@@ -23,8 +23,6 @@
 <!ENTITY closeConversationCmd.accesskey "C">
 <!ENTITY aliasCmd.label "Վերանուանել">
 <!ENTITY aliasCmd.accesskey "R">
-<!ENTITY deleteCmd.label "Ջնջել կապորդը">
-<!ENTITY deleteCmd.accesskey "v">
 <!ENTITY openConversationButton.tooltip "Սկսել զրոյցը">
 <!ENTITY closeConversationButton.tooltip "Փակել խաւսակցութիւնը">
 <!ENTITY addBuddyButton.label "Աւելացնել կապորդ">

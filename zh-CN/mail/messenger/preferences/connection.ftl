@@ -2,18 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-connection-dns-over-https-url-resolver = 选用提供商
-    .accesskey = r
-# Variables:
-#   $name (String) - Display name or URL for the DNS over HTTPS provider
-connection-dns-over-https-url-item-default =
-    .label = { $name }（默认值）
-    .tooltiptext = 使用默认 URL 完成基于 HTTPS 的 DNS 解析
-connection-dns-over-https-url-custom =
-    .label = 自定义
-    .tooltiptext = 输入您偏好的 URL，用来完成基于 HTTPS 的 DNS 解析
-    .accesskey = C
-connection-dns-over-https-custom-label = 自定义
 connection-dialog-title = 连接设置
 disable-extension-button = 禁用扩展
 # Variables:
@@ -81,6 +69,3 @@ proxy-password-prompt =
 proxy-remote-dns =
     .label = 使用 SOCKS v5 时 DNS 经过代理
     .accesskey = d
-proxy-enable-doh =
-    .label = 启用基于 HTTPS 的 DNS
-    .accesskey = b

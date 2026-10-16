@@ -11,24 +11,10 @@
 <!ENTITY autosyncNotDownload.accesskey "M">
 <!ENTITY kb.label "KG nie">
 <!ENTITY daysOld.label "dae">
-<!ENTITY message.label "boodskappe">
 <!ENTITY nntpNotDownloadRead.label "Lees boodskappe">
 <!ENTITY nntpNotDownloadRead.accesskey "L">
 <!ENTITY nntpDownloadMsg.label "Boodskappe van meer as">
 <!ENTITY nntpDownloadMsg.accesskey "o">
-<!ENTITY retentionCleanup.label "Om skyfspasie te herwin, kan ou boodskappe permanent geskrap word.">
-<!ENTITY retentionCleanupImap.label "Om skyfspasie te herwin, kan ou boodskappe permanent geskrap word (beide die plaaslike kopie en die oorspronklike op die afgeleë bediener).">
-<!ENTITY retentionCleanupPop.label "Om skyfspasie te herwin, kan ou boodskappe permanent geskrap word, insluitend die oorspronklike op die afgeleë bediener.">
-<!ENTITY retentionKeepMsg.label "Skrap boodskappe ouer as">
-<!ENTITY retentionKeepMsg.accesskey "r">
-<!ENTITY retentionKeepAll.label "Moenie enige boodskappe skrap nie">
-<!ENTITY retentionKeepAll.accesskey "M">
-<!ENTITY retentionKeepRecent.label "Skrap alles behalwe die mees onlangse">
-<!ENTITY retentionKeepRecent.accesskey "b">
-<!ENTITY retentionApplyToFlagged.label "Hou altyd gevlagde boodskappe">
-<!ENTITY retentionApplyToFlagged.accesskey "H">
-<!ENTITY nntpRemoveMsgBody.label "Verwyder lyf van boodskappe van meer as">
-<!ENTITY nntpRemoveMsgBody.accesskey "V">
 <!ENTITY offlineSelectNntp.label "Kies nuusgroepe vir aflyngebruik…">
 <!ENTITY offlineSelectNntp.accesskey "K">
 <!ENTITY offlineImapAdvancedOffline.label "Gevorderd…">

@@ -13,8 +13,6 @@
 <!ENTITY undoCmd.accesskey "Б">
 <!ENTITY redoCmd.label "Қайталау">
 <!ENTITY redoCmd.accesskey "й">
-<!ENTITY deleteCmd.label "Өшіру">
-<!ENTITY deleteCmd.accesskey "ш">
 <!ENTITY customizeCmd.label "Баптау">
 <!ENTITY customizeCmd.accesskey "т">
 <!ENTITY viewMenu.label "Түрі">

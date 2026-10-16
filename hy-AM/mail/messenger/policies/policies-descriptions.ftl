@@ -78,8 +78,6 @@ policy-RequestedLocales = Սահմանել հարցված տեղայնացում
 policy-SanitizeOnShutdown2 = Մաքրել ուղղորդման տվյալները անջատման ժամանակ:
 policy-SearchEngines = Կարգավորել որոնիչի կարգավորումները: Այս քաղաքականությունը հասանելի է միայն Ընդլայնված աջակցության թողարկման (ESR) տարբերակում:
 policy-SearchSuggestEnabled = Միացնել կամ անջատել որոնման առաջարկները:
-# For more information, see https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
-policy-SecurityDevices = Տեղադրել PKCS #11 մոդուլները:
 policy-SSLVersionMax = Սահմանել SSL առավելագույն տարբերակը:
 policy-SSLVersionMin = Սահմանել SSL- ի նվազագույն տարբերակը:
 policy-SupportMenu = Օգնության ընտրացանկին ավելացնել անհատական աջակցության ընտրացանկ:

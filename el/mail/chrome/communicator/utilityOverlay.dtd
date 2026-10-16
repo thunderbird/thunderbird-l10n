@@ -13,8 +13,6 @@
 <!ENTITY undoCmd.accesskey "ρ">
 <!ENTITY redoCmd.label "Επανάληψη">
 <!ENTITY redoCmd.accesskey "Ε">
-<!ENTITY deleteCmd.label "Διαγραφή">
-<!ENTITY deleteCmd.accesskey "Δ">
 <!ENTITY customizeCmd.label "Προσαρμογή">
 <!ENTITY customizeCmd.accesskey "σ">
 <!ENTITY viewMenu.label "Προβολή">

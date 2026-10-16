@@ -2,18 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-connection-dns-over-https-url-resolver = მომსახურების გამოყენება
-    .accesskey = რ
-# Variables:
-#   $name (String) - Display name or URL for the DNS over HTTPS provider
-connection-dns-over-https-url-item-default =
-    .label = { $name } (ნაგულისხმევი)
-    .tooltiptext = ნაგულისხმევი URL-ბმული DNS-ის HTTPS-ით გადასაცემად
-connection-dns-over-https-url-custom =
-    .label = მითითებული
-    .tooltiptext = შეიყვანეთ სასურველი URL-ბმული DNS-ის HTTPS-ით გადასაცემად
-    .accesskey = თ
-connection-dns-over-https-custom-label = მითითებული
 connection-dialog-title = კავშირის პარამეტრები
 disable-extension-button = გაფართოების ამორთვა
 # Variables:
@@ -106,6 +94,3 @@ proxy-password-prompt =
 proxy-remote-dns =
     .label = პროქსის DNS, როცა გამოიყენება SOCKS v5
     .accesskey = D
-proxy-enable-doh =
-    .label = ამოქმედდეს DNS-მოთხოვნა HTTPS-ით
-    .accesskey = ვ

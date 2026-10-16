@@ -26,13 +26,3 @@ archive-folder-name-label = Arquivos
 inbox-folder-name-label = Caixa de entrada
 child-folder-name-label = Sub-pasta da caixa de entrada
 sibling-folder-name-label = Ao mesmo nível da Caixa de entrada
-# This should match the default name for the "Archives" folder.
-archive-folder-name =
-    .label = Arquivos
-# This should match the default name for the "Inbox" folder.
-inbox-folder-name =
-    .label = Caixa de entrada
-child-folder-name =
-    .label = Sub-pasta da caixa de entrada
-sibling-folder-name =
-    .label = Ao mesmo nível da Caixa de entrada

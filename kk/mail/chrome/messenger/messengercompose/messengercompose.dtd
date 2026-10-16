@@ -216,7 +216,6 @@
 <!ENTITY smiley7Cmd.label "Шешпеген">
 <!ENTITY smiley8Cmd.label "Таң қалу">
 <!ENTITY smiley9Cmd.label "Сүю">
-<!ENTITY smiley10Cmd.label "Айғайлау">
 <!ENTITY smiley11Cmd.label "Тамаша">
 <!ENTITY smiley12Cmd.label "Ақша">
 <!ENTITY smiley13Cmd.label "Ауыздағы аяқ">
@@ -266,12 +265,6 @@
 <!ENTITY convertRegularAttachment.accesskey "а">
 <!ENTITY attachPage.label "Веб парағын тіркеу…">
 <!ENTITY attachPage.accesskey "В">
-<!-- Attachment Pane Header Bar Context Menu
-     LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
-     Should use the same wording as startExpandedCmd.label
-     in msgHdrViewOverlay.dtd. -->
-<!ENTITY initiallyShowAttachmentPane.label "Басынан бастап салыным панелін көрсету">
-<!ENTITY initiallyShowAttachmentPane.accesskey "с">
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Сөздіктерді қосу…">
 <!ENTITY spellAddDictionaries.accesskey "С">

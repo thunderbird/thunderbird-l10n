@@ -30,11 +30,6 @@ appmenu-sync-sign-out =
 
 ## Add Account
 
-appmenu-new-account-panel-title =
-    .title = Novi račun
-appmenu-new-account-panel =
-    .label = Novi račun
-    .accesskey = N
 appmenu-new-email-account =
     .label = E-mail adresa
     .accesskey = E
@@ -58,11 +53,6 @@ appmenu-add-account-panel =
 
 ## New Account / Address Book
 
-appmenu-newab-panel-title =
-    .title = Novi adresar
-appmenu-newab-panel =
-    .label = Novi adresar
-    .accesskey = a
 appmenu-new-addressbook =
     .label = Lokalni adresar
     .accesskey = a

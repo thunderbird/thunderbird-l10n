@@ -23,8 +23,6 @@
 <!ENTITY closeConversationCmd.accesskey "e">
 <!ENTITY aliasCmd.label "Umbenennen">
 <!ENTITY aliasCmd.accesskey "U">
-<!ENTITY deleteCmd.label "Kontakt löschen">
-<!ENTITY deleteCmd.accesskey "l">
 <!ENTITY openConversationButton.tooltip "Ein Gespräch beginnen">
 <!ENTITY closeConversationButton.tooltip "Ein Gespräch beenden">
 <!ENTITY addBuddyButton.label "Kontakt hinzufügen">

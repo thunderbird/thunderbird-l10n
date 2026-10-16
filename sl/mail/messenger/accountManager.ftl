@@ -5,10 +5,6 @@
 open-preferences-sidebar-button2 = Nastavitve { -brand-short-name(sklon: "rodilnik") }
 open-addons-sidebar-button = Dodatki in teme
 account-tree-add-account-button = Dodaj račun
-account-action-add-newsgroup-account =
-    .label = Dodaj račun za novičarsko skupino …
-    .accesskey = č
-account-tree-create-account-button = Nov račun
 account-tree-add-mail-account =
     .label = Poštni račun …
     .accesskey = P

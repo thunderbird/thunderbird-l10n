@@ -129,12 +129,9 @@ openpgp-external-key-title = Сыртқы GnuPG кілті
 openpgp-external-key-description = Кілт анықтағышын енгізу арқылы сыртқы GnuPG кілтін баптаңыз
 openpgp-external-key-info = Оған қоса, сәйкес ашық кілтті импорттау және қабылдау үшін Кілттер басқарушысы қолданбасын пайдалану керек.
 openpgp-external-key-warning = <b>Сіз тек бір сыртқы GnuPG кілтін баптай аласыз.</b> Алдыңғы жазбаңыз алмастырылады.
-openpgp-save-external-button = Кілт идентификаторын сақтау
 openpgp-external-key-label = Құпия кілт идентификаторы:
 openpgp-import-own-key-title = Ашық кілтіңізді импорттаңыз
 #   $keyId (String) - The Key ID.
 openpgp-import-own-key-description = { -brand-short-name } идентификаторы { $keyId } болатын ашық кілтті таба алмады. Жалғастыру үшін оны импорттаңыз.
 #   $keyId (String) - The Key ID.
 openpgp-import-keyid-failed = Бұл файлдан { $keyId } ашық кілтін импорттау мүмкін болмады.
-openpgp-external-key-input =
-    .placeholder = 123456789341298340

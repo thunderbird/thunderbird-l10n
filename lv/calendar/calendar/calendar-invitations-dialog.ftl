@@ -15,9 +15,6 @@ recurrent-event =
 calendar-invitation-location =
     .tooltiptext = { $locationProperty }
     .value = Atrašanās vieta: { $locationProperty }
-# $locationProperty is the location of the event
-calendar-invitations-location =
-    .value = Atrašanās vieta: { $locationProperty }
 # $organizerProperty is the organizer of the event
 organizer =
     .value = Rīkotājs: { $organizerProperty }

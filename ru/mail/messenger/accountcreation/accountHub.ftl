@@ -56,14 +56,7 @@ account-hub-email-connect-button = Подключиться
 account-hub-result-incoming-legend = Входящая почта
 account-hub-result-outgoing-legend = Исходящая почта
 account-hub-all-servers-legend = Все серверы
-account-hub-incoming-server-legend = Cервер входящей почты
-account-hub-outgoing-server-legend = Cервер исходящей почты
-account-hub-result-incoming-server-legend = Сервер входящей почты
-    .title = Сервер входящей почты
-account-hub-result-outgoing-server-legend = Cервер исходящей почты
-    .title = Cервер исходящей почты
 account-hub-protocol-label = Протокол
-account-hub-hostname-label = Имя узла
 account-hub-result-hostname-label = Имя сервера
     .title = Имя сервера
 account-hub-result-socket-type-label = Защита соединения
@@ -94,10 +87,6 @@ account-hub-result-auth-ntlm = NTLM
 account-hub-result-auth-external = Внешняя
 account-hub-result-auth-oauth2 = OAuth2
 account-hub-on-port-label = Порт
-account-hub-result-authentication-label = Аутентификация
-    .title = Аутентификация
-account-hub-port-label = Порт
-    .title = Установите номер порта 0 для автоопределения
 account-hub-auto-description = { -brand-short-name } попытается автоматически определить значения полей, оставленных пустыми.
 account-hub-ssl-label = Защита соединения
 
@@ -105,8 +94,6 @@ account-hub-ssl-label = Защита соединения
 
 account-hub-ssl-autodetect-option =
     .label = Автоопределение
-account-hub-ssl-no-authentication-option =
-    .label = Без аутентификации
 account-hub-ssl-cleartext-password-option =
     .label = Обычный пароль
 account-hub-ssl-encrypted-password-option =
@@ -268,7 +255,6 @@ account-hub-email-exchange-settings = Параметры Exchange
 account-hub-email-connect-settings = Подключить параметры электронной почты
 account-hub-email-protocol-select-header = Выберите тип учётной записи электронной почты
 account-hub-email-protocol-select-additional-info = Для создания этой учётной записи необходима дополнительная информация.
-account-hub-email-config-found = Выберите тип учётной записи эл. почты
 account-hub-email-enter-password = Введите пароль от своей учётной записи эл. почты
 account-hub-email-sync-accounts = Синхронизируйте свои календари и адресные книги
 account-hub-test-configuration = Тест
@@ -295,7 +281,6 @@ account-hub-config-success-description-guess = При проверке типи�
 account-hub-config-success-description-disk = Найдена конфигурация в установке { -brand-short-name }.
 account-hub-config-success-description-isp = Найдена конфигурация у провайдера электронной почты.
 account-hub-config-success-description-read-more = Вы можете <a data-l10n-name="automated-setup-link">прочитать о том, как работает автоматическая настройка электронной почты.</a>
-account-hub-config-success = Конфигурация найдена в Mozilla ISPDB
 account-hub-password-info = Ваши учётные данные будут храниться только локально на вашем компьютере
 account-hub-creating-account = Создание учётной записи…
 account-hub-sync-accounts-found = { -brand-short-name } обнаружил некоторые подключённые службы
@@ -327,10 +312,8 @@ account-hub-username-error-text = Требуется имя пользовате
 account-hub-manual-config-error-summary = Пожалуйста, исправьте следующие ошибки:
 account-hub-oauth-pending = Ожидание авторизации в окне логина…
 account-hub-addon-install-button = Установить
-account-hub-addon-install-needed = { -brand-short-name } не поддерживает этот сервер. Чтобы получить доступ к электронной почте Exchange, <a data-l10n-name="addon-install"> установите стороннее дополнение, например, Olay (платное).</a>
 account-hub-addon-error = Не удалось установить дополнение. Пожалуйста, попробуйте ещё раз или обратитесь за помощью к автору дополнения.
 account-hub-select-security-warning = <span data-l10n-name="error-text">Предупреждение: Обнаружен незащищённый почтовый сервер.</span> На этом сервере отсутствует шифрование, что раскрывает ваш пароль и данные. Попросите вашего администратора защитить соединение или продолжайте на свой страх и риск. <a data-l10n-name="error-link">Для получения дополнительной информации обратитесь к ЧаВо.</a>
-account-hub-security-warning = <span data-l10n-name="security-warning">Предупреждение: Обнаружен незащищённый почтовый сервер.</span> На этом сервере отсутствует шифрование, что раскрывает ваш пароль и данные. Попросите вашего администратора защитить соединение, или продолжайте на свой страх и риск. <a data-l10n-name="faq-link">Прочитайте Частые вопросы, чтобы узнать больше.</a>
 account-hub-account-authentication-error = Ошибка аутентификации.
 account-hub-add-address-book = Добавить адресную книгу
 address-book-sync-existing-icon =
@@ -361,7 +344,6 @@ account-hub-address-book-sync-books-data =
         [few] Доступно { $addressBooks } адресных книги
        *[many] Доступно { $addressBooks } адресных книг
     }
-account-hub-fetching-sync-accounts = Обнаружение адресных книг и календарей…
 address-book-sync-existing-description = Получение существующих учётных записей…
 account-hub-select-address-book-account = Выберите учётную запись с адресными книгами
 # $synced (Number) - The number of address books that are synced.

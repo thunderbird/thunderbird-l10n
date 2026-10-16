@@ -10,22 +10,6 @@
 <!ENTITY folderRebuildSummaryFile.explanation "I nogle tilfælde kan mappens indeksfil blive beskadiget, hvilket kan forårsage, at nogle mails ikke kan ses, eller at slettede mails atter dukker op. Reparering af mappen kan muligvis rette op på problemet.">
 <!ENTITY folderIncludeInGlobalSearch.label "Medtag meddelelser i denne mappe i globale søgeresultater">
 <!ENTITY folderIncludeInGlobalSearch.accesskey "M">
-<!ENTITY retention.label "Retningslinjer for opbevaring">
-<!ENTITY retentionUseAccount.label "Brug mine kontoindstillinger">
-<!ENTITY retentionUseAccount.accesskey "B">
-<!ENTITY daysOld.label "dage gamle">
-<!ENTITY message.label "meddelelser">
-<!ENTITY retentionCleanup.label "Gamle meddelelser kan slettes permanent for at skabe mere diskplads">
-<!ENTITY retentionCleanupImap.label "Gamle meddelelser kan slettes permanent for at skabe mere diskplads, både de lokale kopier og de originale på den eksterne server.">
-<!ENTITY retentionCleanupPop.label "Gamle meddelelser kan slettes permanent for at skabe mere diskplads, inklusive de originale på den eksterne server.">
-<!ENTITY retentionDeleteMsg.label "Slet meddelelser der er mere end">
-<!ENTITY retentionDeleteMsg.accesskey "m">
-<!ENTITY retentionKeepAll.label "Slet ingen meddelelser">
-<!ENTITY retentionKeepAll.accesskey "S">
-<!ENTITY retentionKeepRecent.label "Slet alle undtagen de seneste">
-<!ENTITY retentionKeepRecent.accesskey "a">
-<!ENTITY retentionApplyToFlagged.label "Behold altid stjernemarkerede meddelelser">
-<!ENTITY retentionApplyToFlagged.accesskey "e">
 <!ENTITY folderSynchronizationTab.label "Synkronisering">
 <!ENTITY folderCheckForNewMessages2.label "Kontroller denne mappe for nye meddelelser">
 <!ENTITY folderCheckForNewMessages2.accesskey "K">

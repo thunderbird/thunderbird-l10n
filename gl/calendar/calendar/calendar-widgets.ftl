@@ -20,8 +20,6 @@ calendar-enable-button = Activar
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-context-button =
     .title = Opcións do calendario { $calendarName }
-calendar-import-new-calendar = Novo calendario...
-    .title = Crear ou subscribirse a un novo calendario
 calendar-refresh-calendars =
     .title = Recargar todos os calendarios e sincronizar os cambios
 calendar-new-event-primary-button = Novo evento

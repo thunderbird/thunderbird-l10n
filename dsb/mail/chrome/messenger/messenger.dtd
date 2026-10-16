@@ -48,8 +48,6 @@
 <!ENTITY getAllNewMsgCmdPopupMenu.accesskey "W">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.label "Aktualne konto">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.accesskey "A">
-<!ENTITY getNextNMsgCmd2.label "Pśiduce powěsći wobstaraś">
-<!ENTITY getNextNMsgCmd2.accesskey "b">
 <!ENTITY sendUnsentCmd.label "Njepósłane powěsći pósłaś">
 <!ENTITY sendUnsentCmd.accesskey "e">
 <!ENTITY subscribeCmd.label "Aboněrowaś…">
@@ -59,8 +57,6 @@
 <!ENTITY renameFolder.label "Zarědnik pśemjeniś…">
 <!ENTITY renameFolder.accesskey "m">
 <!ENTITY renameFolder.key "VK_F2">
-<!ENTITY compactFolders.label "Kompaktne zarědniki">
-<!ENTITY compactFolders.accesskey "K">
 <!ENTITY emptyTrashCmd.label "Papjernik wuprozniś">
 <!ENTITY emptyTrashCmd.accesskey "u">
 <!ENTITY offlineMenu.label "Offline">
@@ -129,10 +125,6 @@
 <!ENTITY allFolders.accesskey "W">
 <!ENTITY unreadFolders.label "Njepśecytane">
 <!ENTITY unreadFolders.accesskey "c">
-<!ENTITY favoriteFolders.label "Faworizěrowane">
-<!ENTITY favoriteFolders.accesskey "F">
-<!ENTITY recentFolders.label "Nejnowše">
-<!ENTITY recentFolders.accesskey "N">
 <!ENTITY compactVersion.label "Kompaktny naglěd">
 <!ENTITY compactVersion.accesskey "K">
 <!-- Sort Menu -->
@@ -154,8 +146,6 @@
 <!ENTITY sortByStatusCmd.accesskey "u">
 <!ENTITY sortByTagsCmd.label "Wobznamjenjach">
 <!ENTITY sortByTagsCmd.accesskey "z">
-<!ENTITY sortByJunkStatusCmd.label "Cajkowem statusu">
-<!ENTITY sortByJunkStatusCmd.accesskey "C">
 <!ENTITY sortBySubjectCmd.label "Temje">
 <!ENTITY sortBySubjectCmd.accesskey "T">
 <!ENTITY sortByFromCmd.label "Wót">
@@ -243,7 +233,6 @@
 <!ENTITY findPrevCmd.key2 "VK_F3">
 <!ENTITY searchMailCmd.label "Powěsći pśepytaś…">
 <!ENTITY searchMailCmd.accesskey "P">
-<!ENTITY searchMailCmd.key "f">
 <!ENTITY glodaSearchCmd.label "Globalne pytanje…">
 <!ENTITY glodaSearchCmd.accesskey "G">
 <!ENTITY searchAddressesCmd.label "Adrese pśepytaś…">
@@ -334,17 +323,6 @@
 <!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN">
 <!ENTITY createFilter.label "Filter z powěsći napóraś…">
 <!ENTITY createFilter.accesskey "F">
-<!ENTITY moveMsgToMenu.label "Pśesunuś do">
-<!ENTITY moveMsgToMenu.accesskey "u">
-<!ENTITY moveCopyMsgRecentMenu.label "Nejnowšy">
-<!ENTITY moveCopyMsgRecentMenu.accesskey "N">
-<!ENTITY copyMessageLocation.label "Městno powěsći kopěrowaś">
-<!ENTITY copyMessageLocation.accesskey "M">
-<!ENTITY copyMsgToMenu.label "Kopěrowaś do">
-<!ENTITY copyMsgToMenu.accesskey "K">
-<!ENTITY moveToFolderAgain.label "Dalej pśesunuś">
-<!ENTITY moveToFolderAgain.accesskey "l">
-<!ENTITY moveToFolderAgainCmd.key "m">
 <!ENTITY killThreadMenu.label "Nitku ignorěrowaś">
 <!ENTITY killThreadMenu.accesskey "i">
 <!ENTITY killThreadMenu.key "k">
@@ -356,16 +334,6 @@
 <!ENTITY watchThreadMenu.key "w">
 <!ENTITY tagMenu.label "Etiket">
 <!ENTITY tagMenu.accesskey "E">
-<!ENTITY tagCmd0.key "0">
-<!ENTITY tagCmd1.key "1">
-<!ENTITY tagCmd2.key "2">
-<!ENTITY tagCmd3.key "3">
-<!ENTITY tagCmd4.key "4">
-<!ENTITY tagCmd5.key "5">
-<!ENTITY tagCmd6.key "6">
-<!ENTITY tagCmd7.key "7">
-<!ENTITY tagCmd8.key "8">
-<!ENTITY tagCmd9.key "9">
 <!ENTITY markMenu.label "Markěrowaś">
 <!ENTITY markMenu.accesskey "M">
 <!ENTITY toggleReadCmd.key "m">
@@ -385,14 +353,6 @@
 <!ENTITY markStarredCmd.label "Gwězdku pśidaś">
 <!ENTITY markStarredCmd.accesskey "G">
 <!ENTITY markStarredCmd.key "S">
-<!ENTITY markAsJunkCmd.label "Ako cajk">
-<!ENTITY markAsJunkCmd.accesskey "c">
-<!ENTITY markAsJunkCmd.key "j">
-<!ENTITY markAsNotJunkCmd.label "Ako njecajk">
-<!ENTITY markAsNotJunkCmd.accesskey "n">
-<!ENTITY markAsNotJunkCmd.key "j">
-<!ENTITY recalculateJunkScoreCmd.label "Cajkowu kontrolu startowaś">
-<!ENTITY recalculateJunkScoreCmd.accesskey "C">
 <!ENTITY openMessageWindowCmd.label "Powěsć wócyniś">
 <!ENTITY openMessageWindowCmd.accesskey "o">
 <!ENTITY openMessageWindowCmd.key "o">
@@ -441,10 +401,6 @@
 <!ENTITY filtersApplyToSelection.accesskey "b">
 <!ENTITY filtersApplyToMessage.label "Filtry na powěsć nałožyś">
 <!ENTITY filtersApplyToMessage.accesskey "o">
-<!ENTITY runJunkControls.label "Kontrolu cajkoweje e-maile na zarědnik nałožyś">
-<!ENTITY runJunkControls.accesskey "c">
-<!ENTITY deleteJunk.label "E-mail markěrowanu ako cajk w zarědniku lašowaś">
-<!ENTITY deleteJunk.accesskey "m">
 <!ENTITY importCmd.label "Importěrowaś…">
 <!ENTITY importCmd.accesskey "I">
 <!ENTITY exportCmd.label "Eksportěrowaś…">
@@ -491,7 +447,6 @@
 <!ENTITY printButton.label "Śišćaś">
 <!ENTITY stopButton.label "Stoj">
 <!ENTITY throbberItem.title "Indikator aktiwity">
-<!ENTITY junkItem.title "Cajk">
 <!ENTITY addressBookButton.label "Adresnik">
 <!ENTITY chatButton.label "Chat">
 <!ENTITY glodaSearch.title "Globalne pytanje">
@@ -553,11 +508,6 @@
 <!ENTITY appmenuNewContactCmd.label "Kontakt adresnika…">
 <!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Wugótowanje symboloweje rědki…">
-<!-- Tags Menu Popup -->
-<!ENTITY addNewTag.label "Nowe wobznamjenje…">
-<!ENTITY addNewTag.accesskey "N">
-<!ENTITY manageTags.label "Wobznamjenja zastojaś…">
-<!ENTITY manageTags.accesskey "W">
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "Mě">
 <!ENTITY folderUnreadColumn.label "Njepśecytany">
@@ -580,12 +530,8 @@
 <!ENTITY folderContextRename.accesskey "P">
 <!ENTITY folderContextRemove.label "Wulašowaś">
 <!ENTITY folderContextRemove.accesskey "l">
-<!ENTITY folderContextCompact.label "Zgusćiś">
-<!ENTITY folderContextCompact.accesskey "Z">
 <!ENTITY folderContextEmptyTrash.label "Papjernik wuprozniś">
 <!ENTITY folderContextEmptyTrash.accesskey "u">
-<!ENTITY folderContextEmptyJunk.label "Cajk lašowaś">
-<!ENTITY folderContextEmptyJunk.accesskey "C">
 <!ENTITY folderContextSendUnsentMessages.label "Njepósłane powěsći pósłaś">
 <!ENTITY folderContextSendUnsentMessages.accesskey "N">
 <!ENTITY folderContextUnsubscribe.label "Wótskazaś">
@@ -628,7 +574,6 @@
 <!ENTITY accountColumn.label "Konto">
 <!ENTITY statusColumn.label "Status">
 <!ENTITY sizeColumn.label "Wjelikosć">
-<!ENTITY junkStatusColumn.label "Cajkowy status">
 <!ENTITY unreadColumn.label "Njepśecytany">
 <!ENTITY totalColumn.label "Dogromady">
 <!ENTITY readColumn.label "Pśecytany">
@@ -652,7 +597,6 @@
 <!ENTITY accountColumn2.tooltip "Pó konśe sortěrowaś">
 <!ENTITY statusColumn2.tooltip "Pó statusu sortěrowaś">
 <!ENTITY sizeColumn2.tooltip "Pó wjelikosći sortěrowaś">
-<!ENTITY junkStatusColumn2.tooltip "Pó cajkowem statusu sortěrowaś">
 <!ENTITY unreadColumn2.tooltip "Licba njepśecytanych powěsćow w nitce">
 <!ENTITY totalColumn2.tooltip "Cełkowna licba powěsćow w nitce">
 <!ENTITY readColumn2.tooltip "Pó pśecytanych sortěrowaś">
@@ -691,16 +635,6 @@
 <!ENTITY contextReplyAll.accesskey "w">
 <!ENTITY contextReplyList.label "Lisćinje wótegroniś">
 <!ENTITY contextReplyList.accesskey "L">
-<!ENTITY contextMoveMsgMenu.label "Pśesunuś do">
-<!ENTITY contextMoveMsgMenu.accesskey "P">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Nejnowše cele">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "N">
-<!ENTITY contextMoveCopyMsgRecentMenu.label "Nejnowše">
-<!ENTITY contextMoveCopyMsgRecentMenu.accesskey "N">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.label "Fawority">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.accesskey "F">
-<!ENTITY contextCopyMsgMenu.label "Kopěrowaś do">
-<!ENTITY contextCopyMsgMenu.accesskey "K">
 <!ENTITY contextKillThreadMenu.label "Nitku ignorěrowaś">
 <!ENTITY contextKillSubthreadMenu.accesskey "d">
 <!ENTITY contextKillThreadMenu.accesskey "i">

@@ -2,18 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-connection-dns-over-https-url-resolver = Erabili hornitzailea
-    .accesskey = h
-# Variables:
-#   $name (String) - Display name or URL for the DNS over HTTPS provider
-connection-dns-over-https-url-item-default =
-    .label = { $name }(lehenetsia)
-    .tooltiptext = Erabili URL lehenetsia HTTPSn DNSak ebazteko
-connection-dns-over-https-url-custom =
-    .label = Pertsonalizatua
-    .tooltiptext = Sartu zure gogoko URL HTTPSn DNSak ebazteko
-    .accesskey = P
-connection-dns-over-https-custom-label = Pertsonalizatua
 connection-dialog-title = Konexio-ezarpenak
 disable-extension-button = Desgaitu hedapena
 # Variables:
@@ -81,6 +69,3 @@ proxy-password-prompt =
 proxy-remote-dns =
     .label = Bideratu DNSa proxy bidez SOCKS v5 erabiltzean
     .accesskey = d
-proxy-enable-doh =
-    .label = Gaitu HTTPS gaineko DNSa
-    .accesskey = b

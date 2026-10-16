@@ -4,7 +4,3 @@
 
 <!-- extracted from AccountManager.xhtml -->
 <!ENTITY accountManagerTitle.label "Поставки за сметката">
-<!ENTITY setDefaultButton.label "Основна сметка">
-<!ENTITY setDefaultButton.accesskey "с">
-<!ENTITY removeButton.label "Отстрани ја сметката">
-<!ENTITY removeButton.accesskey "р">

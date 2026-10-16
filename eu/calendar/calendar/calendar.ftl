@@ -711,16 +711,6 @@ hide-calendar-name =
 show-only-calendar-name =
     .label = Erakutsi { $name } bakarrik
     .accesskey = O
-# $name calendar name
-show-calendar-label =
-    .label = Erakutsi { $name }
-# $name calendar name
-hide-calendar-label =
-    .label = Ezkutatu { $name }
-# uses the access key calendar.context.showonly.accesskey
-# $name calendar name
-show-only-calendar =
-    .label = Erakutsi { $name } bakarrik
 # LOCALIZATION NOTE (modify-conflict-*)
 # Used by the event dialog to resolve item modification conflicts.
 modify-conflict-prompt-title = Gatazka datua aldatzerakoan

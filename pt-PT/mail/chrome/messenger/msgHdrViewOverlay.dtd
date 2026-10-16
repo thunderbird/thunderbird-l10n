@@ -33,8 +33,6 @@
 <!ENTITY hdrFollowupButton1.tooltip "Responder a este grupo de notícias">
 <!ENTITY hdrForwardButton1.label "Reencaminhar">
 <!ENTITY hdrForwardButton1.tooltip "Reencaminhar esta mensagem">
-<!ENTITY hdrJunkButton1.label "Lixo eletrónico">
-<!ENTITY hdrJunkButton1.tooltip "Marca esta mensagem como lixo eletrónico">
 <!ENTITY hdrTrashButton1.label "Apagar">
 <!ENTITY hdrTrashButton1.tooltip "Apagar esta mensagem">
 <!ENTITY hdrViewToolbarShowFull.label "Mostrar ícones e texto">

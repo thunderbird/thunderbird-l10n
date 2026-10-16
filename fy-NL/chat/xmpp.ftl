@@ -260,11 +260,6 @@ gtalk-disabled = Google Talk wurdt net langer stipe, omdat Facebook harren XMPP-
 #  Odnoklassniki disabled their XMPP gateway. The message below is a localized
 #  error message to be displayed to users with Odnoklassniki accounts.
 odnoklassniki-disabled = Odnoklassniki wurdt mear stipe, omdat Odnoklassniki harren XMPP-gateway útskeakele hat.
-# LOCALIZATION NOTE (odnoklassniki-username-hint):
-#  This is displayed inside the accountUsernameInfoWithDescription
-#  string defined in imAccounts.properties when the user is
-#  configuring a Odnoklassniki account.
-odnoklassniki-username-hint = Profyl-ID
 # LOCALIZATION NOTE (command-*):
 #  These are the help messages for each command.
 # $commandName (String): command name

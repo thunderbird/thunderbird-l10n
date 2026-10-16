@@ -17,7 +17,6 @@ webext-perms-description-compose = E-Mail-Nachrichten lesen und verändern, wäh
 webext-perms-description-compose-send = E-Mail-Nachrichten mit Ihren Identitäten senden
 webext-perms-description-compose-save = E-Mail-Nachrichten als Entwürfe oder Vorlagen speichern
 webext-perms-description-experiment-access = Dieses Add-on erhält vollständigen Zugriff auf { -brand-short-name } und Ihren Computer
-webext-perms-description-experiment = Vollständiger Zugriff auf { -brand-short-name } und Ihren Computer
 webext-perms-description-messagesImport = Nachrichten in Thunderbird importieren
 webext-perms-description-messagesModify = Lesen von E-Mail-Nachrichten sowie Verändern von deren Darstellung
 webext-perms-description-messagesModifyPermanent = Die Quelle Ihrer Nachrichten dauerhaft verändern (einschließlich Kopfzeilen, Nachrichtentext und Anhänge)

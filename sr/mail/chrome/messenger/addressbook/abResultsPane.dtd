@@ -9,8 +9,6 @@
 <!ENTITY PrimaryEmail.accesskey "М">
 <!ENTITY Company.label "Организација">
 <!ENTITY Company.accesskey "з">
-<!ENTITY _PhoneticName.label "Фонетско име">
-<!ENTITY _PhoneticName.accesskey "о">
 <!ENTITY NickName.label "Надимак">
 <!ENTITY NickName.accesskey "и">
 <!ENTITY SecondEmail.label "Додатни мејл">

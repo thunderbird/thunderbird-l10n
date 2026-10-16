@@ -716,16 +716,6 @@ hide-calendar-name =
 show-only-calendar-name =
     .label = Yalnız { $name } takvimini göster
     .accesskey = Y
-# $name calendar name
-show-calendar-label =
-    .label = { $name } takvimini göster
-# $name calendar name
-hide-calendar-label =
-    .label = { $name } takvimini gizle
-# uses the access key calendar.context.showonly.accesskey
-# $name calendar name
-show-only-calendar =
-    .label = Yalnız { $name } takvimini göster
 # LOCALIZATION NOTE (modify-conflict-*)
 # Used by the event dialog to resolve item modification conflicts.
 modify-conflict-prompt-title = Kayıt Düzenleme Çakışması

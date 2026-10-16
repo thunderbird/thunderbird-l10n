@@ -17,7 +17,6 @@ webext-perms-description-compose = E-posta iletilerinizi oluştururken ve gönde
 webext-perms-description-compose-send = Sizin adınıza oluşturulmuş e-posta iletileri gönderme
 webext-perms-description-compose-save = Oluşturulan e-posta iletilerini taslak veya şablon olarak kaydetme
 webext-perms-description-experiment-access = Bu eklenti { -brand-short-name } uygulamasına ve bilgisayarınıza tam ve sınırsız erişime sahip olacaktır.
-webext-perms-description-experiment = { -brand-short-name } uygulamasına ve bilgisayarınıza tam, sınırsız erişim sağlama
 webext-perms-description-messagesImport = İletileri Thunderbird’e aktarma
 webext-perms-description-messagesModify = Size gösterilen e-posta iletilerini okuma ve değiştirme
 webext-perms-description-messagesModifyPermanent = İletilerinizin kaynağını (üst bilgiler, gövde ve ekler dahil) kalıcı olarak değiştirme

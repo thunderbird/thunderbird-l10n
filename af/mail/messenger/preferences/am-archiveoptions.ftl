@@ -6,9 +6,3 @@
 archive-folder-name-label = Argief
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name-label = Inkassie
-# This should match the default name for the "Archives" folder.
-archive-folder-name =
-    .label = Argief
-# This should match the default name for the "Inbox" folder.
-inbox-folder-name =
-    .label = Inkassie

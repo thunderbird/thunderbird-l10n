@@ -88,12 +88,6 @@ quit-app-shortcut =
 
 ## Mail Toolbar
 
-toolbar-junk-button =
-    .label = Thư rác
-    .tooltiptext = Đánh dấu các thư đã chọn là thư rác
-toolbar-not-junk-button =
-    .label = Không phải thư rác
-    .tooltiptext = Đánh dấu các thư đã chọn là không phải thư rác
 toolbar-delete-button =
     .label = Xóa
     .tooltiptext = Xóa thư hoặc thư mục đã chọn

@@ -130,7 +130,4 @@ openpgp-external-key-title = Зовнішній ключ GnuPG
 openpgp-external-key-description = Налаштуйте зовнішній ключ GnuPG, ввівши його ID
 openpgp-external-key-info = Крім того, ви повинні скористатися Менеджером ключів, щоб імпортувати та прийняти відповідний відкритий ключ.
 openpgp-external-key-warning = <b>Ви можете налаштувати лише один зовнішній ключ GnuPG.</b> Ваш попередній запис буде замінено.
-openpgp-save-external-button = Зберегти ID ключа
 openpgp-external-key-label = ID таємного ключа:
-openpgp-external-key-input =
-    .placeholder = 123456789341298340

@@ -216,7 +216,6 @@
 <!ENTITY smiley7Cmd.label "Kõhklemine">
 <!ENTITY smiley8Cmd.label "Üllatus">
 <!ENTITY smiley9Cmd.label "Suudlus">
-<!ENTITY smiley10Cmd.label "Karjumine">
 <!ENTITY smiley11Cmd.label "Lahe">
 <!ENTITY smiley12Cmd.label "Raha suus">
 <!ENTITY smiley13Cmd.label "Jalg suus">
@@ -266,12 +265,6 @@
 <!ENTITY convertRegularAttachment.accesskey "v">
 <!ENTITY attachPage.label "Lisa veebileht...">
 <!ENTITY attachPage.accesskey "S">
-<!-- Attachment Pane Header Bar Context Menu
-     LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
-     Should use the same wording as startExpandedCmd.label
-     in msgHdrViewOverlay.dtd. -->
-<!ENTITY initiallyShowAttachmentPane.label "Kirja avamisel kuvatakse manused kohe">
-<!ENTITY initiallyShowAttachmentPane.accesskey "K">
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Lisa sõnaraamatuid…">
 <!ENTITY spellAddDictionaries.accesskey "L">

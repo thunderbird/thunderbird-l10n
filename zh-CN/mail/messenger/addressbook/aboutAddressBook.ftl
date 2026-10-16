@@ -6,8 +6,6 @@ about-addressbook-title = 通讯录
 
 ## Toolbar
 
-about-addressbook-toolbar-new-address-book =
-    .label = 新建通讯录
 about-addressbook-toolbar-add-address-book =
     .label = 添加本地通讯录
 about-addressbook-toolbar-add-carddav-address-book =
@@ -18,8 +16,6 @@ books-pane-create-contact-button = 新建联系人
     .title = 新建联系人
 books-pane-add-book-button =
     .title = 添加通讯录
-books-pane-create-book-button =
-    .title = 新建通讯录
 books-pane-create-list-button =
     .title = 新建邮件列表
 books-pane-import-button = 导入

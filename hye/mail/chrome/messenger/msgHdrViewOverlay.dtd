@@ -33,8 +33,6 @@
 <!ENTITY hdrFollowupButton1.tooltip "Հետեւել այս լրատուական խմբին">
 <!ENTITY hdrForwardButton1.label "Փոխանցել">
 <!ENTITY hdrForwardButton1.tooltip "Փոխանցել այս հաղորդագրութիւնը">
-<!ENTITY hdrJunkButton1.label "Թափաւն">
-<!ENTITY hdrJunkButton1.tooltip "Նշել այս հաղորդագրութիւնը որպէս անպէտք">
 <!ENTITY hdrTrashButton1.label "Ջնջել">
 <!ENTITY hdrTrashButton1.tooltip "Ջնջել այս հաղորդագրութիւնը">
 <!ENTITY hdrViewToolbarShowFull.label "Ցուցադրել պատկերները եւ գրոյթը">

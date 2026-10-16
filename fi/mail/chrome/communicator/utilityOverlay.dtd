@@ -13,8 +13,6 @@
 <!ENTITY undoCmd.accesskey "m">
 <!ENTITY redoCmd.label "Tee uudelleen">
 <!ENTITY redoCmd.accesskey "T">
-<!ENTITY deleteCmd.label "Poista">
-<!ENTITY deleteCmd.accesskey "o">
 <!ENTITY customizeCmd.label "Mukauta">
 <!ENTITY customizeCmd.accesskey "m">
 <!ENTITY viewMenu.label "Näytä">

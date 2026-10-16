@@ -23,8 +23,6 @@
 <!ENTITY closeConversationCmd.accesskey "Փ">
 <!ENTITY aliasCmd.label "Վերանվանել">
 <!ENTITY aliasCmd.accesskey "Վ">
-<!ENTITY deleteCmd.label "Ջնջել կոնտակտը">
-<!ENTITY deleteCmd.accesskey "Ջ">
 <!ENTITY openConversationButton.tooltip "Սկսել զրուցաշար">
 <!ENTITY closeConversationButton.tooltip "Փակել զրուցաշարը">
 <!ENTITY addBuddyButton.label "Ավելացնել կոնտակտ">

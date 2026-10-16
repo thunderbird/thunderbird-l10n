@@ -5,10 +5,6 @@
 open-preferences-sidebar-button2 = { -brand-short-name }-indstillinger
 open-addons-sidebar-button = Tilføjelser og temaer
 account-tree-add-account-button = Tilføj konto
-account-action-add-newsgroup-account =
-    .label = Tilføj nyhedsgruppekonto
-    .accesskey = n
-account-tree-create-account-button = Ny konto
 account-tree-add-mail-account =
     .label = Mailkonto…
     .accesskey = M

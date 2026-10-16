@@ -23,8 +23,6 @@
 <!ENTITY closeConversationCmd.accesskey "D">
 <!ENTITY aliasCmd.label "Athainmnigh">
 <!ENTITY aliasCmd.accesskey "A">
-<!ENTITY deleteCmd.label "Bain an Teagmhálaí">
-<!ENTITY deleteCmd.accesskey "B">
 <!ENTITY openConversationButton.tooltip "Tosaigh comhrá">
 <!ENTITY closeConversationButton.tooltip "Dún comhrá">
 <!ENTITY addBuddyButton.label "Cuir Teagmhálaí Leis">

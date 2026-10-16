@@ -43,14 +43,9 @@ openpgp-cannot-decrypt-because-mdc =
     Sitä on saatettu muuttaa välityksen aikana, aikeena varastaa viestin sisältö.
     Riskin estämiseksi sisältöä ei näytetä.
 openpgp-cannot-decrypt-because-missing-key = Salainen avain, jota tarvitaan tämän viestin salauksen purkamiseen, ei ole käytettävissä.
-openpgp-partially-signed =
-    Vain osa tästä viestistä digitaalisesti allekirjoitettiin OpenPGP:llä.
-    Jos napsautat vahvistuspainiketta, ei-suojatut osat piilotetaan, ja digitaalisen allekirjoituksen tila näytetään.
 openpgp-partially-encrypted =
     Vain osa tästä viestistä salattiin OpenPGP:llä.
     Luettavissa oleva osa viestistä, joka tässä jo näytetään, ei ollut salattu.
     Jos napsautat salauksen purkupainiketta, salattu sisältö näytetään tässä.
-openpgp-reminder-partial-display = Muistutus: Alla näytettävä viesti on vain osajoukko alkuperäisestä viestistä.
-openpgp-partial-verify-button = Vahvista
 openpgp-partial-decrypt-button = Pura salaus
 openpgp-unexpected-key-for-you = Varoitus: Tämä viesti sisältää tuntemattoman OpenPGP-avaimen, joka viittaa yhteen sähköpostiosoitteistasi. Jos tämä ei ole yksi sinun avaimista, se saattaa olla yritys erehdyttää muita vastaanottajia.

@@ -23,8 +23,6 @@
 <!ENTITY closeConversationCmd.accesskey "Z">
 <!ENTITY aliasCmd.label "Preimenuj">
 <!ENTITY aliasCmd.accesskey "r">
-<!ENTITY deleteCmd.label "Ukloni kontakt">
-<!ENTITY deleteCmd.accesskey "U">
 <!ENTITY openConversationButton.tooltip "Započni razgovor">
 <!ENTITY closeConversationButton.tooltip "Zatvori razgovor">
 <!ENTITY addBuddyButton.label "Dodaj kontakt">

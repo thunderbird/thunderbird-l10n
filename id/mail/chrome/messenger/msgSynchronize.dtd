@@ -18,5 +18,3 @@
 <!ENTITY selectButton.label "Pilih…">
 <!ENTITY selectButton.accesskey "P">
 <!ENTITY MsgSelectDesc.label "Pilih folder email dan newsgroup untuk penggunaan luring.">
-<!ENTITY MsgSelectInd.label "Unduh">
-<!ENTITY MsgSelectItems.label "Folder dan Newsgroup">

@@ -26,13 +26,3 @@ archive-folder-name-label = Archives
 inbox-folder-name-label = Inbox
 child-folder-name-label = Subfolder of Inbox
 sibling-folder-name-label = Sibling of Inbox
-# This should match the default name for the "Archives" folder.
-archive-folder-name =
-    .label = Archives
-# This should match the default name for the "Inbox" folder.
-inbox-folder-name =
-    .label = Inbox
-child-folder-name =
-    .label = Subfolder of Inbox
-sibling-folder-name =
-    .label = Sibling of Inbox

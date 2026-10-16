@@ -13,8 +13,6 @@
 <!ENTITY undoCmd.accesskey "S">
 <!ENTITY redoCmd.label "Err-d">
 <!ENTITY redoCmd.accesskey "E">
-<!ENTITY deleteCmd.label "Kkes">
-<!ENTITY deleteCmd.accesskey "K">
 <!ENTITY customizeCmd.label "Sagen">
 <!ENTITY customizeCmd.accesskey "t">
 <!ENTITY viewMenu.label "Sken">

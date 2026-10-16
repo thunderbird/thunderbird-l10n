@@ -34,9 +34,4 @@
 <!ENTITY attachVCard.accesskey "v">
 <!ENTITY manageIdentities.label "Stjórna auðkenni…">
 <!ENTITY manageIdentities.accesskey "ð">
-<!-- LOCALIZATION NOTE (smtpName.label) : do not translate "SMTP" in below line -->
-<!ENTITY smtpName.label "Póstþjónn út (SMTP):">
-<!ENTITY smtpName.accesskey "P">
 <!ENTITY smtpDefaultServer.label "Nota sjálfgefin póstþjón">
-<!ENTITY smtpServerEdit.label "Breyta SMTP-þjóni…">
-<!ENTITY smtpServerEdit.accesskey "P">

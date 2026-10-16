@@ -10,22 +10,6 @@
 <!ENTITY folderRebuildSummaryFile.explanation "Kartais aplanko laiškų indeksas (.msf failas) sugenda, ir gali atrodyti, kad iš aplanko dingo kai kurie laiškai (arba rodomi laiškai, kuriuos pašalinote). Galite pabandyti pašalinti šias problemas, perindeksuodami aplanką.">
 <!ENTITY folderIncludeInGlobalSearch.label "Įtraukti šiame aplanke esančius laiškus į globaliosios paieškos rezultatus">
 <!ENTITY folderIncludeInGlobalSearch.accesskey "g">
-<!ENTITY retention.label "Laiškų šalinimas">
-<!ENTITY retentionUseAccount.label "Laikytis paskyros nuostatų">
-<!ENTITY retentionUseAccount.accesskey "p">
-<!ENTITY daysOld.label "d. laiškus">
-<!ENTITY message.label "laiškų">
-<!ENTITY retentionCleanup.label "Taupant vietą diske, senus laiškus galima negrąžinamai šalinti.">
-<!ENTITY retentionCleanupImap.label "Taupant vietą diske, senus laiškus (tiek vietines kopijas, tiek jų originalus serveryje) galima negrąžinamai šalinti.">
-<!ENTITY retentionCleanupPop.label "Taupant vietą diske, senus laiškus (taip pat ir jų originalus serveryje) galima negrąžinamai šalinti.">
-<!ENTITY retentionDeleteMsg.label "Šalinti, senesnius nei">
-<!ENTITY retentionDeleteMsg.accesskey "s">
-<!ENTITY retentionKeepAll.label "Nešalinti laiškų">
-<!ENTITY retentionKeepAll.accesskey "N">
-<!ENTITY retentionKeepRecent.label "Šalinti visus, išskyrus paskiausius">
-<!ENTITY retentionKeepRecent.accesskey "v">
-<!ENTITY retentionApplyToFlagged.label "Visada palikti žvaigždute pažymėtus laiškus">
-<!ENTITY retentionApplyToFlagged.accesskey "ž">
 <!ENTITY folderSynchronizationTab.label "Sinchronizavimas">
 <!ENTITY folderCheckForNewMessages2.label "Tikrinant, ar šioje paskyroje yra naujų laiškų, patikrinti ir šį aplanką">
 <!ENTITY folderCheckForNewMessages2.accesskey "T">

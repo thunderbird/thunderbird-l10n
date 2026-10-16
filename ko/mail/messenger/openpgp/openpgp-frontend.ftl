@@ -43,14 +43,9 @@ openpgp-cannot-decrypt-because-mdc =
     콘텐츠를 훔치려는 의도로 운송 중에 수정되었을 수 있습니다.
     이러한 위험을 방지하기 위해 내용이 표시되지 않습니다.
 openpgp-cannot-decrypt-because-missing-key = 이 메시지를 복호화하는 데 필요한 비밀 키를 사용할 수 없습니다.
-openpgp-partially-signed =
-    이 메시지의 일부만 OpenPGP를 사용하여 디지털 서명되었습니다.
-    확인 버튼을 클릭하면 보호되지 않은 부분이 숨겨지고 디지털 서명 상태가 표시됩니다.
 openpgp-partially-encrypted =
     이 메시지의 일부만 OpenPGP를 사용하여 암호화되었습니다.
     이미 표시된 메시지의 읽을 수 있는 부분은 암호화되지 않았습니다.
     복호화 버튼을 클릭하면 암호화 된 부분의 내용이 표시됩니다.
-openpgp-reminder-partial-display = 알림: 아래 표시된 메시지는 원본 메시지의 일부입니다.
-openpgp-partial-verify-button = 검증
 openpgp-partial-decrypt-button = 복호화
 openpgp-unexpected-key-for-you = 경고: 이 메시지는 사용자의 이메일 주소 중 하나를 참조하는 알 수 없는 OpenPGP 키를 포함하고 있습니다. 만약 사용자의 키가 아니라면 상대방을 속이려는 시도일 수 있습니다.

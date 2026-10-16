@@ -17,7 +17,6 @@ webext-perms-description-compose = Les og modifiser e-postmeldingane dine medan 
 webext-perms-description-compose-send = Send komponerte e-postmeldingar på dine vegner
 webext-perms-description-compose-save = Lager komponerte e-postmeldingar som utkast eller malar
 webext-perms-description-experiment-access = Dette tillegget vil ha full, uavgrensa tilgang til { -brand-short-name } og datamaskina di.
-webext-perms-description-experiment = Har full, uavgrensa tilgang til { -brand-short-name }, og datamaskina di
 webext-perms-description-messagesImport = Importer meldingar til Thunderbird
 webext-perms-description-messagesModify = Les og endre e-postmeldingane dine slik dei er viste for deg
 webext-perms-description-messagesModifyPermanent = Gjer permanente endringar i kjelda til meldingane dine (inkludert meldingshovud, meldingsinnhald og vedlegg)

@@ -4,11 +4,6 @@
 
 about-addressbook-title = Kiwujil Ochochib'äl
 
-## Toolbar
-
-about-addressbook-toolbar-new-address-book =
-    .label = K'ak'a' Kiwujil Ochochib'äl
-
 ## Books
 
 all-address-books-row =

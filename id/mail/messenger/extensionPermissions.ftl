@@ -17,7 +17,6 @@ webext-perms-description-compose = Baca dan ubah pesan surel Anda saat Anda menu
 webext-perms-description-compose-send = Kirim pesan surel yang disusun atas nama Anda
 webext-perms-description-compose-save = Simpan pesan surel yang disusun sebagai draf atau templat
 webext-perms-description-experiment-access = Pengaya ini akan memiliki akses penuh dan tidak terbatas ke { -brand-short-name }, dan komputer Anda.
-webext-perms-description-experiment = Memiliki akses penuh, tidak terbatas ke { -brand-short-name }, dan komputer Anda
 webext-perms-description-messagesImport = Impor pesan ke Thunderbird
 webext-perms-description-messagesModify = Baca dan ubah pesan surel Anda saat ditampilkan kepada Anda
 webext-perms-description-messagesModifyPermanent = Mengubah sumber pesan Anda secara permanen (termasuk header, isi, dan lampiran)

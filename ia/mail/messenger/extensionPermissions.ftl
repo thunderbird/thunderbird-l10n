@@ -17,7 +17,6 @@ webext-perms-description-compose = Lege e modifica tu messages email durante que
 webext-perms-description-compose-send = Inviar messages email per conto tue
 webext-perms-description-compose-save = Salvar le messages email redigite in minutas o modellos
 webext-perms-description-experiment-access = Iste additivo debera haber accesso plen e illimitate a { -brand-short-name }, e a tu computator.
-webext-perms-description-experiment = Haber accesso complete e illimitate a { -brand-short-name } e a tu computator
 webext-perms-description-messagesImport = Importar messages in Thunderbird
 webext-perms-description-messagesModify = Lege e modifica tu messages e-mail durante que illos es monstrate pro te
 webext-perms-description-messagesModifyPermanent = Modifica permanente le fonte de tu messages (comprendite titulos, corpore e annexos)

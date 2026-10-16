@@ -6,8 +6,6 @@ about-addressbook-title = Adres Defteri
 
 ## Toolbar
 
-about-addressbook-toolbar-new-address-book =
-    .label = Yeni adres defteri
 about-addressbook-toolbar-add-address-book =
     .label = Yerel adres defteri ekle
 about-addressbook-toolbar-add-carddav-address-book =
@@ -18,8 +16,6 @@ books-pane-create-contact-button = Yeni kişi
     .title = Yeni kişi oluştur
 books-pane-add-book-button =
     .title = Adres defteri ekle
-books-pane-create-book-button =
-    .title = Yeni adres defteri oluştur
 books-pane-create-list-button =
     .title = Yeni e-posta listesi oluştur
 books-pane-import-button = İçe aktar

@@ -180,8 +180,6 @@
 <!ENTITY event.calendar.accesskey "ت">
 <!ENTITY event.attendees.label "الحضور:">
 <!ENTITY event.attendees.accesskey "ض">
-<!ENTITY event.alldayevent.label "حدث طوال اليوم">
-<!ENTITY event.alldayevent.accesskey "ط">
 <!ENTITY event.from.label "البداية:">
 <!ENTITY event.from.accesskey "د">
 <!ENTITY task.from.label "البداية:">
@@ -262,13 +260,6 @@
 <!ENTITY event.recurrence.monthly.fourth.label "رابع">
 <!ENTITY event.recurrence.monthly.fifth.label "خامس">
 <!ENTITY event.recurrence.monthly.last.label "آخر">
-<!ENTITY event.recurrence.pattern.monthly.week.1.label "أحد">
-<!ENTITY event.recurrence.pattern.monthly.week.2.label "إثنين">
-<!ENTITY event.recurrence.pattern.monthly.week.3.label "ثلاثاء">
-<!ENTITY event.recurrence.pattern.monthly.week.4.label "أربعاء">
-<!ENTITY event.recurrence.pattern.monthly.week.5.label "خميس">
-<!ENTITY event.recurrence.pattern.monthly.week.6.label "جمعة">
-<!ENTITY event.recurrence.pattern.monthly.week.7.label "سبت">
 <!ENTITY event.recurrence.repeat.dayofmonth.label "يوم من الشهر">
 <!ENTITY event.recurrence.repeat.recur.label "كرّر في يوم/أيام">
 <!ENTITY event.recurrence.every.label "كلّ">
@@ -281,18 +272,6 @@
      event.recurrence.pattern.yearly.of.label is "of" in
      Edit recurrence window -> Recurrence pattern -> Repeat yearly -->
 <!ENTITY event.recurrence.pattern.yearly.of.label "من">
-<!ENTITY event.recurrence.pattern.yearly.month.1.label "يناير">
-<!ENTITY event.recurrence.pattern.yearly.month.2.label "فبراير">
-<!ENTITY event.recurrence.pattern.yearly.month.3.label "مارس">
-<!ENTITY event.recurrence.pattern.yearly.month.4.label "أبريل">
-<!ENTITY event.recurrence.pattern.yearly.month.5.label "مايو">
-<!ENTITY event.recurrence.pattern.yearly.month.6.label "يونيو">
-<!ENTITY event.recurrence.pattern.yearly.month.7.label "يوليو">
-<!ENTITY event.recurrence.pattern.yearly.month.8.label "أغسطس">
-<!ENTITY event.recurrence.pattern.yearly.month.9.label "سبتمبر">
-<!ENTITY event.recurrence.pattern.yearly.month.10.label "أكتوبر">
-<!ENTITY event.recurrence.pattern.yearly.month.11.label "نوفمبر">
-<!ENTITY event.recurrence.pattern.yearly.month.12.label "ديسمبر">
 <!ENTITY event.recurrence.yearly.every.label "كلّ">
 <!ENTITY event.recurrence.yearly.first.label "أوّل">
 <!ENTITY event.recurrence.yearly.second.label "ثاني">
@@ -300,27 +279,8 @@
 <!ENTITY event.recurrence.yearly.fourth.label "رابع">
 <!ENTITY event.recurrence.yearly.fifth.label "خامس">
 <!ENTITY event.recurrence.yearly.last.label "آخر">
-<!ENTITY event.recurrence.pattern.yearly.week.1.label "أحد">
-<!ENTITY event.recurrence.pattern.yearly.week.2.label "إثنين">
-<!ENTITY event.recurrence.pattern.yearly.week.3.label "ثلاثاء">
-<!ENTITY event.recurrence.pattern.yearly.week.4.label "أربعاء">
-<!ENTITY event.recurrence.pattern.yearly.week.5.label "خميس">
-<!ENTITY event.recurrence.pattern.yearly.week.6.label "جمعة">
-<!ENTITY event.recurrence.pattern.yearly.week.7.label "سبت">
 <!ENTITY event.recurrence.pattern.yearly.day.label "يوم">
 <!ENTITY event.recurrence.of.label "من">
-<!ENTITY event.recurrence.pattern.yearly.month2.1.label "يناير">
-<!ENTITY event.recurrence.pattern.yearly.month2.2.label "فبراير">
-<!ENTITY event.recurrence.pattern.yearly.month2.3.label "مارس">
-<!ENTITY event.recurrence.pattern.yearly.month2.4.label "أبريل">
-<!ENTITY event.recurrence.pattern.yearly.month2.5.label "مايو">
-<!ENTITY event.recurrence.pattern.yearly.month2.6.label "يونيو">
-<!ENTITY event.recurrence.pattern.yearly.month2.7.label "يوليو">
-<!ENTITY event.recurrence.pattern.yearly.month2.8.label "أغسطس">
-<!ENTITY event.recurrence.pattern.yearly.month2.9.label "سبتمبر">
-<!ENTITY event.recurrence.pattern.yearly.month2.10.label "أكتوبر">
-<!ENTITY event.recurrence.pattern.yearly.month2.11.label "نوفمبر">
-<!ENTITY event.recurrence.pattern.yearly.month2.12.label "ديسمبر">
 <!ENTITY event.recurrence.range.label "مدى التكرارية">
 <!ENTITY event.recurrence.forever.label "لا تاريخ انتهاء">
 <!ENTITY event.recurrence.repeat.for.label "أنشئ من المواعيد">

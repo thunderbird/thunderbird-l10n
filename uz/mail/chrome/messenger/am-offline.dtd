@@ -11,24 +11,10 @@
 <!ENTITY autosyncNotDownload.accesskey "x">
 <!ENTITY kb.label "KB">
 <!ENTITY daysOld.label "kun oldin">
-<!ENTITY message.label "xabarlar">
 <!ENTITY nntpNotDownloadRead.label "Xabarlarni o‘qish">
 <!ENTITY nntpNotDownloadRead.accesskey "o">
 <!ENTITY nntpDownloadMsg.label "Ushbudan ko‘proq xabarlar">
 <!ENTITY nntpDownloadMsg.accesskey "x">
-<!ENTITY retentionCleanup.label "Diskdan bo‘sh joy ochishda eski xabarlar butunlay o‘chirib tashlanishi mumkin.">
-<!ENTITY retentionCleanupImap.label "Diskdan bo‘sh joy ochishda eski xabarlar butunlay o‘chirib tashlanishi mumkin. Bunday holda kompyuterdagi va masofadagi serverda joylashgan asl xabar ham o‘chiriladi.">
-<!ENTITY retentionCleanupPop.label "Diskdan bo‘sh joy ochishda masofadagi serverda joylashgan asl xabar bilan birga kompyuterdagi eski xabarlar ham butunlay o‘chirib tashlanishi mumkin.">
-<!ENTITY retentionKeepMsg.label "Ushbudan ko‘proq xabarlar o‘chirilsin">
-<!ENTITY retentionKeepMsg.accesskey "o">
-<!ENTITY retentionKeepAll.label "Hech qanday xabar o‘chirilmasin">
-<!ENTITY retentionKeepAll.accesskey "H">
-<!ENTITY retentionKeepRecent.label "Eng so‘nggi xabarlardan boshqalari o‘chirilsin">
-<!ENTITY retentionKeepRecent.accesskey "o">
-<!ENTITY retentionApplyToFlagged.label "Yulduzcha qo‘yilgan xabarlar doimo saqlansin">
-<!ENTITY retentionApplyToFlagged.accesskey "s">
-<!ENTITY nntpRemoveMsgBody.label "Ushbudan ko‘p xabarlarning mazmuni olib tashlansin">
-<!ENTITY nntpRemoveMsgBody.accesskey "t">
 <!ENTITY offlineSelectNntp.label "Oflayn foydalanish uchun yangiliklar to‘plamini tanlash…">
 <!ENTITY offlineSelectNntp.accesskey "t">
 <!ENTITY offlineImapAdvancedOffline.label "Qo‘shimcha…">

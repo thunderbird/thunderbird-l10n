@@ -29,5 +29,4 @@ toolbar-throbber-label = Activity Indicator
 toolbar-throbber =
     .title = Activity Indicator
 toolbar-create-contact-label = ទំនាក់ទំនងថ្មី
-toolbar-create-address-book-label = សៀវភៅអាសយដ្ឋានថ្មី
 toolbar-create-list-label = បញ្ជីថ្មី

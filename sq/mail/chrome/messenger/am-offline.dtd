@@ -14,24 +14,10 @@
 <!ENTITY autosyncNotDownload.accesskey "M">
 <!ENTITY kb.label "KB">
 <!ENTITY daysOld.label "ditë të vjetër">
-<!ENTITY message.label "mesazheve të fundit">
 <!ENTITY nntpNotDownloadRead.label "Lexoni mesazhe">
 <!ENTITY nntpNotDownloadRead.accesskey "L">
 <!ENTITY nntpDownloadMsg.label "Mesazhe më tepër se">
 <!ENTITY nntpDownloadMsg.accesskey "s">
-<!ENTITY retentionCleanup.label "Për të ripatur hapësirë disku, mesazhet e vjetër mund të fshihen përfundimisht">
-<!ENTITY retentionCleanupImap.label "Për të kursyer vend në disk, mesazhet e vjetra mund të fshihen përgjithmonë, si kopjet vendore, ashtu edhe origjinalet në shërbyesin e largët.">
-<!ENTITY retentionCleanupPop.label "Për të kursyer vend në disk, mesazhet e vjetra mund të fshihen përgjithmonë, përfshi origjinalet në shërbyesin e largët.">
-<!ENTITY retentionKeepMsg.label "Fshi mesazhe më të vjetër se">
-<!ENTITY retentionKeepMsg.accesskey "f">
-<!ENTITY retentionKeepAll.label "Mos fshi ndonjë mesazh">
-<!ENTITY retentionKeepAll.accesskey "o">
-<!ENTITY retentionKeepRecent.label "Fshiji krejt, përveç më të fundit ">
-<!ENTITY retentionKeepRecent.accesskey "t">
-<!ENTITY retentionApplyToFlagged.label "Mesazhet me yllkë mbaji përherë">
-<!ENTITY retentionApplyToFlagged.accesskey "y">
-<!ENTITY nntpRemoveMsgBody.label "Hiqe lëndën prej mesazhesh më të vjetër se">
-<!ENTITY nntpRemoveMsgBody.accesskey "H">
 <!ENTITY offlineSelectNntp.label "Përzgjidhni grupe lajmesh për përdorim jashtë linje…">
 <!ENTITY offlineSelectNntp.accesskey "N">
 <!ENTITY offlineImapAdvancedOffline.label "Të mëtejshme…">

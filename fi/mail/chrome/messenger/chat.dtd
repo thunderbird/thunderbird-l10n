@@ -23,8 +23,6 @@
 <!ENTITY closeConversationCmd.accesskey "L">
 <!ENTITY aliasCmd.label "Nimeä uudelleen">
 <!ENTITY aliasCmd.accesskey "u">
-<!ENTITY deleteCmd.label "Poista yhteyshenkilö">
-<!ENTITY deleteCmd.accesskey "o">
 <!ENTITY openConversationButton.tooltip "Aloita keskustelu">
 <!ENTITY closeConversationButton.tooltip "Lopeta keskustelu">
 <!ENTITY addBuddyButton.label "Lisää tuttava">

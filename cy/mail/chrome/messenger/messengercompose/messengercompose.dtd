@@ -216,7 +216,6 @@
 <!ENTITY smiley7Cmd.label "Heb benderfynu">
 <!ENTITY smiley8Cmd.label "Syndod">
 <!ENTITY smiley9Cmd.label "Cusan">
-<!ENTITY smiley10Cmd.label "Gwaedd">
 <!ENTITY smiley11Cmd.label "Cwl">
 <!ENTITY smiley12Cmd.label "Ceg Aur">
 <!ENTITY smiley13Cmd.label "Ceg Fawr">
@@ -266,12 +265,6 @@
 <!ENTITY convertRegularAttachment.accesskey "A">
 <!ENTITY attachPage.label "Atodi Tudalen Gwe…">
 <!ENTITY attachPage.accesskey "T">
-<!-- Attachment Pane Header Bar Context Menu
-     LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
-     Should use the same wording as startExpandedCmd.label
-     in msgHdrViewOverlay.dtd. -->
-<!ENTITY initiallyShowAttachmentPane.label "Dangos y Paen Atodiad yn Gyntaf">
-<!ENTITY initiallyShowAttachmentPane.accesskey "D">
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Ychwanegu Geiriaduron…">
 <!ENTITY spellAddDictionaries.accesskey "G">

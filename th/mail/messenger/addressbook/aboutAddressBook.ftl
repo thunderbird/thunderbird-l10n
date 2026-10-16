@@ -6,8 +6,6 @@ about-addressbook-title = สมุดรายชื่อ
 
 ## Toolbar
 
-about-addressbook-toolbar-new-address-book =
-    .label = สมุดรายชื่อใหม่
 about-addressbook-toolbar-add-address-book =
     .label = เพิ่มสมุดรายชื่อในเครื่อง
 about-addressbook-toolbar-add-carddav-address-book =
@@ -16,8 +14,6 @@ about-addressbook-toolbar-add-ldap-address-book =
     .label = เพิ่มสมุดรายชื่อ LDAP
 books-pane-create-contact-button = ผู้ติดต่อใหม่
     .title = สร้างผู้ติดต่อใหม่
-books-pane-create-book-button =
-    .title = สร้างสมุดรายชื่อใหม่
 books-pane-create-list-button =
     .title = สร้างรายชื่อผู้รับจดหมายใหม่
 books-pane-import-button = นำเข้า

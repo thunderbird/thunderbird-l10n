@@ -13,8 +13,6 @@
 <!ENTITY undoCmd.accesskey "h">
 <!ENTITY redoCmd.label "Repetir">
 <!ENTITY redoCmd.accesskey "R">
-<!ENTITY deleteCmd.label "Borrar">
-<!ENTITY deleteCmd.accesskey "B">
 <!ENTITY customizeCmd.label "Personalizar">
 <!ENTITY customizeCmd.accesskey "z">
 <!ENTITY viewMenu.label "Ver">

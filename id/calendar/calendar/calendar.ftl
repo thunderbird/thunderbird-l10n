@@ -655,16 +655,6 @@ hide-calendar-name =
 show-only-calendar-name =
     .label = Hanya Tampilkan { $name }
     .accesskey = O
-# $name calendar name
-show-calendar-label =
-    .label = Tampilkan { $name }
-# $name calendar name
-hide-calendar-label =
-    .label = Sembunyikan { $name }
-# uses the access key calendar.context.showonly.accesskey
-# $name calendar name
-show-only-calendar =
-    .label = Hanya Tampilkan { $name }
 # LOCALIZATION NOTE (modify-conflict-*)
 # Used by the event dialog to resolve item modification conflicts.
 modify-conflict-prompt-title = Konflik Modifikasi Hal

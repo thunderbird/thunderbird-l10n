@@ -220,11 +220,6 @@ odnoklassniki-protocol-name = Odnoklassniki
 #  Odnoklassniki disabled their XMPP gateway. The message below is a localized
 #  error message to be displayed to users with Odnoklassniki accounts.
 odnoklassniki-disabled = השימוש ב־Odnoklassniki אינו נתמך מכיוון ש־Odnoklassniki השביתו את הגישה דרך XMPP.
-# LOCALIZATION NOTE (odnoklassniki-username-hint):
-#  This is displayed inside the accountUsernameInfoWithDescription
-#  string defined in imAccounts.properties when the user is
-#  configuring a Odnoklassniki account.
-odnoklassniki-username-hint = מזהה פרופיל
 # $commandName (String): command name
 command-topic = { $commandName } [&lt;נושא חדש&gt;]: הגדרת נושא החדר.
 # $commandName (String): command name

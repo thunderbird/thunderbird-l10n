@@ -43,14 +43,9 @@ openpgp-cannot-decrypt-because-mdc =
     I n'è betg exclus ch'el è vegnì modifitgà durant la transmissiun, cun l'intenziun dad engular ses cuntegn.
     Per prevegnir a quest ristg na vegnan ils cuntegns betg mussads.
 openpgp-cannot-decrypt-because-missing-key = La clav secreta necessaria per decriptar quest messadi n'è betg disponibla.
-openpgp-partially-signed =
-    Mo ina part da quest messadi è signada digitalmain cun OpenPGP.
-    Sche ti cliccas sin il buttun «Verifitgar» vegnan las parts nunprotegidas zuppentadas ed il status da la signatura digitala vegn mussà.
 openpgp-partially-encrypted =
     Mo ina part da quest messadi è criptada cun agid da OpenPGP.
     Las parts legiblas dal messadi che vegnan gia mussadas, n'èn betg criptadas.
     Sche ti cliccas sin il buttun «Decriptar», vegn il cuntegn da las parts criptadas mussà.
-openpgp-reminder-partial-display = Promemoria: Il messadi mussà sutvart è mo ina part dal messadi original.
-openpgp-partial-verify-button = Verifitgar
 openpgp-partial-decrypt-button = Decriptar
 openpgp-unexpected-key-for-you = Attenziun: Quest messadi cuntegna ina clav OpenPGP nunenconuschenta che sa referescha ad ina da tias atgnas adressas dad e-mail. Sche quai n'è betg ina da tias atgnas clavs, pudessi sa tractar dad in'emprova dad engianar auters correspundents.

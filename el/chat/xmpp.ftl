@@ -260,11 +260,6 @@ gtalk-disabled = Το Google Talk δεν υποστηρίζεται πλέον, 
 #  Odnoklassniki disabled their XMPP gateway. The message below is a localized
 #  error message to be displayed to users with Odnoklassniki accounts.
 odnoklassniki-disabled = Το Odnoklassniki δεν υποστηρίζεται πλέον, επειδή το Odnoklassniki απενεργοποίησε τη θύρα XMPP του.
-# LOCALIZATION NOTE (odnoklassniki-username-hint):
-#  This is displayed inside the accountUsernameInfoWithDescription
-#  string defined in imAccounts.properties when the user is
-#  configuring a Odnoklassniki account.
-odnoklassniki-username-hint = ID προφίλ
 # LOCALIZATION NOTE (command-*):
 #  These are the help messages for each command.
 # $commandName (String): command name

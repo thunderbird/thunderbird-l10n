@@ -43,14 +43,9 @@ openpgp-cannot-decrypt-because-mdc =
     Nó có thể đã được sửa đổi khi đang chuyển, với ý định lấy cắp nội dung của nó.
     Để ngăn ngừa rủi ro này, nội dung không được hiển thị.
 openpgp-cannot-decrypt-because-missing-key = Không có khóa bí mật cần thiết để giải mã thông báo này.
-openpgp-partially-signed =
-    Chỉ một tập hợp con của thông báo này được ký điện tử bằng OpenPGP.
-    Nếu bạn nhấp vào nút xác minh, các phần không được bảo vệ sẽ bị ẩn và trạng thái của chữ ký điện tử sẽ được hiển thị.
 openpgp-partially-encrypted =
     Chỉ một tập hợp con của thông báo này được mã hóa bằng OpenPGP.
     Các phần có thể đọc được của thư đã được hiển thị không được mã hóa.
     Nếu bạn nhấp vào nút giải mã, nội dung của các phần được mã hóa sẽ được hiển thị.
-openpgp-reminder-partial-display = Nhắc nhở: Thông báo hiển thị bên dưới chỉ là một tập hợp con của thông báo gốc.
-openpgp-partial-verify-button = Xác minh
 openpgp-partial-decrypt-button = Giải mã
 openpgp-unexpected-key-for-you = Cảnh báo: Thư này chứa khóa OpenPGP không xác định đề cập đến một trong các địa chỉ email của riêng bạn. Nếu đây không phải là một trong những chìa khóa của riêng bạn, nó có thể là một nỗ lực để lừa những người trao đổi khác.

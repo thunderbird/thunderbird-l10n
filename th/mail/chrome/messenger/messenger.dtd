@@ -48,8 +48,6 @@
 <!ENTITY getAllNewMsgCmdPopupMenu.accesskey "ท">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.label "บัญชีปัจจุบัน">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.accesskey "ป">
-<!ENTITY getNextNMsgCmd2.label "รับข้อความข่าวถัดไป">
-<!ENTITY getNextNMsgCmd2.accesskey "บ">
 <!ENTITY sendUnsentCmd.label "ส่งข้อความที่ไม่ได้ส่ง">
 <!ENTITY sendUnsentCmd.accesskey "ส">
 <!ENTITY subscribeCmd.label "บอกรับ…">
@@ -59,8 +57,6 @@
 <!ENTITY renameFolder.label "เปลี่ยนชื่อโฟลเดอร์…">
 <!ENTITY renameFolder.accesskey "เ">
 <!ENTITY renameFolder.key "VK_F2">
-<!ENTITY compactFolders.label "กระชับโฟลเดอร์">
-<!ENTITY compactFolders.accesskey "ก">
 <!ENTITY emptyTrashCmd.label "ล้างข้อมูลในถังขยะ">
 <!ENTITY emptyTrashCmd.accesskey "า">
 <!ENTITY offlineMenu.label "ออฟไลน์">
@@ -129,10 +125,6 @@
 <!ENTITY allFolders.accesskey "ท">
 <!ENTITY unreadFolders.label "ยังไม่ได้อ่าน">
 <!ENTITY unreadFolders.accesskey "ย">
-<!ENTITY favoriteFolders.label "รายการโปรด">
-<!ENTITY favoriteFolders.accesskey "โ">
-<!ENTITY recentFolders.label "ล่าสุด">
-<!ENTITY recentFolders.accesskey "ล">
 <!ENTITY compactVersion.label "มุมมองแบบกะทัดรัด">
 <!ENTITY compactVersion.accesskey "ก">
 <!-- Sort Menu -->
@@ -154,8 +146,6 @@
 <!ENTITY sortByStatusCmd.accesskey "ส">
 <!ENTITY sortByTagsCmd.label "ป้ายกำกับ">
 <!ENTITY sortByTagsCmd.accesskey "ป">
-<!ENTITY sortByJunkStatusCmd.label "สถานะขยะ">
-<!ENTITY sortByJunkStatusCmd.accesskey "ย">
 <!ENTITY sortBySubjectCmd.label "หัวเรื่อง">
 <!ENTITY sortBySubjectCmd.accesskey "b">
 <!ENTITY sortByFromCmd.label "จาก">
@@ -243,7 +233,6 @@
 <!ENTITY findPrevCmd.key2 "VK_F3">
 <!ENTITY searchMailCmd.label "ค้นหาข้อความ…">
 <!ENTITY searchMailCmd.accesskey "M">
-<!ENTITY searchMailCmd.key "f">
 <!ENTITY glodaSearchCmd.label "การค้นหาส่วนกลาง…">
 <!ENTITY glodaSearchCmd.accesskey "า">
 <!ENTITY searchAddressesCmd.label "ค้นหาที่อยู่…">
@@ -334,17 +323,6 @@
 <!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN">
 <!ENTITY createFilter.label "สร้างตัวกรองจากข้อความ…">
 <!ENTITY createFilter.accesskey "ส">
-<!ENTITY moveMsgToMenu.label "ย้ายไปยัง">
-<!ENTITY moveMsgToMenu.accesskey "ย">
-<!ENTITY moveCopyMsgRecentMenu.label "ล่าสุด">
-<!ENTITY moveCopyMsgRecentMenu.accesskey "ล">
-<!ENTITY copyMessageLocation.label "คัดลอกตำแหน่งที่ตั้งข้อความ">
-<!ENTITY copyMessageLocation.accesskey "ข">
-<!ENTITY copyMsgToMenu.label "คัดลอกไปยัง">
-<!ENTITY copyMsgToMenu.accesskey "ค">
-<!ENTITY moveToFolderAgain.label "ย้ายอีกครั้ง">
-<!ENTITY moveToFolderAgain.accesskey "อ">
-<!ENTITY moveToFolderAgainCmd.key "m">
 <!ENTITY killThreadMenu.label "เพิกเฉยเธรด">
 <!ENTITY killThreadMenu.accesskey "พ">
 <!ENTITY killThreadMenu.key "k">
@@ -356,16 +334,6 @@
 <!ENTITY watchThreadMenu.key "w">
 <!ENTITY tagMenu.label "ป้ายกำกับ">
 <!ENTITY tagMenu.accesskey "ป">
-<!ENTITY tagCmd0.key "0">
-<!ENTITY tagCmd1.key "1">
-<!ENTITY tagCmd2.key "2">
-<!ENTITY tagCmd3.key "3">
-<!ENTITY tagCmd4.key "4">
-<!ENTITY tagCmd5.key "5">
-<!ENTITY tagCmd6.key "6">
-<!ENTITY tagCmd7.key "7">
-<!ENTITY tagCmd8.key "8">
-<!ENTITY tagCmd9.key "9">
 <!ENTITY markMenu.label "ทำเครื่องหมาย">
 <!ENTITY markMenu.accesskey "ท">
 <!ENTITY toggleReadCmd.key "m">
@@ -385,14 +353,6 @@
 <!ENTITY markStarredCmd.label "เพิ่มดาว">
 <!ENTITY markStarredCmd.accesskey "ด">
 <!ENTITY markStarredCmd.key "S">
-<!ENTITY markAsJunkCmd.label "ว่าเป็นขยะ">
-<!ENTITY markAsJunkCmd.accesskey "ข">
-<!ENTITY markAsJunkCmd.key "j">
-<!ENTITY markAsNotJunkCmd.label "ว่าไม่เป็นขยะ">
-<!ENTITY markAsNotJunkCmd.accesskey "ม">
-<!ENTITY markAsNotJunkCmd.key "j">
-<!ENTITY recalculateJunkScoreCmd.label "เรียกใช้การควบคุมจดหมายขยะ">
-<!ENTITY recalculateJunkScoreCmd.accesskey "ค">
 <!ENTITY openMessageWindowCmd.label "เปิดข้อความ">
 <!ENTITY openMessageWindowCmd.accesskey "ป">
 <!ENTITY openMessageWindowCmd.key "o">
@@ -441,10 +401,6 @@
 <!ENTITY filtersApplyToSelection.accesskey "เ">
 <!ENTITY filtersApplyToMessage.label "เรียกใช้ตัวกรองกับข้อความ">
 <!ENTITY filtersApplyToMessage.accesskey "เ">
-<!ENTITY runJunkControls.label "เรียกใช้การควบคุมจดหมายขยะกับโฟลเดอร์">
-<!ENTITY runJunkControls.accesskey "ค">
-<!ENTITY deleteJunk.label "ลบจดหมายที่ถูกทำเครื่องหมายว่าเป็นขยะในโฟลเดอร์">
-<!ENTITY deleteJunk.accesskey "ล">
 <!ENTITY importCmd.label "นำเข้า…">
 <!ENTITY importCmd.accesskey "น">
 <!ENTITY exportCmd.label "ส่งออก…">
@@ -491,7 +447,6 @@
 <!ENTITY printButton.label "พิมพ์">
 <!ENTITY stopButton.label "หยุด">
 <!ENTITY throbberItem.title "ตัวบ่งชี้กิจกรรม">
-<!ENTITY junkItem.title "ขยะ">
 <!ENTITY addressBookButton.label "สมุดรายชื่อ">
 <!ENTITY chatButton.label "แชท">
 <!ENTITY glodaSearch.title "การค้นหาส่วนกลาง">
@@ -553,11 +508,6 @@
 <!ENTITY appmenuNewContactCmd.label "ผู้ติดต่อของสมุดรายชื่อ…">
 <!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "เค้าโครงแถบเครื่องมือ…">
-<!-- Tags Menu Popup -->
-<!ENTITY addNewTag.label "ป้ายกำกับใหม่…">
-<!ENTITY addNewTag.accesskey "ม">
-<!ENTITY manageTags.label "จัดการป้ายกำกับ…">
-<!ENTITY manageTags.accesskey "จ">
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "ชื่อ">
 <!ENTITY folderUnreadColumn.label "ยังไม่ได้อ่าน">
@@ -580,12 +530,8 @@
 <!ENTITY folderContextRename.accesskey "ป">
 <!ENTITY folderContextRemove.label "ลบ">
 <!ENTITY folderContextRemove.accesskey "ล">
-<!ENTITY folderContextCompact.label "กระชับ">
-<!ENTITY folderContextCompact.accesskey "ก">
 <!ENTITY folderContextEmptyTrash.label "ล้างข้อมูลในถังขยะ">
 <!ENTITY folderContextEmptyTrash.accesskey "า">
-<!ENTITY folderContextEmptyJunk.label "ล้างขยะ">
-<!ENTITY folderContextEmptyJunk.accesskey "ข">
 <!ENTITY folderContextSendUnsentMessages.label "ส่งข้อความที่ไม่ได้ส่ง">
 <!ENTITY folderContextSendUnsentMessages.accesskey "ส">
 <!ENTITY folderContextUnsubscribe.label "เลิกบอกรับ">
@@ -628,7 +574,6 @@
 <!ENTITY accountColumn.label "บัญชี">
 <!ENTITY statusColumn.label "สถานะ">
 <!ENTITY sizeColumn.label "ขนาด">
-<!ENTITY junkStatusColumn.label "สถานะขยะ">
 <!ENTITY unreadColumn.label "ยังไม่ได้อ่าน">
 <!ENTITY totalColumn.label "รวมทั้งหมด">
 <!ENTITY readColumn.label "อ่านแล้ว">
@@ -652,7 +597,6 @@
 <!ENTITY accountColumn2.tooltip "เรียงตามบัญชี">
 <!ENTITY statusColumn2.tooltip "เรียงตามสถานะ">
 <!ENTITY sizeColumn2.tooltip "เรียงตามขนาด">
-<!ENTITY junkStatusColumn2.tooltip "เรียงตามสถานะขยะ">
 <!ENTITY unreadColumn2.tooltip "จำนวนข้อความที่ยังไม่ได้อ่านในเธรด">
 <!ENTITY totalColumn2.tooltip "จำนวนข้อความทั้งหมดในเธรด">
 <!ENTITY readColumn2.tooltip "เรียงตามที่อ่านแล้ว">
@@ -691,16 +635,6 @@
 <!ENTITY contextReplyAll.accesskey "ท">
 <!ENTITY contextReplyList.label "ตอบกลับถึงรายการ">
 <!ENTITY contextReplyList.accesskey "ร">
-<!ENTITY contextMoveMsgMenu.label "ย้ายไปยัง">
-<!ENTITY contextMoveMsgMenu.accesskey "ย">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "สถานที่ปลายทางล่าสุด">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "ล">
-<!ENTITY contextMoveCopyMsgRecentMenu.label "ล่าสุด">
-<!ENTITY contextMoveCopyMsgRecentMenu.accesskey "ล">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.label "รายการโปรด">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.accesskey "ร">
-<!ENTITY contextCopyMsgMenu.label "คัดลอกไปยัง">
-<!ENTITY contextCopyMsgMenu.accesskey "ค">
 <!ENTITY contextKillThreadMenu.label "เพิกเฉยเธรด">
 <!ENTITY contextKillSubthreadMenu.accesskey "ย">
 <!ENTITY contextKillThreadMenu.accesskey "ว">

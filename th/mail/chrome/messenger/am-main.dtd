@@ -34,9 +34,4 @@
 <!ENTITY attachVCard.accesskey "น">
 <!ENTITY manageIdentities.label "จัดการข้อมูลประจำตัว…">
 <!ENTITY manageIdentities.accesskey "จ">
-<!-- LOCALIZATION NOTE (smtpName.label) : do not translate "SMTP" in below line -->
-<!ENTITY smtpName.label "เซิร์ฟเวอร์ขาออก (SMTP):">
-<!ENTITY smtpName.accesskey "ร">
 <!ENTITY smtpDefaultServer.label "ใช้เซิร์ฟเวอร์เริ่มต้น">
-<!ENTITY smtpServerEdit.label "แก้ไขเซิร์ฟเวอร์ SMTP…">
-<!ENTITY smtpServerEdit.accesskey "ฟ">

@@ -14,24 +14,10 @@
 <!ENTITY autosyncNotDownload.accesskey "t">
 <!ENTITY kb.label "KB’den büyükse indirme">
 <!ENTITY daysOld.label "günden eskiyse sil">
-<!ENTITY message.label "ileti dışındakileri sil">
 <!ENTITY nntpNotDownloadRead.label "Okunmuş iletiler">
 <!ENTITY nntpNotDownloadRead.accesskey "l">
 <!ENTITY nntpDownloadMsg.label "İleti">
 <!ENTITY nntpDownloadMsg.accesskey "i">
-<!ENTITY retentionCleanup.label "Disk alanı kazanmak için eski iletileri kalıcı olarak silebilirsiniz.">
-<!ENTITY retentionCleanupImap.label "Disk alanı kazanmak için sunucudaki eski özgün iletiler ve yerel kopyaları tamamen silinebilir.">
-<!ENTITY retentionCleanupPop.label "Disk alanı kazanmak için sunucudaki eski özgün iletiler tamamen silinebilir.">
-<!ENTITY retentionKeepMsg.label "İleti">
-<!ENTITY retentionKeepMsg.accesskey "t">
-<!ENTITY retentionKeepAll.label "Hiçbir iletiyi silme">
-<!ENTITY retentionKeepAll.accesskey "H">
-<!ENTITY retentionKeepRecent.label "Son">
-<!ENTITY retentionKeepRecent.accesskey "S">
-<!ENTITY retentionApplyToFlagged.label "Yıldızlı iletileri hiçbir zaman silme">
-<!ENTITY retentionApplyToFlagged.accesskey "Y">
-<!ENTITY nntpRemoveMsgBody.label "İleti gövdesi">
-<!ENTITY nntpRemoveMsgBody.accesskey "ö">
 <!ENTITY offlineSelectNntp.label "Çevrimdışı kullanılacak haber gruplarını seçin…">
 <!ENTITY offlineSelectNntp.accesskey "s">
 <!ENTITY offlineImapAdvancedOffline.label "Gelişmiş…">

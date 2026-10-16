@@ -91,9 +91,3 @@ meta-ctrl-shift-alt-shortcut-key2 =
 #  $shortcut (String): The shortcut generated from the keystroke combination.
 button-shortcut-string =
     .title = { $title } ({ $shortcut })
-# Variables:
-#  $label (String): The text label coming from the original element.
-#  $shortcut (String): The shortcut generated from the keystroke combination.
-menuitem-shortcut-string =
-    .acceltext = { $shortcut }
-    .label = { $label }

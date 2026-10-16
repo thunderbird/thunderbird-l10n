@@ -752,16 +752,6 @@ hide-calendar-name =
 show-only-calendar-name =
     .label = Jenož { $name } pokazać
     .accesskey = J
-# $name calendar name
-show-calendar-label =
-    .label = { $name } pokazać
-# $name calendar name
-hide-calendar-label =
-    .label = { $name } schować
-# uses the access key calendar.context.showonly.accesskey
-# $name calendar name
-show-only-calendar =
-    .label = Jenož { $name } pokazać
 # LOCALIZATION NOTE (modify-conflict-*)
 # Used by the event dialog to resolve item modification conflicts.
 modify-conflict-prompt-title = Konflikt při změnjenju zapiska

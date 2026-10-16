@@ -20,8 +20,6 @@ calendar-enable-button = Habilita
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-context-button =
     .title = Opcions de calendari { $calendarName }
-calendar-import-new-calendar = Calendari nou…
-    .title = Creeu o subscriviu-vos a un calendari nou
 calendar-refresh-calendars =
     .title = Torna a carregar tots els calendaris i sincronitza els canvis
 calendar-new-event-primary-button = Cita nova

@@ -6,8 +6,6 @@ about-addressbook-title = მისამართების წიგნა�
 
 ## Toolbar
 
-about-addressbook-toolbar-new-address-book =
-    .label = ახალი წიგნაკი
 about-addressbook-toolbar-add-address-book =
     .label = ადგილობრივი წიგნაკის დამატება
 about-addressbook-toolbar-add-carddav-address-book =
@@ -18,8 +16,6 @@ books-pane-create-contact-button = ახალი პირი
     .title = ახალი პირის დამატება
 books-pane-add-book-button =
     .title = მისამართების წიგნაკის დამატება
-books-pane-create-book-button =
-    .title = ახალი წიგნაკის შექმნა
 books-pane-create-list-button =
     .title = ახალი საფოსტო სიის შექმნა
 books-pane-import-button = გადმოტანა

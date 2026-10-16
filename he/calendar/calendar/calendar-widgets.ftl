@@ -11,8 +11,6 @@ calendar-add-notification-button =
 
 calendar-list-header = לוחות שנה
 calendar-enable-button = הפעלה
-calendar-import-new-calendar = לוח שנה חדש…
-    .title = יצירת או הרשמה ללוח שנה חדש
 calendar-refresh-calendars =
     .title = טעינה מחדש של כל לוחות השנה וסנכרון השינויים
 calendar-new-event-primary-button = אירוע חדש

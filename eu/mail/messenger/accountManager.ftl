@@ -5,10 +5,6 @@
 open-preferences-sidebar-button2 = { -brand-short-name } ezarpenak
 open-addons-sidebar-button = Gehigarriak eta itxurak
 account-tree-add-account-button = Gehitu kontua
-account-action-add-newsgroup-account =
-    .label = Gehitu berri-talde kontua…
-    .accesskey = G
-account-tree-create-account-button = Kontu berria
 account-tree-add-mail-account =
     .label = Posta kontua…
     .accesskey = P

@@ -727,16 +727,6 @@ hide-calendar-name =
 show-only-calendar-name =
     .label = Na seall ach { $name }
     .accesskey = A
-# $name calendar name
-show-calendar-label =
-    .label = Seall { $name }
-# $name calendar name
-hide-calendar-label =
-    .label = Falaich { $name }
-# uses the access key calendar.context.showonly.accesskey
-# $name calendar name
-show-only-calendar =
-    .label = Na seall ach { $name }
 # LOCALIZATION NOTE (modify-conflict-*)
 # Used by the event dialog to resolve item modification conflicts.
 modify-conflict-prompt-title = Còmhstri atharrachaidh

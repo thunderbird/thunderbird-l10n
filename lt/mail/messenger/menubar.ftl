@@ -38,12 +38,6 @@ menu-quit =
 
 ## Mail Toolbar
 
-toolbar-junk-button =
-    .label = Brukalas
-    .tooltiptext = Pasirinktas pranešimas bus pažymėtas kaip brukalas
-toolbar-not-junk-button =
-    .label = Tai ne brukalas
-    .tooltiptext = Nežymėti parinkto pranešimo brukalu
 toolbar-delete-button =
     .label = Pašalinti
     .tooltiptext = Pašalinti pasirinktą pranešimą ar katalogą

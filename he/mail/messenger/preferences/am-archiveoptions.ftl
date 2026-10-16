@@ -21,9 +21,3 @@ archive-example-label = דוגמה
 archive-folder-name-label = ארכיון
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name-label = תיבת דואר נכנס
-# This should match the default name for the "Archives" folder.
-archive-folder-name =
-    .label = ארכיון
-# This should match the default name for the "Inbox" folder.
-inbox-folder-name =
-    .label = תיבת דואר נכנס

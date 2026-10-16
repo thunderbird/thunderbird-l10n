@@ -26,13 +26,3 @@ archive-folder-name-label = Archivi
 inbox-folder-name-label = Posta in arrivo
 child-folder-name-label = Sottocartella di Posta in arrivo
 sibling-folder-name-label = Stesso livello di Posta in arrivo
-# This should match the default name for the "Archives" folder.
-archive-folder-name =
-    .label = Archivi
-# This should match the default name for the "Inbox" folder.
-inbox-folder-name =
-    .label = Posta in arrivo
-child-folder-name =
-    .label = Sottocartella di Posta in arrivo
-sibling-folder-name =
-    .label = Stesso livello di Posta in arrivo

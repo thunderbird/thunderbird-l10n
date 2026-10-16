@@ -3,5 +3,3 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY virtualFolderListTitle.title "Wybierz folder(y)">
 <!ENTITY virtualFolderDesc.label "Wybierz foldery do przeszukiwania:">
-<!ENTITY folderName.label "Nazwa folderu">
-<!ENTITY folderSearch.label "Wyszukiwanie">

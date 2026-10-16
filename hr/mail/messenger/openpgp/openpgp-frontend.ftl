@@ -43,14 +43,9 @@ openpgp-cannot-decrypt-because-mdc =
     Mogla je biti izmijenjena u tranzitu s namjerom krađe sadržaja.
     Kako bi se spriječio taj rizik, sadržaj nije prikazan.
 openpgp-cannot-decrypt-because-missing-key = Tajni ključ koji je potreban za dešifriranje ove poruke nije dostupan.
-openpgp-partially-signed =
-    Samo mali dio ove poruke je digitalno potpisan koristeći OpenPGP.
-    Ukoliko kliknete na tipku za provjeru, nezaštićeni dijelovi će biti skriveni i status digitalnog potpisa će biti prikazan.
 openpgp-partially-encrypted =
     Samo mali dio ove poruke je šifriran koristeći OpenPGP.
     Dijelovi poruke koji su već prikazani nisu šifrirani.
     Ukoliko pritisnete tipku za dešifriranje, sadržaj šifriranog dijela će biti prikazan.
-openpgp-reminder-partial-display = Podsjetnik: Niže prikazana poruka je samo dio originalne poruke.
-openpgp-partial-verify-button = Provjeri
 openpgp-partial-decrypt-button = Dešifriraj
 openpgp-unexpected-key-for-you = Upozorenje: Ova poruka sadrži nepoznati OpenPGP ključ koji se odnosi na jednu od vaših adresa e-pošte. Ukoliko ovo nije jedan od vaših ključeva, možda je pokušaj prevare prema ostalim primateljima.

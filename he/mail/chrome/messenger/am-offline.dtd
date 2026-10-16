@@ -14,23 +14,10 @@
 <!ENTITY autosyncNotDownload.accesskey "ג">
 <!ENTITY kb.label "ק״ב">
 <!ENTITY daysOld.label "ימים">
-<!ENTITY message.label "ההודעות האחרונות">
 <!ENTITY nntpNotDownloadRead.label "הודעות שנקראו">
 <!ENTITY nntpNotDownloadRead.accesskey "נ">
 <!ENTITY nntpDownloadMsg.label "הודעות מלפני יותר מאשר">
 <!ENTITY nntpDownloadMsg.accesskey "י">
-<!ENTITY retentionCleanup.label "כדי להשיג שטח דיסק, הודעות ישנות יכולות להימחק לצמיתות.">
-<!ENTITY retentionCleanupImap.label "כדי לשמר שטח דיסק, הודעות ישנות יכולות להימחק לצמיתות, גם העותק המקומי וגם המקור על השרת המרוחק.">
-<!ENTITY retentionCleanupPop.label "כדי לשמר שטח דיסק, הודעות ישנות יכולות להימחק לצמיתות, כולל הודעות המקור בשרת המרוחק.">
-<!ENTITY retentionKeepMsg.label "למחוק הודעות מלפני">
-<!ENTITY retentionKeepMsg.accesskey "ל">
-<!ENTITY retentionKeepAll.label "לא למחוק שום הודעה">
-<!ENTITY retentionKeepAll.accesskey "ש">
-<!ENTITY retentionKeepRecent.accesskey "מ">
-<!ENTITY retentionApplyToFlagged.label "לשמור תמיד הודעות מסומנות בכוכבית">
-<!ENTITY retentionApplyToFlagged.accesskey "ס">
-<!ENTITY nntpRemoveMsgBody.label "הסרת גוף בהודעות בנות יותר מאשר">
-<!ENTITY nntpRemoveMsgBody.accesskey "י">
 <!ENTITY offlineSelectNntp.label "בחירת קבוצות דיון לשימוש לא־מקוון…">
 <!ENTITY offlineSelectNntp.accesskey "ב">
 <!ENTITY offlineImapAdvancedOffline.label "מתקדם…">

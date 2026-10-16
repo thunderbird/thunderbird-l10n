@@ -24,11 +24,6 @@ appmenu-sync-sign-out =
 
 ## Add Account
 
-appmenu-new-account-panel-title =
-    .title = Новы ўліковы запіс
-appmenu-new-account-panel =
-    .label = Новы ўліковы запіс
-    .accesskey = Н
 appmenu-new-email-account =
     .label = Электронная пошта
     .accesskey = Э
@@ -47,11 +42,6 @@ appmenu-new-newsgroup =
 
 ## New Account / Address Book
 
-appmenu-newab-panel-title =
-    .title = Новая адрасная кніга
-appmenu-newab-panel =
-    .label = Новая адрасная кніга
-    .accesskey = а
 appmenu-new-addressbook =
     .label = Лакальная адрасная кніга
     .accesskey = Л

@@ -14,24 +14,10 @@
 <!ENTITY autosyncNotDownload.accesskey "J">
 <!ENTITY kb.label "KB">
 <!ENTITY daysOld.label "hari">
-<!ENTITY message.label "pesan">
 <!ENTITY nntpNotDownloadRead.label "Membaca pesan">
 <!ENTITY nntpNotDownloadRead.accesskey "M">
 <!ENTITY nntpDownloadMsg.label "Pesan lebih dari">
 <!ENTITY nntpDownloadMsg.accesskey "e">
-<!ENTITY retentionCleanup.label "Untuk mengembalikan ruang disk, pesan yang sudah lama dapat dihapus secara permanen">
-<!ENTITY retentionCleanupImap.label "Untuk mengembalikan ruang disk, pesan yang sudah usang dapat dihapus secara permanen, termasuk salinan lokal dan dan pesan asli yang disimpan di server jarak jauh.">
-<!ENTITY retentionCleanupPop.label "Untuk mengembalikan ruang disk, pesan yang sudah lama dapat dihapus secara permanen, termasuk pesan asli yang disimpan di server jarak jauh.">
-<!ENTITY retentionKeepMsg.label "Hapus pesan yang lebih dari">
-<!ENTITY retentionKeepMsg.accesskey "l">
-<!ENTITY retentionKeepAll.label "Jangan hapus pesan sama sekali">
-<!ENTITY retentionKeepAll.accesskey "J">
-<!ENTITY retentionKeepRecent.label "Hapus selain yang paling akhir">
-<!ENTITY retentionKeepRecent.accesskey "a">
-<!ENTITY retentionApplyToFlagged.label "Selalu simpan pesan berbintang">
-<!ENTITY retentionApplyToFlagged.accesskey "e">
-<!ENTITY nntpRemoveMsgBody.label "Hapus isi dari pesan jika lebih dari">
-<!ENTITY nntpRemoveMsgBody.accesskey "H">
 <!ENTITY offlineSelectNntp.label "Pilih newsgroup untuk penggunaan luring…">
 <!ENTITY offlineSelectNntp.accesskey "P">
 <!ENTITY offlineImapAdvancedOffline.label "Canggih…">

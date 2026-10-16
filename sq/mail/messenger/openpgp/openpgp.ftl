@@ -422,7 +422,6 @@ key-verification = Verifikoni shenjat e gishtave të kyçit duke përdorur një 
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = S’arrihet të dërgohet mesazhi, ngaqë ka një problem me kyçin tuaj personal. { $problem }
-window-locked = Dritarja e hartimeve është e kyçur; dërgimi u anulua
 
 ## Strings in keyserver.sys.mjs
 
@@ -456,9 +455,6 @@ converter-decrypt-body-failed =
 ## Strings filters.sys.mjs
 
 filter-folder-required = Duhet të përzgjidhni një dosje objektiv.
-filter-decrypt-move-warn-experimental =
-    Kujdes - veprimi i filtrimit “Shfshehtëzoje përgjithnjë” mund të shpjerë te mesazhe të shkatërruar.
-    Këshillojmë me forcë që së pari të provoni filtrin “Krijo një Kopje të shfshehtëzuar”, ta testoni me kujdes përfundimin dhe të filloni ta përdorni këtë filtër vetëm pasi të jeni i kënaqur me përfundimin.
 filter-term-pgpencrypted-label = Fshehtëzuar me OpenPGP
 filter-key-required = Duhet të përzgjidhni një marrës kyçi.
 # Variables:
@@ -622,7 +618,6 @@ fail-key-import = Gabim - Importimi i kyçit dështoi
 # $output (String) - File that writing was attempted to.
 file-write-failed = S’u arrit të shkruhet te kartelë { $output }
 no-pgp-block = Gabim - S’u gjet bllok i vlefshëm të dhënash OpenPGP të koracuara
-confirm-permissive-import = Importi dështoi. Kyçi që po provoni të importoni mund të jetë i komprometuar ose përdor atribute të panjohur. Do të donit të provohej të importoheshin pjesët që janë të sakta? Kjo mund të sjellë importim kyçesh jo të plotë dhe të papërdorshëm.
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = Disa nga kyçet e fshehtë të importuar kanë një veçori që s’mbulohet. Nëse përdorni një ky të tillë si kyçin tuaj personal, korrespondentët mund t’ju dërgojnë email-e, ose kyçe publikë në një format që s’përkon. Kjo prek kyçet e fshehtë të importuar me shenja vijuese gishtash: { $fingerprints }.
@@ -681,9 +676,6 @@ key-man-button-generate-key-continue = &Vazhdo Prodhimin e Kyçit
 
 failed-decrypt = Gabim - shfshehtëzimi dështoi
 fix-broken-exchange-msg-failed = S’pat sukses në riparimin e mesazhit.
-# Variables:
-# $attachment (String) - File name of the signature file.
-attachment-no-match-from-signature = S’u përputh dot kartela e nënshkrimit '{ $attachment }' me ndonjë bashkëngjitje
 # Variables:
 # Variables:
 # $attachment (String) - File name of the attachment.
@@ -789,8 +781,3 @@ enig-confirm = Ripohim OpenPGP
 
 dlg-button-retry = &Riprovo
 dlg-button-skip = &Anashkaloje
-
-## Strings used in enigmailMsgBox.js
-
-enig-alert-title =
-    .title = Sinjalizim OpenPGP

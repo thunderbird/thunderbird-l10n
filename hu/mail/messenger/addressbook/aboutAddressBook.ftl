@@ -6,8 +6,6 @@ about-addressbook-title = Címjegyzék
 
 ## Toolbar
 
-about-addressbook-toolbar-new-address-book =
-    .label = Új címjegyzék
 about-addressbook-toolbar-add-address-book =
     .label = Helyi címjegyzék hozzáadása
 about-addressbook-toolbar-add-carddav-address-book =
@@ -18,8 +16,6 @@ books-pane-create-contact-button = Új névjegy
     .title = Új névjegy létrehozása
 books-pane-add-book-button =
     .title = Címjegyzék hozzáadása
-books-pane-create-book-button =
-    .title = Új címjegyzék létrehozása
 books-pane-create-list-button =
     .title = Új levelezőlista létrehozása
 books-pane-import-button = Importálás

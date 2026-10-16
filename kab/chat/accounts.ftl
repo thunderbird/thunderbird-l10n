@@ -2,12 +2,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-new-account-label = Amiḍan amaynut
 # Instant messaging account status window for Thunderbird
 accounts-window-title = Addad n tirawt taskudant
-account-manager-new-account =
-    .label = { new-account-label }
-    .accesskey = A
 account-manager-close =
     .label = Mdel
     .accesskey = M
@@ -15,7 +11,6 @@ account-manager-close-command =
     .key = a
 # This title must be short, displayed with a big font size
 account-manager-no-account-title = Ula d yiwen n umiḍan ur yettuswel
-account-manager-no-account-description = Sit ɣef tqeffalt { new-account-label } akken ad teǧǧeḍ { -brand-short-name } ak-d-yefk tallalt deg ukala n uswel n yiwen.
 account-auto-sign-on =
     .label = Kcem di tnekra
     .accesskey = K

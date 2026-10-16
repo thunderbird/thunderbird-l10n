@@ -25,10 +25,6 @@ calendar-invitation-panel-menu-item-toggle-changes =
     .label = הצגת השינויים
 calendar-invitation-panel-prop-title-when = מועד:
 calendar-invitation-panel-prop-title-location = מקום:
-# Example: Friday, September 16, 2022
-# Variables:
-# $startDate (String) - The date (without time) the event starts on.
-calendar-invitation-interval-all-day = { $startDate }
 calendar-invitation-panel-prop-title-recurrence = חזרתיות:
 calendar-invitation-panel-prop-title-attendees = משתתפים:
 calendar-invitation-panel-prop-title-description = תיאור:

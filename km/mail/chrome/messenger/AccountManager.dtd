@@ -4,15 +4,3 @@
 
 <!-- extracted from AccountManager.xhtml -->
 <!ENTITY accountManagerTitle.label "Փոստարկղի կարգավորումներ">
-<!ENTITY accountActionsButton.label "Փոստարկղի գործը">
-<!ENTITY accountActionsButton.accesskey "A">
-<!ENTITY addMailAccountButton.label "Ավելացնել փոստարկղ...">
-<!ENTITY addMailAccountButton.accesskey "A">
-<!ENTITY addIMAccountButton.label "បន្ថែម​គណនី​ជជែក...">
-<!ENTITY addIMAccountButton.accesskey "C">
-<!ENTITY addFeedAccountButton.label "បន្ថែម​គណនី​មតិ​ព័ត៌មាន...">
-<!ENTITY addFeedAccountButton.accesskey "F">
-<!ENTITY setDefaultButton.label "Նշել որպես հիմնական">
-<!ENTITY setDefaultButton.accesskey "D">
-<!ENTITY removeButton.label "Ջնջել փոստարկղը">
-<!ENTITY removeButton.accesskey "R">

@@ -87,12 +87,6 @@ quit-app-shortcut =
 
 ## Mail Toolbar
 
-toolbar-junk-button =
-    .label = Aspam
-    .tooltiptext = Creḍ iznan yettwafernen d ispamen
-toolbar-not-junk-button =
-    .label = Mačči d aspam
-    .tooltiptext = Creḍ iznan yettwafernen mačči d ispamen
 toolbar-delete-button =
     .label = Kkes
     .tooltiptext = Kkes iznan neɣ ikaramen yettwafernen

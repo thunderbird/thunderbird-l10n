@@ -180,8 +180,6 @@
 <!ENTITY event.calendar.accesskey "C">
 <!ENTITY event.attendees.label "참석자:">
 <!ENTITY event.attendees.accesskey "I">
-<!ENTITY event.alldayevent.label "전일 이벤트">
-<!ENTITY event.alldayevent.accesskey "d">
 <!ENTITY event.from.label "시작:">
 <!ENTITY event.from.accesskey "S">
 <!ENTITY task.from.label "시작:">
@@ -262,13 +260,6 @@
 <!ENTITY event.recurrence.monthly.fourth.label "네번째">
 <!ENTITY event.recurrence.monthly.fifth.label "다섯번째">
 <!ENTITY event.recurrence.monthly.last.label "마지막">
-<!ENTITY event.recurrence.pattern.monthly.week.1.label "일요일">
-<!ENTITY event.recurrence.pattern.monthly.week.2.label "월요일">
-<!ENTITY event.recurrence.pattern.monthly.week.3.label "화요일">
-<!ENTITY event.recurrence.pattern.monthly.week.4.label "수요일">
-<!ENTITY event.recurrence.pattern.monthly.week.5.label "목요일">
-<!ENTITY event.recurrence.pattern.monthly.week.6.label "금요일">
-<!ENTITY event.recurrence.pattern.monthly.week.7.label "일요일">
 <!ENTITY event.recurrence.repeat.dayofmonth.label "월간">
 <!ENTITY event.recurrence.repeat.recur.label "일간">
 <!ENTITY event.recurrence.every.label "매:">
@@ -281,18 +272,6 @@
      event.recurrence.pattern.yearly.of.label is "of" in
      Edit recurrence window -> Recurrence pattern -> Repeat yearly -->
 <!ENTITY event.recurrence.pattern.yearly.of.label "">
-<!ENTITY event.recurrence.pattern.yearly.month.1.label "1월">
-<!ENTITY event.recurrence.pattern.yearly.month.2.label "2월">
-<!ENTITY event.recurrence.pattern.yearly.month.3.label "3월">
-<!ENTITY event.recurrence.pattern.yearly.month.4.label "4월">
-<!ENTITY event.recurrence.pattern.yearly.month.5.label "5월">
-<!ENTITY event.recurrence.pattern.yearly.month.6.label "6월">
-<!ENTITY event.recurrence.pattern.yearly.month.7.label "7월">
-<!ENTITY event.recurrence.pattern.yearly.month.8.label "8월">
-<!ENTITY event.recurrence.pattern.yearly.month.9.label "9월">
-<!ENTITY event.recurrence.pattern.yearly.month.10.label "10월">
-<!ENTITY event.recurrence.pattern.yearly.month.11.label "11월">
-<!ENTITY event.recurrence.pattern.yearly.month.12.label "12월">
 <!ENTITY event.recurrence.yearly.every.label "Every">
 <!ENTITY event.recurrence.yearly.first.label "첫번째">
 <!ENTITY event.recurrence.yearly.second.label "두번째">
@@ -300,27 +279,8 @@
 <!ENTITY event.recurrence.yearly.fourth.label "네번째">
 <!ENTITY event.recurrence.yearly.fifth.label "다섯번째">
 <!ENTITY event.recurrence.yearly.last.label "마지막">
-<!ENTITY event.recurrence.pattern.yearly.week.1.label "일요일">
-<!ENTITY event.recurrence.pattern.yearly.week.2.label "월요일">
-<!ENTITY event.recurrence.pattern.yearly.week.3.label "화요일">
-<!ENTITY event.recurrence.pattern.yearly.week.4.label "수요일">
-<!ENTITY event.recurrence.pattern.yearly.week.5.label "목요일">
-<!ENTITY event.recurrence.pattern.yearly.week.6.label "금요일">
-<!ENTITY event.recurrence.pattern.yearly.week.7.label "토요일">
 <!ENTITY event.recurrence.pattern.yearly.day.label "일">
 <!ENTITY event.recurrence.of.label "of">
-<!ENTITY event.recurrence.pattern.yearly.month2.1.label "1월">
-<!ENTITY event.recurrence.pattern.yearly.month2.2.label "2월">
-<!ENTITY event.recurrence.pattern.yearly.month2.3.label "3월">
-<!ENTITY event.recurrence.pattern.yearly.month2.4.label "4월">
-<!ENTITY event.recurrence.pattern.yearly.month2.5.label "5월">
-<!ENTITY event.recurrence.pattern.yearly.month2.6.label "6월">
-<!ENTITY event.recurrence.pattern.yearly.month2.7.label "7월">
-<!ENTITY event.recurrence.pattern.yearly.month2.8.label "8월">
-<!ENTITY event.recurrence.pattern.yearly.month2.9.label "9월">
-<!ENTITY event.recurrence.pattern.yearly.month2.10.label "10월">
-<!ENTITY event.recurrence.pattern.yearly.month2.11.label "11월">
-<!ENTITY event.recurrence.pattern.yearly.month2.12.label "12월">
 <!ENTITY event.recurrence.range.label "되풀이 범위">
 <!ENTITY event.recurrence.forever.label "종료일 없음">
 <!ENTITY event.recurrence.repeat.for.label "생성">

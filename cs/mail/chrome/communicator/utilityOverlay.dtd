@@ -13,8 +13,6 @@
 <!ENTITY undoCmd.accesskey "Z">
 <!ENTITY redoCmd.label "Znovu">
 <!ENTITY redoCmd.accesskey "O">
-<!ENTITY deleteCmd.label "Smazat">
-<!ENTITY deleteCmd.accesskey "m">
 <!ENTITY customizeCmd.label "Přizpůsobit">
 <!ENTITY customizeCmd.accesskey "t">
 <!ENTITY viewMenu.label "Zobrazení">

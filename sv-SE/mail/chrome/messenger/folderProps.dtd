@@ -10,22 +10,6 @@
 <!ENTITY folderRebuildSummaryFile.explanation "Ibland kan filen (.msf) för mappindexet skadas och göra att meddelanden saknas eller att borttagna meddelanden finns kvar; en reparation av mappen kan lösa dessa problem.">
 <!ENTITY folderIncludeInGlobalSearch.label "Inkludera meddelanden i den här mappen i globala sökresultat">
 <!ENTITY folderIncludeInGlobalSearch.accesskey "I">
-<!ENTITY retention.label "Behåll meddelanden">
-<!ENTITY retentionUseAccount.label "Använd kontoinställningarna">
-<!ENTITY retentionUseAccount.accesskey "v">
-<!ENTITY daysOld.label "dagar">
-<!ENTITY message.label "meddelandena">
-<!ENTITY retentionCleanup.label "För att spara diskutrymme kan gamla meddelanden tas bort.">
-<!ENTITY retentionCleanupImap.label "För att återvinna diskutrymme kan gamla meddelanden tas bort permanent, både lokala kopior och originalen på fjärrservern.">
-<!ENTITY retentionCleanupPop.label "För att återvinna diskutrymme kan gamla meddelanden tas bort permanent, inklusive originalen på fjärrservern.">
-<!ENTITY retentionDeleteMsg.label "Ta bort meddelanden äldre än">
-<!ENTITY retentionDeleteMsg.accesskey "e">
-<!ENTITY retentionKeepAll.label "Ta inte bort några meddelanden">
-<!ENTITY retentionKeepAll.accesskey "b">
-<!ENTITY retentionKeepRecent.label "Ta bort alla utom de senaste">
-<!ENTITY retentionKeepRecent.accesskey "a">
-<!ENTITY retentionApplyToFlagged.label "Behåll alltid märkta meddelanden">
-<!ENTITY retentionApplyToFlagged.accesskey "e">
 <!ENTITY folderSynchronizationTab.label "Synkronisering">
 <!ENTITY folderCheckForNewMessages2.label "Vid hämtning av nya meddelanden från kontot, kontrollera alltid den här mappen">
 <!ENTITY folderCheckForNewMessages2.accesskey "k">

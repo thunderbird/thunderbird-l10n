@@ -56,14 +56,7 @@ account-hub-email-connect-button = Kapcsolódás
 account-hub-result-incoming-legend = Bejövő
 account-hub-result-outgoing-legend = Kimenő
 account-hub-all-servers-legend = Összes kiszolgáló
-account-hub-incoming-server-legend = Bejövő kiszolgáló
-account-hub-outgoing-server-legend = Kimenő kiszolgáló
-account-hub-result-incoming-server-legend = Bejövő kiszolgáló
-    .title = Bejövő kiszolgáló
-account-hub-result-outgoing-server-legend = Kimenő kiszolgáló
-    .title = Kimenő kiszolgáló
 account-hub-protocol-label = Protokoll
-account-hub-hostname-label = Gépnév
 account-hub-result-hostname-label = Gépnév
     .title = Gépnév
 account-hub-result-socket-type-label = Kapcsolat biztonsága
@@ -94,10 +87,6 @@ account-hub-result-auth-ntlm = NTLM
 account-hub-result-auth-external = Külső
 account-hub-result-auth-oauth2 = OAuth2
 account-hub-on-port-label = Port
-account-hub-result-authentication-label = Hitelesítés
-    .title = Hitelesítés
-account-hub-port-label = Port
-    .title = Állítsa 0-ra az automatikus észleléshez
 account-hub-auto-description = A { -brand-short-name } megpróbálja automatikusan felismerni az üresen hagyott mezőket.
 account-hub-ssl-label = Kapcsolat biztonsága
 
@@ -105,8 +94,6 @@ account-hub-ssl-label = Kapcsolat biztonsága
 
 account-hub-ssl-autodetect-option =
     .label = Automatikus felismerés
-account-hub-ssl-no-authentication-option =
-    .label = Nincs hitelesítés
 account-hub-ssl-cleartext-password-option =
     .label = Normál jelszó
 account-hub-ssl-encrypted-password-option =
@@ -268,7 +255,6 @@ account-hub-email-exchange-settings = Exchange-beállítások
 account-hub-email-connect-settings = E-mail-beállítások összekapcsolása
 account-hub-email-protocol-select-header = Válassza ki az e-mail-fiók típusát
 account-hub-email-protocol-select-additional-info = További információk szükségesek a fiók beállításához.
-account-hub-email-config-found = Válassza ki az e-mail-fiók típusát
 account-hub-email-enter-password = Adja meg az e-mail-fiókja jelszavát
 account-hub-email-sync-accounts = Szinkronizálja naptárait és címjegyzékeit
 account-hub-test-configuration = Tesztelés
@@ -295,7 +281,6 @@ account-hub-config-success-description-guess = A beállítások a gyakori kiszol
 account-hub-config-success-description-disk = A konfiguráció megtalálva a { -brand-short-name } telepítésben.
 account-hub-config-success-description-isp = A konfiguráció megtalálva az e-mail-szolgáltatónál.
 account-hub-config-success-description-read-more = <a data-l10n-name="automated-setup-link">Olvashat az automatizált e-mail-beállítás működéséről.</a>
-account-hub-config-success = A konfiguráció megtalálva a Mozilla ISPDB-ben
 account-hub-password-info = A hitelesítő adatok csak helyben lesznek tárolva a számítógépen
 account-hub-creating-account = Fiók létrehozása…
 account-hub-sync-accounts-found = A { -brand-short-name } néhány kapcsolódó szolgáltatást talált
@@ -326,10 +311,8 @@ account-hub-username-error-text = A felhasználónév megadása kötelező
 account-hub-manual-config-error-summary = Javítsa az alábbi hibákat:
 account-hub-oauth-pending = Várakozás a bejelentkezési felugró ablakban történő hitelesítésre…
 account-hub-addon-install-button = Telepítés
-account-hub-addon-install-needed = A { -brand-short-name } natív módon nem támogatja ezt a kiszolgálót. Az Exchange levelezés eléréséhez <a data-l10n-name="addon-install">telepítsen egy harmadik féltől származó kiegészítőt, például az Owlt (fizetős).</a>
 account-hub-addon-error = A kiegészítő telepítése sikertelen. Próbálja újra, vagy forduljon segítségért a kiegészítő készítőjéhez.
 account-hub-select-security-warning = <span data-l10n-name="error-text">Figyelmeztetés: Nem biztonságos levelezőkiszolgáló észlelve.</span> Ez a kiszolgáló nem rendelkezik titkosítással, így kikerül a jelszava és az adatai. Lépjen kapcsolatba a rendszergazdával a kapcsolat biztonságossá tételéhez, vagy folytassa saját felelősségre. <a data-l10n-name="error-link">További információkért lásd a GYIK-et.</a>
-account-hub-security-warning = <span data-l10n-name="security-warning">Figyelmeztetés: Nem biztonságos levelezőkiszolgáló észlelve.</span> Ez a kiszolgáló nem rendelkezik titkosítással, így kikerül a jelszava és az adatai. Lépjen kapcsolatba a rendszergazdával a kapcsolat biztonságossá tételéhez, vagy folytassa saját felelősségre. <a data-l10n-name="faq-link">További információkért lásd a GYIK-et.</a>
 account-hub-account-authentication-error = Hitelesítési hiba.
 account-hub-add-address-book = Címjegyzék hozzáadása
 address-book-sync-existing-icon =
@@ -359,7 +342,6 @@ account-hub-address-book-sync-books-data =
         [one] 1 címjegyzék érhető el
        *[other] { $addressBooks } címjegyzék érhető el
     }
-account-hub-fetching-sync-accounts = Címjegyzékek és naptárak felfedezése…
 address-book-sync-existing-description = Meglévő fiókok lekérése…
 account-hub-select-address-book-account = Válasszon egy fiókot címjegyzékekkel
 # $synced (Number) - The number of address books that are synced.

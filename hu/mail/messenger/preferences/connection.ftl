@@ -2,18 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-connection-dns-over-https-url-resolver = Szolgáltató használata
-    .accesskey = o
-# Variables:
-#   $name (String) - Display name or URL for the DNS over HTTPS provider
-connection-dns-over-https-url-item-default =
-    .label = { $name } (Alapértelmezett)
-    .tooltiptext = Az alapértelmezett URL használati a HTTPS feletti DNS feloldáshoz
-connection-dns-over-https-url-custom =
-    .label = Egyéni
-    .tooltiptext = Adja meg az előnyben részesített URL-t a HTTPS feletti DNS feloldáshoz
-    .accesskey = E
-connection-dns-over-https-custom-label = Egyéni
 connection-dialog-title = Kapcsolat beállításai
 disable-extension-button = Kiegészítő letiltása
 # Variables:
@@ -106,6 +94,3 @@ proxy-password-prompt =
 proxy-remote-dns =
     .label = DNS proxyzása SOCKS v5 használatakor
     .accesskey = d
-proxy-enable-doh =
-    .label = HTTPS feletti DNS bekapcsolása
-    .accesskey = b

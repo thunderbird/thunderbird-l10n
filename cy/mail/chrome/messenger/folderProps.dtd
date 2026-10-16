@@ -10,22 +10,6 @@
 <!ENTITY folderRebuildSummaryFile.explanation "Weithiau bydd y ffeil mynegai'r ffolder (..msf) yn cael ei difrodi ac mae modd i negeseuon sy'n ymddangos ar goll neu ffeiliau sydd wedi'u dileu parhau i gael eu dangos; gall drwsio'r ffolder ddatrys y problemau hyn.">
 <!ENTITY folderIncludeInGlobalSearch.label "Cynnwys y negeseuon yn y ffolder yng nghanlyniadau'r Chwilio Eang">
 <!ENTITY folderIncludeInGlobalSearch.accesskey "n">
-<!ENTITY retention.label "Polisi Cadw">
-<!ENTITY retentionUseAccount.label "Defnyddio gosodiadau fy nghyfrif">
-<!ENTITY retentionUseAccount.accesskey "D">
-<!ENTITY daysOld.label "diwrnod oed">
-<!ENTITY message.label "neges">
-<!ENTITY retentionCleanup.label "I adfer lle ar ddisg, mae modd dileu hen negeseuon yn barhaol.">
-<!ENTITY retentionCleanupImap.label "I adfer lle ar ddisg, mae modd dileu hen negeseuon yn barhaol yn gopïau lleol a'r gwreiddiol ar y gweinydd pell.">
-<!ENTITY retentionCleanupPop.label "I adfer lle ar ddisg, mae modd dileu hen negeseuon yn barhaol gan gynnwys y gwreiddiol ar y gweinydd pell.">
-<!ENTITY retentionDeleteMsg.label "Dileu negeseuon sy'n fwy na">
-<!ENTITY retentionDeleteMsg.accesskey "i">
-<!ENTITY retentionKeepAll.label "Peidio dileu unrhyw neges">
-<!ENTITY retentionKeepAll.accesskey "P">
-<!ENTITY retentionKeepRecent.label "Dileu pob un heblaw'r mwyaf diweddar">
-<!ENTITY retentionKeepRecent.accesskey "l">
-<!ENTITY retentionApplyToFlagged.label "Cadw negeseuon serennog bob tro">
-<!ENTITY retentionApplyToFlagged.accesskey "s">
 <!ENTITY folderSynchronizationTab.label "Cydweddu">
 <!ENTITY folderCheckForNewMessages2.label "Wrth dderbyn negeseuon newydd ar gyfer y cyfrif hwn, gwirio'r ffolder bob tro">
 <!ENTITY folderCheckForNewMessages2.accesskey "g">

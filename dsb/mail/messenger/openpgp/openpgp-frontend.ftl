@@ -43,14 +43,9 @@ openpgp-cannot-decrypt-because-mdc =
     Jo se snaź změniła pśi pśenosowanju, z wótglědom, jeje wopśimjeśe kšadnuś.
     Aby se toś togo rizika wobinuło, wopśimjeśe se njepokazujo.
 openpgp-cannot-decrypt-because-missing-key = Pótajmny kluc, kótaryž jo trjebny, aby se toś ta powěsć dešifrěrowała, njejo k dispoziciji.
-openpgp-partially-signed =
-    Jano pódsajźba toś teje powěsći jo se digitalnje signěrowała z OpenPGP.
-    Jolic na pśeglědowański  tłocašk kliknjośo, se nješćitane źěle schowaju, a status digitalneje signatury se pokažo.
 openpgp-partially-encrypted =
     Jano pódsajźba toś teje powěsći jo se skoděrowała z OpenPGP.
     Cytajobne źěle powěści, kótarež se južo pokazuju, njebudu se koděrowaś.
     Jolic na dešifrěrowański tłocašk kliknjośo, se wopśimjeśe skoděrowanych źělow pokažo.
-openpgp-reminder-partial-display = Dopomnjeśe: Powěsć, kótaraž se dołojce pokazujo, jo jano pódsajźba originalneje powěsći.
-openpgp-partial-verify-button = Pśespytowaś
 openpgp-partial-decrypt-button = Dešifrěrowaś
 openpgp-unexpected-key-for-you = Warnowanje: Toś ta powěsć njeznaty OpenPGP-kluc wopśimujo, kótaryž se na jaden z wašych e-mailowych adresow póśěgujo. Jolic to njejo jaden z wašych klucow, mógło to woypt byś, druge dopisowańske partnarje wobtoriś.

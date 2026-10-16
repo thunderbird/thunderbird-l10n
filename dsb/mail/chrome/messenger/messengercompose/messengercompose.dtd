@@ -216,7 +216,6 @@
 <!ENTITY smiley7Cmd.label "Njerozsuźony">
 <!ENTITY smiley8Cmd.label "Pśechwatany">
 <!ENTITY smiley9Cmd.label "Póškaś">
-<!ENTITY smiley10Cmd.label "Drěśe">
 <!ENTITY smiley11Cmd.label "Cool">
 <!ENTITY smiley12Cmd.label "Pjenjezna guba">
 <!ENTITY smiley13Cmd.label "Noga w gubje">
@@ -266,12 +265,6 @@
 <!ENTITY convertRegularAttachment.accesskey "R">
 <!ENTITY attachPage.label "Webbok pśipowjesyś…">
 <!ENTITY attachPage.accesskey "W">
-<!-- Attachment Pane Header Bar Context Menu
-     LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
-     Should use the same wording as startExpandedCmd.label
-     in msgHdrViewOverlay.dtd. -->
-<!ENTITY initiallyShowAttachmentPane.label "Wokno pśidankow zachopnje pokazaś">
-<!ENTITY initiallyShowAttachmentPane.accesskey "W">
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Słowniki pśidaś…">
 <!ENTITY spellAddDictionaries.accesskey "S">

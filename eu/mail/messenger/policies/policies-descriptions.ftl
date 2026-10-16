@@ -85,8 +85,6 @@ policy-RequestedLocales = Ezarri aplikazioari eskatuko zaizkion hizkuntza-kodeen
 policy-SanitizeOnShutdown2 = Garbitu nabigazio datuak itzaltzean.
 policy-SearchEngines = Konfiguratu bilaketa-motorren ezarpenak. Politika hau Extended Support Release (ESR) bertsiorako dago erabilgarri soilik.
 policy-SearchSuggestEnabled = Gaitu edo desgaitu bilaketa-iradokizunak.
-# For more information, see https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
-policy-SecurityDevices = Instalatu PKCS #11 moduluak.
 policy-SSLVersionMax = Ezarri gehienezko SSL bertsioa.
 policy-SSLVersionMin = Ezarri gutxieneko SSL bertsioa.
 policy-SupportMenu = Gehitu euskarrirako menu-elementu pertsonalizatua laguntzaren menuan.

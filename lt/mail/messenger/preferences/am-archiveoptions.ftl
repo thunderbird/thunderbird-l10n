@@ -26,13 +26,3 @@ archive-folder-name-label = Archyvas
 inbox-folder-name-label = Gauti laiškai
 child-folder-name-label = Gautųjų laiškų aplanko poaplankis
 sibling-folder-name-label = Susietas su gautųjų laiškų aplanku
-# This should match the default name for the "Archives" folder.
-archive-folder-name =
-    .label = Archyvas
-# This should match the default name for the "Inbox" folder.
-inbox-folder-name =
-    .label = Gauti laiškai
-child-folder-name =
-    .label = Gautųjų laiškų aplanko poaplankis
-sibling-folder-name =
-    .label = Susietas su gautųjų laiškų aplanku

@@ -35,10 +35,6 @@ account-setup-email-warning-icon =
 account-setup-password-label = ססמה
     .title = לא חובה, ייעשה שימוש רק כדי לאמת את שם המשתמש
     .accesskey = ס
-account-setup-password-toggle-show =
-    .title = הצגת הססמה כטקסט קריא
-account-setup-password-toggle-hide =
-    .title = הסתרת ססמה
 account-setup-remember-password = לזכור את הססמה
     .accesskey = ז
 

@@ -14,24 +14,10 @@
 <!ENTITY autosyncNotDownload.accesskey "m">
 <!ENTITY kb.label "kB">
 <!ENTITY daysOld.label "dagar">
-<!ENTITY message.label "meddelandena">
 <!ENTITY nntpNotDownloadRead.label "Lästa meddelanden">
 <!ENTITY nntpNotDownloadRead.accesskey "s">
 <!ENTITY nntpDownloadMsg.label "Meddelanden äldre än">
 <!ENTITY nntpDownloadMsg.accesskey "e">
-<!ENTITY retentionCleanup.label "För att spara diskutrymme kan gamla meddelanden tas bort.">
-<!ENTITY retentionCleanupImap.label "För att återvinna diskutrymme kan gamla meddelanden tas bort permanent, både lokala kopior och originalen på fjärrservern.">
-<!ENTITY retentionCleanupPop.label "För att återvinna diskutrymme kan gamla meddelanden tas bort permanent, inklusive originalen på fjärrservern.">
-<!ENTITY retentionKeepMsg.label "Ta bort meddelanden äldre än">
-<!ENTITY retentionKeepMsg.accesskey "o">
-<!ENTITY retentionKeepAll.label "Ta inte bort några meddelanden">
-<!ENTITY retentionKeepAll.accesskey "n">
-<!ENTITY retentionKeepRecent.label "Ta bort alla utom de senaste">
-<!ENTITY retentionKeepRecent.accesskey "a">
-<!ENTITY retentionApplyToFlagged.label "Behåll alltid märkta meddelanden">
-<!ENTITY retentionApplyToFlagged.accesskey "h">
-<!ENTITY nntpRemoveMsgBody.label "Ta bort innehållet i meddelanden äldre än">
-<!ENTITY nntpRemoveMsgBody.accesskey "å">
 <!ENTITY offlineSelectNntp.label "Välj diskussionsgrupper för nedkopplad användning…">
 <!ENTITY offlineSelectNntp.accesskey "V">
 <!ENTITY offlineImapAdvancedOffline.label "Avancerat…">

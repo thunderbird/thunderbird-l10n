@@ -32,9 +32,4 @@
 <!ENTITY attachVCard.accesskey "ق">
 <!ENTITY manageIdentities.label "أدِر الهويّات…">
 <!ENTITY manageIdentities.accesskey "د">
-<!-- LOCALIZATION NOTE (smtpName.label) : do not translate "SMTP" in below line -->
-<!ENTITY smtpName.label "خادوم الصّادر (SMTP):‏">
-<!ENTITY smtpName.accesskey "ص">
 <!ENTITY smtpDefaultServer.label "استخدم الخادوم المبدئي">
-<!ENTITY smtpServerEdit.label "حرر خادوم الصادر (SMTP)…">
-<!ENTITY smtpServerEdit.accesskey "ص">

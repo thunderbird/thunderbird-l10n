@@ -27,11 +27,6 @@ appmenu-sync-sign-out =
 
 ## Add Account
 
-appmenu-new-account-panel-title =
-    .title = Amiḍan amaynut
-appmenu-new-account-panel =
-    .label = Amiḍan amaynut
-    .accesskey = A
 appmenu-new-email-account =
     .label = Imayl
     .accesskey = I
@@ -50,11 +45,6 @@ appmenu-new-newsgroup =
 
 ## New Account / Address Book
 
-appmenu-newab-panel-title =
-    .title = Imedlis n tensa amaynut
-appmenu-newab-panel =
-    .label = Imedlis n tensa amaynut
-    .accesskey = I
 appmenu-new-addressbook =
     .label = Imedlis n tensa tadigant
     .accesskey = I

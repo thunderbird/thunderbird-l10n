@@ -129,12 +129,9 @@ openpgp-external-key-title = Ekstern GnuPG-nøkkel
 openpgp-external-key-description = Konfigurer en ekstern GnuPG-nøkkel ved å oppgi nøkkel-ID
 openpgp-external-key-info = I tillegg må du bruke nøkkelbehandler for å importere og godta den tilsvarende offentlige nøkkelen.
 openpgp-external-key-warning = <b>Du kan bare konfigurere en ekstern GnuPG-nøkkel.</b> Din tidligere oppføring blir erstattet.
-openpgp-save-external-button = Lagre nøkkel-ID
 openpgp-external-key-label = Hemmelig nøkkel-ID:
 openpgp-import-own-key-title = Importer den offentlige nøkkelen din
 #   $keyId (String) - The Key ID.
 openpgp-import-own-key-description = { -brand-short-name } kunne ikke finne den offentlige nøkkelen med ID { $keyId }. Importer den for å fortsette.
 #   $keyId (String) - The Key ID.
 openpgp-import-keyid-failed = Kunne ikke importere den offentlige nøkkelen { $keyId } fra den filen.
-openpgp-external-key-input =
-    .placeholder = 123456789341298340

@@ -6,8 +6,6 @@ about-addressbook-title = Helbide-liburua
 
 ## Toolbar
 
-about-addressbook-toolbar-new-address-book =
-    .label = Helbide-liburu berria
 about-addressbook-toolbar-add-address-book =
     .label = Gehitu helbide-liburu lokala
 about-addressbook-toolbar-add-carddav-address-book =
@@ -18,8 +16,6 @@ books-pane-create-contact-button = Kontaktu berria
     .title = Sortu kontaktu berria
 books-pane-add-book-button =
     .title = Gehitu helbide-liburua
-books-pane-create-book-button =
-    .title = Sortu helbide-liburu berria
 books-pane-create-list-button =
     .title = Sortu posta-zerrenda berria
 books-pane-import-button = Inportatu

@@ -13,8 +13,6 @@
 <!ENTITY undoCmd.accesskey "T">
 <!ENTITY redoCmd.label "Tee uuesti">
 <!ENTITY redoCmd.accesskey "S">
-<!ENTITY deleteCmd.label "Kustuta">
-<!ENTITY deleteCmd.accesskey "K">
 <!ENTITY customizeCmd.label "Kohanda">
 <!ENTITY customizeCmd.accesskey "o">
 <!ENTITY viewMenu.label "Vaade">

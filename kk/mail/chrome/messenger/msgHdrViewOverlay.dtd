@@ -33,8 +33,6 @@
 <!ENTITY hdrFollowupButton1.tooltip "Жаңалықтар тобына жауап жазу">
 <!ENTITY hdrForwardButton1.label "Әрі қарай жіберу">
 <!ENTITY hdrForwardButton1.tooltip "Бұл хабарламаны әрі қарай жіберу">
-<!ENTITY hdrJunkButton1.label "Спам">
-<!ENTITY hdrJunkButton1.tooltip "Бұл хабарламаны қоқыс ретінде белгілеу">
 <!ENTITY hdrTrashButton1.label "Өшіру">
 <!ENTITY hdrTrashButton1.tooltip "Бұл хабарламаны өшіру">
 <!ENTITY hdrViewToolbarShowFull.label "Таңбашалар және мәтінді көрсету">

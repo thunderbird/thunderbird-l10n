@@ -56,14 +56,7 @@ account-hub-email-connect-button = Sambungkan
 account-hub-result-incoming-legend = Masuk
 account-hub-result-outgoing-legend = Keluar
 account-hub-all-servers-legend = Semua server
-account-hub-incoming-server-legend = Server masuk
-account-hub-outgoing-server-legend = Server keluar
-account-hub-result-incoming-server-legend = Server masuk
-    .title = Server masuk
-account-hub-result-outgoing-server-legend = Server keluar
-    .title = Server keluar
 account-hub-protocol-label = Protokol
-account-hub-hostname-label = Nama host
 account-hub-result-hostname-label = Nama host
     .title = Nama host
 account-hub-result-socket-type-label = Keamanan sambungan
@@ -101,10 +94,6 @@ account-hub-result-auth-external = Eksternal
 account-hub-result-auth-oauth2 = OAuth2
     .title = OAuth2
 account-hub-on-port-label = Port
-account-hub-result-authentication-label = Otentikasi
-    .title = Otentikasi
-account-hub-port-label = Port
-    .title = Atur nomor port ke 0 untuk deteksi otomatis
 account-hub-auto-description = { -brand-short-name } akan mencoba mendeteksi secara otomatis bidang yang dibiarkan kosong.
 account-hub-ssl-label = Keamanan sambungan
 
@@ -112,8 +101,6 @@ account-hub-ssl-label = Keamanan sambungan
 
 account-hub-ssl-autodetect-option =
     .label = Deteksi otomatis
-account-hub-ssl-no-authentication-option =
-    .label = Tanpa otentikasi
 account-hub-ssl-cleartext-password-option =
     .label = Sandi biasa
 account-hub-ssl-encrypted-password-option =
@@ -275,7 +262,6 @@ account-hub-email-exchange-settings = Pengaturan Exchange
 account-hub-email-connect-settings = Hubungkan pengaturan surel Anda
 account-hub-email-protocol-select-header = Pilih jenis akun surel
 account-hub-email-protocol-select-additional-info = Informasi tambahan diperlukan untuk menyiapkan akun ini
-account-hub-email-config-found = Pilih jenis akun surel Anda
 account-hub-email-enter-password = Masukkan kata sandi akun surel Anda
 account-hub-email-sync-accounts = Sinkronkan kalender dan buku alamat Anda
 account-hub-test-configuration = Uji
@@ -302,7 +288,6 @@ account-hub-config-success-description-guess = Konfigurasi ditemukan dengan menc
 account-hub-config-success-description-disk = Konfigurasi ditemukan dalam pemasangan { -brand-short-name }.
 account-hub-config-success-description-isp = Konfigurasi ditemukan di penyedia surel.
 account-hub-config-success-description-read-more = Anda dapat <a data-l10n-name="automated-setup-link">membaca tentang cara kerja penyiapan surel otomatis.</a>
-account-hub-config-success = Konfigurasi ditemukan di ISPDB Mozilla
 account-hub-password-info = Kredensial Anda hanya akan disimpan secara lokal di komputer Anda
 account-hub-creating-account = Membuat akun…
 account-hub-sync-accounts-found = { -brand-short-name } menemukan beberapa layanan terhubung
@@ -329,10 +314,8 @@ account-hub-username-error-text = Nama pengguna diperlukan
 account-hub-manual-config-error-summary = Harap perbaiki kesalahan berikut:
 account-hub-oauth-pending = Menunggu otorisasi pada popup log masuk…
 account-hub-addon-install-button = Pasang
-account-hub-addon-install-needed = { -brand-short-name } tidak mendukung server ini secara asli. Untuk mengakses surel Exchange, <a data-l10n-name="addon-install"> pasang pengaya pihak ketiga seperti Owl (berbayar).</a>
 account-hub-addon-error = Pemasangan pengaya gagal. Silakan coba lagi atau hubungi pembuat pengaya untuk mendapatkan bantuan.
 account-hub-select-security-warning = <span data-l10n-name="error-text">Peringatan: Server surel tidak aman terdeteksi.</span> Server ini tidak memiliki enkripsi, mengungkap sandi dan data Anda. Hubungi administrator Anda untuk mengamankan sambungan atau lanjutkan dengan risiko Anda sendiri. <a data-l10n-name="error-link">Lihat FAQ untuk informasi lebih lanjut.</a>
-account-hub-security-warning = <span data-l10n-name="security-warning">Peringatan: Server surel tidak aman terdeteksi.</span> Server ini tidak memiliki enkripsi, memaparkan kata sandi dan data Anda. Hubungi administrator Anda untuk mengamankan sambungan atau melanjutkan dengan risiko Anda sendiri. <a data-l10n-name="faq-link">Lihat FAQ untuk informasi lebih lanjut.</a>
 account-hub-account-authentication-error = Kesalahan otentikasi.
 account-hub-add-address-book = Tambahkan buku alamat
 address-book-sync-existing-icon =
@@ -358,7 +341,6 @@ address-book-add-ldap = Buku Alamat LDAP Baru
 address-book-add-ldap-description = Sambungkan ke buku alamat LDAP jarak jauh
 # $addressBooks (Number) - The number of address books that can be synced from existing accounts.
 account-hub-address-book-sync-books-data = { $addressBooks } buku alamat tersedia
-account-hub-fetching-sync-accounts = Menemukan buku alamat dan kalender…
 address-book-sync-existing-description = Mengambil akun yang ada…
 account-hub-select-address-book-account = Pilih akun dengan Buku alamat
 # $synced (Number) - The number of address books that are synced.

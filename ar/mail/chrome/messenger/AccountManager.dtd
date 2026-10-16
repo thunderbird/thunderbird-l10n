@@ -4,15 +4,3 @@
 
 <!-- extracted from AccountManager.xhtml -->
 <!ENTITY accountManagerTitle.label "إعدادات الحساب">
-<!ENTITY accountActionsButton.label "إجراءات الحساب">
-<!ENTITY accountActionsButton.accesskey "ر">
-<!ENTITY addMailAccountButton.label "أضِف حساب بريد…">
-<!ENTITY addMailAccountButton.accesskey "ح">
-<!ENTITY addIMAccountButton.label "أضِف حساب دردشة…">
-<!ENTITY addIMAccountButton.accesskey "د">
-<!ENTITY addFeedAccountButton.label "أضِف حساب تلقيمات…">
-<!ENTITY addFeedAccountButton.accesskey "ت">
-<!ENTITY setDefaultButton.label "اجعله المبدئي">
-<!ENTITY setDefaultButton.accesskey "م">
-<!ENTITY removeButton.label "أزِل الحساب">
-<!ENTITY removeButton.accesskey "ز">

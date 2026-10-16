@@ -33,8 +33,6 @@
 <!ENTITY hdrFollowupButton1.tooltip "Een reactie in deze nieuwsgroep plaatsen">
 <!ENTITY hdrForwardButton1.label "Doorsturen">
 <!ENTITY hdrForwardButton1.tooltip "Dit bericht doorsturen">
-<!ENTITY hdrJunkButton1.label "Ongewenst">
-<!ENTITY hdrJunkButton1.tooltip "Dit bericht als ongewenst markeren">
 <!ENTITY hdrTrashButton1.label "Verwijderen">
 <!ENTITY hdrTrashButton1.tooltip "Dit bericht verwijderen">
 <!ENTITY hdrViewToolbarShowFull.label "Pictogrammen en tekst tonen">

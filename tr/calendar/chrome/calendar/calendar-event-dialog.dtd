@@ -180,8 +180,6 @@
 <!ENTITY event.calendar.accesskey "m">
 <!ENTITY event.attendees.label "Katılımcılar:">
 <!ENTITY event.attendees.accesskey "m">
-<!ENTITY event.alldayevent.label "Tam günlük etkinlik">
-<!ENTITY event.alldayevent.accesskey "ü">
 <!ENTITY event.from.label "Başlangıç:">
 <!ENTITY event.from.accesskey "B">
 <!ENTITY task.from.label "Başlangıç:">
@@ -262,13 +260,6 @@
 <!ENTITY event.recurrence.monthly.fourth.label "Dördüncü">
 <!ENTITY event.recurrence.monthly.fifth.label "Beşinci">
 <!ENTITY event.recurrence.monthly.last.label "Son">
-<!ENTITY event.recurrence.pattern.monthly.week.1.label "Pazar">
-<!ENTITY event.recurrence.pattern.monthly.week.2.label "Pazartesi">
-<!ENTITY event.recurrence.pattern.monthly.week.3.label "Salı">
-<!ENTITY event.recurrence.pattern.monthly.week.4.label "Çarşamba">
-<!ENTITY event.recurrence.pattern.monthly.week.5.label "Perşembe">
-<!ENTITY event.recurrence.pattern.monthly.week.6.label "Cuma">
-<!ENTITY event.recurrence.pattern.monthly.week.7.label "Cumartesi">
 <!ENTITY event.recurrence.repeat.dayofmonth.label "Ay günü">
 <!ENTITY event.recurrence.repeat.recur.label "Tekrarlama günleri">
 <!ENTITY event.recurrence.every.label "Her:">
@@ -281,18 +272,6 @@
      event.recurrence.pattern.yearly.of.label is "of" in
      Edit recurrence window -> Recurrence pattern -> Repeat yearly -->
 <!ENTITY event.recurrence.pattern.yearly.of.label "">
-<!ENTITY event.recurrence.pattern.yearly.month.1.label "Ocak">
-<!ENTITY event.recurrence.pattern.yearly.month.2.label "Şubat">
-<!ENTITY event.recurrence.pattern.yearly.month.3.label "Mart">
-<!ENTITY event.recurrence.pattern.yearly.month.4.label "Nisan">
-<!ENTITY event.recurrence.pattern.yearly.month.5.label "Mayıs">
-<!ENTITY event.recurrence.pattern.yearly.month.6.label "Haziran">
-<!ENTITY event.recurrence.pattern.yearly.month.7.label "Temmuz">
-<!ENTITY event.recurrence.pattern.yearly.month.8.label "Ağustos">
-<!ENTITY event.recurrence.pattern.yearly.month.9.label "Eylül">
-<!ENTITY event.recurrence.pattern.yearly.month.10.label "Ekim">
-<!ENTITY event.recurrence.pattern.yearly.month.11.label "Kasım">
-<!ENTITY event.recurrence.pattern.yearly.month.12.label "Aralık">
 <!ENTITY event.recurrence.yearly.every.label "Her">
 <!ENTITY event.recurrence.yearly.first.label "Birinci">
 <!ENTITY event.recurrence.yearly.second.label "İkinci">
@@ -300,27 +279,8 @@
 <!ENTITY event.recurrence.yearly.fourth.label "Dördüncü">
 <!ENTITY event.recurrence.yearly.fifth.label "Beşinci">
 <!ENTITY event.recurrence.yearly.last.label "Sonuncu">
-<!ENTITY event.recurrence.pattern.yearly.week.1.label "Pazar">
-<!ENTITY event.recurrence.pattern.yearly.week.2.label "Pazartesi">
-<!ENTITY event.recurrence.pattern.yearly.week.3.label "Salı">
-<!ENTITY event.recurrence.pattern.yearly.week.4.label "Çarşamba">
-<!ENTITY event.recurrence.pattern.yearly.week.5.label "Perşembe">
-<!ENTITY event.recurrence.pattern.yearly.week.6.label "Cuma">
-<!ENTITY event.recurrence.pattern.yearly.week.7.label "Cumartesi">
 <!ENTITY event.recurrence.pattern.yearly.day.label "günde bir">
 <!ENTITY event.recurrence.of.label "-">
-<!ENTITY event.recurrence.pattern.yearly.month2.1.label "Ocak">
-<!ENTITY event.recurrence.pattern.yearly.month2.2.label "Şubat">
-<!ENTITY event.recurrence.pattern.yearly.month2.3.label "Mart">
-<!ENTITY event.recurrence.pattern.yearly.month2.4.label "Nisan">
-<!ENTITY event.recurrence.pattern.yearly.month2.5.label "Mayıs">
-<!ENTITY event.recurrence.pattern.yearly.month2.6.label "Haziran">
-<!ENTITY event.recurrence.pattern.yearly.month2.7.label "Temmuz">
-<!ENTITY event.recurrence.pattern.yearly.month2.8.label "Ağustos">
-<!ENTITY event.recurrence.pattern.yearly.month2.9.label "Eylül">
-<!ENTITY event.recurrence.pattern.yearly.month2.10.label "Ekim">
-<!ENTITY event.recurrence.pattern.yearly.month2.11.label "Kasım">
-<!ENTITY event.recurrence.pattern.yearly.month2.12.label "Aralık">
 <!ENTITY event.recurrence.range.label "Tekrarlama aralığı">
 <!ENTITY event.recurrence.forever.label "Bitiş tarihi yok">
 <!ENTITY event.recurrence.repeat.for.label "Oluştur">

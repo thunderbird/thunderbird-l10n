@@ -3,10 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY subscribeDialog.title "רישום כמנוי">
-<!ENTITY subscribeButton.label "הירשם כמנוי">
-<!ENTITY subscribeButton.accesskey "ה">
-<!ENTITY unsubscribeButton.label "בטל מנוי">
-<!ENTITY unsubscribeButton.accesskey "ב">
 <!ENTITY newGroupsTab.label "קבוצות חדשות">
 <!ENTITY newGroupsTab.accesskey "ח">
 <!ENTITY refreshButton.label "רענן">

@@ -18,5 +18,3 @@
 <!ENTITY selectButton.label "Tanlash…">
 <!ENTITY selectButton.accesskey "T">
 <!ENTITY MsgSelectDesc.label "Oflayn foydalanish uchun xat jildlari va yangiliklar to‘plamlarini tanlang.">
-<!ENTITY MsgSelectInd.label "Yuklab olish">
-<!ENTITY MsgSelectItems.label "Jildlar va yangiliklar to‘plami">

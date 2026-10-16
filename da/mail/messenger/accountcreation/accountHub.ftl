@@ -56,14 +56,7 @@ account-hub-email-connect-button = Opret forbindelse
 account-hub-result-incoming-legend = Indgående
 account-hub-result-outgoing-legend = Udgående
 account-hub-all-servers-legend = Alle servere
-account-hub-incoming-server-legend = Indgående server
-account-hub-outgoing-server-legend = Udgående server
-account-hub-result-incoming-server-legend = Indgående server
-    .title = Indgående server
-account-hub-result-outgoing-server-legend = Udgående server
-    .title = Udgående server
 account-hub-protocol-label = Protokol
-account-hub-hostname-label = Værtsnavn
 account-hub-result-hostname-label = Værtsnavn
     .title = Værtsnavn
 account-hub-result-socket-type-label = Forbindelsessikkerhed
@@ -94,10 +87,6 @@ account-hub-result-auth-ntlm = NTLM
 account-hub-result-auth-external = Eksternt
 account-hub-result-auth-oauth2 = OAuth2
 account-hub-on-port-label = Port
-account-hub-result-authentication-label = Godkendelse
-    .title = Godkendelse
-account-hub-port-label = Port
-    .title = Sæt portnummeret til 0 for automatisk udfyldning
 account-hub-auto-description = { -brand-short-name } forsøger automatisk at udfylde tomme felter.
 account-hub-ssl-label = Forbindelsessikkerhed
 
@@ -105,8 +94,6 @@ account-hub-ssl-label = Forbindelsessikkerhed
 
 account-hub-ssl-autodetect-option =
     .label = Find automatisk
-account-hub-ssl-no-authentication-option =
-    .label = Ingen godkendelse
 account-hub-ssl-cleartext-password-option =
     .label = Almindelig adgangskode
 account-hub-ssl-encrypted-password-option =
@@ -267,7 +254,6 @@ account-hub-email-exchange-settings = Exchange-indstillinger
 account-hub-email-connect-settings = Overfør dine mail-indstillinger
 account-hub-email-protocol-select-header = Vælg en mailkontotype
 account-hub-email-protocol-select-additional-info = Der kræves yderligere oplysninger for at oprette denne konto.
-account-hub-email-config-found = Vælg din mailkontotype
 account-hub-email-enter-password = Indtast adgangskoden til din mailkonto
 account-hub-email-sync-accounts = Synkroniser dine kalendere og adressebøger
 account-hub-test-configuration = Test
@@ -294,7 +280,6 @@ account-hub-config-success-description-guess = Konfiguration fundet ved at prøv
 account-hub-config-success-description-disk = Konfiguration fundet i { -brand-short-name }-installation.
 account-hub-config-success-description-isp = Konfiguration fundet hos mailudbyderen.
 account-hub-config-success-description-read-more = Her kan du læse om, <a data-l10n-name="automated-setup-link">hvordan automatisk mail-opsætning fungerer.</a>
-account-hub-config-success = Indstillinger fundet i Mozillas database over mailudbydere
 account-hub-password-info = Dine loginoplysninger vil kun blive gemt lokalt på din computer
 account-hub-creating-account = Opretter konto…
 account-hub-sync-accounts-found = { -brand-short-name } fandt tilknyttede tjenester
@@ -325,10 +310,8 @@ account-hub-username-error-text = Brugernavn skal udfyldes
 account-hub-manual-config-error-summary = Ret venligst følgende fejl:
 account-hub-oauth-pending = Venter på godkendelse i login-vindue…
 account-hub-addon-install-button = Installer
-account-hub-addon-install-needed = { -brand-short-name } understøtter ikke denne server som standard. For at få adgang til Exchange-mail, skal du <a data-l10n-name="addon-install">installere en tredjeparts-tilføjelse som fx Owl (kræver betaling).</a>
 account-hub-addon-error = Installation af tilføjelsen mislykkedes. Prøv igen, eller kontakt udvikleren for at få hjælp.
 account-hub-select-security-warning = <span data-l10n-name="error-text">Advarsel: Usikker mailserver registreret.</span> Denne server benytter ikke kryptering, hvilket eksponerer din adgangskode og data. Kontakt din administrator for at sikre forbindelsen eller accepter risikoen og fortsæt. <a data-l10n-name="error-link">Se mere i FAQ.</a>
-account-hub-security-warning = <span data-l10n-name="security-warning">Advarsel: Usikker mailserver registreret.</span> Denne server mangler kryptering, hvilket eksponerer din adgangskode og dine data. Kontakt din administrator for at sikre forbindelsen eller fortsæt på egen risiko. <a data-l10n-name="faq-link">Se Ofte Stillede Spørgsmål for flere detaljer.</a>
 account-hub-account-authentication-error = Godkendelsesfejl.
 account-hub-add-address-book = Tilføj en adressebog
 address-book-sync-existing-icon =
@@ -358,7 +341,6 @@ account-hub-address-book-sync-books-data =
         [one] 1 adressebog tilgængelig
        *[other] { $addressBooks } adressebøger tilgængelige
     }
-account-hub-fetching-sync-accounts = Finder adressebøger og kalendere…
 address-book-sync-existing-description = Henter eksisterende konti…
 account-hub-select-address-book-account = Vælg en konto med adressebøger
 # $synced (Number) - The number of address books that are synced.

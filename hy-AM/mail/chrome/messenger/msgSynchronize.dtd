@@ -18,5 +18,3 @@
 <!ENTITY selectButton.label "Ընտրել...">
 <!ENTITY selectButton.accesskey "e">
 <!ENTITY MsgSelectDesc.label "Ընտրեք փոստային թղթապանակ և լուրախմբեր՝ անցանց օգտ. համար։">
-<!ENTITY MsgSelectInd.label "Ներբեռնել">
-<!ENTITY MsgSelectItems.label "Թղթապանակներ և Լուրախմբեր">

@@ -406,7 +406,6 @@ key-verification = โปรดยืนยันลายนิ้วมือ�
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = ไม่สามารถส่งข้อความได้ เนื่องจากมีปัญหากับคีย์ส่วนตัวของคุณ { $problem }
-window-locked = การส่งถูกยกเลิกแล้ว เนื่องจากหน้าต่างเขียนถูกล็อก
 
 ## Strings in keyserver.sys.mjs
 
@@ -439,9 +438,6 @@ converter-decrypt-body-failed =
 ## Strings filters.sys.mjs
 
 filter-folder-required = คุณต้องเลือกโฟลเดอร์เป้าหมาย
-filter-decrypt-move-warn-experimental =
-    คำเตือน - การทำงานของตัวกรอง “ถอดรหัสลับอย่างถาวร” อาจทำให้ข้อความถูกทำลายได้
-    เราขอแนะนำให้คุณลองใช้ตัวกรอง “สร้างสำเนาที่ถอดรหัสลับ” ก่อน ทดสอบผลลัพธ์อย่างระมัดระวัง แล้วเริ่มใช้ตัวกรองนี้เมื่อคุณพอใจกับผลลัพธ์เท่านั้น
 filter-term-pgpencrypted-label = เข้ารหัสลับโดย OpenPGP
 filter-key-required = คุณต้องเลือกคีย์ผู้รับ
 # Variables:
@@ -604,7 +600,6 @@ fail-key-import = ข้อผิดพลาด - การนำเข้า�
 # $output (String) - File that writing was attempted to.
 file-write-failed = ไม่สามารถเขียนไปยังไฟล์ { $output }
 no-pgp-block = ข้อผิดพลาด - ไม่พบบล็อกข้อมูล OpenPGP แบบ armored ที่ถูกต้อง
-confirm-permissive-import = การนำเข้าล้มเหลว คีย์ที่คุณพยายามนำเข้าอาจเสียหายหรือใช้แอตทริบิวต์ที่ไม่รู้จัก คุณต้องการพยายามนำเข้าส่วนที่ถูกต้องหรือไม่ ซึ่งอาจส่งผลให้มีการนำเข้าคีย์ที่ไม่สมบูรณ์และไม่สามารถใช้ได้
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = คีย์ลับที่นำเข้าบางส่วนจะโฆษณาคุณลักษณะที่ไม่รองรับ ถ้าคุณใช้คีย์ดังกล่าวเป็นคีย์ส่วนตัวของคุณ ผู้ติดต่ออาจส่งอีเมลหรือคีย์สาธารณะถึงคุณในรูปแบบที่เข้ากันไม่ได้ ซึ่งจะกระทบกับคีย์ลับที่มีลายนิ้วมือต่อไปนี้: { $fingerprints }
@@ -663,9 +658,6 @@ key-man-button-generate-key-continue = สร้างคีย์&ต่อไ�
 
 failed-decrypt = ผิดพลาด - การถอดรหัสลับล้มเหลว
 fix-broken-exchange-msg-failed = ไม่สามารถซ่อมแซมข้อความนี้ได้
-# Variables:
-# $attachment (String) - File name of the signature file.
-attachment-no-match-from-signature = ไม่สามารถจับคู่ไฟล์ลายเซ็น ‘{ $attachment }’ กับไฟล์แนบได้
 # Variables:
 # Variables:
 # $attachment (String) - File name of the attachment.
@@ -771,8 +763,3 @@ enig-confirm = การยืนยัน OpenPGP
 
 dlg-button-retry = &ลองใหม่
 dlg-button-skip = &ข้าม
-
-## Strings used in enigmailMsgBox.js
-
-enig-alert-title =
-    .title = การแจ้งเตือน OpenPGP

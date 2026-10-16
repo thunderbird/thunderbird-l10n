@@ -50,22 +50,11 @@ account-hub-email-finish-button = Завършване
 account-hub-email-manually-configure-button = Ръчна конфигурация
 account-hub-email-continue-button = Продължаване
 account-hub-email-confirm-button = Потвърждение
-account-hub-incoming-server-legend = Входящ сървър
-account-hub-outgoing-server-legend = Изходящ сървър
-account-hub-result-incoming-server-legend = Входящ сървър
-    .title = Входящ сървър
-account-hub-result-outgoing-server-legend = Изходящ сървър
-    .title = Изходящ сървър
 account-hub-protocol-label = Протокол
-account-hub-hostname-label = Име на хост
 account-hub-result-hostname-label = Име на хост
     .title = Име на хост
 account-hub-result-socket-type-label = Сигурност на връзката
 account-hub-on-port-label = Порт
-account-hub-result-authentication-label = Удостоверяване
-    .title = Удостоверяване
-account-hub-port-label = Порт
-    .title = Задайте номера на порта да е 0 за автоматично разпознаване
 account-hub-auto-description = { -brand-short-name } ще се опита да открие автоматично полета, които са оставени празни.
 account-hub-ssl-label = Сигурност на връзката
 
@@ -73,8 +62,6 @@ account-hub-ssl-label = Сигурност на връзката
 
 account-hub-ssl-autodetect-option =
     .label = Автоматично разпознаване
-account-hub-ssl-no-authentication-option =
-    .label = Без удостоверяване
 account-hub-ssl-cleartext-password-option =
     .label = Обикновена парола
 account-hub-ssl-encrypted-password-option =
@@ -194,7 +181,6 @@ account-hub-notification-show-less = Показване на по-малко
 account-hub-email-setup-header = Добавете адреси на ел. поща
 account-hub-email-setup-incoming = Настройки на сървъра за входяща поща
 account-hub-email-setup-outgoing = Настройки на сървъра за изходяща поща
-account-hub-email-config-found = Изберете вида на пощенския профил
 account-hub-email-enter-password = Въведете паролата за пощенския профил
 account-hub-email-sync-accounts = Синхронизиране на календари и адресници
 account-hub-test-configuration = Проверка
@@ -208,7 +194,6 @@ account-hub-result-ews-text = Сървър
 account-hub-result-recommended-label = Препоръчано
 account-hub-result-addon-label = Изисква добавка
 account-hub-edit-configuration = Промяна на настройките
-account-hub-config-success = Настройки от Mozilla ISPDB
 account-hub-password-info = Идентификационните данни ще се пазят само на вашия компютър
 account-hub-creating-account = Създаване на профил…
 account-hub-sync-accounts-found = { -brand-short-name } намери свързани услуги
@@ -238,10 +223,8 @@ account-hub-username-error-text = Изисква се потребителско
     .title = Изисква се потребителско име.
 account-hub-oauth-pending = Изчакване за упълномощаване в изскачащия прозорец за вход…
 account-hub-addon-install-button = Инсталиране
-account-hub-addon-install-needed = { -brand-short-name } не поддържа този сървър по подразбиране. За достъп до електронната поща на Exchange <a data-l10n-name="addon-install"> инсталирайте добавка от трета страна, като Owl (платена).</a>
 account-hub-addon-error = Инсталирането на добавката е неуспешно. Моля, опитайте отново или се свържете с автора на добавката за съдействие.
 account-hub-select-security-warning = <span data-l10n-name="error-text">Внимание: Засечен е незащитен имейл сървър.</span> Този сървър не е шифрован, което излага на показ паролата и данните ви. Свържете се с администратора си, за да защити връзката или продължете на свой собствен риск. <a data-l10n-name="error-link">Вижте често задавани въпроси за повече детайли.</a>
-account-hub-security-warning = <span data-l10n-name="security-warning">Внимание: Открит е несигурен сървър за електронна поща.</span> Този сървър не е шифрован и не пази паролата и данните ви. Свържете се с администратора си, за да защити връзката или продължете на свой собствен риск. <a data-l10n-name="faq-link">Вижте тук за повече.</a>
 account-hub-account-authentication-error = Грешка при удостоверяване.
 account-hub-add-address-book = Добавяне на адресник
 address-book-sync-existing-icon =
@@ -259,7 +242,6 @@ address-book-add-ldap-icon =
     .alt = Свързване към отдалечен LDAP адресник
 address-book-add-ldap = Нов LDAP адресник
 address-book-add-ldap-description = Свързване към отдалечен LDAP адресник
-account-hub-fetching-sync-accounts = Откриване на адресници и календари…
 address-book-sync-existing-description = Извличане на съществуващи профили…
 account-hub-select-address-book-account = Избор на профил с Адресници
 # $synced (Number) - The number of address books that are synced.

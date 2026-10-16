@@ -56,14 +56,7 @@ account-hub-email-connect-button = Ferbine
 account-hub-result-incoming-legend = Ynkommend
 account-hub-result-outgoing-legend = Utgeand
 account-hub-all-servers-legend = Alle servers
-account-hub-incoming-server-legend = Ynkommende server
-account-hub-outgoing-server-legend = Utgeande server
-account-hub-result-incoming-server-legend = Ynkommende server
-    .title = Ynkommende server
-account-hub-result-outgoing-server-legend = Utgeande server
-    .title = Utgeande server
 account-hub-protocol-label = Protokol
-account-hub-hostname-label = Hostnamme
 account-hub-result-hostname-label = Hostnamme
     .title = Hostnamme
 account-hub-result-socket-type-label = Ferbiningsbefeiliging
@@ -94,10 +87,6 @@ account-hub-result-auth-ntlm = NTLM
 account-hub-result-auth-external = Ekstern
 account-hub-result-auth-oauth2 = OAuth2
 account-hub-on-port-label = Poarte
-account-hub-result-authentication-label = Autentikaasje
-    .title = Autentikaasje
-account-hub-port-label = Poarte
-    .title = Stel it poartenûmer yn op 0 foar automatyske deteksje
 account-hub-auto-description = { -brand-short-name } probearret fjilden dy’t leech litten binne, automatysk te detektearjen.
 account-hub-ssl-label = Ferbiningsbefeiliging
 
@@ -105,8 +94,6 @@ account-hub-ssl-label = Ferbiningsbefeiliging
 
 account-hub-ssl-autodetect-option =
     .label = Autodeteksje
-account-hub-ssl-no-authentication-option =
-    .label = Gjin autentikaasje
 account-hub-ssl-cleartext-password-option =
     .label = Normaal wachtwurd
 account-hub-ssl-encrypted-password-option =
@@ -268,7 +255,6 @@ account-hub-email-exchange-settings = Exchange-ynstellingen
 account-hub-email-connect-settings = Jo e-mailynstellingen ferbine
 account-hub-email-protocol-select-header = Kies in e-mailaccounttype
 account-hub-email-protocol-select-additional-info = Der is ekstra ynformaasje nedich om dizze account yn te stellen.
-account-hub-email-config-found = Kies jo e-mailaccounttype
 account-hub-email-enter-password = Fier it wachtwurd fan jo e-mailaccount yn
 account-hub-email-sync-accounts = Jo aginda’s en adresboeken syngronisearje
 account-hub-test-configuration = Teste
@@ -295,7 +281,6 @@ account-hub-config-success-description-guess = Konfiguraasje fûn troch algemien
 account-hub-config-success-description-disk = Konfiguraasje fûn yn ynstallaasje fan { -brand-short-name }.
 account-hub-config-success-description-isp = Konfiguraasje fûn by e-mailprovider.
 account-hub-config-success-description-read-more = Jo kinne <a data-l10n-name="automated-setup-link">lêze oer hoe’t it automatysk ynstellen fan e-mail wurket.</a>
-account-hub-config-success = Konfiguraasje fûn yn de Mozilla-ISPDB
 account-hub-password-info = Jo oanmeldgegevens wurde allinnich lokaal op jo kompjûter bewarre
 account-hub-creating-account = Account oanmeitsje…
 account-hub-sync-accounts-found = { -brand-short-name } hat inkelde ferbûne services fûn
@@ -326,10 +311,8 @@ account-hub-username-error-text = Brûkersnamme is fereaske
 account-hub-manual-config-error-summary = Los de folgjende flaters op:
 account-hub-oauth-pending = Wachtsje op autorisaasje yn oanmeldingspopup…
 account-hub-addon-install-button = Ynstallearje
-account-hub-addon-install-needed = { -brand-short-name } stipet dizze server net ynboud. Om tagong te krijen ta Exchange-e-mail, <a data-l10n-name="addon-install"> ynstallearje in add-on fan tredden lykas Owl (betelle).</a>
 account-hub-addon-error = Add-on-ynstallaasje is mislearre. Probearje it opnij of nim kontakt op mei de add-on-auteur foar help.
 account-hub-select-security-warning = <span data-l10n-name="error-text">Warskôging: ûnfeilige e-mailserver ûntdutsen.</span> Dizze tsjinner mist fersifering, wêrtroch jo wachtwurd en gegevens iepenbier binne. Nim kontakt op mei jo behearder om de ferbining te befeiligjen of troch te gean op jo eigen risiko. <a data-l10n-name="error-link">Sjoch FAQ foar mear ynformaasje.</a>
-account-hub-security-warning = <span data-l10n-name="security-warning">Warskôging: ûnfeilige e-mailserver ûntdutsen.</span> Dizze tsjinner mist fersifering, wêrtroch jo wachtwurd en gegevens iepenbier binne. Nim kontakt op mei jo behearder om de ferbining te befeiligjen of troch te gean op jo eigen risiko. <a data-l10n-name="faq-link">Sjoch FAQ foar mear ynformaasje.</a>
 account-hub-account-authentication-error = Autentikaasjeflater.
 account-hub-add-address-book = In adresboek tafoegje
 address-book-sync-existing-icon =
@@ -359,7 +342,6 @@ account-hub-address-book-sync-books-data =
         [one] 1 adresboek beskikber
        *[other] { $addressBooks } adresboeken beskikber
     }
-account-hub-fetching-sync-accounts = Adresboeken en aginda’s ûntdekke…
 address-book-sync-existing-description = Besteande accounts ophelje…
 account-hub-select-address-book-account = Selektearje in account mei adresboeken
 # $synced (Number) - The number of address books that are synced.

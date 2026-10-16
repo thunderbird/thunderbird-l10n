@@ -48,8 +48,6 @@
 <!ENTITY getAllNewMsgCmdPopupMenu.accesskey "B">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.label "Geçerli hesap">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.accesskey "G">
-<!ENTITY getNextNMsgCmd2.label "Sıradaki haber iletilerini al">
-<!ENTITY getNextNMsgCmd2.accesskey "t">
 <!ENTITY sendUnsentCmd.label "Gönderilmemiş iletileri gönder">
 <!ENTITY sendUnsentCmd.accesskey "d">
 <!ENTITY subscribeCmd.label "Abone ol…">
@@ -59,8 +57,6 @@
 <!ENTITY renameFolder.label "Klasörü yeniden adlandır…">
 <!ENTITY renameFolder.accesskey "e">
 <!ENTITY renameFolder.key "VK_F2">
-<!ENTITY compactFolders.label "Klasörleri sıkıştır">
-<!ENTITY compactFolders.accesskey "a">
 <!ENTITY emptyTrashCmd.label "Çöp kutusunu boşalt">
 <!ENTITY emptyTrashCmd.accesskey "p">
 <!ENTITY offlineMenu.label "Çevrimdışı">
@@ -129,10 +125,6 @@
 <!ENTITY allFolders.accesskey "m">
 <!ENTITY unreadFolders.label "Okunmayanlar">
 <!ENTITY unreadFolders.accesskey "u">
-<!ENTITY favoriteFolders.label "Favoriler">
-<!ENTITY favoriteFolders.accesskey "F">
-<!ENTITY recentFolders.label "En son">
-<!ENTITY recentFolders.accesskey "E">
 <!ENTITY compactVersion.label "Yoğun görünüm">
 <!ENTITY compactVersion.accesskey "Y">
 <!-- Sort Menu -->
@@ -154,8 +146,6 @@
 <!ENTITY sortByStatusCmd.accesskey "u">
 <!ENTITY sortByTagsCmd.label "Etiket">
 <!ENTITY sortByTagsCmd.accesskey "k">
-<!ENTITY sortByJunkStatusCmd.label "Gereksiz durumu">
-<!ENTITY sortByJunkStatusCmd.accesskey "G">
 <!ENTITY sortBySubjectCmd.label "Konu">
 <!ENTITY sortBySubjectCmd.accesskey "K">
 <!ENTITY sortByFromCmd.label "Gönderen">
@@ -243,7 +233,6 @@
 <!ENTITY findPrevCmd.key2 "VK_F3">
 <!ENTITY searchMailCmd.label "İletilerde ara…">
 <!ENTITY searchMailCmd.accesskey "d">
-<!ENTITY searchMailCmd.key "f">
 <!ENTITY glodaSearchCmd.label "Global arama…">
 <!ENTITY glodaSearchCmd.accesskey "G">
 <!ENTITY searchAddressesCmd.label "Adreslerde ara…">
@@ -334,17 +323,6 @@
 <!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN">
 <!ENTITY createFilter.label "İletiden süzgeç oluştur…">
 <!ENTITY createFilter.accesskey "s">
-<!ENTITY moveMsgToMenu.label "Taşı">
-<!ENTITY moveMsgToMenu.accesskey "T">
-<!ENTITY moveCopyMsgRecentMenu.label "Son kullanılanlar">
-<!ENTITY moveCopyMsgRecentMenu.accesskey "n">
-<!ENTITY copyMessageLocation.label "İleti konumunu kopyala">
-<!ENTITY copyMessageLocation.accesskey "i">
-<!ENTITY copyMsgToMenu.label "Buraya kopyala">
-<!ENTITY copyMsgToMenu.accesskey "k">
-<!ENTITY moveToFolderAgain.label "Yeniden taşı">
-<!ENTITY moveToFolderAgain.accesskey "i">
-<!ENTITY moveToFolderAgainCmd.key "m">
 <!ENTITY killThreadMenu.label "Diziyi görmezden gel">
 <!ENTITY killThreadMenu.accesskey "D">
 <!ENTITY killThreadMenu.key "k">
@@ -356,16 +334,6 @@
 <!ENTITY watchThreadMenu.key "w">
 <!ENTITY tagMenu.label "Etiket">
 <!ENTITY tagMenu.accesskey "k">
-<!ENTITY tagCmd0.key "0">
-<!ENTITY tagCmd1.key "1">
-<!ENTITY tagCmd2.key "2">
-<!ENTITY tagCmd3.key "3">
-<!ENTITY tagCmd4.key "4">
-<!ENTITY tagCmd5.key "5">
-<!ENTITY tagCmd6.key "6">
-<!ENTITY tagCmd7.key "7">
-<!ENTITY tagCmd8.key "8">
-<!ENTITY tagCmd9.key "9">
 <!ENTITY markMenu.label "İşaretle">
 <!ENTITY markMenu.accesskey "İ">
 <!ENTITY toggleReadCmd.key "m">
@@ -385,14 +353,6 @@
 <!ENTITY markStarredCmd.label "Yıldız ekle">
 <!ENTITY markStarredCmd.accesskey "Y">
 <!ENTITY markStarredCmd.key "S">
-<!ENTITY markAsJunkCmd.label "Gereksiz">
-<!ENTITY markAsJunkCmd.accesskey "G">
-<!ENTITY markAsJunkCmd.key "j">
-<!ENTITY markAsNotJunkCmd.label "Gereksiz değil">
-<!ENTITY markAsNotJunkCmd.accesskey "d">
-<!ENTITY markAsNotJunkCmd.key "j">
-<!ENTITY recalculateJunkScoreCmd.label "Gereksiz posta denetimini çalıştır">
-<!ENTITY recalculateJunkScoreCmd.accesskey "G">
 <!ENTITY openMessageWindowCmd.label "İletiyi aç">
 <!ENTITY openMessageWindowCmd.accesskey "t">
 <!ENTITY openMessageWindowCmd.key "o">
@@ -441,10 +401,6 @@
 <!ENTITY filtersApplyToSelection.accesskey "S">
 <!ENTITY filtersApplyToMessage.label "İletide süzgeçleri çalıştır">
 <!ENTITY filtersApplyToMessage.accesskey "s">
-<!ENTITY runJunkControls.label "Klasörde gereksiz e-posta denetimini çalıştır">
-<!ENTITY runJunkControls.accesskey "D">
-<!ENTITY deleteJunk.label "Gereksiz olarak işaretlenen iletileri sil">
-<!ENTITY deleteJunk.accesskey "s">
 <!ENTITY importCmd.label "İçe aktar…">
 <!ENTITY importCmd.accesskey "t">
 <!ENTITY exportCmd.label "Dışa aktar…">
@@ -491,7 +447,6 @@
 <!ENTITY printButton.label "Yazdır">
 <!ENTITY stopButton.label "Durdur">
 <!ENTITY throbberItem.title "Etkinlik göstergesi">
-<!ENTITY junkItem.title "Gereksiz">
 <!ENTITY addressBookButton.label "Adres defteri">
 <!ENTITY chatButton.label "Sohbet">
 <!ENTITY glodaSearch.title "Global arama">
@@ -553,11 +508,6 @@
 <!ENTITY appmenuNewContactCmd.label "Adres defteri kişisi…">
 <!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Araç çubuğu düzeni…">
-<!-- Tags Menu Popup -->
-<!ENTITY addNewTag.label "Yeni etiket…">
-<!ENTITY addNewTag.accesskey "n">
-<!ENTITY manageTags.label "Etiketleri yönet…">
-<!ENTITY manageTags.accesskey "E">
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "İsim">
 <!ENTITY folderUnreadColumn.label "Okunmadı">
@@ -580,12 +530,8 @@
 <!ENTITY folderContextRename.accesskey "d">
 <!ENTITY folderContextRemove.label "Sil">
 <!ENTITY folderContextRemove.accesskey "S">
-<!ENTITY folderContextCompact.label "Sıkıştır">
-<!ENTITY folderContextCompact.accesskey "S">
 <!ENTITY folderContextEmptyTrash.label "Çöp kutusunu boşalt">
 <!ENTITY folderContextEmptyTrash.accesskey "Ç">
-<!ENTITY folderContextEmptyJunk.label "Gereksiz iletileri sil">
-<!ENTITY folderContextEmptyJunk.accesskey "G">
 <!ENTITY folderContextSendUnsentMessages.label "Gönderilmeyen iletileri gönder…">
 <!ENTITY folderContextSendUnsentMessages.accesskey "G">
 <!ENTITY folderContextUnsubscribe.label "Abonelikten çık">
@@ -628,7 +574,6 @@
 <!ENTITY accountColumn.label "Hesap">
 <!ENTITY statusColumn.label "Durum">
 <!ENTITY sizeColumn.label "Boyut">
-<!ENTITY junkStatusColumn.label "Gereksiz durumu">
 <!ENTITY unreadColumn.label "Okunmadı">
 <!ENTITY totalColumn.label "Toplam">
 <!ENTITY readColumn.label "Okundu">
@@ -652,7 +597,6 @@
 <!ENTITY accountColumn2.tooltip "Hesaba göre sırala">
 <!ENTITY statusColumn2.tooltip "Duruma göre sırala">
 <!ENTITY sizeColumn2.tooltip "Boyuta göre sırala">
-<!ENTITY junkStatusColumn2.tooltip "Gereksiz durumuna göre sırala">
 <!ENTITY unreadColumn2.tooltip "Dizideki okunmamış iletilerin sayısı">
 <!ENTITY totalColumn2.tooltip "Dizideki iletilerin toplam sayısı">
 <!ENTITY readColumn2.tooltip "Okunma durumuna göre sırala">
@@ -691,16 +635,6 @@
 <!ENTITY contextReplyAll.accesskey "H">
 <!ENTITY contextReplyList.label "Listeyi yanıtla">
 <!ENTITY contextReplyList.accesskey "L">
-<!ENTITY contextMoveMsgMenu.label "Taşı">
-<!ENTITY contextMoveMsgMenu.accesskey "T">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Son hedefler">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "h">
-<!ENTITY contextMoveCopyMsgRecentMenu.label "Son kullanılanlar">
-<!ENTITY contextMoveCopyMsgRecentMenu.accesskey "k">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.label "Sık kullanılanlar">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.accesskey "S">
-<!ENTITY contextCopyMsgMenu.label "Buraya kopyala">
-<!ENTITY contextCopyMsgMenu.accesskey "B">
 <!ENTITY contextKillThreadMenu.label "Diziyi görmezden gel">
 <!ENTITY contextKillSubthreadMenu.accesskey "d">
 <!ENTITY contextKillThreadMenu.accesskey "D">

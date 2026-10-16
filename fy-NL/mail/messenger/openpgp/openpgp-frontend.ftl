@@ -43,14 +43,9 @@ openpgp-cannot-decrypt-because-mdc =
     It kin wylst de oerdracht wizige wêze mei de bedoeling de ynhâld te stellen.
     Om dit risiko foar te kommen, wurdt de ynhâld net werjûn.
 openpgp-cannot-decrypt-because-missing-key = De geheime kaai dy’t nedich is om dit berjocht te ûntsiferjen, is net beskikber.
-openpgp-partially-signed =
-    Mar in part fan dit berjocht is digitaal ûndertekene mei OpenPGP.
-    As jo op de ferifikaasjeknop klikke, wurde de ûnbeskerme dielen ferburgen en wurdt de steat fan de digitale hantekening werjûn.
 openpgp-partially-encrypted =
     Mar in part fan dit berjocht is fersifere mei OpenPGP.
     De lêsbere dielen fan it berjocht dy’t al werjûn wurde, binne net fersifere.
     As jo op de ûntsiferingsknop klikke, wurdt de ynhâld fan de fersifere dielen werjûn.
-openpgp-reminder-partial-display = Omtinken: it ûndersteande berjocht is mar in part fan it oarspronklike berjocht.
-openpgp-partial-verify-button = Ferifiearje
 openpgp-partial-decrypt-button = Untsiferje
 openpgp-unexpected-key-for-you = Warskôging: dit berjocht befettet in ûnbekende OpenPGP-kaai dy’t ferwiist nei in fan jo eigen e-mailadressen. As dit net ien fan jo eigen kaaien is, kin it in besykjen wêze om oare korrespondinten te mislieden.

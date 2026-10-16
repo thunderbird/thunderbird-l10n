@@ -467,16 +467,6 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = Схаваць { $name }
-# $name calendar name
-show-calendar-label =
-    .label = Паказаць { $name }
-# $name calendar name
-hide-calendar-label =
-    .label = Схаваць { $name }
-# uses the access key calendar.context.showonly.accesskey
-# $name calendar name
-show-only-calendar =
-    .label = Паказаць толькі { $name }
 modify-conflict-prompt-button1 = Перазапісаць іншыя змены
 modify-conflict-prompt-button2 = Адхіліць гэтыя змены
 # Accessible description of a grid calendar with no selected date

@@ -216,7 +216,6 @@
 <!ENTITY smiley7Cmd.label "Անորոշ">
 <!ENTITY smiley8Cmd.label "Անակնկալ">
 <!ENTITY smiley9Cmd.label "Համբուրող">
-<!ENTITY smiley10Cmd.label "Գոռացող">
 <!ENTITY smiley11Cmd.label "Զիլ">
 <!ENTITY smiley12Cmd.label "Փողի֊բերան">
 <!ENTITY smiley13Cmd.label "Ոտքը֊բերանում">
@@ -265,12 +264,6 @@
 <!ENTITY convertRegularAttachment.accesskey "Կ">
 <!ENTITY attachPage.label "Կցել վեբ էջ…">
 <!ENTITY attachPage.accesskey "Վ">
-<!-- Attachment Pane Header Bar Context Menu
-     LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
-     Should use the same wording as startExpandedCmd.label
-     in msgHdrViewOverlay.dtd. -->
-<!ENTITY initiallyShowAttachmentPane.label "Սկզբում ցուցադրէք յաւելուածի վահանակը">
-<!ENTITY initiallyShowAttachmentPane.accesskey "Ց">
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Աւելացնել բառարաններ…">
 <!ENTITY spellAddDictionaries.accesskey "Ա">

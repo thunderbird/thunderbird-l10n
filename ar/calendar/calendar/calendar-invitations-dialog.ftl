@@ -5,9 +5,6 @@
 allday-event = حدث طوال اليوم
 recurrent-event =
     .value = حدث متكرر
-# $locationProperty is the location of the event
-calendar-invitations-location =
-    .value = المكان: { $locationProperty }
 # $organizerProperty is the organizer of the event
 organizer =
     .value = المنظّم: { $organizerProperty }

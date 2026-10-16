@@ -326,7 +326,6 @@ key-verification = Dearbh lorg-meòir na h-iuchrach slighe seanail conaltraidh t
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Chan urrainn dhuinn an teachdaireachd a chur a chionn ’s gu bheil duilgheadas leis an iuchair phearsanta agad. { $problem }
-window-locked = Tha an uinneag sgrìobhaidh glaiste; sguireadh dhen chur
 
 ## Strings in keyserver.sys.mjs
 

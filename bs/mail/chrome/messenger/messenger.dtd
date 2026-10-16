@@ -42,8 +42,6 @@
 <!ENTITY getAllNewMsgCmdPopupMenu.accesskey "A">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.label "Trenutni račun">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.accesskey "C">
-<!ENTITY getNextNMsgCmd2.label "Dohvati sljedeće novinske poruke">
-<!ENTITY getNextNMsgCmd2.accesskey "t">
 <!ENTITY sendUnsentCmd.label "Pošalji neposlane poruke">
 <!ENTITY sendUnsentCmd.accesskey "d">
 <!ENTITY subscribeCmd.label "Pretplati se…">
@@ -53,8 +51,6 @@
 <!ENTITY renameFolder.label "Preimenuj direktorij…">
 <!ENTITY renameFolder.accesskey "R">
 <!ENTITY renameFolder.key "VK_F2">
-<!ENTITY compactFolders.label "Sažmi direktorije">
-<!ENTITY compactFolders.accesskey "F">
 <!ENTITY emptyTrashCmd.label "Isprazni smeće">
 <!ENTITY emptyTrashCmd.accesskey "y">
 <!ENTITY offlineMenu.label "Van mreže">
@@ -123,10 +119,6 @@
 <!ENTITY allFolders.accesskey "A">
 <!ENTITY unreadFolders.label "Nepročitane">
 <!ENTITY unreadFolders.accesskey "U">
-<!ENTITY favoriteFolders.label "Omiljene">
-<!ENTITY favoriteFolders.accesskey "F">
-<!ENTITY recentFolders.label "Nedavne">
-<!ENTITY recentFolders.accesskey "R">
 <!ENTITY compactVersion.label "Zbijeni prikaz">
 <!ENTITY compactVersion.accesskey "C">
 <!-- Sort Menu -->
@@ -148,8 +140,6 @@
 <!ENTITY sortByStatusCmd.accesskey "u">
 <!ENTITY sortByTagsCmd.label "Oznake">
 <!ENTITY sortByTagsCmd.accesskey "g">
-<!ENTITY sortByJunkStatusCmd.label "Status neželjene pošte">
-<!ENTITY sortByJunkStatusCmd.accesskey "J">
 <!ENTITY sortBySubjectCmd.label "Naslov">
 <!ENTITY sortBySubjectCmd.accesskey "b">
 <!ENTITY sortByFromCmd.label "Šalje">
@@ -237,7 +227,6 @@
 <!ENTITY findPrevCmd.key2 "VK_F3">
 <!ENTITY searchMailCmd.label "Pretraži poruke…">
 <!ENTITY searchMailCmd.accesskey "M">
-<!ENTITY searchMailCmd.key "f">
 <!ENTITY searchAddressesCmd.label "Pretraži adrese…">
 <!ENTITY searchAddressesCmd.accesskey "S">
 <!-- Go Menu -->
@@ -326,17 +315,6 @@
 <!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN">
 <!ENTITY createFilter.label "Stvori filter iz poruke…">
 <!ENTITY createFilter.accesskey "a">
-<!ENTITY moveMsgToMenu.label "Premjesti u">
-<!ENTITY moveMsgToMenu.accesskey "M">
-<!ENTITY moveCopyMsgRecentMenu.label "Nedavni">
-<!ENTITY moveCopyMsgRecentMenu.accesskey "R">
-<!ENTITY copyMessageLocation.label "Kopiraj lokaciju poruke">
-<!ENTITY copyMessageLocation.accesskey "M">
-<!ENTITY copyMsgToMenu.label "Kopiraj u">
-<!ENTITY copyMsgToMenu.accesskey "C">
-<!ENTITY moveToFolderAgain.label "Premjesti ponovo">
-<!ENTITY moveToFolderAgain.accesskey "i">
-<!ENTITY moveToFolderAgainCmd.key "m">
 <!ENTITY killThreadMenu.label "Ignoriši nit">
 <!ENTITY killThreadMenu.accesskey "I">
 <!ENTITY killThreadMenu.key "k">
@@ -348,16 +326,6 @@
 <!ENTITY watchThreadMenu.key "w">
 <!ENTITY tagMenu.label "Oznaka">
 <!ENTITY tagMenu.accesskey "g">
-<!ENTITY tagCmd0.key "0">
-<!ENTITY tagCmd1.key "1">
-<!ENTITY tagCmd2.key "2">
-<!ENTITY tagCmd3.key "3">
-<!ENTITY tagCmd4.key "4">
-<!ENTITY tagCmd5.key "5">
-<!ENTITY tagCmd6.key "6">
-<!ENTITY tagCmd7.key "7">
-<!ENTITY tagCmd8.key "8">
-<!ENTITY tagCmd9.key "9">
 <!ENTITY markMenu.label "Označi">
 <!ENTITY markMenu.accesskey "k">
 <!ENTITY toggleReadCmd.key "m">
@@ -377,14 +345,6 @@
 <!ENTITY markStarredCmd.label "Dodaj zvjezdicu">
 <!ENTITY markStarredCmd.accesskey "S">
 <!ENTITY markStarredCmd.key "S">
-<!ENTITY markAsJunkCmd.label "Kao neželjenu poštu">
-<!ENTITY markAsJunkCmd.accesskey "J">
-<!ENTITY markAsJunkCmd.key "j">
-<!ENTITY markAsNotJunkCmd.label "Kao željenu poštu">
-<!ENTITY markAsNotJunkCmd.accesskey "N">
-<!ENTITY markAsNotJunkCmd.key "j">
-<!ENTITY recalculateJunkScoreCmd.label "Pokreni kontrole neželjene pošte">
-<!ENTITY recalculateJunkScoreCmd.accesskey "C">
 <!ENTITY openMessageWindowCmd.label "Otvori poruku">
 <!ENTITY openMessageWindowCmd.accesskey "O">
 <!ENTITY openMessageWindowCmd.key "o">
@@ -430,10 +390,6 @@
 <!ENTITY filtersApplyToSelection.accesskey "u">
 <!ENTITY filtersApplyToMessage.label "Pokreni filtere na poruci">
 <!ENTITY filtersApplyToMessage.accesskey "u">
-<!ENTITY runJunkControls.label "Pokreni kontrole neželjene pošte na direktoriju">
-<!ENTITY runJunkControls.accesskey "C">
-<!ENTITY deleteJunk.label "Izbriši poštu u direktoriju označenu kao neželjenu">
-<!ENTITY deleteJunk.accesskey "D">
 <!ENTITY importCmd.label "Uvoz…">
 <!ENTITY importCmd.accesskey "m">
 <!ENTITY clearRecentHistory.label "Izbriši nedavnu historiju…">
@@ -478,7 +434,6 @@
 <!ENTITY printButton.label "Štampaj">
 <!ENTITY stopButton.label "Zaustavi">
 <!ENTITY throbberItem.title "Indikator aktivnosti">
-<!ENTITY junkItem.title "Neželjena pošta">
 <!ENTITY addressBookButton.label "Imenik">
 <!ENTITY chatButton.label "Razgovor">
 <!ENTITY glodaSearch.title "Globalna pretraga">
@@ -539,11 +494,6 @@
 <!ENTITY appmenuNewContactCmd.label "Kontakt u imeniku…">
 <!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Raspored alatne trake…">
-<!-- Tags Menu Popup -->
-<!ENTITY addNewTag.label "Nova oznaka…">
-<!ENTITY addNewTag.accesskey "N">
-<!ENTITY manageTags.label "Upravljanje oznakama…">
-<!ENTITY manageTags.accesskey "M">
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "Naziv">
 <!ENTITY folderUnreadColumn.label "Nepročitano">
@@ -566,12 +516,8 @@
 <!ENTITY folderContextRename.accesskey "R">
 <!ENTITY folderContextRemove.label "Izbriši">
 <!ENTITY folderContextRemove.accesskey "D">
-<!ENTITY folderContextCompact.label "Zbij">
-<!ENTITY folderContextCompact.accesskey "C">
 <!ENTITY folderContextEmptyTrash.label "Isprazni smeće">
 <!ENTITY folderContextEmptyTrash.accesskey "y">
-<!ENTITY folderContextEmptyJunk.label "Isprazni neželjenu poštu">
-<!ENTITY folderContextEmptyJunk.accesskey "J">
 <!ENTITY folderContextSendUnsentMessages.label "Pošalji neposlane poruke">
 <!ENTITY folderContextSendUnsentMessages.accesskey "d">
 <!ENTITY folderContextUnsubscribe.label "Otkaži pretplatu">
@@ -612,7 +558,6 @@
 <!ENTITY accountColumn.label "Račun">
 <!ENTITY statusColumn.label "Status">
 <!ENTITY sizeColumn.label "Veličina">
-<!ENTITY junkStatusColumn.label "Status neželjene pošte">
 <!ENTITY unreadColumn.label "Nepročitano">
 <!ENTITY totalColumn.label "Ukupno">
 <!ENTITY readColumn.label "Pročitano">
@@ -634,7 +579,6 @@
 <!ENTITY accountColumn2.tooltip "Poredaj prema računu">
 <!ENTITY statusColumn2.tooltip "Poredaj prema statusu">
 <!ENTITY sizeColumn2.tooltip "Poredaj po veličini">
-<!ENTITY junkStatusColumn2.tooltip "Poredaj po statusu neželjene pošte">
 <!ENTITY unreadColumn2.tooltip "Broj nepročitanih poruka u niti">
 <!ENTITY totalColumn2.tooltip "Ukupan broj poruka u niti">
 <!ENTITY readColumn2.tooltip "Poredaj prema pročitanom">
@@ -672,12 +616,6 @@
 <!ENTITY contextReplyAll.accesskey "A">
 <!ENTITY contextReplyList.label "Odgovori na listu">
 <!ENTITY contextReplyList.accesskey "L">
-<!ENTITY contextMoveMsgMenu.label "Premjesti u">
-<!ENTITY contextMoveMsgMenu.accesskey "M">
-<!ENTITY contextMoveCopyMsgRecentMenu.label "Nedavno">
-<!ENTITY contextMoveCopyMsgRecentMenu.accesskey "R">
-<!ENTITY contextCopyMsgMenu.label "Kopiraj u">
-<!ENTITY contextCopyMsgMenu.accesskey "C">
 <!ENTITY contextKillThreadMenu.label "Ignoriši nit">
 <!ENTITY contextKillSubthreadMenu.accesskey "b">
 <!ENTITY contextKillThreadMenu.accesskey "I">

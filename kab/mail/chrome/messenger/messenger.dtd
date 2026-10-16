@@ -48,8 +48,6 @@
 <!ENTITY getAllNewMsgCmdPopupMenu.accesskey "m">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.label "Amiḍan amiran">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.accesskey "n">
-<!ENTITY getNextNMsgCmd2.label "Awid iznan imaynuten id-iteddun">
-<!ENTITY getNextNMsgCmd2.accesskey "n">
 <!ENTITY sendUnsentCmd.label "Azen iznan ur neţwacegeɛ ara">
 <!ENTITY sendUnsentCmd.accesskey "z">
 <!ENTITY subscribeCmd.label "Multeɣ…">
@@ -59,8 +57,6 @@
 <!ENTITY renameFolder.label "Snifel akaram…">
 <!ENTITY renameFolder.accesskey "S">
 <!ENTITY renameFolder.key "VK_F2">
-<!ENTITY compactFolders.label "Ssed ikaramen...">
-<!ENTITY compactFolders.accesskey "r">
 <!ENTITY emptyTrashCmd.label "Ḍegger iḍuman">
 <!ENTITY emptyTrashCmd.accesskey "ḍ">
 <!ENTITY offlineMenu.label "Aruqqin">
@@ -129,10 +125,6 @@
 <!ENTITY allFolders.accesskey "k">
 <!ENTITY unreadFolders.label "Ur ittwaɣṛi ara">
 <!ENTITY unreadFolders.accesskey "t">
-<!ENTITY favoriteFolders.label "Anurif">
-<!ENTITY favoriteFolders.accesskey "A">
-<!ENTITY recentFolders.label "Melmi kan">
-<!ENTITY recentFolders.accesskey "e">
 <!ENTITY compactVersion.label "Timeẓri yessden">
 <!ENTITY compactVersion.accesskey "T">
 <!-- Sort Menu -->
@@ -154,8 +146,6 @@
 <!ENTITY sortByStatusCmd.accesskey "d">
 <!ENTITY sortByTagsCmd.label "Tibzimin">
 <!ENTITY sortByTagsCmd.accesskey "b">
-<!ENTITY sortByJunkStatusCmd.label "Addad n uspam">
-<!ENTITY sortByJunkStatusCmd.accesskey "d">
 <!ENTITY sortBySubjectCmd.label "Amgay">
 <!ENTITY sortBySubjectCmd.accesskey "m">
 <!ENTITY sortByFromCmd.label "Si">
@@ -243,7 +233,6 @@
 <!ENTITY findPrevCmd.key2 "VK_F3">
 <!ENTITY searchMailCmd.label "Nadi iznan di…">
 <!ENTITY searchMailCmd.accesskey "d">
-<!ENTITY searchMailCmd.key "f">
 <!ENTITY glodaSearchCmd.label "Anadi amatu...">
 <!ENTITY glodaSearchCmd.accesskey "G">
 <!ENTITY searchAddressesCmd.label "Nadi tansiwin…">
@@ -334,17 +323,6 @@
 <!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN">
 <!ENTITY createFilter.label "Rnu imzizdig seg izen…">
 <!ENTITY createFilter.accesskey "n">
-<!ENTITY moveMsgToMenu.label "Senkez ɣer">
-<!ENTITY moveMsgToMenu.accesskey "k">
-<!ENTITY moveCopyMsgRecentMenu.label "Melmi kan">
-<!ENTITY moveCopyMsgRecentMenu.accesskey "l">
-<!ENTITY copyMessageLocation.label "Nɣel tansa n yizen">
-<!ENTITY copyMessageLocation.accesskey "N">
-<!ENTITY copyMsgToMenu.label "Nɣel ɣeṛ">
-<!ENTITY copyMsgToMenu.accesskey "N">
-<!ENTITY moveToFolderAgain.label "Senkez tikelt nniḍen.">
-<!ENTITY moveToFolderAgain.accesskey "n">
-<!ENTITY moveToFolderAgainCmd.key "m">
 <!ENTITY killThreadMenu.label "Zgel asqerdec">
 <!ENTITY killThreadMenu.accesskey "Z">
 <!ENTITY killThreadMenu.key "k">
@@ -356,16 +334,6 @@
 <!ENTITY watchThreadMenu.key "w">
 <!ENTITY tagMenu.label "Tabzimt">
 <!ENTITY tagMenu.accesskey "z">
-<!ENTITY tagCmd0.key "0">
-<!ENTITY tagCmd1.key "1">
-<!ENTITY tagCmd2.key "2">
-<!ENTITY tagCmd3.key "3">
-<!ENTITY tagCmd4.key "4">
-<!ENTITY tagCmd5.key "5">
-<!ENTITY tagCmd6.key "6">
-<!ENTITY tagCmd7.key "7">
-<!ENTITY tagCmd8.key "8">
-<!ENTITY tagCmd9.key "9">
 <!ENTITY markMenu.label "Cṛeḍ">
 <!ENTITY markMenu.accesskey "C">
 <!ENTITY toggleReadCmd.key "m">
@@ -385,14 +353,6 @@
 <!ENTITY markStarredCmd.label "Rnu itri">
 <!ENTITY markStarredCmd.accesskey "t">
 <!ENTITY markStarredCmd.key "S">
-<!ENTITY markAsJunkCmd.label "Am uspam">
-<!ENTITY markAsJunkCmd.accesskey "p">
-<!ENTITY markAsJunkCmd.key "j">
-<!ENTITY markAsNotJunkCmd.label "Mačči am uspam">
-<!ENTITY markAsNotJunkCmd.accesskey "m">
-<!ENTITY markAsNotJunkCmd.key "j">
-<!ENTITY recalculateJunkScoreCmd.label "Selkem asenqed n uspam">
-<!ENTITY recalculateJunkScoreCmd.accesskey "p">
 <!ENTITY openMessageWindowCmd.label "Ldi izen">
 <!ENTITY openMessageWindowCmd.accesskey "L">
 <!ENTITY openMessageWindowCmd.key "o">
@@ -441,10 +401,6 @@
 <!ENTITY filtersApplyToSelection.accesskey "k">
 <!ENTITY filtersApplyToMessage.label "Selkem imzizdigen ɣef yizen">
 <!ENTITY filtersApplyToMessage.accesskey "k">
-<!ENTITY runJunkControls.label "Selkem isenqaden n imaylen ispamen deg ukaram">
-<!ENTITY runJunkControls.accesskey "l">
-<!ENTITY deleteJunk.label "Kkes imaylen yettwaceṛḍen d ispamen deg ukaram">
-<!ENTITY deleteJunk.accesskey "K">
 <!ENTITY importCmd.label "Kter…">
 <!ENTITY importCmd.accesskey "r">
 <!ENTITY exportCmd.label "Kter…">
@@ -491,7 +447,6 @@
 <!ENTITY printButton.label "Siggez">
 <!ENTITY stopButton.label "Rken">
 <!ENTITY throbberItem.title "anamal n wermud">
-<!ENTITY junkItem.title "Aspam">
 <!ENTITY addressBookButton.label "Imedlis n tensa">
 <!ENTITY chatButton.label "Adiwenni usrid">
 <!ENTITY glodaSearch.title "Anadi amatu">
@@ -553,11 +508,6 @@
 <!ENTITY appmenuNewContactCmd.label "Anermis n imedlis n tensa…">
 <!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Aseflu n ifeggagen n ifecka…">
-<!-- Tags Menu Popup -->
-<!ENTITY addNewTag.label "Tabzimt tamaynut…">
-<!ENTITY addNewTag.accesskey "b">
-<!ENTITY manageTags.label "Sefrek tibzimin…">
-<!ENTITY manageTags.accesskey "f">
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "Isem">
 <!ENTITY folderUnreadColumn.label "Ur ittwaɣṛi ara">
@@ -580,12 +530,8 @@
 <!ENTITY folderContextRename.accesskey "S">
 <!ENTITY folderContextRemove.label "Kkes">
 <!ENTITY folderContextRemove.accesskey "K">
-<!ENTITY folderContextCompact.label "Ssed">
-<!ENTITY folderContextCompact.accesskey "s">
 <!ENTITY folderContextEmptyTrash.label "Ḍegger iḍuman">
 <!ENTITY folderContextEmptyTrash.accesskey "ḍ">
-<!ENTITY folderContextEmptyJunk.label " Ḍegger ispamen">
-<!ENTITY folderContextEmptyJunk.accesskey "p">
 <!ENTITY folderContextSendUnsentMessages.label "Azen iznan ur nettwacegeɛ ara">
 <!ENTITY folderContextSendUnsentMessages.accesskey "z">
 <!ENTITY folderContextUnsubscribe.label "Ffeɣ seg ujerred">
@@ -628,7 +574,6 @@
 <!ENTITY accountColumn.label "Amiḍan">
 <!ENTITY statusColumn.label "Addad">
 <!ENTITY sizeColumn.label "Teɣzi">
-<!ENTITY junkStatusColumn.label "Addad n uspam">
 <!ENTITY unreadColumn.label "Ur ittwaɣṛi ara">
 <!ENTITY totalColumn.label "Asemday">
 <!ENTITY readColumn.label "Ittwaɣra">
@@ -652,7 +597,6 @@
 <!ENTITY accountColumn2.tooltip "Smizzéwer s umiḍan">
 <!ENTITY statusColumn2.tooltip "Asmizzwer s waddad">
 <!ENTITY sizeColumn2.tooltip "Asmizzwer s teɣzi">
-<!ENTITY junkStatusColumn2.tooltip "Smizzwer s wddad n uspam">
 <!ENTITY unreadColumn2.tooltip "Amḍan n yeznan ur nettwaɣri ara deg usqerdec">
 <!ENTITY totalColumn2.tooltip "Amḍan n yeznan deg usqerdec">
 <!ENTITY readColumn2.tooltip "Asmizzwer s tɣruṛi">
@@ -691,15 +635,6 @@
 <!ENTITY contextReplyAll.accesskey "a">
 <!ENTITY contextReplyList.label "Err i tebdart">
 <!ENTITY contextReplyList.accesskey "b">
-<!ENTITY contextMoveMsgMenu.label "Senkez ɣer">
-<!ENTITY contextMoveMsgMenu.accesskey "k">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "R">
-<!ENTITY contextMoveCopyMsgRecentMenu.label "Melmi kan">
-<!ENTITY contextMoveCopyMsgRecentMenu.accesskey "m">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.label "Inurifen">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.accesskey "f">
-<!ENTITY contextCopyMsgMenu.label "Nɣel ɣeṛ">
-<!ENTITY contextCopyMsgMenu.accesskey "N">
 <!ENTITY contextKillThreadMenu.label "Zgel asqerdec">
 <!ENTITY contextKillSubthreadMenu.accesskey "n">
 <!ENTITY contextKillThreadMenu.accesskey "Z">

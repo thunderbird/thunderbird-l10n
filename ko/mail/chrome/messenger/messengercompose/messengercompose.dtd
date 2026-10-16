@@ -216,7 +216,6 @@
 <!ENTITY smiley7Cmd.label "고민">
 <!ENTITY smiley8Cmd.label "놀람">
 <!ENTITY smiley9Cmd.label "키스">
-<!ENTITY smiley10Cmd.label "고함">
 <!ENTITY smiley11Cmd.label "멋짐">
 <!ENTITY smiley12Cmd.label "돈">
 <!ENTITY smiley13Cmd.label "횡설수설">
@@ -266,12 +265,6 @@
 <!ENTITY convertRegularAttachment.accesskey "A">
 <!ENTITY attachPage.label "웹 페이지 첨부…">
 <!ENTITY attachPage.accesskey "W">
-<!-- Attachment Pane Header Bar Context Menu
-     LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
-     Should use the same wording as startExpandedCmd.label
-     in msgHdrViewOverlay.dtd. -->
-<!ENTITY initiallyShowAttachmentPane.label "시작할 때 첨부파일 창 보이기">
-<!ENTITY initiallyShowAttachmentPane.accesskey "S">
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "맞춤법 사전 추가…">
 <!ENTITY spellAddDictionaries.accesskey "A">

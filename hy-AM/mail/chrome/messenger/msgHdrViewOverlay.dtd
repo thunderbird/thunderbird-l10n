@@ -33,8 +33,6 @@
 <!ENTITY hdrFollowupButton1.tooltip "Հետևել այս լուրախմբին">
 <!ENTITY hdrForwardButton1.label "Փոխանցել">
 <!ENTITY hdrForwardButton1.tooltip "Փոխանցել նամակը">
-<!ENTITY hdrJunkButton1.label "Թափոն">
-<!ENTITY hdrJunkButton1.tooltip "Նշել նամակը որպես թափոն">
 <!ENTITY hdrTrashButton1.label "Ջնջել">
 <!ENTITY hdrTrashButton1.tooltip "Ջնջել այս նամակը">
 <!ENTITY hdrViewToolbarShowFull.label "Ցուցադրել պատկերները և տեքստը">

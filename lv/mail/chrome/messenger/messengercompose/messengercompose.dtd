@@ -215,7 +215,6 @@
 <!ENTITY smiley7Cmd.label "Neizlēmīgs">
 <!ENTITY smiley8Cmd.label "Pārsteigums">
 <!ENTITY smiley9Cmd.label "Skūpsts">
-<!ENTITY smiley10Cmd.label "Kliedziens">
 <!ENTITY smiley11Cmd.label "Vēss">
 <!ENTITY smiley12Cmd.label "Nauda mutē">
 <!ENTITY smiley13Cmd.label "Pēda mutē">
@@ -264,12 +263,6 @@
 <!ENTITY convertRegularAttachment.accesskey "p">
 <!ENTITY attachPage.label "Pievienot tīmekļa lapu…">
 <!ENTITY attachPage.accesskey "l">
-<!-- Attachment Pane Header Bar Context Menu
-     LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
-     Should use the same wording as startExpandedCmd.label
-     in msgHdrViewOverlay.dtd. -->
-<!ENTITY initiallyShowAttachmentPane.label "Sākotnēji rādīt pielikumu rūti">
-<!ENTITY initiallyShowAttachmentPane.accesskey "S">
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Pievienot vārdnīcas…">
 <!ENTITY spellAddDictionaries.accesskey "P">

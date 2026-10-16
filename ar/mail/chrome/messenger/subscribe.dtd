@@ -3,10 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY subscribeDialog.title "اشترِك">
-<!ENTITY subscribeButton.label "اشترِك">
-<!ENTITY subscribeButton.accesskey "ش">
-<!ENTITY unsubscribeButton.label "ألغِ الاشتراك">
-<!ENTITY unsubscribeButton.accesskey "ل">
 <!ENTITY newGroupsTab.label "مجموعات الأخبار">
 <!ENTITY newGroupsTab.accesskey "ب">
 <!ENTITY refreshButton.label "أعِد التّحميل">

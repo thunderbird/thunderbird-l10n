@@ -180,8 +180,6 @@
 <!ENTITY event.calendar.accesskey "g">
 <!ENTITY event.attendees.label "Participants :">
 <!ENTITY event.attendees.accesskey "i">
-<!ENTITY event.alldayevent.label "Évènement sur la journée">
-<!ENTITY event.alldayevent.accesskey "v">
 <!ENTITY event.from.label "Du :">
 <!ENTITY event.from.accesskey "D">
 <!ENTITY task.from.label "Début :">
@@ -262,13 +260,6 @@
 <!ENTITY event.recurrence.monthly.fourth.label "Le quatrième">
 <!ENTITY event.recurrence.monthly.fifth.label "Le cinquième">
 <!ENTITY event.recurrence.monthly.last.label "Le dernier">
-<!ENTITY event.recurrence.pattern.monthly.week.1.label "Dimanche">
-<!ENTITY event.recurrence.pattern.monthly.week.2.label "Lundi">
-<!ENTITY event.recurrence.pattern.monthly.week.3.label "Mardi">
-<!ENTITY event.recurrence.pattern.monthly.week.4.label "Mercredi">
-<!ENTITY event.recurrence.pattern.monthly.week.5.label "Jeudi">
-<!ENTITY event.recurrence.pattern.monthly.week.6.label "Vendredi">
-<!ENTITY event.recurrence.pattern.monthly.week.7.label "Samedi">
 <!ENTITY event.recurrence.repeat.dayofmonth.label "Jour du mois">
 <!ENTITY event.recurrence.repeat.recur.label "Se répète le(s) jour(s)">
 <!ENTITY event.recurrence.every.label "Chaque :">
@@ -281,18 +272,6 @@
      event.recurrence.pattern.yearly.of.label is "of" in
      Edit recurrence window -> Recurrence pattern -> Repeat yearly -->
 <!ENTITY event.recurrence.pattern.yearly.of.label "">
-<!ENTITY event.recurrence.pattern.yearly.month.1.label "Janvier">
-<!ENTITY event.recurrence.pattern.yearly.month.2.label "Février">
-<!ENTITY event.recurrence.pattern.yearly.month.3.label "Mars">
-<!ENTITY event.recurrence.pattern.yearly.month.4.label "Avril">
-<!ENTITY event.recurrence.pattern.yearly.month.5.label "Mai">
-<!ENTITY event.recurrence.pattern.yearly.month.6.label "Juin">
-<!ENTITY event.recurrence.pattern.yearly.month.7.label "Juillet">
-<!ENTITY event.recurrence.pattern.yearly.month.8.label "Août">
-<!ENTITY event.recurrence.pattern.yearly.month.9.label "Septembre">
-<!ENTITY event.recurrence.pattern.yearly.month.10.label "Octobre">
-<!ENTITY event.recurrence.pattern.yearly.month.11.label "Novembre">
-<!ENTITY event.recurrence.pattern.yearly.month.12.label "Décembre">
 <!ENTITY event.recurrence.yearly.every.label "Chaque">
 <!ENTITY event.recurrence.yearly.first.label "Le premier">
 <!ENTITY event.recurrence.yearly.second.label "Le deuxième">
@@ -300,27 +279,8 @@
 <!ENTITY event.recurrence.yearly.fourth.label "Le quatrième">
 <!ENTITY event.recurrence.yearly.fifth.label "Le cinquième">
 <!ENTITY event.recurrence.yearly.last.label "Le dernier">
-<!ENTITY event.recurrence.pattern.yearly.week.1.label "Dimanche">
-<!ENTITY event.recurrence.pattern.yearly.week.2.label "Lundi">
-<!ENTITY event.recurrence.pattern.yearly.week.3.label "Mardi">
-<!ENTITY event.recurrence.pattern.yearly.week.4.label "Mercredi">
-<!ENTITY event.recurrence.pattern.yearly.week.5.label "Jeudi">
-<!ENTITY event.recurrence.pattern.yearly.week.6.label "Vendredi">
-<!ENTITY event.recurrence.pattern.yearly.week.7.label "Samedi">
 <!ENTITY event.recurrence.pattern.yearly.day.label "jour">
 <!ENTITY event.recurrence.of.label "de">
-<!ENTITY event.recurrence.pattern.yearly.month2.1.label "Janvier">
-<!ENTITY event.recurrence.pattern.yearly.month2.2.label "Février">
-<!ENTITY event.recurrence.pattern.yearly.month2.3.label "Mars">
-<!ENTITY event.recurrence.pattern.yearly.month2.4.label "Avril">
-<!ENTITY event.recurrence.pattern.yearly.month2.5.label "Mai">
-<!ENTITY event.recurrence.pattern.yearly.month2.6.label "Juin">
-<!ENTITY event.recurrence.pattern.yearly.month2.7.label "Juillet">
-<!ENTITY event.recurrence.pattern.yearly.month2.8.label "Août">
-<!ENTITY event.recurrence.pattern.yearly.month2.9.label "Septembre">
-<!ENTITY event.recurrence.pattern.yearly.month2.10.label "Octobre">
-<!ENTITY event.recurrence.pattern.yearly.month2.11.label "Novembre">
-<!ENTITY event.recurrence.pattern.yearly.month2.12.label "Décembre">
 <!ENTITY event.recurrence.range.label "Fenêtre de répétition">
 <!ENTITY event.recurrence.forever.label "Pas de date de fin">
 <!ENTITY event.recurrence.repeat.for.label "Créer">

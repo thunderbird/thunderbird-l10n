@@ -87,8 +87,6 @@ policy-SanitizeOnShutdown2 = Pēc izslēgšanas notīrīt navigācijas datus.
 policy-SearchEngines = Iestatiet meklētāju iestatījumus. Šī politika ir pieejama tikai paplašinātā atbalsta laidiena (ESR) versijā.
 policy-SearchSuggestEnabled = Ieslēgt vai atslēgt meklēšanas ieteikumus.
 policy-SecurityDevices2 = Pievienot vai izdzēst PKCS #11 moduļus.
-# For more information, see https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
-policy-SecurityDevices = Uzstādīt PKCS #11 moduļus.
 policy-SSLVersionMax = Iestatīt maksimālo SSL versiju.
 policy-SSLVersionMin = Iestatīt minimālo SSL versiju.
 policy-SupportMenu = Palīdzības izvēlnē pievienot pielāgotu atbalsta izvēlnes vienumu.

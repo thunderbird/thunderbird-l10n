@@ -216,7 +216,6 @@
 <!ENTITY smiley7Cmd.label "დაბნევა">
 <!ENTITY smiley8Cmd.label "გაოცება">
 <!ENTITY smiley9Cmd.label "კოცნა">
-<!ENTITY smiley10Cmd.label "ყვირილი">
 <!ENTITY smiley11Cmd.label "კმაყოფილება">
 <!ENTITY smiley12Cmd.label "ფულიანი">
 <!ENTITY smiley13Cmd.label "ჩაქოლვა">
@@ -266,12 +265,6 @@
 <!ENTITY convertRegularAttachment.accesskey "რ">
 <!ENTITY attachPage.label "ვებგვერდის თანდართვა…">
 <!ENTITY attachPage.accesskey "ნ">
-<!-- Attachment Pane Header Bar Context Menu
-     LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
-     Should use the same wording as startExpandedCmd.label
-     in msgHdrViewOverlay.dtd. -->
-<!ENTITY initiallyShowAttachmentPane.label "დანართების არის თავიდანვე ჩვენება">
-<!ENTITY initiallyShowAttachmentPane.accesskey "დ">
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "სიტყვარების დამატება…">
 <!ENTITY spellAddDictionaries.accesskey "ყ">

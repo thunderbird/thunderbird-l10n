@@ -429,7 +429,6 @@ key-verification = Gerçekten { $addr } e-postasının anahtarı olduğundan emi
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Kişisel anahtarınızla ilgili bir sorun olduğundan ileti gönderilemedi. { $problem }
-window-locked = Oluşturma penceresi kilitli; gönderme iptal edildi
 
 ## Strings in keyserver.sys.mjs
 
@@ -463,9 +462,6 @@ converter-decrypt-body-failed =
 ## Strings filters.sys.mjs
 
 filter-folder-required = Bir hedef klasör seçmelisiniz.
-filter-decrypt-move-warn-experimental =
-    Uyarı: “Kalıcı olarak şifresini çöz” süzgeç eylemi iletilerin silinmesine neden olabilir.
-    Öncelikle “Şifresi çözülmüş kopya oluştur” süzgecini denemenizi, sonucu dikkatlice kontrol etmenizi ve sonuçtan memnun kaldıktan sonra bu süzgeci kullanmaya başlamanızı öneririz.
 filter-term-pgpencrypted-label = OpenPGP ile şifrelenmiş
 filter-key-required = Bir alıcı anahtarı seçmelisiniz.
 # Variables:
@@ -605,7 +601,6 @@ fail-key-import = Hata - anahtar içe aktarma başarısız oldu
 # $output (String) - File that writing was attempted to.
 file-write-failed = { $output } dosyasına yazılamadı
 no-pgp-block = Hata - Geçerli bir zırhlı OpenPGP veri bloku bulunamadı
-confirm-permissive-import = İçe aktarma başarısız oldu. İçe aktarmaya çalıştığınız anahtar bozuk veya bilinmeyen öznitelikler kullanıyor olabilir. Düzgün görünen kısımları içe aktarmayı denemek ister misiniz? Bu, eksik ve kullanılamaz anahtarların içe aktarılmasına neden olabilir.
 help-button = Yardım
 
 ## Strings used in trust.sys.mjs
@@ -661,9 +656,6 @@ key-man-button-generate-key-continue = Anahtar üretmeye &devam et
 
 failed-decrypt = Hata - şifre çözme başarısız oldu
 fix-broken-exchange-msg-failed = Bu ileti onarılamadı.
-# Variables:
-# $attachment (String) - File name of the signature file.
-attachment-no-match-from-signature = ‘{ $attachment }’ imza dosyası bir ekle eşleştirilemedi
 # Variables:
 # Variables:
 # $attachment (String) - File name of the attachment.
@@ -768,8 +760,3 @@ enig-confirm = OpenPGP Onayı
 
 dlg-button-retry = &Yeniden dene
 dlg-button-skip = &Geç
-
-## Strings used in enigmailMsgBox.js
-
-enig-alert-title =
-    .title = OpenPGP uyarısı

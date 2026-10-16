@@ -340,7 +340,6 @@ key-do-you-accept = Ar priimate šį raktą skaitmeninių parašų tikrinimui ir
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Nepavyko išsiųsti pranešimo, nes yra problema su jūsų asmeniniu raktu. { $problem }
-window-locked = Kūrimo langas yra užrakintas; siuntimas atšauktas
 
 ## Strings in keyserver.sys.mjs
 
@@ -374,9 +373,6 @@ converter-decrypt-body-failed =
 ## Strings filters.sys.mjs
 
 filter-folder-required = Reikia nurodyti aplanką.
-filter-decrypt-move-warn-experimental =
-    Įspėjimas - filtravimo veiksmas „Iššifruoti visam laikui“ gali sunaikinti pranešimus.
-    Primygtinai rekomenduojama pirmiausia išbandyti filtrą „Sukurti iššifruotą kopiją“, atidžiai peržiūrėti rezultatą ir pradėti naudoti šį filtrą tik tada, kai esate šiuo rezultatu užtikrintas.
 filter-term-pgpencrypted-label = Šifruotas „OpenPGP“
 filter-key-required = Turite pasirinkti gavėjo raktą.
 # Variables:
@@ -532,7 +528,6 @@ fail-key-import = Klaida - nepavyko importuoti rakto
 # $output (String) - File that writing was attempted to.
 file-write-failed = Nepavyko įrašyti į failą { $output }
 no-pgp-block = Klaida - nerastas galiojantis apsaugotas „OpenPGP“ duomenų blokas
-confirm-permissive-import = Nepavyko importuoti. Raktas, kurį bandote importuoti, gali būti sugadintas arba naudoja nežinomus atributus. Galima pabandyti importuoti teisingas dalis, bet dėl to gali būti importuojami neišsamūs ar netinkami naudojimui raktai.
 help-button = Žinynas
 
 ## Strings used in trust.sys.mjs
@@ -577,9 +572,6 @@ key-man-button-generate-key-continue = &Tęsti raktų generavimą
 
 failed-decrypt = Klaida - nepavyko iššifruoti
 fix-broken-exchange-msg-failed = Nepavyko ištaisyti šio pranešimo.
-# Variables:
-# $attachment (String) - File name of the signature file.
-attachment-no-match-from-signature = Nepavyko suderinti parašo failo „{ $attachment }“ ir priedo
 # Variables:
 # Variables:
 # $attachment (String) - File name of the attachment.
@@ -685,8 +677,3 @@ enig-confirm = „OpenPGP“ patvirtinimas
 
 dlg-button-retry = Kartoti
 dlg-button-skip = &Praleisti
-
-## Strings used in enigmailMsgBox.js
-
-enig-alert-title =
-    .title = „OpenPGP“ įspėjimas

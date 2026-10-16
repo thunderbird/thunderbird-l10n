@@ -13,8 +13,6 @@
 <!ENTITY undoCmd.accesskey "C">
 <!ENTITY redoCmd.label "Przywróć">
 <!ENTITY redoCmd.accesskey "r">
-<!ENTITY deleteCmd.label "Usuń">
-<!ENTITY deleteCmd.accesskey "U">
 <!ENTITY customizeCmd.label "Dostosuj">
 <!ENTITY customizeCmd.accesskey "D">
 <!ENTITY viewMenu.label "Widok">

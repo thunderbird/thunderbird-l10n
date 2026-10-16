@@ -205,7 +205,6 @@
 <!ENTITY smiley7Cmd.label "متردد">
 <!ENTITY smiley8Cmd.label "متفاجئ">
 <!ENTITY smiley9Cmd.label "قبلة">
-<!ENTITY smiley10Cmd.label "صيحة">
 <!ENTITY smiley11Cmd.label "هادئ">
 <!ENTITY smiley12Cmd.label "فم نقود">
 <!ENTITY smiley13Cmd.label "قدم في الفم">
@@ -254,12 +253,6 @@
 <!ENTITY convertRegularAttachment.accesskey "د">
 <!ENTITY attachPage.label "أرفق صفحة وِب…">
 <!ENTITY attachPage.accesskey "ص">
-<!-- Attachment Pane Header Bar Context Menu
-     LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
-     Should use the same wording as startExpandedCmd.label
-     in msgHdrViewOverlay.dtd. -->
-<!ENTITY initiallyShowAttachmentPane.label "اعرض لوحة المرفقات مبدئيا">
-<!ENTITY initiallyShowAttachmentPane.accesskey "ئ">
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "أضِف قواميس…">
 <!ENTITY spellAddDictionaries.accesskey "م">

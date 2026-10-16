@@ -6,8 +6,6 @@ about-addressbook-title = Именик
 
 ## Toolbar
 
-about-addressbook-toolbar-new-address-book =
-    .label = Нови именик
 about-addressbook-toolbar-add-address-book =
     .label = Додај локални именик
 about-addressbook-toolbar-add-carddav-address-book =
@@ -18,8 +16,6 @@ books-pane-create-contact-button = Нови контакт
     .title = Направи нови контакт
 books-pane-add-book-button =
     .title = Додај именик
-books-pane-create-book-button =
-    .title = Направи нови именик
 books-pane-create-list-button =
     .title = Направи нову дописну листу
 books-pane-import-button = Увези

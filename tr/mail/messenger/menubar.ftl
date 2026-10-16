@@ -87,12 +87,6 @@ quit-app-shortcut =
 
 ## Mail Toolbar
 
-toolbar-junk-button =
-    .label = Gereksiz
-    .tooltiptext = Seçili iletileri gereksiz olarak işaretle
-toolbar-not-junk-button =
-    .label = Gereksiz değil
-    .tooltiptext = Seçili iletileri gereksiz değil olarak işaretle
 toolbar-delete-button =
     .label = Sil
     .tooltiptext = Seçili iletileri veya klasörü sil

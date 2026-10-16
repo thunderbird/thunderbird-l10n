@@ -33,8 +33,6 @@
 <!ENTITY hdrFollowupButton1.tooltip "გამოხმაურება სასაუბრო ამ ჯგუფს">
 <!ENTITY hdrForwardButton1.label "გადაგზავნა">
 <!ENTITY hdrForwardButton1.tooltip "ამ წერილის გადაგზავნა">
-<!ENTITY hdrJunkButton1.label "ჯართი">
-<!ENTITY hdrJunkButton1.tooltip "შეტყობინების ჯართად მონიშვნა">
 <!ENTITY hdrTrashButton1.label "წაშლა">
 <!ENTITY hdrTrashButton1.tooltip "ამ წერილის წაშლა">
 <!ENTITY hdrViewToolbarShowFull.label "ხატულების და ტექსტის ჩვენება">

@@ -56,14 +56,7 @@ account-hub-email-connect-button = Connecter
 account-hub-result-incoming-legend = Serveur entrant
 account-hub-result-outgoing-legend = Serveur sortant
 account-hub-all-servers-legend = Tous les serveurs
-account-hub-incoming-server-legend = Serveur entrant
-account-hub-outgoing-server-legend = Serveur sortant
-account-hub-result-incoming-server-legend = Serveur entrant
-    .title = Serveur entrant
-account-hub-result-outgoing-server-legend = Serveur sortant
-    .title = Serveur sortant
 account-hub-protocol-label = Protocole
-account-hub-hostname-label = Nom d’hôte
 account-hub-result-hostname-label = Nom d’hôte
     .title = Nom d’hôte
 account-hub-result-socket-type-label = Sécurité de la connexion
@@ -94,10 +87,6 @@ account-hub-result-auth-ntlm = NTLM
 account-hub-result-auth-external = Externe
 account-hub-result-auth-oauth2 = OAuth2
 account-hub-on-port-label = Port
-account-hub-result-authentication-label = Authentification
-    .title = Authentification
-account-hub-port-label = Port
-    .title = Définir le numéro de port à 0 pour l’autodétection
 account-hub-auto-description = { -brand-short-name } tentera de détecter automatiquement les champs qui sont laissés vides.
 account-hub-ssl-label = Sécurité de la connexion
 
@@ -105,8 +94,6 @@ account-hub-ssl-label = Sécurité de la connexion
 
 account-hub-ssl-autodetect-option =
     .label = Autodétection
-account-hub-ssl-no-authentication-option =
-    .label = Pas d’authentification
 account-hub-ssl-cleartext-password-option =
     .label = Mot de passe normal
 account-hub-ssl-encrypted-password-option =
@@ -268,7 +255,6 @@ account-hub-email-exchange-settings = Paramètres d’Exchange
 account-hub-email-connect-settings = Connectez vos paramètres de messagerie
 account-hub-email-protocol-select-header = Choisissez un type de compte de messagerie
 account-hub-email-protocol-select-additional-info = Des informations supplémentaires sont nécessaires pour configurer ce compte.
-account-hub-email-config-found = Choisissez votre type de compte de messagerie
 account-hub-email-enter-password = Saisissez le mot de passe de votre compte de messagerie
 account-hub-email-sync-accounts = Synchroniser vos agendas et vos carnets d’adresses
 account-hub-test-configuration = Tester
@@ -295,7 +281,6 @@ account-hub-config-success-description-guess = Configuration trouvée en essayan
 account-hub-config-success-description-disk = Configuration trouvée dans l’installation de { -brand-short-name }.
 account-hub-config-success-description-isp = Configuration trouvée chez le fournisseur de messagerie.
 account-hub-config-success-description-read-more = Vous pouvez <a data-l10n-name="automated-setup-link">en savoir plus sur le fonctionnement de la configuration automatique des e-mails.</a>
-account-hub-config-success = Configuration trouvée dans la base de données des FAI de Mozilla.
 account-hub-password-info = Vos informations d’identification ne sont conservées que localement, sur votre ordinateur
 account-hub-creating-account = Création du compte…
 account-hub-sync-accounts-found = { -brand-short-name } a détecté des services connectés
@@ -326,10 +311,8 @@ account-hub-username-error-text = Le nom d’utilisateur doit être renseigné
 account-hub-manual-config-error-summary = Veuillez corriger les erreurs suivantes :
 account-hub-oauth-pending = En attente de l’autorisation dans la popup de connexion…
 account-hub-addon-install-button = Installer
-account-hub-addon-install-needed = { -brand-short-name } ne prend pas en charge ce serveur de façon native. Pour accéder à la messagerie Exchange, <a data-l10n-name="addon-install">installez un module complémentaire tiers comme Owl (payant).</a>
 account-hub-addon-error = Échec de l’installation du module complémentaire. Veuillez essayer à nouveau ou contacter l’auteur du module complémentaire pour obtenir de l’aide.
 account-hub-select-security-warning = <span data-l10n-name="error-text">Attention : serveur de courrier non sécurisé détecté.</span> Ce serveur n’est pas chiffré ; votre mot de passe et vos données sont exposés. Contactez votre administrateur pour sécuriser la connexion ou poursuivez à vos risques et périls. <a data-l10n-name="error-link">Voir la FAQ pour plus d’informations.</a>
-account-hub-security-warning = <span data-l10n-name="security-warning">Attention : serveur de courrier non sécurisé détecté.</span> Ce serveur n’est pas chiffré ; votre mot de passe et vos données sont exposés. Contactez votre administrateur pour sécuriser la connexion ou poursuivez à vos risques et périls. <a data-l10n-name="faq-link">Voir la FAQ pour plus d’informations.</a>
 account-hub-account-authentication-error = Erreur d’authentification.
 account-hub-add-address-book = Ajouter un carnet d’adresses
 address-book-sync-existing-icon =
@@ -359,7 +342,6 @@ account-hub-address-book-sync-books-data =
         [one] { $addressBooks } carnet d’adresses disponible
        *[other] { $addressBooks } carnets d’adresses disponibles
     }
-account-hub-fetching-sync-accounts = Recherche des carnets d’adresses et des agendas…
 address-book-sync-existing-description = Récupération des comptes existants…
 account-hub-select-address-book-account = Sélectionnez un compte avec des carnets d’adresses
 # $synced (Number) - The number of address books that are synced.

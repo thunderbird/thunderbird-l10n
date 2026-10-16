@@ -216,7 +216,6 @@
 <!ENTITY smiley7Cmd.label "Nehotărât">
 <!ENTITY smiley8Cmd.label "Surprins">
 <!ENTITY smiley9Cmd.label "Sărut">
-<!ENTITY smiley10Cmd.label "Țipăt">
 <!ENTITY smiley11Cmd.label "Cool">
 <!ENTITY smiley12Cmd.label "Cu bani în gură">
 <!ENTITY smiley13Cmd.label "Cu piciorul în gură">
@@ -266,12 +265,6 @@
 <!ENTITY convertRegularAttachment.accesskey "t">
 <!ENTITY attachPage.label "Atașează pagină web…">
 <!ENTITY attachPage.accesskey "w">
-<!-- Attachment Pane Header Bar Context Menu
-     LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
-     Should use the same wording as startExpandedCmd.label
-     in msgHdrViewOverlay.dtd. -->
-<!ENTITY initiallyShowAttachmentPane.label "Afișează inițial panoul de atașamente">
-<!ENTITY initiallyShowAttachmentPane.accesskey "s">
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Adaugă dicționare">
 <!ENTITY spellAddDictionaries.accesskey "A">

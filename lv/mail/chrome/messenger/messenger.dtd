@@ -48,8 +48,6 @@
 <!ENTITY getAllNewMsgCmdPopupMenu.accesskey "V">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.label "Pašreizējais konts">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.accesskey "P">
-<!ENTITY getNextNMsgCmd2.label "Saņemt nākamos jaunumus">
-<!ENTITY getNextNMsgCmd2.accesskey "S">
 <!ENTITY sendUnsentCmd.label "Sūtīt nenosūtītās vēstules">
 <!ENTITY sendUnsentCmd.accesskey "S">
 <!ENTITY subscribeCmd.label "Abonēt…">
@@ -59,8 +57,6 @@
 <!ENTITY renameFolder.label "Pārsaukt mapi…">
 <!ENTITY renameFolder.accesskey "P">
 <!ENTITY renameFolder.key "VK_F2">
-<!ENTITY compactFolders.label "Saspiest mapes">
-<!ENTITY compactFolders.accesskey "S">
 <!ENTITY emptyTrashCmd.label "Iztukšot atkritni">
 <!ENTITY emptyTrashCmd.accesskey "I">
 <!ENTITY offlineMenu.label "Bezsaistē">
@@ -129,10 +125,6 @@
 <!ENTITY allFolders.accesskey "V">
 <!ENTITY unreadFolders.label "Nelasītas">
 <!ENTITY unreadFolders.accesskey "l">
-<!ENTITY favoriteFolders.label "Izlase">
-<!ENTITY favoriteFolders.accesskey "I">
-<!ENTITY recentFolders.label "Nesen">
-<!ENTITY recentFolders.accesskey "N">
 <!ENTITY compactVersion.label "Kompakts skats">
 <!ENTITY compactVersion.accesskey "K">
 <!-- Sort Menu -->
@@ -154,8 +146,6 @@
 <!ENTITY sortByStatusCmd.accesskey "S">
 <!ENTITY sortByTagsCmd.label "Birkas">
 <!ENTITY sortByTagsCmd.accesskey "B">
-<!ENTITY sortByJunkStatusCmd.label "Drazas stāvoklis">
-<!ENTITY sortByJunkStatusCmd.accesskey "D">
 <!ENTITY sortBySubjectCmd.label "Temats">
 <!ENTITY sortBySubjectCmd.accesskey "T">
 <!ENTITY sortByFromCmd.label "No">
@@ -243,7 +233,6 @@
 <!ENTITY findPrevCmd.key2 "VK_F3">
 <!ENTITY searchMailCmd.label "Meklēt ziņojumus…">
 <!ENTITY searchMailCmd.accesskey "m">
-<!ENTITY searchMailCmd.key "f">
 <!ENTITY glodaSearchCmd.label "Globālā meklēšana…">
 <!ENTITY glodaSearchCmd.accesskey "G">
 <!ENTITY searchAddressesCmd.label "Meklēt adreses…">
@@ -334,17 +323,6 @@
 <!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN">
 <!ENTITY createFilter.label "Izveidot filtru no vēstules…">
 <!ENTITY createFilter.accesskey "f">
-<!ENTITY moveMsgToMenu.label "Pārvietot uz">
-<!ENTITY moveMsgToMenu.accesskey "P">
-<!ENTITY moveCopyMsgRecentMenu.label "Nesen">
-<!ENTITY moveCopyMsgRecentMenu.accesskey "N">
-<!ENTITY copyMessageLocation.label "Kopēt vēstules vietu">
-<!ENTITY copyMessageLocation.accesskey "K">
-<!ENTITY copyMsgToMenu.label "Kopēt uz">
-<!ENTITY copyMsgToMenu.accesskey "K">
-<!ENTITY moveToFolderAgain.label "Pārvietot vēlreiz">
-<!ENTITY moveToFolderAgain.accesskey "P">
-<!ENTITY moveToFolderAgainCmd.key "m">
 <!ENTITY killThreadMenu.label "Ignorēt pavedienu">
 <!ENTITY killThreadMenu.accesskey "I">
 <!ENTITY killThreadMenu.key "k">
@@ -356,16 +334,6 @@
 <!ENTITY watchThreadMenu.key "w">
 <!ENTITY tagMenu.label "Birka">
 <!ENTITY tagMenu.accesskey "B">
-<!ENTITY tagCmd0.key "0">
-<!ENTITY tagCmd1.key "1">
-<!ENTITY tagCmd2.key "2">
-<!ENTITY tagCmd3.key "3">
-<!ENTITY tagCmd4.key "4">
-<!ENTITY tagCmd5.key "5">
-<!ENTITY tagCmd6.key "6">
-<!ENTITY tagCmd7.key "7">
-<!ENTITY tagCmd8.key "8">
-<!ENTITY tagCmd9.key "9">
 <!ENTITY markMenu.label "Atzīmēt">
 <!ENTITY markMenu.accesskey "A">
 <!ENTITY toggleReadCmd.key "m">
@@ -385,14 +353,6 @@
 <!ENTITY markStarredCmd.label "Pievienot zvaigznīti">
 <!ENTITY markStarredCmd.accesskey "Z">
 <!ENTITY markStarredCmd.key "S">
-<!ENTITY markAsJunkCmd.label "Kā drazu">
-<!ENTITY markAsJunkCmd.accesskey "D">
-<!ENTITY markAsJunkCmd.key "j">
-<!ENTITY markAsNotJunkCmd.label "Kā nedrazu">
-<!ENTITY markAsNotJunkCmd.accesskey "N">
-<!ENTITY markAsNotJunkCmd.key "j">
-<!ENTITY recalculateJunkScoreCmd.label "Palaist drazu pasta vadīklas">
-<!ENTITY recalculateJunkScoreCmd.accesskey "V">
 <!ENTITY openMessageWindowCmd.label "Atvērt vēstuli">
 <!ENTITY openMessageWindowCmd.accesskey "A">
 <!ENTITY openMessageWindowCmd.key "o">
@@ -441,10 +401,6 @@
 <!ENTITY filtersApplyToSelection.accesskey "a">
 <!ENTITY filtersApplyToMessage.label "Palaist filtrus vēstulei">
 <!ENTITY filtersApplyToMessage.accesskey "v">
-<!ENTITY runJunkControls.label "Palaist mēstuļu vadīklas mapei">
-<!ENTITY runJunkControls.accesskey "m">
-<!ENTITY deleteJunk.label "Izdzēst pastu, kas atzīmēts kā nevērtīgs, mapē">
-<!ENTITY deleteJunk.accesskey "D">
 <!ENTITY importCmd.label "Ievietot…">
 <!ENTITY importCmd.accesskey "I">
 <!ENTITY exportCmd.label "Izgūt…">
@@ -490,7 +446,6 @@
 <!ENTITY printButton.label "Drukāt">
 <!ENTITY stopButton.label "Apturēt">
 <!ENTITY throbberItem.title "Darbību rādītājs">
-<!ENTITY junkItem.title "Draza">
 <!ENTITY addressBookButton.label "Adrešu grāmata">
 <!ENTITY chatButton.label "Tērzēšana">
 <!ENTITY glodaSearch.title "Globālā meklēšana">
@@ -552,11 +507,6 @@
 <!ENTITY appmenuNewContactCmd.label "Adrešu grāmatas kontakts...">
 <!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Rīkjoslas izklājums…">
-<!-- Tags Menu Popup -->
-<!ENTITY addNewTag.label "Jauna birka…">
-<!ENTITY addNewTag.accesskey "J">
-<!ENTITY manageTags.label "Pārvaldīt birkas…">
-<!ENTITY manageTags.accesskey "P">
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "Nosaukums">
 <!ENTITY folderUnreadColumn.label "Nelasītas">
@@ -579,12 +529,8 @@
 <!ENTITY folderContextRename.accesskey "P">
 <!ENTITY folderContextRemove.label "Izdzēst">
 <!ENTITY folderContextRemove.accesskey "D">
-<!ENTITY folderContextCompact.label "Kompakts">
-<!ENTITY folderContextCompact.accesskey "K">
 <!ENTITY folderContextEmptyTrash.label "Iztukšot atkritni">
 <!ENTITY folderContextEmptyTrash.accesskey "I">
-<!ENTITY folderContextEmptyJunk.label "Iztukšot drazu">
-<!ENTITY folderContextEmptyJunk.accesskey "d">
 <!ENTITY folderContextSendUnsentMessages.label "Sūtīt nenosūtītās vēstules">
 <!ENTITY folderContextSendUnsentMessages.accesskey "n">
 <!ENTITY folderContextUnsubscribe.label "Atrakstīties">
@@ -627,7 +573,6 @@
 <!ENTITY accountColumn.label "Konts">
 <!ENTITY statusColumn.label "Stāvoklis">
 <!ENTITY sizeColumn.label "Izmērs">
-<!ENTITY junkStatusColumn.label "Drazas stāvoklis">
 <!ENTITY unreadColumn.label "Nelasītas">
 <!ENTITY totalColumn.label "Kopā">
 <!ENTITY readColumn.label "Lasīt">
@@ -651,7 +596,6 @@
 <!ENTITY accountColumn2.tooltip "Kārtot pēc konta">
 <!ENTITY statusColumn2.tooltip "Kārtot pēc statusa">
 <!ENTITY sizeColumn2.tooltip "Kārtot pēc izmēra">
-<!ENTITY junkStatusColumn2.tooltip "Kārtot pēc drazas statusa">
 <!ENTITY unreadColumn2.tooltip "Nelasītu vēstuļu skaits pavedienā">
 <!ENTITY totalColumn2.tooltip "Kopējais vēstuļu skaits pavedienā">
 <!ENTITY readColumn2.tooltip "Kārtot pēc lasītām">
@@ -690,14 +634,6 @@
 <!ENTITY contextReplyAll.accesskey "v">
 <!ENTITY contextReplyList.label "Atbildēt sarakstam">
 <!ENTITY contextReplyList.accesskey "s">
-<!ENTITY contextMoveMsgMenu.label "Pārvietot uz">
-<!ENTITY contextMoveMsgMenu.accesskey "P">
-<!ENTITY contextMoveCopyMsgRecentMenu.label "Nesen">
-<!ENTITY contextMoveCopyMsgRecentMenu.accesskey "N">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.label "Izlase">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.accesskey "I">
-<!ENTITY contextCopyMsgMenu.label "Kopēt uz">
-<!ENTITY contextCopyMsgMenu.accesskey "K">
 <!ENTITY contextKillThreadMenu.label "Ignorēt pavedienu">
 <!ENTITY contextKillSubthreadMenu.accesskey "p">
 <!ENTITY contextKillThreadMenu.accesskey "p">

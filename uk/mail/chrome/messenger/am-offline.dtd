@@ -14,24 +14,10 @@
 <!ENTITY autosyncNotDownload.accesskey "е">
 <!ENTITY kb.label "Кбайт">
 <!ENTITY daysOld.label "днів">
-<!ENTITY message.label "повідомлень">
 <!ENTITY nntpNotDownloadRead.label "Читати повідомлення">
 <!ENTITY nntpNotDownloadRead.accesskey "Ч">
 <!ENTITY nntpDownloadMsg.label "Повідомлення понад">
 <!ENTITY nntpDownloadMsg.accesskey "о">
-<!ENTITY retentionCleanup.label "Для звільнення місця на диску старі повідомлення може бути вилучено.">
-<!ENTITY retentionCleanupImap.label "Щоб вивільнити місце на диску, старі повідомлення можна стерти назавжди, як локальні копії, так і оригінали на віддаленому сервері.">
-<!ENTITY retentionCleanupPop.label "Щоб вивільнити місце на диску, старі повідомлення можна стерти назавжди, включно з оригіналами на віддаленому сервері.">
-<!ENTITY retentionKeepMsg.label "Видаляти повідомлення давніші за">
-<!ENTITY retentionKeepMsg.accesskey "д">
-<!ENTITY retentionKeepAll.label "Не видаляти повідомлення">
-<!ENTITY retentionKeepAll.accesskey "Н">
-<!ENTITY retentionKeepRecent.label "Видаляти всі, крім останніх">
-<!ENTITY retentionKeepRecent.accesskey "к">
-<!ENTITY retentionApplyToFlagged.label "Зберігати повідомлення з зірочкою завжди">
-<!ENTITY retentionApplyToFlagged.accesskey "з">
-<!ENTITY nntpRemoveMsgBody.label "Вилучати вміст повідомлень понад">
-<!ENTITY nntpRemoveMsgBody.accesskey "л">
 <!ENTITY offlineSelectNntp.label "Виберіть групи новин для роботи в автономному режимі…">
 <!ENTITY offlineSelectNntp.accesskey "В">
 <!ENTITY offlineImapAdvancedOffline.label "Додатково…">

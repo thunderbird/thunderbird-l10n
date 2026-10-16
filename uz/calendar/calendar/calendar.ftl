@@ -564,16 +564,6 @@ hide-calendar-name =
 show-only-calendar-name =
     .label = Faqat { $name }’ni ko‘rsatish
     .accesskey = O
-# $name calendar name
-show-calendar-label =
-    .label = { $name }’ni ko‘rsatish
-# $name calendar name
-hide-calendar-label =
-    .label = { $name }’ni yashirish
-# uses the access key calendar.context.showonly.accesskey
-# $name calendar name
-show-only-calendar =
-    .label = Faqat { $name }’ni ko‘rsatish
 # LOCALIZATION NOTE (modify-conflict-*)
 # Used by the event dialog to resolve item modification conflicts.
 modify-conflict-prompt-title = Elementni o‘zgartirishda ziddiyat yuz berdi

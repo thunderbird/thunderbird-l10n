@@ -87,8 +87,6 @@ policy-SanitizeOnShutdown2 = Obrišite podatke o navigaciji prilikom gašenja.
 policy-SearchEngines = Prilagodite postavke pretraživača. Ovo pravilo je dostupno samo u inačici proširene podrške (ESR).
 policy-SearchSuggestEnabled = Aktiviraj ili deaktiviraj prijedloge za pretraživanje.
 policy-SecurityDevices2 = Dodaj ili izbriši PKCS #11 module.
-# For more information, see https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
-policy-SecurityDevices = Instalirajte PKCS #11 module.
 policy-SSLVersionMax = Postavite maksimalnu SSL inačicu.
 policy-SSLVersionMin = Postavite minimalnu SSL inačicu.
 policy-SupportMenu = Dodajte prilagođenu stavku za podršku u izbornik pomoći.

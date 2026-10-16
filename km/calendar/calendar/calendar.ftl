@@ -166,16 +166,6 @@ hide-calendar-title =
 # $name calendar name
 show-calendar-title =
     .title = លាក់ { $name }
-# $name calendar name
-show-calendar-label =
-    .label = បង្ហាញ { $name }
-# $name calendar name
-hide-calendar-label =
-    .label = លាក់ { $name }
-# uses the access key calendar.context.showonly.accesskey
-# $name calendar name
-show-only-calendar =
-    .label = បង្ហាញតែ { $name } ប៉ុណ្ណោះ
 modify-conflict-prompt-button2 = បោះបង់​ការ​ផ្លាស់ប្ដូរ​ទាំងនេះ
 calendar-context-new-event =
     .label = ព្រឹត្តិការណ៍ថ្មី…

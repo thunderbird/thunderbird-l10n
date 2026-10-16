@@ -30,11 +30,6 @@ appmenu-sync-sign-out =
 
 ## Add Account
 
-appmenu-new-account-panel-title =
-    .title = Nýr reikningur
-appmenu-new-account-panel =
-    .label = Nýr reikningur
-    .accesskey = N
 appmenu-new-email-account =
     .label = Tölvupóstur
     .accesskey = p
@@ -58,11 +53,6 @@ appmenu-add-account-panel =
 
 ## New Account / Address Book
 
-appmenu-newab-panel-title =
-    .title = Ný nafnaskrá
-appmenu-newab-panel =
-    .label = Ný nafnaskrá
-    .accesskey = a
 appmenu-new-addressbook =
     .label = Staðbundin nafnaskrá
     .accesskey = a

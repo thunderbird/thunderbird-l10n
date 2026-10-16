@@ -33,8 +33,6 @@
 <!ENTITY hdrFollowupButton1.tooltip "Antwort an die Newsgruppe">
 <!ENTITY hdrForwardButton1.label "Weiterleiten">
 <!ENTITY hdrForwardButton1.tooltip "Diese Nachricht weiterleiten">
-<!ENTITY hdrJunkButton1.label "Junk">
-<!ENTITY hdrJunkButton1.tooltip "Diese Nachricht als Junk markieren">
 <!ENTITY hdrTrashButton1.label "Löschen">
 <!ENTITY hdrTrashButton1.tooltip "Diese Nachricht löschen">
 <!ENTITY hdrViewToolbarShowFull.label "Symbole und Text anzeigen">

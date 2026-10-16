@@ -180,8 +180,6 @@
 <!ENTITY event.calendar.accesskey "K">
 <!ENTITY event.attendees.label "Osalejad:">
 <!ENTITY event.attendees.accesskey "O">
-<!ENTITY event.alldayevent.label "Kogu päeva kestev sündmus">
-<!ENTITY event.alldayevent.accesskey "g">
 <!ENTITY event.from.label "Algus:">
 <!ENTITY event.from.accesskey "A">
 <!ENTITY task.from.label "Algus:">
@@ -262,13 +260,6 @@
 <!ENTITY event.recurrence.monthly.fourth.label "neljandal">
 <!ENTITY event.recurrence.monthly.fifth.label "viiendal">
 <!ENTITY event.recurrence.monthly.last.label "viimasel">
-<!ENTITY event.recurrence.pattern.monthly.week.1.label "pühapäeval">
-<!ENTITY event.recurrence.pattern.monthly.week.2.label "esmaspäeval">
-<!ENTITY event.recurrence.pattern.monthly.week.3.label "teisipäeval">
-<!ENTITY event.recurrence.pattern.monthly.week.4.label "kolmapäeval">
-<!ENTITY event.recurrence.pattern.monthly.week.5.label "neljapäeval">
-<!ENTITY event.recurrence.pattern.monthly.week.6.label "reedel">
-<!ENTITY event.recurrence.pattern.monthly.week.7.label "laupäeval">
 <!ENTITY event.recurrence.repeat.dayofmonth.label "päeval">
 <!ENTITY event.recurrence.repeat.recur.label "järgmistel päevadel">
 <!ENTITY event.recurrence.every.label "iga">
@@ -281,18 +272,6 @@
      event.recurrence.pattern.yearly.of.label is "of" in
      Edit recurrence window -> Recurrence pattern -> Repeat yearly -->
 <!ENTITY event.recurrence.pattern.yearly.of.label "">
-<!ENTITY event.recurrence.pattern.yearly.month.1.label "jaanuaril">
-<!ENTITY event.recurrence.pattern.yearly.month.2.label "veebruaril">
-<!ENTITY event.recurrence.pattern.yearly.month.3.label "märtsil">
-<!ENTITY event.recurrence.pattern.yearly.month.4.label "aprillil">
-<!ENTITY event.recurrence.pattern.yearly.month.5.label "mail">
-<!ENTITY event.recurrence.pattern.yearly.month.6.label "juunil">
-<!ENTITY event.recurrence.pattern.yearly.month.7.label "juulil">
-<!ENTITY event.recurrence.pattern.yearly.month.8.label "augustil">
-<!ENTITY event.recurrence.pattern.yearly.month.9.label "septembril">
-<!ENTITY event.recurrence.pattern.yearly.month.10.label "oktoobril">
-<!ENTITY event.recurrence.pattern.yearly.month.11.label "novembril">
-<!ENTITY event.recurrence.pattern.yearly.month.12.label "detsembril">
 <!ENTITY event.recurrence.yearly.every.label "igal">
 <!ENTITY event.recurrence.yearly.first.label "esimesel">
 <!ENTITY event.recurrence.yearly.second.label "teisel">
@@ -300,27 +279,8 @@
 <!ENTITY event.recurrence.yearly.fourth.label "neljandal">
 <!ENTITY event.recurrence.yearly.fifth.label "viiendal">
 <!ENTITY event.recurrence.yearly.last.label "viimasel">
-<!ENTITY event.recurrence.pattern.yearly.week.1.label "pühapäeval">
-<!ENTITY event.recurrence.pattern.yearly.week.2.label "esmaspäeval">
-<!ENTITY event.recurrence.pattern.yearly.week.3.label "teisipäeval">
-<!ENTITY event.recurrence.pattern.yearly.week.4.label "kolmapäeval">
-<!ENTITY event.recurrence.pattern.yearly.week.5.label "neljapäeval">
-<!ENTITY event.recurrence.pattern.yearly.week.6.label "reedel">
-<!ENTITY event.recurrence.pattern.yearly.week.7.label "laupäeval">
 <!ENTITY event.recurrence.pattern.yearly.day.label "päeval">
 <!ENTITY event.recurrence.of.label "">
-<!ENTITY event.recurrence.pattern.yearly.month2.1.label "jaanuari">
-<!ENTITY event.recurrence.pattern.yearly.month2.2.label "veebruari">
-<!ENTITY event.recurrence.pattern.yearly.month2.3.label "märtsi">
-<!ENTITY event.recurrence.pattern.yearly.month2.4.label "aprilli">
-<!ENTITY event.recurrence.pattern.yearly.month2.5.label "mai">
-<!ENTITY event.recurrence.pattern.yearly.month2.6.label "juuni">
-<!ENTITY event.recurrence.pattern.yearly.month2.7.label "juuli">
-<!ENTITY event.recurrence.pattern.yearly.month2.8.label "augusti">
-<!ENTITY event.recurrence.pattern.yearly.month2.9.label "septembri">
-<!ENTITY event.recurrence.pattern.yearly.month2.10.label "oktoobri">
-<!ENTITY event.recurrence.pattern.yearly.month2.11.label "novembri">
-<!ENTITY event.recurrence.pattern.yearly.month2.12.label "detsembri">
 <!ENTITY event.recurrence.range.label "Kordumise ajavahemik">
 <!ENTITY event.recurrence.forever.label "Lõpu kuupäev puudub">
 <!ENTITY event.recurrence.repeat.for.label "Kohtumisi kokku">

@@ -87,12 +87,6 @@ quit-app-shortcut =
 
 ## Mail Toolbar
 
-toolbar-junk-button =
-    .label = Zaborra
-    .tooltiptext = Markatu aukeratutako mezua zabor bezala
-toolbar-not-junk-button =
-    .label = Ez da zaborra
-    .tooltiptext = Markatu aukeratutako mezua EZ zabor bezala
 toolbar-delete-button =
     .label = Ezabatu
     .tooltiptext = Ezabatu aukeratutako mezu edo karpeta

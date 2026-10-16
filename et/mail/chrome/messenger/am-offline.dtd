@@ -14,24 +14,10 @@
 <!ENTITY autosyncNotDownload.accesskey "K">
 <!ENTITY kb.label "KiB">
 <!ENTITY daysOld.label "päeva vanad">
-<!ENTITY message.label "kirja">
 <!ENTITY nntpNotDownloadRead.label "loetud sõnumeid">
 <!ENTITY nntpNotDownloadRead.accesskey "l">
 <!ENTITY nntpDownloadMsg.label "Kirjad, mis on uuemad kui">
 <!ENTITY nntpDownloadMsg.accesskey "u">
-<!ENTITY retentionCleanup.label "Kettaruumi säästmiseks on võimalik vanad kirjad jäädavalt kustutada">
-<!ENTITY retentionCleanupImap.label "Kettaruumi säästmiseks on võimalik vanad kirjad jäädavalt kustutada; nii kohalikud koopiad kui ka originaalid kaugserverist.">
-<!ENTITY retentionCleanupPop.label "Kettaruumi säästmiseks on võimalik vanad kirjad jäädavalt kustutada; kaasa arvatud originaalid kaugserverist.">
-<!ENTITY retentionKeepMsg.label "kustutatakse kirjad, mis on rohkem kui">
-<!ENTITY retentionKeepMsg.accesskey "m">
-<!ENTITY retentionKeepAll.label "ei kustutata ühtegi kirja">
-<!ENTITY retentionKeepAll.accesskey "h">
-<!ENTITY retentionKeepRecent.label "kustutatakse kõik peale hiljutiste">
-<!ENTITY retentionKeepRecent.accesskey "j">
-<!ENTITY retentionApplyToFlagged.label "Alati säilitatakse tähistatud kirjad">
-<!ENTITY retentionApplyToFlagged.accesskey "e">
-<!ENTITY nntpRemoveMsgBody.label "Sisu kustutatakse kirjadel, mis on vanemad kui">
-<!ENTITY nntpRemoveMsgBody.accesskey "d">
 <!ENTITY offlineSelectNntp.label "Vali võrguta režiimis kasutatavad uudistegrupid...">
 <!ENTITY offlineSelectNntp.accesskey "V">
 <!ENTITY offlineImapAdvancedOffline.label "Edasijõudnuile...">

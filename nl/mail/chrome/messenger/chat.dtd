@@ -23,8 +23,6 @@
 <!ENTITY closeConversationCmd.accesskey "s">
 <!ENTITY aliasCmd.label "Hernoemen">
 <!ENTITY aliasCmd.accesskey "H">
-<!ENTITY deleteCmd.label "Contact verwijderen">
-<!ENTITY deleteCmd.accesskey "v">
 <!ENTITY openConversationButton.tooltip "Een conversatie beginnen">
 <!ENTITY closeConversationButton.tooltip "Conversatie sluiten">
 <!ENTITY addBuddyButton.label "Contact toevoegen">

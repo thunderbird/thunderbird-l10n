@@ -87,12 +87,6 @@ quit-app-shortcut =
 
 ## Mail Toolbar
 
-toolbar-junk-button =
-    .label = Непожељно
-    .tooltiptext = Обележи изабране поруке као непожељне
-toolbar-not-junk-button =
-    .label = Није непожељно
-    .tooltiptext = Обележи изабране поруке као пожељне
 toolbar-delete-button =
     .label = Обриши
     .tooltiptext = Обриши изабране поруке или фасциклу

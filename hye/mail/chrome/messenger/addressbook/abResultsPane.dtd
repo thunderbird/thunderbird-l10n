@@ -9,8 +9,6 @@
 <!ENTITY PrimaryEmail.accesskey "Ե">
 <!ENTITY Company.label "Կազմակերպութիւն">
 <!ENTITY Company.accesskey "կ">
-<!ENTITY _PhoneticName.label "Հնչիւնային անուն">
-<!ENTITY _PhoneticName.accesskey "ի">
 <!ENTITY NickName.label "Մականուն">
 <!ENTITY NickName.accesskey "ա">
 <!ENTITY SecondEmail.label "Լրացուցիչ եղեկտրոնային հասցէ">

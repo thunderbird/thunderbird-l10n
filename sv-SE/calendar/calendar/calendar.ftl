@@ -720,16 +720,6 @@ hide-calendar-name =
 show-only-calendar-name =
     .label = Visa endast { $name }
     .accesskey = E
-# $name calendar name
-show-calendar-label =
-    .label = Visa { $name }
-# $name calendar name
-hide-calendar-label =
-    .label = Dölj { $name }
-# uses the access key calendar.context.showonly.accesskey
-# $name calendar name
-show-only-calendar =
-    .label = Visa endast { $name }
 # LOCALIZATION NOTE (modify-conflict-*)
 # Used by the event dialog to resolve item modification conflicts.
 modify-conflict-prompt-title = Konflikt vid ändring av objekt

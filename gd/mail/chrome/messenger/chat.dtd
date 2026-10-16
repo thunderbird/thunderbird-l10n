@@ -23,8 +23,6 @@
 <!ENTITY closeConversationCmd.accesskey "D">
 <!ENTITY aliasCmd.label "Cuir ainm ùr air">
 <!ENTITY aliasCmd.accesskey "C">
-<!ENTITY deleteCmd.label "Thoir air falbh an neach-aithne seo">
-<!ENTITY deleteCmd.accesskey "f">
 <!ENTITY openConversationButton.tooltip "Tòisich air còmhradh">
 <!ENTITY closeConversationButton.tooltip "Dùin an còmhradh">
 <!ENTITY addBuddyButton.label "Cuir neach-aithne ris">

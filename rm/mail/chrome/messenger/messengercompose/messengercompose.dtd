@@ -216,7 +216,6 @@
 <!ENTITY smiley7Cmd.label "Indecis">
 <!ENTITY smiley8Cmd.label "Surprais">
 <!ENTITY smiley9Cmd.label "Bitsch">
-<!ENTITY smiley10Cmd.label "Sbragir">
 <!ENTITY smiley11Cmd.label "Cool">
 <!ENTITY smiley12Cmd.label "Bucca cun daners">
 <!ENTITY smiley13Cmd.label "Pe en la bucca">
@@ -266,12 +265,6 @@
 <!ENTITY convertRegularAttachment.accesskey "A">
 <!ENTITY attachPage.label "Agiuntar ina pagina web…">
 <!ENTITY attachPage.accesskey "W">
-<!-- Attachment Pane Header Bar Context Menu
-     LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
-     Should use the same wording as startExpandedCmd.label
-     in msgHdrViewOverlay.dtd. -->
-<!ENTITY initiallyShowAttachmentPane.label "Mussar tenor standard la zona d'agiuntas">
-<!ENTITY initiallyShowAttachmentPane.accesskey "g">
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Agiuntar dicziunaris…">
 <!ENTITY spellAddDictionaries.accesskey "A">

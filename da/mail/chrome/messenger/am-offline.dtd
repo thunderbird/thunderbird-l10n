@@ -14,24 +14,10 @@
 <!ENTITY autosyncNotDownload.accesskey "k">
 <!ENTITY kb.label "KB">
 <!ENTITY daysOld.label "dage gamle">
-<!ENTITY message.label "meddelelser">
 <!ENTITY nntpNotDownloadRead.label "Læste meddelelser">
 <!ENTITY nntpNotDownloadRead.accesskey "L">
 <!ENTITY nntpDownloadMsg.label "Meddelelser mere end">
 <!ENTITY nntpDownloadMsg.accesskey "m">
-<!ENTITY retentionCleanup.label "Gamle meddelelser kan slettes permanent for at skabe mere diskplads">
-<!ENTITY retentionCleanupImap.label "For at frigive plads kan gamle meddelelser slettes permanent, både de lokale kopier og de originale meddelelser på serveren.">
-<!ENTITY retentionCleanupPop.label "For at frigive plads kan gamle meddelelser slettes permanent, inklusive de originale meddelelser på serveren.">
-<!ENTITY retentionKeepMsg.label "Slet meddelelser, som er mere end">
-<!ENTITY retentionKeepMsg.accesskey "S">
-<!ENTITY retentionKeepAll.label "Slet ingen meddelelser">
-<!ENTITY retentionKeepAll.accesskey "i">
-<!ENTITY retentionKeepRecent.label "Slet alle, bortset fra nyeste">
-<!ENTITY retentionKeepRecent.accesskey "y">
-<!ENTITY retentionApplyToFlagged.label "Behold altid stjernemarkerede meddelelser">
-<!ENTITY retentionApplyToFlagged.accesskey "o">
-<!ENTITY nntpRemoveMsgBody.label "Fjern indhold fra meddelelser, der er mere end">
-<!ENTITY nntpRemoveMsgBody.accesskey "d">
 <!ENTITY offlineSelectNntp.label "Vælg nyhedsgrupper til brug offline…">
 <!ENTITY offlineSelectNntp.accesskey "n">
 <!ENTITY offlineImapAdvancedOffline.label "Avanceret…">

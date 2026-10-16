@@ -14,24 +14,10 @@
 <!ENTITY autosyncNotDownload.accesskey "k">
 <!ENTITY kb.label "KB">
 <!ENTITY daysOld.label "dager">
-<!ENTITY message.label "meldingene">
 <!ENTITY nntpNotDownloadRead.label "Leste meldinger">
 <!ENTITY nntpNotDownloadRead.accesskey "L">
 <!ENTITY nntpDownloadMsg.label "Meldinger eldre enn">
 <!ENTITY nntpDownloadMsg.accesskey "n">
-<!ENTITY retentionCleanup.label "For å spare diskplass kan gamle meldinger slettes permanent">
-<!ENTITY retentionCleanupImap.label "For å spare diskplass kan gamle meldinger slettes permanent, som gjelder både lokale kopier og originalene på e-postserveren.">
-<!ENTITY retentionCleanupPop.label "For å spare diskplass kan gamle meldinger slettes permanent, som også gjelder originalene som er lagret på e-postserveren.">
-<!ENTITY retentionKeepMsg.label "Slett meldinger eldre enn">
-<!ENTITY retentionKeepMsg.accesskey "e">
-<!ENTITY retentionKeepAll.label "Ikke slett noen meldinger">
-<!ENTITY retentionKeepAll.accesskey "I">
-<!ENTITY retentionKeepRecent.label "Slett alle med unntak av de nyeste">
-<!ENTITY retentionKeepRecent.accesskey "S">
-<!ENTITY retentionApplyToFlagged.label "Alltid behold meldinger merket med stjerne">
-<!ENTITY retentionApplyToFlagged.accesskey "d">
-<!ENTITY nntpRemoveMsgBody.label "Fjern innhold fra meldinger eldre enn">
-<!ENTITY nntpRemoveMsgBody.accesskey "F">
 <!ENTITY offlineSelectNntp.label "Velg nyhetsgrupper som leses frakoblet …">
 <!ENTITY offlineSelectNntp.accesskey "V">
 <!ENTITY offlineImapAdvancedOffline.label "Avansert …">

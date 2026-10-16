@@ -30,11 +30,6 @@ appmenu-sync-sign-out =
 
 ## Add Account
 
-appmenu-new-account-panel-title =
-    .title = Uus konto
-appmenu-new-account-panel =
-    .label = Uus konto
-    .accesskey = U
 appmenu-new-email-account =
     .label = E-post
     .accesskey = E
@@ -53,11 +48,6 @@ appmenu-new-newsgroup =
 
 ## New Account / Address Book
 
-appmenu-newab-panel-title =
-    .title = Uus aadressiraamat
-appmenu-newab-panel =
-    .label = Uus aadressiraamat
-    .accesskey = a
 appmenu-new-addressbook =
     .label = Kohalik aadressiraamat
     .accesskey = a

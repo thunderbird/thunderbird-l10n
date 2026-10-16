@@ -10,22 +10,6 @@
 <!ENTITY folderRebuildSummaryFile.explanation "Somtiden wurdt it mapyndeksbestân (.msf) skansearre en liket it oft berjochten misse of fuortsmiten berjochten weromkomme; de map reparearje kin dit oplosse.">
 <!ENTITY folderIncludeInGlobalSearch.label "Berjochten yn dizze map meinimme yn globale sykresultaten">
 <!ENTITY folderIncludeInGlobalSearch.accesskey "G">
-<!ENTITY retention.label "Behâldbelied">
-<!ENTITY retentionUseAccount.label "Brûk myn accountynstellingen">
-<!ENTITY retentionUseAccount.accesskey "r">
-<!ENTITY daysOld.label "dagen">
-<!ENTITY message.label "">
-<!ENTITY retentionCleanup.label "Om skiifromte frij te meitsjen, kinne âlde berjochten foargoed fuortsmiten wurde">
-<!ENTITY retentionCleanupImap.label "Om skiifromte frij te meitsjen, kinne âlde berjochten permanint fuortsmiten wurde, sawol lokale kopyen as de orizjinele op de server.">
-<!ENTITY retentionCleanupPop.label "Om skiifromte frij te meitsjen, kinne âlde berjochten permanint fuortsmiten wurde, ynklusyf orizjinelen op de server.">
-<!ENTITY retentionDeleteMsg.label "Berjochten fuortsmite dy’t âlder binne as">
-<!ENTITY retentionDeleteMsg.accesskey "o">
-<!ENTITY retentionKeepAll.label "Gjin berjochten fuortsmite">
-<!ENTITY retentionKeepAll.accesskey "n">
-<!ENTITY retentionKeepRecent.label "Alle fuortsmite, útsein de lêste">
-<!ENTITY retentionKeepRecent.accesskey "a">
-<!ENTITY retentionApplyToFlagged.label "Berjochten mei stjerke altyd bewarje">
-<!ENTITY retentionApplyToFlagged.accesskey "e">
 <!ENTITY folderSynchronizationTab.label "Syngronisaasje">
 <!ENTITY folderCheckForNewMessages2.label "By it krijen fan nije berjochten foar dit account, kontrolearje altyd dizze map">
 <!ENTITY folderCheckForNewMessages2.accesskey "k">

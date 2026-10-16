@@ -85,8 +85,6 @@ policy-RequestedLocales = Caktoni për aplikacionin listën e gjuhëve të kërk
 policy-SanitizeOnShutdown2 = Gjatë fikjes, spastro të dhëna lëvizjeje.
 policy-SearchEngines = Formësoni rregullime motori kërkimesh. Ky rregull tani është i përdorshëm vetëm në versionin Extended Support Release (ESR).
 policy-SearchSuggestEnabled = Aktivizoni ose çaktivizoni sugjerime kërkimi.
-# For more information, see https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
-policy-SecurityDevices = Instaloni module PKCS #11.
 policy-SSLVersionMax = Caktoni version maksimum SSL-je.
 policy-SSLVersionMin = Caktoni version minimum SSL-je.
 policy-SupportMenu = Shtoni te menuja e ndihmës një element vetjak menuje asistence.

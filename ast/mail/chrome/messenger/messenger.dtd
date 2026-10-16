@@ -49,8 +49,6 @@
 <!ENTITY renameFolder.label "Renomar carpeta…">
 <!ENTITY renameFolder.accesskey "R">
 <!ENTITY renameFolder.key "VK_F2">
-<!ENTITY compactFolders.label "Compautar carpetes">
-<!ENTITY compactFolders.accesskey "o">
 <!ENTITY emptyTrashCmd.label "Vaciar papelera">
 <!ENTITY emptyTrashCmd.accesskey "p">
 <!ENTITY offlineMenu.label "Ensin conexón">
@@ -119,10 +117,6 @@
 <!ENTITY allFolders.accesskey "T">
 <!ENTITY unreadFolders.label "Con non lleíes">
 <!ENTITY unreadFolders.accesskey "n">
-<!ENTITY favoriteFolders.label "Favorites">
-<!ENTITY favoriteFolders.accesskey "F">
-<!ENTITY recentFolders.label "Recientes">
-<!ENTITY recentFolders.accesskey "R">
 <!ENTITY compactVersion.label "Vista compauta">
 <!ENTITY compactVersion.accesskey "C">
 <!-- Sort Menu -->
@@ -144,8 +138,6 @@
 <!ENTITY sortByStatusCmd.accesskey "e">
 <!ENTITY sortByTagsCmd.label "Etiquetes">
 <!ENTITY sortByTagsCmd.accesskey "q">
-<!ENTITY sortByJunkStatusCmd.label "Estáu de corréu puxarra">
-<!ENTITY sortByJunkStatusCmd.accesskey "s">
 <!ENTITY sortBySubjectCmd.label "Asuntu">
 <!ENTITY sortBySubjectCmd.accesskey "a">
 <!ENTITY sortByFromCmd.label "Remitente">
@@ -233,7 +225,6 @@
 <!ENTITY findPrevCmd.key2 "VK_F3">
 <!ENTITY searchMailCmd.label "Guetar mensaxes…">
 <!ENTITY searchMailCmd.accesskey "m">
-<!ENTITY searchMailCmd.key "f">
 <!ENTITY searchAddressesCmd.label "Guetar direiciones…">
 <!ENTITY searchAddressesCmd.accesskey "S">
 <!-- Go Menu -->
@@ -317,17 +308,6 @@
 <!ENTITY editDraftMsgCmd.accesskey "B">
 <!ENTITY createFilter.label "Crear filtru a partir del mensaxe…">
 <!ENTITY createFilter.accesskey "a">
-<!ENTITY moveMsgToMenu.label "Mover a">
-<!ENTITY moveMsgToMenu.accesskey "M">
-<!ENTITY moveCopyMsgRecentMenu.label "Reciente">
-<!ENTITY moveCopyMsgRecentMenu.accesskey "R">
-<!ENTITY copyMessageLocation.label "Copiar URL del mensaxe">
-<!ENTITY copyMessageLocation.accesskey "M">
-<!ENTITY copyMsgToMenu.label "Copiar a">
-<!ENTITY copyMsgToMenu.accesskey "C">
-<!ENTITY moveToFolderAgain.label "Mover de nueves">
-<!ENTITY moveToFolderAgain.accesskey "d">
-<!ENTITY moveToFolderAgainCmd.key "m">
 <!ENTITY killThreadMenu.label "Inorar conversación">
 <!ENTITY killThreadMenu.accesskey "I">
 <!ENTITY killThreadMenu.key "k">
@@ -339,16 +319,6 @@
 <!ENTITY watchThreadMenu.key "w">
 <!ENTITY tagMenu.label "Etiquetar">
 <!ENTITY tagMenu.accesskey "u">
-<!ENTITY tagCmd0.key "0">
-<!ENTITY tagCmd1.key "1">
-<!ENTITY tagCmd2.key "2">
-<!ENTITY tagCmd3.key "3">
-<!ENTITY tagCmd4.key "4">
-<!ENTITY tagCmd5.key "5">
-<!ENTITY tagCmd6.key "6">
-<!ENTITY tagCmd7.key "7">
-<!ENTITY tagCmd8.key "8">
-<!ENTITY tagCmd9.key "9">
 <!ENTITY markMenu.label "Conseñar">
 <!ENTITY markMenu.accesskey "c">
 <!ENTITY toggleReadCmd.key "m">
@@ -368,14 +338,6 @@
 <!ENTITY markStarredCmd.label "Amestar estrella">
 <!ENTITY markStarredCmd.accesskey "S">
 <!ENTITY markStarredCmd.key "S">
-<!ENTITY markAsJunkCmd.label "Como corréu puxarra">
-<!ENTITY markAsJunkCmd.accesskey "x">
-<!ENTITY markAsJunkCmd.key "j">
-<!ENTITY markAsNotJunkCmd.label "Como corréu llexítimu">
-<!ENTITY markAsNotJunkCmd.accesskey "m">
-<!ENTITY markAsNotJunkCmd.key "j">
-<!ENTITY recalculateJunkScoreCmd.label "Executar controles de corréu puxarra">
-<!ENTITY recalculateJunkScoreCmd.accesskey "C">
 <!ENTITY openMessageWindowCmd.label "Abrir mensaxe">
 <!ENTITY openMessageWindowCmd.accesskey "A">
 <!ENTITY openMessageWindowCmd.key "o">
@@ -420,10 +382,6 @@
 <!ENTITY filtersApplyToSelection.accesskey "u">
 <!ENTITY filtersApplyToMessage.label "Executar filtros nel mensaxe">
 <!ENTITY filtersApplyToMessage.accesskey "u">
-<!ENTITY runJunkControls.label "Executar controles de corréu puxarra na carpeta">
-<!ENTITY runJunkControls.accesskey "C">
-<!ENTITY deleteJunk.label "Desaniciar mensaxes conseñaos como puxarra na carpeta">
-<!ENTITY deleteJunk.accesskey "E">
 <!ENTITY importCmd.label "Importar…">
 <!ENTITY importCmd.accesskey "I">
 <!ENTITY clearRecentHistory.label "Llimpiar historial recién…">
@@ -466,7 +424,6 @@
 <!ENTITY printButton.label "Imprentar">
 <!ENTITY stopButton.label "Detener">
 <!ENTITY throbberItem.title "Indicador d'actividá">
-<!ENTITY junkItem.title "Puxarra">
 <!ENTITY addressBookButton.label "Direiciones">
 <!ENTITY chatButton.label "Charrar">
 <!ENTITY glodaSearch.title "Gueta global">
@@ -527,11 +484,6 @@
 <!ENTITY appmenuNewContactCmd.label "Contautu de la llibreta de direiciones…">
 <!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Disposición de la barra de ferramientes…">
-<!-- Tags Menu Popup -->
-<!ENTITY addNewTag.label "Etiqueta nueva…">
-<!ENTITY addNewTag.accesskey "N">
-<!ENTITY manageTags.label "Alministrar etiquetes…">
-<!ENTITY manageTags.accesskey "m">
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "Nome">
 <!ENTITY folderUnreadColumn.label "Ensin lleer">
@@ -550,12 +502,8 @@
 <!ENTITY folderContextRename.accesskey "r">
 <!ENTITY folderContextRemove.label "Desaniciar">
 <!ENTITY folderContextRemove.accesskey "r">
-<!ENTITY folderContextCompact.label "Compautar">
-<!ENTITY folderContextCompact.accesskey "C">
 <!ENTITY folderContextEmptyTrash.label "Vaciar papelera">
 <!ENTITY folderContextEmptyTrash.accesskey "v">
-<!ENTITY folderContextEmptyJunk.label "Vaciar corréu puxarra">
-<!ENTITY folderContextEmptyJunk.accesskey "s">
 <!ENTITY folderContextSendUnsentMessages.label "Unviar mensaxes pendientes">
 <!ENTITY folderContextSendUnsentMessages.accesskey "n">
 <!ENTITY folderContextUnsubscribe.label "Encaboxar soscripción">
@@ -596,7 +544,6 @@
 <!ENTITY accountColumn.label "Cuenta">
 <!ENTITY statusColumn.label "Estáu">
 <!ENTITY sizeColumn.label "Tamañu">
-<!ENTITY junkStatusColumn.label "Estáu de corréu puxarra">
 <!ENTITY unreadColumn.label "Non lleíos">
 <!ENTITY totalColumn.label "Total">
 <!ENTITY readColumn.label "Lleío">
@@ -618,7 +565,6 @@
 <!ENTITY accountColumn2.tooltip "Ordenar por cuenta">
 <!ENTITY statusColumn2.tooltip "Ordenar por estáu">
 <!ENTITY sizeColumn2.tooltip "Ordenar por tamañu">
-<!ENTITY junkStatusColumn2.tooltip "Ordenar por estáu de corréu puxarra">
 <!ENTITY unreadColumn2.tooltip "Númberu de mensaxes non lleíos nuna conversación">
 <!ENTITY totalColumn2.tooltip "Númberu total de mensaxes na conversación">
 <!ENTITY readColumn2.tooltip "Ordenar por lleíos/non lleíos">
@@ -652,12 +598,6 @@
 <!ENTITY contextReplyAll.accesskey "t">
 <!ENTITY contextReplyList.label "Responder a la llista">
 <!ENTITY contextReplyList.accesskey "l">
-<!ENTITY contextMoveMsgMenu.label "Mover a">
-<!ENTITY contextMoveMsgMenu.accesskey "m">
-<!ENTITY contextMoveCopyMsgRecentMenu.label "Reciente">
-<!ENTITY contextMoveCopyMsgRecentMenu.accesskey "R">
-<!ENTITY contextCopyMsgMenu.label "Copiar a">
-<!ENTITY contextCopyMsgMenu.accesskey "C">
 <!ENTITY contextKillThreadMenu.label "Inorar conversación">
 <!ENTITY contextKillSubthreadMenu.accesskey "b">
 <!ENTITY contextKillThreadMenu.accesskey "I">

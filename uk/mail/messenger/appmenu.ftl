@@ -30,11 +30,6 @@ appmenu-sync-sign-out =
 
 ## Add Account
 
-appmenu-new-account-panel-title =
-    .title = Новий обліковий запис
-appmenu-new-account-panel =
-    .label = Новий обліковий запис
-    .accesskey = б
 appmenu-new-email-account =
     .label = Електронна пошта
     .accesskey = Е
@@ -53,11 +48,6 @@ appmenu-new-newsgroup =
 
 ## New Account / Address Book
 
-appmenu-newab-panel-title =
-    .title = Нова адресна книга
-appmenu-newab-panel =
-    .label = Нова адресна книга
-    .accesskey = г
 appmenu-new-addressbook =
     .label = Локальна адресна книга
     .accesskey = ь

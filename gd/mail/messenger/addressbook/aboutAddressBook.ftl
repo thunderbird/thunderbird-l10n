@@ -6,8 +6,6 @@ about-addressbook-title = Leabhar nan seòladh
 
 ## Toolbar
 
-about-addressbook-toolbar-new-address-book =
-    .label = Leabhar nan seòladh ùr
 about-addressbook-toolbar-add-carddav-address-book =
     .label = Cuir leabhar-sheòlaidhean CardDAV ris
 about-addressbook-toolbar-add-ldap-address-book =

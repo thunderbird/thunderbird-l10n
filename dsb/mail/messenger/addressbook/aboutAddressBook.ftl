@@ -6,8 +6,6 @@ about-addressbook-title = Adresnik
 
 ## Toolbar
 
-about-addressbook-toolbar-new-address-book =
-    .label = Nowy adresnik
 about-addressbook-toolbar-add-address-book =
     .label = Lokalny adresnik pśidaś
 about-addressbook-toolbar-add-carddav-address-book =
@@ -18,8 +16,6 @@ books-pane-create-contact-button = Nowy kontakt
     .title = Nowy kontakt napóraś
 books-pane-add-book-button =
     .title = Adresnik pśidaś
-books-pane-create-book-button =
-    .title = Nowy adresnik załožyś
 books-pane-create-list-button =
     .title = Nowu rozpósłańsku lisćinu załožyś
 books-pane-import-button = Importěrowaś

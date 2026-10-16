@@ -14,24 +14,10 @@
 <!ENTITY autosyncNotDownload.accesskey "م">
 <!ENTITY kb.label "ك.بايت">
 <!ENTITY daysOld.label "أيّام">
-<!ENTITY message.label "الرسائل">
 <!ENTITY nntpNotDownloadRead.label "الرسائل المقروءة">
 <!ENTITY nntpNotDownloadRead.accesskey "ء">
 <!ENTITY nntpDownloadMsg.label "الرسائل أكثر من">
 <!ENTITY nntpDownloadMsg.accesskey "س">
-<!ENTITY retentionCleanup.label "لاستعادة مساحة القرص يمكن حذف الرسائل القديمة نهائيًّا.">
-<!ENTITY retentionCleanupImap.label "لاستعادة مساحة القرص، يمكن حذف الرسائل القديمة نهائيًا من جهازك ومن الخادوم البعيد.">
-<!ENTITY retentionCleanupPop.label "لاستعادة مساحة القرص، يمكن حذف الرسائل القديمة نهائيًا، ويشمل ذلك نسخها الأصلية في الخادوم البعيد.">
-<!ENTITY retentionKeepMsg.label "احذف الرسائل الأكثر من">
-<!ENTITY retentionKeepMsg.accesskey "ف">
-<!ENTITY retentionKeepAll.label "لا تحذف أيًّا من الرسائل">
-<!ENTITY retentionKeepAll.accesskey "ل">
-<!ENTITY retentionKeepRecent.label "احذف الكل ما عدا الأحدث">
-<!ENTITY retentionKeepRecent.accesskey "ث">
-<!ENTITY retentionApplyToFlagged.label "احتفظ دائمًا بالرسائل ذات النجمة">
-<!ENTITY retentionApplyToFlagged.accesskey "ج">
-<!ENTITY nntpRemoveMsgBody.label "أزِل المتون من الرسائل التي تزيد عن">
-<!ENTITY nntpRemoveMsgBody.accesskey "ت">
 <!ENTITY offlineSelectNntp.label "اختر مجموعات أخبار لتُستخدم في طور اللااتصال…">
 <!ENTITY offlineSelectNntp.accesskey "خ">
 <!ENTITY offlineImapAdvancedOffline.label "متقدم…">

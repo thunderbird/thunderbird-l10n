@@ -33,8 +33,6 @@
 <!ENTITY hdrFollowupButton1.tooltip "Dalejpósrědnenje na toś tu diskusijnu kupku pósłaś">
 <!ENTITY hdrForwardButton1.label "Dalej pósrědniś">
 <!ENTITY hdrForwardButton1.tooltip "Toś tu powěsć dalej pósrědniś">
-<!ENTITY hdrJunkButton1.label "Cajk">
-<!ENTITY hdrJunkButton1.tooltip "Toś tu powěsć ako cajk markěrowaś">
 <!ENTITY hdrTrashButton1.label "Lašowaś">
 <!ENTITY hdrTrashButton1.tooltip "Toś tu powěsć lašowaś">
 <!ENTITY hdrViewToolbarShowFull.label "Symbole a tekst pokazaś">

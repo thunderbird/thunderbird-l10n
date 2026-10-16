@@ -25,7 +25,4 @@
 <!ENTITY attachVCard.accesskey "v">
 <!ENTITY manageIdentities.label "Уреди ги идентитетите…">
 <!ENTITY manageIdentities.accesskey "р">
-<!-- LOCALIZATION NOTE (smtpName.label) : do not translate "SMTP" in below line -->
-<!ENTITY smtpName.label "SMTP сервер:">
-<!ENTITY smtpName.accesskey "е">
 <!ENTITY smtpDefaultServer.label "Основен сервер">

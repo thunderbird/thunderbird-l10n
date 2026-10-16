@@ -6,8 +6,6 @@ about-addressbook-title = Cudeschet d'adressas
 
 ## Toolbar
 
-about-addressbook-toolbar-new-address-book =
-    .label = Nov cudeschet d'adressas
 about-addressbook-toolbar-add-address-book =
     .label = Agiuntar in cudeschet d’adressas local
 about-addressbook-toolbar-add-carddav-address-book =
@@ -16,8 +14,6 @@ about-addressbook-toolbar-add-ldap-address-book =
     .label = Agiuntar in cudeschet d'adressas LDAP
 books-pane-create-contact-button = Nov contact
     .title = Crear in nov contact
-books-pane-create-book-button =
-    .title = Crear in nov cudeschet d’adressas
 books-pane-create-list-button =
     .title = Crear ina nova glista dad e-mail
 books-pane-import-button = Importar

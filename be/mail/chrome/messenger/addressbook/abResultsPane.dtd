@@ -9,8 +9,6 @@
 <!ENTITY PrimaryEmail.accesskey "Э">
 <!ENTITY Company.label "Установа">
 <!ENTITY Company.accesskey "о">
-<!ENTITY _PhoneticName.label "Вымаўленне імя">
-<!ENTITY _PhoneticName.accesskey "ы">
 <!ENTITY NickName.label "Псеўданім">
 <!ENTITY NickName.accesskey "с">
 <!ENTITY SecondEmail.label "Дадатковая электронная пошта">

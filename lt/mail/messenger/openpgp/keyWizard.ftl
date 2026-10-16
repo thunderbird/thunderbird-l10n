@@ -113,7 +113,4 @@ openpgp-external-key-title = Išorinis „GnuPG“ raktas
 openpgp-external-key-description = Konfigūruokite išorinį „GnuPG“ raktą, įvesdami rakto ID
 openpgp-external-key-info = Be to, norėdami importuoti ir priimti atitinkamą viešąjį raktą, turite naudoti „Key Manager“.
 openpgp-external-key-warning = <b> Galima sukonfigūruoti tik vieną išorinį „GnuPG“ raktą.</b> Jūsų ankstesnis įrašas bus pakeistas.
-openpgp-save-external-button = Išsaugoti rakto ID
 openpgp-external-key-label = Slapto rakto ID:
-openpgp-external-key-input =
-    .placeholder = 123456789341298340

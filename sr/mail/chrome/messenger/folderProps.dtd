@@ -10,22 +10,6 @@
 <!ENTITY folderRebuildSummaryFile.explanation "Понекад се датотека са садржајем фасцикле (.msf) оштети и онда поруке могу изгледати као да су нестале или се обрисане поруке појаве. Поправка фасцикле може оправити ове грешке.">
 <!ENTITY folderIncludeInGlobalSearch.label "Укључи поруке у овој фасцикли у резултате глобалне претраге">
 <!ENTITY folderIncludeInGlobalSearch.accesskey "г">
-<!ENTITY retention.label "Политика задржавања">
-<!ENTITY retentionUseAccount.label "Користи подешавања мог налога">
-<!ENTITY retentionUseAccount.accesskey "К">
-<!ENTITY daysOld.label "дана старо">
-<!ENTITY message.label "порука">
-<!ENTITY retentionCleanup.label "Да би се ослободио простор на диску, старе поруке се могу трајно обрисати.">
-<!ENTITY retentionCleanupImap.label "Да би се ослободио простор на диску, старе поруке се могу трајно обрисати, као и локалне копије и изворне поруке на удаљеном серверу.">
-<!ENTITY retentionCleanupPop.label "Да би се ослободио простор на диску, старе поруке се могу трајно обрисати, укључујући и изворне поруке на удаљеном серверу.">
-<!ENTITY retentionDeleteMsg.label "Обриши поруке више од">
-<!ENTITY retentionDeleteMsg.accesskey "б">
-<!ENTITY retentionKeepAll.label "Не бриши било шта од порука">
-<!ENTITY retentionKeepAll.accesskey "а">
-<!ENTITY retentionKeepRecent.label "Обриши све осим најновијих">
-<!ENTITY retentionKeepRecent.accesskey "р">
-<!ENTITY retentionApplyToFlagged.label "Увек чувај поруке са звездицом">
-<!ENTITY retentionApplyToFlagged.accesskey "е">
 <!ENTITY folderSynchronizationTab.label "Усклађивање">
 <!ENTITY folderCheckForNewMessages2.label "Приликом добијања нових порука на овом налогу, увек провери ову фасциклу">
 <!ENTITY folderCheckForNewMessages2.accesskey "ј">

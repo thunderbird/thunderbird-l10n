@@ -5,10 +5,6 @@
 open-preferences-sidebar-button2 = { -brand-short-name } postavke
 open-addons-sidebar-button = Dodaci i teme
 account-tree-add-account-button = Dodaj račun
-account-action-add-newsgroup-account =
-    .label = Dodaj račun interesnih grupa…
-    .accesskey = n
-account-tree-create-account-button = Novi račun
 account-tree-add-mail-account =
     .label = Račun e-pošte…
     .accesskey = e

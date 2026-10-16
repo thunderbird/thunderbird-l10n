@@ -26,13 +26,3 @@ archive-folder-name-label = Архіви
 inbox-folder-name-label = Вхідні
 child-folder-name-label = Вкладена тека "Вхідні".
 sibling-folder-name-label = Дочірня від "Вхідні"
-# This should match the default name for the "Archives" folder.
-archive-folder-name =
-    .label = Архіви
-# This should match the default name for the "Inbox" folder.
-inbox-folder-name =
-    .label = Вхідні
-child-folder-name =
-    .label = Вкладена тека "Вхідні".
-sibling-folder-name =
-    .label = Дочірня від "Вхідні"

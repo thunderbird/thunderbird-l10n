@@ -5,16 +5,3 @@
 <!-- extracted from AccountManager.xhtml -->
 <!ENTITY accountManagerTitle.label "Nastavení účtu">
 <!ENTITY accountManagerCloseButton.label "Zavřít">
-<!ENTITY accountActionsButton.label "Akce účtu">
-<!ENTITY accountActionsButton.accesskey "A">
-<!ENTITY addMailAccountButton.label "Přidat poštovní účet…">
-<!ENTITY addMailAccountButton.accesskey "p">
-<!ENTITY addIMAccountButton.label "Přidat účet chatu…">
-<!ENTITY addIMAccountButton.accesskey "i">
-<!ENTITY addFeedAccountButton.label "Přidat účet pro kanály…">
-<!ENTITY addFeedAccountButton.accesskey "d">
-<!ENTITY setDefaultButton.label "Nastavit jako výchozí">
-<!ENTITY setDefaultButton.accesskey "N">
-<!ENTITY removeButton.label "Odebrat účet">
-<!ENTITY removeButton.accesskey "r">
-<!ENTITY addonsButton.label "Rozšíření a vzhledy">

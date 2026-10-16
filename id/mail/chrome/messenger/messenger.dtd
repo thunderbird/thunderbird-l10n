@@ -48,8 +48,6 @@
 <!ENTITY getAllNewMsgCmdPopupMenu.accesskey "a">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.label "Akun Terpilih">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.accesskey "T">
-<!ENTITY getNextNMsgCmd2.label "Ambil Pesan Berita Selanjutnya">
-<!ENTITY getNextNMsgCmd2.accesskey "t">
 <!ENTITY sendUnsentCmd.label "Kirim Pesan yang Belum Terkirim">
 <!ENTITY sendUnsentCmd.accesskey "r">
 <!ENTITY subscribeCmd.label "Berlangganan…">
@@ -59,8 +57,6 @@
 <!ENTITY renameFolder.label "Ganti Nama Folder…">
 <!ENTITY renameFolder.accesskey "G">
 <!ENTITY renameFolder.key "VK_F2">
-<!ENTITY compactFolders.label "Padatkan Folder">
-<!ENTITY compactFolders.accesskey "d">
 <!ENTITY emptyTrashCmd.label "Kosongkan Tong Sampah">
 <!ENTITY emptyTrashCmd.accesskey "o">
 <!ENTITY offlineMenu.label "Luring">
@@ -129,10 +125,6 @@
 <!ENTITY allFolders.accesskey "S">
 <!ENTITY unreadFolders.label "Belum Dibaca">
 <!ENTITY unreadFolders.accesskey "B">
-<!ENTITY favoriteFolders.label "Favorit">
-<!ENTITY favoriteFolders.accesskey "F">
-<!ENTITY recentFolders.label "Terbaru">
-<!ENTITY recentFolders.accesskey "T">
 <!ENTITY compactVersion.label "Tampilan Ringkas">
 <!ENTITY compactVersion.accesskey "C">
 <!-- Sort Menu -->
@@ -154,8 +146,6 @@
 <!ENTITY sortByStatusCmd.accesskey "u">
 <!ENTITY sortByTagsCmd.label "Tag">
 <!ENTITY sortByTagsCmd.accesskey "T">
-<!ENTITY sortByJunkStatusCmd.label "Status Junk">
-<!ENTITY sortByJunkStatusCmd.accesskey "J">
 <!ENTITY sortBySubjectCmd.label "Subjek">
 <!ENTITY sortBySubjectCmd.accesskey "b">
 <!ENTITY sortByFromCmd.label "Dari">
@@ -243,7 +233,6 @@
 <!ENTITY findPrevCmd.key2 "VK_F3">
 <!ENTITY searchMailCmd.label "Cari Pesan…">
 <!ENTITY searchMailCmd.accesskey "P">
-<!ENTITY searchMailCmd.key "f">
 <!ENTITY glodaSearchCmd.label "Pencarian Global...">
 <!ENTITY glodaSearchCmd.accesskey "G">
 <!ENTITY searchAddressesCmd.label "Cari Alamat…">
@@ -334,17 +323,6 @@
 <!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN">
 <!ENTITY createFilter.label "Buat Filter dari Pesan…">
 <!ENTITY createFilter.accesskey "a">
-<!ENTITY moveMsgToMenu.label "Pindahkan">
-<!ENTITY moveMsgToMenu.accesskey "P">
-<!ENTITY moveCopyMsgRecentMenu.label "Terbaru">
-<!ENTITY moveCopyMsgRecentMenu.accesskey "T">
-<!ENTITY copyMessageLocation.label "Salin Lokasi Pesan">
-<!ENTITY copyMessageLocation.accesskey "l">
-<!ENTITY copyMsgToMenu.label "Salin">
-<!ENTITY copyMsgToMenu.accesskey "S">
-<!ENTITY moveToFolderAgain.label "Pindahkan Lagi">
-<!ENTITY moveToFolderAgain.accesskey "L">
-<!ENTITY moveToFolderAgainCmd.key "m">
 <!ENTITY killThreadMenu.label "Abaikan Utas">
 <!ENTITY killThreadMenu.accesskey "I">
 <!ENTITY killThreadMenu.key "k">
@@ -356,16 +334,6 @@
 <!ENTITY watchThreadMenu.key "w">
 <!ENTITY tagMenu.label "Tag">
 <!ENTITY tagMenu.accesskey "g">
-<!ENTITY tagCmd0.key "0">
-<!ENTITY tagCmd1.key "1">
-<!ENTITY tagCmd2.key "2">
-<!ENTITY tagCmd3.key "3">
-<!ENTITY tagCmd4.key "4">
-<!ENTITY tagCmd5.key "5">
-<!ENTITY tagCmd6.key "6">
-<!ENTITY tagCmd7.key "7">
-<!ENTITY tagCmd8.key "8">
-<!ENTITY tagCmd9.key "9">
 <!ENTITY markMenu.label "Tandai">
 <!ENTITY markMenu.accesskey "T">
 <!ENTITY toggleReadCmd.key "m">
@@ -385,14 +353,6 @@
 <!ENTITY markStarredCmd.label "Tambah Bintang">
 <!ENTITY markStarredCmd.accesskey "b">
 <!ENTITY markStarredCmd.key "S">
-<!ENTITY markAsJunkCmd.label "Sebagai Junk">
-<!ENTITY markAsJunkCmd.accesskey "S">
-<!ENTITY markAsJunkCmd.key "j">
-<!ENTITY markAsNotJunkCmd.label "Bukan Junk">
-<!ENTITY markAsNotJunkCmd.accesskey "B">
-<!ENTITY markAsNotJunkCmd.key "j">
-<!ENTITY recalculateJunkScoreCmd.label "Jalankan Pengendali Surel Sampah">
-<!ENTITY recalculateJunkScoreCmd.accesskey "J">
 <!ENTITY openMessageWindowCmd.label "Buka Pesan">
 <!ENTITY openMessageWindowCmd.accesskey "P">
 <!ENTITY openMessageWindowCmd.key "o">
@@ -441,10 +401,6 @@
 <!ENTITY filtersApplyToSelection.accesskey "J">
 <!ENTITY filtersApplyToMessage.label "Jalankan Filter pada Pesan">
 <!ENTITY filtersApplyToMessage.accesskey "p">
-<!ENTITY runJunkControls.label "Jalankan Pengendali Surel Sampah pada Folder">
-<!ENTITY runJunkControls.accesskey "o">
-<!ENTITY deleteJunk.label "Hapus Email bertanda Junk dalam Folder">
-<!ENTITY deleteJunk.accesskey "l">
 <!ENTITY importCmd.label "Impor…">
 <!ENTITY importCmd.accesskey "I">
 <!ENTITY exportCmd.label "Ekspor…">
@@ -491,7 +447,6 @@
 <!ENTITY printButton.label "Cetak">
 <!ENTITY stopButton.label "Berhenti">
 <!ENTITY throbberItem.title "Indikator Aktivitas">
-<!ENTITY junkItem.title "Junk">
 <!ENTITY addressBookButton.label "Buku Alamat">
 <!ENTITY chatButton.label "Ngobrol">
 <!ENTITY glodaSearch.title "Pencarian Global">
@@ -553,11 +508,6 @@
 <!ENTITY appmenuNewContactCmd.label "Kontak Buku Alamat...">
 <!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Tata Letak Bilah Alat...">
-<!-- Tags Menu Popup -->
-<!ENTITY addNewTag.label "Tag baru…">
-<!ENTITY addNewTag.accesskey "T">
-<!ENTITY manageTags.label "Kelola Tag…">
-<!ENTITY manageTags.accesskey "M">
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "Nama">
 <!ENTITY folderUnreadColumn.label "Belum Dibaca">
@@ -580,12 +530,8 @@
 <!ENTITY folderContextRename.accesskey "G">
 <!ENTITY folderContextRemove.label "Hapus">
 <!ENTITY folderContextRemove.accesskey "H">
-<!ENTITY folderContextCompact.label "Padatkan">
-<!ENTITY folderContextCompact.accesskey "P">
 <!ENTITY folderContextEmptyTrash.label "Kosongkan Tong Sampah">
 <!ENTITY folderContextEmptyTrash.accesskey "o">
-<!ENTITY folderContextEmptyJunk.label "Kosongkan Junk">
-<!ENTITY folderContextEmptyJunk.accesskey "o">
 <!ENTITY folderContextSendUnsentMessages.label "Kirim Pesan Belum Terkirim">
 <!ENTITY folderContextSendUnsentMessages.accesskey "K">
 <!ENTITY folderContextUnsubscribe.label "Berhenti Berlangganan">
@@ -628,7 +574,6 @@
 <!ENTITY accountColumn.label "Akun">
 <!ENTITY statusColumn.label "Status">
 <!ENTITY sizeColumn.label "Ukuran">
-<!ENTITY junkStatusColumn.label "Status Junk">
 <!ENTITY unreadColumn.label "Belum Dibaca">
 <!ENTITY totalColumn.label "Total">
 <!ENTITY readColumn.label "Sudah Dibaca">
@@ -652,7 +597,6 @@
 <!ENTITY accountColumn2.tooltip "Urut berdasarkan akun">
 <!ENTITY statusColumn2.tooltip "Urut berdasarkan status">
 <!ENTITY sizeColumn2.tooltip "Urut berdasarkan ukuran">
-<!ENTITY junkStatusColumn2.tooltip "Urutkan berdasarkan status sampah">
 <!ENTITY unreadColumn2.tooltip "Jumlah pesan yang belum dibaca di utas">
 <!ENTITY totalColumn2.tooltip "Jumlah total pesan dalam utas">
 <!ENTITY readColumn2.tooltip "Sortir menurut dibaca">
@@ -691,16 +635,6 @@
 <!ENTITY contextReplyAll.accesskey "a">
 <!ENTITY contextReplyList.label "Balas ke Daftar">
 <!ENTITY contextReplyList.accesskey "D">
-<!ENTITY contextMoveMsgMenu.label "Pindahkan Ke">
-<!ENTITY contextMoveMsgMenu.accesskey "P">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Destinasi Terbaru">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "R">
-<!ENTITY contextMoveCopyMsgRecentMenu.label "Terbaru">
-<!ENTITY contextMoveCopyMsgRecentMenu.accesskey "r">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.label "Favorit">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.accesskey "F">
-<!ENTITY contextCopyMsgMenu.label "Salin Ke">
-<!ENTITY contextCopyMsgMenu.accesskey "S">
 <!ENTITY contextKillThreadMenu.label "Abaikan Utas">
 <!ENTITY contextKillSubthreadMenu.accesskey "b">
 <!ENTITY contextKillThreadMenu.accesskey "I">

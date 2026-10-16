@@ -56,14 +56,7 @@ account-hub-email-connect-button = Байланысу
 account-hub-result-incoming-legend = Кіріс
 account-hub-result-outgoing-legend = Шығыс
 account-hub-all-servers-legend = Барлық серверлер
-account-hub-incoming-server-legend = Кіріс сервері
-account-hub-outgoing-server-legend = Шығыс пошта сервері
-account-hub-result-incoming-server-legend = Кіріс сервері
-    .title = Кіріс сервері
-account-hub-result-outgoing-server-legend = Шығыс сервері
-    .title = Шығыс сервері
 account-hub-protocol-label = Хаттама
-account-hub-hostname-label = Хост аты
 account-hub-result-hostname-label = Хост аты
     .title = Хост аты
 account-hub-result-socket-type-label = Байланыс қауіпсіздігі
@@ -94,10 +87,6 @@ account-hub-result-auth-ntlm = NTLM
 account-hub-result-auth-external = Сыртқы
 account-hub-result-auth-oauth2 = OAuth2
 account-hub-on-port-label = Порт
-account-hub-result-authentication-label = Аутентификация
-    .title = Аутентификация
-account-hub-port-label = Порт
-    .title = Автоматты түрде анықау үшін порт нөмірін 0 етіп орнатыңыз
 account-hub-auto-description = { -brand-short-name } бос қалдырылған өрістерді автоматты түрде анықтауға әрекет жасайды.
 account-hub-ssl-label = Байланыс қауіпсіздігі
 
@@ -105,8 +94,6 @@ account-hub-ssl-label = Байланыс қауіпсіздігі
 
 account-hub-ssl-autodetect-option =
     .label = Автоанықтау
-account-hub-ssl-no-authentication-option =
-    .label = Аутентификациясы жоқ
 account-hub-ssl-cleartext-password-option =
     .label = Қалыпты пароль
 account-hub-ssl-encrypted-password-option =
@@ -268,7 +255,6 @@ account-hub-email-exchange-settings = Exchange баптаулары
 account-hub-email-connect-settings = Электрондық пошта параметрлерін қосу
 account-hub-email-protocol-select-header = Электрондық пошта тіркелгісінің түрін таңдаңыз
 account-hub-email-protocol-select-additional-info = Бұл тіркелгіні баптау үшін қосымша ақпарат қажет.
-account-hub-email-config-found = Эл. пошта тіркелгісінің түрін таңдаңыз
 account-hub-email-enter-password = Эл. пошта тіркелгіңіздің паролін енгізіңіз
 account-hub-email-sync-accounts = Күнтізбелер мен адрестік кітапшаларыңызды синхрондаңыз
 account-hub-test-configuration = Тексеру
@@ -295,7 +281,6 @@ account-hub-config-success-description-guess = Конфигурация серв
 account-hub-config-success-description-disk = Конфигурация { -brand-short-name } орнатуында табылды.
 account-hub-config-success-description-isp = Конфигурация эл. пошта провайдерінен табылды.
 account-hub-config-success-description-read-more = Сіз <a data-l10n-name="automated-setup-link">электрондық поштаны автоматты түрде баптаудың қалай жұмыс істейтіні туралы оқи аласыз.</a>
-account-hub-config-success = Конфигурация Mozilla ISPDB ішінен табылды
 account-hub-password-info = Тіркелгі деректеріңіз тек компьютеріңізде жергілікті түрде сақталады
 account-hub-creating-account = Тіркелгіні жасау…
 account-hub-sync-accounts-found = { -brand-short-name } кейбір байланысқан қызметтерді тапты
@@ -326,10 +311,8 @@ account-hub-username-error-text = Пайдаланушы аты керек
 account-hub-manual-config-error-summary = Келесі қателерді түзетіңіз:
 account-hub-oauth-pending = Жүйеге кіру қалқымалы терезесіндегі авторизация күтілуде…
 account-hub-addon-install-button = Орнату
-account-hub-addon-install-needed = { -brand-short-name } бұл серверді қолдамайды. Exchange электрондық поштасына кіру үшін <a data-l10n-name="addon-install">Owl (ақылы) сияқты үшінші жақты қосымшасын орнатыңыз.</a>
 account-hub-addon-error = Қосымшаны орнату сәтсіз аяқталды. Қайталап көріңіз немесе көмек алу үшін қосымша авторына хабарласыңыз.
 account-hub-select-security-warning = <span data-l10n-name="error-text">Ескерту: Қауіпсіз емес пошта сервері анықталды.</span> Бұл серверде шифрлеу жоқ, бұл сіздің пароліңізді және деректеріңізді ашып көрсетеді. Байланысты қауіпсіздендіру үшін әкімшіге хабарласыңыз немесе өз тәуекеліңізге жалғастырыңыз. <a data-l10n-name="error-link">Қосымша ақпарат алу үшін Жиі қойылатын сұрақтар бөлімін қараңыз.</a>
-account-hub-security-warning = <span data-l10n-name="security-warning">Ескерту: Қауіпсіз емес пошта сервері анықталды.</span> Бұл серверде шифрлеу жоқ, бұл сіздің пароліңізді және деректеріңізді ашып көрсетеді. Байланысты қауіпсіздендіру үшін әкімшіге хабарласыңыз немесе өз тәуекеліңізге жалғастырыңыз. <a data-l10n-name="faq-link">Қосымша ақпарат алу үшін Жиі қойылатын сұрақтар бөлімін қараңыз.</a>
 account-hub-account-authentication-error = Аутентификация қатесі.
 account-hub-add-address-book = Адрестік кітапшаны қосу
 address-book-sync-existing-icon =
@@ -359,7 +342,6 @@ account-hub-address-book-sync-books-data =
         [one] 1 адрестік кітапша қолжетімді
        *[other] { $addressBooks } адрестік кітапша қолжетімді
     }
-account-hub-fetching-sync-accounts = Адрестік кітапшалар мен күнтізбелер табылуда…
 address-book-sync-existing-description = Бар болып тұрған тіркелгілерді алу…
 account-hub-select-address-book-account = Адрестік кітапшалары бар тіркелгіні таңдаңыз
 # $synced (Number) - The number of address books that are synced.

@@ -14,24 +14,10 @@
 <!ENTITY autosyncNotDownload.accesskey "μ">
 <!ENTITY kb.label "KB">
 <!ENTITY daysOld.label "ημερών">
-<!ENTITY message.label "μηνυμάτων">
 <!ENTITY nntpNotDownloadRead.label "Αναγνωσμένα μηνύματα">
 <!ENTITY nntpNotDownloadRead.accesskey "γ">
 <!ENTITY nntpDownloadMsg.label "Μηνύματα περισσότερο από">
 <!ENTITY nntpDownloadMsg.accesskey "σ">
-<!ENTITY retentionCleanup.label "Για να ανακτήσετε χώρο στον δίσκο, μπορείτε να διαγράψετε οριστικά τα παλιά μηνύματα.">
-<!ENTITY retentionCleanupImap.label "Για ανάκτηση χώρου, μπορείτε να διαγράψετε οριστικά τα παλιά σας μηνύματα (τοπικά αντίγραφα και πρωτότυπα απομακρυσμένου διακομιστή).">
-<!ENTITY retentionCleanupPop.label "Για ανάκτηση χώρου, μπορείτε να διαγράψετε οριστικά τα παλιά σας μηνύματα, μαζί με τα αρχικά μηνύματα στον απομακρυσμένο διακομιστή.">
-<!ENTITY retentionKeepMsg.label "Διαγραφή μηνυμάτων, παλαιότερων από">
-<!ENTITY retentionKeepMsg.accesskey "μ">
-<!ENTITY retentionKeepAll.label "Να μην γίνεται διαγραφή μηνυμάτων">
-<!ENTITY retentionKeepAll.accesskey "η">
-<!ENTITY retentionKeepRecent.label "Διαγραφή όλων, εκτός των τελευταίων">
-<!ENTITY retentionKeepRecent.accesskey "κ">
-<!ENTITY retentionApplyToFlagged.label "Διατήρηση μηνυμάτων με αστέρι">
-<!ENTITY retentionApplyToFlagged.accesskey "σ">
-<!ENTITY nntpRemoveMsgBody.label "Διαγραφή σωμάτων από μηνύματα μεγαλύτερα των">
-<!ENTITY nntpRemoveMsgBody.accesskey "φ">
 <!ENTITY offlineSelectNntp.label "Επιλογή ομάδων συζητήσεων για χρήση εκτός σύνδεσης…">
 <!ENTITY offlineSelectNntp.accesskey "λ">
 <!ENTITY offlineImapAdvancedOffline.label "Σύνθετα…">

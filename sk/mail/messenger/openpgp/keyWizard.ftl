@@ -130,12 +130,9 @@ openpgp-external-key-title = Externý kľúč GnuPG
 openpgp-external-key-description = Nakonfigurujte externý kľúč GnuPG zadaním ID kľúča
 openpgp-external-key-info = Okrem toho musíte pomocou Správcu kľúčov importovať a prijať zodpovedajúci verejný kľúč.
 openpgp-external-key-warning = <b>Môžete nakonfigurovať iba jeden externý kľúč GnuPG.</b> Váš predchádzajúci záznam bude nahradený.
-openpgp-save-external-button = Uložiť ID kľúča
 openpgp-external-key-label = ID tajného kľúča:
 openpgp-import-own-key-title = Importujte svoj verejný kľúč
 #   $keyId (String) - The Key ID.
 openpgp-import-own-key-description = { -brand-short-name } nenašiel verejný kľúč s ID { $keyId }. Ak chcete pokračovať, naimportujte ho.
 #   $keyId (String) - The Key ID.
 openpgp-import-keyid-failed = Nepodarilo sa importovať verejný kľúč { $keyId } z tohto súboru.
-openpgp-external-key-input =
-    .placeholder = 123456789341298340

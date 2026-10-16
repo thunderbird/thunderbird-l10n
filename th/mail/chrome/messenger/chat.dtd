@@ -23,8 +23,6 @@
 <!ENTITY closeConversationCmd.accesskey "ป">
 <!ENTITY aliasCmd.label "เปลี่ยนชื่อ">
 <!ENTITY aliasCmd.accesskey "ป">
-<!ENTITY deleteCmd.label "เอาผู้ติดต่อออก">
-<!ENTITY deleteCmd.accesskey "อ">
 <!ENTITY openConversationButton.tooltip "เริ่มการสนทนา">
 <!ENTITY closeConversationButton.tooltip "ปิดการสนทนา">
 <!ENTITY addBuddyButton.label "เพิ่มผู้ติดต่อ">

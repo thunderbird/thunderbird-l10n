@@ -23,8 +23,6 @@
 <!ENTITY closeConversationCmd.accesskey "K">
 <!ENTITY aliasCmd.label "Preimenuj">
 <!ENTITY aliasCmd.accesskey "r">
-<!ENTITY deleteCmd.label "Odstrani stik">
-<!ENTITY deleteCmd.accesskey "t">
 <!ENTITY openConversationButton.tooltip "Začni pogovor">
 <!ENTITY closeConversationButton.tooltip "Zapri pogovor">
 <!ENTITY addBuddyButton.label "Dodaj stik">

@@ -9,8 +9,6 @@
 <!ENTITY PrimaryEmail.accesskey "C">
 <!ENTITY Company.label "Organización">
 <!ENTITY Company.accesskey "O">
-<!ENTITY _PhoneticName.label "Nombre fonético">
-<!ENTITY _PhoneticName.accesskey "r">
 <!ENTITY NickName.label "Apodo">
 <!ENTITY NickName.accesskey "A">
 <!ENTITY SecondEmail.label "Correo electrónico adicional">

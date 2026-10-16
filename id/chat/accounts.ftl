@@ -2,14 +2,10 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-new-account-label = Akun Baru
 # Instant messaging account status window for Thunderbird
 accounts-window-title = Status perpesanan instan
 account-manager-add-account =
     .label = { add-account-label }
-    .accesskey = A
-account-manager-new-account =
-    .label = { new-account-label }
     .accesskey = A
 account-manager-close =
     .label = Tutup
@@ -19,7 +15,6 @@ account-manager-close-command =
 # This title must be short, displayed with a big font size
 account-manager-no-account-title = Belum ada akun yang disiapkan
 account-manager-no-accounts-description = Klik tombol { add-account-label } untuk mengizinkan { -brand-short-name } memandu Anda melalui proses konfigurasi.
-account-manager-no-account-description = Klik pada tombol { new-account-label } agar { -brand-short-name } memandu Anda melalui proses persiapannya.
 account-auto-sign-on =
     .label = Masuk saat mulai
     .accesskey = m

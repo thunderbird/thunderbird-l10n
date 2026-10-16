@@ -93,8 +93,6 @@ policy-SanitizeOnShutdown2 = 끌 때 탐색 정보를 지웁니다.
 policy-SearchEngines = 검색 엔진 설정을 구성합니다. 이 정책은 확장 지원 버전(ESR)에서만 가능합니다.
 policy-SearchSuggestEnabled = 검색 제안을 사용하거나 사용하지 않게 합니다.
 policy-SecurityDevices2 = PKCS #11 모듈을 추가하거나 삭제합니다.
-# For more information, see https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
-policy-SecurityDevices = PKCS #11 모듈을 설치하십시오.
 policy-SSLVersionMax = 최대 SSL 버전을 설정하십시오.
 policy-SSLVersionMin = 최소 SSL 버전을 설정하십시오.
 policy-SupportMenu = 도움말 메뉴에 맞춤 지원 메뉴 항목을 추가합니다.

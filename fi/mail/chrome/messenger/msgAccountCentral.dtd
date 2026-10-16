@@ -16,5 +16,4 @@
 <!ENTITY advFeaturesSectionHdr.label "Lisäominaisuudet">
 <!ENTITY searchMsgsLink.label "Etsi viesteistä">
 <!ENTITY filtersLink.label "Muokkaa viestisuodattimia">
-<!ENTITY junkSettings.label "Roskapostin asetukset">
 <!ENTITY offlineLink.label "Yhteydettömän tilan asetukset">

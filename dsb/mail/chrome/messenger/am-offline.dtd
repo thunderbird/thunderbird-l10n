@@ -14,24 +14,10 @@
 <!ENTITY autosyncNotDownload.accesskey "n">
 <!ENTITY kb.label "KB">
 <!ENTITY daysOld.label "dnjow stare">
-<!ENTITY message.label "powěsćow wulašowaś">
 <!ENTITY nntpNotDownloadRead.label "Powěsći ześěgnuś">
 <!ENTITY nntpNotDownloadRead.accesskey "z">
 <!ENTITY nntpDownloadMsg.label "Powěsći, kótarež su wěcej ako">
 <!ENTITY nntpDownloadMsg.accesskey "e">
-<!ENTITY retentionCleanup.label "Aby se rum na plaśe wótnowił, daju se stare powěsći na pśecej lašowaś.">
-<!ENTITY retentionCleanupImap.label "Aby se rum na plaśe wótnowił, daju se stare powěsći na pśecej lašowaś, ako lokalne kopije tak teke originale na zdalonem serwerje.">
-<!ENTITY retentionCleanupPop.label "Aby se rum na plaśe wótnowił, daju se stare powěsći na pśecej lašowaś, inkluziwnje originale na zdalonem serwerje.">
-<!ENTITY retentionKeepMsg.label "Powěsći lašowaś, kótarež su wěcej ako">
-<!ENTITY retentionKeepMsg.accesskey "l">
-<!ENTITY retentionKeepAll.label "Žedne powěsći njelašowaś">
-<!ENTITY retentionKeepAll.accesskey "d">
-<!ENTITY retentionKeepRecent.label "Wšykne mimo nejnowšych">
-<!ENTITY retentionKeepRecent.accesskey "m">
-<!ENTITY retentionApplyToFlagged.label "Powěsći z gwězdku pśecej wobchowaś">
-<!ENTITY retentionApplyToFlagged.accesskey "c">
-<!ENTITY nntpRemoveMsgBody.label "Wopśimjeśa z powěsćow wótwónoźeś, kótarež su wěcej ako">
-<!ENTITY nntpRemoveMsgBody.accesskey "o">
 <!ENTITY offlineSelectNntp.label "Diskusijne kupki za wužywanje offline wubraś…">
 <!ENTITY offlineSelectNntp.accesskey "s">
 <!ENTITY offlineImapAdvancedOffline.label "Rozšyrjony…">

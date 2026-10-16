@@ -17,7 +17,6 @@ webext-perms-description-compose = Leia e modifique as suas mensagens de e-mail 
 webext-perms-description-compose-send = Enviar mensagens de e-mail redigidas em seu nome
 webext-perms-description-compose-save = Guarde mensagens de e-mail compostas como rascunhos ou modelos
 webext-perms-description-experiment-access = Este complemento terá acesso completo e sem restrições ao { -brand-short-name } e ao seu computador.
-webext-perms-description-experiment = Tenha acesso completo e sem restrições a { -brand-short-name } e ao seu computador
 webext-perms-description-messagesImport = Importar mensagens para o Thunderbird
 webext-perms-description-messagesModify = Leia e modifique as suas mensagens de e-mail à medida que lhe vão sendo apresentadas
 webext-perms-description-messagesModifyPermanent = Modifique permanentemente a fonte das suas mensagens (incluindo cabeçalhos, corpo e anexos)

@@ -9,8 +9,6 @@
 <!ENTITY PrimaryEmail.accesskey "S">
 <!ENTITY Company.label "Organisaatio">
 <!ENTITY Company.accesskey "r">
-<!ENTITY _PhoneticName.label "Foneettinen nimi">
-<!ENTITY _PhoneticName.accesskey "F">
 <!ENTITY NickName.label "Lempinimi">
 <!ENTITY NickName.accesskey "L">
 <!ENTITY SecondEmail.label "Toissijainen sähköposti">

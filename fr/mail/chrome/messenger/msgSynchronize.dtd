@@ -18,5 +18,3 @@
 <!ENTITY selectButton.label "Sélectionner…">
 <!ENTITY selectButton.accesskey "S">
 <!ENTITY MsgSelectDesc.label "Choisir les dossiers de courrier et les groupes à utiliser hors connexion.">
-<!ENTITY MsgSelectInd.label "Télécharger">
-<!ENTITY MsgSelectItems.label "Dossiers et groupes">

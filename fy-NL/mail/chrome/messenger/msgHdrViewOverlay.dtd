@@ -33,8 +33,6 @@
 <!ENTITY hdrFollowupButton1.tooltip "In reaksje yn dizze nijsgroep pleatse">
 <!ENTITY hdrForwardButton1.label "Trochstjoere">
 <!ENTITY hdrForwardButton1.tooltip "Dit berjocht trochstjoere">
-<!ENTITY hdrJunkButton1.label "Net-winske">
-<!ENTITY hdrJunkButton1.tooltip "Dit berjocht as net-winske markearje">
 <!ENTITY hdrTrashButton1.label "Fuortsmite">
 <!ENTITY hdrTrashButton1.tooltip "Dit berjocht fuortsmite">
 <!ENTITY hdrViewToolbarShowFull.label "Piktogrammen en tekst toane">

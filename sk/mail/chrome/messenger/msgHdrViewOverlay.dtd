@@ -33,8 +33,6 @@
 <!ENTITY hdrFollowupButton1.tooltip "Odoslať reakciu do tejto diskusnej skupiny">
 <!ENTITY hdrForwardButton1.label "Odoslať ďalej">
 <!ENTITY hdrForwardButton1.tooltip "Odoslať túto správu ďalej">
-<!ENTITY hdrJunkButton1.label "Nevyžiadaná">
-<!ENTITY hdrJunkButton1.tooltip "Označiť túto správu ako nevyžiadanú">
 <!ENTITY hdrTrashButton1.label "Odstrániť">
 <!ENTITY hdrTrashButton1.tooltip "Odstrániť túto správu">
 <!ENTITY hdrViewToolbarShowFull.label "Zobraziť ikony a text">

@@ -43,14 +43,9 @@ openpgp-cannot-decrypt-because-mdc =
     Mund të ketë qenë ndryshuar gjatë shpërnguljes, me synimin e vjedhjes së lëndës së tij.
     Për të parandaluar këtë rrezik, nuk shfaqet lënda e tij.
 openpgp-cannot-decrypt-because-missing-key = Kyçi i fshehtë që është i domosdoshëm për shfshehtëzimin e këtij mesazhi, s’është i passhëm.
-openpgp-partially-signed =
-    Vetëm një pjesë e këtij mesazhi qe nënshkruar në mënyrë dixhitale duke përdorur OpenPGP-në.
-    Nëse klikoni mbi butonin e verifikimit, pjesët e pambrojtura do të fshihen dhe do të shfaqet gjendja e nënshkrimit dixhital.
 openpgp-partially-encrypted =
     Vetëm një pjesë e këtij mesazhi qe nënshkruar në mënyrë dixhitale duke përdorur OpenPGP-në.
     Pjesët e lexueshme të mesazhit që janë shfaqur tashmë, s’qenë të fshetëzuara.
     Nëse klikoni mbi butonin e shfshehtëzimit, do të shfaqen pjesët e fshehtëzuara.
-openpgp-reminder-partial-display = Kujtues: Mesazhi i shfaqur më poshtë është vetëm një pjesë e mesazhit origjinal.
-openpgp-partial-verify-button = Verifikoje
 openpgp-partial-decrypt-button = Shfshehtëzoje
 openpgp-unexpected-key-for-you = Kujdes: Ky mesazh përmban një kyç OpenPGP të panjohur, që i referohet njërës prej adresave tuaja email. Nëse ky s’është një nga kyçet tuaj, mund të jetë një përpjekje për të mashtruar korrespondentë të tjerë.

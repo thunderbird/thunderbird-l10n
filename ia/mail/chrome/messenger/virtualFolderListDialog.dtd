@@ -3,5 +3,3 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY virtualFolderListTitle.title "Selige dossier(s)">
 <!ENTITY virtualFolderDesc.label "Selige le dossiers in le quales cercar:">
-<!ENTITY folderName.label "Nomine del dossier">
-<!ENTITY folderSearch.label "Cercar">

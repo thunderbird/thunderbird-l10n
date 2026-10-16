@@ -95,8 +95,6 @@ policy-SanitizeOnShutdown2 = Vymaže všetky údaje o prehliadaní v priebehu vy
 policy-SearchEngines = Nakonfiguruje nastavenie vyhľadávačov. Toto pravidlo je dostupné len vo verzii s rozšírenou podporou (ESR).
 policy-SearchSuggestEnabled = Povolí alebo zakáže návrhy vyhľadávania.
 policy-SecurityDevices2 = Pridá alebo odstráni moduly PKCS #11.
-# For more information, see https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
-policy-SecurityDevices = Nainštaluje moduly PKCS #11.
 policy-SSLVersionMax = Nastaví maximálnu verziu SSL.
 policy-SSLVersionMin = Nastaví minimálnu verziu SSL.
 policy-SupportMenu = Pridá vlastnú položku do ponuky pomocníka.

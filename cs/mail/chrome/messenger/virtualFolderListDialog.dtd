@@ -3,5 +3,3 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY virtualFolderListTitle.title "Volba složek">
 <!ENTITY virtualFolderDesc.label "Zvolte složky k prohledávání:">
-<!ENTITY folderName.label "Název složky">
-<!ENTITY folderSearch.label "Hledat">

@@ -114,9 +114,6 @@ toolbar-stop =
 toolbar-throbber-label = Ակտիվության ինդիկատոր
 toolbar-throbber =
     .title = Ակտիվության ինդիկատոր
-toolbar-create-address-book-label = Նոր Հասցեագիրք
-toolbar-create-address-book =
-    .title = Ստեղծել նոր հասցեագիրք
 
 ## New Address Book popup items
 

@@ -53,20 +53,9 @@ account-hub-email-set-up-account-button = Հաշիվ ստեղծել
 account-hub-email-confirm-button = Հաստատել
 account-hub-email-find-settings-button = Գտնել կարգավորումները
 account-hub-email-connect-button = Միանալ
-account-hub-incoming-server-legend = Մուտքային սպասարկիչ
-account-hub-outgoing-server-legend = Ելքային սպասարկիչ
-account-hub-result-incoming-server-legend = Մուտքային սպասարկիչ
-    .title = Մուտքային սպասարկիչ
-account-hub-result-outgoing-server-legend = Ելքային սպասարկիչ
-    .title = Ելքային սպասարկիչ
 account-hub-protocol-label = Հաղորդակարգ
-account-hub-hostname-label = Հոսթի անունը
 account-hub-result-hostname-label = Հոսթի անունը
     .title = Հոսթի անունը
-account-hub-result-authentication-label = Իսկորոշում
-    .title = Իսկորոշում
-account-hub-port-label = Պորտ
-    .title = Կայեք պորտի համարը 0՝ ինքնահայտնաբերման համար
 account-hub-auto-description = { -brand-short-name }-ը կփորձի ինքնահայտնաբերել դաշտերը, որոնք դատարկ են:
 account-hub-ssl-label = Կապուղու անվտանգությունը
 
@@ -74,8 +63,6 @@ account-hub-ssl-label = Կապուղու անվտանգությունը
 
 account-hub-ssl-autodetect-option =
     .label = Ինքնորոշում
-account-hub-ssl-no-authentication-option =
-    .label = Չկա իսկորոշում
 account-hub-ssl-cleartext-password-option =
     .label = Նորմալ գաղտնաբառ
 account-hub-ssl-encrypted-password-option =
@@ -207,7 +194,6 @@ account-hub-email-exchange-settings = Exchange-ի կարգավորումներ
 account-hub-email-connect-settings = Կապեք ձեր էլ. փոստի կարգավորումները
 account-hub-email-protocol-select-header = Ընտրեք էլ. փոստի հաշվի տեսակը
 account-hub-email-protocol-select-additional-info = Այս հաշիվը կարգավորելու համար անհրաժեշտ են լրացուցիչ տեղեկություններ։
-account-hub-email-config-found = Ընտրեք ձեր էլփոստի հաշվի տեսակը
 account-hub-test-configuration = Փորձարկել
 account-hub-result-imap-description = Պահպանեք ձեր պանակներն ու էլ. փոստերը համաժամեցված ձեր սպասարկիչում
 account-hub-result-pop-description = Պահպանեք ձեր պանակներն ու էլ. փոստերը համաժամեցված ձեր սպասարկիչում
@@ -215,7 +201,6 @@ account-hub-result-ews-shortname = Փոխանակել
 account-hub-result-ews-text = Սպասարկիչ
 account-hub-result-recommended-label = Խորհուրդ է տրվում՝
 account-hub-edit-configuration = Խմբագրել կազմաձևը
-account-hub-config-success = Կազմաձևը գտնվել է Mozilla ISPDB-ում
 account-hub-select-all = Նշել բոլորը
 account-hub-deselect-all = Ապանշել բոլորը
 # $count (Number) - The number of sync accounts selected.
@@ -242,7 +227,6 @@ account-hub-address-book-sync-books-data =
         [one] Հասանելի է 1 հասցեագիրք
        *[other] Հասանելի է { $addressBooks } հասցեագիրք
     }
-account-hub-fetching-sync-accounts = Հասցեների գրքերի և օրացույցների հայտնաբերում…
 address-book-sync-existing-description = Առկա հաշիվների վերականգնում…
 account-hub-select-address-book-account = Ընտրեք հաշիվ հասցեագրքերով
 # $synced (Number) - The number of address books that are synced.

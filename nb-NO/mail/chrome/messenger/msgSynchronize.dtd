@@ -18,5 +18,3 @@
 <!ENTITY selectButton.label "Velg …">
 <!ENTITY selectButton.accesskey "V">
 <!ENTITY MsgSelectDesc.label "Velg e-postmappene og nyhetsgruppene du ønsker å bruke frakoblet.">
-<!ENTITY MsgSelectInd.label "Last ned">
-<!ENTITY MsgSelectItems.label "Mapper og nyhetsgrupper">

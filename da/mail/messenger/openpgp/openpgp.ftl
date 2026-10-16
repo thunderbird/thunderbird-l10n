@@ -422,7 +422,6 @@ key-verification = Bekræft nøglens fingeraftryk gennem en sikker kommunikation
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Kunne ikke sende meddelelsen, fordi der er et problem med din personlige nøgle. { $problem }
-window-locked = Skrivevinduet er låst; afsendelse annulleret
 
 ## Strings in keyserver.sys.mjs
 
@@ -456,9 +455,6 @@ converter-decrypt-body-failed =
 ## Strings filters.sys.mjs
 
 filter-folder-required = Du skal vælge en destinationsmappe.
-filter-decrypt-move-warn-experimental =
-    Advarsel - filterhandlingen "Dekrypter permanent" kan føre til ødelagte meddelelser.
-    Vi anbefaler kraftigt, at du først prøver filteret "Opret dekrypteret kopi", tester resultatet omhyggeligt og først begynder at bruge dette filter, når du er tilfreds med resultatet.
 filter-term-pgpencrypted-label = OpenPGP-krypteret
 filter-key-required = Du skal vælge en modtagernøgle.
 # Variables:
@@ -621,7 +617,6 @@ fail-key-import = Fejl - nøgleimport mislykkedes
 # $output (String) - File that writing was attempted to.
 file-write-failed = Kunne ikke skrive til filen { $output }
 no-pgp-block = Fejl - Ingen gyldig beskyttet OpenPGP-datablok fundet
-confirm-permissive-import = Import mislykkedes. Den nøgle, du prøver at importere, kan være beskadiget eller bruge ukendte attributter. Vil du prøve at importere de korrekte dele? Dette kan resultere i import af ufuldstændige og ubrugelige nøgler.
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = Nogle af de importerede hemmelige nøgler tilbyder en ikke-understøttet funktion. Hvis du benytter en sådan nøgle som din personlige nøgle, kan afsendere sende dig mails eller offentlige nøgler i et inkompatibelt format. Det gælder for de importerede nøgler med følgende fingeraftryk: { $fingerprints }.
@@ -680,9 +675,6 @@ key-man-button-generate-key-continue = &Fortsæt nøglegenerering
 
 failed-decrypt = Fejl - dekryptering mislykkedes
 fix-broken-exchange-msg-failed = Denne meddelelse kunne ikke repareres.
-# Variables:
-# $attachment (String) - File name of the signature file.
-attachment-no-match-from-signature = Kunne ikke matche signaturfilen '{ $attachment }' til en vedhæftet fil
 # Variables:
 # Variables:
 # $attachment (String) - File name of the attachment.
@@ -788,8 +780,3 @@ enig-confirm = OpenPGP-bekræftelse
 
 dlg-button-retry = &Forsøg igen
 dlg-button-skip = &Spring over
-
-## Strings used in enigmailMsgBox.js
-
-enig-alert-title =
-    .title = OpenPGP-advarsel

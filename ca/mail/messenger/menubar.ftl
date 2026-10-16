@@ -84,12 +84,6 @@ quit-app-shortcut =
 
 ## Mail Toolbar
 
-toolbar-junk-button =
-    .label = Correu brossa
-    .tooltiptext = Marca els missatges seleccionats com a correu brossa
-toolbar-not-junk-button =
-    .label = No és correu brossa
-    .tooltiptext = Marca els missatges seleccionats com a correu legítim
 toolbar-delete-button =
     .label = Suprimeix
     .tooltiptext = Suprimeix els missatges o carpetes seleccionats

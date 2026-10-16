@@ -14,24 +14,10 @@
 <!ENTITY autosyncNotDownload.accesskey "m">
 <!ENTITY kb.label "kB">
 <!ENTITY daysOld.label "dies">
-<!ENTITY message.label "messages">
 <!ENTITY nntpNotDownloadRead.label "Leger le messages">
 <!ENTITY nntpNotDownloadRead.accesskey "r">
 <!ENTITY nntpDownloadMsg.label "Messages major de">
 <!ENTITY nntpDownloadMsg.accesskey "j">
-<!ENTITY retentionCleanup.label "Pro recuperar spatio de disco, messages ancian pote esser delite permanentemente.">
-<!ENTITY retentionCleanupImap.label "Pro recuperar spatio de disco, messages ancian pote esser delite permanentemente, tanto le copias local como le originales sur le servitor remote.">
-<!ENTITY retentionCleanupPop.label "Pro recuperar spatio de disco, messages ancian pote esser delite permanentemente, incluse le originales sur le servitor remote.">
-<!ENTITY retentionKeepMsg.label "Deler messages major de">
-<!ENTITY retentionKeepMsg.accesskey "r">
-<!ENTITY retentionKeepAll.label "Non deler messages major de">
-<!ENTITY retentionKeepAll.accesskey "n">
-<!ENTITY retentionKeepRecent.label "Deler toto salvo le plus recente">
-<!ENTITY retentionKeepRecent.accesskey "s">
-<!ENTITY retentionApplyToFlagged.label "Mantene sempre messages stellate">
-<!ENTITY retentionApplyToFlagged.accesskey "M">
-<!ENTITY nntpRemoveMsgBody.label "Remove corpores del messages major de">
-<!ENTITY nntpRemoveMsgBody.accesskey "a">
 <!ENTITY offlineSelectNntp.label "Selige gruppos pro uso foras de linea…">
 <!ENTITY offlineSelectNntp.accesskey "S">
 <!ENTITY offlineImapAdvancedOffline.label "Avantiate…">

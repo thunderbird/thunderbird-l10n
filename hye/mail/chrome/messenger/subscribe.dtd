@@ -3,10 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY subscribeDialog.title "Բաժանորդագրուել">
-<!ENTITY subscribeButton.label "Բաժանորդագրուել">
-<!ENTITY subscribeButton.accesskey "Բ">
-<!ENTITY unsubscribeButton.label "Չեղարկել բաժանորդագրութիւնը">
-<!ENTITY unsubscribeButton.accesskey "Չ">
 <!ENTITY newGroupsTab.label "Նոր խմբեր">
 <!ENTITY newGroupsTab.accesskey "Ն">
 <!ENTITY refreshButton.label "Թարմացնել">

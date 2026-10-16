@@ -31,8 +31,6 @@
 <!ENTITY hdrFollowupButton1.tooltip "Адправіць адказ у гэту групу навін">
 <!ENTITY hdrForwardButton1.label "Пераслаць">
 <!ENTITY hdrForwardButton1.tooltip "Пераслаць гэта паведамленне">
-<!ENTITY hdrJunkButton1.label "Спам">
-<!ENTITY hdrJunkButton1.tooltip "Пазначыць гэта паведамленне як спам">
 <!ENTITY hdrTrashButton1.label "Выдаліць">
 <!ENTITY hdrTrashButton1.tooltip "Выдаліць гэта паведамленне">
 <!ENTITY hdrViewToolbarShowFull.label "Паказваць значкі і тэкст">

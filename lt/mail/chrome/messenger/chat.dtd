@@ -23,8 +23,6 @@
 <!ENTITY closeConversationCmd.accesskey "b">
 <!ENTITY aliasCmd.label "Pervardyti">
 <!ENTITY aliasCmd.accesskey "v">
-<!ENTITY deleteCmd.label "Pašalinti adresatą">
-<!ENTITY deleteCmd.accesskey "š">
 <!ENTITY openConversationButton.tooltip "Pradėti pokalbį">
 <!ENTITY closeConversationButton.tooltip "Užbaigti pokalbį">
 <!ENTITY addBuddyButton.label "Pridėti adresatą">

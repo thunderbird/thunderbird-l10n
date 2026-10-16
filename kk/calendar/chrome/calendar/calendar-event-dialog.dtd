@@ -180,8 +180,6 @@
 <!ENTITY event.calendar.accesskey "К">
 <!ENTITY event.attendees.label "Қатысушылар">
 <!ENTITY event.attendees.accesskey "с">
-<!ENTITY event.alldayevent.label "Толық күн оқиғасы">
-<!ENTITY event.alldayevent.accesskey "к">
 <!ENTITY event.from.label "Бастау:">
 <!ENTITY event.from.accesskey "Б">
 <!ENTITY task.from.label "Бастау:">
@@ -262,13 +260,6 @@
 <!ENTITY event.recurrence.monthly.fourth.label "Төртінші">
 <!ENTITY event.recurrence.monthly.fifth.label "Бесінші">
 <!ENTITY event.recurrence.monthly.last.label "Соңғы">
-<!ENTITY event.recurrence.pattern.monthly.week.1.label "Жексенбі">
-<!ENTITY event.recurrence.pattern.monthly.week.2.label "Дүйсенбі">
-<!ENTITY event.recurrence.pattern.monthly.week.3.label "Сейсенбі">
-<!ENTITY event.recurrence.pattern.monthly.week.4.label "Сәрсенбі">
-<!ENTITY event.recurrence.pattern.monthly.week.5.label "Бейсенбі">
-<!ENTITY event.recurrence.pattern.monthly.week.6.label "Жұма">
-<!ENTITY event.recurrence.pattern.monthly.week.7.label "Сенбі">
 <!ENTITY event.recurrence.repeat.dayofmonth.label "Ай күні">
 <!ENTITY event.recurrence.repeat.recur.label "Күн(дер)де қайталау">
 <!ENTITY event.recurrence.every.label "Әрбір:">
@@ -281,18 +272,6 @@
      event.recurrence.pattern.yearly.of.label is "of" in
      Edit recurrence window -> Recurrence pattern -> Repeat yearly -->
 <!ENTITY event.recurrence.pattern.yearly.of.label "">
-<!ENTITY event.recurrence.pattern.yearly.month.1.label "Қаңтар">
-<!ENTITY event.recurrence.pattern.yearly.month.2.label "Ақпан">
-<!ENTITY event.recurrence.pattern.yearly.month.3.label "Наурыз">
-<!ENTITY event.recurrence.pattern.yearly.month.4.label "Сәуір">
-<!ENTITY event.recurrence.pattern.yearly.month.5.label "Мамыр">
-<!ENTITY event.recurrence.pattern.yearly.month.6.label "Маусым">
-<!ENTITY event.recurrence.pattern.yearly.month.7.label "Шілде">
-<!ENTITY event.recurrence.pattern.yearly.month.8.label "Тамыз">
-<!ENTITY event.recurrence.pattern.yearly.month.9.label "Қыркүйек">
-<!ENTITY event.recurrence.pattern.yearly.month.10.label "Қазан">
-<!ENTITY event.recurrence.pattern.yearly.month.11.label "Қараша">
-<!ENTITY event.recurrence.pattern.yearly.month.12.label "Желтоқсан">
 <!ENTITY event.recurrence.yearly.every.label "Әрбір">
 <!ENTITY event.recurrence.yearly.first.label "Бірінші">
 <!ENTITY event.recurrence.yearly.second.label "Екінші">
@@ -300,27 +279,8 @@
 <!ENTITY event.recurrence.yearly.fourth.label "Төртінші">
 <!ENTITY event.recurrence.yearly.fifth.label "Бесінші">
 <!ENTITY event.recurrence.yearly.last.label "Соңғы">
-<!ENTITY event.recurrence.pattern.yearly.week.1.label "Жексенбі">
-<!ENTITY event.recurrence.pattern.yearly.week.2.label "Дүйсенбі">
-<!ENTITY event.recurrence.pattern.yearly.week.3.label "Сейсенбі">
-<!ENTITY event.recurrence.pattern.yearly.week.4.label "Сәрсенбі">
-<!ENTITY event.recurrence.pattern.yearly.week.5.label "Бейсенбі">
-<!ENTITY event.recurrence.pattern.yearly.week.6.label "Жұма">
-<!ENTITY event.recurrence.pattern.yearly.week.7.label "Сенбі">
 <!ENTITY event.recurrence.pattern.yearly.day.label "күн">
 <!ENTITY event.recurrence.of.label "барлығы">
-<!ENTITY event.recurrence.pattern.yearly.month2.1.label "Қаңтар">
-<!ENTITY event.recurrence.pattern.yearly.month2.2.label "Ақпан">
-<!ENTITY event.recurrence.pattern.yearly.month2.3.label "Наурыз">
-<!ENTITY event.recurrence.pattern.yearly.month2.4.label "Сәуір">
-<!ENTITY event.recurrence.pattern.yearly.month2.5.label "Мамыр">
-<!ENTITY event.recurrence.pattern.yearly.month2.6.label "Маусым">
-<!ENTITY event.recurrence.pattern.yearly.month2.7.label "Шілде">
-<!ENTITY event.recurrence.pattern.yearly.month2.8.label "Тамыз">
-<!ENTITY event.recurrence.pattern.yearly.month2.9.label "Қыркүйек">
-<!ENTITY event.recurrence.pattern.yearly.month2.10.label "Қазан">
-<!ENTITY event.recurrence.pattern.yearly.month2.11.label "Қараша">
-<!ENTITY event.recurrence.pattern.yearly.month2.12.label "Желтоқсан">
 <!ENTITY event.recurrence.range.label "Қайталануы аумағы">
 <!ENTITY event.recurrence.forever.label "Аяқтау күні жоқ">
 <!ENTITY event.recurrence.repeat.for.label "Жасау">

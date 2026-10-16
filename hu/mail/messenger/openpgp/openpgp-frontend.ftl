@@ -43,13 +43,8 @@ openpgp-cannot-decrypt-because-mdc =
     Az is lehet, hogy továbbítás során módosítva lett, a tartalma ellopása céljából.
     E kockázat elkerülése érdekében a tartalom nem jelenik meg.
 openpgp-cannot-decrypt-because-missing-key = Az üzenet visszafejtéséhez szükséges titkos kulcs nem érhető el.
-openpgp-partially-signed =
-    Az üzenet csak egy része volt OpenPGP-vel digitálisan aláírva.
-    Ha rákattint az ellenőrzés gombra, akkor a nem védett részek rejtve lesznek, és megjelenik a digitális aláírás.
 openpgp-partially-encrypted =
     Az üzenet csak egy része volt OpenPGP-vel titkosítva.
     Ha rákattint a visszafejtés gombra, akkor a nem védett részek rejtve lesznek, és megjelenik a digitális aláírás.
-openpgp-reminder-partial-display = Emlékeztető: Az alább látható üzenet csak az eredeti üzenet egy részét tartalmazza.
-openpgp-partial-verify-button = Ellenőrzés
 openpgp-partial-decrypt-button = Visszafejtés
 openpgp-unexpected-key-for-you = Figyelmeztetés: Ez az üzenet egy ismeretlen OpenPGP-kulcsot tartalmaz, amely az egyik saját e-mail címére hivatkozik. Ha ez nem az Ön egyik kulcsa, akkor ez egy a levelezőpartnerei becsapására irányuló kísérlet lehet.

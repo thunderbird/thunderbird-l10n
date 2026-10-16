@@ -16,7 +16,6 @@ webext-perms-description-addressBooks = Читати й змінювати ва�
 webext-perms-description-compose = Читайте та змінюйте електронні повідомлення під час їх створення та надсилання
 webext-perms-description-compose-send = Надсилати складені повідомлення електронної пошти від вашого імені
 webext-perms-description-compose-save = Зберегти створені повідомлення електронної пошти до чернеток або шаблонів
-webext-perms-description-experiment = Має повний, необмежений доступ до { -brand-short-name } та вашого комп'ютера
 webext-perms-description-messagesImport = Імпорт повідомлень у Thunderbird
 webext-perms-description-messagesModify = Читайте та змінюйте свої повідомлення електронної пошти, коли їх показано вам
 webext-perms-description-messagesModifyPermanent = Назавжди змінити джерело ваших повідомлень (включно із заголовками, текстом і вкладеннями)

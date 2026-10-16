@@ -3,10 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY subscribeDialog.title "Koumanantiñ">
-<!ENTITY subscribeButton.label "Koumanantiñ">
-<!ENTITY subscribeButton.accesskey "o">
-<!ENTITY unsubscribeButton.label "Digoumanantiñ">
-<!ENTITY unsubscribeButton.accesskey "D">
 <!ENTITY newGroupsTab.label "Strolladoù-keleier">
 <!ENTITY newGroupsTab.accesskey "S">
 <!ENTITY refreshButton.label "Azbevaat">

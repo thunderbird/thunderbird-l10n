@@ -14,24 +14,10 @@
 <!ENTITY autosyncNotDownload.accesskey "m">
 <!ENTITY kb.label "kB">
 <!ENTITY daysOld.label "giorni">
-<!ENTITY message.label "messaggi più recenti">
 <!ENTITY nntpNotDownloadRead.label "Messaggi già letti">
 <!ENTITY nntpNotDownloadRead.accesskey "g">
 <!ENTITY nntpDownloadMsg.label "Messaggi più vecchi di">
 <!ENTITY nntpDownloadMsg.accesskey "v">
-<!ENTITY retentionCleanup.label "Per recuperare spazio su disco è possibile eliminare definitivamente i vecchi messaggi.">
-<!ENTITY retentionCleanupImap.label "Per recuperare spazio su disco è possibile eliminare definitivamente i vecchi messaggi, sia le copie locali sia quelle memorizzate nel server remoto.">
-<!ENTITY retentionCleanupPop.label "Per recuperare spazio su disco è possibile eliminare definitivamente i vecchi messaggi, incluse le copie memorizzate nel server remoto.">
-<!ENTITY retentionKeepMsg.label "Elimina i messaggi più vecchi di">
-<!ENTITY retentionKeepMsg.accesskey "h">
-<!ENTITY retentionKeepAll.label "Non eliminare alcun messaggio">
-<!ENTITY retentionKeepAll.accesskey "c">
-<!ENTITY retentionKeepRecent.label "Elimina tutti eccetto i">
-<!ENTITY retentionKeepRecent.accesskey "n">
-<!ENTITY retentionApplyToFlagged.label "Conserva sempre i messaggi speciali">
-<!ENTITY retentionApplyToFlagged.accesskey "r">
-<!ENTITY nntpRemoveMsgBody.label "Elimina il corpo del messaggio per messaggi più grandi di">
-<!ENTITY nntpRemoveMsgBody.accesskey "o">
 <!ENTITY offlineSelectNntp.label "Selezionare i gruppi di discussione per uso non in linea…">
 <!ENTITY offlineSelectNntp.accesskey "S">
 <!ENTITY offlineImapAdvancedOffline.label "Avanzate…">

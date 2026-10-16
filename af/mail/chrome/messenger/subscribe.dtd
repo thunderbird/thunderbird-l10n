@@ -3,10 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY subscribeDialog.title "Inteken">
-<!ENTITY subscribeButton.label "Inteken">
-<!ENTITY subscribeButton.accesskey "I">
-<!ENTITY unsubscribeButton.label "Afteken">
-<!ENTITY unsubscribeButton.accesskey "A">
 <!ENTITY newGroupsTab.label "Nuwe groepe">
 <!ENTITY newGroupsTab.accesskey "N">
 <!ENTITY refreshButton.label "Verfris">

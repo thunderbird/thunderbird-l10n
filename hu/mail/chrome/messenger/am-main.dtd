@@ -34,9 +34,4 @@
 <!ENTITY attachVCard.accesskey "v">
 <!ENTITY manageIdentities.label "Személyazonosságok kezelése…">
 <!ENTITY manageIdentities.accesskey "a">
-<!-- LOCALIZATION NOTE (smtpName.label) : do not translate "SMTP" in below line -->
-<!ENTITY smtpName.label "Levélküldő kiszolgáló (SMTP):">
-<!ENTITY smtpName.accesskey "k">
 <!ENTITY smtpDefaultServer.label "Alapértelmezett kiszolgáló használata">
-<!ENTITY smtpServerEdit.label "SMTP kiszolgáló szerkesztése…">
-<!ENTITY smtpServerEdit.accesskey "P">

@@ -17,7 +17,6 @@ webext-perms-description-compose = Ανάγνωση και τροποποίησ�
 webext-perms-description-compose-send = Αποστολή συντεθειμένων email εκ μέρους σας
 webext-perms-description-compose-save = Αποθήκευση των μηνυμάτων email ως προσχέδιων ή προτύπων
 webext-perms-description-experiment-access = Αυτό το πρόσθετο θα έχει πλήρη, απεριόριστη πρόσβαση στο { -brand-short-name } και στον υπολογιστή σας.
-webext-perms-description-experiment = Πλήρη, απεριόριστη πρόσβαση στο { -brand-short-name } και στον υπολογιστή σας
 webext-perms-description-messagesImport = Εισαγωγή μηνυμάτων στο Thunderbird
 webext-perms-description-messagesModify = Ανάγνωση και τροποποίηση email ενώ προβάλλονται σε εσάς
 webext-perms-description-messagesModifyPermanent = Μόνιμη τροποποίηση της πηγής των μηνυμάτων σας (συμπεριλαμβανομένων των επικεφαλίδων, του κυρίως κειμένου και των συνημμένων)

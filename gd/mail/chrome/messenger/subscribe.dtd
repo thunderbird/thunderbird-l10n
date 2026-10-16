@@ -3,10 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY subscribeDialog.title "Fo-sgrìobh">
-<!ENTITY subscribeButton.label "Fo-sgrìobh">
-<!ENTITY subscribeButton.accesskey "s">
-<!ENTITY unsubscribeButton.label "Sguir dhen fho-sgrìobhadh">
-<!ENTITY unsubscribeButton.accesskey "u">
 <!ENTITY newGroupsTab.label "Buidhnean ùra">
 <!ENTITY newGroupsTab.accesskey "n">
 <!ENTITY refreshButton.label "Ath-ùraich">

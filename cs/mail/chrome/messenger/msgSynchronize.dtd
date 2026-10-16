@@ -18,5 +18,3 @@
 <!ENTITY selectButton.label "Vybrat…">
 <!ENTITY selectButton.accesskey "V">
 <!ENTITY MsgSelectDesc.label "Vyberte složky s poštou a diskusními příspěvky, které chcete mít k dispozici pro použití v režimu offline. Při výběru více položek se může prodloužit doba ukládání.">
-<!ENTITY MsgSelectInd.label "Stáhnout">
-<!ENTITY MsgSelectItems.label "Složky a diskusní skupiny">

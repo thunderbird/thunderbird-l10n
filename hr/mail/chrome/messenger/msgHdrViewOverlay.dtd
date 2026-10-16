@@ -33,8 +33,6 @@
 <!ENTITY hdrFollowupButton1.tooltip "Pošalji nastavak na ovu interesnu grupu">
 <!ENTITY hdrForwardButton1.label "Proslijedi">
 <!ENTITY hdrForwardButton1.tooltip "Proslijedi ovu poruku">
-<!ENTITY hdrJunkButton1.label "Neželjena pošta">
-<!ENTITY hdrJunkButton1.tooltip "Označi ovu poruku kao neželjenu poštu">
 <!ENTITY hdrTrashButton1.label "Obriši">
 <!ENTITY hdrTrashButton1.tooltip "Obriši ovu poruku">
 <!ENTITY hdrViewToolbarShowFull.label "Prikaži ikone i tekst">

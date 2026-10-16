@@ -4,10 +4,6 @@
 
 open-preferences-sidebar-button2 = การตั้งค่า { -brand-short-name }
 open-addons-sidebar-button = ส่วนเสริมและชุดตกแต่ง
-account-action-add-newsgroup-account =
-    .label = เพิ่มบัญชีกลุ่มข่าว…
-    .accesskey = ก
-account-tree-create-account-button = บัญชีใหม่
 account-tree-add-mail-account =
     .label = บัญชีจดหมาย…
     .accesskey = จ

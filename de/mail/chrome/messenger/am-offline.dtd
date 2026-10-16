@@ -14,24 +14,10 @@
 <!ENTITY autosyncNotDownload.accesskey "N">
 <!ENTITY kb.label "KB">
 <!ENTITY daysOld.label "Tage">
-<!ENTITY message.label "Nachrichten">
 <!ENTITY nntpNotDownloadRead.label "Gelesene Nachrichten">
 <!ENTITY nntpNotDownloadRead.accesskey "G">
 <!ENTITY nntpDownloadMsg.label "Nachrichten, die älter sind als">
 <!ENTITY nntpDownloadMsg.accesskey "a">
-<!ENTITY retentionCleanup.label "Um Speicherplatz zurückzugewinnen, können alte Nachrichten dauerhaft gelöscht werden.">
-<!ENTITY retentionCleanupImap.label "Um Speicherplatz zurückzugewinnen, können alte Nachrichten dauerhaft gelöscht werden, und zwar sowohl lokale Kopien als auch die Originale auf dem Remote-Server.">
-<!ENTITY retentionCleanupPop.label "Um Speicherplatz zurückzugewinnen, können alte Nachrichten dauerhaft gelöscht werden, und zwar einschließlich der Originale auf dem Remote-Server.">
-<!ENTITY retentionKeepMsg.label "Nachrichten, die älter sind als">
-<!ENTITY retentionKeepMsg.accesskey "c">
-<!ENTITY retentionKeepAll.label "Keine Nachrichten">
-<!ENTITY retentionKeepAll.accesskey "r">
-<!ENTITY retentionKeepRecent.label "Alle außer den neuesten">
-<!ENTITY retentionKeepRecent.accesskey "u">
-<!ENTITY retentionApplyToFlagged.label "Gekennzeichnete Nachrichten immer behalten">
-<!ENTITY retentionApplyToFlagged.accesskey "z">
-<!ENTITY nntpRemoveMsgBody.label "Lösche Nachrichteninhalte, die älter sind als">
-<!ENTITY nntpRemoveMsgBody.accesskey "L">
 <!ENTITY offlineSelectNntp.label "Newsgruppen zum Offline-Lesen wählen…">
 <!ENTITY offlineSelectNntp.accesskey "w">
 <!ENTITY offlineImapAdvancedOffline.label "Erweitert…">

@@ -3,10 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY subscribeDialog.title "Tz'ib'anïk b'i'aj">
-<!ENTITY subscribeButton.label "Tz'ib'anïk b'i'aj">
-<!ENTITY subscribeButton.accesskey "T">
-<!ENTITY unsubscribeButton.label "Tiq'at rutz'ib'axik b'i'aj">
-<!ENTITY unsubscribeButton.accesskey "T">
 <!ENTITY newGroupsTab.label "K'ak'a' taq Molaj">
 <!ENTITY newGroupsTab.accesskey "K">
 <!ENTITY refreshButton.label "Titzolïx">

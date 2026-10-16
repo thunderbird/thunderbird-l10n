@@ -29,12 +29,6 @@ menu-help-exit-troubleshoot-mode =
 
 ## Mail Toolbar
 
-toolbar-junk-button =
-    .label = זבל
-    .tooltiptext = סימון ההודעות המסומנות כזבל
-toolbar-not-junk-button =
-    .label = לא זבל
-    .tooltiptext = סימון ההודעות המסומנות כלא זבל
 toolbar-delete-button =
     .label = מחיקה
     .tooltiptext = מחיקת ההודעות או תיקייה המסומנים

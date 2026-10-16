@@ -20,8 +20,6 @@ calendar-enable-button = Rmed
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-context-button =
     .title = Tixtiṛiyin n uwitay { $calendarName }
-calendar-import-new-calendar = Awitay amaynut…
-    .title = Rnu neɣ multeɣ ɣer uwitay amaynut
 calendar-refresh-calendars =
     .title = Sal-id tikkelt niḍen akk iwitayen u mtawi isnifal
 calendar-new-event-primary-button = Rnu tadyant

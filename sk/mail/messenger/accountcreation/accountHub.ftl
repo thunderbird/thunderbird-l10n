@@ -56,14 +56,7 @@ account-hub-email-connect-button = Pripojiť
 account-hub-result-incoming-legend = Prichádzajúce
 account-hub-result-outgoing-legend = Odchádzajúce
 account-hub-all-servers-legend = Všetky servery
-account-hub-incoming-server-legend = Server prichádzajúcej pošty
-account-hub-outgoing-server-legend = Server pre odosielanie pošty
-account-hub-result-incoming-server-legend = Server prichádzajúcej pošty
-    .title = Server prichádzajúcej pošty
-account-hub-result-outgoing-server-legend = Server pre odosielanie pošty
-    .title = Server pre odosielanie pošty
 account-hub-protocol-label = Protokol
-account-hub-hostname-label = Názov servera
 account-hub-result-hostname-label = Názov servera
     .title = Názov servera
 account-hub-result-socket-type-label = Zabezpečenie pripojenia
@@ -94,10 +87,6 @@ account-hub-result-auth-ntlm = NTLM
 account-hub-result-auth-external = Externé
 account-hub-result-auth-oauth2 = OAuth2
 account-hub-on-port-label = Port
-account-hub-result-authentication-label = Overenie
-    .title = Overenie
-account-hub-port-label = Port
-    .title = Pre automatickú detekciu nastavte číslo portu na 0
 account-hub-auto-description = { -brand-short-name } sa pokúsi automaticky zistiť polia, ktoré zostávajú nevyplnené.
 account-hub-ssl-label = Zabezpečenie pripojenia
 
@@ -105,8 +94,6 @@ account-hub-ssl-label = Zabezpečenie pripojenia
 
 account-hub-ssl-autodetect-option =
     .label = Autodetekcia
-account-hub-ssl-no-authentication-option =
-    .label = Žiadne overenia totožnosti
 account-hub-ssl-cleartext-password-option =
     .label = Normálne heslo
 account-hub-ssl-encrypted-password-option =
@@ -268,7 +255,6 @@ account-hub-email-exchange-settings = Nastavenia pre Exchange
 account-hub-email-connect-settings = Pripojiť nastavenia e‑mailu
 account-hub-email-protocol-select-header = Vyberte typ e‑mailového účtu
 account-hub-email-protocol-select-additional-info = Na nastavenie tohto účtu sú potrebné ďalšie informácie.
-account-hub-email-config-found = Vyberte typ svojho e‑mailového účtu
 account-hub-email-enter-password = Zadajte heslo k svojmu e‑mailovému účtu
 account-hub-email-sync-accounts = Synchronizovať kalendáre a adresáre
 account-hub-test-configuration = Otestovať
@@ -295,7 +281,6 @@ account-hub-config-success-description-guess = Konfigurácia nájdená vyskúša
 account-hub-config-success-description-disk = Konfigurácia bola nájdená v inštalácii { -brand-short-name(case: "gen") }.
 account-hub-config-success-description-isp = Konfigurácia bola nájdená u poskytovateľa e‑mailu.
 account-hub-config-success-description-read-more = Môžete si <a data-l10n-name="automated-setup-link">prečítať o tom, ako funguje automatické nastavenie e‑mailu</a>.
-account-hub-config-success = Konfigurácia bola nájdená v databáze Mozilla ISPDB
 account-hub-password-info = Vaše prihlasovacie údaje budú uložené iba lokálne vo vašom počítači
 account-hub-creating-account = Vytvára sa účet…
 account-hub-sync-accounts-found = { -brand-short-name } našiel nejaké pripojené služby
@@ -328,10 +313,8 @@ account-hub-username-error-text = Meno používateľa je povinná položka
 account-hub-manual-config-error-summary = Prosím, vyriešte nasledujúce chyby:
 account-hub-oauth-pending = Čaká sa na autorizáciu v prihlasovacom vyskakovacom okne…
 account-hub-addon-install-button = Nainštalovať
-account-hub-addon-install-needed = { -brand-short-name } tento server natívne nepodporuje. Ak chcete získať prístup k e‑mailu typu Exchange, <a data-l10n-name="addon-install">nainštalujte si doplnok tretej strany, ako je napríklad Owl (platený)</a>.
 account-hub-addon-error = Inštalácia doplnku zlyhala. Skúste to znova alebo požiadajte o pomoc autora doplnku.
 account-hub-select-security-warning = <span data-l10n-name="error-text">Upozornenie: zistil sa nezabezpečený poštový server.</span> Tento server nemá šifrovanie, čo prezrádza vaše heslo a údaje. Ak chcete zabezpečiť pripojenie, kontaktujte svojho správcu alebo pokračujte na vlastné riziko. Ďalšie informácie nájdete v <a data-l10n-name="error-link">najčastejšie kladených otázkach</a>.
-account-hub-security-warning = <span data-l10n-name="security-warning">Upozornenie: zistil sa nezabezpečený poštový server.</span> Tento server nemá šifrovanie, čo prezrádza vaše heslo a údaje. Ak chcete zabezpečiť pripojenie, kontaktujte svojho správcu alebo pokračujte na vlastné riziko. Ďalšie informácie nájdete v <a data-l10n-name="faq-link">najčastejšie kladených otázkach</a>.
 account-hub-account-authentication-error = Chyba overenia.
 account-hub-add-address-book = Pridať adresár
 address-book-sync-existing-icon =
@@ -363,7 +346,6 @@ account-hub-address-book-sync-books-data =
         [many] { $addressBooks } dostupných adresárov
        *[other] { $addressBooks } dostupných adresárov
     }
-account-hub-fetching-sync-accounts = Vyhľadávajú sa adresáre a kalendáre…
 address-book-sync-existing-description = Získavajú sa existujúce účty…
 account-hub-select-address-book-account = Vyberte účet s adresármi
 # $synced (Number) - The number of address books that are synced.

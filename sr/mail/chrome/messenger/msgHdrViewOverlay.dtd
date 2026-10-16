@@ -33,8 +33,6 @@
 <!ENTITY hdrFollowupButton1.tooltip "Надовежи се на ову новинску групу">
 <!ENTITY hdrForwardButton1.label "Проследи">
 <!ENTITY hdrForwardButton1.tooltip "Проследи ову поруку">
-<!ENTITY hdrJunkButton1.label "Непожељно">
-<!ENTITY hdrJunkButton1.tooltip "Обележи ову поруку као непожељну">
 <!ENTITY hdrTrashButton1.label "Обриши">
 <!ENTITY hdrTrashButton1.tooltip "Обриши ову поруку">
 <!ENTITY hdrViewToolbarShowFull.label "Прикажи иконице и текст">

@@ -56,14 +56,7 @@ account-hub-email-connect-button = Konektatu
 account-hub-result-incoming-legend = Sarrerakoa
 account-hub-result-outgoing-legend = Irteerakoa
 account-hub-all-servers-legend = Zerbitzari guztiak
-account-hub-incoming-server-legend = Hartzeko zerbitzaria
-account-hub-outgoing-server-legend = Posta bidaltzeko zerbitzaria
-account-hub-result-incoming-server-legend = Hartzeko zerbitzaria
-    .title = Hartzeko zerbitzaria
-account-hub-result-outgoing-server-legend = Posta bidaltzeko zerbitzaria
-    .title = Posta bidaltzeko zerbitzaria
 account-hub-protocol-label = Protokoloa
-account-hub-hostname-label = Ostalari-izena
 account-hub-result-hostname-label = Ostalari-izena
     .title = Ostalari-izena
 account-hub-result-socket-type-label = Konexioaren segurtasuna
@@ -101,10 +94,6 @@ account-hub-result-auth-external = Kanpokoa
 account-hub-result-auth-oauth2 = OAuth2
     .title = OAuth2
 account-hub-on-port-label = Ataka
-account-hub-result-authentication-label = Autentifikazioa
-    .title = Autentifikazioa
-account-hub-port-label = Ataka
-    .title = Ezarri ataka zenbakia 0 auto-detektatzeko
 account-hub-auto-description = { -brand-short-name } hutsik dauden eremuak auto-detektatzen saiatuko da.
 account-hub-ssl-label = Konexioaren segurtasuna
 
@@ -112,8 +101,6 @@ account-hub-ssl-label = Konexioaren segurtasuna
 
 account-hub-ssl-autodetect-option =
     .label = Autodetektatu
-account-hub-ssl-no-authentication-option =
-    .label = Autentifikaziorik ez
 account-hub-ssl-cleartext-password-option =
     .label = Pasahitz arrunta
 account-hub-ssl-encrypted-password-option =
@@ -274,7 +261,6 @@ account-hub-email-exchange-settings = Exchange ezarpenak
 account-hub-email-connect-settings = Konektatu zure posta elektronikoko ezarpenak
 account-hub-email-protocol-select-header = Aukeratu posta elektronikoaren kontu mota
 account-hub-email-protocol-select-additional-info = Informazio gehigarria behar da kontu hau konfiguratzeko.
-account-hub-email-config-found = Aukeratu zure posta elektroniko kontu mota
 account-hub-email-enter-password = Sartu helbide elektronikoaren pasahitza
 account-hub-email-sync-accounts = Sinkronizatu zure egutegi eta helbide-liburuak
 account-hub-test-configuration = Probatu
@@ -301,7 +287,6 @@ account-hub-config-success-description-guess = Konfigurazioa aurkitu da ohiko ze
 account-hub-config-success-description-disk = Konfigurazioa aurkitu da { -brand-short-name } instalazioan.
 account-hub-config-success-description-isp = Konfigurazioa aurkitu da posta elektronikoaren hornitzailean.
 account-hub-config-success-description-read-more = Posta elektronikoa automatikoki konfiguratzeko prozesuari buruz <a data-l10n-name="automated-setup-link">irakur dezakezu.</a>
-account-hub-config-success = Konfigurazioa aurkitu da Mozilla ISPDBn
 account-hub-password-info = Zure kredentzialak lokalean bakarrik, zure ordenagailuan, gordeko dira
 account-hub-creating-account = Kontua sortzen...
 account-hub-sync-accounts-found = { -brand-short-name }-k konektatutako zerbitzu batzuk aurkitu ditu
@@ -332,10 +317,8 @@ account-hub-username-error-text = Erabiltzaile izena beharrezkoa da
 account-hub-manual-config-error-summary = Mesedez, konpondu ondorengo errore hauek:
 account-hub-oauth-pending = Baimenaren zain saioa hasteko leihoan...
 account-hub-addon-install-button = Instalatu
-account-hub-addon-install-needed = { -brand-short-name }-k ez du jatorrizko zerbitzari hau onartzen. Exchange posta elektronikora sartzeko, <a data-l10n-name="addon-install"> instalatu Owl (ordainpekoa) bezalako hirugarrenen gehigarri bat.</a>
 account-hub-addon-error = Gehigarriaren instalazioak huts egin du. Mesedez, saiatu berriro edo jarri harremanetan gehigarriaren egilearekin laguntza eskatzeko.
 account-hub-select-security-warning = <span data-l10n-name="error-text">Abisua: Posta-zerbitzari ez-segurua detektatu da.</span> Zerbitzari honek ez du enkriptatzerik erabiltzen; horrenbestez, zure pasahitza eta datuak arriskuan jartzen dira. Jarri harremanetan administratzailearekin konexioa segurtatzeko, edo jarraitu zure ardurapean. <a data-l10n-name="error-link">Ikusi ohiko galderak informazio gehiago lortzeko.</a>
-account-hub-security-warning = <span data-l10n-name="security-warning">Abisua: Seguru ez den posta-zerbitzaria detektatu da.</span> Zerbitzari honek ez du enkriptaziorik, zure pasahitza eta datuak agerian utziz. Jarri harremanetan administratzailearekin konexioa ziurtatzeko edo jarraitu zure ardurapean. <a data-l10n-name="faq-link">Ikusi maiz egiten diren galderak informazio gehiago lortzeko</a>.
 account-hub-account-authentication-error = Errorea autentifikatzean.
 account-hub-add-address-book = Gehitu helbide-liburu bat
 address-book-sync-existing-icon =
@@ -365,7 +348,6 @@ account-hub-address-book-sync-books-data =
         [one] Helbide-liburu bat eskuragarri
        *[other] { $addressBooks } helbide-liburu eskuragarri
     }
-account-hub-fetching-sync-accounts = Ezagutu helbide-liburuak eta egutegiak…
 address-book-sync-existing-description = Dauden kontuak berreskuratzen…
 account-hub-select-address-book-account = Hautatu helbide-liburuak dituen kontu bat
 # $synced (Number) - The number of address books that are synced.

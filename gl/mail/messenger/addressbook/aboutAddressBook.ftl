@@ -6,8 +6,6 @@ about-addressbook-title = Axenda de enderezos
 
 ## Toolbar
 
-about-addressbook-toolbar-new-address-book =
-    .label = Nova axenda de enderezos
 about-addressbook-toolbar-add-address-book =
     .label = Engadir unha axenda de enderezos local
 about-addressbook-toolbar-add-carddav-address-book =
@@ -16,8 +14,6 @@ about-addressbook-toolbar-add-ldap-address-book =
     .label = Engadir unha axenda de enderezos LDAP
 books-pane-create-contact-button = Novo contacto
     .title = Crear un novo contacto
-books-pane-create-book-button =
-    .title = Crear unha nova axenda de enderezos
 books-pane-create-list-button =
     .title = Crear unha nova lista de correo
 books-pane-import-button = Importar

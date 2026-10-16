@@ -21,8 +21,6 @@ account-setup-email-info-icon =
     .title = K'o chik ri rochochib'al ataqoya'l
 account-setup-email-warning-icon =
     .title = Man okel ta rochochib'al taqoya'l
-account-setup-password-toggle-hide =
-    .title = Tewäx ewan tzij
 #   YOURDOMAIN refers to the Windows domain in ActiveDirectory. yourusername refers to the user's account name in Windows.
 account-setup-exchange-input =
     .placeholder = YOURDOMAIN\rub'i'okisanel

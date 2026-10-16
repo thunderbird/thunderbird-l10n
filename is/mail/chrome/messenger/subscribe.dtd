@@ -3,11 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY subscribeDialog.title "Gerast áskrifandi">
-<!ENTITY subscribeButton.label "Gerast áskrifandi">
-<!ENTITY subscribeButton.accesskey "G">
-<!ENTITY unsubscribeButton.label "Afpanta áskrift
-">
-<!ENTITY unsubscribeButton.accesskey "A">
 <!ENTITY newGroupsTab.label "Nýir hópar">
 <!ENTITY newGroupsTab.accesskey "N">
 <!ENTITY refreshButton.label "Endurlesa">

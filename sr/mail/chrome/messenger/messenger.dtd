@@ -48,8 +48,6 @@
 <!ENTITY getAllNewMsgCmdPopupMenu.accesskey "л">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.label "Тренутни налог">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.accesskey "Т">
-<!ENTITY getNextNMsgCmd2.label "Добави следеће новинске поруке">
-<!ENTITY getNextNMsgCmd2.accesskey "б">
 <!ENTITY sendUnsentCmd.label "Пошаљи непослате поруке">
 <!ENTITY sendUnsentCmd.accesskey "и">
 <!ENTITY subscribeCmd.label "Претплати се…">
@@ -59,8 +57,6 @@
 <!ENTITY renameFolder.label "Преименуј фасциклу…">
 <!ENTITY renameFolder.accesskey "П">
 <!ENTITY renameFolder.key "VK_F2">
-<!ENTITY compactFolders.label "Сажми фасцикле">
-<!ENTITY compactFolders.accesskey "ф">
 <!ENTITY emptyTrashCmd.label "Испразни смеће">
 <!ENTITY emptyTrashCmd.accesskey "з">
 <!ENTITY offlineMenu.label "Ван мреже">
@@ -129,10 +125,6 @@
 <!ENTITY allFolders.accesskey "С">
 <!ENTITY unreadFolders.label "Непрочитане">
 <!ENTITY unreadFolders.accesskey "Н">
-<!ENTITY favoriteFolders.label "Омиљене">
-<!ENTITY favoriteFolders.accesskey "О">
-<!ENTITY recentFolders.label "Скорашње">
-<!ENTITY recentFolders.accesskey "к">
 <!ENTITY compactVersion.label "Компактни преглед">
 <!ENTITY compactVersion.accesskey "К">
 <!-- Sort Menu -->
@@ -154,8 +146,6 @@
 <!ENTITY sortByStatusCmd.accesskey "т">
 <!ENTITY sortByTagsCmd.label "Ознаке">
 <!ENTITY sortByTagsCmd.accesskey "к">
-<!ENTITY sortByJunkStatusCmd.label "Стање смећа">
-<!ENTITY sortByJunkStatusCmd.accesskey "е">
 <!ENTITY sortBySubjectCmd.label "Наслов">
 <!ENTITY sortBySubjectCmd.accesskey "в">
 <!ENTITY sortByFromCmd.label "Шаље">
@@ -243,7 +233,6 @@
 <!ENTITY findPrevCmd.key2 "VK_F3">
 <!ENTITY searchMailCmd.label "Претражи поруке…">
 <!ENTITY searchMailCmd.accesskey "п">
-<!ENTITY searchMailCmd.key "f">
 <!ENTITY glodaSearchCmd.label "Општа претрага…">
 <!ENTITY glodaSearchCmd.accesskey "г">
 <!ENTITY searchAddressesCmd.label "Претражи адресе…">
@@ -334,17 +323,6 @@
 <!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN">
 <!ENTITY createFilter.label "Направи филтер из поруке…">
 <!ENTITY createFilter.accesskey "а">
-<!ENTITY moveMsgToMenu.label "Помери у">
-<!ENTITY moveMsgToMenu.accesskey "е">
-<!ENTITY moveCopyMsgRecentMenu.label "Скорашње">
-<!ENTITY moveCopyMsgRecentMenu.accesskey "С">
-<!ENTITY copyMessageLocation.label "Копирај локацију поруке">
-<!ENTITY copyMessageLocation.accesskey "п">
-<!ENTITY copyMsgToMenu.label "Копирај у">
-<!ENTITY copyMsgToMenu.accesskey "У">
-<!ENTITY moveToFolderAgain.label "Помери поново">
-<!ENTITY moveToFolderAgain.accesskey "н">
-<!ENTITY moveToFolderAgainCmd.key "m">
 <!ENTITY killThreadMenu.label "Занемари нит">
 <!ENTITY killThreadMenu.accesskey "З">
 <!ENTITY killThreadMenu.key "k">
@@ -356,16 +334,6 @@
 <!ENTITY watchThreadMenu.key "w">
 <!ENTITY tagMenu.label "Означи">
 <!ENTITY tagMenu.accesskey "з">
-<!ENTITY tagCmd0.key "0">
-<!ENTITY tagCmd1.key "1">
-<!ENTITY tagCmd2.key "2">
-<!ENTITY tagCmd3.key "3">
-<!ENTITY tagCmd4.key "4">
-<!ENTITY tagCmd5.key "5">
-<!ENTITY tagCmd6.key "6">
-<!ENTITY tagCmd7.key "7">
-<!ENTITY tagCmd8.key "8">
-<!ENTITY tagCmd9.key "9">
 <!ENTITY markMenu.label "Обележи">
 <!ENTITY markMenu.accesskey "б">
 <!ENTITY toggleReadCmd.key "m">
@@ -385,14 +353,6 @@
 <!ENTITY markStarredCmd.label "Додај звездицу">
 <!ENTITY markStarredCmd.accesskey "з">
 <!ENTITY markStarredCmd.key "S">
-<!ENTITY markAsJunkCmd.label "Као непожељно">
-<!ENTITY markAsJunkCmd.accesskey "е">
-<!ENTITY markAsJunkCmd.key "j">
-<!ENTITY markAsNotJunkCmd.label "Као пожељно">
-<!ENTITY markAsNotJunkCmd.accesskey "н">
-<!ENTITY markAsNotJunkCmd.key "j">
-<!ENTITY recalculateJunkScoreCmd.label "Покрени контролу непожељне поште">
-<!ENTITY recalculateJunkScoreCmd.accesskey "к">
 <!ENTITY openMessageWindowCmd.label "Отвори поруку">
 <!ENTITY openMessageWindowCmd.accesskey "О">
 <!ENTITY openMessageWindowCmd.key "o">
@@ -441,10 +401,6 @@
 <!ENTITY filtersApplyToSelection.accesskey "у">
 <!ENTITY filtersApplyToMessage.label "Изврши филтере над поруком">
 <!ENTITY filtersApplyToMessage.accesskey "у">
-<!ENTITY runJunkControls.label "Изврши контролу непожељне поште над фасциклом">
-<!ENTITY runJunkControls.accesskey "к">
-<!ENTITY deleteJunk.label "Обриши поруке означене као непожељне у фасцикли">
-<!ENTITY deleteJunk.accesskey "б">
 <!ENTITY importCmd.label "Увези…">
 <!ENTITY importCmd.accesskey "з">
 <!ENTITY exportCmd.label "Извези…">
@@ -491,7 +447,6 @@
 <!ENTITY printButton.label "Одштампај">
 <!ENTITY stopButton.label "Заустави">
 <!ENTITY throbberItem.title "Показивач активности">
-<!ENTITY junkItem.title "Непожељно">
 <!ENTITY addressBookButton.label "Именик">
 <!ENTITY chatButton.label "Ћаскај">
 <!ENTITY glodaSearch.title "Глобална претрага">
@@ -553,11 +508,6 @@
 <!ENTITY appmenuNewContactCmd.label "Контакт у именику…">
 <!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Распоред алатних трака…">
-<!-- Tags Menu Popup -->
-<!ENTITY addNewTag.label "Нова ознака…">
-<!ENTITY addNewTag.accesskey "Н">
-<!ENTITY manageTags.label "Управљај ознакама…">
-<!ENTITY manageTags.accesskey "У">
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "Име">
 <!ENTITY folderUnreadColumn.label "Непрочитано">
@@ -580,12 +530,8 @@
 <!ENTITY folderContextRename.accesskey "р">
 <!ENTITY folderContextRemove.label "Обриши">
 <!ENTITY folderContextRemove.accesskey "б">
-<!ENTITY folderContextCompact.label "Сажми">
-<!ENTITY folderContextCompact.accesskey "С">
 <!ENTITY folderContextEmptyTrash.label "Испразни смеће">
 <!ENTITY folderContextEmptyTrash.accesskey "з">
-<!ENTITY folderContextEmptyJunk.label "Испразни непожељно">
-<!ENTITY folderContextEmptyJunk.accesskey "И">
 <!ENTITY folderContextSendUnsentMessages.label "Пошаљи непослате поруке">
 <!ENTITY folderContextSendUnsentMessages.accesskey "и">
 <!ENTITY folderContextUnsubscribe.label "Укини претплату">
@@ -628,7 +574,6 @@
 <!ENTITY accountColumn.label "Налог">
 <!ENTITY statusColumn.label "Стање">
 <!ENTITY sizeColumn.label "Величина">
-<!ENTITY junkStatusColumn.label "Стање непожељности">
 <!ENTITY unreadColumn.label "Непрочитано">
 <!ENTITY totalColumn.label "Укупно">
 <!ENTITY readColumn.label "Прочитано">
@@ -652,7 +597,6 @@
 <!ENTITY accountColumn2.tooltip "Поређај по налогу">
 <!ENTITY statusColumn2.tooltip "Поређај на основу стања">
 <!ENTITY sizeColumn2.tooltip "Поређај по величини">
-<!ENTITY junkStatusColumn2.tooltip "Поређај на основу стања непожељности">
 <!ENTITY unreadColumn2.tooltip "Број непрочитаних порука у овој нити">
 <!ENTITY totalColumn2.tooltip "Укупан број порука у овој нити">
 <!ENTITY readColumn2.tooltip "Поређај по прочитаности">
@@ -691,16 +635,6 @@
 <!ENTITY contextReplyAll.accesskey "в">
 <!ENTITY contextReplyList.label "Одговори на листу">
 <!ENTITY contextReplyList.accesskey "л">
-<!ENTITY contextMoveMsgMenu.label "Помери у">
-<!ENTITY contextMoveMsgMenu.accesskey "П">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Недавна одредишта">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "р">
-<!ENTITY contextMoveCopyMsgRecentMenu.label "Скорашње">
-<!ENTITY contextMoveCopyMsgRecentMenu.accesskey "р">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.label "Омиљено">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.accesskey "О">
-<!ENTITY contextCopyMsgMenu.label "Копирај у">
-<!ENTITY contextCopyMsgMenu.accesskey "У">
 <!ENTITY contextKillThreadMenu.label "Занемари нит">
 <!ENTITY contextKillSubthreadMenu.accesskey "д">
 <!ENTITY contextKillThreadMenu.accesskey "З">

@@ -46,8 +46,6 @@
 <!ENTITY getAllNewMsgCmdPopupMenu.accesskey "A">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.label "Ar gont bremanel">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.accesskey "b">
-<!ENTITY getNextNMsgCmd2.label "Kerc'hat ar posteloù da-heul">
-<!ENTITY getNextNMsgCmd2.accesskey "p">
 <!ENTITY sendUnsentCmd.label "Kas ar c'hemennadennoù a chom er voestad">
 <!ENTITY sendUnsentCmd.accesskey "d">
 <!ENTITY subscribeCmd.label "Koumanantiñ …">
@@ -57,8 +55,6 @@
 <!ENTITY renameFolder.label "Adenvel an teuliad…">
 <!ENTITY renameFolder.accesskey "e">
 <!ENTITY renameFolder.key "VK_F2">
-<!ENTITY compactFolders.label "Koazhañ an teuliadoù">
-<!ENTITY compactFolders.accesskey "z">
 <!ENTITY emptyTrashCmd.label "Goullonderiñ ar gest">
 <!ENTITY emptyTrashCmd.accesskey "G">
 <!ENTITY offlineMenu.label "Ezlinenn">
@@ -127,10 +123,6 @@
 <!ENTITY allFolders.accesskey "P">
 <!ENTITY unreadFolders.label "Anlennet">
 <!ENTITY unreadFolders.accesskey "A">
-<!ENTITY favoriteFolders.label "Gwell ganin">
-<!ENTITY favoriteFolders.accesskey "w">
-<!ENTITY recentFolders.label "Nevesañ">
-<!ENTITY recentFolders.accesskey "v">
 <!ENTITY compactVersion.label "Gwel fetis">
 <!ENTITY compactVersion.accesskey "f">
 <!-- Sort Menu -->
@@ -152,8 +144,6 @@
 <!ENTITY sortByStatusCmd.accesskey "S">
 <!ENTITY sortByTagsCmd.label "Merkoù">
 <!ENTITY sortByTagsCmd.accesskey "G">
-<!ENTITY sortByJunkStatusCmd.label "Stad lastez">
-<!ENTITY sortByJunkStatusCmd.accesskey "S">
 <!ENTITY sortBySubjectCmd.label "Danvez">
 <!ENTITY sortBySubjectCmd.accesskey "D">
 <!ENTITY sortByFromCmd.label "Kaser">
@@ -241,7 +231,6 @@
 <!ENTITY findPrevCmd.key2 "VK_F3">
 <!ENTITY searchMailCmd.label "Klask er c'hemennadennoù…">
 <!ENTITY searchMailCmd.accesskey "m">
-<!ENTITY searchMailCmd.key "f">
 <!ENTITY searchAddressesCmd.label "Klask chomlec'hioù…">
 <!ENTITY searchAddressesCmd.accesskey "s">
 <!-- Go Menu -->
@@ -330,17 +319,6 @@
 <!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN">
 <!ENTITY createFilter.label "Sevel ur sil diouzh ar gemennadenn…">
 <!ENTITY createFilter.accesskey "a">
-<!ENTITY moveMsgToMenu.label "Dilec'hiañ etrezek">
-<!ENTITY moveMsgToMenu.accesskey "l">
-<!ENTITY moveCopyMsgRecentMenu.label "Nevesañ">
-<!ENTITY moveCopyMsgRecentMenu.accesskey "v">
-<!ENTITY copyMessageLocation.label "Eilañ lec'hiadur ar gemennadenn">
-<!ENTITY copyMessageLocation.accesskey "m">
-<!ENTITY copyMsgToMenu.label "Eilañ etrezek">
-<!ENTITY copyMsgToMenu.accesskey "i">
-<!ENTITY moveToFolderAgain.label "Dilec'hiañ c'hoazh">
-<!ENTITY moveToFolderAgain.accesskey "i">
-<!ENTITY moveToFolderAgainCmd.key "m">
 <!ENTITY killThreadMenu.label "Leuskel an neudennad a-gostez">
 <!ENTITY killThreadMenu.accesskey "d">
 <!ENTITY killThreadMenu.key "k">
@@ -352,16 +330,6 @@
 <!ENTITY watchThreadMenu.key "w">
 <!ENTITY tagMenu.label "Merk">
 <!ENTITY tagMenu.accesskey "M">
-<!ENTITY tagCmd0.key "0">
-<!ENTITY tagCmd1.key "1">
-<!ENTITY tagCmd2.key "2">
-<!ENTITY tagCmd3.key "3">
-<!ENTITY tagCmd4.key "4">
-<!ENTITY tagCmd5.key "5">
-<!ENTITY tagCmd6.key "6">
-<!ENTITY tagCmd7.key "7">
-<!ENTITY tagCmd8.key "8">
-<!ENTITY tagCmd9.key "9">
 <!ENTITY markMenu.label "Merkañ">
 <!ENTITY markMenu.accesskey "k">
 <!ENTITY toggleReadCmd.key "m">
@@ -381,14 +349,6 @@
 <!ENTITY markStarredCmd.label "Ouzhpennañ ur steredenn">
 <!ENTITY markStarredCmd.accesskey "s">
 <!ENTITY markStarredCmd.key "S">
-<!ENTITY markAsJunkCmd.label "Evel lastez">
-<!ENTITY markAsJunkCmd.accesskey "s">
-<!ENTITY markAsJunkCmd.key "j">
-<!ENTITY markAsNotJunkCmd.label "Evel prizius">
-<!ENTITY markAsNotJunkCmd.accesskey "p">
-<!ENTITY markAsNotJunkCmd.key "j">
-<!ENTITY recalculateJunkScoreCmd.label "Lañsañ reolerezhioù ar posteloù lastez">
-<!ENTITY recalculateJunkScoreCmd.accesskey "s">
 <!ENTITY openMessageWindowCmd.label "Digeriñ ar gemennadenn">
 <!ENTITY openMessageWindowCmd.accesskey "i">
 <!ENTITY openMessageWindowCmd.key "o">
@@ -437,10 +397,6 @@
 <!ENTITY filtersApplyToSelection.accesskey "c">
 <!ENTITY filtersApplyToMessage.label "Lañsañ ar siloù war ar gemennadenn">
 <!ENTITY filtersApplyToMessage.accesskey "g">
-<!ENTITY runJunkControls.label "Lañsañ reolerezhioù ar posteloù-lastez war an teuliad">
-<!ENTITY runJunkControls.accesskey "r">
-<!ENTITY deleteJunk.label "Dilemel ar posteloù en teuliad a zo merket evel postel-lastez">
-<!ENTITY deleteJunk.accesskey "s">
 <!ENTITY importCmd.label "Enporzhiañ…">
 <!ENTITY importCmd.accesskey "n">
 <!ENTITY clearRecentHistory.label "Skarzhañ ar roll istor nevesañ…">
@@ -485,7 +441,6 @@
 <!ENTITY printButton.label "Moullañ">
 <!ENTITY stopButton.label "Paouez">
 <!ENTITY throbberItem.title "Meneger oberiantiz">
-<!ENTITY junkItem.title "Lastez">
 <!ENTITY addressBookButton.label "Chomlec'hioù">
 <!ENTITY chatButton.label "Postelerezh prim">
 <!ENTITY glodaSearch.title "Klask hollek">
@@ -547,11 +502,6 @@
 <!ENTITY appmenuNewContactCmd.label "Darempred ar c'harned chomlec'hioù …">
 <!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Aozadur ar varrenn ostilhoù…">
-<!-- Tags Menu Popup -->
-<!ENTITY addNewTag.label "Merk nevez…">
-<!ENTITY addNewTag.accesskey "n">
-<!ENTITY manageTags.label "Ardeiñ ar merkoù…">
-<!ENTITY manageTags.accesskey "A">
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "Anv">
 <!ENTITY folderUnreadColumn.label "Anlennet">
@@ -574,12 +524,8 @@
 <!ENTITY folderContextRename.accesskey "d">
 <!ENTITY folderContextRemove.label "Dilemel">
 <!ENTITY folderContextRemove.accesskey "D">
-<!ENTITY folderContextCompact.label "Koazhañ">
-<!ENTITY folderContextCompact.accesskey "K">
 <!ENTITY folderContextEmptyTrash.label "Goullonderiñ ar gest">
 <!ENTITY folderContextEmptyTrash.accesskey "G">
-<!ENTITY folderContextEmptyJunk.label "Goullonderiñ al lastez">
-<!ENTITY folderContextEmptyJunk.accesskey "z">
 <!ENTITY folderContextSendUnsentMessages.label "Kas ar c'hemennadennoù o chom…">
 <!ENTITY folderContextSendUnsentMessages.accesskey "d">
 <!ENTITY folderContextUnsubscribe.label "Digoumanantiñ">
@@ -622,7 +568,6 @@
 <!ENTITY accountColumn.label "Kont">
 <!ENTITY statusColumn.label "Stad">
 <!ENTITY sizeColumn.label "Ment">
-<!ENTITY junkStatusColumn.label "Stad lastez">
 <!ENTITY unreadColumn.label "Anlennet">
 <!ENTITY totalColumn.label "Hollad">
 <!ENTITY readColumn.label "Lennet">
@@ -644,7 +589,6 @@
 <!ENTITY accountColumn2.tooltip "Rummañ dre gont">
 <!ENTITY statusColumn2.tooltip "Rummañ dre stad">
 <!ENTITY sizeColumn2.tooltip "Rummañ dre vent">
-<!ENTITY junkStatusColumn2.tooltip "Rummañ dre stad &quot;lastez&quot;">
 <!ENTITY unreadColumn2.tooltip "Niver a gemennadennoù nevez en neudennad">
 <!ENTITY totalColumn2.tooltip "Hollad kemennadennoù en neudennad-mañ">
 <!ENTITY readColumn2.tooltip "Rummañ dre stad &quot;lenn&quot;">
@@ -682,14 +626,6 @@
 <!ENTITY contextReplyAll.accesskey "R">
 <!ENTITY contextReplyList.label "Respont d'ar roll">
 <!ENTITY contextReplyList.accesskey "l">
-<!ENTITY contextMoveMsgMenu.label "Dilec'hiañ etrezek">
-<!ENTITY contextMoveMsgMenu.accesskey "D">
-<!ENTITY contextMoveCopyMsgRecentMenu.label "Nevesañ">
-<!ENTITY contextMoveCopyMsgRecentMenu.accesskey "v">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.label "Pennrolloù">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.accesskey "P">
-<!ENTITY contextCopyMsgMenu.label "Eilañ etrezek">
-<!ENTITY contextCopyMsgMenu.accesskey "k">
 <!ENTITY contextKillThreadMenu.label "Leuskel an neudenn a-gostez">
 <!ENTITY contextKillSubthreadMenu.accesskey "s">
 <!ENTITY contextKillThreadMenu.accesskey "n">

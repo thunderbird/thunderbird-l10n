@@ -56,14 +56,7 @@ account-hub-email-connect-button = Connecter
 account-hub-result-incoming-legend = Entrante
 account-hub-result-outgoing-legend = Exiente
 account-hub-all-servers-legend = Tote le servitores
-account-hub-incoming-server-legend = Servitor de arrivata
-account-hub-outgoing-server-legend = Servitor in exito
-account-hub-result-incoming-server-legend = Servitor de arrivata
-    .title = Servitor de arrivata
-account-hub-result-outgoing-server-legend = Servitor in exito
-    .title = Servitor in exito
 account-hub-protocol-label = Protocollo
-account-hub-hostname-label = Nomine del hoste
 account-hub-result-hostname-label = Nomine del hoste
     .title = Nomine del hoste
 account-hub-result-socket-type-label = Securitate de connexion
@@ -94,10 +87,6 @@ account-hub-result-auth-ntlm = NTLM
 account-hub-result-auth-external = Externe
 account-hub-result-auth-oauth2 = OAuth2
 account-hub-on-port-label = Porta
-account-hub-result-authentication-label = Authentication
-    .title = Authentication
-account-hub-port-label = Porta
-    .title = Configura le numero de porta a 0 pro auto-detection
 account-hub-auto-description = { -brand-short-name } tentara auto-relevar le campos lassate vacue.
 account-hub-ssl-label = Securitate de connexion
 
@@ -105,8 +94,6 @@ account-hub-ssl-label = Securitate de connexion
 
 account-hub-ssl-autodetect-option =
     .label = Deteger automaticamente
-account-hub-ssl-no-authentication-option =
-    .label = Sin authentication
 account-hub-ssl-cleartext-password-option =
     .label = Contrasigno normal
 account-hub-ssl-encrypted-password-option =
@@ -268,7 +255,6 @@ account-hub-email-exchange-settings = Configurationes de Exchange
 account-hub-email-connect-settings = Connecte tu configurationes de e-mail
 account-hub-email-protocol-select-header = Elige un typo de conto e-mail
 account-hub-email-protocol-select-additional-info = Information additional es necesse pro configurar iste conto.
-account-hub-email-config-found = Selige tu typo de conto email
 account-hub-email-enter-password = Insere le contrasigno de tu conto email
 account-hub-email-sync-accounts = Synchronisa tu agendas e libros de adresses
 account-hub-test-configuration = Testar
@@ -295,7 +281,6 @@ account-hub-config-success-description-guess = Configuration trovate tentante no
 account-hub-config-success-description-disk = Configuration trovate in installation de { -brand-short-name }.
 account-hub-config-success-description-isp = Configuration trovate pro le fornitor de e-mail.
 account-hub-config-success-description-read-more = Tu pote <a data-l10n-name="automated-setup-link">leger re como functiona le installation automatisate de e-mail.</a>
-account-hub-config-success = Configuration trovate in Mozilla ISPDB
 account-hub-password-info = Tu credentiales sera reservate solo localmente su tu computator
 account-hub-creating-account = Creante conto…
 account-hub-sync-accounts-found = { -brand-short-name } discoperiva alcun servicios connexe
@@ -326,10 +311,8 @@ account-hub-username-error-text = Es requirite un nomine de usator
 account-hub-manual-config-error-summary = Solve le errores sequente:
 account-hub-oauth-pending = Attendente autorisation in le fenestra resaltante de connexion…
 account-hub-addon-install-button = Installar
-account-hub-addon-install-needed = { -brand-short-name } non supporta nativemente iste servitor. Pro acceder Exchange email, <a data-l10n-name="addon-install"> installa un additivo de tertie-parte como Owl (pagate).</a>
 account-hub-addon-error = Installation de additivo fallite. Retenta o contacta le autor del additivo pro assistentia.
 account-hub-select-security-warning = <span data-l10n-name="error-text">ATTENTION: Insecur servitor de email detectate.</span> Iste servitor manca de cryptation, exponente tu contrasigno e datos. Contacta tu administrator pro render secur le connexion o continua a tu proprie risco. <a data-l10n-name="error-link">Vider folio a questiones pro plus.</a>
-account-hub-security-warning = <span data-l10n-name="security-warning">Attention: relevate servitor de posta non secur.</span> Iste servitor non dispone di cryptation, exponente tu contrasigno e tu datos. Contactar le administrator pro proteger le connexion o proceder a proprie risco. <a data-l10n-name="faq-link">Pro altere informationes, consulta le FAQ.</a>
 account-hub-account-authentication-error = Error de authentication.
 account-hub-add-address-book = Adder un libro de adresses
 address-book-sync-existing-icon =
@@ -359,7 +342,6 @@ account-hub-address-book-sync-books-data =
         [one] 1 libro de adresses disponibile
        *[other] { $addressBooks } libros de adresses disponibile
     }
-account-hub-fetching-sync-accounts = Discoperiente libros de adresses e agendas…
 address-book-sync-existing-description = Recuperante contos existente…
 account-hub-select-address-book-account = Elige un conto con libros de adresses
 # $synced (Number) - The number of address books that are synced.

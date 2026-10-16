@@ -2,18 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-connection-dns-over-https-url-resolver = Përdor Furnizues
-    .accesskey = P
-# Variables:
-#   $name (String) - Display name or URL for the DNS over HTTPS provider
-connection-dns-over-https-url-item-default =
-    .label = { $name } (Parazgjedhje)
-    .tooltiptext = Për ftillim DNS-je përmes HTTPS-je përdor URL-në parazgjedhje
-connection-dns-over-https-url-custom =
-    .label = Vetjake
-    .tooltiptext = Jepni URL-në tuaj të parapëlqyer për ftillim DNS-je përmes HTTPS-së
-    .accesskey = V
-connection-dns-over-https-custom-label = Vetjake
 connection-dialog-title = Rregullime Lidhjeje
 disable-extension-button = Çaktivizoje Zgjerimin
 # Variables:
@@ -81,6 +69,3 @@ proxy-password-prompt =
 proxy-remote-dns =
     .label = DNS ndërmjetësi, kur përdoret SOCKS v5
     .accesskey = D
-proxy-enable-doh =
-    .label = Aktivizoni DNS përmes HTTPS-je
-    .accesskey = z

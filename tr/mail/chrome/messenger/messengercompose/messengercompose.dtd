@@ -216,7 +216,6 @@
 <!ENTITY smiley7Cmd.label "Kararsız">
 <!ENTITY smiley8Cmd.label "Şaşkın">
 <!ENTITY smiley9Cmd.label "Öpücük">
-<!ENTITY smiley10Cmd.label "Bağıran">
 <!ENTITY smiley11Cmd.label "Sakin">
 <!ENTITY smiley12Cmd.label "Paragöz">
 <!ENTITY smiley13Cmd.label "Zevzek">
@@ -266,12 +265,6 @@
 <!ENTITY convertRegularAttachment.accesskey "E">
 <!ENTITY attachPage.label "Web sayfası ekle…">
 <!ENTITY attachPage.accesskey "W">
-<!-- Attachment Pane Header Bar Context Menu
-     LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
-     Should use the same wording as startExpandedCmd.label
-     in msgHdrViewOverlay.dtd. -->
-<!ENTITY initiallyShowAttachmentPane.label "Ek bölmesini daima göster">
-<!ENTITY initiallyShowAttachmentPane.accesskey "s">
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Sözlük ekle…">
 <!ENTITY spellAddDictionaries.accesskey "S">

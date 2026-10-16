@@ -26,13 +26,3 @@ archive-folder-name-label = 归档
 inbox-folder-name-label = 收件箱
 child-folder-name-label = 收件箱的子文件夹
 sibling-folder-name-label = 收件箱的同级文件夹
-# This should match the default name for the "Archives" folder.
-archive-folder-name =
-    .label = 归档
-# This should match the default name for the "Inbox" folder.
-inbox-folder-name =
-    .label = 收件箱
-child-folder-name =
-    .label = 收件箱的子文件夹
-sibling-folder-name =
-    .label = 收件箱的同级文件夹

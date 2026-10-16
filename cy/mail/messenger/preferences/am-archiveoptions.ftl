@@ -26,13 +26,3 @@ archive-folder-name-label = Archifau
 inbox-folder-name-label = Blwch Derbyn
 child-folder-name-label = Is-ffolder y Blwch Derbyn
 sibling-folder-name-label = Brawd neu chwaer o'r Blwch Derbyn
-# This should match the default name for the "Archives" folder.
-archive-folder-name =
-    .label = Archifau
-# This should match the default name for the "Inbox" folder.
-inbox-folder-name =
-    .label = Derbyn
-child-folder-name =
-    .label = Is-ffolder y Blwch Derbyn
-sibling-folder-name =
-    .label = Brawd neu chwaer o'r Blwch Derbyn

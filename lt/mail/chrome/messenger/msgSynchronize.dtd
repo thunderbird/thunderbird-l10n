@@ -18,5 +18,3 @@
 <!ENTITY selectButton.label "Pasirinkti…">
 <!ENTITY selectButton.accesskey "r">
 <!ENTITY MsgSelectDesc.label "Pažymėkite naujienų grupes ir pašto aplankus, su kuriais norėsite dirbti neprisijungę prie tinklo (jų laiškai bus atsiunčiami į jūsų kompiuterį).">
-<!ENTITY MsgSelectInd.label "Atsiųsti">
-<!ENTITY MsgSelectItems.label "Aplankai ir naujienų grupės">

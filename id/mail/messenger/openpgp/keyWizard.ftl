@@ -125,12 +125,9 @@ openpgp-external-key-title = Kunci GnuPG Eksternal
 openpgp-external-key-description = Konfigurasikan kunci GnuPG eksternal dengan memasukkan ID Kunci
 openpgp-external-key-info = Selain itu, Anda harus menggunakan Manajer Kunci untuk mengimpor dan menerima Kunci Publik yang sesuai.
 openpgp-external-key-warning = <b>Anda hanya dapat mengkonfigurasi satu Kunci GnuPG eksternal.</b> Entri Anda sebelumnya akan diganti.
-openpgp-save-external-button = Simpan ID kunci
 openpgp-external-key-label = ID Kunci Rahasia:
 openpgp-import-own-key-title = Impor kunci publik Anda
 #   $keyId (String) - The Key ID.
 openpgp-import-own-key-description = { -brand-short-name } tidak dapat menemukan kunci publik dengan ID { $keyId }. Harap impor itu untuk melanjutkan.
 #   $keyId (String) - The Key ID.
 openpgp-import-keyid-failed = Tidak dapat mengimpor kunci publik { $keyId } dari berkas itu.
-openpgp-external-key-input =
-    .placeholder = 123456789341298340

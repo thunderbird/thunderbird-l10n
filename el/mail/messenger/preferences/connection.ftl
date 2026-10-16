@@ -2,18 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-connection-dns-over-https-url-resolver = Χρήση παρόχου
-    .accesskey = ρ
-# Variables:
-#   $name (String) - Display name or URL for the DNS over HTTPS provider
-connection-dns-over-https-url-item-default =
-    .label = { $name } (Προεπιλογή)
-    .tooltiptext = Χρήση του προεπιλεγμένου URL για ανάλυση DNS μέσω HTTPS
-connection-dns-over-https-url-custom =
-    .label = Προσαρμοσμένο
-    .tooltiptext = Εισαγάγετε το προτιμώμενο URL σας για επίλυση DNS over HTTPS
-    .accesskey = Π
-connection-dns-over-https-custom-label = Προσαρμοσμένο
 connection-dialog-title = Ρυθμίσεις σύνδεσης
 disable-extension-button = Απενεργοποίηση επέκτασης
 # Variables:
@@ -106,6 +94,3 @@ proxy-password-prompt =
 proxy-remote-dns =
     .label = Διακομιστής μεσολάβησης DNS κατά τη χρήση SOCKS v5
     .accesskey = D
-proxy-enable-doh =
-    .label = Ενεργοποίηση DNS over HTTPS
-    .accesskey = γ

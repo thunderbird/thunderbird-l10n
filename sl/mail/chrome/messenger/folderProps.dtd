@@ -10,22 +10,6 @@
 <!ENTITY folderRebuildSummaryFile.explanation "Včasih se kazalo za mapo (. MSF) poškoduje in je videti, kot da sporočila manjkajo ali pa se izbrisana sporočila zopet pojavijo; če mapo popravite, teh problemov verjetno ne bo več.">
 <!ENTITY folderIncludeInGlobalSearch.label "Vključi sporočila v tej mapi v rezultate Splošnega iskanja">
 <!ENTITY folderIncludeInGlobalSearch.accesskey "V">
-<!ENTITY retention.label "Pravila zadrževanja">
-<!ENTITY retentionUseAccount.label "Uporabi moje nastavitve računa">
-<!ENTITY retentionUseAccount.accesskey "U">
-<!ENTITY daysOld.label "dni">
-<!ENTITY message.label "sporočil">
-<!ENTITY retentionCleanup.label "Prostor na disku lahko prihranite, če trajno izbrišete stara sporočila.">
-<!ENTITY retentionCleanupImap.label "Prostor na disku lahko prihranite, če trajno izbrišete stara sporočila, tako krajevna kot izvirna na oddaljenem strežniku.">
-<!ENTITY retentionCleanupPop.label "Prostor na disku lahko prihranite, če trajno izbrišete stara sporočila, vključno z izvirniki na oddaljenem strežniku.">
-<!ENTITY retentionDeleteMsg.label "Izbriši sporočila, starejša od">
-<!ENTITY retentionDeleteMsg.accesskey "s">
-<!ENTITY retentionKeepAll.label "Ne izbriši nobenih sporočil">
-<!ENTITY retentionKeepAll.accesskey "N">
-<!ENTITY retentionKeepRecent.label "Izbriši vse, razen najnovejših">
-<!ENTITY retentionKeepRecent.accesskey "v">
-<!ENTITY retentionApplyToFlagged.label "Vedno obdrži sporočila z zvezdico">
-<!ENTITY retentionApplyToFlagged.accesskey "s">
 <!ENTITY folderSynchronizationTab.label "Sinhronizacija">
 <!ENTITY folderCheckForNewMessages2.label "Ob prejemu novih sporočil za ta račun vedno preveri to mapo">
 <!ENTITY folderCheckForNewMessages2.accesskey "u">

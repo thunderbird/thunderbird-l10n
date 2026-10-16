@@ -43,14 +43,9 @@ openpgp-cannot-decrypt-because-mdc =
     Den kan være blevet ændret på vejen med henblik på at stjæle dens indhold.
     For at undgå denne risiko, vises indholdet ikke.
 openpgp-cannot-decrypt-because-missing-key = Den hemmelige nøgle, der er nødvendig for at dekryptere denne meddelelse, er ikke tilgængelig.
-openpgp-partially-signed =
-    Kun en del af denne meddelelse er digitalt signeret med OpenPGP.
-    Hvis du klikker på knappen Verificer, skjules de ubeskyttede dele, og status for den digitale signatur vises.
 openpgp-partially-encrypted =
     Kun en del af denne meddelelse er digitalt krypteret med OpenPGP.
     De læsbare dele af meddelelsen som allerede vises her, er ikke krypteret.
     Hvis du klikker på knappen Dekrypter, vises indholdet af de krypterede dele.
-openpgp-reminder-partial-display = Husk: Meddelelsen nedenfor indeholder kun en del af den oprindelige meddelelse.
-openpgp-partial-verify-button = Verificer
 openpgp-partial-decrypt-button = Dekrypter
 openpgp-unexpected-key-for-you = Advarsel: Denne meddelelse indeholder en ukendt OpenPGP-nøgle, der refererer til en af dine egne mailadresser. Hvis dette ikke er en af dine egne nøgler, kan det være et forsøg på at narre andre korrespondenter.

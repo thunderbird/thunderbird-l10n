@@ -49,8 +49,6 @@
 <!ENTITY renameFolder.label "Qovluğun adını dəyişdir…">
 <!ENTITY renameFolder.accesskey "R">
 <!ENTITY renameFolder.key "VK_F2">
-<!ENTITY compactFolders.label "Yığcam Qovluqlar">
-<!ENTITY compactFolders.accesskey "F">
 <!ENTITY emptyTrashCmd.label "Zibili Boşalt">
 <!ENTITY emptyTrashCmd.accesskey "y">
 <!ENTITY offlineMenu.label "Oflayn">

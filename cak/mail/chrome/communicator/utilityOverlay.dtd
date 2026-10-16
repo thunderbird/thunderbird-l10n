@@ -13,8 +13,6 @@
 <!ENTITY undoCmd.accesskey "x">
 <!ENTITY redoCmd.label "Tikamulüx">
 <!ENTITY redoCmd.accesskey "T">
-<!ENTITY deleteCmd.label "Tiyuj">
-<!ENTITY deleteCmd.accesskey "y">
 <!ENTITY customizeCmd.label "Tichinäx">
 <!ENTITY customizeCmd.accesskey "c">
 <!ENTITY viewMenu.label "Titz'et">

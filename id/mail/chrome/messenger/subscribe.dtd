@@ -3,10 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY subscribeDialog.title "Berlangganan">
-<!ENTITY subscribeButton.label "Berlangganan">
-<!ENTITY subscribeButton.accesskey "l">
-<!ENTITY unsubscribeButton.label "Berhenti Langganan">
-<!ENTITY unsubscribeButton.accesskey "i">
 <!ENTITY newGroupsTab.label "Grup Baru">
 <!ENTITY newGroupsTab.accesskey "G">
 <!ENTITY refreshButton.label "Muat Ulang">

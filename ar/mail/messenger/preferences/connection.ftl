@@ -2,7 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-connection-dns-over-https-custom-label = مخصّص
 connection-proxy-legend = اضبط وسطاء الدخول إلى الإنترنت
 proxy-type-no =
     .label = بدون وسيط

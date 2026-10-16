@@ -13,8 +13,6 @@
 <!ENTITY undoCmd.accesskey "D">
 <!ENTITY redoCmd.label "Berregin">
 <!ENTITY redoCmd.accesskey "r">
-<!ENTITY deleteCmd.label "Ezabatu">
-<!ENTITY deleteCmd.accesskey "E">
 <!ENTITY customizeCmd.label "Pertsonalizatu">
 <!ENTITY customizeCmd.accesskey "P">
 <!ENTITY viewMenu.label "Ikusi">

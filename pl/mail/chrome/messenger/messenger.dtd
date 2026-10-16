@@ -48,8 +48,6 @@
 <!ENTITY getAllNewMsgCmdPopupMenu.accesskey "W">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.label "Bieżącego konta">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.accesskey "B">
-<!ENTITY getNextNMsgCmd2.label "Pobierz następne wiadomości">
-<!ENTITY getNextNMsgCmd2.accesskey "t">
 <!ENTITY sendUnsentCmd.label "Wyślij niewysłane wiadomości">
 <!ENTITY sendUnsentCmd.accesskey "W">
 <!ENTITY subscribeCmd.label "Menedżer subskrypcji…">
@@ -59,8 +57,6 @@
 <!ENTITY renameFolder.label "Zmień nazwę folderu…">
 <!ENTITY renameFolder.accesskey "m">
 <!ENTITY renameFolder.key "VK_F2">
-<!ENTITY compactFolders.label "Porządkuj foldery">
-<!ENTITY compactFolders.accesskey "f">
 <!ENTITY emptyTrashCmd.label "Opróżnij kosz">
 <!ENTITY emptyTrashCmd.accesskey "r">
 <!ENTITY offlineMenu.label "Tryb offline">
@@ -129,10 +125,6 @@
 <!ENTITY allFolders.accesskey "W">
 <!ENTITY unreadFolders.label "Nieprzeczytane">
 <!ENTITY unreadFolders.accesskey "N">
-<!ENTITY favoriteFolders.label "Ulubione">
-<!ENTITY favoriteFolders.accesskey "U">
-<!ENTITY recentFolders.label "Ostatnie">
-<!ENTITY recentFolders.accesskey "O">
 <!ENTITY compactVersion.label "Widok kompaktowy">
 <!ENTITY compactVersion.accesskey "k">
 <!-- Sort Menu -->
@@ -154,8 +146,6 @@
 <!ENTITY sortByStatusCmd.accesskey "S">
 <!ENTITY sortByTagsCmd.label "Etykiety">
 <!ENTITY sortByTagsCmd.accesskey "E">
-<!ENTITY sortByJunkStatusCmd.label "Stanu niechcianej poczty">
-<!ENTITY sortByJunkStatusCmd.accesskey "u">
 <!ENTITY sortBySubjectCmd.label "Tematu">
 <!ENTITY sortBySubjectCmd.accesskey "T">
 <!ENTITY sortByFromCmd.label "Nadawcy">
@@ -243,7 +233,6 @@
 <!ENTITY findPrevCmd.key2 "VK_F3">
 <!ENTITY searchMailCmd.label "Wyszukaj wiadomości…">
 <!ENTITY searchMailCmd.accesskey "m">
-<!ENTITY searchMailCmd.key "f">
 <!ENTITY glodaSearchCmd.label "Wyszukaj…">
 <!ENTITY glodaSearchCmd.accesskey "W">
 <!ENTITY searchAddressesCmd.label "Wyszukaj wizytówki…">
@@ -334,17 +323,6 @@
 <!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN">
 <!ENTITY createFilter.label "Utwórz filtr na podstawie wiadomości…">
 <!ENTITY createFilter.accesskey "U">
-<!ENTITY moveMsgToMenu.label "Przenieś do">
-<!ENTITY moveMsgToMenu.accesskey "d">
-<!ENTITY moveCopyMsgRecentMenu.label "Ostatni">
-<!ENTITY moveCopyMsgRecentMenu.accesskey "O">
-<!ENTITY copyMessageLocation.label "Kopiuj adres wiadomości">
-<!ENTITY copyMessageLocation.accesskey "a">
-<!ENTITY copyMsgToMenu.label "Kopiuj do">
-<!ENTITY copyMsgToMenu.accesskey "K">
-<!ENTITY moveToFolderAgain.label "Przenieś ponownie">
-<!ENTITY moveToFolderAgain.accesskey "w">
-<!ENTITY moveToFolderAgainCmd.key "m">
 <!ENTITY killThreadMenu.label "Ignoruj wątek">
 <!ENTITY killThreadMenu.accesskey "I">
 <!ENTITY killThreadMenu.key "k">
@@ -356,16 +334,6 @@
 <!ENTITY watchThreadMenu.key "w">
 <!ENTITY tagMenu.label "Etykieta">
 <!ENTITY tagMenu.accesskey "t">
-<!ENTITY tagCmd0.key "0">
-<!ENTITY tagCmd1.key "1">
-<!ENTITY tagCmd2.key "2">
-<!ENTITY tagCmd3.key "3">
-<!ENTITY tagCmd4.key "4">
-<!ENTITY tagCmd5.key "5">
-<!ENTITY tagCmd6.key "6">
-<!ENTITY tagCmd7.key "7">
-<!ENTITY tagCmd8.key "8">
-<!ENTITY tagCmd9.key "9">
 <!ENTITY markMenu.label "Oznacz">
 <!ENTITY markMenu.accesskey "c">
 <!ENTITY toggleReadCmd.key "m">
@@ -385,14 +353,6 @@
 <!ENTITY markStarredCmd.label "Oznacz gwiazdką">
 <!ENTITY markStarredCmd.accesskey "O">
 <!ENTITY markStarredCmd.key "S">
-<!ENTITY markAsJunkCmd.label "Jako niechcianą">
-<!ENTITY markAsJunkCmd.accesskey "J">
-<!ENTITY markAsJunkCmd.key "j">
-<!ENTITY markAsNotJunkCmd.label "Jako pożądaną">
-<!ENTITY markAsNotJunkCmd.accesskey "n">
-<!ENTITY markAsNotJunkCmd.key "j">
-<!ENTITY recalculateJunkScoreCmd.label "Uruchom filtr niechcianej poczty">
-<!ENTITY recalculateJunkScoreCmd.accesskey "U">
 <!ENTITY openMessageWindowCmd.label "Otwórz wiadomość">
 <!ENTITY openMessageWindowCmd.accesskey "z">
 <!ENTITY openMessageWindowCmd.key "o">
@@ -441,10 +401,6 @@
 <!ENTITY filtersApplyToSelection.accesskey "w">
 <!ENTITY filtersApplyToMessage.label "Zastosuj filtry do wiadomości">
 <!ENTITY filtersApplyToMessage.accesskey "w">
-<!ENTITY runJunkControls.label "Rozpoznaj niechciane w bieżącym folderze">
-<!ENTITY runJunkControls.accesskey "p">
-<!ENTITY deleteJunk.label "Usuń niechciane wiadomości z folderu">
-<!ENTITY deleteJunk.accesskey "e">
 <!ENTITY importCmd.label "Importuj…">
 <!ENTITY importCmd.accesskey "m">
 <!ENTITY exportCmd.label "Eksportuj…">
@@ -491,7 +447,6 @@
 <!ENTITY printButton.label "Drukuj">
 <!ENTITY stopButton.label "Zatrzymaj">
 <!ENTITY throbberItem.title "Wskaźnik aktywności">
-<!ENTITY junkItem.title "Niechciana">
 <!ENTITY addressBookButton.label "Adresy">
 <!ENTITY chatButton.label "Komunikator">
 <!ENTITY glodaSearch.title "Wyszukiwanie">
@@ -553,11 +508,6 @@
 <!ENTITY appmenuNewContactCmd.label "Dodaj kontakt do książki adresowej…">
 <!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Dostosuj pasek narzędzi…">
-<!-- Tags Menu Popup -->
-<!ENTITY addNewTag.label "Nowa etykieta…">
-<!ENTITY addNewTag.accesskey "N">
-<!ENTITY manageTags.label "Zarządzaj etykietami…">
-<!ENTITY manageTags.accesskey "Z">
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "Nazwa">
 <!ENTITY folderUnreadColumn.label "Nieczytane">
@@ -580,12 +530,8 @@
 <!ENTITY folderContextRename.accesskey "Z">
 <!ENTITY folderContextRemove.label "Usuń">
 <!ENTITY folderContextRemove.accesskey "U">
-<!ENTITY folderContextCompact.label "Porządkuj">
-<!ENTITY folderContextCompact.accesskey "d">
 <!ENTITY folderContextEmptyTrash.label "Opróżnij kosz">
 <!ENTITY folderContextEmptyTrash.accesskey "r">
-<!ENTITY folderContextEmptyJunk.label "Opróżnij Niechciane">
-<!ENTITY folderContextEmptyJunk.accesskey "e">
 <!ENTITY folderContextSendUnsentMessages.label "Wyślij oczekujące wiadomości…">
 <!ENTITY folderContextSendUnsentMessages.accesskey "c">
 <!ENTITY folderContextUnsubscribe.label "Zrezygnuj z subskrypcji">
@@ -628,7 +574,6 @@
 <!ENTITY accountColumn.label "Konto">
 <!ENTITY statusColumn.label "Stan">
 <!ENTITY sizeColumn.label "Rozmiar">
-<!ENTITY junkStatusColumn.label "Stan niechcianej poczty">
 <!ENTITY unreadColumn.label "Nieprzeczytane">
 <!ENTITY totalColumn.label "Razem">
 <!ENTITY readColumn.label "Przeczytano">
@@ -652,7 +597,6 @@
 <!ENTITY accountColumn2.tooltip "Sortowanie według konta">
 <!ENTITY statusColumn2.tooltip "Sortowanie według stanu">
 <!ENTITY sizeColumn2.tooltip "Sortowanie według rozmiaru">
-<!ENTITY junkStatusColumn2.tooltip "Sortowanie według stanu niechcianej poczty">
 <!ENTITY unreadColumn2.tooltip "Liczba wszystkich nieprzeczytanych wiadomości w wątku">
 <!ENTITY totalColumn2.tooltip "Liczba wszystkich wiadomości w wątku">
 <!ENTITY readColumn2.tooltip "Sortowanie według liczby przeczytanych wiadomości">
@@ -691,16 +635,6 @@
 <!ENTITY contextReplyAll.accesskey "w">
 <!ENTITY contextReplyList.label "Odpowiedz liście dyskusyjnej">
 <!ENTITY contextReplyList.accesskey "l">
-<!ENTITY contextMoveMsgMenu.label "Przenieś do">
-<!ENTITY contextMoveMsgMenu.accesskey "z">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Ostatnie miejsca docelowe">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "O">
-<!ENTITY contextMoveCopyMsgRecentMenu.label "Ostatni">
-<!ENTITY contextMoveCopyMsgRecentMenu.accesskey "O">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.label "Ulubione">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.accesskey "U">
-<!ENTITY contextCopyMsgMenu.label "Kopiuj do">
-<!ENTITY contextCopyMsgMenu.accesskey "K">
 <!ENTITY contextKillThreadMenu.label "Ignoruj wątek">
 <!ENTITY contextKillSubthreadMenu.accesskey "t">
 <!ENTITY contextKillThreadMenu.accesskey "I">

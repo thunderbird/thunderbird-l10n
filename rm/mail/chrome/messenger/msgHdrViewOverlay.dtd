@@ -33,8 +33,6 @@
 <!ENTITY hdrFollowupButton1.tooltip "Trametter in followup a questa gruppa da discussiun">
 <!ENTITY hdrForwardButton1.label "Renviar">
 <!ENTITY hdrForwardButton1.tooltip "Renviar quest messadi">
-<!ENTITY hdrJunkButton1.label "Nungiavischà">
-<!ENTITY hdrJunkButton1.tooltip "Marcar quest messadi sco nungiavischà">
 <!ENTITY hdrTrashButton1.label "Stizzar">
 <!ENTITY hdrTrashButton1.tooltip "Stizzar quest messadi">
 <!ENTITY hdrViewToolbarShowFull.label "Mussar las iconas ed il text">

@@ -26,13 +26,3 @@ archive-folder-name-label = არქივები
 inbox-folder-name-label = შემოსული
 child-folder-name-label = შემოსულების ქვესაქაღალდე
 sibling-folder-name-label = შემოსულების მშობლის ქვეშ
-# This should match the default name for the "Archives" folder.
-archive-folder-name =
-    .label = არქივები
-# This should match the default name for the "Inbox" folder.
-inbox-folder-name =
-    .label = მიღებული
-child-folder-name =
-    .label = შემოსულების ქვესაქაღალდე
-sibling-folder-name =
-    .label = შემოსულების მშობლის ქვეშ

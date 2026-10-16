@@ -43,14 +43,9 @@ openpgp-cannot-decrypt-because-mdc =
     Pranešima galėjo būti pakeistas tranzito metu, siekiant pavogti jo turinį.
     Norint išvengti šios rizikos, pranešimo turinys nerodomas.
 openpgp-cannot-decrypt-because-missing-key = Nėra slapto rakto, reikalingo iššifruojant šį pranešimą.
-openpgp-partially-signed =
-    Tik dalis šio pranešimo buvo pasirašyta skaitmeniniu būdu naudojant „OpenPGP“.
-    Jei spustelėsite patvirtinimo mygtuką, neapsaugotos dalys bus paslėptos ir bus parodyta skaitmeninio parašo būsena.
 openpgp-partially-encrypted =
     Tik dalis šio pranešimo buvo užšifruota naudojant „OpenPGP“.
     Dabar rodomos pranešimo dalys nebuvo užšifruotos.
     Jei spustelėsite iššifruoti mygtuką, bus parodytas užšifruotų dalių turinys.
-openpgp-reminder-partial-display = Priminimas: žemiau rdomas pranešimas yra tik viso pranešimo dalis.
-openpgp-partial-verify-button = Patikrinti
 openpgp-partial-decrypt-button = Iššifruoti
 openpgp-unexpected-key-for-you = Įspėjimas: Šiame laiške yra nežinomas „OpenPGP“ raktas, kuris nurodo į vieną iš jūsų nuosavų el. pašto adresų. Jeigu tai nėra vienas iš jūsų turimų raktų, gali būti, jog taip bandoma suklaidinti kitus laiško gavėjus.

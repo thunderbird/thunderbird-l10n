@@ -18,5 +18,3 @@
 <!ENTITY selectButton.label "Odaberi…">
 <!ENTITY selectButton.accesskey "E">
 <!ENTITY MsgSelectDesc.label "Odaberi datoteke e-pošte i novinske grupe za izvanmrežno korištenje.">
-<!ENTITY MsgSelectInd.label "Preuzmi">
-<!ENTITY MsgSelectItems.label "Datoteke i novinske grupe">

@@ -2,15 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-new-account-label = Jauns konts
 # Instant messaging account status window for Thunderbird
 accounts-window-title = Tūlītējās ziņojumapmaiņas stāvoklis
 account-manager-add-account =
     .label = { add-account-label }
     .accesskey = P
-account-manager-new-account =
-    .label = { new-account-label }
-    .accesskey = n
 account-manager-close =
     .label = Aizvērt
     .accesskey = i
@@ -18,7 +14,6 @@ account-manager-close-command =
     .key = a
 # This title must be short, displayed with a big font size
 account-manager-no-account-title = Vēl nav konfigurēts neviens konts
-account-manager-no-account-description = Klikšķini uz pogas { new-account-label }, lai ar { -brand-short-name } vedni izietu cauri iestatīšanai.
 account-auto-sign-on =
     .label = Pierakstīšanās palaišanās laikā
     .accesskey = S

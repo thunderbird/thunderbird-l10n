@@ -16,5 +16,4 @@
 <!ENTITY advFeaturesSectionHdr.label "Erweiterte Funktionen">
 <!ENTITY searchMsgsLink.label "Nachrichten suchen">
 <!ENTITY filtersLink.label "Filter erstellen">
-<!ENTITY junkSettings.label "Junk-Filter-Einstellungen">
 <!ENTITY offlineLink.label "Offline-Einstellungen bearbeiten">

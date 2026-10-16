@@ -180,8 +180,6 @@
 <!ENTITY event.calendar.accesskey "z">
 <!ENTITY event.attendees.label "Uczestnicy:">
 <!ENTITY event.attendees.accesskey "U">
-<!ENTITY event.alldayevent.label "Trwa cały dzień">
-<!ENTITY event.alldayevent.accesskey "T">
 <!ENTITY event.from.label "Od:">
 <!ENTITY event.from.accesskey "O">
 <!ENTITY task.from.label "Początek:">
@@ -262,13 +260,6 @@
 <!ENTITY event.recurrence.monthly.fourth.label "4.">
 <!ENTITY event.recurrence.monthly.fifth.label "5.">
 <!ENTITY event.recurrence.monthly.last.label "Ostatni(a)">
-<!ENTITY event.recurrence.pattern.monthly.week.1.label "niedziela">
-<!ENTITY event.recurrence.pattern.monthly.week.2.label "poniedziałek">
-<!ENTITY event.recurrence.pattern.monthly.week.3.label "wtorek">
-<!ENTITY event.recurrence.pattern.monthly.week.4.label "środa">
-<!ENTITY event.recurrence.pattern.monthly.week.5.label "czwartek">
-<!ENTITY event.recurrence.pattern.monthly.week.6.label "piątek">
-<!ENTITY event.recurrence.pattern.monthly.week.7.label "sobota">
 <!ENTITY event.recurrence.repeat.dayofmonth.label "dzień miesiąca">
 <!ENTITY event.recurrence.repeat.recur.label "Powtarzaj w dni">
 <!ENTITY event.recurrence.every.label "Raz na">
@@ -281,18 +272,6 @@
      event.recurrence.pattern.yearly.of.label is "of" in
      Edit recurrence window -> Recurrence pattern -> Repeat yearly -->
 <!ENTITY event.recurrence.pattern.yearly.of.label "">
-<!ENTITY event.recurrence.pattern.yearly.month.1.label "stycznia">
-<!ENTITY event.recurrence.pattern.yearly.month.2.label "lutego">
-<!ENTITY event.recurrence.pattern.yearly.month.3.label "marca">
-<!ENTITY event.recurrence.pattern.yearly.month.4.label "kwietnia">
-<!ENTITY event.recurrence.pattern.yearly.month.5.label "maja">
-<!ENTITY event.recurrence.pattern.yearly.month.6.label "czerwca">
-<!ENTITY event.recurrence.pattern.yearly.month.7.label "lipca">
-<!ENTITY event.recurrence.pattern.yearly.month.8.label "sierpnia">
-<!ENTITY event.recurrence.pattern.yearly.month.9.label "września">
-<!ENTITY event.recurrence.pattern.yearly.month.10.label "października">
-<!ENTITY event.recurrence.pattern.yearly.month.11.label "listopada">
-<!ENTITY event.recurrence.pattern.yearly.month.12.label "grudnia">
 <!ENTITY event.recurrence.yearly.every.label "Każdy(-a)">
 <!ENTITY event.recurrence.yearly.first.label "1.">
 <!ENTITY event.recurrence.yearly.second.label "2.">
@@ -300,27 +279,8 @@
 <!ENTITY event.recurrence.yearly.fourth.label "4.">
 <!ENTITY event.recurrence.yearly.fifth.label "5.">
 <!ENTITY event.recurrence.yearly.last.label "Ostatni(a)">
-<!ENTITY event.recurrence.pattern.yearly.week.1.label "niedziela">
-<!ENTITY event.recurrence.pattern.yearly.week.2.label "poniedziałek">
-<!ENTITY event.recurrence.pattern.yearly.week.3.label "wtorek">
-<!ENTITY event.recurrence.pattern.yearly.week.4.label "środa">
-<!ENTITY event.recurrence.pattern.yearly.week.5.label "czwartek">
-<!ENTITY event.recurrence.pattern.yearly.week.6.label "piątek">
-<!ENTITY event.recurrence.pattern.yearly.week.7.label "sobota">
 <!ENTITY event.recurrence.pattern.yearly.day.label "dnia">
 <!ENTITY event.recurrence.of.label "">
-<!ENTITY event.recurrence.pattern.yearly.month2.1.label "stycznia">
-<!ENTITY event.recurrence.pattern.yearly.month2.2.label "lutego">
-<!ENTITY event.recurrence.pattern.yearly.month2.3.label "marca">
-<!ENTITY event.recurrence.pattern.yearly.month2.4.label "kwietnia">
-<!ENTITY event.recurrence.pattern.yearly.month2.5.label "maja">
-<!ENTITY event.recurrence.pattern.yearly.month2.6.label "czerwca">
-<!ENTITY event.recurrence.pattern.yearly.month2.7.label "lipca">
-<!ENTITY event.recurrence.pattern.yearly.month2.8.label "sierpnia">
-<!ENTITY event.recurrence.pattern.yearly.month2.9.label "września">
-<!ENTITY event.recurrence.pattern.yearly.month2.10.label "października">
-<!ENTITY event.recurrence.pattern.yearly.month2.11.label "listopada">
-<!ENTITY event.recurrence.pattern.yearly.month2.12.label "grudnia">
 <!ENTITY event.recurrence.range.label "Zakres powtarzalności">
 <!ENTITY event.recurrence.forever.label "Bez daty końcowej">
 <!ENTITY event.recurrence.repeat.for.label "Utwórz">

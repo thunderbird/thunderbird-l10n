@@ -48,8 +48,6 @@
 <!ENTITY getAllNewMsgCmdPopupMenu.accesskey "A">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.label "Núverandi reikning">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.accesskey "N">
-<!ENTITY getNextNMsgCmd2.label "Ná í næstu fréttaskilaboð">
-<!ENTITY getNextNMsgCmd2.accesskey "f">
 <!ENTITY sendUnsentCmd.label "Senda ósendan póst">
 <!ENTITY sendUnsentCmd.accesskey "d">
 <!ENTITY subscribeCmd.label "Gerast áskrifandi…">
@@ -59,8 +57,6 @@
 <!ENTITY renameFolder.label "Endurnefna möppu…">
 <!ENTITY renameFolder.accesskey "m">
 <!ENTITY renameFolder.key "VK_F2">
-<!ENTITY compactFolders.label "Þjappa möppur">
-<!ENTITY compactFolders.accesskey "Þ">
 <!ENTITY emptyTrashCmd.label "Tæma rusl">
 <!ENTITY emptyTrashCmd.accesskey "T">
 <!ENTITY offlineMenu.label "Ónettengt">
@@ -129,10 +125,6 @@
 <!ENTITY allFolders.accesskey "A">
 <!ENTITY unreadFolders.label "Ólesið">
 <!ENTITY unreadFolders.accesskey "l">
-<!ENTITY favoriteFolders.label "Eftirlæti">
-<!ENTITY favoriteFolders.accesskey "f">
-<!ENTITY recentFolders.label "Nýlegt">
-<!ENTITY recentFolders.accesskey "N">
 <!ENTITY compactVersion.label "Þjöppuð sýn">
 <!ENTITY compactVersion.accesskey "Þ">
 <!-- Sort Menu -->
@@ -154,8 +146,6 @@
 <!ENTITY sortByStatusCmd.accesskey "ð">
 <!ENTITY sortByTagsCmd.label "Merki">
 <!ENTITY sortByTagsCmd.accesskey "k">
-<!ENTITY sortByJunkStatusCmd.label "Ruslpóstsstöðu">
-<!ENTITY sortByJunkStatusCmd.accesskey "p">
 <!ENTITY sortBySubjectCmd.label "Efni">
 <!ENTITY sortBySubjectCmd.accesskey "n">
 <!ENTITY sortByFromCmd.label "Frá">
@@ -243,7 +233,6 @@
 <!ENTITY findPrevCmd.key2 "VK_F3">
 <!ENTITY searchMailCmd.label "Leita í pósti…">
 <!ENTITY searchMailCmd.accesskey "p">
-<!ENTITY searchMailCmd.key "f">
 <!ENTITY glodaSearchCmd.label "Víðtæk leit…">
 <!ENTITY glodaSearchCmd.accesskey "k">
 <!ENTITY searchAddressesCmd.label "Leita í tengiliðaspjöldum…">
@@ -334,17 +323,6 @@
 <!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN">
 <!ENTITY createFilter.label "Búa til síu út frá pósti…">
 <!ENTITY createFilter.accesskey "u">
-<!ENTITY moveMsgToMenu.label "Færa í">
-<!ENTITY moveMsgToMenu.accesskey "F">
-<!ENTITY moveCopyMsgRecentMenu.label "Nýlegt">
-<!ENTITY moveCopyMsgRecentMenu.accesskey "N">
-<!ENTITY copyMessageLocation.label "Afrita staðsetningu pósts">
-<!ENTITY copyMessageLocation.accesskey "A">
-<!ENTITY copyMsgToMenu.label "Afrita í">
-<!ENTITY copyMsgToMenu.accesskey "i">
-<!ENTITY moveToFolderAgain.label "Færa aftur">
-<!ENTITY moveToFolderAgain.accesskey "æ">
-<!ENTITY moveToFolderAgainCmd.key "m">
 <!ENTITY killThreadMenu.label "Hunsa umræðu">
 <!ENTITY killThreadMenu.accesskey "H">
 <!ENTITY killThreadMenu.key "k">
@@ -356,16 +334,6 @@
 <!ENTITY watchThreadMenu.key "w">
 <!ENTITY tagMenu.label "Merki">
 <!ENTITY tagMenu.accesskey "o">
-<!ENTITY tagCmd0.key "0">
-<!ENTITY tagCmd1.key "1">
-<!ENTITY tagCmd2.key "2">
-<!ENTITY tagCmd3.key "3">
-<!ENTITY tagCmd4.key "4">
-<!ENTITY tagCmd5.key "5">
-<!ENTITY tagCmd6.key "6">
-<!ENTITY tagCmd7.key "7">
-<!ENTITY tagCmd8.key "8">
-<!ENTITY tagCmd9.key "9">
 <!ENTITY markMenu.label "Merkja">
 <!ENTITY markMenu.accesskey "k">
 <!ENTITY toggleReadCmd.key "m">
@@ -385,14 +353,6 @@
 <!ENTITY markStarredCmd.label "Stjörnumerkja">
 <!ENTITY markStarredCmd.accesskey "S">
 <!ENTITY markStarredCmd.key "S">
-<!ENTITY markAsJunkCmd.label "Sem ruslpóst">
-<!ENTITY markAsJunkCmd.accesskey "r">
-<!ENTITY markAsJunkCmd.key "j">
-<!ENTITY markAsNotJunkCmd.label "Ekki sem ruslpóst">
-<!ENTITY markAsNotJunkCmd.accesskey "E">
-<!ENTITY markAsNotJunkCmd.key "j">
-<!ENTITY recalculateJunkScoreCmd.label "Keyra ruslpóstsaðgerðir">
-<!ENTITY recalculateJunkScoreCmd.accesskey "K">
 <!ENTITY openMessageWindowCmd.label "Opna póst">
 <!ENTITY openMessageWindowCmd.accesskey "O">
 <!ENTITY openMessageWindowCmd.key "o">
@@ -441,10 +401,6 @@
 <!ENTITY filtersApplyToSelection.accesskey "s">
 <!ENTITY filtersApplyToMessage.label "Keyra síur á póst">
 <!ENTITY filtersApplyToMessage.accesskey "e">
-<!ENTITY runJunkControls.label "Keyra ruslpóstsaðgerðir á möppu">
-<!ENTITY runJunkControls.accesskey "u">
-<!ENTITY deleteJunk.label "Eyða öllum merktum ruslpósti í möppu">
-<!ENTITY deleteJunk.accesskey "l">
 <!ENTITY importCmd.label "Flytja inn…">
 <!ENTITY importCmd.accesskey "i">
 <!ENTITY exportCmd.label "Flytja út…">
@@ -491,7 +447,6 @@
 <!ENTITY printButton.label "Prenta">
 <!ENTITY stopButton.label "Stöðva">
 <!ENTITY throbberItem.title "Virknimælir">
-<!ENTITY junkItem.title "Ruslpóstur">
 <!ENTITY addressBookButton.label "Nafnaskrá">
 <!ENTITY chatButton.label "Spjall">
 <!ENTITY glodaSearch.title "Víðtæk leit">
@@ -553,11 +508,6 @@
 <!ENTITY appmenuNewContactCmd.label "Tengiliður í nafnaskrá…">
 <!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Útlit verkfærastiku…">
-<!-- Tags Menu Popup -->
-<!ENTITY addNewTag.label "Nýtt merki…">
-<!ENTITY addNewTag.accesskey "N">
-<!ENTITY manageTags.label "Sýsla með merki…">
-<!ENTITY manageTags.accesskey "m">
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "Nafn">
 <!ENTITY folderUnreadColumn.label "Ólesið">
@@ -580,12 +530,8 @@
 <!ENTITY folderContextRename.accesskey "r">
 <!ENTITY folderContextRemove.label "Eyða">
 <!ENTITY folderContextRemove.accesskey "E">
-<!ENTITY folderContextCompact.label "Þjappa">
-<!ENTITY folderContextCompact.accesskey "Þ">
 <!ENTITY folderContextEmptyTrash.label "Tæma rusl">
 <!ENTITY folderContextEmptyTrash.accesskey "æ">
-<!ENTITY folderContextEmptyJunk.label "Tæma ruslpóst">
-<!ENTITY folderContextEmptyJunk.accesskey "r">
 <!ENTITY folderContextSendUnsentMessages.label "Senda ósendan póst">
 <!ENTITY folderContextSendUnsentMessages.accesskey "d">
 <!ENTITY folderContextUnsubscribe.label "Afpanta áskrift">
@@ -628,7 +574,6 @@
 <!ENTITY accountColumn.label "Reikningur">
 <!ENTITY statusColumn.label "Staða">
 <!ENTITY sizeColumn.label "Stærð">
-<!ENTITY junkStatusColumn.label "Rusl staða">
 <!ENTITY unreadColumn.label "Ólesið">
 <!ENTITY totalColumn.label "Allt">
 <!ENTITY readColumn.label "Lesa">
@@ -652,7 +597,6 @@
 <!ENTITY accountColumn2.tooltip "Raða eftir reikningi">
 <!ENTITY statusColumn2.tooltip "Raða eftir stöðu">
 <!ENTITY sizeColumn2.tooltip "Raða eftir Stærð">
-<!ENTITY junkStatusColumn2.tooltip "Raða eftir ruslpóststöðu">
 <!ENTITY unreadColumn2.tooltip "Fjöldi ólesinna pósta í umræðu">
 <!ENTITY totalColumn2.tooltip "Heildarfjöldi pósta í umræðu">
 <!ENTITY readColumn2.tooltip "Raða eftir lesið">
@@ -691,16 +635,6 @@
 <!ENTITY contextReplyAll.accesskey "ö">
 <!ENTITY contextReplyList.label "Svara póstlista">
 <!ENTITY contextReplyList.accesskey "l">
-<!ENTITY contextMoveMsgMenu.label "Færa í">
-<!ENTITY contextMoveMsgMenu.accesskey "F">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Nýlegir áfangastaðir">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "R">
-<!ENTITY contextMoveCopyMsgRecentMenu.label "Nýlegt">
-<!ENTITY contextMoveCopyMsgRecentMenu.accesskey "N">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.label "Eftirlæti">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.accesskey "F">
-<!ENTITY contextCopyMsgMenu.label "Afrita í">
-<!ENTITY contextCopyMsgMenu.accesskey "A">
 <!ENTITY contextKillThreadMenu.label "Hunsa umræðu">
 <!ENTITY contextKillSubthreadMenu.accesskey "æ">
 <!ENTITY contextKillThreadMenu.accesskey "H">

@@ -2,18 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-connection-dns-over-https-url-resolver = ใช้ผู้ให้บริการ
-    .accesskey = ช
-# Variables:
-#   $name (String) - Display name or URL for the DNS over HTTPS provider
-connection-dns-over-https-url-item-default =
-    .label = { $name } (ค่าเริ่มต้น)
-    .tooltiptext = ใช้ URL เริ่มต้นสำหรับแปลงที่อยู่ DNS ผ่าน HTTPS
-connection-dns-over-https-url-custom =
-    .label = กำหนดเอง
-    .tooltiptext = ป้อน URL ที่คุณต้องการสำหรับแปลงที่อยู่ DNS ผ่าน HTTPS
-    .accesskey = ก
-connection-dns-over-https-custom-label = กำหนดเอง
 connection-dialog-title = การตั้งค่าการเชื่อมต่อ
 disable-extension-button = ปิดใช้งานส่วนขยาย
 # Variables:
@@ -81,6 +69,3 @@ proxy-password-prompt =
 proxy-remote-dns =
     .label = DNS แบบพร็อกซีเมื่อใช้ SOCKS v5
     .accesskey = d
-proxy-enable-doh =
-    .label = เปิดใช้งาน DNS ผ่าน HTTPS
-    .accesskey = ป

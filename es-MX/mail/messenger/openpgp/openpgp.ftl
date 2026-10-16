@@ -378,7 +378,6 @@ key-verification = Verifica la huella digital de la clave usando un canal de com
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = No se puede enviar el mensaje porque hay un problema con tu clave personal. { $problem }
-window-locked = La ventana de redacción está bloqueada; envío cancelado
 
 ## Strings in keyserver.sys.mjs
 
@@ -412,9 +411,6 @@ converter-decrypt-body-failed =
 ## Strings filters.sys.mjs
 
 filter-folder-required = Debes seleccionar una carpeta de destino.
-filter-decrypt-move-warn-experimental =
-    Advertencia - la acción de filtrado “Descifrar permanentemente” puede provocar la destrucción de mensajes.
-    Recomendamos encarecidamente que primero pruebes el filtro “Crear copia descifrada”, prueba el resultado con cuidado y solo comienza a usar este filtro una vez que estés complacido con el resultado.
 filter-term-pgpencrypted-label = OpenPGP cifrado
 filter-key-required = Debes seleccionar una clave de destinatario.
 # Variables:
@@ -577,7 +573,6 @@ fail-key-import = Error - importación de clave fallida
 # $output (String) - File that writing was attempted to.
 file-write-failed = Error al escribir en el archivo { $output }
 no-pgp-block = Error - No se encontró un bloque de datos OpenPGP blindado válido
-confirm-permissive-import = La importación falló. La clave que estás tratando de importar puede estar dañada o usar atributos desconocidos. ¿Te gustaría intentar importar las partes que son correctas? Esto podría dar lugar a la importación de claves incompletas e inutilizables.
 help-button = Ayuda
 
 ## Strings used in trust.sys.mjs
@@ -633,9 +628,6 @@ key-man-button-generate-key-continue = &Continuar con la generación de claves
 
 failed-decrypt = Error - descifrado fallido
 fix-broken-exchange-msg-failed = No se puede reparar este mensaje.
-# Variables:
-# $attachment (String) - File name of the signature file.
-attachment-no-match-from-signature = No se pudo hacer coincidir el archivo de firma ‘{ $attachment }’ con un archivo adjunto
 # Variables:
 # Variables:
 # $attachment (String) - File name of the attachment.
@@ -741,8 +733,3 @@ enig-confirm = Confirmación de OpenPGP
 
 dlg-button-retry = &Reintentar
 dlg-button-skip = &Ignorar
-
-## Strings used in enigmailMsgBox.js
-
-enig-alert-title =
-    .title = Alerta OpenPGP

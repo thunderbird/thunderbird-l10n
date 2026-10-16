@@ -48,8 +48,6 @@
 <!ENTITY getAllNewMsgCmdPopupMenu.accesskey "A">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.label "Aktuellt konto">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.accesskey "k">
-<!ENTITY getNextNMsgCmd2.label "Hämta nästa inlägg">
-<!ENTITY getNextNMsgCmd2.accesskey "t">
 <!ENTITY sendUnsentCmd.label "Skicka meddelande som inte skickats">
 <!ENTITY sendUnsentCmd.accesskey "d">
 <!ENTITY subscribeCmd.label "Prenumerera…">
@@ -59,8 +57,6 @@
 <!ENTITY renameFolder.label "Byt namn på mapp…">
 <!ENTITY renameFolder.accesskey "B">
 <!ENTITY renameFolder.key "VK_F2">
-<!ENTITY compactFolders.label "Komprimera mappar">
-<!ENTITY compactFolders.accesskey "K">
 <!ENTITY emptyTrashCmd.label "Töm papperskorgen">
 <!ENTITY emptyTrashCmd.accesskey "T">
 <!ENTITY offlineMenu.label "Nedkopplad">
@@ -129,10 +125,6 @@
 <!ENTITY allFolders.accesskey "A">
 <!ENTITY unreadFolders.label "Olästa">
 <!ENTITY unreadFolders.accesskey "O">
-<!ENTITY favoriteFolders.label "Favorit">
-<!ENTITY favoriteFolders.accesskey "F">
-<!ENTITY recentFolders.label "Tidigare">
-<!ENTITY recentFolders.accesskey "T">
 <!ENTITY compactVersion.label "Kompakt vy">
 <!ENTITY compactVersion.accesskey "p">
 <!-- Sort Menu -->
@@ -154,8 +146,6 @@
 <!ENTITY sortByStatusCmd.accesskey "u">
 <!ENTITY sortByTagsCmd.label "Etikett">
 <!ENTITY sortByTagsCmd.accesskey "E">
-<!ENTITY sortByJunkStatusCmd.label "Skräpstatus">
-<!ENTITY sortByJunkStatusCmd.accesskey "r">
 <!ENTITY sortBySubjectCmd.label "Ämne">
 <!ENTITY sortBySubjectCmd.accesskey "n">
 <!ENTITY sortByFromCmd.label "Från">
@@ -243,7 +233,6 @@
 <!ENTITY findPrevCmd.key2 "VK_F3">
 <!ENTITY searchMailCmd.label "Sök meddelanden…">
 <!ENTITY searchMailCmd.accesskey "m">
-<!ENTITY searchMailCmd.key "f">
 <!ENTITY glodaSearchCmd.label "Global sökning…">
 <!ENTITY glodaSearchCmd.accesskey "G">
 <!ENTITY searchAddressesCmd.label "Sök adresser…">
@@ -334,17 +323,6 @@
 <!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN">
 <!ENTITY createFilter.label "Skapa filterregel utifrån meddelandet…">
 <!ENTITY createFilter.accesskey "u">
-<!ENTITY moveMsgToMenu.label "Flytta till">
-<!ENTITY moveMsgToMenu.accesskey "F">
-<!ENTITY moveCopyMsgRecentMenu.label "Tidigare">
-<!ENTITY moveCopyMsgRecentMenu.accesskey "T">
-<!ENTITY copyMessageLocation.label "Kopiera meddelandeadress">
-<!ENTITY copyMessageLocation.accesskey "K">
-<!ENTITY copyMsgToMenu.label "Kopiera till">
-<!ENTITY copyMsgToMenu.accesskey "o">
-<!ENTITY moveToFolderAgain.label "Flytta igen">
-<!ENTITY moveToFolderAgain.accesskey "t">
-<!ENTITY moveToFolderAgainCmd.key "m">
 <!ENTITY killThreadMenu.label "Ignorera tråd">
 <!ENTITY killThreadMenu.accesskey "g">
 <!ENTITY killThreadMenu.key "k">
@@ -356,16 +334,6 @@
 <!ENTITY watchThreadMenu.key "w">
 <!ENTITY tagMenu.label "Etikett">
 <!ENTITY tagMenu.accesskey "E">
-<!ENTITY tagCmd0.key "0">
-<!ENTITY tagCmd1.key "1">
-<!ENTITY tagCmd2.key "2">
-<!ENTITY tagCmd3.key "3">
-<!ENTITY tagCmd4.key "4">
-<!ENTITY tagCmd5.key "5">
-<!ENTITY tagCmd6.key "6">
-<!ENTITY tagCmd7.key "7">
-<!ENTITY tagCmd8.key "8">
-<!ENTITY tagCmd9.key "9">
 <!ENTITY markMenu.label "Märk">
 <!ENTITY markMenu.accesskey "k">
 <!ENTITY toggleReadCmd.key "m">
@@ -385,14 +353,6 @@
 <!ENTITY markStarredCmd.label "Lägg till märke">
 <!ENTITY markStarredCmd.accesskey "L">
 <!ENTITY markStarredCmd.key "S">
-<!ENTITY markAsJunkCmd.label "Som skräp">
-<!ENTITY markAsJunkCmd.accesskey "S">
-<!ENTITY markAsJunkCmd.key "j">
-<!ENTITY markAsNotJunkCmd.label "Som icke skräp">
-<!ENTITY markAsNotJunkCmd.accesskey "m">
-<!ENTITY markAsNotJunkCmd.key "j">
-<!ENTITY recalculateJunkScoreCmd.label "Kör skräppostkontroll">
-<!ENTITY recalculateJunkScoreCmd.accesskey "K">
 <!ENTITY openMessageWindowCmd.label "Öppna meddelande">
 <!ENTITY openMessageWindowCmd.accesskey "p">
 <!ENTITY openMessageWindowCmd.key "o">
@@ -441,10 +401,6 @@
 <!ENTITY filtersApplyToSelection.accesskey "r">
 <!ENTITY filtersApplyToMessage.label "Kör filter på meddelande">
 <!ENTITY filtersApplyToMessage.accesskey "d">
-<!ENTITY runJunkControls.label "Kör skräppost-kontrollen på mapp">
-<!ENTITY runJunkControls.accesskey "K">
-<!ENTITY deleteJunk.label "Ta bort e-post märkt som skräp från mapp">
-<!ENTITY deleteJunk.accesskey "b">
 <!ENTITY importCmd.label "Importera…">
 <!ENTITY importCmd.accesskey "e">
 <!ENTITY exportCmd.label "Exportera…">
@@ -491,7 +447,6 @@
 <!ENTITY printButton.label "Skriv ut">
 <!ENTITY stopButton.label "Stopp">
 <!ENTITY throbberItem.title "Aktivitetsindikator">
-<!ENTITY junkItem.title "Skräppost">
 <!ENTITY addressBookButton.label "Adressbok">
 <!ENTITY chatButton.label "Chatt">
 <!ENTITY glodaSearch.title "Global sökning">
@@ -553,11 +508,6 @@
 <!ENTITY appmenuNewContactCmd.label "Ny adressbokskontakt…">
 <!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Layout verktygsfält…">
-<!-- Tags Menu Popup -->
-<!ENTITY addNewTag.label "Ny etikett…">
-<!ENTITY addNewTag.accesskey "N">
-<!ENTITY manageTags.label "Hantera etiketter…">
-<!ENTITY manageTags.accesskey "H">
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "Namn">
 <!ENTITY folderUnreadColumn.label "Olästa">
@@ -580,12 +530,8 @@
 <!ENTITY folderContextRename.accesskey "B">
 <!ENTITY folderContextRemove.label "Ta bort">
 <!ENTITY folderContextRemove.accesskey "T">
-<!ENTITY folderContextCompact.label "Komprimera">
-<!ENTITY folderContextCompact.accesskey "K">
 <!ENTITY folderContextEmptyTrash.label "Töm papperskorgen">
 <!ENTITY folderContextEmptyTrash.accesskey "T">
-<!ENTITY folderContextEmptyJunk.label "Töm skräpmappen">
-<!ENTITY folderContextEmptyJunk.accesskey "T">
 <!ENTITY folderContextSendUnsentMessages.label "Skicka meddelanden som inte är skickade">
 <!ENTITY folderContextSendUnsentMessages.accesskey "c">
 <!ENTITY folderContextUnsubscribe.label "Avsluta prenumeration">
@@ -628,7 +574,6 @@
 <!ENTITY accountColumn.label "Konto">
 <!ENTITY statusColumn.label "Status">
 <!ENTITY sizeColumn.label "Storlek">
-<!ENTITY junkStatusColumn.label "Skräpstatus">
 <!ENTITY unreadColumn.label "Olästa">
 <!ENTITY totalColumn.label "Totalt">
 <!ENTITY readColumn.label "Lästa">
@@ -652,7 +597,6 @@
 <!ENTITY accountColumn2.tooltip "Sortera efter konto">
 <!ENTITY statusColumn2.tooltip "Sortera efter status">
 <!ENTITY sizeColumn2.tooltip "Sortera efter storlek">
-<!ENTITY junkStatusColumn2.tooltip "Sortera efter skräpstatus">
 <!ENTITY unreadColumn2.tooltip "Antal olästa meddelanden i tråden">
 <!ENTITY totalColumn2.tooltip "Totala antalet meddelanden i tråden">
 <!ENTITY readColumn2.tooltip "Sortera efter lästa">
@@ -691,16 +635,6 @@
 <!ENTITY contextReplyAll.accesskey "A">
 <!ENTITY contextReplyList.label "Svara till listan">
 <!ENTITY contextReplyList.accesskey "t">
-<!ENTITY contextMoveMsgMenu.label "Flytta till">
-<!ENTITY contextMoveMsgMenu.accesskey "F">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Senaste destinationer">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "R">
-<!ENTITY contextMoveCopyMsgRecentMenu.label "Tidigare">
-<!ENTITY contextMoveCopyMsgRecentMenu.accesskey "T">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.label "Favoriter">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.accesskey "F">
-<!ENTITY contextCopyMsgMenu.label "Kopiera till">
-<!ENTITY contextCopyMsgMenu.accesskey "o">
 <!ENTITY contextKillThreadMenu.label "Ignorera tråd">
 <!ENTITY contextKillSubthreadMenu.accesskey "u">
 <!ENTITY contextKillThreadMenu.accesskey "I">

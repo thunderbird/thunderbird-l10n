@@ -24,11 +24,6 @@ appmenu-sync-sign-out =
 
 ## Add Account
 
-appmenu-new-account-panel-title =
-    .title = Jauns konts
-appmenu-new-account-panel =
-    .label = Jauns konts
-    .accesskey = J
 appmenu-new-email-account =
     .label = E-pasts
     .accesskey = E
@@ -52,11 +47,6 @@ appmenu-add-account-panel =
 
 ## New Account / Address Book
 
-appmenu-newab-panel-title =
-    .title = Jauna adrešu grāmata
-appmenu-newab-panel =
-    .label = Jauna adrešu grāmata
-    .accesskey = d
 appmenu-new-addressbook =
     .label = Vietējā adrešu grāmata
     .accesskey = a

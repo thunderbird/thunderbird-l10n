@@ -423,7 +423,6 @@ key-verification = 請使用電子郵件以外的安全通訊方式確認金鑰�
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = 您的個人金鑰有問題，無法傳送訊息。{ $problem }
-window-locked = 信件撰寫視窗已鎖定，取消傳送
 
 ## Strings in keyserver.sys.mjs
 
@@ -450,7 +449,6 @@ converter-decrypt-body-failed = 無法解密主旨為 { $subject } 的訊息。�
 ## Strings filters.sys.mjs
 
 filter-folder-required = 您必須指定目的資料夾。
-filter-decrypt-move-warn-experimental = 警告：過濾器動作「永久解密」可能會毀損訊息。我們強烈建議您先試用「建立解密副本」過濾器，小心測試結果，只在確認都沒問題的情況才使用此過濾器。
 filter-term-pgpencrypted-label = OpenPGP 加密
 filter-key-required = 您必須選擇一組收件人金鑰。
 # Variables:
@@ -591,7 +589,6 @@ fail-key-import = 錯誤 - 金鑰匯入失敗
 # $output (String) - File that writing was attempted to.
 file-write-failed = 寫入到檔案 { $output } 失敗
 no-pgp-block = 錯誤 - 找不到有效的 armored 格式 OpenPGP 資料區塊
-confirm-permissive-import = 匯入失敗。您嘗試匯入的金鑰可能已經毀損或使用了未知的屬性。您想要嘗試匯入當中正確的部分嗎？可能會匯入不完整且無法使用的金鑰。
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = 某些匯入的私鑰宣告了不支援的功能。若您使用此金鑰作為個人金鑰，其他人可能會寄送不相容格式的電子郵件或公鑰給您。受影響的已匯入私鑰指紋如下：{ $fingerprints }。
@@ -650,9 +647,6 @@ key-man-button-generate-key-continue = 繼續產生金鑰 (&C)
 
 failed-decrypt = 錯誤 - 解密失敗
 fix-broken-exchange-msg-failed = 訊息並未修復成功。
-# Variables:
-# $attachment (String) - File name of the signature file.
-attachment-no-match-from-signature = 無法將簽章檔案「{ $attachment }」對應到附件
 # Variables:
 # Variables:
 # $attachment (String) - File name of the attachment.
@@ -751,8 +745,3 @@ enig-confirm = OpenPGP 確認
 
 dlg-button-retry = 重試 (&R)
 dlg-button-skip = 略過 (&S)
-
-## Strings used in enigmailMsgBox.js
-
-enig-alert-title =
-    .title = OpenPGP 警示

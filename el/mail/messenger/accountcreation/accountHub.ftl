@@ -56,14 +56,7 @@ account-hub-email-connect-button = Σύνδεση
 account-hub-result-incoming-legend = Εισερχόμενα
 account-hub-result-outgoing-legend = Εξερχόμενα
 account-hub-all-servers-legend = Όλοι οι διακομιστές
-account-hub-incoming-server-legend = Διακομιστής εισερχομένων
-account-hub-outgoing-server-legend = Διακομιστής εξερχομένων
-account-hub-result-incoming-server-legend = Διακομιστής εισερχομένων
-    .title = Διακομιστής εισερχομένων
-account-hub-result-outgoing-server-legend = Διακομιστής εξερχομένων
-    .title = Διακομιστής εξερχομένων
 account-hub-protocol-label = Πρωτόκολλο
-account-hub-hostname-label = Όνομα κεντρικού υπολογιστή
 account-hub-result-hostname-label = Όνομα κεντρικού υπολογιστή
     .title = Όνομα κεντρικού υπολογιστή
 account-hub-result-socket-type-label = Ασφάλεια σύνδεσης
@@ -94,10 +87,6 @@ account-hub-result-auth-ntlm = NTLM
 account-hub-result-auth-external = Εξωτερική
 account-hub-result-auth-oauth2 = OAuth2
 account-hub-on-port-label = Θύρα
-account-hub-result-authentication-label = Ταυτοποίηση
-    .title = Ταυτοποίηση
-account-hub-port-label = Θύρα
-    .title = Ορίστε τον αριθμό θύρας σε 0 για αυτόματο εντοπισμό
 account-hub-auto-description = Το { -brand-short-name } θα προσπαθήσει να εντοπίσει αυτόματα τα κενά πεδία.
 account-hub-ssl-label = Ασφάλεια σύνδεσης
 
@@ -105,8 +94,6 @@ account-hub-ssl-label = Ασφάλεια σύνδεσης
 
 account-hub-ssl-autodetect-option =
     .label = Αυτόματος εντοπισμός
-account-hub-ssl-no-authentication-option =
-    .label = Χωρίς ταυτοποίηση
 account-hub-ssl-cleartext-password-option =
     .label = Κανονικός κωδικός πρόσβασης
 account-hub-ssl-encrypted-password-option =
@@ -268,7 +255,6 @@ account-hub-email-exchange-settings = Ρυθμίσεις Exchange
 account-hub-email-connect-settings = Συνδέστε τις ρυθμίσεις email σας
 account-hub-email-protocol-select-header = Επιλέξτε έναν τύπο λογαριασμού email
 account-hub-email-protocol-select-additional-info = Απαιτούνται επιπρόσθετες πληροφορίες για τη ρύθμιση αυτού του λογαριασμού.
-account-hub-email-config-found = Επιλέξτε τον τύπο του λογαριασμού email σας
 account-hub-email-enter-password = Εισαγάγετε τον κωδικό πρόσβασης του λογαριασμού email σας
 account-hub-email-sync-accounts = Συγχρονίστε τα ημερολόγια και τα ευρετήρια σας
 account-hub-test-configuration = Δοκιμή
@@ -295,7 +281,6 @@ account-hub-config-success-description-guess = Βρέθηκε διαμόρφωσ
 account-hub-config-success-description-disk = Βρέθηκε διαμόρφωση στην εγκατάσταση του { -brand-short-name }.
 account-hub-config-success-description-isp = Βρέθηκε διαμόρφωση στον πάροχο ηλεκτρονικού ταχυδρομείου.
 account-hub-config-success-description-read-more = Μπορείτε να <a data-l10n-name="automated-setup-link">διαβάσετε σχετικά με τον τρόπο λειτουργίας της αυτόματης ρύθμισης email.</a>
-account-hub-config-success = Βρέθηκαν ρυθμίσεις στη Mozilla ISPDB
 account-hub-password-info = Τα διαπιστευτήριά σας θα αποθηκευτούν μόνο τοπικά, στον υπολογιστή σας
 account-hub-creating-account = Δημιουργία λογαριασμού…
 account-hub-sync-accounts-found = Το { -brand-short-name } βρήκε ορισμένες συνδεδεμένες υπηρεσίες
@@ -326,10 +311,8 @@ account-hub-username-error-text = Απαιτείται όνομα χρήστη
 account-hub-manual-config-error-summary = Επιλύστε τα ακόλουθα σφάλματα:
 account-hub-oauth-pending = Αναμονή για πιστοποίηση στο αναδυόμενο παράθυρο σύνδεσης…
 account-hub-addon-install-button = Εγκατάσταση
-account-hub-addon-install-needed = Το { -brand-short-name } δεν υποστηρίζει εγγενώς αυτόν τον διακομιστή. Για να αποκτήσετε πρόσβαση στην αλληλογραφία Exchange, <a data-l10n-name="addon-install">εγκαταστήστε ένα πρόσθετο τρίτου κατασκευαστή, όπως το Owl (επί πληρωμή).</a>
 account-hub-addon-error = Η εγκατάσταση του προσθέτου απέτυχε. Δοκιμάστε ξανά ή επικοινωνήστε με τον δημιουργό του προσθέτου για βοήθεια.
 account-hub-select-security-warning = <span data-l10n-name="error-text">Προειδοποίηση: Εντοπίστηκε επισφαλής διακομιστής αλληλογραφίας.</span> Αυτός ο διακομιστής δεν διαθέτει κρυπτογράφηση, με αποτέλεσμα να εκθέτει τους κωδικούς πρόσβασης και τα δεδομένα σας. Επικοινωνήστε με τον διαχειριστή για να ασφαλίσει τη σύνδεση ή συνεχίστε με δική σας ευθύνη. <a data-l10n-name="error-link">Δείτε τις συχνές ερωτήσεις για περισσότερες πληροφορίες.</a>
-account-hub-security-warning = <span data-l10n-name="security-warning">Προειδοποίηση: Ανιχνεύτηκε επισφαλής διακομιστής αλληλογραφίας.</span> Αυτός ο διακομιστής δεν διαθέτει κρυπτογράφηση, με αποτέλεσμα να εκθέτει τους κωδικούς πρόσβασης και τα δεδομένα σας. Επικοινωνήστε με τον διαχειριστή για να ασφαλίσει τη σύνδεση ή συνεχίστε με δική σας ευθύνη. <a data-l10n-name="faq-link">Δείτε τις συχνές ερωτήσεις για περισσότερες πληροφορίες.</a>
 account-hub-account-authentication-error = Σφάλμα ταυτοποίησης.
 account-hub-add-address-book = Προσθήκη ευρετηρίου
 address-book-sync-existing-icon =
@@ -359,7 +342,6 @@ account-hub-address-book-sync-books-data =
         [one] 1 διαθέσιμο βιβλίο διευθύνσεων
        *[other] { $addressBooks } διαθέσιμα βιβλία διευθύνσεων
     }
-account-hub-fetching-sync-accounts = Ανακάλυψη ευρετηρίων και ημερολογίων…
 address-book-sync-existing-description = Ανάκτηση υπαρχόντων λογαριασμών…
 account-hub-select-address-book-account = Επιλέξτε έναν λογαριασμό με ευρετήρια
 # $synced (Number) - The number of address books that are synced.

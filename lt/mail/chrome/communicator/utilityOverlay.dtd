@@ -13,8 +13,6 @@
 <!ENTITY undoCmd.accesskey "A">
 <!ENTITY redoCmd.label "Atstatyti">
 <!ENTITY redoCmd.accesskey "s">
-<!ENTITY deleteCmd.label "Pašalinti">
-<!ENTITY deleteCmd.accesskey "š">
 <!ENTITY customizeCmd.label "Tinkinimas">
 <!ENTITY customizeCmd.accesskey "t">
 <!ENTITY viewMenu.label "Rodymas">

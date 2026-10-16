@@ -432,7 +432,6 @@ key-verification = გადაამოწმეთ გასაღების
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = წერილი ვერ იგზავნება, ვინაიდან ხარვეზი აქვს თქვენს პირად გასაღებს. { $problem }
-window-locked = შესადგენი ფანჯარა ჩაიკეტა; გაგზავნა გაუქმებულია
 
 ## Strings in keyserver.sys.mjs
 
@@ -466,9 +465,6 @@ converter-decrypt-body-failed =
 ## Strings filters.sys.mjs
 
 filter-folder-required = აუცილებელია სასურველი საქაღალდის მითითება.
-filter-decrypt-move-warn-experimental =
-    გაფრთხილება – ფილტრის მოქმედება „სამუდამოდ გაშიფვრა“ შეიძლება იწვევდეს დაზიანებულ წერილს.
-    დაჟინებით გირჩევთ, ჯერ სცადოთ ფილტრი „გაშიფრული ასლის შექმნა“, გამოცადოთ შედეგი დაკვირვებით და მხოლოდ იმ შემთხვევაში გადაწყვიტოთ ამ ფილტრის გამოყენება, თუ შედეგები დაგაკმაყოფილებთ.
 filter-term-pgpencrypted-label = OpenPGP დაშიფრულია
 filter-key-required = უნდა მიუთითოთ მიმღების გასაღები.
 # Variables:
@@ -631,7 +627,6 @@ fail-key-import = შეცდომა – გასაღების შე�
 # $output (String) - File that writing was attempted to.
 file-write-failed = ვერ მოხერხდა ჩაწერა ფაილში { $output }
 no-pgp-block = შეცდომა – ვერ მოიძებნა მართებულად აღჭურვილი OpenPGP-მონაცემების ჯგუფი
-confirm-permissive-import = გადმოტანა ვერ მოხერხდა. გასაღები, რომლის შეტანასაც ცდილობთ, სავარაუდოდ დაზიანებულია ან იყენებს უცნობ მახასიათებლებს. გსურთ, სცადოთ მართებული ნაწილის შეტანა? შედეგად, შესაძლოა გადმოვიდეს არასრული ან გამოუსადეგარი გასაღებები.
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = შემოტანილი საიდუმლო გასაღებიდან ზოგიერთი მიანიშნებს მხარდაუჭერელი შესაძლებლობის ქონაზე. თუ ამგვარ გასაღებს იყენებთ პირად გასაღებად, შეიძლება ელფოსტაზე წერილები ან საჯარო გასაღებები გამოგიგზავნონ შეუთავსებელი სახით. ეს ეხება გადმოტანილ საიდუმლო გასაღებებს მოცემული ანაბეჭდებით: { $fingerprints }.
@@ -690,9 +685,6 @@ key-man-button-generate-key-continue = &გაგრძელდეს გას
 
 failed-decrypt = შეცდომა – გაშიფვრა ვერ მოხერხდა
 fix-broken-exchange-msg-failed = ვერ მოხერხდა წერილის აღდგენა.
-# Variables:
-# $attachment (String) - File name of the signature file.
-attachment-no-match-from-signature = არ შეესაბამება ხელმოწერის ფაილი „{ $attachment }“ დანართს
 # Variables:
 # Variables:
 # $attachment (String) - File name of the attachment.
@@ -803,8 +795,3 @@ enig-confirm = OpenPGP დადასტურება
 
 dlg-button-retry = &გამეორება
 dlg-button-skip = &გამოტოვება
-
-## Strings used in enigmailMsgBox.js
-
-enig-alert-title =
-    .title = OpenPGP ცნობა

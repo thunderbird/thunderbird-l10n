@@ -2,15 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-new-account-label = บัญชีใหม่
 # Instant messaging account status window for Thunderbird
 accounts-window-title = สถานะข้อความโต้ตอบแบบทันที
 account-manager-add-account =
     .label = { add-account-label }
     .accesskey = พ
-account-manager-new-account =
-    .label = { new-account-label }
-    .accesskey = บ
 account-manager-close =
     .label = ปิด
     .accesskey = ป
@@ -19,7 +15,6 @@ account-manager-close-command =
 # This title must be short, displayed with a big font size
 account-manager-no-account-title = ยังไม่มีบัญชีที่กำหนดค่า
 account-manager-no-accounts-description = คลิกที่ปุ่ม { add-account-label } เพื่อให้ { -brand-short-name } แนะนำกระบวนการกำหนดค่าให้กับคุณ
-account-manager-no-account-description = คลิกที่ปุ่ม { new-account-label } เพื่อให้ { -brand-short-name } แนะนำกระบวนการกำหนดค่าให้กับคุณ
 account-auto-sign-on =
     .label = ลงชื่อเข้าเมื่อเริ่มการทำงาน
     .accesskey = ล

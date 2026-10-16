@@ -4,9 +4,6 @@
 
 open-preferences-sidebar-button2 = Roghainnean { -brand-short-name }
 open-addons-sidebar-button = Tuilleadain ’s ùrlaran
-account-action-add-newsgroup-account =
-    .label = Cuir cunntas buidhinn-naidheachd ris…
-    .accesskey = n
 server-change-restart-required = Tha feum air ath-thòiseachadh mus tèid ainm ùr an fhrithealaiche no a’ chleachdaiche a chur an sàs.
 edit-vcard-dialog-accept-button = Sàbhail
     .accesskey = S

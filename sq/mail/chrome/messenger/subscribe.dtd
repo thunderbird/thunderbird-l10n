@@ -3,10 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY subscribeDialog.title "Pajtohuni">
-<!ENTITY subscribeButton.label "Pajtomë">
-<!ENTITY subscribeButton.accesskey "P">
-<!ENTITY unsubscribeButton.label "Shpajtomë">
-<!ENTITY unsubscribeButton.accesskey "S">
 <!ENTITY newGroupsTab.label "Grupe të Rinj">
 <!ENTITY newGroupsTab.accesskey "G">
 <!ENTITY refreshButton.label "Rifreskoje">

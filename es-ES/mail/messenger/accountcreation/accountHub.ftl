@@ -56,14 +56,7 @@ account-hub-email-connect-button = Conectar
 account-hub-result-incoming-legend = Entrante
 account-hub-result-outgoing-legend = Saliente
 account-hub-all-servers-legend = Todos los servidores
-account-hub-incoming-server-legend = Servidor de entrada
-account-hub-outgoing-server-legend = Servidor de salida
-account-hub-result-incoming-server-legend = Servidor de entrada
-    .title = Servidor de entrada
-account-hub-result-outgoing-server-legend = Servidor de salida
-    .title = Servidor de salida
 account-hub-protocol-label = Protocolo
-account-hub-hostname-label = Nombre del servidor
 account-hub-result-hostname-label = Nombre del servidor
     .title = Nombre del servidor
 account-hub-result-socket-type-label = Seguridad de la conexión
@@ -101,10 +94,6 @@ account-hub-result-auth-external = Externa
 account-hub-result-auth-oauth2 = OAuth2
     .title = OAuth2
 account-hub-on-port-label = Puerto
-account-hub-result-authentication-label = Autentificación
-    .title = Autentificación
-account-hub-port-label = Puerto
-    .title = Establezca el número de puerto en 0 para la detección automática
 account-hub-auto-description = { -brand-short-name } intentará detectar automáticamente los campos que se dejen en blanco.
 account-hub-ssl-label = Seguridad de la conexión
 
@@ -112,8 +101,6 @@ account-hub-ssl-label = Seguridad de la conexión
 
 account-hub-ssl-autodetect-option =
     .label = Detectar automáticamente
-account-hub-ssl-no-authentication-option =
-    .label = Sin autentificación
 account-hub-ssl-cleartext-password-option =
     .label = Contraseña normal
 account-hub-ssl-encrypted-password-option =
@@ -271,7 +258,6 @@ account-hub-email-exchange-settings = Configuración de Exchange
 account-hub-email-connect-settings = Conecte su configuración de correo electrónico
 account-hub-email-protocol-select-header = Seleccione un tipo de cuenta de correo electrónico
 account-hub-email-protocol-select-additional-info = Se requiere información adicional para configurar esta cuenta.
-account-hub-email-config-found = Elija el tipo de cuenta de correo electrónico
 account-hub-email-enter-password = Introduzca la contraseña de su cuenta de correo electrónico
 account-hub-email-sync-accounts = Sincronice sus calendarios y libretas de direcciones
 account-hub-test-configuration = Probar
@@ -298,7 +284,6 @@ account-hub-config-success-description-guess = Configuración encontrada proband
 account-hub-config-success-description-disk = Configuración encontrada en la instalación de { -brand-short-name }.
 account-hub-config-success-description-isp = Configuración encontrada en el proveedor de correo electrónico.
 account-hub-config-success-description-read-more = Puede <a data-l10n-name="automated-setup-link"></a>informarse sobre cómo funciona la configuración automática del correo electrónico.</a>
-account-hub-config-success = Configuración encontrada en la base de datos ISP de Mozilla
 account-hub-password-info = Sus credenciales sólo se almacenarán localmente en su ordenador
 account-hub-creating-account = Creando cuenta…
 account-hub-sync-accounts-found = { -brand-short-name } ha encontrado algunos servicios conectados
@@ -329,10 +314,8 @@ account-hub-username-error-text = El nombre de usuario es obligatorio
 account-hub-manual-config-error-summary = Solucione los siguientes errores:
 account-hub-oauth-pending = Esperando autorización en la ventana emergente de inicio de sesión…
 account-hub-addon-install-button = Instalar
-account-hub-addon-install-needed = { -brand-short-name } no es compatible de forma nativa con este servidor. Para acceder al correo electrónico de Exchange, <a data-l10n-name="addon-install">instale un complemento de terceros como Owl (de pago).</a>
 account-hub-addon-error = Error en la instalación del complemento. Inténtelo de nuevo o póngase en contacto con el autor del complemento para obtener ayuda.
 account-hub-select-security-warning = <span data-l10n-name="error-text">">Advertencia: Se ha detectado un servidor de correo inseguro.</span> Este servidor carece de cifrado, lo que expone su contraseña y datos. Contacte con su administrador para asegurar la conexión o proceda por su cuenta y riesgo. <a data-l10n-name="error-link">Para más información, consulte las preguntas frecuentes (FAQ).</a>
-account-hub-security-warning = <span data-l10n-name="security-warning">Advertencia: Se ha detectado un servidor de correo inseguro.</span> Este servidor carece de cifrado, lo que expone su contraseña y datos. Contacte con su administrador para asegurar la conexión o proceda por su cuenta y riesgo. <a data-l10n-name="faq-link">Para más información, consulte las preguntas frecuentes (FAQ).</a>
 account-hub-account-authentication-error = Error de identificación.
 account-hub-add-address-book = Añadir una libreta de direcciones
 address-book-sync-existing-icon =
@@ -362,7 +345,6 @@ account-hub-address-book-sync-books-data =
         [one] 1 libreta de direcciones disponible
        *[other] { $addressBooks } libretas de direcciones disponibles
     }
-account-hub-fetching-sync-accounts = Descubrir libretas de direcciones y calendarios...
 address-book-sync-existing-description = Recuperando cuentas existentes…
 account-hub-select-address-book-account = Seleccionar una cuenta con libretas de direcciones
 # $synced (Number) - The number of address books that are synced.

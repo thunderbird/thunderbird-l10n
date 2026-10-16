@@ -180,8 +180,6 @@
 <!ENTITY event.calendar.accesskey "ლ">
 <!ENTITY event.attendees.label "მონაწილეები:">
 <!ENTITY event.attendees.accesskey "წ">
-<!ENTITY event.alldayevent.label "მთელი დღის განმავლობაში">
-<!ENTITY event.alldayevent.accesskey "ღ">
 <!ENTITY event.from.label "დაწყება:">
 <!ENTITY event.from.accesskey "ყ">
 <!ENTITY task.from.label "დაწყება:">
@@ -262,13 +260,6 @@
 <!ENTITY event.recurrence.monthly.fourth.label "მეოთხე">
 <!ENTITY event.recurrence.monthly.fifth.label "მეხუთე">
 <!ENTITY event.recurrence.monthly.last.label "ბოლო">
-<!ENTITY event.recurrence.pattern.monthly.week.1.label "კვირა">
-<!ENTITY event.recurrence.pattern.monthly.week.2.label "ორშაბათი">
-<!ENTITY event.recurrence.pattern.monthly.week.3.label "სამშაბათი">
-<!ENTITY event.recurrence.pattern.monthly.week.4.label "ოთხშაბათი">
-<!ENTITY event.recurrence.pattern.monthly.week.5.label "ხუთშაბათი">
-<!ENTITY event.recurrence.pattern.monthly.week.6.label "პარასკევი">
-<!ENTITY event.recurrence.pattern.monthly.week.7.label "შაბათი">
 <!ENTITY event.recurrence.repeat.dayofmonth.label "თვის დღე">
 <!ENTITY event.recurrence.repeat.recur.label "შემდეგი დღე(ებ)ი">
 <!ENTITY event.recurrence.every.label "ყოველი:">
@@ -281,18 +272,6 @@
      event.recurrence.pattern.yearly.of.label is "of" in
      Edit recurrence window -> Recurrence pattern -> Repeat yearly -->
 <!ENTITY event.recurrence.pattern.yearly.of.label "">
-<!ENTITY event.recurrence.pattern.yearly.month.1.label "იანვარი">
-<!ENTITY event.recurrence.pattern.yearly.month.2.label "თებერვალი">
-<!ENTITY event.recurrence.pattern.yearly.month.3.label "მარტი">
-<!ENTITY event.recurrence.pattern.yearly.month.4.label "აპრილი">
-<!ENTITY event.recurrence.pattern.yearly.month.5.label "მაისი">
-<!ENTITY event.recurrence.pattern.yearly.month.6.label "ივნისი">
-<!ENTITY event.recurrence.pattern.yearly.month.7.label "ივლისი">
-<!ENTITY event.recurrence.pattern.yearly.month.8.label "აგვისტო">
-<!ENTITY event.recurrence.pattern.yearly.month.9.label "სექტემბერი">
-<!ENTITY event.recurrence.pattern.yearly.month.10.label "ოქტომბერი">
-<!ENTITY event.recurrence.pattern.yearly.month.11.label "ნოემბერი">
-<!ENTITY event.recurrence.pattern.yearly.month.12.label "დეკემბერი">
 <!ENTITY event.recurrence.yearly.every.label "ყოველი">
 <!ENTITY event.recurrence.yearly.first.label "პირველი">
 <!ENTITY event.recurrence.yearly.second.label "მეორე">
@@ -300,27 +279,8 @@
 <!ENTITY event.recurrence.yearly.fourth.label "მეოთხე">
 <!ENTITY event.recurrence.yearly.fifth.label "მეხუთე">
 <!ENTITY event.recurrence.yearly.last.label "ბოლო">
-<!ENTITY event.recurrence.pattern.yearly.week.1.label "კვირა">
-<!ENTITY event.recurrence.pattern.yearly.week.2.label "ორშაბათი">
-<!ENTITY event.recurrence.pattern.yearly.week.3.label "სამშაბათი">
-<!ENTITY event.recurrence.pattern.yearly.week.4.label "ოთხშაბათი">
-<!ENTITY event.recurrence.pattern.yearly.week.5.label "ხუთშაბათი">
-<!ENTITY event.recurrence.pattern.yearly.week.6.label "პარასკევი">
-<!ENTITY event.recurrence.pattern.yearly.week.7.label "შაბათი">
 <!ENTITY event.recurrence.pattern.yearly.day.label "დღე">
 <!ENTITY event.recurrence.of.label "-">
-<!ENTITY event.recurrence.pattern.yearly.month2.1.label "იანვარი">
-<!ENTITY event.recurrence.pattern.yearly.month2.2.label "თებერვალი">
-<!ENTITY event.recurrence.pattern.yearly.month2.3.label "მარტი">
-<!ENTITY event.recurrence.pattern.yearly.month2.4.label "აპრილი">
-<!ENTITY event.recurrence.pattern.yearly.month2.5.label "მაისი">
-<!ENTITY event.recurrence.pattern.yearly.month2.6.label "ივნისი">
-<!ENTITY event.recurrence.pattern.yearly.month2.7.label "ივლისი">
-<!ENTITY event.recurrence.pattern.yearly.month2.8.label "აგვისტო">
-<!ENTITY event.recurrence.pattern.yearly.month2.9.label "სექტემბერი">
-<!ENTITY event.recurrence.pattern.yearly.month2.10.label "ოქტომბერი">
-<!ENTITY event.recurrence.pattern.yearly.month2.11.label "ნოემბერი">
-<!ENTITY event.recurrence.pattern.yearly.month2.12.label "დეკემბერი">
 <!ENTITY event.recurrence.range.label "განმეორებათა რანგი">
 <!ENTITY event.recurrence.forever.label "დასრულების თარიღის გარეშე">
 <!ENTITY event.recurrence.repeat.for.label "შექმნა">

@@ -88,12 +88,6 @@ quit-app-shortcut =
 
 ## Mail Toolbar
 
-toolbar-junk-button =
-    .label = Net-winske
-    .tooltiptext = De selektearre berjochten as net-winske markearje
-toolbar-not-junk-button =
-    .label = Net net-winske
-    .tooltiptext = De selektearre berjochten as net net-winske markearje
 toolbar-delete-button =
     .label = Fuortsmite
     .tooltiptext = Selektearre berjochten of map fuortsmite

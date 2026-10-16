@@ -702,16 +702,6 @@ hide-calendar-name =
 show-only-calendar-name =
     .label = Só amosar { $name }
     .accesskey = o
-# $name calendar name
-show-calendar-label =
-    .label = Amosar { $name }
-# $name calendar name
-hide-calendar-label =
-    .label = Agochar { $name }
-# uses the access key calendar.context.showonly.accesskey
-# $name calendar name
-show-only-calendar =
-    .label = Só amosar { $name }
 # LOCALIZATION NOTE (modify-conflict-*)
 # Used by the event dialog to resolve item modification conflicts.
 modify-conflict-prompt-title = Conflito na modificación do elemento

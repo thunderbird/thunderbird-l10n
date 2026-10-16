@@ -46,8 +46,6 @@
 <!ENTITY getAllNewMsgCmdPopupMenu.accesskey "У">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.label "Бягучага ўліковага запісу">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.accesskey "Б">
-<!ENTITY getNextNMsgCmd2.label "Атрымаць наступныя паведамленні з навінамі">
-<!ENTITY getNextNMsgCmd2.accesskey "н">
 <!ENTITY sendUnsentCmd.label "Адправіць неадпраўленыя паведамленні">
 <!ENTITY sendUnsentCmd.accesskey "н">
 <!ENTITY subscribeCmd.label "Падпісацца…">
@@ -57,8 +55,6 @@
 <!ENTITY renameFolder.label "Перайменаваць папку…">
 <!ENTITY renameFolder.accesskey "П">
 <!ENTITY renameFolder.key "VK_F2">
-<!ENTITY compactFolders.label "Сціснуць папкі">
-<!ENTITY compactFolders.accesskey "С">
 <!ENTITY emptyTrashCmd.label "Ачысціць сметніцу">
 <!ENTITY emptyTrashCmd.accesskey "с">
 <!ENTITY offlineMenu.label "Праца па-за сеткай">
@@ -127,10 +123,6 @@
 <!ENTITY allFolders.accesskey "У">
 <!ENTITY unreadFolders.label "Непрачытаныя">
 <!ENTITY unreadFolders.accesskey "Н">
-<!ENTITY favoriteFolders.label "Абраныя">
-<!ENTITY favoriteFolders.accesskey "А">
-<!ENTITY recentFolders.label "Нядаўнія">
-<!ENTITY recentFolders.accesskey "Н">
 <!ENTITY compactVersion.label "Кампактны выгляд">
 <!ENTITY compactVersion.accesskey "а">
 <!-- Sort Menu -->
@@ -152,8 +144,6 @@
 <!ENTITY sortByStatusCmd.accesskey "С">
 <!ENTITY sortByTagsCmd.label "Меткам">
 <!ENTITY sortByTagsCmd.accesskey "М">
-<!ENTITY sortByJunkStatusCmd.label "Статусе спаму">
-<!ENTITY sortByJunkStatusCmd.accesskey "т">
 <!ENTITY sortBySubjectCmd.label "Тэме">
 <!ENTITY sortBySubjectCmd.accesskey "э">
 <!ENTITY sortByFromCmd.label "Адпраўніку">
@@ -229,7 +219,6 @@
 <!ENTITY findPrevCmd.key2 "VK_F3">
 <!ENTITY searchMailCmd.label "Шукаць паведамленні…">
 <!ENTITY searchMailCmd.accesskey "п">
-<!ENTITY searchMailCmd.key "f">
 <!ENTITY glodaSearchCmd.label "Глабальны пошук…">
 <!ENTITY glodaSearchCmd.accesskey "Г">
 <!ENTITY searchAddressesCmd.label "Шукаць адрасы…">
@@ -316,16 +305,6 @@
 <!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN">
 <!ENTITY createFilter.label "Стварыць фільтр з паведамлення…">
 <!ENTITY createFilter.accesskey "ф">
-<!ENTITY moveMsgToMenu.label "Перамясціць у">
-<!ENTITY moveMsgToMenu.accesskey "м">
-<!ENTITY moveCopyMsgRecentMenu.label "Нядаўнія">
-<!ENTITY moveCopyMsgRecentMenu.accesskey "Н">
-<!ENTITY copyMessageLocation.label "Капіяваць адрас паведамлення">
-<!ENTITY copyMsgToMenu.label "Капіяваць у">
-<!ENTITY copyMsgToMenu.accesskey "К">
-<!ENTITY moveToFolderAgain.label "Перамясціць зноў">
-<!ENTITY moveToFolderAgain.accesskey "я">
-<!ENTITY moveToFolderAgainCmd.key "m">
 <!ENTITY killThreadMenu.label "Ігнараваць абмеркаванне">
 <!ENTITY killThreadMenu.accesskey "І">
 <!ENTITY killThreadMenu.key "k">
@@ -337,16 +316,6 @@
 <!ENTITY watchThreadMenu.key "w">
 <!ENTITY tagMenu.label "Памеціць">
 <!ENTITY tagMenu.accesskey "ц">
-<!ENTITY tagCmd0.key "0">
-<!ENTITY tagCmd1.key "1">
-<!ENTITY tagCmd2.key "2">
-<!ENTITY tagCmd3.key "3">
-<!ENTITY tagCmd4.key "4">
-<!ENTITY tagCmd5.key "5">
-<!ENTITY tagCmd6.key "6">
-<!ENTITY tagCmd7.key "7">
-<!ENTITY tagCmd8.key "8">
-<!ENTITY tagCmd9.key "9">
 <!ENTITY markMenu.label "Пазначыць">
 <!ENTITY markMenu.accesskey "ы">
 <!ENTITY toggleReadCmd.key "m">
@@ -364,14 +333,6 @@
 <!ENTITY markStarredCmd.label "Пазначаным">
 <!ENTITY markStarredCmd.accesskey "П">
 <!ENTITY markStarredCmd.key "S">
-<!ENTITY markAsJunkCmd.label "Як спам">
-<!ENTITY markAsJunkCmd.accesskey "с">
-<!ENTITY markAsJunkCmd.key "j">
-<!ENTITY markAsNotJunkCmd.label "Як не спам">
-<!ENTITY markAsNotJunkCmd.accesskey "м">
-<!ENTITY markAsNotJunkCmd.key "j">
-<!ENTITY recalculateJunkScoreCmd.label "Запусціць спам-фільтры">
-<!ENTITY recalculateJunkScoreCmd.accesskey "З">
 <!ENTITY openMessageWindowCmd.label "Адкрыць паведамленне">
 <!ENTITY openMessageWindowCmd.accesskey "А">
 <!ENTITY openMessageWindowCmd.key "o">
@@ -415,10 +376,6 @@
 <!ENTITY filtersApplyToSelection.accesskey "в">
 <!ENTITY filtersApplyToMessage.label "Запусціць фільтры для паведамлення">
 <!ENTITY filtersApplyToMessage.accesskey "п">
-<!ENTITY runJunkControls.label "Запусціць спам-фільтры ў папцы">
-<!ENTITY runJunkControls.accesskey "с">
-<!ENTITY deleteJunk.label "Выдаліць пазначаныя як спам паведамленні з папкі">
-<!ENTITY deleteJunk.accesskey "В">
 <!ENTITY importCmd.label "Імпарт…">
 <!ENTITY importCmd.accesskey "І">
 <!ENTITY exportCmd.label "Экспарт…">
@@ -454,7 +411,6 @@
 <!ENTITY printButton.label "Друк">
 <!ENTITY stopButton.label "Спыніць">
 <!ENTITY throbberItem.title "Індыкатар актыўнасці">
-<!ENTITY junkItem.title "Спам">
 <!ENTITY addressBookButton.label "Адрасная кніга">
 <!ENTITY chatButton.label "Чат">
 <!ENTITY glodaSearch.title "Глабальны пошук">
@@ -510,11 +466,6 @@
 <!ENTITY appmenuNewContactCmd.label "Кантакт у адраснай кнізе…">
 <!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Макет панэлі інструментаў…">
-<!-- Tags Menu Popup -->
-<!ENTITY addNewTag.label "Новая метка…">
-<!ENTITY addNewTag.accesskey "Н">
-<!ENTITY manageTags.label "Кіраваць меткамі…">
-<!ENTITY manageTags.accesskey "К">
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "Імя">
 <!ENTITY folderUnreadColumn.label "Непрачытаныя">
@@ -536,12 +487,8 @@
 <!ENTITY folderContextRename.accesskey "П">
 <!ENTITY folderContextRemove.label "Выдаліць">
 <!ENTITY folderContextRemove.accesskey "В">
-<!ENTITY folderContextCompact.label "Сціснуць">
-<!ENTITY folderContextCompact.accesskey "С">
 <!ENTITY folderContextEmptyTrash.label "Ачысціць сметніцу">
 <!ENTITY folderContextEmptyTrash.accesskey "А">
-<!ENTITY folderContextEmptyJunk.label "Ачысціць спам">
-<!ENTITY folderContextEmptyJunk.accesskey "А">
 <!ENTITY folderContextSendUnsentMessages.label "Адправіць неадпраўленыя паведамленні">
 <!ENTITY folderContextSendUnsentMessages.accesskey "н">
 <!ENTITY folderContextUnsubscribe.label "Адпісацца">
@@ -579,7 +526,6 @@
 <!ENTITY accountColumn.label "Уліковы запіс">
 <!ENTITY statusColumn.label "Статус">
 <!ENTITY sizeColumn.label "Памер">
-<!ENTITY junkStatusColumn.label "Статус спаму">
 <!ENTITY unreadColumn.label "Не прачытана">
 <!ENTITY totalColumn.label "Усяго">
 <!ENTITY readColumn.label "Прачытана">
@@ -599,7 +545,6 @@
 <!ENTITY accountColumn2.tooltip "Сартаваць па ўліковым запісам">
 <!ENTITY statusColumn2.tooltip "Сартаваць па статусе">
 <!ENTITY sizeColumn2.tooltip "Сартаваць па памеры">
-<!ENTITY junkStatusColumn2.tooltip "Сартаваць па статусу спаму">
 <!ENTITY unreadColumn2.tooltip "Колькасць непрачытаных паведамленняў у абмеркаванні">
 <!ENTITY totalColumn2.tooltip "Агульная колькасць паведамленняў у абмеркаванні">
 <!ENTITY readColumn2.tooltip "Сартаваць па статусе чытання">
@@ -622,10 +567,6 @@
 <!ENTITY contextArchive.label "Архіваваць">
 <!ENTITY contextReplySender.label "Адказаць толькі адпраўніку">
 <!ENTITY contextReplyAll.label "Адказаць усім">
-<!ENTITY contextMoveMsgMenu.label "Перамясціць у">
-<!ENTITY contextMoveCopyMsgRecentMenu.label "Нядаўнія">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.label "Абраныя">
-<!ENTITY contextCopyMsgMenu.label "Капіяваць у">
 <!ENTITY contextKillThreadMenu.label "Ігнараваць абмеркаванне">
 <!ENTITY contextKillSubthreadMenu.label "Ігнараваць галіну абмеркавання">
 <!ENTITY contextWatchThreadMenu.label "Сачыць за абмеркаваннем">

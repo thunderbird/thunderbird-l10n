@@ -3,10 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY subscribeDialog.title "Abonēt">
-<!ENTITY subscribeButton.label "Abonēt">
-<!ENTITY subscribeButton.accesskey "P">
-<!ENTITY unsubscribeButton.label "Atrakstīties">
-<!ENTITY unsubscribeButton.accesskey "A">
 <!ENTITY newGroupsTab.label "Ziņu grupas">
 <!ENTITY newGroupsTab.accesskey "Z">
 <!ENTITY refreshButton.label "Pārlādēt">

@@ -30,11 +30,6 @@ appmenu-sync-sign-out =
 
 ## Add Account
 
-appmenu-new-account-panel-title =
-    .title = Nový účet
-appmenu-new-account-panel =
-    .label = Nový účet
-    .accesskey = N
 appmenu-new-email-account =
     .label = E‑mail
     .accesskey = E
@@ -58,11 +53,6 @@ appmenu-add-account-panel =
 
 ## New Account / Address Book
 
-appmenu-newab-panel-title =
-    .title = Nový adresár
-appmenu-newab-panel =
-    .label = Nový adresár
-    .accesskey = N
 appmenu-new-addressbook =
     .label = Lokálny adresár
     .accesskey = L

@@ -4,10 +4,6 @@
 
 open-preferences-sidebar-button2 = { -brand-short-name } nuostatos
 open-addons-sidebar-button = Priedai ir grafiniai apvalkalai
-account-action-add-newsgroup-account =
-    .label = Pridėti naujienų grupės paskyrą…
-    .accesskey = P
-account-tree-create-account-button = Nauja paskyra
 account-tree-add-mail-account =
     .label = Pašto paskyra…
     .accesskey = P

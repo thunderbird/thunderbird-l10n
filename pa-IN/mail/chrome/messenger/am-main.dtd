@@ -32,7 +32,4 @@
 <!ENTITY attachVCard.accesskey "v">
 <!ENTITY manageIdentities.label "ਪਛਾਣ ਪਰਬੰਧ...">
 <!ENTITY manageIdentities.accesskey "M">
-<!-- LOCALIZATION NOTE (smtpName.label) : do not translate "SMTP" in below line -->
-<!ENTITY smtpName.label "ਬਾਹਰੀ ਸਰਵਰ (SMTP):">
-<!ENTITY smtpName.accesskey "u">
 <!ENTITY smtpDefaultServer.label "ਡਿਫਾਲਟ ਸਰਵਰ ਵਰਤੋਂ">

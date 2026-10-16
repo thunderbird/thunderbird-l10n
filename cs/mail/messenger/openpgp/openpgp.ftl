@@ -464,7 +464,6 @@ key-verification = Ověřte otisk klíče pomocí jiného bezpečného komunika�
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Zprávu nelze odeslat, protože se u vašeho osobního klíče vyskytl problém. { $problem }
-window-locked = Okno psaní zprávy je uzamčeno; odesílání bylo zrušeno
 
 ## Strings in keyserver.sys.mjs
 
@@ -497,9 +496,6 @@ converter-decrypt-body-failed =
 ## Strings filters.sys.mjs
 
 filter-folder-required = Musíte vybrat cílovou složku.
-filter-decrypt-move-warn-experimental =
-    VAROVÁNÍ: Akce filtru „Dešifrovat nastálo“ může vést ke zničení zpráv.
-    Důrazně doporučujeme nejprve vyzkoušet filtr „Vytvořit dešifrovanou kopii“, výsledek pečlivě překontrolovat, a tento filtr začít používat až poté, co budete s výsledkem spokojeni.
 filter-term-pgpencrypted-label = Zašifrováno pomocí OpenPGP
 filter-key-required = Musíte vybrat klíč příjemce.
 # Variables:
@@ -661,7 +657,6 @@ fail-key-import = Chyba: Importování klíče selhalo
 # $output (String) - File that writing was attempted to.
 file-write-failed = Zápis do souboru { $output } selhal
 no-pgp-block = Chyba: Nenalezen platný blok dat OpenPGP
-confirm-permissive-import = Import se nezdařil. Klíč, který se pokoušíte naimportovat, může být poškozený, nebo používá neznámé atributy. Chcete se pokusit naimportovat jeho korektní části? To může mít za následek import neúplných a nepoužitelných klíčů.
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = Některé z importovaných tajných klíčů obsahují nepodporovanou funkci. Pokud takový klíč použijete jako svůj osobní klíč, mohou vám korespondenti zasílat e-maily nebo veřejné klíče v nekompatibilním formátu. To se týká importovaných tajných klíčů s následujícími otisky: { $fingerprints }.
@@ -720,9 +715,6 @@ key-man-button-generate-key-continue = &Pokračovat ve vytváření klíče
 
 failed-decrypt = Chyba: Dešifrování se nezdařilo
 fix-broken-exchange-msg-failed = Zprávu se nepodařilo opravit.
-# Variables:
-# $attachment (String) - File name of the signature file.
-attachment-no-match-from-signature = Soubor s podpisem '{ $attachment }' nelze přiřadit k žádné příloze
 # Variables:
 # Variables:
 # $attachment (String) - File name of the attachment.
@@ -833,8 +825,3 @@ enig-confirm = Potvrzení - OpenPGP
 
 dlg-button-retry = &Opakovat
 dlg-button-skip = &Přeskočit
-
-## Strings used in enigmailMsgBox.js
-
-enig-alert-title =
-    .title = Upozornění - OpenPGP

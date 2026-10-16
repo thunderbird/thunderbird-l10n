@@ -14,24 +14,10 @@
 <!ENTITY autosyncNotDownload.accesskey "r">
 <!ENTITY kb.label "KB">
 <!ENTITY daysOld.label "ojer taq q'ij">
-<!ENTITY message.label "kitzijol">
 <!ENTITY nntpNotDownloadRead.label "Sik'in taq rutzijol">
 <!ENTITY nntpNotDownloadRead.accesskey "S">
 <!ENTITY nntpDownloadMsg.label "Rutzijol nïm chuwäch">
 <!ENTITY nntpDownloadMsg.accesskey "u">
-<!ENTITY retentionCleanup.label "Richin nikol rupam ri nimayakb'äl, tikirel jumul yeyuj el ri ojer taq rutzijol.">
-<!ENTITY retentionCleanupImap.label "Richin nikol rupam ri nimayakb'äl, tikirel jumul yeyuj el ri ojer taq rutzijol, achi'el ri aj wawe' chuqa' nab'ey taq wachib'enïk pa ri näj k'uxasamaj.">
-<!ENTITY retentionCleanupPop.label "Richin nikol rupam ri nimayakb'äl, tikirel jumul yeyuj el ri ojer taq rutzijol, achi'el ri nab'ey taq wachib'enïk pa ri näj k'uxasamaj.">
-<!ENTITY retentionKeepMsg.label "Keyuj taq rutzijol nïm chuwäch">
-<!ENTITY retentionKeepMsg.accesskey "c">
-<!ENTITY retentionKeepAll.label "Man keyuj taq tzijol">
-<!ENTITY retentionKeepAll.accesskey "n">
-<!ENTITY retentionKeepRecent.label "Keyuj konojel, man ke ta ri' ri e k'ak'a'">
-<!ENTITY retentionKeepRecent.accesskey "m">
-<!ENTITY retentionApplyToFlagged.label "Junelïk keyake' ri nimaläj taq rutzijol">
-<!ENTITY retentionApplyToFlagged.accesskey "k">
-<!ENTITY nntpRemoveMsgBody.label "Keyuj kich'akul taq rutzijol nïm chuwäch">
-<!ENTITY nntpRemoveMsgBody.accesskey "a">
 <!ENTITY offlineSelectNntp.label "Tichach kimolaj tzijol richin nokisäx toq majun okem…">
 <!ENTITY offlineSelectNntp.accesskey "T">
 <!ENTITY offlineImapAdvancedOffline.label "Taq q'axinäq…">

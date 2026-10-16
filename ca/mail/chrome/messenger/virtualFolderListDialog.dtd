@@ -3,5 +3,3 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY virtualFolderListTitle.title "Seleccioneu les carpetes">
 <!ENTITY virtualFolderDesc.label "Seleccioneu les carpetes que voleu cercar:">
-<!ENTITY folderName.label "Nom de la carpeta">
-<!ENTITY folderSearch.label "Cerca">

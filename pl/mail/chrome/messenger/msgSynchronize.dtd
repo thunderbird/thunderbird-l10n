@@ -18,5 +18,3 @@
 <!ENTITY selectButton.label "Konfiguruj…">
 <!ENTITY selectButton.accesskey "K">
 <!ENTITY MsgSelectDesc.label "Zaznacz foldery poczty i grupy dyskusyjne, które będą dostępne w trybie offline.">
-<!ENTITY MsgSelectInd.label "Udostępnij">
-<!ENTITY MsgSelectItems.label "Foldery i grupy dyskusyjne">

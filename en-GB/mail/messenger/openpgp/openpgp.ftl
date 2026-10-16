@@ -432,7 +432,6 @@ key-verification = Verify the fingerprint of the key using a secure communicatio
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Unable to send the message, because there is a problem with your personal key. { $problem }
-window-locked = Compose window is locked; send cancelled
 
 ## Strings in keyserver.sys.mjs
 
@@ -466,9 +465,6 @@ converter-decrypt-body-failed =
 ## Strings filters.sys.mjs
 
 filter-folder-required = You must select a target folder.
-filter-decrypt-move-warn-experimental =
-    Warning - the filter action "Decrypt permanently" may lead to destroyed messages.
-    We strongly recommend that you first try the "Create decrypted Copy" filter, test the result carefully, and only start using this filter once you are satisfied with the result.
 filter-term-pgpencrypted-label = OpenPGP Encrypted
 filter-key-required = You must select a recipient key.
 # Variables:
@@ -631,7 +627,6 @@ fail-key-import = Error - key importing failed
 # $output (String) - File that writing was attempted to.
 file-write-failed = Failed to write to file { $output }
 no-pgp-block = Error - No valid armored OpenPGP data block found
-confirm-permissive-import = Import failed. The key you are trying to import might be corrupt or use unknown attributes. Would you like to attempt to import the parts that are correct? This might result in the import of incomplete and unusable keys.
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = Some of the imported secret keys advertise an unsupported feature. If you use such a key as your personal key, correspondents may send you emails or public keys in an incompatible format. This affects imported secret keys with the following fingerprints: { $fingerprints }.
@@ -690,9 +685,6 @@ key-man-button-generate-key-continue = &Continue Key Generation
 
 failed-decrypt = Error - decryption failed
 fix-broken-exchange-msg-failed = Did not succeed to repair message.
-# Variables:
-# $attachment (String) - File name of the signature file.
-attachment-no-match-from-signature = Could not match signature file '{ $attachment }' to an attachment
 # Variables:
 # Variables:
 # $attachment (String) - File name of the attachment.
@@ -803,8 +795,3 @@ enig-confirm = OpenPGP Confirmation
 
 dlg-button-retry = &Retry
 dlg-button-skip = &Skip
-
-## Strings used in enigmailMsgBox.js
-
-enig-alert-title =
-    .title = OpenPGP Alert

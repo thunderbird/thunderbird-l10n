@@ -56,14 +56,7 @@ account-hub-email-connect-button = Повежи
 account-hub-result-incoming-legend = Долазни
 account-hub-result-outgoing-legend = Одлазни
 account-hub-all-servers-legend = Сви сервери
-account-hub-incoming-server-legend = Долазни сервер
-account-hub-outgoing-server-legend = Одлазни сервер
-account-hub-result-incoming-server-legend = Долазни сервер
-    .title = Долазни сервер
-account-hub-result-outgoing-server-legend = Одлазни сервер
-    .title = Одлазни сервер
 account-hub-protocol-label = Протокол
-account-hub-hostname-label = Име сервера
 account-hub-result-hostname-label = Име домаћина
     .title = Име домаћина
 account-hub-result-socket-type-label = Безбедност везе
@@ -101,10 +94,6 @@ account-hub-result-auth-external = Спољно
 account-hub-result-auth-oauth2 = OAuth2
     .title = ОАут2
 account-hub-on-port-label = Порт
-account-hub-result-authentication-label = Потврђивање идентитета
-    .title = Потврђивање идентитета
-account-hub-port-label = Порт
-    .title = Подесите број порта на 0 за самостално препознавање
 account-hub-auto-description = { -brand-short-name } ће покушати да самостално открије поља која су остављена празна.
 account-hub-ssl-label = Безбедност везе
 
@@ -112,8 +101,6 @@ account-hub-ssl-label = Безбедност везе
 
 account-hub-ssl-autodetect-option =
     .label = Самопрепознавање
-account-hub-ssl-no-authentication-option =
-    .label = Без идентификације
 account-hub-ssl-cleartext-password-option =
     .label = Обична лозинка
 account-hub-ssl-encrypted-password-option =
@@ -278,7 +265,6 @@ account-hub-email-exchange-settings = Exchange подешавања
 account-hub-email-connect-settings = Повежите подешавања е-поште
 account-hub-email-protocol-select-header = Изаберите врсту налога е-поште
 account-hub-email-protocol-select-additional-info = Потребни су додатни подаци за подешавање овог налога.
-account-hub-email-config-found = Изаберите врсту вашег налога е-поште
 account-hub-email-enter-password = Унесите лозинку за ваш налог е-поште
 account-hub-email-sync-accounts = Усагласите ваше календаре и именике
 account-hub-test-configuration = Тест
@@ -305,7 +291,6 @@ account-hub-config-success-description-guess = Пронађено је поде�
 account-hub-config-success-description-disk = Подешавање пронађено у инсталацији { -brand-short-name }-а.
 account-hub-config-success-description-isp = Подешавање пронађено код пружаоца е-поште.
 account-hub-config-success-description-read-more = Можете <a data-l10n-name="automated-setup-link">прочитати о томе како ради самостално подешавање е-поште.</a>
-account-hub-config-success = Подешавање је пронађено у Mozilla ISPDB-у
 account-hub-password-info = Ваши подаци за приступ биће сачувани само локално на вашем рачунару
 account-hub-creating-account = Прављење налога…
 account-hub-sync-accounts-found = { -brand-short-name } је пронашао неке повезане услуге
@@ -337,10 +322,8 @@ account-hub-username-error-text = Корисничко име је обавез�
 account-hub-manual-config-error-summary = Разреши следеће грешке:
 account-hub-oauth-pending = Чекање на овлашћење у искачућем прозору за пријаву…
 account-hub-addon-install-button = Инсталирај
-account-hub-addon-install-needed = { -brand-short-name } не подржава изворно овај сервер. Да бисте приступили Exchange е-пошти, <a data-l10n-name="addon-install">инсталирајте додатак треће стране као што је Owl (плаћа се).</a>
 account-hub-addon-error = Инсталација додатка није успела. Покушајте поново или контактирајте аутора додатка за помоћ.
 account-hub-select-security-warning = <span data-l10n-name="error-text">Упозорење: откривен је небезбедан сервер е-поште.</span> Овај сервер нема шифровање, чиме се излажу ваша лозинка и подаци. Обратите се свом администратору да бисте осигурали везу или наставите на сопствени ризик. <a data-l10n-name="error-link">Погледајте ЧПП за више информација.</a>
-account-hub-security-warning = <span data-l10n-name="security-warning">Упозорење: Откривен је небезбедан сервер е-поште.</span> Овом серверу недостаје шифровање, чиме се излажу ваша лозинка и подаци. Контактирајте свог администратора да бисте осигурали везу или наставите на сопствени ризик. <a data-l10n-name="faq-link">Погледајте ЧПП за више информација.</a>
 account-hub-account-authentication-error = Грешка при потврди идентитета.
 account-hub-add-address-book = Додај именик
 address-book-sync-existing-icon =
@@ -371,7 +354,6 @@ account-hub-address-book-sync-books-data =
         [few] { $addressBooks } доступна именика
        *[other] { $addressBooks } доступних именика
     }
-account-hub-fetching-sync-accounts = Откривање именика и календара…
 address-book-sync-existing-description = Преузимање постојећих налога…
 account-hub-select-address-book-account = Изаберите налог са именицима
 # $synced (Number) - The number of address books that are synced.

@@ -48,8 +48,6 @@
 <!ENTITY getAllNewMsgCmdPopupMenu.accesskey "T">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.label "Conta atual">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.accesskey "C">
-<!ENTITY getNextNMsgCmd2.label "Obter as próximas mensagens de notícias">
-<!ENTITY getNextNMsgCmd2.accesskey "t">
 <!ENTITY sendUnsentCmd.label "Enviar mensagens não enviadas">
 <!ENTITY sendUnsentCmd.accesskey "e">
 <!ENTITY subscribeCmd.label "Subscrever...">
@@ -59,8 +57,6 @@
 <!ENTITY renameFolder.label "Renomear pasta…">
 <!ENTITY renameFolder.accesskey "R">
 <!ENTITY renameFolder.key "VK_F2">
-<!ENTITY compactFolders.label "Compactar pastas">
-<!ENTITY compactFolders.accesskey "t">
 <!ENTITY emptyTrashCmd.label "Esvaziar lixo">
 <!ENTITY emptyTrashCmd.accesskey "x">
 <!ENTITY offlineMenu.label "Offline">
@@ -129,10 +125,6 @@
 <!ENTITY allFolders.accesskey "T">
 <!ENTITY unreadFolders.label "Não lidas">
 <!ENTITY unreadFolders.accesskey "N">
-<!ENTITY favoriteFolders.label "Favoritas">
-<!ENTITY favoriteFolders.accesskey "F">
-<!ENTITY recentFolders.label "Recente">
-<!ENTITY recentFolders.accesskey "R">
 <!ENTITY compactVersion.label "Visão compactada">
 <!ENTITY compactVersion.accesskey "c">
 <!-- Sort Menu -->
@@ -154,8 +146,6 @@
 <!ENTITY sortByStatusCmd.accesskey "a">
 <!ENTITY sortByTagsCmd.label "Etiquetas">
 <!ENTITY sortByTagsCmd.accesskey "q">
-<!ENTITY sortByJunkStatusCmd.label "Estado de lixo eletrónico">
-<!ENTITY sortByJunkStatusCmd.accesskey "l">
 <!ENTITY sortBySubjectCmd.label "Assunto">
 <!ENTITY sortBySubjectCmd.accesskey "n">
 <!ENTITY sortByFromCmd.label "De">
@@ -243,7 +233,6 @@
 <!ENTITY findPrevCmd.key2 "VK_F3">
 <!ENTITY searchMailCmd.label "Pesquisar mensagens…">
 <!ENTITY searchMailCmd.accesskey "m">
-<!ENTITY searchMailCmd.key "f">
 <!ENTITY glodaSearchCmd.label "Pesquisa global…">
 <!ENTITY glodaSearchCmd.accesskey "g">
 <!ENTITY searchAddressesCmd.label "Pesquisar endereços…">
@@ -334,17 +323,6 @@
 <!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN">
 <!ENTITY createFilter.label "Criar filtro a partir da mensagem...">
 <!ENTITY createFilter.accesskey "f">
-<!ENTITY moveMsgToMenu.label "Mover para">
-<!ENTITY moveMsgToMenu.accesskey "M">
-<!ENTITY moveCopyMsgRecentMenu.label "Recentes">
-<!ENTITY moveCopyMsgRecentMenu.accesskey "e">
-<!ENTITY copyMessageLocation.label "Copiar localização da mensagem">
-<!ENTITY copyMessageLocation.accesskey "m">
-<!ENTITY copyMsgToMenu.label "Copiar para">
-<!ENTITY copyMsgToMenu.accesskey "C">
-<!ENTITY moveToFolderAgain.label "Mover novamente">
-<!ENTITY moveToFolderAgain.accesskey "v">
-<!ENTITY moveToFolderAgainCmd.key "m">
 <!ENTITY killThreadMenu.label "Ignorar tópico">
 <!ENTITY killThreadMenu.accesskey "I">
 <!ENTITY killThreadMenu.key "k">
@@ -356,16 +334,6 @@
 <!ENTITY watchThreadMenu.key "W">
 <!ENTITY tagMenu.label "Etiqueta">
 <!ENTITY tagMenu.accesskey "q">
-<!ENTITY tagCmd0.key "0">
-<!ENTITY tagCmd1.key "1">
-<!ENTITY tagCmd2.key "2">
-<!ENTITY tagCmd3.key "3">
-<!ENTITY tagCmd4.key "4">
-<!ENTITY tagCmd5.key "5">
-<!ENTITY tagCmd6.key "6">
-<!ENTITY tagCmd7.key "7">
-<!ENTITY tagCmd8.key "8">
-<!ENTITY tagCmd9.key "9">
 <!ENTITY markMenu.label "Marcar">
 <!ENTITY markMenu.accesskey "c">
 <!ENTITY toggleReadCmd.key "m">
@@ -385,14 +353,6 @@
 <!ENTITY markStarredCmd.label "Adicionar estrela">
 <!ENTITY markStarredCmd.accesskey "e">
 <!ENTITY markStarredCmd.key "S">
-<!ENTITY markAsJunkCmd.label "Como lixo eletrónico">
-<!ENTITY markAsJunkCmd.accesskey "r">
-<!ENTITY markAsJunkCmd.key "j">
-<!ENTITY markAsNotJunkCmd.label "Não é lixo eletrónico">
-<!ENTITY markAsNotJunkCmd.accesskey "N">
-<!ENTITY markAsNotJunkCmd.key "j">
-<!ENTITY recalculateJunkScoreCmd.label "Executar controlos de lixo eletrónico">
-<!ENTITY recalculateJunkScoreCmd.accesskey "c">
 <!ENTITY openMessageWindowCmd.label "Abrir mensagem">
 <!ENTITY openMessageWindowCmd.accesskey "A">
 <!ENTITY openMessageWindowCmd.key "o">
@@ -441,10 +401,6 @@
 <!ENTITY filtersApplyToSelection.accesskey "s">
 <!ENTITY filtersApplyToMessage.label "Executar filtros na mensagem">
 <!ENTITY filtersApplyToMessage.accesskey "r">
-<!ENTITY runJunkControls.label "Executar controlos de lixo eletrónico na pasta">
-<!ENTITY runJunkControls.accesskey "r">
-<!ENTITY deleteJunk.label "Apagar correio marcado como lixo na pasta">
-<!ENTITY deleteJunk.accesskey "e">
 <!ENTITY importCmd.label "Importar...">
 <!ENTITY importCmd.accesskey "m">
 <!ENTITY exportCmd.label "Exportar…">
@@ -491,7 +447,6 @@
 <!ENTITY printButton.label "Imprimir">
 <!ENTITY stopButton.label "Parar">
 <!ENTITY throbberItem.title "Indicador de atividade">
-<!ENTITY junkItem.title "Lixo eletrónico">
 <!ENTITY addressBookButton.label "Livro de endereços">
 <!ENTITY chatButton.label "Chat">
 <!ENTITY glodaSearch.title "Pesquisa global">
@@ -553,11 +508,6 @@
 <!ENTITY appmenuNewContactCmd.label "Contacto do livro de endereços...">
 <!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Esquema da barra de ferramentas…">
-<!-- Tags Menu Popup -->
-<!ENTITY addNewTag.label "Nova etiqueta...">
-<!ENTITY addNewTag.accesskey "N">
-<!ENTITY manageTags.label "Gerir etiquetas...">
-<!ENTITY manageTags.accesskey "G">
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "Nome">
 <!ENTITY folderUnreadColumn.label "Não lida">
@@ -580,12 +530,8 @@
 <!ENTITY folderContextRename.accesskey "R">
 <!ENTITY folderContextRemove.label "Apagar">
 <!ENTITY folderContextRemove.accesskey "A">
-<!ENTITY folderContextCompact.label "Compactar">
-<!ENTITY folderContextCompact.accesskey "C">
 <!ENTITY folderContextEmptyTrash.label "Esvaziar lixo">
 <!ENTITY folderContextEmptyTrash.accesskey "x">
-<!ENTITY folderContextEmptyJunk.label "Esvaziar lixo eletrónico">
-<!ENTITY folderContextEmptyJunk.accesskey "z">
 <!ENTITY folderContextSendUnsentMessages.label "Enviar mensagens não enviadas">
 <!ENTITY folderContextSendUnsentMessages.accesskey "d">
 <!ENTITY folderContextUnsubscribe.label "Cancelar subscrição">
@@ -628,7 +574,6 @@
 <!ENTITY accountColumn.label "Conta">
 <!ENTITY statusColumn.label "Estado">
 <!ENTITY sizeColumn.label "Tamanho">
-<!ENTITY junkStatusColumn.label "Estado do lixo eletrónico">
 <!ENTITY unreadColumn.label "Não lido">
 <!ENTITY totalColumn.label "Total">
 <!ENTITY readColumn.label "Lido">
@@ -652,7 +597,6 @@
 <!ENTITY accountColumn2.tooltip "Ordenar por conta">
 <!ENTITY statusColumn2.tooltip "Ordenar por estado">
 <!ENTITY sizeColumn2.tooltip "Ordenar por tamanho">
-<!ENTITY junkStatusColumn2.tooltip "Ordenar por estado do lixo eletrónico">
 <!ENTITY unreadColumn2.tooltip "Número de mensagens não lidas no tópico">
 <!ENTITY totalColumn2.tooltip "Número total de mensagens no tópico">
 <!ENTITY readColumn2.tooltip "Ordenar por lidas">
@@ -691,16 +635,6 @@
 <!ENTITY contextReplyAll.accesskey "t">
 <!ENTITY contextReplyList.label "Responder à lista">
 <!ENTITY contextReplyList.accesskey "l">
-<!ENTITY contextMoveMsgMenu.label "Mover para">
-<!ENTITY contextMoveMsgMenu.accesskey "M">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Destinos Recentes">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "R">
-<!ENTITY contextMoveCopyMsgRecentMenu.label "Recente">
-<!ENTITY contextMoveCopyMsgRecentMenu.accesskey "c">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.label "Marcadores">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.accesskey "F">
-<!ENTITY contextCopyMsgMenu.label "Copiar para">
-<!ENTITY contextCopyMsgMenu.accesskey "C">
 <!ENTITY contextKillThreadMenu.label "Ignorar tópico">
 <!ENTITY contextKillSubthreadMenu.accesskey "b">
 <!ENTITY contextKillThreadMenu.accesskey "I">

@@ -3,10 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY subscribeDialog.title "Feliratkozás">
-<!ENTITY subscribeButton.label "Feliratkozás">
-<!ENTITY subscribeButton.accesskey "F">
-<!ENTITY unsubscribeButton.label "Leiratkozás">
-<!ENTITY unsubscribeButton.accesskey "L">
 <!ENTITY newGroupsTab.label "Új csoportok">
 <!ENTITY newGroupsTab.accesskey "c">
 <!ENTITY refreshButton.label "Frissítés">

@@ -48,8 +48,6 @@
 <!ENTITY getAllNewMsgCmdPopupMenu.accesskey "g">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.label "Kontu hau">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.accesskey "h">
-<!ENTITY getNextNMsgCmd2.label "Eskuratu hurrengo berri mezuak">
-<!ENTITY getNextNMsgCmd2.accesskey "E">
 <!ENTITY sendUnsentCmd.label "Bidali bidali gabeko mezuak">
 <!ENTITY sendUnsentCmd.accesskey "d">
 <!ENTITY subscribeCmd.label "Harpidetu…">
@@ -59,8 +57,6 @@
 <!ENTITY renameFolder.label "Aldatu izena karpetari…">
 <!ENTITY renameFolder.accesskey "r">
 <!ENTITY renameFolder.key "VK_F2">
-<!ENTITY compactFolders.label "Trinkotu karpetak">
-<!ENTITY compactFolders.accesskey "k">
 <!ENTITY emptyTrashCmd.label "Hustu zakarrontzia">
 <!ENTITY emptyTrashCmd.accesskey "H">
 <!ENTITY offlineMenu.label "Lineaz kanpo">
@@ -129,10 +125,6 @@
 <!ENTITY allFolders.accesskey "a">
 <!ENTITY unreadFolders.label "Irakurri gabeak">
 <!ENTITY unreadFolders.accesskey "u">
-<!ENTITY favoriteFolders.label "Gogokoena">
-<!ENTITY favoriteFolders.accesskey "a">
-<!ENTITY recentFolders.label "Oraintsukoa">
-<!ENTITY recentFolders.accesskey "r">
 <!ENTITY compactVersion.label "Ikuspegi trinkoa">
 <!ENTITY compactVersion.accesskey "n">
 <!-- Sort Menu -->
@@ -154,8 +146,6 @@
 <!ENTITY sortByStatusCmd.accesskey "r">
 <!ENTITY sortByTagsCmd.label "Etiketak">
 <!ENTITY sortByTagsCmd.accesskey "E">
-<!ENTITY sortByJunkStatusCmd.label "Zaborraren egoera">
-<!ENTITY sortByJunkStatusCmd.accesskey "Z">
 <!ENTITY sortBySubjectCmd.label "Gaia">
 <!ENTITY sortBySubjectCmd.accesskey "G">
 <!ENTITY sortByFromCmd.label "Nork">
@@ -243,7 +233,6 @@
 <!ENTITY findPrevCmd.key2 "VK_F3">
 <!ENTITY searchMailCmd.label "Bilatu mezuak…">
 <!ENTITY searchMailCmd.accesskey "B">
-<!ENTITY searchMailCmd.key "f">
 <!ENTITY glodaSearchCmd.label "Bilaketa globala…">
 <!ENTITY glodaSearchCmd.accesskey "G">
 <!ENTITY searchAddressesCmd.label "Bilatu helbideak…">
@@ -334,17 +323,6 @@
 <!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN">
 <!ENTITY createFilter.label "Sortu iragazkia mezutik…">
 <!ENTITY createFilter.accesskey "a">
-<!ENTITY moveMsgToMenu.label "Eraman hona">
-<!ENTITY moveMsgToMenu.accesskey "m">
-<!ENTITY moveCopyMsgRecentMenu.label "Oraintsukoa">
-<!ENTITY moveCopyMsgRecentMenu.accesskey "r">
-<!ENTITY copyMessageLocation.label "Kopiatu mezuaren kokalekua">
-<!ENTITY copyMessageLocation.accesskey "m">
-<!ENTITY copyMsgToMenu.label "Kopiatu hona">
-<!ENTITY copyMsgToMenu.accesskey "K">
-<!ENTITY moveToFolderAgain.label "Mugitu berriz">
-<!ENTITY moveToFolderAgain.accesskey "i">
-<!ENTITY moveToFolderAgainCmd.key "m">
 <!ENTITY killThreadMenu.label "Ezikusi haria">
 <!ENTITY killThreadMenu.accesskey "i">
 <!ENTITY killThreadMenu.key "k">
@@ -356,16 +334,6 @@
 <!ENTITY watchThreadMenu.key "w">
 <!ENTITY tagMenu.label "Etiketa">
 <!ENTITY tagMenu.accesskey "E">
-<!ENTITY tagCmd0.key "0">
-<!ENTITY tagCmd1.key "1">
-<!ENTITY tagCmd2.key "2">
-<!ENTITY tagCmd3.key "3">
-<!ENTITY tagCmd4.key "4">
-<!ENTITY tagCmd5.key "5">
-<!ENTITY tagCmd6.key "6">
-<!ENTITY tagCmd7.key "7">
-<!ENTITY tagCmd8.key "8">
-<!ENTITY tagCmd9.key "9">
 <!ENTITY markMenu.label "Markatu">
 <!ENTITY markMenu.accesskey "k">
 <!ENTITY toggleReadCmd.key "m">
@@ -385,14 +353,6 @@
 <!ENTITY markStarredCmd.label "Gehitu izarra">
 <!ENTITY markStarredCmd.accesskey "z">
 <!ENTITY markStarredCmd.key "S">
-<!ENTITY markAsJunkCmd.label "Zabor gisa">
-<!ENTITY markAsJunkCmd.accesskey "Z">
-<!ENTITY markAsJunkCmd.key "j">
-<!ENTITY markAsNotJunkCmd.label "Ez zabor gisa">
-<!ENTITY markAsNotJunkCmd.accesskey "E">
-<!ENTITY markAsNotJunkCmd.key "j">
-<!ENTITY recalculateJunkScoreCmd.label "Abiarazi zabor-postaren kontrolak">
-<!ENTITY recalculateJunkScoreCmd.accesskey "k">
 <!ENTITY openMessageWindowCmd.label "Ireki mezua">
 <!ENTITY openMessageWindowCmd.accesskey "I">
 <!ENTITY openMessageWindowCmd.key "o">
@@ -441,10 +401,6 @@
 <!ENTITY filtersApplyToSelection.accesskey "h">
 <!ENTITY filtersApplyToMessage.label "Exekutatu iragazkiak mezuan">
 <!ENTITY filtersApplyToMessage.accesskey "m">
-<!ENTITY runJunkControls.label "Aplikatu zabor-postaren kontrolak karpetan">
-<!ENTITY runJunkControls.accesskey "p">
-<!ENTITY deleteJunk.label "Ezabatu karpetako zabor-mezuak">
-<!ENTITY deleteJunk.accesskey "E">
 <!ENTITY importCmd.label "Inportatu…">
 <!ENTITY importCmd.accesskey "I">
 <!ENTITY exportCmd.label "Esportatu…">
@@ -491,7 +447,6 @@
 <!ENTITY printButton.label "Inprimatu">
 <!ENTITY stopButton.label "Gelditu">
 <!ENTITY throbberItem.title "Jarduera-adierazlea">
-<!ENTITY junkItem.title "Zaborra">
 <!ENTITY addressBookButton.label "Helbide-liburua">
 <!ENTITY chatButton.label "Txata">
 <!ENTITY glodaSearch.title "Bilaketa orokorra">
@@ -553,11 +508,6 @@
 <!ENTITY appmenuNewContactCmd.label "Helbide-liburuko kontaktua…">
 <!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Tresna-barraren diseinua…">
-<!-- Tags Menu Popup -->
-<!ENTITY addNewTag.label "Etiketa berria…">
-<!ENTITY addNewTag.accesskey "b">
-<!ENTITY manageTags.label "Kudeatu etiketak…">
-<!ENTITY manageTags.accesskey "K">
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "Izena">
 <!ENTITY folderUnreadColumn.label "Irakurri gabeak">
@@ -580,12 +530,8 @@
 <!ENTITY folderContextRename.accesskey "i">
 <!ENTITY folderContextRemove.label "Ezabatu">
 <!ENTITY folderContextRemove.accesskey "E">
-<!ENTITY folderContextCompact.label "Trinkotu">
-<!ENTITY folderContextCompact.accesskey "T">
 <!ENTITY folderContextEmptyTrash.label "Hustu zakarrontzia">
 <!ENTITY folderContextEmptyTrash.accesskey "H">
-<!ENTITY folderContextEmptyJunk.label "Hustu Zaborra">
-<!ENTITY folderContextEmptyJunk.accesskey "Z">
 <!ENTITY folderContextSendUnsentMessages.label "Bidali bidali gabeko mezuak">
 <!ENTITY folderContextSendUnsentMessages.accesskey "d">
 <!ENTITY folderContextUnsubscribe.label "Kendu harpidetza">
@@ -628,7 +574,6 @@
 <!ENTITY accountColumn.label "Kontua">
 <!ENTITY statusColumn.label "Egoera">
 <!ENTITY sizeColumn.label "Tamaina">
-<!ENTITY junkStatusColumn.label "Zaborraren egoera">
 <!ENTITY unreadColumn.label "Irakurri gabeak">
 <!ENTITY totalColumn.label "Guztira">
 <!ENTITY readColumn.label "Irakurriak">
@@ -652,7 +597,6 @@
 <!ENTITY accountColumn2.tooltip "Ordenatu kontuaren arabera">
 <!ENTITY statusColumn2.tooltip "Ordenatu egoeraren arabera">
 <!ENTITY sizeColumn2.tooltip "Ordenatu tamainaren arabera">
-<!ENTITY junkStatusColumn2.tooltip "Ordenatu zabor-egoeraren arabera">
 <!ENTITY unreadColumn2.tooltip "Irakurri gabeko mezu kopurua harian">
 <!ENTITY totalColumn2.tooltip "Mezu kopurua guztira harian">
 <!ENTITY readColumn2.tooltip "Ordenatu irakurritako egoeraren arabera">
@@ -691,16 +635,6 @@
 <!ENTITY contextReplyAll.accesskey "a">
 <!ENTITY contextReplyList.label "Erantzun zerrendari">
 <!ENTITY contextReplyList.accesskey "z">
-<!ENTITY contextMoveMsgMenu.label "Eraman hona">
-<!ENTITY contextMoveMsgMenu.accesskey "m">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Azken Helmugak">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "R">
-<!ENTITY contextMoveCopyMsgRecentMenu.label "Oraintsukoa">
-<!ENTITY contextMoveCopyMsgRecentMenu.accesskey "O">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.label "Gogokoak">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.accesskey "a">
-<!ENTITY contextCopyMsgMenu.label "Kopiatu hona">
-<!ENTITY contextCopyMsgMenu.accesskey "K">
 <!ENTITY contextKillThreadMenu.label "Ezikusi haria">
 <!ENTITY contextKillSubthreadMenu.accesskey "E">
 <!ENTITY contextKillThreadMenu.accesskey "i">

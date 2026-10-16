@@ -18,5 +18,3 @@
 <!ENTITY selectButton.label "Выбрать…">
 <!ENTITY selectButton.accesskey "В">
 <!ENTITY MsgSelectDesc.label "Выберите папки почты и групп новостей, которые вы хотели бы загрузить для автономной работы.">
-<!ENTITY MsgSelectInd.label "Скачать">
-<!ENTITY MsgSelectItems.label "Папки и группы новостей">

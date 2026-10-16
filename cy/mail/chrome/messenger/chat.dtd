@@ -23,8 +23,6 @@
 <!ENTITY closeConversationCmd.accesskey "G">
 <!ENTITY aliasCmd.label "Ailenwi">
 <!ENTITY aliasCmd.accesskey "A">
-<!ENTITY deleteCmd.label "Tynnu Cysylltiad">
-<!ENTITY deleteCmd.accesskey "T">
 <!ENTITY openConversationButton.tooltip "Cychwyn trafodaeth">
 <!ENTITY closeConversationButton.tooltip "Gorffen trafodaeth">
 <!ENTITY addBuddyButton.label "Ychwanegu Cysylltiad">

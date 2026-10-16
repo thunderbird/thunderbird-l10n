@@ -13,8 +13,6 @@
 <!ENTITY undoCmd.accesskey "A">
 <!ENTITY redoCmd.label "Atcelt atsaukšanu">
 <!ENTITY redoCmd.accesskey "t">
-<!ENTITY deleteCmd.label "Izdzēst">
-<!ENTITY deleteCmd.accesskey "D">
 <!ENTITY customizeCmd.label "Pielāgot">
 <!ENTITY customizeCmd.accesskey "P">
 <!ENTITY viewMenu.label "Skats">

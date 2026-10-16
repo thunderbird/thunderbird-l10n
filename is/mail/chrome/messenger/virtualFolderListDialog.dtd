@@ -3,5 +3,3 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY virtualFolderListTitle.title "Veldu möppu(r)">
 <!ENTITY virtualFolderDesc.label "Veldu möppur til að leita í:">
-<!ENTITY folderName.label "Heiti möppu">
-<!ENTITY folderSearch.label "Leita">

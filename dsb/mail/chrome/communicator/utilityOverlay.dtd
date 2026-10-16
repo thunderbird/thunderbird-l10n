@@ -13,8 +13,6 @@
 <!ENTITY undoCmd.accesskey "S">
 <!ENTITY redoCmd.label "Wóspjetowaś">
 <!ENTITY redoCmd.accesskey "W">
-<!ENTITY deleteCmd.label "Wulašowaś">
-<!ENTITY deleteCmd.accesskey "l">
 <!ENTITY customizeCmd.label "Pśiměriś">
 <!ENTITY customizeCmd.accesskey "m">
 <!ENTITY viewMenu.label "Naglěd">

@@ -128,12 +128,9 @@ openpgp-external-key-title = Khóa GnuPG bên ngoài
 openpgp-external-key-description = Định cấu hình khóa GnuPG bên ngoài bằng cách nhập ID khóa
 openpgp-external-key-info = Ngoài ra, bạn phải sử dụng Trình quản lý khóa để nhập và chấp nhận khóa công khai tương ứng.
 openpgp-external-key-warning = <b>Bạn chỉ có thể định cấu hình một khóa GnuPG bên ngoài.</b> Mục nhập trước đó của bạn sẽ được thay thế.
-openpgp-save-external-button = Lưu ID khóa
 openpgp-external-key-label = ID khóa bí mật:
 openpgp-import-own-key-title = Nhập khóa công khai của bạn
 #   $keyId (String) - The Key ID.
 openpgp-import-own-key-description = { -brand-short-name } không thể tìm thấy khóa công khai với ID { $keyId }. Vui lòng nhập nó để tiếp tục.
 #   $keyId (String) - The Key ID.
 openpgp-import-keyid-failed = Không thể nhập khóa công khai { $keyId } từ tập tin đó.
-openpgp-external-key-input =
-    .placeholder = 123456789341298340

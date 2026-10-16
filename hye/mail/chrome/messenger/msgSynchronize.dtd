@@ -18,5 +18,3 @@
 <!ENTITY selectButton.label "Ընտրել…">
 <!ENTITY selectButton.accesskey "Ն">
 <!ENTITY MsgSelectDesc.label "Ընտրէք փոստային պանակներ եւ տեղեկատուախմբեր՝ անցանց աւգտագործման համար։">
-<!ENTITY MsgSelectInd.label "Ներբեռնել">
-<!ENTITY MsgSelectItems.label "Պանակներ եւ տեղեկատուախմբեր">

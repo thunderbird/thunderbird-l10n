@@ -18,5 +18,3 @@
 <!ENTITY selectButton.label "Përzgjidhni…">
 <!ENTITY selectButton.accesskey "P">
 <!ENTITY MsgSelectDesc.label "Zgjidhni dosje poste dhe grupe lajmesh për përdorim pa qenë i lidhur.">
-<!ENTITY MsgSelectInd.label "Shkarkoje">
-<!ENTITY MsgSelectItems.label "Dosje dhe Grupe Lajmesh">

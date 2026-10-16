@@ -131,12 +131,9 @@ openpgp-external-key-title = Zunanji ključ GnuPG
 openpgp-external-key-description = Nastavite zunanji ključ GnuPG z vnosom ID-ja ključa
 openpgp-external-key-info = Poleg tega morate z upraviteljem ključev uvoziti in sprejeti ustrezni javni ključ.
 openpgp-external-key-warning = <b>Nastavite lahko samo en zunanji ključ GnuPG.</b> Vaš prejšnji vnos bo zamenjan.
-openpgp-save-external-button = Shrani ID ključa
 openpgp-external-key-label = ID tajnega ključa:
 openpgp-import-own-key-title = Uvozite javni ključ
 #   $keyId (String) - The Key ID.
 openpgp-import-own-key-description = { -brand-short-name } ni uspel najti javnega ključa z ID-jem { $keyId }. Za nadaljevanje ga uvozite.
 #   $keyId (String) - The Key ID.
 openpgp-import-keyid-failed = Iz te datoteke javnega ključa { $keyId }. ni bilo mogoče uvoziti
-openpgp-external-key-input =
-    .placeholder = 123456789341298340

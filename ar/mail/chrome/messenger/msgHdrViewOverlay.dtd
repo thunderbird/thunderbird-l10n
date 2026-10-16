@@ -33,8 +33,6 @@
 <!ENTITY hdrFollowupButton1.tooltip "أرسل متابعة إلى مجموعو الأخبار">
 <!ENTITY hdrForwardButton1.label "مرّر">
 <!ENTITY hdrForwardButton1.tooltip "مرّر هذه الرسالة">
-<!ENTITY hdrJunkButton1.label "سخام">
-<!ENTITY hdrJunkButton1.tooltip "علّم هذه الرسالة كسخام">
 <!ENTITY hdrTrashButton1.label "احذف">
 <!ENTITY hdrTrashButton1.tooltip "احذف هذه الرسالة">
 <!ENTITY hdrViewToolbarShowFull.label "أظهِر الأيقونات والنص">

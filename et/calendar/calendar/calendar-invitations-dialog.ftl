@@ -11,9 +11,6 @@ calendar-invitation-current-participation-status-icon-needs-action =
 allday-event = Kogu päeva kestev sündmus
 recurrent-event =
     .value = Korduv sündmus
-# $locationProperty is the location of the event
-calendar-invitations-location =
-    .value = Asukoht: { $locationProperty }
 # $organizerProperty is the organizer of the event
 organizer =
     .value = Korraldaja: { $organizerProperty }

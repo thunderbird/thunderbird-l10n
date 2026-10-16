@@ -3,14 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Add Account
-
-appmenu-new-account-panel-title =
-    .title = Nauja paskyra
-appmenu-new-account-panel =
-    .label = Nauja paskyra
-    .accesskey = N
-
 ## View / Layout
 
 appmenu-font-size-value = Šrifto dydis

@@ -216,7 +216,6 @@
 <!ENTITY smiley7Cmd.label "Ubestemt">
 <!ENTITY smiley8Cmd.label "Overraska">
 <!ENTITY smiley9Cmd.label "Kyss">
-<!ENTITY smiley10Cmd.label "Ropar">
 <!ENTITY smiley11Cmd.label "Kult">
 <!ENTITY smiley12Cmd.label "Pengemunn">
 <!ENTITY smiley13Cmd.label "Fot-i-munn">
@@ -266,12 +265,6 @@
 <!ENTITY convertRegularAttachment.accesskey "a">
 <!ENTITY attachPage.label "Legg ved nettside …">
 <!ENTITY attachPage.accesskey "L">
-<!-- Attachment Pane Header Bar Context Menu
-     LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
-     Should use the same wording as startExpandedCmd.label
-     in msgHdrViewOverlay.dtd. -->
-<!ENTITY initiallyShowAttachmentPane.label "Vis vedleggspanelet i første omgang">
-<!ENTITY initiallyShowAttachmentPane.accesskey "s">
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Legg til ordbøker …">
 <!ENTITY spellAddDictionaries.accesskey "L">

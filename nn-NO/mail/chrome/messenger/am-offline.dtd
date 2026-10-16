@@ -14,24 +14,10 @@
 <!ENTITY autosyncNotDownload.accesskey "k">
 <!ENTITY kb.label "KB">
 <!ENTITY daysOld.label "dagar gamle">
-<!ENTITY message.label "meldingar">
 <!ENTITY nntpNotDownloadRead.label "Lesne meldingar">
 <!ENTITY nntpNotDownloadRead.accesskey "L">
 <!ENTITY nntpDownloadMsg.label "Meldingar meir enn">
 <!ENTITY nntpDownloadMsg.accesskey "M">
-<!ENTITY retentionCleanup.label "For å spara diskplass kan gamle meldingar verta permanent sletta">
-<!ENTITY retentionCleanupImap.label "For å spare diskplass, kan gamle meldingar verte permanent sletta, både lokale kopiar og originalar på ekstern server.">
-<!ENTITY retentionCleanupPop.label "For å byggje opp diskplass, kan gamle meldingar verte permanent sletta, både lokale kopiar og originalar på ekstern server.">
-<!ENTITY retentionKeepMsg.label "Slett meldingar eldre enn">
-<!ENTITY retentionKeepMsg.accesskey "e">
-<!ENTITY retentionKeepAll.label "Ikkje slett meldingar">
-<!ENTITY retentionKeepAll.accesskey "I">
-<!ENTITY retentionKeepRecent.label "Slett alle unntatt dei siste">
-<!ENTITY retentionKeepRecent.accesskey "S">
-<!ENTITY retentionApplyToFlagged.label "Ta alltid vare på stjernemarkerte meldingar">
-<!ENTITY retentionApplyToFlagged.accesskey "d">
-<!ENTITY nntpRemoveMsgBody.label "Fjern brødtekst frå meldingar meir enn">
-<!ENTITY nntpRemoveMsgBody.accesskey "F">
 <!ENTITY offlineSelectNntp.label "Vel nyhendegrupper som skal lesast fråkopla…">
 <!ENTITY offlineSelectNntp.accesskey "V">
 <!ENTITY offlineImapAdvancedOffline.label "Avansert…">

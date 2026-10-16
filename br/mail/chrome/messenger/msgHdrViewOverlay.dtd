@@ -33,8 +33,6 @@
 <!ENTITY hdrFollowupButton1.tooltip "Kas ur respont d'ar strollad-keleier-mañ">
 <!ENTITY hdrForwardButton1.label "Treuzkas">
 <!ENTITY hdrForwardButton1.tooltip "Treuzkas ar gemennadenn-mañ">
-<!ENTITY hdrJunkButton1.label "Lastez">
-<!ENTITY hdrJunkButton1.tooltip "Merkañ ar gemennadenn-mañ evel lastez">
 <!ENTITY hdrTrashButton1.label "Dilemel">
 <!ENTITY hdrTrashButton1.tooltip "Dilemel ar gemennadenn-mañ">
 <!ENTITY hdrViewToolbarShowFull.label "Diskouez an arlunioù hag an destenn">

@@ -48,8 +48,6 @@
 <!ENTITY getAllNewMsgCmdPopupMenu.accesskey "T">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.label "Conto actual">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.accesskey "C">
-<!ENTITY getNextNMsgCmd2.label "Discargar nove messages sequente">
-<!ENTITY getNextNMsgCmd2.accesskey "t">
 <!ENTITY sendUnsentCmd.label "Inviar le messages non inviate">
 <!ENTITY sendUnsentCmd.accesskey "r">
 <!ENTITY subscribeCmd.label "Subscriber…">
@@ -59,8 +57,6 @@
 <!ENTITY renameFolder.label "Renominar dossier…">
 <!ENTITY renameFolder.accesskey "R">
 <!ENTITY renameFolder.key "VK_F2">
-<!ENTITY compactFolders.label "Compactar dossiers">
-<!ENTITY compactFolders.accesskey "C">
 <!ENTITY emptyTrashCmd.label "Vacuar le corbe a papiro">
 <!ENTITY emptyTrashCmd.accesskey "V">
 <!ENTITY offlineMenu.label "Foras de linea">
@@ -129,10 +125,6 @@
 <!ENTITY allFolders.accesskey "T">
 <!ENTITY unreadFolders.label "Non legite">
 <!ENTITY unreadFolders.accesskey "l">
-<!ENTITY favoriteFolders.label "Favorite">
-<!ENTITY favoriteFolders.accesskey "F">
-<!ENTITY recentFolders.label "Recente">
-<!ENTITY recentFolders.accesskey "R">
 <!ENTITY compactVersion.label "Visualisation compacte">
 <!ENTITY compactVersion.accesskey "c">
 <!-- Sort Menu -->
@@ -154,8 +146,6 @@
 <!ENTITY sortByStatusCmd.accesskey "o">
 <!ENTITY sortByTagsCmd.label "Etiquettas">
 <!ENTITY sortByTagsCmd.accesskey "q">
-<!ENTITY sortByJunkStatusCmd.label "Stato indesirate">
-<!ENTITY sortByJunkStatusCmd.accesskey "I">
 <!ENTITY sortBySubjectCmd.label "Subjecto">
 <!ENTITY sortBySubjectCmd.accesskey "b">
 <!ENTITY sortByFromCmd.label "De">
@@ -243,7 +233,6 @@
 <!ENTITY findPrevCmd.key2 "VK_F3">
 <!ENTITY searchMailCmd.label "Cercar messages…">
 <!ENTITY searchMailCmd.accesskey "m">
-<!ENTITY searchMailCmd.key "f">
 <!ENTITY glodaSearchCmd.label "Recerca global…">
 <!ENTITY glodaSearchCmd.accesskey "G">
 <!ENTITY searchAddressesCmd.label "Cercar adresses…">
@@ -334,17 +323,6 @@
 <!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN">
 <!ENTITY createFilter.label "Crear filtro a partir del message…">
 <!ENTITY createFilter.accesskey "a">
-<!ENTITY moveMsgToMenu.label "Mover a">
-<!ENTITY moveMsgToMenu.accesskey "M">
-<!ENTITY moveCopyMsgRecentMenu.label "Recente">
-<!ENTITY moveCopyMsgRecentMenu.accesskey "R">
-<!ENTITY copyMessageLocation.label "Copiar le adresse del message">
-<!ENTITY copyMessageLocation.accesskey "m">
-<!ENTITY copyMsgToMenu.label "Copiar a">
-<!ENTITY copyMsgToMenu.accesskey "C">
-<!ENTITY moveToFolderAgain.label "Displaciar de novo">
-<!ENTITY moveToFolderAgain.accesskey "v">
-<!ENTITY moveToFolderAgainCmd.key "m">
 <!ENTITY killThreadMenu.label "Ignorar argumento">
 <!ENTITY killThreadMenu.accesskey "I">
 <!ENTITY killThreadMenu.key "k">
@@ -356,16 +334,6 @@
 <!ENTITY watchThreadMenu.key "s">
 <!ENTITY tagMenu.label "Tag">
 <!ENTITY tagMenu.accesskey "g">
-<!ENTITY tagCmd0.key "0">
-<!ENTITY tagCmd1.key "1">
-<!ENTITY tagCmd2.key "2">
-<!ENTITY tagCmd3.key "3">
-<!ENTITY tagCmd4.key "4">
-<!ENTITY tagCmd5.key "5">
-<!ENTITY tagCmd6.key "6">
-<!ENTITY tagCmd7.key "7">
-<!ENTITY tagCmd8.key "8">
-<!ENTITY tagCmd9.key "9">
 <!ENTITY markMenu.label "Marcar">
 <!ENTITY markMenu.accesskey "c">
 <!ENTITY toggleReadCmd.key "m">
@@ -385,14 +353,6 @@
 <!ENTITY markStarredCmd.label "Adder stella">
 <!ENTITY markStarredCmd.accesskey "s">
 <!ENTITY markStarredCmd.key "s">
-<!ENTITY markAsJunkCmd.label "Como indesirate">
-<!ENTITY markAsJunkCmd.accesskey "i">
-<!ENTITY markAsJunkCmd.key "i">
-<!ENTITY markAsNotJunkCmd.label "Como non indesirate">
-<!ENTITY markAsNotJunkCmd.accesskey "n">
-<!ENTITY markAsNotJunkCmd.key "i">
-<!ENTITY recalculateJunkScoreCmd.label "Executar le controlos de posta indesirate">
-<!ENTITY recalculateJunkScoreCmd.accesskey "E">
 <!ENTITY openMessageWindowCmd.label "Aperir message">
 <!ENTITY openMessageWindowCmd.accesskey "A">
 <!ENTITY openMessageWindowCmd.key "a">
@@ -441,10 +401,6 @@
 <!ENTITY filtersApplyToSelection.accesskey "x">
 <!ENTITY filtersApplyToMessage.label "Exeque filtros sur le message">
 <!ENTITY filtersApplyToMessage.accesskey "x">
-<!ENTITY runJunkControls.label "Executar le controlos de posta indesirate in le dossier">
-<!ENTITY runJunkControls.accesskey "E">
-<!ENTITY deleteJunk.label "Deler le posta marcate como indesirate in le dossier">
-<!ENTITY deleteJunk.accesskey "D">
 <!ENTITY importCmd.label "Importation…">
 <!ENTITY importCmd.accesskey "m">
 <!ENTITY exportCmd.label "Exportar…">
@@ -491,7 +447,6 @@
 <!ENTITY printButton.label "Imprimer">
 <!ENTITY stopButton.label "Stoppar">
 <!ENTITY throbberItem.title "Indicator de activitate">
-<!ENTITY junkItem.title "Indesirate">
 <!ENTITY addressBookButton.label "Libro del adresses">
 <!ENTITY chatButton.label "Chat">
 <!ENTITY glodaSearch.title "Recerca global">
@@ -553,11 +508,6 @@
 <!ENTITY appmenuNewContactCmd.label "Contacto del libro de adresses…">
 <!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Arrangiar le barras de instrumentos…">
-<!-- Tags Menu Popup -->
-<!ENTITY addNewTag.label "Nove tag…">
-<!ENTITY addNewTag.accesskey "N">
-<!ENTITY manageTags.label "Gerer le tags…">
-<!ENTITY manageTags.accesskey "G">
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "Nomine">
 <!ENTITY folderUnreadColumn.label "Non legite">
@@ -580,12 +530,8 @@
 <!ENTITY folderContextRename.accesskey "R">
 <!ENTITY folderContextRemove.label "Deler">
 <!ENTITY folderContextRemove.accesskey "D">
-<!ENTITY folderContextCompact.label "Compactar">
-<!ENTITY folderContextCompact.accesskey "p">
 <!ENTITY folderContextEmptyTrash.label "Vacuar le corbe a papiro">
 <!ENTITY folderContextEmptyTrash.accesskey "V">
-<!ENTITY folderContextEmptyJunk.label "Vacuar le dossier Indesirate">
-<!ENTITY folderContextEmptyJunk.accesskey "V">
 <!ENTITY folderContextSendUnsentMessages.label "Inviar le messages non inviate">
 <!ENTITY folderContextSendUnsentMessages.accesskey "n">
 <!ENTITY folderContextUnsubscribe.label "Cancellar subscription">
@@ -628,7 +574,6 @@
 <!ENTITY accountColumn.label "Conto">
 <!ENTITY statusColumn.label "Stato">
 <!ENTITY sizeColumn.label "Dimension">
-<!ENTITY junkStatusColumn.label "Stato indesirate">
 <!ENTITY unreadColumn.label "Non legite">
 <!ENTITY totalColumn.label "Total">
 <!ENTITY readColumn.label "Leger">
@@ -652,7 +597,6 @@
 <!ENTITY accountColumn2.tooltip "Ordinar per conto">
 <!ENTITY statusColumn2.tooltip "Ordinar per stato">
 <!ENTITY sizeColumn2.tooltip "Ordinar per dimension">
-<!ENTITY junkStatusColumn2.tooltip "Ordinar per stato indesirate">
 <!ENTITY unreadColumn2.tooltip "Numero de messages non legite in le discussion">
 <!ENTITY totalColumn2.tooltip "Numero total de messages in discussion">
 <!ENTITY readColumn2.tooltip "Ordinar per le data de lectura">
@@ -691,16 +635,6 @@
 <!ENTITY contextReplyAll.accesskey "A">
 <!ENTITY contextReplyList.label "Responder al lista">
 <!ENTITY contextReplyList.accesskey "L">
-<!ENTITY contextMoveMsgMenu.label "Mover a">
-<!ENTITY contextMoveMsgMenu.accesskey "M">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Destinationes recente">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "r">
-<!ENTITY contextMoveCopyMsgRecentMenu.label "Recente">
-<!ENTITY contextMoveCopyMsgRecentMenu.accesskey "R">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.label "Favoritos">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.accesskey "F">
-<!ENTITY contextCopyMsgMenu.label "Copiar a">
-<!ENTITY contextCopyMsgMenu.accesskey "C">
 <!ENTITY contextKillThreadMenu.label "Ignorar argumento">
 <!ENTITY contextKillSubthreadMenu.accesskey "g">
 <!ENTITY contextKillThreadMenu.accesskey "I">

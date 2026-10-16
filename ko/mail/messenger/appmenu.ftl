@@ -30,11 +30,6 @@ appmenu-sync-sign-out =
 
 ## Add Account
 
-appmenu-new-account-panel-title =
-    .title = 새 계정
-appmenu-new-account-panel =
-    .label = 새 계정
-    .accesskey = N
 appmenu-new-email-account =
     .label = 이메일
     .accesskey = E
@@ -58,11 +53,6 @@ appmenu-add-account-panel =
 
 ## New Account / Address Book
 
-appmenu-newab-panel-title =
-    .title = 새 주소록
-appmenu-newab-panel =
-    .label = 새 주소록
-    .accesskey = A
 appmenu-new-addressbook =
     .label = 내부 주소록
     .accesskey = A

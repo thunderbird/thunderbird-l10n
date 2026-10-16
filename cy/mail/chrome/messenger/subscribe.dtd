@@ -3,10 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY subscribeDialog.title "Tanysgrifio">
-<!ENTITY subscribeButton.label "Tanysgrifio">
-<!ENTITY subscribeButton.accesskey "s">
-<!ENTITY unsubscribeButton.label "Dad-danysgrifio">
-<!ENTITY unsubscribeButton.accesskey "D">
 <!ENTITY newGroupsTab.label "Grwpiau Newydd">
 <!ENTITY newGroupsTab.accesskey "G">
 <!ENTITY refreshButton.label "Adnewyddu">

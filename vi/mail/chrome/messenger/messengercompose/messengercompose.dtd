@@ -215,7 +215,6 @@
 <!ENTITY smiley7Cmd.label "Phân vân">
 <!ENTITY smiley8Cmd.label "Ngạc nhiên">
 <!ENTITY smiley9Cmd.label "Chụt chụt">
-<!ENTITY smiley10Cmd.label "La hét">
 <!ENTITY smiley11Cmd.label "Ngầu">
 <!ENTITY smiley12Cmd.label "Miệng đầy tiền">
 <!ENTITY smiley13Cmd.label "Bị chặn họng">
@@ -265,12 +264,6 @@
 <!ENTITY convertRegularAttachment.accesskey "A">
 <!ENTITY attachPage.label "Đính kèm trang web…">
 <!ENTITY attachPage.accesskey "W">
-<!-- Attachment Pane Header Bar Context Menu
-     LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
-     Should use the same wording as startExpandedCmd.label
-     in msgHdrViewOverlay.dtd. -->
-<!ENTITY initiallyShowAttachmentPane.label "Ban đầu hiển thị ngăn đính kèm">
-<!ENTITY initiallyShowAttachmentPane.accesskey "S">
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Thêm từ điển…">
 <!ENTITY spellAddDictionaries.accesskey "A">

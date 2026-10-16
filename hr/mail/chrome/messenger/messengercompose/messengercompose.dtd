@@ -216,7 +216,6 @@
 <!ENTITY smiley7Cmd.label "Neodlučan">
 <!ENTITY smiley8Cmd.label "Iznenađen">
 <!ENTITY smiley9Cmd.label "Poljubac">
-<!ENTITY smiley10Cmd.label "Vikanje">
 <!ENTITY smiley11Cmd.label "Cool">
 <!ENTITY smiley12Cmd.label "Usta puna novaca">
 <!ENTITY smiley13Cmd.label "Cipela u ustima">
@@ -266,12 +265,6 @@
 <!ENTITY convertRegularAttachment.accesskey "m">
 <!ENTITY attachPage.label "Priloži web stranicu…">
 <!ENTITY attachPage.accesskey "w">
-<!-- Attachment Pane Header Bar Context Menu
-     LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
-     Should use the same wording as startExpandedCmd.label
-     in msgHdrViewOverlay.dtd. -->
-<!ENTITY initiallyShowAttachmentPane.label "Prikaži okno privitka odmah">
-<!ENTITY initiallyShowAttachmentPane.accesskey "k">
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Dodaj rječnike…">
 <!ENTITY spellAddDictionaries.accesskey "D">

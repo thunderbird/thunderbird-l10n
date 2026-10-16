@@ -33,9 +33,4 @@
 <!ENTITY attachVCard.accesskey "K">
 <!ENTITY manageIdentities.label "Ardeiñ ar pivelezhioù…">
 <!ENTITY manageIdentities.accesskey "p">
-<!-- LOCALIZATION NOTE (smtpName.label) : do not translate "SMTP" in below line -->
-<!ENTITY smtpName.label "Dafariad kas (SMTP):">
-<!ENTITY smtpName.accesskey "a">
 <!ENTITY smtpDefaultServer.label "Ober gant an dafariad dre-ziouer">
-<!ENTITY smtpServerEdit.label "Embann an dafariad SMTP...">
-<!ENTITY smtpServerEdit.accesskey "E">

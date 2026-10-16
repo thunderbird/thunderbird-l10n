@@ -14,24 +14,10 @@
 <!ENTITY autosyncNotDownload.accesskey "m">
 <!ENTITY kb.label "KB">
 <!ENTITY daysOld.label "dis vegls">
-<!ENTITY message.label "messadis">
 <!ENTITY nntpNotDownloadRead.label "Messadis legids">
 <!ENTITY nntpNotDownloadRead.accesskey "d">
 <!ENTITY nntpDownloadMsg.label "Messadis pli vegls che">
 <!ENTITY nntpDownloadMsg.accesskey "e">
-<!ENTITY retentionCleanup.label "Stizzar definitivamain messadis vegls, per render disponibel capacitad da memorisar.">
-<!ENTITY retentionCleanupImap.label "Stizzar definitivamain messadis vegls, per render disponibel capacitad da memorisar - schebain copias localas sco era ils originals sin il server IMAP.">
-<!ENTITY retentionCleanupPop.label "Stizzar definitivamain messadis vegls, per render disponibel capacitad da memorisar - inclusiv ils originals sin il server POP.">
-<!ENTITY retentionKeepMsg.label "Stizzar messadis ch'èn pli vegls che">
-<!ENTITY retentionKeepMsg.accesskey "t">
-<!ENTITY retentionKeepAll.label "Stizzar nagins messadis">
-<!ENTITY retentionKeepAll.accesskey "n">
-<!ENTITY retentionKeepRecent.label "Stizzar tuts, exclus ils pli actuals">
-<!ENTITY retentionKeepRecent.accesskey "z">
-<!ENTITY retentionApplyToFlagged.label "Adina preservar messadis segnads">
-<!ENTITY retentionApplyToFlagged.accesskey "A">
-<!ENTITY nntpRemoveMsgBody.label "Stizzar cuntegns da messadis ch'èn pli vegls che">
-<!ENTITY nntpRemoveMsgBody.accesskey "z">
 <!ENTITY offlineSelectNntp.label "Tscherner gruppas da discussiun per leger offline…">
 <!ENTITY offlineSelectNntp.accesskey "S">
 <!ENTITY offlineImapAdvancedOffline.label "Avanzà…">

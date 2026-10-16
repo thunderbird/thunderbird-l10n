@@ -180,8 +180,6 @@
 <!ENTITY event.calendar.accesskey "c">
 <!ENTITY event.attendees.label "Freastalaichean:">
 <!ENTITY event.attendees.accesskey "n">
-<!ENTITY event.alldayevent.label "Tachartas fad an latha">
-<!ENTITY event.alldayevent.accesskey "d">
 <!ENTITY event.from.label "Àm-tòiseachaidh:">
 <!ENTITY event.from.accesskey "s">
 <!ENTITY task.from.label "Àm-tòiseachaidh:">
@@ -262,13 +260,6 @@
 <!ENTITY event.recurrence.monthly.fourth.label "An ceathramh">
 <!ENTITY event.recurrence.monthly.fifth.label "An còigeamh">
 <!ENTITY event.recurrence.monthly.last.label "Fear mu dheireadh">
-<!ENTITY event.recurrence.pattern.monthly.week.1.label "DiDòmhnaich">
-<!ENTITY event.recurrence.pattern.monthly.week.2.label "DiLuain">
-<!ENTITY event.recurrence.pattern.monthly.week.3.label "DiMàirt">
-<!ENTITY event.recurrence.pattern.monthly.week.4.label "DiCiadain">
-<!ENTITY event.recurrence.pattern.monthly.week.5.label "DiarDaoin">
-<!ENTITY event.recurrence.pattern.monthly.week.6.label "DihAoine">
-<!ENTITY event.recurrence.pattern.monthly.week.7.label "DiSathairne">
 <!ENTITY event.recurrence.repeat.dayofmonth.label "Latha dhen mhìos">
 <!ENTITY event.recurrence.repeat.recur.label "Dèan a-rithist air na làithean seo">
 <!ENTITY event.recurrence.every.label "Gach:">
@@ -281,18 +272,6 @@
      event.recurrence.pattern.yearly.of.label is "of" in
      Edit recurrence window -> Recurrence pattern -> Repeat yearly -->
 <!ENTITY event.recurrence.pattern.yearly.of.label "">
-<!ENTITY event.recurrence.pattern.yearly.month.1.label "Faoilleach">
-<!ENTITY event.recurrence.pattern.yearly.month.2.label "Gearran">
-<!ENTITY event.recurrence.pattern.yearly.month.3.label "Màrt">
-<!ENTITY event.recurrence.pattern.yearly.month.4.label "Giblean">
-<!ENTITY event.recurrence.pattern.yearly.month.5.label "Cèitean">
-<!ENTITY event.recurrence.pattern.yearly.month.6.label "Ògmhios">
-<!ENTITY event.recurrence.pattern.yearly.month.7.label "Iuchar">
-<!ENTITY event.recurrence.pattern.yearly.month.8.label "Lùnastal">
-<!ENTITY event.recurrence.pattern.yearly.month.9.label "Sultain">
-<!ENTITY event.recurrence.pattern.yearly.month.10.label "Dàmhair">
-<!ENTITY event.recurrence.pattern.yearly.month.11.label "Samhain">
-<!ENTITY event.recurrence.pattern.yearly.month.12.label "Dùbhlachd">
 <!ENTITY event.recurrence.yearly.every.label "Gach">
 <!ENTITY event.recurrence.yearly.first.label "A' chiad">
 <!ENTITY event.recurrence.yearly.second.label "An dàrna">
@@ -300,27 +279,8 @@
 <!ENTITY event.recurrence.yearly.fourth.label "An ceathramh">
 <!ENTITY event.recurrence.yearly.fifth.label "An còigeamh">
 <!ENTITY event.recurrence.yearly.last.label "Fear mu dheireadh">
-<!ENTITY event.recurrence.pattern.yearly.week.1.label "DiDòmhnaich">
-<!ENTITY event.recurrence.pattern.yearly.week.2.label "DiLuain">
-<!ENTITY event.recurrence.pattern.yearly.week.3.label "DiMàirt">
-<!ENTITY event.recurrence.pattern.yearly.week.4.label "DiCiadain">
-<!ENTITY event.recurrence.pattern.yearly.week.5.label "DiarDaoin">
-<!ENTITY event.recurrence.pattern.yearly.week.6.label "DihAoine">
-<!ENTITY event.recurrence.pattern.yearly.week.7.label "DiSathairne">
 <!ENTITY event.recurrence.pattern.yearly.day.label "latha">
 <!ENTITY event.recurrence.of.label "a-mach à">
-<!ENTITY event.recurrence.pattern.yearly.month2.1.label "Faoilleach">
-<!ENTITY event.recurrence.pattern.yearly.month2.2.label "Gearran">
-<!ENTITY event.recurrence.pattern.yearly.month2.3.label "Màrt">
-<!ENTITY event.recurrence.pattern.yearly.month2.4.label "Giblean">
-<!ENTITY event.recurrence.pattern.yearly.month2.5.label "Cèitean">
-<!ENTITY event.recurrence.pattern.yearly.month2.6.label "Ògmhios">
-<!ENTITY event.recurrence.pattern.yearly.month2.7.label "Iuchar">
-<!ENTITY event.recurrence.pattern.yearly.month2.8.label "Lùnastal">
-<!ENTITY event.recurrence.pattern.yearly.month2.9.label "Sultain">
-<!ENTITY event.recurrence.pattern.yearly.month2.10.label "Dàmhair">
-<!ENTITY event.recurrence.pattern.yearly.month2.11.label "Samhain">
-<!ENTITY event.recurrence.pattern.yearly.month2.12.label "Dùbhlachd">
 <!ENTITY event.recurrence.range.label "Raon nan ath-tachairt">
 <!ENTITY event.recurrence.forever.label "Gun latha crìochnachaidh">
 <!ENTITY event.recurrence.repeat.for.label "Cruthaich">

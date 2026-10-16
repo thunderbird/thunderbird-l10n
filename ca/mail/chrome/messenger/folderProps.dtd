@@ -10,22 +10,6 @@
 <!ENTITY folderRebuildSummaryFile.explanation "De vegades el fitxer de l'índex de la carpeta (.msf) s'espatlla i els missatges sembla que es perdin o bé els missatges esborrats tornen a aparèixer; si es repara la carpeta potser que s'arreglin aquests problemes.">
 <!ENTITY folderIncludeInGlobalSearch.label "Inclou els missatges d'aquesta carpeta als resultats de la Cerca global">
 <!ENTITY folderIncludeInGlobalSearch.accesskey "g">
-<!ENTITY retention.label "Política de retenció">
-<!ENTITY retentionUseAccount.label "Utilitza els paràmetres del meu compte">
-<!ENTITY retentionUseAccount.accesskey "U">
-<!ENTITY daysOld.label "dies d'antiguitat">
-<!ENTITY message.label "missatges">
-<!ENTITY retentionCleanup.label "Per recuperar espai de disc, es poden suprimir permanentment els missatges antics.">
-<!ENTITY retentionCleanupImap.label "Per recuperar espai de disc, es poden suprimir permanentment els missatges antics, tant les còpies locals com els originals del servidor remot.">
-<!ENTITY retentionCleanupPop.label "Per recuperar espai de disc, es poden suprimir permanentment els missatges antics, inclosos els originals del servidor remot.">
-<!ENTITY retentionDeleteMsg.label "Suprimeix els missatges de més de">
-<!ENTITY retentionDeleteMsg.accesskey "m">
-<!ENTITY retentionKeepAll.label "No suprimeixis cap missatge">
-<!ENTITY retentionKeepAll.accesskey "a">
-<!ENTITY retentionKeepRecent.label "Suprimeix-ho tot excepte els últims">
-<!ENTITY retentionKeepRecent.accesskey "x">
-<!ENTITY retentionApplyToFlagged.label "Conserva sempre els missatges destacats">
-<!ENTITY retentionApplyToFlagged.accesskey "e">
 <!ENTITY folderSynchronizationTab.label "Sincronització">
 <!ENTITY folderCheckForNewMessages2.label "Quan miris si hi ha missatges nous per aquest compte, comprova sempre aquesta carpeta">
 <!ENTITY folderCheckForNewMessages2.accesskey "c">

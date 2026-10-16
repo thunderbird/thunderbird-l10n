@@ -14,24 +14,10 @@
 <!ENTITY autosyncNotDownload.accesskey "Ä">
 <!ENTITY kb.label "kt">
 <!ENTITY daysOld.label "päivää vanhoja">
-<!ENTITY message.label "viestiä">
 <!ENTITY nntpNotDownloadRead.label "Luettuja viestejä">
 <!ENTITY nntpNotDownloadRead.accesskey "L">
 <!ENTITY nntpDownloadMsg.label "Viestejä, jotka ovat yli">
 <!ENTITY nntpDownloadMsg.accesskey "s">
-<!ENTITY retentionCleanup.label "Kiintolevytilaa voi vapauttaa poistamalla vanhoja viestejä pysyvästi.">
-<!ENTITY retentionCleanupImap.label "Kiintolevytilaa voidaan vapauttaa poistamalla lopullisesti vanhat viestit sekä omalta koneelta että palvelimelta.">
-<!ENTITY retentionCleanupPop.label "Kiintolevytilaa voidaan vapauttaa poistamalla vanhat viestit lopullisesti, myös sähköpostipalvelimelta.">
-<!ENTITY retentionKeepMsg.label "Poista viestit, jotka ovat yli">
-<!ENTITY retentionKeepMsg.accesskey "o">
-<!ENTITY retentionKeepAll.label "Älä poista mitään viestejä">
-<!ENTITY retentionKeepAll.accesskey "Ä">
-<!ENTITY retentionKeepRecent.label "Poista kaikki paitsi uusimmat">
-<!ENTITY retentionKeepRecent.accesskey "P">
-<!ENTITY retentionApplyToFlagged.label "Älä koskaan poista tähdellä merkittyjä viestejä">
-<!ENTITY retentionApplyToFlagged.accesskey "k">
-<!ENTITY nntpRemoveMsgBody.label "Poista viestirungot viesteistä, jotka ovat yli">
-<!ENTITY nntpRemoveMsgBody.accesskey "o">
 <!ENTITY offlineSelectNntp.label "Valitse yhteydettömässä tilassa käytettävät ryhmät…">
 <!ENTITY offlineSelectNntp.accesskey "V">
 <!ENTITY offlineImapAdvancedOffline.label "Lisäasetukset…">

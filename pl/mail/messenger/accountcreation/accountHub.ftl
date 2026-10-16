@@ -56,14 +56,7 @@ account-hub-email-connect-button = Połącz
 account-hub-result-incoming-legend = Serwer poczty przychodzącej
 account-hub-result-outgoing-legend = Serwer poczty wychodzącej
 account-hub-all-servers-legend = Wszystkie serwery
-account-hub-incoming-server-legend = Serwer poczty przychodzącej
-account-hub-outgoing-server-legend = Serwer poczty wychodzącej
-account-hub-result-incoming-server-legend = Serwer poczty przychodzącej
-    .title = Serwer poczty przychodzącej
-account-hub-result-outgoing-server-legend = Serwer poczty wychodzącej
-    .title = Serwer poczty wychodzącej
 account-hub-protocol-label = Protokół
-account-hub-hostname-label = Adres serwera
 account-hub-result-hostname-label = Adres serwera
     .title = Adres serwera
 account-hub-result-socket-type-label = Bezpieczeństwo połączenia
@@ -94,10 +87,6 @@ account-hub-result-auth-ntlm = NTLM
 account-hub-result-auth-external = Zewnętrzne
 account-hub-result-auth-oauth2 = OAuth2
 account-hub-on-port-label = Port
-account-hub-result-authentication-label = Uwierzytelnianie
-    .title = Uwierzytelnianie
-account-hub-port-label = Port
-    .title = Wartość 0 spowoduje użycie automatycznego wykrywania
 account-hub-auto-description = { -brand-short-name } spróbuje automatycznie wykryć wartości pól, które są puste.
 account-hub-ssl-label = Bezpieczeństwo połączenia
 
@@ -105,8 +94,6 @@ account-hub-ssl-label = Bezpieczeństwo połączenia
 
 account-hub-ssl-autodetect-option =
     .label = Wykryj automatycznie
-account-hub-ssl-no-authentication-option =
-    .label = Bez uwierzytelniania
 account-hub-ssl-cleartext-password-option =
     .label = Zwykłe hasło
 account-hub-ssl-encrypted-password-option =
@@ -268,7 +255,6 @@ account-hub-email-exchange-settings = Ustawienia Exchange
 account-hub-email-connect-settings = Połącz z ustawieniami poczty e-mail
 account-hub-email-protocol-select-header = Wybierz typ konta e-mail
 account-hub-email-protocol-select-additional-info = Dodatkowe informacje wymagane są do założenia tego konta.
-account-hub-email-config-found = Wybierz typ konta e-mail
 account-hub-email-enter-password = Wpisz hasło do konta e-mail
 account-hub-email-sync-accounts = Synchronizuj kalendarze i książki adresowe
 account-hub-test-configuration = Testuj
@@ -295,7 +281,6 @@ account-hub-config-success-description-guess = Konfiguracja znaleziona poprzez o
 account-hub-config-success-description-disk = Konfiguracja znaleziona w plikach instalacyjnych programu { -brand-short-name }.
 account-hub-config-success-description-isp = Konfiguracja znaleziona u dostawcy usługi pocztowej.
 account-hub-config-success-description-read-more = Możesz <a data-l10n-name="automated-setup-link">przeczytać, jak działa automatyczna konfiguracja poczty e-mail.</a>
-account-hub-config-success = Konfiguracja znaleziona w bazie danych Mozilli
 account-hub-password-info = Dane logowania będą przechowywane wyłącznie lokalnie na komputerze użytkownika
 account-hub-creating-account = Tworzenie konta…
 account-hub-sync-accounts-found = { -brand-short-name } znalazł usługi połączone
@@ -327,10 +312,8 @@ account-hub-username-error-text = Nazwa użytkownika jest wymagana
 account-hub-manual-config-error-summary = Rozwiąż następujące problemy:
 account-hub-oauth-pending = Oczekiwanie na upoważnienie w wyskakującym oknie logowania…
 account-hub-addon-install-button = Zainstaluj
-account-hub-addon-install-needed = { -brand-short-name } nie obsługuje natywnie tego serwera. Aby uzyskać dostęp do poczty e-mail Exchange, <a data-l10n-name="addon-install"> zainstaluj dodatek zewnętrznego producenta, taki jak Owl (płatny).</a>
 account-hub-addon-error = Instalacja dodatku się nie powiodła. Spróbuj ponownie lub skontaktuj się z autorem dodatku, aby uzyskać pomoc.
 account-hub-select-security-warning = <span data-l10n-name="error-text">Ostrzeżenie: wykryto niezabezpieczony serwer pocztowy.</span> Ten serwer nie obsługuje szyfrowania, co naraża hasło i dane użytkownika. Skontaktuj się z administratorem, aby zabezpieczyć połączenie, lub kontynuuj na własne ryzyko. <a data-l10n-name="error-link">Więcej informacji znajdziesz w dokumencie FAQ.</a>
-account-hub-security-warning = <span data-l10n-name="security-warning">Ostrzeżenie: wykryto niezabezpieczony serwer pocztowy.</span> Ten serwer nie obsługuje szyfrowania, co naraża hasło i dane użytkownika. Skontaktuj się z administratorem, aby zabezpieczyć połączenie, lub kontynuuj na własne ryzyko. <a data-l10n-name="faq-link">Więcej informacji znajdziesz w dokumencie FAQ.</a>
 account-hub-account-authentication-error = Błąd uwierzytelniania.
 account-hub-add-address-book = Dodaj książkę adresową
 address-book-sync-existing-icon =
@@ -361,7 +344,6 @@ account-hub-address-book-sync-books-data =
         [few] { $addressBooks } dostępne książki adresowe
        *[many] { $addressBooks } dostępnych książek adresowych
     }
-account-hub-fetching-sync-accounts = Wykrywanie książek adresowych i kalendarzy…
 address-book-sync-existing-description = Pobieranie istniejących kont…
 account-hub-select-address-book-account = Wybierz konto z książkami adresowymi
 # $synced (Number) - The number of address books that are synced.

@@ -9,10 +9,6 @@ open-preferences-sidebar-button2 =
     }
 open-addons-sidebar-button = Doplňky a vzhledy
 account-tree-add-account-button = Přidat účet
-account-action-add-newsgroup-account =
-    .label = Přidat účet pro diskusní skupiny…
-    .accesskey = d
-account-tree-create-account-button = Nový účet
 account-tree-add-mail-account =
     .label = Poštovní účet…
     .accesskey = P

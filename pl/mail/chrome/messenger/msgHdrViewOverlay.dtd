@@ -33,8 +33,6 @@
 <!ENTITY hdrFollowupButton1.tooltip "Wyślij odpowiedź na grupę dyskusyjną">
 <!ENTITY hdrForwardButton1.label "Przekaż">
 <!ENTITY hdrForwardButton1.tooltip "Przekaż tę wiadomość">
-<!ENTITY hdrJunkButton1.label "Niechciana">
-<!ENTITY hdrJunkButton1.tooltip "Oznacz wiadomość jako niechcianą">
 <!ENTITY hdrTrashButton1.label "Usuń">
 <!ENTITY hdrTrashButton1.tooltip "Usuń tę wiadomość">
 <!ENTITY hdrViewToolbarShowFull.label "Wyświetlaj ikony i tekst">

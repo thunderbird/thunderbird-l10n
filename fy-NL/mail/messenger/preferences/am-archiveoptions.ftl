@@ -26,13 +26,3 @@ archive-folder-name-label = Argiven
 inbox-folder-name-label = Postfek YN
 child-folder-name-label = Submap fan Postfek YN
 sibling-folder-name-label = Map op itselde nivo as Postfek YN
-# This should match the default name for the "Archives" folder.
-archive-folder-name =
-    .label = Argiven
-# This should match the default name for the "Inbox" folder.
-inbox-folder-name =
-    .label = Postfek YN
-child-folder-name =
-    .label = Submap fan Postfek YN
-sibling-folder-name =
-    .label = Map op itselde nivo as Postfek YN

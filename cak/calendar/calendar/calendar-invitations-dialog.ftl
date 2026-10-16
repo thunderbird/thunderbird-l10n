@@ -5,9 +5,6 @@
 allday-event = Nimaq'ij chi jun q'ij
 recurrent-event =
     .value = Rukamulun nimaq'ij
-# $locationProperty is the location of the event
-calendar-invitations-location =
-    .value = K'ojlemal: { $locationProperty }
 # $organizerProperty is the organizer of the event
 organizer =
     .value = Nuk'unem: { $organizerProperty }

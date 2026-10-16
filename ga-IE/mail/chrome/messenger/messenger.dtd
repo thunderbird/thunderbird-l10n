@@ -40,8 +40,6 @@
 <!ENTITY getAllNewMsgCmdPopupMenu.accesskey "a">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.label "An Cuntas Reatha">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.accesskey "C">
-<!ENTITY getNextNMsgCmd2.label "Faigh Tuilleadh Teachtaireachtaí Nuachta">
-<!ENTITY getNextNMsgCmd2.accesskey "T">
 <!ENTITY sendUnsentCmd.label "Seol na teachtaireachtaí gan seoladh">
 <!ENTITY sendUnsentCmd.accesskey "l">
 <!ENTITY subscribeCmd.label "Liostáil…">
@@ -51,8 +49,6 @@
 <!ENTITY renameFolder.label "Athainmnigh an Fillteán…">
 <!ENTITY renameFolder.accesskey "A">
 <!ENTITY renameFolder.key "VK_F2">
-<!ENTITY compactFolders.label "Dlúthaigh Fillteáin">
-<!ENTITY compactFolders.accesskey "F">
 <!ENTITY emptyTrashCmd.label "Folmhaigh an Bruscar">
 <!ENTITY emptyTrashCmd.accesskey "F">
 <!ENTITY offlineMenu.label "As Líne">
@@ -121,10 +117,6 @@
 <!ENTITY allFolders.accesskey "U">
 <!ENTITY unreadFolders.label "Gan Léamh">
 <!ENTITY unreadFolders.accesskey "G">
-<!ENTITY favoriteFolders.label "Mo Rogha Fillteán">
-<!ENTITY favoriteFolders.accesskey "F">
-<!ENTITY recentFolders.label "Le Déanaí">
-<!ENTITY recentFolders.accesskey "L">
 <!ENTITY compactVersion.label "Dlúthamharc">
 <!ENTITY compactVersion.accesskey "D">
 <!-- Sort Menu -->
@@ -146,8 +138,6 @@
 <!ENTITY sortByStatusCmd.accesskey "a">
 <!ENTITY sortByTagsCmd.label "Clibeanna">
 <!ENTITY sortByTagsCmd.accesskey "b">
-<!ENTITY sortByJunkStatusCmd.label "Stádas Dramhphoist">
-<!ENTITY sortByJunkStatusCmd.accesskey "S">
 <!ENTITY sortBySubjectCmd.label "Ábhar">
 <!ENTITY sortBySubjectCmd.accesskey "b">
 <!ENTITY sortByFromCmd.label "Ó">
@@ -235,7 +225,6 @@
 <!ENTITY findPrevCmd.key2 "VK_F3">
 <!ENTITY searchMailCmd.label "Cuardaigh Teachtaireachtaí…">
 <!ENTITY searchMailCmd.accesskey "T">
-<!ENTITY searchMailCmd.key "f">
 <!ENTITY searchAddressesCmd.label "Cuardaigh Seoltaí…">
 <!ENTITY searchAddressesCmd.accesskey "C">
 <!-- Go Menu -->
@@ -319,17 +308,6 @@
 <!ENTITY editDraftMsgCmd.accesskey "D">
 <!ENTITY createFilter.label "Cruthaigh Scagaire ón Teachtaireacht…">
 <!ENTITY createFilter.accesskey "a">
-<!ENTITY moveMsgToMenu.label "Bog Go">
-<!ENTITY moveMsgToMenu.accesskey "B">
-<!ENTITY moveCopyMsgRecentMenu.label "Le Déanaí">
-<!ENTITY moveCopyMsgRecentMenu.accesskey "L">
-<!ENTITY copyMessageLocation.label "Cóipeáil Suíomh na Teachtaireachta">
-<!ENTITY copyMessageLocation.accesskey "m">
-<!ENTITY copyMsgToMenu.label "Cóipeáil Go">
-<!ENTITY copyMsgToMenu.accesskey "C">
-<!ENTITY moveToFolderAgain.label "Bog Arís">
-<!ENTITY moveToFolderAgain.accesskey "A">
-<!ENTITY moveToFolderAgainCmd.key "a">
 <!ENTITY killThreadMenu.label "Tabhair Neamhaird ar an Snáithe">
 <!ENTITY killThreadMenu.accesskey "T">
 <!ENTITY killThreadMenu.key "k">
@@ -341,16 +319,6 @@
 <!ENTITY watchThreadMenu.key "w">
 <!ENTITY tagMenu.label "Clib">
 <!ENTITY tagMenu.accesskey "b">
-<!ENTITY tagCmd0.key "0">
-<!ENTITY tagCmd1.key "1">
-<!ENTITY tagCmd2.key "2">
-<!ENTITY tagCmd3.key "3">
-<!ENTITY tagCmd4.key "4">
-<!ENTITY tagCmd5.key "5">
-<!ENTITY tagCmd6.key "6">
-<!ENTITY tagCmd7.key "7">
-<!ENTITY tagCmd8.key "8">
-<!ENTITY tagCmd9.key "9">
 <!ENTITY markMenu.label "Marcáil">
 <!ENTITY markMenu.accesskey "M">
 <!ENTITY toggleReadCmd.key "m">
@@ -370,14 +338,6 @@
 <!ENTITY markStarredCmd.label "Cuir Réiltín Leis">
 <!ENTITY markStarredCmd.accesskey "R">
 <!ENTITY markStarredCmd.key "S">
-<!ENTITY markAsJunkCmd.label "Mar dhramhphost">
-<!ENTITY markAsJunkCmd.accesskey "r">
-<!ENTITY markAsJunkCmd.key "j">
-<!ENTITY markAsNotJunkCmd.label "Mar phost ceart">
-<!ENTITY markAsNotJunkCmd.accesskey "p">
-<!ENTITY markAsNotJunkCmd.key "j">
-<!ENTITY recalculateJunkScoreCmd.label "Rith na Rialtáin Dramhphoist">
-<!ENTITY recalculateJunkScoreCmd.accesskey "p">
 <!ENTITY openMessageWindowCmd.label "Oscail Teachtaireacht">
 <!ENTITY openMessageWindowCmd.accesskey "O">
 <!ENTITY openMessageWindowCmd.key "o">
@@ -422,10 +382,6 @@
 <!ENTITY filtersApplyToSelection.accesskey "R">
 <!ENTITY filtersApplyToMessage.label "Rith Scagairí ar Theachtaireacht">
 <!ENTITY filtersApplyToMessage.accesskey "R">
-<!ENTITY runJunkControls.label "Rith na Rialtáin Dramhphoist ar Fhillteán">
-<!ENTITY runJunkControls.accesskey "D">
-<!ENTITY deleteJunk.label "Scrios ríomhphost marcáilte mar dhramhphost san fhillteán">
-<!ENTITY deleteJunk.accesskey "S">
 <!ENTITY importCmd.label "Iompórtáil…">
 <!ENTITY importCmd.accesskey "m">
 <!ENTITY exportCmd.label "Easpórtáil…">
@@ -469,7 +425,6 @@
 <!ENTITY printButton.label "Priontáil">
 <!ENTITY stopButton.label "Stad">
 <!ENTITY throbberItem.title "Táscaire Gníomhaíochta">
-<!ENTITY junkItem.title "Dramhphost">
 <!ENTITY addressBookButton.label "Leabhar Seoltaí">
 <!ENTITY chatButton.label "Comhrá">
 <!ENTITY glodaSearch.title "Cuardach Cuimsitheach">
@@ -530,11 +485,6 @@
 <!ENTITY appmenuNewContactCmd.label "Teagmhálaí sa Leabhar Seoltaí…">
 <!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Leagan Amach an Bharra Uirlisí…">
-<!-- Tags Menu Popup -->
-<!ENTITY addNewTag.label "Clib Nua…">
-<!ENTITY addNewTag.accesskey "C">
-<!ENTITY manageTags.label "Bainistigh Clibeanna…">
-<!ENTITY manageTags.accesskey "B">
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "Ainm">
 <!ENTITY folderUnreadColumn.label "Gan Léamh">
@@ -556,12 +506,8 @@
 <!ENTITY folderContextRename.accesskey "A">
 <!ENTITY folderContextRemove.label "Scrios">
 <!ENTITY folderContextRemove.accesskey "S">
-<!ENTITY folderContextCompact.label "Dlúthaigh">
-<!ENTITY folderContextCompact.accesskey "D">
 <!ENTITY folderContextEmptyTrash.label "Folmhaigh an Bruscar">
 <!ENTITY folderContextEmptyTrash.accesskey "F">
-<!ENTITY folderContextEmptyJunk.label "Glan Dramhphost">
-<!ENTITY folderContextEmptyJunk.accesskey "G">
 <!ENTITY folderContextSendUnsentMessages.label "Seol na teachtaireachtaí gan seoladh">
 <!ENTITY folderContextSendUnsentMessages.accesskey "l">
 <!ENTITY folderContextUnsubscribe.label "Díliostáil">
@@ -602,7 +548,6 @@
 <!ENTITY accountColumn.label "Cuntas">
 <!ENTITY statusColumn.label "Stádas">
 <!ENTITY sizeColumn.label "Méid">
-<!ENTITY junkStatusColumn.label "Stádas Dramhphoist">
 <!ENTITY unreadColumn.label "Gan Léamh">
 <!ENTITY totalColumn.label "Iomlán">
 <!ENTITY readColumn.label "Léite">
@@ -624,7 +569,6 @@
 <!ENTITY accountColumn2.tooltip "Sórtáil de réir cuntais">
 <!ENTITY statusColumn2.tooltip "Sórtáil de réir stádais">
 <!ENTITY sizeColumn2.tooltip "Sórtáil de réir méide">
-<!ENTITY junkStatusColumn2.tooltip "Sórtáil de réir stádais dramhphoist">
 <!ENTITY unreadColumn2.tooltip "Teachtaireachtaí gan léamh sa snáithe">
 <!ENTITY totalColumn2.tooltip "Iomlán na dTeachtaireachtaí sa snáithe">
 <!ENTITY readColumn2.tooltip "Sórtáil de réir stádais léite">
@@ -658,12 +602,6 @@
 <!ENTITY contextReplyAll.accesskey "r">
 <!ENTITY contextReplyList.label "Freagra chuig an Liosta">
 <!ENTITY contextReplyList.accesskey "L">
-<!ENTITY contextMoveMsgMenu.label "Bog Go">
-<!ENTITY contextMoveMsgMenu.accesskey "B">
-<!ENTITY contextMoveCopyMsgRecentMenu.label "Le Déanaí">
-<!ENTITY contextMoveCopyMsgRecentMenu.accesskey "L">
-<!ENTITY contextCopyMsgMenu.label "Cóipeáil Go">
-<!ENTITY contextCopyMsgMenu.accesskey "C">
 <!ENTITY contextKillThreadMenu.label "Tabhair Neamhaird ar an Snáithe">
 <!ENTITY contextKillSubthreadMenu.accesskey "b">
 <!ENTITY contextKillThreadMenu.accesskey "T">

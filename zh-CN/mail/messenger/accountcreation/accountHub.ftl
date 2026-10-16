@@ -54,14 +54,7 @@ account-hub-email-connect-button = 连接
 account-hub-result-incoming-legend = 收件
 account-hub-result-outgoing-legend = 发件
 account-hub-all-servers-legend = 所有服务器
-account-hub-incoming-server-legend = 收件服务器
-account-hub-outgoing-server-legend = 发件服务器
-account-hub-result-incoming-server-legend = 收件服务器
-    .title = 收件服务器
-account-hub-result-outgoing-server-legend = 发件服务器
-    .title = 发件服务器
 account-hub-protocol-label = 协议
-account-hub-hostname-label = 主机名
 account-hub-result-hostname-label = 主机名
     .title = 主机名
 account-hub-result-socket-type-label = 连接安全性
@@ -91,10 +84,6 @@ account-hub-result-auth-gssapi = Kerberos
 account-hub-result-auth-ntlm = NTLM
 account-hub-result-auth-oauth2 = OAuth2
 account-hub-on-port-label = 端口
-account-hub-result-authentication-label = 身份验证方式
-    .title = 身份验证方式
-account-hub-port-label = 端口
-    .title = 设置端口号为 0 表示自动检测
 account-hub-auto-description = { -brand-short-name } 将尝试自动检测留白的字段。
 account-hub-ssl-label = 连接安全性
 
@@ -102,8 +91,6 @@ account-hub-ssl-label = 连接安全性
 
 account-hub-ssl-autodetect-option =
     .label = 自动检测
-account-hub-ssl-no-authentication-option =
-    .label = 无须验证
 account-hub-ssl-cleartext-password-option =
     .label = 普通密码
 account-hub-ssl-encrypted-password-option =
@@ -242,7 +229,6 @@ account-hub-notification-show-less = 折叠
 account-hub-email-setup-header = 添加邮箱地址
 account-hub-email-setup-incoming = 收件服务器设置
 account-hub-email-setup-outgoing = 发件服务器设置
-account-hub-email-config-found = 请选择邮箱账户类型
 account-hub-email-enter-password = 请输入邮箱账户密码
 account-hub-email-sync-accounts = 同步日历和通讯录
 account-hub-test-configuration = 测试
@@ -260,7 +246,6 @@ account-hub-result-graph-expanded-text = Graph API
 account-hub-result-recommended-label = 推荐
 account-hub-result-addon-label = 需要使用附加组件
 account-hub-edit-configuration = 编辑配置
-account-hub-config-success = 在 Mozilla ISPDB 中找到配置
 account-hub-password-info = 您的登录凭据只会存储在您的计算机本地
 account-hub-creating-account = 正在创建账户…
 account-hub-sync-accounts-found = { -brand-short-name } 找到一些已连接的服务
@@ -286,10 +271,8 @@ account-hub-username-error-text = 用户名不能为空
     .title = 用户名不能为空
 account-hub-oauth-pending = 正在等待登录弹窗中的授权…
 account-hub-addon-install-button = 安装
-account-hub-addon-install-needed = { -brand-short-name } 尚未原生支持此服务器。若要访问 Exchange 邮件，请<a data-l10n-name="addon-install">安装 Owl（付费）等第三方附加组件</a>。
 account-hub-addon-error = 附加组件安装失败。请再试一次，或联系附加组件作者获取帮助。
 account-hub-select-security-warning = <span data-l10n-name="error-text">警告：检测到不安全的邮件服务器。</span>此服务器缺少加密措施，将暴露您的密码和数据。请联系管理员升级此连接的安全性，或自担风险并继续操作。详见<a data-l10n-name="error-link">常见问题解答</a>。
-account-hub-security-warning = <span data-l10n-name="security-warning">警告：检测到不安全的邮件服务器。</span>此服务器缺少加密措施，将暴露您的密码和数据。请联系管理员升级此连接的安全性，或自担风险并继续操作。<a data-l10n-name="faq-link">详见常见问题解答</a>。
 account-hub-account-authentication-error = 身份验证出错。
 account-hub-add-address-book = 添加至通讯录
 address-book-sync-existing-icon =
@@ -309,7 +292,6 @@ address-book-add-ldap = 新建 LDAP 通讯录
 address-book-add-ldap-description = 连接远程 LDAP 通讯录
 # $addressBooks (Number) - The number of address books that can be synced from existing accounts.
 account-hub-address-book-sync-books-data = { $addressBooks } 个通讯录可用
-account-hub-fetching-sync-accounts = 正在发现通讯录和日历…
 address-book-sync-existing-description = 正在检索现有账户…
 account-hub-select-address-book-account = 选择一个带有通讯录的账户
 # $synced (Number) - The number of address books that are synced.

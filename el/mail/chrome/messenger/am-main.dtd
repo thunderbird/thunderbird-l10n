@@ -34,9 +34,4 @@
 <!ENTITY attachVCard.accesskey "α">
 <!ENTITY manageIdentities.label "Διαχείριση ταυτοτήτων…">
 <!ENTITY manageIdentities.accesskey "Δ">
-<!-- LOCALIZATION NOTE (smtpName.label) : do not translate "SMTP" in below line -->
-<!ENTITY smtpName.label "Διακομιστής εξερχομένων (SMTP):">
-<!ENTITY smtpName.accesskey "χ">
 <!ENTITY smtpDefaultServer.label "Χρήση προεπιλεγμένου διακομιστή">
-<!ENTITY smtpServerEdit.label "Επεξεργασία διακομιστή SMTP…">
-<!ENTITY smtpServerEdit.accesskey "P">

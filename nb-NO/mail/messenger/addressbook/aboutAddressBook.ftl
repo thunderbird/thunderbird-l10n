@@ -6,8 +6,6 @@ about-addressbook-title = Adressebok
 
 ## Toolbar
 
-about-addressbook-toolbar-new-address-book =
-    .label = Ny adressebok
 about-addressbook-toolbar-add-address-book =
     .label = Legg til lokal adressebok
 about-addressbook-toolbar-add-carddav-address-book =
@@ -18,8 +16,6 @@ books-pane-create-contact-button = Ny kontakt
     .title = Lag en ny kontakt
 books-pane-add-book-button =
     .title = Legg til adressebok
-books-pane-create-book-button =
-    .title = Opprett en ny adressebok
 books-pane-create-list-button =
     .title = Opprett en ny e-postliste
 books-pane-import-button = Importer

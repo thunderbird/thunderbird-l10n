@@ -3,10 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY subscribeDialog.title "Obuna bo‘lish">
-<!ENTITY subscribeButton.label "Obuna bo‘lish">
-<!ENTITY subscribeButton.accesskey "O">
-<!ENTITY unsubscribeButton.label "Obunani bekor qilish">
-<!ENTITY unsubscribeButton.accesskey "u">
 <!ENTITY newGroupsTab.label "Yangi guruhlar">
 <!ENTITY newGroupsTab.accesskey "Y">
 <!ENTITY refreshButton.label "Yangilash">

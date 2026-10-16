@@ -216,7 +216,6 @@
 <!ENTITY smiley7Cmd.label "Невизначеність">
 <!ENTITY smiley8Cmd.label "Здивованість">
 <!ENTITY smiley9Cmd.label "Цілую">
-<!ENTITY smiley10Cmd.label "Кричу">
 <!ENTITY smiley11Cmd.label "Я крутько">
 <!ENTITY smiley12Cmd.label "Купа грошей">
 <!ENTITY smiley13Cmd.label "Немає слів">
@@ -265,12 +264,6 @@
 <!ENTITY convertRegularAttachment.accesskey "в">
 <!ENTITY attachPage.label "Вкласти вебсторінку…">
 <!ENTITY attachPage.accesskey "е">
-<!-- Attachment Pane Header Bar Context Menu
-     LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
-     Should use the same wording as startExpandedCmd.label
-     in msgHdrViewOverlay.dtd. -->
-<!ENTITY initiallyShowAttachmentPane.label "Початково показувати панель вкладень">
-<!ENTITY initiallyShowAttachmentPane.accesskey "к">
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Додати словники…">
 <!ENTITY spellAddDictionaries.accesskey "Д">

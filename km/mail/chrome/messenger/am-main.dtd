@@ -32,7 +32,4 @@
 <!ENTITY attachVCard.accesskey "v">
 <!ENTITY manageIdentities.label "Կառավարել որոշիչները...">
 <!ENTITY manageIdentities.accesskey "M">
-<!-- LOCALIZATION NOTE (smtpName.label) : do not translate "SMTP" in below line -->
-<!ENTITY smtpName.label "Ելքային սպասարկիչը (SMTP).">
-<!ENTITY smtpName.accesskey "u">
 <!ENTITY smtpDefaultServer.label "Օգտ. հիմնական սպասարկիչը">

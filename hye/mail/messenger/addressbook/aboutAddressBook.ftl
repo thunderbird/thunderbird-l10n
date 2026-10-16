@@ -6,8 +6,6 @@ about-addressbook-title = Հասցէագիրք
 
 ## Toolbar
 
-about-addressbook-toolbar-new-address-book =
-    .label = Նոր հասցէագիրք
 about-addressbook-toolbar-add-carddav-address-book =
     .label = Աւելացնել CardDAV հասցէագիրք
 about-addressbook-toolbar-add-ldap-address-book =

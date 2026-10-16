@@ -610,16 +610,6 @@ show-calendar-title =
 hide-calendar-name =
     .label = הסתרת { $name }
     .accesskey = ס
-# $name calendar name
-show-calendar-label =
-    .label = הצגת { $name }
-# $name calendar name
-hide-calendar-label =
-    .label = הסתרת { $name }
-# uses the access key calendar.context.showonly.accesskey
-# $name calendar name
-show-only-calendar =
-    .label = הצגת { $name } בלבד
 # LOCALIZATION NOTE (modify-conflict-*)
 # Used by the event dialog to resolve item modification conflicts.
 modify-conflict-prompt-title = התנגשות בשינוי פריט

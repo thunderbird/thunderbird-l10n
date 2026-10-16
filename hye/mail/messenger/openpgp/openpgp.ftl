@@ -346,7 +346,6 @@ key-verification = Ստուգէք բանալու մատնահետքը՝ աւգտ
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Հնարաւոր չէ ուղարկել հաղորդագրութիւնը, քանի որ խնդիր կայ Ձեր անձնական բանալու հետ: { $problem }
-window-locked = Կազմելու պատուհանը կողպուած է; ուղարկումը չեկարկուել է
 
 ## Strings in keyserver.sys.mjs
 
@@ -380,9 +379,6 @@ converter-decrypt-body-failed =
 ## Strings filters.sys.mjs
 
 filter-folder-required = Դուք պէտք է ընտրէք թիրախային թղթապանակ:
-filter-decrypt-move-warn-experimental =
-    Զգուշացում. «մշտապէս վերծանել» զտիչի գործողութիւնը կարող է յանգեցնել հաղորդագրութիւնների ոչնչացմանը:
-    Մենք խստաւրէն խորհուրդ ենք տալիս նախ փորձել «ստեղծել վերծանուած պատճէն» զտիչը, ուշադիր ստուգել արդիւնքը եւ ապա սկսել աւգտագործել այս զտիչը միայն արդիւնքից գոհ լինելուց յետոյ:
 filter-term-pgpencrypted-label = OpenPGP֊ն գաղտնագրուած է
 filter-key-required = Նշէք ընդունիչ բանալին։
 # Variables:
@@ -543,7 +539,6 @@ fail-key-import = Խափանում ֊ բանալու ներածումը խափա
 # $output (String) - File that writing was attempted to.
 file-write-failed = Չյաջողուեց գրել նիշում { $output }
 no-pgp-block = Խափանում ֊ չկայ զրահապատ OpenPGP տուեալների բլոկ
-confirm-permissive-import = Ներածումը չյաջողուեց: Բանալին, որը փորձում էք ներմուծել, կարող է վնասուած լինել կամ աւգտագործել անյայտ յատկանիշներ: Ցանկանու՞մ էք փորձել ներմուծել այն մասերը, որոնք ճիշտ են։ Սա կարող է յանգեցնել թերի եւ անաւգտագործելի բանալիների ներմուծմանը:
 
 ## Strings used in trust.sys.mjs
 
@@ -587,9 +582,6 @@ key-man-button-generate-key-continue = &Շարունակել բանալիներ�
 
 failed-decrypt = Սխալ. վերծանումը ձախողուեց
 fix-broken-exchange-msg-failed = Չյաջողուեց վերանորոգել այս հաղորդագրութիւնը:
-# Variables:
-# $attachment (String) - File name of the signature file.
-attachment-no-match-from-signature = Չյաջողուեց «{ $attachment }» նիշը համապատասխանեցնել կցորդին
 # Variables:
 # Variables:
 # $attachment (String) - File name of the attachment.
@@ -695,8 +687,3 @@ enig-confirm = OpenPGP հաստատում
 
 dlg-button-retry = &վերափորձել
 dlg-button-skip = &բաց թողնել
-
-## Strings used in enigmailMsgBox.js
-
-enig-alert-title =
-    .title = OpenPGP զգուշացում

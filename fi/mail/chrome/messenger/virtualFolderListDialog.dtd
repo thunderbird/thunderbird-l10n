@@ -3,5 +3,3 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY virtualFolderListTitle.title "Valitse kansiot">
 <!ENTITY virtualFolderDesc.label "Valitse kansiot, joista haetaan:">
-<!ENTITY folderName.label "Kansion nimi">
-<!ENTITY folderSearch.label "Haku">

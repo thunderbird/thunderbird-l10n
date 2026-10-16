@@ -2,18 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-connection-dns-over-https-url-resolver = Աւգտագործէք մատակարարից
-    .accesskey = ա
-# Variables:
-#   $name (String) - Display name or URL for the DNS over HTTPS provider
-connection-dns-over-https-url-item-default =
-    .label = { $name } (Սկզբնադիր)
-    .tooltiptext = Աւգտագործեք սկզբնադիր URL- ն DNS- ը HTTPS- ի լուծման համար
-connection-dns-over-https-url-custom =
-    .label = Յարմարեցուած
-    .tooltiptext = Մուտքագրէք Ձեր նախընտրած URL-ը HTTPS-ով DNS-ի լուծման համար
-    .accesskey = Յ
-connection-dns-over-https-custom-label = Յարմարեցուած
 disable-extension-button = Անջատել ընդլայնումը
 # Variables:
 #   $name (String) - The extension that is controlling the proxy settings.
@@ -80,6 +68,3 @@ proxy-password-prompt =
 proxy-remote-dns =
     .label = Միջնորդ DNS՝ SOCKS տ5 աւգտագործելիս
     .accesskey = D
-proxy-enable-doh =
-    .label = Միացնել DNS-ը HTTPS-ով
-    .accesskey = ց

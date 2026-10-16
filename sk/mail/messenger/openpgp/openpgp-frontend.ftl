@@ -43,14 +43,9 @@ openpgp-cannot-decrypt-because-mdc =
     Počas prenosu mohla byť upravená so zámerom ukradnúť jej obsah.
     Aby sa zabránilo tomuto riziku, obsah nie je zobrazený.
 openpgp-cannot-decrypt-because-missing-key = Tajný kľúč, ktorý sa vyžaduje na dešifrovanie tejto správy, nie je k dispozícii.
-openpgp-partially-signed =
-    Iba časť tejto správy bola digitálne podpísaná pomocou OpenPGP.
-    Ak kliknete na tlačidlo overenia, nechránené časti sa skryjú a zobrazí sa stav digitálneho podpisu.
 openpgp-partially-encrypted =
     Iba časť tejto správy bola šifrovaná pomocou OpenPGP.
     Čitateľné časti správy, ktoré sú už zobrazené, neboli šifrované.
     Ak kliknete na tlačidlo dešifrovať, zobrazí sa obsah šifrovaných častí.
-openpgp-reminder-partial-display = Pripomienka: Správa uvedená nižšie je iba časťou pôvodnej správy.
-openpgp-partial-verify-button = Overiť
 openpgp-partial-decrypt-button = Dešifrovať
 openpgp-unexpected-key-for-you = Upozornenie: Táto správa obsahuje neznámy kľúč OpenPGP, ktorý odkazuje na jednu z vašich vlastných e‑mailových adries. Ak toto nie je jeden z vašich vlastných kľúčov, môže ísť o pokus oklamať iných korešpondentov.

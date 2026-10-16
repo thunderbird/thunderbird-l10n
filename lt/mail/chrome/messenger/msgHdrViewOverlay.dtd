@@ -33,8 +33,6 @@
 <!ENTITY hdrFollowupButton1.tooltip "Atsakyti naujienų grupei">
 <!ENTITY hdrForwardButton1.label "Persiųsti">
 <!ENTITY hdrForwardButton1.tooltip "Persiųsti šį laišką">
-<!ENTITY hdrJunkButton1.label "Brukalas">
-<!ENTITY hdrJunkButton1.tooltip "Pažymėti šį laišką kaip brukalą">
 <!ENTITY hdrTrashButton1.label "Pašalinti">
 <!ENTITY hdrTrashButton1.tooltip "Pašalinti šį laišką">
 <!ENTITY hdrViewToolbarShowFull.label "Rodyti piktogramas ir tekstą">

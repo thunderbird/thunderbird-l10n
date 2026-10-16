@@ -2,18 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-connection-dns-over-https-url-resolver = Koristi pružatelja usluga
-    .accesskey = r
-# Variables:
-#   $name (String) - Display name or URL for the DNS over HTTPS provider
-connection-dns-over-https-url-item-default =
-    .label = { $name } (zadano)
-    .tooltiptext = Koristi zadani URL za DNS preko HTTPS
-connection-dns-over-https-url-custom =
-    .label = Zadano
-    .tooltiptext = Unesite željeni URL za DNS preko HTTPS
-    .accesskey = Z
-connection-dns-over-https-custom-label = Zadano
 connection-dialog-title = Postavke spajanja
 disable-extension-button = Onemogući dodatak
 # Variables:
@@ -81,6 +69,3 @@ proxy-password-prompt =
 proxy-remote-dns =
     .label = Proxy DNS ukoliko se koristi SOCKS v5
     .accesskey = d
-proxy-enable-doh =
-    .label = Omogući DNS preko HTTPS
-    .accesskey = D

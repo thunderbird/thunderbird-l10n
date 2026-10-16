@@ -26,13 +26,3 @@ archive-folder-name-label = Arkiv
 inbox-folder-name-label = Indbakke
 child-folder-name-label = Undermappe til Indbakke
 sibling-folder-name-label = Søskende til Indbakke
-# This should match the default name for the "Archives" folder.
-archive-folder-name =
-    .label = Arkiv
-# This should match the default name for the "Inbox" folder.
-inbox-folder-name =
-    .label = Indbakke
-child-folder-name =
-    .label = Undermappe til Indbakke
-sibling-folder-name =
-    .label = Søskende til Indbakke

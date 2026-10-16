@@ -12,15 +12,6 @@ search-bar-button =
     .alt = Tschertgar
 search-bar-item2 =
     .label = Tschertgar
-search-bar-placeholder = Tschertgar…
-# Search bar placeholder with formatted key shortcut hint (platform dependent).
-# The key after the control modifier should match the key from quickSearchCmd.key
-# in messenger.dtd.
-search-bar-placeholder-with-key2 =
-    { PLATFORM() ->
-        [macos] { search-bar-placeholder } <kbd>⌘</kbd> <kbd>K</kbd>
-       *[other] { search-bar-placeholder } <kbd>Ctrl</kbd> + <kbd>K</kbd>
-    }
 
 ## Unified toolbar context menu
 

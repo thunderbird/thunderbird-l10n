@@ -10,8 +10,6 @@ appmenu-sync-panel-title =
 
 ## Add Account
 
-appmenu-new-account-panel-title =
-    .title = Նոր փոստարկղ
 appmenu-new-chat-account =
     .label = Զրույց
     .accesskey = h

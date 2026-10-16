@@ -13,8 +13,6 @@
 <!ENTITY undoCmd.accesskey "с">
 <!ENTITY redoCmd.label "Повторити">
 <!ENTITY redoCmd.accesskey "в">
-<!ENTITY deleteCmd.label "Видалити">
-<!ENTITY deleteCmd.accesskey "В">
 <!ENTITY customizeCmd.label "Налаштувати">
 <!ENTITY customizeCmd.accesskey "т">
 <!ENTITY viewMenu.label "Вигляд">

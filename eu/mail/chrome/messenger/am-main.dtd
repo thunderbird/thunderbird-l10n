@@ -34,9 +34,4 @@
 <!ENTITY attachVCard.accesskey "v">
 <!ENTITY manageIdentities.label "Kudeatu identitateak…">
 <!ENTITY manageIdentities.accesskey "K">
-<!-- LOCALIZATION NOTE (smtpName.label) : do not translate "SMTP" in below line -->
-<!ENTITY smtpName.label "Irteerako SMTP zerbitzaria:">
-<!ENTITY smtpName.accesskey "o">
 <!ENTITY smtpDefaultServer.label "Erabili zerbitzari lehenetsia">
-<!ENTITY smtpServerEdit.label "Editatu SMTP zerbitzaria…">
-<!ENTITY smtpServerEdit.accesskey "P">

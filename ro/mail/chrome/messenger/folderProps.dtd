@@ -10,22 +10,6 @@
 <!ENTITY folderRebuildSummaryFile.explanation "Uneori fișierul index de dosar (.msf) se deteriorează și aparent lipsesc mesaje sau apar mesaje care au fost șterse; aceste probleme pot fi rezolvate prin repararea dosarului.">
 <!ENTITY folderIncludeInGlobalSearch.label "Include mesajele din acest dosar în rezultatele căutării globale">
 <!ENTITY folderIncludeInGlobalSearch.accesskey "g">
-<!ENTITY retention.label "Politica de păstrare">
-<!ENTITY retentionUseAccount.label "Folosește setările contului meu">
-<!ENTITY retentionUseAccount.accesskey "U">
-<!ENTITY daysOld.label "zile">
-<!ENTITY message.label "mesaje">
-<!ENTITY retentionCleanup.label "Pentru a economisi spațiu pe disc, mesajele vechi pot fi șterse definitiv.">
-<!ENTITY retentionCleanupImap.label "Pentru a economisi spațiu pe disc, mesajele vechi pot fi șterse definitiv, atât copiile locale cât și cele originale de pe serverul de la distanță.">
-<!ENTITY retentionCleanupPop.label "Pentru a economisi spațiu pe disc, mesajele vechi pot fi șterse definitiv, inclusiv originalele de pe server.">
-<!ENTITY retentionDeleteMsg.label "Șterge mesajele mai vechi de">
-<!ENTITY retentionDeleteMsg.accesskey "m">
-<!ENTITY retentionKeepAll.label "Nu șterge niciun mesaj">
-<!ENTITY retentionKeepAll.accesskey "a">
-<!ENTITY retentionKeepRecent.label "Șterge tot cu excepția celor mai recente">
-<!ENTITY retentionKeepRecent.accesskey "l">
-<!ENTITY retentionApplyToFlagged.label "Păstrează întotdeauna mesajele cu steluță">
-<!ENTITY retentionApplyToFlagged.accesskey "e">
 <!ENTITY folderSynchronizationTab.label "Sincronizare">
 <!ENTITY folderCheckForNewMessages2.label "La descărcarea mesajelor pentru acest cont, verifică întotdeauna dosarul acesta">
 <!ENTITY folderCheckForNewMessages2.accesskey "c">

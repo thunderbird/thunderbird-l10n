@@ -26,13 +26,3 @@ archive-folder-name-label = Archiwy
 inbox-folder-name-label = Póstowy dochad
 child-folder-name-label = Podrjadowak dochadneje e-mejle
 sibling-folder-name-label = Přiwuzny dochadneje e-mejle
-# This should match the default name for the "Archives" folder.
-archive-folder-name =
-    .label = Archiwy
-# This should match the default name for the "Inbox" folder.
-inbox-folder-name =
-    .label = Póstowy dochad
-child-folder-name =
-    .label = Podrjadowak dochadneje e-mejle
-sibling-folder-name =
-    .label = Přiwuzny dochadneje e-mejle

@@ -424,7 +424,6 @@ key-verification = Stadfest fingeravtrykket til nøkkelen ved hjelp av ein sikke
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Klarte ikkje å sende meldinga, fordi det er eit problem med den personlege nøkkelen din. { $problem }
-window-locked = Meldingsvindauge er låst; sending avbroten
 
 ## Strings in keyserver.sys.mjs
 
@@ -458,9 +457,6 @@ converter-decrypt-body-failed =
 ## Strings filters.sys.mjs
 
 filter-folder-required = Du må velje ei målmappe
-filter-decrypt-move-warn-experimental =
-    Åtvaring - filterhandlinga «Dekrypter permanent» kan føre til øydelagde meldingar.
-    Vi tilrår på det sterkaste at du først prøver filteret «Lag dekryptert kopi», testar resultatet nøye, og begynner først å bruke dette filteret når du er fornøgd med resultatet.
 filter-term-pgpencrypted-label = OpenPGP-kryptert
 filter-key-required = Du må velje ein mottakarnøkkel.
 # Variables:
@@ -623,7 +619,6 @@ fail-key-import = Feil - import av nøkkel feila
 # $output (String) - File that writing was attempted to.
 file-write-failed = Klarte ikkje å skrive til fila { $output }
 no-pgp-block = Feil - Inga gyldig, armert OpenPGP-datablokk funnen
-confirm-permissive-import = Mislykka import. Nøkkelen du prøver å importere kan vere øydelagd eller bruke ukjende attributtar. Vil du prøve å importere dei rette delane? Dette kan føre til import av ufullstendige og ubrukelege nøklar.
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = Nokre av dei importerte hemmelege nøklane annonserer ein funksjon som ikkje blir støtta. Om du brukar ein slik nøkkel som den personlege nøkkelen din, kan det hende at korrespondentar sender deg e-postar eller offentlege nøklar i eit inkompatibelt format. Dette påverkar importerte hemmelege nøklar med følgjande fingeravtrykk: { $fingerprints }.
@@ -682,9 +677,6 @@ key-man-button-generate-key-continue = &Fortset nøkkelgenerering
 
 failed-decrypt = Feil - mislykka dekryptering
 fix-broken-exchange-msg-failed = Klarte ikkje å reparere meldinga.
-# Variables:
-# $attachment (String) - File name of the signature file.
-attachment-no-match-from-signature = Klarte ikkje å samsvare signaturfilen «{ $attachment }» til eit vedlegg
 # Variables:
 # Variables:
 # $attachment (String) - File name of the attachment.
@@ -795,8 +787,3 @@ enig-confirm = OpenPGP-stadfesting
 
 dlg-button-retry = &Prøv igjen
 dlg-button-skip = &Hopp over
-
-## Strings used in enigmailMsgBox.js
-
-enig-alert-title =
-    .title = OpenPGP-varsel

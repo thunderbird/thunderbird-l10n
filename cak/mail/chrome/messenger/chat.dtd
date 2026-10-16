@@ -23,8 +23,6 @@
 <!ENTITY closeConversationCmd.accesskey "t">
 <!ENTITY aliasCmd.label "Tisik'ïx chik">
 <!ENTITY aliasCmd.accesskey "c">
-<!ENTITY deleteCmd.label "Tiyuj Rub'i' Achib'il">
-<!ENTITY deleteCmd.accesskey "y">
 <!ENTITY openConversationButton.tooltip "Titikirisäx jun tzijonem">
 <!ENTITY closeConversationButton.tooltip "Titz'apïx tzijonem">
 <!ENTITY addBuddyButton.label "Titz'aqatisäx Rub'i' Achib'il">

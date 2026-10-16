@@ -21,9 +21,3 @@ archive-example-label = Näide
 archive-folder-name-label = Arhiiv
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name-label = Saabuvad
-# This should match the default name for the "Archives" folder.
-archive-folder-name =
-    .label = Arhiiv
-# This should match the default name for the "Inbox" folder.
-inbox-folder-name =
-    .label = Saabuvad

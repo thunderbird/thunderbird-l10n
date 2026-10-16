@@ -13,8 +13,6 @@
 <!ENTITY undoCmd.accesskey "l">
 <!ENTITY redoCmd.label "Athfheidhmigh">
 <!ENTITY redoCmd.accesskey "f">
-<!ENTITY deleteCmd.label "Scrios">
-<!ENTITY deleteCmd.accesskey "S">
 <!ENTITY viewMenu.label "Amharc">
 <!ENTITY viewMenu.accesskey "A">
 <!ENTITY viewToolbarsMenu.label "Barraí Uirlisí">

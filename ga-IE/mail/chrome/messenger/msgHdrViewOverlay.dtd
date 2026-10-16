@@ -33,8 +33,6 @@
 <!ENTITY hdrFollowupButton1.tooltip "Seol leanúint chuig an ngrúpa nuachta seo">
 <!ENTITY hdrForwardButton1.label "Ar Aghaidh">
 <!ENTITY hdrForwardButton1.tooltip "Cuir an teachtaireacht seo ar aghaidh">
-<!ENTITY hdrJunkButton1.label "Dramhphost">
-<!ENTITY hdrJunkButton1.tooltip "Marcáil an teachtaireacht seo mar dhramhphost">
 <!ENTITY hdrTrashButton1.label "Scrios">
 <!ENTITY hdrTrashButton1.tooltip "Scrios an teachtaireacht seo">
 <!ENTITY hdrViewToolbarShowFull.label "Taispeáin Deilbhíní agus Téacs">

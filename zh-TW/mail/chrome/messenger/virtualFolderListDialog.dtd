@@ -3,5 +3,3 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY virtualFolderListTitle.title "選擇信件匣">
 <!ENTITY virtualFolderDesc.label "選取要搜尋的信件匣：">
-<!ENTITY folderName.label "信件匣名稱">
-<!ENTITY folderSearch.label "搜尋">

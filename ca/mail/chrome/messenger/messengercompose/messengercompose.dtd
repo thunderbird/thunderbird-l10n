@@ -216,7 +216,6 @@
 <!ENTITY smiley7Cmd.label "Indecís">
 <!ENTITY smiley8Cmd.label "Sorpresa">
 <!ENTITY smiley9Cmd.label "Petó">
-<!ENTITY smiley10Cmd.label "Crit">
 <!ENTITY smiley11Cmd.label "Guai">
 <!ENTITY smiley12Cmd.label "Boca de diners">
 <!ENTITY smiley13Cmd.label "Peu a la boca">
@@ -265,12 +264,6 @@
 <!ENTITY convertRegularAttachment.accesskey "A">
 <!ENTITY attachPage.label "Adjunta una pàgina web…">
 <!ENTITY attachPage.accesskey "w">
-<!-- Attachment Pane Header Bar Context Menu
-     LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
-     Should use the same wording as startExpandedCmd.label
-     in msgHdrViewOverlay.dtd. -->
-<!ENTITY initiallyShowAttachmentPane.label "Inicialment mostra la subfinestra d'adjuncions">
-<!ENTITY initiallyShowAttachmentPane.accesskey "m">
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Afegeix diccionaris…">
 <!ENTITY spellAddDictionaries.accesskey "A">

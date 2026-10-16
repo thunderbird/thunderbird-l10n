@@ -18,5 +18,3 @@
 <!ENTITY selectButton.label "선택…">
 <!ENTITY selectButton.accesskey "E">
 <!ENTITY MsgSelectDesc.label "오프라인 상태에서 사용할 메일함과 뉴스 그룹">
-<!ENTITY MsgSelectInd.label "받기">
-<!ENTITY MsgSelectItems.label "폴더와 뉴스 그룹">

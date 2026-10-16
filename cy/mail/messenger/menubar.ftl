@@ -88,12 +88,6 @@ quit-app-shortcut =
 
 ## Mail Toolbar
 
-toolbar-junk-button =
-    .label = Sbam
-    .tooltiptext = Marcio'r negeseuon hyn fel sbam
-toolbar-not-junk-button =
-    .label = Nid Sbam
-    .tooltiptext = Marcio'r negeseuon hyn fel nid sbam
 toolbar-delete-button =
     .label = Dileu
     .tooltiptext = Dileu'r negeseuon neu ffolderi hyn

@@ -13,8 +13,6 @@
 <!ENTITY undoCmd.accesskey "u">
 <!ENTITY redoCmd.label "ਪਰਤਾਓ">
 <!ENTITY redoCmd.accesskey "r">
-<!ENTITY deleteCmd.label "ਹਟਾਓ">
-<!ENTITY deleteCmd.accesskey "d">
 <!ENTITY viewMenu.label "ਵੇਖੋ">
 <!ENTITY viewMenu.accesskey "v">
 <!ENTITY viewToolbarsMenu.label "ਟੂਲਬਾਰ">

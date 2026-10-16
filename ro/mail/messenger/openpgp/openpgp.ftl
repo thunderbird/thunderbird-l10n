@@ -433,7 +433,6 @@ key-verification = Verifică amprenta cheii folosind un canal de comunicare secu
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Mesajul nu poate fi trimis pentru că a apărut o problemă la cheia ta personală. { $problem }
-window-locked = Fereastra de redactare a mesajelor este blocată; trimitere anulată
 
 ## Strings in keyserver.sys.mjs
 
@@ -467,9 +466,6 @@ converter-decrypt-body-failed =
 ## Strings filters.sys.mjs
 
 filter-folder-required = Trebuie să selectezi un dosar-țintă.
-filter-decrypt-move-warn-experimental =
-    Avertisment - Acțiunea de filtrare „Decriptează permanent” poate conduce la distrugerea mesajelor.
-    Îți recomandăm să încerci mai întâi filtrul „Creează copie decriptată”. Încearcă rezultatele cu grijă și apoi începe să folosești acest filtru după ce decizi că rezultatele sunt satisfăcătoare.
 filter-term-pgpencrypted-label = Criptat cu OpenPGP
 filter-key-required = Trebuie să selectezi cheia destinatarului.
 # Variables:
@@ -632,7 +628,6 @@ fail-key-import = Eroare - Importul cheii a eșuat
 # $output (String) - File that writing was attempted to.
 file-write-failed = Nu s-a reușit scrierea în fișierul { $output }
 no-pgp-block = Eroare - Nu s-a găsit niciun bloc valid de date blindate OpenPGP
-confirm-permissive-import = Importul a eșuat. Cheia pe care încerci să o imporți poate fi coruptă sau folosește atribute necunoscute. Vrei să încerci să imporți părțile corecte? Poate conduce la importarea de chei incomplete și neutilizabile.
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = Unele dintre cheile secrete importate promovează o funcționalitate neacceptată. Dacă folosești o astfel de cheie drept cheie personală, corespondenții îți pot trimite mesaje pe e-mail sau chei publice într-un format incompatibil. Acest lucru afectează cheile secrete importate cu următoarele amprente digitale: { $fingerprints }.
@@ -691,9 +686,6 @@ key-man-button-generate-key-continue = &Continuă generarea cheilor
 
 failed-decrypt = Eroare - decriptarea a eșuat
 fix-broken-exchange-msg-failed = Repararea mesajului nu a reușit.
-# Variables:
-# $attachment (String) - File name of the signature file.
-attachment-no-match-from-signature = Fișierul de semnătură „{ $attachment }” nu a putut fi corelat la un atașament
 # Variables:
 # Variables:
 # $attachment (String) - File name of the attachment.
@@ -804,8 +796,3 @@ enig-confirm = Confirmare OpenPGP
 
 dlg-button-retry = &Reîncearcă
 dlg-button-skip = &Sari peste
-
-## Strings used in enigmailMsgBox.js
-
-enig-alert-title =
-    .title = Alertă OpenPGP

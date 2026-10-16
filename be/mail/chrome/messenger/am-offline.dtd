@@ -14,20 +14,6 @@
 <!ENTITY autosyncNotDownload.accesskey "Н">
 <!ENTITY kb.label "КБ">
 <!ENTITY daysOld.label "дзён">
-<!ENTITY message.label "паведамленняў">
-<!ENTITY retentionCleanup.label "Каб вызваліць месца на дыску, старыя паведамленні можна выдаліць цалкам.">
-<!ENTITY retentionCleanupImap.label "Каб вызваліць месца на дыску, старыя паведамленні можна выдаліць цалкам, уключаючы як лакальныя копіі, так і арыгіналы на аддаленым серверы.">
-<!ENTITY retentionCleanupPop.label "Каб вызваліць месца на дыску, старыя паведамленні можна выдаліць цалкам, уключаючы арыгіналы на аддаленым серверы.">
-<!ENTITY retentionKeepMsg.label "Выдаляць паведамленні старэй за">
-<!ENTITY retentionKeepMsg.accesskey "В">
-<!ENTITY retentionKeepAll.label "Не выдаляць ніякіх паведамленняў">
-<!ENTITY retentionKeepAll.accesskey "е">
-<!ENTITY retentionKeepRecent.label "Выдаляць усе, акрамя нядаўніх">
-<!ENTITY retentionKeepRecent.accesskey "ы">
-<!ENTITY retentionApplyToFlagged.label "Не выдаляць пазначаныя паведамленні">
-<!ENTITY retentionApplyToFlagged.accesskey "д">
-<!ENTITY nntpRemoveMsgBody.label "Выдаляць целы паведамленняў, якім больш за">
-<!ENTITY nntpRemoveMsgBody.accesskey "а">
 <!ENTITY offlineSelectNntp.label "Выбраць групы навін, якія будуць даступны па-за сеткаю…">
 <!ENTITY offlineSelectNntp.accesskey "б">
 <!ENTITY offlineImapAdvancedOffline.label "Пашыраныя налады…">

@@ -216,7 +216,6 @@
 <!ENTITY smiley7Cmd.label "Bizonytalan">
 <!ENTITY smiley8Cmd.label "Meglepett">
 <!ENTITY smiley9Cmd.label "Csókos">
-<!ENTITY smiley10Cmd.label "Üvöltő">
 <!ENTITY smiley11Cmd.label "Laza">
 <!ENTITY smiley12Cmd.label "Pénzpofa">
 <!ENTITY smiley13Cmd.label "Szájbarúgott">
@@ -266,12 +265,6 @@
 <!ENTITY convertRegularAttachment.accesskey "N">
 <!ENTITY attachPage.label "Weboldal csatolása…">
 <!ENTITY attachPage.accesskey "W">
-<!-- Attachment Pane Header Bar Context Menu
-     LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
-     Should use the same wording as startExpandedCmd.label
-     in msgHdrViewOverlay.dtd. -->
-<!ENTITY initiallyShowAttachmentPane.label "Melléklet ablaktábla megjelenítése induláskor">
-<!ENTITY initiallyShowAttachmentPane.accesskey "M">
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Szótárak hozzáadása…">
 <!ENTITY spellAddDictionaries.accesskey "S">

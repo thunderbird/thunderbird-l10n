@@ -23,8 +23,6 @@
 <!ENTITY closeConversationCmd.accesskey "а">
 <!ENTITY aliasCmd.label "Переименовать">
 <!ENTITY aliasCmd.accesskey "м">
-<!ENTITY deleteCmd.label "Удалить">
-<!ENTITY deleteCmd.accesskey "д">
 <!ENTITY openConversationButton.tooltip "Начать разговор">
 <!ENTITY closeConversationButton.tooltip "Закрыть разговор">
 <!ENTITY addBuddyButton.label "Добавить собеседника">

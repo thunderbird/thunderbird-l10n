@@ -180,8 +180,6 @@
 <!ENTITY event.calendar.accesskey "K">
 <!ENTITY event.attendees.label "Udeleženci:">
 <!ENTITY event.attendees.accesskey "U">
-<!ENTITY event.alldayevent.label "Celodnevni dogodek">
-<!ENTITY event.alldayevent.accesskey "C">
 <!ENTITY event.from.label "Začetek:">
 <!ENTITY event.from.accesskey "Z">
 <!ENTITY task.from.label "Začetek:">
@@ -262,13 +260,6 @@
 <!ENTITY event.recurrence.monthly.fourth.label "četrti">
 <!ENTITY event.recurrence.monthly.fifth.label "peti">
 <!ENTITY event.recurrence.monthly.last.label "zadnji">
-<!ENTITY event.recurrence.pattern.monthly.week.1.label "nedelja">
-<!ENTITY event.recurrence.pattern.monthly.week.2.label "ponedeljek">
-<!ENTITY event.recurrence.pattern.monthly.week.3.label "torek">
-<!ENTITY event.recurrence.pattern.monthly.week.4.label "sreda">
-<!ENTITY event.recurrence.pattern.monthly.week.5.label "četrtek">
-<!ENTITY event.recurrence.pattern.monthly.week.6.label "petek">
-<!ENTITY event.recurrence.pattern.monthly.week.7.label "sobota">
 <!ENTITY event.recurrence.repeat.dayofmonth.label "dan v mesecu">
 <!ENTITY event.recurrence.repeat.recur.label "Ponovi na dni">
 <!ENTITY event.recurrence.every.label "vsakih:">
@@ -281,18 +272,6 @@
      event.recurrence.pattern.yearly.of.label is "of" in
      Edit recurrence window -> Recurrence pattern -> Repeat yearly -->
 <!ENTITY event.recurrence.pattern.yearly.of.label ".">
-<!ENTITY event.recurrence.pattern.yearly.month.1.label "januar">
-<!ENTITY event.recurrence.pattern.yearly.month.2.label "februar">
-<!ENTITY event.recurrence.pattern.yearly.month.3.label "marec">
-<!ENTITY event.recurrence.pattern.yearly.month.4.label "april">
-<!ENTITY event.recurrence.pattern.yearly.month.5.label "maj">
-<!ENTITY event.recurrence.pattern.yearly.month.6.label "junij">
-<!ENTITY event.recurrence.pattern.yearly.month.7.label "julij">
-<!ENTITY event.recurrence.pattern.yearly.month.8.label "avgust">
-<!ENTITY event.recurrence.pattern.yearly.month.9.label "september">
-<!ENTITY event.recurrence.pattern.yearly.month.10.label "oktober">
-<!ENTITY event.recurrence.pattern.yearly.month.11.label "november">
-<!ENTITY event.recurrence.pattern.yearly.month.12.label "december">
 <!ENTITY event.recurrence.yearly.every.label "Vsak">
 <!ENTITY event.recurrence.yearly.first.label "Prvi">
 <!ENTITY event.recurrence.yearly.second.label "Drugi">
@@ -300,27 +279,8 @@
 <!ENTITY event.recurrence.yearly.fourth.label "Četrti">
 <!ENTITY event.recurrence.yearly.fifth.label "Peti">
 <!ENTITY event.recurrence.yearly.last.label "Zadnji">
-<!ENTITY event.recurrence.pattern.yearly.week.1.label "nedelja">
-<!ENTITY event.recurrence.pattern.yearly.week.2.label "ponedeljek">
-<!ENTITY event.recurrence.pattern.yearly.week.3.label "torek">
-<!ENTITY event.recurrence.pattern.yearly.week.4.label "sreda">
-<!ENTITY event.recurrence.pattern.yearly.week.5.label "četrtek">
-<!ENTITY event.recurrence.pattern.yearly.week.6.label "petek">
-<!ENTITY event.recurrence.pattern.yearly.week.7.label "sobota">
 <!ENTITY event.recurrence.pattern.yearly.day.label "dan">
 <!ENTITY event.recurrence.of.label "v">
-<!ENTITY event.recurrence.pattern.yearly.month2.1.label "januarju">
-<!ENTITY event.recurrence.pattern.yearly.month2.2.label "februarju">
-<!ENTITY event.recurrence.pattern.yearly.month2.3.label "marcu">
-<!ENTITY event.recurrence.pattern.yearly.month2.4.label "aprilu">
-<!ENTITY event.recurrence.pattern.yearly.month2.5.label "maju">
-<!ENTITY event.recurrence.pattern.yearly.month2.6.label "juniju">
-<!ENTITY event.recurrence.pattern.yearly.month2.7.label "juliju">
-<!ENTITY event.recurrence.pattern.yearly.month2.8.label "avgustu">
-<!ENTITY event.recurrence.pattern.yearly.month2.9.label "septembru">
-<!ENTITY event.recurrence.pattern.yearly.month2.10.label "oktobru">
-<!ENTITY event.recurrence.pattern.yearly.month2.11.label "novembru">
-<!ENTITY event.recurrence.pattern.yearly.month2.12.label "decembru">
 <!ENTITY event.recurrence.range.label "Obseg ponavljanja">
 <!ENTITY event.recurrence.forever.label "Brez končnega datuma">
 <!ENTITY event.recurrence.repeat.for.label "Ustvari">

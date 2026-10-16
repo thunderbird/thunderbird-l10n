@@ -21,9 +21,3 @@ archive-example-label = Exemplu
 archive-folder-name-label = Archivos
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name-label = Bandexa d'entrada
-# This should match the default name for the "Archives" folder.
-archive-folder-name =
-    .label = Archivos
-# This should match the default name for the "Inbox" folder.
-inbox-folder-name =
-    .label = Bandexa d'entrada

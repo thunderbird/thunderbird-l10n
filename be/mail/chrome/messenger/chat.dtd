@@ -23,8 +23,6 @@
 <!ENTITY closeConversationCmd.accesskey "к">
 <!ENTITY aliasCmd.label "Перайменаваць">
 <!ENTITY aliasCmd.accesskey "П">
-<!ENTITY deleteCmd.label "Выдаліць сувязь">
-<!ENTITY deleteCmd.accesskey "д">
 <!ENTITY openConversationButton.tooltip "Пачаць гутарку">
 <!ENTITY closeConversationButton.tooltip "Закрыць гутарку">
 <!ENTITY addBuddyButton.label "Дадаць сувязь">

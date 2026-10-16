@@ -30,11 +30,6 @@ appmenu-sync-sign-out =
 
 ## Add Account
 
-appmenu-new-account-panel-title =
-    .title = Tài khoản mới
-appmenu-new-account-panel =
-    .label = Tài khoản mới
-    .accesskey = N
 appmenu-new-email-account =
     .label = Email
     .accesskey = E
@@ -58,11 +53,6 @@ appmenu-add-account-panel =
 
 ## New Account / Address Book
 
-appmenu-newab-panel-title =
-    .title = Sổ địa chỉ mới
-appmenu-newab-panel =
-    .label = Sổ địa chỉ mới
-    .accesskey = a
 appmenu-new-addressbook =
     .label = Sổ địa chỉ nội bộ
     .accesskey = a

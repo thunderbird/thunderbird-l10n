@@ -32,8 +32,6 @@
 <!ENTITY hdrFollowupButton1.tooltip "Ushbu yangiliklar to‘plamiga kuzatib borish uchun xabar yozish">
 <!ENTITY hdrForwardButton1.label "Yo‘naltirish">
 <!ENTITY hdrForwardButton1.tooltip "Ushbu xabarni yo‘naltirish">
-<!ENTITY hdrJunkButton1.label "Spam">
-<!ENTITY hdrJunkButton1.tooltip "Ushbu xabarni spam sifatida belgilash">
 <!ENTITY hdrTrashButton1.label "O‘chirish">
 <!ENTITY hdrTrashButton1.tooltip "Ushbu xabarni o‘chirish">
 <!ENTITY hdrViewToolbarShowFull.label "Nishonchalar va matnni ko‘rsatish">

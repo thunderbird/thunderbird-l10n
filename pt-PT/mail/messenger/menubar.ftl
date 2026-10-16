@@ -88,12 +88,6 @@ quit-app-shortcut =
 
 ## Mail Toolbar
 
-toolbar-junk-button =
-    .label = Spam
-    .tooltiptext = Marcas as mensagens selecionadas como spam
-toolbar-not-junk-button =
-    .label = Não é lixo eletrónico
-    .tooltiptext = Marcar as mensagens como não sendo lixo eletrónico
 toolbar-delete-button =
     .label = Eliminar
     .tooltiptext = Eliminar as mensagens ou pastas selecionadas

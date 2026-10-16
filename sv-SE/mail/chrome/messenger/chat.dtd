@@ -23,8 +23,6 @@
 <!ENTITY closeConversationCmd.accesskey "A">
 <!ENTITY aliasCmd.label "Byt namn">
 <!ENTITY aliasCmd.accesskey "B">
-<!ENTITY deleteCmd.label "Ta bort kontakt">
-<!ENTITY deleteCmd.accesskey "T">
 <!ENTITY openConversationButton.tooltip "Starta en konversation">
 <!ENTITY closeConversationButton.tooltip "Avsluta konversation">
 <!ENTITY addBuddyButton.label "Lägg till kontakt">

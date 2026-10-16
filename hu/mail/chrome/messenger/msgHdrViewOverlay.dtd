@@ -33,8 +33,6 @@
 <!ENTITY hdrFollowupButton1.tooltip "Válasz küldése ebbe a hírcsoportba">
 <!ENTITY hdrForwardButton1.label "Továbbítás">
 <!ENTITY hdrForwardButton1.tooltip "Az üzenet továbbküldése">
-<!ENTITY hdrJunkButton1.label "Szemét">
-<!ENTITY hdrJunkButton1.tooltip "Az üzenet megjelölése szemétként">
 <!ENTITY hdrTrashButton1.label "Törlés">
 <!ENTITY hdrTrashButton1.tooltip "Az üzenet törlése">
 <!ENTITY hdrViewToolbarShowFull.label "Ikonok és szöveg">

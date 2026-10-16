@@ -10,22 +10,6 @@
 <!ENTITY folderRebuildSummaryFile.explanation "Понякога файлът с индекси на папките (.msf) се поврежда и това предизвиква видимо изчезнали писма или изтрити писма да продължават да съществуват. Поправката на папката би изправила подобни проблеми.">
 <!ENTITY folderIncludeInGlobalSearch.label "Включване писмата от тази папка в резултатите от общото търсене">
 <!ENTITY folderIncludeInGlobalSearch.accesskey "о">
-<!ENTITY retention.label "Правила за запазване">
-<!ENTITY retentionUseAccount.label "Използване настройките на регистрацията">
-<!ENTITY retentionUseAccount.accesskey "И">
-<!ENTITY daysOld.label "дни">
-<!ENTITY message.label "писма">
-<!ENTITY retentionCleanup.label "За освобождаване на дисково пространство, старите писма може да бъдат изтривани необратимо.">
-<!ENTITY retentionCleanupImap.label "За освобождаване на дисково пространство, старите писма може да бъдат изтривани необратимо, както местните копия, така и оригиналите на отдалечения сървър.">
-<!ENTITY retentionCleanupPop.label "За освобождаване на дисково пространство, старите писма може да бъдат изтривани необратимо, включително оригиналите на отдалечения сървър.">
-<!ENTITY retentionDeleteMsg.label "Изтриване на писма на повече от">
-<!ENTITY retentionDeleteMsg.accesskey "п">
-<!ENTITY retentionKeepAll.label "Никакви писма да не бъдат изтривани">
-<!ENTITY retentionKeepAll.accesskey "Н">
-<!ENTITY retentionKeepRecent.label "Изтриване на всички без най-новите">
-<!ENTITY retentionKeepRecent.accesskey "з">
-<!ENTITY retentionApplyToFlagged.label "Писмата със звезда винаги се запазват">
-<!ENTITY retentionApplyToFlagged.accesskey "е">
 <!ENTITY folderSynchronizationTab.label "Синхронизация">
 <!ENTITY folderCheckForNewMessages2.label "При получаване на нови съобщения в профила винаги да се проверява и тази папка">
 <!ENTITY folderCheckForNewMessages2.accesskey "г">

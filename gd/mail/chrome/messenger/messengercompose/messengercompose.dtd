@@ -216,7 +216,6 @@
 <!ENTITY smiley7Cmd.label "Dà bharail">
 <!ENTITY smiley8Cmd.label "Iongnadh">
 <!ENTITY smiley9Cmd.label "Pòg">
-<!ENTITY smiley10Cmd.label "Èigh">
 <!ENTITY smiley11Cmd.label "Sgoinneil">
 <!ENTITY smiley12Cmd.label "Beul-airgid">
 <!ENTITY smiley13Cmd.label "Cas sa bheul">
@@ -265,12 +264,6 @@
 <!ENTITY convertRegularAttachment.accesskey "b">
 <!ENTITY attachPage.label "Cuir duilleag-lìn ris…">
 <!ENTITY attachPage.accesskey "C">
-<!-- Attachment Pane Header Bar Context Menu
-     LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
-     Should use the same wording as startExpandedCmd.label
-     in msgHdrViewOverlay.dtd. -->
-<!ENTITY initiallyShowAttachmentPane.label "Seall leòsan a’ cheanglachain an toiseach">
-<!ENTITY initiallyShowAttachmentPane.accesskey "S">
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Cuir faclairean ris…">
 <!ENTITY spellAddDictionaries.accesskey "a">

@@ -21,9 +21,3 @@ archive-example-label = Contoh
 archive-folder-name-label = Arkib
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name-label = Peti masuk
-# This should match the default name for the "Archives" folder.
-archive-folder-name =
-    .label = Arkib
-# This should match the default name for the "Inbox" folder.
-inbox-folder-name =
-    .label = Peti masuk

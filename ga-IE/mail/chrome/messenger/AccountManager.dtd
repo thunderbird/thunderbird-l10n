@@ -4,15 +4,3 @@
 
 <!-- extracted from AccountManager.xhtml -->
 <!ENTITY accountManagerTitle.label "Socruithe Cuntais">
-<!ENTITY accountActionsButton.label "Gníomhartha Cuntais">
-<!ENTITY accountActionsButton.accesskey "a">
-<!ENTITY addMailAccountButton.label "Cuir Cuntas Ríomhphoist Leis…">
-<!ENTITY addMailAccountButton.accesskey "a">
-<!ENTITY addIMAccountButton.label "Cuir Cuntas Comhrá Leis…">
-<!ENTITY addIMAccountButton.accesskey "C">
-<!ENTITY addFeedAccountButton.label "Cuir Cuntas Fotha Leis…">
-<!ENTITY addFeedAccountButton.accesskey "F">
-<!ENTITY setDefaultButton.label "Socraigh mar Réamhshocrú">
-<!ENTITY setDefaultButton.accesskey "R">
-<!ENTITY removeButton.label "Bain Cuntas">
-<!ENTITY removeButton.accesskey "B">

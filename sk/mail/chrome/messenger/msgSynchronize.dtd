@@ -18,5 +18,3 @@
 <!ENTITY selectButton.label "Vybrať…">
 <!ENTITY selectButton.accesskey "V">
 <!ENTITY MsgSelectDesc.label "Vyberte poštové priečinky a diskusné skupiny, ktoré chcete používať v režime offline.">
-<!ENTITY MsgSelectInd.label "Stiahnuť">
-<!ENTITY MsgSelectItems.label "Priečinky a diskusné skupiny">

@@ -17,7 +17,6 @@ webext-perms-description-compose = Uw e-mailberichten lezen en aanpassen terwijl
 webext-perms-description-compose-send = Namens u opgestelde e-mailberichten versturen
 webext-perms-description-compose-save = Samengestelde e-mailberichten opslaan als concepten of sjablonen
 webext-perms-description-experiment-access = Deze add-on heeft volledige, onbeperkte toegang tot { -brand-short-name } en uw computer.
-webext-perms-description-experiment = Volledige, onbeperkte toegang tot { -brand-short-name } en uw computer verkrijgen
 webext-perms-description-messagesImport = Berichten in Thunderbird importeren
 webext-perms-description-messagesModify = Uw e-mailberichten zoals ze aan u worden getoond lezen en bewerken
 webext-perms-description-messagesModifyPermanent = De bron van uw berichten permanent wijzigen (inclusief kopteksten, tekst en bijlagen)

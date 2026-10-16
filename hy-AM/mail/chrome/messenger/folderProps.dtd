@@ -10,22 +10,6 @@
 <!ENTITY folderRebuildSummaryFile.explanation "Երբեմն թղթապանակի ինդեքսի ֆայլը (.msf) վնասվում է և նամակները կարող են երևալ բացակայող կամ ջնջված, թղթապանակի ուղղումը կարող է ուղղել այս սխալը։">
 <!ENTITY folderIncludeInGlobalSearch.label "Ներառել նամակները Գլոբալ փնտրման արդյունքում">
 <!ENTITY folderIncludeInGlobalSearch.accesskey "G">
-<!ENTITY retention.label "Անդամակցության Քաղաքականությունը">
-<!ENTITY retentionUseAccount.label "Օգտ. իմ փոստարկղի կարգավորումները">
-<!ENTITY retentionUseAccount.accesskey "U">
-<!ENTITY daysOld.label "օրվա է">
-<!ENTITY message.label "նամակներ">
-<!ENTITY retentionCleanup.label "Ազատ տեղ բացելու համար՝ ջնջեք հին նամակները։">
-<!ENTITY retentionCleanupImap.label "Ազատ տեղ բացելու համար ջնջեք հին նամակները՝ և՛ տեղային պատճեները և՛ բնօրինակները հեռակա սպասարկիչում։">
-<!ENTITY retentionCleanupPop.label "Ազատ տեղ բացելու համար ջնջեք հին նամակները՝ նաև բնօրինակները հեռակա սպասարկիչում։">
-<!ENTITY retentionDeleteMsg.label "Ջնջել նամակները, որոնք՝">
-<!ENTITY retentionDeleteMsg.accesskey "m">
-<!ENTITY retentionKeepAll.label "Չջնջել որևէ նամակ">
-<!ENTITY retentionKeepAll.accesskey "a">
-<!ENTITY retentionKeepRecent.label "Ջնջել բոլոր վերջինները">
-<!ENTITY retentionKeepRecent.accesskey "l">
-<!ENTITY retentionApplyToFlagged.label "Միշտ պահել աստղով նամակները">
-<!ENTITY retentionApplyToFlagged.accesskey "e">
 <!ENTITY folderSynchronizationTab.label "Համաժամեցում">
 <!ENTITY folderCheckForNewMessages2.label "Այս փոստարկղի նոր նամակները ստանալիս միշտ ստուգել այս թղթապանակը">
 <!ENTITY folderCheckForNewMessages2.accesskey "c">

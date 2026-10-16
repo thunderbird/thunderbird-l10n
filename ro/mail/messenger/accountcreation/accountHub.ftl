@@ -56,14 +56,7 @@ account-hub-email-connect-button = Conectare
 account-hub-result-incoming-legend = Primire
 account-hub-result-outgoing-legend = Expediere
 account-hub-all-servers-legend = Toate serverele
-account-hub-incoming-server-legend = Server de primire
-account-hub-outgoing-server-legend = Server de trimitere a mesajelor
-account-hub-result-incoming-server-legend = Server de primire a mesajelor
-    .title = Server de primire
-account-hub-result-outgoing-server-legend = Server de trimitere a mesajelor
-    .title = Server de trimitere
 account-hub-protocol-label = Protocol
-account-hub-hostname-label = Nume gazdă
 account-hub-result-hostname-label = Numele gazdei
     .title = Nume gazdă
 account-hub-result-socket-type-label = Securitatea conexiunii
@@ -94,10 +87,6 @@ account-hub-result-auth-ntlm = NTLM
 account-hub-result-auth-external = Extern
 account-hub-result-auth-oauth2 = OAuth2
 account-hub-on-port-label = Port
-account-hub-result-authentication-label = Autentificare
-    .title = Autentificare
-account-hub-port-label = Port
-    .title = Setează numărul portului la 0 pentru autodetecție
 account-hub-auto-description = { -brand-short-name } va încerca să detecteze automat câmpurile lăsate necompletate.
 account-hub-ssl-label = Securitatea conexiunii
 
@@ -105,8 +94,6 @@ account-hub-ssl-label = Securitatea conexiunii
 
 account-hub-ssl-autodetect-option =
     .label = Detecție automată
-account-hub-ssl-no-authentication-option =
-    .label = Fără autentificare
 account-hub-ssl-cleartext-password-option =
     .label = Parolă normală
 account-hub-ssl-encrypted-password-option =
@@ -268,7 +255,6 @@ account-hub-email-exchange-settings = Setări Exchange
 account-hub-email-connect-settings = Conectează-ți setările de e-mail
 account-hub-email-protocol-select-header = Alege tipul contului de e-mail
 account-hub-email-protocol-select-additional-info = Sunt necesare informații suplimentare pentru configurarea acestui cont.
-account-hub-email-config-found = Alege tipul contului de e-mail
 account-hub-email-enter-password = Introdu parola contului de e-mail
 account-hub-email-sync-accounts = Sincronizează-ți calendarele și agendele
 account-hub-test-configuration = Test
@@ -295,7 +281,6 @@ account-hub-config-success-description-guess = Configurație găsită prin înce
 account-hub-config-success-description-disk = Configurația a fost găsită în instalarea { -brand-short-name }.
 account-hub-config-success-description-isp = Configurație găsită la furnizorul de e-mail.
 account-hub-config-success-description-read-more = Poți <a data-l10n-name="automated-setup-link">citi despre cum funcționează configurarea automată a e-mailului.</a>
-account-hub-config-success = Configurație găsită în baza de date Mozilla ISP
 account-hub-password-info = Datele tale de autentificare vor fi stocate doar local pe calculator
 account-hub-creating-account = Se creează contul…
 account-hub-sync-accounts-found = { -brand-short-name } a găsit câteva servicii conectate
@@ -326,10 +311,8 @@ account-hub-username-error-text = Necesită nume de utilizator
 account-hub-manual-config-error-summary = Te rugăm să remediezi următoarele erori:
 account-hub-oauth-pending = Se așteaptă autorizarea în fereastra pop-up de autentificare…
 account-hub-addon-install-button = Instalează
-account-hub-addon-install-needed = { -brand-short-name } nu oferă suport nativ pentru acest server. Pentru acces la e-mailul Exchange, <a data-l10n-name="addon-install"> instalează un supliment de la terți, cum ar fi Owl (cu plată).</a>
 account-hub-addon-error = Instalarea suplimentului a eșuat. Te rugăm să încerci din nou sau să contactezi autorul suplimentului pentru asistență.
 account-hub-select-security-warning = <span data-l10n-name="error-text">Avertisment: S-a detectat un server de e-mail nesigur.</span> Nu este criptat, deci îți va expune parola și datele. Contactează administratorul pentru securizarea conexiunii sau continuă pe riscul tău. <a data-l10n-name="error-link">Vezi întrebările frecvente pentru mai multe informații</a>.
-account-hub-security-warning = <span data-l10n-name="security-warning">Avertisment: S-a detectat un server de e-mail nesigur.</span> Nu este criptat, deci îți va expune parola și datele. Contactează administratorul pentru securizarea conexiunii sau continuă pe riscul tău. <a data-l10n-name="faq-link">Vezi întrebările frecvente pentru mai multe informații</a>.
 account-hub-account-authentication-error = Eroare la autentificare.
 account-hub-add-address-book = Adaugă o agendă de contacte
 address-book-sync-existing-icon =
@@ -360,7 +343,6 @@ account-hub-address-book-sync-books-data =
         [few] { $addressBooks } agende de contacte disponibile
        *[other] { $addressBooks } de agende de contacte disponibile
     }
-account-hub-fetching-sync-accounts = Se descoperă agende și calendare…
 address-book-sync-existing-description = Se preiau conturile existente…
 account-hub-select-address-book-account = Selectează un cont cu agende de contacte
 # $synced (Number) - The number of address books that are synced.

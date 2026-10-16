@@ -5,10 +5,6 @@
 open-preferences-sidebar-button2 = { -brand-short-name } 设置
 open-addons-sidebar-button = 扩展和主题
 account-tree-add-account-button = 添加账户
-account-action-add-newsgroup-account =
-    .label = 新建新闻组账户...
-    .accesskey = N
-account-tree-create-account-button = 添加账户
 account-tree-add-mail-account =
     .label = 邮箱账户…
     .accesskey = M

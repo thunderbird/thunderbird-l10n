@@ -415,7 +415,6 @@ key-verification = Egiaztatu gakoaren hartz-marka posta elektronikoa ez den komu
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Ezin da mezua bidali, zure gako pertsonalarekin arazo bat dagoelako. { $problem }
-window-locked = Mezu-prestatze leihoa blokeatua dago; bidalketa bertan behera utzi da
 
 ## Strings in keyserver.sys.mjs
 
@@ -449,9 +448,6 @@ converter-decrypt-body-failed =
 ## Strings filters.sys.mjs
 
 filter-folder-required = Helburu-karpeta bat hautatu behar duzu.
-filter-decrypt-move-warn-experimental =
-    Abisua - "Deszifratu betirako" iragazki ekintzak mezuak apurtzea ekar dezake.
-    Gure gomendio garrantzitsua da aurretik saiatu beharko zenukeela "sortu deszifratutako kopia" iragazkia, probatu emaitza kontu handiz eta iragazki hau bakarrik erabiltzen hasi behin emaitzarekin pozik zaudela.
 filter-term-pgpencrypted-label = OpenPGP zifratua
 filter-key-required = Hartzaile gakoa aukeratu behar duzu.
 # Variables:
@@ -616,7 +612,6 @@ fail-key-import = Errorea - Gako inportatzeak huts egin du
 # $output (String) - File that writing was attempted to.
 file-write-failed = Fitxategian idazteak huts egin du { $output }
 no-pgp-block = Errorea - Gaizki egituratutako OpenPGP datu blokea aurkitu da
-confirm-permissive-import = Inportazioak huts egin du. Inportatzea saiatzen ari zaren gakoa hondatua dagoela dirudi eta atributu ezezagunak darabil. Zuzenak diren zatiak inportatzen saiatzea nahi duzu? Honen emaitza gako ez osoa eta erabiltezina inportatzea izan daiteke.
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = Inportatutako gako sekretu batzuek onartzen ez duten funtzio bat iragartzen dute. Gako hori zure gako pertsonal gisa erabiltzen baduzu, mezu-idazleek mezu elektronikoak edo gako publikoak bidal diezazkizukete bateraezina den formatu batean. Honek hatz-marka hauek dituzten inportatutako gako sekretuei eragiten die:{ $fingerprints }.
@@ -675,9 +670,6 @@ key-man-button-generate-key-continue = &Jarraitu gako sorrera
 
 failed-decrypt = Errorea - deszifratzeak huts egin du
 fix-broken-exchange-msg-failed = Ez da lortu mezua konpontzea.
-# Variables:
-# $attachment (String) - File name of the signature file.
-attachment-no-match-from-signature = '{ $attachment }' sinadura fitxategia ez dator bat eranskin batekin
 # Variables:
 # Variables:
 # $attachment (String) - File name of the attachment.
@@ -783,8 +775,3 @@ enig-confirm = OpenPGP berrespena
 
 dlg-button-retry = Saiatu be&rriro
 dlg-button-skip = &Saltatu
-
-## Strings used in enigmailMsgBox.js
-
-enig-alert-title =
-    .title = OpenPGP alerta

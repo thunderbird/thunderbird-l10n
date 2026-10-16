@@ -23,8 +23,6 @@
 <!ENTITY closeConversationCmd.accesskey "c">
 <!ENTITY aliasCmd.label "Ganti nama">
 <!ENTITY aliasCmd.accesskey "G">
-<!ENTITY deleteCmd.label "Hapus kontak">
-<!ENTITY deleteCmd.accesskey "H">
 <!ENTITY openConversationButton.tooltip "Mulai percakapan">
 <!ENTITY closeConversationButton.tooltip "Tutup percakapan">
 <!ENTITY addBuddyButton.label "Tambahkan Kontak">

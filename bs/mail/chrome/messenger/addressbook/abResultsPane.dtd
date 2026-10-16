@@ -5,7 +5,6 @@
 <!ENTITY GeneratedName.label "Naziv">
 <!ENTITY PrimaryEmail.label "Email">
 <!ENTITY Company.label "Organizacija">
-<!ENTITY _PhoneticName.label "Fonetsko ime">
 <!ENTITY NickName.label "Nadimak">
 <!ENTITY SecondEmail.label "Dodatni email">
 <!ENTITY Department.label "Odjeljenje">

@@ -33,8 +33,6 @@
 <!ENTITY hdrFollowupButton1.tooltip "Lähetä vastaus tähän keskusteluryhmään">
 <!ENTITY hdrForwardButton1.label "Välitä">
 <!ENTITY hdrForwardButton1.tooltip "Välitä viesti">
-<!ENTITY hdrJunkButton1.label "Roskapostia">
-<!ENTITY hdrJunkButton1.tooltip "Merkitse viesti roskapostiksi">
 <!ENTITY hdrTrashButton1.label "Poista">
 <!ENTITY hdrTrashButton1.tooltip "Poista viesti">
 <!ENTITY hdrViewToolbarShowFull.label "Kuvakkeet ja teksti">

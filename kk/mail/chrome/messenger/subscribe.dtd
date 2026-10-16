@@ -3,10 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY subscribeDialog.title "Жазылу">
-<!ENTITY subscribeButton.label "Жазылу">
-<!ENTITY subscribeButton.accesskey "з">
-<!ENTITY unsubscribeButton.label "Жазылудан бас тарту">
-<!ENTITY unsubscribeButton.accesskey "б">
 <!ENTITY newGroupsTab.label "Жаңа топтар">
 <!ENTITY newGroupsTab.accesskey "Ж">
 <!ENTITY refreshButton.label "Жаңарту">

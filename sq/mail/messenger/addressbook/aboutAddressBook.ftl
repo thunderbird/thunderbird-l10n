@@ -6,8 +6,6 @@ about-addressbook-title = Libër Adresash
 
 ## Toolbar
 
-about-addressbook-toolbar-new-address-book =
-    .label = Libër i Ri Adresash
 about-addressbook-toolbar-add-address-book =
     .label = Shtoni Libër Vendor Adresash
 about-addressbook-toolbar-add-carddav-address-book =
@@ -16,8 +14,6 @@ about-addressbook-toolbar-add-ldap-address-book =
     .label = Shtoni Libër Adresash LDAP
 books-pane-create-contact-button = Kontakt i Ri
     .title = Krijoni një kontakt të ri
-books-pane-create-book-button =
-    .title = Krijoni libër të ri adresash
 books-pane-create-list-button =
     .title = Krijoni një listë të re postimesh
 books-pane-import-button = Importo

@@ -18,5 +18,3 @@
 <!ENTITY selectButton.label "Pilih…">
 <!ENTITY selectButton.accesskey "P">
 <!ENTITY MsgSelectDesc.label "Pilih folder mel dan kumpulan berita untuk penggunaan luar talian.">
-<!ENTITY MsgSelectInd.label "Muat turun">
-<!ENTITY MsgSelectItems.label "Folder dan Kumpulan berita">

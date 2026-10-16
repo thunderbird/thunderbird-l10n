@@ -16,7 +16,6 @@ webext-perms-description-addressBooks = aadressiraamatute ja kontaktide vaatamin
 webext-perms-description-compose = kirjade lugemine ja muutmine nende koostamise ja saatmise ajal
 webext-perms-description-compose-send = sinu nimel koostatud kirjade saatmine
 webext-perms-description-compose-save = koostatud kirjade mustandite või mallidena salvestamine
-webext-perms-description-experiment = täielik ja piiramatu ligipääs rakendusele { -brand-short-name } ja sinu arvutile
 webext-perms-description-messagesImport = kirjade import Thundebirdi
 webext-perms-description-messagesModify = kirjade lugemine ja muutmine sulle kuvamise ajal
 webext-perms-description-messagesModifyPermanent = kirjade lähtekoodi püsiv muutmine (k.a päised, kehatekst ja manused)

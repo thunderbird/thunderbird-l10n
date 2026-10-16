@@ -3,5 +3,3 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY virtualFolderListTitle.title "Välj mapp(ar)">
 <!ENTITY virtualFolderDesc.label "Välj mappar att söka i:">
-<!ENTITY folderName.label "Mappnamn">
-<!ENTITY folderSearch.label "Sök">

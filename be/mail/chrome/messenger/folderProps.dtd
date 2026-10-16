@@ -9,22 +9,6 @@
 <!ENTITY folderRebuildSummaryFile2.accesskey "В">
 <!ENTITY folderIncludeInGlobalSearch.label "Уключыць лісты з гэтай папкі ў вынікі ўсеагульнага пошуку">
 <!ENTITY folderIncludeInGlobalSearch.accesskey "ў">
-<!ENTITY retention.label "Палітыка ўтрымання">
-<!ENTITY retentionUseAccount.label "Выкарыстоўваць налады майго ўліковага запісу">
-<!ENTITY retentionUseAccount.accesskey "У">
-<!ENTITY daysOld.label "дзён">
-<!ENTITY message.label "апошніх лістоў">
-<!ENTITY retentionCleanup.label "Каб вызваліць месца на дыску, старыя лісты можна выдаліць назаўсёды.">
-<!ENTITY retentionCleanupImap.label "Каб вызваліць месца на дыску, старыя паведамленні можна выдаліць цалкам, уключаючы як лакальныя копіі, так і арыгіналы на аддаленым серверы.">
-<!ENTITY retentionCleanupPop.label "Каб вызваліць месца на дыску, старыя паведамленні можна выдаліць цалкам, уключаючы арыгіналы на аддаленым серверы.">
-<!ENTITY retentionDeleteMsg.label "Выдаліць лісты, якім больш за">
-<!ENTITY retentionDeleteMsg.accesskey "В">
-<!ENTITY retentionKeepAll.label "Не выдаляць ніякіх лістоў">
-<!ENTITY retentionKeepAll.accesskey "н">
-<!ENTITY retentionKeepRecent.label "Выдаліць усе, акрамя самых апошніх">
-<!ENTITY retentionKeepRecent.accesskey "у">
-<!ENTITY retentionApplyToFlagged.label "Заўсёды захоўваць лісты з зоркамі">
-<!ENTITY retentionApplyToFlagged.accesskey "ў">
 <!ENTITY folderSynchronizationTab.label "Сінхранізацыя">
 <!ENTITY folderCheckForNewMessages2.label "Заўсёды правяраць гэту папку пры атрыманні новых паведамленняў для гэтага ўліковага запісу">
 <!ENTITY folderCheckForNewMessages2.accesskey "п">

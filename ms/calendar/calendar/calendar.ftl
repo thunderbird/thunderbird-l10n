@@ -583,16 +583,6 @@ hide-calendar-name =
 show-only-calendar-name =
     .label = Papar Hanya { $name }
     .accesskey = H
-# $name calendar name
-show-calendar-label =
-    .label = Papar { $name }
-# $name calendar name
-hide-calendar-label =
-    .label = Sorok { $name }
-# uses the access key calendar.context.showonly.accesskey
-# $name calendar name
-show-only-calendar =
-    .label = Papar Hanya { $name }
 # LOCALIZATION NOTE (modify-conflict-*)
 # Used by the event dialog to resolve item modification conflicts.
 modify-conflict-prompt-title = Konflik Pengubahsuaian Item

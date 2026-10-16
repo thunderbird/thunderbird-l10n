@@ -30,11 +30,6 @@ appmenu-sync-sign-out =
 
 ## Add Account
 
-appmenu-new-account-panel-title =
-    .title = Cunntas ùr
-appmenu-new-account-panel =
-    .label = Cunntas ùr
-    .accesskey = n
 appmenu-new-calendar =
     .label = Mìosachan
     .accesskey = c
@@ -50,11 +45,6 @@ appmenu-new-newsgroup =
 
 ## New Account / Address Book
 
-appmenu-newab-panel-title =
-    .title = Leabhar-sheòlaidhean ùr
-appmenu-newab-panel =
-    .label = Leabhar-sheòlaidhean ùr
-    .accesskey = a
 appmenu-new-addressbook =
     .label = Leabhar-sheòlaidhean ionadail
     .accesskey = a

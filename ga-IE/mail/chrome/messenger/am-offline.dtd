@@ -11,24 +11,10 @@
 <!ENTITY autosyncNotDownload.accesskey "m">
 <!ENTITY kb.label "kB">
 <!ENTITY daysOld.label "lá d'aois">
-<!ENTITY message.label "teachtaireacht is déanaí">
 <!ENTITY nntpNotDownloadRead.label "Teachtaireachtaí léite">
 <!ENTITY nntpNotDownloadRead.accesskey "c">
 <!ENTITY nntpDownloadMsg.label "Teachtaireachtaí níos mó ná">
 <!ENTITY nntpDownloadMsg.accesskey "e">
-<!ENTITY retentionCleanup.label "Chun spás diosca a shaoradh, is féidir seanteachtaireachtaí a scriosadh go buan.">
-<!ENTITY retentionCleanupImap.label "Chun spás diosca a shaoradh, is féidir seanteachtaireachtaí a scriosadh go buan, cóipeanna logánta agus bunchóipeanna ar an gcianfhreastalaí araon.">
-<!ENTITY retentionCleanupPop.label "Chun spás diosca a shaoradh, is féidir seanteachtaireachtaí a scriosadh go buan, na bunchóipeanna ar an gcianfhreastalaí ina measc.">
-<!ENTITY retentionKeepMsg.label "Scrios teachtaireachtaí níos sine ná">
-<!ENTITY retentionKeepMsg.accesskey "t">
-<!ENTITY retentionKeepAll.label "Ná scrios teachtaireacht ar bith">
-<!ENTITY retentionKeepAll.accesskey "N">
-<!ENTITY retentionKeepRecent.label "Scrios gach ceann ach an ceann is déanaí">
-<!ENTITY retentionKeepRecent.accesskey "g">
-<!ENTITY retentionApplyToFlagged.label "Coimeád teachtaireachtaí marcáilte i gcónaí">
-<!ENTITY retentionApplyToFlagged.accesskey "C">
-<!ENTITY nntpRemoveMsgBody.label "Bain na coirp de theachtaireachtaí atá níos mó ná">
-<!ENTITY nntpRemoveMsgBody.accesskey "o">
 <!ENTITY offlineSelectNntp.label "Roghnaigh grúpaí nuachta le haghaidh úsáide as líne…">
 <!ENTITY offlineSelectNntp.accesskey "s">
 <!ENTITY offlineImapAdvancedOffline.label "Ardroghanna…">

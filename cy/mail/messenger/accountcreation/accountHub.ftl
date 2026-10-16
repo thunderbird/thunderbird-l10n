@@ -56,14 +56,7 @@ account-hub-email-connect-button = Cysylltu
 account-hub-result-incoming-legend = Derbyn
 account-hub-result-outgoing-legend = Anfon
 account-hub-all-servers-legend = Pob gweinydd
-account-hub-incoming-server-legend = Gweinydd derbyn
-account-hub-outgoing-server-legend = Gweinydd anfon
-account-hub-result-incoming-server-legend = Gweinydd derbyn
-    .title = Gweinydd derbyn
-account-hub-result-outgoing-server-legend = Gweinydd anfon
-    .title = Gweinydd anfon
 account-hub-protocol-label = Protocol
-account-hub-hostname-label = Enw Gwesteiwr
 account-hub-result-hostname-label = Enw Gwesteiwr
     .title = Enw Gwesteiwr
 account-hub-result-socket-type-label = Diogelwch cysylltiad
@@ -94,10 +87,6 @@ account-hub-result-auth-ntlm = NTLM
 account-hub-result-auth-external = Allanol
 account-hub-result-auth-oauth2 = OAuth2
 account-hub-on-port-label = Porth
-account-hub-result-authentication-label = Dilysu
-    .title = Dilysu
-account-hub-port-label = Porth
-    .title = Gosodwch rif y porth i 0 ar gyfer awtoganfod
 account-hub-auto-description = Bydd { -brand-short-name } yn ceisio awtoganfod meysydd sy'n cael eu gadael yn wag.
 account-hub-ssl-label = Diogelwch cysylltiad
 
@@ -105,8 +94,6 @@ account-hub-ssl-label = Diogelwch cysylltiad
 
 account-hub-ssl-autodetect-option =
     .label = Awtoganfod
-account-hub-ssl-no-authentication-option =
-    .label = Dim dilysu
 account-hub-ssl-cleartext-password-option =
     .label = Cyfrinair arferol
 account-hub-ssl-encrypted-password-option =
@@ -268,7 +255,6 @@ account-hub-email-exchange-settings = Gosodiadau Exchange
 account-hub-email-connect-settings = Cysylltwch eich gosodiadau e-bost
 account-hub-email-protocol-select-header = Dewiswch fath o gyfrif e-bost
 account-hub-email-protocol-select-additional-info = Mae angen gwybodaeth ychwanegol i osod y cyfrif hwn.
-account-hub-email-config-found = Dewiswch eich math o gyfrif e-bost
 account-hub-email-enter-password = Rhowch gyfrinair eich cyfrif e-bost
 account-hub-email-sync-accounts = Cydweddwch eich calendrau a llyfrau cyfeiriadau
 account-hub-test-configuration = Profi
@@ -295,7 +281,6 @@ account-hub-config-success-description-guess = Wedi canfod y ffurfweddiad drwy r
 account-hub-config-success-description-disk = Wedi canfod y ffurfweddiad yng ngosodiad { -brand-short-name }.
 account-hub-config-success-description-isp = Ffurfweddiad wedi'i ganfod yn y darparwr e-bost.
 account-hub-config-success-description-read-more = Gallwch <a data-l10n-name="automated-setup-link">ddarllen sut mae gosod e-byst awtomataidd yn gweithio.</a>
-account-hub-config-success = Canfuwyd y ffurfweddiad yn Mozilla ISPDB
 account-hub-password-info = Bydd eich manylion yn cael eu cadw'n lleol dim ond ar eich cyfrifiadur chi
 account-hub-creating-account = Wrthi'n creu cyfrif…
 account-hub-sync-accounts-found = Daeth { -brand-short-name } o hyd i rai gwasanaethau cysylltiedig
@@ -330,10 +315,8 @@ account-hub-username-error-text = Mae angen enw defnyddiwr
 account-hub-manual-config-error-summary = Mae angen datrys y gwallau canlynol:
 account-hub-oauth-pending = Aros am awdurdodiad mewn llamlen mewngofnodi…
 account-hub-addon-install-button = Gosod
-account-hub-addon-install-needed = Nid yw { -brand-short-name } yn cefnogi'r gweinydd hwn yn frodorol. I gael mynediad at e-bost Exchange, <a data-l10n-name="addon-install"> gosodwch ychwanegyn trydydd parti fel Owl (taledig).</a>
 account-hub-addon-error = Methodd gosod ychwanegyn. Ceisiwch eto neu cysylltwch ag awdur yr ychwanegyn am gymorth.
 account-hub-select-security-warning = <span data-l10n-name="error-text">Rhybudd: Wedi canfod gweinydd post anniogel.</span> Does gan y gweinydd hwn ddim amgryptio, gan ddatgelu eich cyfrinair a data. Cysylltwch â'ch gweinyddwr i sicrhau'r cysylltiad neu ewch ymlaen ar eich menter eich hun. <a data-l10n-name="error-link">Darllenwch y Cwestiynau Cyffredin am ragor.</a>
-account-hub-security-warning = <span data-l10n-name="security-warning">Rhybudd: Wedi canfod gweinydd post anniogel.</span> Mae gan y gweinydd hwn ddiffyg amgryptio, gan ddatgelu eich cyfrinair a data. Cysylltwch â'ch gweinyddwr i sicrhau'r cysylltiad neu ewch ymlaen ar eich menter eich hun. <a data-l10n-name="faq-link">Gweler Cwestiynau Cyffredin am ragor.</a>
 account-hub-account-authentication-error = Gwall dilysu.
 account-hub-add-address-book = Ychwanegu llyfr cyfeiriadau
 address-book-sync-existing-icon =
@@ -367,7 +350,6 @@ account-hub-address-book-sync-books-data =
         [many] { $addressBooks } llyfr cyfeiriadau ar gael
        *[other] { $addressBooks } llyfr cyfeiriadau ar gael
     }
-account-hub-fetching-sync-accounts = Wrthi'n darganfod llyfrau cyfeiriadau a chalendrau…
 address-book-sync-existing-description = Wrthi'n nôl y cyfrifon presennol…
 account-hub-select-address-book-account = Dewiswch gyfrif gyda llyfrau Cyfeiriadau
 # $synced (Number) - The number of address books that are synced.

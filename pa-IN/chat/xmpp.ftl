@@ -66,8 +66,3 @@ options-connection-security-opportunistic-tls = Use encryption if available
 options-connection-security-allow-unencrypted-auth = Allow sending the password unencrypted
 options-connect-server = Server
 options-connect-port = Port
-# LOCALIZATION NOTE (odnoklassniki-username-hint):
-#  This is displayed inside the accountUsernameInfoWithDescription
-#  string defined in imAccounts.properties when the user is
-#  configuring a Odnoklassniki account.
-odnoklassniki-username-hint = Profile ID

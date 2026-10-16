@@ -422,7 +422,6 @@ key-verification = Verifikasi sidik jari kunci menggunakan saluran komunikasi am
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Tidak dapat mengirim pesan, karena ada masalah dengan kunci pribadi Anda. { $problem }
-window-locked = Jendela tulis terkunci; pengiriman dibatalkan
 
 ## Strings in keyserver.sys.mjs
 
@@ -456,9 +455,6 @@ converter-decrypt-body-failed =
 ## Strings filters.sys.mjs
 
 filter-folder-required = Anda harus memilih folder target.
-filter-decrypt-move-warn-experimental =
-    Peringatan - tindakan filter "Dekripsi secara permanen" dapat menyebabkan pesan rusak.
-    Kami sangat menganjurkan agar Anda terlebih dahulu mencoba filter "Buat Salinan yang didekripsi", uji hasilnya dengan cermat, dan hanya mulai gunakan filter ini setelah Anda puas dengan hasilnya.
 filter-term-pgpencrypted-label = Dienkripsi OpenPGP
 filter-key-required = Anda harus memilih kunci penerima.
 # Variables:
@@ -621,7 +617,6 @@ fail-key-import = Kesalahan - impor kunci gagal
 # $output (String) - File that writing was attempted to.
 file-write-failed = Gagal menulis ke berkas  { $output }
 no-pgp-block = Kesalahan - Tidak ditemukan blok data OpenPGP terbungkus yang valid
-confirm-permissive-import = Impor gagal. Kunci yang Anda coba impor mungkin rusak atau menggunakan atribut yang tidak diketahui. Apakah Anda ingin mencoba mengimpor bagian yang benar? Ini mungkin mengakibatkan impor kunci yang tidak lengkap dan tidak dapat digunakan.
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = Beberapa kunci rahasia yang diimpor mengiklankan fitur yang tidak didukung. Jika Anda menggunakan kunci seperti kunci pribadi Anda, koresponden dapat mengirimi Anda surel atau kunci publik dalam format yang tidak kompatibel. Ini memengaruhi kunci rahasia yang diimpor dengan sidik jari berikut: { $fingerprints }.
@@ -680,9 +675,6 @@ key-man-button-generate-key-continue = Lanjutkan Pembuatan Kun&ci
 
 failed-decrypt = Kesalahan - dekripsi gagal
 fix-broken-exchange-msg-failed = Tidak berhasil memperbaiki pesan.
-# Variables:
-# $attachment (String) - File name of the signature file.
-attachment-no-match-from-signature = Tidak dapat mencocokkan file tanda tangan '{ $attachment }' dengan lampiran
 # Variables:
 # Variables:
 # $attachment (String) - File name of the attachment.
@@ -793,8 +785,3 @@ enig-confirm = Konfirmasi OpenPGP
 
 dlg-button-retry = &Coba Lagi
 dlg-button-skip = &Lewati
-
-## Strings used in enigmailMsgBox.js
-
-enig-alert-title =
-    .title = Lansiran OpenPGP

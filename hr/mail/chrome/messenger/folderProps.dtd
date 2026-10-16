@@ -10,22 +10,6 @@
 <!ENTITY folderRebuildSummaryFile.explanation "Ponekad se (.msf) datoteka koja je indeks mape ošteti i poruke izgledaju nedostupne ili se izbrisane poruke i dalje pojavljuju; popravak mape može riješiti ove probleme.">
 <!ENTITY folderIncludeInGlobalSearch.label "Uvrsti poruke iz ove mape u globalne rezultate pretraživanja">
 <!ENTITY folderIncludeInGlobalSearch.accesskey "g">
-<!ENTITY retention.label "Politika čuvanja">
-<!ENTITY retentionUseAccount.label "Koristi moje postavke računa">
-<!ENTITY retentionUseAccount.accesskey "u">
-<!ENTITY daysOld.label "dana">
-<!ENTITY message.label "najnovijih poruka">
-<!ENTITY retentionCleanup.label "Kako biste oslobodili diskovni prostor, stare poruke mogu biti trajno izbrisane.">
-<!ENTITY retentionCleanupImap.label "Kako biste oslobodili diskovni prostor, stare poruke mogu biti trajno izbrisane (lokalne kopije i izvorne poruke na poslužitelju).">
-<!ENTITY retentionCleanupPop.label "Kako biste oslobodili diskovni prostor, stare poruke mogu biti trajno izbrisane, uključujući i izvorne poruke na udaljenom poslužitelju.">
-<!ENTITY retentionDeleteMsg.label "Obriši poruke starije od">
-<!ENTITY retentionDeleteMsg.accesskey "b">
-<!ENTITY retentionKeepAll.label "Ne briši nikakve poruke">
-<!ENTITY retentionKeepAll.accesskey "a">
-<!ENTITY retentionKeepRecent.label "Obriši sve osim">
-<!ENTITY retentionKeepRecent.accesskey "i">
-<!ENTITY retentionApplyToFlagged.label "Uvijek zadrži poruke označene zvjezdicom">
-<!ENTITY retentionApplyToFlagged.accesskey "e">
 <!ENTITY folderSynchronizationTab.label "Sinkronizacija">
 <!ENTITY folderCheckForNewMessages2.label "Prilikom primanja novih poruka za ovaj račun, uvijek provjeri ovu mapu">
 <!ENTITY folderCheckForNewMessages2.accesskey "m">

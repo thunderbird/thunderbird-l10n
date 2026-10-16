@@ -33,8 +33,6 @@
 <!ENTITY hdrFollowupButton1.tooltip "Gosod cofnod dilynol i'r grŵp newyddion">
 <!ENTITY hdrForwardButton1.label "Ymlaen">
 <!ENTITY hdrForwardButton1.tooltip "Anfon y neges ymlaen">
-<!ENTITY hdrJunkButton1.label "Sbam">
-<!ENTITY hdrJunkButton1.tooltip "Nodi'r neges fel sbam">
 <!ENTITY hdrTrashButton1.label "Dileu">
 <!ENTITY hdrTrashButton1.tooltip "Dileu'r neges">
 <!ENTITY hdrViewToolbarShowFull.label "Dangos Eiconau a Thestun">

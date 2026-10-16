@@ -10,22 +10,6 @@
 <!ENTITY folderRebuildSummaryFile.explanation "Mõnikord saab kausta kokkuvõtte fail (.msf) kahjustada ja kirjad võivad näida kadununa või kustutatud kirjad jääda endiselt nähtavaks; kausta parandamine võib need probleemid lahendada.">
 <!ENTITY folderIncludeInGlobalSearch.label "Kirjad selles kaustas kaasatakse üldotsingu tulemustesse">
 <!ENTITY folderIncludeInGlobalSearch.accesskey "K">
-<!ENTITY retention.label "Säilitamise reeglid">
-<!ENTITY retentionUseAccount.label "Kasutatakse minu konto sätteid">
-<!ENTITY retentionUseAccount.accesskey "s">
-<!ENTITY daysOld.label "päeva">
-<!ENTITY message.label "kirja">
-<!ENTITY retentionCleanup.label "Kettaruumi vabastamiseks on võimalik vanad kirjad jäädavalt kustutada">
-<!ENTITY retentionCleanupImap.label "Kettaruumi vabastamiseks on võimalik vanad kirjad jäädavalt kustutada; nii kohalikud koopiad kui ka originaalid kaugserverist.">
-<!ENTITY retentionCleanupPop.label "Kettaruumi vabastamiseks on võimalik vanad kirjad jäädavalt kustutada; kaasa arvatud originaalid kaugserverist.">
-<!ENTITY retentionDeleteMsg.label "Kustutatakse vanemad kirjad kui">
-<!ENTITY retentionDeleteMsg.accesskey "m">
-<!ENTITY retentionKeepAll.label "Ühtegi kirja ei kustutata">
-<!ENTITY retentionKeepAll.accesskey "E">
-<!ENTITY retentionKeepRecent.label "Kustutatakse kõik peale hiljutiste">
-<!ENTITY retentionKeepRecent.accesskey "j">
-<!ENTITY retentionApplyToFlagged.label "Alati säilitatakse tähistatud kirjad">
-<!ENTITY retentionApplyToFlagged.accesskey "l">
 <!ENTITY folderSynchronizationTab.label "Sünkroniseerimine">
 <!ENTITY folderCheckForNewMessages2.label "Uute kirjade hankimisel kontrollitakse alati seda kausta">
 <!ENTITY folderCheckForNewMessages2.accesskey "U">

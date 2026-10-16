@@ -39,13 +39,8 @@ openpgp-cannot-decrypt-because-mdc =
     Wagi d izen awgelhan i isseqdacen tarrayt taqburt ur neǧhid ara.
     Izmer ahat ibeddel akken ad yettwaker ugbur-is. Akken ur  d-iḍerru wayen n diri, agbur ur d-yettwaskan ara.
 openpgp-cannot-decrypt-because-missing-key = Tasarut tuffirt i yettusran i uwgelhen n yizen-a ulac-itt.
-openpgp-partially-signed =
-    Ala aḥric seg yizen-a i yettwaszemlen s wudem umdin s OpenPGP.
-    Ma tsenndeḍ ɣef tqeffalt senqed, iḥricen ur yettammestnen ara ad ttwaffren, daɣen addad n uzmul umdin ad d-yettwasken.
 openpgp-partially-encrypted =
     Ala aḥric kan seg yizen-a i yettwawgelhen s useqdec n OpenPGP.
     Iḥricen i d-ibanen n yizen i d-yettwaskanen yakan ur ttwawgelhen ara.
     Ma yella tsateḍ ɣef tqeffalt n uwgelhen, igburen n yiḥricen yettwawgelhen ara d-yettwaskanen.
-openpgp-reminder-partial-display = Asmekti: Izen i d-yettbanen ddaw d tagrumma kan tasnawant n yizen agejdan.
-openpgp-partial-verify-button = Senqed
 openpgp-partial-decrypt-button = Wgelhen

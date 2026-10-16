@@ -23,8 +23,6 @@
 <!ENTITY closeConversationCmd.accesskey "غ">
 <!ENTITY aliasCmd.label "غير الاسم">
 <!ENTITY aliasCmd.accesskey "س">
-<!ENTITY deleteCmd.label "أزِل جهة الاتصال">
-<!ENTITY deleteCmd.accesskey "ل">
 <!ENTITY openConversationButton.tooltip "ابدأ محادثة">
 <!ENTITY closeConversationButton.tooltip "أغلق المحادثة">
 <!ENTITY addBuddyButton.label "أضف جهة اتصال">

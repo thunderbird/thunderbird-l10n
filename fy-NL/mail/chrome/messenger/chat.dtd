@@ -23,8 +23,6 @@
 <!ENTITY closeConversationCmd.accesskey "P">
 <!ENTITY aliasCmd.label "Omneame">
 <!ENTITY aliasCmd.accesskey "O">
-<!ENTITY deleteCmd.label "Kontakt fuortsmite">
-<!ENTITY deleteCmd.accesskey "f">
 <!ENTITY openConversationButton.tooltip "In petear begjinne">
 <!ENTITY closeConversationButton.tooltip "Petear slute">
 <!ENTITY addBuddyButton.label "Kontakt tafoegje">

@@ -87,12 +87,6 @@ quit-app-shortcut =
 
 ## Mail Toolbar
 
-toolbar-junk-button =
-    .label = Sampah
-    .tooltiptext = Tandai pesan yang dipilih sebagai sampah
-toolbar-not-junk-button =
-    .label = Bukan Sampah
-    .tooltiptext = Tandai pesan yang dipilih sebagai bukan sampah
 toolbar-delete-button =
     .label = Hapus
     .tooltiptext = Hapus pesan atau folder yang dipilih

@@ -48,8 +48,6 @@
 <!ENTITY getAllNewMsgCmdPopupMenu.accesskey "A">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.label "Aktuelle konto">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.accesskey "k">
-<!ENTITY getNextNMsgCmd2.label "Hent næste meddelelser">
-<!ENTITY getNextNMsgCmd2.accesskey "t">
 <!ENTITY sendUnsentCmd.label "Send meddelelser fra Udbakke">
 <!ENTITY sendUnsentCmd.accesskey "S">
 <!ENTITY subscribeCmd.label "Abonner…">
@@ -59,8 +57,6 @@
 <!ENTITY renameFolder.label "Omdøb mappe…">
 <!ENTITY renameFolder.accesskey "O">
 <!ENTITY renameFolder.key "VK_F2">
-<!ENTITY compactFolders.label "Optimer mapper">
-<!ENTITY compactFolders.accesskey "i">
 <!ENTITY emptyTrashCmd.label "Tøm papirkurv">
 <!ENTITY emptyTrashCmd.accesskey "T">
 <!ENTITY offlineMenu.label "Offline">
@@ -129,10 +125,6 @@
 <!ENTITY allFolders.accesskey "A">
 <!ENTITY unreadFolders.label "Ulæste">
 <!ENTITY unreadFolders.accesskey "U">
-<!ENTITY favoriteFolders.label "Favoritter">
-<!ENTITY favoriteFolders.accesskey "F">
-<!ENTITY recentFolders.label "Seneste">
-<!ENTITY recentFolders.accesskey "e">
 <!ENTITY compactVersion.label "Kompakt visning">
 <!ENTITY compactVersion.accesskey "K">
 <!-- Sort Menu -->
@@ -154,8 +146,6 @@
 <!ENTITY sortByStatusCmd.accesskey "u">
 <!ENTITY sortByTagsCmd.label "Mærkater">
 <!ENTITY sortByTagsCmd.accesskey "k">
-<!ENTITY sortByJunkStatusCmd.label "Spam-status">
-<!ENTITY sortByJunkStatusCmd.accesskey "a">
 <!ENTITY sortBySubjectCmd.label "Emne">
 <!ENTITY sortBySubjectCmd.accesskey "E">
 <!ENTITY sortByFromCmd.label "Afsender">
@@ -243,7 +233,6 @@
 <!ENTITY findPrevCmd.key2 "VK_F3">
 <!ENTITY searchMailCmd.label "Søg i meddelelser…">
 <!ENTITY searchMailCmd.accesskey "S">
-<!ENTITY searchMailCmd.key "ø">
 <!ENTITY glodaSearchCmd.label "Global søgning…">
 <!ENTITY glodaSearchCmd.accesskey "G">
 <!ENTITY searchAddressesCmd.label "Søg i adresser…">
@@ -334,17 +323,6 @@
 <!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN">
 <!ENTITY createFilter.label "Opret filter…">
 <!ENTITY createFilter.accesskey "t">
-<!ENTITY moveMsgToMenu.label "Flyt til">
-<!ENTITY moveMsgToMenu.accesskey "F">
-<!ENTITY moveCopyMsgRecentMenu.label "Seneste">
-<!ENTITY moveCopyMsgRecentMenu.accesskey "n">
-<!ENTITY copyMessageLocation.label "Kopier adressen på meddelelsen">
-<!ENTITY copyMessageLocation.accesskey "m">
-<!ENTITY copyMsgToMenu.label "Kopier til">
-<!ENTITY copyMsgToMenu.accesskey "p">
-<!ENTITY moveToFolderAgain.label "Flyt igen">
-<!ENTITY moveToFolderAgain.accesskey "i">
-<!ENTITY moveToFolderAgainCmd.key "m">
 <!ENTITY killThreadMenu.label "Ignorer tråden">
 <!ENTITY killThreadMenu.accesskey "g">
 <!ENTITY killThreadMenu.key "k">
@@ -356,16 +334,6 @@
 <!ENTITY watchThreadMenu.key "w">
 <!ENTITY tagMenu.label "Mærkat">
 <!ENTITY tagMenu.accesskey "æ">
-<!ENTITY tagCmd0.key "0">
-<!ENTITY tagCmd1.key "1">
-<!ENTITY tagCmd2.key "2">
-<!ENTITY tagCmd3.key "3">
-<!ENTITY tagCmd4.key "4">
-<!ENTITY tagCmd5.key "5">
-<!ENTITY tagCmd6.key "6">
-<!ENTITY tagCmd7.key "7">
-<!ENTITY tagCmd8.key "8">
-<!ENTITY tagCmd9.key "9">
 <!ENTITY markMenu.label "Marker">
 <!ENTITY markMenu.accesskey "M">
 <!ENTITY toggleReadCmd.key "m">
@@ -385,14 +353,6 @@
 <!ENTITY markStarredCmd.label "Tilføj stjerne">
 <!ENTITY markStarredCmd.accesskey "S">
 <!ENTITY markStarredCmd.key "i">
-<!ENTITY markAsJunkCmd.label "Som spam">
-<!ENTITY markAsJunkCmd.accesskey "o">
-<!ENTITY markAsJunkCmd.key "j">
-<!ENTITY markAsNotJunkCmd.label "Som ikke-spam">
-<!ENTITY markAsNotJunkCmd.accesskey "i">
-<!ENTITY markAsNotJunkCmd.key "j">
-<!ENTITY recalculateJunkScoreCmd.label "Find spam">
-<!ENTITY recalculateJunkScoreCmd.accesskey "F">
 <!ENTITY openMessageWindowCmd.label "Åbn meddelelse">
 <!ENTITY openMessageWindowCmd.accesskey "Å">
 <!ENTITY openMessageWindowCmd.key "Å">
@@ -441,10 +401,6 @@
 <!ENTITY filtersApplyToSelection.accesskey "ø">
 <!ENTITY filtersApplyToMessage.label "Kør filtre på meddelelse">
 <!ENTITY filtersApplyToMessage.accesskey "ø">
-<!ENTITY runJunkControls.label "Kontroller mappen for spam">
-<!ENTITY runJunkControls.accesskey "s">
-<!ENTITY deleteJunk.label "Slet spam i mappen">
-<!ENTITY deleteJunk.accesskey "l">
 <!ENTITY importCmd.label "Importer…">
 <!ENTITY importCmd.accesskey "m">
 <!ENTITY exportCmd.label "Eksporter…">
@@ -491,7 +447,6 @@
 <!ENTITY printButton.label "Udskriv">
 <!ENTITY stopButton.label "Stop">
 <!ENTITY throbberItem.title "Aktivitetsindikator">
-<!ENTITY junkItem.title "Spam">
 <!ENTITY addressBookButton.label "Adressebog">
 <!ENTITY chatButton.label "Chat">
 <!ENTITY glodaSearch.title "Global søg">
@@ -553,11 +508,6 @@
 <!ENTITY appmenuNewContactCmd.label "Kontakt…">
 <!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Tilpas værktøjslinje…">
-<!-- Tags Menu Popup -->
-<!ENTITY addNewTag.label "Nyt mærkat…">
-<!ENTITY addNewTag.accesskey "m">
-<!ENTITY manageTags.label "Håndter mærkater…">
-<!ENTITY manageTags.accesskey "H">
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "Navn">
 <!ENTITY folderUnreadColumn.label "Ulæste">
@@ -580,12 +530,8 @@
 <!ENTITY folderContextRename.accesskey "O">
 <!ENTITY folderContextRemove.label "Slet mappe">
 <!ENTITY folderContextRemove.accesskey "S">
-<!ENTITY folderContextCompact.label "Optimer denne mappe">
-<!ENTITY folderContextCompact.accesskey "m">
 <!ENTITY folderContextEmptyTrash.label "Tøm papirkurv">
 <!ENTITY folderContextEmptyTrash.accesskey "ø">
-<!ENTITY folderContextEmptyJunk.label "Tøm spam-mappen">
-<!ENTITY folderContextEmptyJunk.accesskey "ø">
 <!ENTITY folderContextSendUnsentMessages.label "Send meddelelser fra Udbakke…">
 <!ENTITY folderContextSendUnsentMessages.accesskey "d">
 <!ENTITY folderContextUnsubscribe.label "Fjern abonnement">
@@ -628,7 +574,6 @@
 <!ENTITY accountColumn.label "Konto">
 <!ENTITY statusColumn.label "Status">
 <!ENTITY sizeColumn.label "Størrelse">
-<!ENTITY junkStatusColumn.label "Spam-status">
 <!ENTITY unreadColumn.label "Ulæste i tråden">
 <!ENTITY totalColumn.label "I alt i tråden">
 <!ENTITY readColumn.label "Læst">
@@ -652,7 +597,6 @@
 <!ENTITY accountColumn2.tooltip "Sorter efter konto">
 <!ENTITY statusColumn2.tooltip "Sorter efter status">
 <!ENTITY sizeColumn2.tooltip "Sorter efter størrelse">
-<!ENTITY junkStatusColumn2.tooltip "Sorter efter spam-status">
 <!ENTITY unreadColumn2.tooltip "Antal ulæste meddelelser i tråden">
 <!ENTITY totalColumn2.tooltip "Samlede antal meddelelser i tråden">
 <!ENTITY readColumn2.tooltip "Sorter efter læst">
@@ -691,16 +635,6 @@
 <!ENTITY contextReplyAll.accesskey "a">
 <!ENTITY contextReplyList.label "Svar til liste">
 <!ENTITY contextReplyList.accesskey "l">
-<!ENTITY contextMoveMsgMenu.label "Flyt til">
-<!ENTITY contextMoveMsgMenu.accesskey "F">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Seneste mapper">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "S">
-<!ENTITY contextMoveCopyMsgRecentMenu.label "Seneste">
-<!ENTITY contextMoveCopyMsgRecentMenu.accesskey "S">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.label "Favoritter">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.accesskey "F">
-<!ENTITY contextCopyMsgMenu.label "Kopier til">
-<!ENTITY contextCopyMsgMenu.accesskey "K">
 <!ENTITY contextKillThreadMenu.label "Ignorer tråd">
 <!ENTITY contextKillSubthreadMenu.accesskey "e">
 <!ENTITY contextKillThreadMenu.accesskey "t">

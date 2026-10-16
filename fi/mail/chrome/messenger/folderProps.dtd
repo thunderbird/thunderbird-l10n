@@ -10,22 +10,6 @@
 <!ENTITY folderRebuildSummaryFile.explanation "Joissain tilanteissa kansion hakemistotiedosto (.msf) vaurioituu ja tällöin jotkin tai kaikki kansion viestit voivat näyttää kadonneen tai jo poistetut viestit voivat palata listaukseen. Joissain tapauksissa kansion korjaaminen auttaa ongelmaan.">
 <!ENTITY folderIncludeInGlobalSearch.label "Kansion viestit ovat löydettävissä haulla">
 <!ENTITY folderIncludeInGlobalSearch.accesskey "l">
-<!ENTITY retention.label "Viestien säilytyskäytäntö">
-<!ENTITY retentionUseAccount.label "Käytä tilini asetuksia">
-<!ENTITY retentionUseAccount.accesskey "a">
-<!ENTITY daysOld.label "päivää vanhoja">
-<!ENTITY message.label "viestiä">
-<!ENTITY retentionCleanup.label "Kiintolevytilaa voi vapauttaa poistamalla vanhoja viestejä pysyvästi.">
-<!ENTITY retentionCleanupImap.label "Kiintolevytilaa voidaan vapauttaa poistamalla lopullisesti vanhat viestit sekä omalta koneelta, että palvelimelta.">
-<!ENTITY retentionCleanupPop.label "Kiintolevytilaa voidaan vapauttaa poistamalla vanhat viestit lopullisesti, myös sähköpostipalvelimelta.">
-<!ENTITY retentionDeleteMsg.label "Poista viestit, jotka ovat yli">
-<!ENTITY retentionDeleteMsg.accesskey "y">
-<!ENTITY retentionKeepAll.label "Älä poista mitään viestejä">
-<!ENTITY retentionKeepAll.accesskey "Ä">
-<!ENTITY retentionKeepRecent.label "Poista kaikki paitsi uusimmat">
-<!ENTITY retentionKeepRecent.accesskey "P">
-<!ENTITY retentionApplyToFlagged.label "Älä koskaan poista tähdellä merkittyjä viestejä">
-<!ENTITY retentionApplyToFlagged.accesskey "k">
 <!ENTITY folderSynchronizationTab.label "Synkronointi">
 <!ENTITY folderCheckForNewMessages2.label "Tarkista tilille saapuvien viestien yhteydessä, onko tähän kansioon tullut uusia viestejä">
 <!ENTITY folderCheckForNewMessages2.accesskey "T">

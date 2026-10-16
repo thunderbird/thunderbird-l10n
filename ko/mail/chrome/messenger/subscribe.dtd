@@ -3,10 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY subscribeDialog.title "구독하기">
-<!ENTITY subscribeButton.label "구독하기">
-<!ENTITY subscribeButton.accesskey "S">
-<!ENTITY unsubscribeButton.label "구독 해지">
-<!ENTITY unsubscribeButton.accesskey "U">
 <!ENTITY newGroupsTab.label "New Groups">
 <!ENTITY newGroupsTab.accesskey "N">
 <!ENTITY refreshButton.label "새로 고침">

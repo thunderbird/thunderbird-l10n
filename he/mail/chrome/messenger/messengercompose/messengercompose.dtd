@@ -211,7 +211,6 @@
 <!ENTITY smiley7Cmd.label "הססן">
 <!ENTITY smiley8Cmd.label "הפתעה">
 <!ENTITY smiley9Cmd.label "נשיקה">
-<!ENTITY smiley10Cmd.label "צעק">
 <!ENTITY smiley11Cmd.label "'קול'">
 <!ENTITY smiley12Cmd.label "פה־כסף">
 <!ENTITY smiley13Cmd.label "יד־לפה">
@@ -260,12 +259,6 @@
 <!ENTITY convertRegularAttachment.accesskey "צ">
 <!ENTITY attachPage.label "צירוף דף אינטרנט…">
 <!ENTITY attachPage.accesskey "א">
-<!-- Attachment Pane Header Bar Context Menu
-     LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
-     Should use the same wording as startExpandedCmd.label
-     in msgHdrViewOverlay.dtd. -->
-<!ENTITY initiallyShowAttachmentPane.label "הצגת חלונית הקבצים המצורפים כבר בהתחלה">
-<!ENTITY initiallyShowAttachmentPane.accesskey "צ">
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "הוספת מילונים…">
 <!ENTITY spellAddDictionaries.accesskey "מ">

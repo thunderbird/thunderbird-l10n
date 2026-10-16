@@ -3,10 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY subscribeDialog.title "Multeɣ">
-<!ENTITY subscribeButton.label "Multeɣ">
-<!ENTITY subscribeButton.accesskey "M">
-<!ENTITY unsubscribeButton.label "Ffeɣ seg umulteɣ">
-<!ENTITY unsubscribeButton.accesskey "F">
 <!ENTITY newGroupsTab.label "Igrawen imaynuten">
 <!ENTITY newGroupsTab.accesskey "m">
 <!ENTITY refreshButton.label "Smiren">

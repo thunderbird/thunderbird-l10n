@@ -9,8 +9,6 @@
 <!ENTITY PrimaryEmail.accesskey "E">
 <!ENTITY Company.label "Organizācija">
 <!ENTITY Company.accesskey "O">
-<!ENTITY _PhoneticName.label "Fonētiskais vārds">
-<!ENTITY _PhoneticName.accesskey "F">
 <!ENTITY NickName.label "Segvārds">
 <!ENTITY NickName.accesskey "S">
 <!ENTITY SecondEmail.label "Papildu epasts">

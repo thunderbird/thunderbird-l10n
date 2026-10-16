@@ -10,16 +10,6 @@ appmenu-sync-panel-title =
 appmenu-sync-account =
     .value = example@example.com
 
-## Add Account
-
-appmenu-new-account-panel-title =
-    .title = K'ak'a' Rub'i' Taqoya'l
-
-## New Account / Address Book
-
-appmenu-newab-panel-title =
-    .title = K'ak'a' Kiwujil Ochochib'äl
-
 ## Create
 
 appmenu-create-panel-title =

@@ -33,8 +33,6 @@
 <!ENTITY hdrFollowupButton1.tooltip "Publicar un responsa in iste gruppo">
 <!ENTITY hdrForwardButton1.label "Inviate ultra">
 <!ENTITY hdrForwardButton1.tooltip "Inviar ultra iste message">
-<!ENTITY hdrJunkButton1.label "Indesirate">
-<!ENTITY hdrJunkButton1.tooltip "Marcar iste message como indesirate">
 <!ENTITY hdrTrashButton1.label "Deler">
 <!ENTITY hdrTrashButton1.tooltip "Deler iste message">
 <!ENTITY hdrViewToolbarShowFull.label "Monstrar icones e texto">

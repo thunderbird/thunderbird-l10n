@@ -652,16 +652,6 @@ hide-calendar-name =
 show-only-calendar-name =
     .label = { $name }만 보이기
     .accesskey = O
-# $name calendar name
-show-calendar-label =
-    .label = { $name } 보이기
-# $name calendar name
-hide-calendar-label =
-    .label = { $name } 숨기기
-# uses the access key calendar.context.showonly.accesskey
-# $name calendar name
-show-only-calendar =
-    .label = { $name }만 보이기
 # LOCALIZATION NOTE (modify-conflict-*)
 # Used by the event dialog to resolve item modification conflicts.
 modify-conflict-prompt-title = 아이템 수정 충돌

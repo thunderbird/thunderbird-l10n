@@ -3,10 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY subscribeDialog.title "บอกรับ">
-<!ENTITY subscribeButton.label "บอกรับ">
-<!ENTITY subscribeButton.accesskey "บ">
-<!ENTITY unsubscribeButton.label "เลิกบอกรับ">
-<!ENTITY unsubscribeButton.accesskey "ล">
 <!ENTITY newGroupsTab.label "กลุ่มใหม่">
 <!ENTITY newGroupsTab.accesskey "ก">
 <!ENTITY refreshButton.label "เรียกใหม่">

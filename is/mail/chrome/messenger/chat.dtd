@@ -23,8 +23,6 @@
 <!ENTITY closeConversationCmd.accesskey "s">
 <!ENTITY aliasCmd.label "Endurnefna">
 <!ENTITY aliasCmd.accesskey "r">
-<!ENTITY deleteCmd.label "Fjarlægja tengilið">
-<!ENTITY deleteCmd.accesskey "æ">
 <!ENTITY openConversationButton.tooltip "Byrja samtal">
 <!ENTITY closeConversationButton.tooltip "Loka samtali">
 <!ENTITY addBuddyButton.label "Bæta við tengilið">

@@ -53,14 +53,7 @@ account-hub-email-confirm-button = Vahvista
 account-hub-result-incoming-legend = Saapuva
 account-hub-result-outgoing-legend = Lähtevä
 account-hub-all-servers-legend = Kaikki palvelimet
-account-hub-incoming-server-legend = Saapuvan postin palvelin
-account-hub-outgoing-server-legend = Lähtevän postin palvelin
-account-hub-result-incoming-server-legend = Saapuvan postin palvelin
-    .title = Saapuvan postin palvelin
-account-hub-result-outgoing-server-legend = Lähtevän postin palvelin
-    .title = Lähtevän postin palvelin
 account-hub-protocol-label = Yhteyskäytäntö
-account-hub-hostname-label = Palvelin
 account-hub-result-hostname-label = Palvelin
     .title = Palvelin
 account-hub-result-socket-type-label = Yhteyden suojaus
@@ -94,10 +87,6 @@ account-hub-result-auth-ntlm = NTLM
 account-hub-result-auth-oauth2 = OAuth2
     .title = OAuth2
 account-hub-on-port-label = Portti
-account-hub-result-authentication-label = Todennus
-    .title = Todennus
-account-hub-port-label = Portti
-    .title = Aseta portin numeroksi 0 automaattista havaitsemista varten
 account-hub-auto-description = { -brand-short-name } yrittää tunnistaa tyhjiksi jätetyt kentät automaattisesti.
 account-hub-ssl-label = Yhteyden suojaus
 
@@ -105,8 +94,6 @@ account-hub-ssl-label = Yhteyden suojaus
 
 account-hub-ssl-autodetect-option =
     .label = Tunnista automaattisesti
-account-hub-ssl-no-authentication-option =
-    .label = Ei todennusta
 account-hub-ssl-cleartext-password-option =
     .label = Normaali salasana
 account-hub-ssl-encrypted-password-option =
@@ -232,7 +219,6 @@ account-hub-notification-show-less = Näytä vähemmän
 account-hub-email-setup-header = Lisää sähköpostiosoitteesi
 account-hub-email-setup-incoming = Saapuvan postin palvelimen asetukset
 account-hub-email-setup-outgoing = Lähtevän postin palvelimen asetukset
-account-hub-email-config-found = Valitse sähköpostitilisi tyyppi
 account-hub-email-enter-password = Kirjoita sähköpostitilisi salasana
 account-hub-email-sync-accounts = Synkronoi kalenterisi ja osoitekirjasi
 account-hub-test-configuration = Testaa
@@ -252,7 +238,6 @@ account-hub-config-success-title = Tilin asetukset löytyivät automaattisesti.
 account-hub-config-success-description-db = Kokoonpanon määritys löytyi Mozillan ISP-tietokannasta.
 account-hub-config-success-description-exchange = Kokoonpanon määritykset löydettiin Microsoft Exchange -palvelimelle.
 account-hub-config-success-description-read-more = Voit <a data-l10n-name="automated-setup-link">lukea lisää siitä, miten automaattinen sähköpostin määritys toimii.</a>
-account-hub-config-success = Kokoonpanon määritys löytyi Mozillan ISP-tietokannasta
 account-hub-password-info = Kirjautumistietosi tallennetaan vain paikallisesti tietokoneellesi
 account-hub-creating-account = Luodaan tiliä…
 account-hub-sync-accounts-found = { -brand-short-name } löysi joitain yhdistettyjä palveluita
@@ -282,10 +267,8 @@ account-hub-username-error-text = Käyttäjätunnus vaaditaan
     .title = Käyttäjätunnus vaaditaan
 account-hub-oauth-pending = Odotetaan valtuutusta kirjautumisikkunassa…
 account-hub-addon-install-button = Asenna
-account-hub-addon-install-needed = { -brand-short-name } ei tue  oletusarvoisesti tätä palvelinta. Voit käyttää Exchange-sähköpostia <a data-l10n-name="addon-install"> asentamalla kolmannen osapuolen lisäosan, kuten Owl (maksullinen).</a>
 account-hub-addon-error = Lisäosan asennus epäonnistui. Yritä uudelleen tai ota yhteyttä lisäosan tekijään saadaksesi apua.
 account-hub-select-security-warning = <span data-l10n-name="error-text">Varoitus: Suojaamaton sähköpostipalvelin havaittu.</span> Palvelimella ei ole salausta, joten salasanasi ja tietosi paljastuvat. Ota yhteyttä järjestelmänvalvojaan yhteyden suojaamiseksi tai jatka omalla vastuullasi. <a data-l10n-name="error-link">Lisätietoja on usein kysytyissä kysymyksissä.</a>
-account-hub-security-warning = <span data-l10n-name="security-warning">Varoitus: Suojaamaton sähköpostipalvelin havaittu.</span> Palvelimelta puuttuu salaus, minkä vuoksi salasanasi ja tietosi paljastuvat. Ota yhteys järjestelmänvalvojaan turvataksesi yhteyden tai jatka omalla vastuullasi. <a data-l10n-name="faq-link">Lisätietoja on usein kysytyissä kysymyksissä.</a>
 account-hub-account-authentication-error = Todennusvirhe.
 account-hub-add-address-book = Lisää osoitekirja
 address-book-sync-existing-icon =
@@ -309,7 +292,6 @@ account-hub-address-book-sync-books-data =
         [one] 1 osoitekirja saatavilla
        *[other] { $addressBooks } osoitekirjaa saatavilla
     }
-account-hub-fetching-sync-accounts = Havaitaan osoitekirjoja ja kalentereita…
 address-book-sync-existing-description = Haetaan olemassa olevia tilejä…
 account-hub-select-address-book-account = Valitse tili, jossa on osoitekirjoja
 # $synced (Number) - The number of address books that are synced.

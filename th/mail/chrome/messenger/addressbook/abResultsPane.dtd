@@ -9,8 +9,6 @@
 <!ENTITY PrimaryEmail.accesskey "อ">
 <!ENTITY Company.label "องค์กร">
 <!ENTITY Company.accesskey "ง">
-<!ENTITY _PhoneticName.label "ชื่อการออกเสียง">
-<!ENTITY _PhoneticName.accesskey "ก">
 <!ENTITY NickName.label "ชื่อเล่น">
 <!ENTITY NickName.accesskey "ล">
 <!ENTITY SecondEmail.label "อีเมลเพิ่มเติม">

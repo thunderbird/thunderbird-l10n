@@ -26,13 +26,3 @@ archive-folder-name-label = Lưu trữ
 inbox-folder-name-label = Hộp thư
 child-folder-name-label = Thư mục con của hộp thư đến
 sibling-folder-name-label = Thư mục cùng cấp với Hộp thư đến
-# This should match the default name for the "Archives" folder.
-archive-folder-name =
-    .label = Lưu trữ
-# This should match the default name for the "Inbox" folder.
-inbox-folder-name =
-    .label = Hộp thư
-child-folder-name =
-    .label = Thư mục con của hộp thư đến
-sibling-folder-name =
-    .label = Thư mục cùng cấp với Hộp thư đến

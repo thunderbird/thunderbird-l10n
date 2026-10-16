@@ -30,11 +30,6 @@ appmenu-sync-sign-out =
 
 ## Add Account
 
-appmenu-new-account-panel-title =
-    .title = Cyfrif Newydd
-appmenu-new-account-panel =
-    .label = Cyfrif Newydd
-    .accesskey = C
 appmenu-new-email-account =
     .label = E-bost
     .accesskey = E
@@ -58,11 +53,6 @@ appmenu-add-account-panel =
 
 ## New Account / Address Book
 
-appmenu-newab-panel-title =
-    .title = Llyfr Cyfeiriadau Newydd
-appmenu-newab-panel =
-    .label = Llyfr Cyfeiriadau Newydd
-    .accesskey = L
 appmenu-new-addressbook =
     .label = Llyfrau Cyfeiriadau Lleol
     .accesskey = C

@@ -59,8 +59,6 @@ policy-Proxy = Tib'an runuk'ulem ri proxi.
 policy-RequestedLocales = Tijikib'äx rucholajem k'utun taq rutzalq'omanem chokoy, cholajin chi ajowanïk.
 policy-SanitizeOnShutdown2 = Keyuj taq rutzij okem pa k'amaya'l toq nichup.
 policy-SearchEngines = Tib'an runuk'ulem ri kanob'äl. Re na'ojil re' xa xe okel pa ri ruwäch Extended Support Release (ESR).
-# For more information, see https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
-policy-SecurityDevices = Keyak PKCS #11 taq juperaj.
 policy-SSLVersionMax = Tijikib'äx ri nïm ruwäch SSL.
 policy-SSLVersionMin = Tijikib'äx ri ko'öl ruwäch SSL
 policy-SupportMenu = Titz'aqatisäx jun ruch'akulal ruk'utsamaj ichinan tob'äl pa ruk'utsamaj tob'äl.

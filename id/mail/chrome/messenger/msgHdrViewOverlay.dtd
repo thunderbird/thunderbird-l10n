@@ -33,8 +33,6 @@
 <!ENTITY hdrFollowupButton1.tooltip "Kirimkan balasan ke newsgroup ini">
 <!ENTITY hdrForwardButton1.label "Teruskan">
 <!ENTITY hdrForwardButton1.tooltip "Teruskan pesan ini">
-<!ENTITY hdrJunkButton1.label "Junk">
-<!ENTITY hdrJunkButton1.tooltip "Tandai pesan ini sebagai pesan junk">
 <!ENTITY hdrTrashButton1.label "Hapus">
 <!ENTITY hdrTrashButton1.tooltip "Hapus pesan ini">
 <!ENTITY hdrViewToolbarShowFull.label "Tampilkan Ikon dan Teks">

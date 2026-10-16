@@ -130,12 +130,9 @@ openpgp-external-key-title = Спољни GnuPG кључ
 openpgp-external-key-description = Подесите спољни GnuPG кључ уношењем ИД-а кључа
 openpgp-external-key-info = Поред тога, морате користити управника кључевима да бисте увезли и прихватили одговарајући јавни кључ.
 openpgp-external-key-warning = <b>Можете подесити само један спољни GnuPG кључ.</b> Ваш претходни унос ће бити замењен.
-openpgp-save-external-button = Сачувај ИД кључа
 openpgp-external-key-label = ИД тајног кључа:
 openpgp-import-own-key-title = Увоз вашег јавног кључа
 #   $keyId (String) - The Key ID.
 openpgp-import-own-key-description = { -brand-short-name } не може да пронађе јавни кључ са ИД-ом { $keyId }. Увезите га да бисте наставили.
 #   $keyId (String) - The Key ID.
 openpgp-import-keyid-failed = Није успео увоз јавног кључа { $keyId } из те датотеке.
-openpgp-external-key-input =
-    .placeholder = 123456789341298340

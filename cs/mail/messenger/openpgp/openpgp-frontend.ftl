@@ -43,14 +43,9 @@ openpgp-cannot-decrypt-because-mdc =
     Během přenosu mohla být pozměněna s úmyslem zcizit její obsah.
     Aby se předešlo tomuto riziku, není obsah zobrazen.
 openpgp-cannot-decrypt-because-missing-key = Tajný klíč, který je potřeba k dešifrování této zprávy, není k dispozici.
-openpgp-partially-signed =
-    Pouze část této zprávy byla digitálně podepsána pomocí OpenPGP.
-    Pokud kliknete na tlačítko Ověřit, budou nechráněné části skryty a zobrazí se stav elektronického podpisu.
 openpgp-partially-encrypted =
     Pouze část této zprávy byla zašifrována pomocí OpenPGP.
     Čitelné části zprávy, které jsou již zobrazeny, nebyly zašifrovány.
     Pokud kliknete na tlačítko Dešifrovat, zobrazí se obsah zašifrovaných částí.
-openpgp-reminder-partial-display = Připomenutí: Zpráva zobrazená níže je pouze částí původní zprávy.
-openpgp-partial-verify-button = Ověřit
 openpgp-partial-decrypt-button = Dešifrovat
 openpgp-unexpected-key-for-you = Varování: Tato zpráva obsahuje neznámí klíč OpenPGP, který odkazuje na jednu za vašich e-mailových adres. Pokud toto není váš klíč, může jít o pokus oklamat ostatní příjemce.

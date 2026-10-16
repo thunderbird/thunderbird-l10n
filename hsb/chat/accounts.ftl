@@ -2,15 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-new-account-label = Nowe konto
 # Instant messaging account status window for Thunderbird
 accounts-window-title = Status za słanje hnydomnych powěsćow
 account-manager-add-account =
     .label = { add-account-label }
     .accesskey = K
-account-manager-new-account =
-    .label = { new-account-label }
-    .accesskey = N
 account-manager-close =
     .label = Začinić
     .accesskey = Z
@@ -19,7 +15,6 @@ account-manager-close-command =
 # This title must be short, displayed with a big font size
 account-manager-no-account-title = Hišće žane konto konfigurowane njeje
 account-manager-no-accounts-description = Klikńće na tłóčatko { add-account-label }, zo by móhł { -brand-short-name } was přez proces konfigurowanja konta wjesć.
-account-manager-no-account-description = Klikńće na tłóčatko { new-account-label }, zo by móhł { -brand-short-name } was přez proces konfigurowanja konta wjesć.
 account-auto-sign-on =
     .label = Za start přizjewić
     .accesskey = s

@@ -10,22 +10,6 @@
 <!ENTITY folderRebuildSummaryFile.explanation "Às vezes, o índice da pasta (.msf) fica danificado e algumas mensagens podem desaparecer ou mensagens apagadas continuam a aparecer; a reparação da pasta pode corrigir estes problemas.">
 <!ENTITY folderIncludeInGlobalSearch.label "Incluir mensagens desta pasta nos resultados de pesquisa global">
 <!ENTITY folderIncludeInGlobalSearch.accesskey "g">
-<!ENTITY retention.label "Política de retenção">
-<!ENTITY retentionUseAccount.label "Utilizar as definições da minha conta">
-<!ENTITY retentionUseAccount.accesskey "d">
-<!ENTITY daysOld.label "dias de antiguidade">
-<!ENTITY message.label "mensagens">
-<!ENTITY retentionCleanup.label "Para ganhar espaço em disco, as mensagens antigas podem ser permanentemente apagadas.">
-<!ENTITY retentionCleanupImap.label "Para ganhar espaço em disco, as mensagens antigas podem ser permanentemente apagadas, tanto as cópias locais como os originais no servidor remoto.">
-<!ENTITY retentionCleanupPop.label "Para ganhar espaço em disco, as mensagens antigas podem ser permanentemente apagadas, incluindo os originais no servidor remoto.">
-<!ENTITY retentionDeleteMsg.label "Apagar mensagens maiores que">
-<!ENTITY retentionDeleteMsg.accesskey "m">
-<!ENTITY retentionKeepAll.label "Não apagar quaisquer mensagens">
-<!ENTITY retentionKeepAll.accesskey "a">
-<!ENTITY retentionKeepRecent.label "Apagar todas menos as mais recentes">
-<!ENTITY retentionKeepRecent.accesskey "t">
-<!ENTITY retentionApplyToFlagged.label "Manter sempre as mensagens com estrela">
-<!ENTITY retentionApplyToFlagged.accesskey "e">
 <!ENTITY folderSynchronizationTab.label "Sincronização">
 <!ENTITY folderCheckForNewMessages2.label "Ao receber novas mensagens nesta conta, analisar sempre esta pasta">
 <!ENTITY folderCheckForNewMessages2.accesskey "n">

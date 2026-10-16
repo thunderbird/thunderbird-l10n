@@ -49,8 +49,6 @@
 <!ENTITY renameFolder.label "Jild nomini o‘zgartirish">
 <!ENTITY renameFolder.accesskey "o">
 <!ENTITY renameFolder.key "VK_F2">
-<!ENTITY compactFolders.label "Jildlarni zichlash">
-<!ENTITY compactFolders.accesskey "J">
 <!ENTITY emptyTrashCmd.label "Chiqindilar qutisini boʻshatish">
 <!ENTITY emptyTrashCmd.accesskey "b">
 <!ENTITY offlineMenu.label "Oflayn">
@@ -119,10 +117,6 @@
 <!ENTITY allFolders.accesskey "B">
 <!ENTITY unreadFolders.label "O‘qilmagan">
 <!ENTITY unreadFolders.accesskey "O">
-<!ENTITY favoriteFolders.label "Sevimli">
-<!ENTITY favoriteFolders.accesskey "S">
-<!ENTITY recentFolders.label "So‘nggi">
-<!ENTITY recentFolders.accesskey "S">
 <!ENTITY compactVersion.label "Ixcham ko‘rinish">
 <!ENTITY compactVersion.accesskey "I">
 <!-- Sort Menu -->
@@ -144,8 +138,6 @@
 <!ENTITY sortByStatusCmd.accesskey "H">
 <!ENTITY sortByTagsCmd.label "Teglar">
 <!ENTITY sortByTagsCmd.accesskey "T">
-<!ENTITY sortByJunkStatusCmd.label "Spam holati">
-<!ENTITY sortByJunkStatusCmd.accesskey "S">
 <!ENTITY sortBySubjectCmd.label "Mavzu">
 <!ENTITY sortBySubjectCmd.accesskey "M">
 <!ENTITY sortByFromCmd.label "Jo‘natuvchi">
@@ -233,7 +225,6 @@
 <!ENTITY findPrevCmd.key2 "VK_F3">
 <!ENTITY searchMailCmd.label "Xabarlarni izlash…">
 <!ENTITY searchMailCmd.accesskey "X">
-<!ENTITY searchMailCmd.key "f">
 <!ENTITY searchAddressesCmd.label "Manzillarni izlash…">
 <!ENTITY searchAddressesCmd.accesskey "i">
 <!-- Go Menu -->
@@ -317,17 +308,6 @@
 <!ENTITY editDraftMsgCmd.accesskey "Q">
 <!ENTITY createFilter.label "Xabardan filter yaratish…">
 <!ENTITY createFilter.accesskey "y">
-<!ENTITY moveMsgToMenu.label "Ko‘chirish">
-<!ENTITY moveMsgToMenu.accesskey "K">
-<!ENTITY moveCopyMsgRecentMenu.label "So‘nggi">
-<!ENTITY moveCopyMsgRecentMenu.accesskey "S">
-<!ENTITY copyMessageLocation.label "Xabar manzilidan nusxa olish">
-<!ENTITY copyMessageLocation.accesskey "z">
-<!ENTITY copyMsgToMenu.label "Nusxa olish">
-<!ENTITY copyMsgToMenu.accesskey "N">
-<!ENTITY moveToFolderAgain.label "Yana ko‘chirish">
-<!ENTITY moveToFolderAgain.accesskey "Y">
-<!ENTITY moveToFolderAgainCmd.key "m">
 <!ENTITY killThreadMenu.label "Yozishmalarni e’tiborsiz qoldirish">
 <!ENTITY killThreadMenu.accesskey "e">
 <!ENTITY killThreadMenu.key "k">
@@ -339,16 +319,6 @@
 <!ENTITY watchThreadMenu.key "w">
 <!ENTITY tagMenu.label "Teg">
 <!ENTITY tagMenu.accesskey "T">
-<!ENTITY tagCmd0.key "0">
-<!ENTITY tagCmd1.key "1">
-<!ENTITY tagCmd2.key "2">
-<!ENTITY tagCmd3.key "3">
-<!ENTITY tagCmd4.key "4">
-<!ENTITY tagCmd5.key "5">
-<!ENTITY tagCmd6.key "6">
-<!ENTITY tagCmd7.key "7">
-<!ENTITY tagCmd8.key "8">
-<!ENTITY tagCmd9.key "9">
 <!ENTITY markMenu.label "Belgilash">
 <!ENTITY markMenu.accesskey "B">
 <!ENTITY toggleReadCmd.key "m">
@@ -368,14 +338,6 @@
 <!ENTITY markStarredCmd.label "Yulduz qo‘shish">
 <!ENTITY markStarredCmd.accesskey "Y">
 <!ENTITY markStarredCmd.key "S">
-<!ENTITY markAsJunkCmd.label "Spam sifatida">
-<!ENTITY markAsJunkCmd.accesskey "S">
-<!ENTITY markAsJunkCmd.key "j">
-<!ENTITY markAsNotJunkCmd.label "Spam emas sifatida">
-<!ENTITY markAsNotJunkCmd.accesskey "S">
-<!ENTITY markAsNotJunkCmd.key "j">
-<!ENTITY recalculateJunkScoreCmd.label "Spam xabarni boshqarishni ishga tushirish">
-<!ENTITY recalculateJunkScoreCmd.accesskey "b">
 <!ENTITY openMessageWindowCmd.label "Xabarni ochish">
 <!ENTITY openMessageWindowCmd.accesskey "o">
 <!ENTITY openMessageWindowCmd.key "o">
@@ -420,10 +382,6 @@
 <!ENTITY filtersApplyToSelection.accesskey "i">
 <!ENTITY filtersApplyToMessage.label "Xabarda filterlarni ishga tushirish">
 <!ENTITY filtersApplyToMessage.accesskey "u">
-<!ENTITY runJunkControls.label "Jildda spam xatni boshqarishni ishga tushirish">
-<!ENTITY runJunkControls.accesskey "b">
-<!ENTITY deleteJunk.label "Jilddagi spam sifatida belgilangan xatni o‘chirish">
-<!ENTITY deleteJunk.accesskey "o">
 <!ENTITY importCmd.label "Import qilish…">
 <!ENTITY importCmd.accesskey "I">
 <!ENTITY clearRecentHistory.label "So‘nggi tarixni tozalash…">
@@ -466,7 +424,6 @@
 <!ENTITY printButton.label "Chop qilish">
 <!ENTITY stopButton.label "To‘xtatish">
 <!ENTITY throbberItem.title "Faoliyat indikatori">
-<!ENTITY junkItem.title "Spam">
 <!ENTITY addressBookButton.label "Manzillar daftari">
 <!ENTITY chatButton.label "Chat">
 <!ENTITY glodaSearch.title "Xalqaro qidiruv">
@@ -527,11 +484,6 @@
 <!ENTITY appmenuNewContactCmd.label "Manzillar kitobidagi kontakt…">
 <!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Asboblar paneli joylashuvi…">
-<!-- Tags Menu Popup -->
-<!ENTITY addNewTag.label "Yangi teg…">
-<!ENTITY addNewTag.accesskey "Y">
-<!ENTITY manageTags.label "Teglarni boshqarish…">
-<!ENTITY manageTags.accesskey "b">
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "Nomi">
 <!ENTITY folderUnreadColumn.label "O‘qilmagan">
@@ -553,12 +505,8 @@
 <!ENTITY folderContextRename.accesskey "N">
 <!ENTITY folderContextRemove.label "O‘chirish">
 <!ENTITY folderContextRemove.accesskey "D">
-<!ENTITY folderContextCompact.label "Zichlash">
-<!ENTITY folderContextCompact.accesskey "Z">
 <!ENTITY folderContextEmptyTrash.label "Chiqindilar qutisini boʻshatish">
 <!ENTITY folderContextEmptyTrash.accesskey "b">
-<!ENTITY folderContextEmptyJunk.label "Spamni bo‘shatish">
-<!ENTITY folderContextEmptyJunk.accesskey "S">
 <!ENTITY folderContextSendUnsentMessages.label "Jo‘natilmagan xabarlarni jo‘natish">
 <!ENTITY folderContextSendUnsentMessages.accesskey "j">
 <!ENTITY folderContextUnsubscribe.label "Obunadan voz kechish">
@@ -599,7 +547,6 @@
 <!ENTITY accountColumn.label "Hisob">
 <!ENTITY statusColumn.label "Holati">
 <!ENTITY sizeColumn.label "Hajmi">
-<!ENTITY junkStatusColumn.label "Spam holati">
 <!ENTITY unreadColumn.label "Oʻqilmagan">
 <!ENTITY totalColumn.label "Jami">
 <!ENTITY readColumn.label "Oʻqish">
@@ -621,7 +568,6 @@
 <!ENTITY accountColumn2.tooltip "Hisob bo‘yicha saralash">
 <!ENTITY statusColumn2.tooltip "Holati bo‘yicha saralash">
 <!ENTITY sizeColumn2.tooltip "Hajmi bo‘yicha saralash">
-<!ENTITY junkStatusColumn2.tooltip "Spam bo‘yicha saralash">
 <!ENTITY unreadColumn2.tooltip "Yozishmalardagi o‘qilmagan xabarlar miqdori">
 <!ENTITY totalColumn2.tooltip "Yozishmalardagi xabarlarning jami miqdori">
 <!ENTITY readColumn2.tooltip "O‘qilganligi bo‘yicha saralash">
@@ -655,12 +601,6 @@
 <!ENTITY contextReplyAll.accesskey "B">
 <!ENTITY contextReplyList.label "Ro‘yxatga javob yozish">
 <!ENTITY contextReplyList.accesskey "R">
-<!ENTITY contextMoveMsgMenu.label "Ko‘chirish">
-<!ENTITY contextMoveMsgMenu.accesskey "K">
-<!ENTITY contextMoveCopyMsgRecentMenu.label "So‘nggi">
-<!ENTITY contextMoveCopyMsgRecentMenu.accesskey "S">
-<!ENTITY contextCopyMsgMenu.label "Nusxa olish">
-<!ENTITY contextCopyMsgMenu.accesskey "N">
 <!ENTITY contextKillThreadMenu.label "Yozishmalarni e’tiborsiz qoldirish">
 <!ENTITY contextKillSubthreadMenu.accesskey "e">
 <!ENTITY contextKillThreadMenu.accesskey "q">

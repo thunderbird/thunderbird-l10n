@@ -13,8 +13,6 @@
 <!ENTITY undoCmd.accesskey "z">
 <!ENTITY redoCmd.label "Adober">
 <!ENTITY redoCmd.accesskey "r">
-<!ENTITY deleteCmd.label "Dilemel">
-<!ENTITY deleteCmd.accesskey "D">
 <!ENTITY customizeCmd.label "Personelaat">
 <!ENTITY customizeCmd.accesskey "t">
 <!ENTITY viewMenu.label "Gwelout">

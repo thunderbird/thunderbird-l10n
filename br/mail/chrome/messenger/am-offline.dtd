@@ -14,24 +14,10 @@
 <!ENTITY autosyncNotDownload.accesskey "m">
 <!ENTITY kb.label "KE">
 <!ENTITY daysOld.label "a zeizioù zo">
-<!ENTITY message.label "a gemennadennoù">
 <!ENTITY nntpNotDownloadRead.label "Lenn ar c'hemennadennoù">
 <!ENTITY nntpNotDownloadRead.accesskey "L">
 <!ENTITY nntpDownloadMsg.label "Kemennadennoù a zo muioc'h a">
 <!ENTITY nntpDownloadMsg.accesskey "e">
-<!ENTITY retentionCleanup.label "Evit adkavout egor kantenn ez eo posupl diverkañ kemennadennoù kozh da vat">
-<!ENTITY retentionCleanupImap.label "Evit adkavout egor kantenn ez eo posupl diverkañ kemennadennoù kozh da vat, an eiladoù lec'hel hag ar c'hemennadennoù orin war an dafariad.">
-<!ENTITY retentionCleanupPop.label "Evit adkavout egor kantenn ez eo posupl diverkañ kemennadennoù kozh da vat, hag ar c'hemennadennoù orin war an dafariad ivez.">
-<!ENTITY retentionKeepMsg.label "Lemel kuit kemennadennoù koshoc'h eget">
-<!ENTITY retentionKeepMsg.accesskey "L">
-<!ENTITY retentionKeepAll.label "Chom hep diverkañ kemennadennoù">
-<!ENTITY retentionKeepAll.accesskey "C">
-<!ENTITY retentionKeepRecent.label "Lemel kuit an holl anezho nemet ar re nevesañ">
-<!ENTITY retentionKeepRecent.accesskey "o">
-<!ENTITY retentionApplyToFlagged.label "Atav mirout ar c’hemennadennoù gant ur steredenn">
-<!ENTITY retentionApplyToFlagged.accesskey "k">
-<!ENTITY nntpRemoveMsgBody.label "Lemel ar c'horfoù eus ar c'hemennadennoù gant brasoc'h eget">
-<!ENTITY nntpRemoveMsgBody.accesskey "o">
 <!ENTITY offlineSelectNntp.label "Diuzañ strolladoù-keleier evit un arver ezlinenn…">
 <!ENTITY offlineSelectNntp.accesskey "s">
 <!ENTITY offlineImapAdvancedOffline.label "Kempleshoc'h…">

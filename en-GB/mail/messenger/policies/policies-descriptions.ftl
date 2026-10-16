@@ -95,8 +95,6 @@ policy-SanitizeOnShutdown2 = Clear navigation data on shutdown.
 policy-SearchEngines = Configure search engine settings. This policy is only available on the Extended Support Release (ESR) version.
 policy-SearchSuggestEnabled = Enable or disable search suggestions.
 policy-SecurityDevices2 = Add or delete PKCS #11 modules.
-# For more information, see https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
-policy-SecurityDevices = Install PKCS #11 modules.
 policy-SSLVersionMax = Set the maximum SSL version.
 policy-SSLVersionMin = Set the minimum SSL version.
 policy-SupportMenu = Add a custom support menu item to the help menu.

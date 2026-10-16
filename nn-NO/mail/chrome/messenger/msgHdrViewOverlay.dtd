@@ -33,8 +33,6 @@
 <!ENTITY hdrFollowupButton1.tooltip "Svar med oppfølging til denne nyhendegruppa">
 <!ENTITY hdrForwardButton1.label "Vidaresend">
 <!ENTITY hdrForwardButton1.tooltip "Vidaresend denne meldinga">
-<!ENTITY hdrJunkButton1.label "Uønskt">
-<!ENTITY hdrJunkButton1.tooltip "Merk denne meldinga som uønskt">
 <!ENTITY hdrTrashButton1.label "Slett">
 <!ENTITY hdrTrashButton1.tooltip "Slett denne meldinga">
 <!ENTITY hdrViewToolbarShowFull.label "Vis ikon og tekst">

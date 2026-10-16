@@ -48,8 +48,6 @@
 <!ENTITY getAllNewMsgCmdPopupMenu.accesskey "A">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.label "Tài khoản hiện tại">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.accesskey "C">
-<!ENTITY getNextNMsgCmd2.label "Nhận thư tin tức tiếp theo">
-<!ENTITY getNextNMsgCmd2.accesskey "t">
 <!ENTITY sendUnsentCmd.label "Gửi các thư chưa gửi">
 <!ENTITY sendUnsentCmd.accesskey "d">
 <!ENTITY subscribeCmd.label "Theo dõi…">
@@ -59,8 +57,6 @@
 <!ENTITY renameFolder.label "Đổi tên thư mục…">
 <!ENTITY renameFolder.accesskey "R">
 <!ENTITY renameFolder.key "VK_F2">
-<!ENTITY compactFolders.label "Làm gọn thư mục">
-<!ENTITY compactFolders.accesskey "F">
 <!ENTITY emptyTrashCmd.label "Dọn sạch thùng rác">
 <!ENTITY emptyTrashCmd.accesskey "y">
 <!ENTITY offlineMenu.label "Ngoại tuyến">
@@ -129,10 +125,6 @@
 <!ENTITY allFolders.accesskey "A">
 <!ENTITY unreadFolders.label "Chưa đọc">
 <!ENTITY unreadFolders.accesskey "U">
-<!ENTITY favoriteFolders.label "Yêu thích">
-<!ENTITY favoriteFolders.accesskey "F">
-<!ENTITY recentFolders.label "Gần đây">
-<!ENTITY recentFolders.accesskey "R">
 <!ENTITY compactVersion.label "Chế độ xem gọn">
 <!ENTITY compactVersion.accesskey "C">
 <!-- Sort Menu -->
@@ -154,8 +146,6 @@
 <!ENTITY sortByStatusCmd.accesskey "u">
 <!ENTITY sortByTagsCmd.label "Nhãn">
 <!ENTITY sortByTagsCmd.accesskey "g">
-<!ENTITY sortByJunkStatusCmd.label "Trạng thái thư rác">
-<!ENTITY sortByJunkStatusCmd.accesskey "J">
 <!ENTITY sortBySubjectCmd.label "Tiêu đề">
 <!ENTITY sortBySubjectCmd.accesskey "b">
 <!ENTITY sortByFromCmd.label "Người gửi">
@@ -243,7 +233,6 @@
 <!ENTITY findPrevCmd.key2 "VK_F3">
 <!ENTITY searchMailCmd.label "Tìm kiếm thư…">
 <!ENTITY searchMailCmd.accesskey "M">
-<!ENTITY searchMailCmd.key "f">
 <!ENTITY glodaSearchCmd.label "Tìm kiếm tổng quát…">
 <!ENTITY glodaSearchCmd.accesskey "G">
 <!ENTITY searchAddressesCmd.label "Tìm kiếm địa chỉ…">
@@ -334,17 +323,6 @@
 <!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN">
 <!ENTITY createFilter.label "Tạo bộ lọc từ thư…">
 <!ENTITY createFilter.accesskey "o">
-<!ENTITY moveMsgToMenu.label "Di chuyển đến">
-<!ENTITY moveMsgToMenu.accesskey "D">
-<!ENTITY moveCopyMsgRecentMenu.label "Gần đây">
-<!ENTITY moveCopyMsgRecentMenu.accesskey "G">
-<!ENTITY copyMessageLocation.label "Sao chép địa chỉ thư">
-<!ENTITY copyMessageLocation.accesskey "p">
-<!ENTITY copyMsgToMenu.label "Sao chép đến">
-<!ENTITY copyMsgToMenu.accesskey "C">
-<!ENTITY moveToFolderAgain.label "Thử di chuyển lại">
-<!ENTITY moveToFolderAgain.accesskey "n">
-<!ENTITY moveToFolderAgainCmd.key "m">
 <!ENTITY killThreadMenu.label "Bỏ qua chủ đề">
 <!ENTITY killThreadMenu.accesskey "B">
 <!ENTITY killThreadMenu.key "k">
@@ -356,16 +334,6 @@
 <!ENTITY watchThreadMenu.key "w">
 <!ENTITY tagMenu.label "Nhãn">
 <!ENTITY tagMenu.accesskey "h">
-<!ENTITY tagCmd0.key "0">
-<!ENTITY tagCmd1.key "1">
-<!ENTITY tagCmd2.key "2">
-<!ENTITY tagCmd3.key "3">
-<!ENTITY tagCmd4.key "4">
-<!ENTITY tagCmd5.key "5">
-<!ENTITY tagCmd6.key "6">
-<!ENTITY tagCmd7.key "7">
-<!ENTITY tagCmd8.key "8">
-<!ENTITY tagCmd9.key "9">
 <!ENTITY markMenu.label "Đánh dấu">
 <!ENTITY markMenu.accesskey "u">
 <!ENTITY toggleReadCmd.key "m">
@@ -385,14 +353,6 @@
 <!ENTITY markStarredCmd.label "Thêm sao">
 <!ENTITY markStarredCmd.accesskey "S">
 <!ENTITY markStarredCmd.key "S">
-<!ENTITY markAsJunkCmd.label "Thư rác">
-<!ENTITY markAsJunkCmd.accesskey "r">
-<!ENTITY markAsJunkCmd.key "j">
-<!ENTITY markAsNotJunkCmd.label "Không phải thư rác">
-<!ENTITY markAsNotJunkCmd.accesskey "K">
-<!ENTITY markAsNotJunkCmd.key "j">
-<!ENTITY recalculateJunkScoreCmd.label "Chạy điều khiển thư rác">
-<!ENTITY recalculateJunkScoreCmd.accesskey "B">
 <!ENTITY openMessageWindowCmd.label "Mở thư">
 <!ENTITY openMessageWindowCmd.accesskey "M">
 <!ENTITY openMessageWindowCmd.key "o">
@@ -441,10 +401,6 @@
 <!ENTITY filtersApplyToSelection.accesskey "r">
 <!ENTITY filtersApplyToMessage.label "Chạy bộ lọc trên thư">
 <!ENTITY filtersApplyToMessage.accesskey "r">
-<!ENTITY runJunkControls.label "Chạy điều khiển thư rác trên thư mục">
-<!ENTITY runJunkControls.accesskey "k">
-<!ENTITY deleteJunk.label "Xóa thư được đánh dấu là thư rác trong thư mục">
-<!ENTITY deleteJunk.accesskey "X">
 <!ENTITY importCmd.label "Nhập…">
 <!ENTITY importCmd.accesskey "N">
 <!ENTITY exportCmd.label "Xuất…">
@@ -491,7 +447,6 @@
 <!ENTITY printButton.label "In">
 <!ENTITY stopButton.label "Dừng">
 <!ENTITY throbberItem.title "Chỉ báo hoạt động">
-<!ENTITY junkItem.title "Thư rác">
 <!ENTITY addressBookButton.label "Sổ địa chỉ">
 <!ENTITY chatButton.label "Trò chuyện">
 <!ENTITY glodaSearch.title "Tìm kiếm toàn bộ">
@@ -553,11 +508,6 @@
 <!ENTITY appmenuNewContactCmd.label "Liên hệ trong sổ địa chỉ…">
 <!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Bố cục thanh công cụ…">
-<!-- Tags Menu Popup -->
-<!ENTITY addNewTag.label "Nhãn mới…">
-<!ENTITY addNewTag.accesskey "N">
-<!ENTITY manageTags.label "Quản lý nhãn…">
-<!ENTITY manageTags.accesskey "M">
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "Tên">
 <!ENTITY folderUnreadColumn.label "Chưa đọc">
@@ -580,12 +530,8 @@
 <!ENTITY folderContextRename.accesskey "i">
 <!ENTITY folderContextRemove.label "Xóa">
 <!ENTITY folderContextRemove.accesskey "X">
-<!ENTITY folderContextCompact.label "Làm gọn">
-<!ENTITY folderContextCompact.accesskey "g">
 <!ENTITY folderContextEmptyTrash.label "Dọn sạch thùng rác">
 <!ENTITY folderContextEmptyTrash.accesskey "D">
-<!ENTITY folderContextEmptyJunk.label "Dọn sạch thư rác">
-<!ENTITY folderContextEmptyJunk.accesskey "r">
 <!ENTITY folderContextSendUnsentMessages.label "Gửi các thư chưa gửi">
 <!ENTITY folderContextSendUnsentMessages.accesskey "G">
 <!ENTITY folderContextUnsubscribe.label "Dừng theo dõi">
@@ -628,7 +574,6 @@
 <!ENTITY accountColumn.label "Tài khoản">
 <!ENTITY statusColumn.label "Trạng thái">
 <!ENTITY sizeColumn.label "Dung lượng">
-<!ENTITY junkStatusColumn.label "Trạng thái thư rác">
 <!ENTITY unreadColumn.label "Chưa đọc">
 <!ENTITY totalColumn.label "Tổng">
 <!ENTITY readColumn.label "Đã đọc">
@@ -652,7 +597,6 @@
 <!ENTITY accountColumn2.tooltip "Sắp xếp theo tài khoản">
 <!ENTITY statusColumn2.tooltip "Sắp xếp theo trạng thái">
 <!ENTITY sizeColumn2.tooltip "Sắp xếp theo kích thước">
-<!ENTITY junkStatusColumn2.tooltip "Sắp xếp theo trạng thái thư rác">
 <!ENTITY unreadColumn2.tooltip "Số lượng thư chưa đọc trong chủ đề">
 <!ENTITY totalColumn2.tooltip "Tổng số tin nhắn trong chủ đề">
 <!ENTITY readColumn2.tooltip "Sắp xếp theo đã đọc">
@@ -691,16 +635,6 @@
 <!ENTITY contextReplyAll.accesskey "r">
 <!ENTITY contextReplyList.label "Trả lời danh sách">
 <!ENTITY contextReplyList.accesskey "D">
-<!ENTITY contextMoveMsgMenu.label "Di chuyển đến">
-<!ENTITY contextMoveMsgMenu.accesskey "D">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Điểm đến gần đây">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "R">
-<!ENTITY contextMoveCopyMsgRecentMenu.label "Gần đây">
-<!ENTITY contextMoveCopyMsgRecentMenu.accesskey "G">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.label "Ưa thích">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.accesskey "F">
-<!ENTITY contextCopyMsgMenu.label "Sao chép đến">
-<!ENTITY contextCopyMsgMenu.accesskey "C">
 <!ENTITY contextKillThreadMenu.label "Bỏ qua chủ đề">
 <!ENTITY contextKillSubthreadMenu.accesskey "b">
 <!ENTITY contextKillThreadMenu.accesskey "I">

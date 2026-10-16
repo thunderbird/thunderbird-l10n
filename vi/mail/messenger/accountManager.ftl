@@ -5,10 +5,6 @@
 open-preferences-sidebar-button2 = Cài đặt { -brand-short-name }
 open-addons-sidebar-button = Tiện ích mở rộng và chủ đề
 account-tree-add-account-button = Thêm tài khoản
-account-action-add-newsgroup-account =
-    .label = Thêm tài khoản nhóm tin…
-    .accesskey = N
-account-tree-create-account-button = Tài khoản mới
 account-tree-add-mail-account =
     .label = Tài khoản thư…
     .accesskey = M

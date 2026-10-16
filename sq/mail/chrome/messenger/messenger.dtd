@@ -48,8 +48,6 @@
 <!ENTITY getAllNewMsgCmdPopupMenu.accesskey "T">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.label "Llogarinë e Tanishme">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.accesskey "l">
-<!ENTITY getNextNMsgCmd2.label "Merr Mesazhet e Rinj Pasues">
-<!ENTITY getNextNMsgCmd2.accesskey "M">
 <!ENTITY sendUnsentCmd.label "Dërgo Mesazhet e Padërguar">
 <!ENTITY sendUnsentCmd.accesskey "u">
 <!ENTITY subscribeCmd.label "Pajtohuni…">
@@ -59,8 +57,6 @@
 <!ENTITY renameFolder.label "Riemërtoni Dosje…">
 <!ENTITY renameFolder.accesskey "o">
 <!ENTITY renameFolder.key "VK_F2">
-<!ENTITY compactFolders.label "Ngjeshi Dosjet">
-<!ENTITY compactFolders.accesskey "N">
 <!ENTITY emptyTrashCmd.label "Zbrazi Hedhurinat">
 <!ENTITY emptyTrashCmd.accesskey "Z">
 <!ENTITY offlineMenu.label "Jo në linjë">
@@ -129,10 +125,6 @@
 <!ENTITY allFolders.accesskey "K">
 <!ENTITY unreadFolders.label "Të palexuar">
 <!ENTITY unreadFolders.accesskey "x">
-<!ENTITY favoriteFolders.label "Të parapëlqyer">
-<!ENTITY favoriteFolders.accesskey "Q">
-<!ENTITY recentFolders.label "Së fundi">
-<!ENTITY recentFolders.accesskey "f">
 <!ENTITY compactVersion.label "Parje e Ngjeshur">
 <!ENTITY compactVersion.accesskey "P">
 <!-- Sort Menu -->
@@ -154,8 +146,6 @@
 <!ENTITY sortByStatusCmd.accesskey "G">
 <!ENTITY sortByTagsCmd.label "Etiketash">
 <!ENTITY sortByTagsCmd.accesskey "e">
-<!ENTITY sortByJunkStatusCmd.label "Gjendjeje të Pavlere">
-<!ENTITY sortByJunkStatusCmd.accesskey "v">
 <!ENTITY sortBySubjectCmd.label "Subjektesh">
 <!ENTITY sortBySubjectCmd.accesskey "s">
 <!ENTITY sortByFromCmd.label "Nga">
@@ -243,7 +233,6 @@
 <!ENTITY findPrevCmd.key2 "VK_F3">
 <!ENTITY searchMailCmd.label "Kërkoni Te Mesazhet…">
 <!ENTITY searchMailCmd.accesskey "M">
-<!ENTITY searchMailCmd.key "f">
 <!ENTITY glodaSearchCmd.label "Kërkim Global…">
 <!ENTITY glodaSearchCmd.accesskey "G">
 <!ENTITY searchAddressesCmd.label "Kërkoni te Adresat…">
@@ -334,17 +323,6 @@
 <!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN">
 <!ENTITY createFilter.label "Krijoni Filtër Prej Mesazhi…">
 <!ENTITY createFilter.accesskey "F">
-<!ENTITY moveMsgToMenu.label "Shpjere Te">
-<!ENTITY moveMsgToMenu.accesskey "S">
-<!ENTITY moveCopyMsgRecentMenu.label "Së fundi">
-<!ENTITY moveCopyMsgRecentMenu.accesskey "F">
-<!ENTITY copyMessageLocation.label "Kopjo Vendndodhje Mesazhi">
-<!ENTITY copyMessageLocation.accesskey "M">
-<!ENTITY copyMsgToMenu.label "Kopjoje Te">
-<!ENTITY copyMsgToMenu.accesskey "T">
-<!ENTITY moveToFolderAgain.label "Lëvize Prapë">
-<!ENTITY moveToFolderAgain.accesskey "L">
-<!ENTITY moveToFolderAgainCmd.key "m">
 <!ENTITY killThreadMenu.label "Shpërfille Rrjedhën">
 <!ENTITY killThreadMenu.accesskey "r">
 <!ENTITY killThreadMenu.key "k">
@@ -356,16 +334,6 @@
 <!ENTITY watchThreadMenu.key "w">
 <!ENTITY tagMenu.label "Etiketë">
 <!ENTITY tagMenu.accesskey "E">
-<!ENTITY tagCmd0.key "0">
-<!ENTITY tagCmd1.key "1">
-<!ENTITY tagCmd2.key "2">
-<!ENTITY tagCmd3.key "3">
-<!ENTITY tagCmd4.key "4">
-<!ENTITY tagCmd5.key "5">
-<!ENTITY tagCmd6.key "6">
-<!ENTITY tagCmd7.key "7">
-<!ENTITY tagCmd8.key "8">
-<!ENTITY tagCmd9.key "9">
 <!ENTITY markMenu.label "Shënoje">
 <!ENTITY markMenu.accesskey "S">
 <!ENTITY toggleReadCmd.key "m">
@@ -385,14 +353,6 @@
 <!ENTITY markStarredCmd.label "Shto Yllkë">
 <!ENTITY markStarredCmd.accesskey "Y">
 <!ENTITY markStarredCmd.key "S">
-<!ENTITY markAsJunkCmd.label "Si të Pavlerë">
-<!ENTITY markAsJunkCmd.accesskey "P">
-<!ENTITY markAsJunkCmd.key "j">
-<!ENTITY markAsNotJunkCmd.label "Si Jo të Pavlerë">
-<!ENTITY markAsNotJunkCmd.accesskey "J">
-<!ENTITY markAsNotJunkCmd.key "j">
-<!ENTITY recalculateJunkScoreCmd.label "Nis Kontrolle Poste të Pavlerë">
-<!ENTITY recalculateJunkScoreCmd.accesskey "N">
 <!ENTITY openMessageWindowCmd.label "Hape Mesazhin">
 <!ENTITY openMessageWindowCmd.accesskey "H">
 <!ENTITY openMessageWindowCmd.key "o">
@@ -441,10 +401,6 @@
 <!ENTITY filtersApplyToSelection.accesskey "P">
 <!ENTITY filtersApplyToMessage.label "Zbatoji Filtrat mbi Mesazhet">
 <!ENTITY filtersApplyToMessage.accesskey "M">
-<!ENTITY runJunkControls.label "Zbato mbi Dosjen Kontrolle Poste të Pavlerë">
-<!ENTITY runJunkControls.accesskey "Z">
-<!ENTITY deleteJunk.label "Fshi Postë të Shënuar si të Pavlerë në Dosje">
-<!ENTITY deleteJunk.accesskey "v">
 <!ENTITY importCmd.label "Importoni…">
 <!ENTITY importCmd.accesskey "I">
 <!ENTITY exportCmd.label "Eksportoni…">
@@ -491,7 +447,6 @@
 <!ENTITY printButton.label "Shtype">
 <!ENTITY stopButton.label "Ndale">
 <!ENTITY throbberItem.title "Tregues Veprimtarie">
-<!ENTITY junkItem.title "E pavlerë">
 <!ENTITY addressBookButton.label "Libër Adresash">
 <!ENTITY chatButton.label "Fjalosje">
 <!ENTITY glodaSearch.title "Kërkim Global">
@@ -553,11 +508,6 @@
 <!ENTITY appmenuNewContactCmd.label "Kontakt Nga Libër Adresash…">
 <!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Skemë Paneli…">
-<!-- Tags Menu Popup -->
-<!ENTITY addNewTag.label "Etiketë e Re…">
-<!ENTITY addNewTag.accesskey "E">
-<!ENTITY manageTags.label "Administroni Etiketa…">
-<!ENTITY manageTags.accesskey "A">
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "Emër">
 <!ENTITY folderUnreadColumn.label "Të palexuar">
@@ -580,12 +530,8 @@
 <!ENTITY folderContextRename.accesskey "R">
 <!ENTITY folderContextRemove.label "Fshije">
 <!ENTITY folderContextRemove.accesskey "F">
-<!ENTITY folderContextCompact.label "Ngjeshe">
-<!ENTITY folderContextCompact.accesskey "e">
 <!ENTITY folderContextEmptyTrash.label "Zbraz Hedhurinat">
 <!ENTITY folderContextEmptyTrash.accesskey "Z">
-<!ENTITY folderContextEmptyJunk.label "Zbraz të Pavlerat">
-<!ENTITY folderContextEmptyJunk.accesskey "P">
 <!ENTITY folderContextSendUnsentMessages.label "Dërgo Mesazhet e Padërguar">
 <!ENTITY folderContextSendUnsentMessages.accesskey "P">
 <!ENTITY folderContextUnsubscribe.label "Shpajtohuni">
@@ -628,7 +574,6 @@
 <!ENTITY accountColumn.label "Llogari">
 <!ENTITY statusColumn.label "Gjendje">
 <!ENTITY sizeColumn.label "Madhësi">
-<!ENTITY junkStatusColumn.label "Gjendje të Pavlere">
 <!ENTITY unreadColumn.label "Të palexuar">
 <!ENTITY totalColumn.label "Gjithsej">
 <!ENTITY readColumn.label "Të lexuar">
@@ -652,7 +597,6 @@
 <!ENTITY accountColumn2.tooltip "Renditi sipas llogarish">
 <!ENTITY statusColumn2.tooltip "Renditi sipas gjendjesh">
 <!ENTITY sizeColumn2.tooltip "Renditi sipas madhësish">
-<!ENTITY junkStatusColumn2.tooltip "Renditi sipas gjendjes hedhurinë">
 <!ENTITY unreadColumn2.tooltip "Numër mesazesh të palexuar në rrjedhë">
 <!ENTITY totalColumn2.tooltip "Numër mesazesh gjithsej në rrjedhë">
 <!ENTITY readColumn2.tooltip "Renditi sipas të lexuarish">
@@ -691,16 +635,6 @@
 <!ENTITY contextReplyAll.accesskey "T">
 <!ENTITY contextReplyList.label "Përgjigjuni te Lista">
 <!ENTITY contextReplyList.accesskey "L">
-<!ENTITY contextMoveMsgMenu.label "Shpjere Te">
-<!ENTITY contextMoveMsgMenu.accesskey "e">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Vendmbërritje Së Fundi">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "F">
-<!ENTITY contextMoveCopyMsgRecentMenu.label "Së fundi">
-<!ENTITY contextMoveCopyMsgRecentMenu.accesskey "F">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.label "Më të pëlqyerit">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.accesskey "p">
-<!ENTITY contextCopyMsgMenu.label "Kopjoje Te">
-<!ENTITY contextCopyMsgMenu.accesskey "K">
 <!ENTITY contextKillThreadMenu.label "Shpërfille Rrjedhën">
 <!ENTITY contextKillSubthreadMenu.accesskey "ë">
 <!ENTITY contextKillThreadMenu.accesskey "I">

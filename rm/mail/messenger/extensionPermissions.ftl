@@ -16,7 +16,6 @@ webext-perms-description-addressBooks = Leger e modifitgar tes contacts en il cu
 webext-perms-description-compose = Leger e modifitgar tes messadis d'e-mail cura che ti als scrivas e tramettas
 webext-perms-description-compose-send = Trametter messadis dad e-mail en tes num
 webext-perms-description-compose-save = Memorisar ils messadis dad e-mail redigids sco sbozs u models
-webext-perms-description-experiment = Avair access cumplet, senza restricziuns a { -brand-short-name } ed a tes computer
 webext-perms-description-messagesImport = Importar messadis en Thunderbird
 webext-perms-description-messagesModify = Legia e modifitgescha tes messadis dad e-mail durant ch'els ta vegnan mussads
 webext-perms-description-messagesModifyPermanent = Modifitgar permanentamain la funtauna da tes messadis (inclusivamain chaus-pagina, body ed agiuntas)

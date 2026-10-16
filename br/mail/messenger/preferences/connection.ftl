@@ -53,6 +53,3 @@ proxy-password-prompt =
 proxy-remote-dns =
     .label = DNS Proksi p’eo arveret SOCKS v5
     .accesskey = D
-proxy-enable-doh =
-    .label = Enaouiñ an DNS e-plas HTTPS
-    .accesskey = b

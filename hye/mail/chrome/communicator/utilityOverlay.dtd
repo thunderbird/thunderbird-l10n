@@ -13,8 +13,6 @@
 <!ENTITY undoCmd.accesskey "Հ">
 <!ENTITY redoCmd.label "Վերարկել">
 <!ENTITY redoCmd.accesskey "Վ">
-<!ENTITY deleteCmd.label "Ջնջել">
-<!ENTITY deleteCmd.accesskey "Ջ">
 <!ENTITY customizeCmd.label "Յարմարեցնել">
 <!ENTITY customizeCmd.accesskey "մ">
 <!ENTITY viewMenu.label "Տեսք">

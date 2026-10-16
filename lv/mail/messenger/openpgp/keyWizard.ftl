@@ -113,7 +113,4 @@ openpgp-external-key-title = Ārēja GnuPG atslēga
 openpgp-external-key-description = Iestatiet ārēju GnuPG atslēgu, ievadot atslēgas ID
 openpgp-external-key-info = Turklāt ir jāizmanto atslēgu pārvaldnieks, lai ievietotu un pieņemtu atbilstošo publisko atslēgu.
 openpgp-external-key-warning = <b>Jūs varat iestatīt tikai vienu ārēju GnuPG atslēgu.</b> Jūsu iepriekšējais ieraksts tiks aizstāts.
-openpgp-save-external-button = Saglabāt atslēgas ID
 openpgp-external-key-label = Privātās atslēgas ID:
-openpgp-external-key-input =
-    .placeholder = 123456789012345678

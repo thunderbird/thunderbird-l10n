@@ -10,22 +10,6 @@
 <!ENTITY folderRebuildSummaryFile.explanation "Terkadang berkas indeks folder (.msf) rusak dan pesan mungkin tidak terlihat atau pesan yang dihapus masih tampak; proses perbaikan folder mungkin dapat mengatasi masalah ini.">
 <!ENTITY folderIncludeInGlobalSearch.label "Sertakan pesan pada folder ini pada hasil Pencarian Global">
 <!ENTITY folderIncludeInGlobalSearch.accesskey "G">
-<!ENTITY retention.label "Kebijakan Penyimpanan">
-<!ENTITY retentionUseAccount.label "Gunakan pengaturan akun saya">
-<!ENTITY retentionUseAccount.accesskey "a">
-<!ENTITY daysOld.label "hari">
-<!ENTITY message.label "pesan">
-<!ENTITY retentionCleanup.label "Untuk mengembalikan ruang disk, pesan lama dapat dihapus secara permanen">
-<!ENTITY retentionCleanupImap.label "Untuk mengembalikan ruang disk, pesan yang sudah usang dapat dihapus secara permanen, termasuk salinan lokal dan dan pesan asli yang disimpan di server jarak jauh.">
-<!ENTITY retentionCleanupPop.label "Untuk mengembalikan ruang disk, pesan yang sudah usang dapat dihapus secara permanen, termasuk salinan lokal dan dan pesan asli yang disimpan di server jarak jauh.">
-<!ENTITY retentionDeleteMsg.label "Hapus pesan yang lebih dari">
-<!ENTITY retentionDeleteMsg.accesskey "l">
-<!ENTITY retentionKeepAll.label "Jangan hapus pesan apa pun">
-<!ENTITY retentionKeepAll.accesskey "J">
-<!ENTITY retentionKeepRecent.label "Hapus selain yang paling akhir">
-<!ENTITY retentionKeepRecent.accesskey "a">
-<!ENTITY retentionApplyToFlagged.label "Selalu simpan pesan berbintang">
-<!ENTITY retentionApplyToFlagged.accesskey "e">
 <!ENTITY folderSynchronizationTab.label "Sinkronisasi">
 <!ENTITY folderCheckForNewMessages2.label "Periksa pesan baru pada folder ini saat mengambil pesan baru">
 <!ENTITY folderCheckForNewMessages2.accesskey "P">

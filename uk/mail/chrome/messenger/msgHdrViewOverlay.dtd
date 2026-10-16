@@ -33,8 +33,6 @@
 <!ENTITY hdrFollowupButton1.tooltip "Опублікувати відповідь в цій групі новин">
 <!ENTITY hdrForwardButton1.label "Переслати">
 <!ENTITY hdrForwardButton1.tooltip "Переслати це повідомлення">
-<!ENTITY hdrJunkButton1.label "Спам">
-<!ENTITY hdrJunkButton1.tooltip "Позначити це повідомлення як спам">
 <!ENTITY hdrTrashButton1.label "Видалити">
 <!ENTITY hdrTrashButton1.tooltip "Видалити це повідомлення">
 <!ENTITY hdrViewToolbarShowFull.label "Показувати значки та текст">

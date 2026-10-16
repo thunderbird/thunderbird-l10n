@@ -6,8 +6,6 @@ about-addressbook-title = Sổ địa chỉ
 
 ## Toolbar
 
-about-addressbook-toolbar-new-address-book =
-    .label = Sổ địa chỉ mới
 about-addressbook-toolbar-add-address-book =
     .label = Thêm sổ địa chỉ cục bộ
 about-addressbook-toolbar-add-carddav-address-book =
@@ -18,8 +16,6 @@ books-pane-create-contact-button = Liên hệ mới
     .title = Tạo một liên hệ mới
 books-pane-add-book-button =
     .title = Thêm sổ địa chỉ
-books-pane-create-book-button =
-    .title = Tạo một sổ địa chỉ mới
 books-pane-create-list-button =
     .title = Tạo một danh sách thư mới
 books-pane-import-button = Nhập

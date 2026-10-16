@@ -87,12 +87,6 @@ quit-app-shortcut =
 
 ## Mail Toolbar
 
-toolbar-junk-button =
-    .label = Neželjena pošta
-    .tooltiptext = Označi odabrane poruke kao neželjene
-toolbar-not-junk-button =
-    .label = Nije neželjena pošta
-    .tooltiptext = Označite odabrane poruke kao neželjene
 toolbar-delete-button =
     .label = Obriši
     .tooltiptext = Obrišite odabrane poruke ili mapu

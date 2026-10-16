@@ -30,11 +30,6 @@ appmenu-sync-sign-out =
 
 ## Add Account
 
-appmenu-new-account-panel-title =
-    .title = Uusi tili
-appmenu-new-account-panel =
-    .label = Uusi tili
-    .accesskey = U
 appmenu-new-email-account =
     .label = Sähköposti
     .accesskey = S
@@ -58,11 +53,6 @@ appmenu-add-account-panel =
 
 ## New Account / Address Book
 
-appmenu-newab-panel-title =
-    .title = Uusi osoitekirja
-appmenu-newab-panel =
-    .label = Uusi osoitekirja
-    .accesskey = A
 appmenu-new-addressbook =
     .label = Paikallinen osoitekirja
     .accesskey = A

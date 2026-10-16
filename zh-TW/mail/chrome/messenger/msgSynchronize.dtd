@@ -18,5 +18,3 @@
 <!ENTITY selectButton.label "選擇…">
 <!ENTITY selectButton.accesskey "e">
 <!ENTITY MsgSelectDesc.label "選擇要離線閱讀的郵件匣及新聞群組。">
-<!ENTITY MsgSelectInd.label "下載">
-<!ENTITY MsgSelectItems.label "郵件匣與新聞群組">

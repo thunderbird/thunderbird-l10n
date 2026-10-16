@@ -18,5 +18,3 @@
 <!ENTITY selectButton.label "Выбраць…">
 <!ENTITY selectButton.accesskey "В">
 <!ENTITY MsgSelectDesc.label "Выберыце паштовыя папкі і групы навін, якімі вы жадаеце карыстацца па-за сеткай.">
-<!ENTITY MsgSelectInd.label "Спампаваць">
-<!ENTITY MsgSelectItems.label "Папкі і групы навін">

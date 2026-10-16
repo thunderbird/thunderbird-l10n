@@ -2,10 +2,6 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- LOCALIZATION NOTE (smtpServer.label): do not translate "SMTP" in below line -->
-<!ENTITY smtpServer.label "Innstillingar for utgåande SMTP-server">
-<!-- LOCALIZATION NOTE (smtpDescription.label): do not translate "SMTP" in below line -->
-<!ENTITY smtpDescription.label "Når du behandlar identitetane dine kan du bruke ein server frå denne lista ved å velje den som Utgåande Server (SMTP), eller du kan bruke standard server frå denne lista ved å velje «Bruk standard server».">
 <!-- extracted from am-advanced.xhtml -->
 <!ENTITY smtpListAdd.label "Legg til …">
 <!ENTITY smtpListAdd.accesskey "L">

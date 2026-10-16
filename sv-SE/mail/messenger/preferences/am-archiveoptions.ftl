@@ -26,13 +26,3 @@ archive-folder-name-label = Arkiv
 inbox-folder-name-label = Inkorgen
 child-folder-name-label = Undermapp till Inkorgen
 sibling-folder-name-label = Syskon till Inkorgen
-# This should match the default name for the "Archives" folder.
-archive-folder-name =
-    .label = Arkiv
-# This should match the default name for the "Inbox" folder.
-inbox-folder-name =
-    .label = Inkorgen
-child-folder-name =
-    .label = Undermapp till Inkorgen
-sibling-folder-name =
-    .label = Syskon till Inkorgen

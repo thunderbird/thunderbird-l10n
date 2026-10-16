@@ -18,5 +18,3 @@
 <!ENTITY selectButton.label "ਚੁਣੋ...">
 <!ENTITY selectButton.accesskey "E">
 <!ENTITY MsgSelectDesc.label "ਆਫਲਾਈਨ ਇਸਤੇਮਾਲ ਕਰਨ ਲਈ ਮੇਲ ਫੋਲਡਰ ਤੇ ਨਿਊਜ਼ਗਰੁੱਪ ਦੀ ਚੋਣ ਕਰੋ।">
-<!ENTITY MsgSelectInd.label "ਡਾਊਨਲੋਡ">
-<!ENTITY MsgSelectItems.label "ਫੋਲਡਰ ਅਤੇ ਨਿਊਜ਼ਗਰੁੱਪ">

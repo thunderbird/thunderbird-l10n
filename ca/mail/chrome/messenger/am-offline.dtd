@@ -14,24 +14,10 @@
 <!ENTITY autosyncNotDownload.accesskey "m">
 <!ENTITY kb.label "kB">
 <!ENTITY daysOld.label "dies">
-<!ENTITY message.label "missatges">
 <!ENTITY nntpNotDownloadRead.label "Missatges llegits">
 <!ENTITY nntpNotDownloadRead.accesskey "l">
 <!ENTITY nntpDownloadMsg.label "Missatges de fa més de">
 <!ENTITY nntpDownloadMsg.accesskey "g">
-<!ENTITY retentionCleanup.label "Per recuperar espai de disc, es poden suprimir permanentment els missatges antics.">
-<!ENTITY retentionCleanupImap.label "Per recuperar espai de disc, es poden suprimir permanentment els missatges antics, tant les còpies locals com els originals del servidor remot.">
-<!ENTITY retentionCleanupPop.label "Per recuperar espai de disc, es poden suprimir permanentment els missatges antics, inclosos els originals del servidor remot.">
-<!ENTITY retentionKeepMsg.label "Suprimeix els missatges de més de">
-<!ENTITY retentionKeepMsg.accesskey "m">
-<!ENTITY retentionKeepAll.label "No suprimeixis cap missatge">
-<!ENTITY retentionKeepAll.accesskey "a">
-<!ENTITY retentionKeepRecent.label "Suprimeix-ho tot excepte els últims">
-<!ENTITY retentionKeepRecent.accesskey "x">
-<!ENTITY retentionApplyToFlagged.label "Conserva sempre els missatges destacats">
-<!ENTITY retentionApplyToFlagged.accesskey "e">
-<!ENTITY nntpRemoveMsgBody.label "Suprimeix el cos dels missatges de més de">
-<!ENTITY nntpRemoveMsgBody.accesskey "c">
 <!ENTITY offlineSelectNntp.label "Seleccioneu els grups de discussió per ús fora de línia…">
 <!ENTITY offlineSelectNntp.accesskey "S">
 <!ENTITY offlineImapAdvancedOffline.label "Avançat…">

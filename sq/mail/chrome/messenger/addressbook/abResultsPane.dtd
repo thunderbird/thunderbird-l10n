@@ -9,8 +9,6 @@
 <!ENTITY PrimaryEmail.accesskey "M">
 <!ENTITY Company.label "Ent:">
 <!ENTITY Company.accesskey "n">
-<!ENTITY _PhoneticName.label "Emër Fonetik">
-<!ENTITY _PhoneticName.accesskey "i">
 <!ENTITY NickName.label "Nofkë">
 <!ENTITY NickName.accesskey "N">
 <!ENTITY SecondEmail.label "Email Shtesë">

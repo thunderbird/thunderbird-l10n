@@ -34,9 +34,4 @@
 <!ENTITY attachVCard.accesskey "v">
 <!ENTITY manageIdentities.label "Gestionează identitățile…">
 <!ENTITY manageIdentities.accesskey "M">
-<!-- LOCALIZATION NOTE (smtpName.label) : do not translate "SMTP" in below line -->
-<!ENTITY smtpName.label "Server de trimitere (SMTP):">
-<!ENTITY smtpName.accesskey "T">
 <!ENTITY smtpDefaultServer.label "Folosește serverul implicit">
-<!ENTITY smtpServerEdit.label "Editează serverul SMTP…">
-<!ENTITY smtpServerEdit.accesskey "P">

@@ -720,16 +720,6 @@ hide-calendar-name =
 show-only-calendar-name =
     .label = Csak { $name } megjelenítése
     .accesskey = c
-# $name calendar name
-show-calendar-label =
-    .label = { $name } megjelenítése
-# $name calendar name
-hide-calendar-label =
-    .label = { $name } elrejtése
-# uses the access key calendar.context.showonly.accesskey
-# $name calendar name
-show-only-calendar =
-    .label = Csak { $name } megjelenítése
 # LOCALIZATION NOTE (modify-conflict-*)
 # Used by the event dialog to resolve item modification conflicts.
 modify-conflict-prompt-title = Elemmódosítási ütközés

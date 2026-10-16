@@ -15,9 +15,6 @@ recurrent-event =
 calendar-invitation-location =
     .tooltiptext = { $locationProperty }
     .value = 位置：{ $locationProperty }
-# $locationProperty is the location of the event
-calendar-invitations-location =
-    .value = 位置：{ $locationProperty }
 # $organizerProperty is the organizer of the event
 organizer =
     .value = 组织者：{ $organizerProperty }

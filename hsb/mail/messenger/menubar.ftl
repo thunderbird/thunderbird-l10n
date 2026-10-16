@@ -88,12 +88,6 @@ quit-app-shortcut =
 
 ## Mail Toolbar
 
-toolbar-junk-button =
-    .label = Čapor
-    .tooltiptext = Wubrane powěsće jako čapor markěrować
-toolbar-not-junk-button =
-    .label = Nječapor
-    .tooltiptext = Wubrane powěsće jako nječapor markěrować
 toolbar-delete-button =
     .label = Zhašeć
     .tooltiptext = Wubrane powěsće abo rjadowak zhašeć

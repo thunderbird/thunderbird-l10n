@@ -30,11 +30,6 @@ appmenu-sync-sign-out =
 
 ## Add Account
 
-appmenu-new-account-panel-title =
-    .title = ახალი ანგარიში
-appmenu-new-account-panel =
-    .label = ახალი ანგარიში
-    .accesskey = ნ
 appmenu-new-email-account =
     .label = ელფოსტა
     .accesskey = ე
@@ -58,11 +53,6 @@ appmenu-add-account-panel =
 
 ## New Account / Address Book
 
-appmenu-newab-panel-title =
-    .title = ახალი წიგნაკი
-appmenu-newab-panel =
-    .label = ახალი წიგნაკი
-    .accesskey = წ
 appmenu-new-addressbook =
     .label = ადგილობრივ წიგნაკი
     .accesskey = ლ

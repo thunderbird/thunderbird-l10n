@@ -6,8 +6,6 @@ about-addressbook-title = Osoitekirja
 
 ## Toolbar
 
-about-addressbook-toolbar-new-address-book =
-    .label = Uusi osoitekirja
 about-addressbook-toolbar-add-address-book =
     .label = Lisää paikallinen osoitekirja
 about-addressbook-toolbar-add-carddav-address-book =
@@ -18,8 +16,6 @@ books-pane-create-contact-button = Uusi yhteyshenkilö
     .title = Luo uusi yhteyshenkilö
 books-pane-add-book-button =
     .title = Lisää osoitekirja
-books-pane-create-book-button =
-    .title = Luo uusi osoitekirja
 books-pane-create-list-button =
     .title = Luo uusi postituslista
 books-pane-import-button = Tuo

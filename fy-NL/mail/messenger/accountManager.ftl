@@ -5,10 +5,6 @@
 open-preferences-sidebar-button2 = { -brand-short-name }-ynstellingen
 open-addons-sidebar-button = Add-ons en tema’s
 account-tree-add-account-button = Account tafoegje
-account-action-add-newsgroup-account =
-    .label = Nijsgroepaccount tafoegje…
-    .accesskey = N
-account-tree-create-account-button = Nije account
 account-tree-add-mail-account =
     .label = E-mailaccount…
     .accesskey = m

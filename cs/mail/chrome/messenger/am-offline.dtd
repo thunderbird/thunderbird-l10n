@@ -14,24 +14,10 @@
 <!ENTITY autosyncNotDownload.accesskey "N">
 <!ENTITY kb.label "KB">
 <!ENTITY daysOld.label "dny(ů)">
-<!ENTITY message.label "zpráv">
 <!ENTITY nntpNotDownloadRead.label "Přečtené zprávy">
 <!ENTITY nntpNotDownloadRead.accesskey "P">
 <!ENTITY nntpDownloadMsg.label "Zprávy starších než">
 <!ENTITY nntpDownloadMsg.accesskey "t">
-<!ENTITY retentionCleanup.label "Pro ušetření místa na disku lze automaticky mazat staré zprávy.">
-<!ENTITY retentionCleanupImap.label "Pro ušetření místa na disku lze automaticky mazat staré zprávy, jak místní kopie, tak originály na vzdáleném serveru.">
-<!ENTITY retentionCleanupPop.label "Pro ušetření místa na disku lze automaticky mazat staré zprávy, včetně originálů na vzdáleném serveru.">
-<!ENTITY retentionKeepMsg.label "Smazat zprávy starší než">
-<!ENTITY retentionKeepMsg.accesskey "m">
-<!ENTITY retentionKeepAll.label "Nemazat žádné zprávy">
-<!ENTITY retentionKeepAll.accesskey "e">
-<!ENTITY retentionKeepRecent.label "Smazat vše mimo posledních">
-<!ENTITY retentionKeepRecent.accesskey "S">
-<!ENTITY retentionApplyToFlagged.label "Vždy ukládat zprávy s hvězdičkou">
-<!ENTITY retentionApplyToFlagged.accesskey "u">
-<!ENTITY nntpRemoveMsgBody.label "Smazat těla zpráv starších než">
-<!ENTITY nntpRemoveMsgBody.accesskey "s">
 <!ENTITY offlineSelectNntp.label "Vybrat diskusní skupiny pro použití v režimu offline…">
 <!ENTITY offlineSelectNntp.accesskey "V">
 <!ENTITY offlineImapAdvancedOffline.label "Rozšířené…">

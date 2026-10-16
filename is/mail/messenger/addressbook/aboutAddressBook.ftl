@@ -6,8 +6,6 @@ about-addressbook-title = Nafnaskrá
 
 ## Toolbar
 
-about-addressbook-toolbar-new-address-book =
-    .label = Ný nafnaskrá
 about-addressbook-toolbar-add-address-book =
     .label = Bæta við staðbundinni nafnaskrá
 about-addressbook-toolbar-add-carddav-address-book =
@@ -18,8 +16,6 @@ books-pane-create-contact-button = Nýr tengiliður
     .title = Búa til nýjan tengilið
 books-pane-add-book-button =
     .title = Bæta við nafnaskrá
-books-pane-create-book-button =
-    .title = Búa til nýja nafnaskrá
 books-pane-create-list-button =
     .title = Búa til nýjan póstlista
 books-pane-import-button = Flytja inn

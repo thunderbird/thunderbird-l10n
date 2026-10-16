@@ -17,7 +17,6 @@ webext-perms-description-compose = branje in spreminjanje e-poštnih sporočil, 
 webext-perms-description-compose-send = pošiljanje sestavljenih e-poštnih sporočil v vašem imenu
 webext-perms-description-compose-save = shranjevanje sestavljenih sporočil kot osnutke ali predloge
 webext-perms-description-experiment-access = Ta dodatek bo imel popoln, neomejen dostop do { -brand-short-name(sklon: "rodilnik") } in vašega računalnika.
-webext-perms-description-experiment = popoln, neomejen dostop do { -brand-short-name }a in vašega računalnika
 webext-perms-description-messagesImport = uvoz sporočil v Thunderbird
 webext-perms-description-messagesModify = branje in spreminjanje e-poštnih sporočil, ko se prikazujejo
 webext-perms-description-messagesModifyPermanent = trajno spreminjanje vira vaših sporočil (vključno z glavami, vsebino in priponkami)

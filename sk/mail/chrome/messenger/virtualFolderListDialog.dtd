@@ -3,5 +3,3 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY virtualFolderListTitle.title "Výber priečinkov">
 <!ENTITY virtualFolderDesc.label "Vyberte priečinky, ktoré budú prehľadávané:">
-<!ENTITY folderName.label "Názov priečinka">
-<!ENTITY folderSearch.label "Hľadať">

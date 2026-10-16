@@ -80,12 +80,6 @@ quit-app-shortcut =
 
 ## Mail Toolbar
 
-toolbar-junk-button =
-    .label = Indésirable
-    .tooltiptext = Marquer le message sélectionné comme indésirable
-toolbar-not-junk-button =
-    .label = Acceptable
-    .tooltiptext = Marquer le message sélectionné comme acceptable
 toolbar-delete-button =
     .label = Supprimer
     .tooltiptext = Supprimer les messages ou dossiers sélectionnés

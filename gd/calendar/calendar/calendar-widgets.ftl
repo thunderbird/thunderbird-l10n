@@ -20,8 +20,6 @@ calendar-enable-button = Cuir an comas
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-context-button =
     .title = Roghainnean a’ mhìosachain “{ $calendarName }”
-calendar-import-new-calendar = Mìosachan ùr…
-    .title = Cruthaich mìosachan ùr no fo-sgrìobh gu fear ùr
 calendar-refresh-calendars =
     .title = Ath-luchdaich a h-uile mìosachan is sioncronaich na h-atharraichean
 calendar-new-event-primary-button = Tachartas ùr

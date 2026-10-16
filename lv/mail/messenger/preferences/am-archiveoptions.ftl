@@ -21,9 +21,3 @@ archive-example-label = Piemērs
 archive-folder-name-label = Arhīvi
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name-label = Iesūtne
-# This should match the default name for the "Archives" folder.
-archive-folder-name =
-    .label = Arhīvi
-# This should match the default name for the "Inbox" folder.
-inbox-folder-name =
-    .label = Iesūtne

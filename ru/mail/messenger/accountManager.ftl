@@ -5,10 +5,6 @@
 open-preferences-sidebar-button2 = Настройки { -brand-short-name }
 open-addons-sidebar-button = Дополнения и темы
 account-tree-add-account-button = Добавить учётную запись
-account-action-add-newsgroup-account =
-    .label = Добавить учётную запись новостей…
-    .accesskey = н
-account-tree-create-account-button = Создать учётную запись
 account-tree-add-mail-account =
     .label = Учётная запись эл. почты…
     .accesskey = Ь

@@ -33,8 +33,6 @@
 <!ENTITY hdrFollowupButton1.tooltip "Skicka en uppföljning till nyhetsgruppen">
 <!ENTITY hdrForwardButton1.label "Vidarebefordra">
 <!ENTITY hdrForwardButton1.tooltip "Vidarebefordra meddelandet">
-<!ENTITY hdrJunkButton1.label "Skräp">
-<!ENTITY hdrJunkButton1.tooltip "Märk meddelandet som skräp">
 <!ENTITY hdrTrashButton1.label "Ta bort">
 <!ENTITY hdrTrashButton1.tooltip "Ta bort meddelandet">
 <!ENTITY hdrViewToolbarShowFull.label "Visa ikoner och text">

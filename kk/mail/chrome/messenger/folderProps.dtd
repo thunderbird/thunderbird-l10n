@@ -10,22 +10,6 @@
 <!ENTITY folderRebuildSummaryFile.explanation "Кейде бума индексі файлдары (.msf) зақымдалады, және хабарламалар жоғалған ретінде, немесе өшірілген хабарламалар қайта көрсетілуі мүмкін; буманы жөндеу осындай мәселелелерді шеше алады.">
 <!ENTITY folderIncludeInGlobalSearch.label "Бұл бумадағы хабарламаларды Глобалды іздеу нәтижелеріне қосу">
 <!ENTITY folderIncludeInGlobalSearch.accesskey "Г">
-<!ENTITY retention.label "Сақтау саясаты">
-<!ENTITY retentionUseAccount.label "Тіркелгімнің баптауларын қолдану">
-<!ENTITY retentionUseAccount.accesskey "а">
-<!ENTITY daysOld.label "күннен ескі">
-<!ENTITY message.label "хабарлама">
-<!ENTITY retentionCleanup.label "Диск орнын босату үшін, ескі хабарламаларды толығымен өшіруге болады.">
-<!ENTITY retentionCleanupImap.label "Диск орнын босату үшін, ескі хабарламаларды толығымен өшіруге болады, соның ішінде жергілікті көшірмелер және қашықтағы сервердегі түпнұсқалар.">
-<!ENTITY retentionCleanupPop.label "Диск орнын босату үшін, ескі хабарламаларды толығымен өшіруге болады, соның ішінде қашықтағы сервердегі түпнұсқалар.">
-<!ENTITY retentionDeleteMsg.label "Келесіден үлкен хабарламаларды өшіру">
-<!ENTITY retentionDeleteMsg.accesskey "м">
-<!ENTITY retentionKeepAll.label "Хабарламаларды өшірмеу">
-<!ENTITY retentionKeepAll.accesskey "м">
-<!ENTITY retentionKeepRecent.label "Барлығын өшіру, тек соңғыларын қалдырып">
-<!ENTITY retentionKeepRecent.accesskey "т">
-<!ENTITY retentionApplyToFlagged.label "Жұлдызшалы хабарламаларды әрқашан сақтау">
-<!ENTITY retentionApplyToFlagged.accesskey "т">
 <!ENTITY folderSynchronizationTab.label "Синхрондау">
 <!ENTITY folderCheckForNewMessages2.label "Бұл тіркелгі үшін жаңа хабарламаларды алу кезінде, бұл буманы әрқашан тексеру">
 <!ENTITY folderCheckForNewMessages2.accesskey "к">

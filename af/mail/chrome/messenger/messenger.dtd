@@ -31,8 +31,6 @@
 <!ENTITY renameFolder.label "Hernoem vouer…">
 <!ENTITY renameFolder.accesskey "H">
 <!ENTITY renameFolder.key "VK_F2">
-<!ENTITY compactFolders.label "Kompakteer vouers">
-<!ENTITY compactFolders.accesskey "v">
 <!ENTITY emptyTrashCmd.label "Maak snippermandjie leeg">
 <!ENTITY emptyTrashCmd.accesskey "M">
 <!ENTITY offlineMenu.label "Aflyn">
@@ -94,10 +92,6 @@
 <!ENTITY allFolders.accesskey "A">
 <!ENTITY unreadFolders.label "Ongelees">
 <!ENTITY unreadFolders.accesskey "O">
-<!ENTITY favoriteFolders.label "Gunsteling">
-<!ENTITY favoriteFolders.accesskey "G">
-<!ENTITY recentFolders.label "Onlangs">
-<!ENTITY recentFolders.accesskey "O">
 <!-- Sort Menu -->
 <!ENTITY sortMenu.label "Rangskik volgens">
 <!ENTITY sortMenu.accesskey "R">
@@ -115,8 +109,6 @@
 <!ENTITY sortByStatusCmd.accesskey "u">
 <!ENTITY sortByTagsCmd.label "Merkers">
 <!ENTITY sortByTagsCmd.accesskey "M">
-<!ENTITY sortByJunkStatusCmd.label "Gemors-status">
-<!ENTITY sortByJunkStatusCmd.accesskey "G">
 <!ENTITY sortBySubjectCmd.label "Onderwerp">
 <!ENTITY sortBySubjectCmd.accesskey "O">
 <!ENTITY sortByFromCmd.label "Van">
@@ -198,7 +190,6 @@
 <!ENTITY findPrevCmd.key2 "VK_F3">
 <!ENTITY searchMailCmd.label "Deursoek boodskappe…">
 <!ENTITY searchMailCmd.accesskey "b">
-<!ENTITY searchMailCmd.key "f">
 <!ENTITY searchAddressesCmd.label "Deursoek adresse…">
 <!ENTITY searchAddressesCmd.accesskey "D">
 <!-- Go Menu -->
@@ -262,17 +253,6 @@
 <!ENTITY forwardAsMenu.accesskey "t">
 <!ENTITY createFilter.label "Skep filter uit boodskap…">
 <!ENTITY createFilter.accesskey "S">
-<!ENTITY moveMsgToMenu.label "Skuif na">
-<!ENTITY moveMsgToMenu.accesskey "S">
-<!ENTITY moveCopyMsgRecentMenu.label "Onlangs">
-<!ENTITY moveCopyMsgRecentMenu.accesskey "O">
-<!ENTITY copyMessageLocation.label "Kopieer boodskapligging">
-<!ENTITY copyMessageLocation.accesskey "b">
-<!ENTITY copyMsgToMenu.label "Kopieer na">
-<!ENTITY copyMsgToMenu.accesskey "K">
-<!ENTITY moveToFolderAgain.label "Verskuif weer">
-<!ENTITY moveToFolderAgain.accesskey "i">
-<!ENTITY moveToFolderAgainCmd.key "m">
 <!ENTITY killThreadMenu.key "k">
 <!ENTITY killSubthreadMenu.label "Ignoreer subdraad">
 <!ENTITY killSubthreadMenu.accesskey "s">
@@ -282,15 +262,6 @@
 <!ENTITY watchThreadMenu.key "w">
 <!ENTITY tagMenu.label "Merker">
 <!ENTITY tagMenu.accesskey "M">
-<!ENTITY tagCmd1.key "1">
-<!ENTITY tagCmd2.key "2">
-<!ENTITY tagCmd3.key "3">
-<!ENTITY tagCmd4.key "4">
-<!ENTITY tagCmd5.key "5">
-<!ENTITY tagCmd6.key "6">
-<!ENTITY tagCmd7.key "7">
-<!ENTITY tagCmd8.key "8">
-<!ENTITY tagCmd9.key "9">
 <!ENTITY markMenu.label "Merk">
 <!ENTITY markMenu.accesskey "k">
 <!ENTITY markAsReadCmd.label "As gelees">
@@ -309,14 +280,6 @@
 <!ENTITY markStarredCmd.label "Voeg vlag by">
 <!ENTITY markStarredCmd.accesskey "v">
 <!ENTITY markStarredCmd.key "v">
-<!ENTITY markAsJunkCmd.label "As Gemors">
-<!ENTITY markAsJunkCmd.accesskey "G">
-<!ENTITY markAsJunkCmd.key "j">
-<!ENTITY markAsNotJunkCmd.label "As nie gemors nie">
-<!ENTITY markAsNotJunkCmd.accesskey "n">
-<!ENTITY markAsNotJunkCmd.key "j">
-<!ENTITY recalculateJunkScoreCmd.label "Laat gemorsposkontrole loop">
-<!ENTITY recalculateJunkScoreCmd.accesskey "k">
 <!ENTITY openMessageWindowCmd.label "Open boodskap">
 <!ENTITY openMessageWindowCmd.accesskey "O">
 <!ENTITY openMessageWindowCmd.key "o">
@@ -341,10 +304,6 @@
 <!ENTITY filtersApplyToSelection.accesskey "t">
 <!ENTITY filtersApplyToMessage.label "Laat loop filters op boodskap">
 <!ENTITY filtersApplyToMessage.accesskey "t">
-<!ENTITY runJunkControls.label "Laat loop Gemorsposkontroles op vouer">
-<!ENTITY runJunkControls.accesskey "k">
-<!ENTITY deleteJunk.label "Skrap pos gemerk as gemors in vouer">
-<!ENTITY deleteJunk.accesskey "S">
 <!ENTITY importCmd.label "Invoer…">
 <!ENTITY importCmd.accesskey "n">
 <!ENTITY errorConsoleCmd.label "Foutkonsole">
@@ -392,9 +351,6 @@
 <!ENTITY addressBookButton.tooltip "Gaan na die adresboek">
 <!ENTITY tagButton.tooltip "Merk boodskappe">
 <!ENTITY compactButton.tooltip "Verwyder geskrapte boodskappe uit gemerkte vouer">
-<!-- Tags Menu Popup -->
-<!ENTITY addNewTag.label "Nuwe merker…">
-<!ENTITY addNewTag.accesskey "N">
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "Naam">
 <!ENTITY folderSizeColumn.label "Grootte">
@@ -409,12 +365,8 @@
 <!ENTITY folderContextRename.accesskey "r">
 <!ENTITY folderContextRemove.label "Skrap">
 <!ENTITY folderContextRemove.accesskey "S">
-<!ENTITY folderContextCompact.label "Kompakteer">
-<!ENTITY folderContextCompact.accesskey "K">
 <!ENTITY folderContextEmptyTrash.label "Maak snippermandjie leeg">
 <!ENTITY folderContextEmptyTrash.accesskey "M">
-<!ENTITY folderContextEmptyJunk.label "Maak Gemors leeg">
-<!ENTITY folderContextEmptyJunk.accesskey "G">
 <!ENTITY folderContextSendUnsentMessages.label "Stuur ongestuurde boodskappe">
 <!ENTITY folderContextSendUnsentMessages.accesskey "u">
 <!ENTITY folderContextUnsubscribe.label "Afteken">
@@ -448,7 +400,6 @@
 <!ENTITY accountColumn.label "Rekening">
 <!ENTITY statusColumn.label "Status">
 <!ENTITY sizeColumn.label "Grootte">
-<!ENTITY junkStatusColumn.label "Gemors-status">
 <!ENTITY readColumn.label "Lees">
 <!ENTITY receivedColumn.label "Ontvang">
 <!ENTITY starredColumn.label "Gevlag">
@@ -475,12 +426,6 @@
 <!ENTITY contextReplyAll.accesskey "a">
 <!ENTITY contextReplyList.label "Antwoord aan lys">
 <!ENTITY contextReplyList.accesskey "l">
-<!ENTITY contextMoveMsgMenu.label "Skuif na">
-<!ENTITY contextMoveMsgMenu.accesskey "S">
-<!ENTITY contextMoveCopyMsgRecentMenu.label "Onlangs">
-<!ENTITY contextMoveCopyMsgRecentMenu.accesskey "O">
-<!ENTITY contextCopyMsgMenu.label "Kopieer na">
-<!ENTITY contextCopyMsgMenu.accesskey "K">
 <!-- LOCALIZATION NOTE (contextWatchThreadMenu.accesskey):
      In the en-US locale we ran out of access keys, so there is an empty access key for
      Watch Thread. Localizers can pick a suitable key -->

@@ -432,7 +432,6 @@ key-verification = Επαληθεύστε το αποτύπωμα του κλε�
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Δεν είναι δυνατή η αποστολή του μηνύματος, επειδή υπάρχει πρόβλημα με το προσωπικό σας κλειδί. { $problem }
-window-locked = Το παράθυρο σύνθεσης είναι κλειδωμένο· η αποστολή ακυρώθηκε
 
 ## Strings in keyserver.sys.mjs
 
@@ -466,9 +465,6 @@ converter-decrypt-body-failed =
 ## Strings filters.sys.mjs
 
 filter-folder-required = Πρέπει να επιλέξετε έναν φάκελο προορισμού.
-filter-decrypt-move-warn-experimental =
-    Προειδοποίηση - η ενέργεια φίλτρου "Μόνιμη αποκρυπτογράφηση" μπορεί να προκαλέσει καταστροφή μηνυμάτων.
-    Συνιστούμε ανεπιφύλακτα να δοκιμάσετε πρώτα το φίλτρο "Δημιουργία αποκρυπτογραφημένου αντιγράφου", να ελέγξετε προσεκτικά το αποτέλεσμα και να αρχίσετε να χρησιμοποιείτε αυτό το φίλτρο μόνο όταν είστε ικανοποιημένοι με το αποτέλεσμα.
 filter-term-pgpencrypted-label = Με κρυπτογράφηση OpenPGP
 filter-key-required = Πρέπει να επιλέξετε ένα κλειδί παραλήπτη.
 # Variables:
@@ -631,7 +627,6 @@ fail-key-import = Σφάλμα - η εισαγωγή κλειδιού απέτυ
 # $output (String) - File that writing was attempted to.
 file-write-failed = Αποτυχία εγγραφής στο αρχείο { $output }
 no-pgp-block = Σφάλμα - Δεν βρέθηκε έγκυρο μπλοκ δεδομένων θωράκισης OpenPGP
-confirm-permissive-import = Η εισαγωγή απέτυχε. Το κλειδί που προσπαθείτε να εισαγάγετε ενδέχεται να είναι κατεστραμμένο ή να χρησιμοποιεί άγνωστες ιδιότητες. Θέλετε να προσπαθήσετε να εισαγάγετε τα τμήματα που είναι σωστά; Αυτό μπορεί να έχει ως αποτέλεσμα την εισαγωγή ημιτελών και μη χρησιμοποιήσιμων κλειδιών.
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = Μερικά από τα μυστικά κλειδιά που εισήχθησαν διαφημίζουν μια μη υποστηριζόμενη λειτουργία. Αν χρησιμοποιήσετε ένα τέτοιο κλειδί ως το προσωπικό σας, οι συνομιλητές σας ενδέχεται να σας στείλουν email ή δημόσια κλειδιά σε μη συμβατή μορφή. Αυτό επηρεάζει τα μυστικά κλειδιά που εισήχθησαν με τα εξής αποτυπώματα: { $fingerprints }.
@@ -690,9 +685,6 @@ key-man-button-generate-key-continue = &Συνέχεια δημιουργίας 
 
 failed-decrypt = Σφάλμα - αποτυχία αποκρυπτογράφησης
 fix-broken-exchange-msg-failed = Αποτυχία επιδιόρθωσης μηνύματος.
-# Variables:
-# $attachment (String) - File name of the signature file.
-attachment-no-match-from-signature = Δεν ήταν δυνατή η αντιστοίχιση του αρχείου υπογραφής «{ $attachment }» με κάποιο συνημμένο
 # Variables:
 # Variables:
 # $attachment (String) - File name of the attachment.
@@ -803,8 +795,3 @@ enig-confirm = Επιβεβαίωση OpenPGP
 
 dlg-button-retry = &Επανάληψη
 dlg-button-skip = &Παράλειψη
-
-## Strings used in enigmailMsgBox.js
-
-enig-alert-title =
-    .title = Ειδοποίηση OpenPGP

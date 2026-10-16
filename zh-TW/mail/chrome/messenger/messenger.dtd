@@ -48,8 +48,6 @@
 <!ENTITY getAllNewMsgCmdPopupMenu.accesskey "A">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.label "目前帳號">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.accesskey "C">
-<!ENTITY getNextNMsgCmd2.label "取得下一封新聞訊息">
-<!ENTITY getNextNMsgCmd2.accesskey "t">
 <!ENTITY sendUnsentCmd.label "寄出未寄郵件">
 <!ENTITY sendUnsentCmd.accesskey "d">
 <!ENTITY subscribeCmd.label "訂閱…">
@@ -59,8 +57,6 @@
 <!ENTITY renameFolder.label "重新命名信件匣…">
 <!ENTITY renameFolder.accesskey "R">
 <!ENTITY renameFolder.key "VK_F2">
-<!ENTITY compactFolders.label "壓實重整郵件匣">
-<!ENTITY compactFolders.accesskey "F">
 <!ENTITY emptyTrashCmd.label "清空垃圾桶">
 <!ENTITY emptyTrashCmd.accesskey "y">
 <!ENTITY offlineMenu.label "離線">
@@ -129,10 +125,6 @@
 <!ENTITY allFolders.accesskey "A">
 <!ENTITY unreadFolders.label "未讀">
 <!ENTITY unreadFolders.accesskey "U">
-<!ENTITY favoriteFolders.label "最愛">
-<!ENTITY favoriteFolders.accesskey "F">
-<!ENTITY recentFolders.label "最近開啟">
-<!ENTITY recentFolders.accesskey "R">
 <!ENTITY compactVersion.label "精簡檢視">
 <!ENTITY compactVersion.accesskey "C">
 <!-- Sort Menu -->
@@ -154,8 +146,6 @@
 <!ENTITY sortByStatusCmd.accesskey "u">
 <!ENTITY sortByTagsCmd.label "標籤">
 <!ENTITY sortByTagsCmd.accesskey "g">
-<!ENTITY sortByJunkStatusCmd.label "垃圾信狀態">
-<!ENTITY sortByJunkStatusCmd.accesskey "J">
 <!ENTITY sortBySubjectCmd.label "主旨">
 <!ENTITY sortBySubjectCmd.accesskey "b">
 <!ENTITY sortByFromCmd.label "從">
@@ -243,7 +233,6 @@
 <!ENTITY findPrevCmd.key2 "VK_F3">
 <!ENTITY searchMailCmd.label "搜尋訊息…">
 <!ENTITY searchMailCmd.accesskey "M">
-<!ENTITY searchMailCmd.key "f">
 <!ENTITY glodaSearchCmd.label "全域搜尋…">
 <!ENTITY glodaSearchCmd.accesskey "G">
 <!ENTITY searchAddressesCmd.label "搜尋地址…">
@@ -334,17 +323,6 @@
 <!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN">
 <!ENTITY createFilter.label "依郵件建立篩選條件…">
 <!ENTITY createFilter.accesskey "a">
-<!ENTITY moveMsgToMenu.label "移至">
-<!ENTITY moveMsgToMenu.accesskey "M">
-<!ENTITY moveCopyMsgRecentMenu.label "最近">
-<!ENTITY moveCopyMsgRecentMenu.accesskey "R">
-<!ENTITY copyMessageLocation.label "複製訊息位置">
-<!ENTITY copyMessageLocation.accesskey "M">
-<!ENTITY copyMsgToMenu.label "複製到">
-<!ENTITY copyMsgToMenu.accesskey "C">
-<!ENTITY moveToFolderAgain.label "再次複製">
-<!ENTITY moveToFolderAgain.accesskey "i">
-<!ENTITY moveToFolderAgainCmd.key "m">
 <!ENTITY killThreadMenu.label "忽略討論串">
 <!ENTITY killThreadMenu.accesskey "I">
 <!ENTITY killThreadMenu.key "k">
@@ -356,16 +334,6 @@
 <!ENTITY watchThreadMenu.key "w">
 <!ENTITY tagMenu.label "標籤">
 <!ENTITY tagMenu.accesskey "g">
-<!ENTITY tagCmd0.key "0">
-<!ENTITY tagCmd1.key "1">
-<!ENTITY tagCmd2.key "2">
-<!ENTITY tagCmd3.key "3">
-<!ENTITY tagCmd4.key "4">
-<!ENTITY tagCmd5.key "5">
-<!ENTITY tagCmd6.key "6">
-<!ENTITY tagCmd7.key "7">
-<!ENTITY tagCmd8.key "8">
-<!ENTITY tagCmd9.key "9">
 <!ENTITY markMenu.label "標記">
 <!ENTITY markMenu.accesskey "k">
 <!ENTITY toggleReadCmd.key "m">
@@ -385,14 +353,6 @@
 <!ENTITY markStarredCmd.label "加上星號">
 <!ENTITY markStarredCmd.accesskey "S">
 <!ENTITY markStarredCmd.key "S">
-<!ENTITY markAsJunkCmd.label "垃圾信">
-<!ENTITY markAsJunkCmd.accesskey "J">
-<!ENTITY markAsJunkCmd.key "j">
-<!ENTITY markAsNotJunkCmd.label "非垃圾信">
-<!ENTITY markAsNotJunkCmd.accesskey "N">
-<!ENTITY markAsNotJunkCmd.key "j">
-<!ENTITY recalculateJunkScoreCmd.label "執行垃圾郵件控制">
-<!ENTITY recalculateJunkScoreCmd.accesskey "C">
 <!ENTITY openMessageWindowCmd.label "開啟郵件">
 <!ENTITY openMessageWindowCmd.accesskey "O">
 <!ENTITY openMessageWindowCmd.key "o">
@@ -441,10 +401,6 @@
 <!ENTITY filtersApplyToSelection.accesskey "u">
 <!ENTITY filtersApplyToMessage.label "篩選郵件">
 <!ENTITY filtersApplyToMessage.accesskey "u">
-<!ENTITY runJunkControls.label "執行垃圾郵件控制">
-<!ENTITY runJunkControls.accesskey "C">
-<!ENTITY deleteJunk.label "刪除標示為垃圾信的郵件">
-<!ENTITY deleteJunk.accesskey "D">
 <!ENTITY importCmd.label "匯入…">
 <!ENTITY importCmd.accesskey "m">
 <!ENTITY exportCmd.label "匯出…">
@@ -491,7 +447,6 @@
 <!ENTITY printButton.label "列印">
 <!ENTITY stopButton.label "停止">
 <!ENTITY throbberItem.title "進度指示器">
-<!ENTITY junkItem.title "垃圾郵件">
 <!ENTITY addressBookButton.label "通訊錄">
 <!ENTITY chatButton.label "聊天">
 <!ENTITY glodaSearch.title "全域搜尋">
@@ -553,11 +508,6 @@
 <!ENTITY appmenuNewContactCmd.label "通訊錄連絡人…">
 <!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "工具列配置…">
-<!-- Tags Menu Popup -->
-<!ENTITY addNewTag.label "新標籤…">
-<!ENTITY addNewTag.accesskey "N">
-<!ENTITY manageTags.label "管理標籤…">
-<!ENTITY manageTags.accesskey "M">
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "名稱">
 <!ENTITY folderUnreadColumn.label "未讀">
@@ -580,12 +530,8 @@
 <!ENTITY folderContextRename.accesskey "R">
 <!ENTITY folderContextRemove.label "刪除">
 <!ENTITY folderContextRemove.accesskey "D">
-<!ENTITY folderContextCompact.label "壓實重整">
-<!ENTITY folderContextCompact.accesskey "C">
 <!ENTITY folderContextEmptyTrash.label "清空垃圾桶">
 <!ENTITY folderContextEmptyTrash.accesskey "y">
-<!ENTITY folderContextEmptyJunk.label "清空垃圾郵件匣">
-<!ENTITY folderContextEmptyJunk.accesskey "J">
 <!ENTITY folderContextSendUnsentMessages.label "寄出未寄郵件">
 <!ENTITY folderContextSendUnsentMessages.accesskey "d">
 <!ENTITY folderContextUnsubscribe.label "取消訂閱">
@@ -628,7 +574,6 @@
 <!ENTITY accountColumn.label "帳號">
 <!ENTITY statusColumn.label "狀態">
 <!ENTITY sizeColumn.label "大小">
-<!ENTITY junkStatusColumn.label "垃圾信狀態">
 <!ENTITY unreadColumn.label "未讀">
 <!ENTITY totalColumn.label "全部">
 <!ENTITY readColumn.label "已讀">
@@ -652,7 +597,6 @@
 <!ENTITY accountColumn2.tooltip "依照帳號排序">
 <!ENTITY statusColumn2.tooltip "依照狀態排序">
 <!ENTITY sizeColumn2.tooltip "依照大小排序">
-<!ENTITY junkStatusColumn2.tooltip "依照垃圾信狀態排序">
 <!ENTITY unreadColumn2.tooltip "討論串中未讀訊息數量">
 <!ENTITY totalColumn2.tooltip "討論串中所有訊息數量">
 <!ENTITY readColumn2.tooltip "依照是否已讀排序">
@@ -691,16 +635,6 @@
 <!ENTITY contextReplyAll.accesskey "A">
 <!ENTITY contextReplyList.label "回覆給清單">
 <!ENTITY contextReplyList.accesskey "l">
-<!ENTITY contextMoveMsgMenu.label "移至">
-<!ENTITY contextMoveMsgMenu.accesskey "M">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "最近選擇的目的地">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "R">
-<!ENTITY contextMoveCopyMsgRecentMenu.label "最近">
-<!ENTITY contextMoveCopyMsgRecentMenu.accesskey "R">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.label "我的最愛">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.accesskey "F">
-<!ENTITY contextCopyMsgMenu.label "複製到">
-<!ENTITY contextCopyMsgMenu.accesskey "C">
 <!ENTITY contextKillThreadMenu.label "忽略討論串">
 <!ENTITY contextKillSubthreadMenu.accesskey "b">
 <!ENTITY contextKillThreadMenu.accesskey "I">

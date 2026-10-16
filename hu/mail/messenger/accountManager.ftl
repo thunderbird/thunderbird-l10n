@@ -5,10 +5,6 @@
 open-preferences-sidebar-button2 = { -brand-short-name } beállítások
 open-addons-sidebar-button = Kiegészítők és témák
 account-tree-add-account-button = Fiók hozzáadása
-account-action-add-newsgroup-account =
-    .label = Hírcsoportfiók hozzáadása…
-    .accesskey = H
-account-tree-create-account-button = Új fiók
 account-tree-add-mail-account =
     .label = E-mail-fiók…
     .accesskey = m

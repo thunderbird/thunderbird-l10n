@@ -6,8 +6,6 @@ about-addressbook-title = Հասցեագիրք
 
 ## Toolbar
 
-about-addressbook-toolbar-new-address-book =
-    .label = Նոր Հասցեագիրք
 about-addressbook-toolbar-add-carddav-address-book =
     .label = Հավելել CardDAV Հասցեագիրք
 books-pane-import-button = Ներմուծել

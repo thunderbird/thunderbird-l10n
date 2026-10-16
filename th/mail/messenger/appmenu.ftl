@@ -30,11 +30,6 @@ appmenu-sync-sign-out =
 
 ## Add Account
 
-appmenu-new-account-panel-title =
-    .title = บัญชีใหม่
-appmenu-new-account-panel =
-    .label = บัญชีใหม่
-    .accesskey = ม
 appmenu-new-email-account =
     .label = อีเมล
     .accesskey = อ
@@ -53,11 +48,6 @@ appmenu-new-newsgroup =
 
 ## New Account / Address Book
 
-appmenu-newab-panel-title =
-    .title = สมุดรายชื่อใหม่
-appmenu-newab-panel =
-    .label = สมุดรายชื่อใหม่
-    .accesskey = ส
 appmenu-new-addressbook =
     .label = สมุดรายชื่อในเครื่อง
     .accesskey = ส

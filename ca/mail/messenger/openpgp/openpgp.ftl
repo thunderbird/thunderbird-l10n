@@ -24,10 +24,6 @@ openpgp-passphrase-unlocked = La clau s'ha desblocat correctament.
 
 key-type-primary = clau principal
 
-## Strings enigmailMsgComposeOverlay.js
-
-window-locked = La finestra de redacció està blocada; s'ha cancel·lat l'enviament
-
 ## Strings used in enigmailKeyManager.js & windows.sys.mjs
 
 need-online = La funció que has seleccionat no està disponible en mode fora de línia. Connecteu-vos a Internet i torneu-ho a provar.

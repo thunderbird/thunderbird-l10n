@@ -3,10 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY subscribeDialog.title "Падпісацца">
-<!ENTITY subscribeButton.label "Падпісацца">
-<!ENTITY subscribeButton.accesskey "П">
-<!ENTITY unsubscribeButton.label "Адпісацца">
-<!ENTITY unsubscribeButton.accesskey "А">
 <!ENTITY newGroupsTab.label "Новыя групы">
 <!ENTITY newGroupsTab.accesskey "Н">
 <!ENTITY refreshButton.label "Абнавіць">

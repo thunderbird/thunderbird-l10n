@@ -10,22 +10,6 @@
 <!ENTITY folderRebuildSummaryFile.explanation "Può succedere che il file indice delle cartelle risulti danneggiato e qualche messaggio non venga visualizzato o messaggi già eliminati vengano comunque visualizzati; riparare la cartella può risolvere questo tipo di problema.">
 <!ENTITY folderIncludeInGlobalSearch.label "Includi i messaggi di questa cartella nei risultati di Ricerca globale">
 <!ENTITY folderIncludeInGlobalSearch.accesskey "I">
-<!ENTITY retention.label "Politica di conservazione">
-<!ENTITY retentionUseAccount.label "Utilizza le impostazioni dell’account">
-<!ENTITY retentionUseAccount.accesskey "U">
-<!ENTITY daysOld.label "giorni">
-<!ENTITY message.label "messaggi più recenti">
-<!ENTITY retentionCleanup.label "Per recuperare spazio su disco è possibile eliminare definitivamente i vecchi messaggi.">
-<!ENTITY retentionCleanupImap.label "Per recuperare spazio su disco è possibile eliminare definitivamente i vecchi messaggi, sia le copie locali sia quelle memorizzate nel server remoto.">
-<!ENTITY retentionCleanupPop.label "Per recuperare spazio su disco è possibile eliminare definitivamente i vecchi messaggi, incluse le copie memorizzate nel server remoto.">
-<!ENTITY retentionDeleteMsg.label "Elimina i messaggi più vecchi di">
-<!ENTITY retentionDeleteMsg.accesskey "m">
-<!ENTITY retentionKeepAll.label "Non eliminare alcun messaggio">
-<!ENTITY retentionKeepAll.accesskey "N">
-<!ENTITY retentionKeepRecent.label "Elimina tutti eccetto i">
-<!ENTITY retentionKeepRecent.accesskey "E">
-<!ENTITY retentionApplyToFlagged.label "Conserva sempre i messaggi speciali">
-<!ENTITY retentionApplyToFlagged.accesskey "C">
 <!ENTITY folderSynchronizationTab.label "Sincronizzazione">
 <!ENTITY folderCheckForNewMessages2.label "Durante lo scaricamento dei nuovi messaggi per questo account controllare sempre questa cartella">
 <!ENTITY folderCheckForNewMessages2.accesskey "c">

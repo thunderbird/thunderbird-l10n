@@ -34,9 +34,4 @@
 <!ENTITY attachVCard.accesskey "მ">
 <!ENTITY manageIdentities.label "ვინაობის პარამეტრები…">
 <!ENTITY manageIdentities.accesskey "წ">
-<!-- LOCALIZATION NOTE (smtpName.label) : do not translate "SMTP" in below line -->
-<!ENTITY smtpName.label "გამავალი სერვერი (SMTP):">
-<!ENTITY smtpName.accesskey "ვ">
 <!ENTITY smtpDefaultServer.label "ძირითადი სერვერის გამოყენება">
-<!ENTITY smtpServerEdit.label "SMTP სერვერის ჩასწორება…">
-<!ENTITY smtpServerEdit.accesskey "P">

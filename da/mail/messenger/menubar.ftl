@@ -87,12 +87,6 @@ quit-app-shortcut =
 
 ## Mail Toolbar
 
-toolbar-junk-button =
-    .label = Spam
-    .tooltiptext = Marker den valgte meddelelse som spam
-toolbar-not-junk-button =
-    .label = Ikke-spam
-    .tooltiptext = Marker den valgte meddelelse som ikke-spam
 toolbar-delete-button =
     .label = Slet
     .tooltiptext = Slet den valgte meddelelse eller mappe

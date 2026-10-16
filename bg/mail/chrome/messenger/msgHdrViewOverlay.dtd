@@ -33,8 +33,6 @@
 <!ENTITY hdrFollowupButton1.tooltip "Изпращане на отговор до дискусионната група">
 <!ENTITY hdrForwardButton1.label "Препращане">
 <!ENTITY hdrForwardButton1.tooltip "Препраща съобщението">
-<!ENTITY hdrJunkButton1.label "Нежелана">
-<!ENTITY hdrJunkButton1.tooltip "Отбелязва съобщението като нежелано">
 <!ENTITY hdrTrashButton1.label "Изтриване">
 <!ENTITY hdrTrashButton1.tooltip "Изтрива съобщението">
 <!ENTITY hdrViewToolbarShowFull.label "Показване на икони и текст ">

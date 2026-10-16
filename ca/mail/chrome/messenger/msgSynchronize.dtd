@@ -18,5 +18,3 @@
 <!ENTITY selectButton.label "Seleccioneu…">
 <!ENTITY selectButton.accesskey "S">
 <!ENTITY MsgSelectDesc.label "Seleccioneu les carpetes de correu i els grups de discussió que voleu utilitzar fora de línia.">
-<!ENTITY MsgSelectInd.label "Baixa">
-<!ENTITY MsgSelectItems.label "Carpetes i grups de discussió">

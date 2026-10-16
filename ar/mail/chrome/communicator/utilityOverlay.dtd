@@ -13,8 +13,6 @@
 <!ENTITY undoCmd.accesskey "ر">
 <!ENTITY redoCmd.label "أعد">
 <!ENTITY redoCmd.accesskey "ع">
-<!ENTITY deleteCmd.label "احذف">
-<!ENTITY deleteCmd.accesskey "ذ">
 <!ENTITY viewMenu.label "عرض">
 <!ENTITY viewMenu.accesskey "ع">
 <!ENTITY viewToolbarsMenu.label "أشرطة الأدوات">

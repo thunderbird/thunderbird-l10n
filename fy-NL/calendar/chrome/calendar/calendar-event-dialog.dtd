@@ -180,8 +180,6 @@
 <!ENTITY event.calendar.accesskey "A">
 <!ENTITY event.attendees.label "Dielnimmers:">
 <!ENTITY event.attendees.accesskey "D">
-<!ENTITY event.alldayevent.label "De hiele dei">
-<!ENTITY event.alldayevent.accesskey "d">
 <!ENTITY event.from.label "Begjin:">
 <!ENTITY event.from.accesskey "B">
 <!ENTITY task.from.label "Begjin:">
@@ -262,13 +260,6 @@
 <!ENTITY event.recurrence.monthly.fourth.label "De fjirde">
 <!ENTITY event.recurrence.monthly.fifth.label "De fiifde">
 <!ENTITY event.recurrence.monthly.last.label "De lêste">
-<!ENTITY event.recurrence.pattern.monthly.week.1.label "Snein">
-<!ENTITY event.recurrence.pattern.monthly.week.2.label "Moandei">
-<!ENTITY event.recurrence.pattern.monthly.week.3.label "Tiisdei">
-<!ENTITY event.recurrence.pattern.monthly.week.4.label "Woansdei">
-<!ENTITY event.recurrence.pattern.monthly.week.5.label "Tongersdei">
-<!ENTITY event.recurrence.pattern.monthly.week.6.label "Freed">
-<!ENTITY event.recurrence.pattern.monthly.week.7.label "Sneon">
 <!ENTITY event.recurrence.repeat.dayofmonth.label "dei fan de moanne">
 <!ENTITY event.recurrence.repeat.recur.label "Werhelje op dei(dagen)">
 <!ENTITY event.recurrence.every.label "Elke:">
@@ -281,18 +272,6 @@
      event.recurrence.pattern.yearly.of.label is "of" in
      Edit recurrence window -> Recurrence pattern -> Repeat yearly -->
 <!ENTITY event.recurrence.pattern.yearly.of.label "">
-<!ENTITY event.recurrence.pattern.yearly.month.1.label "jannewaris">
-<!ENTITY event.recurrence.pattern.yearly.month.2.label "febrewaris">
-<!ENTITY event.recurrence.pattern.yearly.month.3.label "maart">
-<!ENTITY event.recurrence.pattern.yearly.month.4.label "april">
-<!ENTITY event.recurrence.pattern.yearly.month.5.label "maaie">
-<!ENTITY event.recurrence.pattern.yearly.month.6.label "juny">
-<!ENTITY event.recurrence.pattern.yearly.month.7.label "july">
-<!ENTITY event.recurrence.pattern.yearly.month.8.label "augustus">
-<!ENTITY event.recurrence.pattern.yearly.month.9.label "septimber">
-<!ENTITY event.recurrence.pattern.yearly.month.10.label "oktober">
-<!ENTITY event.recurrence.pattern.yearly.month.11.label "novimber">
-<!ENTITY event.recurrence.pattern.yearly.month.12.label "desimber">
 <!ENTITY event.recurrence.yearly.every.label "Elke">
 <!ENTITY event.recurrence.yearly.first.label "De earste">
 <!ENTITY event.recurrence.yearly.second.label "De twadde">
@@ -300,27 +279,8 @@
 <!ENTITY event.recurrence.yearly.fourth.label "De fjirde">
 <!ENTITY event.recurrence.yearly.fifth.label "De fiifde">
 <!ENTITY event.recurrence.yearly.last.label "De lêste">
-<!ENTITY event.recurrence.pattern.yearly.week.1.label "snein">
-<!ENTITY event.recurrence.pattern.yearly.week.2.label "moandei">
-<!ENTITY event.recurrence.pattern.yearly.week.3.label "tiisdei">
-<!ENTITY event.recurrence.pattern.yearly.week.4.label "woansdei">
-<!ENTITY event.recurrence.pattern.yearly.week.5.label "tongersdei">
-<!ENTITY event.recurrence.pattern.yearly.week.6.label "freed">
-<!ENTITY event.recurrence.pattern.yearly.week.7.label "sneon">
 <!ENTITY event.recurrence.pattern.yearly.day.label "dei">
 <!ENTITY event.recurrence.of.label "fan">
-<!ENTITY event.recurrence.pattern.yearly.month2.1.label "jannewaris">
-<!ENTITY event.recurrence.pattern.yearly.month2.2.label "febrewaris">
-<!ENTITY event.recurrence.pattern.yearly.month2.3.label "maart">
-<!ENTITY event.recurrence.pattern.yearly.month2.4.label "april">
-<!ENTITY event.recurrence.pattern.yearly.month2.5.label "maaie">
-<!ENTITY event.recurrence.pattern.yearly.month2.6.label "juny">
-<!ENTITY event.recurrence.pattern.yearly.month2.7.label "july">
-<!ENTITY event.recurrence.pattern.yearly.month2.8.label "augustus">
-<!ENTITY event.recurrence.pattern.yearly.month2.9.label "septimber">
-<!ENTITY event.recurrence.pattern.yearly.month2.10.label "oktober">
-<!ENTITY event.recurrence.pattern.yearly.month2.11.label "novimber">
-<!ENTITY event.recurrence.pattern.yearly.month2.12.label "desimber">
 <!ENTITY event.recurrence.range.label "Werhellingsberyk">
 <!ENTITY event.recurrence.forever.label "Gjin eindatum">
 <!ENTITY event.recurrence.repeat.for.label "">

@@ -131,12 +131,9 @@ openpgp-external-key-title = Eksterny GnuPG-kluc
 openpgp-external-key-description = Zapódajśo klucowy ID, aby eksterny GnuPG-kluc konfigurěrował
 openpgp-external-key-info = Mimo togo musyśo zastojnik klucow wužywaś, aby wótpowědny zjawny kluc importěrował a akceptěrował.
 openpgp-external-key-warning = <b>Móžośo snaź jano jaden eksterny GnuPG-kluc konfigurěrowaś.</b> Waš pjerwjejšny zapisk se wuměnijo.
-openpgp-save-external-button = Klucowy ID składowaś
 openpgp-external-key-label = Pótajmny klucowy ID:
 openpgp-import-own-key-title = Importěrujśo swój zjawny kluc
 #   $keyId (String) - The Key ID.
 openpgp-import-own-key-description = { -brand-short-name } njejo mógł zjawny kluc z ID { $keyId } namakaś. Pšosym importěrujśo jen, aby pókšacował.
 #   $keyId (String) - The Key ID.
 openpgp-import-keyid-failed = Zjawny kluc { $keyId } njedajo se z teje dataje importěrowaś.
-openpgp-external-key-input =
-    .placeholder = 123456789341298340

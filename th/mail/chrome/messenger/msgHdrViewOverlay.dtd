@@ -33,8 +33,6 @@
 <!ENTITY hdrFollowupButton1.tooltip "โพสต์การติดตามไปยังกลุ่มข่าวนี้">
 <!ENTITY hdrForwardButton1.label "ส่งต่อ">
 <!ENTITY hdrForwardButton1.tooltip "ส่งต่อข้อความนี้">
-<!ENTITY hdrJunkButton1.label "ขยะ">
-<!ENTITY hdrJunkButton1.tooltip "ทำเครื่องหมายข้อความนี้ว่าเป็นขยะ">
 <!ENTITY hdrTrashButton1.label "ลบ">
 <!ENTITY hdrTrashButton1.tooltip "ลบข้อความนี้">
 <!ENTITY hdrViewToolbarShowFull.label "แสดงไอคอนและข้อความ">

@@ -14,24 +14,10 @@
 <!ENTITY autosyncNotDownload.accesskey "ъ">
 <!ENTITY kb.label "КБ">
 <!ENTITY daysOld.label "дни">
-<!ENTITY message.label "писма">
 <!ENTITY nntpNotDownloadRead.label "Прочетени писма">
 <!ENTITY nntpNotDownloadRead.accesskey "П">
 <!ENTITY nntpDownloadMsg.label "Писма на повече от">
 <!ENTITY nntpDownloadMsg.accesskey "и">
-<!ENTITY retentionCleanup.label "За освобождаване на дисково пространство, старите писма може да бъдат изтривани необратимо.">
-<!ENTITY retentionCleanupImap.label "За освобождаване на дисково пространство, старите писма може да бъдат изтривани необратимо, както местните копия, така и оригиналите на отдалечения сървър.">
-<!ENTITY retentionCleanupPop.label "За освобождаване на дисково пространство, старите писма може да бъдат изтривани необратимо, включително оригиналите на отдалечения сървър.">
-<!ENTITY retentionKeepMsg.label "Изтриване на писма на повече от">
-<!ENTITY retentionKeepMsg.accesskey "м">
-<!ENTITY retentionKeepAll.label "Никакви писма да не бъдат изтривани">
-<!ENTITY retentionKeepAll.accesskey "Н">
-<!ENTITY retentionKeepRecent.label "Изтриване на всички без най-новите">
-<!ENTITY retentionKeepRecent.accesskey "в">
-<!ENTITY retentionApplyToFlagged.label "Писмата със звезда винаги се запазват">
-<!ENTITY retentionApplyToFlagged.accesskey "д">
-<!ENTITY nntpRemoveMsgBody.label "Премахване на съдържанието на съобщения повече от">
-<!ENTITY nntpRemoveMsgBody.accesskey "е">
 <!ENTITY offlineSelectNntp.label "Избор на новинарски групи за използване без мрежа…">
 <!ENTITY offlineSelectNntp.accesskey "И">
 <!ENTITY offlineImapAdvancedOffline.label "Разширени…">

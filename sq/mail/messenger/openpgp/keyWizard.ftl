@@ -129,12 +129,9 @@ openpgp-external-key-title = Kyç GnuPG i Jashtëm
 openpgp-external-key-description = Formësoni një kyç të jashtëm duke dhënë ID-në e Kyçit
 openpgp-external-key-info = Veç kësaj, duhet të përdorni Përgjegjës Kyçesh për të importuar dhe pranuar Kyçin Publik përkatës.
 openpgp-external-key-warning = <b>Mund të formësoni vetëm një Kyç të jashtëm GnuPG.</b> Zëri juaj i mëparshëm do të zëvendësohet.
-openpgp-save-external-button = Ruaj ID kyçi
 openpgp-external-key-label = ID Kyçi të Fshehtë:
 openpgp-import-own-key-title = Importoni kyçin tuaj publik
 #   $keyId (String) - The Key ID.
 openpgp-import-own-key-description = { -brand-short-name }-i s’gjeti dot kyçin me ID { $keyId }. Ju lutemi, që të vazhdohet, importojeni.
 #   $keyId (String) - The Key ID.
 openpgp-import-keyid-failed = S’u importua dot kyç publik { $keyId } nga ajo kartelë.
-openpgp-external-key-input =
-    .placeholder = 123456789341298340

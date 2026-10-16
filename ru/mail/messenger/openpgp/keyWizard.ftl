@@ -130,12 +130,9 @@ openpgp-external-key-title = Внешний ключ GnuPG
 openpgp-external-key-description = Настройте внешний ключ GnuPG, введя идентификатор ключа
 openpgp-external-key-info = Кроме того, вы должны использовать Менеджер ключей для импорта и принятия соответствующего открытого ключа.
 openpgp-external-key-warning = <b>Вы можете настроить только один внешний ключ GnuPG.</b> Ваша предыдущая запись будет заменена.
-openpgp-save-external-button = Сохранить идентификатор ключа
 openpgp-external-key-label = Идентификатор секретного ключа:
 openpgp-import-own-key-title = Импортируйте свой открытый ключ
 #   $keyId (String) - The Key ID.
 openpgp-import-own-key-description = { -brand-short-name } не смог найти открытый ключ с идентификатором { $keyId }. Пожалуйста, импортируйте его для продолжения.
 #   $keyId (String) - The Key ID.
 openpgp-import-keyid-failed = Не удалось импортировать открытый ключ { $keyId } из этого файла.
-openpgp-external-key-input =
-    .placeholder = 123456789341298340

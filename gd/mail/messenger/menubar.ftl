@@ -70,12 +70,6 @@ quit-app-shortcut =
 
 ## Mail Toolbar
 
-toolbar-junk-button =
-    .label = Truilleis
-    .tooltiptext = Comharraich gur e truilleis a tha sna teachdaireachdan a thagh thu
-toolbar-not-junk-button =
-    .label = Post còir
-    .tooltiptext = Comharraich gur e post còir a tha sna teachdaireachdan a thagh thu
 toolbar-delete-button =
     .label = Sguab às
     .tooltiptext = Sguab às na teachdaireachdan no am pasgan a thagh thu

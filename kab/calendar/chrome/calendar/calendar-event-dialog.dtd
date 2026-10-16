@@ -180,8 +180,6 @@
 <!ENTITY event.calendar.accesskey "y">
 <!ENTITY event.attendees.label "Imttekkiyen:">
 <!ENTITY event.attendees.accesskey "m">
-<!ENTITY event.alldayevent.label "Tadyant n wass imeṛṛa">
-<!ENTITY event.alldayevent.accesskey "d">
 <!ENTITY event.from.label "Bdu:">
 <!ENTITY event.from.accesskey "B">
 <!ENTITY task.from.label "Bdu:">
@@ -262,13 +260,6 @@
 <!ENTITY event.recurrence.monthly.fourth.label "wis ukkus">
 <!ENTITY event.recurrence.monthly.fifth.label "wis semmus">
 <!ENTITY event.recurrence.monthly.last.label "Annegarru">
-<!ENTITY event.recurrence.pattern.monthly.week.1.label "Acer">
-<!ENTITY event.recurrence.pattern.monthly.week.2.label "Arim">
-<!ENTITY event.recurrence.pattern.monthly.week.3.label "Aram">
-<!ENTITY event.recurrence.pattern.monthly.week.4.label "Ahad">
-<!ENTITY event.recurrence.pattern.monthly.week.5.label "Amhad">
-<!ENTITY event.recurrence.pattern.monthly.week.6.label "Sem">
-<!ENTITY event.recurrence.pattern.monthly.week.7.label "Sed">
 <!ENTITY event.recurrence.repeat.dayofmonth.label "Ass n waggur">
 <!ENTITY event.recurrence.repeat.recur.label "Sniles deg ass (u-an)">
 <!ENTITY event.recurrence.every.label "Yal:">
@@ -281,18 +272,6 @@
      event.recurrence.pattern.yearly.of.label is "of" in
      Edit recurrence window -> Recurrence pattern -> Repeat yearly -->
 <!ENTITY event.recurrence.pattern.yearly.of.label "">
-<!ENTITY event.recurrence.pattern.yearly.month.1.label "Yennayer">
-<!ENTITY event.recurrence.pattern.yearly.month.2.label "Fuṛaṛ">
-<!ENTITY event.recurrence.pattern.yearly.month.3.label "Meɣres">
-<!ENTITY event.recurrence.pattern.yearly.month.4.label "Yebrir">
-<!ENTITY event.recurrence.pattern.yearly.month.5.label "Magu">
-<!ENTITY event.recurrence.pattern.yearly.month.6.label "Yunyu">
-<!ENTITY event.recurrence.pattern.yearly.month.7.label "Yulyu">
-<!ENTITY event.recurrence.pattern.yearly.month.8.label "Ɣuct">
-<!ENTITY event.recurrence.pattern.yearly.month.9.label "Cṭambeṛ">
-<!ENTITY event.recurrence.pattern.yearly.month.10.label "Tubeṛ">
-<!ENTITY event.recurrence.pattern.yearly.month.11.label "Wambeṛ">
-<!ENTITY event.recurrence.pattern.yearly.month.12.label "Dujambeṛ">
 <!ENTITY event.recurrence.yearly.every.label "Yal">
 <!ENTITY event.recurrence.yearly.first.label "Amezwaru">
 <!ENTITY event.recurrence.yearly.second.label "Wis sin">
@@ -300,27 +279,8 @@
 <!ENTITY event.recurrence.yearly.fourth.label "Wis kuẓ">
 <!ENTITY event.recurrence.yearly.fifth.label "Wis Semmus">
 <!ENTITY event.recurrence.yearly.last.label "Aneggaru">
-<!ENTITY event.recurrence.pattern.yearly.week.1.label "Acer">
-<!ENTITY event.recurrence.pattern.yearly.week.2.label "Arim">
-<!ENTITY event.recurrence.pattern.yearly.week.3.label "Aram">
-<!ENTITY event.recurrence.pattern.yearly.week.4.label "Ahad">
-<!ENTITY event.recurrence.pattern.yearly.week.5.label "Amhad">
-<!ENTITY event.recurrence.pattern.yearly.week.6.label "Sem">
-<!ENTITY event.recurrence.pattern.yearly.week.7.label "Sed">
 <!ENTITY event.recurrence.pattern.yearly.day.label "Ass">
 <!ENTITY event.recurrence.of.label "si">
-<!ENTITY event.recurrence.pattern.yearly.month2.1.label "Yennayer">
-<!ENTITY event.recurrence.pattern.yearly.month2.2.label "Fuṛaṛ">
-<!ENTITY event.recurrence.pattern.yearly.month2.3.label "Meɣres">
-<!ENTITY event.recurrence.pattern.yearly.month2.4.label "Yebrir">
-<!ENTITY event.recurrence.pattern.yearly.month2.5.label "Magu">
-<!ENTITY event.recurrence.pattern.yearly.month2.6.label "Yunyu">
-<!ENTITY event.recurrence.pattern.yearly.month2.7.label "Yulyu">
-<!ENTITY event.recurrence.pattern.yearly.month2.8.label "Ɣuct">
-<!ENTITY event.recurrence.pattern.yearly.month2.9.label "Cṭambeṛ">
-<!ENTITY event.recurrence.pattern.yearly.month2.10.label "Tubeṛ">
-<!ENTITY event.recurrence.pattern.yearly.month2.11.label "Wambeṛ">
-<!ENTITY event.recurrence.pattern.yearly.month2.12.label "Dujambeṛ">
 <!ENTITY event.recurrence.range.label "Azilal n usniles">
 <!ENTITY event.recurrence.forever.label "Ulac azemz n tagara">
 <!ENTITY event.recurrence.repeat.for.label "Snulfu">

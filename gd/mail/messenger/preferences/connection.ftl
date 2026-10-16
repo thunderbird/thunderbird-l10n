@@ -2,18 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-connection-dns-over-https-url-resolver = Cleachd solaraiche
-    .accesskey = r
-# Variables:
-#   $name (String) - Display name or URL for the DNS over HTTPS provider
-connection-dns-over-https-url-item-default =
-    .label = { $name } (bun-roghainn)
-    .tooltiptext = Cleachd an URL bunaiteach airson DNS thar HTTPS fhuasgladh
-connection-dns-over-https-url-custom =
-    .label = Gnàthaichte
-    .tooltiptext = Cuir a-steach an URL as fheàrr leat airson DNS thar HTTPS fhuasgladh
-    .accesskey = c
-connection-dns-over-https-custom-label = Gnàthaichte
 connection-proxy-legend = Rèitich progsaidhean a chum inntrigeadh dhan lìon
 proxy-type-no =
     .label = Gun phrogsaidh
@@ -73,6 +61,3 @@ proxy-password-prompt =
 proxy-remote-dns =
     .label = DNS progsaidh nuair a chleachdar SOCKS v5
     .accesskey = d
-proxy-enable-doh =
-    .label = Cuir an comas DNS air HTTPS
-    .accesskey = b

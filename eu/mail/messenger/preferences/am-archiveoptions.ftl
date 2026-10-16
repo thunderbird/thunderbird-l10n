@@ -26,13 +26,3 @@ archive-folder-name-label = Artxiboak
 inbox-folder-name-label = Sarrera-ontzia
 child-folder-name-label = Azpikarpeta sarrera-ontzian
 sibling-folder-name-label = Sarrera-ontziaren birkia
-# This should match the default name for the "Archives" folder.
-archive-folder-name =
-    .label = Artxiboak
-# This should match the default name for the "Inbox" folder.
-inbox-folder-name =
-    .label = Sarrera-ontzia
-child-folder-name =
-    .label = Azpikarpeta sarrera-ontzian
-sibling-folder-name =
-    .label = Sarrera-ontziaren birkia

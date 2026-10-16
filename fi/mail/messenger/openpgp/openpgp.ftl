@@ -416,7 +416,6 @@ key-verification = Varmista avaimen sormenjälki muulla suojatulla viestintäkan
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Viestiä ei voida lähettää, koska henkilökohtaisessa avaimessasi on ongelma. { $problem }
-window-locked = Kirjoitusikkuna on lukittu; lähetys peruutettu
 
 ## Strings in keyserver.sys.mjs
 
@@ -450,9 +449,6 @@ converter-decrypt-body-failed =
 ## Strings filters.sys.mjs
 
 filter-folder-required = Kohdekansio on valittava.
-filter-decrypt-move-warn-experimental =
-    Varoitus - suodatustoiminto "Pura salaus pysyvästi" saattaa johtaa tuhoutuneisiin viesteihin.
-    Suositteleme vahvasti, että kokeilet ensin "Luo salauksesta purettu kopio"-suodatinta, testaat tuloksen huolellisesti, ja aloitat tämän suodattimen käytön vasta kun olet tyytyyväinen lopputulokseen.
 filter-term-pgpencrypted-label = OpenPGP-salattu
 filter-key-required = Vastaanottajan avain on valittava.
 # Variables:
@@ -615,7 +611,6 @@ fail-key-import = Virhe - avaimen tuominen epäonnistui
 # $output (String) - File that writing was attempted to.
 file-write-failed = Kirjoitus tiedostoon { $output } epäonnistui
 no-pgp-block = Virhe - Kelvollista panssaroitua OpenPGP-datalohkoa ei löytynyt
-confirm-permissive-import = Tuonti epäonnistui. Avain, jota yritit tuoda, saattaa olla rikkoutunut tai se se saattaa käyttää tuntemattomia ominaisuuksia. Haluatko yrittää tuoda kelvolliset osat avaimesta? Tämä saattaa johtaa epätäydellisten ja käyttökelvottomien avainten tuontiin.
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = Jotkin tuoduista salaisista avaimista mainostavat ominaisuutta, jota ei tueta. Jos käytät tällaista avainta henkilökohtaisena avaimenasi, yhteydenpidon osapuolet voivat lähettää sinulle sähköpostia tai julkisia avaimia yhteensopimattomassa muodossa. Tämä vaikuttaa tuotuihin salaisiin avaimiin, joissa on seuraavat sormenjäljet: { $fingerprints }.
@@ -674,9 +669,6 @@ key-man-button-generate-key-continue = &Jatka avaimen luomista
 
 failed-decrypt = Virhe - salauksen purkaminen epäonnistui
 fix-broken-exchange-msg-failed = Viestin korjaaminen ei onnistunut.
-# Variables:
-# $attachment (String) - File name of the signature file.
-attachment-no-match-from-signature = Allekirjoitustiedostoa '{ $attachment }' ei voitu täsmätä liitteeseen
 # Variables:
 # Variables:
 # $attachment (String) - File name of the attachment.
@@ -782,8 +774,3 @@ enig-confirm = OpenPGP-vahvistus
 
 dlg-button-retry = &Yritä uudelleen
 dlg-button-skip = &Ohita
-
-## Strings used in enigmailMsgBox.js
-
-enig-alert-title =
-    .title = OpenPGP-hälytys

@@ -413,7 +413,6 @@ key-verification = Verifitgescha l'impronta digitala da la clav cun agid dad in 
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Impussibel da trametter il messadi. I dat in problem cun tia clav persunala. { $problem }
-window-locked = La fanestra da rediger è bloccada; spediziun annullada
 
 ## Strings in keyserver.sys.mjs
 
@@ -447,9 +446,6 @@ converter-decrypt-body-failed =
 ## Strings filters.sys.mjs
 
 filter-folder-required = Ti stos tscherner in ordinatur da destinaziun.
-filter-decrypt-move-warn-experimental =
-    Attenziun! L'acziun dal filter «Decriptar permanent» po destruir messadis.
-    Nus recumandain dad exnum empruvar l'emprim il filter «Crear ina copia decriptada», lura controllar bain il resultat e pir cumenzar ad utilisar quest filter sch'il resultat satisfa.
 filter-term-pgpencrypted-label = Criptà cun OpenPGP
 filter-key-required = Ti stos tscherner ina clav dal destinatur.
 # Variables:
@@ -612,7 +608,6 @@ fail-key-import = Errur – l'import da la clav n'è betg reussì
 # $output (String) - File that writing was attempted to.
 file-write-failed = Betg reussì da scriver en la datoteca { $output }
 no-pgp-block = Errur – Chattà nagin bloc da datas OpenPGP armored valid
-confirm-permissive-import = L'import n'è betg reussi. La clav che ti emprovas dad importar è eventualmain donnegiada u ch'ella utilisescha attributs nunenconuschents. Vuls ti empruvar dad importar las parts correctas? Quai po avair per consequenza che las clavs importadas èn nuncumplettas e betg utilisablas.
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = Intginas da las clavs secretas importadas propageschan ina funcziun betg sustegnida. Sche ti utiliseschas ina tala clav sco tia clav persunala, ta tramettan correspundents eventualmain e-mails u clavs publicas en in format incumpatibel. Quai pertutga clavs secretas importadas cun las suandantas improntas: { $fingerprints }.
@@ -671,9 +666,6 @@ key-man-button-generate-key-continue = &Cuntinuar cun la generaziun da la clav
 
 failed-decrypt = Errur – decriptadi betg reussì
 fix-broken-exchange-msg-failed = I n'è betg reussì da reparar il messadi.
-# Variables:
-# $attachment (String) - File name of the signature file.
-attachment-no-match-from-signature = Impussibel d'associar la datoteca da signatura «{ $attachment }» cun ina agiunta
 # Variables:
 # Variables:
 # $attachment (String) - File name of the attachment.
@@ -779,8 +771,3 @@ enig-confirm = Conferma OpenPGP
 
 dlg-button-retry = &Reempruvar
 dlg-button-skip = &Sursiglir
-
-## Strings used in enigmailMsgBox.js
-
-enig-alert-title =
-    .title = Avertiment OpenPGP

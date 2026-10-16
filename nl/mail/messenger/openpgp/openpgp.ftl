@@ -432,7 +432,6 @@ key-verification = Controleer de vingerafdruk van de sleutel met een ander bevei
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Kan het bericht niet verzenden, omdat er een probleem is met uw persoonlijke sleutel. { $problem }
-window-locked = Het opstelvenster is vergrendeld; verzenden geannuleerd
 
 ## Strings in keyserver.sys.mjs
 
@@ -466,9 +465,6 @@ converter-decrypt-body-failed =
 ## Strings filters.sys.mjs
 
 filter-folder-required = U moet een doelmap selecteren.
-filter-decrypt-move-warn-experimental =
-    Waarschuwing – de filteractie ‘Permanent ontsleutelen’ kan leiden tot vernietigde berichten.
-    We raden u sterk aan om eerst het filter ‘Ontsleutelde kopie maken’ te proberen, het resultaat zorgvuldig te testen en dit filter pas te gaan gebruiken als u tevreden bent met het resultaat.
 filter-term-pgpencrypted-label = OpenPGP-versleuteld
 filter-key-required = U moet een ontvangersleutel selecteren.
 # Variables:
@@ -631,7 +627,6 @@ fail-key-import = Fout – importeren van sleutel mislukt
 # $output (String) - File that writing was attempted to.
 file-write-failed = Kan niet naar bestand { $output } schrijven
 no-pgp-block = Fout – geen geldig armored OpenPGP-gegevensblok gevonden
-confirm-permissive-import = Importeren mislukt. De sleutel die u probeert te importeren, is mogelijk beschadigd of gebruikt onbekende attributen. Wilt u proberen de juiste delen te importeren? Dit kan ertoe leiden dat onvolledige en onbruikbare sleutels worden geïmporteerd.
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = Sommige geïmporteerde geheime sleutels geven een niet-ondersteunde functie aan. Als u een dergelijke sleutel als uw persoonlijke sleutel gebruikt, kunnen contacten u e-mailberichten of publieke sleutels in een niet-compatibele indeling sturen. Dit betreft geïmporteerde geheime sleutels met de volgende fingerprints: { $fingerprints }.
@@ -690,9 +685,6 @@ key-man-button-generate-key-continue = Sleutelaanmaak &voortzetten
 
 failed-decrypt = Fout – ontsleuteling mislukt
 fix-broken-exchange-msg-failed = Kon bericht niet repareren.
-# Variables:
-# $attachment (String) - File name of the signature file.
-attachment-no-match-from-signature = Kan ondertekeningbestand ‘{ $attachment }’ niet koppelen aan een bijlage
 # Variables:
 # Variables:
 # $attachment (String) - File name of the attachment.
@@ -803,8 +795,3 @@ enig-confirm = OpenPGP-bevestiging
 
 dlg-button-retry = &Opnieuw proberen
 dlg-button-skip = Over&slaan
-
-## Strings used in enigmailMsgBox.js
-
-enig-alert-title =
-    .title = OpenPGP-waarschuwing

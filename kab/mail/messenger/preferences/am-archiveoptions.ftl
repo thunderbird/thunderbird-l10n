@@ -21,9 +21,3 @@ archive-example-label = Amedya
 archive-folder-name-label = Aḥraz
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name-label = Tabwaṭ
-# This should match the default name for the "Archives" folder.
-archive-folder-name =
-    .label = Aḥraz
-# This should match the default name for the "Inbox" folder.
-inbox-folder-name =
-    .label = Tabwaṭ

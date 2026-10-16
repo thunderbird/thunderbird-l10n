@@ -420,7 +420,6 @@ key-verification = Перевірте відбиток ключа за допо�
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Не вдається надіслати повідомлення, оскільки є проблема з вашим особистим ключем. { $problem }
-window-locked = Вікно написання заблоковано; надсилання скасовано
 
 ## Strings in keyserver.sys.mjs
 
@@ -454,9 +453,6 @@ converter-decrypt-body-failed =
 ## Strings filters.sys.mjs
 
 filter-folder-required = Виберіть теку для збереження.
-filter-decrypt-move-warn-experimental =
-    Попередження - дія фільтра "Завжди розшифрувати" може призвести до знищення повідомлень.
-    Ми наполегливо радимо спершу спробувати фільтр "Створити розшифровану копію", ретельно перевірити результат та застосувати цей фільтр лише після задоволених результатів.
 filter-term-pgpencrypted-label = Захищено OpenPGP
 filter-key-required = Потрібно вибрати ключ отримувача.
 # Variables:
@@ -619,7 +615,6 @@ fail-key-import = Помилка - Не вдалось імпортувати к
 # $output (String) - File that writing was attempted to.
 file-write-failed = Не вдалося записати до файлу { $output }
 no-pgp-block = Помилка - не знайдено дійсного додатково захищеного блоку даних OpenPGP
-confirm-permissive-import = Не вдалося імпортувати. Ключ, який ви намагаєтеся імпортувати, може бути пошкоджено або використовує невідомі атрибути. Бажаєте імпортувати правильні подробиці? Це може призвести до імпорту неповних та непридатних ключів.
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = Деякі з імпортованих секретних ключів містять непідтримувані функції. Якщо ви використаєте такий ключ як особистий, то кореспонденти можуть надсилати вам електронні листи або відкриті ключі в несумісному форматі. Це впливає на імпортовані секретні ключі з такими відбитками: { $fingerprints }.
@@ -678,9 +673,6 @@ key-man-button-generate-key-continue = &Продовжити створення 
 
 failed-decrypt = Помилка - не вдалося розшифрувати
 fix-broken-exchange-msg-failed = Не вдалося відновити повідомлення.
-# Variables:
-# $attachment (String) - File name of the signature file.
-attachment-no-match-from-signature = Не вдалося зіставити файл підпису '{ $attachment }' та вкладений файл
 # Variables:
 # Variables:
 # $attachment (String) - File name of the attachment.
@@ -786,8 +778,3 @@ enig-confirm = Підтвердження OpenPGP
 
 dlg-button-retry = &Повторити
 dlg-button-skip = &Пропустити
-
-## Strings used in enigmailMsgBox.js
-
-enig-alert-title =
-    .title = Сповіщення OpenPGP

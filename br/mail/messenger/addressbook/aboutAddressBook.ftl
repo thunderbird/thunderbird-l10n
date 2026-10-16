@@ -3,11 +3,6 @@
 # file, you can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Toolbar
-
-about-addressbook-toolbar-new-address-book =
-    .label = Karned chomlec’hioù nevez
-
 ## Books
 
 all-address-books-row =

@@ -13,8 +13,6 @@
 <!ENTITY undoCmd.accesskey "r">
 <!ENTITY redoCmd.label "Yinele">
 <!ENTITY redoCmd.accesskey "Y">
-<!ENTITY deleteCmd.label "Sil">
-<!ENTITY deleteCmd.accesskey "S">
 <!ENTITY customizeCmd.label "Özelleştir">
 <!ENTITY customizeCmd.accesskey "t">
 <!ENTITY viewMenu.label "Görünüm">

@@ -3,10 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY subscribeDialog.title "Harpidetu">
-<!ENTITY subscribeButton.label "Harpidetu">
-<!ENTITY subscribeButton.accesskey "H">
-<!ENTITY unsubscribeButton.label "Kendu harpidetza">
-<!ENTITY unsubscribeButton.accesskey "u">
 <!ENTITY newGroupsTab.label "Berri-taldeak">
 <!ENTITY newGroupsTab.accesskey "B">
 <!ENTITY refreshButton.label "Berritu">

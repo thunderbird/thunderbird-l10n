@@ -56,14 +56,7 @@ account-hub-email-connect-button = Kết nối
 account-hub-result-incoming-legend = Nhận thư
 account-hub-result-outgoing-legend = Gửi thư
 account-hub-all-servers-legend = Tất cả máy chủ
-account-hub-incoming-server-legend = Máy chủ nhận thư
-account-hub-outgoing-server-legend = Máy chủ gửi thư
-account-hub-result-incoming-server-legend = Máy chủ nhận thư
-    .title = Máy chủ nhận thư
-account-hub-result-outgoing-server-legend = Máy chủ gửi thư
-    .title = Máy chủ gửi thư
 account-hub-protocol-label = Giao thức
-account-hub-hostname-label = Tên máy chủ
 account-hub-result-hostname-label = Tên máy chủ
     .title = Tên máy chủ
 account-hub-result-socket-type-label = Bảo mật kết nối
@@ -94,10 +87,6 @@ account-hub-result-auth-ntlm = NTLM
 account-hub-result-auth-external = External
 account-hub-result-auth-oauth2 = OAuth2
 account-hub-on-port-label = Cổng
-account-hub-result-authentication-label = Xác minh
-    .title = Xác minh
-account-hub-port-label = Cổng
-    .title = Đặt cổng thành 0 để tự động phát hiện
 account-hub-auto-description = { -brand-short-name } sẽ thử tự động phát hiện các trường bị bỏ trống.
 account-hub-ssl-label = Bảo mật kết nối
 
@@ -105,8 +94,6 @@ account-hub-ssl-label = Bảo mật kết nối
 
 account-hub-ssl-autodetect-option =
     .label = Tự động phát hiện
-account-hub-ssl-no-authentication-option =
-    .label = Không xác thực
 account-hub-ssl-cleartext-password-option =
     .label = Mật khẩu bình thường
 account-hub-ssl-encrypted-password-option =
@@ -268,7 +255,6 @@ account-hub-email-exchange-settings = Cài đặt Exchange
 account-hub-email-connect-settings = Kết nối cài đặt email của bạn
 account-hub-email-protocol-select-header = Chọn loại tài khoản email
 account-hub-email-protocol-select-additional-info = Cần cung cấp thêm thông tin để thiết lập tài khoản này.
-account-hub-email-config-found = Chọn loại tài khoản email của bạn
 account-hub-email-enter-password = Nhập mật khẩu tài khoản email của bạn
 account-hub-email-sync-accounts = Đồng bộ hóa lịch và sổ địa chỉ của bạn
 account-hub-test-configuration = Kiểm tra
@@ -295,7 +281,6 @@ account-hub-config-success-description-guess = Cấu hình được tìm thấy 
 account-hub-config-success-description-disk = Cấu hình được tìm thấy trong bộ cài đặt { -brand-short-name }.
 account-hub-config-success-description-isp = Cấu hình được tìm thấy tại nhà cung cấp email.
 account-hub-config-success-description-read-more = Bạn co thể <a data-l10n-name="automated-setup-link">tìm hiểu về cách thiết lập email tự động hoạt động..</a>
-account-hub-config-success = Cấu hình được tìm thấy trong Mozilla ISPDB
 account-hub-password-info = Thông tin đăng nhập của bạn sẽ chỉ được lưu trữ cục bộ trên máy tính của bạn
 account-hub-creating-account = Đang tạo tài khoản…
 account-hub-sync-accounts-found = { -brand-short-name } tìm thấy một số dịch vụ được kết nối
@@ -322,10 +307,8 @@ account-hub-username-error-text = Tên đăng nhập là bắt buộc
 account-hub-manual-config-error-summary = Vui lòng khắc phục các lỗi sau:
 account-hub-oauth-pending = Đang chờ xác thực trong cửa sổ bật lên đăng nhập…
 account-hub-addon-install-button = Cài đặt
-account-hub-addon-install-needed = { -brand-short-name } không hỗ trợ máy chủ này một cách tự nhiên. Để truy cập email Exchange, <a data-l10n-name="addon-install"> cài đặt tiện ích của bên thứ ba như Owl (trả phí).</a>
 account-hub-addon-error = Cài đặt tiện ích không thành công. Vui lòng thử lại hoặc liên hệ với tác giả tiện ích để được hỗ trợ.
 account-hub-select-security-warning = <span data-l10n-name="error-text">Cảnh báo: Phát hiện máy chủ thư không an toàn.</span> Máy chủ này không có mã hóa, làm lộ mật khẩu và dữ liệu của bạn. Liên hệ với quản trị viên của bạn để bảo mật kết nối hoặc tự chịu rủi ro. <a data-l10n-name="error-link">em câu hỏi thường gặp để biết thêm.</a>
-account-hub-security-warning = <span data-l10n-name="security-warning">Cảnh báo: Phát hiện máy chủ thư không an toàn.</span> Máy chủ này không có mã hóa, làm lộ mật khẩu và dữ liệu của bạn. Liên hệ với quản trị viên của bạn để bảo mật kết nối hoặc tự chịu rủi ro. <a data-l10n-name="faq-link">Xem câu hỏi thường gặp để biết thêm.</a>
 account-hub-account-authentication-error = Lỗi khi xác thực.
 account-hub-add-address-book = Thêm sổ địa chỉ
 address-book-sync-existing-icon =
@@ -351,7 +334,6 @@ address-book-add-ldap = Sổ địa chỉ LDAP mới
 address-book-add-ldap-description = Kết nối với sổ địa chỉ LDAP từ xa
 # $addressBooks (Number) - The number of address books that can be synced from existing accounts.
 account-hub-address-book-sync-books-data = { $addressBooks } sổ địa chỉ có sẵn
-account-hub-fetching-sync-accounts = Đang khám phá sổ địa chỉ và lịch…
 address-book-sync-existing-description = Đang truy xuất các tài khoản hiện có…
 account-hub-select-address-book-account = Chọn một tài khoản có sổ địa chỉ
 # $synced (Number) - The number of address books that are synced.

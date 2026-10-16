@@ -3,5 +3,3 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY virtualFolderListTitle.title "เลือกโฟลเดอร์">
 <!ENTITY virtualFolderDesc.label "เลือกโฟลเดอร์ที่จะค้นหา:">
-<!ENTITY folderName.label "ชื่อโฟลเดอร์">
-<!ENTITY folderSearch.label "ค้นหา">

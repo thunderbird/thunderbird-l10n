@@ -40,14 +40,9 @@ openpgp-has-nested-signed-parts = Certaines parties de ce message peuvent être 
 openpgp-show-signed-parts = Ouvrir et afficher
 openpgp-cannot-decrypt-because-mdc = Ce message chiffré a recours à un mécanisme ancien et vulnérable. Il a pu être modifié pendant sa transmission, avec l’intention de dérober son contenu. Pour éviter ce risque, le contenu n’est pas affiché.
 openpgp-cannot-decrypt-because-missing-key = La clé secrète nécessaire pour déchiffrer ce message n’est pas disponible.
-openpgp-partially-signed =
-    Seule une partie de ce message a été signée numériquement à l’aide d’OpenPGP.
-    Si vous cliquez sur le bouton Vérifier, les parties non protégées seront masquées et l’état de la signature numérique sera affiché.
 openpgp-partially-encrypted =
     Seule une partie de ce message a été chiffrée à l’aide d’OpenPGP.
     Les parties lisibles du message qui sont déjà affichées n’ont pas été chiffrées.
     Si vous cliquez sur le bouton Déchiffrer, le contenu des parties chiffrées sera affiché.
-openpgp-reminder-partial-display = Rappel : le message ci-dessous n’est qu’une partie du message d’origine.
-openpgp-partial-verify-button = Vérifier
 openpgp-partial-decrypt-button = Déchiffrer
 openpgp-unexpected-key-for-you = Attention : Ce message contient une clé OpenPGP inconnue qui fait référence à l’une de vos adresses e-mail. Si ce n’est pas l’une de vos clés, cela pourrait être une tentative de tromper d’autres correspondants.

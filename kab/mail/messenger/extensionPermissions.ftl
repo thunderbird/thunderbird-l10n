@@ -15,7 +15,6 @@ webext-perms-description-accountsRead = Wali imiḍanen-ik·im n yimayl, timagiy
 webext-perms-description-addressBooks = Ɣer neɣ snifel imedlisen n tensa-inek/inem akked inermisen-ik/im
 webext-perms-description-compose = Ɣer tbeddleḍ iznan n yimayl-ik deg wakud n tira-nsen d tuzna-nsen
 webext-perms-description-compose-send = Azen iznan n yimayl yettwarun s yisem-ik·im
-webext-perms-description-experiment = Sɛu anekcum ummid war tilas ɣer { -brand-short-name } akked uselkim-ik
 webext-perms-description-messagesImport = Kter tugniwin ɣer Thunderbird
 webext-perms-description-messagesModify = Ɣeṛ tesnifleḍ iznan n yimal-ik.im mi ara ak.am-d-ttbanen.
 webext-perms-description-messagesMove = Nɣel neɣ senkez iznan-ik·im n yimayl (akked tririt-nsen ɣer tqecwalt n yikaramen)

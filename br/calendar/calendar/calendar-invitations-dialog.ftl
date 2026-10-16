@@ -9,9 +9,6 @@ calendar-invitation-current-participation-status-icon-declined =
 calendar-invitation-current-participation-status-icon-needs-action =
     .alt = Hep diviz evit poent
 allday-event = Darvoud war an devezh a-bezh
-# $locationProperty is the location of the event
-calendar-invitations-location =
-    .value = Lec’hiadur: { $locationProperty }
 # $organizerProperty is the organizer of the event
 organizer =
     .value = Aozer: { $organizerProperty }

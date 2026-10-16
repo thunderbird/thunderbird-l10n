@@ -23,8 +23,6 @@
 <!ENTITY closeConversationCmd.accesskey "შ">
 <!ENTITY aliasCmd.label "გადარქმევა">
 <!ENTITY aliasCmd.accesskey "ქ">
-<!ENTITY deleteCmd.label "პირის მოცილება">
-<!ENTITY deleteCmd.accesskey "ც">
 <!ENTITY openConversationButton.tooltip "საუბრის დაწყება">
 <!ENTITY closeConversationButton.tooltip "საუბრის შეწყვეტა">
 <!ENTITY addBuddyButton.label "პირის დამატება">

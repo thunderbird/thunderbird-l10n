@@ -23,8 +23,6 @@
 <!ENTITY closeConversationCmd.accesskey "y">
 <!ENTITY aliasCmd.label "Nomini o‘zgartirish">
 <!ENTITY aliasCmd.accesskey "N">
-<!ENTITY deleteCmd.label "Kontaktni olib tashlash">
-<!ENTITY deleteCmd.accesskey "o">
 <!ENTITY openConversationButton.tooltip "Suhbatni boshlash">
 <!ENTITY closeConversationButton.tooltip "Suhbatni yopish">
 <!ENTITY addBuddyButton.label "Kontaktni qo‘shish">

@@ -34,9 +34,4 @@
 <!ENTITY attachVCard.accesskey "t">
 <!ENTITY manageIdentities.label "Muokkaa vaihtoehtoisia käyttäjätietoja...">
 <!ENTITY manageIdentities.accesskey "u">
-<!-- LOCALIZATION NOTE (smtpName.label) : do not translate "SMTP" in below line -->
-<!ENTITY smtpName.label "Lähtevän postin palvelin (SMTP)">
-<!ENTITY smtpName.accesskey "p">
 <!ENTITY smtpDefaultServer.label "Käytä oletuspalvelinta">
-<!ENTITY smtpServerEdit.label "Muokkaa SMTP-palvelinta…">
-<!ENTITY smtpServerEdit.accesskey "P">

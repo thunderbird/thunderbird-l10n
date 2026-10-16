@@ -18,5 +18,3 @@
 <!ENTITY selectButton.label "Eliger…">
 <!ENTITY selectButton.accesskey "E">
 <!ENTITY MsgSelectDesc.label "Selige dossiers de posta e gruppos de discussion pro uso foras de linea.">
-<!ENTITY MsgSelectInd.label "Discargar">
-<!ENTITY MsgSelectItems.label "Dossiers e gruppos">

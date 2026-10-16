@@ -87,12 +87,6 @@ quit-app-shortcut =
 
 ## Mail Toolbar
 
-toolbar-junk-button =
-    .label = Небажане
-    .tooltiptext = Позначте вибрані повідомлення небажаними
-toolbar-not-junk-button =
-    .label = Не небажане
-    .tooltiptext = Позначте вибрані повідомлення не небажаними
 toolbar-delete-button =
     .label = Видалити
     .tooltiptext = Видалити вибрані повідомлення або теку

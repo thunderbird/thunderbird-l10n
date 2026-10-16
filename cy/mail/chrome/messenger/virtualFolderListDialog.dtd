@@ -3,5 +3,3 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY virtualFolderListTitle.title "Dewis Ffolder(i)">
 <!ENTITY virtualFolderDesc.label "Dewis ffolderi i'w chwilio:">
-<!ENTITY folderName.label "Enw ffolder">
-<!ENTITY folderSearch.label "Chwilio">

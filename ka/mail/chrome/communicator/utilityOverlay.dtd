@@ -13,8 +13,6 @@
 <!ENTITY undoCmd.accesskey "დ">
 <!ENTITY redoCmd.label "გამეორება">
 <!ENTITY redoCmd.accesskey "ო">
-<!ENTITY deleteCmd.label "წაშლა">
-<!ENTITY deleteCmd.accesskey "წ">
 <!ENTITY customizeCmd.label "მორგება">
 <!ENTITY customizeCmd.accesskey "რ">
 <!ENTITY viewMenu.label "ჩვენება">

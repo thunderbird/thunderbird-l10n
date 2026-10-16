@@ -2,18 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-connection-dns-over-https-url-resolver = Gunakan Penyedia
-    .accesskey = r
-# Variables:
-#   $name (String) - Display name or URL for the DNS over HTTPS provider
-connection-dns-over-https-url-item-default =
-    .label = { $name } (Baku)
-    .tooltiptext = Gunakan URL baku untuk menetapkan DNS lewat HTTPS
-connection-dns-over-https-url-custom =
-    .label = Ubahsuai
-    .tooltiptext = Masukkan URL pilihan Anda untuk menetapkan DNS lewat HTTPS
-    .accesskey = C
-connection-dns-over-https-custom-label = Ubahsuai
 connection-dialog-title = Pengaturan Sambungan
 disable-extension-button = Nonaktifkan Ekstensi
 # Variables:
@@ -106,6 +94,3 @@ proxy-password-prompt =
 proxy-remote-dns =
     .label = DNS proksi saat menggunakan SOCKS v5
     .accesskey = d
-proxy-enable-doh =
-    .label = Aktifkan DNS lewat HTTPS
-    .accesskey = b

@@ -5,16 +5,3 @@
 <!-- extracted from AccountManager.xhtml -->
 <!ENTITY accountManagerTitle.label "Kontoinnstillinger">
 <!ENTITY accountManagerCloseButton.label "Lukk">
-<!ENTITY accountActionsButton.label "Kontohandlinger">
-<!ENTITY accountActionsButton.accesskey "K">
-<!ENTITY addMailAccountButton.label "Legg til e-postkonto …">
-<!ENTITY addMailAccountButton.accesskey "e">
-<!ENTITY addIMAccountButton.label "Legg til nettpratkonto …">
-<!ENTITY addIMAccountButton.accesskey "r">
-<!ENTITY addFeedAccountButton.label "Legg til nyhetskildekonto …">
-<!ENTITY addFeedAccountButton.accesskey "h">
-<!ENTITY setDefaultButton.label "Bruk som standard">
-<!ENTITY setDefaultButton.accesskey "s">
-<!ENTITY removeButton.label "Slett konto">
-<!ENTITY removeButton.accesskey "t">
-<!ENTITY addonsButton.label "Utvidelser og temaer">

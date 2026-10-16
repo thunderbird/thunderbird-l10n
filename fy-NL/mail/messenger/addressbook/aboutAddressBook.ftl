@@ -6,8 +6,6 @@ about-addressbook-title = Adresboek
 
 ## Toolbar
 
-about-addressbook-toolbar-new-address-book =
-    .label = Nij adresboek
 about-addressbook-toolbar-add-address-book =
     .label = Lokaal adresboek tafoegje
 about-addressbook-toolbar-add-carddav-address-book =
@@ -18,8 +16,6 @@ books-pane-create-contact-button = Nij kontakt
     .title = In nij kontakt oanmeitsje
 books-pane-add-book-button =
     .title = Adresboek tafoegje
-books-pane-create-book-button =
-    .title = In nij adresboek oanmeitsje
 books-pane-create-list-button =
     .title = In nije e-maillist oanmeitsje
 books-pane-import-button = Ymportearje

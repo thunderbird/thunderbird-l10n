@@ -209,7 +209,6 @@
 <!ENTITY smiley7Cmd.label "N'eo ket lakaet e soñj">
 <!ENTITY smiley8Cmd.label "Souezhadenn">
 <!ENTITY smiley9Cmd.label "Pokañ">
-<!ENTITY smiley10Cmd.label "Yudal">
 <!ENTITY smiley11Cmd.label "Koul">
 <!ENTITY smiley12Cmd.label "Beg-arc'hant">
 <!ENTITY smiley13Cmd.label "Beg-troad">
@@ -258,12 +257,6 @@
 <!ENTITY convertRegularAttachment.accesskey "a">
 <!ENTITY attachPage.label "Kenstagañ ar bajennad…">
 <!ENTITY attachPage.accesskey "s">
-<!-- Attachment Pane Header Bar Context Menu
-     LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
-     Should use the same wording as startExpandedCmd.label
-     in msgHdrViewOverlay.dtd. -->
-<!ENTITY initiallyShowAttachmentPane.label "Diskouez penel ar c'henstagadurioù dre ziouer">
-<!ENTITY initiallyShowAttachmentPane.accesskey "S">
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Ouzhpennañ geriadurioù…">
 <!ENTITY spellAddDictionaries.accesskey "O">

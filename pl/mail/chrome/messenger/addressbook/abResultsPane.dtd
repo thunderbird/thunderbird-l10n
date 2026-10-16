@@ -9,8 +9,6 @@
 <!ENTITY PrimaryEmail.accesskey "E">
 <!ENTITY Company.label "Firma/Organizacja">
 <!ENTITY Company.accesskey "O">
-<!ENTITY _PhoneticName.label "Wymowa">
-<!ENTITY _PhoneticName.accesskey "o">
 <!ENTITY NickName.label "Pseudonim">
 <!ENTITY NickName.accesskey "i">
 <!ENTITY SecondEmail.label "Dodatkowy e-mail">

@@ -724,16 +724,6 @@ hide-calendar-name =
 show-only-calendar-name =
     .label = Allinnich { $name } toane
     .accesskey = n
-# $name calendar name
-show-calendar-label =
-    .label = { $name } toane
-# $name calendar name
-hide-calendar-label =
-    .label = { $name } ferstopje
-# uses the access key calendar.context.showonly.accesskey
-# $name calendar name
-show-only-calendar =
-    .label = Allinnich { $name } toane
 # LOCALIZATION NOTE (modify-conflict-*)
 # Used by the event dialog to resolve item modification conflicts.
 modify-conflict-prompt-title = Konflikt by itemoanpassing

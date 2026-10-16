@@ -6,8 +6,6 @@ about-addressbook-title = 주소록
 
 ## Toolbar
 
-about-addressbook-toolbar-new-address-book =
-    .label = 새 주소록
 about-addressbook-toolbar-add-address-book =
     .label = 로컬 주소록 추가
 about-addressbook-toolbar-add-carddav-address-book =
@@ -18,8 +16,6 @@ books-pane-create-contact-button = 새 연락처
     .title = 새 연락처 만들기
 books-pane-add-book-button =
     .title = 주소록 추가
-books-pane-create-book-button =
-    .title = 새 주소록 만들기
 books-pane-create-list-button =
     .title = 새 메일링 리스트 만들기
 books-pane-import-button = 가져오기

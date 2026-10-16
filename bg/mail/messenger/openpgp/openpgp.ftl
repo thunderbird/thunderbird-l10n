@@ -416,7 +416,6 @@ key-verification = Проверете пръстовия отпечатък на
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Невъзможност за изпращане на съобщението поради  проблем с вашия личен ключ. { $problem }
-window-locked = Прозорецът за ново съобщение е заключен; изпращането е отменено
 
 ## Strings in keyserver.sys.mjs
 
@@ -450,9 +449,6 @@ converter-decrypt-body-failed =
 ## Strings filters.sys.mjs
 
 filter-folder-required = Трябва да изберете целева папка.
-filter-decrypt-move-warn-experimental =
-    Предупреждение - филтърното действие „Дешифроване за постоянно“ може да доведе до унищожени съобщения.
-    Силно ви препоръчваме първо да опитате филтъра „Създаване на дешифровано копие“, да тествате внимателно резултата и да започнете да използвате този филтър едва след като сте доволни от резултата.
 filter-term-pgpencrypted-label = OpenPGP шифрован
 filter-key-required = Трябва да изберете ключ на получател.
 # Variables:
@@ -615,7 +611,6 @@ fail-key-import = Грешка - неуспешно внасяне на ключ
 # $output (String) - File that writing was attempted to.
 file-write-failed = Неуспешен запис във файл { $output }
 no-pgp-block = Грешка - Не е намерен валиден OpenPGP блок от данни
-confirm-permissive-import = Неуспешно внасяне. Ключът, който се опитвате да внесете, може да е повреден или да използва неизвестни атрибути. Искате ли да опитате да внесете  частите, които са правилни? Това може да доведе до внасяне на непълни и неизползваеми ключове.
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = Някои от внесените секретни ключове съдържат неподдържана функция. Ако използвате такъв ключ като ваш личен ключ, кореспондентите може да ви изпращат съобщения или публични ключове в несъвместим формат. Това засяга внесените секретни ключове със следните пръстови отпечатъци: { $fingerprints }.
@@ -674,9 +669,6 @@ key-man-button-generate-key-continue = &Продължаване с генери
 
 failed-decrypt = Грешка - неуспешно дешифриране
 fix-broken-exchange-msg-failed = Невъзможност за поправка на това съобщение.
-# Variables:
-# $attachment (String) - File name of the signature file.
-attachment-no-match-from-signature = Файлът за подпис „{ $attachment }“ не може да бъде съпоставен с прикачения файл
 # Variables:
 # Variables:
 # $attachment (String) - File name of the attachment.
@@ -782,8 +774,3 @@ enig-confirm = OpenPGP потвърждение
 
 dlg-button-retry = &Повторен опит
 dlg-button-skip = &Пропускане
-
-## Strings used in enigmailMsgBox.js
-
-enig-alert-title =
-    .title = Сигнал за OpenPGP

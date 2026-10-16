@@ -16,5 +16,4 @@
 <!ENTITY advFeaturesSectionHdr.label "Características avanzadas">
 <!ENTITY searchMsgsLink.label "Buscar mensajes">
 <!ENTITY filtersLink.label "Administrar filtro de mensajes">
-<!ENTITY junkSettings.label "Configuración de correo basura">
 <!ENTITY offlineLink.label "Configuración sin conexión">

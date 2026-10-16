@@ -5,10 +5,6 @@
 open-preferences-sidebar-button2 = { -brand-short-name }in asetukset
 open-addons-sidebar-button = Lisäosat ja teemat
 account-tree-add-account-button = Lisää tili
-account-action-add-newsgroup-account =
-    .label = Lisää keskusteluryhmätili…
-    .accesskey = r
-account-tree-create-account-button = Uusi tili
 account-tree-add-mail-account =
     .label = Sähköpostitili…
     .accesskey = S

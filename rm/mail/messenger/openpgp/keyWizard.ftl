@@ -129,7 +129,4 @@ openpgp-external-key-title = Clav GnuPG externa
 openpgp-external-key-description = Configurar ina clav GnuPG externa cun endatar l'ID da la clav
 openpgp-external-key-info = Ultra da quai stos ti utilisar l'administraziun da clavs per importar ed acceptar la clav publica correspundenta.
 openpgp-external-key-warning = <b>I n'è betg pussaivel da configurar dapli ch'ina clav GnuPG externa.</b> Tia endataziun precedenta vegn remplazzada.
-openpgp-save-external-button = Memorisar l'ID da la clav
 openpgp-external-key-label = ID da la clav secreta:
-openpgp-external-key-input =
-    .placeholder = 123456789341298340

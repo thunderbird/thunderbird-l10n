@@ -446,7 +446,6 @@ key-verification = Přepruwujće porstowy wotćišć kluča z pomocu druheho wě
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Njeje móžno powěsć słać, dokelž je problem z wašim wosobinskim klučom. { $problem }
-window-locked = Wobdźěłowanske wokno je zawrjene; słanje je so přetorhnyło
 
 ## Strings in keyserver.sys.mjs
 
@@ -480,9 +479,6 @@ converter-decrypt-body-failed =
 ## Strings filters.sys.mjs
 
 filter-folder-required = Dyrbiće cilowy rjadowak wubrać.
-filter-decrypt-move-warn-experimental =
-    Warnowanje - filtrowanska akcija „na přeco dešifrować“ móhła k zničenym powěsćam wjesć.
-    Poručamy z dorazom, zo najprjedy filter „Dešifrowanu kopiju wutworić“ pospytujeće, wuslědk starosćiwje testujeće a jenož započinaće, tutón filter wužiwać, hdyž sće spokojom z wuslědkom.
 filter-term-pgpencrypted-label = Z OpenPGP zaklučowany
 filter-key-required = Dyrbiće kluč přijimarja wubrać.
 # Variables:
@@ -645,7 +641,6 @@ fail-key-import = Zmylk – importowanje kluča njeje so poradźiło
 # $output (String) - File that writing was attempted to.
 file-write-failed = Njeje móžno do dataje { $output } pisać
 no-pgp-block = Zmylk - žadyn płaćiwy blok škitanych OpenPGP-datow namakany
-confirm-permissive-import = Import je so nimokulił. Kluč, kotryž pospytujeće importować, móhł wobškodźeny być abo njeznate atributy wužiwać. Chceće pospytować, dźěle importować, kotrež su korektne? To móhło k tomu wjesć, zo import je njedospołny a kluče su njewužiwajomne.
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = Někotre importowane tajne kluče njepodpěranu funkciju poskićeja. Jeli tajki kluč jako swój wosobinski kluč wužiwaće, móža dopisowarjo wam mejlki abo zjawne kluče w inkompatibelnych formatach słać. To importowane tajne kluče ze slědowacymi porstowymi wotćišćemi nastupa: { $fingerprints }.
@@ -704,9 +699,6 @@ key-man-button-generate-key-continue = Z wu&tworjenjom kluča pokročować
 
 failed-decrypt = Zmylk – dešifrowanje njeje so poradźiło
 fix-broken-exchange-msg-failed = Powěsć njeda so reparować.
-# Variables:
-# $attachment (String) - File name of the signature file.
-attachment-no-match-from-signature = Signaturowa dataja ‚{ $attachment }‘ njeda so přiwěškej přirjadować
 # Variables:
 # Variables:
 # $attachment (String) - File name of the attachment.
@@ -817,8 +809,3 @@ enig-confirm = OpenPGP-wobkrućenje
 
 dlg-button-retry = &Hišće raz spytać
 dlg-button-skip = &Přeskočić
-
-## Strings used in enigmailMsgBox.js
-
-enig-alert-title =
-    .title = OpenPGP-zdźělenka

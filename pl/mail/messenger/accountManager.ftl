@@ -5,10 +5,6 @@
 open-preferences-sidebar-button2 = Ustawienia { -brand-short-name(case: "gen") }
 open-addons-sidebar-button = Dodatki i motywy
 account-tree-add-account-button = Dodaj konto
-account-action-add-newsgroup-account =
-    .label = Dodaj konto grup dyskusyjnych…
-    .accesskey = D
-account-tree-create-account-button = Nowe konto
 account-tree-add-mail-account =
     .label = Konto pocztowe…
     .accesskey = p

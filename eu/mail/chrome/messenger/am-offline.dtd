@@ -14,24 +14,10 @@
 <!ENTITY autosyncNotDownload.accesskey "m">
 <!ENTITY kb.label "KB">
 <!ENTITY daysOld.label "egun zahar">
-<!ENTITY message.label "mezuak">
 <!ENTITY nntpNotDownloadRead.label "Irakurritako mezuak">
 <!ENTITY nntpNotDownloadRead.accesskey "r">
 <!ENTITY nntpDownloadMsg.label "Hau baino mezu gehiago">
 <!ENTITY nntpDownloadMsg.accesskey "e">
-<!ENTITY retentionCleanup.label "Diskoko lekua berreskuratzeko, mezu zaharrak betirako ezaba daitezke.">
-<!ENTITY retentionCleanupImap.label "Diskoko lekua berreskuratzeko, mezu zaharrak betirako ezaba daitezke, bai kopia lokalak eta baita urruneko zerbitzarian dauden jatorrizkoak ere.">
-<!ENTITY retentionCleanupPop.label "Diskoko lekua berreskuratzeko, mezu zaharrak betirako ezaba daitezke, urruneko zerbitzarian dauden jatorrizkoak barne.">
-<!ENTITY retentionKeepMsg.label "Ezabatu hau baino mezu zaharragoak:">
-<!ENTITY retentionKeepMsg.accesskey "m">
-<!ENTITY retentionKeepAll.label "Ez ezabatu mezurik">
-<!ENTITY retentionKeepAll.accesskey "E">
-<!ENTITY retentionKeepRecent.label "Ezabatu guztiak azkenak izan ezik">
-<!ENTITY retentionKeepRecent.accesskey "z">
-<!ENTITY retentionApplyToFlagged.label "Mantendu beti mezu izardunak">
-<!ENTITY retentionApplyToFlagged.accesskey "e">
-<!ENTITY nntpRemoveMsgBody.label "Kendu gorputzak hau baino mezu zaharragoetatik">
-<!ENTITY nntpRemoveMsgBody.accesskey "o">
 <!ENTITY offlineSelectNntp.label "Hautatu berri-taldeak lineaz kanpoko erabilerako…">
 <!ENTITY offlineSelectNntp.accesskey "H">
 <!ENTITY offlineImapAdvancedOffline.label "Aurreratua…">

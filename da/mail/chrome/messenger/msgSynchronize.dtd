@@ -18,5 +18,3 @@
 <!ENTITY selectButton.label "Vælg…">
 <!ENTITY selectButton.accesskey "æ">
 <!ENTITY MsgSelectDesc.label "Vælg mailmapper og nyhedsgrupper til anvendelse offline.">
-<!ENTITY MsgSelectInd.label "Hent">
-<!ENTITY MsgSelectItems.label "Mapper og nyhedsgrupper">

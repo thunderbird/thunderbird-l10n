@@ -5,10 +5,6 @@
 open-preferences-sidebar-button2 = { -brand-short-name } Ayarları
 open-addons-sidebar-button = Eklentiler ve Temalar
 account-tree-add-account-button = Hesap ekle
-account-action-add-newsgroup-account =
-    .label = Haber grubu hesabı ekle…
-    .accesskey = H
-account-tree-create-account-button = Yeni hesap
 account-tree-add-mail-account =
     .label = Posta hesabı…
     .accesskey = P

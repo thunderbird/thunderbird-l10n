@@ -33,8 +33,6 @@
 <!ENTITY hdrFollowupButton1.tooltip "Faire suivre à ce groupe">
 <!ENTITY hdrForwardButton1.label "Transférer">
 <!ENTITY hdrForwardButton1.tooltip "Transférer ce message">
-<!ENTITY hdrJunkButton1.label "Indésirable">
-<!ENTITY hdrJunkButton1.tooltip "Marquer ce message comme indésirable">
 <!ENTITY hdrTrashButton1.label "Supprimer">
 <!ENTITY hdrTrashButton1.tooltip "Supprimer ce message">
 <!ENTITY hdrViewToolbarShowFull.label "Afficher les icônes et le texte">

@@ -4,10 +4,6 @@
 
 open-preferences-sidebar-button2 = Rregullime { -brand-short-name }-i
 open-addons-sidebar-button = Shtesa dhe Tema
-account-action-add-newsgroup-account =
-    .label = Shtoni Llogari Grupi Lajmesh…
-    .accesskey = L
-account-tree-create-account-button = Llogari e Re
 account-tree-add-mail-account =
     .label = Llogari Email…
     .accesskey = m

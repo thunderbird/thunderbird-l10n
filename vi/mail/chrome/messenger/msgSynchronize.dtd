@@ -18,5 +18,3 @@
 <!ENTITY selectButton.label "Chọn…">
 <!ENTITY selectButton.accesskey "E">
 <!ENTITY MsgSelectDesc.label "Chọn thư mục và nhóm tin để dùng ngoại tuyến.">
-<!ENTITY MsgSelectInd.label "Tải">
-<!ENTITY MsgSelectItems.label "Thư mục và nhóm tin">

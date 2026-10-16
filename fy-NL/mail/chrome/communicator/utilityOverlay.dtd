@@ -13,8 +13,6 @@
 <!ENTITY undoCmd.accesskey "U">
 <!ENTITY redoCmd.label "Opnij útfiere">
 <!ENTITY redoCmd.accesskey "n">
-<!ENTITY deleteCmd.label "Fuortsmite">
-<!ENTITY deleteCmd.accesskey "F">
 <!ENTITY customizeCmd.label "Oanpasse">
 <!ENTITY customizeCmd.accesskey "p">
 <!ENTITY viewMenu.label "Byld">

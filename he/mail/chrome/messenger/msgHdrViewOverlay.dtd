@@ -29,8 +29,6 @@
 <!ENTITY hdrReplyListButton1.tooltip "השב לרשימת תפוצה">
 <!ENTITY hdrForwardButton1.label "העבר">
 <!ENTITY hdrForwardButton1.tooltip "העבר הודעה זו">
-<!ENTITY hdrJunkButton1.label "זבל">
-<!ENTITY hdrJunkButton1.tooltip "סמן הודעה זו כזבל">
 <!ENTITY hdrTrashButton1.label "מחיקה">
 <!ENTITY hdrTrashButton1.tooltip "מחק הודעה זו">
 <!ENTITY hdrViewToolbarShowFull.label "הצג צלמיות וטקסט">

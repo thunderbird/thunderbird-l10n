@@ -34,9 +34,4 @@
 <!ENTITY attachVCard.accesskey "v">
 <!ENTITY manageIdentities.label "Gérer les identités…">
 <!ENTITY manageIdentities.accesskey "G">
-<!-- LOCALIZATION NOTE (smtpName.label) : do not translate "SMTP" in below line -->
-<!ENTITY smtpName.label "Serveur sortant (SMTP) :">
-<!ENTITY smtpName.accesskey "s">
 <!ENTITY smtpDefaultServer.label "Utiliser le serveur par défaut">
-<!ENTITY smtpServerEdit.label "Modifier le serveur SMTP…">
-<!ENTITY smtpServerEdit.accesskey "P">

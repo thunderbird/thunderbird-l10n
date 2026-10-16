@@ -6,8 +6,6 @@ about-addressbook-title = Llibreta d'adreces
 
 ## Toolbar
 
-about-addressbook-toolbar-new-address-book =
-    .label = Llibreta d'adreces nova
 about-addressbook-toolbar-add-address-book =
     .label = Afegeix una llibreta d'adreces local
 about-addressbook-toolbar-add-carddav-address-book =
@@ -16,8 +14,6 @@ about-addressbook-toolbar-add-ldap-address-book =
     .label = Afegeix una llibreta d'adreces LDAP
 books-pane-create-contact-button = Contacte nou
     .title = Crea un contacte nou
-books-pane-create-book-button =
-    .title = Crea una llibreta d'adreces nova
 books-pane-create-list-button =
     .title = Crea una llista de correu nova
 books-pane-import-button = Importa

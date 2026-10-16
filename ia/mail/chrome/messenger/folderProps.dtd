@@ -10,22 +10,6 @@
 <!ENTITY folderRebuildSummaryFile.explanation "Alcun vices le file de indice del dossier (.msf) deveni damnificate e messages pote mancar o messages delite pote continuar a apparer; reparar le dossier pote solver iste problema.">
 <!ENTITY folderIncludeInGlobalSearch.label "Includer le messages de iste dossier in le resultatos de recerca global">
 <!ENTITY folderIncludeInGlobalSearch.accesskey "g">
-<!ENTITY retention.label "Regulas de retention">
-<!ENTITY retentionUseAccount.label "Usar le parametros de mi conto">
-<!ENTITY retentionUseAccount.accesskey "U">
-<!ENTITY daysOld.label "dies">
-<!ENTITY message.label "messages">
-<!ENTITY retentionCleanup.label "Pro recuperar spatio de disco, messages ancian pote esser delite permanentemente.">
-<!ENTITY retentionCleanupImap.label "Pro recuperar spatio de disco, messages ancian pote esser delite permanentemente, tanto le copias local como le originales sur le servitor remote.">
-<!ENTITY retentionCleanupPop.label "Pro recuperar spatio de disco, messages ancian pote esser delite permanentemente, incluse le originales sur le servitor remote.">
-<!ENTITY retentionDeleteMsg.label "Deler messages plus ancian de">
-<!ENTITY retentionDeleteMsg.accesskey "m">
-<!ENTITY retentionKeepAll.label "Non deler alcun message">
-<!ENTITY retentionKeepAll.accesskey "N">
-<!ENTITY retentionKeepRecent.label "Deler totes excepte le plus recente">
-<!ENTITY retentionKeepRecent.accesskey "t">
-<!ENTITY retentionApplyToFlagged.label "Sempre conservar messages con stella">
-<!ENTITY retentionApplyToFlagged.accesskey "e">
 <!ENTITY folderSynchronizationTab.label "Synchronisation">
 <!ENTITY folderCheckForNewMessages2.label "Quando se recipe nove messages pro iste conto, sempre controlar iste dossier">
 <!ENTITY folderCheckForNewMessages2.accesskey "c">

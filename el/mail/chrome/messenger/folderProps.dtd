@@ -10,22 +10,6 @@
 <!ENTITY folderRebuildSummaryFile.explanation "Μερικές φορές, το αρχείο ευρετηρίου φακέλου (.msf) καταστρέφεται και τα μηνύματα φαίνεται να λείπουν ή να εμφανίζονται παρά τη διαγραφή τους· η επιδιόρθωση του φακέλου ίσως λύσει αυτά τα ζητήματα.">
 <!ENTITY folderIncludeInGlobalSearch.label "Συμπερίληψη των μηνυμάτων αυτού του φακέλου στα αποτελέσματα της καθολικής αναζήτησης">
 <!ENTITY folderIncludeInGlobalSearch.accesskey "θ">
-<!ENTITY retention.label "Πολιτική διατήρησης">
-<!ENTITY retentionUseAccount.label "Χρήση ρυθμίσεων λογαριασμού">
-<!ENTITY retentionUseAccount.accesskey "ρ">
-<!ENTITY daysOld.label "ημέρες παλιά">
-<!ENTITY message.label "μηνύματα">
-<!ENTITY retentionCleanup.label "Για να ανακτήσετε χώρο στον δίσκο, μπορείτε να διαγράψετε οριστικά τα παλιά μηνύματα.">
-<!ENTITY retentionCleanupImap.label "Για εξοικονόμηση αποθηκευτικού χώρου, μπορείτε να διαγράψετε μόνιμα τα παλιά σας μηνύματα στους τοπικούς σας φακέλους και στον απομακρυσμένο διακομιστή.">
-<!ENTITY retentionCleanupPop.label "Για εξοικονόμηση αποθηκευτικού χώρου, μπορείτε να διαγράψετε μόνιμα τα παλιά σας μηνύματα μαζί με τα αρχικά μηνύματα στον απομακρυσμένο διακομιστή.">
-<!ENTITY retentionDeleteMsg.label "Διαγραφή μηνυμάτων παλαιότερων από">
-<!ENTITY retentionDeleteMsg.accesskey "μ">
-<!ENTITY retentionKeepAll.label "Να μην γίνεται διαγραφή μηνυμάτων">
-<!ENTITY retentionKeepAll.accesskey "μ">
-<!ENTITY retentionKeepRecent.label "Διαγραφή όλων εκτός από τα πιο πρόσφατα">
-<!ENTITY retentionKeepRecent.accesskey "λ">
-<!ENTITY retentionApplyToFlagged.label "Διατήρηση μηνυμάτων με αστέρι">
-<!ENTITY retentionApplyToFlagged.accesskey "σ">
 <!ENTITY folderSynchronizationTab.label "Συγχρονισμός">
 <!ENTITY folderCheckForNewMessages2.label "Κατά τη λήψη νέων μηνυμάτων από τον λογαριασμό, να γίνεται πάντα έλεγχος αυτού του φακέλου">
 <!ENTITY folderCheckForNewMessages2.accesskey "φ">

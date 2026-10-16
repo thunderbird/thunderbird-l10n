@@ -204,7 +204,6 @@
 <!ENTITY smiley7Cmd.label "Няўпэўнены">
 <!ENTITY smiley8Cmd.label "Здзіўленне">
 <!ENTITY smiley9Cmd.label "Пацалунак">
-<!ENTITY smiley10Cmd.label "Роў">
 <!ENTITY smiley11Cmd.label "Файна">
 <!ENTITY smiley12Cmd.label "Карыслівы">
 <!ENTITY smiley13Cmd.label "Ступня ў роце">
@@ -253,12 +252,6 @@
 <!ENTITY convertRegularAttachment.accesskey "п">
 <!ENTITY attachPage.label "Прымацаваць вэб-старонку…">
 <!ENTITY attachPage.accesskey "в">
-<!-- Attachment Pane Header Bar Context Menu
-     LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
-     Should use the same wording as startExpandedCmd.label
-     in msgHdrViewOverlay.dtd. -->
-<!ENTITY initiallyShowAttachmentPane.label "Спачатку паказваць панэль прымацаванняў">
-<!ENTITY initiallyShowAttachmentPane.accesskey "С">
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Дадаць слоўнікі…">
 <!ENTITY spellAddDictionaries.accesskey "Д">

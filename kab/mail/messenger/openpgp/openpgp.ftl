@@ -349,7 +349,6 @@ key-verification = Senqed adsil umḍin n tsarut s usenqed n ubadu n teywalt aɣ
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = D awezɣi tuzna n yizen, acku yella wugur deg tsarut-ik tudmawant. { $problem }
-window-locked = Asfaylu n usuddes yemdel; tuzna tettwasefsex
 
 ## Strings in keyserver.sys.mjs
 
@@ -517,9 +516,6 @@ key-man-button-generate-key-continue = &Kemmel asirew n tsarut
 
 failed-decrypt = Tuccḍa - awgelhen yecceḍ
 fix-broken-exchange-msg-failed = D awezɣi uṣeggem n yizen.
-# Variables:
-# $attachment (String) - File name of the signature file.
-attachment-no-match-from-signature = Ur yezmir ara ad yemṣada ufaylu n usezmel '{ $attachment }' ɣer kra n umedday
 
 ## Strings used in enigmailMsgComposeOverlay.js
 
@@ -578,8 +574,3 @@ enig-confirm = Asentem OpenPGP
 
 dlg-button-retry = Ɛ&reḍ tikelt nniḍen
 dlg-button-skip = &Zgel
-
-## Strings used in enigmailMsgBox.js
-
-enig-alert-title =
-    .title = Alɣu OpenPGP

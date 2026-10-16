@@ -10,22 +10,6 @@
 <!ENTITY folderRebuildSummaryFile.explanation "Іноді файл індексу теки (.msf) пошкоджується, і може здатися, що нових повідомлень немає, а видалені повідомлення й надалі показуються. Відновлення теки може розв'язати ці проблеми.">
 <!ENTITY folderIncludeInGlobalSearch.label "Включати повідомлення цієї теки до результатів Глобального пошуку">
 <!ENTITY folderIncludeInGlobalSearch.accesskey "Г">
-<!ENTITY retention.label "Зберігання">
-<!ENTITY retentionUseAccount.label "Використовувати налаштування мого облікового запису">
-<!ENTITY retentionUseAccount.accesskey "м">
-<!ENTITY daysOld.label "днів">
-<!ENTITY message.label "повідомлень">
-<!ENTITY retentionCleanup.label "Для вивільнення місця на диску старі повідомлення можуть бути видалені.">
-<!ENTITY retentionCleanupImap.label "Щоб вивільнити місце на диску, старі повідомлення можуть бути видалені назавжди. Як локальні копії, так і оригінали на віддаленому сервері.">
-<!ENTITY retentionCleanupPop.label "Щоб вивільнити місце на диску, старі повідомлення можуть бути видалені назавжди, включно з оригіналами на віддаленому сервері.">
-<!ENTITY retentionDeleteMsg.label "Видаляти повідомлення старші за">
-<!ENTITY retentionDeleteMsg.accesskey "л">
-<!ENTITY retentionKeepAll.label "Не видаляти повідомлення">
-<!ENTITY retentionKeepAll.accesskey "Н">
-<!ENTITY retentionKeepRecent.label "Видаляти все крім останніх">
-<!ENTITY retentionKeepRecent.accesskey "о">
-<!ENTITY retentionApplyToFlagged.label "Зберігати повідомлення з зірочкою завжди">
-<!ENTITY retentionApplyToFlagged.accesskey "з">
 <!ENTITY folderSynchronizationTab.label "Синхронізація">
 <!ENTITY folderCheckForNewMessages2.label "Отримуючи нові повідомлення облікового запису, завжди перевіряти цю теку">
 <!ENTITY folderCheckForNewMessages2.accesskey "п">

@@ -11,24 +11,10 @@
 <!ENTITY autosyncNotDownload.accesskey "c">
 <!ENTITY kb.label "KB">
 <!ENTITY daysOld.label "díes d'antigüedá">
-<!ENTITY message.label "mensaxes más recientes">
 <!ENTITY nntpNotDownloadRead.label "Mensaxes lleíos">
 <!ENTITY nntpNotDownloadRead.accesskey "l">
 <!ENTITY nntpDownloadMsg.label "Mensaxes de más de">
 <!ENTITY nntpDownloadMsg.accesskey "e">
-<!ENTITY retentionCleanup.label "Pa recuperar espaciu en discu, los mensaxes antiguos puen desaniciase ensembre.">
-<!ENTITY retentionCleanupImap.label "Pa recuperar espaciu en discu, los mensaxes antiguos puen desaniciase ensembre, tanto les copies llocales como los orixinales nel sirvidor remotu.">
-<!ENTITY retentionCleanupPop.label "Pa recuperar espaciu en discu, los mensaxes antiguos puen desaniciase ensembre, incluyendo los orixinales nel sirvidor remotu.">
-<!ENTITY retentionKeepMsg.label "Desaniciar mensaxes con más de">
-<!ENTITY retentionKeepMsg.accesskey "r">
-<!ENTITY retentionKeepAll.label "Nun desaniciar dengún mensaxe">
-<!ENTITY retentionKeepAll.accesskey "N">
-<!ENTITY retentionKeepRecent.label "Desaniciar toos sacante los">
-<!ENTITY retentionKeepRecent.accesskey "a">
-<!ENTITY retentionApplyToFlagged.label "Caltener siempre los mensaxes con estrella">
-<!ENTITY retentionApplyToFlagged.accesskey "i">
-<!ENTITY nntpRemoveMsgBody.label "Desaniciar el cuerpu de los mensaxes de más de">
-<!ENTITY nntpRemoveMsgBody.accesskey "d">
 <!ENTITY offlineSelectNntp.label "Esbillar grupos de noticies pal so usu ensin conexón…">
 <!ENTITY offlineSelectNntp.accesskey "E">
 <!ENTITY offlineImapAdvancedOffline.label "Avanzaes…">

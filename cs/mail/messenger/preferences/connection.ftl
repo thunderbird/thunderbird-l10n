@@ -2,18 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-connection-dns-over-https-url-resolver = Použít poskytovatele
-    .accesskey = s
-# Variables:
-#   $name (String) - Display name or URL for the DNS over HTTPS provider
-connection-dns-over-https-url-item-default =
-    .label = { $name } (výchozí)
-    .tooltiptext = Použít výchozí adresu URL pro službu DNS over HTTPS
-connection-dns-over-https-url-custom =
-    .label = Vlastní
-    .tooltiptext = Zadejte vlastní adresu URL pro službu DNS over HTTPS
-    .accesskey = n
-connection-dns-over-https-custom-label = Vlastní
 connection-dialog-title = Nastavení připojení
 disable-extension-button = Zakázat rozšíření
 # Variables:
@@ -110,6 +98,3 @@ proxy-password-prompt =
 proxy-remote-dns =
     .label = Použít proxy server pro DNS při použití SOCKS v5
     .accesskey = d
-proxy-enable-doh =
-    .label = Zapnout DNS over HTTPS
-    .accesskey = p

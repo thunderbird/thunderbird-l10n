@@ -25,11 +25,3 @@ archive-folder-name-label = Arkistokansio
 # This should match the default name for the "Inbox" folder.
 inbox-folder-name-label = Saapuneet
 child-folder-name-label = Saapuneet-kansion alikansio
-# This should match the default name for the "Archives" folder.
-archive-folder-name =
-    .label = Arkistokansio
-# This should match the default name for the "Inbox" folder.
-inbox-folder-name =
-    .label = Saapuneet
-child-folder-name =
-    .label = Saapuneet-kansion alikansio

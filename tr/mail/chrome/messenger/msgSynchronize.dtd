@@ -18,5 +18,3 @@
 <!ENTITY selectButton.label "Seç…">
 <!ENTITY selectButton.accesskey "e">
 <!ENTITY MsgSelectDesc.label "Çevrimdışı kullanılacak posta klasörlerini ve haber gruplarını seçin.">
-<!ENTITY MsgSelectInd.label "İndir">
-<!ENTITY MsgSelectItems.label "Klasörler ve haber grupları">

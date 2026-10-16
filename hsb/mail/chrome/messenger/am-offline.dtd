@@ -14,24 +14,10 @@
 <!ENTITY autosyncNotDownload.accesskey "n">
 <!ENTITY kb.label "KB">
 <!ENTITY daysOld.label "dnjow stare">
-<!ENTITY message.label "powěsćow">
 <!ENTITY nntpNotDownloadRead.label "Powěsće čitać">
 <!ENTITY nntpNotDownloadRead.accesskey "i">
 <!ENTITY nntpDownloadMsg.label "Powěsće, kotrež su wjace hač">
 <!ENTITY nntpDownloadMsg.accesskey "c">
-<!ENTITY retentionCleanup.label "Zo byšće tačelowy rum dobył, dadźa so starše powěsće na přeco zhašeć.">
-<!ENTITY retentionCleanupImap.label "Zo byšće tačelowy rum dobył, dadźa so stare powěsće na přeco zhašeć, lokalne kopije kaž tež originale na zdalenym serwerje.">
-<!ENTITY retentionCleanupPop.label "Zo byšće tačelowy rum dobył, dadźa so stare powěsće na přeco zhašeć, inkluziwnje originale na zdalenym serwerje.">
-<!ENTITY retentionKeepMsg.label "Powěsće zhašeć, kotrež su wjace hač">
-<!ENTITY retentionKeepMsg.accesskey "h">
-<!ENTITY retentionKeepAll.label "Žane powěsće njezhašeć">
-<!ENTITY retentionKeepAll.accesskey "n">
-<!ENTITY retentionKeepRecent.label "Wšě zhašeć, nimo najnowšich">
-<!ENTITY retentionKeepRecent.accesskey "W">
-<!ENTITY retentionApplyToFlagged.label "Z hwěžku markěrowane powěsće přeco wobchować">
-<!ENTITY retentionApplyToFlagged.accesskey "h">
-<!ENTITY nntpRemoveMsgBody.label "Wobsah powěsćow wotstronić, kotrež su wjace hač">
-<!ENTITY nntpRemoveMsgBody.accesskey "o">
 <!ENTITY offlineSelectNntp.label "Diskusijne skupiny za wužiwanje offline wubrać…">
 <!ENTITY offlineSelectNntp.accesskey "D">
 <!ENTITY offlineImapAdvancedOffline.label "Rozšěrjene…">

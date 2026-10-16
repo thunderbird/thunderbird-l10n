@@ -765,16 +765,6 @@ hide-calendar-name =
 show-only-calendar-name =
     .label = Dangos Dim Ond { $name }
     .accesskey = D
-# $name calendar name
-show-calendar-label =
-    .label = Dangos { $name }
-# $name calendar name
-hide-calendar-label =
-    .label = Cuddio { $name }
-# uses the access key calendar.context.showonly.accesskey
-# $name calendar name
-show-only-calendar =
-    .label = Dangos Dim Ond { $name }
 # LOCALIZATION NOTE (modify-conflict-*)
 # Used by the event dialog to resolve item modification conflicts.
 modify-conflict-prompt-title = Gwrthdaro Newid Eitem

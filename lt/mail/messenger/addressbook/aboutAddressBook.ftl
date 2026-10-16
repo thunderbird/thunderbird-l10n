@@ -6,8 +6,6 @@ about-addressbook-title = Adresų knyga
 
 ## Toolbar
 
-about-addressbook-toolbar-new-address-book =
-    .label = Nauja adresų knyga
 about-addressbook-toolbar-add-carddav-address-book =
     .label = Pridėti „CardDAV“ adresų knygą
 about-addressbook-toolbar-add-ldap-address-book =

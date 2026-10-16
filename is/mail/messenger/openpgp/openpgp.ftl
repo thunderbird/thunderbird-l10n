@@ -432,7 +432,6 @@ key-verification = Staðfestu fingrafar lykilsins með því að nota örugga sa
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Ekki er hægt að senda skilaboðin vegna þess að það er vandamál með persónulega lykilinn þinn. { $problem }
-window-locked = Skrifgluggi er læstur; hætt við sendingu
 
 ## Strings in keyserver.sys.mjs
 
@@ -466,9 +465,6 @@ converter-decrypt-body-failed =
 ## Strings filters.sys.mjs
 
 filter-folder-required = Þú verður að velja úttaksmöppu.
-filter-decrypt-move-warn-experimental =
-    Aðvörun - síuaðgerðin „Afkóða varanlega“ getur leitt til skemmda á skilaboðum.
-    Við mælum eindregið með því að þú prófir fyrst „Búa til afkóðað afrit“-síuna, prófir útkomuna vandlega og farir aðeins að nota þessa síu þegar þú ert sáttur við þá útkomu.
 filter-term-pgpencrypted-label = OpenPGP-dulritað
 filter-key-required = Þú verður að velja viðtakandalykil.
 # Variables:
@@ -631,7 +627,6 @@ fail-key-import = Villa - innflutningur lykla mistókst
 # $output (String) - File that writing was attempted to.
 file-write-failed = Mistókst að skrifa í skrána { $output }
 no-pgp-block = Villa - Engin gild varin OpenPGP-gagnablokk fannst
-confirm-permissive-import = Innflutningur mistókst. Lykillinn sem þú ert að reyna að flytja inn gæti verið skemmdur eða notað óþekkt eigindi. Viltu reyna að flytja inn þá hluta sem eru réttir? Þetta gæti leitt til innflutnings á ófullgerðum og ónothæfum lyklum.
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = Sumir af innfluttu leynilyklunum auglýsa óstudda eiginleika. Ef þú notar slíkan lykil sem þinn persónulega lykil, gætu bréfritarar sent þér tölvupóst eða opinbera lykla á ósamrýmanlegu sniði. Þetta hefur áhrif á innflutta leynilykla með eftirfarandi fingraförum: { $fingerprints }.
@@ -690,9 +685,6 @@ key-man-button-generate-key-continue = Hal&da áfram með gerð lykils
 
 failed-decrypt = Villa - afkóðun mistókst
 fix-broken-exchange-msg-failed = Tekst ekki að gera við þessi skilaboð.
-# Variables:
-# $attachment (String) - File name of the signature file.
-attachment-no-match-from-signature = Gat ekki tengt undirritunarskrána „{ $attachment }“ við neitt viðhengi
 # Variables:
 # Variables:
 # $attachment (String) - File name of the attachment.
@@ -803,8 +795,3 @@ enig-confirm = OpenPGP staðfesting
 
 dlg-button-retry = &Reyna aftur
 dlg-button-skip = &Sleppa
-
-## Strings used in enigmailMsgBox.js
-
-enig-alert-title =
-    .title = OpenPGP aðvörun

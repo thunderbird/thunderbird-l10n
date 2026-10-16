@@ -215,7 +215,6 @@
 <!ENTITY smiley7Cmd.label "Ka'i' ruk'u'x">
 <!ENTITY smiley8Cmd.label "Ajmayel">
 <!ENTITY smiley9Cmd.label "Tz'ub'">
-<!ENTITY smiley10Cmd.label "Sik'inel">
 <!ENTITY smiley11Cmd.label "Tik'asäs">
 <!ENTITY smiley12Cmd.label "Pwäq-Chi'aj">
 <!ENTITY smiley13Cmd.label "Aqanaj-pa-Chi'aj">
@@ -264,12 +263,6 @@
 <!ENTITY convertRegularAttachment.accesskey "T">
 <!ENTITY attachPage.label "Titz'aqatisäx Ruxaq Ajk'amaya'l…">
 <!ENTITY attachPage.accesskey "A">
-<!-- Attachment Pane Header Bar Context Menu
-     LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
-     Should use the same wording as startExpandedCmd.label
-     in msgHdrViewOverlay.dtd. -->
-<!ENTITY initiallyShowAttachmentPane.label "Pa Rutikirib'al Kek'ut Kipas Tz'aqatisan taq Tzij">
-<!ENTITY initiallyShowAttachmentPane.accesskey "K">
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Ketz'aqatisäx taq Soltzij…">
 <!ENTITY spellAddDictionaries.accesskey "t">

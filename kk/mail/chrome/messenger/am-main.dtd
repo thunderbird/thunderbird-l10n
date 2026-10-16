@@ -34,9 +34,4 @@
 <!ENTITY attachVCard.accesskey "м">
 <!ENTITY manageIdentities.label "Жеке мәліметтерді басқару…">
 <!ENTITY manageIdentities.accesskey "б">
-<!-- LOCALIZATION NOTE (smtpName.label) : do not translate "SMTP" in below line -->
-<!ENTITY smtpName.label "Шығыс сервер (SMTP):">
-<!ENTITY smtpName.accesskey "ы">
 <!ENTITY smtpDefaultServer.label "Негізгі серверді қолдану">
-<!ENTITY smtpServerEdit.label "SMTP серверін түзету…">
-<!ENTITY smtpServerEdit.accesskey "р">

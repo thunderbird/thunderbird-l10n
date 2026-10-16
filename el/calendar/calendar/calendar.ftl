@@ -720,16 +720,6 @@ hide-calendar-name =
 show-only-calendar-name =
     .label = Εμφάνιση μόνο του «{ $name }»
     .accesskey = μ
-# $name calendar name
-show-calendar-label =
-    .label = Εμφάνιση του «{ $name }»
-# $name calendar name
-hide-calendar-label =
-    .label = Απόκρυψη του «{ $name }»
-# uses the access key calendar.context.showonly.accesskey
-# $name calendar name
-show-only-calendar =
-    .label = Εμφάνιση μόνο του «{ $name }»
 # LOCALIZATION NOTE (modify-conflict-*)
 # Used by the event dialog to resolve item modification conflicts.
 modify-conflict-prompt-title = Σύγκρουση επεξεργασιών στοιχείου

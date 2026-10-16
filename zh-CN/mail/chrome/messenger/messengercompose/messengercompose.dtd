@@ -216,7 +216,6 @@
 <!ENTITY smiley7Cmd.label "迟疑">
 <!ENTITY smiley8Cmd.label "惊讶">
 <!ENTITY smiley9Cmd.label "亲吻">
-<!ENTITY smiley10Cmd.label "大叫">
 <!ENTITY smiley11Cmd.label "酷">
 <!ENTITY smiley12Cmd.label "爱财">
 <!ENTITY smiley13Cmd.label "失言">
@@ -266,12 +265,6 @@
 <!ENTITY convertRegularAttachment.accesskey "A">
 <!ENTITY attachPage.label "附加网页…">
 <!ENTITY attachPage.accesskey "W">
-<!-- Attachment Pane Header Bar Context Menu
-     LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
-     Should use the same wording as startExpandedCmd.label
-     in msgHdrViewOverlay.dtd. -->
-<!ENTITY initiallyShowAttachmentPane.label "启动时显示附件窗格">
-<!ENTITY initiallyShowAttachmentPane.accesskey "S">
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "添加词典…">
 <!ENTITY spellAddDictionaries.accesskey "A">

@@ -26,13 +26,3 @@ archive-folder-name-label = Archívum
 inbox-folder-name-label = Beérkezett üzenetek
 child-folder-name-label = Beérkezett üzenetek almappája
 sibling-folder-name-label = Beérkezett üzenetek testvére
-# This should match the default name for the "Archives" folder.
-archive-folder-name =
-    .label = Archívum
-# This should match the default name for the "Inbox" folder.
-inbox-folder-name =
-    .label = Beérkezett üzenetek
-child-folder-name =
-    .label = Beérkezett üzenetek mappa almappája
-sibling-folder-name =
-    .label = Beérkezett üzenetek mappa testvére

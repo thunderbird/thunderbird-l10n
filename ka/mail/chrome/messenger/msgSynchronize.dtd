@@ -18,5 +18,3 @@
 <!ENTITY selectButton.label "არჩევა…">
 <!ENTITY selectButton.accesskey "E">
 <!ENTITY MsgSelectDesc.label "წერილების საქაღალდეებისა და ჯგუფების არჩევა, კავშირგარეშე გამოყენებისთვის.">
-<!ENTITY MsgSelectInd.label "გადმოწერა">
-<!ENTITY MsgSelectItems.label "საქაღალდეები და სასაუბრო ჯგუფები">

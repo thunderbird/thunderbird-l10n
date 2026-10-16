@@ -56,14 +56,7 @@ account-hub-email-connect-button = Verbinden
 account-hub-result-incoming-legend = Inkomend
 account-hub-result-outgoing-legend = Uitgaand
 account-hub-all-servers-legend = Alle servers
-account-hub-incoming-server-legend = Inkomende server
-account-hub-outgoing-server-legend = Uitgaande server
-account-hub-result-incoming-server-legend = Inkomende server
-    .title = Inkomende server
-account-hub-result-outgoing-server-legend = Uitgaande server
-    .title = Uitgaande server
 account-hub-protocol-label = Protocol
-account-hub-hostname-label = Hostnaam
 account-hub-result-hostname-label = Hostnaam
     .title = Hostnaam
 account-hub-result-socket-type-label = Verbindingsbeveiliging
@@ -94,10 +87,6 @@ account-hub-result-auth-ntlm = NTLM
 account-hub-result-auth-external = Extern
 account-hub-result-auth-oauth2 = OAuth2
 account-hub-on-port-label = Poort
-account-hub-result-authentication-label = Authenticatie
-    .title = Authenticatie
-account-hub-port-label = Poort
-    .title = Stel het poortnummer in op 0 voor automatische detectie
 account-hub-auto-description = { -brand-short-name } probeert velden die leeg zijn gelaten automatisch te detecteren.
 account-hub-ssl-label = Verbindingsbeveiliging
 
@@ -105,8 +94,6 @@ account-hub-ssl-label = Verbindingsbeveiliging
 
 account-hub-ssl-autodetect-option =
     .label = Autodetectie
-account-hub-ssl-no-authentication-option =
-    .label = Geen authenticatie
 account-hub-ssl-cleartext-password-option =
     .label = Normaal wachtwoord
 account-hub-ssl-encrypted-password-option =
@@ -268,7 +255,6 @@ account-hub-email-exchange-settings = Exchange-instellingen
 account-hub-email-connect-settings = Uw e-mailinstellingen verbinden
 account-hub-email-protocol-select-header = Kies een e-mailaccounttype
 account-hub-email-protocol-select-additional-info = Er is extra informatie nodig om deze account in te stellen.
-account-hub-email-config-found = Kies uw e-mailaccounttype
 account-hub-email-enter-password = Voer het wachtwoord van uw e-mailaccount in
 account-hub-email-sync-accounts = Uw agenda’s en adresboeken synchroniseren
 account-hub-test-configuration = Testen
@@ -295,7 +281,6 @@ account-hub-config-success-description-guess = Configuratie gevonden door algeme
 account-hub-config-success-description-disk = Configuratie gevonden in installatie van { -brand-short-name }.
 account-hub-config-success-description-isp = Configuratie gevonden bij e-mailprovider.
 account-hub-config-success-description-read-more = U kunt <a data-l10n-name="automated-setup-link">lezen hoe het automatisch instellen van e-mail werkt.</a>
-account-hub-config-success = Configuratie gevonden in de Mozilla-ISPDB
 account-hub-password-info = Uw aanmeldgegevens worden alleen lokaal op uw computer opgeslagen
 account-hub-creating-account = Account aanmaken…
 account-hub-sync-accounts-found = { -brand-short-name } heeft enkele verbonden services gevonden
@@ -326,10 +311,8 @@ account-hub-username-error-text = Gebruikersnaam is vereist
 account-hub-manual-config-error-summary = Los de volgende fouten op:
 account-hub-oauth-pending = Wachten op autorisatie in aanmeldingspop-up…
 account-hub-addon-install-button = Installeren
-account-hub-addon-install-needed = { -brand-short-name } ondersteunt deze server niet ingebouwd. <a data-l10n-name="addon-install">Installeer een externe add-on zoals Owl (betaald)</a> voor toegang tot Exchange-e-mail.
 account-hub-addon-error = Add-on-installatie is mislukt. Probeer het opnieuw of neem contact op met de schrijver van de add-on voor hulp.
 account-hub-select-security-warning = <span data-l10n-name="error-text">Waarschuwing: onveilige mailserver gedetecteerd.</span> Deze server heeft geen versleuteling, waardoor uw wachtwoord en gegevens openbaar zijn. Neem contact op met uw beheerder om de verbinding te beveiligen of ga op eigen risico verder. <a data-l10n-name="error-link">Bekijk de FAQ voor meer informatie.</a>
-account-hub-security-warning = <span data-l10n-name="security-warning">Waarschuwing: onveilige mailserver gedetecteerd.</span> Deze server heeft geen versleuteling, waardoor uw wachtwoord en gegevens openbaar zijn. Neem contact op met uw beheerder om de verbinding te beveiligen of ga op eigen risico verder. <a data-l10n-name="faq-link">Bekijk de FAQ voor meer informatie.</a>
 account-hub-account-authentication-error = Authenticatiefout.
 account-hub-add-address-book = Een adresboek toevoegen
 address-book-sync-existing-icon =
@@ -359,7 +342,6 @@ account-hub-address-book-sync-books-data =
         [one] 1 adresboek beschikbaar
        *[other] { $addressBooks } adresboeken beschikbaar
     }
-account-hub-fetching-sync-accounts = Adresboeken en agenda’s ontdekken…
 address-book-sync-existing-description = Bestaande accounts ophalen…
 account-hub-select-address-book-account = Selecteer een account met Adresboeken
 # $synced (Number) - The number of address books that are synced.

@@ -23,8 +23,6 @@
 <!ENTITY closeConversationCmd.accesskey "T">
 <!ENTITY aliasCmd.label "Namakan semula">
 <!ENTITY aliasCmd.accesskey "N">
-<!ENTITY deleteCmd.label "Buang Kenalan">
-<!ENTITY deleteCmd.accesskey "g">
 <!ENTITY openConversationButton.tooltip "Mulakan perbualan">
 <!ENTITY closeConversationButton.tooltip "Tutup perbualan">
 <!ENTITY addBuddyButton.label "Tambah Kenalan">

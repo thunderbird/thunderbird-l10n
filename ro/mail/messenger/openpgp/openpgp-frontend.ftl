@@ -43,14 +43,9 @@ openpgp-cannot-decrypt-because-mdc =
     Este posibil să fi fost modificat în tranzit, cu intenția de a-i fura conținutul.
     Pentru a preveni acest risc, conținutul nu este afișat.
 openpgp-cannot-decrypt-because-missing-key = Cheia secretă necesară pentru decriptarea mesajului nu este disponibilă.
-openpgp-partially-signed =
-    Numai un subset din mesaj a fost semnat digital folosind OpenPGP.
-    Dacă dai clic pe butonul de verificare, părțile neprotejate vor fi ascunse și va fi afișată starea semnăturii digitale.
 openpgp-partially-encrypted =
     Numai un subset din mesaj a fost semnat digital folosind OpenPGP.
     Părțile lizibile din mesaj care sunt deja afișate nu au fost criptate.
     Dacă dai clic pe butonul de decriptare, va fi afișat conținutul părților criptate.
-openpgp-reminder-partial-display = Memento: Mesajul afișat mai jos este numai un subset din mesajul original.
-openpgp-partial-verify-button = Verifică
 openpgp-partial-decrypt-button = Decriptează
 openpgp-unexpected-key-for-you = Avertisment: acest mesaj conține o cheie OpenPGP necunoscută care se referă la una dintre adresele dvs. de e-mail. Dacă aceasta nu este una dintre cheile tale, ar putea fi o încercare de a păcăli alți corespondenți.

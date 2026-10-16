@@ -23,8 +23,6 @@
 <!ENTITY closeConversationCmd.accesskey "Κ">
 <!ENTITY aliasCmd.label "Μετονομασία">
 <!ENTITY aliasCmd.accesskey "Μ">
-<!ENTITY deleteCmd.label "Αφαίρεση επαφής">
-<!ENTITY deleteCmd.accesskey "φ">
 <!ENTITY openConversationButton.tooltip "Έναρξη συνομιλίας">
 <!ENTITY closeConversationButton.tooltip "Κλείσιμο συνομιλίας">
 <!ENTITY addBuddyButton.label "Προσθήκη επαφής">

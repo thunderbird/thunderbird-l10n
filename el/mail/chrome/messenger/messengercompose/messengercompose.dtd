@@ -216,7 +216,6 @@
 <!ENTITY smiley7Cmd.label "Αναποφασιστηκότητα">
 <!ENTITY smiley8Cmd.label "Έκπληξη">
 <!ENTITY smiley9Cmd.label "Φιλί">
-<!ENTITY smiley10Cmd.label "Κραυγή">
 <!ENTITY smiley11Cmd.label "Κουλ">
 <!ENTITY smiley12Cmd.label "Λεφτά στο στόμα">
 <!ENTITY smiley13Cmd.label "Πόδι στο στόμα">
@@ -266,12 +265,6 @@
 <!ENTITY convertRegularAttachment.accesskey "Κ">
 <!ENTITY attachPage.label "Επισύναψη ιστοσελίδας…">
 <!ENTITY attachPage.accesskey "ι">
-<!-- Attachment Pane Header Bar Context Menu
-     LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
-     Should use the same wording as startExpandedCmd.label
-     in msgHdrViewOverlay.dtd. -->
-<!ENTITY initiallyShowAttachmentPane.label "Εμφάνιση παραθύρου συνημμένων αρχικά">
-<!ENTITY initiallyShowAttachmentPane.accesskey "Ε">
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Προσθήκη λεξικών…">
 <!ENTITY spellAddDictionaries.accesskey "θ">

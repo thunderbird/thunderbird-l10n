@@ -23,8 +23,6 @@
 <!ENTITY closeConversationCmd.accesskey "З">
 <!ENTITY aliasCmd.label "Перейменувати">
 <!ENTITY aliasCmd.accesskey "й">
-<!ENTITY deleteCmd.label "Видалити">
-<!ENTITY deleteCmd.accesskey "л">
 <!ENTITY openConversationButton.tooltip "Почати розмову">
 <!ENTITY closeConversationButton.tooltip "Закрити розмову">
 <!ENTITY addBuddyButton.label "Додати контакт">

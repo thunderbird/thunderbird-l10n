@@ -13,8 +13,6 @@
 <!ENTITY undoCmd.accesskey "C">
 <!ENTITY redoCmd.label "Wospjetować">
 <!ENTITY redoCmd.accesskey "W">
-<!ENTITY deleteCmd.label "Wotstronić">
-<!ENTITY deleteCmd.accesskey "r">
 <!ENTITY customizeCmd.label "Přiměrić">
 <!ENTITY customizeCmd.accesskey "m">
 <!ENTITY viewMenu.label "Napohlad">

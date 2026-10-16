@@ -56,14 +56,7 @@ account-hub-email-connect-button = Kople til
 account-hub-result-incoming-legend = Innkomande
 account-hub-result-outgoing-legend = Utgåande
 account-hub-all-servers-legend = Alle serverar
-account-hub-incoming-server-legend = Innkomande server
-account-hub-outgoing-server-legend = Utgåande server
-account-hub-result-incoming-server-legend = Innkomande server
-    .title = Innkomande server
-account-hub-result-outgoing-server-legend = Utgåande server
-    .title = Utgåande server
 account-hub-protocol-label = Protokoll
-account-hub-hostname-label = Vertsnamn
 account-hub-result-hostname-label = Vertsnamn
     .title = Vertsnamn
 account-hub-result-socket-type-label = Tilkoplingssikkerheit
@@ -94,10 +87,6 @@ account-hub-result-auth-ntlm = NTLM
 account-hub-result-auth-external = Ekstern
 account-hub-result-auth-oauth2 = OAuth2
 account-hub-on-port-label = Port
-account-hub-result-authentication-label = Autentisering
-    .title = Autentisering
-account-hub-port-label = Port
-    .title = Sett portnummeret til 0 for automatisk utfylling
 account-hub-auto-description = { -brand-short-name } vil prøve å automatisk oppdage felt som er tomme.
 account-hub-ssl-label = Tilkoplingssikkerheit
 
@@ -105,8 +94,6 @@ account-hub-ssl-label = Tilkoplingssikkerheit
 
 account-hub-ssl-autodetect-option =
     .label = Oppdag automatisk
-account-hub-ssl-no-authentication-option =
-    .label = Inga autentisering
 account-hub-ssl-cleartext-password-option =
     .label = Vanleg passord
 account-hub-ssl-encrypted-password-option =
@@ -268,7 +255,6 @@ account-hub-email-exchange-settings = Exchange-innstillingar
 account-hub-email-connect-settings = Kople til e-postinnstillingene dine
 account-hub-email-protocol-select-header = Vel ein e-postkontotype
 account-hub-email-protocol-select-additional-info = Ytterlegare informasjon er nødvendig for å setje opp denne kontoen.
-account-hub-email-config-found = Vel e-postkontotype
 account-hub-email-enter-password = Skriv inn passordet for e-postkontoen din
 account-hub-email-sync-accounts = Synkroniser kalendrane og adressebøkene dine
 account-hub-test-configuration = Test
@@ -295,7 +281,6 @@ account-hub-config-success-description-guess = Konfigurasjon funne ved å prøve
 account-hub-config-success-description-disk = Innstillingar funne i { -brand-short-name }-installasjonen.
 account-hub-config-success-description-isp = Konfigurasjon funnen hos e-postleverandøren.
 account-hub-config-success-description-read-more = Du kan <a data-l10n-name="automated-setup-link">lese om korleis automatisk oppsett av e-post fungerer.</a>
-account-hub-config-success = Innstillingar funne i Mozilla ISPDB
 account-hub-password-info = Påloggingsinformasjonen din blir berre lagra lokalt på datamaskina di
 account-hub-creating-account = Opprettar konto…
 account-hub-sync-accounts-found = { -brand-short-name } fann nokre tilkopla tenester
@@ -326,10 +311,8 @@ account-hub-username-error-text = Brukarnamn er påkravd
 account-hub-manual-config-error-summary = Rett opp følgjande feil:
 account-hub-oauth-pending = Ventar på autorisasjon i påloggingsvindauget …
 account-hub-addon-install-button = Installer
-account-hub-addon-install-needed = { -brand-short-name } støttar ikkje denne serveren som standard. For å få tilgang til Exchange-e-post, <a data-l10n-name="addon-install">installer eit tredjeparts tillegg som Owl (betalt).</a>
 account-hub-addon-error = Mislykka installasjon av tillegget. Prøv på nytt, eller kontakt forfattaren av tillegget for å få hjelp.
 account-hub-select-security-warning = <span data-l10n-name="error-text">Åtvaring: Usikker e-postserver oppdaga.</span> Denne serveren manglar kryptering, noko som eksponerer passordet og dataa dine. Kontakt administratoren din for å sikre tilkoplinga, eller hald fram på eigen risiko. <a data-l10n-name="error-link">Sjå ofte stilte spørsmål for meir informasjon.</a>
-account-hub-security-warning = <span data-l10n-name="security-warning">Åtvaring: Usikker e-postserver oppdaga.</span> Denne serveren manglar kryptering, noko som eksponerer passordet og dataa dine. Kontakt administratoren din for å sikre tilkoplinga, eller hald fram på eigen risiko. <a data-l10n-name="faq-link">Sjå ofte stilte spørsmål for meir informasjon.</a>y
 account-hub-account-authentication-error = Autentiseringsfeil.
 account-hub-add-address-book = Legg til ei adressebok
 address-book-sync-existing-icon =
@@ -359,7 +342,6 @@ account-hub-address-book-sync-books-data =
         [one] 1 addressebok tilgjengeleg
        *[other] { $addressBooks } adressebøker tilgjengelege
     }
-account-hub-fetching-sync-accounts = Oppdager adressebøker og kalendrar…
 address-book-sync-existing-description = Hentar eksisterande kontoar…
 account-hub-select-address-book-account = Vel ein konto med adressebøker
 # $synced (Number) - The number of address books that are synced.

@@ -429,7 +429,6 @@ key-verification = Кілт баспасын эл. поштадан басқа �
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Хабарламаны жіберу мүмкін емес, себебі сіздің жеке кілтіңізде мәселе бар. { $problem }
-window-locked = Жазу терезесі құлыпталған; жіберу тоқтатылды
 
 ## Strings in keyserver.sys.mjs
 
@@ -463,9 +462,6 @@ converter-decrypt-body-failed =
 ## Strings filters.sys.mjs
 
 filter-folder-required = Мақсат буманы таңдауыңыз керек.
-filter-decrypt-move-warn-experimental =
-    Ескерту - "Тұрақты дешифрлеу" сүзгі әрекеті жойылған хабарларламаларға әкеп соғуы мүмкін.
-    Алдымен "Дешифрленген көшірмесін жасау" сүзгісін қолданып, нәтижені мұқият тексеру және нәтижеге қанағаттанғаннан кейін ғана осы сүзгіні пайдаланып бастауды ұсынамыз.
 filter-term-pgpencrypted-label = OpenPGP көмегімен шифрленген
 filter-key-required = Сіз алушы кілтін таңдауыңыз керек.
 # Variables:
@@ -630,7 +626,6 @@ fail-key-import = Қате – кілтті импорттау сәтсіз ая
 # $output (String) - File that writing was attempted to.
 file-write-failed = { $output } файлына жазу сәтсіз аяқталды
 no-pgp-block = Қате - жарамды қорғалған OpenPGP деректер блогы табылмады
-confirm-permissive-import = Импорттау сәтсіз аяқталды. Сіз импорттағыңыз келген кілт зақымдалған болуы немесе белгісіз атрибуттарды пайдалануы мүмкін. Дұрыс бөліктерді импорттауға әрекет жасағыңыз келе ме? Бұл толық емес және жарамсыз кілттердің импортына әкелуі мүмкін.
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = Кейбір импортталған құпия кілттер қолдау көрсетілмейтін мүмкіндікті жарнамалайды. Егер сіз осындай кілтті жеке кілт ретінде пайдалансаңыз, корреспонденттер сізге сәйкес келмейтін пішімдегі электрондық хаттарды немесе ашық кілттерді жіберуі мүмкін. Бұл келесі саусақ іздері бар импортталған құпия кілттерге әсер етеді: { $fingerprints }.
@@ -689,9 +684,6 @@ key-man-button-generate-key-continue = Кілт генерациясын жал�
 
 failed-decrypt = Қате – дешифрлеу сәтсіз аяқталды
 fix-broken-exchange-msg-failed = Бұл хабарламаны жөндеу мүмкін емес.
-# Variables:
-# $attachment (String) - File name of the signature file.
-attachment-no-match-from-signature = "{ $attachment }" қолтаңба файлын салынымға сәйкестеу мүмкін емес
 # Variables:
 # Variables:
 # $attachment (String) - File name of the attachment.
@@ -802,8 +794,3 @@ enig-confirm = OpenPGP растауы
 
 dlg-button-retry = Қа&йталау
 dlg-button-skip = А&ттап кету
-
-## Strings used in enigmailMsgBox.js
-
-enig-alert-title =
-    .title = OpenPGP ескертуі

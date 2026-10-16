@@ -43,14 +43,9 @@ openpgp-cannot-decrypt-because-mdc =
     Potrebbe essere stato modificato durante la trasmissione con l’intenzione di trafugarne il contenuto.
     Per prevenire questo rischio, i contenuti non vengono mostrati.
 openpgp-cannot-decrypt-because-missing-key = La chiave segreta richiesta per decrittare questo messaggio non è disponibile.
-openpgp-partially-signed =
-    Solo un sottoinsieme di questo messaggio è stato firmato digitalmente utilizzando OpenPGP.
-    Se si fa clic sul pulsante di verifica, le parti non protette verranno nascoste e verrà visualizzato lo stato della firma digitale.
 openpgp-partially-encrypted =
     Solo un sottoinsieme di questo messaggio è stato crittato con OpenPGP.
     Le parti leggibili del messaggio che sono già visualizzate non sono state crittate.
     Se si fa clic sul pulsante di decrittazione, verrà visualizzato il contenuto delle parti crittate.
-openpgp-reminder-partial-display = Promemoria: il messaggio mostrato di seguito rappresenta solo una parte del messaggio originale.
-openpgp-partial-verify-button = Verifica
 openpgp-partial-decrypt-button = Decritta
 openpgp-unexpected-key-for-you = Attenzione: questo messaggio contiene una chiave OpenPGP sconosciuta che fa riferimento a uno dei tuoi indirizzi email. Se questa non è una delle tue chiavi, potrebbe trattarsi di un tentativo di ingannare altri corrispondenti.

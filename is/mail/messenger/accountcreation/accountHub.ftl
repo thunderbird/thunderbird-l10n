@@ -56,14 +56,7 @@ account-hub-email-connect-button = Tengjast
 account-hub-result-incoming-legend = Móttekið
 account-hub-result-outgoing-legend = Útsent
 account-hub-all-servers-legend = Allir póstþjónar
-account-hub-incoming-server-legend = Póstþjónn inn
-account-hub-outgoing-server-legend = Póstþjónn út
-account-hub-result-incoming-server-legend = Póstþjónn inn
-    .title = Póstþjónn inn
-account-hub-result-outgoing-server-legend = Póstþjónn út
-    .title = Póstþjónn út
 account-hub-protocol-label = Samskiptamáti
-account-hub-hostname-label = Hýsitölva
 account-hub-result-hostname-label = Vélarheiti
     .title = Vélarheiti
 account-hub-result-socket-type-label = Öryggi tengingar
@@ -94,10 +87,6 @@ account-hub-result-auth-ntlm = NTLM
 account-hub-result-auth-external = Utanaðkomandi
 account-hub-result-auth-oauth2 = OAuth2
 account-hub-on-port-label = Gátt
-account-hub-result-authentication-label = Auðkenning
-    .title = Auðkenning
-account-hub-port-label = Gátt
-    .title = Settu númer gáttar á 0 til að finna gátt sjálfvirkt
 account-hub-auto-description = { -brand-short-name } mun reyna að greina sjálfvirkt þá reiti sem eru skildir eftir auðir.
 account-hub-ssl-label = Öryggi tengingar
 
@@ -105,8 +94,6 @@ account-hub-ssl-label = Öryggi tengingar
 
 account-hub-ssl-autodetect-option =
     .label = Skynja sjálfkrafa
-account-hub-ssl-no-authentication-option =
-    .label = Engin auðkenning
 account-hub-ssl-cleartext-password-option =
     .label = Venjulegt lykilorð
 account-hub-ssl-encrypted-password-option =
@@ -268,7 +255,6 @@ account-hub-email-exchange-settings = Exchange-stillingar
 account-hub-email-connect-settings = Tengdu tölvupóststillingarnar þínar
 account-hub-email-protocol-select-header = Veldu tegund tölvupóstreiknings
 account-hub-email-protocol-select-additional-info = Frekari upplýsingar eru nauðsynlegar til að setja upp þennan reikning.
-account-hub-email-config-found = Veldu tegund tölvupóstreikningsins þíns
 account-hub-email-enter-password = Settu inn lykilorð fyrir tölvupóstreikninginn þinn
 account-hub-email-sync-accounts = Samstilltu dagatölin þín og nafnaskrár
 account-hub-test-configuration = Prófa
@@ -295,7 +281,6 @@ account-hub-config-success-description-guess = Uppsetning fannst með því að 
 account-hub-config-success-description-disk = Stillingar fundust í { -brand-short-name } uppsetningu.
 account-hub-config-success-description-isp = Stillingar fundust hjá tölvupóstveitu.
 account-hub-config-success-description-read-more = Þú getur <a data-l10n-name="automated-setup-link">lesið um hvernig sjálfvirk uppsetning tölvupósts virkar.</a>
-account-hub-config-success = Uppsetning fannst í ISP-gagnagrunni Mozilla.
 account-hub-password-info = Auðkennin þín verða einungis geymd inni á tölvunni þinni
 account-hub-creating-account = Bý til reikning...
 account-hub-sync-accounts-found = { -brand-short-name } fann nokkrar tengdar þjónustur
@@ -326,10 +311,8 @@ account-hub-username-error-text = Notandanafn er nauðsynlegt
 account-hub-manual-config-error-summary = Endilega lagfærðu eftirfarandi villur:
 account-hub-oauth-pending = Bíður eftir auðkenningu í sérstökum innskráningarglugga...
 account-hub-addon-install-button = Setja upp
-account-hub-addon-install-needed = { -brand-short-name } styður ekki þennan netþjón. Til að fá aðgang að Exchange tölvupósti skaltu <a data-l10n-name="addon-install"> setja upp viðbót frá utanaðkomandi aðila eins og t.d. Owl (keypt þjónusta).</a>
 account-hub-addon-error = Uppsetning viðbótar mistókst. Reyndu aftur eða hafðu samband við höfund viðbótarinnar til að fá aðstoð.
 account-hub-select-security-warning = <span data-l10n-name="error-text">Aðvörun: Óöruggur póstþjónn fannst.</span> Þennan netþjón skortir dulritun, sem getur afhjúpað lykilorðið þitt og önnur gögn. Hafðu samband við kerfisstjóra til að gera tenginguna örugga eða haltu áfram á eigin ábyrgð. <a data-l10n-name="error-link">Skoðaðu algengar spurningar til að sjá frekari upplýsingar.</a>
-account-hub-security-warning = <span data-l10n-name="security-warning">Aðvörun: Óöruggur póstþjónn fannst.</span> Þennan netþjón skortir dulritun, sem getur afhjúpað lykilorðið þitt og önnur gögn. Hafðu samband við kerfisstjóra til að gera tenginguna örugga eða haltu áfram á eigin ábyrgð. <a data-l10n-name="faq-link">Skoðaðu algengar spurningar til að sjá frekari upplýsingar.</a>
 account-hub-account-authentication-error = Villa í auðkenningu.
 account-hub-add-address-book = Bæta við nafnaskrá
 address-book-sync-existing-icon =
@@ -359,7 +342,6 @@ account-hub-address-book-sync-books-data =
         [one] 1 nafnaskrá í boði
        *[other] { $addressBooks } nafnaskrár í boði
     }
-account-hub-fetching-sync-accounts = Finn nafnaskrár og dagatöl…
 address-book-sync-existing-description = Sæki fyrirliggjandi reikninga…
 account-hub-select-address-book-account = Veldu reikning með nafnaskrám
 # $synced (Number) - The number of address books that are synced.

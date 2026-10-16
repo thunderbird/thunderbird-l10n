@@ -432,7 +432,6 @@ key-verification = Verifica le dactylogramma del clave usante un canal de commun
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Impossibile inviar le message, perque il ha un problema con tu clave personal. { $problem }
-window-locked = Le fenestra de composition es blocate; invio cancellate
 
 ## Strings in keyserver.sys.mjs
 
@@ -466,9 +465,6 @@ converter-decrypt-body-failed =
 ## Strings filters.sys.mjs
 
 filter-folder-required = Tu debe eliger un dossier de destination.
-filter-decrypt-move-warn-experimental =
-    ATTENTION - le action del filtro "Decifrar permanentemente" pote ducer a destruer messages.
-    Nos consilia fortemente que tu prova primo le filtro "Crear copia decifrate", test le resultato accuratemente e comenciar a usar iste filtro solo un vice que tu es satisfacite del resultato.
 filter-term-pgpencrypted-label = Cryptate OpenPGP
 filter-key-required = Tu debe seliger un clave destinatario.
 # Variables:
@@ -633,7 +629,6 @@ fail-key-import = Error - importation de clave fallite
 # $output (String) - File that writing was attempted to.
 file-write-failed = Falta a scriber al file { $output }
 no-pgp-block = Error - Nulle valide bloco datos OpenPGP cuirassate trovate
-confirm-permissive-import = Importation fallite. Le clave que tu tenta importar pote esser corrumpite o usa attributos incognite. Vole tu tentar de importar le partes que es correcte? Isto pote comportar le importation de claves incomplete e inusabile.
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = Alcun del claves secrete importate clama un function non supportate. Si tu usa tal claves como tu clave personal, le correspondentes pote inviar te emails o claves public in un formato incompatibile. Isto affice le claves secrete con le sequente importate dactylogrammas: { $fingerprints }.
@@ -692,9 +687,6 @@ key-man-button-generate-key-continue = &Continuar le generation del clave
 
 failed-decrypt = Error - decryptation fallite
 fix-broken-exchange-msg-failed = Insuccesso a reparar message.
-# Variables:
-# $attachment (String) - File name of the signature file.
-attachment-no-match-from-signature = Impossibile associar file firma '{ $attachment } a un annexo
 # Variables:
 # Variables:
 # $attachment (String) - File name of the attachment.
@@ -805,8 +797,3 @@ enig-confirm = Confirmation OpenPGP
 
 dlg-button-retry = &Retentar
 dlg-button-skip = &Saltar
-
-## Strings used in enigmailMsgBox.js
-
-enig-alert-title =
-    .title = Alerta OpenPGP

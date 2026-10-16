@@ -216,7 +216,6 @@
 <!ENTITY smiley7Cmd.label "Epävarma">
 <!ENTITY smiley8Cmd.label "Yllätys">
 <!ENTITY smiley9Cmd.label "Suukko">
-<!ENTITY smiley10Cmd.label "Huuto">
 <!ENTITY smiley11Cmd.label "Viilee">
 <!ENTITY smiley12Cmd.label "Rahat-suuhun">
 <!ENTITY smiley13Cmd.label "Jalka-suussa">
@@ -266,12 +265,6 @@
 <!ENTITY convertRegularAttachment.accesskey "N">
 <!ENTITY attachPage.label "Liitä verkkosivu">
 <!ENTITY attachPage.accesskey "t">
-<!-- Attachment Pane Header Bar Context Menu
-     LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
-     Should use the same wording as startExpandedCmd.label
-     in msgHdrViewOverlay.dtd. -->
-<!ENTITY initiallyShowAttachmentPane.label "Näytä Liitteet-paneeli oletuksena">
-<!ENTITY initiallyShowAttachmentPane.accesskey "o">
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Hae sanastoja…">
 <!ENTITY spellAddDictionaries.accesskey "H">

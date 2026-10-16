@@ -13,8 +13,6 @@
 <!ENTITY undoCmd.accesskey "N">
 <!ENTITY redoCmd.label "Ath-dhèan">
 <!ENTITY redoCmd.accesskey "A">
-<!ENTITY deleteCmd.label "Sguab às">
-<!ENTITY deleteCmd.accesskey "S">
 <!ENTITY customizeCmd.label "Gnàthaich">
 <!ENTITY customizeCmd.accesskey "t">
 <!ENTITY viewMenu.label "Sealladh">

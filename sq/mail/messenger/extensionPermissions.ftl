@@ -17,7 +17,6 @@ webext-perms-description-compose = Të lexojë dhe ndryshojë mesazhet tuaj emai
 webext-perms-description-compose-send = Të dërgojë mesazhe email të hartuar, në emrin tuaj
 webext-perms-description-compose-save = Të ruajë si skica ose gjedhe mesazhe email të hartuar
 webext-perms-description-experiment-access = Kjo shtesë do të ketë hyrje të plotë, të pakufizuar te { -brand-short-name }-i dhe te kompjuteri juaj.
-webext-perms-description-experiment = Të ketë hyrje të plotë, të pakufizuar në { -brand-short-name } dhe në kompjuterin tuaj
 webext-perms-description-messagesImport = Të importojë mesazhe në Thunderbird
 webext-perms-description-messagesModify = Të lexojë dhe ndryshojë mesazhet tuaj email, dora-dorës që ju shfaqen
 webext-perms-description-messagesModifyPermanent = Të ndryshojë në mënyrë permanente burimin e mesazheve tuaj (përfshi krye, lëndë dhe bashkëngjitje)

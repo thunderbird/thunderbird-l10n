@@ -23,8 +23,6 @@
 <!ENTITY closeConversationCmd.accesskey "S">
 <!ENTITY aliasCmd.label "Adenvel">
 <!ENTITY aliasCmd.accesskey "A">
-<!ENTITY deleteCmd.label "Lemel an darempred">
-<!ENTITY deleteCmd.accesskey "L">
 <!ENTITY openConversationButton.tooltip "Kregiñ ur gaozeadenn">
 <!ENTITY closeConversationButton.tooltip "Serriñ ur gaozeadenn">
 <!ENTITY addBuddyButton.label "Ouzhpennañ un darempred">

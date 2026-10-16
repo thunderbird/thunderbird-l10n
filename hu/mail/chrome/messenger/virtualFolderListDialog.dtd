@@ -3,5 +3,3 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY virtualFolderListTitle.title "Mappák kijelölése">
 <!ENTITY virtualFolderDesc.label "Keresés a következő mappákban:">
-<!ENTITY folderName.label "Mappa neve">
-<!ENTITY folderSearch.label "Keresés">

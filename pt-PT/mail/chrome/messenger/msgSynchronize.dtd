@@ -18,5 +18,3 @@
 <!ENTITY selectButton.label "Selecionar...">
 <!ENTITY selectButton.accesskey "S">
 <!ENTITY MsgSelectDesc.label "Escolha as pastas de correio e grupos de discussão para utilização offline.">
-<!ENTITY MsgSelectInd.label "Descarregar">
-<!ENTITY MsgSelectItems.label "Pastas e Grupos de Discussão">

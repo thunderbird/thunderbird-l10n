@@ -18,5 +18,3 @@
 <!ENTITY selectButton.label "Избор…">
 <!ENTITY selectButton.accesskey "б">
 <!ENTITY MsgSelectDesc.label "Изберете пощенски папки и дискусионни групи за употреба без връзка.">
-<!ENTITY MsgSelectInd.label "Изтегляне">
-<!ENTITY MsgSelectItems.label "Папки и дискусионни групи">

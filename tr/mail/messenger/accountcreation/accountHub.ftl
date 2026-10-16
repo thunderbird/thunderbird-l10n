@@ -56,14 +56,7 @@ account-hub-email-connect-button = Bağlan
 account-hub-result-incoming-legend = Gelen
 account-hub-result-outgoing-legend = Giden
 account-hub-all-servers-legend = Tüm sunucular
-account-hub-incoming-server-legend = Gelen sunucusu
-account-hub-outgoing-server-legend = Giden sunucusu
-account-hub-result-incoming-server-legend = Gelen sunucusu
-    .title = Gelen sunucusu
-account-hub-result-outgoing-server-legend = Giden sunucusu
-    .title = Giden sunucusu
 account-hub-protocol-label = Protokol
-account-hub-hostname-label = Sunucu
 account-hub-result-hostname-label = Sunucu
     .title = Sunucu
 account-hub-result-socket-type-label = Bağlantı güvenliği
@@ -94,10 +87,6 @@ account-hub-result-auth-ntlm = NTLM
 account-hub-result-auth-external = Harici
 account-hub-result-auth-oauth2 = OAuth2
 account-hub-on-port-label = Port
-account-hub-result-authentication-label = Kimlik doğrulama
-    .title = Kimlik doğrulama
-account-hub-port-label = Port
-    .title = Otomatik algılama için port numarasını 0 olarak ayarlayın
 account-hub-auto-description = { -brand-short-name }, boş bırakılan alanları otomatik olarak algılamaya çalışır.
 account-hub-ssl-label = Bağlantı güvenliği
 
@@ -105,8 +94,6 @@ account-hub-ssl-label = Bağlantı güvenliği
 
 account-hub-ssl-autodetect-option =
     .label = Otomatik algıla
-account-hub-ssl-no-authentication-option =
-    .label = Kimlik doğrulama yok
 account-hub-ssl-cleartext-password-option =
     .label = Normal parola
 account-hub-ssl-encrypted-password-option =
@@ -265,7 +252,6 @@ account-hub-email-exchange-settings = Exchange ayarları
 account-hub-email-connect-settings = E-posta ayarlarınızı tamamlayın
 account-hub-email-protocol-select-header = Bir e-posta hesap türü seçin
 account-hub-email-protocol-select-additional-info = Bu hesabı kurmak için ek bilgiler gerekiyor.
-account-hub-email-config-found = E-posta hesabınızın türünü seçin
 account-hub-email-enter-password = E-posta hesabınızın parolasını girin
 account-hub-email-sync-accounts = Takvimlerinizi ve adres defterlerinizi eşitleyin
 account-hub-test-configuration = Test et
@@ -292,7 +278,6 @@ account-hub-config-success-description-guess = Sık kullanılan sunucu adları d
 account-hub-config-success-description-disk = { -brand-short-name } kurulumunda yapılandırma bulundu.
 account-hub-config-success-description-isp = E-posta sağlayıcısında yapılandırma bulundu.
 account-hub-config-success-description-read-more = Otomatik e-posta kurulumunun nasıl çalıştığını <a data-l10n-name="automated-setup-link">buradan okuyabilirsiniz.</a>
-account-hub-config-success = Mozilla İSS veritabanında yapılandırma bulundu
 account-hub-password-info = Hesap bilgileriniz yalnızca yerel olarak bilgisayarınızda depolanır
 account-hub-creating-account = Hesap oluşturuluyor…
 account-hub-sync-accounts-found = { -brand-short-name } bazı bağlı servisler buldu
@@ -323,10 +308,8 @@ account-hub-username-error-text = Kullanıcı adı gerekli
 account-hub-manual-config-error-summary = Lütfen aşağıdaki hataları giderin:
 account-hub-oauth-pending = Giriş penceresinde kimliğinizi doğrulamanız bekleniyor…
 account-hub-addon-install-button = Yükle
-account-hub-addon-install-needed = { -brand-short-name } bu sunucuyu kendi başına desteklemiyor. Exchange e-postalarınıza erişmek için <a data-l10n-name="addon-install">Owl (ücretli) gibi bir üçüncü taraf eklentisi yükleyebilirsiniz.</a>
 account-hub-addon-error = Eklenti kurulamadı. Lütfen yeniden deneyin veya yardım için eklentinin geliştiricisiyle iletişime geçin.
 account-hub-select-security-warning = <span data-l10n-name="error-text">Uyarı: Güvensiz posta sunucusu algılandı.</span> Bu sunucuda şifreleme olmadığından parolanız ve verileriniz ele geçirilebilir. Bağlantıyı güvence altına almak için yöneticinizle iletişime geçin veya riski kabul ediyorsanız devam edin. <a data-l10n-name="error-link">Daha fazla bilgi için SSS’ye bakın.</a>
-account-hub-security-warning = <span data-l10n-name="security-warning">Uyarı: Güvensiz posta sunucusu algılandı.</span> Bu sunucuda şifreleme olmadığından parolanız ve verileriniz ele geçirilebilir. Bağlantıyı güvence altına almak için yöneticinizle iletişime geçin veya riski kabul ediyorsanız devam edin. <a data-l10n-name="faq-link">Daha fazla bilgi için SSS’ye bakın.</a>
 account-hub-account-authentication-error = Kimlik doğrulama hatası.
 account-hub-add-address-book = Adres defteri ekle
 address-book-sync-existing-icon =
@@ -356,7 +339,6 @@ account-hub-address-book-sync-books-data =
         [one] 1 adres defteri mevcut
        *[other] { $addressBooks } adres defteri mevcut
     }
-account-hub-fetching-sync-accounts = Adres defterleri ve takvimler keşfediliyor…
 address-book-sync-existing-description = Mevcut hesaplar getiriliyor…
 account-hub-select-address-book-account = Adres defterleri olan bir hesap seçin
 # $synced (Number) - The number of address books that are synced.

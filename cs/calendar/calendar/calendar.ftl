@@ -734,16 +734,6 @@ hide-calendar-name =
 show-only-calendar-name =
     .label = Zobrazit pouze { $name }
     .accesskey = o
-# $name calendar name
-show-calendar-label =
-    .label = Zobrazit { $name }
-# $name calendar name
-hide-calendar-label =
-    .label = Skrýt { $name }
-# uses the access key calendar.context.showonly.accesskey
-# $name calendar name
-show-only-calendar =
-    .label = Zobrazit pouze { $name }
 # LOCALIZATION NOTE (modify-conflict-*)
 # Used by the event dialog to resolve item modification conflicts.
 modify-conflict-prompt-title = Konflikt úpravy položky

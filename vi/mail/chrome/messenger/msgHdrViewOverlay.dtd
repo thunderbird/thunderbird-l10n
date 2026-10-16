@@ -30,8 +30,6 @@
 <!ENTITY hdrFollowupButton1.tooltip "Đăng một bài theo dõi cho nhóm tin này">
 <!ENTITY hdrForwardButton1.label "Chuyển tiếp">
 <!ENTITY hdrForwardButton1.tooltip "Chuyển tiếp thư này">
-<!ENTITY hdrJunkButton1.label "Thư rác">
-<!ENTITY hdrJunkButton1.tooltip "Đánh dấu thư này là thư rác">
 <!ENTITY hdrTrashButton1.label "Xóa">
 <!ENTITY hdrTrashButton1.tooltip "Xóa thư này">
 <!ENTITY hdrViewToolbarShowFull.label "Hiển thị biểu tượng và văn bản">

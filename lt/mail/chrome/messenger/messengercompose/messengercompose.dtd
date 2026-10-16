@@ -216,7 +216,6 @@
 <!ENTITY smiley7Cmd.label "Nedrąsumas">
 <!ENTITY smiley8Cmd.label "Nustebimas">
 <!ENTITY smiley9Cmd.label "Bučinys">
-<!ENTITY smiley10Cmd.label "Rėksmas">
 <!ENTITY smiley11Cmd.label "„Cool“">
 <!ENTITY smiley12Cmd.label "Pinigai burnoje">
 <!ENTITY smiley13Cmd.label "Pėda burnoje">
@@ -266,12 +265,6 @@
 <!ENTITY convertRegularAttachment.accesskey "P">
 <!ENTITY attachPage.label "Pridėti tinklalapį…">
 <!ENTITY attachPage.accesskey "t">
-<!-- Attachment Pane Header Bar Context Menu
-     LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
-     Should use the same wording as startExpandedCmd.label
-     in msgHdrViewOverlay.dtd. -->
-<!ENTITY initiallyShowAttachmentPane.label "Iškart rodyti priedų polangį">
-<!ENTITY initiallyShowAttachmentPane.accesskey "S">
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Daugiau žodynų…">
 <!ENTITY spellAddDictionaries.accesskey "D">

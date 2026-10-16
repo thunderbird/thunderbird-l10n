@@ -6,8 +6,6 @@ about-addressbook-title = Llyfr Cyfeiriadau
 
 ## Toolbar
 
-about-addressbook-toolbar-new-address-book =
-    .label = Llyfr Cyfeiriadau Newydd
 about-addressbook-toolbar-add-address-book =
     .label = Ychwanegu Llyfr Cyfeiriadau Lleol
 about-addressbook-toolbar-add-carddav-address-book =
@@ -18,8 +16,6 @@ books-pane-create-contact-button = Cysylltiad Newydd
     .title = Creu cysylltiad newydd
 books-pane-add-book-button =
     .title = Ychwanegu llyfr cyfeiriadau
-books-pane-create-book-button =
-    .title = Creu llyfr cyfeiriadau newydd
 books-pane-create-list-button =
     .title = Creu rhestr e-bostio newydd
 books-pane-import-button = Mewnforio

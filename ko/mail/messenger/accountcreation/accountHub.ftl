@@ -56,14 +56,7 @@ account-hub-email-connect-button = 연결
 account-hub-result-incoming-legend = 수신
 account-hub-result-outgoing-legend = 발신
 account-hub-all-servers-legend = 모든 서버
-account-hub-incoming-server-legend = 메일 수신 서버
-account-hub-outgoing-server-legend = 메일 송신 서버
-account-hub-result-incoming-server-legend = 수신 서버
-    .title = 수신 서버
-account-hub-result-outgoing-server-legend = 송신 서버
-    .title = 송신 서버
 account-hub-protocol-label = 프로토콜
-account-hub-hostname-label = 호스트명
 account-hub-result-hostname-label = 호스트명
     .title = 호스트명
 account-hub-result-socket-type-label = 보안 연결
@@ -101,10 +94,6 @@ account-hub-result-auth-external = 외부
 account-hub-result-auth-oauth2 = OAuth2
     .title = OAuth2
 account-hub-on-port-label = 포트
-account-hub-result-authentication-label = 인증
-    .title = 인증
-account-hub-port-label = 포트
-    .title = 자동 감지를 위해서는 포트 번호를 0번으로 지정하십시오
 account-hub-auto-description = { -brand-short-name }가 비어있는 필드는 자동으로 감지를 시도합니다.
 account-hub-ssl-label = 연결 보안
 
@@ -112,8 +101,6 @@ account-hub-ssl-label = 연결 보안
 
 account-hub-ssl-autodetect-option =
     .label = 자동 감지
-account-hub-ssl-no-authentication-option =
-    .label = 인증 없음
 account-hub-ssl-cleartext-password-option =
     .label = 일반 비밀번호
 account-hub-ssl-encrypted-password-option =
@@ -275,7 +262,6 @@ account-hub-email-exchange-settings = Exchange 설정
 account-hub-email-connect-settings = 이메일 설정 연결
 account-hub-email-protocol-select-header = 이메일 계정 유형 선택
 account-hub-email-protocol-select-additional-info = 이 계정을 설정하려면 추가 정보가 필요합니다.
-account-hub-email-config-found = 이메일 계정 유형 선택
 account-hub-email-enter-password = 이메일 계정 비밀번호 입력
 account-hub-email-sync-accounts = 캘린더와 주소록 동기화
 account-hub-test-configuration = 테스트
@@ -302,7 +288,6 @@ account-hub-config-success-description-guess = 일반적인 서버 이름으로 
 account-hub-config-success-description-disk = { -brand-short-name } 설치에서 설정을 찾았습니다.
 account-hub-config-success-description-isp = 이메일 제공자에서 설정을 찾았습니다.
 account-hub-config-success-description-read-more = <a data-l10n-name="automated-setup-link">자동화된 이메일 설정이 어떻게 작동하는지</a> 읽어 보실 수 있습니다.
-account-hub-config-success = Mozilla ISPDB에서 설정 발견함
 account-hub-password-info = 자격 증명은 사용자 컴퓨터에 로컬로만 저장됩니다.
 account-hub-creating-account = 계정을 생성하는 중…
 account-hub-sync-accounts-found = { -brand-short-name }가 연결된 서비스를 찾았습니다
@@ -329,10 +314,8 @@ account-hub-username-error-text = 사용자이름을 입력해주세요.
 account-hub-manual-config-error-summary = 다음 오류를 해결하십시오:
 account-hub-oauth-pending = 로그인 팝업이 인증을 기다리는 중…
 account-hub-addon-install-button = 설치
-account-hub-addon-install-needed = { -brand-short-name }가 자체적으로 이 서버를 지원하지 않습니다. Exchange 이메일에 접근하려면 <a data-l10n-name="addon-install">Owl(유료)과 같은 서드파티 부가 기능을 설치하세요.</a>
 account-hub-addon-error = 부가 기능 설치에 실패했습니다. 다시 시도하거나 부가 기능 제작자에게 도움을 요청하세요.
 account-hub-select-security-warning = <span data-l10n-name="error-text">경고: 안전하지 않은 메일 서버가 감지되었습니다.</span> 이 서버는 암호화 기능이 없어 비밀번호와 데이터가 노출될 수 있습니다. 관리자에게 연결 보안을 요청하세요. 그렇지 않으면 위험을 감수한 채로 진행해야 합니다. <a data-l10n-name="error-link">자세한 내용은 자주 묻는 질문을 참고하세요.</a>
-account-hub-security-warning = <span data-l10n-name="security-warning">경고 : 안전하지 않은 메일 서버가 감지되었습니다.</span> 이 서버에 암호화 기능이 없어서 비밀번호와 데이터가 노출되었습니다. 관리자에게 연결 보안을 요청하세요. 그렇지 않으면 위험을 감수한 채로 진행해야 합니다. <a data-l10n-name="faq-link">자세한 내용은 FAQ를 참조하세요.</a>
 account-hub-account-authentication-error = 인증 오류입니다.
 account-hub-add-address-book = 주소록 추가
 address-book-sync-existing-icon =
@@ -358,7 +341,6 @@ address-book-add-ldap = 새 LDAP  주소록
 address-book-add-ldap-description = 원격 LDAP 주소록에 연결
 # $addressBooks (Number) - The number of address books that can be synced from existing accounts.
 account-hub-address-book-sync-books-data = 주소록 { $addressBooks }개 사용 가능
-account-hub-fetching-sync-accounts = 주소록과 캘린더를 찾는 중...
 address-book-sync-existing-description = 기존 계정을 검색하는 중…
 account-hub-select-address-book-account = 주소록이 있는 계정을 선택하세요
 # $synced (Number) - The number of address books that are synced.

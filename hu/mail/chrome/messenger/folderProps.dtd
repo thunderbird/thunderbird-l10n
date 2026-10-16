@@ -10,22 +10,6 @@
 <!ENTITY folderRebuildSummaryFile.explanation "Néha a mappaindex (.msf) fájlja megsérül, és az üzenetek nem jelennek meg, vagy a törölt üzenetek megjelennek; a mappa javítása megszüntetheti ezeket a problémákat.">
 <!ENTITY folderIncludeInGlobalSearch.label "A mappa üzeneteinek megjelenítése a globális keresés eredményei között">
 <!ENTITY folderIncludeInGlobalSearch.accesskey "g">
-<!ENTITY retention.label "Megőrzési házirend">
-<!ENTITY retentionUseAccount.label "A postafiók beállításainak megfelelően">
-<!ENTITY retentionUseAccount.accesskey "p">
-<!ENTITY daysOld.label "nap">
-<!ENTITY message.label "üzenet">
-<!ENTITY retentionCleanup.label "Lemezhely felszabadítása céljából a régi üzenetek véglegesen törölhetők.">
-<!ENTITY retentionCleanupImap.label "Lemezhely felszabadítása céljából a régi üzenetek véglegesen törölhetők, a helyi másolatok és a távoli kiszolgálón lévők egyaránt.">
-<!ENTITY retentionCleanupPop.label "Lemezhely felszabadítása céljából a régi üzenetek véglegesen törölhetők, beleértve a távoli kiszolgálón lévő eredetieket is.">
-<!ENTITY retentionDeleteMsg.label "Üzenetek törlése, ha régebbiek, mint">
-<!ENTITY retentionDeleteMsg.accesskey "z">
-<!ENTITY retentionKeepAll.label "Minden üzenet megtartása">
-<!ENTITY retentionKeepAll.accesskey "M">
-<!ENTITY retentionKeepRecent.label "Minden üzenet törlése, kivéve az utolsó">
-<!ENTITY retentionKeepRecent.accesskey "u">
-<!ENTITY retentionApplyToFlagged.label "Csillagozott üzenetek megtartása">
-<!ENTITY retentionApplyToFlagged.accesskey "C">
 <!ENTITY folderSynchronizationTab.label "Szinkronizálás">
 <!ENTITY folderCheckForNewMessages2.label "Ha új üzenetet érkezik ebbe a postafiókba, mindig nézze meg ezt a mappát.">
 <!ENTITY folderCheckForNewMessages2.accesskey "H">

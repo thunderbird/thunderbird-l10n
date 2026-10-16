@@ -33,8 +33,6 @@
 <!ENTITY hdrFollowupButton1.tooltip "Publicēt sekojumu šajā ziņu grupā">
 <!ENTITY hdrForwardButton1.label "Pārsūtīt">
 <!ENTITY hdrForwardButton1.tooltip "Pārsūtīt šo vēstuli">
-<!ENTITY hdrJunkButton1.label "Draza">
-<!ENTITY hdrJunkButton1.tooltip "Atzīmēt šo vēstuli kā drazu">
 <!ENTITY hdrTrashButton1.label "Izdzēst">
 <!ENTITY hdrTrashButton1.tooltip "Izdzēst šo ziņojumu">
 <!ENTITY hdrViewToolbarShowFull.label "Rādīt ikonas un tekstu">

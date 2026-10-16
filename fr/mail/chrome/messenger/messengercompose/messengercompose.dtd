@@ -216,7 +216,6 @@
 <!ENTITY smiley7Cmd.label "Perplexe">
 <!ENTITY smiley8Cmd.label "Surprise">
 <!ENTITY smiley9Cmd.label "Bisou">
-<!ENTITY smiley10Cmd.label "Horreur !">
 <!ENTITY smiley11Cmd.label "Cool">
 <!ENTITY smiley12Cmd.label "Censuré">
 <!ENTITY smiley13Cmd.label "Oups !">
@@ -266,12 +265,6 @@
 <!ENTITY convertRegularAttachment.accesskey "P">
 <!ENTITY attachPage.label "Joindre une page web…">
 <!ENTITY attachPage.accesskey "W">
-<!-- Attachment Pane Header Bar Context Menu
-     LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
-     Should use the same wording as startExpandedCmd.label
-     in msgHdrViewOverlay.dtd. -->
-<!ENTITY initiallyShowAttachmentPane.label "Afficher par défaut le panneau des pièces jointes">
-<!ENTITY initiallyShowAttachmentPane.accesskey "A">
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Ajouter des dictionnaires…">
 <!ENTITY spellAddDictionaries.accesskey "A">

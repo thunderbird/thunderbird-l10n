@@ -87,12 +87,6 @@ quit-app-shortcut =
 
 ## Mail Toolbar
 
-toolbar-junk-button =
-    .label = Nungiavischà
-    .tooltiptext = Marcar ils messadis tschernids sco nungiavischads
-toolbar-not-junk-button =
-    .label = Betg nungiavischà
-    .tooltiptext = Betg marcar ils messadis tschernids sco nungiavischads
 toolbar-delete-button =
     .label = Stizzar
     .tooltiptext = Stizzar ils messadis tschernids u l'ordinatur

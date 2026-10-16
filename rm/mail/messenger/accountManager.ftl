@@ -4,10 +4,6 @@
 
 open-preferences-sidebar-button2 = Parameters da { -brand-short-name }
 open-addons-sidebar-button = Supplements e designs
-account-action-add-newsgroup-account =
-    .label = Agiuntar in conto da gruppas da discussiun…
-    .accesskey = n
-account-tree-create-account-button = Nov conto
 account-tree-add-mail-account =
     .label = Conto dad e-mail…
     .accesskey = m

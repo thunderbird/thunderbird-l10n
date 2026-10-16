@@ -5,10 +5,6 @@
 open-preferences-sidebar-button2 = Ρυθμίσεις { -brand-short-name }
 open-addons-sidebar-button = Πρόσθετα και θέματα
 account-tree-add-account-button = Προσθήκη λογαριασμού
-account-action-add-newsgroup-account =
-    .label = Προσθήκη λογαριασμού ομάδας συζητήσεων…
-    .accesskey = θ
-account-tree-create-account-button = Νέος λογαριασμός
 account-tree-add-mail-account =
     .label = Λογαριασμός email…
     .accesskey = Λ

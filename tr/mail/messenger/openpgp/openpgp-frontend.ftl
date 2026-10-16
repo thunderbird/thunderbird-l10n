@@ -43,14 +43,9 @@ openpgp-cannot-decrypt-because-mdc =
     İletinin taşınması sırasında içeriğini çalmak amacıyla iletide değişiklik yapılmış olabilir.
     Bu riski önlemek için ileti içeriği gösterilmemektedir.
 openpgp-cannot-decrypt-because-missing-key = Bu iletinin şifresini çözmek için gereken gizli anahtar mevcut değil.
-openpgp-partially-signed =
-    Bu iletinin yalnızca bir alt kümesi OpenPGP kullanılarak dijital olarak imzalanmış.
-    Doğrula düğmesine tıklarsanız korunmayan parçalar gizlenir ve dijital imzanın durumu gösterilir.
 openpgp-partially-encrypted =
     Bu iletinin yalnızca bir alt kümesi OpenPGP ile şifrelenmiş.
     İletinin ekranda gördüğünüz okunabilir kısımları şifrelenmemiş.
     Şifreyi çöz düğmesini tıklarsanız şifrelenen kısımların da içeriği gösterilecektir.
-openpgp-reminder-partial-display = Hatırlatma: Aşağıda gösterilen ileti, asıl iletinin yalnızca bir alt kümesidir.
-openpgp-partial-verify-button = Doğrula
 openpgp-partial-decrypt-button = Şifreyi çöz
 openpgp-unexpected-key-for-you = Uyarı: Bu ileti kendi e-posta adreslerinizden birini işaret eden bilinmeyen bir OpenPGP anahtarı içeriyor. Bu sizin kendi anahtarlarınızdan biri değilse, diğer yazıştığınız kişileri kandırma girişimi olabilir.

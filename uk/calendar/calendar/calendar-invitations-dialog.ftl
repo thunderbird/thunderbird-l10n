@@ -11,9 +11,6 @@ calendar-invitation-current-participation-status-icon-needs-action =
 allday-event = Подія на увесь день
 recurrent-event =
     .value = Повторювана подія
-# $locationProperty is the location of the event
-calendar-invitations-location =
-    .value = Розташування: { $locationProperty }
 # $organizerProperty is the organizer of the event
 organizer =
     .value = Організатор: { $organizerProperty }

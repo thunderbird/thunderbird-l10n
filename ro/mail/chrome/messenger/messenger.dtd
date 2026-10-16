@@ -48,8 +48,6 @@
 <!ENTITY getAllNewMsgCmdPopupMenu.accesskey "a">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.label "Contul actual">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.accesskey "c">
-<!ENTITY getNextNMsgCmd2.label "Obține următoarele mesaje din grupurile de discuții">
-<!ENTITY getNextNMsgCmd2.accesskey "t">
 <!ENTITY sendUnsentCmd.label "Trimite mesajele neexpediate">
 <!ENTITY sendUnsentCmd.accesskey "d">
 <!ENTITY subscribeCmd.label "Abonare…">
@@ -59,8 +57,6 @@
 <!ENTITY renameFolder.label "Redenumește dosarul…">
 <!ENTITY renameFolder.accesskey "R">
 <!ENTITY renameFolder.key "VK_F2">
-<!ENTITY compactFolders.label "Compactează dosarele">
-<!ENTITY compactFolders.accesskey "F">
 <!ENTITY emptyTrashCmd.label "Golește coșul de gunoi">
 <!ENTITY emptyTrashCmd.accesskey "y">
 <!ENTITY offlineMenu.label "Offline">
@@ -129,10 +125,6 @@
 <!ENTITY allFolders.accesskey "a">
 <!ENTITY unreadFolders.label "Necitite">
 <!ENTITY unreadFolders.accesskey "N">
-<!ENTITY favoriteFolders.label "Favorite">
-<!ENTITY favoriteFolders.accesskey "F">
-<!ENTITY recentFolders.label "Recente">
-<!ENTITY recentFolders.accesskey "R">
 <!ENTITY compactVersion.label "Mod afișare compact">
 <!ENTITY compactVersion.accesskey "c">
 <!-- Sort Menu -->
@@ -154,8 +146,6 @@
 <!ENTITY sortByStatusCmd.accesskey "S">
 <!ENTITY sortByTagsCmd.label "Etichete">
 <!ENTITY sortByTagsCmd.accesskey "h">
-<!ENTITY sortByJunkStatusCmd.label "Stare de nesolicitat">
-<!ENTITY sortByJunkStatusCmd.accesskey "e">
 <!ENTITY sortBySubjectCmd.label "Subiect">
 <!ENTITY sortBySubjectCmd.accesskey "b">
 <!ENTITY sortByFromCmd.label "Expeditor">
@@ -243,7 +233,6 @@
 <!ENTITY findPrevCmd.key2 "VK_F3">
 <!ENTITY searchMailCmd.label "Caută mesaje…">
 <!ENTITY searchMailCmd.accesskey "m">
-<!ENTITY searchMailCmd.key "F">
 <!ENTITY glodaSearchCmd.label "Căutare globală…">
 <!ENTITY glodaSearchCmd.accesskey "G">
 <!ENTITY searchAddressesCmd.label "Caută adrese…">
@@ -334,17 +323,6 @@
 <!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN">
 <!ENTITY createFilter.label "Creează filtru din mesaj…">
 <!ENTITY createFilter.accesskey "a">
-<!ENTITY moveMsgToMenu.label "Mută în">
-<!ENTITY moveMsgToMenu.accesskey "M">
-<!ENTITY moveCopyMsgRecentMenu.label "Recente">
-<!ENTITY moveCopyMsgRecentMenu.accesskey "R">
-<!ENTITY copyMessageLocation.label "Copiază amplasarea mesajului">
-<!ENTITY copyMessageLocation.accesskey "m">
-<!ENTITY copyMsgToMenu.label "Copiază în">
-<!ENTITY copyMsgToMenu.accesskey "C">
-<!ENTITY moveToFolderAgain.label "Mută din nou">
-<!ENTITY moveToFolderAgain.accesskey "i">
-<!ENTITY moveToFolderAgainCmd.key "m">
 <!ENTITY killThreadMenu.label "Ignoră conversația">
 <!ENTITY killThreadMenu.accesskey "I">
 <!ENTITY killThreadMenu.key "k">
@@ -356,16 +334,6 @@
 <!ENTITY watchThreadMenu.key "w">
 <!ENTITY tagMenu.label "Etichetă">
 <!ENTITY tagMenu.accesskey "h">
-<!ENTITY tagCmd0.key "0">
-<!ENTITY tagCmd1.key "1">
-<!ENTITY tagCmd2.key "2">
-<!ENTITY tagCmd3.key "3">
-<!ENTITY tagCmd4.key "4">
-<!ENTITY tagCmd5.key "5">
-<!ENTITY tagCmd6.key "6">
-<!ENTITY tagCmd7.key "7">
-<!ENTITY tagCmd8.key "8">
-<!ENTITY tagCmd9.key "9">
 <!ENTITY markMenu.label "Marchează">
 <!ENTITY markMenu.accesskey "M">
 <!ENTITY toggleReadCmd.key "m">
@@ -385,14 +353,6 @@
 <!ENTITY markStarredCmd.label "Cu o steluță">
 <!ENTITY markStarredCmd.accesskey "s">
 <!ENTITY markStarredCmd.key "S">
-<!ENTITY markAsJunkCmd.label "Ca nesolicitat">
-<!ENTITY markAsJunkCmd.accesskey "C">
-<!ENTITY markAsJunkCmd.key "j">
-<!ENTITY markAsNotJunkCmd.label "Ca nefiind nesolicitat">
-<!ENTITY markAsNotJunkCmd.accesskey "n">
-<!ENTITY markAsNotJunkCmd.key "j">
-<!ENTITY recalculateJunkScoreCmd.label "Execută controalele de mesaje nesolicitate">
-<!ENTITY recalculateJunkScoreCmd.accesskey "c">
 <!ENTITY openMessageWindowCmd.label "Deschide mesajul">
 <!ENTITY openMessageWindowCmd.accesskey "D">
 <!ENTITY openMessageWindowCmd.key "O">
@@ -441,10 +401,6 @@
 <!ENTITY filtersApplyToSelection.accesskey "s">
 <!ENTITY filtersApplyToMessage.label "Rulează filtrele pe mesaj">
 <!ENTITY filtersApplyToMessage.accesskey "s">
-<!ENTITY runJunkControls.label "Execută controalele de mesaje nesolicitate pe dosar">
-<!ENTITY runJunkControls.accesskey "c">
-<!ENTITY deleteJunk.label "Șterge mesajele marcate ca nesolicitate în dosar">
-<!ENTITY deleteJunk.accesskey "d">
 <!ENTITY importCmd.label "Importă…">
 <!ENTITY importCmd.accesskey "I">
 <!ENTITY exportCmd.label "Exportă…">
@@ -491,7 +447,6 @@
 <!ENTITY printButton.label "Printează">
 <!ENTITY stopButton.label "Oprește">
 <!ENTITY throbberItem.title "Indicator de activitate">
-<!ENTITY junkItem.title "Nesolicitat">
 <!ENTITY addressBookButton.label "Agendă de contacte">
 <!ENTITY chatButton.label "Chat">
 <!ENTITY glodaSearch.title "Căutare globală">
@@ -553,11 +508,6 @@
 <!ENTITY appmenuNewContactCmd.label "Contact în agendă…">
 <!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Aranjamentul barei de unelte…">
-<!-- Tags Menu Popup -->
-<!ENTITY addNewTag.label "Etichetă nouă…">
-<!ENTITY addNewTag.accesskey "n">
-<!ENTITY manageTags.label "Gestionează etichetele…">
-<!ENTITY manageTags.accesskey "M">
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "Nume">
 <!ENTITY folderUnreadColumn.label "Necitite">
@@ -580,12 +530,8 @@
 <!ENTITY folderContextRename.accesskey "R">
 <!ENTITY folderContextRemove.label "Șterge">
 <!ENTITY folderContextRemove.accesskey "g">
-<!ENTITY folderContextCompact.label "Compactează">
-<!ENTITY folderContextCompact.accesskey "m">
 <!ENTITY folderContextEmptyTrash.label "Golește coșul de gunoi">
 <!ENTITY folderContextEmptyTrash.accesskey "G">
-<!ENTITY folderContextEmptyJunk.label "Golește dosarul cu nesolicitate">
-<!ENTITY folderContextEmptyJunk.accesskey "G">
 <!ENTITY folderContextSendUnsentMessages.label "Trimite mesajele neexpediate">
 <!ENTITY folderContextSendUnsentMessages.accesskey "T">
 <!ENTITY folderContextUnsubscribe.label "Dezabonează-mă">
@@ -628,7 +574,6 @@
 <!ENTITY accountColumn.label "Cont">
 <!ENTITY statusColumn.label "Stare">
 <!ENTITY sizeColumn.label "Mărime">
-<!ENTITY junkStatusColumn.label "Stare de nesolicitat">
 <!ENTITY unreadColumn.label "Necitite">
 <!ENTITY totalColumn.label "Total">
 <!ENTITY readColumn.label "Citit">
@@ -652,7 +597,6 @@
 <!ENTITY accountColumn2.tooltip "Sortează după cont">
 <!ENTITY statusColumn2.tooltip "Sortează după stare">
 <!ENTITY sizeColumn2.tooltip "Sortează după mărime">
-<!ENTITY junkStatusColumn2.tooltip "Sortează după starea de nesolicitat">
 <!ENTITY unreadColumn2.tooltip "Numărul de mesaje necitite din conversație">
 <!ENTITY totalColumn2.tooltip "Numărul total de mesaje din conversație">
 <!ENTITY readColumn2.tooltip "Sortare după citire">
@@ -691,16 +635,6 @@
 <!ENTITY contextReplyAll.accesskey "s">
 <!ENTITY contextReplyList.label "Răspunde listei">
 <!ENTITY contextReplyList.accesskey "l">
-<!ENTITY contextMoveMsgMenu.label "Mută în">
-<!ENTITY contextMoveMsgMenu.accesskey "M">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Destinații recente">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "R">
-<!ENTITY contextMoveCopyMsgRecentMenu.label "Recente">
-<!ENTITY contextMoveCopyMsgRecentMenu.accesskey "R">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.label "Favorite">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.accesskey "F">
-<!ENTITY contextCopyMsgMenu.label "Copiază în">
-<!ENTITY contextCopyMsgMenu.accesskey "C">
 <!ENTITY contextKillThreadMenu.label "Ignoră conversația">
 <!ENTITY contextKillSubthreadMenu.accesskey "b">
 <!ENTITY contextKillThreadMenu.accesskey "I">

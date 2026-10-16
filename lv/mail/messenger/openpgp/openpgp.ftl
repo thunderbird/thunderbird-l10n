@@ -299,7 +299,6 @@ key-do-you-accept = Vai jūs pieņemat šo atslēgu digitālo parakstu pārbaude
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Neizdevās nosūtīt vēstuli, jo radās problēma ar jūsu personīgo atslēgu. { $problem }
-window-locked = Veidošanas logs ir slēgts; sūtīšana atcelta
 
 ## Strings in keyserver.sys.mjs
 
@@ -333,9 +332,6 @@ converter-decrypt-body-failed =
 ## Strings filters.sys.mjs
 
 filter-folder-required = Jums jāizvēlas mērķa mape.
-filter-decrypt-move-warn-experimental =
-    Brīdinājums - filtrēšanas darbība "Atšifrēt pastāvīgi" var izraisīt vēstules iznīcināšanu.
-    Mēs iesakām vispirms izmēģināt filtru "Izveidot atšifrētu kopiju", rūpīgi pārbaudīt rezultātu un sākt lietot šo filtru tikai tad, kad esat apmierināts ar rezultātu.
 filter-term-pgpencrypted-label = OpenPGP šifrēts
 filter-key-required = Jums jāizvēlas adresāta atslēga.
 # Variables:
@@ -494,7 +490,6 @@ fail-key-import = Kļūda - atslēgas importēšana neizdevās
 # $output (String) - File that writing was attempted to.
 file-write-failed = Neizdevās ierakstīt datnē { $output }
 no-pgp-block = Kļūda - nav atrasts derīgs bruņots OpenPGP datu bloks
-confirm-permissive-import = Ievietošana neizdevās. Atslēga, kuru mēģini ievietot, var būt bojāta vai izmantot nezināmas īpašības. Vai mēģināt ievietot daļas, kuras ir pareizas? Tas var novest pie nepilnīgu un neizmantojamu atslēgu ievietošanas.
 
 ## Strings used in trust.sys.mjs
 
@@ -538,9 +533,6 @@ key-man-button-generate-key-continue = &Turpināt atslēgu veidošanu
 
 failed-decrypt = Kļūda - atšifrēšana neizdevās
 fix-broken-exchange-msg-failed = Neizdevās izlabot šo vēstuli.
-# Variables:
-# $attachment (String) - File name of the signature file.
-attachment-no-match-from-signature = Neizdevās pielikumā pievienot paraksta failu '{ $attachment }'
 # Variables:
 # Variables:
 # $attachment (String) - File name of the attachment.
@@ -651,8 +643,3 @@ enig-confirm = OpenPGP apstiprinājums
 
 dlg-button-retry = &Atkārtot
 dlg-button-skip = &Izlaist
-
-## Strings used in enigmailMsgBox.js
-
-enig-alert-title =
-    .title = OpenPGP brīdinājums

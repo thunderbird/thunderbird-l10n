@@ -216,7 +216,6 @@
 <!ENTITY smiley7Cmd.label "Indecise">
 <!ENTITY smiley8Cmd.label "Surprisa">
 <!ENTITY smiley9Cmd.label "Basio">
-<!ENTITY smiley10Cmd.label "Crito">
 <!ENTITY smiley11Cmd.label "Sympathic">
 <!ENTITY smiley12Cmd.label "Moneta in bucca">
 <!ENTITY smiley13Cmd.label "Scarpa in bucca">
@@ -266,12 +265,6 @@
 <!ENTITY convertRegularAttachment.accesskey "A">
 <!ENTITY attachPage.label "Annexar pagina web…">
 <!ENTITY attachPage.accesskey "w">
-<!-- Attachment Pane Header Bar Context Menu
-     LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
-     Should use the same wording as startExpandedCmd.label
-     in msgHdrViewOverlay.dtd. -->
-<!ENTITY initiallyShowAttachmentPane.label "Monstrar initialmente le pannello de annexos">
-<!ENTITY initiallyShowAttachmentPane.accesskey "M">
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Adder dictionarios…">
 <!ENTITY spellAddDictionaries.accesskey "A">

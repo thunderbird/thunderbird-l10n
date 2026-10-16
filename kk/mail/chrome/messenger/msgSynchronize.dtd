@@ -18,5 +18,3 @@
 <!ENTITY selectButton.label "Таңдау…">
 <!ENTITY selectButton.accesskey "а">
 <!ENTITY MsgSelectDesc.label "Желіден тыс режимі үшін пошта бумаларын және жаңалықтар топтарын таңдау.">
-<!ENTITY MsgSelectInd.label "Жүктеп алу">
-<!ENTITY MsgSelectItems.label "Бумалар және жаңалықтар топтары">

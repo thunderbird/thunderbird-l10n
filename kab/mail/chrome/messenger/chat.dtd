@@ -23,8 +23,6 @@
 <!ENTITY closeConversationCmd.accesskey "M">
 <!ENTITY aliasCmd.label "Snifel isem">
 <!ENTITY aliasCmd.accesskey "n">
-<!ENTITY deleteCmd.label "Kkes anermis">
-<!ENTITY deleteCmd.accesskey "K">
 <!ENTITY openConversationButton.tooltip "Senker adiwenni">
 <!ENTITY closeConversationButton.tooltip "Mdel adiwenni">
 <!ENTITY addBuddyButton.label "Rnu anermis">

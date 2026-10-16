@@ -43,14 +43,9 @@ openpgp-cannot-decrypt-because-mdc =
     Pesannya bisa saja dimodifikasi saat dalam perjalanan, dengan maksud untuk mencuri isinya.
     Untuk mencegah risiko ini, isinya tidak ditampilkan.
 openpgp-cannot-decrypt-because-missing-key = Kunci rahasia yang diperlukan untuk mendekripsi pesan ini tidak tersedia.
-openpgp-partially-signed =
-    Hanya sebagian dari pesan ini yang ditandatangani secara digital menggunakan OpenPGP.
-    Jika Anda mengklik tombol verifikasi, bagian yang tidak dilindungi akan disembunyikan, dan status tanda tangan digital akan ditampilkan.
 openpgp-partially-encrypted =
     Hanya sebagian dari pesan ini yang dienkripsi menggunakan OpenPGP.
     Bagian pesan yang dapat dibaca yang sudah ditampilkan tidak dienkripsi.
     Jika Anda mengklik tombol dekripsi, konten bagian yang dienkripsi akan ditampilkan.
-openpgp-reminder-partial-display = Pengingat: Pesan yang ditampilkan di bawah ini hanya sebagian dari pesan asli.
-openpgp-partial-verify-button = Verifikasi
 openpgp-partial-decrypt-button = Dekripsi
 openpgp-unexpected-key-for-you = Peringatan: Pesan ini mengandung kunci OpenPGP yang tidak dikenal yang merujuk ke salah satu alamat surel Anda sendiri. Jika ini bukan salah satu kunci Anda sendiri, ini bisa menjadi upaya untuk mengelabui koresponden lain.

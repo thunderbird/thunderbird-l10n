@@ -10,22 +10,6 @@
 <!ENTITY folderRebuildSummaryFile.explanation "ზოგჯერ საქაღალდის ინდექსის (.msf) ფაილი ზიანდება და წერილები შესაძლოა არ აისახოს ან აისახოს წაშლილად; საქაღალდის აღდგენამ შესაძლოა მოხსნას ეს პრობლემა.">
 <!ENTITY folderIncludeInGlobalSearch.label "ამ საქაღალდის წერილების გათვალისწინება გლობალური ძიების შედეგებში">
 <!ENTITY folderIncludeInGlobalSearch.accesskey "G">
-<!ENTITY retention.label "შენარჩუნების პირობები">
-<!ENTITY retentionUseAccount.label "ჩემი ანგარიშის პარამეტრების გამოყენება">
-<!ENTITY retentionUseAccount.accesskey "U">
-<!ENTITY daysOld.label "დღე">
-<!ENTITY message.label "წერილები">
-<!ENTITY retentionCleanup.label "დისკზე ადგილის გასათავისუფლებლად ძველი წერილების შეუქცევადი წაშლა შეგიძლიათ.">
-<!ENTITY retentionCleanupImap.label "დისკზე ადგილის გასათავისუფლებლად შესაძლებელია ძველი გზავნილების შეუქცევადად წაშლა ორივეგან - ადგილობრივად და დაშორებულ სერვერზე.">
-<!ENTITY retentionCleanupPop.label "დისკზე ადგილის გასათავისუფლებლად შესაძლებელია ძველი გზავნილების შეუქცევადად წაშლა ადგილობრივად და დაშორებულ სერვერზეც.">
-<!ENTITY retentionDeleteMsg.label "წერილების წაშლა რომელთა ასაკიც მეტია ვიდრე">
-<!ENTITY retentionDeleteMsg.accesskey "m">
-<!ENTITY retentionKeepAll.label "წერილების არ წაშლა">
-<!ENTITY retentionKeepAll.accesskey "A">
-<!ENTITY retentionKeepRecent.label "ყველას წაშლა უახლესების გარდა">
-<!ENTITY retentionKeepRecent.accesskey "l">
-<!ENTITY retentionApplyToFlagged.label "ვარსკვლავიანი გზავნილების შენარჩუნება">
-<!ENTITY retentionApplyToFlagged.accesskey "e">
 <!ENTITY folderSynchronizationTab.label "სინქრონიზაცია">
 <!ENTITY folderCheckForNewMessages2.label "ამ საქაღალდის ახალ წერილებზე შემოწმება">
 <!ENTITY folderCheckForNewMessages2.accesskey "c">

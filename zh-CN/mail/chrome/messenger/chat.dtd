@@ -23,8 +23,6 @@
 <!ENTITY closeConversationCmd.accesskey "C">
 <!ENTITY aliasCmd.label "重命名">
 <!ENTITY aliasCmd.accesskey "R">
-<!ENTITY deleteCmd.label "移除联系人">
-<!ENTITY deleteCmd.accesskey "v">
 <!ENTITY openConversationButton.tooltip "开始一个对话">
 <!ENTITY closeConversationButton.tooltip "关闭对话">
 <!ENTITY addBuddyButton.label "添加联系人">

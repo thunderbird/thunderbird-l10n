@@ -88,12 +88,6 @@ quit-app-shortcut =
 
 ## Mail Toolbar
 
-toolbar-junk-button =
-    .label = Indesirate
-    .tooltiptext = Marcar le messages sequente como indesiderate
-toolbar-not-junk-button =
-    .label = Non indesirate
-    .tooltiptext = Marcar le messages sequente como non indesiderate
 toolbar-delete-button =
     .label = Deler
     .tooltiptext = Deler le messages o le plicas seligite

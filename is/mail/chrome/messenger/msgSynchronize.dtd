@@ -18,5 +18,3 @@
 <!ENTITY selectButton.label "Velja…">
 <!ENTITY selectButton.accesskey "e">
 <!ENTITY MsgSelectDesc.label "Veldu póstmöppur og fréttahópa fyrir ónettengda notkun.">
-<!ENTITY MsgSelectInd.label "Sækja">
-<!ENTITY MsgSelectItems.label "Möppur og fréttahópar">

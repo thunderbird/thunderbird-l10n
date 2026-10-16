@@ -216,7 +216,6 @@
 <!ENTITY smiley7Cmd.label "Bingung">
 <!ENTITY smiley8Cmd.label "Kejutaaaan">
 <!ENTITY smiley9Cmd.label "Cium">
-<!ENTITY smiley10Cmd.label "Teriak">
 <!ENTITY smiley11Cmd.label "Memuji">
 <!ENTITY smiley12Cmd.label "Nggak jelas">
 <!ENTITY smiley13Cmd.label "Salah omong">
@@ -266,12 +265,6 @@
 <!ENTITY convertRegularAttachment.accesskey "a">
 <!ENTITY attachPage.label "Lampirkan Laman Web…">
 <!ENTITY attachPage.accesskey "W">
-<!-- Attachment Pane Header Bar Context Menu
-     LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
-     Should use the same wording as startExpandedCmd.label
-     in msgHdrViewOverlay.dtd. -->
-<!ENTITY initiallyShowAttachmentPane.label "Awalnya Tampilkan Panel Lampiran">
-<!ENTITY initiallyShowAttachmentPane.accesskey "S">
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Tambah Kamus…">
 <!ENTITY spellAddDictionaries.accesskey "K">

@@ -48,8 +48,6 @@
 <!ENTITY getAllNewMsgCmdPopupMenu.accesskey "T">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.label "Conto actual">
 <!ENTITY getNewMsgCurrentAccountCmdPopupMenu.accesskey "C">
-<!ENTITY getNextNMsgCmd2.label "Mussar ils proxims messadis da novitads">
-<!ENTITY getNextNMsgCmd2.accesskey "t">
 <!ENTITY sendUnsentCmd.label "Trametter ils messadis betg tramess">
 <!ENTITY sendUnsentCmd.accesskey "d">
 <!ENTITY subscribeCmd.label "Abunar…">
@@ -59,8 +57,6 @@
 <!ENTITY renameFolder.label "Renumnar l'ordinatur…">
 <!ENTITY renameFolder.accesskey "n">
 <!ENTITY renameFolder.key "VK_F2">
-<!ENTITY compactFolders.label "Cumprimer ils ordinaturs">
-<!ENTITY compactFolders.accesskey "p">
 <!ENTITY emptyTrashCmd.label "Svidar il chanaster da palpiri">
 <!ENTITY emptyTrashCmd.accesskey "h">
 <!ENTITY offlineMenu.label "Offline">
@@ -129,10 +125,6 @@
 <!ENTITY allFolders.accesskey "U">
 <!ENTITY unreadFolders.label "Nunlegì">
 <!ENTITY unreadFolders.accesskey "N">
-<!ENTITY favoriteFolders.label "Favurits">
-<!ENTITY favoriteFolders.accesskey "F">
-<!ENTITY recentFolders.label "Ultims ordinaturs">
-<!ENTITY recentFolders.accesskey "L">
 <!ENTITY compactVersion.label "Vista cumpacta">
 <!ENTITY compactVersion.accesskey "C">
 <!-- Sort Menu -->
@@ -154,8 +146,6 @@
 <!ENTITY sortByStatusCmd.accesskey "u">
 <!ENTITY sortByTagsCmd.label "Etichettas">
 <!ENTITY sortByTagsCmd.accesskey "E">
-<!ENTITY sortByJunkStatusCmd.label "Status da nungiavischà">
-<!ENTITY sortByJunkStatusCmd.accesskey "g">
 <!ENTITY sortBySubjectCmd.label "Object">
 <!ENTITY sortBySubjectCmd.accesskey "b">
 <!ENTITY sortByFromCmd.label "Da">
@@ -243,7 +233,6 @@
 <!ENTITY findPrevCmd.key2 "VK_F3">
 <!ENTITY searchMailCmd.label "Tschertgar messadis…">
 <!ENTITY searchMailCmd.accesskey "M">
-<!ENTITY searchMailCmd.key "f">
 <!ENTITY glodaSearchCmd.label "Tschertga globala…">
 <!ENTITY glodaSearchCmd.accesskey "T">
 <!ENTITY searchAddressesCmd.label "Tschertgar adressas…">
@@ -334,17 +323,6 @@
 <!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN">
 <!ENTITY createFilter.label "Crear in filter or dal messadi…">
 <!ENTITY createFilter.accesskey "a">
-<!ENTITY moveMsgToMenu.label "Spustar a">
-<!ENTITY moveMsgToMenu.accesskey "u">
-<!ENTITY moveCopyMsgRecentMenu.label "Ultims ordinaturs">
-<!ENTITY moveCopyMsgRecentMenu.accesskey "R">
-<!ENTITY copyMessageLocation.label "Copiar l’adressa dal messadi">
-<!ENTITY copyMessageLocation.accesskey "M">
-<!ENTITY copyMsgToMenu.label "Copiar a">
-<!ENTITY copyMsgToMenu.accesskey "C">
-<!ENTITY moveToFolderAgain.label "Spustar danovamain">
-<!ENTITY moveToFolderAgain.accesskey "i">
-<!ENTITY moveToFolderAgainCmd.key "m">
 <!ENTITY killThreadMenu.label "Ignorar il tema">
 <!ENTITY killThreadMenu.accesskey "I">
 <!ENTITY killThreadMenu.key "k">
@@ -356,16 +334,6 @@
 <!ENTITY watchThreadMenu.key "w">
 <!ENTITY tagMenu.label "Etichetta">
 <!ENTITY tagMenu.accesskey "E">
-<!ENTITY tagCmd0.key "0">
-<!ENTITY tagCmd1.key "1">
-<!ENTITY tagCmd2.key "2">
-<!ENTITY tagCmd3.key "3">
-<!ENTITY tagCmd4.key "4">
-<!ENTITY tagCmd5.key "5">
-<!ENTITY tagCmd6.key "6">
-<!ENTITY tagCmd7.key "7">
-<!ENTITY tagCmd8.key "8">
-<!ENTITY tagCmd9.key "9">
 <!ENTITY markMenu.label "Marcar">
 <!ENTITY markMenu.accesskey "m">
 <!ENTITY toggleReadCmd.key "m">
@@ -385,14 +353,6 @@
 <!ENTITY markStarredCmd.label "staila">
 <!ENTITY markStarredCmd.accesskey "t">
 <!ENTITY markStarredCmd.key "S">
-<!ENTITY markAsJunkCmd.label "Sco nungiavischà">
-<!ENTITY markAsJunkCmd.accesskey "n">
-<!ENTITY markAsJunkCmd.key "j">
-<!ENTITY markAsNotJunkCmd.label "Sco betg nungiavischà">
-<!ENTITY markAsNotJunkCmd.accesskey "N">
-<!ENTITY markAsNotJunkCmd.key "j">
-<!ENTITY recalculateJunkScoreCmd.label "Exequir il filter per e-mails nungiavischads">
-<!ENTITY recalculateJunkScoreCmd.accesskey "C">
 <!ENTITY openMessageWindowCmd.label "Avrir il messadi">
 <!ENTITY openMessageWindowCmd.accesskey "v">
 <!ENTITY openMessageWindowCmd.key "o">
@@ -441,10 +401,6 @@
 <!ENTITY filtersApplyToSelection.accesskey "u">
 <!ENTITY filtersApplyToMessage.label "Exequir ils filters per il messadi">
 <!ENTITY filtersApplyToMessage.accesskey "u">
-<!ENTITY runJunkControls.label "Exequir il filter per e-mails nungiavischads en l'ordinatur">
-<!ENTITY runJunkControls.accesskey "C">
-<!ENTITY deleteJunk.label "Stizzar ils messadis nungiavischads en quest ordinatur">
-<!ENTITY deleteJunk.accesskey "D">
 <!ENTITY importCmd.label "Importar…">
 <!ENTITY importCmd.accesskey "m">
 <!ENTITY exportCmd.label "Exportar…">
@@ -491,7 +447,6 @@
 <!ENTITY printButton.label "Stampar">
 <!ENTITY stopButton.label "Fermar">
 <!ENTITY throbberItem.title "Indicaziun da l'activitad">
-<!ENTITY junkItem.title "Nungiavischà">
 <!ENTITY addressBookButton.label "Cudeschet d'adressas">
 <!ENTITY chatButton.label "Chat">
 <!ENTITY glodaSearch.title "Tschertga globala">
@@ -553,11 +508,6 @@
 <!ENTITY appmenuNewContactCmd.label "Contact en il cudeschet d'adressas…">
 <!-- AppMenu Popup -->
 <!ENTITY appmenuToolbarLayout.label "Design da las travs d'utensils…">
-<!-- Tags Menu Popup -->
-<!ENTITY addNewTag.label "Nova etichetta…">
-<!ENTITY addNewTag.accesskey "N">
-<!ENTITY manageTags.label "Administrar las etichettas…">
-<!ENTITY manageTags.accesskey "M">
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "Num">
 <!ENTITY folderUnreadColumn.label "Nunlegì">
@@ -580,12 +530,8 @@
 <!ENTITY folderContextRename.accesskey "R">
 <!ENTITY folderContextRemove.label "Stizzar">
 <!ENTITY folderContextRemove.accesskey "z">
-<!ENTITY folderContextCompact.label "Cumprimer">
-<!ENTITY folderContextCompact.accesskey "C">
 <!ENTITY folderContextEmptyTrash.label "Svidar il chanaster da palpiri">
 <!ENTITY folderContextEmptyTrash.accesskey "h">
-<!ENTITY folderContextEmptyJunk.label "Svidar l'ordinatur per messadis nungiavischads">
-<!ENTITY folderContextEmptyJunk.accesskey "n">
 <!ENTITY folderContextSendUnsentMessages.label "Trametter ils messadis betg tramess">
 <!ENTITY folderContextSendUnsentMessages.accesskey "t">
 <!ENTITY folderContextUnsubscribe.label "Annullar l'abunament">
@@ -628,7 +574,6 @@
 <!ENTITY accountColumn.label "Conto">
 <!ENTITY statusColumn.label "Status">
 <!ENTITY sizeColumn.label "Grondezza">
-<!ENTITY junkStatusColumn.label "Status da nungiavischà">
 <!ENTITY unreadColumn.label "Nunlegì">
 <!ENTITY totalColumn.label "Total">
 <!ENTITY readColumn.label "Legì">
@@ -652,7 +597,6 @@
 <!ENTITY accountColumn2.tooltip "Zavrar tenor conto">
 <!ENTITY statusColumn2.tooltip "Zavrar tenor status">
 <!ENTITY sizeColumn2.tooltip "Zavrar tenor grondezza">
-<!ENTITY junkStatusColumn2.tooltip "Zavrar tenor il status da nungiavischà">
 <!ENTITY unreadColumn2.tooltip "Dumber da messadis nunlegids en il tema">
 <!ENTITY totalColumn2.tooltip "Dumber total da messadis en il tema">
 <!ENTITY readColumn2.tooltip "Zavrar tenor 'Legì'">
@@ -691,16 +635,6 @@
 <!ENTITY contextReplyAll.accesskey "a">
 <!ENTITY contextReplyList.label "Respunder a la glista">
 <!ENTITY contextReplyList.accesskey "g">
-<!ENTITY contextMoveMsgMenu.label "Spustar a">
-<!ENTITY contextMoveMsgMenu.accesskey "p">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.label "Destinaziuns recentas">
-<!ENTITY contextMoveCopyMsgRecentDestinationMenu.accesskey "D">
-<!ENTITY contextMoveCopyMsgRecentMenu.label "Ultims ordinaturs">
-<!ENTITY contextMoveCopyMsgRecentMenu.accesskey "U">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.label "Favurits">
-<!ENTITY contextMoveCopyMsgFavoritesMenu.accesskey "F">
-<!ENTITY contextCopyMsgMenu.label "Copiar en">
-<!ENTITY contextCopyMsgMenu.accesskey "C">
 <!ENTITY contextKillThreadMenu.label "Ignorar quest tema">
 <!ENTITY contextKillSubthreadMenu.accesskey "b">
 <!ENTITY contextKillThreadMenu.accesskey "I">

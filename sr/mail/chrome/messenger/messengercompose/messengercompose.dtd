@@ -216,7 +216,6 @@
 <!ENTITY smiley7Cmd.label "Неодлучни смајли">
 <!ENTITY smiley8Cmd.label "Изненађење">
 <!ENTITY smiley9Cmd.label "Пољубац">
-<!ENTITY smiley10Cmd.label "Викање">
 <!ENTITY smiley11Cmd.label "Кул">
 <!ENTITY smiley12Cmd.label "Пароусти">
 <!ENTITY smiley13Cmd.label "Изланути се">
@@ -266,12 +265,6 @@
 <!ENTITY convertRegularAttachment.accesskey "р">
 <!ENTITY attachPage.label "Закачи веб страницу…">
 <!ENTITY attachPage.accesskey "З">
-<!-- Attachment Pane Header Bar Context Menu
-     LOCALIZATION NOTE (initiallyShowAttachmentPane.label):
-     Should use the same wording as startExpandedCmd.label
-     in msgHdrViewOverlay.dtd. -->
-<!ENTITY initiallyShowAttachmentPane.label "Прикажи површ за прилоге на почетку">
-<!ENTITY initiallyShowAttachmentPane.accesskey "г">
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Додај речнике…">
 <!ENTITY spellAddDictionaries.accesskey "ј">

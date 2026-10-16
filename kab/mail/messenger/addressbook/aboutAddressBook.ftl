@@ -6,8 +6,6 @@ about-addressbook-title = Imedlis n tensa
 
 ## Toolbar
 
-about-addressbook-toolbar-new-address-book =
-    .label = Imedlis n tensa amaynut
 about-addressbook-toolbar-add-address-book =
     .label = Rnu amedlis n tensa adigan
 about-addressbook-toolbar-add-carddav-address-book =
@@ -16,8 +14,6 @@ about-addressbook-toolbar-add-ldap-address-book =
     .label = Rnu imedlis n tensa LDAP
 books-pane-create-contact-button = Anermis amaynut
     .title = Rnu anermis amaynut
-books-pane-create-book-button =
-    .title = Rnu tansa n umedlis tamaynut
 books-pane-create-list-button =
     .title = Rnu tabdart n yimaylen imaynuten
 books-pane-import-button = Kter

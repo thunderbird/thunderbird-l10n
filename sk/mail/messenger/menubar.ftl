@@ -88,12 +88,6 @@ quit-app-shortcut =
 
 ## Mail Toolbar
 
-toolbar-junk-button =
-    .label = Nevyžiadaná
-    .tooltiptext = Označiť vybrané správy ako nevyžiadané
-toolbar-not-junk-button =
-    .label = Nie je nevyžiadaná
-    .tooltiptext = Označiť vybrané správy ako nie nevyžiadané
 toolbar-delete-button =
     .label = Odstrániť
     .tooltiptext = Odstrániť vybrané správy alebo priečinok

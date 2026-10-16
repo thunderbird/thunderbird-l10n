@@ -18,5 +18,3 @@
 <!ENTITY selectButton.label "Välj…">
 <!ENTITY selectButton.accesskey "V">
 <!ENTITY MsgSelectDesc.label "Välj meddelandemappar och diskussionsgrupper för användning när du arbetar nedkopplad.">
-<!ENTITY MsgSelectInd.label "Hämta">
-<!ENTITY MsgSelectItems.label "Meddelandemappar och diskussionsgrupper">

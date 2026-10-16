@@ -16,5 +16,4 @@
 <!ENTITY advFeaturesSectionHdr.label "Functionalitates avantiate">
 <!ENTITY searchMsgsLink.label "Cercar messages">
 <!ENTITY filtersLink.label "Gerer filtros de messages">
-<!ENTITY junkSettings.label "Parametros de posta indesirate">
 <!ENTITY offlineLink.label "Parametros offline">

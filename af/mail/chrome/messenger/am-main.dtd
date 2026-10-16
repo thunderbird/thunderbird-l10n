@@ -29,7 +29,4 @@
 <!ENTITY attachVCard.accesskey "v">
 <!ENTITY manageIdentities.label "Bestuur identiteite…">
 <!ENTITY manageIdentities.accesskey "B">
-<!-- LOCALIZATION NOTE (smtpName.label) : do not translate "SMTP" in below line -->
-<!ENTITY smtpName.label "Uitgaande bediener (SMTP):">
-<!ENTITY smtpName.accesskey "U">
 <!ENTITY smtpDefaultServer.label "Gebruik verstekbediener">

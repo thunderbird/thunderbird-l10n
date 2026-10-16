@@ -38,8 +38,3 @@ openpgp-import-bits-label = Bits
 openpgp-import-key-props =
     .label = Taq Richinil Ruk'u'x Tzij
     .accesskey = k
-
-## External Key section
-
-openpgp-external-key-input =
-    .placeholder = 123456789341298340

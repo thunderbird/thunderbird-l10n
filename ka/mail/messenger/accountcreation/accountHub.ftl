@@ -56,14 +56,7 @@ account-hub-email-connect-button = დაკავშირება
 account-hub-result-incoming-legend = მიღებული
 account-hub-result-outgoing-legend = გაგზავნილი
 account-hub-all-servers-legend = ყველა სერვერი
-account-hub-incoming-server-legend = შემომავალი სერვერი
-account-hub-outgoing-server-legend = გამავალი სერვერი
-account-hub-result-incoming-server-legend = შემომავალი სერვერი
-    .title = შემომავალი სერვერი
-account-hub-result-outgoing-server-legend = გამავალი სერვერი
-    .title = გამავალი სერვერი
 account-hub-protocol-label = ოქმი
-account-hub-hostname-label = ჰოსტის სახელი
 account-hub-result-hostname-label = ჰოსტის სახელი
     .title = ჰოსტის სახელი
 account-hub-result-socket-type-label = კავშირის უსაფრთხოება
@@ -101,10 +94,6 @@ account-hub-result-auth-external = გარე
 account-hub-result-auth-oauth2 = OAuth2
     .title = OAuth2
 account-hub-on-port-label = პორტი
-account-hub-result-authentication-label = შესვლის დამოწმება
-    .title = შესვლის დამოწმება
-account-hub-port-label = პორტი
-    .title = პორტი
 account-hub-auto-description = { -brand-short-name } შეეცდება თავად შეავსოს დარჩენილი ველები.
 account-hub-ssl-label = კავშირის უსაფრთხოება
 
@@ -112,8 +101,6 @@ account-hub-ssl-label = კავშირის უსაფრთხოებ�
 
 account-hub-ssl-autodetect-option =
     .label = თვითამოცნობა
-account-hub-ssl-no-authentication-option =
-    .label = ანგარიშზე შესვლის გარეშე
 account-hub-ssl-cleartext-password-option =
     .label = ჩვეულებრივი პაროლი
 account-hub-ssl-encrypted-password-option =
@@ -275,7 +262,6 @@ account-hub-email-exchange-settings = Exchange-პარამეტრები
 account-hub-email-connect-settings = დააკავშირეთ თქვენი ელფოსტის პარამეტრები
 account-hub-email-protocol-select-header = აირჩიეთ ელფოსტის ანგარიშის სახეობა
 account-hub-email-protocol-select-additional-info = ანგარიშის გასამართად საჭიროა დამატებითი მონაცემები.
-account-hub-email-config-found = აირჩიეთ თქვენი ელფოსტის ანგარიშის სახეობა
 account-hub-email-enter-password = მიუთითეთ თქვენი ელფოსტის პაროლი
 account-hub-email-sync-accounts = თქვენი კალენდრებისა და წიგნაკების დასინქრონება
 account-hub-test-configuration = შემოწმება
@@ -302,7 +288,6 @@ account-hub-config-success-description-guess = ნაპოვნია გა�
 account-hub-config-success-description-disk = ნაპოვნი გამართვის წყაროა დაყენებული { -brand-short-name }.
 account-hub-config-success-description-isp = ნაპოვნი გამართვის წყაროა ელფოსტის მომწოდებელი.
 account-hub-config-success-description-read-more = შეგიძლიათ <a data-l10n-name="automated-setup-link">გაეცნოთ, როგორ მუშაობს ელფოსტის ავტომატური გამართვა.</a>
-account-hub-config-success = ნაპოვნი გამართვის წყაროა Mozilla-ISPDB
 account-hub-password-info = თქვენი ანგარიშის მონაცემები მხოლოდ ადგილობრივად შეინახება კომპიუტერში
 account-hub-creating-account = ანგარიში იქმნება…
 account-hub-sync-accounts-found = { -brand-short-name } ახერხებს ზოგიერთი მიერთებული მომსახურების პოვნას
@@ -333,10 +318,8 @@ account-hub-username-error-text = მეტსახელი აუცილე
 account-hub-manual-config-error-summary = გთხოვთ გამოასწოროთ შემდეგი ხარვეზები:
 account-hub-oauth-pending = ელოდება შესვლის დამოწმებას ამომხტარ ფანჯარაში…
 account-hub-addon-install-button = დაყენება
-account-hub-addon-install-needed = { -brand-short-name } არაა თანმომყოლი მხარდაჭერით ამ სერვერზე. Exchange-ელფოსტასთან წვდომისთვის <a data-l10n-name="addon-install"> დააყენეთ გარეშე მხარის დამატება, როგორიცაა Owl (ფასიანი).</a>
 account-hub-addon-error = დამატების ჩადგმა ვერ მოხერხდა. გთხოვთ, კვლავ სცადოთ ან დაუკავშირდეთ დამატების შემქმნელს დახმარებისთვის.
 account-hub-select-security-warning = <span data-l10n-name="error-text">გაფრთხილება: აღმოჩენილია ფოსტის დაუცველი სერვერი.</span>  ამ სერვერს არ ახლავს დაშიფვრა, შესაბამისად, გამჟღავნდება თქვენი პაროლი და მონაცემები. მიმართეთ ზედამხედველს კავშირის დასაცავად ან განაგრძეთ საფრთხის გაცნობიერებით. <a data-l10n-name="error-link">ვრცლად იხილეთ ᲮᲓᲙ.</a>
-account-hub-security-warning = <span data-l10n-name="security-warning">გაფრთხილება: აღმოჩენილია ფოსტის დაუცველი სერვერი.</span>  ამ სერვერს არ ახლავს დაშიფვრა, შესაბამისად, გამჟღავნდება თქვენი პაროლი და მონაცემები. მიმართეთ ზედამხედველს კავშირის დასაცავად ან განაგრძეთ საფრთხის გაცნობიერებით. <a data-l10n-name="faq-link">ვრცლად იხილეთ ᲮᲓᲙ.</a>
 account-hub-account-authentication-error = შესვლის დამოწმების შეცდომა.
 account-hub-add-address-book = მისამართების წიგნაკის დამატება
 address-book-sync-existing-icon =
@@ -366,7 +349,6 @@ account-hub-address-book-sync-books-data =
         [one] 1 წიგნაკია ხელმისაწვდომი
        *[other] { $addressBooks } წიგნაკია ხელმისაწვდომი
     }
-account-hub-fetching-sync-accounts = მისამართების წიგნაკებისა და კალენდრების მოძიება…
 address-book-sync-existing-description = არსებული ანგარიშების მოპოვება…
 account-hub-select-address-book-account = აირჩიეთ ანგარიში მისამართების წიგნაკებით
 # $synced (Number) - The number of address books that are synced.

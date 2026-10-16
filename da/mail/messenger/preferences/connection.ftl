@@ -2,18 +2,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-connection-dns-over-https-url-resolver = Brug udbyder
-    .accesskey = u
-# Variables:
-#   $name (String) - Display name or URL for the DNS over HTTPS provider
-connection-dns-over-https-url-item-default =
-    .label = { $name } (standard)
-    .tooltiptext = Brug standard-URL'en til DNS-opslag over HTTPS
-connection-dns-over-https-url-custom =
-    .label = Tilpasset
-    .tooltiptext = Angiv den URL, du foretrækker til DNS-opslag over HTTPS
-    .accesskey = e
-connection-dns-over-https-custom-label = Tilpasset
 connection-dialog-title = Forbindelsesindstillinger
 disable-extension-button = Deaktiver udvidelse
 # Variables:
@@ -81,6 +69,3 @@ proxy-password-prompt =
 proxy-remote-dns =
     .label = Brug en proxy til DNS-forespørgsler, når SOCKS v5 anvendes
     .accesskey = D
-proxy-enable-doh =
-    .label = Aktiver DNS via HTTPS
-    .accesskey = k

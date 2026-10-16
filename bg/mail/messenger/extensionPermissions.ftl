@@ -17,7 +17,6 @@ webext-perms-description-compose = Четене и промяна на ваши�
 webext-perms-description-compose-send = Изпращане на съставени имейл съобщения от ваше име
 webext-perms-description-compose-save = Запазване на съставените имейл съобщения като чернови или шаблони
 webext-perms-description-experiment-access = Тази добавка ще има пълен, неограничен достъп до { -brand-short-name } и вашия компютър.
-webext-perms-description-experiment = Пълен и неограничен достъп до { -brand-short-name } и вашия компютър
 webext-perms-description-messagesImport = Внасяне  на съобщения в Thunderbird
 webext-perms-description-messagesModify = Четене и промяна на вашите имейл съобщения, докато ви се показват
 webext-perms-description-messagesModifyPermanent = Променяне за постоянно източника на вашите съобщения (включително заглавките, тялото и прикачените файлове)

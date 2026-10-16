@@ -26,13 +26,3 @@ archive-folder-name-label = Arxiu
 inbox-folder-name-label = Safata d'entrada
 child-folder-name-label = Subcarpeta de la safata d'entrada
 sibling-folder-name-label = Al mateix nivell que la safata d'entrada
-# This should match the default name for the "Archives" folder.
-archive-folder-name =
-    .label = Arxiu
-# This should match the default name for the "Inbox" folder.
-inbox-folder-name =
-    .label = Safata d'entrada
-child-folder-name =
-    .label = Subcarpeta de la safata d'entrada
-sibling-folder-name =
-    .label = Al mateix nivell que la safata d'entrada

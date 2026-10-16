@@ -10,22 +10,6 @@
 <!ENTITY folderRebuildSummaryFile.explanation "Ba’zida jild indeks (.msf) fayli buzilgan bo‘ladi va xabarlar yo‘q deb ko‘rsatiladi yoki o‘chirilgan fayllarni ko‘rsatishda davom etadi. Jildni tuzatishdan foydalansangiz, bu muammolar bartarf etilishi mumkin.">
 <!ENTITY folderIncludeInGlobalSearch.label "Xalqaro qidiruv natijalari ichidagi bu jilldagi xabarlarni qo‘shish">
 <!ENTITY folderIncludeInGlobalSearch.accesskey "X">
-<!ENTITY retention.label "Saqlab qolish siyosati">
-<!ENTITY retentionUseAccount.label "Hisobim sozlamalaridan foydalansin">
-<!ENTITY retentionUseAccount.accesskey "f">
-<!ENTITY daysOld.label "kun oldin">
-<!ENTITY message.label "xabarlar">
-<!ENTITY retentionCleanup.label "Diskdan bo‘sh joy ochishda eski xabarlar butunlay o‘chirib tashlanishi mumkin.">
-<!ENTITY retentionCleanupImap.label "Diskdan bo‘sh joy ochishda eski xabarlar butunlay o‘chirib tashlanishi mumkin. Bunday holda kompyuter va masofadagi serverda joylashgan asl xabar ham o‘chiriladi.">
-<!ENTITY retentionCleanupPop.label "Diskdan bo‘sh joy ochishda masofadagi serverda joylashgan asl xabar bilan birga kompyuterdagi eski xabarlar ham butunlay o‘chirib tashlanishi mumkin.">
-<!ENTITY retentionDeleteMsg.label "Ushbu qiymatdan oshgan xabarlar o‘chirilsin">
-<!ENTITY retentionDeleteMsg.accesskey "x">
-<!ENTITY retentionKeepAll.label "Hech qanday xabar o‘chirilmasin">
-<!ENTITY retentionKeepAll.accesskey "H">
-<!ENTITY retentionKeepRecent.label "Eng so‘nggi xabarlardan boshqalari o‘chirilsin">
-<!ENTITY retentionKeepRecent.accesskey "o">
-<!ENTITY retentionApplyToFlagged.label "Yulduzcha qo‘yilgan xabarlar doimo saqlansin">
-<!ENTITY retentionApplyToFlagged.accesskey "s">
 <!ENTITY folderSynchronizationTab.label "Sinxronizatsiya">
 <!ENTITY folderCheckForNewMessages2.label "Bu hisob uchun yangi xabarlar olganingizda, doimo mana bu jildni tekshiring">
 <!ENTITY folderCheckForNewMessages2.accesskey "c">

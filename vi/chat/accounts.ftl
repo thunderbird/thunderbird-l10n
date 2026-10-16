@@ -2,15 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-new-account-label = Tài khoản mới
 # Instant messaging account status window for Thunderbird
 accounts-window-title = Trạng thái nhắn tin tức thời
 account-manager-add-account =
     .label = { add-account-label }
     .accesskey = A
-account-manager-new-account =
-    .label = { new-account-label }
-    .accesskey = N
 account-manager-close =
     .label = Đóng
     .accesskey = l
@@ -19,7 +15,6 @@ account-manager-close-command =
 # This title must be short, displayed with a big font size
 account-manager-no-account-title = Chưa có cấu hình tài khoản nào
 account-manager-no-accounts-description = Nhấp vào nút { add-account-label } để { -brand-short-name } hướng dẫn bạn qua quá trình cấu hình.
-account-manager-no-account-description = Nhấp vào nút { new-account-label } để { -brand-short-name } hướng dẫn bạn qua quá trình cấu hình một.
 account-auto-sign-on =
     .label = Đăng nhập khi khởi động
     .accesskey = S

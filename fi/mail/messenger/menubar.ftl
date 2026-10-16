@@ -87,12 +87,6 @@ quit-app-shortcut =
 
 ## Mail Toolbar
 
-toolbar-junk-button =
-    .label = Roskapostia
-    .tooltiptext = Merkitse valitut viestit roskapostiksi
-toolbar-not-junk-button =
-    .label = Ei roskapostia
-    .tooltiptext = Poista roskapostimerkintä valituilta viesteiltä
 toolbar-delete-button =
     .label = Poista
     .tooltiptext = Poista valitut viestit tai kansio

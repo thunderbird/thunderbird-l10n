@@ -88,12 +88,6 @@ quit-app-shortcut =
 
 ## Mail Toolbar
 
-toolbar-junk-button =
-    .label = Junk
-    .tooltiptext = Gewählte Nachricht(en) als Junk einstufen
-toolbar-not-junk-button =
-    .label = Kein Junk
-    .tooltiptext = Gewählte Nachricht(en) als "Kein Junk" einstufen
 toolbar-delete-button =
     .label = Löschen
     .tooltiptext = Gewählte(n) Nachricht(en) oder Ordner löschen

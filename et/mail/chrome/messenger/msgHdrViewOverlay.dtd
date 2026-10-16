@@ -33,8 +33,6 @@
 <!ENTITY hdrFollowupButton1.tooltip "Postita vastus sellesse uudistegruppi">
 <!ENTITY hdrForwardButton1.label "Edasta">
 <!ENTITY hdrForwardButton1.tooltip "Edasta see kiri">
-<!ENTITY hdrJunkButton1.label "Märgi rämpsuks">
-<!ENTITY hdrJunkButton1.tooltip "Märgi see kiri rämpspostiks">
 <!ENTITY hdrTrashButton1.label "Kustuta">
 <!ENTITY hdrTrashButton1.tooltip "Kustuta see kiri">
 <!ENTITY hdrViewToolbarShowFull.label "Kuvatakse ikoone ja teksti">

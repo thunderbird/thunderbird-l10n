@@ -3,10 +3,6 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY subscribeDialog.title "Tilaa">
-<!ENTITY subscribeButton.label "Tilaa">
-<!ENTITY subscribeButton.accesskey "T">
-<!ENTITY unsubscribeButton.label "Peruuta tilaus">
-<!ENTITY unsubscribeButton.accesskey "P">
 <!ENTITY newGroupsTab.label "Uudet ryhmät">
 <!ENTITY newGroupsTab.accesskey "U">
 <!ENTITY refreshButton.label "Päivitä">

@@ -416,7 +416,6 @@ key-verification = Verifique a impresión dixital da chave mediante unha canle d
 # Variables:
 # $problem (String) - Error message from key usability check.
 cannot-use-own-key-because = Non se puido enviar a mensaxe porque hai un problema coa súa chave persoal. { $problema }
-window-locked = A xanela de redacción está bloqueada; cancelouse o envío
 
 ## Strings in keyserver.sys.mjs
 
@@ -450,9 +449,6 @@ converter-decrypt-body-failed =
 ## Strings filters.sys.mjs
 
 filter-folder-required = Debe seleccionar un cartafol de destino.
-filter-decrypt-move-warn-experimental =
-    Aviso: a acción de filtro «Descifrar permanentemente» pode provocar a destrución de mensaxes.
-    Recomendamos encarecidamente que probe primeiro o filtro «Crear copia descifrada», que probe o resultado coidadosamente e que empece a usar este filtro unha vez que estea satisfeito co resultado.
 filter-term-pgpencrypted-label = Cifrado con OpenPGP
 filter-key-required = Debe seleccionar unha chave de destinatario.
 # Variables:
@@ -615,7 +611,6 @@ fail-key-import = Erro: fallou a importación da chave
 # $output (String) - File that writing was attempted to.
 file-write-failed = Produciuse un fallo ao escribir no ficheiro { $output }
 no-pgp-block = Erro: non se atopou ningún bloque de datos blindado OpenPGP válido
-confirm-permissive-import = Fallou a importación. A chave que tenta importar pode estar corrompida ou usar atributos descoñecidos. Quere tentar importar as partes correctas? Isto pode resultar na importación de chaves incompletas e inutilizábeis.
 # Variables:
 # $fingerprints (String) - A comma-separated list of fingerprints, either one or multiple, for example "ABCDEF7890ABCDEF7890ABCDEF7890ABCDEF7890, 0123456789012345678901234567890123456789"
 imported-secret-with-unsupported-features = Algunhas das claves secretas importadas anuncian unha función non compatible. Se utiliza unha chave como a súa clave persoal, os correspondentes poden enviarlle correos electrónicos ou claves públicas nun formato incompatible. Isto afecta ás claves secretas importadas coas seguintes pegadas dixitais: { $fingerprints }.
@@ -674,9 +669,6 @@ key-man-button-generate-key-continue = &Continuar a xeración da chave
 
 failed-decrypt = Erro: fallou o descifrado
 fix-broken-exchange-msg-failed = Non se puido reparar esta mensaxe.
-# Variables:
-# $attachment (String) - File name of the signature file.
-attachment-no-match-from-signature = Non se puido facer coincidir o ficheiro da sinatura «{ $attachment }» cun anexo
 # Variables:
 # Variables:
 # $attachment (String) - File name of the attachment.
@@ -782,8 +774,3 @@ enig-confirm = Confirmación de OpenPGP
 
 dlg-button-retry = &Tentar de novo
 dlg-button-skip = &Saltar
-
-## Strings used in enigmailMsgBox.js
-
-enig-alert-title =
-    .title = Alerta de OpenPGP

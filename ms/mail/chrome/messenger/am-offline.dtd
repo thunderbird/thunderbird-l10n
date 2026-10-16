@@ -14,24 +14,10 @@
 <!ENTITY autosyncNotDownload.accesskey "h">
 <!ENTITY kb.label "KB">
 <!ENTITY daysOld.label "hari lepas">
-<!ENTITY message.label "mesej">
 <!ENTITY nntpNotDownloadRead.label "Mesej yang dibaca">
 <!ENTITY nntpNotDownloadRead.accesskey "d">
 <!ENTITY nntpDownloadMsg.label "Mesej yang melebihi">
 <!ENTITY nntpDownloadMsg.accesskey "e">
-<!ENTITY retentionCleanup.label "Untuk memulihkan ruang cakera, mesej lama boleh dihapuskan secara kekal.">
-<!ENTITY retentionCleanupImap.label "Untuk memulihkan ruang cakera, mesej lama boleh dihapuskan secara kekal, kedua-dua salinan lokal dan mesej asal dalam pelayan jauh.">
-<!ENTITY retentionCleanupPop.label "Untuk memulihkan ruang cakera, mesej lama boleh dihapuskan secara kekal, termasuk mesej asal dalam pelayan jauh.">
-<!ENTITY retentionKeepMsg.label "Buang mesej yang melebihi">
-<!ENTITY retentionKeepMsg.accesskey "a">
-<!ENTITY retentionKeepAll.label "Jangan buang apa-apa mesej">
-<!ENTITY retentionKeepAll.accesskey "n">
-<!ENTITY retentionKeepRecent.label "Buang semua kecuali yang terkini">
-<!ENTITY retentionKeepRecent.accesskey "k">
-<!ENTITY retentionApplyToFlagged.label "Sentiasa simpan mesej bertanda bintang">
-<!ENTITY retentionApplyToFlagged.accesskey "s">
-<!ENTITY nntpRemoveMsgBody.label "Buang kandungan mesej yang melebihi">
-<!ENTITY nntpRemoveMsgBody.accesskey "u">
 <!ENTITY offlineSelectNntp.label "Pilih kumpulan berita bagi kegunaan luar talian…">
 <!ENTITY offlineSelectNntp.accesskey "P">
 <!ENTITY offlineImapAdvancedOffline.label "Lanjutan…">

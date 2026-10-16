@@ -23,8 +23,6 @@
 <!ENTITY closeConversationCmd.accesskey "A">
 <!ENTITY aliasCmd.label "Pārsaukt">
 <!ENTITY aliasCmd.accesskey "P">
-<!ENTITY deleteCmd.label "Noņemt kontaktu">
-<!ENTITY deleteCmd.accesskey "N">
 <!ENTITY openConversationButton.tooltip "Sākt sarunu">
 <!ENTITY closeConversationButton.tooltip "Aizvērt sarunu">
 <!ENTITY addBuddyButton.label "Pievienot kontaktu">

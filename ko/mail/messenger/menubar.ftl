@@ -87,12 +87,6 @@ quit-app-shortcut =
 
 ## Mail Toolbar
 
-toolbar-junk-button =
-    .label = 스팸
-    .tooltiptext = 스팸인 메세지를 골라 표시하세요
-toolbar-not-junk-button =
-    .label = 스팸 아님
-    .tooltiptext = 선택된 메시지를 스팸 아님으로 표시함
 toolbar-delete-button =
     .label = 삭제
     .tooltiptext = 선택한 메세지나 폴더를 삭제함
