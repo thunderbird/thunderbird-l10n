@@ -373,7 +373,7 @@ storage-name = محلی (SQLite)
 # Used in created html code for export
 html-prefix-title = عنوان
 html-prefix-when = زمان
-html-prefix-location = محل
+html-prefix-location = مکان
 html-prefix-description = شرح
 # $task task
 html-task-completed = { $task } (انجام‌شده)
@@ -408,7 +408,7 @@ alarm-window-title-label =
 # used for a display the start of an alarm like 'Starts:  Thu 2 Oct 2008 13:21'
 #    $datetime will be replaced with a date-time
 alarm-starts =
-    .value = شروع: { $datetime }
+    .value = آغاز: { $datetime }
 # LOCALIZATION NOTE (alarm-today-at):
 # used for a display the date-time of an alarm like 'Today at Thu 2 Oct 2008 13:21'
 #    $datetime will be replaced with a date-time
@@ -425,8 +425,8 @@ alarm-yesterday-at = دیروز ساعت { $datetime }
 # LOCALIZATION NOTE: These strings do not get displayed. They are only visible
 # when exporting an item with i.e a DISPLAY alarm, that doesn't have a
 # description set, or an EMAIL alarm that doesn't have a summary set.
-alarm-default-description = شرح پیش‌فرض Mozilla
-alarm-default-summary = خلاصهٔ پیش‌فرض Mozilla
+alarm-default-description = شرح پیش‌گزیده Mozilla
+alarm-default-summary = خلاصهٔ پیش‌گزیده Mozilla
 # $count number of months
 alarm-snooze-limit-exceeded =
     { $count ->
@@ -478,13 +478,13 @@ tooltip-calendar-read-only =
 task-edit-instructions = برای افزودن کار جدید اینجا کلیک کنید
 task-edit-instructions-readonly = لطفاً یک تقویم قابل نوشتن انتخاب کنید
 task-edit-instructions-capability = لطفاً تقویمی را انتخاب کنید که از کارها پشتیبانی می‌کند
-event-details-start-date = شروع:
+event-details-start-date = آغاز:
 event-details-end-date = پایان:
 # LOCALIZATION NOTE (datetime-with-timezone):
 # used for a display of a date-time with timezone 'Thu 2 Oct 2008 13:21', Europe/Paris
 #    $datetime will be replaced with the completion date-time
 #    $timezone will be replaced with the name of the timezone
-datetime-with-timezone = { $datetime }, { $timezone }
+datetime-with-timezone = { $datetime }، { $timezone }
 # LOCALIZATION NOTE (single-long-calendar-week):
 # used for display of calendar weeks in long form like 'Calendar Week 43'
 #    $index will be replaced with the index of the week
@@ -515,7 +515,7 @@ several-calendar-weeks = هفته‌ها: { $startIndex }-{ $endIndex }
 # be too long otherwise it will create confusion between the week number and
 # the day number other than a possible crop when the window is resized.
 #    $number is a number from 1 to 53 that represents the week number.
-multiweek-view-week = W { $number }
+multiweek-view-week = ه { $number }
 # Shown after the items of a day in the calendar views, when the day has too
 # many items to display at once. Clicking it displays more of them.
 # Variables:
@@ -564,18 +564,18 @@ day-header-elem =
 # Label for a time slot in the day/week calendar views.
 #    $date will be replaced with the day label, e.g. "Monday 6 Oct.";
 #    $time will be replaced with the time of the slot, e.g. "9:00 AM".
-calendar-multiday-hour-slot = { $date }, { $time }
+calendar-multiday-hour-slot = { $date }، { $time }
 # LOCALIZATION NOTE (datetime-interval-task-without-date):
 # used for task without start and due date
 # (showed only in exported calendar in Html format)
-datetime-interval-task-without-date = بدون تاریخ شروع یا موعد
+datetime-interval-task-without-date = بدون تاریخ آغاز یا موعد
 # LOCALIZATION NOTE (datetime-interval-task-without-due-date):
 # used for intervals in task with only start date
 # displayed form is 'start date 5 Jan 2006 13:00'
 # (showed only in exported calendar in Html format)
 #    $date will be replaced with the date of the start date
 #    $time will be replaced with the time of the start date
-datetime-interval-task-without-due-date = تاریخ شروع { $date } { $time }
+datetime-interval-task-without-due-date = تاریخ آغاز { $date } { $time }
 # LOCALIZATION NOTE (datetime-interval-task-without-start-date):
 # used for intervals in task with only due date
 # displayed form is 'due date 5 Jan 2006 13:00'
@@ -587,7 +587,7 @@ datetime-interval-task-without-start-date = تاریخ موعد { $date } { $tim
 #                    drag-label-tasks-with-only-due-date)
 # Labels that appear while dragging a task with only
 # entry date OR due date
-drag-label-tasks-with-only-entry-date = زمان شروع
+drag-label-tasks-with-only-entry-date = زمان آغاز
 drag-label-tasks-with-only-due-date = موعد در
 delete-task =
     .label = حذف کار
@@ -655,8 +655,8 @@ event-duration-menuitem-count-weeks =
 event-duration-menuitem-minutes =
     .label =
         { $count ->
-            [one] minute
-           *[other] minutes
+            [one] دقیقه
+           *[other] دقیقه
         }
 event-duration-label-minutes =
     .value = { event-duration-menuitem-minutes.label }
@@ -665,8 +665,8 @@ event-duration-label-minutes =
 event-duration-menuitem-hours =
     .label =
         { $count ->
-            [one] hour
-           *[other] hours
+            [one] ساعت
+           *[other] ساعت
         }
 event-duration-label-hours =
     .value = { event-duration-menuitem-hours.label }
@@ -675,8 +675,8 @@ event-duration-label-hours =
 event-duration-menuitem-days =
     .label =
         { $count ->
-            [one] day
-           *[other] days
+            [one] روز
+           *[other] روز
         }
 event-duration-label-days =
     .value = { event-duration-menuitem-days.label }
@@ -685,8 +685,8 @@ event-duration-label-days =
 event-duration-menuitem-weeks =
     .label =
         { $count ->
-            [one] week
-           *[other] weeks
+            [one] هفته
+           *[other] هفته
         }
 event-duration-label-weeks =
     .value = { event-duration-menuitem-weeks.label }
