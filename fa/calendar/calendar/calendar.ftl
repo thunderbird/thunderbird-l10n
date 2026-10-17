@@ -160,20 +160,20 @@ calendar-none =
     .label = هیچ
 # Variables:
 #   $fileName (String) - The backup file name, e.g. 'local-2020-05-11T21-30-17.sqlite'.
-too-new-dbschema-error-text = داده‌های تقویم شما با این نسخه از { -brand-short-name } سازگار نیست. داده‌های تقویم در نمایهٔ شما با نسخهٔ جدیدتری از { -brand-short-name } به‌روز شده است. یک نسخهٔ پشتیبان از پروندهٔ داده با نام «{ $fileName }» ساخته شد. کار با یک پروندهٔ دادهٔ تازه ادامه می‌یابد.
-imip-bar-unsupported-text = این پیام حاوی رویدادی است که این نسخه از { -brand-short-name } نمی‌تواند پردازش کند.
+too-new-dbschema-error-text = داده‌های تقویم شما با این نگارش از { -brand-short-name } سازگار نیست. داده‌های تقویم در نمایهٔ شما با نگارش جدیدتری از { -brand-short-name } به‌روز شده است. یک نگارش پشتیبان از پروندهٔ داده با نام «{ $fileName }» ساخته شد. کار با یک پروندهٔ دادهٔ تازه ادامه می‌یابد.
+imip-bar-unsupported-text = این پیام حاوی رویدادی است که این نگارش از { -brand-short-name } نمی‌تواند پردازش کند.
 # Error strings
 # @name UID_NOT_FOUND
 # @loc none
 # LOCALIZATION NOTE (too-new-schema-error-text):
 #    $hostApplication will be replaced with the name of the host application, e.g. 'Thunderbird'
 #    $fileName will be replaced with the name of the new copy of the file, e.g. 'local-2020-05-11T21-30-17.sqlite'
-too-new-schema-error-text = داده‌های تقویم شما با این نسخه از { $hostApplication } سازگار نیست. داده‌های تقویم در نمایهٔ شما با نسخهٔ جدیدتری از { $hostApplication } به‌روز شده است. یک نسخهٔ پشتیبان از پروندهٔ داده با نام «{ $fileName }» ساخته شد. کار با یک پروندهٔ دادهٔ تازه ادامه می‌یابد.
+too-new-schema-error-text = داده‌های تقویم شما با این نگارش از { $hostApplication } سازگار نیست. داده‌های تقویم در نمایهٔ شما با نگارش جدیدتری از { $hostApplication } به‌روز شده است. یک نگارش پشتیبان از پروندهٔ داده با نام «{ $fileName }» ساخته شد. کار با یک پروندهٔ دادهٔ تازه ادامه می‌یابد.
 # List of events or todos (unifinder)
-event-untitled = بی‌عنوان
+event-untitled = بدون‌عنوان
 # Tooltips of events or todos
 tooltip-title = عنوان:
-tooltip-location = محل:
+tooltip-location = مکان:
 # event date, usually an interval, such as
 #  Date: 7:00--8:00 Thu 9 Oct 2011
 #  Date: Thu 9 Oct 2000 -- Fri 10 Oct 2000
@@ -186,8 +186,7 @@ tooltip-status = وضعیت:
 tooltip-organizer = برگزارکننده:
 # task/todo fields
 # start date time, due date time, task priority number, completed date time
-tooltip-start = شروع:
-tooltip-due = موعد:
+tooltip-start = آغاز:
 tooltip-priority = اولویت:
 tooltip-percent = ٪ انجام‌شده:
 tooltip-completed = انجام‌شده:
@@ -228,12 +227,12 @@ minor-error = هنگام خواندن داده‌های تقویم { $name } خ�
 # used for an message like 'There has been an error reading data for calendar: Home.'
 #    $name will be replaced with the name of a calendar
 still-read-only-error = هنگام خواندن داده‌های تقویم { $name } خطایی رخ داد.
-utf8-decode-error = هنگام رمزگشایی یک پروندهٔ iCalendar (ics) به‌صورت UTF-8 خطایی رخ داد. بررسی کنید که پرونده، از جمله نمادها و حروف دارای اعراب، با رمزگذاری نویسه‌ای UTF-8 ذخیره شده باشد.
+utf8-decode-error = هنگام رمزگشایی یک پروندهٔ iCalendar (ics) به‌صورت UTF-8 خطایی رخ داد. بررسی کنید که پرونده، از جمله نمادها و حروف دارای اعراب، با کدبندی نویسه‌ای UTF-8 ذخیره شده باشد.
 ics-malformed-error = تجزیهٔ پروندهٔ iCalendar (ics) ناموفق بود. بررسی کنید که پرونده با نحو پروندهٔ iCalendar (ics) مطابقت داشته باشد.
-item-modified-on-server-title = مورد روی سرور تغییر کرده است
-item-modified-on-server = این مورد اخیراً روی سرور تغییر کرده است.
-modify-will-lose-data = ارسال تغییرات شما تغییراتی را که روی سرور انجام شده بازنویسی می‌کند.
-delete-will-lose-data = حذف این مورد باعث از دست رفتن تغییراتی می‌شود که روی سرور انجام شده است.
+item-modified-on-server-title = مورد روی کارساز تغییر کرده است
+item-modified-on-server = این مورد اخیراً روی کارساز تغییر کرده است.
+modify-will-lose-data = ارسال تغییرات شما تغییراتی را که روی کارساز انجام شده بازنویسی می‌کند.
+delete-will-lose-data = حذف این مورد باعث از دست رفتن تغییراتی می‌شود که روی کارساز انجام شده است.
 calendar-conflicts-dialog =
     .buttonlabelcancel = کنار گذاشتن تغییرات من و بارگذاری دوباره
 proceed-modify =
@@ -244,8 +243,8 @@ proceed-delete =
 dav-not-dav = منبع { $name } یا مجموعهٔ DAV نیست یا در دسترس نیست
 # $name calendar name
 dav-dav-not-cal-dav = منبع { $name } یک مجموعهٔ DAV است، اما تقویم CalDAV نیست
-item-put-error = هنگام ذخیرهٔ مورد روی سرور خطایی رخ داد.
-item-delete-error = هنگام حذف مورد از سرور خطایی رخ داد.
+item-put-error = هنگام ذخیرهٔ مورد روی کارساز خطایی رخ داد.
+item-delete-error = هنگام حذف مورد از کارساز خطایی رخ داد.
 cal-dav-request-error = هنگام ارسال دعوت‌نامه خطایی رخ داد.
 cal-dav-response-error = هنگام ارسال پاسخ خطایی رخ داد.
 # $statusCode status code
