@@ -106,7 +106,7 @@ calendar-items-loading = Caricamento elementi…
 # $count (Number) - The number of items in the calendar file.
 calendar-items-count =
     { $count ->
-        [one] Il file contiene { $count } elementi.
+        [one] Il file contiene { $count } elemento.
        *[other] Il file contiene { $count } elementi.
     }
 # Column headers of the list of calendar items to import.
