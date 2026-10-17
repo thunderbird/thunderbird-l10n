@@ -56,23 +56,23 @@ status-priority-img-low-priority =
     .alt = پایین
 import-prompt = می‌خواهید این موارد را به کدام تقویم درون‌ریزی کنید؟
 export-prompt = از کدام تقویم می‌خواهید برون‌ریزی کنید؟
-paste-prompt = می‌خواهید در کدام‌یک از تقویم‌های قابل نوشتن فعلی‌تان جایگذاری کنید؟
-publish-prompt = می‌خواهید کدام تقویم را منتشر کنید؟
+paste-prompt = می‌خواهید در کدام‌یک از تقویم‌های قابل نوشتن فعلی‌تان جای‌گذاری کنید؟
+publish-prompt = کدام تقویم را می‌خواهید منتشر کنید؟
 # LOCALIZATION NOTE (paste-event-also): The users pasting operation includes among
 # others also a meeting invitation - this is used as a affix in
 # paste-notify-about
-paste-event-also = مواردی که جای‌گذاری می‌کنید شامل یک جلسه است
+paste-event-also = مواردی که جای‌گذاری می‌کنید، شامل یک جلسه است
 # LOCALIZATION NOTE (paste-events-also): The users pasting operation includes among
 # others also several meeting invitations  - this is used as a affix in
 # paste-notify-about
-paste-events-also = مواردی که جای‌گذاری می‌کنید شامل چند جلسه است
+paste-events-also = مواردی که جای‌گذاری می‌کنید، شامل چند جلسه است
 # LOCALIZATION NOTE (paste-task-also): The users pasting operation includes among
 # others also an assigned task - this is used as a affix in paste-notify-about
-paste-task-also = مواردی که جای‌گذاری می‌کنید شامل یک کار واگذارشده است
+paste-task-also = مواردی که جای‌گذاری می‌کنید، شامل یک کار واگذارشده است
 # LOCALIZATION NOTE (paste-tasks-also): The users pasting operation include among
 # others also several assigned tasks - this is used as a affix in
 # paste-notify-about
-paste-tasks-also = مواردی که جای‌گذاری می‌کنید شامل چند کار واگذارشده است
+paste-tasks-also = مواردی که جای‌گذاری می‌کنید، شامل چند کار واگذارشده است
 # LOCALIZATION NOTE (paste-items-also): The users pasting operation includes among
 # others also assigned task(s) and meeting invitation(s) - this is used as a affix
 # in paste-notify-about
@@ -98,7 +98,7 @@ paste-items-only = در حال جای‌گذاری جلسه‌ها و کارها
 paste-notify-about = { $pasteItem } - می‌خواهید برای همهٔ افراد مرتبط به‌روزرسانی بفرستید؟
 # LOCALIZATION NOTE (paste-and-notify-label): button label used in calendar prompt
 # of the pasted item has attendees
-paste-and-notify-label = جای‌گذاری و ارسال هم‌اکنون
+paste-and-notify-label = هم‌اکنون جای‌گذاری و ارسال کن
 # LOCALIZATION NOTE (paste-dont-notify-label): button label used in calendar prompt
 # of the pasted item has attendees
 paste-dont-notify-label = جای‌گذاری بدون ارسال
