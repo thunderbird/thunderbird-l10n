@@ -66,6 +66,7 @@ collection-health-report-telemetry-disabled-link = Μάθετε περισσότ
 collection-share-performance =
     .label = Κοινοποίηση ανώνυμων δεδομένων επιδόσεων στη { -vendor-short-name }
     .accesskey = υ
+collection-share-performance-description = (Περιλαμβάνει βασικές τεχνικές πληροφορίες, όπως το λειτουργικό σας σύστημα, τη χρήση μνήμης και τη δραστηριότητα λειτουργιών. Το { -brand-short-name } δεν συλλέγει ποτέ το περιεχόμενο των email, τις επαφές ή τα προσωπικά μηνύματα.)
 collection-health-report =
     .label = Να επιτρέπεται στο { -brand-short-name } η αποστολή τεχνικών και διαδραστικών δεδομένων στη { -vendor-short-name }
     .accesskey = ρ
@@ -849,6 +850,7 @@ primary-password-button =
     .accesskey = Α
 forms-primary-pw-fips-title = Είστε σε λειτουργία FIPS. Το FIPS απαιτεί μη κενό κύριο κωδικό πρόσβασης.
 forms-master-pw-fips-desc = Αποτυχία αλλαγής κωδικού πρόσβασης
+spam-accounts-description = Αυτές οι ρυθμίσεις ισχύουν για όλους τους λογαριασμούς. Μπορείτε να αλλάξετε τις επιλογές ανά λογαριασμό στις ρυθμίσεις λογαριασμού.
 spam-description = Καθορίστε τις προεπιλεγμένες ρυθμίσεις ανεπιθύμητης αλληλογραφίας. Οι ρυθμίσεις για συγκεκριμένους λογαριασμούς μπορούν να τροποποιηθούν στις ρυθμίσεις λογαριασμού.
 spam-marked-label =
     .label = Όταν τα μηνύματα επισημαίνονται ως ανεπιθύμητα:
@@ -884,6 +886,14 @@ spam-log-button =
 reset-spam-button =
     .label = Επαναφορά δεδομένων εκμάθησης
     .accesskey = Ε
+scam-detection-description = Το { -brand-short-name } ελέγχει τα μηνύματα για συνδέσμους ηλεκτρονικού «ψαρέματος» και συνήθεις ενδείξεις απάτης μέσω email.
+scam-detection-label =
+    .label = Προειδοποίηση κατά την ανάγνωση ενός email που μοιάζει με απάτη
+    .accesskey = Π
+antivirus-isolate-label =
+    .label = Να επιτρέπεται στο λογισμικό προστασίας από ιούς η απομόνωση μολυσμένων εισερχόμενων email
+    .accesskey = α
+certificate-verify-description = Όταν ένας διακομιστής ζητά πιστοποιητικό για την επαλήθευση της ταυτότητάς σας:
 certificate-choose-auto =
     .label = Αυτόματη επιλογή πιστοποιητικού
     .accesskey = η
@@ -925,6 +935,7 @@ email-e2ee-turn-off =
     .label = Αυτόματη απενεργοποίηση της κρυπτογράφησης όταν αλλάζουν οι παραλήπτες και η κρυπτογράφηση δεν είναι πλέον εφικτή
 email-e2ee-turn-off-notify =
     .label = Εμφάνιση ειδοποίησης όταν η κρυπτογράφηση απενεργοποιείται αυτόματα
+email-e2ee-automatism-note = Σημείωση: Μπορείτε επίσης να ενεργοποιήσετε ή να απενεργοποιήσετε χειροκίνητα την κρυπτογράφηση κατά τη σύνταξη ενός μηνύματος. Η απάντηση σε κρυπτογραφημένα μηνύματα ενεργοποιεί πάντα την κρυπτογράφηση.
 email-e2ee-automatism-pre =
     Το { -brand-short-name } μπορεί να βοηθήσει (απ)ενεργοποιώντας αυτόματα την κρυπτογράφηση κατά τη σύνταξη ενός email.
     Η αυτόματη (απ)ενεργοποίηση βασίζεται στη διαθεσιμότητα των έγκυρων και αποδεκτών κλειδιών ή πιστοποιητικών των επιστολογράφων.
@@ -979,12 +990,14 @@ preferences-doh-default-detailed-desc-5 = Απενεργοποίηση όταν 
 preferences-doh-setting-enabled =
     .label = Αυξημένη προστασία
     .accesskey = ξ
+preferences-doh-increased-desc = Χρησιμοποιεί πάντα τον επιλεγμένο πάροχο. Καταφεύγει στην τυπική σύνδεση μόνο σε περίπτωση αποτυχίας του ασφαλούς παρόχου.
 preferences-doh-enabled-desc = Εσείς ελέγχετε πότε θα χρησιμοποιείται ασφαλές DNS και επιλέγετε τον πάροχό σας.
 preferences-doh-enabled-detailed-desc-1 = Χρήση του παρόχου της επιλογής σας
 preferences-doh-enabled-detailed-desc-2 = Χρήση προεπιλεγμένης ανάλυσης DNS μόνο εάν υπάρχει πρόβλημα με το ασφαλές DNS
 preferences-doh-setting-maximum =
     .label = Μέγιστη προστασία
     .accesskey = Μ
+preferences-doh-maximum-desc = Απαιτεί αυστηρά κρυπτογραφημένο DNS. Οι ιστότοποι δεν φορτώνονται σε περίπτωση αποτυχίας της ασφαλούς σύνδεσης.
 preferences-doh-setting-strict =
     .label = Μέγιστη προστασία
     .accesskey = Μ
@@ -995,6 +1008,7 @@ preferences-doh-strict-detailed-desc-3 = Εάν δεν διατίθεται ασ
 preferences-doh-setting-off =
     .label = Ανενεργό
     .accesskey = ν
+preferences-doh-off-standard-desc = Χρησιμοποιεί τον τυπικό πάροχο ή δίκτυο για την αναζήτηση διευθύνσεων ιστού
 preferences-doh-off-desc = Χρήση προεπιλεγμένης ανάλυσης DNS
 preferences-doh-checkbox-warn =
     .label = Προειδοποίηση εάν ένα τρίτο μέρος εμποδίζει ενεργά το ασφαλές DNS
@@ -1008,6 +1022,7 @@ preferences-doh-url-custom =
     .label = Προσαρμοσμένο
     .accesskey = Π
 preferences-doh-secure-header = Ασφαλές DNS (DNS μέσω HTTPS)
+preferences-doh-secure-description = Το ασφαλές DNS κρυπτογραφεί τα αιτήματα αναζήτησης που στέλνει το { -brand-short-name } για εύρεση ιστοτόπων, διατηρώντας τη δραστηριότητα περιήγησής σας ιδιωτική από οποιαδήποτε εποπτεία δικτύου.
 
 ## Keyservers
 
@@ -1242,6 +1257,7 @@ qr-export-pane-header-mobile = Εξαγωγή στο { -brand-product-name } γ�
 qr-export-description-email-accounts = Μεταφέρετε τους λογαριασμούς email σας από αυτόν τον υπολογιστή στο { -brand-product-name } του τηλεφώνου σας με έναν κωδικό QR.
 qr-export-get-app-google-play = <a data-l10n-name="app-link">Λήψη του { -brand-product-name } στο Google Play</a>
 qr-export-select-accounts-title = Επιλέξτε λογαριασμούς προς εξαγωγή:
+qr-export-missing-accounts-support = Λείπει κάποιος λογαριασμός; Δεν είναι δυνατή η επιλογή των λογαριασμών που δεν υποστηρίζονται στο { -brand-product-name } για Android. <a data-l10n-name="account-support-link">Μάθετε ποιοι τύποι λογαριασμών υποστηρίζονται</a>
 
 ## Appearance Tab
 
