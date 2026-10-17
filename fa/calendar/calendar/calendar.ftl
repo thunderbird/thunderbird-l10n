@@ -290,7 +290,7 @@ cal-dav-redirect-disable-calendar = ازکار انداختن تقویم
 #   Australia/Brisbane likelier than Antarctica/DumontDUrville
 #   Australia/Sydney likelier than Australia/Currie or Australia/Hobart
 #   Pacific/Auckland likelier than Antarctica/McMurdo
-likely-timezone = Asia/Tehran, Asia/Kabul, Asia/Dubai, Europe/Istanbul, Europe/London, Europe/Berlin, America/New_York, America/Los_Angeles, America/Toronto, Australia/Sydney
+likely-timezone = Asia/Tehran, Asia/Kabul, Asia/Dushanbe, Asia/Dubai, Asia/Karachi, Asia/Samarkand, Asia/Tashkent, Asia/Baghdad, Asia/Bahrain, Asia/Qatar, Europe/Istanbul, Europe/London, Europe/Berlin, America/New_York, America/Los_Angeles, America/Toronto, Australia/Sydney
 # Guessed Timezone errors and warnings.
 # Testing note:
 # * remove preference for calendar.timezone.default in userprofile/prefs.js
