@@ -5,6 +5,7 @@
 add-on-options-button =
     .title = Mundësi Shtese
 add-on-search-alternative-button-label = Gjeni një shtesë alternative
+add-on-learn-more-and-search-alternative-button-label = Mësoni më tepër dhe gjeni një shtesë alternative
 atn-addons-heading-search-input =
     .placeholder = Kërkoni te addons.thunderbird.net
 atn-addons-heading-search-button =
