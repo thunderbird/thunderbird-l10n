@@ -113,11 +113,11 @@ calendar-items-count =
 calendar-items-column-title-a11y =
     .aria-label = Titolo
 calendar-items-column-title = Titolo
-    .title = Ordinare per Titolo
+    .title = Ordina per titolo
 # The start date and time of each item.
 calendar-items-column-start-a11y =
-    .aria-label = Avvia
-calendar-items-column-start = Avvia
+    .aria-label = Inizio
+calendar-items-column-start = Inizio
     .title = Ordina per inizio
 # The end date and time of each item.
 calendar-items-column-end-a11y =
