@@ -5,6 +5,7 @@
 toolbar-context-menu-menu-bar =
     .toolbarname = Valikkopalkki
     .accesskey = V
+system-tray-app-name = { -brand-full-name }
 
 ## Tools Menu
 
@@ -156,6 +157,9 @@ file-new-newsgroup-account =
 file-new-addressbook =
     .label = Osoitekirja
     .accesskey = O
+file-new-mailing-list =
+    .label = Postituslista…
+    .accesskey = P
 file-new-local-addressbook =
     .label = Paikallinen osoitekirja
     .accesskey = P

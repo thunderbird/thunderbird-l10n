@@ -10,6 +10,7 @@ window-focus-search-alt-key =
 filter-search-label =
     .value = Etsi:
     .accesskey = E
+cookies-stored-label = Evästeet tallennetaan tälle tietokoneelle
 cookies-on-system-label = Seuraavat evästeet on tallennettu tietokoneellesi:
 treecol-site-header =
     .label = Palvelin
