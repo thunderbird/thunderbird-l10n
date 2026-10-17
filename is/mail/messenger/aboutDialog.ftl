@@ -2,7 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-about-update-whats-new = Hvað er nýtt
+about-update-whats-new = Nýtt á döfinni
 about-dialog-title = Um { -brand-full-name }
 release-notes-link = Útgáfuupplýsingar
 # This describes the codename logo shown in the About Thunderbird dialog for the current annual release.
