@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 attachment-reminder-dialog-title = Liitteen muistuttamisen avainsanat
+attachment-reminder-description = Näytä muistutus puuttuvista liitteistä, jos sähköposti sisältää vastaavia avainsanoja.
 attachment-reminder-label = { -brand-short-name } muistuttaa sinua puuttuvista liitetiedostoista jos olet lähettämässä sähköpostia, jossa on mainittu jokin näistä avainsanoista, mutta ei liitetiedostoja.
 keyword-new-button =
     .label = Uusi…

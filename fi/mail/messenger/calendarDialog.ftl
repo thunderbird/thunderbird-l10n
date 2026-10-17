@@ -38,6 +38,8 @@ calendar-dialog-attendee-count =
     }
 calendar-dialog-attendee-organizer = Järjestäjä
 calendar-dialog-attendee-optional = Valinnainen
+calendar-dialog-icon-attending =
+    .alt = Osallistuu
 calendar-dialog-attendees-expand-icon =
     .alt = Näytä kaikki vieraat
 calendar-dialog-attendees-too-many-guests = Vieraslistaa ei voida näyttää, koska se sisältää yli 50 vierasta.
@@ -115,6 +117,14 @@ calendar-dialog-attachments-summary-label =
         [one] { $count } liite
        *[other] { $count } liitettä
     }
+calendar-event-prompt-delete-title = Poista tapahtuma
+calendar-event-prompt-delete-header = Poistetaanko seuraavat tapahtumat pysyvästi?
+calendar-single-event-prompt-delete-header = Poistetaanko tämä tapahtuma pysyvästi?
+calendar-prompt-this-event =
+    .label = Tämä tapahtuma
+calendar-prompt-all-events =
+    .label = Kaikki tapahtumat
+calendar-prompt-delete-button = Poista
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =

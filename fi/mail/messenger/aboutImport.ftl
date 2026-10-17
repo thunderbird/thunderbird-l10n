@@ -103,6 +103,12 @@ addr-book-summary-description = Uusi osoitekirja "{ $addressBookName }" luodaan.
 import-from-calendar-file-desc = Valitse iCalendar-tiedosto (.ics), jonka haluat tuoda.
 calendar-items-title = Valitse tuotavat tiedot.
 calendar-items-loading = Ladataan kohteita…
+# $count (Number) - The number of items in the calendar file.
+calendar-items-count =
+    { $count ->
+        [one] Tiedosto sisältää { $count } kohteen.
+       *[other] Tiedosto sisältää { $count } kohdetta.
+    }
 calendar-items-filter-input2 =
     .label = Suodata kohteita
     .placeholder = Suodata kohteita…
