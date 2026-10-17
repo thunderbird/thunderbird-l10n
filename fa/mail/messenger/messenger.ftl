@@ -112,8 +112,8 @@ browser-request-cookies-accept =
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
-    .label = افزونه‌ها و زمینه‌ها
-    .tooltiptext = مدیریت افزونه‌های شما
+    .label = برافزاها و پوسته‌ها
+    .tooltiptext = مدیریت برافزاهای شما
 quick-filter-toolbarbutton =
     .label = پالایش سریع
     .tooltiptext = پالایش پیام‌ها
@@ -267,9 +267,9 @@ menu-move-copy-favorites =
     .label = برگزیده‌ها
     .accesskey = ب
 menu-move-copy-no-recent =
-    .label = (هیچ مقصد اخیری نیست)
+    .label = (هنوز هیچ مقصد اخیری نیست)
 menu-move-copy-no-favorites =
-    .label = (هیچ برگزیده‌ای نیست)
+    .label = (هنوز هیچ برگزیده‌ای نیست)
 
 ## AppMenu
 
@@ -278,7 +278,7 @@ appmenu-save-as-file =
 appmenu-settings =
     .label = تنظیمات
 appmenu-addons-and-themes =
-    .label = افزونه‌ها و زمینه‌ها
+    .label = برافزاها و پوسته‌ها
 
 ## Context menu
 
@@ -301,8 +301,8 @@ context-menu-mark-not-spam =
     .aria-label = علامت‌گذاری به‌عنوان غیرهرزنامه
     .tooltiptext = علامت‌گذاری به‌عنوان غیرهرزنامه
 mail-context-menu-open =
-    .label = باز کردن
-    .accesskey = ب
+    .label = گشودن
+    .accesskey = گ
 mail-context-menu-reply =
     .label = پاسخ
     .accesskey = پ
@@ -373,7 +373,7 @@ message-header-delete =
     .tooltiptext = حذف این پیام
 message-header-undelete =
     .label = بازگردانی حذف
-    .tooltiptext = بازگردانی حذف این پیام
+    .tooltiptext = بازگردانی پیام حذف شده
 # Variables:
 # $address (String) - The email address of the recipient this picture belongs to.
 message-header-recipient-avatar =
@@ -381,16 +381,16 @@ message-header-recipient-avatar =
 
 ## Message header customize panel
 
-message-header-customize-panel-title = تنظیمات سرصفحهٔ پیام
+message-header-customize-panel-title = تنظیمات سرایند پیام
 message-header-customize-button-style =
     .value = سبک دکمه
     .accesskey = س
 message-header-button-style-default =
-    .label = نماد و متن
+    .label = نقشک‌ها و متن
 message-header-button-style-text =
     .label = متن
 message-header-button-style-icons =
-    .label = نماد
+    .label = نقشک‌ها
 message-header-show-sender-full-address =
     .label = همیشه نشانی کامل فرستنده نمایش داده شود
     .accesskey = ک
