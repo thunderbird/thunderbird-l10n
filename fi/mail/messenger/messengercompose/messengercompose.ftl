@@ -362,6 +362,14 @@ show-bcc-row-button = Piilokopio
     .title = Näytä piilokopiokenttä ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 extra-address-rows-menu-button =
     .title = Muut näytettävät osoitekentät
+public-recipients-notice-single = Viestilläsi on julkinen vastaanottaja. Voit välttää vastaanottajan paljastumisen käyttämällä piilokopiokenttää.
+# Variables:
+# $count (Number) - the count of addresses in the "To" and "Cc" fields.
+public-recipients-notice-multi =
+    { $count ->
+        [one] Vastaanottaja- ja kopio-kenttien { $count } vastaanottajaa näkevät toistensa osoitteet. Voit välttää vastaanottajien paljastumisen käyttämällä sen sijaan piilokopiota.
+       *[other] Vastaanottaja- ja kopio-kenttien { $count } vastaanottajaa näkevät toistensa osoitteet. Voit välttää vastaanottajien paljastumisen käyttämällä sen sijaan piilokopiota.
+    }
 many-public-recipients-bcc =
     .label = Käytä sen sijaan piilokopiota (Bcc)
     .accesskey = K

@@ -9,12 +9,19 @@ fonts-label-default =
     .label = Oletus ({ $name })
 fonts-label-default-unnamed =
     .label = Oletus
+fonts-character-set-legend =
+    .value = Merkistö:
+    .accesskey = M
+font-main-style-label =
+    .value = Pääasiallinen fonttityyli:
+    .accesskey = P
 fonts-language-legend =
     .value = Merkistö:
     .accesskey = M
 fonts-proportional-label =
     .value = Suhteellinen:
     .accesskey = S
+text-font-options-dialog-title = Teksti- ja fonttiasetukset
 
 ## Languages
 
@@ -93,6 +100,9 @@ font-size-monospace-label =
 font-serif-label =
     .value = Pääteviivallinen:
     .accesskey = P
+sans-serif-font-label =
+    .value = Päätteetön fontti:
+    .accesskey = P
 font-sans-serif-label =
     .value = Pääteviivaton:
     .accesskey = ä
@@ -114,6 +124,9 @@ use-document-fonts-checkbox =
 use-fixed-width-plain-checkbox =
     .label = Käytä tasalevyistä kirjasinta pelkkä teksti viesteille
     .accesskey = y
+allow-incoming-fonts-checkbox =
+    .label = Salli saapuvien viestien käyttää omia fonttejaan
+    .accesskey = S
 
 ## Language settings
 
