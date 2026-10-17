@@ -29,8 +29,8 @@ calendar-item-all-day =
     .label = تمام‌روز
     .accesskey = ت
 # Event Dialog Warnings
-warning-end-before-start = تاریخ پایانی که وارد کرده‌اید پیش از تاریخ شروع است
-warning-until-date-before-start = تاریخ پایان تکرار پیش از تاریخ شروع است
+warning-end-before-start = تاریخ پایانی که وارد کرده‌اید پیش از تاریخ آغاز است
+warning-until-date-before-start = تاریخ پایان تکرار پیش از تاریخ آغاز است
 # The name of the calendar provided with the application by default
 home-calendar-name = خانه
 # The name given to a calendar if an opened calendar has an empty filename
@@ -187,6 +187,7 @@ tooltip-organizer = برگزارکننده:
 # task/todo fields
 # start date time, due date time, task priority number, completed date time
 tooltip-start = آغاز:
+tooltip-due = موعد:
 tooltip-priority = اولویت:
 tooltip-percent = ٪ انجام‌شده:
 tooltip-completed = انجام‌شده:
@@ -346,7 +347,7 @@ tz-almost-matches-os-differ-at-mostaweek =
     این منطقهٔ زمانی ZoneInfo تقریباً با منطقهٔ زمانی سیستم‌عامل مطابقت دارد.
     برای این قاعده، جابه‌جایی‌های بعدی بین ساعت تابستانی و ساعت رسمی
     حداکثر یک هفته با جابه‌جایی‌های منطقهٔ زمانی سیستم‌عامل تفاوت دارند.
-    ممکن است در داده‌ها ناهمخوانی وجود داشته باشد، مانند تاریخ شروع متفاوت،
+    ممکن است در داده‌ها ناهمخوانی وجود داشته باشد، مانند تاریخ آغاز متفاوت،
     قاعدهٔ متفاوت، یا تقریب برای قاعده‌های تقویم غیرمیلادی.
 tz-seems-to-matchos = به نظر می‌رسد این منطقهٔ زمانی ZoneInfo امسال با منطقهٔ زمانی سیستم‌عامل مطابقت دارد.
 # LOCALIZATION NOTE (tz-fromos):
@@ -879,8 +880,8 @@ calendar-task-filter-next7days =
     .label = هفت روز آینده
     .accesskey = ف
 calendar-task-filter-notstarted =
-    .label = کارهای شروع‌نشده
-    .accesskey = ش
+    .label = کارهای آغاز نشده
+    .accesskey = آ
 calendar-task-filter-overdue =
     .label = کارهای عقب‌افتاده
     .accesskey = ع
@@ -905,7 +906,7 @@ calendar-task-details-status = وضعیت
 calendar-task-details-category = دسته
 calendar-task-details-repeat = تکرار
 calendar-task-details-attachments = پیوست‌ها
-calendar-task-details-start = تاریخ شروع
+calendar-task-details-start = تاریخ آغاز
 calendar-task-details-due = تاریخ موعد
 calendar-task-mark-completed =
     .label = علامت‌گذاری به‌عنوان انجام‌شده
