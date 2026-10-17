@@ -38,6 +38,7 @@ policy-DisableForgetButton = Αποτροπή πρόσβασης στο κουμ
 policy-DisableFormHistory = Χωρίς διατήρηση ιστορικού αναζήτησης και φορμών.
 policy-DisableMasterPasswordCreation = Αν αληθεύει, δεν μπορεί να δημιουργηθεί κύριος κωδικός πρόσβασης.
 policy-DisableMessageForwardingFilters = Αποτροπή της αυτόματης προώθησης μηνυμάτων από τα φίλτρα.
+policy-DisablePasswordReveal2 = Να μην επιτρέπεται η αποκάλυψη κωδικών πρόσβασης σε αποθηκευμένες συνδέσεις ή πεδία κωδικού πρόσβασης.
 policy-DisablePasswordReveal = Να μην επιτρέπεται η αποκάλυψη κωδικών πρόσβασης σε αποθηκευμένες συνδέσεις.
 policy-DisableProfileImport = Απενεργοποίηση της εντολής μενού για εισαγωγή δεδομένων από άλλη εφαρμογή.
 policy-DisableExperimentalFeatures = Απενεργοποίηση των πειραματικών λειτουργιών στο Thunderbird.

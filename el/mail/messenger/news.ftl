@@ -66,6 +66,12 @@ cancel-confirm = Είστε βέβαιοι ότι θέλετε να ακυρώσ
 # $newsgroup (String) - The name of the newsgroup.
 auto-subscribe-text = Θέλετε να εγγραφείτε στο «{ $newsgroup }»;
 
+## Unknown News Server Dialog
+
+# Variables:
+# $server (String) - The hostname:port of the news server, e.g. news.example.com:119.
+unknown-news-server-text = Αυτός ο σύνδεσμος οδηγεί στο { $server }, αλλά δεν έχει ρυθμιστεί λογαριασμός για αυτόν τον διακομιστή συζητήσεων. Να γίνει σύνδεση ούτως ή άλλως;
+
 ## News Server Credentials
 
 enter-news-credentials-title = Απαιτείται όνομα χρήστη και κωδικός πρόσβασης για τον διακομιστή συζητήσεων

@@ -189,6 +189,10 @@ filter-editor-invalid-search-title = Μη έγκυροι όροι αναζήτη
 #   $operator (String) - The search operator from the bad rule.
 filter-editor-invalid-search-rule = Δεν είναι δυνατή η αποθήκευση του φίλτρου επειδή οι όροι αναζήτησης «{ $attribute } { $operator }» δεν είναι έγκυροι στο παρόν πλαίσιο.
 filter-editor-missing-value-title = Απουσία τιμής αναζήτησης
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+filter-editor-missing-value-rule = Δεν είναι δυνατή η αποθήκευση αυτού του φίλτρου, επειδή δεν έχει εισαχθεί τιμή για τον όρο αναζήτησης «{ $attribute } { $operator }».
 filter-editor-action-order-explanation = Όταν ένα μήνυμα ταιριάξει με το φίλτρο, οι ενέργειες θα εκτελεστούν με την ακόλουθη σειρά:
 filter-editor-action-order-title = Πραγματική σειρά ενεργειών
 # Variables:
