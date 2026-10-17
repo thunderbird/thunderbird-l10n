@@ -158,6 +158,9 @@ week-title-label =
     .aria-label = Semana { $title }
 calendar-none =
     .label = Nenhum
+# Variables:
+#   $fileName (String) - The backup file name, e.g. 'local-2020-05-11T21-30-17.sqlite'.
+too-new-dbschema-error-text = Os dados da sua agenda não são compatíveis com esta versão do { -brand-short-name }. Os dados de agenda em seu perfil foram atualizados para uma versão mais recente do { -brand-short-name }. Foi criado um backup do arquivo de dados, chamado “{ $fileName }”. Continuando com um arquivo de dados recém-criado.
 imip-bar-unsupported-text = Esta mensagem contém um evento que esta versão do { -brand-short-name } não consegue processar.
 # Error strings
 # @name UID_NOT_FOUND
@@ -514,6 +517,15 @@ several-calendar-weeks = Semanas: { $startIndex }-{ $endIndex }
 # the day number other than a possible crop when the window is resized.
 #    $number is a number from 1 to 53 that represents the week number.
 multiweek-view-week = sem. { $number }
+# Shown after the items of a day in the calendar views, when the day has too
+# many items to display at once. Clicking it displays more of them.
+# Variables:
+#   $count (Number) - The number of items in the day that are not displayed.
+calendar-view-more-items =
+    { $count ->
+        [one] … e mais { $count }
+       *[other] … e mais { $count }
+    }
 # Task tree, "Due In" column.
 # LOCALIZATION NOTE (due-in-days, due-in-hours): Semi-colon list of plural
 # forms. See: http://developer.mozilla.org/en/Localization_and_Plurals

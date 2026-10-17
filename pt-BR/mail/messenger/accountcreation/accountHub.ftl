@@ -52,6 +52,7 @@ account-hub-email-continue-button = Avançar
 account-hub-email-set-up-account-button = Configurar conta
 account-hub-email-confirm-button = Confirmar
 account-hub-email-find-settings-button = Procurar configurações
+account-hub-email-connect-button = Conectar
 account-hub-result-incoming-legend = Entrada
 account-hub-result-outgoing-legend = Saída
 account-hub-all-servers-legend = Todos os servidores
