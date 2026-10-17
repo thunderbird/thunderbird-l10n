@@ -495,7 +495,7 @@ settings-context-open-settings-item2 =
 settings-context-open-account-settings-item2 =
     .label = تنظیمات حساب
 settings-context-open-addons-item2 =
-    .label = افزونه‌ها و زمینه‌ها
+    .label = برافزاها و پوسته‌ها
 
 ## Spaces toolbar pinned tab menupopup
 
@@ -537,7 +537,7 @@ spaces-customize-accent-background-color = رنگ پس‌زمینهٔ دکمهٔ
 # The icon color used on the buttons of the spaces toolbar when they are
 # `current`, meaning the related space/tab is active and visible.
 spaces-customize-accent-text-color = رنگ دکمهٔ انتخاب‌شده
-spaces-customize-button-restore = بازگرداندن پیش‌فرض‌ها
+spaces-customize-button-restore = بازگرداندن پیش‌گزیده‌ها
     .accesskey = ب
 customize-panel-button-save = انجام شد
     .accesskey = ج
@@ -644,8 +644,8 @@ message-flag-starred = ستاره‌دار
 # Grouped By Date thread pane titles
 message-group-today = امروز
 message-group-yesterday = دیروز
-message-group-last-seven-days = ۷ روز اخیر
-message-group-last-fourteen-days = ۱۴ روز اخیر
+message-group-last-seven-days = ۷ روز پیش
+message-group-last-fourteen-days = ۱۴ روز پیش
 message-group-older = قدیمی‌تر
 message-group-future-date = آینده
 # Different Grouped By Sort thread pane titles
