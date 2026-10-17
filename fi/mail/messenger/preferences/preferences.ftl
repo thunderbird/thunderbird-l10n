@@ -106,6 +106,9 @@ update-in-progress-ok-button = &Hylkää
 update-in-progress-cancel-button = &Jatka
 account-button = Tilin asetukset
 open-addons-sidebar-button = Lisäosat ja teemat
+clear-temp-files-button =
+    .label = Tyhjennä väliaikaiset tiedostot
+    .accesskey = T
 
 ## OS Authentication dialog
 
@@ -268,6 +271,10 @@ update-app-legend = { -brand-short-name }-päivitykset
 # Variables:
 #   $version (String): version of Thunderbird, e.g. 68.0.1
 update-app-version = Versio { $version }
+update-settings-title = Päivitysasetukset
+install-updates-automatically-label =
+    .label = Asenna päivitykset automaattisesti (suositus)
+    .accesskey = A
 allow-description = Anna sovellukselle { -brand-short-name } lupa
 automatic-updates-label =
     .label = Asenna päivitykset automaattisesti (suositeltu: turvallisin)
@@ -525,6 +532,9 @@ add-link-previews =
 spellcheck-label =
     .label = Oikolue viestit ennen lähettämistä
     .accesskey = O
+spellcheck-while-typing-label =
+    .label = Tarkista oikeinkirjoitus kirjoittamisen aikana
+    .accesskey = T
 spellcheck-inline-label =
     .label = Oikolue teksti kirjoitettaessa
     .accesskey = k
@@ -538,6 +548,9 @@ font-label =
 font-size-label =
     .value = Koko:
     .accesskey = K
+ignore-sender-styles-label =
+    .label = Älä käytä lähettäjän fontteja ja värejä
+    .accesskey = Ä
 default-colors-label =
     .label = Käytä lukijan oletusvärejä
     .accesskey = o
@@ -759,11 +772,15 @@ preferences-doh-setting-default =
     .accesskey = O
 preferences-doh-strict-detailed-desc-1 = Käytä vain valitsemaani palveluntarjoajaa
 preferences-doh-strict-detailed-desc-2 = Varoita aina, jos suojattu DNS ei ole käytettävissä
+preferences-doh-off-desc = Käytä oletusarvoista DNS-selvittäjää
 preferences-doh-select-resolver = Valitse palveluntarjoaja:
 # Variables:
 #   $name (String) - Display name or URL for the DNS over HTTPS provider
 preferences-doh-url-default =
     .label = { $name } (oletus)
+preferences-doh-url-custom =
+    .label = Mukautettu
+    .accesskey = M
 preferences-doh-secure-header = Suojattu DNS (DNS HTTPS:n kautta)
 
 ## Keyservers
@@ -891,6 +908,7 @@ sync-signedout-caption = Ota verkko mukaasi
 sync-signedout-description = Synkronoi tilit, osoitekirjat, kalenterit, lisäosat ja asetukset kaikilla laitteillasi.
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 sync-signedout-account-signin-btn = Kirjaudu synkronoidaksesi…
+sync-pane-header = Synkronointi
 # Variables:
 # $userEmail (String) - The email logged into Sync.
 sync-pane-email-not-verified = Sähköpostiosoitetta “{ $userEmail }” ei ole vahistettu.
