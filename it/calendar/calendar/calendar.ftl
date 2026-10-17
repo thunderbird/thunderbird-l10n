@@ -523,7 +523,7 @@ multiweek-view-week = Sett. { $number }
 #   $count (Number) - The number of items in the day that are not displayed.
 calendar-view-more-items =
     { $count ->
-        [one] … e altri { $count }
+        [one] … e { $count } altro
        *[other] … e altri { $count }
     }
 # Task tree, "Due In" column.

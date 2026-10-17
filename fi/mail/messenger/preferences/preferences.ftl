@@ -673,6 +673,15 @@ spam-log-label =
 spam-log-button =
     .label = Näytä loki
     .accesskey = N
+certificate-choose-auto =
+    .label = Valitse varmenne automaattisesti
+    .accesskey = V
+certificate-ask-every =
+    .label = Kysy joka kerta
+    .accesskey = K
+ocsp-check-label =
+    .label = Tarkista varmenteiden validointipalvelimet (OCSP) varmistuaksesi, että varmenteet ovat edelleen kelvollisia.
+    .accesskey = T
 phishing-description = { -brand-short-name } voi yrittää tunnistaa viestejä sähköpostihuijauksiksi tavanomaisia huijaustekniikoita etsien.
 phishing-label =
     .label = Näytä varoitus epäillyistä sähköpostihuijauksista
@@ -700,6 +709,8 @@ security-devices-button =
 email-e2ee-header = Sähköpostin päästä päähän -salaus
 account-settings = Tilin asetukset
 email-e2ee-automatism = Automaattinen salauksen käyttö
+email-e2ee-turn-on =
+    .label = Ota salaus käyttöön automaattisesti, kun mahdollista
 email-e2ee-automatism-pre =
     { -brand-short-name } voi auttaa ottamalla salauksen automaattisesti käyttöön tai poistamalla sen käytöstä sähköpostin kirjoittamisen aikana.
     Automaattinen käyttöönotto ja poistaminen käytöstä perustuu kelvollisten sekä hyväksyttyjen vastaanottajien avainten tai varmenteiden saatavuuteen.
@@ -712,15 +723,40 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     Automaattiset päätökset voidaan ohittaa ottamalla salaus manuaalisesti käyttöön tai poistamalla se käytöstä viestiä kirjoitettaessa.
     Huomautus: salaus on aina automaattisesti käytössä, kun vastaat salattuun viestiin.
+email-content = Sähköpostin sisältö
+remote-content-images-label =
+    .label = Salli etäsisältö (kuvat ja tyylit)
+    .accesskey = S
 
 ## DoH Section
 
 preferences-doh-header = DNS HTTPS:n kautta
+# Variables:
+#   $status (string) - The status of the DoH connection
+preferences-doh-status = Tila: { $status }
+# Variables:
+#   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
+preferences-doh-resolver = Palveluntarjoaja: { $name }
+# This is displayed instead of $name in preferences-doh-resolver
+# when the DoH URL is not a valid URL
+preferences-doh-bad-url = Virheellinen osoite
+# Variables:
+#   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
+preferences-doh-status-not-active = Ei aktiivinen ({ $reason })
+preferences-doh-setting-automatic =
+    .label = Automaattinen suojaus (suositus)
+    .accesskey = A
+preferences-doh-setting-default =
+    .label = Oletussuojaus
+    .accesskey = O
+preferences-doh-strict-detailed-desc-1 = Käytä vain valitsemaani palveluntarjoajaa
+preferences-doh-strict-detailed-desc-2 = Varoita aina, jos suojattu DNS ei ole käytettävissä
 preferences-doh-select-resolver = Valitse palveluntarjoaja:
 # Variables:
 #   $name (String) - Display name or URL for the DNS over HTTPS provider
 preferences-doh-url-default =
     .label = { $name } (oletus)
+preferences-doh-secure-header = Suojattu DNS (DNS HTTPS:n kautta)
 
 ## Keyservers
 
@@ -893,6 +929,7 @@ qr-export-no-accounts = Etkö näe kaikkia tilejäsi? Jotkin tilit on mahdollise
 qr-export-accounts-legend = Sähköpostitilit
 qr-export-select-all-accounts = Valitse kaikki
 qr-export-passwords-legend = Salasanat
+qr-export-include-passwords-label = Sisällytä tilien salasanat QR-koodiin
 qr-export-security-legend = Turvallisuus
 qr-export-include-passwords = Sisällytä kaikkien tilien salasanat
 qr-export-oauth-warning = Jotkin tilisi käyttävät todennusmenetelmää, joka saattaa vaatia uudelleentodennuksen mobiililaitteellasi. Saatat joutua syöttämään salasanasi uudelleen tämän prosessin aikana.
@@ -942,6 +979,7 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Salasanat mukana
 qr-export-summary-passwords-excluded = Salasanat eivät mukana
 qr-export-more-accounts = Vie lisää tilejä
+qr-export-select-accounts-title = Valitse vietävät tilit:
 
 ## Appearance Tab
 
@@ -965,10 +1003,15 @@ accent-color-teal =
     .label = Sinivihreä
 accent-color-disabled-description = Korostusvärejä ei tueta suuren kontrastin tilassa.
 default-message-list-legend = Viestiluettelo
+appearance-view-style-select =
+    .value = Valitse näkymän tyyli:
 appearance-view-style =
     .value = Näyttötyyli:
 appearance-radio-table =
     .label = Taulukkonäkymä
+appearance-radio-card-view =
+    .label = Korttinäkymä
+card-view-options-legend = Korttinäkymän asetukset
 appearance-radio-cards =
     .label = Korttinäkymä
 cards-view-legend = Korttinäkymän asetukset
@@ -1013,6 +1056,17 @@ default-sort-account =
 default-sort-received =
     .label = Saapumisjärjestys
 default-order-label = Oletuslajittelujärjestys:
+default-sort-newest-bottom =
+    .label = Uusimmat viestit alimmaisina
+default-sort-new-messages-top =
+    .label = Uusimmat viestit ylimpänä
+apply-view-settings-label = Toteuta nämä näkymäasetukset:
+apply-view-settings-to-all-folders-button =
+    .label = Kaikkiin kansioihin ja alikansioihin
+    .accesskey = K
+select-apply-sort-folders-button =
+    .label = Valitse kansiot
+    .accesskey = V
 default-sort-ascending =
     .label = Nouseva
 default-sort-ascending-description = Uusia viestejä alhaalla
