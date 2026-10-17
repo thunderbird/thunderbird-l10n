@@ -4,6 +4,9 @@
 
 # Instant messaging account status window for Thunderbird
 accounts-window-title = Gjendje mesazhesh të atypëratyshëm
+account-manager-add-account =
+    .label = { add-account-label }
+    .accesskey = S
 account-manager-close =
     .label = Mbylleni
     .accesskey = M

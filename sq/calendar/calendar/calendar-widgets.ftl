@@ -20,6 +20,8 @@ calendar-enable-button = Aktivizoje
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-context-button =
     .title = Mundësi kalendari { $calendarName }
+calendar-add-calendar = Shtoni Kalendar…
+    .title = Krijoni, ose pajtohuni te një kalendar
 calendar-refresh-calendars =
     .title = Ringarkoni krejt kalendarët dhe njëkohësoni ndryshimet
 calendar-new-event-primary-button = Veprimtari e Re

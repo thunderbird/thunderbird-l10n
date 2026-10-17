@@ -62,10 +62,6 @@ publish-prompt = Cilin kalendar doni të botohet?
 # others also a meeting invitation - this is used as a affix in
 # paste-notify-about
 paste-event-also = Ngjitja juaj përfshin një takim
-# LOCALIZATION NOTE (paste-events-also): The users pasting operation includes among
-# others also several meeting invitations  - this is used as a affix in
-# paste-notify-about
-paste-events-also = Ngjitja juaj përfshin takime
 # LOCALIZATION NOTE (paste-task-also): The users pasting operation includes among
 # others also an assigned task - this is used as a affix in paste-notify-about
 paste-task-also = Ngjitja juaj përmban një punë të caktuar
