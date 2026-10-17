@@ -70,7 +70,7 @@ auto-subscribe-text = Sottoscrivere { $newsgroup }?
 
 # Variables:
 # $server (String) - The hostname:port of the news server, e.g. news.example.com:119.
-unknown-news-server-text = Questo link punta a { $server }, ma non è stato configurato alcun account per quel server di news. Connettersi comunque?
+unknown-news-server-text = Questo link rimanda a { $server }, per il quale non è stato configurato alcun account di gruppi di discussione. Connettersi comunque?
 
 ## News Server Credentials
 
