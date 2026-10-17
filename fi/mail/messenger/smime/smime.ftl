@@ -12,3 +12,10 @@ configured-cert-ok-sig = Varmenne läpäisi testin ja sitä voidaan käyttää s
 configured-cert-failure-detail = Varmenteen vahvistus epäonnistui seuraavan virheen vuoksi: { $errorMsg } (Virhekoodi: { $errorCodeStr })
 # $errorCode A numeric error code
 configured-cert-failure = Varmenteen vahvistus epäonnistui virhekoodilla { $errorCode }
+# Cryptographic details displayed in the message security popup
+smime-crypto-signature-algorithm = Allekirjoitusalgoritmi:
+smime-crypto-cipher = Salausalgoritmi:
+# $algorithm - The encryption algorithm name (e.g. "AES-GCM")
+# $keySize - The key size in bits (e.g. "256")
+smime-crypto-cipher-with-key-size = { $algorithm } ({ $keySize }-bit)
+smime-crypto-details-summary = Algoritmit
