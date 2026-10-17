@@ -255,14 +255,14 @@ cal-dav-request-status-code-string-403 = کاربر مجوز لازم برای �
 cal-dav-request-status-code-string-404 = منبع پیدا نشد.
 cal-dav-request-status-code-string-409 = تداخل منبع.
 cal-dav-request-status-code-string-412 = پیش‌شرط برقرار نبود.
-cal-dav-request-status-code-string-500 = خطای داخلی سرور.
-cal-dav-request-status-code-string-502 = دروازهٔ نامعتبر (مشکل پیکربندی پروکسی؟).
-cal-dav-request-status-code-string-503 = خطای داخلی سرور (قطعی موقت سرور؟).
+cal-dav-request-status-code-string-500 = خطای داخلی کارساز.
+cal-dav-request-status-code-string-502 = دروازهٔ نامعتبر (مشکل پیکربندی پیشکار؟).
+cal-dav-request-status-code-string-503 = خطای داخلی کارساز (قطعی موقت کارساز؟).
 # $name name of calendar
 cal-dav-redirect-title = محل تقویم { $name } به‌روز شود؟
 # $name name of calendar
 cal-dav-redirect-text = درخواست‌های { $name } به محل جدیدی تغییر مسیر داده می‌شوند. می‌خواهید محل را به مقدار زیر تغییر دهید؟
-cal-dav-redirect-disable-calendar = غیرفعال کردن تقویم
+cal-dav-redirect-disable-calendar = ازکار انداختن تقویم
 # LOCALIZATION NOTE (likely-timezone):
 #   Translators, please put the most likely timezone(s) where the people using
 #   your locale will be.  Use the Olson ZoneInfo timezone name *in English*,
