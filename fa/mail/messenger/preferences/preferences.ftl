@@ -67,24 +67,24 @@ collection-health-report-telemetry-disabled-link = بیشتر بدانید
 collection-share-performance =
     .label = هم‌رسانی داده‌های ناشناس کارایی با { -vendor-short-name }
     .accesskey = ک
-collection-share-performance-description = (شامل اطلاعات فنی پایه مانند سیستم‌عامل، مصرف حافظه و فعالیت ویژگی‌ها. { -brand-short-name } هرگز محتوای رایانامه، مخاطبان یا پیام‌های شخصی را گردآوری نمی‌کند.)
+collection-share-performance-description = (شامل اطلاعات فنی پایه مانند سیستم‌عامل، مصرف حافظه و فعالیت ویژگی‌ها. { -brand-short-name } هرگز محتوای رایانامه، مخاطبان یا پیام‌های شخصی را جمع‌آوری نمی‌کند.)
 collection-health-report =
     .label = اجازه به { -brand-short-name } برای ارسال داده‌های فنی و تعاملی به { -vendor-short-name }
     .accesskey = ج
 collection-health-report-link = بیشتر بدانید
 # This message is displayed above disabled data sharing options in developer builds
 # or builds with no Telemetry support available.
-collection-health-report-disabled = گزارش داده برای این پیکربندی ساخت غیرفعال است
+collection-health-report-disabled = گزارش داده برای این پیکربندی ساخت، از‌کار افتاده است
 collection-share-crash-data =
-    .label = ارسال گزارش‌های ناشناس از کار افتادن به { -vendor-short-name }
+    .label = ارسال گزارش‌های ناشناس ازکار افتادن به { -vendor-short-name }
     .accesskey = گ
 collection-backlogged-crash-reports =
-    .label = اجازه به { -brand-short-name } برای ارسال گزارش‌های از کار افتادن معوق از طرف شما
+    .label = اجازه به { -brand-short-name } برای ارسال گزارش‌های ازکار افتادن معوق از طرف شما
     .accesskey = گ
 collection-backlogged-crash-reports-link = بیشتر بدانید
 privacy-security-header = امنیت
 privacy-scam-detection-title = تشخیص کلاهبرداری
-privacy-anti-virus-title = ضدویروس
+privacy-anti-virus-title = آنتی ویروس
 privacy-security-certificates-title = گواهی‌های امنیتی
 privacy-certificates-title = گواهی‌ها
 chat-pane-header = گپ
@@ -117,7 +117,7 @@ update-in-progress-ok-button = &دور ریختن
 # method of closing the UI will not discard the update.
 update-in-progress-cancel-button = &ادامه
 account-button = تنظیمات حساب
-open-addons-sidebar-button = افزونه‌ها و زمینه‌ها
+open-addons-sidebar-button = برافزاها و پوسته‌ها
 manual-storage-limit-label =
     .label = تنظیم دستی محدودیت ذخیره‌سازی برای پرونده‌های موقت
     .accesskey = د
@@ -136,7 +136,7 @@ primary-password-os-auth-dialog-message-win = برای ساختن گذرواژه
 # The macOS strings are preceded by the operating system with "Thunderbird is trying to "
 # and includes subtitle of "Enter password for the user "xxx" to allow this." These
 # notes are only valid for English. Please test in your locale.
-primary-password-os-auth-dialog-message-macosx = گذرواژهٔ اصلی بسازد
+primary-password-os-auth-dialog-message-macosx = ایجاد گذرواژهٔ اصلی
 # Don't change this label.
 master-password-os-auth-dialog-caption = { -brand-full-name }
 
@@ -148,7 +148,7 @@ focus-search-shortcut-alt =
     .key = k
 general-legend = صفحهٔ آغازین { -brand-short-name }
 show-start-page-label =
-    .label = نمایش صفحهٔ آغازین هنگام باز شدن { -brand-short-name }
+    .label = نمایش صفحهٔ آغازین هنگام گشودن { -brand-short-name }
     .accesskey = ص
 start-page-label =
     .label = هنگام اجرای { -brand-short-name }، صفحهٔ آغازین در ناحیهٔ پیام نمایش داده شود
@@ -176,7 +176,7 @@ close-to-tray-label =
     .label = هنگام بستن { -brand-short-name }، به سینی سیستم منتقل شود
     .accesskey = س
 start-in-tray-label =
-    .label = شروع { -brand-short-name } در سینی سیستم
+    .label = آغاز { -brand-short-name } در سینی سیستم
     .accesskey = س
 new-message-arrival-legend = هنگام رسیدن پیام جدید:
 minimize-to-tray-label =
