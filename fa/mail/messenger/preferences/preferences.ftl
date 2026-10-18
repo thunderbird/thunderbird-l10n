@@ -948,10 +948,10 @@ email-e2ee-auto-on =
 email-e2ee-auto-off =
     .label = ازکار انداختن خودکار رمزگذاری وقتی گیرندگان تغییر می‌کنند و رمزگذاری دیگر ممکن نیست
 email-e2ee-auto-off-notify =
-    .label = نمایش آگاهی هر بار که رمزگذاری خودکار غیرفعال می‌شود
+    .label = نمایش آگاهی هر بار که رمزگذاری خودکار ازکار می‌افتد
 email-e2ee-automatism-post =
-    تصمیم‌های خودکار را می‌توان با فعال یا غیرفعال کردن دستی رمزگذاری هنگام نوشتن پیام نادیده گرفت.
-    توجه: هنگام پاسخ به پیام رمزگذاری‌شده، رمزگذاری همیشه خودکار فعال می‌شود.
+    تصمیم‌های خودکار را می‌توان با به‌کار انداختن یا ازکار انداختن دستی رمزگذاری هنگام نوشتن پیام نادیده گرفت.
+    توجه: هنگام پاسخ به پیام رمزگذاری‌شده، رمزگذاری همیشه خودکار به‌کار افتاده است.
 email-content = محتوای رایانامه
 remote-content-images-label =
     .label = اجازهٔ محتوای راه دور (تصاویر و سبک‌ها)
@@ -960,7 +960,7 @@ remote-content-images-label =
 ## DoH Section
 
 preferences-doh-header = DNS روی HTTPS
-preferences-doh-description = سامانهٔ نام دامنه (DNS) روی HTTPS، درخواست شما برای نام دامنه را از طریق اتصال رمزگذاری‌شده می‌فرستد، DNS امن فراهم می‌کند و دیدن وب‌سایتی را که می‌خواهید به آن بروید برای دیگران دشوارتر می‌کند.
+preferences-doh-description = سامانهٔ نام دامنه (DNS) روی HTTPS، درخواست شما برای نام دامنه را از طریق اتصال رمزگذاری‌شده می‌فرستد، DNS امن فراهم می‌کند و دیدن وبگاهٔ را که می‌خواهید به آن بروید برای دیگران دشوارتر می‌کند.
 # Variables:
 #   $status (string) - The status of the DoH connection
 preferences-doh-status = وضعیت: { $status }
@@ -969,14 +969,14 @@ preferences-doh-status = وضعیت: { $status }
 preferences-doh-resolver = ارائه‌دهنده: { $name }
 # This is displayed instead of $name in preferences-doh-resolver
 # when the DoH URL is not a valid URL
-preferences-doh-bad-url = نشانی نامعتبر
+preferences-doh-bad-url = نشانی اینترنتی نامعتبر
 preferences-doh-steering-status = در حال استفاده از ارائه‌دهندهٔ محلی
 preferences-doh-status-active = فعال
 preferences-doh-status-disabled = خاموش
 # Variables:
 #   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
 preferences-doh-status-not-active = غیرفعال ({ $reason })
-preferences-doh-group-message = فعال کردن DNS روی HTTPS با:
+preferences-doh-group-message = به‌کار انداختن DNS روی HTTPS با:
 preferences-doh-expand-section =
     .tooltiptext = اطلاعات بیشتر
 preferences-doh-setting-automatic =
@@ -1002,14 +1002,14 @@ preferences-doh-enabled-detailed-desc-2 = فقط وقتی DNS امن مشکل د
 preferences-doh-setting-maximum =
     .label = حداکثر محافظت
     .accesskey = ح
-preferences-doh-maximum-desc = DNS رمزگذاری‌شده را اکیداً الزامی می‌کند. اگر اتصال امن ناموفق باشد، وب‌سایت‌ها بارگذاری نمی‌شوند.
+preferences-doh-maximum-desc = DNS رمزگذاری‌شده را اکیداً الزامی می‌کند. اگر اتصال امن ناموفق باشد، وبگاه‌ها بارگذاری نمی‌شوند.
 preferences-doh-setting-strict =
     .label = حداکثر محافظت
     .accesskey = ح
 preferences-doh-strict-desc = { -brand-short-name } همیشه از DNS امن استفاده می‌کند. پیش از استفاده از DNS سیستم، هشدار خطر امنیتی خواهید دید.
 preferences-doh-strict-detailed-desc-1 = فقط استفاده از ارائه‌دهنده‌ای که انتخاب می‌کنید
 preferences-doh-strict-detailed-desc-2 = همیشه هشدار بده اگر DNS امن در دسترس نیست
-preferences-doh-strict-detailed-desc-3 = اگر DNS امن در دسترس نباشد، سایت‌ها بارگذاری نمی‌شوند یا درست کار نمی‌کنند
+preferences-doh-strict-detailed-desc-3 = اگر DNS امن در دسترس نباشد، وبگاه‌ها بارگذاری نمی‌شوند یا درست کار نمی‌کنند
 preferences-doh-setting-off =
     .label = خاموش
     .accesskey = خ
@@ -1027,26 +1027,26 @@ preferences-doh-url-custom =
     .label = سفارشی
     .accesskey = س
 preferences-doh-secure-header = DNS امن (DNS روی HTTPS)
-preferences-doh-secure-description = DNS امن درخواست‌های جست‌وجویی را که { -brand-short-name } برای یافتن وب‌سایت‌ها می‌فرستد رمزگذاری می‌کند و فعالیت مرور شما را از نظارت شبکه پنهان نگه می‌دارد.
+preferences-doh-secure-description = DNS امن درخواست‌های جست‌وجویی را که { -brand-short-name } برای یافتن وبگاه‌ها می‌فرستد رمزگذاری می‌کند و فعالیت مرور شما را از نظارت شبکه پنهان نگه می‌دارد.
 
 ## Keyservers
 
-email-e2ee-key-servers-legend = سرورهای کلید OpenPGP
+email-e2ee-key-servers-legend = کارسازهای کلید OpenPGP
 email-e2ee-key-servers-intro =
-    سرور کلید کلیدهای عمومی موجود را دریافت می‌کند و در اختیار کاربران قرار می‌دهد.
+    کارساز کلید، کلیدهای عمومی موجود را دریافت می‌کند و در اختیار کاربران قرار می‌دهد.
     با آن می‌توانید کلید عمومی خود را منتشر کنید و کلیدهای دیگران را پیدا و تازه‌سازی کنید.
-email-e2ee-key-servers-use-following = استفاده از سرورهای کلید زیر:
+email-e2ee-key-servers-use-following = استفاده از کارسازهای کلید زیر:
 email-e2ee-key-servers-add = افزودن…
-email-e2ee-key-servers-reset = بازنشانی فهرست سرورها
-email-e2ee-key-servers-add-title = افزودن سرور کلید
-email-e2ee-key-servers-add-text = نشانی سرور کلید مورد نظر برای افزودن را وارد کنید.
-email-e2ee-key-servers-add-failed-title = افزودن سرور کلید ناموفق بود
-email-e2ee-key-servers-add-failed-text = اتصال به سرور کلید در نشانی داده‌شده ممکن نشد.
+email-e2ee-key-servers-reset = بازنشانی فهرست کارسازها
+email-e2ee-key-servers-add-title = افزودن کارساز کلید
+email-e2ee-key-servers-add-text = نشانی کارساز کلید مورد نظر برای افزودن را وارد کنید.
+email-e2ee-key-servers-add-failed-title = افزودن کارساز کلید ناموفق بود
+email-e2ee-key-servers-add-failed-text = اتصال به کارساز کلید در نشانی داده‌شده ممکن نشد.
 
 ## Chat Tab
 
 startup-label =
-    .value = هنگام شروع { -brand-short-name }:
+    .value = هنگام آغاز { -brand-short-name }:
     .accesskey = ش
 offline-label =
     .label = حساب‌های گپ من برون‌خط بمانند
