@@ -725,8 +725,8 @@ msg-compose-partially-encrypted-inlinePGP =
 msg-compose-cannot-save-draft = خطا در ذخیرهٔ پیش‌نویس
 msg-compose-partially-encrypted-short = مراقب افشای اطلاعات حساس باشید - رایانامهٔ تا حدی رمزگذاری‌شده.
 quoted-printable-warn =
-    رمزگذاری «quoted-printable» را برای ارسال پیام‌ها فعال کرده‌اید. این ممکن است باعث رمزگشایی و/یا تأیید نادرست پیام شما شود.
-    می‌خواهید ارسال پیام‌های «quoted-printable» را هم‌اکنون خاموش کنید؟
+    رمزگذاری «قابل‌چاپ با نقل‌قول» را برای ارسال پیام‌ها به‌کار انداختین. این ممکن است باعث رمزگشایی و/یا تأیید نادرست پیام شما شود.
+    می‌خواهید ارسال پیام‌های «قابل‌چاپ با نقل‌قول» را هم‌اکنون خاموش کنید؟
 # Variables:
 # $width (Number) - Number of characters per line.
 minimal-line-wrapping =
@@ -780,10 +780,10 @@ debug-log-title = گزارش اشکال‌زدایی OpenPGP
 
 ## Strings used in dialog.sys.mjs
 
-dlg-button-ok = &OK
+dlg-button-ok = &تایید
 dlg-button-close = &بستن
 dlg-button-cancel = &لغو
-dlg-button-open = &باز کردن…
+dlg-button-open = &گشودن…
 dlg-button-save = &ذخیره
 dlg-no-prompt = این پنجره دوباره نمایش داده نشود
 enig-prompt = درخواست OpenPGP
