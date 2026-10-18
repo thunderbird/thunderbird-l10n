@@ -194,9 +194,9 @@ mail-play-button =
     .label = پخش
     .accesskey = پ
 change-dock-icon-description = نشان‌ها و آگاهی‌های برنامه
-change-dock-icon = تغییر ترجیحات نماد برنامه
+change-dock-icon = تغییر ترجیحات نقشک برنامه
 app-icon-options =
-    .label = گزینه‌های نماد برنامه…
+    .label = گزینه‌های نقشک برنامه…
     .accesskey = ن
 new-email-alert-label =
     .label = نمایش هشدار برای رایانامه‌های جدید
@@ -238,7 +238,7 @@ mail-browse-sound-button =
     .label = مرور…
     .accesskey = م
 enable-gloda-search-label =
-    .label = فعال کردن جست‌وجوی سراسری و نمایه‌ساز
+    .label = به‌کار انداختن جست‌وجوی سراسری و نمایه‌ساز
     .accesskey = س
 datetime-formatting-legend = قالب‌بندی تاریخ و زمان
 display-language-legend = زبان نمایش
@@ -263,7 +263,7 @@ maildir-store-label =
     .label = یک پرونده برای هر پیام (maildir)
 scrolling-legend = پیمایش
 enable-autoscroll-label =
-    .label = فعال کردن پیمایش خودکار
+    .label = به‌کار انداختن پیمایش خودکار
     .accesskey = پ
 autoscroll-label =
     .label = استفاده از پیمایش خودکار
@@ -302,16 +302,8 @@ always-check-default =
     .label = هنگام راه‌اندازی همیشه بررسی شود که آیا { -brand-short-name } برنامهٔ رایانامهٔ پیش‌گزیده است
     .accesskey = ه
 check-default-button =
-    .label = بررسی هم‌اکنون…
+    .label = هم‌اکنون بررسی شود
     .accesskey = ب
-# Note: This is the search engine name for all the different platforms.
-# Platforms that don't support it should be left blank.
-search-engine-name =
-    { PLATFORM() ->
-        [macos] Spotlight
-        [windows] Windows Search
-       *[other] { "" }
-    }
 search-integration-label =
     .label = اجازه به { search-engine-name } برای جست‌وجوی پیام‌ها
     .accesskey = ج
@@ -398,7 +390,7 @@ use-cache-before =
     .value = استفاده از حداکثر
     .accesskey = ا
 use-temp-storage-after = مگابایت فضا برای پرونده‌های موقت
-use-cache-after = مگابایت فضا برای حافظهٔ نهان
+use-cache-after = مگابایت از فضای دیسک برای حافظهٔ نهان
 
 ##
 
@@ -406,7 +398,7 @@ smart-cache-label =
     .label = نادیده گرفتن مدیریت خودکار حافظهٔ نهان
     .accesskey = ن
 clear-cache-button =
-    .label = پاک کردن هم‌اکنون
+    .label = هم‌اکنون پاک شود
     .accesskey = پ
 clear-cache-shutdown-label =
     .label = پاک کردن حافظهٔ نهان هنگام خاموش شدن
