@@ -479,7 +479,7 @@ filter-warn-key-not-secret =
 ## Strings filtersWrapper.sys.mjs
 
 filter-decrypt-move-label = رمزگشایی همیشگی (OpenPGP)
-filter-decrypt-copy-label = ساختن رونوشت رمزگشایی‌شده (OpenPGP)
+filter-decrypt-copy-label = ایجاد رونوشت رمزگشایی‌شده (OpenPGP)
 filter-encrypt-label = رمزگذاری با کلید (OpenPGP)
 
 ## Strings in enigmailKeyImportInfo.js
@@ -504,11 +504,6 @@ delete-secret-key =
     اگر کلید محرمانهٔ خود را حذف کنید، دیگر نمی‌توانید پیام‌هایی را که برای آن کلید رمزگذاری شده‌اند رمزگشایی کنید و نمی‌توانید آن را باطل کنید.
     واقعاً می‌خواهید هم کلید محرمانه و هم کلید عمومی
     «{ $userId }» را حذف کنید؟
-    
-    If you delete your secret key, you will no longer be able to decrypt any messages encrypted for that key, nor will you be able to revoke it.
-    
-    Do you really want to delete BOTH, the secret key and the public key
-    ‘{ $userId }’?
 delete-mix =
     هشدار: در حال حذف کلیدهای محرمانه هستید!
     اگر کلید محرمانهٔ خود را حذف کنید، دیگر نمی‌توانید پیام‌هایی را که برای آن کلید رمزگذاری شده‌اند رمزگشایی کنید.
@@ -639,7 +634,7 @@ help-button = راهنما
 
 key-valid-unknown = نامشخص
 key-valid-invalid = نامعتبر
-key-valid-disabled = غیرفعال
+key-valid-disabled = ازکار افتاده
 key-valid-revoked = باطل‌شده
 key-valid-expired = منقضی‌شده
 key-trust-untrusted = غیرقابل‌اعتماد
