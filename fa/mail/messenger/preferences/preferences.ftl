@@ -1195,18 +1195,18 @@ qr-export-description = با ساختن یک کد QR، تنظیمات حساب �
 qr-export-get-app = هنوز { -brand-product-name } را روی تلفن همراه ندارید؟ <a data-l10n-name="app-link">آن را از Google Play دریافت کنید</a>
 qr-export-create = ساختن کد QR برای برون‌ریزی حساب‌هایتان
 qr-export-select-accounts = حساب‌های مورد نظر برای برون‌ریزی را انتخاب کنید:
-qr-export-no-accounts = همهٔ حساب‌هایتان را نمی‌بینید؟ ممکن است برخی حساب‌ها غیرفعال باشند، چون { -brand-product-name } برای Android از آن‌ها پشتیبانی نمی‌کند. <a data-l10n-name="account-support-link">پشتیبانی</a>
+qr-export-no-accounts = همهٔ حساب‌هایتان را نمی‌بینید؟ ممکن است برخی حساب‌ها ازکار افتاده‌اند، چون { -brand-product-name } برای Android از آن‌ها پشتیبانی نمی‌کند. <a data-l10n-name="account-support-link">پشتیبانی</a>
 qr-export-accounts-legend = حساب‌های رایانامه
 qr-export-select-all-accounts = انتخاب همه
 qr-export-passwords-legend = گذرواژه‌ها
 qr-export-include-passwords-label = گنجاندن گذرواژه‌های حساب‌ها در کد QR
 qr-export-web-sign-in-note = <strong>توجه:</strong> حساب‌هایی که از ورود وب استفاده می‌کنند (مانند Gmail یا Yahoo)، در دستگاه شما به احراز هویت دوباره نیاز دارند.
-qr-export-private-transfer-note = <strong>انتقال خصوصی:</strong> تنظیمات و گذرواژه‌های شما مستقیماً از این رایانه به تلفنتان منتقل می‌شوند. هیچ چیزی به سرورهای موزیلا فرستاده یا در آن‌ها ذخیره نمی‌شود.
+qr-export-private-transfer-note = <strong>انتقال خصوصی:</strong> تنظیمات و گذرواژه‌های شما مستقیماً از این رایانه به تلفنتان منتقل می‌شوند. هیچ چیزی به کارسازهای Mozilla فرستاده یا در آن‌ها ذخیره نمی‌شود.
 qr-export-screen-privacy-tip = <strong>نکته:</strong> تا زمانی که کد QR نمایش داده می‌شود، صفحه‌تان را از دید دیگران پنهان نگه دارید.
 qr-export-security-legend = امنیت
 qr-export-include-passwords = گنجاندن گذرواژه‌های همهٔ حساب‌ها
 qr-export-oauth-warning = برخی از حساب‌های شما از روش احراز هویتی استفاده می‌کنند که ممکن است در دستگاه همراه به احراز هویت دوباره نیاز داشته باشد. ممکن است در این فرایند لازم باشد گذرواژه‌هایتان را دوباره وارد کنید.
-qr-export-security-hint = با خواندن کدهای QR زیر، تنظیمات حساب شما، از جمله رایانامه و گذرواژه، به‌طور امن منتقل می‌شود. ما در این فرایند هیچ‌یک از این داده‌ها را گردآوری، ذخیره یا هم‌رسانی نمی‌کنیم. انتقال مستقیماً بین دستگاه‌های شما انجام می‌شود.
+qr-export-security-hint = با خواندن کدهای QR زیر، تنظیمات حساب شما، از جمله رایانامه و گذرواژه، به‌طور امن منتقل می‌شود. ما در این فرایند هیچ‌یک از این داده‌ها را جمع‌آوری، ذخیره یا هم‌رسانی نمی‌کنیم. انتقال مستقیماً بین دستگاه‌های شما انجام می‌شود.
 qr-export-security-warning = برای امنیت خود، مطمئن شوید در محیطی خصوصی هستید و فقط کدهای QR از منابع مورد اعتماد را بخوانید.
 qr-export-start-export = برون‌ریزی
 # Variables:
@@ -1226,10 +1226,8 @@ qr-export-scan-description =
     }
 qr-export-scan-step1 = { -brand-product-name } را روی دستگاه همراه خود باز کنید
 qr-export-scan-step2 = به تنظیمات بروید
-# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
-qr-export-scan-step3 = <strong>Import settings</strong> را انتخاب کنید
 # The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
-qr-export-scan-step4-revision = روی <strong>Scan QR code</strong> بزنید و تلفن خود را روی این کد نگه دارید
+qr-export-scan-step4-revision = روی <strong>اسکن کد QR</strong> بزنید و تلفن خود را روی این کد نگه دارید
 qr-export-back = بازگشت
 qr-export-next = بعدی
 qr-export-done = انجام شد
@@ -1321,7 +1319,7 @@ default-sort-subject =
 default-sort-from =
     .label = از
 default-sort-id =
-    .label = ID
+    .label = شناسه
 default-sort-thread =
     .label = رشته
 default-sort-priority =
