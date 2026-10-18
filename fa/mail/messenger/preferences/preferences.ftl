@@ -1062,7 +1062,7 @@ auto-connect-label =
 idle-label =
     .label = به مخاطبانم اطلاع بده که بیکارم پس از
     .accesskey = ب
-idle-time-label = دقیقه بی‌فعالیتی
+idle-time-label = دقیقه فعالیتی نداشته‌ام
 
 ##
 
@@ -1085,7 +1085,7 @@ notification-empty =
 notification-type-label =
     .label =
         { PLATFORM() ->
-            [macos] جنباندن نماد Dock
+            [macos] پویانمایی نقشک Dock
            *[other] چشمک زدن مورد نوار وظیفه
         }
     .accesskey =
@@ -1109,8 +1109,8 @@ chat-browse-sound-button =
     .label = مرور…
     .accesskey = م
 theme-label =
-    .value = زمینه:
-    .accesskey = ز
+    .value = پوسته:
+    .accesskey = پ
 style-mail =
     .label = { -brand-short-name }
 style-bubbles =
@@ -1123,7 +1123,7 @@ style-simple =
     .label = ساده
 preview-label = پیش‌نمایش:
 no-preview-label = پیش‌نمایشی در دسترس نیست
-no-preview-description = این زمینه نامعتبر است یا در حال حاضر در دسترس نیست (افزونهٔ غیرفعال، حالت امن، …).
+no-preview-description = این پوسته نامعتبر است یا در حال حاضر در دسترس نیست (برافزا ازکار افتاده، حالت امن، …).
 chat-variant-label =
     .value = گونه:
     .accesskey = گ
@@ -1144,20 +1144,14 @@ managed-notice = { -brand-short-name } توسط سازمان شما مدیریت
 ## Settings UI Search Results
 
 search-results-header = نتایج جست‌وجو
-# `<span data-l10n-name="query"></span>` will be replaced by the search term.
-search-results-empty-message2 =
-    { PLATFORM() ->
-        [windows] Sorry! There are no results in Options for “<span data-l10n-name="query"></span>”.
-       *[other] Sorry! There are no results in Settings for “<span data-l10n-name="query"></span>”.
-    }
 search-results-help-link = کمک لازم دارید؟ به <a data-l10n-name="url">پشتیبانی { -brand-short-name }</a> بروید
 
 ## Sync Tab
 
 sync-signedout-caption = وب خود را همراه داشته باشید
-sync-signedout-description = حساب‌ها، دفترچه‌های نشانی، تقویم‌ها، افزونه‌ها و تنظیماتتان را در همهٔ دستگاه‌هایتان همگام‌سازی کنید.
+sync-signedout-description = حساب‌ها، دفترچه‌های نشانی، تقویم‌ها، برافزاها و تنظیماتتان را در همهٔ دستگاه‌هایتان همگام‌سازی کنید.
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
-sync-signedout-account-signin-btn = ورود به Sync…
+sync-signedout-account-signin-btn = وارد شدن برای همگام‌سازی...
 sync-pane-header = همگام‌سازی
 # Variables:
 # $userEmail (String) - The email logged into Sync.
@@ -1188,7 +1182,7 @@ show-synced-item-calendar = تقویم‌ها
 show-synced-item-identity = هویت‌ها
 show-synced-item-passwords = گذرواژه‌ها
 show-synced-change = تغییر…
-synced-acount-item-server-config = پیکربندی سرور
+synced-acount-item-server-config = پیکربندی کارساز
 synced-acount-item-filters = پالایه‌ها
 synced-acount-item-keys = OpenPGP - S/MIME
 sync-disconnected-text = حساب‌های رایانامه، دفترچه‌های نشانی، تقویم‌ها و هویت‌هایتان را در همهٔ دستگاه‌هایتان همگام‌سازی کنید.
