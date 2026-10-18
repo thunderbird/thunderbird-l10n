@@ -76,9 +76,9 @@ command-nick = { $commandName } &lt;new nickname&gt;: تغییر نام مستع
 # $commandName is the command name
 command-nickserv = { $commandName } &lt;command&gt;: ارسال فرمان به NickServ.
 # $commandName is the command name
-command-notice = { $commandName } &lt;target&gt; &lt;message&gt;: ارسال اعلان به یک کاربر یا کانال.
+command-notice = { $commandName } &lt;target&gt; &lt;message&gt;: ارسال آگاهی به یک کاربر یا کانال.
 # $commandName is the command name
-command-op = { $commandName } &lt;nick1&gt;[,&lt;nick2&gt;]*: اعطای وضعیت گردانندهٔ کانال به کسی. برای این کار باید گردانندهٔ کانال باشید.
+command-op = { $commandName } &lt;nick1&gt;[,&lt;nick2&gt;]*: اعطای وضعیت گردانندهٔ کانال به فردی. برای این کار باید گردانندهٔ کانال باشید.
 # $commandName is the command name
 command-operserv = { $commandName } &lt;command&gt;: ارسال فرمان به OperServ.
 # $commandName is the command name
@@ -98,7 +98,7 @@ command-umode = { $commandName } (+|-)&lt;new mode&gt;: تنظیم یا بردا
 # $commandName is the command name
 command-version = { $commandName } &lt;nick&gt;: درخواست نگارش کارخواه یک کاربر.
 # $commandName is the command name
-command-voice = { $commandName } &lt;nick1&gt;[,&lt;nick2&gt;]*: اعطای وضعیت صدا در کانال به کسی. برای این کار باید گردانندهٔ کانال باشید.
+command-voice = { $commandName } &lt;nick1&gt;[,&lt;nick2&gt;]*: اعطای وضعیت صدا در کانال به فردی. برای این کار باید گردانندهٔ کانال باشید.
 # $commandName is the command name
 command-whois2 = { $commandName } [&lt;nick&gt;]: دریافت اطلاعات یک کاربر.
 # LOCALIZATION NOTE (message-*):
@@ -108,10 +108,10 @@ message-join = { $nick } [{ $nickAndHost }] وارد اتاق شد.
 message-rejoined = دوباره به اتاق پیوستید.
 #    $nick is the nick of who kicked you.
 #    $messageKickedReason is message-kicked-reason, if a kick message was given.
-message-kicked-you = توسط { $nick } بیرون شدید{ $messageKickedReason }.
+message-kicked-you = توسط { $nick } بیرون شدید { $messageKickedReason }.
 #    $kickedNick is the nick that is kicked, $kickerNick the nick of the person who kicked
 #    $kickedNick. $messageKickedReason is message-kicked-reason, if a kick message was given.
-message-kicked = { $kickedNick } توسط { $kickerNick } بیرون شد{ $messageKickedReason }.
+message-kicked = { $kickedNick } توسط { $kickerNick } بیرون شد { $messageKickedReason }.
 #    $kickMessage is the kick message
 message-kicked-reason = : { $kickMessage }
 #    $mode is the new mode, $targetUser  is the nickname of the user whose mode
