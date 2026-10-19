@@ -5,7 +5,7 @@
 <!ENTITY pane.title "Apliecināt saņemšanu">
 <!ENTITY useGlobalPrefs.label "Šajā kontā izmantot globālos saņemšanas apliecināšanas iestatījumus">
 <!ENTITY useGlobalPrefs.accesskey "k">
-<!ENTITY globalReceipts.label "Globālie iestatījumi…">
+<!ENTITY globalReceipts.label "Visaptverošie iestatījumi…">
 <!ENTITY globalReceipts.accesskey "G">
 <!ENTITY useCustomPrefs.label "Pielāgot šī konta saņemšanas apliecinājumus">
 <!ENTITY useCustomPrefs.accesskey "P">

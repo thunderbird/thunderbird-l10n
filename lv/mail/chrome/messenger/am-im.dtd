@@ -10,6 +10,6 @@
 <!ENTITY account.alias "Pseidonīms:">
 <!ENTITY account.newMailNotification "Paziņot par jaunu pastu">
 <!ENTITY account.autojoin "Automātiski apvienoti kanāli:">
-<!ENTITY account.proxySettings.caption "Starpnieka iestatījumi:">
+<!ENTITY account.proxySettings.caption "Starpniekservera iestatījumi:">
 <!ENTITY account.proxySettings.change.label "Mainīt…">
 <!ENTITY account.proxySettings.change.accessKey "M">
