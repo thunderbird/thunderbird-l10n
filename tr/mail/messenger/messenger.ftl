@@ -98,6 +98,17 @@ open-tabs-warning-confirmation =
        *[other] { $count } ileti açmak yavaş olabilir. Devam edilsin mi?
     }
 
+## Sign-in window
+
+# Shown when the provider's sign-in page cannot use cookies because they are
+# blocked.
+browser-request-cookies-blocked = Çerezler engellendiğinden giriş yapamayabilirsiniz.
+# Turns cookies back on. Same action as the "Accept cookies from sites" option
+# in Settings, Privacy & Security.
+browser-request-cookies-accept =
+    .label = Sitelerden çerezleri kabul et
+    .accesskey = S
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =

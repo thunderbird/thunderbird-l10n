@@ -103,6 +103,31 @@ addr-book-summary-description = "{ $addressBookName }" adlı yeni bir adres deft
 import-from-calendar-file-desc = İçe aktarmak istediğiniz iCalendar (.ics) dosyasını seçin.
 calendar-items-title = İçe aktarılacak öğeleri seçin.
 calendar-items-loading = Öğeler yükleniyor…
+# $count (Number) - The number of items in the calendar file.
+calendar-items-count =
+    { $count ->
+        [one] Dosya { $count } öğe içeriyor.
+       *[other] Dosya { $count } öğe içeriyor.
+    }
+# Column headers of the list of calendar items to import.
+calendar-items-column-title-a11y =
+    .aria-label = Başlık
+calendar-items-column-title = Başlık
+    .title = Başlığa göre sırala
+# The start date and time of each item.
+calendar-items-column-start-a11y =
+    .aria-label = Başlangıç
+calendar-items-column-start = Başlangıç
+    .title = Başlangıca göre sırala
+# The end date and time of each item.
+calendar-items-column-end-a11y =
+    .aria-label = Bitiş
+calendar-items-column-end = Bitiş
+    .title = Bitişe göre sırala
+# The column of checkboxes, to choose which items to import.
+calendar-items-column-import-a11y =
+    .aria-label = İçe aktar
+calendar-items-column-import = İçe aktar
 calendar-items-filter-input2 =
     .label = Öğeleri filtrele
     .placeholder = Öğeleri filtrele…

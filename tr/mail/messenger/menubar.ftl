@@ -5,6 +5,7 @@
 toolbar-context-menu-menu-bar =
     .toolbarname = Menü çubuğu
     .accesskey = M
+system-tray-app-name = { -brand-full-name }
 
 ## Tools Menu
 
@@ -156,6 +157,9 @@ file-new-newsgroup-account =
 file-new-addressbook =
     .label = Adres defteri
     .accesskey = A
+file-new-mailing-list =
+    .label = Posta listesi…
+    .accesskey = P
 file-new-local-addressbook =
     .label = Yerel adres defteri
     .accesskey = Y
