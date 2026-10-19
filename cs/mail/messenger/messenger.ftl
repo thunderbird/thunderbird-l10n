@@ -101,6 +101,17 @@ open-tabs-warning-confirmation =
        *[other] Otevření { $count } zpráv může být pomalé. Chcete pokračovat?
     }
 
+## Sign-in window
+
+# Shown when the provider's sign-in page cannot use cookies because they are
+# blocked.
+browser-request-cookies-blocked = Cookies jsou blokovány, což může bránit přihlášení.
+# Turns cookies back on. Same action as the "Accept cookies from sites" option
+# in Settings, Privacy & Security.
+browser-request-cookies-accept =
+    .label = Povolit serverům cookies
+    .accesskey = P
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =

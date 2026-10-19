@@ -70,6 +70,12 @@ cancel-confirm = Opravdu chcete zrušit tuto zprávu?
 # $newsgroup (String) - The name of the newsgroup.
 auto-subscribe-text = Chcete se přihlásit k odběru { $newsgroup }?
 
+## Unknown News Server Dialog
+
+# Variables:
+# $server (String) - The hostname:port of the news server, e.g. news.example.com:119.
+unknown-news-server-text = Tento odkaz směřuje na server { $server }, ale pro tento diskusní server není nastaven žádný účet. Chcete se přesto připojit?
+
 ## News Server Credentials
 
 enter-news-credentials-title = Server vyžaduje uživatelské jméno a heslo
