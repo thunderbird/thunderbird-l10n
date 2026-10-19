@@ -79,10 +79,10 @@ policy-PasswordManagerEnabled = Ieslēgt paroļu saglabāšanu paroļu pārvaldn
 # PDF.js and PDF should not be translated
 policy-PDFjs = Atslēgt vai iestatīt PDF.js, iebūvēto { -brand-short-name } PDF skatītāju.
 policy-Permissions2 = Iestatiet kameras, mikrofona, atrašanās vietas, paziņojumu un automātiskās atskaņošanas atļaujas.
-policy-Preferences = Iestatiet un noslēdziet izvēļu apakškopu vērtības.
+policy-Preferences = Iestatījumu vērtību apakškopas iestatīšana un noslēgšana.
 policy-PromptForDownloadLocation = Vaicāt, kur saglabāt datnes, kad lejupielādē.
 policy-Proxy = Mainīt starpniekservera iestatījumus.
-policy-RequestedLocales = Iestatīt lietotnē pieprasīto lokalizāciju sarakstu priekšrokas secībā.
+policy-RequestedLocales = Iestatīt lietotnē pieprasīto lokalizāciju sarakstu izvēlētajā secībā.
 policy-SanitizeOnShutdown2 = Pēc izslēgšanas notīrīt navigācijas datus.
 policy-SearchEngines = Iestatiet meklētāju iestatījumus. Šī politika ir pieejama tikai paplašinātā atbalsta laidiena (ESR) versijā.
 policy-SearchSuggestEnabled = Ieslēgt vai atslēgt meklēšanas ieteikumus.

@@ -79,7 +79,7 @@ manage-messenger-languages-button =
     .accesskey = s
 confirm-messenger-language-change-description = Pārstartēt { -brand-short-name }, lai pielietotu izmaiņas
 confirm-messenger-language-change-button = Pielietot un pārstartēt
-update-setting-write-failure-title = Saglabājot atjaunotos iestatījumus, radās kļūda
+update-setting-write-failure-title = Kļūda atjauninājumu iestatījumu saglabāšanā
 # Variables:
 #   $path (String) - Path to the configuration file
 # The newlines between the main text and the line containing the path is
