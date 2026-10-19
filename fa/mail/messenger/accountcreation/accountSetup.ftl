@@ -139,7 +139,7 @@ account-setup-result-username-different = ورودی: { $incoming }، خروجی
 account-setup-credentials-incomplete = احراز هویت ناموفق بود. یا اطلاعات ورود واردشده نادرست است یا برای ورود به نام کاربری جداگانه‌ای نیاز است. این نام کاربری معمولاً نام ورود دامنهٔ Windows شما با دامنه یا بدون آن است (برای مثال، goudarz یا GJ\\goudarz)
 account-setup-credentials-wrong = احراز هویت ناموفق بود. لطفاً نام کاربری و گذرواژه را بررسی کنید
 account-setup-find-settings-failed = { -brand-short-name } نتوانست تنظیمات حساب رایانامهٔ شما را پیدا کند
-account-setup-exchange-config-unverifiable = پیکربندی تأیید نشد. اگر نام کاربری و گذرواژهٔ شما درست است، احتمالاً مدیر کارساز پیکربندی انتخاب‌شده را برای حساب شما غیرفعال کرده است. پروتکل دیگری را امتحان کنید.
+account-setup-exchange-config-unverifiable = پیکربندی تأیید نشد. اگر نام کاربری و گذرواژهٔ شما درست است، احتمالاً مدیر کارساز پیکربندی انتخاب‌شده را برای حساب شما از‌کار انداخته؛ پروتکل دیگری را امتحان کنید.
 
 ## Manual configuration area
 
@@ -148,8 +148,8 @@ account-setup-incoming-server-legend = کارساز ورودی
 account-setup-protocol-label = پروتکل:
 account-setup-hostname-label = نام میزبان:
 account-setup-port-label = درگاه:
-    .title = برای تشخیص خودکار، شمارهٔ درگاه را ۰ بگذارید
-account-setup-auto-description = { -brand-short-name } تلاش می‌کند فیلدهای خالی را خودکار تشخیص دهد.
+    .title = برای تشخیص خودکار، شمارهٔ درگاه را 0 بگذارید
+account-setup-auto-description = { -brand-short-name } تلاش می‌کند زمینه‌های خالی را خودکار تشخیص دهد.
 account-setup-ssl-label = امنیت اتصال:
 account-setup-outgoing-server-legend = کارساز خروجی
 
@@ -214,7 +214,7 @@ account-setup-confirm-advanced-description = این پنجره بسته می‌�
 ## Addon installation section
 
 account-setup-addon-install-title = نصب
-account-setup-addon-install-intro = یک افزونهٔ شخص ثالث می‌تواند امکان دسترسی به حساب رایانامهٔ شما در این کارساز را فراهم کند:
+account-setup-addon-install-intro = یک برافزا شخص ثالث می‌تواند امکان دسترسی به حساب رایانامهٔ شما در این کارساز را فراهم کند:
 account-setup-addon-no-protocol = متأسفانه این کارساز رایانامه از پروتکل‌های باز پشتیبانی نمی‌کند. { account-setup-addon-install-intro }
 
 ## Success view
