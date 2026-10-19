@@ -18,7 +18,7 @@
 <!ENTITY accountAliasGroupbox.caption "Vietējais aizstājvārds">
 <!ENTITY accountAliasField.label "Aizstājvārds:">
 <!ENTITY accountAliasInfo.label "Tas tiks parādīts jūsu sarunās tikai tad, kad runājat, attālie kontakti to neredzēs.">
-<!ENTITY accountProxySettings.caption "Starpnieka iestatījumi">
+<!ENTITY accountProxySettings.caption "Starpniekservera iestatījumi">
 <!ENTITY accountProxySettings.change.label "Mainīt…">
 <!ENTITY accountProxySettings.change.accessKey "M">
 <!ENTITY accountSummaryTitle.label "Kopsavilkums">

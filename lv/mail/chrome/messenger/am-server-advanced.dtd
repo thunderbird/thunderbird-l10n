@@ -13,7 +13,7 @@
 <!ENTITY maximumConnectionsNumber.label "Maksimālais kešoto servera savienojumu skaits">
 <!ENTITY maximumConnectionsNumber.accesskey "M">
 <!-- LOCALIZATION NOTE (namespaceDesc.label): Do not translate "IMAP" -->
-<!ENTITY namespaceDesc.label "Šie iestatījumi nosaka jūsu IMAP servera nosaukumvietas">
+<!ENTITY namespaceDesc.label "Šie iestatījumi nosaka vārdu telpas IMAP serverī">
 <!ENTITY personalNamespace.label "Personiskā nosaukumvieta:">
 <!ENTITY personalNamespace.accesskey "P">
 <!ENTITY publicNamespace.label "Publiskā (koplietota):">
