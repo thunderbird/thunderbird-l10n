@@ -258,7 +258,7 @@ message-alias-removed = { $user } نشانی { $addresses } را از نشانی
 #    $removedAddresses is a comma delimited list of removed addresses.
 #    $addedAddresses is a comma delmited list of added addresses.
 message-alias-removed-and-added = { $user } نشانی { $removedAddresses } را برداشت و { $addedAddresses } را به‌عنوان نشانی این اتاق افزود.
-message-space-not-supported = این اتاق یک فضا (space) است که پشتیبانی نمی‌شود.
+message-space-not-supported = این اتاق فضایی است که پشتیبانی نمی‌شود.
 message-encryption-start = پیام‌های این گفت‌وگو اکنون رمزگذاری سرتاسری می‌شوند.
 #    $user is the name of the user who sent the verification request.
 #    $userReceiving is the name of the user that is receiving the verification request.

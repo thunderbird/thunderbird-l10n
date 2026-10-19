@@ -96,7 +96,7 @@ compose-custom-from-address-warning = Ja jūsu epasta pakalpojumu sniedzējs to 
 compose-custom-from-address-ignore = Nekad vairs neziņot par to
 compose-blocked-content-options-button = Iespējas
 compose-blocked-content-options-accesskey = O
-compose-blocked-content-preferences-button = Preferences
+compose-blocked-content-preferences-button = Iestatījumi
 compose-blocked-content-preferences-accesskey = P
 # Variables:
 # $url - URL of the blocked resource
