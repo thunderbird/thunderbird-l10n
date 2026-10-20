@@ -81,6 +81,7 @@ items-pane-nothing-to-import = از منبع انتخاب‌شده چیزی بر
 ## Import from address book file steps
 
 import-from-addr-book-file-description = قالب پرونده‌ای را که داده‌های دفترچهٔ نشانی شما را دارد انتخاب کنید.
+addr-book-csv-file = پروندهٔ جداشده با ویرگول یا تب (.csv، .tsv)
 addr-book-ldif-file = پروندهٔ LDIF (.ldif)
 addr-book-vcard-file = پروندهٔ vCard (.vcf، .vcard)
 addr-book-sqlite-file = پروندهٔ پایگاه دادهٔ SQLite (.sqlite)
@@ -155,7 +156,7 @@ progress-pane-finished-desc2 = کامل شد.
 error-pane-title = خطا
 error-message-zip-file-too-big2 = پروندهٔ ZIP انتخاب‌شده بزرگ‌تر از ۲ گیگابایت است. لطفاً ابتدا آن را استخراج کنید و سپس از پوشهٔ استخراج‌شده درون‌ریزی کنید.
 error-message-extract-zip-file-failed2 = استخراج پروندهٔ ZIP ناموفق بود. لطفاً آن را دستی استخراج کنید و سپس از پوشهٔ استخراج‌شده درون‌ریزی کنید.
-error-message-failed = درون‌ریزی به‌طور غیرمنتظره ناموفق بود؛ ممکن است اطلاعات بیشتری در کنسول خطا باشد.
+error-message-failed = درون‌ریزی به‌طور غیرمنتظره ناموفق بود؛ ممکن است اطلاعات بیشتری در پیشانه خطا باشد.
 error-failed-to-parse-ics-file = هیچ مورد قابل درون‌ریزی‌ای در پرونده پیدا نشد.
 error-export-failed = برون‌ریزی به‌طور غیرمنتظره ناموفق بود؛ ممکن است اطلاعات بیشتری در کنسول خطا باشد.
 error-message-no-profile = هیچ نمایه‌ای پیدا نشد.
