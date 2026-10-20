@@ -491,6 +491,11 @@ single-long-calendar-week = Օրացույցային շաբաթ` { $index }
 #    $index will be replaced with the index of the week
 single-calendar-week = CW․ { $index }
     .title = Օրացույցային շաբաթ` { $index }
+# LOCALIZATION NOTE (several-long-calendar-weeks):
+# used for display of calendar weeks in long form like 'Calendar Weeks 43 - 45'
+#    $startIndex will be replaced with the index of the start-week
+#    $endIndex will be replaced with the index of the end-week
+several-long-calendar-weeks = Օրացույցի շաբաթներ { $startIndex }-{ $endIndex }
 # LOCALIZATION NOTE (several-calendar-weeks):
 # used for display of calendar weeks in short form like 'CWs 43 - 45'
 #    $startIndex will be replaced with the index of the start-week
@@ -508,6 +513,15 @@ several-calendar-weeks = CW-ներ. { $startIndex }֊{ $endIndex }
 # the day number other than a possible crop when the window is resized.
 #    $number is a number from 1 to 53 that represents the week number.
 multiweek-view-week = W { $number }
+# Shown after the items of a day in the calendar views, when the day has too
+# many items to display at once. Clicking it displays more of them.
+# Variables:
+#   $count (Number) - The number of items in the day that are not displayed.
+calendar-view-more-items =
+    { $count ->
+        [one] … և ևս { $count }
+       *[other] … և ևս { $count }
+    }
 # Task tree, "Due In" column.
 # LOCALIZATION NOTE (due-in-days, due-in-hours): Semi-colon list of plural
 # forms. See: http://developer.mozilla.org/en/Localization_and_Plurals
@@ -851,6 +865,7 @@ calendar-context-convert-to-message =
 calendar-context-convert-to-task =
     .label = Առաջադրանք…
     .accesskey = T
+calendar-task-filter-title2 = Զտել առաջադրանքները
 calendar-task-filter-all =
     .label = Բոլոր
     .accesskey = A
@@ -978,6 +993,30 @@ calendar-alarm-snooze-for =
     .label = Ննջեցնել
 calendar-alarm-snooze-all-for =
     .label = Ննջեցնել բոլորը
+# Variables:
+# $count (Number) - The number of minutes to snooze.
+calendar-alarm-snooze-preset-minutes =
+    .label =
+        { $count ->
+            [one] { $count } րոպե
+           *[other] { $count } րոպե
+        }
+# Variables:
+# $count (Number) - The number of hours to snooze.
+calendar-alarm-snooze-preset-hours =
+    .label =
+        { $count ->
+            [one] { $count } ժամ
+           *[other] { $count } ժամ
+        }
+# Variables:
+# $count (Number) - The number of days to snooze.
+calendar-alarm-snooze-preset-days =
+    .label =
+        { $count ->
+            [one] { $count } օր
+           *[other] { $count } օր
+        }
 # LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
 # This string is not visible in the UI. It is read by screen readers when the
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
@@ -1083,3 +1122,11 @@ event-recurrence-forever =
 attendees-tab-label = Մասնակիցներ ({ $count })․
 # $count - the number of attachments
 attachments-tab-label = Հավելվածներ ({ $count })․
+# Variables:
+#   $docTitle (String) - The date or view label for the current calendar view.
+calendar-window-title = { $docTitle } - { -brand-full-name }
+calendar-window-title-base = { -brand-full-name }
+# Variables:
+#   $calendarName (String) - Calendar name as given by the user.
+#   $location (String) - The calendar server location.
+calendar-auth-enter-user-password-for-calendar = { $location }-ը խնդրում է ձեր օգտատիրոջ անունը և գաղտնաբառը։

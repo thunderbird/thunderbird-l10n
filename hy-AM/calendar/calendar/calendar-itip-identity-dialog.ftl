@@ -3,5 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 calendar-itip-identity-dialog-box-title = Անհրաժեշտ հյուր
+calendar-itip-identity-warning-body = Այս հրավերը ներմուծող օրացույցին կից էլեկտրոնային հասցեն հյուրերի ցանկում չէ։
 calendar-itip-identity-label = Պատասխանել որպես.
 calendar-itip-identity-label-none = Համակցել այս իրադարձությունը հետևյալի հետ՝

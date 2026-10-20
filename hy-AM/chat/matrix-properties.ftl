@@ -17,6 +17,8 @@ options-backup-passphrase = Բանալին պահուստային գաղտնաբ
 # $status (String) a status
 options-encryption-secret-storage = Գաղտնի պահեստ. { $status }
 # $status (String) a status
+options-encryption-key-backup = Գաղտնագրման բանալու պահուստավորում՝ { $status }
+# $status (String) a status
 options-encryption-cross-signing = Խաչաձեւ ստորագրութիւն․ { $status }
 options-encryption-status-ok = լավ
 options-encryption-status-not-ok = պատրաստ չէ
@@ -30,7 +32,13 @@ options-encryption-session = { $sessionId } ({ $sessionDisplayName })
 #    periods at the end of these messages.)
 connection-request-auth = Սպասում է ձեր թույլտվությանը
 connection-request-access = Իսկորոշման ավարտ
+# LOCALIZATION NOTE (connection-error-*):
+#   These will show in the account manager if an error occurs during the
+#   connection attempt.
+connection-error-no-supported-flow = Սերվերը համատեղելի մուտքի հոսք չի առաջարկում։
+connection-error-auth-cancelled = Դուք չեղարկեցիք լիազորման գործընթացը։
 connection-error-session-ended = Սեսիան դուրս է գրվել։
+connection-error-server-not-found = Հնարավոր չէ նույնականացնել տվյալ Matrix հաշվի Matrix սերվերը։
 # LOCALIZATION NOTE (chat-room-field-*):
 #   These are the name of fields displayed in the 'Join Chat' dialog
 #   for Matrix accounts.
@@ -70,6 +78,8 @@ power-level-ban = Արգելել օգտվողներին՝ { $powerLevelName }
 #    $powerLevelName is the power level name
 power-level-room-avatar = Փոխել սենյակի ավատարը՝ { $powerLevelName }
 #    $powerLevelName is the power level name
+power-level-main-address = Փոխել սենյակի գլխավոր հասցեն՝ { $powerLevelName }
+#    $powerLevelName is the power level name
 power-level-history = Փոփոխությունների պատմության տեսանելիությունը՝ { $powerLevelName }
 #    $powerLevelName is the power level name
 power-level-room-name = Փոխել սենյակի անունը՝ { $powerLevelName }
@@ -84,6 +94,8 @@ power-level-upgrade-room = Թարմացրեք սենյակը՝ { $powerLevelName
 #    $value will typically be strings with the actual values.
 # $value Example placeholder: "Foo bar"
 detail-name = Անուն. { $value }
+# $value Example placeholder: "My first room"
+detail-topic = Թեմա՝ { $value }
 # $value Example placeholder: "5"
 detail-version = Սենյակի տարբերակը՝ { $value }
 # $value Example placeholder: "#thunderbird:mozilla.org"
@@ -120,6 +132,7 @@ message-verification-done = Նույնականացումը ավարտվեց:
 message-decrypting = Վերծանում…
 #    Label in the message context menu
 message-action-request-key = Կրկին պահանջել բանալիներ
+message-action-redact = Խմբագրել
 message-action-report = Ուղարկել նամակ
 message-action-retry = Կրկին փորձեք ուղարկել
 message-action-cancel = Չեղարկել նամակը

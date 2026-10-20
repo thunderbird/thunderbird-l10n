@@ -39,6 +39,12 @@ calendar-invitation-panel-partstat-declined = { $count } ոչ
 # Variables:
 # $count (Number) - The number of attendees with the "TENTATIVE" participation status.
 calendar-invitation-panel-partstat-tentative = { $count } միգուցե
+# Variables:
+# $count (Number) - The number of attendees with the "NEEDS-ACTION" participation status.
+calendar-invitation-panel-partstat-needs-action = { $count } սպասման մեջ է
+# Variables:
+# $count (Number) - The total number of attendees.
+calendar-invitation-panel-partstat-total = { $count } մասնակից
 calendar-invitation-panel-prop-title-attachments = Կցորդներ՝
 calendar-invitation-change-indicator-removed = Հեռացված
 calendar-invitation-change-indicator-added = Նոր
