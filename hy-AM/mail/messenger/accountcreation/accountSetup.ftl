@@ -70,6 +70,7 @@ account-setup-checking-password = Ստուգվում է գաղտնաբառը...
 account-setup-success-half-manual = Հետևյալ կարգավորումները գտնվել են տվյալ սպասարկիչի փորձարկման միջոցով՝
 account-setup-success-guess = Կազմաձևը գտնվել է տարածված սպասարկիչների անունները փորձելով։
 account-setup-success-password = Գաղտնաբառը ճիշտ է
+account-setup-success-addon = Հավելումը հաջողությամբ ապատեղադրվեց
 # Note: Do not translate or replace Mozilla. It stands for the public project mozilla.org, not Mozilla Corporation. The database is a generic, public domain facility usable by any client.
 account-setup-success-settings-db = Կազմաձևը գտնվել է Mozilla ISP տվյալների շտեմարանում։
 account-setup-success-settings-disk = Կազմաձևը գտնվել է { -brand-short-name }-ի տեղադրման ժամանակ ։
@@ -156,6 +157,8 @@ account-setup-insecure-outgoing-title = Ելքային կարգավորումն�
 # Variables:
 #  $server (String): The name of the hostname of the server the user was trying to connect to.
 account-setup-warning-cleartext = <b>{ $server } </b>-ը չի օգտագործում կոդավորում։
+account-setup-insecure-server-checkbox = Ես հասկանում եմ ռիսկերը
+    .accesskey = Ե
 insecure-dialog-cancel-button = Փոխել կարգավորումները
     .accesskey = S
 insecure-dialog-confirm-button = Հաստատել
@@ -167,6 +170,7 @@ exchange-dialog-cancel-button = Չեղարկել
 
 ## Dismiss account creation dialog
 
+exit-dialog-title = Էլ․ փոստի հաշիվ կարգավորված չէ
 exit-dialog-cancel-button = Շարունակեք տեղակայումը
     .accesskey = C
 exit-dialog-confirm-button = Փակել տեղակայիչը
@@ -200,6 +204,12 @@ account-setup-looking-up-calendars = Օրացույցների որոնում…
 account-setup-address-books-button = Հասցեագիրք
 account-setup-calendars-button = Օրացույցեր
 account-setup-connect-link = Միանալ
+account-setup-existing-address-book = Կապակցված
+    .title = Հասցեագիրքն արդեն միացված է
+account-setup-existing-calendar = Կապակցված
+    .title = Օրացույցն արդեն միացված է
+account-setup-connect-all-calendars = Միացրեք բոլոր օրացույցները
+account-setup-connect-all-address-books = Միացրեք բոլոր հասցեագրքերը
 
 ## Calendar synchronization dialog
 
@@ -213,3 +223,9 @@ account-setup-calendar-name-input =
 account-setup-calendar-color-label = Գունավոր
 account-setup-calendar-refresh-label = Թարմացնել
 account-setup-calendar-refresh-manual = Ձեռքով
+account-setup-calendar-read-only = Միայն կարդալու
+    .accesskey = Մ
+account-setup-calendar-show-reminders = Ցուցադրել հիշեցումները
+    .accesskey = Ց
+account-setup-calendar-offline-support = Անցանց աջակցություն
+    .accesskey = Ա

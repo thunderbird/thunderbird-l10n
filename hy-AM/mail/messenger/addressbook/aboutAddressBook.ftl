@@ -69,16 +69,93 @@ about-addressbook-table-layout =
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
+about-addressbook-column-header-generatedname2 = Անուն
+    .title = Տեսակավորել ըստ անվան
+about-addressbook-column-label-generatedname2 =
+    .label = Անուն
+# Variables:
+# $title (String) - Contact name for tooltip.
+about-addressbook-cell-generatedname2 =
+    .aria-label = Անուն
+    .title = { $title }
+about-addressbook-column-header-a11y-emailaddresses2 =
+    .aria-label = էլ­. փոստի հասցեներ
+about-addressbook-column-header-emailaddresses2 = էլ­. փոստի հասցեներ
+    .title = Տեսակավորել ըստ էլ․ հասցեների
+about-addressbook-column-label-emailaddresses2 =
+    .label = էլ­. փոստի հասցեներ
+# Variables:
+# $title (String) - Contact email addresses for tooltip.
+about-addressbook-cell-emailaddresses2 =
+    .aria-label = էլ­. փոստի հասցեներ
+    .title = { $title }
+about-addressbook-column-header-a11y-nickname2 =
+    .aria-label = Մականուն
+about-addressbook-column-header-nickname2 = Մականուն
+    .title = Տեսակավորել ըստ մականվան
+about-addressbook-column-label-nickname2 =
+    .label = Մականուն
+# Variables:
+# $title (String) - Contact nickname for tooltip.
+about-addressbook-cell-nickname2 =
+    .aria-label = Մականուն
+    .title = { $title }
+about-addressbook-column-header-a11y-phonenumbers2 =
+    .aria-label = Հեռախոսահամարներ
+about-addressbook-column-header-phonenumbers2 = Հեռախոսահամարներ
+    .title = Տեսակավորել ըստ հեռախոսահամարների
+about-addressbook-column-label-phonenumbers2 =
+    .label = Հեռախոսահամարներ
+# Variables:
+# $title (String) - Contact phone numbers for tooltip.
+about-addressbook-cell-phonenumbers2 =
+    .aria-label = Հեռախոսահամարներ
+    .title = { $title }
+about-addressbook-column-header-a11y-addresses2 =
+    .aria-label = Հասցեներ
+about-addressbook-column-header-addresses2 = Հասցեներ
+    .title = Տեսակավորել ըստ հասցեների
+about-addressbook-column-label-addresses2 =
+    .label = Հասցեներ
+# Variables:
+# $title (String) - Contact addresses for tooltip.
+about-addressbook-cell-addresses2 =
+    .aria-label = Հասցեներ
+    .title = { $title }
+about-addressbook-column-header-a11y-title2 =
+    .aria-label = Անվանում
+about-addressbook-column-header-title2 = Անվանում
+    .title = Տեսակավորել ըստ վերնագրի
+about-addressbook-column-label-title2 =
+    .label = Անվանում
+# Variables:
+# $title (String) - Contact job title for tooltip.
+about-addressbook-cell-title2 =
+    .aria-label = Անվանում
+    .title = { $title }
+about-addressbook-column-header-a11y-department2 =
+    .aria-label = Բաժին
 about-addressbook-column-header-a11y-addrbook2 =
     .aria-label = Հասցեագիրք
 about-addressbook-column-label-addrbook2 =
     .label = Հասցեագիրք
 about-addressbook-cards-context-write =
     .label = Գրել
+# Variables:
+# $count (Number) - The number of contacts to be removed.
+about-addressbook-confirm-remove-contacts-title =
+    { $count ->
+        [one] Ջնջել կոնտակտը
+       *[other] Ջնջել կոնտակտները
+    }
+about-addressbook-column-header-a11y-generatedname2 =
+    .aria-label = Անուն
 
 ## Card list placeholder
 ## Shown when there are no cards in the list
 
+about-addressbook-placeholder-empty-book = Կոնտակտներ չկան
+about-addressbook-placeholder-new-contact = Նոր կոնտակտ
 about-addressbook-placeholder-searching = Որոնում…
 about-addressbook-placeholder-no-search-results = Կոնտակտներ չեն գտնվել
 

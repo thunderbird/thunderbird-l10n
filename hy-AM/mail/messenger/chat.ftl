@@ -5,6 +5,12 @@
 
 ## Conversation invite notification box
 
+chat-conv-invite-accept =
+    .label = Ընդունել
+    .accesskey = Ը
+chat-conv-invite-deny =
+    .label = Մերժել
+    .accesskey = Մ
 # Used when multiple incoming messages from the same sender are bundled
 # into a single notification.
 # Variables:
