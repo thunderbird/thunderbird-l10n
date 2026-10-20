@@ -1007,6 +1007,7 @@ preferences-doh-default-detailed-desc-5 = Kikapcsolás, ha a hálózat azt mondj
 preferences-doh-setting-enabled =
     .label = Fokozott védelem
     .accesskey = F
+preferences-doh-increased-desc = Mindig a kiválasztott szolgáltatót használja. Csak akkor használ szokásos kapcsolatot, ha a biztonságos szolgáltató nem érhető el.
 preferences-doh-enabled-desc = Ön szabályozza, hogy mikor használ biztonságos DNS-t, és kiválaszthatja a szolgáltatót.
 preferences-doh-enabled-detailed-desc-1 = Kiválasztott szolgáltató használata
 preferences-doh-enabled-detailed-desc-2 = Csak akkor használja az alapértelmezett DNS-feloldót, ha probléma van a biztonságos DNS-sel
@@ -1037,6 +1038,8 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = Egyéni
     .accesskey = E
+preferences-doh-secure-header = Biztonságos DNS (HTTPS feletti DNS)
+preferences-doh-secure-description = A biztonságos DNS titkosítja a { -brand-short-name } webhelyek megtalálása érdekében küldött kéréseit, így bizalmasan kezeli a böngészési tevékenységét az esetleges hálózatfelügyelettől.
 
 ## Keyservers
 
@@ -1268,6 +1271,8 @@ qr-export-summary-passwords-included = Tartalmazza a jelszavakat
 qr-export-summary-passwords-excluded = Nem tartalmaz jelszavakat
 qr-export-more-accounts = További fiókok exportálása
 qr-export-pane-header-mobile = Exportálás a mobilos { -brand-product-name } alkalmazásba
+qr-export-description-email-accounts = Vigye át az e-mail-fiókjait erről a számítógépről a telefonján lévő { -brand-product-name }ba egy QR-kód használatával.
+qr-export-get-app-google-play = <a data-l10n-name="app-link">{ -brand-product-name } beszerzése a Google Playen</a>
 qr-export-select-accounts-title = Válassza ki az exportálandó fiókokat:
 qr-export-missing-accounts-support = Hiányzik egy fiók? Az androidos { -brand-product-name }ben nem támogatott fiókok nem választhatók ki. <a data-l10n-name="account-support-link">Ismerje meg a támogatott fióktípusokat</a>
 
