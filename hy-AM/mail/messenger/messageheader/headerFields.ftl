@@ -11,3 +11,14 @@ message-header-to-list-name = Ում
 
 message-header-address-not-in-address-book-button =
     .title = Պահել այս հասցեն Հասցեագրքում
+message-header-address-in-address-book-button =
+    .title = Խմբագրել կոնտակտը
+message-header-field-show-more = Ավելին
+    .title = Ցուցադրել բոլոր ստացողներին
+message-ids-field-show-all = Ցուցադրել բոլորը
+
+## Spam filter
+
+message-bar-learn-more-button =
+    .label = Իմանալ ավելին…
+    .accesskey = Ի

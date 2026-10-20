@@ -152,6 +152,13 @@ mail-context-menu-forward-forward =
     .label = Փոխանցել
     .accesskey = F
 
+## Message header customize panel
+
+message-header-button-style-text =
+    .label = Գրվածք
+message-header-button-style-icons =
+    .label = Պատկերներ
+
 ## Action Button Context Menu
 
 toolbar-context-menu-manage-extension =

@@ -90,9 +90,15 @@ quit-app-shortcut =
 toolbar-delete-button =
     .label = Ջնջել
     .tooltiptext = Ջնջել ընտրված հաղորդագրությունները կամ թղթապանակը
+toolbar-undelete-button =
+    .label = Չջնջել
+    .tooltiptext = Վերականգնել ընտրված հաղորդագրությունները
 
 ## View / Layout
 
+menu-font-size-label =
+    .label = Տառատեսակի չափ
+    .accesskey = Տ
 mail-uidensity-default =
     .label = Սկզբնադիր
     .accesskey = D

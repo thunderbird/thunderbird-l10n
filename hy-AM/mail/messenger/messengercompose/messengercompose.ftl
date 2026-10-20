@@ -103,6 +103,24 @@ compose-blocked-content-preferences-accesskey = P
 compose-unblock-resource =
     .label = Ապակապանել { $url }
 
+## Send Format
+
+compose-send-format-menu =
+    .label = Ուղարկման ձևաչափ
+    .accesskey = Ո
+compose-send-auto-menu-item =
+    .label = Ինքնաշխատ
+    .accesskey = Ի
+compose-send-both-menu-item =
+    .label = HTML և պարզ տեքստ
+    .accesskey = H
+compose-send-html-menu-item =
+    .label = Միայն HTML
+    .accesskey = Մ
+compose-send-plain-menu-item =
+    .label = Միայն պարզ տեքստ
+    .accesskey = Մ
+
 ## Addressing widget
 
 #   $type (String) - the type of the addressing row
@@ -132,6 +150,9 @@ pill-action-move-cc =
 pill-action-move-bcc =
     .label = Տեղափոխել Bcc
     .accesskey = B
+pill-action-expand-list =
+    .label = Ընդարձակել ցանկը
+    .accesskey = Ը
 # Variables:
 # $field - name of the addressing field being removed
 compose-remove-address-row-title = Ջնջել { $field } հասցեները
@@ -142,6 +163,13 @@ compose-remove-address-row-button = Ջնջել
 
 ## Attachment widget
 
+ctrl-cmd-shift-pretty-prefix =
+    { PLATFORM() ->
+        [macos] ⇧ ⌘{ " " }
+       *[other] Ctrl+Shift+
+    }
+trigger-attachment-picker-key = A
+toggle-attachment-pane-key = M
 menuitem-toggle-attachment-pane =
     .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
     .label = Կցորդի վահանակ
@@ -161,6 +189,20 @@ context-menuitem-attach-files =
     .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Կցել ֆայլ(եր)...
     .accesskey = F
+# Note: Do not translate the term 'vCard'.
+context-menuitem-attach-vcard =
+    .label = Իմ vCard-ը
+    .accesskey = Ի
+context-menuitem-attach-openpgp-key =
+    .label = Իմ OpenPGP հանրային բանալին
+    .accesskey = Ի
+#   $count (Number) - the number of attachments in the attachment bucket
+attachment-bucket-count-value =
+    { $count ->
+        [1] { $count } Կից ֆայլ
+        [one] { $count } կցորդներ
+       *[other] { $count } կցորդներ
+    }
 
 ## Variables:
 ## $count (Number) - Number of files being dropped onto the composer.
@@ -173,6 +215,8 @@ drop-file-label-attachment =
 
 ## Reorder Attachment Panel
 
+move-attachment-last-panel-button =
+    .label = Տեղափոխել վերջինը
 button-return-receipt =
     .label = Ստացական
     .tooltiptext = Հետադարձ ստացական հայցել նամակի համար
@@ -189,12 +233,55 @@ default-delete-cmd =
     .label = Ջնջել
     .accesskey = D
 
+## Encryption
+
+encryption-menu =
+    .label = Անվտանգություն
+    .accesskey = Ա
+encryption-toggle =
+    .label = Գաղտնագրել
+    .tooltiptext = Այս հաղորդագրության համար օգտագործեք ծայրից ծայր կոդավորում
+encryption-options-openpgp =
+    .label = OpenPGP
+    .tooltiptext = Դիտել կամ փոխել OpenPGP կոդավորման կարգավորումները
+encryption-options-smime =
+    .label = S/MIME
+    .tooltiptext = Դիտել կամ փոխել S/MIME կոդավորման կարգավորումները
+signing-toggle =
+    .label = Նշան
+    .tooltiptext = Այս հաղորդագրության համար օգտագործեք թվային ստորագրություն
+
 ## Addressing Area
 
+# No acceltext should be shown.
+# The label should match the show-to-row-button text.
+show-to-row-extra-menuitem =
+    .label = Ում
+    .accesskey = Ո
+#   $key (String) - the shortcut key for this field
+show-to-row-button = Ում
+    .title = Ցուցադրել դաշտում ({ ctrl-cmd-shift-pretty-prefix }{ $key })
+cc-address-row-label =
+    .value = Պատճեն
+#   $key (String) - the shortcut key for this field
+show-cc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
+    .label = Պատճենի դաշտ
+    .accesskey = Պ
+# No acceltext should be shown.
+# The label should match the show-cc-row-button text.
+show-cc-row-extra-menuitem =
+    .label = Պատճեն
+    .accesskey = C
+#   $key (String) - the shortcut key for this field
+show-cc-row-button = Պատճեն
+    .title = Ցուցադրել Պատճենի դաշտը ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 many-public-recipients-prompt-cancel = Չեղարկել ուղարկումը
+many-public-recipients-prompt-send = Ուղարկել այնուամենայնիվ
 
 ## Notifications
 
+encrypted-bcc-ignore-button = Հասկացա
 # Variables:
 #   $count - the number of files that will be unblocked
 blocked-content-message =
@@ -277,6 +364,10 @@ cloud-file-uploaded-tooltip = Վերբեռնված { $provider }
 # Variables:
 # $provider - name of the online storage service
 cloud-file-attach-picker-title = Կցել ֆայլեր { $provider }-ով
+
+## Link Preview
+
+link-preview-yes-replace = Այո
 
 ## Dictionary selection popup
 

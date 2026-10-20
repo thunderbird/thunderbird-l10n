@@ -81,7 +81,6 @@ items-pane-nothing-to-import = از منبع انتخاب‌شده چیزی بر
 ## Import from address book file steps
 
 import-from-addr-book-file-description = قالب پرونده‌ای را که داده‌های دفترچهٔ نشانی شما را دارد انتخاب کنید.
-addr-book-csv-file = پروندهٔ جداشده با ویرگول یا جهش (.csv، .tsv)
 addr-book-ldif-file = پروندهٔ LDIF (.ldif)
 addr-book-vcard-file = پروندهٔ vCard (.vcf، .vcard)
 addr-book-sqlite-file = پروندهٔ پایگاه دادهٔ SQLite (.sqlite)
@@ -92,9 +91,9 @@ addr-book-csv-field-map-desc = زمینه‌های دفترچهٔ نشانی م�
 addr-book-directories-title = انتخاب محل درون‌ریزی داده‌های انتخاب‌شده
 addr-book-directories-pane-source = پروندهٔ منبع:
 # $addressBookName (string) - name of the new address book that would be created.
-addr-book-import-into-new-directory2 = ساختن یک فهرست جدید با نام <strong>«{ $addressBookName }»</strong>
+addr-book-import-into-new-directory2 = ساختن یک شاخهٔ جدید با نام <strong>«{ $addressBookName }»</strong>
 # $addressBookName (string) - name of the address book to import into
-addr-book-summary-title = درون‌ریزی داده‌های انتخاب‌شده در فهرست «{ $addressBookName }»
+addr-book-summary-title = درون‌ریزی داده‌های انتخاب‌شده در شاخهٔ «{ $addressBookName }»
 # $addressBookName (string) - name of the address book that will be created.
 addr-book-summary-description = یک دفترچهٔ نشانی جدید با نام «{ $addressBookName }» ساخته می‌شود.
 
