@@ -255,11 +255,11 @@ odnoklassniki-protocol-name = Odnoklassniki
 # LOCALIZATION NOTE (gtalk-disabled):
 #  Google Talk was disabled on June 16, 2022. The message below is a localized
 #  error message to be displayed to users with Google Talk accounts.
-gtalk-disabled = Google Talk دیگر پشتیبانی نمی‌شود، چون Google درگاه XMPP خود را غیرفعال کرده است.
+gtalk-disabled = Google Talk دیگر پشتیبانی نمی‌شود، چون Google درگاه XMPP خود را ازکار انداخته.
 # LOCALIZATION NOTE (odnoklassniki-disabled):
 #  Odnoklassniki disabled their XMPP gateway. The message below is a localized
 #  error message to be displayed to users with Odnoklassniki accounts.
-odnoklassniki-disabled = Odnoklassniki دیگر پشتیبانی نمی‌شود، چون Odnoklassniki درگاه XMPP خود را غیرفعال کرده است.
+odnoklassniki-disabled = Odnoklassniki دیگر پشتیبانی نمی‌شود، چون Odnoklassniki درگاه XMPP خود را ازکار انداخته.
 # LOCALIZATION NOTE (command-*):
 #  These are the help messages for each command.
 # $commandName (String): command name

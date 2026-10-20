@@ -95,6 +95,25 @@ addr-book-summary-description = Կստեղծվի նոր հասցեագիրք, ո
 import-from-calendar-file-desc = Ընտրեք iCalendar (.ics) ֆայլը, որը ցանկանում եք ներմուծել:
 calendar-items-title = Ընտրեք թե ինչ պիտի ներմուծվի:
 calendar-items-loading = Միավորների բեռնում…
+# Column headers of the list of calendar items to import.
+calendar-items-column-title-a11y =
+    .aria-label = Անվանում
+calendar-items-column-title = Անվանում
+    .title = Տեակավորել ըստ վերնագրի
+# The start date and time of each item.
+calendar-items-column-start-a11y =
+    .aria-label = Սկսել
+calendar-items-column-start = Սկսել
+    .title = Տեսակավորել ըստ սկզբի
+# The end date and time of each item.
+calendar-items-column-end-a11y =
+    .aria-label = Ավարտ
+calendar-items-column-end = Ավարտ
+    .title = Տեսակավորել ըստ վերջի
+# The column of checkboxes, to choose which items to import.
+calendar-items-column-import-a11y =
+    .aria-label = Ներմուծել
+calendar-items-column-import = Ներմուծել
 calendar-items-filter-input2 =
     .label = Զտել միույթները
     .placeholder = Միույթների զտում...
