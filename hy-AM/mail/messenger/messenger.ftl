@@ -168,14 +168,62 @@ toolbar-context-menu-remove-extension =
     .label = Հեռացնել ընդլայնումը
     .accesskey = v
 
+## Add-on removal warning
+
+caret-browsing-prompt-check-text = Այլևս չհարցնել։
+
 ## Spaces toolbar
 
+spaces-toolbar-button-mail2 =
+    .title = Նամակ
+spaces-toolbar-button-address-book2 =
+    .title = Հասցեագիրք
+spaces-toolbar-button-calendar2 =
+    .title = Օրացույց
+spaces-toolbar-button-tasks2 =
+    .title = Առաջադրանքներ
+spaces-toolbar-button-chat2 =
+    .title = Զրույց
+spaces-toolbar-button-overflow =
+    .title = Ավելի շատ տարածքներ…
 spaces-toolbar-button-settings2 =
     .title = Կարգավորումներ
 settings-context-open-settings-item2 =
     .label = Կարգավորումներ
 settings-context-open-account-settings-item2 =
     .label = Փոստարկղի կարգավորումներ
+
+## Spaces toolbar pinned tab menupopup
+
+spaces-pinned-button-menuitem-mail2 =
+    .label = { spaces-toolbar-button-mail2.title }
+spaces-pinned-button-menuitem-address-book2 =
+    .label = { spaces-toolbar-button-address-book2.title }
+spaces-pinned-button-menuitem-calendar2 =
+    .label = { spaces-toolbar-button-calendar2.title }
+spaces-pinned-button-menuitem-tasks2 =
+    .label = { spaces-toolbar-button-tasks2.title }
+spaces-pinned-button-menuitem-chat2 =
+    .label = { spaces-toolbar-button-chat2.title }
+spaces-pinned-button-menuitem-settings2 =
+    .label = { spaces-toolbar-button-settings2.title }
+spaces-pinned-button-menuitem-show =
+    .label = { spaces-toolbar-button-show.title }
+# Variables:
+# $count (Number) - Number of unread messages.
+chat-button-unread-messages = { $count }
+    .title =
+        { $count ->
+            [one] Մեկ չընթերցված նամակ
+           *[other] { $count } չընթերցված նամակներ
+        }
+
+## Spaces toolbar customize panel
+
+menuitem-customize-label =
+    .label = Հարմարեցնել…
+customize-panel-button-save = Պատրաստ է
+    .accesskey = Պ
 
 ## Quick Filter Bar
 
