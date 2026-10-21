@@ -44,6 +44,7 @@ calendar-creation-network-nocredentials =
 calendar-creation-network-loading = S'estan detectant els vostres calendaris. Espereu...
 calendar-creation-network-notfound = No s'ha trobat cap calendari en aquesta ubicació. Comproveu els paràmetres.
 calendar-creation-network-authfail = No s'han acceptat les credencials que heu introduït. Comproveu els paràmetres.
+calendar-creation-network-certerror = No s'han trobat calendaris en aquesta ubicació a causa d'un problema de certificat.
 calendar-creation-network-subscribe-single = Seleccioneu els calendaris als quals us voleu subscriure.
 calendar-creation-network-subscribe-multiple = Hi ha diversos tipus de calendari disponibles en aquesta ubicació. Seleccioneu el tipus de calendari i, a continuació, marqueu els calendaris als quals us voleu subscriure.
 # Variables:

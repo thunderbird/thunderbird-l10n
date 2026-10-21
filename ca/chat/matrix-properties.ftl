@@ -29,6 +29,7 @@ options-encryption-status-ok = correcte
 options-encryption-status-not-ok = no està llest
 options-encryption-need-backup-passphrase = Introduïu la contrasenya de la clau de còpia de seguretat a les opcions del protocol.
 options-encryption-set-up-secret-storage = Per a configurar l'emmagatzematge secret, utilitzeu un altre client i després introduïu la contrasenya de la clau de còpia de seguretat generada a la pestanya «General».
+options-encryption-set-up-backup-and-cross-signing = Per activar les còpies de seguretat de les claus de xifratge i la signatura creuada, introduïu la vostra frase de contrasenya a la pestanya “General” o verifiqueu la identitat d'una de les sessions següents.
 # $sessionId (String) is the session ID, $sessionDisplayName (String) is the session display name
 options-encryption-session = { $sessionId } ({ $sessionDisplayName })
 # LOCALIZATION NOTE (connection-*):
@@ -136,6 +137,8 @@ command-ban = { $commandName } &lt;id_usuari&gt; [&lt;motiu&gt;]: Bandeja l'usua
 command-invite = { $commandName } &lt;userId&gt;: Convida l’usuari a la sala.
 # $commandName is the command name
 command-kick = { $commandName } &lt;id_usuari&gt; [&lt;motiu&gt;]: Expulsa l'usuari id_usuari de la sala amb un missatge opcional del motiu. Cal el permís per a expulsar usuaris.
+# $commandName is the command name
+command-nick = { $commandName } &lt;display_name&gt;: Canvieu el vostre nom a mostrar.
 # $commandName is the command name
 command-leave = { $commandName }: Deixa la sala actual.
 # $commandName is the command name
