@@ -165,8 +165,8 @@ pill-action-move-bcc =
     .label = انتقال به رونوشت پنهان
     .accesskey = پ
 pill-action-expand-list =
-    .label = باز کردن فهرست
-    .accesskey = ب
+    .label = گشودن فهرست
+    .accesskey = گ
 # Variables:
 # $field - name of the addressing field being removed
 compose-remove-address-row-title = برداشتن نشانی‌های { $field }
@@ -330,7 +330,7 @@ key-notification-disable-encryption =
     .accesskey = ن
 key-notification-resolve =
     .label = رفع مشکل…
-    .tooltiptext = باز کردن دستیار کلید OpenPGP
+    .tooltiptext = گشودن دستیار کلید OpenPGP
     .accesskey = ر
 can-encrypt-smime-notification = رمزگذاری سرتاسری S/MIME ممکن است.
 can-encrypt-openpgp-notification = رمزگذاری سرتاسری OpenPGP ممکن است.

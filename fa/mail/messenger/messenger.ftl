@@ -483,9 +483,9 @@ spaces-toolbar-button-hide =
 spaces-toolbar-button-show =
     .title = نمایش نوار ابزار فضاها
 spaces-context-new-tab-item =
-    .label = باز کردن در زبانهٔ جدید
+    .label = گشودن در زبانهٔ جدید
 spaces-context-new-window-item =
-    .label = باز کردن در پنجرهٔ جدید
+    .label = گشودن در پنجرهٔ جدید
 # Variables:
 # $tabName (String) - The name of the tab this item will switch to.
 spaces-context-switch-tab-item =

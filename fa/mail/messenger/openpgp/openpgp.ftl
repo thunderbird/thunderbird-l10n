@@ -330,7 +330,7 @@ openpgp-passphrase-status-user-passphrase = محافظت‌شده با عبار�
 openpgp-passphrase-instruction-unprotected = برای محافظت از این کلید یک عبارت عبور تعیین کنید
 openpgp-passphrase-instruction-primary-password = یا از این کلید با عبارت عبور جداگانه محافظت کنید
 openpgp-passphrase-instruction-user-passphrase = برای تغییر محافظت این کلید، قفل آن را باز کنید.
-openpgp-passphrase-unlock = باز کردن قفل
+openpgp-passphrase-unlock = گشودن قفل
 openpgp-passphrase-unlocked = قفل کلید با موفقیت باز شد.
 openpgp-passphrase-unlock-failed = قفل کلید یا بخش‌های فرعی آن باز نشد.
 openpgp-remove-protection = برداشتن محافظت با عبارت عبور
@@ -653,13 +653,13 @@ import-keys-failed = درون‌ریزی کلیدها ناموفق بود
 # $key (String) - Key id to unlock.
 # $date (String) - The date on which the key was created
 # $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
-passphrase-prompt2 = عبارت عبور را برای باز کردن قفل کلید محرمانه با شناسهٔ { $key }، ساخته‌شده در { $date }، { $username_and_email } وارد کنید
+passphrase-prompt2 = عبارت عبور را برای گشودن قفل کلید محرمانه با شناسهٔ { $key }، ساخته‌شده در { $date }، { $username_and_email } وارد کنید
 # Variables:
 # $subkey (String) - Key id to unlock, which is a subkey.
 # $key (String) - This is the main key, to which the subkey belongs.
 # $date (String) - The date on which the key was created
 # $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
-passphrase-prompt2-sub = عبارت عبور را برای باز کردن قفل کلید محرمانه با شناسهٔ { $subkey } وارد کنید که زیرکلید کلید با شناسهٔ { $key }، ساخته‌شده در { $date }، { $username_and_email } است
+passphrase-prompt2-sub = عبارت عبور را برای گشودن قفل کلید محرمانه با شناسهٔ { $subkey } وارد کنید که زیرکلید کلید با شناسهٔ { $key }، ساخته‌شده در { $date }، { $username_and_email } است
 file-to-big-to-import = این پرونده بیش از حد بزرگ است. لطفاً مجموعهٔ بزرگی از کلیدها را یک‌جا درون‌ریزی نکنید.
 
 ## Strings used in enigmailKeygen.js
@@ -762,7 +762,7 @@ attachment-pgp-key-import = به نظر می‌رسد پیوست «{ $name }» �
 # Variables:
 # $name (String) - File name of the attachment.
 attachment-pgp-key =
-    به نظر می‌رسد پیوست «{ $name }» که در حال باز کردن آن هستید یک پروندهٔ کلید OpenPGP است.
+    به نظر می‌رسد پیوست «{ $name }» که در حال گشودن آن هستید یک پروندهٔ کلید OpenPGP است.
     برای درون‌ریزی کلیدهای موجود روی «درون‌ریزی» یا برای دیدن محتوای پرونده در پنجرهٔ مرورگر روی «نمایش» کلیک کنید
 dlg-button-view = &نمایش
 

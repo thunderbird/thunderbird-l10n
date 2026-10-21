@@ -516,7 +516,7 @@ mark-read-after-viewing =
 ##
 
 open-msg-label =
-    .value = باز کردن پیام‌ها در:
+    .value = گشودن پیام‌ها در:
 open-msg-tab =
     .label = یک زبانهٔ جدید
     .accesskey = ز

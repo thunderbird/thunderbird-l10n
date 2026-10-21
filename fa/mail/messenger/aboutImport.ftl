@@ -173,7 +173,7 @@ csv-target-field = زمینه‌ دفترچهٔ نشانی
 
 export-profile-title = برون‌ریزی حساب‌ها، پیام‌ها، دفترچه‌های نشانی و تنظیمات به یک پروندهٔ ZIP.
 export-profile-description = اگر نمایهٔ فعلی شما بزرگ‌تر از ۲ گیگابایت است، پیشنهاد می‌کنیم خودتان از آن پشتیبان بگیرید.
-export-open-profile-folder = باز کردن پوشهٔ نمایه
+export-open-profile-folder = گشودن پوشهٔ نمایه
 export-file-picker2 = برون‌ریزی به پروندهٔ ZIP
 export-brand-name = { -brand-product-name }
 
