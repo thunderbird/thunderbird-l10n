@@ -3,9 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY subscribeDialog.title "آبونه شدن">
-<!ENTITY newGroupsTab.label "New Groups">
 <!ENTITY newGroupsTab.accesskey "N">
-<!ENTITY refreshButton.label "Refresh">
 <!ENTITY refreshButton.accesskey "R">
 <!ENTITY stopButton.label "توقف">
 <!ENTITY stopButton.accesskey "ت">

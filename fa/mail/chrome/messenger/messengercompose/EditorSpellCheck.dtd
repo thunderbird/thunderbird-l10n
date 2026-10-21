@@ -4,10 +4,7 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "بررسی املا">
-<!ENTITY misspelledWord.label "Misspelled word:">
-<!ENTITY wordEditField.label "Replace with:">
 <!ENTITY wordEditField.accessKey "w">
-<!ENTITY checkwordButton.label "Check Word">
 <!ENTITY checkwordButton.accessKey "k">
 <!ENTITY suggestions.label "Suggestions:">
 <!ENTITY suggestions.accessKey "u">
