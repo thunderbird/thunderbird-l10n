@@ -345,7 +345,7 @@ to-address-row-label =
 #   $key (String) - the shortcut key for this field
 show-to-row-main-menuitem =
     .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
-    .label = فیلد «به»
+    .label = زمینهٔ «به»
     .accesskey = ب
 # No acceltext should be shown.
 # The label should match the show-to-row-button text.
@@ -354,13 +354,13 @@ show-to-row-extra-menuitem =
     .accesskey = ب
 #   $key (String) - the shortcut key for this field
 show-to-row-button = به
-    .title = نمایش فیلد «به» ({ ctrl-cmd-shift-pretty-prefix }{ $key })
+    .title = نمایش زمینهٔ «به» ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 cc-address-row-label =
     .value = رونوشت
 #   $key (String) - the shortcut key for this field
 show-cc-row-main-menuitem =
     .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
-    .label = فیلد رونوشت
+    .label = زمینهٔ رونوشت
     .accesskey = ر
 # No acceltext should be shown.
 # The label should match the show-cc-row-button text.
@@ -369,13 +369,13 @@ show-cc-row-extra-menuitem =
     .accesskey = ر
 #   $key (String) - the shortcut key for this field
 show-cc-row-button = رونوشت
-    .title = نمایش فیلد رونوشت ({ ctrl-cmd-shift-pretty-prefix }{ $key })
+    .title = نمایش زمینهٔ رونوشت ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 bcc-address-row-label =
     .value = رونوشت پنهان
 #   $key (String) - the shortcut key for this field
 show-bcc-row-main-menuitem =
     .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
-    .label = فیلد رونوشت پنهان
+    .label = زمینهٔ رونوشت پنهان
     .accesskey = پ
 # No acceltext should be shown.
 # The label should match the show-bcc-row-button text.
@@ -384,9 +384,9 @@ show-bcc-row-extra-menuitem =
     .accesskey = پ
 #   $key (String) - the shortcut key for this field
 show-bcc-row-button = رونوشت پنهان
-    .title = نمایش فیلد رونوشت پنهان ({ ctrl-cmd-shift-pretty-prefix }{ $key })
+    .title = نمایش زمینهٔ رونوشت پنهان ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 extra-address-rows-menu-button =
-    .title = فیلدهای نشانی‌دهی دیگر برای نمایش
+    .title = زمینه‌های نشانی‌دهی دیگر برای نمایش
 public-recipients-notice-single = پیام شما یک گیرندهٔ عمومی دارد. می‌توانید با استفاده از «رونوشت پنهان» از آشکار شدن گیرنده جلوگیری کنید.
 # Variables:
 # $count (Number) - the count of addresses in the "To" and "Cc" fields.
@@ -414,10 +414,10 @@ many-public-recipients-prompt-send = در هر صورت ارسال شود
 
 # Variables:
 # $identity (string) - The name of the used identity, most likely an email address.
-compose-missing-identity-warning = هویت یکتایی مطابق با نشانی فرستنده پیدا نشد. پیام با فیلد «از» فعلی و تنظیمات هویت { $identity } ارسال می‌شود.
+compose-missing-identity-warning = هویت یکتایی مطابق با نشانی فرستنده پیدا نشد. پیام با زمینهٔ «از» فعلی و تنظیمات هویت { $identity } ارسال می‌شود.
 encrypted-bcc-warning = هنگام ارسال پیام رمزگذاری‌شده، گیرندگان رونوشت پنهان کاملاً پنهان نمی‌مانند. ممکن است همهٔ گیرندگان بتوانند آن‌ها را شناسایی کنند.
 encrypted-bcc-ignore-button = متوجه شدم
-auto-disable-e2ee-warning = رمزگذاری سرتاسری این پیام به‌طور خودکار غیرفعال شد.
+auto-disable-e2ee-warning = رمزگذاری سرتاسری این پیام به‌طور خودکار ازکار افتاد.
 # Variables:
 #   $count - the number of files that will be unblocked
 blocked-content-message =
@@ -547,15 +547,15 @@ cloud-file-deletion-error = هنگام حذف { $filename } از { $provider } �
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
     { $count ->
-        [one] Your file is being linked. It will appear in the body of the message when it’s done.
-       *[other] Your files are being linked. They will appear in the body of the message when it’s done.
+        [one] پرونده شما در حال پیوند شدن است. پس از اتمام، در متن پیام نمایش داده خواهد شد.
+       *[other] پرونده‌های شما در حال پیوند شدن هستند. پس از اتمام، در متن پیام نمایش داده خواهند شد.
     }
 # Variables:
 #   $count - the number big attached files
 big-file-notification-text =
     { $count ->
-        [one] This is a large file. It might be better to use Filelink instead.
-       *[other] These are large files. It might be better to use Filelink instead.
+        [one] این پرونده حجم زیادی دارد. شاید بهتر باشد به جای آن از Filelink استفاده کنید.
+       *[other] این پرونده‌ها حجم زیادی دارد. شاید بهتر باشد به جای آن از Filelink استفاده کنید.
     }
 big-file-learn-more-button =
     .label = بیشتر بدانید…
