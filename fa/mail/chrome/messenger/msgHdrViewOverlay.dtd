@@ -20,12 +20,12 @@
 <!ENTITY hdrTrashButton1.label "حذف">
 <!ENTITY hdrTrashButton1.tooltip "حذف این پیام">
 <!ENTITY otherActionsButton2.label "بیشتر">
-<!ENTITY otherActionsOpenInNewTab1.label "باز کردن در زبانهٔ جدید">
+<!ENTITY otherActionsOpenInNewTab1.label "گشودن در زبانهٔ جدید">
 <!ENTITY otherActionsOpenInNewTab1.accesskey "ب">
 <!ENTITY otherActionsPrint1.label "چاپ…">
 <!ENTITY otherActionsPrint1.accesskey "چ">
 <!-- Attachment context menu items -->
-<!ENTITY openAttachmentCmd.label "باز کردن">
+<!ENTITY openAttachmentCmd.label "گشودن">
 <!ENTITY openAttachmentCmd.accesskey "ب">
 <!ENTITY saveAsAttachmentCmd.label "ذخیره به نام…">
 <!ENTITY saveAsAttachmentCmd.accesskey "ذ">

@@ -134,7 +134,7 @@ unable-to-create-provider = هنگام آماده‌سازی تقویم واقع
 # $timezone timezone name, $title item title, $datetime date-time
 unknown-timezone-in-item = منطقهٔ زمانی ناشناختهٔ «{ $timezone }» در «{ $title }». به‌جای آن، منطقهٔ زمانی محلی «شناور» در نظر گرفته شد: { $datetime }
 timezone-errors-alert-title = خطاهای منطقهٔ زمانی
-timezone-errors-see-console = کنسول خطا را ببینید: منطقه‌های زمانی ناشناخته به‌عنوان منطقهٔ زمانی محلی «شناور» در نظر گرفته می‌شوند.
+timezone-errors-see-console = پیشانه خطا را ببینید: منطقه‌های زمانی ناشناخته به‌عنوان منطقهٔ زمانی محلی «شناور» در نظر گرفته می‌شوند.
 # The following strings are for the prompt to delete/unsubscribe from the calendar
 remove-calendar-title = برداشتن تقویم
 remove-calendar-button-delete = حذف تقویم
@@ -193,7 +193,7 @@ tooltip-percent = ٪ انجام‌شده:
 tooltip-completed = انجام‌شده:
 # File commands and dialogs
 calendar-new = جدید
-calendar-open = باز کردن
+calendar-open = گشودن
 filepicker-title-import = درون‌ریزی
 filepicker-title-export = برون‌ریزی
 # Filters for export/import/open file picker.  $wildmat will be replaced with

@@ -296,7 +296,7 @@
      Belongs to accountManagerCmd.label, which is placed under the Edit menu
      on Unix systems -->
 <!ENTITY accountManagerCmdUnix2.accesskey "A">
-<!ENTITY errorConsoleCmd.label "پیشانهٔ خطاها">
+<!ENTITY errorConsoleCmd.label "پیشانهٔ خطا">
 <!ENTITY errorConsoleCmd.accesskey "پ">
 <!-- Mail Toolbar -->
 <!ENTITY getMsgButton1.label "دریافت پیام‌ها">
@@ -348,7 +348,7 @@
 <!-- Folder Pane Context Menu -->
 <!ENTITY folderContextGetMessages.label "Get Messages">
 <!ENTITY folderContextGetMessages.accesskey "د">
-<!ENTITY folderContextOpenNewTab.label "باز کردن در زبانهٔ جدید">
+<!ENTITY folderContextOpenNewTab.label "گشودن در زبانهٔ جدید">
 <!ENTITY folderContextOpenNewTab.accesskey "ب">
 <!ENTITY folderContextNew.label "New Subfolder…">
 <!ENTITY folderContextNew.accesskey "N">

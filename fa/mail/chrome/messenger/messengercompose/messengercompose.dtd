@@ -187,7 +187,7 @@
 <!ENTITY pasteQuote.label "Paste As Quotation">
 <!ENTITY pasteQuote.accesskey "Q">
 <!-- Attachment Item and List Context Menus -->
-<!ENTITY openAttachment.label "باز کردن">
+<!ENTITY openAttachment.label "گشودن">
 <!ENTITY openAttachment.accesskey "ب">
 <!ENTITY delete.label "حذف">
 <!ENTITY delete.accesskey "ح">
