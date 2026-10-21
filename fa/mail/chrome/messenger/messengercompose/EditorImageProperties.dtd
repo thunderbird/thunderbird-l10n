@@ -5,14 +5,9 @@
 <!-- Window title -->
 <!ENTITY windowTitle.label "ویژگی‌های تصویر">
 <!ENTITY pixelsPopup.value "pixels">
-<!-- These are in the Location tab panel -->
-<!ENTITY locationEditField.label "Image Location:">
 <!ENTITY locationEditField.accessKey "L">
-<!ENTITY locationEditField.tooltip "Type the image's filename or location">
 <!ENTITY locationEditField.shortenedDataURI "URI دادهٔ‌ کوتاه شده (کپی URI کامل را روی کلیپ بورد قرار خواهد داد)">
-<!ENTITY title.label "Tooltip:">
 <!ENTITY title.accessKey "T">
-<!ENTITY title.tooltip "The html 'title' attribute that displays as a tooltip">
 <!ENTITY altText.label "متن جایگزین:">
 <!ENTITY altText.accessKey "A">
 <!ENTITY altTextEditField.tooltip "Type text to display in place of the image">
