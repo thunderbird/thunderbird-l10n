@@ -30,11 +30,6 @@ appmenu-sync-sign-out =
 
 ## Add Account
 
-appmenu-new-account-panel-title =
-    .title = 新規アカウント
-appmenu-new-account-panel =
-    .label = 新規アカウント
-    .accesskey = N
 appmenu-new-email-account =
     .label = メール
     .accesskey = E
@@ -61,11 +56,6 @@ appmenu-add-account-panel =
 
 ## New Account / Address Book
 
-appmenu-newab-panel-title =
-    .title = 新規アドレス帳
-appmenu-newab-panel =
-    .label = 新規アドレス帳
-    .accesskey = A
 appmenu-new-addressbook =
     .label = ローカルのアドレス帳
     .accesskey = A
