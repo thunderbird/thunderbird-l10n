@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 permissions-dialog-title = Ausnahmen
+remote-content-permissions-title = Externe Inhalte - Ausnahmen
+remote-content-permissions-description = Es kann angegeben werden, von welchen Websites externe Inhalte wie etwa Grafiken geladen werden dürfen. Weiterhin kann jeglicher externer Inhalt durch die Freigabe des Absenders erlaubt werden. Geben Sie die Adresse der Website oder die E-Mail-Adresse ein und klicken Sie anschließend auf "Blockieren" oder "Erlauben".
+cookie-permissions-title = Ausnahmen - Cookies
+cookie-permissions-description = Sie können festlegen, welchen Websites Sie immer oder niemals erlauben möchten, Cookies zu benutzen. Geben Sie bitte die exakte Adresse der Website ein, die Sie verwalten möchten, und klicken Sie dann Blockieren, für diese Sitzung erlauben oder Erlauben.
 website-address-label =
     .value = Adresse der Website:
     .accesskey = d
