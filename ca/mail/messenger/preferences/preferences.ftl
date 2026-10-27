@@ -165,6 +165,7 @@ tray-icon-unread-description = Recomanat quan s'utilitzen botons petits de la ba
 mail-system-sound-label =
     .label = So del sistema per defecte per al correu nou
     .accesskey = d
+sound-file-picker-title = Trieu un so
 mail-custom-sound-label =
     .label = Utilitza el fitxer de so següent
     .accesskey = U
@@ -329,6 +330,34 @@ search-handler-table =
     .placeholder = Filtra tipus de contingut i accions
 type-column-header = Tipus de contingut
 action-column-header = Acció
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Utilitza { $appName }
+    .label = Utilitza { $appName }
+    .tooltiptext = Utilitza { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Utilitza { $appName } (per defecte)
+    .label = Utilitza { $appName } (per defecte)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Utilitza una altra aplicació…
+    .tooltiptext = Utilitza una altra aplicació…
+applications-choose-app-title = Seleccioneu l'aplicació auxiliar
+applications-manage-app =
+    .label = Detalls de l'aplicació…
+applications-always-ask = Demana-m'ho sempre
+    .label = Demana-m'ho sempre
+    .tooltiptext = Demana-m'ho sempre
+applications-delete-action =
+    .label = Suprimeix l'acció
+applications-delete-action-title = Suprimeix l'acció
+applications-delete-action-confirm = Segur que voleu suprimir aquesta acció?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
 save-to-label =
     .label = Desa els fitxers a
     .accesskey = s
@@ -373,6 +402,10 @@ mark-read-delay =
     .label = Després de mostrar-los durant
     .accesskey = e
 seconds-label = segons
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -605,6 +638,12 @@ email-e2ee-automatism-post =
     Les decisions automàtiques es poden alterar activant o desactivant manualment el xifratge en redactar un missatge.
     Nota: el xifratge sempre s'activa automàticament quan es respon a un missatge xifrat.
 
+## DoH Section
+
+
+## Keyservers
+
+
 ## Chat Tab
 
 startup-label =
@@ -626,7 +665,7 @@ idle-label =
     .accesskey = b
 idle-time-label = minuts d'inactivitat
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = i posa el meu estat com a no disponible amb el missatge d'estat:
@@ -701,6 +740,9 @@ search-preferences-input2 =
     .placeholder = Cerca en els paràmetres
     .style = width: 19em
 
+## Content of the preview conversation for chat message styles.
+
+
 ## Settings UI Search Results
 
 search-results-header = Resultats de la cerca
@@ -753,3 +795,9 @@ synced-acount-item-filters = Filtres
 synced-acount-item-keys = OpenPGP - S/MIME
 sync-disconnected-text = Sincronitzeu els vostres comptes de correu, llibretes d'adreces, calendaris i identitats en tots els vostres dispositius.
 sync-disconnected-turn-on-sync = Activa la sincronització…
+
+## Mobile QR Export Pane
+
+
+## Appearance Tab
+
