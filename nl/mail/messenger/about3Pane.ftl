@@ -592,3 +592,6 @@ folder-delete-confirm = Weet u zeker dat u de map ‘{ $name }’ wilt verwijder
 # Variables:
 #   $name (String) - Name of the folder being deleted.
 folder-delete-no-trash-confirm = Verwijderen van deze map is niet ongedaan te maken en zal alle berichten en submappen die deze bevat verwijderen. Weet u zeker dat u de map ‘{ $name }’ wilt verwijderen?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Het verwijderen van de map ‘{ $name }’ zal de filters die ermee zijn verbonden uitschakelen. Weet u zeker dat u deze map wilt verwijderen?
