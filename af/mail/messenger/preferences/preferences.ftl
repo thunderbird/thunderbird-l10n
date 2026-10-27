@@ -31,6 +31,7 @@ animated-alert-label =
 customize-alert-label =
     .label = Doelmaak…
     .accesskey = D
+sound-file-picker-title = Kies klank
 mail-custom-sound-label =
     .label = Gebruik die volgende klanklêer
     .accesskey = G
@@ -142,6 +143,11 @@ applications-delete-action =
     .label = Skrap aksie
 applications-delete-action-title = Skrap aksie
 applications-delete-action-confirm = Is u seker u wil hierdie aksie skrap?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
 save-to-label =
     .label = Stoor lêers na
     .accesskey = S
