@@ -360,6 +360,43 @@ search-handler-table =
     .placeholder = Филтриране на типове съдържание и действия
 type-column-header = Вид на съдържанието
 action-column-header = Действие
+download-folder-desktop = Плот
+download-folder-system = Изтеглени файлове
+download-choose-folder-title = Избор на папка
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = файл { $extension }
+applications-save-file = Запазване на файла
+    .label = Запазване на файла
+    .tooltiptext = Запазване на файла
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Използване на { $appName }
+    .label = Използване на { $appName }
+    .tooltiptext = Използване на { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Използване на { $appName } (по подразбиране)
+    .label = Използване на { $appName } (по подразбиране)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Използване на друго…
+    .tooltiptext = Използване на друго…
+applications-choose-app-title = Избиране на помощно приложение
+applications-manage-app =
+    .label = Подробности за приложение…
+applications-always-ask = Винаги да пита
+    .label = Винаги да пита
+    .tooltiptext = Винаги да пита
+applications-delete-action =
+    .label = Изтриване на действие
+applications-delete-action-title = Изтриване на действие
+applications-delete-action-confirm = Наистина ли искате да изтриете това действие?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
 applications-type-pdf = Преносим формат за документи (PDF)
 applications-preview-in-app = Визуализация в { -brand-short-name }
     .label = Визуализация в { -brand-short-name }
@@ -588,6 +625,9 @@ filelink-add-provider =
     .tooltiptext = Добавяне на { $providerName }
 filelink-account-not-configured =
     .title = Профилът не е настроен все още
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Сигурни ли сте, че искате да премахнете профила за „{ $accountName }“?
 
 ## Privacy Tab
 
@@ -669,6 +709,8 @@ spam-log-button =
 reset-spam-button =
     .label = Нулиране на тренировачните данни
     .accesskey = т
+confirm-reset-junk-training-title = Потвърждаване
+confirm-reset-junk-training-message = Сигурни ли сте, че искате да изчистите данните по обучението на адаптивния филтър?
 phishing-description = { -brand-short-name } може да анализира писмата за възможна измама, като търси познати техники за подлъгване.
 phishing-label =
     .label = Уведомяване, ако четеното писмо е съмнително
@@ -881,6 +923,15 @@ managed-notice = { -brand-short-name } се управлява от вашата
 
 ## Content of the preview conversation for chat message styles.
 
+chat-theme-preview-default =
+    .label = Стандартно
+chat-theme-preview-nick-1 = Филип
+chat-theme-preview-buddy-1 = phill@im.instantbird.org
+chat-theme-preview-nick-2 = Петър
+chat-theme-preview-buddy-2 = petar@im.instantbird.org
+chat-theme-preview-message-1 = Здравей! :-)
+chat-theme-preview-message-2 = Как си?
+chat-theme-preview-message-3 = Пробвам { -brand-short-name }! ;-)
 
 ## Settings UI Search Results
 
