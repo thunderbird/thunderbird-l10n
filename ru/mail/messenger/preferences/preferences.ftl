@@ -245,6 +245,16 @@ enable-gloda-search-label =
     .label = Включить глобальный поиск и индексацию сообщений
     .accesskey = с
 datetime-formatting-legend = Формат даты и времени
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Формат языка приложения: { $localeName }
+    .accesskey = о
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Формат языка из региональных стандартов: { $localeName }
+    .accesskey = м
 display-language-legend = Язык интерфейса
 allow-graphics-accel =
     .label = Использовать графическое ускорение для более плавного скроллинга и повышения производительности
