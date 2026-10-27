@@ -179,6 +179,7 @@ tray-icon-unread-description = Preporučeno prilikom upotrebe malih tipki na pro
 mail-system-sound-label =
     .label = Standardni zvuk sustava za novu poštu
     .accesskey = S
+sound-file-picker-title = Odaberi zvuk
 mail-custom-sound-label =
     .label = Koristi sljedeću zvučnu datoteku
     .accesskey = u
@@ -367,6 +368,43 @@ search-handler-table =
     .placeholder = Filtriraj vrste sadržaja i radnje
 type-column-header = Vrsta sadržaja
 action-column-header = Radnja
+download-folder-desktop = Radna površina
+download-folder-system = Moja preuzimanja
+download-choose-folder-title = Odaberi direktorij
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension } datoteka
+applications-save-file = Spremi datoteku
+    .label = Spremi datoteku
+    .tooltiptext = Spremi datoteku
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Koristi { $appName }
+    .label = Koristi { $appName }
+    .tooltiptext = Koristi { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Koristi { $appName } (zadano)
+    .label = Koristi { $appName } (zadano)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Koristi drugi…
+    .tooltiptext = Koristi drugi…
+applications-choose-app-title = Odaberi pomoćni program
+applications-manage-app =
+    .label = Pojedinosti o programu…
+applications-always-ask = Uvijek pitaj
+    .label = Uvijek pitaj
+    .tooltiptext = Uvijek pitaj
+applications-delete-action =
+    .label = Obriši radnju
+applications-delete-action-title = Obriši radnju
+applications-delete-action-confirm = Jeste li sigurni da želite obrisati ovu radnju?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
 applications-type-pdf = Portable Document Format (PDF)
 applications-preview-in-app = Pregled u { -brand-short-name }u
     .label = Pregled u { -brand-short-name }u
@@ -614,6 +652,9 @@ filelink-add-provider =
     .tooltiptext = Dodaj { $providerName }
 filelink-account-not-configured =
     .title = Ovaj korisnički račun još nije podešen
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Jeste li sigurni da želite ukloniti račun "{ $accountName }"?
 
 ## Privacy Tab
 
@@ -695,6 +736,8 @@ spam-log-button =
 reset-spam-button =
     .label = Vrati podatke treniranja na početne postavke
     .accesskey = r
+confirm-reset-junk-training-title = Potvrdi
+confirm-reset-junk-training-message = Jeste li sigurni da želite poništiti naučena pravila filtera neželjene pošte?
 phishing-description = { -brand-short-name } može analizirati poruke e-pošte kako bi otkrio prijevaru, tražeći tehnike koje se često koriste da bi vas zavarali.
 phishing-label =
     .label = Obavjesti me ako se sumnja da je poruka koju čitam prijevara
@@ -909,6 +952,15 @@ managed-notice = Programom { -brand-short-name } upravlja tvoja organizacija.
 
 ## Content of the preview conversation for chat message styles.
 
+chat-theme-preview-default =
+    .label = Zadano
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Bok! :-)
+chat-theme-preview-message-2 = Što ima?
+chat-theme-preview-message-3 = Isprobavam { -brand-short-name }! ;-)
 
 ## Settings UI Search Results
 
