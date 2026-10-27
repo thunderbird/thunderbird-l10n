@@ -229,6 +229,7 @@ use-custom-sound-label =
 mail-select-audio-button =
     .label = Selectează audio…
     .accesskey = A
+sound-file-picker-title = Alege un sunet
 enable-global-search-label =
     .label = Activează căutarea pe toate conturile de e-mail
     .accesskey = e
@@ -470,6 +471,34 @@ search-handler-table =
     .placeholder = Filtrează tipurile de conținut și acțiunile
 type-column-header = Tip de conținut
 action-column-header = Acțiune
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Folosește { $appName }
+    .label = Folosește { $appName }
+    .tooltiptext = Folosește { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Folosește { $appName } (implicit)
+    .label = Folosește { $appName } (implicit)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Folosește altceva…
+    .tooltiptext = Folosește altceva…
+applications-choose-app-title = Selectează aplicația ajutătoare
+applications-manage-app =
+    .label = Detalii privind aplicația…
+applications-always-ask = Întreabă întotdeauna
+    .label = Întreabă întotdeauna
+    .tooltiptext = Întreabă întotdeauna
+applications-delete-action =
+    .label = Șterge acțiunea
+applications-delete-action-title = Șterge acțiunea
+applications-delete-action-confirm = Sigur vrei să ștergi această acțiune?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
 save-to-label =
     .label = Salvează fișierele în
     .accesskey = S
@@ -521,6 +550,10 @@ mark-read-delay =
     .label = După ce sunt afișate
     .accesskey = d
 seconds-label = secunde
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 mark-read-after-viewing =
     .label = După vizualizare pentru
     .accesskey = v
@@ -1076,7 +1109,7 @@ idle-label =
     .accesskey = P
 idle-time-label = minute de inactivitate
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = și setează-mi starea ca Plecat cu acest mesaj de stare:
@@ -1152,6 +1185,9 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = { -brand-short-name } este gestionat de o organizație.
 managed-notice = { -brand-short-name } este gestionat de organizația ta.
+
+## Content of the preview conversation for chat message styles.
+
 
 ## Settings UI Search Results
 
