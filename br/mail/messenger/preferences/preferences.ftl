@@ -109,6 +109,7 @@ customize-alert-label =
 mail-system-sound-label =
     .label = Son ar reizhiad dre ziouer evit ur postel nevez
     .accesskey = d
+sound-file-picker-title = Dibab ur son
 mail-custom-sound-label =
     .label = Ober gant ar restr son da heul
     .accesskey = u
@@ -274,6 +275,43 @@ quoted-text-color =
     .accesskey = L
 type-column-header = Seurt endalc'had
 action-column-header = Gwered
+download-folder-desktop = Burev
+download-folder-system = Ma fellgargadurioù
+download-choose-folder-title = Diuzañ un teuliad
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = restr { $extension }
+applications-save-file = Enrollañ ar restr
+    .label = Enrollañ ar restr
+    .tooltiptext = Enrollañ ar restr
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Arverañ { $appName }
+    .label = Arverañ { $appName }
+    .tooltiptext = Arverañ { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Arverañ { $appName } (diouer)
+    .label = Arverañ { $appName } (diouer)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = All…
+    .tooltiptext = All…
+applications-choose-app-title = Diuzañ un arload diavaez
+applications-manage-app =
+    .label = Titouroù an arload…
+applications-always-ask = Goulenn bewech
+    .label = Goulenn bewech
+    .tooltiptext = Goulenn bewech
+applications-delete-action =
+    .label = Dilemel ar gwezh
+applications-delete-action-title = Dilemel ar gwezh
+applications-delete-action-confirm = Ha sur oc'h e fell deoc'h dilemel ar gwezh-mañ?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
 applications-preview-in-app = Alberz e { -brand-short-name }
     .label = Alberz e { -brand-short-name }
     .tooltiptext = Alberz e { -brand-short-name }
@@ -447,6 +485,9 @@ filelink-add-provider =
     .tooltiptext = Ouzhpennañ { $providerName }
 filelink-account-not-configured =
     .title = N'eo ket bet kefluniet ar gont-mañ endeo
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Sur oc'h e fell deoc'h dilemel ar gont "{ $accountName }" ?
 
 ## Privacy Tab
 
@@ -482,6 +523,8 @@ passwords-description = Gallout a ra { -brand-short-name } derc'hel soñj eus ho
 passwords-button =
     .label = Gerioù-tremen enrollet…
     .accesskey = e
+confirm-reset-junk-training-title = Kadarnaat
+confirm-reset-junk-training-message = Ha fellout a ra deoc'h adderaouekaat sil azasaus dre bleustriñ ar roadennoù ?
 phishing-description = Barrek eo { -brand-short-name } da zezrannañ kemennadennoù da gavout posteloù c'hwibañ dre glask an doareoù boutin arveret evit ho kwallbakañ.
 phishing-label =
     .label = Lavar din hag-eñ emaon o lenn ur postel gant c'hwezh ar c'hwiberezh warnañ
@@ -601,6 +644,15 @@ chat-variant-label =
 
 ## Content of the preview conversation for chat message styles.
 
+chat-theme-preview-default =
+    .label = Diouer
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Salud! :-)
+chat-theme-preview-message-2 = Penaos eo?
+chat-theme-preview-message-3 = Emaon oc’h esaeañ { -brand-short-name }! ;-)
 
 ## Settings UI Search Results
 
