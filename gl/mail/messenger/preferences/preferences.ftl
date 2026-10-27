@@ -361,6 +361,7 @@ search-handler-table =
     .placeholder = Filtrar os tipos de contido e as accións
 type-column-header = Tipo de contido
 action-column-header = Acción
+applications-type-pdf = (PDF) Formato de documento portátil
 save-to-label =
     .label = Gardar ficheiros en
     .accesskey = G
@@ -582,6 +583,13 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Procurar máis provedores…
 cloud-account-description = Engadir un novo servizo de almacenamento en liña
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Engadir { $providerName }
+    .tooltiptext = Engadir { $providerName }
+filelink-account-not-configured =
+    .title = Esta conta aínda non foi configurada
 
 ## Privacy Tab
 
