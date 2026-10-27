@@ -480,6 +480,10 @@ search-handler-table =
     .placeholder = Wopśimjeśowe typy a akcije filtrowaś
 type-column-header = Wopśimjeśowy typ
 action-column-header = Akcija
+applications-type-pdf = Portable Document Format (PDF)
+applications-preview-in-app = Pśeglěd w { -brand-short-name }
+    .label = Pśeglěd w { -brand-short-name }
+    .tooltiptext = Pśeglěd w { -brand-short-name }
 save-to-label =
     .label = Dataje składowaś do
     .accesskey = D
@@ -800,6 +804,13 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Dalšnych póbitowarjow namakaś…
 cloud-account-description = Nowu składowańsku słužbu Filelink pśidaś
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = { $providerName } pśidaś
+    .tooltiptext = { $providerName } pśidaś
+filelink-account-not-configured =
+    .title = Toś to konto njejo se hyšći konfigurěrowało
 
 ## Privacy Tab
 
