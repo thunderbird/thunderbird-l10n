@@ -9,6 +9,9 @@ pane-chat-title = Chat
 category-chat =
     .tooltiptext = Chat
 
+## OS Authentication dialog
+
+
 ## General Tab
 
 focus-search-shortcut =
@@ -40,6 +43,7 @@ animated-alert-label =
 customize-alert-label =
     .label = Personalizar…
     .accesskey = P
+sound-file-picker-title = Elexir soníu
 mail-custom-sound-label =
     .label = Usar el siguiente ficheru de soníu
     .accesskey = U
@@ -172,6 +176,43 @@ smaller-size-item =
 quoted-text-color =
     .label = Color:
     .accesskey = o
+download-folder-desktop = Escritoriu
+download-folder-system = Les mios descargues
+download-choose-folder-title = Escoyer carpeta
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = ficheru { $extension }
+applications-save-file = Guardar ficheru
+    .label = Guardar ficheru
+    .tooltiptext = Guardar ficheru
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Usar { $appName }
+    .label = Usar { $appName }
+    .tooltiptext = Usar { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Usar { $appName } (predetermináu)
+    .label = Usar { $appName } (predetermináu)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Usar otra…
+    .tooltiptext = Usar otra…
+applications-choose-app-title = Seleicionar aplicación auxiliar
+applications-manage-app =
+    .label = Detalles de l'aplicación…
+applications-always-ask = Entrugar siempre
+    .label = Entrugar siempre
+    .tooltiptext = Entrugar siempre
+applications-delete-action =
+    .label = Desaniciar aición
+applications-delete-action-title = Desaniciar aición
+applications-delete-action-confirm = ¿Daveres que quies desaniciar esta aición?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
 save-to-label =
     .label = Guardar ficheros en
     .accesskey = G
@@ -193,6 +234,17 @@ display-tags-text = Les etiquetes puen usase pa categorizar y priorizar los tos 
 delete-tag-button =
     .label = Desaniciar
     .accesskey = r
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
+
+##
+
 
 ## Compose Tab
 
@@ -274,6 +326,9 @@ remove-cloud-account =
     .label = Desaniciar
     .accesskey = n
 cloud-account-description = Amestar un serviciu nuevu d'almacenamientu Filelink
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = ¿Tas seguru de que quies desaniciar la cuenta "{ $accountName }"?
 
 ## Privacy Tab
 
@@ -309,6 +364,8 @@ passwords-description = { -brand-short-name } pue recordar les contraseñes de t
 passwords-button =
     .label = Contraseñes guardaes…
     .accesskey = C
+confirm-reset-junk-training-title = Confirmar
+confirm-reset-junk-training-message = ¿Daveres que quies reaniciar los datos de deprendizaxe del filtru adautativu?
 phishing-description = { -brand-short-name } pue analizar mensaxes pa identificar los que seyan fraudulentos guetando téuniques comunes usaes pa engañate.
 phishing-label =
     .label = Avisame si'l mensaxe que toi lleendo paez un mensaxe fraudulentu
@@ -327,6 +384,12 @@ certificate-ask =
 ocsp-label =
     .label = Entrugar a los sirvidores respondedores de OCSP pa confirmar la validez actual de los certificaos
     .accesskey = u
+
+## DoH Section
+
+
+## Keyservers
+
 
 ## Chat Tab
 
@@ -349,7 +412,7 @@ idle-label =
     .accesskey = P
 idle-time-label = minutos d'actividá
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = y afitar el mio estáu a Ausente con esti mensaxe d'estáu:
@@ -382,3 +445,18 @@ chat-custom-sound-label =
 chat-browse-sound-button =
     .label = Desaminar…
     .accesskey = s
+
+## Content of the preview conversation for chat message styles.
+
+
+## Settings UI Search Results
+
+
+## Sync Tab
+
+
+## Mobile QR Export Pane
+
+
+## Appearance Tab
+

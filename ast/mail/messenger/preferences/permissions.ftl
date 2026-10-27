@@ -2,6 +2,10 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+remote-content-permissions-title = Esceiciones - Conteníu remotu
+remote-content-permissions-description = Pues especificar de qué sitios web se permite cargar imáxenes y otru conteníu remotu. Tamién pues permitir tol conteníu remotu basándote na direición del remitente. Escribi la direición del sitiu o direición del corréu-e que quies xestionar y llueu primi Bloquiar o Permitir
+cookie-permissions-title = Esceiciones - Cookies
+cookie-permissions-description = Pues especificar qué sitios web tienen permitío (siempre o enxamás) usar cookies. Escribi la direición exauta del sitiu que quies alministrar y llueu calca Bloquiar, Permitir durante la sesión, o Permitir.
 website-address-label =
     .value = Direición del sitiu web:
     .accesskey = D
