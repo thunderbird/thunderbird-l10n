@@ -225,6 +225,7 @@ use-custom-sound-label =
 mail-select-audio-button =
     .label = Pilih audio…
     .accesskey = a
+sound-file-picker-title = Pilih Suara
 enable-global-search-label =
     .label = Aktifkan pencarian di semua akun surel
     .accesskey = e
@@ -466,6 +467,34 @@ search-handler-table =
     .placeholder = Filter tipe dan tindakan konten
 type-column-header = Tipe Isi
 action-column-header = Aksi
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Gunakan { $appName }
+    .label = Gunakan { $appName }
+    .tooltiptext = Gunakan { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Gunakan { $appName } (default)
+    .label = Gunakan { $appName } (default)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Gunakan lainnya…
+    .tooltiptext = Gunakan lainnya…
+applications-choose-app-title = Pilih Aplikasi Pembantu
+applications-manage-app =
+    .label = Detail Aplikasi…
+applications-always-ask = Tanyakan selalu
+    .label = Tanyakan selalu
+    .tooltiptext = Tanyakan selalu
+applications-delete-action =
+    .label = Aksi Hapus
+applications-delete-action-title = Aksi Menghapus
+applications-delete-action-confirm = Yakin akan menghapus aksi ini?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
 save-to-label =
     .label = Simpan berkas di
     .accesskey = S
@@ -517,6 +546,10 @@ mark-read-delay =
     .label = Setelah ditampilkan
     .accesskey = e
 seconds-label = detik
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 mark-read-after-viewing =
     .label = Setelah melihat selama
     .accesskey = m
@@ -931,7 +964,7 @@ idle-label =
     .accesskey = i
 idle-time-label = menit tanpa aktivitas
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = dan setel status saya ke Tidak Ada Di Tempat dengan pesan status:
@@ -1006,6 +1039,9 @@ search-preferences-input2 =
     .placeholder = Cari di Setelan
     .style = width: 15.4em
 managed-notice = { -brand-short-name } sedang dikelola oleh organisasi Anda.
+
+## Content of the preview conversation for chat message styles.
+
 
 ## Settings UI Search Results
 
