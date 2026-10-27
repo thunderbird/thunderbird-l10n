@@ -335,6 +335,7 @@ search-handler-table =
     .placeholder = Sizdeg anawen d tigawin n ugbur
 type-column-header = Tawsit n ugbur
 action-column-header = Tigawt
+applications-type-pdf = Portable Document Format (PDF)
 applications-preview-in-app = Sken deg { -brand-short-name }
     .label = Sken deg { -brand-short-name }
     .tooltiptext = Sken deg { -brand-short-name }
