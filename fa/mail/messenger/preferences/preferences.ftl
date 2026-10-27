@@ -225,6 +225,7 @@ use-custom-sound-label =
 mail-select-audio-button =
     .label = انتخاب صدا…
     .accesskey = ا
+sound-file-picker-title = Choose Sound
 enable-global-search-label =
     .label = روشن کردن جست‌وجو در همهٔ حساب‌های رایانامه
     .accesskey = ج
@@ -458,6 +459,12 @@ search-handler-table =
     .placeholder = پالایش انواع محتوا و کنش‌ها
 type-column-header = نوع محتوا
 action-column-header = کنش
+download-folder-desktop = رومیزی
+download-folder-system = My Downloads
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = پروندهٔ { $extension }
+applications-choose-app-title = انتخاب برنامهٔ راهنما
 save-to-label =
     .label = ذخیرهٔ پرونده‌ها در
     .accesskey = ذ
@@ -509,6 +516,10 @@ mark-read-delay =
     .label = پس از نمایش به مدت
     .accesskey = پ
 seconds-label = ثانیه
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 mark-read-after-viewing =
     .label = پس از دیدن به مدت
     .accesskey = د
@@ -774,6 +785,9 @@ remove-cloud-account =
 find-cloud-providers =
     .value = یافتن ارائه‌دهندگان بیشتر…
 cloud-account-description = افزودن سرویس ذخیره‌سازی Filelink جدید
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Are you sure you want to remove the account "{ $accountName }"?
 
 ## Privacy Tab
 
@@ -885,6 +899,8 @@ spam-log-button =
 reset-spam-button =
     .label = بازنشانی داده‌های آموزشی
     .accesskey = ب
+confirm-reset-junk-training-title = تصدیق
+confirm-reset-junk-training-message = Are you sure you want to reset the adaptive filter training data?
 scam-detection-description = { -brand-short-name } پیام‌ها را برای پیوندهای طعمه‌گذار و نشانه‌های رایج کلاهبرداری رایانامه‌ای بررسی می‌کند.
 scam-detection-label =
     .label = هنگام خواندن رایانامه‌ای که شبیه کلاهبرداری است هشدار بده
@@ -1064,7 +1080,7 @@ idle-label =
     .accesskey = ب
 idle-time-label = دقیقه فعالیتی نداشته‌ام
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = و وضعیت من با این پیام وضعیت به «دور از دسترس» تغییر کند:
@@ -1140,6 +1156,11 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = { -brand-short-name } توسط یک سازمان مدیریت می‌شود.
 managed-notice = { -brand-short-name } توسط سازمان شما مدیریت می‌شود.
+
+## Content of the preview conversation for chat message styles.
+
+chat-theme-preview-default =
+    .label = پیش فرض
 
 ## Settings UI Search Results
 
