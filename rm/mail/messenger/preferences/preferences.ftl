@@ -181,6 +181,16 @@ enable-gloda-search-label =
     .label = Activar la tschertga globala e l'indexaziun da messadis
     .accesskey = E
 datetime-formatting-legend = Format da data ed ura
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Lingua da l'applicaziun: { $localeName }
+    .accesskey = p
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Lingua per ils parameters regiunals: { $localeName }
+    .accesskey = g
 language-selector-legend = Lingua
 allow-hw-accel =
     .label = Utilisar sche pussaivel l'acceleraziun cun hardware da grafica
