@@ -925,6 +925,13 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Najít další poskytovatele…
 cloud-account-description = Přidat nové webové úložiště pro odesílání příloh
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Přidat { $providerName }
+    .tooltiptext = Přidat { $providerName }
+filelink-account-not-configured =
+    .title = Tento účet zatím nebyl nakonfigurován.
 
 ## Privacy Tab
 
