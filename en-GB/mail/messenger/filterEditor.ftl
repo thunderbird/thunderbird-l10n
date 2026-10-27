@@ -148,6 +148,10 @@ filter-running-message =
     Would you like to continue applying filters?
 filter-stop-button = Stop
 filter-continue-button = Continue
+# Shown once at the end of a filter run the user started, when at least one
+# filter or action failed. The individual failures are in the filter log.
+filter-run-failed = Some filters could not be applied. Check the filter log for details.
+filter-run-failed-open-log-button = Open Filter Log
 
 ## Filter Editor
 
