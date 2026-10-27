@@ -464,6 +464,13 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Գտել ավել մատակարարներ…
 cloud-account-description = Ավելացնել նոր Ֆայլի հղման կրիչ սարք
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Ավելացնել { $providerName }
+    .tooltiptext = Ավելացնել { $providerName }
+filelink-account-not-configured =
+    .title = Այս հաշիվը դեռ կազմաձևված չէ
 
 ## Privacy Tab
 
