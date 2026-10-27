@@ -378,6 +378,13 @@ offline-settings-button =
     .label = All-lein…
     .accesskey = l
 temporary-storage-legend = Storio dros dro
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Mae eich storfa yn defnyddio { $size } { $unit } o le ar ddisg
+actual-disk-cache-size-calculating =
+    .value = Cyfrifo maint y storfa…
 offline-compact-remove-deleted =
     .label = Tynnu data o ffolderi pan fyddan nhw eisoes wedi'u dileu i wagio'r storfa
     .accesskey = T
@@ -521,6 +528,10 @@ mark-read-delay =
     .label = Ar ôl dangos am
     .accesskey = d
 seconds-label = eiliad
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 mark-read-after-viewing =
     .label = Ar ôl darllen am
     .accesskey = A
@@ -1072,7 +1083,7 @@ idle-label =
     .accesskey = S
 idle-time-label = munud o seibiant
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = a dynodi fy statws i I Ffwrdd gyda'r neges statws yma:
@@ -1148,6 +1159,9 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = Mae { -brand-short-name } yn cael ei reoli gan sefydliad.
 managed-notice = Mae { -brand-short-name } yn cael ei reoli gan eich sefydliad.
+
+## Content of the preview conversation for chat message styles.
+
 
 ## Settings UI Search Results
 
