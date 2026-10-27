@@ -246,6 +246,16 @@ enable-gloda-search-label =
     .label = Habilitar indexado y búsqueda global
     .accesskey = i
 datetime-formatting-legend = Formato de fecha y hora
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Localización de la aplicación: { $localeName }
+    .accesskey = p
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Localización de la configuración regional: { $localeName }
+    .accesskey = g
 display-language-legend = Idioma para mostrar
 allow-graphics-accel =
     .label = Usar aceleración de gráficos para un desplazamiento más suave y mejor rendimiento
@@ -379,6 +389,13 @@ offline-settings-button =
     .label = Sin conexión…
     .accesskey = S
 temporary-storage-legend = Almacenamiento temporal
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = El caché está usando actualmente { $size } { $unit } de espacio en disco
+actual-disk-cache-size-calculating =
+    .value = Cálculo del tamaño de caché…
 offline-compact-remove-deleted =
     .label = Eliminar datos de carpetas cuando ya hayan sido eliminadas para liberar almacenamiento
     .accesskey = a
@@ -508,6 +525,7 @@ applications-delete-action-confirm = ¿Está seguro de querer borrar esta acció
 #                                "Portable Document Format (PDF)".
 #   $type (String) - The MIME type of the content, for example "application/pdf".
 applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Formato de documento portable (PDF)
 save-to-label =
     .label = Guardar archivos en
     .accesskey = G
