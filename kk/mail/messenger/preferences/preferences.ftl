@@ -245,6 +245,16 @@ enable-gloda-search-label =
     .label = Глобалды іздеуді және индекстеуді іске қосу
     .accesskey = е
 datetime-formatting-legend = Күн және уақытты пішімдеу
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Қолданба локалі: { $localeName }
+    .accesskey = б
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Аймақтық баптау локалі: { $localeName }
+    .accesskey = м
 display-language-legend = Интерфейс тілі
 allow-graphics-accel =
     .label = Тегіс айналдыру және өнімділік үшін графикалық үдетуді қолдану
@@ -378,6 +388,13 @@ offline-settings-button =
     .label = Желіден тыс…
     .accesskey = ы
 temporary-storage-legend = Уақытша сақтау қоймасы
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Сіздің кэш қазір { $size } { $unit } диск орнын қолдануда
+actual-disk-cache-size-calculating =
+    .value = Кэш өлшемін есептеу…
 offline-compact-remove-deleted =
     .label = Сақтау қоймасын босату үшін әлдеқашан өшірілген деректерді бумалардан өшіру
     .accesskey = а
@@ -521,6 +538,10 @@ mark-read-delay =
     .label = Келесі уақыт бойы көрген соң
     .accesskey = р
 seconds-label = секунд
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 mark-read-after-viewing =
     .label = Мына уақыт бойы қарағаннан кейін:
     .accesskey = М
@@ -1076,7 +1097,7 @@ idle-label =
     .accesskey = М
 idle-time-label = минут белсенді еместік
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = және менің қалып-күйімді Кетіп қалғанға орнату, мына хабарламамен:
@@ -1152,6 +1173,9 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = { -brand-short-name } ұйыммен басқарылады.
 managed-notice = { -brand-short-name } сіздің ұйымыңызбен басқаралады.
+
+## Content of the preview conversation for chat message styles.
+
 
 ## Settings UI Search Results
 
