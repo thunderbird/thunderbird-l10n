@@ -246,6 +246,16 @@ enable-gloda-search-label =
     .label = Virkja víðtæka leit og atriðaskrá
     .accesskey = i
 datetime-formatting-legend = Dagsetningar- og tímasnið
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Staðfærsla forrits: { $localeName }
+    .accesskey = o
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Staðsetning fyrir svæðisbundnar stillingar: { $localeName }
+    .accesskey = e
 display-language-legend = Tungumál birtingar
 allow-graphics-accel =
     .label = Nota skjákortshröðun fyrir mýkra skrun og betri afköst
@@ -506,6 +516,10 @@ applications-delete-action-confirm = Ertu viss um að þú viljir eyða þessari
 #                                "Portable Document Format (PDF)".
 #   $type (String) - The MIME type of the content, for example "application/pdf".
 applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Portable Document Format (PDF)
+applications-preview-in-app = Forskoða í { -brand-short-name }
+    .label = Forskoða í { -brand-short-name }
+    .tooltiptext = Forskoða í { -brand-short-name }
 save-to-label =
     .label = Vista skrár yfir á
     .accesskey = s
@@ -826,6 +840,13 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Finna fleiri veitur…
 cloud-account-description = Bæta við nýrri Filelink-geymsluþjónustu fyrir skrár
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Bæta við { $providerName }
+    .tooltiptext = Bæta við { $providerName }
+filelink-account-not-configured =
+    .title = Þessi reikningur hefur enn ekki verið stilltur
 
 ## Privacy Tab
 
