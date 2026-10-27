@@ -174,6 +174,16 @@ enable-gloda-search-label =
     .label = Увімкнути глобальний пошук та індексацію
     .accesskey = і
 datetime-formatting-legend = Формат дати та часу
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Мова програми: { $localeName }
+    .accesskey = М
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Регіональні налаштування: { $localeName }
+    .accesskey = Р
 language-selector-legend = Мова
 allow-hw-accel =
     .label = Використовувати апаратне прискорення, якщо можливо
