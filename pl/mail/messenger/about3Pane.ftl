@@ -593,3 +593,18 @@ folder-pane-context-compact =
 folder-pane-context-compact-all =
     .label = Porządkuj wszystkie foldery
     .accesskey = f
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = Usuń Folder
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = &Usuń folder
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = Czy na pewno usunąć folder „{ $name }”?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = Usunięcie tego folderu jest operacją nieodwracalną i spowoduje usunięcie wszystkich zawartych w nim wiadomości oraz podfolderów. Czy na pewno kontynuować usuwanie folderu „{ $name }”?
