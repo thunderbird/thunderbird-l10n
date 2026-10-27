@@ -249,6 +249,13 @@ offline-settings = Swel iɣewwaṛan n uskar aruqqin
 offline-settings-button =
     .label = Aruqqin…
     .accesskey = r
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Tuffir inek tseqdac { $size } { $unit } n umkan deg udebṣi
+actual-disk-cache-size-calculating =
+    .value = Asiḍen n teɣzi n tuffirt…
 diskspace-legend = Tallunt n udebṣi
 offline-compact-folder =
     .label = Ssed akk ikaramen ma yella ad yeḥrez amkan ugar n
@@ -359,6 +366,10 @@ mark-read-delay =
     .label = Ticki yettwaskan di
     .accesskey = T
 seconds-label = tasinin
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -551,6 +562,12 @@ security-devices-button =
     .label = Ibenkan n tɣellist…
     .accesskey = k
 
+## DoH Section
+
+
+## Keyservers
+
+
 ## Chat Tab
 
 startup-label =
@@ -572,7 +589,7 @@ idle-label =
     .accesskey = I
 idle-time-label = tisdatin anda ulac-iyi
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = u sbadu addad inu ɣer Ulac-it s yizen-agi n waddad
@@ -647,6 +664,9 @@ search-preferences-input2 =
     .placeholder = Af deg yiɣewwaren
     .style = width: 15.4em
 
+## Content of the preview conversation for chat message styles.
+
+
 ## Settings UI Search Results
 
 search-results-header = Igmaḍ n unadi
@@ -693,3 +713,9 @@ show-synced-item-calendar = Iwitayen
 show-synced-item-identity = Timagin
 show-synced-item-passwords = Awalen uffiren
 show-synced-change = Snifel...
+
+## Mobile QR Export Pane
+
+
+## Appearance Tab
+
