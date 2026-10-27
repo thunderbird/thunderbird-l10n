@@ -576,3 +576,9 @@ folder-pane-context-compact =
 folder-pane-context-compact-all =
     .label = Optimer alle mapper
     .accesskey = m
+
+## Confirmation prompts shown before deleting a folder.
+
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Sletning af mappen '{ $name }' vil deaktivere dens associerede filtre. Er du sikker på, at du vil slette denne mappe?
