@@ -512,6 +512,10 @@ applications-delete-action-confirm = Är du säker på att du vill ta bort den h
 #                                "Portable Document Format (PDF)".
 #   $type (String) - The MIME type of the content, for example "application/pdf".
 applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Portabelt dokumentformat (PDF)
+applications-preview-in-app = Förhandsgranska i { -brand-short-name }
+    .label = Förhandsgranska i { -brand-short-name }
+    .tooltiptext = Förhandsgranska i { -brand-short-name }
 save-to-label =
     .label = Spara filer till
     .accesskey = S
