@@ -72,6 +72,16 @@ enable-gloda-search-label =
     .label = אפשר חיפוש גלובלי ואינדוקס
     .accesskey = ח
 datetime-formatting-legend = תבנית תאריך ושעה
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = שפת היישום: { $localeName }
+    .accesskey = ש
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = הגדרות מקומיות: { $localeName }
+    .accesskey = ק
 allow-hw-accel =
     .label = שימוש בהאצת חומרה כשניתן
     .accesskey = ח
