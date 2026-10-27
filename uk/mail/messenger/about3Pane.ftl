@@ -565,3 +565,9 @@ folder-pane-context-mark-folder-read =
            *[many] Позначити теки прочитаними
         }
     .accesskey = П
+
+## Confirmation prompts shown before deleting a folder.
+
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Видалення теки '{ $name }' призведе до вимкнення пов'язаних з нею фільтрів. Ви дійсно хочете видалити теку?
