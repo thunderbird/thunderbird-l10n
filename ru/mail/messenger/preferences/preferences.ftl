@@ -521,6 +521,10 @@ mark-read-delay =
     .label = После просмотра в течение
     .accesskey = т
 seconds-label = сек.
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 mark-read-after-viewing =
     .label = После просмотра в течение
     .accesskey = v
@@ -786,6 +790,11 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Найти больше провайдеров…
 cloud-account-description = Добавить новую службу хранения Filelink
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Добавить { $providerName }
+    .tooltiptext = Добавить { $providerName }
 
 ## Privacy Tab
 
@@ -1076,7 +1085,7 @@ idle-label =
     .accesskey = е
 idle-time-label = минут неактивности
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = и установить мой статус как «Отошёл» вместе с этим сообщением:
@@ -1152,6 +1161,9 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = { -brand-short-name } управляется организацией.
 managed-notice = { -brand-short-name } управляется вашей организацией.
+
+## Content of the preview conversation for chat message styles.
+
 
 ## Settings UI Search Results
 
