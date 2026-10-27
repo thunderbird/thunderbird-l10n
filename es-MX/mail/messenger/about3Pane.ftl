@@ -576,3 +576,9 @@ folder-pane-context-compact =
 folder-pane-context-compact-all =
     .label = Compactar todas las carpetas
     .accesskey = F
+
+## Confirmation prompts shown before deleting a folder.
+
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Al borrar la carpeta '{ $name }' se desactivarán los filtros asociados. ¿Seguro que quiere borrar la carpeta?
