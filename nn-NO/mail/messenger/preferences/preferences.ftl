@@ -294,6 +294,13 @@ offline-settings = Konfigurer innstillingar for fråkopla modus
 offline-settings-button =
     .label = Fråkopla …
     .accesskey = F
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Snøgglageret ditt brukar no { $size } { $unit } av disken
+actual-disk-cache-size-calculating =
+    .value = Kalkulerer storleiken på snøgglageret…
 diskspace-legend = Diskplass
 offline-compact-folder =
     .label = Komprimer alle mapper når det vil spara meir enn
