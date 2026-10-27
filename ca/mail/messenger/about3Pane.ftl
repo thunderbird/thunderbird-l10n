@@ -568,3 +568,6 @@ folder-delete-confirm = Esteu segur que voleu suprimir la carpeta «{ $name }»?
 # Variables:
 #   $name (String) - Name of the folder being deleted.
 folder-delete-no-trash-confirm = La supressió de la carpeta no es pot desfer i se suprimiran tots els missatges que conté, així com les seves subcarpetes. Esteu segur que voleu suprimir la carpeta «{ $name }»?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Si suprimiu la carpeta «{ $name }» n'inhabilitareu els filtres associats. Esteu segur que voleu suprimir la carpeta?
