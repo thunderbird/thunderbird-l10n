@@ -591,3 +591,6 @@ folder-delete-confirm = Voulez-vous vraiment supprimer le dossier « { $name }�
 # Variables:
 #   $name (String) - Name of the folder being deleted.
 folder-delete-no-trash-confirm = La suppression de ce dossier sera irréversible et vous perdrez tous les messages qu’il contient ainsi que ses sous-dossiers. Voulez-vous vraiment supprimer le dossier « { $name } » ?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Supprimer le dossier « { $name } » désactivera les filtres associés. Voulez-vous vraiment effacer ce dossier ?
