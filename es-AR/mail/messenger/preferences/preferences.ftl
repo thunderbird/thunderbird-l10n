@@ -470,6 +470,15 @@ search-handler-table =
     .placeholder = Filtrar tipos de contenido y acciones
 type-column-header = Tipo de contenido
 action-column-header = Acción
+download-folder-desktop = Escritorio
+download-folder-system = Mis descargas
+download-choose-folder-title = Seleccionar carpeta
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension } archivo
+applications-save-file = Guardar archivo
+    .label = Guardar archivo
+    .tooltiptext = Guardar archivo
 save-to-label =
     .label = Guardar archivos en
     .accesskey = G
@@ -521,6 +530,10 @@ mark-read-delay =
     .label = Después de mostrar por
     .accesskey = D
 seconds-label = segundos
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 mark-read-after-viewing =
     .label = Después de ver por
     .accesskey = v
@@ -1072,7 +1085,7 @@ idle-label =
     .accesskey = i
 idle-time-label = minutos de inactividad
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = y establecer mi estado como Ausente con el siguiente mensaje de estado:
@@ -1148,6 +1161,9 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = { -brand-short-name } es administrado por una organización.
 managed-notice = { -brand-short-name } está siendo administrado por su organización.
+
+## Content of the preview conversation for chat message styles.
+
 
 ## Settings UI Search Results
 
