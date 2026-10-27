@@ -229,6 +229,7 @@ use-custom-sound-label =
 mail-select-audio-button =
     .label = Hang kiválasztása…
     .accesskey = H
+sound-file-picker-title = Hang kiválasztása
 enable-global-search-label =
     .label = Keresés bekapcsolása az összes e-mail-fiókban
     .accesskey = K
@@ -487,6 +488,43 @@ search-handler-table =
     .placeholder = Tartalomtípusok és műveletek szűrése
 type-column-header = Tartalomtípus
 action-column-header = Művelet
+download-folder-desktop = Asztal
+download-folder-system = Letöltések
+download-choose-folder-title = Válasszon mappát
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension } fájl
+applications-save-file = Fájl mentése
+    .label = Fájl mentése
+    .tooltiptext = Fájl mentése
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = { $appName } használata
+    .label = { $appName } használata
+    .tooltiptext = { $appName } használata
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = { $appName } használata (alapértelmezett)
+    .label = { $appName } használata (alapértelmezett)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Másik használata…
+    .tooltiptext = Másik használata…
+applications-choose-app-title = Segédalkalmazás kiválasztása
+applications-manage-app =
+    .label = Alkalmazás részletei…
+applications-always-ask = Rákérdezés mindig
+    .label = Rákérdezés mindig
+    .tooltiptext = Rákérdezés mindig
+applications-delete-action =
+    .label = Művelet törlése
+applications-delete-action-title = Művelet törlése
+applications-delete-action-confirm = Biztosan törölni kívánja ezt a műveletet?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
 applications-type-pdf = Hordozható dokumentumformátum (PDF)
 applications-preview-in-app = Előnézet { -brand-short-name }ben
     .label = Előnézet { -brand-short-name }ben
@@ -818,6 +856,9 @@ filelink-add-provider =
     .tooltiptext = { $providerName } hozzáadása
 filelink-account-not-configured =
     .title = Ez a fiók még nem lett beállítva
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Biztos benne, hogy el akarja távolítani ezt a fiókot: „{ $accountName }”?
 
 ## Privacy Tab
 
@@ -929,6 +970,8 @@ spam-log-button =
 reset-spam-button =
     .label = Tanulási adatok törlése
     .accesskey = T
+confirm-reset-junk-training-title = Megerősítés
+confirm-reset-junk-training-message = Biztosan törli az adaptív szűrő tanulási adatait?
 scam-detection-description = A { -brand-short-name } ellenőrzi az üzeneteket, adathalász hivatkozásokat és az e-mailes átverések gyakori jeleit keresve.
 scam-detection-label =
     .label = Figyelmeztetés, ha átverésnek látszó e-mailt olvas
@@ -1187,6 +1230,15 @@ managed-notice = A { -brand-short-name }ot a szervezete kezeli.
 
 ## Content of the preview conversation for chat message styles.
 
+chat-theme-preview-default =
+    .label = Alapértelmezett
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Üdv! :-)
+chat-theme-preview-message-2 = Mi a helyzet?
+chat-theme-preview-message-3 = Kipróbálom a { -brand-short-name }öt! :-)
 
 ## Settings UI Search Results
 
