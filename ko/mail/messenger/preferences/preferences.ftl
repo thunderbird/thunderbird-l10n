@@ -223,6 +223,16 @@ enable-gloda-search-label =
     .label = 전체 검색 및 색인 사용함
     .accesskey = E
 datetime-formatting-legend = 날짜와 시간 형식
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = 어플리케이션 지역: { $localeName }
+    .accesskey = p
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = 지역 설정 지역: { $localeName }
+    .accesskey = g
 allow-graphics-accel =
     .label = 더 부드러운 스크롤과 성능을 위해 그래픽 가속 사용
     .accesskey = h
@@ -737,6 +747,13 @@ remove-cloud-account =
 find-cloud-providers =
     .value = 다른 제공 업체 찾기…
 cloud-account-description = 새로운 파일 공유 스토리지 서비스를 추가합니다
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = { $providerName } 추가
+    .tooltiptext = { $providerName } 추가
+filelink-account-not-configured =
+    .title = 이 계정은 아직 설정되지 않았습니다.
 
 ## Privacy Tab
 
