@@ -536,3 +536,9 @@ folder-pane-context-compact =
 folder-pane-context-compact-all =
     .label = Làm gọn tất cả thư mục
     .accesskey = F
+
+## Confirmation prompts shown before deleting a folder.
+
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Xóa thư mục '{ $name }' cũng sẽ vô hiệu hóa các bộ lọc của nó. Bạn có chắc là bạn muốn xóa thư mục không?
