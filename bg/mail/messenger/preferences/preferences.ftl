@@ -171,6 +171,7 @@ tray-icon-unread-description = Препоръчва се при използва
 mail-system-sound-label =
     .label = Стандартен системен звук за нови писма
     .accesskey = С
+sound-file-picker-title = Избор на звук
 mail-custom-sound-label =
     .label = Използване на следния звуков файл
     .accesskey = И
@@ -386,6 +387,10 @@ mark-read-delay =
     .label = След показване за
     .accesskey = д
 seconds-label = секунди
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -770,7 +775,7 @@ idle-label =
     .accesskey = н
 idle-time-label = минути
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = и задаване на състояние Далеч със следното съобщение:
@@ -845,6 +850,9 @@ search-preferences-input2 =
     .placeholder = Търсене в настройките
     .style = width: 16em
 managed-notice = { -brand-short-name } се управлява от вашата организация.
+
+## Content of the preview conversation for chat message styles.
+
 
 ## Settings UI Search Results
 
