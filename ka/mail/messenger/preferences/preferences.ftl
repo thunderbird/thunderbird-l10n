@@ -580,10 +580,6 @@ mark-read-delay =
     .label = მოცემული დროით ჩვენების შემდეგ
     .accesskey = დ
 seconds-label = წამი
-
-## Note: This will concatenate to "After viewing for [___] seconds",
-## using (mark-read-after-viewing) and a number (seconds-label).
-
 mark-read-after-viewing =
     .label = ნახვის შემდეგ
     .accesskey = ნ

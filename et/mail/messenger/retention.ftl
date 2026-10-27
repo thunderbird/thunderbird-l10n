@@ -10,9 +10,6 @@ retention-tab =
 retention-use-default =
     .label = Kasutatakse minu konto sätteid
     .accesskey = s
-
-## Account Settings
-
 retention-button =
     .label = Säilitamise reeglid
 retention-dialog-title = Säilitamise reeglid

@@ -5,5 +5,5 @@
 shortcuts-close-button-title =
     .title = Mbylle
 shortcuts-close-button =
-    .title = Mbylle
     .aria-label = Mbylle
+    .title = Mbylle

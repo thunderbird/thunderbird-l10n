@@ -10,9 +10,6 @@ retention-tab =
 retention-use-default =
     .label = השתמש בהגדרות החשבון
     .accesskey = ח
-
-## Account Settings
-
 retention-button =
     .label = מדיניות שמירה
 retention-dialog-title = מדיניות שמירה

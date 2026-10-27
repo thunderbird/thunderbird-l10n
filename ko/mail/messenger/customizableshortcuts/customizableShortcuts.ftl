@@ -5,5 +5,5 @@
 shortcuts-close-button-title =
     .title = 닫기
 shortcuts-close-button =
-    .title = 닫기
     .aria-label = 닫기
+    .title = 닫기

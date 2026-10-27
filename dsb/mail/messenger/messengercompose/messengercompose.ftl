@@ -40,7 +40,7 @@ compose-invalid-address-title = Njepłaśiwa dostawaŕska adresa
 compose-no-recipients = Žedne dostawarje pódane. Zapódajśo pšosym dostawarja abo dislusijnu kupku do adresowego póla.
 # Variables:
 # $address - invalid email address
-compose-invalid-address = { $address } njejo płaśiwa e-mailowa adresa, dokulaž njama forma wužywaŕ@host. Musyśo ju korigěrowaś, nježli až sćelośo e-mail.
+compose-invalid-address = { $address } njejo płaśiwa e-mailowa adresa, dokulaž njama formu wužywaŕ@host. Musyśo ju korigěrowaś, nježli až sćelośo e-mail.
 compose-quit-sending-title = Powěsć pósłaś
 compose-quit-saving-title = Powěsć składowaś
 # Variables:
@@ -92,7 +92,7 @@ find-replace-button =
 # $identity - identity address that would otherwise be used
 compose-custom-from-address-placeholder = Swójsku wótpósłaŕsku adresu zapódaś, aby se město { $identity } wužywała
 compose-custom-from-address-title = Z adrese pśiměriś
-compose-custom-from-address-warning = Jolic waš e-mailowy póbitowaŕ to pódpěra, zmóžnja wam funkcija „Z adrese pśiměriś“, jadnorazowu snadnu změnu na wašej wótpósłaŕskej adresy pśewjasć, bźez togo, aby musył nowu identitu w kontowych nastajenjach napórał. Jolic na pśikład waša wótpósłaŕska adresa jo John Doe <john@example.com>, móžośo ju do John Doe <john+doe@example.com> abo John <john@example.com> změniś.
+compose-custom-from-address-warning = Jolic waš e-mailowy póbitowaŕ to pódpěra, zmóžnja wam funkcija „Z adrese pśiměriś“, jadnorazowu snadnu změnu na wašej wótpósłaŕskej adresy pśewjasć, bźez togo, aby musył nowu identitu w kontowych nastajenjach napóraś. Jolic na pśikład waša wótpósłaŕska adresa jo John Doe <john@example.com>, móžośo ju do John Doe <john+doe@example.com> abo John <john@example.com> změniś.
 compose-custom-from-address-ignore = Wó tom wěcej njeinforměrowaś
 compose-blocked-content-options-button = Nastajenja
 compose-blocked-content-options-accesskey = N

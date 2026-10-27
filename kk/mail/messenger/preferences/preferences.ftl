@@ -580,10 +580,6 @@ mark-read-delay =
     .label = Келесі уақыт бойы көрген соң
     .accesskey = р
 seconds-label = секунд
-
-## Note: This will concatenate to "After viewing for [___] seconds",
-## using (mark-read-after-viewing) and a number (seconds-label).
-
 mark-read-after-viewing =
     .label = Мына уақыт бойы қарағаннан кейін:
     .accesskey = М

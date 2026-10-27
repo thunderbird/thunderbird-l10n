@@ -5,5 +5,5 @@
 shortcuts-close-button-title =
     .title = Cau
 shortcuts-close-button =
-    .title = Cau
     .aria-label = Cau
+    .title = Cau

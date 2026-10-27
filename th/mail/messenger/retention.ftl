@@ -10,9 +10,6 @@ retention-tab =
 retention-use-default =
     .label = ใช้การตั้งค่าบัญชีของฉัน
     .accesskey = ใ
-
-## Account Settings
-
 retention-button =
     .label = นโยบายการเก็บข้อมูล
 retention-dialog-title = นโยบายการเก็บข้อมูล

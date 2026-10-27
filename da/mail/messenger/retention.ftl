@@ -10,9 +10,6 @@ retention-tab =
 retention-use-default =
     .label = Brug mine kontoindstillinger
     .accesskey = B
-
-## Account Settings
-
 retention-button =
     .label = Retningslinjer for opbevaring
 retention-dialog-title = Retningslinjer for opbevaring

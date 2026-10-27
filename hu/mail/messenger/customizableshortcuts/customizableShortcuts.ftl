@@ -5,5 +5,5 @@
 shortcuts-close-button-title =
     .title = Bezárás
 shortcuts-close-button =
-    .title = Bezárás
     .aria-label = Bezárás
+    .title = Bezárás

@@ -10,9 +10,6 @@ retention-tab =
 retention-use-default =
     .label = Выкарыстоўваць налады майго ўліковага запісу
     .accesskey = У
-
-## Account Settings
-
 retention-button =
     .label = Палітыка ўтрымання
 retention-dialog-title = Палітыка ўтрымання

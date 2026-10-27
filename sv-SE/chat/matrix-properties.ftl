@@ -276,6 +276,7 @@ message-redacted = Meddelandet redigerats.
 message-reaction = { $userThatReacted } reagerade på { $userThatSentMessage } med { $reaction }.
 #    Label in the message context menu
 message-action-request-key = Begär nycklar på nytt
+#    Label in the message context menu
 message-action-redact = Redigera
 message-action-report = Rapportera meddelande
 message-action-retry = Försök att skicka igen

@@ -10,9 +10,6 @@ retention-tab =
 retention-use-default =
     .label = Օգտ. իմ փոստարկղի կարգավորումները
     .accesskey = U
-
-## Account Settings
-
 retention-button =
     .label = Անդամակցության Քաղաքականությունը
 retention-dialog-title = Անդամակցության Քաղաքականությունը

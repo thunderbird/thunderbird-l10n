@@ -132,6 +132,7 @@ message-verification-done = Նույնականացումը ավարտվեց:
 message-decrypting = Վերծանում…
 #    Label in the message context menu
 message-action-request-key = Կրկին պահանջել բանալիներ
+#    Label in the message context menu
 message-action-redact = Խմբագրել
 message-action-report = Ուղարկել նամակ
 message-action-retry = Կրկին փորձեք ուղարկել

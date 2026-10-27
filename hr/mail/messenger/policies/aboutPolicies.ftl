@@ -12,3 +12,6 @@ inactive-message = Usluga Pravila poduzeća nije aktivna.
 policy-name = Naziv pravila
 policy-value = Vrijednost pravila
 policy-errors = Greške pravila
+# Shown under the name of a policy in the Active list when at least one of the
+# operations of that policy failed to apply. The Errors tab has the details.
+policy-not-fully-applied = Nije u potpunosti primijenjeno

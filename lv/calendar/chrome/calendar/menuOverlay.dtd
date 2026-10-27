@@ -11,6 +11,8 @@
 <!ENTITY calendar.import.accesskey "I">
 <!ENTITY calendar.export.label "Izgūt…">
 <!ENTITY calendar.export.accesskey "g">
+<!ENTITY calendar.publish.label "Publicēt...">
+<!ENTITY calendar.publish.accesskey "b">
 <!ENTITY calendar.deletecalendar.label "Izdzēst atlasīto kalendāru…">
 <!ENTITY calendar.deletecalendar.accesskey "d">
 <!ENTITY calendar.unsubscribecalendar.label "Atcelt atlasītā kalendāra abonēšanu…">
@@ -22,3 +24,11 @@
 <!ENTITY calendar.removecalendar.accesskey "N">
 <!ENTITY showUnifinderCmd.label "Atrast notikumus">
 <!ENTITY showUnifinderCmd.accesskey "F">
+<!ENTITY showUnifinderCmd.tooltip "Pārslēgt notikumu meklēšanas rūti">
+<!ENTITY calendar.displaytodos.checkbox.label "Rādīt uzdevumus kalendārā">
+<!ENTITY calendar.displaytodos.checkbox.accesskey "T">
+<!ENTITY goTodayCmd.label "Šodien">
+<!ENTITY goTodayCmd.accesskey "d">
+<!ENTITY showCurrentView.label "Pašreizējais skats">
+<!ENTITY showCurrentView.accesskey "s">
+<!ENTITY calendar.properties.label "Kalendāra īpašības…">

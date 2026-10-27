@@ -41,9 +41,6 @@ confirm-messenger-language-change-button = طبِّق وأعِد التشغيل
 update-setting-write-failure-title = حدث عُطل أثناء تحديث التفضيلات
 update-in-progress-title = يجري الآن التحديث
 
-## OS Authentication dialog
-
-
 ## General Tab
 
 focus-search-shortcut =
@@ -324,10 +321,6 @@ mark-read-delay =
     .accesskey = ض
 seconds-label = ثانية
 
-## Note: This will concatenate to "After viewing for [___] seconds",
-## using (mark-read-after-viewing) and a number (seconds-label).
-
-
 ##
 
 open-msg-label =
@@ -496,12 +489,6 @@ ocsp-label =
     .label = استعلم من خواديم مستجيبي OCSP عن الصلاحية الحالية للشهادات
     .accesskey = س
 
-## DoH Section
-
-
-## Keyservers
-
-
 ## Chat Tab
 
 startup-label =
@@ -596,15 +583,3 @@ chat-theme-preview-buddy-2 = hussam@im.instantbird.org
 chat-theme-preview-message-1 = مرحبا! :-)
 chat-theme-preview-message-2 = ماذا يجري؟
 chat-theme-preview-message-3 = أجرّب { -brand-short-name }! ;-)
-
-## Settings UI Search Results
-
-
-## Sync Tab
-
-
-## Mobile QR Export Pane
-
-
-## Appearance Tab
-

@@ -276,6 +276,7 @@ message-redacted = 메시지가 수정되었습니다.
 message-reaction = { $userThatReacted } 님이 { $userThatSentMessage } 님에게 { $reaction }로 반응했습니다.
 #    Label in the message context menu
 message-action-request-key = 키 재요청
+#    Label in the message context menu
 message-action-redact = 수정
 message-action-report = 메시지 신고
 message-action-retry = 발송 재시도

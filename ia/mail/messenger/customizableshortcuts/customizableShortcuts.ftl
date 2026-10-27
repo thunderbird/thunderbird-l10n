@@ -5,5 +5,5 @@
 shortcuts-close-button-title =
     .title = Clauder
 shortcuts-close-button =
-    .title = Clauder
     .aria-label = Clauder
+    .title = Clauder

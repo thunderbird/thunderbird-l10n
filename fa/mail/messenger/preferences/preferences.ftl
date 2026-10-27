@@ -516,10 +516,6 @@ mark-read-delay =
     .label = پس از نمایش به مدت
     .accesskey = پ
 seconds-label = ثانیه
-
-## Note: This will concatenate to "After viewing for [___] seconds",
-## using (mark-read-after-viewing) and a number (seconds-label).
-
 mark-read-after-viewing =
     .label = پس از دیدن به مدت
     .accesskey = د
@@ -588,7 +584,7 @@ dark-mode-toggle-description = به شما امکان می‌دهد هنگام �
 general-folder-settings-header = تنظیمات پوشه
 recent-folders-legend = پوشه‌های اخیر
 recent-folders-description = نحوهٔ نمایش پوشه‌های اخیراً استفاده‌شده هنگام انتقال پیام‌ها را تعیین می‌کند.
-dark-message-mode-toggle-description = نمایش کلیدی در سرصفحهٔ پیام برای غیرفعال کردن سریع حالت تیرهٔ پیام
+dark-message-mode-toggle-description = نمایش کلیدی در سرایند پیام برای ازکار انداختن سریع حالت تیرهٔ پیام
 general-folder-options-header = گزینه‌های مدیریت پوشه
 recent-destinations-legend = مقصدهای اخیر
 recent-destinations-description = گزینه‌های فهرست کردن و مرتب‌سازی پوشه‌هایی که اخیراً پیام‌ها به آن‌ها منتقل شده‌اند.
@@ -1165,6 +1161,12 @@ chat-theme-preview-default =
 ## Settings UI Search Results
 
 search-results-header = نتایج جست‌وجو
+# `<span data-l10n-name="query"></span>` will be replaced by the search term.
+search-results-empty-message2 =
+    { PLATFORM() ->
+        [windows] متاسفیم! هیچ نتیجه‌ای در بخش گزینه‌ها برای عبارت «<span data-l10n-name="query"></span>» وجود ندارد.
+       *[other] متأسفیم! هیچ نتیجه‌ای در تنظیمات برای «<span data-l10n-name="query"></span>» پیدا نشد.
+    }
 search-results-help-link = کمک لازم دارید؟ به <a data-l10n-name="url">پشتیبانی { -brand-short-name }</a> بروید
 
 ## Sync Tab
@@ -1247,6 +1249,8 @@ qr-export-scan-description =
     }
 qr-export-scan-step1 = { -brand-product-name } را روی دستگاه همراه خود باز کنید
 qr-export-scan-step2 = به تنظیمات بروید
+# The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=bd1817a6fc9f758b&sort_by=-priority,position#translations
+qr-export-scan-step3 = <strong>تنظیمات درون‌ریزی</strong> را انتخاب کنید
 # The strong label should match https://hosted.weblate.org/translate/tb-android/settings-import/en/?checksum=0db0b6c1d176a59b&sort_by=-priority,position#translations
 qr-export-scan-step4-revision = روی <strong>اسکن کد QR</strong> بزنید و تلفن خود را روی این کد نگه دارید
 qr-export-back = بازگشت

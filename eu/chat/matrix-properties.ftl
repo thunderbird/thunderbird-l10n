@@ -276,6 +276,7 @@ message-redacted = Mezua idatzi da.
 message-reaction = { $userThatSentMessage }(e)n mezuari { $userThatReacted }(e)k { $reaction }(e)kin erreakzionatu du.
 #    Label in the message context menu
 message-action-request-key = Berriz eskatu gakoak
+#    Label in the message context menu
 message-action-redact = Idatzi
 message-action-report = Eman mezuaren berri
 message-action-retry = Saiatu berriz bidaltzen

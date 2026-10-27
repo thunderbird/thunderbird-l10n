@@ -12,9 +12,6 @@ pane-calendar-title = Taqvim
 category-calendar =
     .tooltiptext = Taqvim
 
-## OS Authentication dialog
-
-
 ## General Tab
 
 focus-search-shortcut =
@@ -252,10 +249,6 @@ mark-read-delay =
     .accesskey = d
 seconds-label = soniyadan so‘ng
 
-## Note: This will concatenate to "After viewing for [___] seconds",
-## using (mark-read-after-viewing) and a number (seconds-label).
-
-
 ##
 
 open-msg-label =
@@ -415,12 +408,6 @@ ocsp-label =
     .label = OCSP javob berish serverlari sertifikatlarining joriy yaroqliligini tasdiqlash uchun so‘rov jo‘natish
     .accesskey = s
 
-## DoH Section
-
-
-## Keyservers
-
-
 ## Chat Tab
 
 startup-label =
@@ -475,18 +462,3 @@ chat-custom-sound-label =
 chat-browse-sound-button =
     .label = Ko‘rish…
     .accesskey = r
-
-## Content of the preview conversation for chat message styles.
-
-
-## Settings UI Search Results
-
-
-## Sync Tab
-
-
-## Mobile QR Export Pane
-
-
-## Appearance Tab
-

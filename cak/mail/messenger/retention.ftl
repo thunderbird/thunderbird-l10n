@@ -10,9 +10,6 @@ retention-tab =
 retention-use-default =
     .label = Tinwokisaj kinuk'ulem ri rub'i' nutaqoya'l
     .accesskey = o
-
-## Account Settings
-
 retention-button =
     .label = Runa'ojil K'amonem
 retention-dialog-title = Runa'ojil K'amonem

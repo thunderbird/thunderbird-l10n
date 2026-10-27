@@ -10,9 +10,6 @@ retention-tab =
 retention-use-default =
     .label = 내 계정 설정으로 사용
     .accesskey = U
-
-## Account Settings
-
 retention-button =
     .label = 메시지 보관 정책
 retention-dialog-title = 메시지 보관 정책

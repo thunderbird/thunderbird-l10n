@@ -419,10 +419,6 @@ mark-read-delay =
     .accesskey = T
 seconds-label = tasinin
 
-## Note: This will concatenate to "After viewing for [___] seconds",
-## using (mark-read-after-viewing) and a number (seconds-label).
-
-
 ##
 
 open-msg-label =
@@ -626,12 +622,6 @@ security-devices-button =
     .label = Ibenkan n tɣellist…
     .accesskey = k
 
-## DoH Section
-
-
-## Keyservers
-
-
 ## Chat Tab
 
 startup-label =
@@ -786,9 +776,3 @@ show-synced-item-calendar = Iwitayen
 show-synced-item-identity = Timagin
 show-synced-item-passwords = Awalen uffiren
 show-synced-change = Snifel...
-
-## Mobile QR Export Pane
-
-
-## Appearance Tab
-

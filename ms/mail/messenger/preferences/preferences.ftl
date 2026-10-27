@@ -20,9 +20,6 @@ manage-messenger-languages-button =
 confirm-messenger-language-change-description = Mula semula { -brand-short-name } untuk melaksanakan perubahan ini
 confirm-messenger-language-change-button = Terap dan Mula semula
 
-## OS Authentication dialog
-
-
 ## General Tab
 
 focus-search-shortcut =
@@ -303,10 +300,6 @@ mark-read-delay =
     .accesskey = d
 seconds-label = saat
 
-## Note: This will concatenate to "After viewing for [___] seconds",
-## using (mark-read-after-viewing) and a number (seconds-label).
-
-
 ##
 
 open-msg-label =
@@ -481,12 +474,6 @@ ocsp-label =
     .label = Minta penggerak balas pelayan OCSP untuk mengesahkan kesahihan sijil semasa
     .accesskey = M
 
-## DoH Section
-
-
-## Keyservers
-
-
 ## Chat Tab
 
 startup-label =
@@ -581,15 +568,3 @@ chat-theme-preview-buddy-2 = patrick@im.instantbird.org
 chat-theme-preview-message-1 = Hai! :-)
 chat-theme-preview-message-2 = Apa khabar?
 chat-theme-preview-message-3 = Saya sedang mencuba { -brand-short-name }! ;-)
-
-## Settings UI Search Results
-
-
-## Sync Tab
-
-
-## Mobile QR Export Pane
-
-
-## Appearance Tab
-

@@ -671,10 +671,6 @@ mark-read-delay =
     .label = Až po
     .accesskey = p
 seconds-label = sekundách od zobrazení
-
-## Note: This will concatenate to "After viewing for [___] seconds",
-## using (mark-read-after-viewing) and a number (seconds-label).
-
 mark-read-after-viewing =
     .label = Po zobrazení po dobu
     .accesskey = z

@@ -276,6 +276,7 @@ message-redacted = Mensagem removida
 message-reaction = { $userThatReacted } reagiu a { $userThatSentMessage } com { $reaction }.
 #    Label in the message context menu
 message-action-request-key = Solicitar chaves novamente
+#    Label in the message context menu
 message-action-redact = Remover
 message-action-report = Denunciar mensagem
 message-action-retry = Tentar enviar novamente

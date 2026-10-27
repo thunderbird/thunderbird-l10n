@@ -10,9 +10,6 @@ retention-tab =
 retention-use-default =
     .label = Използване настройките на регистрацията
     .accesskey = И
-
-## Account Settings
-
 retention-button =
     .label = Правила за запазване
 retention-dialog-title = Правила за запазване

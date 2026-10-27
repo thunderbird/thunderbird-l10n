@@ -113,6 +113,8 @@ account-hub-ssl-noencryption-option =
 account-hub-auth-no-authentication-option =
     .label = Bez provjere autentičnosti
 account-hub-auth-label = Metoda provjere autentičnosti
+account-hub-select-option =
+    .label = Odaberi mogućnost
 account-hub-username-label = Korisničko ime
 account-hub-username-warning-icon = Korisničko ime je obavezno
 account-hub-address-book-username-error-text = Unesite korisničko ime
@@ -246,6 +248,10 @@ account-hub-protocol-imap = Sinkronizacija na svim uređajima
 account-hub-protocol-microsoft = Exchange ili Microsoft 365
 account-hub-protocol-pop3 = Preuzmi na uređaj
 account-hub-oauth-unsupported-title = Potrebna je dodatna konfiguracija
+# Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
+# 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
+account-hub-oauth-unsupported-description = { -brand-short-name } ne može automatski konfigurirati OAuth2 za ovaj poslužitelj. Odaberite Napredna konfiguracija za izradu računa, a zatim dovršite postavljanje u Postavkama računa. <a data-l10n-name="oauth-support-link">Potražite pomoć za OAuth2 postavljanje.</a>
+account-hub-username-help-text = Često vaša puna adresa e-pošte
 account-hub-port-help-text = Ako se ostavi prazno, { -brand-short-name } će pokušati otkriti port.
 account-hub-notification-show-more = Prikaži više
 account-hub-notification-show-less = Prikaži manje
@@ -279,6 +285,9 @@ account-hub-config-success-title = Postavke računa su pronađene automatski.
 account-hub-config-success-description-db = Konfiguracija je pronađena u Mozillinom ISPDB-u.
 account-hub-config-success-description-exchange = Pronađena je konfiguracija za Microsoft Exchange poslužitelj.
 account-hub-config-success-description-guess = Konfiguracija je pronađena isprobavanjem čestih naziva poslužitelja.
+account-hub-config-success-description-disk = Konfiguracija je pronađena u instalaciji { -brand-short-name(case: "gen") }
+account-hub-config-success-description-isp = Konfiguracija je pronađena kod pružatelja usluge e-pošte.
+account-hub-config-success-description-read-more = Možete <a data-l10n-name="automated-setup-link">pročitati o tome kako funkcionira automatsko postavljanje e-pošte.</a>
 account-hub-password-info = Vaše vjerodajnice biti će pohranjene samo lokalno na vašem računalu
 account-hub-creating-account = Stvaranje računa…
 account-hub-sync-accounts-found = { -brand-short-name } je pronašao neke povezane usluge
@@ -307,6 +316,7 @@ account-hub-port-error-text = Port mora biti između 1 i 65535
     .title = Port mora biti između 1 i 65535
 account-hub-username-error-text = Korisničko ime je potrebno
     .title = Korisničko ime je potrebno
+account-hub-manual-config-error-summary = Molimo vas da ispravite sljedeće greške:
 account-hub-oauth-pending = Čekanje na autorizaciju u skočnom prozoru za prijavu…
 account-hub-addon-install-button = Instaliraj
 account-hub-addon-error = Instalacija dodatka nije uspjela. Pokušaj ponovno ili kontaktiraj autora dodatka za pomoć.
@@ -316,18 +326,31 @@ account-hub-add-address-book = Dodaj adresar
 address-book-sync-existing-icon =
     .alt = Sinkroniziraj adresar iz postojećeg računa
 address-book-sync-existing = Sinkroniziraj iz postojećeg računa
+address-book-add-remote-icon2 =
+    .alt = Dodaj udaljeni adresar
 address-book-add-remote-icon =
     .alt = Dodaj novi udaljeni adresar
 address-book-add-remote = Dodaj udaljeni adresar
+address-book-add-remote-carddav-description = Spoji se na CardDAV adresar
 address-book-add-remote-description = Spoji se na udaljeni CardDav adresar
 address-book-add-local-icon =
     .alt = Stvori novi lokalni adresar
 address-book-add-local = Novi lokalni adresar
 address-book-add-local-description = Stvori novi lokalni adresar na svojem uređaju
+address-book-add-ldap-icon2 =
+    .alt = Dodaj LDAP adresar
+address-book-add-ldap-button = Dodaj LDAP adresar
 address-book-add-ldap-icon =
     .alt = Spoji se na udaljeni LDAP adresar
 address-book-add-ldap = Novi LDAP adresar
 address-book-add-ldap-description = Spoji se na udaljeni LDAP adresar
+# $addressBooks (Number) - The number of address books that can be synced from existing accounts.
+account-hub-address-book-sync-books-data =
+    { $addressBooks ->
+        [one] Dostupan je { $addressBooks } adresar
+        [few] Dostupna su { $addressBooks } adresara
+       *[other] Dostupno je { $addressBooks } adresara
+    }
 address-book-sync-existing-description = Dohvaćanje postojećih računa…
 account-hub-select-address-book-account = Odaberi račun s adresarima
 # $synced (Number) - The number of address books that are synced.
@@ -340,3 +363,22 @@ account-hub-local-address-book-label = Naziv adresara
 account-hub-local-error-text = Unesi naziv adresara
 account-hub-sync-address-books = Sinkroniziraj postojeće adresare
 account-hub-new-remote-address-book = Novi udaljeni adresar
+
+## Exchange Type Manual Config Step
+
+account-hub-exchange-type-account-type = Vrsta računa
+account-hub-card-graph-title = Microsoft Graph
+account-hub-card-graph-description = Microsoft Graph je moderan načina povezivanja s uslugom Microsoft 365.
+account-hub-card-ews-title = Exchange web servisi
+account-hub-card-ews-tag = Naslijeđe
+account-hub-card-ews-description = Exchange Web Services (EWS) povezuje se s Microsoft Exchange radi sinkronizacije vaše pošte.
+# This is shown after the type description, so "it" is referring to the type (either Microsoft Graph or Exchange Web Services).
+account-hub-card-recommended-description = Preporučuje se jer odgovara URL-u vaše usluge.
+account-hub-exchange-type-username = Korisničko ime
+account-hub-exchange-type-username-hint = Obično vaša adresa e-pošte ili Active Directory UPN.
+account-hub-exchange-type-authentication = Metoda provjere autentičnosti
+# Checkbox that can be unchecked to use a custom OAuth config.
+account-hub-exchange-type-default-oauth = Koristi zadane postavke provjere autentičnosti za Microsoft 365 Copilot
+account-hub-exchange-type-oauth-tenant = ID stanara
+account-hub-exchange-type-oauth-app = ID aplikacije
+account-hub-exchange-type-title = Odaberi vrstu računa

@@ -276,6 +276,7 @@ message-redacted = Mesazhi u redaktua.
 message-reaction = { $userThatReacted } reagoi ndaj { $userThatSentMessage } me { $reaction }.
 #    Label in the message context menu
 message-action-request-key = Rikërko Kyçe
+#    Label in the message context menu
 message-action-redact = Redaktoje
 message-action-report = Raportojeni Mesazhin
 message-action-retry = Riprovo Dërgimin

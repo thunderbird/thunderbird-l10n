@@ -188,6 +188,11 @@ filter-editor-invalid-search-title = Ugyldige søgekriterier
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
 filter-editor-invalid-search-rule = Dette filter kan ikke gemmes, da søgetermen "{ $attribute } { $operator }" er ugyldig i den pågældende sammenhæng.
+filter-editor-missing-value-title = Søgeværdi mangler
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+filter-editor-missing-value-rule = Dette filter kan ikke gemmes, da der ikke er indtastet en værdi for søgeordet "{ $attribute } { $operator }".
 filter-editor-action-order-explanation = Når en meddelelse matcher dette filter, vil dets handlinger udføres i denne rækkefølge:
 filter-editor-action-order-title = Rækkefølge
 # Variables:

@@ -276,6 +276,7 @@ message-redacted = Съобщението беше изтеглено.
 message-reaction = { $userThatReacted } реагира на { $userThatSentMessage } с { $reaction }.
 #    Label in the message context menu
 message-action-request-key = Повторна заявка за ключове
+#    Label in the message context menu
 message-action-redact = Оттегляне
 message-action-report = Докладване на съобщение
 message-action-retry = Повторен опит за изпращане

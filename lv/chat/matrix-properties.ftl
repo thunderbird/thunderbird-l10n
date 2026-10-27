@@ -76,7 +76,7 @@ power-level-custom = Pielāgots
 #    $powerLevelNumber is the power level number
 power-level-detailed = { $powerLevelName } ({ $powerLevelNumber })
 #    $powerLevelName is the power level name
-power-level-default-role = Noklusētā loma: { $powerLevelName }
+power-level-default-role = Noklusējuma loma: { $powerLevelName }
 #    $powerLevelName is the power level name
 power-level-invite-user = Uzaicināt lietotājus: { $powerLevelName }
 #    $powerLevelName is the power level name

@@ -568,10 +568,6 @@ mark-read-delay =
     .accesskey = k
 seconds-label = saniye sonra
 
-## Note: This will concatenate to "After viewing for [___] seconds",
-## using (mark-read-after-viewing) and a number (seconds-label).
-
-
 ##
 
 open-msg-label =

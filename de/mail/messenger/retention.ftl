@@ -10,9 +10,6 @@ retention-tab =
 retention-use-default =
     .label = Einstellungen des Kontos verwenden
     .accesskey = E
-
-## Account Settings
-
 retention-button =
     .label = Aufbewahrungsregeln
 retention-dialog-title = Aufbewahrungsregeln

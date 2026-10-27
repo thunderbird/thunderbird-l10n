@@ -276,6 +276,7 @@ message-redacted = Meldingen ble trukket tilbake.
 message-reaction = { $userThatReacted } reagerte på { $userThatSentMessage } med { $reaction }.
 #    Label in the message context menu
 message-action-request-key = Be om nøkler på nytt
+#    Label in the message context menu
 message-action-redact = Rediger
 message-action-report = Rapporter melding
 message-action-retry = Prøv å sende på nytt

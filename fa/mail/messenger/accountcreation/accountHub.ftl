@@ -379,7 +379,7 @@ account-hub-exchange-type-username = نام کاربری
 account-hub-exchange-type-username-hint = معمولاً نشانی رایانامه یا UPN در Active Directory شما.
 account-hub-exchange-type-authentication = روش احراز هویت
 # Checkbox that can be unchecked to use a custom OAuth config.
-account-hub-exchange-type-default-oauth = استفاده از تنظیمات پیش‌فرض احراز هویت Microsoft 365 Copilot
+account-hub-exchange-type-default-oauth = استفاده از تنظیمات پیش‌گزیده احراز هویت Microsoft 365 Copilot
 account-hub-exchange-type-oauth-tenant = شناسهٔ مستأجر (Tenant)
 account-hub-exchange-type-oauth-app = شناسهٔ برنامه
 account-hub-exchange-type-title = نوع حساب را انتخاب کنید

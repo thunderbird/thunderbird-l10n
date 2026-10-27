@@ -25,7 +25,7 @@
 <!ENTITY folderProps.name.accesskey "N">
 <!ENTITY folderProps.color.label "Ikonas krāsa:">
 <!ENTITY folderProps.color.accesskey "I">
-<!ENTITY folderProps.reset.tooltip "Atjaunot noklusēto krāsu">
+<!ENTITY folderProps.reset.tooltip "Atjaunot noklusējuma krāsu">
 <!ENTITY folderProps.location.label "Vieta:">
 <!ENTITY folderProps.location.accesskey "V">
 <!ENTITY folderSharingTab.label "Koplietošana">

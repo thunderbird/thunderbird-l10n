@@ -16,9 +16,6 @@ manage-messenger-languages-button =
 confirm-messenger-language-change-description = יש להפעיל את { -brand-short-name } מחדש כדי להחיל את השינויים האלה
 confirm-messenger-language-change-button = החלה והפעלה מחדש
 
-## OS Authentication dialog
-
-
 ## General Tab
 
 focus-search-shortcut =
@@ -305,10 +302,6 @@ mark-read-delay =
     .accesskey = א
 seconds-label = שניות
 
-## Note: This will concatenate to "After viewing for [___] seconds",
-## using (mark-read-after-viewing) and a number (seconds-label).
-
-
 ##
 
 open-msg-label =
@@ -477,12 +470,6 @@ certificate-ask =
     .label = שאל אותי תמיד
     .accesskey = מ
 
-## DoH Section
-
-
-## Keyservers
-
-
 ## Chat Tab
 
 startup-label =
@@ -580,12 +567,3 @@ chat-theme-preview-message-3 = עושה ניסוי עם { -brand-short-name }! ;
 ## Settings UI Search Results
 
 search-results-help-link = לעזרה נוספת, נא לפנות אל <a data-l10n-name="url">אתר התמיכה של { -brand-short-name }</a>
-
-## Sync Tab
-
-
-## Mobile QR Export Pane
-
-
-## Appearance Tab
-

@@ -124,9 +124,13 @@ use-document-fonts-checkbox =
 use-fixed-width-plain-checkbox =
     .label = Käytä tasalevyistä kirjasinta pelkkä teksti viesteille
     .accesskey = y
+message-font-permissions-legend = Viestin fontin oikeudet
 allow-incoming-fonts-checkbox =
     .label = Salli saapuvien viestien käyttää omia fonttejaan
     .accesskey = S
+display-fixed-width-plain-checkbox =
+    .label = Näytä pelkkää tekstiä sisältävät viestit kiinteäleveydeisellä fontilla
+    .accesskey = N
 
 ## Language settings
 

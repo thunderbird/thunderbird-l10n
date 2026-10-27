@@ -14,9 +14,6 @@ pane-calendar-title = Kalendar
 category-calendar =
     .tooltiptext = Kalendar
 
-## OS Authentication dialog
-
-
 ## General Tab
 
 focus-search-shortcut =
@@ -296,10 +293,6 @@ mark-read-delay =
     .accesskey = d
 seconds-label = sekundi
 
-## Note: This will concatenate to "After viewing for [___] seconds",
-## using (mark-read-after-viewing) and a number (seconds-label).
-
-
 ##
 
 open-msg-label =
@@ -468,12 +461,6 @@ ocsp-label =
     .label = Upitaj OCSP responsder servere za potvrdu ispravnosti certifikata
     .accesskey = U
 
-## DoH Section
-
-
-## Keyservers
-
-
 ## Chat Tab
 
 startup-label =
@@ -568,15 +555,3 @@ chat-theme-preview-buddy-2 = patrick@im.instantbird.org
 chat-theme-preview-message-1 = Zdravo! :-)
 chat-theme-preview-message-2 = Šta ima?
 chat-theme-preview-message-3 = Isprobavam { -brand-short-name }! ;-)
-
-## Settings UI Search Results
-
-
-## Sync Tab
-
-
-## Mobile QR Export Pane
-
-
-## Appearance Tab
-

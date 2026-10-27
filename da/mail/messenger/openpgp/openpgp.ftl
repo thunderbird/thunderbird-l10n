@@ -208,6 +208,13 @@ openpgp-key-man-change-expiry =
 openpgp-key-man-refresh-online =
     .label = Opdater online
     .accesskey = O
+# Do not translate: PQC
+openpgp-key-man-add-pqc =
+    .label = Generer PQC-krypteringsundernøgle
+    .accesskey = G
+# Do not translate: PQC
+openpgp-pqc-confirm-generate = Generer en krypteringsundernøgle ved hjælp af PQC (post-quantum cryptography - kryptering der kan modstå fremtidig kvanteteknologi)? Det kan tage flere minutter.
+openpgp-pqc-generate-failed = PQC-krypteringsundernøglen kunne ikke genereres.
 openpgp-key-man-ignored-ids =
     .label = Mailadresser
 openpgp-key-man-del-key =
@@ -279,6 +286,8 @@ openpgp-key-details-upgrade-unsafe =
 openpgp-key-details-upgrade-ok = Nøglen blev opgraderet. Du bør dele den opgraderede offentlige nøgle med dine korrespondenter.
 openpgp-key-details-algorithm-label =
     .label = Algoritme
+openpgp-key-details-version-label =
+    .label = Version
 openpgp-key-details-size-label =
     .label = Størrelse
 openpgp-key-details-created-label =
@@ -323,6 +332,7 @@ openpgp-passphrase-instruction-primary-password = Alternativt kan du beskytte de
 openpgp-passphrase-instruction-user-passphrase = Lås denne nøgle op for at ændre dens beskyttelse.
 openpgp-passphrase-unlock = Lås op
 openpgp-passphrase-unlocked = Nøglen er låst op.
+openpgp-passphrase-unlock-failed = Nøglen eller underordnede dele af den kunne ikke låses op.
 openpgp-remove-protection = Fjern adgangsudtrykbeskyttelse
 openpgp-use-primary-password = Fjern adgangsudtrykbeskyttelse og beskyt med hovedadgangskode
 openpgp-passphrase-new = Nyt adgangsudtryk
@@ -749,6 +759,9 @@ key-in-message-body = En nøgle blev fundet i meddelelsesteksten. Klik på 'Impo
 sig-mismatch = Fejl - Uoverensstemmelse i signatur
 invalid-email = Fejl - ugyldig mailadresse
 # Variables:
+#   $name (String) - File name of the attachment.
+attachment-pgp-key-import = Den vedhæftede fil ‘{ $name }’ ser ud til at være en OpenPGP-nøglefil. Vil du importere den nøgle, som den indeholder?
+# Variables:
 # $name (String) - File name of the attachment.
 attachment-pgp-key =
     Den vedhæftede fil '{ $name }', du åbner, ser ud til at være en OpenPGP-nøglefil.
@@ -772,6 +785,8 @@ debug-log-title = OpenPGP fejllog
 dlg-button-ok = &OK
 dlg-button-close = &Luk
 dlg-button-cancel = &Annuller
+dlg-button-open = &Åbn…
+dlg-button-save = &Gem
 dlg-no-prompt = Vis ikke denne dialogboks igen.
 enig-prompt = OpenPGP-prompt
 enig-confirm = OpenPGP-bekræftelse

@@ -75,6 +75,7 @@ send-undisclosed-recipients = nepoznati-primatelji
 # Variables:
 # $recipient - recipient address
 smtp-error-illegal-local-part = Postoje ne-ASCII znakovi u lokalnom dijelu primateljeve adrese { $recipient }, a vaš poslužitelj ne podržava SMTPUTF8. Promjenite adresu i pokušajte ponovno.
+smtp-error-no-recipients = Nisu navedeni primatelji za SMTP dostavu.
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = Poslužitelj odlazne pošte (SMTP) { $hostname } ne podržava kriptirane lozinke. Ako ste tek napravili ovaj račun, pokušajte promijeniti metodu provjere autentičnosti u ‘Postavke računa | Odlazni poslužitelj (SMTP)’ u ‘Lozinka, nesiguran prijenos’. Ako je prije radilo, a sada više ne radi, možda ste podložni krađi vaše lozinke.

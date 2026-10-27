@@ -9,12 +9,19 @@ fonts-label-default =
     .label = Standard ({ $name })
 fonts-label-default-unnamed =
     .label = Standard
+fonts-character-set-legend =
+    .value = Tegnkodning:
+    .accesskey = t
+font-main-style-label =
+    .value = Primær skrifttypestil:
+    .accesskey = p
 fonts-language-legend =
     .value = Skrifttyper for:
     .accesskey = f
 fonts-proportional-label =
     .value = Proportional:
     .accesskey = P
+text-font-options-dialog-title = Tekst- og skrifttypeindstillinger
 
 ## Languages
 
@@ -93,6 +100,9 @@ font-size-monospace-label =
 font-serif-label =
     .value = Serif:
     .accesskey = S
+sans-serif-font-label =
+    .value = Sans-serif skrifttype:
+    .accesskey = n
 font-sans-serif-label =
     .value = Sans-serif:
     .accesskey = n
@@ -114,6 +124,12 @@ use-document-fonts-checkbox =
 use-fixed-width-plain-checkbox =
     .label = Anvend skrifttype med fast bredde til ren tekst-meddelelser
     .accesskey = F
+allow-incoming-fonts-checkbox =
+    .label = Tillad indkommende meddelelser at bruge deres egne skrifttyper
+    .accesskey = o
+display-fixed-width-plain-checkbox =
+    .label = Vis meddelelser i ren tekst med en skrifttype med fast bredde
+    .accesskey = f
 
 ## Language settings
 

@@ -6,9 +6,6 @@ pane-compose-title = Пишување
 category-compose =
     .tooltiptext = Пишување
 
-## OS Authentication dialog
-
-
 ## General Tab
 
 general-legend = Почетна страница на { -brand-short-name }
@@ -53,11 +50,6 @@ offline-settings-button =
     .accesskey = о
 diskspace-legend = Простор на дискот
 
-## Note: The entities use-cache-before and use-temp-storage-after appear on a single
-## line in preferences as follows:
-## use-cache-before [ textbox for cache size in MB ] use-temp-storage-after
-
-
 ##
 
 font-options-button =
@@ -99,17 +91,6 @@ display-tags-text = Етикетите служат за категоризир�
 delete-tag-button =
     .label = Избриши
     .accesskey = з
-
-## Note: This will concatenate to "After viewing for [___] seconds",
-## using (mark-read-after-viewing) and a number (seconds-label).
-
-
-## Note: This will concatenate to "After viewing for [___] seconds",
-## using (mark-read-after-viewing) and a number (seconds-label).
-
-
-##
-
 
 ## Compose Tab
 
@@ -174,37 +155,3 @@ email-picker-label =
 
 confirm-reset-junk-training-title = Потврда
 confirm-reset-junk-training-message = Дали сте сигурни дека сакате да ги ресетирате податоците од тренингот на филтерот?
-
-## DoH Section
-
-
-## Keyservers
-
-
-## Chat Tab
-
-
-## Note: idle-label is displayed first, then there's a field where the user
-## can enter a number, and itemTime is displayed at the end of the line.
-## The translations of the idle-label and idle-time-label parts don't have
-## to mean the exact same thing as in English; please try instead to
-## translate the whole sentence.
-
-
-## Content of the preview conversation for chat message styles.
-
-
-## Content of the preview conversation for chat message styles.
-
-
-## Settings UI Search Results
-
-
-## Sync Tab
-
-
-## Mobile QR Export Pane
-
-
-## Appearance Tab
-

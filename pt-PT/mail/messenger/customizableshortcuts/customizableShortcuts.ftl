@@ -5,5 +5,5 @@
 shortcuts-close-button-title =
     .title = Fechar
 shortcuts-close-button =
-    .title = Fechar
     .aria-label = Fechar
+    .title = Fechar

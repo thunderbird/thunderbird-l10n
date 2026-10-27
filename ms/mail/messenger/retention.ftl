@@ -10,9 +10,6 @@ retention-tab =
 retention-use-default =
     .label = Guna tetapan akaun saya
     .accesskey = G
-
-## Account Settings
-
 retention-button =
     .label = Polisi Pengekalan
 retention-dialog-title = Polisi Pengekalan

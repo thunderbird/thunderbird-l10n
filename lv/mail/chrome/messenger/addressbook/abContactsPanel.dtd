@@ -18,7 +18,7 @@
 <!ENTITY addressbookPicker.accesskey "g">
 <!ENTITY searchContacts.label "Meklēt kontaktus:">
 <!ENTITY searchContacts.accesskey "k">
-<!ENTITY SearchNameOrEmail.label "Vārds vai epasts">
+<!ENTITY SearchNameOrEmail.label "Vārds vai e-pasta adrese">
 <!ENTITY addtoToFieldMenu.label "Pievienot Kam laukam">
 <!ENTITY addtoToFieldMenu.accesskey "P">
 <!ENTITY addtoCcFieldMenu.label "Pievienot kopija laukam">

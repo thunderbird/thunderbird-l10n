@@ -575,10 +575,6 @@ mark-read-delay =
     .label = Μετά από προβολή για
     .accesskey = γ
 seconds-label = δευτερόλεπτα
-
-## Note: This will concatenate to "After viewing for [___] seconds",
-## using (mark-read-after-viewing) and a number (seconds-label).
-
 mark-read-after-viewing =
     .label = Μετά από προβολή για
     .accesskey = τ
@@ -1053,6 +1049,7 @@ preferences-doh-expand-section =
 preferences-doh-setting-automatic =
     .label = Αυτόματη προστασία (προτείνεται)
     .accesskey = Α
+preferences-doh-automatic-desc = Το { -brand-short-name } κρυπτογραφεί αυτόματα τις αναζητήσεις διευθύνσεων, όταν αυτό είναι εφικτό. Εάν προκύψει πρόβλημα σύνδεσης ή αν το απαιτεί κάποιο VPN ή διαχειριζόμενο δίκτυο, τότε καταφεύγει στις τυπικές αναζητήσεις δικτύου.
 preferences-doh-setting-default =
     .label = Προεπιλεγμένη προστασία
     .accesskey = Π

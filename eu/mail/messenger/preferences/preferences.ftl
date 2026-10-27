@@ -448,10 +448,6 @@ mark-read-delay =
     .accesskey = e
 seconds-label = segundoz
 
-## Note: This will concatenate to "After viewing for [___] seconds",
-## using (mark-read-after-viewing) and a number (seconds-label).
-
-
 ##
 
 open-msg-label =
@@ -751,9 +747,6 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = Pertsonalizatua
     .accesskey = P
-
-## Keyservers
-
 
 ## Chat Tab
 

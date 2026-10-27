@@ -5,5 +5,5 @@
 shortcuts-close-button-title =
     .title = Stäng
 shortcuts-close-button =
-    .title = Stäng
     .aria-label = Stäng
+    .title = Stäng

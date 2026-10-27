@@ -417,10 +417,6 @@ mark-read-delay =
     .label = Pēc parādīšanas
     .accesskey = P
 seconds-label = sekundes
-
-## Note: This will concatenate to "After viewing for [___] seconds",
-## using (mark-read-after-viewing) and a number (seconds-label).
-
 mark-read-after-viewing =
     .label = Apskatot
     .accesskey = s
@@ -635,9 +631,6 @@ security-devices-button =
     .label = Drošības ierīces…
     .accesskey = D
 email-e2ee-header = E-pasta pilnīga šifrēšana
-
-## DoH Section
-
 
 ## Keyservers
 

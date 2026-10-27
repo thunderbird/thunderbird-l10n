@@ -68,6 +68,12 @@ cancel-confirm = Jeste li sigurni da želite otkazati ovu poruku?
 # $newsgroup (String) - The name of the newsgroup.
 auto-subscribe-text = Želite li se pretplatiti na { $newsgroup }?
 
+## Unknown News Server Dialog
+
+# Variables:
+# $server (String) - The hostname:port of the news server, e.g. news.example.com:119.
+unknown-news-server-text = Ova poveznica vodi na { $server }, ali za taj poslužitelj nije postavljen račun. Želite li se ipak povezati?
+
 ## News Server Credentials
 
 enter-news-credentials-title = Potrebno korisničko ime i lozinka za poslužitelj interesnih grupa

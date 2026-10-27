@@ -3,27 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Message List Header Bar
-
-
-## Quick Filter Bar
-
-
-## Folder pane
-
-
-## Message thread pane
-
-
-## Message state variations
-
-
-## Apply columns confirmation dialog
-
-
-## Folder pane context menu
-
-
 ## Confirmation prompts shown before deleting a folder.
 
 folder-delete-title = Forigi mesaĝujon

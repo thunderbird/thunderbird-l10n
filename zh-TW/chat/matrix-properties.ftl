@@ -276,6 +276,7 @@ message-redacted = 訊息已遭刪減。
 message-reaction = { $userThatReacted } 對 { $userThatSentMessage } 作出 { $reaction } 的反應。
 #    Label in the message context menu
 message-action-request-key = 重新請求金鑰
+#    Label in the message context menu
 message-action-redact = 刪減
 message-action-report = 回報訊息
 message-action-retry = 重試寄信

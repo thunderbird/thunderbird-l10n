@@ -276,6 +276,7 @@ message-redacted = Chaidh an teachdaireachd a dhubhadh às.
 message-reaction = Fhreagair { $userThatReacted } { $userThatSentMessage } le “{ $reaction }”.
 #    Label in the message context menu
 message-action-request-key = Iarr na h-iuchraichean a-rithist
+#    Label in the message context menu
 message-action-redact = Dubh às
 message-action-report = Dèan aithris air an teachdaireachd
 message-action-retry = Feuch ris a chur às ùr

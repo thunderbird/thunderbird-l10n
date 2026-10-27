@@ -276,6 +276,7 @@ message-redacted = Το μήνυμα αποκρύφθηκε.
 message-reaction = Ο/Η { $userThatReacted } αντέδρασε στον/στην { $userThatSentMessage } με { $reaction }.
 #    Label in the message context menu
 message-action-request-key = Νέο αίτημα κλειδιών
+#    Label in the message context menu
 message-action-redact = Απόκρυψη
 message-action-report = Αναφορά μηνύματος
 message-action-retry = Επανάληψη αποστολής

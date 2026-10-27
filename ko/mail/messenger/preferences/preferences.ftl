@@ -544,10 +544,6 @@ mark-read-delay =
     .label = 다음 시간이 경과되었을 시 읽은 것으로 표시:
     .accesskey = d
 seconds-label = 초
-
-## Note: This will concatenate to "After viewing for [___] seconds",
-## using (mark-read-after-viewing) and a number (seconds-label).
-
 mark-read-after-viewing =
     .label = 조회 후
     .accesskey = v

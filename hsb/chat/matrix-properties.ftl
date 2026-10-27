@@ -276,6 +276,7 @@ message-redacted = Powěsć je so znjespóznajomniła.
 message-reaction = { $userThatReacted } je na { $userThatSentMessage } z { $reaction } reagował.
 #    Label in the message context menu
 message-action-request-key = Kluče znowa požadać
+#    Label in the message context menu
 message-action-redact = Znjespóznajomnić
 message-action-report = Powěsć zdźělić
 message-action-retry = Znowa słać

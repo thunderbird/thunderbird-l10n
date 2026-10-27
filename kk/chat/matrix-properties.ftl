@@ -276,6 +276,7 @@ message-redacted = Хабарлама түзетілді.
 message-reaction = { $userThatReacted } { $userThatSentMessage } дегенге { $reaction } жауап берді.
 #    Label in the message context menu
 message-action-request-key = Кілттерді қайта сұрау
+#    Label in the message context menu
 message-action-redact = Түзету
 message-action-report = Хабарлама туралы шағым жіберу
 message-action-retry = Жіберуді қайталап көру

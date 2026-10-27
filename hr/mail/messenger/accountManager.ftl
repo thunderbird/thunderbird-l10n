@@ -30,7 +30,9 @@ outgoing-server-section-name = Odlazni poslužitelj
 outgoing-server-settings-title = Postavke odlaznog poslužitelja
 outgoing-server-settings-description = Prilikom upravljanja vašim identitetima možete koristiti poslužitelj s ovog popisa odabirući ga kao Odlazni poslužitelj (SMTP), ili možete koristiti zadani poslužitelj s ovog popisa tako da odaberete “Koristi zadani poslužitelj”.
 outgoing-server-type = Vrsta poslužitelja:
+panel-manage-spam = Upravljanje neželjenom poštom
 panel-settings-spam = Postavke neželjene pošte
 # Variables:
 # $account (String) - The account name.
 spam-settings-alert-message = Otkriven je problem s postavkama neželjene pošte za { $account }. Želite li ih pregledati prije spremanja promjena?
+open-settings-sidebar-button = Postavke

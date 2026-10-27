@@ -276,6 +276,7 @@ message-redacted = Zpráva byla redigována.
 message-reaction = Uživatel { $userThatReacted } reagoval na uživatele { $userThatSentMessage }: { $reaction }
 #    Label in the message context menu
 message-action-request-key = Znovu vyžádat klíče
+#    Label in the message context menu
 message-action-redact = Redigovat
 message-action-report = Nahlásit zprávu
 message-action-retry = Znovu odeslat

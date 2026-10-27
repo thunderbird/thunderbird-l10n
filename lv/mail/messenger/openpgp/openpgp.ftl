@@ -317,8 +317,8 @@ wkd-message-body-req =
     Jūsu epasta pakalpojumu sniedzējs apstrādāja jūsu pieprasījumu augšuplādēt publisko atslēgu OpenPGP tīmekļa atslēgu katalogā.
     Lūdzu, apstipriniet publiskās atslēgas publicēšanu.
 wkd-message-body-process =
-    Šis ir saistīts epasts, lai automātiski apstrādātu augšuplādēto publisko atslēgu OpenPGP Tīmekļa atslēgu katalogā.
-    Šobrīd jums nav jāveic nekādas manuālas darbības.
+    Šis e-pasts ir saistīts ar automātisku apstrādi, lai augšupielādētu publisko atslēgu OpenPGP Tīmekļa atslēgu katalogā.
+    Šobrīd nav jāveic nekādas pašrocīgas darbības.
 
 ## Strings in persistentCrypto.sys.mjs
 

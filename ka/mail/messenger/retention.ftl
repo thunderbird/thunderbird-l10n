@@ -10,9 +10,6 @@ retention-tab =
 retention-use-default =
     .label = ჩემი ანგარიშის პარამეტრების გამოყენება
     .accesskey = U
-
-## Account Settings
-
 retention-button =
     .label = შენარჩუნების პირობები
 retention-dialog-title = შენარჩუნების პირობები

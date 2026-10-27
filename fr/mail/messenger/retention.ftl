@@ -10,9 +10,6 @@ retention-tab =
 retention-use-default =
     .label = Utiliser mes paramètres de compte
     .accesskey = m
-
-## Account Settings
-
 retention-button =
     .label = Règles de conservation
 retention-dialog-title = Règles de conservation

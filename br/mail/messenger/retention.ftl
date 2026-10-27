@@ -10,9 +10,6 @@ retention-tab =
 retention-use-default =
     .label = Ober gant arventennoù ma c'hont
     .accesskey = O
-
-## Account Settings
-
 retention-button =
     .label = Pennaennoù derc'hel
 retention-dialog-title = Pennaennoù derc'hel

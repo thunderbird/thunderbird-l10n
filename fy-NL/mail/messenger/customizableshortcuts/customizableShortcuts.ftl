@@ -5,5 +5,5 @@
 shortcuts-close-button-title =
     .title = Slute
 shortcuts-close-button =
-    .title = Slute
     .aria-label = Slute
+    .title = Slute

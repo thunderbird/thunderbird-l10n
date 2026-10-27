@@ -9,6 +9,8 @@
 calendar-dialog-close-button =
     .aria-label = Zatvori
     .title = Zatvori
+calendar-event-create-edit-dialog =
+    .aria-label = Događaj
 calendar-dialog-menu-button =
     .aria-label = Otvori izbornik
     .title = Otvori izbornik
@@ -70,6 +72,36 @@ calendar-dialog-more-categories =
     .title = { $categories }
 calendar-dialog-delete-reminder-button =
     .alt = Izbriši podsjetnik
+calendar-dialog-add-reminder-button = Dodaj podsjetnik
+calendar-dialog-reminder-select =
+    .aria-label = Odaberite trajanje novog podsjetnika
+calendar-dialog-save-reminder-button = Spremi
+calendar-dialog-reminder-event-start = 0 minuta prije
+# Variables:
+#  $count (Number): Number of minutes before the event.
+calendar-dialog-reminder-minutes-before =
+    { $count ->
+        [one] { $count } minuta prije
+        [few] { $count } minute prije
+       *[other] { $count } minuta prije
+    }
+# Variables:
+#  $count (Number): Number of hours before the event.
+calendar-dialog-reminder-hours-before =
+    { $count ->
+        [one] { $count } sat prije
+        [few] { $count } sata prije
+       *[other] { $count } sati prije
+    }
+# Variables:
+#  $count (Number): Number of days before the event.
+calendar-dialog-reminder-days-before =
+    { $count ->
+        [one] { $count } dan prije
+        [few] { $count } dana prije
+       *[other] { $count } dana prije
+    }
+calendar-dialog-reminder-week-before = 1 tjedan prije
 # Variables:
 #   $count (Number): Number of reminders.
 calendar-dialog-reminder-count =
@@ -102,6 +134,14 @@ calendar-dialog-attachments-summary-label =
         [few] { $count } privitka
        *[other] { $count } privitaka
     }
+calendar-event-prompt-delete-title = Obriši događaj
+calendar-event-prompt-delete-header = Trajno ukloni sljedeće događaje?
+calendar-single-event-prompt-delete-header = Trajno ukloni ovaj događaj?
+calendar-prompt-this-event =
+    .label = Ovaj događaj
+calendar-prompt-all-events =
+    .label = Svi događaji
+calendar-prompt-delete-button = Obriši
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =

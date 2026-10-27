@@ -5,5 +5,5 @@
 shortcuts-close-button-title =
     .title = Lat att
 shortcuts-close-button =
-    .title = Lat att
     .aria-label = Lat att
+    .title = Lat att

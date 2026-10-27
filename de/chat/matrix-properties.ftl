@@ -276,6 +276,7 @@ message-redacted = Nachricht wurde zurückgezogen
 message-reaction = { $userThatReacted } reagierte auf { $userThatSentMessage } mit { $reaction }.
 #    Label in the message context menu
 message-action-request-key = Schlüssel erneut anfragen
+#    Label in the message context menu
 message-action-redact = Nachricht zurückziehen
 message-action-report = Nachricht melden
 message-action-retry = Versuchen, Nachricht erneut zu senden

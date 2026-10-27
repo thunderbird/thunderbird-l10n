@@ -142,6 +142,7 @@ message-decrypting = Dešifriranje …
 message-redacted = Poruka je redigirana.
 #    Label in the message context menu
 message-action-request-key = Ponovo zatraži ključeve
+#    Label in the message context menu
 message-action-redact = Redigiraj
 message-action-report = Prijavi poruku
 message-action-retry = Ponovni pokušaj slanja

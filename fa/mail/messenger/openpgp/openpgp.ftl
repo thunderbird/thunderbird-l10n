@@ -7,7 +7,7 @@ e2e-intro-description-more = برای به‌کار انداختن OpenPGP کل�
 # Do not translate: S/MIME, CSR, CA
 e2e-csr-intro = برای دریافت گواهی شخصی جدید S/MIME، یک درخواست امضای گواهی (CSR) بسازید و آن را به یک مرجع صدور گواهی (CA) بفرستید.
 # Do not translate: S/MIME, CSR
-e2e-csr-intro-info = یک پوشهٔ محلی و نام پرونده برای پروندهٔ CSR خود انتخاب کنید و به پرسش‌های زیر برای تعیین الگوریتم و قدرت پاسخ دهید.
+e2e-csr-intro-info = یک شاخهٔ محلی و نام پرونده برای شاخهٔ CSR خود انتخاب کنید و به پرسش‌های زیر برای تعیین الگوریتم و قدرت پاسخ دهید.
 # A title for a dialog. Do not translate "CSR".
 e2e-csr-title = ساختن CSR
 # A label for a button that proceeds to the next step
@@ -447,10 +447,10 @@ keyserver-error-unsupported = کارساز کلید پشتیبانی نمی‌ش
 ## Strings in mimeWkdHandler.sys.mjs
 
 wkd-message-body-req =
-    ارائه‌دهندهٔ رایانامهٔ شما درخواست بارگذاری کلید عمومی‌تان در فهرست کلید وب OpenPGP را پردازش کرد.
+    ارائه‌دهندهٔ رایانامهٔ شما درخواست بارگذاری کلید عمومی‌تان در شاخهٔ کلید وب OpenPGP را پردازش کرد.
     لطفاً برای کامل شدن انتشار کلید عمومی خود تأیید کنید.
 wkd-message-body-process =
-    این رایانامه مربوط به پردازش خودکار بارگذاری کلید عمومی شما در فهرست کلید وب OpenPGP است.
+    این رایانامه مربوط به پردازش خودکار بارگذاری کلید عمومی شما در شاخهٔ کلید وب OpenPGP است.
     در این مرحله نیازی به هیچ اقدام دستی ندارید.
 
 ## Strings in persistentCrypto.sys.mjs

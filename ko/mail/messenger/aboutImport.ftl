@@ -103,6 +103,25 @@ addr-book-summary-description = 이름이 "{ $addressBookName }"인 새 주소�
 import-from-calendar-file-desc = 가져올 iCalendar(.ics) 파일을 선택하세요.
 calendar-items-title = 가져올 항목을 선택하세요.
 calendar-items-loading = 항목 로드중…
+# Column headers of the list of calendar items to import.
+calendar-items-column-title-a11y =
+    .aria-label = 제목
+calendar-items-column-title = 제목
+    .title = 클릭하면 제목으로 정렬하기
+# The start date and time of each item.
+calendar-items-column-start-a11y =
+    .aria-label = 시작
+calendar-items-column-start = 시작
+    .title = 시작순으로 정렬
+# The end date and time of each item.
+calendar-items-column-end-a11y =
+    .aria-label = 종료
+calendar-items-column-end = 종료
+    .title = 종료순으로 정렬
+# The column of checkboxes, to choose which items to import.
+calendar-items-column-import-a11y =
+    .aria-label = 가져오기
+calendar-items-column-import = 가져오기
 calendar-items-filter-input2 =
     .label = 항목 필터
     .placeholder = 항목 필터…

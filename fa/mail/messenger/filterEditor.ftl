@@ -77,7 +77,7 @@ filter-editor-pick-template-reply = قالبی برای پاسخ انتخاب ک
 # Variables:
 # $filterName (String) - The name of the filter that was applied.
 filter-continue-execution = اعمال پالایهٔ { $filterName } ناموفق بود. می‌خواهید به اعمال پالایه‌ها ادامه دهید؟
-filter-list-backup-message = پالایه‌های شما کار نمی‌کنند، چون پروندهٔ msgFilterRules.dat که حاوی پالایه‌های شماست خوانده نشد. یک پروندهٔ msgFilterRules.dat جدید ساخته می‌شود و یک پشتیبان از پروندهٔ قدیمی با نام rulesbackup.dat در همان پوشه ساخته خواهد شد.
+filter-list-backup-message = پالایه‌های شما کار نمی‌کنند، چون پروندهٔ msgFilterRules.dat که حاوی پالایه‌های شماست خوانده نشد. یک پروندهٔ msgFilterRules.dat جدید ساخته می‌شود و یک پشتیبان از پروندهٔ قدیمی با نام rulesbackup.dat در همان شاخه ساخته خواهد شد.
 filter-invalid-custom-header = یکی از پالایه‌های شما از سرایند سفارشی‌ای استفاده می‌کند که نویسهٔ نامعتبری دارد، مانند «:»، نویسهٔ غیرقابل‌چاپ، نویسهٔ غیر ASCII یا نویسهٔ ASCII هشت‌بیتی. لطفاً پروندهٔ msgFilterRules.dat را که حاوی پالایه‌های شماست ویرایش کنید و نویسه‌های نامعتبر را از سرایندهای سفارشی بردارید.
 # Variables:
 #   $count - the number items

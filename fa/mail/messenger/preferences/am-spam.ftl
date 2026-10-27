@@ -1,0 +1,49 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+spam-settings-title = تنظیمات هرزنامه
+dialog-header-title =
+    .value = تنظیمات هرزنامه
+training-description-spam = اگر به‌کار افتاده باشد، ابتدا باید با دکمهٔ هرزنامه در نوار ابزار و علامت‌گذاری پیام‌ها به‌عنوان هرزنامه یا هرزنامه نیست، { -brand-short-name } را برای تشخیص هرزنامه آموزش دهید. باید هم هرزنامه‌ها و هم پیام‌های هرزنامه نیست را مشخص کنید. پس از آن { -brand-short-name } می‌تواند هرزنامه را خودکار علامت بزند.
+spam-level-checkbox =
+    .label = به‌کار انداختن کنترل‌های تطبیقی هرزنامه برای این حساب
+    .accesskey = ف
+move-spam-message-menuitem =
+    .label = انتقال هرزنامه‌های جدید به:
+    .accesskey = ا
+set-spam-folder-menuitem =
+    .label = پوشهٔ «هرزنامه» در:
+    .accesskey = پ
+move-message-other =
+    .label = دیگر:
+    .accesskey = د
+automatic-spam-purge-checkbox =
+    .label = حذف خودکار هرزنامه‌های قدیمی‌تر از
+    .accesskey = ح
+automatic-spam-purge-label =
+    .value = روز
+trust-addresses-header-label =
+    .value = اعتماد به نشانی‌های رایانامه در این دفترچه‌های نشانی:
+    .accesskey = ع
+allowlist-header-label =
+    .value = اگر فرستنده در این‌ها باشد، رایانامه را خودکار هرزنامه علامت نزن:
+    .accesskey = ه
+isp-headers-checkbox =
+    .label = اعتماد به سرایندهای هرزنامهٔ تنظیم‌شده توسط:
+    .accesskey = ا
+isp-warning-description = اگر به‌کار افتاده باشد، { -brand-short-name } پیام‌هایی را که این دسته‌بند بیرونی علامت زده است خودکار هرزنامه در نظر می‌گیرد.
+spam-detecting-legend = تشخیص هرزنامه
+spam-storage-deletion-legend = ذخیره‌سازی و حذف
+spam-classification-legend = انتخاب
+spam-actions-legend = مقصد و نگهداری
+global-spam-preferences-button =
+    .label = تنظیمات سراسری هرزنامه…
+    .accesskey = س
+manage-spam-title = مدیریت هرزنامه
+manage-spam-header =
+    .value = مدیریت هرزنامه
+training-description-learns = وقتی روشن باشد، { -brand-short-name } از پیام‌هایی که به‌عنوان هرزنامه یا هرزنامه نیست علامت می‌زنید یاد می‌گیرد. هرچه بیشتر آموزشش دهید، { -brand-short-name } در تشخیص هرزنامه بهتر می‌شود.
+spam-auto-detection-checkbox =
+    .label = روشن کردن تشخیص خودکار هرزنامه برای این حساب
+    .accesskey = ر

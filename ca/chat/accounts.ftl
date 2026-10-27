@@ -4,6 +4,9 @@
 
 # Instant messaging account status window for Thunderbird
 accounts-window-title = Estat de la missatgeria instantània
+account-manager-add-account =
+    .label = { add-account-label }
+    .accesskey = A
 account-manager-close =
     .label = Tanca
     .accesskey = T
@@ -11,6 +14,7 @@ account-manager-close-command =
     .key = a
 # This title must be short, displayed with a big font size
 account-manager-no-account-title = Encara no s'ha configurat cap compte
+account-manager-no-accounts-description = Feu clic al botó { add-account-label } per permetre al { -brand-short-name } guiar-vos durant el procés de configurar-ne un.
 account-auto-sign-on =
     .label = Inicia la sessió a l'inici
     .accesskey = I
@@ -35,3 +39,4 @@ account-disconnecting =
     .value = S'està desconnectant…
 account-disconnected =
     .value = Desconnectat
+add-account-label = Afegeix un compte

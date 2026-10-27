@@ -10,9 +10,6 @@ retention-tab =
 retention-use-default =
     .label = Erabili nire kontu-ezarpenak
     .accesskey = E
-
-## Account Settings
-
 retention-button =
     .label = Gordetze-politika
 retention-dialog-title = Gordetze-politika

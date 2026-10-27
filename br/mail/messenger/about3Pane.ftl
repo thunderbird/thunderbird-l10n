@@ -266,9 +266,6 @@ apply-current-columns-to-folder-message = Arloañ bannoù an teuliad bremanel da
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Arloañ bannoù an teuliad bremanel da { $name } ha d'an isteuliadoù?
 
-## Folder pane context menu
-
-
 ## Confirmation prompts shown before deleting a folder.
 
 folder-delete-title = Dilemel an teuliad

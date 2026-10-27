@@ -9,12 +9,19 @@ fonts-label-default =
     .label = Zadani ({ $name })
 fonts-label-default-unnamed =
     .label = Zadani
+fonts-character-set-legend =
+    .value = Skup znakova:
+    .accesskey = S
+font-main-style-label =
+    .value = Glavni stil fonta:
+    .accesskey = f
 fonts-language-legend =
     .value = Fontovi za:
     .accesskey = F
 fonts-proportional-label =
     .value = Proporcionalan:
     .accesskey = P
+text-font-options-dialog-title = Mogućnosti teksta i fonta
 
 ## Languages
 
@@ -93,6 +100,9 @@ font-size-monospace-label =
 font-serif-label =
     .value = Serif:
     .accesskey = S
+sans-serif-font-label =
+    .value = Sans-serif font:
+    .accesskey = n
 font-sans-serif-label =
     .value = Sans-serif:
     .accesskey = n
@@ -114,6 +124,13 @@ use-document-fonts-checkbox =
 use-fixed-width-plain-checkbox =
     .label = Koristi font fiksne širine za poruke s običnim tekstom
     .accesskey = K
+message-font-permissions-legend = Dozvole za font poruke
+allow-incoming-fonts-checkbox =
+    .label = Dopusti dolaznim porukama korištenje vlastitih fontova
+    .accesskey = o
+display-fixed-width-plain-checkbox =
+    .label = Prikazuj obične tekstualne poruke fontom fiksne širine
+    .accesskey = z
 
 ## Language settings
 

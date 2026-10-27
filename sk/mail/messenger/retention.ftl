@@ -10,9 +10,6 @@ retention-tab =
 retention-use-default =
     .label = Použiť nastavenia účtu
     .accesskey = P
-
-## Account Settings
-
 retention-button =
     .label = Pravidlá manipulácie so správami
 retention-dialog-title = Pravidlá manipulácie so správami

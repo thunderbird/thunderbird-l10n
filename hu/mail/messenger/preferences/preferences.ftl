@@ -580,10 +580,6 @@ mark-read-delay =
     .label = Megjelenítés után
     .accesskey = e
 seconds-label = másodperc
-
-## Note: This will concatenate to "After viewing for [___] seconds",
-## using (mark-read-after-viewing) and a number (seconds-label).
-
 mark-read-after-viewing =
     .label = Ennyi idejű megtekintés után:
     .accesskey = m

@@ -190,6 +190,11 @@ filter-editor-invalid-search-title = Neispravni pojmovi pretrage
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
 filter-editor-invalid-search-rule = Ovaj filter ne može biti spremljen jer pojam pretrage "{ $attribute } { $operator }" nije ispravan u trenutnom kontekstu.
+filter-editor-missing-value-title = Nedostaje vrijednost pretraživanja
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+filter-editor-missing-value-rule = Ovaj filter nije moguće spremiti jer nije unesena vrijednost za pojam pretraživanja "{ $attribute } { $operator }".
 filter-editor-action-order-explanation = Kada poruka odgovara ovom filtru, radnje će se izvršiti ovim redoslijedom:
 filter-editor-action-order-title = Stvaran redoslijed radnji
 # Variables:

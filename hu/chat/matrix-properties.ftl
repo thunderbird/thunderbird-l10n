@@ -276,6 +276,7 @@ message-redacted = Az üzenetet törölték.
 message-reaction = { $userThatReacted } a következővel reagált { $userThatSentMessage } üzenetére: { $reaction }.
 #    Label in the message context menu
 message-action-request-key = Kulcsok újbóli kérése
+#    Label in the message context menu
 message-action-redact = Törlés
 message-action-report = Üzenet jelentése
 message-action-retry = Küldés újrapróbálása

@@ -10,9 +10,6 @@ retention-tab =
 retention-use-default =
     .label = Käytä tilini asetuksia
     .accesskey = a
-
-## Account Settings
-
 retention-button =
     .label = Viestien säilytyskäytäntö
 retention-dialog-title = Viestien säilytyskäytäntö

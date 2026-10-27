@@ -31,3 +31,4 @@ count-new-messages-radio =
     .label = Antall nye meldinger
     .accesskey = n
 notification-settings-info2 = Du kan skru av merket på varselspanelet i systeminnstillinger.
+dock-icon-notification-dialog-title = Varslingsinnstillinger for appikonet

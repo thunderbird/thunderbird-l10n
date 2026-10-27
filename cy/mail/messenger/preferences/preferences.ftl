@@ -580,10 +580,6 @@ mark-read-delay =
     .label = Ar ôl dangos am
     .accesskey = d
 seconds-label = eiliad
-
-## Note: This will concatenate to "After viewing for [___] seconds",
-## using (mark-read-after-viewing) and a number (seconds-label).
-
 mark-read-after-viewing =
     .label = Ar ôl darllen am
     .accesskey = A

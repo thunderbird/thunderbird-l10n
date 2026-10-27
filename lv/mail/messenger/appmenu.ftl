@@ -55,9 +55,67 @@ appmenu-new-addressbook =
 
 appmenu-create-panel-title =
     .title = Izveidot
+appmenu-create-event =
+    .label = Notikums
+    .accesskey = N
+appmenu-create-task =
+    .label = Uzdevums
+    .accesskey = U
+appmenu-create-contact =
+    .label = Kontaktpersona
+    .accesskey = K
+
+## Open
+
+appmenu-open-file-panel =
+    .label = Atvērt no datnes
+    .accesskey = A
+appmenu-open-file-panel-title =
+    .title = Atvērt no datnes
+appmenu-open-message =
+    .label = Ziņojums…
+    .accesskey = Z
+appmenu-open-calendar =
+    .label = Kalendārs…
+    .accesskey = K
+
+## View / Layout
+
+appmenu-view-panel-title =
+    .title = Skats
+appmenu-view-panel =
+    .label = Skats
+    .accesskey = S
+appmenuitem-toggle-thread-pane-header =
+    .label = Ziņojumu saraksta galvene
+appmenu-font-size-value = Fonta lielums
+appmenu-mail-uidensity-value = Blīvums
+appmenu-uidensity-compact =
+    .tooltiptext = Ciešs
+appmenu-uidensity-default =
+    .tooltiptext = Noklusējums
+appmenu-uidensity-relaxed =
+    .tooltiptext = Brīvs
+appmenuitem-font-size-enlarge =
+    .tooltiptext = Palielināt fonta lielumu
+appmenuitem-font-size-reduce =
+    .tooltiptext = Samazināt fonta lielumu
+# Variables:
+# $size (String) - The current font size.
+appmenuitem-font-size-reset =
+    .label = { $size } pikseļi
+    .tooltiptext = Atiestatīt fonta lielumu
 
 ## Tools
 
+appmenu-tools-panel-title =
+    .title = Rīki
+appmenu-tools-panel =
+    .label = Rīki
+    .accesskey = R
+appmenu-tools-import =
+    .label = Ievietot
+    .accesskey = I
 appmenu-tools-export =
     .label = Izgūt
     .accesskey = I
@@ -67,9 +125,18 @@ appmenu-export-for-mobile =
 appmenu-tools-message-search =
     .label = Meklēt ziņojumus
     .accesskey = M
+appmenu-tools-message-filters =
+    .label = Ziņojumu atsijātāji
+    .accesskey = a
+appmenu-tools-download-manager =
+    .label = Lejupielāžu pārvaldnieks
+    .accesskey = L
 appmenu-tools-activity-manager =
     .label = Darbību pārvaldnieks
     .accesskey = D
+appmenu-tools-dev-tools =
+    .label = Izstrādātāju rīki
+    .accesskey = I
 
 ## Help
 
@@ -78,12 +145,24 @@ appmenu-help-panel-title =
 appmenu-help-get-help =
     .label = Iegūt palīdzību
     .accesskey = p
+appmenu-help-get-release-help =
+    .label = Iegūt palīdzību ar { -brand-short-name }
+    .accesskey = p
 appmenu-help-shortcuts =
     .label = Īsinājumtaustiņi
     .accesskey = t
+appmenu-help-get-involved =
+    .label = Iesaistīties
+    .accesskey = I
+appmenu-help-donation =
+    .label = Ziedot
+    .accesskey = Z
 appmenu-help-share-feedback =
     .label = Dalies ar idejām un atsauksmēm
     .accesskey = D
+appmenu-help-enter-troubleshoot-mode2 =
+    .label = Sarežģījumu novēršanas režīms…
+    .accesskey = S
 appmenu-help-about-product =
     .label = Par { -brand-short-name }
     .accesskey = P

@@ -276,6 +276,7 @@ message-redacted = Wiadomość została usunięta.
 message-reaction = Użytkownik { $userThatReacted } zareagował na wiadomość użytkownika { $userThatSentMessage } za pomocą { $reaction }.
 #    Label in the message context menu
 message-action-request-key = Ponowne zażądaj kluczy
+#    Label in the message context menu
 message-action-redact = Usuń
 message-action-report = Zgłoś wiadomość
 message-action-retry = Spróbuj wysłać ponownie

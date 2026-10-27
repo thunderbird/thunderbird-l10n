@@ -6,11 +6,14 @@ event-attendee-role-required =
     .title = Nepieciešams dalībnieks
 event-attendee-role-optional =
     .title = Papildus dalībnieks
+event-attendee-role-nonparticipant =
+    .title = Novērotājs
 event-attendee-role-chair =
     .title = Vadītājs
 # $role
 event-attendee-role-unknown =
     .title = Neiznāms dalībnieks ({ $role })
+event-attendee-usertype-individual = Individuāls
 event-attendee-usertype-group = Kopa
 event-attendee-usertype-resource = Resurss
 event-attendee-usertype-room = Telpa

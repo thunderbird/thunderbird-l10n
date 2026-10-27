@@ -5,5 +5,5 @@
 shortcuts-close-button-title =
     .title = Zacyniś
 shortcuts-close-button =
-    .title = Zacyniś
     .aria-label = Zacyniś
+    .title = Zacyniś

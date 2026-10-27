@@ -272,6 +272,7 @@ message-redacted = Sporočilo je bilo redigirano.
 message-reaction = { $userThatReacted } se je odzval/-a osebi { $userThatSentMessage } s { $reaction }.
 #    Label in the message context menu
 message-action-request-key = Ponovno zahtevaj ključe
+#    Label in the message context menu
 message-action-redact = Redigiraj
 message-action-report = Prijavi sporočilo
 message-action-retry = Poskusi znova

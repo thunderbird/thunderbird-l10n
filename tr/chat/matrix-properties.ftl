@@ -270,6 +270,7 @@ message-redacted = İleti gizlendi.
 message-reaction = { $userThatReacted }, { $userThatSentMessage } kullanıcısına { $reaction } ile tepki verdi.
 #    Label in the message context menu
 message-action-request-key = Anahtarları yeniden iste
+#    Label in the message context menu
 message-action-redact = Gizle
 message-action-report = Mesajı raporla
 message-action-retry = Göndermeyi yeniden dene

@@ -580,10 +580,6 @@ mark-read-delay =
     .label = Nei it toanen foar
     .accesskey = N
 seconds-label = sekonden
-
-## Note: This will concatenate to "After viewing for [___] seconds",
-## using (mark-read-after-viewing) and a number (seconds-label).
-
 mark-read-after-viewing =
     .label = Nei werjefte foar
     .accesskey = w

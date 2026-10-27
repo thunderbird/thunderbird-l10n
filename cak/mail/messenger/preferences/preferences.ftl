@@ -58,9 +58,6 @@ update-in-progress-ok-button = &Tich'aqïx
 # method of closing the UI will not discard the update.
 update-in-progress-cancel-button = &Titikïr chik el
 
-## OS Authentication dialog
-
-
 ## General Tab
 
 focus-search-shortcut =
@@ -349,10 +346,6 @@ mark-read-delay =
     .accesskey = n
 seconds-label = taq xil ramaj
 
-## Note: This will concatenate to "After viewing for [___] seconds",
-## using (mark-read-after-viewing) and a number (seconds-label).
-
-
 ##
 
 open-msg-label =
@@ -542,12 +535,6 @@ security-devices-button =
     .label = Taq Rokisab'al Jikomal…
     .accesskey = R
 
-## DoH Section
-
-
-## Keyservers
-
-
 ## Chat Tab
 
 startup-label =
@@ -642,15 +629,3 @@ chat-theme-preview-buddy-2 = patrick@im.instantbird.org
 chat-theme-preview-message-1 = ¡Atraxinäq! :-)
 chat-theme-preview-message-2 = ¿Achike ab’anon?
 chat-theme-preview-message-3 = ¡Nintojtob’ej { -brand-short-name }! ;-)
-
-## Settings UI Search Results
-
-
-## Sync Tab
-
-
-## Mobile QR Export Pane
-
-
-## Appearance Tab
-

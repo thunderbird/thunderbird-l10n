@@ -1,0 +1,11 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!ENTITY providerUninstall.title "Pakalpojumu sniedzēja atinstalēšana">
+<!ENTITY providerUninstall.accept.label "Atcelt atlasītā abonēšanu">
+<!ENTITY providerUninstall.accept.accesskey "A">
+<!ENTITY providerUninstall.cancel.label "Paturēt papildinājumu">
+<!ENTITY providerUninstall.cancel.accesskey "P">
+<!ENTITY providerUninstall.preName.label "Jūs esat pieprasījis atinstalēt vai atspējot:">
+<!ENTITY providerUninstall.postName.label "Tas izraisīs tālāk norādīto kalendāru atspējošanu.">
+<!ENTITY providerUninstall.reinstallNote.label "Ja vien neplānojat atkārtoti instalēt šo pakalpojumu sniedzēju, varat izvēlēties atteikties no šī pakalpojumu sniedzēja kalendāru abonēšanas.">

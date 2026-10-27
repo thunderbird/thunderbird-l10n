@@ -10,9 +10,6 @@ retention-tab =
 retention-use-default =
     .label = Izmantot mana konta iestatījumus
     .accesskey = m
-
-## Account Settings
-
 retention-button =
     .label = Saglabāšanas politika
 retention-dialog-title = Saglabāšanas politika

@@ -403,10 +403,6 @@ mark-read-delay =
     .accesskey = p
 seconds-label = sek.
 
-## Note: This will concatenate to "After viewing for [___] seconds",
-## using (mark-read-after-viewing) and a number (seconds-label).
-
-
 ##
 
 open-msg-label =
@@ -605,12 +601,6 @@ security-devices-button =
     .label = Saugumo priemonės…
     .accesskey = D
 
-## DoH Section
-
-
-## Keyservers
-
-
 ## Chat Tab
 
 startup-label =
@@ -711,12 +701,6 @@ chat-theme-preview-message-3 = Bandau { -brand-short-name }! ;-)
 search-results-header = Paieškos rezultatai
 search-results-help-link = Reikia pagalbos? Aplankykite <a data-l10n-name="url">„{ -brand-short-name }“</a>
 
-## Sync Tab
-
-
 ## Mobile QR Export Pane
 
 qr-export-start-export = Eksportuoti
-
-## Appearance Tab
-

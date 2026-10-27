@@ -5,5 +5,5 @@
 shortcuts-close-button-title =
     .title = Pechar
 shortcuts-close-button =
-    .title = Pechar
     .aria-label = Pechar
+    .title = Pechar

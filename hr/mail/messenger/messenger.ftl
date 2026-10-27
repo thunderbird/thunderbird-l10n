@@ -101,6 +101,17 @@ open-tabs-warning-confirmation =
        *[other] Otvaranje { $count } poruka će možda biti sporo. Nastavi?
     }
 
+## Sign-in window
+
+# Shown when the provider's sign-in page cannot use cookies because they are
+# blocked.
+browser-request-cookies-blocked = Kolačići su blokirani, što može spriječiti prijavu.
+# Turns cookies back on. Same action as the "Accept cookies from sites" option
+# in Settings, Privacy & Security.
+browser-request-cookies-accept =
+    .label = Prihvati kolačiće sa stranica
+    .accesskey = a
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =

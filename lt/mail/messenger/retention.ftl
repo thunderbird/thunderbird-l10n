@@ -10,9 +10,6 @@ retention-tab =
 retention-use-default =
     .label = Laikytis paskyros nuostatų
     .accesskey = p
-
-## Account Settings
-
 retention-button =
     .label = Laiškų šalinimas
 retention-dialog-title = Laiškų šalinimas

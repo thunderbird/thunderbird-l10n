@@ -400,9 +400,6 @@ apply-current-view-to-folder-message = A bheil thu airson sealladh a’ phasgain
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = A bheil thu airson sealladh a’ phasgain làithrich a chur an sàs airson { $name } agus a’ chlann aige?
 
-## Folder pane context menu
-
-
 ## Confirmation prompts shown before deleting a folder.
 
 folder-delete-title = Sguab às am pasgan

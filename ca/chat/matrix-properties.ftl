@@ -223,6 +223,7 @@ message-redacted = El missatge s'ha editat.
 #    $userThatSentMessage is the username of the user that sent the message the reaction was added to.
 #    $reaction is the content (typically an emoji) of the reaction.
 message-reaction = { $userThatReacted } ha reaccionat a { $userThatSentMessage } amb { $reaction }.
+#    Label in the message context menu
 message-action-redact = Edita
 message-action-retry = Torna a provar d'enviar
 message-action-cancel = Cancel·la el missatge

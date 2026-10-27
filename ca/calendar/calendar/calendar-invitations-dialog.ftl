@@ -11,6 +11,10 @@ calendar-invitation-current-participation-status-icon-needs-action =
 allday-event = Cita de tot el dia
 recurrent-event =
     .value = Cita repetitiva
+# $locationProperty is the location of the event
+calendar-invitation-location =
+    .tooltiptext = { $locationProperty }
+    .value = Ubicació: { $locationProperty }
 # $organizerProperty is the organizer of the event
 organizer =
     .value = Organitzador: { $organizerProperty }

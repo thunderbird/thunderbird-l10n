@@ -226,6 +226,7 @@ message-decrypting = Puretaan salausta...
 message-redacted = Viesti on sensuroitu.
 #    Label in the message context menu
 message-action-request-key = Pyydä avaimet uudelleen
+#    Label in the message context menu
 message-action-redact = Sensuroi
 message-action-retry = Yritä lähettää uudelleen
 message-action-cancel = Peruuta viesti

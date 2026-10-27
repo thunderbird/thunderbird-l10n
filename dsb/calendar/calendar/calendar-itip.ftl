@@ -111,7 +111,7 @@ imip-bar-reply-text = Toś ta powěsć wopśimujo wótegrono na pśepšosenje.
 imip-bar-reply-to-not-existing-item = Toś ta powěsć wopśimujo wótegrono, kótarež póśěgujo se na tšojenje, kótarež njejo we wašom kalendarju.
 # Variables:
 #   $deletionTime (String) - The formatted time the event was removed from the calendar.
-imip-bar-reply-to-recently-removed-item = Toś ta powěsć wopśimujo na wótegrono, kótarež póśěgujo se na tšojenje, kótarež jo se { $deletionTime } z wašogo kalendarja wótwónoźeło.
+imip-bar-reply-to-recently-removed-item = Toś ta powěsć wopśimujo wótegrono, kótarež póśěgujo se na tšojenje, kótarež jo se { $deletionTime } z wašogo kalendarja wótwónoźeło.
 # Variables:
 #   $status (String) - The hexadecimal status code of the failed processing.
 imip-bar-processing-failed = Pśeźěłowanje powěsći njejo se raźiło. Status: { $status }.

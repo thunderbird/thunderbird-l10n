@@ -276,6 +276,7 @@ message-redacted = Bericht is bewerkt.
 message-reaction = { $userThatReacted } heeft gereageerd op { $userThatSentMessage } met { $reaction }.
 #    Label in the message context menu
 message-action-request-key = Sleutels opnieuw aanvragen
+#    Label in the message context menu
 message-action-redact = Bewerken
 message-action-report = Bericht melden
 message-action-retry = Opnieuw proberen te verzenden

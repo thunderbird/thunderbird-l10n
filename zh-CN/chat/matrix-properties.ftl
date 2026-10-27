@@ -276,6 +276,7 @@ message-redacted = 消息已撤回。
 message-reaction = { $userThatReacted } 回应 { $userThatSentMessage } - { $reaction }。
 #    Label in the message context menu
 message-action-request-key = 重新请求密钥
+#    Label in the message context menu
 message-action-redact = 撤回
 message-action-report = 举报消息
 message-action-retry = 重试发送

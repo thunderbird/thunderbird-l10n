@@ -5,5 +5,5 @@
 shortcuts-close-button-title =
     .title = Закрити
 shortcuts-close-button =
-    .title = Закрити
     .aria-label = Закрити
+    .title = Закрити

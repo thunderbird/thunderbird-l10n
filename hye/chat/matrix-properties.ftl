@@ -276,6 +276,7 @@ message-redacted = Հաղորդագրութիւնը խմբագրուել է:
 message-reaction = { $userThatReacted }-ն արձագանքեց { $userThatSentMessage }-ին { $reaction }-ով:
 #    Label in the message context menu
 message-action-request-key = Կրկին պահանջել բանալիներ
+#    Label in the message context menu
 message-action-redact = Խմբագրել
 message-action-report = Հաշուետու հաղորդագրութիւն
 message-action-retry = Կրկին ուղարկել

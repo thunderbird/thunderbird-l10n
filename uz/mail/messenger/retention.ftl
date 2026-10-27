@@ -10,9 +10,6 @@ retention-tab =
 retention-use-default =
     .label = Hisobim sozlamalaridan foydalansin
     .accesskey = f
-
-## Account Settings
-
 retention-button =
     .label = Saqlab qolish siyosati
 retention-dialog-title = Saqlab qolish siyosati

@@ -103,6 +103,32 @@ addr-book-summary-description = Stvorit će se novi adresar pod nazivom "{ $addr
 import-from-calendar-file-desc = Odaberite iCalendar (.ics) datoteku koju želite uvesti.
 calendar-items-title = Odaberite stavke za uvoz.
 calendar-items-loading = Učitavanje elemenata…
+# $count (Number) - The number of items in the calendar file.
+calendar-items-count =
+    { $count ->
+        [one] Datoteka sadrži { $count } stavku.
+        [few] Datoteka sadrži { $count } stavke.
+       *[other] Datoteka sadrži { $count } stavki.
+    }
+# Column headers of the list of calendar items to import.
+calendar-items-column-title-a11y =
+    .aria-label = Naslov
+calendar-items-column-title = Naslov
+    .title = Sortiraj prema naslovu
+# The start date and time of each item.
+calendar-items-column-start-a11y =
+    .aria-label = Počinje
+calendar-items-column-start = Počinje
+    .title = Sortiraj prema početku
+# The end date and time of each item.
+calendar-items-column-end-a11y =
+    .aria-label = Završava
+calendar-items-column-end = Završava
+    .title = Sortiraj prema kraju
+# The column of checkboxes, to choose which items to import.
+calendar-items-column-import-a11y =
+    .aria-label = Uvoz
+calendar-items-column-import = Uvoz
 calendar-items-filter-input2 =
     .label = Filtriraj stavke
     .placeholder = Filtriraj stavke…

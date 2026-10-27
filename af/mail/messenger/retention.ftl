@@ -10,9 +10,6 @@ retention-tab =
 retention-use-default =
     .label = Gebruik my rekeningopstelling
     .accesskey = G
-
-## Account Settings
-
 retention-button =
     .label = Behoubeleid
 retention-dialog-title = Behoubeleid

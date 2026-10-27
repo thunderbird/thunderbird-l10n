@@ -5,5 +5,5 @@
 shortcuts-close-button-title =
     .title = Zavřít
 shortcuts-close-button =
-    .title = Zavřít
     .aria-label = Zavřít
+    .title = Zavřít

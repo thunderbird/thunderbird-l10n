@@ -10,9 +10,6 @@ retention-tab =
 retention-use-default =
     .label = Hesap ayarlarımı kullan
     .accesskey = H
-
-## Account Settings
-
 retention-button =
     .label = Kayıt ilkeleri
 retention-dialog-title = Kayıt ilkeleri

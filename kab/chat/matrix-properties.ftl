@@ -276,6 +276,7 @@ message-redacted = Izen yettwasfeḍ.
 message-reaction = { $userThatReacted } isedmer { $userThatSentMessage } s { $reaction }.
 #    Label in the message context menu
 message-action-request-key = Ales assuter n tsura
+#    Label in the message context menu
 message-action-redact = Redact
 message-action-report = Mmel izen
 message-action-retry = Ales tuzna

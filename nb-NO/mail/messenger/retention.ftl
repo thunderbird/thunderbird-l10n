@@ -10,9 +10,6 @@ retention-tab =
 retention-use-default =
     .label = Bruk innstillingene for kontoen
     .accesskey = B
-
-## Account Settings
-
 retention-button =
     .label = Automatisk sletting
 retention-dialog-title = Automatisk sletting

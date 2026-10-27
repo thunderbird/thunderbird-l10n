@@ -2,4 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY migration.title "&brandFullName;: datu ievietošana">
+<!ENTITY migration.welcome "Laipni lūdzam">
+<!ENTITY migration.importing "Ievieto">
+<!ENTITY migration.list.description "&brandShortName; var ievietot kalendāra datus no daudzām izplatītām lietotnēm. Datorā tika atrasti turpmāk norādīto lietotņu dati. Lūgums atlasīt, no kuras no tām ir vēlēšanās ievietot datus.">
 <!ENTITY migration.progress.description "Ievieto atlasītos datus">

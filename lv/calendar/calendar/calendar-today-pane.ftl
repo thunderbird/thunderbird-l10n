@@ -8,3 +8,5 @@ calendar-today-pane-show-tasks-only =
     .tooltiptext = Rādīt uzdevumus
 calendar-today-pane-show-events-only =
     .tooltiptext = Rādīt notikumus
+calendar-today-pane-close-button =
+    .tooltiptext = Paslēpt šodienas rūti

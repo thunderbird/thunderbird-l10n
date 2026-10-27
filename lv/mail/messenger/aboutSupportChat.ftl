@@ -3,4 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 chat-title = Tērzēšanas konti
+chat-table-heading-account = ID
+chat-table-heading-protocol = Protokols
 chat-table-heading-actions = Darbības

@@ -9,7 +9,7 @@
 <!ENTITY smtpListEdit.accesskey "R">
 <!ENTITY smtpListDelete.label "Noņemt">
 <!ENTITY smtpListDelete.accesskey "N">
-<!ENTITY smtpListSetDefault.label "Iestatīt noklusēto">
+<!ENTITY smtpListSetDefault.label "Iestatīt noklusējumu">
 <!ENTITY smtpListSetDefault.accesskey "I">
 <!ENTITY serverDetails.label "Izvēlētā servera informācija:">
 <!ENTITY serverDescription.label "Apraksts:">

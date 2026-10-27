@@ -521,6 +521,16 @@ several-calendar-weeks = KTi: { $startIndex }-{ $endIndex }
 # the day number other than a possible crop when the window is resized.
 #    $number is a number from 1 to 53 that represents the week number.
 multiweek-view-week = { $number }. tjedan
+# Shown after the items of a day in the calendar views, when the day has too
+# many items to display at once. Clicking it displays more of them.
+# Variables:
+#   $count (Number) - The number of items in the day that are not displayed.
+calendar-view-more-items =
+    { $count ->
+        [one] ... i još { $count }
+        [few] ... i još { $count }
+       *[other] ... i još { $count }
+    }
 # Task tree, "Due In" column.
 # LOCALIZATION NOTE (due-in-days, due-in-hours): Semi-colon list of plural
 # forms. See: http://developer.mozilla.org/en/Localization_and_Plurals
@@ -558,6 +568,11 @@ format-date-long = { $dayName }, { $dayIndex }. { $monthName } { $year }.
 day-header = { $dayName } { $dayIndex }
 day-header-elem =
     .label = { day-header }
+# LOCALIZATION NOTE (calendar-multiday-hour-slot):
+# Label for a time slot in the day/week calendar views.
+#    $date will be replaced with the day label, e.g. "Monday 6 Oct.";
+#    $time will be replaced with the time of the slot, e.g. "9:00 AM".
+calendar-multiday-hour-slot = { $date }, { $time }
 # LOCALIZATION NOTE (datetime-interval-task-without-date):
 # used for task without start and due date
 # (showed only in exported calendar in Html format)
@@ -1134,3 +1149,7 @@ attachments-tab-label = Privitci ({ $count }):
 #   $docTitle (String) - The date or view label for the current calendar view.
 calendar-window-title = { $docTitle } - { -brand-full-name }
 calendar-window-title-base = { -brand-full-name }
+# Variables:
+#   $calendarName (String) - Calendar name as given by the user.
+#   $location (String) - The calendar server location.
+calendar-auth-enter-user-password-for-calendar = „{ $calendarName }” ({ $location }) traži vaše korisničko ime i lozinku.

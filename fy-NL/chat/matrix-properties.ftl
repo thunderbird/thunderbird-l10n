@@ -276,6 +276,7 @@ message-redacted = Berjocht is bewurke.
 message-reaction = { $userThatReacted } hat reagearre op { $userThatSentMessage } mei { $reaction }.
 #    Label in the message context menu
 message-action-request-key = Kaaien opnij opfreegje
+#    Label in the message context menu
 message-action-redact = Redigearje
 message-action-report = Berjocht rapportearje
 message-action-retry = Opnij probearje te ferstjoeren

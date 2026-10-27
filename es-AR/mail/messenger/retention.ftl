@@ -10,9 +10,6 @@ retention-tab =
 retention-use-default =
     .label = Usar configuración de mi cuenta
     .accesskey = U
-
-## Account Settings
-
 retention-button =
     .label = Política de retención
 retention-dialog-title = Política de retención

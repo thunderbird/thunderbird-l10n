@@ -150,7 +150,7 @@ command-topic = { $commandName } &lt;topic&gt;: تنظیم موضوع اتاق. 
 # $commandName is the command name
 command-unban = { $commandName } &lt;userId&gt;: رفع مسدودیت کاربری که از اتاق مسدود شده است. به مجوز مسدود کردن کاربران نیاز دارد.
 # $commandName is the command name
-command-visibility = { $commandName } [&lt;visibility&gt;]: تنظیم نمایان بودن اتاق فعلی در فهرست اتاق‌های کارساز خانگی فعلی. یک عدد صحیح وارد کنید: خصوصی: ۰ و عمومی: ۱. اگر آرگومانی داده نشود، پیش‌گزیده خصوصی (۰) است. به مجوز تغییر نمایان بودن اتاق نیاز دارد.
+command-visibility = { $commandName } [&lt;visibility&gt;]: تنظیم نمایان بودن اتاق فعلی در شاخهٔ اتاق‌های کارساز خانگی فعلی. یک عدد صحیح وارد کنید: خصوصی: ۰ و عمومی: ۱. اگر آرگومانی داده نشود، پیش‌گزیده خصوصی (۰) است. به مجوز تغییر نمایان بودن اتاق نیاز دارد.
 # $commandName is the command name
 command-guest = { $commandName } &lt;guest access&gt; &lt;history visibility&gt;: تنظیم دسترسی و نمایان بودن تاریخچهٔ اتاق فعلی برای کاربران مهمان. دو عدد صحیح وارد کنید: اولی برای دسترسی مهمان (غیرمجاز: ۰ و مجاز: ۱) و دومی برای نمایان بودن تاریخچه (نامرئی: ۰ و نمایان: ۱). به مجوز تغییر نمایان بودن تاریخچه نیاز دارد.
 # $commandName is the command name
@@ -276,6 +276,7 @@ message-redacted = محتوای پیام حذف شد.
 message-reaction = { $userThatReacted } به پیام { $userThatSentMessage } با { $reaction } واکنش نشان داد.
 #    Label in the message context menu
 message-action-request-key = درخواست دوبارهٔ کلیدها
+#    Label in the message context menu
 message-action-redact = حذف محتوا
 message-action-report = گزارش پیام
 message-action-retry = تلاش دوباره برای ارسال

@@ -276,6 +276,7 @@ message-redacted = ข้อความถูกปิดทับ
 message-reaction = { $userThatReacted } ได้ตอบกลับ { $userThatSentMessage } ด้วย { $reaction }
 #    Label in the message context menu
 message-action-request-key = ขอคีย์ใหม่อีกครั้ง
+#    Label in the message context menu
 message-action-redact = ปิดทับ
 message-action-report = รายงานข้อความ
 message-action-retry = ลองส่งใหม่

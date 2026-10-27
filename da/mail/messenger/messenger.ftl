@@ -5,7 +5,7 @@
 
 ## Message files
 
-messenger-eml-files-filter = Mailfiler (*.eml)
+messenger-eml-files-filter = Mailfiler
 messenger-open-eml-file-title = Åbn meddelelse
 # Keep the .eml extension and use an 8.3 file name.
 messenger-default-save-message-file-name = meddelelse.eml
@@ -97,6 +97,17 @@ open-tabs-warning-confirmation =
         [one] Åbning af { $count } meddelelse kan tage lang tid. Fortsæt?
        *[other] Åbning af { $count } meddelelser kan tage lang tid. Fortsæt?
     }
+
+## Sign-in window
+
+# Shown when the provider's sign-in page cannot use cookies because they are
+# blocked.
+browser-request-cookies-blocked = Cookies er blokeret. Dette kan forhindre dig i at logge på.
+# Turns cookies back on. Same action as the "Accept cookies from sites" option
+# in Settings, Privacy & Security.
+browser-request-cookies-accept =
+    .label = Accepter cookies fra websteder
+    .accesskey = A
 
 ## Toolbar
 

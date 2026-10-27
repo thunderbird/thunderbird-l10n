@@ -10,9 +10,6 @@ retention-tab =
 retention-use-default =
     .label = Używaj domyślnych ustawień konta
     .accesskey = d
-
-## Account Settings
-
 retention-button =
     .label = Reguły przechowywania wiadomości
 retention-dialog-title = Reguły przechowywania wiadomości

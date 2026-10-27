@@ -276,6 +276,7 @@ message-redacted = A mensagem foi expurgada.
 message-reaction = { $userThatReacted } reagiu a { $userThatSentMessage } com { $reaction }.
 #    Label in the message context menu
 message-action-request-key = Re-solicitar Chaves
+#    Label in the message context menu
 message-action-redact = Expurgar
 message-action-report = Reportar Mensagem
 message-action-retry = Repetir o Envio

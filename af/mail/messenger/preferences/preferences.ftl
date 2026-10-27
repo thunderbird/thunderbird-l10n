@@ -6,9 +6,6 @@ pane-compose-title = Opstelling
 category-compose =
     .tooltiptext = Opstelling
 
-## OS Authentication dialog
-
-
 ## General Tab
 
 general-legend = { -brand-short-name } se beginbladsy
@@ -193,10 +190,6 @@ mark-read-delay =
     .accesskey = v
 seconds-label = sekondes
 
-## Note: This will concatenate to "After viewing for [___] seconds",
-## using (mark-read-after-viewing) and a number (seconds-label).
-
-
 ##
 
 open-msg-label =
@@ -308,22 +301,6 @@ certificate-ask =
     .label = Vra my elke keer
     .accesskey = A
 
-## DoH Section
-
-
-## Keyservers
-
-
-## Chat Tab
-
-
-## Note: idle-label is displayed first, then there's a field where the user
-## can enter a number, and itemTime is displayed at the end of the line.
-## The translations of the idle-label and idle-time-label parts don't have
-## to mean the exact same thing as in English; please try instead to
-## translate the whole sentence.
-
-
 ## Content of the preview conversation for chat message styles.
 
 chat-play-button =
@@ -335,18 +312,3 @@ chat-custom-sound-label =
 chat-browse-sound-button =
     .label = Blaai…
     .accesskey = B
-
-## Content of the preview conversation for chat message styles.
-
-
-## Settings UI Search Results
-
-
-## Sync Tab
-
-
-## Mobile QR Export Pane
-
-
-## Appearance Tab
-

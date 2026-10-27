@@ -10,9 +10,6 @@ retention-tab =
 retention-use-default =
     .label = Defnyddio gosodiadau fy nghyfrif
     .accesskey = D
-
-## Account Settings
-
 retention-button =
     .label = Polisi Cadw
 retention-dialog-title = Polisi Cadw

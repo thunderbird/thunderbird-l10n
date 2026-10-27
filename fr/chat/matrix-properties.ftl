@@ -276,6 +276,7 @@ message-redacted = Message effacé.
 message-reaction = { $userThatReacted } a réagi à { $userThatSentMessage } avec { $reaction }.
 #    Label in the message context menu
 message-action-request-key = Redemander les clés
+#    Label in the message context menu
 message-action-redact = Effacer
 message-action-report = Signaler le message
 message-action-retry = Réessayer l’envoi

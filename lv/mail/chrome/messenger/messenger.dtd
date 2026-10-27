@@ -548,7 +548,7 @@
 <!ENTITY folderContextSettings2.label "Iestatījumi">
 <!ENTITY folderContextSettings2.accesskey "I">
 <!-- Search Bar -->
-<!ENTITY SearchNameOrEmail.label "Vārds vai epasts satur:">
+<!ENTITY SearchNameOrEmail.label "Vārds vai e-pasta adrese satur:">
 <!ENTITY SearchNameOrEmail.accesskey "V">
 <!-- Gloda Search Bar -->
 <!ENTITY glodaSearchBar.placeholder "Meklēt vēstules...">

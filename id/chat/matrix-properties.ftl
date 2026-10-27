@@ -276,6 +276,7 @@ message-redacted = Pesan disensor.
 message-reaction = { $userThatReacted } berreaksi terhadap { $userThatSentMessage } dengan { $reaction }.
 #    Label in the message context menu
 message-action-request-key = Minta Ulang Kunci
+#    Label in the message context menu
 message-action-redact = Sensor
 message-action-report = Laporkan Pesan
 message-action-retry = Coba Kirim Lagi

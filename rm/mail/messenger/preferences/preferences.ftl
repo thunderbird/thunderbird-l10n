@@ -446,10 +446,6 @@ mark-read-delay =
     .accesskey = t
 seconds-label = secundas
 
-## Note: This will concatenate to "After viewing for [___] seconds",
-## using (mark-read-after-viewing) and a number (seconds-label).
-
-
 ##
 
 open-msg-label =
@@ -724,12 +720,6 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     Decisiuns automaticas vegnan ignoradas sch'il criptadi vegn activà u deactivà manualmain durant rediger in messadi.
     Avis: Il criptadi è adina activà automaticamain sch'i sa tracta dad ina resposta ad in messadi criptà.
-
-## DoH Section
-
-
-## Keyservers
-
 
 ## Chat Tab
 

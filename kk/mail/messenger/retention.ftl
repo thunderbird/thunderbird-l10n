@@ -10,9 +10,6 @@ retention-tab =
 retention-use-default =
     .label = Тіркелгімнің баптауларын қолдану
     .accesskey = а
-
-## Account Settings
-
 retention-button =
     .label = Сақтау саясаты
 retention-dialog-title = Сақтау саясаты

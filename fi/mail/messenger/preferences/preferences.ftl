@@ -486,10 +486,6 @@ mark-read-delay =
     .accesskey = u
 seconds-label = sekuntia
 
-## Note: This will concatenate to "After viewing for [___] seconds",
-## using (mark-read-after-viewing) and a number (seconds-label).
-
-
 ##
 
 open-msg-label =

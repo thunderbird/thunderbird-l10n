@@ -10,9 +10,6 @@ retention-tab =
 retention-use-default =
     .label = Përdor rregullimet e llogarisë sime
     .accesskey = P
-
-## Account Settings
-
 retention-button =
     .label = Rregulla Mbajtjeje
 retention-dialog-title = Rregulla Mbajtjeje

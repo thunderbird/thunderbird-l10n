@@ -5,7 +5,7 @@
 <!ENTITY editContactPanelDeleteContact.accesskey "D">
 <!ENTITY editContactName.label "Vārds:">
 <!ENTITY editContactName.accesskey "V">
-<!ENTITY editContactEmail.label "Epasts:">
+<!ENTITY editContactEmail.label "E-pasta adrese:">
 <!ENTITY editContactEmail.accesskey "E">
 <!ENTITY editContactAddressBook.label "Adrešu grāmata:">
 <!ENTITY editContactAddressBook.accesskey "A">

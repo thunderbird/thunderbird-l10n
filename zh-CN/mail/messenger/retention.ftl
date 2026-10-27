@@ -10,9 +10,6 @@ retention-tab =
 retention-use-default =
     .label = 使用我的账户设置
     .accesskey = U
-
-## Account Settings
-
 retention-button =
     .label = 保留策略
 retention-dialog-title = 保留策略

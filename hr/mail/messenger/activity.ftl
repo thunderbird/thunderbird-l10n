@@ -116,3 +116,30 @@ extension-sent-activity-event-status =
         [few] { $count } poruke (proteklo vrijeme: { $time })
        *[other] { $count } poruka (proteklo vrijeme: { $time })
     }
+# Status line shown under extension-send-activity-event. Reports how many
+# messages were sent and the wall-clock time between the first and last send in
+# the batch (rounded to whole seconds, at least one).
+# Variables:
+#   $count (Number) - number of messages sent in this batch
+#   $seconds (Number) - elapsed seconds between the first and last send
+extension-send-activity-event-status =
+    { $count ->
+        [one]
+            { $seconds ->
+                [one] { $count } poruka u { $seconds } sekundu
+                [few] { $count } poruka u { $seconds } sekunde
+               *[other] { $count } poruka u { $seconds } sekundi
+            }
+        [few]
+            { $seconds ->
+                [one] { $count } poruke u { $seconds } sekundi
+                [few] { $count } poruke u { $seconds } sekunde
+               *[other] { $count } poruke u { $seconds } sekundi
+            }
+       *[other]
+            { $seconds ->
+                [one] { $count } poruka u { $seconds } sekundi
+                [few] { $count } poruka u { $seconds } sekunde
+               *[other] { $count } poruka u { $seconds } sekundi
+            }
+    }

@@ -5,5 +5,5 @@
 shortcuts-close-button-title =
     .title = Itxi
 shortcuts-close-button =
-    .title = Itxi
     .aria-label = Itxi
+    .title = Itxi

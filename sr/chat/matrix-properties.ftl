@@ -276,6 +276,7 @@ message-redacted = Порука је редигована.
 message-reaction = { $userThatReacted } је реаговао на { $userThatSentMessage } са { $reaction }.
 #    Label in the message context menu
 message-action-request-key = Поново затражи кључеве
+#    Label in the message context menu
 message-action-redact = Цензуриши
 message-action-report = Пријави поруку
 message-action-retry = Понови слање

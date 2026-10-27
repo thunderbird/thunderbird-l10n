@@ -276,6 +276,7 @@ message-redacted = Sõnumit muudeti.
 message-reaction = { $userThatReacted } reageeris kasutajale { $userThatSentMessage } sisuga { $reaction }.
 #    Label in the message context menu
 message-action-request-key = Küsi võtmeid uuesti
+#    Label in the message context menu
 message-action-redact = Muuda
 message-action-report = Raporteeri sõnumist
 message-action-retry = Proovi uuesti saata

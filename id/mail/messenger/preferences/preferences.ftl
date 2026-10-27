@@ -576,10 +576,6 @@ mark-read-delay =
     .label = Setelah ditampilkan
     .accesskey = e
 seconds-label = detik
-
-## Note: This will concatenate to "After viewing for [___] seconds",
-## using (mark-read-after-viewing) and a number (seconds-label).
-
 mark-read-after-viewing =
     .label = Setelah melihat selama
     .accesskey = m

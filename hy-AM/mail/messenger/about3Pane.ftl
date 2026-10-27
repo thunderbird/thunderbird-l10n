@@ -500,9 +500,6 @@ apply-current-columns-to-folder-message = Կիրառե՞լ ընթացիկ թղթ
 apply-current-columns-to-folder-with-children-message = Կիրառե՞լ ընթացիկ թղթապանակի սյունները { $name }-ին և մնացածին։
 message-list-placeholder-no-messages = Ոչ մի հաղորդագրություն չի գտնվել
 
-## Folder pane context menu
-
-
 ## Confirmation prompts shown before deleting a folder.
 
 folder-delete-title = Ջնջել թղթապանակը

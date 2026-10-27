@@ -276,6 +276,7 @@ message-redacted = Neges wedi'i guddolygu.
 message-reaction = Ymatebodd { $userThatReacted } i { $userThatSentMessage } gyda { $reaction }.
 #    Label in the message context menu
 message-action-request-key = Gofyn eto am Allweddi
+#    Label in the message context menu
 message-action-redact = Cuddolygu
 message-action-report = Adrodd am Neges
 message-action-retry = Ceisiwch Anfon Eto

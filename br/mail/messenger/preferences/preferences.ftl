@@ -357,10 +357,6 @@ mark-read-delay =
     .accesskey = d
 seconds-label = a eilennoù
 
-## Note: This will concatenate to "After viewing for [___] seconds",
-## using (mark-read-after-viewing) and a number (seconds-label).
-
-
 ##
 
 open-msg-label =
@@ -551,12 +547,6 @@ security-devices-button =
     .accesskey = T
 account-settings = Arventennoù ar gont
 
-## DoH Section
-
-
-## Keyservers
-
-
 ## Chat Tab
 
 startup-label =
@@ -654,15 +644,6 @@ chat-theme-preview-message-1 = Salud! :-)
 chat-theme-preview-message-2 = Penaos eo?
 chat-theme-preview-message-3 = Emaon oc’h esaeañ { -brand-short-name }! ;-)
 
-## Settings UI Search Results
-
-
 ## Sync Tab
 
 sync-pane-cancel = Dilezel
-
-## Mobile QR Export Pane
-
-
-## Appearance Tab
-

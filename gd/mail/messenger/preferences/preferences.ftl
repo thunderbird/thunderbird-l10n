@@ -401,10 +401,6 @@ mark-read-delay =
     .accesskey = d
 seconds-label = diog(an)
 
-## Note: This will concatenate to "After viewing for [___] seconds",
-## using (mark-read-after-viewing) and a number (seconds-label).
-
-
 ##
 
 open-msg-label =
@@ -603,12 +599,6 @@ security-devices-button =
     .label = Uidheaman tèarainteachd...
     .accesskey = d
 
-## DoH Section
-
-
-## Keyservers
-
-
 ## Chat Tab
 
 startup-label =
@@ -708,12 +698,3 @@ chat-theme-preview-message-3 = Tha mi a’ feuchainn { -brand-short-name }! ;-)
 
 search-results-header = Toraidhean luirg
 search-results-help-link = A bheil cobhair a dhìth ort? Tadhail air <a data-l10n-name="url">Taic { -brand-short-name }</a>
-
-## Sync Tab
-
-
-## Mobile QR Export Pane
-
-
-## Appearance Tab
-

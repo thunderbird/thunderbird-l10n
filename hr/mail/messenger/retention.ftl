@@ -10,9 +10,6 @@ retention-tab =
 retention-use-default =
     .label = Koristi moje postavke računa
     .accesskey = u
-
-## Account Settings
-
 retention-button =
     .label = Politika čuvanja
 retention-dialog-title = Politika čuvanja

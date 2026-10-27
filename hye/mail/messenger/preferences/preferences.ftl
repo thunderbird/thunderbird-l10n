@@ -412,10 +412,6 @@ mark-read-delay =
     .accesskey = Ց
 seconds-label = վայրկեաններ
 
-## Note: This will concatenate to "After viewing for [___] seconds",
-## using (mark-read-after-viewing) and a number (seconds-label).
-
-
 ##
 
 open-msg-label =
@@ -630,12 +626,6 @@ security-devices-button =
     .label = Անվտանգութեան սարքեր...
     .accesskey = ս
 
-## DoH Section
-
-
-## Keyservers
-
-
 ## Chat Tab
 
 startup-label =
@@ -754,12 +744,3 @@ search-results-empty-message2 =
        *[other] Ներողութիւ՜ն։ Նախընտրութիւններում արդիւնքներ չկայն <span data-l10n-name="query">֊ի համար։
     }
 search-results-help-link = Աւգնութիւ՞ն է պէտք: Այցելէք <a data-l10n-name="url">{ -brand-short-name } Աջակցում</a>
-
-## Sync Tab
-
-
-## Mobile QR Export Pane
-
-
-## Appearance Tab
-

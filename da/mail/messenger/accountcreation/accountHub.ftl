@@ -245,6 +245,7 @@ account-hub-oauth-unsupported-title = Yderligere konfiguration kræves
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
 account-hub-oauth-unsupported-description = { -brand-short-name } kan ikke automatisk konfigurere OAuth2 for dette værtsnavn. Vælg Avanceret konfiguration for at oprette kontoen, og fuldfør derefter opsætningen fra Kontoindstillinger. <a data-l10n-name="oauth-support-link">Få hjælp til OAuth2-opsætning.</a>
 account-hub-username-help-text = Ofte din fulde mailadresse
+account-hub-port-help-text = Hvis dette ikke angives, vil { -brand-short-name } forsøge at identificere porten.
 account-hub-notification-show-more = Vis mere
 account-hub-notification-show-less = Vis færre
 account-hub-email-setup-header = Tilføj din mailadresse

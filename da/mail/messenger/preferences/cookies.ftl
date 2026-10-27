@@ -12,6 +12,7 @@ filter-search-label =
     .accesskey = S
 cookies-filtered-label =
     .value = Følgende cookies matcher din søgning:
+cookies-stored-label = Cookies gemmes på denne computer
 cookies-on-system-label = Følgende cookies er gemt på din computer:
 treecol-site-header =
     .label = Websted

@@ -10,9 +10,6 @@ retention-tab =
 retention-use-default =
     .label = استخدم إعدادات حسابي
     .accesskey = ت
-
-## Account Settings
-
 retention-button =
     .label = سياسة الإبقاء
 retention-dialog-title = سياسة الإبقاء

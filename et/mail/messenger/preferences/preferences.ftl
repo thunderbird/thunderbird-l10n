@@ -426,10 +426,6 @@ mark-read-delay =
     .accesskey = m
 seconds-label = sekundit
 
-## Note: This will concatenate to "After viewing for [___] seconds",
-## using (mark-read-after-viewing) and a number (seconds-label).
-
-
 ##
 
 open-msg-label =
@@ -654,12 +650,6 @@ security-devices-button =
     .label = Turvaseadmed…
     .accesskey = T
 account-settings = Konto sätted
-
-## DoH Section
-
-
-## Keyservers
-
 
 ## Chat Tab
 

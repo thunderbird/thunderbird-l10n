@@ -5,5 +5,5 @@
 shortcuts-close-button-title =
     .title = Κλείσιμο
 shortcuts-close-button =
-    .title = Κλείσιμο
     .aria-label = Κλείσιμο
+    .title = Κλείσιμο

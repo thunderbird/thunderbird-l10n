@@ -5,5 +5,5 @@
 shortcuts-close-button-title =
     .title = Sulje
 shortcuts-close-button =
-    .title = Sulje
     .aria-label = Sulje
+    .title = Sulje

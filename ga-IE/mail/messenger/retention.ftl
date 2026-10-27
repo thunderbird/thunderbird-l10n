@@ -10,9 +10,6 @@ retention-tab =
 retention-use-default =
     .label = Úsáid socruithe mo chuntais
     .accesskey = s
-
-## Account Settings
-
 retention-button =
     .label = Polasaí Coinneála
 retention-dialog-title = Polasaí Coinneála

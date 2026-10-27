@@ -10,9 +10,6 @@ retention-tab =
 retention-use-default =
     .label = Gunakan pengaturan akun saya
     .accesskey = a
-
-## Account Settings
-
 retention-button =
     .label = Kebijakan Penyimpanan
 retention-dialog-title = Kebijakan Penyimpanan

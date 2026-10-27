@@ -5,7 +5,7 @@
 <!ENTITY accountTitle.label "Konta iestatījumi">
 <!ENTITY accountName.label "Konta nosaukums:">
 <!ENTITY accountName.accesskey "n">
-<!ENTITY identityTitle.label "Noklusētā identitāte">
+<!ENTITY identityTitle.label "Noklusējuma identitāte">
 <!ENTITY identityDesc.label "Katram kontam ir identitāte jeb informācija, ko citi cilvēki redz, lasot jūsu vēstules.">
 <!ENTITY name.label "Jūsu vārds:">
 <!ENTITY name.accesskey "v">
@@ -34,4 +34,4 @@
 <!ENTITY attachVCard.accesskey "P">
 <!ENTITY manageIdentities.label "Pārvaldīt identitātes…">
 <!ENTITY manageIdentities.accesskey "P">
-<!ENTITY smtpDefaultServer.label "Lietot noklusēto serveri">
+<!ENTITY smtpDefaultServer.label "Lietot noklusējuma serveri">

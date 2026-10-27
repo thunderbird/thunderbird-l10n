@@ -5,5 +5,5 @@
 shortcuts-close-button-title =
     .title = Жабу
 shortcuts-close-button =
-    .title = Жабу
     .aria-label = Жабу
+    .title = Жабу

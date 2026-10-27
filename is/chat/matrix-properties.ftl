@@ -276,6 +276,7 @@ message-redacted = Skilaboðin voru ritstýrð.
 message-reaction = { $userThatReacted } brást við { $userThatSentMessage } með { $reaction }.
 #    Label in the message context menu
 message-action-request-key = Biðja aftur um lykla
+#    Label in the message context menu
 message-action-redact = Ritstýra
 message-action-report = Tilkynna skilaboð
 message-action-retry = Reyna aftur að senda

@@ -5,6 +5,7 @@
 toolbar-context-menu-menu-bar =
     .toolbarname = Traka izbornika
     .accesskey = T
+system-tray-app-name = { -brand-full-name }
 
 ## Tools Menu
 
@@ -156,6 +157,9 @@ file-new-newsgroup-account =
 file-new-addressbook =
     .label = Adresar
     .accesskey = A
+file-new-mailing-list =
+    .label = Popis primatelja…
+    .accesskey = l
 file-new-local-addressbook =
     .label = Lokalni adresar
     .accesskey = a

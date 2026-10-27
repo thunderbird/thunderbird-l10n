@@ -5,5 +5,5 @@
 shortcuts-close-button-title =
     .title = Đóng
 shortcuts-close-button =
-    .title = Đóng
     .aria-label = Đóng
+    .title = Đóng

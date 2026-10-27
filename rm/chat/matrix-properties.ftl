@@ -276,6 +276,7 @@ message-redacted = Il messadi è vegnì edità.
 message-reaction = { $userThatReacted } ha reagì sin { $userThatSentMessage } cun { $reaction }.
 #    Label in the message context menu
 message-action-request-key = Redumandar las clavs
+#    Label in the message context menu
 message-action-redact = Editar
 message-action-report = Rapportar il messadi
 message-action-retry = Reempruvar da trametter

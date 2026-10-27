@@ -276,6 +276,7 @@ message-redacted = Mesajul a fost redactat.
 message-reaction = { $userThatReacted } a reacționat la { $userThatSentMessage } cu { $reaction }.
 #    Label in the message context menu
 message-action-request-key = Cere din nou cheile
+#    Label in the message context menu
 message-action-redact = Redactează
 message-action-report = Raportează mesajul
 message-action-retry = Reîncearcă trimiterea

@@ -276,6 +276,7 @@ message-redacted = El mensaje fue redactado.
 message-reaction = { $userThatReacted } reaccionó a { $userThatSentMessage } con { $reaction }.
 #    Label in the message context menu
 message-action-request-key = Volver a solicitar claves
+#    Label in the message context menu
 message-action-redact = Redactar
 message-action-report = Reportar mensaje
 message-action-retry = Reintentar envío

@@ -12,9 +12,6 @@ pane-calendar-title = Calendar
 category-calendar =
     .tooltiptext = Calendar
 
-## OS Authentication dialog
-
-
 ## General Tab
 
 focus-search-shortcut =
@@ -211,17 +208,6 @@ delete-tag-button =
     .label = Delete
     .accesskey = D
 
-## Note: This will concatenate to "After viewing for [___] seconds",
-## using (mark-read-after-viewing) and a number (seconds-label).
-
-
-## Note: This will concatenate to "After viewing for [___] seconds",
-## using (mark-read-after-viewing) and a number (seconds-label).
-
-
-##
-
-
 ## Compose Tab
 
 forward-label =
@@ -352,12 +338,6 @@ certificate-ask =
     .label = Ask me every time
     .accesskey = A
 
-## DoH Section
-
-
-## Keyservers
-
-
 ## Chat Tab
 
 startup-label =
@@ -387,18 +367,3 @@ away-message-label =
 send-typing-label =
     .label = Send typing notifications in conversations
     .accesskey = t
-
-## Content of the preview conversation for chat message styles.
-
-
-## Settings UI Search Results
-
-
-## Sync Tab
-
-
-## Mobile QR Export Pane
-
-
-## Appearance Tab
-

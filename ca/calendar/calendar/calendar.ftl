@@ -24,6 +24,10 @@ ask-save-title-event = Desa la cita
 ask-save-title-task = Desa la tasca
 ask-save-message-event = La cita encara no s'ha desat. Voleu desar-la?
 ask-save-message-task = La tasca encara no s'ha desat. Voleu desar-la?
+# All day checkbox label, used both for events and tasks
+calendar-item-all-day =
+    .label = Tot el dia
+    .accesskey = d
 # Event Dialog Warnings
 warning-end-before-start = La data de finalització que heu escrit és anterior a la data d'inici
 warning-until-date-before-start = La data de finalització és anterior a la data d'inici
@@ -491,6 +495,11 @@ single-long-calendar-week = Setmana del calendari: { $index }
 #    $index will be replaced with the index of the week
 single-calendar-week = Setm.: { $index }
     .title = Setmana del calendari: { $index }
+# LOCALIZATION NOTE (several-long-calendar-weeks):
+# used for display of calendar weeks in long form like 'Calendar Weeks 43 - 45'
+#    $startIndex will be replaced with the index of the start-week
+#    $endIndex will be replaced with the index of the end-week
+several-long-calendar-weeks = Setmanes del calendari { $startIndex }-{ $endIndex }
 # LOCALIZATION NOTE (several-calendar-weeks):
 # used for display of calendar weeks in short form like 'CWs 43 - 45'
 #    $startIndex will be replaced with the index of the start-week
@@ -846,6 +855,7 @@ calendar-context-convert-to-message =
 calendar-context-convert-to-task =
     .label = Tasca…
     .accesskey = T
+calendar-task-filter-title2 = Filtra les tasques
 calendar-task-filter-all =
     .label = Totes
     .accesskey = T
@@ -973,6 +983,30 @@ calendar-alarm-snooze-for =
     .label = Ajorna fins d'aquí
 calendar-alarm-snooze-all-for =
     .label = Ajorna-ho tot fins d'aquí
+# Variables:
+# $count (Number) - The number of minutes to snooze.
+calendar-alarm-snooze-preset-minutes =
+    .label =
+        { $count ->
+            [one] { $count } minut
+           *[other] { $count } minuts
+        }
+# Variables:
+# $count (Number) - The number of hours to snooze.
+calendar-alarm-snooze-preset-hours =
+    .label =
+        { $count ->
+            [one] { $count } hora
+           *[other] { $count } hores
+        }
+# Variables:
+# $count (Number) - The number of days to snooze.
+calendar-alarm-snooze-preset-days =
+    .label =
+        { $count ->
+            [one] { $count } dia
+           *[other] { $count } dies
+        }
 # LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
 # This string is not visible in the UI. It is read by screen readers when the
 # user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.

@@ -79,7 +79,7 @@ collection-share-crash-data =
     .label = Odosielať anonymné hlásenia o zlyhaní { -vendor-short-name(case: "dat") }
     .accesskey = d
 collection-backlogged-crash-reports =
-    .label = Povoliť { -brand-short-name(case: "dat") } odosielať vo vašom mene správy o zlyhaní
+    .label = Povoliť { -brand-short-name(case: "dat") } odosielať vo vašom mene hlásenia o zlyhaní
     .accesskey = s
 collection-backlogged-crash-reports-link = Ďalšie informácie
 privacy-security-header = Bezpečnosť
@@ -580,10 +580,6 @@ mark-read-delay =
     .label = Po
     .accesskey = P
 seconds-label = sekundách od zobrazenia
-
-## Note: This will concatenate to "After viewing for [___] seconds",
-## using (mark-read-after-viewing) and a number (seconds-label).
-
 mark-read-after-viewing =
     .label = Po zobrazení na dobu
     .accesskey = d

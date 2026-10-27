@@ -390,10 +390,6 @@ mark-read-delay =
     .accesskey = п
 seconds-label = секунд(ы)
 
-## Note: This will concatenate to "After viewing for [___] seconds",
-## using (mark-read-after-viewing) and a number (seconds-label).
-
-
 ##
 
 open-msg-label =
@@ -640,12 +636,6 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     Аўтаматычныя рашэнні можна скасаваць, калі ўключыць або адключыць шыфраванне ўручную пры складанні паведамлення.
     Заўвага: шыфраванне заўсёды аўтаматычна ўключаецца пры адказе на зашыфраваныя паведамленні.
-
-## DoH Section
-
-
-## Keyservers
-
 
 ## Chat Tab
 

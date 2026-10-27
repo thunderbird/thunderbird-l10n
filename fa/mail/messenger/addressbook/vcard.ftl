@@ -1,0 +1,96 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, you can obtain one at http://mozilla.org/MPL/2.0/.
+
+vcard-displayname = نام نمایشی
+vcard-displayname-placeholder =
+    .placeholder = { vcard-displayname }
+vcard-entry-type-label = نوع
+vcard-entry-type-home = خانه
+vcard-entry-type-work = محل کار
+vcard-entry-type-none = هیچ
+vcard-entry-type-custom = سفارشی
+vcard-name-header = نام
+vcard-n-prefix = پیشوند
+vcard-n-add-prefix =
+    .title = افزودن پیشوند
+vcard-n-firstname = نام
+vcard-n-add-firstname =
+    .title = افزودن نام
+vcard-n-middlename = نام میانی
+vcard-n-add-middlename =
+    .title = افزودن نام میانی
+vcard-n-lastname = نام خانوادگی
+vcard-n-add-lastname =
+    .title = افزودن نام خانوادگی
+vcard-n-suffix = پسوند
+vcard-n-add-suffix =
+    .title = افزودن پسوند
+vcard-nickname = نام مستعار
+vcard-email-header = نشانی‌های رایانامه
+vcard-email-add = افزودن نشانی رایانامه
+vcard-email-label = نشانی رایانامه
+vcard-primary-email-label = پیش‌گزیده
+vcard-url-header = وبگاه‌ها
+vcard-url-add = افزودن وبگاه
+vcard-url-label = وبگاه
+vcard-tel-header = شماره‌های تلفن
+vcard-tel-add = افزودن شمارهٔ تلفن
+vcard-tel-label = شمارهٔ تلفن
+# Or "Mobile"
+vcard-entry-type-cell = تلفن همراه
+vcard-entry-type-fax = دورنگار
+vcard-entry-type-pager = پی‌جو
+vcard-tz-header = منطقهٔ زمانی
+vcard-tz-add = افزودن منطقهٔ زمانی
+vcard-impp2-header = پیام‌رسانی فوری
+vcard-impp-add = افزودن حساب گپ
+vcard-impp-label = حساب گپ
+vcard-impp-select = پروتکل
+vcard-impp-option-other = سایر
+vcard-impp-input-label = URI
+vcard-impp-input-title = URI برای پیام‌رسانی فوری
+vcard-bday-anniversary-header = تاریخ‌های ویژه
+vcard-bday-anniversary-add = افزودن تاریخ ویژه
+vcard-bday-label = تاریخ تولد
+vcard-anniversary-label = سالگرد
+vcard-date-day = روز
+vcard-date-month = ماه
+vcard-date-year = سال
+vcard-adr-header = نشانی‌ها
+vcard-adr-add = افزودن نشانی
+vcard-adr-label = نشانی
+vcard-adr-delivery-label = برچسب تحویل
+vcard-adr-street = نشانی خیابان
+# Or "Locality"
+vcard-adr-locality = شهر
+# Or "Region"
+vcard-adr-region = استان
+# The term "ZIP code" only applies in USA. Most locales should use "Postal code" only.
+vcard-adr-code = کد پستی
+vcard-adr-country = کشور
+vcard-note-header = یادداشت‌ها
+vcard-note-add = افزودن یادداشت
+vcard-org-header = ویژگی‌های سازمانی
+vcard-org-add = افزودن ویژگی‌های سازمانی
+vcard-org-title = عنوان
+vcard-org-title-input =
+    .placeholder = عنوان شغلی
+    .title = سمت یا شغل
+vcard-org-role = نقش
+vcard-org-role-input =
+    .placeholder = نقش در پروژه
+    .title = کارکرد یا نقش در یک موقعیت خاص
+vcard-org-org = سازمان
+vcard-org-org-input =
+    .placeholder = نام شرکت
+    .title = نام سازمان
+vcard-org-org-unit = بخش
+vcard-org-org-unit-input =
+    .placeholder = بخش
+    .title = نام واحد سازمانی
+vcard-custom-header = ویژگی‌های سفارشی
+vcard-custom-add = افزودن ویژگی‌های سفارشی
+vcard-remove-button-title =
+    .title = برداشتن
+vcard-remove-button = برداشتن

@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 attachment-reminder-dialog-title = Podsjetnik za dodavanje privitka - ključne riječi
+attachment-reminder-description = Prikaži podsjetnik za nedostajuće privitke ako e-pošta sadrži odgovarajuće ključne riječi.
 attachment-reminder-label = { -brand-short-name } će vas upozoriti da trebate dodati privitak ako šaljete e-poštu koja sadrži jednu od ovih ključnih riječi.
 keyword-new-button =
     .label = Nova…

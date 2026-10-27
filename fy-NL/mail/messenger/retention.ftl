@@ -10,9 +10,6 @@ retention-tab =
 retention-use-default =
     .label = Brûk myn accountynstellingen
     .accesskey = r
-
-## Account Settings
-
 retention-button =
     .label = Behâldbelied
 retention-dialog-title = Behâldbelied

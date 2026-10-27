@@ -258,10 +258,6 @@ mark-read-delay =
     .accesskey = d
 seconds-label = seconds
 
-## Note: This will concatenate to "After viewing for [___] seconds",
-## using (mark-read-after-viewing) and a number (seconds-label).
-
-
 ##
 
 open-msg-label =
@@ -422,12 +418,6 @@ ocsp-label =
     .label = ម៉ាស៊ីនមេ​​ឆ្លើយតប OCSP ដើម្បី​បញ្ជាក់​ភាព​ត្រឹមត្រូវ​របស់វិញ្ញាបនបត្រ​បច្ចុប្បន្ន
     .accesskey = ម
 
-## DoH Section
-
-
-## Keyservers
-
-
 ## Chat Tab
 
 startup-label =
@@ -482,12 +472,6 @@ chat-custom-sound-label =
 chat-browse-sound-button =
     .label = រក​មើល…
     .accesskey = B
-
-## Content of the preview conversation for chat message styles.
-
-
-## Settings UI Search Results
-
 
 ## Sync Tab
 

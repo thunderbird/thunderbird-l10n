@@ -10,9 +10,6 @@ retention-tab =
 retention-use-default =
     .label = Bruk innstillingane for kontoen
     .accesskey = r
-
-## Account Settings
-
 retention-button =
     .label = Ivaretaking av meldingar
 retention-dialog-title = Ivaretaking av meldingar

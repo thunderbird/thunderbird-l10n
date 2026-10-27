@@ -348,10 +348,6 @@ mark-read-delay =
     .accesskey = t
 seconds-label = soicind
 
-## Note: This will concatenate to "After viewing for [___] seconds",
-## using (mark-read-after-viewing) and a number (seconds-label).
-
-
 ##
 
 open-msg-label =
@@ -520,12 +516,6 @@ ocsp-label =
     .label = Iarr ar fhreastalaí freagróra OCSP bailíocht teastais a dheimhniú
     .accesskey = O
 
-## DoH Section
-
-
-## Keyservers
-
-
 ## Chat Tab
 
 startup-label =
@@ -589,18 +579,6 @@ style-simple =
     .label = Simplí
 preview-label = Réamhamharc:
 
-## Content of the preview conversation for chat message styles.
-
-
 ## Settings UI Search Results
 
 search-results-header = Torthaí an Chuardaigh
-
-## Sync Tab
-
-
-## Mobile QR Export Pane
-
-
-## Appearance Tab
-

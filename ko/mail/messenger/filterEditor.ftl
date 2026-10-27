@@ -180,6 +180,7 @@ filter-editor-invalid-search-title = 올바르지 않은 검색 기간
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
 filter-editor-invalid-search-rule = 검색어 "{ $attribute } { $operator }"는 현재 문맥에서 올바르지 않기 때문에 이 필터를 저장할 수 없습니다.
+filter-editor-missing-value-title = 검색 값 누락
 filter-editor-action-order-explanation = 메시지가 이 필터에 적용될 때 이 순서대로 동작이 적용됨:
 filter-editor-action-order-title = 실제 동작 순서
 # Variables:

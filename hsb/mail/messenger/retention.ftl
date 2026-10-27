@@ -10,9 +10,6 @@ retention-tab =
 retention-use-default =
     .label = Moje kontowe nastajenja wužiwać
     .accesskey = k
-
-## Account Settings
-
 retention-button =
     .label = Prawidła wobchowanja
 retention-dialog-title = Prawidła wobchowanja

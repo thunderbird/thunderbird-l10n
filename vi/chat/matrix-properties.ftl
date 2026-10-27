@@ -262,6 +262,7 @@ message-redacted = Tin nhắn đã được chỉnh sửa lại.
 message-reaction = { $userThatReacted } đã bày tỏ cảm xúc với { $userThatSentMessage } bằng { $reaction }.
 #    Label in the message context menu
 message-action-request-key = Yêu cầu lại khóa
+#    Label in the message context menu
 message-action-redact = Chỉnh sửa
 message-action-report = Báo cáo tin nhắn
 message-action-retry = Thử gửi lại

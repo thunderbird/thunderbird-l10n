@@ -5,5 +5,5 @@
 shortcuts-close-button-title =
     .title = Luk
 shortcuts-close-button =
-    .title = Luk
     .aria-label = Luk
+    .title = Luk

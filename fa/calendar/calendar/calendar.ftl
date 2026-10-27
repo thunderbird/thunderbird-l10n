@@ -219,7 +219,7 @@ read-only-mode = هنگام خواندن داده‌های تقویم { $name } 
 # LOCALIZATION NOTE (disabled-mode):
 # used for an message like 'There has been an error reading data for calendar: Home. It has been...'
 #    $name will be replaced with the name of a calendar
-disabled-mode = هنگام خواندن داده‌های تقویم { $name } خطایی رخ داد. این تقویم تا زمانی که استفاده از آن امن شود غیرفعال شده است.
+disabled-mode = هنگام خواندن داده‌های تقویم { $name } خطایی رخ داد. این تقویم تا زمانی که استفاده از آن امن شود ازکار افتاده است.
 # LOCALIZATION NOTE (minor-error):
 # used for an message like 'There has been an error reading data for calendar: Home. However this...'
 #    $name will be replaced with the name of a calendar
@@ -980,7 +980,7 @@ calendar-properties-offline-support =
     .label = پشتیبانی آفلاین
 calendar-properties-enable-calendar =
     .label = به‌کار انداختن این تقویم
-calendar-properties-provider-missing = ارائه‌دهندهٔ این تقویم پیدا نشد. این معمولاً وقتی رخ می‌دهد که برخی افزونه‌ها را از‌کار افتاده یا حذف کرده باشید.
+calendar-properties-provider-missing = ارائه‌دهندهٔ این تقویم پیدا نشد. این معمولاً وقتی رخ می‌دهد که برخی برافزاها از‌کار افتاده یا حذف کرده باشید.
 calendar-properties-unsubscribe =
     .buttonlabelextra1 = لغو اشتراک
     .buttonaccesskeyextra1 = ل

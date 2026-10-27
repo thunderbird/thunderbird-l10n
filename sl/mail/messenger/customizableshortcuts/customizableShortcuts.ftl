@@ -5,5 +5,5 @@
 shortcuts-close-button-title =
     .title = Zapri
 shortcuts-close-button =
-    .title = Zapri
     .aria-label = Zapri
+    .title = Zapri

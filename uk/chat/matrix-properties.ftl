@@ -276,6 +276,7 @@ message-redacted = Повідомлення було відредаговано.
 message-reaction = { $userThatReacted } реагує на { $userThatSentMessage } за допомогою { $reaction }.
 #    Label in the message context menu
 message-action-request-key = Повторний запит ключів
+#    Label in the message context menu
 message-action-redact = Редагувати
 message-action-report = Поскаржитися на повідомлення
 message-action-retry = Повторити надсилання

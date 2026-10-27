@@ -3,9 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Message List Header Bar
-
-
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
@@ -250,9 +247,6 @@ apply-current-columns-to-folder-message = أتريد تطبيق أعمدة ال�
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = أتريد تطبيق أعمدة المجلد الحالي على { $name } وما بداخله؟
-
-## Folder pane context menu
-
 
 ## Confirmation prompts shown before deleting a folder.
 

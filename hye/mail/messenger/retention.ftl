@@ -10,9 +10,6 @@ retention-tab =
 retention-use-default =
     .label = Աւգտագործել իմ հաշուի կարգաւորումները
     .accesskey = U
-
-## Account Settings
-
 retention-button =
     .label = Պահպանման քաղաքականութիւն
 retention-dialog-title = Պահպանման քաղաքականութիւն

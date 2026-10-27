@@ -10,9 +10,6 @@ retention-tab =
 retention-use-default =
     .label = Использовать параметры моей учётной записи
     .accesskey = п
-
-## Account Settings
-
 retention-button =
     .label = Настройки хранения сообщений
 retention-dialog-title = Настройки хранения сообщений

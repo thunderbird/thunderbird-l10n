@@ -10,7 +10,7 @@
 <!ENTITY text.label "Tekstu">
 <!ENTITY iconsBesideText.label "Ikonas blakus tekstam">
 <!ENTITY useSmallIcons.label "Lietot mazas ikonas">
-<!ENTITY restoreDefaultSet.label "Atjaunot noklusēto">
+<!ENTITY restoreDefaultSet.label "Atjaunot noklusējuma kopu">
 <!ENTITY showTitlebar2.label "Virsraksta josla">
 <!ENTITY saveChanges.label "Gatavs">
 <!ENTITY undoChanges.label "Atsaukt izmaiņas">

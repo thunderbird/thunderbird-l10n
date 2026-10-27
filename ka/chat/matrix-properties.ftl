@@ -276,6 +276,7 @@ message-redacted = წერილი ჩასწორდა.
 message-reaction = { $userThatReacted } გამოეხმაურა { $reaction }-ით { $userThatSentMessage }-ს.
 #    Label in the message context menu
 message-action-request-key = გასაღებების ხელახლა მოთხოვნა
+#    Label in the message context menu
 message-action-redact = ჩასწორება
 message-action-report = მოხსენება
 message-action-retry = ხელახლა გაგზავნა

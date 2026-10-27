@@ -10,9 +10,6 @@ retention-tab =
 retention-use-default =
     .label = Använd kontoinställningarna
     .accesskey = v
-
-## Account Settings
-
 retention-button =
     .label = Behåll meddelanden
 retention-dialog-title = Behåll meddelanden

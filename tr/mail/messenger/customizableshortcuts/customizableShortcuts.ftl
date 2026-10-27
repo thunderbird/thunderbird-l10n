@@ -5,5 +5,5 @@
 shortcuts-close-button-title =
     .title = Kapat
 shortcuts-close-button =
-    .title = Kapat
     .aria-label = Kapat
+    .title = Kapat
