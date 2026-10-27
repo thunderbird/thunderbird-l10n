@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 permissions-dialog-title = Excepcións
+remote-content-permissions-title = Excepcións - Contido remoto
+remote-content-permissions-description = Pode especificar de que sitios web se permite cargar imaxes e outro contido remoto. Tamén pode permitir todo o contido remoto baseándose no enderezo do remitente. Escriba o enderezo do sitio ou o enderezo de correo electrónico que quere xestionar e logo prema Bloquear ou Permitir.
+cookie-permissions-title = Excepcións - Cookies
+cookie-permissions-description = Pode especificar que sitios web teñen permiso para utilizar cookies e cales non. Escriba o enderezo exacto do sitio que queira xestionar e despois prema Bloquear, Permitir nesta sesión ou Permitir.
 website-address-label =
     .value = Enderezo do sitio web:
     .accesskey = w
