@@ -553,6 +553,13 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Знайти більше провайдерів…
 cloud-account-description = Додати нову службу зберігання Filelink
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Додати { $providerName }
+    .tooltiptext = Додати { $providerName }
+filelink-account-not-configured =
+    .title = Цей обліковий запис ще не налаштований
 
 ## Privacy Tab
 
