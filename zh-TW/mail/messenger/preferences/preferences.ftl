@@ -470,6 +470,29 @@ search-handler-table =
     .placeholder = 篩選內容類型與動作
 type-column-header = 內容類型
 action-column-header = 動作
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = 使用 { $appName }
+    .label = 使用 { $appName }
+    .tooltiptext = 使用 { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = 使用 { $appName } (預設程式)
+    .label = 使用 { $appName } (預設程式)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = 使用其他程式…
+    .tooltiptext = 使用其他程式…
+applications-choose-app-title = 選取對應程式
+applications-manage-app =
+    .label = 程式詳細資訊…
+applications-always-ask = 總是詢問
+    .label = 總是詢問
+    .tooltiptext = 總是詢問
+applications-delete-action =
+    .label = 刪除動作
+applications-delete-action-title = 刪除動作
+applications-delete-action-confirm = 您確定要刪除此動作？
 save-to-label =
     .label = 儲存檔案到
     .accesskey = S
@@ -521,6 +544,10 @@ mark-read-delay =
     .label = 在顯示
     .accesskey = d
 seconds-label = 秒之後
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 mark-read-after-viewing =
     .label = 檢視
     .accesskey = v
@@ -1070,7 +1097,7 @@ idle-label =
     .accesskey = I
 idle-time-label = 分鐘沒有使用後知道我正在閒置
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = 並將我的狀態設定為不在電腦前，且加上此狀態訊息：
@@ -1146,6 +1173,9 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = 您的 { -brand-short-name } 受到組織管理。
 managed-notice = 您的 { -brand-short-name } 受到組織管理。
+
+## Content of the preview conversation for chat message styles.
+
 
 ## Settings UI Search Results
 
