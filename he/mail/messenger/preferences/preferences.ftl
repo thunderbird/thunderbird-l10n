@@ -215,6 +215,10 @@ smaller-size-item =
 quoted-text-color =
     .label = צבע:
     .accesskey = ב
+applications-type-pdf = Portable Document Format (PDF)
+applications-preview-in-app = תצוגה מקדימה ב־{ -brand-short-name }
+    .label = תצוגה מקדימה ב־{ -brand-short-name }
+    .tooltiptext = תצוגה מקדימה ב־{ -brand-short-name }
 save-to-label =
     .label = שמור קבצים אל
     .accesskey = ש
@@ -366,6 +370,13 @@ add-cloud-account =
     .defaultlabel = הוספה…
     .label = הוספה…
     .accesskey = ס
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = הוספת { $providerName }
+    .tooltiptext = הוספת { $providerName }
+filelink-account-not-configured =
+    .title = חשבון זה טרם הוגדר
 
 ## Privacy Tab
 
