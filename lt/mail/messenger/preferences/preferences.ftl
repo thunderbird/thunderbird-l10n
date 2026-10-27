@@ -320,6 +320,15 @@ quoted-text-color =
     .accesskey = C
 search-handler-table =
     .placeholder = Filtruoti pagal turinio tipus ir veiksmus
+download-folder-desktop = Darbalaukis
+download-folder-system = Atsiuntimų aplankas
+download-choose-folder-title = Aplanko įrašomiems priedams parinkimas
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension } failas
+applications-save-file = Įrašyti failą
+    .label = Įrašyti failą
+    .tooltiptext = Įrašyti failą
 # Variables:
 #   $appName (String) - The name of an application.
 applications-use-app = Atverti programa „{ $appName }“
@@ -522,6 +531,9 @@ filelink-add-provider =
     .tooltiptext = Pridėti „{ $providerName }“?
 filelink-account-not-configured =
     .title = Ši paskyra dar nebuvo sukonfigūruota
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Ar tikrai norite pašalinti paskyrą „{ $accountName }“?
 
 ## Privacy Tab
 
@@ -566,6 +578,8 @@ primary-password-button =
     .accesskey = P
 forms-primary-pw-fips-title = Šiuo metu pasirinkta FIPS veiksena. Jai reikia pagrindinio slaptažodžio.
 forms-master-pw-fips-desc = Slaptažodžio pakeisti nepavyko
+confirm-reset-junk-training-title = Patvirtinimas
+confirm-reset-junk-training-message = Ar tikrai atstatyti adaptyviojo filtro apmokymo duomenis?
 phishing-description = Analizuodama gaunamus laiškus programa „{ -brand-short-name }“ gali patikrinti, ar jais nebandoma jūsų apgauti.
 phishing-label =
     .label = Tikrinti, ar gaunamuose laiškuose nėra apgaulės
@@ -682,6 +696,15 @@ chat-variant-label =
 
 ## Content of the preview conversation for chat message styles.
 
+chat-theme-preview-default =
+    .label = Numatytasis
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Labas! :-)
+chat-theme-preview-message-2 = Kas gero?
+chat-theme-preview-message-3 = Bandau { -brand-short-name }! ;-)
 
 ## Settings UI Search Results
 
