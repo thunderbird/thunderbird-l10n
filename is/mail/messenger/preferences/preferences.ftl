@@ -488,6 +488,15 @@ search-handler-table =
     .placeholder = Sía efnistegundir og aðgerðir
 type-column-header = Efnistegund
 action-column-header = Aðgerð
+download-folder-desktop = Skjáborð
+download-folder-system = Niðurhalið mitt
+download-choose-folder-title = Velja möppu
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension } skrá
+applications-save-file = Vista skrá
+    .label = Vista skrá
+    .tooltiptext = Vista skrá
 # Variables:
 #   $appName (String) - The name of an application.
 applications-use-app = Nota { $appName }
@@ -847,6 +856,9 @@ filelink-add-provider =
     .tooltiptext = Bæta við { $providerName }
 filelink-account-not-configured =
     .title = Þessi reikningur hefur enn ekki verið stilltur
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Ertu viss um að þú viljir eyða þessum reikningi "{ $accountName }"?
 
 ## Privacy Tab
 
@@ -958,6 +970,8 @@ spam-log-button =
 reset-spam-button =
     .label = Endurstilla þjálfunargögn
     .accesskey = r
+confirm-reset-junk-training-title = Staðfesta
+confirm-reset-junk-training-message = Ertu viss um að þú viljir endurstilla þjálfunargögnin fyrir þjálfaða síu?
 scam-detection-description = { -brand-short-name } kannar skilaboð vegna tengla sem tengjast netveiðum og algengra merkja um tölvupóstsvik.
 scam-detection-label =
     .label = Vara við lestri tölvupósts sem lítur út eins og svindl
@@ -1212,6 +1226,15 @@ managed-notice = { -brand-short-name } er stjórnað af kerfisstjórum þínum.
 
 ## Content of the preview conversation for chat message styles.
 
+chat-theme-preview-default =
+    .label = Sjálfgefið
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Hæ! :-)
+chat-theme-preview-message-2 = Hvað er að frétta?
+chat-theme-preview-message-3 = Ég er að prófa { -brand-short-name }! ;-)
 
 ## Settings UI Search Results
 
