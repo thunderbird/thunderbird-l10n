@@ -470,6 +470,29 @@ search-handler-table =
     .placeholder = Filtrer les types de contenu et les actions
 type-column-header = Type de contenu
 action-column-header = Action
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Utiliser { $appName }
+    .label = Utiliser { $appName }
+    .tooltiptext = Utiliser { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Utiliser { $appName } (défaut)
+    .label = Utiliser { $appName } (défaut)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Autre…
+    .tooltiptext = Autre…
+applications-choose-app-title = Choisir une application externe
+applications-manage-app =
+    .label = Détails de l’application…
+applications-always-ask = Toujours demander
+    .label = Toujours demander
+    .tooltiptext = Toujours demander
+applications-delete-action =
+    .label = Supprimer l’action
+applications-delete-action-title = Supprimer l’action
+applications-delete-action-confirm = Voulez-vous vraiment supprimer cette action ?
 save-to-label =
     .label = Enregistrer les fichiers sous
     .accesskey = E
@@ -521,6 +544,10 @@ mark-read-delay =
     .label = Après un délai de
     .accesskey = A
 seconds-label = secondes
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 mark-read-after-viewing =
     .label = Après un délai de
     .accesskey = A
@@ -1072,7 +1099,7 @@ idle-label =
     .accesskey = P
 idle-time-label = minutes d’inactivité
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = et indiquer mon absence avec le message suivant :
@@ -1148,6 +1175,9 @@ search-preferences-input2 =
     .style = width: 21em
 managed-by-organization-notice = { -brand-short-name } est géré par une organisation.
 managed-notice = { -brand-short-name } est géré par votre organisation.
+
+## Content of the preview conversation for chat message styles.
+
 
 ## Settings UI Search Results
 
