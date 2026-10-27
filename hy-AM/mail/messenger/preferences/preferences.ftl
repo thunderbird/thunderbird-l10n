@@ -138,6 +138,7 @@ customize-alert-label =
 mail-system-sound-label =
     .label = Համակարգային ձայնը՝ նոր նամակի դեպքում
     .accesskey = D
+sound-file-picker-title = Ընտրեք ֆայլը
 mail-custom-sound-label =
     .label = Օգտ. հետևյալ ձայնային ֆայլը
     .accesskey = U
@@ -301,6 +302,44 @@ smaller-size-item =
 quoted-text-color =
     .label = Գույնը.
     .accesskey = o
+download-folder-desktop = Աշխատասեղան
+download-folder-system = Իմ Ներբեռնումները
+download-choose-folder-title = Ընտրել թղթ-ը
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension } ֆայլ
+applications-save-file = Պահպանել ֆայլը
+    .label = Պահպանել ֆայլը
+    .tooltiptext = Պահպանել ֆայլը
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Օգտ. { $appName }
+    .label = Օգտ. { $appName }
+    .tooltiptext = Օգտ. { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Օգտ. { $appName } (ծրագրային)
+    .label = Օգտ. { $appName } (ծրագրային)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Օգտ. այլը...
+    .tooltiptext = Օգտ. այլը...
+applications-choose-app-title = Ընտրեք Սատարող Ծրագիրը
+applications-manage-app =
+    .label = Ծրագրի մանրամասները...
+applications-always-ask = Միշտ հարցնել
+    .label = Միշտ հարցնել
+    .tooltiptext = Միշտ հարցնել
+applications-delete-action =
+    .label = Ջնջել քայլը
+applications-delete-action-title = Ջնջել քայլը
+applications-delete-action-confirm = Ջնջե՞լ այս քայլը։
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }. { $type })
+applications-type-pdf = Portable Document Format (PDF)
 applications-preview-in-app = Նախադիտում { -brand-short-name }-ում
     .label = Նախադիտում { -brand-short-name }-ում
     .tooltiptext = Նախադիտում { -brand-short-name }-ում
@@ -474,6 +513,9 @@ filelink-add-provider =
     .tooltiptext = Ավելացնել { $providerName }
 filelink-account-not-configured =
     .title = Այս հաշիվը դեռ կազմաձևված չէ
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Ջնջե՞լ "{ $accountName }"-ը։
 
 ## Privacy Tab
 
@@ -509,6 +551,8 @@ passwords-description = { -brand-short-name }-ը կարող է հիշել Ձեր
 passwords-button =
     .label = Պահպանված գաղտնաբառեր…
     .accesskey = S
+confirm-reset-junk-training-title = Հաստատել
+confirm-reset-junk-training-message = Վերակայե՞լ զտիչի տվյալը։
 phishing-description = { -brand-short-name }-ը կարող է ստուգել նամակները՝ որոշելու համար խաբկանք նամակները։
 phishing-label =
     .label = Տեղեկացնել, երբ որևէ նամակը կասկածվում է որպես խաբկանք
@@ -626,6 +670,15 @@ chat-variant-label =
 
 ## Content of the preview conversation for chat message styles.
 
+chat-theme-preview-default =
+    .label = Լռելյայն
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Ողջու՜յն :-)
+chat-theme-preview-message-2 = Ի՞նչ կա։
+chat-theme-preview-message-3 = Ես փորձարկում եմ { -brand-short-name }- ը: ;-)
 
 ## Settings UI Search Results
 
