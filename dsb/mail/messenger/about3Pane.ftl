@@ -613,3 +613,21 @@ folder-pane-context-compact =
 folder-pane-context-compact-all =
     .label = Wšykne zarědniki zgusćiś
     .accesskey = z
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = Zarědnik lašowaś
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = Zarědnik &lašowaś
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = Cośo zarědnik '{ $name }' napšawdu lašowaś?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = Lašowanje zarědnika njedajo se slědk wześ a buźo wšykne powěsći lašowaś, kótarež wón a jogo pódzarědniki wopśimuju. Cośo zarědnik '{ $name }' napšawdu hyšći lašowaś?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Wulašowanje zarědnika '{ $name }' znjemóžnijo z nim zwězane filtry. Cośo napšawdu zarědnik wulašowaś?
