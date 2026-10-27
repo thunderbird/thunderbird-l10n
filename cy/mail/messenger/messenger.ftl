@@ -493,6 +493,10 @@ decrypt-and-copy-failures-multiple =
         [many] Nid oedd modd dadgryptio { $failures } o { $total } o negeseuon ac nid ydynt wedi'u copïo.
        *[other] Nid oedd modd dadgryptio { $failures } o { $total } o negeseuon ac nid ydynt wedi'u copïo.
     }
+# Shown once at the end of a filter run the user started from the message
+# list, when at least one filter or action failed.
+apply-filters-failed = Ni chwblhawyd rhediad yr hidlydd yn llwyddiannus. Gwiriwch y log hidlo am fanylion.
+apply-filters-failed-open-log-button = Log Hidlo Agored
 
 ## Spaces toolbar
 

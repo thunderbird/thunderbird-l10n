@@ -38,6 +38,8 @@ folder-props-check-for-new-messages =
     .label = Durante lo scaricamento dei nuovi messaggi per questo account controllare sempre questa cartella
     .accesskey = c
 folder-props-rebuild-summary-explanation = Può succedere che il file indice delle cartelle risulti danneggiato e qualche messaggio non venga visualizzato o messaggi già eliminati vengano comunque visualizzati; riparare la cartella può risolvere questo tipo di problema.
+folder-props-rebuild-summary-confirm-title = Ripara la cartella
+folder-props-rebuild-summary-confirm-message = La riparazione di questa cartella comporta l’eliminazione dei messaggi locali e il download di nuove copie dal server, lasciando invariati i messaggi del server. Questa operazione potrebbe richiedere del tempo. Continuare?
 
 ## Retention tab (see retention.ftl)
 ##

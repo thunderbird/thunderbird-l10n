@@ -442,6 +442,10 @@ decrypt-and-copy-failures-multiple =
     { $failures ->
        *[other] 無法解密全部共 { $total } 封訊息當中的 { $failures } 封訊息，並未複製。
     }
+# Shown once at the end of a filter run the user started from the message
+# list, when at least one filter or action failed.
+apply-filters-failed = 篩選器未成功完成。若需詳細資訊請參考篩選紀錄。
+apply-filters-failed-open-log-button = 開啟篩選紀錄
 
 ## Spaces toolbar
 

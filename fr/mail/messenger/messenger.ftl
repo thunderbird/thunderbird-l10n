@@ -457,6 +457,10 @@ decrypt-and-copy-failures-multiple =
         [one] { $failures } message sur { $total } n’a pas pu être déchiffré et n’a pas été copié.
        *[other] { $failures }  messages sur { $total } n’ont pas pu être déchiffrés et n’ont pas été copiés.
     }
+# Shown once at the end of a filter run the user started from the message
+# list, when at least one filter or action failed.
+apply-filters-failed = L’analyse du filtre a échoué. Consultez le journal des filtres pour plus de détails.
+apply-filters-failed-open-log-button = Ouvrir le journal de filtrage
 
 ## Spaces toolbar
 

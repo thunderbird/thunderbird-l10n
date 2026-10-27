@@ -36,6 +36,7 @@ policy-DisableFeedbackCommands = Analluogi gorchmynion anfon adborth o'r ddewisl
 policy-DisableFileLink = Analluogi'r nodwedd Filelink.
 policy-DisableForgetButton = Rhwystro mynediad at y botwm Anghofio.
 policy-DisableFormHistory = Peidio cofio chwilio a hanes ffurflenni.
+policy-DisableMacOSUserPolicies = Anwybyddu polisïau o ddewisiadau'r defnyddiwr ac o broffiliau ffurfweddiad cwmpas defnyddiwr ar macOS.
 policy-DisableMasterPasswordCreation = Os true, nid oes modd creu prif gyfrinair.
 policy-DisableMessageForwardingFilters = Atal hidlwyr negeseuon rhag anfon negeseuon ymlaen yn awtomatig.
 policy-DisablePasswordReveal2 = Peidio â chaniatáu datgelu cyfrineiriau mewn manylion mewngofnodi sydd wedi'u cadw nac mewn meysydd cyfrinair.

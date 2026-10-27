@@ -38,6 +38,8 @@ folder-props-check-for-new-messages =
     .label = Lors de la réception de nouveaux messages pour ce compte, toujours vérifier ce dossier
     .accesskey = L
 folder-props-rebuild-summary-explanation = Il arrive que le fichier d’index du dossier (.msf) soit endommagé et que des messages semblent manquants alors que d’autres messages supprimés sont visibles ; la réparation du dossier peut résoudre ces problèmes.
+folder-props-rebuild-summary-confirm-title = Réparer le dossier
+folder-props-rebuild-summary-confirm-message = La réparation de ce dossier supprime les messages du serveur et télécharge de nouvelles copies du serveur, sans modifier les messages du serveur. Cela peut prendre un certain temps. Continuer ?
 
 ## Retention tab (see retention.ftl)
 ##

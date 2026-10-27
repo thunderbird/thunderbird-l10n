@@ -140,6 +140,10 @@ filter-running-message =
     您要繼續篩選其他郵件嗎？
 filter-stop-button = 停止
 filter-continue-button = 繼續
+# Shown once at the end of a filter run the user started, when at least one
+# filter or action failed. The individual failures are in the filter log.
+filter-run-failed = 無法套用某些篩選條件。若需詳細資訊請參考篩選紀錄。
+filter-run-failed-open-log-button = 開啟篩選紀錄
 
 ## Filter Editor
 

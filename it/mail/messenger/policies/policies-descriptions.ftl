@@ -36,6 +36,7 @@ policy-DisableFeedbackCommands = Disattiva i comandi per inviare feedback dal me
 policy-DisableFileLink = Disattiva la funzione Filelink.
 policy-DisableForgetButton = Impedisci accesso al pulsante “Dimentica”.
 policy-DisableFormHistory = Non conservare la cronologia delle ricerche e dei moduli.
+policy-DisableMacOSUserPolicies = Ignora i criteri definiti nelle preferenze dell’utente e nei profili di configurazione a livello utente su macOS.
 policy-DisableMasterPasswordCreation = Se impostato a “true” non è possibile impostare una password principale.
 policy-DisableMessageForwardingFilters = Impedisci ai filtri di inoltrare automaticamente i messaggi.
 policy-DisablePasswordReveal2 = Impedisce di mostrare le password negli accessi salvati o nei campi password.

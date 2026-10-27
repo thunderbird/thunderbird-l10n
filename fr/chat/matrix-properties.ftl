@@ -267,6 +267,7 @@ message-verification-request2 = { $user } veut vérifier { $userReceiving }.
 #    $reason is the reason given why the verification was cancelled.
 message-verification-cancel2 = { $user } a annulé la vérification avec la raison : { $reason }
 message-verification-done = Vérification terminée.
+message-decryption-error2 = Impossible de déchiffrer le contenu de ce message. Les clés de chiffrement seront automatiquement redemandées.
 message-decryption-error = Impossible de déchiffrer le contenu de ce message. Pour demander des clés de chiffrement à partir de vos autres appareils, faites un clic droit sur ce message.
 message-decrypting = Déchiffrement…
 message-redacted = Message effacé.

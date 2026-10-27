@@ -38,6 +38,8 @@ folder-props-check-for-new-messages =
     .label = Al buscar nuevos mensajes para esta cuenta, siempre comprobar esta carpeta
     .accesskey = c
 folder-props-rebuild-summary-explanation = A veces el archivo de índice de carpetas (.msf) se daña y pueden desaparecer mensajes o pueden seguir mostrándose mensajes borrados; reparar la carpeta puede corregir estos problemas.
+folder-props-rebuild-summary-confirm-title = Reparar carpeta
+folder-props-rebuild-summary-confirm-message = Reparar esta carpeta borra sus mensajes locales y descarga nuevas copias del servidor, dejando los mensajes del servidor sin cambios. Esto puede tomar algún tiempo. ¿Continuar?
 
 ## Retention tab (see retention.ftl)
 ##

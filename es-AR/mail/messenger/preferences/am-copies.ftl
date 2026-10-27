@@ -3,3 +3,36 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 account-prefs-show-address-row-description = Deje el campo de direcciones en blanco para mostrar siempre la fila de direcciones al iniciar un nuevo mensaje.
+account-prefs-sent-message-copies-description = Elegir dónde guardar copias de los mensajes enviados y configurar reglas automáticas Cc/Cco
+account-prefs-automatic-cc-bcc-description = Nota: Al marcar estas casillas se agregan filas Cc/Cco automáticamente al redactar nuevos mensajes.
+account-prefs-sent-folder-on =
+    .label = Carpeta enviada el:
+    .accesskey = C
+account-prefs-sent-other-folder =
+    .label = Otra carpeta
+    .accesskey = O
+account-prefs-message-archives-title = Archivo de mensajes
+account-prefs-archives-folder-on =
+    .label = Carpeta de archivos en:
+    .accesskey = C
+account-prefs-archives-other-folder =
+    .label = Otra carpeta:
+    .accesskey = O
+account-prefs-drafts-and-templates-title = Borradores y plantillas
+account-prefs-drafts-folder-on =
+    .label = Carpeta de borradores en:
+    .accesskey = C
+account-prefs-drafts-other-folder =
+    .label = Otra carpeta:
+    .accesskey = O
+account-prefs-templates-folder-on =
+    .label = Carpeta de plantillas en:
+    .accesskey = C
+account-prefs-templates-other-folder =
+    .label = Otra carpeta:
+    .accesskey = O
+account-prefs-confirm-saved-messages =
+    .label = Mostrar una confirmación cuando se guarden los mensajes
+    .accesskey = M
+account-settings-copies-title =
+    .value = Copias y carpetas

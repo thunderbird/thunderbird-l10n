@@ -267,6 +267,7 @@ message-verification-request2 = Mae { $user } eisiau gwirio { $userReceiving }.
 #    $reason is the reason given why the verification was cancelled.
 message-verification-cancel2 = Diddymodd { $user } y gwiriad oherwydd: { $reason }
 message-verification-done = Gwirio wedi'i gwblhau.
+message-decryption-error2 = Methu â dadgryptio cynnwys y neges hon. Bydd allweddi amgryptio yn cael eu hail-ofyn yn awtomatig.
 message-decryption-error = Wedi methu â dadgryptio cynnwys y neges hon. I ofyn am allweddi amgryptio o'ch dyfeisiau eraill, de-gliciwch y neges hon.
 message-decrypting = Wrthi'n dadgryptio...
 message-redacted = Neges wedi'i guddolygu.

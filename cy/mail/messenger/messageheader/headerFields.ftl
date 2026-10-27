@@ -97,6 +97,12 @@ message-header-address-in-address-book-button =
     .title = Golygu cysylltiad
 message-header-field-show-more = Rhagor
     .title = Dangos pob derbynnydd
+message-ids-field-show-more = Dangos rhagor
+# Button shown in place of hidden items in a header field.
+# $count (Number) - The number of hidden items the button will show.
+message-header-field-show-count-more =
+    .aria-label = Dangos { $count } arall
+    .title = Dangos { $count } arall
 message-ids-field-show-all = Dangos y cyfan
 
 ## Dark Message Mode

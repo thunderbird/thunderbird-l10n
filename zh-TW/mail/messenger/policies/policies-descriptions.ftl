@@ -36,6 +36,7 @@ policy-DisableFeedbackCommands = 停用於「說明」選單中傳送意見回�
 policy-DisableFileLink = 停用雲端鏈結功能。
 policy-DisableForgetButton = 防止使用「忘記」功能。
 policy-DisableFormHistory = 不要記住搜尋與表單填寫紀錄。
+policy-DisableMacOSUserPolicies = 在 macOS 上忽略使用者偏好設定及使用者層級設定描述檔中的原則。
 policy-DisableMasterPasswordCreation = 若為 true，將無法建立主控密碼。
 policy-DisableMessageForwardingFilters = 防止經由郵件篩選器自動轉寄。
 policy-DisablePasswordReveal2 = 不允許於儲存的登入資訊畫面或密碼欄位中，顯示密碼的明碼。

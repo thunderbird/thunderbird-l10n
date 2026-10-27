@@ -97,6 +97,12 @@ message-header-address-in-address-book-button =
     .title = Editar contacto
 message-header-field-show-more = Más
     .title = Mostrar todos los destinatarios
+message-ids-field-show-more = Mostrar más
+# Button shown in place of hidden items in a header field.
+# $count (Number) - The number of hidden items the button will show.
+message-header-field-show-count-more =
+    .aria-label = Mostrar { $count } más
+    .title = Mostrar { $count } más
 message-ids-field-show-all = Mostrar todo
 
 ## Dark Message Mode
