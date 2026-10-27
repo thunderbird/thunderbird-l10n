@@ -417,3 +417,6 @@ folder-delete-confirm = A bheil thu cinnteach gu bheil thu airson am pasgan '{ $
 # Variables:
 #   $name (String) - Name of the folder being deleted.
 folder-delete-no-trash-confirm = Cha ghabh am pasgan seo aiseag ma sguabas tu às e 's thèid gach teachdaireachd is fo-phasgan a tha ann a sguabadh às. A bheil thu cinnteach fhathast gu bheil thu airson am pasgan '{ $name }' a sguabadh às?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Ma sguabas tu às am pasgan '{ $name }', cuiridh seo à comas na criathragan a tha co-cheangailte ris. A bheil thu cinntach gu bheil thu airson am pasgan a sguabadh às?
