@@ -532,3 +532,9 @@ folder-pane-context-compact =
 folder-pane-context-compact-all =
     .label = Mampatkan Semua Folder
     .accesskey = F
+
+## Confirmation prompts shown before deleting a folder.
+
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Menghapus folder '{ $name }' akan mematikan filter yang berkaitan. Yakin akan menghapus folder tersebut?
