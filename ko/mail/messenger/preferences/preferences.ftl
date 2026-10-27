@@ -210,6 +210,7 @@ use-custom-sound-label =
 mail-select-audio-button =
     .label = 오디오 선택…
     .accesskey = A
+sound-file-picker-title = 소리 선택
 gloda-results-plain-list-label =
     .label = 검색 결과를 일반 목록으로 표시
     .accesskey = L
@@ -223,6 +224,16 @@ enable-gloda-search-label =
     .label = 전체 검색 및 색인 사용함
     .accesskey = E
 datetime-formatting-legend = 날짜와 시간 형식
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = 어플리케이션 지역: { $localeName }
+    .accesskey = p
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = 지역 설정 지역: { $localeName }
+    .accesskey = g
 allow-graphics-accel =
     .label = 더 부드러운 스크롤과 성능을 위해 그래픽 가속 사용
     .accesskey = h
@@ -347,6 +358,13 @@ offline-settings-button =
     .label = 오프라인…
     .accesskey = O
 temporary-storage-legend = 임시 저장소
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = 캐시가 현재 디스크를 { $size } { $unit } 사용하고 있습니다
+actual-disk-cache-size-calculating =
+    .value = 캐시 크기를 계산중…
 offline-compact-remove-deleted =
     .label = 저장 공간을 확보하기 위해 이미 삭제된 폴더의 데이터를 삭제하세요.
     .accesskey = a
@@ -435,6 +453,47 @@ search-handler-table =
     .placeholder = 콘텐츠 유형 및 작업 필터링
 type-column-header = 콘텐츠 유형
 action-column-header = 동작
+download-folder-desktop = 바탕화면
+download-folder-system = 내 다운로드
+download-choose-folder-title = 폴더 선택
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension } 파일
+applications-save-file = 파일 저장
+    .label = 파일 저장
+    .tooltiptext = 파일 저장
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = { $appName } 사용
+    .label = { $appName } 사용
+    .tooltiptext = { $appName } 사용
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = { $appName } 사용 (기본)
+    .label = { $appName } 사용 (기본)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = 다른 프로그램 사용…
+    .tooltiptext = 다른 프로그램 사용…
+applications-choose-app-title = 실행 할 프로그램 선택
+applications-manage-app =
+    .label = 프로그램 설정…
+applications-always-ask = 항상 물어보기
+    .label = 항상 물어보기
+    .tooltiptext = 항상 물어보기
+applications-delete-action =
+    .label = 실행 방식 삭제
+applications-delete-action-title = 실행 방식 삭제
+applications-delete-action-confirm = 이 실행 방식을 삭제 하시겠습니까?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = PDP 문서 (PDF)
+applications-preview-in-app = { -brand-short-name } 미리 보기
+    .label = { -brand-short-name } 미리 보기
+    .tooltiptext = { -brand-short-name } 미리 보기
 save-to-label =
     .label = 저장 경로:
     .accesskey = S
@@ -485,6 +544,10 @@ mark-read-delay =
     .label = 다음 시간이 경과되었을 시 읽은 것으로 표시:
     .accesskey = d
 seconds-label = 초
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 mark-read-after-viewing =
     .label = 조회 후
     .accesskey = v
@@ -726,6 +789,16 @@ remove-cloud-account =
 find-cloud-providers =
     .value = 다른 제공 업체 찾기…
 cloud-account-description = 새로운 파일 공유 스토리지 서비스를 추가합니다
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = { $providerName } 추가
+    .tooltiptext = { $providerName } 추가
+filelink-account-not-configured =
+    .title = 이 계정은 아직 설정되지 않았습니다.
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = 정말 "{ $accountName }"계정을 삭제하시겠습니까?
 
 ## Privacy Tab
 
@@ -831,6 +904,8 @@ spam-log-button =
 reset-spam-button =
     .label = 학습 데이터 재설정
     .accesskey = R
+confirm-reset-junk-training-title = 확인
+confirm-reset-junk-training-message = 스팸 필터링을 위한 학습 자료를 재설정 하시겠습니까?
 scam-detection-label =
     .label = 사기로 보이는 이메일을 읽을 때 경고
     .accesskey = T
@@ -991,7 +1066,7 @@ idle-label =
     .accesskey = I
 idle-time-label = 분간 계속 되면 상대에게 알림
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = 아래 메시지를 보내고 자리 비움 상태로 바꿈:
@@ -1066,6 +1141,18 @@ search-preferences-input2 =
     .placeholder = 설정에서 찾기
     .style = width: 15.4em
 managed-notice = { -brand-short-name }는 사용자의 조직에서 관리하고 있습니다.
+
+## Content of the preview conversation for chat message styles.
+
+chat-theme-preview-default =
+    .label = 기본
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = 안녕! :-)
+chat-theme-preview-message-2 = 무슨일이야?
+chat-theme-preview-message-3 = { -brand-short-name }를 사용해 보고 있어! ;-)
 
 ## Settings UI Search Results
 

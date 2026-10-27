@@ -58,6 +58,9 @@ update-in-progress-ok-button = &Tich'aqïx
 # method of closing the UI will not discard the update.
 update-in-progress-cancel-button = &Titikïr chik el
 
+## OS Authentication dialog
+
+
 ## General Tab
 
 focus-search-shortcut =
@@ -103,6 +106,7 @@ animated-alert-label =
 customize-alert-label =
     .label = Tichinäx…
     .accesskey = c
+sound-file-picker-title = Tacha' K'oxom
 mail-custom-sound-label =
     .label = Tokisäx re ruyakb'al k'oxom re'
     .accesskey = o
@@ -113,6 +117,16 @@ enable-gloda-search-label =
     .label = Titzij Cholajin chuqa' Chijun Kanoxïk
     .accesskey = C
 datetime-formatting-legend = Rub'anikil Q'ijul chuqa' Ramaj
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Aj wawe' chokoy: { $localeName }
+    .accesskey = o
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Aj wawe' nuk'ulem: { $localeName }
+    .accesskey = e
 language-selector-legend = Ch'ab'äl
 allow-hw-accel =
     .label = Tokisäx rupararexik ch'akulakem toq xtiwachin pe
@@ -183,6 +197,13 @@ offline-settings = Tib'an runuk'ulem rik'in chupül okem
 offline-settings-button =
     .label = Chupül…
     .accesskey = C
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Ri kijumejyak tajin nrokisaj { $size } { $unit } rupam ri nimayakb'äl
+actual-disk-cache-size-calculating =
+    .value = Nipaj runimilem jumejyak…
 diskspace-legend = Rupam Rujolom
 offline-compact-folder =
     .label = Kesib' yakwuj toq yekol k'ïy
@@ -245,6 +266,47 @@ smaller-size-item =
 quoted-text-color =
     .label = B'onil:
     .accesskey = o
+download-folder-desktop = Kematz'ib'ab'äl
+download-folder-system = Taq Nuqasanik
+download-choose-folder-title = Ticha' Yakwuj
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension } yakb'äl
+applications-save-file = Tiyak Yakb'äl
+    .label = Tiyak Yakb'äl
+    .tooltiptext = Tiyak Yakb'äl
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Tokisäx { $appName }
+    .label = Tokisäx { $appName }
+    .tooltiptext = Tokisäx { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Tokisäx { $appName } (richin wi)
+    .label = Tokisäx { $appName } (richin wi)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Tokisäx juley chik…
+    .tooltiptext = Tokisäx juley chik…
+applications-choose-app-title = Tacha' To'onel Chokoy
+applications-manage-app =
+    .label = Kib'anikil Chokoy…
+applications-always-ask = Junelïk tik'utüx pe
+    .label = Junelïk tik'utüx pe
+    .tooltiptext = Junelïk tik'utüx pe
+applications-delete-action =
+    .label = Tiyuj B'anoj
+applications-delete-action-title = Tiyuj B'anoj
+applications-delete-action-confirm = ¿La kan nawajo' nayuj re b'anoj re'?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Portable Document Format (PDF)
+applications-preview-in-app = Titz'etb'ëx pa { -brand-short-name }
+    .label = Titz'etb'ëx pa { -brand-short-name }
+    .tooltiptext = Titz'etb'ëx pa { -brand-short-name }
 save-to-label =
     .label = Keyak yakb'äl pa
     .accesskey = y
@@ -286,6 +348,10 @@ mark-read-delay =
     .label = Chi rij nik'ut chi
     .accesskey = n
 seconds-label = taq xil ramaj
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -404,6 +470,16 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Kekanöx ch'aqa' chik taq ajya'öl…
 cloud-account-description = Titz'aqatisäx jun k'ak'a' Filelink richin kiyakik samaj
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Titz'aqatisäx { $providerName }
+    .tooltiptext = Titz'aqatisäx { $providerName }
+filelink-account-not-configured =
+    .title = K'a man tib'an runuk'ulem re rub'i' taqoya'l re'
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = ¿La kan nawajo' nasiloj el ri rub'i' taqoya'l "{ $accountName }"?
 
 ## Privacy Tab
 
@@ -439,6 +515,8 @@ passwords-description = { -brand-short-name } nitikïr yerunataj ri ewan taq atz
 passwords-button =
     .label = Xeyak taq Ewan Tzij…
     .accesskey = X
+confirm-reset-junk-training-title = Tijikib'äx
+confirm-reset-junk-training-message = ¿La kan nawajo' ye'atikirisaj el ri taq rutzij kitzojtob'enik k'amonel chayub'äl?
 phishing-description = { -brand-short-name } nitikïr yerunik'oj taq rutzijol toq yerukanoj ruq'ab'axel ruq'oloj taqoya'l akuchi' yerukanoj ri etamanel taq kob'eyal achoq ik'in yatkiq'öl.
 phishing-label =
     .label = Tiya' pe rutzijol chwe we ri rutzijol ninsik'ij rik'in jub'a' jun eleq'
@@ -464,6 +542,12 @@ security-devices-button =
     .label = Taq Rokisab'al Jikomal…
     .accesskey = R
 
+## DoH Section
+
+
+## Keyservers
+
+
 ## Chat Tab
 
 startup-label =
@@ -485,7 +569,7 @@ idle-label =
     .accesskey = I
 idle-time-label = ch'utiramaj man k'o ta
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = chuqa' tijikib'äx ri nub'anikil achi'el Mek'o rik'in re rutzijol b'anikil re':
@@ -546,3 +630,27 @@ no-preview-description = Man okel ta re wachinïk re' o man wachel ta wakami (ch
 chat-variant-label =
     .value = Rujalik:
     .accesskey = R
+
+## Content of the preview conversation for chat message styles.
+
+chat-theme-preview-default =
+    .label = K'o wi
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = ¡Atraxinäq! :-)
+chat-theme-preview-message-2 = ¿Achike ab’anon?
+chat-theme-preview-message-3 = ¡Nintojtob’ej { -brand-short-name }! ;-)
+
+## Settings UI Search Results
+
+
+## Sync Tab
+
+
+## Mobile QR Export Pane
+
+
+## Appearance Tab
+

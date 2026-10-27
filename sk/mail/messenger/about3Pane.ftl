@@ -612,3 +612,21 @@ folder-pane-context-compact =
 folder-pane-context-compact-all =
     .label = Vykonať údržbu všetkých priečinkov
     .accesskey = V
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = Odstránenie priečinka
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = O&dstrániť priečinok
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = Naozaj chcete odstrániť priečinok '{ $name }'?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = Odstránením tohto priečinka budú odstránené všetky správy a podpriečinky, ktoré priečinok obsahuje. Túto operáciu nie je možné vrátiť späť. Naozaj chcete odstrániť priečinok '{ $name }'?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Odstránenie priečinka '{ $name }' vypne všetky s ním súvisiace filtre. Naozaj chcete odstrániť tento priečinok?

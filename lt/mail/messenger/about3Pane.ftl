@@ -314,3 +314,21 @@ folder-pane-context-mark-folder-read =
            *[other] Pažymėti aplankų laiškus kaip skaitytus
         }
     .accesskey = k
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = Aplanko šalinimas
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = &Pašalinti aplanką
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = Ar tikrai pašalinti aplanką „{ $name }“?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = Pašalinus šį aplanką, jo nebus galima atstatyti, o kartu su juo bus pašalinti ir visi jame esantys laiškai ir poaplankiai. Ar tikrai pašalinti aplanką „{ $name }“?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Jeigu pašalinsite aplanką „{ $name }“, tai prarasite visus su juo susietus laiškų filtrus. Ar tikrai pašalinti?

@@ -2,6 +2,10 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+remote-content-permissions-title = Taq man Relik ta - Näj Rupam
+remote-content-permissions-description = Yatikïr najikib'a' achike taq ajk'amaya'l ruxaq yesamajib'ëx taq wachib'äl chuqa' juley chik näj taq rupam. Chuqa' yatikïr naya' q'ij chi ke ri näj rupam rik'in ri kochochib'al rutaqoya'l taqonel. Tatz'ib'aj ri rochochib'al k'amaya'l o rochochib'al taqoya'l nawajo' nanuk'samajij k'a ri' tapitz'a' pa Tiq'at o Tiya' q'ij.
+cookie-permissions-title = Taq man Relik ta - Taq Kaxlanwey
+cookie-permissions-description = Yatikïr najikib'a' achike taq ajk'amaya'l ruxaq niya' o man niya' ta q'ij richin yekokisaj taq kaxlanwey.  Tatz'ib'aj pa rub'eyal ri rochochib'al ruxaq nawajo' nanuk'samajij k'a ri' tapitz'a' pa Tiq'at, Tiya' q'ij ruma re peraj re' o Tiya' q'ij.
 website-address-label =
     .value = Rochochib'al ri ajk'amaya'l ruxaq:
     .accesskey = c

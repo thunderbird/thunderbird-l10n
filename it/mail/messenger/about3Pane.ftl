@@ -568,3 +568,21 @@ folder-pane-context-compact =
 folder-pane-context-compact-all =
     .label = Compatta tutte le cartelle
     .accesskey = C
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = Elimina cartella
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = &Elimina cartella
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = Eliminare la cartella “{ $name }”?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = L’eliminazione di questa cartella non è reversibile e cancellerà tutti i messaggi contenuti e le sottocartelle. Eliminare ugualmente “{ $name }”?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Eliminando la cartella “{ $name }” verranno disattivati i filtri a essa associati. Si vuole eliminare la cartella?

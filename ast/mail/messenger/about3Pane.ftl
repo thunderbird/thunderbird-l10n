@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
@@ -239,3 +242,24 @@ apply-current-columns-to-folder-message = ¿Aplicar les columnes de la carpeta a
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = ¿Aplicar les columnes de la carpeta actual a { $name } y les sos subcarpetes?
+
+## Folder pane context menu
+
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = Desaniciar carpeta
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = &Desaniciar carpeta
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = ¿Daveres que quies desaniciar la carpeta '{ $name }'?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = Desaniciar esta carpeta, ye una operación que nun pue desfacese y va desaniciar tolos mensaxes que contién y les sos subcarpetes. ¿Aínda tas seguru de que quies desaniciar la carpeta '{ $name }'?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Al desaniciar la carpeta '{ $name }' van desactivase los filtros asociaos. ¿De xuru que quies desaniciar la carpeta?

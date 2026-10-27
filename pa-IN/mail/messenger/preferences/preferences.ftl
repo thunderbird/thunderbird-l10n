@@ -12,6 +12,9 @@ pane-calendar-title = Calendar
 category-calendar =
     .tooltiptext = Calendar
 
+## OS Authentication dialog
+
+
 ## General Tab
 
 focus-search-shortcut =
@@ -38,6 +41,7 @@ animated-alert-label =
 customize-alert-label =
     .label = ਕਸਟਮਾਈਜ਼…
     .accesskey = C
+sound-file-picker-title = Choose Sound
 mail-custom-sound-label =
     .label = ਹੇਠ ਦਿੱਤੀ ਫਾਇਲ ਵਰਤੋਂ
     .accesskey = U
@@ -148,6 +152,43 @@ bigger-size-item =
     .label = Bigger
 smaller-size-item =
     .label = Smaller
+download-folder-desktop = Desktop
+download-folder-system = My Downloads
+download-choose-folder-title = Choose Folder
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension } file
+applications-save-file = Save File
+    .label = Save File
+    .tooltiptext = Save File
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Use { $appName }
+    .label = Use { $appName }
+    .tooltiptext = Use { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Use { $appName } (default)
+    .label = Use { $appName } (default)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Use other…
+    .tooltiptext = Use other…
+applications-choose-app-title = Select Helper Application
+applications-manage-app =
+    .label = Application Details…
+applications-always-ask = Always ask
+    .label = Always ask
+    .tooltiptext = Always ask
+applications-delete-action =
+    .label = Delete Action
+applications-delete-action-title = Delete Action
+applications-delete-action-confirm = Are you sure you want to delete this action?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
 save-to-label =
     .label = Save files to
     .accesskey = S
@@ -169,6 +210,17 @@ display-tags-text = Tags can be used to categorize and prioritize your messages.
 delete-tag-button =
     .label = Delete
     .accesskey = D
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
+
+##
+
 
 ## Compose Tab
 
@@ -247,6 +299,9 @@ remove-cloud-account =
     .label = Remove
     .accesskey = R
 cloud-account-description = Add a new Filelink storage service
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Are you sure you want to remove the account "{ $accountName }"?
 
 ## Privacy Tab
 
@@ -279,6 +334,8 @@ passwords-description = { -brand-short-name } can remember passwords for all of 
 passwords-button =
     .label = Saved Passwords…
     .accesskey = S
+confirm-reset-junk-training-title = Confirm
+confirm-reset-junk-training-message = Are you sure you want to reset the adaptive filter training data?
 phishing-description = { -brand-short-name } can analyze messages for suspected email scams by looking for common techniques used to deceive you.
 phishing-label =
     .label = Tell me if the message I'm reading is a suspected email scam
@@ -294,6 +351,12 @@ certificate-auto =
 certificate-ask =
     .label = Ask me every time
     .accesskey = A
+
+## DoH Section
+
+
+## Keyservers
+
 
 ## Chat Tab
 
@@ -316,7 +379,7 @@ idle-label =
     .accesskey = I
 idle-time-label = minutes of inactivity
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = and set my status to Away with this status message:
@@ -324,3 +387,18 @@ away-message-label =
 send-typing-label =
     .label = Send typing notifications in conversations
     .accesskey = t
+
+## Content of the preview conversation for chat message styles.
+
+
+## Settings UI Search Results
+
+
+## Sync Tab
+
+
+## Mobile QR Export Pane
+
+
+## Appearance Tab
+

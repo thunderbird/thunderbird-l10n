@@ -657,3 +657,21 @@ folder-pane-context-compact =
 folder-pane-context-compact-all =
     .label = Cywasgu Pob Ffolder
     .accesskey = C
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = Dileu Ffolder
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = &Dileu Ffolder
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = Ydych chi'n siŵr eich bod am ddileu ffolder '{ $name }'?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = Nid yw dileu'r ffolder hwn yn annileadwy a bydd yn dileu'r holl negeseuon sydd o'i fewn a'r is-ffolderi. Ydych chi'n siŵr eich bod am ddileu ffolder '{ $name }'?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Bydd dileu ffolder '{ $name }' yn analluogi'r hidl(au) cysylltiedig. Ydych chi'n siŵr eich bod chi eisiau dileu'r ffolder?

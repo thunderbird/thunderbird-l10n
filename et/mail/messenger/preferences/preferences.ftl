@@ -164,6 +164,7 @@ tray-icon-unread-description = Soovitatav tegumiriba väikeste nuppude kasutamis
 mail-system-sound-label =
     .label = süsteemi vaikimisi uue kirja heli
     .accesskey = t
+sound-file-picker-title = Heli valimine
 mail-custom-sound-label =
     .label = kasutatakse järgnevat helifaili
     .accesskey = e
@@ -174,6 +175,16 @@ enable-gloda-search-label =
     .label = Lubatakse kirjade üldotsing ja indekseerimine
     .accesskey = L
 datetime-formatting-legend = Kuupäeva ja kellaaja vorming
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Rakenduse lokaat: { $localeName }
+    .accesskey = R
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Seadistatud piirkonna lokaat: { $localeName }
+    .accesskey = p
 language-selector-legend = Keel
 allow-hw-accel =
     .label = Võimalusel kasutatakse riistvaralist kiirendust
@@ -249,6 +260,13 @@ offline-settings = Võrguta režiimi häälestamine
 offline-settings-button =
     .label = Sätted
     .accesskey = S
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Vahemälu kasutab praegu { $size } { $unit } kettaruumi
+actual-disk-cache-size-calculating =
+    .value = Arvutatakse vahemälu suurust…
 diskspace-legend = Kettaruum
 offline-compact-folder =
     .label = Kõik kaustad surutakse kokku, kui see säästab kokku rohkem kui
@@ -322,6 +340,47 @@ search-handler-table =
     .placeholder = Filtreeri sisu tüüpe ja tegevusi
 type-column-header = Sisu tüüp
 action-column-header = Tegevus
+download-folder-desktop = Töölaud
+download-folder-system = Minu allalaadimised
+download-choose-folder-title = Kausta valimine
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension }-fail
+applications-save-file = Salvesta fail
+    .label = Salvesta fail
+    .tooltiptext = Salvesta fail
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Kasutatakse { $appName }
+    .label = Kasutatakse { $appName }
+    .tooltiptext = Kasutatakse { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Kasutatakse { $appName } (vaikimisi)
+    .label = Kasutatakse { $appName } (vaikimisi)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Kasuta muud…
+    .tooltiptext = Kasuta muud…
+applications-choose-app-title = Abirakenduse valimine
+applications-manage-app =
+    .label = Rakenduse üksikasjad…
+applications-always-ask = Alati küsitakse
+    .label = Alati küsitakse
+    .tooltiptext = Alati küsitakse
+applications-delete-action =
+    .label = Kustuta tegevus
+applications-delete-action-title = Tegevuse kustutamine
+applications-delete-action-confirm = Kas oled kindel, et soovid selle tegevuse kustutada?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Porditav dokumendiformaat (PDF)
+applications-preview-in-app = Eelvaade rakenduses { -brand-short-name }
+    .label = Eelvaade rakenduses { -brand-short-name }
+    .tooltiptext = Eelvaade rakenduses { -brand-short-name }
 save-to-label =
     .label = Failid salvestatakse asukohta
     .accesskey = F
@@ -366,6 +425,10 @@ mark-read-delay =
     .label = märgitakse loetuks pärast
     .accesskey = m
 seconds-label = sekundit
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -510,6 +573,16 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Leia veel teenusepakkujaid…
 cloud-account-description = Lisa uus pilveteenus
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Lisa { $providerName }
+    .tooltiptext = Lisa { $providerName }
+filelink-account-not-configured =
+    .title = See konto pole veel häälestatud
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Kas oled kindel, et soovid eemaldada konto "{ $accountName }"?
 
 ## Privacy Tab
 
@@ -554,6 +627,8 @@ primary-password-button =
     .accesskey = M
 forms-primary-pw-fips-title = Sa oled FIPS-režiimis. See eeldab, et sinu ülemparool ei oleks tühi.
 forms-master-pw-fips-desc = Parooli muutmine ebaõnnestus
+confirm-reset-junk-training-title = Kinnitus
+confirm-reset-junk-training-message = Kas oled kindel, et soovid lähtestada kohanduva filtri treeninguandmed?
 phishing-description = { -brand-short-name } saab kirju analüüsida, et avastada tuntumaid e-posti pettuste skeeme, millega üritatakse kasutajaid tüssata.
 phishing-label =
     .label = Teavitatakse, kui kirja peetakse petukirjaks
@@ -580,6 +655,12 @@ security-devices-button =
     .accesskey = T
 account-settings = Konto sätted
 
+## DoH Section
+
+
+## Keyservers
+
+
 ## Chat Tab
 
 startup-label =
@@ -601,7 +682,7 @@ idle-label =
     .accesskey = o
 idle-time-label = minuti möödumisel
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = ning eemaloleku teateks määratakse:
@@ -675,6 +756,18 @@ chat-variant-label =
 search-preferences-input2 =
     .placeholder = Otsi sätetest
     .style = width: 15.4em
+
+## Content of the preview conversation for chat message styles.
+
+chat-theme-preview-default =
+    .label = Vaikimisi
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Hei! :-)
+chat-theme-preview-message-2 = Mis toimub?
+chat-theme-preview-message-3 = Ma proovin { -brand-short-name }i! ;-)
 
 ## Settings UI Search Results
 

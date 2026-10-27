@@ -229,6 +229,7 @@ use-custom-sound-label =
 mail-select-audio-button =
     .label = 選擇音訊檔…
     .accesskey = A
+sound-file-picker-title = 選取音效
 enable-global-search-label =
     .label = 開啟跨所有電子郵件帳號搜尋
     .accesskey = e
@@ -245,6 +246,16 @@ enable-gloda-search-label =
     .label = 開啟全域搜尋與索引器
     .accesskey = E
 datetime-formatting-legend = 日期與時間格式
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = 應用程式語系：{ $localeName }
+    .accesskey = p
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = 區域設定語系：{ $localeName }
+    .accesskey = g
 display-language-legend = 顯示語言
 allow-graphics-accel =
     .label = 使用圖形加速功能，讓捲動更順暢並提升效能
@@ -378,6 +389,13 @@ offline-settings-button =
     .label = 離線模式…
     .accesskey = O
 temporary-storage-legend = 暫存空間
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = 您的快取使用了 { $size } { $unit } 的磁碟空間
+actual-disk-cache-size-calculating =
+    .value = 正在計算快取大小…
 offline-compact-remove-deleted =
     .label = 當資料被刪除後，立即從信件匣刪除以釋放儲存空間
     .accesskey = a
@@ -470,6 +488,47 @@ search-handler-table =
     .placeholder = 篩選內容類型與動作
 type-column-header = 內容類型
 action-column-header = 動作
+download-folder-desktop = 桌面
+download-folder-system = 我的下載目錄
+download-choose-folder-title = 選擇信件匣
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension } 檔案
+applications-save-file = 儲存檔案
+    .label = 儲存檔案
+    .tooltiptext = 儲存檔案
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = 使用 { $appName }
+    .label = 使用 { $appName }
+    .tooltiptext = 使用 { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = 使用 { $appName } (預設程式)
+    .label = 使用 { $appName } (預設程式)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = 使用其他程式…
+    .tooltiptext = 使用其他程式…
+applications-choose-app-title = 選取對應程式
+applications-manage-app =
+    .label = 程式詳細資訊…
+applications-always-ask = 總是詢問
+    .label = 總是詢問
+    .tooltiptext = 總是詢問
+applications-delete-action =
+    .label = 刪除動作
+applications-delete-action-title = 刪除動作
+applications-delete-action-confirm = 您確定要刪除此動作？
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = （{ $type-description }：{ $type }）
+applications-type-pdf = 可攜式文件格式（PDF）
+applications-preview-in-app = 在 { -brand-short-name } 中預覽
+    .label = 在 { -brand-short-name } 中預覽
+    .tooltiptext = 在 { -brand-short-name } 中預覽
 save-to-label =
     .label = 儲存檔案到
     .accesskey = S
@@ -521,6 +580,10 @@ mark-read-delay =
     .label = 在顯示
     .accesskey = d
 seconds-label = 秒之後
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 mark-read-after-viewing =
     .label = 檢視
     .accesskey = v
@@ -786,6 +849,16 @@ remove-cloud-account =
 find-cloud-providers =
     .value = 尋找更多供應商…
 cloud-account-description = 新增雲端檔案鏈結儲存服務
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = 新增 { $providerName }
+    .tooltiptext = 新增 { $providerName }
+filelink-account-not-configured =
+    .title = 尚未設定此帳號
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = 您確定要移除帳號「{ $accountName }」嗎？
 
 ## Privacy Tab
 
@@ -897,6 +970,8 @@ spam-log-button =
 reset-spam-button =
     .label = 重設訓練資料
     .accesskey = R
+confirm-reset-junk-training-title = 確認
+confirm-reset-junk-training-message = 您確定要重設「漸進式郵件控制」的訓練資料嗎？
 scam-detection-description = { -brand-short-name } 會檢查訊息當中是否有釣魚鏈結和常見詐騙郵件的跡象。
 scam-detection-label =
     .label = 讀到疑似詐騙郵件時警告我
@@ -1070,7 +1145,7 @@ idle-label =
     .accesskey = I
 idle-time-label = 分鐘沒有使用後知道我正在閒置
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = 並將我的狀態設定為不在電腦前，且加上此狀態訊息：
@@ -1146,6 +1221,18 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = 您的 { -brand-short-name } 受到組織管理。
 managed-notice = 您的 { -brand-short-name } 受到組織管理。
+
+## Content of the preview conversation for chat message styles.
+
+chat-theme-preview-default =
+    .label = 預設值
+chat-theme-preview-nick-1 = 家豪
+chat-theme-preview-buddy-1 = how@im.instantbird.org
+chat-theme-preview-nick-2 = 志明
+chat-theme-preview-buddy-2 = aming@im.instantbird.org
+chat-theme-preview-message-1 = 嗨！:-)
+chat-theme-preview-message-2 = 最近怎麼樣？
+chat-theme-preview-message-3 = 我在試用 { -brand-short-name }！;-)
 
 ## Settings UI Search Results
 

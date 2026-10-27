@@ -229,6 +229,7 @@ use-custom-sound-label =
 mail-select-audio-button =
     .label = Selectează audio…
     .accesskey = A
+sound-file-picker-title = Alege un sunet
 enable-global-search-label =
     .label = Activează căutarea pe toate conturile de e-mail
     .accesskey = e
@@ -245,6 +246,16 @@ enable-gloda-search-label =
     .label = Activează căutarea globală și indexarea
     .accesskey = i
 datetime-formatting-legend = Formatarea datei și a orei
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Limba folosită de aplicație: { $localeName }
+    .accesskey = o
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Limba din setările regionale: { $localeName }
+    .accesskey = e
 display-language-legend = Limbă de afișare
 allow-graphics-accel =
     .label = Folosește accelerarea grafică pentru derulare mai lină și îmbunătățirea performanței
@@ -378,6 +389,13 @@ offline-settings-button =
     .label = Offline…
     .accesskey = O
 temporary-storage-legend = Stocare temporară
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Memoria cache folosește acum { $size } { $unit } din spațiul de pe disc
+actual-disk-cache-size-calculating =
+    .value = Se calculează mărimea memoriei cache…
 offline-compact-remove-deleted =
     .label = Elimină datele din dosare când au fost deja șterse pentru eliberare de spațiu
     .accesskey = a
@@ -470,6 +488,47 @@ search-handler-table =
     .placeholder = Filtrează tipurile de conținut și acțiunile
 type-column-header = Tip de conținut
 action-column-header = Acțiune
+download-folder-desktop = Spațiu de lucru
+download-folder-system = Descărcările mele
+download-choose-folder-title = Alege dosarul
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = Fișier { $extension }
+applications-save-file = Salvează fișierul
+    .label = Salvează fișierul
+    .tooltiptext = Salvează fișierul
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Folosește { $appName }
+    .label = Folosește { $appName }
+    .tooltiptext = Folosește { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Folosește { $appName } (implicit)
+    .label = Folosește { $appName } (implicit)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Folosește altceva…
+    .tooltiptext = Folosește altceva…
+applications-choose-app-title = Selectează aplicația ajutătoare
+applications-manage-app =
+    .label = Detalii privind aplicația…
+applications-always-ask = Întreabă întotdeauna
+    .label = Întreabă întotdeauna
+    .tooltiptext = Întreabă întotdeauna
+applications-delete-action =
+    .label = Șterge acțiunea
+applications-delete-action-title = Șterge acțiunea
+applications-delete-action-confirm = Sigur vrei să ștergi această acțiune?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Format de document portabil (PDF)
+applications-preview-in-app = Previzualizează în { -brand-short-name }
+    .label = Previzualizează în { -brand-short-name }
+    .tooltiptext = Previzualizează în { -brand-short-name }
 save-to-label =
     .label = Salvează fișierele în
     .accesskey = S
@@ -521,6 +580,10 @@ mark-read-delay =
     .label = După ce sunt afișate
     .accesskey = d
 seconds-label = secunde
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 mark-read-after-viewing =
     .label = După vizualizare pentru
     .accesskey = v
@@ -786,6 +849,16 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Caută mai mulți furnizori…
 cloud-account-description = Adaugă un serviciu nou de stocare Filelink
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Adaugă { $providerName }
+    .tooltiptext = Adaugă { $providerName }
+filelink-account-not-configured =
+    .title = Acest cont încă nu este configurat
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Sigur vrei să ștergi contul „{ $accountName }”?
 
 ## Privacy Tab
 
@@ -897,6 +970,8 @@ spam-log-button =
 reset-spam-button =
     .label = Resetează datele de antrenament
     .accesskey = R
+confirm-reset-junk-training-title = Confirmă
+confirm-reset-junk-training-message = Sigur vrei să resetezi datele de învățare ale filtrului adaptiv?
 scam-detection-description = { -brand-short-name } verifică mesajele pentru linkuri de phishing și semne frecvente de escrocherie prin e-mail.
 scam-detection-label =
     .label = Avertizează-mă când citesc un mesaj pe e-mail care pare să fie înșelătorie
@@ -1076,7 +1151,7 @@ idle-label =
     .accesskey = P
 idle-time-label = minute de inactivitate
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = și setează-mi starea ca Plecat cu acest mesaj de stare:
@@ -1152,6 +1227,18 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = { -brand-short-name } este gestionat de o organizație.
 managed-notice = { -brand-short-name } este gestionat de organizația ta.
+
+## Content of the preview conversation for chat message styles.
+
+chat-theme-preview-default =
+    .label = Implicit
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Salut! :-)
+chat-theme-preview-message-2 = Ce mai faci?
+chat-theme-preview-message-3 = Încerc { -brand-short-name }! ;-)
 
 ## Settings UI Search Results
 

@@ -4,3 +4,6 @@
 
 shortcuts-close-button-title =
     .title = Loka
+shortcuts-close-button =
+    .title = Loka
+    .aria-label = Loka

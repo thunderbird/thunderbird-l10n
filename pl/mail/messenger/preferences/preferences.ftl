@@ -229,6 +229,7 @@ use-custom-sound-label =
 mail-select-audio-button =
     .label = Wybierz dźwięk…
     .accesskey = b
+sound-file-picker-title = Zmień dźwięk
 enable-global-search-label =
     .label = Włącz wyszukiwanie we wszystkich kontach e-mail
     .accesskey = l
@@ -245,6 +246,16 @@ enable-gloda-search-label =
     .label = Indeksowanie wiadomości i wyszukiwanie
     .accesskey = n
 datetime-formatting-legend = Format daty i czasu
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Język programu: { $localeName }
+    .accesskey = p
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Język ustawień regionalnych: { $localeName }
+    .accesskey = g
 display-language-legend = Język wyświetlania
 allow-graphics-accel =
     .label = Użyj przyspieszenia grafiki, aby zapewnić płynniejsze przewijanie i większą wydajność
@@ -378,6 +389,13 @@ offline-settings-button =
     .label = Tryb offline…
     .accesskey = T
 temporary-storage-legend = Pamięć tymczasowa
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Pamięć podręczna zajmuje obecnie { $size } { $unit } na dysku
+actual-disk-cache-size-calculating =
+    .value = Obliczanie rozmiaru pamięci podręcznej…
 offline-compact-remove-deleted =
     .label = Usuń dane z folderów, jeśli zostały już usunięte, aby zwolnić miejsce na dane
     .accesskey = a
@@ -470,6 +488,47 @@ search-handler-table =
     .placeholder = Filtruj typy zawartości i czynności
 type-column-header = Typ zawartości
 action-column-header = Czynność
+download-folder-desktop = Pulpit
+download-folder-system = Pobrane pliki
+download-choose-folder-title = Wybierz folder
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = plik { $extension }
+applications-save-file = Zapisz plik
+    .label = Zapisz plik
+    .tooltiptext = Zapisz plik
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Używaj programu { $appName }
+    .label = Używaj programu { $appName }
+    .tooltiptext = Używaj programu { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Używaj programu { $appName } (domyślne)
+    .label = Używaj programu { $appName } (domyślne)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Wybierz inny…
+    .tooltiptext = Wybierz inny…
+applications-choose-app-title = Wybierz aplikację pomocniczą
+applications-manage-app =
+    .label = Szczegóły…
+applications-always-ask = Zawsze pytaj
+    .label = Zawsze pytaj
+    .tooltiptext = Zawsze pytaj
+applications-delete-action =
+    .label = Usuń
+applications-delete-action-title = Usuwanie czynności
+applications-delete-action-confirm = Czy na pewno usunąć czynność?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Dokument PDF
+applications-preview-in-app = Podgląd w programie { -brand-short-name }
+    .label = Podgląd w programie { -brand-short-name }
+    .tooltiptext = Podgląd w programie { -brand-short-name }
 save-to-label =
     .label = Zapisuj pliki do
     .accesskey = Z
@@ -521,6 +580,10 @@ mark-read-delay =
     .label = po wyświetlaniu przez
     .accesskey = w
 seconds-label = sekund
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 mark-read-after-viewing =
     .label = po wyświetlaniu przez
     .accesskey = l
@@ -786,6 +849,16 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Znajdź więcej dostawców…
 cloud-account-description = Dodaj nowy serwis przechowywania plików
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Dodaj serwis { $providerName }
+    .tooltiptext = Dodaj serwis { $providerName }
+filelink-account-not-configured =
+    .title = To konto nie zostało jeszcze skonfigurowane
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Czy na pewno usunąć konto „{ $accountName }”?
 
 ## Privacy Tab
 
@@ -897,6 +970,8 @@ spam-log-button =
 reset-spam-button =
     .label = Zresetuj dane treningowe
     .accesskey = r
+confirm-reset-junk-training-title = Potwierdź
+confirm-reset-junk-training-message = Czy na pewno zresetować dane treningowe filtru niechcianej poczty?
 scam-detection-description = { -brand-short-name } sprawdza wiadomości pod kątem odnośników wyłudzających dane i typowych oznak oszustw e-mailowych.
 scam-detection-label =
     .label = Ostrzegaj podczas czytania wiadomości e-mail wyglądającej na próbę oszustwa
@@ -1076,7 +1151,7 @@ idle-label =
     .accesskey = W
 idle-time-label = minutach
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = i ustawiaj stan na „Zaraz wracam” z opisem:
@@ -1152,6 +1227,18 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = { -brand-short-name } jest zarządzany przez organizację.
 managed-notice = { -brand-short-name } jest zarządzany przez Twoją organizację
+
+## Content of the preview conversation for chat message styles.
+
+chat-theme-preview-default =
+    .label = Domyślny
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Cześć! :-)
+chat-theme-preview-message-2 = Co słychać?
+chat-theme-preview-message-3 = Wypróbowuję { -brand-short-name }a! ;-)
 
 ## Settings UI Search Results
 

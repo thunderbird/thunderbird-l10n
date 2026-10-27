@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
@@ -251,3 +254,24 @@ apply-current-columns-to-folder-message = Գործադրե՞լ ընթացիկ պ
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Կիրառե՞լ ընթացիկ պանակի սիւները { $name }-ին եւ նրա երեխաներին։
+
+## Folder pane context menu
+
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = Ջնջել պանակը
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = &Ջնջել պանակը
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = Համոզուա՞ծ էք, որ ցանկանում էք ջնջել '{ $name }' պանակը։
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = Եթե ջնջէք այս թղթապանակը, ապա կը ջնջուեն նաեւ բոլոր նամակները եւ ենթաթղթապանակները։ Ջնջե՞լ '{ $name }'-ը։
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Ջնջելով { $name } թղթապանակը կը ջնուջի դրա հետ կապուած զտիչ(ները): Համոզուա՞ծ էք ,որ ցանկանում էք ջնջել թղթապանակը։

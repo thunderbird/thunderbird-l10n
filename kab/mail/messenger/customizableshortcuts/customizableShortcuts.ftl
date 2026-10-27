@@ -4,3 +4,6 @@
 
 shortcuts-close-button-title =
     .title = Mdel
+shortcuts-close-button =
+    .title = Mdel
+    .aria-label = Mdel

@@ -2,6 +2,10 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+remote-content-permissions-title = Erandid - väline sisu
+remote-content-permissions-description = Sa võid määrata, millistelt saitidelt on piltide ja muu välise sisu laadimine lubatud. Samuti on võimalik kogu väline sisu lubada saatja e-posti aadressi alusel. Sisesta saidi või e-posti aadress, mida soovid hallata, ning klõpsa seejärel Bloki või Luba.
+cookie-permissions-title = Erandid - küpsised
+cookie-permissions-description = Sa võid määrata, millistel veebilehtedel on alati või mitte kunagi lubatud kasutada küpsiseid.  Sisesta hallatava veebilehe täpne aadress ning seejärel klõpsa Bloki, Luba selleks seansiks või Luba.
 website-address-label =
     .value = Veebilehe aadress:
     .accesskey = d

@@ -575,3 +575,21 @@ folder-pane-context-compact =
 folder-pane-context-compact-all =
     .label = Compactar tote le plicas
     .accesskey = p
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = Deler dossier
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = &Deler dossier
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = Es tu secur de voler deler le dossier '{ $name }'?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = Le deletion de iste dossier es irreversibile e destruera tote le messages que illo contine, e le subdossiers de illo. Es tu ben secur de voler deler le dossier '{ $name }'?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Deler le dossier '{ $name }' disactivara le filtro(s) associate a illo. Es tu secur de voler deler iste dossier?

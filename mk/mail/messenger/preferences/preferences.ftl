@@ -6,6 +6,9 @@ pane-compose-title = Пишување
 category-compose =
     .tooltiptext = Пишување
 
+## OS Authentication dialog
+
+
 ## General Tab
 
 general-legend = Почетна страница на { -brand-short-name }
@@ -28,6 +31,7 @@ animated-alert-label =
 customize-alert-label =
     .label = Прилагоди…
     .accesskey = П
+sound-file-picker-title = Избор на звук
 mail-custom-sound-label =
     .label = Користи ја следнава датотека
     .accesskey = о
@@ -48,6 +52,11 @@ offline-settings-button =
     .label = Локално…
     .accesskey = о
 diskspace-legend = Простор на дискот
+
+## Note: The entities use-cache-before and use-temp-storage-after appear on a single
+## line in preferences as follows:
+## use-cache-before [ textbox for cache size in MB ] use-temp-storage-after
+
 
 ##
 
@@ -80,10 +89,27 @@ bigger-size-item =
     .label = Поголеми
 smaller-size-item =
     .label = Помали
+download-folder-desktop = Работна површина
+download-folder-system = Моите преземања
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension } датотека
+applications-choose-app-title = Избор на помошна програма
 display-tags-text = Етикетите служат за категоризирање и одредување на приоритети на пораките.
 delete-tag-button =
     .label = Избриши
     .accesskey = з
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
+
+##
+
 
 ## Compose Tab
 
@@ -143,3 +169,42 @@ edit-directories-label =
 email-picker-label =
     .label = Автоматски додавај ги адресите во мојот:
     .accesskey = т
+
+## Privacy Tab
+
+confirm-reset-junk-training-title = Потврда
+confirm-reset-junk-training-message = Дали сте сигурни дека сакате да ги ресетирате податоците од тренингот на филтерот?
+
+## DoH Section
+
+
+## Keyservers
+
+
+## Chat Tab
+
+
+## Note: idle-label is displayed first, then there's a field where the user
+## can enter a number, and itemTime is displayed at the end of the line.
+## The translations of the idle-label and idle-time-label parts don't have
+## to mean the exact same thing as in English; please try instead to
+## translate the whole sentence.
+
+
+## Content of the preview conversation for chat message styles.
+
+
+## Content of the preview conversation for chat message styles.
+
+
+## Settings UI Search Results
+
+
+## Sync Tab
+
+
+## Mobile QR Export Pane
+
+
+## Appearance Tab
+

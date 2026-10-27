@@ -165,6 +165,7 @@ tray-icon-unread-description = Recomanat quan s'utilitzen botons petits de la ba
 mail-system-sound-label =
     .label = So del sistema per defecte per al correu nou
     .accesskey = d
+sound-file-picker-title = Trieu un so
 mail-custom-sound-label =
     .label = Utilitza el fitxer de so següent
     .accesskey = U
@@ -175,6 +176,16 @@ enable-gloda-search-label =
     .label = Habilita el cercador i indexador de missatges
     .accesskey = i
 datetime-formatting-legend = Format de data i hora
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Llengua de l'aplicació: { $localeName }
+    .accesskey = p
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Llengua de la configuració regional: { $localeName }
+    .accesskey = g
 language-selector-legend = Llengua
 allow-hw-accel =
     .label = Utilitza l'acceleració de maquinari quan sigui disponible
@@ -257,6 +268,13 @@ offline-settings = Configura els paràmetres de fora de línia
 offline-settings-button =
     .label = Fora de línia…
     .accesskey = o
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = La memòria cau actualment utilitza { $size } { $unit } d'espai de disc
+actual-disk-cache-size-calculating =
+    .value = S'està calculant la mida de la memòria cau…
 diskspace-legend = Espai de disc
 offline-compact-folder =
     .label = Compacta totes les carpetes quan l'estalvi sigui superior a
@@ -329,6 +347,47 @@ search-handler-table =
     .placeholder = Filtra tipus de contingut i accions
 type-column-header = Tipus de contingut
 action-column-header = Acció
+download-folder-desktop = Escriptori
+download-folder-system = Baixades
+download-choose-folder-title = Selecció de la carpeta
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = fitxer { $extension }
+applications-save-file = Desa el fitxer
+    .label = Desa el fitxer
+    .tooltiptext = Desa el fitxer
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Utilitza { $appName }
+    .label = Utilitza { $appName }
+    .tooltiptext = Utilitza { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Utilitza { $appName } (per defecte)
+    .label = Utilitza { $appName } (per defecte)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Utilitza una altra aplicació…
+    .tooltiptext = Utilitza una altra aplicació…
+applications-choose-app-title = Seleccioneu l'aplicació auxiliar
+applications-manage-app =
+    .label = Detalls de l'aplicació…
+applications-always-ask = Demana-m'ho sempre
+    .label = Demana-m'ho sempre
+    .tooltiptext = Demana-m'ho sempre
+applications-delete-action =
+    .label = Suprimeix l'acció
+applications-delete-action-title = Suprimeix l'acció
+applications-delete-action-confirm = Segur que voleu suprimir aquesta acció?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = PDF (Format de Document Portàtil)
+applications-preview-in-app = Previsualitza al { -brand-short-name }
+    .label = Previsualitza al { -brand-short-name }
+    .tooltiptext = Previsualitza al { -brand-short-name }
 save-to-label =
     .label = Desa els fitxers a
     .accesskey = s
@@ -373,6 +432,10 @@ mark-read-delay =
     .label = Després de mostrar-los durant
     .accesskey = e
 seconds-label = segons
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -518,6 +581,16 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Cerqueu més proveïdors…
 cloud-account-description = Afegeix un servei d'emmagatzematge Filelink nou
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Afegeix { $providerName }
+    .tooltiptext = Afegeix { $providerName }
+filelink-account-not-configured =
+    .title = Aquest compte encara no s'ha configurat
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Esteu segur que voleu eliminar el compte «{ $accountName }»?
 
 ## Privacy Tab
 
@@ -565,6 +638,8 @@ primary-password-button =
     .accesskey = C
 forms-primary-pw-fips-title = Us trobeu en mode FIPS. El FIPS requereix una contrasenya principal que no sigui buida.
 forms-master-pw-fips-desc = El canvi de contrasenya ha fallat
+confirm-reset-junk-training-title = Confirmació
+confirm-reset-junk-training-message = Esteu segur que voleu reiniciar les dades d'entrenament del filtre adaptatiu?
 phishing-description = El { -brand-short-name } pot analitzar els missatges sospitosos de ser fraudulents tenint en compte les tècniques més comunes d'engany.
 phishing-label =
     .label = Avisa'm si el missatge que estic llegint és sospitós de ser fraudulent
@@ -605,6 +680,12 @@ email-e2ee-automatism-post =
     Les decisions automàtiques es poden alterar activant o desactivant manualment el xifratge en redactar un missatge.
     Nota: el xifratge sempre s'activa automàticament quan es respon a un missatge xifrat.
 
+## DoH Section
+
+
+## Keyservers
+
+
 ## Chat Tab
 
 startup-label =
@@ -626,7 +707,7 @@ idle-label =
     .accesskey = b
 idle-time-label = minuts d'inactivitat
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = i posa el meu estat com a no disponible amb el missatge d'estat:
@@ -701,6 +782,18 @@ search-preferences-input2 =
     .placeholder = Cerca en els paràmetres
     .style = width: 19em
 
+## Content of the preview conversation for chat message styles.
+
+chat-theme-preview-default =
+    .label = Per defecte
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Hola! :-)
+chat-theme-preview-message-2 = Com anem?
+chat-theme-preview-message-3 = Estic provant el { -brand-short-name }! ;-)
+
 ## Settings UI Search Results
 
 search-results-header = Resultats de la cerca
@@ -753,3 +846,9 @@ synced-acount-item-filters = Filtres
 synced-acount-item-keys = OpenPGP - S/MIME
 sync-disconnected-text = Sincronitzeu els vostres comptes de correu, llibretes d'adreces, calendaris i identitats en tots els vostres dispositius.
 sync-disconnected-turn-on-sync = Activa la sincronització…
+
+## Mobile QR Export Pane
+
+
+## Appearance Tab
+

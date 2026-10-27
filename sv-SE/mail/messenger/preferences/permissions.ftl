@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 permissions-dialog-title = Undantag
+remote-content-permissions-title = Undantag - Fjärrinnehåll
+remote-content-permissions-description = Du kan ange från vilka webbplatser bilder och annat fjärrinnehåll tillåts ladda. Du kan också tillåta allt fjärrinnehåll baserat på avsändarens e-postadress. Skriv adressen till webbplatsen eller e-postadressen du vill hantera och klicka sedan på Blockera eller Tillåt.
+cookie-permissions-title = Undantag - Kakor
+cookie-permissions-description = Du kan ange vilka webbplatser som alltid eller aldrig får använda kakor. Skriv in adressen till platsen du vill hantera och klicka på Blockera, Tillåt för sessionen eller Tillåt.
 website-address-label =
     .value = Adress till webbplats:
     .accesskey = d

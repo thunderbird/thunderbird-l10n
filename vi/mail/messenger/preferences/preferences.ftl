@@ -229,6 +229,7 @@ use-custom-sound-label =
 mail-select-audio-button =
     .label = Chọn âm thanh…
     .accesskey = A
+sound-file-picker-title = Chọn âm thanh
 enable-global-search-label =
     .label = Bật chức năng tìm kiếm trên tất cả các tài khoản email
     .accesskey = e
@@ -245,6 +246,16 @@ enable-gloda-search-label =
     .label = Cho phép tìm kiếm và lập chỉ mục đầy đủ
     .accesskey = G
 datetime-formatting-legend = Định dạng ngày và giờ
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Ngôn ngữ ứng dụng: { $localeName }
+    .accesskey = o
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Ngôn ngữ cài đặt khu vực: { $localeName }
+    .accesskey = e
 display-language-legend = Ngôn ngữ hiển thị
 allow-graphics-accel =
     .label = Sử dụng tăng tốc đồ họa để cuộn mượt mà hơn và cải thiện hiệu năng
@@ -378,6 +389,13 @@ offline-settings-button =
     .label = Ngoại tuyến…
     .accesskey = O
 temporary-storage-legend = Lưu trữ tạm thời
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Bộ đệm của bạn đang chiếm { $size } { $unit } dung lượng đĩa
+actual-disk-cache-size-calculating =
+    .value = Đang tính toán kích thước bộ nhớ đệm…
 offline-compact-remove-deleted =
     .label = Xoá dữ liệu khỏi các thư mục khi chúng đã bị xoá để giải phóng dung lượng lưu trữ
     .accesskey = a
@@ -470,6 +488,47 @@ search-handler-table =
     .placeholder = Lọc các loại nội dung và hành động
 type-column-header = Kiểu dữ liệu
 action-column-header = Thao tác
+download-folder-desktop = Bàn làm việc
+download-folder-system = Tải xuống của tôi
+download-choose-folder-title = Chọn thư mục
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = Tập tin { $extension }
+applications-save-file = Lưu tập tin
+    .label = Lưu tập tin
+    .tooltiptext = Lưu tập tin
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Dùng { $appName }
+    .label = Dùng { $appName }
+    .tooltiptext = Dùng { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Dùng { $appName } (mặc định)
+    .label = Dùng { $appName } (mặc định)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Dùng chương trình khác…
+    .tooltiptext = Dùng chương trình khác…
+applications-choose-app-title = Chọn ứng dụng trợ giúp
+applications-manage-app =
+    .label = Chi tiết ứng dụng…
+applications-always-ask = Luôn hỏi
+    .label = Luôn hỏi
+    .tooltiptext = Luôn hỏi
+applications-delete-action =
+    .label = Xóa thao tác
+applications-delete-action-title = Xóa thao tác
+applications-delete-action-confirm = Bạn có chắc là mình muốn xóa thao tác này không?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Định dạng tài liệu di động (PDF)
+applications-preview-in-app = Xem trước trong { -brand-short-name }
+    .label = Xem trước trong { -brand-short-name }
+    .tooltiptext = Xem trước trong { -brand-short-name }
 save-to-label =
     .label = Lưu các tập tin vào
     .accesskey = S
@@ -521,6 +580,10 @@ mark-read-delay =
     .label = Sau khi hiển thị
     .accesskey = d
 seconds-label = giây
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 mark-read-after-viewing =
     .label = Sau khi xem
     .accesskey = v
@@ -786,6 +849,16 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Tìm thêm nhà cung cấp…
 cloud-account-description = Thêm dịch vụ lưu trữ Filelink mới
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Thêm { $providerName }
+    .tooltiptext = Thêm { $providerName }
+filelink-account-not-configured =
+    .title = Tài khoản này chưa được cấu hình
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Bạn có chắc chắn muốn xóa tài khoản "{ $accountName }" không?
 
 ## Privacy Tab
 
@@ -897,6 +970,8 @@ spam-log-button =
 reset-spam-button =
     .label = Đặt lại dữ liệu đào tạo
     .accesskey = R
+confirm-reset-junk-training-title = Xác nhận
+confirm-reset-junk-training-message = Bạn có chắc chắn muốn đặt lại dữ liệu đào tạo bộ lọc thích ứng?
 scam-detection-description = { -brand-short-name } kiểm tra thư để tìm các liên kết lừa đảo và các dấu hiệu phổ biến của email lừa đảo.
 scam-detection-label =
     .label = Cảnh báo khi đọc email có vẻ như là email lừa đảo
@@ -1076,7 +1151,7 @@ idle-label =
     .accesskey = I
 idle-time-label = phút không hoạt động
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = và đặt trạng thái của tôi thành vắng với thông báo trạng thái này:
@@ -1152,6 +1227,18 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = { -brand-short-name } đang được quản lý bởi một tổ chức.
 managed-notice = { -brand-short-name } đang được quản lý bởi tổ chức của bạn.
+
+## Content of the preview conversation for chat message styles.
+
+chat-theme-preview-default =
+    .label = Mặc định
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Chào! :-)
+chat-theme-preview-message-2 = Chuyện gì thế?
+chat-theme-preview-message-3 = Tôi đang thử { -brand-short-name }! ;-)
 
 ## Settings UI Search Results
 

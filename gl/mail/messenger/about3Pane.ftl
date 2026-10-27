@@ -557,3 +557,21 @@ folder-pane-context-mark-folder-read =
 folder-pane-context-reset-sort =
     .label = Restablecer a orde dos cartafois
     .accesskey = R
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = Eliminar o cartafol
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = &Eliminar o cartafol
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = Confirma que quere eliminar o cartafol '{ $name }'?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = A eliminación deste cartafol é unha acción que non se pode desfacer e eliminaranse todas as mensaxes que contén e os subcartafoles. Confirma que aínda quere eliminar o cartafol '{ $name }'?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Se elimina o cartafol '{ $name }' desactivaranse os filtros asociados a el. Confirma que quere eliminar o cartafol?

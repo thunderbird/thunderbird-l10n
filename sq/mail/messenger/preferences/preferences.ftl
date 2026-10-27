@@ -173,6 +173,7 @@ tray-icon-unread-description = E rekomanduar kur përdoren butona të vegjël pa
 mail-system-sound-label =
     .label = Tingull parazgjedhje sistemi për postë të re
     .accesskey = p
+sound-file-picker-title = Zgjidhni Tingull
 mail-custom-sound-label =
     .label = Përdor kartelën zanore vijuese
     .accesskey = o
@@ -183,6 +184,16 @@ enable-gloda-search-label =
     .label = Aktivizo Kërkim dhe Indeksues Global
     .accesskey = A
 datetime-formatting-legend = Formatim Datash dhe Kohe
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Vendore aplikacioni: { $localeName }
+    .accesskey = p
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Vendore rregullimesh rajonale: { $localeName }
+    .accesskey = V
 language-selector-legend = Gjuhë
 allow-hw-accel =
     .label = Përdor përshpejtim hardware, kur mundet
@@ -268,6 +279,13 @@ offline-settings = Formësoni rregullimet për jo në linjë
 offline-settings-button =
     .label = Jo në linjë…
     .accesskey = J
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Fshehtina juaj zë { $size } { $unit } hapësirë disku
+actual-disk-cache-size-calculating =
+    .value = Po llogaritet madhësi fshehtine…
 diskspace-legend = Hapësirë Disku
 offline-compact-folder =
     .label = Ngjeshi krejt dosjet, kur kjo sjell kursim vendi
@@ -344,6 +362,47 @@ search-handler-table =
     .placeholder = Filtroni lloje dhe veprime lënde
 type-column-header = Lloj Lënde
 action-column-header = Veprim
+download-folder-desktop = Desktop
+download-folder-system = Shkarkimet e Mia
+download-choose-folder-title = Zgjidhni Dosje
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = Kartelë { $extension }
+applications-save-file = Ruaje Kartelën
+    .label = Ruaje Kartelën
+    .tooltiptext = Ruaje Kartelën
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Përdor { $appName }
+    .label = Përdor { $appName }
+    .tooltiptext = Përdor { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Përdor { $appName } (parazgjedhje)
+    .label = Përdor { $appName } (parazgjedhje)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Përdorni tjetër…
+    .tooltiptext = Përdorni tjetër…
+applications-choose-app-title = Përzgjidhni Aplikacion Ndihmës
+applications-manage-app =
+    .label = Hollësi Aplikacioni…
+applications-always-ask = Pyetmë përherë
+    .label = Pyetmë përherë
+    .tooltiptext = Pyetmë përherë
+applications-delete-action =
+    .label = Anuloje Veprimin
+applications-delete-action-title = Anulojeni Veprimin
+applications-delete-action-confirm = Jeni i sigurt se doni të anulohet ky veprim?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Format Dokumentesh të Mbartshëm (PDF)
+applications-preview-in-app = Paraparje në { -brand-short-name }
+    .label = Paraparje në { -brand-short-name }
+    .tooltiptext = Paraparje në { -brand-short-name }
 save-to-label =
     .label = Kartelat ruaji te
     .accesskey = K
@@ -388,6 +447,10 @@ mark-read-delay =
     .label = Pasi janë shfaqur për
     .accesskey = P
 seconds-label = sekonda
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -572,6 +635,16 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Gjeni më tepër furnizues…
 cloud-account-description = Shtoni një shërbim të ri depozitimi Filelink
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Shtoni { $providerName }
+    .tooltiptext = Shtoni { $providerName }
+filelink-account-not-configured =
+    .title = Kjo llogari s’është formësuar ende
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Jeni i sigurt se doni të hiqet llogaria "{ $accountName }"?
 
 ## Privacy Tab
 
@@ -653,6 +726,8 @@ spam-log-button =
 reset-spam-button =
     .label = Zero të Dhëna Stërvitjeje
     .accesskey = Z
+confirm-reset-junk-training-title = Ripohoni
+confirm-reset-junk-training-message = Jeni i sigurt që doni të rregulloni nga e para të dhënat e filtrit përshtatës?
 phishing-description = { -brand-short-name }-i mund t'i analizojë mesazhet për email mashtrues duke parë për teknika të zakonshme që përdoren për t'ju hedhur hi syve.
 phishing-label =
     .label = Nëse mesazhi që po lexoj dyshohet si email mashtrim, ma bëj të ditur
@@ -789,7 +864,7 @@ idle-label =
     .accesskey = K
 idle-time-label = minutash pa veprimtari
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = dhe gjendjen time kaloje si i Larguar dhe me këtë mesazh gjendjeje:
@@ -864,6 +939,18 @@ search-preferences-input2 =
     .placeholder = Gjeni te Rregullime
     .style = width: 20em
 managed-notice = { -brand-short-name } administrohet nga enti juaj.
+
+## Content of the preview conversation for chat message styles.
+
+chat-theme-preview-default =
+    .label = Parazgjedhje
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Njatjeta! :-)
+chat-theme-preview-message-2 = Ç’kemi?
+chat-theme-preview-message-3 = Po provoj { -brand-short-name }-in! ;-)
 
 ## Settings UI Search Results
 

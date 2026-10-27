@@ -531,3 +531,21 @@ folder-pane-context-compact =
 folder-pane-context-compact-all =
     .label = 压缩所有文件夹
     .accesskey = F
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = 删除文件夹
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = 删除文件夹 (&D)
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = 您确定要删除文件夹“{ $name }”吗？
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = 删除操作将无法恢复，并且会删除所有子文件夹。您确定要删除此文件夹 '{ $name }' 吗？
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = 如果删除文件夹“{ $name }”

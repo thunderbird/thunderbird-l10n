@@ -2,6 +2,10 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+remote-content-permissions-title = Esceptoj: fora enhavo
+remote-content-permissions-description = Vi povas specifi la retejon, el kiuj bildoj aŭ fora enhavo estos permesata por vidigi. Vi ankaŭ povas permesi ŝargi ĉiun foran enhavon en mesaĝoj de elektitaj sendintoj. Enigu adreson de retejo aŭ retpoŝtan adreson por administri kaj sekve alklaku “permesi” aŭ “malpermesi”.
+cookie-permissions-title = Esceptoj: kuketoj
+cookie-permissions-description = Vi povas specifi la retejojn, kiuj ĉiam aŭ neniam rajtos uzi kuketojn. Enigu la ekzaktan adreson de la retejo, kiun vi volas administri kaj poste alklaku “malpermesi”, “permesi por seanco” aŭ “malpermesi“.
 website-address-label =
     .value = Address of website:
     .accesskey = d

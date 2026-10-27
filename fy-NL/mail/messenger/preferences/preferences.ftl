@@ -229,6 +229,7 @@ use-custom-sound-label =
 mail-select-audio-button =
     .label = Audio selektearje…
     .accesskey = A
+sound-file-picker-title = Lûd kieze
 enable-global-search-label =
     .label = Sykje yn alle e-mailaccounts ynskeakelje
     .accesskey = e
@@ -245,6 +246,16 @@ enable-gloda-search-label =
     .label = Globaal sykje en yndeksearder ynskeakelje
     .accesskey = y
 datetime-formatting-legend = Datum- en tiidnotaasje
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Tapassingstaal: { $localeName }
+    .accesskey = p
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Regionale taalynstellingen: { $localeName }
+    .accesskey = g
 display-language-legend = Werjeftetaal
 allow-graphics-accel =
     .label = Grafyske fersnelling foar soepeler scrolle en prestaasjes brûke
@@ -378,6 +389,13 @@ offline-settings-button =
     .label = Sûnder ferbining…
     .accesskey = S
 temporary-storage-legend = Tydlik ûnthâld
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Jo buffer brûkt op dit stuit { $size } { $unit } skiifromte
+actual-disk-cache-size-calculating =
+    .value = Buffergrutte berekkenje…
 offline-compact-remove-deleted =
     .label = Gegevens út mappen fuortsmite as se al wiske binne om opslachromte frij te meitsjen
     .accesskey = G
@@ -470,6 +488,47 @@ search-handler-table =
     .placeholder = Ynhâldtypen en aksjes filterje
 type-column-header = Ynhâldstype
 action-column-header = Aksje
+download-folder-desktop = Buroblêd
+download-folder-system = Myn downloads
+download-choose-folder-title = Kies map
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension }-bestân
+applications-save-file = Bestân bewarje
+    .label = Bestân bewarje
+    .tooltiptext = Bestân bewarje
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Brûk { $appName }
+    .label = Brûk { $appName }
+    .tooltiptext = Brûk { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Brûk { $appName } (standert)
+    .label = Brûk { $appName } (standert)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Brûk oare…
+    .tooltiptext = Brûk oare…
+applications-choose-app-title = Helptapassing selektearje
+applications-manage-app =
+    .label = Applikaasjedetails…
+applications-always-ask = Altyd freegje
+    .label = Altyd freegje
+    .tooltiptext = Altyd freegje
+applications-delete-action =
+    .label = Aksje fuortsmite
+applications-delete-action-title = Aksje fuortsmite
+applications-delete-action-confirm = Binne jo wis dat jo dizze aksje fuortsmite wolle?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Portable Document Format (PDF)
+applications-preview-in-app = Foarbyld yn { -brand-short-name }
+    .label = Foarbyld yn { -brand-short-name }
+    .tooltiptext = Foarbyld yn { -brand-short-name }
 save-to-label =
     .label = Bewarje bestannen yn
     .accesskey = w
@@ -521,6 +580,10 @@ mark-read-delay =
     .label = Nei it toanen foar
     .accesskey = N
 seconds-label = sekonden
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 mark-read-after-viewing =
     .label = Nei werjefte foar
     .accesskey = w
@@ -786,6 +849,16 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Sykje mear providers…
 cloud-account-description = In nije Filelink bewartsjinst tafoegje
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = { $providerName } tafoegje
+    .tooltiptext = { $providerName } tafoegje
+filelink-account-not-configured =
+    .title = Dizze account is noch net konfigurearre
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Binne jo wis dat jo de account ‘{ $accountName }’ fuortsmite wolle?
 
 ## Privacy Tab
 
@@ -897,6 +970,8 @@ spam-log-button =
 reset-spam-button =
     .label = Trainingsgegevens opnij inisjalisearje
     .accesskey = o
+confirm-reset-junk-training-title = Befêstigje
+confirm-reset-junk-training-message = Binne jo wis dat jo de trainingsgegevens fan it selslearjende net-winske-berjochtefilter opnij inisjalisearje wolle?
 scam-detection-description = { -brand-short-name } kontrolearret berjochten op phishing-keppelingen en faaks foarkommende tekens fan e-mailoplichting.
 scam-detection-label =
     .label = Warskôgje by it lêzen fan in e-mailberjocht dy’t derút sjocht as in scam
@@ -1076,7 +1151,7 @@ idle-label =
     .accesskey = k
 idle-time-label = minuten ynaktiviteit litte witte dat ik net aktyf bin
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = en myn steat op Ofwêzich ynstelle mei dit steatberjocht:
@@ -1152,6 +1227,18 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = { -brand-short-name } wurdt troch in organisaasje beheard.
 managed-notice = { -brand-short-name } wurdt troch jo organisaasje beheard.
+
+## Content of the preview conversation for chat message styles.
+
+chat-theme-preview-default =
+    .label = Standert
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Hoi! :-)
+chat-theme-preview-message-2 = Wat is der?
+chat-theme-preview-message-3 = Ik probearje { -brand-short-name }! ;-)
 
 ## Settings UI Search Results
 

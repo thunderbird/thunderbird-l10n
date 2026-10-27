@@ -158,6 +158,7 @@ customize-alert-label =
 mail-system-sound-label =
     .label = Jauna pasta noklusētā sistēmas skaņa
     .accesskey = s
+sound-file-picker-title = Izvēlieties skaņu
 mail-custom-sound-label =
     .label = Izmantot sekojošu skaņas failu
     .accesskey = I
@@ -168,6 +169,16 @@ enable-gloda-search-label =
     .label = Ieslēgt globālo meklēšanu un indeksētāju
     .accesskey = m
 datetime-formatting-legend = Datuma un laika formatēšana
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Lietotnes lokalizācija: { $localeName }
+    .accesskey = o
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Reģionālo iestatījumu lokalizācija: { $localeName }
+    .accesskey = e
 language-selector-legend = Valoda
 allow-hw-accel =
     .label = Izmantot aparatūrisku paātrināšanu, kad pieejama
@@ -243,6 +254,13 @@ offline-settings = Mainīt nesaistes iestatījumus
 offline-settings-button =
     .label = Bezsaistē...
     .accesskey = B
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Kešatmiņa šobrīd aizņem { $size } { $unit } diska vietas
+actual-disk-cache-size-calculating =
+    .value = Aprēķina kešatmiņas lielumu…
 diskspace-legend = Diska vieta
 offline-compact-folder =
     .label = Kad saglabātas, sablīvēt visas mapes
@@ -311,6 +329,47 @@ smaller-size-item =
 quoted-text-color =
     .label = Krāsa:
     .accesskey = K
+download-folder-desktop = Darbvirsma
+download-folder-system = Lejupielādes
+download-choose-folder-title = Izvēlieties mapi
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension } datne
+applications-save-file = Saglabāt datni
+    .label = Saglabāt datni
+    .tooltiptext = Saglabāt datni
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Lietot { $appName }
+    .label = Lietot { $appName }
+    .tooltiptext = Lietot { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Lietot { $appName } (noklusējums)
+    .label = Lietot { $appName } (noklusējums)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Lietot citu…
+    .tooltiptext = Lietot citu…
+applications-choose-app-title = Izvēlieties palīdzības lietotni
+applications-manage-app =
+    .label = Lietotnes informācija…
+applications-always-ask = Vienmēr vaicāt
+    .label = Vienmēr vaicāt
+    .tooltiptext = Vienmēr vaicāt
+applications-delete-action =
+    .label = Dzēst darbību
+applications-delete-action-title = Dzēst darbību
+applications-delete-action-confirm = Vai tiešām vēlaties dzēst šo darbību?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Portējams dokumenta formāts (PDF)
+applications-preview-in-app = Priekšskatīt ar { -brand-short-name }
+    .label = Priekšskatīt ar { -brand-short-name }
+    .tooltiptext = Priekšskatīt ar { -brand-short-name }
 save-to-label =
     .label = Saglabāt datnes
     .accesskey = S
@@ -358,6 +417,10 @@ mark-read-delay =
     .label = Pēc parādīšanas
     .accesskey = P
 seconds-label = sekundes
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 mark-read-after-viewing =
     .label = Apskatot
     .accesskey = s
@@ -485,6 +548,16 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Meklēt citus sniedzējus…
 cloud-account-description = Pievienot jaunu Filelink krātuves pakalpojumu
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Pievienot { $providerName }
+    .tooltiptext = Pievienot { $providerName }
+filelink-account-not-configured =
+    .title = Šis konts vēl nav iestatīts
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Vai tiešām vēlaties noņemt kontu "{ $accountName }"?
 
 ## Privacy Tab
 
@@ -532,6 +605,8 @@ forms-master-pw-fips-desc = Paroles maiņa neizdevās
 spam-delete-immediately-label =
     .label = Izdzēst uzreiz
     .accesskey = d
+confirm-reset-junk-training-title = Apstipriniet
+confirm-reset-junk-training-message = Vai tiešām vēlaties atstatīt adaptīvā filtra apmācības datus?
 certificate-ask-every =
     .label = Vaicāt katru reizi
     .accesskey = V
@@ -561,6 +636,9 @@ security-devices-button =
     .accesskey = D
 email-e2ee-header = E-pasta pilnīga šifrēšana
 
+## DoH Section
+
+
 ## Keyservers
 
 email-e2ee-key-servers-add = Pievienot…
@@ -587,7 +665,7 @@ idle-label =
     .accesskey = d
 idle-time-label = bezdarbības minūtēm
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = un iestatīt statusu Prom ar šo statusa ziņojumu:
@@ -648,6 +726,18 @@ no-preview-description = Šī tēma nav derīga vai pašlaik nav pieejama (atsp�
 chat-variant-label =
     .value = Variants:
     .accesskey = V
+
+## Content of the preview conversation for chat message styles.
+
+chat-theme-preview-default =
+    .label = Noklusēts
+chat-theme-preview-nick-1 = Florians
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patriks
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Sveiki! :-)
+chat-theme-preview-message-2 = Kā iet?
+chat-theme-preview-message-3 = Es izmēģinu { -brand-short-name }! ;-)
 
 ## Settings UI Search Results
 

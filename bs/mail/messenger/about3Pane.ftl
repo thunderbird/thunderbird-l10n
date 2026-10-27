@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
@@ -240,3 +243,24 @@ apply-current-columns-to-folder-message = Primijeni kolone trenutnog direktorija
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Primijeni kolone trenutnog direktorija na { $name } i njegove poddirektorije?
+
+## Folder pane context menu
+
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = Brisanje direktorija
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = &Obriši direktorij
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = Jeste li sigurni da želite obrisati direktorij '{ $name }'?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = Brisanje direktorija se ne može poništiti. Bit će obrisane sve poruke i poddirektoriji koje direktorij sadrži. Jeste li sigurni da želite obrisati direktorij '{ $name }'?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Brisanje direktorija '{ $name }' će onemogućiti povezane filtere. Jeste li sigurni da želite izbrisati direktorij?

@@ -4,3 +4,6 @@
 
 shortcuts-close-button-title =
     .title = Zatvori
+shortcuts-close-button =
+    .title = Zatvori
+    .aria-label = Zatvori

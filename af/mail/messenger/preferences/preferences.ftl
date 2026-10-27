@@ -6,6 +6,9 @@ pane-compose-title = Opstelling
 category-compose =
     .tooltiptext = Opstelling
 
+## OS Authentication dialog
+
+
 ## General Tab
 
 general-legend = { -brand-short-name } se beginbladsy
@@ -28,6 +31,7 @@ animated-alert-label =
 customize-alert-label =
     .label = Doelmaak…
     .accesskey = D
+sound-file-picker-title = Kies klank
 mail-custom-sound-label =
     .label = Gebruik die volgende klanklêer
     .accesskey = G
@@ -116,6 +120,43 @@ bigger-size-item =
     .label = Groter
 smaller-size-item =
     .label = Kleiner
+download-folder-desktop = Werkskerm
+download-folder-system = My aflaaie
+download-choose-folder-title = Kies gids
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension }-lêer
+applications-save-file = Stoor lêer
+    .label = Stoor lêer
+    .tooltiptext = Stoor lêer
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Gebruik { $appName }
+    .label = Gebruik { $appName }
+    .tooltiptext = Gebruik { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Gebruik { $appName } (verstek)
+    .label = Gebruik { $appName } (verstek)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Gebruik ander…
+    .tooltiptext = Gebruik ander…
+applications-choose-app-title = Kies hulptoepassing
+applications-manage-app =
+    .label = Toepassingdetail…
+applications-always-ask = Vra altyd
+    .label = Vra altyd
+    .tooltiptext = Vra altyd
+applications-delete-action =
+    .label = Skrap aksie
+applications-delete-action-title = Skrap aksie
+applications-delete-action-confirm = Is u seker u wil hierdie aksie skrap?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
 save-to-label =
     .label = Stoor lêers na
     .accesskey = S
@@ -151,6 +192,10 @@ mark-read-delay =
     .label = Na vertoon is vir
     .accesskey = v
 seconds-label = sekondes
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -238,6 +283,9 @@ attachment-label =
 attachment-options-label =
     .label = Sleutelwoorde…
     .accesskey = S
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Is u seker u wil die rekening "{ $accountName }" skrap?
 
 ## Privacy Tab
 
@@ -249,6 +297,8 @@ passwords-description = { -brand-short-name } kan wagwoorde vir al jou rekeninge
 passwords-button =
     .label = Gestoorde wagwoorde…
     .accesskey = G
+confirm-reset-junk-training-title = Bevestig
+confirm-reset-junk-training-message = Is u seker u wil die aanpassende filteropleidingdata teruglaai?
 phishing-description = { -brand-short-name } kan boodskappe analiseer vir verdagte e-posswendelary deur uit te kyk vir algemene tegnieke om mens om die bos te lei.
 phishing-label =
     .label = Vertel my as die boodskap wat ek lees, dalk 'n e-posswendel is
@@ -258,7 +308,23 @@ certificate-ask =
     .label = Vra my elke keer
     .accesskey = A
 
-##
+## DoH Section
+
+
+## Keyservers
+
+
+## Chat Tab
+
+
+## Note: idle-label is displayed first, then there's a field where the user
+## can enter a number, and itemTime is displayed at the end of the line.
+## The translations of the idle-label and idle-time-label parts don't have
+## to mean the exact same thing as in English; please try instead to
+## translate the whole sentence.
+
+
+## Content of the preview conversation for chat message styles.
 
 chat-play-button =
     .label = Speel
@@ -269,3 +335,18 @@ chat-custom-sound-label =
 chat-browse-sound-button =
     .label = Blaai…
     .accesskey = B
+
+## Content of the preview conversation for chat message styles.
+
+
+## Settings UI Search Results
+
+
+## Sync Tab
+
+
+## Mobile QR Export Pane
+
+
+## Appearance Tab
+

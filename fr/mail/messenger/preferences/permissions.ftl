@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 permissions-dialog-title = Exceptions
+remote-content-permissions-title = Exceptions - Contenu distant
+remote-content-permissions-description = Vous pouvez indiquer depuis quels sites web vous autorisez le chargement d’images et d’autres contenus distants. Vous pouvez également autoriser tous les contenus distants d’après l’adresse e-mail de l’expéditeur. Saisissez l’adresse du site ou l’adresse e-mail que vous souhaitez gérer puis cliquez sur Bloquer ou Autoriser.
+cookie-permissions-title = Exceptions - Cookies
+cookie-permissions-description = Vous pouvez indiquer les sites web qui sont toujours ou ne sont jamais autorisés à utiliser des cookies. Saisissez l’adresse exacte du site et cliquez sur Bloquer, Autoriser pour la session, ou Autoriser.
 website-address-label =
     .value = Adresse du site web :
     .accesskey = d

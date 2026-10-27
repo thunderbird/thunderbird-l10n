@@ -547,3 +547,21 @@ folder-pane-context-compact =
 folder-pane-context-compact-all =
     .label = กระชับโฟลเดอร์ทั้งหมด
     .accesskey = ฟ
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = ลบโฟลเดอร์
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = &ลบโฟลเดอร์
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = คุณแน่ใจหรือไม่ว่าต้องการลบโฟลเดอร์ '{ $name }'?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = การลบโฟลเดอร์นี้ไม่สามารถเลิกทำได้และจะลบข้อความที่มีอยู่และโฟลเดอร์ย่อยทั้งหมดที่อยู่ภายใน คุณแน่ใจหรือไม่ว่าต้องการลบโฟลเดอร์ '{ $name }'?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = การลบโฟลเดอร์ '{ $name }' จะลบตัวกรองที่เชื่อมโยงทั้งหมด คุณแน่ใจหรือไม่ว่าต้องการลบโฟลเดอร์?

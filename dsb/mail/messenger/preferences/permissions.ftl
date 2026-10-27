@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 permissions-dialog-title = Wuwześa
+remote-content-permissions-title = Wuwześa - Daloke wopśimjeśe
+remote-content-permissions-description = Móžośo pódaś, z kótarychž websedłow wobraze a druge daloke wopśimjeśe směju se zacytaś. Móžośo teke wšo daloke wopśimjeśe na zakłaźe e-mailoweje adrese wótpósłarja dowóliś. Zapišćo adresu sedła abo mailki, kótaruž cośo zastojaś a klikniśo pótom na Blokěrowaś abo Dowóliś.
+cookie-permissions-title = Wuwześa - Cookieje
+cookie-permissions-description = Móžośo pódaś, kótare websedła směju abo njesměju cookieje wužywaś. Zapišćo eksaktnu adresu sedła, kótarež cośo zastojaś a klikniśo pón na Blokěrowaś, Za pósejźenje dowóliś abo Dowóliś.
 website-address-label =
     .value = Adresa websedła:
     .accesskey = A

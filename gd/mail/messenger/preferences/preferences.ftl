@@ -152,6 +152,7 @@ tray-icon-unread-description = Mholamaid seo nuair a chleachdas tu putanan beaga
 mail-system-sound-label =
     .label = Fuaim bhunaiteach an t-siostaim airson post ùr
     .accesskey = b
+sound-file-picker-title = Tagh fuaim
 mail-custom-sound-label =
     .label = Cleachd an fhuaim a leanas
     .accesskey = u
@@ -162,6 +163,16 @@ enable-gloda-search-label =
     .label = Cuir an lorg is an clàr-innsiche uile-choitcheann an comas
     .accesskey = e
 datetime-formatting-legend = Fòrmatadh a’ chinn-là ’s an ama
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Sgeama ionadail na h-aplacaid: { $localeName }
+    .accesskey = p
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Sgeama ionadail nan roghainnean: { $localeName }
+    .accesskey = g
 language-selector-legend = Cànan
 allow-hw-accel =
     .label = Cleachd luathachadh a' bhathar-bhog ma bhios e ri làimh
@@ -233,6 +244,13 @@ offline-settings = Rèitich na roghainnean airson obrachadh far loidhne
 offline-settings-button =
     .label = Far loidhne…
     .accesskey = o
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Tha an tasgadan agad a’ cleachdadh { $size } { $unit } a dh’àite air an diosg an-dràsta
+actual-disk-cache-size-calculating =
+    .value = Ag àireamhachadh meud an tasgadain…
 diskspace-legend = Àite air an diosg
 offline-compact-folder =
     .label = CDùmhlaich na pasgain nan sàbhaladh seo barrachd air
@@ -300,6 +318,47 @@ quoted-text-color =
     .accesskey = h
 search-handler-table =
     .placeholder = Criathraich susbaint a-rèir seòrsaichean is gnìomhan
+download-folder-desktop = Deasg
+download-folder-system = Na luchdaidhean a-nuas agam
+download-choose-folder-title = Tagh pasgan
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = Faidhle { $extension }
+applications-save-file = Sàbhail am faidhle
+    .label = Sàbhail am faidhle
+    .tooltiptext = Sàbhail am faidhle
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Cleachd { $appName }
+    .label = Cleachd { $appName }
+    .tooltiptext = Cleachd { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Cleachd { $appName } (bunaiteach)
+    .label = Cleachd { $appName } (bunaiteach)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Cleachd fear eile…
+    .tooltiptext = Cleachd fear eile…
+applications-choose-app-title = Tagh prògram cobharach
+applications-manage-app =
+    .label = Mion-fhiosrachadh a' phrògraim…
+applications-always-ask = Faighnich dhìom gach turas
+    .label = Faighnich dhìom gach turas
+    .tooltiptext = Faighnich dhìom gach turas
+applications-delete-action =
+    .label = Sguab às gnìomh
+applications-delete-action-title = Sguab às gnìomh
+applications-delete-action-confirm = A bheil thu cinnteach gu bheil thu airson an gnìomh seo a sguabadh às?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Portable Document Format (PDF)
+applications-preview-in-app = Ro-sheall le { -brand-short-name }
+    .label = Ro-sheall le { -brand-short-name }
+    .tooltiptext = Ro-sheall le { -brand-short-name }
 save-to-label =
     .label = Sàbhail faidhlichean ann an
     .accesskey = S
@@ -341,6 +400,10 @@ mark-read-delay =
     .label = Nuair a bhios mi air coimhead air fad
     .accesskey = d
 seconds-label = diog(an)
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -459,6 +522,16 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Lorg barrachd solaraichean…
 cloud-account-description = Cuir seirbheis stòrais Filelink ùr ris
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Cuir { $providerName } ris
+    .tooltiptext = Cuir { $providerName } ris
+filelink-account-not-configured =
+    .title = Cha deach an cunntas seo a rèiteachadh fhathast
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = A bheil thu cinnteach gu bheil thu airson an cunntas "{ $accountName }" a thoirt air falbh?
 
 ## Privacy Tab
 
@@ -503,6 +576,8 @@ primary-password-button =
     .accesskey = c
 forms-primary-pw-fips-title = Tha thu ann am modh FIPS an-dràsta. Feumaidh FIPS prìomh fhacal-faire nach eil falamh.
 forms-master-pw-fips-desc = Dh’fhàillig atharrachadh an fhacail-fhaire
+confirm-reset-junk-training-title = Dearbh
+confirm-reset-junk-training-message = A bheil thu cinnteach gu bheil thu airson dàta trèanaidh nan criathragan tuigseach ath-shuidheachadh?
 phishing-description = 'S urrainn do { -brand-short-name } sgrùdadh a dhèanamh air teachdaireachdan air eagal 's gu bheil iad nam fallsaidheachdan puis-dhealain le bhith a' cumail faire air gleusan cumanta a chleachdar a chum foill.
 phishing-label =
     .label = Innis dhomh ma tha amharas gu bheil an teachdaireachd a tha mi a' leughadh 'na fhallsaidheachd puist-dhealain
@@ -528,6 +603,12 @@ security-devices-button =
     .label = Uidheaman tèarainteachd...
     .accesskey = d
 
+## DoH Section
+
+
+## Keyservers
+
+
 ## Chat Tab
 
 startup-label =
@@ -549,7 +630,7 @@ idle-label =
     .accesskey = N
 idle-time-label = mionaid(ean) 's mi gun dad a dhèanamh
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = agus cuir an teachdaireachd a leanas ris a' chomharra "Air falbh":
@@ -611,7 +692,28 @@ chat-variant-label =
     .value = Eug-samhail:
     .accesskey = V
 
+## Content of the preview conversation for chat message styles.
+
+chat-theme-preview-default =
+    .label = Bun-roghainn
+chat-theme-preview-nick-1 = Iain Tormod
+chat-theme-preview-buddy-1 = iain_tormod@im.instantbird.org
+chat-theme-preview-nick-2 = Pàdraig ’Ain Ruairidh
+chat-theme-preview-buddy-2 = padraig@im.instantbird.org
+chat-theme-preview-message-1 = Shin thu! :-)
+chat-theme-preview-message-2 = Dè tha dol?
+chat-theme-preview-message-3 = Tha mi a’ feuchainn { -brand-short-name }! ;-)
+
 ## Settings UI Search Results
 
 search-results-header = Toraidhean luirg
 search-results-help-link = A bheil cobhair a dhìth ort? Tadhail air <a data-l10n-name="url">Taic { -brand-short-name }</a>
+
+## Sync Tab
+
+
+## Mobile QR Export Pane
+
+
+## Appearance Tab
+

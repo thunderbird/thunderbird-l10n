@@ -231,6 +231,7 @@ use-custom-sound-label =
 mail-select-audio-button =
     .label = Seliger audio…
     .accesskey = a
+sound-file-picker-title = Seliger sono
 enable-global-search-label =
     .label = Activar recerca inter tote le contos de e-mail
     .accesskey = e
@@ -247,6 +248,16 @@ enable-gloda-search-label =
     .label = Activar le recerca e indexation global
     .accesskey = g
 datetime-formatting-legend = Formato de data e hora
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Application local: { $localeName }
+    .accesskey = o
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Parametros regional del localitate: { $localeName }
+    .accesskey = e
 display-language-legend = Lingua del interfacie de usator
 allow-graphics-accel =
     .label = Usar acceleration graphic pro rolamento e prestationes plus dulce
@@ -380,6 +391,13 @@ offline-settings-button =
     .label = Offline…
     .accesskey = O
 temporary-storage-legend = Immagazinage temporari
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Tu cache usa actualmente { $size } { $unit } de spatio in le disco
+actual-disk-cache-size-calculating =
+    .value = Calculo del dimension del cache…
 offline-compact-remove-deleted =
     .label = Remover datos de plicas quando illos ha jam essite delite pro liberar immagazinage
     .accesskey = a
@@ -472,6 +490,47 @@ search-handler-table =
     .placeholder = Filtra typos e actiones de contento
 type-column-header = Typo de contento
 action-column-header = Action
+download-folder-desktop = Scriptorio
+download-folder-system = Mi discargamentos
+download-choose-folder-title = Elige dossier
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = file { $extension }
+applications-save-file = Salvar le file
+    .label = Salvar le file
+    .tooltiptext = Salvar le file
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Usar { $appName }
+    .label = Usar { $appName }
+    .tooltiptext = Usar { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Usar { $appName } (predefinite)
+    .label = Usar { $appName } (predefinite)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Usar altere…
+    .tooltiptext = Usar altere…
+applications-choose-app-title = Seliger le application assistente
+applications-manage-app =
+    .label = Detalios del application…
+applications-always-ask = Demandar sempre
+    .label = Demandar sempre
+    .tooltiptext = Demandar sempre
+applications-delete-action =
+    .label = Deler le action
+applications-delete-action-title = Deler le action
+applications-delete-action-confirm = Desira tu vermente deler iste action?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Formato de documento portabile (PDF)
+applications-preview-in-app = Vista preliminar in { -brand-short-name }
+    .label = Vista preliminar in { -brand-short-name }
+    .tooltiptext = Vista preliminar in { -brand-short-name }
 save-to-label =
     .label = Salvar le files in
     .accesskey = S
@@ -523,6 +582,10 @@ mark-read-delay =
     .label = Post monstrar pro
     .accesskey = m
 seconds-label = secundas
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 mark-read-after-viewing =
     .label = Post visualisar pro
     .accesskey = v
@@ -788,6 +851,16 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Trovar plus fornitores…
 cloud-account-description = Adder un nove servicio de immagazinage Filelink
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Adder { $providerName }
+    .tooltiptext = Adder { $providerName }
+filelink-account-not-configured =
+    .title = Tal conto non ha essite configurate ancora
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Desira tu vermente remover le conto "{ $accountName }"?
 
 ## Privacy Tab
 
@@ -899,6 +972,8 @@ spam-log-button =
 reset-spam-button =
     .label = Reinitialisar datos de exercitation
     .accesskey = i
+confirm-reset-junk-training-title = Confirmar
+confirm-reset-junk-training-message = Es tu secur de voler reinitialisar le datos de apprendimento del filtro adaptive?
 scam-detection-description = { -brand-short-name } controla messages pro ligamines de fraude e signos commun de fraudes via e-mails.
 scam-detection-label =
     .label = Adverter legente un e-mail que pare fraudulente
@@ -1078,7 +1153,7 @@ idle-label =
     .accesskey = p
 idle-time-label = minutas de inactivitate
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = e configura mi stato a Non disponibile con iste message de stato:
@@ -1154,6 +1229,18 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = { -brand-short-name } es gerite per un organisation.
 managed-notice = { -brand-short-name } es gerite per tu organisation.
+
+## Content of the preview conversation for chat message styles.
+
+chat-theme-preview-default =
+    .label = Predefinite
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Holla :-)
+chat-theme-preview-message-2 = Como va?
+chat-theme-preview-message-3 = Io prova { -brand-short-name }! ;-)
 
 ## Settings UI Search Results
 

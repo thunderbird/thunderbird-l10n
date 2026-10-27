@@ -229,6 +229,7 @@ use-custom-sound-label =
 mail-select-audio-button =
     .label = Awdijo wubrać…
     .accesskey = A
+sound-file-picker-title = Zynk wubrać
 enable-global-search-label =
     .label = Pytanje za wšě e-mejlowe konta zmóžnić
     .accesskey = m
@@ -245,6 +246,16 @@ enable-gloda-search-label =
     .label = Globalne pytanje a indeksowanje zmóžnić
     .accesskey = G
 datetime-formatting-legend = Formatowanje datuma a časa
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Narodna šema nałoženja: { $localeName }
+    .accesskey = o
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Narodna šema regionalnych nastajenjow: { $localeName }
+    .accesskey = r
 display-language-legend = Zwobraznjenska rěč
 allow-graphics-accel =
     .label = Grafikowe pospěšenje za łahodniše kulenje a lěpši wukon wužiwać
@@ -378,6 +389,13 @@ offline-settings-button =
     .label = Offline…
     .accesskey = O
 temporary-storage-legend = Temporerne składowanje
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Waš pufrowak tuchwilu { $size } { $unit } tačeloweho ruma wužiwa
+actual-disk-cache-size-calculating =
+    .value = Wulkosć pufrowaka so wuličuje…
 offline-compact-remove-deleted =
     .label = Daty z rjadowakow wotstronić, hdyž su hižo zhašane, zo by so składowanski rum wuswobodźił
     .accesskey = t
@@ -470,6 +488,47 @@ search-handler-table =
     .placeholder = Wobsahowe typy a akcije filtrować
 type-column-header = Wobsahowy typ
 action-column-header = Akcija
+download-folder-desktop = Desktop
+download-folder-system = Moje sćehnjenja
+download-choose-folder-title = Rjadowak wubrać
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = Dataja { $extension }
+applications-save-file = Dataju składować
+    .label = Dataju składować
+    .tooltiptext = Dataju składować
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = { $appName } wužiwać
+    .label = { $appName } wužiwać
+    .tooltiptext = { $appName } wužiwać
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = { $appName } wužiwać (standard)
+    .label = { $appName } wužiwać (standard)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Druhe wužiwać…
+    .tooltiptext = Druhe wužiwać…
+applications-choose-app-title = Pomocne nałoženje wubrać
+applications-manage-app =
+    .label = Podrobnosće nałoženja…
+applications-always-ask = Přeco so prašeć
+    .label = Přeco so prašeć
+    .tooltiptext = Přeco so prašeć
+applications-delete-action =
+    .label = Akciju zhašeć
+applications-delete-action-title = Akciju zhašeć
+applications-delete-action-confirm = Chceće woprawdźe tutu akciju zhašeć?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Portable Document Format (PDF)
+applications-preview-in-app = Přehlad w { -brand-short-name }
+    .label = Přehlad w { -brand-short-name }
+    .tooltiptext = Přehlad w { -brand-short-name }
 save-to-label =
     .label = Dataje składować do
     .accesskey = s
@@ -521,6 +580,10 @@ mark-read-delay =
     .label = Po zwobraznjenju za
     .accesskey = z
 seconds-label = sekundow
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 mark-read-after-viewing =
     .label = Po pokazowanju za
     .accesskey = k
@@ -786,6 +849,16 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Dalšich poskićowarjow namakać…
 cloud-account-description = Nowu składowansku słužbu Filelink přidać
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = { $providerName } přidać
+    .tooltiptext = { $providerName } přidać
+filelink-account-not-configured =
+    .title = Tute konto njeje so hišće konfigurowało
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Chceće konto "{ $accountName }" woprawdźe wotstronić?
 
 ## Privacy Tab
 
@@ -897,6 +970,8 @@ spam-log-button =
 reset-spam-button =
     .label = Trenowanske daty wróćo stajić
     .accesskey = r
+confirm-reset-junk-training-title = Wobkrućić
+confirm-reset-junk-training-message = Chceće woprawdźe trenowanske daty přiměrjomneho filtra wróćo stajić?
 scam-detection-description = { -brand-short-name } powěsće za phishingowymi wotkazami a typiskimi znamjenjemi e-mejloweje wobšudy přepruwuje.
 scam-detection-label =
     .label = Při čitanju mejlki warnować, kotraž zda so wobšuda być
@@ -1074,7 +1149,7 @@ idle-label =
     .accesskey = i
 idle-time-label = mjeńšin preč
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = a stajće mój status na Preč z tutej statusowej powěsću:
@@ -1150,6 +1225,18 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = { -brand-short-name } so přez organizaciju rjaduje.
 managed-notice = { -brand-short-name } so wot wašeje organizacije rjaduje.
+
+## Content of the preview conversation for chat message styles.
+
+chat-theme-preview-default =
+    .label = Standard
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Witaj! :-)
+chat-theme-preview-message-2 = Što so stawa?
+chat-theme-preview-message-3 = Wupruwuju { -brand-short-name }! :-)
 
 ## Settings UI Search Results
 

@@ -576,3 +576,21 @@ folder-pane-context-compact =
 folder-pane-context-compact-all =
     .label = Komprimera alla mappar
     .accesskey = a
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = Ta bort mapp
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = &Ta bort mapp
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = Är du säker på att du vill ta bort mappen '{ $name }'?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = Det finns inget sätt att ångra borttagning av en mapp och dess undermappar och innehåll. Är du säker på att du ändå vill ta bort mappen ”{ $name }”?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Om du tar bort mappen ”{ $name }” kommer berörda filterregler att sättas ur spel. Är du säker på att du vill ta bort mappen?

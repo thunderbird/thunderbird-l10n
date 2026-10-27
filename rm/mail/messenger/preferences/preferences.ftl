@@ -171,6 +171,7 @@ tray-icon-unread-description = Recumandà sche buttuns pitschens vegnan utilisad
 mail-system-sound-label =
     .label = Tun predefinì dal sistem per novs e-mails
     .accesskey = T
+sound-file-picker-title = Tscherner in tun
 mail-custom-sound-label =
     .label = Utilisar la suandanta datoteca da tun
     .accesskey = U
@@ -181,6 +182,16 @@ enable-gloda-search-label =
     .label = Activar la tschertga globala e l'indexaziun da messadis
     .accesskey = E
 datetime-formatting-legend = Format da data ed ura
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Lingua da l'applicaziun: { $localeName }
+    .accesskey = p
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Lingua per ils parameters regiunals: { $localeName }
+    .accesskey = g
 language-selector-legend = Lingua
 allow-hw-accel =
     .label = Utilisar sche pussaivel l'acceleraziun cun hardware da grafica
@@ -266,6 +277,13 @@ offline-settings = Configurar il cumportament en il modus offline
 offline-settings-button =
     .label = Senza connexiun…
     .accesskey = S
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Tes chache utilisescha actualmain { $size } { $unit } da la memoria
+actual-disk-cache-size-calculating =
+    .value = Calculaziun da la grondezza dal cache…
 diskspace-legend = Capacitad da memorisar
 offline-compact-folder =
     .label = Cumprimer tut ils ordinaturs sche quai spargna dapli che
@@ -342,6 +360,47 @@ search-handler-table =
     .placeholder = Filtrar tips da cuntegn ed acziuns
 type-column-header = Tip da cuntegn
 action-column-header = Acziun
+download-folder-desktop = Desktop
+download-folder-system = Atgnas telechargiadas
+download-choose-folder-title = Tscherner in ordinatur
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = Datoteca { $extension }
+applications-save-file = Memorisar la datoteca
+    .label = Memorisar la datoteca
+    .tooltiptext = Memorisar la datoteca
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Utilisar { $appName }
+    .label = Utilisar { $appName }
+    .tooltiptext = Utilisar { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Utilisar { $appName } (standard)
+    .label = Utilisar { $appName } (standard)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Autra applicaziun...
+    .tooltiptext = Autra applicaziun...
+applications-choose-app-title = Tscherner in'applicaziun externa
+applications-manage-app =
+    .label = Detagls davart l'applicaziun...
+applications-always-ask = Dumandar mintga giada
+    .label = Dumandar mintga giada
+    .tooltiptext = Dumandar mintga giada
+applications-delete-action =
+    .label = Stizzar l'acziun
+applications-delete-action-title = Stizzar l'acziun
+applications-delete-action-confirm = Es ti segir che ti vuls stizzar questa acziun?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Portable Document Format (PDF)
+applications-preview-in-app = Prevista en { -brand-short-name }
+    .label = Prevista en { -brand-short-name }
+    .tooltiptext = Prevista en { -brand-short-name }
 save-to-label =
     .label = Memorisar tut las datotecas en il suandant ordinatur:
     .accesskey = S
@@ -386,6 +445,10 @@ mark-read-delay =
     .label = Suenter avair mussà durant
     .accesskey = t
 seconds-label = secundas
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -555,6 +618,16 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Chattar ulteriurs purschiders…
 cloud-account-description = Agiuntar in nov servetsch per memorisar datotecas
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Agiuntar { $providerName }
+    .tooltiptext = Agiuntar { $providerName }
+filelink-account-not-configured =
+    .title = Quest conto n'è anc betg configurà
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Es ti segir che ti vuls allontanar il conto "{ $accountName }"?
 
 ## Privacy Tab
 
@@ -610,6 +683,8 @@ primary-password-button =
     .accesskey = c
 forms-primary-pw-fips-title = Ti es actualmain en il modus FIPS. FIPS pretenda in pled-clav universal (betg vid).
 forms-master-pw-fips-desc = I n'è betg reussì da midar il pled-clav
+confirm-reset-junk-training-title = Confermar
+confirm-reset-junk-training-message = Es ti segir che ti vuls stizzar las datas da trenament dal filter intelligent rimnadas fin ussa?
 phishing-description = { -brand-short-name } po far attent ad eventualas emprovas d'engion (phishing) cun intercurir messadis sin tecnicas enconuschentas che vegnan utilisadas per engianar. I po dentant era dar suspects nungiustifitgads cunquai che las tecnicas menziunadas pon era vegnir utilisadas per intenziuns nunproblematicas.
 phishing-label =
     .label = Intercurir messadis sin emprovas d'engion (phishing)
@@ -650,6 +725,12 @@ email-e2ee-automatism-post =
     Decisiuns automaticas vegnan ignoradas sch'il criptadi vegn activà u deactivà manualmain durant rediger in messadi.
     Avis: Il criptadi è adina activà automaticamain sch'i sa tracta dad ina resposta ad in messadi criptà.
 
+## DoH Section
+
+
+## Keyservers
+
+
 ## Chat Tab
 
 startup-label =
@@ -671,7 +752,7 @@ idle-label =
     .accesskey = I
 idle-time-label = minutas inactivitad
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = e midar mes status sin 'Absent' cun quest messadi da status:
@@ -745,6 +826,18 @@ chat-variant-label =
 search-preferences-input2 =
     .placeholder = Chattar en ils parameters
     .style = width: 15.4em
+
+## Content of the preview conversation for chat message styles.
+
+chat-theme-preview-default =
+    .label = Standard
+chat-theme-preview-nick-1 = Flurin
+chat-theme-preview-buddy-1 = flurin@im.instantbird.org
+chat-theme-preview-nick-2 = Anna
+chat-theme-preview-buddy-2 = anna@im.instantbird.org
+chat-theme-preview-message-1 = Ueila! ;-)
+chat-theme-preview-message-2 = Co vai?
+chat-theme-preview-message-3 = Jau experimentesch cun { -brand-short-name }! ;-)
 
 ## Settings UI Search Results
 

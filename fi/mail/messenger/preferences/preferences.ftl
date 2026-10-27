@@ -196,6 +196,7 @@ mail-system-sound-label =
 mail-select-audio-button =
     .label = Valitse ääni…
     .accesskey = V
+sound-file-picker-title = Valitse äänimerkki
 mail-custom-sound-label =
     .label = Käytä seuraavaa äänitiedostoa
     .accesskey = K
@@ -206,6 +207,16 @@ enable-gloda-search-label =
     .label = Ota käyttöön viestien yleishaku ja indeksointi
     .accesskey = O
 datetime-formatting-legend = Päiväyksen ja ajan muoto
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Sovelluksen kieli: { $localeName }
+    .accesskey = k
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Paikallisten asetusten kieli: { $localeName }
+    .accesskey = s
 language-selector-legend = Kieli
 allow-hw-accel =
     .label = Käytä laitteistokiihdytystä jos mahdollista
@@ -302,6 +313,13 @@ offline-settings = Määritä verkkoyhteydettömän tilan asetukset
 offline-settings-button =
     .label = Yhteydetön tila…
     .accesskey = h
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Välimuisti käyttää parhaillaan { $size } { $unit } levytilaa
+actual-disk-cache-size-calculating =
+    .value = Lasketaan välimuistin kokoa…
 diskspace-legend = Levytilan käyttö
 offline-compact-folder =
     .label = Tiivistä kansiot kun se säästää yhteensä yli
@@ -382,6 +400,47 @@ search-handler-table =
     .placeholder = Suodata sisältötyypit ja toiminnot
 type-column-header = Sisältötyyppi
 action-column-header = Toiminto
+download-folder-desktop = Työpöytä
+download-folder-system = Omat lataukset
+download-choose-folder-title = Valitse kansio
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension }-tiedosto
+applications-save-file = Tallenna tiedosto
+    .label = Tallenna tiedosto
+    .tooltiptext = Tallenna tiedosto
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Käytä sovellusta { $appName }
+    .label = Käytä sovellusta { $appName }
+    .tooltiptext = Käytä sovellusta { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Käytä sovellusta { $appName } (oletus)
+    .label = Käytä sovellusta { $appName } (oletus)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Valitse uusi apuohjelma…
+    .tooltiptext = Valitse uusi apuohjelma…
+applications-choose-app-title = Valitse uusi apuohjelma
+applications-manage-app =
+    .label = Sovellusten tiedot…
+applications-always-ask = Kysy aina
+    .label = Kysy aina
+    .tooltiptext = Kysy aina
+applications-delete-action =
+    .label = Poista toiminto
+applications-delete-action-title = Poista toiminto
+applications-delete-action-confirm = Poistetaanko toiminto?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Portable Document Format (PDF)
+applications-preview-in-app = Esikatsele { -brand-short-name }issä
+    .label = Esikatsele { -brand-short-name }issä
+    .tooltiptext = Esikatsele { -brand-short-name }issä
 save-to-label =
     .label = Tallenna kansioon
     .accesskey = T
@@ -426,6 +485,10 @@ mark-read-delay =
     .label = Kun ne ovat olleet avattuna
     .accesskey = u
 seconds-label = sekuntia
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -621,6 +684,16 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Etsi lisää palveluntarjoajia…
 cloud-account-description = Lisää uusi tiedostoja linkittävä tallennuspalvelu
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Lisää { $providerName }
+    .tooltiptext = Lisää { $providerName }
+filelink-account-not-configured =
+    .title = Tämän tilin asetuksia ei ole vielä tehty
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Poistetaanko tili "{ $accountName }"?
 
 ## Privacy Tab
 
@@ -687,6 +760,8 @@ spam-log-label =
 spam-log-button =
     .label = Näytä loki
     .accesskey = N
+confirm-reset-junk-training-title = Vahvista
+confirm-reset-junk-training-message = Nollataanko mukautuvan suodattimen harjoitustiedot?
 scam-detection-label =
     .label = Varoita, kun luet sähköpostia, joka näyttää huijaukselta
     .accesskey = V
@@ -816,7 +891,7 @@ idle-label =
     .accesskey = A
 idle-time-label = minuuttiin
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = ja aseta minut poissaolevaksi tämän viestin kera:
@@ -890,6 +965,18 @@ chat-variant-label =
 search-preferences-input2 =
     .placeholder = Etsi asetuksista
     .style = width: 15.4em
+
+## Content of the preview conversation for chat message styles.
+
+chat-theme-preview-default =
+    .label = Oletus
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Hei! :-)
+chat-theme-preview-message-2 = Mitä kuuluu?
+chat-theme-preview-message-3 = Kokeilen { -brand-short-name }iä!;-)
 
 ## Settings UI Search Results
 

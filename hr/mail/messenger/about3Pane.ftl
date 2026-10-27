@@ -593,3 +593,21 @@ folder-pane-context-compact =
 folder-pane-context-compact-all =
     .label = Sažmi sve mape
     .accesskey = S
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = Brisanje mape
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = &Obriši mapu
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = Jeste li sigurni da želite obrisati mapu '{ $name }'?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = Brisanje mape se ne može poništiti. Bit će obrisane sve poruke i podmape koje mapa sadrži. Jeste li sigurni da želite obrisati mapu '{ $name }'?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Brisanje mape '{ $name }' će onemogućiti povezane filtere. Jeste li sigurni da želite obrisati mapu?

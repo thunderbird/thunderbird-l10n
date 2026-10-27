@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 permissions-dialog-title = Eithriadau
+remote-content-permissions-title = Eithriadau - Cynnwys Pell
+remote-content-permissions-description = Mae modd i chi bennu pa ddelweddau gwefannau a chynnwys pell eraill sy'n cael caniatâd i'w llwytho. Mae hefyd modd i chi ganiatáu'r holl gynnwys pell yn seiliedig ar gyfeiriad e-bost yr anfonwr. Teipiwch gyfeiriad y wefan neu e-bost rydych am ei rheoli ac yna chlicio Rhwystro neu Caniatáu.
+cookie-permissions-title = Eithriadau - Cwcis
+cookie-permissions-description = Gallwch nodi pa wefannau sy'n cael defnyddio cwcis.  Teipiwch union gyfeiriad y wefan rydych am ei ganiatáu ac yna cliciwch Rhwystro, Caniatáu am y Sesiwn neu Caniatáu.
 website-address-label =
     .value = Cyfeiriad y wefan:
     .accesskey = w

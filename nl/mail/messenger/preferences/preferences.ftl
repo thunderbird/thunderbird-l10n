@@ -241,6 +241,7 @@ use-custom-sound-label =
 mail-select-audio-button =
     .label = Audio selecteren…
     .accesskey = A
+sound-file-picker-title = Geluid kiezen
 enable-global-search-label =
     .label = Zoeken in alle e-mailaccounts inschakelen
     .accesskey = e
@@ -257,6 +258,16 @@ enable-gloda-search-label =
     .label = Globaal zoeken en indexeren activeren
     .accesskey = G
 datetime-formatting-legend = Datum- en tijdopmaak
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Taal van toepassing: { $localeName }
+    .accesskey = o
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Taal van regionale instellingen: { $localeName }
+    .accesskey = r
 display-language-legend = Weergavetaal
 allow-graphics-accel =
     .label = Grafische versnelling voor soepeler scrollen en prestaties gebruiken
@@ -390,6 +401,13 @@ offline-settings-button =
     .label = Offline…
     .accesskey = O
 temporary-storage-legend = Tijdelijke opslag
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Uw buffer gebruikt momenteel { $size } { $unit } aan schijfruimte
+actual-disk-cache-size-calculating =
+    .value = Buffergrootte berekenen…
 offline-compact-remove-deleted =
     .label = Gegevens uit mappen verwijderen als ze al zijn verwijderd om opslagruimte vrij te maken
     .accesskey = G
@@ -482,6 +500,47 @@ search-handler-table =
     .placeholder = Inhoudstypen en acties filteren
 type-column-header = Inhoudstype
 action-column-header = Actie
+download-folder-desktop = Bureaublad
+download-folder-system = Mijn downloads
+download-choose-folder-title = Map kiezen
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension }-bestand
+applications-save-file = Bestand opslaan
+    .label = Bestand opslaan
+    .tooltiptext = Bestand opslaan
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = { $appName } gebruiken
+    .label = { $appName } gebruiken
+    .tooltiptext = { $appName } gebruiken
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = { $appName } gebruiken (standaard)
+    .label = { $appName } gebruiken (standaard)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Andere gebruiken…
+    .tooltiptext = Andere gebruiken…
+applications-choose-app-title = Hulptoepassing selecteren
+applications-manage-app =
+    .label = Toepassingsdetails…
+applications-always-ask = Altijd vragen
+    .label = Altijd vragen
+    .tooltiptext = Altijd vragen
+applications-delete-action =
+    .label = Actie verwijderen
+applications-delete-action-title = Actie verwijderen
+applications-delete-action-confirm = Weet u zeker dat u deze actie wilt verwijderen?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Portable Document Format (PDF)
+applications-preview-in-app = Voorbeeld in { -brand-short-name }
+    .label = Voorbeeld in { -brand-short-name }
+    .tooltiptext = Voorbeeld in { -brand-short-name }
 save-to-label =
     .label = Bestanden opslaan in
     .accesskey = o
@@ -533,6 +592,10 @@ mark-read-delay =
     .label = Na
     .accesskey = N
 seconds-label = seconden weergeven
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 mark-read-after-viewing =
     .label = Na weergave gedurende
     .accesskey = w
@@ -798,6 +861,16 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Meer providers zoeken…
 cloud-account-description = Een nieuwe Filelink-opslagservice toevoegen
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = { $providerName } toevoegen
+    .tooltiptext = { $providerName } toevoegen
+filelink-account-not-configured =
+    .title = Deze account is nog niet geconfigureerd.
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Weet u zeker dat u de account ‘{ $accountName }’ wilt verwijderen?
 
 ## Privacy Tab
 
@@ -909,6 +982,8 @@ spam-log-button =
 reset-spam-button =
     .label = Trainingsgegevens herinitialiseren
     .accesskey = h
+confirm-reset-junk-training-title = Bevestigen
+confirm-reset-junk-training-message = Weet u zeker dat u de trainingsgegevens van het zelflerende ongewensteberichtenfilter wilt herinitialiseren?
 scam-detection-description = { -brand-short-name } controleert berichten op phishing-koppelingen en veelvoorkomende tekenen van e-mailscams.
 scam-detection-label =
     .label = Waarschuwen bij het lezen van een e-mailbericht dat op scam lijkt
@@ -1088,7 +1163,7 @@ idle-label =
     .accesskey = c
 idle-time-label = minuten inactiviteit laten weten dat ik niet actief ben
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = en mijn status op Afwezig instellen met dit statusbericht:
@@ -1164,6 +1239,18 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = { -brand-short-name } wordt beheerd door een organisatie.
 managed-notice = { -brand-short-name } wordt door uw organisatie beheerd.
+
+## Content of the preview conversation for chat message styles.
+
+chat-theme-preview-default =
+    .label = Standaard
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Hoi! :-)
+chat-theme-preview-message-2 = Wat ben je aan het doen?
+chat-theme-preview-message-3 = Ik ben { -brand-short-name } aan het uitproberen! ;-)
 
 ## Settings UI Search Results
 

@@ -613,3 +613,21 @@ folder-pane-context-compact =
 folder-pane-context-compact-all =
     .label = Wšě rjadowaki zhusćić
     .accesskey = r
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = Rjadowak zhašeć
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = Rjadowak &zhašeć
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = Chceće woprawdźe rjadowak '{ $name }' zhašeć?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = Zhašenje rjadowaka njeda so cofnyć a zhaša wšě powěsće, kotrež wón wobsahuje, inkluziwnje jeho podrjadowakow. Chceće woprawdźe hišće rjadowak '{ $name }' zhašeć?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Hašenje rjadowaka '{ $name }' znjemóžni jeho zwjazane filtry. Chceće woprawdźe rjadowak zhašeć?

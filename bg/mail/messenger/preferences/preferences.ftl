@@ -171,6 +171,7 @@ tray-icon-unread-description = Препоръчва се при използва
 mail-system-sound-label =
     .label = Стандартен системен звук за нови писма
     .accesskey = С
+sound-file-picker-title = Избор на звук
 mail-custom-sound-label =
     .label = Използване на следния звуков файл
     .accesskey = И
@@ -181,6 +182,16 @@ enable-gloda-search-label =
     .label = Разрешаване на глобално търсене и индексиране
     .accesskey = Р
 datetime-formatting-legend = Формат на датата и часа
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Език на приложението: { $localeName }
+    .accesskey = е
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Език от регионалните настройки: { $localeName }
+    .accesskey = р
 language-selector-legend = Език
 allow-hw-accel =
     .label = Използване на хардуерно ускоряване, ако е налично
@@ -266,6 +277,13 @@ offline-settings = Конфигуриране настройките за раб
 offline-settings-button =
     .label = Без мрежа…
     .accesskey = Б
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Кешът в момента заема { $size } { $unit } дисково пространство
+actual-disk-cache-size-calculating =
+    .value = Изчисляване на размера на кеша…
 diskspace-legend = Дисково пространство
 offline-compact-folder =
     .label = Уплътняване на папките, когато ще се спести над
@@ -342,6 +360,47 @@ search-handler-table =
     .placeholder = Филтриране на типове съдържание и действия
 type-column-header = Вид на съдържанието
 action-column-header = Действие
+download-folder-desktop = Плот
+download-folder-system = Изтеглени файлове
+download-choose-folder-title = Избор на папка
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = файл { $extension }
+applications-save-file = Запазване на файла
+    .label = Запазване на файла
+    .tooltiptext = Запазване на файла
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Използване на { $appName }
+    .label = Използване на { $appName }
+    .tooltiptext = Използване на { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Използване на { $appName } (по подразбиране)
+    .label = Използване на { $appName } (по подразбиране)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Използване на друго…
+    .tooltiptext = Използване на друго…
+applications-choose-app-title = Избиране на помощно приложение
+applications-manage-app =
+    .label = Подробности за приложение…
+applications-always-ask = Винаги да пита
+    .label = Винаги да пита
+    .tooltiptext = Винаги да пита
+applications-delete-action =
+    .label = Изтриване на действие
+applications-delete-action-title = Изтриване на действие
+applications-delete-action-confirm = Наистина ли искате да изтриете това действие?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Преносим формат за документи (PDF)
+applications-preview-in-app = Визуализация в { -brand-short-name }
+    .label = Визуализация в { -brand-short-name }
+    .tooltiptext = Визуализация в { -brand-short-name }
 save-to-label =
     .label = Запазване на файловете в
     .accesskey = З
@@ -386,6 +445,10 @@ mark-read-delay =
     .label = След показване за
     .accesskey = д
 seconds-label = секунди
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -555,6 +618,16 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Намиране на още доставчици...
 cloud-account-description = Добавяне на нова услуга за съхранене към Filelink
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Добавяне на { $providerName }
+    .tooltiptext = Добавяне на { $providerName }
+filelink-account-not-configured =
+    .title = Профилът не е настроен все още
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Сигурни ли сте, че искате да премахнете профила за „{ $accountName }“?
 
 ## Privacy Tab
 
@@ -636,6 +709,8 @@ spam-log-button =
 reset-spam-button =
     .label = Нулиране на тренировачните данни
     .accesskey = т
+confirm-reset-junk-training-title = Потвърждаване
+confirm-reset-junk-training-message = Сигурни ли сте, че искате да изчистите данните по обучението на адаптивния филтър?
 phishing-description = { -brand-short-name } може да анализира писмата за възможна измама, като търси познати техники за подлъгване.
 phishing-label =
     .label = Уведомяване, ако четеното писмо е съмнително
@@ -770,7 +845,7 @@ idle-label =
     .accesskey = н
 idle-time-label = минути
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = и задаване на състояние Далеч със следното съобщение:
@@ -845,6 +920,18 @@ search-preferences-input2 =
     .placeholder = Търсене в настройките
     .style = width: 16em
 managed-notice = { -brand-short-name } се управлява от вашата организация.
+
+## Content of the preview conversation for chat message styles.
+
+chat-theme-preview-default =
+    .label = Стандартно
+chat-theme-preview-nick-1 = Филип
+chat-theme-preview-buddy-1 = phill@im.instantbird.org
+chat-theme-preview-nick-2 = Петър
+chat-theme-preview-buddy-2 = petar@im.instantbird.org
+chat-theme-preview-message-1 = Здравей! :-)
+chat-theme-preview-message-2 = Как си?
+chat-theme-preview-message-3 = Пробвам { -brand-short-name }! ;-)
 
 ## Settings UI Search Results
 

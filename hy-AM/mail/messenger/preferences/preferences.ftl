@@ -138,6 +138,7 @@ customize-alert-label =
 mail-system-sound-label =
     .label = Համակարգային ձայնը՝ նոր նամակի դեպքում
     .accesskey = D
+sound-file-picker-title = Ընտրեք ֆայլը
 mail-custom-sound-label =
     .label = Օգտ. հետևյալ ձայնային ֆայլը
     .accesskey = U
@@ -148,6 +149,16 @@ enable-gloda-search-label =
     .label = Միացնել Ընդհանուր Որոնումը և Ինդեքսավորումը
     .accesskey = Մ
 datetime-formatting-legend = Ամսաթվի և ժամանակի ձևաչափ
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Հավելվածի լեզուն՝ { $localeName }
+    .accesskey = o
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Տարածաշրջանային կարգավորումների լեզուն. { $localeName }
+    .accesskey = e
 language-selector-legend = Լեզու
 allow-hw-accel =
     .label = Հնարավորության դեպքում օգտագործել սարքակազմի արագացում
@@ -219,6 +230,13 @@ offline-settings = Կարգավորել անցանցը
 offline-settings-button =
     .label = Անցանց...
     .accesskey = O
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Ձեր ցանցային բովանդակության պահոցը այժմ զբաղեցնում է { $size } { $unit } տեղ
+actual-disk-cache-size-calculating =
+    .value = Քեշի չափը հաշվարկվում է…
 diskspace-legend = Ազատ տեղ
 offline-compact-folder =
     .label = Սեղմել թղթապանակները, եթե դա կխնայի՝
@@ -284,6 +302,47 @@ smaller-size-item =
 quoted-text-color =
     .label = Գույնը.
     .accesskey = o
+download-folder-desktop = Աշխատասեղան
+download-folder-system = Իմ Ներբեռնումները
+download-choose-folder-title = Ընտրել թղթ-ը
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension } ֆայլ
+applications-save-file = Պահպանել ֆայլը
+    .label = Պահպանել ֆայլը
+    .tooltiptext = Պահպանել ֆայլը
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Օգտ. { $appName }
+    .label = Օգտ. { $appName }
+    .tooltiptext = Օգտ. { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Օգտ. { $appName } (ծրագրային)
+    .label = Օգտ. { $appName } (ծրագրային)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Օգտ. այլը...
+    .tooltiptext = Օգտ. այլը...
+applications-choose-app-title = Ընտրեք Սատարող Ծրագիրը
+applications-manage-app =
+    .label = Ծրագրի մանրամասները...
+applications-always-ask = Միշտ հարցնել
+    .label = Միշտ հարցնել
+    .tooltiptext = Միշտ հարցնել
+applications-delete-action =
+    .label = Ջնջել քայլը
+applications-delete-action-title = Ջնջել քայլը
+applications-delete-action-confirm = Ջնջե՞լ այս քայլը։
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }. { $type })
+applications-type-pdf = Portable Document Format (PDF)
+applications-preview-in-app = Նախադիտում { -brand-short-name }-ում
+    .label = Նախադիտում { -brand-short-name }-ում
+    .tooltiptext = Նախադիտում { -brand-short-name }-ում
 save-to-label =
     .label = Պահել ֆայլերը՝
     .accesskey = S
@@ -325,6 +384,10 @@ mark-read-delay =
     .label = Ժամանակ անց՝
     .accesskey = d
 seconds-label = վայրկյան
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -443,6 +506,16 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Գտել ավել մատակարարներ…
 cloud-account-description = Ավելացնել նոր Ֆայլի հղման կրիչ սարք
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Ավելացնել { $providerName }
+    .tooltiptext = Ավելացնել { $providerName }
+filelink-account-not-configured =
+    .title = Այս հաշիվը դեռ կազմաձևված չէ
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Ջնջե՞լ "{ $accountName }"-ը։
 
 ## Privacy Tab
 
@@ -478,6 +551,8 @@ passwords-description = { -brand-short-name }-ը կարող է հիշել Ձեր
 passwords-button =
     .label = Պահպանված գաղտնաբառեր…
     .accesskey = S
+confirm-reset-junk-training-title = Հաստատել
+confirm-reset-junk-training-message = Վերակայե՞լ զտիչի տվյալը։
 phishing-description = { -brand-short-name }-ը կարող է ստուգել նամակները՝ որոշելու համար խաբկանք նամակները։
 phishing-label =
     .label = Տեղեկացնել, երբ որևէ նամակը կասկածվում է որպես խաբկանք
@@ -502,6 +577,9 @@ certificate-button =
 security-devices-button =
     .label = Անվտանգության սարքեր...
     .accesskey = D
+
+## DoH Section
+
 
 ## Keyservers
 
@@ -528,7 +606,7 @@ idle-label =
     .accesskey = ի
 idle-time-label = րոպե պասսիվ լինելուց հետո
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = և դարձնել իմ կարգավիճակը Հեռու եմ այս գրությամբ.
@@ -590,6 +668,18 @@ chat-variant-label =
     .value = Տարբերակ․
     .accesskey = V
 
+## Content of the preview conversation for chat message styles.
+
+chat-theme-preview-default =
+    .label = Լռելյայն
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Ողջու՜յն :-)
+chat-theme-preview-message-2 = Ի՞նչ կա։
+chat-theme-preview-message-3 = Ես փորձարկում եմ { -brand-short-name }- ը: ;-)
+
 ## Settings UI Search Results
 
 search-results-header = Որոնման արդյունքներ
@@ -602,3 +692,6 @@ show-synced-item-address = Հասցեագրքեր
 ## Mobile QR Export Pane
 
 qr-export-scan-step2 = Անցնել Կարգավորումներին
+
+## Appearance Tab
+

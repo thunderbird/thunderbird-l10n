@@ -577,3 +577,21 @@ folder-pane-context-compact =
 folder-pane-context-compact-all =
     .label = Tüm klasörleri sıkıştır
     .accesskey = s
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = Klasörü sil
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = Klasörü &sil
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = '{ $name }' klasörünü silmek istediğinizden emin misiniz?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = Bu klasörün silinmesi geri alınamaz. İçerdiği iletiler ve alt klasörler de silinir. '{ $name }' klasörünü silmek istediğinizden emin misiniz?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = '{ $name }' klasörünü silerseniz klasörle ilişkili süzgeçler devre dışı bırakılacaktır. Bu klasörü silmek istediğinizden emin misiniz?

@@ -229,6 +229,7 @@ use-custom-sound-label =
 mail-select-audio-button =
     .label = Аудионы таңдау…
     .accesskey = А
+sound-file-picker-title = Дыбысты таңдаңыз
 enable-global-search-label =
     .label = Барлық эл. пошта тіркелгілері бойынша іздеуді іске қосу
     .accesskey = е
@@ -245,6 +246,16 @@ enable-gloda-search-label =
     .label = Глобалды іздеуді және индекстеуді іске қосу
     .accesskey = е
 datetime-formatting-legend = Күн және уақытты пішімдеу
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Қолданба локалі: { $localeName }
+    .accesskey = б
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Аймақтық баптау локалі: { $localeName }
+    .accesskey = м
 display-language-legend = Интерфейс тілі
 allow-graphics-accel =
     .label = Тегіс айналдыру және өнімділік үшін графикалық үдетуді қолдану
@@ -378,6 +389,13 @@ offline-settings-button =
     .label = Желіден тыс…
     .accesskey = ы
 temporary-storage-legend = Уақытша сақтау қоймасы
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Сіздің кэш қазір { $size } { $unit } диск орнын қолдануда
+actual-disk-cache-size-calculating =
+    .value = Кэш өлшемін есептеу…
 offline-compact-remove-deleted =
     .label = Сақтау қоймасын босату үшін әлдеқашан өшірілген деректерді бумалардан өшіру
     .accesskey = а
@@ -470,6 +488,47 @@ search-handler-table =
     .placeholder = Құрама түрлері мен әрекеттер сүзгісі
 type-column-header = Құрамының түрі
 action-column-header = Әрекет
+download-folder-desktop = Жұмыс үстелі
+download-folder-system = Менің жүктемелерім
+download-choose-folder-title = Буманы таңдау
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension } файлы
+applications-save-file = Файлды сақтау
+    .label = Файлды сақтау
+    .tooltiptext = Файлды сақтау
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = { $appName } қолдану
+    .label = { $appName } қолдану
+    .tooltiptext = { $appName } қолдану
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = { $appName } қолдану (әрқашан да)
+    .label = { $appName } қолдану (әрқашан да)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Басқасын қолдану…
+    .tooltiptext = Басқасын қолдану…
+applications-choose-app-title = Көмекші бағдарламаны таңдаңыз
+applications-manage-app =
+    .label = Қолданба ақпараты…
+applications-always-ask = Әрқашан сұрау
+    .label = Әрқашан сұрау
+    .tooltiptext = Әрқашан сұрау
+applications-delete-action =
+    .label = Әрекетті өшіру
+applications-delete-action-title = Әрекетті өшіру
+applications-delete-action-confirm = Бұл әрекетті өшіруді қалайсыз ба?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Portable Document Format (PDF)
+applications-preview-in-app = { -brand-short-name } ішінде алдын-ала қарау
+    .label = { -brand-short-name } ішінде алдын-ала қарау
+    .tooltiptext = { -brand-short-name } ішінде алдын-ала қарау
 save-to-label =
     .label = Файлдарды сақтау жері
     .accesskey = с
@@ -521,6 +580,10 @@ mark-read-delay =
     .label = Келесі уақыт бойы көрген соң
     .accesskey = р
 seconds-label = секунд
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 mark-read-after-viewing =
     .label = Мына уақыт бойы қарағаннан кейін:
     .accesskey = М
@@ -786,6 +849,16 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Көбірек провайдерлерді табу…
 cloud-account-description = Жаңа Filelink сақтау қызметін қосу
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = { $providerName } қосу
+    .tooltiptext = { $providerName } қосу
+filelink-account-not-configured =
+    .title = Бұл тіркелгі әлі бапталмаған
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = "{ $accountName }" тіркелгісін өшіруді шынымен қалайсыз ба?
 
 ## Privacy Tab
 
@@ -897,6 +970,8 @@ spam-log-button =
 reset-spam-button =
     .label = Үйрету деректерін тастау
     .accesskey = р
+confirm-reset-junk-training-title = Растау
+confirm-reset-junk-training-message = Адаптивті сүзгіні үйрету деректерін тастауды шынымен қалайсыз ба?
 scam-detection-description = { -brand-short-name } хабарламаларды фишингтік сілтемелерге және эл. пошта алаяқтығының жалпы белгілеріне тексереді.
 scam-detection-label =
     .label = Алаяқтық сияқты көрінетін эл. пошта хатын оқу кезінде ескерту
@@ -1076,7 +1151,7 @@ idle-label =
     .accesskey = М
 idle-time-label = минут белсенді еместік
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = және менің қалып-күйімді Кетіп қалғанға орнату, мына хабарламамен:
@@ -1152,6 +1227,18 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = { -brand-short-name } ұйыммен басқарылады.
 managed-notice = { -brand-short-name } сіздің ұйымыңызбен басқаралады.
+
+## Content of the preview conversation for chat message styles.
+
+chat-theme-preview-default =
+    .label = Бастапқы
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Сәлем! :-)
+chat-theme-preview-message-2 = Қалайсың?
+chat-theme-preview-message-3 = Мен { -brand-short-name } қолданып көріп отырмын! ;-)
 
 ## Settings UI Search Results
 

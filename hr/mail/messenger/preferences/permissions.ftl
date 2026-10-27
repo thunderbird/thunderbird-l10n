@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 permissions-dialog-title = Iznimke
+remote-content-permissions-title = Iznimke - vanjski sadržaj
+remote-content-permissions-description = Možete odrediti s kojih se stranica slike i ostali vanjski sadržaji mogu učitavati. Također možete dozvoliti sav vanjski sadržaj prema adresi e-pošte pošiljatelja. Unesite adresu stranice ili e-pošte i kliknite na Blokiraj ili Dozvoli.
+cookie-permissions-title = Izuzeci - kolačići
+cookie-permissions-description = Možete odrediti kojim stranicama je uvijek ili nikada dopušteno koristiti kolačiće.  Unesite točnu adresu željene stranice i kliknite na Blokiraj, Dopusti za sesiju ili Dopusti.
 website-address-label =
     .value = Adresa web stranice:
     .accesskey = d

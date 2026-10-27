@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
@@ -239,3 +242,24 @@ apply-current-columns-to-folder-message = Joriy jildning ustunlari { $name }’g
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Joriy jildning ustunlari { $name } va ichidagilarga qo‘llansinmi?
+
+## Folder pane context menu
+
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = Jildni o‘chirish
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = Jildni o‘chirish
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = "{ $name }" jildini o‘chirmoqchi ekanligingizga ishonchingiz komilmi?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = Bu jildni o‘chirsangiz, undagi barcha xabarlar va jildlar o‘chib ketadi. Ularni tiklab bo‘lmaydi. Siz hali ham "{ $name }" jildini o‘chirishni xohlaysizmi?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = "{ $name }" jildini o‘chirsangiz, u bilan bog‘liq filterlar ham o‘chirib qo‘yiladi. Jildni rostdan o‘chirishni xohlaysizmi?

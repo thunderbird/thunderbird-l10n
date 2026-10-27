@@ -574,3 +574,21 @@ folder-pane-context-compact =
 folder-pane-context-compact-all =
     .label = Ngjeshi Krejt Dosjet
     .accesskey = N
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = Fshijeni Dosjen
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = &Fshije Dosjen
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = Jeni i sigurt se doni të fshihet dosja '{ $name }'?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = Fshirja e kësaj dosje është e pakthyeshme dhe do të fshinte tërë mesazhet që përmban, si dhe nëndosjet e saj. Jeni i sigurt se ende doni të fshihet dosja '{ $name }'?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Fshirja e dosjes '{ $name }' do të çaktivizojë filtrat që i përshoqërohen. Jeni i sigurt se doni të fshihet dosja?

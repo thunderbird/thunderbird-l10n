@@ -179,6 +179,7 @@ tray-icon-unread-description = Priporočeno pri uporabi majhnih ikon opravilne v
 mail-system-sound-label =
     .label = Privzeti sistemski zvok za novo pošto
     .accesskey = z
+sound-file-picker-title = Izberite zvok
 mail-custom-sound-label =
     .label = Uporabi naslednjo zvočno datoteko
     .accesskey = U
@@ -189,6 +190,16 @@ enable-gloda-search-label =
     .label = Omogoči splošno iskanje in kazalo
     .accesskey = m
 datetime-formatting-legend = Oblika datuma in časa
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Jezik programa: { $localeName }
+    .accesskey = a
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Jezik območnih nastavitev: { $localeName }
+    .accesskey = o
 language-selector-legend = Jezik
 allow-hw-accel =
     .label = Uporabi strojno pospeševanje, kadar je na voljo
@@ -281,6 +292,13 @@ offline-settings-button =
     .label = Brez povezave …
     .accesskey = B
 temporary-storage-legend = Začasna shramba
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Predpomnilnik trenutno zaseda { $size } { $unit } prostora na disku
+actual-disk-cache-size-calculating =
+    .value = Izračunavanje velikosti predpomnilnika …
 diskspace-legend = Prostor na disku
 offline-compact-folder =
     .label = Strni mape, kadar bo to skupaj prihranilo več kot
@@ -357,6 +375,47 @@ search-handler-table =
     .placeholder = Filtriraj vrste vsebine in dejanja
 type-column-header = Vrsta vsebine
 action-column-header = Dejanje
+download-folder-desktop = Namizje
+download-folder-system = Moji prenosi
+download-choose-folder-title = Izberite mapo
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = Datoteka { $extension }
+applications-save-file = Shrani datoteko
+    .label = Shrani datoteko
+    .tooltiptext = Shrani datoteko
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Uporabi { $appName }
+    .label = Uporabi { $appName }
+    .tooltiptext = Uporabi { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Uporabi { $appName } (privzeto)
+    .label = Uporabi { $appName } (privzeto)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Uporabi drugo …
+    .tooltiptext = Uporabi drugo …
+applications-choose-app-title = Izberi pomožni program
+applications-manage-app =
+    .label = Podrobnosti programa …
+applications-always-ask = Vedno vprašaj
+    .label = Vedno vprašaj
+    .tooltiptext = Vedno vprašaj
+applications-delete-action =
+    .label = Izbriši dejanje
+applications-delete-action-title = Izbriši dejanje
+applications-delete-action-confirm = Ali res želite izbrisati to dejanje?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Portable Document Format (PDF)
+applications-preview-in-app = Predogled v { -brand-short-name }u
+    .label = Predogled v { -brand-short-name }u
+    .tooltiptext = Predogled v { -brand-short-name }u
 save-to-label =
     .label = Shrani datoteke v
     .accesskey = S
@@ -401,6 +460,10 @@ mark-read-delay =
     .label = potem, ko so prikazana za
     .accesskey = o
 seconds-label = sekund
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -589,6 +652,16 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Poišči več ponudnikov …
 cloud-account-description = Dodaj novega ponudnika storitve za shranjevanje podatkov Filelink
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Dodaj { $providerName }
+    .tooltiptext = Dodaj { $providerName }
+filelink-account-not-configured =
+    .title = Ta račun še ni nastavljen
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Ali res želite odstraniti račun "{ $accountName }"?
 
 ## Privacy Tab
 
@@ -670,6 +743,8 @@ spam-log-button =
 reset-spam-button =
     .label = Ponastavi podatke za učenje
     .accesskey = P
+confirm-reset-junk-training-title = Potrdi
+confirm-reset-junk-training-message = Ali res želite ponastaviti podatke za privajanje prilagodljivega filtra?
 phishing-description = { -brand-short-name } lahko z iskanjem pogostih metod za zavajanje preverja sporočila in vas obvesti, če sumi, da vsebujejo e-poštno prevaro.
 phishing-label =
     .label = Sporoči, če obstaja sum, da je prikazano sporočilo e-poštna prevara
@@ -806,7 +881,7 @@ idle-label =
     .accesskey = N
 idle-time-label = minutah nedejavnosti
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = in mojo odsotnost objavi s sporočilom stanja:
@@ -881,6 +956,18 @@ search-preferences-input2 =
     .placeholder = Najdi v nastavitvah
     .style = width: 15.4em
 managed-notice = { -brand-short-name } upravlja vaša organizacija.
+
+## Content of the preview conversation for chat message styles.
+
+chat-theme-preview-default =
+    .label = Privzeto
+chat-theme-preview-nick-1 = Jani
+chat-theme-preview-buddy-1 = jani@im.instantbird.org
+chat-theme-preview-nick-2 = Peter
+chat-theme-preview-buddy-2 = peter@im.instantbird.org
+chat-theme-preview-message-1 = Hej! :-)
+chat-theme-preview-message-2 = Kako gre?
+chat-theme-preview-message-3 = Preskušam { -brand-short-name }! ;-)
 
 ## Settings UI Search Results
 

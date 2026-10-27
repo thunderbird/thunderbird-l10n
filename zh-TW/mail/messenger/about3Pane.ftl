@@ -560,3 +560,21 @@ folder-pane-context-compact =
 folder-pane-context-compact-all =
     .label = 壓實重整所有信件匣
     .accesskey = F
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = 刪除信件匣
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = 刪除信件匣（&D）
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = 您確定要刪除信件匣「{ $name }」嗎？
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = 刪除信件匣這個動作無法復原，且會移除所有在裡面的郵件與子信件匣。確定要刪除信件匣「{ $name }」嗎？
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = 刪除信件匣「{ $name }」會影響到相關的篩選條件。您確定要刪除嗎？

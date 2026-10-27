@@ -565,3 +565,21 @@ folder-pane-context-mark-folder-read =
            *[many] Позначити теки прочитаними
         }
     .accesskey = П
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = Видалити теку
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = &Видалити теку
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = Ви дійсно хочете видалити теку '{ $name }'?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = Видалення цієї теки не можна скасувати і це призведе до видалення всіх повідомлень та підтек, які містяться в ній. Ви впевнені, що хочете видалити теку '{ $name }'?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Видалення теки '{ $name }' призведе до вимкнення пов'язаних з нею фільтрів. Ви дійсно хочете видалити теку?

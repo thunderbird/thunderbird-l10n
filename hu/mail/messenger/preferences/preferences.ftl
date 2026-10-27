@@ -229,6 +229,7 @@ use-custom-sound-label =
 mail-select-audio-button =
     .label = Hang kiválasztása…
     .accesskey = H
+sound-file-picker-title = Hang kiválasztása
 enable-global-search-label =
     .label = Keresés bekapcsolása az összes e-mail-fiókban
     .accesskey = K
@@ -245,6 +246,16 @@ enable-gloda-search-label =
     .label = Globális keresés és indexelő engedélyezése
     .accesskey = G
 datetime-formatting-legend = Dátum és idő formázás
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Alkalmazás területi beállítása: { $localeName }
+    .accesskey = l
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Regionális területi beállítás: { $localeName }
+    .accesskey = g
 display-language-legend = Megjelenítési nyelv
 allow-graphics-accel =
     .label = Grafikus gyorsítás használata a simább görgetés és a jobb teljesítmény érdekében
@@ -378,6 +389,13 @@ offline-settings-button =
     .label = Kapcsolat nélkül…
     .accesskey = K
 temporary-storage-legend = Ideiglenes tárolás
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = A gyorsítótár jelenleg { $size } { $unit } területet foglal el a lemezen.
+actual-disk-cache-size-calculating =
+    .value = Gyorsítótárméret kiszámítása…
 offline-compact-remove-deleted =
     .label = Adatok eltávolítása a mappákból, ha már törölték azokat, hogy tárhelyet szabadítson fel
     .accesskey = A
@@ -470,6 +488,47 @@ search-handler-table =
     .placeholder = Tartalomtípusok és műveletek szűrése
 type-column-header = Tartalomtípus
 action-column-header = Művelet
+download-folder-desktop = Asztal
+download-folder-system = Letöltések
+download-choose-folder-title = Válasszon mappát
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension } fájl
+applications-save-file = Fájl mentése
+    .label = Fájl mentése
+    .tooltiptext = Fájl mentése
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = { $appName } használata
+    .label = { $appName } használata
+    .tooltiptext = { $appName } használata
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = { $appName } használata (alapértelmezett)
+    .label = { $appName } használata (alapértelmezett)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Másik használata…
+    .tooltiptext = Másik használata…
+applications-choose-app-title = Segédalkalmazás kiválasztása
+applications-manage-app =
+    .label = Alkalmazás részletei…
+applications-always-ask = Rákérdezés mindig
+    .label = Rákérdezés mindig
+    .tooltiptext = Rákérdezés mindig
+applications-delete-action =
+    .label = Művelet törlése
+applications-delete-action-title = Művelet törlése
+applications-delete-action-confirm = Biztosan törölni kívánja ezt a műveletet?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Hordozható dokumentumformátum (PDF)
+applications-preview-in-app = Előnézet { -brand-short-name }ben
+    .label = Előnézet { -brand-short-name }ben
+    .tooltiptext = Előnézet { -brand-short-name }ben
 save-to-label =
     .label = Fájlok mentése
     .accesskey = m
@@ -521,6 +580,10 @@ mark-read-delay =
     .label = Megjelenítés után
     .accesskey = e
 seconds-label = másodperc
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 mark-read-after-viewing =
     .label = Ennyi idejű megtekintés után:
     .accesskey = m
@@ -786,6 +849,16 @@ remove-cloud-account =
 find-cloud-providers =
     .value = További szolgáltatók keresése…
 cloud-account-description = Adjon hozzá új óriásfájl-küldési tárolószolgáltatást
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = { $providerName } hozzáadása
+    .tooltiptext = { $providerName } hozzáadása
+filelink-account-not-configured =
+    .title = Ez a fiók még nem lett beállítva
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Biztos benne, hogy el akarja távolítani ezt a fiókot: „{ $accountName }”?
 
 ## Privacy Tab
 
@@ -897,6 +970,8 @@ spam-log-button =
 reset-spam-button =
     .label = Tanulási adatok törlése
     .accesskey = T
+confirm-reset-junk-training-title = Megerősítés
+confirm-reset-junk-training-message = Biztosan törli az adaptív szűrő tanulási adatait?
 scam-detection-description = A { -brand-short-name } ellenőrzi az üzeneteket, adathalász hivatkozásokat és az e-mailes átverések gyakori jeleit keresve.
 scam-detection-label =
     .label = Figyelmeztetés, ha átverésnek látszó e-mailt olvas
@@ -1076,7 +1151,7 @@ idle-label =
     .accesskey = P
 idle-time-label = perc tétlenség után
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = Az állapotom beállítása távollevőre ezzel az üzenettel:
@@ -1152,6 +1227,18 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = A { -brand-short-name }öt a szervezete kezeli.
 managed-notice = A { -brand-short-name }ot a szervezete kezeli.
+
+## Content of the preview conversation for chat message styles.
+
+chat-theme-preview-default =
+    .label = Alapértelmezett
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Üdv! :-)
+chat-theme-preview-message-2 = Mi a helyzet?
+chat-theme-preview-message-3 = Kipróbálom a { -brand-short-name }öt! :-)
 
 ## Settings UI Search Results
 

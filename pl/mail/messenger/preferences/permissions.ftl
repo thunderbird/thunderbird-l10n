@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 permissions-dialog-title = Wyjątki
+remote-content-permissions-title = Zdalna zawartość – wyjątki
+remote-content-permissions-description = Możesz określić, z jakich stron obrazy i inne zdalne treści będą mogły być wczytywane. Możesz również zezwolić na wczytywanie wszystkich zdalnych treści od wybranych nadawców. Podaj adres strony lub e-mail, dla którego chcesz ustanowić wyjątek, a następnie naciśnij Zezwalaj lub Blokuj.
+cookie-permissions-title = Wyjątki – Ciasteczka
+cookie-permissions-description = Możesz określić zasady akceptacji ciasteczek. Podaj dokładny adres witryny, której uprawnienia chcesz zmodyfikować, a następnie naciśnij Zezwalaj, Blokuj lub Zezwalaj na czas sesji.
 website-address-label =
     .value = Adres witryny:
     .accesskey = A

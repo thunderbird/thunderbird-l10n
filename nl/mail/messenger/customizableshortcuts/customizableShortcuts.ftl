@@ -4,3 +4,6 @@
 
 shortcuts-close-button-title =
     .title = Sluiten
+shortcuts-close-button =
+    .title = Sluiten
+    .aria-label = Sluiten

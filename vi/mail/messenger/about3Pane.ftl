@@ -536,3 +536,21 @@ folder-pane-context-compact =
 folder-pane-context-compact-all =
     .label = Làm gọn tất cả thư mục
     .accesskey = F
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = Xóa thư mục
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = &Xóa thư mục
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = Bạn có chắc chắn muốn xóa thư mục '{ $name }' không?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = Không thể hoàn tác sau khi xóa thư mục này và sẽ xóa tất cả các thư mà nó chứa và các thư mục con của nó. Bạn có chắc chắn vẫn muốn xóa thư mục '{ $name }' không?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Xóa thư mục '{ $name }' cũng sẽ vô hiệu hóa các bộ lọc của nó. Bạn có chắc là bạn muốn xóa thư mục không?

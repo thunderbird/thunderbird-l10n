@@ -186,6 +186,7 @@ tray-icon-unread-description = Anbefalt ved bruk av små knapper på oppgavelinj
 mail-system-sound-label =
     .label = Standard systemlyd for ny e-post
     .accesskey = S
+sound-file-picker-title = Velg lyd
 mail-custom-sound-label =
     .label = Bruk følgende lydfil
     .accesskey = r
@@ -196,6 +197,16 @@ enable-gloda-search-label =
     .label = Slå på globalt søk og indeksering
     .accesskey = S
 datetime-formatting-legend = Formatering av dato og tid
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Programspråk: { $localeName }
+    .accesskey = P
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Regionale innstillinger: { $localeName }
+    .accesskey = g
 language-selector-legend = Språk
 allow-hw-accel =
     .label = Bruk maskinvareakselerasjon når tilgjengelig
@@ -281,6 +292,13 @@ offline-settings = Konfigurer innstillinger for frakoblet modus
 offline-settings-button =
     .label = Frakoblet …
     .accesskey = F
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Hurtiglageret ditt bruker for tiden { $size } { $unit } diskplass
+actual-disk-cache-size-calculating =
+    .value = Regner ut størrelse på hurtiglager…
 diskspace-legend = Diskplass
 offline-compact-folder =
     .label = Komprimer alle mapper når det vil spare mer enn
@@ -366,6 +384,47 @@ search-handler-table =
     .placeholder = Filtrer innholdstyper og handlinger
 type-column-header = Innholdstype
 action-column-header = Handling
+download-folder-desktop = Skrivebord
+download-folder-system = Mine nedlastinger
+download-choose-folder-title = Velg mappe
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension }-fil
+applications-save-file = Lagre fil
+    .label = Lagre fil
+    .tooltiptext = Lagre fil
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Bruk { $appName }
+    .label = Bruk { $appName }
+    .tooltiptext = Bruk { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Bruk { $appName } (standard)
+    .label = Bruk { $appName } (standard)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Bruk annet …
+    .tooltiptext = Bruk annet …
+applications-choose-app-title = Velg hjelpeprogram
+applications-manage-app =
+    .label = Programdetaljer …
+applications-always-ask = Spør alltid
+    .label = Spør alltid
+    .tooltiptext = Spør alltid
+applications-delete-action =
+    .label = Slett handling
+applications-delete-action-title = Slett handling
+applications-delete-action-confirm = Er du sikker på at du vil slette denne handlingen?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Portable Document Format (PDF)
+applications-preview-in-app = Forhåndsvis i { -brand-short-name }
+    .label = Forhåndsvis i { -brand-short-name }
+    .tooltiptext = Forhåndsvis i { -brand-short-name }
 save-to-label =
     .label = Lagre filer til
     .accesskey = L
@@ -410,6 +469,10 @@ mark-read-delay =
     .label = Etter de er vist i
     .accesskey = E
 seconds-label = sekunder
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -598,6 +661,16 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Finn flere leverandører…
 cloud-account-description = Legg til en Filelink lagringstjeneste
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Legg til { $providerName }
+    .tooltiptext = Legg til { $providerName }
+filelink-account-not-configured =
+    .title = Denne kontoen har ikke blitt konfigurert enda
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Er du sikker på at du vil slette kontoen «{ $accountName }»?
 
 ## Privacy Tab
 
@@ -685,6 +758,8 @@ spam-log-button =
 reset-spam-button =
     .label = Tilbakestill treningsdata
     .accesskey = T
+confirm-reset-junk-training-title = Bekreft
+confirm-reset-junk-training-message = Er du sikker på at du vil tilbakestille opplærte regler for uønsket e-post-filteret?
 phishing-description = { -brand-short-name } kan analysere meldinger og oppdage mulige e-postsvindler ved å se etter vanlige teknikker brukt for å lure deg.
 phishing-label =
     .label = Fortell meg dersom meldinger jeg leser er mistenkte e-postsvindler
@@ -822,7 +897,7 @@ idle-label =
     .accesskey = L
 idle-time-label = minutter med inaktivitet
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = og sett status til borte med denne statusmeldingen:
@@ -897,6 +972,18 @@ search-preferences-input2 =
     .placeholder = Finn i Innstillinger
     .style = width: 15.4em
 managed-notice = { -brand-short-name } administreres av organisasjonen din.
+
+## Content of the preview conversation for chat message styles.
+
+chat-theme-preview-default =
+    .label = Standard
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Hei! :-)
+chat-theme-preview-message-2 = Hva skjer?
+chat-theme-preview-message-3 = Jeg prøver { -brand-short-name }! ;-)
 
 ## Settings UI Search Results
 

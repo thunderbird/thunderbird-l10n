@@ -2,6 +2,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+cookie-permissions-title = Uitsonderings - Koekies
+cookie-permissions-description = U kan spesifiseer watter webwerwe altyd of nooit toegelaat moet word om koekies te gebruik nie.  Tik die webadres van die werf wat u wil bestuur, presies in en kliek dan Blokkeer, Toelaat vir sessie, of Toelaat.
 block-button =
     .label = Blokkeer
     .accesskey = B

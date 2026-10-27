@@ -225,6 +225,7 @@ use-custom-sound-label =
 mail-select-audio-button =
     .label = Ses seç…
     .accesskey = S
+sound-file-picker-title = Ses Seç
 enable-global-search-label =
     .label = Tüm e-posta hesaplarında aramayı etkinleştir
     .accesskey = T
@@ -241,6 +242,16 @@ enable-gloda-search-label =
     .label = Global aramayı ve dizin oluşturmayı etkinleştir
     .accesskey = G
 datetime-formatting-legend = Tarih ve Saat Biçimi
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Uygulama dili: { $localeName }
+    .accesskey = u
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Bölgesel ayarlar dili: { $localeName }
+    .accesskey = g
 display-language-legend = Görüntüleme dili
 allow-graphics-accel =
     .label = Daha akıcı kaydırma ve daha iyi performans için grafik hızlandırmayı kullan
@@ -371,6 +382,13 @@ offline-settings-button =
     .label = Çevrimdışı…
     .accesskey = d
 temporary-storage-legend = Geçici depolama
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Önbelleğiniz şu anda { $size } { $unit } disk alanı kullanıyor
+actual-disk-cache-size-calculating =
+    .value = Önbellek boyutu hesaplanıyor…
 offline-compact-remove-deleted =
     .label = Silinmiş klasörlerdeki verileri depolama alanında yer açmak için kaldır
     .accesskey = S
@@ -460,6 +478,47 @@ search-handler-table =
     .placeholder = İçerik türlerini ve eylemleri filtrele
 type-column-header = İçerik türü
 action-column-header = Eylem
+download-folder-desktop = Masaüstü
+download-folder-system = Karşıdan Yüklemeler
+download-choose-folder-title = Klasör Seç
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension } dosyası
+applications-save-file = Dosyayı Kaydet
+    .label = Dosyayı Kaydet
+    .tooltiptext = Dosyayı Kaydet
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = { $appName } kullan
+    .label = { $appName } kullan
+    .tooltiptext = { $appName } kullan
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = { $appName } kullan (varsayılan)
+    .label = { $appName } kullan (varsayılan)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Başkasını kullan…
+    .tooltiptext = Başkasını kullan…
+applications-choose-app-title = Yardımcı Uygulamayı Seç
+applications-manage-app =
+    .label = Uygulama Ayrıntıları…
+applications-always-ask = Her zaman sor
+    .label = Her zaman sor
+    .tooltiptext = Her zaman sor
+applications-delete-action =
+    .label = Eylemi Sil
+applications-delete-action-title = Eylemi Sil
+applications-delete-action-confirm = Bu eylemi silmek istediğinizden emin misiniz?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Taşınabilir Belge Biçimi (PDF)
+applications-preview-in-app = { -brand-short-name } ile ön izleme yap
+    .label = { -brand-short-name } ile ön izleme yap
+    .tooltiptext = { -brand-short-name } ile ön izleme yap
 save-to-label =
     .label = Dosyaları kaydetme konumu
     .accesskey = k
@@ -508,6 +567,10 @@ mark-read-delay =
     .label = Baktıktan
     .accesskey = k
 seconds-label = saniye sonra
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -749,6 +812,16 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Daha fazla sağlayıcı bul…
 cloud-account-description = Yeni Filelink depolama hizmeti ekle
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = { $providerName } hizmetini ekle
+    .tooltiptext = { $providerName } hizmetini ekle
+filelink-account-not-configured =
+    .title = Bu hesap henüz yapılandırılmamış
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = "{ $accountName }" hesabını silmek istediğinizden emin misiniz?
 
 ## Privacy Tab
 
@@ -857,6 +930,8 @@ spam-log-button =
 reset-spam-button =
     .label = Eğitim verilerini sıfırla
     .accesskey = E
+confirm-reset-junk-training-title = Onayla
+confirm-reset-junk-training-message = Süzgecin öğrenme verilerini sıfırlamak istediğinizden emin misiniz?
 antivirus-check-description = Antivirüs yazılımının gelen iletileri bilgisayarınıza kaydedilmeden önce ayrı ayrı taramasına izin verir.
 antivirus-isolate-label =
     .label = Antivirüs yazılımının virüslü gelen e-postaları karantinaya almasına izin ver
@@ -1020,7 +1095,7 @@ idle-label =
     .accesskey = K
 idle-time-label = dakika hareketsizlikten sonra uzakta olduğumu bilsin
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = ve durumumu şu durum iletisiyle Uzakta olarak ayarla:
@@ -1096,6 +1171,18 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = { -brand-short-name } bir kuruluş tarafından yönetiliyor.
 managed-notice = { -brand-short-name } kuruluşunuz tarafından yönetiliyor.
+
+## Content of the preview conversation for chat message styles.
+
+chat-theme-preview-default =
+    .label = Varsayılan
+chat-theme-preview-nick-1 = Esin
+chat-theme-preview-buddy-1 = esin@im.instantbird.org
+chat-theme-preview-nick-2 = Melih
+chat-theme-preview-buddy-2 = melih@im.instantbird.org
+chat-theme-preview-message-1 = Selam! :-)
+chat-theme-preview-message-2 = N’aber?
+chat-theme-preview-message-3 = { -brand-short-name }’ü deniyorum! ;-)
 
 ## Settings UI Search Results
 

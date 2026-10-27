@@ -577,3 +577,21 @@ folder-pane-context-compact =
 folder-pane-context-compact-all =
     .label = Þjappa öllum möppum
     .accesskey = p
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = Eyða möppu
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = &Eyða möppu
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = Ertu viss um að þú viljir eyða möppunni '{ $name }'?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = Ef þú eyðir þessari möppu verður öllum póstum og undirmöppum í henni eytt og verður ekki hægt að endurheimta möppuna aftur. Ertu viss um að þú viljir eyða möppunni '{ $name }'?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Ef þú eyðir möppu '{ $name }' munu allar tengdar síur aftengjast. Ertu viss um að þú viljir eyða möppunni?

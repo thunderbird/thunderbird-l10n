@@ -229,6 +229,7 @@ use-custom-sound-label =
 mail-select-audio-button =
     .label = Veldu hljóð…
     .accesskey = d
+sound-file-picker-title = Veldu hljóð
 enable-global-search-label =
     .label = Kveikja á leit í öllum tölvupóstreikningum
     .accesskey = e
@@ -245,6 +246,16 @@ enable-gloda-search-label =
     .label = Virkja víðtæka leit og atriðaskrá
     .accesskey = i
 datetime-formatting-legend = Dagsetningar- og tímasnið
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Staðfærsla forrits: { $localeName }
+    .accesskey = o
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Staðsetning fyrir svæðisbundnar stillingar: { $localeName }
+    .accesskey = e
 display-language-legend = Tungumál birtingar
 allow-graphics-accel =
     .label = Nota skjákortshröðun fyrir mýkra skrun og betri afköst
@@ -378,6 +389,13 @@ offline-settings-button =
     .label = Ónettengt…
     .accesskey = t
 temporary-storage-legend = Tímabundin geymsla
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Skyndiminnið er að nota { $size } { $unit } af diskplássi
+actual-disk-cache-size-calculating =
+    .value = Reikna út stærð skyndiminnis…
 offline-compact-remove-deleted =
     .label = Fjarlægja gögn úr möppum þegar þeim hefur þegar verið eytt til að losa um geymslurými
     .accesskey = a
@@ -470,6 +488,47 @@ search-handler-table =
     .placeholder = Sía efnistegundir og aðgerðir
 type-column-header = Efnistegund
 action-column-header = Aðgerð
+download-folder-desktop = Skjáborð
+download-folder-system = Niðurhalið mitt
+download-choose-folder-title = Velja möppu
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension } skrá
+applications-save-file = Vista skrá
+    .label = Vista skrá
+    .tooltiptext = Vista skrá
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Nota { $appName }
+    .label = Nota { $appName }
+    .tooltiptext = Nota { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Nota { $appName } (sjálfgefið)
+    .label = Nota { $appName } (sjálfgefið)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Nota annað…
+    .tooltiptext = Nota annað…
+applications-choose-app-title = Veldu hjálparforrit
+applications-manage-app =
+    .label = Forritsupplýsingar…
+applications-always-ask = Spyrja alltaf
+    .label = Spyrja alltaf
+    .tooltiptext = Spyrja alltaf
+applications-delete-action =
+    .label = Eyða aðgerð
+applications-delete-action-title = Eyða aðgerð
+applications-delete-action-confirm = Ertu viss um að þú viljir eyða þessari aðgerð?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Portable Document Format (PDF)
+applications-preview-in-app = Forskoða í { -brand-short-name }
+    .label = Forskoða í { -brand-short-name }
+    .tooltiptext = Forskoða í { -brand-short-name }
 save-to-label =
     .label = Vista skrár yfir á
     .accesskey = s
@@ -521,6 +580,10 @@ mark-read-delay =
     .label = Eftir birtingu í
     .accesskey = b
 seconds-label = sekúndur
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 mark-read-after-viewing =
     .label = Eftir að hafa skoðað í
     .accesskey = k
@@ -786,6 +849,16 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Finna fleiri veitur…
 cloud-account-description = Bæta við nýrri Filelink-geymsluþjónustu fyrir skrár
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Bæta við { $providerName }
+    .tooltiptext = Bæta við { $providerName }
+filelink-account-not-configured =
+    .title = Þessi reikningur hefur enn ekki verið stilltur
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Ertu viss um að þú viljir eyða þessum reikningi "{ $accountName }"?
 
 ## Privacy Tab
 
@@ -897,6 +970,8 @@ spam-log-button =
 reset-spam-button =
     .label = Endurstilla þjálfunargögn
     .accesskey = r
+confirm-reset-junk-training-title = Staðfesta
+confirm-reset-junk-training-message = Ertu viss um að þú viljir endurstilla þjálfunargögnin fyrir þjálfaða síu?
 scam-detection-description = { -brand-short-name } kannar skilaboð vegna tengla sem tengjast netveiðum og algengra merkja um tölvupóstsvik.
 scam-detection-label =
     .label = Vara við lestri tölvupósts sem lítur út eins og svindl
@@ -1072,7 +1147,7 @@ idle-label =
     .accesskey = i
 idle-time-label = mínútur óvirkur
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = og setja stöðu sem fjarverandi með skilaboðum:
@@ -1148,6 +1223,18 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = { -brand-short-name } er stjórnað af stofnun/fyrirtæki/félagi.
 managed-notice = { -brand-short-name } er stjórnað af kerfisstjórum þínum.
+
+## Content of the preview conversation for chat message styles.
+
+chat-theme-preview-default =
+    .label = Sjálfgefið
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Hæ! :-)
+chat-theme-preview-message-2 = Hvað er að frétta?
+chat-theme-preview-message-3 = Ég er að prófa { -brand-short-name }! ;-)
 
 ## Settings UI Search Results
 

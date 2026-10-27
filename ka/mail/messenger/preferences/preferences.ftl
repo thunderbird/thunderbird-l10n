@@ -229,6 +229,7 @@ use-custom-sound-label =
 mail-select-audio-button =
     .label = ხმის არჩევა…
     .accesskey = ა
+sound-file-picker-title = ხმის შერჩევა
 enable-global-search-label =
     .label = ძიების ჩართვა ელფოსტის ყველა ანგარიშზე
     .accesskey = ძ
@@ -245,6 +246,16 @@ enable-gloda-search-label =
     .label = ერთიანი ძიებისა და გზავნილთა აღრიცხვის ჩართვა
     .accesskey = ე
 datetime-formatting-legend = თარიღისა და დროის გაფორმება
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = პროგრამის ენა: { $localeName }
+    .accesskey = ო
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = სამხარეო პარამეტრები: { $localeName }
+    .accesskey = ე
 display-language-legend = ჩვენების ენა
 allow-graphics-accel =
     .label = გრაფიკული აჩქარების გამოყენება გლუვი გადაადგილებისა და წარმადობისთვის
@@ -378,6 +389,13 @@ offline-settings-button =
     .label = კავშირგარეშე…
     .accesskey = გ
 temporary-storage-legend = დროებითი საცავი
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = დროებით მარაგს დისკზე უკავია { $size } { $unit }
+actual-disk-cache-size-calculating =
+    .value = ითვლება მარაგის მოცულობა…
 offline-compact-remove-deleted =
     .label = მოცილდეს მონაცემები საქაღალდეებიდან, რომლებიც უკვე წაშლილია მეხსიერების გასათავისუფლებლად
     .accesskey = ც
@@ -470,6 +488,47 @@ search-handler-table =
     .placeholder = შიგთავსის სახეობებისა და მოქმედებების გაფილტვრა
 type-column-header = მასალის სახეობა
 action-column-header = მოქმედება
+download-folder-desktop = სამუშაო ეკრანი
+download-folder-system = ჩემი ჩამოტვირთვები
+download-choose-folder-title = საქაღალდის შერჩევა
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension } ფაილი
+applications-save-file = ფაილის შენახვა
+    .label = ფაილის შენახვა
+    .tooltiptext = ფაილის შენახვა
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = { $appName } პროგრამის გამოყენება
+    .label = { $appName } პროგრამის გამოყენება
+    .tooltiptext = { $appName } პროგრამის გამოყენება
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = { $appName } პროგრამა (ნაგულისხმებად)
+    .label = { $appName } პროგრამა (ნაგულისხმებად)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = სხვა პროგრამის გამოყენება…
+    .tooltiptext = სხვა პროგრამის გამოყენება…
+applications-choose-app-title = დახმარების პროგრამის შერჩევა
+applications-manage-app =
+    .label = პროგრამის პარამეტრები…
+applications-always-ask = შეკითხვა ყოველ ჯერზე
+    .label = შეკითხვა ყოველ ჯერზე
+    .tooltiptext = შეკითხვა ყოველ ჯერზე
+applications-delete-action =
+    .label = ქმედების წაშლა
+applications-delete-action-title = ქმედების წაშლა
+applications-delete-action-confirm = ნამდვილად გსურთ ამ ქმედების წაშლა?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = PDF (გადასატანი დოკუმენტი)
+applications-preview-in-app = გახსნის { -brand-short-name }
+    .label = გახსნის { -brand-short-name }
+    .tooltiptext = გახსნის { -brand-short-name }
 save-to-label =
     .label = ფაილების შენახვა…
     .accesskey = ნ
@@ -521,6 +580,10 @@ mark-read-delay =
     .label = მოცემული დროით ჩვენების შემდეგ
     .accesskey = დ
 seconds-label = წამი
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 mark-read-after-viewing =
     .label = ნახვის შემდეგ
     .accesskey = ნ
@@ -786,6 +849,16 @@ remove-cloud-account =
 find-cloud-providers =
     .value = სხვა მომსახურების მოძიება…
 cloud-account-description = ფაილების მიბმისთვის მომსახურე საცავის დამატება
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = { $providerName }-ის დამატება
+    .tooltiptext = { $providerName }-ის დამატება
+filelink-account-not-configured =
+    .title = ეს ანგარიში ჯერ არაა გამართული
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = ნამდვილად გსურთ მოაცილოთ ანგარიში „{ $accountName }“?
 
 ## Privacy Tab
 
@@ -897,6 +970,8 @@ spam-log-button =
 reset-spam-button =
     .label = სწავლების მონაცემთა განულება
     .accesskey = წ
+confirm-reset-junk-training-title = დასტური
+confirm-reset-junk-training-message = ნამდვილად გსურთ მოქნილი ფილტრის გავარჯიშების მონაცემთა განულება?
 scam-detection-description = { -brand-short-name } ამოწმებს წერილებს თაღლითური ბმულებისა და ყალბი ელფოსტის გავრცელებული მახასიათებლების მიხედვით.
 scam-detection-label =
     .label = გაფრთხილება ყალბად მიჩნეული წერილის წაკითხვისას
@@ -1076,7 +1151,7 @@ idle-label =
     .accesskey = უ
 idle-time-label = უქმი წუთის შემდეგ
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = ასევე მიეთითოს „გასულია“ მოცემული შეტყობინებით:
@@ -1152,6 +1227,18 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = { -brand-short-name } იმართება დაწესებულების მიერ.
 managed-notice = { -brand-short-name } იმართება დაწესებულების მიერ.
+
+## Content of the preview conversation for chat message styles.
+
+chat-theme-preview-default =
+    .label = ნაგულისხმევი
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = ჰეი! :-)
+chat-theme-preview-message-2 = რას შვრები?
+chat-theme-preview-message-3 = ვეცნობი { -brand-short-name }-ს! ;-)
 
 ## Settings UI Search Results
 

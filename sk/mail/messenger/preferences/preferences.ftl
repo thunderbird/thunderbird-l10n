@@ -229,6 +229,7 @@ use-custom-sound-label =
 mail-select-audio-button =
     .label = Vybrať zvukový súbor…
     .accesskey = V
+sound-file-picker-title = Vyberte zvuk
 enable-global-search-label =
     .label = Povoliť vyhľadávanie vo všetkých e‑mailových účtoch
     .accesskey = o
@@ -245,6 +246,16 @@ enable-gloda-search-label =
     .label = Povoliť globálne vyhľadávanie a indexovanie správ
     .accesskey = o
 datetime-formatting-legend = Formát dátumu a času
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Jazyk aplikácie: { $localeName }
+    .accesskey = p
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Regionálne nastavenia aplikácie: { $localeName }
+    .accesskey = g
 display-language-legend = Jazyk rozhrania
 allow-graphics-accel =
     .label = Používať grafické urýchľovanie na plynulejšie posúvanie a vyšší výkon
@@ -378,6 +389,13 @@ offline-settings-button =
     .label = Nastavenia…
     .accesskey = a
 temporary-storage-legend = Dočasné úložisko
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Vyrovnávacia pamäť využíva { $size } { $unit } miesta na disku
+actual-disk-cache-size-calculating =
+    .value = Vypočítava sa veľkosť vyrovnávacej pamäte…
 offline-compact-remove-deleted =
     .label = Odstrániť údaje priečinkov, ktoré už boli vymazané, a uvoľniť tak miesto v úložisku
     .accesskey = O
@@ -470,6 +488,47 @@ search-handler-table =
     .placeholder = Filtrovať typy obsahu a akcie
 type-column-header = Typ obsahu
 action-column-header = Akcia
+download-folder-desktop = Pracovná plocha
+download-folder-system = Sťahovanie
+download-choose-folder-title = Výber priečinka
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = Súbor { $extension }
+applications-save-file = Uložiť súbor
+    .label = Uložiť súbor
+    .tooltiptext = Uložiť súbor
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Použiť { $appName }
+    .label = Použiť { $appName }
+    .tooltiptext = Použiť { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Použiť { $appName } (predvolená)
+    .label = Použiť { $appName } (predvolená)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Použiť inú…
+    .tooltiptext = Použiť inú…
+applications-choose-app-title = Výber pomocnej aplikácie
+applications-manage-app =
+    .label = Podrobnosti o aplikácii…
+applications-always-ask = Vždy sa opýtať
+    .label = Vždy sa opýtať
+    .tooltiptext = Vždy sa opýtať
+applications-delete-action =
+    .label = Odstrániť akciu
+applications-delete-action-title = Odstránenie akcie
+applications-delete-action-confirm = Naozaj chcete odstrániť túto akciu?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Portable Document Format (PDF)
+applications-preview-in-app = Zobraziť v aplikácii { -brand-short-name }
+    .label = Zobraziť v aplikácii { -brand-short-name }
+    .tooltiptext = Zobraziť v aplikácii { -brand-short-name }
 save-to-label =
     .label = Súbory ukladať do
     .accesskey = S
@@ -521,6 +580,10 @@ mark-read-delay =
     .label = Po
     .accesskey = P
 seconds-label = sekundách od zobrazenia
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 mark-read-after-viewing =
     .label = Po zobrazení na dobu
     .accesskey = d
@@ -786,6 +849,16 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Nájsť ďalších poskytovateľov…
 cloud-account-description = Pridať novú službu na odosielanie príloh
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Pridať účet { $providerName }
+    .tooltiptext = Pridať účet { $providerName }
+filelink-account-not-configured =
+    .title = Tento účet ešte nebol nakonfigurovaný
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Naozaj chcete odstrániť účet "{ $accountName }"?
 
 ## Privacy Tab
 
@@ -897,6 +970,8 @@ spam-log-button =
 reset-spam-button =
     .label = Vymazať zozbierané údaje
     .accesskey = V
+confirm-reset-junk-training-title = Potvrdenie
+confirm-reset-junk-training-message = Naozaj chcete vymazať obsah adaptívneho filtra?
 scam-detection-description = { -brand-short-name } vyhľadáva v správach podvodné odkazy a typické znaky e‑mailových podvodov.
 scam-detection-label =
     .label = Upozorniť pri čítaní e‑mailu, ktorý pôsobí podozrivo
@@ -1076,7 +1151,7 @@ idle-label =
     .accesskey = z
 idle-time-label = minút
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = a nastaviť môj stav na 'Som preč' so stavovou správou:
@@ -1152,6 +1227,18 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = { -brand-short-name } je spravovaný organizáciou.
 managed-notice = { -brand-short-name } je spravovaný vašou organizáciou.
+
+## Content of the preview conversation for chat message styles.
+
+chat-theme-preview-default =
+    .label = Predvolený
+chat-theme-preview-nick-1 = Florián
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrik
+chat-theme-preview-buddy-2 = patrik@im.instantbird.org
+chat-theme-preview-message-1 = Ahoj! :-)
+chat-theme-preview-message-2 = Čo máš nové?
+chat-theme-preview-message-3 = Skúšam { -brand-short-name }! ;-)
 
 ## Settings UI Search Results
 

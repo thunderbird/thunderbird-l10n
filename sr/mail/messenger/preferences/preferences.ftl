@@ -217,6 +217,7 @@ use-custom-sound-label =
 mail-select-audio-button =
     .label = Изабери звук…
     .accesskey = з
+sound-file-picker-title = Изабери звук
 enable-global-search-label =
     .label = Омогућите претрагу свих налога е-поште
     .accesskey = м
@@ -233,6 +234,16 @@ enable-gloda-search-label =
     .label = Омогући општу претрагу и пописивање
     .accesskey = О
 datetime-formatting-legend = Форматирање времена и датума
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Језик апликације: { $localeName }
+    .accesskey = п
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Регионално подешавање језика: { $localeName }
+    .accesskey = г
 display-language-legend = Језик приказа
 allow-graphics-accel =
     .label = Употреби убрзање графике за глаткије помицање и бољу делотворност
@@ -366,6 +377,13 @@ offline-settings-button =
     .label = Ван мреже…
     .accesskey = В
 temporary-storage-legend = Привремено складиште
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Ваш кеш тренутно користи { $size }{ $unit } простора на диску
+actual-disk-cache-size-calculating =
+    .value = Прорачунавам величину кеша…
 offline-compact-remove-deleted =
     .label = Уклони податке из фасцикли када су већ обрисани како би се ослободио простор у складишту
     .accesskey = л
@@ -458,6 +476,47 @@ search-handler-table =
     .placeholder = Филтрирај врсте садржаја и радње
 type-column-header = Врста садржаја
 action-column-header = Радња
+download-folder-desktop = Радна површ
+download-folder-system = Моја преузимања
+download-choose-folder-title = Изабери фасциклу
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension } датотека
+applications-save-file = Сачувај датотеку
+    .label = Сачувај датотеку
+    .tooltiptext = Сачувај датотеку
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Користи { $appName }
+    .label = Користи { $appName }
+    .tooltiptext = Користи { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Користи { $appName } (подразумевано)
+    .label = Користи { $appName } (подразумевано)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Користи друго…
+    .tooltiptext = Користи друго…
+applications-choose-app-title = Изабери помоћни програм
+applications-manage-app =
+    .label = Детаљи програма…
+applications-always-ask = Увек питај
+    .label = Увек питај
+    .tooltiptext = Увек питај
+applications-delete-action =
+    .label = Обриши радњу
+applications-delete-action-title = Брисање радње
+applications-delete-action-confirm = Да ли сте сигурни да желите обрисати ову радњу?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Portable Document Format (PDF)
+applications-preview-in-app = Прикажи у { -brand-short-name }-у
+    .label = Прикажи у { -brand-short-name }-у
+    .tooltiptext = Прикажи у { -brand-short-name }-у
 save-to-label =
     .label = Сачувај датотеке у
     .accesskey = С
@@ -509,6 +568,10 @@ mark-read-delay =
     .label = Након приказивања од
     .accesskey = з
 seconds-label = секунди
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 mark-read-after-viewing =
     .label = После прегледања током
     .accesskey = о
@@ -774,6 +837,16 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Пронађите више добављача…
 cloud-account-description = Додај нову Filelink услугу складиштења
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Додај { $providerName }
+    .tooltiptext = Додај { $providerName }
+filelink-account-not-configured =
+    .title = Овај налог још увек није подешен
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Да ли сте сигурни да желите уклонити налог "{ $accountName }"?
 
 ## Privacy Tab
 
@@ -855,6 +928,8 @@ spam-log-button =
 reset-spam-button =
     .label = Ресетуј податке тренирања
     .accesskey = Р
+confirm-reset-junk-training-title = Потврди
+confirm-reset-junk-training-message = Да ли сте сигурни да желите да поново поставите податке тренирања адаптивног филтрирања?
 phishing-description = { -brand-short-name } може да проучава поруке тако да тражи оне поруке које садрже честе технике којима се преваранти служе да би вас преварили.
 phishing-label =
     .label = Кажи ми ако порука коју читам делује као поштанска превара
@@ -989,7 +1064,7 @@ idle-label =
     .accesskey = к
 idle-time-label = минута неактивности
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = и подеси моје стање у „Ван рачунара“ са овом поруком стања:
@@ -1065,6 +1140,18 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = { -brand-short-name }-ом управља организација.
 managed-notice = Ваша организација управља апликацијом { -brand-short-name }.
+
+## Content of the preview conversation for chat message styles.
+
+chat-theme-preview-default =
+    .label = Подразумевани
+chat-theme-preview-nick-1 = Пера
+chat-theme-preview-buddy-1 = pera@im.instantbird.org
+chat-theme-preview-nick-2 = Жика
+chat-theme-preview-buddy-2 = zika@im.instantbird.org
+chat-theme-preview-message-1 = Здраво! :-)
+chat-theme-preview-message-2 = Шта се ради?
+chat-theme-preview-message-3 = Ево, испробавам Тандерберд! ;-)
 
 ## Settings UI Search Results
 

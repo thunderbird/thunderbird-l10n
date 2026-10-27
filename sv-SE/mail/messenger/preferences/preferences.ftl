@@ -225,6 +225,7 @@ use-custom-sound-label =
 mail-select-audio-button =
     .label = Välj ljud…
     .accesskey = V
+sound-file-picker-title = Välj ljudfil
 enable-global-search-label =
     .label = Aktivera sökning i alla e-postkonton
     .accesskey = A
@@ -241,6 +242,16 @@ enable-gloda-search-label =
     .label = Aktivera global sökning och indexering
     .accesskey = A
 datetime-formatting-legend = Formatering av datum och tid
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Programspråk: { $localeName }
+    .accesskey = P
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Regionala inställningar: { $localeName }
+    .accesskey = R
 display-language-legend = Visningsspråk
 allow-graphics-accel =
     .label = Använd grafikacceleration för mjukare rullning och prestanda
@@ -374,6 +385,13 @@ offline-settings-button =
     .label = Nedkopplat läge…
     .accesskey = N
 temporary-storage-legend = Temporärt lagringsutrymme
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Din cache använder just nu { $size } { $unit } diskutrymme
+actual-disk-cache-size-calculating =
+    .value = Beräkning cachestorlek…
 offline-compact-remove-deleted =
     .label = Ta bort data från mappar när de redan har tagits bort för att frigöra lagringsutrymme
     .accesskey = T
@@ -466,6 +484,47 @@ search-handler-table =
     .placeholder = Filtrera innehållstyper och åtgärder
 type-column-header = Innehållstyp
 action-column-header = Åtgärd
+download-folder-desktop = Skrivbord
+download-folder-system = Hämtade filer
+download-choose-folder-title = Välj mapp:
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension }-fil
+applications-save-file = Spara fil
+    .label = Spara fil
+    .tooltiptext = Spara fil
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Använd { $appName }
+    .label = Använd { $appName }
+    .tooltiptext = Använd { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Använd { $appName } (standard)
+    .label = Använd { $appName } (standard)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Välj program…
+    .tooltiptext = Välj program…
+applications-choose-app-title = Välj hjälpprogram
+applications-manage-app =
+    .label = Programdetaljer…
+applications-always-ask = Fråga alltid
+    .label = Fråga alltid
+    .tooltiptext = Fråga alltid
+applications-delete-action =
+    .label = Ta bort åtgärd
+applications-delete-action-title = Ta bort åtgärd
+applications-delete-action-confirm = Är du säker på att du vill ta bort den här åtgärden?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Portabelt dokumentformat (PDF)
+applications-preview-in-app = Förhandsgranska i { -brand-short-name }
+    .label = Förhandsgranska i { -brand-short-name }
+    .tooltiptext = Förhandsgranska i { -brand-short-name }
 save-to-label =
     .label = Spara filer till
     .accesskey = S
@@ -517,6 +576,10 @@ mark-read-delay =
     .label = Efter att ha visats i
     .accesskey = E
 seconds-label = sekunder
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 mark-read-after-viewing =
     .label = Efter visning i
     .accesskey = E
@@ -782,6 +845,16 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Hitta fler leverantörer…
 cloud-account-description = Lägg till en ny Filelink lagringstjänst
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Lägg till { $providerName }
+    .tooltiptext = Lägg till { $providerName }
+filelink-account-not-configured =
+    .title = Detta konto har inte konfigurerats än
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Är du säker på att du vill ta bort kontot "{ $accountName }"?
 
 ## Privacy Tab
 
@@ -893,6 +966,8 @@ spam-log-button =
 reset-spam-button =
     .label = Återställ träningsdata
     .accesskey = t
+confirm-reset-junk-training-title = Bekräfta
+confirm-reset-junk-training-message = Är du säker på att du vill återställa tillvänjningsfiltrets träningsdata?
 scam-detection-description = { -brand-short-name } söker igenom meddelanden efter nätfiskelänkar och vanliga tecken på e-postbedrägerier.
 scam-detection-label =
     .label = Varna när ett e-postmeddelande verkar vara ett bedrägeriförsök
@@ -1072,7 +1147,7 @@ idle-label =
     .accesskey = I
 idle-time-label = minuters inaktivitet
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = och sätt min status till Borta med statusmeddelandet:
@@ -1148,6 +1223,18 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = { -brand-short-name } hanteras av en organisation.
 managed-notice = { -brand-short-name } hanteras av ditt företag.
+
+## Content of the preview conversation for chat message styles.
+
+chat-theme-preview-default =
+    .label = Standard
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Hej! :-)
+chat-theme-preview-message-2 = Vad händer?
+chat-theme-preview-message-3 = Jag testar { -brand-short-name }! ;-)
 
 ## Settings UI Search Results
 

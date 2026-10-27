@@ -575,3 +575,21 @@ folder-pane-context-compact =
 folder-pane-context-compact-all =
     .label = Cumprimer tut ils ordinaturs
     .accesskey = o
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = Stizzar l'ordinatur
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = &Stizzar l'ordinatur
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = Vuls ti propi stizzar l'ordinatur '{ $name }'?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = Sche ti stizzas quest ordinatur na pos ti betg revocar quest pass. Tut ils messadis che l'ordinatur cuntegna vegnan stizzads, inclus ils sutordinaturs. Vuls ti propi stizzar l'ordinatur '{ $name }'?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Cun stizzar l'ordinatur '{ $name }' vegnan ils filters associads deactivads. Es ti segir che ti vuls stizzar l'ordinatur?

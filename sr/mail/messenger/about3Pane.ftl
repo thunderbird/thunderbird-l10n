@@ -585,3 +585,21 @@ folder-pane-context-compact =
 folder-pane-context-compact-all =
     .label = Сажми све фасцикле
     .accesskey = С
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = Обриши фасциклу
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = &Обриши фасциклу
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = Да ли сте сигурни да желите обрисати фасциклу '{ $name }'?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = Брисање ове фасцикле се не може опозвати овим ћете обрисати све поруке и подфасцикле садржане у њој. Да ли сте сигурни да желите обрисати фасциклу '{ $name }'?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Брисањем фасцикле '{ $name }' ћете искључити њене придружене филтере. Да ли сте сигурни да желите обрисати фасциклу?

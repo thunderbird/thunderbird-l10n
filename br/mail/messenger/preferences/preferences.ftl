@@ -109,6 +109,7 @@ customize-alert-label =
 mail-system-sound-label =
     .label = Son ar reizhiad dre ziouer evit ur postel nevez
     .accesskey = d
+sound-file-picker-title = Dibab ur son
 mail-custom-sound-label =
     .label = Ober gant ar restr son da heul
     .accesskey = u
@@ -119,6 +120,16 @@ enable-gloda-search-label =
     .label = Gweredekaat ar c'hlask hag an ibiliañ hollek
     .accesskey = h
 datetime-formatting-legend = Mentrezh an deiziad hag an eur
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Arload lec'hel: { $localeName }
+    .accesskey = l
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Arventennoù lec'hel rannvroel: { $localeName }
+    .accesskey = r
 language-selector-legend = Yezh
 allow-hw-accel =
     .label = Implijout ar buanadur periant pa vez tu
@@ -190,6 +201,13 @@ offline-settings = Kefluniañ an arventennoù ezlinenn
 offline-settings-button =
     .label = Ezlinenn…
     .accesskey = z
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = { $size } { $unit } a egor kantenn a zo arveret gant ar c'hrubuilh evit ar mare
+actual-disk-cache-size-calculating =
+    .value = O jediñ ment ar c'hrubuilh...
 diskspace-legend = Egor war ar gantenn
 offline-compact-folder =
     .label = Koazhañ an holl deuliadoù pa e tieub an dra-se muioc'h eget
@@ -257,6 +275,46 @@ quoted-text-color =
     .accesskey = L
 type-column-header = Seurt endalc'had
 action-column-header = Gwered
+download-folder-desktop = Burev
+download-folder-system = Ma fellgargadurioù
+download-choose-folder-title = Diuzañ un teuliad
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = restr { $extension }
+applications-save-file = Enrollañ ar restr
+    .label = Enrollañ ar restr
+    .tooltiptext = Enrollañ ar restr
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Arverañ { $appName }
+    .label = Arverañ { $appName }
+    .tooltiptext = Arverañ { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Arverañ { $appName } (diouer)
+    .label = Arverañ { $appName } (diouer)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = All…
+    .tooltiptext = All…
+applications-choose-app-title = Diuzañ un arload diavaez
+applications-manage-app =
+    .label = Titouroù an arload…
+applications-always-ask = Goulenn bewech
+    .label = Goulenn bewech
+    .tooltiptext = Goulenn bewech
+applications-delete-action =
+    .label = Dilemel ar gwezh
+applications-delete-action-title = Dilemel ar gwezh
+applications-delete-action-confirm = Ha sur oc'h e fell deoc'h dilemel ar gwezh-mañ?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-preview-in-app = Alberz e { -brand-short-name }
+    .label = Alberz e { -brand-short-name }
+    .tooltiptext = Alberz e { -brand-short-name }
 save-to-label =
     .label = Enrollañ ar restroù e
     .accesskey = E
@@ -298,6 +356,10 @@ mark-read-delay =
     .label = Goude
     .accesskey = d
 seconds-label = a eilennoù
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -416,6 +478,16 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Kavout muioc’h a bourchaserien…
 cloud-account-description = Ouzhpennañ ur gwazerezh kadaviñ Filelink nevez
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Ouzhpennañ { $providerName }
+    .tooltiptext = Ouzhpennañ { $providerName }
+filelink-account-not-configured =
+    .title = N'eo ket bet kefluniet ar gont-mañ endeo
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Sur oc'h e fell deoc'h dilemel ar gont "{ $accountName }" ?
 
 ## Privacy Tab
 
@@ -451,6 +523,8 @@ passwords-description = Gallout a ra { -brand-short-name } derc'hel soñj eus ho
 passwords-button =
     .label = Gerioù-tremen enrollet…
     .accesskey = e
+confirm-reset-junk-training-title = Kadarnaat
+confirm-reset-junk-training-message = Ha fellout a ra deoc'h adderaouekaat sil azasaus dre bleustriñ ar roadennoù ?
 phishing-description = Barrek eo { -brand-short-name } da zezrannañ kemennadennoù da gavout posteloù c'hwibañ dre glask an doareoù boutin arveret evit ho kwallbakañ.
 phishing-label =
     .label = Lavar din hag-eñ emaon o lenn ur postel gant c'hwezh ar c'hwiberezh warnañ
@@ -477,6 +551,12 @@ security-devices-button =
     .accesskey = T
 account-settings = Arventennoù ar gont
 
+## DoH Section
+
+
+## Keyservers
+
+
 ## Chat Tab
 
 startup-label =
@@ -498,7 +578,7 @@ idle-label =
     .accesskey = R
 idle-time-label = a vunutennoù eus dioberiantiz
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = ha kemmañ ma stad da Ezvezant gant ar gemennadenn da-heul :
@@ -562,6 +642,27 @@ chat-variant-label =
     .value = Variezon:
     .accesskey = V
 
+## Content of the preview conversation for chat message styles.
+
+chat-theme-preview-default =
+    .label = Diouer
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Salud! :-)
+chat-theme-preview-message-2 = Penaos eo?
+chat-theme-preview-message-3 = Emaon oc’h esaeañ { -brand-short-name }! ;-)
+
+## Settings UI Search Results
+
+
 ## Sync Tab
 
 sync-pane-cancel = Dilezel
+
+## Mobile QR Export Pane
+
+
+## Appearance Tab
+

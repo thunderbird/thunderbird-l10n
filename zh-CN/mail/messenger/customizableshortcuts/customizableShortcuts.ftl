@@ -4,3 +4,6 @@
 
 shortcuts-close-button-title =
     .title = 关闭
+shortcuts-close-button =
+    .title = 关闭
+    .aria-label = 关闭

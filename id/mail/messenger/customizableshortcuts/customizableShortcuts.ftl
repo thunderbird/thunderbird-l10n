@@ -4,3 +4,6 @@
 
 shortcuts-close-button-title =
     .title = Tutup
+shortcuts-close-button =
+    .title = Tutup
+    .aria-label = Tutup

@@ -576,3 +576,21 @@ folder-pane-context-compact =
 folder-pane-context-compact-all =
     .label = Уплътняване на всички папки
     .accesskey = в
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = Изтриване на папка
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = И&зтриване
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = Сигурен ли сте, че искате да изтриете папката '{ $name }'?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = Изтриването на тази папка е необратимо и ще изтрие всички писма и подпапки в нея. Искате ли все още да изтриете папка '{ $name }'?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Изтриването на папката '{ $name }' ще изключи асоциираните й филтри. Искате ли да изтриете папката?

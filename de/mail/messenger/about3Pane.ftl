@@ -576,3 +576,21 @@ folder-pane-context-compact =
 folder-pane-context-compact-all =
     .label = Alle Ordner komprimieren
     .accesskey = O
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = Ordner löschen
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = &Ordner löschen
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = Sind Sie sicher, dass Sie den Ordner "{ $name }" löschen wollen?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = Das Löschen dieses Ordners kann nicht rückgängig gemacht werden und löscht alle Nachrichten, die er enthält, inklusive seiner Unterordner. Sind Sie sicher, dass Sie den Ordner "{ $name }" löschen wollen?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Löschen des Ordners "{ $name }" deaktiviert die mit ihm verbundenen Filter. Sind Sie sicher, dass Sie diesen Ordner löschen wollen?

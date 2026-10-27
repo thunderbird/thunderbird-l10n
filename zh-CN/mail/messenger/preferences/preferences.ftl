@@ -173,6 +173,7 @@ tray-icon-unread-description = 推荐在使用小任务栏按钮时启用
 mail-system-sound-label =
     .label = 系统默认新邮件提示音
     .accesskey = D
+sound-file-picker-title = 选择声音
 mail-custom-sound-label =
     .label = 使用下列声音文件
     .accesskey = U
@@ -183,6 +184,16 @@ enable-gloda-search-label =
     .label = 启用全局搜索以及索引
     .accesskey = E
 datetime-formatting-legend = 日期和时间格式
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = 应用程序语言区域：{ $localeName }
+    .accesskey = p
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = 区域设置语言区域：{ $localeName }
+    .accesskey = g
 language-selector-legend = 语言
 allow-hw-accel =
     .label = 自动启用硬件加速
@@ -268,6 +279,13 @@ offline-settings = 配置脱机设置
 offline-settings-button =
     .label = 脱机…
     .accesskey = O
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = 您的缓存目前已使用 { $size } { $unit } 磁盘空间
+actual-disk-cache-size-calculating =
+    .value = 正在计算缓存大小…
 diskspace-legend = 磁盘空间
 offline-compact-folder =
     .label = 需要节省空间时压缩全部文件夹
@@ -344,6 +362,47 @@ search-handler-table =
     .placeholder = 过滤内容类型和操作
 type-column-header = 内容类型
 action-column-header = 操作
+download-folder-desktop = 桌面
+download-folder-system = 我的下载
+download-choose-folder-title = 选择文件夹
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension } 文件
+applications-save-file = 保存文件
+    .label = 保存文件
+    .tooltiptext = 保存文件
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = 使用“{ $appName }”
+    .label = 使用“{ $appName }”
+    .tooltiptext = 使用“{ $appName }”
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = 使用“{ $appName }”（默认）
+    .label = 使用“{ $appName }”（默认）
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = 使用其他应用…
+    .tooltiptext = 使用其他应用…
+applications-choose-app-title = 选择助手应用程序
+applications-manage-app =
+    .label = 应用程序详细信息…
+applications-always-ask = 一律询问
+    .label = 一律询问
+    .tooltiptext = 一律询问
+applications-delete-action =
+    .label = 删除操作
+applications-delete-action-title = 删除操作
+applications-delete-action-confirm = 你确实希望删除这个动作？
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = 便携式文档格式（PDF）
+applications-preview-in-app = 在 { -brand-short-name } 中预览
+    .label = 在 { -brand-short-name } 中预览
+    .tooltiptext = 在 { -brand-short-name } 中预览
 save-to-label =
     .label = 保存文件至
     .accesskey = S
@@ -388,6 +447,10 @@ mark-read-delay =
     .label = 显示
     .accesskey = d
 seconds-label = 秒之后
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -576,6 +639,16 @@ remove-cloud-account =
 find-cloud-providers =
     .value = 寻找更多提供商...
 cloud-account-description = 添加一个新的“文件链接”存储服务
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = 添加 { $providerName }
+    .tooltiptext = 添加 { $providerName }
+filelink-account-not-configured =
+    .title = 此账户尚未配置
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = 您确定要删除账户“{ $accountName }”？
 
 ## Privacy Tab
 
@@ -657,6 +730,8 @@ spam-log-button =
 reset-spam-button =
     .label = 重置训练数据
     .accesskey = R
+confirm-reset-junk-training-title = 确认
+confirm-reset-junk-training-message = 您确定要重新设置自适应过滤器训练数据吗？
 phishing-description = { -brand-short-name } 可以识别一些常见欺诈伎俩，分析检测是否为欺诈邮件。
 phishing-label =
     .label = 告诉我正在阅读的消息是否是欺诈邮件
@@ -791,7 +866,7 @@ idle-label =
     .accesskey = I
 idle-time-label = 分钟时，让我的联系人获知
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = 同时设置我的状态为离开，并添加此状态信息
@@ -866,6 +941,18 @@ search-preferences-input2 =
     .placeholder = 查找设置
     .style = width: 15.4em
 managed-notice = { -brand-short-name } 由您的组织管理。
+
+## Content of the preview conversation for chat message styles.
+
+chat-theme-preview-default =
+    .label = 默认
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = 嗨！:-)
+chat-theme-preview-message-2 = 你还好吗？
+chat-theme-preview-message-3 = 我在尝试 { -brand-short-name }！;-)
 
 ## Settings UI Search Results
 

@@ -229,6 +229,7 @@ use-custom-sound-label =
 mail-select-audio-button =
     .label = Sélectionner un fichier audio…
     .accesskey = S
+sound-file-picker-title = Choisir un son
 enable-global-search-label =
     .label = Activer la recherche pour tous les comptes de messagerie
     .accesskey = A
@@ -245,6 +246,16 @@ enable-gloda-search-label =
     .label = Activer la recherche et l’indexation globales
     .accesskey = c
 datetime-formatting-legend = Format de date et heure
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Langue de l’application : { $localeName }
+    .accesskey = p
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Langue pour les paramètres régionaux : { $localeName }
+    .accesskey = n
 display-language-legend = Langue de l’interface
 allow-graphics-accel =
     .label = Activer l’accélération graphique pour améliorer la fluidité du défilement et les performances
@@ -378,6 +389,13 @@ offline-settings-button =
     .label = Hors connexion…
     .accesskey = H
 temporary-storage-legend = Stockage temporaire
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Le cache utilise { $size } { $unit } d’espace disque
+actual-disk-cache-size-calculating =
+    .value = Calcul de la taille du cache…
 offline-compact-remove-deleted =
     .label = Supprimer les données des dossiers déjà supprimés afin de libérer de l’espace de stockage
     .accesskey = S
@@ -470,6 +488,47 @@ search-handler-table =
     .placeholder = Filtrer les types de contenu et les actions
 type-column-header = Type de contenu
 action-column-header = Action
+download-folder-desktop = Bureau
+download-folder-system = Mes Téléchargements
+download-choose-folder-title = Choisir le dossier
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = Fichier { $extension }
+applications-save-file = Enregistrer le fichier
+    .label = Enregistrer le fichier
+    .tooltiptext = Enregistrer le fichier
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Utiliser { $appName }
+    .label = Utiliser { $appName }
+    .tooltiptext = Utiliser { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Utiliser { $appName } (défaut)
+    .label = Utiliser { $appName } (défaut)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Autre…
+    .tooltiptext = Autre…
+applications-choose-app-title = Choisir une application externe
+applications-manage-app =
+    .label = Détails de l’application…
+applications-always-ask = Toujours demander
+    .label = Toujours demander
+    .tooltiptext = Toujours demander
+applications-delete-action =
+    .label = Supprimer l’action
+applications-delete-action-title = Supprimer l’action
+applications-delete-action-confirm = Voulez-vous vraiment supprimer cette action ?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description } : { $type })
+applications-type-pdf = Portable Document Format (PDF)
+applications-preview-in-app = Aperçu dans { -brand-short-name }
+    .label = Aperçu dans { -brand-short-name }
+    .tooltiptext = Aperçu dans { -brand-short-name }
 save-to-label =
     .label = Enregistrer les fichiers sous
     .accesskey = E
@@ -521,6 +580,10 @@ mark-read-delay =
     .label = Après un délai de
     .accesskey = A
 seconds-label = secondes
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 mark-read-after-viewing =
     .label = Après un délai de
     .accesskey = A
@@ -786,6 +849,16 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Trouver plus de fournisseurs…
 cloud-account-description = Ajouter un nouveau service de stockage en ligne
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Ajouter { $providerName }
+    .tooltiptext = Ajouter { $providerName }
+filelink-account-not-configured =
+    .title = Ce compte n’a pas encore été configuré
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Voulez-vous vraiment supprimer le compte « { $accountName } » ?
 
 ## Privacy Tab
 
@@ -897,6 +970,8 @@ spam-log-button =
 reset-spam-button =
     .label = Réinitialiser les données d’apprentissage
     .accesskey = R
+confirm-reset-junk-training-title = Confirmer
+confirm-reset-junk-training-message = Voulez-vous vraiment réinitialiser le filtre adaptatif des données d’apprentissage ?
 scam-detection-description = { -brand-short-name } vérifie la présence de liens d’hameçonnage et des signes courants d’escroquerie.
 scam-detection-label =
     .label = Avertir à l’ouverture d’un e-mail qui semble frauduleux
@@ -1072,7 +1147,7 @@ idle-label =
     .accesskey = P
 idle-time-label = minutes d’inactivité
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = et indiquer mon absence avec le message suivant :
@@ -1148,6 +1223,18 @@ search-preferences-input2 =
     .style = width: 21em
 managed-by-organization-notice = { -brand-short-name } est géré par une organisation.
 managed-notice = { -brand-short-name } est géré par votre organisation.
+
+## Content of the preview conversation for chat message styles.
+
+chat-theme-preview-default =
+    .label = Par défaut
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Salut ! :-)
+chat-theme-preview-message-2 = Ça roule ?
+chat-theme-preview-message-3 = Je suis en train d’essayer { -brand-short-name } ! ;-)
 
 ## Settings UI Search Results
 

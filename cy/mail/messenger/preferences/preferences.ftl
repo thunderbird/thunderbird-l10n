@@ -229,6 +229,7 @@ use-custom-sound-label =
 mail-select-audio-button =
     .label = Dewis sain…
     .accesskey = D
+sound-file-picker-title = Dewis Sain
 enable-global-search-label =
     .label = Troi'r chwilio ymlaen ar bob cyfrif e-bost
     .accesskey = T
@@ -245,6 +246,16 @@ enable-gloda-search-label =
     .label = Galluogi Chwilio a Mynegeio Eang
     .accesskey = G
 datetime-formatting-legend = Fformatio Dyddiad ac Amser
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Locale rhaglen: { $localeName }
+    .accesskey = r
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Gosodiadau rhanbarthol locale: { $localeName }
+    .accesskey = r
 display-language-legend = Iaith dangos
 allow-graphics-accel =
     .label = Defnyddio cyflymiad graffeg ar gyfer sgrolio a pherfformiad llyfnach
@@ -378,6 +389,13 @@ offline-settings-button =
     .label = All-lein…
     .accesskey = l
 temporary-storage-legend = Storio dros dro
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Mae eich storfa yn defnyddio { $size } { $unit } o le ar ddisg
+actual-disk-cache-size-calculating =
+    .value = Cyfrifo maint y storfa…
 offline-compact-remove-deleted =
     .label = Tynnu data o ffolderi pan fyddan nhw eisoes wedi'u dileu i wagio'r storfa
     .accesskey = T
@@ -470,6 +488,47 @@ search-handler-table =
     .placeholder = Hidlo mathau a gweithredoedd cynnwys
 type-column-header = Math o Gynnwys
 action-column-header = Gweithred
+download-folder-desktop = Bwrdd Gwaith
+download-folder-system = Fy Llwythi
+download-choose-folder-title = Dewis Ffolder
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = Ffeil { $extension }
+applications-save-file = Cadw Ffeil
+    .label = Cadw Ffeil
+    .tooltiptext = Cadw Ffeil
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Defnyddio { $appName }
+    .label = Defnyddio { $appName }
+    .tooltiptext = Defnyddio { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Defnyddio { $appName } (rhagosodiad)
+    .label = Defnyddio { $appName } (rhagosodiad)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Defnyddio arall…
+    .tooltiptext = Defnyddio arall…
+applications-choose-app-title = Dewis Rhaglen Gynorthwyol
+applications-manage-app =
+    .label = Manylion y Rhaglen…
+applications-always-ask = Gofyn bob tro
+    .label = Gofyn bob tro
+    .tooltiptext = Gofyn bob tro
+applications-delete-action =
+    .label = Gweithred Dileu
+applications-delete-action-title = Gweithred Dileu
+applications-delete-action-confirm = Ydych chi'n siŵr eich bod eisiau dileu'r weithred?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Portable Document Format (PDF)
+applications-preview-in-app = Rhagolwg yn { -brand-short-name }
+    .label = Rhagolwg yn { -brand-short-name }
+    .tooltiptext = Rhagolwg yn { -brand-short-name }
 save-to-label =
     .label = Cadw ffeiliau yn
     .accesskey = C
@@ -521,6 +580,10 @@ mark-read-delay =
     .label = Ar ôl dangos am
     .accesskey = d
 seconds-label = eiliad
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 mark-read-after-viewing =
     .label = Ar ôl darllen am
     .accesskey = A
@@ -786,6 +849,16 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Canfod rhagor o ddarparwyr…
 cloud-account-description = Ychwanegu gwasanaeth storio Filelink newydd
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Ychwanegu { $providerName }
+    .tooltiptext = Ychwanegu { $providerName }
+filelink-account-not-configured =
+    .title = Nid yw'r cyfrif hwn wedi'i ffurfweddu eto
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Ydych chi'n siŵr eich bod am dynnu'r cyfrif "{ $accountName }"?
 
 ## Privacy Tab
 
@@ -897,6 +970,8 @@ spam-log-button =
 reset-spam-button =
     .label = Ailosod Data Hyfforddi
     .accesskey = A
+confirm-reset-junk-training-title = Cadarnhau
+confirm-reset-junk-training-message = Ydych chi'n siŵr eich bod eisiau ailosod data hyfforddi'r hidl addasol?
 scam-detection-description = Mae { -brand-short-name } yn gwirio negeseuon am ddolenni pysgota ac arwyddion cyffredin o sgamiau e-bost.
 scam-detection-label =
     .label = Rhybuddio wrth ddarllen e-byst sy'n edrych fel sgam
@@ -1072,7 +1147,7 @@ idle-label =
     .accesskey = S
 idle-time-label = munud o seibiant
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = a dynodi fy statws i I Ffwrdd gyda'r neges statws yma:
@@ -1148,6 +1223,18 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = Mae { -brand-short-name } yn cael ei reoli gan sefydliad.
 managed-notice = Mae { -brand-short-name } yn cael ei reoli gan eich sefydliad.
+
+## Content of the preview conversation for chat message styles.
+
+chat-theme-preview-default =
+    .label = Rhagosodedig
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Helo! :-)
+chat-theme-preview-message-2 = Be sy’n digwydd?
+chat-theme-preview-message-3 = Rwy’n profi { -brand-short-name }! ;-)
 
 ## Settings UI Search Results
 

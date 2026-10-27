@@ -12,6 +12,9 @@ pane-calendar-title = Taqvim
 category-calendar =
     .tooltiptext = Taqvim
 
+## OS Authentication dialog
+
+
 ## General Tab
 
 focus-search-shortcut =
@@ -43,6 +46,7 @@ animated-alert-label =
 customize-alert-label =
     .label = Qulaylashtirish…
     .accesskey = Q
+sound-file-picker-title = Ovozni tanlang
 mail-custom-sound-label =
     .label = Quyidagi tovush faylidan foydalanilsin
     .accesskey = f
@@ -175,6 +179,43 @@ smaller-size-item =
 quoted-text-color =
     .label = Rangi:
     .accesskey = R
+download-folder-desktop = Ish stoli
+download-folder-system = Yuklab olishlar
+download-choose-folder-title = Jildni tanlash
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension } ta fayl
+applications-save-file = Faylni saqlash
+    .label = Faylni saqlash
+    .tooltiptext = Faylni saqlash
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = { $appName }dan foydalanish
+    .label = { $appName }dan foydalanish
+    .tooltiptext = { $appName }dan foydalanish
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = { $appName } (standart)dan foydalanish
+    .label = { $appName } (standart)dan foydalanish
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Boshqasidan foydalanish…
+    .tooltiptext = Boshqasidan foydalanish…
+applications-choose-app-title = Yordamchi ilova dasturini tanlash
+applications-manage-app =
+    .label = Ilova dastur tafsilotlari…
+applications-always-ask = Doimo so‘ralsin
+    .label = Doimo so‘ralsin
+    .tooltiptext = Doimo so‘ralsin
+applications-delete-action =
+    .label = Malni o‘chirish
+applications-delete-action-title = Malni o‘chirish
+applications-delete-action-confirm = Ushbu amalni o‘chirishni xohlaysizmi?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
 save-to-label =
     .label = Fayllarni saqlash
     .accesskey = s
@@ -210,6 +251,10 @@ mark-read-delay =
     .label = Ko‘rsatilsin –
     .accesskey = d
 seconds-label = soniyadan so‘ng
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -311,6 +356,9 @@ remove-cloud-account =
     .label = Olib tashlash
     .accesskey = O
 cloud-account-description = Yangi Filelink ombori xizmatini qo‘shish
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = "{ $accountName }" hisobini olib tashlashni xohlaysizmi?
 
 ## Privacy Tab
 
@@ -346,6 +394,8 @@ passwords-description = { -brand-short-name } barcha hisoblaringiz uchun parolla
 passwords-button =
     .label = Saqlangan parollar…
     .accesskey = S
+confirm-reset-junk-training-title = Tasdiqlash
+confirm-reset-junk-training-message = Moslashuvchan filter trening ma’lumotlarini tiklashni xohlaysizmi?
 phishing-description = { -brand-short-name } siz foydalanadigan qurilma umumiy texnikasi izlash funksiyasi orqali e-pochta qallobliklari xabarlarini aniqlay oladi.
 phishing-label =
     .label = Men o‘qiyotganimda e-pochta qallobliklari sifatida aniqlangan xabar bo‘lsa menga aytilsin
@@ -364,6 +414,12 @@ certificate-ask =
 ocsp-label =
     .label = OCSP javob berish serverlari sertifikatlarining joriy yaroqliligini tasdiqlash uchun so‘rov jo‘natish
     .accesskey = s
+
+## DoH Section
+
+
+## Keyservers
+
 
 ## Chat Tab
 
@@ -386,7 +442,7 @@ idle-label =
     .accesskey = K
 idle-time-label = qaytganimdan so‘ng kontaktlarimni bilishga imkon berilsin
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = va holatimga Ushbu xabar bilan tashqarida xabari o‘rnatilsin:
@@ -419,3 +475,18 @@ chat-custom-sound-label =
 chat-browse-sound-button =
     .label = Ko‘rish…
     .accesskey = r
+
+## Content of the preview conversation for chat message styles.
+
+
+## Settings UI Search Results
+
+
+## Sync Tab
+
+
+## Mobile QR Export Pane
+
+
+## Appearance Tab
+

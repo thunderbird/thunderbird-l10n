@@ -575,3 +575,21 @@ folder-pane-context-compact =
 folder-pane-context-compact-all =
     .label = ყველა საქაღალდის შეკუმშვა
     .accesskey = ლ
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = საქაღალდის წაშლა
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = საქაღალდის &წაშლა
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = ნამდვილად გსურთ, წაიშალოს საქაღალდე '{ $name }'?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = საქაღალდის აქედან წაშლა შეუქცევადი ქმედებაა და შედეგად, ასევე წაიშლება მასში არსებული ყველა წერილი და ქვესაქაღალდე. დარწმუნებული ხართ რომ გსურთ, წაიშალოს საქაღალდე '{ $name }'?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = '{ $name }' საქაღალდის წაშლისას უქმდება მასთან დაკავშირებული ფილტრ(ებ)იც. ნამდვილად გსურთ ამ საქაღალდის წაშლა?

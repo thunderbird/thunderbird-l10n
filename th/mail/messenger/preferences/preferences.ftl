@@ -173,6 +173,7 @@ tray-icon-unread-description = แนะนำเมื่อใช้ปุ่�
 mail-system-sound-label =
     .label = เสียงระบบเริ่มต้นสำหรับจดหมายใหม่
     .accesskey = ส
+sound-file-picker-title = เลือกเสียง
 mail-custom-sound-label =
     .label = ใช้ไฟล์เสียงดังต่อไปนี้
     .accesskey = ช
@@ -183,6 +184,16 @@ enable-gloda-search-label =
     .label = เปิดใช้งานการค้นหาส่วนกลางและตัวทำดัชนี
     .accesskey = ป
 datetime-formatting-legend = การจัดรูปแบบวันที่และเวลา
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = ภาษาของแอปพลิเคชัน: { $localeName }
+    .accesskey = ภ
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = ภาษาการตั้งค่าภูมิภาค: { $localeName }
+    .accesskey = า
 language-selector-legend = ภาษา
 allow-hw-accel =
     .label = ใช้การเร่งความเร็วด้วยฮาร์ดแวร์เมื่อพร้อมใช้งาน
@@ -268,6 +279,13 @@ offline-settings = กำหนดค่าการตั้งค่าออ�
 offline-settings-button =
     .label = ออฟไลน์…
     .accesskey = อ
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = แคชของคุณใช้พื้นที่ดิสก์ไป { $size } { $unit }
+actual-disk-cache-size-calculating =
+    .value = กำลังคำนวณขนาดแคช…
 diskspace-legend = เนื้อที่ดิสก์
 offline-compact-folder =
     .label = กระชับโฟลเดอร์ทั้งหมดเมื่อสามารถประหยัดได้มากกว่า
@@ -344,6 +362,47 @@ search-handler-table =
     .placeholder = กรองชนิดเนื้อหาและการกระทำ
 type-column-header = ชนิดเนื้อหา
 action-column-header = การกระทำ
+download-folder-desktop = เดสก์ท็อป
+download-folder-system = การดาวน์โหลดของฉัน
+download-choose-folder-title = เลือกโฟลเดอร์
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = ไฟล์ { $extension }
+applications-save-file = บันทึกไฟล์
+    .label = บันทึกไฟล์
+    .tooltiptext = บันทึกไฟล์
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = ใช้ { $appName }
+    .label = ใช้ { $appName }
+    .tooltiptext = ใช้ { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = ใช้ { $appName } (ค่าเริ่มต้น)
+    .label = ใช้ { $appName } (ค่าเริ่มต้น)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = ใช้ตัวอื่น…
+    .tooltiptext = ใช้ตัวอื่น…
+applications-choose-app-title = เลือกแอปพลิเคชันตัวช่วย
+applications-manage-app =
+    .label = รายละเอียดแอปพลิเคชัน…
+applications-always-ask = ถามเสมอ
+    .label = ถามเสมอ
+    .tooltiptext = ถามเสมอ
+applications-delete-action =
+    .label = ลบการกระทำ
+applications-delete-action-title = ลบการกระทำ
+applications-delete-action-confirm = คุณแน่ใจหรือไม่ว่าต้องการลบการกระทำนี้?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Portable Document Format (PDF)
+applications-preview-in-app = แสดงตัวอย่างใน { -brand-short-name }
+    .label = แสดงตัวอย่างใน { -brand-short-name }
+    .tooltiptext = แสดงตัวอย่างใน { -brand-short-name }
 save-to-label =
     .label = บันทึกไฟล์ไปยัง
     .accesskey = บ
@@ -388,6 +447,10 @@ mark-read-delay =
     .label = หลังจากแสดงไปแล้ว
     .accesskey = ล
 seconds-label = วินาที
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -557,6 +620,16 @@ remove-cloud-account =
 find-cloud-providers =
     .value = ค้นหาผู้ให้บริการเพิ่มเติม…
 cloud-account-description = เพิ่มบริการที่เก็บข้อมูล Filelink ใหม่
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = เพิ่ม { $providerName }
+    .tooltiptext = เพิ่ม { $providerName }
+filelink-account-not-configured =
+    .title = บัญชีนี้ยังไม่ได้ถูกกำหนดค่า
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = คุณแน่ใจหรือไม่ว่าต้องการเอาบัญชี "{ $accountName }" ออก?
 
 ## Privacy Tab
 
@@ -613,6 +686,8 @@ primary-password-button =
 forms-primary-pw-fips-title = คุณกำลังอยู่ในโหมด FIPS ซึ่ง FIPS จำเป็นต้องมีรหัสผ่านหลักที่ไม่ว่างเปล่า
 forms-master-pw-fips-desc = การเปลี่ยนรหัสผ่านล้มเหลว
 spam-read-description = ทำเครื่องหมายข้อความว่าอ่านแล้ว
+confirm-reset-junk-training-title = ยืนยัน
+confirm-reset-junk-training-message = คุณแน่ใจหรือไม่ว่าต้องการตั้งค่าข้อมูลการสอนตัวกรองแบบปรับตัวได้ใหม่?
 phishing-description = { -brand-short-name } สามารถวิเคราะห์ข้อความสำหรับการหลอกลวงอีเมลที่น่าสงสัยโดยมองหาเทคนิคทั่วไปที่ใช้หลอกลวงคุณ
 phishing-label =
     .label = บอกฉันหากข้อความที่ฉันกำลังอ่านเป็นการหลอกลวงอีเมลที่น่าสงสัย
@@ -738,7 +813,7 @@ idle-label =
     .accesskey = จ
 idle-time-label = นาทีที่ไม่มีความเคลื่อนไหว
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = และตั้งค่าสถานะของฉันว่าไม่อยู่ด้วยข้อความสถานะนี้:
@@ -813,6 +888,18 @@ search-preferences-input2 =
     .placeholder = ค้นหาในหน้าการตั้งค่า
     .style = width: 15.4em
 managed-notice = { -brand-short-name } กำลังถูกจัดการโดยองค์กรของคุณ
+
+## Content of the preview conversation for chat message styles.
+
+chat-theme-preview-default =
+    .label = ค่าเริ่มต้น
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = สวัสดี! :-)
+chat-theme-preview-message-2 = ว่าไง?
+chat-theme-preview-message-3 = ฉันกำลังลอง { -brand-short-name }! ;-)
 
 ## Settings UI Search Results
 

@@ -2,6 +2,10 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+remote-content-permissions-title = Pengecualian - Kandungan Jauh
+remote-content-permissions-description = Anda boleh tentukan laman web yang diizinkan untuk memuatkan imej dan kandungan jauh lain. Anda juga boleh izinkan semua kandungan jauh berdasarkan kepada alamat e-mel pengirim. Taipkan alamat laman atau e-mel yang anda mahu urus dan kemudian klik Sekat atau Izinkan.
+cookie-permissions-title = Pengecualian - Kuki
+cookie-permissions-description = Anda boleh tentukan laman web yang sentiasa atau tidak dizinkan menggunakan kuki.  Taip alamat laman yang anda mahu urus dan kemudian klik Sekat, Izinkan Sesi Ini, atau Izinkan.
 website-address-label =
     .value = Alamat laman web:
     .accesskey = l

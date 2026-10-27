@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 permissions-dialog-title = Izjeme
+remote-content-permissions-title = Izjeme - oddaljena vsebina
+remote-content-permissions-description = Določite lahko, s katerih spletnih mest se lahko nalagajo slike in druga oddaljena vsebina. Lahko tudi dovolite vso oddaljeno vsebino glede na pošiljateljev e-poštni naslov. Vtipkajte naslov mesta ali e-poštni naslov, s katerim želite upravljati in potem kliknite Blokiraj ali Dovoli.
+cookie-permissions-title = Izjeme - piškotki
+cookie-permissions-description = Določite lahko, katera spletna mesta lahko vedno ali nikoli ne uporabljajo piškotke. Vnesite točen naslov spletnega mesta, s katerim želite upravljati in nato kliknite Blokiraj, Dovoli v tej seji ali Dovoli.
 website-address-label =
     .value = Naslov spletne strani:
     .accesskey = N

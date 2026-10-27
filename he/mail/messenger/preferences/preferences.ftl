@@ -16,6 +16,9 @@ manage-messenger-languages-button =
 confirm-messenger-language-change-description = יש להפעיל את { -brand-short-name } מחדש כדי להחיל את השינויים האלה
 confirm-messenger-language-change-button = החלה והפעלה מחדש
 
+## OS Authentication dialog
+
+
 ## General Tab
 
 focus-search-shortcut =
@@ -58,6 +61,7 @@ animated-alert-label =
 customize-alert-label =
     .label = התאמה אישית…
     .accesskey = ה
+sound-file-picker-title = בחר צליל
 mail-custom-sound-label =
     .label = השתמש בקובץ צליל הבא
     .accesskey = ש
@@ -68,6 +72,16 @@ enable-gloda-search-label =
     .label = אפשר חיפוש גלובלי ואינדוקס
     .accesskey = ח
 datetime-formatting-legend = תבנית תאריך ושעה
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = שפת היישום: { $localeName }
+    .accesskey = ש
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = הגדרות מקומיות: { $localeName }
+    .accesskey = ק
 allow-hw-accel =
     .label = שימוש בהאצת חומרה כשניתן
     .accesskey = ח
@@ -139,6 +153,13 @@ offline-settings = נהל הגדרות לא־מקוון
 offline-settings-button =
     .label = לא־מקוון...
     .accesskey = מ
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = המטמון שלך מנצל { $size } { $unit } מתוך הנפח בכונן
+actual-disk-cache-size-calculating =
+    .value = גודל המטמון מחושב…
 diskspace-legend = שטח דיסק
 offline-compact-folder =
     .label = לדחוס את כל התיקיות כשהפעולה תחסוך למעלה מ־
@@ -201,6 +222,47 @@ smaller-size-item =
 quoted-text-color =
     .label = צבע:
     .accesskey = ב
+download-folder-desktop = שולחן עבודה
+download-folder-system = ההורדות שלי
+download-choose-folder-title = בחר תיקייה
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension } קובץ
+applications-save-file = שמור קובץ
+    .label = שמור קובץ
+    .tooltiptext = שמור קובץ
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = השתמש ביישום { $appName }
+    .label = השתמש ביישום { $appName }
+    .tooltiptext = השתמש ביישום { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = השתמש ביישום { $appName } (ברירת מחדל)
+    .label = השתמש ביישום { $appName } (ברירת מחדל)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = השתמש באחר…
+    .tooltiptext = השתמש באחר…
+applications-choose-app-title = בחר יישום מסייע
+applications-manage-app =
+    .label = פרטי יישום…
+applications-always-ask = שאל תמיד
+    .label = שאל תמיד
+    .tooltiptext = שאל תמיד
+applications-delete-action =
+    .label = מחיקת פעולה
+applications-delete-action-title = מחיקת פעולה
+applications-delete-action-confirm = האם אתה בטוח שברצונך למחוק פעולה זו?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Portable Document Format (PDF)
+applications-preview-in-app = תצוגה מקדימה ב־{ -brand-short-name }
+    .label = תצוגה מקדימה ב־{ -brand-short-name }
+    .tooltiptext = תצוגה מקדימה ב־{ -brand-short-name }
 save-to-label =
     .label = שמור קבצים אל
     .accesskey = ש
@@ -242,6 +304,10 @@ mark-read-delay =
     .label = לאחר הצגה למשך
     .accesskey = א
 seconds-label = שניות
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -348,6 +414,16 @@ add-cloud-account =
     .defaultlabel = הוספה…
     .label = הוספה…
     .accesskey = ס
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = הוספת { $providerName }
+    .tooltiptext = הוספת { $providerName }
+filelink-account-not-configured =
+    .title = חשבון זה טרם הוגדר
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = להסיר את החשבון „{ $accountName }”?
 
 ## Privacy Tab
 
@@ -383,6 +459,8 @@ passwords-description = { -brand-short-name } יכול לזכור מידע סס�
 passwords-button =
     .label = ססמאות שמורות…
     .accesskey = מ
+confirm-reset-junk-training-title = אישור
+confirm-reset-junk-training-message = אתה בטוח שברצונך לאפס את נתוני האימון של המסנן המסתגל?
 phishing-description = { -brand-short-name } יכול לנתח הודעות ולבדוק אם הן מכילות הונאות דוא״ל חשודות על־ידי חיפוש שיטות נפוצות המשמשות להטעות אותך.
 phishing-label =
     .label = אמור לי אם ההודעה שאני קורא חשודה כתרמית דוא״ל
@@ -398,6 +476,12 @@ certificate-auto =
 certificate-ask =
     .label = שאל אותי תמיד
     .accesskey = מ
+
+## DoH Section
+
+
+## Keyservers
+
 
 ## Chat Tab
 
@@ -420,7 +504,7 @@ idle-label =
     .accesskey = פ
 idle-time-label = דקות של חוסר פעילות
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = ולהגדיר את המצב למרוחק עם הודעה מצב זו:
@@ -481,6 +565,27 @@ chat-variant-label =
     .value = הגוון:
     .accesskey = ג
 
+## Content of the preview conversation for chat message styles.
+
+chat-theme-preview-default =
+    .label = בררת מחדל
+chat-theme-preview-nick-1 = יסמין
+chat-theme-preview-buddy-1 = jasmine@im.instantbird.org
+chat-theme-preview-nick-2 = אלון
+chat-theme-preview-buddy-2 = alon@im.instantbird.org
+chat-theme-preview-message-1 = היי! :-)
+chat-theme-preview-message-2 = מה המצב?
+chat-theme-preview-message-3 = עושה ניסוי עם { -brand-short-name }! ;-)
+
 ## Settings UI Search Results
 
 search-results-help-link = לעזרה נוספת, נא לפנות אל <a data-l10n-name="url">אתר התמיכה של { -brand-short-name }</a>
+
+## Sync Tab
+
+
+## Mobile QR Export Pane
+
+
+## Appearance Tab
+

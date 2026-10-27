@@ -165,6 +165,7 @@ tray-icon-unread-description = Yettuwelleh deg useqdec n tqeffalin timeẓẓyan
 mail-system-sound-label =
     .label = Imesli n unagraw amezwer i yimayl amaynut
     .accesskey = D
+sound-file-picker-title = Fren imesli
 mail-custom-sound-label =
     .label = Seqdec afaylu n imesli-agi
     .accesskey = S
@@ -175,6 +176,16 @@ enable-gloda-search-label =
     .label = Rmed anadi amatu akked timerna n ukatar
     .accesskey = m
 datetime-formatting-legend = Amsal n uzemz akked wakud
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Asnas adigan: { $localeName }
+    .accesskey = s
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Iγewwaṛen diganen n temnaḍt i: { $localeName }
+    .accesskey = z
 language-selector-legend = Tutlayt
 allow-hw-accel =
     .label = Seqdec tasɣiwelt n warrum ma tella
@@ -249,6 +260,13 @@ offline-settings = Swel iɣewwaṛan n uskar aruqqin
 offline-settings-button =
     .label = Aruqqin…
     .accesskey = r
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Tuffir inek tseqdac { $size } { $unit } n umkan deg udebṣi
+actual-disk-cache-size-calculating =
+    .value = Asiḍen n teɣzi n tuffirt…
 diskspace-legend = Tallunt n udebṣi
 offline-compact-folder =
     .label = Ssed akk ikaramen ma yella ad yeḥrez amkan ugar n
@@ -318,6 +336,47 @@ search-handler-table =
     .placeholder = Sizdeg anawen d tigawin n ugbur
 type-column-header = Tawsit n ugbur
 action-column-header = Tigawt
+download-folder-desktop = Tanarit
+download-folder-system = Isidar-iw
+download-choose-folder-title = Fren akaram
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = Afaylu { $extension }
+applications-save-file = Sekles afaylu
+    .label = Sekles afaylu
+    .tooltiptext = Sekles afaylu
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Seqdec { $appName }
+    .label = Seqdec { $appName }
+    .tooltiptext = Seqdec { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Seqdec { $appName } (amezwer)
+    .label = Seqdec { $appName } (amezwer)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Seqdec wayeḍ…
+    .tooltiptext = Seqdec wayeḍ…
+applications-choose-app-title = Seqdec asnas azɣaray
+applications-manage-app =
+    .label = Aglam leqqayen n usnas…
+applications-always-ask = Sutur yal tikelt
+    .label = Sutur yal tikelt
+    .tooltiptext = Sutur yal tikelt
+applications-delete-action =
+    .label = Kkes tigawt
+applications-delete-action-title = Kkes tigawt
+applications-delete-action-confirm = Tebɣiḍ ad tekseḍ tigawt-agi?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Portable Document Format (PDF)
+applications-preview-in-app = Sken deg { -brand-short-name }
+    .label = Sken deg { -brand-short-name }
+    .tooltiptext = Sken deg { -brand-short-name }
 save-to-label =
     .label = Sekles ifuyla ɣeṛ
     .accesskey = k
@@ -359,6 +418,10 @@ mark-read-delay =
     .label = Ticki yettwaskan di
     .accesskey = T
 seconds-label = tasinin
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -482,6 +545,16 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Af-d ugar n yisaǧǧawen...
 cloud-account-description = Rnu ameẓlu n usekles n useɣwen n ufaylu amaynut
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Rnu { $providerName }
+    .tooltiptext = Rnu { $providerName }
+filelink-account-not-configured =
+    .title = Amiḍan ur yettusbadu ara yakan
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Tebɣiḍ ad tekkseḍ amiḍan "{ $accountName }"?
 
 ## Privacy Tab
 
@@ -526,6 +599,8 @@ primary-password-button =
     .accesskey = C
 forms-primary-pw-fips-title = Aql-ak·akem tura deg uskar FIPS. FPIS yesra awal uffir agejdan arilem.
 forms-master-pw-fips-desc = Asnifel n wawal uffir ur yeddi ara
+confirm-reset-junk-training-title = Sentem
+confirm-reset-junk-training-message = S tidett tebɣiḍ ad wennzeḍ isefka n usluɣmu n imzigdig aserwestan?
 phishing-description = { -brand-short-name } yezmer ad yesleḍ iznan igebren imaylen n ukellex s unadi n tetikniyin yettwasnen i yettuseqdacen akken ak-kelxen.
 phishing-label =
     .label = Ini-d ma yella izen-agi ad ɣareɣ akka tura d imayl n ukellex
@@ -551,6 +626,12 @@ security-devices-button =
     .label = Ibenkan n tɣellist…
     .accesskey = k
 
+## DoH Section
+
+
+## Keyservers
+
+
 ## Chat Tab
 
 startup-label =
@@ -572,7 +653,7 @@ idle-label =
     .accesskey = I
 idle-time-label = tisdatin anda ulac-iyi
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = u sbadu addad inu ɣer Ulac-it s yizen-agi n waddad
@@ -647,6 +728,18 @@ search-preferences-input2 =
     .placeholder = Af deg yiɣewwaren
     .style = width: 15.4em
 
+## Content of the preview conversation for chat message styles.
+
+chat-theme-preview-default =
+    .label = Amezwer
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Azul! :-)
+chat-theme-preview-message-2 = Tgerrez?
+chat-theme-preview-message-3 = Ttaεraḍeγ { -brand-short-name }! ;-)
+
 ## Settings UI Search Results
 
 search-results-header = Igmaḍ n unadi
@@ -693,3 +786,9 @@ show-synced-item-calendar = Iwitayen
 show-synced-item-identity = Timagin
 show-synced-item-passwords = Awalen uffiren
 show-synced-change = Snifel...
+
+## Mobile QR Export Pane
+
+
+## Appearance Tab
+

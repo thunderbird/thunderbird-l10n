@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
@@ -247,3 +250,24 @@ apply-current-columns-to-folder-message = أتريد تطبيق أعمدة ال�
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = أتريد تطبيق أعمدة المجلد الحالي على { $name } وما بداخله؟
+
+## Folder pane context menu
+
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = احذف المجلد
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = اح&ذف المجلد
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = هل أنت متأكد أنك تريد حذف المجلد '{ $name }'؟
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = حذف هذا المجلد ممكن، وسيتسبب بحذف كل الرسائل التي يحتويها وبحذف مجلداته الفرعية. هل أنت متأكد من رغبتك بحذف المجلد '{ $name }'؟
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = سيعطل حذف المجلد '{ $name }' المرشِّحات المرتبطة به. أمتأكد أنك تريد حذف هذا المجلد؟

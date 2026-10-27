@@ -4,3 +4,6 @@
 
 shortcuts-close-button-title =
     .title = Užverti
+shortcuts-close-button =
+    .title = Užverti
+    .aria-label = Užverti

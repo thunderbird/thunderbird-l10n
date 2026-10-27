@@ -164,6 +164,7 @@ tray-icon-unread-description = Рекомендовано коли викори�
 mail-system-sound-label =
     .label = Типовий системний звук сповіщення про надходження нових листів
     .accesskey = з
+sound-file-picker-title = Виберіть звуковий сигнал
 mail-custom-sound-label =
     .label = Використовувати такий звуковий файл
     .accesskey = В
@@ -174,6 +175,16 @@ enable-gloda-search-label =
     .label = Увімкнути глобальний пошук та індексацію
     .accesskey = і
 datetime-formatting-legend = Формат дати та часу
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Мова програми: { $localeName }
+    .accesskey = М
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Регіональні налаштування: { $localeName }
+    .accesskey = Р
 language-selector-legend = Мова
 allow-hw-accel =
     .label = Використовувати апаратне прискорення, якщо можливо
@@ -256,6 +267,13 @@ offline-settings = Налаштуйте параметри автономног�
 offline-settings-button =
     .label = Автономний режим…
     .accesskey = А
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Ваш кеш зараз займає { $size } { $unit } дискового простору
+actual-disk-cache-size-calculating =
+    .value = Обчислення розміру кешу…
 diskspace-legend = Дисковий простір
 offline-compact-folder =
     .label = Стискати всі теки, якщо це звільнить більш ніж
@@ -328,6 +346,47 @@ search-handler-table =
     .placeholder = Фільтрувати типи вмісту та дії
 type-column-header = Тип вмісту
 action-column-header = Дія
+download-folder-desktop = Робочий стіл
+download-folder-system = Мої завантаження
+download-choose-folder-title = Вибрати теку
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension } файл
+applications-save-file = Зберегти файл
+    .label = Зберегти файл
+    .tooltiptext = Зберегти файл
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Використовувати { $appName }
+    .label = Використовувати { $appName }
+    .tooltiptext = Використовувати { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Використовувати { $appName } (типово)
+    .label = Використовувати { $appName } (типово)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Використовувати іншу…
+    .tooltiptext = Використовувати іншу…
+applications-choose-app-title = Виберіть допоміжну програму
+applications-manage-app =
+    .label = Подробиці програми…
+applications-always-ask = Завжди питати
+    .label = Завжди питати
+    .tooltiptext = Завжди питати
+applications-delete-action =
+    .label = Стерти дію
+applications-delete-action-title = Стерти дію
+applications-delete-action-confirm = Чи ви певні що хочете стерти цю дію?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Portable Document Format (PDF)
+applications-preview-in-app = Переглядати в { -brand-short-name }
+    .label = Переглядати в { -brand-short-name }
+    .tooltiptext = Переглядати в { -brand-short-name }
 save-to-label =
     .label = Зберігати файли до
     .accesskey = З
@@ -372,6 +431,10 @@ mark-read-delay =
     .label = Після відкриття через
     .accesskey = я
 seconds-label = секунд
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -532,6 +595,16 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Знайти більше провайдерів…
 cloud-account-description = Додати нову службу зберігання Filelink
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Додати { $providerName }
+    .tooltiptext = Додати { $providerName }
+filelink-account-not-configured =
+    .title = Цей обліковий запис ще не налаштований
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Ви впевнені, що хочете вилучити обліковий запис "{ $accountName }"?
 
 ## Privacy Tab
 
@@ -587,6 +660,8 @@ primary-password-button =
     .accesskey = і
 forms-primary-pw-fips-title = Зараз ви в режимі FIPS. Для цього режиму необхідно встановити головний пароль.
 forms-master-pw-fips-desc = Не вдалося змінити пароль
+confirm-reset-junk-training-title = Підтвердження
+confirm-reset-junk-training-message = Ви впевнені, що хочете спростувати всі дані адаптивного спам-фільтру?
 phishing-description = { -brand-short-name } може аналізувати повідомлення на предмет шахрайства, виявляючи усталені методи обману.
 phishing-label =
     .label = Повідомляти мене, якщо я читаю повідомлення схоже на шахрайське
@@ -627,6 +702,12 @@ email-e2ee-automatism-post =
     Автоматичні рішення можна перевизначити, увімкнувши або вимкнувши шифрування вручну під час написання повідомлення.
     Примітка: шифрування завжди вмикається автоматично під час відповіді на зашифроване повідомлення.
 
+## DoH Section
+
+
+## Keyservers
+
+
 ## Chat Tab
 
 startup-label =
@@ -648,7 +729,7 @@ idle-label =
     .accesskey = я
 idle-time-label = хвилин неактивності
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = та встановлювати мені статус Відійшов із повідомленням статусу:
@@ -722,6 +803,18 @@ chat-variant-label =
 search-preferences-input2 =
     .placeholder = Знайти в налаштуваннях
     .style = width: 15.4em
+
+## Content of the preview conversation for chat message styles.
+
+chat-theme-preview-default =
+    .label = Типово
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Привіт! :-)
+chat-theme-preview-message-2 = Як справи?
+chat-theme-preview-message-3 = Я випробовую { -brand-short-name }! ;-)
 
 ## Settings UI Search Results
 
@@ -839,3 +932,6 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Включно з паролями
 qr-export-summary-passwords-excluded = За винятком паролів
 qr-export-more-accounts = Експортувати інші облікові записи
+
+## Appearance Tab
+

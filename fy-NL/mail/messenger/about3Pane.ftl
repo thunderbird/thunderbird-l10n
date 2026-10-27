@@ -577,3 +577,21 @@ folder-pane-context-compact =
 folder-pane-context-compact-all =
     .label = Alle mappen komprimearje
     .accesskey = m
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = Map fuortsmite
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = Map &fuortsmite
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = Binne jo wis dat jo de map ‘{ $name }’ fuortsmite wolle?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = Fuortsmiten fan dizze map kin net ûngedien makke wurde en sil alle berjochten en submappen dy’t deryn sitte fuortsmite. Binne jo wis dat jo de map ‘{ $name }’ fuortsmite wolle?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = It fuortsmiten fan de map ‘{ $name }’ skeakelet de filters dy’t dêrmei ferbûn binne út. Binne jo der wis fan dat jo dizze map fuortsmite wolle?

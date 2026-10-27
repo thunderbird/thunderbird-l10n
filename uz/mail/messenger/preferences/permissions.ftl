@@ -2,6 +2,10 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+remote-content-permissions-title = Istisnolar – Masofadagi tarkib
+remote-content-permissions-description = Siz qaysi saytlardan rasmlar va boshqa masofdagi saytlardan yuklashga ruxsat berishni ko‘rsatishingiz mumkin. Shuningdek,barcha masofadagi saytga asoslangan jo‘natuvchi e-pochta manzillariga ham ruxsat berishingiz mumkin. Boshqariladigan e-pochta yoki sayt manzilini yozing va "Bloklash" yoki "Ruxsat berish"ga bosing
+cookie-permissions-title = Istisnolar – Kukilar
+cookie-permissions-description = Siz xohlagan saytingizga kukilardan doimo foydalanishi yoki hech qachon foydalanmasligini ko‘rsatishingiz mumkin.  Oʻsha saytning manzilini yozing. Soʻngra "Bloklash", "Seans uchun ruxsat berish" yoki "Ruxsat berish"ni bosing.
 website-address-label =
     .value = Vebsayt manzili:
     .accesskey = m

@@ -4,3 +4,6 @@
 
 shortcuts-close-button-title =
     .title = Začinić
+shortcuts-close-button =
+    .title = Začinić
+    .aria-label = Začinić

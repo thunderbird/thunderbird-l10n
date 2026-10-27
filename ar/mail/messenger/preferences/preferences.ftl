@@ -41,6 +41,9 @@ confirm-messenger-language-change-button = طبِّق وأعِد التشغيل
 update-setting-write-failure-title = حدث عُطل أثناء تحديث التفضيلات
 update-in-progress-title = يجري الآن التحديث
 
+## OS Authentication dialog
+
+
 ## General Tab
 
 focus-search-shortcut =
@@ -83,6 +86,7 @@ animated-alert-label =
 customize-alert-label =
     .label = خصّص…
     .accesskey = خ
+sound-file-picker-title = اختر ملفًا صوتيًا
 mail-custom-sound-label =
     .label = استخدم ملف الصوت التالي
     .accesskey = س
@@ -93,6 +97,16 @@ enable-gloda-search-label =
     .label = فعّل البحث العمومي والفهرسة
     .accesskey = ف
 datetime-formatting-legend = تنسيق التاريخ و الوقت
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = محليّة التطبيق: { $localeName }
+    .accesskey = ح
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = محلية الإعدادات المحلية: { $localeName }
+    .accesskey = ع
 language-selector-legend = اللغة
 allow-hw-accel =
     .label = استخدم تسريع العتاد إن كان متاحًا
@@ -162,6 +176,13 @@ offline-settings = اضبط إعدادات طور اللا اتصال
 offline-settings-button =
     .label = غير متصل…
     .accesskey = ص
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = تستخدم الذاكرة الخبيئة حاليًا { $size }‏ { $unit } من مساحة القرص
+actual-disk-cache-size-calculating =
+    .value = يحسب حجم الذاكرة الخبيئة…
 diskspace-legend = مساحة القرص
 offline-compact-folder =
     .label = ادمج كل المجلدات إذا كانت ستوفِّر أكثر من
@@ -224,6 +245,43 @@ smaller-size-item =
 quoted-text-color =
     .label = اللون:
     .accesskey = ل
+download-folder-desktop = سطح المكتب
+download-folder-system = التنزيلات
+download-choose-folder-title = اختر مجلدًا
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = ملف { $extension }
+applications-save-file = احفظ الملف
+    .label = احفظ الملف
+    .tooltiptext = احفظ الملف
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = استخدم { $appName }
+    .label = استخدم { $appName }
+    .tooltiptext = استخدم { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = استخدم { $appName } (المبدئي)
+    .label = استخدم { $appName } (المبدئي)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = استخدم تطبيقًا آخر…
+    .tooltiptext = استخدم تطبيقًا آخر…
+applications-choose-app-title = اختر التطبيق المساعد
+applications-manage-app =
+    .label = تفاصيل التطبيق…
+applications-always-ask = اسأل دائمًا
+    .label = اسأل دائمًا
+    .tooltiptext = اسأل دائمًا
+applications-delete-action =
+    .label = احذف الإجراء
+applications-delete-action-title = احذف الإجراء
+applications-delete-action-confirm = أمتأكد أنك تريد حذف هذا الإجراء؟
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
 save-to-label =
     .label = احفظ الملفات في
     .accesskey = ف
@@ -265,6 +323,10 @@ mark-read-delay =
     .label = بعد العرض لمدة
     .accesskey = ض
 seconds-label = ثانية
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -375,6 +437,9 @@ remove-cloud-account =
     .label = أزِل
     .accesskey = ل
 cloud-account-description = أضِف خدمة تخزين ملفات على الإنترنت جديدة
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = أمتأكد أنك تريد حذف الحساب ”{ $accountName }“؟
 
 ## Privacy Tab
 
@@ -410,6 +475,8 @@ passwords-description = يستطيع { -brand-short-name } تذكر معلوما
 passwords-button =
     .label = كلمات السر المحفوظة…
     .accesskey = س
+confirm-reset-junk-training-title = أكّد
+confirm-reset-junk-training-message = أمتأكّد أنك تريد تصفير بيانات تدريب المُرشِّح المتكيِّف؟
 phishing-description = يستطيع { -brand-short-name } تحليل الرسائل واكتشاف بريد الاحتيال المحتمل بالبحث عن وسائل الاحتيال الشهيرة.
 phishing-label =
     .label = أخبرني إذا كانت الرسالة التي أقرأ بريد احتيال محتمل
@@ -428,6 +495,12 @@ certificate-ask =
 ocsp-label =
     .label = استعلم من خواديم مستجيبي OCSP عن الصلاحية الحالية للشهادات
     .accesskey = س
+
+## DoH Section
+
+
+## Keyservers
+
 
 ## Chat Tab
 
@@ -450,7 +523,7 @@ idle-label =
     .accesskey = ع
 idle-time-label = دقائق من عدم النشاط
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = واجعل حالتي غائب مع هذه الرسالة:
@@ -511,3 +584,27 @@ no-preview-description = ليست هذه السمة صحيحة أو ربما غ�
 chat-variant-label =
     .value = التنويعة:
     .accesskey = ع
+
+## Content of the preview conversation for chat message styles.
+
+chat-theme-preview-default =
+    .label = المبدئي
+chat-theme-preview-nick-1 = خالد
+chat-theme-preview-buddy-1 = khaled@im.instantbird.org
+chat-theme-preview-nick-2 = حسام
+chat-theme-preview-buddy-2 = hussam@im.instantbird.org
+chat-theme-preview-message-1 = مرحبا! :-)
+chat-theme-preview-message-2 = ماذا يجري؟
+chat-theme-preview-message-3 = أجرّب { -brand-short-name }! ;-)
+
+## Settings UI Search Results
+
+
+## Sync Tab
+
+
+## Mobile QR Export Pane
+
+
+## Appearance Tab
+

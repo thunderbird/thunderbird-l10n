@@ -173,6 +173,7 @@ tray-icon-unread-description = Gomendagarria zeregin-barra botoi txikiak erabilt
 mail-system-sound-label =
     .label = Lehenetsitako sistema-soinua posta berriarentzat
     .accesskey = s
+sound-file-picker-title = Aukeratu soinua
 mail-custom-sound-label =
     .label = Erabili hurrengo soinu-fitxategia
     .accesskey = u
@@ -183,6 +184,16 @@ enable-gloda-search-label =
     .label = Gaitu bilaketa orokorra eta indexatzailea
     .accesskey = i
 datetime-formatting-legend = Data eta denboraren formatua
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Aplikazio lokala: { $localeName }
+    .accesskey = l
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Eskualde ezarpen lokala: { $localeName }
+    .accesskey = E
 language-selector-legend = Hizkuntza
 allow-hw-accel =
     .label = Erabili hardware azelerazioa erabilgarri dagoenean
@@ -268,6 +279,13 @@ offline-settings = Konfiguratu lineaz kanpoko ezarpenak
 offline-settings-button =
     .label = Lineaz kanpo…
     .accesskey = o
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Zure cachea une honetan { $size } { $unit } ari da erabiltzen diskoan
+actual-disk-cache-size-calculating =
+    .value = Cache tamaina kalkulatzen…
 diskspace-legend = Diskoko lekua
 offline-compact-folder =
     .label = Trinkotu karpeta guztiak hau baino gehiago aurrezten denean:
@@ -344,6 +362,47 @@ search-handler-table =
     .placeholder = Iragazi eduki mota eta ekintzak
 type-column-header = Eduki mota
 action-column-header = Ekintza
+download-folder-desktop = Mahaigaina
+download-folder-system = Nire deskargak
+download-choose-folder-title = Hautatu karpeta
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension } fitxategia
+applications-save-file = Gorde fitxategia
+    .label = Gorde fitxategia
+    .tooltiptext = Gorde fitxategia
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Erabili { $appName }
+    .label = Erabili { $appName }
+    .tooltiptext = Erabili { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = { $appName } erabili (lehenetsia)
+    .label = { $appName } erabili (lehenetsia)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Erabili beste bat…
+    .tooltiptext = Erabili beste bat…
+applications-choose-app-title = Hautatu aplikazio laguntzailea
+applications-manage-app =
+    .label = Aplikazio xehetasunak…
+applications-always-ask = Beti eskatu
+    .label = Beti eskatu
+    .tooltiptext = Beti eskatu
+applications-delete-action =
+    .label = Ezabatu ekintza
+applications-delete-action-title = Ezabatu ekintza
+applications-delete-action-confirm = Ziur zaude ekintza hau ezabatu nahi duzula?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Portable Document Format (PDF)
+applications-preview-in-app = Aurreikusi { -brand-short-name }(e)n
+    .label = Aurreikusi { -brand-short-name }(e)n
+    .tooltiptext = Aurreikusi { -brand-short-name }(e)n
 save-to-label =
     .label = Gorde fitxategiak hemen:
     .accesskey = G
@@ -388,6 +447,10 @@ mark-read-delay =
     .label = Denbora batez bistaratu eta gero:
     .accesskey = e
 seconds-label = segundoz
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -557,6 +620,16 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Bilatu hornitzaile gehiago…
 cloud-account-description = Gehitu Filelink biltegiratze-zerbitzu berri bat
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Gehitu { $providerName }
+    .tooltiptext = Gehitu { $providerName }
+filelink-account-not-configured =
+    .title = Kontu hau konfiguratzeke dago
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Ziur zaude "{ $accountName }" kontua ezabatu nahi duzula?
 
 ## Privacy Tab
 
@@ -612,6 +685,8 @@ primary-password-button =
     .accesskey = A
 forms-primary-pw-fips-title = Une honetan FIPS moduan zaude. FIPS moduak pasahitz nagusia ezartzea eskatzen du.
 forms-master-pw-fips-desc = Pasahitz aldaketak huts egin du
+confirm-reset-junk-training-title = Berretsi
+confirm-reset-junk-training-message = Ziur iragazki moldakorraren trebatze datuak berrezarri nahi dituzula?
 phishing-description = { -brand-short-name }(e)k mezuak azter ditzake posta-iruzurrak bilatzeko, iruzur egiteko erabil daitezkeen oinarrizko teknikak begiratuz.
 phishing-label =
     .label = Esaidazu irakurtzen ari naizen mezua posta-iruzurra izan daitekeen
@@ -677,6 +752,9 @@ preferences-doh-url-custom =
     .label = Pertsonalizatua
     .accesskey = P
 
+## Keyservers
+
+
 ## Chat Tab
 
 startup-label =
@@ -698,7 +776,7 @@ idle-label =
     .accesskey = i
 idle-time-label = minutu ondoren
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = eta ezarri nire egoera Kanpoan egoera-mezu honekin:
@@ -773,6 +851,18 @@ search-preferences-input2 =
     .placeholder = Bilatu ezarpenetan
     .style = width: 15.4em
 managed-notice = { -brand-short-name } zure erakundeak kudeatzen du.
+
+## Content of the preview conversation for chat message styles.
+
+chat-theme-preview-default =
+    .label = Lehenetsia
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Kaixo! :-)
+chat-theme-preview-message-2 = Ze berri txo?
+chat-theme-preview-message-3 = { -brand-short-name } probatzen nabil! ;-)
 
 ## Settings UI Search Results
 

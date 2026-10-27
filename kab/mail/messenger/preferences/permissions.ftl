@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 permissions-dialog-title = Tisuraf
+remote-content-permissions-title = Tisuraf - Agbur anmeggag
+remote-content-permissions-description = Tzemreḍ ad tmuddeḍ anta tugniwin n yesmal web neɣ agbur nniḍen anmeggag ara yettwasirgen i usali. Tzemreḍ daɣen ad tesirgeḍ agbur anmeggag yebnan qef tansa imayl n umazan. Aru tansa n usmel neɣ imayl i tebɣiḍ ad yettusefrek sakin sit ɣef Sewḥel neɣ Sireg.
+cookie-permissions-title = Tisuraf - Inagan n tuqqna
+cookie-permissions-description = Tzemreḍ ad muddeḍ isemlen web yellan yal tikkelt neɣ werǧin llan seqdacen inagan n tuqqna.  Mudd-d tansa n usmel sakin sit ɣef Sewḥel, Sireg i tɣimit neɣ Sireg.
 website-address-label =
     .value = Tansa n usmel web:
     .accesskey = n

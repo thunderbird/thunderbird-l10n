@@ -506,3 +506,21 @@ folder-pane-context-mark-folder-read =
            *[other] Crnueḍ ikaramen ttwaɣran
         }
     .accesskey = k
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = Kkes akaram
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = &Kkes akaram
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = Tebɣiḍ ad tekkseḍ akaram '{ $name }'?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = Tukksa n ukaram-agi ur tettuɣal ara ɣer deffir udiɣ ad tekkes akk iznan yegber, akked ikaramen. Tebɣiḍ ad tekkseḍ akaram '{ $name }'?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Tukksa n ukaram '{ $name }' ad yekkes armad n yimsizdigen icudden ɣur-s. Tebɣiḍ ad tekkseḍ akaram?

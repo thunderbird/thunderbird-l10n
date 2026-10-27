@@ -157,6 +157,7 @@ tray-icon-unread-description = Rekomenduojama kai naudojate mažus užduočių j
 mail-system-sound-label =
     .label = Sistemos numatytasis garsas gavus naują laišką
     .accesskey = S
+sound-file-picker-title = Garso failo parinkimas
 mail-custom-sound-label =
     .label = Naudoti kitą garso failą:
     .accesskey = u
@@ -167,6 +168,16 @@ enable-gloda-search-label =
     .label = Įjungti globalią laiškų paiešką ir indeksavimą
     .accesskey = g
 datetime-formatting-legend = Datos ir laiko formatas
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Programos lokalė: { $localeName }
+    .accesskey = o
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Regiono lokalė: { $localeName }
+    .accesskey = e
 language-selector-legend = Kalba
 allow-hw-accel =
     .label = Jei įmanoma, naudoti aparatinį spartinimą
@@ -238,6 +249,13 @@ offline-settings = Parinkite darbo neprisijungus prie tinklo nuostatas
 offline-settings-button =
     .label = Darbas neprisijungus prie tinklo…
     .accesskey = D
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Jūsų podėlis šiuo metu užima { $size } { $unit } vietos diske
+actual-disk-cache-size-calculating =
+    .value = Skaičiuojamas podėlio dydis…
 diskspace-legend = Disko atmintis
 offline-compact-folder =
     .label = Suglaudinti visus aplankus, jei sumoje tai padės sutaupyti daugiau kaip
@@ -302,6 +320,47 @@ quoted-text-color =
     .accesskey = C
 search-handler-table =
     .placeholder = Filtruoti pagal turinio tipus ir veiksmus
+download-folder-desktop = Darbalaukis
+download-folder-system = Atsiuntimų aplankas
+download-choose-folder-title = Aplanko įrašomiems priedams parinkimas
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension } failas
+applications-save-file = Įrašyti failą
+    .label = Įrašyti failą
+    .tooltiptext = Įrašyti failą
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Atverti programa „{ $appName }“
+    .label = Atverti programa „{ $appName }“
+    .tooltiptext = Atverti programa „{ $appName }“
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Atverti programa „{ $appName }“ (numatyta)
+    .label = Atverti programa „{ $appName }“ (numatyta)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Parinkti kitą programą…
+    .tooltiptext = Parinkti kitą programą…
+applications-choose-app-title = Atveriančiosios programos parinkimas
+applications-manage-app =
+    .label = Programų savybės…
+applications-always-ask = Visada klausti
+    .label = Visada klausti
+    .tooltiptext = Visada klausti
+applications-delete-action =
+    .label = Pašalinti veiksmą
+applications-delete-action-title = Veiksmo šalinimas
+applications-delete-action-confirm = Ar tikrai norite pašalinti šį veiksmą?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = PDF formato dokumentas
+applications-preview-in-app = Peržiūrėti naudojant „{ -brand-short-name }“
+    .label = Peržiūrėti naudojant „{ -brand-short-name }“
+    .tooltiptext = Peržiūrėti naudojant „{ -brand-short-name }“
 save-to-label =
     .label = Įrašyti failus į aplanką
     .accesskey = f
@@ -343,6 +402,10 @@ mark-read-delay =
     .label = praėjus
     .accesskey = p
 seconds-label = sek.
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -461,6 +524,16 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Rasti daugiau teikėjų…
 cloud-account-description = Pridėkite failų talpinimo debesyje tarnybą
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Pridėti „{ $providerName }“?
+    .tooltiptext = Pridėti „{ $providerName }“?
+filelink-account-not-configured =
+    .title = Ši paskyra dar nebuvo sukonfigūruota
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Ar tikrai norite pašalinti paskyrą „{ $accountName }“?
 
 ## Privacy Tab
 
@@ -505,6 +578,8 @@ primary-password-button =
     .accesskey = P
 forms-primary-pw-fips-title = Šiuo metu pasirinkta FIPS veiksena. Jai reikia pagrindinio slaptažodžio.
 forms-master-pw-fips-desc = Slaptažodžio pakeisti nepavyko
+confirm-reset-junk-training-title = Patvirtinimas
+confirm-reset-junk-training-message = Ar tikrai atstatyti adaptyviojo filtro apmokymo duomenis?
 phishing-description = Analizuodama gaunamus laiškus programa „{ -brand-short-name }“ gali patikrinti, ar jais nebandoma jūsų apgauti.
 phishing-label =
     .label = Tikrinti, ar gaunamuose laiškuose nėra apgaulės
@@ -530,6 +605,12 @@ security-devices-button =
     .label = Saugumo priemonės…
     .accesskey = D
 
+## DoH Section
+
+
+## Keyservers
+
+
 ## Chat Tab
 
 startup-label =
@@ -551,7 +632,7 @@ idle-label =
     .accesskey = n
 idle-time-label = min.
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = ir pakeisti būseną į „nesu“, nurodant šį būsenos pranešimą:
@@ -613,11 +694,29 @@ chat-variant-label =
     .value = Variantas:
     .accesskey = V
 
+## Content of the preview conversation for chat message styles.
+
+chat-theme-preview-default =
+    .label = Numatytasis
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Labas! :-)
+chat-theme-preview-message-2 = Kas gero?
+chat-theme-preview-message-3 = Bandau { -brand-short-name }! ;-)
+
 ## Settings UI Search Results
 
 search-results-header = Paieškos rezultatai
 search-results-help-link = Reikia pagalbos? Aplankykite <a data-l10n-name="url">„{ -brand-short-name }“</a>
 
+## Sync Tab
+
+
 ## Mobile QR Export Pane
 
 qr-export-start-export = Eksportuoti
+
+## Appearance Tab
+

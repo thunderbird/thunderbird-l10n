@@ -109,6 +109,7 @@ animated-alert-label =
 customize-alert-label =
     .label = Saincheap…
     .accesskey = c
+sound-file-picker-title = Roghnaigh Fuaim
 mail-custom-sound-label =
     .label = Úsáid an comhad fuaime seo
     .accesskey = u
@@ -119,6 +120,16 @@ enable-gloda-search-label =
     .label = Cumasaigh Cuardach Cuimsitheach agus an tInneacsóir
     .accesskey = e
 datetime-formatting-legend = Formáidiú Dáta agus Ama
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Teanga an fheidhmchláir: { $localeName }
+    .accesskey = g
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Teanga sna socruithe: { $localeName }
+    .accesskey = n
 language-selector-legend = Teanga
 allow-hw-accel =
     .label = Bain úsáid as luasghéarú crua-earraí más féidir
@@ -188,6 +199,13 @@ offline-settings = Cumraigh socruithe as líne
 offline-settings-button =
     .label = As Líne…
     .accesskey = A
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Tá { $size } { $unit } i do thaisce faoi láthair
+actual-disk-cache-size-calculating =
+    .value = Méid na taisce á háireamh…
 diskspace-legend = Spás Diosca
 offline-compact-folder =
     .label = Dlúthaigh fillteáin dá sábhálfadh sé níos mó ná
@@ -251,6 +269,43 @@ quoted-text-color =
     .label = Dath:
     .accesskey = t
 action-column-header = Gníomh
+download-folder-desktop = Deasc
+download-folder-system = Mo Chuid Íoslódálacha
+download-choose-folder-title = Roghnaigh Fillteán
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = Comhad { $extension }
+applications-save-file = Sábháil an Comhad
+    .label = Sábháil an Comhad
+    .tooltiptext = Sábháil an Comhad
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Úsáid { $appName }
+    .label = Úsáid { $appName }
+    .tooltiptext = Úsáid { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Úsáid { $appName } (réamhshocrú)
+    .label = Úsáid { $appName } (réamhshocrú)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Úsáid feidhmchlár eile…
+    .tooltiptext = Úsáid feidhmchlár eile…
+applications-choose-app-title = Roghnaigh Feidhmchlár Cabhrach
+applications-manage-app =
+    .label = Mionsonraí Feidhmchláir…
+applications-always-ask = Fiafraigh díom i gcónaí
+    .label = Fiafraigh díom i gcónaí
+    .tooltiptext = Fiafraigh díom i gcónaí
+applications-delete-action =
+    .label = Scrios an Gníomh
+applications-delete-action-title = Scrios an Gníomh
+applications-delete-action-confirm = An bhfuil tú cinnte gur mian leat an gníomh seo a scriosadh?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
 save-to-label =
     .label = Sábháil comhaid i
     .accesskey = S
@@ -292,6 +347,10 @@ mark-read-delay =
     .label = Tar éis iad a thaispeáint ar feadh
     .accesskey = t
 seconds-label = soicind
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -402,6 +461,9 @@ remove-cloud-account =
     .label = Bain
     .accesskey = B
 cloud-account-description = Cuir seirbhís stórála Filelink leis
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = An bhfuil tú cinnte go dteastaíonn uait an cuntas "{ $accountName }" a bhaint?
 
 ## Privacy Tab
 
@@ -437,6 +499,8 @@ passwords-description = Is féidir le { -brand-short-name } focail fhaire do chu
 passwords-button =
     .label = Focail Fhaire Sábháilte…
     .accesskey = S
+confirm-reset-junk-training-title = Dearbhaigh
+confirm-reset-junk-training-message = An bhfuil tú cinnte go dteastaíonn uait sonraí traenála an scagaire oiriúnaithigh a bhánú?
 phishing-description = Is féidir le { -brand-short-name } camscéimeanna ríomhphoist a lorg i dteachtaireachtaí trí cleasanna coitianta a úsáidtear chun tú a mhealladh a chuardach iontu.
 phishing-label =
     .label = Inis dom má mheastar gur camscéim í an teachtaireacht atá á léamh agam
@@ -455,6 +519,12 @@ certificate-ask =
 ocsp-label =
     .label = Iarr ar fhreastalaí freagróra OCSP bailíocht teastais a dheimhniú
     .accesskey = O
+
+## DoH Section
+
+
+## Keyservers
+
 
 ## Chat Tab
 
@@ -477,7 +547,7 @@ idle-label =
     .accesskey = A
 idle-time-label = nóiméad gan gníomh
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = agus socraigh go bhfuilim Amuigh, leis an teachtaireacht stádais seo:
@@ -519,6 +589,18 @@ style-simple =
     .label = Simplí
 preview-label = Réamhamharc:
 
+## Content of the preview conversation for chat message styles.
+
+
 ## Settings UI Search Results
 
 search-results-header = Torthaí an Chuardaigh
+
+## Sync Tab
+
+
+## Mobile QR Export Pane
+
+
+## Appearance Tab
+

@@ -152,6 +152,7 @@ tray-icon-unread-label =
 mail-system-sound-label =
     .label = Стандартны сістэмны гук для новай пошты
     .accesskey = С
+sound-file-picker-title = Выберыце гук
 mail-custom-sound-label =
     .label = Выкарыстоўваць наступны гукавы файл
     .accesskey = В
@@ -228,6 +229,13 @@ offline-settings = Наладзьце працу па-за сеткаю
 offline-settings-button =
     .label = Па-за сеткай…
     .accesskey = й
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Ваш кэш зараз ужывае { $size } { $unit } дыскавай прасторы
+actual-disk-cache-size-calculating =
+    .value = Падлік памеру кэша…
 diskspace-legend = Месца на дыску
 offline-compact-folder =
     .label = Сціскаць усе папкі, калі пры гэтым вызваліцца больш за
@@ -300,6 +308,43 @@ search-handler-table =
     .placeholder = Фільтр па тыпам змесціва і дзеянням
 type-column-header = Тып змесціва
 action-column-header = Дзеянне
+download-folder-desktop = Працоўны стол
+download-folder-system = Мае загрузкі
+download-choose-folder-title = Выбар папкі
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = файл { $extension }
+applications-save-file = Захаваць файл
+    .label = Захаваць файл
+    .tooltiptext = Захаваць файл
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Ужываць { $appName }
+    .label = Ужываць { $appName }
+    .tooltiptext = Ужываць { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Ужываць { $appName } (змоўчна)
+    .label = Ужываць { $appName } (змоўчна)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Ужыць іншае…
+    .tooltiptext = Ужыць іншае…
+applications-choose-app-title = Выбар прыстасавання-дапаможніка
+applications-manage-app =
+    .label = Падрабязнасці прыстасавання…
+applications-always-ask = Заўсёды пытаць
+    .label = Заўсёды пытаць
+    .tooltiptext = Заўсёды пытаць
+applications-delete-action =
+    .label = Дзеянне выдалення
+applications-delete-action-title = Дзеянне выдалення
+applications-delete-action-confirm = Вы сапраўды хочаце выдаліць гэтае дзеянне?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
 save-to-label =
     .label = Захоўваць файлы ў
     .accesskey = З
@@ -344,6 +389,10 @@ mark-read-delay =
     .label = Пасля паказу на працягу
     .accesskey = п
 seconds-label = секунд(ы)
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -495,6 +544,9 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Знайсці больш дастаўнікаў паслуг…
 cloud-account-description = Дадаць новую службу сховішчаў Filelink
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Вы ўпэўнены, што жадаеце выдаліць уліковы запіс «{ $accountName }»?
 
 ## Privacy Tab
 
@@ -547,6 +599,8 @@ primary-password-button =
     .accesskey = З
 forms-primary-pw-fips-title = Вы працуеце ў рэжыме адпаведнасці FIPS. FIPS патрабуе непусты майстар-пароль.
 forms-master-pw-fips-desc = Не атрымалася змяніць пароль
+confirm-reset-junk-training-title = Сцвярджэнне
+confirm-reset-junk-training-message = Вы сапраўды хочаце скінуць даныя трэнавання прыстасоўных сітаў?
 phishing-description = { -brand-short-name } можа аналізаваць паведамленні для выяўлення патэнцыйных махлярстваў праз электронную пошту шляхам пошуку ў іх распаўсюджаных прыёмаў і тэхнік, якія выкарыстоўваюцца, каб увесці вас у зман.
 phishing-label =
     .label = Паведамляць мяне, калі паведамленне, якое я чытаю, з'яўляецца патэнцыйным махлярствам праз электронную пошту.
@@ -587,6 +641,12 @@ email-e2ee-automatism-post =
     Аўтаматычныя рашэнні можна скасаваць, калі ўключыць або адключыць шыфраванне ўручную пры складанні паведамлення.
     Заўвага: шыфраванне заўсёды аўтаматычна ўключаецца пры адказе на зашыфраваныя паведамленні.
 
+## DoH Section
+
+
+## Keyservers
+
+
 ## Chat Tab
 
 startup-label =
@@ -608,7 +668,7 @@ idle-label =
     .accesskey = б
 idle-time-label = хвілін неактыўнасці
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = і задаць мне статус «Адышоў» з гэтым паведамленнем:
@@ -682,6 +742,18 @@ chat-variant-label =
 search-preferences-input2 =
     .placeholder = Знайсці ў наладах
     .style = width: 15.4em
+
+## Content of the preview conversation for chat message styles.
+
+chat-theme-preview-default =
+    .label = Прадвызначана
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Прывітанне! :-)
+chat-theme-preview-message-2 = Як справы?
+chat-theme-preview-message-3 = Я выпрабоўваю { -brand-short-name }! ;-)
 
 ## Settings UI Search Results
 

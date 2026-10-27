@@ -576,3 +576,21 @@ folder-pane-context-compact =
 folder-pane-context-compact-all =
     .label = Compacter tous les dossiers
     .accesskey = C
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = Supprimer le dossier
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = &Supprimer le dossier
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = Voulez-vous vraiment supprimer le dossier « { $name } » ?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = La suppression de ce dossier sera irréversible et vous perdrez tous les messages qu’il contient ainsi que ses sous-dossiers. Voulez-vous vraiment supprimer le dossier « { $name } » ?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Supprimer le dossier « { $name } » désactivera les filtres associés. Voulez-vous vraiment effacer ce dossier ?

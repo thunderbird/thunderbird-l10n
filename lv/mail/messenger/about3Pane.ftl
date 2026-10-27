@@ -288,3 +288,24 @@ apply-current-columns-to-folder-message = Vai pielietot pašreizējās mapes kol
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Vai pielietot pašreizējās mapes kolonnas { $name } un tās bērniem?
+
+## Folder pane context menu
+
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = Dzēst mapi
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = &Dzēst mapi
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = Vai tiešām vēlaties dzēst mapi '{ $name }'?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = Mapes dzēšanu nevarēs atsaukt un tiks izdzēstas visas tās vēstules un apakšmapes. Vai tiešām vēlaties dzēst mapi '{ $name }'?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Mapes '{ $name }' dzēšana atslēgs ar to saistīto(-s) filtru(-s). Vai tiešām vēlaties dzēst mapi?

@@ -14,6 +14,9 @@ pane-calendar-title = Kalendar
 category-calendar =
     .tooltiptext = Kalendar
 
+## OS Authentication dialog
+
+
 ## General Tab
 
 focus-search-shortcut =
@@ -56,6 +59,7 @@ animated-alert-label =
 customize-alert-label =
     .label = Prilagodi…
     .accesskey = C
+sound-file-picker-title = Odaberi zvuk
 mail-custom-sound-label =
     .label = Koristi sljedeću zvučnu datoteku
     .accesskey = U
@@ -66,6 +70,16 @@ enable-gloda-search-label =
     .label = Omogući globalno pretraživanje i indeksiranje
     .accesskey = e
 datetime-formatting-legend = Oblikovanje datuma i vremena
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Jezik aplikacije: { $localeName }
+    .accesskey = p
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Regionalne postavke jezika: { $localeName }
+    .accesskey = g
 allow-hw-accel =
     .label = Koristi hardversko ubrzanje kada je dostupno
     .accesskey = h
@@ -134,6 +148,13 @@ offline-settings = Podesite offline postavke
 offline-settings-button =
     .label = Offline…
     .accesskey = O
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Vaša predmemorija trenutno zauzima { $size } { $unit } prostora na disku
+actual-disk-cache-size-calculating =
+    .value = Računanje veličine predmemorije…
 diskspace-legend = Prostor na disku
 offline-compact-folder =
     .label = Sažmi sve direktorije kada će uštedjeti više od
@@ -196,6 +217,43 @@ smaller-size-item =
 quoted-text-color =
     .label = Boja:
     .accesskey = o
+download-folder-desktop = Desktop
+download-folder-system = Moja preuzimanja
+download-choose-folder-title = Odaberi direktorij
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension } datoteka
+applications-save-file = Sačuvaj datoteku
+    .label = Sačuvaj datoteku
+    .tooltiptext = Sačuvaj datoteku
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Koristi { $appName }
+    .label = Koristi { $appName }
+    .tooltiptext = Koristi { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Koristi { $appName } (zadano)
+    .label = Koristi { $appName } (zadano)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Koristi drugi…
+    .tooltiptext = Koristi drugi…
+applications-choose-app-title = Odaberi pomoćni program
+applications-manage-app =
+    .label = Pojedinosti o programu…
+applications-always-ask = Uvijek pitaj
+    .label = Uvijek pitaj
+    .tooltiptext = Uvijek pitaj
+applications-delete-action =
+    .label = Izbriši radnju
+applications-delete-action-title = Izbriši radnju
+applications-delete-action-confirm = Jeste li sigurni da želite izbrisati ovu radnju?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
 save-to-label =
     .label = Sačuvaj datoteke u
     .accesskey = S
@@ -237,6 +295,10 @@ mark-read-delay =
     .label = Nakon prikazivanja u trajanju od
     .accesskey = d
 seconds-label = sekundi
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -347,6 +409,9 @@ remove-cloud-account =
     .label = Ukloni
     .accesskey = R
 cloud-account-description = Dodaj novu Filelink uslugu pohrane
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Jeste li sigurni da želite ukloniti račun "{ $accountName }"?
 
 ## Privacy Tab
 
@@ -382,6 +447,8 @@ passwords-description = { -brand-short-name } može zapamtiti lozinke za sve va�
 passwords-button =
     .label = Sačuvane lozinke…
     .accesskey = S
+confirm-reset-junk-training-title = Potvrdi
+confirm-reset-junk-training-message = Jeste li sigurni da želite poništiti naučena pravila filtera neželjene pošte?
 phishing-description = { -brand-short-name } može analizirati poruke e-pošte kako bi otkrio prevaru, tražeći tehnike koje se često koriste da bi vas zavarali.
 phishing-label =
     .label = Obavjesti me ako se sumnja da je poruka koju čitam prevara
@@ -400,6 +467,12 @@ certificate-ask =
 ocsp-label =
     .label = Upitaj OCSP responsder servere za potvrdu ispravnosti certifikata
     .accesskey = U
+
+## DoH Section
+
+
+## Keyservers
+
 
 ## Chat Tab
 
@@ -422,7 +495,7 @@ idle-label =
     .accesskey = I
 idle-time-label = minuta neaktivnosti
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = i postavi moj status na Odsutan s ovom porukom:
@@ -483,3 +556,27 @@ no-preview-description = Ova tema nije važeća ili trenutno nije dostupna (onem
 chat-variant-label =
     .value = Varijanta:
     .accesskey = V
+
+## Content of the preview conversation for chat message styles.
+
+chat-theme-preview-default =
+    .label = Zadano
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Zdravo! :-)
+chat-theme-preview-message-2 = Šta ima?
+chat-theme-preview-message-3 = Isprobavam { -brand-short-name }! ;-)
+
+## Settings UI Search Results
+
+
+## Sync Tab
+
+
+## Mobile QR Export Pane
+
+
+## Appearance Tab
+
