@@ -330,6 +330,10 @@ search-handler-table =
     .placeholder = Filtrar tipos de contenido y acciones
 type-column-header = Tipo de contenido
 action-column-header = Acción
+applications-type-pdf = Portable Document Format (PDF)
+applications-preview-in-app = Vista previa en { -brand-short-name }
+    .label = Vista previa en { -brand-short-name }
+    .tooltiptext = Vista previa en { -brand-short-name }
 save-to-label =
     .label = Guardar archivos en
     .accesskey = G
@@ -374,6 +378,10 @@ mark-read-delay =
     .label = Después de mostrar para
     .accesskey = d
 seconds-label = segundos
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -598,6 +606,12 @@ email-e2ee-automatism-post =
     Las decisiones automáticas pueden anularse al habilitar o deshabilitar manualmente el cifrado al redactar un mensaje.
     Nota: el cifrado siempre se habilita automáticamente al responder a un mensaje cifrado.
 
+## DoH Section
+
+
+## Keyservers
+
+
 ## Chat Tab
 
 startup-label =
@@ -619,7 +633,7 @@ idle-label =
     .accesskey = I
 idle-time-label = minutos de inactividad
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = y establecer mi estado como Ausente con el siguiente mensaje de estado:
@@ -694,6 +708,9 @@ search-preferences-input2 =
     .placeholder = Buscar en ajustes
     .style = width: 15.4em
 
+## Content of the preview conversation for chat message styles.
+
+
 ## Settings UI Search Results
 
 search-results-header = Resultados de la búsqueda
@@ -757,3 +774,6 @@ qr-export-summary-title = Resumen de exportación:
 qr-export-summary-passwords-included = Contraseñas incluidas
 qr-export-summary-passwords-excluded = Contraseñas excluidas
 qr-export-more-accounts = Exportar más cuentas
+
+## Appearance Tab
+
