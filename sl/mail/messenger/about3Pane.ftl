@@ -627,3 +627,6 @@ folder-delete-confirm = Ali želite izbrisati mapo '{ $name }'?
 # Variables:
 #   $name (String) - Name of the folder being deleted.
 folder-delete-no-trash-confirm = Če izbrišete to mapo, je ne boste mogli več obnoviti; izbrisali boste vsa sporočila in vse podmape v njej. Ali res še vedno želite izbrisati mapo '{ $name }'?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Izbris mape '{ $name }' bo tudi onemogočil filtre, ki so z njo povezani. Ali res želite mapo izbrisati?
