@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 permissions-dialog-title = Undtagelser
+remote-content-permissions-title = Undtagelser - eksternt indhold
+remote-content-permissions-description = Du kan angive, fra hvilke websteder billeder og andet eksternt indhold må indlæses. Du kan også tillade alt eksternt indhold baseret på afsenderens mailadresse. Indtast adressen på det websted eller den mailadresse, som du vil redigere tilladelser for, og klik så på Bloker eller Tillad.
+cookie-permissions-title = Undtagelser - Cookies
+cookie-permissions-description = Du kan angive, hvilke websteder der altid har tilladelse eller aldrig har tilladelse til at bruge cookies. Angiv den eksakte adresse på webstedet og klik på Bloker, Tillad for session eller Tillad.
 website-address-label =
     .value = Adresse på websted:
     .accesskey = d
