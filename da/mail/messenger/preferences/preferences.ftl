@@ -271,6 +271,13 @@ offline-settings = Rediger offline-indstillinger
 offline-settings-button =
     .label = Offline…
     .accesskey = O
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Din cache bruger i øjeblikket { $size } { $unit } på disken
+actual-disk-cache-size-calculating =
+    .value = Beregner størrelsen på cache…
 diskspace-legend = Diskplads
 offline-compact-folder =
     .label = Optimer mapper, når det kan spare mere end
@@ -347,6 +354,10 @@ search-handler-table =
     .placeholder = Filtrer indholdstyper og handlinger
 type-column-header = Indholdstype
 action-column-header = Handling
+applications-type-pdf = Portable Document Format (PDF)
+applications-preview-in-app = Vis eksempel i { -brand-short-name }
+    .label = Vis eksempel i { -brand-short-name }
+    .tooltiptext = Vis eksempel i { -brand-short-name }
 save-to-label =
     .label = Gem filer i
     .accesskey = f
@@ -391,6 +402,10 @@ mark-read-delay =
     .label = Efter visning i
     .accesskey = v
 seconds-label = sekunder
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -796,7 +811,7 @@ idle-label =
     .accesskey = i
 idle-time-label = minutter uden aktivitet
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = og vis denne meddelelse:
@@ -871,6 +886,9 @@ search-preferences-input2 =
     .placeholder = Søg i indstillinger
     .style = width: 15.4em
 managed-notice = { -brand-short-name } administreres af din organisation.
+
+## Content of the preview conversation for chat message styles.
+
 
 ## Settings UI Search Results
 
