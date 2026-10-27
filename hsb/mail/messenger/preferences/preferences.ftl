@@ -477,6 +477,10 @@ search-handler-table =
     .placeholder = Wobsahowe typy a akcije filtrować
 type-column-header = Wobsahowy typ
 action-column-header = Akcija
+applications-type-pdf = Portable Document Format (PDF)
+applications-preview-in-app = Přehlad w { -brand-short-name }
+    .label = Přehlad w { -brand-short-name }
+    .tooltiptext = Přehlad w { -brand-short-name }
 save-to-label =
     .label = Dataje składować do
     .accesskey = s
@@ -797,6 +801,13 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Dalšich poskićowarjow namakać…
 cloud-account-description = Nowu składowansku słužbu Filelink přidać
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = { $providerName } přidać
+    .tooltiptext = { $providerName } přidać
+filelink-account-not-configured =
+    .title = Tute konto njeje so hišće konfigurowało
 
 ## Privacy Tab
 
