@@ -2,6 +2,8 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+cookie-permissions-title = Exceptions - Cookies
+cookie-permissions-description = You can specify which web sites are always or never allowed to use cookies.  Type the exact address of the site you want to manage and then click Block, Allow for Session, or Allow.
 website-address-label =
     .value = Address of web site:
     .accesskey = d
