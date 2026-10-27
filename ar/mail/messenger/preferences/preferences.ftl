@@ -97,6 +97,16 @@ enable-gloda-search-label =
     .label = فعّل البحث العمومي والفهرسة
     .accesskey = ف
 datetime-formatting-legend = تنسيق التاريخ و الوقت
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = محليّة التطبيق: { $localeName }
+    .accesskey = ح
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = محلية الإعدادات المحلية: { $localeName }
+    .accesskey = ع
 language-selector-legend = اللغة
 allow-hw-accel =
     .label = استخدم تسريع العتاد إن كان متاحًا
@@ -166,6 +176,13 @@ offline-settings = اضبط إعدادات طور اللا اتصال
 offline-settings-button =
     .label = غير متصل…
     .accesskey = ص
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = تستخدم الذاكرة الخبيئة حاليًا { $size }‏ { $unit } من مساحة القرص
+actual-disk-cache-size-calculating =
+    .value = يحسب حجم الذاكرة الخبيئة…
 diskspace-legend = مساحة القرص
 offline-compact-folder =
     .label = ادمج كل المجلدات إذا كانت ستوفِّر أكثر من
