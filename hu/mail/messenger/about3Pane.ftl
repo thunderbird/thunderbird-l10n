@@ -580,9 +580,18 @@ folder-pane-context-compact-all =
 
 ## Confirmation prompts shown before deleting a folder.
 
+folder-delete-title = Mappa törlése
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = &Mappa törlése
 # Variables:
 #   $name (String) - Name of the folder being deleted.
 folder-delete-confirm = Biztos, hogy törli a mappát: „{ $name }”?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = A mappa törlése nem vonható vissza és az összes, a mappában és annak almappáiban található levél törölve lesz. Biztos, hogy még mindig törölni akarja a mappát: „{ $name }”?
 # Variables:
 #   $name (String) - Name of the folder being deleted.
 folder-delete-filter-confirm = A(z) „{ $name }” mappa törlésével a hozzárendelt szűrők tiltva lesznek. Biztos benne, hogy le akarja törölni a mappát?
