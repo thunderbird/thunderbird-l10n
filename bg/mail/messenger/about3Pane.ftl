@@ -591,3 +591,6 @@ folder-delete-confirm = Сигурен ли сте, че искате да из�
 # Variables:
 #   $name (String) - Name of the folder being deleted.
 folder-delete-no-trash-confirm = Изтриването на тази папка е необратимо и ще изтрие всички писма и подпапки в нея. Искате ли все още да изтриете папка '{ $name }'?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Изтриването на папката '{ $name }' ще изключи асоциираните й филтри. Искате ли да изтриете папката?
