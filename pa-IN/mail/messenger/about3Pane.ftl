@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
@@ -222,3 +225,12 @@ apply-current-columns-to-folder-message = Apply the current folder's columns to 
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Apply the current folder's columns to { $name } and its children?
+
+## Folder pane context menu
+
+
+## Confirmation prompts shown before deleting a folder.
+
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Deleting the folder '{ $name }' will disable its associated filter(s). Are you sure you want to delete the folder?
