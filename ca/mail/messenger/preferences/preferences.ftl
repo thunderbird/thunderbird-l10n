@@ -375,6 +375,10 @@ applications-delete-action-confirm = Segur que voleu suprimir aquesta acció?
 #                                "Portable Document Format (PDF)".
 #   $type (String) - The MIME type of the content, for example "application/pdf".
 applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = PDF (Format de Document Portàtil)
+applications-preview-in-app = Previsualitza al { -brand-short-name }
+    .label = Previsualitza al { -brand-short-name }
+    .tooltiptext = Previsualitza al { -brand-short-name }
 save-to-label =
     .label = Desa els fitxers a
     .accesskey = s
@@ -568,6 +572,13 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Cerqueu més proveïdors…
 cloud-account-description = Afegeix un servei d'emmagatzematge Filelink nou
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Afegeix { $providerName }
+    .tooltiptext = Afegeix { $providerName }
+filelink-account-not-configured =
+    .title = Aquest compte encara no s'ha configurat
 
 ## Privacy Tab
 
