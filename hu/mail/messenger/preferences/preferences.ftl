@@ -807,6 +807,13 @@ remove-cloud-account =
 find-cloud-providers =
     .value = További szolgáltatók keresése…
 cloud-account-description = Adjon hozzá új óriásfájl-küldési tárolószolgáltatást
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = { $providerName } hozzáadása
+    .tooltiptext = { $providerName } hozzáadása
+filelink-account-not-configured =
+    .title = Ez a fiók még nem lett beállítva
 
 ## Privacy Tab
 
