@@ -3,6 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 permissions-dialog-title = Uitzonderingen
+remote-content-permissions-title = Uitzonderingen - Externe inhoud
+remote-content-permissions-description = U kunt opgeven van welke websites afbeeldingen en andere externe inhoud mogen worden geladen. Ook kunt u externe inhoud toestaan op basis van het e-mailadres van de afzender. Typ het adres van de website of het e-mailadres dat u wilt beheren en klik vervolgens op Blokkeren of Toestaan.
 cookie-permissions-title = Uitzonderingen - Cookies
 cookie-permissions-description = U kunt opgeven welke websites altijd of nooit toestemming hebben om cookies te gebruiken. Typ het exacte adres van de website die u wilt beheren en klik vervolgens op Blokkeren, Toestaan voor sessie of Toestaan.
 website-address-label =

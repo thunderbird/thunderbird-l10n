@@ -258,6 +258,16 @@ enable-gloda-search-label =
     .label = Globaal zoeken en indexeren activeren
     .accesskey = G
 datetime-formatting-legend = Datum- en tijdopmaak
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Taal van toepassing: { $localeName }
+    .accesskey = o
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Taal van regionale instellingen: { $localeName }
+    .accesskey = r
 display-language-legend = Weergavetaal
 allow-graphics-accel =
     .label = Grafische versnelling voor soepeler scrollen en prestaties gebruiken
@@ -391,6 +401,13 @@ offline-settings-button =
     .label = Offline…
     .accesskey = O
 temporary-storage-legend = Tijdelijke opslag
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Uw buffer gebruikt momenteel { $size } { $unit } aan schijfruimte
+actual-disk-cache-size-calculating =
+    .value = Buffergrootte berekenen…
 offline-compact-remove-deleted =
     .label = Gegevens uit mappen verwijderen als ze al zijn verwijderd om opslagruimte vrij te maken
     .accesskey = G
@@ -831,6 +848,13 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Meer providers zoeken…
 cloud-account-description = Een nieuwe Filelink-opslagservice toevoegen
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = { $providerName } toevoegen
+    .tooltiptext = { $providerName } toevoegen
+filelink-account-not-configured =
+    .title = Deze account is nog niet geconfigureerd.
 
 ## Privacy Tab
 
