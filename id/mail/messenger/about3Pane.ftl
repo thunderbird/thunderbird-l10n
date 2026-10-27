@@ -535,6 +535,18 @@ folder-pane-context-compact-all =
 
 ## Confirmation prompts shown before deleting a folder.
 
+folder-delete-title = Hapus Folder
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = Hap&us Folder
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = Anda yakin ingin menghapus folder '{ $name }'?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = Menghapus folder ini tidak dapat diurungkan dan akan menghapus semua pesan yang ada di dalamnya, dan sub-foldernya. Anda yakin masih ingin menghapus folder '{ $name }'?
 # Variables:
 #   $name (String) - Name of the folder being deleted.
 folder-delete-filter-confirm = Menghapus folder '{ $name }' akan mematikan filter yang berkaitan. Yakin akan menghapus folder tersebut?
