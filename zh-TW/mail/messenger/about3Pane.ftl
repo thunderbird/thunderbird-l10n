@@ -560,3 +560,12 @@ folder-pane-context-compact =
 folder-pane-context-compact-all =
     .label = 壓實重整所有信件匣
     .accesskey = F
+
+## Confirmation prompts shown before deleting a folder.
+
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = 您確定要刪除信件匣「{ $name }」嗎？
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = 刪除信件匣「{ $name }」會影響到相關的篩選條件。您確定要刪除嗎？
