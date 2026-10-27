@@ -258,6 +258,10 @@ smaller-size-item =
 quoted-text-color =
     .label = B'onil:
     .accesskey = o
+applications-type-pdf = Portable Document Format (PDF)
+applications-preview-in-app = Titz'etb'ëx pa { -brand-short-name }
+    .label = Titz'etb'ëx pa { -brand-short-name }
+    .tooltiptext = Titz'etb'ëx pa { -brand-short-name }
 save-to-label =
     .label = Keyak yakb'äl pa
     .accesskey = y
@@ -421,6 +425,13 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Kekanöx ch'aqa' chik taq ajya'öl…
 cloud-account-description = Titz'aqatisäx jun k'ak'a' Filelink richin kiyakik samaj
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Titz'aqatisäx { $providerName }
+    .tooltiptext = Titz'aqatisäx { $providerName }
+filelink-account-not-configured =
+    .title = K'a man tib'an runuk'ulem re rub'i' taqoya'l re'
 
 ## Privacy Tab
 
