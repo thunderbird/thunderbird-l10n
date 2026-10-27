@@ -233,6 +233,16 @@ enable-gloda-search-label =
     .label = Омогући општу претрагу и пописивање
     .accesskey = О
 datetime-formatting-legend = Форматирање времена и датума
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Језик апликације: { $localeName }
+    .accesskey = п
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Регионално подешавање језика: { $localeName }
+    .accesskey = г
 display-language-legend = Језик приказа
 allow-graphics-accel =
     .label = Употреби убрзање графике за глаткије помицање и бољу делотворност
@@ -366,6 +376,13 @@ offline-settings-button =
     .label = Ван мреже…
     .accesskey = В
 temporary-storage-legend = Привремено складиште
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Ваш кеш тренутно користи { $size }{ $unit } простора на диску
+actual-disk-cache-size-calculating =
+    .value = Прорачунавам величину кеша…
 offline-compact-remove-deleted =
     .label = Уклони податке из фасцикли када су већ обрисани како би се ослободио простор у складишту
     .accesskey = л
@@ -509,6 +526,10 @@ mark-read-delay =
     .label = Након приказивања од
     .accesskey = з
 seconds-label = секунди
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 mark-read-after-viewing =
     .label = После прегледања током
     .accesskey = о
@@ -989,7 +1010,7 @@ idle-label =
     .accesskey = к
 idle-time-label = минута неактивности
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = и подеси моје стање у „Ван рачунара“ са овом поруком стања:
@@ -1065,6 +1086,9 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = { -brand-short-name }-ом управља организација.
 managed-notice = Ваша организација управља апликацијом { -brand-short-name }.
+
+## Content of the preview conversation for chat message styles.
+
 
 ## Settings UI Search Results
 
