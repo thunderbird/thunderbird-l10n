@@ -480,6 +480,13 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Lorg barrachd solaraichean…
 cloud-account-description = Cuir seirbheis stòrais Filelink ùr ris
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Cuir { $providerName } ris
+    .tooltiptext = Cuir { $providerName } ris
+filelink-account-not-configured =
+    .title = Cha deach an cunntas seo a rèiteachadh fhathast
 
 ## Privacy Tab
 
