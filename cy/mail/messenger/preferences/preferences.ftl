@@ -487,6 +487,10 @@ search-handler-table =
     .placeholder = Hidlo mathau a gweithredoedd cynnwys
 type-column-header = Math o Gynnwys
 action-column-header = Gweithred
+applications-type-pdf = Portable Document Format (PDF)
+applications-preview-in-app = Rhagolwg yn { -brand-short-name }
+    .label = Rhagolwg yn { -brand-short-name }
+    .tooltiptext = Rhagolwg yn { -brand-short-name }
 save-to-label =
     .label = Cadw ffeiliau yn
     .accesskey = C
@@ -807,6 +811,13 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Canfod rhagor o ddarparwyr…
 cloud-account-description = Ychwanegu gwasanaeth storio Filelink newydd
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Ychwanegu { $providerName }
+    .tooltiptext = Ychwanegu { $providerName }
+filelink-account-not-configured =
+    .title = Nid yw'r cyfrif hwn wedi'i ffurfweddu eto
 
 ## Privacy Tab
 
