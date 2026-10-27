@@ -251,3 +251,6 @@ folder-delete-confirm = למחוק את התיקייה ‚{ $name }’?
 # Variables:
 #   $name (String) - Name of the folder being deleted.
 folder-delete-no-trash-confirm = מחיקת התיקייה הזאת בלתי הפיכה ותמחק את ההודעות שהיא מכילה, לרבות תת התיקיות שתחתיה. להמשיך במחיקת התיקייה ’{ $name }’?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = מחיקת התיקייה '{ $name }' תנטרל את המסנן(ים) המקושר(ים) איתה. האם אתה בטוח שברצונך למחוק את התיקייה?
