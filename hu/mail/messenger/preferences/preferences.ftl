@@ -245,6 +245,16 @@ enable-gloda-search-label =
     .label = Globális keresés és indexelő engedélyezése
     .accesskey = G
 datetime-formatting-legend = Dátum és idő formázás
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Alkalmazás területi beállítása: { $localeName }
+    .accesskey = l
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Regionális területi beállítás: { $localeName }
+    .accesskey = g
 display-language-legend = Megjelenítési nyelv
 allow-graphics-accel =
     .label = Grafikus gyorsítás használata a simább görgetés és a jobb teljesítmény érdekében
@@ -378,6 +388,13 @@ offline-settings-button =
     .label = Kapcsolat nélkül…
     .accesskey = K
 temporary-storage-legend = Ideiglenes tárolás
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = A gyorsítótár jelenleg { $size } { $unit } területet foglal el a lemezen.
+actual-disk-cache-size-calculating =
+    .value = Gyorsítótárméret kiszámítása…
 offline-compact-remove-deleted =
     .label = Adatok eltávolítása a mappákból, ha már törölték azokat, hogy tárhelyet szabadítson fel
     .accesskey = A
@@ -521,6 +538,10 @@ mark-read-delay =
     .label = Megjelenítés után
     .accesskey = e
 seconds-label = másodperc
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 mark-read-after-viewing =
     .label = Ennyi idejű megtekintés után:
     .accesskey = m
@@ -1076,7 +1097,7 @@ idle-label =
     .accesskey = P
 idle-time-label = perc tétlenség után
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = Az állapotom beállítása távollevőre ezzel az üzenettel:
@@ -1152,6 +1173,9 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = A { -brand-short-name }öt a szervezete kezeli.
 managed-notice = A { -brand-short-name }ot a szervezete kezeli.
+
+## Content of the preview conversation for chat message styles.
+
 
 ## Settings UI Search Results
 
