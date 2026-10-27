@@ -437,6 +437,13 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Kavout muioc’h a bourchaserien…
 cloud-account-description = Ouzhpennañ ur gwazerezh kadaviñ Filelink nevez
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Ouzhpennañ { $providerName }
+    .tooltiptext = Ouzhpennañ { $providerName }
+filelink-account-not-configured =
+    .title = N'eo ket bet kefluniet ar gont-mañ endeo
 
 ## Privacy Tab
 
