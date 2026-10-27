@@ -65,6 +65,7 @@ animated-alert-label =
 customize-alert-label =
     .label = Penyesuaian…
     .accesskey = P
+sound-file-picker-title = Pilih Bunyian
 mail-custom-sound-label =
     .label = Gunakan fail bunyian berikut
     .accesskey = G
@@ -154,6 +155,13 @@ offline-settings = Konfigurasi tetapan luar talian
 offline-settings-button =
     .label = Luar talian…
     .accesskey = L
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Cache kini menggunakan { $size } { $unit } daripada ruang cakera
+actual-disk-cache-size-calculating =
+    .value = Mengira saiz cache…
 diskspace-legend = Ruang Cakera
 offline-compact-folder =
     .label = Padatkan semua folder apabila dapat menjimatkan
@@ -216,6 +224,43 @@ smaller-size-item =
 quoted-text-color =
     .label = Warna:
     .accesskey = n
+download-folder-desktop = Desktop
+download-folder-system = Muat turun Saya
+download-choose-folder-title = Pilih Folder
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = Fail { $extension }
+applications-save-file = Simpan Fail
+    .label = Simpan Fail
+    .tooltiptext = Simpan Fail
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Guna { $appName }
+    .label = Guna { $appName }
+    .tooltiptext = Guna { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Guna { $appName } (piawai)
+    .label = Guna { $appName } (piawai)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Guna yang lain…
+    .tooltiptext = Guna yang lain…
+applications-choose-app-title = Pilih Aplikasi Helper
+applications-manage-app =
+    .label = Butiran Aplikasi…
+applications-always-ask = Sentiasa tanya
+    .label = Sentiasa tanya
+    .tooltiptext = Sentiasa tanya
+applications-delete-action =
+    .label = Buang Tindakan
+applications-delete-action-title = Buang Tindakan
+applications-delete-action-confirm = Adakah anda pasti mahu menghapuskan tindakan ini?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
 save-to-label =
     .label = Simpan fail ke
     .accesskey = S
@@ -377,6 +422,9 @@ remove-cloud-account =
     .label = Buang
     .accesskey = B
 cloud-account-description = Tambah perkhidmatan storan Filelink yang baru
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Adakah anda pasti mahu menghapuskan akaun "{ $accountName }"?
 
 ## Privacy Tab
 
@@ -412,6 +460,8 @@ passwords-description = { -brand-short-name } boleh mengingati kata laluan untuk
 passwords-button =
     .label = Kata laluan Tersimpan…
     .accesskey = K
+confirm-reset-junk-training-title = Sahkan
+confirm-reset-junk-training-message = Adakah anda pasti mahu mengeset semula data latihan tapisan yang boleh diubah?
 phishing-description = { -brand-short-name } boleh menganalisa mesej yang disyaki penipuan e-mel dengan teknik lazim yang digunakan untuk memperdayakan anda.
 phishing-label =
     .label = Maklumkan saya jika mesej yang sedang dibaca disyaki sebagai penipuan e-mel
@@ -522,6 +572,15 @@ chat-variant-label =
 
 ## Content of the preview conversation for chat message styles.
 
+chat-theme-preview-default =
+    .label = Piawai
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Hai! :-)
+chat-theme-preview-message-2 = Apa khabar?
+chat-theme-preview-message-3 = Saya sedang mencuba { -brand-short-name }! ;-)
 
 ## Settings UI Search Results
 
