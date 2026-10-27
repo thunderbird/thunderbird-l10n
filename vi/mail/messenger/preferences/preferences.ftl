@@ -488,6 +488,15 @@ search-handler-table =
     .placeholder = Lọc các loại nội dung và hành động
 type-column-header = Kiểu dữ liệu
 action-column-header = Thao tác
+download-folder-desktop = Bàn làm việc
+download-folder-system = Tải xuống của tôi
+download-choose-folder-title = Chọn thư mục
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = Tập tin { $extension }
+applications-save-file = Lưu tập tin
+    .label = Lưu tập tin
+    .tooltiptext = Lưu tập tin
 # Variables:
 #   $appName (String) - The name of an application.
 applications-use-app = Dùng { $appName }
@@ -840,6 +849,16 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Tìm thêm nhà cung cấp…
 cloud-account-description = Thêm dịch vụ lưu trữ Filelink mới
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Thêm { $providerName }
+    .tooltiptext = Thêm { $providerName }
+filelink-account-not-configured =
+    .title = Tài khoản này chưa được cấu hình
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Bạn có chắc chắn muốn xóa tài khoản "{ $accountName }" không?
 
 ## Privacy Tab
 
@@ -951,6 +970,8 @@ spam-log-button =
 reset-spam-button =
     .label = Đặt lại dữ liệu đào tạo
     .accesskey = R
+confirm-reset-junk-training-title = Xác nhận
+confirm-reset-junk-training-message = Bạn có chắc chắn muốn đặt lại dữ liệu đào tạo bộ lọc thích ứng?
 scam-detection-description = { -brand-short-name } kiểm tra thư để tìm các liên kết lừa đảo và các dấu hiệu phổ biến của email lừa đảo.
 scam-detection-label =
     .label = Cảnh báo khi đọc email có vẻ như là email lừa đảo
@@ -1209,6 +1230,15 @@ managed-notice = { -brand-short-name } đang được quản lý bởi tổ ch�
 
 ## Content of the preview conversation for chat message styles.
 
+chat-theme-preview-default =
+    .label = Mặc định
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Chào! :-)
+chat-theme-preview-message-2 = Chuyện gì thế?
+chat-theme-preview-message-3 = Tôi đang thử { -brand-short-name }! ;-)
 
 ## Settings UI Search Results
 
