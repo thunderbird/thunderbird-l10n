@@ -186,6 +186,16 @@ enable-gloda-search-label =
     .label = Aktiver global søgning og indeksering
     .accesskey = A
 datetime-formatting-legend = Dato- og tidsformat
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Programsprog: { $localeName }
+    .accesskey = p
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Regionale indstillinger: { $localeName }
+    .accesskey = g
 language-selector-legend = Sprog
 allow-hw-accel =
     .label = Brug hardware-acceleration hvor muligt
@@ -594,6 +604,13 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Find flere udbydere…
 cloud-account-description = Tilføj en ny Filelink-tjeneste
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Tilføj { $providerName }
+    .tooltiptext = Tilføj { $providerName }
+filelink-account-not-configured =
+    .title = Kontoen er ikke blevet sat op endnu
 
 ## Privacy Tab
 
