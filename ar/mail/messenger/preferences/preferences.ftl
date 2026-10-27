@@ -245,6 +245,15 @@ smaller-size-item =
 quoted-text-color =
     .label = اللون:
     .accesskey = ل
+download-folder-desktop = سطح المكتب
+download-folder-system = التنزيلات
+download-choose-folder-title = اختر مجلدًا
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = ملف { $extension }
+applications-save-file = احفظ الملف
+    .label = احفظ الملف
+    .tooltiptext = احفظ الملف
 # Variables:
 #   $appName (String) - The name of an application.
 applications-use-app = استخدم { $appName }
@@ -428,6 +437,9 @@ remove-cloud-account =
     .label = أزِل
     .accesskey = ل
 cloud-account-description = أضِف خدمة تخزين ملفات على الإنترنت جديدة
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = أمتأكد أنك تريد حذف الحساب ”{ $accountName }“؟
 
 ## Privacy Tab
 
@@ -463,6 +475,8 @@ passwords-description = يستطيع { -brand-short-name } تذكر معلوما
 passwords-button =
     .label = كلمات السر المحفوظة…
     .accesskey = س
+confirm-reset-junk-training-title = أكّد
+confirm-reset-junk-training-message = أمتأكّد أنك تريد تصفير بيانات تدريب المُرشِّح المتكيِّف؟
 phishing-description = يستطيع { -brand-short-name } تحليل الرسائل واكتشاف بريد الاحتيال المحتمل بالبحث عن وسائل الاحتيال الشهيرة.
 phishing-label =
     .label = أخبرني إذا كانت الرسالة التي أقرأ بريد احتيال محتمل
@@ -573,6 +587,15 @@ chat-variant-label =
 
 ## Content of the preview conversation for chat message styles.
 
+chat-theme-preview-default =
+    .label = المبدئي
+chat-theme-preview-nick-1 = خالد
+chat-theme-preview-buddy-1 = khaled@im.instantbird.org
+chat-theme-preview-nick-2 = حسام
+chat-theme-preview-buddy-2 = hussam@im.instantbird.org
+chat-theme-preview-message-1 = مرحبا! :-)
+chat-theme-preview-message-2 = ماذا يجري؟
+chat-theme-preview-message-3 = أجرّب { -brand-short-name }! ;-)
 
 ## Settings UI Search Results
 
