@@ -269,6 +269,15 @@ quoted-text-color =
     .label = Dath:
     .accesskey = t
 action-column-header = Gníomh
+download-folder-desktop = Deasc
+download-folder-system = Mo Chuid Íoslódálacha
+download-choose-folder-title = Roghnaigh Fillteán
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = Comhad { $extension }
+applications-save-file = Sábháil an Comhad
+    .label = Sábháil an Comhad
+    .tooltiptext = Sábháil an Comhad
 # Variables:
 #   $appName (String) - The name of an application.
 applications-use-app = Úsáid { $appName }
@@ -452,6 +461,9 @@ remove-cloud-account =
     .label = Bain
     .accesskey = B
 cloud-account-description = Cuir seirbhís stórála Filelink leis
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = An bhfuil tú cinnte go dteastaíonn uait an cuntas "{ $accountName }" a bhaint?
 
 ## Privacy Tab
 
@@ -487,6 +499,8 @@ passwords-description = Is féidir le { -brand-short-name } focail fhaire do chu
 passwords-button =
     .label = Focail Fhaire Sábháilte…
     .accesskey = S
+confirm-reset-junk-training-title = Dearbhaigh
+confirm-reset-junk-training-message = An bhfuil tú cinnte go dteastaíonn uait sonraí traenála an scagaire oiriúnaithigh a bhánú?
 phishing-description = Is féidir le { -brand-short-name } camscéimeanna ríomhphoist a lorg i dteachtaireachtaí trí cleasanna coitianta a úsáidtear chun tú a mhealladh a chuardach iontu.
 phishing-label =
     .label = Inis dom má mheastar gur camscéim í an teachtaireacht atá á léamh agam
