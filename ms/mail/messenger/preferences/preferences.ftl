@@ -20,6 +20,9 @@ manage-messenger-languages-button =
 confirm-messenger-language-change-description = Mula semula { -brand-short-name } untuk melaksanakan perubahan ini
 confirm-messenger-language-change-button = Terap dan Mula semula
 
+## OS Authentication dialog
+
+
 ## General Tab
 
 focus-search-shortcut =
@@ -72,6 +75,16 @@ enable-gloda-search-label =
     .label = Aktifkan Carian Global dan Pengindeks
     .accesskey = A
 datetime-formatting-legend = Format Tarikh dan Masa
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Lokaliti aplikasi: { $localeName }
+    .accesskey = p
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Lokaliti tetapan wilayah: { $localeName }
+    .accesskey = y
 language-selector-legend = Bahasa
 allow-hw-accel =
     .label = Guna pecutan perkakasan, jika tersedia
@@ -245,6 +258,10 @@ mark-read-delay =
     .accesskey = d
 seconds-label = saat
 
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
+
 ##
 
 open-msg-label =
@@ -414,6 +431,12 @@ ocsp-label =
     .label = Minta penggerak balas pelayan OCSP untuk mengesahkan kesahihan sijil semasa
     .accesskey = M
 
+## DoH Section
+
+
+## Keyservers
+
+
 ## Chat Tab
 
 startup-label =
@@ -435,7 +458,7 @@ idle-label =
     .accesskey = M
 idle-time-label = minit tanpa aktiviti
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = dan tetapkan status ke Tiada dengan mesej:
@@ -496,3 +519,18 @@ no-preview-description = Tema ini tidak sah atau tidak tersedia masa ini (add-on
 chat-variant-label =
     .value = Varian:
     .accesskey = V
+
+## Content of the preview conversation for chat message styles.
+
+
+## Settings UI Search Results
+
+
+## Sync Tab
+
+
+## Mobile QR Export Pane
+
+
+## Appearance Tab
+
