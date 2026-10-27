@@ -197,6 +197,16 @@ enable-gloda-search-label =
     .label = Slå på globalt søk og indeksering
     .accesskey = S
 datetime-formatting-legend = Formatering av dato og tid
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Programspråk: { $localeName }
+    .accesskey = P
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Regionale innstillinger: { $localeName }
+    .accesskey = g
 language-selector-legend = Språk
 allow-hw-accel =
     .label = Bruk maskinvareakselerasjon når tilgjengelig
@@ -402,6 +412,10 @@ applications-delete-action-confirm = Er du sikker på at du vil slette denne han
 #                                "Portable Document Format (PDF)".
 #   $type (String) - The MIME type of the content, for example "application/pdf".
 applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Portable Document Format (PDF)
+applications-preview-in-app = Forhåndsvis i { -brand-short-name }
+    .label = Forhåndsvis i { -brand-short-name }
+    .tooltiptext = Forhåndsvis i { -brand-short-name }
 save-to-label =
     .label = Lagre filer til
     .accesskey = L
@@ -638,6 +652,13 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Finn flere leverandører…
 cloud-account-description = Legg til en Filelink lagringstjeneste
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Legg til { $providerName }
+    .tooltiptext = Legg til { $providerName }
+filelink-account-not-configured =
+    .title = Denne kontoen har ikke blitt konfigurert enda
 
 ## Privacy Tab
 
