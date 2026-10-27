@@ -2,6 +2,10 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+remote-content-permissions-title = Izuzeci - vanjski sadržaj
+remote-content-permissions-description = Možete odrediti s kojih se stranica slike i ostali vanjski sadržaji mogu učitavati. Također možete dozvoliti sav vanjski sadržaj prema adresi e-pošte pošiljaoca. Unesite adresu stranice ili e-pošte i kliknite na Blokiraj ili Dozvoli.
+cookie-permissions-title = Izuzeci - kolačići
+cookie-permissions-description = Možete odrediti kojim stranicama je uvijek ili nikada dopušteno koristiti kolačiće.  Unesite tačnu adresu željene stranice i kliknite na Blokiraj, Dopusti za sesiju ili Dopusti.
 website-address-label =
     .value = Adresa web stranice:
     .accesskey = d
