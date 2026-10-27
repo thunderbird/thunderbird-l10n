@@ -557,3 +557,9 @@ folder-pane-context-mark-folder-read =
 folder-pane-context-reset-sort =
     .label = Restablecer a orde dos cartafois
     .accesskey = R
+
+## Confirmation prompts shown before deleting a folder.
+
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Se elimina o cartafol '{ $name }' desactivaranse os filtros asociados a el. Confirma que quere eliminar o cartafol?
