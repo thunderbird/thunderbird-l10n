@@ -242,6 +242,16 @@ enable-gloda-search-label =
     .label = Global aramayı ve dizin oluşturmayı etkinleştir
     .accesskey = G
 datetime-formatting-legend = Tarih ve Saat Biçimi
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Uygulama dili: { $localeName }
+    .accesskey = u
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Bölgesel ayarlar dili: { $localeName }
+    .accesskey = g
 display-language-legend = Görüntüleme dili
 allow-graphics-accel =
     .label = Daha akıcı kaydırma ve daha iyi performans için grafik hızlandırmayı kullan
@@ -473,6 +483,10 @@ action-column-header = Eylem
 #                                "Portable Document Format (PDF)".
 #   $type (String) - The MIME type of the content, for example "application/pdf".
 applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Taşınabilir Belge Biçimi (PDF)
+applications-preview-in-app = { -brand-short-name } ile ön izleme yap
+    .label = { -brand-short-name } ile ön izleme yap
+    .tooltiptext = { -brand-short-name } ile ön izleme yap
 save-to-label =
     .label = Dosyaları kaydetme konumu
     .accesskey = k
@@ -766,6 +780,13 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Daha fazla sağlayıcı bul…
 cloud-account-description = Yeni Filelink depolama hizmeti ekle
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = { $providerName } hizmetini ekle
+    .tooltiptext = { $providerName } hizmetini ekle
+filelink-account-not-configured =
+    .title = Bu hesap henüz yapılandırılmamış
 
 ## Privacy Tab
 
