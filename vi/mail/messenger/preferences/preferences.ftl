@@ -229,6 +229,7 @@ use-custom-sound-label =
 mail-select-audio-button =
     .label = Chọn âm thanh…
     .accesskey = A
+sound-file-picker-title = Chọn âm thanh
 enable-global-search-label =
     .label = Bật chức năng tìm kiếm trên tất cả các tài khoản email
     .accesskey = e
@@ -470,6 +471,34 @@ search-handler-table =
     .placeholder = Lọc các loại nội dung và hành động
 type-column-header = Kiểu dữ liệu
 action-column-header = Thao tác
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Dùng { $appName }
+    .label = Dùng { $appName }
+    .tooltiptext = Dùng { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Dùng { $appName } (mặc định)
+    .label = Dùng { $appName } (mặc định)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Dùng chương trình khác…
+    .tooltiptext = Dùng chương trình khác…
+applications-choose-app-title = Chọn ứng dụng trợ giúp
+applications-manage-app =
+    .label = Chi tiết ứng dụng…
+applications-always-ask = Luôn hỏi
+    .label = Luôn hỏi
+    .tooltiptext = Luôn hỏi
+applications-delete-action =
+    .label = Xóa thao tác
+applications-delete-action-title = Xóa thao tác
+applications-delete-action-confirm = Bạn có chắc là mình muốn xóa thao tác này không?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
 save-to-label =
     .label = Lưu các tập tin vào
     .accesskey = S
@@ -521,6 +550,10 @@ mark-read-delay =
     .label = Sau khi hiển thị
     .accesskey = d
 seconds-label = giây
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 mark-read-after-viewing =
     .label = Sau khi xem
     .accesskey = v
@@ -1076,7 +1109,7 @@ idle-label =
     .accesskey = I
 idle-time-label = phút không hoạt động
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = và đặt trạng thái của tôi thành vắng với thông báo trạng thái này:
@@ -1152,6 +1185,9 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = { -brand-short-name } đang được quản lý bởi một tổ chức.
 managed-notice = { -brand-short-name } đang được quản lý bởi tổ chức của bạn.
+
+## Content of the preview conversation for chat message styles.
+
 
 ## Settings UI Search Results
 
