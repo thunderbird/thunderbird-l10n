@@ -488,6 +488,15 @@ search-handler-table =
     .placeholder = Filtrar tipo de ações e de conteúdo
 type-column-header = Tipo de Conteúdo
 action-column-header = Ação
+download-folder-desktop = Ambiente de trabalho
+download-folder-system = Descargas
+download-choose-folder-title = Escolha a pasta
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = Ficheiro { $extension }
+applications-save-file = Guardar ficheiro
+    .label = Guardar ficheiro
+    .tooltiptext = Guardar ficheiro
 # Variables:
 #   $appName (String) - The name of an application.
 applications-use-app = Utilizar { $appName }
@@ -847,6 +856,9 @@ filelink-add-provider =
     .tooltiptext = Adicionar { $providerName }
 filelink-account-not-configured =
     .title = Esta conta ainda não foi configurada
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Tem a certeza que pretende remover a conta "{ $accountName }"?
 
 ## Privacy Tab
 
@@ -958,6 +970,8 @@ spam-log-button =
 reset-spam-button =
     .label = Repor dados de treino
     .accesskey = R
+confirm-reset-junk-training-title = Confirmação
+confirm-reset-junk-training-message = Tem a certeza que pretende repor os dados de treino do filtro adaptativo?
 scam-detection-description = O { -brand-short-name } verifica as mensagens em busca de ligações de phishing e sinais comuns de burlas por e-mail.
 scam-detection-label =
     .label = Avisar ao ler um e-mail que parece ser uma burla
@@ -1216,6 +1230,15 @@ managed-notice = O { -brand-short-name } está a ser gerido pela sua organizaç�
 
 ## Content of the preview conversation for chat message styles.
 
+chat-theme-preview-default =
+    .label = Predefinido
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Olá! :-)
+chat-theme-preview-message-2 = Tudo bem?
+chat-theme-preview-message-3 = Estou a experimentar o { -brand-short-name }! ;-)
 
 ## Settings UI Search Results
 
