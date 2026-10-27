@@ -428,6 +428,10 @@ applications-delete-action-confirm = Poistetaanko toiminto?
 #                                "Portable Document Format (PDF)".
 #   $type (String) - The MIME type of the content, for example "application/pdf".
 applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Portable Document Format (PDF)
+applications-preview-in-app = Esikatsele { -brand-short-name }issä
+    .label = Esikatsele { -brand-short-name }issä
+    .tooltiptext = Esikatsele { -brand-short-name }issä
 save-to-label =
     .label = Tallenna kansioon
     .accesskey = T
