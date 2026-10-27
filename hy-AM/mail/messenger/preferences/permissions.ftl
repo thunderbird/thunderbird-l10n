@@ -2,6 +2,10 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+remote-content-permissions-title = Բացառություններ՝ Հեռակա բովանդ.
+remote-content-permissions-description = Կարող եք ինքներդ որոշել, թե որ կայքերից նկարները կամ այլ հեռակա բովանդակություն պետք է բեռնվի: Կարող եք նաև թույլատրել ամբողջ բովանդակությունը հեռակա կայքերից՝ ըստ ուղարկողի էլ. փոստի հասցեի: Գրեք կայքի հասցեն կամ այլն էլ. փոստի հասցեն, որը ցանկանում եք կառավարել և սեղմեք Արգելել կամ Թույլատրել:
+cookie-permissions-title = Բացառություններ - Cookie-ներ
+cookie-permissions-description = Դուք կարող եք նշել որ կայքերից եք ուզում միշտ ընդունել կամ մերժել cookie-ներ: Մուտքագրեք կայքի ճիշտ հասցեն և սեղմեք Արգելափակել, Թույլատրել տվյալ պահին կամ Թույլատրել կոճակները:
 website-address-label =
     .value = Վեբ կայքի հասցեն.
     .accesskey = բ

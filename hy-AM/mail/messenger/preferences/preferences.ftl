@@ -148,6 +148,16 @@ enable-gloda-search-label =
     .label = Միացնել Ընդհանուր Որոնումը և Ինդեքսավորումը
     .accesskey = Մ
 datetime-formatting-legend = Ամսաթվի և ժամանակի ձևաչափ
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Հավելվածի լեզուն՝ { $localeName }
+    .accesskey = o
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Տարածաշրջանային կարգավորումների լեզուն. { $localeName }
+    .accesskey = e
 language-selector-legend = Լեզու
 allow-hw-accel =
     .label = Հնարավորության դեպքում օգտագործել սարքակազմի արագացում
@@ -219,6 +229,13 @@ offline-settings = Կարգավորել անցանցը
 offline-settings-button =
     .label = Անցանց...
     .accesskey = O
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Ձեր ցանցային բովանդակության պահոցը այժմ զբաղեցնում է { $size } { $unit } տեղ
+actual-disk-cache-size-calculating =
+    .value = Քեշի չափը հաշվարկվում է…
 diskspace-legend = Ազատ տեղ
 offline-compact-folder =
     .label = Սեղմել թղթապանակները, եթե դա կխնայի՝
@@ -325,6 +342,10 @@ mark-read-delay =
     .label = Ժամանակ անց՝
     .accesskey = d
 seconds-label = վայրկյան
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -503,6 +524,9 @@ security-devices-button =
     .label = Անվտանգության սարքեր...
     .accesskey = D
 
+## DoH Section
+
+
 ## Keyservers
 
 email-e2ee-key-servers-add = Ավելացնել...
@@ -528,7 +552,7 @@ idle-label =
     .accesskey = ի
 idle-time-label = րոպե պասսիվ լինելուց հետո
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = և դարձնել իմ կարգավիճակը Հեռու եմ այս գրությամբ.
@@ -590,6 +614,9 @@ chat-variant-label =
     .value = Տարբերակ․
     .accesskey = V
 
+## Content of the preview conversation for chat message styles.
+
+
 ## Settings UI Search Results
 
 search-results-header = Որոնման արդյունքներ
@@ -602,3 +629,6 @@ show-synced-item-address = Հասցեագրքեր
 ## Mobile QR Export Pane
 
 qr-export-scan-step2 = Անցնել Կարգավորումներին
+
+## Appearance Tab
+
