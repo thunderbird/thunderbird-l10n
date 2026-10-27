@@ -577,3 +577,21 @@ folder-pane-context-compact =
 folder-pane-context-compact-all =
     .label = Tiivistä kaikki kansiot
     .accesskey = T
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = Poista kansio
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = &Poista kansio
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = Poistetaanko kansio "{ $name }"?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = Kansion poistamista ei voi kumota ja kaikki siihen tallennetut viestit ja alikansiot poistetaan. Poistetaanko kansio '{ $name }' silti?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Kansion "{ $name }" poistaminen poistaa käytöstä kaikki siihen liittyvät suodattimet. Poistetaanko kansio?
