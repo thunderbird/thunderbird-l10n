@@ -157,6 +157,7 @@ tray-icon-unread-description = Rekomenduojama kai naudojate mažus užduočių j
 mail-system-sound-label =
     .label = Sistemos numatytasis garsas gavus naują laišką
     .accesskey = S
+sound-file-picker-title = Garso failo parinkimas
 mail-custom-sound-label =
     .label = Naudoti kitą garso failą:
     .accesskey = u
@@ -302,6 +303,34 @@ quoted-text-color =
     .accesskey = C
 search-handler-table =
     .placeholder = Filtruoti pagal turinio tipus ir veiksmus
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Atverti programa „{ $appName }“
+    .label = Atverti programa „{ $appName }“
+    .tooltiptext = Atverti programa „{ $appName }“
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Atverti programa „{ $appName }“ (numatyta)
+    .label = Atverti programa „{ $appName }“ (numatyta)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Parinkti kitą programą…
+    .tooltiptext = Parinkti kitą programą…
+applications-choose-app-title = Atveriančiosios programos parinkimas
+applications-manage-app =
+    .label = Programų savybės…
+applications-always-ask = Visada klausti
+    .label = Visada klausti
+    .tooltiptext = Visada klausti
+applications-delete-action =
+    .label = Pašalinti veiksmą
+applications-delete-action-title = Veiksmo šalinimas
+applications-delete-action-confirm = Ar tikrai norite pašalinti šį veiksmą?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
 save-to-label =
     .label = Įrašyti failus į aplanką
     .accesskey = f
@@ -343,6 +372,10 @@ mark-read-delay =
     .label = praėjus
     .accesskey = p
 seconds-label = sek.
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -530,6 +563,12 @@ security-devices-button =
     .label = Saugumo priemonės…
     .accesskey = D
 
+## DoH Section
+
+
+## Keyservers
+
+
 ## Chat Tab
 
 startup-label =
@@ -551,7 +590,7 @@ idle-label =
     .accesskey = n
 idle-time-label = min.
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = ir pakeisti būseną į „nesu“, nurodant šį būsenos pranešimą:
@@ -613,11 +652,20 @@ chat-variant-label =
     .value = Variantas:
     .accesskey = V
 
+## Content of the preview conversation for chat message styles.
+
+
 ## Settings UI Search Results
 
 search-results-header = Paieškos rezultatai
 search-results-help-link = Reikia pagalbos? Aplankykite <a data-l10n-name="url">„{ -brand-short-name }“</a>
 
+## Sync Tab
+
+
 ## Mobile QR Export Pane
 
 qr-export-start-export = Eksportuoti
+
+## Appearance Tab
+

@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 permissions-dialog-title = Išimtys
+remote-content-permissions-title = Intarpų įkėlimo iš tinklo išimtys
+remote-content-permissions-description = Čia galite nurodyti, kuriose svetainėse laikomus paveikslus ir kitus intarpus leidžiate laiškuose rodyti automatiškai. Taip pat galite leisti visus intarpus konkrečių siuntėjų laiškuose. Į lauką įveskite svetainės arba siuntėjo adresą ir nurodykite, aš šios kilmės intarpus norite Leisti, ar Neleisti.
+cookie-permissions-title = Išimtys – slapukai
+cookie-permissions-description = Čia galima nurodyti svetaines, kurioms bus leidžiama arba draudžiama įrašyti slapukus. Surinkite tikslų svetainės adresą ir spustelėkite atitinkamą mygtuką: „Neleisti“, „Leisti vienam seansui“ ar „Leisti“.
 website-address-label =
     .value = Svetainės adresas:
     .accesskey = d
