@@ -176,6 +176,16 @@ enable-gloda-search-label =
     .label = Habilita el cercador i indexador de missatges
     .accesskey = i
 datetime-formatting-legend = Format de data i hora
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Llengua de l'aplicació: { $localeName }
+    .accesskey = p
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Llengua de la configuració regional: { $localeName }
+    .accesskey = g
 language-selector-legend = Llengua
 allow-hw-accel =
     .label = Utilitza l'acceleració de maquinari quan sigui disponible
@@ -258,6 +268,13 @@ offline-settings = Configura els paràmetres de fora de línia
 offline-settings-button =
     .label = Fora de línia…
     .accesskey = o
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = La memòria cau actualment utilitza { $size } { $unit } d'espai de disc
+actual-disk-cache-size-calculating =
+    .value = S'està calculant la mida de la memòria cau…
 diskspace-legend = Espai de disc
 offline-compact-folder =
     .label = Compacta totes les carpetes quan l'estalvi sigui superior a
