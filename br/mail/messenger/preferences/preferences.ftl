@@ -119,6 +119,16 @@ enable-gloda-search-label =
     .label = Gweredekaat ar c'hlask hag an ibiliañ hollek
     .accesskey = h
 datetime-formatting-legend = Mentrezh an deiziad hag an eur
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Arload lec'hel: { $localeName }
+    .accesskey = l
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Arventennoù lec'hel rannvroel: { $localeName }
+    .accesskey = r
 language-selector-legend = Yezh
 allow-hw-accel =
     .label = Implijout ar buanadur periant pa vez tu
@@ -190,6 +200,13 @@ offline-settings = Kefluniañ an arventennoù ezlinenn
 offline-settings-button =
     .label = Ezlinenn…
     .accesskey = z
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = { $size } { $unit } a egor kantenn a zo arveret gant ar c'hrubuilh evit ar mare
+actual-disk-cache-size-calculating =
+    .value = O jediñ ment ar c'hrubuilh...
 diskspace-legend = Egor war ar gantenn
 offline-compact-folder =
     .label = Koazhañ an holl deuliadoù pa e tieub an dra-se muioc'h eget
@@ -298,6 +315,10 @@ mark-read-delay =
     .label = Goude
     .accesskey = d
 seconds-label = a eilennoù
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -477,6 +498,12 @@ security-devices-button =
     .accesskey = T
 account-settings = Arventennoù ar gont
 
+## DoH Section
+
+
+## Keyservers
+
+
 ## Chat Tab
 
 startup-label =
@@ -498,7 +525,7 @@ idle-label =
     .accesskey = R
 idle-time-label = a vunutennoù eus dioberiantiz
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = ha kemmañ ma stad da Ezvezant gant ar gemennadenn da-heul :
@@ -562,6 +589,18 @@ chat-variant-label =
     .value = Variezon:
     .accesskey = V
 
+## Content of the preview conversation for chat message styles.
+
+
+## Settings UI Search Results
+
+
 ## Sync Tab
 
 sync-pane-cancel = Dilezel
+
+## Mobile QR Export Pane
+
+
+## Appearance Tab
+
