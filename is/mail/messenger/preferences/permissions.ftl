@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 permissions-dialog-title = Undantekningar
+remote-content-permissions-title = Undantekningar - Fjartengt efni
+remote-content-permissions-description = Þú getur skilgreint hvaða vefsvæði hafa leyfi til að ná myndir og annað efni frá fjarlægum miðlum. Þú getur einnig leyft allt efni út frá tölvupóstfangi. Settu inn vefsvæði eða tölvupóstfang sem þú vilt vinna með og smelltu svo á Leyfa eða Hafna.
+cookie-permissions-title = Undantekningar - Vefkökur
+cookie-permissions-description = Þú getur skilgreint hvaða vefsvæði hafa leyfi eða ekki til að nota vefkökur. Settu inn nákvæma vefslóð fyrir vefsvæðið og smelltu svo á Hafna, Leyfa fyrir vafralotu eða Leyfa.
 website-address-label =
     .value = Vistfang vefsvæðis:
     .accesskey = V

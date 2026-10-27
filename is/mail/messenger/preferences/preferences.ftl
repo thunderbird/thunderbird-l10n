@@ -229,6 +229,7 @@ use-custom-sound-label =
 mail-select-audio-button =
     .label = Veldu hljóð…
     .accesskey = d
+sound-file-picker-title = Veldu hljóð
 enable-global-search-label =
     .label = Kveikja á leit í öllum tölvupóstreikningum
     .accesskey = e
@@ -470,6 +471,34 @@ search-handler-table =
     .placeholder = Sía efnistegundir og aðgerðir
 type-column-header = Efnistegund
 action-column-header = Aðgerð
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Nota { $appName }
+    .label = Nota { $appName }
+    .tooltiptext = Nota { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Nota { $appName } (sjálfgefið)
+    .label = Nota { $appName } (sjálfgefið)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Nota annað…
+    .tooltiptext = Nota annað…
+applications-choose-app-title = Veldu hjálparforrit
+applications-manage-app =
+    .label = Forritsupplýsingar…
+applications-always-ask = Spyrja alltaf
+    .label = Spyrja alltaf
+    .tooltiptext = Spyrja alltaf
+applications-delete-action =
+    .label = Eyða aðgerð
+applications-delete-action-title = Eyða aðgerð
+applications-delete-action-confirm = Ertu viss um að þú viljir eyða þessari aðgerð?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
 save-to-label =
     .label = Vista skrár yfir á
     .accesskey = s
@@ -521,6 +550,10 @@ mark-read-delay =
     .label = Eftir birtingu í
     .accesskey = b
 seconds-label = sekúndur
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 mark-read-after-viewing =
     .label = Eftir að hafa skoðað í
     .accesskey = k
@@ -1072,7 +1105,7 @@ idle-label =
     .accesskey = i
 idle-time-label = mínútur óvirkur
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = og setja stöðu sem fjarverandi með skilaboðum:
@@ -1148,6 +1181,9 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = { -brand-short-name } er stjórnað af stofnun/fyrirtæki/félagi.
 managed-notice = { -brand-short-name } er stjórnað af kerfisstjórum þínum.
+
+## Content of the preview conversation for chat message styles.
+
 
 ## Settings UI Search Results
 
