@@ -229,6 +229,7 @@ use-custom-sound-label =
 mail-select-audio-button =
     .label = Awdijo wubraś…
     .accesskey = A
+sound-file-picker-title = Zuk wubraś
 enable-global-search-label =
     .label = Pytanje za wšykne e-mailowe konta zmóžniś
     .accesskey = m
@@ -388,6 +389,13 @@ offline-settings-button =
     .label = Offline…
     .accesskey = O
 temporary-storage-legend = Temporarne składowanje
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Waš pufrowak wužywa tuchylu { $size } { $unit } platowego ruma
+actual-disk-cache-size-calculating =
+    .value = Wjelikosć pufrowaka se wulicujo…
 offline-compact-remove-deleted =
     .label = Daty ze zarědnikow wótwónoźeś, gaž su južo wulašowane, aby se składowański rum wulichował
     .accesskey = t
@@ -480,6 +488,43 @@ search-handler-table =
     .placeholder = Wopśimjeśowe typy a akcije filtrowaś
 type-column-header = Wopśimjeśowy typ
 action-column-header = Akcija
+download-folder-desktop = Desktop
+download-folder-system = Móje ześěgnjenja
+download-choose-folder-title = Zarědnik wubraś
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = Dataja { $extension }
+applications-save-file = Dataju składowaś
+    .label = Dataju składowaś
+    .tooltiptext = Dataju składowaś
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = { $appName } wužywaś
+    .label = { $appName } wužywaś
+    .tooltiptext = { $appName } wužywaś
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = { $appName } wužywaś (standard)
+    .label = { $appName } wužywaś (standard)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Druge wužywaś…
+    .tooltiptext = Druge wužywaś…
+applications-choose-app-title = Pomocne nałoženje wubraś
+applications-manage-app =
+    .label = Drobnostki nałoženja…
+applications-always-ask = Pśecej se pšašaś
+    .label = Pśecej se pšašaś
+    .tooltiptext = Pśecej se pšašaś
+applications-delete-action =
+    .label = Akciju lašowaś
+applications-delete-action-title = Akciju lašowaś
+applications-delete-action-confirm = Cośo napšawdu toś tu akciju lašowaś?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
 applications-type-pdf = Portable Document Format (PDF)
 applications-preview-in-app = Pśeglěd w { -brand-short-name }
     .label = Pśeglěd w { -brand-short-name }
@@ -811,6 +856,9 @@ filelink-add-provider =
     .tooltiptext = { $providerName } pśidaś
 filelink-account-not-configured =
     .title = Toś to konto njejo se hyšći konfigurěrowało
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Cośo konto "{ $accountName }" napšawdu wótpóraś?
 
 ## Privacy Tab
 
@@ -922,6 +970,8 @@ spam-log-button =
 reset-spam-button =
     .label = Treněrowańske daty slědk stajiś
     .accesskey = T
+confirm-reset-junk-training-title = Wobkšuśiś
+confirm-reset-junk-training-message = Cośo napšawdu treněrowańske daty pśiměrjatego filtra slědk stajiś?
 scam-detection-description = { -brand-short-name } powěsći za phishingowymi wótkazami a typiskimi znamjenjami e-mailoweje wobšudy pśeglědujo.
 scam-detection-label =
     .label = Pśi cytanju mejlki warnowaś, kótaraž zda se wobšuda byś
@@ -1178,6 +1228,15 @@ managed-notice = { -brand-short-name } se wót wašeje organizacije zastoj.
 
 ## Content of the preview conversation for chat message styles.
 
+chat-theme-preview-default =
+    .label = Standard
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Witaj! :-)
+chat-theme-preview-message-2 = Co se stawa?
+chat-theme-preview-message-3 = Wopytuju { -brand-short-name }! ;-)
 
 ## Settings UI Search Results
 
