@@ -795,6 +795,13 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Пронађите више добављача…
 cloud-account-description = Додај нову Filelink услугу складиштења
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Додај { $providerName }
+    .tooltiptext = Додај { $providerName }
+filelink-account-not-configured =
+    .title = Овај налог још увек није подешен
 
 ## Privacy Tab
 
