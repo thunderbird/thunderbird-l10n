@@ -164,6 +164,7 @@ tray-icon-unread-description = Soovitatav tegumiriba väikeste nuppude kasutamis
 mail-system-sound-label =
     .label = süsteemi vaikimisi uue kirja heli
     .accesskey = t
+sound-file-picker-title = Heli valimine
 mail-custom-sound-label =
     .label = kasutatakse järgnevat helifaili
     .accesskey = e
@@ -174,6 +175,16 @@ enable-gloda-search-label =
     .label = Lubatakse kirjade üldotsing ja indekseerimine
     .accesskey = L
 datetime-formatting-legend = Kuupäeva ja kellaaja vorming
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Rakenduse lokaat: { $localeName }
+    .accesskey = R
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Seadistatud piirkonna lokaat: { $localeName }
+    .accesskey = p
 language-selector-legend = Keel
 allow-hw-accel =
     .label = Võimalusel kasutatakse riistvaralist kiirendust
@@ -352,6 +363,11 @@ applications-delete-action =
     .label = Kustuta tegevus
 applications-delete-action-title = Tegevuse kustutamine
 applications-delete-action-confirm = Kas oled kindel, et soovid selle tegevuse kustutada?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
 applications-type-pdf = Porditav dokumendiformaat (PDF)
 applications-preview-in-app = Eelvaade rakenduses { -brand-short-name }
     .label = Eelvaade rakenduses { -brand-short-name }
