@@ -109,6 +109,7 @@ animated-alert-label =
 customize-alert-label =
     .label = Saincheap…
     .accesskey = c
+sound-file-picker-title = Roghnaigh Fuaim
 mail-custom-sound-label =
     .label = Úsáid an comhad fuaime seo
     .accesskey = u
@@ -251,6 +252,34 @@ quoted-text-color =
     .label = Dath:
     .accesskey = t
 action-column-header = Gníomh
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Úsáid { $appName }
+    .label = Úsáid { $appName }
+    .tooltiptext = Úsáid { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Úsáid { $appName } (réamhshocrú)
+    .label = Úsáid { $appName } (réamhshocrú)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Úsáid feidhmchlár eile…
+    .tooltiptext = Úsáid feidhmchlár eile…
+applications-choose-app-title = Roghnaigh Feidhmchlár Cabhrach
+applications-manage-app =
+    .label = Mionsonraí Feidhmchláir…
+applications-always-ask = Fiafraigh díom i gcónaí
+    .label = Fiafraigh díom i gcónaí
+    .tooltiptext = Fiafraigh díom i gcónaí
+applications-delete-action =
+    .label = Scrios an Gníomh
+applications-delete-action-title = Scrios an Gníomh
+applications-delete-action-confirm = An bhfuil tú cinnte gur mian leat an gníomh seo a scriosadh?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
 save-to-label =
     .label = Sábháil comhaid i
     .accesskey = S
@@ -292,6 +321,10 @@ mark-read-delay =
     .label = Tar éis iad a thaispeáint ar feadh
     .accesskey = t
 seconds-label = soicind
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -456,6 +489,12 @@ ocsp-label =
     .label = Iarr ar fhreastalaí freagróra OCSP bailíocht teastais a dheimhniú
     .accesskey = O
 
+## DoH Section
+
+
+## Keyservers
+
+
 ## Chat Tab
 
 startup-label =
@@ -477,7 +516,7 @@ idle-label =
     .accesskey = A
 idle-time-label = nóiméad gan gníomh
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = agus socraigh go bhfuilim Amuigh, leis an teachtaireacht stádais seo:
@@ -519,6 +558,18 @@ style-simple =
     .label = Simplí
 preview-label = Réamhamharc:
 
+## Content of the preview conversation for chat message styles.
+
+
 ## Settings UI Search Results
 
 search-results-header = Torthaí an Chuardaigh
+
+## Sync Tab
+
+
+## Mobile QR Export Pane
+
+
+## Appearance Tab
+
