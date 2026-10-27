@@ -41,6 +41,9 @@ confirm-messenger-language-change-button = طبِّق وأعِد التشغيل
 update-setting-write-failure-title = حدث عُطل أثناء تحديث التفضيلات
 update-in-progress-title = يجري الآن التحديث
 
+## OS Authentication dialog
+
+
 ## General Tab
 
 focus-search-shortcut =
@@ -83,6 +86,7 @@ animated-alert-label =
 customize-alert-label =
     .label = خصّص…
     .accesskey = خ
+sound-file-picker-title = اختر ملفًا صوتيًا
 mail-custom-sound-label =
     .label = استخدم ملف الصوت التالي
     .accesskey = س
@@ -224,6 +228,34 @@ smaller-size-item =
 quoted-text-color =
     .label = اللون:
     .accesskey = ل
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = استخدم { $appName }
+    .label = استخدم { $appName }
+    .tooltiptext = استخدم { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = استخدم { $appName } (المبدئي)
+    .label = استخدم { $appName } (المبدئي)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = استخدم تطبيقًا آخر…
+    .tooltiptext = استخدم تطبيقًا آخر…
+applications-choose-app-title = اختر التطبيق المساعد
+applications-manage-app =
+    .label = تفاصيل التطبيق…
+applications-always-ask = اسأل دائمًا
+    .label = اسأل دائمًا
+    .tooltiptext = اسأل دائمًا
+applications-delete-action =
+    .label = احذف الإجراء
+applications-delete-action-title = احذف الإجراء
+applications-delete-action-confirm = أمتأكد أنك تريد حذف هذا الإجراء؟
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
 save-to-label =
     .label = احفظ الملفات في
     .accesskey = ف
@@ -265,6 +297,10 @@ mark-read-delay =
     .label = بعد العرض لمدة
     .accesskey = ض
 seconds-label = ثانية
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -429,6 +465,12 @@ ocsp-label =
     .label = استعلم من خواديم مستجيبي OCSP عن الصلاحية الحالية للشهادات
     .accesskey = س
 
+## DoH Section
+
+
+## Keyservers
+
+
 ## Chat Tab
 
 startup-label =
@@ -450,7 +492,7 @@ idle-label =
     .accesskey = ع
 idle-time-label = دقائق من عدم النشاط
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = واجعل حالتي غائب مع هذه الرسالة:
@@ -511,3 +553,18 @@ no-preview-description = ليست هذه السمة صحيحة أو ربما غ�
 chat-variant-label =
     .value = التنويعة:
     .accesskey = ع
+
+## Content of the preview conversation for chat message styles.
+
+
+## Settings UI Search Results
+
+
+## Sync Tab
+
+
+## Mobile QR Export Pane
+
+
+## Appearance Tab
+
