@@ -120,6 +120,15 @@ bigger-size-item =
     .label = Groter
 smaller-size-item =
     .label = Kleiner
+download-folder-desktop = Werkskerm
+download-folder-system = My aflaaie
+download-choose-folder-title = Kies gids
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension }-lêer
+applications-save-file = Stoor lêer
+    .label = Stoor lêer
+    .tooltiptext = Stoor lêer
 # Variables:
 #   $appName (String) - The name of an application.
 applications-use-app = Gebruik { $appName }
@@ -274,6 +283,9 @@ attachment-label =
 attachment-options-label =
     .label = Sleutelwoorde…
     .accesskey = S
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Is u seker u wil die rekening "{ $accountName }" skrap?
 
 ## Privacy Tab
 
@@ -285,6 +297,8 @@ passwords-description = { -brand-short-name } kan wagwoorde vir al jou rekeninge
 passwords-button =
     .label = Gestoorde wagwoorde…
     .accesskey = G
+confirm-reset-junk-training-title = Bevestig
+confirm-reset-junk-training-message = Is u seker u wil die aanpassende filteropleidingdata teruglaai?
 phishing-description = { -brand-short-name } kan boodskappe analiseer vir verdagte e-posswendelary deur uit te kyk vir algemene tegnieke om mens om die bos te lei.
 phishing-label =
     .label = Vertel my as die boodskap wat ek lees, dalk 'n e-posswendel is
