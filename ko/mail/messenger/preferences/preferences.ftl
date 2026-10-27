@@ -347,6 +347,13 @@ offline-settings-button =
     .label = 오프라인…
     .accesskey = O
 temporary-storage-legend = 임시 저장소
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = 캐시가 현재 디스크를 { $size } { $unit } 사용하고 있습니다
+actual-disk-cache-size-calculating =
+    .value = 캐시 크기를 계산중…
 offline-compact-remove-deleted =
     .label = 저장 공간을 확보하기 위해 이미 삭제된 폴더의 데이터를 삭제하세요.
     .accesskey = a
@@ -485,6 +492,10 @@ mark-read-delay =
     .label = 다음 시간이 경과되었을 시 읽은 것으로 표시:
     .accesskey = d
 seconds-label = 초
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 mark-read-after-viewing =
     .label = 조회 후
     .accesskey = v
@@ -991,7 +1002,7 @@ idle-label =
     .accesskey = I
 idle-time-label = 분간 계속 되면 상대에게 알림
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = 아래 메시지를 보내고 자리 비움 상태로 바꿈:
@@ -1066,6 +1077,9 @@ search-preferences-input2 =
     .placeholder = 설정에서 찾기
     .style = width: 15.4em
 managed-notice = { -brand-short-name }는 사용자의 조직에서 관리하고 있습니다.
+
+## Content of the preview conversation for chat message styles.
+
 
 ## Settings UI Search Results
 
