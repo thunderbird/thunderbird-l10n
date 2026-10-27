@@ -225,6 +225,7 @@ use-custom-sound-label =
 mail-select-audio-button =
     .label = Ses seç…
     .accesskey = S
+sound-file-picker-title = Ses Seç
 enable-global-search-label =
     .label = Tüm e-posta hesaplarında aramayı etkinleştir
     .accesskey = T
@@ -460,6 +461,11 @@ search-handler-table =
     .placeholder = İçerik türlerini ve eylemleri filtrele
 type-column-header = İçerik türü
 action-column-header = Eylem
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
 save-to-label =
     .label = Dosyaları kaydetme konumu
     .accesskey = k
@@ -508,6 +514,10 @@ mark-read-delay =
     .label = Baktıktan
     .accesskey = k
 seconds-label = saniye sonra
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -1020,7 +1030,7 @@ idle-label =
     .accesskey = K
 idle-time-label = dakika hareketsizlikten sonra uzakta olduğumu bilsin
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = ve durumumu şu durum iletisiyle Uzakta olarak ayarla:
@@ -1096,6 +1106,9 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = { -brand-short-name } bir kuruluş tarafından yönetiliyor.
 managed-notice = { -brand-short-name } kuruluşunuz tarafından yönetiliyor.
+
+## Content of the preview conversation for chat message styles.
+
 
 ## Settings UI Search Results
 
