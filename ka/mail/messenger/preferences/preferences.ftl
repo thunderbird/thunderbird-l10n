@@ -229,6 +229,7 @@ use-custom-sound-label =
 mail-select-audio-button =
     .label = ხმის არჩევა…
     .accesskey = ა
+sound-file-picker-title = ხმის შერჩევა
 enable-global-search-label =
     .label = ძიების ჩართვა ელფოსტის ყველა ანგარიშზე
     .accesskey = ძ
@@ -245,6 +246,16 @@ enable-gloda-search-label =
     .label = ერთიანი ძიებისა და გზავნილთა აღრიცხვის ჩართვა
     .accesskey = ე
 datetime-formatting-legend = თარიღისა და დროის გაფორმება
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = პროგრამის ენა: { $localeName }
+    .accesskey = ო
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = სამხარეო პარამეტრები: { $localeName }
+    .accesskey = ე
 display-language-legend = ჩვენების ენა
 allow-graphics-accel =
     .label = გრაფიკული აჩქარების გამოყენება გლუვი გადაადგილებისა და წარმადობისთვის
@@ -493,6 +504,11 @@ applications-delete-action =
     .label = ქმედების წაშლა
 applications-delete-action-title = ქმედების წაშლა
 applications-delete-action-confirm = ნამდვილად გსურთ ამ ქმედების წაშლა?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
 save-to-label =
     .label = ფაილების შენახვა…
     .accesskey = ნ

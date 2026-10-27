@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 permissions-dialog-title = გამონაკლისები
+remote-content-permissions-title = გამონაკლისები - ვებშიგთავსი
+remote-content-permissions-description = შეგიძლიათ მიუთითოთ, თუ რომელი ვებსაიტის სურათებისა და სხვა სახის ვებშიგთავსის ჩამოტვირთვა იქნება დაშვებული. ასევე შეგიძლიათ დაუშვათ ვებშიგთავსის ჩვენება, გამომგზავნის ელფოსტის მიხედვითაც. აკრიფეთ ვებსაიტის ან ელფოსტის მისამართი, რომლის მითითებაც გსურთ და დააწკაპეთ შეზღუდვას ან დაშვებას.
+cookie-permissions-title = გამონაკლისები - ფუნთუშები
 website-address-label =
     .value = საიტის მისამართი:
     .accesskey = მ
