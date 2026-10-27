@@ -193,3 +193,6 @@ folder-delete-confirm = Is u seker u wil die vouer '{ $name }' skrap?
 # Variables:
 #   $name (String) - Name of the folder being deleted.
 folder-delete-no-trash-confirm = OM hierdie vouer te skrap, is nie ontdoenbaar nie, en dit sal alle boodskappe skrap wat dit bevat, asook die subvouers? Is u wel seker u wil die vouer '{ $name }' skrap?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = As u die vouer '{ $name }' skrap, sal dit die geassosieerde filter(s) deaktiveer. Is u seker u wil die vouer skrap?
