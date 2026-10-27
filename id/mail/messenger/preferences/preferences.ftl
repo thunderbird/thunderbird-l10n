@@ -242,6 +242,16 @@ enable-gloda-search-label =
     .label = Aktifkan Sistem Pencarian Global dan Pengindeksan Pesan
     .accesskey = i
 datetime-formatting-legend = Format Waktu dan Tanggal
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Aplikasi lokal: { $localeName }
+    .accesskey = o
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Pengaturan lokal regional: { $localeName }
+    .accesskey = e
 display-language-legend = Bahasa tampilan
 allow-graphics-accel =
     .label = Gunakan akselerasi grafis untuk pengguliran dan kinerja yang lebih mulus
@@ -502,6 +512,10 @@ applications-delete-action-confirm = Yakin akan menghapus aksi ini?
 #                                "Portable Document Format (PDF)".
 #   $type (String) - The MIME type of the content, for example "application/pdf".
 applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Format Dokumen Portabel (PDF)
+applications-preview-in-app = Pratinjau di { -brand-short-name }
+    .label = Pratinjau di { -brand-short-name }
+    .tooltiptext = Pratinjau di { -brand-short-name }
 save-to-label =
     .label = Simpan berkas di
     .accesskey = S
@@ -754,6 +768,13 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Temukan lebih banyak penyedia...
 cloud-account-description = Tambakan layanan penyimpanan Filelink
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Tambahkan { $providerName }
+    .tooltiptext = Tambahkan { $providerName }
+filelink-account-not-configured =
+    .title = Akun ini belum dikonfigurasikan
 
 ## Privacy Tab
 
