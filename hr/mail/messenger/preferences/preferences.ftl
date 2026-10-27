@@ -603,6 +603,13 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Pronađite više davatelja usluga…
 cloud-account-description = Dodaj novu Filelink uslugu pohrane
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Dodaj { $providerName }
+    .tooltiptext = Dodaj { $providerName }
+filelink-account-not-configured =
+    .title = Ovaj korisnički račun još nije podešen
 
 ## Privacy Tab
 
