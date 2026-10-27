@@ -475,6 +475,10 @@ search-handler-table =
     .placeholder = Φιλτράρισμα τύπων περιεχομένου και ενεργειών
 type-column-header = Τύπος περιεχομένου
 action-column-header = Ενέργεια
+applications-type-pdf = Portable Document Format (PDF)
+applications-preview-in-app = Προεπισκόπηση στο { -brand-short-name }
+    .label = Προεπισκόπηση στο { -brand-short-name }
+    .tooltiptext = Προεπισκόπηση στο { -brand-short-name }
 save-to-label =
     .label = Αποθήκευση αρχείων σε
     .accesskey = θ
@@ -795,6 +799,13 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Εύρεση περισσότερων παρόχων…
 cloud-account-description = Προσθήκη νέας υπηρεσίας αποθηκευτικού χώρου FileLink
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Προσθήκη { $providerName }
+    .tooltiptext = Προσθήκη { $providerName }
+filelink-account-not-configured =
+    .title = Αυτός ο λογαριασμός δεν έχει ρυθμιστεί ακόμα
 
 ## Privacy Tab
 
