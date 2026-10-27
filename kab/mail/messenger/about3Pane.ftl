@@ -521,3 +521,6 @@ folder-delete-confirm = Tebɣiḍ ad tekkseḍ akaram '{ $name }'?
 # Variables:
 #   $name (String) - Name of the folder being deleted.
 folder-delete-no-trash-confirm = Tukksa n ukaram-agi ur tettuɣal ara ɣer deffir udiɣ ad tekkes akk iznan yegber, akked ikaramen. Tebɣiḍ ad tekkseḍ akaram '{ $name }'?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Tukksa n ukaram '{ $name }' ad yekkes armad n yimsizdigen icudden ɣur-s. Tebɣiḍ ad tekkseḍ akaram?
