@@ -600,3 +600,6 @@ folder-delete-confirm = Да ли сте сигурни да желите обр
 # Variables:
 #   $name (String) - Name of the folder being deleted.
 folder-delete-no-trash-confirm = Брисање ове фасцикле се не може опозвати овим ћете обрисати све поруке и подфасцикле садржане у њој. Да ли сте сигурни да желите обрисати фасциклу '{ $name }'?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Брисањем фасцикле '{ $name }' ћете искључити њене придружене филтере. Да ли сте сигурни да желите обрисати фасциклу?
