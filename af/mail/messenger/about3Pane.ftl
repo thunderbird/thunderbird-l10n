@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
@@ -172,3 +175,21 @@ apply-current-columns-to-folder-message = Pas die huidige vouer se kolomme toe o
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Pas die huidige vouer se kolomme toe op { $name } en sy kinders?
+
+## Folder pane context menu
+
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = Skrap vouer
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = &Skrap vouer
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = Is u seker u wil die vouer '{ $name }' skrap?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = OM hierdie vouer te skrap, is nie ontdoenbaar nie, en dit sal alle boodskappe skrap wat dit bevat, asook die subvouers? Is u wel seker u wil die vouer '{ $name }' skrap?
