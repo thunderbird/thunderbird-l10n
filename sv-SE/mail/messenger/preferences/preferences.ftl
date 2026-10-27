@@ -484,6 +484,15 @@ search-handler-table =
     .placeholder = Filtrera innehållstyper och åtgärder
 type-column-header = Innehållstyp
 action-column-header = Åtgärd
+download-folder-desktop = Skrivbord
+download-folder-system = Hämtade filer
+download-choose-folder-title = Välj mapp:
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension }-fil
+applications-save-file = Spara fil
+    .label = Spara fil
+    .tooltiptext = Spara fil
 # Variables:
 #   $appName (String) - The name of an application.
 applications-use-app = Använd { $appName }
@@ -843,6 +852,9 @@ filelink-add-provider =
     .tooltiptext = Lägg till { $providerName }
 filelink-account-not-configured =
     .title = Detta konto har inte konfigurerats än
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Är du säker på att du vill ta bort kontot "{ $accountName }"?
 
 ## Privacy Tab
 
@@ -954,6 +966,8 @@ spam-log-button =
 reset-spam-button =
     .label = Återställ träningsdata
     .accesskey = t
+confirm-reset-junk-training-title = Bekräfta
+confirm-reset-junk-training-message = Är du säker på att du vill återställa tillvänjningsfiltrets träningsdata?
 scam-detection-description = { -brand-short-name } söker igenom meddelanden efter nätfiskelänkar och vanliga tecken på e-postbedrägerier.
 scam-detection-label =
     .label = Varna när ett e-postmeddelande verkar vara ett bedrägeriförsök
@@ -1212,6 +1226,15 @@ managed-notice = { -brand-short-name } hanteras av ditt företag.
 
 ## Content of the preview conversation for chat message styles.
 
+chat-theme-preview-default =
+    .label = Standard
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Hej! :-)
+chat-theme-preview-message-2 = Vad händer?
+chat-theme-preview-message-3 = Jag testar { -brand-short-name }! ;-)
 
 ## Settings UI Search Results
 
