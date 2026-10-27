@@ -516,6 +516,10 @@ applications-delete-action-confirm = Sigur vrei să ștergi această acțiune?
 #                                "Portable Document Format (PDF)".
 #   $type (String) - The MIME type of the content, for example "application/pdf".
 applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Format de document portabil (PDF)
+applications-preview-in-app = Previzualizează în { -brand-short-name }
+    .label = Previzualizează în { -brand-short-name }
+    .tooltiptext = Previzualizează în { -brand-short-name }
 save-to-label =
     .label = Salvează fișierele în
     .accesskey = S
@@ -836,6 +840,13 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Caută mai mulți furnizori…
 cloud-account-description = Adaugă un serviciu nou de stocare Filelink
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Adaugă { $providerName }
+    .tooltiptext = Adaugă { $providerName }
+filelink-account-not-configured =
+    .title = Acest cont încă nu este configurat
 
 ## Privacy Tab
 
