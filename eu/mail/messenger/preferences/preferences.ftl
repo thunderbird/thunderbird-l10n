@@ -390,6 +390,10 @@ applications-delete-action-confirm = Ziur zaude ekintza hau ezabatu nahi duzula?
 #                                "Portable Document Format (PDF)".
 #   $type (String) - The MIME type of the content, for example "application/pdf".
 applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Portable Document Format (PDF)
+applications-preview-in-app = Aurreikusi { -brand-short-name }(e)n
+    .label = Aurreikusi { -brand-short-name }(e)n
+    .tooltiptext = Aurreikusi { -brand-short-name }(e)n
 save-to-label =
     .label = Gorde fitxategiak hemen:
     .accesskey = G
@@ -607,6 +611,13 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Bilatu hornitzaile gehiago…
 cloud-account-description = Gehitu Filelink biltegiratze-zerbitzu berri bat
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Gehitu { $providerName }
+    .tooltiptext = Gehitu { $providerName }
+filelink-account-not-configured =
+    .title = Kontu hau konfiguratzeke dago
 
 ## Privacy Tab
 
