@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 permissions-dialog-title = Unntak
+remote-content-permissions-title = Unntak - eksternt innhold
+remote-content-permissions-description = Du kan angi hvilke nettsider som det er tillatt at bilder eller eksternt innhold kan lastes fra. Du kan også tillate alt eksternt innhold basert på avsenderens e-postadresse. Skriv inn adressen til nettstedet, eller e-postadressen du ønsker behandle, og trykk deretter Blokker eller Tillat.
+cookie-permissions-title = Unntak - infokapsler
+cookie-permissions-description = Du kan angi hvilke nettsider som alltid eller aldri er tillatt bruke infokapsler.  Skriv inn den eksakte adressen til nettstedet du vil behandle, og trykk deretter Blokker, Tillat for programøkt, eller Tillat.
 website-address-label =
     .value = Adressen til nettstedet:
     .accesskey = d

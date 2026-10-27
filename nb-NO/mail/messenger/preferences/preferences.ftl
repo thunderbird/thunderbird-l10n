@@ -186,6 +186,7 @@ tray-icon-unread-description = Anbefalt ved bruk av små knapper på oppgavelinj
 mail-system-sound-label =
     .label = Standard systemlyd for ny e-post
     .accesskey = S
+sound-file-picker-title = Velg lyd
 mail-custom-sound-label =
     .label = Bruk følgende lydfil
     .accesskey = r
@@ -366,6 +367,34 @@ search-handler-table =
     .placeholder = Filtrer innholdstyper og handlinger
 type-column-header = Innholdstype
 action-column-header = Handling
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Bruk { $appName }
+    .label = Bruk { $appName }
+    .tooltiptext = Bruk { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Bruk { $appName } (standard)
+    .label = Bruk { $appName } (standard)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Bruk annet …
+    .tooltiptext = Bruk annet …
+applications-choose-app-title = Velg hjelpeprogram
+applications-manage-app =
+    .label = Programdetaljer …
+applications-always-ask = Spør alltid
+    .label = Spør alltid
+    .tooltiptext = Spør alltid
+applications-delete-action =
+    .label = Slett handling
+applications-delete-action-title = Slett handling
+applications-delete-action-confirm = Er du sikker på at du vil slette denne handlingen?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
 save-to-label =
     .label = Lagre filer til
     .accesskey = L
@@ -410,6 +439,10 @@ mark-read-delay =
     .label = Etter de er vist i
     .accesskey = E
 seconds-label = sekunder
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -822,7 +855,7 @@ idle-label =
     .accesskey = L
 idle-time-label = minutter med inaktivitet
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = og sett status til borte med denne statusmeldingen:
@@ -897,6 +930,9 @@ search-preferences-input2 =
     .placeholder = Finn i Innstillinger
     .style = width: 15.4em
 managed-notice = { -brand-short-name } administreres av organisasjonen din.
+
+## Content of the preview conversation for chat message styles.
+
 
 ## Settings UI Search Results
 
