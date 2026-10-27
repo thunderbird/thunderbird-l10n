@@ -389,6 +389,13 @@ offline-settings-button =
     .label = კავშირგარეშე…
     .accesskey = გ
 temporary-storage-legend = დროებითი საცავი
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = დროებით მარაგს დისკზე უკავია { $size } { $unit }
+actual-disk-cache-size-calculating =
+    .value = ითვლება მარაგის მოცულობა…
 offline-compact-remove-deleted =
     .label = მოცილდეს მონაცემები საქაღალდეებიდან, რომლებიც უკვე წაშლილია მეხსიერების გასათავისუფლებლად
     .accesskey = ც
@@ -481,6 +488,15 @@ search-handler-table =
     .placeholder = შიგთავსის სახეობებისა და მოქმედებების გაფილტვრა
 type-column-header = მასალის სახეობა
 action-column-header = მოქმედება
+download-folder-desktop = სამუშაო ეკრანი
+download-folder-system = ჩემი ჩამოტვირთვები
+download-choose-folder-title = საქაღალდის შერჩევა
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension } ფაილი
+applications-save-file = ფაილის შენახვა
+    .label = ფაილის შენახვა
+    .tooltiptext = ფაილის შენახვა
 # Variables:
 #   $appName (String) - The name of an application.
 applications-use-app = { $appName } პროგრამის გამოყენება
@@ -840,6 +856,9 @@ filelink-add-provider =
     .tooltiptext = { $providerName }-ის დამატება
 filelink-account-not-configured =
     .title = ეს ანგარიში ჯერ არაა გამართული
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = ნამდვილად გსურთ მოაცილოთ ანგარიში „{ $accountName }“?
 
 ## Privacy Tab
 
@@ -951,6 +970,8 @@ spam-log-button =
 reset-spam-button =
     .label = სწავლების მონაცემთა განულება
     .accesskey = წ
+confirm-reset-junk-training-title = დასტური
+confirm-reset-junk-training-message = ნამდვილად გსურთ მოქნილი ფილტრის გავარჯიშების მონაცემთა განულება?
 scam-detection-description = { -brand-short-name } ამოწმებს წერილებს თაღლითური ბმულებისა და ყალბი ელფოსტის გავრცელებული მახასიათებლების მიხედვით.
 scam-detection-label =
     .label = გაფრთხილება ყალბად მიჩნეული წერილის წაკითხვისას
@@ -1209,6 +1230,15 @@ managed-notice = { -brand-short-name } იმართება დაწეს�
 
 ## Content of the preview conversation for chat message styles.
 
+chat-theme-preview-default =
+    .label = ნაგულისხმევი
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = ჰეი! :-)
+chat-theme-preview-message-2 = რას შვრები?
+chat-theme-preview-message-3 = ვეცნობი { -brand-short-name }-ს! ;-)
 
 ## Settings UI Search Results
 
