@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 permissions-dialog-title = Wuwzaća
+remote-content-permissions-title = Wuwzaća - Zdaleny wobsah
+remote-content-permissions-description = Móžeće podać, z kotrychž websydłow wobrazy a druhi zdaleny wobsah smědźa so začitać. Móžeće tež wšón zdaleny wobsah na zakładźe e-mejloweje adresy wotpósłarja dowolić. Zapisajće adresu sydła abo e-mejlki, kotruž chceće zrjadować a klikńće potom na Blokować abo Dowolić.
+cookie-permissions-title = Wuwzaća - Placki
+cookie-permissions-description = Móžeće podać, kotre websydła smědźa abo njesmědźa placki wužiwać. Zapisajće eksaktnu adresu sydła, kotrež chceće zrjadować a klikńće potom na Blokować, Za posedźenje dowolić abo Dowolić.
 website-address-label =
     .value = Adresa websydła:
     .accesskey = A
