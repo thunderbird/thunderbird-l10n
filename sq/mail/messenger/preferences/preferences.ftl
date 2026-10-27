@@ -173,6 +173,7 @@ tray-icon-unread-description = E rekomanduar kur përdoren butona të vegjël pa
 mail-system-sound-label =
     .label = Tingull parazgjedhje sistemi për postë të re
     .accesskey = p
+sound-file-picker-title = Zgjidhni Tingull
 mail-custom-sound-label =
     .label = Përdor kartelën zanore vijuese
     .accesskey = o
@@ -183,6 +184,16 @@ enable-gloda-search-label =
     .label = Aktivizo Kërkim dhe Indeksues Global
     .accesskey = A
 datetime-formatting-legend = Formatim Datash dhe Kohe
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Vendore aplikacioni: { $localeName }
+    .accesskey = p
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Vendore rregullimesh rajonale: { $localeName }
+    .accesskey = V
 language-selector-legend = Gjuhë
 allow-hw-accel =
     .label = Përdor përshpejtim hardware, kur mundet
@@ -268,6 +279,13 @@ offline-settings = Formësoni rregullimet për jo në linjë
 offline-settings-button =
     .label = Jo në linjë…
     .accesskey = J
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Fshehtina juaj zë { $size } { $unit } hapësirë disku
+actual-disk-cache-size-calculating =
+    .value = Po llogaritet madhësi fshehtine…
 diskspace-legend = Hapësirë Disku
 offline-compact-folder =
     .label = Ngjeshi krejt dosjet, kur kjo sjell kursim vendi
@@ -344,6 +362,10 @@ search-handler-table =
     .placeholder = Filtroni lloje dhe veprime lënde
 type-column-header = Lloj Lënde
 action-column-header = Veprim
+applications-type-pdf = Format Dokumentesh të Mbartshëm (PDF)
+applications-preview-in-app = Paraparje në { -brand-short-name }
+    .label = Paraparje në { -brand-short-name }
+    .tooltiptext = Paraparje në { -brand-short-name }
 save-to-label =
     .label = Kartelat ruaji te
     .accesskey = K
@@ -388,6 +410,10 @@ mark-read-delay =
     .label = Pasi janë shfaqur për
     .accesskey = P
 seconds-label = sekonda
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -572,6 +598,13 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Gjeni më tepër furnizues…
 cloud-account-description = Shtoni një shërbim të ri depozitimi Filelink
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Shtoni { $providerName }
+    .tooltiptext = Shtoni { $providerName }
+filelink-account-not-configured =
+    .title = Kjo llogari s’është formësuar ende
 
 ## Privacy Tab
 
@@ -789,7 +822,7 @@ idle-label =
     .accesskey = K
 idle-time-label = minutash pa veprimtari
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = dhe gjendjen time kaloje si i Larguar dhe me këtë mesazh gjendjeje:
@@ -864,6 +897,9 @@ search-preferences-input2 =
     .placeholder = Gjeni te Rregullime
     .style = width: 20em
 managed-notice = { -brand-short-name } administrohet nga enti juaj.
+
+## Content of the preview conversation for chat message styles.
+
 
 ## Settings UI Search Results
 

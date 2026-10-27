@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 permissions-dialog-title = Përjashtime
+remote-content-permissions-title = Përjashtime - Lëndë e Largët
+remote-content-permissions-description = Mund të përcaktoni sajte prej të cilëve lejohet të ngarkohen figura dhe lëndë tjetër e largët. Mundeni gjithashtu të lejoni krejt lëndën e largët bazuar në adresën email të dërguesit. Shtypni adresën e sajtit ose atë email që dëshironi të përpunoni dhe mandej klikoni mbi Bllokoje ose Lejoje.
+cookie-permissions-title = Përjashtime - “Cookies”
+cookie-permissions-description = Mund të përcaktoni cilit sajt i lejohet gjithmonë, ose nuk i lejohet asnjëherë, të përdorë “cookie”. Shtypni adresën e përpiktë të sajtit që doni të administrohet dhe mandej klikoni mbi Bllokoje, mbi Lejoje për Sesionin, ose mbi Lejoje
 website-address-label =
     .value = Adresë sajti:
     .accesskey = A
