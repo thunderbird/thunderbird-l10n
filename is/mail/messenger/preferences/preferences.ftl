@@ -379,6 +379,13 @@ offline-settings-button =
     .label = Ónettengt…
     .accesskey = t
 temporary-storage-legend = Tímabundin geymsla
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Skyndiminnið er að nota { $size } { $unit } af diskplássi
+actual-disk-cache-size-calculating =
+    .value = Reikna út stærð skyndiminnis…
 offline-compact-remove-deleted =
     .label = Fjarlægja gögn úr möppum þegar þeim hefur þegar verið eytt til að losa um geymslurými
     .accesskey = a
