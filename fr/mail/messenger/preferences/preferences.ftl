@@ -229,6 +229,7 @@ use-custom-sound-label =
 mail-select-audio-button =
     .label = Sélectionner un fichier audio…
     .accesskey = S
+sound-file-picker-title = Choisir un son
 enable-global-search-label =
     .label = Activer la recherche pour tous les comptes de messagerie
     .accesskey = A
@@ -493,6 +494,11 @@ applications-delete-action =
     .label = Supprimer l’action
 applications-delete-action-title = Supprimer l’action
 applications-delete-action-confirm = Voulez-vous vraiment supprimer cette action ?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description } : { $type })
 save-to-label =
     .label = Enregistrer les fichiers sous
     .accesskey = E
