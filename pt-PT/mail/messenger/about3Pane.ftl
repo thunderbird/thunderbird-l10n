@@ -577,3 +577,21 @@ folder-pane-context-compact =
 folder-pane-context-compact-all =
     .label = Compactar todas as pastas
     .accesskey = p
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = Apagar pasta
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = &Apagar pasta
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = Tem a certeza que pretende eliminar a pasta { $name }?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = Se eliminar esta pasta, não a poderá recuperar e todas as respetivas mensagens e sub-pastas, serão perdidas. Tem a certeza que pretende eliminar a pasta '{ $name }'?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Se eliminar a pasta '{ $name }', desativa o(s) respetivo(s) filtro(s) associado(s). Tem a certeza que pretende eliminar a pasta?
