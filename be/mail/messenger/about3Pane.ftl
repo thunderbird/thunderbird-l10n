@@ -557,3 +557,13 @@ folder-pane-context-mark-folder-read =
            *[many] Пазначыць папкі прачытанымі
         }
     .accesskey = П
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = Выдаліць папку
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = &Выдаліць папку
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = Вы ўпэўнены, што жадаеце выдаліць папку «{ $name }»?
