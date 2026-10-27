@@ -488,6 +488,15 @@ search-handler-table =
     .placeholder = Dateitypen und Aktionen suchen
 type-column-header = Dateityp
 action-column-header = Aktion
+download-folder-desktop = Desktop
+download-folder-system = Eigene Downloads
+download-choose-folder-title = Ordner auswählen
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension }-Datei
+applications-save-file = Datei speichern
+    .label = Datei speichern
+    .tooltiptext = Datei speichern
 # Variables:
 #   $appName (String) - The name of an application.
 applications-use-app = Mit { $appName } öffnen
@@ -840,6 +849,16 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Weitere Anbieter finden…
 cloud-account-description = Einen Filelink-Speicherdienst hinzufügen
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = { $providerName } hinzufügen
+    .tooltiptext = { $providerName } hinzufügen
+filelink-account-not-configured =
+    .title = Dieses Konto wurde noch nicht eingerichtet.
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Sind Sie sicher, dass Sie das Konto "{ $accountName }" entfernen wollen?
 
 ## Privacy Tab
 
@@ -951,6 +970,8 @@ spam-log-button =
 reset-spam-button =
     .label = Trainingsdaten löschen
     .accesskey = r
+confirm-reset-junk-training-title = Bestätigen
+confirm-reset-junk-training-message = Wollen Sie wirklich die Trainingsdaten des lernfähigen Filters löschen?
 scam-detection-description = { -brand-short-name } prüft Nachrichten auf Phishing-Links und typische Anzeichen für E-Mail-Betrug.
 scam-detection-label =
     .label = Beim Lesen einer verdächtigen E-Mail warnen
@@ -1209,6 +1230,15 @@ managed-notice = { -brand-short-name } wird durch Ihre Organisation verwaltet.
 
 ## Content of the preview conversation for chat message styles.
 
+chat-theme-preview-default =
+    .label = Standard
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Hi! :-)
+chat-theme-preview-message-2 = Wie geht’s?
+chat-theme-preview-message-3 = Ich probiere gerade { -brand-short-name } aus ;-)
 
 ## Settings UI Search Results
 
