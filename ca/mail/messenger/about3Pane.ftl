@@ -553,3 +553,18 @@ folder-pane-context-mark-folder-read =
            *[other] Marca les carpetes com a llegides
         }
     .accesskey = r
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = Suprimeix la carpeta
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = &Suprimeix la carpeta
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = Esteu segur que voleu suprimir la carpeta «{ $name }»?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = La supressió de la carpeta no es pot desfer i se suprimiran tots els missatges que conté, així com les seves subcarpetes. Esteu segur que voleu suprimir la carpeta «{ $name }»?
