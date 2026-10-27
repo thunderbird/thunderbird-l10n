@@ -179,6 +179,7 @@ tray-icon-unread-description = Priporočeno pri uporabi majhnih ikon opravilne v
 mail-system-sound-label =
     .label = Privzeti sistemski zvok za novo pošto
     .accesskey = z
+sound-file-picker-title = Izberite zvok
 mail-custom-sound-label =
     .label = Uporabi naslednjo zvočno datoteko
     .accesskey = U
@@ -401,6 +402,10 @@ mark-read-delay =
     .label = potem, ko so prikazana za
     .accesskey = o
 seconds-label = sekund
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -806,7 +811,7 @@ idle-label =
     .accesskey = N
 idle-time-label = minutah nedejavnosti
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = in mojo odsotnost objavi s sporočilom stanja:
@@ -881,6 +886,9 @@ search-preferences-input2 =
     .placeholder = Najdi v nastavitvah
     .style = width: 15.4em
 managed-notice = { -brand-short-name } upravlja vaša organizacija.
+
+## Content of the preview conversation for chat message styles.
+
 
 ## Settings UI Search Results
 
