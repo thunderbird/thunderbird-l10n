@@ -577,3 +577,9 @@ folder-pane-context-compact =
 folder-pane-context-compact-all =
     .label = Összes mappa tömörítése
     .accesskey = e
+
+## Confirmation prompts shown before deleting a folder.
+
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = A(z) „{ $name }” mappa törlésével a hozzárendelt szűrők tiltva lesznek. Biztos benne, hogy le akarja törölni a mappát?
