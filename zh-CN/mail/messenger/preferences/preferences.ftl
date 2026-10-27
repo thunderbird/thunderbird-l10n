@@ -173,6 +173,7 @@ tray-icon-unread-description = 推荐在使用小任务栏按钮时启用
 mail-system-sound-label =
     .label = 系统默认新邮件提示音
     .accesskey = D
+sound-file-picker-title = 选择声音
 mail-custom-sound-label =
     .label = 使用下列声音文件
     .accesskey = U
@@ -344,6 +345,34 @@ search-handler-table =
     .placeholder = 过滤内容类型和操作
 type-column-header = 内容类型
 action-column-header = 操作
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = 使用“{ $appName }”
+    .label = 使用“{ $appName }”
+    .tooltiptext = 使用“{ $appName }”
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = 使用“{ $appName }”（默认）
+    .label = 使用“{ $appName }”（默认）
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = 使用其他应用…
+    .tooltiptext = 使用其他应用…
+applications-choose-app-title = 选择助手应用程序
+applications-manage-app =
+    .label = 应用程序详细信息…
+applications-always-ask = 一律询问
+    .label = 一律询问
+    .tooltiptext = 一律询问
+applications-delete-action =
+    .label = 删除操作
+applications-delete-action-title = 删除操作
+applications-delete-action-confirm = 你确实希望删除这个动作？
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
 save-to-label =
     .label = 保存文件至
     .accesskey = S
@@ -388,6 +417,10 @@ mark-read-delay =
     .label = 显示
     .accesskey = d
 seconds-label = 秒之后
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -791,7 +824,7 @@ idle-label =
     .accesskey = I
 idle-time-label = 分钟时，让我的联系人获知
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = 同时设置我的状态为离开，并添加此状态信息
@@ -866,6 +899,9 @@ search-preferences-input2 =
     .placeholder = 查找设置
     .style = width: 15.4em
 managed-notice = { -brand-short-name } 由您的组织管理。
+
+## Content of the preview conversation for chat message styles.
+
 
 ## Settings UI Search Results
 
