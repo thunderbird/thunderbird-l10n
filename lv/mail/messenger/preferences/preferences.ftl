@@ -311,6 +311,10 @@ smaller-size-item =
 quoted-text-color =
     .label = Krāsa:
     .accesskey = K
+applications-type-pdf = Portējams dokumenta formāts (PDF)
+applications-preview-in-app = Priekšskatīt ar { -brand-short-name }
+    .label = Priekšskatīt ar { -brand-short-name }
+    .tooltiptext = Priekšskatīt ar { -brand-short-name }
 save-to-label =
     .label = Saglabāt datnes
     .accesskey = S
@@ -358,6 +362,10 @@ mark-read-delay =
     .label = Pēc parādīšanas
     .accesskey = P
 seconds-label = sekundes
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 mark-read-after-viewing =
     .label = Apskatot
     .accesskey = s
@@ -561,6 +569,9 @@ security-devices-button =
     .accesskey = D
 email-e2ee-header = E-pasta pilnīga šifrēšana
 
+## DoH Section
+
+
 ## Keyservers
 
 email-e2ee-key-servers-add = Pievienot…
@@ -587,7 +598,7 @@ idle-label =
     .accesskey = d
 idle-time-label = bezdarbības minūtēm
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = un iestatīt statusu Prom ar šo statusa ziņojumu:
@@ -648,6 +659,9 @@ no-preview-description = Šī tēma nav derīga vai pašlaik nav pieejama (atsp�
 chat-variant-label =
     .value = Variants:
     .accesskey = V
+
+## Content of the preview conversation for chat message styles.
+
 
 ## Settings UI Search Results
 
