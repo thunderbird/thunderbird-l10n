@@ -378,6 +378,13 @@ offline-settings-button =
     .label = Offline…
     .accesskey = O
 temporary-storage-legend = Temporerne składowanje
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Waš pufrowak tuchwilu { $size } { $unit } tačeloweho ruma wužiwa
+actual-disk-cache-size-calculating =
+    .value = Wulkosć pufrowaka so wuličuje…
 offline-compact-remove-deleted =
     .label = Daty z rjadowakow wotstronić, hdyž su hižo zhašane, zo by so składowanski rum wuswobodźił
     .accesskey = t
@@ -521,6 +528,10 @@ mark-read-delay =
     .label = Po zwobraznjenju za
     .accesskey = z
 seconds-label = sekundow
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 mark-read-after-viewing =
     .label = Po pokazowanju za
     .accesskey = k
@@ -1074,7 +1085,7 @@ idle-label =
     .accesskey = i
 idle-time-label = mjeńšin preč
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = a stajće mój status na Preč z tutej statusowej powěsću:
@@ -1150,6 +1161,9 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = { -brand-short-name } so přez organizaciju rjaduje.
 managed-notice = { -brand-short-name } so wot wašeje organizacije rjaduje.
+
+## Content of the preview conversation for chat message styles.
+
 
 ## Settings UI Search Results
 
