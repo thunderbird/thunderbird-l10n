@@ -549,3 +549,21 @@ folder-pane-context-mark-folder-read =
            *[other] Märgi kaustad loetuks
         }
     .accesskey = M
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = Kausta kustutamine
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = &Kustuta kaust
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = Kas oled kindel, et soovid kustutada kausta '{ $name }'?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = Selle kausta kustutamist pole võimalik tagasi võtta ning koos kaustaga kustuvad ka kõik selles sisalduvad kirjad ja alamkaustad. Kas oled kindel, et soovid kustutada kausta '{ $name }'?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Kausta '{ $name }' kustutamine lülitab välja sellega seotud filtrid. Kas soovid kindlasti selle kausta kustutada?
