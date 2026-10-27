@@ -400,6 +400,15 @@ search-handler-table =
     .placeholder = Suodata sisältötyypit ja toiminnot
 type-column-header = Sisältötyyppi
 action-column-header = Toiminto
+download-folder-desktop = Työpöytä
+download-folder-system = Omat lataukset
+download-choose-folder-title = Valitse kansio
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension }-tiedosto
+applications-save-file = Tallenna tiedosto
+    .label = Tallenna tiedosto
+    .tooltiptext = Tallenna tiedosto
 # Variables:
 #   $appName (String) - The name of an application.
 applications-use-app = Käytä sovellusta { $appName }
@@ -682,6 +691,9 @@ filelink-add-provider =
     .tooltiptext = Lisää { $providerName }
 filelink-account-not-configured =
     .title = Tämän tilin asetuksia ei ole vielä tehty
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Poistetaanko tili "{ $accountName }"?
 
 ## Privacy Tab
 
@@ -748,6 +760,8 @@ spam-log-label =
 spam-log-button =
     .label = Näytä loki
     .accesskey = N
+confirm-reset-junk-training-title = Vahvista
+confirm-reset-junk-training-message = Nollataanko mukautuvan suodattimen harjoitustiedot?
 scam-detection-label =
     .label = Varoita, kun luet sähköpostia, joka näyttää huijaukselta
     .accesskey = V
@@ -954,6 +968,15 @@ search-preferences-input2 =
 
 ## Content of the preview conversation for chat message styles.
 
+chat-theme-preview-default =
+    .label = Oletus
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Hei! :-)
+chat-theme-preview-message-2 = Mitä kuuluu?
+chat-theme-preview-message-3 = Kokeilen { -brand-short-name }iä!;-)
 
 ## Settings UI Search Results
 
