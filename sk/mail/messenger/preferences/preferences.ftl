@@ -394,6 +394,8 @@ temporary-storage-legend = Dočasné úložisko
 #   $unit (String) - The unit used to describe the amount of disk space.
 actual-disk-cache-size =
     .value = Vyrovnávacia pamäť využíva { $size } { $unit } miesta na disku
+actual-disk-cache-size-calculating =
+    .value = Vypočítava sa veľkosť vyrovnávacej pamäte…
 offline-compact-remove-deleted =
     .label = Odstrániť údaje priečinkov, ktoré už boli vymazané, a uvoľniť tak miesto v úložisku
     .accesskey = O
@@ -486,6 +488,15 @@ search-handler-table =
     .placeholder = Filtrovať typy obsahu a akcie
 type-column-header = Typ obsahu
 action-column-header = Akcia
+download-folder-desktop = Pracovná plocha
+download-folder-system = Sťahovanie
+download-choose-folder-title = Výber priečinka
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = Súbor { $extension }
+applications-save-file = Uložiť súbor
+    .label = Uložiť súbor
+    .tooltiptext = Uložiť súbor
 # Variables:
 #   $appName (String) - The name of an application.
 applications-use-app = Použiť { $appName }
@@ -845,6 +856,9 @@ filelink-add-provider =
     .tooltiptext = Pridať účet { $providerName }
 filelink-account-not-configured =
     .title = Tento účet ešte nebol nakonfigurovaný
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Naozaj chcete odstrániť účet "{ $accountName }"?
 
 ## Privacy Tab
 
@@ -956,6 +970,8 @@ spam-log-button =
 reset-spam-button =
     .label = Vymazať zozbierané údaje
     .accesskey = V
+confirm-reset-junk-training-title = Potvrdenie
+confirm-reset-junk-training-message = Naozaj chcete vymazať obsah adaptívneho filtra?
 scam-detection-description = { -brand-short-name } vyhľadáva v správach podvodné odkazy a typické znaky e‑mailových podvodov.
 scam-detection-label =
     .label = Upozorniť pri čítaní e‑mailu, ktorý pôsobí podozrivo
@@ -1214,6 +1230,15 @@ managed-notice = { -brand-short-name } je spravovaný vašou organizáciou.
 
 ## Content of the preview conversation for chat message styles.
 
+chat-theme-preview-default =
+    .label = Predvolený
+chat-theme-preview-nick-1 = Florián
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrik
+chat-theme-preview-buddy-2 = patrik@im.instantbird.org
+chat-theme-preview-message-1 = Ahoj! :-)
+chat-theme-preview-message-2 = Čo máš nové?
+chat-theme-preview-message-3 = Skúšam { -brand-short-name }! ;-)
 
 ## Settings UI Search Results
 
