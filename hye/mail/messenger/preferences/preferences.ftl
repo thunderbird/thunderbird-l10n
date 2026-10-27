@@ -311,6 +311,10 @@ search-handler-table =
     .placeholder = Զտել բովանդակութեան տեսակներն ու գործողութիւնները
 type-column-header = Բովանդակութեան տեսակը
 action-column-header = Գործողութիւն
+applications-type-pdf = Portable Document Format (PDF)
+applications-preview-in-app = Նախադիտումը { -brand-short-name }-ում
+    .label = Նախադիտումը { -brand-short-name }-ում
+    .tooltiptext = Նախադիտումը { -brand-short-name }-ում
 save-to-label =
     .label = Նիշերը պահել՝
     .accesskey = Ն
@@ -352,6 +356,10 @@ mark-read-delay =
     .label = Ցուցադրելուց յետոյ՝
     .accesskey = Ց
 seconds-label = վայրկեաններ
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -555,6 +563,12 @@ security-devices-button =
     .label = Անվտանգութեան սարքեր...
     .accesskey = ս
 
+## DoH Section
+
+
+## Keyservers
+
+
 ## Chat Tab
 
 startup-label =
@@ -576,7 +590,7 @@ idle-label =
     .accesskey = ե
 idle-time-label = պասիւ րոպէներ
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = եւ դարձնել իմ կարգավիճակը «Հեռու եմ» գրութեամբ.
@@ -651,6 +665,9 @@ search-preferences-input2 =
     .placeholder = Որոնել կարգաւորումներում
     .style = width: 15.4em
 
+## Content of the preview conversation for chat message styles.
+
+
 ## Settings UI Search Results
 
 search-results-header = Որոնման արդիւնքներ
@@ -661,3 +678,12 @@ search-results-empty-message2 =
        *[other] Ներողութիւ՜ն։ Նախընտրութիւններում արդիւնքներ չկայն <span data-l10n-name="query">֊ի համար։
     }
 search-results-help-link = Աւգնութիւ՞ն է պէտք: Այցելէք <a data-l10n-name="url">{ -brand-short-name } Աջակցում</a>
+
+## Sync Tab
+
+
+## Mobile QR Export Pane
+
+
+## Appearance Tab
+
