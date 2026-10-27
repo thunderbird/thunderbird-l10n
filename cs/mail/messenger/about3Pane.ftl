@@ -627,3 +627,6 @@ folder-delete-confirm = Opravdu chcete smazat složku „{ $name }“?
 # Variables:
 #   $name (String) - Name of the folder being deleted.
 folder-delete-no-trash-confirm = Smazání složky je nevratné a smaže všechny zprávy a podsložky, které obsahuje. Opravdu chcete smazat složku „{ $name }“?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Smazáním složky „{ $name }“ se přestanou provádět s ní asociované filtry. Opravdu chcete tuto složku smazat?
