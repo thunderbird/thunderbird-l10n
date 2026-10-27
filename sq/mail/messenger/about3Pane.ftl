@@ -574,3 +574,9 @@ folder-pane-context-compact =
 folder-pane-context-compact-all =
     .label = Ngjeshi Krejt Dosjet
     .accesskey = N
+
+## Confirmation prompts shown before deleting a folder.
+
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Fshirja e dosjes '{ $name }' do të çaktivizojë filtrat që i përshoqërohen. Jeni i sigurt se doni të fshihet dosja?
