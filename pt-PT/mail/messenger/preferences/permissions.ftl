@@ -3,6 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 permissions-dialog-title = Exceções
+cookie-permissions-title = Exceções - Cookies
+cookie-permissions-description = Pode especificar que websites são sempre ou nunca autorizados a usar cookies.  Escreva o endereço exato do site que deseja gerir e clique em Bloquear, Permitir nesta sessão ou Permitir.
 website-address-label =
     .value = Endereço do website:
     .accesskey = d

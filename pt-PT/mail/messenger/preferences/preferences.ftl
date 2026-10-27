@@ -229,6 +229,7 @@ use-custom-sound-label =
 mail-select-audio-button =
     .label = Selecionar áudio…
     .accesskey = a
+sound-file-picker-title = Escolher som
 enable-global-search-label =
     .label = Ativar a pesquisa em todas as contas de e-mail
     .accesskey = e
@@ -470,6 +471,34 @@ search-handler-table =
     .placeholder = Filtrar tipo de ações e de conteúdo
 type-column-header = Tipo de Conteúdo
 action-column-header = Ação
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Utilizar { $appName }
+    .label = Utilizar { $appName }
+    .tooltiptext = Utilizar { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Usar { $appName } (predefinido)
+    .label = Usar { $appName } (predefinido)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Utilizar outra...
+    .tooltiptext = Utilizar outra...
+applications-choose-app-title = Selecione a aplicação de ajuda
+applications-manage-app =
+    .label = Detalhes da aplicação...
+applications-always-ask = Perguntar sempre
+    .label = Perguntar sempre
+    .tooltiptext = Perguntar sempre
+applications-delete-action =
+    .label = Apagar ação
+applications-delete-action-title = Apagar ação
+applications-delete-action-confirm = Tem a certeza que pretende eliminar esta questão?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
 save-to-label =
     .label = Guardar ficheiros em
     .accesskey = s
@@ -521,6 +550,10 @@ mark-read-delay =
     .label = Ao exibir durante
     .accesskey = d
 seconds-label = segundos
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 mark-read-after-viewing =
     .label = Depois de visualizar durante
     .accesskey = v
@@ -1076,7 +1109,7 @@ idle-label =
     .accesskey = I
 idle-time-label = minutos de inatividade
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = e definir o meu estado para ausente com esta mensagem:
@@ -1152,6 +1185,9 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = O { -brand-short-name } está a ser gerido por uma organização.
 managed-notice = O { -brand-short-name } está a ser gerido pela sua organização.
+
+## Content of the preview conversation for chat message styles.
+
 
 ## Settings UI Search Results
 
