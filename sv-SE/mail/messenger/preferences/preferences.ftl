@@ -225,6 +225,7 @@ use-custom-sound-label =
 mail-select-audio-button =
     .label = Välj ljud…
     .accesskey = V
+sound-file-picker-title = Välj ljudfil
 enable-global-search-label =
     .label = Aktivera sökning i alla e-postkonton
     .accesskey = A
@@ -466,6 +467,34 @@ search-handler-table =
     .placeholder = Filtrera innehållstyper och åtgärder
 type-column-header = Innehållstyp
 action-column-header = Åtgärd
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Använd { $appName }
+    .label = Använd { $appName }
+    .tooltiptext = Använd { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Använd { $appName } (standard)
+    .label = Använd { $appName } (standard)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Välj program…
+    .tooltiptext = Välj program…
+applications-choose-app-title = Välj hjälpprogram
+applications-manage-app =
+    .label = Programdetaljer…
+applications-always-ask = Fråga alltid
+    .label = Fråga alltid
+    .tooltiptext = Fråga alltid
+applications-delete-action =
+    .label = Ta bort åtgärd
+applications-delete-action-title = Ta bort åtgärd
+applications-delete-action-confirm = Är du säker på att du vill ta bort den här åtgärden?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
 save-to-label =
     .label = Spara filer till
     .accesskey = S
@@ -517,6 +546,10 @@ mark-read-delay =
     .label = Efter att ha visats i
     .accesskey = E
 seconds-label = sekunder
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 mark-read-after-viewing =
     .label = Efter visning i
     .accesskey = E
@@ -1072,7 +1105,7 @@ idle-label =
     .accesskey = I
 idle-time-label = minuters inaktivitet
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = och sätt min status till Borta med statusmeddelandet:
@@ -1148,6 +1181,9 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = { -brand-short-name } hanteras av en organisation.
 managed-notice = { -brand-short-name } hanteras av ditt företag.
+
+## Content of the preview conversation for chat message styles.
+
 
 ## Settings UI Search Results
 

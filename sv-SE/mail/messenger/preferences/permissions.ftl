@@ -3,6 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 permissions-dialog-title = Undantag
+cookie-permissions-title = Undantag - Kakor
+cookie-permissions-description = Du kan ange vilka webbplatser som alltid eller aldrig får använda kakor. Skriv in adressen till platsen du vill hantera och klicka på Blockera, Tillåt för sessionen eller Tillåt.
 website-address-label =
     .value = Adress till webbplats:
     .accesskey = d
