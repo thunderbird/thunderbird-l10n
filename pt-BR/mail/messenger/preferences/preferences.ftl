@@ -269,6 +269,13 @@ offline-settings = Configurar o modo desconectado
 offline-settings-button =
     .label = Desconectado…
     .accesskey = o
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Seu cache está usando { $size } { $unit } de espaço em disco
+actual-disk-cache-size-calculating =
+    .value = Calculando tamanho do cache…
 diskspace-legend = Espaço em disco
 offline-compact-folder =
     .label = Compactar todas as pastas se for liberar mais de
