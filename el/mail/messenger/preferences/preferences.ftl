@@ -240,6 +240,16 @@ enable-gloda-search-label =
     .label = Ενεργοποίηση καθολικής αναζήτησης και ευρετηρίασης
     .accesskey = γ
 datetime-formatting-legend = Μορφή ημερομηνίας και ώρας
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Γλώσσα εφαρμογής: { $localeName }
+    .accesskey = Γ
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Τοπικές ρυθμίσεις: { $localeName }
+    .accesskey = Τ
 display-language-legend = Γλώσσα εμφάνισης
 allow-graphics-accel =
     .label = Χρήση επιτάχυνσης γραφικών για ομαλότερη κύλιση και επιδόσεις
@@ -516,6 +526,10 @@ mark-read-delay =
     .label = Μετά από προβολή για
     .accesskey = γ
 seconds-label = δευτερόλεπτα
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 mark-read-after-viewing =
     .label = Μετά από προβολή για
     .accesskey = τ
@@ -1059,7 +1073,7 @@ idle-label =
     .accesskey = δ
 idle-time-label = λεπτά αδράνειας
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = και να ορίζεται η κατάστασή μου σε «Εκτός υπολογιστή» με το εξής μήνυμα:
@@ -1135,6 +1149,9 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = Το { -brand-short-name } ρυθμίζεται από έναν οργανισμό.
 managed-notice = Το { -brand-short-name } ρυθμίζεται από τον οργανισμό σας.
+
+## Content of the preview conversation for chat message styles.
+
 
 ## Settings UI Search Results
 
