@@ -2,6 +2,10 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+remote-content-permissions-title = Nemedennoù - Endalc'hadoù a-bell
+remote-content-permissions-description = Gallout a rit erspizañ al lec'hiennoù a vo aotreet da gargañ o skeudennoù hag o endalc'hadoù a-bell all. Bez e c'hellit ivez aotren da gargañ an holl endalc'hadoù a-bell hervez chomlec'h postel ar c'haser. Bizskrivit chomlec'h al lec'hienn pe ar postel a fell deoc'h ardeiñ ha klikit war Herzel pe Aotren.
+cookie-permissions-title = Nemedennoù - Toupinoù
+cookie-permissions-description = Gallout a rit erspizañ pe lec'hienn vo aotreet biken pe bewech d'ober gant toupinoù.  Skrivit chomlec'h resis al lec'hienn a fell deoc'h merdeiñ ha neuze klikit war Herzel, Aotren evit an estez pe Aotren.
 website-address-label =
     .value = Chomlec'h al lec'hienn :
     .accesskey = C
