@@ -185,6 +185,7 @@ mail-system-sound-label =
 mail-select-audio-button =
     .label = Vel lyd…
     .accesskey = e
+sound-file-picker-title = Vel lyd
 mail-custom-sound-label =
     .label = Bruk følgjande lydfil
     .accesskey = r
@@ -372,6 +373,34 @@ search-handler-table =
     .placeholder = Filtrer innhaldstypar og handlingar
 type-column-header = Innhaldstype
 action-column-header = Handling
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Bruk { $appName }
+    .label = Bruk { $appName }
+    .tooltiptext = Bruk { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Bruk { $appName } (standard)
+    .label = Bruk { $appName } (standard)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Bruk anna …
+    .tooltiptext = Bruk anna …
+applications-choose-app-title = Vel hjelpeprogram
+applications-manage-app =
+    .label = Programdetaljar …
+applications-always-ask = Spør alltid
+    .label = Spør alltid
+    .tooltiptext = Spør alltid
+applications-delete-action =
+    .label = Slett handling
+applications-delete-action-title = Slett handling
+applications-delete-action-confirm = Er du sikker på at du vil slette denne handlinga?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
 save-to-label =
     .label = Lagre filer til
     .accesskey = L
@@ -416,6 +445,10 @@ mark-read-delay =
     .label = Etter dei er viste i
     .accesskey = E
 seconds-label = sekund
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -828,7 +861,7 @@ idle-label =
     .accesskey = i
 idle-time-label = minutt med inaktivitet
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = og set status til borte med denne statusmeldinga:
@@ -903,6 +936,9 @@ search-preferences-input2 =
     .placeholder = Finn i innstillingane
     .style = width: 15.4em
 managed-notice = { -brand-short-name } blir administrert av organisasjonen din.
+
+## Content of the preview conversation for chat message styles.
+
 
 ## Settings UI Search Results
 
