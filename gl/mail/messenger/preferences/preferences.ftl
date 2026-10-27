@@ -183,6 +183,16 @@ enable-gloda-search-label =
     .label = Activar indexador de mensaxes
     .accesskey = i
 datetime-formatting-legend = Formato de data e hora
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Idioma da aplicación: { $localeName }
+    .accesskey = o
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Idioma para a configuración rexional: { $localeName }
+    .accesskey = e
 language-selector-legend = Idioma
 allow-hw-accel =
     .label = Usar a aceleración por hardware cando estea dispoñíbel
@@ -268,6 +278,13 @@ offline-settings = Configurar opcións sen conexión
 offline-settings-button =
     .label = Sen conexión…
     .accesskey = S
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = A súa caché está actualmente usando { $size } { $unit } do espazo no disco
+actual-disk-cache-size-calculating =
+    .value = Calculando tamaño da caché…
 diskspace-legend = Espazo en disco
 offline-compact-folder =
     .label = Compactar todos os cartafoles ao liberar
@@ -388,6 +405,10 @@ mark-read-delay =
     .label = Despois de amosalas durante
     .accesskey = d
 seconds-label = segundos
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -732,7 +753,7 @@ idle-label =
     .accesskey = i
 idle-time-label = minutos de inactividade
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = e estabeleza o meu estado a inactivo con esta mensaxe:
@@ -807,6 +828,9 @@ search-preferences-input2 =
     .placeholder = Atopar na configuración
     .style = width: 15.4em
 managed-notice = { -brand-short-name } está a ser xestionado pola túa organización.
+
+## Content of the preview conversation for chat message styles.
+
 
 ## Settings UI Search Results
 
