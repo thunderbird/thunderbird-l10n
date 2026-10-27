@@ -246,6 +246,16 @@ enable-gloda-search-label =
     .label = Povoliť globálne vyhľadávanie a indexovanie správ
     .accesskey = o
 datetime-formatting-legend = Formát dátumu a času
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Jazyk aplikácie: { $localeName }
+    .accesskey = p
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Regionálne nastavenia aplikácie: { $localeName }
+    .accesskey = g
 display-language-legend = Jazyk rozhrania
 allow-graphics-accel =
     .label = Používať grafické urýchľovanie na plynulejšie posúvanie a vyšší výkon
@@ -379,6 +389,11 @@ offline-settings-button =
     .label = Nastavenia…
     .accesskey = a
 temporary-storage-legend = Dočasné úložisko
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Vyrovnávacia pamäť využíva { $size } { $unit } miesta na disku
 offline-compact-remove-deleted =
     .label = Odstrániť údaje priečinkov, ktoré už boli vymazané, a uvoľniť tak miesto v úložisku
     .accesskey = O
@@ -499,6 +514,10 @@ applications-delete-action-confirm = Naozaj chcete odstrániť túto akciu?
 #                                "Portable Document Format (PDF)".
 #   $type (String) - The MIME type of the content, for example "application/pdf".
 applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Portable Document Format (PDF)
+applications-preview-in-app = Zobraziť v aplikácii { -brand-short-name }
+    .label = Zobraziť v aplikácii { -brand-short-name }
+    .tooltiptext = Zobraziť v aplikácii { -brand-short-name }
 save-to-label =
     .label = Súbory ukladať do
     .accesskey = S
@@ -819,6 +838,13 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Nájsť ďalších poskytovateľov…
 cloud-account-description = Pridať novú službu na odosielanie príloh
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Pridať účet { $providerName }
+    .tooltiptext = Pridať účet { $providerName }
+filelink-account-not-configured =
+    .title = Tento účet ešte nebol nakonfigurovaný
 
 ## Privacy Tab
 
