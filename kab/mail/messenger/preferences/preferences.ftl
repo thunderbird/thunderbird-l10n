@@ -175,6 +175,16 @@ enable-gloda-search-label =
     .label = Rmed anadi amatu akked timerna n ukatar
     .accesskey = m
 datetime-formatting-legend = Amsal n uzemz akked wakud
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Asnas adigan: { $localeName }
+    .accesskey = s
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Iγewwaṛen diganen n temnaḍt i: { $localeName }
+    .accesskey = z
 language-selector-legend = Tutlayt
 allow-hw-accel =
     .label = Seqdec tasɣiwelt n warrum ma tella
