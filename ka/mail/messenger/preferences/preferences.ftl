@@ -470,6 +470,29 @@ search-handler-table =
     .placeholder = შიგთავსის სახეობებისა და მოქმედებების გაფილტვრა
 type-column-header = მასალის სახეობა
 action-column-header = მოქმედება
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = { $appName } პროგრამის გამოყენება
+    .label = { $appName } პროგრამის გამოყენება
+    .tooltiptext = { $appName } პროგრამის გამოყენება
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = { $appName } პროგრამა (ნაგულისხმებად)
+    .label = { $appName } პროგრამა (ნაგულისხმებად)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = სხვა პროგრამის გამოყენება…
+    .tooltiptext = სხვა პროგრამის გამოყენება…
+applications-choose-app-title = დახმარების პროგრამის შერჩევა
+applications-manage-app =
+    .label = პროგრამის პარამეტრები…
+applications-always-ask = შეკითხვა ყოველ ჯერზე
+    .label = შეკითხვა ყოველ ჯერზე
+    .tooltiptext = შეკითხვა ყოველ ჯერზე
+applications-delete-action =
+    .label = ქმედების წაშლა
+applications-delete-action-title = ქმედების წაშლა
+applications-delete-action-confirm = ნამდვილად გსურთ ამ ქმედების წაშლა?
 save-to-label =
     .label = ფაილების შენახვა…
     .accesskey = ნ
@@ -521,6 +544,10 @@ mark-read-delay =
     .label = მოცემული დროით ჩვენების შემდეგ
     .accesskey = დ
 seconds-label = წამი
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 mark-read-after-viewing =
     .label = ნახვის შემდეგ
     .accesskey = ნ
@@ -1076,7 +1103,7 @@ idle-label =
     .accesskey = უ
 idle-time-label = უქმი წუთის შემდეგ
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = ასევე მიეთითოს „გასულია“ მოცემული შეტყობინებით:
@@ -1152,6 +1179,9 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = { -brand-short-name } იმართება დაწესებულების მიერ.
 managed-notice = { -brand-short-name } იმართება დაწესებულების მიერ.
+
+## Content of the preview conversation for chat message styles.
+
 
 ## Settings UI Search Results
 
