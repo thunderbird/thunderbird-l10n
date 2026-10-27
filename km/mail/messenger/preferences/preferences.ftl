@@ -49,6 +49,7 @@ animated-alert-label =
 customize-alert-label =
     .label = Customize…
     .accesskey = C
+sound-file-picker-title = Choose Sound
 mail-custom-sound-label =
     .label = Use the following sound file
     .accesskey = U
@@ -181,6 +182,43 @@ smaller-size-item =
 quoted-text-color =
     .label = ពណ៌៖
     .accesskey = o
+download-folder-desktop = Desktop
+download-folder-system = My Downloads
+download-choose-folder-title = Choose Folder
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension } file
+applications-save-file = Save File
+    .label = Save File
+    .tooltiptext = Save File
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Use { $appName }
+    .label = Use { $appName }
+    .tooltiptext = Use { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Use { $appName } (default)
+    .label = Use { $appName } (default)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Use other…
+    .tooltiptext = Use other…
+applications-choose-app-title = Select Helper Application
+applications-manage-app =
+    .label = Application Details…
+applications-always-ask = Always ask
+    .label = Always ask
+    .tooltiptext = Always ask
+applications-delete-action =
+    .label = Delete Action
+applications-delete-action-title = Delete Action
+applications-delete-action-confirm = Are you sure you want to delete this action?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
 save-to-label =
     .label = Պահել ֆայլերը՝
     .accesskey = S
@@ -219,6 +257,10 @@ mark-read-delay =
     .label = After displaying for
     .accesskey = d
 seconds-label = seconds
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -317,6 +359,9 @@ remove-cloud-account =
     .label = យកចេញ​
     .accesskey = R
 cloud-account-description = បន្ថែម​សេវាកម្ម​ផ្ទុក​តំណ​ឯកសារ​ថ្មី
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Ջնջե՞լ "{ $accountName }" փոստարկղը։
 
 ## Privacy Tab
 
@@ -360,6 +405,8 @@ primary-password-button =
     .label = ប្តូរពាក្យសម្ងាត់ចម្បង...
     .accesskey = C
 forms-master-pw-fips-desc = ការផ្លាស់ប្ដូរពាក្យសម្ងាត់បរាជ័យ
+confirm-reset-junk-training-title = Confirm
+confirm-reset-junk-training-message = Are you sure you want to reset the adaptive filter training data?
 phishing-description = { -brand-short-name } can analyze messages for suspected email scams by looking for common techniques used to deceive you.
 phishing-label =
     .label = Tell me if the message I'm reading is a suspected email scam
@@ -374,6 +421,12 @@ certificate-ask =
 ocsp-label =
     .label = ម៉ាស៊ីនមេ​​ឆ្លើយតប OCSP ដើម្បី​បញ្ជាក់​ភាព​ត្រឹមត្រូវ​របស់វិញ្ញាបនបត្រ​បច្ចុប្បន្ន
     .accesskey = ម
+
+## DoH Section
+
+
+## Keyservers
+
 
 ## Chat Tab
 
@@ -396,7 +449,7 @@ idle-label =
     .accesskey = I
 idle-time-label = នាទី​នៃ​អសកម្ម
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = រួច​កំណត់​ស្ថានភាព​របស់​ខ្ញុំ​ថា​បាន​ចាក​ឆ្ងាយ ដោយ​ប្រើ​សារ​ស្ថានភាព​នេះ៖
@@ -429,6 +482,12 @@ chat-custom-sound-label =
 chat-browse-sound-button =
     .label = រក​មើល…
     .accesskey = B
+
+## Content of the preview conversation for chat message styles.
+
+
+## Settings UI Search Results
+
 
 ## Sync Tab
 
