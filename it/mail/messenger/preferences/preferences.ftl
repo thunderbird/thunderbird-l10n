@@ -245,6 +245,16 @@ enable-gloda-search-label =
     .label = Attiva la ricerca globale e l’indicizzazione
     .accesskey = E
 datetime-formatting-legend = Formattazione data e ora
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Lingua dell’applicazione: { $localeName }
+    .accesskey = p
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Lingua delle impostazioni regionali: { $localeName }
+    .accesskey = g
 display-language-legend = Lingua dell’interfaccia
 allow-graphics-accel =
     .label = Utilizza l’accelerazione grafica per prestazioni e scorrimento più fluidi
@@ -521,6 +531,10 @@ mark-read-delay =
     .label = dopo averlo mostrato per
     .accesskey = d
 seconds-label = secondi
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 mark-read-after-viewing =
     .label = dopo averlo visualizzato per
     .accesskey = d
@@ -1070,7 +1084,7 @@ idle-label =
     .accesskey = C
 idle-time-label = minuti di inattività
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = ed imposta il mio stato come “Non disponibile” con questo messaggio:
@@ -1146,6 +1160,9 @@ search-preferences-input2 =
     .style = width: 20em
 managed-by-organization-notice = { -brand-short-name } è gestito da un’organizzazione.
 managed-notice = { -brand-short-name } è gestito dalla tua organizzazione.
+
+## Content of the preview conversation for chat message styles.
+
 
 ## Settings UI Search Results
 
