@@ -182,6 +182,16 @@ enable-gloda-search-label =
     .label = Разрешаване на глобално търсене и индексиране
     .accesskey = Р
 datetime-formatting-legend = Формат на датата и часа
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Език на приложението: { $localeName }
+    .accesskey = е
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Език от регионалните настройки: { $localeName }
+    .accesskey = р
 language-selector-legend = Език
 allow-hw-accel =
     .label = Използване на хардуерно ускоряване, ако е налично
@@ -267,6 +277,13 @@ offline-settings = Конфигуриране настройките за раб
 offline-settings-button =
     .label = Без мрежа…
     .accesskey = Б
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Кешът в момента заема { $size } { $unit } дисково пространство
+actual-disk-cache-size-calculating =
+    .value = Изчисляване на размера на кеша…
 diskspace-legend = Дисково пространство
 offline-compact-folder =
     .label = Уплътняване на папките, когато ще се спести над
@@ -560,6 +577,13 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Намиране на още доставчици...
 cloud-account-description = Добавяне на нова услуга за съхранене към Filelink
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Добавяне на { $providerName }
+    .tooltiptext = Добавяне на { $providerName }
+filelink-account-not-configured =
+    .title = Профилът не е настроен все още
 
 ## Privacy Tab
 
