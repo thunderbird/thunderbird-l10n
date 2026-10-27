@@ -591,3 +591,21 @@ folder-pane-context-compact =
 folder-pane-context-compact-all =
     .label = Compactează toate dosarele
     .accesskey = F
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = Ștergere dosarul
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = Șterge &dosarul
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = Sigur vrei să ștergi dosarul „{ $name }”?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = Ștergerea acestui dosar este ireversibilă și presupune ștergerea mesajelor din el și din subdosarele lui. Sigur vrei să ștergi dosarul „{ $name }”?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Prin ștergerea dosarului „{ $name }” se vor dezactiva filtrele asociate cu acesta. Sigur vrei să ștergi dosarul?
