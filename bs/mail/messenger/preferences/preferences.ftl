@@ -14,6 +14,9 @@ pane-calendar-title = Kalendar
 category-calendar =
     .tooltiptext = Kalendar
 
+## OS Authentication dialog
+
+
 ## General Tab
 
 focus-search-shortcut =
@@ -134,6 +137,13 @@ offline-settings = Podesite offline postavke
 offline-settings-button =
     .label = Offline…
     .accesskey = O
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Vaša predmemorija trenutno zauzima { $size } { $unit } prostora na disku
+actual-disk-cache-size-calculating =
+    .value = Računanje veličine predmemorije…
 diskspace-legend = Prostor na disku
 offline-compact-folder =
     .label = Sažmi sve direktorije kada će uštedjeti više od
@@ -237,6 +247,10 @@ mark-read-delay =
     .label = Nakon prikazivanja u trajanju od
     .accesskey = d
 seconds-label = sekundi
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -401,6 +415,12 @@ ocsp-label =
     .label = Upitaj OCSP responsder servere za potvrdu ispravnosti certifikata
     .accesskey = U
 
+## DoH Section
+
+
+## Keyservers
+
+
 ## Chat Tab
 
 startup-label =
@@ -422,7 +442,7 @@ idle-label =
     .accesskey = I
 idle-time-label = minuta neaktivnosti
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = i postavi moj status na Odsutan s ovom porukom:
@@ -483,3 +503,18 @@ no-preview-description = Ova tema nije važeća ili trenutno nije dostupna (onem
 chat-variant-label =
     .value = Varijanta:
     .accesskey = V
+
+## Content of the preview conversation for chat message styles.
+
+
+## Settings UI Search Results
+
+
+## Sync Tab
+
+
+## Mobile QR Export Pane
+
+
+## Appearance Tab
+
