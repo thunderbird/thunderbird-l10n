@@ -608,3 +608,6 @@ folder-delete-confirm = Czy na pewno usunąć folder „{ $name }”?
 # Variables:
 #   $name (String) - Name of the folder being deleted.
 folder-delete-no-trash-confirm = Usunięcie tego folderu jest operacją nieodwracalną i spowoduje usunięcie wszystkich zawartych w nim wiadomości oraz podfolderów. Czy na pewno kontynuować usuwanie folderu „{ $name }”?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Usunięcie folderu „{ $name }” spowoduje zablokowanie wszystkich filtrów powiązanych z folderem. Czy na pewno usunąć wybrany folder?
