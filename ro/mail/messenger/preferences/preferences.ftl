@@ -246,6 +246,16 @@ enable-gloda-search-label =
     .label = Activează căutarea globală și indexarea
     .accesskey = i
 datetime-formatting-legend = Formatarea datei și a orei
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Limba folosită de aplicație: { $localeName }
+    .accesskey = o
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Limba din setările regionale: { $localeName }
+    .accesskey = e
 display-language-legend = Limbă de afișare
 allow-graphics-accel =
     .label = Folosește accelerarea grafică pentru derulare mai lină și îmbunătățirea performanței
@@ -379,6 +389,13 @@ offline-settings-button =
     .label = Offline…
     .accesskey = O
 temporary-storage-legend = Stocare temporară
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Memoria cache folosește acum { $size } { $unit } din spațiul de pe disc
+actual-disk-cache-size-calculating =
+    .value = Se calculează mărimea memoriei cache…
 offline-compact-remove-deleted =
     .label = Elimină datele din dosare când au fost deja șterse pentru eliberare de spațiu
     .accesskey = a
