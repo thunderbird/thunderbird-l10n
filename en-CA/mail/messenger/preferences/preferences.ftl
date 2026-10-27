@@ -184,6 +184,16 @@ enable-gloda-search-label =
     .label = Enable Global Search and Indexer
     .accesskey = G
 datetime-formatting-legend = Date and Time Formatting
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Application locale: { $localeName }
+    .accesskey = o
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Regional settings locale: { $localeName }
+    .accesskey = e
 language-selector-legend = Language
 allow-hw-accel =
     .label = Use hardware acceleration when available
@@ -269,6 +279,13 @@ offline-settings = Configure offline settings
 offline-settings-button =
     .label = Offline…
     .accesskey = O
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Your cache is currently using { $size } { $unit } of disk space
+actual-disk-cache-size-calculating =
+    .value = Calculating cache size…
 diskspace-legend = Disk Space
 offline-compact-folder =
     .label = Compact all folders when it will save over
