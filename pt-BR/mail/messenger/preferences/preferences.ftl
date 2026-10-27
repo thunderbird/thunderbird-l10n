@@ -173,6 +173,7 @@ tray-icon-unread-description = Recomendado ao usar botões pequenos na barra de 
 mail-system-sound-label =
     .label = Som padrão do sistema para novas mensagens
     .accesskey = m
+sound-file-picker-title = Selecionar um som
 mail-custom-sound-label =
     .label = Usar este arquivo de som:
     .accesskey = U
@@ -344,6 +345,34 @@ search-handler-table =
     .placeholder = Filtrar tipos de conteúdo e ações
 type-column-header = Tipo de conteúdo
 action-column-header = Ação
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Abrir com { $appName }
+    .label = Abrir com { $appName }
+    .tooltiptext = Abrir com { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Abrir com { $appName } (padrão)
+    .label = Abrir com { $appName } (padrão)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Abrir com…
+    .tooltiptext = Abrir com…
+applications-choose-app-title = Selecionar aplicativo
+applications-manage-app =
+    .label = Detalhes do aplicativo…
+applications-always-ask = Perguntar
+    .label = Perguntar
+    .tooltiptext = Perguntar
+applications-delete-action =
+    .label = Excluir ação
+applications-delete-action-title = Excluir ação
+applications-delete-action-confirm = Tem certeza que quer excluir esta ação?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
 save-to-label =
     .label = Salvar arquivos em:
     .accesskey = S
@@ -388,6 +417,10 @@ mark-read-delay =
     .label = Após exibir por
     .accesskey = e
 seconds-label = segundos
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -789,7 +822,7 @@ idle-label =
     .accesskey = N
 idle-time-label = minutos de inatividade
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = e definir meu status como Ausente com esta mensagem de status:
@@ -864,6 +897,9 @@ search-preferences-input2 =
     .placeholder = Procurar nas configurações
     .style = width: 15.4em
 managed-notice = O { -brand-short-name } está sendo gerenciado por sua organização.
+
+## Content of the preview conversation for chat message styles.
+
 
 ## Settings UI Search Results
 
