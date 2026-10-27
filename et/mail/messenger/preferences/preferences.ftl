@@ -249,6 +249,13 @@ offline-settings = Võrguta režiimi häälestamine
 offline-settings-button =
     .label = Sätted
     .accesskey = S
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Vahemälu kasutab praegu { $size } { $unit } kettaruumi
+actual-disk-cache-size-calculating =
+    .value = Arvutatakse vahemälu suurust…
 diskspace-legend = Kettaruum
 offline-compact-folder =
     .label = Kõik kaustad surutakse kokku, kui see säästab kokku rohkem kui
@@ -322,6 +329,33 @@ search-handler-table =
     .placeholder = Filtreeri sisu tüüpe ja tegevusi
 type-column-header = Sisu tüüp
 action-column-header = Tegevus
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Kasutatakse { $appName }
+    .label = Kasutatakse { $appName }
+    .tooltiptext = Kasutatakse { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Kasutatakse { $appName } (vaikimisi)
+    .label = Kasutatakse { $appName } (vaikimisi)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Kasuta muud…
+    .tooltiptext = Kasuta muud…
+applications-choose-app-title = Abirakenduse valimine
+applications-manage-app =
+    .label = Rakenduse üksikasjad…
+applications-always-ask = Alati küsitakse
+    .label = Alati küsitakse
+    .tooltiptext = Alati küsitakse
+applications-delete-action =
+    .label = Kustuta tegevus
+applications-delete-action-title = Tegevuse kustutamine
+applications-delete-action-confirm = Kas oled kindel, et soovid selle tegevuse kustutada?
+applications-type-pdf = Porditav dokumendiformaat (PDF)
+applications-preview-in-app = Eelvaade rakenduses { -brand-short-name }
+    .label = Eelvaade rakenduses { -brand-short-name }
+    .tooltiptext = Eelvaade rakenduses { -brand-short-name }
 save-to-label =
     .label = Failid salvestatakse asukohta
     .accesskey = F
@@ -366,6 +400,10 @@ mark-read-delay =
     .label = märgitakse loetuks pärast
     .accesskey = m
 seconds-label = sekundit
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -510,6 +548,13 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Leia veel teenusepakkujaid…
 cloud-account-description = Lisa uus pilveteenus
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Lisa { $providerName }
+    .tooltiptext = Lisa { $providerName }
+filelink-account-not-configured =
+    .title = See konto pole veel häälestatud
 
 ## Privacy Tab
 
@@ -580,6 +625,12 @@ security-devices-button =
     .accesskey = T
 account-settings = Konto sätted
 
+## DoH Section
+
+
+## Keyservers
+
+
 ## Chat Tab
 
 startup-label =
@@ -601,7 +652,7 @@ idle-label =
     .accesskey = o
 idle-time-label = minuti möödumisel
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = ning eemaloleku teateks määratakse:
@@ -675,6 +726,9 @@ chat-variant-label =
 search-preferences-input2 =
     .placeholder = Otsi sätetest
     .style = width: 15.4em
+
+## Content of the preview conversation for chat message styles.
+
 
 ## Settings UI Search Results
 
