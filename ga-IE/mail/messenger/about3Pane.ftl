@@ -344,3 +344,24 @@ apply-current-columns-to-folder-message = An bhfuil fonn ort colúin an fhillte�
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = An bhfuil fonn ort colúin an fhillteáin reatha a chur i bhfeidhm ar { $name } agus an t-ábhar atá ann?
+
+## Folder pane context menu
+
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = Scrios an Fillteán
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = &Scrios Fillteán
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = An bhfuil tú cinnte gur mian leat fillteán '{ $name }' a scriosadh?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = Ní féidir scriosadh an fhillteáin seo a chur ar ceal, agus scriosfar gach teachtaireacht agus fofhillteán atá ann. An bhfuil tú lánchinnte de go dteastaíonn uait an fillteán '{ $name }' a scriosadh?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Má scriostar an fillteán "{ $name }", beidh na scagairí atá comhcheangailte leis díchumasaithe. An bhfuil tú cinnte go dteastaíonn uait an fillteán a scriosadh?
