@@ -597,6 +597,18 @@ folder-pane-context-compact-all =
 
 ## Confirmation prompts shown before deleting a folder.
 
+folder-delete-title = Удалить папку
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = &Удалить папку
 # Variables:
 #   $name (String) - Name of the folder being deleted.
 folder-delete-confirm = Вы действительно хотите удалить папку «{ $name }»?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = Удаление этой папки невозможно отменить, и оно приведёт к удалению всех содержащихся в ней сообщений и папок. Вы действительно хотите удалить папку «{ $name }»?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Удаление папки «{ $name }» приведёт к отключению относящихся к ней фильтров. Вы действительно хотите удалить её?
