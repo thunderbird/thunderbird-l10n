@@ -457,6 +457,10 @@ decrypt-and-copy-failures-multiple =
         [one] { $failures } of { $total } messages could not be decrypted and was not copied.
        *[other] { $failures } of { $total } messages could not be decrypted and were not copied.
     }
+# Shown once at the end of a filter run the user started from the message
+# list, when at least one filter or action failed.
+apply-filters-failed = The filter run did not complete successfully. Check the filter log for details.
+apply-filters-failed-open-log-button = Open Filter Log
 
 ## Spaces toolbar
 

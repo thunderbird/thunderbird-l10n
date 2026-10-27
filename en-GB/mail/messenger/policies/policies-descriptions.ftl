@@ -36,6 +36,7 @@ policy-DisableFeedbackCommands = Disable commands to send feedback from the Help
 policy-DisableFileLink = Disable the Filelink feature.
 policy-DisableForgetButton = Prevent access to the Forget button.
 policy-DisableFormHistory = Don’t remember search and form history.
+policy-DisableMacOSUserPolicies = Ignore policies from the user’s preferences and from user-scope configuration profiles on macOS.
 policy-DisableMasterPasswordCreation = If true, a master password can’t be created.
 policy-DisableMessageForwardingFilters = Prevent message filters from automatically forwarding messages.
 policy-DisablePasswordReveal2 = Do not allow passwords to be revealed in saved logins or password fields.
