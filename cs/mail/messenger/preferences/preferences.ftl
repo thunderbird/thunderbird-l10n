@@ -313,6 +313,16 @@ enable-gloda-search-label =
     .label = Povolit globální vyhledávání a indexaci
     .accesskey = g
 datetime-formatting-legend = Formátování data a času
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Jazyk aplikace: { $localeName }
+    .accesskey = z
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Jazyk z místního nastavení: { $localeName }
+    .accesskey = s
 display-language-legend = Jazyk rozhraní
 allow-graphics-accel =
     .label = Použít grafickou akceleraci pro plynulejší posouvání a vyšší výkon
