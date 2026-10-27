@@ -265,3 +265,24 @@ apply-current-columns-to-folder-message = Arloañ bannoù an teuliad bremanel da
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Arloañ bannoù an teuliad bremanel da { $name } ha d'an isteuliadoù?
+
+## Folder pane context menu
+
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = Dilemel an teuliad
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = &Dilemel an teuliad
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = Ha sur oc'h ho peus c'hoant da zilemel an teuliad '{ $name }' ?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = N'hallot ket adkavout an teuliad-mañ mar bez dilamet ha diverket e vo an holl gemennadennoù hag an isteuliadoù hag a zo ennañ. Ha fellout a ra deoc'h dilemel an teuliad '{ $name }' memes tra ?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Mar bez dilamet an teuliad '{ $name }' e vo diweredekaet ar sil(où) kenereet. Ha fellout a ra deoc'h dilemel an teuliad-mañ ?
