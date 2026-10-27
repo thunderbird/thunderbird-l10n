@@ -256,6 +256,13 @@ offline-settings = Налаштуйте параметри автономног�
 offline-settings-button =
     .label = Автономний режим…
     .accesskey = А
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Ваш кеш зараз займає { $size } { $unit } дискового простору
+actual-disk-cache-size-calculating =
+    .value = Обчислення розміру кешу…
 diskspace-legend = Дисковий простір
 offline-compact-folder =
     .label = Стискати всі теки, якщо це звільнить більш ніж
@@ -372,6 +379,10 @@ mark-read-delay =
     .label = Після відкриття через
     .accesskey = я
 seconds-label = секунд
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -627,6 +638,12 @@ email-e2ee-automatism-post =
     Автоматичні рішення можна перевизначити, увімкнувши або вимкнувши шифрування вручну під час написання повідомлення.
     Примітка: шифрування завжди вмикається автоматично під час відповіді на зашифроване повідомлення.
 
+## DoH Section
+
+
+## Keyservers
+
+
 ## Chat Tab
 
 startup-label =
@@ -648,7 +665,7 @@ idle-label =
     .accesskey = я
 idle-time-label = хвилин неактивності
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = та встановлювати мені статус Відійшов із повідомленням статусу:
@@ -722,6 +739,9 @@ chat-variant-label =
 search-preferences-input2 =
     .placeholder = Знайти в налаштуваннях
     .style = width: 15.4em
+
+## Content of the preview conversation for chat message styles.
+
 
 ## Settings UI Search Results
 
@@ -839,3 +859,6 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Включно з паролями
 qr-export-summary-passwords-excluded = За винятком паролів
 qr-export-more-accounts = Експортувати інші облікові записи
+
+## Appearance Tab
+
