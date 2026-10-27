@@ -488,6 +488,15 @@ search-handler-table =
     .placeholder = Filtrează tipurile de conținut și acțiunile
 type-column-header = Tip de conținut
 action-column-header = Acțiune
+download-folder-desktop = Spațiu de lucru
+download-folder-system = Descărcările mele
+download-choose-folder-title = Alege dosarul
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = Fișier { $extension }
+applications-save-file = Salvează fișierul
+    .label = Salvează fișierul
+    .tooltiptext = Salvează fișierul
 # Variables:
 #   $appName (String) - The name of an application.
 applications-use-app = Folosește { $appName }
@@ -847,6 +856,9 @@ filelink-add-provider =
     .tooltiptext = Adaugă { $providerName }
 filelink-account-not-configured =
     .title = Acest cont încă nu este configurat
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Sigur vrei să ștergi contul „{ $accountName }”?
 
 ## Privacy Tab
 
@@ -958,6 +970,8 @@ spam-log-button =
 reset-spam-button =
     .label = Resetează datele de antrenament
     .accesskey = R
+confirm-reset-junk-training-title = Confirmă
+confirm-reset-junk-training-message = Sigur vrei să resetezi datele de învățare ale filtrului adaptiv?
 scam-detection-description = { -brand-short-name } verifică mesajele pentru linkuri de phishing și semne frecvente de escrocherie prin e-mail.
 scam-detection-label =
     .label = Avertizează-mă când citesc un mesaj pe e-mail care pare să fie înșelătorie
@@ -1216,6 +1230,15 @@ managed-notice = { -brand-short-name } este gestionat de organizația ta.
 
 ## Content of the preview conversation for chat message styles.
 
+chat-theme-preview-default =
+    .label = Implicit
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Salut! :-)
+chat-theme-preview-message-2 = Ce mai faci?
+chat-theme-preview-message-3 = Încerc { -brand-short-name }! ;-)
 
 ## Settings UI Search Results
 
