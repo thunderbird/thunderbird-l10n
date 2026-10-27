@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
@@ -258,3 +261,21 @@ apply-current-columns-to-folder-message = ¿La ye'okisäx kan ri taq rutem yakwu
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = ¿La ye'okisäx kan ri taq rutem yakwuj wakami pa { $name } chuqa' ri taq ralk'wal?
+
+## Folder pane context menu
+
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = Tiyuj Yakwuj
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = &Tiyuj Yakwuj
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = ¿La kan nawajo' nayüj el ri yakwuj '{ $name }'?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = Man xtitzolïx ta chik we niyuj re yakwuj re' chuqa' xkeyuj konojel ri taq rutzijol chuqa' ri taq rachyakwuj. ¿La kan nawajo' nayüj el ri yakwuj '{ $name }'?
