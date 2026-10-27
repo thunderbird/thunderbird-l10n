@@ -4,3 +4,6 @@
 
 shortcuts-close-button-title =
     .title = Sulge
+shortcuts-close-button =
+    .title = Sulge
+    .aria-label = Sulge
