@@ -58,6 +58,9 @@ update-in-progress-ok-button = &Tich'aqïx
 # method of closing the UI will not discard the update.
 update-in-progress-cancel-button = &Titikïr chik el
 
+## OS Authentication dialog
+
+
 ## General Tab
 
 focus-search-shortcut =
@@ -113,6 +116,16 @@ enable-gloda-search-label =
     .label = Titzij Cholajin chuqa' Chijun Kanoxïk
     .accesskey = C
 datetime-formatting-legend = Rub'anikil Q'ijul chuqa' Ramaj
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Aj wawe' chokoy: { $localeName }
+    .accesskey = o
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Aj wawe' nuk'ulem: { $localeName }
+    .accesskey = e
 language-selector-legend = Ch'ab'äl
 allow-hw-accel =
     .label = Tokisäx rupararexik ch'akulakem toq xtiwachin pe
@@ -286,6 +299,10 @@ mark-read-delay =
     .label = Chi rij nik'ut chi
     .accesskey = n
 seconds-label = taq xil ramaj
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -464,6 +481,12 @@ security-devices-button =
     .label = Taq Rokisab'al Jikomal…
     .accesskey = R
 
+## DoH Section
+
+
+## Keyservers
+
+
 ## Chat Tab
 
 startup-label =
@@ -485,7 +508,7 @@ idle-label =
     .accesskey = I
 idle-time-label = ch'utiramaj man k'o ta
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = chuqa' tijikib'äx ri nub'anikil achi'el Mek'o rik'in re rutzijol b'anikil re':
@@ -546,3 +569,18 @@ no-preview-description = Man okel ta re wachinïk re' o man wachel ta wakami (ch
 chat-variant-label =
     .value = Rujalik:
     .accesskey = R
+
+## Content of the preview conversation for chat message styles.
+
+
+## Settings UI Search Results
+
+
+## Sync Tab
+
+
+## Mobile QR Export Pane
+
+
+## Appearance Tab
+
