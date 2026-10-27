@@ -168,6 +168,16 @@ enable-gloda-search-label =
     .label = Įjungti globalią laiškų paiešką ir indeksavimą
     .accesskey = g
 datetime-formatting-legend = Datos ir laiko formatas
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Programos lokalė: { $localeName }
+    .accesskey = o
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Regiono lokalė: { $localeName }
+    .accesskey = e
 language-selector-legend = Kalba
 allow-hw-accel =
     .label = Jei įmanoma, naudoti aparatinį spartinimą
@@ -239,6 +249,13 @@ offline-settings = Parinkite darbo neprisijungus prie tinklo nuostatas
 offline-settings-button =
     .label = Darbas neprisijungus prie tinklo…
     .accesskey = D
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Jūsų podėlis šiuo metu užima { $size } { $unit } vietos diske
+actual-disk-cache-size-calculating =
+    .value = Skaičiuojamas podėlio dydis…
 diskspace-legend = Disko atmintis
 offline-compact-folder =
     .label = Suglaudinti visus aplankus, jei sumoje tai padės sutaupyti daugiau kaip
