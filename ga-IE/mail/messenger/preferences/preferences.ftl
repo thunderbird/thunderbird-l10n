@@ -120,6 +120,16 @@ enable-gloda-search-label =
     .label = Cumasaigh Cuardach Cuimsitheach agus an tInneacsóir
     .accesskey = e
 datetime-formatting-legend = Formáidiú Dáta agus Ama
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Teanga an fheidhmchláir: { $localeName }
+    .accesskey = g
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Teanga sna socruithe: { $localeName }
+    .accesskey = n
 language-selector-legend = Teanga
 allow-hw-accel =
     .label = Bain úsáid as luasghéarú crua-earraí más féidir
@@ -189,6 +199,13 @@ offline-settings = Cumraigh socruithe as líne
 offline-settings-button =
     .label = As Líne…
     .accesskey = A
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Tá { $size } { $unit } i do thaisce faoi láthair
+actual-disk-cache-size-calculating =
+    .value = Méid na taisce á háireamh…
 diskspace-legend = Spás Diosca
 offline-compact-folder =
     .label = Dlúthaigh fillteáin dá sábhálfadh sé níos mó ná
