@@ -568,3 +568,9 @@ folder-pane-context-compact =
 folder-pane-context-compact-all =
     .label = Compatta tutte le cartelle
     .accesskey = C
+
+## Confirmation prompts shown before deleting a folder.
+
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Eliminando la cartella “{ $name }” verranno disattivati i filtri a essa associati. Si vuole eliminare la cartella?
