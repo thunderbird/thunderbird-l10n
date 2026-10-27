@@ -4,3 +4,6 @@
 
 shortcuts-close-button-title =
     .title = Chiudi
+shortcuts-close-button =
+    .title = Chiudi
+    .aria-label = Chiudi
