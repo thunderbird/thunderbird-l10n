@@ -190,6 +190,16 @@ enable-gloda-search-label =
     .label = Omogoči splošno iskanje in kazalo
     .accesskey = m
 datetime-formatting-legend = Oblika datuma in časa
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Jezik programa: { $localeName }
+    .accesskey = a
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Jezik območnih nastavitev: { $localeName }
+    .accesskey = o
 language-selector-legend = Jezik
 allow-hw-accel =
     .label = Uporabi strojno pospeševanje, kadar je na voljo
@@ -282,6 +292,13 @@ offline-settings-button =
     .label = Brez povezave …
     .accesskey = B
 temporary-storage-legend = Začasna shramba
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Predpomnilnik trenutno zaseda { $size } { $unit } prostora na disku
+actual-disk-cache-size-calculating =
+    .value = Izračunavanje velikosti predpomnilnika …
 diskspace-legend = Prostor na disku
 offline-compact-folder =
     .label = Strni mape, kadar bo to skupaj prihranilo več kot
