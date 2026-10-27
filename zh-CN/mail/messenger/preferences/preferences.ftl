@@ -390,6 +390,7 @@ applications-delete-action-confirm = 你确实希望删除这个动作？
 #                                "Portable Document Format (PDF)".
 #   $type (String) - The MIME type of the content, for example "application/pdf".
 applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = 便携式文档格式（PDF）
 applications-preview-in-app = 在 { -brand-short-name } 中预览
     .label = 在 { -brand-short-name } 中预览
     .tooltiptext = 在 { -brand-short-name } 中预览
