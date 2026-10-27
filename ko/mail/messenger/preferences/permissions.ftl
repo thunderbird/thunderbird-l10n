@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 permissions-dialog-title = 예외
+remote-content-permissions-title = Exceptions - Remote Content
+remote-content-permissions-description = You can specify from which web sites images and other remote content are allowed to load. You can also allow all remote content based on sender e-mail address. Type the address of the site or e-mail you want to manage and then click Block or Allow.
+cookie-permissions-title = 예외 - 쿠키
+cookie-permissions-description = 웹 사이트에 쿠키를 항상 허가 하거나, 또는 전혀 사용하지 못하도록 설정할 수 있습니다. 관리를 원하는 사이트의 정확한 주소를 입력하고, 차단, 현재 세션만 허가, 허가를 클릭하십시오.
 website-address-label =
     .value = 웹 사이트 주소:
     .accesskey = d
