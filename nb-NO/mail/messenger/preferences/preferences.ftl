@@ -282,6 +282,13 @@ offline-settings = Konfigurer innstillinger for frakoblet modus
 offline-settings-button =
     .label = Frakoblet …
     .accesskey = F
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Hurtiglageret ditt bruker for tiden { $size } { $unit } diskplass
+actual-disk-cache-size-calculating =
+    .value = Regner ut størrelse på hurtiglager…
 diskspace-legend = Diskplass
 offline-compact-folder =
     .label = Komprimer alle mapper når det vil spare mer enn
