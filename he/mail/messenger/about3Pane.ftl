@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
@@ -230,3 +233,21 @@ apply-current-columns-to-folder-message = להחיל שינויים של עמו�
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = להחיל שינויים של עמודות התיקייה הנוכחית אל { $name } ותיקיות המשנה שלה?
+
+## Folder pane context menu
+
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = מחיקת תיקייה
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = מ&חיקת תיקייה
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = למחוק את התיקייה ‚{ $name }’?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = מחיקת התיקייה הזאת בלתי הפיכה ותמחק את ההודעות שהיא מכילה, לרבות תת התיקיות שתחתיה. להמשיך במחיקת התיקייה ’{ $name }’?
