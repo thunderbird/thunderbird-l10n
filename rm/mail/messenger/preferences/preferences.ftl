@@ -359,6 +359,10 @@ search-handler-table =
     .placeholder = Filtrar tips da cuntegn ed acziuns
 type-column-header = Tip da cuntegn
 action-column-header = Acziun
+applications-type-pdf = Portable Document Format (PDF)
+applications-preview-in-app = Prevista en { -brand-short-name }
+    .label = Prevista en { -brand-short-name }
+    .tooltiptext = Prevista en { -brand-short-name }
 save-to-label =
     .label = Memorisar tut las datotecas en il suandant ordinatur:
     .accesskey = S
@@ -576,6 +580,13 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Chattar ulteriurs purschiders…
 cloud-account-description = Agiuntar in nov servetsch per memorisar datotecas
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Agiuntar { $providerName }
+    .tooltiptext = Agiuntar { $providerName }
+filelink-account-not-configured =
+    .title = Quest conto n'è anc betg configurà
 
 ## Privacy Tab
 
