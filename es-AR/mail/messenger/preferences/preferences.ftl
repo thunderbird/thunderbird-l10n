@@ -856,6 +856,9 @@ filelink-add-provider =
     .tooltiptext = Agregar { $providerName }
 filelink-account-not-configured =
     .title = Esta cuenta todavía no se configuró
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = ¿Está seguro de querer borrar la cuenta "{ $accountName }"?
 
 ## Privacy Tab
 
@@ -967,6 +970,8 @@ spam-log-button =
 reset-spam-button =
     .label = Borrar entrenamiento
     .accesskey = r
+confirm-reset-junk-training-title = Confirmar
+confirm-reset-junk-training-message = ¿Está seguro de querer reiniciar los datos de entrenamiento del filtro adaptativo?
 scam-detection-description = { -brand-short-name } verifica los mensajes en busca de enlaces de phishing y signos comunes de estafas por correo electrónico.
 scam-detection-label =
     .label = Avisar al leer un correo electrónico que parezca una estafa
@@ -1221,6 +1226,15 @@ managed-notice = { -brand-short-name } está siendo administrado por su organiza
 
 ## Content of the preview conversation for chat message styles.
 
+chat-theme-preview-default =
+    .label = Predeterminado
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = ¡Holis! :-)
+chat-theme-preview-message-2 = ¿Que ocurre?
+chat-theme-preview-message-3 = Estoy probando { -brand-short-name }! ;-)
 
 ## Settings UI Search Results
 
