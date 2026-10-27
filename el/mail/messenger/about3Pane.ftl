@@ -579,6 +579,18 @@ folder-pane-context-compact-all =
 
 ## Confirmation prompts shown before deleting a folder.
 
+folder-delete-title = Διαγραφή φακέλου
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = &Διαγραφή φακέλου
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = Θέλετε σίγουρα να διαγράψετε τον φάκελο «{ $name }»;
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = Η διαγραφή αυτού του φακέλου δεν είναι αναστρέψιμη και θα διαγράψει όλα τα περιεχόμενα μηνύματα και τους υποφακέλους του. Θέλετε σίγουρα να διαγράψετε τον φάκελο «{ $name }»;
 # Variables:
 #   $name (String) - Name of the folder being deleted.
 folder-delete-filter-confirm = Η διαγραφή του φακέλου «{ $name }» θα απενεργοποιήσει τα σχετικά φίλτρα. Θέλετε σίγουρα να διαγράψετε τον φάκελο;
