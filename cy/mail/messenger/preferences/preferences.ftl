@@ -229,6 +229,7 @@ use-custom-sound-label =
 mail-select-audio-button =
     .label = Dewis sain…
     .accesskey = D
+sound-file-picker-title = Dewis Sain
 enable-global-search-label =
     .label = Troi'r chwilio ymlaen ar bob cyfrif e-bost
     .accesskey = T
@@ -487,6 +488,43 @@ search-handler-table =
     .placeholder = Hidlo mathau a gweithredoedd cynnwys
 type-column-header = Math o Gynnwys
 action-column-header = Gweithred
+download-folder-desktop = Bwrdd Gwaith
+download-folder-system = Fy Llwythi
+download-choose-folder-title = Dewis Ffolder
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = Ffeil { $extension }
+applications-save-file = Cadw Ffeil
+    .label = Cadw Ffeil
+    .tooltiptext = Cadw Ffeil
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Defnyddio { $appName }
+    .label = Defnyddio { $appName }
+    .tooltiptext = Defnyddio { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Defnyddio { $appName } (rhagosodiad)
+    .label = Defnyddio { $appName } (rhagosodiad)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Defnyddio arall…
+    .tooltiptext = Defnyddio arall…
+applications-choose-app-title = Dewis Rhaglen Gynorthwyol
+applications-manage-app =
+    .label = Manylion y Rhaglen…
+applications-always-ask = Gofyn bob tro
+    .label = Gofyn bob tro
+    .tooltiptext = Gofyn bob tro
+applications-delete-action =
+    .label = Gweithred Dileu
+applications-delete-action-title = Gweithred Dileu
+applications-delete-action-confirm = Ydych chi'n siŵr eich bod eisiau dileu'r weithred?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
 applications-type-pdf = Portable Document Format (PDF)
 applications-preview-in-app = Rhagolwg yn { -brand-short-name }
     .label = Rhagolwg yn { -brand-short-name }
@@ -818,6 +856,9 @@ filelink-add-provider =
     .tooltiptext = Ychwanegu { $providerName }
 filelink-account-not-configured =
     .title = Nid yw'r cyfrif hwn wedi'i ffurfweddu eto
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Ydych chi'n siŵr eich bod am dynnu'r cyfrif "{ $accountName }"?
 
 ## Privacy Tab
 
@@ -929,6 +970,8 @@ spam-log-button =
 reset-spam-button =
     .label = Ailosod Data Hyfforddi
     .accesskey = A
+confirm-reset-junk-training-title = Cadarnhau
+confirm-reset-junk-training-message = Ydych chi'n siŵr eich bod eisiau ailosod data hyfforddi'r hidl addasol?
 scam-detection-description = Mae { -brand-short-name } yn gwirio negeseuon am ddolenni pysgota ac arwyddion cyffredin o sgamiau e-bost.
 scam-detection-label =
     .label = Rhybuddio wrth ddarllen e-byst sy'n edrych fel sgam
@@ -1183,6 +1226,15 @@ managed-notice = Mae { -brand-short-name } yn cael ei reoli gan eich sefydliad.
 
 ## Content of the preview conversation for chat message styles.
 
+chat-theme-preview-default =
+    .label = Rhagosodedig
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Helo! :-)
+chat-theme-preview-message-2 = Be sy’n digwydd?
+chat-theme-preview-message-3 = Rwy’n profi { -brand-short-name }! ;-)
 
 ## Settings UI Search Results
 
