@@ -660,6 +660,13 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Finn fleire leverandørar…
 cloud-account-description = Legg til ei Filelink-lagringsteneste
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Legg til { $providerName }
+    .tooltiptext = Legg til { $providerName }
+filelink-account-not-configured =
+    .title = Denne kontoen har enno ikkje blitt konfigurert
 
 ## Privacy Tab
 
