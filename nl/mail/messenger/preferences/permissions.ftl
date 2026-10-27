@@ -3,6 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 permissions-dialog-title = Uitzonderingen
+cookie-permissions-title = Uitzonderingen - Cookies
+cookie-permissions-description = U kunt opgeven welke websites altijd of nooit toestemming hebben om cookies te gebruiken. Typ het exacte adres van de website die u wilt beheren en klik vervolgens op Blokkeren, Toestaan voor sessie of Toestaan.
 website-address-label =
     .value = Adres van website:
     .accesskey = d
