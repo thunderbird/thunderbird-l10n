@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 permissions-dialog-title = Poikkeukset
+remote-content-permissions-title = Poikkeukset - Etäsisältö
+remote-content-permissions-description = Voit määrittää, miltä sivustoilta voidaan ladata kuvia ja muuta etäsisältöä. Voit myös sallia etäsisältöä lähettäjän sähköpostiosoitteen mukaan. Kirjoita sen sivuston osoite tai sähköpostiosoite, jonka asetuksia haluat muokata ja valitse Estä tai Salli.
+cookie-permissions-title = Poikkeukset - Evästeet
+cookie-permissions-description = Voit määrittää, mitkä palvelimet voivat asettaa evästeitä. Kirjoita palvelimen osoite ja valitse Estä, Salli istunnon ajaksi tai Salli
 website-address-label =
     .value = Palvelimen osoite:
     .accesskey = a

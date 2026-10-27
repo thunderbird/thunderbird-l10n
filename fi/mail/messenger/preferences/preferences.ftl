@@ -196,6 +196,7 @@ mail-system-sound-label =
 mail-select-audio-button =
     .label = Valitse ääni…
     .accesskey = V
+sound-file-picker-title = Valitse äänimerkki
 mail-custom-sound-label =
     .label = Käytä seuraavaa äänitiedostoa
     .accesskey = K
@@ -382,6 +383,34 @@ search-handler-table =
     .placeholder = Suodata sisältötyypit ja toiminnot
 type-column-header = Sisältötyyppi
 action-column-header = Toiminto
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Käytä sovellusta { $appName }
+    .label = Käytä sovellusta { $appName }
+    .tooltiptext = Käytä sovellusta { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Käytä sovellusta { $appName } (oletus)
+    .label = Käytä sovellusta { $appName } (oletus)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Valitse uusi apuohjelma…
+    .tooltiptext = Valitse uusi apuohjelma…
+applications-choose-app-title = Valitse uusi apuohjelma
+applications-manage-app =
+    .label = Sovellusten tiedot…
+applications-always-ask = Kysy aina
+    .label = Kysy aina
+    .tooltiptext = Kysy aina
+applications-delete-action =
+    .label = Poista toiminto
+applications-delete-action-title = Poista toiminto
+applications-delete-action-confirm = Poistetaanko toiminto?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
 save-to-label =
     .label = Tallenna kansioon
     .accesskey = T
@@ -426,6 +455,10 @@ mark-read-delay =
     .label = Kun ne ovat olleet avattuna
     .accesskey = u
 seconds-label = sekuntia
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -816,7 +849,7 @@ idle-label =
     .accesskey = A
 idle-time-label = minuuttiin
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = ja aseta minut poissaolevaksi tämän viestin kera:
@@ -890,6 +923,9 @@ chat-variant-label =
 search-preferences-input2 =
     .placeholder = Etsi asetuksista
     .style = width: 15.4em
+
+## Content of the preview conversation for chat message styles.
+
 
 ## Settings UI Search Results
 
