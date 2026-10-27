@@ -348,6 +348,10 @@ applications-delete-action-confirm = Ar tikrai norite pašalinti šį veiksmą?
 #                                "Portable Document Format (PDF)".
 #   $type (String) - The MIME type of the content, for example "application/pdf".
 applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = PDF formato dokumentas
+applications-preview-in-app = Peržiūrėti naudojant „{ -brand-short-name }“
+    .label = Peržiūrėti naudojant „{ -brand-short-name }“
+    .tooltiptext = Peržiūrėti naudojant „{ -brand-short-name }“
 save-to-label =
     .label = Įrašyti failus į aplanką
     .accesskey = f
@@ -511,6 +515,13 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Rasti daugiau teikėjų…
 cloud-account-description = Pridėkite failų talpinimo debesyje tarnybą
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Pridėti „{ $providerName }“?
+    .tooltiptext = Pridėti „{ $providerName }“?
+filelink-account-not-configured =
+    .title = Ši paskyra dar nebuvo sukonfigūruota
 
 ## Privacy Tab
 
