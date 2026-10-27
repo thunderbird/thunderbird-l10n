@@ -575,3 +575,9 @@ folder-pane-context-compact =
 folder-pane-context-compact-all =
     .label = Compactar tote le plicas
     .accesskey = p
+
+## Confirmation prompts shown before deleting a folder.
+
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Deler le dossier '{ $name }' disactivara le filtro(s) associate a illo. Es tu secur de voler deler iste dossier?
