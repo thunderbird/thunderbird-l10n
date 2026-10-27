@@ -499,3 +499,24 @@ apply-current-columns-to-folder-message = Կիրառե՞լ ընթացիկ թղթ
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Կիրառե՞լ ընթացիկ թղթապանակի սյունները { $name }-ին և մնացածին։
 message-list-placeholder-no-messages = Ոչ մի հաղորդագրություն չի գտնվել
+
+## Folder pane context menu
+
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = Ջնջել թղթապանակը
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = &Ջնջել թղթապանակը
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = Համոզվա՞ծ եք, որ ցանկանում եք ջնջել '{ $name }'-ը։
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = Եթե ջնջեք այս թղթապանակը, ապա կջնջվեն նաև բոլոր նամակները և ենթաթղթապանակները: Ջնջե՞լ '{ $name }'-ը:
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = '{ $name }' թղթապանակի ջնջումը կանջատի համակցված այլ զտիչները։ Ջնջե՞լ թղթապանակը։
