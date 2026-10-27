@@ -246,6 +246,16 @@ enable-gloda-search-label =
     .label = Globaal sykje en yndeksearder ynskeakelje
     .accesskey = y
 datetime-formatting-legend = Datum- en tiidnotaasje
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Tapassingstaal: { $localeName }
+    .accesskey = p
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Regionale taalynstellingen: { $localeName }
+    .accesskey = g
 display-language-legend = Werjeftetaal
 allow-graphics-accel =
     .label = Grafyske fersnelling foar soepeler scrolle en prestaasjes brûke
@@ -379,6 +389,13 @@ offline-settings-button =
     .label = Sûnder ferbining…
     .accesskey = S
 temporary-storage-legend = Tydlik ûnthâld
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Jo buffer brûkt op dit stuit { $size } { $unit } skiifromte
+actual-disk-cache-size-calculating =
+    .value = Buffergrutte berekkenje…
 offline-compact-remove-deleted =
     .label = Gegevens út mappen fuortsmite as se al wiske binne om opslachromte frij te meitsjen
     .accesskey = G
@@ -499,6 +516,10 @@ applications-delete-action-confirm = Binne jo wis dat jo dizze aksje fuortsmite 
 #                                "Portable Document Format (PDF)".
 #   $type (String) - The MIME type of the content, for example "application/pdf".
 applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Portable Document Format (PDF)
+applications-preview-in-app = Foarbyld yn { -brand-short-name }
+    .label = Foarbyld yn { -brand-short-name }
+    .tooltiptext = Foarbyld yn { -brand-short-name }
 save-to-label =
     .label = Bewarje bestannen yn
     .accesskey = w
@@ -819,6 +840,13 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Sykje mear providers…
 cloud-account-description = In nije Filelink bewartsjinst tafoegje
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = { $providerName } tafoegje
+    .tooltiptext = { $providerName } tafoegje
+filelink-account-not-configured =
+    .title = Dizze account is noch net konfigurearre
 
 ## Privacy Tab
 
