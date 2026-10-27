@@ -591,3 +591,6 @@ folder-delete-confirm = Är du säker på att du vill ta bort mappen '{ $name }'
 # Variables:
 #   $name (String) - Name of the folder being deleted.
 folder-delete-no-trash-confirm = Det finns inget sätt att ångra borttagning av en mapp och dess undermappar och innehåll. Är du säker på att du ändå vill ta bort mappen ”{ $name }”?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Om du tar bort mappen ”{ $name }” kommer berörda filterregler att sättas ur spel. Är du säker på att du vill ta bort mappen?
