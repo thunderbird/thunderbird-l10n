@@ -488,6 +488,15 @@ search-handler-table =
     .placeholder = Ynhâldtypen en aksjes filterje
 type-column-header = Ynhâldstype
 action-column-header = Aksje
+download-folder-desktop = Buroblêd
+download-folder-system = Myn downloads
+download-choose-folder-title = Kies map
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension }-bestân
+applications-save-file = Bestân bewarje
+    .label = Bestân bewarje
+    .tooltiptext = Bestân bewarje
 # Variables:
 #   $appName (String) - The name of an application.
 applications-use-app = Brûk { $appName }
@@ -847,6 +856,9 @@ filelink-add-provider =
     .tooltiptext = { $providerName } tafoegje
 filelink-account-not-configured =
     .title = Dizze account is noch net konfigurearre
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Binne jo wis dat jo de account ‘{ $accountName }’ fuortsmite wolle?
 
 ## Privacy Tab
 
@@ -958,6 +970,8 @@ spam-log-button =
 reset-spam-button =
     .label = Trainingsgegevens opnij inisjalisearje
     .accesskey = o
+confirm-reset-junk-training-title = Befêstigje
+confirm-reset-junk-training-message = Binne jo wis dat jo de trainingsgegevens fan it selslearjende net-winske-berjochtefilter opnij inisjalisearje wolle?
 scam-detection-description = { -brand-short-name } kontrolearret berjochten op phishing-keppelingen en faaks foarkommende tekens fan e-mailoplichting.
 scam-detection-label =
     .label = Warskôgje by it lêzen fan in e-mailberjocht dy’t derút sjocht as in scam
@@ -1216,6 +1230,15 @@ managed-notice = { -brand-short-name } wurdt troch jo organisaasje beheard.
 
 ## Content of the preview conversation for chat message styles.
 
+chat-theme-preview-default =
+    .label = Standert
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Hoi! :-)
+chat-theme-preview-message-2 = Wat is der?
+chat-theme-preview-message-3 = Ik probearje { -brand-short-name }! ;-)
 
 ## Settings UI Search Results
 
