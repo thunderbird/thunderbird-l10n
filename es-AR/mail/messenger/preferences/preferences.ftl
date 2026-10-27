@@ -229,6 +229,7 @@ use-custom-sound-label =
 mail-select-audio-button =
     .label = Seleccionar audio…
     .accesskey = a
+sound-file-picker-title = Elegir sonido
 enable-global-search-label =
     .label = Habilitar la búsqueda en todas las cuentas de correo electrónico
     .accesskey = e
@@ -479,6 +480,34 @@ applications-file-ending = { $extension } archivo
 applications-save-file = Guardar archivo
     .label = Guardar archivo
     .tooltiptext = Guardar archivo
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Usar { $appName }
+    .label = Usar { $appName }
+    .tooltiptext = Usar { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Usar { $appName } (predeterminado)
+    .label = Usar { $appName } (predeterminado)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Usar otro…
+    .tooltiptext = Usar otro…
+applications-choose-app-title = Seleccionar aplicación
+applications-manage-app =
+    .label = Detalles de la aplicación…
+applications-always-ask = Preguntar siempre
+    .label = Preguntar siempre
+    .tooltiptext = Preguntar siempre
+applications-delete-action =
+    .label = Borrar Acción
+applications-delete-action-title = Borrar Acción
+applications-delete-action-confirm = ¿Está seguro de querer borrar esta acción?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
 save-to-label =
     .label = Guardar archivos en
     .accesskey = G
