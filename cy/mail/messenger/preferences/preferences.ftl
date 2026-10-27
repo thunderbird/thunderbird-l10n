@@ -245,6 +245,16 @@ enable-gloda-search-label =
     .label = Galluogi Chwilio a Mynegeio Eang
     .accesskey = G
 datetime-formatting-legend = Fformatio Dyddiad ac Amser
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Locale rhaglen: { $localeName }
+    .accesskey = r
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Gosodiadau rhanbarthol locale: { $localeName }
+    .accesskey = r
 display-language-legend = Iaith dangos
 allow-graphics-accel =
     .label = Defnyddio cyflymiad graffeg ar gyfer sgrolio a pherfformiad llyfnach
