@@ -547,3 +547,6 @@ folder-delete-confirm = 정말로 '{ $name }'폴더를 삭제하시겠습니까?
 # Variables:
 #   $name (String) - Name of the folder being deleted.
 folder-delete-no-trash-confirm = 이 폴더를 삭제하면 되돌릴 수 없으며 모든 메시지와 하위 폴더를 모두 삭제합니다. 정말로 '{ $name }' 폴더를 삭제하시겠습니까?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = '{ $name }' 폴더를 지우면 필터가 적용되지 않습니다. 폴더를 지우시겠습니까?
