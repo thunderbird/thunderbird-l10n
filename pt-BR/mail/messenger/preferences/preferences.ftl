@@ -390,6 +390,10 @@ applications-delete-action-confirm = Tem certeza que quer excluir esta ação?
 #                                "Portable Document Format (PDF)".
 #   $type (String) - The MIME type of the content, for example "application/pdf".
 applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Portable Document Format (PDF)
+applications-preview-in-app = Ver no { -brand-short-name }
+    .label = Ver no { -brand-short-name }
+    .tooltiptext = Ver no { -brand-short-name }
 save-to-label =
     .label = Salvar arquivos em:
     .accesskey = S
@@ -624,6 +628,13 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Procurar mais provedores…
 cloud-account-description = Adicionar um serviço de armazenamento de anexos online
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Adicionar { $providerName }
+    .tooltiptext = Adicionar { $providerName }
+filelink-account-not-configured =
+    .title = Esta conta ainda não foi configurada
 
 ## Privacy Tab
 
