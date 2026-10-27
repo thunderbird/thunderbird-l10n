@@ -577,3 +577,18 @@ folder-pane-context-compact =
 folder-pane-context-compact-all =
     .label = Alle mappen comprimeren
     .accesskey = m
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = Map verwijderen
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = Map &verwijderen
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = Weet u zeker dat u de map ‘{ $name }’ wilt verwijderen?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = Verwijderen van deze map is niet ongedaan te maken en zal alle berichten en submappen die deze bevat verwijderen. Weet u zeker dat u de map ‘{ $name }’ wilt verwijderen?
