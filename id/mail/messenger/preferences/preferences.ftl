@@ -375,6 +375,13 @@ offline-settings-button =
     .label = Luring…
     .accesskey = L
 temporary-storage-legend = Penyimpanan sementara
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Tembolok Anda saat ini menggunakan { $size } { $unit } ruang disk
+actual-disk-cache-size-calculating =
+    .value = Menghitung ukuran tembolok…
 offline-compact-remove-deleted =
     .label = Hapus data dari folder ketika sudah dihapus untuk mengosongkan penyimpanan
     .accesskey = a
