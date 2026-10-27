@@ -470,6 +470,10 @@ search-handler-table =
     .placeholder = Filtruj typy zawartości i czynności
 type-column-header = Typ zawartości
 action-column-header = Czynność
+applications-type-pdf = Dokument PDF
+applications-preview-in-app = Podgląd w programie { -brand-short-name }
+    .label = Podgląd w programie { -brand-short-name }
+    .tooltiptext = Podgląd w programie { -brand-short-name }
 save-to-label =
     .label = Zapisuj pliki do
     .accesskey = Z
@@ -521,6 +525,10 @@ mark-read-delay =
     .label = po wyświetlaniu przez
     .accesskey = w
 seconds-label = sekund
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 mark-read-after-viewing =
     .label = po wyświetlaniu przez
     .accesskey = l
@@ -1076,7 +1084,7 @@ idle-label =
     .accesskey = W
 idle-time-label = minutach
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = i ustawiaj stan na „Zaraz wracam” z opisem:
@@ -1152,6 +1160,9 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = { -brand-short-name } jest zarządzany przez organizację.
 managed-notice = { -brand-short-name } jest zarządzany przez Twoją organizację
+
+## Content of the preview conversation for chat message styles.
+
 
 ## Settings UI Search Results
 
