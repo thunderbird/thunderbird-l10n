@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Message List Header Bar
+
+
 ## Quick Filter Bar
 
 # The tooltip to display when the user hovers over the sticky button
@@ -243,3 +246,24 @@ apply-current-columns-to-folder-message = អនុវត្ត​ជួរឈ�
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = អនុវត្ត​ជួរឈរ​របស់​ថត​​បច្ចុប្បន្ន​ទៅ { $name } និង​ថត​តូចៗ​របស់​វា​ឬ?
+
+## Folder pane context menu
+
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = លុប​ថត
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = Ջնջել
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = តើ​អ្នក​ប្រាកដ​ជា​ចង់​លុប​ថត '{ $name }'?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = ការ​លុប​ថត​នេះ​គឺ​មិន​អាច​មិនធ្វើវិញ​បាទ​ទេ ហើយ​វា​នឹង​លុប​សារ​ទាំងអស់​ដែល​មាន ព្រមទាំង​ថត​រង​របស់​វា។ តើ​អ្នក​ពិតជា​ចង់​លុប​ថត '{ $name }' មែន​ឬ?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = ការ​លុប​ថត '{ $name }' នឹង​បិទ​តម្រង​ដែល​​ទាក់ទង​របស់​វា។ តើ​អ្នក​ប្រាកដ​ជា​ចង់​លុប​ថត​ឬ?
