@@ -576,3 +576,21 @@ folder-pane-context-compact =
 folder-pane-context-compact-all =
     .label = Барлық бумаларды ықшамдау
     .accesskey = Б
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = Буманы өшіру
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = Буманы ө&шіру
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = "{ $name }" бумасын өшіруді шынымен қалайсыз ба?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = Бұл буманы өшіруді болдырмауға болмайды және оның нәтижесінде барлық хабарламалары және бар болса, ішкі бумалары да өшіріледі. "{ $name }" бумасын өшіруді сонда да қалайсыз ба?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = '{ $name }' бумасын өшіру нәтижесінде оның сәйкестелген сүзгі(лер) сөндіріледі. Буманы өшіруді шынымен қалайсыз ба?
