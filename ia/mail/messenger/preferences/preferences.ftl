@@ -472,6 +472,10 @@ search-handler-table =
     .placeholder = Filtra typos e actiones de contento
 type-column-header = Typo de contento
 action-column-header = Action
+applications-type-pdf = Formato de documento portabile (PDF)
+applications-preview-in-app = Vista preliminar in { -brand-short-name }
+    .label = Vista preliminar in { -brand-short-name }
+    .tooltiptext = Vista preliminar in { -brand-short-name }
 save-to-label =
     .label = Salvar le files in
     .accesskey = S
@@ -523,6 +527,10 @@ mark-read-delay =
     .label = Post monstrar pro
     .accesskey = m
 seconds-label = secundas
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 mark-read-after-viewing =
     .label = Post visualisar pro
     .accesskey = v
@@ -1078,7 +1086,7 @@ idle-label =
     .accesskey = p
 idle-time-label = minutas de inactivitate
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = e configura mi stato a Non disponibile con iste message de stato:
@@ -1154,6 +1162,9 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = { -brand-short-name } es gerite per un organisation.
 managed-notice = { -brand-short-name } es gerite per tu organisation.
+
+## Content of the preview conversation for chat message styles.
+
 
 ## Settings UI Search Results
 
