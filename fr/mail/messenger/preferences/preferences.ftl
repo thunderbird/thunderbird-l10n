@@ -379,6 +379,13 @@ offline-settings-button =
     .label = Hors connexion…
     .accesskey = H
 temporary-storage-legend = Stockage temporaire
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Le cache utilise { $size } { $unit } d’espace disque
+actual-disk-cache-size-calculating =
+    .value = Calcul de la taille du cache…
 offline-compact-remove-deleted =
     .label = Supprimer les données des dossiers déjà supprimés afin de libérer de l’espace de stockage
     .accesskey = S
