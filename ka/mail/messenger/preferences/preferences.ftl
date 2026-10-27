@@ -509,6 +509,10 @@ applications-delete-action-confirm = ნამდვილად გსურთ
 #                                "Portable Document Format (PDF)".
 #   $type (String) - The MIME type of the content, for example "application/pdf".
 applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = PDF (გადასატანი დოკუმენტი)
+applications-preview-in-app = გახსნის { -brand-short-name }
+    .label = გახსნის { -brand-short-name }
+    .tooltiptext = გახსნის { -brand-short-name }
 save-to-label =
     .label = ფაილების შენახვა…
     .accesskey = ნ
@@ -829,6 +833,13 @@ remove-cloud-account =
 find-cloud-providers =
     .value = სხვა მომსახურების მოძიება…
 cloud-account-description = ფაილების მიბმისთვის მომსახურე საცავის დამატება
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = { $providerName }-ის დამატება
+    .tooltiptext = { $providerName }-ის დამატება
+filelink-account-not-configured =
+    .title = ეს ანგარიში ჯერ არაა გამართული
 
 ## Privacy Tab
 
