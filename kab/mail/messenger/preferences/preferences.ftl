@@ -503,6 +503,13 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Af-d ugar n yisaǧǧawen...
 cloud-account-description = Rnu ameẓlu n usekles n useɣwen n ufaylu amaynut
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Rnu { $providerName }
+    .tooltiptext = Rnu { $providerName }
+filelink-account-not-configured =
+    .title = Amiḍan ur yettusbadu ara yakan
 
 ## Privacy Tab
 
