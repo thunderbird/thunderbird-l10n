@@ -184,6 +184,16 @@ enable-gloda-search-label =
     .label = Gaitu bilaketa orokorra eta indexatzailea
     .accesskey = i
 datetime-formatting-legend = Data eta denboraren formatua
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Aplikazio lokala: { $localeName }
+    .accesskey = l
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Eskualde ezarpen lokala: { $localeName }
+    .accesskey = E
 language-selector-legend = Hizkuntza
 allow-hw-accel =
     .label = Erabili hardware azelerazioa erabilgarri dagoenean
@@ -269,6 +279,13 @@ offline-settings = Konfiguratu lineaz kanpoko ezarpenak
 offline-settings-button =
     .label = Lineaz kanpo…
     .accesskey = o
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Zure cachea une honetan { $size } { $unit } ari da erabiltzen diskoan
+actual-disk-cache-size-calculating =
+    .value = Cache tamaina kalkulatzen…
 diskspace-legend = Diskoko lekua
 offline-compact-folder =
     .label = Trinkotu karpeta guztiak hau baino gehiago aurrezten denean:
