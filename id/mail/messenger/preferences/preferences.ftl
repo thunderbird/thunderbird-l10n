@@ -484,6 +484,15 @@ search-handler-table =
     .placeholder = Filter tipe dan tindakan konten
 type-column-header = Tipe Isi
 action-column-header = Aksi
+download-folder-desktop = Desktop
+download-folder-system = My Downloads
+download-choose-folder-title = Pilih Folder:
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = berkas { $extension }
+applications-save-file = Simpan Berkas
+    .label = Simpan Berkas
+    .tooltiptext = Simpan Berkas
 # Variables:
 #   $appName (String) - The name of an application.
 applications-use-app = Gunakan { $appName }
@@ -775,6 +784,9 @@ filelink-add-provider =
     .tooltiptext = Tambahkan { $providerName }
 filelink-account-not-configured =
     .title = Akun ini belum dikonfigurasikan
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Yakin akan menghapus akun "{ $accountName }"?
 
 ## Privacy Tab
 
@@ -856,6 +868,8 @@ spam-log-button =
 reset-spam-button =
     .label = Setel Ulang Data Pelatihan
     .accesskey = P
+confirm-reset-junk-training-title = Konfirmasi
+confirm-reset-junk-training-message = Yakin akan menyetel ulang data training filter adaptif?
 phishing-description = { -brand-short-name } dapat menganalisis pesan yang mungkin berisi penipuan (scam) yang menggunakan teknik-teknik yang umum untuk menipu Anda.
 phishing-label =
     .label = Beritahu jika pesan yang sedang dibaca adalah tersangka penipuan lewat email
@@ -1070,6 +1084,15 @@ managed-notice = { -brand-short-name } sedang dikelola oleh organisasi Anda.
 
 ## Content of the preview conversation for chat message styles.
 
+chat-theme-preview-default =
+    .label = Asali
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Hai! :-)
+chat-theme-preview-message-2 = Ada apa?
+chat-theme-preview-message-3 = Saya mencoba { -brand-short-name }! ;-)
 
 ## Settings UI Search Results
 
