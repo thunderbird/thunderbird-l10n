@@ -612,3 +612,18 @@ folder-pane-context-compact =
 folder-pane-context-compact-all =
     .label = Strni vse mape
     .accesskey = t
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = Izbriši mapo
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = &Izbriši mapo
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = Ali želite izbrisati mapo '{ $name }'?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = Če izbrišete to mapo, je ne boste mogli več obnoviti; izbrisali boste vsa sporočila in vse podmape v njej. Ali res še vedno želite izbrisati mapo '{ $name }'?
