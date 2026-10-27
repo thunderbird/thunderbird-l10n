@@ -152,6 +152,15 @@ bigger-size-item =
     .label = Bigger
 smaller-size-item =
     .label = Smaller
+download-folder-desktop = Desktop
+download-folder-system = My Downloads
+download-choose-folder-title = Choose Folder
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension } file
+applications-save-file = Save File
+    .label = Save File
+    .tooltiptext = Save File
 # Variables:
 #   $appName (String) - The name of an application.
 applications-use-app = Use { $appName }
@@ -290,6 +299,9 @@ remove-cloud-account =
     .label = Remove
     .accesskey = R
 cloud-account-description = Add a new Filelink storage service
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Are you sure you want to remove the account "{ $accountName }"?
 
 ## Privacy Tab
 
@@ -322,6 +334,8 @@ passwords-description = { -brand-short-name } can remember passwords for all of 
 passwords-button =
     .label = Saved Passwords…
     .accesskey = S
+confirm-reset-junk-training-title = Confirm
+confirm-reset-junk-training-message = Are you sure you want to reset the adaptive filter training data?
 phishing-description = { -brand-short-name } can analyze messages for suspected email scams by looking for common techniques used to deceive you.
 phishing-label =
     .label = Tell me if the message I'm reading is a suspected email scam
