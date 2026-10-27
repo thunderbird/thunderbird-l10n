@@ -389,6 +389,10 @@ mark-read-delay =
     .accesskey = ล
 seconds-label = วินาที
 
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
+
 ##
 
 open-msg-label =
@@ -557,6 +561,13 @@ remove-cloud-account =
 find-cloud-providers =
     .value = ค้นหาผู้ให้บริการเพิ่มเติม…
 cloud-account-description = เพิ่มบริการที่เก็บข้อมูล Filelink ใหม่
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = เพิ่ม { $providerName }
+    .tooltiptext = เพิ่ม { $providerName }
+filelink-account-not-configured =
+    .title = บัญชีนี้ยังไม่ได้ถูกกำหนดค่า
 
 ## Privacy Tab
 
@@ -738,7 +749,7 @@ idle-label =
     .accesskey = จ
 idle-time-label = นาทีที่ไม่มีความเคลื่อนไหว
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = และตั้งค่าสถานะของฉันว่าไม่อยู่ด้วยข้อความสถานะนี้:
@@ -813,6 +824,9 @@ search-preferences-input2 =
     .placeholder = ค้นหาในหน้าการตั้งค่า
     .style = width: 15.4em
 managed-notice = { -brand-short-name } กำลังถูกจัดการโดยองค์กรของคุณ
+
+## Content of the preview conversation for chat message styles.
+
 
 ## Settings UI Search Results
 
