@@ -242,6 +242,16 @@ enable-gloda-search-label =
     .label = Aktivera global sökning och indexering
     .accesskey = A
 datetime-formatting-legend = Formatering av datum och tid
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Programspråk: { $localeName }
+    .accesskey = P
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Regionala inställningar: { $localeName }
+    .accesskey = R
 display-language-legend = Visningsspråk
 allow-graphics-accel =
     .label = Använd grafikacceleration för mjukare rullning och prestanda
@@ -375,6 +385,13 @@ offline-settings-button =
     .label = Nedkopplat läge…
     .accesskey = N
 temporary-storage-legend = Temporärt lagringsutrymme
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Din cache använder just nu { $size } { $unit } diskutrymme
+actual-disk-cache-size-calculating =
+    .value = Beräkning cachestorlek…
 offline-compact-remove-deleted =
     .label = Ta bort data från mappar när de redan har tagits bort för att frigöra lagringsutrymme
     .accesskey = T
@@ -815,6 +832,13 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Hitta fler leverantörer…
 cloud-account-description = Lägg till en ny Filelink lagringstjänst
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Lägg till { $providerName }
+    .tooltiptext = Lägg till { $providerName }
+filelink-account-not-configured =
+    .title = Detta konto har inte konfigurerats än
 
 ## Privacy Tab
 
