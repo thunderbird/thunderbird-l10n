@@ -184,6 +184,16 @@ enable-gloda-search-label =
     .label = 启用全局搜索以及索引
     .accesskey = E
 datetime-formatting-legend = 日期和时间格式
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = 应用程序语言区域：{ $localeName }
+    .accesskey = p
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = 区域设置语言区域：{ $localeName }
+    .accesskey = g
 language-selector-legend = 语言
 allow-hw-accel =
     .label = 自动启用硬件加速
@@ -269,6 +279,13 @@ offline-settings = 配置脱机设置
 offline-settings-button =
     .label = 脱机…
     .accesskey = O
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = 您的缓存目前已使用 { $size } { $unit } 磁盘空间
+actual-disk-cache-size-calculating =
+    .value = 正在计算缓存大小…
 diskspace-legend = 磁盘空间
 offline-compact-folder =
     .label = 需要节省空间时压缩全部文件夹
