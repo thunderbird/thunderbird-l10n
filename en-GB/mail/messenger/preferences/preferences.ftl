@@ -488,6 +488,15 @@ search-handler-table =
     .placeholder = Filter content types and actions
 type-column-header = Content Type
 action-column-header = Action
+download-folder-desktop = Desktop
+download-folder-system = My Downloads
+download-choose-folder-title = Choose Folder
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension } file
+applications-save-file = Save File
+    .label = Save File
+    .tooltiptext = Save File
 # Variables:
 #   $appName (String) - The name of an application.
 applications-use-app = Use { $appName }
@@ -847,6 +856,9 @@ filelink-add-provider =
     .tooltiptext = Add { $providerName }
 filelink-account-not-configured =
     .title = This account has not been configured yet
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Are you sure you want to remove the account "{ $accountName }"?
 
 ## Privacy Tab
 
@@ -958,6 +970,8 @@ spam-log-button =
 reset-spam-button =
     .label = Reset Training Data
     .accesskey = R
+confirm-reset-junk-training-title = Confirm
+confirm-reset-junk-training-message = Are you sure you want to reset the adaptive filter training data?
 scam-detection-description = { -brand-short-name } checks messages for phishing links and common signs of email scams.
 scam-detection-label =
     .label = Warn when reading an email that looks like a scam
@@ -1216,6 +1230,15 @@ managed-notice = { -brand-short-name } is being managed by your organisation.
 
 ## Content of the preview conversation for chat message styles.
 
+chat-theme-preview-default =
+    .label = Default
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Hi! :-)
+chat-theme-preview-message-2 = What’s up?
+chat-theme-preview-message-3 = I’m trying { -brand-short-name }! ;-)
 
 ## Settings UI Search Results
 
