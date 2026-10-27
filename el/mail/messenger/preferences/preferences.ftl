@@ -224,6 +224,7 @@ use-custom-sound-label =
 mail-select-audio-button =
     .label = Επιλογή ήχου…
     .accesskey = χ
+sound-file-picker-title = Επιλογή ήχου
 enable-global-search-label =
     .label = Ενεργοποίηση της αναζήτησης σε όλους τους λογαριασμούς email
     .accesskey = ε
@@ -383,6 +384,13 @@ offline-settings-button =
     .label = Εκτός σύνδεσης…
     .accesskey = Ε
 temporary-storage-legend = Προσωρινή αποθήκευση
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Αυτήν τη στιγμή, η προσωρινή μνήμη χρησιμοποιεί { $size } { $unit } χώρου στον δίσκο
+actual-disk-cache-size-calculating =
+    .value = Υπολογισμός μεγέθους προσωρινής μνήμης…
 offline-compact-remove-deleted =
     .label = Αφαίρεση δεδομένων από φακέλους που έχουν ήδη διαγραφεί, για εξοικονόμηση χώρου
     .accesskey = α
@@ -475,6 +483,43 @@ search-handler-table =
     .placeholder = Φιλτράρισμα τύπων περιεχομένου και ενεργειών
 type-column-header = Τύπος περιεχομένου
 action-column-header = Ενέργεια
+download-folder-desktop = Επιφάνεια εργασίας
+download-folder-system = Λήψεις
+download-choose-folder-title = Επιλογή φακέλου
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = Αρχείο { $extension }
+applications-save-file = Αποθήκευση αρχείου
+    .label = Αποθήκευση αρχείου
+    .tooltiptext = Αποθήκευση αρχείου
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Χρήση { $appName }
+    .label = Χρήση { $appName }
+    .tooltiptext = Χρήση { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Χρήση «{ $appName }» (προεπιλογή)
+    .label = Χρήση «{ $appName }» (προεπιλογή)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Χρήση άλλης…
+    .tooltiptext = Χρήση άλλης…
+applications-choose-app-title = Επιλογή βοηθητικής εφαρμογής
+applications-manage-app =
+    .label = Λεπτομέρειες εφαρμογής…
+applications-always-ask = Ερώτηση πάντα
+    .label = Ερώτηση πάντα
+    .tooltiptext = Ερώτηση πάντα
+applications-delete-action =
+    .label = Διαγραφή ενέργειας
+applications-delete-action-title = Διαγραφή ενέργειας
+applications-delete-action-confirm = Θέλετε σίγουρα να διαγράψετε αυτήν την ενέργεια;
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
 applications-type-pdf = Portable Document Format (PDF)
 applications-preview-in-app = Προεπισκόπηση στο { -brand-short-name }
     .label = Προεπισκόπηση στο { -brand-short-name }
@@ -806,6 +851,9 @@ filelink-add-provider =
     .tooltiptext = Προσθήκη { $providerName }
 filelink-account-not-configured =
     .title = Αυτός ο λογαριασμός δεν έχει ρυθμιστεί ακόμα
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Θέλετε σίγουρα να αφαιρέσετε τον λογαριασμό «{ $accountName }»;
 
 ## Privacy Tab
 
@@ -911,6 +959,8 @@ spam-log-button =
 reset-spam-button =
     .label = Επαναφορά δεδομένων εκμάθησης
     .accesskey = Ε
+confirm-reset-junk-training-title = Επιβεβαίωση
+confirm-reset-junk-training-message = Θέλετε σίγουρα να επαναφέρετε τα δεδομένα εκμάθησης του προσαρμοστικού φίλτρου;
 scam-detection-description = Το { -brand-short-name } ελέγχει τα μηνύματα για συνδέσμους ηλεκτρονικού «ψαρέματος» και συνήθεις ενδείξεις απάτης μέσω email.
 scam-detection-label =
     .label = Προειδοποίηση κατά την ανάγνωση ενός email που μοιάζει με απάτη
@@ -1163,6 +1213,15 @@ managed-notice = Το { -brand-short-name } ρυθμίζεται από τον �
 
 ## Content of the preview conversation for chat message styles.
 
+chat-theme-preview-default =
+    .label = Προεπιλογή
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Γεια! :-)
+chat-theme-preview-message-2 = Πώς πάει;
+chat-theme-preview-message-3 = Δοκιμάζω το { -brand-short-name }! ;-)
 
 ## Settings UI Search Results
 
