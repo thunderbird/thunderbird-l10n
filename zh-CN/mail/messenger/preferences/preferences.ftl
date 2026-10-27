@@ -626,6 +626,13 @@ remove-cloud-account =
 find-cloud-providers =
     .value = 寻找更多提供商...
 cloud-account-description = 添加一个新的“文件链接”存储服务
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = 添加 { $providerName }
+    .tooltiptext = 添加 { $providerName }
+filelink-account-not-configured =
+    .title = 此账户尚未配置
 
 ## Privacy Tab
 
