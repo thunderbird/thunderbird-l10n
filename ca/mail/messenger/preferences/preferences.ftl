@@ -347,6 +347,15 @@ search-handler-table =
     .placeholder = Filtra tipus de contingut i accions
 type-column-header = Tipus de contingut
 action-column-header = Acció
+download-folder-desktop = Escriptori
+download-folder-system = Baixades
+download-choose-folder-title = Selecció de la carpeta
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = fitxer { $extension }
+applications-save-file = Desa el fitxer
+    .label = Desa el fitxer
+    .tooltiptext = Desa el fitxer
 # Variables:
 #   $appName (String) - The name of an application.
 applications-use-app = Utilitza { $appName }
@@ -579,6 +588,9 @@ filelink-add-provider =
     .tooltiptext = Afegeix { $providerName }
 filelink-account-not-configured =
     .title = Aquest compte encara no s'ha configurat
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Esteu segur que voleu eliminar el compte «{ $accountName }»?
 
 ## Privacy Tab
 
@@ -626,6 +638,8 @@ primary-password-button =
     .accesskey = C
 forms-primary-pw-fips-title = Us trobeu en mode FIPS. El FIPS requereix una contrasenya principal que no sigui buida.
 forms-master-pw-fips-desc = El canvi de contrasenya ha fallat
+confirm-reset-junk-training-title = Confirmació
+confirm-reset-junk-training-message = Esteu segur que voleu reiniciar les dades d'entrenament del filtre adaptatiu?
 phishing-description = El { -brand-short-name } pot analitzar els missatges sospitosos de ser fraudulents tenint en compte les tècniques més comunes d'engany.
 phishing-label =
     .label = Avisa'm si el missatge que estic llegint és sospitós de ser fraudulent
@@ -770,6 +784,15 @@ search-preferences-input2 =
 
 ## Content of the preview conversation for chat message styles.
 
+chat-theme-preview-default =
+    .label = Per defecte
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Hola! :-)
+chat-theme-preview-message-2 = Com anem?
+chat-theme-preview-message-3 = Estic provant el { -brand-short-name }! ;-)
 
 ## Settings UI Search Results
 
