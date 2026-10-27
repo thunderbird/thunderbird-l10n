@@ -487,6 +487,10 @@ search-handler-table =
     .placeholder = Құрама түрлері мен әрекеттер сүзгісі
 type-column-header = Құрамының түрі
 action-column-header = Әрекет
+applications-type-pdf = Portable Document Format (PDF)
+applications-preview-in-app = { -brand-short-name } ішінде алдын-ала қарау
+    .label = { -brand-short-name } ішінде алдын-ала қарау
+    .tooltiptext = { -brand-short-name } ішінде алдын-ала қарау
 save-to-label =
     .label = Файлдарды сақтау жері
     .accesskey = с
@@ -807,6 +811,13 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Көбірек провайдерлерді табу…
 cloud-account-description = Жаңа Filelink сақтау қызметін қосу
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = { $providerName } қосу
+    .tooltiptext = { $providerName } қосу
+filelink-account-not-configured =
+    .title = Бұл тіркелгі әлі бапталмаған
 
 ## Privacy Tab
 
