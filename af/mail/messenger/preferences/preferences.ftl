@@ -6,6 +6,9 @@ pane-compose-title = Opstelling
 category-compose =
     .tooltiptext = Opstelling
 
+## OS Authentication dialog
+
+
 ## General Tab
 
 general-legend = { -brand-short-name } se beginbladsy
@@ -116,6 +119,29 @@ bigger-size-item =
     .label = Groter
 smaller-size-item =
     .label = Kleiner
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Gebruik { $appName }
+    .label = Gebruik { $appName }
+    .tooltiptext = Gebruik { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Gebruik { $appName } (verstek)
+    .label = Gebruik { $appName } (verstek)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Gebruik ander…
+    .tooltiptext = Gebruik ander…
+applications-choose-app-title = Kies hulptoepassing
+applications-manage-app =
+    .label = Toepassingdetail…
+applications-always-ask = Vra altyd
+    .label = Vra altyd
+    .tooltiptext = Vra altyd
+applications-delete-action =
+    .label = Skrap aksie
+applications-delete-action-title = Skrap aksie
+applications-delete-action-confirm = Is u seker u wil hierdie aksie skrap?
 save-to-label =
     .label = Stoor lêers na
     .accesskey = S
@@ -151,6 +177,10 @@ mark-read-delay =
     .label = Na vertoon is vir
     .accesskey = v
 seconds-label = sekondes
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -258,7 +288,23 @@ certificate-ask =
     .label = Vra my elke keer
     .accesskey = A
 
-##
+## DoH Section
+
+
+## Keyservers
+
+
+## Chat Tab
+
+
+## Note: idle-label is displayed first, then there's a field where the user
+## can enter a number, and itemTime is displayed at the end of the line.
+## The translations of the idle-label and idle-time-label parts don't have
+## to mean the exact same thing as in English; please try instead to
+## translate the whole sentence.
+
+
+## Content of the preview conversation for chat message styles.
 
 chat-play-button =
     .label = Speel
@@ -269,3 +315,18 @@ chat-custom-sound-label =
 chat-browse-sound-button =
     .label = Blaai…
     .accesskey = B
+
+## Content of the preview conversation for chat message styles.
+
+
+## Settings UI Search Results
+
+
+## Sync Tab
+
+
+## Mobile QR Export Pane
+
+
+## Appearance Tab
+
