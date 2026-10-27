@@ -575,3 +575,21 @@ folder-pane-context-compact =
 folder-pane-context-compact-all =
     .label = Komprimer alle mapper
     .accesskey = m
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = Slett mappe
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = &Slett mappe
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = Er du sikker på at du vil slette mappen «{ $name }»?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = Sletting av denne mappen kan ikke angres, og vil slette alle meldinger og undermapper i den. Er du sikker på at du vil slette mappen «{ $name }»?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Sletting av mappen «{ $name }» vil slå av filtrene som er tilknyttet. Er du sikker på at du vil slette mappen?
