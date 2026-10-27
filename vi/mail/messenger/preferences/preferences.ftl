@@ -246,6 +246,16 @@ enable-gloda-search-label =
     .label = Cho phép tìm kiếm và lập chỉ mục đầy đủ
     .accesskey = G
 datetime-formatting-legend = Định dạng ngày và giờ
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Ngôn ngữ ứng dụng: { $localeName }
+    .accesskey = o
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Ngôn ngữ cài đặt khu vực: { $localeName }
+    .accesskey = e
 display-language-legend = Ngôn ngữ hiển thị
 allow-graphics-accel =
     .label = Sử dụng tăng tốc đồ họa để cuộn mượt mà hơn và cải thiện hiệu năng
@@ -379,6 +389,13 @@ offline-settings-button =
     .label = Ngoại tuyến…
     .accesskey = O
 temporary-storage-legend = Lưu trữ tạm thời
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Bộ đệm của bạn đang chiếm { $size } { $unit } dung lượng đĩa
+actual-disk-cache-size-calculating =
+    .value = Đang tính toán kích thước bộ nhớ đệm…
 offline-compact-remove-deleted =
     .label = Xoá dữ liệu khỏi các thư mục khi chúng đã bị xoá để giải phóng dung lượng lưu trữ
     .accesskey = a
@@ -499,6 +516,10 @@ applications-delete-action-confirm = Bạn có chắc là mình muốn xóa thao
 #                                "Portable Document Format (PDF)".
 #   $type (String) - The MIME type of the content, for example "application/pdf".
 applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Định dạng tài liệu di động (PDF)
+applications-preview-in-app = Xem trước trong { -brand-short-name }
+    .label = Xem trước trong { -brand-short-name }
+    .tooltiptext = Xem trước trong { -brand-short-name }
 save-to-label =
     .label = Lưu các tập tin vào
     .accesskey = S
