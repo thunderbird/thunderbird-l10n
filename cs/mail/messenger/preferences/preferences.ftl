@@ -605,6 +605,9 @@ applications-delete-action-confirm = Opravdu chcete smazat tuto akci?
 #                                "Portable Document Format (PDF)".
 #   $type (String) - The MIME type of the content, for example "application/pdf".
 applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-preview-in-app = Zobrazit náhled v aplikaci { -brand-short-name }
+    .label = Zobrazit náhled v aplikaci { -brand-short-name }
+    .tooltiptext = Zobrazit náhled v aplikaci { -brand-short-name }
 save-to-label =
     .label = Ukládat všechny soubory do složky
     .accesskey = U
