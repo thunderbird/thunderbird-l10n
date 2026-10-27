@@ -207,6 +207,16 @@ enable-gloda-search-label =
     .label = Ota käyttöön viestien yleishaku ja indeksointi
     .accesskey = O
 datetime-formatting-legend = Päiväyksen ja ajan muoto
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Sovelluksen kieli: { $localeName }
+    .accesskey = k
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Paikallisten asetusten kieli: { $localeName }
+    .accesskey = s
 language-selector-legend = Kieli
 allow-hw-accel =
     .label = Käytä laitteistokiihdytystä jos mahdollista
@@ -303,6 +313,13 @@ offline-settings = Määritä verkkoyhteydettömän tilan asetukset
 offline-settings-button =
     .label = Yhteydetön tila…
     .accesskey = h
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Välimuisti käyttää parhaillaan { $size } { $unit } levytilaa
+actual-disk-cache-size-calculating =
+    .value = Lasketaan välimuistin kokoa…
 diskspace-legend = Levytilan käyttö
 offline-compact-folder =
     .label = Tiivistä kansiot kun se säästää yhteensä yli
@@ -654,6 +671,13 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Etsi lisää palveluntarjoajia…
 cloud-account-description = Lisää uusi tiedostoja linkittävä tallennuspalvelu
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Lisää { $providerName }
+    .tooltiptext = Lisää { $providerName }
+filelink-account-not-configured =
+    .title = Tämän tilin asetuksia ei ole vielä tehty
 
 ## Privacy Tab
 
