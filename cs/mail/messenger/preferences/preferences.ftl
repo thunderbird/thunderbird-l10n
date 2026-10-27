@@ -296,6 +296,7 @@ use-custom-sound-label =
 mail-select-audio-button =
     .label = Vybrat zvukový soubor…
     .accesskey = V
+sound-file-picker-title = Vyberte zvuk
 enable-global-search-label =
     .label = Povolit vyhledávání ve všech e-mailových účtech
     .accesskey = v
@@ -561,6 +562,34 @@ search-handler-table =
     .placeholder = Filtrovat typy obsahu a akcí
 type-column-header = Typ obsahu
 action-column-header = Akce
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Použít { $appName }
+    .label = Použít { $appName }
+    .tooltiptext = Použít { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Použít { $appName } (výchozí)
+    .label = Použít { $appName } (výchozí)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Použít jinou…
+    .tooltiptext = Použít jinou…
+applications-choose-app-title = Zvolit pomocnou aplikaci
+applications-manage-app =
+    .label = Podrobnosti o aplikaci…
+applications-always-ask = Vždy se zeptat
+    .label = Vždy se zeptat
+    .tooltiptext = Vždy se zeptat
+applications-delete-action =
+    .label = Smazat akci
+applications-delete-action-title = Smazání akce
+applications-delete-action-confirm = Opravdu chcete smazat tuto akci?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
 save-to-label =
     .label = Ukládat všechny soubory do složky
     .accesskey = U
@@ -612,6 +641,10 @@ mark-read-delay =
     .label = Až po
     .accesskey = p
 seconds-label = sekundách od zobrazení
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 mark-read-after-viewing =
     .label = Po zobrazení po dobu
     .accesskey = z
@@ -1171,7 +1204,7 @@ idle-label =
     .accesskey = N
 idle-time-label = minutách nečinnosti
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = a nastavit stav Pryč s touto zprávou:
@@ -1251,6 +1284,9 @@ managed-notice =
         [with-cases] { -brand-short-name } je spravován vaší organizací.
        *[no-cases] Aplikace { -brand-short-name } je spravována vaší organizací.
     }
+
+## Content of the preview conversation for chat message styles.
+
 
 ## Settings UI Search Results
 
