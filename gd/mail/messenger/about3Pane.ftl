@@ -399,3 +399,21 @@ apply-current-view-to-folder-message = A bheil thu airson sealladh a’ phasgain
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = A bheil thu airson sealladh a’ phasgain làithrich a chur an sàs airson { $name } agus a’ chlann aige?
+
+## Folder pane context menu
+
+
+## Confirmation prompts shown before deleting a folder.
+
+folder-delete-title = Sguab às am pasgan
+# Button label for the folder deletion prompt. The ampersand marks the access
+# key, as required by the prompt service.
+folder-delete-button = &Sguab às am pasgan
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = A bheil thu cinnteach gu bheil thu airson am pasgan '{ $name }' a sguabadh às?
+# Shown instead of folder-delete-confirm when the folder cannot be moved to a
+# trash folder, and so will be destroyed straight away.
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-no-trash-confirm = Cha ghabh am pasgan seo aiseag ma sguabas tu às e 's thèid gach teachdaireachd is fo-phasgan a tha ann a sguabadh às. A bheil thu cinnteach fhathast gu bheil thu airson am pasgan '{ $name }' a sguabadh às?
