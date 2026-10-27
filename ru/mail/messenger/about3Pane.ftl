@@ -594,3 +594,9 @@ folder-pane-context-compact =
 folder-pane-context-compact-all =
     .label = Сжать все папки
     .accesskey = А
+
+## Confirmation prompts shown before deleting a folder.
+
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = Вы действительно хотите удалить папку «{ $name }»?
