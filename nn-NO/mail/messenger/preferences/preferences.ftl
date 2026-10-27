@@ -390,6 +390,15 @@ search-handler-table =
     .placeholder = Filtrer innhaldstypar og handlingar
 type-column-header = Innhaldstype
 action-column-header = Handling
+download-folder-desktop = Skrivebord
+download-folder-system = Mine nedlastingar
+download-choose-folder-title = Vel mappe
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension }-fil
+applications-save-file = Lagre fil
+    .label = Lagre fil
+    .tooltiptext = Lagre fil
 # Variables:
 #   $appName (String) - The name of an application.
 applications-use-app = Bruk { $appName }
@@ -671,6 +680,9 @@ filelink-add-provider =
     .tooltiptext = Legg til { $providerName }
 filelink-account-not-configured =
     .title = Denne kontoen har enno ikkje blitt konfigurert
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Er du sikker på at du vil slette kontoen «{ $accountName }»?
 
 ## Privacy Tab
 
@@ -752,6 +764,8 @@ spam-log-button =
 reset-spam-button =
     .label = Still tilbake treningsdata
     .accesskey = S
+confirm-reset-junk-training-title = Stadfest
+confirm-reset-junk-training-message = Er du sikker på at du vil stille tilbake opplæringsreglane for uønskt e-post-filteret?
 phishing-description = { -brand-short-name } kan analysere meldingar og oppdage mogleg e-postsvindel ved å sjå etter vanlege teknikkar brukt for å lure deg.
 phishing-label =
     .label = Fortel meg om meldinga eg les er mistenkt e-postsvindel
@@ -967,6 +981,15 @@ managed-notice = { -brand-short-name } blir administrert av organisasjonen din.
 
 ## Content of the preview conversation for chat message styles.
 
+chat-theme-preview-default =
+    .label = Standard
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Hei! :-)
+chat-theme-preview-message-2 = Kva skjer?
+chat-theme-preview-message-3 = Eg prøver { -brand-short-name }! ;-)
 
 ## Settings UI Search Results
 
