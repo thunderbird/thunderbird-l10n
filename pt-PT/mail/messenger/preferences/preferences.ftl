@@ -516,6 +516,10 @@ applications-delete-action-confirm = Tem a certeza que pretende eliminar esta qu
 #                                "Portable Document Format (PDF)".
 #   $type (String) - The MIME type of the content, for example "application/pdf".
 applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Portable Document Format (PDF)
+applications-preview-in-app = Pré-visualizar no { -brand-short-name }
+    .label = Pré-visualizar no { -brand-short-name }
+    .tooltiptext = Pré-visualizar no { -brand-short-name }
 save-to-label =
     .label = Guardar ficheiros em
     .accesskey = s
