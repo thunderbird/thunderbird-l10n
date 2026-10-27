@@ -4,3 +4,6 @@
 
 shortcuts-close-button-title =
     .title = Lukk
+shortcuts-close-button =
+    .title = Lukk
+    .aria-label = Lukk
