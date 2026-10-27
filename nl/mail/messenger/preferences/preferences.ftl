@@ -528,6 +528,10 @@ applications-delete-action-confirm = Weet u zeker dat u deze actie wilt verwijde
 #                                "Portable Document Format (PDF)".
 #   $type (String) - The MIME type of the content, for example "application/pdf".
 applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Portable Document Format (PDF)
+applications-preview-in-app = Voorbeeld in { -brand-short-name }
+    .label = Voorbeeld in { -brand-short-name }
+    .tooltiptext = Voorbeeld in { -brand-short-name }
 save-to-label =
     .label = Bestanden opslaan in
     .accesskey = o
