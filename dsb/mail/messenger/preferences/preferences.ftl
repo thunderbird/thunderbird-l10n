@@ -245,6 +245,16 @@ enable-gloda-search-label =
     .label = Globalne pytanje a indicěrowanje zmóžniś
     .accesskey = G
 datetime-formatting-legend = Formatěrowanje datuma a casa
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Narodna šema nałoženja: { $localeName }
+    .accesskey = o
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Narodna šema regionalnych nastajenjow: { $localeName }
+    .accesskey = r
 display-language-legend = Pokazowańska rěc
 allow-graphics-accel =
     .label = Grafikowe póspěšenje za pózlažčejše kulanje a lěpše wugbaśe wužywaś
@@ -521,6 +531,10 @@ mark-read-delay =
     .label = Pó zwobraznjenju za
     .accesskey = z
 seconds-label = sekundow
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 mark-read-after-viewing =
     .label = Pó pokazowanju za
     .accesskey = k
@@ -1074,7 +1088,7 @@ idle-label =
     .accesskey = i
 idle-time-label = minutow pšec
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = a stajśo mój status na Pšec z toś teju statusoweju powěsću:
@@ -1150,6 +1164,9 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = { -brand-short-name } se pśez organizaciju zastoj.
 managed-notice = { -brand-short-name } se wót wašeje organizacije zastoj.
+
+## Content of the preview conversation for chat message styles.
+
 
 ## Settings UI Search Results
 
