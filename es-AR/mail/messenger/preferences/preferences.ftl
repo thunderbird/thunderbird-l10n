@@ -526,6 +526,9 @@ applications-delete-action-confirm = ¿Está seguro de querer borrar esta acció
 #   $type (String) - The MIME type of the content, for example "application/pdf".
 applications-type-details-with-ext = ({ $type-description }: { $type })
 applications-type-pdf = Formato de documento portable (PDF)
+applications-preview-in-app = Vista previa en { -brand-short-name }
+    .label = Vista previa en { -brand-short-name }
+    .tooltiptext = Vista previa en { -brand-short-name }
 save-to-label =
     .label = Guardar archivos en
     .accesskey = G
@@ -846,6 +849,13 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Buscar más proveedores…
 cloud-account-description = Agregar un nuevo servicio de almacenamiento Filelink
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Agregar { $providerName }
+    .tooltiptext = Agregar { $providerName }
+filelink-account-not-configured =
+    .title = Esta cuenta todavía no se configuró
 
 ## Privacy Tab
 
