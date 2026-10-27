@@ -245,6 +245,16 @@ enable-gloda-search-label =
     .label = 開啟全域搜尋與索引器
     .accesskey = E
 datetime-formatting-legend = 日期與時間格式
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = 應用程式語系：{ $localeName }
+    .accesskey = p
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = 區域設定語系：{ $localeName }
+    .accesskey = g
 display-language-legend = 顯示語言
 allow-graphics-accel =
     .label = 使用圖形加速功能，讓捲動更順暢並提升效能
@@ -378,6 +388,13 @@ offline-settings-button =
     .label = 離線模式…
     .accesskey = O
 temporary-storage-legend = 暫存空間
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = 您的快取使用了 { $size } { $unit } 的磁碟空間
+actual-disk-cache-size-calculating =
+    .value = 正在計算快取大小…
 offline-compact-remove-deleted =
     .label = 當資料被刪除後，立即從信件匣刪除以釋放儲存空間
     .accesskey = a
@@ -493,6 +510,10 @@ applications-delete-action =
     .label = 刪除動作
 applications-delete-action-title = 刪除動作
 applications-delete-action-confirm = 您確定要刪除此動作？
+applications-type-pdf = 可攜式文件格式（PDF）
+applications-preview-in-app = 在 { -brand-short-name } 中預覽
+    .label = 在 { -brand-short-name } 中預覽
+    .tooltiptext = 在 { -brand-short-name } 中預覽
 save-to-label =
     .label = 儲存檔案到
     .accesskey = S
@@ -813,6 +834,13 @@ remove-cloud-account =
 find-cloud-providers =
     .value = 尋找更多供應商…
 cloud-account-description = 新增雲端檔案鏈結儲存服務
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = 新增 { $providerName }
+    .tooltiptext = 新增 { $providerName }
+filelink-account-not-configured =
+    .title = 尚未設定此帳號
 
 ## Privacy Tab
 
