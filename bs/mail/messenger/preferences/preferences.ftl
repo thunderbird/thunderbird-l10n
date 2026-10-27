@@ -69,6 +69,16 @@ enable-gloda-search-label =
     .label = Omogući globalno pretraživanje i indeksiranje
     .accesskey = e
 datetime-formatting-legend = Oblikovanje datuma i vremena
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Jezik aplikacije: { $localeName }
+    .accesskey = p
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Regionalne postavke jezika: { $localeName }
+    .accesskey = g
 allow-hw-accel =
     .label = Koristi hardversko ubrzanje kada je dostupno
     .accesskey = h
