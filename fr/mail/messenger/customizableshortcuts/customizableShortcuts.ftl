@@ -4,3 +4,6 @@
 
 shortcuts-close-button-title =
     .title = Fermer
+shortcuts-close-button =
+    .title = Fermer
+    .aria-label = Fermer
