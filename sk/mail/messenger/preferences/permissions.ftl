@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 permissions-dialog-title = Výnimky
+remote-content-permissions-title = Výnimky - vzdialený obsah
+remote-content-permissions-description = Na tomto mieste môžete určiť, z ktorých serverov sa môžu načítavať obrázky a iný vzdialený obsah. Môžete tiež povoliť načítavanie všetkého vzdialeného obsahu na základe e‑mailovej adresy odosielateľa. Zadajte adresu servera alebo e‑mailovú adresu a následne zvoľte tlačidlo Povoliť či Zakázať.
+cookie-permissions-title = Výnimky – Cookies
+cookie-permissions-description = Na tomto mieste môžete určiť, ktoré servery môžu alebo nemôžu využívať cookie. Zadajte presnú adresu servera, potom kliknite na tlačidlo Zakázať, Povoliť pre reláciu alebo Povoliť.
 website-address-label =
     .value = Adresa webovej stránky:
     .accesskey = d
