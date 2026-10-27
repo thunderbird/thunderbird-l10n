@@ -166,6 +166,7 @@ tray-icon-unread-description = Recomendado al usar botones pequeños en la barra
 mail-system-sound-label =
     .label = Sonido predeterminado del sistema para nuevo correo
     .accesskey = D
+sound-file-picker-title = Elegir sonido
 mail-custom-sound-label =
     .label = Usar el siguiente archivo de sonido
     .accesskey = U
@@ -176,6 +177,16 @@ enable-gloda-search-label =
     .label = Habilitar indexado y búsqueda global
     .accesskey = G
 datetime-formatting-legend = Formato de fecha y hora
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Localización de la aplicación: { $localeName }
+    .accesskey = o
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Localización de la configuración regional: { $localeName }
+    .accesskey = e
 language-selector-legend = Idioma
 allow-hw-accel =
     .label = Usar aceleración por hardware cuando esté disponible
@@ -258,6 +269,13 @@ offline-settings = Configurar ajustes sin conexión
 offline-settings-button =
     .label = Sin conexión…
     .accesskey = O
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Tu caché está usando actualmente { $size } { $unit } de espacio en disco
+actual-disk-cache-size-calculating =
+    .value = Calculando el tamaño del caché…
 diskspace-legend = Espacio en disco
 offline-compact-folder =
     .label = Compactar carpetas cuando se recuperen más de
@@ -330,6 +348,43 @@ search-handler-table =
     .placeholder = Filtrar tipos de contenido y acciones
 type-column-header = Tipo de contenido
 action-column-header = Acción
+download-folder-desktop = Escritorio
+download-folder-system = Mis descargas
+download-choose-folder-title = Seleccionar carpeta
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension } archivo
+applications-save-file = Guardar archivo
+    .label = Guardar archivo
+    .tooltiptext = Guardar archivo
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Usar { $appName }
+    .label = Usar { $appName }
+    .tooltiptext = Usar { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Usar { $appName } (predeterminado)
+    .label = Usar { $appName } (predeterminado)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Usar otro…
+    .tooltiptext = Usar otro…
+applications-choose-app-title = Seleccionar el programa de ayuda
+applications-manage-app =
+    .label = Detalles de la aplicación…
+applications-always-ask = Preguntar siempre
+    .label = Preguntar siempre
+    .tooltiptext = Preguntar siempre
+applications-delete-action =
+    .label = Borrar Acción
+applications-delete-action-title = Borrar Acción
+applications-delete-action-confirm = ¿Estás seguro que quieres borrar esta acción?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
 applications-type-pdf = Portable Document Format (PDF)
 applications-preview-in-app = Vista previa en { -brand-short-name }
     .label = Vista previa en { -brand-short-name }
@@ -522,6 +577,16 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Encontrar más proveedores…
 cloud-account-description = Agregar un nuevo servicio de almacenamiento Filelink
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Agregar { $providerName }
+    .tooltiptext = Agregar { $providerName }
+filelink-account-not-configured =
+    .title = Esta cuenta no está configurada aún
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = ¿Estás seguro que deseas eliminar la cuenta "{ $accountName }"?
 
 ## Privacy Tab
 
@@ -566,6 +631,8 @@ primary-password-button =
     .accesskey = C
 forms-primary-pw-fips-title = En este momento se utiliza el modo FIPS. FIPS requiere una contraseña principal no vacía.
 forms-master-pw-fips-desc = El cambio de la contraseña ha fallado
+confirm-reset-junk-training-title = Confirmar
+confirm-reset-junk-training-message = ¿Estás seguro que quieres restablecer los datos de entrenamiento del filtro adaptativo?
 phishing-description = { -brand-short-name } puede analizar mensajes buscando correos sospechosos de fraude buscando las técnicas más conocidas con que puedan engañarlo.
 phishing-label =
     .label = Decirme si el mensaje que estoy leyendo es sospechosos de fraude de correo
@@ -710,6 +777,15 @@ search-preferences-input2 =
 
 ## Content of the preview conversation for chat message styles.
 
+chat-theme-preview-default =
+    .label = Predeterminado
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = ¡Hola! :-)
+chat-theme-preview-message-2 = ¿Qué onda?
+chat-theme-preview-message-3 = ¡Estoy probando { -brand-short-name }! ;-)
 
 ## Settings UI Search Results
 
