@@ -173,6 +173,7 @@ tray-icon-unread-description = Gomendagarria zeregin-barra botoi txikiak erabilt
 mail-system-sound-label =
     .label = Lehenetsitako sistema-soinua posta berriarentzat
     .accesskey = s
+sound-file-picker-title = Aukeratu soinua
 mail-custom-sound-label =
     .label = Erabili hurrengo soinu-fitxategia
     .accesskey = u
@@ -344,6 +345,34 @@ search-handler-table =
     .placeholder = Iragazi eduki mota eta ekintzak
 type-column-header = Eduki mota
 action-column-header = Ekintza
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Erabili { $appName }
+    .label = Erabili { $appName }
+    .tooltiptext = Erabili { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = { $appName } erabili (lehenetsia)
+    .label = { $appName } erabili (lehenetsia)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Erabili beste bat…
+    .tooltiptext = Erabili beste bat…
+applications-choose-app-title = Hautatu aplikazio laguntzailea
+applications-manage-app =
+    .label = Aplikazio xehetasunak…
+applications-always-ask = Beti eskatu
+    .label = Beti eskatu
+    .tooltiptext = Beti eskatu
+applications-delete-action =
+    .label = Ezabatu ekintza
+applications-delete-action-title = Ezabatu ekintza
+applications-delete-action-confirm = Ziur zaude ekintza hau ezabatu nahi duzula?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
 save-to-label =
     .label = Gorde fitxategiak hemen:
     .accesskey = G
@@ -388,6 +417,10 @@ mark-read-delay =
     .label = Denbora batez bistaratu eta gero:
     .accesskey = e
 seconds-label = segundoz
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -677,6 +710,9 @@ preferences-doh-url-custom =
     .label = Pertsonalizatua
     .accesskey = P
 
+## Keyservers
+
+
 ## Chat Tab
 
 startup-label =
@@ -698,7 +734,7 @@ idle-label =
     .accesskey = i
 idle-time-label = minutu ondoren
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = eta ezarri nire egoera Kanpoan egoera-mezu honekin:
@@ -773,6 +809,9 @@ search-preferences-input2 =
     .placeholder = Bilatu ezarpenetan
     .style = width: 15.4em
 managed-notice = { -brand-short-name } zure erakundeak kudeatzen du.
+
+## Content of the preview conversation for chat message styles.
+
 
 ## Settings UI Search Results
 

@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 permissions-dialog-title = Salbuespenak
+remote-content-permissions-title = Salbuespenak - Urruneko edukia
+remote-content-permissions-description = Irudiak eta bestelako urruneko edukia zein webgunek karga dezakete zehatz dezakezu. Urruneko eduki guztia bidaltzailearen helbide elektronikoan oinarrituta ere onar dezakezu. Idatzi kudeatu nahi duzun gunearen helbidea edo helbide elektronikoa eta egin klik 'Blokeatu' edo 'Baimendu' botoian.
+cookie-permissions-title = Salbuespenak - Cookieak
+cookie-permissions-description = Cookieak erabiltzeko baimena duten webguneak hemen ezar daitezke.  Idatzi baimendu behar duzun webgunearen helbide zehatza eta egizu klik Blokeatu, Baimendu saio honetarako edo Baimendu botoian.
 website-address-label =
     .value = Webgunearen helbidea:
     .accesskey = h
