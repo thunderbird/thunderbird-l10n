@@ -189,6 +189,16 @@ enable-gloda-search-label =
     .label = Omogući globalno pretraživanje i indeksiranje
     .accesskey = e
 datetime-formatting-legend = Oblikovanje datuma i vremena
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Jezik aplikacije: { $localeName }
+    .accesskey = p
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Regionalne postavke jezika: { $localeName }
+    .accesskey = g
 language-selector-legend = Jezik
 allow-hw-accel =
     .label = Koristi hardversku akceleraciju kad je moguće
@@ -274,6 +284,13 @@ offline-settings = Podesi izvanmrežne postavke
 offline-settings-button =
     .label = Izvanmrežno…
     .accesskey = I
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Vaša priručna memorija trenutno zauzima { $size } { $unit } diskovnog prostora
+actual-disk-cache-size-calculating =
+    .value = Računanje veličine priručne memorije…
 diskspace-legend = Diskovni prostor
 offline-compact-folder =
     .label = Sažmi sve mape kada će uštedjeti više od
@@ -394,6 +411,10 @@ mark-read-delay =
     .label = Nakon prikazivanja u trajanju od
     .accesskey = d
 seconds-label = sekundi
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -799,7 +820,7 @@ idle-label =
     .accesskey = i
 idle-time-label = minuta neaktivnosti
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = i postavi moj status na Odsutan s ovom porukom:
@@ -874,6 +895,9 @@ search-preferences-input2 =
     .placeholder = Pronađi u postavkama
     .style = width: 15.4em
 managed-notice = Programom { -brand-short-name } upravlja tvoja organizacija.
+
+## Content of the preview conversation for chat message styles.
+
 
 ## Settings UI Search Results
 
