@@ -306,3 +306,6 @@ folder-delete-confirm = Vai tiešām vēlaties dzēst mapi '{ $name }'?
 # Variables:
 #   $name (String) - Name of the folder being deleted.
 folder-delete-no-trash-confirm = Mapes dzēšanu nevarēs atsaukt un tiks izdzēstas visas tās vēstules un apakšmapes. Vai tiešām vēlaties dzēst mapi '{ $name }'?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Mapes '{ $name }' dzēšana atslēgs ar to saistīto(-s) filtru(-s). Vai tiešām vēlaties dzēst mapi?
