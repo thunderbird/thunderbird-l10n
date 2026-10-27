@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 permissions-dialog-title = 例外
+remote-content-permissions-title = 例外 - 遠端內容
+remote-content-permissions-description = 您可以指定要載入來自哪些網站的遠端內容，也可以允許某位寄件者寄來的郵件當中的遠端內容。請輸入您想要管理的網站網址或寄件者信箱，然後點擊「封鎖」或「允許」。
+cookie-permissions-title = 例外網站 - Cookie
+cookie-permissions-description = 您可以指定網站能否使用 Cookie。請輸入完整網址後按「封鎖」、「允許此次連線 (Session)」或「允許」。
 website-address-label =
     .value = 網站網址:
     .accesskey = d
