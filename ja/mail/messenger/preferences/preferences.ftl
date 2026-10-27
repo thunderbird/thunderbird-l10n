@@ -245,9 +245,6 @@ mail-browse-sound-button =
 enable-gloda-search-label =
     .label = グローバル検索と索引データベースを有効にする
     .accesskey = G
-gloda-show-results-as-list-label =
-    .label = 既定でグローバル検索の結果をリスト表示する
-    .accesskey = L
 datetime-formatting-legend = 日付と時刻の書式
 display-language-legend = 表示言語
 allow-graphics-accel =
@@ -474,6 +471,9 @@ search-handler-table =
     .placeholder = ファイルの種類と動作設定の絞り込み
 type-column-header = ファイルの種類
 action-column-header = 動作設定
+download-folder-desktop = デスクトップ
+download-folder-system = ダウンロード
+download-choose-folder-title = 添付ファイルの保存先を選択:
 save-to-label =
     .label = 次のフォルダーに保存する:
     .accesskey = S
@@ -764,11 +764,6 @@ edit-directories-label =
 email-picker-label =
     .label = メール送信時に受信者を次のアドレス帳に自動で追加する:
     .accesskey = A
-email-picker-description = 送信したメールからの新しい連絡先の保存場所
-default-add-address-book-label =
-    .value = 手動で追加した連絡先の既定のアドレス帳:
-    .accesskey = D
-default-add-address-book-description = 受信したメールからの新しい連絡先の保存場所
 default-directory-label =
     .value = アドレス帳の初期表示ディレクトリー:
     .accesskey = S
@@ -810,7 +805,6 @@ exceptions-button =
     .label = 例外...
     .accesskey = E
 remote-content-privacy-link = リモートコンテンツがプライバシーに及ぼす影響について
-remote-content-privacy-info = リモートコンテンツのプライバシーに係わる問題について
 remote-content-info =
     .value = リモートコンテンツのプライバシーに係わる問題について
 web-content = ウェブコンテンツ
@@ -897,7 +891,6 @@ spam-detected-auto-label =
 spam-log-keep-label =
     .label = 迷惑メール自動検出の記録を保存する
     .accesskey = E
-
 spam-read-manual-label =
     .label = 手動で迷惑マークを付けたとき
     .accesskey = M
@@ -1092,7 +1085,7 @@ idle-label =
     .accesskey = I
 idle-time-label = 分間続いたらそれを相手に知らせる
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = さらに次のステータスメッセージを送信して離席状態にする:
@@ -1168,6 +1161,9 @@ search-preferences-input2 =
     .placeholder = 設定内を検索します
 managed-by-organization-notice = { -brand-short-name } は所属組織により管理されています。
 managed-notice = { -brand-short-name } はあなたの所属組織により管理されています。
+
+## Content of the preview conversation for chat message styles.
+
 
 ## Settings UI Search Results
 
