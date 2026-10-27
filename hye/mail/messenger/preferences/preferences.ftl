@@ -158,6 +158,7 @@ tray-icon-unread-description = Առաջարկուում է փոքր գործիք
 mail-system-sound-label =
     .label = Սկզբնադիր համակարգի ձայն եղ․ փոստի փոստի համար
     .accesskey = Ս
+sound-file-picker-title = Ընտրել ձայն
 mail-custom-sound-label =
     .label = Աւգատգործել հետեւեալ ձայնային նիշը
     .accesskey = Ա
@@ -168,6 +169,16 @@ enable-gloda-search-label =
     .label = Միացնել ընդհանուր որորնումը եւ ցուցաւորիչը
     .accesskey = ը
 datetime-formatting-legend = Ամսաթուի եւ ժամանակի ձեւաչափ
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Յաւելուածի տեղայնութիւն՝ { $localeName }
+    .accesskey = ե
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Տարածաշրջանային կարգաւորումների տեղայնութիւն․ { $localeName }
+    .accesskey = ա
 language-selector-legend = Լեզու
 allow-hw-accel =
     .label = Առկայութեան դէպքում աւգտագործէք սարքաշարի արագացումը
@@ -242,6 +253,13 @@ offline-settings = Կազմաձեւել անցանցի կարգաւորումն�
 offline-settings-button =
     .label = Անցանց…
     .accesskey = Ա
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Ձեր պահեստը ներկայումս աւգտագործում է { $size } { $unit } սկաւառակի տարածութիւն
+actual-disk-cache-size-calculating =
+    .value = Պահեստի չափի հաշուարկ…
 diskspace-legend = Սկաւառակի տարածութիւն
 offline-compact-folder =
     .label = Սեղմել բոլոր թղթապանակները, եթե դա կը խնայի՝
@@ -311,6 +329,43 @@ search-handler-table =
     .placeholder = Զտել բովանդակութեան տեսակներն ու գործողութիւնները
 type-column-header = Բովանդակութեան տեսակը
 action-column-header = Գործողութիւն
+download-folder-desktop = Աշխատասեղան
+download-folder-system = Իմ ներբեռնումները
+download-choose-folder-title = Ընտրել պանակը
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension } նիշ
+applications-save-file = Պահպանել նիշը
+    .label = Պահպանել նիշը
+    .tooltiptext = Պահպանել նիշը
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Աւգտագործել { $appName }
+    .label = Աւգտագործել { $appName }
+    .tooltiptext = Աւգտագործել { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Աւգտագործել { $appName } (սկզբնադիր)
+    .label = Աւգտագործել { $appName } (սկզբնադիր)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Աւգտագործել այղը…
+    .tooltiptext = Աւգտագործել այղը…
+applications-choose-app-title = Ընտրել աւգնական յաւելուած
+applications-manage-app =
+    .label = Ծրագրի մանրամասները…
+applications-always-ask = Միշտ հարցնել
+    .label = Միշտ հարցնել
+    .tooltiptext = Միշտ հարցնել
+applications-delete-action =
+    .label = Ջնջել գործողութիւնը
+applications-delete-action-title = Ջնջել գործողութիւնը
+applications-delete-action-confirm = Դուք համոզուա՞ծ էք, որ ուզում էք ջնջել այս գործողութիւնը։
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }.{ $type })
 applications-type-pdf = Portable Document Format (PDF)
 applications-preview-in-app = Նախադիտումը { -brand-short-name }-ում
     .label = Նախադիտումը { -brand-short-name }-ում
@@ -494,6 +549,16 @@ remove-cloud-account =
 find-cloud-providers =
     .value = Գտնել աւելի շատ մատակարարներ…
 cloud-account-description = Աւելացնել նոր նիշի յղման կրիչ սարք
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Աւելացնել { $providerName }
+    .tooltiptext = Աւելացնել { $providerName }
+filelink-account-not-configured =
+    .title = Այս հաշիւը դեռ կազմաձեւուած չէ
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Դուք համոզուա՞ծ էք, որ ուզում էք հեռացնել «{ $accountName }» հաշիւը։
 
 ## Privacy Tab
 
@@ -538,6 +603,8 @@ primary-password-button =
     .accesskey = Փ
 forms-primary-pw-fips-title = Դուք գտնուում էք FIPS աշխատակերպի մէջ։ FIPS֊ը պահանջում է ոչ֊դատարկ հիմնական գաղտնաբառ։
 forms-master-pw-fips-desc = Գաղտնաբառի փոփոխումը ձախողուեց
+confirm-reset-junk-training-title = Հաստատել
+confirm-reset-junk-training-message = Դուք համոզուա՞ծ էք, որ ուզում էք վերակայել յարմարուողական զտիչի ուսուցման տուեալները:
 phishing-description = { -brand-short-name }-ը կարող է վերլուծել հաղորդագրութիւնները՝ յայտնաբերելու կասկածելի նամակներ, որոնք ուղարկուել են խաբեբաների կողմից՝ ստուգելով դրանք որոշակի հնարքների եւ մեթոդների համար, որոնք աւգտագործուում են Ձեզ մոլորեցնելու համար:
 phishing-label =
     .label = Տեղեկացնել ինձ, եթե իմ կարդացած նամակը հանդիսանում է եղ․փոստի խաբկանք
@@ -667,6 +734,15 @@ search-preferences-input2 =
 
 ## Content of the preview conversation for chat message styles.
 
+chat-theme-preview-default =
+    .label = Սկզբնադիր
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Ողջո՜յն :-)
+chat-theme-preview-message-2 = Ի՞նչ կայ
+chat-theme-preview-message-3 = Ես փորձում եմ { -brand-short-name }! ;-)
 
 ## Settings UI Search Results
 
