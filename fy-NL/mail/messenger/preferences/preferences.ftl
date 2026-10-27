@@ -229,6 +229,7 @@ use-custom-sound-label =
 mail-select-audio-button =
     .label = Audio selektearje…
     .accesskey = A
+sound-file-picker-title = Lûd kieze
 enable-global-search-label =
     .label = Sykje yn alle e-mailaccounts ynskeakelje
     .accesskey = e
@@ -470,6 +471,34 @@ search-handler-table =
     .placeholder = Ynhâldtypen en aksjes filterje
 type-column-header = Ynhâldstype
 action-column-header = Aksje
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Brûk { $appName }
+    .label = Brûk { $appName }
+    .tooltiptext = Brûk { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Brûk { $appName } (standert)
+    .label = Brûk { $appName } (standert)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Brûk oare…
+    .tooltiptext = Brûk oare…
+applications-choose-app-title = Helptapassing selektearje
+applications-manage-app =
+    .label = Applikaasjedetails…
+applications-always-ask = Altyd freegje
+    .label = Altyd freegje
+    .tooltiptext = Altyd freegje
+applications-delete-action =
+    .label = Aksje fuortsmite
+applications-delete-action-title = Aksje fuortsmite
+applications-delete-action-confirm = Binne jo wis dat jo dizze aksje fuortsmite wolle?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
 save-to-label =
     .label = Bewarje bestannen yn
     .accesskey = w
@@ -521,6 +550,10 @@ mark-read-delay =
     .label = Nei it toanen foar
     .accesskey = N
 seconds-label = sekonden
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 mark-read-after-viewing =
     .label = Nei werjefte foar
     .accesskey = w
@@ -1076,7 +1109,7 @@ idle-label =
     .accesskey = k
 idle-time-label = minuten ynaktiviteit litte witte dat ik net aktyf bin
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = en myn steat op Ofwêzich ynstelle mei dit steatberjocht:
@@ -1152,6 +1185,9 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = { -brand-short-name } wurdt troch in organisaasje beheard.
 managed-notice = { -brand-short-name } wurdt troch jo organisaasje beheard.
+
+## Content of the preview conversation for chat message styles.
+
 
 ## Settings UI Search Results
 
