@@ -162,6 +162,16 @@ enable-gloda-search-label =
     .label = Cuir an lorg is an clàr-innsiche uile-choitcheann an comas
     .accesskey = e
 datetime-formatting-legend = Fòrmatadh a’ chinn-là ’s an ama
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Sgeama ionadail na h-aplacaid: { $localeName }
+    .accesskey = p
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Sgeama ionadail nan roghainnean: { $localeName }
+    .accesskey = g
 language-selector-legend = Cànan
 allow-hw-accel =
     .label = Cleachd luathachadh a' bhathar-bhog ma bhios e ri làimh
@@ -233,6 +243,13 @@ offline-settings = Rèitich na roghainnean airson obrachadh far loidhne
 offline-settings-button =
     .label = Far loidhne…
     .accesskey = o
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Tha an tasgadan agad a’ cleachdadh { $size } { $unit } a dh’àite air an diosg an-dràsta
+actual-disk-cache-size-calculating =
+    .value = Ag àireamhachadh meud an tasgadain…
 diskspace-legend = Àite air an diosg
 offline-compact-folder =
     .label = CDùmhlaich na pasgain nan sàbhaladh seo barrachd air
@@ -341,6 +358,10 @@ mark-read-delay =
     .label = Nuair a bhios mi air coimhead air fad
     .accesskey = d
 seconds-label = diog(an)
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -528,6 +549,12 @@ security-devices-button =
     .label = Uidheaman tèarainteachd...
     .accesskey = d
 
+## DoH Section
+
+
+## Keyservers
+
+
 ## Chat Tab
 
 startup-label =
@@ -549,7 +576,7 @@ idle-label =
     .accesskey = N
 idle-time-label = mionaid(ean) 's mi gun dad a dhèanamh
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = agus cuir an teachdaireachd a leanas ris a' chomharra "Air falbh":
@@ -611,7 +638,19 @@ chat-variant-label =
     .value = Eug-samhail:
     .accesskey = V
 
+## Content of the preview conversation for chat message styles.
+
+
 ## Settings UI Search Results
 
 search-results-header = Toraidhean luirg
 search-results-help-link = A bheil cobhair a dhìth ort? Tadhail air <a data-l10n-name="url">Taic { -brand-short-name }</a>
+
+## Sync Tab
+
+
+## Mobile QR Export Pane
+
+
+## Appearance Tab
+

@@ -2,6 +2,10 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+remote-content-permissions-title = Eisgeachdan - Susbaint chèin
+remote-content-permissions-description = 'S urrainn dhut taghadh dè na làraichean-lìn a thèid an cuid dhealbhan is susbaint cèin a luchdadh. 'S urrainn dhut susbaint chèin sam bith a cheadachadh a-rèir post-d an t-seòladair cuideachd. Cuir a-steach seòladh na làraich no a' phuist-d a bu toigh leag stiùireadh agus briog air "Bac" no "Ceadaich" an uairsin.
+cookie-permissions-title = Eisgeachdan - Briosgaidean
+cookie-permissions-description = 'S urrainn dhut sònrachadh an urrainn do làrach-lìn shònraichte briosgaidean fhàgail gus nach urrainn. Cuir a-steach seòladh cruinn na làraich a tha thu airson rianachadh is briog air "Cuir bacadh air", "Ceadaich fad an t-seisein" no "Ceadaich" an uairsin.
 website-address-label =
     .value = Seòladh na làraich-lìn:
     .accesskey = d
