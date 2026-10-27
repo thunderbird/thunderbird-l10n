@@ -582,4 +582,7 @@ folder-pane-context-compact-all =
 
 # Variables:
 #   $name (String) - Name of the folder being deleted.
+folder-delete-confirm = Biztos, hogy törli a mappát: „{ $name }”?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
 folder-delete-filter-confirm = A(z) „{ $name }” mappa törlésével a hozzárendelt szűrők tiltva lesznek. Biztos benne, hogy le akarja törölni a mappát?
