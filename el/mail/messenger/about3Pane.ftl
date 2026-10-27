@@ -576,3 +576,9 @@ folder-pane-context-compact =
 folder-pane-context-compact-all =
     .label = Συμπίεση όλων των φακέλων
     .accesskey = φ
+
+## Confirmation prompts shown before deleting a folder.
+
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Η διαγραφή του φακέλου «{ $name }» θα απενεργοποιήσει τα σχετικά φίλτρα. Θέλετε σίγουρα να διαγράψετε τον φάκελο;
