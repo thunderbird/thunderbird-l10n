@@ -12,6 +12,9 @@ pane-calendar-title = Calendar
 category-calendar =
     .tooltiptext = Calendar
 
+## OS Authentication dialog
+
+
 ## General Tab
 
 focus-search-shortcut =
@@ -54,6 +57,7 @@ animated-alert-label =
 customize-alert-label =
     .label = Customize…
     .accesskey = C
+sound-file-picker-title = Elekti sonon
 mail-custom-sound-label =
     .label = Use the following sound file
     .accesskey = U
@@ -63,6 +67,16 @@ mail-browse-sound-button =
 enable-gloda-search-label =
     .label = Enable Global Search and Indexer
     .accesskey = E
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Lingvo de programo: { $localeName }
+    .accesskey = p
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Lingvo de regionaj agordoj: { $localeName }
+    .accesskey = r
 allow-hw-accel =
     .label = Use hardware acceleration when available
     .accesskey = h
@@ -127,6 +141,13 @@ offline-settings = Configure offline settings
 offline-settings-button =
     .label = Offline…
     .accesskey = O
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Via staplo nune okupiĝas { $size } { $unit } da diskspaco
+actual-disk-cache-size-calculating =
+    .value = Kalkulado de grando de staplo…
 diskspace-legend = Disk Space
 offline-compact-folder =
     .label = Compact all folders when it will save over
@@ -186,6 +207,47 @@ smaller-size-item =
 quoted-text-color =
     .label = Color:
     .accesskey = o
+download-folder-desktop = Labortablo
+download-folder-system = Elŝutujo
+download-choose-folder-title = Elekti dosierujon
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = dosiero { $extension }
+applications-save-file = Konservi dosieron
+    .label = Konservi dosieron
+    .tooltiptext = Konservi dosieron
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Uzi programon { $appName }
+    .label = Uzi programon { $appName }
+    .tooltiptext = Uzi programon { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Uzi programon { $appName } (implicite)
+    .label = Uzi programon { $appName } (implicite)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Elekti alian…
+    .tooltiptext = Elekti alian…
+applications-choose-app-title = Elekti helpan programon
+applications-manage-app =
+    .label = Detaloj de programo…
+applications-always-ask = Ĉiam demandi
+    .label = Ĉiam demandi
+    .tooltiptext = Ĉiam demandi
+applications-delete-action =
+    .label = Forigi la agon
+applications-delete-action-title = Forigi la agon
+applications-delete-action-confirm = Ĉu vi certe volas forigi tiun ĉi agon?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = Portebla dokumentformo (PDF)
+applications-preview-in-app = Antaŭvidi en { -brand-short-name }
+    .label = Antaŭvidi en { -brand-short-name }
+    .tooltiptext = Antaŭvidi en { -brand-short-name }
 save-to-label =
     .label = Save files to
     .accesskey = S
@@ -227,6 +289,10 @@ mark-read-delay =
     .label = After displaying for
     .accesskey = d
 seconds-label = seconds
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -337,6 +403,16 @@ remove-cloud-account =
     .label = Remove
     .accesskey = R
 cloud-account-description = Add a new Filelink storage service
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = Aldoni { $providerName }
+    .tooltiptext = Aldoni { $providerName }
+filelink-account-not-configured =
+    .title = Tiu ĉi konto ankoraŭ ne estas agordita
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Ĉu vi certe volas forigi la konton “{ $accountName }”?
 
 ## Privacy Tab
 
@@ -372,6 +448,8 @@ passwords-description = { -brand-short-name } can remember passwords for all of 
 passwords-button =
     .label = Saved Passwords…
     .accesskey = S
+confirm-reset-junk-training-title = Konfirmi
+confirm-reset-junk-training-message = Ĉu vi certe volas forviŝi datumojn de la kontraŭtrudmesaĝa filtrilo?
 phishing-description = { -brand-short-name } can analyze messages for suspected email scams by looking for common techniques used to deceive you.
 phishing-label =
     .label = Tell me if the message I'm reading is a suspected email scam
@@ -390,6 +468,12 @@ certificate-ask =
 ocsp-label =
     .label = Query OCSP responder servers to confirm the current validity of certificates
     .accesskey = Q
+
+## DoH Section
+
+
+## Keyservers
+
 
 ## Chat Tab
 
@@ -412,7 +496,7 @@ idle-label =
     .accesskey = I
 idle-time-label = minutes of inactivity
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = and set my status to Away with this status message:
@@ -445,3 +529,27 @@ chat-custom-sound-label =
 chat-browse-sound-button =
     .label = Browse…
     .accesskey = B
+
+## Content of the preview conversation for chat message styles.
+
+chat-theme-preview-default =
+    .label = Implicita
+chat-theme-preview-nick-1 = Floriano
+chat-theme-preview-buddy-1 = floriano@im.instantbird.org
+chat-theme-preview-nick-2 = Patriko
+chat-theme-preview-buddy-2 = patriko@im.instantbird.org
+chat-theme-preview-message-1 = Saluton! :-)
+chat-theme-preview-message-2 = Kio okazas?
+chat-theme-preview-message-3 = Mi provas { -brand-short-name }! ;-)
+
+## Settings UI Search Results
+
+
+## Sync Tab
+
+
+## Mobile QR Export Pane
+
+
+## Appearance Tab
+
