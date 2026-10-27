@@ -478,6 +478,38 @@ search-handler-table =
     .placeholder = İçerik türlerini ve eylemleri filtrele
 type-column-header = İçerik türü
 action-column-header = Eylem
+download-folder-desktop = Masaüstü
+download-folder-system = Karşıdan Yüklemeler
+download-choose-folder-title = Klasör Seç
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension } dosyası
+applications-save-file = Dosyayı Kaydet
+    .label = Dosyayı Kaydet
+    .tooltiptext = Dosyayı Kaydet
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = { $appName } kullan
+    .label = { $appName } kullan
+    .tooltiptext = { $appName } kullan
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = { $appName } kullan (varsayılan)
+    .label = { $appName } kullan (varsayılan)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Başkasını kullan…
+    .tooltiptext = Başkasını kullan…
+applications-choose-app-title = Yardımcı Uygulamayı Seç
+applications-manage-app =
+    .label = Uygulama Ayrıntıları…
+applications-always-ask = Her zaman sor
+    .label = Her zaman sor
+    .tooltiptext = Her zaman sor
+applications-delete-action =
+    .label = Eylemi Sil
+applications-delete-action-title = Eylemi Sil
+applications-delete-action-confirm = Bu eylemi silmek istediğinizden emin misiniz?
 # Variables:
 #   $type-description (String) - A description of the content type, for example
 #                                "Portable Document Format (PDF)".
@@ -787,6 +819,9 @@ filelink-add-provider =
     .tooltiptext = { $providerName } hizmetini ekle
 filelink-account-not-configured =
     .title = Bu hesap henüz yapılandırılmamış
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = "{ $accountName }" hesabını silmek istediğinizden emin misiniz?
 
 ## Privacy Tab
 
@@ -895,6 +930,8 @@ spam-log-button =
 reset-spam-button =
     .label = Eğitim verilerini sıfırla
     .accesskey = E
+confirm-reset-junk-training-title = Onayla
+confirm-reset-junk-training-message = Süzgecin öğrenme verilerini sıfırlamak istediğinizden emin misiniz?
 antivirus-check-description = Antivirüs yazılımının gelen iletileri bilgisayarınıza kaydedilmeden önce ayrı ayrı taramasına izin verir.
 antivirus-isolate-label =
     .label = Antivirüs yazılımının virüslü gelen e-postaları karantinaya almasına izin ver
@@ -1137,6 +1174,15 @@ managed-notice = { -brand-short-name } kuruluşunuz tarafından yönetiliyor.
 
 ## Content of the preview conversation for chat message styles.
 
+chat-theme-preview-default =
+    .label = Varsayılan
+chat-theme-preview-nick-1 = Esin
+chat-theme-preview-buddy-1 = esin@im.instantbird.org
+chat-theme-preview-nick-2 = Melih
+chat-theme-preview-buddy-2 = melih@im.instantbird.org
+chat-theme-preview-message-1 = Selam! :-)
+chat-theme-preview-message-2 = N’aber?
+chat-theme-preview-message-3 = { -brand-short-name }’ü deniyorum! ;-)
 
 ## Settings UI Search Results
 
