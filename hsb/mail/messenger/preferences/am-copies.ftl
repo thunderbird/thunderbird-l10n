@@ -3,3 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 account-prefs-show-address-row-description = Wostajće adresowe polo prózdne, zo byšće adresowu linku přeco pokazać, hdyž nowu powěsć započinaće.
+account-prefs-templates-other-folder =
+    .label = Druhi rjadowak
+    .accesskey = u
+account-settings-copies-title =
+    .value = Kopije a rjadowaki

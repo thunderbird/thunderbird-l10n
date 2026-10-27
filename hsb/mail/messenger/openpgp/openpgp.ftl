@@ -35,6 +35,8 @@ e2e-csr-include-email = E-mejlowu adresu ({ $email }) do CSR zapřijeć (doporu�
 e2e-csr-success = CSR je so wuspěšnje do { $file } składował
 # $file A filename
 e2e-csr-failure = CSR njeda so do { $file } składować
+account-settings-advanced-encryption = Rozšěrjene nastajenja zaklučowanja
+account-settings-preferred-encryption-type = Preferowana zaklučowanska technologija
 e2e-signing-description = Digitalna signatura přijimarjam zmóžnja, přepruwować, zo powěsć je so wot was pósłała, a hač jeje wobsah njeje so změnił. Zaklučowane powěsće so přeco po standardźe signuja.
 e2e-sign-message =
     .label = Njezaklučowane powěsće signować

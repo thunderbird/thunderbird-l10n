@@ -38,6 +38,7 @@ folder-props-check-for-new-messages =
     .label = Při přijeću nowych powěsćow za tute konto, přepruwujće přeco tutón rjadowak
     .accesskey = P
 folder-props-rebuild-summary-explanation = Druhdy so dataja rjadowakoweho indeksa (.msf) so poškodźa a powěsće móhli so zhubić abo zhašene powěsće so dale pokazuja; porjedźenje rjadowaka móže tute problemy wotstronić.
+folder-props-rebuild-summary-confirm-title = Rjadowak porjedźić
 
 ## Retention tab (see retention.ftl)
 ##

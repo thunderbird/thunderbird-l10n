@@ -97,6 +97,12 @@ message-header-address-in-address-book-button =
     .title = Kontakt wobdźěłać
 message-header-field-show-more = Wjace
     .title = Wšěch přijimarjow pokazać
+message-ids-field-show-more = Wjace pokazać
+# Button shown in place of hidden items in a header field.
+# $count (Number) - The number of hidden items the button will show.
+message-header-field-show-count-more =
+    .aria-label = { $count } wjace pokazać
+    .title = { $count } wjace pokazać
 message-ids-field-show-all = Wšě pokazać
 
 ## Dark Message Mode

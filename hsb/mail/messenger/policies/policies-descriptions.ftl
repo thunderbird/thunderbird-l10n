@@ -36,6 +36,7 @@ policy-DisableFeedbackCommands = Přikazy znjemóžnić, kotrež komentary z men
 policy-DisableFileLink = Funkciju Filelink znjemóžnić.
 policy-DisableForgetButton = Přistupej na tłóčatko Zabyć zadźěwać.
 policy-DisableFormHistory = Pytansku a formularnu historiju sej njespomjatkować
+policy-DisableMacOSUserPolicies = Prawidła z wužiwarskich nastajenjow a profilow wužiwarskeje konfiguracije na macOS ignorować.
 policy-DisableMasterPasswordCreation = Jeli to trjechi, njeda so hłowne hesło wutworić.
 policy-DisableMessageForwardingFilters = Tomu zadźěwać, zo so powěsćowe filtry powěsće awtomatisce dale sposrědkuja.
 policy-DisablePasswordReveal2 = Njedowolić, zo so hesła w składowanych přizjewjenjach abo hesłowych polach pokazuja.
