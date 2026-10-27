@@ -184,6 +184,16 @@ enable-gloda-search-label =
     .label = Ativar pesquisa global e indexação
     .accesskey = A
 datetime-formatting-legend = Formatação de data e hora
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Idioma do aplicativo: { $localeName }
+    .accesskey = c
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Idioma de definições regionais: { $localeName }
+    .accesskey = e
 language-selector-legend = Idioma
 allow-hw-accel =
     .label = Usar aceleração de hardware quando disponível
