@@ -340,6 +340,15 @@ search-handler-table =
     .placeholder = Filtreeri sisu tüüpe ja tegevusi
 type-column-header = Sisu tüüp
 action-column-header = Tegevus
+download-folder-desktop = Töölaud
+download-folder-system = Minu allalaadimised
+download-choose-folder-title = Kausta valimine
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension }-fail
+applications-save-file = Salvesta fail
+    .label = Salvesta fail
+    .tooltiptext = Salvesta fail
 # Variables:
 #   $appName (String) - The name of an application.
 applications-use-app = Kasutatakse { $appName }
@@ -571,6 +580,9 @@ filelink-add-provider =
     .tooltiptext = Lisa { $providerName }
 filelink-account-not-configured =
     .title = See konto pole veel häälestatud
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Kas oled kindel, et soovid eemaldada konto "{ $accountName }"?
 
 ## Privacy Tab
 
@@ -615,6 +627,8 @@ primary-password-button =
     .accesskey = M
 forms-primary-pw-fips-title = Sa oled FIPS-režiimis. See eeldab, et sinu ülemparool ei oleks tühi.
 forms-master-pw-fips-desc = Parooli muutmine ebaõnnestus
+confirm-reset-junk-training-title = Kinnitus
+confirm-reset-junk-training-message = Kas oled kindel, et soovid lähtestada kohanduva filtri treeninguandmed?
 phishing-description = { -brand-short-name } saab kirju analüüsida, et avastada tuntumaid e-posti pettuste skeeme, millega üritatakse kasutajaid tüssata.
 phishing-label =
     .label = Teavitatakse, kui kirja peetakse petukirjaks
@@ -745,6 +759,15 @@ search-preferences-input2 =
 
 ## Content of the preview conversation for chat message styles.
 
+chat-theme-preview-default =
+    .label = Vaikimisi
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Hei! :-)
+chat-theme-preview-message-2 = Mis toimub?
+chat-theme-preview-message-3 = Ma proovin { -brand-short-name }i! ;-)
 
 ## Settings UI Search Results
 
