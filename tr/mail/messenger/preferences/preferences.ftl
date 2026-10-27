@@ -372,6 +372,13 @@ offline-settings-button =
     .label = Çevrimdışı…
     .accesskey = d
 temporary-storage-legend = Geçici depolama
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Önbelleğiniz şu anda { $size } { $unit } disk alanı kullanıyor
+actual-disk-cache-size-calculating =
+    .value = Önbellek boyutu hesaplanıyor…
 offline-compact-remove-deleted =
     .label = Silinmiş klasörlerdeki verileri depolama alanında yer açmak için kaldır
     .accesskey = S
