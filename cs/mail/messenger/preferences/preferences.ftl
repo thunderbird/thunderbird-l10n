@@ -470,6 +470,11 @@ offline-settings-button =
     .label = Režim offline…
     .accesskey = o
 temporary-storage-legend = Dočasné úložiště
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Mezipaměť zabírá { $size } { $unit } místa na disku
 offline-compact-remove-deleted =
     .label = Odstranit data složek, které už byly smazány, a uvolnit tak místo v úložišti
     .accesskey = O
