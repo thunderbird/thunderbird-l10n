@@ -362,6 +362,15 @@ search-handler-table =
     .placeholder = Iragazi eduki mota eta ekintzak
 type-column-header = Eduki mota
 action-column-header = Ekintza
+download-folder-desktop = Mahaigaina
+download-folder-system = Nire deskargak
+download-choose-folder-title = Hautatu karpeta
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = { $extension } fitxategia
+applications-save-file = Gorde fitxategia
+    .label = Gorde fitxategia
+    .tooltiptext = Gorde fitxategia
 # Variables:
 #   $appName (String) - The name of an application.
 applications-use-app = Erabili { $appName }
@@ -618,6 +627,9 @@ filelink-add-provider =
     .tooltiptext = Gehitu { $providerName }
 filelink-account-not-configured =
     .title = Kontu hau konfiguratzeke dago
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Ziur zaude "{ $accountName }" kontua ezabatu nahi duzula?
 
 ## Privacy Tab
 
@@ -673,6 +685,8 @@ primary-password-button =
     .accesskey = A
 forms-primary-pw-fips-title = Une honetan FIPS moduan zaude. FIPS moduak pasahitz nagusia ezartzea eskatzen du.
 forms-master-pw-fips-desc = Pasahitz aldaketak huts egin du
+confirm-reset-junk-training-title = Berretsi
+confirm-reset-junk-training-message = Ziur iragazki moldakorraren trebatze datuak berrezarri nahi dituzula?
 phishing-description = { -brand-short-name }(e)k mezuak azter ditzake posta-iruzurrak bilatzeko, iruzur egiteko erabil daitezkeen oinarrizko teknikak begiratuz.
 phishing-label =
     .label = Esaidazu irakurtzen ari naizen mezua posta-iruzurra izan daitekeen
@@ -840,6 +854,15 @@ managed-notice = { -brand-short-name } zure erakundeak kudeatzen du.
 
 ## Content of the preview conversation for chat message styles.
 
+chat-theme-preview-default =
+    .label = Lehenetsia
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Kaixo! :-)
+chat-theme-preview-message-2 = Ze berri txo?
+chat-theme-preview-message-3 = { -brand-short-name } probatzen nabil! ;-)
 
 ## Settings UI Search Results
 
