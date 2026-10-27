@@ -279,3 +279,6 @@ folder-delete-confirm = ¿La kan nawajo' nayüj el ri yakwuj '{ $name }'?
 # Variables:
 #   $name (String) - Name of the folder being deleted.
 folder-delete-no-trash-confirm = Man xtitzolïx ta chik we niyuj re yakwuj re' chuqa' xkeyuj konojel ri taq rutzijol chuqa' ri taq rachyakwuj. ¿La kan nawajo' nayüj el ri yakwuj '{ $name }'?
+# Variables:
+#   $name (String) - Name of the folder being deleted.
+folder-delete-filter-confirm = Toq niyuj ri yakwuj '{ $name }' xkechuputäj ri taq chayub'äl kiximon ki' rik'in. ¿La kan nawajo' nayüj ri yakwuj?
