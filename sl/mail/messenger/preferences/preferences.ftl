@@ -375,6 +375,43 @@ search-handler-table =
     .placeholder = Filtriraj vrste vsebine in dejanja
 type-column-header = Vrsta vsebine
 action-column-header = Dejanje
+download-folder-desktop = Namizje
+download-folder-system = Moji prenosi
+download-choose-folder-title = Izberite mapo
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = Datoteka { $extension }
+applications-save-file = Shrani datoteko
+    .label = Shrani datoteko
+    .tooltiptext = Shrani datoteko
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Uporabi { $appName }
+    .label = Uporabi { $appName }
+    .tooltiptext = Uporabi { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Uporabi { $appName } (privzeto)
+    .label = Uporabi { $appName } (privzeto)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Uporabi drugo …
+    .tooltiptext = Uporabi drugo …
+applications-choose-app-title = Izberi pomožni program
+applications-manage-app =
+    .label = Podrobnosti programa …
+applications-always-ask = Vedno vprašaj
+    .label = Vedno vprašaj
+    .tooltiptext = Vedno vprašaj
+applications-delete-action =
+    .label = Izbriši dejanje
+applications-delete-action-title = Izbriši dejanje
+applications-delete-action-confirm = Ali res želite izbrisati to dejanje?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
 applications-type-pdf = Portable Document Format (PDF)
 applications-preview-in-app = Predogled v { -brand-short-name }u
     .label = Predogled v { -brand-short-name }u
@@ -622,6 +659,9 @@ filelink-add-provider =
     .tooltiptext = Dodaj { $providerName }
 filelink-account-not-configured =
     .title = Ta račun še ni nastavljen
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Ali res želite odstraniti račun "{ $accountName }"?
 
 ## Privacy Tab
 
@@ -703,6 +743,8 @@ spam-log-button =
 reset-spam-button =
     .label = Ponastavi podatke za učenje
     .accesskey = P
+confirm-reset-junk-training-title = Potrdi
+confirm-reset-junk-training-message = Ali res želite ponastaviti podatke za privajanje prilagodljivega filtra?
 phishing-description = { -brand-short-name } lahko z iskanjem pogostih metod za zavajanje preverja sporočila in vas obvesti, če sumi, da vsebujejo e-poštno prevaro.
 phishing-label =
     .label = Sporoči, če obstaja sum, da je prikazano sporočilo e-poštna prevara
@@ -917,6 +959,15 @@ managed-notice = { -brand-short-name } upravlja vaša organizacija.
 
 ## Content of the preview conversation for chat message styles.
 
+chat-theme-preview-default =
+    .label = Privzeto
+chat-theme-preview-nick-1 = Jani
+chat-theme-preview-buddy-1 = jani@im.instantbird.org
+chat-theme-preview-nick-2 = Peter
+chat-theme-preview-buddy-2 = peter@im.instantbird.org
+chat-theme-preview-message-1 = Hej! :-)
+chat-theme-preview-message-2 = Kako gre?
+chat-theme-preview-message-3 = Preskušam { -brand-short-name }! ;-)
 
 ## Settings UI Search Results
 
