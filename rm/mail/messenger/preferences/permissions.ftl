@@ -3,6 +3,10 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 permissions-dialog-title = Excepziuns
+remote-content-permissions-title = Excepziuns - Cuntegn extern
+remote-content-permissions-description = Ti pos inditgar las paginas d'internet da las qualas maletgs ed auter cuntegn extern po vegnir chargià. Ti pos era lubir tut il cuntegn extern sin basa da l'adressa dal speditur. Tippa l'adressa da la pagina u l'adressa dad e-mail che ti vuls administrar e clicca lura sin Bloccar u Permetter.
+cookie-permissions-title = Excepziuns - cookies
+cookie-permissions-description = Ti pos definir a tge websites che ti permettas adina u mai da duvrar cookies. Inditgescha l'adressa exacta da la website che ti vuls administrar e clicca sin 'Bloccar', 'Permetter per questa sesida' u 'Adina permetter'.
 website-address-label =
     .value = Adressa da la website
     .accesskey = d

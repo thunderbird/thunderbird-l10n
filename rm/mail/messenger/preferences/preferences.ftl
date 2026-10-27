@@ -266,6 +266,13 @@ offline-settings = Configurar il cumportament en il modus offline
 offline-settings-button =
     .label = Senza connexiun…
     .accesskey = S
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = Tes chache utilisescha actualmain { $size } { $unit } da la memoria
+actual-disk-cache-size-calculating =
+    .value = Calculaziun da la grondezza dal cache…
 diskspace-legend = Capacitad da memorisar
 offline-compact-folder =
     .label = Cumprimer tut ils ordinaturs sche quai spargna dapli che
@@ -386,6 +393,10 @@ mark-read-delay =
     .label = Suenter avair mussà durant
     .accesskey = t
 seconds-label = secundas
+
+## Note: This will concatenate to "After viewing for [___] seconds",
+## using (mark-read-after-viewing) and a number (seconds-label).
+
 
 ##
 
@@ -650,6 +661,12 @@ email-e2ee-automatism-post =
     Decisiuns automaticas vegnan ignoradas sch'il criptadi vegn activà u deactivà manualmain durant rediger in messadi.
     Avis: Il criptadi è adina activà automaticamain sch'i sa tracta dad ina resposta ad in messadi criptà.
 
+## DoH Section
+
+
+## Keyservers
+
+
 ## Chat Tab
 
 startup-label =
@@ -671,7 +688,7 @@ idle-label =
     .accesskey = I
 idle-time-label = minutas inactivitad
 
-##
+## Content of the preview conversation for chat message styles.
 
 away-message-label =
     .label = e midar mes status sin 'Absent' cun quest messadi da status:
@@ -745,6 +762,9 @@ chat-variant-label =
 search-preferences-input2 =
     .placeholder = Chattar en ils parameters
     .style = width: 15.4em
+
+## Content of the preview conversation for chat message styles.
+
 
 ## Settings UI Search Results
 
