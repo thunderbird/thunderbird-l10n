@@ -173,6 +173,7 @@ tray-icon-unread-description = Recomendado cando se usan botóns pequenos na bar
 mail-system-sound-label =
     .label = Son predeterminado do sistema para novo correo
     .accesskey = d
+sound-file-picker-title = Seleccionar son
 mail-custom-sound-label =
     .label = Usar o seguinte ficheiro de son
     .accesskey = n
@@ -361,6 +362,43 @@ search-handler-table =
     .placeholder = Filtrar os tipos de contido e as accións
 type-column-header = Tipo de contido
 action-column-header = Acción
+download-folder-desktop = Escritorio
+download-folder-system = As miñas descargas
+download-choose-folder-title = Escolla o cartafol
+# Variables:
+#   $extension (String) - A file extension, without the leading dot.
+applications-file-ending = Ficheiro { $extension }
+applications-save-file = Gardar o ficheiro
+    .label = Gardar o ficheiro
+    .tooltiptext = Gardar o ficheiro
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = Usar { $appName }
+    .label = Usar { $appName }
+    .tooltiptext = Usar { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = Usar { $appName } (predeterminado)
+    .label = Usar { $appName } (predeterminado)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = Utilizar outro…
+    .tooltiptext = Utilizar outro…
+applications-choose-app-title = Seleccionar a aplicación auxiliar
+applications-manage-app =
+    .label = Detalles da aplicación…
+applications-always-ask = Preguntar sempre
+    .label = Preguntar sempre
+    .tooltiptext = Preguntar sempre
+applications-delete-action =
+    .label = Eliminar acción
+applications-delete-action-title = Eliminar acción
+applications-delete-action-confirm = Confirma que quere eliminar esta acción?
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
 applications-type-pdf = (PDF) Formato de documento portátil
 applications-preview-in-app = Previsualizar en { -brand-short-name }
     .label = Previsualizar en { -brand-short-name }
@@ -593,6 +631,9 @@ filelink-add-provider =
     .tooltiptext = Engadir { $providerName }
 filelink-account-not-configured =
     .title = Esta conta aínda non foi configurada
+# Variables:
+#   $accountName (String) - The user-defined name of a Filelink account.
+filelink-remove-account-confirm = Confirma que quere retirar a conta "{ $accountName }"?
 
 ## Privacy Tab
 
@@ -655,6 +696,8 @@ spam-read-description = Marcar mensaxes como lidas
 spam-log-button =
     .label = Mostrar o rexistro
     .accesskey = s
+confirm-reset-junk-training-title = Confirmar
+confirm-reset-junk-training-message = Confirma que quere reiniciar os datos de adestramento do filtro adaptativo?
 phishing-description = { -brand-short-name } pode analizar as mensaxes para buscar correo sospeitoso de ser fraudulento mediante a identificación das técnicas máis frecuentemente utilizadas para o engano.
 phishing-label =
     .label = Informarme cando a mensaxe que estou a ler é sospeitosa de ser correo fraudulento
@@ -842,6 +885,15 @@ managed-notice = { -brand-short-name } está a ser xestionado pola túa organiza
 
 ## Content of the preview conversation for chat message styles.
 
+chat-theme-preview-default =
+    .label = Predeterminado
+chat-theme-preview-nick-1 = Florian
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = Patrick
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = Boas! :-)
+chat-theme-preview-message-2 = Como vai iso?
+chat-theme-preview-message-3 = Estou probando o { -brand-short-name }! ;-)
 
 ## Settings UI Search Results
 
