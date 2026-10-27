@@ -246,6 +246,16 @@ enable-gloda-search-label =
     .label = Ativar pesquisa global e indexação
     .accesskey = e
 datetime-formatting-legend = Formatação de data e hora
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Localidade da aplicação: { $localeName }
+    .accesskey = p
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Definições regionais de localidade: { $localeName }
+    .accesskey = g
 display-language-legend = Idioma apresentado
 allow-graphics-accel =
     .label = Usar aceleração gráfica para deslocamento e desempenho mais suaves
@@ -379,6 +389,13 @@ offline-settings-button =
     .label = Offline...
     .accesskey = O
 temporary-storage-legend = Armazenamento temporário
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = A sua cache está a utilizar { $size } { $unit } de espaço livre
+actual-disk-cache-size-calculating =
+    .value = A calcular o tamanho da cache…
 offline-compact-remove-deleted =
     .label = Remover dados das pastas quando já foram apagadas para libertar armazenamento
     .accesskey = a
