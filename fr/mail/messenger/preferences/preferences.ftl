@@ -246,6 +246,16 @@ enable-gloda-search-label =
     .label = Activer la recherche et l’indexation globales
     .accesskey = c
 datetime-formatting-legend = Format de date et heure
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = Langue de l’application : { $localeName }
+    .accesskey = p
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = Langue pour les paramètres régionaux : { $localeName }
+    .accesskey = n
 display-language-legend = Langue de l’interface
 allow-graphics-accel =
     .label = Activer l’accélération graphique pour améliorer la fluidité du défilement et les performances
@@ -506,6 +516,10 @@ applications-delete-action-confirm = Voulez-vous vraiment supprimer cette action
 #                                "Portable Document Format (PDF)".
 #   $type (String) - The MIME type of the content, for example "application/pdf".
 applications-type-details-with-ext = ({ $type-description } : { $type })
+applications-type-pdf = Portable Document Format (PDF)
+applications-preview-in-app = Aperçu dans { -brand-short-name }
+    .label = Aperçu dans { -brand-short-name }
+    .tooltiptext = Aperçu dans { -brand-short-name }
 save-to-label =
     .label = Enregistrer les fichiers sous
     .accesskey = E
