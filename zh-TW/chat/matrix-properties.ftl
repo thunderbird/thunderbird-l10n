@@ -267,7 +267,7 @@ message-verification-request2 = { $user } 想要驗證 { $userReceiving } 的身
 #    $reason is the reason given why the verification was cancelled.
 message-verification-cancel2 = { $user } 由於下列原因，取消了身分驗證請求: { $reason }
 message-verification-done = 確認完成。
-message-decryption-error2 = 無法解密此訊息的內容。將自動重新請求加密金鑰。
+message-decryption-error2 = 無法解密此訊息內容，將自動重新請求加密金鑰。
 message-decryption-error = 無法解密此訊息內容，若要向您的其他裝置請求加解密金鑰，請對此訊息點右鍵。
 message-decrypting = 解密中…
 message-redacted = 訊息已遭刪減。

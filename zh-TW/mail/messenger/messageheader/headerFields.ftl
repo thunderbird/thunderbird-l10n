@@ -101,8 +101,8 @@ message-ids-field-show-more = 顯示更多
 # Button shown in place of hidden items in a header field.
 # $count (Number) - The number of hidden items the button will show.
 message-header-field-show-count-more =
-    .aria-label = 顯示另外 { $count }
-    .title = 顯示另外 { $count }
+    .aria-label = 顯示另外 { $count } 筆
+    .title = 顯示另外 { $count } 筆
 message-ids-field-show-all = 顯示全部
 
 ## Dark Message Mode

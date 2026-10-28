@@ -39,7 +39,7 @@ folder-props-check-for-new-messages =
     .accesskey = c
 folder-props-rebuild-summary-explanation = 有時信件匣索引（.msf）檔可能會毀損，導致有些郵件可能會突然消失；已經被刪除的郵件也可能持續存在。重建信件匣可能可以修正這些問題。
 folder-props-rebuild-summary-confirm-title = 修復信件匣
-folder-props-rebuild-summary-confirm-message = 修復此信件匣後會從伺服器下載新的副本並從伺服器上刪除其本機訊息並從伺服器下載新副本。這可能需要一點時間。繼續嗎
+folder-props-rebuild-summary-confirm-message = 修復此信件匣將刪除該本機電腦中信件匣儲存的訊息，並從伺服器重新下載副本。這可能需要一點時間。確認要繼續嗎？
 
 ## Retention tab (see retention.ftl)
 ##
