@@ -3,8 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 account-prefs-show-address-row-description = 將收件地址欄位留空，即可在寫新郵件時總是顯示信箱地址。
-account-prefs-sent-message-copies-description = 選擇要將已寄出郵件的備份儲存到哪里以及設定副本/密件副本自動規則
-account-prefs-automatic-cc-bcc-description = 注: 勾選這些選取盒時會在撰寫新郵件時自動填入副本/密件副本。
+account-prefs-sent-message-copies-description = 選擇寄件備份的儲存位置，並設定自動副本／密件副本規則
+account-prefs-automatic-cc-bcc-description = 注意：勾選這些方塊後，撰寫新郵件時會自動新增副本／密件副本欄位。
 account-prefs-sent-folder-on =
     .label = 下列位置的「寄件備份」信件匣：
     .accesskey = 信

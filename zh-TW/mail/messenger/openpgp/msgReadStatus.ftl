@@ -20,14 +20,14 @@ openpgp-view-your-encryption-key =
 openpgp-openpgp = OpenPGP
 openpgp-no-sig = 沒有數位簽章
 openpgp-no-sig-info = 此訊息中未包含寄件者的數位簽章。這代表訊息可能是別人冒名寄送，也有可能在傳送過程中已遭人修改。
-openpgp-uncertain-sig = 無法確認的數位簽章
+openpgp-uncertain-sig = 無法確認數位簽章
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
-openpgp-uncertain-sig-with-date = 無法確認的數位簽章 - 簽署於 { $date }
-openpgp-invalid-sig = 無效的數位簽章
+openpgp-uncertain-sig-with-date = 無法確認數位簽章 - 簽署於 { $date }
+openpgp-invalid-sig = 數位簽章無效
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.
-openpgp-invalid-sig-with-date = 無效的數位簽章 - 簽署於 { $date }
+openpgp-invalid-sig-with-date = 數位簽章無效 - 簽署於 { $date }
 openpgp-bad-date-sig = 簽章日期不符
 # Variables:
 # $date (String) - Date with time the signature was made in a short format.

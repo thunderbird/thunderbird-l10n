@@ -24,7 +24,7 @@ options-encryption-secret-storage = 私密資料儲存空間: { $status }
 # $status (String) a status
 options-encryption-key-backup = 加密金鑰備份: { $status }
 # $status (String) a status
-options-encryption-cross-signing = 交互簽署: { $status }
+options-encryption-cross-signing = 交互簽署：{ $status }
 options-encryption-status-ok = 確定
 options-encryption-status-not-ok = 未就緒
 options-encryption-need-backup-passphrase = 請到通訊協定選項中輸入備份金鑰密語。

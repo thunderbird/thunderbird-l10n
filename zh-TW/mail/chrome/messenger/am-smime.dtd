@@ -16,7 +16,7 @@
 <!ENTITY encryption.certificate_clear.button "清除">
 <!ENTITY encryption.certificate_clear.accesskey "e">
 <!ENTITY signingGroupTitle.label "數位簽章">
-<!ENTITY signingCert2.message "用來簽章的個人憑證:">
+<!ENTITY signingCert2.message "用來簽署的個人憑證：">
 <!ENTITY sendingDefaults.label "傳送訊息時的預設設定">
 <!ENTITY technologyAutomatic.label "根據可用的金鑰或憑證自動選擇">
 <!ENTITY certificates2.label "S/MIME">
@@ -31,6 +31,6 @@
 <!ENTITY certPicker.title "選擇憑證">
 <!ENTITY certPicker.info "憑證:">
 <!ENTITY certPicker.detailsLabel "所選憑證的詳細資訊：">
-<!ENTITY openpgpKey.message "用來加密與簽章的個人金鑰:">
+<!ENTITY openpgpKey.message "用來加密與簽署的個人金鑰：">
 <!ENTITY openpgpKey.button "設定個人金鑰…">
 <!ENTITY openpgpKey.accesskey "o">
