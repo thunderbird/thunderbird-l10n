@@ -458,6 +458,10 @@ decrypt-and-copy-failures-multiple =
         [one] { $failures } / { $total } üzenetet nem sikerült visszafejteni, és nem lett másolva.
        *[other] { $failures } / { $total } üzenetet nem sikerült visszafejteni, és nem lettek másolva.
     }
+# Shown once at the end of a filter run the user started from the message
+# list, when at least one filter or action failed.
+apply-filters-failed = A szűrő futtatása nem sikerült. A részleteket a szűrőnaplóban találja.
+apply-filters-failed-open-log-button = Szűrőnapló megnyitása
 
 ## Spaces toolbar
 

@@ -36,6 +36,7 @@ policy-DisableFeedbackCommands = A visszajelzés küldési parancsok letiltása 
 policy-DisableFileLink = A Filelink funkció letiltása.
 policy-DisableForgetButton = Az Elfelejtés gomb elérésének megakadályozása.
 policy-DisableFormHistory = Ne jegyezze meg a keresőmezők és űrlapmezők előzményeit.
+policy-DisableMacOSUserPolicies = A felhasználói beállításokból és a macOS felhasználói hatókörének konfigurációs profiljaiból származó házirendek figyelmen kívül hagyása.
 policy-DisableMasterPasswordCreation = Ha igaz, akkor nem hozható létre mesterjelszó.
 policy-DisableMessageForwardingFilters = Megakadályozás, hogy az üzenetszűrők automatikusan továbbítsák az üzeneteket.
 policy-DisablePasswordReveal2 = Ne engedje, hogy a mentett bejelentkezésekben szereplő jelszavak megjelenítésre kerüljenek.
