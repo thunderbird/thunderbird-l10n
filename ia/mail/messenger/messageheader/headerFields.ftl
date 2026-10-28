@@ -97,6 +97,12 @@ message-header-address-in-address-book-button =
     .title = Rediger le contacto
 message-header-field-show-more = Plus
     .title = Monstra tote le destinatarios
+message-ids-field-show-more = Monstrar plus
+# Button shown in place of hidden items in a header field.
+# $count (Number) - The number of hidden items the button will show.
+message-header-field-show-count-more =
+    .aria-label = Monstrar { $count } plus
+    .title = Monstrar { $count } plus
 message-ids-field-show-all = Monstrar toto
 
 ## Dark Message Mode

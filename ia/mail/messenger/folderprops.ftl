@@ -39,6 +39,7 @@ folder-props-check-for-new-messages =
     .accesskey = c
 folder-props-rebuild-summary-explanation = Alcun vices le file de indice del dossier (.msf) deveni damnificate e messages pote mancar o messages delite pote continuar a apparer; reparar le dossier pote solver iste problema.
 folder-props-rebuild-summary-confirm-title = Reparar plica
+folder-props-rebuild-summary-confirm-message = Reparar iste plica dele su messages local e discarga nove copias del servitor, lassante le messages del servitor inalterate. Isto pote prender alcun tempore. Continuar?
 
 ## Retention tab (see retention.ftl)
 ##

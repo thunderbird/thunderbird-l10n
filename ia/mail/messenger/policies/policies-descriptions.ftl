@@ -36,6 +36,7 @@ policy-DisableFeedbackCommands = Disactivar le commandos pro inviar opinion ab l
 policy-DisableFileLink = Disactivar le function Filelink.
 policy-DisableForgetButton = Impedir accesso al button Oblidar.
 policy-DisableFormHistory = Non rememorar le chronologia de recercas e formularios.
+policy-DisableMacOSUserPolicies = Ignorar directivas ab le preferentias de usator e ab le profilos de configuration pro ambito de usator sur macOS.
 policy-DisableMasterPasswordCreation = Si ver, non pote esser create un contrasigno maestro.
 policy-DisableMessageForwardingFilters = Impedir al filtros del messages de automaticamente inultrar messages.
 policy-DisablePasswordReveal2 = Non permitter contrasignos esser revelate in credentiales salvate o campos de contrasigno. Non permitter contrasignos esser revelate in credentiales salvate o campos de contrasigno.
