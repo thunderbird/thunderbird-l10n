@@ -97,6 +97,12 @@ message-header-address-in-address-book-button =
     .title = Upravit kontakt
 message-header-field-show-more = Další
     .title = Zobrazit všechny příjemce
+message-ids-field-show-more = Zobrazit více
+# Button shown in place of hidden items in a header field.
+# $count (Number) - The number of hidden items the button will show.
+message-header-field-show-count-more =
+    .aria-label = Zobrazit dalších { $count }
+    .title = Zobrazit dalších { $count }
 message-ids-field-show-all = Zobrazit vše
 
 ## Dark Message Mode

@@ -38,6 +38,7 @@ folder-props-check-for-new-messages =
     .label = Alltaf athuga þessa möppu, þegar náð er í nýjan póst fyrir þennan reikning
     .accesskey = t
 folder-props-rebuild-summary-explanation = Stundum getur komið fyrir að yfirlitsskrá möppu (.msf) skemmist og póstur virðist vera týndur eða póst sem hefur verið eytt birtist áfram; ef þú endurbyggir möppuna er venjulega hægt að laga þessi vandamál.
+folder-props-rebuild-summary-confirm-title = Laga möppu
 
 ## Retention tab (see retention.ftl)
 ##

@@ -38,6 +38,8 @@ folder-props-check-for-new-messages =
     .label = Při přijímání zpráv pro tento účet kontrolovat nové zprávy v této složce
     .accesskey = k
 folder-props-rebuild-summary-explanation = Pokud se ve složce nezobrazují existující zprávy či se objevují zprávy smazané, je pravděpodobně poškozen soubor s indexem. Oprava složky může tyto problémy vyřešit.
+folder-props-rebuild-summary-confirm-title = Opravit složku
+folder-props-rebuild-summary-confirm-message = Oprava této složky smaže zprávy v místní složce a stáhne nové kopie složky ze serveru. Serverové zprávy zůstanou beze změny. Toto může chvíli trvat. Pokračovat?
 
 ## Retention tab (see retention.ftl)
 ##

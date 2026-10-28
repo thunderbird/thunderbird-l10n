@@ -97,6 +97,7 @@ message-header-address-in-address-book-button =
     .title = Breyta tengilið
 message-header-field-show-more = Meira
     .title = Sýna alla viðtakendur
+message-ids-field-show-more = Sýna meira
 message-ids-field-show-all = Birta allt
 
 ## Dark Message Mode
