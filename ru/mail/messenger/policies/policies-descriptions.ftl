@@ -36,6 +36,7 @@ policy-DisableFeedbackCommands = Отключает команды отправ�
 policy-DisableFileLink = Отключает функцию Filelink.
 policy-DisableForgetButton = Закрывает доступ к кнопке «Забыть».
 policy-DisableFormHistory = Отключает запоминание истории поиска и данных форм.
+policy-DisableMacOSUserPolicies = Игнорировать политики из настроек пользователя и из профилей конфигурации на уровне пользователя на macOS.
 policy-DisableMasterPasswordCreation = Не позволяет устанавливать мастер-пароль, если установлено значение true.
 policy-DisableMessageForwardingFilters = Запрещает фильтрам автоматически пересылать сообщения.
 policy-DisablePasswordReveal2 = Не позволяет просматривать пароли в сохранённых логинах или полях для паролей.
