@@ -41,9 +41,9 @@
 <!ENTITY downloadOnBiff.label "Automatycznie pobieraj nowe wiadomości">
 <!ENTITY downloadOnBiff.accesskey "A">
 <!ENTITY deleteMessagePrefix.label "Wiadomość usunięta lokalnie:">
-<!ENTITY modelMoveToTrash.label "zostanie przeniesiona do folderu:">
+<!ENTITY modelMoveToTrash.label "Przenieś do tego folderu:">
 <!ENTITY modelMoveToTrash.accesskey "f">
-<!ENTITY modelMarkDeleted.label "zostanie oznaczona jako usunięta">
+<!ENTITY modelMarkDeleted.label "Oznacz jako usuniętą">
 <!ENTITY modelMarkDeleted.accesskey "j">
 <!ENTITY modelDeleteImmediately.label "zostanie niezwłocznie usunięta">
 <!ENTITY modelDeleteImmediately.accesskey "i">
