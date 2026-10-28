@@ -97,7 +97,7 @@ message-header-address-in-address-book-button =
     .title = Edytuj kontakt
 message-header-field-show-more = Więcej
     .title = Wyświetl wszystkich odbiorców
-message-ids-field-show-more = Więcej
+message-ids-field-show-more = Pokaż więcej
 # Button shown in place of hidden items in a header field.
 # $count (Number) - The number of hidden items the button will show.
 message-header-field-show-count-more =
