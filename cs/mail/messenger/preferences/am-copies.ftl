@@ -3,3 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 account-prefs-show-address-row-description = Aby se při zahájení psaní nové zprávy vždy zobrazil řádek adresy, ponechte pole pro adresu prázdné.
+account-prefs-archives-other-folder =
+    .label = Jiná složka:
+    .accesskey = J

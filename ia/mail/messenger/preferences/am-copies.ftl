@@ -3,3 +3,4 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 account-prefs-show-address-row-description = Lassar blanc le campo de adresse pro sempre monstrar le linea de adresse quando initia un nove message.
+account-prefs-message-archives-title = Archivos de messages

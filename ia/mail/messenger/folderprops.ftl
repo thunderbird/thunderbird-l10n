@@ -38,6 +38,7 @@ folder-props-check-for-new-messages =
     .label = Quando se recipe nove messages pro iste conto, sempre controlar iste dossier
     .accesskey = c
 folder-props-rebuild-summary-explanation = Alcun vices le file de indice del dossier (.msf) deveni damnificate e messages pote mancar o messages delite pote continuar a apparer; reparar le dossier pote solver iste problema.
+folder-props-rebuild-summary-confirm-title = Reparar plica
 
 ## Retention tab (see retention.ftl)
 ##
