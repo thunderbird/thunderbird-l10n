@@ -150,6 +150,10 @@ filter-running-message =
     Czy kontynuować uruchamianie filtrów?
 filter-stop-button = Zatrzymaj
 filter-continue-button = Kontynuuj
+# Shown once at the end of a filter run the user started, when at least one
+# filter or action failed. The individual failures are in the filter log.
+filter-run-failed = Niektórych filtrów nie udało się zastosować. Sprawdź dziennik filtrów, aby uzyskać szczegółowe informacje.
+filter-run-failed-open-log-button = Otwórz dziennik filtrów
 
 ## Filter Editor
 

@@ -38,6 +38,8 @@ folder-props-check-for-new-messages =
     .label = Pobierając wiadomości dla tego konta, zawsze sprawdzaj ten folder
     .accesskey = P
 folder-props-rebuild-summary-explanation = W przypadku uszkodzenia indeksu folderu (w pliku podsumowania .msf), wskutek czego program może wyświetlać nieprawidłową listę wiadomości, funkcja Napraw folder może pomóc przywrócić prawidłowe działanie programu.
+folder-props-rebuild-summary-confirm-title = Napraw folder
+folder-props-rebuild-summary-confirm-message = Naprawa tego folderu spowoduje usunięcie lokalnych wiadomości i pobranie nowych kopii z serwera; wiadomości na serwerze pozostaną bez zmian. Może to chwilę potrwać. Kontynuować?
 
 ## Retention tab (see retention.ftl)
 ##

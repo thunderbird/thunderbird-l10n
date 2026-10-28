@@ -464,6 +464,10 @@ decrypt-and-copy-failures-multiple =
         [few] Nie udało się odszyfrować { $failures } z { $total } wiadomości i nie zostały one skopiowane.
        *[many] Nie udało się odszyfrować { $failures } z { $total } wiadomości i nie zostały one skopiowane.
     }
+# Shown once at the end of a filter run the user started from the message
+# list, when at least one filter or action failed.
+apply-filters-failed = Zastosowanie filtrów nie zakończyło się pomyślnie. Sprawdź dziennik filtrów, aby uzyskać szczegółowe informacje.
+apply-filters-failed-open-log-button = Otwórz dziennik filtrów
 
 ## Spaces toolbar
 

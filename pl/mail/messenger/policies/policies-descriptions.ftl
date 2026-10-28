@@ -36,6 +36,7 @@ policy-DisableFeedbackCommands = Wyłączenie poleceń do wysyłania opinii z m
 policy-DisableFileLink = Wyłącz funkcję serwisu przechowywania plików.
 policy-DisableForgetButton = Wyłączenie dostępu do przycisku „Wyczyść”.
 policy-DisableFormHistory = Wyłączenie zachowywania historii wyszukiwania i formularzy.
+policy-DisableMacOSUserPolicies = Ignorowanie zasad określonych w preferencjach użytkownika oraz w profilach konfiguracji na poziomie użytkownika w systemie macOS.
 policy-DisableMasterPasswordCreation = Wartość „prawda” powoduje, że nie można utworzyć hasła głównego.
 policy-DisableMessageForwardingFilters = Uniemożliwienie filtrom wiadomości automatycznego przekazywania wiadomości.
 policy-DisablePasswordReveal2 = Wyłączenie możliwości wyświetlania haseł w zachowanych danych logowania lub w polach haseł.
