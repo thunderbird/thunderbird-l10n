@@ -38,6 +38,8 @@ folder-props-check-for-new-messages =
     .label = Ao receber novas mensagens nesta conta, analisar sempre esta pasta
     .accesskey = n
 folder-props-rebuild-summary-explanation = Às vezes, o índice da pasta (.msf) fica danificado e algumas mensagens podem desaparecer ou mensagens apagadas continuam a aparecer; a reparação da pasta pode corrigir estes problemas.
+folder-props-rebuild-summary-confirm-title = Reparar Pasta
+folder-props-rebuild-summary-confirm-message = Ao reparar esta pasta, as mensagens locais serão apagadas e serão descarregadas novas cópias do servidor, deixando as mensagens no servidor inalteradas. Esta operação poderá demorar algum tempo. Continuar?
 
 ## Retention tab (see retention.ftl)
 ##

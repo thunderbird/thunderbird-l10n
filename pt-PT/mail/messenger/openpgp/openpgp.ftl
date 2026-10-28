@@ -35,6 +35,15 @@ e2e-csr-include-email = Incluir o endereço de e-mail ({ $email }) no CSR (recom
 e2e-csr-success = O CSR foi guardado com sucesso em { $file }
 # $file A filename
 e2e-csr-failure = Não foi possível guardar o CSR no ficheiro { $file }
+e2e-default-message-encryption = Encriptação predefinida de mensagens
+account-settings-encryption-default-off =
+    .label = Não encriptar novas mensagens por predefinição
+    .accesskey = N
+account-settings-encryption-default-on =
+    .label = Encriptar novas mensagens por predefinição
+    .accesskey = n
+account-settings-encryption-default-description = A encriptação pode ser desativada para mensagens individuais enquanto escreve emails.
+account-settings-sign-unencrypted-heading = Assinar digitalmente mensagens não encriptadas
 e2e-signing-description = Uma assinatura digital permite que os destinatários verifiquem que a mensagem foi enviada por si e se o seu conteúdo não foi alterado. As mensagens encriptadas são assinadas por predefinição
 e2e-sign-message =
     .label = Assinar as mensagens não encriptadas

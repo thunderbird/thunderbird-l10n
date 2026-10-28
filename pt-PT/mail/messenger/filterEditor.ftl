@@ -151,6 +151,7 @@ filter-continue-button = Continuar
 # Shown once at the end of a filter run the user started, when at least one
 # filter or action failed. The individual failures are in the filter log.
 filter-run-failed = Alguns filtros não puderam ser aplicados. Verifique o histórico do filtro para detalhes.
+filter-run-failed-open-log-button = Abrir Histórico dos Filtros
 
 ## Filter Editor
 
