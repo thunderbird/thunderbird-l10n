@@ -38,6 +38,7 @@ folder-props-check-for-new-messages =
     .label = Κατά τη λήψη νέων μηνυμάτων από τον λογαριασμό, να γίνεται πάντα έλεγχος αυτού του φακέλου
     .accesskey = φ
 folder-props-rebuild-summary-explanation = Μερικές φορές, το αρχείο ευρετηρίου φακέλου (.msf) καταστρέφεται και τα μηνύματα φαίνεται να λείπουν ή να εμφανίζονται παρά τη διαγραφή τους· η επιδιόρθωση του φακέλου ίσως λύσει αυτά τα ζητήματα.
+folder-props-rebuild-summary-confirm-title = Επιδιόρθωση φακέλου
 
 ## Retention tab (see retention.ftl)
 ##

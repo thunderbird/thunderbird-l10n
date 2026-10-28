@@ -97,6 +97,7 @@ message-header-address-in-address-book-button =
     .title = Επεξεργασία επαφής
 message-header-field-show-more = Περισσότερα
     .title = Εμφάνιση όλων των παραληπτών
+message-ids-field-show-more = Εμφάνιση περισσότερων
 message-ids-field-show-all = Εμφάνιση όλων
 
 ## Dark Message Mode

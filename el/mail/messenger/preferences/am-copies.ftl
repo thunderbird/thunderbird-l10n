@@ -3,3 +3,12 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 account-prefs-show-address-row-description = Αφήστε το πεδίο διεύθυνσης κενό, για να εμφανίζεται πάντα η σειρά διευθύνσεων κατά την έναρξη ενός νέου μηνύματος.
+account-prefs-drafts-and-templates-title = Προσχέδια και πρότυπα
+account-prefs-drafts-other-folder =
+    .label = Άλλος φάκελος:
+    .accesskey = λ
+account-prefs-templates-other-folder =
+    .label = Άλλος φάκελος:
+    .accesskey = ο
+account-settings-copies-title =
+    .value = Αντίγραφα και φάκελοι
