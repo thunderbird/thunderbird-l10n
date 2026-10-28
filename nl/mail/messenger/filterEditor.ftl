@@ -148,6 +148,7 @@ filter-running-message =
     Wilt u doorgaan met het toepassen van filters?
 filter-stop-button = Stoppen
 filter-continue-button = Doorgaan
+filter-run-failed-open-log-button = Filterlogboek openen
 
 ## Filter Editor
 

@@ -35,6 +35,7 @@ e2e-csr-include-email = E-mailadres ({ $email }) opnemen in CSR (aanbevolen)
 e2e-csr-success = De CSR is met succes opgeslagen naar { $file }
 # $file A filename
 e2e-csr-failure = Kan de CSR niet naar bestand { $file } opslaan
+e2e-default-message-encryption = Standaard berichtversleuteling
 e2e-signing-description = Met een digitale ondertekening kunnen ontvangers controleren of het bericht door u is verzonden en of de inhoud niet is gewijzigd. Versleutelde berichten worden altijd standaard ondertekend.
 e2e-sign-message =
     .label = Onversleutelde berichten ondertekenen

@@ -458,6 +458,7 @@ decrypt-and-copy-failures-multiple =
         [one] { $failures } van { $total } berichten kan niet worden ontsleuteld en is niet gekopieerd.
        *[other] { $failures } van { $total } berichten kunnen niet worden ontsleuteld en zijn niet gekopieerd.
     }
+apply-filters-failed-open-log-button = Filterlogboek openen
 
 ## Spaces toolbar
 
