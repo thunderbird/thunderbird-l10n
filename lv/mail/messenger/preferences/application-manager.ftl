@@ -4,12 +4,12 @@
 
 # Variables:
 #   $description (String) - A description of a file type.
-app-manager-description-file = Lai apstrādātu { $description } saturs, var izmantot šādas lietotnes.
+app-manager-description-file = Šīs lietotnes var tikt izmantotas, lai apstrādātu { $description } saturu.
 # Variables:
 #   $description (String) - A description of a protocol.
-app-manager-description-protocol = Lai apstrādātu { $description } saites, var izmantot šādas lietotnes.
+app-manager-description-protocol = Šīs lietotnes var tikt izmantotas, lai apstrādātu { $description } saites.
 app-manager-web-app =
-    .value = Šī tīmekļa lietotne tiek mitināta vietnē:
+    .value = Šī tīmekļa lietotne tiek mitināta:
 app-manager-local-app =
     .value = Šī lietotne atrodas:
 remove-app-button =
