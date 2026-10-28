@@ -38,6 +38,8 @@ folder-props-check-for-new-messages =
     .label = Diesen Ordner auf neue Nachrichten überprüfen, wenn Nachrichten für dieses Konto empfangen werden
     .accesskey = D
 folder-props-rebuild-summary-explanation = Die Zusammenfassungsdatei (*.msf) wird manchmal beschädigt, dadurch fehlen scheinbar Nachrichten oder gelöschte Nachrichten werden weiterhin aufgelistet. Reparieren der Zusammenfassungsdatei kann die Probleme meist beheben.
+folder-props-rebuild-summary-confirm-title = Ordner reparieren
+folder-props-rebuild-summary-confirm-message = Beim Reparieren dieses Ordners werden die lokal gespeicherten Nachrichten gelöscht und erneut vom Server heruntergeladen. Die Nachrichten auf dem Server bleiben unverändert. Dieser Vorgang kann einige Zeit dauern. Fortfahren?
 
 ## Retention tab (see retention.ftl)
 ##

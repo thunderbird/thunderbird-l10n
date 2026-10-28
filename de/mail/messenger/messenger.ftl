@@ -458,6 +458,10 @@ decrypt-and-copy-failures-multiple =
         [one] { $failures } von { $total } Nachrichten konnte nicht entschlüsselt werden und wurde daher nicht kopiert.
        *[other] { $failures } von { $total } Nachrichten konnten nicht entschlüsselt werden und wurden daher nicht kopiert.
     }
+# Shown once at the end of a filter run the user started from the message
+# list, when at least one filter or action failed.
+apply-filters-failed = Der Filterlauf konnte nicht erfolgreich abgeschlossen werden. Weitere Informationen finden Sie im Filterprotokoll.
+apply-filters-failed-open-log-button = Filterprotokoll öffnen
 
 ## Spaces toolbar
 

@@ -267,6 +267,7 @@ message-verification-request2 = { $user } möchte { $userReceiving } verifiziere
 #    $reason is the reason given why the verification was cancelled.
 message-verification-cancel2 = { $user } brach die Verifizierung aus folgendem Grund ab: { $reason }
 message-verification-done = Verifizierung abgeschlossen
+message-decryption-error2 = Der Inhalt dieser Nachricht konnte nicht entschlüsselt werden. Die Verschlüsselungsschlüssel werden automatisch erneut angefordert.
 message-decryption-error = Die Inhalte dieser Nachricht konnten nicht entschlüsselt werden. Klicken Sie mit der rechten Maustaste auf diese Nachricht, um die Schlüssel für die Ver- und Entschlüsselung von anderen Geräten anzufordern.
 message-decrypting = Wird entschlüsselt…
 message-redacted = Nachricht wurde zurückgezogen
