@@ -32,6 +32,7 @@ policy-DisableDeveloperTools = Liegt piekļuvi izstrādātāju rīkiem.
 policy-DisableFeedbackCommands = Liegt komandas, kas sūta atsauksmes no Palīdzība izvēlnes (Sūtīt atsauksmi un Ziņot par krāpnieku lapu).
 policy-DisableForgetButton = Liegt pieeju Aizmirst pogai.
 policy-DisableFormHistory = Neatcerēties meklēšanas un veidlapu vēsturi.
+policy-DisableMacOSUserPolicies = Neņemt vērā pamatnostādnes no lietotāja izvēlēm un no macOS lietotāja tvēruma konfigurācijas profiliem.
 policy-DisableMasterPasswordCreation = Ja iestatīts, nevar iestatīt galveno paroli.
 policy-DisableMessageForwardingFilters = Neļaut ziņojumu atsijātāju izraisītu automātisku ziņojumu pārvirzīšanu.
 policy-DisablePasswordReveal2 = Neļaut atklāt paroles saglabātajos pieteikšanās vienumos vai paroļu laukos.

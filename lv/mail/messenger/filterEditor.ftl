@@ -141,6 +141,10 @@ filter-running-message =
     Vai vēlaties turpināt filtrēšanu?
 filter-stop-button = Apturēt
 filter-continue-button = Turpināt
+# Shown once at the end of a filter run the user started, when at least one
+# filter or action failed. The individual failures are in the filter log.
+filter-run-failed = Dažus atsijātājus nevarēja pielietot. Vairāk ir atrodams atsijātāju žurnālā.
+filter-run-failed-open-log-button = Atvērt atsijātāju žurnālu
 
 ## Filter Editor
 

@@ -38,6 +38,8 @@ folder-props-check-for-new-messages =
     .label = Saņemot jaunas vēstules šajā kontā, vienmēr pārbaudīt šo mapi
     .accesskey = S
 folder-props-rebuild-summary-explanation = Dažreiz mapes indeksa (.msf) datne kļūst bojāta, un var šķist, ka trūkst ziņojumu vai turpina parādīties izdzēsti ziņojumi; ar mapes labošanu var novērst šīs nebūšanas.
+folder-props-rebuild-summary-confirm-title = Salabot mapi
+folder-props-rebuild-summary-confirm-message = Šīs mapes salabošana izdzēsīs tās vietējos ziņojumus un no servera lejupielādēs jaunas kopijas, atstājot neizmainītus servera ziņojumus. Tas var aizņemt kādu laiku. Turpināt?
 
 ## Retention tab (see retention.ftl)
 ##

@@ -346,6 +346,13 @@ message-header-undelete =
     .label = Atcelt izdzēšanu
     .tooltiptext = Atcelt šī ziņojuma izdzēšanu
 
+## error messages
+
+# Shown once at the end of a filter run the user started from the message
+# list, when at least one filter or action failed.
+apply-filters-failed = Atsijātāja izpilde beidzās nesekmīgi. Vairāk ir atrodams atsijātāju žurnālā.
+apply-filters-failed-open-log-button = Atvērt atsijātāju žurnālu
+
 ## Spaces toolbar
 
 spaces-toolbar-element =
