@@ -36,6 +36,17 @@ e2e-csr-success = CSR je so wuspěšnje do { $file } składował
 # $file A filename
 e2e-csr-failure = CSR njeda so do { $file } składować
 e2e-default-message-encryption = Standardne zaklučowanje powěsćow
+account-settings-encryption-default-off =
+    .label = Nowe powěsće po standardźe njezaklučować
+    .accesskey = N
+account-settings-encryption-default-on =
+    .label = Nowe powěsće po standardźe zaklučować
+    .accesskey = z
+account-settings-encryption-default-description = Zaklučowanje da so za jednotliwe powěsće znjemóžnić, mjeztym zo mejlki pisaće.
+account-settings-sign-unencrypted-heading = Njezaklučowane powěsće digitalnje signować
+account-settings-sign-unencrypted =
+    .label = Njezaklučowane powěsće digitalnje signować
+    .accesskey = N
 account-settings-advanced-encryption = Rozšěrjene nastajenja zaklučowanja
 account-settings-preferred-encryption-type = Preferowana zaklučowanska technologija
 e2e-signing-description = Digitalna signatura přijimarjam zmóžnja, přepruwować, zo powěsć je so wot was pósłała, a hač jeje wobsah njeje so změnił. Zaklučowane powěsće so přeco po standardźe signuja.
