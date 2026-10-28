@@ -10,7 +10,7 @@ app-manager-description-file = 下列程式可用來處理 { $description } 內�
 #   $description (String) - A description of a protocol.
 app-manager-description-protocol = 下列程式可用來處理 { $description } 鏈結。
 app-manager-web-app =
-    .value = 此網路應用程式架設在:
+    .value = 此網路應用程式架設在：
 app-manager-local-app =
     .value = 此程式位於：
 remove-app-button =

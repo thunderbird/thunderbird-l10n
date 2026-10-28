@@ -70,7 +70,7 @@ folder-props-privileges =
 folder-props-permissions =
     .value = 您有下列權限:
 folder-props-other-users =
-    .value = 其他有權限存取此信件匣的人:
+    .value = 其他有權限存取此信件匣的人：
 folder-props-type =
     .value = 信件匣類型:
 

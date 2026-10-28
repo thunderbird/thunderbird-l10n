@@ -504,8 +504,8 @@ applications-use-app = 使用 { $appName }
     .tooltiptext = 使用 { $appName }
 # Variables:
 #   $appName (String) - The name of the default application.
-applications-use-default = 使用 { $appName } (預設程式)
-    .label = 使用 { $appName } (預設程式)
+applications-use-default = 使用 { $appName } 開啟（預設）
+    .label = 使用 { $appName } 開啟（預設）
     .tooltiptext = { $appName }
 applications-use-other-app =
     .label = 使用其他程式…
@@ -967,7 +967,7 @@ reset-spam-button =
     .label = 重設訓練資料
     .accesskey = R
 confirm-reset-junk-training-title = 確認
-confirm-reset-junk-training-message = 您確定要重設「漸進式郵件控制」的訓練資料嗎？
+confirm-reset-junk-training-message = 您確定要重設漸進式垃圾郵件控制的訓練資料嗎？
 scam-detection-description = { -brand-short-name } 會檢查訊息當中是否有釣魚鏈結和常見詐騙郵件的跡象。
 scam-detection-label =
     .label = 讀到疑似詐騙郵件時警告我
