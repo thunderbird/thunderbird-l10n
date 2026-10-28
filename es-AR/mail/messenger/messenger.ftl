@@ -460,7 +460,7 @@ decrypt-and-copy-failures-multiple =
     }
 # Shown once at the end of a filter run the user started from the message
 # list, when at least one filter or action failed.
-apply-filters-failed = La ejecución del filtro no se completó exitosamente. Verifique el registro de filtrado para más detalles.
+apply-filters-failed = La ejecución del filtro no se completó exitosamente. Verifique el registro de filtro para más detalles.
 apply-filters-failed-open-log-button = Abrir registro de filtro
 
 ## Spaces toolbar
