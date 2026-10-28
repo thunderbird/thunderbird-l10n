@@ -158,7 +158,7 @@ customize-alert-label =
 mail-system-sound-label =
     .label = Jauna pasta noklusētā sistēmas skaņa
     .accesskey = s
-sound-file-picker-title = Izvēlieties skaņu
+sound-file-picker-title = Izvēlēties skaņu
 mail-custom-sound-label =
     .label = Izmantot sekojošu skaņas failu
     .accesskey = I
@@ -330,8 +330,8 @@ quoted-text-color =
     .label = Krāsa:
     .accesskey = K
 download-folder-desktop = Darbvirsma
-download-folder-system = Lejupielādes
-download-choose-folder-title = Izvēlieties mapi
+download-folder-system = Manas lejupielādes
+download-choose-folder-title = Izvēlēties mapi
 # Variables:
 #   $extension (String) - A file extension, without the leading dot.
 applications-file-ending = { $extension } datne
@@ -340,33 +340,33 @@ applications-save-file = Saglabāt datni
     .tooltiptext = Saglabāt datni
 # Variables:
 #   $appName (String) - The name of an application.
-applications-use-app = Lietot { $appName }
-    .label = Lietot { $appName }
-    .tooltiptext = Lietot { $appName }
+applications-use-app = Izmantot { $appName }
+    .label = Izmantot { $appName }
+    .tooltiptext = Izmantot { $appName }
 # Variables:
 #   $appName (String) - The name of the default application.
-applications-use-default = Lietot { $appName } (noklusējums)
-    .label = Lietot { $appName } (noklusējums)
+applications-use-default = Izmantot { $appName } (noklusējums)
+    .label = Izmantot { $appName } (noklusējums)
     .tooltiptext = { $appName }
 applications-use-other-app =
-    .label = Lietot citu…
-    .tooltiptext = Lietot citu…
-applications-choose-app-title = Izvēlieties palīdzības lietotni
+    .label = Izmantot citu…
+    .tooltiptext = Izmantot citu…
+applications-choose-app-title = Palīdzības lietotnes atlasīšana
 applications-manage-app =
-    .label = Lietotnes informācija…
+    .label = Informācija par lietotni…
 applications-always-ask = Vienmēr vaicāt
     .label = Vienmēr vaicāt
     .tooltiptext = Vienmēr vaicāt
 applications-delete-action =
-    .label = Dzēst darbību
-applications-delete-action-title = Dzēst darbību
-applications-delete-action-confirm = Vai tiešām vēlaties dzēst šo darbību?
+    .label = Izdzēst darbību
+applications-delete-action-title = Izdzēst darbību
+applications-delete-action-confirm = Vai tiešām izdzēst šo darbību?
 # Variables:
 #   $type-description (String) - A description of the content type, for example
 #                                "Portable Document Format (PDF)".
 #   $type (String) - The MIME type of the content, for example "application/pdf".
 applications-type-details-with-ext = ({ $type-description }: { $type })
-applications-type-pdf = Portējams dokumenta formāts (PDF)
+applications-type-pdf = Pārvietojama dokumenta formāts (PDF)
 applications-preview-in-app = Priekšskatīt ar { -brand-short-name }
     .label = Priekšskatīt ar { -brand-short-name }
     .tooltiptext = Priekšskatīt ar { -brand-short-name }
@@ -553,7 +553,7 @@ filelink-account-not-configured =
     .title = Šis konts vēl nav iestatīts
 # Variables:
 #   $accountName (String) - The user-defined name of a Filelink account.
-filelink-remove-account-confirm = Vai tiešām vēlaties noņemt kontu "{ $accountName }"?
+filelink-remove-account-confirm = Vai tiešām noņemt kontu “{ $accountName }”?
 
 ## Privacy Tab
 
@@ -601,8 +601,8 @@ forms-master-pw-fips-desc = Paroles maiņa neizdevās
 spam-delete-immediately-label =
     .label = Izdzēst uzreiz
     .accesskey = d
-confirm-reset-junk-training-title = Apstipriniet
-confirm-reset-junk-training-message = Vai tiešām vēlaties atstatīt adaptīvā filtra apmācības datus?
+confirm-reset-junk-training-title = Apstiprināt
+confirm-reset-junk-training-message = Vai tiešām atiestatīt pielāgojošā atsijātāja apmācības datus?
 certificate-ask-every =
     .label = Vaicāt katru reizi
     .accesskey = V
@@ -723,14 +723,14 @@ chat-variant-label =
 ## Content of the preview conversation for chat message styles.
 
 chat-theme-preview-default =
-    .label = Noklusēts
-chat-theme-preview-nick-1 = Florians
-chat-theme-preview-buddy-1 = florian@im.instantbird.org
-chat-theme-preview-nick-2 = Patriks
-chat-theme-preview-buddy-2 = patrick@im.instantbird.org
-chat-theme-preview-message-1 = Sveiki! :-)
-chat-theme-preview-message-2 = Kā iet?
-chat-theme-preview-message-3 = Es izmēģinu { -brand-short-name }! ;-)
+    .label = Noklusējums
+chat-theme-preview-nick-1 = Andris
+chat-theme-preview-buddy-1 = andris@im.instantbird.org
+chat-theme-preview-nick-2 = Pēteris
+chat-theme-preview-buddy-2 = peteris@im.instantbird.org
+chat-theme-preview-message-1 = Sveiciens! :-)
+chat-theme-preview-message-2 = Kā klājas?
+chat-theme-preview-message-3 = Es izmēģinu { -brand-short-name }. ;-)
 
 ## Settings UI Search Results
 

@@ -3,8 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 remote-content-permissions-title = Izņēmumi — attālais saturs
-remote-content-permissions-description = Jūs varat norādīt, no kurām vietnēm ir ļauts ielādēt attēlus un citu attālo saturu. Varat arī ļaut visu attālo saturu, pamatojoties uz sūtītāja epasta adresi. Ierakstiet pārvaldāmās vietnes vai epasta adreses un pēc tam klikšķiniet uz Liegt vai Ļaut.
-cookie-permissions-title = Izņēmumi - sīkdatnes
+remote-content-permissions-description = Var norādīt, no kurām tīmekļa vietnēm ir ļauts ielādēt attēlus un citu attālo saturu. Var arī atļaut visu attālo saturu, vadoties pēc sūtītāja e-pasta adreses. Jāievada pārvaldāmās vietnes vai e-pasta adrese tad jāklikšķina “Liegt” vai “Atļaut”.
+cookie-permissions-title = Izņēmumi — sīkdatnes
 cookie-permissions-description = Var norādīt, kurām tīmekļa vietnēm vienmēr vai nekad ir atļauts izmantot sīkdatnes.  Jāievada tieša pārvaldāmās vietnes adrese un tad jāklikšķina “Liegt”, “Atļaut sesijai” vai “Atļaut”.
 website-address-label =
     .value = Vietnes adrese:
