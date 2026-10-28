@@ -267,6 +267,7 @@ message-verification-request2 = { $user } ellenőrizni akarja a következőt: { 
 #    $reason is the reason given why the verification was cancelled.
 message-verification-cancel2 = { $user } a további okkal megszakította az ellenőrzést: { $reason }
 message-verification-done = Az ellenőrzés befejeződött.
+message-decryption-error2 = Nem sikerült visszafejteni az üzenet tartalmát. A titkosítási kulcsok automatikusan újra lesznek kérve.
 message-decryption-error = Nem sikerült visszafejteni az üzenet tartalmát. Ha titkosítási kulcsot szeretne kérni más eszközeiről, kattintson a jobb gombbal erre az üzenetre.
 message-decrypting = Visszafejtés…
 message-redacted = Az üzenetet törölték.

@@ -38,6 +38,8 @@ folder-props-check-for-new-messages =
     .label = Ha új üzenetet érkezik ebbe a postafiókba, mindig nézze meg ezt a mappát.
     .accesskey = H
 folder-props-rebuild-summary-explanation = Néha a mappaindex (.msf) fájlja megsérül, és az üzenetek nem jelennek meg, vagy a törölt üzenetek megjelennek; a mappa javítása megszüntetheti ezeket a problémákat.
+folder-props-rebuild-summary-confirm-title = Mappa javítása
+folder-props-rebuild-summary-confirm-message = A mappa javítása törli a helyi üzeneteket, és új másolatok töltődnek le a kiszolgálóról, miközben a kiszolgálói üzenetek változatlanok maradnak. Ez eltarthat egy ideig. Folytatja?
 
 ## Retention tab (see retention.ftl)
 ##

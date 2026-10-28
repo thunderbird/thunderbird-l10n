@@ -97,6 +97,12 @@ message-header-address-in-address-book-button =
     .title = Névjegy szerkesztése
 message-header-field-show-more = Továbbiak
     .title = Összes címzett megjelenítése
+message-ids-field-show-more = Több megjelenítése
+# Button shown in place of hidden items in a header field.
+# $count (Number) - The number of hidden items the button will show.
+message-header-field-show-count-more =
+    .aria-label = { $count } további megjelenítése
+    .title = { $count } további megjelenítése
 message-ids-field-show-all = Összes megjelenítése
 
 ## Dark Message Mode

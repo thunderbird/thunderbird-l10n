@@ -148,6 +148,10 @@ filter-running-message =
     Szeretné folytatni a szűrők alkalmazását?
 filter-stop-button = Leállítás
 filter-continue-button = Folytatás
+# Shown once at the end of a filter run the user started, when at least one
+# filter or action failed. The individual failures are in the filter log.
+filter-run-failed = Egyes szűrőket nem sikerült alkalmazni. A részleteket a szűrőnaplóban találja.
+filter-run-failed-open-log-button = Szűrőnapló megnyitása
 
 ## Filter Editor
 
