@@ -267,6 +267,7 @@ message-verification-request2 = { $user } хочет проверить { $userR
 #    $reason is the reason given why the verification was cancelled.
 message-verification-cancel2 = { $user } отменил проверку по причине: { $reason }
 message-verification-done = Проверка завершена.
+message-decryption-error2 = Не удалось расшифровать содержимое этого сообщения. Ключи шифрования будут автоматически повторно запрошены.
 message-decryption-error = Не удалось расшифровать содержимое этого сообщения. Чтобы запросить ключи шифрования с других ваших устройств, щёлкните по этому сообщению правой кнопкой мыши.
 message-decrypting = Расшифровка...
 message-redacted = Сообщение было отредактировано.

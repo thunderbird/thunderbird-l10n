@@ -471,6 +471,10 @@ decrypt-and-copy-failures-multiple =
         [few] { $failures } из { $total } сообщений не могли быть расшифрованы и не были скопированы.
        *[many] { $failures } из { $total } сообщений не могли быть расшифрованы и не были скопированы.
     }
+# Shown once at the end of a filter run the user started from the message
+# list, when at least one filter or action failed.
+apply-filters-failed = Запуск фильтра завершился неуспешно. Для получения более подробной информации обратитесь к журналу фильтров.
+apply-filters-failed-open-log-button = Открыть журнал фильтров
 
 ## Spaces toolbar
 
