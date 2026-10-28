@@ -60,7 +60,7 @@ account-settings-encrypt-saved-drafts =
     .accesskey = r
 # Do not translate "Autocrypt", it's the name of a standard.
 account-settings-include-public-key-autocrypt =
-    .label = Dołącz klucz publiczny tego konta do nagłówków wiadomości (dla zapewnienia zgodności z Autocrypt)
+    .label = Dołącz klucz publiczny tego konta do nagłówków wiadomości (dla zapewnienia zgodności z Autocrypt)
     .accesskey = k
 account-settings-preferred-encryption-type = Preferowana technologia szyfrowania
 e2e-signing-description = Podpis cyfrowy umożliwia odbiorcom sprawdzenie, czy wiadomość została wysłana przez Ciebie, a jej treść nie została zmieniona. Zaszyfrowane wiadomości są zawsze domyślnie podpisane.
