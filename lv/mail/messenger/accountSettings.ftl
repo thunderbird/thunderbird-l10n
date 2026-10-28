@@ -2,6 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+account-settings-addressing-title =
+    .value = E-pasta rakstīšana
+account-settings-compose-html =
+    .label = Rakstīt ziņojumus bagātinātā tekstā (HTML)
+    .accesskey = b
 delete-account-button =
     .label = Izdzēst
 outgoing-server-name = Izejošais serveris:
