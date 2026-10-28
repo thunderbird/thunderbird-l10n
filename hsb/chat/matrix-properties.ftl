@@ -267,6 +267,7 @@ message-verification-request2 = { $user } chce { $userReceiving } přepruwować.
 #    $reason is the reason given why the verification was cancelled.
 message-verification-cancel2 = { $user } je wobkrućenje ze slědowaceje přičiny anulował: { $reason }
 message-verification-done = Přepruwowanje je dokónčene.
+message-decryption-error2 = Wobsah tuteje powěsće njeda so zaklučować. Zaklučowanske kluče so awtomatisce znowa požadaja.
 message-decryption-error = Wobsah tuteje powěsće njeda so dešifrować. Zo byšće zaklučowanske kluče ze swojich druhich gratow požadał, klikńće z prawej tastu na powěsć.
 message-decrypting = Dešifruje so…
 message-redacted = Powěsć je so znjespóznajomniła.
