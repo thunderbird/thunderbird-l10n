@@ -267,6 +267,7 @@ message-verification-request2 = Uživatel { $user } chce ověřit uživatele { $
 #    $reason is the reason given why the verification was cancelled.
 message-verification-cancel2 = Uživatel { $user } zrušil požadavek na ověření z důvodu: { $reason }
 message-verification-done = Ověření dokončeno.
+message-decryption-error2 = Obsah této zprávy se nepodařilo dešifrovat. O šifrovací klíče bude automaticky znovu požádáno.
 message-decryption-error = Obsah této zprávy se nepodařilo dešifrovat. Pro opětovné vyžádání šifrovacích klíčů z ostatních zařízení klepněte pravým tlačítkem na tuto zprávu.
 message-decrypting = Probíhá dešifrování…
 message-redacted = Zpráva byla redigována.
