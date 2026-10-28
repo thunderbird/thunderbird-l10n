@@ -36,6 +36,7 @@ policy-DisableFeedbackCommands = Desativar comandos para enviar comentários a p
 policy-DisableFileLink = Desativar funcionalidade Filelink.
 policy-DisableForgetButton = Impedir o acesso ao botão Esquecer.
 policy-DisableFormHistory = Não guardar histórico de pesquisas ou de formulários.
+policy-DisableMacOSUserPolicies = Ignorar políticas das preferências do utilizador e dos perfis de configuração do âmbito do utilizador no macOS.
 policy-DisableMasterPasswordCreation = Se verdadeiro, a palavra-passe mestra não pode ser criada.
 policy-DisableMessageForwardingFilters = Impedir que os filtros de mensagens reencaminhem mensagens automaticamente.
 policy-DisablePasswordReveal2 = Não permitir que as palavras-passe sejam reveladas nos dados de início de sessão guardados ou nos campos de palavra-passe.

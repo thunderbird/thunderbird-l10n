@@ -3,3 +3,15 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 account-prefs-show-address-row-description = Pozostaw puste pole adresu, aby zawsze wyświetlać wiersz adresu podczas rozpoczynania nowej wiadomości.
+account-prefs-sent-folder-on =
+    .label = folderze Wysłane konta:
+    .accesskey = W
+account-prefs-sent-other-folder =
+    .label = innym folderze
+    .accesskey = f
+account-prefs-message-archives-title = Archiwum
+account-prefs-confirm-saved-messages =
+    .label = Pokaż potwierdzenie, gdy wiadomości zostaną zapisane
+    .accesskey = t
+account-settings-copies-title =
+    .value = Kopie i foldery
