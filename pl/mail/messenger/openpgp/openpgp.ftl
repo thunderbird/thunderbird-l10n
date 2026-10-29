@@ -56,7 +56,7 @@ account-settings-encrypt-message-subject =
     .label = Zaszyfruj temat wiadomości
     .accesskey = t
 account-settings-encrypt-saved-drafts =
-    .label = Zaszyfruj temat wiadomości
+    .label = Zaszyfruj zapisane szkice
     .accesskey = r
 # Do not translate "Autocrypt", it's the name of a standard.
 account-settings-include-public-key-autocrypt =
