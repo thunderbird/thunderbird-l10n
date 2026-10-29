@@ -267,6 +267,7 @@ message-verification-request2 = { $user } co { $userReceiving } pśeglědowaś.
 #    $reason is the reason given why the verification was cancelled.
 message-verification-cancel2 = { $user } jo anulěrował wobkšuśenje ze slědujuceje pśicyny: { $reason }
 message-verification-done = Pśeglědanje jo dokóńcone.
+message-decryption-error2 = Wopśimjeśe toś teje powěsći njedajo se koděrowaś. Kluce koděrowanja se awtomatiski znowego pominaju.
 message-decryption-error = Wopśimjeśe toś teje powěsći njedajo se dešifrěrowaś. Aby koděrowańske kluce ze swójich drugich rědow pominał, kliknišo z pšaweju tastu na powěsć.
 message-decrypting = Dešifrěrujo se…
 message-redacted = Powěsć jo se redigěrowała.
