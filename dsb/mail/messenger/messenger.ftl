@@ -480,6 +480,7 @@ decrypt-and-copy-failures-multiple =
         [few] { $failures } z { $total } powěsćow njejsu se dešifrěrowali a kopěrowali.
        *[other] { $failures } z { $total } powěsćow njejo se dešifrěrowało a kopěrowało.
     }
+apply-filters-failed-open-log-button = Protokol filtrow wócyniś
 
 ## Spaces toolbar
 

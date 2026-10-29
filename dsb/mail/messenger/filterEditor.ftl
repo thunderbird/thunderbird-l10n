@@ -152,6 +152,10 @@ filter-running-message =
     Cośo dalej filtry nałožowaś?
 filter-stop-button = Stoj
 filter-continue-button = Pókšacowaś
+# Shown once at the end of a filter run the user started, when at least one
+# filter or action failed. The individual failures are in the filter log.
+filter-run-failed = Někotare filtry njedaju se nałožyś. Póglědajśo do protokola filtrow za drobnostki.
+filter-run-failed-open-log-button = Protokol filtrow wócyniś
 
 ## Filter Editor
 
