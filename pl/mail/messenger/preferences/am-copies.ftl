@@ -3,8 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 account-prefs-show-address-row-description = Pozostaw puste pole adresu, aby zawsze wyświetlać wiersz adresu podczas rozpoczynania nowej wiadomości.
-account-prefs-sent-message-copies-description = Wybierz miejsce zapisywania kopii wysłanych wiadomości i skonfiguruj automatyczne reguły DW/UDW
-account-prefs-automatic-cc-bcc-description = Uwaga: zaznaczenie tych pól spowoduje automatyczne dodanie wierszy DW/UDW podczas tworzenia nowych wiadomości.
+account-prefs-sent-message-copies-description = Wybierz miejsce zapisywania kopii wysłanych wiadomości i skonfiguruj automatyczne reguły „Kopia”/„Ukryta kopia”
+account-prefs-automatic-cc-bcc-description = Uwaga: zaznaczenie tych pól spowoduje automatyczne dodanie wierszy „Kopia”/„Ukryta kopia” podczas tworzenia nowych wiadomości.
 account-prefs-sent-folder-on =
     .label = folderze Wysłane konta:
     .accesskey = W
