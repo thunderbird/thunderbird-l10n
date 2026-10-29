@@ -39,6 +39,7 @@ folder-props-check-for-new-messages =
     .accesskey = c
 folder-props-rebuild-summary-explanation = Soms raakt het mapindexbestand (.msf) beschadigd en kunnen berichten lijken te ontbreken of verwijderde berichten zichtbaar blijven; repareren van de map kan deze problemen oplossen.
 folder-props-rebuild-summary-confirm-title = Map repareren
+folder-props-rebuild-summary-confirm-message = Door deze map te repareren worden lokale berichten verwijderd en worden nieuwe exemplaren van de server gedownload, waardoor serverberichten ongewijzigd blijven. Dit kan even duren. Doorgaan?
 
 ## Retention tab (see retention.ftl)
 ##

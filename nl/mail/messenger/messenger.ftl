@@ -458,6 +458,9 @@ decrypt-and-copy-failures-multiple =
         [one] { $failures } van { $total } berichten kan niet worden ontsleuteld en is niet gekopieerd.
        *[other] { $failures } van { $total } berichten kunnen niet worden ontsleuteld en zijn niet gekopieerd.
     }
+# Shown once at the end of a filter run the user started from the message
+# list, when at least one filter or action failed.
+apply-filters-failed = De filterrun is niet met succes voltooid. Raadpleeg het filterlogboek voor details.
 apply-filters-failed-open-log-button = Filterlogboek openen
 
 ## Spaces toolbar

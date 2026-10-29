@@ -3,6 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 account-prefs-show-address-row-description = Laat het adresveld leeg om bij het opstellen van een nieuw bericht altijd de adresregel te tonen.
+account-prefs-sent-message-copies-description = Kies waar u kopieën van verzonden berichten wilt opslaan en stel automatische Cc/Bcc-regels in
+account-prefs-automatic-cc-bcc-description = Noot: door deze vakjes aan te vinken worden automatisch Cc/Bcc-regels toegevoegd bij het opstellen van nieuwe berichten.
 account-prefs-sent-folder-on =
     .label = Map Verzonden op:
     .accesskey = M
@@ -29,5 +31,8 @@ account-prefs-templates-folder-on =
 account-prefs-templates-other-folder =
     .label = Andere map:
     .accesskey = A
+account-prefs-confirm-saved-messages =
+    .label = Bevestiging tonen bij opslaan van berichten
+    .accesskey = o
 account-settings-copies-title =
     .value = Kopieën en mappen
