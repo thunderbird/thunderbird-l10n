@@ -474,6 +474,10 @@ decrypt-and-copy-failures-multiple =
         [many] { $failures } z { $total } správ sa nepodarilo dešifrovať a neboli skopírované.
        *[other] { $failures } z { $total } správ sa nepodarilo dešifrovať a neboli skopírované.
     }
+# Shown once at the end of a filter run the user started from the message
+# list, when at least one filter or action failed.
+apply-filters-failed = Spracovanie filtrov sa nepodarilo dokončiť. Podrobnosti nájdete v protokole filtrovania.
+apply-filters-failed-open-log-button = Otvoriť protokol filtrovania
 
 ## Spaces toolbar
 

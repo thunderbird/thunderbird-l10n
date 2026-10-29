@@ -36,6 +36,7 @@ policy-DisableFeedbackCommands = Zablokuje možnosť odoslať spätnú väzbu z 
 policy-DisableFileLink = Deaktivuje funkciu Filelink.
 policy-DisableForgetButton = Zablokuje prístup ku tlačidlu Zabudnúť.
 policy-DisableFormHistory = Vypne ukladanie histórie vyhľadávania a formulárov.
+policy-DisableMacOSUserPolicies = Ignoruje politiky z možností používateľa a konfiguračných profilov na úrovni používateľa v systéme macOS.
 policy-DisableMasterPasswordCreation = Hodnota true znemožní nastavenie hlavného hesla.
 policy-DisableMessageForwardingFilters = Zakáže automatické preposielanie správ pomocou filtrov.
 policy-DisablePasswordReveal2 = Zakáže zobrazovanie hesiel v uložených prihlasovacích údajoch a poliach pre heslá.
