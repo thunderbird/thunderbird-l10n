@@ -267,6 +267,7 @@ message-verification-request2 = { $user } wil { $userReceiving } verifiëren.
 #    $reason is the reason given why the verification was cancelled.
 message-verification-cancel2 = { $user } heeft de verificatie geannuleerd met de reden: { $reason }
 message-verification-done = Verificatie voltooid.
+message-decryption-error2 = Kan de inhoud van dit bericht niet ontcijferen. Versleutelingssleutels worden automatisch opnieuw aangevraagd.
 message-decryption-error = Kan de inhoud van dit bericht niet ontsleutelen. Om versleutelingssleutels van uw andere apparaten op te vragen, klikt u met de rechtermuisknop op dit bericht.
 message-decrypting = Ontsleutelen…
 message-redacted = Bericht is bewerkt.
