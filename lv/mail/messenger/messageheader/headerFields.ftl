@@ -15,7 +15,7 @@ message-header-field-show-count-more =
 
 message-bar-spam = { -brand-short-name } uzskata, ka šis ziņojums ir mēstule.
 message-bar-not-spam-button =
-    .label = Nav mēstules
+    .label = Nav mēstule
     .accesskey = N
 message-bar-learn-more-button =
     .label = Uzzināt vairāk…
