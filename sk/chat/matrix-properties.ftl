@@ -267,6 +267,7 @@ message-verification-request2 = { $user } chce overiť identitu kontaktu { $user
 #    $reason is the reason given why the verification was cancelled.
 message-verification-cancel2 = Kontakt { $user } zrušil overenie, dôvod: { $reason }
 message-verification-done = Overenie dokončené.
+message-decryption-error2 = Obsah tejto správy sa nepodarilo dešifrovať. Šifrovacie kľúče sa automaticky vyžiadajú znova.
 message-decryption-error = Nepodarilo sa dešifrovať obsah tejto správy. Ak chcete požiadať o šifrovacie kľúče z iných zariadení, kliknite pravým tlačidlom myši na túto správu.
 message-decrypting = Dešifruje sa…
 message-redacted = Správa bola zredigovaná.

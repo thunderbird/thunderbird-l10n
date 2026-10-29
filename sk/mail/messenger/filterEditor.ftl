@@ -150,6 +150,10 @@ filter-running-message =
     Chcete pokračovať vo filtrovaní?
 filter-stop-button = Zastaviť
 filter-continue-button = Pokračovať
+# Shown once at the end of a filter run the user started, when at least one
+# filter or action failed. The individual failures are in the filter log.
+filter-run-failed = Niektoré filtre sa nepodarilo použiť. Podrobnosti nájdete v protokole filtrovania.
+filter-run-failed-open-log-button = Otvoriť protokol filtrovania
 
 ## Filter Editor
 

@@ -38,6 +38,8 @@ folder-props-check-for-new-messages =
     .label = Pri získavaní nových správ pre tento účet vždy kontrolovať aj tento priečinok
     .accesskey = k
 folder-props-rebuild-summary-explanation = Indexový súbor priečinka (.msf) sa môže poškodiť, čo spôsobí, že niektoré správy sa nezobrazujú alebo už odstránené správy sú stále zobrazované. Opravením indexu priečinka tieto problémy odstránite.
+folder-props-rebuild-summary-confirm-title = Opraviť priečinok
+folder-props-rebuild-summary-confirm-message = Pri oprave tohto priečinka sa odstránia lokálne správy a zo servera sa stiahnu ich nové kópie. Správy na serveri zostanú nezmenené. Môže to chvíľu trvať. Pokračovať?
 
 ## Retention tab (see retention.ftl)
 ##
