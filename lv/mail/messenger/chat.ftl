@@ -19,6 +19,7 @@ chat-verify-identity =
     .accesskey = i
 chat-identity-verified =
     .label = Identitāte jau ir apliecināta
+chat-buddy-identity-status = Šifrēšanas uzticamība
 chat-buddy-identity-status-verified = Apliecināta
 chat-buddy-identity-status-unverified = Neapliecināta
 

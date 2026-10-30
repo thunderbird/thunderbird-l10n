@@ -7,6 +7,9 @@
 
 appmenu-sync-panel-title =
     .title = Vienādot
+appmenu-signin-panel =
+    .label = Pieslēgties lai vienādotos
+    .accesskey = i
 appmenu-sync-sync =
     .value = Konta vienādošana
     .accesskey = K
@@ -18,6 +21,9 @@ appmenu-sync-account =
 appmenu-sync-now =
     .label = Vienādto tagad
     .accesskey = a
+appmenu-sync-settings =
+    .label = Vienādošanās iestatījumi
+    .accesskey = S
 appmenu-sync-sign-out =
     .label = Izrakstīties…
     .accesskey = I
@@ -50,11 +56,28 @@ appmenu-add-account-panel =
 appmenu-new-addressbook =
     .label = Vietējā adrešu grāmata
     .accesskey = a
+appmenu-new-carddav =
+    .label = CardDav adrešu grāmata
+    .accesskey = C
+appmenu-new-ldap =
+    .label = LDAP adrešu grāmata
+    .accesskey = L
+appmenu-add-address-book-panel-title =
+    .title = Pievienot adrešu grāmatu
+appmenu-add-address-book =
+    .label = Adrešu grāmata
+    .accesskey = A
 
 ## Create
 
 appmenu-create-panel-title =
     .title = Izveidot
+appmenu-create-panel =
+    .label = Izveidot (C)
+    .accesskey = C
+appmenu-create-message =
+    .label = Vēstule (M)
+    .accesskey = M
 appmenu-create-event =
     .label = Notikums
     .accesskey = N
@@ -163,6 +186,25 @@ appmenu-help-share-feedback =
 appmenu-help-enter-troubleshoot-mode2 =
     .label = Sarežģījumu novēršanas režīms…
     .accesskey = S
+appmenu-help-exit-troubleshoot-mode2 =
+    .label = Izslēgt problēmu novēršanas režīmu (M)
+    .accesskey = M
+appmenu-help-troubleshooting-info =
+    .label = Problēmu novēršanas informācija (T)
+    .accesskey = T
 appmenu-help-about-product =
     .label = Par { -brand-short-name }
     .accesskey = P
+
+## Application Update
+
+appmenuitem-banner-update-downloading =
+    .label = Notiek { -brand-shorter-name } atjauninājuma lejupielāde
+appmenuitem-banner-update-available =
+    .label = Pieejams atjauninājums — lejupielādējiet tūlīt
+appmenuitem-banner-update-manual =
+    .label = Pieejams atjauninājums — lejupielādējiet tūlīt
+appmenuitem-banner-update-unsupported =
+    .label = Nevar atjaunināt — sistēma nav saderīga
+appmenuitem-banner-update-restart =
+    .label = Pieejams atjauninājums — restartējiet tūlīt
