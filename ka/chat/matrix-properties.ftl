@@ -267,6 +267,7 @@ message-verification-request2 = { $user }-ს სურს დაამოწმ
 #    $reason is the reason given why the verification was cancelled.
 message-verification-cancel2 = { $user } აუქმებს დამოწმებას მიზეზით: { $reason }
 message-verification-done = დამოწმება დასრულებულია.
+message-decryption-error2 = ამ წერილის შიგთავსის გაშიფვრა ვერ ხერხდება. დაშიფვრის გასაღებები კვლავ მოითხოვება თავისთავად.
 message-decryption-error = ამ შეტყობინების შინაარსის გაშიფვრა ვერ მოხერხდა. დაშიფვრის გასაღებების სხვა მოწყობილობიდან მოთხოვნისთვის დაწკაპეთ ამ წერილზე მარჯვენა ღილაკით.
 message-decrypting = გაშიფვრა...
 message-redacted = წერილი ჩასწორდა.
