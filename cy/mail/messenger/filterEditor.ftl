@@ -158,8 +158,8 @@ filter-stop-button = Atal
 filter-continue-button = Parhau
 # Shown once at the end of a filter run the user started, when at least one
 # filter or action failed. The individual failures are in the filter log.
-filter-run-failed = Nid oedd modd defnyddio rhai hidlwyr. Gwiriwch y log hidlo am fanylion.
-filter-run-failed-open-log-button = Log Hidlo Agored
+filter-run-failed = Doedd dim modd defnyddio rhai hidlwyr. Gwiriwch y cofnod hidlo am fanylion.
+filter-run-failed-open-log-button = Agor Cofnod Hidlo
 
 ## Filter Editor
 

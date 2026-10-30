@@ -495,8 +495,8 @@ decrypt-and-copy-failures-multiple =
     }
 # Shown once at the end of a filter run the user started from the message
 # list, when at least one filter or action failed.
-apply-filters-failed = Ni chwblhawyd rhediad yr hidlydd yn llwyddiannus. Gwiriwch y log hidlo am fanylion.
-apply-filters-failed-open-log-button = Log Hidlo Agored
+apply-filters-failed = Heb gwblhau rhedeg yr hidlydd yn llwyddiannus. Gwiriwch y cofnod hidlo am fanylion.
+apply-filters-failed-open-log-button = Agor Cofnod Hidlo
 
 ## Spaces toolbar
 

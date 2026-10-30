@@ -39,7 +39,7 @@ folder-props-check-for-new-messages =
     .accesskey = g
 folder-props-rebuild-summary-explanation = Weithiau bydd y ffeil mynegai'r ffolder (..msf) yn cael ei difrodi ac mae modd i negeseuon sy'n ymddangos ar goll neu ffeiliau sydd wedi'u dileu parhau i gael eu dangos; gall drwsio'r ffolder ddatrys y problemau hyn.
 folder-props-rebuild-summary-confirm-title = Trwsio'r Ffolder
-folder-props-rebuild-summary-confirm-message = Mae atgyweirio'r ffolder hon yn dileu ei negeseuon lleol ac yn llwytho copïau newydd i lawr o'r gweinydd, gan adael negeseuon gweinydd heb eu newid. Gall hyn gymryd peth amser. Parhau?
+folder-props-rebuild-summary-confirm-message = Mae trwsio'r ffolder hon yn dileu ei negeseuon lleol ac yn llwytho copïau newydd i lawr o'r gweinydd, gan adael negeseuon gweinydd heb eu newid. Gall hyn gymryd peth amser. Parhau?
 
 ## Retention tab (see retention.ftl)
 ##

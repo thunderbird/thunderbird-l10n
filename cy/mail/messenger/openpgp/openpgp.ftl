@@ -35,9 +35,9 @@ e2e-csr-include-email = Cynnwys cyfeiriad e-bost ( { $email } ) yn CSR (argymhel
 e2e-csr-success = Llwyddwyd i gadw'r CSR yn { $file }
 # $file A filename
 e2e-csr-failure = Wedi methu â chadw'r CSR i ffeil { $file }
-e2e-default-message-encryption = Amgryptio neges diofyn
+e2e-default-message-encryption = Amgryptio neges arferol
 account-settings-encryption-default-off =
-    .label = Peidiwch ag amgryptio negeseuon newydd yn ddiofyn
+    .label = Peidio amgryptio negeseuon newydd fel arfer
     .accesskey = P
 account-settings-encryption-default-on =
     .label = Amgryptio negeseuon newydd yn ddiofyn
