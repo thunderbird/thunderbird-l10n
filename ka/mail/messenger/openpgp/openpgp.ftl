@@ -48,8 +48,11 @@ account-settings-attach-public-key-when-signing =
     .label = საჯარო გასაღები დართვა ვინაობაზე წერილების ციფრულად ხელმოწერისას
     .accesskey = მ
 account-settings-encrypt-message-subject =
-    .label = წერილის თემის დაშიფვრა
-    .accesskey = ფ
+    .label = წერილის თემის ველის დაშიფვრა
+    .accesskey = ლ
+account-settings-encrypt-saved-drafts =
+    .label = წერილის თემის ველის დაშიფვრა
+    .accesskey = ვ
 # Do not translate "Autocrypt", it's the name of a standard.
 account-settings-include-public-key-autocrypt =
     .label = ამ ანგარიშის საჯარო გასაღების დართვა წერილის თავსართში (თვითდაშიფვრის თავსებადობისთვის)
