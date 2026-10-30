@@ -498,7 +498,37 @@ apply-current-columns-to-folder-message = Կիրառե՞լ ընթացիկ թղթ
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Կիրառե՞լ ընթացիկ թղթապանակի սյունները { $name }-ին և մնացածին։
+threadpane-card-menu-button =
+    .title = Հաղորդագրությունների ցանկ
 message-list-placeholder-no-messages = Ոչ մի հաղորդագրություն չի գտնվել
+message-list-placeholder-multiple-folders = Ընտրված են մի քանի թղթապանակներ
+
+## Folder pane context menu
+
+# Variables:
+# $count (Number) - Number of selected folders.
+folder-pane-context-mark-folder-read =
+    .label =
+        { $count ->
+            [one] Նշել որպես ընթերցված
+           *[other] Նշել թղթապանակները որպես կարդացված
+        }
+    .accesskey = Ն
+# Variables:
+# $count (Number) - One or more than one folder selected for compacting
+folder-pane-context-compact =
+    .label =
+        { $count ->
+            [1] Կոմպակտ թղթապանակ
+            [one] Սեղմել թղթապանակները
+           *[other] Սեղմել թղթապանակները
+        }
+    .accesskey = Ս
+# One or more servers selected for compacting ALL their folders. Only this or
+# folder-pane-context-compact string will appear at a time, not both.
+folder-pane-context-compact-all =
+    .label = Սեղմել բոլոր թղթապանակները
+    .accesskey = Ս
 
 ## Confirmation prompts shown before deleting a folder.
 

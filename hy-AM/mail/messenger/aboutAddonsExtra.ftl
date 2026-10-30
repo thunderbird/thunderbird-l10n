@@ -5,5 +5,9 @@
 add-on-options-button =
     .title = Հավելումների ընտրանքներ
 add-on-search-alternative-button-label = Գտնել այլընտրանքային հավելում
+add-on-learn-more-and-search-alternative-button-label = Իմացեք ավելին և գտեք այլընտրանքային հավելում
 atn-addons-heading-search-input =
     .placeholder = Որոնել addons.thunderbird.net-ում
+atn-addons-heading-search-button =
+    .aria-label = Որոնել addons.thunderbird.net-ում
+    .title = Որոնել addons.thunderbird.net-ում
