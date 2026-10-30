@@ -457,6 +457,10 @@ decrypt-and-copy-failures-multiple =
         [one] { $failures } av { $total } meddelanden kunde inte dekrypteras och kopierades inte.
        *[other] { $failures } av { $total } meddelanden kunde inte dekrypteras och kopierades inte.
     }
+# Shown once at the end of a filter run the user started from the message
+# list, when at least one filter or action failed.
+apply-filters-failed = Filterkörningen misslyckades. Mer information finns i filterloggen.
+apply-filters-failed-open-log-button = Öppna filterloggen
 
 ## Spaces toolbar
 

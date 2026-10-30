@@ -36,6 +36,7 @@ policy-DisableFeedbackCommands = Inaktivera kommandon för att skicka återkoppl
 policy-DisableFileLink = Inaktivera Filelink-funktionen.
 policy-DisableForgetButton = Förhindra åtkomst till ångraknappen.
 policy-DisableFormHistory = Kom inte ihåg sök- och formulärhistorik.
+policy-DisableMacOSUserPolicies = Ignorera policyer från användarens inställningar och från användarvänliga konfigurationsprofiler på macOS.
 policy-DisableMasterPasswordCreation = Om sant, ett huvudlösenord kan inte skapas.
 policy-DisableMessageForwardingFilters = Förhindra att meddelandefilter automatiskt vidarebefordrar meddelanden.
 policy-DisablePasswordReveal2 = Förhindra att lösenord visas i sparade inloggningar eller lösenordsfält.

@@ -38,6 +38,8 @@ folder-props-check-for-new-messages =
     .label = Vid hämtning av nya meddelanden från kontot, kontrollera alltid den här mappen
     .accesskey = k
 folder-props-rebuild-summary-explanation = Ibland kan filen (.msf) för mappindexet skadas och göra att meddelanden saknas eller att borttagna meddelanden finns kvar; en reparation av mappen kan lösa dessa problem.
+folder-props-rebuild-summary-confirm-title = Reparationsmapp
+folder-props-rebuild-summary-confirm-message = Om du reparerar den här mappen tas de lokala meddelandena bort och nya kopior hämtas från servern. Meddelandena på servern påverkas inte. Det kan ta en stund. Vill du fortsätta?
 
 ## Retention tab (see retention.ftl)
 ##
