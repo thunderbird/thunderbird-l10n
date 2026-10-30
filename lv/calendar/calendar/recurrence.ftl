@@ -142,3 +142,28 @@ recurrence-yearly-nth-of-nth =
         [one] katra { $interval }. gada { $month } katrā { $weekday }
        *[other] katra { $interval }. gada { $month } katrā { $weekday }
     }
+# Edit recurrence window -> Recurrence pattern -> Yearly repeat rules
+# Variables:
+#   $ordinal - ordinal with article
+#   $weekday - weekday
+#   $month - month
+#   $interval is a number, the recurrence interval
+# e.g. "the second Monday of every March"
+# e.g  "every 3 years the second Monday of March"
+recurrence-yearly-nth-on-nth-of =
+    { $interval ->
+        [one] { $ordinal } { $weekday } no katriem { $month }
+        [zero] ik pēc { $interval } gadiem, izmantojot { $ordinal } { $weekday } no { $month }
+       *[other] ik pēc { $interval } gadiem, izmantojot { $ordinal } { $weekday } no { $month }
+    }
+# Variables:
+#   $ruleString - A rule as text
+#   $startDate - event start date (e.g. mm/gg/yyyy)
+#   $count - event occurrence times: number
+# e.g. "Occurs the first Sunday of every 3 month effective 1/1/2009 for 5 times"
+recurrence-repeat-count-all-day =
+    { $count ->
+        [one] Notiek { $ruleString }, spēkā { $startDate } { $count } laiku.
+        [zero] Notiek { $ruleString }, efektīvi { $startDate }, { $count } reizes.
+       *[other] Notiek { $ruleString }, efektīvi { $startDate }, { $count } reizes.
+    }
