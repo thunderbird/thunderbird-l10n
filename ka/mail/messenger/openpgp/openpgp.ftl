@@ -35,6 +35,26 @@ e2e-csr-include-email = ელფოსტის მისამართის 
 e2e-csr-success = CSR წარმატებითაა შენახული, როგორც { $file }
 # $file A filename
 e2e-csr-failure = CSR ვერ შეინახა, როგორც { $file }
+e2e-default-message-encryption = წერილის ნაგულისხმევი დაშიფვრა
+account-settings-encryption-default-off =
+    .label = არ დაიშიფროს ახალი წერილები ნაგულისხმევად
+    .accesskey = ა
+account-settings-encryption-default-on =
+    .label = დაიშიფროს ახალი წერილები ნაგულისხმევად
+    .accesskey = ა
+account-settings-encryption-default-description = დაშიფვრა შეიძლება გამოირთოს ცალკეული წერილებისთვის მათი შედგენის დროს.
+account-settings-advanced-encryption = დაშიფვრის დამატებითი პარამეტრები
+account-settings-attach-public-key-when-signing =
+    .label = საჯარო გასაღები დართვა ვინაობაზე წერილების ციფრულად ხელმოწერისას
+    .accesskey = მ
+account-settings-encrypt-message-subject =
+    .label = წერილის თემის დაშიფვრა
+    .accesskey = ფ
+# Do not translate "Autocrypt", it's the name of a standard.
+account-settings-include-public-key-autocrypt =
+    .label = ამ ანგარიშის საჯარო გასაღების დართვა წერილის თავსართში (თვითდაშიფვრის თავსებადობისთვის)
+    .accesskey = ა
+account-settings-preferred-encryption-type = დაცვის უპირატესი საშუალება
 e2e-signing-description = ციფრული ხელმოწერა საშუალებას აძლევს მიმღებს დაადასტუროს, რომ წერილი ნამდვილად თქვენ გაუგზავნეთ და მისი შიგთავსი არავის შეუცვლია. დაშიფრული წერილები თავისთავად ხელმოწერილია.
 e2e-sign-message =
     .label = დაუშიფრავის წერილის ხელმოწერა

@@ -148,6 +148,10 @@ filter-running-message =
     გსურთ ფილტრების დამატების გაგრძელება?
 filter-stop-button = შეჩერება
 filter-continue-button = გაგრძელება
+# Shown once at the end of a filter run the user started, when at least one
+# filter or action failed. The individual failures are in the filter log.
+filter-run-failed = ზოგიერთი ფილტრი ვერ მიესადაგა. იხილეთ ფილტრის აღრციხვები დაწვრილებით.
+filter-run-failed-open-log-button = ფილტრის აღრიცხვების გახსნა
 
 ## Filter Editor
 

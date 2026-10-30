@@ -97,6 +97,12 @@ message-header-address-in-address-book-button =
     .title = პირის ჩასწორება
 message-header-field-show-more = სხვა
     .title = ყველა მიმღების ჩვენება
+message-ids-field-show-more = მეტის გამოჩენა
+# Button shown in place of hidden items in a header field.
+# $count (Number) - The number of hidden items the button will show.
+message-header-field-show-count-more =
+    .aria-label = გამოჩნდეს { $count } კიდევ
+    .title = გამოჩნდეს { $count } კიდევ
 message-ids-field-show-all = ყველას ჩვენება
 
 ## Dark Message Mode

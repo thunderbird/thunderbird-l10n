@@ -445,6 +445,7 @@ decrypt-and-copy-failures-multiple =
         [one] { $failures } სულ { $total } წერილიდან ვერ გაიშიფრა და ასლი არ აღებულა.
        *[other] { $failures } სულ { $total } წერილიდან ვერ გაიშიფრა და ასლი არ აღებულა.
     }
+apply-filters-failed-open-log-button = ფილტრის აღრიცხვების გახსნა
 
 ## Spaces toolbar
 

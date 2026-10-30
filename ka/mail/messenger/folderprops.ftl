@@ -38,6 +38,7 @@ folder-props-check-for-new-messages =
     .label = ამ საქაღალდის ახალ წერილებზე შემოწმება
     .accesskey = c
 folder-props-rebuild-summary-explanation = ზოგჯერ საქაღალდის ინდექსის (.msf) ფაილი ზიანდება და წერილები შესაძლოა არ აისახოს ან აისახოს წაშლილად; საქაღალდის აღდგენამ შესაძლოა მოხსნას ეს პრობლემა.
+folder-props-rebuild-summary-confirm-title = საქაღალდის აღდგენა
 
 ## Retention tab (see retention.ftl)
 ##
