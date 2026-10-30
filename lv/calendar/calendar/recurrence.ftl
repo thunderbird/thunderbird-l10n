@@ -167,3 +167,18 @@ recurrence-repeat-count-all-day =
         [zero] Notiek { $ruleString }, efektīvi { $startDate }, { $count } reizes.
        *[other] Notiek { $ruleString }, efektīvi { $startDate }, { $count } reizes.
     }
+# Variables:
+#   $ruleString - A rule as text
+#   $startDate - event start date (e.g. mm/gg/yyyy)
+#   $untilDate - event occurrence times: number
+# e.g. "Occurs day 3 of every 5 month effective 1/1/2009 until 1/1/2010"
+recurrence-details-until-all-day =
+    Notiek { $ruleString }
+    spēkā no { $startDate } līdz { $untilDate }.
+# LOCALIZATION NOTE (recurrence-details-infinite-all-day):
+# $ruleString - A rule as text
+# $startDate - event start date (e.g. mm/gg/yyyy)
+# e.g. "Occurs day 3 of every 5 month effective 1/1/2009"
+recurrence-details-infinite-all-day =
+    Notiek { $ruleString }
+    spēkā no { $startDate }.
