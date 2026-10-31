@@ -518,6 +518,9 @@ dark-message-mode-description = Tving meldingsteksten til å følge mørke temae
 dark-message-mode-toggle-label =
     .label = Vis veksleknapp for mørk meldingsmodus
     .accesskey = V
+general-folder-settings-header = Mappeinnstillinger
+recent-folders-legend = Nylig brukte mapper
+recent-folders-description = Styrer hvordan nylig brukte mapper vises når du flytter meldinger.
 dark-message-mode-toggle-description = Vis en veksleknapp i meldingshodet for raskt å deaktivere mørk meldingsmodus
 general-folder-options-header = Alternativer for mappebehandling
 recent-destinations-legend = Siste destinasjoner
@@ -553,9 +556,17 @@ inline-label =
     .label = Innbundet
 as-attachment-label =
     .label = Som vedlegg
+add-file-type-label =
+    .label = Legg til filtype i vedlagte meldinger
+    .accesskey = e
 extension-label =
     .label = Legg til etternavn på filnavnet
     .accesskey = L
+forward-messages-label =
+    .value = Videresend meldinger som:
+    .accesskey = V
+forward-inline-label =
+    .label = Inne i meldingen (innebygd)
 
 ## Note: This will concatenate to "Auto Save every [___] minutes",
 ## using (auto-save-label) and a number (auto-save-end).
@@ -564,6 +575,9 @@ auto-save-label =
     .label = Lagre meldinger automatisk hvert
     .accesskey = a
 auto-save-end = minutt
+autosave-draft-label =
+    .label = Lagre automatisk et utkast hvert
+    .accesskey = L
 
 ##
 
@@ -575,6 +589,9 @@ add-link-previews =
     .accesskey = i
 spellcheck-label =
     .label = Stavekontroller før meldinger sendes
+    .accesskey = S
+spellcheck-while-typing-label =
+    .label = Sjekk stavingen mens du skriver
     .accesskey = S
 spellcheck-inline-label =
     .label = Stavekontroller mens meldinger skrives
@@ -589,6 +606,9 @@ font-label =
 font-size-label =
     .value = Størrelse:
     .accesskey = e
+ignore-sender-styles-label =
+    .label = Ignorer avsenderskrifter og -farger
+    .accesskey = I
 default-colors-label =
     .label = Bruk leserens standardfarger
     .accesskey = d
@@ -605,6 +625,9 @@ default-format-label =
     .label = Bruk paragrafformat i stedet for brødtekst som standard
     .accesskey = p
 compose-send-format-title = Sendingsformat
+compose-format-automatic-option =
+    .label = Automatisk (anbefalt)
+compose-format-automatic-description = Send formatert tekst hvis du legger til stiler (som fet skrift eller lenker), eller ren tekst hvis du ikke gjør det.
 compose-send-automatic-option =
     .label = Automatisk
 compose-send-automatic-description = Hvis ingen stil brukes i meldingen, send ren tekst. Ellers send HTML med en ren tekst-reserve.
