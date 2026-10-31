@@ -58,6 +58,10 @@ account-settings-encrypt-message-subject =
 account-settings-encrypt-saved-drafts =
     .label = Šifrovat předmět zprávy
     .accesskey = p
+# Do not translate "Autocrypt", it's the name of a standard.
+account-settings-include-public-key-autocrypt =
+    .label = Zahrnout do hlavičky zprávy veřejný klíč tohoto účtu (z důvodu kompatibility s Autocrypt)
+    .accesskey = Z
 account-settings-preferred-encryption-type = Upřednostňovaná technologie šifrování
 e2e-signing-description = Elektronický podpis umožňuje příjemcům ověřit, že jste zprávu poslali vy a že nebyl její obsah změněn. Šifrované zprávy jsou ve výchozím stavu vždy podepsané.
 e2e-sign-message =
