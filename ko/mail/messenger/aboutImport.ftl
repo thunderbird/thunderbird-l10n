@@ -103,6 +103,8 @@ addr-book-summary-description = 이름이 "{ $addressBookName }"인 새 주소�
 import-from-calendar-file-desc = 가져올 iCalendar(.ics) 파일을 선택하세요.
 calendar-items-title = 가져올 항목을 선택하세요.
 calendar-items-loading = 항목 로드중…
+# $count (Number) - The number of items in the calendar file.
+calendar-items-count = 파일에 { $count }개의 항목이 포함되어 있습니다.
 # Column headers of the list of calendar items to import.
 calendar-items-column-title-a11y =
     .aria-label = 제목

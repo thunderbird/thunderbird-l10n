@@ -267,6 +267,7 @@ message-verification-request2 = { $user } 님이 { $userReceiving } 님을 확�
 #    $reason is the reason given why the verification was cancelled.
 message-verification-cancel2 = { $user } 님이 다음 이유로 인증을 취소했습니다: { $reason }
 message-verification-done = 인증이 완료되었습니다.
+message-decryption-error2 = 이 메시지의 내용을 복호화할 수 없습니다. 암호화 키가 자동으로 다시 요청됩니다.
 message-decryption-error = 이 메시지의 내용을 복호화할 수 없습니다. 다른 장치로부터 암호화 키를 요청하려면, 이 메시지를 마우스 오른쪽 단추로 클릭하십시오.
 message-decrypting = 복호화 중…
 message-redacted = 메시지가 수정되었습니다.
