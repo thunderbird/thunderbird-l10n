@@ -32,3 +32,4 @@
 <!ENTITY showCurrentView.label "Pašreizējais skats">
 <!ENTITY showCurrentView.accesskey "s">
 <!ENTITY calendar.properties.label "Kalendāra īpašības…">
+<!ENTITY calendar.properties.accesskey "a">
