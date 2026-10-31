@@ -98,6 +98,17 @@ open-tabs-warning-confirmation =
        *[other] Åpning av { $count } meldinger kan være tregt. Fortsett?
     }
 
+## Sign-in window
+
+# Shown when the provider's sign-in page cannot use cookies because they are
+# blocked.
+browser-request-cookies-blocked = Infokapsler er blokkert, noe som kan forhindre pålogging.
+# Turns cookies back on. Same action as the "Accept cookies from sites" option
+# in Settings, Privacy & Security.
+browser-request-cookies-accept =
+    .label = Godta infokapsler fra nettsteder
+    .accesskey = G
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
