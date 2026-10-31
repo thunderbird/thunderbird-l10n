@@ -172,6 +172,13 @@ openpgp-key-man-reload =
 openpgp-key-man-change-expiry =
     .label = Mainīt derīgumu
     .accesskey = M
+# Do not translate: PQC
+openpgp-key-man-add-pqc =
+    .label = Ģenerēt PQC šifrēšanas apakšatslēgu (G)
+    .accesskey = G
+# Do not translate: PQC
+openpgp-pqc-confirm-generate = Vai ģenerēt šifrēšanas apakšatslēgu, izmantojot postkvantu kriptogrāfiju (PQC)? Ģenerēšana var ilgt vairākas minūtes.
+openpgp-pqc-generate-failed = Nevarēja ģenerēt PQC šifrēšanas apakšatslēgu.
 openpgp-key-man-ignored-ids =
     .label = E-pasta adreses
 openpgp-key-man-del-key =
@@ -265,6 +272,7 @@ openpgp-personal-no-label =
     .label = Nē, nelietot to kā jūsu personīgo atslēgu.
 openpgp-personal-yes-label =
     .label = Jā, uzskatīt šo atslēgu par personīgo atslēgu.
+openpgp-passphrase-unlock-failed = Atslēgu vai atslēgas pakārtotās daļas nevarēja atbloķēt.
 openpgp-copy-cmd-label =
     .label = Kopēt
 

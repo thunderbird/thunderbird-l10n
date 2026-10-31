@@ -22,6 +22,8 @@ messenger-window-minimize-button =
     .tooltiptext = Samazināt
 messenger-window-maximize-button =
     .tooltiptext = Palielināt
+messenger-window-restore-down-button =
+    .tooltiptext = Atjaunot lejup
 messenger-window-close-button =
     .tooltiptext = Aizvērt
 # Variables:
@@ -112,6 +114,9 @@ browser-request-cookies-accept =
 
 ## Toolbar
 
+addons-and-themes-toolbarbutton =
+    .label = Papildinājumi un Motīvi
+    .tooltiptext = Pārvaldiet savus papildinājumus un motīvus
 quick-filter-toolbarbutton =
     .label = Ātrais atsijātājs
     .tooltiptext = Atsijāt ziņojumus
@@ -279,6 +284,8 @@ appmenu-save-as-file =
     .label = Datne...
 appmenu-settings =
     .label = Iestatījumi
+appmenu-addons-and-themes =
+    .label = Papildinājumi un motīvi
 
 ## Context menu
 

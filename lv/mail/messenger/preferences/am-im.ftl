@@ -9,6 +9,7 @@ chat-autologin =
 chat-encryption-generic = Vispārīgi
 chat-encryption-log =
     .label = Sarunu žurnālos iekļaut pilnībā šifrētus ziņojumus
+chat-encryption-label = Dzimtā pilnīga šifrēšana
 # Variables:
 # $protocol (String) - Name of the chat protocol. Example: Matrix
 chat-encryption-description = { $protocol } nodrošina pilnīgu šifrēšanu tērzēšanas ziņojumiem. Tas neļauj trešajām pusēm pārtvert sarunu. Var būt nepieciešama papildu iestatīšana (zemāk), lai šifrēšana būtu darba kārtībā.

@@ -13,6 +13,7 @@ cookies-stored-label2 =
     .value = Sīkdatnes tiek glabātas šajā datorā
 cookies-filtered-label =
     .value = Meklējumam atbilst šīs sīkdatnes:
+cookies-stored-label = Šajā datorā tiek glabātas sīkdatnes
 cookies-on-system-label = Datorā ir saglabātas šīs sīkdatnes:
 treecol-site-header =
     .label = Vietne

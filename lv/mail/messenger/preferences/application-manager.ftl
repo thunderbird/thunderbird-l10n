@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+app-manager-dialog-title = Lietotnes detaļas
 # Variables:
 #   $description (String) - A description of a file type.
 app-manager-description-file = Šīs lietotnes var tikt izmantotas, lai apstrādātu { $description } saturu.
