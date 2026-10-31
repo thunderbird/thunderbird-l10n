@@ -39,6 +39,7 @@ folder-props-check-for-new-messages =
     .accesskey = d
 folder-props-rebuild-summary-explanation = Noen ganger kan oppsummeringsfilen (.msf) bli skadet, og meldinger kan se ut til å forsvinne, eller slettede meldinger kan bli vist. Å reparere mappen kan rette opp disse problemene.
 folder-props-rebuild-summary-confirm-title = Reparer mappe
+folder-props-rebuild-summary-confirm-message = Reparasjon av denne mappen sletter de lokale meldingene og laster ned nye kopier fra serveren, slik at servermeldingene forblir uendret. Dette kan ta litt tid. Vil du fortsette?
 
 ## Retention tab (see retention.ftl)
 ##

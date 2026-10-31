@@ -1095,6 +1095,7 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Passord inkludert
 qr-export-summary-passwords-excluded = Passord ekskludert
 qr-export-more-accounts = Eksporter flere kontoer
+qr-export-pane-header-mobile = Eksporter til { -brand-product-name } for mobil
 qr-export-select-accounts-title = Velg kontoer som skal eksporteres:
 
 ## Appearance Tab

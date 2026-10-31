@@ -267,6 +267,7 @@ message-verification-request2 = { $user } vil verifisere { $userReceiving }.
 #    $reason is the reason given why the verification was cancelled.
 message-verification-cancel2 = { $user } avbrøt verifiseringen med årsaken: { $reason }
 message-verification-done = Verifisering fullført.
+message-decryption-error2 = Kunne ikke dekryptere innholdet i denne meldingen. Krypteringsnøkler vil automatisk bli forespurt på nytt.
 message-decryption-error = Kan ikke dekryptere innholdet i denne meldingen. Høyreklikk på meldingen for å hente krypteringsnøkler fra de andre enhetene dine.
 message-decrypting = Dekrypterer…
 message-redacted = Meldingen ble trukket tilbake.
