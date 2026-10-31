@@ -38,6 +38,7 @@ folder-props-check-for-new-messages =
     .label = Bu hesap için yeni ileti alırken her zaman bu klasörü denetle
     .accesskey = y
 folder-props-rebuild-summary-explanation = Bazen klasörün dizin dosyası (.msf) hasar gördüğü için iletiler eksik görünebilir veya silinmiş iletiler görünmeye devam edebilir. Klasörü onarmak bu sorunları çözebilir.
+folder-props-rebuild-summary-confirm-title = Klasörü onar
 
 ## Retention tab (see retention.ftl)
 ##

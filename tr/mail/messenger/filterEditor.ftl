@@ -148,6 +148,7 @@ filter-running-message =
     Süzgeçlerin uygulanmasına devam etmek istiyor musunuz?
 filter-stop-button = Durdur
 filter-continue-button = Devam et
+filter-run-failed-open-log-button = Süzgeç günlüğünü aç
 
 ## Filter Editor
 
