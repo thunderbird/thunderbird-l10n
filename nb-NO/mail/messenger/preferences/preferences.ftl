@@ -880,6 +880,8 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = Tilpasset
     .accesskey = T
+preferences-doh-secure-header = Sikker DNS (DNS-over-HTTPS)
+preferences-doh-secure-description = Sikker DNS krypterer oppslagsforespørslene som { -brand-short-name } sender for å finne nettsteder, slik at nettleseraktiviteten din skjules for nettverksovervåking.
 
 ## Keyservers
 
