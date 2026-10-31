@@ -20,4 +20,4 @@
 <!ENTITY backgroundImage.label "تصویر پس‌زمینه:">
 <!ENTITY backgroundImage.accessKey "ت">
 <!ENTITY backgroundImage.tooltip "استفاده از یک پرونده‌ی تصویری به عنوان پس زمینه برای صفحه‌ی شما">
-<!ENTITY backgroundImage.shortenedDataURI "داده کوتاه شدهٔ URI (کپی URI کامل را در کلیپ بورد قرار خواهد داد)">
+<!ENTITY backgroundImage.shortenedDataURI "داده کوتاه شدهٔ URI (رونوشت URI کامل در تخته‌گیره قرار خواهد داد)">

@@ -6,7 +6,7 @@
 <!ENTITY windowTitle.label "ویژگی‌های تصویر">
 <!ENTITY pixelsPopup.value "pixels">
 <!ENTITY locationEditField.accessKey "L">
-<!ENTITY locationEditField.shortenedDataURI "URI دادهٔ‌ کوتاه شده (کپی URI کامل را روی کلیپ بورد قرار خواهد داد)">
+<!ENTITY locationEditField.shortenedDataURI "داده کوتاه شدهٔ URI (رونوشت URI کامل در تخته‌گیره قرار خواهد داد)">
 <!ENTITY title.accessKey "T">
 <!ENTITY altText.label "متن جایگزین:">
 <!ENTITY altText.accessKey "A">

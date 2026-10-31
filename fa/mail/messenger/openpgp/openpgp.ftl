@@ -99,7 +99,7 @@ openpgp-key-man-import-secret-from-file =
 openpgp-key-man-import-sig-from-file =
     .label = درون‌ریزی ابطال(ها) از پرونده
 openpgp-key-man-import-from-clipbrd =
-    .label = درون‌ریزی کلید(ها) از بریده‌دان
+    .label = درون‌ریزی کلید(ها) از تخته‌گیره
     .accesskey = د
 openpgp-key-man-import-from-url =
     .label = درون‌ریزی کلید(ها) از نشانی اینترنتی
@@ -145,8 +145,8 @@ openpgp-key-send-key =
 openpgp-key-man-copy-key-ids =
     .label =
         { $count ->
-            [one] رونوشت شناسهٔ کلید در بریده‌دان
-           *[other] رونوشت شناسه‌های کلید در بریده‌دان
+            [one] رونوشت شناسهٔ کلید در تخته‌گیره
+           *[other] رونوشت شناسه‌های کلید در تخته‌گیره
         }
     .accesskey = ش
 # Variables:
@@ -154,8 +154,8 @@ openpgp-key-man-copy-key-ids =
 openpgp-key-man-copy-fprs =
     .label =
         { $count ->
-            [one] رونوشت اثر انگشت در بریده‌دان
-           *[other] رونوشت اثر انگشت‌ها در بریده‌دان
+            [one] رونوشت اثر انگشت در تخته‌گیره
+           *[other] رونوشت اثر انگشت‌ها در تخته‌گیره
         }
     .accesskey = ث
 # Variables:
@@ -163,8 +163,8 @@ openpgp-key-man-copy-fprs =
 openpgp-key-man-copy-to-clipboard =
     .label =
         { $count ->
-            [one] رونوشت کلید عمومی در بریده‌دان
-           *[other] رونوشت کلیدهای عمومی در بریده‌دان
+            [one] رونوشت کلید عمومی در تخته‌گیره
+           *[other] رونوشت کلیدهای عمومی در تخته‌گیره
         }
     .accesskey = ع
 openpgp-key-man-ctx-copy =
@@ -493,10 +493,10 @@ import-info-no-keys = هیچ کلیدی درون‌ریزی نشد.
 
 ## Strings in enigmailKeyManager.js
 
-import-from-clip = می‌خواهید کلید(هایی) را از بریده‌دان درون‌ریزی کنید؟
+import-from-clip = می‌خواهید کلید(هایی) را از تخته‌گیره درون‌ریزی کنید؟
 import-from-url = بارگیری کلید عمومی از این نشانی:
-copy-to-clipbrd-failed = رونوشت کلید(های) انتخاب‌شده در بریده‌دان ممکن نشد.
-copy-to-clipbrd-ok = کلید(ها) در بریده‌دان رونوشت شد
+copy-to-clipbrd-failed = رونوشت کلید(های) انتخاب‌شده در تخته‌گیره ممکن نشد.
+copy-to-clipbrd-ok = کلید(ها) در تخته‌گیره رونوشت شد
 # Variables:
 # $userId (String) - User id of the key.
 delete-secret-key =
