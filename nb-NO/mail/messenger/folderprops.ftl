@@ -38,6 +38,7 @@ folder-props-check-for-new-messages =
     .label = Ved nedlasting av nye meldinger for denne kontoen, kontroller alltid denne mappen
     .accesskey = d
 folder-props-rebuild-summary-explanation = Noen ganger kan oppsummeringsfilen (.msf) bli skadet, og meldinger kan se ut til å forsvinne, eller slettede meldinger kan bli vist. Å reparere mappen kan rette opp disse problemene.
+folder-props-rebuild-summary-confirm-title = Reparer mappe
 
 ## Retention tab (see retention.ftl)
 ##

@@ -188,6 +188,7 @@ filter-editor-invalid-search-title = Søkeordene er ugyldige
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
 filter-editor-invalid-search-rule = Dette filteret kan ikke lagres fordi søketermene "{ $attribute } { $operator }" er ugyldige i sammenhengen.
+filter-editor-missing-value-title = Søkeverdi mangler
 filter-editor-action-order-explanation = Når en melding passer til dette filteret, vil handlinger utføres i denne rekkefølgen:
 filter-editor-action-order-title = Reell handlingsrekkefølge
 # Variables:
