@@ -10,7 +10,7 @@
 <!ENTITY replyToField4.label "პასუხი: ">
 <!ENTITY subjectField4.label "თემა: ">
 <!ENTITY ccField4.label "ასლი ">
-<!ENTITY bccField4.label "ფარული ასლი ">
+<!ENTITY bccField4.label "ფარული ასლი">
 <!ENTITY newsgroupsField4.label "სასაუბრო ჯგუფები">
 <!ENTITY followupToField4.label "კონფერენცია ">
 <!ENTITY tagsHdr4.label "ჭდეები ">

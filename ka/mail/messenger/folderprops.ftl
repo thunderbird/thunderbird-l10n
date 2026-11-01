@@ -28,17 +28,18 @@ folder-props-size-on-disk =
 folder-props-size-unknown =
     .value = უცნობია
 folder-props-rebuild-summary =
-    .label = საქაღალდის აღდგენა
-    .tooltiptext = შეჯამების ფაილის ხელახლა ინდექსაცია
-    .accesskey = R
+    .label = საქაღალდის შეკეთება
+    .tooltiptext = შეჯამების მიმთითებელი ფაილის ახლიდან შედგენა
+    .accesskey = კ
 folder-props-include-in-global-search =
     .label = ამ საქაღალდის წერილების გათვალისწინება გლობალური ძიების შედეგებში
     .accesskey = G
 folder-props-check-for-new-messages =
     .label = ამ საქაღალდის ახალ წერილებზე შემოწმება
     .accesskey = c
-folder-props-rebuild-summary-explanation = ზოგჯერ საქაღალდის ინდექსის (.msf) ფაილი ზიანდება და წერილები შესაძლოა არ აისახოს ან აისახოს წაშლილად; საქაღალდის აღდგენამ შესაძლოა მოხსნას ეს პრობლემა.
-folder-props-rebuild-summary-confirm-title = საქაღალდის აღდგენა
+folder-props-rebuild-summary-explanation = ზოგჯერ საქაღალდის მიმთითებელი (.msf) ფაილი ზიანდება და წერილები შეიძლება არ გამოჩნდეს ან წაშლილი წერილები კლავ გამოჩნდეს; საქაღალდის შეკეთებით სწორდება ხოლმე ამგვარი ხარვეზები.
+folder-props-rebuild-summary-confirm-title = საქაღალდის შეკეთება
+folder-props-rebuild-summary-confirm-message = ამ საქაღალდის შეკეთებისას წაიშლება ადგილობრივად შენახული წერილები და ჩამოიტვირთება ახალი ასლები სერვერიდან, სადაც წერილები ხეუხლებლად რჩება. შესაძლოა გარკვეულ ხანს გასტანოს. განაგრძობთ?
 
 ## Retention tab (see retention.ftl)
 ##
