@@ -445,6 +445,9 @@ decrypt-and-copy-failures-multiple =
         [one] { $failures } სულ { $total } წერილიდან ვერ გაიშიფრა და ასლი არ აღებულა.
        *[other] { $failures } სულ { $total } წერილიდან ვერ გაიშიფრა და ასლი არ აღებულა.
     }
+# Shown once at the end of a filter run the user started from the message
+# list, when at least one filter or action failed.
+apply-filters-failed = ფილტრის მისადაგება ვერ დასრულდა წარმატებით. იხილეთ ფილტრის აღრციხვები დაწვრილებით.
 apply-filters-failed-open-log-button = ფილტრის აღრიცხვების გახსნა
 
 ## Spaces toolbar

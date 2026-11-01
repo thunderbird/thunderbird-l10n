@@ -36,6 +36,7 @@ policy-DisableFeedbackCommands = უკუკავშირის ბრძა�
 policy-DisableFileLink = Filelink-შესაძლებლობის გათიშვა.
 policy-DisableForgetButton = ისტორიის დავიწყების ღილაკთან წვდომის შეზღუდვა.
 policy-DisableFormHistory = ძიებისა და ველების ისტორიის დამახსოვრების შეზღუდვა.
+policy-DisableMacOSUserPolicies = დებულებების უგულებელყოფა მომხმარებლის პარამეტრებიდან და მომხმარებელს დაქვემდებარებული გამართვის პროფილებიდან macOS-ზე.
 policy-DisableMasterPasswordCreation = თუ მოქმედია, მთავარი პაროლი ვერ შეიქმნება.
 policy-DisableMessageForwardingFilters = ფილტრებით წერილების თავისთავად გადამისამართების შეზღუდვა.
 policy-DisablePasswordReveal2 = პაროლების გამჟღავნების აკრძალვა ანგარიშის შენახულ მონაცემებსა თუ პაროლის ველებში.
