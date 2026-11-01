@@ -4,6 +4,9 @@
 
 receipts-dialog-title = Saņemšanas apliecinājumi
 receipt-arrive-label = Kad pienāk apliecinājums:
+receipt-leave-inbox-control =
+    .label = Atstāt iesūtnē
+    .accesskey = i
 receipt-request-label = Kad saņemat saņemšanas apliecinājuma pieprasījumu:
 receipt-send-never-label =
     .label = Nesūtīt nekad

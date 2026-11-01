@@ -2,9 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+spam-log-title = Adaptīvais surogātpasta žurnāls
+spam-log-info-label =
+    .value = Adaptīvās surogātpasta kontroles darbību žurnāls.
 clear-log-button =
-    .label = Notīrīt žurnālu
-    .accesskey = N
+    .label = Notīrīt žurnālu (C)
+    .accesskey = C
 spam-log-dialog =
-    .buttonlabelaccept = Aizvērt
-    .buttonaccesskeyaccept = A
+    .buttonlabelaccept = Aizvērt (o)
+    .buttonaccesskeyaccept = o

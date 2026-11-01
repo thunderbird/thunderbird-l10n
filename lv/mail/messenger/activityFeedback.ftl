@@ -12,3 +12,14 @@ looking-for-messages-account = Meklēju jaunus ziņojumus lietotājam { $account
 # Variables:
 # $folderName (String) - The folder's name.
 looking-for-messages-folder = Meklē jaunus ziņojumus mapē { $folderName }…
+# Feedback message shown in the status bar while we're deleting messages in a
+# specific folder (and waiting for the remote operation to complete).
+# Variables:
+# $number (Number) - Number of messages being deleted.
+# $folderName (String) - The folder's name.
+deleting-message =
+    { $number ->
+        [one] Dzēš vienu ziņojumu no { $folderName }…
+        [zero] Dzēš { $number } ziņojumus no { $folderName }…
+       *[other] Dzēš { $number } ziņojumus no { $folderName }…
+    }

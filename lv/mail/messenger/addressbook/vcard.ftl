@@ -2,8 +2,18 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, you can obtain one at http://mozilla.org/MPL/2.0/.
 
+vcard-displayname = Parādāmais vārds
+vcard-displayname-placeholder =
+    .placeholder = { vcard-displayname }
 vcard-entry-type-label = Veids
+vcard-entry-type-home = Mājas
+vcard-entry-type-work = Darbs
+vcard-entry-type-none = Nav
+vcard-entry-type-custom = Pielāgots
 vcard-name-header = Vārds
+vcard-n-prefix = Prefikss
+vcard-n-add-prefix =
+    .title = Pievienot prefiksu
 vcard-n-firstname = Vārds
 vcard-n-add-firstname =
     .title = Pievienot vārdu
@@ -30,6 +40,7 @@ vcard-tel-label = Tālruņa numurs
 # Or "Mobile"
 vcard-entry-type-cell = Šūna
 vcard-entry-type-fax = Fakss
+vcard-entry-type-pager = Peidžers
 vcard-tz-header = Laika josla
 vcard-tz-add = Pievienot laika joslu
 vcard-impp2-header = Tūlītējā ziņojumapmaiņa
@@ -49,6 +60,7 @@ vcard-date-year = Gads
 vcard-adr-header = Adreses
 vcard-adr-add = Pievienot adresi
 vcard-adr-label = Adrese
+vcard-adr-delivery-label = Piegādes etiķete
 vcard-adr-street = Ielas adrese
 # Or "Locality"
 vcard-adr-locality = Pilsēta
@@ -59,6 +71,7 @@ vcard-adr-code = Pasta indekss
 vcard-adr-country = Valsts
 vcard-note-header = Piezīmes
 vcard-note-add = Pievienot piezīmi
+vcard-org-header = Organizatoriskās īpašības
 vcard-org-add = Pievienot organizācijas rekvizītus
 vcard-org-title = Virsraksts
 vcard-org-title-input =

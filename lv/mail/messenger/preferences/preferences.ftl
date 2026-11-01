@@ -606,6 +606,9 @@ view-saved-passwords-button =
     .label = Skatīt saglabātās paroles…
     .accesskey = S
 primary-password-session-description = Primārā parole aizsargā visas paroles un tiek ievadīta vienu reizi sesijas laikā.
+use-primary-password-label =
+    .label = Lietot galveno paroli (U)
+    .accesskey = U
 passwords-description = { -brand-short-name } var atcerēties paroles visiem jūsu kontiem.
 passwords-button =
     .label = Saglabātās paroles…
@@ -619,11 +622,32 @@ primary-password-button =
     .accesskey = M
 forms-primary-pw-fips-title = Šobrīd jūs esat FIPS režīmā. FIPS pieprasa netukšu galveno paroli.
 forms-master-pw-fips-desc = Paroles maiņa neizdevās
+spam-accounts-description = Šie iestatījumi attiecas uz visiem kontiem. Atsevišķu kontu opcijas var mainīt konta iestatījumos.
+spam-move-folder-label =
+    .label = Pārvietot uz surogātpasta mapi
+    .accesskey = o
 spam-delete-immediately-label =
     .label = Izdzēst uzreiz
     .accesskey = d
+spam-marked-manually-label =
+    .label = Kad atzīmēts manuāli (M)
+    .accesskey = M
+spam-detected-auto-label =
+    .label = Kad { -brand-short-name } to nosaka automātiski (T)
+    .accesskey = T
+spam-log-keep-label =
+    .label = Veiciet automātiskās surogātpasta noteikšanas žurnālu (E)
+    .accesskey = E
 confirm-reset-junk-training-title = Apstiprināt
 confirm-reset-junk-training-message = Vai tiešām atiestatīt pielāgojošā atsijātāja apmācības datus?
+scam-detection-description = { -brand-short-name } pārbauda ziņojumus, meklējot pikšķerēšanas saites un biežāk sastopamās epasta krāpniecības pazīmes.
+scam-detection-label =
+    .label = Brīdināt, lasot e-pastu, kas izskatās pēc krāpniecības (T)
+    .accesskey = T
+antivirus-check-description = Ļauj pretvīrusu programmatūrai pārbaudīt ienākošos ziņojumus atsevišķi, pirms tie tiek saglabāti jūsu datorā.
+antivirus-isolate-label =
+    .label = Atļaut pretvīrusu programmatūrai izolēt inficētos ienākošos epastus
+    .accesskey = A
 certificate-verify-description = Kad serveris pieprasa sertifikātu, lai pārbaudītu jūsu identitāti:
 certificate-choose-auto =
     .label = Izvēlieties sertifikātu automātiski (h)
@@ -661,6 +685,32 @@ security-devices-button =
 email-e2ee-header = E-pasta pilnīga šifrēšana
 email-e2ee-accounts-info = Šifrētus epastus varat lasīt tikai jūs un jūsu adresāti. Iestatiet epasta kontus un identitātes pilnīgai šifrēšanai sadaļā <a data-l10n-name="account-settings-url">Konta iestatījumi</a>.
 email-e2ee-automatism-intro = { -brand-short-name } var ieslēgt šifrēšanu, ja visiem ziņojuma saņēmējiem ir pieejamas derīgas un apstiprinātas atslēgas vai sertifikāti.
+email-e2ee-turn-on =
+    .label = Automātiski ieslēgt šifrēšanu, kad tas ir iespējams
+email-e2ee-turn-off =
+    .label = Automātiski izslēgt šifrēšanu, kad mainās adresāti un šifrēšana vairs nav iespējama.
+email-e2ee-turn-off-notify =
+    .label = Rādīt paziņojumu ikreiz, kad šifrēšana tiek automātiski izslēgta
+email-e2ee-automatism-note = Piezīme. Šifrēšanu var ieslēgt vai izslēgt arī ziņojuma rakstīšanas laikā. Atbildot uz šifrētu ziņojumu, šifrēšana vienmēr tiek ieslēgta.
+email-content = Epasta saturs
+remote-content-images-label =
+    .label = Atļaut attālinātu saturu (attēlus un stilus) (m)
+    .accesskey = m
+
+## DoH Section
+
+preferences-doh-setting-automatic =
+    .label = Automātiska aizsardzība (ieteicams) (D)
+    .accesskey = D
+preferences-doh-automatic-desc = { -brand-short-name } automātiski šifrē adrešu meklēšanu, ja tāda ir pieejama. Pārslēdzas atpakaļ uz standarta tīkla meklēšanu, ja rodas savienojuma problēma vai ja to pieprasa VPN/pārvaldīts tīkls.
+preferences-doh-increased-desc = Vienmēr izmanto izvēlēto pakalpojumu sniedzēju. Izmanto standarta savienojumu tikai tad, ja drošais pakalpojumu sniedzējs neizdodas.
+preferences-doh-setting-maximum =
+    .label = Maksimāla aizsardzība
+    .accesskey = M
+preferences-doh-maximum-desc = Stingri nepieciešams šifrēts DNS. Tīmekļa vietnes netiks ielādētas, ja drošais savienojums neizdosies.
+preferences-doh-off-standard-desc = Izmanto standarta interneta pakalpojumu sniedzēju vai tīklu, lai meklētu tīmekļa adreses
+preferences-doh-secure-header = Droša DNS (DNS, izmantojot HTTPS)
+preferences-doh-secure-description = Droša DNS sistēma šifrē meklēšanas pieprasījumus, ko { -brand-short-name } nosūta, lai atrastu tīmekļa vietnes, tādējādi pasargājot jūsu pārlūkošanas darbības no jebkādas tīkla uzraudzības.
 
 ## Keyservers
 
@@ -778,10 +828,17 @@ sync-disconnected-text = Vienādo visās savās ierīcēs savus e-pasta kontus, 
 qr-export-pane-header = Izgūt kontus { -brand-product-name } Mobile
 qr-export-create = Izveidot kvadrātkodu savu kontu izgūšanai
 qr-export-select-accounts = Atlasīt, kurus kontus izgūt:
+qr-export-passwords-legend = Paroles
+qr-export-include-passwords-label = Iekļaut kontu paroles QR kodā
+qr-export-web-sign-in-note = <strong>Piezīme.</strong> Kontiem, kas izmanto tīmekļa pierakstīšanos (piemēram, Gmail vai Yahoo), ir nepieciešama atkārtota autentifikācija jūsu ierīcē.
+qr-export-private-transfer-note = <strong>Privāta pārsūtīšana:</strong> Jūsu iestatījumi un paroles tiek pārsūtītas tieši no šī datora uz jūsu tālruni. Nekas netiek nosūtīts uz Mozilla serveriem vai tajos saglabāts.
+qr-export-screen-privacy-tip = <strong>Padoms.</strong> Kamēr tiek rādīts QR kods, turiet ekrānu paslēptu no citiem.
 qr-export-security-legend = Drošība
 qr-export-security-warning = Savai drošībai lūgums pārliecināties, ka atrodies privātā vidē, un nolasi kvadrātkodus no uzticamiem avotiem.
 qr-export-back = Atpakaļ
 qr-export-pane-header-mobile = Izgūt { -brand-product-name } mobilajai versijai
+qr-export-description-email-accounts = Pārsūtiet savus epasta kontus no šī datora uz { -brand-product-name } savā tālrunī, izmantojot QR kodu.
+qr-export-get-app-google-play = <a data-l10n-name="app-link">Iegūstiet { -brand-product-name } pakalpojumā Google Play</a>
 qr-export-select-accounts-title = Atlasīt izgūstamos kontus:
 qr-export-missing-accounts-support = Trūkst konta? Kontus, kas netiek atbalstīti { -brand-product-name } Android, nevar atlasīt. <a data-l10n-name="account-support-link">Uzzināt, kuri kontu veidi tiek atbalstīti</a>
 
