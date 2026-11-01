@@ -18,3 +18,7 @@
 <!ENTITY lightning.toolbar.multiweek.accesskey "V">
 <!ENTITY lightning.toolbar.month.label "Mēnesis">
 <!ENTITY lightning.toolbar.month.accesskey "M">
+<!ENTITY lightning.toolbar.calendarmenu.label "Kalendāra rūts">
+<!ENTITY lightning.toolbar.calendarmenu.accesskey "P">
+<!ENTITY lightning.toolbar.calendarpane.label "Rādīt kalendāra rūti">
+<!ENTITY lightning.toolbar.calendarpane.accesskey "P">

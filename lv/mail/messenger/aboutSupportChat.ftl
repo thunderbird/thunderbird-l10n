@@ -5,4 +5,7 @@
 chat-title = Tērzēšanas konti
 chat-table-heading-account = ID
 chat-table-heading-protocol = Protokols
+chat-table-heading-name = Vārds
 chat-table-heading-actions = Darbības
+chat-table-copy-debug-log = Kopēt atkļūdošanas žurnālu
+    .title = Kopēt kļūdas un citus žurnālus no šī tērzēšanas konta uz starpliktuvi. Var saturēt personisku informāciju, piemēram, tērzēšanas ziņojumus.

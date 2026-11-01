@@ -182,3 +182,48 @@ recurrence-details-until-all-day =
 recurrence-details-infinite-all-day =
     Notiek { $ruleString }
     spēkā no { $startDate }.
+# Variables:
+#   $ruleString - A rule as text
+#   $startDate - event start date (e.g. mm/gg/yyyy)
+#   $startTime - event start time (e.g. hh:mm (PM/AM))
+#   $endTime - event end time (e.g. hh:mm (PM/AM))
+#   $count - event occurrence times: number
+# E.g. "Occurs the first Sunday of every 3 month
+#  effective 1/1/2009 for 5 times
+#  from 5:00 PM to 6:00 PM"
+recurrence-repeat-count =
+    { $count ->
+        [one]
+            Notiek { $ruleString }
+            kopš { $startDate }  { $count } reizes
+            no { $startTime } līdz { $endTime }.
+       *[other]
+            Notiek { $ruleString }
+            kopš { $startDate }  { $count } reizes
+            no { $startTime } līdz { $endTime }.
+    }
+# Variables:
+#   $ruleString - A rule as text
+#   $startDate - event start date (e.g. mm/gg/yyyy)
+#   $untilDate - event end date (e.g. mm/gg/yyyy)
+#   $startTime - event start time (e.g. hh:mm (PM/AM))
+#   $endTime - event end time (e.g. hh:mm (PM/AM))
+# E.g. "Occurs every 2 weeks on Sunday and Friday
+#  effective 1/1/2009 until 1/1/2010
+#  from 5:00 PM to 6:00 PM"
+recurrence-repeat-details-until =
+    Notiek { $ruleString }
+    kopš { $startDate } līdz { $untilDate }
+    no { $startTime } līdz { $endTime }.
+# Variables:
+#   $ruleString - A rule as text
+#   $startDate - event start date (e.g. mm/gg/yyyy)
+#   $startTime - event start time (e.g. hh:mm (PM/AM))
+#   $endTime - event end time (e.g. hh:mm (PM/AM))
+# E.g. "Occurs day 3 of every 5 month
+#  effective 1/1/2009
+#  from 5:00 PM to 6:00 PM"
+recurrence-repeat-details-infinite =
+    Notiek { $ruleString }
+    spēkā no { $startDate }
+    no { $startTime } līdz { $endTime }.
