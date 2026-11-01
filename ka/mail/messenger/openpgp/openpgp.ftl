@@ -82,7 +82,7 @@ e2e-encrypt-subject =
     .label = დაიშიფროს OpenPGP-წერილის თემა
     .accesskey = თ
 e2e-encrypt-drafts =
-    .label = გასაგზავნი წერილების დაშიფრულად შენახვა
+    .label = წინასწარი ნამუშევრების დაშიფრულად შენახვა
     .accesskey = ხ
 # Do not translate "Autocrypt", it's the name of a standard.
 e2e-autocrypt-headers =

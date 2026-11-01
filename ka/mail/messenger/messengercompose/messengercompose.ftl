@@ -392,7 +392,7 @@ extra-address-rows-menu-button =
 public-recipients-notice-single = თქვენს წერილს ჰყავს ღია მიმღები. მიმღების გამხელის თავიდან აცილება შეგიძლიათ ფარული ასლის გამოყენებით.
 # Variables:
 # $count (Number) - the count of addresses in the "To" and "Cc" fields.
-public-recipients-notice-multi = წერილისა და ასლის { $count } მიმღები იხილავს ერთმანეთის მისამართს. ამის ასარიდებლად შეგიძლიათ გამოიყენოთ ფარული ველი Bcc.
+public-recipients-notice-multi = წერილისა და ასლის { $count } მიმღები იხილავს ერთმანეთის მისამართს. ამის ასარიდებლად შეგიძლიათ გამოიყენოთ ფარული ასლის ველი Bcc.
 many-public-recipients-bcc =
     .label = ფარული ასლებით შეცვლა
     .accesskey = ფ

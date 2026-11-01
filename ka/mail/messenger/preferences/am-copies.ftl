@@ -3,6 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 account-prefs-show-address-row-description = დატოვეთ მისამართის ველი ცარიელი, რომ ყოველთვის გამოჩნდეს მისამართების რიგი ახალი წერილის შედგენისას.
+account-prefs-sent-message-copies-description = აირჩიეთ, სად შეინახოს გაგზავნილი წერილების ასლები და დააყენეთ თვითდაგზავნისას ჩვეულებრივი ან ფარული ასლების წესები
+account-prefs-automatic-cc-bcc-description = შენიშვნა: ამ ველების მონიშვნა თავისთავად ამატებს Cc/Bcc-ველებს ახალი წერილების შედგენისას.
 account-prefs-sent-folder-on =
     .label = გაგზავნილების საქაღალდე:
     .accesskey = ზ
@@ -16,9 +18,9 @@ account-prefs-archives-folder-on =
 account-prefs-archives-other-folder =
     .label = სხვა საქაღალდე:
     .accesskey = ხ
-account-prefs-drafts-and-templates-title = გასაგზავნები და ნიმუშები
+account-prefs-drafts-and-templates-title = წინასწარი ნამუშევრები და ნიმუშები
 account-prefs-drafts-folder-on =
-    .label = გასაგზავნების საქაღალდე:
+    .label = წინასწარი ნამუშევრების საქაღალდე:
     .accesskey = ნ
 account-prefs-drafts-other-folder =
     .label = სხვა საქაღალდე:
