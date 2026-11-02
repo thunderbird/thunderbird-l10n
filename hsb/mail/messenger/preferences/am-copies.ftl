@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 account-prefs-show-address-row-description = Wostajće adresowe polo prózdne, zo byšće adresowu linku přeco pokazać, hdyž nowu powěsć započinaće.
+account-prefs-sent-message-copies-description = Wubjerće, hdźež maja so kopije pósłanych powěsćow składować a konfigurujće awtomatiske prawidła za Kopija/Schowana kopija
 account-prefs-sent-folder-on =
     .label = Rjadowak Pósłany na:
     .accesskey = P

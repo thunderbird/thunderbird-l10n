@@ -57,6 +57,10 @@ account-settings-encrypt-message-subject =
 account-settings-encrypt-saved-drafts =
     .label = Temu powěsće zaklučować
     .accesskey = z
+# Do not translate "Autocrypt", it's the name of a standard.
+account-settings-include-public-key-autocrypt =
+    .label = Zjawny kluč tutoho konta do hłowowych linkow powěsćow zasadźić (za kompatibelnosć z Autocrypt)
+    .accesskey = Z
 account-settings-preferred-encryption-type = Preferowana zaklučowanska technologija
 e2e-signing-description = Digitalna signatura přijimarjam zmóžnja, přepruwować, zo powěsć je so wot was pósłała, a hač jeje wobsah njeje so změnił. Zaklučowane powěsće so přeco po standardźe signuja.
 e2e-sign-message =
