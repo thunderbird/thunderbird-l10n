@@ -47,6 +47,7 @@ account-settings-sign-unencrypted-heading = Njekoděrowane powěsći digitalnje 
 account-settings-sign-unencrypted =
     .label = Njekoděrowane powěsći digitalnje signěrowaś
     .accesskey = N
+account-settings-sign-unencrypted-description = Wobkšuśujo dostawarjam, až powěsć wót was pśiźo a njejo se za pśenjasenje změniła. Skoděrowane powěsći se pó standarźe signěruju.
 account-settings-advanced-encryption = Rozšyrjene nastajenja koděrowanja
 account-settings-encrypt-message-subject =
     .label = Temu powěsći koděrowaś

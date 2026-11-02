@@ -47,6 +47,7 @@ account-settings-sign-unencrypted-heading = Njezaklučowane powěsće digitalnje
 account-settings-sign-unencrypted =
     .label = Njezaklučowane powěsće digitalnje signować
     .accesskey = N
+account-settings-sign-unencrypted-description = Wobkrućuje přijimarjam, zo powěsć wot was přińdźe a njeje so za přenjesenje změniła. Zaklučowane powěsće so po standardźe signuja.
 account-settings-advanced-encryption = Rozšěrjene nastajenja zaklučowanja
 account-settings-attach-public-key-when-signing =
     .label = Připowěsńće zjawny kluč za tutu identitu, hdyž so powěsće digitalnje signuja

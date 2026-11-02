@@ -480,6 +480,9 @@ decrypt-and-copy-failures-multiple =
         [few] { $failures } z { $total } powěsćow njejsu se dešifrěrowali a kopěrowali.
        *[other] { $failures } z { $total } powěsćow njejo se dešifrěrowało a kopěrowało.
     }
+# Shown once at the end of a filter run the user started from the message
+# list, when at least one filter or action failed.
+apply-filters-failed = Wuwjeźony filter njejo se wuspěšnje dokóńcył. Póglědajśo do protokola filtrow za drobnostki.
 apply-filters-failed-open-log-button = Protokol filtrow wócyniś
 
 ## Spaces toolbar

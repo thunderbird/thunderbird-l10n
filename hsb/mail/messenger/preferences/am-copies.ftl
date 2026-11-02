@@ -4,6 +4,7 @@
 
 account-prefs-show-address-row-description = Wostajće adresowe polo prózdne, zo byšće adresowu linku přeco pokazać, hdyž nowu powěsć započinaće.
 account-prefs-sent-message-copies-description = Wubjerće, hdźež maja so kopije pósłanych powěsćow składować a konfigurujće awtomatiske prawidła za Kopija/Schowana kopija
+account-prefs-automatic-cc-bcc-description = Kedźbu: Hdyž tute kontrolne kašćiki zmóžnjeće, so lince Kopija/Schowana kopija awtomatisce přidawaja, hdyž nowe powěsće pisaće.
 account-prefs-sent-folder-on =
     .label = Rjadowak Pósłany na:
     .accesskey = P
