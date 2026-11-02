@@ -36,7 +36,7 @@ no-such-newsgroup = このサーバー上のニュースグループ { $newsgrou
 download-headers-dialog-title = ヘッダーのダウンロード:
 # Variables:
 # $count (Number) - The number of new message headers.
-download-headers-info-text = このニュースグループにはダウンロードしていないヘッダーが { $count } あります。
+download-headers-info-text = このニュースグループにはダウンロードしていないヘッダーが { $count } 件あります。
 download-all-headers =
     .label = ヘッダーをすべてダウンロード
     .accesskey = D
@@ -65,6 +65,12 @@ cancel-confirm = 本当にキャンセルしますか？
 # Variables:
 # $newsgroup (String) - The name of the newsgroup.
 auto-subscribe-text = ニュースグループ { $newsgroup } を購読しますか？
+
+## Unknown News Server Dialog
+
+# Variables:
+# $server (String) - The hostname:port of the news server, e.g. news.example.com:119.
+unknown-news-server-text = このリンクは { $server } を指していますが、このニュースサーバーのアカウントがセットアップされていません。それでも接続しますか？
 
 ## News Server Credentials
 

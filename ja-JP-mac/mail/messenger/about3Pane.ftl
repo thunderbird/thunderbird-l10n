@@ -546,7 +546,7 @@ folder-delete-confirm = 本当にこのフォルダーを削除してもよろ�
 # trash folder, and so will be destroyed straight away.
 # Variables:
 #   $name (String) - Name of the folder being deleted.
-folder-delete-no-trash-confirm = このフォルダーを削除するとその中のすべてのメッセージとサブフォルダーが削除され、取り消すことはできません。本当にこのフォルダーを削除してもよろしいですか: '{ $name }'
+folder-delete-no-trash-confirm = この { $name } フォルダーを削除すると、その中のすべてのメッセージとサブフォルダーが削除され、取り消すことはできません。本当にこのフォルダーを削除してもよろしいですか？
 # Variables:
 #   $name (String) - Name of the folder being deleted.
 folder-delete-filter-confirm = { $name } フォルダーを削除すると関連付けられたフィルターが無効になります。本当にこのフォルダーを削除しますか？
