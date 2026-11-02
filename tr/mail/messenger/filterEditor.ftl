@@ -148,6 +148,9 @@ filter-running-message =
     Süzgeçlerin uygulanmasına devam etmek istiyor musunuz?
 filter-stop-button = Durdur
 filter-continue-button = Devam et
+# Shown once at the end of a filter run the user started, when at least one
+# filter or action failed. The individual failures are in the filter log.
+filter-run-failed = Bazı süzgeçler uygulanamadı. Ayrıntılar için süzgeç günlüğüne bakın.
 filter-run-failed-open-log-button = Süzgeç günlüğünü aç
 
 ## Filter Editor

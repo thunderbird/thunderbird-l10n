@@ -452,6 +452,10 @@ decrypt-and-copy-failures-multiple =
         [one] { $total } iletiden { $failures } tanesinin şifresi çözülemedi ve bu iletiler kopyalanmadı.
        *[other] { $total } iletiden { $failures } tanesinin şifresi çözülemedi ve bu iletiler kopyalanmadı.
     }
+# Shown once at the end of a filter run the user started from the message
+# list, when at least one filter or action failed.
+apply-filters-failed = Süzme başarıyla tamamlanamadı. Ayrıntılar için süzgeç günlüğünü kontrol edin.
+apply-filters-failed-open-log-button = Süzgeç günlüğünü aç
 
 ## Spaces toolbar
 

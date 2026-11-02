@@ -261,6 +261,7 @@ message-verification-request2 = { $user }, { $userReceiving } kullanıcısını 
 #    $reason is the reason given why the verification was cancelled.
 message-verification-cancel2 = { $user }, doğrulamayı şu nedenle iptal etti: { $reason }
 message-verification-done = Doğrulama tamamlandı.
+message-decryption-error2 = Bu iletinin içeriğinin şifresi çözülemedi. Şifreleme anahtarları otomatik olarak yeniden talep edilecek.
 message-decryption-error = Bu iletinin içeriğinin şifresi çözülemedi. Şifreleme anahtarlarını diğer cihazlarınızdan istemek için bu iletiye sağ tıklayın.
 message-decrypting = Şifre çözülüyor…
 message-redacted = İleti gizlendi.

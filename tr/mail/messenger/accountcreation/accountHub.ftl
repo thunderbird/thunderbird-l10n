@@ -241,6 +241,9 @@ account-hub-protocol-imap = Cihazlar arasında eşitle
 account-hub-protocol-microsoft = Exchange veya Microsoft 365
 account-hub-protocol-pop3 = Cihaza indir
 account-hub-oauth-unsupported-title = Ek yapılandırma gerekiyor
+# Note: 'Advanced configuration' is the text of the link/button at the bottom of the form (e.g., account-hub-exchange-type-advanced-config)
+# 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
+account-hub-oauth-unsupported-description = { -brand-short-name } bu sunucu için OAuth2’yi otomatik olarak yapılandıramıyor. Hesabı oluşturmak için “Gelişmiş yapılandırma”yı seçin, ardından kurulumu “Hesap Ayarları”ndan tamamlayın. <a data-l10n-name="oauth-support-link">OAuth2 kurulumu için yardım alın.</a>
 account-hub-username-help-text = Genellikle tam e-posta adresiniz
 account-hub-port-help-text = Boş bırakılırsa { -brand-short-name } portu keşfetmeye çalışır.
 account-hub-notification-show-more = Daha fazla göster
