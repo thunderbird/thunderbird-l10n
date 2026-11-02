@@ -4,6 +4,9 @@
 
 # Instant messaging account status window for Thunderbird
 accounts-window-title = Състояние на незабавните съобщения
+account-manager-add-account =
+    .label = { add-account-label }
+    .accesskey = Д
 account-manager-close =
     .label = Затваряне
     .accesskey = З
