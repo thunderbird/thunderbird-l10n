@@ -39,6 +39,7 @@ folder-props-check-for-new-messages =
     .accesskey = y
 folder-props-rebuild-summary-explanation = Bazen klasörün dizin dosyası (.msf) hasar gördüğü için iletiler eksik görünebilir veya silinmiş iletiler görünmeye devam edebilir. Klasörü onarmak bu sorunları çözebilir.
 folder-props-rebuild-summary-confirm-title = Klasörü onar
+folder-props-rebuild-summary-confirm-message = Bu klasör onarıldığında yerel iletiler silinir ve sunucudan yeni kopyaları indirilir, sunucudaki iletiler ise değişmeden kalır. Bu işlem biraz zaman alabilir. Devam edilsin mi?
 
 ## Retention tab (see retention.ftl)
 ##

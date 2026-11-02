@@ -3,13 +3,29 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 offline-dialog-title = Çevrimdışı Ayarları
+autodetect-connection-label =
+    .label = İnternet bağlantısı algılandığında modu otomatik olarak değiştir
+    .accesskey = n
 offline-startup-label = { -brand-short-name } açılırken:
 status-radio-last-used =
     .label = Son kullanılan bağlantı modunu kullan
     .accesskey = S
+status-radio-ask-connect =
+    .label = İnternete bağlanıp bağlanmayacağını sor
+    .accesskey = t
+status-radio-start-online =
+    .label = Çevrimiçi başlat
+    .accesskey = e
+status-radio-start-offline =
+    .label = Çevrimdışı başlat
+    .accesskey = v
+going-online-prompt = Gönderilmemiş’te bekleyen iletileri gönder
 going-online-send =
     .label = Evet, otomatik gönder
     .accesskey = E
+going-online-keep =
+    .label = Hayır, Gönderilmemiş’te tut
+    .accesskey = H
 going-online-ask-send =
     .label = Göndermeden önce sor
     .accesskey = ö

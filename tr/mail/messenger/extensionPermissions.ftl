@@ -24,6 +24,7 @@ webext-perms-description-messagesMove = E-posta iletilerinizi kopyalama ve taş�
 webext-perms-description-messagesDelete = E-posta iletilerinizi kalıcı olarak silme
 webext-perms-description-messagesRead2 = E-posta iletilerinizi okuma
 webext-perms-description-messagesUpdate = E-posta iletilerinizin özelliklerini ve etiketlerini değiştirme
+webext-perms-description-messages-send = Hiçbir görsel bildirim göstermeden sizin adınıza otomatik olarak toplu e-posta gönderme. Eklentinin gönderim geçmişini incelemek için Etkinlik Yöneticisi’ni kullanın.
 webext-perms-description-messages-save = E-posta iletilerini sizden onay almadan otomatik olarak taslak veya şablon şeklinde kaydetme
 webext-perms-description-messagesTags = İleti etiketleri oluşturma, değiştirme ve silme
 webext-perms-description-messagesTagsList = İleti etiketlerini listeleme

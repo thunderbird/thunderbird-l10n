@@ -36,6 +36,7 @@ policy-DisableFeedbackCommands = Yardım menüsünden geri bildirim göndermeye 
 policy-DisableFileLink = Filelink özelliğini devre dışı bırak.
 policy-DisableForgetButton = Unut düğmesine erişimi engelle.
 policy-DisableFormHistory = Arama ve form geçmişini hatırlama.
+policy-DisableMacOSUserPolicies = macOS’te kullanıcı tercihlerinden ve kullanıcı kapsamındaki yapılandırma profillerinden gelen ilkeleri yok say.
 policy-DisableMasterPasswordCreation = True olarak ayarlanırsa ana parola oluşturulamaz.
 policy-DisableMessageForwardingFilters = İleti süzgeçlerinin iletileri otomatik olarak iletmesini engelle.
 policy-DisablePasswordReveal2 = Kayıtlı hesaplarda veya parola alanlarında parolaların görüntülenmesine izin verme.
