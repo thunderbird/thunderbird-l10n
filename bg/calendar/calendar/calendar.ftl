@@ -24,6 +24,10 @@ ask-save-title-event = Запазване на събитие
 ask-save-title-task = Запазване на задача
 ask-save-message-event = Събитието не е запазено. Искате ли да запазите това събитие?
 ask-save-message-task = Задачата не е запазена. Искате ли да запазите тази задача?
+# All day checkbox label, used both for events and tasks
+calendar-item-all-day =
+    .label = Цял ден
+    .accesskey = Ц
 # Event Dialog Warnings
 warning-end-before-start = Въведената крайната дата предхожда началната дата
 warning-until-date-before-start = Крайната дата е преди началната дата
@@ -154,6 +158,9 @@ week-title-label =
     .aria-label = Седмица { $title }
 calendar-none =
     .label = Никой
+# Variables:
+#   $fileName (String) - The backup file name, e.g. 'local-2020-05-11T21-30-17.sqlite'.
+too-new-dbschema-error-text = Данните от календара ви са несъвместими с тази версия на { -brand-short-name }. Данните в календара в потребителския ви профил бяха актуализирани от по-нова версия на { -brand-short-name }. Създадено е резервно копие на файла с данни, наречено „{ $fileName }“. Продължаване с новосъздадения файл с данни.
 imip-bar-unsupported-text = Това съобщение съдържа събитие, което това издание на { -brand-short-name } не може да обработи.
 # Error strings
 # @name UID_NOT_FOUND
@@ -545,6 +552,11 @@ format-date-long = { $dayName }, { $dayIndex } { $monthName } { $year }
 day-header = { $dayName } { $dayIndex }
 day-header-elem =
     .label = { day-header }
+# LOCALIZATION NOTE (calendar-multiday-hour-slot):
+# Label for a time slot in the day/week calendar views.
+#    $date will be replaced with the day label, e.g. "Monday 6 Oct.";
+#    $time will be replaced with the time of the slot, e.g. "9:00 AM".
+calendar-multiday-hour-slot = { $date }, { $time }
 # LOCALIZATION NOTE (datetime-interval-task-without-date):
 # used for task without start and due date
 # (showed only in exported calendar in Html format)
@@ -1105,3 +1117,11 @@ event-recurrence-forever =
 attendees-tab-label = Участници ({ $count }):
 # $count - the number of attachments
 attachments-tab-label = Прикачени файлове ({ $count }):
+# Variables:
+#   $docTitle (String) - The date or view label for the current calendar view.
+calendar-window-title = { $docTitle } - { -brand-full-name }
+calendar-window-title-base = { -brand-full-name }
+# Variables:
+#   $calendarName (String) - Calendar name as given by the user.
+#   $location (String) - The calendar server location.
+calendar-auth-enter-user-password-for-calendar = „{ $calendarName }“ ({ $location }) запитва за вашето потребителско име и парола.
