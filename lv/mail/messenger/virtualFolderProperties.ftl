@@ -16,6 +16,10 @@ virtual-folder-sources-chosen =
     }
 virtual-folder-no-search-folders-selected = Lai meklētu saglabāto meklēšanas mapi, jums jāizvēlas vismaz viena mape.
 virtual-folder-missing-value-title = Trūkst meklēšanas vērtības
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+virtual-folder-missing-value-rule = Jāievada vērtība meklētajam "{ $attribute } { $operator }" pirms šī meklējuma saglabāšanas.
 virtual-folder-properties-title = Jauna saglabātā meklēšanas mape
 # Variables:
 #   $folderName (String): The name of the saved search folder.
