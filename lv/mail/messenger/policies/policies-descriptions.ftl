@@ -27,7 +27,7 @@ policy-DisableAppUpdate = Liegt { -brand-short-name } atjaunošanu.
 policy-DisableChat = Atspējot tērzēšanas iespēju.
 policy-DisableCommunity = Nerādīt saskarnē kopienas iespējas (piemēram, “Ziedot”, “Iesaistīties”, “Dalīties ar ierosinājumiem” utt.)
 policy-DisableDataCollectionSettings = Neļaut lietotājiem mainīt datu ievākšanas iestatījumus.
-policy-DisableDefaultClientAgent = Liegt noklusētajam klienta aģentam veikt jebkādas darbības. Attiecas tikai uz Windows; citās platformās aģenta nav.
+policy-DisableDefaultClientAgent = Liegt noklusējuma klienta aģentam veikt jebkādas darbības. Attiecas tikai uz Windows; citās platformās aģenta nav.
 policy-DisableDeveloperTools = Liegt piekļuvi izstrādātāju rīkiem.
 policy-DisableFeedbackCommands = Liegt komandas, kas sūta atsauksmes no Palīdzība izvēlnes (Sūtīt atsauksmi un Ziņot par krāpnieku lapu).
 policy-DisableForgetButton = Liegt pieeju Aizmirst pogai.
@@ -44,9 +44,9 @@ policy-DisableSecurityBypass = Liegt lietotājam apiet noteiktus drošības brī
 policy-DisableSystemAddonUpdate = Liegt { -brand-short-name } atjaunot un uzstādīt sistēmas papildinājumus.
 policy-DisableTelemetry = Atslēgt telemetriju.
 policy-DisableUpdateSettings = Neļaut lietotājiem mainīt lietotnes atjaunināšanas iestatījumus.
-policy-DisplayMenuBar = Noklusēti rādīt izvēlnes joslu.
+policy-DisplayMenuBar = Pēc noklusējuma rādīt izvēlnes joslu.
 policy-DNSOverHTTPS = Iestatīt DNS caur HTTPS.
-policy-DontCheckDefaultClient = Startējot liegt noklusētā klienta pārbaudi.
+policy-DontCheckDefaultClient = Atspējot noklusējuma klienta pārbaudi pēc palaišanas.
 policy-DownloadDirectory = Iestatīt un noslēgt lejuplādes mapi.
 # “lock” means that the user won’t be able to change this setting
 policy-EnableTrackingProtection = Ļaut vai liegt satura bloķēšanu un pēc izvēles to noslēgt.
@@ -65,7 +65,7 @@ policy-LegacyProfiles = Atslēgt iespēja, kas katram uzstādījumam nodrošina 
 
 ## Do not translate "SameSite", it's the name of a cookie attribute.
 
-policy-LegacySameSiteCookieBehaviorEnabled = Ieslēgt noklusēto mantoto SameSite sīkfailu uzvedības iestatījumu.
+policy-LegacySameSiteCookieBehaviorEnabled = Iespējot noklusējuma novecojušo SameSite sīkdatnes uzvedības iestatījumu.
 policy-LegacySameSiteCookieBehaviorEnabledForDomainList = Noteiktās vietnēs atgriezties pie novecojušās SameSite uzvedības sīkdatnēm.
 
 ##
