@@ -9,7 +9,7 @@
 <!ENTITY identityDesc.label "Katram kontam ir identitāte jeb informācija, ko citi cilvēki redz, lasot jūsu vēstules.">
 <!ENTITY name.label "Jūsu vārds:">
 <!ENTITY name.accesskey "v">
-<!ENTITY email.label "Epasta adrese:">
+<!ENTITY email.label "E-pasta adrese:">
 <!ENTITY email.accesskey "E">
 <!ENTITY catchAll.label "Atbildēt ar šo identitāti, ja piegādes galvenes atbilst:">
 <!ENTITY catchAll.accesskey "b">
