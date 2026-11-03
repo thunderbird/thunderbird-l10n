@@ -475,7 +475,7 @@
 <!ENTITY nextMsgButton.tooltip "Pāriet uz nākamo vēstuli">
 <!ENTITY previousButton.tooltip "Pāriet uz iepriekšējo nelasīto vēstuli">
 <!ENTITY previousMsgButton.tooltip "Pāriet uz iepriekšējo vēstuli">
-<!ENTITY goForwardButton.tooltip "Doties vienu vēstuli uz priekšu">
+<!ENTITY goForwardButton.tooltip "Doties vienu ziņojumu uz priekšu">
 <!ENTITY goBackButton.tooltip "Doties uz iepriekšējo ziņojumu">
 <!ENTITY markButton.tooltip "Atzīmēt vēstules">
 <!ENTITY printButton.tooltip "Drukāt šo vēstuli">
