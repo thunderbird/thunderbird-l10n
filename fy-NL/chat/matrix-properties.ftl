@@ -267,6 +267,7 @@ message-verification-request2 = { $user } wol { $userReceiving } ferifiearje.
 #    $reason is the reason given why the verification was cancelled.
 message-verification-cancel2 = { $user } hat de ferifikaasje annulearre mei de reden: { $reason }
 message-verification-done = Ferifikaasje foltôge.
+message-decryption-error2 = Kin de ynhâld fan dit berjocht net ûntsiferje. Fersiferingskaaien wurde automatysk opnij oanfrege.
 message-decryption-error = Koe de ynhâld fan dit berjocht net ûntsiferje. Klik mei jo rjochtermûsknop op dit berjocht, om fersiferingskaaien fan jo oare apparaten oan te freegjen.
 message-decrypting = Untsiferje…
 message-redacted = Berjocht is bewurke.
