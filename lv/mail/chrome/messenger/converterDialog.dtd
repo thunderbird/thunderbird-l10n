@@ -5,5 +5,5 @@
 <!ENTITY converterDialog.continueButton "Turpināt">
 <!ENTITY converterDialog.cancelButton "Atcelt">
 <!ENTITY converterDialog.finishButton "Pabeigt">
-<!ENTITY converterDialog.complete "Pārveidošana ir pabeigta. &brandShortName; tagad tiks pārstartēts.">
+<!ENTITY converterDialog.complete "Pārveidošana ir pabeigta. &brandShortName; tagad tiks palaist no jauna.">
 <!ENTITY converterDialog.error "Pārveidošana neizdevās.">
