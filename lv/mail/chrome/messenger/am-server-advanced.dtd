@@ -22,7 +22,7 @@
 <!ENTITY otherUsersNamespace.accesskey "C">
 <!ENTITY overrideNamespaces.label "Ļaut serverim ignorēt šīs nosaukumvietas">
 <!ENTITY overrideNamespaces.accesskey "a">
-<!ENTITY pop3DeferringDesc.label "Lejuplādējot epastu no šī konta servera, jaunu vēstuļu glabāšanai izmantot šo mapi:">
+<!ENTITY pop3DeferringDesc.label "Kad lejupielādē pastu no šī konta servera, jaunu ziņojumu glabāšanai izmantot šo mapi:">
 <!ENTITY accountInbox.label "Šī konta iesūtne">
 <!ENTITY accountInbox.accesskey "k">
 <!ENTITY deferToServer.label "Cita konta iesūtne">
