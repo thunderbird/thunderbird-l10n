@@ -163,6 +163,8 @@ calendar-prompt-this-event =
 calendar-prompt-all-events =
     .label = Pob digwyddiad
 calendar-prompt-delete-button = Dileu
+calendar-dialog-edit-button = Golygu
+calendar-event-create-edit-save-button = Cadw
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =

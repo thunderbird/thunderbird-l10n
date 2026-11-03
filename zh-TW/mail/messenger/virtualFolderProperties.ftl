@@ -10,6 +10,11 @@
 #   $count - number of chosen folders
 virtual-folder-sources-chosen = 選擇了 { $count } 個信件匣
 virtual-folder-no-search-folders-selected = 請先選取至少一個信件匣，才能建立即時搜尋信件匣。
+virtual-folder-missing-value-title = 未輸入搜尋值
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+virtual-folder-missing-value-rule = 請輸入「{ $attribute } { $operator }」的關鍵字值再儲存此搜尋結果。
 virtual-folder-properties-title = 新增即時搜尋信件匣
 # Variables:
 #   $folderName (String): The name of the saved search folder.

@@ -15,6 +15,7 @@ virtual-folder-sources-chosen =
        *[other] { $count } izvēlētas mapes
     }
 virtual-folder-no-search-folders-selected = Lai meklētu saglabāto meklēšanas mapi, jums jāizvēlas vismaz viena mape.
+virtual-folder-missing-value-title = Trūkst meklēšanas vērtības
 virtual-folder-properties-title = Jauna saglabātā meklēšanas mape
 # Variables:
 #   $folderName (String): The name of the saved search folder.

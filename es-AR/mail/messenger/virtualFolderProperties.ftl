@@ -14,6 +14,11 @@ virtual-folder-sources-chosen =
        *[other] { $count } carpetas seleccionadas
     }
 virtual-folder-no-search-folders-selected = Debe elegir al menos una carpeta en la que buscar para guardar la búsqueda:
+virtual-folder-missing-value-title = Falta el valor de búsqueda
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+virtual-folder-missing-value-rule = Ingrese un valor para el término de búsqueda "{ $attribute } { $operator }" antes de guardar esta búsqueda.
 virtual-folder-properties-title = Nueva carpeta de búsquedas guardadas
 # Variables:
 #   $folderName (String): The name of the saved search folder.

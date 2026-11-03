@@ -128,6 +128,8 @@ calendar-prompt-this-event =
 calendar-prompt-all-events =
     .label = 所有事件
 calendar-prompt-delete-button = 刪除
+calendar-dialog-edit-button = 編輯
+calendar-event-create-edit-save-button = 儲存
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =

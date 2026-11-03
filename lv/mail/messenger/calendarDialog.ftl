@@ -52,3 +52,5 @@ calendar-prompt-this-event =
 calendar-prompt-all-events =
     .label = Visi notikumi
 calendar-prompt-delete-button = Izdzēst
+calendar-dialog-edit-button = Labot
+calendar-event-create-edit-save-button = Saglabāt

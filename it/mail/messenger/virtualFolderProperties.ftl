@@ -14,6 +14,11 @@ virtual-folder-sources-chosen =
        *[other] { $count } cartelle selezionate
     }
 virtual-folder-no-search-folders-selected = Si deve scegliere almeno una cartella per cercare la cartella di ricerca salvata.
+virtual-folder-missing-value-title = Valore di ricerca mancante
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+virtual-folder-missing-value-rule = Inserire un valore per il termine di ricerca “{ $attribute } { $operator }” prima di salvare questa ricerca.
 virtual-folder-properties-title = Cartella ricerca appena salvata
 # Variables:
 #   $folderName (String): The name of the saved search folder.

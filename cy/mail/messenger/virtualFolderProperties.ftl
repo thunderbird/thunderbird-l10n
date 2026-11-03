@@ -15,6 +15,11 @@ virtual-folder-sources-chosen =
        *[other] Wedi dewis { $count } ffolder
     }
 virtual-folder-no-search-folders-selected = Rhaid dewis o leiaf un ffolder i chwilio am y ffolder chwilio a gadwyd.
+virtual-folder-missing-value-title = Gwerth Chwilio ar Goll
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+virtual-folder-missing-value-rule = Rhowch werth ar gyfer y term chwilio "{ $attribute } { $operator }" cyn cadw'r chwiliad hwn.
 virtual-folder-properties-title = Ffolder Chwilio wedi'i Chadw Newydd
 # Variables:
 #   $folderName (String): The name of the saved search folder.
