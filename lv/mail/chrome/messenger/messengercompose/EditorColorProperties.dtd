@@ -5,7 +5,7 @@
 <!-- Window title -->
 <!ENTITY windowTitle.label "Lapas krāsas un fons">
 <!ENTITY pageColors.label "Lapas krāsas">
-<!ENTITY defaultColorsRadio.label "Lasītāja noklusētās krāsas (lapā krāsas neiestatīt)">
+<!ENTITY defaultColorsRadio.label "Lasītāja noklusējuma krāsas (neiestatīt krāsas lapā)">
 <!ENTITY defaultColorsRadio.accessKey "L">
 <!ENTITY defaultColorsRadio.tooltip "Izmantot krāsas iestatījumus tikai no skatītāja (lasītāja) pārlūka krāsām">
 <!ENTITY customColorsRadio.label "Lietot pielāgotas krāsas:">

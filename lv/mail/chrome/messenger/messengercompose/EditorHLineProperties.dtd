@@ -19,6 +19,6 @@
 <!ENTITY rightRadio.accessKey "l">
 <!ENTITY threeDShading.label "3-D ēnojums">
 <!ENTITY threeDShading.accessKey "d">
-<!ENTITY saveSettings.label "Lietot kā noklusēto">
+<!ENTITY saveSettings.label "Izmantot kā noklusējumu">
 <!ENTITY saveSettings.accessKey "n">
 <!ENTITY saveSettings.tooltip "Saglabā šos iestatījumus, lai tos izmantotu, ievietojot jaunas līmeniskas līnijas">

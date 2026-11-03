@@ -8,7 +8,7 @@
 <!ENTITY chooseColor2.label "Ievadiet HTML krāsu virkni">
 <!ENTITY chooseColor2.accessKey "H">
 <!ENTITY setColorExample.label "(piemēram: &quot;#0000ff&quot; vai &quot;blue&quot;):">
-<!ENTITY default.label "Noklusētā">
+<!ENTITY default.label "Noklusējums">
 <!ENTITY default.accessKey "N">
 <!ENTITY palette.label "Palete:">
 <!ENTITY standardPalette.label "Standarta">

@@ -7,8 +7,8 @@ about-dialog-title = Par { -brand-full-name }
 release-notes-link = Laidiena piezīmes
 update-check-for-updates-button = Pārbaudīt atjaunojumus
     .accesskey = P
-update-update-button = Pārstartēt, lai atjaunotu { -brand-shorter-name }
-    .accesskey = r
+update-update-button = Palaist no jauna, lai atjauninātu { -brand-shorter-name }
+    .accesskey = P
 update-checking-for-updates = Meklē atjaunojumus…
 update-downloading-message = Lejuplādē atjaunojumu —<span data-l10n-name="download-status"></span>
 update-applying = Uzstāda atjaunojumu…

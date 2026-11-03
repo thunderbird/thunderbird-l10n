@@ -87,8 +87,8 @@ choose-messenger-language-description = Jāizvēlas { -brand-short-name } izmant
 manage-messenger-languages-button =
     .label = Iestatīt izvēles...
     .accesskey = s
-confirm-messenger-language-change-description = Pārstartēt { -brand-short-name }, lai pielietotu izmaiņas
-confirm-messenger-language-change-button = Pielietot un pārstartēt
+confirm-messenger-language-change-description = Palaist { -brand-short-name } no jauna, lai pielietotu šīs izmaiņas
+confirm-messenger-language-change-button = Pielietot un palaist no jauna
 update-setting-write-failure-title = Kļūda atjauninājumu iestatījumu saglabāšanā
 # Variables:
 #   $path (String) - Path to the configuration file
