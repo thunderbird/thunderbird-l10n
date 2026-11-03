@@ -15,6 +15,11 @@ virtual-folder-sources-chosen =
        *[other] Vybráno { $count } složek
     }
 virtual-folder-no-search-folders-selected = Pro složku uloženého hledání musíte vybrat alespoň jednu složku, kterou chcete prohledávat.
+virtual-folder-missing-value-title = Chybí hodnota vyhledávání
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+virtual-folder-missing-value-rule = Před uložením tohoto vyhledávání zadejte hodnotu hledaného výrazu „{ $attribute } { $operator }“.
 virtual-folder-properties-title = Nová složka uloženého hledání
 # Variables:
 #   $folderName (String): The name of the saved search folder.

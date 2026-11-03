@@ -17,6 +17,10 @@ virtual-folder-sources-chosen =
     }
 virtual-folder-no-search-folders-selected = Dyrbiće znajmjeńša jedyn rjadowak wubrać, zo byšće za składowanym pytanskim rjadowakom pytał.
 virtual-folder-missing-value-title = Pytanska hódnota faluje
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+virtual-folder-missing-value-rule = Zapodajće hódnotu za pytanski wuraz "{ $attribute } { $operator }", prjedy hač tute pytanje składujeće.
 virtual-folder-properties-title = Nowy rjadowak za składowane pytanje
 # Variables:
 #   $folderName (String): The name of the saved search folder.

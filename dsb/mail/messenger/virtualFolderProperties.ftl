@@ -16,6 +16,11 @@ virtual-folder-sources-chosen =
        *[other] { $count } zarědnikow wubrane
     }
 virtual-folder-no-search-folders-selected = Musyśo nanejmjenjej jaden zarědnik za pytanje za zarědnikom skłaźonego pytanja wubraś.
+virtual-folder-missing-value-title = Pytańska gódnota felujo
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+virtual-folder-missing-value-rule = Zapódajśo gódnotu za pytański wuraz "{ $attribute } { $operator }", nježli až toś to pytanje składujośo.
 virtual-folder-properties-title = Nowy składowany pytański zarědnik
 # Variables:
 #   $folderName (String): The name of the saved search folder.

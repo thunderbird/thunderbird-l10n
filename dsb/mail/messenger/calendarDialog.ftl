@@ -149,6 +149,8 @@ calendar-prompt-this-event =
 calendar-prompt-all-events =
     .label = Wšykne tšojenja
 calendar-prompt-delete-button = Lašowaś
+calendar-dialog-edit-button = Wobźěłaś
+calendar-event-create-edit-save-button = Składowaś
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =
