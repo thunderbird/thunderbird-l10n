@@ -36,6 +36,7 @@ policy-DisableFeedbackCommands = Көмек мәзірінен кері байл
 policy-DisableFileLink = Filelink мүмкіндігін сөндіру.
 policy-DisableForgetButton = Ұмыту батырмасына қатынауды бұғаттау.
 policy-DisableFormHistory = Іздеу және формалар тарихын сақтамау.
+policy-DisableMacOSUserPolicies = macOS жүйесінде пайдаланушы баптаулары мен пайдаланушы көріну аймағындағы конфигурация профильдерінің саясаттарын елемеу.
 policy-DisableMasterPasswordCreation = Мәні true болса, мастер-парольді орнату мүмкін болмайды.
 policy-DisableMessageForwardingFilters = Хабарлама сүзгілеріне хабарламаларды автоматты түрде қайта бағдарлауға жол бермеу.
 policy-DisablePasswordReveal2 = Сақталған логиндерде немесе парольдер өрістерінде парольдерді көрсетуге жол бермеу.

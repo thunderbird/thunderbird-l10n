@@ -14,6 +14,11 @@ virtual-folder-sources-chosen =
        *[other] { $count } бума таңдалды
     }
 virtual-folder-no-search-folders-selected = Сақталған іздеу бумасы үшін кем дегенде бір буманы таңдау керек.
+virtual-folder-missing-value-title = Іздеу мәні жоқ
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+virtual-folder-missing-value-rule = Бұл іздеуді сақтау алдында «{ $attribute } { $operator }» іздеу термині үшін мәнді енгізіңіз.
 virtual-folder-properties-title = Жаңа сақталған іздеу бумасы
 # Variables:
 #   $folderName (String): The name of the saved search folder.

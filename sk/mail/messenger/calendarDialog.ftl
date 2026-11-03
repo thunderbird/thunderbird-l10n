@@ -146,6 +146,8 @@ calendar-prompt-this-event =
 calendar-prompt-all-events =
     .label = Všetky udalosti
 calendar-prompt-delete-button = Odstrániť
+calendar-dialog-edit-button = Upraviť
+calendar-event-create-edit-save-button = Uložiť
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =

@@ -134,6 +134,8 @@ calendar-prompt-this-event =
 calendar-prompt-all-events =
     .label = Барлық оқиғалар
 calendar-prompt-delete-button = Өшіру
+calendar-dialog-edit-button = Түзету
+calendar-event-create-edit-save-button = Сақтау
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =

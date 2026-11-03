@@ -457,6 +457,10 @@ decrypt-and-copy-failures-multiple =
         [one] { $total } ішінен { $failures } хабарламаны дешифрлеу мүмкін емес және олар көшірілмеді.
        *[other] { $total } ішінен { $failures } хабарламаны дешифрлеу мүмкін емес және олар көшірілмеді.
     }
+# Shown once at the end of a filter run the user started from the message
+# list, when at least one filter or action failed.
+apply-filters-failed = Сүзгіні орындау сәтті аяқталмады. Толық ақпарат алу үшін сүзгі журналын тексеріңіз.
+apply-filters-failed-open-log-button = Сүзгі журналын ашу
 
 ## Spaces toolbar
 

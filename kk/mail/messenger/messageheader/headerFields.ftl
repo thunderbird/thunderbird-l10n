@@ -97,6 +97,12 @@ message-header-address-in-address-book-button =
     .title = Контактты түзету
 message-header-field-show-more = Көбірек
     .title = Барлық алушыларды көрсету
+message-ids-field-show-more = Көбірек көрсету
+# Button shown in place of hidden items in a header field.
+# $count (Number) - The number of hidden items the button will show.
+message-header-field-show-count-more =
+    .aria-label = Тағы { $count } көрсету
+    .title = Тағы { $count } көрсету
 message-ids-field-show-all = Барлығын көрсету
 
 ## Dark Message Mode

@@ -267,6 +267,7 @@ message-verification-request2 = { $user } { $userReceiving } растағысы 
 #    $reason is the reason given why the verification was cancelled.
 message-verification-cancel2 = { $user } растаудан келесі себеппен бас тартты: { $reason }
 message-verification-done = Верификация сәтті аяқталды.
+message-decryption-error2 = Бұл хабарламаның мазмұнын шифрден шығару мүмкін болмады. Шифрлеу кілттері автоматты түрде қайта сұралады.
 message-decryption-error = Бұл хабарлама құрамасын дешифрлеу мүмкін болмады. Басқа құрылғыларыңыздан шифрлеу кілттерін сұрау үшін, бұл хабарламаға оң жақпен шертіңіз.
 message-decrypting = Дешифрлеу…
 message-redacted = Хабарлама түзетілді.

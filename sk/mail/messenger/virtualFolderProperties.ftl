@@ -15,6 +15,11 @@ virtual-folder-sources-chosen =
        *[other] Zvolených { $count } priečinkov
     }
 virtual-folder-no-search-folders-selected = Pre priečinky uloženého hľadania musíte vybrať aspoň jeden priečinok, ktorý chcete prehľadávať.
+virtual-folder-missing-value-title = Chýba hodnota vyhľadávania
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+virtual-folder-missing-value-rule = Pred uložením tohto vyhľadávania zadajte hodnotu pre podmienku "{ $attribute } { $operator }".
 virtual-folder-properties-title = Nový priečinok vyhľadávania
 # Variables:
 #   $folderName (String): The name of the saved search folder.

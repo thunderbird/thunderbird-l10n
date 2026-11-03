@@ -148,6 +148,10 @@ filter-running-message =
     Сүзгілерді іске асыруды жалғастыруды қалайсыз ба?
 filter-stop-button = Тоқтату
 filter-continue-button = Жалғастыру
+# Shown once at the end of a filter run the user started, when at least one
+# filter or action failed. The individual failures are in the filter log.
+filter-run-failed = Кейбір сүзгілерді қолдану мүмкін болмады. Толық ақпарат алу үшін сүзгі журналын тексеріңіз.
+filter-run-failed-open-log-button = Сүзгі журналын ашу
 
 ## Filter Editor
 
