@@ -14,6 +14,11 @@ virtual-folder-sources-chosen =
        *[other] { $count } Ordner ausgewählt
     }
 virtual-folder-no-search-folders-selected = Sie müssen mindestens einen Ordner angeben, der durchsucht werden soll.
+virtual-folder-missing-value-title = Suchwert fehlt
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+virtual-folder-missing-value-rule = Geben Sie vor dem Speichern dieser Suche einen Wert für den Suchbegriff „{ $attribute } { $operator }“ ein.
 virtual-folder-properties-title = Neuer virtueller Ordner
 # Variables:
 #   $folderName (String): The name of the saved search folder.
