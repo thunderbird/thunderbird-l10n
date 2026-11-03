@@ -16,6 +16,7 @@ virtual-folder-sources-chosen =
        *[other] { $count } rjadowakow wubranych
     }
 virtual-folder-no-search-folders-selected = Dyrbiće znajmjeńša jedyn rjadowak wubrać, zo byšće za składowanym pytanskim rjadowakom pytał.
+virtual-folder-missing-value-title = Pytanska hódnota faluje
 virtual-folder-properties-title = Nowy rjadowak za składowane pytanje
 # Variables:
 #   $folderName (String): The name of the saved search folder.
