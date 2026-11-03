@@ -14,7 +14,7 @@ virtual-folder-missing-value-title = 未輸入搜尋值
 # Variables:
 #   $attribute (String) - The search attribute name from the incomplete rule.
 #   $operator (String) - The search operator from the incomplete rule.
-virtual-folder-missing-value-rule = 請輸入「{ $attribute } { $operator }」的關鍵字值再儲存此搜尋結果。
+virtual-folder-missing-value-rule = 請先輸入搜尋詞「{ $attribute } { $operator }」的值再儲存此搜尋結果。
 virtual-folder-properties-title = 新增即時搜尋信件匣
 # Variables:
 #   $folderName (String): The name of the saved search folder.
