@@ -14,6 +14,11 @@ virtual-folder-sources-chosen =
        *[other] { $count } mappar valda
     }
 virtual-folder-no-search-folders-selected = Du måste välja minst en mapp att söka i för mappen för den sparade sökningen.
+virtual-folder-missing-value-title = Sökvärde saknas
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+virtual-folder-missing-value-rule = Ange ett värde för söktermen "{ $attribute } { $operator }" innan du sparar sökningen.
 virtual-folder-properties-title = Ny mapp för sparad sökning
 # Variables:
 #   $folderName (String): The name of the saved search folder.
