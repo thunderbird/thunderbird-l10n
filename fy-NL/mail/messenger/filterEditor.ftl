@@ -148,6 +148,10 @@ filter-running-message =
     Wolle jo trochgean mei it tapassen fan filters?
 filter-stop-button = Ophâlde
 filter-continue-button = Trochgean
+# Shown once at the end of a filter run the user started, when at least one
+# filter or action failed. The individual failures are in the filter log.
+filter-run-failed = Guon filters koene net tapast wurde. Kontrolearje it filterlochboek foar details.
+filter-run-failed-open-log-button = Filterlochboek iepenje
 
 ## Filter Editor
 

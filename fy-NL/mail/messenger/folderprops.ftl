@@ -38,6 +38,7 @@ folder-props-check-for-new-messages =
     .label = By it krijen fan nije berjochten foar dit account, kontrolearje altyd dizze map
     .accesskey = k
 folder-props-rebuild-summary-explanation = Somtiden wurdt it mapyndeksbestân (.msf) skansearre en liket it oft berjochten misse of fuortsmiten berjochten weromkomme; de map reparearje kin dit oplosse.
+folder-props-rebuild-summary-confirm-title = Map reparearje
 
 ## Retention tab (see retention.ftl)
 ##
