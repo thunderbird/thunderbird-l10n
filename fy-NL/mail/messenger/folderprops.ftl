@@ -39,6 +39,7 @@ folder-props-check-for-new-messages =
     .accesskey = k
 folder-props-rebuild-summary-explanation = Somtiden wurdt it mapyndeksbestân (.msf) skansearre en liket it oft berjochten misse of fuortsmiten berjochten weromkomme; de map reparearje kin dit oplosse.
 folder-props-rebuild-summary-confirm-title = Map reparearje
+folder-props-rebuild-summary-confirm-message = Troch dizze map te reparearjen wurde lokale berjochten fuortsmiten en wurde nije eksimplaren fan de server download, wêrtroch de serverberjochten net wizigje. Dit kin wat tiid duorje. Trochgean?
 
 ## Retention tab (see retention.ftl)
 ##

@@ -36,6 +36,7 @@ policy-DisableFeedbackCommands = Opdrachten foar it ferstjoeren fan kommentaar f
 policy-DisableFileLink = De Filelink-funksje útskeakelje.
 policy-DisableForgetButton = Tagong ta de knop Ferjitte foarkomme.
 policy-DisableFormHistory = Gjin syk- en formulierskiednis ûnthâlde.
+policy-DisableMacOSUserPolicies = Beliedsregels fan de foarkarren fan de brûker en fan konfiguraasjeprofilen binnen it brûkersberik op macOS út negearje.
 policy-DisableMasterPasswordCreation = Wannear true, kin gjin haadwachtwurd oanmakke wurde.
 policy-DisableMessageForwardingFilters = Foarkomme dat berjochtefilters automatysk berjochten trochstjoere.
 policy-DisablePasswordReveal2 = Net tastean dat wachtwurden te sjen binne yn bewarre oanmeldingen of wachtwurdfjilden.

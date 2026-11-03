@@ -458,6 +458,10 @@ decrypt-and-copy-failures-multiple =
         [one] { $failures } fan { $total } berjochten kin net ûntsifere wurde en is net kopiearre.
        *[other] { $failures } fan { $total } berjochten kinne net ûntsifere wurde en binne net kopiearre.
     }
+# Shown once at the end of a filter run the user started from the message
+# list, when at least one filter or action failed.
+apply-filters-failed = De filterrun is net mei sukses foltôge. Kontrolearje it filterlochboek foar details.
+apply-filters-failed-open-log-button = Filterlochboek iepenje
 
 ## Spaces toolbar
 

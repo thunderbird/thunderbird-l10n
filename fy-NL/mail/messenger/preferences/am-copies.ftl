@@ -3,3 +3,4 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 account-prefs-show-address-row-description = Lit it adresfjild leech om by it opstellen fan in nij berjocht altyd de adresrigel te toanen .
+account-prefs-sent-message-copies-description = Kies wêr’t jo kopyen fan ferstjoerde berjochten bewarje wolle en stel automatyske Cc/Bcc-regels yn
