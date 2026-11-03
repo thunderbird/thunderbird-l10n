@@ -63,7 +63,7 @@
 <!ENTITY deleteCmd.accesskey "D">
 <!ENTITY editRewrapCmd.label "Pārtīt">
 <!ENTITY editRewrapCmd.key "P">
-<!ENTITY renameAttachmentCmd.label "Pārsaukt pielikumu…">
+<!ENTITY renameAttachmentCmd.label "Pārdēvēt pielikumu…">
 <!ENTITY renameAttachmentCmd.accesskey "P">
 <!ENTITY reorderAttachmentsCmd.label "Pārkārtot pielikumus…">
 <!ENTITY reorderAttachmentsCmd.accesskey "r">
@@ -245,7 +245,7 @@
 <!ENTITY delete.accesskey "D">
 <!ENTITY removeAttachment.label "Noņemt pielikumu">
 <!ENTITY removeAttachment.accesskey "N">
-<!ENTITY renameAttachment.label "Pārsaukt…">
+<!ENTITY renameAttachment.label "Pārdēvēt…">
 <!ENTITY renameAttachment.accesskey "P">
 <!ENTITY reorderAttachments.label "Pārkārtot pielikumus…">
 <!ENTITY reorderAttachments.accesskey "r">

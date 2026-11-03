@@ -77,7 +77,7 @@ compose-save-success-title = Saglabāt vēstuli
 # $folder - folder in which the message was saved
 # $server - server on which the folder is located
 compose-save-success-message = Jūsu vēstule ir saglabāta mapē { $folder } uz { $server }.
-compose-rename-attachment-title = Pārsaukt pielikumu
+compose-rename-attachment-title = Pārdēvēt pielikumu
 compose-rename-attachment-prompt = Jaunais pielikuma nosaukums:
 remind-later-button =
     .label = Atgādināt vēlāk

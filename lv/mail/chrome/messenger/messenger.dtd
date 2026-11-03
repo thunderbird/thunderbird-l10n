@@ -54,7 +54,7 @@
 <!ENTITY subscribeCmd.accesskey "A">
 <!ENTITY deleteFolder.label "Izdzēst mapi">
 <!ENTITY deleteFolder.accesskey "D">
-<!ENTITY renameFolder.label "Pārsaukt mapi…">
+<!ENTITY renameFolder.label "Pārdēvēt mapi…">
 <!ENTITY renameFolder.accesskey "P">
 <!ENTITY renameFolder.key "VK_F2">
 <!ENTITY emptyTrashCmd.label "Iztukšot atkritni">

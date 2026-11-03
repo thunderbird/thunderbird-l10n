@@ -71,7 +71,7 @@
 <!ENTITY advancedButton.label "Paplašināti…">
 <!ENTITY advancedButton.accesskey "P">
 <!ENTITY serverDefaultCharset2.label "Noklusējuma teksta kodējums:">
-<!ENTITY localPath1.label "Lokālā mape:">
+<!ENTITY localPath1.label "Vietējā mape:">
 <!ENTITY localFolderPicker.label "Izvēlieties lokālo mapi">
 <!ENTITY browseFolder.label "Pārlūkot...">
 <!ENTITY browseFolder.accesskey "P">
