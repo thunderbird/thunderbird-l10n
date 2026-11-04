@@ -142,6 +142,8 @@ calendar-prompt-this-event =
 calendar-prompt-all-events =
     .label = Все события
 calendar-prompt-delete-button = Удалить
+calendar-dialog-edit-button = Изменить
+calendar-event-create-edit-save-button = Сохранить
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =

@@ -15,6 +15,11 @@ virtual-folder-sources-chosen =
        *[many] выбрано { $count } папок
     }
 virtual-folder-no-search-folders-selected = Вы должны выбрать по меньшей мере одну папку в которой будет производиться поиск для создания виртуальной папки.
+virtual-folder-missing-value-title = Значение поиска отсутствует
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+virtual-folder-missing-value-rule = Введите значение для поискового запроса "{ $attribute } { $operator }" перед сохранением этого поиска.
 virtual-folder-properties-title = Новая виртуальная папка
 # Variables:
 #   $folderName (String): The name of the saved search folder.
