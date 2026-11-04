@@ -135,6 +135,8 @@ calendar-prompt-this-event =
 calendar-prompt-all-events =
     .label = Allir atburðir
 calendar-prompt-delete-button = Eyða
+calendar-dialog-edit-button = Breyta
+calendar-event-create-edit-save-button = Vista
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =
