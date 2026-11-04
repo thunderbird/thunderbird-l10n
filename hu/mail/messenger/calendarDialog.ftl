@@ -135,6 +135,8 @@ calendar-prompt-this-event =
 calendar-prompt-all-events =
     .label = Összes esemény
 calendar-prompt-delete-button = Törlés
+calendar-dialog-edit-button = Szerkesztés
+calendar-event-create-edit-save-button = Mentés
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =

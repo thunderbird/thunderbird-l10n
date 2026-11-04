@@ -14,6 +14,11 @@ virtual-folder-sources-chosen =
        *[other] { $count } mappa kiválasztva
     }
 virtual-folder-no-search-folders-selected = Legalább egy mappát meg kell adni, amelyben a mentett keresés mappa keres.
+virtual-folder-missing-value-title = Hiányzó keresési érték
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+virtual-folder-missing-value-rule = Adjon meg egy értéket a(z) „{ $attribute } { $operator }” keresési kifejezéshez a keresés mentése előtt.
 virtual-folder-properties-title = Új mentett keresés mappa
 # Variables:
 #   $folderName (String): The name of the saved search folder.
