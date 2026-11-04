@@ -39,6 +39,7 @@ folder-props-check-for-new-messages =
     .accesskey = G
 folder-props-rebuild-summary-explanation = Wótergi indeksowa dataja zarědnika (.msf) se wobškóźujo a powěsći by mógli felowaś abo wulašowane powěsći se pokazuju; pórěźowanje zarědnika snaź wótpórajo toś te problemy.
 folder-props-rebuild-summary-confirm-title = Zarědnik pórěźiś
+folder-props-rebuild-summary-confirm-message = Gaž se toś ten zarědnik pórěźujo, se jogo lokalne powěsći wualšuju a se nowe kopije wót serwera ześěgnu; serwerowe powěsći njezměnjone wóstanu. To móžo chylku traś. Pókšacowaś?
 
 ## Retention tab (see retention.ftl)
 ##
