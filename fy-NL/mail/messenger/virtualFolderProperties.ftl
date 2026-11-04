@@ -14,6 +14,11 @@ virtual-folder-sources-chosen =
        *[other] { $count } mappen keazen
     }
 virtual-folder-no-search-folders-selected = Jo moatte in map kieze om te sykjen nei de bewarre sykmap.
+virtual-folder-missing-value-title = Sykwearde ûntbrekt
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+virtual-folder-missing-value-rule = Fier in wearde yn foar de sykterm ‘{ $attribute } { $operator }’ eardat jo dizze sykopdracht bewarje.
 virtual-folder-properties-title = Nije firtuele sykmap
 # Variables:
 #   $folderName (String): The name of the saved search folder.

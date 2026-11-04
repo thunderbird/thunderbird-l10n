@@ -135,6 +135,8 @@ calendar-prompt-this-event =
 calendar-prompt-all-events =
     .label = Alle barrens
 calendar-prompt-delete-button = Fuortsmite
+calendar-dialog-edit-button = Bewurkje
+calendar-event-create-edit-save-button = Bewarje
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =
