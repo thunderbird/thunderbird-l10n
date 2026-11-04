@@ -39,6 +39,7 @@ folder-props-check-for-new-messages =
     .accesskey = P
 folder-props-rebuild-summary-explanation = Druhdy so dataja rjadowakoweho indeksa (.msf) so poškodźa a powěsće móhli so zhubić abo zhašene powěsće so dale pokazuja; porjedźenje rjadowaka móže tute problemy wotstronić.
 folder-props-rebuild-summary-confirm-title = Rjadowak porjedźić
+folder-props-rebuild-summary-confirm-message = Hdyž so tutón rjadowak porjedźa, so jeho lokalne powěsće zhašeja a so nowe kopije wot serwera sćehnu; serwerowe powěsće njezměnjene wostanu. To móže chwilu trać. Pokročować?
 
 ## Retention tab (see retention.ftl)
 ##

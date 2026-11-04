@@ -115,8 +115,8 @@ browser-request-cookies-accept =
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
-    .label = Papildinājumi un Motīvi
-    .tooltiptext = Pārvaldiet savus papildinājumus un motīvus
+    .label = Papildinājumi un tēmas
+    .tooltiptext = Pārvaldi savus papildinājumus un tēmas
 quick-filter-toolbarbutton =
     .label = Ātrais atsijātājs
     .tooltiptext = Atsijāt ziņojumus
@@ -285,7 +285,7 @@ appmenu-save-as-file =
 appmenu-settings =
     .label = Iestatījumi
 appmenu-addons-and-themes =
-    .label = Papildinājumi un motīvi
+    .label = Papildinājumi un tēmas
 
 ## Context menu
 
