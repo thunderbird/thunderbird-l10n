@@ -14,6 +14,11 @@ virtual-folder-sources-chosen =
        *[other] შერჩეულია, { $count } საქაღალდე
     }
 virtual-folder-no-search-folders-selected = უნდა მიუთითოთ ერთი მაინც ძიების შენახული შედეგების საძიებო საქაღალდე.
+virtual-folder-missing-value-title = საძიებოს მნიშვნელობა აკლია
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+virtual-folder-missing-value-rule = მიუთითეთ საძიებო ფრაზის მნიშვნელობა „{ $attribute } { $operator }“ ძიების შენახვამდე.
 virtual-folder-properties-title = შენახული ახალი საძიებო საქაღალდე
 # Variables:
 #   $folderName (String): The name of the saved search folder.

@@ -9,7 +9,7 @@
 <!ENTITY fccReplyFollowsParent.label "Ievietot atbildes vēstules mapē, uz kuru tiek atbildēts">
 <!ENTITY fccReplyFollowsParent.accesskey "a">
 <!-- LOCALIZATION NOTE (ccAddress.label): do not translate "Cc" in below line -->
-<!ENTITY ccAddress.label "Kopēt šīm epasta adresēm:">
+<!ENTITY ccAddress.label "Cc kopija šīm e-pasta adresēm:">
 <!ENTITY ccAddress.accesskey "K">
 <!ENTITY ccAddressList.placeholder "Atdalīt adreses ar komatiem">
 <!-- LOCALIZATION NOTE (bccAddress.label): do not translate "Bcc" in below line -->
