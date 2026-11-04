@@ -14,6 +14,11 @@ virtual-folder-sources-chosen =
        *[other] { $count } mappen gekozen
     }
 virtual-folder-no-search-folders-selected = U moet ten minste één map kiezen om naar de map voor een opgeslagen zoekopdracht te zoeken.
+virtual-folder-missing-value-title = Zoekwaarde ontbreekt
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+virtual-folder-missing-value-rule = Voer een waarde in voor de zoekterm ‘{ $attribute } { $operator }’ voordat u deze zoekopdracht opslaat.
 virtual-folder-properties-title = Nieuwe virtuele zoekmap
 # Variables:
 #   $folderName (String): The name of the saved search folder.
