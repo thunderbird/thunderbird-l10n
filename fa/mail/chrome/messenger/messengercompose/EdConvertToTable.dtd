@@ -2,6 +2,10 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!-- Window title -->
+<!ENTITY windowTitle.label "تبدیل به جدول">
+<!ENTITY instructions1.label "ویرایشگر برای هر بند از بخش انتخاب‌شده یک ردیف جدید در جدول می‌سازد.">
+<!ENTITY instructions2.label "نویسه‌ای را که بخش انتخاب‌شده را به ستون‌ها جدا می‌کند انتخاب کنید:">
 <!ENTITY commaRadio.label "Comma">
 <!ENTITY spaceRadio.label "فاصله">
 <!ENTITY otherRadio.label "Other Character:">

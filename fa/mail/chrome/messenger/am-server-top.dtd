@@ -70,9 +70,16 @@
 <!ENTITY abbreviateOff.label "Abbreviate names (For example, 'n.p.m.mail-news')">
 <!ENTITY advancedButton.label "پیشرفته…">
 <!ENTITY advancedButton.accesskey "پ">
+<!ENTITY serverDefaultCharset2.label "کدگذاری متن پیش‌گزیده:">
+<!ENTITY localPath1.label "شاخهٔ محلی:">
 <!ENTITY localFolderPicker.label "Select Local Directory">
 <!ENTITY browseFolder.label "مرور…">
 <!ENTITY browseFolder.accesskey "م">
 <!ENTITY browseNewsrc.label "مرور…">
 <!ENTITY browseNewsrc.accesskey "م">
 <!ENTITY accountTitle.label "Account Settings">
+<!ENTITY accountSettingsDesc.label "این یک حساب ویژه است. هیچ هویتی به آن وابسته نیست.">
+<!ENTITY storeType.label "نوع ذخیره‌گاه پیام:">
+<!ENTITY storeType.accesskey "ن">
+<!ENTITY mboxStore2.label "یک پرونده برای هر پوشه (mbox)">
+<!ENTITY maildirStore.label "یک پرونده برای هر پیام (maildir)">

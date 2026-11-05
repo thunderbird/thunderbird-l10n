@@ -4,10 +4,31 @@
 
 <!ENTITY titledefault.label "&brandFullName;">
 <!ENTITY titleSeparator.label " - ">
+<!-- File Menu -->
+<!ENTITY newFolderCmd.label "پوشه…">
 <!ENTITY newFolderCmd.accesskey "F">
+<!ENTITY closeTabCmd2.label "بستن زبانه">
+<!ENTITY closeTabCmd2.accesskey "ب">
+<!ENTITY closeOtherTabsCmd2.label "بستن زبانه‌های دیگر">
+<!ENTITY closeOtherTabsCmd2.accesskey "ب">
+<!ENTITY recentlyClosedTabsCmd.label "زبانه‌های اخیراً بسته‌شده">
+<!ENTITY recentlyClosedTabsCmd.accesskey "ز">
+<!ENTITY undoCloseTabCmd.commandkey "T">
+<!-- LOCALIZATION NOTE (moveToNewWindow.label):
+     Menu option to cause the current tab to be migrated to a new Thunderbird
+     window. -->
+<!ENTITY moveToNewWindow.label "انتقال به پنجرهٔ جدید">
+<!ENTITY moveToNewWindow.accesskey "ن">
+<!ENTITY newVirtualFolderCmd.label "جست‌وجوی ذخیره‌شده…">
 <!ENTITY newVirtualFolderCmd.accesskey "S">
 <!ENTITY newIMAccountCmd.label "حساب گفت‌وگو…">
+<!ENTITY newIMAccountCmd.accesskey "ح">
+<!ENTITY newFeedAccountCmd.label "حساب خوراک…">
+<!ENTITY newFeedAccountCmd.accesskey "ح">
 <!ENTITY newIMContactCmd.label "مخاطب گفت‌وگو…">
+<!ENTITY newIMContactCmd.accesskey "م">
+<!ENTITY newMessageCmd2.key "N">
+<!ENTITY newMessageCmd.key "M">
 <!ENTITY openMessageFileCmd.accesskey "O">
 <!ENTITY saveAsMenu.label "ذخیره به نام">
 <!ENTITY saveAsMenu.accesskey "ذ">

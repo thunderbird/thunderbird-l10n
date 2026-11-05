@@ -7,18 +7,33 @@
 <!ENTITY learnMore.label "درباره‌ی خوارک‌ها بیشتر بدانید">
 <!ENTITY feedTitle.label "عنوان:">
 <!ENTITY feedTitle.accesskey "ع">
+<!ENTITY feedLocation.label "نشانی خوراک:">
+<!ENTITY feedLocation.accesskey "ن">
+<!ENTITY feedLocation2.placeholder "نشانی معتبر خوراک را وارد کنید">
 <!ENTITY locationValidate.label "اعتبار سنجی">
 <!ENTITY validateText.label "بررسی اعتبار سنجی و بازیابی یک آدرس اینترنتی معتبر.">
 <!ENTITY feedFolder.label "ذخیره مقالات در:">
 <!ENTITY feedFolder.accesskey "ذ">
+<!-- Account Settings and Subscription Dialog -->
+<!ENTITY biffStart.label "بررسی مقاله‌های جدید هر ">
+<!ENTITY biffStart.accesskey "ب">
+<!ENTITY biffMinutes.label "دقیقه">
+<!ENTITY biffMinutes.accesskey "د">
+<!ENTITY biffDays.label "روز">
+<!ENTITY biffDays.accesskey "ر">
+<!ENTITY recommendedUnits.label "پیشنهاد ناشر:">
 <!ENTITY quickMode.label "نمایش خلاصه‌ی مقاله بجای بارگذاری صفحه‌ی وب">
 <!ENTITY quickMode.accesskey "ن">
+<!ENTITY autotagEnable.label "ساخت خودکار برچسب از نام‌های &lt;category&gt; خوراک">
+<!ENTITY autotagEnable.accesskey "س">
 <!ENTITY autotagUsePrefix.label "برچسب‌های پیشوند با:">
 <!ENTITY autotagUsePrefix.accesskey "پ">
 <!ENTITY autoTagPrefix.placeholder "یک پیشوند برچسب وارد کنید">
 <!-- Subscription Dialog -->
 <!ENTITY button.addFeed.label "افزودن">
 <!ENTITY button.addFeed.accesskey "ا">
+<!ENTITY button.verifyFeed.label "تأیید">
+<!ENTITY button.verifyFeed.accesskey "ت">
 <!ENTITY button.updateFeed.label "ویرایش">
 <!ENTITY button.updateFeed.accesskey "و">
 <!ENTITY button.removeFeed.label "حذف">

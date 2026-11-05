@@ -20,6 +20,9 @@
 <!ENTITY useHtml.accesskey "C">
 <!ENTITY autoQuote.label "Automatically quote the original message when replying">
 <!ENTITY autoQuote.accesskey "m">
+<!-- LOCALIZATION NOTE (quoting.label): This will concatenate with the 4 strings that follow. -->
+<!ENTITY quoting.label "هنگام نقل قول،">
+<!ENTITY quoting.accesskey "ه">
 <!ENTITY aboveQuote.label "start my reply above the quote">
 <!ENTITY belowQuote.label "start my reply below the quote">
 <!ENTITY selectAndQuote.label "select the quote">
@@ -27,3 +30,11 @@
 <!ENTITY place.accesskey "s">
 <!ENTITY belowText.label "below the quote (recommended)">
 <!ENTITY aboveText.label "below my reply (above the quote)">
+<!ENTITY includeSigOnReply.label "گنجاندن امضا در پاسخ‌ها">
+<!ENTITY includeSigOnReply.accesskey "گ">
+<!ENTITY includeSigOnForward.label "گنجاندن امضا در بازارسال‌ها">
+<!ENTITY includeSigOnForward.accesskey "گ">
+<!ENTITY globalComposingPrefs.label "ترجیحات سراسری نوشتن…">
+<!ENTITY globalComposingPrefs.accesskey "ت">
+<!ENTITY globalAddressingPrefs.label "ترجیحات سراسری نشانی‌دهی…">
+<!ENTITY globalAddressingPrefs.accesskey "ت">

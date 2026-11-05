@@ -4,7 +4,11 @@
 
 <!ENTITY AdvancedEditButton.label "ویرایش پیشرفته…">
 <!ENTITY AdvancedEditButton.accessKey "E">
+<!ENTITY AdvancedEditButton.tooltip "افزودن یا تغییر صفت‌های HTML، صفت‌های سبک و جاوااسکریپت">
 <!ENTITY chooseFileButton.label "انتخاب پرونده...">
 <!ENTITY chooseFileButton.accessKey "F">
+<!ENTITY chooseFileLinkButton.label "انتخاب پرونده...">
 <!ENTITY chooseFileLinkButton.accessKey "o">
+<!-- Shared by Link and Image dialogs -->
+<!ENTITY LinkURLEditField2.label "نشانی یک صفحهٔ وب یا پروندهٔ محلی را وارد کنید، یا از منوی محتوا این زمینه یک لنگر نام‌دار یا سرعنوان انتخاب کنید:">
 <!ENTITY LinkURLEditField2.accessKey "و">
