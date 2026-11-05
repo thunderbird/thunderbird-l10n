@@ -67,7 +67,48 @@
    - when editing events/tasks in a tab. -->
 <!ENTITY event.menu.item.save.label "ذخیره">
 <!ENTITY event.menu.item.save.accesskey "S">
+<!ENTITY event.menu.item.save.tab.accesskey "a">
+<!-- LOCALIZATION NOTE
+    - event.menu.item.saveandclose.accesskey is used for "Save and Close"
+    - menu item when editing events/tasks in a dialog window.
+    - event.menu.item.saveandclose.tab.accesskey is used for "Save and Close"
+    - when editing events/tasks in a tab. -->
+<!ENTITY event.menu.item.saveandclose.label "ذخیره و بستن">
+<!ENTITY event.menu.item.saveandclose.accesskey "l">
+<!ENTITY event.menu.item.saveandclose.tab.accesskey "z">
+<!ENTITY event.menu.item.delete.label "حذف…">
+<!ENTITY event.menu.item.delete.accesskey "D">
+<!ENTITY event.menu.edit.label "ویرایش">
+<!ENTITY event.menu.edit.accesskey "E">
+<!ENTITY event.menu.edit.undo.label "واگرد">
+<!ENTITY event.menu.edit.undo.accesskey "U">
+<!ENTITY event.menu.edit.redo.label "انجام دوباره">
+<!ENTITY event.menu.edit.redo.accesskey "R">
+<!ENTITY event.menu.edit.cut.label "بریدن">
+<!ENTITY event.menu.edit.cut.accesskey "t">
+<!ENTITY event.menu.edit.copy.label "رونوشت">
+<!ENTITY event.menu.edit.copy.accesskey "C">
+<!ENTITY event.menu.edit.paste.label "جای‌گذاری">
+<!ENTITY event.menu.edit.paste.accesskey "P">
+<!ENTITY event.menu.edit.select.all.label "انتخاب همه">
+<!ENTITY event.menu.edit.select.all.accesskey "A">
+<!ENTITY event.menu.view.label "نما">
+<!ENTITY event.menu.view.accesskey "V">
+<!ENTITY event.menu.view.toolbars.label "نوارابزارها">
+<!ENTITY event.menu.view.toolbars.accesskey "T">
+<!ENTITY event.menu.view.toolbars.event.label "نوارابزار رویداد">
+<!ENTITY event.menu.view.toolbars.event.accesskey "E">
+<!ENTITY event.menu.view.toolbars.customize.label "سفارشی‌سازی…">
+<!ENTITY event.menu.view.toolbars.customize.accesskey "C">
+<!ENTITY event.menu.options.label "گزینه‌ها">
+<!ENTITY event.menu.options.accesskey "O">
+<!ENTITY event.menu.options.attendees.label "دعوت از شرکت‌کنندگان…">
 <!ENTITY event.menu.options.attendees.accesskey "I">
 <!ENTITY event.menu.options.timezone2.label "نمایش منطقه‌های زمانی">
 <!ENTITY event.menu.options.timezone2.accesskey "z">
 <!ENTITY event.menu.options.priority2.label "اولویت">
+<!ENTITY event.menu.options.priority2.accesskey "y">
+<!ENTITY event.menu.options.priority.notspecified.label "مشخص نشده">
+<!ENTITY event.menu.options.priority.notspecified.accesskey "o">
+<!ENTITY event.menu.options.priority.low.label "کم">
+<!ENTITY event.menu.options.priority.low.accesskey "L">
