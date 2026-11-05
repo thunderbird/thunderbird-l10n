@@ -1,11 +1,26 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!ENTITY onlineContactsHeader.label "مخاطبان برخط">
+<!ENTITY offlineContactsHeader.label "مخاطبان برون‌خط">
+<!ENTITY conversationsHeader.label "گفت‌وگوها">
+<!ENTITY searchResultConversation.label "نتیجهٔ جست‌وجو">
 <!ENTITY chat.noConv.title "گفت‌وگوها اینجا نمایش داده خواهند شد.">
+<!ENTITY chat.noConv.description "برای آغاز گفت‌وگو از فهرست مخاطبان در پنل سمت چپ استفاده کنید.">
+<!ENTITY chat.noPreviousConv.description "&brandShortName; در حال حاضر هیچ گفت‌وگوی قبلی ذخیره‌شده‌ای برای این مخاطب ندارد.">
 <!ENTITY chat.noAccount.title "شما هنوز یک حساب گفت‌وگو راه‌اندلازری نکرده‌اید.">
+<!ENTITY chat.noAccount.description "بگذارید &brandShortName; شما را در راه‌اندازی حساب گپ راهنمایی کند.">
 <!ENTITY chat.accountWizard.button "شروع کنید">
 <!ENTITY chat.noConnectedAccount.title "حسابهای گفت‌وگوی شما متصل نیستند.">
 <!ENTITY chat.noConnectedAccount.description "شما می‌توانید از «پنجرهٔ وضعیت گفت‌و‌گو» به آن‌ها متصل شوید:">
 <!ENTITY chat.showAccountManager.button "نمایش وضعیت گفت‌وگو">
 <!ENTITY chat.participants "شرکت کنندگان:">
 <!ENTITY chat.previousConversations "گفت‌وگوهای قبلی:">
+<!ENTITY chat.ongoingConversation "گفت‌وگوی در جریان">
+<!ENTITY openConversationCmd.label "آغاز گفت‌وگو">
+<!ENTITY openConversationCmd.accesskey "آ">
+<!ENTITY closeConversationCmd.label "بستن گفت‌وگو">
+<!ENTITY closeConversationCmd.accesskey "ب">
 <!ENTITY aliasCmd.label "تغییر نام">
 <!ENTITY aliasCmd.accesskey "ت">
 <!ENTITY joinChatButton.label "پیوستن به گفت‌وگو">

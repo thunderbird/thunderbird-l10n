@@ -45,10 +45,25 @@
 <!ENTITY hdrViewToolbarAlwaysReplySender.accesskey "ه">
 <!ENTITY otherActionsButton2.label "بیشتر">
 <!ENTITY otherActionsButton.tooltip "کنش‌های بیشتر">
+<!ENTITY otherActionsOpenConversation1.label "گشودن در گفت‌وگو">
+<!ENTITY otherActionsOpenConversation1.accesskey "گ">
+<!ENTITY otherActionsOpenInNewWindow1.label "گشودن در پنجرهٔ جدید">
+<!ENTITY otherActionsOpenInNewWindow1.accesskey "پ">
 <!ENTITY otherActionsOpenInNewTab1.label "گشودن در زبانهٔ جدید">
 <!ENTITY otherActionsOpenInNewTab1.accesskey "ب">
+<!ENTITY markAsReadMenuItem1.label "علامت زدن به‌عنوان خوانده‌شده">
+<!ENTITY markAsReadMenuItem1.accesskey "ع">
+<!ENTITY markAsUnreadMenuItem1.label "علامت زدن به‌عنوان نخوانده">
+<!ENTITY markAsUnreadMenuItem1.accesskey "ع">
+<!ENTITY saveAsMenuItem1.label "ذخیره با نام…">
+<!ENTITY saveAsMenuItem1.accesskey "ذ">
+<!ENTITY viewSourceMenuItem1.label "دیدن منبع">
+<!ENTITY viewSourceMenuItem1.accesskey "د">
 <!ENTITY otherActionsPrint1.label "چاپ…">
 <!ENTITY otherActionsPrint1.accesskey "چ">
+<!-- Attachment bar context menu items -->
+<!ENTITY startExpandedCmd.label "نمایش پنل پیوست از ابتدا">
+<!ENTITY startExpandedCmd.accesskey "ن">
 <!-- Attachment context menu items -->
 <!ENTITY openAttachmentCmd.label "گشودن">
 <!ENTITY openAttachmentCmd.accesskey "ب">
@@ -56,13 +71,31 @@
 <!ENTITY saveAsAttachmentCmd.accesskey "ذ">
 <!ENTITY detachAttachmentCmd.label "جدا کردن پیوست…">
 <!ENTITY detachAttachmentCmd.accesskey "ج">
+<!ENTITY deleteAttachmentCmd.label "حذف">
+<!ENTITY deleteAttachmentCmd.accesskey "ح">
+<!ENTITY openAllAttachmentsCmd.label "گشودن همه…">
+<!ENTITY openAllAttachmentsCmd.accesskey "گ">
 <!ENTITY saveAllAttachmentsCmd.label "Save All…">
 <!ENTITY saveAllAttachmentsCmd.accesskey "S">
 <!ENTITY detachAllAttachmentsCmd.label "Detach All…">
 <!ENTITY detachAllAttachmentsCmd.accesskey "D">
 <!ENTITY deleteAllAttachmentsCmd.label "Delete All…">
 <!ENTITY deleteAllAttachmentsCmd.accesskey "e">
+<!ENTITY openAttachment.tooltip "گشودن پروندهٔ پیوست‌شده">
+<!ENTITY detachedAttachmentFolder.show.label "گشودن پوشهٔ دربرگیرنده">
+<!ENTITY detachedAttachmentFolder.show.accesskey "پ">
+<!ENTITY detachedAttachmentFolder.showMac.label "نمایش در Finder">
+<!ENTITY detachedAttachmentFolder.showMac.accesskey "ن">
 <!-- Attachment toolbar items -->
 <!ENTITY saveAttachmentButton1.label "ذخیره">
+<!ENTITY saveAttachmentButton1.tooltip "ذخیرهٔ پروندهٔ پیوست‌شده">
+<!ENTITY saveAllAttachmentsButton1.label "ذخیرهٔ همه">
+<!ENTITY saveAllAttachmentsButton1.tooltip "ذخیرهٔ همهٔ پرونده‌های پیوست‌شده">
 <!ENTITY copyLinkCmd.label "رونوشت برداشتن از مکان پیوند">
 <!ENTITY copyLinkCmd.accesskey "ن">
+<!ENTITY CopyMessageId.label "رونوشت Message-ID">
+<!ENTITY CopyMessageId.accesskey "ر">
+<!ENTITY OpenMessageForMsgId.label "گشودن پیام با این شناسه">
+<!ENTITY OpenMessageForMsgId.accesskey "گ">
+<!ENTITY OpenBrowserWithMsgId.label "گشودن مرورگر با Message-ID">
+<!ENTITY OpenBrowserWithMsgId.accesskey "گ">
