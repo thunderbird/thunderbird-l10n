@@ -35,6 +35,7 @@ e2e-csr-include-email = Includi indirizzo email ({ $email }) in CSR (consigliato
 e2e-csr-success = La CSR è stata salvata correttamente in { $file }
 # $file A filename
 e2e-csr-failure = Impossibile salvare la CSR nel file { $file }
+e2e-default-message-encryption = Impostazioni di crittografia predefinite
 account-settings-encryption-default-off =
     .label = Non crittare i nuovi messaggi per impostazione predefinita
     .accesskey = N
