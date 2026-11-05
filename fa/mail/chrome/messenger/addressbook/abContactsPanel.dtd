@@ -7,8 +7,17 @@
 <!ENTITY abPropertiesMenu.label "ویژگی‌های دفترچهٔ نشانی">
 <!ENTITY abPropertiesMenu.accesskey "و">
 <!ENTITY contactPropertiesMenu.label "ویژگی‌های مخاطب">
+<!ENTITY contactPropertiesMenu.accesskey "و">
+<!ENTITY mailingListPropertiesMenu.label "ویژگی‌های فهرست پستی">
+<!ENTITY mailingListPropertiesMenu.accesskey "و">
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!ENTITY abContextMenuButton.tooltip "نمایش منوی زمینهٔ دفترچهٔ نشانی">
 <!ENTITY addressbookPicker.label "Address Book:">
 <!ENTITY addressbookPicker.accesskey "k">
+<!ENTITY searchContacts.label "جست‌وجوی مخاطبان:">
+<!ENTITY searchContacts.accesskey "ج">
 <!ENTITY SearchNameOrEmail.label "Name or Email">
 <!ENTITY addtoToFieldMenu.label "افزودن به فیلد به">
 <!ENTITY addtoToFieldMenu.accesskey "ا">
@@ -18,6 +27,18 @@
 <!ENTITY addtoBccFieldMenu.accesskey "ح">
 <!ENTITY deleteAddrBookCard.label "حذف">
 <!ENTITY deleteAddrBookCard.accesskey "ح">
+<!ENTITY propertiesContext.label "ویژگی‌ها">
+<!ENTITY propertiesContext.accesskey "و">
+<!ENTITY abPropertiesContext.label "ویژگی‌ها">
+<!ENTITY abPropertiesContext.accesskey "و">
+<!ENTITY editContactContext.label "ویرایش مخاطب">
+<!ENTITY editContactContext.accesskey "و">
+<!ENTITY editMailingListContext.label "ویرایش فهرست">
+<!ENTITY editMailingListContext.accesskey "و">
+<!ENTITY newContactAbContext.label "مخاطب جدید">
+<!ENTITY newContactAbContext.accesskey "م">
+<!ENTITY newListAbContext.label "فهرست جدید">
+<!ENTITY newListAbContext.accesskey "ف">
 <!ENTITY toButton.label "Add to To:">
 <!ENTITY toButton.accesskey "A">
 <!ENTITY ccButton.label "Add to Cc:">

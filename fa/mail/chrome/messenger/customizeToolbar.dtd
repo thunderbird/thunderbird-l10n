@@ -1,0 +1,16 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!ENTITY dialog.title "سفارشی‌سازی نوارابزار">
+<!ENTITY dialog.dimensions "width: 92ch; height: 36em;">
+<!ENTITY instructions.description "با کشیدن موارد به نوارابزارها یا از آن‌ها می‌توانید آن‌ها را اضافه یا بردارید.">
+<!ENTITY show.label "نمایش:">
+<!ENTITY iconsAndText.label "نقشک‌ها و متن">
+<!ENTITY icons.label "نقشک‌ها">
+<!ENTITY text.label "متن">
+<!ENTITY iconsBesideText.label "نقشک‌ها کنار متن">
+<!ENTITY useSmallIcons.label "استفاده از نقشک‌های کوچک">
+<!ENTITY restoreDefaultSet.label "بازگرداندن مجموعهٔ پیش‌گزیده">
+<!ENTITY showTitlebar2.label "نوار عنوان">
+<!ENTITY saveChanges.label "تمام">
+<!ENTITY undoChanges.label "واگرد تغییرات">

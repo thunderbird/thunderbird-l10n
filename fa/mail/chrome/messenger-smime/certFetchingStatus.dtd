@@ -2,3 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!-- LOCALIZATION NOTE shown while obtaining certificates from a directory -->
+<!ENTITY title.label "در حال بارگیری گواهی‌ها">
+<!ENTITY info.message "در حال جست‌وجوی گواهی‌های گیرندگان در شاخه. ممکن است چند دقیقه طول بکشد.">
+<!ENTITY stop.label "توقف جست‌وجو">

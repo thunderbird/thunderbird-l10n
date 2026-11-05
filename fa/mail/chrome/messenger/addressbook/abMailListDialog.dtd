@@ -2,6 +2,8 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!-- Title -->
+<!ENTITY mailListWindowAdd.title "فهرست پستی جدید">
 <!-- Labels and Access Keys -->
 <!ENTITY addToAddressBook.label "Add to: ">
 <!ENTITY addToAddressBook.accesskey "A">
@@ -9,5 +11,10 @@
 <!ENTITY ListName.accesskey "L">
 <!ENTITY ListNickName.label "List Nickname: ">
 <!ENTITY ListNickName.accesskey "N">
+<!ENTITY ListDescription.label "توضیحات: ">
+<!ENTITY ListDescription.accesskey "ت">
+<!-- See bug 58485, when we implement drag and drop, add 'or drag addresses' back in -->
+<!ENTITY AddressTitle.label "نشانی‌های رایانامه را بنویسید تا به فهرست پستی افزوده شوند:">
+<!ENTITY AddressTitle.accesskey "ن">
 <!ENTITY UpButton.label "انتقال به بالا">
 <!ENTITY DownButton.label "انتقال به پایین">

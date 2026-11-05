@@ -1,0 +1,9 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!ENTITY converterDialog.title "مبدل نوع ذخیره‌گاه پیام">
+<!ENTITY converterDialog.continueButton "ادامه">
+<!ENTITY converterDialog.cancelButton "لغو">
+<!ENTITY converterDialog.finishButton "پایان">
+<!ENTITY converterDialog.complete "تبدیل کامل شد. &brandShortName; اکنون دوباره راه‌اندازی می‌شود.">
+<!ENTITY converterDialog.error "تبدیل ناموفق بود.">
