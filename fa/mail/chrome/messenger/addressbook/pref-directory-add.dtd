@@ -30,6 +30,7 @@
 <!ENTITY return.label "Don't return more than">
 <!ENTITY return.accesskey "r">
 <!ENTITY results.label "results">
+<!ENTITY offlineText.label "می‌توانید یک رونوشت محلی از این شاخه را بارگیری کنید تا در مواقع برون‌خط بودن نیز بتوانید از آن استفاده کنید.">
 <!ENTITY saslMechanism.label "روش ورود: ">
 <!ENTITY saslMechanism.accesskey "ر">
 <!ENTITY saslOff.label "ساده">

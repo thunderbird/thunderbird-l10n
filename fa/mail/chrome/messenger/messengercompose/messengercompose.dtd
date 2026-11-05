@@ -10,17 +10,23 @@
 <!ENTITY newMenu.label "جدید">
 <!ENTITY newMenu.accesskey "ج">
 <!ENTITY newMessage.label "پیغام">
+<!ENTITY newMessage.accesskey "پ">
 <!ENTITY newMessageCmd2.key "N">
 <!ENTITY newContact.label "Address Book Contact…">
 <!ENTITY newContact.accesskey "C">
 <!ENTITY attachMenu.label "Attach">
 <!ENTITY attachMenu.accesskey "t">
+<!ENTITY attachCloudCmd.label "Filelink">
+<!ENTITY attachCloudCmd.accesskey "F">
 <!ENTITY attachPageCmd.label "Web Page…">
 <!ENTITY attachPageCmd.accesskey "W">
+<!ENTITY remindLater.label "بعداً یادآوری کن">
+<!ENTITY remindLater.accesskey "ب">
 <!ENTITY closeCmd.label "بستن">
 <!ENTITY closeCmd.key "W">
 <!ENTITY closeCmd.accesskey "ب">
 <!ENTITY saveCmd.label "ذخیره">
+<!ENTITY saveCmd.key "S">
 <!ENTITY saveCmd.accesskey "ذ">
 <!ENTITY saveAsCmd.label "ذخیره به نام">
 <!ENTITY saveAsCmd.accesskey "ذ">
@@ -49,14 +55,27 @@
 <!ENTITY redoCmd.key "Y">
 <!ENTITY redoCmd.accesskey "ز">
 <!ENTITY cutCmd.key "X">
+<!ENTITY copyCmd.key "C">
 <!ENTITY pasteCmd.key "V">
 <!ENTITY pasteNoFormattingCmd.key "V">
+<!ENTITY pasteAsQuotationCmd.key "o">
 <!ENTITY editRewrapCmd.accesskey "w">
 <!ENTITY deleteCmd.label "حذف">
 <!ENTITY deleteCmd.accesskey "ح">
 <!ENTITY editRewrapCmd.label "Rewrap">
 <!ENTITY editRewrapCmd.key "R">
+<!ENTITY renameAttachmentCmd.label "تغییر نام پیوست…">
+<!ENTITY renameAttachmentCmd.accesskey "ت">
+<!ENTITY reorderAttachmentsCmd.label "تغییر ترتیب پیوست‌ها…">
+<!ENTITY reorderAttachmentsCmd.accesskey "ت">
+<!ENTITY reorderAttachmentsCmd.key "x">
 <!ENTITY selectAllCmd.accesskey "ا">
+<!ENTITY findBarCmd.label "یافتن…">
+<!ENTITY findBarCmd.accesskey "ی">
+<!ENTITY findBarCmd.key "F">
+<!ENTITY findReplaceCmd.label "یافتن و جایگزینی…">
+<!ENTITY findReplaceCmd.accesskey "ی">
+<!ENTITY findReplaceCmd.key "H">
 <!ENTITY findAgainCmd.label "پیدا کردن مجدد">
 <!ENTITY findAgainCmd.accesskey "پ">
 <!ENTITY findAgainCmd.key "G">
@@ -65,11 +84,27 @@
 <!ENTITY findPrevCmd.accesskey "پ">
 <!ENTITY findPrevCmd.key "G">
 <!ENTITY findPrevCmd.key2 "VK_F3">
+<!-- Reorder Attachment Panel -->
+<!ENTITY reorderAttachmentsPanel.label "تغییر ترتیب پیوست‌ها">
+<!ENTITY moveAttachmentBundleUpPanelBtn.label "جابه‌جایی با هم">
+<!-- LOCALIZATION NOTE (sortAttachmentsPanelBtn.Sort.AZ.label):
+     Please ensure that this translation matches
+     sortAttachmentsPanelBtn.Sort.ZA.label, except for the sort direction. -->
+<!ENTITY sortAttachmentsPanelBtn.Sort.AZ.label "مرتب‌سازی: الف - ی">
+<!ENTITY sortAttachmentsPanelBtn.Sort.ZA.label "مرتب‌سازی: ی - الف">
+<!-- LOCALIZATION NOTE (sortAttachmentsPanelBtn.SortSelection.AZ.label):
+     Please ensure that this translation matches
+     sortAttachmentsPanelBtn.SortSelection.ZA.label, except for the sort direction. -->
+<!ENTITY sortAttachmentsPanelBtn.SortSelection.AZ.label "مرتب‌سازی بخش انتخاب‌شده: الف - ی">
+<!ENTITY sortAttachmentsPanelBtn.SortSelection.ZA.label "مرتب‌سازی بخش انتخاب‌شده: ی - الف">
+<!ENTITY sortAttachmentsPanelBtn.key "y">
 <!-- View Menu -->
 <!ENTITY viewMenu.label "نما">
 <!ENTITY viewMenu.accesskey "ن">
 <!ENTITY viewToolbarsMenuNew.label "نوار ابزار">
 <!ENTITY viewToolbarsMenuNew.accesskey "ن">
+<!ENTITY menubarCmd.label "نوار منو">
+<!ENTITY menubarCmd.accesskey "ن">
 <!ENTITY showCompositionToolbarCmd.label "Composition Toolbar">
 <!ENTITY showCompositionToolbarCmd.accesskey "o">
 <!ENTITY showFormattingBarCmd.label "Formatting Bar">
@@ -103,6 +138,8 @@
 <!ENTITY dsnMenu.accesskey "N">
 <!ENTITY priorityMenu.label "Priority">
 <!ENTITY priorityMenu.accesskey "P">
+<!ENTITY priorityButton.title "اولویت">
+<!ENTITY priorityButton.tooltiptext "تغییر اولویت پیام">
 <!ENTITY priorityButton.label "Priority:">
 <!ENTITY lowestPriorityCmd.label "Lowest">
 <!ENTITY lowestPriorityCmd.accesskey "L">
@@ -125,6 +162,10 @@
 <!ENTITY messengerCmd.commandkey "1">
 <!ENTITY addressBookCmd.label "Address Book">
 <!ENTITY addressBookCmd.accesskey "A">
+<!ENTITY addressBookCmd.key "B">
+<!ENTITY accountManagerCmd2.label "تنظیمات حساب">
+<!ENTITY accountManagerCmd2.accesskey "ت">
+<!ENTITY accountManagerCmdUnix2.accesskey "ت">
 <!-- Mac OS X Window Menu -->
 <!ENTITY minimizeWindow.key "m">
 <!ENTITY minimizeWindow.label "کمینه کردن">
@@ -145,13 +186,25 @@
 <!-- Mail Toolbar Tooltips -->
 <!ENTITY quoteButton.tooltip "Quote the previous message">
 <!ENTITY addressButton.tooltip "Select a recipient from an Address Book">
+<!ENTITY spellingButton.tooltip "بررسی املای بخش انتخاب‌شده یا کل پیام">
 <!ENTITY saveButton.tooltip "Save this message">
 <!ENTITY cutButton.tooltip "بریدن">
 <!ENTITY copyButton.tooltip "رونوشت برداشتن">
 <!ENTITY pasteButton.tooltip "چسباندن">
 <!ENTITY printButton.tooltip "Print this message">
+<!-- Headers
+     LOCALIZATION NOTE headersSpaces.style is for aligning  the From:, To: and
+    Subject: rows. It should be larger than the largest Header label -->
+<!ENTITY headersSpace2.style "width: 8em;">
+<!-- Headers -->
+<!ENTITY fromAddr2.label "از">
 <!ENTITY fromAddr.accesskey "r">
+<!ENTITY replyAddr2.label "پاسخ به">
+<!ENTITY newsgroupsAddr2.label "گروه خبری">
+<!ENTITY followupAddr2.label "پیگیری به">
+<!ENTITY subject2.label "موضوع">
 <!ENTITY subject.accesskey "م">
+<!ENTITY attachmentBucketCloseButton.tooltip "پنهان کردن پنل پیوست‌ها">
 <!-- Format Toolbar, imported from editorAppShell.xhtml -->
 <!ENTITY SmileButton.tooltip "Insert a smiley face">
 <!ENTITY smiley1Cmd.label "Smile">
@@ -169,6 +222,7 @@
 <!ENTITY smiley14Cmd.label "Innocent">
 <!ENTITY smiley15Cmd.label "Cry">
 <!ENTITY smiley16Cmd.label "Lips-are-Sealed">
+<!ENTITY smiley17Cmd.label "عصبانی">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "No Suggestions Found">
 <!-- Message Pane Context Menu -->
@@ -191,11 +245,36 @@
 <!ENTITY openAttachment.accesskey "ب">
 <!ENTITY delete.label "حذف">
 <!ENTITY delete.accesskey "ح">
+<!ENTITY removeAttachment.label "برداشتن پیوست">
+<!ENTITY removeAttachment.accesskey "ب">
 <!ENTITY renameAttachment.label "Rename…">
 <!ENTITY renameAttachment.accesskey "R">
+<!ENTITY reorderAttachments.label "تغییر ترتیب پیوست‌ها…">
+<!ENTITY reorderAttachments.accesskey "ت">
+<!ENTITY removeAllAttachments.label "برداشتن همهٔ پیوست‌ها">
+<!ENTITY removeAllAttachments.accesskey "ب">
 <!ENTITY selectAll.label "انتخاب همه">
 <!ENTITY selectAll.accesskey "ا">
+<!ENTITY attachCloud.label "Filelink…">
+<!ENTITY attachCloud.accesskey "F">
+<!ENTITY convertCloud.label "تبدیل به…">
+<!ENTITY convertCloud.accesskey "ت">
+<!ENTITY cancelUpload.label "لغو بارگذاری">
+<!ENTITY cancelUpload.accesskey "ل">
+<!ENTITY convertRegularAttachment.label "پیوست عادی">
+<!ENTITY convertRegularAttachment.accesskey "پ">
 <!ENTITY attachPage.label "Attach Web Page…">
 <!ENTITY attachPage.accesskey "W">
+<!-- Spell checker context menu items -->
+<!ENTITY spellAddDictionaries.label "افزودن واژه‌نامه‌ها…">
+<!ENTITY spellAddDictionaries.accesskey "ف">
 <!-- Title for the address picker panel -->
 <!ENTITY addressesSidebarTitle.label "Contacts">
+<!-- Identity popup customize menuitem -->
+<!ENTITY customizeFromAddress.label "سفارشی‌سازی نشانی فرستنده…">
+<!ENTITY customizeFromAddress.accesskey "س">
+<!-- Accessibility name for the document -->
+<!ENTITY aria.message.bodyName "متن پیام">
+<!-- Status Bar -->
+<!ENTITY languageStatusButton.tooltip "زبان بررسی املا">
+<!ENTITY encodingStatusPanel.tooltip "کدگذاری متن">

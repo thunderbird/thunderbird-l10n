@@ -307,6 +307,32 @@
 <!ENTITY event.attendee.usertype.resource "منبع">
 <!ENTITY event.attendee.usertype.room "اتاق">
 <!ENTITY event.attendee.usertype.unknown "ناشناخته">
+<!-- Timezone dialog -->
+<!ENTITY timezone.title.label "لطفاً منطقهٔ زمانی را مشخص کنید">
+<!ENTITY event.timezone.custom.label "منطقه‌های زمانی بیشتر…">
+<!-- Read-Only dialog -->
+<!ENTITY read.only.general.label "عمومی">
+<!ENTITY read.only.title.label "عنوان:">
+<!ENTITY read.only.calendar.label "تقویم:">
+<!ENTITY read.only.event.start.label "تاریخ آغاز:">
+<!ENTITY read.only.task.start.label "تاریخ آغاز:">
+<!ENTITY read.only.event.end.label "تاریخ پایان:">
+<!ENTITY read.only.task.due.label "تاریخ سررسید:">
+<!ENTITY read.only.repeat.label "تکرار:">
+<!ENTITY read.only.location.label "مکان:">
+<!ENTITY read.only.category.label "دسته:">
+<!-- Read-Only dialog -->
+<!ENTITY read.only.organizer.label "برگزارکننده:">
+<!ENTITY read.only.reminder.label "یادآوری:">
+<!ENTITY read.only.attachments.label "پیوست‌ها:">
+<!ENTITY read.only.attendees.label "شرکت‌کنندگان">
+<!ENTITY read.only.description.label "توضیحات">
+<!ENTITY read.only.link.label "پیوند مرتبط">
+<!-- Summary dialog -->
+<!ENTITY summary.dialog.saveclose.label "ذخیره و بستن">
+<!ENTITY summary.dialog.saveclose.tooltiptext "ذخیرهٔ تغییرات و بستن پنجره بدون تغییر وضعیت شرکت و بدون فرستادن پاسخ">
+<!ENTITY summary.dialog.accept.label "پذیرفتن">
+<!ENTITY summary.dialog.accept.tooltiptext "پذیرفتن دعوت">
 <!ENTITY summary.dialog.tentative.label "موقت">
 <!ENTITY summary.dialog.tentative.tooltiptext "پذیرفتن موقت دعوت">
 <!ENTITY summary.dialog.decline.label "رد کردن">
