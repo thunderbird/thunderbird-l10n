@@ -1,0 +1,16 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- Mode Toolbar -->
+<!ENTITY lightning.toolbar.calendar.label "تقویم">
+<!ENTITY lightning.toolbar.calendar.tooltip "رفتن به زبانهٔ تقویم">
+<!ENTITY lightning.toolbar.calendar.accesskey "C">
+<!ENTITY lightning.toolbar.task.label "وظیفه‌ها">
+<!ENTITY lightning.toolbar.task.tooltip "رفتن به زبانهٔ وظیفه‌ها">
+<!ENTITY lightning.toolbar.task.accesskey "T">
+<!-- Calendar and Task Mode Toolbar -->
+<!ENTITY lightning.toolbar.day.label "روز">
+<!ENTITY lightning.toolbar.day.accesskey "D">
+<!ENTITY lightning.toolbar.week.label "هفته">
+<!ENTITY lightning.toolbar.week.accesskey "W">
