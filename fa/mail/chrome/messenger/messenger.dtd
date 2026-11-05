@@ -247,10 +247,12 @@
 <!ENTITY nextMsgCmd.key "f">
 <!ENTITY nextUnreadMsgCmd.label "Unread Message">
 <!ENTITY nextUnreadMsgCmd.accesskey "U">
+<!ENTITY nextUnreadMsgCmd.key "n">
 <!ENTITY nextStarredMsgCmd.label "Starred Message">
 <!ENTITY nextStarredMsgCmd.accesskey "S">
 <!ENTITY nextUnreadThread.label "Unread Thread">
 <!ENTITY nextUnreadThread.accesskey "T">
+<!ENTITY nextUnreadThread.key "t">
 <!ENTITY prevMenu.label "قبلی">
 <!ENTITY prevMenu.accesskey "ق">
 <!ENTITY prevMsgCmd.label "پیغام">
@@ -269,6 +271,10 @@
 <!ENTITY goChatCmd.accesskey "گ">
 <!ENTITY prevStarredMsgCmd.label "Starred Message">
 <!ENTITY prevStarredMsgCmd.accesskey "S">
+<!ENTITY folderMenu.label "پوشه">
+<!ENTITY folderMenu.accesskey "پ">
+<!ENTITY goRecentlyClosedTabs.label "زبانه‌های اخیراً بسته‌شده">
+<!ENTITY goRecentlyClosedTabs.accesskey "ز">
 <!ENTITY startPageCmd.label "Mail Start Page">
 <!ENTITY startPageCmd.accesskey "S">
 <!-- Message Menu -->
@@ -288,16 +294,37 @@
 <!ENTITY replyMsgCmd.key "r">
 <!ENTITY replySenderCmd.label "Reply to Sender Only">
 <!ENTITY replySenderCmd.accesskey "R">
+<!ENTITY replyNewsgroupCmd2.label "پیگیری در گروه خبری">
+<!ENTITY replyNewsgroupCmd2.accesskey "پ">
 <!ENTITY replyToAllMsgCmd.label "Reply to All">
 <!ENTITY replyToAllMsgCmd.accesskey "p">
 <!ENTITY replyToAllMsgCmd.key "r">
+<!ENTITY replyToListMsgCmd.label "پاسخ به فهرست">
+<!ENTITY replyToListMsgCmd.accesskey "پ">
+<!ENTITY replyToListMsgCmd.key "l">
 <!ENTITY forwardMsgCmd.label "جلو">
 <!ENTITY forwardMsgCmd.accesskey "ج">
 <!ENTITY forwardMsgCmd.key "l">
 <!ENTITY forwardAsMenu.label "Forward As">
 <!ENTITY forwardAsMenu.accesskey "w">
+<!ENTITY forwardAsInline.label "درون‌خطی">
+<!ENTITY forwardAsInline.accesskey "د">
+<!ENTITY forwardAsAttachmentCmd.label "پیوست">
+<!ENTITY forwardAsAttachmentCmd.accesskey "پ">
+<!ENTITY editAsNewMsgCmd.label "ویرایش به‌عنوان پیام جدید">
+<!ENTITY editAsNewMsgCmd.accesskey "و">
+<!ENTITY editAsNewMsgCmd.key "e">
+<!ENTITY editDraftMsgCmd.label "ویرایش پیش‌نویس">
+<!ENTITY editDraftMsgCmd.accesskey "و">
+<!ENTITY editTemplateMsgCmd.label "ویرایش قالب">
+<!ENTITY editTemplateMsgCmd.accesskey "و">
+<!ENTITY newMsgFromTemplateCmd.label "پیام جدید از قالب">
+<!-- do not change "VK_RETURN" -->
+<!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN">
 <!ENTITY createFilter.label "Create Filter From Message…">
 <!ENTITY createFilter.accesskey "a">
+<!ENTITY killThreadMenu.label "نادیده گرفتن رشته">
+<!ENTITY killThreadMenu.accesskey "ن">
 <!ENTITY killThreadMenu.key "k">
 <!ENTITY killSubthreadMenu.label "Ignore Subthread">
 <!ENTITY killSubthreadMenu.accesskey "S">
@@ -309,8 +336,11 @@
 <!ENTITY tagMenu.accesskey "ب">
 <!ENTITY markMenu.label "Mark">
 <!ENTITY markMenu.accesskey "k">
+<!ENTITY toggleReadCmd.key "m">
 <!ENTITY markAsReadCmd.label "As Read">
 <!ENTITY markAsReadCmd.accesskey "R">
+<!ENTITY markAsUnreadCmd.label "به‌عنوان نخوانده">
+<!ENTITY markAsUnreadCmd.accesskey "ب">
 <!ENTITY markThreadAsReadCmd.label "Thread As Read">
 <!ENTITY markThreadAsReadCmd.accesskey "T">
 <!ENTITY markThreadAsReadCmd.key "r">
@@ -322,9 +352,20 @@
 <!ENTITY markAllReadCmd.key "c">
 <!ENTITY markStarredCmd.label "Add Star">
 <!ENTITY markStarredCmd.accesskey "S">
+<!ENTITY markStarredCmd.key "S">
 <!ENTITY openMessageWindowCmd.label "Open Message">
 <!ENTITY openMessageWindowCmd.accesskey "O">
 <!ENTITY openMessageWindowCmd.key "o">
+<!ENTITY openInConversationCmd.label "گشودن در گفت‌وگو">
+<!ENTITY openInConversationCmd.accesskey "ب">
+<!ENTITY openInConversationCmd.key "o">
+<!ENTITY openAttachmentListCmd.label "پیوست‌ها">
+<!ENTITY openAttachmentListCmd.accesskey "پ">
+<!ENTITY openFeedMessage1.label "هنگام گشودن پیام‌های خوراک">
+<!ENTITY openFeedMessage1.accesskey "ه">
+<!ENTITY openFeedWebPage.label "گشودن به‌صورت صفحهٔ وب">
+<!ENTITY openFeedWebPage.accesskey "ص">
+<!ENTITY openFeedSummary.label "گشودن به‌صورت خلاصه">
 <!ENTITY openFeedSummary.accesskey "ب">
 <!ENTITY openFeedWebPageInMP.label "جابه‌جایی میان صفحهٔ وب و خلاصه در پنل پیام">
 <!ENTITY openFeedWebPageInMP.accesskey "ج">
@@ -450,6 +491,17 @@
 <!ENTITY buttonMenuForwardAsAttachment.label "بازارسال به‌صورت پیوست">
 <!-- Remote Content Button Popup -->
 <!ENTITY remoteContentOptionsAllowForMsg.label "نمایش محتوای راه دور در این پیام">
+<!ENTITY remoteContentOptionsAllowForMsg.accesskey "خ">
+<!ENTITY editRemoteContentSettings.label "ویرایش گزینه‌های محتوای راه دور…">
+<!ENTITY editRemoteContentSettings.accesskey "و">
+<!ENTITY editRemoteContentSettingsUnix.label "ویرایش ترجیحات محتوای راه دور…">
+<!ENTITY editRemoteContentSettingsUnix.accesskey "و">
+<!-- Phishing Button Popup -->
+<!ENTITY phishingOptionIgnore.label "نادیده گرفتن هشدار برای این پیام">
+<!ENTITY phishingOptionIgnore.accesskey "ن">
+<!ENTITY phishingOptionSettings.label "ویرایش گزینه‌های تشخیص کلاهبرداری…">
+<!ENTITY phishingOptionSettings.accesskey "و">
+<!ENTITY phishingOptionSettingsUnix.label "ویرایش ترجیحات تشخیص کلاهبرداری…">
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "نام">
 <!ENTITY folderSizeColumn.label "اندازه">
@@ -660,6 +712,8 @@
 <!ENTITY copyImageAllCmd.accesskey "ر">
 <!ENTITY copyEmailCmd.label "رونوشت برداشتن از نشانی پست الکترونیکی">
 <!ENTITY copyEmailCmd.accesskey "ن">
+<!ENTITY openInBrowser.label "گشودن در مرورگر">
+<!ENTITY openInBrowser.accesskey "گ">
 <!-- Statusbar -->
 <!ENTITY statusText.label "انجام شد">
 <!-- Mac OS X Window Menu -->
