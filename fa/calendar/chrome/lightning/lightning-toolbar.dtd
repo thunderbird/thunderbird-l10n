@@ -14,3 +14,11 @@
 <!ENTITY lightning.toolbar.day.accesskey "D">
 <!ENTITY lightning.toolbar.week.label "هفته">
 <!ENTITY lightning.toolbar.week.accesskey "W">
+<!ENTITY lightning.toolbar.multiweek.label "چندهفته‌ای">
+<!ENTITY lightning.toolbar.multiweek.accesskey "چ">
+<!ENTITY lightning.toolbar.month.label "ماه">
+<!ENTITY lightning.toolbar.month.accesskey "م">
+<!ENTITY lightning.toolbar.calendarmenu.label "پنل تقویم">
+<!ENTITY lightning.toolbar.calendarmenu.accesskey "پ">
+<!ENTITY lightning.toolbar.calendarpane.label "نمایش پنل تقویم">
+<!ENTITY lightning.toolbar.calendarpane.accesskey "ن">
