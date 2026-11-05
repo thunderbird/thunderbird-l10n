@@ -29,3 +29,7 @@
 <!ENTITY calendar.displaytodos.checkbox.accesskey "T">
 <!ENTITY goTodayCmd.label "امروز">
 <!ENTITY goTodayCmd.accesskey "T">
+<!ENTITY showCurrentView.label "نمای فعلی">
+<!ENTITY showCurrentView.accesskey "V">
+<!ENTITY calendar.properties.label "ویژگی‌های تقویم…">
+<!ENTITY calendar.properties.accesskey "a">

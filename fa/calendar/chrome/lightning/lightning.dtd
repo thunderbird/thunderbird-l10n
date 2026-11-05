@@ -1,0 +1,21 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- Tools menu -->
+<!ENTITY lightning.preferencesLabel "تقویم">
+<!-- New menu popup in File menu -->
+<!ENTITY lightning.menupopup.new.event.label "رویداد…">
+<!ENTITY lightning.menupopup.new.event.accesskey "E">
+<!ENTITY lightning.menupopup.new.task.label "وظیفه…">
+<!ENTITY lightning.menupopup.new.task.accesskey "T">
+<!ENTITY lightning.menupopup.new.calendar.label "تقویم…">
+<!ENTITY lightning.menupopup.new.calendar.accesskey "n">
+<!-- Open menu popup in File menu -->
+<!ENTITY lightning.menupopup.open.calendar.label "پروندهٔ تقویم…">
+<!ENTITY lightning.menupopup.open.calendar.accesskey "C">
+<!-- View Menu -->
+<!ENTITY lightning.menu.view.calendar.label "تقویم">
+<!ENTITY lightning.menu.view.calendar.accesskey "n">
+<!ENTITY lightning.menu.view.tasks.label "وظیفه‌ها">
+<!ENTITY lightning.menu.view.tasks.accesskey "k">

@@ -1,0 +1,11 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!ENTITY providerUninstall.title "حذف یک فراهم‌ساز">
+<!ENTITY providerUninstall.accept.label "لغو اشتراک انتخاب‌شده‌ها">
+<!ENTITY providerUninstall.accept.accesskey "U">
+<!ENTITY providerUninstall.cancel.label "نگه داشتن برافزا">
+<!ENTITY providerUninstall.cancel.accesskey "K">
+<!ENTITY providerUninstall.preName.label "درخواست حذف یا ازکار انداختن این مورد را داده‌اید:">
+<!ENTITY providerUninstall.postName.label "با این کار تقویم‌های زیر ازکار می‌افتن.">
+<!ENTITY providerUninstall.reinstallNote.label "اگر قصد نصب دوبارهٔ این فراهم‌ساز را ندارید، می‌توانید اشتراک تقویم‌های آن را لغو کنید.">

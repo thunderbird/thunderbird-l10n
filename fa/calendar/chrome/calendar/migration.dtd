@@ -1,0 +1,8 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!ENTITY migration.title "&brandFullName;: درون‌ریزی داده">
+<!ENTITY migration.welcome "خوش آمدید">
+<!ENTITY migration.importing "در حال درون‌ریزی">
+<!ENTITY migration.list.description "&brandShortName; می‌تواند داده‌های تقویم را از بسیاری از برنامه‌های پرکاربرد درون‌ریزی کند. داده‌های برنامه‌های زیر روی رایانهٔ شما پیدا شد. لطفاً انتخاب کنید داده‌های کدام‌یک درون‌ریزی شود.">
+<!ENTITY migration.progress.description "در حال درون‌ریزی داده‌های انتخاب‌شده">
