@@ -1,0 +1,16 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- LOCALIZATION NOTE:
+ This UI can be most easily shown by modifying the version in compatibility.ini
+ to a newer version and then starting Thunderbird.
+ For this feature, "installation" is used to mean "this discrete download of
+ Thunderbird" and "version" is used to mean "the specific revision number of a
+ given Thunderbird channel". These terms are not synonymous. -->
+<!ENTITY window.title "نگارش قدیمی‌تری از &brandProductName; را اجرا کرده‌اید">
+<!ENTITY window.nosync2 "نگارش جدیدتر &brandProductName; ممکن است تغییراتی در نمایهٔ شما داده باشد که با این نگارش قدیمی‌تر سازگار نیست. از این نمایه فقط با آن نگارش جدیدتر استفاده کنید یا برای این نصب &brandShortName; نمایهٔ جدیدی بسازید. ساختن نمایهٔ جدید نیازمند راه‌اندازی دوبارهٔ حساب‌ها، تقویم‌ها و برافزاهاست.">
+<!ENTITY window.moreinfo "اطلاعات بیشتر…">
+<!ENTITY window.create "ساختن نمایهٔ جدید">
+<!ENTITY window.quit-win "خروج">
+<!ENTITY window.quit-nonwin "خروج">

@@ -1,2 +1,15 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!ENTITY accountWindow.title "ویژگی‌های حساب">
 <!ENTITY accountWindow.width "300">
 <!ENTITY account.general "عمومی">
+<!ENTITY account.advanced "گزینه‌های پیشرفته">
+<!ENTITY account.name "نام کاربری:">
+<!ENTITY account.password "گذرواژه:">
+<!ENTITY account.alias "نام مستعار:">
+<!ENTITY account.newMailNotification "آگاهی رایانامهٔ جدید">
+<!ENTITY account.autojoin "کانال‌های پیوستن خودکار:">
+<!ENTITY account.proxySettings.caption "تنظیمات پیشکار:">
+<!ENTITY account.proxySettings.change.label "تغییر…">
+<!ENTITY account.proxySettings.change.accessKey "ت">

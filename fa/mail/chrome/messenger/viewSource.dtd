@@ -63,6 +63,12 @@
 <!ENTITY findAgainCmd.commandkey2 "VK_F3">
 <!ENTITY findSelectionCmd.commandkey "e">
 <!ENTITY backCmd.label "بازگشت">
+<!ENTITY backCmd.accesskey "ب">
+<!ENTITY forwardCmd.label "جلو">
+<!ENTITY forwardCmd.accesskey "ج">
+<!ENTITY goBackCmd.commandKey "[">
+<!ENTITY goForwardCmd.commandKey "]">
+<!ENTITY copyLinkCmd.label "رونوشت نشانی پیوند">
 <!ENTITY copyLinkCmd.accesskey "ر">
 <!ENTITY copyEmailCmd.label "رونوشت نشانی رایانامه">
 <!ENTITY copyEmailCmd.accesskey "ر">

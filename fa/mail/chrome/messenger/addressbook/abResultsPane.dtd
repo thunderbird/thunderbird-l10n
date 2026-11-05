@@ -1,2 +1,35 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!ENTITY Addrbook.label "دفترچهٔ نشانی">
+<!ENTITY Addrbook.accesskey "د">
+<!ENTITY GeneratedName.label "نام">
+<!ENTITY GeneratedName.accesskey "ن">
+<!ENTITY PrimaryEmail.label "رایانامه">
+<!ENTITY PrimaryEmail.accesskey "ر">
+<!ENTITY Company.label "سازمان">
+<!ENTITY Company.accesskey "س">
+<!ENTITY NickName.label "نام مستعار">
+<!ENTITY NickName.accesskey "ن">
+<!ENTITY SecondEmail.label "رایانامهٔ دیگر">
+<!ENTITY SecondEmail.accesskey "ر">
+<!ENTITY Department.label "بخش">
+<!ENTITY Department.accesskey "ب">
+<!ENTITY JobTitle.label "عنوان">
+<!ENTITY JobTitle.accesskey "ع">
+<!ENTITY CellularNumber.label "تلفن همراه">
+<!ENTITY CellularNumber.accesskey "ت">
+<!ENTITY PagerNumber.label "پیجر">
+<!ENTITY PagerNumber.accesskey "پ">
+<!ENTITY FaxNumber.label "دورنگار">
+<!ENTITY FaxNumber.accesskey "د">
+<!ENTITY HomePhone.label "تلفن خانه">
+<!ENTITY HomePhone.accesskey "ت">
+<!ENTITY WorkPhone.label "تلفن کاری">
+<!ENTITY WorkPhone.accesskey "ت">
 <!ENTITY ChatName.label "نام گفت‌وگو">
 <!ENTITY ChatName.accesskey "گ">
+<!ENTITY sortAscending.label "صعودی">
+<!ENTITY sortAscending.accesskey "ص">
+<!ENTITY sortDescending.label "نزولی">
+<!ENTITY sortDescending.accesskey "ن">
