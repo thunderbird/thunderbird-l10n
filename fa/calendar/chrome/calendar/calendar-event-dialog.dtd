@@ -113,6 +113,33 @@
 <!ENTITY event.menu.options.priority.low.label "کم">
 <!ENTITY event.menu.options.priority.low.accesskey "L">
 <!ENTITY event.menu.options.priority.normal.label "عادی">
+<!ENTITY event.menu.options.priority.normal.accesskey "ع">
+<!ENTITY event.menu.options.priority.high.label "زیاد">
+<!ENTITY event.menu.options.priority.high.accesskey "ز">
+<!ENTITY event.menu.options.privacy.label "حریم خصوصی">
+<!ENTITY event.menu.options.privacy.accesskey "ح">
+<!ENTITY event.menu.options.privacy.public.label "رویداد عمومی">
+<!ENTITY event.menu.options.privacy.public.accesskey "ر">
+<!ENTITY event.menu.options.privacy.confidential.label "فقط نمایش تاریخ و زمان">
+<!ENTITY event.menu.options.privacy.confidential.accesskey "ف">
+<!ENTITY event.menu.options.privacy.private.label "رویداد خصوصی">
+<!ENTITY event.menu.options.privacy.private.accesskey "و">
+<!ENTITY event.menu.options.show.time.label "نمایش زمان به‌صورت">
+<!ENTITY event.menu.options.show.time.accesskey "ن">
+<!ENTITY event.menu.options.show.time.busy.label "مشغول">
+<!ENTITY event.menu.options.show.time.busy.accesskey "م">
+<!ENTITY event.menu.options.show.time.free.label "آزاد">
+<!ENTITY event.menu.options.show.time.free.accesskey "آ">
+<!ENTITY event.invite.attendees.label "دعوت از شرکت‌کنندگان…">
+<!ENTITY event.invite.attendees.accesskey "د">
+<!ENTITY event.email.attendees.label "نوشتن رایانامه به همهٔ شرکت‌کنندگان…">
+<!ENTITY event.email.attendees.accesskey "ن">
+<!ENTITY event.email.tentative.attendees.label "نوشتن رایانامه به شرکت‌کنندگان مردد…">
+<!ENTITY event.email.tentative.attendees.accesskey "ن">
+<!ENTITY event.remove.attendees.label2 "برداشتن همهٔ شرکت‌کنندگان">
+<!ENTITY event.remove.attendees.accesskey "ب">
+<!ENTITY event.remove.attendee.label "برداشتن شرکت‌کننده">
+<!ENTITY event.remove.attendee.accesskey "ر">
 <!-- Toolbar -->
 <!ENTITY event.toolbar.save.label2 "ذخیره">
 <!ENTITY event.toolbar.saveandclose.label "ذخیره و بستن">
@@ -140,3 +167,4 @@
 <!ENTITY counter.button.proposal.tooltip2 "زمینه‌های رویداد با مقادیر پیشنهاد متقابل پر می‌شوند؛ فقط ذخیره با تغییرات بیشتر یا بدون آن، به همهٔ شرکت‌کنندگان آگاهی می‌دهد">
 <!ENTITY counter.button.original.label "اعمال داده‌های اصلی">
 <!ENTITY counter.button.original.accesskey "r">
+<!ENTITY counter.button.original.tooltip2 "زمینه‌ها به مقادیر رویداد اصلی، پیش از پیشنهاد متقابل، برگردانده می‌شوند">
