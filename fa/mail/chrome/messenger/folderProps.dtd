@@ -4,6 +4,15 @@
 
 <!ENTITY folderProps.windowtitle.label "ویژگی‌ها">
 <!ENTITY generalInfo.label "General Information">
+<!ENTITY folderRebuildSummaryFileTip2.label "بازسازی نمایهٔ پروندهٔ خلاصه">
+<!ENTITY folderRebuildSummaryFile2.label "تعمیر پوشه">
+<!ENTITY folderRebuildSummaryFile2.accesskey "ت">
+<!ENTITY folderRebuildSummaryFile.explanation "گاهی پروندهٔ نمایهٔ پوشه (.msf) آسیب می‌بیند و ممکن است پیام‌ها گم‌شده به نظر برسند یا پیام‌های حذف‌شده همچنان نمایش داده شوند؛ تعمیر پوشه ممکن است این مشکلات را برطرف کند.">
+<!ENTITY folderIncludeInGlobalSearch.label "گنجاندن پیام‌های این پوشه در نتایج جست‌وجوی سراسری">
+<!ENTITY folderIncludeInGlobalSearch.accesskey "گ">
+<!ENTITY folderSynchronizationTab.label "همگام‌سازی">
+<!ENTITY folderCheckForNewMessages2.label "هنگام دریافت پیام‌های جدید این حساب، این پوشه همیشه بررسی شود">
+<!ENTITY folderCheckForNewMessages2.accesskey "ه">
 <!ENTITY offlineFolder.check.label "Select this folder for offline use">
 <!ENTITY offlineFolder.check.accesskey "S">
 <!ENTITY offlineFolder.button.label "Download Now">
@@ -14,13 +23,23 @@
 <!ENTITY offlineNewsgroup.button.accesskey "D">
 <!ENTITY folderProps.name.label "نام:">
 <!ENTITY folderProps.name.accesskey "ن">
+<!ENTITY folderProps.color.label "رنگ نقشک:">
+<!ENTITY folderProps.color.accesskey "ر">
+<!ENTITY folderProps.reset.tooltip "بازگرداندن رنگ پیش‌گزیده">
 <!ENTITY folderProps.location.label "مکان:">
 <!ENTITY folderProps.location.accesskey "م">
 <!ENTITY folderSharingTab.label "Sharing">
 <!ENTITY privileges.button.label "Privileges…">
 <!ENTITY privileges.button.accesskey "P">
 <!ENTITY permissionsDesc.label "You have the following permissions:">
+<!ENTITY folderOtherUsers.label "دیگرانی که به این پوشه دسترسی دارند:">
 <!ENTITY folderType.label "Folder Type:">
 <!ENTITY folderQuotaTab.label "Quota">
 <!ENTITY folderQuotaUsage.label "Usage:">
 <!ENTITY folderQuotaStatus.label "وضعیت:">
+<!ENTITY numberOfMessages.label "تعداد پیام‌ها:">
+<!-- LOCALIZATION NOTE: When the number of messages can't be determined, this string is displayed as the number -->
+<!ENTITY numberUnknown.label "نامشخص">
+<!ENTITY sizeOnDisk.label "حجم روی دیسک:">
+<!-- LOCALIZATION NOTE: When the size can't be determined, this string is displayed as the size -->
+<!ENTITY sizeUnknown.label "نامشخص">

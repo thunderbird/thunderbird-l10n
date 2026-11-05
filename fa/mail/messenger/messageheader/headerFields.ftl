@@ -97,6 +97,12 @@ message-header-address-in-address-book-button =
     .title = ویرایش مخاطب
 message-header-field-show-more = بیشتر
     .title = نمایش همهٔ گیرندگان
+message-ids-field-show-more = نمایش بیشتر
+# Button shown in place of hidden items in a header field.
+# $count (Number) - The number of hidden items the button will show.
+message-header-field-show-count-more =
+    .aria-label = نمایش { $count } مورد دیگر
+    .title = نمایش { $count } مورد دیگر
 message-ids-field-show-all = نمایش همه
 
 ## Dark Message Mode

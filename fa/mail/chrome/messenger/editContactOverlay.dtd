@@ -1,6 +1,14 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!ENTITY editContactPanelDeleteContact.label "حذف">
+<!ENTITY editContactPanelDeleteContact.accesskey "ح">
 <!ENTITY editContactName.label "نام:">
 <!ENTITY editContactName.accesskey "ن">
 <!ENTITY editContactEmail.label "Email:">
 <!ENTITY editContactEmail.accesskey "E">
+<!ENTITY editContactAddressBook.label "دفترچهٔ نشانی:">
+<!ENTITY editContactAddressBook.accesskey "د">
 <!ENTITY editContactPanelDone.label "انجام شد">
 <!ENTITY editContactPanelDone.accesskey "ا">
+<!ENTITY contactMoveDisabledWarning.description "نمی‌توانید دفترچهٔ نشانی را تغییر دهید، چون این مخاطب در یک فهرست پستی است.">

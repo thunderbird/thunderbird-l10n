@@ -267,6 +267,7 @@ message-verification-request2 = { $user } می‌خواهد { $userReceiving } �
 #    $reason is the reason given why the verification was cancelled.
 message-verification-cancel2 = { $user } تأیید را با این دلیل لغو کرد: { $reason }
 message-verification-done = تأیید کامل شد.
+message-decryption-error2 = محتوای این پیام رمزگشایی نشد. کلیدهای رمزگذاری به‌طور خودکار دوباره درخواست می‌شوند.
 message-decryption-error = رمزگشایی محتوای این پیام ممکن نشد. برای درخواست کلیدهای رمزگذاری از دستگاه‌های دیگرتان، روی این پیام راست‌کلیک کنید.
 message-decrypting = در حال رمزگشایی…
 message-redacted = محتوای پیام حذف شد.

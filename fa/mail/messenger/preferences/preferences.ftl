@@ -242,6 +242,16 @@ enable-gloda-search-label =
     .label = به‌کار انداختن جست‌وجوی سراسری و نمایه‌ساز
     .accesskey = س
 datetime-formatting-legend = قالب‌بندی تاریخ و زمان
+# Variables:
+#   $localeName (String) - The name of the application locale.
+date-time-app-locale =
+    .label = زبان برنامه: { $localeName }
+    .accesskey = ز
+# Variables:
+#   $localeName (String) - The name of the locale from regional settings.
+date-time-regional-locale =
+    .label = زبان تنظیمات منطقه‌ای: { $localeName }
+    .accesskey = م
 display-language-legend = زبان نمایش
 allow-graphics-accel =
     .label = استفاده از شتاب‌دهی گرافیکی برای پیمایش و کارایی روان‌تر
@@ -305,6 +315,14 @@ always-check-default =
 check-default-button =
     .label = هم‌اکنون بررسی شود
     .accesskey = ب
+# Note: This is the search engine name for all the different platforms.
+# Platforms that don't support it should be left blank.
+search-engine-name =
+    { PLATFORM() ->
+        [macos] Spotlight
+        [windows] Windows Search
+       *[other] { "" }
+    }
 search-integration-label =
     .label = اجازه به { search-engine-name } برای جست‌وجوی پیام‌ها
     .accesskey = ج
@@ -367,6 +385,13 @@ offline-settings-button =
     .label = برون‌خط…
     .accesskey = ب
 temporary-storage-legend = ذخیره‌سازی موقت
+# Variables:
+#   $size (String) - The amount of disk space used.
+#   $unit (String) - The unit used to describe the amount of disk space.
+actual-disk-cache-size =
+    .value = حافظهٔ نهان شما در حال حاضر { $size } { $unit } از فضای دیسک را اشغال کرده است
+actual-disk-cache-size-calculating =
+    .value = در حال محاسبهٔ اندازهٔ حافظهٔ نهان…
 offline-compact-remove-deleted =
     .label = برداشتن داده‌های حذف‌شده از پوشه‌ها برای آزاد کردن فضا
     .accesskey = ب
@@ -461,10 +486,45 @@ type-column-header = نوع محتوا
 action-column-header = کنش
 download-folder-desktop = رومیزی
 download-folder-system = My Downloads
+download-choose-folder-title = انتخاب پوشه
 # Variables:
 #   $extension (String) - A file extension, without the leading dot.
 applications-file-ending = پروندهٔ { $extension }
+applications-save-file = ذخیرهٔ پرونده
+    .label = ذخیرهٔ پرونده
+    .tooltiptext = ذخیرهٔ پرونده
+# Variables:
+#   $appName (String) - The name of an application.
+applications-use-app = استفاده از { $appName }
+    .label = استفاده از { $appName }
+    .tooltiptext = استفاده از { $appName }
+# Variables:
+#   $appName (String) - The name of the default application.
+applications-use-default = استفاده از { $appName } (پیش‌گزیده)
+    .label = استفاده از { $appName } (پیش‌گزیده)
+    .tooltiptext = { $appName }
+applications-use-other-app =
+    .label = استفاده از برنامهٔ دیگر…
+    .tooltiptext = استفاده از برنامهٔ دیگر…
 applications-choose-app-title = انتخاب برنامهٔ راهنما
+applications-manage-app =
+    .label = جزئیات برنامه…
+applications-always-ask = همیشه بپرس
+    .label = همیشه بپرس
+    .tooltiptext = همیشه بپرس
+applications-delete-action =
+    .label = حذف کنش
+applications-delete-action-title = حذف کنش
+applications-delete-action-confirm = مطمئنید می‌خواهید این کنش را حذف کنید؟
+# Variables:
+#   $type-description (String) - A description of the content type, for example
+#                                "Portable Document Format (PDF)".
+#   $type (String) - The MIME type of the content, for example "application/pdf".
+applications-type-details-with-ext = ({ $type-description }: { $type })
+applications-type-pdf = قالب سند قابل‌حمل (PDF)
+applications-preview-in-app = پیش‌نمایش در { -brand-short-name }
+    .label = پیش‌نمایش در { -brand-short-name }
+    .tooltiptext = پیش‌نمایش در { -brand-short-name }
 save-to-label =
     .label = ذخیرهٔ پرونده‌ها در
     .accesskey = ذ
@@ -781,6 +841,13 @@ remove-cloud-account =
 find-cloud-providers =
     .value = یافتن ارائه‌دهندگان بیشتر…
 cloud-account-description = افزودن سرویس ذخیره‌سازی Filelink جدید
+# Variables:
+#   $providerName (String) - The display name of a Filelink provider.
+filelink-add-provider =
+    .label = افزودن { $providerName }
+    .tooltiptext = افزودن { $providerName }
+filelink-account-not-configured =
+    .title = این حساب هنوز پیکربندی نشده است
 # Variables:
 #   $accountName (String) - The user-defined name of a Filelink account.
 filelink-remove-account-confirm = Are you sure you want to remove the account "{ $accountName }"?
@@ -1157,6 +1224,13 @@ managed-notice = { -brand-short-name } توسط سازمان شما مدیریت
 
 chat-theme-preview-default =
     .label = پیش فرض
+chat-theme-preview-nick-1 = فلوریان
+chat-theme-preview-buddy-1 = florian@im.instantbird.org
+chat-theme-preview-nick-2 = پاتریک
+chat-theme-preview-buddy-2 = patrick@im.instantbird.org
+chat-theme-preview-message-1 = سلام! :-)
+chat-theme-preview-message-2 = چه خبر؟
+chat-theme-preview-message-3 = دارم { -brand-short-name } را امتحان می‌کنم! ;-)
 
 ## Settings UI Search Results
 

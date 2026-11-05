@@ -148,6 +148,10 @@ filter-running-message =
     می‌خواهید به اعمال پالایه‌ها ادامه دهید؟
 filter-stop-button = توقف
 filter-continue-button = ادامه
+# Shown once at the end of a filter run the user started, when at least one
+# filter or action failed. The individual failures are in the filter log.
+filter-run-failed = برخی پالایه‌ها اعمال نشدند. برای جزئیات، گزارش پالایه را ببینید.
+filter-run-failed-open-log-button = گشودن گزارش پالایه
 
 ## Filter Editor
 

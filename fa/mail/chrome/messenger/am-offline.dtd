@@ -36,4 +36,6 @@
 <!ENTITY ageAutosyncMiddle.label "">
 <!ENTITY dayAgeInterval.label "روز">
 <!ENTITY weekAgeInterval.label "هفته">
+<!ENTITY monthAgeInterval.label "ماه">
+<!ENTITY yearAgeInterval.label "سال">
 <!ENTITY ageAutosyncAfter.label "">

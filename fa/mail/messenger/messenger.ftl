@@ -457,6 +457,10 @@ decrypt-and-copy-failures-multiple =
         [one] { $failures } پیام از { $total } پیام رمزگشایی و رونوشت نشد.
        *[other] { $failures } پیام از { $total } پیام رمزگشایی و رونوشت نشدند.
     }
+# Shown once at the end of a filter run the user started from the message
+# list, when at least one filter or action failed.
+apply-filters-failed = اجرای پالایه با موفقیت کامل نشد. برای جزئیات، گزارش پالایه را ببینید.
+apply-filters-failed-open-log-button = باز کردن گزارش پالایه
 
 ## Spaces toolbar
 

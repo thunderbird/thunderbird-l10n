@@ -36,6 +36,7 @@ policy-DisableFeedbackCommands = ازکار انداختن فرمان‌های �
 policy-DisableFileLink = ازکار انداختن ویژگی Filelink.
 policy-DisableForgetButton = جلوگیری از دسترسی به دکمهٔ فراموش کردن.
 policy-DisableFormHistory = به خاطر نسپردن تاریخچهٔ جست‌وجو و فرم.
+policy-DisableMacOSUserPolicies = نادیده گرفتن سیاست‌های موجود در ترجیحات کاربر و نمایه‌های پیکربندی در حوزهٔ کاربر در macOS.
 policy-DisableMasterPasswordCreation = اگر درست باشد، گذرواژهٔ اصلی ساخته نمی‌شود.
 policy-DisableMessageForwardingFilters = جلوگیری از بازارسال خودکار پیام‌ها توسط پالایه‌های پیام.
 policy-DisablePasswordReveal2 = اجازه ندادن به آشکار شدن گذرواژه‌ها در ورودهای ذخیره‌شده یا زمینه‌های گذرواژه.

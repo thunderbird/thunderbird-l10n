@@ -1,6 +1,14 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!ENTITY identitiesListManageDesc.label "هویت‌های این حساب را مدیریت کنید. نخستین هویت به‌طور پیش‌گزیده استفاده می‌شود.">
 <!ENTITY identitiesListAdd.label "Add…">
 <!ENTITY identitiesListAdd.accesskey "A">
 <!ENTITY identitiesListEdit.label "ویرایش…">
 <!ENTITY identitiesListEdit.accesskey "و">
+<!ENTITY identitiesListDefault.label "تنظیم به‌عنوان پیش‌گزیده">
+<!ENTITY identitiesListDefault.accesskey "ت">
 <!ENTITY identitiesListDelete.label "حذف">
 <!ENTITY identitiesListDelete.accesskey "ح">
+<!ENTITY identitiesListClose.label "بستن">
+<!ENTITY identitiesListClose.accesskey "ب">
