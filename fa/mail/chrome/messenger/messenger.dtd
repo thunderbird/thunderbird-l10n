@@ -502,12 +502,26 @@
 <!ENTITY phishingOptionSettings.label "ویرایش گزینه‌های تشخیص کلاهبرداری…">
 <!ENTITY phishingOptionSettings.accesskey "و">
 <!ENTITY phishingOptionSettingsUnix.label "ویرایش ترجیحات تشخیص کلاهبرداری…">
+<!ENTITY phishingOptionSettingsUnix.accesskey "و">
+<!-- AppMenu Popup -->
+<!ENTITY appmenuNewMsgCmd.label "پیام جدید">
+<!ENTITY appmenuNewContactCmd.label "مخاطب دفترچهٔ نشانی…">
+<!-- AppMenu Popup -->
+<!ENTITY appmenuToolbarLayout.label "چیدمان نوارابزار…">
 <!-- Folder Pane -->
 <!ENTITY folderNameColumn.label "نام">
+<!ENTITY folderUnreadColumn.label "نخوانده">
+<!ENTITY folderTotalColumn.label "مجموع">
 <!ENTITY folderSizeColumn.label "اندازه">
 <!-- Folder Pane Context Menu -->
 <!ENTITY folderContextGetMessages.label "Get Messages">
 <!ENTITY folderContextGetMessages.accesskey "د">
+<!ENTITY folderContextMarkAllFoldersRead.label "علامت زدن همهٔ پوشه‌ها به‌عنوان خوانده‌شده">
+<!ENTITY folderContextPauseAllUpdates.label "توقف همهٔ به‌روزرسانی‌ها">
+<!ENTITY folderContextPauseUpdates.label "توقف به‌روزرسانی‌ها">
+<!ENTITY folderContextPauseUpdates.accesskey "ت">
+<!ENTITY folderContextOpenInNewWindow.label "گشودن در پنجرهٔ جدید">
+<!ENTITY folderContextOpenInNewWindow.accesskey "گ">
 <!ENTITY folderContextOpenNewTab.label "گشودن در زبانهٔ جدید">
 <!ENTITY folderContextOpenNewTab.accesskey "ب">
 <!ENTITY folderContextNew.label "New Subfolder…">
@@ -526,13 +540,19 @@
 <!ENTITY folderContextMarkNewsgroupRead.accesskey "k">
 <!ENTITY folderContextSubscribe.label "Subscribe…">
 <!ENTITY folderContextSubscribe.accesskey "b">
+<!ENTITY folderContextSearchForMessages.label "جست‌وجوی پیام‌ها…">
+<!ENTITY folderContextSearchForMessages.accesskey "ج">
 <!ENTITY folderContextProperties2.label "ویژگی‌ها">
 <!ENTITY folderContextProperties2.accesskey "و">
 <!ENTITY folderContextFavoriteFolder.label "Favorite Folder">
 <!ENTITY folderContextFavoriteFolder.accesskey "a">
+<!ENTITY folderContextSettings2.label "تنظیمات">
+<!ENTITY folderContextSettings2.accesskey "ت">
 <!-- Search Bar -->
 <!ENTITY SearchNameOrEmail.label "Name or Email contains:">
 <!ENTITY SearchNameOrEmail.accesskey "N">
+<!-- Gloda Search Bar -->
+<!ENTITY glodaSearchBar.placeholder "جست‌وجوی پیام‌ها…">
 <!-- Quick Search Menu Bar -->
 <!ENTITY searchSubjectMenu.label "موضوع">
 <!ENTITY searchFromMenu.label "From">
@@ -541,9 +561,12 @@
 <!ENTITY searchSubjectOrRecipientMenu.label "Subject, To or Cc">
 <!ENTITY searchMessageBody.label "Entire Message">
 <!ENTITY saveAsVirtualFolderMenu.label "Save Search as a Folder…">
+<!-- Thread Pane -->
+<!ENTITY selectColumn.label "انتخاب پیام‌ها">
 <!ENTITY threadColumn.label "Thread">
 <!ENTITY fromColumn.label "From">
 <!ENTITY recipientColumn.label "Recipient">
+<!ENTITY correspondentColumn.label "طرف‌های مکاتبه">
 <!ENTITY subjectColumn.label "موضوع">
 <!ENTITY dateColumn.label "تاریخ">
 <!ENTITY priorityColumn.label "Priority">
@@ -551,12 +574,34 @@
 <!ENTITY accountColumn.label "Account">
 <!ENTITY statusColumn.label "وضعیت">
 <!ENTITY sizeColumn.label "اندازه">
+<!ENTITY unreadColumn.label "نخوانده">
+<!ENTITY totalColumn.label "مجموع">
 <!ENTITY readColumn.label "Read">
 <!ENTITY receivedColumn.label "Received">
 <!ENTITY starredColumn.label "Starred">
 <!ENTITY locationColumn.label "مکان">
 <!ENTITY idColumn.label "Order Received">
+<!ENTITY attachmentColumn.label "پیوست‌ها">
+<!ENTITY deleteColumn.label "حذف">
+<!-- Thread Pane Tooltips -->
+<!ENTITY columnChooser2.tooltip "انتخاب ستون‌های نمایش">
+<!ENTITY selectColumn.tooltip "انتخاب یا لغو انتخاب همهٔ پیام‌ها">
+<!ENTITY threadColumn2.tooltip "نمایش رشته‌های پیام">
+<!ENTITY fromColumn2.tooltip "مرتب‌سازی بر اساس فرستنده">
+<!ENTITY recipientColumn2.tooltip "مرتب‌سازی بر اساس گیرنده">
+<!ENTITY correspondentColumn2.tooltip "مرتب‌سازی بر اساس طرف‌های مکاتبه">
 <!ENTITY subjectColumn2.tooltip "مرتب سازی بر اساس موضوع">
+<!ENTITY dateColumn2.tooltip "مرتب‌سازی بر اساس تاریخ">
+<!ENTITY priorityColumn2.tooltip "مرتب‌سازی بر اساس اولویت">
+<!ENTITY tagsColumn2.tooltip "مرتب‌سازی بر اساس برچسب‌ها">
+<!ENTITY accountColumn2.tooltip "مرتب‌سازی بر اساس حساب">
+<!ENTITY statusColumn2.tooltip "مرتب‌سازی بر اساس وضعیت">
+<!ENTITY sizeColumn2.tooltip "مرتب‌سازی بر اساس حجم">
+<!ENTITY unreadColumn2.tooltip "تعداد پیام‌های نخوانده در رشته">
+<!ENTITY totalColumn2.tooltip "تعداد کل پیام‌های رشته">
+<!ENTITY readColumn2.tooltip "مرتب‌سازی بر اساس خوانده‌شده">
+<!ENTITY receivedColumn2.tooltip "مرتب‌سازی بر اساس تاریخ دریافت">
+<!ENTITY starredColumn2.tooltip "مرتب‌سازی بر اساس ستاره">
 <!ENTITY locationColumn2.tooltip "مرتب‌سازی بر اساس مکان">
 <!ENTITY idColumn2.tooltip "مرتب‌سازی بر اساس ترتیب دریافت">
 <!ENTITY attachmentColumn2.tooltip "مرتب‌سازی بر اساس پیوست‌ها">
@@ -714,6 +759,8 @@
 <!ENTITY copyEmailCmd.accesskey "ن">
 <!ENTITY openInBrowser.label "گشودن در مرورگر">
 <!ENTITY openInBrowser.accesskey "گ">
+<!ENTITY openLinkInBrowser.label "گشودن پیوند در مرورگر">
+<!ENTITY openLinkInBrowser.accesskey "گ">
 <!-- Statusbar -->
 <!ENTITY statusText.label "انجام شد">
 <!-- Mac OS X Window Menu -->
@@ -734,3 +781,10 @@
 <!ENTITY hideOtherAppsCmdMac.commandkey "H">
 <!ENTITY hideOtherAppsCmdMac.modifiers "accel,alt">
 <!ENTITY showAllAppsCmdMac.label "نشان دادن همه">
+<!-- Mac OS X Dock Icon pop-up menu -->
+<!ENTITY dockOptions.label "گزینه‌های نقشک برنامه…">
+<!ENTITY writeNewMessageDock.label "نوشتن پیام جدید">
+<!ENTITY openAddressBookDock.label "گشودن دفترچهٔ نشانی">
+<!-- Content tab Navigation buttons -->
+<!ENTITY browseBackButton.tooltip "رفتن به یک صفحه قبل">
+<!ENTITY browseForwardButton.tooltip "رفتن به یک صفحه بعد">

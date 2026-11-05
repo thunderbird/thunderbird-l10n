@@ -191,6 +191,47 @@
 <!ENTITY task.status.label "وضعیت:">
 <!ENTITY task.status.accesskey "و">
 <!ENTITY event.repeat.label "تکرار:">
+<!ENTITY event.repeat.accesskey "ک">
+<!ENTITY event.until.label "تا:">
+<!ENTITY event.until.accesskey "ت">
+<!ENTITY event.reminder.label "یادآوری:">
+<!ENTITY event.reminder.accesskey "ی">
+<!ENTITY event.description.label "توضیحات:">
+<!ENTITY event.description.accesskey "و">
+<!ENTITY event.attachments.label "پیوست‌ها:">
+<!ENTITY event.attachments.accesskey "س">
+<!ENTITY event.attachments.menubutton.label "پیوست کردن">
+<!ENTITY event.attachments.menubutton.accesskey "پ">
+<!ENTITY event.attachments.url.label "صفحهٔ وب…">
+<!ENTITY event.attachments.url.accesskey "ص">
+<!ENTITY event.attachments.popup.remove.label "برداشتن">
+<!ENTITY event.attachments.popup.remove.accesskey "ب">
+<!ENTITY event.attachments.popup.open.label "گشودن">
+<!ENTITY event.attachments.popup.open.accesskey "گ">
+<!ENTITY event.attachments.popup.removeAll.label "برداشتن همه">
+<!ENTITY event.attachments.popup.removeAll.accesskey "ر">
+<!ENTITY event.attachments.popup.attachPage.label "پیوست کردن صفحهٔ وب…">
+<!ENTITY event.attachments.popup.attachPage.accesskey "پ">
+<!ENTITY event.url.label "پیوند مرتبط:">
+<!ENTITY event.priority2.label "اولویت:">
+<!ENTITY event.reminder.none.label "بدون یادآوری ">
+<!ENTITY event.reminder.0minutes.before.label "0 دقیقه پیش از آن">
+<!ENTITY event.reminder.5minutes.before.label "5 دقیقه پیش از آن">
+<!ENTITY event.reminder.15minutes.before.label "15 دقیقه پیش از آن">
+<!ENTITY event.reminder.30minutes.before.label "30 دقیقه پیش از آن">
+<!ENTITY event.reminder.1hour.before.label "1 ساعت پیش از آن">
+<!ENTITY event.reminder.2hours.before.label "2 ساعت پیش از آن">
+<!ENTITY event.reminder.12hours.before.label "12 ساعت پیش از آن">
+<!ENTITY event.reminder.1day.before.label "1 روز پیش از آن">
+<!ENTITY event.reminder.2days.before.label "2 روز پیش از آن">
+<!ENTITY event.reminder.1week.before.label "1 هفته پیش از آن">
+<!ENTITY event.reminder.custom.label "سفارشی…">
+<!ENTITY event.reminder.multiple.label "چند یادآوری…">
+<!ENTITY event.statusbarpanel.freebusy.label "زمان به‌صورت:">
+<!ENTITY event.statusbarpanel.privacy.label "حریم خصوصی:">
+<!-- Recurrence dialog -->
+<!ENTITY recurrence.title.label "ویرایش تکرار">
+<!ENTITY event.repeat.does.not.repeat.label "تکرار نمی‌شود">
 <!ENTITY event.repeat.daily.label "روزانه">
 <!ENTITY event.repeat.weekly.label "هفتگی">
 <!ENTITY event.repeat.every.weekday.label "هر روز کاری">
@@ -224,6 +265,13 @@
 <!ENTITY event.recurrence.every.label "هر:">
 <!ENTITY repeat.units.years.both "سال">
 <!ENTITY event.recurrence.pattern.yearly.every.month.label "هر">
+<!-- LOCALIZATON NOTE
+     Some languages use a preposition when describing dates:
+     Portuguese: 6 de Setembro
+     English: 6 [of] September
+     event.recurrence.pattern.yearly.of.label is "of" in
+     Edit recurrence window -> Recurrence pattern -> Repeat yearly -->
+<!ENTITY event.recurrence.pattern.yearly.of.label "">
 <!ENTITY event.recurrence.yearly.every.label "هر">
 <!ENTITY event.recurrence.yearly.first.label "نخستین">
 <!ENTITY event.recurrence.yearly.second.label "دومین">
@@ -242,3 +290,28 @@
 <!ENTITY invite.title.label "دعوت از شرکت‌کنندگان">
 <!ENTITY event.organizer.label "برگزارکننده">
 <!ENTITY event.freebusy.suggest.slot "پیشنهاد بازهٔ زمانی:">
+<!ENTITY event.freebusy.button.next.slot "بازهٔ بعدی">
+<!ENTITY event.freebusy.button.previous.slot "بازهٔ قبلی">
+<!ENTITY event.freebusy.zoom "بزرگ‌نمایی:">
+<!ENTITY event.freebusy.legend.free "آزاد">
+<!ENTITY event.freebusy.legend.busy "مشغول">
+<!ENTITY event.freebusy.legend.busy_tentative "موقت">
+<!ENTITY event.freebusy.legend.busy_unavailable "بیرون از محل کار">
+<!ENTITY event.freebusy.legend.unknown "بدون اطلاعات">
+<!ENTITY event.attendee.role.required "شرکت‌کنندهٔ الزامی">
+<!ENTITY event.attendee.role.optional "شرکت‌کنندهٔ اختیاری">
+<!ENTITY event.attendee.role.chair "رئیس جلسه">
+<!ENTITY event.attendee.role.nonparticipant "غیرشرکت‌کننده">
+<!ENTITY event.attendee.usertype.individual "فرد">
+<!ENTITY event.attendee.usertype.group "گروه">
+<!ENTITY event.attendee.usertype.resource "منبع">
+<!ENTITY event.attendee.usertype.room "اتاق">
+<!ENTITY event.attendee.usertype.unknown "ناشناخته">
+<!ENTITY summary.dialog.tentative.label "موقت">
+<!ENTITY summary.dialog.tentative.tooltiptext "پذیرفتن موقت دعوت">
+<!ENTITY summary.dialog.decline.label "رد کردن">
+<!ENTITY summary.dialog.decline.tooltiptext "رد کردن دعوت">
+<!ENTITY summary.dialog.dontsend.label "پاسخی فرستاده نشود">
+<!ENTITY summary.dialog.dontsend.tooltiptext "تغییر وضعیت شرکت بدون فرستادن پاسخ به برگزارکننده و بستن پنجره">
+<!ENTITY summary.dialog.send.label "هم‌اکنون پاسخ فرستاده شود">
+<!ENTITY summary.dialog.send.tooltiptext "فرستادن پاسخ به برگزارکننده  و بستن پنجره">
