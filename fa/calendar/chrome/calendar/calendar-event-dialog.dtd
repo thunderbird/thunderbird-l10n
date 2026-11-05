@@ -112,3 +112,31 @@
 <!ENTITY event.menu.options.priority.notspecified.accesskey "o">
 <!ENTITY event.menu.options.priority.low.label "کم">
 <!ENTITY event.menu.options.priority.low.accesskey "L">
+<!ENTITY event.menu.options.priority.normal.label "عادی">
+<!-- Toolbar -->
+<!ENTITY event.toolbar.save.label2 "ذخیره">
+<!ENTITY event.toolbar.saveandclose.label "ذخیره و بستن">
+<!ENTITY event.toolbar.delete.label "حذف">
+<!ENTITY event.toolbar.attendees.label "دعوت از شرکت‌کنندگان">
+<!ENTITY event.toolbar.privacy.label "حریم خصوصی">
+<!ENTITY event.toolbar.save.tooltip2 "ذخیره">
+<!ENTITY event.toolbar.saveandclose.tooltip "ذخیره و بستن">
+<!ENTITY event.toolbar.delete.tooltip "حذف">
+<!ENTITY event.toolbar.attendees.tooltip "دعوت از شرکت‌کنندگان">
+<!ENTITY event.toolbar.attachments.tooltip "افزودن پیوست‌ها">
+<!ENTITY event.toolbar.privacy.tooltip "تغییر حریم خصوصی">
+<!ENTITY event.toolbar.priority.tooltip "تغییر اولویت">
+<!ENTITY event.toolbar.status.tooltip "تغییر وضعیت">
+<!ENTITY event.toolbar.freebusy.tooltip "تغییر زمان آزاد/مشغول">
+<!-- Counter box
+     LOCALIZATON NOTE(counter.button.*)
+   - This is only visible in the UI if you have received a counterproposal before and are going to
+   - reschedule the event from the imipbar in the email view. Clicking on the buttons will only
+   - populate the form fields in the dialog, there's no other immediate action on clicking like with
+   - the imip bar. Rescheduling will happen after clicking on save&close as usual. This screenshot
+   - illustrates how it might look like: https://bugzilla.mozilla.org/attachment.cgi?id=8810121 -->
+<!ENTITY counter.button.proposal.label "اعمال پیشنهاد">
+<!ENTITY counter.button.proposal.accesskey "p">
+<!ENTITY counter.button.proposal.tooltip2 "زمینه‌های رویداد با مقادیر پیشنهاد متقابل پر می‌شوند؛ فقط ذخیره با تغییرات بیشتر یا بدون آن، به همهٔ شرکت‌کنندگان آگاهی می‌دهد">
+<!ENTITY counter.button.original.label "اعمال داده‌های اصلی">
+<!ENTITY counter.button.original.accesskey "r">
