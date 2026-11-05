@@ -59,6 +59,14 @@
 <!ENTITY event.menu.item.new.contact.label "مخاطب دفترچهٔ نشانی">
 <!ENTITY event.menu.item.new.contact.accesskey "C">
 <!ENTITY event.menu.item.close.label "بستن">
+<!ENTITY event.menu.item.close.accesskey "C">
+<!-- LOCALIZATION NOTE
+   - event.menu.item.save.accesskey is used for the "Save" menu item
+   - when editing events/tasks in a dialog window.
+   - event.menu.item.save.tab.accesskey is used for the "Save" menu item
+   - when editing events/tasks in a tab. -->
+<!ENTITY event.menu.item.save.label "ذخیره">
+<!ENTITY event.menu.item.save.accesskey "S">
 <!ENTITY event.menu.options.attendees.accesskey "I">
 <!ENTITY event.menu.options.timezone2.label "نمایش منطقه‌های زمانی">
 <!ENTITY event.menu.options.timezone2.accesskey "z">

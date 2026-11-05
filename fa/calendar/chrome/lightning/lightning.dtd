@@ -19,3 +19,79 @@
 <!ENTITY lightning.menu.view.calendar.accesskey "n">
 <!ENTITY lightning.menu.view.tasks.label "وظیفه‌ها">
 <!ENTITY lightning.menu.view.tasks.accesskey "k">
+<!-- Events and Tasks menu -->
+<!ENTITY lightning.menu.eventtask.label "رویدادها و وظیفه‌ها">
+<!ENTITY lightning.menu.eventtask.accesskey "n">
+<!-- properties dialog, calendar creation wizard
+     LOCALIZATON NOTE(lightning.calendarproperties.email.label,
+     lightning.calendarproperties.forceEmailScheduling.label)
+     These strings are used in the calendar wizard and the calendar properties dialog, but are only
+     displayed when setting/using a caldav calendar -->
+<!ENTITY lightning.calendarproperties.email.label "رایانامه:">
+<!ENTITY lightning.calendarproperties.forceEmailScheduling.label "ترجیح زمان‌بندی رایانامه‌ای در سمت کارخواه">
+<!-- LOCALIZATON NOTE(lightning.calendarproperties.forceEmailScheduling.tooltiptext1,
+     lightning.calendarproperties.forceEmailScheduling.tooltiptext2)
+     - tooltiptext1 is used in the calendar wizard when setting a new caldav calendar
+     - tooltiptext2 is used in the calendar properties dialog for caldav calendars -->
+<!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext1 "در حال حاضر، اگر کارساز تقویم زمان‌بندی را انجام می‌دهد، فقط پس از راه‌اندازی این تقویم می‌توانید این گزینه را در پنجرهٔ ویژگی‌های آن به‌کار بیندازید.">
+<!-- LOCALIZATON NOTE(lightning.calendarproperties.forceEmailScheduling.tooltiptext2)
+     This is used in the calendar properties dialog for caldav calendars. -->
+<!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext2 "این گزینه فقط وقتی در دسترس است که کارساز تقویم زمان‌بندی را انجام دهد. با به‌کار انداختن آن، به‌جای واگذاری به کارساز، از زمان‌بندی استاندارد مبتنی بر رایانامه استفاده می‌شود.">
+<!-- The notifications settings in the properties dialog -->
+<!ENTITY lightning.calendarproperties.notifications.label "آگاهی‌ها">
+<!ENTITY lightning.calendarproperties.globalNotifications.label "ترجیحات سراسری آگاهی…">
+<!-- iMIP Bar (meeting support) -->
+<!ENTITY lightning.imipbar.btnAccept.label "پذیرفتن">
+<!ENTITY lightning.imipbar.btnAccept2.tooltiptext "پذیرفتن دعوت رویداد">
+<!ENTITY lightning.imipbar.btnAcceptRecurrences.label "پذیرفتن همه">
+<!ENTITY lightning.imipbar.btnAcceptRecurrences2.tooltiptext "پذیرفتن دعوت برای همهٔ رخدادهای رویداد">
+<!ENTITY lightning.imipbar.btnAdd.label "افزودن">
+<!ENTITY lightning.imipbar.btnAdd.tooltiptext "افزودن رویداد به تقویم">
+<!ENTITY lightning.imipbar.btnDecline.label "رد کردن">
+<!ENTITY lightning.imipbar.btnDecline2.tooltiptext "رد کردن دعوت رویداد">
+<!ENTITY lightning.imipbar.btnDeclineRecurrences.label "رد کردن همه">
+<!ENTITY lightning.imipbar.btnDeclineRecurrences2.tooltiptext "رد کردن دعوت برای همهٔ رخدادهای رویداد">
+<!ENTITY lightning.imipbar.btnDeclineCounter.label "رد کردن">
+<!ENTITY lightning.imipbar.btnDeclineCounter.tooltiptext "رد کردن پیشنهاد متقابل">
+<!ENTITY lightning.imipbar.btnDelete.label "حذف">
+<!ENTITY lightning.imipbar.btnDelete.tooltiptext "حذف از تقویم">
+<!ENTITY lightning.imipbar.btnDetails.label "جزئیات…">
+<!ENTITY lightning.imipbar.btnDetails.tooltiptext "نمایش جزئیات رویداد">
+<!ENTITY lightning.imipbar.btnDoNotShowImipBar.label "این پیام‌ها را به من نشان نده">
+<!ENTITY lightning.imipbar.btnGoToCalendar.label "تقویم">
+<!ENTITY lightning.imipbar.btnGoToCalendar.tooltiptext "رفتن به زبانهٔ تقویم">
+<!ENTITY lightning.imipbar.btnMore.label "بیشتر">
+<!ENTITY lightning.imipbar.btnMore.tooltiptext "برای نمایش گزینه‌های بیشتر کلیک کنید">
+<!ENTITY lightning.imipbar.btnReconfirm2.label "تأیید دوباره">
+<!ENTITY lightning.imipbar.btnReconfirm.tooltiptext "فرستادن تأیید دوباره به برگزارکننده">
+<!ENTITY lightning.imipbar.btnReschedule.label "زمان‌بندی دوباره">
+<!ENTITY lightning.imipbar.btnReschedule.tooltiptext "زمان‌بندی دوبارهٔ رویداد">
+<!ENTITY lightning.imipbar.btnSaveCopy.label "ذخیرهٔ رونوشت">
+<!ENTITY lightning.imipbar.btnSaveCopy.tooltiptext "ذخیرهٔ رونوشتی از رویداد در تقویم، مستقل از پاسخ به برگزارکننده. فهرست شرکت‌کنندگان پاک می‌شود.">
+<!ENTITY lightning.imipbar.btnTentative.label "موقت">
+<!ENTITY lightning.imipbar.btnTentative2.tooltiptext "پذیرفتن موقت دعوت رویداد">
+<!ENTITY lightning.imipbar.btnTentativeRecurrences.label "موقت برای همه">
+<!ENTITY lightning.imipbar.btnTentativeRecurrences2.tooltiptext "پذیرفتن موقت دعوت برای همهٔ رخدادهای رویداد">
+<!ENTITY lightning.imipbar.btnUpdate.label "به‌روزرسانی">
+<!ENTITY lightning.imipbar.btnUpdate.tooltiptext "به‌روزرسانی رویداد در تقویم">
+<!ENTITY lightning.imipbar.description "این پیام شامل دعوت به یک رویداد است.">
+<!ENTITY lightning.imipbar.btnSend.label "هم‌اکنون پاسخ فرستاده شود">
+<!ENTITY lightning.imipbar.btnSend.tooltiptext "فرستادن پاسخ به برگزارکننده">
+<!ENTITY lightning.imipbar.btnSendSeries.tooltiptext "فرستادن پاسخ برای کل مجموعه به برگزارکننده">
+<!ENTITY lightning.imipbar.btnDontSend.label "پاسخی فرستاده نشود">
+<!ENTITY lightning.imipbar.btnDontSend.tooltiptext "تغییر وضعیت شرکت بدون فرستادن پاسخ به برگزارکننده">
+<!ENTITY lightning.imipbar.btnDontSendSeries.tooltiptext "تغییر وضعیت شرکت برای مجموعه بدون فرستادن پاسخ به برگزارکننده">
+<!-- Lightning specific keybindings -->
+<!ENTITY lightning.keys.event.new "I">
+<!ENTITY lightning.keys.todo.new "D">
+<!-- Account Central page -->
+<!ENTITY lightning.acctCentral.newCalendar.label "ساختن تقویم جدید">
+<!-- today-pane-specific -->
+<!ENTITY todaypane.showMinimonth.label "نمایش ماه کوچک">
+<!ENTITY todaypane.showMinimonth.accesskey "M">
+<!ENTITY todaypane.showMiniday.label "نمایش روز کوچک">
+<!ENTITY todaypane.showMiniday.accesskey "d">
+<!ENTITY todaypane.showNone.label "نمایش هیچ‌کدام">
+<!ENTITY todaypane.showNone.accesskey "N">
+<!ENTITY todaypane.showTodayPane.label "نمایش پنل امروز">
+<!ENTITY todaypane.showTodayPane.accesskey "o">
