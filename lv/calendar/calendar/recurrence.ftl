@@ -193,14 +193,9 @@ recurrence-details-infinite-all-day =
 #  from 5:00 PM to 6:00 PM"
 recurrence-repeat-count =
     { $count ->
-        [one]
-            Notiek { $ruleString }
-            kopš { $startDate }  { $count } reizes
-            no { $startTime } līdz { $endTime }.
-       *[other]
-            Notiek { $ruleString }
-            kopš { $startDate }  { $count } reizes
-            no { $startTime } līdz { $endTime }.
+        [one] Notiek { $ruleString }, kopš { $startDate } { $count } reizes no { $startTime } līdz { $endTime }.
+        [zero] Notiek { $ruleString }, kopš { $startDate }, { $count } reizes no { $startTime } līdz { $endTime }.
+       *[other] Notiek { $ruleString }, kopš { $startDate }, { $count } reizes no { $startTime } līdz { $endTime }.
     }
 # Variables:
 #   $ruleString - A rule as text
