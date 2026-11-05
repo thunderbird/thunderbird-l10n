@@ -1,4 +1,11 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!ENTITY viewLog.title "گزارش پالایه">
+<!ENTITY viewLogInfo.text "گزارش پالایه، پالایه‌هایی را که برای این حساب اجرا شده‌اند ثبت می‌کند. برای به‌کار انداختن ثبت گزارش از کادر زیر استفاده کنید.">
+<!ENTITY clearLog.label "پاک کردن گزارش">
 <!ENTITY clearLog.accesskey "C">
+<!ENTITY enableLog.label "به‌کار انداختن گزارش پالایه">
 <!ENTITY enableLog.accesskey "E">
 <!ENTITY closeLog.label "بستن">
 <!ENTITY closeLog.accesskey "ب">

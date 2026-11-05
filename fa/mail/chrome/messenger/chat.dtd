@@ -23,6 +23,13 @@
 <!ENTITY closeConversationCmd.accesskey "ب">
 <!ENTITY aliasCmd.label "تغییر نام">
 <!ENTITY aliasCmd.accesskey "ت">
+<!ENTITY openConversationButton.tooltip "آغاز گفت‌وگو">
+<!ENTITY closeConversationButton.tooltip "بستن گفت‌وگو">
+<!ENTITY addBuddyButton.label "افزودن مخاطب">
 <!ENTITY joinChatButton.label "پیوستن به گفت‌وگو">
 <!ENTITY chatAccountsButton.label "نمایش حسابها">
+<!ENTITY status.available "در دسترس">
+<!ENTITY status.unavailable "خارج از دسترس">
 <!ENTITY status.offline "Offline">
+<!ENTITY openLinkCmd.label "گشودن پیوند…">
+<!ENTITY openLinkCmd.accesskey "گ">

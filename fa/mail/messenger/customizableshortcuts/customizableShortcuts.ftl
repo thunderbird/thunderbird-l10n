@@ -4,3 +4,6 @@
 
 shortcuts-close-button-title =
     .title = بستن‌
+shortcuts-close-button =
+    .aria-label = بستن
+    .title = بستن

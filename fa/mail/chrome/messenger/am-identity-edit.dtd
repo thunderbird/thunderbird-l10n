@@ -4,3 +4,7 @@
 <!ENTITY settingsTab.label "تنظیمات">
 <!ENTITY copiesFoldersTab.label "Copies &amp; Folders">
 <!ENTITY addressingTab.label "Composition &amp; Addressing">
+<!ENTITY publicData.label "داده‌های عمومی">
+<!ENTITY privateData.label "داده‌های خصوصی">
+<!ENTITY identityAlias.label "برچسب هویت:">
+<!ENTITY identityAlias.accesskey "ب">

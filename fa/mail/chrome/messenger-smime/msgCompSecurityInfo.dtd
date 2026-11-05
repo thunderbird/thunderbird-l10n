@@ -2,6 +2,13 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!-- LOCALIZATION NOTE msgCompSecurityInfo.dtd UI for viewing security status when composing a message -->
+<!ENTITY title.label "امنیت پیام">
+<!ENTITY subject.plaintextWarning "توجه: موضوع پیام‌های رایانامه هرگز رمزگذاری نمی‌شود.">
+<!ENTITY status.heading "محتوای پیام شما به این صورت فرستاده می‌شود:">
+<!ENTITY status.signed "امضای دیجیتال:">
+<!ENTITY status.encrypted "رمزگذاری‌شده:">
+<!ENTITY status.certificates "گواهی‌ها:">
 <!ENTITY view.label "نما">
 <!ENTITY view.accesskey "ن">
 <!ENTITY tree.recipient "Recipient">
