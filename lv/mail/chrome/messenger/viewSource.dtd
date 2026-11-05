@@ -68,7 +68,7 @@
 <!ENTITY forwardCmd.accesskey "P">
 <!ENTITY goBackCmd.commandKey "[">
 <!ENTITY goForwardCmd.commandKey "]">
-<!ENTITY copyLinkCmd.label "Kopēt saites vietu">
+<!ENTITY copyLinkCmd.label "Ievietot starpliktuvē saites mērķi">
 <!ENTITY copyLinkCmd.accesskey "V">
 <!ENTITY copyEmailCmd.label "Kopēt epasta adresi">
 <!ENTITY copyEmailCmd.accesskey "E">

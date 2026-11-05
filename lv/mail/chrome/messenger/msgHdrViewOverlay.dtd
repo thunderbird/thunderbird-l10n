@@ -91,7 +91,7 @@
 <!ENTITY saveAttachmentButton1.tooltip "Saglabāt pievienoto datni">
 <!ENTITY saveAllAttachmentsButton1.label "Saglabāt visu">
 <!ENTITY saveAllAttachmentsButton1.tooltip "Saglabāt visas pievienotās datnes">
-<!ENTITY copyLinkCmd.label "Kopēt saites vietu">
+<!ENTITY copyLinkCmd.label "Ievietot starpliktuvē saites mērķi">
 <!ENTITY copyLinkCmd.accesskey "K">
 <!ENTITY CopyMessageId.label "Kopēt vēstules ID">
 <!ENTITY CopyMessageId.accesskey "K">

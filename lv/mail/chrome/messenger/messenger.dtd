@@ -750,7 +750,7 @@
 <!ENTITY saveLinkAsCmd.accesskey "S">
 <!ENTITY saveImageAsCmd.label "Saglabāt attēlu kā…">
 <!ENTITY saveImageAsCmd.accesskey "a">
-<!ENTITY copyLinkCmd.label "Kopēt saites vietu">
+<!ENTITY copyLinkCmd.label "Ievietot starpliktuvē saites mērķi">
 <!ENTITY copyLinkCmd.accesskey "v">
 <!ENTITY copyImageAllCmd.label "Kopēt attēlu">
 <!ENTITY copyImageAllCmd.accesskey "a">

@@ -13,7 +13,7 @@
 <!ENTITY ccAddress.accesskey "K">
 <!ENTITY ccAddressList.placeholder "Atdalīt adreses ar komatiem">
 <!-- LOCALIZATION NOTE (bccAddress.label): do not translate "Bcc" in below line -->
-<!ENTITY bccAddress.label "Slēptu kopiju šīm epasta adresēm:">
+<!ENTITY bccAddress.label "Bcc kopiju šīm e-pasta adresēm:">
 <!ENTITY bccAddress.accesskey "S">
 <!ENTITY bccAddressList.placeholder "Atdalīt adreses ar komatiem">
 <!ENTITY saveMessageDlg.label "Kad vēstules ir saglabātas, rādīt apstiprinājuma dialogu">
