@@ -1,0 +1,26 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!ENTITY event.title.label "ویرایش مورد">
+<!ENTITY event.dialog.keepDurationButton.tooltip "حفظ مدت زمان هنگام تغییر تاریخ پایان">
+<!ENTITY event.dialog.keepDurationButton.accesskey "K">
+<!ENTITY newevent.from.label "از">
+<!ENTITY newevent.to.label "تا">
+<!ENTITY newevent.status.label "وضعیت">
+<!ENTITY newevent.status.accesskey "S">
+<!ENTITY newevent.eventStatus.none.label "مشخص نشده">
+<!ENTITY newevent.eventStatus.none.accesskey "o">
+<!ENTITY newevent.todoStatus.none.label "مشخص نشده">
+<!ENTITY newevent.eventStatus.cancelled.label "لغوشده">
+<!ENTITY newevent.eventStatus.cancelled.accesskey "n">
+<!ENTITY newevent.todoStatus.cancelled.label "لغوشده">
+<!ENTITY newevent.status.tentative.label "موقت">
+<!ENTITY newevent.status.tentative.accesskey "T">
+<!ENTITY newevent.status.confirmed.label "تأییدشده">
+<!ENTITY newevent.status.confirmed.accesskey "C">
+<!ENTITY newevent.status.needsaction.label "نیازمند اقدام">
+<!ENTITY newevent.status.inprogress.label "در حال انجام">
+<!ENTITY newevent.status.completed.label "انجام‌شده در">
+<!-- The following entity is for New Task dialog only -->
+<!ENTITY newtodo.percentcomplete.label "&#37; انجام‌شده">
