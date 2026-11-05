@@ -1,0 +1,31 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!-- Event Menu -->
+<!ENTITY event.new.event "رویداد جدید…">
+<!ENTITY event.new.event.accesskey "N">
+<!ENTITY event.new.task "وظیفهٔ جدید…">
+<!ENTITY event.new.task.accesskey "k">
+<!ENTITY calendar.import.label "درون‌ریزی…">
+<!ENTITY calendar.import.accesskey "I">
+<!ENTITY calendar.export.label "برون‌ریزی…">
+<!ENTITY calendar.export.accesskey "E">
+<!ENTITY calendar.publish.label "انتشار…">
+<!ENTITY calendar.publish.accesskey "b">
+<!ENTITY calendar.deletecalendar.label "حذف تقویم انتخاب‌شده…">
+<!ENTITY calendar.deletecalendar.accesskey "D">
+<!ENTITY calendar.unsubscribecalendar.label "لغو اشتراک تقویم انتخاب‌شده…">
+<!ENTITY calendar.unsubscribecalendar.accesskey "U">
+<!-- LOCALIZATION NOTE (calendar.removecalendar.label): Removing the calendar
+      is the general action of removing it, while deleting means to clear the
+      data and unsubscribing means just taking it out of the calendar list. -->
+<!ENTITY calendar.removecalendar.label "برداشتن تقویم انتخاب‌شده…">
+<!ENTITY calendar.removecalendar.accesskey "R">
+<!ENTITY showUnifinderCmd.label "یافتن رویدادها">
+<!ENTITY showUnifinderCmd.accesskey "F">
+<!ENTITY showUnifinderCmd.tooltip "نمایش/پنهان کردن پنل یافتن رویدادها">
+<!ENTITY calendar.displaytodos.checkbox.label "نمایش وظیفه‌ها در تقویم">
+<!ENTITY calendar.displaytodos.checkbox.accesskey "T">
+<!ENTITY goTodayCmd.label "امروز">
+<!ENTITY goTodayCmd.accesskey "T">

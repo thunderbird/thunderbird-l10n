@@ -1,0 +1,15 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!ENTITY reminderdialog.title "تنظیم یادآوری‌ها">
+<!ENTITY reminder.add.label "افزودن">
+<!ENTITY reminder.add.accesskey "A">
+<!ENTITY reminder.remove.label "برداشتن">
+<!ENTITY reminder.remove.accesskey "R">
+<!ENTITY reminder.reminderDetails.label "جزئیات یادآوری">
+<!ENTITY reminder.action.label "انتخاب کنش یادآوری">
+<!ENTITY reminder.action.alert.label "نمایش هشدار">
+<!ENTITY reminder.action.email.label "فرستادن رایانامه">
+<!ENTITY alarm.units.minutes "دقیقه">
+<!ENTITY alarm.units.hours "ساعت">
+<!ENTITY alarm.units.days "روز">

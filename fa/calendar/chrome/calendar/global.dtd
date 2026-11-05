@@ -1,0 +1,7 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!ENTITY showToday.tooltip "رفتن به امروز">
+<!ENTITY onedayforward.tooltip "یک روز جلوتر">
+<!ENTITY onedaybackward.tooltip "یک روز عقب‌تر">
+<!ENTITY showselectedday.tooltip "نمایش رویدادهای روز انتخاب‌شده">
