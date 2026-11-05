@@ -1,1 +1,7 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!ENTITY windowTitle.label "ویژگی‌های لنگر نام‌دار">
+<!ENTITY anchorNameEditField.label "نام لنگر:">
 <!ENTITY anchorNameEditField.accessKey "N">
+<!ENTITY nameInput.tooltip "یک نام یکتا برای این لنگر نام‌دار (مقصد) وارد کنید">

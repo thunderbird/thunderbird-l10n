@@ -2,6 +2,11 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!ENTITY e2eTitle.label "رمزگذاری سرتاسری">
+<!ENTITY e2eLearnMore.label "بیشتر بدانید">
+<!ENTITY e2eEnc.description "بدون رمزگذاری سرتاسری، محتوای پیام‌ها به‌سادگی در معرض فراهم‌کنندهٔ رایانامهٔ شما و شنود گسترده قرار می‌گیرد.">
+<!ENTITY e2eTechPref.description "فناوری رمزگذاری ترجیحی:">
+<!ENTITY encryptionCert2.message "گواهی شخصی برای رمزگذاری:">
 <!ENTITY digitalSign.certificate.button "Select…">
 <!ENTITY digitalSign.certificate.accesskey "S">
 <!ENTITY digitalSign.certificate_clear.button "پاک کردن">
@@ -11,3 +16,21 @@
 <!ENTITY encryption.certificate_clear.button "پاک کردن">
 <!ENTITY encryption.certificate_clear.accesskey "e">
 <!ENTITY signingGroupTitle.label "Digital Signing">
+<!ENTITY signingCert2.message "گواهی شخصی برای امضای دیجیتال:">
+<!ENTITY sendingDefaults.label "تنظیمات پیش‌گزیده ارسال پیام‌ها">
+<!ENTITY technologyAutomatic.label "انتخاب خودکار بر اساس کلیدها یا گواهی‌های موجود">
+<!ENTITY certificates2.label "S/MIME">
+<!ENTITY manageCerts3.label "مدیریت گواهی‌های S/MIME">
+<!ENTITY manageCerts3.accesskey "م">
+<!ENTITY manageDevices2.label "دستگاه‌های امنیتی S/MIME">
+<!ENTITY manageDevices2.accesskey "د">
+<!ENTITY technologySMIME.label "ترجیح S/MIME">
+<!ENTITY technologyOpenPGP.label "ترجیح OpenPGP">
+<!ENTITY openpgpKeys.label "OpenPGP">
+<!-- Strings for the cert picker dialog -->
+<!ENTITY certPicker.title "انتخاب گواهی">
+<!ENTITY certPicker.info "گواهی:">
+<!ENTITY certPicker.detailsLabel "جزئیات گواهی انتخاب‌شده:">
+<!ENTITY openpgpKey.message "کلید شخصی برای رمزگذاری و امضای دیجیتال:">
+<!ENTITY openpgpKey.button "تنظیم کلید شخصی…">
+<!ENTITY openpgpKey.accesskey "ک">

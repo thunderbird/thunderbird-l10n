@@ -5,21 +5,46 @@
 <!ENTITY toField4.label "To">
 <!ENTITY fromField4.label "From">
 <!ENTITY senderField4.label "Sender">
+<!ENTITY author.label "نویسنده">
 <!ENTITY organizationField4.label "Organization">
+<!ENTITY replyToField4.label "پاسخ به">
 <!ENTITY subjectField4.label "موضوع">
 <!ENTITY ccField4.label "Cc">
 <!ENTITY bccField4.label "Bcc">
 <!ENTITY newsgroupsField4.label "Newsgroups">
+<!ENTITY followupToField4.label "پیگیری به">
 <!ENTITY tagsHdr4.label "برچسب‌ها">
 <!ENTITY dateField4.label "تاریخ">
+<!ENTITY userAgentField4.label "عامل کاربر">
 <!ENTITY referencesField4.label "References">
+<!ENTITY messageIdField4.label "شناسهٔ پیام">
+<!ENTITY inReplyToField4.label "در پاسخ به">
+<!ENTITY originalWebsite4.label "وبگاه">
+<!ENTITY hdrArchiveButton1.label "بایگانی">
+<!ENTITY hdrArchiveButton1.tooltip "بایگانی این پیام">
+<!ENTITY hdrSmartReplyButton1.label "پاسخ هوشمند">
 <!ENTITY hdrReplyButton1.label "پاسخ دادن">
+<!ENTITY hdrReplyButton2.tooltip "پاسخ به فرستندهٔ این پیام">
 <!ENTITY hdrReplyAllButton1.label "Reply All">
 <!ENTITY hdrReplyAllButton1.tooltip "Reply to sender and all recipients">
+<!ENTITY hdrReplyListButton1.label "پاسخ به فهرست">
+<!ENTITY hdrReplyListButton1.tooltip "پاسخ به فهرست پستی">
+<!ENTITY hdrFollowupButton1.label "پیگیری">
+<!ENTITY hdrFollowupButton1.tooltip "پیگیری در این گروه خبری">
 <!ENTITY hdrForwardButton1.label "جلو">
+<!ENTITY hdrForwardButton1.tooltip "بازارسال این پیام">
 <!ENTITY hdrTrashButton1.label "حذف">
 <!ENTITY hdrTrashButton1.tooltip "حذف این پیام">
+<!ENTITY hdrViewToolbarShowFull.label "نمایش نقشک‌ها و متن">
+<!ENTITY hdrViewToolbarShowFull.accesskey "ن">
+<!ENTITY hdrViewToolbarShowIcons.label "فقط نمایش نقشک‌ها">
+<!ENTITY hdrViewToolbarShowIcons.accesskey "ف">
+<!ENTITY hdrViewToolbarShowText.label "فقط نمایش متن">
+<!ENTITY hdrViewToolbarShowText.accesskey "ف">
+<!ENTITY hdrViewToolbarAlwaysReplySender.label "همیشه نمایش پاسخ به فرستنده">
+<!ENTITY hdrViewToolbarAlwaysReplySender.accesskey "ه">
 <!ENTITY otherActionsButton2.label "بیشتر">
+<!ENTITY otherActionsButton.tooltip "کنش‌های بیشتر">
 <!ENTITY otherActionsOpenInNewTab1.label "گشودن در زبانهٔ جدید">
 <!ENTITY otherActionsOpenInNewTab1.accesskey "ب">
 <!ENTITY otherActionsPrint1.label "چاپ…">

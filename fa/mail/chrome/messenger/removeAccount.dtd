@@ -1,3 +1,21 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!ENTITY dialogTitle "برداشتن حساب و داده‌ها">
+<!ENTITY removeButton.label "برداشتن">
+<!ENTITY removeButton.accesskey "ب">
+<!ENTITY removeAccount.label "برداشتن اطلاعات حساب">
+<!ENTITY removeAccount.accesskey "ب">
+<!ENTITY removeAccount.desc "فقط اطلاعات &brandShortName; دربارهٔ این حساب را برمی‌دارد. بر خود حساب روی کارساز اثری ندارد.">
+<!ENTITY removeData.label "برداشتن داده‌های پیام">
+<!ENTITY removeData.accesskey "ب">
 <!ENTITY removeDataChat.label "داده‌های گفت‌وگو را حذف کنید">
 <!ENTITY removeDataChat.accesskey "د">
+<!ENTITY removeDataLocalAccount.desc "همهٔ پیام‌ها، پوشه‌ها و پالایه‌های مرتبط با این حساب را از دیسک محلی شما برمی‌دارد. بر برخی پیام‌ها که ممکن است هنوز روی کارساز باشند اثری ندارد. اگر قصد دارید داده‌های محلی را بایگانی کنید یا بعداً در &brandShortName; دوباره به کار ببرید، این گزینه را انتخاب نکنید.">
+<!ENTITY removeDataServerAccount.desc "همهٔ پیام‌ها، پوشه‌ها و پالایه‌های مرتبط با این حساب را از دیسک محلی شما برمی‌دارد. پیام‌ها و پوشه‌های شما همچنان روی کارساز می‌مانند.">
 <!ENTITY removeDataChatAccount.desc "تمام سیاهه‌های ثبت شده مربوط به مکالمات ذخیره شده برای این حساب را بر روی دیسک محلی شما حذف می‌کند.">
+<!ENTITY showData.label "نمایش محل داده‌ها">
+<!ENTITY showData.accesskey "ن">
+<!ENTITY progressPending "در حال برداشتن داده‌های انتخاب‌شده…">
+<!ENTITY progressSuccess "برداشتن موفق بود.">
+<!ENTITY progressFailure "برداشتن ناموفق بود.">

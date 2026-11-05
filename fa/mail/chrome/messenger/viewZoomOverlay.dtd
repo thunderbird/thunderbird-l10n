@@ -2,6 +2,21 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!ENTITY fullZoomEnlargeCmd.label "بزرگ‌نمایی">
+<!ENTITY fullZoomEnlargeCmd.accesskey "ب">
+<!ENTITY fullZoomEnlargeCmd.commandkey "+">
+<!-- + is above this key on many keyboards -->
+<!ENTITY fullZoomEnlargeCmd.commandkey2 "=">
 <!ENTITY fullZoomEnlargeCmd.commandkey3 "">
+<!ENTITY fullZoomReduceCmd.label "کوچک‌نمایی">
+<!ENTITY fullZoomReduceCmd.accesskey "ک">
+<!ENTITY fullZoomReduceCmd.commandkey "-">
 <!ENTITY fullZoomReduceCmd.commandkey2 "">
+<!ENTITY fullZoomResetCmd.label "بازنشانی">
+<!ENTITY fullZoomResetCmd.accesskey "ب">
+<!ENTITY fullZoomResetCmd.commandkey "0">
 <!ENTITY fullZoomResetCmd.commandkey2 "">
+<!ENTITY fullZoomToggleCmd.label "فقط بزرگ‌نمایی متن">
+<!ENTITY fullZoomToggleCmd.accesskey "ف">
+<!ENTITY fullZoom.label "بزرگ‌نمایی">
+<!ENTITY fullZoom.accesskey "ب">

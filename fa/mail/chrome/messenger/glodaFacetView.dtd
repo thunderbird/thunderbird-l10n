@@ -15,3 +15,10 @@
 <!-- LOCALIZATION NOTE (glodaFacetView.pageMore.label): Label at the bottom
      of the results list to show more hits. -->
 <!ENTITY glodaFacetView.pageMore.label "بیشتر &#171;">
+<!-- LOCALIZATION NOTE(glodaFacetView.results.message.openEmailAsList.label2): The
+     label for the button/link that causes us to display all of the emails in
+     the active set in a new thread pane display tab. -->
+<!ENTITY glodaFacetView.openEmailAsList.label "نمایش نتایج به‌صورت فهرست">
+<!-- LOCALIZATION NOTE(glodaFacetView.results.message.openEmailAsList.tooltip):
+     The tooltip to display when hovering over the openEmailAsList label. -->
+<!ENTITY glodaFacetView.openEmailAsList.tooltip "نمایش همهٔ پیام‌های رایانامهٔ مجموعهٔ فعال در یک زبانهٔ جدید">

@@ -4,7 +4,23 @@
 <!ENTITY windowTitle.label "جادوگر حساب گفت‌وگو">
 <!ENTITY accountProtocolTitle.label "شبکهٔ گفت‌وگو">
 <!ENTITY accountProtocolInfo.label "لطفاً شبکهٔ حساب چت خود را انتخاب کنید.">
+<!ENTITY accountProtocolField.label "شبکه:">
+<!ENTITY accountProtocolGetMore.label "دریافت موارد بیشتر…">
 <!ENTITY accountUsernameTitle.label "نام‌کاربری">
+<!ENTITY accountUsernameDuplicate.label "این حساب از قبل پیکربندی شده است!">
 <!ENTITY accountPasswordTitle.label "گذرواژه">
+<!ENTITY accountPasswordInfo.label "لطفاً گذرواژهٔ خود را در کادر زیر وارد کنید.">
+<!ENTITY accountPasswordField.label "گذرواژه:">
+<!ENTITY accountPasswordManager.label "گذرواژه‌ای که اینجا وارد می‌کنید در مدیر گذرواژه ذخیره می‌شود. اگر می‌خواهید هر بار هنگام اتصال این حساب گذرواژه از شما پرسیده شود، این کادر را خالی بگذارید.">
+<!ENTITY accountAdvancedTitle.label "گزینه‌های پیشرفته">
+<!ENTITY accountAdvancedInfo.label "اگر می‌خواهید می‌توانید از این مرحله بگذرید.">
+<!ENTITY accountAdvanced.newMailNotification.label "آگاهی رایانامهٔ جدید">
+<!ENTITY accountAliasGroupbox.caption "نام مستعار محلی">
+<!ENTITY accountAliasField.label "نام مستعار:">
+<!ENTITY accountAliasInfo.label "این نام فقط هنگام گفت‌وگوی شما در گفت‌وگوهایتان نمایش داده می‌شود و مخاطبان راه دور آن را نمی‌بینند.">
+<!ENTITY accountProxySettings.caption "تنظیمات پیشکار">
+<!ENTITY accountProxySettings.change.label "تغییر…">
+<!ENTITY accountProxySettings.change.accessKey "ت">
 <!ENTITY accountSummaryTitle.label "خلاصه">
+<!ENTITY accountSummaryInfo.label "خلاصهٔ اطلاعاتی که وارد کرده‌اید در زیر نمایش داده شده است. لطفاً پیش از ساخته شدن حساب آن را بررسی کنید.">
 <!ENTITY accountSummary.connectNow.label "حالا این حساب را وصل کن.">
