@@ -10,6 +10,9 @@
 <!ENTITY optionInline.accesskey "د">
 <!ENTITY optionDisplay.label "حالت نمایش">
 <!ENTITY optionDisplay.accesskey "ن">
+<!ENTITY optionLTR.label "جهت چپ به راست">
 <!ENTITY optionLTR.accesskey "چ">
+<!ENTITY optionRTL.label "جهت راست به چپ">
 <!ENTITY optionRTL.accesskey "ر">
+<!ENTITY insertButton.label "درج">
 <!ENTITY insertButton.accesskey "I">

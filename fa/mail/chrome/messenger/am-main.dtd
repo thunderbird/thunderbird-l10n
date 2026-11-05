@@ -11,10 +11,19 @@
 <!ENTITY name.accesskey "Y">
 <!ENTITY email.label "Email Address:">
 <!ENTITY email.accesskey "E">
+<!ENTITY catchAll.label "وقتی سرآیندهای تحویل مطابقت داشتند با این هویت پاسخ بده:">
+<!ENTITY catchAll.accesskey "و">
 <!ENTITY replyTo.label "Reply-to Address:">
 <!ENTITY replyTo.accesskey "s">
+<!ENTITY replyTo.placeholder "گیرندگان به این نشانی دیگر پاسخ می‌دهند">
 <!ENTITY organization.label "Organization:">
 <!ENTITY organization.accesskey "O">
+<!ENTITY signatureText.label "متن امضا:">
+<!ENTITY signatureText.accesskey "م">
+<!ENTITY signatureHtml.label "استفاده از HTML (مثلاً &lt;b&gt;پررنگ&lt;/b&gt;)">
+<!ENTITY signatureHtml.accesskey "س">
+<!ENTITY signatureFile.label "پیوست کردن امضا از یک پرونده (متن، HTML یا تصویر):">
+<!ENTITY signatureFile.accesskey "پ">
 <!ENTITY edit.label "ویرایش…">
 <!ENTITY choose.label "انتخاب…">
 <!ENTITY choose.accesskey "ا">

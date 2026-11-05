@@ -2,11 +2,15 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!-- LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder -->
+<!ENTITY viewPicker.label "نما:">
 <!ENTITY viewPicker.accesskey "i">
 <!-- LOCALIZATION NOTE msgViewPickerOverlay.dtd UI for showing various views on a folder -->
 <!ENTITY viewAll.label "همه">
 <!ENTITY viewAll.accesskey "ه">
+<!ENTITY viewUnread.label "نخوانده">
 <!ENTITY viewUnread.accesskey "U">
+<!ENTITY viewNotDeleted.label "حذف‌نشده">
 <!ENTITY viewNotDeleted.accesskey "D">
 <!ENTITY viewTags.label "برچسب‌ها">
 <!ENTITY viewTags.accesskey "ب">

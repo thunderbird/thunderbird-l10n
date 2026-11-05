@@ -12,3 +12,7 @@
 <!ENTITY chooseFoldersButton.accesskey "ا">
 <!ENTITY searchOnline.label "Search Online (Gives up-to-date results for IMAP and News folders but increases time to open the folder)">
 <!ENTITY searchOnline.accesskey "S">
+<!ENTITY newFolderButton.label "ساختن">
+<!ENTITY newFolderButton.accesskey "س">
+<!ENTITY editFolderButton.label "به‌روزرسانی">
+<!ENTITY editFolderButton.accesskey "ب">

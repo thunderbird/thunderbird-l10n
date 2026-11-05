@@ -13,6 +13,8 @@
 <!ENTITY undoCmd.accesskey "و">
 <!ENTITY redoCmd.label "از نو">
 <!ENTITY redoCmd.accesskey "ز">
+<!ENTITY customizeCmd.label "سفارشی‌سازی">
+<!ENTITY customizeCmd.accesskey "س">
 <!ENTITY viewMenu.label "نما">
 <!ENTITY viewMenu.accesskey "ن">
 <!ENTITY viewToolbarsMenu.label "نوار ابزار">

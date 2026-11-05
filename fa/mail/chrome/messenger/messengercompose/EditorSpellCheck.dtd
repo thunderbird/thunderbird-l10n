@@ -4,7 +4,10 @@
 
 <!-- Window title -->
 <!ENTITY windowTitle.label "بررسی املا">
+<!ENTITY misspelledWord.label "واژهٔ نادرست:">
+<!ENTITY wordEditField.label "جایگزینی با:">
 <!ENTITY wordEditField.accessKey "w">
+<!ENTITY checkwordButton.label "بررسی واژه">
 <!ENTITY checkwordButton.accessKey "k">
 <!ENTITY suggestions.label "Suggestions:">
 <!ENTITY suggestions.accessKey "u">

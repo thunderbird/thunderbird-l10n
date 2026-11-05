@@ -14,6 +14,11 @@ virtual-folder-sources-chosen =
        *[other] { $count } پوشه انتخاب شد
     }
 virtual-folder-no-search-folders-selected = باید دست‌کم یک پوشه برای جست‌وجو در پوشهٔ جست‌وجوی ذخیره‌شده انتخاب کنید.
+virtual-folder-missing-value-title = مقدار جست‌وجو وارد نشده است
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+virtual-folder-missing-value-rule = پیش از ذخیرهٔ این جست‌وجو، مقداری برای عبارت جست‌وجوی «{ $attribute } { $operator }» وارد کنید.
 virtual-folder-properties-title = پوشهٔ جست‌وجوی ذخیره‌شدهٔ جدید
 # Variables:
 #   $folderName (String): The name of the saved search folder.

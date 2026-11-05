@@ -3,6 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY showAsDefault.label "شاخهٔ پیش‌گزیده هنگام راه‌اندازی">
+<!ENTITY showAsDefault.accesskey "ف">
 <!-- Search Bar -->
 <!ENTITY SearchNameOrEmail.label "Name or Email">
 <!-- Results Pane -->

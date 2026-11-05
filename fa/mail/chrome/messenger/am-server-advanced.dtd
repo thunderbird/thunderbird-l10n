@@ -22,6 +22,9 @@
 <!ENTITY otherUsersNamespace.accesskey "O">
 <!ENTITY overrideNamespaces.label "Allow server to override these namespaces">
 <!ENTITY overrideNamespaces.accesskey "A">
+<!ENTITY pop3DeferringDesc.label "هنگام بارگیری رایانامه از کارساز این حساب، پیام‌های جدید در این پوشه ذخیره شوند:">
+<!ENTITY accountInbox.label "صندوق ورودی این حساب">
+<!ENTITY accountInbox.accesskey "ص">
 <!ENTITY deferToServer.label "Inbox for different account">
 <!ENTITY deferToServer.accesskey "d">
 <!ENTITY deferGetNewMail.label "Include this server when getting new mail">

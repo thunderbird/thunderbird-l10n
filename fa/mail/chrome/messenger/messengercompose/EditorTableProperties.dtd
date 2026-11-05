@@ -3,8 +3,10 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY tableWindow.title "ویژگی‌های جدول">
+<!ENTITY applyButton.label "اعمال">
 <!ENTITY applyButton.accesskey "A">
 <!ENTITY closeButton.label "بستن">
+<!ENTITY tableTab.label "جدول">
 <!ENTITY cellTab.label "Cells">
 <!ENTITY tableRows.label "Rows:">
 <!ENTITY tableRows.accessKey "R">

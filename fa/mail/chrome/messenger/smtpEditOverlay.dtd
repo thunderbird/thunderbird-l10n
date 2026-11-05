@@ -18,3 +18,5 @@
 <!ENTITY connectionSecurityType-3.label "SSL/TLS">
 <!ENTITY smtpEditTitle.label "SMTP Server">
 <!ENTITY serverPortDefault.label "Default:">
+<!ENTITY authMethod.label "روش احراز هویت:">
+<!ENTITY authMethod.accesskey "ر">

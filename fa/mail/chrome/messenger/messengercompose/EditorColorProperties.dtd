@@ -2,8 +2,13 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!-- Window title -->
+<!ENTITY windowTitle.label "رنگ‌ها و پس‌زمینهٔ صفحه">
+<!ENTITY pageColors.label "رنگ‌های صفحه">
+<!ENTITY defaultColorsRadio.label "رنگ‌های پیش‌گزیده خواننده (رنگ در صفحه تنظیم نشود)">
 <!ENTITY defaultColorsRadio.accessKey "D">
 <!ENTITY defaultColorsRadio.tooltip "فقط استفاده از تنظیمات رنگ از مرورگر بیننده(خواننده)">
+<!ENTITY customColorsRadio.label "استفاده از رنگ‌های سفارشی:">
 <!ENTITY customColorsRadio.accessKey "c">
 <!ENTITY customColorsRadio.tooltip "These color settings override the viewer's browser settings">
 <!ENTITY normalText.label "Normal text">

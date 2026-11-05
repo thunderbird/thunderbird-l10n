@@ -4,6 +4,9 @@
 <!ENTITY windowTitle.label "رنگ">
 <!ENTITY lastPickedColor.label "Last-picked color">
 <!ENTITY lastPickedColor.accessKey "L">
+<!ENTITY chooseColor1.label "یک رنگ انتخاب کنید:">
+<!ENTITY chooseColor2.label "رشتهٔ رنگ HTML را وارد کنید">
+<!ENTITY chooseColor2.accessKey "ر">
 <!ENTITY setColorExample.label "(e.g.: &quot;#0000ff&quot; or &quot;blue&quot;):">
 <!ENTITY default.label "Default">
 <!ENTITY default.accessKey "D">

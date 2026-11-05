@@ -2,6 +2,10 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!-- extracted from MsgSynchronize.xhtml and msgSelectOfflineFolders.xhtml -->
+<!ENTITY MsgSynchronize.label "بارگیری و همگام‌سازی پیام‌ها">
+<!ENTITY MsgSelect.label "موارد استفادهٔ برون‌خط">
+<!ENTITY MsgSyncDesc.label "اگر پوشه‌های رایانامه یا گروه‌های خبری را برای استفادهٔ برون‌خط انتخاب کرده‌اید، می‌توانید اکنون آن‌ها را بارگیری یا همگام کنید. در غیر این صورت، با دکمهٔ «انتخاب» پوشه‌های رایانامه و گروه‌های خبری را برای استفادهٔ برون‌خط انتخاب کنید.">
 <!ENTITY MsgSyncDirections.label "Download and/or sync the following:">
 <!ENTITY syncTypeMail.label "Mail messages">
 <!ENTITY syncTypeMail.accesskey "M">

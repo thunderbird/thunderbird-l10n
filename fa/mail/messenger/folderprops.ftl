@@ -38,6 +38,8 @@ folder-props-check-for-new-messages =
     .label = هنگام دریافت پیام‌های جدید این حساب، همیشه این پوشه بررسی شود
     .accesskey = ه
 folder-props-rebuild-summary-explanation = گاهی پروندهٔ نمایهٔ پوشه (.msf) آسیب می‌بیند و ممکن است پیام‌ها گم‌شده به نظر برسند یا پیام‌های حذف‌شده همچنان نمایش داده شوند؛ تعمیر پوشه ممکن است این مشکلات را برطرف کند.
+folder-props-rebuild-summary-confirm-title = تعمیر پوشه
+folder-props-rebuild-summary-confirm-message = تعمیر این پوشه پیام‌های محلی آن را حذف می‌کند و رونوشت‌های تازه را از کارساز بارگیری می‌کند؛ پیام‌های روی کارساز تغییری نمی‌کنند. ممکن است کمی طول بکشد. ادامه می‌دهید؟
 
 ## Retention tab (see retention.ftl)
 ##

@@ -2,9 +2,14 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!-- Window title -->
+<!ENTITY windowTitle.label "درج نویسه">
 <!ENTITY category.label "دسته">
+<!ENTITY letter.label "حرف:">
 <!ENTITY letter.accessKey "L">
+<!ENTITY character.label "نویسه:">
 <!ENTITY character.accessKey "C">
+<!ENTITY accentUpper.label "حروف بزرگ دارای علامت">
 <!ENTITY accentLower.label "Accent Lowercase">
 <!ENTITY otherUpper.label "Other Uppercase">
 <!ENTITY otherLower.label "Other Lowercase">

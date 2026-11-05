@@ -3,6 +3,8 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY biffAll.label "فعّال سازی به‌روز رسانی‌ها برای همه خوراک‌ها">
 <!ENTITY biffAll.accesskey "ف">
+<!ENTITY newFeedSettings.label "تنظیمات پیش‌گزیده برای خوراک‌های جدید">
 <!ENTITY manageSubscriptions.label "Manage Subscriptions…">
 <!ENTITY manageSubscriptions.accesskey "M">
 <!ENTITY feedWindowTitle.label "جادوگر حساب خوراک">
+<!ENTITY feeds.accountName "وبلاگ‌ها و خوراک‌های خبری">

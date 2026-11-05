@@ -5,9 +5,14 @@
 <!-- Window title -->
 <!ENTITY windowTitle.label "ویژگی‌های تصویر">
 <!ENTITY pixelsPopup.value "pixels">
+<!-- These are in the Location tab panel -->
+<!ENTITY locationEditField.label "نشانی تصویر:">
 <!ENTITY locationEditField.accessKey "L">
+<!ENTITY locationEditField.tooltip "نام پرونده یا نشانی تصویر را بنویسید">
 <!ENTITY locationEditField.shortenedDataURI "داده کوتاه شدهٔ URI (رونوشت URI کامل در تخته‌گیره قرار خواهد داد)">
+<!ENTITY title.label "راهنمای ابزار:">
 <!ENTITY title.accessKey "T">
+<!ENTITY title.tooltip "صفت «title» در HTML که به‌صورت راهنمای ابزار نمایش داده می‌شود">
 <!ENTITY altText.label "متن جایگزین:">
 <!ENTITY altText.accessKey "A">
 <!ENTITY altTextEditField.tooltip "Type text to display in place of the image">

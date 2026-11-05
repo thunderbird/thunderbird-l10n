@@ -2,6 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!ENTITY messageStorage.label "ذخیره‌سازی پیام‌ها">
 <!ENTITY securitySettings.label "Security Settings">
 <!ENTITY serverSettings.label "Server Settings">
 <!ENTITY serverType.label "Server Type:">
@@ -19,11 +20,15 @@
 <!ENTITY biffStart.label "Check for new messages every ">
 <!ENTITY biffStart.accesskey "y">
 <!ENTITY biffEnd.label "minutes">
+<!ENTITY useIdleNotifications.label "اجازهٔ آگاهی فوری کارساز هنگام رسیدن پیام‌های جدید">
+<!ENTITY useIdleNotifications.accesskey "ج">
 <!ENTITY connectionSecurity.label "Connection security:">
 <!ENTITY connectionSecurity.accesskey "u">
 <!ENTITY connectionSecurityType-0.label "هیچ">
 <!ENTITY connectionSecurityType-2.label "STARTTLS">
 <!ENTITY connectionSecurityType-3.label "SSL/TLS">
+<!ENTITY authMethod.label "روش احراز هویت:">
+<!ENTITY authMethod.accesskey "ر">
 <!ENTITY leaveOnServer.label "Leave messages on server">
 <!ENTITY leaveOnServer.accesskey "g">
 <!ENTITY headersOnly.label "Fetch headers only">
@@ -58,6 +63,8 @@
 <!ENTITY maxMessagesEnd.label "messages">
 <!ENTITY alwaysAuthenticate.label "Always request authentication when connecting to this server">
 <!ENTITY alwaysAuthenticate.accesskey "w">
+<!ENTITY newsrcFilePath1.label "پروندهٔ News.rc:">
+<!ENTITY newsrcPicker1.label "انتخاب پروندهٔ News.rc">
 <!ENTITY abbreviate.label "Show newsgroup names in the Mail Folder pane as:">
 <!ENTITY abbreviateOn.label "Full names (For example, 'netscape.public.mozilla.mail-news')">
 <!ENTITY abbreviateOff.label "Abbreviate names (For example, 'n.p.m.mail-news')">

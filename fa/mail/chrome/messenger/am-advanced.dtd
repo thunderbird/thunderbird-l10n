@@ -11,8 +11,10 @@
 <!ENTITY smtpListDelete.accesskey "ح">
 <!ENTITY smtpListSetDefault.label "Set Default">
 <!ENTITY smtpListSetDefault.accesskey "t">
+<!ENTITY serverDetails.label "جزئیات کارساز انتخاب‌شده:">
 <!ENTITY serverDescription.label "Description: ">
 <!ENTITY serverName.label "Server Name: ">
 <!ENTITY serverPort.label "Port: ">
 <!ENTITY userName.label "User Name: ">
 <!ENTITY connectionSecurity.label "Connection Security: ">
+<!ENTITY authMethod.label "روش احراز هویت: ">
