@@ -168,3 +168,77 @@
 <!ENTITY counter.button.original.label "اعمال داده‌های اصلی">
 <!ENTITY counter.button.original.accesskey "r">
 <!ENTITY counter.button.original.tooltip2 "زمینه‌ها به مقادیر رویداد اصلی، پیش از پیشنهاد متقابل، برگردانده می‌شوند">
+<!-- Main page -->
+<!ENTITY event.title.textbox.label "عنوان:">
+<!ENTITY event.title.textbox.accesskey "ع">
+<!ENTITY event.location.label "مکان:">
+<!ENTITY event.location.accesskey "م">
+<!ENTITY event.categories.label "دسته:">
+<!ENTITY event.categories.accesskey "د">
+<!ENTITY event.categories.textbox.label "افزودن دستهٔ جدید">
+<!ENTITY event.calendar.label "تقویم:">
+<!ENTITY event.calendar.accesskey "ت">
+<!ENTITY event.attendees.label "شرکت‌کنندگان:">
+<!ENTITY event.attendees.accesskey "ش">
+<!ENTITY event.from.label "آغاز:">
+<!ENTITY event.from.accesskey "آ">
+<!ENTITY task.from.label "آغاز:">
+<!ENTITY task.from.accesskey "آ">
+<!ENTITY event.to.label "پایان:">
+<!ENTITY event.to.accesskey "پ">
+<!ENTITY task.to.label "تاریخ سررسید:">
+<!ENTITY task.to.accesskey "ت">
+<!ENTITY task.status.label "وضعیت:">
+<!ENTITY task.status.accesskey "و">
+<!ENTITY event.repeat.label "تکرار:">
+<!ENTITY event.repeat.daily.label "روزانه">
+<!ENTITY event.repeat.weekly.label "هفتگی">
+<!ENTITY event.repeat.every.weekday.label "هر روز کاری">
+<!ENTITY event.repeat.bi.weekly.label "دو هفته یک‌بار">
+<!ENTITY event.repeat.monthly.label "ماهانه">
+<!ENTITY event.repeat.yearly.label "سالانه">
+<!ENTITY event.repeat.custom.label "سفارشی…">
+<!ENTITY event.recurrence.pattern.label "الگوی تکرار">
+<!ENTITY event.recurrence.occurs.label "تکرار">
+<!ENTITY event.recurrence.day.label "روزانه">
+<!ENTITY event.recurrence.week.label "هفتگی">
+<!ENTITY event.recurrence.month.label "ماهانه">
+<!ENTITY event.recurrence.year.label "سالانه">
+<!ENTITY event.recurrence.pattern.every.label "هر">
+<!ENTITY repeat.units.days.both "روز">
+<!ENTITY event.recurrence.pattern.every.weekday.label "هر روز کاری">
+<!ENTITY event.recurrence.pattern.weekly.every.label "هر">
+<!ENTITY repeat.units.weeks.both "هفته">
+<!ENTITY event.recurrence.on.label "در:">
+<!ENTITY event.recurrence.pattern.monthly.every.label "هر">
+<!ENTITY repeat.units.months.both "ماه">
+<!ENTITY event.recurrence.monthly.every.label "هر">
+<!ENTITY event.recurrence.monthly.first.label "نخستین">
+<!ENTITY event.recurrence.monthly.second.label "دومین">
+<!ENTITY event.recurrence.monthly.third.label "سومین">
+<!ENTITY event.recurrence.monthly.fourth.label "چهارمین">
+<!ENTITY event.recurrence.monthly.fifth.label "پنجمین">
+<!ENTITY event.recurrence.monthly.last.label "آخرین">
+<!ENTITY event.recurrence.repeat.dayofmonth.label "روز ماه">
+<!ENTITY event.recurrence.repeat.recur.label "تکرار در روز">
+<!ENTITY event.recurrence.every.label "هر:">
+<!ENTITY repeat.units.years.both "سال">
+<!ENTITY event.recurrence.pattern.yearly.every.month.label "هر">
+<!ENTITY event.recurrence.yearly.every.label "هر">
+<!ENTITY event.recurrence.yearly.first.label "نخستین">
+<!ENTITY event.recurrence.yearly.second.label "دومین">
+<!ENTITY event.recurrence.yearly.third.label "سومین">
+<!ENTITY event.recurrence.yearly.fourth.label "چهارمین">
+<!ENTITY event.recurrence.yearly.fifth.label "پنجمین">
+<!ENTITY event.recurrence.yearly.last.label "آخرین">
+<!ENTITY event.recurrence.pattern.yearly.day.label "روز">
+<!ENTITY event.recurrence.of.label "از">
+<!ENTITY event.recurrence.range.label "بازهٔ تکرار">
+<!ENTITY event.recurrence.forever.label "بدون تاریخ پایان">
+<!ENTITY event.recurrence.repeat.for.label "ساختن">
+<!ENTITY event.recurrence.appointments.label "قرار">
+<!ENTITY event.repeat.until.label "تکرار تا">
+<!-- Attendees dialog -->
+<!ENTITY invite.title.label "دعوت از شرکت‌کنندگان">
+<!ENTITY event.organizer.label "برگزارکننده">
+<!ENTITY event.freebusy.suggest.slot "پیشنهاد بازهٔ زمانی:">

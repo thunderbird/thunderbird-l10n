@@ -1,3 +1,12 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!ENTITY propertiesMenu.label "ویژگی‌ها">
+<!ENTITY propertiesMenu.accesskey "و">
+<!ENTITY propertiesCmd.key "i">
+<!ENTITY abPropertiesMenu.label "ویژگی‌های دفترچهٔ نشانی">
+<!ENTITY abPropertiesMenu.accesskey "و">
+<!ENTITY contactPropertiesMenu.label "ویژگی‌های مخاطب">
 <!ENTITY addressbookPicker.label "Address Book:">
 <!ENTITY addressbookPicker.accesskey "k">
 <!ENTITY SearchNameOrEmail.label "Name or Email">

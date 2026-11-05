@@ -19,3 +19,4 @@
 <!ENTITY cmd.clearList.accesskey "پ">
 <!ENTITY cmd.clearList.tooltip "حذف همه‌ی ردیف‌ها از فهرست پرونده‌ها، به جز بارگذاری‌های خروجی.">
 <!ENTITY cmd.searchDownloads.label "جستجو...">
+<!ENTITY cmd.searchDownloads.key "F">
