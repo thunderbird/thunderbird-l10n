@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY event.title.label "Modifica elemento">
-<!ENTITY event.dialog.keepDurationButton.tooltip "Mantieni la durata quando viene cambiata la data di fine">
+<!ENTITY event.dialog.keepDurationButton.tooltip "Mantieni la durata se viene cambiata la data di fine evento">
 <!ENTITY event.dialog.keepDurationButton.accesskey "M">
 <!ENTITY newevent.from.label "Da">
 <!ENTITY newevent.to.label "A">
