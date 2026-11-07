@@ -55,11 +55,11 @@ compose-quit-saving-prompt =
     Pirms iziešanas gaidīt, līdz tas ir saglabāts, vai aizvērt uzreiz?
 compose-quit-button = &Iziet
 compose-wait-button = &Gaidīt
-compose-attach-file-picker-title = Pievienot failu(-us)
+compose-attach-file-picker-title = Pievienot datni(es)
 compose-attach-page-title = Lūdzu, norādiet pievienojamo vietu
 compose-attach-page-prompt = Tīmekļa lapa (URL):
 compose-message-part-attachment-name = Pievienotā ziņojuma daļa
-compose-attachment-bucket-attach-files-tooltip = Pievienot failu(-us)
+compose-attachment-bucket-attach-files-tooltip = Pievienot datni(es)
 compose-attachment-bucket-clear-selection-tooltip = Notīrīt atlasi
 # Variables:
 # $filename - name of the file that could not be found
@@ -271,7 +271,7 @@ big-file-ignore-button =
     .accesskey = i
 big-file-choose-account-title = Izvēlieties kontu
 big-file-choose-account-prompt = Izvēlieties mākoņa kontu, kurā augšuplādēt pielikumu
-big-file-hide-notification-title = Neaugšuplādēt jūsu failus
+big-file-hide-notification-title = Neaugšupielādēt manas datnes
 big-file-hide-notification-prompt = Jums netiks ziņots, ja šai vēstulei vēl pievienosit lielus failus.
 big-file-hide-notification-checkbox = Nekad vairs neziņot par to.
 cloudfile-uploading-stop-button =
