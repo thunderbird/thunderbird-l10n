@@ -103,6 +103,18 @@ addr-book-summary-description = Ще бъде създадена нова адр
 import-from-calendar-file-desc = Изберете файла iCalendar (.ics), който искате да внесете.
 calendar-items-title = Изберете елементите за внасяне:
 calendar-items-loading = Зареждане на елементи…
+# Column headers of the list of calendar items to import.
+calendar-items-column-title-a11y =
+    .aria-label = Заглавие
+calendar-items-column-title = Заглавие
+    .title = Сортиране по заглавие
+# The start date and time of each item.
+calendar-items-column-start-a11y =
+    .aria-label = Начало
+# The column of checkboxes, to choose which items to import.
+calendar-items-column-import-a11y =
+    .aria-label = Внасяне
+calendar-items-column-import = Внасяне
 calendar-items-filter-input2 =
     .label = Филтриране на елементи
     .placeholder = Филтриране на елементи…

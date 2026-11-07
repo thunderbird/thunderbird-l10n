@@ -38,3 +38,4 @@ account-disconnecting =
     .value = Изключване…
 account-disconnected =
     .value = Извън мрежа
+add-account-label = Добавяне на профил

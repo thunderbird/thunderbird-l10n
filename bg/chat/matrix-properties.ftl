@@ -267,6 +267,7 @@ message-verification-request2 = { $user } иска да потвърди { $user
 #    $reason is the reason given why the verification was cancelled.
 message-verification-cancel2 = { $user } анулира проверката с причината: { $reason }
 message-verification-done = Потвърждението е завършено.
+message-decryption-error2 = Съдържанието на това съобщение не можа да бъде дешифрирано. Ключовете за шифроване автоматично ще бъдат отново поискани.
 message-decryption-error = Съдържанието на това съобщение не можа да се дешифрира. За да поискате ключове за шифроване от другите си устройства, щракнете с десния бутон върху това съобщение.
 message-decrypting = Дешифроване…
 message-redacted = Съобщението беше изтеглено.
