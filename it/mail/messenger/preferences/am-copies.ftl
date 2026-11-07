@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 account-prefs-show-address-row-description = Lasciare vuoto il campo indirizzo per mostrare sempre la riga dell’indirizzo quando si crea un nuovo messaggio.
-account-prefs-sent-message-copies-description = Scegli dove salvare le copie dei messaggi inviati e imposta le regole Cc/Ccn automatiche
+account-prefs-sent-message-copies-description = Copia messaggi inviati e regole Cc/Ccn
 account-prefs-automatic-cc-bcc-description = Nota: selezionando queste caselle si aggiungeranno automaticamente i campi Cc/Ccn nella composizione di nuovi messaggi.
 account-prefs-sent-folder-on =
     .label = Cartella Posta inviata di:

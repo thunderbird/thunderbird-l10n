@@ -57,7 +57,7 @@ account-settings-encrypt-message-subject =
     .accesskey = m
 account-settings-encrypt-saved-drafts =
     .label = Critta la riga dell’oggetto del messaggio
-    .accesskey = C
+    .accesskey = m
 # Do not translate "Autocrypt", it's the name of a standard.
 account-settings-include-public-key-autocrypt =
     .label = Includi la chiave pubblica di questo account nelle intestazioni dei messaggi (per compatibilità con Autocrypt)
