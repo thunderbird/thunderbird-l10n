@@ -134,6 +134,8 @@ calendar-prompt-this-event =
 calendar-prompt-all-events =
     .label = Όλες οι εκδηλώσεις
 calendar-prompt-delete-button = Διαγραφή
+calendar-dialog-edit-button = Επεξεργασία
+calendar-event-create-edit-save-button = Αποθήκευση
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =
