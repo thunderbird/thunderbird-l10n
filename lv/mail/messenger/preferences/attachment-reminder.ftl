@@ -4,7 +4,7 @@
 
 attachment-reminder-dialog-title = Pielikuma atgādinājuma atslēgvārdi
 attachment-reminder-description = Rādīt atgādinājumu par trūkstošiem pielikumiem, ja e-pasta ziņojums satur atbilstošus atslēgvārdus.
-attachment-reminder-label = Ja mēģināsiet nosūtīt epastu ar kādu no šiem atslēgvārdiem, { -brand-short-name } brīdinās par trūkstošajiem pielikumiem.
+attachment-reminder-label = Ja mēģināsiet nosūtīt e-pastu ar kādu no šiem atslēgvārdiem, { -brand-short-name } brīdinās par trūkstošajiem pielikumiem.
 keyword-new-button =
     .label = Jauns…
     .accesskey = J

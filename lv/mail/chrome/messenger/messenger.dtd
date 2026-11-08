@@ -730,9 +730,9 @@
 <!ENTITY SubscribeToNewsgroup.accesskey "P">
 <!ENTITY SendMessageTo.label "Rakstīt vēstuli uz">
 <!ENTITY SendMessageTo.accesskey "R">
-<!ENTITY CopyEmailAddress.label "Kopēt epasta adresi">
+<!ENTITY CopyEmailAddress.label "Kopēt e-pasta adresi">
 <!ENTITY CopyEmailAddress.accesskey "K">
-<!ENTITY CopyNameAndEmailAddress.label "Kopēt vārdu un epasta adresi">
+<!ENTITY CopyNameAndEmailAddress.label "Kopēt vārdu un e-pasta adresi">
 <!ENTITY CopyNameAndEmailAddress.accesskey "N">
 <!ENTITY CopyNewsgroupName.label "Kopēt ziņu grupas nosaukumu">
 <!ENTITY CopyNewsgroupName.accesskey "C">
@@ -740,7 +740,7 @@
 <!ENTITY CopyNewsgroupURL.accesskey "U">
 <!ENTITY CreateFilterFrom.label "Izveidot filtru no…">
 <!ENTITY CreateFilterFrom.accesskey "F">
-<!ENTITY reportPhishingURL.label "Ziņot par krāpniecisku epastu">
+<!ENTITY reportPhishingURL.label "Ziņot par krāpniecisku e-pastu">
 <!ENTITY reportPhishingURL.accesskey "o">
 <!-- Spell checker context menu items -->
 <!ENTITY spellAddDictionaries.label "Pievienot vārdnīcas…">
@@ -754,7 +754,7 @@
 <!ENTITY copyLinkCmd.accesskey "v">
 <!ENTITY copyImageAllCmd.label "Kopēt attēlu">
 <!ENTITY copyImageAllCmd.accesskey "a">
-<!ENTITY copyEmailCmd.label "Kopēt epasta adresi">
+<!ENTITY copyEmailCmd.label "Kopēt e-pasta adresi">
 <!ENTITY copyEmailCmd.accesskey "e">
 <!ENTITY openInBrowser.label "Atvērt pārlūkā">
 <!ENTITY openInBrowser.accesskey "A">

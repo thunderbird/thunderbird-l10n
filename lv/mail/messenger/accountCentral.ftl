@@ -16,7 +16,7 @@ release-notes =
     .title = Par { -brand-full-name }
 email-label = E-pasta adrese
     .aria-label = Pievieno savu esošu e-pasta kontu
-email-description = Izmantojot { -brand-short-name }, varat izveidot savienojumu ar savu esošo epasta kontu, lai ērti un efektīvi lasītu epastus ar lietotni.
+email-description = Izmantojot { -brand-short-name }, varat izveidot savienojumu ar savu esošo e-pasta kontu, lai ērti un efektīvi lasītu e-pastus ar lietotni.
 calendar-label = Kalendārs
     .aria-label = Izveidot jaunu kalendāru
 calendar-description = { -brand-short-name } ļauj apstrādāt notikumus un uzturēt kārtību. Savienošanās ar attālu kalendāru turēs visus notikumus vienādotus visās ierīcēs.
@@ -38,7 +38,7 @@ newsgroups-description = { -brand-short-name } ļauj izveidot savienojumu ar kā
 import-title = Ievietot no citas programmas
 import-label = Ievietot
     .aria-label = Datu ievietošana no citām programmām
-about-paragraph = Thunderbird ir vadošais atvērtā pirmkoda, starpplatformu epasta un kalendāra klients, ko var bez maksas lietot gan personīgi, gan uzņēmējdarbībā. Mēs vēlamies, lai tas ir drošs un kļūst vēl labāks. Ziedojums ļaus mums pieņemt darbā izstrādātājus, maksāt par infrastruktūru un turpināt attīstīties.
+about-paragraph = Thunderbird ir vadošais atvērtā pirmkoda, starpplatformu e-pasta un kalendāra klients, ko var bez maksas lietot gan personīgi, gan uzņēmējdarbībā. Mēs vēlamies, lai tas ir drošs un kļūst vēl labāks. Ziedojums ļaus mums pieņemt darbā izstrādātājus, maksāt par infrastruktūru un turpināt attīstīties.
 about-paragraph-consider-donation = <strong>Thunderbird finansē tādi paši lietotāji kā jūs! Ja jums patīk Thunderbird, lūdzu, apsveriet iespēju ziedot.</strong> Labākais veids, kā nodrošināt Thunderbird pastāvēšanu, ir <a class="more" href="%(donate)s">ziedošana</a>.
 support-link = Atbalsts
 involved-link = Iesaistieties

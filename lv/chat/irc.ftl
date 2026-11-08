@@ -189,7 +189,7 @@ error-mode-wrong-user = Jūs nevarat mainīt citu lietotāju režīmus.
 #    $name is the nickname or channel name that isn't available.
 error-no-such-nick = { $name } nav tiešsaistē.
 #    $name is the nickname or channel name that isn't available.
-error-was-no-such-nick = Šis segvārds nepastāv: { $name }
+error-was-no-such-nick = Šis segvārds ne-pastāv: { $name }
 #    $name is the nickname or channel name that isn't available.
 error-no-such-channel = Nav kanāla: { $name }.
 #    $name is the nickname or channel name that isn't available.

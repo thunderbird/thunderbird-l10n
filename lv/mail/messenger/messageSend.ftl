@@ -95,13 +95,13 @@ smtp-auth-gssapi = Izejošais (SMTP) serveris { $hostname } nepieņēma Kerberos
 smtp-auth-mechanism-not-supported = Izejošais serveris (SMTP) { $hostname } neatbalsta izvēlēto autentifikācijas veidu. Lūdzu, nomainiet ‘Autentifikācijas veids’ sadaļā ‘Konta iestatījumi | Izejošais serveris (SMTP)’.
 # Variables:
 # $serverResponse - server response
-smtp-server-error = Sūtot epastu, radās kļūda: izejošā servera (SMTP) kļūda.  Serveris atbildēja: { $serverResponse }.
+smtp-server-error = Sūtot e-pastu, radās kļūda: izejošā servera (SMTP) kļūda.  Serveris atbildēja: { $serverResponse }.
 # Variables:
 # $hostname - outgoing server hostname
-smtp-starttls-failed = Sūtot epastu, radās kļūda: Nevar izveidot drošu saiti ar izejošo serveri (SMTP) { $hostname }, izmantojot STARTTLS, jo tas neziņo par šo iespēju. Izslēdziet STARTTLS šim serverim vai sazinieties ar pakalpojumu sniedzēju.
+smtp-starttls-failed = Sūtot e-pastu, radās kļūda: Nevar izveidot drošu saiti ar izejošo serveri (SMTP) { $hostname }, izmantojot STARTTLS, jo tas neziņo par šo iespēju. Izslēdziet STARTTLS šim serverim vai sazinieties ar pakalpojumu sniedzēju.
 # Variables:
 # $serverResponse - server response
-smtp-error-sending-from-command = Sūtot pastu, radās kļūda. Pasta serveris atbildēja: { $serverResponse }. Lūdzu, konta iestatījumos pārbaudiet, vai jūsu epasta adrese ir pareiza, un mēģiniet vēlreiz.
+smtp-error-sending-from-command = Sūtot pastu, radās kļūda. Pasta serveris atbildēja: { $serverResponse }. Lūdzu, konta iestatījumos pārbaudiet, vai jūsu e-pasta adrese ir pareiza, un mēģiniet vēlreiz.
 # Variables:
 # $serverResponse - server response
 smtp-permanent-size-exceeded = Vēstules izmērs, ko mēģināt nosūt, pārsniedz servera globālo izmēra ierobežojumu. Vēstule netika nosūtīta; mēģiniet samazināt vēstules izmēru vai pagaidiet kādu laiku un mēģiniet vēlreiz. Serveris atbildēja:  { $serverResponse }.

@@ -8,7 +8,7 @@
 <!ENTITY encryptionCert.label "Apskatīt šifrēšanas sertifikātu">
 <!ENTITY signer.name "Parakstījis:">
 <!ENTITY recipient.name "Šifrēts priekš:">
-<!ENTITY email.address "Epasta adrese:">
+<!ENTITY email.address "E-pasta adrese:">
 <!ENTITY issuer.name "Sertifikātu izsniedzis:">
 <!-- LOCALIZATION NOTE(SMIME.label): This a name for a technical standard. You should not translate it, but if applicable, you may write it using localized characters. -->
 <!ENTITY SMIME.label "S/MIME">

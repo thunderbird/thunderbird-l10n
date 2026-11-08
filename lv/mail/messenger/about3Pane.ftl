@@ -25,7 +25,7 @@ quick-filter-bar-dropdown =
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =
-    .title = Radīt tikai nelasītus epastus
+    .title = Radīt tikai nelasītus e-pastus
 # The label for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread-label = Nelasītas

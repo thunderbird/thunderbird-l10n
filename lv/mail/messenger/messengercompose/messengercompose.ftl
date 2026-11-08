@@ -35,12 +35,12 @@ compose-attachment-reminder-prompt = Vai aizmirsāt pievienot pielikumu?
 compose-attachment-reminder-send-button = Nē, sūtīt tagad
 compose-attachment-reminder-add-button = Jā, es aizmirsu!
 compose-newsgroups-not-supported-title = Ziņu grupas nav atbalstītas
-compose-newsgroups-not-supported = Šis konts atbalsta tikai epasta adresātus. Turpināšana ignorēs ziņu grupas.
+compose-newsgroups-not-supported = Šis konts atbalsta tikai e-pasta adresātus. Turpināšana ignorēs ziņu grupas.
 compose-invalid-address-title = Nepareiza saņēmēja adrese
 compose-no-recipients = Nav norādīti adresāti. Lūdzu, adreses laukā ievadiet adresātu vai ziņu grupu.
 # Variables:
 # $address - invalid email address
-compose-invalid-address = { $address } nav derīga epasta adrese, jo tā nav formā user@host. Pirms epasta nosūtīšanas tā ir jāizlabo.
+compose-invalid-address = { $address } nav derīga e-pasta adrese, jo tā nav formā user@host. Pirms e-pasta nosūtīšanas tā ir jāizlabo.
 compose-quit-sending-title = Sūta vēstuli
 compose-quit-saving-title = Saglabā vēstuli
 # Variables:
@@ -63,12 +63,12 @@ compose-attachment-bucket-attach-files-tooltip = Pievienot datni(es)
 compose-attachment-bucket-clear-selection-tooltip = Notīrīt atlasi
 # Variables:
 # $filename - name of the file that could not be found
-compose-file-attachment-not-found = Datne { $filename } nepastāv, tāpēc to nevarēja pievienot ziņojumam.
+compose-file-attachment-not-found = Datne { $filename } ne-pastāv, tāpēc to nevarēja pievienot ziņojumam.
 compose-file-attachment-error-title = Datnes pievienošana
 compose-message-file-error-title = Ziņojuma datne
 # Variables:
 # $filename - name of the file that could not be found
-compose-message-file-not-found = Datne { $filename } nepastāv, un to nevarēja izmantot kā ziņojuma pamattekstu.
+compose-message-file-not-found = Datne { $filename } ne-pastāv, un to nevarēja izmantot kā ziņojuma pamattekstu.
 # Variables:
 # $filename - name of the file that could not be loaded
 compose-message-file-load-error = Failu { $filename } neizdevās ielādēt kā vēstules pamattekstu.
@@ -92,7 +92,7 @@ find-replace-button =
 # $identity - identity address that would otherwise be used
 compose-custom-from-address-placeholder = Ievadiet pielāgoto No adresi, ko izmantot { $identity } vietā
 compose-custom-from-address-title = Pielāgot No adreses
-compose-custom-from-address-warning = Ja jūsu epasta pakalpojumu sniedzējs to atbalsta, Pielāgot no adreses ļauj veikt vienreizējas nelielas izmaiņas adresē No, neveidojot jaunu identitāti Konta iestatījumos. Piemēram, ja jūsu No adrese ir John Doe <john@example.com>, varat to mainīt uz John Doe <john+doe@example.com> vai John <john@example.com>.
+compose-custom-from-address-warning = Ja jūsu e-pasta pakalpojumu sniedzējs to atbalsta, Pielāgot no adreses ļauj veikt vienreizējas nelielas izmaiņas adresē No, neveidojot jaunu identitāti Konta iestatījumos. Piemēram, ja jūsu No adrese ir John Doe <john@example.com>, varat to mainīt uz John Doe <john+doe@example.com> vai John <john@example.com>.
 compose-custom-from-address-ignore = Nekad vairs neziņot par to
 compose-blocked-content-options-button = Iespējas
 compose-blocked-content-options-accesskey = O

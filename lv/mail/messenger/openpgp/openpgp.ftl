@@ -79,7 +79,7 @@ openpgp-key-man-export-to-file =
     .label = Izgūt publisko(-ās) atslēgu(-as) datnē
     .accesskey = E
 openpgp-key-man-send-keys =
-    .label = Sūtīt publisko atslēgu(-as) pa epastu
+    .label = Sūtīt publisko atslēgu(-as) pa e-pastu
     .accesskey = S
 openpgp-key-man-backup-secret-keys =
     .label = Dublēt slepeno(-ās) atslēgu(-as) datnē
@@ -87,7 +87,7 @@ openpgp-key-man-backup-secret-keys =
 openpgp-key-man-discover-cmd =
     .label = Atklāt atslēgas tiešsaistē
     .accesskey = A
-openpgp-key-man-discover-prompt = Lai tiešsaistē atklātu OpenPGP atslēgas, atslēgu serveros vai ar WKD protokolu, ievadiet epasta adresi, vai atslēgas ID.
+openpgp-key-man-discover-prompt = Lai tiešsaistē atklātu OpenPGP atslēgas, atslēgu serveros vai ar WKD protokolu, ievadiet e-pasta adresi, vai atslēgas ID.
 openpgp-key-man-discover-progress = Meklē…
 openpgp-key-copy-key =
     .label = Kopēt publisko atslēgu
@@ -99,7 +99,7 @@ openpgp-key-backup-key =
     .label = Dublēt privāto atslēgu datnē
     .accesskey = D
 openpgp-key-send-key =
-    .label = Sūtīt publisko atslēgu pa epastu
+    .label = Sūtīt publisko atslēgu pa e-pastu
     .accesskey = S
 # Variables:
 # $count (Number) - Number of keys ids to copy.
@@ -350,7 +350,7 @@ keyserver-error-unsupported = Atslēgu serveris nav atbalstīts.
 ## Strings in mimeWkdHandler.sys.mjs
 
 wkd-message-body-req =
-    Jūsu epasta pakalpojumu sniedzējs apstrādāja jūsu pieprasījumu augšuplādēt publisko atslēgu OpenPGP tīmekļa atslēgu katalogā.
+    Jūsu e-pasta pakalpojumu sniedzējs apstrādāja jūsu pieprasījumu augšuplādēt publisko atslēgu OpenPGP tīmekļa atslēgu katalogā.
     Lūdzu, apstipriniet publiskās atslēgas publicēšanu.
 wkd-message-body-process =
     Šis e-pasts ir saistīts ar automātisku apstrādi, lai augšupielādētu publisko atslēgu OpenPGP Tīmekļa atslēgu katalogā.
@@ -377,7 +377,7 @@ filter-key-not-found = Neizdevās atrast '{ $desc }' šifrēšanas atslēgu.
 # $desc (String) - The ID of a secret key that is required to read the email after the user executes the current action.
 filter-warn-key-not-secret =
     Brīdinājums - filtrēšanas darbība "Šifrēt uz atslēgu" aizstāj adresātus.
-    Ja jums nav slepenās atslēgas priekš '{ $desc }', jūs vairs nevarēsiet lasīt šos epastus.
+    Ja jums nav slepenās atslēgas priekš '{ $desc }', jūs vairs nevarēsiet lasīt šos e-pastus.
 
 ## Strings filtersWrapper.sys.mjs
 
@@ -487,9 +487,9 @@ key-man-button-revoke-key = &Atsaukt atslēgu
 openpgp-key-revoke-success = Atslēga sekmīgi atsaukta.
 after-revoke-info =
     Atslēga ir atsaukta.
-    Vēlreiz kopīgojiet šo publisko atslēgu, nosūtot to pa epastu vai augšupielādējot atslēgu serveros, lai citi zinātu, ka esat to atsaucis.
+    Vēlreiz kopīgojiet šo publisko atslēgu, nosūtot to pa e-pastu vai augšupielādējot atslēgu serveros, lai citi zinātu, ka esat to atsaucis.
     Tiklīdz citu cilvēku izmantotā programmatūra uzzinās par atsaukšanu, tās pārtrauks izmantot jūsu veco atslēgu.
-    Ja izmantojat jauno atslēgu tai pašai epasta adresei, pievienojiet jauno publisko atslēgu sūtītajiem epastiem un informācija par jūsu atsaukto veco atslēgu tiks iekļauta automātiski.
+    Ja izmantojat jauno atslēgu tai pašai e-pasta adresei, pievienojiet jauno publisko atslēgu sūtītajiem epastiem un informācija par jūsu atsaukto veco atslēgu tiks iekļauta automātiski.
 
 ## Strings in keyRing.sys.mjs & decryption.sys.mjs
 
@@ -505,7 +505,7 @@ revoke-key-in-use-description = Nevar turpināt! Šī identitāte pašlaik izman
 
 # Variables:
 # $keySpec (String) - Email address.
-key-error-key-spec-not-found = Epasta adrese '{ $keySpec }' neatbilst nevienai atslēgai jūsu atslēgu saišķī.
+key-error-key-spec-not-found = E-pasta adrese '{ $keySpec }' neatbilst nevienai atslēgai jūsu atslēgu saišķī.
 # $keySpec (String) - Key id.
 key-error-key-id-not-found = Iestatītais atslēgas ID '{ $keySpec }' jūsu atslēgu saišķī nav atrodams.
 # $keySpec (String) - Key id.
@@ -609,7 +609,7 @@ msg-compose-partially-encrypted-inlinePGP =
     Vēstulē, uz kuru atbildat, ir gan nešifrētas, gan šifrētas daļas. Ja sūtītājs sākotnēji nespēja atšifrēt dažas vēstules daļas, iespējams, jūs noplūdināt privātu informāciju, kuru sūtītājs sākotnēji nevarēja izlasīt.
     Lūdzu, apsveriet iespēju šim sūtītājam noņemt visu atbildē citēto tekstu.
 msg-compose-cannot-save-draft = Saglabājot melnrakstu, radās kļūda
-msg-compose-partially-encrypted-short = Sargieties no privātas informācijas noplūdes - daļēji šifrēta epasta.
+msg-compose-partially-encrypted-short = Sargieties no privātas informācijas noplūdes - daļēji šifrēta e-pasta.
 quoted-printable-warn =
     Vēstules sūtīšanai esat ieslēdzis 'citētu-izdrukājamu' kodējumu. Tas var izraisīt nepareizu vēstules atšifrēšanu un/vai pārbaudi.
     Vai vēlaties izslēgt  'citētu-izdrukājamu' vēstuļu sūtīšanu?
@@ -641,7 +641,7 @@ cant-import = Importējot publisko atslēgu, radās kļūda
 unverified-reply = Iespējams, vēstules atkāptā (atbildes) daļa ir mainīta
 key-in-message-body = Ziņojuma saturā tika atrasta atslēga. Jāklikšķina uz “Ievietot atslēgu”, lai to ievietotu
 sig-mismatch = Kļūda - parakstu neatbilstība
-invalid-email = Kļūda - nederīga(-as) epasta adrese(-es)
+invalid-email = Kļūda - nederīga(-as) e-pasta adrese(-es)
 # Variables:
 #   $name (String) - File name of the attachment.
 attachment-pgp-key-import = Šķiet, ka pielikums ‘{ $name }’ ir OpenPGP atslēgas datne. Vai ievietot atslēgas, ko tā satur?

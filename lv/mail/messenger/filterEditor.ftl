@@ -64,7 +64,7 @@ filter-log-line = [{ $timestamp }] { $message }
 # $message (String) - The log message from the filter.
 filter-log-message = Vēstule no filtra "{ $filterName }": { $message }
 filter-editor-must-select-target-folder = Jums jāizvēlas mērķa mape.
-filter-editor-enter-valid-email-forward = Ievadiet derīgu epasta adresi, uz kuru pārsūtīt.
+filter-editor-enter-valid-email-forward = Ievadiet derīgu e-pasta adresi, uz kuru pārsūtīt.
 filter-editor-pick-template-reply = Izvēlieties veidni, ar kuru atbildēt.
 # Variables:
 # $filterName (String) - The name of the filter that was applied.
