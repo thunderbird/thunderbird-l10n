@@ -36,6 +36,7 @@ policy-DisableFeedbackCommands = Onemogući naredbe za slanje povratnih informac
 policy-DisableFileLink = Onemogućite značajku Filelink.
 policy-DisableForgetButton = Spriječite pristup tipki Zaboravi.
 policy-DisableFormHistory = Nemoj pamtiti povijest pretraživanja i obrazaca.
+policy-DisableMacOSUserPolicies = Zanemarite pravila iz korisničkih postavki i iz profila konfiguracije korisničkog opsega na macOS-u.
 policy-DisableMasterPasswordCreation = Ako je točno, nije moguće stvoriti glavnu lozinku.
 policy-DisableMessageForwardingFilters = Spriječite filtere poruka da automatski prosljeđuju poruke.
 policy-DisablePasswordReveal2 = Nemoj dozvoliti prikaz lozinki u spremljenim prijavama ili poljima za lozinku.

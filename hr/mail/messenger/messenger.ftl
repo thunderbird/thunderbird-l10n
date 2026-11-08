@@ -469,6 +469,10 @@ decrypt-and-copy-failures-multiple =
         [few] { $failures } od { $total } poruka nije bilo moguće dekriptirati i nisu kopirane.
        *[other] { $failures } od { $total } poruka nije bilo moguće dekriptirati i nisu kopirane.
     }
+# Shown once at the end of a filter run the user started from the message
+# list, when at least one filter or action failed.
+apply-filters-failed = Izvođenje filtra nije uspješno dovršeno. Za detalje provjerite zapisnik filtra.
+apply-filters-failed-open-log-button = Otvori zapisnik filtra
 
 ## Spaces toolbar
 

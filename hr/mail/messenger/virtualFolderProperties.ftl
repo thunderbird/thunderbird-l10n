@@ -15,6 +15,11 @@ virtual-folder-sources-chosen =
        *[other] { $count } mapa odabrano
     }
 virtual-folder-no-search-folders-selected = Morate odabrati najmanje jednu mapu za traženje spremljene mape pretrage.
+virtual-folder-missing-value-title = Nedostaje vrijednost pretraživanja
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+virtual-folder-missing-value-rule = Unesite vrijednost pojma za pretraživanje "{ $attribute } { $operator }" prije spremanja ovog pretraživanja.
 virtual-folder-properties-title = Novo spremljene mape za pretraživanje
 # Variables:
 #   $folderName (String): The name of the saved search folder.

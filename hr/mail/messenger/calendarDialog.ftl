@@ -142,6 +142,8 @@ calendar-prompt-this-event =
 calendar-prompt-all-events =
     .label = Svi događaji
 calendar-prompt-delete-button = Obriši
+calendar-dialog-edit-button = Uredi
+calendar-event-create-edit-save-button = Spremi
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =

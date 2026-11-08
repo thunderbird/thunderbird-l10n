@@ -38,6 +38,8 @@ folder-props-check-for-new-messages =
     .label = Prilikom primanja novih poruka za ovaj račun, uvijek provjeri ovu mapu
     .accesskey = m
 folder-props-rebuild-summary-explanation = Ponekad se (.msf) datoteka koja je indeks mape ošteti i poruke izgledaju nedostupne ili se izbrisane poruke i dalje pojavljuju; popravak mape može riješiti ove probleme.
+folder-props-rebuild-summary-confirm-title = Popravi mapu
+folder-props-rebuild-summary-confirm-message = Popravak ove mape briše njene lokalne poruke i preuzima nove kopije s poslužitelja, ostavljajući poruke poslužitelja nepromijenjenima. To može potrajati. Želite li nastaviti?
 
 ## Retention tab (see retention.ftl)
 ##

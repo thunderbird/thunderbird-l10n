@@ -97,6 +97,12 @@ message-header-address-in-address-book-button =
     .title = Uredi kontakt
 message-header-field-show-more = Više
     .title = Prikaži sve primatelje
+message-ids-field-show-more = Prikaži više
+# Button shown in place of hidden items in a header field.
+# $count (Number) - The number of hidden items the button will show.
+message-header-field-show-count-more =
+    .aria-label = Prikaži još { $count }
+    .title = Prikaži još { $count }
 message-ids-field-show-all = Prikaži sve
 
 ## Dark Message Mode
