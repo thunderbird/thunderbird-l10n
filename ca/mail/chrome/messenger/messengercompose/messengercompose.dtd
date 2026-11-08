@@ -222,6 +222,7 @@
 <!ENTITY smiley14Cmd.label "Innocent">
 <!ENTITY smiley15Cmd.label "Plor">
 <!ENTITY smiley16Cmd.label "Llavis segellats">
+<!ENTITY smiley17Cmd.label "Enfadat">
 <!-- Message Pane Context Menu -->
 <!ENTITY spellCheckNoSuggestions.label "No s'ha trobat cap suggeriment">
 <!-- Message Pane Context Menu -->

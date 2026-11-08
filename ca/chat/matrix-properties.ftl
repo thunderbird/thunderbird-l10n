@@ -217,6 +217,7 @@ message-verification-request2 = { $user } vol verificar { $userReceiving }.
 #    $reason is the reason given why the verification was cancelled.
 message-verification-cancel2 = { $user } ha cancel·lat la verificació amb el motiu: { $reason }
 message-verification-done = La verificació ha acabat.
+message-decryption-error = No s'ha pogut desxifrar el contingut d'aquest missatge. Per sol·licitar claus de xifratge dels altres dispositius, feu clic amb el botó dret en aquest missatge.
 message-decrypting = S'està desxifrant…
 message-redacted = El missatge s'ha editat.
 #    $userThatReacted is the username of the user that reacted.
@@ -224,7 +225,10 @@ message-redacted = El missatge s'ha editat.
 #    $reaction is the content (typically an emoji) of the reaction.
 message-reaction = { $userThatReacted } ha reaccionat a { $userThatSentMessage } amb { $reaction }.
 #    Label in the message context menu
+message-action-request-key = Torna a sol·licitar les claus
+#    Label in the message context menu
 message-action-redact = Edita
+message-action-report = Informa del missatge
 message-action-retry = Torna a provar d'enviar
 message-action-cancel = Cancel·la el missatge
 # LOCALIZATION NOTE (error-*)
