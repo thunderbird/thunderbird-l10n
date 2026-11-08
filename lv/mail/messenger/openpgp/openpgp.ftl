@@ -272,7 +272,7 @@ openpgp-personal-no-label =
     .label = Nē, nelietot to kā jūsu personīgo atslēgu.
 openpgp-personal-yes-label =
     .label = Jā, uzskatīt šo atslēgu par personīgo atslēgu.
-openpgp-passphrase-unlock-failed = Atslēgu vai atslēgas pakārtotās daļas nevarēja atbloķēt.
+openpgp-passphrase-unlock-failed = Atslēgu vai atslēgai pakārtotās daļas nevarēja atslēgt.
 openpgp-copy-cmd-label =
     .label = Kopēt
 
@@ -487,9 +487,9 @@ key-man-button-revoke-key = &Atsaukt atslēgu
 openpgp-key-revoke-success = Atslēga sekmīgi atsaukta.
 after-revoke-info =
     Atslēga ir atsaukta.
-    Vēlreiz kopīgojiet šo publisko atslēgu, nosūtot to pa e-pastu vai augšupielādējot atslēgu serveros, lai citi zinātu, ka esat to atsaucis.
-    Tiklīdz citu cilvēku izmantotā programmatūra uzzinās par atsaukšanu, tās pārtrauks izmantot jūsu veco atslēgu.
-    Ja izmantojat jauno atslēgu tai pašai e-pasta adresei, pievienojiet jauno publisko atslēgu sūtītajiem epastiem un informācija par jūsu atsaukto veco atslēgu tiks iekļauta automātiski.
+    Vēlreiz kopīgo šo publisko atslēgu, nosūtot to e-pastā vai augšupielādējot atslēgu serveros, lai citi zinātu, ka atsauci to!
+    Tiklīdz citu cilvēku izmantotā programmatūra uzzinās par atsaukšanu, tās pārtrauks izmantot veco atslēgu.
+    Ja izmanto jauno atslēgu tai pašai e-pasta adresei, jaunā publiskā atslēga jāpievieno sūtītajiem e-pasta ziņojumiem, un informācija par atsaukto veco atslēgu tiks iekļauta automātiski.
 
 ## Strings in keyRing.sys.mjs & decryption.sys.mjs
 
