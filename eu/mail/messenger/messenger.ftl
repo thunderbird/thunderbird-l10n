@@ -146,6 +146,12 @@ folder-toolbar-toggle-folder-compact-view =
     .label = Ikuspegi trinkoa
     .accesskey = t
 
+## Folder names
+
+folder-name-spam = Spam
+# Gmail's "All Mail" folder. Please make sure this is the same string used in the Gmail web UI for your language.
+folder-name-all-mail = Posta dena
+
 ## File Menu
 
 menu-file-save-as-file =
@@ -158,6 +164,21 @@ menu-file-get-next-n-news-msgs =
         [one] Eskuratu hurrengo berri-mezua
        *[other] Eskuratu hurrengo { $count } berri-mezu
     }
+# Variables:
+# $count (Number) - One or more than one folder selected for compacting
+menu-file-compact =
+    .label =
+        { $count ->
+            [1] Trinkotu karpetak
+            [one] Trinkotu karpeta
+           *[other] Trinkotu karpetak
+        }
+    .accesskey = T
+# One or more servers selected for compacting all their folders. Only this or
+# menu-file-compact string will appear at a time, not both.
+menu-file-compact-all =
+    .label = Trinkotu karpeta guztiak
+    .accesskey = g
 
 ## Edit Menu
 
@@ -259,6 +280,12 @@ context-menu-mark-reply =
 context-menu-archive =
     .aria-label = Artxibatu
     .tooltiptext = Artxibatu
+context-menu-mark-spam =
+    .aria-label = Markatu spam gisa
+    .tooltiptext = Markatu spam gisa
+context-menu-mark-not-spam =
+    .aria-label = Markatu ez dela zaborra
+    .tooltiptext = Markatu ez dela zaborra
 mail-context-menu-open =
     .label = Ireki
     .accesskey = I

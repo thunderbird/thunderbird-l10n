@@ -15,6 +15,10 @@ dateformat-long =
 #   $date (String) - the formatted example date
 dateformat-short =
     .label = Laburra: { $date }
+auto-detect-timezone-radio-button =
+    .label = Automatikoki detektatu ordu zonaldea
+manually-set-timezone-radio-button =
+    .label = Ezarri eskuz ordu zonaldea
 use-system-timezone-radio-button =
     .label = Erabili sistemako ordu zonaldea
 set-timezone-manually-radio-button =

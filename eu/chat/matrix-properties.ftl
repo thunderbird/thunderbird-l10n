@@ -267,6 +267,7 @@ message-verification-request2 = { $user }(e)k { $userReceiving } egiaztatu nahi 
 #    $reason is the reason given why the verification was cancelled.
 message-verification-cancel2 = { $user } egiaztatzea bertan behera utzi du arrazoi honekin: { $reason }
 message-verification-done = Egiaztapena burututa.
+message-decryption-error2 = Ezin izan da mezu honen edukia deszifratu. Zifratze-gakoak automatikoki eskatuko dira berriro.
 message-decryption-error = Ezin dira deszifratu mezu honen edukiak. Zure beste gailuen zifratze gakoak eskatzeko, eskumako klik mezu honetan.
 message-decrypting = Deszifratzen...
 message-redacted = Mezua idatzi da.

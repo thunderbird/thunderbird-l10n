@@ -70,6 +70,30 @@ calendar-dialog-more-categories =
 calendar-dialog-delete-reminder-button =
     .alt = Ezabatu oroigarria
 calendar-dialog-add-reminder-button = Gehitu gogorarazlea
+calendar-dialog-save-reminder-button = Gorde
+calendar-dialog-reminder-event-start = 0 minutu lehenago
+# Variables:
+#  $count (Number): Number of minutes before the event.
+calendar-dialog-reminder-minutes-before =
+    { $count ->
+        [one] minutu { $count }  lehenago
+       *[other] { $count } minutu lehenago
+    }
+# Variables:
+#  $count (Number): Number of hours before the event.
+calendar-dialog-reminder-hours-before =
+    { $count ->
+        [one] ordu { $count }  lehenago
+       *[other] { $count } ordu lehenago
+    }
+# Variables:
+#  $count (Number): Number of days before the event.
+calendar-dialog-reminder-days-before =
+    { $count ->
+        [one] egun { $count } lehenago
+       *[other] { $count } egun lehenago
+    }
+calendar-dialog-reminder-week-before = aste 1 lehenago
 # Variables:
 #   $count (Number): Number of reminders.
 calendar-dialog-reminder-count =
@@ -100,6 +124,7 @@ calendar-dialog-attachments-summary-label =
         [one] Eranskin { $count }
        *[other] { $count } eranskin
     }
+calendar-event-prompt-delete-title = Ezabatu gertaera
 calendar-prompt-this-event =
     .label = Gertaera hau
 calendar-prompt-all-events =
