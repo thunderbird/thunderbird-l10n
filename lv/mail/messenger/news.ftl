@@ -53,7 +53,7 @@ enter-news-server-credentials = Lūgums ievadīt { $server } lietotājvārdu un 
 # Variables:
 # $newsgroup (String) - A specific newsgroup to set the password for.
 # $server (String) - The server from which the newsgroup is accessed.
-enter-news-group-credentials = Lūdzu, ievadiet { $newsgroup } lietotājvārdu un paroli uz { $server }:
+enter-news-group-credentials = Lūgums ievadīt { $server } { $newsgroup } lietotājvārdu un paroli:
 
 ## News Error Page Messages
 

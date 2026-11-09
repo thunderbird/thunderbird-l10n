@@ -554,7 +554,7 @@ save-revoke-cert-as = Izveidot un saglabāt atsaukšanas sertifikātu
 revoke-cert-ok = Atsaukšanas sertifikāts tika sekmīgi izveidots. To var izmantot, lai padarītu savu publisko atslēgu nederīgu, piemēram, ja tiek pazaudēta slepenā atslēga.
 revoke-cert-failed = Atsaukšanas sertifikātu neizdevās izveidot.
 gen-going = Jau notiek atslēgu veidošana!
-keygen-missing-user-name = Atlasītajam kontam/identitātei nav norādīts nosaukums. Lūdzu, ievadiet vērtību konta iestatījumu laukā "Jūsu vārds".
+keygen-missing-user-name = Atlasītajam kontam/identitātei nav norādīts nosaukums. Lūgums konta iestatījumos ievadīt vērtību laukā “Tavs vārds”.
 expiry-too-short = Jūsu atslēgai jābūt derīgai vismaz vienu dienu.
 expiry-too-long = Nevar izveidot atslēgu, kuras derīgums ir ilgāks par 100 gadiem.
 # Variables:

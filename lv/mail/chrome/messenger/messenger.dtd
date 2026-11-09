@@ -761,7 +761,7 @@
 <!ENTITY openLinkInBrowser.label "Atvērt saiti pārlūkā">
 <!ENTITY openLinkInBrowser.accesskey "A">
 <!-- Statusbar -->
-<!ENTITY statusText.label "Izdarīts">
+<!ENTITY statusText.label "Gatavs">
 <!-- Mac OS X Window Menu -->
 <!ENTITY minimizeWindow.label "Minimizēt">
 <!ENTITY minimizeWindow.key "m">
