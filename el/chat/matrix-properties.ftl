@@ -267,6 +267,7 @@ message-verification-request2 = Ο/Η { $user } θέλει να επαληθεύ
 #    $reason is the reason given why the verification was cancelled.
 message-verification-cancel2 = Ο/Η { $user } ακύρωσε την επαλήθευση για τον εξής λόγο: { $reason }
 message-verification-done = Η επαλήθευση ολοκληρώθηκε.
+message-decryption-error2 = Δεν ήταν δυνατή η αποκρυπτογράφηση του μηνύματος. Θα ξαναζητηθούν αυτόματα τα κλειδιά κρυπτογράφησης.
 message-decryption-error = Δεν ήταν δυνατή η αποκρυπτογράφηση του περιεχομένου αυτού του μηνύματος. Για να ζητήσετε τα κλειδιά κρυπτογράφησης από τις άλλες συσκευές σας, κάντε δεξί κλικ σε αυτό το μήνυμα.
 message-decrypting = Αποκρυπτογράφηση...
 message-redacted = Το μήνυμα αποκρύφθηκε.

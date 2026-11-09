@@ -14,6 +14,10 @@ virtual-folder-sources-chosen =
        *[other] Επιλέχθηκαν { $count } φάκελοι
     }
 virtual-folder-no-search-folders-selected = Θα πρέπει να επιλέξετε τουλάχιστον έναν φάκελο για να κάνετε αναζήτηση για τον αποθηκευμένο φάκελο αναζήτησης.
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+virtual-folder-missing-value-rule = Εισαγάγετε μια τιμή για τον όρο αναζήτησης «{ $attribute } { $operator }» πριν αποθηκεύσετε αυτήν την αναζήτηση.
 virtual-folder-properties-title = Νέος φάκελος αποθηκευμένης αναζήτησης
 # Variables:
 #   $folderName (String): The name of the saved search folder.

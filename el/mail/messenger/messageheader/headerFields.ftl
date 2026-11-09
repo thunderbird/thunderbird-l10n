@@ -98,6 +98,11 @@ message-header-address-in-address-book-button =
 message-header-field-show-more = Περισσότερα
     .title = Εμφάνιση όλων των παραληπτών
 message-ids-field-show-more = Εμφάνιση περισσότερων
+# Button shown in place of hidden items in a header field.
+# $count (Number) - The number of hidden items the button will show.
+message-header-field-show-count-more =
+    .aria-label = Εμφάνιση { $count } ακόμη
+    .title = Εμφάνιση { $count } ακόμη
 message-ids-field-show-all = Εμφάνιση όλων
 
 ## Dark Message Mode
