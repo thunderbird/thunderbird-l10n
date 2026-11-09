@@ -45,10 +45,13 @@ account-hub-select-option =
 account-hub-username-label = Lietotājvārds
 account-hub-username-warning-icon = Lietotājvārds ir nepieciešams
 account-hub-address-book-username-error-text = Lūgums ievadīt lietotājvārdu
+account-hub-address-book-name-error-text = Lūgums ievadīt vārdu
 account-hub-max-results-label = Lielākais pieļaujamais skaits iznākumā
 account-hub-privacy-policy = Privātuma pamatnostādnes
 account-hub-welcome = Laipni lūdzam
 account-hub-welcome-text = Laipni lūdzam { -brand-short-name }
+account-hub-name-warning-icon =
+    .title = Lūgums ievadīt savu vārdu
 account-hub-email-label = E-pasta adrese
     .accesskey = E
 account-hub-email-warning-icon =
@@ -95,10 +98,12 @@ account-hub-edit-configuration = Labot konfigurāciju
 account-hub-config-success-title = Konta iestatījumi tika atrasti automātiski.
 account-hub-email-added-success-links-title = Izpēti drošības un pielāgošanas iespējas:
 account-hub-email-error-text = Lūgums ievadīt derīgu e-pasta adresi
+account-hub-name-error-text = Lūgums ievadīt vārdu
 account-hub-username-error-text = Lietotājvārds ir nepieciešams
     .title = Lietotājvārds ir nepieciešams
 account-hub-manual-config-error-summary = Lūgums novērst šīs kļūdas:
 account-hub-account-authentication-error = Autentificēšanās kļūda.
+account-hub-local-error-text = Lūgums ievadīt adrešu grāmatas nosaukumu
 
 ## Exchange Type Manual Config Step
 
