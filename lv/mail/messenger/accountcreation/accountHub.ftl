@@ -15,6 +15,7 @@ account-hub-welcome-line = Laipni lūdzam <span data-l10n-name="brand-name">{ -b
 ## Footer
 
 account-hub-release-notes = Laidiena piezīmes
+account-hub-support = Atbalsts
 account-hub-donate = Ziedot
 
 ## Initial setup page
