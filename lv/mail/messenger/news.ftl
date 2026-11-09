@@ -49,7 +49,7 @@ unknown-news-server-text = Šī saite norāda uz { $server }, bet šim ziņu ser
 enter-news-credentials-title = Nepieciešams ziņu servera lietotājvārds un parole
 # Variables:
 # $server (String) - The server being accessed.
-enter-news-server-credentials = Lūdzu, ievadiet { $server } lietotājvārdu un paroli:
+enter-news-server-credentials = Lūgums ievadīt { $server } lietotājvārdu un paroli:
 # Variables:
 # $newsgroup (String) - A specific newsgroup to set the password for.
 # $server (String) - The server from which the newsgroup is accessed.

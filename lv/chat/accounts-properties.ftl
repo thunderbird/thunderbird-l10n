@@ -6,5 +6,5 @@
 # $accountName (String): is replaced with the name of the account
 password-prompt-title = { $accountName } parole:
 # $accountName (String): is replaced with the name of the account
-password-prompt-text = Lūdzu ievadiet { $accountName } paroli, lai pieslēgtos.
+password-prompt-text = Lūgums ievadīt { $accountName } paroli, lai varētu tam pievienoties.
 password-prompt-save-checkbox = Izmantot paroļu pārvaldnieku, lai atcerētos šo paroli.
