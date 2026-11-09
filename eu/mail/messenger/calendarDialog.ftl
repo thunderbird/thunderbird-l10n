@@ -9,6 +9,8 @@
 calendar-dialog-close-button =
     .aria-label = Itxi
     .title = Itxi
+calendar-event-create-edit-dialog =
+    .aria-label = Gertaera
 calendar-dialog-menu-button =
     .aria-label = Ireki menua
     .title = Ireki menua
@@ -67,6 +69,7 @@ calendar-dialog-more-categories =
     .title = +{ $additionalCategories } gehiago
 calendar-dialog-delete-reminder-button =
     .alt = Ezabatu oroigarria
+calendar-dialog-add-reminder-button = Gehitu gogorarazlea
 # Variables:
 #   $count (Number): Number of reminders.
 calendar-dialog-reminder-count =
@@ -97,6 +100,13 @@ calendar-dialog-attachments-summary-label =
         [one] Eranskin { $count }
        *[other] { $count } eranskin
     }
+calendar-prompt-this-event =
+    .label = Gertaera hau
+calendar-prompt-all-events =
+    .label = Gertaera guztiak
+calendar-prompt-delete-button = Ezabatu
+calendar-dialog-edit-button = Editatu
+calendar-event-create-edit-save-button = Gorde
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =

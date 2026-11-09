@@ -30,6 +30,7 @@ outgoing-server-section-name = Posta bidaltzeko zerbitzaria:
 outgoing-server-settings-title = Irteerako zerbitzari ezarpenak
 outgoing-server-settings-description = Zure identitateak kudeatzean zerrenda honetako zerbitzari bat erabil dezakezu irteerako zerbitzari gisa hautatuz edo zerbitzari lehenetsia erabil dezakezu; "Erabili zerbitzari lehenetsia"; hautatuz.
 outgoing-server-type = Zerbitzari mota:
+panel-manage-spam = Kudeatu spam
 panel-settings-spam = Spam ezarpenak
 # Variables:
 # $account (String) - The account name.

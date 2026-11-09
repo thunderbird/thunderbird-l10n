@@ -725,6 +725,13 @@ email-e2ee-automatism-post =
 
 ## DoH Section
 
+preferences-doh-status-active = Aktibo
+preferences-doh-status-disabled = Desaktibatuta
+# Variables:
+#   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
+preferences-doh-status-not-active = Inaktibo ({ $reason })
+preferences-doh-expand-section =
+    .tooltiptext = Informazio gehiago
 preferences-doh-setting-strict =
     .label = Babes maximoa
     .accesskey = m
@@ -973,6 +980,12 @@ qr-export-more-accounts = Esportatu kontu gehiago
 ## Appearance Tab
 
 appearance-category-header = Itxura
+accent-color-purple =
+    .label = Morea
+accent-color-orange =
+    .label = Laranja
+accent-color-pink =
+    .label = Arrosa
 default-message-list-legend = Mezu zerrenda
 appearance-view-style =
     .value = Ikusi estiloa:
