@@ -97,6 +97,7 @@ message-header-address-in-address-book-button =
     .title = Editatu kontaktua
 message-header-field-show-more = Gehiago
     .title = Erakutsi partaide guztiak
+message-ids-field-show-more = Erakutsi gehiago
 message-ids-field-show-all = Erakutsi denak
 
 ## Dark Message Mode

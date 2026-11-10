@@ -71,6 +71,9 @@ chat-pane-header = Txata
 chat-status-title = Egoera
 chat-notifications-title = Jakinarazpenak
 chat-pane-styling-header = Diseinua
+manage-languages-button =
+    .label = Kudeatu hizkuntzak…
+    .accesskey = h
 choose-messenger-language-description = Aukeratu { -brand-short-name }(e)k menuak, mezuak eta jakinarazpenak erakusteko erabiliko dituen hizkuntzak.
 manage-messenger-languages-button =
     .label = Ezarri ordezkoak
@@ -94,6 +97,9 @@ update-in-progress-ok-button = &Baztertu
 update-in-progress-cancel-button = &Jarraitu
 account-button = Kontu-ezarpenak
 open-addons-sidebar-button = Gehigarriak eta itxurak
+clear-temp-files-button =
+    .label = Garbitu behin-behineko fitxategiak
+    .accesskey = G
 
 ## OS Authentication dialog
 
@@ -270,6 +276,8 @@ use-service =
     .accesskey = z
 cross-user-udpate-warning = Ezarpenak leiho guztiei aplikatuko zaizkie eta { -brand-short-name } profil guztiei, { -brand-short-name } instalazio hau erabiliz.
 networking-legend = Konexioa
+offline-mode-legend = Lineaz kanpo
+offline-settings-label = Lineaz kanpoko ezarpenak
 proxy-config-description = Konfiguratu { -brand-short-name } Internetera nola konektatzen den
 network-settings-button =
     .label = Ezarpenak…
@@ -725,11 +733,24 @@ email-e2ee-automatism-post =
 
 ## DoH Section
 
+preferences-doh-header = HTTPS gaineko DNSa
+preferences-doh-description = HTTPS gaineko DNSak domeinu-izenerako zure eskaera zifratutako konexio bidez bidaltzen du, DNS segurua hornituz eta zailagoa eginez beste inork jakitea zein den bisitatu behar duzun webgunea.
+# Variables:
+#   $status (string) - The status of the DoH connection
+preferences-doh-status = Egoera: { $status }
+# Variables:
+#   $name (string) - The name of the DNS over HTTPS resolver. If a custom resolver is used, the name will be the domain of the URL.
+preferences-doh-resolver = Hornitzailea: { $name }
+# This is displayed instead of $name in preferences-doh-resolver
+# when the DoH URL is not a valid URL
+preferences-doh-bad-url = URL baliogabea
+preferences-doh-steering-status = Hornitzaile lokala erabiltzen
 preferences-doh-status-active = Aktibo
 preferences-doh-status-disabled = Desaktibatuta
 # Variables:
 #   $reason (string) - A string representation of the reason DoH is not active. For example NS_ERROR_UNKNOWN_HOST or TRR_RCODE_FAIL.
 preferences-doh-status-not-active = Inaktibo ({ $reason })
+preferences-doh-group-message = Gaitu HTTPS gaineko DNSa ondorengoa erabiliz:
 preferences-doh-expand-section =
     .tooltiptext = Informazio gehiago
 preferences-doh-setting-strict =
@@ -754,6 +775,10 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = Pertsonalizatua
     .accesskey = P
+
+## Keyservers
+
+email-e2ee-key-servers-add = Gehitu…
 
 ## Chat Tab
 
