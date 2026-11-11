@@ -459,8 +459,8 @@ decrypt-and-copy-failures-multiple =
     }
 # Shown once at the end of a filter run the user started from the message
 # list, when at least one filter or action failed.
-apply-filters-failed = L’analyse du filtre a échoué. Consultez le journal des filtres pour plus de détails.
-apply-filters-failed-open-log-button = Ouvrir le journal de filtrage
+apply-filters-failed = L’exécution des filtres ne s’est pas terminée correctement. Consultez le journal des filtres pour en savoir plus.
+apply-filters-failed-open-log-button = Ouvrir le journal des filtres
 
 ## Spaces toolbar
 
