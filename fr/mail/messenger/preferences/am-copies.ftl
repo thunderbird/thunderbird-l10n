@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 account-prefs-show-address-row-description = Laissez vide le champ d’adresse pour afficher toujours la ligne d’adresses en commençant un nouveau message.
-account-prefs-sent-message-copies-description = Choisissez où enregistrer les copies des messages envoyés et paramétrez les règles automatiques Copie/Copie cachée à
+account-prefs-sent-message-copies-description = Choisissez où conserver les copies des messages envoyés et configurez les règles automatiques de Copie/Copie cachée à
 account-prefs-automatic-cc-bcc-description = Remarque : cocher ces cases ajoute automatiquement les champs « Copie à/Copie cachée à » lors de la rédaction de nouveaux messages.
 account-prefs-sent-folder-on =
     .label = Dossier Messages envoyés dans :
