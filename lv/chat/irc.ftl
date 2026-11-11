@@ -162,9 +162,9 @@ message-ban-masks = Lietotājiem pieslēdzoties no šīm vietām ir aizliegta pi
 #    $place This will be followed by a list of ban masks.
 message-no-ban-masks = { $place } nav aizliegtu vietu.
 # $locationMatches Location matches; $nick Nickname of user
-message-ban-mask-added = { $nick } ir aizliedzis lietotājus ar { $locationMatches } atbilstošām pieslēgumu vietām.
+message-ban-mask-added = { $nick } aizliedza lietotājus, kas ir izveidojuši savienojumu no vietām, kas atbilst { $locationMatches }.
 # $locationMatches Location matches; $nick Nickname of user
-message-ban-mask-removed = { $nick } ir atcēlis aizliegumu lietotājiem ar { $locationMatches } atbilstošām pieslēgumu vietām.
+message-ban-mask-removed = { $nick } atcēla aizliegumu lietotājiem no vietām, kas atbilst { $locationMatches }.
 # $source is the nickname of the user or the server that was pinged.
 # $delay is the delay (in milliseconds).
 message-ping =
@@ -178,7 +178,7 @@ message-ping =
 # $name is the channel name.
 error-no-channel = Nav kanāla: { $name }.
 #    $name is the channel name.
-error-too-many-channels = Nevar pieslēgties { $name }; jūs esat pieslēdzies pārāk daudziem kanāliem.
+error-too-many-channels = Nevar pievienoties { $name }; Tu pievienojies pārāk daudziem kanāliem.
 #    $name is your new nick, $details is the kill message from the server.
 error-nick-collision = Segvārds jau tiek izmantots, aizstāju to uz { $name } [{ $details }].
 #    $name is the nickname or channel name that isn't available.
@@ -203,13 +203,13 @@ error-channel-full = Kanāls { $name } ir pilns.
 #    $name is the channel name.
 error-invite-only = Lai pievienotos { $name } jums ir jābūt uzaicinātam.
 #    $name is the channel name.
-error-non-unique-target = { $name } nav unikāls lietotājs@mītne vai īsvārds, vai arī jūs vienlaicīgi esat mēģinājis pieslēgties pārāk daudziem kanāliem.
+error-non-unique-target = { $name } nav neatkārtojams lietotājs@mītne vai īsvārds, vai arī vienlaicīgi mēģināji pievienoties pārāk daudziem kanāliem.
 #    $name is the channel name.
 error-not-channel-op = Jūs neesat kanāla { $name } operators.
 #    $name is the channel name.
 error-not-channel-owner = Jūs neesat kanāla { $name } īpašnieks.
 #    $name is the channel name.
-error-wrong-key = Nevar pieslēgties { $name }, nederīga kanāla parole.
+error-wrong-key = Nevar pievienoties { $name }, nederīga kanāla parole.
 error-send-message-failed = Nosūtot pēdējo ziņojumu, radās kļūda. Kad savienojums ir atjaunots, lūdzu, mēģiniet vēlreiz.
 #    $name is the channel the user tried to join, $details is the channel
 #    he was forwarded to.
