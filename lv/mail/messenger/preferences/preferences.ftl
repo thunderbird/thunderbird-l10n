@@ -819,6 +819,12 @@ search-results-help-link = Vajadzīga palīdzība? Apmeklē <a data-l10n-name="u
 
 ## Sync Tab
 
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+sync-signedout-account-signin-btn = Pieteikties Sync…
+# Variables:
+# $userEmail (String) - The email logged into Sync.
+sync-signedin-login-failure = Lūgums pieteikties, lai atjaunotu savienojumu ar “{ $userEmail }”
+sync-pane-sign-in = Pieteikties
 sync-pane-cancel = Atcelt
 show-synced-learn-more = Uzzināt vairāk…
 sync-disconnected-text = Vienādo visās savās ierīcēs savus e-pasta kontus, adrešu grāmatas, kalendārus un identitātes.
@@ -830,7 +836,7 @@ qr-export-create = Izveidot kvadrātkodu savu kontu izgūšanai
 qr-export-select-accounts = Atlasīt, kurus kontus izgūt:
 qr-export-passwords-legend = Paroles
 qr-export-include-passwords-label = Iekļaut kontu paroles QR kodā
-qr-export-web-sign-in-note = <strong>Piezīme.</strong> Kontiem, kas izmanto tīmekļa pierakstīšanos (piemēram, Gmail vai Yahoo), ir nepieciešama atkārtota autentifikācija jūsu ierīcē.
+qr-export-web-sign-in-note = <strong>Piezīme.</strong> Kontiem, kas izmanto tīmekļa pieteikšanos (piemēram, Gmail vai Yahoo), ir nepieciešama atkārtota autentificēšanās Tavā ierīcē.
 qr-export-private-transfer-note = <strong>Privāta pārsūtīšana:</strong> Jūsu iestatījumi un paroles tiek pārsūtītas tieši no šī datora uz jūsu tālruni. Nekas netiek nosūtīts uz Mozilla serveriem vai tajos saglabāts.
 qr-export-screen-privacy-tip = <strong>Padoms.</strong> Kamēr tiek rādīts QR kods, turiet ekrānu paslēptu no citiem.
 qr-export-security-legend = Drošība

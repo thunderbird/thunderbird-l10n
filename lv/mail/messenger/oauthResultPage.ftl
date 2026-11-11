@@ -19,4 +19,5 @@ oauth-success-body = Šo logu var aizvērt.
 
 ## Authentication error
 
+oauth-error-title = Pieteikšanos nevarēja pabeigt
 oauth-error-subtitle = { -brand-short-name } nevarēja pabeigt pieteikšanos ar šiem iestatījumiem.

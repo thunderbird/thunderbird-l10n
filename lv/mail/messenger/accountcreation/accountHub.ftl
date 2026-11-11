@@ -22,6 +22,8 @@ account-hub-donate = Ziedot
 
 account-hub-import-setup-button = Ievietot
     .title = Ievietot dublētu profilu
+# Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
+account-hub-sync-button = Pieteikties Sync
 
 ## Email page
 

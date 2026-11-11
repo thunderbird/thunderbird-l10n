@@ -8,8 +8,8 @@
 appmenu-sync-panel-title =
     .title = Vienādot
 appmenu-signin-panel =
-    .label = Pieslēgties lai vienādotos
-    .accesskey = i
+    .label = Pieteikties Sync
+    .accesskey = t
 appmenu-sync-sync =
     .value = Konta vienādošana
     .accesskey = K
