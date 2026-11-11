@@ -20,7 +20,7 @@
 <!ENTITY biffStart.label "Pārbaudīt, vai ir jauni ziņojumi katru ">
 <!ENTITY biffStart.accesskey "P">
 <!ENTITY biffEnd.label "minūti">
-<!ENTITY useIdleNotifications.label "Kad pienāk jauna vēstule, ļaut tūlītēju servera paziņojumu">
+<!ENTITY useIdleNotifications.label "Atļaut tūlītējus servera paziņojumus, kad tiek saņemti jauni ziņojumi">
 <!ENTITY useIdleNotifications.accesskey "K">
 <!ENTITY connectionSecurity.label "Savienojuma drošība:">
 <!ENTITY connectionSecurity.accesskey "d">
@@ -38,7 +38,7 @@
 <!ENTITY daysEnd.label "dienas">
 <!ENTITY deleteOnServer2.label "Līdz tās izdzēšat">
 <!ENTITY deleteOnServer2.accesskey "d">
-<!ENTITY downloadOnBiff.label "Automātiski lejuplādēt jaunas vēstules">
+<!ENTITY downloadOnBiff.label "Automātiski lejuplādēt jaunus ziņojumus">
 <!ENTITY downloadOnBiff.accesskey "m">
 <!ENTITY deleteMessagePrefix.label "Kad dzēšat vēstuli:">
 <!ENTITY modelMoveToTrash.label "Pārvietot to uz šo mapi:">

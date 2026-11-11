@@ -42,7 +42,7 @@
 <!ENTITY saveAsFileCmd.key "s">
 <!ENTITY saveAsTemplateCmd.label "Veidne">
 <!ENTITY saveAsTemplateCmd.accesskey "V">
-<!ENTITY getNewMsgForCmd.label "Saņemt jaunas vēstules priekš">
+<!ENTITY getNewMsgForCmd.label "Saņemt jaunus ziņojumus">
 <!ENTITY getNewMsgForCmd.accesskey "S">
 <!ENTITY getAllNewMsgCmdPopupMenu.label "Visi konti">
 <!ENTITY getAllNewMsgCmdPopupMenu.accesskey "V">
@@ -318,7 +318,7 @@
 <!ENTITY editDraftMsgCmd.accesskey "m">
 <!ENTITY editTemplateMsgCmd.label "Labot sagatavi">
 <!ENTITY editTemplateMsgCmd.accesskey "v">
-<!ENTITY newMsgFromTemplateCmd.label "Jauna vēstule no veidnes">
+<!ENTITY newMsgFromTemplateCmd.label "Jauns ziņojums no sagataves">
 <!-- do not change "VK_RETURN" -->
 <!ENTITY newMsgFromTemplateCmd.keycode "VK_RETURN">
 <!ENTITY createFilter.label "Izveidot filtru no vēstules…">
@@ -606,7 +606,7 @@
 <!ENTITY attachmentColumn2.tooltip "Kārtot pēc pielikumiem">
 <!ENTITY deleteColumn.tooltip "Izdzēst ziņojumu">
 <!-- Thread Pane Context Menu -->
-<!ENTITY contextNewMsgFromTemplate.label "Jauna vēstule no veidnes">
+<!ENTITY contextNewMsgFromTemplate.label "Jauns ziņojums no sagataves">
 <!ENTITY contextOpenNewWindow.label "Atvērt vēstuli jaunā logā">
 <!ENTITY contextOpenNewWindow.accesskey "A">
 <!-- The contextOpenNewTab.accesskey ("T") potentially conflicts with

@@ -144,7 +144,7 @@ remove-search-engine =
 minimize-to-tray-label =
     .label = Minimizējot { -brand-short-name }, pārvietot to uz paplāti
     .accesskey = M
-new-message-arrival = Kad pienāk jaunas vēstules:
+new-message-arrival = Kad tiek saņemti jauni ziņojumi:
 mail-play-sound-label =
     .label =
         { PLATFORM() ->

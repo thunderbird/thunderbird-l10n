@@ -3,8 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 bounce-system-dock-icon =
-    .label = Pienākot jaunai vēstulei, animēt lietotnes ikonu
-    .accesskey = a
+    .label = Animēt lietotnes ikonu, kad tiek saņemts jauns ziņojums
+    .accesskey = i
 dock-icon-legend = Lietotnes ikonas žetons
 dock-icon-show-label =
     .value = Lietotnes ikonas žetons:

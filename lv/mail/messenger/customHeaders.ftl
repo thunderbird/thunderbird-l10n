@@ -4,7 +4,7 @@
 
 custom-headers-window = Pielāgot galvenes
 custom-headers-new-msg-header =
-    .value = Jauna vēstules galvene:
+    .value = Jauna ziņojuma galvene:
     .accesskey = J
 custom-headers-add-button =
     .label = Pievienot

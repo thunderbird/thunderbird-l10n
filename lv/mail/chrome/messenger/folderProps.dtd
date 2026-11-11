@@ -11,7 +11,7 @@
 <!ENTITY folderIncludeInGlobalSearch.label "Iekļaut ziņojumus no šīs mapes visaptverošās meklēšanas iznākumos">
 <!ENTITY folderIncludeInGlobalSearch.accesskey "G">
 <!ENTITY folderSynchronizationTab.label "Vienādošana">
-<!ENTITY folderCheckForNewMessages2.label "Saņemot jaunas vēstules šajā kontā, vienmēr pārbaudīt šo mapi">
+<!ENTITY folderCheckForNewMessages2.label "Kad šajā kontā tiek saņemti jauni ziņojumi, vienmēr pārbaudīt šo mapi">
 <!ENTITY folderCheckForNewMessages2.accesskey "S">
 <!ENTITY offlineFolder.check.label "Atlasīt šo mapi izmantošanai bezsaistē">
 <!ENTITY offlineFolder.check.accesskey "I">

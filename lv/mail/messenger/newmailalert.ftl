@@ -7,7 +7,7 @@
 #   $account - name of the account
 new-mail-alert-message =
     { $count ->
-        [zero] { $account } saņēma { $count } jaunu vēstuli
-        [one] { $account } saņēma { $count } jaunas vēstules
-       *[other] { $account } saņēma { $count } jaunas vēstules
+        [zero] { $account } saņēma { $count } jaunu ziņojumu
+        [one] { $account } saņēma { $count } jaunu ziņojumu
+       *[other] { $account } saņēma { $count } jaunus ziņojumus
     }
