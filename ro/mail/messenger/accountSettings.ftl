@@ -75,6 +75,34 @@ oauth-provider-extension-info = Setări OAuth2 oferite de extensie: <a data-l10n
 
 ## Incoming server settings
 
+account-settings-connection-security =
+    .value = Securitatea conexiunii:
+    .accesskey = u
+account-settings-connection-security-none =
+    .label = Niciuna
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+account-settings-automatically-download-new-messages =
+    .label = Descarcă automat mesajele noi
+    .accesskey = D
+account-settings-leave-messages-on-server =
+    .label = Lasă mesajele pe server
+    .accesskey = g
+account-settings-days =
+    .value = zile
+account-settings-leave-messages-until-deleted =
+    .label = Până le șterg eu
+    .accesskey = d
+account-settings-move-to-trash =
+    .label = Mută-l în coșul de gunoi
+    .accesskey = M
+account-settings-messages =
+    .value = mesaje
+account-settings-always-authenticate =
+    .label = Solicită întotdeauna autentificare la conectarea la acest server
+    .accesskey = a
 
 ## Local Folders and RSS account settings
 
