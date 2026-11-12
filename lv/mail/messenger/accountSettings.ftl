@@ -107,6 +107,7 @@ oauth-provider-extension-info = OAuth2 iestatījumi, kurus nodrošina paplašin�
 
 ## Incoming server settings
 
+account-settings-server-document-title = Servera iestatījumi
 account-settings-server-type =
     .value = Servera veids:
 account-settings-server-name =
@@ -118,10 +119,24 @@ account-settings-user-name =
 account-settings-port =
     .value = Ports:
     .accesskey = P
+account-settings-default-port =
+    .value = Noklusējums:
+account-settings-connection-security =
+    .value = Savienojuma drošība:
+    .accesskey = d
+account-settings-connection-security-none =
+    .label = Nav
 account-settings-connection-security-starttls =
     .label = STARTTLS
 account-settings-connection-security-ssl-tls =
     .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Pārbaudīt, vai ir jauni ziņojumi katru
+    .accesskey = P
+account-settings-minutes =
+    .value = minūti
 account-settings-automatically-download-new-messages =
     .label = Automātiski lejuplādēt jaunus ziņojumus
     .accesskey = m
@@ -153,9 +168,36 @@ account-settings-always-authenticate =
     .label = Pieslēdzoties šim serverim, vienmēr pieprasīt autentifikāciju
     .accesskey = P
 account-settings-message-storage = Vēstuļu krātuve
+account-settings-empty-trash-on-exit =
+    .label = Izejot iztukšot atkritni
+    .accesskey = a
+account-settings-message-store-type =
+    .value = Vēstuļu krātuves veids:
+    .accesskey = v
+account-settings-message-store-mbox =
+    .label = Viena datne katrai mapei (mbox)
+account-settings-message-store-maildir =
+    .label = Viena datne katram ziņojumam (maildir)
+account-settings-newsrc-file =
+    .value = News.rc datne:
+account-settings-browse-newsrc =
+    .label = Pārlūkot…
+    .accesskey = r
+    .filepickertitle = Izvēlieties News.rc failu
+account-settings-local-directory =
+    .value = Vietējā mape:
+account-settings-browse-local-directory =
+    .label = Pārlūkot...
+    .accesskey = P
+    .filepickertitle = Izvēlieties lokālo mapi
+account-settings-default-text-encoding =
+    .value = Noklusējuma teksta kodējums:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Konta iestatījumi
+account-settings-title =
+    .value = Konta iestatījumi
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
@@ -163,6 +205,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Šis ir īpašs konts.  Tam nav saistītas identitātes.
 account-settings-account-name =
     .value = Konta nosaukums:
     .accesskey = n
