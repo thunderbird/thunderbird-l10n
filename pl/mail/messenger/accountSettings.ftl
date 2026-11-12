@@ -152,3 +152,17 @@ account-settings-rss-default-account-name = Aktualności
 
 ## Advanced server settings
 
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Poniższe ustawienia określają dostępne przestrzenie nazw na bieżącym serwerze IMAP
+account-settings-imap-personal-namespace =
+    .value = Osobista przestrzeń nazw:
+    .accesskey = a
+account-settings-imap-public-namespace =
+    .value = Publiczna (współdzielona) przestrzeń nazw:
+    .accesskey = w
+account-settings-imap-other-users-namespace =
+    .value = Przestrzeń nazw innych użytkowników:
+    .accesskey = n
+account-settings-imap-override-namespaces =
+    .label = Zezwalaj, aby serwer zmieniał powyższe ustawienia przestrzeni nazw
+    .accesskey = Z
