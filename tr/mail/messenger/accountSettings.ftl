@@ -129,6 +129,7 @@ account-settings-rss-default-account-name = Bloglar ve Beslemeler
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = Gelişmiş Hesap Ayarları
 # Do not translate "IMAP".
 account-settings-imap-server-directory =
     .value = IMAP sunucu dizini:
@@ -142,6 +143,11 @@ account-settings-imap-dual-use-folders =
 account-settings-imap-maximum-connections =
     .value = Önbelleğe alınacak bağlantı sayısı üst sınırı
     .accesskey = n
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Bu tercihler IMAP sunucunuzdaki isim uzaylarını tanımlar
+account-settings-imap-personal-namespace =
+    .value = Kişisel isim uzayı:
+    .accesskey = z
 account-settings-imap-public-namespace =
     .value = Genel (paylaşılan):
     .accesskey = e
