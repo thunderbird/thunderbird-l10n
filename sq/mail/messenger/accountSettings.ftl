@@ -39,6 +39,14 @@ ews-oauthscopes-label =
 
 ## Local Folders and RSS account settings
 
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-rss-server-settings = Rregullime Shërbyesi
 account-settings-rss-enable-updates =
     .label = Aktivizo përditësime për krejt prurjet
     .accesskey = A
@@ -62,6 +70,9 @@ account-settings-imap-server-directory =
 account-settings-imap-show-subscribed-folders =
     .label = Shfaq vetëm dosje pajtimesh
     .accesskey = v
+account-settings-imap-dual-use-folders =
+    .label = Shërbyesi mbulon dosje që përmbajnë nëndosje dhe mesazhe
+    .accesskey = S
 account-settings-imap-maximum-connections =
     .value = Numër më i madh ndërlidhjesh shërbyesi për t’u ruajtur në fshehtinë
     .accesskey = N
