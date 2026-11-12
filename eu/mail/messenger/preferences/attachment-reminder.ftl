@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 attachment-reminder-dialog-title = Eranskinak gogoratzeko gako-hitzak
+attachment-reminder-description = Erakutsi eranskin falta gogorazle abisua, mezu elektronikoak bat datozen gako-hitzak baditu.
 attachment-reminder-label = { -brand-short-name }(e)k eranskinak falta direla jakinaraziko dizu gako-hitz hauetakoren bat duen mezuren bat bidaltzear bazaude.
 keyword-new-button =
     .label = Berria…
