@@ -134,6 +134,42 @@ oauth-provider-extension-info = Nastavenia OAuth2 poskytuje rozšírenie: <a dat
 
 ## Incoming server settings
 
+account-settings-default-port =
+    .value = Štandardný:
+account-settings-connection-security =
+    .value = Zabezpečenie pripojenia:
+    .accesskey = e
+account-settings-connection-security-none =
+    .label = žiadne
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+account-settings-leave-messages-on-server =
+    .label = Nechávať správy na serveri
+    .accesskey = r
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Opýtať sa pri sťahovaní viac ako
+    .accesskey = s
+account-settings-messages =
+    .value = správ
+account-settings-always-authenticate =
+    .label = Pri pripájaní sa na tento server vždy vyžadovať overenie
+    .accesskey = a
+account-settings-message-storage = Úložisko správ
+account-settings-message-store-type =
+    .value = Spôsob ukladania správ:
+    .accesskey = S
+account-settings-message-store-mbox =
+    .label = Samostatný súbor pre každý priečinok (mbox)
+account-settings-message-store-maildir =
+    .label = Samostatný súbor pre každú správu (maildir)
+account-settings-newsrc-file =
+    .value = Súbor News.rc:
+account-settings-default-text-encoding =
+    .value = Štandardné kódovanie textu:
 
 ## Local Folders and RSS account settings
 
