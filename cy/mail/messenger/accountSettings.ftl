@@ -152,3 +152,12 @@ account-settings-rss-default-account-name = Blogiau a Llif Newyddion
 
 ## Advanced server settings
 
+account-settings-pop-inbox-current-account =
+    .label = Blwch Derbyn y cyfrif hwn
+    .accesskey = c
+account-settings-pop-inbox-other-account =
+    .label = Blwch Derbyn cyfrif gwahanol
+    .accesskey = g
+account-settings-pop-include-server =
+    .label = Cynnwys y gweinydd hwn wrth estyn e-byst newydd
+    .accesskey = y
