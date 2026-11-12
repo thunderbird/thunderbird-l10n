@@ -93,3 +93,16 @@ account-settings-rss-default-account-name = Bloggar og nyheitskjelder
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = Avanserte konto-innstillingar
+account-settings-imap-show-subscribed-folders =
+    .label = Vis berre mapper du tingar
+    .accesskey = b
+account-settings-pop-inbox-current-account =
+    .label = Innboks for denne kontoen
+    .accesskey = I
+account-settings-pop-inbox-other-account =
+    .label = Innboksen i ein annan konto
+    .accesskey = b
+account-settings-pop-include-server =
+    .label = Når ny e-post vert henta; hent for denne kontoen òg
+    .accesskey = r
