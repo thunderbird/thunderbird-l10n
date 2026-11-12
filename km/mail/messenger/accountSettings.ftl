@@ -10,6 +10,9 @@ delete-account-button =
 
 ## Local Folders and RSS account settings
 
+account-settings-rss-manage-subscriptions =
+    .label = គ្រប់គ្រង​ការ​ជាវ...
+    .accesskey = M
 
 ## Feed account wizard
 
