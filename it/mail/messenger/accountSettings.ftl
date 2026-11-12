@@ -134,9 +134,23 @@ oauth-provider-extension-info = Impostazioni OAuth2 fornite dall’estensione: <
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = Tipo di server:
+account-settings-message-storage = Cartella messaggi
 
 ## Local Folders and RSS account settings
 
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-account-name =
+    .value = Nome account:
+    .accesskey = N
+account-settings-rss-server-settings = Impostazioni server
 account-settings-rss-enable-updates =
     .label = Attiva aggiornamenti per tutti i feed
     .accesskey = A
