@@ -152,6 +152,7 @@ account-settings-rss-default-account-name = Blogy a informačné kanály
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = Pokročilé nastavenia účtu
 # Do not translate "IMAP".
 account-settings-imap-server-directory =
     .value = Priečinok na serveri IMAP:
