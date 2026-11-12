@@ -78,6 +78,13 @@ oauth-provider-extension-info = Postavke OAuth2 koje pruža dodatak: <a data-l10
 
 ## Local Folders and RSS account settings
 
+account-settings-rss-enable-updates =
+    .label = Omogućite ažuriranja za sve kanale
+    .accesskey = e
+account-settings-rss-new-feed-defaults = Zadane postavke za nove kanale
+account-settings-rss-manage-subscriptions =
+    .label = Upravljanje pretplatama…
+    .accesskey = m
 
 ## Feed account wizard
 
