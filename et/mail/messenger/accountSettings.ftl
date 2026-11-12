@@ -10,3 +10,17 @@ delete-account-button =
     .label = Kustuta
 default-account-button =
     .label = Määra vaikeväärtuseks
+
+## Incoming server settings
+
+
+## Local Folders and RSS account settings
+
+
+## Feed account wizard
+
+account-settings-rss-wizard-title = Uudistevoogude konto loomise nõustaja
+account-settings-rss-default-account-name = Blogid ja uudistevood
+
+## Advanced server settings
+
