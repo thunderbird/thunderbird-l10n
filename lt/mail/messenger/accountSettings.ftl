@@ -36,3 +36,14 @@ account-settings-rss-default-account-name = Dienoraščiai ir naujienų kanalai
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = Papildomos paskyros nuostatos
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = IMAP serverio šakninis aplankas:
+    .accesskey = š
+account-settings-imap-show-subscribed-folders =
+    .label = Rodyti tik prenumeruotus aplankus
+    .accesskey = R
+account-settings-imap-dual-use-folders =
+    .label = Serveris turi darbo su poaplankiais priemones
+    .accesskey = S
