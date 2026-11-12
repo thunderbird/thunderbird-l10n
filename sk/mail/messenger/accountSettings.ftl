@@ -137,6 +137,13 @@ oauth-provider-extension-info = Nastavenia OAuth2 poskytuje rozšírenie: <a dat
 
 ## Local Folders and RSS account settings
 
+account-settings-rss-enable-updates =
+    .label = Povoliť aktualizácie pre všetky kanály
+    .accesskey = e
+account-settings-rss-new-feed-defaults = Predvolené nastavenia pre nové kanály
+account-settings-rss-manage-subscriptions =
+    .label = Správa odoberania…
+    .accesskey = S
 
 ## Feed account wizard
 
