@@ -18,6 +18,47 @@ account-settings-port =
     .accesskey = П
 account-settings-default-port =
     .value = Станд.:
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Проверувај за нови пораки секои
+    .accesskey = к
+account-settings-minutes =
+    .value = минути
+account-settings-automatically-download-new-messages =
+    .label = Автоматски преземај ги новите пораки
+    .accesskey = м
+account-settings-fetch-headers-only =
+    .label = Преземи само заглавја
+    .accesskey = з
+account-settings-leave-messages-on-server =
+    .label = Остави ги пораките на серверот
+    .accesskey = г
+account-settings-leave-messages-for =
+    .label = Не повеќе од
+    .accesskey = о
+account-settings-days =
+    .value = денови
+account-settings-leave-messages-until-deleted =
+    .label = Додека не ги избришам
+    .accesskey = б
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Прашај ме пред да преземеш повеќе од
+    .accesskey = м
+account-settings-messages =
+    .value = пораки
+account-settings-always-authenticate =
+    .label = При секое поврзување со овој сервер барај идентификување
+    .accesskey = и
+account-settings-empty-trash-on-exit =
+    .label = При излегување испразни го ѓубрето
+    .accesskey = б
+account-settings-browse-local-directory =
+    .label = Разгледај…
+    .accesskey = Р
+    .filepickertitle = Избор на локален директориум
 
 ## Local Folders and RSS account settings
 
