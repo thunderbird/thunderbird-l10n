@@ -75,6 +75,12 @@ oauth-provider-extension-info = Nastavitve OAuth2, ki jih zagotavlja razširitev
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = Vrsta strežnika:
+account-settings-default-port =
+    .value = Privzeto:
+account-settings-minutes =
+    .value = minut
 
 ## Local Folders and RSS account settings
 
@@ -85,6 +91,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-rss-server-settings = Nastavitve strežnika
 account-settings-rss-enable-updates =
     .label = Omogoči posodobitve za vse vire
     .accesskey = O
