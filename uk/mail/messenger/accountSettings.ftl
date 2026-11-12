@@ -15,6 +15,52 @@ default-account-button =
 
 account-settings-server-type =
     .value = Тип сервера:
+account-settings-server-name =
+    .value = Назва сервера:
+    .accesskey = с
+account-settings-user-name =
+    .value = Ім'я користувача:
+    .accesskey = к
+account-settings-port =
+    .value = Порт:
+    .accesskey = П
+account-settings-default-port =
+    .value = Типово:
+account-settings-connection-security =
+    .value = Безпека з'єднання:
+    .accesskey = Б
+account-settings-connection-security-none =
+    .label = Жодної
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+account-settings-leave-messages-on-server =
+    .label = Залишати копії повідомлень на сервері
+    .accesskey = ш
+account-settings-move-to-trash =
+    .label = Перемістити в теку:
+    .accesskey = К
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Питати перед завантаженням понад
+    .accesskey = П
+account-settings-messages =
+    .value = повідомлень
+account-settings-always-authenticate =
+    .label = Завжди вимагати автентифікацію при з'єднанні з цим сервером
+    .accesskey = З
+account-settings-message-storage = Сховище повідомлень
+account-settings-empty-trash-on-exit =
+    .label = Очищати смітник під час виходу
+    .accesskey = ч
+account-settings-newsrc-file =
+    .value = Файл News.rc:
+account-settings-local-directory =
+    .value = Локальний каталог:
+account-settings-default-text-encoding =
+    .value = Типове кодування шрифту:
 
 ## Local Folders and RSS account settings
 
@@ -25,6 +71,9 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-account-name =
+    .value = Назва облікового запису:
+    .accesskey = Н
 account-settings-rss-server-settings = Параметри сервера
 account-settings-rss-enable-updates =
     .label = Увімкнути оновлення для всіх стрічок новин
