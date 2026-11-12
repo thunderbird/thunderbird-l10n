@@ -57,3 +57,24 @@ account-settings-rss-default-account-name = 博客和新闻收取点
 
 ## Advanced server settings
 
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = IMAP 服务器目录：
+    .accesskey = d
+account-settings-imap-show-subscribed-folders =
+    .label = 仅显示已订阅的文件夹
+    .accesskey = w
+account-settings-imap-dual-use-folders =
+    .label = 服务器支持包含子文件夹和消息的文件夹
+    .accesskey = f
+account-settings-imap-maximum-connections =
+    .value = 最大服务器连接缓冲数
+    .accesskey = M
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = 此首选项指定您的 IMAP 服务器的名字空间
+account-settings-imap-personal-namespace =
+    .value = 个人名字空间：
+    .accesskey = P
+account-settings-pop-include-server =
+    .label = 收取新邮件时包括此服务器
+    .accesskey = I
