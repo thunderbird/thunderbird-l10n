@@ -18,9 +18,42 @@ account-settings-port =
     .accesskey = P
 account-settings-default-port =
     .value = ਡਿਫਾਲਟ:
+account-settings-connection-security =
+    .value = ਕੁਨੈਕਸ਼ਨ ਸੁਰੱਖਿਆ:
+    .accesskey = u
+account-settings-connection-security-none =
+    .label = None
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+account-settings-automatically-download-new-messages =
+    .label = ਨਵੇਂ ਸੁਨੇਹੇ ਆਟੋਮੈਟਿਕ ਹੀ ਡਾਊਨਲੋਡ ਕਰੋ
+    .accesskey = m
+account-settings-fetch-headers-only =
+    .label = ਸਿਰਫ ਹੈੱਡਰ ਹੀ ਵੇਖੋ
+    .accesskey = f
+account-settings-leave-messages-on-server =
+    .label = ਸੁਨੇਹੇ ਸਰਵਰ ਉੱਤੇ ਰਹਿਣ ਦਿਓ
+    .accesskey = g
+account-settings-leave-messages-for =
+    .label = ਲੱਗਭਗ
+    .accesskey = o
+account-settings-days =
+    .value = ਦਿਨ
+account-settings-leave-messages-until-deleted =
+    .label = ਜਦੋਂ ਤੱਕ ਮੈਂ ਉਨ੍ਹਾਂ ਨੂੰ ਹਟਾਵਾਂ ਨਾ
+    .accesskey = d
+account-settings-move-to-trash =
+    .label = ਇਸ ਨੂੰ ਰੱਦੀ ਵਿੱਚ ਭੇਜ ਦਿਓ
+    .accesskey = o
+account-settings-message-storage = Message Storage
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Account Settings
+account-settings-title =
+    .value = Account Settings
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
@@ -28,6 +61,11 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = The following is a special account.  There are no identities associated with it.
+account-settings-account-name =
+    .value = Account Name:
+    .accesskey = N
+account-settings-rss-server-settings = ਸਰਵਰ ਸੈਟਿੰਗ
 account-settings-rss-manage-subscriptions =
     .label = …ਮੈਂਬਰੀ ਪਰਬੰਧ
     .accesskey = M
