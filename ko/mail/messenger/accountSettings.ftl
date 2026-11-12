@@ -117,3 +117,31 @@ account-settings-rss-default-account-name = 블로그 및 뉴스 피드
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = 고급 계정 설정
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = IMAP 서버 디렉터리:
+    .accesskey = d
+account-settings-imap-show-subscribed-folders =
+    .label = 구독 허가한 폴더만 보이기
+    .accesskey = w
+account-settings-imap-dual-use-folders =
+    .label = 서버가 폴더 및 메시지를 포함하는 폴더 지원
+    .accesskey = f
+account-settings-imap-maximum-connections =
+    .value = 캐시에 저장할 서버의 최대 연결수
+    .accesskey = M
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = 설정은 IMAP 서버의 네임스페이스에 한정됩니다.
+account-settings-imap-personal-namespace =
+    .value = 개인 네임스페이스:
+    .accesskey = P
+account-settings-imap-public-namespace =
+    .value = 공공 (공용):
+    .accesskey = u
+account-settings-imap-other-users-namespace =
+    .value = 다른 사용자:
+    .accesskey = O
+account-settings-imap-override-namespaces =
+    .label = 네임스페이스를 우선하도록 서버 허가
+    .accesskey = A
