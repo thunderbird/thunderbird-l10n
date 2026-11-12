@@ -39,6 +39,17 @@ ews-oauthscopes-label =
 
 ## Incoming server settings
 
+account-settings-server-name =
+    .value = 服务器名称
+    .accesskey = S
+account-settings-user-name =
+    .value = 用户名
+    .accesskey = N
+account-settings-port =
+    .value = 端口
+    .accesskey = P
+account-settings-default-port =
+    .value = 默认：
 account-settings-connection-security =
     .value = 连接安全
     .accesskey = u
@@ -82,6 +93,9 @@ account-settings-message-storage = 消息存储
 account-settings-empty-trash-on-exit =
     .label = 退出时清空“废件箱”
     .accesskey = x
+account-settings-message-store-type =
+    .value = 消息存储方式:
+    .accesskey = T
 account-settings-message-store-mbox =
     .label = 为每个文件夹创建文件 (mbox)
 account-settings-message-store-maildir =
