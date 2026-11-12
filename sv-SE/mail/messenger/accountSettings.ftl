@@ -137,6 +137,13 @@ oauth-provider-extension-info = OAuth2-inställningar tillhandahållna av tillä
 
 ## Local Folders and RSS account settings
 
+account-settings-rss-enable-updates =
+    .label = Aktivera uppdateringar för alla RSS-kanaler
+    .accesskey = A
+account-settings-rss-new-feed-defaults = Standardinställningar för nya RSS-kanaler
+account-settings-rss-manage-subscriptions =
+    .label = Hantera prenumerationer…
+    .accesskey = a
 
 ## Feed account wizard
 
