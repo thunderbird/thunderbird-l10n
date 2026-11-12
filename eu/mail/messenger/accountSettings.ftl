@@ -180,6 +180,7 @@ account-settings-imap-other-users-namespace =
 account-settings-imap-override-namespaces =
     .label = Onartu zerbitzariak izen-eremu hauek gainidaztea
     .accesskey = a
+account-settings-pop-inbox-description = Kontu honetako zerbitzaritik mezuak jaistean, erabili ondorengo karpeta mezu berriak gordetzeko:
 account-settings-pop-inbox-current-account =
     .label = Sarrera-ontzia kontu honetarako
     .accesskey = s
