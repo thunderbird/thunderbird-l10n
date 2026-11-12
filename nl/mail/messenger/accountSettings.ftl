@@ -147,6 +147,43 @@ account-settings-port =
     .accesskey = P
 account-settings-default-port =
     .value = Standaard:
+account-settings-connection-security =
+    .value = Verbindingsbeveiliging:
+    .accesskey = V
+account-settings-connection-security-none =
+    .label = Geen
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Op nieuwe berichten controleren om de
+    .accesskey = c
+account-settings-minutes =
+    .value = minuten
+account-settings-automatically-download-new-messages =
+    .label = Nieuwe berichten automatisch downloaden
+    .accesskey = m
+account-settings-fetch-headers-only =
+    .label = Alleen berichtkoppen ophalen
+    .accesskey = k
+account-settings-leave-messages-on-server =
+    .label = Berichten op de server laten
+    .accesskey = r
+account-settings-leave-messages-for =
+    .label = Voor maximaal
+    .accesskey = x
+account-settings-days =
+    .value = dagen
+account-settings-leave-messages-until-deleted =
+    .label = Totdat ik ze verwijder
+    .accesskey = w
+account-settings-move-to-trash =
+    .label = Het naar deze map verplaatsen:
+    .accesskey = m
+account-settings-message-storage = Berichtenopslag
 
 ## Local Folders and RSS account settings
 
