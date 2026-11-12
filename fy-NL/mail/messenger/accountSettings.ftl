@@ -152,3 +152,6 @@ account-settings-rss-default-account-name = Blogs & Nijsfeeds
 
 ## Advanced server settings
 
+account-settings-imap-show-subscribed-folders =
+    .label = Allinnich oanmelde mappen toane
+    .accesskey = t
