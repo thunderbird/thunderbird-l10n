@@ -13,9 +13,61 @@ default-account-button =
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = Tawsit n uqeddac:
+account-settings-server-name =
+    .value = Isem n uqeddac:
+    .accesskey = q
+account-settings-user-name =
+    .value = Isem n useqdec:
+    .accesskey = s
+account-settings-port =
+    .value = Tabburt:
+    .accesskey = r
+account-settings-default-port =
+    .value = Amezwer:
+account-settings-automatically-download-new-messages =
+    .label = Zdem iznan imaynuten s wudem awurman
+    .accesskey = m
+account-settings-move-to-trash =
+    .label = Awi-t ɣer ukaram:
+    .accesskey = w
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = steqsi yid send azdam ugar n
+    .accesskey = n
+account-settings-messages =
+    .value = iznan
+account-settings-always-authenticate =
+    .label = Sutur yal tiklet asesteb ticki teqqneḍ ɣer uqeddac
+    .accesskey = y
+account-settings-message-storage = Asekles n yeznan
+account-settings-empty-trash-on-exit =
+    .label = Degger iɣuman di tuffɣa
+    .accesskey = f
+account-settings-message-store-type =
+    .value = Tarrayt n usekles n yizen:
+    .accesskey = l
+account-settings-message-store-mbox =
+    .label = Afaylu i wekaram(mbox)
+account-settings-message-store-maildir =
+    .label = Afaylu i yizen (maildir)
 
 ## Local Folders and RSS account settings
 
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Amiḍan-agi imeẓli.  Ulac timagiyin icudden ɣur-s.
+account-settings-account-name =
+    .value = Isem n umiḍan:
+    .accesskey = I
+account-settings-rss-server-settings = Iɣewwaṛen n uqeddac
 account-settings-rss-enable-updates =
     .label = Rmed ileqman i akk asuddem
     .accesskey = E
