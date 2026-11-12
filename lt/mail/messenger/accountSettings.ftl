@@ -64,6 +64,7 @@ account-settings-imap-other-users-namespace =
 account-settings-imap-override-namespaces =
     .label = Leisti serveriui keisti šias vardų sritis
     .accesskey = L
+account-settings-pop-inbox-description = Laiškus, parsiųstus iš šios paskyros serverio, saugokite aplanke:
 account-settings-pop-inbox-current-account =
     .label = Šios paskyros gautų laiškų aplankas
     .accesskey = s
