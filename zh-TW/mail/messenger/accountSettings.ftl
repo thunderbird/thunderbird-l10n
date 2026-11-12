@@ -137,6 +137,13 @@ oauth-provider-extension-info = 由 <a data-l10n-name="extension">{ $extensionNa
 
 ## Local Folders and RSS account settings
 
+account-settings-rss-enable-updates =
+    .label = 開啟更新所有資訊來源
+    .accesskey = E
+account-settings-rss-new-feed-defaults = 新資訊來源的預設設定
+account-settings-rss-manage-subscriptions =
+    .label = 管理訂閱清單…
+    .accesskey = M
 
 ## Feed account wizard
 
