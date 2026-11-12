@@ -5,9 +5,81 @@
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = Jenis Pelayan:
+account-settings-server-name =
+    .value = Nama Pelayan:
+    .accesskey = P
+account-settings-user-name =
+    .value = Nama Pengguna:
+    .accesskey = N
+account-settings-port =
+    .value = Port:
+    .accesskey = P
+account-settings-default-port =
+    .value = Piawai:
+account-settings-automatically-download-new-messages =
+    .label = Muat turun mesej baru secara automatik
+    .accesskey = m
+account-settings-fetch-headers-only =
+    .label = Ambil pengepala sahaja
+    .accesskey = e
+account-settings-leave-messages-for =
+    .label = Untuk yang paling
+    .accesskey = u
+account-settings-days =
+    .value = hari
+account-settings-leave-messages-until-deleted =
+    .label = Sehingga saya buang
+    .accesskey = b
+account-settings-move-to-trash =
+    .label = Pindahkan ke dalam folder ini:
+    .accesskey = h
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Tanya saya sebelum memuat turun lebih daripada
+    .accesskey = m
+account-settings-messages =
+    .value = mesej
+account-settings-always-authenticate =
+    .label = Sentiasa minta pengesahan semasa menyambung ke pelayan ini
+    .accesskey = s
+account-settings-message-storage = Storan Mesej
+account-settings-empty-trash-on-exit =
+    .label = Buang Sampah apabila Keluar
+    .accesskey = u
+account-settings-message-store-type =
+    .value = Jenis Storan Mesej:
+    .accesskey = J
+account-settings-message-store-mbox =
+    .label = Fail setiap folder (mbox)
+account-settings-message-store-maildir =
+    .label = Fail setiap mesej (maildir)
+account-settings-browse-local-directory =
+    .label = Cari…
+    .accesskey = C
+    .filepickertitle = Pilih Direktori Lokal
+account-settings-default-text-encoding =
+    .value = Pengekodan Teks Piawai:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Tetapan Akaun
+account-settings-title =
+    .value = Tetapan Akaun
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Yang berikut adalah akaun istimewa.  Tiada identiti  yang dikaitkan dengannya.
+account-settings-account-name =
+    .value = Nama Akaun:
+    .accesskey = N
+account-settings-rss-server-settings = Tetapan Pelayan
 account-settings-rss-enable-updates =
     .label = Aktifkan kemaskini semua suapan
     .accesskey = A
