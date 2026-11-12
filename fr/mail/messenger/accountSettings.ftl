@@ -150,6 +150,26 @@ account-settings-connection-security-ssl-tls =
     .label = SSL/TLS
 account-settings-minutes =
     .value = minutes
+account-settings-automatically-download-new-messages =
+    .label = Télécharger automatiquement les nouveaux messages
+    .accesskey = m
+account-settings-fetch-headers-only =
+    .label = Télécharger uniquement les en-têtes
+    .accesskey = e
+account-settings-leave-messages-on-server =
+    .label = Laisser les messages sur le serveur
+    .accesskey = g
+account-settings-leave-messages-for =
+    .label = Pendant au maximum
+    .accesskey = x
+account-settings-days =
+    .value = jours
+account-settings-leave-messages-until-deleted =
+    .label = Jusqu’à ce que je les supprime
+    .accesskey = u
+account-settings-move-to-trash =
+    .label = le mettre dans ce dossier :
+    .accesskey = o
 # The label is followed by a numerical input and the message
 # account-settings-messages.
 account-settings-ask-before-download =
