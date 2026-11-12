@@ -136,7 +136,59 @@ oauth-provider-extension-info = Impostazioni OAuth2 fornite dall’estensione: <
 
 account-settings-server-type =
     .value = Tipo di server:
+account-settings-server-name =
+    .value = Nome server:
+    .accesskey = r
+account-settings-user-name =
+    .value = Nome utente:
+    .accesskey = N
+account-settings-port =
+    .value = Porta:
+    .accesskey = P
+account-settings-default-port =
+    .value = Predefinito:
+account-settings-connection-security-none =
+    .label = Nessuna
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+account-settings-automatically-download-new-messages =
+    .label = Scarica automaticamente nuovi messaggi
+    .accesskey = t
+account-settings-fetch-headers-only =
+    .label = Preleva soltanto le intestazioni
+    .accesskey = e
+account-settings-leave-messages-on-server =
+    .label = Lascia i messaggi sul server
+    .accesskey = L
+account-settings-leave-messages-for =
+    .label = non più di
+    .accesskey = ù
+account-settings-days =
+    .value = giorni
+account-settings-leave-messages-until-deleted =
+    .label = finché non vengono eliminati
+    .accesskey = f
+account-settings-move-to-trash =
+    .label = Spostalo in questa cartella:
+    .accesskey = q
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Chiedi prima di scaricare più di
+    .accesskey = C
+account-settings-messages =
+    .value = messaggi
+account-settings-always-authenticate =
+    .label = Chiedi sempre l’autenticazione alla connessione a questo server
+    .accesskey = h
 account-settings-message-storage = Cartella messaggi
+account-settings-empty-trash-on-exit =
+    .label = Svuota Cestino all’uscita
+    .accesskey = c
+account-settings-newsrc-file =
+    .value = File News.rc:
 
 ## Local Folders and RSS account settings
 
@@ -147,6 +199,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Questo è un account speciale. Non ci sono identità associate a esso.
 account-settings-account-name =
     .value = Nome account:
     .accesskey = N
