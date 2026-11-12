@@ -136,6 +136,9 @@ oauth-provider-extension-info = Nastavení OAuth2 poskytnuto rozšířením: <a 
 
 account-settings-server-type =
     .value = Typ serveru:
+account-settings-server-name =
+    .value = Adresa serveru:
+    .accesskey = e
 account-settings-connection-security =
     .value = Zabezpečení spojení:
     .accesskey = b
@@ -145,6 +148,26 @@ account-settings-connection-security-starttls =
     .label = STARTTLS
 account-settings-connection-security-ssl-tls =
     .label = SSL/TLS
+account-settings-automatically-download-new-messages =
+    .label = Automaticky stahovat nové zprávy
+    .accesskey = m
+account-settings-fetch-headers-only =
+    .label = Stahovat pouze hlavičky zpráv
+    .accesskey = h
+account-settings-leave-messages-on-server =
+    .label = Ponechat zprávy na serveru
+    .accesskey = z
+account-settings-leave-messages-for =
+    .label = nejdéle po dobu
+    .accesskey = n
+account-settings-days =
+    .value = dnů
+account-settings-leave-messages-until-deleted =
+    .label = dokud je nesmažu
+    .accesskey = d
+account-settings-move-to-trash =
+    .label = Přesunout zprávu do této složky:
+    .accesskey = n
 # The label is followed by a numerical input and the message
 # account-settings-messages.
 account-settings-ask-before-download =
@@ -155,6 +178,7 @@ account-settings-messages =
 account-settings-always-authenticate =
     .label = Při připojování na tento server vždy požadovat autentizaci
     .accesskey = v
+account-settings-message-storage = Úložiště zpráv
 
 ## Local Folders and RSS account settings
 
