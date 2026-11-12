@@ -93,3 +93,13 @@ account-settings-rss-default-account-name = Spletni dnevniki in viri novic
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = Napredne nastavitve računa
+account-settings-imap-public-namespace =
+    .value = Javno (v skupni rabi):
+    .accesskey = J
+account-settings-imap-other-users-namespace =
+    .value = Drugi uporabniki:
+    .accesskey = D
+account-settings-imap-override-namespaces =
+    .label = Omogoči strežniku, da razveljavi ta imenski prostor
+    .accesskey = č
