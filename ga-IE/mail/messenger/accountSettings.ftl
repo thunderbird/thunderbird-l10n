@@ -51,6 +51,7 @@ account-settings-imap-other-users-namespace =
 account-settings-imap-override-namespaces =
     .label = Ceadaigh don fhreastalaí na hainmspásanna seo a shárú
     .accesskey = a
+account-settings-pop-inbox-description = Agus ríomhphost á íoslódáil ó fhreastalaí an chuntais seo, úsáid an fillteán seo a leanas le haghaidh teachtaireachtaí nua:
 account-settings-pop-inbox-current-account =
     .label = Bosca isteach an chuntais seo
     .accesskey = s
