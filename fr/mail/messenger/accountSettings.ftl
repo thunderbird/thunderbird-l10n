@@ -152,3 +152,11 @@ account-settings-rss-default-account-name = Blogs et nouvelles
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = Paramètres avancés des comptes
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = Dossier sur le serveur IMAP :
+    .accesskey = D
+account-settings-imap-show-subscribed-folders =
+    .label = Afficher uniquement les dossiers avec abonnement
+    .accesskey = A
