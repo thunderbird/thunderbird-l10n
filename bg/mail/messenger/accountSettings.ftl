@@ -119,6 +119,9 @@ account-settings-default-text-encoding =
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Настройки на профила
+account-settings-title =
+    .value = Настройки на профила
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
