@@ -114,6 +114,13 @@ oauth-provider-extension-info = OAuth2 ayarlarını <a data-l10n-name="extension
 
 ## Local Folders and RSS account settings
 
+account-settings-rss-enable-updates =
+    .label = Tüm beslemelerde güncellemeleri etkinleştir
+    .accesskey = e
+account-settings-rss-new-feed-defaults = Haber beslemeleri için varsayılan ayarlar
+account-settings-rss-manage-subscriptions =
+    .label = Abonelikleri yönet…
+    .accesskey = A
 
 ## Feed account wizard
 
