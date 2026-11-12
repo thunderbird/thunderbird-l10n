@@ -152,3 +152,4 @@ account-settings-rss-default-account-name = ბლოგები და სი�
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = ანგარიშის დამატებითი პარამეტრები
