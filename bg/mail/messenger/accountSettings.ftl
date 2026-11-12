@@ -39,9 +39,30 @@ ews-oauthscopes-label =
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = Вид сървър:
+account-settings-server-name =
+    .value = Име на сървъра:
+    .accesskey = И
+account-settings-user-name =
+    .value = Потребителско име:
+    .accesskey = м
+account-settings-port =
+    .value = Порт:
+    .accesskey = П
+account-settings-default-port =
+    .value = По подразбиране:
 
 ## Local Folders and RSS account settings
 
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-rss-server-settings = Настройки на сървъра
 account-settings-rss-enable-updates =
     .label = Включване на обновяването за всички емисии
     .accesskey = в
