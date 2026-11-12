@@ -139,6 +139,8 @@ account-settings-server-type =
 account-settings-server-name =
     .value = Nom du serveur :
     .accesskey = N
+account-settings-minutes =
+    .value = minutes
 
 ## Local Folders and RSS account settings
 
