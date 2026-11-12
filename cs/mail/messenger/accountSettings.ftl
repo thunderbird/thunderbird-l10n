@@ -139,6 +139,14 @@ account-settings-server-type =
 account-settings-server-name =
     .value = Adresa serveru:
     .accesskey = e
+account-settings-user-name =
+    .value = Uživatelské jméno:
+    .accesskey = J
+account-settings-port =
+    .value = Port:
+    .accesskey = o
+account-settings-default-port =
+    .value = Výchozí:
 account-settings-connection-security =
     .value = Zabezpečení spojení:
     .accesskey = b
@@ -179,6 +187,15 @@ account-settings-always-authenticate =
     .label = Při připojování na tento server vždy požadovat autentizaci
     .accesskey = v
 account-settings-message-storage = Úložiště zpráv
+account-settings-message-store-type =
+    .value = Typ úložiště zpráv:
+    .accesskey = T
+account-settings-message-store-mbox =
+    .label = Soubor pro každou složku (mbox)
+account-settings-message-store-maildir =
+    .label = Soubor pro každou zprávu (maildir)
+account-settings-default-text-encoding =
+    .value = Výchozí znaková sada textu:
 
 ## Local Folders and RSS account settings
 
