@@ -51,6 +51,7 @@ account-settings-imap-other-users-namespace =
 account-settings-imap-override-namespaces =
     .label = Leig le frithealaichean na namespaces seo fhàgail gu taobh
     .accesskey = a
+account-settings-pop-inbox-description = Ma luchdaichear a-nuas post o fhrithealaiche a’ chunntais seo, cuir am post ùr sa phasgan a leanas:
 account-settings-pop-inbox-current-account =
     .label = Bogsa a‑steach a’ chunntais seo
     .accesskey = s
