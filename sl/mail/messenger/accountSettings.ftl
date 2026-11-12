@@ -78,6 +78,13 @@ oauth-provider-extension-info = Nastavitve OAuth2, ki jih zagotavlja razširitev
 
 ## Local Folders and RSS account settings
 
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
 account-settings-rss-enable-updates =
     .label = Omogoči posodobitve za vse vire
     .accesskey = O
