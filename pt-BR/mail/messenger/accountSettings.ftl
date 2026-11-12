@@ -39,6 +39,19 @@ ews-oauthscopes-label =
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = Tipo de servidor:
+account-settings-server-name =
+    .value = Nome do servidor:
+    .accesskey = s
+account-settings-user-name =
+    .value = Usuário:
+    .accesskey = U
+account-settings-port =
+    .value = Porta:
+    .accesskey = P
+account-settings-default-port =
+    .value = Padrão:
 account-settings-connection-security-starttls =
     .label = STARTTLS
 account-settings-connection-security-ssl-tls =
@@ -54,7 +67,20 @@ account-settings-leave-messages-for =
     .accesskey = o
 account-settings-days =
     .value = dias
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Perguntar antes de receber mais de
+    .accesskey = m
+account-settings-messages =
+    .value = mensagens
+account-settings-always-authenticate =
+    .label = Sempre solicitar autenticação ao conectar a este servidor
+    .accesskey = m
 account-settings-message-storage = Armazenamento de mensagens
+account-settings-empty-trash-on-exit =
+    .label = Esvaziar lixeira ao sair
+    .accesskey = z
 account-settings-message-store-mbox =
     .label = Um arquivo por pasta (mbox)
 account-settings-message-store-maildir =
@@ -77,6 +103,10 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-account-name =
+    .value = Nome da conta:
+    .accesskey = N
+account-settings-rss-server-settings = Configurações do servidor
 account-settings-rss-enable-updates =
     .label = Ativar atualizações de todos os canais de informações
     .accesskey = A
