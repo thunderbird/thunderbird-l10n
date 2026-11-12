@@ -92,6 +92,12 @@ message-header-address-in-address-book-button =
     .title = Chỉnh sửa liên hệ
 message-header-field-show-more = Thêm
     .title = Hiển thị tất cả người nhận
+message-ids-field-show-more = Xem thêm
+# Button shown in place of hidden items in a header field.
+# $count (Number) - The number of hidden items the button will show.
+message-header-field-show-count-more =
+    .aria-label = Hiện thêm { $count } mục
+    .title = Hiện thêm { $count } mục
 message-ids-field-show-all = Hiện tất cả
 
 ## Dark Message Mode

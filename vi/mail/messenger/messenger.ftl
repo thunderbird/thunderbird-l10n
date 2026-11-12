@@ -425,6 +425,10 @@ no-reply-reply-anyway-button = Vẫn trả lời
 # $failures (Number) - Number of messages that could not be decrypted.
 # $total (Number) - Total number of messages that were attempted to be decrypted.
 decrypt-and-copy-failures-multiple = Không thể giải mã và sao chép { $failures } trong tổng số { $total } thư.
+# Shown once at the end of a filter run the user started from the message
+# list, when at least one filter or action failed.
+apply-filters-failed = Quá trình lọc không thể hoàn tất. Vui lòng kiểm tra nhật ký lọc để biết thêm chi tiết.
+apply-filters-failed-open-log-button = Mở nhật ký bộ lọc
 
 ## Spaces toolbar
 

@@ -253,6 +253,7 @@ message-verification-request2 = { $user } muốn xác minh { $userReceiving }.
 #    $reason is the reason given why the verification was cancelled.
 message-verification-cancel2 = { $user } đã hủy xác minh với lý do: { $reason }
 message-verification-done = Đã hoàn tất xác minh.
+message-decryption-error2 = Không thể giải mã nội dung thư này. Khoá mã hóa sẽ tự động được yêu cầu lại.
 message-decryption-error = Không thể giải mã nội dung của tin nhắn này. Để yêu cầu khóa mã hóa từ các thiết bị khác của bạn, hãy nhấp chuột phải vào thông báo này.
 message-decrypting = Đang giải mã...
 message-redacted = Tin nhắn đã được chỉnh sửa lại.

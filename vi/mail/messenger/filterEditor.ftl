@@ -140,6 +140,10 @@ filter-running-message =
     Bạn có muốn tiếp tục áp dụng các bộ lọc?
 filter-stop-button = Dừng
 filter-continue-button = Tiếp tục
+# Shown once at the end of a filter run the user started, when at least one
+# filter or action failed. The individual failures are in the filter log.
+filter-run-failed = Một số bộ lọc không thể được áp dụng. Vui lòng kiểm tra nhật ký bộ lọc để biết chi tiết.
+filter-run-failed-open-log-button = Mở nhật ký bộ lọc
 
 ## Filter Editor
 

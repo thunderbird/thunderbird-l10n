@@ -36,6 +36,7 @@ policy-DisableFeedbackCommands = Tắt các lệnh để gửi phản hồi từ
 policy-DisableFileLink = Vô hiệu hóa tính năng Filelink.
 policy-DisableForgetButton = Ngăn chặn truy cập vào nút Quên.
 policy-DisableFormHistory = Không lưu lịch sử tìm kiếm và biểu mẫu.
+policy-DisableMacOSUserPolicies = Bỏ qua các chính sách từ tuỳ chọn của người dùng và từ cấu hình user-scope trên macOS.
 policy-DisableMasterPasswordCreation = Nếu đúng, mật khẩu chính không thể được tạo ra.
 policy-DisableMessageForwardingFilters = Ngăn chặn bộ lọc thư tự động chuyển tiếp thư.
 policy-DisablePasswordReveal2 = Không cho phép mật khẩu được tiết lộ trong thông tin đăng nhập đã lưu hoặc trường mật khẩu.
