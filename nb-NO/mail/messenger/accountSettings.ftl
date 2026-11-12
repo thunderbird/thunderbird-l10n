@@ -146,3 +146,22 @@ account-settings-rss-default-account-name = Blogger og nyhetskilder
 ## Advanced server settings
 
 account-settings-advanced-server-title = Avanserte kontoinnstillinger
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = IMAP serverkatalog:
+    .accesskey = I
+account-settings-imap-show-subscribed-folders =
+    .label = Vis bare påmeldte mapper
+    .accesskey = V
+account-settings-imap-dual-use-folders =
+    .label = Serveren støtter mapper som inneholder undermapper og meldinger
+    .accesskey = S
+account-settings-pop-inbox-current-account =
+    .label = Innboks for denne kontoen
+    .accesskey = s
+account-settings-pop-inbox-other-account =
+    .label = Innboks i en annen konto
+    .accesskey = b
+account-settings-pop-include-server =
+    .label = Når ny e-post hentes, hent også for denne kontoen
+    .accesskey = r
