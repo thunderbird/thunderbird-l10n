@@ -93,3 +93,26 @@ account-settings-rss-default-account-name = Blogovi i vijesti
 
 ## Advanced server settings
 
+account-settings-imap-show-subscribed-folders =
+    .label = Prikaži samo mape na koje sam pretplaćen(a)
+    .accesskey = r
+account-settings-imap-dual-use-folders =
+    .label = Poslužitelj podržava mape koje sadrže podmape i poruke
+    .accesskey = l
+account-settings-imap-maximum-connections =
+    .value = Maksimalan broj veza s poslužiteljem spremljen u priručnoj memoriji
+    .accesskey = M
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Ove postavke određuju imenski prostor na vašem IMAP poslužitelju
+account-settings-imap-personal-namespace =
+    .value = Osobni imenski prostor:
+    .accesskey = p
+account-settings-imap-public-namespace =
+    .value = Javni (dijeljeni):
+    .accesskey = J
+account-settings-imap-other-users-namespace =
+    .value = Drugi korisnici:
+    .accesskey = o
+account-settings-imap-override-namespaces =
+    .label = Dozvoli poslužitelju da nadjača ovaj imenski prostor
+    .accesskey = a
