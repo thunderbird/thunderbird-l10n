@@ -81,9 +81,24 @@ account-settings-default-port =
     .value = Privzeto:
 account-settings-minutes =
     .value = minut
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Vprašaj me pred prenašanjem več kot
+    .accesskey = r
+account-settings-messages =
+    .value = sporočil
+account-settings-always-authenticate =
+    .label = Ob povezavi na ta strežnik vedno zahtevaj overitev
+    .accesskey = o
+account-settings-newsrc-file =
+    .value = Datoteka news.rc:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Nastavitve računa
+account-settings-title =
+    .value = Nastavitve računa
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
@@ -91,6 +106,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Naslednje je račun posebne vrste.  Z njim ni povezana nobena identiteta.
 account-settings-rss-server-settings = Nastavitve strežnika
 account-settings-rss-enable-updates =
     .label = Omogoči posodobitve za vse vire
