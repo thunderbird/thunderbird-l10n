@@ -85,6 +85,7 @@ account-settings-imap-other-users-namespace =
 account-settings-imap-override-namespaces =
     .label = Permetter al server da remplazzar quests spazis da nums
     .accesskey = P
+account-settings-pop-inbox-description = Memorisar novs messadis telechargiads dal server da quest conto en suandant ordinatur:
 account-settings-pop-inbox-current-account =
     .label = Posta entrada per quest conto
     .accesskey = s
