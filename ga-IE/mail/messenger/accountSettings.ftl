@@ -7,6 +7,42 @@
 
 account-settings-server-type =
     .value = Cineál an Fhreastalaí:
+account-settings-server-name =
+    .value = Ainm an fhreastalaí:
+    .accesskey = s
+account-settings-user-name =
+    .value = Ainm Úsáideora:
+    .accesskey = n
+account-settings-port =
+    .value = Port:
+    .accesskey = P
+account-settings-default-port =
+    .value = Réamhshocrú:
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Lorg teachtaireachtaí nua gach
+    .accesskey = g
+account-settings-minutes =
+    .value = nóiméad
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Fiafraigh díom sula n-íoslódálfar níos mó ná
+    .accesskey = m
+account-settings-messages =
+    .value = teachtaireacht is déanaí
+account-settings-always-authenticate =
+    .label = Iarr fíordheimhniú i gcónaí nuair a cheanglófar leis an bhfreastalaí seo
+    .accesskey = f
+account-settings-message-storage = Stóráil na dTeachtaireachtaí
+account-settings-empty-trash-on-exit =
+    .label = Folmhaigh an Bruscar ag an Scor
+    .accesskey = S
+account-settings-message-store-mbox =
+    .label = Gach fillteán ina chomhad féin (mbox)
+account-settings-message-store-maildir =
+    .label = Gach teachtaireacht ina comhad féin (maildir)
 
 ## Local Folders and RSS account settings
 
@@ -17,6 +53,9 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-account-name =
+    .value = Ainm an Chuntais:
+    .accesskey = n
 account-settings-rss-server-settings = Socruithe an Fhreastalaí
 account-settings-rss-enable-updates =
     .label = Cumasaigh nuashonruithe do na fothaí go léir
