@@ -186,6 +186,7 @@ account-settings-messages =
 account-settings-always-authenticate =
     .label = Beim Verbinden mit diesem Server immer Authentifizierung verlangen
     .accesskey = i
+account-settings-message-storage = Nachrichtenspeicher
 account-settings-empty-trash-on-exit =
     .label = Papierkorb beim Verlassen leeren
     .accesskey = V
@@ -196,10 +197,20 @@ account-settings-message-store-mbox =
     .label = Eine Datei je Ordner (mbox)
 account-settings-message-store-maildir =
     .label = Eine Datei je Nachricht (maildir)
+account-settings-newsrc-file =
+    .value = News.rc-Datei:
+account-settings-browse-newsrc =
+    .label = Durchsuchen…
+    .accesskey = D
+    .filepickertitle = News.rc-Datei auswählen
+account-settings-local-directory =
+    .value = Lokaler Ordner:
 account-settings-browse-local-directory =
     .label = Ordner wählen…
     .accesskey = ä
     .filepickertitle = Lokalen Ordner wählen:
+account-settings-default-text-encoding =
+    .value = Standard-Textkodierung:
 
 ## Local Folders and RSS account settings
 
