@@ -27,6 +27,16 @@ account-settings-connection-security-starttls =
     .label = STARTTLS
 account-settings-connection-security-ssl-tls =
     .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = افحص الرسائل الجديدة كل
+    .accesskey = ف
+account-settings-minutes =
+    .value = دقائق
+account-settings-automatically-download-new-messages =
+    .label = نزِّل الرسائل الجديدة آليًّا
+    .accesskey = ل
 account-settings-fetch-headers-only =
     .label = نزِّل الترويسات فقط
     .accesskey = ن
@@ -36,6 +46,11 @@ account-settings-leave-messages-on-server =
 account-settings-leave-messages-for =
     .label = لمدة أقصاها
     .accesskey = م
+account-settings-days =
+    .value = أيام
+account-settings-leave-messages-until-deleted =
+    .label = حتى أحذفها
+    .accesskey = ح
 account-settings-move-to-trash =
     .label = انقلها إلى مجلد المهملات:
     .accesskey = ا
@@ -53,9 +68,25 @@ account-settings-message-storage = حفظ الرسائل
 account-settings-empty-trash-on-exit =
     .label = أفرغ المهملات عند الخروج
     .accesskey = خ
+account-settings-message-store-type =
+    .value = طريقة تخزين الرسائل:
+    .accesskey = س
+account-settings-message-store-mbox =
+    .label = ملف لكل مجلد (mbox)
+account-settings-message-store-maildir =
+    .label = ملف لكل رسالة (maildir)
+account-settings-browse-local-directory =
+    .label = تصفّح…
+    .accesskey = ص
+    .filepickertitle = اختر دليلًا محلِّيًا
+account-settings-default-text-encoding =
+    .value = ترميز النص المبدئي:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = إعدادات الحساب
+account-settings-title =
+    .value = إعدادات الحساب
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
@@ -63,6 +94,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = التالي حساب مخصوص.  لا ترتبط به أي هويّات.
 account-settings-account-name =
     .value = اسم الحساب:
     .accesskey = س
