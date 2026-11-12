@@ -134,6 +134,7 @@ oauth-provider-extension-info = Nastavení OAuth2 poskytnuto rozšířením: <a 
 
 ## Incoming server settings
 
+account-settings-server-document-title = Nastavení serveru
 account-settings-server-type =
     .value = Typ serveru:
 account-settings-server-name =
@@ -156,6 +157,13 @@ account-settings-connection-security-starttls =
     .label = STARTTLS
 account-settings-connection-security-ssl-tls =
     .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Kontrolovat nové zprávy každých
+    .accesskey = K
+account-settings-minutes =
+    .value = minut
 account-settings-automatically-download-new-messages =
     .label = Automaticky stahovat nové zprávy
     .accesskey = m
