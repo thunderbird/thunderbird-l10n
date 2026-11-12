@@ -134,6 +134,11 @@ oauth-provider-extension-info = OAuth2-გამართვა მოწოდ�
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = სერვერის სახეობა:
+account-settings-server-name =
+    .value = სერვერის სახელი:
+    .accesskey = ე
 account-settings-user-name =
     .value = სახელი:
     .accesskey = ს
@@ -171,7 +176,22 @@ account-settings-leave-messages-until-deleted =
 account-settings-move-to-trash =
     .label = გადატანა მოცემულ საქაღალდეში:
     .accesskey = ო
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = ნებართვა, წერილების ჩამოტვირთვამდე, რომელთა რაოდენობაც აჭარბებს
+    .accesskey = ნ
+account-settings-messages =
+    .value = ერთეულს
+account-settings-always-authenticate =
+    .label = ამ სერვერთან დაკავშირებისას, ანგარიშზე შესვლის მოთხოვნა ყოველ ჯერზე
+    .accesskey = დ
 account-settings-message-storage = წერილების საცავი
+account-settings-empty-trash-on-exit =
+    .label = ურნის გასუფთავება გასვლისას
+    .accesskey = უ
+account-settings-newsrc-file =
+    .value = News.rc ფაილი:
 
 ## Local Folders and RSS account settings
 
