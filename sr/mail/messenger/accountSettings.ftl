@@ -121,6 +121,7 @@ account-settings-imap-other-users-namespace =
 account-settings-imap-override-namespaces =
     .label = Дозволи серверу да премости ове именске просторе
     .accesskey = о
+account-settings-pop-inbox-description = Приликом преузимања порука са сервера овог налога, користи следећу фасциклу за складиштење нових порука:
 account-settings-pop-inbox-current-account =
     .label = Долазно сандуче за овај налог
     .accesskey = з
