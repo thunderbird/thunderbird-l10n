@@ -134,6 +134,7 @@ oauth-provider-extension-info = A következő kiegészítő által biztosított 
 
 ## Incoming server settings
 
+account-settings-server-document-title = Kiszolgálóbeállítások
 account-settings-server-type =
     .value = Kiszolgálótípus:
 account-settings-server-name =
@@ -156,6 +157,13 @@ account-settings-connection-security-starttls =
     .label = STARTTLS
 account-settings-connection-security-ssl-tls =
     .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Új üzenetek ellenőrzése
+    .accesskey = z
+account-settings-minutes =
+    .value = percenként
 account-settings-automatically-download-new-messages =
     .label = Új üzenetek automatikus letöltése
     .accesskey = a
