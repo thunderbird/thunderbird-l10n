@@ -134,6 +134,17 @@ oauth-provider-extension-info = Definições OAuth2 fornecidas pela extensão: <
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = Tipo de servidor:
+account-settings-server-name =
+    .value = Nome do servidor:
+    .accesskey = s
+account-settings-user-name =
+    .value = Nome de utilizador:
+    .accesskey = u
+account-settings-port =
+    .value = Porta:
+    .accesskey = P
 account-settings-connection-security =
     .value = Segurança da ligação:
     .accesskey = u
@@ -156,6 +167,7 @@ account-settings-messages =
 account-settings-always-authenticate =
     .label = Pedir sempre autenticação ao ligar a este servidor
     .accesskey = u
+account-settings-message-storage = Armazenamento de mensagens
 
 ## Local Folders and RSS account settings
 
@@ -166,6 +178,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-rss-server-settings = Definições do servidor
 account-settings-rss-enable-updates =
     .label = Ativar atualizações para todas as fontes
     .accesskey = A
