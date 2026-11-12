@@ -33,3 +33,17 @@ ews-endpointhost-label =
 ews-oauthscopes-label =
     .value = Fushëveprimi OAuth
     .accesskey = F
+
+## Incoming server settings
+
+
+## Local Folders and RSS account settings
+
+
+## Feed account wizard
+
+account-settings-rss-wizard-title = Ndihmës Llogarie Prurjesh
+account-settings-rss-default-account-name = Prurje Blogjesh & Lajmesh
+
+## Advanced server settings
+
