@@ -134,6 +134,20 @@ oauth-provider-extension-info = <a data-l10n-name="extension">{ $extensionName }
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = Zerbitzari mota:
+account-settings-server-name =
+    .value = Zerbitzari-izena:
+    .accesskey = Z
+account-settings-user-name =
+    .value = Erabiltzaile-izena:
+    .accesskey = n
+account-settings-port =
+    .value = Ataka:
+    .accesskey = A
+account-settings-default-port =
+    .value = Lehenetsia:
+account-settings-message-storage = Mezuen biltegiratzea
 
 ## Local Folders and RSS account settings
 
@@ -144,6 +158,10 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-account-name =
+    .value = Kontuaren izena:
+    .accesskey = n
+account-settings-rss-server-settings = Zerbitzariaren ezarpenak
 account-settings-rss-enable-updates =
     .label = Gaitu eguneratzeak jario guztietarako
     .accesskey = e
