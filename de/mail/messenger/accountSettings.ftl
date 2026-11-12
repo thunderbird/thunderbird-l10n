@@ -156,6 +156,9 @@ account-settings-connection-security-starttls =
     .label = STARTTLS
 account-settings-connection-security-ssl-tls =
     .label = SSL/TLS
+account-settings-automatically-download-new-messages =
+    .label = Neue Nachrichten automatisch herunterladen
+    .accesskey = d
 account-settings-fetch-headers-only =
     .label = Nur die Kopfzeilen herunterladen
     .accesskey = o
@@ -167,6 +170,9 @@ account-settings-leave-messages-for =
     .accesskey = ö
 account-settings-days =
     .value = Tagen
+account-settings-leave-messages-until-deleted =
+    .label = Nachrichten vom Server löschen, wenn sie aus dem Posteingang gelöscht werden
+    .accesskey = g
 account-settings-move-to-trash =
     .label = In diesen Ordner verschieben:
     .accesskey = I
@@ -180,9 +186,26 @@ account-settings-messages =
 account-settings-always-authenticate =
     .label = Beim Verbinden mit diesem Server immer Authentifizierung verlangen
     .accesskey = i
+account-settings-empty-trash-on-exit =
+    .label = Papierkorb beim Verlassen leeren
+    .accesskey = V
+account-settings-message-store-type =
+    .value = Speichermethode:
+    .accesskey = S
+account-settings-message-store-mbox =
+    .label = Eine Datei je Ordner (mbox)
+account-settings-message-store-maildir =
+    .label = Eine Datei je Nachricht (maildir)
+account-settings-browse-local-directory =
+    .label = Ordner wählen…
+    .accesskey = ä
+    .filepickertitle = Lokalen Ordner wählen:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Konto-Einstellungen
+account-settings-title =
+    .value = Konto-Einstellungen
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
@@ -190,6 +213,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Dies ist ein besonderes Konto, da keine Identitäten mit ihm verknüpft sind.
 account-settings-rss-server-settings = Server-Einstellungen
 account-settings-rss-enable-updates =
     .label = Alle Feeds aktualisieren
