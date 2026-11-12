@@ -152,3 +152,31 @@ account-settings-rss-default-account-name = Блогтар және жаңалы
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = Тіркелгінің кеңейтілген баптаулары
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = IMAP серверінің бумасы:
+    .accesskey = б
+account-settings-imap-show-subscribed-folders =
+    .label = Тек жазылған бумаларды көрсету
+    .accesskey = р
+account-settings-imap-dual-use-folders =
+    .label = Сервер ішкі бумалары және хабарламалары бар бумаларды қолдайды
+    .accesskey = б
+account-settings-imap-maximum-connections =
+    .value = Кэштеу үшін максималды сервер байланыстарының саны
+    .accesskey = м
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Бұл баптаулар IMAP серверіңіздегі атаулар кеңістіктерін сипаттайды
+account-settings-imap-personal-namespace =
+    .value = Жеке атаулар кеңістігі:
+    .accesskey = Ж
+account-settings-imap-public-namespace =
+    .value = Публикалық (ортақ):
+    .accesskey = у
+account-settings-imap-other-users-namespace =
+    .value = Басқа пайдаланушылар:
+    .accesskey = Б
+account-settings-imap-override-namespaces =
+    .label = Серверге бұл атаулар кеңістіктерін үстінен жазуды рұқсат ету
+    .accesskey = а
