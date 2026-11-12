@@ -180,6 +180,7 @@ account-settings-imap-other-users-namespace =
 account-settings-imap-override-namespaces =
     .label = Allow server to override these namespaces
     .accesskey = A
+account-settings-pop-inbox-description = When downloading mail from this account’s server, use the following folder to store new messages:
 account-settings-pop-inbox-current-account =
     .label = Inbox for this account
     .accesskey = s
