@@ -112,10 +112,76 @@ account-settings-port =
     .accesskey = P
 account-settings-default-port =
     .value = 기본:
+account-settings-connection-security =
+    .value = 보안 연결:
+    .accesskey = u
+account-settings-connection-security-none =
+    .label = 없음
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+account-settings-automatically-download-new-messages =
+    .label = 새 메시지를 자동으로 받아오기
+    .accesskey = m
+account-settings-fetch-headers-only =
+    .label = 헤더만 가져오기
+    .accesskey = e
+account-settings-leave-messages-on-server =
+    .label = 메시지를 서버에 보관
+    .accesskey = g
+account-settings-leave-messages-for =
+    .label = 최대
+    .accesskey = o
+account-settings-days =
+    .value = 일 동안
+account-settings-leave-messages-until-deleted =
+    .label = 삭제하기 전까지만
+    .accesskey = d
+account-settings-move-to-trash =
+    .label = 현재 폴더로 이동:
+    .accesskey = o
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = 받아오기 전 확인
+    .accesskey = m
+account-settings-messages =
+    .value = 메시지
+account-settings-always-authenticate =
+    .label = 서버에 접속할 때 항상 인증 요청
+    .accesskey = w
 account-settings-message-storage = 메시지 저장
+account-settings-empty-trash-on-exit =
+    .label = 지운 편지함을 비우고 닫기
+    .accesskey = x
+account-settings-message-store-type =
+    .value = 메시지 저장 타입:
+    .accesskey = T
+account-settings-message-store-mbox =
+    .label = 폴더별 파일로 저장 (mbox)
+account-settings-message-store-maildir =
+    .label = 메시지별 파일로 저장 (maildir)
+account-settings-newsrc-file =
+    .value = News.rc 파일:
+account-settings-browse-newsrc =
+    .label = 찾아보기…
+    .accesskey = e
+    .filepickertitle = News.rc 파일 선택
+account-settings-local-directory =
+    .value = 로컬 디렉토리:
+account-settings-browse-local-directory =
+    .label = 찾아보기…
+    .accesskey = B
+    .filepickertitle = 로컬 디렉터리 위치
+account-settings-default-text-encoding =
+    .value = 기본 문자 인코딩:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = 계정 설정
+account-settings-title =
+    .value = 계정 설정
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
@@ -123,6 +189,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = 이는 특수한 계정으로 특정 정보가 없습니다.
 account-settings-rss-server-settings = 서버 설정
 account-settings-rss-enable-updates =
     .label = 모든 피드에 대한 업데이트 활성화
