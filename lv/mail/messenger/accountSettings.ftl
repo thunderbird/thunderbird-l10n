@@ -110,6 +110,13 @@ oauth-provider-extension-info = OAuth2 iestatījumi, kurus nodrošina paplašin�
 
 ## Local Folders and RSS account settings
 
+account-settings-rss-enable-updates =
+    .label = Ieslēgt atjaunojumus visām plūsmām
+    .accesskey = I
+account-settings-rss-new-feed-defaults = Ziņu barotņu noklusējuma iestatījumi
+account-settings-rss-manage-subscriptions =
+    .label = Pārvaldīt abonementus...
+    .accesskey = P
 
 ## Feed account wizard
 
