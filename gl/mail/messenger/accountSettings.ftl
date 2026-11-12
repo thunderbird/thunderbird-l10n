@@ -45,3 +45,30 @@ account-settings-rss-default-account-name = Blogs e fontes de novas
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = Configuración avanzada das contas
+account-settings-imap-show-subscribed-folders =
+    .label = Amosar só os cartafoles subscritos
+    .accesskey = r
+account-settings-imap-dual-use-folders =
+    .label = O servidor admite cartafoles que conteñan subcartafoles e mensaxes
+    .accesskey = e
+account-settings-imap-maximum-connections =
+    .value = Número máximo de conexións do servidor na caché
+    .accesskey = m
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Estas preferencias especifican os espazos de nome no servidor IMAP.
+account-settings-imap-personal-namespace =
+    .value = Espazo de nome persoal:
+    .accesskey = s
+account-settings-imap-public-namespace =
+    .value = Público (compartido):
+    .accesskey = c
+account-settings-imap-other-users-namespace =
+    .value = Outros usuarios:
+    .accesskey = O
+account-settings-imap-override-namespaces =
+    .label = Permitir que o servidor ignore estes espazos de nome
+    .accesskey = n
+account-settings-pop-include-server =
+    .label = Incluír este servidor cando obteña correo novo
+    .accesskey = I
