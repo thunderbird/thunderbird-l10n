@@ -13,6 +13,11 @@ default-account-button =
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = Тып сервера:
+account-settings-server-name =
+    .value = Назва сервера:
+    .accesskey = Н
 account-settings-user-name =
     .value = Імя карыстальніка:
     .accesskey = і
@@ -50,10 +55,39 @@ account-settings-leave-messages-until-deleted =
 account-settings-move-to-trash =
     .label = Перамясціць яго ў гэтую папку:
     .accesskey = е
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Пытацца мяне перад загрузкай больш чым
+    .accesskey = а
+account-settings-messages =
+    .value = лістоў
+account-settings-always-authenticate =
+    .label = Заўсёды праводзіць аўтэнтыфікацыю пры злучэнні з гэтым серверам
+    .accesskey = ў
 account-settings-message-storage = Сховішча лістоў
+account-settings-empty-trash-on-exit =
+    .label = Ачышчаць сметніцу перад выхадам
+    .accesskey = ы
+account-settings-message-store-type =
+    .value = Тып захоўвання паведамленняў:
+    .accesskey = Т
+account-settings-message-store-mbox =
+    .label = Адзін файл на папку (mbox)
+account-settings-message-store-maildir =
+    .label = Адзін файл на паведамленне (maildir)
+account-settings-browse-local-directory =
+    .label = Агляд…
+    .accesskey = г
+    .filepickertitle = Вылучыць мясцовую дырэкторыю
+account-settings-default-text-encoding =
+    .value = Прадвызначанае кадаванне тэксту:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Налады ўліковага запісу
+account-settings-title =
+    .value = Налады ўліковага запісу
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
@@ -61,6 +95,11 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Гэта асаблівы ўліковы запіс.  З ім не звязаны ніякія ідэнтыфікацыйныя даныя.
+account-settings-account-name =
+    .value = Імя ўліковага запісу:
+    .accesskey = Н
+account-settings-rss-server-settings = Налады сервера
 account-settings-rss-enable-updates =
     .label = Уключыць абнаўленні для ўсіх стужак навін
     .accesskey = У
