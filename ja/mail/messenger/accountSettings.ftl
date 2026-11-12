@@ -140,6 +140,16 @@ oauth-provider-extension-info = 拡張機能より提供された OAuth2 設定:
 
 ## Local Folders and RSS account settings
 
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-account-name =
+    .value = アカウント名:
+    .accesskey = N
 account-settings-rss-enable-updates =
     .label = すべてのフィードの更新を有効にする
     .accesskey = E
