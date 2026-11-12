@@ -152,6 +152,7 @@ account-settings-rss-default-account-name = Aktualności
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = Zaawansowane ustawienia konta
 account-settings-imap-maximum-connections =
     .value = Maksymalna liczba połączeń z serwerem
     .accesskey = M
@@ -170,3 +171,12 @@ account-settings-imap-override-namespaces =
     .label = Zezwalaj, aby serwer zmieniał powyższe ustawienia przestrzeni nazw
     .accesskey = Z
 account-settings-pop-inbox-description = Poczta pobierana z serwera tego konta powinna być zapisywana w następującym folderze:
+account-settings-pop-inbox-current-account =
+    .label = Odebrane – dla tego konta
+    .accesskey = O
+account-settings-pop-inbox-other-account =
+    .label = Odebrane – dla konta:
+    .accesskey = d
+account-settings-pop-include-server =
+    .label = Uwzględnij ten serwer podczas pobierania nowych wiadomości
+    .accesskey = t
