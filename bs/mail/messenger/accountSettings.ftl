@@ -18,6 +18,42 @@ account-settings-port =
     .accesskey = P
 account-settings-default-port =
     .value = Izvorno:
+account-settings-connection-security =
+    .value = Sigurnost konekcije:
+    .accesskey = u
+account-settings-connection-security-none =
+    .label = Ništa
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Provjeri dostupnost novih poruka svakih
+    .accesskey = v
+account-settings-minutes =
+    .value = minuta
+account-settings-automatically-download-new-messages =
+    .label = Automatski preuzmi nove poruke
+    .accesskey = m
+account-settings-fetch-headers-only =
+    .label = Dobavi samo zaglavlja
+    .accesskey = b
+account-settings-leave-messages-on-server =
+    .label = Ostavi poruke na serveru
+    .accesskey = t
+account-settings-leave-messages-for =
+    .label = Najduže
+    .accesskey = a
+account-settings-days =
+    .value = dana
+account-settings-leave-messages-until-deleted =
+    .label = Dok ih ne izbrišem
+    .accesskey = D
+account-settings-move-to-trash =
+    .label = Premjesti je u ovaj direktorij:
+    .accesskey = o
 # The label is followed by a numerical input and the message
 # account-settings-messages.
 account-settings-ask-before-download =
