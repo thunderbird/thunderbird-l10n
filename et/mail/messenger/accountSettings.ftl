@@ -13,6 +13,19 @@ default-account-button =
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = Serveri tüüp:
+account-settings-server-name =
+    .value = Server:
+    .accesskey = S
+account-settings-user-name =
+    .value = Kasutajanimi:
+    .accesskey = n
+account-settings-port =
+    .value = Port:
+    .accesskey = P
+account-settings-default-port =
+    .value = Vaikimisi:
 # The label is followed by a numerical input and the message
 # account-settings-messages.
 account-settings-ask-before-download =
@@ -23,6 +36,7 @@ account-settings-messages =
 account-settings-always-authenticate =
     .label = Selle serveriga ühendudes nõutakse alati kasutaja tuvastamist
     .accesskey = S
+account-settings-message-storage = Kirjade säilitamine
 account-settings-message-store-type =
     .value = Kirjade salvestamise viis:
     .accesskey = K
@@ -58,6 +72,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
 account-settings-special-account-description = See on eriline konto, millega pole seotud ühtegi identiteeti.
+account-settings-rss-server-settings = Serveri sätted
 account-settings-rss-enable-updates =
     .label = Uuendused lubatakse kõigil uudistevoogudel
     .accesskey = e
