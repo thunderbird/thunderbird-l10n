@@ -137,6 +137,13 @@ oauth-provider-extension-info = Cài đặt OAuth2 được cung cấp bởi ti�
 
 ## Local Folders and RSS account settings
 
+account-settings-rss-enable-updates =
+    .label = Cho phép cập nhật cho tất cả nguồn cấp dữ liệu
+    .accesskey = E
+account-settings-rss-new-feed-defaults = Cài đặt mặc định cho nguồn cấp dữ liệu mới
+account-settings-rss-manage-subscriptions =
+    .label = Quản lý mục theo dõi…
+    .accesskey = M
 
 ## Feed account wizard
 
