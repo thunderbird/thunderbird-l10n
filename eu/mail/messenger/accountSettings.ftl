@@ -147,10 +147,49 @@ account-settings-port =
     .accesskey = A
 account-settings-default-port =
     .value = Lehenetsia:
+account-settings-minutes =
+    .value = minutuan behin
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Galdetu niri
+    .accesskey = e
+account-settings-messages =
+    .value = mezu baino gehiago deskargatzean
+account-settings-always-authenticate =
+    .label = Eskatu beti autentifikazioa zerbitzari honetara konektatzean
+    .accesskey = b
 account-settings-message-storage = Mezuen biltegiratzea
+account-settings-empty-trash-on-exit =
+    .label = Hustu zakarrontzia irtetean
+    .accesskey = r
+account-settings-message-store-type =
+    .value = Mezu biltegi mota:
+    .accesskey = m
+account-settings-message-store-mbox =
+    .label = Karpeta bakoitzeko fitxategi bat (mbox)
+account-settings-message-store-maildir =
+    .label = Mezu bakoitzeko fitxategi bat (maildir)
+account-settings-newsrc-file =
+    .value = News.rc fitxategia:
+account-settings-browse-newsrc =
+    .label = Arakatu…
+    .accesskey = u
+    .filepickertitle = Aukeratu News.rc fitxategia
+account-settings-local-directory =
+    .value = Direktorio lokala:
+account-settings-browse-local-directory =
+    .label = Arakatu…
+    .accesskey = A
+    .filepickertitle = Hautatu direktorio lokala
+account-settings-default-text-encoding =
+    .value = Testu kodeketa lehenetsia:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Kontu-ezarpenak
+account-settings-title =
+    .value = Kontu-ezarpenak
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
@@ -158,6 +197,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Ondorengoa kontu berezia da. Ez dago identitaterik honi lotuta.
 account-settings-account-name =
     .value = Kontuaren izena:
     .accesskey = n
