@@ -134,9 +134,95 @@ oauth-provider-extension-info = Nastajenja OAuth2, kotrež rozšěrjenje k dispo
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = Typ serwera:
+account-settings-server-name =
+    .value = Mjeno serwera:
+    .accesskey = s
+account-settings-user-name =
+    .value = Wužiwarske mjeno:
+    .accesskey = W
+account-settings-port =
+    .value = Port:
+    .accesskey = P
+account-settings-default-port =
+    .value = Standard:
+account-settings-connection-security =
+    .value = Zwiskowa wěstota:
+    .accesskey = Z
+account-settings-connection-security-none =
+    .label = Žana
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+account-settings-automatically-download-new-messages =
+    .label = Nowe powěsće awtomatisce sćahnyć
+    .accesskey = N
+account-settings-fetch-headers-only =
+    .label = Jenož hłowy sćahnyć
+    .accesskey = J
+account-settings-leave-messages-on-server =
+    .label = Powěsće na serwerje wostajić
+    .accesskey = P
+account-settings-leave-messages-for =
+    .label = Za maksimalnje
+    .accesskey = m
+account-settings-days =
+    .value = dnjow
+account-settings-leave-messages-until-deleted =
+    .label = Doniž so zhašeja
+    .accesskey = D
+account-settings-move-to-trash =
+    .label = Do tutoho rjadowaka přesunyć:
+    .accesskey = r
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Prašeć so, prjedy hač so wjace hač
+    .accesskey = c
+account-settings-messages =
+    .value = powěsćow sćehnje
+account-settings-always-authenticate =
+    .label = Přeco awtentifikaciju požadać, hdyž so z tutym serwerom zwjazuje
+    .accesskey = w
+account-settings-message-storage = Składowanje powěsćow
+account-settings-empty-trash-on-exit =
+    .label = Papjernik při skónčenju wuprózdnić
+    .accesskey = e
+account-settings-message-store-type =
+    .value = Składowanski typ powěsće:
+    .accesskey = t
+account-settings-message-store-mbox =
+    .label = Dataja na rjadowak (mbox)
+account-settings-message-store-maildir =
+    .label = Dataja na powěsć (maildir)
+account-settings-local-directory =
+    .value = Lokalny zapis:
+account-settings-browse-local-directory =
+    .label = Přepytać…
+    .accesskey = P
+    .filepickertitle = Lokalny zapis wubrać
+account-settings-default-text-encoding =
+    .value = Standardne tekstowe kodowanje:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Kontowe nastajenja
+account-settings-title =
+    .value = Kontowe nastajenja
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = To je wosebite konto. Z nim žane identity zwjazane njejsu.
+account-settings-account-name =
+    .value = Kontowe mjeno:
+    .accesskey = K
+account-settings-rss-server-settings = Nastajenja serwera
 account-settings-rss-enable-updates =
     .label = Aktualizacije za wšě kanale zmóžnić
     .accesskey = A
