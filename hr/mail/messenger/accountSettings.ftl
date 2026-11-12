@@ -121,6 +121,7 @@ account-settings-imap-other-users-namespace =
 account-settings-imap-override-namespaces =
     .label = Dozvoli poslužitelju da nadjača ovaj imenski prostor
     .accesskey = a
+account-settings-pop-inbox-description = Prilikom preuzimanja pošte s poslužitelja ovog računa, koristi sljedeću mapu za pohranu novih poruka:
 account-settings-pop-inbox-current-account =
     .label = Primljena pošta za ovaj račun
     .accesskey = P
