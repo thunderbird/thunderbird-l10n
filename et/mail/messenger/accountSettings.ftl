@@ -16,6 +16,13 @@ default-account-button =
 
 ## Local Folders and RSS account settings
 
+account-settings-rss-enable-updates =
+    .label = Uuendused lubatakse kõigil uudistevoogudel
+    .accesskey = e
+account-settings-rss-new-feed-defaults = Uute uudistevoogude vaikimisi sätted
+account-settings-rss-manage-subscriptions =
+    .label = Halda tellimusi...
+    .accesskey = H
 
 ## Feed account wizard
 
