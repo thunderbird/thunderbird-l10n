@@ -134,6 +134,49 @@ oauth-provider-extension-info = OAuth2-inställningar tillhandahållna av tillä
 
 ## Incoming server settings
 
+account-settings-user-name =
+    .value = Användarnamn:
+    .accesskey = n
+account-settings-port =
+    .value = Port:
+    .accesskey = P
+account-settings-default-port =
+    .value = Standard:
+account-settings-automatically-download-new-messages =
+    .label = Hämta alla nya meddelanden automatiskt
+    .accesskey = H
+account-settings-fetch-headers-only =
+    .label = Hämta endast rubrikerna
+    .accesskey = r
+account-settings-leave-messages-on-server =
+    .label = Lämna kvar meddelanden på servern
+    .accesskey = å
+account-settings-leave-messages-for =
+    .label = Som längst
+    .accesskey = o
+account-settings-days =
+    .value = dagar
+account-settings-leave-messages-until-deleted =
+    .label = Tills jag tar bort dem
+    .accesskey = j
+account-settings-move-to-trash =
+    .label = Flytta det till mappen:
+    .accesskey = F
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Fråga innan mer än
+    .accesskey = F
+account-settings-messages =
+    .value = meddelanden hämtas
+account-settings-always-authenticate =
+    .label = Begär alltid inloggning vid anslutning till denna server
+    .accesskey = e
+account-settings-empty-trash-on-exit =
+    .label = Töm papperskorgen vid stängning
+    .accesskey = v
+account-settings-newsrc-file =
+    .value = News.rc-fil:
 
 ## Local Folders and RSS account settings
 
