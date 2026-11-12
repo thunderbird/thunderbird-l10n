@@ -36,6 +36,7 @@ account-settings-leave-messages-on-server =
 account-settings-leave-messages-for =
     .label = لمدة أقصاها
     .accesskey = م
+account-settings-message-storage = حفظ الرسائل
 
 ## Local Folders and RSS account settings
 
