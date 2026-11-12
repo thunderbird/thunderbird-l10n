@@ -24,3 +24,30 @@ account-settings-rss-default-account-name = Blaganna agus Fothaí Nuachta
 ## Advanced server settings
 
 account-settings-advanced-server-title = Ardshocruithe Cuntais
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = Comhadlann an fhreastalaí IMAP:
+    .accesskey = r
+account-settings-imap-show-subscribed-folders =
+    .label = Taispeáin fillteáin liostáilte amháin
+    .accesskey = T
+account-settings-imap-dual-use-folders =
+    .label = Tacaíonn an freastalaí le fillteáin ina bhfuil fofhillteáin agus teachtaireachtaí
+    .accesskey = f
+account-settings-imap-maximum-connections =
+    .value = Uasmhéid na gceangal freastalaí a chuirfear sa taisce
+    .accesskey = m
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Sonraíonn na roghanna seo na hainmspásanna ar d'fhreastalaí IMAP
+account-settings-imap-personal-namespace =
+    .value = Ainmspás pearsanta:
+    .accesskey = p
+account-settings-imap-public-namespace =
+    .value = Poiblí (roinnte):
+    .accesskey = o
+account-settings-imap-other-users-namespace =
+    .value = Úsáideoirí Eile:
+    .accesskey = E
+account-settings-imap-override-namespaces =
+    .label = Ceadaigh don fhreastalaí na hainmspásanna seo a shárú
+    .accesskey = a
