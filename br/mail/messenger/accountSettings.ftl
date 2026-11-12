@@ -8,6 +8,13 @@
 
 ## Local Folders and RSS account settings
 
+account-settings-rss-enable-updates =
+    .label = Gweredekaat an hizivadurioù evit an holl lanvioù
+    .accesskey = h
+account-settings-rss-new-feed-defaults = Arventennoù dre ziouer evit al lanvioù nevez
+account-settings-rss-manage-subscriptions =
+    .label = Ardeiñ ar c'houmanantoù…
+    .accesskey = m
 
 ## Feed account wizard
 
