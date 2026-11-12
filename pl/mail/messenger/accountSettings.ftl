@@ -134,9 +134,18 @@ oauth-provider-extension-info = Ustawienia OAuth2 udostępniane przez rozszerzen
 
 ## Incoming server settings
 
+account-settings-default-port =
+    .value = Domyślnie:
 
 ## Local Folders and RSS account settings
 
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
 account-settings-rss-enable-updates =
     .label = Uaktualniaj wszystkie źródła aktualności
     .accesskey = U
