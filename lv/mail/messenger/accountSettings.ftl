@@ -125,6 +125,11 @@ account-settings-rss-default-account-name = Emuāri & Ziņu plūsmas
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = Paplašinātie konta iestatījumi
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = IMAP servera katalogs:
+    .accesskey = k
 account-settings-imap-show-subscribed-folders =
     .label = Rādīt tikai abonētās mapes
     .accesskey = R
@@ -134,3 +139,27 @@ account-settings-imap-dual-use-folders =
 account-settings-imap-maximum-connections =
     .value = Maksimālais kešoto servera savienojumu skaits
     .accesskey = M
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Šie iestatījumi nosaka vārdu telpas IMAP serverī
+account-settings-imap-personal-namespace =
+    .value = Personiskā nosaukumvieta:
+    .accesskey = P
+account-settings-imap-public-namespace =
+    .value = Publiskā (koplietota):
+    .accesskey = u
+account-settings-imap-other-users-namespace =
+    .value = Citi lietotāji:
+    .accesskey = C
+account-settings-imap-override-namespaces =
+    .label = Ļaut serverim ignorēt šīs nosaukumvietas
+    .accesskey = a
+account-settings-pop-inbox-description = Kad lejupielādē pastu no šī konta servera, jaunu ziņojumu glabāšanai izmantot šo mapi:
+account-settings-pop-inbox-current-account =
+    .label = Šī konta iesūtne
+    .accesskey = k
+account-settings-pop-inbox-other-account =
+    .label = Cita konta iesūtne
+    .accesskey = c
+account-settings-pop-include-server =
+    .label = Saņemot jaunu pastu, iekļaut šo serveri
+    .accesskey = s
