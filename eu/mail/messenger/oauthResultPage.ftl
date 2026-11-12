@@ -21,3 +21,10 @@ oauth-success-body = Leiho hau itxi dezakezu.
 
 oauth-error-title = Ezin izan da saioa hasi
 oauth-error-subtitle = { -brand-short-name }-(e)k ezin izan du saioa hasteko prozesua amaitu ezarpen hauekin.
+# New lines in the string will be converted into new lines in the output.
+# $linkStart (String) - Link prefix. Has to always be before $linkEnd. Has no visible content.
+# $linkEnd (String) - Link suffix. Has to always be after $linkStart. Has no visible content.
+oauth-error-body =
+    Itzuli { -brand-short-name } zerbitzura, berrikusi kontuaren konfigurazio-ezarpenak, eta saiatu berriro.
+    
+    Arazoak jarraitzen badu, kontsultatu { $linkStart } Kontuan saioa hasteko arazoak konpontzea { $linkEnd } laguntza lortzeko.

@@ -35,6 +35,7 @@ e2e-csr-include-email = Sartu helbide elektronikoa ({ $email }) CSRn (gomendatua
 e2e-csr-success = CSR ondo gorde da: { $file }
 # $file A filename
 e2e-csr-failure = Ezin da gorde CSR fitxategian { $file }
+e2e-default-message-encryption = Mezuen enkriptatze lehenetsia
 account-settings-encryption-default-off =
     .label = Ez enkriptatu mezu berriak era lehenetsian
     .accesskey = E

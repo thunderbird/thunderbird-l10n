@@ -130,3 +130,8 @@ openpgp-external-key-description = Konfiguratu kanpoko GnuPG gako bat gakoaren I
 openpgp-external-key-info = Honez gain, Gako kudeatzailea erabili beharko zenuke dagokion gako publikoa inportatu eta onartzeko.
 openpgp-external-key-warning = <b>Kanpo GnuPG gako bat bakarrik konfiguratu dezakezu.</b> Zure aurreko sarrera ordezkatuko da.
 openpgp-external-key-label = Gako sekretu ID:
+openpgp-import-own-key-title = Inportatu zure gako publikoa
+#   $keyId (String) - The Key ID.
+openpgp-import-own-key-description = { -brand-short-name }-(e)k ezin izan du { $keyId } IDa duen gako publikoa aurkitu. Mesedez, inportatu ezazu jarraitzeko.
+#   $keyId (String) - The Key ID.
+openpgp-import-keyid-failed = Ezin izan da { $keyId } gako publikoa fitxategi horretatik inportatu.
