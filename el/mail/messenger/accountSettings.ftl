@@ -120,9 +120,21 @@ oauth-provider-extension-info = Οι ρυθμίσεις OAuth2 παρέχοντ�
 
 ## Incoming server settings
 
+account-settings-connection-security =
+    .value = Ασφάλεια σύνδεσης:
+    .accesskey = φ
+account-settings-connection-security-none =
+    .label = Καμία
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
 account-settings-automatically-download-new-messages =
     .label = Αυτόματη λήψη νέων μηνυμάτων
     .accesskey = υ
+account-settings-always-authenticate =
+    .label = Να απαιτείται πάντα πιστοποίηση κατά τη σύνδεση με αυτόν τον διακομιστή
+    .accesskey = π
 account-settings-default-text-encoding =
     .value = Προεπιλεγμένη κωδικοποίηση χαρακτήρων:
 
