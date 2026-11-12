@@ -152,3 +152,21 @@ account-settings-rss-default-account-name = Blogs e actualitates
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = Parametros avantiate de contos
+account-settings-imap-show-subscribed-folders =
+    .label = Monstrar solmente dossiers subscribite
+    .accesskey = r
+account-settings-imap-dual-use-folders =
+    .label = Le servitor supporta dossiers que contine subdossiers e messages
+    .accesskey = d
+account-settings-imap-maximum-connections =
+    .value = Numero maxime de connexiones al servitor a tener in cache
+    .accesskey = M
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Iste preferentias specifica le spatios de nomines sur le servitor IMAP
+account-settings-imap-personal-namespace =
+    .value = Spatio de nomines personal:
+    .accesskey = p
+account-settings-pop-inbox-current-account =
+    .label = Cassa de entrata pro iste conto
+    .accesskey = e
