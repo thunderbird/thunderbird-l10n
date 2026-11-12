@@ -129,3 +129,6 @@ account-settings-rss-default-account-name = Bloglar ve Beslemeler
 
 ## Advanced server settings
 
+account-settings-imap-maximum-connections =
+    .value = Önbelleğe alınacak bağlantı sayısı üst sınırı
+    .accesskey = n
