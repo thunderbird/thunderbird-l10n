@@ -17,3 +17,4 @@ account-settings-rss-manage-subscriptions =
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = Gevorderde rekeningopstelling
