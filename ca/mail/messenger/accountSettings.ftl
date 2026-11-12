@@ -59,6 +59,7 @@ account-settings-imap-other-users-namespace =
 account-settings-imap-override-namespaces =
     .label = Permet que el servidor substitueixi aquests espais de noms
     .accesskey = a
+account-settings-pop-inbox-description = En baixar el correu del servidor d’aquest compte, utilitza la carpeta següent per emmagatzemar els missatges nous:
 account-settings-pop-inbox-current-account =
     .label = Safata d'entrada d'aquest compte
     .accesskey = S
