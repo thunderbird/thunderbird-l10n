@@ -137,6 +137,13 @@ oauth-provider-extension-info = Ustawienia OAuth2 udostępniane przez rozszerzen
 
 ## Local Folders and RSS account settings
 
+account-settings-rss-enable-updates =
+    .label = Uaktualniaj wszystkie źródła aktualności
+    .accesskey = U
+account-settings-rss-new-feed-defaults = Domyślne ustawienia nowych źródeł aktualności
+account-settings-rss-manage-subscriptions =
+    .label = Menedżer źródeł aktualności…
+    .accesskey = r
 
 ## Feed account wizard
 
