@@ -36,3 +36,17 @@ ews-endpointhost-label =
 ews-oauthscopes-label =
     .value = Escopos OAuth:
     .accesskey = E
+
+## Incoming server settings
+
+
+## Local Folders and RSS account settings
+
+
+## Feed account wizard
+
+account-settings-rss-wizard-title = Assistente de contas de canais de informações
+account-settings-rss-default-account-name = Canais de blogs e notícias
+
+## Advanced server settings
+
