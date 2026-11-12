@@ -18,12 +18,22 @@ account-settings-port =
     .accesskey = P
 account-settings-default-port =
     .value = Verstek:
+account-settings-connection-security =
+    .value = Verbindingsekuriteit:
+    .accesskey = V
 account-settings-connection-security-none =
     .label = Geen
 account-settings-connection-security-starttls =
     .label = STARTTLS
 account-settings-connection-security-ssl-tls =
     .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Kontroleer vir nuwe boodskappe elke
+    .accesskey = e
+account-settings-minutes =
+    .value = minute
 account-settings-automatically-download-new-messages =
     .label = Laai outomaties nuwe boodskappe af
     .accesskey = e
