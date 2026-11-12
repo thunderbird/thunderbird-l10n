@@ -134,6 +134,7 @@ oauth-provider-extension-info = Cài đặt OAuth2 được cung cấp bởi ti�
 
 ## Incoming server settings
 
+account-settings-server-document-title = Cài đặt máy chủ
 account-settings-server-type =
     .value = Kiểu máy chủ:
 account-settings-server-name =
@@ -147,6 +148,22 @@ account-settings-port =
     .accesskey = P
 account-settings-default-port =
     .value = Mặc định:
+account-settings-connection-security =
+    .value = Bảo mật kết nối:
+    .accesskey = u
+account-settings-connection-security-none =
+    .label = Không có
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Kiểm tra thư mới mỗi
+    .accesskey = y
+account-settings-minutes =
+    .value = phút
 account-settings-automatically-download-new-messages =
     .label = Tự động tải thư mới
     .accesskey = m
