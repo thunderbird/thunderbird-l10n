@@ -61,6 +61,13 @@ account-settings-connection-security-starttls =
     .label = STARTTLS
 account-settings-connection-security-ssl-tls =
     .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = ตรวจสอบข้อความใหม่ทุก ๆ
+    .accesskey = ต
+account-settings-minutes =
+    .value = นาที
 account-settings-automatically-download-new-messages =
     .label = ดาวน์โหลดข้อความใหม่โดยอัตโนมัติ
     .accesskey = า
