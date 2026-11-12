@@ -152,6 +152,9 @@ account-settings-rss-default-account-name = Aktualności
 
 ## Advanced server settings
 
+account-settings-imap-maximum-connections =
+    .value = Maksymalna liczba połączeń z serwerem
+    .accesskey = M
 # Do not translate "IMAP".
 account-settings-imap-namespace-description = Poniższe ustawienia określają dostępne przestrzenie nazw na bieżącym serwerze IMAP
 account-settings-imap-personal-namespace =
@@ -166,3 +169,4 @@ account-settings-imap-other-users-namespace =
 account-settings-imap-override-namespaces =
     .label = Zezwalaj, aby serwer zmieniał powyższe ustawienia przestrzeni nazw
     .accesskey = Z
+account-settings-pop-inbox-description = Poczta pobierana z serwera tego konta powinna być zapisywana w następującym folderze:
