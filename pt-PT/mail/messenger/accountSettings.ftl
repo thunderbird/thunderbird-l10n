@@ -134,6 +134,18 @@ oauth-provider-extension-info = Definições OAuth2 fornecidas pela extensão: <
 
 ## Incoming server settings
 
+account-settings-connection-security =
+    .value = Segurança da ligação:
+    .accesskey = u
+account-settings-connection-security-none =
+    .label = Nenhuma
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+account-settings-leave-messages-on-server =
+    .label = Manter mensagens no servidor
+    .accesskey = v
 # The label is followed by a numerical input and the message
 # account-settings-messages.
 account-settings-ask-before-download =
