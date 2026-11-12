@@ -99,6 +99,9 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-account-name =
+    .value = Naziv računa:
+    .accesskey = N
 account-settings-rss-server-settings = Postavke poslužitelja
 account-settings-rss-enable-updates =
     .label = Omogućite ažuriranja za sve kanale
