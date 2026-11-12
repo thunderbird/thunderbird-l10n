@@ -31,3 +31,17 @@ account-settings-rss-default-account-name = Blogid ja uudistevood
 
 ## Advanced server settings
 
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Need eelistused määravad nimeruumi sinu IMAP-serveris
+account-settings-imap-personal-namespace =
+    .value = Isiklik nimeruum:
+    .accesskey = s
+account-settings-imap-public-namespace =
+    .value = Avalik (jagatud):
+    .accesskey = u
+account-settings-imap-other-users-namespace =
+    .value = Muud kasutajad:
+    .accesskey = M
+account-settings-imap-override-namespaces =
+    .label = Serveril lubatakse neid nimeruume mitte kasutada
+    .accesskey = a
