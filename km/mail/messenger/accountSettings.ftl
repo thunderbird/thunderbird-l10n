@@ -4,3 +4,17 @@
 
 delete-account-button =
     .label = លុប
+
+## Incoming server settings
+
+
+## Local Folders and RSS account settings
+
+
+## Feed account wizard
+
+account-settings-rss-wizard-title = អ្នក​ជំនួយការ​គណនី​អត្ថបទ​ព័ត៌មាន
+account-settings-rss-default-account-name = មតិ​ព័ត៌មាន & កំណត់​ហេតុ​បណ្ដាញ
+
+## Advanced server settings
+
