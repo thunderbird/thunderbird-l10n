@@ -78,6 +78,16 @@ oauth-provider-extension-info = OAuth2-innstillingar leverte av utvidinga: <a da
 
 ## Local Folders and RSS account settings
 
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-account-name =
+    .value = Kontonamn:
+    .accesskey = K
 account-settings-rss-enable-updates =
     .label = Slå på oppdateringar for alle nyheitskjelder
     .accesskey = S
