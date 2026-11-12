@@ -39,9 +39,76 @@ ews-oauthscopes-label =
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = ชนิดเซิร์ฟเวอร์:
+account-settings-server-name =
+    .value = ชื่อเซิร์ฟเวอร์:
+    .accesskey = ช
+account-settings-user-name =
+    .value = ชื่อผู้ใช้:
+    .accesskey = อ
+account-settings-port =
+    .value = พอร์ต:
+    .accesskey = พ
+account-settings-default-port =
+    .value = ค่าเริ่มต้น:
+account-settings-connection-security =
+    .value = ความปลอดภัยของการเชื่อมต่อ:
+    .accesskey = ค
+account-settings-connection-security-none =
+    .label = ไม่มี
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+account-settings-automatically-download-new-messages =
+    .label = ดาวน์โหลดข้อความใหม่โดยอัตโนมัติ
+    .accesskey = า
+account-settings-fetch-headers-only =
+    .label = ดึงข้อมูลเฉพาะบริเวณส่วนหัวเท่านั้น
+    .accesskey = ด
+account-settings-leave-messages-on-server =
+    .label = ฝากข้อความไว้บนเซิร์ฟเวอร์
+    .accesskey = ฝ
+account-settings-leave-messages-for =
+    .label = มากที่สุด
+    .accesskey = ม
+account-settings-days =
+    .value = วัน
+account-settings-leave-messages-until-deleted =
+    .label = จนกว่าฉันจะลบ
+    .accesskey = ล
+account-settings-move-to-trash =
+    .label = ให้ย้ายมาไว้ที่โฟลเดอร์นี้:
+    .accesskey = ย
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = ถามฉันก่อนดาวน์โหลดมากกว่า
+    .accesskey = ถ
+account-settings-messages =
+    .value = ข้อความ
+account-settings-always-authenticate =
+    .label = ขอการรับรองความถูกต้องเมื่อเชื่อมต่อมายังเซิร์ฟเวอร์นี้เสมอ
+    .accesskey = ข
+account-settings-message-storage = ที่เก็บข้อมูลข้อความ
+account-settings-empty-trash-on-exit =
+    .label = ล้างข้อมูลในถังขยะเมื่อออก
+    .accesskey = ใ
 
 ## Local Folders and RSS account settings
 
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-account-name =
+    .value = ชื่อบัญชี:
+    .accesskey = ช
+account-settings-rss-server-settings = การตั้งค่าเซิร์ฟเวอร์
 account-settings-rss-enable-updates =
     .label = เปิดใช้งานการอัปเดตสำหรับฟีดทั้งหมด
     .accesskey = ป
