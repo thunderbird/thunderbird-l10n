@@ -173,6 +173,7 @@ account-settings-imap-other-users-namespace =
 account-settings-imap-override-namespaces =
     .label = Tillat serveren å overstyre disse navnerommene
     .accesskey = a
+account-settings-pop-inbox-description = Ved nedlasting av e-post fra denne kontoens server, bruk denne mappen for å lagre nye meldinger:
 account-settings-pop-inbox-current-account =
     .label = Innboks for denne kontoen
     .accesskey = s
