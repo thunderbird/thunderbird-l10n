@@ -134,6 +134,9 @@ oauth-provider-extension-info = 由 <a data-l10n-name="extension">{ $extensionNa
 
 ## Incoming server settings
 
+account-settings-connection-security =
+    .value = 連線安全性：
+    .accesskey = u
 account-settings-connection-security-none =
     .label = 無
 account-settings-connection-security-starttls =
@@ -142,6 +145,9 @@ account-settings-connection-security-ssl-tls =
     .label = SSL/TLS
 account-settings-minutes =
     .value = 分鐘檢查新郵件
+account-settings-automatically-download-new-messages =
+    .label = 自動下載所有新郵件或文章
+    .accesskey = m
 account-settings-fetch-headers-only =
     .label = 只讀取標頭資訊
     .accesskey = e
@@ -151,9 +157,33 @@ account-settings-leave-messages-on-server =
 account-settings-leave-messages-for =
     .label = 最多
     .accesskey = o
+account-settings-days =
+    .value = 天
+account-settings-leave-messages-until-deleted =
+    .label = 直到我將它們刪除
+    .accesskey = d
+account-settings-message-storage = 郵件儲存
+account-settings-message-store-type =
+    .value = 訊息儲存方式：
+    .accesskey = T
+account-settings-message-store-mbox =
+    .label = 為每個信件匣建立一個檔案（mbox）
+account-settings-message-store-maildir =
+    .label = 為每封訊息建立檔案（maildir）
+account-settings-local-directory =
+    .value = 本機目錄：
+account-settings-browse-local-directory =
+    .label = 瀏覽…
+    .accesskey = B
+    .filepickertitle = 選取本地目錄
+account-settings-default-text-encoding =
+    .value = 預設文字編碼:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = 帳號設定
+account-settings-title =
+    .value = 帳號設定
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
@@ -161,6 +191,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = 這是沒有任何身份資訊的特殊帳號。
 account-settings-rss-server-settings = 伺服器設定
 account-settings-rss-enable-updates =
     .label = 開啟更新所有資訊來源
