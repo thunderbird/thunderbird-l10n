@@ -78,6 +78,13 @@ oauth-provider-extension-info = Pengaturan OAuth2 disediakan oleh ekstensi: <a d
 
 ## Local Folders and RSS account settings
 
+account-settings-rss-enable-updates =
+    .label = Aktifkan pembaruan untuk semua umpan
+    .accesskey = E
+account-settings-rss-new-feed-defaults = Pengaturan Asal untuk Umpan Baru
+account-settings-rss-manage-subscriptions =
+    .label = Kelola Langganan…
+    .accesskey = K
 
 ## Feed account wizard
 
