@@ -52,10 +52,18 @@ account-settings-port =
     .accesskey = P
 account-settings-default-port =
     .value = Padrão:
+account-settings-connection-security =
+    .value = Segurança da conexão:
+    .accesskey = u
+account-settings-connection-security-none =
+    .label = Nenhuma
 account-settings-connection-security-starttls =
     .label = STARTTLS
 account-settings-connection-security-ssl-tls =
     .label = SSL/TLS
+account-settings-automatically-download-new-messages =
+    .label = Receber novas mensagens automaticamente
+    .accesskey = e
 account-settings-fetch-headers-only =
     .label = Receber somente cabeçalhos
     .accesskey = b
@@ -67,6 +75,12 @@ account-settings-leave-messages-for =
     .accesskey = o
 account-settings-days =
     .value = dias
+account-settings-leave-messages-until-deleted =
+    .label = Até eu excluir
+    .accesskey = e
+account-settings-move-to-trash =
+    .label = Mover para esta pasta:
+    .accesskey = o
 # The label is followed by a numerical input and the message
 # account-settings-messages.
 account-settings-ask-before-download =
@@ -81,10 +95,19 @@ account-settings-message-storage = Armazenamento de mensagens
 account-settings-empty-trash-on-exit =
     .label = Esvaziar lixeira ao sair
     .accesskey = z
+account-settings-message-store-type =
+    .value = Tipo de armazenamento de mensagens:
+    .accesskey = T
 account-settings-message-store-mbox =
     .label = Um arquivo por pasta (mbox)
 account-settings-message-store-maildir =
     .label = Um arquivo por mensagem (maildir)
+account-settings-newsrc-file =
+    .value = Arquivo News.rc:
+account-settings-browse-newsrc =
+    .label = Procurar…
+    .accesskey = r
+    .filepickertitle = Selecionar o arquivo News.rc
 account-settings-local-directory =
     .value = Diretório local:
 account-settings-browse-local-directory =
@@ -96,6 +119,9 @@ account-settings-default-text-encoding =
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Configurações de contas
+account-settings-title =
+    .value = Configurações de contas
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
@@ -103,6 +129,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Esta é uma conta especial. Não há identidades associadas a ela.
 account-settings-account-name =
     .value = Nome da conta:
     .accesskey = N
