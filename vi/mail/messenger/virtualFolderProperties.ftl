@@ -10,6 +10,11 @@
 #   $count - number of chosen folders
 virtual-folder-sources-chosen = { $count } thư mục được chọn
 virtual-folder-no-search-folders-selected = Bạn phải chọn ít nhất một thư mục để tìm.
+virtual-folder-missing-value-title = Thiếu giá trị tìm kiếm
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+virtual-folder-missing-value-rule = Nhập giá trị cho cụm từ tìm kiếm "{ $attribute } { $operator }" trước khi lưu tìm kiếm này.
 virtual-folder-properties-title = Thư mục Tìm kiếm Được lưu Mới
 # Variables:
 #   $folderName (String): The name of the saved search folder.

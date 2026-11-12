@@ -8,4 +8,5 @@ key-import-info-close =
 import-info-dialog-title = Thành công! Các khóa đã được nhập
 import-info-created = Đã tạo
 import-info-fpr = Dấu vân tay
+import-info-details = Xem chi tiết và quản lý trạng thái chấp nhận khóa
 import-info-no-keys = Không có khóa nào được nhập.

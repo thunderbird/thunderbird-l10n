@@ -38,6 +38,8 @@ folder-props-check-for-new-messages =
     .label = Khi lấy thư tin mới cho tài khoản này, luôn luôn kiểm tra thư mục này
     .accesskey = K
 folder-props-rebuild-summary-explanation = Đôi khi tập tin chỉ mục của thư mục (.msf) bị hư và thư tin trông có thể như bị biến mất hoặc các thư tin đã xóa lại hiện ra; sửa thư mục có thể khắc phục các vấn đề này.
+folder-props-rebuild-summary-confirm-title = Sửa thư mục
+folder-props-rebuild-summary-confirm-message = Việc sửa chữa thư mục này sẽ xoá các thư cục bộ trong đó và tải xuống các bản sao mới từ máy chủ, các thư trên máy chủ sẽ không bị thay đổi. Quá trình này có thể mất một chút thời gian. Bạn có muốn tiếp tục không?
 
 ## Retention tab (see retention.ftl)
 ##

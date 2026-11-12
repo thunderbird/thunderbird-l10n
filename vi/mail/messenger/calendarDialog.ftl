@@ -107,6 +107,8 @@ calendar-prompt-this-event =
 calendar-prompt-all-events =
     .label = Tất cả sự kiện
 calendar-prompt-delete-button = Xoá
+calendar-dialog-edit-button = Chỉnh sửa
+calendar-event-create-edit-save-button = Lưu
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going = { $count } tham dự
