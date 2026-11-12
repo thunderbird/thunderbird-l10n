@@ -134,6 +134,20 @@ oauth-provider-extension-info = Gosodiadau OAuth2 estyniad: <a data-l10n-name="e
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = Math o Weinydd:
+account-settings-server-name =
+    .value = Enw'r Gweinydd:
+    .accesskey = G
+account-settings-user-name =
+    .value = Enw Defnyddiwr:
+    .accesskey = D
+account-settings-port =
+    .value = Porth:
+    .accesskey = P
+account-settings-default-port =
+    .value = Rhagosodiad:
+account-settings-message-storage = Storfa Negeseuon
 
 ## Local Folders and RSS account settings
 
@@ -147,6 +161,7 @@ account-settings-title-with-name =
 account-settings-account-name =
     .value = Enw Cyfrif:
     .accesskey = C
+account-settings-rss-server-settings = Gosodiadau'r Gweinydd
 account-settings-rss-enable-updates =
     .label = Galluogi diweddariad i bob llif
     .accesskey = G
