@@ -145,9 +145,15 @@ account-settings-connection-security-starttls =
     .label = STARTTLS
 account-settings-connection-security-ssl-tls =
     .label = SSL/TLS
+account-settings-automatically-download-new-messages =
+    .label = Automaticky stiahnuť novú poštu
+    .accesskey = o
 account-settings-leave-messages-on-server =
     .label = Nechávať správy na serveri
     .accesskey = r
+account-settings-move-to-trash =
+    .label = Presunúť ju do priečinka:
+    .accesskey = n
 # The label is followed by a numerical input and the message
 # account-settings-messages.
 account-settings-ask-before-download =
@@ -159,6 +165,9 @@ account-settings-always-authenticate =
     .label = Pri pripájaní sa na tento server vždy vyžadovať overenie
     .accesskey = a
 account-settings-message-storage = Úložisko správ
+account-settings-empty-trash-on-exit =
+    .label = Vyprázdniť kôš pri ukončení
+    .accesskey = u
 account-settings-message-store-type =
     .value = Spôsob ukladania správ:
     .accesskey = S
