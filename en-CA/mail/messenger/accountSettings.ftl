@@ -129,6 +129,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = The following is a special account. There are no identities associated with it.
 account-settings-account-name =
     .value = Account Name:
     .accesskey = N
