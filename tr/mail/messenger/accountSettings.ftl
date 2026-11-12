@@ -132,9 +132,15 @@ account-settings-connection-security-ssl-tls =
     .label = SSL/TLS
 account-settings-minutes =
     .value = dakikada bir kontrol et
+account-settings-automatically-download-new-messages =
+    .label = Yeni e-postaları otomatik indir
+    .accesskey = p
 account-settings-leave-messages-on-server =
     .label = İletileri sunucuda bırak
     .accesskey = b
+account-settings-leave-messages-until-deleted =
+    .label = Ben silene kadar
+    .accesskey = d
 account-settings-move-to-trash =
     .label = Bu klasöre taşı:
     .accesskey = e
@@ -159,6 +165,8 @@ account-settings-message-store-mbox =
     .label = Her klasör için ayrı dosya (mbox)
 account-settings-message-store-maildir =
     .label = Her ileti için ayrı dosya (maildir)
+account-settings-newsrc-file =
+    .value = News.rc dosyası:
 
 ## Local Folders and RSS account settings
 
