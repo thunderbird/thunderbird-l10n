@@ -5,9 +5,33 @@
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = Seòrsa an fhrithealaiche:
+account-settings-server-name =
+    .value = Ainm an fhrithealaiche:
+    .accesskey = A
+account-settings-user-name =
+    .value = Ainm a' chleachdaiche:
+    .accesskey = n
+account-settings-port =
+    .value = Port:
+    .accesskey = P
+account-settings-default-port =
+    .value = Bunaiteach:
 
 ## Local Folders and RSS account settings
 
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-account-name =
+    .value = Ainm a' chunntais:
+    .accesskey = n
+account-settings-rss-server-settings = Roghainnean an fhrithealaiche
 account-settings-rss-enable-updates =
     .label = Cuir an comas na h-ùrachaidhean airson gach inbhir
     .accesskey = e
