@@ -49,3 +49,6 @@ account-settings-imap-override-namespaces =
 account-settings-pop-inbox-other-account =
     .label = ਵੱਖਰੇ ਅਕਾਊਂਟ ਲਈ Inbox
     .accesskey = D
+account-settings-pop-include-server =
+    .label = ਨਵੇਂ ਮੇਲ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਇਸ ਸਰਵਰ ਨੂੰ ਸ਼ਾਮਿਲ ਕਰੋ
+    .accesskey = I
