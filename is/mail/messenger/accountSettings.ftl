@@ -94,9 +94,34 @@ oauth-provider-extension-info = OAuth2 stillingar frá forritsaukanum: <a data-l
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = Gerð netþjóns:
+account-settings-server-name =
+    .value = Nafn netþjóns:
+    .accesskey = þ
+account-settings-user-name =
+    .value = Notandanafn:
+    .accesskey = N
+account-settings-port =
+    .value = Gátt:
+    .accesskey = G
+account-settings-default-port =
+    .value = Sjálfgefið:
+account-settings-message-storage = Póstgeymsla
 
 ## Local Folders and RSS account settings
 
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-account-name =
+    .value = Heiti reiknings:
+    .accesskey = H
+account-settings-rss-server-settings = Stillingar netþjóns
 account-settings-rss-enable-updates =
     .label = Virkja uppfærslur fyrir öll streymi
     .accesskey = V
