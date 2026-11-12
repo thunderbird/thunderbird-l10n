@@ -32,3 +32,39 @@ account-settings-rss-default-account-name = Բլոգներ և նորությու
 ## Advanced server settings
 
 account-settings-advanced-server-title = Փոստարկղի ընդլայնված կարգավորումներ
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = IMAP սպասարկիչի գրացուցակ.
+    .accesskey = գ
+account-settings-imap-show-subscribed-folders =
+    .label = Ցուցադրել միայն նշան. թղթապանակները.
+    .accesskey = w
+account-settings-imap-dual-use-folders =
+    .label = Սպասարկիչը աջակցում է ենթաթղթապանակները և նամակները
+    .accesskey = f
+account-settings-imap-maximum-connections =
+    .value = Սպասարկիչի առավելագույն կապակցումները պահոցին
+    .accesskey = M
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Այս նախապատվությունները որոշում են անվանադաշտերը Ձեր IMAP սպասարկիչում
+account-settings-imap-personal-namespace =
+    .value = Անձնական անվանադաշտ.
+    .accesskey = P
+account-settings-imap-public-namespace =
+    .value = Հասարակական.
+    .accesskey = u
+account-settings-imap-other-users-namespace =
+    .value = Այլ օգտվողներ.
+    .accesskey = O
+account-settings-imap-override-namespaces =
+    .label = Թույլատրել սպասարկիչին կարգավորել այս անվանադաշտերը
+    .accesskey = A
+account-settings-pop-inbox-current-account =
+    .label = Մուտքային՝ այս հաշվի համար
+    .accesskey = յ
+account-settings-pop-inbox-other-account =
+    .label = Այլ փոստարկղի Մուտքայինը
+    .accesskey = d
+account-settings-pop-include-server =
+    .label = Ներառել այս սպասարկիչը՝ նոր նամակ ստանալիս
+    .accesskey = I
