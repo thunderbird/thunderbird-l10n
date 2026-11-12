@@ -152,3 +152,8 @@ account-settings-rss-default-account-name = Blogs & nieuwsfeeds
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = Geavanceerde accountinstellingen
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = IMAP-servermap
+    .accesskey = m
