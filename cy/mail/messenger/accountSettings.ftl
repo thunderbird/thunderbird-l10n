@@ -134,6 +134,7 @@ oauth-provider-extension-info = Gosodiadau OAuth2 estyniad: <a data-l10n-name="e
 
 ## Incoming server settings
 
+account-settings-server-document-title = Gosodiadau gweinydd
 account-settings-server-type =
     .value = Math o Weinydd:
 account-settings-server-name =
@@ -156,6 +157,13 @@ account-settings-connection-security-starttls =
     .label = STARTTLS
 account-settings-connection-security-ssl-tls =
     .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Gwirio am negeseuon newydd bob
+    .accesskey = w
+account-settings-minutes =
+    .value = munud
 account-settings-automatically-download-new-messages =
     .label = Llwytho i lawr negeseuon newydd yn awtomatig
     .accesskey = a
