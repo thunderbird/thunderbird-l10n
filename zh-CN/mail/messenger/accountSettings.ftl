@@ -57,6 +57,7 @@ account-settings-rss-default-account-name = 博客和新闻收取点
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = 高级账户设置
 # Do not translate "IMAP".
 account-settings-imap-server-directory =
     .value = IMAP 服务器目录：
