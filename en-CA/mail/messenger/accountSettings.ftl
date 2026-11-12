@@ -52,7 +52,49 @@ account-settings-port =
     .accesskey = P
 account-settings-default-port =
     .value = Default:
+account-settings-connection-security =
+    .value = Connection security:
+    .accesskey = u
+account-settings-connection-security-none =
+    .label = None
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+account-settings-automatically-download-new-messages =
+    .label = Automatically download new messages
+    .accesskey = m
+account-settings-fetch-headers-only =
+    .label = Fetch headers only
+    .accesskey = e
+account-settings-leave-messages-on-server =
+    .label = Leave messages on server
+    .accesskey = g
+account-settings-leave-messages-for =
+    .label = For at most
+    .accesskey = o
+account-settings-days =
+    .value = days
+account-settings-leave-messages-until-deleted =
+    .label = Until I delete them
+    .accesskey = d
+account-settings-move-to-trash =
+    .label = Move it to this folder:
+    .accesskey = o
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Ask me before downloading more than
+    .accesskey = m
+account-settings-messages =
+    .value = messages
+account-settings-always-authenticate =
+    .label = Always request authentication when connecting to this server
+    .accesskey = w
 account-settings-message-storage = Message Storage
+account-settings-empty-trash-on-exit =
+    .label = Empty Trash on Exit
+    .accesskey = x
 
 ## Local Folders and RSS account settings
 
