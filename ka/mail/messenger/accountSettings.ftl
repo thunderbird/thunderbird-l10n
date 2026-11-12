@@ -134,6 +134,27 @@ oauth-provider-extension-info = OAuth2-გამართვა მოწოდ�
 
 ## Incoming server settings
 
+account-settings-connection-security-none =
+    .label = არა
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+account-settings-fetch-headers-only =
+    .label = მხოლოდ თავსართების კითხვა
+    .accesskey = კ
+account-settings-leave-messages-on-server =
+    .label = წერილების დატოვება სერვერზე
+    .accesskey = დ
+account-settings-leave-messages-for =
+    .label = არა უმეტეს
+    .accesskey = უ
+account-settings-days =
+    .value = დღისა
+account-settings-leave-messages-until-deleted =
+    .label = წაშლამდე ან მიღებულებიდან გადმოტანამდე
+    .accesskey = გ
+account-settings-message-storage = წერილების საცავი
 
 ## Local Folders and RSS account settings
 
