@@ -147,6 +147,36 @@ account-settings-port =
     .accesskey = o
 account-settings-default-port =
     .value = Alapértelmezett:
+account-settings-connection-security =
+    .value = Kapcsolat biztonsága:
+    .accesskey = b
+account-settings-connection-security-none =
+    .label = nincs
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+account-settings-automatically-download-new-messages =
+    .label = Új üzenetek automatikus letöltése
+    .accesskey = a
+account-settings-fetch-headers-only =
+    .label = Csak a fejlécek letöltése
+    .accesskey = f
+account-settings-leave-messages-on-server =
+    .label = Üzenetek megtartása a kiszolgálón
+    .accesskey = m
+account-settings-leave-messages-for =
+    .label = Legfeljebb
+    .accesskey = L
+account-settings-days =
+    .value = napig
+account-settings-leave-messages-until-deleted =
+    .label = Letörlésükig
+    .accesskey = e
+account-settings-move-to-trash =
+    .label = Áthelyezés ebbe a mappába:
+    .accesskey = h
+account-settings-message-storage = Üzenettároló
 
 ## Local Folders and RSS account settings
 
