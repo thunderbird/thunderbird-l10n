@@ -153,6 +153,10 @@ account-settings-rss-default-account-name = Блоги и ленты новос�
 ## Advanced server settings
 
 account-settings-advanced-server-title = Дополнительные параметры учётной записи
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = Каталог IMAP-сервера:
+    .accesskey = а
 account-settings-imap-show-subscribed-folders =
     .label = Показывать только папки на которые вы подписаны
     .accesskey = о
