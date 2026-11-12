@@ -120,6 +120,7 @@ oauth-provider-extension-info = Οι ρυθμίσεις OAuth2 παρέχοντ�
 
 ## Incoming server settings
 
+account-settings-server-document-title = Ρυθμίσεις διακομιστή
 account-settings-server-type =
     .value = Τύπος διακομιστή:
 account-settings-server-name =
