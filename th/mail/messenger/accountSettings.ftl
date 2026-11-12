@@ -57,3 +57,17 @@ account-settings-rss-default-account-name = บล็อกและฟีดข
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = การตั้งค่าบัญชีขั้นสูง
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = ไดเรกทอรีเซิร์ฟเวอร์ IMAP:
+    .accesskey = ด
+account-settings-imap-show-subscribed-folders =
+    .label = แสดงเฉพาะโฟลเดอร์ที่บอกรับเท่านั้น
+    .accesskey = ส
+account-settings-imap-dual-use-folders =
+    .label = เซิร์ฟเวอร์รองรับโฟลเดอร์ที่มีโฟลเดอร์ย่อยและข้อความ
+    .accesskey = ซ
+account-settings-imap-maximum-connections =
+    .value = จำนวนการเชื่อมต่อเซิร์ฟเวอร์สูงสุดที่จะแคช
+    .accesskey = จ
