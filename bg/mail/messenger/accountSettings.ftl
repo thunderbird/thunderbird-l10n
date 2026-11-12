@@ -57,3 +57,4 @@ account-settings-rss-default-account-name = Блогове и новинарск
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = Разширени настройки
