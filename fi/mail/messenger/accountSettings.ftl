@@ -63,6 +63,13 @@ ews-oauthscopes-label =
 
 ## Local Folders and RSS account settings
 
+account-settings-rss-enable-updates =
+    .label = Salli päivitykset kaikille syötteille
+    .accesskey = S
+account-settings-rss-new-feed-defaults = Oletusasetukset uusille syötteille
+account-settings-rss-manage-subscriptions =
+    .label = Muokkaa tilauksia…
+    .accesskey = M
 
 ## Feed account wizard
 
