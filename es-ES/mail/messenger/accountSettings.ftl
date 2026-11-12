@@ -52,9 +52,70 @@ account-settings-port =
     .accesskey = P
 account-settings-default-port =
     .value = Predet.:
+account-settings-connection-security =
+    .value = Seguridad de la conexión:
+    .accesskey = u
+account-settings-connection-security-none =
+    .label = Ninguna
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+account-settings-automatically-download-new-messages =
+    .label = Descargar automáticamente los mensajes nuevos
+    .accesskey = m
+account-settings-fetch-headers-only =
+    .label = Descargar sólo los encabezados
+    .accesskey = z
+account-settings-leave-messages-on-server =
+    .label = Dejar los mensajes en el servidor.
+    .accesskey = a
+account-settings-leave-messages-for =
+    .label = Eliminar mensajes del servidor tras
+    .accesskey = o
+account-settings-days =
+    .value = días
+account-settings-leave-messages-until-deleted =
+    .label = Hasta que yo los borre
+    .accesskey = b
+account-settings-move-to-trash =
+    .label = Moverlo a esta carpeta:
+    .accesskey = o
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Preguntarme antes de descargar más de
+    .accesskey = m
+account-settings-messages =
+    .value = mensajes
+account-settings-always-authenticate =
+    .label = Siempre solicitar identificación cuando se conecte con este servidor
+    .accesskey = p
+account-settings-message-storage = Almacenamiento de mensajes
+account-settings-empty-trash-on-exit =
+    .label = Vaciar papelera al salir
+    .accesskey = v
+account-settings-message-store-type =
+    .value = Tipo de almacenamiento de mensajes:
+    .accesskey = T
+account-settings-message-store-mbox =
+    .label = Archivo por carpeta (mbox)
+account-settings-message-store-maildir =
+    .label = Archivo por mensaje (maildir)
+account-settings-local-directory =
+    .value = Directorio local:
+account-settings-browse-local-directory =
+    .label = Examinar…
+    .accesskey = x
+    .filepickertitle = Seleccione directorio local
+account-settings-default-text-encoding =
+    .value = Codificación de texto predeterminada:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Configuración de cuenta
+account-settings-title =
+    .value = Configuración de cuenta
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
@@ -62,6 +123,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = La siguiente cuenta es especial. No tiene identidades asociadas con ella.
 account-settings-account-name =
     .value = Nombre de la cuenta:
     .accesskey = N
