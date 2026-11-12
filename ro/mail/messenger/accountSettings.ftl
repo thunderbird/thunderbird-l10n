@@ -113,6 +113,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Acesta este un cont special. Cu acesta nu sunt asociate identități.
 account-settings-rss-enable-updates =
     .label = Activează actualizările pentru toate fluxurile
     .accesskey = E
