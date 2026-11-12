@@ -10,3 +10,17 @@ delete-account-button =
     .label = Ջնջել
 default-account-button =
     .label = Նշել որպես սկզբնադիր
+
+## Incoming server settings
+
+
+## Local Folders and RSS account settings
+
+
+## Feed account wizard
+
+account-settings-rss-wizard-title = Սնման հաշվի Օգնական
+account-settings-rss-default-account-name = Բլոգներ և նորություններ
+
+## Advanced server settings
+
