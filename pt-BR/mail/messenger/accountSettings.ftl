@@ -58,6 +58,34 @@ account-settings-rss-default-account-name = Canais de blogs e notícias
 ## Advanced server settings
 
 account-settings-advanced-server-title = Configurações avançadas da conta
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = Servidor de diretórios IMAP:
+    .accesskey = d
+account-settings-imap-show-subscribed-folders =
+    .label = Mostrar somente pastas inscritas
+    .accesskey = M
+account-settings-imap-dual-use-folders =
+    .label = O servidor suporta pastas que contêm subpastas e mensagens
+    .accesskey = s
+account-settings-imap-maximum-connections =
+    .value = Número máximo de conexões com servidor a incluir no cache:
+    .accesskey = N
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Estas preferências especificam os namespaces no servidor IMAP
+account-settings-imap-personal-namespace =
+    .value = Namespace pessoal:
+    .accesskey = a
+account-settings-imap-public-namespace =
+    .value = Público (compartilhado):
+    .accesskey = P
+account-settings-imap-other-users-namespace =
+    .value = Outros usuários:
+    .accesskey = O
+account-settings-imap-override-namespaces =
+    .label = Permitir que o servidor sobrescreva estes namespaces
+    .accesskey = e
+account-settings-pop-inbox-description = Ao baixar mensagens do servidor desta conta, usar a seguinte pasta para armazenar novas mensagens:
 account-settings-pop-inbox-current-account =
     .label = Caixa de entrada desta conta
     .accesskey = c
