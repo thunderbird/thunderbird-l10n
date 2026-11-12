@@ -113,11 +113,26 @@ oauth-provider-extension-info = OAuth2 ayarlarını <a data-l10n-name="extension
 
 account-settings-server-type =
     .value = Sunucu türü:
+account-settings-server-name =
+    .value = Sunucu adı:
+    .accesskey = S
+account-settings-user-name =
+    .value = Kullanıcı adı:
+    .accesskey = l
+account-settings-port =
+    .value = Port:
+    .accesskey = P
+account-settings-default-port =
+    .value = Varsayılan:
 account-settings-minutes =
     .value = dakikada bir kontrol et
 account-settings-leave-messages-on-server =
     .label = İletileri sunucuda bırak
     .accesskey = b
+account-settings-message-storage = İleti depolama
+account-settings-message-store-type =
+    .value = İleti depolama türü:
+    .accesskey = d
 
 ## Local Folders and RSS account settings
 
@@ -128,6 +143,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Bu bir özel hesaptır. Bu hesaba ilişkin kimlik bulunmamaktadır.
 account-settings-rss-server-settings = Sunucu ayarları
 account-settings-rss-enable-updates =
     .label = Tüm beslemelerde güncellemeleri etkinleştir
