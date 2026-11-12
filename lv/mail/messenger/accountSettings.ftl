@@ -125,3 +125,12 @@ account-settings-rss-default-account-name = Emuāri & Ziņu plūsmas
 
 ## Advanced server settings
 
+account-settings-imap-show-subscribed-folders =
+    .label = Rādīt tikai abonētās mapes
+    .accesskey = R
+account-settings-imap-dual-use-folders =
+    .label = Serveris atbalsta mapes, kas satur apakšmapes un vēstules
+    .accesskey = S
+account-settings-imap-maximum-connections =
+    .value = Maksimālais kešoto servera savienojumu skaits
+    .accesskey = M
