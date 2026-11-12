@@ -8,6 +8,13 @@
 
 ## Local Folders and RSS account settings
 
+account-settings-rss-enable-updates =
+    .label = הפעלת עדכונים לכל ההזנות
+    .accesskey = פ
+account-settings-rss-new-feed-defaults = הגדרות ברירת מחדל להזנות של חדשות
+account-settings-rss-manage-subscriptions =
+    .label = ניהול מינויים…
+    .accesskey = נ
 
 ## Feed account wizard
 
