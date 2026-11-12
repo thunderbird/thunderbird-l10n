@@ -58,3 +58,13 @@ account-settings-rss-default-account-name = Canales de Blogs y Noticias
 ## Advanced server settings
 
 account-settings-advanced-server-title = Configuración avanzada de cuentas
+account-settings-pop-inbox-description = Al descargar mensajes del servidor de esta cuenta, usar la siguiente carpeta para guardar los nuevos mensajes:
+account-settings-pop-inbox-current-account =
+    .label = Bandeja de entrada de esta cuenta
+    .accesskey = e
+account-settings-pop-inbox-other-account =
+    .label = Bandeja de entrada para una cuenta distinta
+    .accesskey = c
+account-settings-pop-include-server =
+    .label = Incluir este servidor al recibir correo nuevo
+    .accesskey = I
