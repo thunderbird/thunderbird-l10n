@@ -14,7 +14,6 @@ cookies-stored-label2 =
     .value = Las cookies se almacenan en esta computadora
 cookies-filtered-label =
     .value = Las cookies siguientes coincidieron con su búsqueda:
-cookies-stored-label = Las cookies se almacenan en esta computadora
 cookies-on-system-label = Las siguientes cookies están almacenadas en su computadora:
 treecol-site-header =
     .label = Sitio

@@ -112,15 +112,15 @@ account-settings-message-store-maildir =
 account-settings-newsrc-file =
     .value = Файл News.rc:
 account-settings-browse-newsrc =
+    .filepickertitle = Избор на файл News.rc
     .label = Избор…
     .accesskey = о
-    .filepickertitle = Избор на файл News.rc
 account-settings-local-directory =
     .value = Местна папка:
 account-settings-browse-local-directory =
+    .filepickertitle = Изберете директория
     .label = Избор…
     .accesskey = б
-    .filepickertitle = Изберете директория
 account-settings-default-text-encoding =
     .value = Стандартно кодиране:
 

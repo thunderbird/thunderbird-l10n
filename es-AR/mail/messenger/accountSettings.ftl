@@ -208,15 +208,15 @@ account-settings-message-store-maildir =
 account-settings-newsrc-file =
     .value = Archivo News.rc:
 account-settings-browse-newsrc =
+    .filepickertitle = Seleccione el archivo News.rc
     .label = Examinar…
     .accesskey = E
-    .filepickertitle = Seleccione el archivo News.rc
 account-settings-local-directory =
     .value = Directorio local:
 account-settings-browse-local-directory =
+    .filepickertitle = Seleccione directorio local
     .label = Examinar…
     .accesskey = x
-    .filepickertitle = Seleccione directorio local
 account-settings-default-text-encoding =
     .value = Codificación de texto predeterminada:
 

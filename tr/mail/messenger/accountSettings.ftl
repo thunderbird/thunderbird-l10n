@@ -185,15 +185,15 @@ account-settings-message-store-maildir =
 account-settings-newsrc-file =
     .value = News.rc dosyası:
 account-settings-browse-newsrc =
+    .filepickertitle = News.rc dosyasını seçin
     .label = Göz at…
     .accesskey = t
-    .filepickertitle = News.rc dosyasını seçin
 account-settings-local-directory =
     .value = Yerel dizin:
 account-settings-browse-local-directory =
+    .filepickertitle = Yerel klasör seçin
     .label = Göz at…
     .accesskey = a
-    .filepickertitle = Yerel klasör seçin
 account-settings-default-text-encoding =
     .value = Varsayılan metin kodlaması:
 

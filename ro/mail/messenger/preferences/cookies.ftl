@@ -14,7 +14,6 @@ cookies-stored-label2 =
     .value = Cookie-urile sunt stocate pe acest calculator
 cookies-filtered-label =
     .value = Următoarele cookie-uri se potrivesc căutării tale:
-cookies-stored-label = Cookie-urile sunt stocate pe acest calculator
 cookies-on-system-label = Pe calculator sunt stocate următoarele cookie-uri:
 treecol-site-header =
     .label = Site

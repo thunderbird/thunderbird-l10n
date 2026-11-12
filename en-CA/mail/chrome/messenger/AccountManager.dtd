@@ -4,4 +4,5 @@
 
 <!-- extracted from AccountManager.xhtml -->
 <!ENTITY accountManagerTitle.label "Account Settings">
+<!-- extracted from AccountManager.xhtml -->
 <!ENTITY accountManagerCloseButton.label "Close">

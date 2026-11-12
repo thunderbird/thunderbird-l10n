@@ -1136,9 +1136,6 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = { -brand-short-name }-ом управља организација.
 managed-notice = Ваша организација управља апликацијом { -brand-short-name }.
-
-## Content of the preview conversation for chat message styles.
-
 chat-theme-preview-default =
     .label = Подразумевани
 chat-theme-preview-nick-1 = Пера

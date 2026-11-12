@@ -14,7 +14,6 @@ cookies-stored-label2 =
     .value = Le cookies es reservate sur iste computator
 cookies-filtered-label =
     .value = Le cookies sequente corresponde a tu recerca:
-cookies-stored-label = Le cookies es reservate sur iste computator
 cookies-on-system-label = Le cookies sequente es immagazinate in tu computator:
 treecol-site-header =
     .label = Sito

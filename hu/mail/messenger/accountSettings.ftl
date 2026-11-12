@@ -208,15 +208,15 @@ account-settings-message-store-maildir =
 account-settings-newsrc-file =
     .value = News.rc-fájl:
 account-settings-browse-newsrc =
+    .filepickertitle = Válasszon News.rc-fájlt
     .label = Tallózás…
     .accesskey = a
-    .filepickertitle = Válasszon News.rc-fájlt
 account-settings-local-directory =
     .value = Helyi könyvtár:
 account-settings-browse-local-directory =
+    .filepickertitle = Helyi könyvtár kiválasztása
     .label = Tallózás…
     .accesskey = T
-    .filepickertitle = Helyi könyvtár kiválasztása
 account-settings-default-text-encoding =
     .value = Alapértelmezett szövegkódolás:
 

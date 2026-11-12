@@ -14,7 +14,6 @@ cookies-stored-label2 =
     .value = Placki so na tutym ličaku składuja
 cookies-filtered-label =
     .value = Slědowace placki wašemu pytanju wotpowěduja:
-cookies-stored-label = Placki so na tutym ličaku składuja
 cookies-on-system-label = Slědowace placki su na wašim ličaku składowane:
 treecol-site-header =
     .label = Sydło

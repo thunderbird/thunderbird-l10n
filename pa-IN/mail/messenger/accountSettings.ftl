@@ -69,9 +69,9 @@ account-settings-empty-trash-on-exit =
     .label = ਬੰਦ ਕਰਨ ਉੱਤੇ ਰੱਦੀ ਖਾਲੀ ਕਰੋ
     .accesskey = x
 account-settings-browse-local-directory =
+    .filepickertitle = ਲੋਕਲ ਡਾਇਰੈਕਟਰੀ ਚੁਣੋ
     .label = ਝਲਕ...
     .accesskey = B
-    .filepickertitle = ਲੋਕਲ ਡਾਇਰੈਕਟਰੀ ਚੁਣੋ
 
 ## Local Folders and RSS account settings
 

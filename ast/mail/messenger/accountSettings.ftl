@@ -76,9 +76,9 @@ account-settings-message-store-mbox =
 account-settings-message-store-maildir =
     .label = Ficheru per mensaxe (maildir)
 account-settings-browse-local-directory =
+    .filepickertitle = Esbilla direutoriu llocal
     .label = Desaminar…
     .accesskey = s
-    .filepickertitle = Esbilla direutoriu llocal
 account-settings-default-text-encoding =
     .value = Codificación de testu por defeutu:
 

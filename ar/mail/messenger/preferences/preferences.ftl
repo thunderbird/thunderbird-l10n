@@ -571,9 +571,6 @@ no-preview-description = ليست هذه السمة صحيحة أو ربما غ�
 chat-variant-label =
     .value = التنويعة:
     .accesskey = ع
-
-## Content of the preview conversation for chat message styles.
-
 chat-theme-preview-default =
     .label = المبدئي
 chat-theme-preview-nick-1 = خالد

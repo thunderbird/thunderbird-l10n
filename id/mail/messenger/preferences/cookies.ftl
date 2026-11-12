@@ -14,7 +14,6 @@ cookies-stored-label2 =
     .value = Kuki disimpan di komputer ini
 cookies-filtered-label =
     .value = Kuki berikut cocok dengan pencarian:
-cookies-stored-label = Kuki disimpan di komputer ini
 cookies-on-system-label = Kuki berikut disimpan pada komputer Anda:
 treecol-site-header =
     .label = Situs

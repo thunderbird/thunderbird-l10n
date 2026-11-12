@@ -14,7 +14,6 @@ cookies-stored-label2 =
     .value = Piškotki so shranjeni na tem računalniku
 cookies-filtered-label =
     .value = Naslednji piškotki ustrezajo vašemu iskanju:
-cookies-stored-label = Piškotki so shranjeni na tem računalniku
 cookies-on-system-label = Na vašem računalniku so shranjeni naslednji piškotki:
 treecol-site-header =
     .label = Stran

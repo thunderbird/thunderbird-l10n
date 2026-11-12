@@ -86,15 +86,15 @@ account-settings-message-store-maildir =
 account-settings-newsrc-file =
     .value = News.rc ֆայլ.
 account-settings-browse-newsrc =
+    .filepickertitle = Ընտրեք News.rc ֆայլ
     .label = Ընտրել…
     .accesskey = e
-    .filepickertitle = Ընտրեք News.rc ֆայլ
 account-settings-local-directory =
     .value = Տեղային պանակ.
 account-settings-browse-local-directory =
+    .filepickertitle = Ընտրեք տեղային թղթապանակը
     .label = Browse…
     .accesskey = B
-    .filepickertitle = Ընտրեք տեղային թղթապանակը
 account-settings-default-text-encoding =
     .value = Հիմնական Կոդավորում.
 

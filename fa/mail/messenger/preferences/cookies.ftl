@@ -14,7 +14,6 @@ cookies-stored-label2 =
     .value = کلوچک‌ها روی این رایانه ذخیره می‌شوند
 cookies-filtered-label =
     .value = کلوچک‌های زیر با جست‌وجوی شما مطابقت دارند:
-cookies-stored-label = کلوچک‌ها روی این رایانه ذخیره شده‌اند
 cookies-on-system-label = کلوچک‌های زیر روی رایانهٔ شما ذخیره شده‌اند:
 treecol-site-header =
     .label = وبگاه

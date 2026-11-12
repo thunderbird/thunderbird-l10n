@@ -884,9 +884,6 @@ search-preferences-input2 =
     .placeholder = Bilatu ezarpenetan
     .style = width: 15.4em
 managed-notice = { -brand-short-name } zure erakundeak kudeatzen du.
-
-## Content of the preview conversation for chat message styles.
-
 chat-theme-preview-default =
     .label = Lehenetsia
 chat-theme-preview-nick-1 = Florian

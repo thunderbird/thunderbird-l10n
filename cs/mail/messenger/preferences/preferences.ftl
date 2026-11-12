@@ -1322,9 +1322,6 @@ managed-notice =
         [with-cases] { -brand-short-name } je spravován vaší organizací.
        *[no-cases] Aplikace { -brand-short-name } je spravována vaší organizací.
     }
-
-## Content of the preview conversation for chat message styles.
-
 chat-theme-preview-default =
     .label = Výchozí
 chat-theme-preview-nick-1 = Florián

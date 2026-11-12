@@ -1223,9 +1223,6 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = { -brand-short-name } je spravovaný organizáciou.
 managed-notice = { -brand-short-name } je spravovaný vašou organizáciou.
-
-## Content of the preview conversation for chat message styles.
-
 chat-theme-preview-default =
     .label = Predvolený
 chat-theme-preview-nick-1 = Florián

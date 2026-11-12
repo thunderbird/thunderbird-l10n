@@ -732,9 +732,6 @@ chat-variant-label =
 search-preferences-input2 =
     .placeholder = Знайсці ў наладах
     .style = width: 15.4em
-
-## Content of the preview conversation for chat message styles.
-
 chat-theme-preview-default =
     .label = Прадвызначана
 chat-theme-preview-nick-1 = Florian

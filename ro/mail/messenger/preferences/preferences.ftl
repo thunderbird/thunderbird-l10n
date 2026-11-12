@@ -1223,9 +1223,6 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = { -brand-short-name } este gestionat de o organizație.
 managed-notice = { -brand-short-name } este gestionat de organizația ta.
-
-## Content of the preview conversation for chat message styles.
-
 chat-theme-preview-default =
     .label = Implicit
 chat-theme-preview-nick-1 = Florian

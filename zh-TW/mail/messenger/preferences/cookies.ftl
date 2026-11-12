@@ -14,7 +14,6 @@ cookies-stored-label2 =
     .value = Cookie 會儲存在此電腦中
 cookies-filtered-label =
     .value = 下列為符合您搜尋條件的 Cookie：
-cookies-stored-label = Cookie 會儲存在此電腦中
 cookies-on-system-label = 您的電腦中已儲存下列的 Cookie:
 treecol-site-header =
     .label = 網站

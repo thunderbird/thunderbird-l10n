@@ -14,7 +14,6 @@ cookies-stored-label2 =
     .value = Súbory cookie sa ukladajú do tohto počítača
 cookies-filtered-label =
     .value = Tieto cookies vyhovujú vášmu hľadaniu:
-cookies-stored-label = Súbory cookie sa ukladajú do tohto počítača
 cookies-on-system-label = Tieto cookies sú uložené v počítači:
 treecol-site-header =
     .label = Stránka

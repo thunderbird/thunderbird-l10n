@@ -69,9 +69,9 @@ account-settings-empty-trash-on-exit =
     .label = Maak snippermandjie leeg tydens afsluiting
     .accesskey = a
 account-settings-browse-local-directory =
+    .filepickertitle = Kies plaaslike gids
     .label = Blaai…
     .accesskey = B
-    .filepickertitle = Kies plaaslike gids
 
 ## Local Folders and RSS account settings
 
@@ -93,9 +93,6 @@ account-settings-rss-server-settings = Bedieneropstelling
 account-settings-rss-manage-subscriptions =
     .label = Bestuur intekeninge…
     .accesskey = B
-
-## Feed account wizard
-
 
 ## Advanced server settings
 

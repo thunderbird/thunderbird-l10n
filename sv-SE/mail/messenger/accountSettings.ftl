@@ -208,15 +208,15 @@ account-settings-message-store-maildir =
 account-settings-newsrc-file =
     .value = News.rc-fil:
 account-settings-browse-newsrc =
+    .filepickertitle = Välj News.rc-fil
     .label = Bläddra…
     .accesskey = d
-    .filepickertitle = Välj News.rc-fil
 account-settings-local-directory =
     .value = Lokal katalog:
 account-settings-browse-local-directory =
+    .filepickertitle = Välj lokal katalog
     .label = Bläddra…
     .accesskey = B
-    .filepickertitle = Välj lokal katalog
 account-settings-default-text-encoding =
     .value = Standardtextkodning:
 

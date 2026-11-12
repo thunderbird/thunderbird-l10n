@@ -14,7 +14,6 @@ cookies-stored-label2 =
     .value = Na tym komputerze przechowywane są ciasteczka
 cookies-filtered-label =
     .value = Następujące ciasteczka odpowiadają zapytaniu:
-cookies-stored-label = Na tym komputerze przechowywane są ciasteczka
 cookies-on-system-label = Na tym komputerze przechowywane są następujące ciasteczka:
 treecol-site-header =
     .label = Witryna

@@ -148,15 +148,15 @@ account-settings-message-store-maildir =
 account-settings-newsrc-file =
     .value = News.rc datoteka:
 account-settings-browse-newsrc =
+    .filepickertitle = Odaberi News.rc datoteku
     .label = Odaberi…
     .accesskey = e
-    .filepickertitle = Odaberi News.rc datoteku
 account-settings-local-directory =
     .value = Lokalna mapa:
 account-settings-browse-local-directory =
+    .filepickertitle = Odaberi lokalnu mapu
     .label = Odaberi…
     .accesskey = b
-    .filepickertitle = Odaberi lokalnu mapu
 account-settings-default-text-encoding =
     .value = Zadano kodiranje teksta:
 

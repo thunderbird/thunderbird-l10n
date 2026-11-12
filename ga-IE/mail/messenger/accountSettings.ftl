@@ -76,9 +76,9 @@ account-settings-message-store-mbox =
 account-settings-message-store-maildir =
     .label = Gach teachtaireacht ina comhad féin (maildir)
 account-settings-browse-local-directory =
+    .filepickertitle = Roghnaigh Comhadlann Logánta
     .label = Brabhsáil…
     .accesskey = B
-    .filepickertitle = Roghnaigh Comhadlann Logánta
 account-settings-default-text-encoding =
     .value = Ionchódú Réamhshocraithe:
 

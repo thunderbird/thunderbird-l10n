@@ -78,15 +78,15 @@ account-settings-message-store-maildir =
 account-settings-newsrc-file =
     .value = Faidhle news.rc:
 account-settings-browse-newsrc =
+    .filepickertitle = Tagh faidhle news.rc
     .label = Brabhsaich…
     .accesskey = B
-    .filepickertitle = Tagh faidhle news.rc
 account-settings-local-directory =
     .value = Am pasgan ionadail:
 account-settings-browse-local-directory =
+    .filepickertitle = Tagh am pasgan ionadail
     .label = Brabhsaich…
     .accesskey = B
-    .filepickertitle = Tagh am pasgan ionadail
 account-settings-default-text-encoding =
     .value = An còdachadh teacsa bunaiteach:
 

@@ -3,9 +3,6 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-## Incoming server settings
-
-
 ## Local Folders and RSS account settings
 
 # Variables:
@@ -26,6 +23,3 @@ account-settings-rss-manage-subscriptions =
 
 account-settings-rss-wizard-title = Axın Hesabı Sehirbazı
 account-settings-rss-default-account-name = Bloq və Xəbər axınları
-
-## Advanced server settings
-

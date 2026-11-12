@@ -86,15 +86,15 @@ account-settings-message-store-maildir =
 account-settings-newsrc-file =
     .value = Файл News.rc:
 account-settings-browse-newsrc =
+    .filepickertitle = Обрати файл News.rc
     .label = Огляд…
     .accesskey = О
-    .filepickertitle = Обрати файл News.rc
 account-settings-local-directory =
     .value = Локальний каталог:
 account-settings-browse-local-directory =
+    .filepickertitle = Розташування локальних каталогів
     .label = Огляд…
     .accesskey = О
-    .filepickertitle = Розташування локальних каталогів
 account-settings-default-text-encoding =
     .value = Типове кодування шрифту:
 

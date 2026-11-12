@@ -4,4 +4,5 @@
 
 <!-- extracted from AccountManager.xhtml -->
 <!ENTITY accountManagerTitle.label "Postafiók beállításai">
+<!-- extracted from AccountManager.xhtml -->
 <!ENTITY accountManagerCloseButton.label "Bezárás">

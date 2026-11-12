@@ -543,9 +543,6 @@ no-preview-description = Ova tema nije važeća ili trenutno nije dostupna (onem
 chat-variant-label =
     .value = Varijanta:
     .accesskey = V
-
-## Content of the preview conversation for chat message styles.
-
 chat-theme-preview-default =
     .label = Zadano
 chat-theme-preview-nick-1 = Florian

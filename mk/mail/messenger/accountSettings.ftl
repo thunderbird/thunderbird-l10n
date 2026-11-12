@@ -56,9 +56,9 @@ account-settings-empty-trash-on-exit =
     .label = При излегување испразни го ѓубрето
     .accesskey = б
 account-settings-browse-local-directory =
+    .filepickertitle = Избор на локален директориум
     .label = Разгледај…
     .accesskey = Р
-    .filepickertitle = Избор на локален директориум
 
 ## Local Folders and RSS account settings
 
@@ -76,9 +76,6 @@ account-settings-rss-server-settings = Поставки на серверот
 account-settings-rss-manage-subscriptions =
     .label = Уреди ги претплатите…
     .accesskey = р
-
-## Feed account wizard
-
 
 ## Advanced server settings
 

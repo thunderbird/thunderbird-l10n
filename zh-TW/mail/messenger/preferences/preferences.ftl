@@ -1217,9 +1217,6 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = 您的 { -brand-short-name } 受到組織管理。
 managed-notice = 您的 { -brand-short-name } 受到組織管理。
-
-## Content of the preview conversation for chat message styles.
-
 chat-theme-preview-default =
     .label = 預設值
 chat-theme-preview-nick-1 = 家豪

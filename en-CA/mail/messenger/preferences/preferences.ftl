@@ -939,9 +939,6 @@ search-preferences-input2 =
     .placeholder = Find in Settings
     .style = width: 15.4em
 managed-notice = { -brand-short-name } is being managed by your organization.
-
-## Content of the preview conversation for chat message styles.
-
 chat-theme-preview-default =
     .label = Default
 chat-theme-preview-nick-1 = Florian

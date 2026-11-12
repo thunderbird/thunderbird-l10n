@@ -14,7 +14,6 @@ cookies-stored-label2 =
     .value = A sütik ezen a számítógépen vannak tárolva
 cookies-filtered-label =
     .value = A következő sütik illeszkednek a keresőfeltételre:
-cookies-stored-label = A sütik ezen a számítógépen vannak tárolva
 cookies-on-system-label = Az alábbi sütik vannak a számítógépen tárolva:
 treecol-site-header =
     .label = Webhely

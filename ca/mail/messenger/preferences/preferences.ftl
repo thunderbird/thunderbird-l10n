@@ -978,9 +978,6 @@ chat-variant-label =
 search-preferences-input2 =
     .placeholder = Cerca en els paràmetres
     .style = width: 19em
-
-## Content of the preview conversation for chat message styles.
-
 chat-theme-preview-default =
     .label = Per defecte
 chat-theme-preview-nick-1 = Florian

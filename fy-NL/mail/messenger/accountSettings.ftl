@@ -208,15 +208,15 @@ account-settings-message-store-maildir =
 account-settings-newsrc-file =
     .value = Newsrc-bestân:
 account-settings-browse-newsrc =
+    .filepickertitle = Newsrc-bestân selektearje
     .label = Blêdzje…
     .accesskey = e
-    .filepickertitle = Newsrc-bestân selektearje
 account-settings-local-directory =
     .value = Lokale map:
 account-settings-browse-local-directory =
+    .filepickertitle = Selektearje lokale map
     .label = Blêdzje…
     .accesskey = B
-    .filepickertitle = Selektearje lokale map
 account-settings-default-text-encoding =
     .value = Standert tekenkodearing:
 

@@ -208,15 +208,15 @@ account-settings-message-store-maildir =
 account-settings-newsrc-file =
     .value = News.rc 檔案:
 account-settings-browse-newsrc =
+    .filepickertitle = 選擇 News.rc 檔案
     .label = 瀏覽…
     .accesskey = e
-    .filepickertitle = 選擇 News.rc 檔案
 account-settings-local-directory =
     .value = 本機目錄：
 account-settings-browse-local-directory =
+    .filepickertitle = 選取本地目錄
     .label = 瀏覽…
     .accesskey = B
-    .filepickertitle = 選取本地目錄
 account-settings-default-text-encoding =
     .value = 預設文字編碼:
 

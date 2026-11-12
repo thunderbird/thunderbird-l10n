@@ -14,7 +14,6 @@ cookies-stored-label2 =
     .value = Cookieak ordenagailu honetan gordetzen dira.
 cookies-filtered-label =
     .value = Hurrengo cookieak bat datoz zure bilaketarekin:
-cookies-stored-label = Cookieak ordenagailu honetan gordetzen dira.
 cookies-on-system-label = Honako cookie hauek daude gorderik zure ordenagailuan:
 treecol-site-header =
     .label = Gunea

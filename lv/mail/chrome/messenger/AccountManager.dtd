@@ -4,4 +4,5 @@
 
 <!-- extracted from AccountManager.xhtml -->
 <!ENTITY accountManagerTitle.label "Konta iestatījumi">
+<!-- extracted from AccountManager.xhtml -->
 <!ENTITY accountManagerCloseButton.label "Aizvērt">

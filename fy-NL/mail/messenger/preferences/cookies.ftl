@@ -14,7 +14,6 @@ cookies-stored-label2 =
     .value = Cookies wurde op dizze kompjûter bewarre
 cookies-filtered-label =
     .value = De folgjende cookies komme oerien mei jo sykaksje:
-cookies-stored-label = Cookies wurde op dizze kompjûter bewarre
 cookies-on-system-label = De folgjende cookies binne op jo kompjûter bewarre:
 treecol-site-header =
     .label = Side

@@ -208,15 +208,15 @@ account-settings-message-store-maildir =
 account-settings-newsrc-file =
     .value = پروندهٔ News.rc:
 account-settings-browse-newsrc =
+    .filepickertitle = انتخاب پروندهٔ News.rc
     .label = مرور…
     .accesskey = م
-    .filepickertitle = انتخاب پروندهٔ News.rc
 account-settings-local-directory =
     .value = شاخهٔ محلی:
 account-settings-browse-local-directory =
+    .filepickertitle = Select Local Directory
     .label = مرور…
     .accesskey = م
-    .filepickertitle = Select Local Directory
 account-settings-default-text-encoding =
     .value = کدگذاری متن پیش‌گزیده:
 

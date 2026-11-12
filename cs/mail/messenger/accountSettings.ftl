@@ -208,15 +208,15 @@ account-settings-message-store-maildir =
 account-settings-newsrc-file =
     .value = Soubor News.rc:
 account-settings-browse-newsrc =
+    .filepickertitle = Vyberte soubor News.rc
     .label = Procházet…
     .accesskey = r
-    .filepickertitle = Vyberte soubor News.rc
 account-settings-local-directory =
     .value = Místní adresář:
 account-settings-browse-local-directory =
+    .filepickertitle = Vyberte místní adresář
     .label = Procházet…
     .accesskey = P
-    .filepickertitle = Vyberte místní adresář
 account-settings-default-text-encoding =
     .value = Výchozí znaková sada textu:
 

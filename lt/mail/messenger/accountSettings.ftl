@@ -91,15 +91,15 @@ account-settings-message-store-maildir =
 account-settings-newsrc-file =
     .value = „News.rc“ failas:
 account-settings-browse-newsrc =
+    .filepickertitle = Parinkite „News.rc“ failą
     .label = Parinkti…
     .accesskey = n
-    .filepickertitle = Parinkite „News.rc“ failą
 account-settings-local-directory =
     .value = Vietinis aplankas
 account-settings-browse-local-directory =
+    .filepickertitle = Vietinio aplanko parinkimas
     .label = Parinkti…
     .accesskey = r
-    .filepickertitle = Vietinio aplanko parinkimas
 account-settings-default-text-encoding =
     .value = Numatytoji teksto koduotė:
 

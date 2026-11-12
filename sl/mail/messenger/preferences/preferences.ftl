@@ -952,9 +952,6 @@ search-preferences-input2 =
     .placeholder = Najdi v nastavitvah
     .style = width: 15.4em
 managed-notice = { -brand-short-name } upravlja vaša organizacija.
-
-## Content of the preview conversation for chat message styles.
-
 chat-theme-preview-default =
     .label = Privzeto
 chat-theme-preview-nick-1 = Jani

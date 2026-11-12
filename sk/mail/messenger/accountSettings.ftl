@@ -208,15 +208,15 @@ account-settings-message-store-maildir =
 account-settings-newsrc-file =
     .value = Súbor News.rc:
 account-settings-browse-newsrc =
+    .filepickertitle = Vybrať súbor News.rc
     .label = Prehľadávať…
     .accesskey = d
-    .filepickertitle = Vybrať súbor News.rc
 account-settings-local-directory =
     .value = Lokálny priečinok:
 account-settings-browse-local-directory =
+    .filepickertitle = Výber lokálneho priečinka
     .label = Prehľadávať…
     .accesskey = h
-    .filepickertitle = Výber lokálneho priečinka
 account-settings-default-text-encoding =
     .value = Štandardné kódovanie textu:
 

@@ -208,15 +208,15 @@ account-settings-message-store-maildir =
 account-settings-newsrc-file =
     .value = Ffeil News.rc:
 account-settings-browse-newsrc =
+    .filepickertitle = Dewis Ffeil News.rc
     .label = Pori…
     .accesskey = o
-    .filepickertitle = Dewis Ffeil News.rc
 account-settings-local-directory =
     .value = Cyfeiriadur Lleol:
 account-settings-browse-local-directory =
+    .filepickertitle = Dewis Cyfeiriadur Lleol
     .label = Pori…
     .accesskey = P
-    .filepickertitle = Dewis Cyfeiriadur Lleol
 account-settings-default-text-encoding =
     .value = Amgodiad Testun Rhagosodedig:
 

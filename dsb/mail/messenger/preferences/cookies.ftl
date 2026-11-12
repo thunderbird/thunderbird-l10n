@@ -14,7 +14,6 @@ cookies-stored-label2 =
     .value = Cookieje se na toś tom licadle składuju
 cookies-filtered-label =
     .value = Slědujuce cookieje wótpowěduju wašomu pytanjeju:
-cookies-stored-label = Cookieje se na toś tom licadle składuju
 cookies-on-system-label = Slědujuce cookieje su na wašom licadle składowane:
 treecol-site-header =
     .label = Sedło

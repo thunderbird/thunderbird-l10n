@@ -935,9 +935,6 @@ search-preferences-input2 =
     .placeholder = Gjeni te Rregullime
     .style = width: 20em
 managed-notice = { -brand-short-name } administrohet nga enti juaj.
-
-## Content of the preview conversation for chat message styles.
-
 chat-theme-preview-default =
     .label = Parazgjedhje
 chat-theme-preview-nick-1 = Florian

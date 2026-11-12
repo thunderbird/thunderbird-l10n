@@ -1137,9 +1137,6 @@ search-preferences-input2 =
     .placeholder = 설정에서 찾기
     .style = width: 15.4em
 managed-notice = { -brand-short-name }는 사용자의 조직에서 관리하고 있습니다.
-
-## Content of the preview conversation for chat message styles.
-
 chat-theme-preview-default =
     .label = 기본
 chat-theme-preview-nick-1 = Florian

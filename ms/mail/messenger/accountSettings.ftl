@@ -76,9 +76,9 @@ account-settings-message-store-mbox =
 account-settings-message-store-maildir =
     .label = Fail setiap mesej (maildir)
 account-settings-browse-local-directory =
+    .filepickertitle = Pilih Direktori Lokal
     .label = Cari…
     .accesskey = C
-    .filepickertitle = Pilih Direktori Lokal
 account-settings-default-text-encoding =
     .value = Pengekodan Teks Piawai:
 

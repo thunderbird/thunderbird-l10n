@@ -148,15 +148,15 @@ account-settings-message-store-maildir =
 account-settings-newsrc-file =
     .value = News.rc-fil:
 account-settings-browse-newsrc =
+    .filepickertitle = Vælg News.rc-fil
     .label = Gennemse…
     .accesskey = e
-    .filepickertitle = Vælg News.rc-fil
 account-settings-local-directory =
     .value = Lokal mappe:
 account-settings-browse-local-directory =
+    .filepickertitle = Vælg lokal mappe
     .label = Gennemse…
     .accesskey = G
-    .filepickertitle = Vælg lokal mappe
 account-settings-default-text-encoding =
     .value = Standardtegnkodning:
 

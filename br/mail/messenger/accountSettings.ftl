@@ -78,15 +78,15 @@ account-settings-message-store-maildir =
 account-settings-newsrc-file =
     .value = Restr news.rc:
 account-settings-browse-newsrc =
+    .filepickertitle = Dizuañ ar restr news.rc
     .label = Furchal…
     .accesskey = F
-    .filepickertitle = Dizuañ ar restr news.rc
 account-settings-local-directory =
     .value = Kavlec’h lec’hel:
 account-settings-browse-local-directory =
+    .filepickertitle = Diuzañ ar c'havlec'hiadoù lec'hel :
     .label = Furchal…
     .accesskey = F
-    .filepickertitle = Diuzañ ar c'havlec'hiadoù lec'hel :
 account-settings-default-text-encoding =
     .value = Bonegadur an arouezioù dre ziouer :
 

@@ -181,15 +181,15 @@ account-settings-message-store-maildir =
 account-settings-newsrc-file =
     .value = News.rc datne:
 account-settings-browse-newsrc =
+    .filepickertitle = Izvēlieties News.rc failu
     .label = Pārlūkot…
     .accesskey = r
-    .filepickertitle = Izvēlieties News.rc failu
 account-settings-local-directory =
     .value = Vietējā mape:
 account-settings-browse-local-directory =
+    .filepickertitle = Izvēlieties lokālo mapi
     .label = Pārlūkot...
     .accesskey = P
-    .filepickertitle = Izvēlieties lokālo mapi
 account-settings-default-text-encoding =
     .value = Noklusējuma teksta kodējums:
 

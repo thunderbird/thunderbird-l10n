@@ -208,15 +208,15 @@ account-settings-message-store-maildir =
 account-settings-newsrc-file =
     .value = News.rc-bestand:
 account-settings-browse-newsrc =
+    .filepickertitle = News.rc-bestand selecteren
     .label = Bladeren…
     .accesskey = e
-    .filepickertitle = News.rc-bestand selecteren
 account-settings-local-directory =
     .value = Lokale map:
 account-settings-browse-local-directory =
+    .filepickertitle = Lokale map selecteren
     .label = Bladeren…
     .accesskey = B
-    .filepickertitle = Lokale map selecteren
 account-settings-default-text-encoding =
     .value = Standaard tekstcodering:
 

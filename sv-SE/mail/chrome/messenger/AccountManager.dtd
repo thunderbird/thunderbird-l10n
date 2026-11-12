@@ -4,4 +4,5 @@
 
 <!-- extracted from AccountManager.xhtml -->
 <!ENTITY accountManagerTitle.label "Kontoinställningar för e-post och diskussionsgrupper">
+<!-- extracted from AccountManager.xhtml -->
 <!ENTITY accountManagerCloseButton.label "Stäng">

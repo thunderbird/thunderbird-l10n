@@ -76,9 +76,9 @@ account-settings-message-store-mbox =
 account-settings-message-store-maildir =
     .label = dosiero por mesaĝo (maildir)
 account-settings-browse-local-directory =
+    .filepickertitle = Elekti lokan dosierujon
     .label = Esplori…
     .accesskey = E
-    .filepickertitle = Elekti lokan dosierujon
 account-settings-default-text-encoding =
     .value = Implicita teksta kodprezento:
 

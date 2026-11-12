@@ -76,9 +76,9 @@ account-settings-message-store-mbox =
 account-settings-message-store-maildir =
     .label = Har bir xabardagi fayl (maildir)
 account-settings-browse-local-directory =
+    .filepickertitle = Kompyuterdagi jildni tanlash
     .label = Ko‘rish…
     .accesskey = r
-    .filepickertitle = Kompyuterdagi jildni tanlash
 account-settings-default-text-encoding =
     .value = Asosiy matnni kodlash usuli:
 

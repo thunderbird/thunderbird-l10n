@@ -76,9 +76,9 @@ account-settings-message-store-mbox =
 account-settings-message-store-maildir =
     .label = ملف لكل رسالة (maildir)
 account-settings-browse-local-directory =
+    .filepickertitle = اختر دليلًا محلِّيًا
     .label = تصفّح…
     .accesskey = ص
-    .filepickertitle = اختر دليلًا محلِّيًا
 account-settings-default-text-encoding =
     .value = ترميز النص المبدئي:
 

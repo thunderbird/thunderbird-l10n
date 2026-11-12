@@ -78,15 +78,15 @@ account-settings-message-store-maildir =
 account-settings-newsrc-file =
     .value = News.rc նիշը.
 account-settings-browse-newsrc =
+    .filepickertitle = Նշել News.rc նիշը
     .label = Դիտարկել…
     .accesskey = ե
-    .filepickertitle = Նշել News.rc նիշը
 account-settings-local-directory =
     .value = Տեղային գրացուցակ.
 account-settings-browse-local-directory =
+    .filepickertitle = Նշէք տեղային գրացուցակը
     .label = Դիտարկել…
     .accesskey = Դ
-    .filepickertitle = Նշէք տեղային գրացուցակը
 account-settings-default-text-encoding =
     .value = Գրոյթի լռելեայն կոդաւորում․
 

@@ -1167,9 +1167,6 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = { -brand-short-name } bir kuruluş tarafından yönetiliyor.
 managed-notice = { -brand-short-name } kuruluşunuz tarafından yönetiliyor.
-
-## Content of the preview conversation for chat message styles.
-
 chat-theme-preview-default =
     .label = Varsayılan
 chat-theme-preview-nick-1 = Esin

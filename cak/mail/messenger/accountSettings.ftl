@@ -78,15 +78,15 @@ account-settings-message-store-maildir =
 account-settings-newsrc-file =
     .value = News.rc Yakb'äl:
 account-settings-browse-newsrc =
+    .filepickertitle = Ticha' News.rc Yakb'äl
     .label = Tokik'amayin…
     .accesskey = o
-    .filepickertitle = Ticha' News.rc Yakb'äl
 account-settings-local-directory =
     .value = Aj wawe' Cholb'äl:
 account-settings-browse-local-directory =
+    .filepickertitle = Ticha' Aj Wawe' Cholb'äl
     .label = Tokik'amayin…
     .accesskey = o
-    .filepickertitle = Ticha' Aj Wawe' Cholb'äl
 account-settings-default-text-encoding =
     .value = Runuk'ik Rucholajem Tzij e K'o wi:
 

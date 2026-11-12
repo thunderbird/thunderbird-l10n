@@ -173,15 +173,15 @@ account-settings-message-store-maildir =
 account-settings-newsrc-file =
     .value = News.rc 파일:
 account-settings-browse-newsrc =
+    .filepickertitle = News.rc 파일 선택
     .label = 찾아보기…
     .accesskey = e
-    .filepickertitle = News.rc 파일 선택
 account-settings-local-directory =
     .value = 로컬 디렉토리:
 account-settings-browse-local-directory =
+    .filepickertitle = 로컬 디렉터리 위치
     .label = 찾아보기…
     .accesskey = B
-    .filepickertitle = 로컬 디렉터리 위치
 account-settings-default-text-encoding =
     .value = 기본 문자 인코딩:
 

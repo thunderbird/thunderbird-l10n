@@ -148,15 +148,15 @@ account-settings-message-store-maildir =
 account-settings-newsrc-file =
     .value = News.rc датотека:
 account-settings-browse-newsrc =
+    .filepickertitle = Изабери News.rc датотеку
     .label = Прегледај…
     .accesskey = е
-    .filepickertitle = Изабери News.rc датотеку
 account-settings-local-directory =
     .value = Локална фасцикла:
 account-settings-browse-local-directory =
+    .filepickertitle = Изаберите локалну фасциклу
     .label = Прегледај…
     .accesskey = П
-    .filepickertitle = Изаберите локалну фасциклу
 account-settings-default-text-encoding =
     .value = Подразумевано кодирање текста:
 

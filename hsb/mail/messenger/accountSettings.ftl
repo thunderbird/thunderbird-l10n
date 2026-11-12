@@ -208,15 +208,15 @@ account-settings-message-store-maildir =
 account-settings-newsrc-file =
     .value = Dataja News.rc:
 account-settings-browse-newsrc =
+    .filepickertitle = Dataju News.rc wubrać
     .label = Přepytać…
     .accesskey = e
-    .filepickertitle = Dataju News.rc wubrać
 account-settings-local-directory =
     .value = Lokalny zapis:
 account-settings-browse-local-directory =
+    .filepickertitle = Lokalny zapis wubrać
     .label = Přepytać…
     .accesskey = P
-    .filepickertitle = Lokalny zapis wubrać
 account-settings-default-text-encoding =
     .value = Standardne tekstowe kodowanje:
 

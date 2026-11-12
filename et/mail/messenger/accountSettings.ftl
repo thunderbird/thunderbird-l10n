@@ -86,15 +86,15 @@ account-settings-message-store-maildir =
 account-settings-newsrc-file =
     .value = News.rc fail:
 account-settings-browse-newsrc =
+    .filepickertitle = Vali News.rc fail
     .label = Lehitse...
     .accesskey = i
-    .filepickertitle = Vali News.rc fail
 account-settings-local-directory =
     .value = Kohalik kaust:
 account-settings-browse-local-directory =
+    .filepickertitle = Kohaliku kausta valimine
     .label = Lehitse...
     .accesskey = L
-    .filepickertitle = Kohaliku kausta valimine
 account-settings-default-text-encoding =
     .value = Vaikimisi kodeering:
 

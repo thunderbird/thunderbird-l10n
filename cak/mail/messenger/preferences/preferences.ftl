@@ -617,9 +617,6 @@ no-preview-description = Man okel ta re wachinïk re' o man wachel ta wakami (ch
 chat-variant-label =
     .value = Rujalik:
     .accesskey = R
-
-## Content of the preview conversation for chat message styles.
-
 chat-theme-preview-default =
     .label = K'o wi
 chat-theme-preview-nick-1 = Florian

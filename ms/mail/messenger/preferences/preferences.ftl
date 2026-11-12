@@ -556,9 +556,6 @@ no-preview-description = Tema ini tidak sah atau tidak tersedia masa ini (add-on
 chat-variant-label =
     .value = Varian:
     .accesskey = V
-
-## Content of the preview conversation for chat message styles.
-
 chat-theme-preview-default =
     .label = Piawai
 chat-theme-preview-nick-1 = Florian

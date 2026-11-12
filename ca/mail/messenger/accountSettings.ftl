@@ -86,15 +86,15 @@ account-settings-message-store-maildir =
 account-settings-newsrc-file =
     .value = Fitxer News.rc:
 account-settings-browse-newsrc =
+    .filepickertitle = Selecciona el fitxer News.rc
     .label = Navega…
     .accesskey = e
-    .filepickertitle = Selecciona el fitxer News.rc
 account-settings-local-directory =
     .value = Directori local:
 account-settings-browse-local-directory =
+    .filepickertitle = Seleccioneu el directori local
     .label = Navega…
     .accesskey = N
-    .filepickertitle = Seleccioneu el directori local
 account-settings-default-text-encoding =
     .value = Codificació del text per defecte:
 

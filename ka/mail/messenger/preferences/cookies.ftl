@@ -14,7 +14,6 @@ cookies-stored-label2 =
     .value = ფუნთუშები ინახება ამ კომპიუტერში
 cookies-filtered-label =
     .value = მოძიებული ფუნთუშები:
-cookies-stored-label = ფუნთუშები ინახება ამ კომპიუტერში
 cookies-on-system-label = თქვენს კომპიუტერში შემდეგი ფუნთუშები ინახება:
 treecol-site-header =
     .label = საიტი

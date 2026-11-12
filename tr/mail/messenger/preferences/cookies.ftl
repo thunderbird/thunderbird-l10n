@@ -14,7 +14,6 @@ cookies-stored-label2 =
     .value = Çerezler bu bilgisayarda depolanır
 cookies-filtered-label =
     .value = Aşağıdaki çerezler aradığınızla uyuşuyor:
-cookies-stored-label = Çerezler bu bilgisayarda depolanır
 cookies-on-system-label = Aşağıdaki çerezler bilgisayarınızda depolanmıştır:
 treecol-site-header =
     .label = Site

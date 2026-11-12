@@ -78,9 +78,9 @@ account-settings-message-store-mbox =
 account-settings-message-store-maildir =
     .label = ឯកសារ​ក្នុង​សារ​មួយ (maildir)
 account-settings-browse-local-directory =
+    .filepickertitle = Ընտրեք լոկալ թղթապանակը
     .label = Browse…
     .accesskey = B
-    .filepickertitle = Ընտրեք լոկալ թղթապանակը
 account-settings-default-text-encoding =
     .value = ការ​អ៊ិនកូដ​អត្ថបទ​លំនាំដើម៖
 

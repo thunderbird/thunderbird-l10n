@@ -14,7 +14,6 @@ cookies-stored-label2 =
     .value = Куки хранятся на этом компьютере
 cookies-filtered-label =
     .value = Строке поиска соответствуют следующие куки:
-cookies-stored-label = Куки хранятся на этом компьютере
 cookies-on-system-label = На вашем компьютере сохранены следующие куки:
 treecol-site-header =
     .label = Сайт

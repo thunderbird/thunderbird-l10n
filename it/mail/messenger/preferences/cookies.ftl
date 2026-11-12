@@ -14,7 +14,6 @@ cookies-stored-label2 =
     .value = I cookie sono memorizzati su questo computer
 cookies-filtered-label =
     .value = I seguenti cookie corrispondono alla ricerca:
-cookies-stored-label = I cookie sono memorizzati su questo computer
 cookies-on-system-label = I seguenti cookie sono memorizzati sul computer:
 treecol-site-header =
     .label = Sito

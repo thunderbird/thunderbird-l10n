@@ -148,15 +148,15 @@ account-settings-message-store-maildir =
 account-settings-newsrc-file =
     .value = Datoteka news.rc:
 account-settings-browse-newsrc =
+    .filepickertitle = Izberi datoteko news.rc
     .label = Prebrskaj …
     .accesskey = k
-    .filepickertitle = Izberi datoteko news.rc
 account-settings-local-directory =
     .value = Krajevna mapa:
 account-settings-browse-local-directory =
+    .filepickertitle = Izberi krajevni imenik
     .label = Prebrskaj …
     .accesskey = B
-    .filepickertitle = Izberi krajevni imenik
 account-settings-default-text-encoding =
     .value = Privzeto kodiranje besedila:
 

@@ -1219,9 +1219,6 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = { -brand-short-name } توسط یک سازمان مدیریت می‌شود.
 managed-notice = { -brand-short-name } توسط سازمان شما مدیریت می‌شود.
-
-## Content of the preview conversation for chat message styles.
-
 chat-theme-preview-default =
     .label = پیش فرض
 chat-theme-preview-nick-1 = فلوریان

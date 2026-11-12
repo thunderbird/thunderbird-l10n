@@ -194,15 +194,15 @@ account-settings-message-store-maildir =
 account-settings-newsrc-file =
     .value = Αρχείο News.rc:
 account-settings-browse-newsrc =
+    .filepickertitle = Επιλογή αρχείου News.rc
     .label = Περιήγηση…
     .accesskey = ε
-    .filepickertitle = Επιλογή αρχείου News.rc
 account-settings-local-directory =
     .value = Τοπικός κατάλογος:
 account-settings-browse-local-directory =
+    .filepickertitle = Επιλογή τοπικού καταλόγου
     .label = Περιήγηση…
     .accesskey = γ
-    .filepickertitle = Επιλογή τοπικού καταλόγου
 account-settings-default-text-encoding =
     .value = Προεπιλεγμένη κωδικοποίηση χαρακτήρων:
 

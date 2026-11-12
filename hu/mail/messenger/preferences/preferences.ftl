@@ -1223,9 +1223,6 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = A { -brand-short-name }öt a szervezete kezeli.
 managed-notice = A { -brand-short-name }ot a szervezete kezeli.
-
-## Content of the preview conversation for chat message styles.
-
 chat-theme-preview-default =
     .label = Alapértelmezett
 chat-theme-preview-nick-1 = Florian

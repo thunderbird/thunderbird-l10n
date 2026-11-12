@@ -112,15 +112,15 @@ account-settings-message-store-maildir =
 account-settings-newsrc-file =
     .value = ไฟล์ News.rc:
 account-settings-browse-newsrc =
+    .filepickertitle = เลือกไฟล์ News.rc
     .label = เรียกดู…
     .accesskey = ย
-    .filepickertitle = เลือกไฟล์ News.rc
 account-settings-local-directory =
     .value = ไดเรกทอรีในเครื่อง:
 account-settings-browse-local-directory =
+    .filepickertitle = เลือกไดเรกทอรีในเครื่อง
     .label = เรียกดู…
     .accesskey = ร
-    .filepickertitle = เลือกไดเรกทอรีในเครื่อง
 account-settings-default-text-encoding =
     .value = รหัสอักขระเริ่มต้น:
 

@@ -660,9 +660,6 @@ no-preview-description = Այս թեման վավեր չէ կամ ներկայո
 chat-variant-label =
     .value = Տարբերակ․
     .accesskey = V
-
-## Content of the preview conversation for chat message styles.
-
 chat-theme-preview-default =
     .label = Լռելյայն
 chat-theme-preview-nick-1 = Florian

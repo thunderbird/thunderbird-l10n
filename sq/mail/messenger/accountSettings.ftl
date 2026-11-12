@@ -109,15 +109,15 @@ account-settings-message-store-maildir =
 account-settings-newsrc-file =
     .value = Kartelë News.rc:
 account-settings-browse-newsrc =
+    .filepickertitle = Përzgjidhni Kartelë News.rc
     .label = Shfletoni…
     .accesskey = S
-    .filepickertitle = Përzgjidhni Kartelë News.rc
 account-settings-local-directory =
     .value = Drejtori Vendore:
 account-settings-browse-local-directory =
+    .filepickertitle = Përzgjidhni Drejtori Vendore
     .label = Shfletoni…
     .accesskey = S
-    .filepickertitle = Përzgjidhni Drejtori Vendore
 account-settings-default-text-encoding =
     .value = Kodim Parazgjedhje Tekstesh:
 

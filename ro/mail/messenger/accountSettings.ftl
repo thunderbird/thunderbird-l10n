@@ -148,15 +148,15 @@ account-settings-message-store-maildir =
 account-settings-newsrc-file =
     .value = Fișier News.rc:
 account-settings-browse-newsrc =
+    .filepickertitle = Selectează fișierul News.rc
     .label = Răsfoiește…
     .accesskey = e
-    .filepickertitle = Selectează fișierul News.rc
 account-settings-local-directory =
     .value = Director local:
 account-settings-browse-local-directory =
+    .filepickertitle = Selectează directorul local
     .label = Răsfoiește…
     .accesskey = f
-    .filepickertitle = Selectează directorul local
 account-settings-default-text-encoding =
     .value = Codarea implicită pentru text:
 

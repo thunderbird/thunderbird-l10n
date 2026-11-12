@@ -14,7 +14,6 @@ cookies-stored-label2 =
     .value = Mae cwcis yn cael eu storio ar y cyfrifiadur hwn
 cookies-filtered-label =
     .value = Mae'r cwcis canlynol yn cyd-fynd â'r chwilio:
-cookies-stored-label = Mae cwcis yn cael eu storio ar y cyfrifiadur hwn
 cookies-on-system-label = Mae'r cwcis canlynol wedi'u cadw ar eich cyfrifiadur:
 treecol-site-header =
     .label = Gwefan

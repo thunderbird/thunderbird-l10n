@@ -14,7 +14,6 @@ cookies-stored-label2 =
     .value = Cookie файлдары осы компьютерде сақталады
 cookies-filtered-label =
     .value = Сіздің іздеуіңізге келесі cookies сәйкес келіп тұр:
-cookies-stored-label = Cookie файлдары осы компьютерде сақталады
 cookies-on-system-label = Компьютеріңізде келесі Cookies сақталған:
 treecol-site-header =
     .label = Сайты

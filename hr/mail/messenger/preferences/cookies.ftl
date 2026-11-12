@@ -14,7 +14,6 @@ cookies-stored-label2 =
     .value = Kolačići se pohranjuju na ovom računalu
 cookies-filtered-label =
     .value = Sljedeći kolačići odgovaraju vašem upitu:
-cookies-stored-label = Kolačići se pohranjuju na ovom računalu
 cookies-on-system-label = Sljedeći kolačići su spremljeni na vašem računalu:
 treecol-site-header =
     .label = Stranica

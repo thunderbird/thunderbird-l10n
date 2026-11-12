@@ -78,9 +78,9 @@ account-settings-message-store-maildir =
 account-settings-local-directory =
     .value = ספרייה מקומית:
 account-settings-browse-local-directory =
+    .filepickertitle = בחר ספרייה מקומית
     .label = עיון…
     .accesskey = ע
-    .filepickertitle = בחר ספרייה מקומית
 account-settings-default-text-encoding =
     .value = קידוד טקסט כבררת מחדל:
 

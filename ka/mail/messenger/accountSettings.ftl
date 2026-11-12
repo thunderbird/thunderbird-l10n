@@ -208,15 +208,15 @@ account-settings-message-store-maildir =
 account-settings-newsrc-file =
     .value = News.rc ფაილი:
 account-settings-browse-newsrc =
+    .filepickertitle = აირჩიეთ News.rc ფაილი
     .label = ამორჩევა…
     .accesskey = ე
-    .filepickertitle = აირჩიეთ News.rc ფაილი
 account-settings-local-directory =
     .value = ადგილობრივი საქაღალდე:
 account-settings-browse-local-directory =
+    .filepickertitle = ადგილობრივი საქაღალდის არჩევა
     .label = ამორჩევა…
     .accesskey = მ
-    .filepickertitle = ადგილობრივი საქაღალდის არჩევა
 account-settings-default-text-encoding =
     .value = ტექსტის ნაგულისხმევი კოდირება:
 

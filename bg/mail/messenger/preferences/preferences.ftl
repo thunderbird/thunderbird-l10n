@@ -916,9 +916,6 @@ search-preferences-input2 =
     .placeholder = Търсене в настройките
     .style = width: 16em
 managed-notice = { -brand-short-name } се управлява от вашата организация.
-
-## Content of the preview conversation for chat message styles.
-
 chat-theme-preview-default =
     .label = Стандартно
 chat-theme-preview-nick-1 = Филип

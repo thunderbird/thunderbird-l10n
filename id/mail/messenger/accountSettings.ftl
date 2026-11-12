@@ -148,15 +148,15 @@ account-settings-message-store-maildir =
 account-settings-newsrc-file =
     .value = File News.rc:
 account-settings-browse-newsrc =
+    .filepickertitle = Pilih File News.rc
     .label = Telusuri…
     .accesskey = T
-    .filepickertitle = Pilih File News.rc
 account-settings-local-directory =
     .value = Direktori Lokal:
 account-settings-browse-local-directory =
+    .filepickertitle = Pilih Direktori Lokal
     .label = Telusuri…
     .accesskey = T
-    .filepickertitle = Pilih Direktori Lokal
 account-settings-default-text-encoding =
     .value = Pengodean Teks Standar:
 

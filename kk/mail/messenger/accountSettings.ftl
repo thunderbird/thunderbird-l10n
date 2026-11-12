@@ -208,15 +208,15 @@ account-settings-message-store-maildir =
 account-settings-newsrc-file =
     .value = News.rc файлы:
 account-settings-browse-newsrc =
+    .filepickertitle = News.rc файлын таңдау
     .label = Қарап шығу…
     .accesskey = ш
-    .filepickertitle = News.rc файлын таңдау
 account-settings-local-directory =
     .value = Жергілікті бума:
 account-settings-browse-local-directory =
+    .filepickertitle = Жергілікті буманы таңдау
     .label = Қарап шығу…
     .accesskey = ш
-    .filepickertitle = Жергілікті буманы таңдау
 account-settings-default-text-encoding =
     .value = Мәтіннің бастапқы кодталуы:
 

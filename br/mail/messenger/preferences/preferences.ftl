@@ -631,9 +631,6 @@ no-preview-description = N'eo ket mat an tem-mañ pe dihegerz emañ evit ar mare
 chat-variant-label =
     .value = Variezon:
     .accesskey = V
-
-## Content of the preview conversation for chat message styles.
-
 chat-theme-preview-default =
     .label = Diouer
 chat-theme-preview-nick-1 = Florian

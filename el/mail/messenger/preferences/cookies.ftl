@@ -14,7 +14,6 @@ cookies-stored-label2 =
     .value = Τα cookie αποθηκεύονται σε αυτόν τον υπολογιστή
 cookies-filtered-label =
     .value = Τα ακόλουθα cookie ταιριάζουν με την αναζήτηση σας:
-cookies-stored-label = Τα cookie αποθηκεύονται σε αυτόν τον υπολογιστή
 cookies-on-system-label = Τα ακόλουθα cookie έχουν αποθηκευτεί στον υπολογιστή σας:
 treecol-site-header =
     .label = Ιστότοπος

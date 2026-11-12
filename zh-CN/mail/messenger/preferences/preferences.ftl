@@ -937,9 +937,6 @@ search-preferences-input2 =
     .placeholder = 查找设置
     .style = width: 15.4em
 managed-notice = { -brand-short-name } 由您的组织管理。
-
-## Content of the preview conversation for chat message styles.
-
 chat-theme-preview-default =
     .label = 默认
 chat-theme-preview-nick-1 = Florian

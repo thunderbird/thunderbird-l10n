@@ -1223,9 +1223,6 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = { -brand-short-name } wurdt troch in organisaasje beheard.
 managed-notice = { -brand-short-name } wurdt troch jo organisaasje beheard.
-
-## Content of the preview conversation for chat message styles.
-
 chat-theme-preview-default =
     .label = Standert
 chat-theme-preview-nick-1 = Florian

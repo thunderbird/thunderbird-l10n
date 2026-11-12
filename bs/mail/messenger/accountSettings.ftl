@@ -76,9 +76,9 @@ account-settings-message-store-mbox =
 account-settings-message-store-maildir =
     .label = Datoteka po poruci (maildir)
 account-settings-browse-local-directory =
+    .filepickertitle = Izaberite lokalni direktorij
     .label = Pregled…
     .accesskey = P
-    .filepickertitle = Izaberite lokalni direktorij
 account-settings-default-text-encoding =
     .value = Izvorno enkodiranje teksta:
 

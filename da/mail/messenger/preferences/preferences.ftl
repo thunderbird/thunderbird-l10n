@@ -1065,9 +1065,6 @@ search-preferences-input2 =
     .placeholder = Søg i indstillinger
     .style = width: 15.4em
 managed-notice = { -brand-short-name } administreres af din organisation.
-
-## Content of the preview conversation for chat message styles.
-
 chat-theme-preview-default =
     .label = Standard
 chat-theme-preview-nick-1 = Florian

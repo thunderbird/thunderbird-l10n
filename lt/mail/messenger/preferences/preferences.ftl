@@ -683,9 +683,6 @@ no-preview-description = Ši tema netinkama arba šiuo metu nepasiekiama (išjun
 chat-variant-label =
     .value = Variantas:
     .accesskey = V
-
-## Content of the preview conversation for chat message styles.
-
 chat-theme-preview-default =
     .label = Numatytasis
 chat-theme-preview-nick-1 = Florian

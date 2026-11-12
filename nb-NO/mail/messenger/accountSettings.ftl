@@ -201,15 +201,15 @@ account-settings-message-store-maildir =
 account-settings-newsrc-file =
     .value = News.rc-fil:
 account-settings-browse-newsrc =
+    .filepickertitle = Velg News.rc-fil
     .label = Bla gjennom …
     .accesskey = l
-    .filepickertitle = Velg News.rc-fil
 account-settings-local-directory =
     .value = Lokal mappe:
 account-settings-browse-local-directory =
+    .filepickertitle = Velg lokal mappe:
     .label = Bla gjennom …
     .accesskey = B
-    .filepickertitle = Velg lokal mappe:
 account-settings-default-text-encoding =
     .value = Standard tekstkoding:
 

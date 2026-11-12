@@ -168,15 +168,15 @@ account-settings-message-store-maildir =
 account-settings-newsrc-file =
     .value = News.rc skrá:
 account-settings-browse-newsrc =
+    .filepickertitle = Veldu News.rc skrá
     .label = Velja…
     .accesskey = e
-    .filepickertitle = Veldu News.rc skrá
 account-settings-local-directory =
     .value = Staðbundin mappa:
 account-settings-browse-local-directory =
+    .filepickertitle = Veldu staðbundna möppu
     .label = Velja…
     .accesskey = V
-    .filepickertitle = Veldu staðbundna möppu
 account-settings-default-text-encoding =
     .value = Sjálfgefin textakóðun:
 

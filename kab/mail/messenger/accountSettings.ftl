@@ -86,15 +86,15 @@ account-settings-message-store-maildir =
 account-settings-newsrc-file =
     .value = Afaylu News.rc:
 account-settings-browse-newsrc =
+    .filepickertitle = Fren afaylu News.rc
     .label = Ḍum…
     .accesskey = u
-    .filepickertitle = Fren afaylu News.rc
 account-settings-local-directory =
     .value = Akaram adigan:
 account-settings-browse-local-directory =
+    .filepickertitle = Fren akaram adigan
     .label = Ḍum…
     .accesskey = Ḍ
-    .filepickertitle = Fren akaram adigan
 account-settings-default-text-encoding =
     .value = Asettengel n uḍris amezwer:
 

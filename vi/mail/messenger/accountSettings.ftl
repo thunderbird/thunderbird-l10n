@@ -208,15 +208,15 @@ account-settings-message-store-maildir =
 account-settings-newsrc-file =
     .value = Tập tin News.rc:
 account-settings-browse-newsrc =
+    .filepickertitle = Chọn tập tin News.rc
     .label = Duyệt…
     .accesskey = e
-    .filepickertitle = Chọn tập tin News.rc
 account-settings-local-directory =
     .value = Thư mục cục bộ:
 account-settings-browse-local-directory =
+    .filepickertitle = Chọn thư mục cục bộ
     .label = Duyệt…
     .accesskey = B
-    .filepickertitle = Chọn thư mục cục bộ
 account-settings-default-text-encoding =
     .value = Bảng mã văn bản mặc định:
 

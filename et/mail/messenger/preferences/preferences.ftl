@@ -746,9 +746,6 @@ chat-variant-label =
 search-preferences-input2 =
     .placeholder = Otsi sätetest
     .style = width: 15.4em
-
-## Content of the preview conversation for chat message styles.
-
 chat-theme-preview-default =
     .label = Vaikimisi
 chat-theme-preview-nick-1 = Florian

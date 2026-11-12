@@ -208,15 +208,15 @@ account-settings-message-store-maildir =
 account-settings-newsrc-file =
     .value = News.rc fitxategia:
 account-settings-browse-newsrc =
+    .filepickertitle = Aukeratu News.rc fitxategia
     .label = Arakatu…
     .accesskey = u
-    .filepickertitle = Aukeratu News.rc fitxategia
 account-settings-local-directory =
     .value = Direktorio lokala:
 account-settings-browse-local-directory =
+    .filepickertitle = Hautatu direktorio lokala
     .label = Arakatu…
     .accesskey = A
-    .filepickertitle = Hautatu direktorio lokala
 account-settings-default-text-encoding =
     .value = Testu kodeketa lehenetsia:
 

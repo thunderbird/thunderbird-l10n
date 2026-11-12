@@ -112,15 +112,15 @@ account-settings-message-store-maildir =
 account-settings-newsrc-file =
     .value = News.rc File:
 account-settings-browse-newsrc =
+    .filepickertitle = Select News.rc File
     .label = Browse…
     .accesskey = e
-    .filepickertitle = Select News.rc File
 account-settings-local-directory =
     .value = Local Directory:
 account-settings-browse-local-directory =
+    .filepickertitle = Select Local Directory
     .label = Browse…
     .accesskey = B
-    .filepickertitle = Select Local Directory
 account-settings-default-text-encoding =
     .value = Default Text Encoding:
 

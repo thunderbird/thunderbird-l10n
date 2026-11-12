@@ -133,15 +133,15 @@ account-settings-message-store-maildir =
 account-settings-newsrc-file =
     .value = News.rc-tiedosto:
 account-settings-browse-newsrc =
+    .filepickertitle = Valitse News.rc-tiedosto
     .label = Selaa…
     .accesskey = S
-    .filepickertitle = Valitse News.rc-tiedosto
 account-settings-local-directory =
     .value = Paikallinen hakemisto:
 account-settings-browse-local-directory =
+    .filepickertitle = Valitse paikalliskansioiden sijainti
     .label = Selaa…
     .accesskey = e
-    .filepickertitle = Valitse paikalliskansioiden sijainti
 account-settings-default-text-encoding =
     .value = Oletusmerkistökoodaus:
 

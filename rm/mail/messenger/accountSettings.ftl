@@ -112,15 +112,15 @@ account-settings-message-store-maildir =
 account-settings-newsrc-file =
     .value = Datoteca News.rc:
 account-settings-browse-newsrc =
+    .filepickertitle = Tscherner ina datoteca News.rc
     .label = Tschertgar en…
     .accesskey = T
-    .filepickertitle = Tscherner ina datoteca News.rc
 account-settings-local-directory =
     .value = Ordinatur local:
 account-settings-browse-local-directory =
+    .filepickertitle = Tscherner in ordinatur local
     .label = Tschertgar en…
     .accesskey = T
-    .filepickertitle = Tscherner in ordinatur local
 account-settings-default-text-encoding =
     .value = Codaziun da text predefinida:
 

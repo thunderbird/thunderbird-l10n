@@ -84,9 +84,9 @@ account-settings-message-store-mbox =
 account-settings-message-store-maildir =
     .label = Адзін файл на паведамленне (maildir)
 account-settings-browse-local-directory =
+    .filepickertitle = Вылучыць мясцовую дырэкторыю
     .label = Агляд…
     .accesskey = г
-    .filepickertitle = Вылучыць мясцовую дырэкторыю
 account-settings-default-text-encoding =
     .value = Прадвызначанае кадаванне тэксту:
 

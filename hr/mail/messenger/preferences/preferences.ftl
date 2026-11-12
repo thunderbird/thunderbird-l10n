@@ -1113,9 +1113,6 @@ search-preferences-input2 =
     .placeholder = Pronađi u postavkama
     .style = width: 15.4em
 managed-notice = Programom { -brand-short-name } upravlja tvoja organizacija.
-
-## Content of the preview conversation for chat message styles.
-
 chat-theme-preview-default =
     .label = Zadano
 chat-theme-preview-nick-1 = Florian

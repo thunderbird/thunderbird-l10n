@@ -14,7 +14,6 @@ cookies-stored-label2 =
     .value = Infokapsler lagres på denne datamaskinen
 cookies-filtered-label =
     .value = Følgende infokapsler passer til søket:
-cookies-stored-label = Infokapsler lagres på denne datamaskinen
 cookies-on-system-label = Følgende infokapsler er lagret på datamaskinen din:
 treecol-site-header =
     .label = Nettsted

@@ -14,7 +14,6 @@ cookies-stored-label2 =
     .value = Evästeet tallennetaan tälle tietokoneelle
 cookies-filtered-label =
     .value = Seuraavat evästeet täsmäävät hakusi kanssa:
-cookies-stored-label = Evästeet tallennetaan tälle tietokoneelle
 cookies-on-system-label = Seuraavat evästeet on tallennettu tietokoneellesi:
 treecol-site-header =
     .label = Palvelin

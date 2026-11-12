@@ -799,9 +799,6 @@ no-preview-description = Šī tēma nav derīga vai pašlaik nav pieejama (atsp�
 chat-variant-label =
     .value = Variants:
     .accesskey = V
-
-## Content of the preview conversation for chat message styles.
-
 chat-theme-preview-default =
     .label = Noklusējums
 chat-theme-preview-nick-1 = Andris

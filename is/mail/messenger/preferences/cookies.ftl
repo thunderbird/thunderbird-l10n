@@ -14,7 +14,6 @@ cookies-stored-label2 =
     .value = Vefkökur eru geymdar á þessari tölvu
 cookies-filtered-label =
     .value = Eftirfarandi vefkökur passa við leitina:
-cookies-stored-label = Vefkökur eru geymdar á þessari tölvu
 cookies-on-system-label = Eftirfarandi vefkökur eru geymdar á tölvunni þinni:
 treecol-site-header =
     .label = Vefsvæði

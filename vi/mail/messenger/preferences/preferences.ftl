@@ -1223,9 +1223,6 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = { -brand-short-name } đang được quản lý bởi một tổ chức.
 managed-notice = { -brand-short-name } đang được quản lý bởi tổ chức của bạn.
-
-## Content of the preview conversation for chat message styles.
-
 chat-theme-preview-default =
     .label = Mặc định
 chat-theme-preview-nick-1 = Florian

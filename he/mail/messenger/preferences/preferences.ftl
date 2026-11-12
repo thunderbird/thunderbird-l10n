@@ -551,9 +551,6 @@ no-preview-label = אין תצוגה מקדימה זמינה
 chat-variant-label =
     .value = הגוון:
     .accesskey = ג
-
-## Content of the preview conversation for chat message styles.
-
 chat-theme-preview-default =
     .label = בררת מחדל
 chat-theme-preview-nick-1 = יסמין

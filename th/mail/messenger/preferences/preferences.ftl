@@ -884,9 +884,6 @@ search-preferences-input2 =
     .placeholder = ค้นหาในหน้าการตั้งค่า
     .style = width: 15.4em
 managed-notice = { -brand-short-name } กำลังถูกจัดการโดยองค์กรของคุณ
-
-## Content of the preview conversation for chat message styles.
-
 chat-theme-preview-default =
     .label = ค่าเริ่มต้น
 chat-theme-preview-nick-1 = Florian

@@ -1223,9 +1223,6 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = O { -brand-short-name } está a ser gerido por uma organização.
 managed-notice = O { -brand-short-name } está a ser gerido pela sua organização.
-
-## Content of the preview conversation for chat message styles.
-
 chat-theme-preview-default =
     .label = Predefinido
 chat-theme-preview-nick-1 = Florian

@@ -516,9 +516,6 @@ chat-custom-sound-label =
 chat-browse-sound-button =
     .label = Browse…
     .accesskey = B
-
-## Content of the preview conversation for chat message styles.
-
 chat-theme-preview-default =
     .label = Implicita
 chat-theme-preview-nick-1 = Floriano

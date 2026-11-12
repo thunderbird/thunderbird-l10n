@@ -1077,9 +1077,6 @@ search-preferences-input2 =
     .placeholder = Cari di Setelan
     .style = width: 15.4em
 managed-notice = { -brand-short-name } sedang dikelola oleh organisasi Anda.
-
-## Content of the preview conversation for chat message styles.
-
 chat-theme-preview-default =
     .label = Asali
 chat-theme-preview-nick-1 = Florian

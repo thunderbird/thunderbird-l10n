@@ -681,9 +681,6 @@ no-preview-description = Chan eil an t-ùrlar seo dligheach no chan eil e ri fha
 chat-variant-label =
     .value = Eug-samhail:
     .accesskey = V
-
-## Content of the preview conversation for chat message styles.
-
 chat-theme-preview-default =
     .label = Bun-roghainn
 chat-theme-preview-nick-1 = Iain Tormod

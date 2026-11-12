@@ -878,9 +878,6 @@ search-preferences-input2 =
     .placeholder = Atopar na configuración
     .style = width: 15.4em
 managed-notice = { -brand-short-name } está a ser xestionado pola túa organización.
-
-## Content of the preview conversation for chat message styles.
-
 chat-theme-preview-default =
     .label = Predeterminado
 chat-theme-preview-nick-1 = Florian

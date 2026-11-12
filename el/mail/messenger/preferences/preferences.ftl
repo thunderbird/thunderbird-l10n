@@ -1207,9 +1207,6 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = Το { -brand-short-name } ρυθμίζεται από έναν οργανισμό.
 managed-notice = Το { -brand-short-name } ρυθμίζεται από τον οργανισμό σας.
-
-## Content of the preview conversation for chat message styles.
-
 chat-theme-preview-default =
     .label = Προεπιλογή
 chat-theme-preview-nick-1 = Florian

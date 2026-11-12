@@ -1219,9 +1219,6 @@ search-preferences-input2 =
     .style = width: 15.4em
 managed-by-organization-notice = Mae { -brand-short-name } yn cael ei reoli gan sefydliad.
 managed-notice = Mae { -brand-short-name } yn cael ei reoli gan eich sefydliad.
-
-## Content of the preview conversation for chat message styles.
-
 chat-theme-preview-default =
     .label = Rhagosodedig
 chat-theme-preview-nick-1 = Florian
