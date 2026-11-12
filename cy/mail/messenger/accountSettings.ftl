@@ -137,6 +137,16 @@ oauth-provider-extension-info = Gosodiadau OAuth2 estyniad: <a data-l10n-name="e
 
 ## Local Folders and RSS account settings
 
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-account-name =
+    .value = Enw Cyfrif:
+    .accesskey = C
 account-settings-rss-enable-updates =
     .label = Galluogi diweddariad i bob llif
     .accesskey = G
