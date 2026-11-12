@@ -31,3 +31,14 @@ account-settings-rss-default-account-name = Blogs i canals de notícies
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = Paràmetres avançats del compte
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = Directori del servidor IMAP:
+    .accesskey = D
+account-settings-imap-show-subscribed-folders =
+    .label = Mostra només les carpetes subscrites
+    .accesskey = o
+account-settings-imap-dual-use-folders =
+    .label = El servidor permet l'ús de carpetes que contenen subcarpetes i missatges
+    .accesskey = v
