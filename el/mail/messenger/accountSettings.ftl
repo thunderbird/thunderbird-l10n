@@ -138,3 +138,7 @@ account-settings-rss-default-account-name = Blog και ροές ειδήσεω�
 
 ## Advanced server settings
 
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = Κατάλογος διακομιστή IMAP:
+    .accesskey = γ
