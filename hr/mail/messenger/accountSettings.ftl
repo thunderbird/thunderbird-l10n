@@ -97,6 +97,13 @@ account-settings-connection-security-starttls =
     .label = STARTTLS
 account-settings-connection-security-ssl-tls =
     .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Provjeri dostupnost novih poruka svakih
+    .accesskey = v
+account-settings-minutes =
+    .value = minuta
 account-settings-automatically-download-new-messages =
     .label = Automatski preuzmi nove poruke
     .accesskey = m
@@ -140,9 +147,24 @@ account-settings-message-store-maildir =
     .label = Datoteka po poruci (maildir)
 account-settings-newsrc-file =
     .value = News.rc datoteka:
+account-settings-browse-newsrc =
+    .label = Odaberi…
+    .accesskey = e
+    .filepickertitle = Odaberi News.rc datoteku
+account-settings-local-directory =
+    .value = Lokalna mapa:
+account-settings-browse-local-directory =
+    .label = Odaberi…
+    .accesskey = b
+    .filepickertitle = Odaberi lokalnu mapu
+account-settings-default-text-encoding =
+    .value = Zadano kodiranje teksta:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Postavke računa
+account-settings-title =
+    .value = Postavke računa
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
@@ -150,6 +172,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Sljedeći račun je poseban.  Nijedan identitet nije povezan s njime.
 account-settings-account-name =
     .value = Naziv računa:
     .accesskey = N
