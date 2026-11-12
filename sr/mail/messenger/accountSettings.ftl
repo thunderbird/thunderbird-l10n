@@ -75,9 +75,101 @@ oauth-provider-extension-info = OAuth2 подешавања која је обе
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = Врста сервера:
+account-settings-server-name =
+    .value = Име сервера:
+    .accesskey = С
+account-settings-user-name =
+    .value = Корисничко име:
+    .accesskey = и
+account-settings-port =
+    .value = Порт:
+    .accesskey = П
+account-settings-default-port =
+    .value = Подразумевано:
+account-settings-connection-security =
+    .value = Безбедност везе:
+    .accesskey = з
+account-settings-connection-security-none =
+    .label = Ништа
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+account-settings-automatically-download-new-messages =
+    .label = Аутоматски преузми нове поруке
+    .accesskey = м
+account-settings-fetch-headers-only =
+    .label = Преузми само заглавља
+    .accesskey = е
+account-settings-leave-messages-on-server =
+    .label = Остави поруке на серверу
+    .accesskey = к
+account-settings-leave-messages-for =
+    .label = Највише
+    .accesskey = а
+account-settings-days =
+    .value = дана
+account-settings-leave-messages-until-deleted =
+    .label = Док их не обришем
+    .accesskey = Д
+account-settings-move-to-trash =
+    .label = Премести у ову фасциклу:
+    .accesskey = о
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Питај ме пре преузимања више од
+    .accesskey = м
+account-settings-messages =
+    .value = порука
+account-settings-always-authenticate =
+    .label = Увек затражи идентификацију приликом повезивања на овај сервер
+    .accesskey = в
+account-settings-message-storage = Складиште порука
+account-settings-empty-trash-on-exit =
+    .label = Испразни смеће при крају рада
+    .accesskey = ј
+account-settings-message-store-type =
+    .value = Врста складишта порука:
+    .accesskey = т
+account-settings-message-store-mbox =
+    .label = Датотека по фасцикли (mbox)
+account-settings-message-store-maildir =
+    .label = Датотека по поруци (maildir)
+account-settings-newsrc-file =
+    .value = News.rc датотека:
+account-settings-browse-newsrc =
+    .label = Прегледај…
+    .accesskey = е
+    .filepickertitle = Изабери News.rc датотеку
+account-settings-local-directory =
+    .value = Локална фасцикла:
+account-settings-browse-local-directory =
+    .label = Прегледај…
+    .accesskey = П
+    .filepickertitle = Изаберите локалну фасциклу
+account-settings-default-text-encoding =
+    .value = Подразумевано кодирање текста:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Подешавања налога
+account-settings-title =
+    .value = Подешавања налога
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Следеће је посебан налог.  Нема идентитета повезаних са њим.
+account-settings-account-name =
+    .value = Име налога:
+    .accesskey = И
+account-settings-rss-server-settings = Подешавања сервера
 account-settings-rss-enable-updates =
     .label = Омогући ажурирања за све доводе
     .accesskey = г
