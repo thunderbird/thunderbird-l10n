@@ -194,11 +194,20 @@ account-settings-message-store-mbox =
     .label = Soubor pro každou složku (mbox)
 account-settings-message-store-maildir =
     .label = Soubor pro každou zprávu (maildir)
+account-settings-local-directory =
+    .value = Místní adresář:
+account-settings-browse-local-directory =
+    .label = Procházet…
+    .accesskey = P
+    .filepickertitle = Vyberte místní adresář
 account-settings-default-text-encoding =
     .value = Výchozí znaková sada textu:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Nastavení účtu
+account-settings-title =
+    .value = Nastavení účtu
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
@@ -206,6 +215,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Toto je speciální účet. Tento účet nemá přiřazeny žádné identity.
 account-settings-account-name =
     .value = Název účtu:
     .accesskey = N
