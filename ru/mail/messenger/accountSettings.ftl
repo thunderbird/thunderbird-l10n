@@ -153,3 +153,35 @@ account-settings-rss-default-account-name = Блоги и ленты новос�
 ## Advanced server settings
 
 account-settings-advanced-server-title = Дополнительные параметры учётной записи
+account-settings-imap-show-subscribed-folders =
+    .label = Показывать только папки на которые вы подписаны
+    .accesskey = о
+account-settings-imap-dual-use-folders =
+    .label = Сервер поддерживает папки, содержащие вложенные папки и сообщения
+    .accesskey = е
+account-settings-imap-maximum-connections =
+    .value = Максимальное число кешируемых соединений
+    .accesskey = к
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Эти настройки определяют пространства имён на вашем IMAP-сервере
+account-settings-imap-personal-namespace =
+    .value = Личное пространство имён:
+    .accesskey = ч
+account-settings-imap-public-namespace =
+    .value = Общее (совместно используемое):
+    .accesskey = б
+account-settings-imap-other-users-namespace =
+    .value = Другие пользователи:
+    .accesskey = у
+account-settings-imap-override-namespaces =
+    .label = Разрешить серверу перекрывать эти пространства имён
+    .accesskey = з
+account-settings-pop-inbox-current-account =
+    .label = «Входящие» для этой учётной записи
+    .accesskey = д
+account-settings-pop-inbox-other-account =
+    .label = «Входящие» для другой учётной записи
+    .accesskey = х
+account-settings-pop-include-server =
+    .label = Загружать почту с данного сервера
+    .accesskey = ж
