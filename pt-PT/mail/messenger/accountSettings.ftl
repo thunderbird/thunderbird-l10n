@@ -152,6 +152,10 @@ account-settings-rss-default-account-name = Blogues e fontes de notícias
 
 ## Advanced server settings
 
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = Diretório do servidor IMAP:
+    .accesskey = D
 account-settings-imap-show-subscribed-folders =
     .label = Mostrar apenas pastas subscritas
     .accesskey = M
