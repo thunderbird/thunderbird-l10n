@@ -107,10 +107,53 @@ account-settings-port =
     .accesskey = G
 account-settings-default-port =
     .value = Sjálfgefið:
+account-settings-automatically-download-new-messages =
+    .label = Sækja ný skilaboð sjálfvirkt
+    .accesskey = m
+account-settings-move-to-trash =
+    .label = Færa það í þessa möppu:
+    .accesskey = F
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Spyrja áður en náð er í meira en
+    .accesskey = m
+account-settings-messages =
+    .value = póstum
+account-settings-always-authenticate =
+    .label = Alltaf krefjast öruggs auðkennis þegar tengst er við þennan netþjón
+    .accesskey = A
 account-settings-message-storage = Póstgeymsla
+account-settings-empty-trash-on-exit =
+    .label = Tæma rusl þegar forriti er lokað
+    .accesskey = r
+account-settings-message-store-type =
+    .value = Tegund póstgeymslu:
+    .accesskey = T
+account-settings-message-store-mbox =
+    .label = Skrá per möppu (mbox)
+account-settings-message-store-maildir =
+    .label = Skrá per skilaboð (maildir)
+account-settings-newsrc-file =
+    .value = News.rc skrá:
+account-settings-browse-newsrc =
+    .label = Velja…
+    .accesskey = e
+    .filepickertitle = Veldu News.rc skrá
+account-settings-local-directory =
+    .value = Staðbundin mappa:
+account-settings-browse-local-directory =
+    .label = Velja…
+    .accesskey = V
+    .filepickertitle = Veldu staðbundna möppu
+account-settings-default-text-encoding =
+    .value = Sjálfgefin textakóðun:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Stillingar reiknings
+account-settings-title =
+    .value = Stillingar reiknings
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
@@ -118,6 +161,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Eftirfarandi er sérstakur reikningur.  Engin auðkenni eru tengd við hann.
 account-settings-account-name =
     .value = Heiti reiknings:
     .accesskey = H
