@@ -36,7 +36,23 @@ account-settings-leave-messages-on-server =
 account-settings-leave-messages-for =
     .label = لمدة أقصاها
     .accesskey = م
+account-settings-move-to-trash =
+    .label = انقلها إلى مجلد المهملات:
+    .accesskey = ا
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = اسألني قبل تنزيل أكثر من
+    .accesskey = س
+account-settings-messages =
+    .value = رسائل
+account-settings-always-authenticate =
+    .label = اطلب الاستيثاق دائمًا عند الاتصال بهذا الخادوم
+    .accesskey = ط
 account-settings-message-storage = حفظ الرسائل
+account-settings-empty-trash-on-exit =
+    .label = أفرغ المهملات عند الخروج
+    .accesskey = خ
 
 ## Local Folders and RSS account settings
 
