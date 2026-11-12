@@ -36,9 +36,78 @@ ews-oauthscopes-label =
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = Lloj Shërbyesi:
+account-settings-server-name =
+    .value = Emër Shërbyesi:
+    .accesskey = S
+account-settings-user-name =
+    .value = Emër Përdoruesi:
+    .accesskey = P
+account-settings-port =
+    .value = Portë:
+    .accesskey = o
+account-settings-default-port =
+    .value = Parazgjedhje:
+account-settings-connection-security =
+    .value = Siguri lidhjeje:
+    .accesskey = S
+account-settings-connection-security-none =
+    .label = Asnjë
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+account-settings-automatically-download-new-messages =
+    .label = Shkarko mesazhe të rinj vetvetiu
+    .accesskey = k
+account-settings-leave-messages-until-deleted =
+    .label = Derisa t’i fshij ata
+    .accesskey = d
+account-settings-move-to-trash =
+    .label = Shpjere te kjo dosje:
+    .accesskey = s
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Pyetmë para se të shkarkosh më shumë se
+    .accesskey = P
+account-settings-messages =
+    .value = mesazhe
+account-settings-always-authenticate =
+    .label = Kërko përherë mirëfilltësim, kur lidhesh me këtë shërbyes
+    .accesskey = k
+account-settings-message-storage = Depozitim Mesazhesh
+account-settings-empty-trash-on-exit =
+    .label = Zbrazi Hedhurinat Gjatë Daljes
+    .accesskey = Z
+account-settings-message-store-type =
+    .value = Lloj Depozitimi Mesazhesh:
+    .accesskey = L
+account-settings-message-store-mbox =
+    .label = Një kartelë për dosje (mbox)
+account-settings-message-store-maildir =
+    .label = Një kartelë për mesazh (maildir)
+account-settings-newsrc-file =
+    .value = Kartelë News.rc:
+account-settings-browse-newsrc =
+    .label = Shfletoni…
+    .accesskey = S
+    .filepickertitle = Përzgjidhni Kartelë News.rc
+account-settings-local-directory =
+    .value = Drejtori Vendore:
+account-settings-browse-local-directory =
+    .label = Shfletoni…
+    .accesskey = S
+    .filepickertitle = Përzgjidhni Drejtori Vendore
+account-settings-default-text-encoding =
+    .value = Kodim Parazgjedhje Tekstesh:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Rregullime Llogarie
+account-settings-title =
+    .value = Rregullime Llogarie
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
@@ -46,6 +115,10 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Kjo që vijon është një llogari speciale. Nuk ka identitete që i përshoqërohen asaj.
+account-settings-account-name =
+    .value = Emër Llogarie:
+    .accesskey = E
 account-settings-rss-server-settings = Rregullime Shërbyesi
 account-settings-rss-enable-updates =
     .label = Aktivizo përditësime për krejt prurjet
