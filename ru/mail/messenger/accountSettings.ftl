@@ -134,9 +134,19 @@ oauth-provider-extension-info = Настройки OAuth2, предоставл�
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = Тип сервера:
 
 ## Local Folders and RSS account settings
 
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-rss-server-settings = Параметры сервера
 account-settings-rss-enable-updates =
     .label = Включить обновления для всех лент новостей
     .accesskey = ю
