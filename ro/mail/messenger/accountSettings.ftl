@@ -93,3 +93,8 @@ account-settings-rss-default-account-name = Bloguri și fluxuri de știri
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = Setări avansate pentru cont
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = Director pe serverul IMAP:
+    .accesskey = D
