@@ -131,3 +131,24 @@ ews-oauthscopes-label =
 # Shown in Account Settings below the authentication method when OAuth2
 # settings are provided by an extension.
 oauth-provider-extension-info = تنظیمات OAuth2 ارائه‌شده توسط افزونهٔ: <a data-l10n-name="extension">{ $extensionName }</a>
+
+## Incoming server settings
+
+
+## Local Folders and RSS account settings
+
+account-settings-rss-enable-updates =
+    .label = فعّال سازی به‌روز رسانی‌ها برای همه خوراک‌ها
+    .accesskey = ف
+account-settings-rss-new-feed-defaults = تنظیمات پیش‌گزیده برای خوراک‌های جدید
+account-settings-rss-manage-subscriptions =
+    .label = Manage Subscriptions…
+    .accesskey = M
+
+## Feed account wizard
+
+account-settings-rss-wizard-title = جادوگر حساب خوراک
+account-settings-rss-default-account-name = وبلاگ‌ها و خوراک‌های خبری
+
+## Advanced server settings
+
