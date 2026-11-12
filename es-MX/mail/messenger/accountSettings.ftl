@@ -31,3 +31,31 @@ account-settings-rss-default-account-name = Blogs & canales de noticias
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = Ajuste de cuenta avanzados
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = Directorio del servidor IMAP:
+    .accesskey = d
+account-settings-imap-show-subscribed-folders =
+    .label = Mostrar sólo las carpetas suscritas
+    .accesskey = w
+account-settings-imap-dual-use-folders =
+    .label = El servidor soporta carpetas que contienen sub-carpetas y mensajes
+    .accesskey = f
+account-settings-imap-maximum-connections =
+    .value = Número máximo de conexiones del servidor a caché
+    .accesskey = M
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Estas preferencias especifican los espacios de nombres en tu servidor IMAP
+account-settings-imap-personal-namespace =
+    .value = Espacio de nombres personal:
+    .accesskey = P
+account-settings-imap-public-namespace =
+    .value = Público (compartido):
+    .accesskey = u
+account-settings-imap-other-users-namespace =
+    .value = Otros usuarios:
+    .accesskey = O
+account-settings-imap-override-namespaces =
+    .label = Permitir que el servidor reemplace estos espacios de nombres
+    .accesskey = A
