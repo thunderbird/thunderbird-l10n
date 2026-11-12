@@ -16,6 +16,13 @@ default-account-button =
 
 ## Local Folders and RSS account settings
 
+account-settings-rss-enable-updates =
+    .label = Habilita les actualitzacions per a tots els canals d'informació
+    .accesskey = H
+account-settings-rss-new-feed-defaults = Paràmetres per defecte per als canals de notícies
+account-settings-rss-manage-subscriptions =
+    .label = Gestiona les subscripcions…
+    .accesskey = G
 
 ## Feed account wizard
 
