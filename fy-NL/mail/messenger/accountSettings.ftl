@@ -153,6 +153,39 @@ account-settings-rss-default-account-name = Blogs & Nijsfeeds
 ## Advanced server settings
 
 account-settings-advanced-server-title = Avansearre accountynstellingen
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = IMAP-servermap
+    .accesskey = m
 account-settings-imap-show-subscribed-folders =
     .label = Allinnich oanmelde mappen toane
     .accesskey = t
+account-settings-imap-dual-use-folders =
+    .label = Server stipet mappen mei submappen en berjochten
+    .accesskey = a
+account-settings-imap-maximum-connections =
+    .value = Maksimum tal serverferbiningen yn de buffer
+    .accesskey = M
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Dizze ynstellingen omskriuwe de namespaces op jo IMAP-server
+account-settings-imap-personal-namespace =
+    .value = Persoanlike namespace:
+    .accesskey = e
+account-settings-imap-public-namespace =
+    .value = Publyklik (dield):
+    .accesskey = u
+account-settings-imap-other-users-namespace =
+    .value = Oare brûkers:
+    .accesskey = b
+account-settings-imap-override-namespaces =
+    .label = Server tastean om dizze namespaces te negearjen
+    .accesskey = T
+account-settings-pop-inbox-current-account =
+    .label = Postfek YN fan dizze account
+    .accesskey = P
+account-settings-pop-inbox-other-account =
+    .label = Postfek YN fan in oar account
+    .accesskey = r
+account-settings-pop-include-server =
+    .label = Dizze server by it opheljen fan nije berjochten belûke
+    .accesskey = b
