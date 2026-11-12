@@ -176,7 +176,20 @@ account-settings-leave-messages-until-deleted =
 account-settings-move-to-trash =
     .label = Ei symud i'r ffolder yma:
     .accesskey = y
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Gofyn cyn llwytho i lawr mwy na
+    .accesskey = o
+account-settings-messages =
+    .value = neges
+account-settings-always-authenticate =
+    .label = Gofyn bob tro am ddilysiad wrth gysylltu â'r gweinydd hwn
+    .accesskey = b
 account-settings-message-storage = Storfa Negeseuon
+account-settings-empty-trash-on-exit =
+    .label = Gwagio'r Sbwriel wrth Adael
+    .accesskey = A
 account-settings-message-store-type =
     .value = Math o Storio Negeseuon:
     .accesskey = S
@@ -184,6 +197,12 @@ account-settings-message-store-mbox =
     .label = Ffeil i'r ffolder (mbox)
 account-settings-message-store-maildir =
     .label = Ffeil y neges (maildir)
+account-settings-newsrc-file =
+    .value = Ffeil News.rc:
+account-settings-browse-newsrc =
+    .label = Pori…
+    .accesskey = o
+    .filepickertitle = Dewis Ffeil News.rc
 account-settings-local-directory =
     .value = Cyfeiriadur Lleol:
 account-settings-browse-local-directory =
@@ -195,6 +214,9 @@ account-settings-default-text-encoding =
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Gosodiadau Cyfrifon
+account-settings-title =
+    .value = Gosodiadau Cyfrifon
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
@@ -202,6 +224,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Mae hwn yn gyfrif arbennig.  Nid oes hunaniaethau wedi'u cysylltu ag ef.
 account-settings-account-name =
     .value = Enw Cyfrif:
     .accesskey = C
