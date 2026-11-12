@@ -8,6 +8,13 @@
 
 ## Local Folders and RSS account settings
 
+account-settings-rss-enable-updates =
+    .label = Omogućite ažuriranja za sve kanale
+    .accesskey = E
+account-settings-rss-new-feed-defaults = Zadane postavke za nove kanale
+account-settings-rss-manage-subscriptions =
+    .label = Upravljanje pretplatama…
+    .accesskey = m
 
 ## Feed account wizard
 
