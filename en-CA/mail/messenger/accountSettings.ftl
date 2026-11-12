@@ -36,3 +36,17 @@ ews-endpointhost-label =
 ews-oauthscopes-label =
     .value = OAuth Scopes:
     .accesskey = s
+
+## Incoming server settings
+
+
+## Local Folders and RSS account settings
+
+
+## Feed account wizard
+
+account-settings-rss-wizard-title = Feed Account Wizard
+account-settings-rss-default-account-name = Blogs & News Feeds
+
+## Advanced server settings
+
