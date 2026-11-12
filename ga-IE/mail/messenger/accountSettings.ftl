@@ -18,6 +18,15 @@ account-settings-port =
     .accesskey = P
 account-settings-default-port =
     .value = Réamhshocrú:
+account-settings-connection-security =
+    .value = Slándáil an cheangail:
+    .accesskey = n
+account-settings-connection-security-none =
+    .label = Gan sonrú
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
 # The label is followed by a numerical input and the message
 # account-settings-minutes.
 account-settings-check-new-messages-every =
@@ -25,6 +34,26 @@ account-settings-check-new-messages-every =
     .accesskey = g
 account-settings-minutes =
     .value = nóiméad
+account-settings-automatically-download-new-messages =
+    .label = Íoslódáil teachtaireachtaí nua go huathoibríoch
+    .accesskey = n
+account-settings-fetch-headers-only =
+    .label = Ná faigh ach na ceanntásca
+    .accesskey = e
+account-settings-leave-messages-on-server =
+    .label = Fág teachtaireachtaí ar an bhfreastalaí
+    .accesskey = g
+account-settings-leave-messages-for =
+    .label = Ar feadh ar a mhéid
+    .accesskey = f
+account-settings-days =
+    .value = lá anuas
+account-settings-leave-messages-until-deleted =
+    .label = Go dtí go scriosfaidh mé iad
+    .accesskey = s
+account-settings-move-to-trash =
+    .label = Bog é go dtí an fillteán seo:
+    .accesskey = o
 # The label is followed by a numerical input and the message
 # account-settings-messages.
 account-settings-ask-before-download =
@@ -39,13 +68,25 @@ account-settings-message-storage = Stóráil na dTeachtaireachtaí
 account-settings-empty-trash-on-exit =
     .label = Folmhaigh an Bruscar ag an Scor
     .accesskey = S
+account-settings-message-store-type =
+    .value = Cineál Stórais na dTeachtaireachtaí:
+    .accesskey = T
 account-settings-message-store-mbox =
     .label = Gach fillteán ina chomhad féin (mbox)
 account-settings-message-store-maildir =
     .label = Gach teachtaireacht ina comhad féin (maildir)
+account-settings-browse-local-directory =
+    .label = Brabhsáil…
+    .accesskey = B
+    .filepickertitle = Roghnaigh Comhadlann Logánta
+account-settings-default-text-encoding =
+    .value = Ionchódú Réamhshocraithe:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Socruithe Cuntais
+account-settings-title =
+    .value = Socruithe Cuntais
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
@@ -53,6 +94,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Cuntas speisialta é seo. Níl aon aitheantas comhcheangailte leis.
 account-settings-account-name =
     .value = Ainm an Chuntais:
     .accesskey = n
