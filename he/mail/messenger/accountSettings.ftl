@@ -48,14 +48,25 @@ account-settings-messages =
 account-settings-always-authenticate =
     .label = תמיד בקש אימות בעת התחברות לשרת זה
     .accesskey = w
+account-settings-message-storage = אחסון הודעות
 account-settings-empty-trash-on-exit =
     .label = רוקן אשפה ביציאה
     .accesskey = x
+account-settings-message-store-type =
+    .value = סוג אחסון הודעות:
+    .accesskey = ס
+account-settings-message-store-mbox =
+    .label = קובץ לתיקייה (mbox)
+account-settings-message-store-maildir =
+    .label = קובץ להודעה (maildir)
 account-settings-default-text-encoding =
     .value = קידוד טקסט כבררת מחדל:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = הגדרות חשבון
+account-settings-title =
+    .value = הגדרות חשבון
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
@@ -63,6 +74,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = הבא הוא חשבון מיוחד. אינו זהויות שמקושרות אליו.
 account-settings-account-name =
     .value = שם החשבון:
     .accesskey = ש
