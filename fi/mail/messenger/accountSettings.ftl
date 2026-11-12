@@ -82,6 +82,13 @@ account-settings-connection-security-starttls =
     .label = STARTTLS
 account-settings-connection-security-ssl-tls =
     .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Hae uusia viestejä
+    .accesskey = H
+account-settings-minutes =
+    .value = minuutin välein
 account-settings-automatically-download-new-messages =
     .label = Nouda uudet viestit automaattisesti
     .accesskey = N
@@ -151,6 +158,9 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
 account-settings-special-account-description = Seuraava tili on erikoistapaus. Siihen ei liity käyttäjätietoja.
+account-settings-account-name =
+    .value = Tilin nimi:
+    .accesskey = T
 account-settings-rss-server-settings = Palvelimen asetukset
 account-settings-rss-enable-updates =
     .label = Salli päivitykset kaikille syötteille
