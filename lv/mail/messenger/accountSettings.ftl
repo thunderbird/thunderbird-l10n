@@ -104,3 +104,17 @@ oauth2-use-system-browser =
 # Shown in Account Settings below the authentication method when OAuth2
 # settings are provided by an extension.
 oauth-provider-extension-info = OAuth2 iestatījumi, kurus nodrošina paplašinājums: <a data-l10n-name="extension">{ $extensionName }</a>
+
+## Incoming server settings
+
+
+## Local Folders and RSS account settings
+
+
+## Feed account wizard
+
+account-settings-rss-wizard-title = Plūsumu konta vednis
+account-settings-rss-default-account-name = Emuāri & Ziņu plūsmas
+
+## Advanced server settings
+
