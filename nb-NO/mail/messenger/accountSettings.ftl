@@ -127,6 +127,7 @@ oauth-provider-extension-info = OAuth2-innstillinger levert av utvidelsen: <a da
 
 ## Incoming server settings
 
+account-settings-server-document-title = Serverinnstillinger
 account-settings-server-type =
     .value = Servertype:
 account-settings-server-name =
@@ -149,6 +150,11 @@ account-settings-connection-security-starttls =
     .label = STARTTLS
 account-settings-connection-security-ssl-tls =
     .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Se etter nye meldinger hvert
+    .accesskey = e
 account-settings-minutes =
     .value = minutt
 account-settings-automatically-download-new-messages =
