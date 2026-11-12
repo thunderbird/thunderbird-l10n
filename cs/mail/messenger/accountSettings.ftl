@@ -136,6 +136,25 @@ oauth-provider-extension-info = Nastavení OAuth2 poskytnuto rozšířením: <a 
 
 account-settings-server-type =
     .value = Typ serveru:
+account-settings-connection-security =
+    .value = Zabezpečení spojení:
+    .accesskey = b
+account-settings-connection-security-none =
+    .label = Žádné
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Zobrazit dotaz před načtením více než
+    .accesskey = Z
+account-settings-messages =
+    .value = zpráv
+account-settings-always-authenticate =
+    .label = Při připojování na tento server vždy požadovat autentizaci
+    .accesskey = v
 
 ## Local Folders and RSS account settings
 
