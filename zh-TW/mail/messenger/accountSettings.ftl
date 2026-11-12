@@ -152,3 +152,12 @@ account-settings-rss-default-account-name = 部落格與新聞來源
 
 ## Advanced server settings
 
+account-settings-imap-show-subscribed-folders =
+    .label = 只顯示已訂閱目錄
+    .accesskey = w
+account-settings-imap-dual-use-folders =
+    .label = 伺服器支援含子目錄及郵件的目錄
+    .accesskey = f
+account-settings-imap-maximum-connections =
+    .value = 快取的最大伺服器連線數
+    .accesskey = M
