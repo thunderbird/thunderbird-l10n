@@ -134,6 +134,7 @@ oauth-provider-extension-info = Настройки OAuth2, предоставл�
 
 ## Incoming server settings
 
+account-settings-server-document-title = Параметры сервера
 account-settings-server-type =
     .value = Тип сервера:
 account-settings-server-name =
@@ -156,6 +157,16 @@ account-settings-connection-security-starttls =
     .label = STARTTLS
 account-settings-connection-security-ssl-tls =
     .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Проверять наличие новых сообщений каждые
+    .accesskey = к
+account-settings-minutes =
+    .value = минут
+account-settings-automatically-download-new-messages =
+    .label = Автоматически скачивать новые сообщения
+    .accesskey = а
 account-settings-fetch-headers-only =
     .label = Загружать только заголовки сообщений
     .accesskey = г
@@ -170,6 +181,9 @@ account-settings-days =
 account-settings-leave-messages-until-deleted =
     .label = Пока я не удалю их
     .accesskey = у
+account-settings-move-to-trash =
+    .label = Переместить его в папку:
+    .accesskey = и
 # The label is followed by a numerical input and the message
 # account-settings-messages.
 account-settings-ask-before-download =
