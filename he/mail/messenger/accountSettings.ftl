@@ -23,3 +23,4 @@ account-settings-rss-default-account-name = בלוגים והזנות
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = הגדרות חשבון מתקדמות
