@@ -31,6 +31,7 @@ account-settings-rss-default-account-name = Блогі і стужкі наві�
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = Пашыраныя налады ўліковага запісу
 account-settings-imap-show-subscribed-folders =
     .label = Паказваць толькі падпісаныя папкі
     .accesskey = ц
