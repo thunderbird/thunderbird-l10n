@@ -78,6 +78,13 @@ oauth-provider-extension-info = Setări OAuth2 oferite de extensie: <a data-l10n
 
 ## Local Folders and RSS account settings
 
+account-settings-rss-enable-updates =
+    .label = Activează actualizările pentru toate fluxurile
+    .accesskey = E
+account-settings-rss-new-feed-defaults = Setări implicite pentru fluxurile de știri
+account-settings-rss-manage-subscriptions =
+    .label = Gestionează abonamente…
+    .accesskey = m
 
 ## Feed account wizard
 
