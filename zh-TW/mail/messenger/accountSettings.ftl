@@ -134,6 +134,23 @@ oauth-provider-extension-info = 由 <a data-l10n-name="extension">{ $extensionNa
 
 ## Incoming server settings
 
+account-settings-connection-security-none =
+    .label = 無
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+account-settings-minutes =
+    .value = 分鐘檢查新郵件
+account-settings-fetch-headers-only =
+    .label = 只讀取標頭資訊
+    .accesskey = e
+account-settings-leave-messages-on-server =
+    .label = 不刪除伺服器上的郵件
+    .accesskey = g
+account-settings-leave-messages-for =
+    .label = 最多
+    .accesskey = o
 
 ## Local Folders and RSS account settings
 
