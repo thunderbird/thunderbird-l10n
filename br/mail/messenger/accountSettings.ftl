@@ -27,6 +27,13 @@ account-settings-connection-security-starttls =
     .label = STARTTLS
 account-settings-connection-security-ssl-tls =
     .label = SSL
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Gwiriañ ar c'hemennadennoù nevez bep
+    .accesskey = G
+account-settings-minutes =
+    .value = a vunutennoù
 account-settings-automatically-download-new-messages =
     .label = Pellgargañ ar c'hemennadennoù nevez ent emgefreek
     .accesskey = m
