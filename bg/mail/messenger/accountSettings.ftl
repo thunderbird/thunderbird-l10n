@@ -53,6 +53,21 @@ account-settings-port =
 account-settings-default-port =
     .value = По подразбиране:
 account-settings-message-storage = Съхранение на съобщения
+account-settings-message-store-type =
+    .value = Вид съхранение на писмата:
+    .accesskey = В
+account-settings-message-store-mbox =
+    .label = Файл за всяка папка (mbox)
+account-settings-message-store-maildir =
+    .label = Файл за всяко писмо (maildir)
+account-settings-local-directory =
+    .value = Местна папка:
+account-settings-browse-local-directory =
+    .label = Избор…
+    .accesskey = б
+    .filepickertitle = Изберете директория
+account-settings-default-text-encoding =
+    .value = Стандартно кодиране:
 
 ## Local Folders and RSS account settings
 
@@ -63,6 +78,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Това е специална регистрация. Няма идентичности, свързани с нея.
 account-settings-rss-server-settings = Настройки на сървъра
 account-settings-rss-enable-updates =
     .label = Включване на обновяването за всички емисии
