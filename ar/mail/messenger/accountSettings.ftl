@@ -23,3 +23,28 @@ account-settings-rss-default-account-name = تلقيمات المدونات و 
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = إعدادات الحساب المتقدّمة
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = دليل خادوم IMAP:
+    .accesskey = د
+account-settings-imap-dual-use-folders =
+    .label = يدعم الخادوم المجلدات التي تحوي مجلدات فرعيّة ورسائل
+    .accesskey = م
+account-settings-imap-maximum-connections =
+    .value = العدد الأقصى للاتّصالات بالخادوم التي ستُستبقى
+    .accesskey = ع
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = هذه التفضيلات تحدد فضاءات التسمية في خادوم ال IMAP لديك
+account-settings-imap-personal-namespace =
+    .value = فضاء تسمية شخصي:
+    .accesskey = ض
+account-settings-imap-public-namespace =
+    .value = عام (مشارَك):
+    .accesskey = م
+account-settings-imap-other-users-namespace =
+    .value = مستخدمون آخرون:
+    .accesskey = ن
+account-settings-imap-override-namespaces =
+    .label = اسمح للخادوم بتعديل فضاء التسمية هذا
+    .accesskey = س
