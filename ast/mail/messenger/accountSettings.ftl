@@ -45,6 +45,7 @@ account-settings-messages =
 account-settings-always-authenticate =
     .label = Siempre solicitar identificación cuando se coneute con esti sirvidor
     .accesskey = p
+account-settings-message-storage = Almacenamientu de mensaxes
 account-settings-empty-trash-on-exit =
     .label = Vaciar papelera al salir
     .accesskey = v
