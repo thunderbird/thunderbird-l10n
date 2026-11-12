@@ -5,9 +5,29 @@
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = ਸਰਵਰ ਕਿਸਮ:
+account-settings-server-name =
+    .value = ਸਰਵਰ ਨਾਂ:
+    .accesskey = S
+account-settings-user-name =
+    .value = ਯੂਜ਼ਰ ਨਾਂ:
+    .accesskey = N
+account-settings-port =
+    .value = ਪੋਰਟ:
+    .accesskey = P
+account-settings-default-port =
+    .value = ਡਿਫਾਲਟ:
 
 ## Local Folders and RSS account settings
 
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
 account-settings-rss-manage-subscriptions =
     .label = …ਮੈਂਬਰੀ ਪਰਬੰਧ
     .accesskey = M
