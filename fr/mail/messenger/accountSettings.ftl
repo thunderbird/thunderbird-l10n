@@ -180,6 +180,7 @@ account-settings-imap-other-users-namespace =
 account-settings-imap-override-namespaces =
     .label = Permettre au serveur d’outrepasser ces espaces de noms
     .accesskey = r
+account-settings-pop-inbox-description = Lorsque vous téléchargez du courrier depuis le compte de ce serveur, utiliser les répertoires de Courrier entrant suivants pour stocker les messages :
 account-settings-pop-inbox-current-account =
     .label = Courrier entrant de ce compte
     .accesskey = e
