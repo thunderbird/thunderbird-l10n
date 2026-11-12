@@ -131,3 +131,17 @@ ews-oauthscopes-label =
 # Shown in Account Settings below the authentication method when OAuth2
 # settings are provided by an extension.
 oauth-provider-extension-info = Nastavenia OAuth2 poskytuje rozšírenie: <a data-l10n-name="extension">{ $extensionName }</a>
+
+## Incoming server settings
+
+
+## Local Folders and RSS account settings
+
+
+## Feed account wizard
+
+account-settings-rss-wizard-title = Sprievodca účtom pre informačné kanály
+account-settings-rss-default-account-name = Blogy a informačné kanály
+
+## Advanced server settings
+
