@@ -8,6 +8,9 @@
 
 ## Local Folders and RSS account settings
 
+account-settings-rss-manage-subscriptions =
+    .label = Alministrar soscripciones…
+    .accesskey = A
 
 ## Feed account wizard
 
