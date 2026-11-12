@@ -152,3 +152,12 @@ account-settings-rss-default-account-name = Blogues e fontes de notícias
 
 ## Advanced server settings
 
+account-settings-imap-show-subscribed-folders =
+    .label = Mostrar apenas pastas subscritas
+    .accesskey = M
+account-settings-imap-dual-use-folders =
+    .label = O servidor suporta pastas que possuam subpastas e mensagens
+    .accesskey = O
+account-settings-imap-maximum-connections =
+    .value = Número máximo de ligações ao servidor para colocar em cache
+    .accesskey = x
