@@ -180,6 +180,7 @@ account-settings-imap-other-users-namespace =
 account-settings-imap-override-namespaces =
     .label = Server tastean om dizze namespaces te negearjen
     .accesskey = T
+account-settings-pop-inbox-description = By it downloaden fan e-mail fan dizze POP3-server, de folgjende map foar nije e-mail brûke:
 account-settings-pop-inbox-current-account =
     .label = Postfek YN fan dizze account
     .accesskey = P
