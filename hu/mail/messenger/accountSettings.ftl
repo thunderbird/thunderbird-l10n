@@ -176,10 +176,47 @@ account-settings-leave-messages-until-deleted =
 account-settings-move-to-trash =
     .label = Áthelyezés ebbe a mappába:
     .accesskey = h
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Jóváhagyás kérése, ha
+    .accesskey = J
+account-settings-messages =
+    .value = üzenetnél többet kellene letölteni
+account-settings-always-authenticate =
+    .label = Hitelesítés kérése mindig, amikor ehhez a kiszolgálóhoz kapcsolódik
+    .accesskey = H
 account-settings-message-storage = Üzenettároló
+account-settings-empty-trash-on-exit =
+    .label = Kuka ürítése kilépéskor
+    .accesskey = r
+account-settings-message-store-type =
+    .value = Üzenettároló típusa:
+    .accesskey = t
+account-settings-message-store-mbox =
+    .label = Egy fájl mappánként (mbox)
+account-settings-message-store-maildir =
+    .label = Egy fájl üzenetenként (maildir)
+account-settings-newsrc-file =
+    .value = News.rc-fájl:
+account-settings-browse-newsrc =
+    .label = Tallózás…
+    .accesskey = a
+    .filepickertitle = Válasszon News.rc-fájlt
+account-settings-local-directory =
+    .value = Helyi könyvtár:
+account-settings-browse-local-directory =
+    .label = Tallózás…
+    .accesskey = T
+    .filepickertitle = Helyi könyvtár kiválasztása
+account-settings-default-text-encoding =
+    .value = Alapértelmezett szövegkódolás:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Postafiók beállításai
+account-settings-title =
+    .value = Postafiók beállításai
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
@@ -187,6 +224,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = A következő egy különleges postafiók, amelyhez nem tartoznak személyazonosságok.
 account-settings-account-name =
     .value = Postafiók neve:
     .accesskey = P
