@@ -18,3 +18,7 @@ account-settings-rss-default-account-name = ਬਲੌਗ ਤੇ ਨਿਊਜ਼ 
 
 ## Advanced server settings
 
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = IMAP ਸਰਵਰ ਡਾਇਰੈਕਟਰੀ:
+    .accesskey = d
