@@ -134,9 +134,38 @@ oauth-provider-extension-info = OAuth2 параметрлері келесі к�
 
 ## Incoming server settings
 
+account-settings-port =
+    .value = Порт:
+    .accesskey = П
+account-settings-default-port =
+    .value = Бастапқы:
+account-settings-minutes =
+    .value = минут
+account-settings-message-storage = Хабарламалар қоймасы
+account-settings-message-store-type =
+    .value = Хабарламаларды сақтау түрі:
+    .accesskey = т
+account-settings-message-store-mbox =
+    .label = Бума үшін файл (mbox)
+account-settings-message-store-maildir =
+    .label = Хабарлама үшін файл (maildir)
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Тіркелгі баптаулары
+account-settings-title =
+    .value = Тіркелгі баптаулары
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Келесі арнайы тіркелгі болып табылады.  Онымен байланысқан жеке мәліметтер жоқ.
+account-settings-account-name =
+    .value = Тіркелгі атауы:
+    .accesskey = а
 account-settings-rss-enable-updates =
     .label = Барлық таспалар үшін жаңартуларды іске қосу
     .accesskey = е
