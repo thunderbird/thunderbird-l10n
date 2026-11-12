@@ -36,3 +36,24 @@ ews-endpointhost-label =
 ews-oauthscopes-label =
     .value = ขอบเขต OAuth:
     .accesskey = ข
+
+## Incoming server settings
+
+
+## Local Folders and RSS account settings
+
+account-settings-rss-enable-updates =
+    .label = เปิดใช้งานการอัปเดตสำหรับฟีดทั้งหมด
+    .accesskey = ป
+account-settings-rss-new-feed-defaults = การตั้งค่าเริ่มต้นสำหรับฟีดใหม่
+account-settings-rss-manage-subscriptions =
+    .label = จัดการการบอกรับ…
+    .accesskey = จ
+
+## Feed account wizard
+
+account-settings-rss-wizard-title = ตัวช่วยบัญชีฟีด
+account-settings-rss-default-account-name = บล็อกและฟีดข่าว
+
+## Advanced server settings
+
