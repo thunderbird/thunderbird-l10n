@@ -134,6 +134,7 @@ oauth-provider-extension-info = <a data-l10n-name="extension">{ $extensionName }
 
 ## Incoming server settings
 
+account-settings-server-document-title = Zerbitzariaren ezarpenak
 account-settings-server-type =
     .value = Zerbitzari mota:
 account-settings-server-name =
@@ -156,6 +157,11 @@ account-settings-connection-security-starttls =
     .label = STARTTLS
 account-settings-connection-security-ssl-tls =
     .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Begiratu mezurik dagoen
+    .accesskey = g
 account-settings-minutes =
     .value = minutuan behin
 account-settings-automatically-download-new-messages =
