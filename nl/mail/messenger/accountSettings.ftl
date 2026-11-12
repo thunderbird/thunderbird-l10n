@@ -134,9 +134,33 @@ oauth-provider-extension-info = OAuth2-instellingen geleverd door extensie: <a d
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = Servertype:
+account-settings-server-name =
+    .value = Servernaam:
+    .accesskey = S
+account-settings-user-name =
+    .value = Gebruikersnaam:
+    .accesskey = u
+account-settings-port =
+    .value = Poort:
+    .accesskey = P
+account-settings-default-port =
+    .value = Standaard:
 
 ## Local Folders and RSS account settings
 
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-account-name =
+    .value = Accountnaam:
+    .accesskey = A
+account-settings-rss-server-settings = Serverinstellingen
 account-settings-rss-enable-updates =
     .label = Updates inschakelen voor alle feeds
     .accesskey = e
