@@ -180,6 +180,7 @@ account-settings-messages =
 account-settings-always-authenticate =
     .label = Toujours demander une authentification lors de la connexion à ce serveur
     .accesskey = j
+account-settings-message-storage = Stockage des messages
 account-settings-empty-trash-on-exit =
     .label = Vider la corbeille en quittant
     .accesskey = b
