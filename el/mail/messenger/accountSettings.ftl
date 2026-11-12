@@ -123,6 +123,8 @@ oauth-provider-extension-info = Οι ρυθμίσεις OAuth2 παρέχοντ�
 account-settings-automatically-download-new-messages =
     .label = Αυτόματη λήψη νέων μηνυμάτων
     .accesskey = υ
+account-settings-default-text-encoding =
+    .value = Προεπιλεγμένη κωδικοποίηση χαρακτήρων:
 
 ## Local Folders and RSS account settings
 
