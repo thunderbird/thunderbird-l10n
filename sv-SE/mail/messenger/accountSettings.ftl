@@ -134,6 +134,11 @@ oauth-provider-extension-info = OAuth2-inställningar tillhandahållna av tillä
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = Typ av teknik:
+account-settings-server-name =
+    .value = Servernamn:
+    .accesskey = S
 account-settings-user-name =
     .value = Användarnamn:
     .accesskey = n
@@ -142,6 +147,15 @@ account-settings-port =
     .accesskey = P
 account-settings-default-port =
     .value = Standard:
+account-settings-connection-security =
+    .value = Anslutningssäkerhet:
+    .accesskey = A
+account-settings-connection-security-none =
+    .label = Ingen
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
 account-settings-automatically-download-new-messages =
     .label = Hämta alla nya meddelanden automatiskt
     .accesskey = H
@@ -172,14 +186,37 @@ account-settings-messages =
 account-settings-always-authenticate =
     .label = Begär alltid inloggning vid anslutning till denna server
     .accesskey = e
+account-settings-message-storage = Lagring av meddelanden
 account-settings-empty-trash-on-exit =
     .label = Töm papperskorgen vid stängning
     .accesskey = v
+account-settings-message-store-type =
+    .value = Lagringstyp för meddelande:
+    .accesskey = t
+account-settings-message-store-mbox =
+    .label = Fil per mapp (mbox)
+account-settings-message-store-maildir =
+    .label = Fil per meddelande (maildir)
 account-settings-newsrc-file =
     .value = News.rc-fil:
+account-settings-browse-newsrc =
+    .label = Bläddra…
+    .accesskey = d
+    .filepickertitle = Välj News.rc-fil
+account-settings-local-directory =
+    .value = Lokal katalog:
+account-settings-browse-local-directory =
+    .label = Bläddra…
+    .accesskey = B
+    .filepickertitle = Välj lokal katalog
+account-settings-default-text-encoding =
+    .value = Standardtextkodning:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Kontoinställningar
+account-settings-title =
+    .value = Kontoinställningar
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
@@ -187,9 +224,11 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Detta är ett specialkonto. Det finns ingen identitet knuten till det.
 account-settings-account-name =
     .value = Kontonamn:
     .accesskey = K
+account-settings-rss-server-settings = Serverinställningar
 account-settings-rss-enable-updates =
     .label = Aktivera uppdateringar för alla RSS-kanaler
     .accesskey = A
