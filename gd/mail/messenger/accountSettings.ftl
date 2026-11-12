@@ -23,3 +23,4 @@ account-settings-rss-default-account-name = Blogaichean ⁊ inbhirean naidheachd
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = Roghainnean adhartach a' chunntais
