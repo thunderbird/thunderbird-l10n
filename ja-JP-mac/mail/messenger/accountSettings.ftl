@@ -147,6 +147,7 @@ account-settings-rss-manage-subscriptions =
 
 ## Feed account wizard
 
+account-settings-rss-default-account-name = ブログとニュース
 
 ## Advanced server settings
 
