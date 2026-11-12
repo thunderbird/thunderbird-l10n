@@ -10,3 +10,17 @@ delete-account-button =
     .label = Видалити
 default-account-button =
     .label = Встановити типовим
+
+## Incoming server settings
+
+
+## Local Folders and RSS account settings
+
+
+## Feed account wizard
+
+account-settings-rss-wizard-title = Майстер стрічок новин
+account-settings-rss-default-account-name = Блоги та стрічки новин
+
+## Advanced server settings
+
