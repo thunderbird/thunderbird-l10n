@@ -61,6 +61,13 @@ account-settings-connection-security-starttls =
     .label = STARTTLS
 account-settings-connection-security-ssl-tls =
     .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Проверка за нови писма на всеки
+    .accesskey = к
+account-settings-minutes =
+    .value = минути
 account-settings-automatically-download-new-messages =
     .label = Автоматично изтегляне на новите писма
     .accesskey = А
@@ -130,6 +137,9 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
 account-settings-special-account-description = Това е специална регистрация. Няма идентичности, свързани с нея.
+account-settings-account-name =
+    .value = Име на профила:
+    .accesskey = И
 account-settings-rss-server-settings = Настройки на сървъра
 account-settings-rss-enable-updates =
     .label = Включване на обновяването за всички емисии
