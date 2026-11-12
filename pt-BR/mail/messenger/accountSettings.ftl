@@ -39,9 +39,17 @@ ews-oauthscopes-label =
 
 ## Incoming server settings
 
+account-settings-message-storage = Armazenamento de mensagens
 
 ## Local Folders and RSS account settings
 
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
 account-settings-rss-enable-updates =
     .label = Ativar atualizações de todos os canais de informações
     .accesskey = A
