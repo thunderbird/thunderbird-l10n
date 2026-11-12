@@ -199,9 +199,24 @@ account-settings-message-store-maildir =
     .label = Un file per ogni messaggio (maildir)
 account-settings-newsrc-file =
     .value = File News.rc:
+account-settings-browse-newsrc =
+    .label = Sfoglia…
+    .accesskey = o
+    .filepickertitle = Seleziona il file News.rc
+account-settings-local-directory =
+    .value = Cartella locale:
+account-settings-browse-local-directory =
+    .label = Sfoglia…
+    .accesskey = S
+    .filepickertitle = Scegliere la cartella locale
+account-settings-default-text-encoding =
+    .value = Codifica testo predefinita:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Impostazioni account
+account-settings-title =
+    .value = Impostazioni account
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
