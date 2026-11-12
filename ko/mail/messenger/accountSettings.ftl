@@ -96,3 +96,24 @@ ews-oauthscopes-label =
 # Shown in Account Settings below the authentication method when OAuth2
 # settings are provided by an extension.
 oauth-provider-extension-info = 확장 기능이 OAuth2 설정을 제공함: <a data-l10n-name="extension">{ $extensionName }</a>
+
+## Incoming server settings
+
+
+## Local Folders and RSS account settings
+
+account-settings-rss-enable-updates =
+    .label = 모든 피드에 대한 업데이트 활성화
+    .accesskey = E
+account-settings-rss-new-feed-defaults = 새 피드에 대한 기본 설정
+account-settings-rss-manage-subscriptions =
+    .label = 구독 관리…
+    .accesskey = M
+
+## Feed account wizard
+
+account-settings-rss-wizard-title = 피드 계정 마법사
+account-settings-rss-default-account-name = 블로그 및 뉴스 피드
+
+## Advanced server settings
+
