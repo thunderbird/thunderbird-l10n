@@ -88,10 +88,83 @@ account-settings-port =
     .accesskey = P
 account-settings-default-port =
     .value = Standard:
+account-settings-connection-security =
+    .value = Forbindelsessikkerhed:
+    .accesskey = F
+account-settings-connection-security-none =
+    .label = Ingen
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Kontroller for nye meddelelser hvert
+    .accesskey = o
+account-settings-minutes =
+    .value = minut
+account-settings-automatically-download-new-messages =
+    .label = Hent automatisk alle nye meddelelser
+    .accesskey = m
+account-settings-fetch-headers-only =
+    .label = Hent kun meddelelseshoveder
+    .accesskey = H
+account-settings-leave-messages-on-server =
+    .label = Gem meddelelser på serveren
+    .accesskey = e
+account-settings-leave-messages-for =
+    .label = I højest
+    .accesskey = I
+account-settings-days =
+    .value = dage
+account-settings-leave-messages-until-deleted =
+    .label = Indtil jeg sletter dem
+    .accesskey = d
+account-settings-move-to-trash =
+    .label = Flyt den til mappen Papirkurv
+    .accesskey = i
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Spørg mig før hentning af mere end
+    .accesskey = m
+account-settings-messages =
+    .value = meddelelser
+account-settings-always-authenticate =
+    .label = Kræv altid godkendelse ved tilslutning til denne server
+    .accesskey = æ
 account-settings-message-storage = Meddelelsesopbevaring
+account-settings-empty-trash-on-exit =
+    .label = Tøm Papirkurv ved afslutning
+    .accesskey = T
+account-settings-message-store-type =
+    .value = Lagertype for meddelelser:
+    .accesskey = L
+account-settings-message-store-mbox =
+    .label = Fil pr. mappe (mbox)
+account-settings-message-store-maildir =
+    .label = Fil pr. meddelelse (maildir)
+account-settings-newsrc-file =
+    .value = News.rc-fil:
+account-settings-browse-newsrc =
+    .label = Gennemse…
+    .accesskey = e
+    .filepickertitle = Vælg News.rc-fil
+account-settings-local-directory =
+    .value = Lokal mappe:
+account-settings-browse-local-directory =
+    .label = Gennemse…
+    .accesskey = G
+    .filepickertitle = Vælg lokal mappe
+account-settings-default-text-encoding =
+    .value = Standardtegnkodning:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Kontoindstillinger
+account-settings-title =
+    .value = Kontoindstillinger
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
@@ -99,6 +172,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Det følgende er en speciel konto. Der er ingen identiteter knyttet til den.
 account-settings-account-name =
     .value = Kontonavn:
     .accesskey = N
