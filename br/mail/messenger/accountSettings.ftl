@@ -23,3 +23,31 @@ account-settings-rss-default-account-name = Blogoù & Lanvioù keleier
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = Arventennoù kont kempleshoc'h
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = Kavlec'hiad an dafariad IMAP :
+    .accesskey = d
+account-settings-imap-show-subscribed-folders =
+    .label = Diskouez an teuliadoù koumanantet nemetken
+    .accesskey = s
+account-settings-imap-dual-use-folders =
+    .label = Skorañ a ra an dafariad an teuliadoù a zo kemennadennoù hag isteuliadoù enno
+    .accesskey = f
+account-settings-imap-maximum-connections =
+    .value = Niver uhelañ a gennaskadurioù ouzh an dafariad da lakaat er grubuilh
+    .accesskey = h
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Erspizañ a ra ar gwellvezioù-mañ an anvioù egoroù war ho tafariad IMAP
+account-settings-imap-personal-namespace =
+    .value = Anv egor personel :
+    .accesskey = p
+account-settings-imap-public-namespace =
+    .value = Publik (rannet) :
+    .accesskey = u
+account-settings-imap-other-users-namespace =
+    .value = Arveriaded all :
+    .accesskey = r
+account-settings-imap-override-namespaces =
+    .label = Aotren an dafariad da flastrañ an egoroù envel-mañ
+    .accesskey = A
