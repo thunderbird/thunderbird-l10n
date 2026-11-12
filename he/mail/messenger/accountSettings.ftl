@@ -18,6 +18,41 @@ account-settings-port =
     .accesskey = P
 account-settings-default-port =
     .value = ברירת מחדל:
+account-settings-automatically-download-new-messages =
+    .label = הורד הודעות חדשות אוטומטית
+    .accesskey = m
+account-settings-fetch-headers-only =
+    .label = טען כותרות בלבד
+    .accesskey = כ
+account-settings-leave-messages-on-server =
+    .label = השאר הודעות על השרת
+    .accesskey = ה
+account-settings-leave-messages-for =
+    .label = לכל היותר
+    .accesskey = o
+account-settings-days =
+    .value = ימים
+account-settings-leave-messages-until-deleted =
+    .label = עד שאמחק אותם
+    .accesskey = d
+account-settings-move-to-trash =
+    .label = העבר לתיקיית אשפה
+    .accesskey = א
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = שאל אותי לפני הורדת יותר מאשר
+    .accesskey = m
+account-settings-messages =
+    .value = הודעות
+account-settings-always-authenticate =
+    .label = תמיד בקש אימות בעת התחברות לשרת זה
+    .accesskey = w
+account-settings-empty-trash-on-exit =
+    .label = רוקן אשפה ביציאה
+    .accesskey = x
+account-settings-default-text-encoding =
+    .value = קידוד טקסט כבררת מחדל:
 
 ## Local Folders and RSS account settings
 
@@ -28,6 +63,9 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-account-name =
+    .value = שם החשבון:
+    .accesskey = ש
 account-settings-rss-server-settings = הגדרות שרת
 account-settings-rss-enable-updates =
     .label = הפעלת עדכונים לכל ההזנות
