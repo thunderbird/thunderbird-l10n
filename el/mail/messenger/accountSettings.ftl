@@ -123,6 +123,13 @@ oauth-provider-extension-info = Οι ρυθμίσεις OAuth2 παρέχοντ�
 
 ## Local Folders and RSS account settings
 
+account-settings-rss-enable-updates =
+    .label = Ενεργοποίηση ενημερώσεων για όλες τις ροές
+    .accesskey = Ε
+account-settings-rss-new-feed-defaults = Προεπιλεγμένες ρυθμίσεις ροών ειδήσεων
+account-settings-rss-manage-subscriptions =
+    .label = Διαχείριση συνδρομών…
+    .accesskey = Δ
 
 ## Feed account wizard
 
