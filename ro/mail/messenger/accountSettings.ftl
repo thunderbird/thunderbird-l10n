@@ -75,6 +75,14 @@ oauth-provider-extension-info = Setări OAuth2 oferite de extensie: <a data-l10n
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = Tipul serverului:
+account-settings-server-name =
+    .value = Numele serverului:
+    .accesskey = S
+account-settings-user-name =
+    .value = Nume de utilizator:
+    .accesskey = N
 account-settings-port =
     .value = Port:
     .accesskey = P
