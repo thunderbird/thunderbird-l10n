@@ -51,6 +51,7 @@ account-settings-imap-other-users-namespace =
 account-settings-imap-override-namespaces =
     .label = اسمح للخادوم بتعديل فضاء التسمية هذا
     .accesskey = س
+account-settings-pop-inbox-description = عند تنزيل البريد من خادوم هذا الحساب، استخدم المجلد التالي للبريد الجديد:
 account-settings-pop-inbox-current-account =
     .label = صندوق الوارد لهذا الحساب
     .accesskey = ذ
