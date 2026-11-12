@@ -153,6 +153,16 @@ account-settings-rss-default-account-name = Aktualności
 ## Advanced server settings
 
 account-settings-advanced-server-title = Zaawansowane ustawienia konta
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = Katalog serwera IMAP
+    .accesskey = K
+account-settings-imap-show-subscribed-folders =
+    .label = Pokaż tylko subskrybowane foldery
+    .accesskey = P
+account-settings-imap-dual-use-folders =
+    .label = Serwer obsługuje foldery zawierające podfoldery i wiadomości
+    .accesskey = S
 account-settings-imap-maximum-connections =
     .value = Maksymalna liczba połączeń z serwerem
     .accesskey = M
