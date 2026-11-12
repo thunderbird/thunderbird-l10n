@@ -54,3 +54,7 @@ account-settings-rss-default-account-name = Prurje Blogjesh & Lajmesh
 
 ## Advanced server settings
 
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = Drejtori shërbyesi IMAP:
+    .accesskey = d
