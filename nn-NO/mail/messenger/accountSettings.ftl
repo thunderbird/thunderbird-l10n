@@ -94,9 +94,19 @@ account-settings-rss-default-account-name = Bloggar og nyheitskjelder
 ## Advanced server settings
 
 account-settings-advanced-server-title = Avanserte konto-innstillingar
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = IMAP-serverkatalog:
+    .accesskey = t
 account-settings-imap-show-subscribed-folders =
     .label = Vis berre mapper du tingar
     .accesskey = b
+account-settings-imap-dual-use-folders =
+    .label = Serveren støttar mapper som inneheld undermapper og meldingar
+    .accesskey = T
+account-settings-imap-maximum-connections =
+    .value = Høgste tal på servertilkoplingar til mellomlageret
+    .accesskey = t
 # Do not translate "IMAP".
 account-settings-imap-namespace-description = Desse innstillingane fastset namneromma på IMAP-serveren
 account-settings-imap-personal-namespace =
