@@ -16,6 +16,13 @@ default-account-button =
 
 ## Local Folders and RSS account settings
 
+account-settings-rss-enable-updates =
+    .label = Увімкнути оновлення для всіх стрічок новин
+    .accesskey = У
+account-settings-rss-new-feed-defaults = Типові налаштування для нових стрічок новин
+account-settings-rss-manage-subscriptions =
+    .label = Упорядкувати підписки…
+    .accesskey = У
 
 ## Feed account wizard
 
