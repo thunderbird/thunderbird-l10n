@@ -23,3 +23,14 @@ account-settings-rss-default-account-name = Blogovi i vijesti
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = Napredne postavke računa
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = IMAP server direktorij:
+    .accesskey = d
+account-settings-imap-public-namespace =
+    .value = Javni (podijeljeni):
+    .accesskey = J
+account-settings-imap-other-users-namespace =
+    .value = Ostali korisnici:
+    .accesskey = O
