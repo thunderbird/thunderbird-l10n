@@ -93,3 +93,4 @@ account-settings-rss-default-account-name = Feeds & blogs
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = Avancerede kontoindstillinger
