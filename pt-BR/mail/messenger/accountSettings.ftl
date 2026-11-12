@@ -39,6 +39,10 @@ ews-oauthscopes-label =
 
 ## Incoming server settings
 
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
 account-settings-message-storage = Armazenamento de mensagens
 
 ## Local Folders and RSS account settings
