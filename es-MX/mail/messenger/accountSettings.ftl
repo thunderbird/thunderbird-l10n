@@ -13,9 +13,53 @@ default-account-button =
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = Tipo de servidor:
+account-settings-server-name =
+    .value = Nombre del servidor:
+    .accesskey = S
+account-settings-user-name =
+    .value = Nombre de usuario:
+    .accesskey = N
+account-settings-port =
+    .value = Puerto:
+    .accesskey = P
+account-settings-default-port =
+    .value = Predeterminado:
+account-settings-message-storage = Almacenamiento de mensajes
+account-settings-message-store-type =
+    .value = Tipo de almacenamiento de mensajes:
+    .accesskey = T
+account-settings-message-store-mbox =
+    .label = Archivo por carpeta (mbox)
+account-settings-message-store-maildir =
+    .label = Archivo por mensaje (maildir)
+account-settings-local-directory =
+    .value = Directorio local:
+account-settings-browse-local-directory =
+    .label = Navegar…
+    .accesskey = B
+    .filepickertitle = Seleccionar directorio local
+account-settings-default-text-encoding =
+    .value = Codificación de texto predeterminada:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Ajustes de la cuenta
+account-settings-title =
+    .value = Ajustes de la cuenta
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = La siguiente es una cuenta especial. No hay identidades asociadas.
+account-settings-account-name =
+    .value = Nombre de la cuenta:
+    .accesskey = N
+account-settings-rss-server-settings = Ajustes del servidor
 account-settings-rss-enable-updates =
     .label = Habilitar actualizaciones para todos los canales
     .accesskey = E
