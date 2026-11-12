@@ -8,6 +8,16 @@
 
 ## Local Folders and RSS account settings
 
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-account-name =
+    .value = Hesab Adı:
+    .accesskey = d
 account-settings-rss-manage-subscriptions =
     .label = Abunəlikləri idarə et…
     .accesskey = A
