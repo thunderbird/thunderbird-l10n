@@ -145,6 +145,7 @@ account-settings-imap-other-users-namespace =
 account-settings-imap-override-namespaces =
     .label = 네임스페이스를 우선하도록 서버 허가
     .accesskey = A
+account-settings-pop-inbox-description = 이 계정 서버에서 메일을 다운로드 받을 때, 새 메시지를 아래 폴더에 저장:
 account-settings-pop-inbox-current-account =
     .label = 이 계정의 받은 편지함
     .accesskey = s
