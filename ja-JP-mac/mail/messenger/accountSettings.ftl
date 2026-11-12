@@ -137,6 +137,17 @@ oauth-provider-extension-info = 拡張機能より提供された OAuth2 設定:
 
 ## Incoming server settings
 
+account-settings-connection-security =
+    .value = 接続の保護:
+    .accesskey = u
+account-settings-connection-security-none =
+    .label = なし
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+account-settings-minutes =
+    .value = 分ごとに確認する
 
 ## Local Folders and RSS account settings
 
