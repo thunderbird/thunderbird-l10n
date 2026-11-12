@@ -19,3 +19,4 @@ account-settings-rss-default-account-name = Canales de Blogues y Noticies
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = Configuración avanzada de cuentes
