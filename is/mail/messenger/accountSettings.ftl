@@ -112,3 +112,17 @@ account-settings-rss-default-account-name = Blogg og fréttastreymi
 
 ## Advanced server settings
 
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Þessar stillingar skilgreina nafnsvið á IMAP þjóni
+account-settings-imap-personal-namespace =
+    .value = Eigið nafnsvið:
+    .accesskey = E
+account-settings-imap-public-namespace =
+    .value = Opinbert (samnýtt):
+    .accesskey = p
+account-settings-imap-other-users-namespace =
+    .value = Aðrir notendur:
+    .accesskey = o
+account-settings-imap-override-namespaces =
+    .label = Leyfa netþjóni að hunsa þessi nafnsvið
+    .accesskey = a
