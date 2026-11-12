@@ -134,6 +134,52 @@ oauth-provider-extension-info = OAuth2-Einstellungen bereitgestellt von der Erwe
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = Servertyp:
+account-settings-server-name =
+    .value = Server:
+    .accesskey = S
+account-settings-user-name =
+    .value = Benutzername:
+    .accesskey = B
+account-settings-port =
+    .value = Port:
+    .accesskey = P
+account-settings-default-port =
+    .value = Standard:
+account-settings-connection-security =
+    .value = Verbindungssicherheit:
+    .accesskey = n
+account-settings-connection-security-none =
+    .label = Keine
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+account-settings-fetch-headers-only =
+    .label = Nur die Kopfzeilen herunterladen
+    .accesskey = o
+account-settings-leave-messages-on-server =
+    .label = Nachrichten auf dem Server belassen
+    .accesskey = i
+account-settings-leave-messages-for =
+    .label = Lösche Nachrichten vom Server nach
+    .accesskey = ö
+account-settings-days =
+    .value = Tagen
+account-settings-move-to-trash =
+    .label = In diesen Ordner verschieben:
+    .accesskey = I
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Abfrage vor Download von mehr als
+    .accesskey = m
+account-settings-messages =
+    .value = Nachrichten
+account-settings-always-authenticate =
+    .label = Beim Verbinden mit diesem Server immer Authentifizierung verlangen
+    .accesskey = i
 
 ## Local Folders and RSS account settings
 
