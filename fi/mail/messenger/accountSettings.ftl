@@ -60,9 +60,68 @@ ews-oauthscopes-label =
 
 ## Incoming server settings
 
+account-settings-connection-security =
+    .value = Yhteyden suojaus:
+    .accesskey = Y
+account-settings-connection-security-none =
+    .label = Ei mitään
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+account-settings-automatically-download-new-messages =
+    .label = Nouda uudet viestit automaattisesti
+    .accesskey = N
+account-settings-fetch-headers-only =
+    .label = Nouda vain otsakkeet
+    .accesskey = o
+account-settings-leave-messages-on-server =
+    .label = Jätä viestit palvelimelle
+    .accesskey = J
+account-settings-leave-messages-for =
+    .label = Poista viestit palvelimelta kun ne ovat
+    .accesskey = s
+account-settings-days =
+    .value = päivän ikäisiä
+account-settings-leave-messages-until-deleted =
+    .label = Poista viestit palvelimelta, kun ne poistetaan saapuneet-kansiosta
+    .accesskey = a
+account-settings-move-to-trash =
+    .label = Siirrä viesti roskakoriin
+    .accesskey = i
+account-settings-message-storage = Viestien säilytys
+account-settings-empty-trash-on-exit =
+    .label = Tyhjennä roskakori kun ohjelma lopetetaan
+    .accesskey = e
+account-settings-message-store-type =
+    .value = Viestisäilötyyppi:
+    .accesskey = T
+account-settings-message-store-mbox =
+    .label = Tiedosto jokaiselle kansiolle (mbox)
+account-settings-message-store-maildir =
+    .label = Tiedosto jokaiselle viestille (maildir)
+account-settings-local-directory =
+    .value = Paikallinen hakemisto:
+account-settings-browse-local-directory =
+    .label = Selaa…
+    .accesskey = e
+    .filepickertitle = Valitse paikalliskansioiden sijainti
+account-settings-default-text-encoding =
+    .value = Oletusmerkistökoodaus:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Tilien asetukset
+account-settings-title =
+    .value = Tilien asetukset
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Seuraava tili on erikoistapaus. Siihen ei liity käyttäjätietoja.
 account-settings-rss-enable-updates =
     .label = Salli päivitykset kaikille syötteille
     .accesskey = S
