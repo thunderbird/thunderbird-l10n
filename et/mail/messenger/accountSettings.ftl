@@ -13,9 +13,51 @@ default-account-button =
 
 ## Incoming server settings
 
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Küsitakse, kui tõmmata on rohkem kui
+    .accesskey = o
+account-settings-messages =
+    .value = kirja
+account-settings-always-authenticate =
+    .label = Selle serveriga ühendudes nõutakse alati kasutaja tuvastamist
+    .accesskey = S
+account-settings-message-store-type =
+    .value = Kirjade salvestamise viis:
+    .accesskey = K
+account-settings-message-store-mbox =
+    .label = üks fail kausta kohta (mbox)
+account-settings-message-store-maildir =
+    .label = iga kiri eraldi failina (maildir)
+account-settings-newsrc-file =
+    .value = News.rc fail:
+account-settings-browse-newsrc =
+    .label = Lehitse...
+    .accesskey = i
+    .filepickertitle = Vali News.rc fail
+account-settings-local-directory =
+    .value = Kohalik kaust:
+account-settings-browse-local-directory =
+    .label = Lehitse...
+    .accesskey = L
+    .filepickertitle = Kohaliku kausta valimine
+account-settings-default-text-encoding =
+    .value = Vaikimisi kodeering:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Konto sätted
+account-settings-title =
+    .value = Konto sätted
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = See on eriline konto, millega pole seotud ühtegi identiteeti.
 account-settings-rss-enable-updates =
     .label = Uuendused lubatakse kõigil uudistevoogudel
     .accesskey = e
