@@ -31,3 +31,11 @@ account-settings-rss-default-account-name = Блоги та стрічки но�
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = Додаткові параметри облікового запису
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = Каталог IMAP-сервера:
+    .accesskey = I
+account-settings-imap-show-subscribed-folders =
+    .label = Показувати тільки теки, на які підписані
+    .accesskey = П
