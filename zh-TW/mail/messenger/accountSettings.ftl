@@ -153,6 +153,10 @@ account-settings-rss-default-account-name = 部落格與新聞來源
 ## Advanced server settings
 
 account-settings-advanced-server-title = 進階帳號設定
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = IMAP 伺服器目錄：
+    .accesskey = d
 account-settings-imap-show-subscribed-folders =
     .label = 只顯示已訂閱目錄
     .accesskey = w
@@ -170,6 +174,13 @@ account-settings-imap-personal-namespace =
 account-settings-imap-public-namespace =
     .value = 公開 (共享) 空間:
     .accesskey = u
+account-settings-imap-other-users-namespace =
+    .value = 其它使用者：
+    .accesskey = O
+account-settings-imap-override-namespaces =
+    .label = 允許伺服器強制蓋掉這些命名空間
+    .accesskey = A
+account-settings-pop-inbox-description = 自此帳號的伺服器下載郵件時，使用下列信件匣來儲存新訊息：
 account-settings-pop-inbox-current-account =
     .label = 此帳號的收件匣
     .accesskey = s
