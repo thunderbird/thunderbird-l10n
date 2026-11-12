@@ -27,6 +27,13 @@ account-settings-connection-security-starttls =
     .label = STARTTLS
 account-settings-connection-security-ssl-tls =
     .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = בדוק אם קיימות הודעות חדשות כל
+    .accesskey = ב
+account-settings-minutes =
+    .value = דקות
 account-settings-automatically-download-new-messages =
     .label = הורד הודעות חדשות אוטומטית
     .accesskey = m
