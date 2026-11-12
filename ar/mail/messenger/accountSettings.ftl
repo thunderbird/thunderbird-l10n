@@ -8,6 +8,13 @@
 
 ## Local Folders and RSS account settings
 
+account-settings-rss-enable-updates =
+    .label = فعّل التحديثات لكل التلقيمات
+    .accesskey = ف
+account-settings-rss-new-feed-defaults = الإعدادات المبدئية للتلقيمات الجديدة
+account-settings-rss-manage-subscriptions =
+    .label = أدر الاشتراكات…
+    .accesskey = د
 
 ## Feed account wizard
 
