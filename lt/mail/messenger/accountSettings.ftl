@@ -31,6 +31,51 @@ account-settings-port =
     .accesskey = v
 account-settings-default-port =
     .value = Numatytasis:
+account-settings-connection-security =
+    .value = Saugusis ryšys:
+    .accesskey = S
+account-settings-connection-security-none =
+    .label = nenaudoti
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+account-settings-minutes =
+    .value = min.
+account-settings-automatically-download-new-messages =
+    .label = Jei patikrinus paštą rasta laiškų, tai juos atsiųsti
+    .accesskey = J
+account-settings-fetch-headers-only =
+    .label = Atsiųsti tik laiškų antraštes
+    .accesskey = A
+account-settings-leave-messages-on-server =
+    .label = Palikti laiškų kopijas serveryje
+    .accesskey = l
+account-settings-leave-messages-for =
+    .label = ne daugiau kaip
+    .accesskey = d
+account-settings-days =
+    .value = dienas(-ų)
+account-settings-leave-messages-until-deleted =
+    .label = kol jie nėra pašalinti iš disko
+    .accesskey = k
+account-settings-move-to-trash =
+    .label = Perkelti į šį katalogą:
+    .accesskey = š
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Paklausti prieš atsiunčiant daugiau kaip
+    .accesskey = k
+account-settings-messages =
+    .value = laiškų
+account-settings-always-authenticate =
+    .label = Nurodyti serveriui, kad jis patikrintų abonento vardą ir slaptažodį
+    .accesskey = N
+account-settings-message-storage = Laiškų saugojimas
+account-settings-empty-trash-on-exit =
+    .label = Baigus darbą su pašto programa, išvalyti šiukšlinę
+    .accesskey = B
 
 ## Local Folders and RSS account settings
 
@@ -41,6 +86,9 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-account-name =
+    .value = Paskyros pavadinimas:
+    .accesskey = P
 account-settings-rss-server-settings = Serverio nuostatos
 account-settings-rss-enable-updates =
     .label = Galima naujinti visus skaidos kanalus
