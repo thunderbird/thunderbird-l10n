@@ -152,3 +152,30 @@ account-settings-rss-default-account-name = Blog e feed delle news
 
 ## Advanced server settings
 
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = Cartella del server IMAP:
+    .accesskey = d
+account-settings-imap-show-subscribed-folders =
+    .label = Mostra solo le cartelle sottoscritte
+    .accesskey = r
+account-settings-imap-dual-use-folders =
+    .label = Il server supporta cartelle contenenti altre cartelle e messaggi
+    .accesskey = s
+account-settings-imap-maximum-connections =
+    .value = Numero massimo di collegamenti verso il server da tenere in cache
+    .accesskey = M
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Queste preferenze definiscono i domini sul server IMAP
+account-settings-imap-personal-namespace =
+    .value = Dominio personale:
+    .accesskey = P
+account-settings-imap-public-namespace =
+    .value = Pubblico (condiviso):
+    .accesskey = u
+account-settings-imap-other-users-namespace =
+    .value = Altri utenti:
+    .accesskey = A
+account-settings-imap-override-namespaces =
+    .label = Permetti al server di sovrascrivere questi domini
+    .accesskey = A
