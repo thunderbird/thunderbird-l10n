@@ -97,6 +97,13 @@ oauth-provider-extension-info = OAuth2 stillingar frá forritsaukanum: <a data-l
 
 ## Local Folders and RSS account settings
 
+account-settings-rss-enable-updates =
+    .label = Virkja uppfærslur fyrir öll streymi
+    .accesskey = V
+account-settings-rss-new-feed-defaults = Sjálfgefnar stillingar fyrir ný streymi
+account-settings-rss-manage-subscriptions =
+    .label = Sýsla með áskriftir…
+    .accesskey = S
 
 ## Feed account wizard
 
