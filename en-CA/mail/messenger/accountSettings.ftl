@@ -85,3 +85,6 @@ account-settings-imap-other-users-namespace =
 account-settings-imap-override-namespaces =
     .label = Allow server to override these namespaces
     .accesskey = A
+account-settings-pop-inbox-current-account =
+    .label = Inbox for this account
+    .accesskey = s
