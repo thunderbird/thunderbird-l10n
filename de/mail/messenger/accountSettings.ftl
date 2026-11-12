@@ -134,6 +134,7 @@ oauth-provider-extension-info = OAuth2-Einstellungen bereitgestellt von der Erwe
 
 ## Incoming server settings
 
+account-settings-server-document-title = Server-Einstellungen
 account-settings-server-type =
     .value = Servertyp:
 account-settings-server-name =
@@ -156,6 +157,13 @@ account-settings-connection-security-starttls =
     .label = STARTTLS
 account-settings-connection-security-ssl-tls =
     .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Alle
+    .accesskey = A
+account-settings-minutes =
+    .value = Minuten auf neue Nachrichten prüfen
 account-settings-automatically-download-new-messages =
     .label = Neue Nachrichten automatisch herunterladen
     .accesskey = d
