@@ -8,6 +8,13 @@
 
 ## Local Folders and RSS account settings
 
+account-settings-rss-enable-updates =
+    .label = Cuir an comas na h-ùrachaidhean airson gach inbhir
+    .accesskey = e
+account-settings-rss-new-feed-defaults = Bun-roghainnean airson inbhirean ùra
+account-settings-rss-manage-subscriptions =
+    .label = Rianaich fo-sgrìobhaidhean…
+    .accesskey = R
 
 ## Feed account wizard
 
