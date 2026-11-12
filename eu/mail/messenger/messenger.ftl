@@ -98,6 +98,17 @@ open-tabs-warning-confirmation =
        *[other] { $count } mezu irekitzea makala izan daiteke. Jarraitu?
     }
 
+## Sign-in window
+
+# Shown when the provider's sign-in page cannot use cookies because they are
+# blocked.
+browser-request-cookies-blocked = Cookieak blokeatuta daude; horrek saioa hastea eragotzi dezake.
+# Turns cookies back on. Same action as the "Accept cookies from sites" option
+# in Settings, Privacy & Security.
+browser-request-cookies-accept =
+    .label = Onartu guneetako cookieak
+    .accesskey = O
+
 ## Toolbar
 
 addons-and-themes-toolbarbutton =
@@ -256,6 +267,10 @@ menu-move-copy-recent-destinations =
 menu-move-copy-favorites =
     .label = Gogokoak
     .accesskey = a
+menu-move-copy-no-recent =
+    .label = (Ez dago azken helmugarik)
+menu-move-copy-no-favorites =
+    .label = (Gogokorik ez)
 
 ## AppMenu
 
@@ -443,6 +458,10 @@ decrypt-and-copy-failures-multiple =
         [one] { $total }(e)tik { $failures } mezu ezin izan dira deszifratu eta ez da kopiatuko.
        *[other] { $total }(e)tik { $failures } mezu ezin izan dira deszifratu eta ez dira kopiatuko.
     }
+# Shown once at the end of a filter run the user started from the message
+# list, when at least one filter or action failed.
+apply-filters-failed = Iragazki-prozesua ez da behar bezala amaitu. Kontsultatu iragazkiaren erregistroa xehetasunak lortzeko.
+apply-filters-failed-open-log-button = Ireki iragazki-erregistroa
 
 ## Spaces toolbar
 
@@ -553,12 +572,51 @@ openpgp-forget = Ahaztu OpenPGP pasa-esdaldiak
 quota-panel-percent-used = { $percent }% full
     .title = IMAP kuota: { $usage } erabilia { $limit } guztirako limitetik
 
+## Sort menu.
+
+sort-by-spam-status =
+    .label = Spamaren egoera
+    .accesskey = S
+
 ## Message menu.
 
+menu-mark-as-spam =
+    .label = Spam gisa
+    .accesskey = S
 mark-as-junk-key =
     .key = j
+menu-mark-not-spam =
+    .label = Ez da spam
+    .accesskey = E
 mark-not-junk-key =
     .key = j
+menu-recalculate-spam-score =
+    .label = Exekutatu spam-kontrolak
+    .accesskey = k
+menu-run-spam-on-folder =
+    .label = Exekutatu spam-kontrolak karpetan
+    .accesskey = E
+menu-delete-spam =
+    .label = Karpetan spam gisa markatutako mezuak ezabatu
+    .accesskey = e
+
+## Folder pane context.
+
+folder-context-empty-spam =
+    .label = Spam hutsik
+    .accesskey = S
+
+## Thread pane.
+
+column-status-spam =
+    .label = Spamaren egoera
+    .tooltiptext = Ordenatu spam egoeraren arabera
+
+## Message header.
+
+header-spam-button =
+    .label = Spam
+    .tooltiptext = Markatu mezu hau spam gisa
 
 ## Actions for the New Mail Notification
 
@@ -570,6 +628,12 @@ archive-action = Artxibatu
 
 ## Message list.
 
+menuitem-label-spam-score-origin =
+    .label = Spam puntuazioaren jatorria
+menuitem-label-spam-percentage =
+    .label = Spam-ehunekoa
+menuitem-label-spam-status =
+    .label = Spamaren egoera
 message-priority-lowest = Baxuena
 message-priority-low = Baxua
 # Normal priority is often blank, depending on the consumers of these strings.
@@ -603,7 +667,39 @@ and-others = eta beste
 
 ## Prompts
 
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-title = { $folder } hustu?
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-message = { $folder } karpetako mezu eta azpikarpeta guztiak ezabatu?
 prompt-dont-ask-again = Ez galdetu berriz.
+
+## Spam commands
+
+# Variables:
+# $percentage (Number) - The percentage of completion of the spam analysis.
+spam-analysis-percentage = Spam analisia { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") } osatuta
+spam-processing-message = Spam mezuak prozesatzen
+
+## Ignore threads
+
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-theads-feedback =
+    { $count ->
+        [one] "{ $subject }" hariari egindako erantzunak ez dira erakutsiko.
+       *[other] Aukeratutako { $count } harietako erantzunak ez dira erakutsiko.
+    }
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-subtheads-feedback =
+    { $count ->
+        [one] "{ $subject }" azpi-hariari emandako erantzunak ez dira erakutsiko.
+       *[other] Aukeratutako { $count } azpi-harietako erantzunak ez dira erakutsiko.
+    }
 
 ## Attachments
 

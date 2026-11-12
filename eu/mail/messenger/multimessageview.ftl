@@ -13,6 +13,9 @@ multi-message-delete-button =
 multi-message-undelete-button =
     .label = Desezabatu
     .tooltiptext = Desezabatu
+multi-message-flagged-button =
+    .aria-label = Izarduna
+    .title = Izarduna
 # Variables:
 #   $count - total number of conversations (threads or solitary messages) selected
 num-conversations =

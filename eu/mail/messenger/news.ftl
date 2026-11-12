@@ -66,6 +66,12 @@ cancel-confirm = Ziur zaude mezu hau bertan behera utzi nahi duzula?
 # $newsgroup (String) - The name of the newsgroup.
 auto-subscribe-text = { $newsgroup } berri-taldera harpidetu nahi duzu?
 
+## Unknown News Server Dialog
+
+# Variables:
+# $server (String) - The hostname:port of the news server, e.g. news.example.com:119.
+unknown-news-server-text = Esteka honek { $server } helbidera jotzen du, baina ez dago konturik konfiguratuta albiste-zerbitzari horretarako. Konektatu hala ere?
+
 ## News Server Credentials
 
 enter-news-credentials-title = Berri-zerbitzariaren erabiltzaile-izena eta pasahitza beharrezkoa
