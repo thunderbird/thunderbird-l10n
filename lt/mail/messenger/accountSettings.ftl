@@ -21,6 +21,13 @@ outgoing-server-edit =
 
 ## Local Folders and RSS account settings
 
+account-settings-rss-enable-updates =
+    .label = Galima naujinti visus skaidos kanalus
+    .accesskey = E
+account-settings-rss-new-feed-defaults = Numatytieji naujų kanalų nustatymai
+account-settings-rss-manage-subscriptions =
+    .label = Tvarkyti prenumeratas…
+    .accesskey = T
 
 ## Feed account wizard
 
