@@ -8,6 +8,13 @@
 
 ## Local Folders and RSS account settings
 
+account-settings-rss-enable-updates =
+    .label = Միացնել բոլոր շղթաների թարմացումները
+    .accesskey = Մ
+account-settings-rss-new-feed-defaults = Սկզբնադիր կարգաւորումներ նոր շղթաների համար
+account-settings-rss-manage-subscriptions =
+    .label = Կառավարել բաժանորդագրութիւնները…
+    .accesskey = Կ
 
 ## Feed account wizard
 
