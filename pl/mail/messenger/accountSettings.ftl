@@ -134,6 +134,7 @@ oauth-provider-extension-info = Ustawienia OAuth2 udostępniane przez rozszerzen
 
 ## Incoming server settings
 
+account-settings-server-document-title = Konfiguracja serwera
 account-settings-server-type =
     .value = Typ serwera:
 account-settings-server-name =
@@ -156,6 +157,13 @@ account-settings-connection-security-starttls =
     .label = STARTTLS
 account-settings-connection-security-ssl-tls =
     .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Sprawdzaj, czy nadeszły nowe wiadomości co
+    .accesskey = S
+account-settings-minutes =
+    .value = minut
 account-settings-automatically-download-new-messages =
     .label = Automatycznie pobieraj nowe wiadomości
     .accesskey = A
@@ -173,6 +181,9 @@ account-settings-days =
 account-settings-leave-messages-until-deleted =
     .label = Dopóki wiadomość nie zostanie usunięta
     .accesskey = D
+account-settings-move-to-trash =
+    .label = Przenieś do tego folderu:
+    .accesskey = f
 # The label is followed by a numerical input and the message
 # account-settings-messages.
 account-settings-ask-before-download =
