@@ -26,6 +26,9 @@ account-settings-port =
     .accesskey = P
 account-settings-default-port =
     .value = Per defecte:
+account-settings-connection-security =
+    .value = Seguretat de la connexió:
+    .accesskey = C
 account-settings-connection-security-none =
     .label = Cap
 account-settings-connection-security-starttls =
@@ -80,6 +83,14 @@ account-settings-message-store-mbox =
     .label = Un fitxer per carpeta (mbox)
 account-settings-message-store-maildir =
     .label = Un fitxer per missatge (maildir)
+account-settings-local-directory =
+    .value = Directori local:
+account-settings-browse-local-directory =
+    .label = Navega…
+    .accesskey = N
+    .filepickertitle = Seleccioneu el directori local
+account-settings-default-text-encoding =
+    .value = Codificació del text per defecte:
 
 ## Local Folders and RSS account settings
 
