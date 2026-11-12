@@ -59,6 +59,7 @@ account-settings-imap-other-users-namespace =
 account-settings-imap-override-namespaces =
     .label = Թույլատրել սպասարկիչին կարգավորել այս անվանադաշտերը
     .accesskey = A
+account-settings-pop-inbox-description = Հաշվի այս սպասարկիչից էլ. փոստ ներբեռնելիս նոր նամակները պահելու համար օգտագործեք հետևյալ թղթապանակը
 account-settings-pop-inbox-current-account =
     .label = Մուտքային՝ այս հաշվի համար
     .accesskey = յ
