@@ -153,6 +153,10 @@ account-settings-rss-default-account-name = Blogs e actualitates
 ## Advanced server settings
 
 account-settings-advanced-server-title = Parametros avantiate de contos
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = Directorio del servitor IMAP:
+    .accesskey = d
 account-settings-imap-show-subscribed-folders =
     .label = Monstrar solmente dossiers subscribite
     .accesskey = r
@@ -167,6 +171,22 @@ account-settings-imap-namespace-description = Iste preferentias specifica le spa
 account-settings-imap-personal-namespace =
     .value = Spatio de nomines personal:
     .accesskey = p
+account-settings-imap-public-namespace =
+    .value = Public (compartite):
+    .accesskey = u
+account-settings-imap-other-users-namespace =
+    .value = Altere usatores:
+    .accesskey = A
+account-settings-imap-override-namespaces =
+    .label = Permitter que le servitor supplanta iste spatios de nomines
+    .accesskey = s
+account-settings-pop-inbox-description = Quando se discarga posta del servitor de iste conto, mitter nove messages in iste dossier:
 account-settings-pop-inbox-current-account =
     .label = Cassa de entrata pro iste conto
     .accesskey = e
+account-settings-pop-inbox-other-account =
+    .label = Cassa de entrata de un altere conto
+    .accesskey = d
+account-settings-pop-include-server =
+    .label = Includer iste servitor durante le reception de nove posta
+    .accesskey = I
