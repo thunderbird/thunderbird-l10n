@@ -138,9 +138,33 @@ account-settings-message-storage = Penyimpanan Pesan
 account-settings-empty-trash-on-exit =
     .label = Kosongkan Tong Sampah saat Keluar
     .accesskey = K
+account-settings-message-store-type =
+    .value = Jenis Penyimpangan Pesan:
+    .accesskey = T
+account-settings-message-store-mbox =
+    .label = Berkas per folder (mbox)
+account-settings-message-store-maildir =
+    .label = Berkas per pesan (maildir)
+account-settings-newsrc-file =
+    .value = File News.rc:
+account-settings-browse-newsrc =
+    .label = Telusuri…
+    .accesskey = T
+    .filepickertitle = Pilih File News.rc
+account-settings-local-directory =
+    .value = Direktori Lokal:
+account-settings-browse-local-directory =
+    .label = Telusuri…
+    .accesskey = T
+    .filepickertitle = Pilih Direktori Lokal
+account-settings-default-text-encoding =
+    .value = Pengodean Teks Standar:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Setelan Akun
+account-settings-title =
+    .value = Setelan Akun
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
@@ -148,6 +172,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Akun berikut merupakan akun khusus. Tidak ada identitas yang terkait dengan akun ini.
 account-settings-account-name =
     .value = Nama Akun:
     .accesskey = N
