@@ -107,9 +107,43 @@ oauth-provider-extension-info = OAuth2 iestatījumi, kurus nodrošina paplašin�
 
 ## Incoming server settings
 
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+account-settings-automatically-download-new-messages =
+    .label = Automātiski lejuplādēt jaunus ziņojumus
+    .accesskey = m
+account-settings-fetch-headers-only =
+    .label = Ielādēt tikai galvenes
+    .accesskey = g
+account-settings-leave-messages-on-server =
+    .label = Atstāt vēstules serverī
+    .accesskey = s
+account-settings-leave-messages-for =
+    .label = Par maksimums
+    .accesskey = m
+account-settings-days =
+    .value = dienas
+account-settings-leave-messages-until-deleted =
+    .label = Līdz tās izdzēšat
+    .accesskey = d
+account-settings-move-to-trash =
+    .label = Pārvietot to uz šo mapi:
+    .accesskey = P
 
 ## Local Folders and RSS account settings
 
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-account-name =
+    .value = Konta nosaukums:
+    .accesskey = n
 account-settings-rss-enable-updates =
     .label = Ieslēgt atjaunojumus visām plūsmām
     .accesskey = I
