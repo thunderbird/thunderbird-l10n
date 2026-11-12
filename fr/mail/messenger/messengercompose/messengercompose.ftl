@@ -102,6 +102,12 @@ compose-blocked-content-preferences-accesskey = P
 # $url - URL of the blocked resource
 compose-unblock-resource =
     .label = Débloquer { $url }
+menuitem-resize-header-area =
+    .label = Redimensionner la zone d’en-tête
+    .accesskey = R
+compose-header-area-splitter =
+    .aria-description = Utilisez les flèches Haut et Bas pour redimensionner, Maj pour les grands intervalles. Appuyez sur Tab pour vous déplacer vers l’éditeur ou sur Maj+Tab pour vous déplacer jusqu’au sujet.
+    .aria-label = Zone d’en-tête
 
 ## Send Format
 

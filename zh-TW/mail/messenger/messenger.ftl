@@ -15,6 +15,19 @@ messenger-save-message-failed = 無法儲存訊息，請檢查檔名是否正確
 # Variables:
 # $filename (String) - Full path of the file that already exists.
 messenger-file-exists = { $filename } 已存在。您要取代它嗎？
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+folder-file-not-found = 找不到「{ $folder }」的檔案在 { $server }。還原檔案或選擇另一個目的資料夾後再試一次。
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+folder-file-access-denied = 無法存取 { $server } 上的「{ $folder }」。請檢查信件匣的檔案權限後再試一次。
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+# $errorCode (String) - The hexadecimal filesystem error code.
+folder-file-error = 無法存取 { $server } 上的「{ $folder }」。請檢查資料夾的檔案是否可用且可寫入然後再試一次。錯誤: { $errorCode }
 
 ## Window controls
 
@@ -264,6 +277,8 @@ appmenu-save-as-file =
     .label = 檔案…
 appmenu-settings =
     .label = 設定
+appmenu-accounts =
+    .label = 帳號
 appmenu-addons-and-themes =
     .label = 附加元件與佈景主題
 
@@ -481,6 +496,8 @@ spaces-context-switch-tab-item =
     .label = 切換到 { $tabName }
 settings-context-open-settings-item2 =
     .label = 設定
+settings-context-open-accounts-item =
+    .label = 帳號
 settings-context-open-account-settings-item2 =
     .label = 帳號設定
 settings-context-open-addons-item2 =

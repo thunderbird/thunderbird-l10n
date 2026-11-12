@@ -90,6 +90,13 @@ smtp-auth-hint-plain-to-encrypt = { $hostname } 這台寄件伺服器 (SMTP) 不
 smtp-auth-failure = 無法向寄件伺服器 (SMTP) { $hostname } 進行認證。請到「帳號設定 | 寄件伺服器 (SMTP)」中將「認證方式」設定為「無」。
 # Variables:
 # $hostname - outgoing server hostname
+# $serverResponse - server response
+smtp-auth-oauth2-failure = 無法向寄件伺服器 (SMTP) { $hostname } 使用 OAuth2 驗證。伺服器回應: { $serverResponse }
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-oauth2-failure-no-response = 無法向寄件伺服器 (SMTP) { $hostname } 使用 OAuth2 驗證。
+# Variables:
+# $hostname - outgoing server hostname
 smtp-auth-gssapi = Kerberos/GSSAPI 門標（Ticket）沒有被 { $hostname } 這台寄件伺服器接受。請檢查您是否已經登入 Kerberos/GSSAPI 領域。
 # Variables:
 # $hostname - outgoing server hostname

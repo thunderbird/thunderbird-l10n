@@ -12,6 +12,13 @@ system-tray-app-name = { -brand-full-name }
 menu-tools-settings =
     .label = Impostazioni
     .accesskey = s
+menu-accounts =
+    .label = Account
+    .accesskey =
+        { PLATFORM() ->
+            [linux] A
+           *[other] A
+        }
 menu-addons-and-themes =
     .label = Componenti aggiuntivi e temi
     .accesskey = C

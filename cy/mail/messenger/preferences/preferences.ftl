@@ -10,6 +10,9 @@ category-list =
 pane-general-title = Cyffredinol
 category-general =
     .tooltiptext = { pane-general-title }
+pane-notifications-title = Hysbysiadau
+category-notifications =
+    .tooltiptext = { pane-notifications-title }
 pane-appearance-title = Gwedd
 category-appearance =
     .tooltiptext = { pane-appearance-title }
@@ -31,6 +34,10 @@ category-sync =
 pane-qr-export-title = Allforio ar gyfer Symudol
 category-qr-export =
     .tooltiptext = Allforio ar gyfer Symudol
+pane-beta-features-title = Nodweddion Beta
+category-beta-features =
+    .tooltiptext = { pane-beta-features-title }
+experimental-features-legend = Nodweddion Arbrofol
 general-language-and-fonts-header = Iaith a Ffontiau
 general-email-notifications-header = Hysbysiadau e-bost
 general-incoming-mail-header = Derbyn E-byst
@@ -116,6 +123,7 @@ update-in-progress-ok-button = &Dileu
 # Continue is the cancel button so pressing escape or using a platform standard
 # method of closing the UI will not discard the update.
 update-in-progress-cancel-button = &Parhau
+accounts-button = Cyfrifon
 account-button = Gosodiadau Cyfrif
 open-addons-sidebar-button = Ychwanegion a Themâu
 manual-storage-limit-label =
@@ -626,6 +634,7 @@ show-conversation-view-label =
     .label = Dangos golwg sgwrs
     .accesskey = D
 conversation-view-preview-description = Mae hon yn nodwedd rhagolwg cynnar. Mae'n grwpio negeseuon cysylltiedig gyda'i gilydd, ond efallai fydd e ddim bob amser yn gweithio yn ôl y disgwyl.
+conversation-view-settings-link = Ffurfweddu Golwg Sgwrs yn Nodweddion Beta
 conversation-view-checkbox-label =
     .label = Galluogi golwg sgwrs
     .accesskey = s
@@ -673,6 +682,7 @@ new-calendar-legend = Deialog Digwyddiad Calendr Newydd
 new-calendar-checkbox-label =
     .label = Gweld digwyddiadau calendr yn y ddeialog newydd
 new-calendar-checkbox-description = Deialog calendr newydd arbrofol ar gyfer gwylio digwyddiadau
+new-calendar-dialog-settings-link = Ffurfweddu Deialog Digwyddiad Calendr Newydd yn Nodweddion Beta
 
 ## Compose Tab
 

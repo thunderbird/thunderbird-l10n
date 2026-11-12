@@ -10,6 +10,9 @@ category-list =
 pane-general-title = Generale
 category-general =
     .tooltiptext = { pane-general-title }
+pane-notifications-title = Notifiche
+category-notifications =
+    .tooltiptext = { pane-notifications-title }
 pane-appearance-title = Aspetto
 category-appearance =
     .tooltiptext = { pane-appearance-title }
@@ -31,6 +34,10 @@ category-sync =
 pane-qr-export-title = Esporta per app mobile
 category-qr-export =
     .tooltiptext = Esporta per app mobile
+pane-beta-features-title = Funzionalità beta
+category-beta-features =
+    .tooltiptext = { pane-beta-features-title }
+experimental-features-legend = Funzioni sperimentali
 general-language-and-fonts-header = Lingua e caratteri
 general-email-notifications-header = Notifiche email
 general-incoming-mail-header = Posta in arrivo
@@ -116,6 +123,7 @@ update-in-progress-ok-button = I&nterrompi
 # Continue is the cancel button so pressing escape or using a platform standard
 # method of closing the UI will not discard the update.
 update-in-progress-cancel-button = &Continua
+accounts-button = Account
 account-button = Impostazioni account
 open-addons-sidebar-button = Componenti aggiuntivi e temi
 manual-storage-limit-label =
@@ -626,6 +634,7 @@ show-conversation-view-label =
     .label = Mostra vista conversazione
     .accesskey = z
 conversation-view-preview-description = Questa funzionalità è ancora in fase di anteprima. Raggruppa i messaggi correlati, ma potrebbe non funzionare sempre come previsto.
+conversation-view-settings-link = Configura la vista conversazione nelle funzioni beta
 conversation-view-checkbox-label =
     .label = Attiva vista conversazione
     .accesskey = A
@@ -673,6 +682,7 @@ new-calendar-legend = Finestra di dialogo per nuovo evento del calendario
 new-calendar-checkbox-label =
     .label = Visualizza gli eventi del calendario nella nuova finestra di dialogo
 new-calendar-checkbox-description = Versione sperimentale della finestra di dialogo del calendario per visualizzare gli eventi
+new-calendar-dialog-settings-link = Configura nuova finestra eventi del calendario nelle funzionalità beta
 
 ## Compose Tab
 

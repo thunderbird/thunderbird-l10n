@@ -90,6 +90,13 @@ smtp-auth-hint-plain-to-encrypt = Le serveur sortant (SMTP) { $hostname } n’au
 smtp-auth-failure = Impossible de s’authentifier sur le serveur sortant (SMTP) { $hostname }. Veuillez vérifier votre mot de passe et la « Méthode d’authentification » dans le menu « Paramètres des comptes | Serveur sortant (SMTP) ».
 # Variables:
 # $hostname - outgoing server hostname
+# $serverResponse - server response
+smtp-auth-oauth2-failure = Impossible de s’authentifier sur le serveur sortant (SMTP) { $hostname } en utilisant OAuth2. Le serveur a répondu : { $serverResponse }
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-oauth2-failure-no-response = Impossible de s’authentifier sur le serveur sortant (SMTP) { $hostname } en utilisant OAuth2.
+# Variables:
+# $hostname - outgoing server hostname
 smtp-auth-gssapi = Le ticket Kerberos/GSSAPI n’a pas été accepté par le serveur sortant (SMTP) { $hostname }. Veuillez vérifier que vous êtes connecté dans le flux Kerberos/GSSAPI.
 # Variables:
 # $hostname - outgoing server hostname

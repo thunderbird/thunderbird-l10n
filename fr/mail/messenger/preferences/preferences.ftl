@@ -10,6 +10,9 @@ category-list =
 pane-general-title = Général
 category-general =
     .tooltiptext = { pane-general-title }
+pane-notifications-title = Notifications
+category-notifications =
+    .tooltiptext = { pane-notifications-title }
 pane-appearance-title = Apparence
 category-appearance =
     .tooltiptext = { pane-appearance-title }
@@ -31,6 +34,10 @@ category-sync =
 pane-qr-export-title = Exporter pour l’application mobile
 category-qr-export =
     .tooltiptext = Exporter pour l’application mobile
+pane-beta-features-title = Fonctionnalités bêta
+category-beta-features =
+    .tooltiptext = { pane-beta-features-title }
+experimental-features-legend = Fonctionnalités expérimentales
 general-language-and-fonts-header = Langue et polices
 general-email-notifications-header = Notifications d’e-mails
 general-incoming-mail-header = Courrier entrant
@@ -116,6 +123,7 @@ update-in-progress-ok-button = &Abandonner
 # Continue is the cancel button so pressing escape or using a platform standard
 # method of closing the UI will not discard the update.
 update-in-progress-cancel-button = &Continuer
+accounts-button = Comptes
 account-button = Paramètres des comptes
 open-addons-sidebar-button = Modules complémentaires et thèmes
 manual-storage-limit-label =
@@ -626,6 +634,7 @@ show-conversation-view-label =
     .label = Afficher le mode conversation
     .accesskey = m
 conversation-view-preview-description = Cette fonctionnalité est proposée en avant-première. Elle regroupe les messages associés, mais peut parfois ne pas fonctionner comme prévu.
+conversation-view-settings-link = Configuration du mode conversation dans les fonctionnalités bêta
 conversation-view-checkbox-label =
     .label = Activer le mode conversation
     .accesskey = A
@@ -673,6 +682,7 @@ new-calendar-legend = Boîte de dialogue Nouvel évènement d’agenda
 new-calendar-checkbox-label =
     .label = Voir les évènements de l’agenda dans la nouvelle boîte de dialogue
 new-calendar-checkbox-description = Nouvelle boîte de dialogue expérimentale de l’agenda pour l’affichage d’évènements
+new-calendar-dialog-settings-link = Configurer un nouveau dialogue avec les évènements de l’agenda en fonctionnalités bêta
 
 ## Compose Tab
 

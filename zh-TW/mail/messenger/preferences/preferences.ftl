@@ -10,6 +10,9 @@ category-list =
 pane-general-title = 一般
 category-general =
     .tooltiptext = { pane-general-title }
+pane-notifications-title = 通知
+category-notifications =
+    .tooltiptext = { pane-notifications-title }
 pane-appearance-title = 外觀設定
 category-appearance =
     .tooltiptext = { pane-appearance-title }
@@ -31,6 +34,10 @@ category-sync =
 pane-qr-export-title = 匯出至行動版
 category-qr-export =
     .tooltiptext = 匯出至行動版
+pane-beta-features-title = Beta 測試版功能
+category-beta-features =
+    .tooltiptext = { pane-beta-features-title }
+experimental-features-legend = 實驗功能
 general-language-and-fonts-header = 語言與字型
 general-email-notifications-header = 電子郵件通知
 general-incoming-mail-header = 收到的郵件
@@ -116,6 +123,7 @@ update-in-progress-ok-button = 捨棄 (&D)
 # Continue is the cancel button so pressing escape or using a platform standard
 # method of closing the UI will not discard the update.
 update-in-progress-cancel-button = 繼續 (&C)
+accounts-button = 帳號
 account-button = 帳號設定
 open-addons-sidebar-button = 附加元件與佈景主題
 manual-storage-limit-label =
@@ -626,6 +634,7 @@ show-conversation-view-label =
     .label = 顯示對話畫面
     .accesskey = c
 conversation-view-preview-description = 這項功能仍處於早期預覽階段，可將相關訊息彙整在一起顯示，但不一定每次都能如預期運作。
+conversation-view-settings-link = 在 Beta 版功能中設定對話畫面
 conversation-view-checkbox-label =
     .label = 開啟對話畫面
     .accesskey = c
@@ -673,6 +682,7 @@ new-calendar-legend = 新版行事曆事件對話框
 new-calendar-checkbox-label =
     .label = 用新版對話框檢視行事曆事件
 new-calendar-checkbox-description = 用新版行事曆對話框檢視事件（實驗中）
+new-calendar-dialog-settings-link = Beta 功能中的設定新行事歷事件對話框
 
 ## Compose Tab
 

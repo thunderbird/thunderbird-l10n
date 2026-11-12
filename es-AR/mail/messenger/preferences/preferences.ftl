@@ -10,6 +10,9 @@ category-list =
 pane-general-title = General
 category-general =
     .tooltiptext = { pane-general-title }
+pane-notifications-title = Notificaciones
+category-notifications =
+    .tooltiptext = { pane-notifications-title }
 pane-appearance-title = Apariencia
 category-appearance =
     .tooltiptext = { pane-appearance-title }
@@ -31,6 +34,10 @@ category-sync =
 pane-qr-export-title = Exportar para dispositivos móviles
 category-qr-export =
     .tooltiptext = Exportar para dispositivos móviles
+pane-beta-features-title = Funciones beta
+category-beta-features =
+    .tooltiptext = { pane-beta-features-title }
+experimental-features-legend = Características experimentales
 general-language-and-fonts-header = Idioma y fuentes
 general-email-notifications-header = Notificaciones por correo electrónico
 general-incoming-mail-header = Correos electrónicos entrantes
@@ -116,6 +123,7 @@ update-in-progress-ok-button = &Descartar
 # Continue is the cancel button so pressing escape or using a platform standard
 # method of closing the UI will not discard the update.
 update-in-progress-cancel-button = &Continuar
+accounts-button = Cuentas
 account-button = Configuración de la cuenta
 open-addons-sidebar-button = Complementos y temas
 manual-storage-limit-label =
@@ -626,6 +634,7 @@ show-conversation-view-label =
     .label = Mostrar vista de conversación
     .accesskey = c
 conversation-view-preview-description = Esta es una función de vista previa. Agrupa los mensajes relacionados, pero puede que no siempre funcione como se esperaba.
+conversation-view-settings-link = Configurar la vista de conversación en las funciones beta
 conversation-view-checkbox-label =
     .label = Habilitar vista de conversación
     .accesskey = c
@@ -673,6 +682,7 @@ new-calendar-legend = Diálogo de nuevo evento del calendario
 new-calendar-checkbox-label =
     .label = Ver eventos del calendario en el nuevo diálogo
 new-calendar-checkbox-description = Nuevo diálogo experimental de calendario para ver eventos
+new-calendar-dialog-settings-link = Configurar un nuevo diálogo de eventos del calendario en las funciones beta
 
 ## Compose Tab
 

@@ -37,6 +37,28 @@ filter-failure-move-failed = Methodd y symud
 filter-failure-copy-failed = Methodd y copïo
 filter-failure-action = Methu gosod y weithred hidlo
 # Variables:
+# $folder (String) - The URI of the destination folder.
+# $errorCode (String) - The hexadecimal error code for the batch.
+filter-copy-batch-failed = Methu â chwblhau copïo negeseuon i { $folder }. Mae'n bosibl bod rhai negeseuon wedi'u copïo. Gwall: { $errorCode }. IDau neges y gofynnwyd amdanynt: { filter-batch-message-ids }
+# Variables:
+# $folder (String) - The URI of the destination folder.
+# $errorCode (String) - The hexadecimal error code for the batch.
+filter-move-batch-failed = Methu â chwblhau symud negeseuon i { $folder }. Mae'n bosibl bod rhai negeseuon wedi'u copïo heb eu tynnu o'r ffolder ffynhonnell. Gwall: { $errorCode }. IDau neges y gofynnwyd amdanynt: { filter-batch-message-ids }
+# Referenced by filter-copy-batch-failed and filter-move-batch-failed.
+# Variables:
+# $messageIds (String) - Up to 20 requested message IDs, separated by commas.
+# $count (Number) - The number of additional requested messages whose IDs are omitted.
+filter-batch-message-ids =
+    { $count ->
+        [0] { $messageIds }
+        [one] { $messageIds }, a { $count } neges arall
+        [zero] { $messageIds }, a { $count } neges arall
+        [two] { $messageIds }, a { $count } neges arall
+        [few] { $messageIds }, a { $count } neges arall
+        [many] { $messageIds }, a { $count } neges arall
+       *[other] { $messageIds }, a { $count } neges arall
+    }
+# Variables:
 # $filterName (String) - The name of the filter that was applied.
 # $author (String) - The sender of the message.
 # $subject (String) - The subject line of the message.

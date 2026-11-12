@@ -90,6 +90,13 @@ smtp-auth-hint-plain-to-encrypt = El servidor saliente (SMTP) { $hostname } no p
 smtp-auth-failure = No se puede autenticar al servidor SMTP { $hostname }. Verifique la contraseña y ‘Método de autenticación’ en ‘Configuración de cuenta | Servidor de salida (SMTP)’.
 # Variables:
 # $hostname - outgoing server hostname
+# $serverResponse - server response
+smtp-auth-oauth2-failure = No se puede autenticar al servidor saliente (SMTP) { $hostname } usando OAuth2. El servidor respondió: { $serverResponse }
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-oauth2-failure-no-response = No se puede autenticar al servidor saliente (SMTP) { $hostname } usando OAuth2.
+# Variables:
+# $hostname - outgoing server hostname
 smtp-auth-gssapi = El ticket Kerberos/GSSAPI no fue aceptado por el servidor SMTP { $hostname }. Verifique que inició sesión en Kerberos/GSSAPI.
 # Variables:
 # $hostname - outgoing server hostname

@@ -90,6 +90,13 @@ smtp-auth-hint-plain-to-encrypt = Nid yw'r gweinydd Anfon (SMTP) { $hostname } y
 smtp-auth-failure = Methu dilysu gweinydd Anfon (SMTP) { $hostname }. Gwiriwch eich cyfrinair a dilysu eich ‘Dull dilysu’ yn ‘Gosodiadau Cyfrif | Gweinydd anfon’ (SMTP)’.
 # Variables:
 # $hostname - outgoing server hostname
+# $serverResponse - server response
+smtp-auth-oauth2-failure = Methu dilysu i'r gweinydd sy'n mynd allan (SMTP) { $hostname } gan ddefnyddio OAuth2. Ymatebodd y gweinydd: { $serverResponse }
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-oauth2-failure-no-response = Methu dilysu i'r gweinydd sy'n mynd allan (SMTP) { $hostname } gan ddefnyddio OAuth2.
+# Variables:
+# $hostname - outgoing server hostname
 smtp-auth-gssapi = Nid yw'r tocyn Kerberos/GSSAPI ticket wedi'i dderbyn gan weinydd Anfon (SMTP) { $hostname }. Gwiriwch eich bod wedi eich mewngofnodi i gylch Kerberos/GSSAPI.
 # Variables:
 # $hostname - outgoing server hostname

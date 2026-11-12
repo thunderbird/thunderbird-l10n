@@ -15,6 +15,19 @@ messenger-save-message-failed = Methu cadw'r neges. Gwirio enw'r ffeil a cheisio
 # Variables:
 # $filename (String) - Full path of the file that already exists.
 messenger-file-exists = Mae { $filename } yn bodoli yn barod. Hoffech chi newid y ffeil?
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+folder-file-not-found = Nid oedd modd dod o hyd i'r ffeil ar gyfer "{ $folder }" ar { $server }. Adfer y ffeil neu ddewis ffolder cyrchfan arall, yna ceisiwch eto.
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+folder-file-access-denied = Methu cyrchu "{ $folder }" ar { $server }. Gwiriwch ganiatadau ffeil y ffolder, yna ceisiwch eto.
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+# $errorCode (String) - The hexadecimal filesystem error code.
+folder-file-error = Methu cyrchu "{ $folder }" ar { $server }. Gwiriwch fod ffeiliau'r ffolder ar gael ac yn ysgrifenadwy, yna ceisiwch eto. Gwall: { $errorCode }
 
 ## Window controls
 
@@ -297,6 +310,8 @@ appmenu-save-as-file =
     .label = Ffeil…
 appmenu-settings =
     .label = Gosodiadau
+appmenu-accounts =
+    .label = Cyfrifon
 appmenu-addons-and-themes =
     .label = Ychwanegion a Themâu
 
@@ -532,6 +547,8 @@ spaces-context-switch-tab-item =
     .label = Newid i { $tabName }
 settings-context-open-settings-item2 =
     .label = Gosodiadau
+settings-context-open-accounts-item =
+    .label = Cyfrifon
 settings-context-open-account-settings-item2 =
     .label = Gosodiadau Cyfrif
 settings-context-open-addons-item2 =

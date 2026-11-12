@@ -90,6 +90,13 @@ smtp-auth-hint-plain-to-encrypt = Il server in uscita (SMTP) { $hostname } non g
 smtp-auth-failure = Autenticazione non riuscita col server di posta in uscita (SMTP) { $hostname }. Controllare la password e verificare il “Metodo di autenticazione” in “Impostazioni account | Server posta in uscita (SMTP)”.
 # Variables:
 # $hostname - outgoing server hostname
+# $serverResponse - server response
+smtp-auth-oauth2-failure = Impossibile autenticarsi sul server in uscita (SMTP) { $hostname } utilizzando OAuth2. Il server ha risposto: { $serverResponse }
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-oauth2-failure-no-response = Impossibile autenticarsi sul server in uscita (SMTP) { $hostname } utilizzando OAuth2.
+# Variables:
+# $hostname - outgoing server hostname
 smtp-auth-gssapi = Le credenziali Kerberos/GSSAP non sono state accettate dal server di posta in uscita (SMTP) { $hostname }. Controllare di essere autenticati nel dominio Kerberos/GSSAP.
 # Variables:
 # $hostname - outgoing server hostname

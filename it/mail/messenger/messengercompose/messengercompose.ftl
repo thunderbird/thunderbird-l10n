@@ -102,6 +102,12 @@ compose-blocked-content-preferences-accesskey = P
 # $url - URL of the blocked resource
 compose-unblock-resource =
     .label = Sblocca { $url }
+menuitem-resize-header-area =
+    .label = Ridimensiona l’area dell’intestazione
+    .accesskey = R
+compose-header-area-splitter =
+    .aria-description = Utilizzare Su e Giù per ridimensionare, con Maiusc per i passaggi più grandi. Premi Tab per passare all’editor o Maiusc+Tab per passare all’Oggetto.
+    .aria-label = Area di intestazione
 
 ## Send Format
 

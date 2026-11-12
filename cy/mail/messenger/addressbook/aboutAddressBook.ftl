@@ -33,6 +33,10 @@ about-addressbook-card-count = Cyfanswm y cysylltiadau yn { $name } : { $count }
 # Variables:
 # $count (Number) - The number of contacts in all address books.
 about-addressbook-card-count-all = Cyfanswm y cysylltiadau yn { $name } : { $count }
+about-addressbook-books-context-new-contact =
+    .label = Cysylltiad Newydd
+about-addressbook-books-context-new-list =
+    .label = Rhestr Newydd
 about-addressbook-books-context-properties =
     .label = Priodweddau
 about-addressbook-books-context-edit-list =

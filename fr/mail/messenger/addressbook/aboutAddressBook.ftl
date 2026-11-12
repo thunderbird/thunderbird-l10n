@@ -33,6 +33,10 @@ about-addressbook-card-count = Nombre total de contacts du carnet { $name } : {
 # Variables:
 # $count (Number) - The number of contacts in all address books.
 about-addressbook-card-count-all = Nombre total de contacts de tous les carnets d’adresses : { $count }
+about-addressbook-books-context-new-contact =
+    .label = Nouveau contact
+about-addressbook-books-context-new-list =
+    .label = Nouvelle liste
 about-addressbook-books-context-properties =
     .label = Propriétés
 about-addressbook-books-context-edit-list =

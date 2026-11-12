@@ -15,6 +15,19 @@ messenger-save-message-failed = Impossible d’enregistrer le message. Veuillez 
 # Variables:
 # $filename (String) - Full path of the file that already exists.
 messenger-file-exists = { $filename } existe déjà. Voulez-vous le remplacer ?
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+folder-file-not-found = Le fichier pour « { $folder } » sur { $server } est introuvable. Restaurez le fichier ou choisissez un autre dossier de destination, puis réessayez.
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+folder-file-access-denied = Impossible d’accéder à « { $folder } » sur { $server }. Vérifiez les permissions de fichiers du dossier, puis réessayez.
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+# $errorCode (String) - The hexadecimal filesystem error code.
+folder-file-error = Impossible d’accéder à « { $folder } » sur { $server }. Vérifiez que les fichiers du dossier sont disponibles et modifiables, puis réessayez. Erreur : { $errorCode }
 
 ## Window controls
 
@@ -277,6 +290,8 @@ appmenu-save-as-file =
     .label = Fichier…
 appmenu-settings =
     .label = Paramètres
+appmenu-accounts =
+    .label = Comptes
 appmenu-addons-and-themes =
     .label = Modules complémentaires et thèmes
 
@@ -496,6 +511,8 @@ spaces-context-switch-tab-item =
     .label = Aller à { $tabName }
 settings-context-open-settings-item2 =
     .label = Paramètres
+settings-context-open-accounts-item =
+    .label = Comptes
 settings-context-open-account-settings-item2 =
     .label = Paramètres des comptes
 settings-context-open-addons-item2 =

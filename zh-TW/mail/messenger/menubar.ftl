@@ -12,6 +12,13 @@ system-tray-app-name = { -brand-full-name }
 menu-tools-settings =
     .label = 設定
     .accesskey = e
+menu-accounts =
+    .label = 帳號
+    .accesskey =
+        { PLATFORM() ->
+            [linux] 帳
+           *[other] 帳
+        }
 menu-addons-and-themes =
     .label = 附加元件與佈景主題
     .accesskey = A

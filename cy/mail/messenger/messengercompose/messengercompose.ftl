@@ -102,6 +102,12 @@ compose-blocked-content-preferences-accesskey = e
 # $url - URL of the blocked resource
 compose-unblock-resource =
     .label = Dadrwystro { $url }
+menuitem-resize-header-area =
+    .label = Newid maint ardal pennawd
+    .accesskey = N
+compose-header-area-splitter =
+    .aria-description = Defnyddiwch Up and Down i newid maint, gyda Shift ar gyfer camau mwy. Pwyswch Tab i symud i'r golygydd neu Shift+Tab i symud i Subject.
+    .aria-label = Ardal pennawd
 
 ## Send Format
 

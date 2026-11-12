@@ -12,6 +12,13 @@ system-tray-app-name = { -brand-full-name }
 menu-tools-settings =
     .label = Gosodiadau
     .accesskey = G
+menu-accounts =
+    .label = Cyfrifon
+    .accesskey =
+        { PLATFORM() ->
+            [linux] C
+           *[other] C
+        }
 menu-addons-and-themes =
     .label = Ychwanegion a Themâu
     .accesskey = Y

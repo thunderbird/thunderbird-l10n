@@ -102,6 +102,12 @@ compose-blocked-content-preferences-accesskey = P
 # $url - URL of the blocked resource
 compose-unblock-resource =
     .label = 解除封鎖 { $url }
+menuitem-resize-header-area =
+    .label = 調整標題區
+    .accesskey = 調
+compose-header-area-splitter =
+    .aria-description = 使用「上」或「下」來調整大小可使用 Shift 來調整大小。按 Tab 移動至編輯器或按 Shift+Tab 移動到主旨。
+    .aria-label = 標題區
 
 ## Send Format
 

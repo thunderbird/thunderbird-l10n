@@ -102,6 +102,12 @@ compose-blocked-content-preferences-accesskey = P
 # $url - URL of the blocked resource
 compose-unblock-resource =
     .label = Desbloquear { $url }
+menuitem-resize-header-area =
+    .label = Cambiar el tamaño del área del encabezado
+    .accesskey = C
+compose-header-area-splitter =
+    .aria-description = Use Arriba y Abajo para cambiar el tamaño, con Shift para pasos más grandes. Presione Tab para ir al editor o Shift+Tab para ir al asunto.
+    .aria-label = Área de encabezado
 
 ## Send Format
 

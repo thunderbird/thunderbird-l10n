@@ -36,3 +36,4 @@ panel-settings-spam = Gosodiadau Sbam
 # $account (String) - The account name.
 spam-settings-alert-message = Wedi canfod problem gyda'r gosodiadau sbam ar gyfer { $account }. Hoffech chi eu hadolygu cyn cadw'r newidiadau?
 open-settings-sidebar-button = Gosodiadau
+account-manager-document-title = Cyfrifon
