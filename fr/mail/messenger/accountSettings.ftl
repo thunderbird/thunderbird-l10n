@@ -139,6 +139,14 @@ account-settings-server-type =
 account-settings-server-name =
     .value = Nom du serveur :
     .accesskey = N
+account-settings-user-name =
+    .value = Nom d’utilisateur :
+    .accesskey = m
+account-settings-port =
+    .value = Port :
+    .accesskey = P
+account-settings-default-port =
+    .value = Défaut :
 account-settings-connection-security =
     .value = Sécurité de la connexion :
     .accesskey = S
@@ -184,11 +192,33 @@ account-settings-message-storage = Stockage des messages
 account-settings-empty-trash-on-exit =
     .label = Vider la corbeille en quittant
     .accesskey = b
+account-settings-message-store-type =
+    .value = Type de stockage des messages :
+    .accesskey = k
+account-settings-message-store-mbox =
+    .label = Un fichier par dossier (mbox)
+account-settings-message-store-maildir =
+    .label = Un fichier par message (maildir)
 account-settings-newsrc-file =
     .value = Fichier News.rc :
+account-settings-browse-newsrc =
+    .label = Parcourir…
+    .accesskey = a
+    .filepickertitle = Sélectionner un fichier News.rc
+account-settings-local-directory =
+    .value = Répertoire local :
+account-settings-browse-local-directory =
+    .label = Parcourir…
+    .accesskey = P
+    .filepickertitle = Sélection du répertoire local
+account-settings-default-text-encoding =
+    .value = Encodage de texte par défaut :
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Paramètres du compte
+account-settings-title =
+    .value = Paramètres du compte
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
@@ -196,6 +226,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Ce compte est spécial, aucune identité ne lui est associée.
 account-settings-account-name =
     .value = Nom du compte :
     .accesskey = N
