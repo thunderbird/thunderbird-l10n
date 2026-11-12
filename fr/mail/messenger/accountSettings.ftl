@@ -134,9 +134,25 @@ oauth-provider-extension-info = Paramètres OAuth2 fournis par l’extension : 
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = Type de serveur :
+account-settings-server-name =
+    .value = Nom du serveur :
+    .accesskey = N
 
 ## Local Folders and RSS account settings
 
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-account-name =
+    .value = Nom du compte :
+    .accesskey = N
+account-settings-rss-server-settings = Paramètres du serveur
 account-settings-rss-enable-updates =
     .label = Activer les mises à jour pour tous les flux
     .accesskey = A
