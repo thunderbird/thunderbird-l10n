@@ -13,9 +13,32 @@ default-account-button =
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = Սպասարկիչի տեսակը.
+account-settings-server-name =
+    .value = Սպասարկիչի անունը.
+    .accesskey = S
+account-settings-user-name =
+    .value = Օգտվողի անունը.
+    .accesskey = N
+account-settings-message-storage = Նամակների կրիչը
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Փոստարկղի կարգավորումներ
+account-settings-title =
+    .value = Փոստարկղի կարգավորումներ
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-account-name =
+    .value = Փոստարկղի անունը.
+    .accesskey = N
+account-settings-rss-server-settings = Սպասարկիչի կարգավորումներ
 account-settings-rss-enable-updates =
     .label = Միացնել բոլոր սնումների թարմացումները
     .accesskey = Մ
