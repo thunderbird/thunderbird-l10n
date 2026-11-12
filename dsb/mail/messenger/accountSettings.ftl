@@ -152,3 +152,40 @@ account-settings-rss-default-account-name = Blogi a powěsćowe kanale
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = Rozšyrjone kontowe nastajenja
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = Zapis serwera IMAP:
+    .accesskey = Z
+account-settings-imap-show-subscribed-folders =
+    .label = Jano aboněrowane zarědniki pokazaś
+    .accesskey = J
+account-settings-imap-dual-use-folders =
+    .label = Serwer pódpěra zarědniki, kótarež wopśimuju pódzarědniki a powěsći
+    .accesskey = S
+account-settings-imap-maximum-connections =
+    .value = Maksimalna licba serwerowych zwiskow do pufrowaka
+    .accesskey = M
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Toś te nastajenja pódawaju mjenjowe rumy na wašom serwerje IMAP
+account-settings-imap-personal-namespace =
+    .value = Wósobinski mjenjowy rum:
+    .accesskey = W
+account-settings-imap-public-namespace =
+    .value = Zjawny (gromaźe):
+    .accesskey = a
+account-settings-imap-other-users-namespace =
+    .value = Druge wužywarje:
+    .accesskey = D
+account-settings-imap-override-namespaces =
+    .label = Serweroju dowóliś toś te mjenjowe rumy pśepisaś
+    .accesskey = m
+account-settings-pop-inbox-current-account =
+    .label = Dochad posta za toś to konto
+    .accesskey = t
+account-settings-pop-inbox-other-account =
+    .label = Postowy kašćik za druge konto
+    .accesskey = d
+account-settings-pop-include-server =
+    .label = Toś ten serwer pśi dostaśu noweje e-maile zapśimjeś
+    .accesskey = T
