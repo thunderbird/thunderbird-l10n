@@ -153,3 +153,30 @@ account-settings-rss-default-account-name = ბლოგები და სი�
 ## Advanced server settings
 
 account-settings-advanced-server-title = ანგარიშის დამატებითი პარამეტრები
+account-settings-imap-show-subscribed-folders =
+    .label = მხოლოდ გამოწერილი საქაღალდეების ჩვენება
+    .accesskey = წ
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = ეს პარამეტრები მიუთითებს თქვენი IMAP სერვერის სახელთა არეებს
+account-settings-imap-personal-namespace =
+    .value = სახელთა პირადი არე:
+    .accesskey = პ
+account-settings-imap-public-namespace =
+    .value = საზოგადო (ზიარი):
+    .accesskey = ზ
+account-settings-imap-other-users-namespace =
+    .value = სხვა მომხმარებლების:
+    .accesskey = ხ
+account-settings-imap-override-namespaces =
+    .label = სერვერისთვის ამ სახელთა არეების გადაფარვის ნების დართვა
+    .accesskey = ნ
+account-settings-pop-inbox-description = ანგარიშის სერვერიდან წერილების ჩამოტვირთვისას, მოცემული საქაღალდის გამოყენება მათ შესანახად:
+account-settings-pop-inbox-current-account =
+    .label = ანგარიშის საფოსტო ყუთი
+    .accesskey = ს
+account-settings-pop-inbox-other-account =
+    .label = მიღებული წერილების საქაღალდე სხვა ანგარიშისთვის
+    .accesskey = ხ
+account-settings-pop-include-server =
+    .label = სერვერის მითითება ახალი ფოსტის მიღებისას
+    .accesskey = თ
