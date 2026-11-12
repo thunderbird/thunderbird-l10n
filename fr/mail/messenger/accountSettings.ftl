@@ -160,3 +160,8 @@ account-settings-imap-server-directory =
 account-settings-imap-show-subscribed-folders =
     .label = Afficher uniquement les dossiers avec abonnement
     .accesskey = A
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Ces préférences spécifient les espaces de noms sur votre serveur IMAP
+account-settings-imap-personal-namespace =
+    .value = Espace de noms personnel :
+    .accesskey = E
