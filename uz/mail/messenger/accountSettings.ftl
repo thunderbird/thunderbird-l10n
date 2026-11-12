@@ -27,6 +27,13 @@ account-settings-connection-security-starttls =
     .label = STARTTLS
 account-settings-connection-security-ssl-tls =
     .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Yangi xabarlarni har
+    .accesskey = y
+account-settings-minutes =
+    .value = daqiqada ko‘rish
 account-settings-automatically-download-new-messages =
     .label = Yangi xabarlarni avtomatik yuklab olkish
     .accesskey = a
