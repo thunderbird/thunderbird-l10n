@@ -103,6 +103,12 @@ addr-book-summary-description = "{ $addressBookName }" izeneko helbide-liburua s
 import-from-calendar-file-desc = Aukeratu inportatu nahi zenukeen iCalendar (.ics) fitxategia.
 calendar-items-title = Hautatu inportatzeko elementuak.
 calendar-items-loading = Elementuak kargatzen…
+# $count (Number) - The number of items in the calendar file.
+calendar-items-count =
+    { $count ->
+        [one] Fitxategiak elementu { $count }  du.
+       *[other] Fitxategiak { $count } elementu ditu.
+    }
 # Column headers of the list of calendar items to import.
 calendar-items-column-title-a11y =
     .aria-label = Izenburua
@@ -111,9 +117,13 @@ calendar-items-column-title = Izenburua
 # The start date and time of each item.
 calendar-items-column-start-a11y =
     .aria-label = Hasi
+calendar-items-column-start = Hasiera
+    .title = Ordenatu hasieraren arabera
 # The end date and time of each item.
 calendar-items-column-end-a11y =
     .aria-label = Bukaera
+calendar-items-column-end = Bukaera
+    .title = Ordenatu Bukaeraren arabera
 # The column of checkboxes, to choose which items to import.
 calendar-items-column-import-a11y =
     .aria-label = Inportatu

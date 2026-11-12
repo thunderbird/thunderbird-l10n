@@ -252,6 +252,7 @@ account-hub-oauth-unsupported-title = Konfigurazio gehigarria behar da
 # 'Account Settings' is the text of the menu option/tab name accessible outside Account Hub
 account-hub-oauth-unsupported-description = { -brand-short-name }ek ezin du automatikoki konfiguratu OAuth2 ostalari-izen honetarako. Hautatu konfigurazio aurreratua kontua sortzeko, eta, ondoren, osatu konfigurazioa Kontuaren ezarpenetan. <a data-l10n-name="oauth-support-link">Lortu laguntza OAuth2 konfigurazioarekin.</a>
 account-hub-username-help-text = Sarritan, zure helbide elektroniko osoa
+account-hub-port-help-text = Hutsik utziz gero, { -brand-short-name } ataka aurkitzen saiatuko da.
 account-hub-notification-show-more = Gehiago erakutsi
 account-hub-notification-show-less = Gutxiago erakutsi
 account-hub-email-setup-header = Gehitu zure helbide elektronikoa
