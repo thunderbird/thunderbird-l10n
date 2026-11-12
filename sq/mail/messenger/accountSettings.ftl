@@ -58,9 +58,27 @@ account-settings-connection-security-starttls =
     .label = STARTTLS
 account-settings-connection-security-ssl-tls =
     .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Kontrollo për mesazhe të rinj çdo
+    .accesskey = k
+account-settings-minutes =
+    .value = minuta
 account-settings-automatically-download-new-messages =
     .label = Shkarko mesazhe të rinj vetvetiu
     .accesskey = k
+account-settings-fetch-headers-only =
+    .label = Sill vetëm titujt
+    .accesskey = v
+account-settings-leave-messages-on-server =
+    .label = Lëri mesazhet në shërbyes
+    .accesskey = n
+account-settings-leave-messages-for =
+    .label = Për e shumta
+    .accesskey = u
+account-settings-days =
+    .value = ditë
 account-settings-leave-messages-until-deleted =
     .label = Derisa t’i fshij ata
     .accesskey = d
