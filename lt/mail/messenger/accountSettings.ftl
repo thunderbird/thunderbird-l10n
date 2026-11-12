@@ -15,3 +15,17 @@ outgoing-server-name = Laiškų išsiuntimo serveris:
 outgoing-server-edit =
     .label = Redaguoti laiškų išsiuntimo serverį…
     .accesskey = e
+
+## Incoming server settings
+
+
+## Local Folders and RSS account settings
+
+
+## Feed account wizard
+
+account-settings-rss-wizard-title = Sklaidos kanalų paskyros kūrimas
+account-settings-rss-default-account-name = Dienoraščiai ir naujienų kanalai
+
+## Advanced server settings
+
