@@ -18,10 +18,39 @@ account-settings-port =
     .accesskey = P
 account-settings-default-port =
     .value = Izvorno:
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Upitaj me prije preuzimanja više od
+    .accesskey = m
+account-settings-messages =
+    .value = poruka
+account-settings-always-authenticate =
+    .label = Uvijek zahtijevaj autentikaciju prilikom povezivanja na ovaj server
+    .accesskey = v
 account-settings-message-storage = Spremište poruka
+account-settings-empty-trash-on-exit =
+    .label = Isprazni smeće prilikom izlaza
+    .accesskey = z
+account-settings-message-store-type =
+    .value = Tip pohrane poruka:
+    .accesskey = T
+account-settings-message-store-mbox =
+    .label = Datoteka po fascikli (mbox)
+account-settings-message-store-maildir =
+    .label = Datoteka po poruci (maildir)
+account-settings-browse-local-directory =
+    .label = Pregled…
+    .accesskey = P
+    .filepickertitle = Izaberite lokalni direktorij
+account-settings-default-text-encoding =
+    .value = Izvorno enkodiranje teksta:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Postavke računa
+account-settings-title =
+    .value = Postavke računa
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
@@ -29,6 +58,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Sljedeći račun je poseban.  Nijedan identitet nije povezan s njim.
 account-settings-account-name =
     .value = Naziv računa:
     .accesskey = N
