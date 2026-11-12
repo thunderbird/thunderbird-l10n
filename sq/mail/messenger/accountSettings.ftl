@@ -54,7 +54,38 @@ account-settings-rss-default-account-name = Prurje Blogjesh & Lajmesh
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = Rregullime Të mëtejshme Llogarie
 # Do not translate "IMAP".
 account-settings-imap-server-directory =
     .value = Drejtori shërbyesi IMAP:
     .accesskey = d
+account-settings-imap-show-subscribed-folders =
+    .label = Shfaq vetëm dosje pajtimesh
+    .accesskey = v
+account-settings-imap-maximum-connections =
+    .value = Numër më i madh ndërlidhjesh shërbyesi për t’u ruajtur në fshehtinë
+    .accesskey = N
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Këta parapëlqime përcaktojnë emërhapësirat te shërbyesi juaj IMAP
+account-settings-imap-personal-namespace =
+    .value = Emërhapësirë vetjake:
+    .accesskey = E
+account-settings-imap-public-namespace =
+    .value = Publike (e përbashkët):
+    .accesskey = P
+account-settings-imap-other-users-namespace =
+    .value = Përdorues Të tjerë:
+    .accesskey = T
+account-settings-imap-override-namespaces =
+    .label = Lejo shërbyesin të anashkalojë këto emërhapësira
+    .accesskey = L
+account-settings-pop-inbox-description = Kur shkarkohet postë nga shërbyesi i kësaj llogarie, për depozitimin e mesazheve të rinj përdor dosjen vijuese:
+account-settings-pop-inbox-current-account =
+    .label = Të marrë për këtë llogari
+    .accesskey = k
+account-settings-pop-inbox-other-account =
+    .label = Të marrë për tjetër llogari
+    .accesskey = o
+account-settings-pop-include-server =
+    .label = Përfshije këtë shërbyes, kur merret postë e re
+    .accesskey = f
