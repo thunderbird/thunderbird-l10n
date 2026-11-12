@@ -137,6 +137,13 @@ oauth-provider-extension-info = OAuth2-instellingen geleverd door extensie: <a d
 
 ## Local Folders and RSS account settings
 
+account-settings-rss-enable-updates =
+    .label = Updates inschakelen voor alle feeds
+    .accesskey = e
+account-settings-rss-new-feed-defaults = Standaardinstellingen voor nieuwe feeds
+account-settings-rss-manage-subscriptions =
+    .label = Abonnementen beheren…
+    .accesskey = n
 
 ## Feed account wizard
 
