@@ -121,6 +121,7 @@ account-settings-imap-other-users-namespace =
 account-settings-imap-override-namespaces =
     .label = Omogoči strežniku, da razveljavi ta imenski prostor
     .accesskey = č
+account-settings-pop-inbox-description = Ob prenašanju pošte iz strežnika tega računa uporabi naslednjo mapo za shranjevanje novih sporočil:
 account-settings-pop-inbox-current-account =
     .label = Prejeto za ta račun
     .accesskey = a
