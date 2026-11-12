@@ -5,9 +5,80 @@
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = Ruwäch K'uxasamaj:
+account-settings-server-name =
+    .value = Rub'i' K'uxasamaj:
+    .accesskey = K
+account-settings-user-name =
+    .value = Rub'i' winäq:
+    .accesskey = b
+account-settings-port =
+    .value = B'ey:
+    .accesskey = B
+account-settings-default-port =
+    .value = K'o wi:
+account-settings-automatically-download-new-messages =
+    .label = Kiyon keqasäx k'ak'a' taq rutzijol
+    .accesskey = n
+account-settings-leave-messages-for =
+    .label = Chi ke
+    .accesskey = e
+account-settings-days =
+    .value = taq q'ij
+account-settings-leave-messages-until-deleted =
+    .label = K'a toq yenyüj el
+    .accesskey = y
+account-settings-move-to-trash =
+    .label = Tisilöx pa re yakwuj re':
+    .accesskey = s
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Tik'utüx pe chwe chi rij niqasäx ch'aqa' chik
+    .accesskey = w
+account-settings-messages =
+    .value = taq tzijol
+account-settings-always-authenticate =
+    .label = Junelïk tik'utüx jikib'anïk toq nok pa re k'uxasamaj re'
+    .accesskey = n
+account-settings-message-storage = Ruyakb'alil Tzijol
+account-settings-empty-trash-on-exit =
+    .label = Tijam ri Molb'äl toq Nel
+    .accesskey = l
+account-settings-message-store-type =
+    .value = Ruwäch Ruyakb'alil Tzijol:
+    .accesskey = T
+account-settings-message-store-mbox =
+    .label = Yakb'äl chi yakwuj (mbox)
+account-settings-message-store-maildir =
+    .label = Jun yakb'äl chi rutzijol (maildir)
+account-settings-local-directory =
+    .value = Aj wawe' Cholb'äl:
+account-settings-browse-local-directory =
+    .label = Tokik'amayin…
+    .accesskey = o
+    .filepickertitle = Ticha' Aj Wawe' Cholb'äl
+account-settings-default-text-encoding =
+    .value = Runuk'ik Rucholajem Tzij e K'o wi:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Kinuk'ulem Rub'i' Taqoya'l
+account-settings-title =
+    .value = Kinuk'ulem Rub'i' Taqoya'l
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Re rub'i' taqoya'l re' k'o rejqalem.  Majun b'anikil ruximon ri' rik'in.
+account-settings-account-name =
+    .value = Rub'i' Taqoya'l:
+    .accesskey = R
+account-settings-rss-server-settings = Kinuk'ulem K'uxasamaj
 account-settings-rss-enable-updates =
     .label = Titzij taq kik'exoj konojel ri taq q'asab'äl
     .accesskey = t
