@@ -75,11 +75,20 @@ oauth-provider-extension-info = Postavke OAuth2 koje pruža dodatak: <a data-l10
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = Vrsta poslužitelja:
+account-settings-server-name =
+    .value = Naziv poslužitelja:
+    .accesskey = s
+account-settings-user-name =
+    .value = Korisničko ime:
+    .accesskey = n
 account-settings-port =
     .value = Port:
     .accesskey = P
 account-settings-default-port =
     .value = Zadano:
+account-settings-message-storage = Spremnik poruka
 
 ## Local Folders and RSS account settings
 
@@ -90,6 +99,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-rss-server-settings = Postavke poslužitelja
 account-settings-rss-enable-updates =
     .label = Omogućite ažuriranja za sve kanale
     .accesskey = e
