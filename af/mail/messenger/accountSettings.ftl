@@ -18,3 +18,7 @@ account-settings-rss-manage-subscriptions =
 ## Advanced server settings
 
 account-settings-advanced-server-title = Gevorderde rekeningopstelling
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = IMAP-bedienergids:
+    .accesskey = g
