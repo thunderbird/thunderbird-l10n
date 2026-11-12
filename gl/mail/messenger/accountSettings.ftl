@@ -46,6 +46,10 @@ account-settings-rss-default-account-name = Blogs e fontes de novas
 ## Advanced server settings
 
 account-settings-advanced-server-title = Configuración avanzada das contas
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = Directorio do servidor IMAP:
+    .accesskey = D
 account-settings-imap-show-subscribed-folders =
     .label = Amosar só os cartafoles subscritos
     .accesskey = r
