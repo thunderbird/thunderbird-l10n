@@ -31,3 +31,31 @@ account-settings-rss-default-account-name = Iblugen & isuddam n isalen
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = Iɣewwaṛen leqqayen n umiḍan
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = Akaram n uqeddac IMAP:
+    .accesskey = k
+account-settings-imap-show-subscribed-folders =
+    .label = Sken kan ikaramen n umulteɣ
+    .accesskey = n
+account-settings-imap-dual-use-folders =
+    .label = Aqeddac yessefrak ikaramen igebren ikaramen akked yeznan
+    .accesskey = m
+account-settings-imap-maximum-connections =
+    .value = Amḍan afellay n tuqqniwin ɣer uqeddac di tuffirt
+    .accesskey = l
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Ismenyifen-agi mmalen-d tallunt n yesmawen ɣef uqeddac inek IMAP
+account-settings-imap-personal-namespace =
+    .value = Tallunt n yisem tudmawant
+    .accesskey = i
+account-settings-imap-public-namespace =
+    .value = Azayez (Yebḍa):
+    .accesskey = A
+account-settings-imap-other-users-namespace =
+    .value = Iseqdacen nniḍen:
+    .accesskey = d
+account-settings-imap-override-namespaces =
+    .label = Sireg aqeddac ad isnifel tallunt-agi n yesmawen
+    .accesskey = g
