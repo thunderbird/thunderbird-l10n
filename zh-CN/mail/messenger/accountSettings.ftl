@@ -39,6 +39,8 @@ ews-oauthscopes-label =
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = 服务器类型：
 account-settings-server-name =
     .value = 服务器名称
     .accesskey = S
@@ -59,6 +61,13 @@ account-settings-connection-security-starttls =
     .label = STARTTLS
 account-settings-connection-security-ssl-tls =
     .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = 每隔
+    .accesskey = y
+account-settings-minutes =
+    .value = 分钟检查一次新消息
 account-settings-automatically-download-new-messages =
     .label = 自动下载新消息
     .accesskey = m
