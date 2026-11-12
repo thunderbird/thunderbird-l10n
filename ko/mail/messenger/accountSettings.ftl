@@ -99,9 +99,31 @@ oauth-provider-extension-info = 확장 기능이 OAuth2 설정을 제공함: <a 
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = 서버 종류:
+account-settings-server-name =
+    .value = 서버 이름:
+    .accesskey = S
+account-settings-user-name =
+    .value = 아이디
+    .accesskey = N
+account-settings-port =
+    .value = 포트:
+    .accesskey = P
+account-settings-default-port =
+    .value = 기본:
+account-settings-message-storage = 메시지 저장
 
 ## Local Folders and RSS account settings
 
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-rss-server-settings = 서버 설정
 account-settings-rss-enable-updates =
     .label = 모든 피드에 대한 업데이트 활성화
     .accesskey = E
