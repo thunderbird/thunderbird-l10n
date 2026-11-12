@@ -58,3 +58,7 @@ account-settings-rss-default-account-name = Блогове и новинарск
 ## Advanced server settings
 
 account-settings-advanced-server-title = Разширени настройки
+account-settings-pop-inbox-description = При изтегляне на поща от този сървър да се използва следната папка за съхранение на нови писма:
+account-settings-pop-inbox-current-account =
+    .label = Входяща кутия на този профил
+    .accesskey = з
