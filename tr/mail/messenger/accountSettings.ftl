@@ -129,6 +129,10 @@ account-settings-rss-default-account-name = Bloglar ve Beslemeler
 
 ## Advanced server settings
 
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = IMAP sunucu dizini:
+    .accesskey = d
 account-settings-imap-maximum-connections =
     .value = Önbelleğe alınacak bağlantı sayısı üst sınırı
     .accesskey = n
