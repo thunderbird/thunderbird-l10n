@@ -152,3 +152,22 @@ account-settings-rss-default-account-name = Blogs & News-Feeds
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = Erweiterte Konten-Einstellungen
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = IMAP-Server-Verzeichnis:
+    .accesskey = I
+account-settings-imap-show-subscribed-folders =
+    .label = Nur abonnierte Ordner anzeigen
+    .accesskey = N
+account-settings-imap-dual-use-folders =
+    .label = Server unterstützt Ordner, die Unterordner und Nachrichten enthalten
+    .accesskey = u
+account-settings-imap-maximum-connections =
+    .value = Maximale Anzahl der aufrecht erhaltenen Serververbindungen
+    .accesskey = M
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Diese Einstellungen geben die Namensräume des IMAP-Servers an
+account-settings-imap-personal-namespace =
+    .value = Persönlicher Namensraum
+    .accesskey = P
