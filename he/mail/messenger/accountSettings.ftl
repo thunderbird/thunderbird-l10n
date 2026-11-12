@@ -68,6 +68,12 @@ account-settings-message-store-mbox =
     .label = קובץ לתיקייה (mbox)
 account-settings-message-store-maildir =
     .label = קובץ להודעה (maildir)
+account-settings-local-directory =
+    .value = ספרייה מקומית:
+account-settings-browse-local-directory =
+    .label = עיון…
+    .accesskey = ע
+    .filepickertitle = בחר ספרייה מקומית
 account-settings-default-text-encoding =
     .value = קידוד טקסט כבררת מחדל:
 
