@@ -30,6 +30,15 @@ account-settings-connection-security-none =
     .label = Cap
 account-settings-connection-security-starttls =
     .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Comprova si hi ha missatges nous cada
+    .accesskey = h
+account-settings-minutes =
+    .value = minuts
 account-settings-automatically-download-new-messages =
     .label = Baixa automàticament els missatges nous
     .accesskey = a
@@ -61,9 +70,22 @@ account-settings-always-authenticate =
     .label = Sol·licita sempre autenticació en connectar amb aquest servidor
     .accesskey = l
 account-settings-message-storage = Missatge d'emmagatzematge
+account-settings-empty-trash-on-exit =
+    .label = Buida la paperera en sortir
+    .accesskey = B
+account-settings-message-store-type =
+    .value = Tipus d'emmagatzematge de missatges:
+    .accesskey = T
+account-settings-message-store-mbox =
+    .label = Un fitxer per carpeta (mbox)
+account-settings-message-store-maildir =
+    .label = Un fitxer per missatge (maildir)
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Paràmetres del compte
+account-settings-title =
+    .value = Paràmetres del compte
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
@@ -71,6 +93,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Aquest és un compte especial. No està associat a cap identitat.
 account-settings-account-name =
     .value = Nom del compte:
     .accesskey = N
