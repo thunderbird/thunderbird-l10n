@@ -152,6 +152,7 @@ account-settings-rss-default-account-name = Blogok és hírforrások
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = Speciális postafiók-beállítások
 # Do not translate "IMAP".
 account-settings-imap-server-directory =
     .value = IMAP-kiszolgáló könyvtár:
