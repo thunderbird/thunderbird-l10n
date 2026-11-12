@@ -134,6 +134,7 @@ oauth-provider-extension-info = Configurationes de OAuth2 fornite per le extensi
 
 ## Incoming server settings
 
+account-settings-server-document-title = Configuration de servitor
 account-settings-server-type =
     .value = Typo de servitor:
 account-settings-server-name =
@@ -156,6 +157,13 @@ account-settings-connection-security-starttls =
     .label = STARTTLS
 account-settings-connection-security-ssl-tls =
     .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Controlar nove messages cata
+    .accesskey = c
+account-settings-minutes =
+    .value = minutas
 account-settings-automatically-download-new-messages =
     .label = Discargar automaticamente altere messages
     .accesskey = m
