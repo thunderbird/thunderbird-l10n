@@ -152,3 +152,41 @@ account-settings-rss-default-account-name = وبلاگ‌ها و خوراک‌ه
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = Advanced Account Settings
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = IMAP server directory:
+    .accesskey = d
+account-settings-imap-show-subscribed-folders =
+    .label = Show only subscribed folders
+    .accesskey = w
+account-settings-imap-dual-use-folders =
+    .label = Server supports folders that contain sub-folders and messages
+    .accesskey = f
+account-settings-imap-maximum-connections =
+    .value = Maximum number of server connections to cache
+    .accesskey = M
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = These preferences specify the namespaces on your IMAP server
+account-settings-imap-personal-namespace =
+    .value = Personal namespace:
+    .accesskey = P
+account-settings-imap-public-namespace =
+    .value = Public (shared):
+    .accesskey = u
+account-settings-imap-other-users-namespace =
+    .value = Other Users:
+    .accesskey = O
+account-settings-imap-override-namespaces =
+    .label = Allow server to override these namespaces
+    .accesskey = A
+account-settings-pop-inbox-description = هنگام بارگیری رایانامه از کارساز این حساب، پیام‌های جدید در این پوشه ذخیره شوند:
+account-settings-pop-inbox-current-account =
+    .label = صندوق ورودی این حساب
+    .accesskey = ص
+account-settings-pop-inbox-other-account =
+    .label = Inbox for different account
+    .accesskey = d
+account-settings-pop-include-server =
+    .label = Include this server when getting new mail
+    .accesskey = I
