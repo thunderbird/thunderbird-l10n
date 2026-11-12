@@ -78,6 +78,7 @@ account-settings-rss-default-account-name = Uutiset ja blogit
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = Tilin lisäasetukset
 # Do not translate "IMAP".
 account-settings-imap-server-directory =
     .value = IMAP-palvelinhakemisto:
@@ -105,3 +106,9 @@ account-settings-imap-other-users-namespace =
 account-settings-imap-override-namespaces =
     .label = Palvelin voi korvata nämä nimiavaruudet
     .accesskey = a
+account-settings-pop-inbox-other-account =
+    .label = Saapuvat viestit toisen tilin saapuneet-kansioon
+    .accesskey = p
+account-settings-pop-include-server =
+    .label = Nouda tilin viestit samalla kun muidenkin tilien viestit
+    .accesskey = N
