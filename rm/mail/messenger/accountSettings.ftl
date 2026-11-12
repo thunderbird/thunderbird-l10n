@@ -61,6 +61,13 @@ account-settings-connection-security-starttls =
     .label = STARTTLS
 account-settings-connection-security-ssl-tls =
     .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Controllar sin novs messadis mintga
+    .accesskey = m
+account-settings-minutes =
+    .value = minutas
 account-settings-automatically-download-new-messages =
     .label = Telechargiar automaticamain novs messadis
     .accesskey = m
