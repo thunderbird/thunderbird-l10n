@@ -57,3 +57,6 @@ account-settings-rss-default-account-name = Canais de blogs e notícias
 
 ## Advanced server settings
 
+account-settings-pop-inbox-current-account =
+    .label = Caixa de entrada desta conta
+    .accesskey = c
