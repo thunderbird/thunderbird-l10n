@@ -93,3 +93,40 @@ account-settings-rss-default-account-name = Блогови и доводи ве�
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = Напредна подешавања налога
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = Серверска IMAP фасцикла:
+    .accesskey = р
+account-settings-imap-show-subscribed-folders =
+    .label = Прикажи само претплаћене фасцикле
+    .accesskey = к
+account-settings-imap-dual-use-folders =
+    .label = Сервер подржава фасцикле које садрже подфасцикле и поруке
+    .accesskey = ф
+account-settings-imap-maximum-connections =
+    .value = Највећи број серверских веза које треба кеширати
+    .accesskey = Н
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Ове поставке описују именске просторе на вашем IMAP серверу
+account-settings-imap-personal-namespace =
+    .value = Лични именски простор:
+    .accesskey = Л
+account-settings-imap-public-namespace =
+    .value = Јавни (дељени):
+    .accesskey = а
+account-settings-imap-other-users-namespace =
+    .value = Други корисници:
+    .accesskey = Д
+account-settings-imap-override-namespaces =
+    .label = Дозволи серверу да премости ове именске просторе
+    .accesskey = о
+account-settings-pop-inbox-current-account =
+    .label = Долазно сандуче за овај налог
+    .accesskey = з
+account-settings-pop-inbox-other-account =
+    .label = Долазно сандуче другог налога
+    .accesskey = Д
+account-settings-pop-include-server =
+    .label = Укључи овај сервер приликом преузимања нове поште
+    .accesskey = У
