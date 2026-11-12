@@ -95,9 +95,27 @@ account-settings-message-storage = Message Storage
 account-settings-empty-trash-on-exit =
     .label = Empty Trash on Exit
     .accesskey = x
+account-settings-message-store-type =
+    .value = Message Store Type:
+    .accesskey = T
+account-settings-message-store-mbox =
+    .label = File per folder (mbox)
+account-settings-message-store-maildir =
+    .label = File per message (maildir)
+account-settings-local-directory =
+    .value = Local Directory:
+account-settings-browse-local-directory =
+    .label = Browse…
+    .accesskey = B
+    .filepickertitle = Select Local Directory
+account-settings-default-text-encoding =
+    .value = Default Text Encoding:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Account Settings
+account-settings-title =
+    .value = Account Settings
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
