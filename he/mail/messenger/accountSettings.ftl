@@ -5,9 +5,30 @@
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = סוג שרת:
+account-settings-server-name =
+    .value = שם השרת:
+    .accesskey = S
+account-settings-user-name =
+    .value = שם משתמש:
+    .accesskey = N
+account-settings-port =
+    .value = שער:
+    .accesskey = P
+account-settings-default-port =
+    .value = ברירת מחדל:
 
 ## Local Folders and RSS account settings
 
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-rss-server-settings = הגדרות שרת
 account-settings-rss-enable-updates =
     .label = הפעלת עדכונים לכל ההזנות
     .accesskey = פ
