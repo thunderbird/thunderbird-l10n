@@ -135,15 +135,30 @@ account-settings-minutes =
 account-settings-leave-messages-on-server =
     .label = İletileri sunucuda bırak
     .accesskey = b
+account-settings-move-to-trash =
+    .label = Bu klasöre taşı:
+    .accesskey = e
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = En az
+    .accesskey = z
 account-settings-messages =
     .value = ileti indirilecekse bana sor
 account-settings-always-authenticate =
     .label = Bu sunucuya bağlanırken her zaman kimlik doğrulaması iste
     .accesskey = u
 account-settings-message-storage = İleti depolama
+account-settings-empty-trash-on-exit =
+    .label = Çıkarken çöp kutusunu boşalt
+    .accesskey = k
 account-settings-message-store-type =
     .value = İleti depolama türü:
     .accesskey = d
+account-settings-message-store-mbox =
+    .label = Her klasör için ayrı dosya (mbox)
+account-settings-message-store-maildir =
+    .label = Her ileti için ayrı dosya (maildir)
 
 ## Local Folders and RSS account settings
 
