@@ -134,6 +134,7 @@ oauth-provider-extension-info = Paramètres OAuth2 fournis par l’extension : 
 
 ## Incoming server settings
 
+account-settings-server-document-title = Paramètres du serveur
 account-settings-server-type =
     .value = Type de serveur :
 account-settings-server-name =
@@ -156,6 +157,11 @@ account-settings-connection-security-starttls =
     .label = STARTTLS
 account-settings-connection-security-ssl-tls =
     .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Vérifier les nouveaux messages toutes les
+    .accesskey = V
 account-settings-minutes =
     .value = minutes
 account-settings-automatically-download-new-messages =
