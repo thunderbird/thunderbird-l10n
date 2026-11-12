@@ -39,9 +39,73 @@ ews-oauthscopes-label =
 
 ## Incoming server settings
 
+account-settings-connection-security =
+    .value = 连接安全
+    .accesskey = u
+account-settings-connection-security-none =
+    .label = 无
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+account-settings-automatically-download-new-messages =
+    .label = 自动下载新消息
+    .accesskey = m
+account-settings-fetch-headers-only =
+    .label = 仅下载消息头
+    .accesskey = e
+account-settings-leave-messages-on-server =
+    .label = 把消息留在服务器上
+    .accesskey = g
+account-settings-leave-messages-for =
+    .label = 至多不超过
+    .accesskey = o
+account-settings-days =
+    .value = 天
+account-settings-leave-messages-until-deleted =
+    .label = 直到我删除
+    .accesskey = d
+account-settings-move-to-trash =
+    .label = 移到此文件夹中:
+    .accesskey = o
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = 当要下载的消息数大于
+    .accesskey = m
+account-settings-messages =
+    .value = 条时询问我
+account-settings-message-storage = 消息存储
+account-settings-empty-trash-on-exit =
+    .label = 退出时清空“废件箱”
+    .accesskey = x
+account-settings-message-store-mbox =
+    .label = 为每个文件夹创建文件 (mbox)
+account-settings-message-store-maildir =
+    .label = 为每条消息创建文件（maildir）
+account-settings-local-directory =
+    .value = 本地目录：
+account-settings-browse-local-directory =
+    .label = 浏览…
+    .accesskey = B
+    .filepickertitle = 选择本地文件夹
+account-settings-default-text-encoding =
+    .value = 默认文字编码：
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = 账户设置
+account-settings-title =
+    .value = 账户设置
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = 以下是特殊账户。没有相关标识。
+account-settings-rss-server-settings = 服务器设置
 account-settings-rss-enable-updates =
     .label = 启用所有收取点的更新
     .accesskey = E
