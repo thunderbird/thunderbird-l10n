@@ -39,9 +39,34 @@ ews-oauthscopes-label =
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = Server Type:
+account-settings-server-name =
+    .value = Server Name:
+    .accesskey = S
+account-settings-user-name =
+    .value = User Name:
+    .accesskey = N
+account-settings-port =
+    .value = Port:
+    .accesskey = P
+account-settings-default-port =
+    .value = Default:
+account-settings-message-storage = Message Storage
 
 ## Local Folders and RSS account settings
 
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-account-name =
+    .value = Account Name:
+    .accesskey = N
+account-settings-rss-server-settings = Server Settings
 account-settings-rss-enable-updates =
     .label = Enable updates for all feeds
     .accesskey = E
