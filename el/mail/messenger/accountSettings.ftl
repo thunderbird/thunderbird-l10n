@@ -149,6 +149,9 @@ account-settings-imap-show-subscribed-folders =
 account-settings-imap-dual-use-folders =
     .label = Ο διακομιστής υποστηρίζει φακέλους με υποφακέλους και μηνύματα
     .accesskey = σ
+account-settings-imap-maximum-connections =
+    .value = Μέγιστος αριθμός συνδέσεων διακομιστή στην προσωρινή μνήμη
+    .accesskey = Μ
 # Do not translate "IMAP".
 account-settings-imap-namespace-description = Αυτές οι προτιμήσεις καθορίζουν τους χώρους ονομάτων στον διακομιστή IMAP σας
 account-settings-imap-personal-namespace =
