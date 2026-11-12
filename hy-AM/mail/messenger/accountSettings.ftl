@@ -16,6 +16,13 @@ default-account-button =
 
 ## Local Folders and RSS account settings
 
+account-settings-rss-enable-updates =
+    .label = Միացնել բոլոր սնումների թարմացումները
+    .accesskey = Մ
+account-settings-rss-new-feed-defaults = Լռելյայն կարգավորումներ նոր սնումների համար
+account-settings-rss-manage-subscriptions =
+    .label = Կառավարել բաժանորդագրությունները....
+    .accesskey = M
 
 ## Feed account wizard
 
