@@ -23,3 +23,4 @@ account-settings-rss-default-account-name = Blaganna agus Fothaí Nuachta
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = Ardshocruithe Cuntais
