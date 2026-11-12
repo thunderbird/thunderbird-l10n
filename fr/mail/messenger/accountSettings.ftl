@@ -147,6 +147,21 @@ account-settings-connection-security-ssl-tls =
     .label = SSL/TLS
 account-settings-minutes =
     .value = minutes
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Me demander avant de télécharger plus de
+    .accesskey = t
+account-settings-messages =
+    .value = messages.
+account-settings-always-authenticate =
+    .label = Toujours demander une authentification lors de la connexion à ce serveur
+    .accesskey = j
+account-settings-empty-trash-on-exit =
+    .label = Vider la corbeille en quittant
+    .accesskey = b
+account-settings-newsrc-file =
+    .value = Fichier News.rc :
 
 ## Local Folders and RSS account settings
 
