@@ -5,9 +5,85 @@
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = Սպասարկչի տեսակը.
+account-settings-server-name =
+    .value = Սպասարկչի անունը.
+    .accesskey = Ս
+account-settings-user-name =
+    .value = Աւգտատիրոջ անունը.
+    .accesskey = ա
+account-settings-port =
+    .value = Միացք.
+    .accesskey = Մ
+account-settings-default-port =
+    .value = Սկզբանդիր․
+account-settings-connection-security =
+    .value = Կապակցման անվտանգութիւն.
+    .accesskey = ա
+account-settings-connection-security-none =
+    .label = Չկայ
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+account-settings-automatically-download-new-messages =
+    .label = Ինքնաբերաբար ներբեռնել նոր նամակները
+    .accesskey = բ
+account-settings-fetch-headers-only =
+    .label = Դուրսբերոել միայն գլխագիրները
+    .accesskey = e
+account-settings-leave-messages-on-server =
+    .label = Հաղորդագրութիւնները թողնել սպասարկչի վրայ
+    .accesskey = g
+account-settings-leave-messages-for =
+    .label = Առաւելագոյնի համար
+    .accesskey = ա
+account-settings-days =
+    .value = աւրեր
+account-settings-leave-messages-until-deleted =
+    .label = Մինչ դրանք ջնջեմ
+    .accesskey = d
+account-settings-move-to-trash =
+    .label = Տեղափոխէք այն այս պանակում.
+    .accesskey = o
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Հարցրէք ինձ նախքան ներբեռնելն ավելին, քան
+    .accesskey = m
+account-settings-messages =
+    .value = նամակներ
+account-settings-always-authenticate =
+    .label = Այս սպասարկչին միանալու ժամանակ միշտ հայցէք իսկորոշում
+    .accesskey = w
+account-settings-message-storage = Հաղորդագրութեան պահոց
+account-settings-empty-trash-on-exit =
+    .label = Դատարկ աղբարկղ ելքի ժամանակ
+    .accesskey = x
+account-settings-message-store-type =
+    .value = Հաղորդագրութեան պահեստարանի տեսակ.
+    .accesskey = T
+account-settings-message-store-mbox =
+    .label = Նիշ պանակի համար (mbox)
+account-settings-message-store-maildir =
+    .label = Նիշ հաղորդագրութեան համար (maildir)
+account-settings-newsrc-file =
+    .value = News.rc նիշը.
+account-settings-browse-newsrc =
+    .label = Դիտարկել…
+    .accesskey = ե
+    .filepickertitle = Նշել News.rc նիշը
+account-settings-local-directory =
+    .value = Տեղային գրացուցակ.
+account-settings-default-text-encoding =
+    .value = Գրոյթի լռելեայն կոդաւորում․
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Հաշուի կարգաւորումներ
+account-settings-title =
+    .value = Հաշուի կարգաւորումներ
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
@@ -15,6 +91,11 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Հետեւեալը յատուկ հաշիւ է։ Այստէղ չկայ դրա հետ համակցուած ինքնութիւններ:
+account-settings-account-name =
+    .value = Հաշուի անունը.
+    .accesskey = N
+account-settings-rss-server-settings = Սպասարկչի կարգաւորումներ
 account-settings-rss-enable-updates =
     .label = Միացնել բոլոր շղթաների թարմացումները
     .accesskey = Մ
