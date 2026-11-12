@@ -26,6 +26,17 @@ account-settings-port =
     .accesskey = P
 account-settings-default-port =
     .value = Per defecte:
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Demana-m'ho abans de baixar més de
+    .accesskey = m
+account-settings-messages =
+    .value = missatges
+account-settings-always-authenticate =
+    .label = Sol·licita sempre autenticació en connectar amb aquest servidor
+    .accesskey = l
+account-settings-message-storage = Missatge d'emmagatzematge
 
 ## Local Folders and RSS account settings
 
