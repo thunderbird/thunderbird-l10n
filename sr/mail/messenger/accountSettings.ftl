@@ -97,6 +97,13 @@ account-settings-connection-security-starttls =
     .label = STARTTLS
 account-settings-connection-security-ssl-tls =
     .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Провери да ли има нових порука на сваких
+    .accesskey = х
+account-settings-minutes =
+    .value = минута
 account-settings-automatically-download-new-messages =
     .label = Аутоматски преузми нове поруке
     .accesskey = м
