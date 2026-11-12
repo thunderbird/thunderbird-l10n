@@ -21,6 +21,36 @@ account-settings-port =
     .accesskey = П
 account-settings-default-port =
     .value = Змоўчны:
+account-settings-connection-security =
+    .value = Бяспека злучэння:
+    .accesskey = Б
+account-settings-connection-security-none =
+    .label = Няма
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+account-settings-automatically-download-new-messages =
+    .label = Самастойна загружаць новыя лісты
+    .accesskey = С
+account-settings-fetch-headers-only =
+    .label = Атрымліваць толькі загалоўкі
+    .accesskey = т
+account-settings-leave-messages-on-server =
+    .label = Пакідаць паведамленні на серверы
+    .accesskey = п
+account-settings-leave-messages-for =
+    .label = Не болей чым на
+    .accesskey = ч
+account-settings-days =
+    .value = дзён
+account-settings-leave-messages-until-deleted =
+    .label = Пакуль я не выдалю іх
+    .accesskey = д
+account-settings-move-to-trash =
+    .label = Перамясціць яго ў гэтую папку:
+    .accesskey = е
+account-settings-message-storage = Сховішча лістоў
 
 ## Local Folders and RSS account settings
 
