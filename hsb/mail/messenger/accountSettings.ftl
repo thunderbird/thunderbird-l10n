@@ -134,6 +134,7 @@ oauth-provider-extension-info = Nastajenja OAuth2, kotrež rozšěrjenje k dispo
 
 ## Incoming server settings
 
+account-settings-server-document-title = Serwerowe nastajenja
 account-settings-server-type =
     .value = Typ serwera:
 account-settings-server-name =
@@ -156,6 +157,13 @@ account-settings-connection-security-starttls =
     .label = STARTTLS
 account-settings-connection-security-ssl-tls =
     .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Kóžde
+    .accesskey = K
+account-settings-minutes =
+    .value = mjeńšin za nowymi powěsćemi pruwować
 account-settings-automatically-download-new-messages =
     .label = Nowe powěsće awtomatisce sćahnyć
     .accesskey = N
