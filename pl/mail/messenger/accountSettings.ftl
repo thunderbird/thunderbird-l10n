@@ -136,9 +136,41 @@ oauth-provider-extension-info = Ustawienia OAuth2 udostępniane przez rozszerzen
 
 account-settings-default-port =
     .value = Domyślnie:
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Pytaj przy pobieraniu więcej niż
+    .accesskey = y
+account-settings-messages =
+    .value = wiadomości
+account-settings-always-authenticate =
+    .label = Zawsze żądaj uwierzytelniania podczas łączenia z tym serwerem
+    .accesskey = l
+account-settings-message-storage = Przechowywanie wiadomości
+account-settings-empty-trash-on-exit =
+    .label = Przy wyjściu z programu opróżniaj kosz
+    .accesskey = c
+account-settings-message-store-type =
+    .value = Sposób przechowywania wiadomości:
+    .accesskey = S
+account-settings-message-store-mbox =
+    .label = plik na folder (mbox)
+account-settings-message-store-maildir =
+    .label = plik na wiadomość (maildir)
+account-settings-local-directory =
+    .value = Katalog lokalny:
+account-settings-browse-local-directory =
+    .label = Przeglądaj…
+    .accesskey = P
+    .filepickertitle = Wybierz katalog lokalny
+account-settings-default-text-encoding =
+    .value = Domyślne kodowanie tekstu:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Ustawienia konta
+account-settings-title =
+    .value = Ustawienia konta
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
@@ -146,6 +178,10 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = To jest specjalne konto, któremu nie są przypisane żadne tożsamości.
+account-settings-account-name =
+    .value = Nazwa konta:
+    .accesskey = N
 account-settings-rss-enable-updates =
     .label = Uaktualniaj wszystkie źródła aktualności
     .accesskey = U
