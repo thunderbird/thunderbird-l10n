@@ -18,6 +18,20 @@ account-settings-port =
     .accesskey = P
 account-settings-default-port =
     .value = Bunaiteach:
+account-settings-connection-security =
+    .value = Tèarainteachd a' cheangail:
+    .accesskey = T
+account-settings-connection-security-none =
+    .label = Chan eil gin
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Thoir sùil airson teachdaireachdan ùra gach
+    .accesskey = T
 account-settings-minutes =
     .value = mionaid(ean)
 account-settings-automatically-download-new-messages =
@@ -54,16 +68,27 @@ account-settings-message-storage = Stòras theachdaireachdan
 account-settings-empty-trash-on-exit =
     .label = Falamhaich an sgudal nuair a dhùineas mi am prògram
     .accesskey = F
+account-settings-message-store-type =
+    .value = Seòrsa stòras nan teachdaireachdan:
+    .accesskey = t
+account-settings-message-store-mbox =
+    .label = Faidhle gach pasgan (mbox)
+account-settings-message-store-maildir =
+    .label = Faidhle gach teachdaireachd (maildir)
 account-settings-newsrc-file =
     .value = Faidhle news.rc:
 account-settings-browse-newsrc =
     .label = Brabhsaich…
     .accesskey = B
     .filepickertitle = Tagh faidhle news.rc
+account-settings-local-directory =
+    .value = Am pasgan ionadail:
 account-settings-browse-local-directory =
     .label = Brabhsaich…
     .accesskey = B
     .filepickertitle = Tagh am pasgan ionadail
+account-settings-default-text-encoding =
+    .value = An còdachadh teacsa bunaiteach:
 
 ## Local Folders and RSS account settings
 
