@@ -134,9 +134,33 @@ oauth-provider-extension-info = A következő kiegészítő által biztosított 
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = Kiszolgálótípus:
+account-settings-server-name =
+    .value = Kiszolgáló:
+    .accesskey = K
+account-settings-user-name =
+    .value = Felhasználói név:
+    .accesskey = F
+account-settings-port =
+    .value = Port:
+    .accesskey = o
+account-settings-default-port =
+    .value = Alapértelmezett:
 
 ## Local Folders and RSS account settings
 
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-account-name =
+    .value = Postafiók neve:
+    .accesskey = P
+account-settings-rss-server-settings = Kiszolgáló beállításai
 account-settings-rss-enable-updates =
     .label = Frissítések engedélyezése minden hírforráshoz
     .accesskey = F
