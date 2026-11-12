@@ -75,6 +75,7 @@ send-undisclosed-recipients = aipatu gabeko hartzaileak
 # Variables:
 # $recipient - recipient address
 smtp-error-illegal-local-part = ASCII ez diren karaktereak daude { $recipient } hartzailearen helbidearen zati lokalean eta zure zerbitzariak ez du SMTPUTF8 euskarririk. Aldatu helbidea eta saiatu berriro.
+smtp-error-no-recipients = Ez da hartzailerik zehaztu SMTP bidez entregatzeko.
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = { $hostname } SMTP irteera zerbitzariak antza ez du enkriptatutako pasahitzentzako euskarririk. Kontua sortu berri baduzu, saiatu ‘Autentifikazio metodoa’ aldatzen ‘Kontuaren ezarpenak | SMTP irteera zerbitzaria’ atalean eta jarri ‘Pasahitza modu ez seguruan bidali’. Lehen bazebilen eta orain ez, pasahitza lapurtu ahal dizute.

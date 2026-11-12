@@ -94,6 +94,12 @@ toolbar-delete-button =
 toolbar-undelete-button =
     .label = Desezabatu
     .tooltiptext = Desezabatu aukeratutako mezuak
+toolbar-spam-button =
+    .label = Spam
+    .tooltiptext = Markatu hautatutako mezuak spam gisa
+toolbar-not-spam-button =
+    .label = Ez da spam
+    .tooltiptext = Markatu hautatutako mezuak spam ez direla
 
 ## View
 
@@ -151,6 +157,9 @@ file-new-newsgroup-account =
 file-new-addressbook =
     .label = Helbide-liburua
     .accesskey = H
+file-new-mailing-list =
+    .label = Posta-zerrenda…
+    .accesskey = P
 file-new-local-addressbook =
     .label = Helbide-liburu lokaletan
     .accesskey = l

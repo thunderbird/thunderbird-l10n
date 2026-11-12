@@ -98,6 +98,11 @@ message-header-address-in-address-book-button =
 message-header-field-show-more = Gehiago
     .title = Erakutsi partaide guztiak
 message-ids-field-show-more = Erakutsi gehiago
+# Button shown in place of hidden items in a header field.
+# $count (Number) - The number of hidden items the button will show.
+message-header-field-show-count-more =
+    .aria-label = Erakutsi { $count } gehiago
+    .title = Erakutsi { $count } gehiago
 message-ids-field-show-all = Erakutsi denak
 
 ## Dark Message Mode
@@ -106,3 +111,13 @@ dark-message-mode-toggle-enabled =
     .title = Desgaitu mezu ilun modua
 dark-message-mode-toggle-disabled =
     .title = Gaitu mezu ilun modua
+
+## Spam filter
+
+message-bar-spam = { -brand-short-name }ek mezu hau spam dela uste du.
+message-bar-not-spam-button =
+    .label = Ez da spam
+    .accesskey = E
+message-bar-learn-more-button =
+    .label = Argibide gehiago…
+    .accesskey = A

@@ -35,6 +35,33 @@ e2e-csr-include-email = Sartu helbide elektronikoa ({ $email }) CSRn (gomendatua
 e2e-csr-success = CSR ondo gorde da: { $file }
 # $file A filename
 e2e-csr-failure = Ezin da gorde CSR fitxategian { $file }
+account-settings-encryption-default-off =
+    .label = Ez enkriptatu mezu berriak era lehenetsian
+    .accesskey = E
+account-settings-encryption-default-on =
+    .label = Zifratu mezu berriak lehenetsi gisa
+    .accesskey = Z
+account-settings-encryption-default-description = Mezu elektronikoak idaztean, mezu zehatzetarako enkriptatzea desaktiba daiteke.
+account-settings-sign-unencrypted-heading = Zifratu gabeko mezuak digitalki sinatu
+account-settings-sign-unencrypted =
+    .label = Zifratu gabeko mezuak digitalki sinatu
+    .accesskey = Z
+account-settings-sign-unencrypted-description = Hartzaileei egiaztatzen die mezua zuregandik datorrela eta ez dela bidean aldatu. Mezu zifratuak lehenetsita daude sinatuta.
+account-settings-advanced-encryption = Enkriptatze-ezarpen aurreratuak
+account-settings-attach-public-key-when-signing =
+    .label = Mezuak digitalki sinatzean, erantsi identitate honen gako publikoa.
+    .accesskey = p
+account-settings-encrypt-message-subject =
+    .label = Mezuaren gaia enkriptatu
+    .accesskey = g
+account-settings-encrypt-saved-drafts =
+    .label = Encrypt message subject line
+    .accesskey = g
+# Do not translate "Autocrypt", it's the name of a standard.
+account-settings-include-public-key-autocrypt =
+    .label = Sartu kontu honen gako publikoa mezu-goiburuetan (Autocrypt-ekin bateragarria izateko)
+    .accesskey = S
+account-settings-preferred-encryption-type = Hobetsitako enkriptatze-teknologia
 e2e-signing-description =
     Sinadura digitalak hartzaileak mezuak zuk bidalitakoa dela egiaztatzea ahalbidetzen du eta bere edukia ez dela aldatu.
     Zifratutako mezuak beti daude lehenetsita sinatuak.
@@ -210,6 +237,13 @@ openpgp-key-man-change-expiry =
 openpgp-key-man-refresh-online =
     .label = Freskatu online
     .accesskey = F
+# Do not translate: PQC
+openpgp-key-man-add-pqc =
+    .label = Sortu PQC enkriptatze-azpiklea
+    .accesskey = P
+# Do not translate: PQC
+openpgp-pqc-confirm-generate = Sortu enkriptatze-azpikle bat, kriptografia postkuantikoa (PQC) erabiliz? Baliteke sortze-prozesuak minutu batzuk behar izatea.
+openpgp-pqc-generate-failed = Ezin izan da PQC enkriptatze-azpiklabea sortu.
 openpgp-key-man-ignored-ids =
     .label = Helbide elektronikoak
 openpgp-key-man-del-key =
@@ -327,6 +361,7 @@ openpgp-passphrase-instruction-primary-password = Bestela, babestu gako hau pasa
 openpgp-passphrase-instruction-user-passphrase = Desblokeatu gako hau babesa aldatzeko.
 openpgp-passphrase-unlock = Desblokeatu
 openpgp-passphrase-unlocked = Gakoa behar bezala desblokeatu da.
+openpgp-passphrase-unlock-failed = Gakoa, edo gakoaren azpiatalak, ezin izan ziren desblokeatu.
 openpgp-remove-protection = Kendu pasaesaldi babesa
 openpgp-use-primary-password = Kendu pasaesaldia eta babestu pasahitz nagusiarekin
 openpgp-passphrase-new = Pasaesaldi berria
@@ -349,6 +384,9 @@ openpgp-description-has-keys =
     }
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-have-key = Zure uneko konfigurazioak, <b>{ $key }</b> ID gakoa darabil
+#   $key (String) - the currently selected OpenPGP key
+#   $when (String) - the relative date when the OpenPGP key will expire e.g. "in 20 days"
+openpgp-selection-status-expiring-soon = Zure egungo konfigurazioak <b>{ $key }</b> gakoa erabiltzen du; gako hori { $when } iraungiko da. Gakoa baliozko izaten jarrai dezan, kontuan hartu gakoaren iraungitze-data orain luzatzea.
 #   $key (String) - the currently selected OpenPGP key
 openpgp-selection-status-error = Zure uneko konfigurazioak <b>{ $key }</b> gakoa darabil, iraungita dagoena.
 openpgp-add-key-button =
@@ -407,6 +445,12 @@ key-does-not-expire = Gakoa ez da iraungitzen
 key-expired-date = Gakoaren iraungitzea: { $keyExpiry }
 key-expired-simple = Gakoa iraungita dago
 key-revoked-simple = Gakoa ukatu zen.
+key-revoked-revocation-code-superseded = Gakoa baliogabetu egin da, ordezkatu dutelako.
+key-revoked-revocation-code-compromised = Gakoa baliogabetu egin da, gako-materiala arriskuan jarri delako.
+key-revoked-revocation-code-retired = Gakoa baliogabetu egin zen, erretiratuta dagoelako eta jada erabiltzen ez delako.
+# Variables:
+# $reason (String) - Key owner entered reason for revocation.
+key-revoked-revocation-reason = Gakoaren jabeak adierazitako baliogabetze-arrazoia: { $reason }
 key-do-you-accept = Onartzen al duzu gako hau sinadura digitalak egiaztatzeko eta mezuak zifratzeko?
 # Variables:
 # $addr (String) - Email address the key claims it belongs to.
