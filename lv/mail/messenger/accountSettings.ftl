@@ -107,6 +107,17 @@ oauth-provider-extension-info = OAuth2 iestatījumi, kurus nodrošina paplašin�
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = Servera veids:
+account-settings-server-name =
+    .value = Servera nosaukums:
+    .accesskey = S
+account-settings-user-name =
+    .value = Lietotājvārds:
+    .accesskey = L
+account-settings-port =
+    .value = Ports:
+    .accesskey = P
 account-settings-connection-security-starttls =
     .label = STARTTLS
 account-settings-connection-security-ssl-tls =
@@ -131,6 +142,17 @@ account-settings-leave-messages-until-deleted =
 account-settings-move-to-trash =
     .label = Pārvietot to uz šo mapi:
     .accesskey = P
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Jautāt, pirms lejuplādēt vairāk nekā
+    .accesskey = J
+account-settings-messages =
+    .value = vēstules
+account-settings-always-authenticate =
+    .label = Pieslēdzoties šim serverim, vienmēr pieprasīt autentifikāciju
+    .accesskey = P
+account-settings-message-storage = Vēstuļu krātuve
 
 ## Local Folders and RSS account settings
 
@@ -144,6 +166,7 @@ account-settings-title-with-name =
 account-settings-account-name =
     .value = Konta nosaukums:
     .accesskey = n
+account-settings-rss-server-settings = Servera iestatījumi
 account-settings-rss-enable-updates =
     .label = Ieslēgt atjaunojumus visām plūsmām
     .accesskey = I
