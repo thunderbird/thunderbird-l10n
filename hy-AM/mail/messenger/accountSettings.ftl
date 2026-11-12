@@ -31,3 +31,4 @@ account-settings-rss-default-account-name = Բլոգներ և նորությու
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = Փոստարկղի ընդլայնված կարգավորումներ
