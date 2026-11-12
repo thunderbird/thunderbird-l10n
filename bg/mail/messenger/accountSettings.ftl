@@ -52,6 +52,7 @@ account-settings-port =
     .accesskey = П
 account-settings-default-port =
     .value = По подразбиране:
+account-settings-message-storage = Съхранение на съобщения
 
 ## Local Folders and RSS account settings
 
