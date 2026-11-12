@@ -49,7 +49,24 @@ account-settings-fetch-headers-only =
 account-settings-leave-messages-on-server =
     .label = Manter mensagens no servidor
     .accesskey = M
+account-settings-leave-messages-for =
+    .label = Por no máximo
+    .accesskey = o
+account-settings-days =
+    .value = dias
 account-settings-message-storage = Armazenamento de mensagens
+account-settings-message-store-mbox =
+    .label = Um arquivo por pasta (mbox)
+account-settings-message-store-maildir =
+    .label = Um arquivo por mensagem (maildir)
+account-settings-local-directory =
+    .value = Diretório local:
+account-settings-browse-local-directory =
+    .label = Procurar…
+    .accesskey = P
+    .filepickertitle = Selecionar diretório local
+account-settings-default-text-encoding =
+    .value = Codificação padrão do texto:
 
 ## Local Folders and RSS account settings
 
