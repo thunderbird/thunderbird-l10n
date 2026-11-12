@@ -134,9 +134,26 @@ oauth-provider-extension-info = Definições OAuth2 fornecidas pela extensão: <
 
 ## Incoming server settings
 
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Perguntar antes de descarregar mais do que
+    .accesskey = t
+account-settings-messages =
+    .value = mensagens
+account-settings-always-authenticate =
+    .label = Pedir sempre autenticação ao ligar a este servidor
+    .accesskey = u
 
 ## Local Folders and RSS account settings
 
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
 account-settings-rss-enable-updates =
     .label = Ativar atualizações para todas as fontes
     .accesskey = A
