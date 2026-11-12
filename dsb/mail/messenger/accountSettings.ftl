@@ -134,6 +134,7 @@ oauth-provider-extension-info = Nastajenja OAuth2, kótarež rozšyrjenje k disp
 
 ## Incoming server settings
 
+account-settings-server-document-title = Serwerowe nastajenja
 account-settings-server-type =
     .value = Serwerowy typ:
 account-settings-server-name =
@@ -156,6 +157,13 @@ account-settings-connection-security-starttls =
     .label = STARTTLS
 account-settings-connection-security-ssl-tls =
     .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Kuždych
+    .accesskey = K
+account-settings-minutes =
+    .value = minutow za nowymi powěsćami pśeglědaś
 account-settings-automatically-download-new-messages =
     .label = Nowe powěsći awtomatiski ześěgnuś
     .accesskey = N
@@ -176,6 +184,13 @@ account-settings-leave-messages-until-deleted =
 account-settings-move-to-trash =
     .label = Do toś togo zarědnika pśesunuś:
     .accesskey = D
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Pšašaś se, nježli až ześěguju se wěcej ako
+    .accesskey = w
+account-settings-messages =
+    .value = powěsćow
 account-settings-always-authenticate =
     .label = Pśi zwězowanju z toś tym serwerom pśecej awtentificěrowanje pominaś
     .accesskey = z
