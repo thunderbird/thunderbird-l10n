@@ -136,6 +136,17 @@ oauth-provider-extension-info = Настройки OAuth2, предоставл�
 
 account-settings-server-type =
     .value = Тип сервера:
+account-settings-server-name =
+    .value = Имя сервера:
+    .accesskey = я
+account-settings-user-name =
+    .value = Имя пользователя:
+    .accesskey = м
+account-settings-port =
+    .value = Порт:
+    .accesskey = р
+account-settings-default-port =
+    .value = По умолчанию:
 account-settings-connection-security =
     .value = Защита соединения:
     .accesskey = щ
@@ -145,9 +156,61 @@ account-settings-connection-security-starttls =
     .label = STARTTLS
 account-settings-connection-security-ssl-tls =
     .label = SSL/TLS
+account-settings-fetch-headers-only =
+    .label = Загружать только заголовки сообщений
+    .accesskey = г
+account-settings-leave-messages-on-server =
+    .label = Оставлять копии сообщений на сервере
+    .accesskey = с
+account-settings-leave-messages-for =
+    .label = Не более
+    .accesskey = л
+account-settings-days =
+    .value = дней
+account-settings-leave-messages-until-deleted =
+    .label = Пока я не удалю их
+    .accesskey = у
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Спрашивать перед скачиванием более чем
+    .accesskey = ш
+account-settings-messages =
+    .value = сообщений
+account-settings-always-authenticate =
+    .label = Всегда проводить аутентификацию при подключении к этому серверу
+    .accesskey = о
+account-settings-message-storage = Хранилище сообщений
+account-settings-empty-trash-on-exit =
+    .label = Опустошить при выходе папку «Удалённые»
+    .accesskey = ш
+account-settings-message-store-type =
+    .value = Тип хранилища сообщений:
+    .accesskey = х
+account-settings-message-store-mbox =
+    .label = Каждая папка в отдельном файле (mbox)
+account-settings-message-store-maildir =
+    .label = Каждое сообщение в отдельном файле (maildir)
+account-settings-newsrc-file =
+    .value = Файл News.rc:
+account-settings-browse-newsrc =
+    .label = Обзор…
+    .accesskey = з
+    .filepickertitle = Выбрать файл News.rc
+account-settings-local-directory =
+    .value = Локальный каталог:
+account-settings-browse-local-directory =
+    .label = Обзор…
+    .accesskey = б
+    .filepickertitle = Выбор локального каталога
+account-settings-default-text-encoding =
+    .value = Кодировка текста по умолчанию:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Параметры учётной записи
+account-settings-title =
+    .value = Параметры учётной записи
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
@@ -155,6 +218,10 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Эта учётная запись особенная. С ней не связаны никакие персональные данные.
+account-settings-account-name =
+    .value = Имя учётной записи:
+    .accesskey = м
 account-settings-rss-server-settings = Параметры сервера
 account-settings-rss-enable-updates =
     .label = Включить обновления для всех лент новостей
