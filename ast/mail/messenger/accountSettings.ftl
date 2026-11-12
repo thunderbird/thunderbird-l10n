@@ -5,9 +5,80 @@
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = Triba de sirvidor:
+account-settings-server-name =
+    .value = Nome del sirvidor:
+    .accesskey = S
+account-settings-user-name =
+    .value = Nome d'usuariu:
+    .accesskey = N
+account-settings-port =
+    .value = Puertu:
+    .accesskey = P
+account-settings-default-port =
+    .value = Predet.:
+account-settings-automatically-download-new-messages =
+    .label = Descargar automáticamente los mensaxes nuevos
+    .accesskey = m
+account-settings-fetch-headers-only =
+    .label = Descargar namái les testeres
+    .accesskey = t
+account-settings-leave-messages-for =
+    .label = Desaniciar mensaxes del sirvidor tres
+    .accesskey = o
+account-settings-days =
+    .value = díes
+account-settings-leave-messages-until-deleted =
+    .label = Hasta que yo los desanicie
+    .accesskey = d
+account-settings-move-to-trash =
+    .label = Movelu a esta carpeta:
+    .accesskey = o
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Entrugame enantes de descargar más de
+    .accesskey = m
+account-settings-messages =
+    .value = mensaxes
+account-settings-always-authenticate =
+    .label = Siempre solicitar identificación cuando se coneute con esti sirvidor
+    .accesskey = p
+account-settings-empty-trash-on-exit =
+    .label = Vaciar papelera al salir
+    .accesskey = v
+account-settings-message-store-type =
+    .value = Triba d'almacenamientu de mensaxe:
+    .accesskey = T
+account-settings-message-store-mbox =
+    .label = Ficheru per carpeta (mbox)
+account-settings-message-store-maildir =
+    .label = Ficheru per mensaxe (maildir)
+account-settings-browse-local-directory =
+    .label = Desaminar…
+    .accesskey = s
+    .filepickertitle = Esbilla direutoriu llocal
+account-settings-default-text-encoding =
+    .value = Codificación de testu por defeutu:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Configuración de cuenta
+account-settings-title =
+    .value = Configuración de cuenta
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = La siguiente cuenta ye especial. Nun hai identidaes asociaes con ella.
+account-settings-account-name =
+    .value = Nome de la cuenta:
+    .accesskey = N
+account-settings-rss-server-settings = Configuración del sirvidor
 account-settings-rss-manage-subscriptions =
     .label = Alministrar soscripciones…
     .accesskey = A
