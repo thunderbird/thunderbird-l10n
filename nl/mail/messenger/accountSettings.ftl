@@ -134,6 +134,7 @@ oauth-provider-extension-info = OAuth2-instellingen geleverd door extensie: <a d
 
 ## Incoming server settings
 
+account-settings-server-document-title = Serverinstellingen
 account-settings-server-type =
     .value = Servertype:
 account-settings-server-name =
