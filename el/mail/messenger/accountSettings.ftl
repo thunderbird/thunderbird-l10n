@@ -120,6 +120,14 @@ oauth-provider-extension-info = Οι ρυθμίσεις OAuth2 παρέχοντ�
 
 ## Incoming server settings
 
+account-settings-user-name =
+    .value = Όνομα χρήστη:
+    .accesskey = ν
+account-settings-port =
+    .value = Θύρα:
+    .accesskey = Θ
+account-settings-default-port =
+    .value = Προεπιλογή:
 account-settings-connection-security =
     .value = Ασφάλεια σύνδεσης:
     .accesskey = φ
