@@ -137,6 +137,13 @@ oauth-provider-extension-info = A következő kiegészítő által biztosított 
 
 ## Local Folders and RSS account settings
 
+account-settings-rss-enable-updates =
+    .label = Frissítések engedélyezése minden hírforráshoz
+    .accesskey = F
+account-settings-rss-new-feed-defaults = Új hírforrások alapértelmezett beállításai
+account-settings-rss-manage-subscriptions =
+    .label = Feliratkozások kezelése…
+    .accesskey = F
 
 ## Feed account wizard
 
