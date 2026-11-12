@@ -134,6 +134,7 @@ oauth-provider-extension-info = OAuth2-ynstellingen levere troch útwreiding: <a
 
 ## Incoming server settings
 
+account-settings-server-document-title = Serverynstellingen
 account-settings-server-type =
     .value = Servertype:
 account-settings-server-name =
@@ -156,6 +157,13 @@ account-settings-connection-security-starttls =
     .label = STARTTLS
 account-settings-connection-security-ssl-tls =
     .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Op nije berjochten kontrolearje nei elke
+    .accesskey = k
+account-settings-minutes =
+    .value = minuten
 account-settings-automatically-download-new-messages =
     .label = Nije berjochten automatysk downloade
     .accesskey = m
@@ -186,6 +194,7 @@ account-settings-messages =
 account-settings-always-authenticate =
     .label = Altyd freegje om autentikaasje by ferbinen mei dizze server
     .accesskey = z
+account-settings-message-storage = Berjochteûnthâld
 account-settings-empty-trash-on-exit =
     .label = Jiskefet leechmeitsje by ôfsluten
     .accesskey = f
