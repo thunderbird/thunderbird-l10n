@@ -10,9 +10,55 @@ account-settings-server-type =
 account-settings-server-name =
     .value = Bedienernaam:
     .accesskey = B
+account-settings-connection-security-none =
+    .label = Geen
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+account-settings-automatically-download-new-messages =
+    .label = Laai outomaties nuwe boodskappe af
+    .accesskey = e
+account-settings-fetch-headers-only =
+    .label = Kry net kopskrifte
+    .accesskey = K
+account-settings-leave-messages-on-server =
+    .label = Laat boodskappe op bediener agter
+    .accesskey = a
+account-settings-leave-messages-for =
+    .label = Vir niks meer as
+    .accesskey = V
+account-settings-days =
+    .value = dae
+account-settings-leave-messages-until-deleted =
+    .label = Totdat ek dit skrap
+    .accesskey = s
+account-settings-move-to-trash =
+    .label = Skuif dit na hierdie vouer:
+    .accesskey = S
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Vra my voor meer aflaai as
+    .accesskey = v
+account-settings-messages =
+    .value = boodskappe
+account-settings-always-authenticate =
+    .label = Versoek altyd magtiging wanneer aan hierdie bediener koppel
+    .accesskey = e
+account-settings-empty-trash-on-exit =
+    .label = Maak snippermandjie leeg tydens afsluiting
+    .accesskey = a
+account-settings-browse-local-directory =
+    .label = Blaai…
+    .accesskey = B
+    .filepickertitle = Kies plaaslike gids
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Rekeningopstelling
+account-settings-title =
+    .value = Rekeningopstelling
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
@@ -20,6 +66,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Die volgende is 'n spesiale rekening.  Daar word geen identiteit mee geassosieer nie.
 account-settings-rss-server-settings = Bedieneropstelling
 account-settings-rss-manage-subscriptions =
     .label = Bestuur intekeninge…
