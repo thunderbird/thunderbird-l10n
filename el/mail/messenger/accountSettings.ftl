@@ -120,9 +120,19 @@ oauth-provider-extension-info = Οι ρυθμίσεις OAuth2 παρέχοντ�
 
 ## Incoming server settings
 
+account-settings-automatically-download-new-messages =
+    .label = Αυτόματη λήψη νέων μηνυμάτων
+    .accesskey = υ
 
 ## Local Folders and RSS account settings
 
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
 account-settings-rss-enable-updates =
     .label = Ενεργοποίηση ενημερώσεων για όλες τις ροές
     .accesskey = Ε
