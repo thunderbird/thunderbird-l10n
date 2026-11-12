@@ -5,9 +5,51 @@
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = نوع الخادوم:
+account-settings-server-name =
+    .value = اسم الخادوم:
+    .accesskey = خ
+account-settings-user-name =
+    .value = اسم المستخدم:
+    .accesskey = م
+account-settings-port =
+    .value = المَنفذ:
+    .accesskey = م
+account-settings-default-port =
+    .value = مبدئي:
+account-settings-connection-security =
+    .value = أمن الاتصال:
+    .accesskey = ص
+account-settings-connection-security-none =
+    .label = لا شيء
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+account-settings-fetch-headers-only =
+    .label = نزِّل الترويسات فقط
+    .accesskey = ن
+account-settings-leave-messages-on-server =
+    .label = اترك الرسائل على الخادوم
+    .accesskey = ر
+account-settings-leave-messages-for =
+    .label = لمدة أقصاها
+    .accesskey = م
 
 ## Local Folders and RSS account settings
 
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-account-name =
+    .value = اسم الحساب:
+    .accesskey = س
+account-settings-rss-server-settings = إعدادات الخادوم
 account-settings-rss-enable-updates =
     .label = فعّل التحديثات لكل التلقيمات
     .accesskey = ف
