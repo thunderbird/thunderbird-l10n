@@ -180,6 +180,7 @@ account-settings-imap-other-users-namespace =
 account-settings-imap-override-namespaces =
     .label = Serwerej dowolić, zo tute mjenowe rumy přeńdźe
     .accesskey = l
+account-settings-pop-inbox-description = Hdyž e-mejl wot serwera tutoho konta sćahujeće, wužiwajće slědowacy rjadowak, zo byšće nowe powěsće składował:
 account-settings-pop-inbox-current-account =
     .label = Póstowy dochad za tute konto
     .accesskey = t
