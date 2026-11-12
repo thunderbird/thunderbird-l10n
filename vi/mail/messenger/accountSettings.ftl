@@ -152,6 +152,7 @@ account-settings-rss-default-account-name = Blog & nguồn cấp tin tức
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = Cài đặt tài khoản nâng cao
 # Do not translate "IMAP".
 account-settings-imap-server-directory =
     .value = Thư mục máy chủ IMAP:
@@ -173,3 +174,19 @@ account-settings-imap-personal-namespace =
 account-settings-imap-public-namespace =
     .value = Công khai (đã chia sẻ):
     .accesskey = s
+account-settings-imap-other-users-namespace =
+    .value = Người dùng khác:
+    .accesskey = N
+account-settings-imap-override-namespaces =
+    .label = Cho phép máy chủ ghi đè những không gian tên này
+    .accesskey = o
+account-settings-pop-inbox-description = Khi tải xuống thư từ máy chủ của tài khoản này, hãy sử dụng thư mục sau để lưu trữ thư mới:
+account-settings-pop-inbox-current-account =
+    .label = Hộp thư đến cho tài khoản này
+    .accesskey = s
+account-settings-pop-inbox-other-account =
+    .label = Hộp thư cho tài khoản khác
+    .accesskey = p
+account-settings-pop-include-server =
+    .label = Bao gồm máy chủ này khi nhận thư mới
+    .accesskey = I
