@@ -10,3 +10,24 @@ delete-account-button =
     .label = Kkes
 default-account-button =
     .label = Sbadu-t d amezwer
+
+## Incoming server settings
+
+
+## Local Folders and RSS account settings
+
+account-settings-rss-enable-updates =
+    .label = Rmed ileqman i akk asuddem
+    .accesskey = E
+account-settings-rss-new-feed-defaults = Iɣewwaṛen imezwar i tnelliyin timaynutin
+account-settings-rss-manage-subscriptions =
+    .label = Sefrek amulteɣ…
+    .accesskey = f
+
+## Feed account wizard
+
+account-settings-rss-wizard-title = Amarag n umiḍan n usuddem
+account-settings-rss-default-account-name = Iblugen & isuddam n isalen
+
+## Advanced server settings
+
