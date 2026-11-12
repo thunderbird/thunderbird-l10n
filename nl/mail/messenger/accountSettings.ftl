@@ -157,3 +157,17 @@ account-settings-advanced-server-title = Geavanceerde accountinstellingen
 account-settings-imap-server-directory =
     .value = IMAP-servermap
     .accesskey = m
+account-settings-imap-show-subscribed-folders =
+    .label = Alleen geabonneerde mappen tonen
+    .accesskey = a
+account-settings-imap-dual-use-folders =
+    .label = Server ondersteunt mappen met submappen en berichten
+    .accesskey = o
+account-settings-imap-maximum-connections =
+    .value = Maximumaantal serververbindingen in de buffer
+    .accesskey = n
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Deze instellingen omschrijven de namespaces op uw IMAP-server
+account-settings-imap-personal-namespace =
+    .value = Persoonlijke namespace:
+    .accesskey = P
