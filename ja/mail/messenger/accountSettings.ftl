@@ -155,3 +155,4 @@ account-settings-rss-default-account-name = ブログとニュース
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = アカウントの詳細設定
