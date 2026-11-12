@@ -94,6 +94,10 @@ account-settings-rss-default-account-name = Blogovi i vijesti
 ## Advanced server settings
 
 account-settings-advanced-server-title = Napredne postavke računa
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = IMAP poslužiteljska mapa:
+    .accesskey = M
 account-settings-imap-show-subscribed-folders =
     .label = Prikaži samo mape na koje sam pretplaćen(a)
     .accesskey = r
