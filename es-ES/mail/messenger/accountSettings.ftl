@@ -42,6 +42,13 @@ ews-oauthscopes-label =
 
 ## Local Folders and RSS account settings
 
+account-settings-rss-enable-updates =
+    .label = Activar actualizaciones en todos los canales
+    .accesskey = v
+account-settings-rss-new-feed-defaults = Configuración predeterminada para canales nuevos
+account-settings-rss-manage-subscriptions =
+    .label = Administrar suscripciones…
+    .accesskey = A
 
 ## Feed account wizard
 
