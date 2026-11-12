@@ -112,6 +112,17 @@ account-settings-rss-default-account-name = Blogg og fréttastreymi
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = Ítarlegri reikningsstillingar
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = Mappa IMAP netþjóns:
+    .accesskey = þ
+account-settings-imap-show-subscribed-folders =
+    .label = Sýna aðeins möppur sem eru í áskrift
+    .accesskey = S
+account-settings-imap-dual-use-folders =
+    .label = Póstþjónn styður möppur sem innihalda undirmöppur og póst
+    .accesskey = j
 # Do not translate "IMAP".
 account-settings-imap-namespace-description = Þessar stillingar skilgreina nafnsvið á IMAP þjóni
 account-settings-imap-personal-namespace =
