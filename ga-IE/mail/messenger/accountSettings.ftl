@@ -5,9 +5,19 @@
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = Cineál an Fhreastalaí:
 
 ## Local Folders and RSS account settings
 
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-rss-server-settings = Socruithe an Fhreastalaí
 account-settings-rss-enable-updates =
     .label = Cumasaigh nuashonruithe do na fothaí go léir
     .accesskey = C
