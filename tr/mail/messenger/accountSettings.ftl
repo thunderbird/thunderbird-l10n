@@ -135,9 +135,17 @@ account-settings-minutes =
 account-settings-automatically-download-new-messages =
     .label = Yeni e-postaları otomatik indir
     .accesskey = p
+account-settings-fetch-headers-only =
+    .label = Yalnızca üst bilgileri getir
+    .accesskey = S
 account-settings-leave-messages-on-server =
     .label = İletileri sunucuda bırak
     .accesskey = b
+account-settings-leave-messages-for =
+    .label = En fazla
+    .accesskey = E
+account-settings-days =
+    .value = gün
 account-settings-leave-messages-until-deleted =
     .label = Ben silene kadar
     .accesskey = d
@@ -167,6 +175,10 @@ account-settings-message-store-maildir =
     .label = Her ileti için ayrı dosya (maildir)
 account-settings-newsrc-file =
     .value = News.rc dosyası:
+account-settings-local-directory =
+    .value = Yerel dizin:
+account-settings-default-text-encoding =
+    .value = Varsayılan metin kodlaması:
 
 ## Local Folders and RSS account settings
 
