@@ -61,6 +61,13 @@ account-settings-connection-security-starttls =
     .label = STARTTLS
 account-settings-connection-security-ssl-tls =
     .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Buscar nuevos mensajes cada
+    .accesskey = j
+account-settings-minutes =
+    .value = minutos
 account-settings-automatically-download-new-messages =
     .label = Descargar automáticamente los mensajes nuevos
     .accesskey = m
