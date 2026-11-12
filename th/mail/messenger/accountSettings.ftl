@@ -102,9 +102,33 @@ account-settings-message-storage = ที่เก็บข้อมูลข้
 account-settings-empty-trash-on-exit =
     .label = ล้างข้อมูลในถังขยะเมื่อออก
     .accesskey = ใ
+account-settings-message-store-type =
+    .value = ประเภทการเก็บข้อความ:
+    .accesskey = ป
+account-settings-message-store-mbox =
+    .label = ไฟล์ต่อโฟลเดอร์ (mbox)
+account-settings-message-store-maildir =
+    .label = ไฟล์ต่อข้อความ (maildir)
+account-settings-newsrc-file =
+    .value = ไฟล์ News.rc:
+account-settings-browse-newsrc =
+    .label = เรียกดู…
+    .accesskey = ย
+    .filepickertitle = เลือกไฟล์ News.rc
+account-settings-local-directory =
+    .value = ไดเรกทอรีในเครื่อง:
+account-settings-browse-local-directory =
+    .label = เรียกดู…
+    .accesskey = ร
+    .filepickertitle = เลือกไดเรกทอรีในเครื่อง
+account-settings-default-text-encoding =
+    .value = รหัสอักขระเริ่มต้น:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = การตั้งค่าบัญชี
+account-settings-title =
+    .value = การตั้งค่าบัญชี
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
@@ -112,6 +136,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = บัญชีต่อไปนี้เป็นบัญชีพิเศษ ซึ่งไม่ได้เชื่อมโยงกับข้อมูลประจำตัวใด ๆ
 account-settings-account-name =
     .value = ชื่อบัญชี:
     .accesskey = ช
