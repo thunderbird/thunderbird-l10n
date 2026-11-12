@@ -138,10 +138,35 @@ account-settings-rss-default-account-name = Blog και ροές ειδήσεω�
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = Σύνθετες ρυθμίσεις λογαριασμού
 # Do not translate "IMAP".
 account-settings-imap-server-directory =
     .value = Κατάλογος διακομιστή IMAP:
     .accesskey = γ
+account-settings-imap-show-subscribed-folders =
+    .label = Εμφάνιση μόνο εγγεγραμμένων φακέλων
+    .accesskey = λ
+account-settings-imap-dual-use-folders =
+    .label = Ο διακομιστής υποστηρίζει φακέλους με υποφακέλους και μηνύματα
+    .accesskey = σ
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Αυτές οι προτιμήσεις καθορίζουν τους χώρους ονομάτων στον διακομιστή IMAP σας
+account-settings-imap-personal-namespace =
+    .value = Προσωπικός χώρος ονόματος:
+    .accesskey = ο
+account-settings-imap-public-namespace =
+    .value = Δημόσιος (κοινόχρηστος):
+    .accesskey = μ
+account-settings-imap-other-users-namespace =
+    .value = Άλλοι χρήστες:
+    .accesskey = λ
+account-settings-imap-override-namespaces =
+    .label = Να επιτρέπεται στον διακομιστή η παράκαμψη αυτών των χώρων ονομάτων
+    .accesskey = ρ
+account-settings-pop-inbox-description = Κατά τη λήψη αλληλογραφίας από τον διακομιστή του λογαριασμού, να γίνεται χρήση του εξής φακέλου για την αποθήκευση των νέων μηνυμάτων:
+account-settings-pop-inbox-current-account =
+    .label = Εισερχόμενα για αυτόν τον λογαριασμό
+    .accesskey = ε
 account-settings-pop-inbox-other-account =
     .label = Εισερχόμενα για διαφορετικό λογαριασμό
     .accesskey = δ
