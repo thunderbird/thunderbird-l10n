@@ -134,9 +134,63 @@ oauth-provider-extension-info = Configurationes de OAuth2 fornite per le extensi
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = Typo de servitor:
+account-settings-server-name =
+    .value = Nomine del servitor:
+    .accesskey = s
+account-settings-user-name =
+    .value = Nomine de usator:
+    .accesskey = N
+account-settings-port =
+    .value = Porta:
+    .accesskey = P
+account-settings-default-port =
+    .value = Predefinite:
+account-settings-connection-security =
+    .value = Securitate de connexion:
+    .accesskey = u
+account-settings-connection-security-none =
+    .label = Nulle
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+account-settings-automatically-download-new-messages =
+    .label = Discargar automaticamente altere messages
+    .accesskey = m
+account-settings-leave-messages-for =
+    .label = Non plus de
+    .accesskey = o
+account-settings-days =
+    .value = dies
+account-settings-leave-messages-until-deleted =
+    .label = Usque io dele illos
+    .accesskey = d
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Me demandar ante discargar plus de
+    .accesskey = M
+account-settings-messages =
+    .value = messages
+account-settings-message-storage = Immagazinage de message
+account-settings-newsrc-file =
+    .value = File news.rc:
 
 ## Local Folders and RSS account settings
 
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-account-name =
+    .value = Nomine del conto:
+    .accesskey = N
+account-settings-rss-server-settings = Parametros del servitor
 account-settings-rss-enable-updates =
     .label = Activar actualisationes pro tote le fluxos
     .accesskey = A
