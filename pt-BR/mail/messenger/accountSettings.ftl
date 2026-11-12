@@ -43,6 +43,12 @@ account-settings-connection-security-starttls =
     .label = STARTTLS
 account-settings-connection-security-ssl-tls =
     .label = SSL/TLS
+account-settings-fetch-headers-only =
+    .label = Receber somente cabeçalhos
+    .accesskey = b
+account-settings-leave-messages-on-server =
+    .label = Manter mensagens no servidor
+    .accesskey = M
 account-settings-message-storage = Armazenamento de mensagens
 
 ## Local Folders and RSS account settings
