@@ -10,3 +10,17 @@ delete-account-button =
     .label = Suprimeix
 default-account-button =
     .label = Defineix per defecte
+
+## Incoming server settings
+
+
+## Local Folders and RSS account settings
+
+
+## Feed account wizard
+
+account-settings-rss-wizard-title = Auxiliar de comptes de canals d'informació
+account-settings-rss-default-account-name = Blogs i canals de notícies
+
+## Advanced server settings
+
