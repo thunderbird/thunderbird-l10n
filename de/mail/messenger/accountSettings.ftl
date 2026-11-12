@@ -131,3 +131,24 @@ ews-oauthscopes-label =
 # Shown in Account Settings below the authentication method when OAuth2
 # settings are provided by an extension.
 oauth-provider-extension-info = OAuth2-Einstellungen bereitgestellt von der Erweiterung: <a data-l10n-name="extension">{ $extensionName }</a>
+
+## Incoming server settings
+
+
+## Local Folders and RSS account settings
+
+account-settings-rss-enable-updates =
+    .label = Alle Feeds aktualisieren
+    .accesskey = F
+account-settings-rss-new-feed-defaults = Standardeinstellungen für neue Feeds
+account-settings-rss-manage-subscriptions =
+    .label = Abonnements verwalten…
+    .accesskey = o
+
+## Feed account wizard
+
+account-settings-rss-wizard-title = Feed-Konten-Assistent
+account-settings-rss-default-account-name = Blogs & News-Feeds
+
+## Advanced server settings
+
