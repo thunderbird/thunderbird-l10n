@@ -60,6 +60,19 @@ ews-oauthscopes-label =
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = Palvelintyyppi:
+account-settings-server-name =
+    .value = Palvelin:
+    .accesskey = P
+account-settings-user-name =
+    .value = Käyttäjätunnus:
+    .accesskey = K
+account-settings-port =
+    .value = Portti:
+    .accesskey = o
+account-settings-default-port =
+    .value = Oletus:
 account-settings-connection-security =
     .value = Yhteyden suojaus:
     .accesskey = Y
@@ -89,6 +102,16 @@ account-settings-leave-messages-until-deleted =
 account-settings-move-to-trash =
     .label = Siirrä viesti roskakoriin
     .accesskey = i
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Kysy ennen kuin noudetaan yli
+    .accesskey = K
+account-settings-messages =
+    .value = viestiä
+account-settings-always-authenticate =
+    .label = Vaadi todennusta otettaessa yhteyttä tähän palvelimeen
+    .accesskey = V
 account-settings-message-storage = Viestien säilytys
 account-settings-empty-trash-on-exit =
     .label = Tyhjennä roskakori kun ohjelma lopetetaan
@@ -100,6 +123,12 @@ account-settings-message-store-mbox =
     .label = Tiedosto jokaiselle kansiolle (mbox)
 account-settings-message-store-maildir =
     .label = Tiedosto jokaiselle viestille (maildir)
+account-settings-newsrc-file =
+    .value = News.rc-tiedosto:
+account-settings-browse-newsrc =
+    .label = Selaa…
+    .accesskey = S
+    .filepickertitle = Valitse News.rc-tiedosto
 account-settings-local-directory =
     .value = Paikallinen hakemisto:
 account-settings-browse-local-directory =
@@ -122,6 +151,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
 account-settings-special-account-description = Seuraava tili on erikoistapaus. Siihen ei liity käyttäjätietoja.
+account-settings-rss-server-settings = Palvelimen asetukset
 account-settings-rss-enable-updates =
     .label = Salli päivitykset kaikille syötteille
     .accesskey = S
