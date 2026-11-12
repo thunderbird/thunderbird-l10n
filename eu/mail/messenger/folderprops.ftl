@@ -38,6 +38,8 @@ folder-props-check-for-new-messages =
     .label = Kontu honetarako mezu berriak eskuratzean, egiaztatu beti karpeta hau
     .accesskey = K
 folder-props-rebuild-summary-explanation = Batzutan karpetaren indize-fitxategia (.msf) kaltetu egiten da eta mezuak faltan daudela edo ezabatutako mezuak oraindik erakusten direla eman lezake; karpeta konpontzeak arazo hauek desagerraraz ditzake.
+folder-props-rebuild-summary-confirm-title = Konpondu karpeta
+folder-props-rebuild-summary-confirm-message = Karpeta hau konpontzean, bertako mezuak ezabatu eta zerbitzaritik kopia berriak deskargatuko dira; zerbitzariko mezuak, berriz, bere horretan geratuko dira. Baliteke prozesuak denbora pixka bat hartzea. Jarraitu nahi duzu?
 
 ## Retention tab (see retention.ftl)
 ##

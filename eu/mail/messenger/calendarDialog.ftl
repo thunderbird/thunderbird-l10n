@@ -70,6 +70,8 @@ calendar-dialog-more-categories =
 calendar-dialog-delete-reminder-button =
     .alt = Ezabatu oroigarria
 calendar-dialog-add-reminder-button = Gehitu gogorarazlea
+calendar-dialog-reminder-select =
+    .aria-label = Aukeratu abisu berriaren iraupena
 calendar-dialog-save-reminder-button = Gorde
 calendar-dialog-reminder-event-start = 0 minutu lehenago
 # Variables:
@@ -125,6 +127,8 @@ calendar-dialog-attachments-summary-label =
        *[other] { $count } eranskin
     }
 calendar-event-prompt-delete-title = Ezabatu gertaera
+calendar-event-prompt-delete-header = Kendu behin betiko honako gertaera hau(ek)?
+calendar-single-event-prompt-delete-header = Gertarra hau behin betiko kendu?
 calendar-prompt-this-event =
     .label = Gertaera hau
 calendar-prompt-all-events =

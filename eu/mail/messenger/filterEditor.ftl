@@ -148,6 +148,10 @@ filter-running-message =
     Iragazkiak ezartzen jarraitu nahi duzu?
 filter-stop-button = Gelditu
 filter-continue-button = Jarraitu
+# Shown once at the end of a filter run the user started, when at least one
+# filter or action failed. The individual failures are in the filter log.
+filter-run-failed = Iragazki batzuk ezin izan dira aplikatu. Begiratu iragazkien erregistroa xehetasunak ikusteko.
+filter-run-failed-open-log-button = Ireki iragazki-erregistroa
 
 ## Filter Editor
 
@@ -188,6 +192,11 @@ filter-editor-invalid-search-title = Bilaketa-termino baliogabeak
 #   $attribute (String) - The search attribute name from the invalid rule.
 #   $operator (String) - The search operator from the bad rule.
 filter-editor-invalid-search-rule = Iragazki hau ezin da gorde "{ $attribute } { $operator }" bilaketa-terminoa baliogabea delako uneko testuinguruan.
+filter-editor-missing-value-title = Bilaketa-balioa falta da
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+filter-editor-missing-value-rule = Iragazki hau ezin da gorde; izan ere, ez da baliorik sartu "{ $attribute } { $operator }" bilaketa-terminorako.
 filter-editor-action-order-explanation = Mezu bat iragazki honekin bat datorrenean ekintzak ordena honetan exekutatuko dira:
 filter-editor-action-order-title = Ekintzen benetako ordena
 # Variables:

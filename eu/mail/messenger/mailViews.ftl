@@ -5,4 +5,5 @@
 mail-view-known-people = Ezagutzen ditudan pertsonenak
 mail-view-recent = Azken mezuak
 mail-view-last-five-days = Azken 5 egunetakoak
+mail-view-not-spam = Ez da spam
 mail-view-has-attachments = Eranskinak dituztenak
