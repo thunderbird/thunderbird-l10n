@@ -139,6 +139,12 @@ account-settings-server-type =
 account-settings-server-name =
     .value = Nom du serveur :
     .accesskey = N
+account-settings-connection-security-none =
+    .label = Aucune
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
 account-settings-minutes =
     .value = minutes
 
