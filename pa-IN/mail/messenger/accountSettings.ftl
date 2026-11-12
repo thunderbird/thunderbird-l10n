@@ -47,7 +47,24 @@ account-settings-leave-messages-until-deleted =
 account-settings-move-to-trash =
     .label = ਇਸ ਨੂੰ ਰੱਦੀ ਵਿੱਚ ਭੇਜ ਦਿਓ
     .accesskey = o
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = ਹੋਰ ਡਾਊਨਲੋਡ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਮੈਨੂੰ ਪੁੱਛੋ
+    .accesskey = m
+account-settings-messages =
+    .value = ਸੁਨੇਹਾ
+account-settings-always-authenticate =
+    .label = ਇਸ ਸਰਵਰ ਨਾਲ ਜੁੜਨ ਸਮੇਂ ਹਮੇਸ਼ਾ ਪਰਮਾਣਕਿਤਾ ਲਈ ਬੇਨਤੀ ਕਰੋ
+    .accesskey = w
 account-settings-message-storage = Message Storage
+account-settings-empty-trash-on-exit =
+    .label = ਬੰਦ ਕਰਨ ਉੱਤੇ ਰੱਦੀ ਖਾਲੀ ਕਰੋ
+    .accesskey = x
+account-settings-browse-local-directory =
+    .label = ਝਲਕ...
+    .accesskey = B
+    .filepickertitle = ਲੋਕਲ ਡਾਇਰੈਕਟਰੀ ਚੁਣੋ
 
 ## Local Folders and RSS account settings
 
