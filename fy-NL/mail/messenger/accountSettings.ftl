@@ -136,6 +136,9 @@ oauth-provider-extension-info = OAuth2-ynstellingen levere troch útwreiding: <a
 
 account-settings-server-type =
     .value = Servertype:
+account-settings-server-name =
+    .value = Servernamme:
+    .accesskey = S
 account-settings-user-name =
     .value = Brûkersnamme:
     .accesskey = n
@@ -153,6 +156,9 @@ account-settings-connection-security-starttls =
     .label = STARTTLS
 account-settings-connection-security-ssl-tls =
     .label = SSL/TLS
+account-settings-automatically-download-new-messages =
+    .label = Nije berjochten automatysk downloade
+    .accesskey = m
 account-settings-fetch-headers-only =
     .label = Allinnich berjochtkoppen ophelje
     .accesskey = k
@@ -167,13 +173,49 @@ account-settings-days =
 account-settings-leave-messages-until-deleted =
     .label = Oant ik se fuortsmyt
     .accesskey = i
+account-settings-move-to-trash =
+    .label = It nei it jiskefet ferpleatse
+    .accesskey = j
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = My freegje foar it downloaden fan mear as
+    .accesskey = f
+account-settings-messages =
+    .value = berjochten
+account-settings-always-authenticate =
+    .label = Altyd freegje om autentikaasje by ferbinen mei dizze server
+    .accesskey = z
+account-settings-empty-trash-on-exit =
+    .label = Jiskefet leechmeitsje by ôfsluten
+    .accesskey = f
+account-settings-message-store-type =
+    .value = Type berjochteûnthâld:
+    .accesskey = T
 account-settings-message-store-mbox =
     .label = Ien bestân per map (mbox)
 account-settings-message-store-maildir =
     .label = Ien bestân per berjocht (maildir)
+account-settings-newsrc-file =
+    .value = Newsrc-bestân:
+account-settings-browse-newsrc =
+    .label = Blêdzje…
+    .accesskey = e
+    .filepickertitle = Newsrc-bestân selektearje
+account-settings-local-directory =
+    .value = Lokale map:
+account-settings-browse-local-directory =
+    .label = Blêdzje…
+    .accesskey = B
+    .filepickertitle = Selektearje lokale map
+account-settings-default-text-encoding =
+    .value = Standert tekenkodearing:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Accountynstellingen
+account-settings-title =
+    .value = Accountynstellingen
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
@@ -181,6 +223,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Dit is in spesjaal account. Der binne gjin identiteiten mei ferbûn.
 account-settings-account-name =
     .value = Accountnamme:
     .accesskey = A
