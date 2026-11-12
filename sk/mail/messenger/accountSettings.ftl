@@ -168,11 +168,24 @@ account-settings-message-store-maildir =
     .label = Samostatný súbor pre každú správu (maildir)
 account-settings-newsrc-file =
     .value = Súbor News.rc:
+account-settings-browse-newsrc =
+    .label = Prehľadávať…
+    .accesskey = d
+    .filepickertitle = Vybrať súbor News.rc
+account-settings-local-directory =
+    .value = Lokálny priečinok:
+account-settings-browse-local-directory =
+    .label = Prehľadávať…
+    .accesskey = h
+    .filepickertitle = Výber lokálneho priečinka
 account-settings-default-text-encoding =
     .value = Štandardné kódovanie textu:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Nastavenia účtu
+account-settings-title =
+    .value = Nastavenia účtu
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
@@ -180,6 +193,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Toto je špeciálny účet, s ktorým nie sú asociované žiadne identity.
 account-settings-account-name =
     .value = Názov účtu:
     .accesskey = z
