@@ -5,9 +5,22 @@
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = Bedienersoort:
+account-settings-server-name =
+    .value = Bedienernaam:
+    .accesskey = B
 
 ## Local Folders and RSS account settings
 
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-rss-server-settings = Bedieneropstelling
 account-settings-rss-manage-subscriptions =
     .label = Bestuur intekeninge…
     .accesskey = B
