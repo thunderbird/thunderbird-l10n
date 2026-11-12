@@ -187,3 +187,6 @@ account-settings-pop-inbox-current-account =
 account-settings-pop-inbox-other-account =
     .label = Doručená pošta pre iný účet
     .accesskey = r
+account-settings-pop-include-server =
+    .label = Zahrnúť tento server pri prijímaní novej pošty
+    .accesskey = Z
