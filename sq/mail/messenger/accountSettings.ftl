@@ -39,6 +39,13 @@ ews-oauthscopes-label =
 
 ## Local Folders and RSS account settings
 
+account-settings-rss-enable-updates =
+    .label = Aktivizo përditësime për krejt prurjet
+    .accesskey = A
+account-settings-rss-new-feed-defaults = Rregullime Parazgjedhje për Prurje të Reja
+account-settings-rss-manage-subscriptions =
+    .label = Administroni Regjistrime…
+    .accesskey = A
 
 ## Feed account wizard
 
