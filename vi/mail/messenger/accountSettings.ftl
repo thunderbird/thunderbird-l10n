@@ -139,6 +139,39 @@ account-settings-port =
     .accesskey = P
 account-settings-default-port =
     .value = Mặc định:
+account-settings-automatically-download-new-messages =
+    .label = Tự động tải thư mới
+    .accesskey = m
+account-settings-fetch-headers-only =
+    .label = Chỉ lấy tiêu đề
+    .accesskey = e
+account-settings-leave-messages-on-server =
+    .label = Để lại thư trên máy chủ
+    .accesskey = g
+account-settings-leave-messages-for =
+    .label = Trong nhiều nhất
+    .accesskey = o
+account-settings-days =
+    .value = ngày
+account-settings-leave-messages-until-deleted =
+    .label = Cho đến khi tôi xóa chúng
+    .accesskey = d
+account-settings-move-to-trash =
+    .label = Di chuyển nó vào thư mục này:
+    .accesskey = o
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Hỏi tôi trước khi tải nhiều hơn
+    .accesskey = m
+account-settings-messages =
+    .value = thư
+account-settings-always-authenticate =
+    .label = Luôn yêu cầu xác thực khi kết nối đến máy chủ này
+    .accesskey = w
+account-settings-empty-trash-on-exit =
+    .label = Dọn sạch thùng rác khi thoát
+    .accesskey = x
 
 ## Local Folders and RSS account settings
 
