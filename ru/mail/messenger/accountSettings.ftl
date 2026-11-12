@@ -152,3 +152,4 @@ account-settings-rss-default-account-name = Блоги и ленты новос�
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = Дополнительные параметры учётной записи
