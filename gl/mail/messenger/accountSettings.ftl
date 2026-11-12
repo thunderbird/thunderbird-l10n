@@ -30,6 +30,13 @@ ews-redirecturi-label =
 
 ## Local Folders and RSS account settings
 
+account-settings-rss-enable-updates =
+    .label = Activar a actualización de todas as fontes de noticias
+    .accesskey = E
+account-settings-rss-new-feed-defaults = Configuración predeterminada para novas fontes de noticias
+account-settings-rss-manage-subscriptions =
+    .label = Xestionar subscricións…
+    .accesskey = X
 
 ## Feed account wizard
 
