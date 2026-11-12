@@ -22,3 +22,6 @@ account-settings-advanced-server-title = Gevorderde rekeningopstelling
 account-settings-imap-server-directory =
     .value = IMAP-bedienergids:
     .accesskey = g
+account-settings-imap-show-subscribed-folders =
+    .label = Wys net vouers waarop ingeteken
+    .accesskey = W
