@@ -31,6 +31,20 @@ account-settings-rss-default-account-name = Blogid ja uudistevood
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = Konto täpsemad sätted
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = IMAP-serveri kaust:
+    .accesskey = M
+account-settings-imap-show-subscribed-folders =
+    .label = Näidatakse ainult tellitud kaustu
+    .accesskey = N
+account-settings-imap-dual-use-folders =
+    .label = Server toetab kaustu, mis sisaldavad sõnumeid ja alamkaustu
+    .accesskey = S
+account-settings-imap-maximum-connections =
+    .value = Maksimaalne puhverdatavate serveriühenduste arv
+    .accesskey = M
 # Do not translate "IMAP".
 account-settings-imap-namespace-description = Need eelistused määravad nimeruumi sinu IMAP-serveris
 account-settings-imap-personal-namespace =
