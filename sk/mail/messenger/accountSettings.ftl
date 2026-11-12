@@ -152,3 +152,30 @@ account-settings-rss-default-account-name = Blogy a informačné kanály
 
 ## Advanced server settings
 
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = Priečinok na serveri IMAP:
+    .accesskey = e
+account-settings-imap-show-subscribed-folders =
+    .label = Zobrazovať len prihlásené priečinky
+    .accesskey = b
+account-settings-imap-dual-use-folders =
+    .label = Server podporuje priečinky obsahujúce správy a podpriečinky
+    .accesskey = S
+account-settings-imap-maximum-connections =
+    .value = Maximálny počet spojení servera k vyrovnávacej pamäti
+    .accesskey = M
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Tieto nastavenia definujú priestory názvov na vašom serveri IMAP
+account-settings-imap-personal-namespace =
+    .value = Osobný:
+    .accesskey = n
+account-settings-imap-public-namespace =
+    .value = Verejný (zdieľaný):
+    .accesskey = V
+account-settings-imap-other-users-namespace =
+    .value = Ostatní používatelia:
+    .accesskey = a
+account-settings-imap-override-namespaces =
+    .label = Povoliť serveru použiť vlastné priestory
+    .accesskey = u
