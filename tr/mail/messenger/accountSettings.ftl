@@ -111,6 +111,8 @@ oauth-provider-extension-info = OAuth2 ayarlarını <a data-l10n-name="extension
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = Sunucu türü:
 account-settings-minutes =
     .value = dakikada bir kontrol et
 
@@ -123,6 +125,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-rss-server-settings = Sunucu ayarları
 account-settings-rss-enable-updates =
     .label = Tüm beslemelerde güncellemeleri etkinleştir
     .accesskey = e
