@@ -134,6 +134,8 @@ oauth-provider-extension-info = OAuth2-ynstellingen levere troch útwreiding: <a
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = Servertype:
 account-settings-user-name =
     .value = Brûkersnamme:
     .accesskey = n
@@ -142,6 +144,15 @@ account-settings-port =
     .accesskey = P
 account-settings-default-port =
     .value = Standert:
+account-settings-connection-security =
+    .value = Ferbiningsfeilichheid:
+    .accesskey = b
+account-settings-connection-security-none =
+    .label = Gjin
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
 account-settings-fetch-headers-only =
     .label = Allinnich berjochtkoppen ophelje
     .accesskey = k
@@ -156,6 +167,10 @@ account-settings-days =
 account-settings-leave-messages-until-deleted =
     .label = Oant ik se fuortsmyt
     .accesskey = i
+account-settings-message-store-mbox =
+    .label = Ien bestân per map (mbox)
+account-settings-message-store-maildir =
+    .label = Ien bestân per berjocht (maildir)
 
 ## Local Folders and RSS account settings
 
@@ -169,6 +184,7 @@ account-settings-title-with-name =
 account-settings-account-name =
     .value = Accountnamme:
     .accesskey = A
+account-settings-rss-server-settings = Serverynstellingen
 account-settings-rss-enable-updates =
     .label = Fernijingen foar alle feeds ynskeakelje
     .accesskey = F
