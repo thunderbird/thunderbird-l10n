@@ -134,12 +134,26 @@ oauth-provider-extension-info = OAuth2-გამართვა მოწოდ�
 
 ## Incoming server settings
 
+account-settings-user-name =
+    .value = სახელი:
+    .accesskey = ს
+account-settings-port =
+    .value = პორტი:
+    .accesskey = პ
+account-settings-default-port =
+    .value = ნაგულისხმევი:
+account-settings-connection-security =
+    .value = კავშირის უსაფრთხოება:
+    .accesskey = უ
 account-settings-connection-security-none =
     .label = არა
 account-settings-connection-security-starttls =
     .label = STARTTLS
 account-settings-connection-security-ssl-tls =
     .label = SSL/TLS
+account-settings-automatically-download-new-messages =
+    .label = ახალი წერილების თვითჩამოტვირთვა
+    .accesskey = ა
 account-settings-fetch-headers-only =
     .label = მხოლოდ თავსართების კითხვა
     .accesskey = კ
@@ -154,6 +168,9 @@ account-settings-days =
 account-settings-leave-messages-until-deleted =
     .label = წაშლამდე ან მიღებულებიდან გადმოტანამდე
     .accesskey = გ
+account-settings-move-to-trash =
+    .label = გადატანა მოცემულ საქაღალდეში:
+    .accesskey = ო
 account-settings-message-storage = წერილების საცავი
 
 ## Local Folders and RSS account settings
