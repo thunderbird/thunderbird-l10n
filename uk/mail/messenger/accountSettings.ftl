@@ -35,9 +35,30 @@ account-settings-connection-security-starttls =
     .label = STARTTLS
 account-settings-connection-security-ssl-tls =
     .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Перевіряти наявність нових повідомлень кожні
+    .accesskey = е
+account-settings-minutes =
+    .value = хвилин
+account-settings-automatically-download-new-messages =
+    .label = Автоматично завантажувати нові повідомлення
+    .accesskey = о
+account-settings-fetch-headers-only =
+    .label = Завантажувати лише заголовки повідомлень
+    .accesskey = ж
 account-settings-leave-messages-on-server =
     .label = Залишати копії повідомлень на сервері
     .accesskey = ш
+account-settings-leave-messages-for =
+    .label = Не більше ніж
+    .accesskey = е
+account-settings-days =
+    .value = днів
+account-settings-leave-messages-until-deleted =
+    .label = Доки я їх не зітру
+    .accesskey = к
 account-settings-move-to-trash =
     .label = Перемістити в теку:
     .accesskey = К
@@ -55,15 +76,33 @@ account-settings-message-storage = Сховище повідомлень
 account-settings-empty-trash-on-exit =
     .label = Очищати смітник під час виходу
     .accesskey = ч
+account-settings-message-store-type =
+    .value = Тип зберігання повідомлень:
+    .accesskey = Т
+account-settings-message-store-mbox =
+    .label = Один файл на теку (mbox)
+account-settings-message-store-maildir =
+    .label = Один файл на повідомлення (maildir)
 account-settings-newsrc-file =
     .value = Файл News.rc:
+account-settings-browse-newsrc =
+    .label = Огляд…
+    .accesskey = О
+    .filepickertitle = Обрати файл News.rc
 account-settings-local-directory =
     .value = Локальний каталог:
+account-settings-browse-local-directory =
+    .label = Огляд…
+    .accesskey = О
+    .filepickertitle = Розташування локальних каталогів
 account-settings-default-text-encoding =
     .value = Типове кодування шрифту:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Налаштування облікового запису
+account-settings-title =
+    .value = Налаштування облікового запису
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
@@ -71,6 +110,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Це особливий обліковий запис.  З ним не пов'язано жодних особистих даних.
 account-settings-account-name =
     .value = Назва облікового запису:
     .accesskey = Н
