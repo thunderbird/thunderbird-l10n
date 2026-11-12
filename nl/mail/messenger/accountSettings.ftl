@@ -183,10 +183,41 @@ account-settings-leave-messages-until-deleted =
 account-settings-move-to-trash =
     .label = Het naar deze map verplaatsen:
     .accesskey = m
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Mij vragen voor het downloaden van meer dan
+    .accesskey = d
+account-settings-messages =
+    .value = berichten
+account-settings-always-authenticate =
+    .label = Altijd om authenticatie vragen bij verbinden met deze server
+    .accesskey = a
 account-settings-message-storage = Berichtenopslag
+account-settings-empty-trash-on-exit =
+    .label = Prullenbak leegmaken bij afsluiten
+    .accesskey = f
+account-settings-message-store-type =
+    .value = Type berichtenopslag:
+    .accesskey = T
+account-settings-message-store-mbox =
+    .label = Eén bestand per map (mbox)
+account-settings-message-store-maildir =
+    .label = Eén bestand per bericht (maildir)
+account-settings-local-directory =
+    .value = Lokale map:
+account-settings-browse-local-directory =
+    .label = Bladeren…
+    .accesskey = B
+    .filepickertitle = Lokale map selecteren
+account-settings-default-text-encoding =
+    .value = Standaard tekstcodering:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Accountinstellingen
+account-settings-title =
+    .value = Accountinstellingen
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
@@ -194,6 +225,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Dit is een speciale account. Er zijn geen identiteiten mee verbonden.
 account-settings-account-name =
     .value = Accountnaam:
     .accesskey = A
