@@ -24,3 +24,17 @@ ews-applicationid-label =
 ews-redirecturi-label =
     .value = URI de redirección:
     .accesskey = r
+
+## Incoming server settings
+
+
+## Local Folders and RSS account settings
+
+
+## Feed account wizard
+
+account-settings-rss-wizard-title = Asistente de conta de fontes
+account-settings-rss-default-account-name = Blogs e fontes de novas
+
+## Advanced server settings
+
