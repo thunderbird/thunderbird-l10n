@@ -115,6 +115,9 @@ account-settings-server-type =
     .value = Sunucu türü:
 account-settings-minutes =
     .value = dakikada bir kontrol et
+account-settings-leave-messages-on-server =
+    .label = İletileri sunucuda bırak
+    .accesskey = b
 
 ## Local Folders and RSS account settings
 
