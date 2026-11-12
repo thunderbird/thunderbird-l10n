@@ -75,9 +75,31 @@ oauth-provider-extension-info = OAuth2-indstillinger leveret af udvidelsen: <a d
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = Servertype:
+account-settings-server-name =
+    .value = Servernavn:
+    .accesskey = S
+account-settings-user-name =
+    .value = Brugernavn:
+    .accesskey = B
+account-settings-port =
+    .value = Port:
+    .accesskey = P
+account-settings-default-port =
+    .value = Standard:
+account-settings-message-storage = Meddelelsesopbevaring
 
 ## Local Folders and RSS account settings
 
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-rss-server-settings = Serverindstillinger
 account-settings-rss-enable-updates =
     .label = Aktiver opdatering af alle feeds
     .accesskey = A
