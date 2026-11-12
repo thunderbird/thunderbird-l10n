@@ -13,9 +13,19 @@ default-account-button =
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = Тип сервера:
 
 ## Local Folders and RSS account settings
 
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-rss-server-settings = Параметри сервера
 account-settings-rss-enable-updates =
     .label = Увімкнути оновлення для всіх стрічок новин
     .accesskey = У
