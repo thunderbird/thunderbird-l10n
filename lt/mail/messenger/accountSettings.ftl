@@ -76,9 +76,27 @@ account-settings-message-storage = Laiškų saugojimas
 account-settings-empty-trash-on-exit =
     .label = Baigus darbą su pašto programa, išvalyti šiukšlinę
     .accesskey = B
+account-settings-message-store-type =
+    .value = Laiškų saugojimo būdas
+    .accesskey = b
+account-settings-message-store-mbox =
+    .label = Atskiras failas kiekvienam aplankui („mbox“)
+account-settings-message-store-maildir =
+    .label = Atskiras failas kiekvienam laiškui („Maildir“)
+account-settings-local-directory =
+    .value = Vietinis aplankas
+account-settings-browse-local-directory =
+    .label = Parinkti…
+    .accesskey = r
+    .filepickertitle = Vietinio aplanko parinkimas
+account-settings-default-text-encoding =
+    .value = Numatytoji teksto koduotė:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Paskyros nuostatos
+account-settings-title =
+    .value = Paskyros nuostatos
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
@@ -86,6 +104,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Tai – speciali paskyra. Su ja nesusieti jokie tapatybės (asmeniniai) duomenys.
 account-settings-account-name =
     .value = Paskyros pavadinimas:
     .accesskey = P
