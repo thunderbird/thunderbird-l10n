@@ -134,6 +134,7 @@ oauth-provider-extension-info = OAuth2-inställningar tillhandahållna av tillä
 
 ## Incoming server settings
 
+account-settings-server-document-title = Serverinställningar
 account-settings-server-type =
     .value = Typ av teknik:
 account-settings-server-name =
@@ -156,6 +157,13 @@ account-settings-connection-security-starttls =
     .label = STARTTLS
 account-settings-connection-security-ssl-tls =
     .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Kontrollera var
+    .accesskey = K
+account-settings-minutes =
+    .value = minut om det kommit nya meddelanden
 account-settings-automatically-download-new-messages =
     .label = Hämta alla nya meddelanden automatiskt
     .accesskey = H
