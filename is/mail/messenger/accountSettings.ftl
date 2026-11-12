@@ -94,6 +94,7 @@ oauth-provider-extension-info = OAuth2 stillingar frá forritsaukanum: <a data-l
 
 ## Incoming server settings
 
+account-settings-server-document-title = Stillingar netþjóns
 account-settings-server-type =
     .value = Gerð netþjóns:
 account-settings-server-name =
@@ -107,9 +108,39 @@ account-settings-port =
     .accesskey = G
 account-settings-default-port =
     .value = Sjálfgefið:
+account-settings-connection-security =
+    .value = Öryggi tengingar:
+    .accesskey = Ö
+account-settings-connection-security-none =
+    .label = Ekkert
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Athuga með nýjan póst á
+    .accesskey = u
+account-settings-minutes =
+    .value = mínútna fresti
 account-settings-automatically-download-new-messages =
     .label = Sækja ný skilaboð sjálfvirkt
     .accesskey = m
+account-settings-fetch-headers-only =
+    .label = Ná aðeins í hausa
+    .accesskey = ð
+account-settings-leave-messages-on-server =
+    .label = Skilja póst eftir á netþjóni
+    .accesskey = S
+account-settings-leave-messages-for =
+    .label = Í allt að
+    .accesskey = a
+account-settings-days =
+    .value = daga
+account-settings-leave-messages-until-deleted =
+    .label = Þangað til ég eyði þeim
+    .accesskey = e
 account-settings-move-to-trash =
     .label = Færa það í þessa möppu:
     .accesskey = F
