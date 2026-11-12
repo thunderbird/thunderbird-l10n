@@ -8,6 +8,9 @@
 
 ## Local Folders and RSS account settings
 
+account-settings-rss-manage-subscriptions =
+    .label = Obunalarni boshqarish…
+    .accesskey = b
 
 ## Feed account wizard
 
