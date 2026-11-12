@@ -40,6 +40,42 @@ account-settings-port =
     .accesskey = P
 account-settings-default-port =
     .value = Predeterminado:
+account-settings-connection-security =
+    .value = Seguridade da conexión:
+    .accesskey = u
+account-settings-connection-security-none =
+    .label = Ningunha
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Comprobar se hai novas mensaxes cada
+    .accesskey = h
+account-settings-minutes =
+    .value = minutos
+account-settings-automatically-download-new-messages =
+    .label = Descargar automaticamente as mensaxes novas
+    .accesskey = m
+account-settings-fetch-headers-only =
+    .label = Obter só as cabeceiras
+    .accesskey = e
+account-settings-leave-messages-on-server =
+    .label = Deixar as mensaxes no servidor
+    .accesskey = v
+account-settings-leave-messages-for =
+    .label = Como máximo durante
+    .accesskey = o
+account-settings-days =
+    .value = días
+account-settings-leave-messages-until-deleted =
+    .label = Ata que eu as elimine
+    .accesskey = t
+account-settings-move-to-trash =
+    .label = Movela para este cartafol:
+    .accesskey = o
 # The label is followed by a numerical input and the message
 # account-settings-messages.
 account-settings-ask-before-download =
