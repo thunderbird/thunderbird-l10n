@@ -54,6 +54,7 @@ account-settings-messages =
 account-settings-always-authenticate =
     .label = Versoek altyd magtiging wanneer aan hierdie bediener koppel
     .accesskey = e
+account-settings-message-storage = Boodskapbewaring
 account-settings-empty-trash-on-exit =
     .label = Maak snippermandjie leeg tydens afsluiting
     .accesskey = a
