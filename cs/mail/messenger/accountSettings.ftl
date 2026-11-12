@@ -134,9 +134,22 @@ oauth-provider-extension-info = Nastavení OAuth2 poskytnuto rozšířením: <a 
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = Typ serveru:
 
 ## Local Folders and RSS account settings
 
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-account-name =
+    .value = Název účtu:
+    .accesskey = N
+account-settings-rss-server-settings = Nastavení serveru
 account-settings-rss-enable-updates =
     .label = Povolit aktualizace pro všechny kanály
     .accesskey = P
