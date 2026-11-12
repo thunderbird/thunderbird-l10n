@@ -152,9 +152,30 @@ account-settings-rss-default-account-name = Blogen eta albisteen jarioak
 
 ## Advanced server settings
 
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = IMAP zerbitzariaren direktorioa:
+    .accesskey = d
 account-settings-imap-show-subscribed-folders =
     .label = Erakutsi harpidetutako karpetak bakarrik
     .accesskey = r
 account-settings-imap-dual-use-folders =
     .label = Zerbitzariak azpikarpetak eta mezuak dituzten karpetak onartzen ditu
     .accesskey = k
+account-settings-imap-maximum-connections =
+    .value = Cachean gordeko diren zerbitzari-konexio kopuru maximoa
+    .accesskey = m
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Hobespen hauek zure IMAP zerbitzariko izen-eremuak zehazten dituzte
+account-settings-imap-personal-namespace =
+    .value = Izen-eremu pertsonala:
+    .accesskey = p
+account-settings-imap-public-namespace =
+    .value = Publikoa (partekatua):
+    .accesskey = u
+account-settings-imap-other-users-namespace =
+    .value = Beste erabiltzaileak:
+    .accesskey = B
+account-settings-imap-override-namespaces =
+    .label = Onartu zerbitzariak izen-eremu hauek gainidaztea
+    .accesskey = a
