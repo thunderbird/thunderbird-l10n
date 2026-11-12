@@ -10,3 +10,17 @@ delete-account-button =
     .label = Eliminar
 default-account-button =
     .label = Establecer como predeterminado
+
+## Incoming server settings
+
+
+## Local Folders and RSS account settings
+
+
+## Feed account wizard
+
+account-settings-rss-wizard-title = Asistente de cuentas de canal
+account-settings-rss-default-account-name = Blogs & canales de noticias
+
+## Advanced server settings
+
