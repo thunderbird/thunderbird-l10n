@@ -152,3 +152,31 @@ account-settings-rss-default-account-name = Blogok és hírforrások
 
 ## Advanced server settings
 
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = IMAP-kiszolgáló könyvtár:
+    .accesskey = k
+account-settings-imap-show-subscribed-folders =
+    .label = Csak a feliratkozott mappák megjelenítése
+    .accesskey = f
+account-settings-imap-dual-use-folders =
+    .label = A kiszolgáló támogat olyan mappákat, amelyek további almappákat és leveleket tartalmaznak
+    .accesskey = t
+account-settings-imap-maximum-connections =
+    .value = A gyorsítótárazandó kiszolgáló-kapcsolatok maximális száma
+    .accesskey = o
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Ezek a beállítások meghatározzák a névtartományokat az IMAP-kiszolgálón
+account-settings-imap-personal-namespace =
+    .value = Személyes névtartomány:
+    .accesskey = S
+account-settings-imap-public-namespace =
+    .value = Nyilvános (megosztott):
+    .accesskey = N
+account-settings-imap-other-users-namespace =
+    .value = Más felhasználók:
+    .accesskey = M
+account-settings-imap-override-namespaces =
+    .label = A kiszolgáló felülírhatja ezeket a névtartományokat
+    .accesskey = A
+account-settings-pop-inbox-description = A fiók kiszolgálójáról való levélletöltéskor a következő mappa használata új levelek tárolására:
