@@ -134,8 +134,28 @@ oauth-provider-extension-info = OAuth2-ynstellingen levere troch útwreiding: <a
 
 ## Incoming server settings
 
+account-settings-user-name =
+    .value = Brûkersnamme:
+    .accesskey = n
+account-settings-port =
+    .value = Poarte:
+    .accesskey = P
 account-settings-default-port =
     .value = Standert:
+account-settings-fetch-headers-only =
+    .label = Allinnich berjochtkoppen ophelje
+    .accesskey = k
+account-settings-leave-messages-on-server =
+    .label = Berjochten op de server stean litte
+    .accesskey = h
+account-settings-leave-messages-for =
+    .label = Foar maksimaal
+    .accesskey = k
+account-settings-days =
+    .value = dagen
+account-settings-leave-messages-until-deleted =
+    .label = Oant ik se fuortsmyt
+    .accesskey = i
 
 ## Local Folders and RSS account settings
 
@@ -146,6 +166,9 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-account-name =
+    .value = Accountnamme:
+    .accesskey = A
 account-settings-rss-enable-updates =
     .label = Fernijingen foar alle feeds ynskeakelje
     .accesskey = F
