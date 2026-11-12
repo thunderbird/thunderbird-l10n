@@ -20,9 +20,13 @@ account-settings-port =
     .accesskey = P
 account-settings-default-port =
     .value = Ծրագրային.
+account-settings-message-storage = ការ​ផ្ទុក​សារ
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Փոստարկղի կարգավորումներ
+account-settings-title =
+    .value = Փոստարկղի կարգավորումներ
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
@@ -30,6 +34,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = ខាង​ក្រោម​នេះ​ជា​គណនី​ពិសេស។ គ្មាន​អត្តសញ្ញាណ​​ភ្ជាប់​ជា​មួយ។
 account-settings-account-name =
     .value = Փոստարկղի անունը.
     .accesskey = N
