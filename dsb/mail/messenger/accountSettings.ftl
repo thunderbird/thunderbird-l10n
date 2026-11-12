@@ -134,9 +134,86 @@ oauth-provider-extension-info = Nastajenja OAuth2, kótarež rozšyrjenje k disp
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = Serwerowy typ:
+account-settings-server-name =
+    .value = Serwerowe mě:
+    .accesskey = S
+account-settings-connection-security =
+    .value = Zwiskowa wěstota:
+    .accesskey = Z
+account-settings-connection-security-none =
+    .label = Žedna
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+account-settings-automatically-download-new-messages =
+    .label = Nowe powěsći awtomatiski ześěgnuś
+    .accesskey = N
+account-settings-fetch-headers-only =
+    .label = Jano głowowe smužki ześěgnuś
+    .accesskey = m
+account-settings-leave-messages-on-server =
+    .label = Powěsći na serwerje wóstajiś
+    .accesskey = P
+account-settings-leave-messages-for =
+    .label = W nejwušem paźe za
+    .accesskey = u
+account-settings-days =
+    .value = dnjow
+account-settings-leave-messages-until-deleted =
+    .label = Až se lašuju
+    .accesskey = l
+account-settings-move-to-trash =
+    .label = Do toś togo zarědnika pśesunuś:
+    .accesskey = D
+account-settings-always-authenticate =
+    .label = Pśi zwězowanju z toś tym serwerom pśecej awtentificěrowanje pominaś
+    .accesskey = z
+account-settings-message-storage = Składowanje powěsćow
+account-settings-empty-trash-on-exit =
+    .label = Papjernik pśi skóńcenju wuprozniś
+    .accesskey = s
+account-settings-message-store-type =
+    .value = Składowański typ powěsći:
+    .accesskey = t
+account-settings-message-store-mbox =
+    .label = Dataja na zarědnik (mbox)
+account-settings-message-store-maildir =
+    .label = Dataja na powěsć (maildir)
+account-settings-newsrc-file =
+    .value = Dataja News.rc:
+account-settings-browse-newsrc =
+    .label = Pśepytaś…
+    .accesskey = e
+    .filepickertitle = Dataju News.rc wubraś
+account-settings-local-directory =
+    .value = Lokalny zapis:
+account-settings-browse-local-directory =
+    .label = Pśepytaś…
+    .accesskey = P
+    .filepickertitle = Lokalny zapis wubraś
+account-settings-default-text-encoding =
+    .value = Standardne tekstowe koděrowanje:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Kontowe nastajenja
+account-settings-title =
+    .value = Kontowe nastajenja
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = To jo wósebne konto. Z nim žedne identity njejsu zwězane.
+account-settings-account-name =
+    .value = Kontowe mě:
+    .accesskey = K
+account-settings-rss-server-settings = Serwerowe nastajenja
 account-settings-rss-enable-updates =
     .label = Aktualizacije za wše kanale zmóžniś
     .accesskey = A
