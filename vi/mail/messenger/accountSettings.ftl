@@ -134,6 +134,14 @@ oauth-provider-extension-info = Cài đặt OAuth2 được cung cấp bởi ti�
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = Kiểu máy chủ:
+account-settings-server-name =
+    .value = Tên máy chủ:
+    .accesskey = S
+account-settings-user-name =
+    .value = Tên đăng nhập:
+    .accesskey = N
 account-settings-port =
     .value = Cổng:
     .accesskey = P
@@ -169,12 +177,37 @@ account-settings-messages =
 account-settings-always-authenticate =
     .label = Luôn yêu cầu xác thực khi kết nối đến máy chủ này
     .accesskey = w
+account-settings-message-storage = Lưu trữ thư
 account-settings-empty-trash-on-exit =
     .label = Dọn sạch thùng rác khi thoát
     .accesskey = x
+account-settings-message-store-type =
+    .value = Loại lưu trữ thư:
+    .accesskey = T
+account-settings-message-store-mbox =
+    .label = Tập tin trên mỗi thư mục (mbox)
+account-settings-message-store-maildir =
+    .label = Tập tin trên mỗi thư (maildir)
+account-settings-newsrc-file =
+    .value = Tập tin News.rc:
+account-settings-browse-newsrc =
+    .label = Duyệt…
+    .accesskey = e
+    .filepickertitle = Chọn tập tin News.rc
+account-settings-local-directory =
+    .value = Thư mục cục bộ:
+account-settings-browse-local-directory =
+    .label = Duyệt…
+    .accesskey = B
+    .filepickertitle = Chọn thư mục cục bộ
+account-settings-default-text-encoding =
+    .value = Bảng mã văn bản mặc định:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Cài đặt tài khoản
+account-settings-title =
+    .value = Cài đặt tài khoản
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
@@ -182,6 +215,11 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Sau đây là một tài khoản đặc biệt.  Không có danh tính liên quan đến nó.
+account-settings-account-name =
+    .value = Tên tài khoản:
+    .accesskey = n
+account-settings-rss-server-settings = Cài đặt máy chủ
 account-settings-rss-enable-updates =
     .label = Cho phép cập nhật cho tất cả nguồn cấp dữ liệu
     .accesskey = E
