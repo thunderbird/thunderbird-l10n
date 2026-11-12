@@ -57,3 +57,17 @@ ews-endpointhost-label =
 ews-oauthscopes-label =
     .value = OAuth-käyttöoikeudet:
     .accesskey = ä
+
+## Incoming server settings
+
+
+## Local Folders and RSS account settings
+
+
+## Feed account wizard
+
+account-settings-rss-wizard-title = Ohjattu syötetilin luonti
+account-settings-rss-default-account-name = Uutiset ja blogit
+
+## Advanced server settings
+
