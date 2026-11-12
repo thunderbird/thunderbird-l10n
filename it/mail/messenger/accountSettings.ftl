@@ -180,6 +180,7 @@ account-settings-imap-other-users-namespace =
 account-settings-imap-override-namespaces =
     .label = Permetti al server di sovrascrivere questi domini
     .accesskey = A
+account-settings-pop-inbox-description = Quando si scarica la posta dal server di questo account, utilizzare la seguente cartella per memorizzare i nuovi messaggi:
 account-settings-pop-inbox-current-account =
     .label = Posta in arrivo per questo account
     .accesskey = I
