@@ -180,6 +180,7 @@ account-settings-imap-other-users-namespace =
 account-settings-imap-override-namespaces =
     .label = Разрешить серверу перекрывать эти пространства имён
     .accesskey = з
+account-settings-pop-inbox-description = При скачивании почты с сервера этой учётной записи, помещать новые сообщения в следующую папку:
 account-settings-pop-inbox-current-account =
     .label = «Входящие» для этой учётной записи
     .accesskey = д
