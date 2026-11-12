@@ -58,6 +58,33 @@ account-settings-rss-default-account-name = Блогове и новинарск
 ## Advanced server settings
 
 account-settings-advanced-server-title = Разширени настройки
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = Папка на сървър за IMAP:
+    .accesskey = с
+account-settings-imap-show-subscribed-folders =
+    .label = Показване само на абонираните папки
+    .accesskey = П
+account-settings-imap-dual-use-folders =
+    .label = Сървъра поддържа папки, които съдържат подпапки и писма
+    .accesskey = С
+account-settings-imap-maximum-connections =
+    .value = Максимален брой кеширани връзки
+    .accesskey = М
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Тези настройки определят пространството от имена на вашия IMAP сървър
+account-settings-imap-personal-namespace =
+    .value = Лично именно пространство:
+    .accesskey = Л
+account-settings-imap-public-namespace =
+    .value = Обществено (споделено):
+    .accesskey = щ
+account-settings-imap-other-users-namespace =
+    .value = Други потребители:
+    .accesskey = Д
+account-settings-imap-override-namespaces =
+    .label = Сървърът може да променя тези именни пространства
+    .accesskey = С
 account-settings-pop-inbox-description = При изтегляне на поща от този сървър да се използва следната папка за съхранение на нови писма:
 account-settings-pop-inbox-current-account =
     .label = Входяща кутия на този профил
