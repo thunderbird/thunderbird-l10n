@@ -5,9 +5,34 @@
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = Vrsta servera:
+account-settings-server-name =
+    .value = Naziv servera:
+    .accesskey = s
+account-settings-user-name =
+    .value = Korisničko ime:
+    .accesskey = n
+account-settings-port =
+    .value = Port:
+    .accesskey = P
+account-settings-default-port =
+    .value = Izvorno:
+account-settings-message-storage = Spremište poruka
 
 ## Local Folders and RSS account settings
 
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-account-name =
+    .value = Naziv računa:
+    .accesskey = N
+account-settings-rss-server-settings = Postavke servera
 account-settings-rss-enable-updates =
     .label = Omogućite ažuriranja za sve kanale
     .accesskey = E
