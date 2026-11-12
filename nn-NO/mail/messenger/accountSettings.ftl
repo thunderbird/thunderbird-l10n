@@ -75,9 +75,62 @@ oauth-provider-extension-info = OAuth2-innstillingar leverte av utvidinga: <a da
 
 ## Incoming server settings
 
+account-settings-port =
+    .value = Port:
+    .accesskey = P
+account-settings-default-port =
+    .value = Standard:
+account-settings-connection-security =
+    .value = Tilkoplingssikkerheit:
+    .accesskey = T
+account-settings-connection-security-none =
+    .label = Ingen
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Sjå etter nye meldingar kvart
+    .accesskey = r
+account-settings-minutes =
+    .value = minutt
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Spør meg før nedlasting av meir enn
+    .accesskey = S
+account-settings-messages =
+    .value = meldingar
+account-settings-always-authenticate =
+    .label = Alltid spør etter autentisering ved tilkopling til denne serveren
+    .accesskey = A
+account-settings-message-storage = Meldingslagring
+account-settings-empty-trash-on-exit =
+    .label = Tøm søppelkassa ved avslutting
+    .accesskey = ø
+account-settings-message-store-type =
+    .value = Meldingslagertype:
+    .accesskey = t
+account-settings-message-store-mbox =
+    .label = Fil per mappe (mbox)
+account-settings-message-store-maildir =
+    .label = Ei fil per melding (maildir)
+account-settings-local-directory =
+    .value = Lokal mappe:
+account-settings-browse-local-directory =
+    .label = Bla gjennom …
+    .accesskey = B
+    .filepickertitle = Vel lokal mappe:
+account-settings-default-text-encoding =
+    .value = Standard tekstkoding:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Kontoinnstillingar
+account-settings-title =
+    .value = Kontoinnstillingar
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
@@ -85,6 +138,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Dette er ein spesiell konto. Ingen identitetar er knytte til han.
 account-settings-account-name =
     .value = Kontonamn:
     .accesskey = K
