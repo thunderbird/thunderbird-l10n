@@ -131,3 +131,17 @@ ews-oauthscopes-label =
 # Shown in Account Settings below the authentication method when OAuth2
 # settings are provided by an extension.
 oauth-provider-extension-info = Cài đặt OAuth2 được cung cấp bởi tiện ích mở rộng: <a data-l10n-name="extension">{ $extensionName }</a>
+
+## Incoming server settings
+
+
+## Local Folders and RSS account settings
+
+
+## Feed account wizard
+
+account-settings-rss-wizard-title = Trình thiết lập nguồn cấp dữ liệu
+account-settings-rss-default-account-name = Blog & nguồn cấp tin tức
+
+## Advanced server settings
+
