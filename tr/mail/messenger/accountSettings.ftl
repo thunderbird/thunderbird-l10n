@@ -111,6 +111,7 @@ oauth-provider-extension-info = OAuth2 ayarlarını <a data-l10n-name="extension
 
 ## Incoming server settings
 
+account-settings-server-document-title = Sunucu ayarları
 account-settings-server-type =
     .value = Sunucu türü:
 account-settings-server-name =
@@ -124,12 +125,20 @@ account-settings-port =
     .accesskey = P
 account-settings-default-port =
     .value = Varsayılan:
+account-settings-connection-security =
+    .value = Bağlantı güvenliği:
+    .accesskey = ü
 account-settings-connection-security-none =
     .label = Hiçbiri
 account-settings-connection-security-starttls =
     .label = STARTTLS
 account-settings-connection-security-ssl-tls =
     .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Yeni iletileri her
+    .accesskey = h
 account-settings-minutes =
     .value = dakikada bir kontrol et
 account-settings-automatically-download-new-messages =
@@ -175,13 +184,24 @@ account-settings-message-store-maildir =
     .label = Her ileti için ayrı dosya (maildir)
 account-settings-newsrc-file =
     .value = News.rc dosyası:
+account-settings-browse-newsrc =
+    .label = Göz at…
+    .accesskey = t
+    .filepickertitle = News.rc dosyasını seçin
 account-settings-local-directory =
     .value = Yerel dizin:
+account-settings-browse-local-directory =
+    .label = Göz at…
+    .accesskey = a
+    .filepickertitle = Yerel klasör seçin
 account-settings-default-text-encoding =
     .value = Varsayılan metin kodlaması:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Hesap Ayarları
+account-settings-title =
+    .value = Hesap Ayarları
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
