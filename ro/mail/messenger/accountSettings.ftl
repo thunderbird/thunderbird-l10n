@@ -75,6 +75,8 @@ oauth-provider-extension-info = Setări OAuth2 oferite de extensie: <a data-l10n
 
 ## Incoming server settings
 
+account-settings-default-port =
+    .value = Implicit:
 account-settings-connection-security =
     .value = Securitatea conexiunii:
     .accesskey = u
@@ -84,6 +86,11 @@ account-settings-connection-security-starttls =
     .label = STARTTLS
 account-settings-connection-security-ssl-tls =
     .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Caută mesaje noi la fiecare
+    .accesskey = u
 account-settings-automatically-download-new-messages =
     .label = Descarcă automat mesajele noi
     .accesskey = D
@@ -98,14 +105,36 @@ account-settings-leave-messages-until-deleted =
 account-settings-move-to-trash =
     .label = Mută-l în coșul de gunoi
     .accesskey = M
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Întreabă-mă înainte de a descărca mai mult de
+    .accesskey = m
 account-settings-messages =
     .value = mesaje
 account-settings-always-authenticate =
     .label = Solicită întotdeauna autentificare la conectarea la acest server
     .accesskey = a
+account-settings-empty-trash-on-exit =
+    .label = Golește coșul de gunoi la ieșire
+    .accesskey = G
+account-settings-message-store-type =
+    .value = Tipul de stocare al mesajelor:
+    .accesskey = T
+account-settings-message-store-mbox =
+    .label = Fișier per dosar (mbox)
+account-settings-message-store-maildir =
+    .label = Fișiere per mesaj (maildir)
+account-settings-local-directory =
+    .value = Director local:
+account-settings-default-text-encoding =
+    .value = Codarea implicită pentru text:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Setări pentru cont
+account-settings-title =
+    .value = Setări pentru cont
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
