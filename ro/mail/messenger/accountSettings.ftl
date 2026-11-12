@@ -127,6 +127,10 @@ account-settings-message-store-maildir =
     .label = Fișiere per mesaj (maildir)
 account-settings-local-directory =
     .value = Director local:
+account-settings-browse-local-directory =
+    .label = Răsfoiește…
+    .accesskey = f
+    .filepickertitle = Selectează directorul local
 account-settings-default-text-encoding =
     .value = Codarea implicită pentru text:
 
