@@ -140,6 +140,9 @@ oauth-provider-extension-info = 拡張機能より提供された OAuth2 設定:
 
 ## Local Folders and RSS account settings
 
+account-settings-rss-enable-updates =
+    .label = すべてのフィードの更新を有効にする
+    .accesskey = E
 account-settings-rss-new-feed-defaults = 新着フィードのデフォルト設定
 account-settings-rss-manage-subscriptions =
     .label = フィード購読の管理...
@@ -147,6 +150,7 @@ account-settings-rss-manage-subscriptions =
 
 ## Feed account wizard
 
+account-settings-rss-wizard-title = フィードアカウントアシスタント
 account-settings-rss-default-account-name = ブログとニュース
 
 ## Advanced server settings
