@@ -180,6 +180,7 @@ account-settings-imap-other-users-namespace =
 account-settings-imap-override-namespaces =
     .label = Server erlauben, diese Namensräume zu übergehen
     .accesskey = e
+account-settings-pop-inbox-description = Neue heruntergeladene Nachrichten für dieses Konto in folgendem Ordner speichern:
 account-settings-pop-inbox-current-account =
     .label = Posteingang für dieses Konto
     .accesskey = d
