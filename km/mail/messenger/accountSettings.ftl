@@ -21,6 +21,19 @@ account-settings-port =
 account-settings-default-port =
     .value = Ծրագրային.
 account-settings-message-storage = ការ​ផ្ទុក​សារ
+account-settings-message-store-type =
+    .value = ប្រភេទឧបករណ៍​ផ្ទុក​សារ៖
+    .accesskey = ឧ
+account-settings-message-store-mbox =
+    .label = ឯកសារ​ក្នុង​មួយ​ថត (mbox)
+account-settings-message-store-maildir =
+    .label = ឯកសារ​ក្នុង​សារ​មួយ (maildir)
+account-settings-browse-local-directory =
+    .label = Browse…
+    .accesskey = B
+    .filepickertitle = Ընտրեք լոկալ թղթապանակը
+account-settings-default-text-encoding =
+    .value = ការ​អ៊ិនកូដ​អត្ថបទ​លំនាំដើម៖
 
 ## Local Folders and RSS account settings
 
