@@ -24,3 +24,30 @@ account-settings-rss-default-account-name = Blogaichean ⁊ inbhirean naidheachd
 ## Advanced server settings
 
 account-settings-advanced-server-title = Roghainnean adhartach a' chunntais
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = Pasgan an fhrithealaiche IMAP:
+    .accesskey = P
+account-settings-imap-show-subscribed-folders =
+    .label = Na seall ach pasgain le fo-sgrìobhadh
+    .accesskey = N
+account-settings-imap-dual-use-folders =
+    .label = Tha am frithealaiche a' cur taic ri pasgain anns a bheil fo-phasgain is teachdaireachdan
+    .accesskey = f
+account-settings-imap-maximum-connections =
+    .value = Àireamh as motha de cheanglaichean frithealaiche ri thasgadh
+    .accesskey = m
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Tha na roghainnean seo a' sònrachadh nan namespaces air an fhrithealaiche IMAP agad
+account-settings-imap-personal-namespace =
+    .value = Ainm-spàs pearsanta:
+    .accesskey = p
+account-settings-imap-public-namespace =
+    .value = Poblach (air a cho-roinneadh):
+    .accesskey = P
+account-settings-imap-other-users-namespace =
+    .value = Cleachdaichean eile:
+    .accesskey = C
+account-settings-imap-override-namespaces =
+    .label = Leig le frithealaichean na namespaces seo fhàgail gu taobh
+    .accesskey = a
