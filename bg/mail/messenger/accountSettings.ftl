@@ -36,3 +36,17 @@ ews-endpointhost-label =
 ews-oauthscopes-label =
     .value = Обхвати на OAuth:
     .accesskey = О
+
+## Incoming server settings
+
+
+## Local Folders and RSS account settings
+
+
+## Feed account wizard
+
+account-settings-rss-wizard-title = Помощник за абониране към емисия
+account-settings-rss-default-account-name = Блогове и новинарски емисии
+
+## Advanced server settings
+
