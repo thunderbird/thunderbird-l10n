@@ -152,6 +152,7 @@ account-settings-rss-default-account-name = Blogues e fontes de notícias
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = Definições avançadas da conta
 # Do not translate "IMAP".
 account-settings-imap-server-directory =
     .value = Diretório do servidor IMAP:
