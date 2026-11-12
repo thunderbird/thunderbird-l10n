@@ -137,6 +137,13 @@ oauth-provider-extension-info = OAuth2-გამართვა მოწოდ�
 
 ## Local Folders and RSS account settings
 
+account-settings-rss-enable-updates =
+    .label = განახლებების ჩართვა, ყველა არხისთვის
+    .accesskey = ჩ
+account-settings-rss-new-feed-defaults = ნაგულისხმევი პარამეტრები, სიახლეების არხებისთვის
+account-settings-rss-manage-subscriptions =
+    .label = ხელმოწერათა მართვა…
+    .accesskey = წ
 
 ## Feed account wizard
 
