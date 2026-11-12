@@ -159,9 +159,17 @@ account-settings-connection-security-ssl-tls =
 account-settings-automatically-download-new-messages =
     .label = Automatically download new messages
     .accesskey = m
+account-settings-fetch-headers-only =
+    .label = Fetch headers only
+    .accesskey = f
 account-settings-leave-messages-on-server =
     .label = Leave messages on server
     .accesskey = g
+account-settings-leave-messages-for =
+    .label = For at most
+    .accesskey = o
+account-settings-days =
+    .value = days
 account-settings-leave-messages-until-deleted =
     .label = Until I delete them
     .accesskey = d
@@ -182,11 +190,33 @@ account-settings-message-storage = Message Storage
 account-settings-empty-trash-on-exit =
     .label = Empty Deleted folder on Exit
     .accesskey = x
+account-settings-message-store-type =
+    .value = Message Store Type:
+    .accesskey = T
+account-settings-message-store-mbox =
+    .label = File per folder (mbox)
+account-settings-message-store-maildir =
+    .label = File per message (maildir)
 account-settings-newsrc-file =
     .value = News.rc File:
+account-settings-browse-newsrc =
+    .label = Browse…
+    .accesskey = e
+    .filepickertitle = Select News.rc File
+account-settings-local-directory =
+    .value = Local Directory:
+account-settings-browse-local-directory =
+    .label = Browse…
+    .accesskey = B
+    .filepickertitle = Select Local Directory
+account-settings-default-text-encoding =
+    .value = Default Text Encoding:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Account Settings
+account-settings-title =
+    .value = Account Settings
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
@@ -194,6 +224,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = The following is a special account.  There are no identities associated with it.
 account-settings-account-name =
     .value = Account Name:
     .accesskey = N
