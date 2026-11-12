@@ -136,6 +136,15 @@ oauth-provider-extension-info = Настройки OAuth2, предоставл�
 
 account-settings-server-type =
     .value = Тип сервера:
+account-settings-connection-security =
+    .value = Защита соединения:
+    .accesskey = щ
+account-settings-connection-security-none =
+    .label = Нет
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
 
 ## Local Folders and RSS account settings
 
