@@ -75,9 +75,83 @@ oauth-provider-extension-info = Pengaturan OAuth2 disediakan oleh ekstensi: <a d
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = Jenis Server:
+account-settings-server-name =
+    .value = Nama Server:
+    .accesskey = S
+account-settings-user-name =
+    .value = Nama Pengguna:
+    .accesskey = N
+account-settings-port =
+    .value = Port:
+    .accesskey = P
+account-settings-default-port =
+    .value = Default:
+account-settings-connection-security =
+    .value = Keamanan sambungan:
+    .accesskey = u
+account-settings-connection-security-none =
+    .label = Tidak ada
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Periksa pesan baru setiap
+    .accesskey = P
+account-settings-minutes =
+    .value = menit
+account-settings-automatically-download-new-messages =
+    .label = Otomatis mengunduh pesan baru
+    .accesskey = m
+account-settings-fetch-headers-only =
+    .label = Ambil header saja
+    .accesskey = h
+account-settings-leave-messages-on-server =
+    .label = Tinggalkan pesan di server
+    .accesskey = g
+account-settings-leave-messages-for =
+    .label = Hingga
+    .accesskey = H
+account-settings-days =
+    .value = hari
+account-settings-leave-messages-until-deleted =
+    .label = Hingga saya hapus
+    .accesskey = H
+account-settings-move-to-trash =
+    .label = Pindahkan ke folder:
+    .accesskey = o
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Tanyakan sebelum mengunduh pesan lebih dari
+    .accesskey = m
+account-settings-messages =
+    .value = pesan
+account-settings-always-authenticate =
+    .label = Selalu kirimkan permintaan otentikasi ketika tersambung dengan server ini
+    .accesskey = S
+account-settings-message-storage = Penyimpanan Pesan
+account-settings-empty-trash-on-exit =
+    .label = Kosongkan Tong Sampah saat Keluar
+    .accesskey = K
 
 ## Local Folders and RSS account settings
 
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-account-name =
+    .value = Nama Akun:
+    .accesskey = N
+account-settings-rss-server-settings = Pengaturan Server
 account-settings-rss-enable-updates =
     .label = Aktifkan pembaruan untuk semua umpan
     .accesskey = E
