@@ -180,6 +180,7 @@ account-settings-imap-other-users-namespace =
 account-settings-imap-override-namespaces =
     .label = Permitir que el servidor reemplace estos espacios de nombres
     .accesskey = a
+account-settings-pop-inbox-description = Al descargar el correo pop3 del servidor de esta cuenta, usar la siguiente carpeta para guardar los nuevos mensajes
 account-settings-pop-inbox-current-account =
     .label = Bandeja de entrada para esta cuenta
     .accesskey = s
