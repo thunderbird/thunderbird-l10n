@@ -18,9 +18,58 @@ account-settings-port =
     .accesskey = P
 account-settings-default-port =
     .value = Bunaiteach:
+account-settings-minutes =
+    .value = mionaid(ean)
+account-settings-automatically-download-new-messages =
+    .label = Luchdaich a-nuas teachdaireachdan ùra a ghnàth
+    .accesskey = L
+account-settings-fetch-headers-only =
+    .label = Faigh na bannan-cinn a-mhàin
+    .accesskey = F
+account-settings-leave-messages-on-server =
+    .label = Fàg na teachdaireachdan air an fhrithealaiche
+    .accesskey = g
+account-settings-leave-messages-for =
+    .label = Air a' char as motha fad
+    .accesskey = o
+account-settings-days =
+    .value = là(ithean)
+account-settings-leave-messages-until-deleted =
+    .label = Gus an sguab mi às iad
+    .accesskey = d
+account-settings-move-to-trash =
+    .label = Gluais e dhan phasgan seo:
+    .accesskey = o
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Faighnich dhìom mus luchdaich mi a-nuas barrachd air
+    .accesskey = m
+account-settings-messages =
+    .value = teachdaireachdan
+account-settings-always-authenticate =
+    .label = Iarr dearbhachadh gach turas a thèid ceangal a dhèanamh ris an fhrithealaiche seo
+    .accesskey = I
+account-settings-message-storage = Stòras theachdaireachdan
+account-settings-empty-trash-on-exit =
+    .label = Falamhaich an sgudal nuair a dhùineas mi am prògram
+    .accesskey = F
+account-settings-newsrc-file =
+    .value = Faidhle news.rc:
+account-settings-browse-newsrc =
+    .label = Brabhsaich…
+    .accesskey = B
+    .filepickertitle = Tagh faidhle news.rc
+account-settings-browse-local-directory =
+    .label = Brabhsaich…
+    .accesskey = B
+    .filepickertitle = Tagh am pasgan ionadail
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Roghainnean a' chunntais
+account-settings-title =
+    .value = Roghainnean a' chunntais
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
@@ -28,6 +77,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = 'S e cunntas sònraichte a tha seo.  Chan eil dearbh-aithne co-cheangailte ris.
 account-settings-account-name =
     .value = Ainm a' chunntais:
     .accesskey = n
