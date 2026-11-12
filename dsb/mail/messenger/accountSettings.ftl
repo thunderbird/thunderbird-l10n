@@ -131,3 +131,162 @@ ews-oauthscopes-label =
 # Shown in Account Settings below the authentication method when OAuth2
 # settings are provided by an extension.
 oauth-provider-extension-info = Nastajenja OAuth2, kótarež rozšyrjenje k dispoziciji staja: <a data-l10n-name="extension">{ $extensionName }</a>
+
+## Incoming server settings
+
+account-settings-server-document-title = Serwerowe nastajenja
+account-settings-server-type =
+    .value = Serwerowy typ:
+account-settings-server-name =
+    .value = Serwerowe mě:
+    .accesskey = S
+account-settings-user-name =
+    .value = Wužywaŕske mě:
+    .accesskey = m
+account-settings-port =
+    .value = Port:
+    .accesskey = P
+account-settings-default-port =
+    .value = Standard:
+account-settings-connection-security =
+    .value = Zwiskowa wěstota:
+    .accesskey = Z
+account-settings-connection-security-none =
+    .label = Žedna
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Kuždych
+    .accesskey = K
+account-settings-minutes =
+    .value = minutow za nowymi powěsćami pśeglědaś
+account-settings-automatically-download-new-messages =
+    .label = Nowe powěsći awtomatiski ześěgnuś
+    .accesskey = N
+account-settings-fetch-headers-only =
+    .label = Jano głowowe smužki ześěgnuś
+    .accesskey = m
+account-settings-leave-messages-on-server =
+    .label = Powěsći na serwerje wóstajiś
+    .accesskey = P
+account-settings-leave-messages-for =
+    .label = W nejwušem paźe za
+    .accesskey = u
+account-settings-days =
+    .value = dnjow
+account-settings-leave-messages-until-deleted =
+    .label = Až se lašuju
+    .accesskey = l
+account-settings-move-to-trash =
+    .label = Do toś togo zarědnika pśesunuś:
+    .accesskey = D
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Pšašaś se, nježli až ześěguju se wěcej ako
+    .accesskey = w
+account-settings-messages =
+    .value = powěsćow
+account-settings-always-authenticate =
+    .label = Pśi zwězowanju z toś tym serwerom pśecej awtentificěrowanje pominaś
+    .accesskey = z
+account-settings-message-storage = Składowanje powěsćow
+account-settings-empty-trash-on-exit =
+    .label = Papjernik pśi skóńcenju wuprozniś
+    .accesskey = s
+account-settings-message-store-type =
+    .value = Składowański typ powěsći:
+    .accesskey = t
+account-settings-message-store-mbox =
+    .label = Dataja na zarědnik (mbox)
+account-settings-message-store-maildir =
+    .label = Dataja na powěsć (maildir)
+account-settings-newsrc-file =
+    .value = Dataja News.rc:
+account-settings-browse-newsrc =
+    .label = Pśepytaś…
+    .accesskey = e
+    .filepickertitle = Dataju News.rc wubraś
+account-settings-local-directory =
+    .value = Lokalny zapis:
+account-settings-browse-local-directory =
+    .label = Pśepytaś…
+    .accesskey = P
+    .filepickertitle = Lokalny zapis wubraś
+account-settings-default-text-encoding =
+    .value = Standardne tekstowe koděrowanje:
+
+## Local Folders and RSS account settings
+
+account-settings-document-title = Kontowe nastajenja
+account-settings-title =
+    .value = Kontowe nastajenja
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = To jo wósebne konto. Z nim žedne identity njejsu zwězane.
+account-settings-account-name =
+    .value = Kontowe mě:
+    .accesskey = K
+account-settings-rss-server-settings = Serwerowe nastajenja
+account-settings-rss-enable-updates =
+    .label = Aktualizacije za wše kanale zmóžniś
+    .accesskey = A
+account-settings-rss-new-feed-defaults = Standardne nastajenja za nowe kanale
+account-settings-rss-manage-subscriptions =
+    .label = Abonementy zastojaś…
+    .accesskey = A
+
+## Feed account wizard
+
+account-settings-rss-wizard-title = Asistent kanalowego konta
+account-settings-rss-default-account-name = Blogi a powěsćowe kanale
+
+## Advanced server settings
+
+account-settings-advanced-server-title = Rozšyrjone kontowe nastajenja
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = Zapis serwera IMAP:
+    .accesskey = Z
+account-settings-imap-show-subscribed-folders =
+    .label = Jano aboněrowane zarědniki pokazaś
+    .accesskey = J
+account-settings-imap-dual-use-folders =
+    .label = Serwer pódpěra zarědniki, kótarež wopśimuju pódzarědniki a powěsći
+    .accesskey = S
+account-settings-imap-maximum-connections =
+    .value = Maksimalna licba serwerowych zwiskow do pufrowaka
+    .accesskey = M
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Toś te nastajenja pódawaju mjenjowe rumy na wašom serwerje IMAP
+account-settings-imap-personal-namespace =
+    .value = Wósobinski mjenjowy rum:
+    .accesskey = W
+account-settings-imap-public-namespace =
+    .value = Zjawny (gromaźe):
+    .accesskey = a
+account-settings-imap-other-users-namespace =
+    .value = Druge wužywarje:
+    .accesskey = D
+account-settings-imap-override-namespaces =
+    .label = Serweroju dowóliś toś te mjenjowe rumy pśepisaś
+    .accesskey = m
+account-settings-pop-inbox-description = Gaž ześěgujośo e-mail wót serwera toś togo konta, wužywajśo slědujucy zarědnik, aby nowe powěsći składował:
+account-settings-pop-inbox-current-account =
+    .label = Dochad posta za toś to konto
+    .accesskey = t
+account-settings-pop-inbox-other-account =
+    .label = Postowy kašćik za druge konto
+    .accesskey = d
+account-settings-pop-include-server =
+    .label = Toś ten serwer pśi dostaśu noweje e-maile zapśimjeś
+    .accesskey = T

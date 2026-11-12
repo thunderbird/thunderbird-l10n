@@ -124,3 +124,162 @@ ews-oauthscopes-label =
 # Shown in Account Settings below the authentication method when OAuth2
 # settings are provided by an extension.
 oauth-provider-extension-info = OAuth2-innstillinger levert av utvidelsen: <a data-l10n-name="extension">{ $extensionName }</a>
+
+## Incoming server settings
+
+account-settings-server-document-title = Serverinnstillinger
+account-settings-server-type =
+    .value = Servertype:
+account-settings-server-name =
+    .value = Servernavn:
+    .accesskey = S
+account-settings-user-name =
+    .value = Brukernavn:
+    .accesskey = n
+account-settings-port =
+    .value = Port:
+    .accesskey = P
+account-settings-default-port =
+    .value = Std:
+account-settings-connection-security =
+    .value = Tilkoblingssikkerhet:
+    .accesskey = o
+account-settings-connection-security-none =
+    .label = Ingen
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Se etter nye meldinger hvert
+    .accesskey = e
+account-settings-minutes =
+    .value = minutt
+account-settings-automatically-download-new-messages =
+    .label = Last ned nye meldinger automatisk
+    .accesskey = d
+account-settings-fetch-headers-only =
+    .label = Hent bare meldingshoder
+    .accesskey = H
+account-settings-leave-messages-on-server =
+    .label = La meldinger ligge på serveren
+    .accesskey = m
+account-settings-leave-messages-for =
+    .label = Inntil de er
+    .accesskey = I
+account-settings-days =
+    .value = dager
+account-settings-leave-messages-until-deleted =
+    .label = Inntil jeg sletter dem
+    .accesskey = t
+account-settings-move-to-trash =
+    .label = Flytt den til søppelmappen
+    .accesskey = d
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Spør meg før nedlasting av mer enn
+    .accesskey = m
+account-settings-messages =
+    .value = meldinger
+account-settings-always-authenticate =
+    .label = Alltid spør etter autentisering ved tilkobling til denne serveren
+    .accesskey = A
+account-settings-message-storage = Meldingslagring
+account-settings-empty-trash-on-exit =
+    .label = Tøm søppelkassen ved avslutning
+    .accesskey = ø
+account-settings-message-store-type =
+    .value = Meldingslagertype:
+    .accesskey = t
+account-settings-message-store-mbox =
+    .label = Fil per mappe (mbox)
+account-settings-message-store-maildir =
+    .label = En fil per melding (maildir)
+account-settings-newsrc-file =
+    .value = News.rc-fil:
+account-settings-browse-newsrc =
+    .label = Bla gjennom …
+    .accesskey = l
+    .filepickertitle = Velg News.rc-fil
+account-settings-local-directory =
+    .value = Lokal mappe:
+account-settings-browse-local-directory =
+    .label = Bla gjennom …
+    .accesskey = B
+    .filepickertitle = Velg lokal mappe:
+account-settings-default-text-encoding =
+    .value = Standard tekstkoding:
+
+## Local Folders and RSS account settings
+
+account-settings-document-title = Kontoinnstillinger
+account-settings-title =
+    .value = Kontoinnstillinger
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Dette er en spesiell konto.  Ingen identiteter er tilknyttet den.
+account-settings-account-name =
+    .value = Kontonavn:
+    .accesskey = K
+account-settings-rss-server-settings = Serverinnstillinger
+account-settings-rss-enable-updates =
+    .label = Slå på oppdateringer for alle RSS-kanaler
+    .accesskey = S
+account-settings-rss-new-feed-defaults = Standardinnstillinger for nye RSS-kanaler
+account-settings-rss-manage-subscriptions =
+    .label = Behandle abonnement …
+    .accesskey = B
+
+## Feed account wizard
+
+account-settings-rss-wizard-title = Kontoveiviser for nyhetskilder
+account-settings-rss-default-account-name = Blogger og nyhetskilder
+
+## Advanced server settings
+
+account-settings-advanced-server-title = Avanserte kontoinnstillinger
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = IMAP serverkatalog:
+    .accesskey = I
+account-settings-imap-show-subscribed-folders =
+    .label = Vis bare påmeldte mapper
+    .accesskey = V
+account-settings-imap-dual-use-folders =
+    .label = Serveren støtter mapper som inneholder undermapper og meldinger
+    .accesskey = S
+account-settings-imap-maximum-connections =
+    .value = Maksimalt antall servertilkoblinger til hurtiglageret
+    .accesskey = t
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Disse innstillingene angir navnerommet på IMAP-serveren
+account-settings-imap-personal-namespace =
+    .value = Personlig navnerom:
+    .accesskey = P
+account-settings-imap-public-namespace =
+    .value = Offentlig (delt):
+    .accesskey = n
+account-settings-imap-other-users-namespace =
+    .value = Andre brukere:
+    .accesskey = b
+account-settings-imap-override-namespaces =
+    .label = Tillat serveren å overstyre disse navnerommene
+    .accesskey = a
+account-settings-pop-inbox-description = Ved nedlasting av e-post fra denne kontoens server, bruk denne mappen for å lagre nye meldinger:
+account-settings-pop-inbox-current-account =
+    .label = Innboks for denne kontoen
+    .accesskey = s
+account-settings-pop-inbox-other-account =
+    .label = Innboks i en annen konto
+    .accesskey = b
+account-settings-pop-include-server =
+    .label = Når ny e-post hentes, hent også for denne kontoen
+    .accesskey = r

@@ -131,3 +131,162 @@ ews-oauthscopes-label =
 # Shown in Account Settings below the authentication method when OAuth2
 # settings are provided by an extension.
 oauth-provider-extension-info = A következő kiegészítő által biztosított OAuth2-beállítások: <a data-l10n-name="extension">{ $extensionName }</a>
+
+## Incoming server settings
+
+account-settings-server-document-title = Kiszolgálóbeállítások
+account-settings-server-type =
+    .value = Kiszolgálótípus:
+account-settings-server-name =
+    .value = Kiszolgáló:
+    .accesskey = K
+account-settings-user-name =
+    .value = Felhasználói név:
+    .accesskey = F
+account-settings-port =
+    .value = Port:
+    .accesskey = o
+account-settings-default-port =
+    .value = Alapértelmezett:
+account-settings-connection-security =
+    .value = Kapcsolat biztonsága:
+    .accesskey = b
+account-settings-connection-security-none =
+    .label = nincs
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Új üzenetek ellenőrzése
+    .accesskey = z
+account-settings-minutes =
+    .value = percenként
+account-settings-automatically-download-new-messages =
+    .label = Új üzenetek automatikus letöltése
+    .accesskey = a
+account-settings-fetch-headers-only =
+    .label = Csak a fejlécek letöltése
+    .accesskey = f
+account-settings-leave-messages-on-server =
+    .label = Üzenetek megtartása a kiszolgálón
+    .accesskey = m
+account-settings-leave-messages-for =
+    .label = Legfeljebb
+    .accesskey = L
+account-settings-days =
+    .value = napig
+account-settings-leave-messages-until-deleted =
+    .label = Letörlésükig
+    .accesskey = e
+account-settings-move-to-trash =
+    .label = Áthelyezés ebbe a mappába:
+    .accesskey = h
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Jóváhagyás kérése, ha
+    .accesskey = J
+account-settings-messages =
+    .value = üzenetnél többet kellene letölteni
+account-settings-always-authenticate =
+    .label = Hitelesítés kérése mindig, amikor ehhez a kiszolgálóhoz kapcsolódik
+    .accesskey = H
+account-settings-message-storage = Üzenettároló
+account-settings-empty-trash-on-exit =
+    .label = Kuka ürítése kilépéskor
+    .accesskey = r
+account-settings-message-store-type =
+    .value = Üzenettároló típusa:
+    .accesskey = t
+account-settings-message-store-mbox =
+    .label = Egy fájl mappánként (mbox)
+account-settings-message-store-maildir =
+    .label = Egy fájl üzenetenként (maildir)
+account-settings-newsrc-file =
+    .value = News.rc-fájl:
+account-settings-browse-newsrc =
+    .label = Tallózás…
+    .accesskey = a
+    .filepickertitle = Válasszon News.rc-fájlt
+account-settings-local-directory =
+    .value = Helyi könyvtár:
+account-settings-browse-local-directory =
+    .label = Tallózás…
+    .accesskey = T
+    .filepickertitle = Helyi könyvtár kiválasztása
+account-settings-default-text-encoding =
+    .value = Alapértelmezett szövegkódolás:
+
+## Local Folders and RSS account settings
+
+account-settings-document-title = Postafiók beállításai
+account-settings-title =
+    .value = Postafiók beállításai
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = A következő egy különleges postafiók, amelyhez nem tartoznak személyazonosságok.
+account-settings-account-name =
+    .value = Postafiók neve:
+    .accesskey = P
+account-settings-rss-server-settings = Kiszolgáló beállításai
+account-settings-rss-enable-updates =
+    .label = Frissítések engedélyezése minden hírforráshoz
+    .accesskey = F
+account-settings-rss-new-feed-defaults = Új hírforrások alapértelmezett beállításai
+account-settings-rss-manage-subscriptions =
+    .label = Feliratkozások kezelése…
+    .accesskey = F
+
+## Feed account wizard
+
+account-settings-rss-wizard-title = Hírforrásfiók varázsló
+account-settings-rss-default-account-name = Blogok és hírforrások
+
+## Advanced server settings
+
+account-settings-advanced-server-title = Speciális postafiók-beállítások
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = IMAP-kiszolgáló könyvtár:
+    .accesskey = k
+account-settings-imap-show-subscribed-folders =
+    .label = Csak a feliratkozott mappák megjelenítése
+    .accesskey = f
+account-settings-imap-dual-use-folders =
+    .label = A kiszolgáló támogat olyan mappákat, amelyek további almappákat és leveleket tartalmaznak
+    .accesskey = t
+account-settings-imap-maximum-connections =
+    .value = A gyorsítótárazandó kiszolgáló-kapcsolatok maximális száma
+    .accesskey = o
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Ezek a beállítások meghatározzák a névtartományokat az IMAP-kiszolgálón
+account-settings-imap-personal-namespace =
+    .value = Személyes névtartomány:
+    .accesskey = S
+account-settings-imap-public-namespace =
+    .value = Nyilvános (megosztott):
+    .accesskey = N
+account-settings-imap-other-users-namespace =
+    .value = Más felhasználók:
+    .accesskey = M
+account-settings-imap-override-namespaces =
+    .label = A kiszolgáló felülírhatja ezeket a névtartományokat
+    .accesskey = A
+account-settings-pop-inbox-description = A fiók kiszolgálójáról való levélletöltéskor a következő mappa használata új levelek tárolására:
+account-settings-pop-inbox-current-account =
+    .label = Fiók beérkezett üzenetek mappája
+    .accesskey = F
+account-settings-pop-inbox-other-account =
+    .label = Másik postafiók Beérkezett üzenetek mappája
+    .accesskey = M
+account-settings-pop-include-server =
+    .label = Kiszolgáló lekérdezése új levelek letöltésekor
+    .accesskey = K

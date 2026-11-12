@@ -131,3 +131,162 @@ ews-oauthscopes-label =
 # Shown in Account Settings below the authentication method when OAuth2
 # settings are provided by an extension.
 oauth-provider-extension-info = Cài đặt OAuth2 được cung cấp bởi tiện ích mở rộng: <a data-l10n-name="extension">{ $extensionName }</a>
+
+## Incoming server settings
+
+account-settings-server-document-title = Cài đặt máy chủ
+account-settings-server-type =
+    .value = Kiểu máy chủ:
+account-settings-server-name =
+    .value = Tên máy chủ:
+    .accesskey = S
+account-settings-user-name =
+    .value = Tên đăng nhập:
+    .accesskey = N
+account-settings-port =
+    .value = Cổng:
+    .accesskey = P
+account-settings-default-port =
+    .value = Mặc định:
+account-settings-connection-security =
+    .value = Bảo mật kết nối:
+    .accesskey = u
+account-settings-connection-security-none =
+    .label = Không có
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Kiểm tra thư mới mỗi
+    .accesskey = y
+account-settings-minutes =
+    .value = phút
+account-settings-automatically-download-new-messages =
+    .label = Tự động tải thư mới
+    .accesskey = m
+account-settings-fetch-headers-only =
+    .label = Chỉ lấy tiêu đề
+    .accesskey = e
+account-settings-leave-messages-on-server =
+    .label = Để lại thư trên máy chủ
+    .accesskey = g
+account-settings-leave-messages-for =
+    .label = Trong nhiều nhất
+    .accesskey = o
+account-settings-days =
+    .value = ngày
+account-settings-leave-messages-until-deleted =
+    .label = Cho đến khi tôi xóa chúng
+    .accesskey = d
+account-settings-move-to-trash =
+    .label = Di chuyển nó vào thư mục này:
+    .accesskey = o
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Hỏi tôi trước khi tải nhiều hơn
+    .accesskey = m
+account-settings-messages =
+    .value = thư
+account-settings-always-authenticate =
+    .label = Luôn yêu cầu xác thực khi kết nối đến máy chủ này
+    .accesskey = w
+account-settings-message-storage = Lưu trữ thư
+account-settings-empty-trash-on-exit =
+    .label = Dọn sạch thùng rác khi thoát
+    .accesskey = x
+account-settings-message-store-type =
+    .value = Loại lưu trữ thư:
+    .accesskey = T
+account-settings-message-store-mbox =
+    .label = Tập tin trên mỗi thư mục (mbox)
+account-settings-message-store-maildir =
+    .label = Tập tin trên mỗi thư (maildir)
+account-settings-newsrc-file =
+    .value = Tập tin News.rc:
+account-settings-browse-newsrc =
+    .label = Duyệt…
+    .accesskey = e
+    .filepickertitle = Chọn tập tin News.rc
+account-settings-local-directory =
+    .value = Thư mục cục bộ:
+account-settings-browse-local-directory =
+    .label = Duyệt…
+    .accesskey = B
+    .filepickertitle = Chọn thư mục cục bộ
+account-settings-default-text-encoding =
+    .value = Bảng mã văn bản mặc định:
+
+## Local Folders and RSS account settings
+
+account-settings-document-title = Cài đặt tài khoản
+account-settings-title =
+    .value = Cài đặt tài khoản
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Sau đây là một tài khoản đặc biệt.  Không có danh tính liên quan đến nó.
+account-settings-account-name =
+    .value = Tên tài khoản:
+    .accesskey = n
+account-settings-rss-server-settings = Cài đặt máy chủ
+account-settings-rss-enable-updates =
+    .label = Cho phép cập nhật cho tất cả nguồn cấp dữ liệu
+    .accesskey = E
+account-settings-rss-new-feed-defaults = Cài đặt mặc định cho nguồn cấp dữ liệu mới
+account-settings-rss-manage-subscriptions =
+    .label = Quản lý mục theo dõi…
+    .accesskey = M
+
+## Feed account wizard
+
+account-settings-rss-wizard-title = Trình thiết lập nguồn cấp dữ liệu
+account-settings-rss-default-account-name = Blog & nguồn cấp tin tức
+
+## Advanced server settings
+
+account-settings-advanced-server-title = Cài đặt tài khoản nâng cao
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = Thư mục máy chủ IMAP:
+    .accesskey = m
+account-settings-imap-show-subscribed-folders =
+    .label = Chỉ hiện các thư mục đang theo dõi
+    .accesskey = C
+account-settings-imap-dual-use-folders =
+    .label = Máy chủ hỗ trợ các thư mục có chứa thư mục con và thư
+    .accesskey = r
+account-settings-imap-maximum-connections =
+    .value = Số lượng kết nối tối đa từ máy chủ tới bộ đệm
+    .accesskey = S
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Những tùy chỉnh này chỉ định không gian tên trên máy chủ IMAP của bạn
+account-settings-imap-personal-namespace =
+    .value = Không gian tên Cá nhân:
+    .accesskey = K
+account-settings-imap-public-namespace =
+    .value = Công khai (đã chia sẻ):
+    .accesskey = s
+account-settings-imap-other-users-namespace =
+    .value = Người dùng khác:
+    .accesskey = N
+account-settings-imap-override-namespaces =
+    .label = Cho phép máy chủ ghi đè những không gian tên này
+    .accesskey = o
+account-settings-pop-inbox-description = Khi tải xuống thư từ máy chủ của tài khoản này, hãy sử dụng thư mục sau để lưu trữ thư mới:
+account-settings-pop-inbox-current-account =
+    .label = Hộp thư đến cho tài khoản này
+    .accesskey = s
+account-settings-pop-inbox-other-account =
+    .label = Hộp thư cho tài khoản khác
+    .accesskey = p
+account-settings-pop-include-server =
+    .label = Bao gồm máy chủ này khi nhận thư mới
+    .accesskey = I

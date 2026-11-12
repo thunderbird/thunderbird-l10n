@@ -96,3 +96,162 @@ ews-oauthscopes-label =
 # Shown in Account Settings below the authentication method when OAuth2
 # settings are provided by an extension.
 oauth-provider-extension-info = 확장 기능이 OAuth2 설정을 제공함: <a data-l10n-name="extension">{ $extensionName }</a>
+
+## Incoming server settings
+
+account-settings-server-document-title = 서버 설정
+account-settings-server-type =
+    .value = 서버 종류:
+account-settings-server-name =
+    .value = 서버 이름:
+    .accesskey = S
+account-settings-user-name =
+    .value = 아이디
+    .accesskey = N
+account-settings-port =
+    .value = 포트:
+    .accesskey = P
+account-settings-default-port =
+    .value = 기본:
+account-settings-connection-security =
+    .value = 보안 연결:
+    .accesskey = u
+account-settings-connection-security-none =
+    .label = 없음
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = 새 메시지 확인
+    .accesskey = y
+account-settings-minutes =
+    .value = 분 마다
+account-settings-automatically-download-new-messages =
+    .label = 새 메시지를 자동으로 받아오기
+    .accesskey = m
+account-settings-fetch-headers-only =
+    .label = 헤더만 가져오기
+    .accesskey = e
+account-settings-leave-messages-on-server =
+    .label = 메시지를 서버에 보관
+    .accesskey = g
+account-settings-leave-messages-for =
+    .label = 최대
+    .accesskey = o
+account-settings-days =
+    .value = 일 동안
+account-settings-leave-messages-until-deleted =
+    .label = 삭제하기 전까지만
+    .accesskey = d
+account-settings-move-to-trash =
+    .label = 현재 폴더로 이동:
+    .accesskey = o
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = 받아오기 전 확인
+    .accesskey = m
+account-settings-messages =
+    .value = 메시지
+account-settings-always-authenticate =
+    .label = 서버에 접속할 때 항상 인증 요청
+    .accesskey = w
+account-settings-message-storage = 메시지 저장
+account-settings-empty-trash-on-exit =
+    .label = 지운 편지함을 비우고 닫기
+    .accesskey = x
+account-settings-message-store-type =
+    .value = 메시지 저장 타입:
+    .accesskey = T
+account-settings-message-store-mbox =
+    .label = 폴더별 파일로 저장 (mbox)
+account-settings-message-store-maildir =
+    .label = 메시지별 파일로 저장 (maildir)
+account-settings-newsrc-file =
+    .value = News.rc 파일:
+account-settings-browse-newsrc =
+    .label = 찾아보기…
+    .accesskey = e
+    .filepickertitle = News.rc 파일 선택
+account-settings-local-directory =
+    .value = 로컬 디렉토리:
+account-settings-browse-local-directory =
+    .label = 찾아보기…
+    .accesskey = B
+    .filepickertitle = 로컬 디렉터리 위치
+account-settings-default-text-encoding =
+    .value = 기본 문자 인코딩:
+
+## Local Folders and RSS account settings
+
+account-settings-document-title = 계정 설정
+account-settings-title =
+    .value = 계정 설정
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = 이는 특수한 계정으로 특정 정보가 없습니다.
+account-settings-account-name =
+    .value = 계정 이름:
+    .accesskey = N
+account-settings-rss-server-settings = 서버 설정
+account-settings-rss-enable-updates =
+    .label = 모든 피드에 대한 업데이트 활성화
+    .accesskey = E
+account-settings-rss-new-feed-defaults = 새 피드에 대한 기본 설정
+account-settings-rss-manage-subscriptions =
+    .label = 구독 관리…
+    .accesskey = M
+
+## Feed account wizard
+
+account-settings-rss-wizard-title = 피드 계정 마법사
+account-settings-rss-default-account-name = 블로그 및 뉴스 피드
+
+## Advanced server settings
+
+account-settings-advanced-server-title = 고급 계정 설정
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = IMAP 서버 디렉터리:
+    .accesskey = d
+account-settings-imap-show-subscribed-folders =
+    .label = 구독 허가한 폴더만 보이기
+    .accesskey = w
+account-settings-imap-dual-use-folders =
+    .label = 서버가 폴더 및 메시지를 포함하는 폴더 지원
+    .accesskey = f
+account-settings-imap-maximum-connections =
+    .value = 캐시에 저장할 서버의 최대 연결수
+    .accesskey = M
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = 설정은 IMAP 서버의 네임스페이스에 한정됩니다.
+account-settings-imap-personal-namespace =
+    .value = 개인 네임스페이스:
+    .accesskey = P
+account-settings-imap-public-namespace =
+    .value = 공공 (공용):
+    .accesskey = u
+account-settings-imap-other-users-namespace =
+    .value = 다른 사용자:
+    .accesskey = O
+account-settings-imap-override-namespaces =
+    .label = 네임스페이스를 우선하도록 서버 허가
+    .accesskey = A
+account-settings-pop-inbox-description = 이 계정 서버에서 메일을 다운로드 받을 때, 새 메시지를 아래 폴더에 저장:
+account-settings-pop-inbox-current-account =
+    .label = 이 계정의 받은 편지함
+    .accesskey = s
+account-settings-pop-inbox-other-account =
+    .label = 다른 POP3 계정의 받은 편지함
+    .accesskey = D
+account-settings-pop-include-server =
+    .label = 새 메일이 도착하면 이 서버도 포함
+    .accesskey = I

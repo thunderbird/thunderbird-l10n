@@ -131,3 +131,162 @@ ews-oauthscopes-label =
 # Shown in Account Settings below the authentication method when OAuth2
 # settings are provided by an extension.
 oauth-provider-extension-info = تنظیمات OAuth2 ارائه‌شده توسط افزونهٔ: <a data-l10n-name="extension">{ $extensionName }</a>
+
+## Incoming server settings
+
+account-settings-server-document-title = تنظیمات کارساز
+account-settings-server-type =
+    .value = Server Type:
+account-settings-server-name =
+    .value = Server Name:
+    .accesskey = S
+account-settings-user-name =
+    .value = نام کاربر:
+    .accesskey = ن
+account-settings-port =
+    .value = درگاه:
+    .accesskey = د
+account-settings-default-port =
+    .value = Default:
+account-settings-connection-security =
+    .value = Connection security:
+    .accesskey = u
+account-settings-connection-security-none =
+    .label = هیچ
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Check for new messages every
+    .accesskey = y
+account-settings-minutes =
+    .value = minutes
+account-settings-automatically-download-new-messages =
+    .label = Automatically download new messages
+    .accesskey = m
+account-settings-fetch-headers-only =
+    .label = Fetch headers only
+    .accesskey = F
+account-settings-leave-messages-on-server =
+    .label = Leave messages on server
+    .accesskey = g
+account-settings-leave-messages-for =
+    .label = For at most
+    .accesskey = o
+account-settings-days =
+    .value = days
+account-settings-leave-messages-until-deleted =
+    .label = Until I delete them
+    .accesskey = d
+account-settings-move-to-trash =
+    .label = انتقال آن به این پوشه:
+    .accesskey = o
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Ask me before downloading more than
+    .accesskey = m
+account-settings-messages =
+    .value = messages
+account-settings-always-authenticate =
+    .label = Always request authentication when connecting to this server
+    .accesskey = w
+account-settings-message-storage = ذخیره‌سازی پیام‌ها
+account-settings-empty-trash-on-exit =
+    .label = خالی کردن زباله در هنگام خروج
+    .accesskey = x
+account-settings-message-store-type =
+    .value = نوع ذخیره‌گاه پیام:
+    .accesskey = ن
+account-settings-message-store-mbox =
+    .label = یک پرونده برای هر پوشه (mbox)
+account-settings-message-store-maildir =
+    .label = یک پرونده برای هر پیام (maildir)
+account-settings-newsrc-file =
+    .value = پروندهٔ News.rc:
+account-settings-browse-newsrc =
+    .label = مرور…
+    .accesskey = م
+    .filepickertitle = انتخاب پروندهٔ News.rc
+account-settings-local-directory =
+    .value = شاخهٔ محلی:
+account-settings-browse-local-directory =
+    .label = مرور…
+    .accesskey = م
+    .filepickertitle = Select Local Directory
+account-settings-default-text-encoding =
+    .value = کدگذاری متن پیش‌گزیده:
+
+## Local Folders and RSS account settings
+
+account-settings-document-title = Account Settings
+account-settings-title =
+    .value = Account Settings
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = این یک حساب ویژه است. هیچ هویتی به آن وابسته نیست.
+account-settings-account-name =
+    .value = نام حساب:
+    .accesskey = N
+account-settings-rss-server-settings = Server Settings
+account-settings-rss-enable-updates =
+    .label = فعّال سازی به‌روز رسانی‌ها برای همه خوراک‌ها
+    .accesskey = ف
+account-settings-rss-new-feed-defaults = تنظیمات پیش‌گزیده برای خوراک‌های جدید
+account-settings-rss-manage-subscriptions =
+    .label = Manage Subscriptions…
+    .accesskey = M
+
+## Feed account wizard
+
+account-settings-rss-wizard-title = جادوگر حساب خوراک
+account-settings-rss-default-account-name = وبلاگ‌ها و خوراک‌های خبری
+
+## Advanced server settings
+
+account-settings-advanced-server-title = Advanced Account Settings
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = IMAP server directory:
+    .accesskey = d
+account-settings-imap-show-subscribed-folders =
+    .label = Show only subscribed folders
+    .accesskey = w
+account-settings-imap-dual-use-folders =
+    .label = Server supports folders that contain sub-folders and messages
+    .accesskey = f
+account-settings-imap-maximum-connections =
+    .value = Maximum number of server connections to cache
+    .accesskey = M
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = These preferences specify the namespaces on your IMAP server
+account-settings-imap-personal-namespace =
+    .value = Personal namespace:
+    .accesskey = P
+account-settings-imap-public-namespace =
+    .value = Public (shared):
+    .accesskey = u
+account-settings-imap-other-users-namespace =
+    .value = Other Users:
+    .accesskey = O
+account-settings-imap-override-namespaces =
+    .label = Allow server to override these namespaces
+    .accesskey = A
+account-settings-pop-inbox-description = هنگام بارگیری رایانامه از کارساز این حساب، پیام‌های جدید در این پوشه ذخیره شوند:
+account-settings-pop-inbox-current-account =
+    .label = صندوق ورودی این حساب
+    .accesskey = ص
+account-settings-pop-inbox-other-account =
+    .label = Inbox for different account
+    .accesskey = d
+account-settings-pop-include-server =
+    .label = Include this server when getting new mail
+    .accesskey = I

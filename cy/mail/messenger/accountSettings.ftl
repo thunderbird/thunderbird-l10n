@@ -131,3 +131,162 @@ ews-oauthscopes-label =
 # Shown in Account Settings below the authentication method when OAuth2
 # settings are provided by an extension.
 oauth-provider-extension-info = Gosodiadau OAuth2 estyniad: <a data-l10n-name="extension">{ $extensionName }</a>
+
+## Incoming server settings
+
+account-settings-server-document-title = Gosodiadau gweinydd
+account-settings-server-type =
+    .value = Math o Weinydd:
+account-settings-server-name =
+    .value = Enw'r Gweinydd:
+    .accesskey = G
+account-settings-user-name =
+    .value = Enw Defnyddiwr:
+    .accesskey = D
+account-settings-port =
+    .value = Porth:
+    .accesskey = P
+account-settings-default-port =
+    .value = Rhagosodiad:
+account-settings-connection-security =
+    .value = Diogelwch y cysylltiad:
+    .accesskey = D
+account-settings-connection-security-none =
+    .label = Dim
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Gwirio am negeseuon newydd bob
+    .accesskey = w
+account-settings-minutes =
+    .value = munud
+account-settings-automatically-download-new-messages =
+    .label = Llwytho i lawr negeseuon newydd yn awtomatig
+    .accesskey = a
+account-settings-fetch-headers-only =
+    .label = Estyn penynnau'n unig
+    .accesskey = p
+account-settings-leave-messages-on-server =
+    .label = Gadael negeseuon ar y gweinydd
+    .accesskey = a
+account-settings-leave-messages-for =
+    .label = Ar y mwyaf
+    .accesskey = m
+account-settings-days =
+    .value = diwrnod
+account-settings-leave-messages-until-deleted =
+    .label = Nes i mi eu dileu
+    .accesskey = d
+account-settings-move-to-trash =
+    .label = Ei symud i'r ffolder yma:
+    .accesskey = y
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Gofyn cyn llwytho i lawr mwy na
+    .accesskey = o
+account-settings-messages =
+    .value = neges
+account-settings-always-authenticate =
+    .label = Gofyn bob tro am ddilysiad wrth gysylltu â'r gweinydd hwn
+    .accesskey = b
+account-settings-message-storage = Storfa Negeseuon
+account-settings-empty-trash-on-exit =
+    .label = Gwagio'r Sbwriel wrth Adael
+    .accesskey = A
+account-settings-message-store-type =
+    .value = Math o Storio Negeseuon:
+    .accesskey = S
+account-settings-message-store-mbox =
+    .label = Ffeil i'r ffolder (mbox)
+account-settings-message-store-maildir =
+    .label = Ffeil y neges (maildir)
+account-settings-newsrc-file =
+    .value = Ffeil News.rc:
+account-settings-browse-newsrc =
+    .label = Pori…
+    .accesskey = o
+    .filepickertitle = Dewis Ffeil News.rc
+account-settings-local-directory =
+    .value = Cyfeiriadur Lleol:
+account-settings-browse-local-directory =
+    .label = Pori…
+    .accesskey = P
+    .filepickertitle = Dewis Cyfeiriadur Lleol
+account-settings-default-text-encoding =
+    .value = Amgodiad Testun Rhagosodedig:
+
+## Local Folders and RSS account settings
+
+account-settings-document-title = Gosodiadau Cyfrifon
+account-settings-title =
+    .value = Gosodiadau Cyfrifon
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Mae hwn yn gyfrif arbennig.  Nid oes hunaniaethau wedi'u cysylltu ag ef.
+account-settings-account-name =
+    .value = Enw Cyfrif:
+    .accesskey = C
+account-settings-rss-server-settings = Gosodiadau'r Gweinydd
+account-settings-rss-enable-updates =
+    .label = Galluogi diweddariad i bob llif
+    .accesskey = G
+account-settings-rss-new-feed-defaults = Y Gosodiadau Rhagosodedig i Lif Newydd
+account-settings-rss-manage-subscriptions =
+    .label = Rheoli Tanysgrifiadau…
+    .accesskey = T
+
+## Feed account wizard
+
+account-settings-rss-wizard-title = Dewin Cyfrif Llif
+account-settings-rss-default-account-name = Blogiau a Llif Newyddion
+
+## Advanced server settings
+
+account-settings-advanced-server-title = Gosodiadau Cyfrifon Uwch
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = Cyfeiriadur gweinydd IMAP:
+    .accesskey = g
+account-settings-imap-show-subscribed-folders =
+    .label = Dangos ffolderi tanysgrifiwyd iddynt
+    .accesskey = t
+account-settings-imap-dual-use-folders =
+    .label = Mae'r gweinydd yn cynnal ffolderi sy'n cynnwys is-ffolderi a negeseuon
+    .accesskey = f
+account-settings-imap-maximum-connections =
+    .value = Uchafswm cysylltiadau gweinydd i'r storfa
+    .accesskey = U
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Mae'r dewisiadau yn pennu bwlchenw ar eich gweinydd IMAP
+account-settings-imap-personal-namespace =
+    .value = Bwlchenw personol:
+    .accesskey = B
+account-settings-imap-public-namespace =
+    .value = Cyhoeddus (rhannu):
+    .accesskey = y
+account-settings-imap-other-users-namespace =
+    .value = Defnyddwyr Eraill:
+    .accesskey = D
+account-settings-imap-override-namespaces =
+    .label = Caniatáu i'r gweinydd i wrth-wneud y bylchau enw
+    .accesskey = C
+account-settings-pop-inbox-description = Wrth lwytho e-bost i lawr o weinydd y cyfrif, defnyddiwch y ffolder ganlynol i gadw’r negeseuon newydd:
+account-settings-pop-inbox-current-account =
+    .label = Blwch Derbyn y cyfrif hwn
+    .accesskey = c
+account-settings-pop-inbox-other-account =
+    .label = Blwch Derbyn cyfrif gwahanol
+    .accesskey = g
+account-settings-pop-include-server =
+    .label = Cynnwys y gweinydd hwn wrth estyn e-byst newydd
+    .accesskey = y

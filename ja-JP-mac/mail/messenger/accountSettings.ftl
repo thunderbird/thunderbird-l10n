@@ -134,3 +134,162 @@ ews-oauthscopes-label =
 # Shown in Account Settings below the authentication method when OAuth2
 # settings are provided by an extension.
 oauth-provider-extension-info = 拡張機能より提供された OAuth2 設定: <a data-l10n-name="extension">{ $extensionName }</a>
+
+## Incoming server settings
+
+account-settings-server-document-title = サーバー設定
+account-settings-server-type =
+    .value = サーバーの種類:
+account-settings-server-name =
+    .value = サーバー名:
+    .accesskey = S
+account-settings-user-name =
+    .value = ユーザー名:
+    .accesskey = N
+account-settings-port =
+    .value = ポート:
+    .accesskey = P
+account-settings-default-port =
+    .value = デフォルト:
+account-settings-connection-security =
+    .value = 接続の保護:
+    .accesskey = u
+account-settings-connection-security-none =
+    .label = なし
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = 新着メッセージがないか
+    .accesskey = y
+account-settings-minutes =
+    .value = 分ごとに確認する
+account-settings-automatically-download-new-messages =
+    .label = 新着メッセージを自動的にダウンロードする
+    .accesskey = m
+account-settings-fetch-headers-only =
+    .label = ヘッダーのみ取得する
+    .accesskey = e
+account-settings-leave-messages-on-server =
+    .label = ダウンロード後もサーバーにメッセージを残す
+    .accesskey = g
+account-settings-leave-messages-for =
+    .label = ダウンロードしてから
+    .accesskey = o
+account-settings-days =
+    .value = 日以上経過したメッセージは削除する
+account-settings-leave-messages-until-deleted =
+    .label = ダウンロードしたメッセージを削除したらサーバーからも削除する
+    .accesskey = d
+account-settings-move-to-trash =
+    .label = 次のフォルダーに移動する:
+    .accesskey = o
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = ダウンロードするメッセージ数が
+    .accesskey = m
+account-settings-messages =
+    .value = 以上になる場合は確認する
+account-settings-always-authenticate =
+    .label = サーバーへ接続するときは必ず認証を要求する
+    .accesskey = w
+account-settings-message-storage = メッセージの保存
+account-settings-empty-trash-on-exit =
+    .label = 終了時にゴミ箱を空にする
+    .accesskey = x
+account-settings-message-store-type =
+    .value = メッセージの格納形式:
+    .accesskey = T
+account-settings-message-store-mbox =
+    .label = フォルダー単位 (mbox 形式)
+account-settings-message-store-maildir =
+    .label = メッセージ単位 (maildir 形式)
+account-settings-newsrc-file =
+    .value = News.rc ファイル:
+account-settings-browse-newsrc =
+    .label = 選択...
+    .accesskey = e
+    .filepickertitle = News.rc ファイルを選択してください
+account-settings-local-directory =
+    .value = メッセージの保存先:
+account-settings-browse-local-directory =
+    .label = 選択...
+    .accesskey = B
+    .filepickertitle = メッセージデータの保存先を選択してください
+account-settings-default-text-encoding =
+    .value = デフォルトテキストエンコーディング:
+
+## Local Folders and RSS account settings
+
+account-settings-document-title = アカウント設定
+account-settings-title =
+    .value = アカウント設定
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = これは特殊なアカウントであり、特定の差出人情報はありません。
+account-settings-account-name =
+    .value = アカウント名:
+    .accesskey = N
+account-settings-rss-server-settings = サーバー設定
+account-settings-rss-enable-updates =
+    .label = すべてのフィードの更新を有効にする
+    .accesskey = E
+account-settings-rss-new-feed-defaults = 新着フィードのデフォルト設定
+account-settings-rss-manage-subscriptions =
+    .label = フィード購読の管理...
+    .accesskey = M
+
+## Feed account wizard
+
+account-settings-rss-wizard-title = フィードアカウントアシスタント
+account-settings-rss-default-account-name = ブログとニュース
+
+## Advanced server settings
+
+account-settings-advanced-server-title = アカウントの詳細設定
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = IMAP サーバーディレクトリー:
+    .accesskey = d
+account-settings-imap-show-subscribed-folders =
+    .label = 購読しているフォルダーのみ表示する
+    .accesskey = w
+account-settings-imap-dual-use-folders =
+    .label = サブフォルダーとメッセージ両方を含むフォルダーをサーバーがサポートしている
+    .accesskey = f
+account-settings-imap-maximum-connections =
+    .value = サーバーへの最大同時接続数
+    .accesskey = M
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = IMAP サーバーの名前空間を設定します:
+account-settings-imap-personal-namespace =
+    .value = 個人名前空間:
+    .accesskey = P
+account-settings-imap-public-namespace =
+    .value = 公開(共有)名前空間:
+    .accesskey = u
+account-settings-imap-other-users-namespace =
+    .value = 他のユーザーの名前空間:
+    .accesskey = O
+account-settings-imap-override-namespaces =
+    .label = サーバーによる名前空間の上書きを許可する
+    .accesskey = A
+account-settings-pop-inbox-description = このアカウントのサーバーからメールをダウンロードするとき、新着メッセージを次のフォルダーに保存する:
+account-settings-pop-inbox-current-account =
+    .label = このアカウントの受信トレイ
+    .accesskey = s
+account-settings-pop-inbox-other-account =
+    .label = 別のアカウントの受信トレイ
+    .accesskey = d
+account-settings-pop-include-server =
+    .label = 新着メールの取得時にこのサーバーも同時に受信
+    .accesskey = I

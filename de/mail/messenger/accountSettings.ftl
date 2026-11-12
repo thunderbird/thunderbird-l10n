@@ -131,3 +131,162 @@ ews-oauthscopes-label =
 # Shown in Account Settings below the authentication method when OAuth2
 # settings are provided by an extension.
 oauth-provider-extension-info = OAuth2-Einstellungen bereitgestellt von der Erweiterung: <a data-l10n-name="extension">{ $extensionName }</a>
+
+## Incoming server settings
+
+account-settings-server-document-title = Server-Einstellungen
+account-settings-server-type =
+    .value = Servertyp:
+account-settings-server-name =
+    .value = Server:
+    .accesskey = S
+account-settings-user-name =
+    .value = Benutzername:
+    .accesskey = B
+account-settings-port =
+    .value = Port:
+    .accesskey = P
+account-settings-default-port =
+    .value = Standard:
+account-settings-connection-security =
+    .value = Verbindungssicherheit:
+    .accesskey = n
+account-settings-connection-security-none =
+    .label = Keine
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Alle
+    .accesskey = A
+account-settings-minutes =
+    .value = Minuten auf neue Nachrichten prüfen
+account-settings-automatically-download-new-messages =
+    .label = Neue Nachrichten automatisch herunterladen
+    .accesskey = d
+account-settings-fetch-headers-only =
+    .label = Nur die Kopfzeilen herunterladen
+    .accesskey = o
+account-settings-leave-messages-on-server =
+    .label = Nachrichten auf dem Server belassen
+    .accesskey = i
+account-settings-leave-messages-for =
+    .label = Lösche Nachrichten vom Server nach
+    .accesskey = ö
+account-settings-days =
+    .value = Tagen
+account-settings-leave-messages-until-deleted =
+    .label = Nachrichten vom Server löschen, wenn sie aus dem Posteingang gelöscht werden
+    .accesskey = g
+account-settings-move-to-trash =
+    .label = In diesen Ordner verschieben:
+    .accesskey = I
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Abfrage vor Download von mehr als
+    .accesskey = m
+account-settings-messages =
+    .value = Nachrichten
+account-settings-always-authenticate =
+    .label = Beim Verbinden mit diesem Server immer Authentifizierung verlangen
+    .accesskey = i
+account-settings-message-storage = Nachrichtenspeicher
+account-settings-empty-trash-on-exit =
+    .label = Papierkorb beim Verlassen leeren
+    .accesskey = V
+account-settings-message-store-type =
+    .value = Speichermethode:
+    .accesskey = S
+account-settings-message-store-mbox =
+    .label = Eine Datei je Ordner (mbox)
+account-settings-message-store-maildir =
+    .label = Eine Datei je Nachricht (maildir)
+account-settings-newsrc-file =
+    .value = News.rc-Datei:
+account-settings-browse-newsrc =
+    .label = Durchsuchen…
+    .accesskey = D
+    .filepickertitle = News.rc-Datei auswählen
+account-settings-local-directory =
+    .value = Lokaler Ordner:
+account-settings-browse-local-directory =
+    .label = Ordner wählen…
+    .accesskey = ä
+    .filepickertitle = Lokalen Ordner wählen:
+account-settings-default-text-encoding =
+    .value = Standard-Textkodierung:
+
+## Local Folders and RSS account settings
+
+account-settings-document-title = Konto-Einstellungen
+account-settings-title =
+    .value = Konto-Einstellungen
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Dies ist ein besonderes Konto, da keine Identitäten mit ihm verknüpft sind.
+account-settings-account-name =
+    .value = Kontoname:
+    .accesskey = B
+account-settings-rss-server-settings = Server-Einstellungen
+account-settings-rss-enable-updates =
+    .label = Alle Feeds aktualisieren
+    .accesskey = F
+account-settings-rss-new-feed-defaults = Standardeinstellungen für neue Feeds
+account-settings-rss-manage-subscriptions =
+    .label = Abonnements verwalten…
+    .accesskey = o
+
+## Feed account wizard
+
+account-settings-rss-wizard-title = Feed-Konten-Assistent
+account-settings-rss-default-account-name = Blogs & News-Feeds
+
+## Advanced server settings
+
+account-settings-advanced-server-title = Erweiterte Konten-Einstellungen
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = IMAP-Server-Verzeichnis:
+    .accesskey = I
+account-settings-imap-show-subscribed-folders =
+    .label = Nur abonnierte Ordner anzeigen
+    .accesskey = N
+account-settings-imap-dual-use-folders =
+    .label = Server unterstützt Ordner, die Unterordner und Nachrichten enthalten
+    .accesskey = u
+account-settings-imap-maximum-connections =
+    .value = Maximale Anzahl der aufrecht erhaltenen Serververbindungen
+    .accesskey = M
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Diese Einstellungen geben die Namensräume des IMAP-Servers an
+account-settings-imap-personal-namespace =
+    .value = Persönlicher Namensraum
+    .accesskey = P
+account-settings-imap-public-namespace =
+    .value = Öffentlich (gemeinsam verwendet)
+    .accesskey = Ö
+account-settings-imap-other-users-namespace =
+    .value = Andere Benutzer
+    .accesskey = A
+account-settings-imap-override-namespaces =
+    .label = Server erlauben, diese Namensräume zu übergehen
+    .accesskey = e
+account-settings-pop-inbox-description = Neue heruntergeladene Nachrichten für dieses Konto in folgendem Ordner speichern:
+account-settings-pop-inbox-current-account =
+    .label = Posteingang für dieses Konto
+    .accesskey = d
+account-settings-pop-inbox-other-account =
+    .label = Posteingang eines anderen Kontos
+    .accesskey = a
+account-settings-pop-include-server =
+    .label = Dieses Konto beim Abrufen von Nachrichten einschließen
+    .accesskey = e

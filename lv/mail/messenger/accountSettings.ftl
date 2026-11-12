@@ -104,3 +104,162 @@ oauth2-use-system-browser =
 # Shown in Account Settings below the authentication method when OAuth2
 # settings are provided by an extension.
 oauth-provider-extension-info = OAuth2 iestatījumi, kurus nodrošina paplašinājums: <a data-l10n-name="extension">{ $extensionName }</a>
+
+## Incoming server settings
+
+account-settings-server-document-title = Servera iestatījumi
+account-settings-server-type =
+    .value = Servera veids:
+account-settings-server-name =
+    .value = Servera nosaukums:
+    .accesskey = S
+account-settings-user-name =
+    .value = Lietotājvārds:
+    .accesskey = L
+account-settings-port =
+    .value = Ports:
+    .accesskey = P
+account-settings-default-port =
+    .value = Noklusējums:
+account-settings-connection-security =
+    .value = Savienojuma drošība:
+    .accesskey = d
+account-settings-connection-security-none =
+    .label = Nav
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Pārbaudīt, vai ir jauni ziņojumi katru
+    .accesskey = P
+account-settings-minutes =
+    .value = minūti
+account-settings-automatically-download-new-messages =
+    .label = Automātiski lejuplādēt jaunus ziņojumus
+    .accesskey = m
+account-settings-fetch-headers-only =
+    .label = Ielādēt tikai galvenes
+    .accesskey = g
+account-settings-leave-messages-on-server =
+    .label = Atstāt vēstules serverī
+    .accesskey = s
+account-settings-leave-messages-for =
+    .label = Par maksimums
+    .accesskey = m
+account-settings-days =
+    .value = dienas
+account-settings-leave-messages-until-deleted =
+    .label = Līdz tās izdzēšat
+    .accesskey = d
+account-settings-move-to-trash =
+    .label = Pārvietot to uz šo mapi:
+    .accesskey = P
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Jautāt, pirms lejuplādēt vairāk nekā
+    .accesskey = J
+account-settings-messages =
+    .value = vēstules
+account-settings-always-authenticate =
+    .label = Pieslēdzoties šim serverim, vienmēr pieprasīt autentifikāciju
+    .accesskey = P
+account-settings-message-storage = Vēstuļu krātuve
+account-settings-empty-trash-on-exit =
+    .label = Izejot iztukšot atkritni
+    .accesskey = a
+account-settings-message-store-type =
+    .value = Vēstuļu krātuves veids:
+    .accesskey = v
+account-settings-message-store-mbox =
+    .label = Viena datne katrai mapei (mbox)
+account-settings-message-store-maildir =
+    .label = Viena datne katram ziņojumam (maildir)
+account-settings-newsrc-file =
+    .value = News.rc datne:
+account-settings-browse-newsrc =
+    .label = Pārlūkot…
+    .accesskey = r
+    .filepickertitle = Izvēlieties News.rc failu
+account-settings-local-directory =
+    .value = Vietējā mape:
+account-settings-browse-local-directory =
+    .label = Pārlūkot...
+    .accesskey = P
+    .filepickertitle = Izvēlieties lokālo mapi
+account-settings-default-text-encoding =
+    .value = Noklusējuma teksta kodējums:
+
+## Local Folders and RSS account settings
+
+account-settings-document-title = Konta iestatījumi
+account-settings-title =
+    .value = Konta iestatījumi
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Šis ir īpašs konts.  Tam nav saistītas identitātes.
+account-settings-account-name =
+    .value = Konta nosaukums:
+    .accesskey = n
+account-settings-rss-server-settings = Servera iestatījumi
+account-settings-rss-enable-updates =
+    .label = Ieslēgt atjaunojumus visām plūsmām
+    .accesskey = I
+account-settings-rss-new-feed-defaults = Ziņu barotņu noklusējuma iestatījumi
+account-settings-rss-manage-subscriptions =
+    .label = Pārvaldīt abonementus...
+    .accesskey = P
+
+## Feed account wizard
+
+account-settings-rss-wizard-title = Plūsumu konta vednis
+account-settings-rss-default-account-name = Emuāri & Ziņu plūsmas
+
+## Advanced server settings
+
+account-settings-advanced-server-title = Paplašinātie konta iestatījumi
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = IMAP servera katalogs:
+    .accesskey = k
+account-settings-imap-show-subscribed-folders =
+    .label = Rādīt tikai abonētās mapes
+    .accesskey = R
+account-settings-imap-dual-use-folders =
+    .label = Serveris atbalsta mapes, kas satur apakšmapes un vēstules
+    .accesskey = S
+account-settings-imap-maximum-connections =
+    .value = Maksimālais kešoto servera savienojumu skaits
+    .accesskey = M
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Šie iestatījumi nosaka vārdu telpas IMAP serverī
+account-settings-imap-personal-namespace =
+    .value = Personiskā nosaukumvieta:
+    .accesskey = P
+account-settings-imap-public-namespace =
+    .value = Publiskā (koplietota):
+    .accesskey = u
+account-settings-imap-other-users-namespace =
+    .value = Citi lietotāji:
+    .accesskey = C
+account-settings-imap-override-namespaces =
+    .label = Ļaut serverim ignorēt šīs nosaukumvietas
+    .accesskey = a
+account-settings-pop-inbox-description = Kad lejupielādē pastu no šī konta servera, jaunu ziņojumu glabāšanai izmantot šo mapi:
+account-settings-pop-inbox-current-account =
+    .label = Šī konta iesūtne
+    .accesskey = k
+account-settings-pop-inbox-other-account =
+    .label = Cita konta iesūtne
+    .accesskey = c
+account-settings-pop-include-server =
+    .label = Saņemot jaunu pastu, iekļaut šo serveri
+    .accesskey = s

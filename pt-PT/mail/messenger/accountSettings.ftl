@@ -131,3 +131,162 @@ ews-oauthscopes-label =
 # Shown in Account Settings below the authentication method when OAuth2
 # settings are provided by an extension.
 oauth-provider-extension-info = Definições OAuth2 fornecidas pela extensão: <a data-l10n-name="extension">{ $extensionName }</a>
+
+## Incoming server settings
+
+account-settings-server-document-title = Definições do servidor
+account-settings-server-type =
+    .value = Tipo de servidor:
+account-settings-server-name =
+    .value = Nome do servidor:
+    .accesskey = s
+account-settings-user-name =
+    .value = Nome de utilizador:
+    .accesskey = u
+account-settings-port =
+    .value = Porta:
+    .accesskey = P
+account-settings-default-port =
+    .value = Predefinida:
+account-settings-connection-security =
+    .value = Segurança da ligação:
+    .accesskey = u
+account-settings-connection-security-none =
+    .label = Nenhuma
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Procurar novas mensagens a cada
+    .accesskey = n
+account-settings-minutes =
+    .value = minutos
+account-settings-automatically-download-new-messages =
+    .label = Descarregar novas mensagens automaticamente
+    .accesskey = m
+account-settings-fetch-headers-only =
+    .label = Obter apenas os cabeçalhos
+    .accesskey = e
+account-settings-leave-messages-on-server =
+    .label = Manter mensagens no servidor
+    .accesskey = v
+account-settings-leave-messages-for =
+    .label = Durante
+    .accesskey = D
+account-settings-days =
+    .value = dias
+account-settings-leave-messages-until-deleted =
+    .label = Até eu as apagar
+    .accesskey = A
+account-settings-move-to-trash =
+    .label = Mover para esta pasta:
+    .accesskey = o
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Perguntar antes de descarregar mais do que
+    .accesskey = t
+account-settings-messages =
+    .value = mensagens
+account-settings-always-authenticate =
+    .label = Pedir sempre autenticação ao ligar a este servidor
+    .accesskey = u
+account-settings-message-storage = Armazenamento de mensagens
+account-settings-empty-trash-on-exit =
+    .label = Esvaziar lixo ao sair
+    .accesskey = x
+account-settings-message-store-type =
+    .value = Tipo de armazenamento das mensagens:
+    .accesskey = T
+account-settings-message-store-mbox =
+    .label = Um ficheiro por pasta (mbox)
+account-settings-message-store-maildir =
+    .label = Um ficheiro por mensagem (maildir)
+account-settings-newsrc-file =
+    .value = Ficheiro News.rc:
+account-settings-browse-newsrc =
+    .label = Procurar...
+    .accesskey = r
+    .filepickertitle = Selecione o ficheiro News.rc
+account-settings-local-directory =
+    .value = Diretório local:
+account-settings-browse-local-directory =
+    .label = Procurar...
+    .accesskey = P
+    .filepickertitle = Selecione o diretório local
+account-settings-default-text-encoding =
+    .value = Codificação predefinida:
+
+## Local Folders and RSS account settings
+
+account-settings-document-title = Definições da conta
+account-settings-title =
+    .value = Definições da conta
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = O seguinte é uma conta especial.  Não existem quaisquer identidades associadas com a mesma.
+account-settings-account-name =
+    .value = Nome da conta:
+    .accesskey = N
+account-settings-rss-server-settings = Definições do servidor
+account-settings-rss-enable-updates =
+    .label = Ativar atualizações para todas as fontes
+    .accesskey = A
+account-settings-rss-new-feed-defaults = Definições predefinidas para novas fontes
+account-settings-rss-manage-subscriptions =
+    .label = Gerir subscrições…
+    .accesskey = G
+
+## Feed account wizard
+
+account-settings-rss-wizard-title = Assistente para conta de fontes
+account-settings-rss-default-account-name = Blogues e fontes de notícias
+
+## Advanced server settings
+
+account-settings-advanced-server-title = Definições avançadas da conta
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = Diretório do servidor IMAP:
+    .accesskey = D
+account-settings-imap-show-subscribed-folders =
+    .label = Mostrar apenas pastas subscritas
+    .accesskey = M
+account-settings-imap-dual-use-folders =
+    .label = O servidor suporta pastas que possuam subpastas e mensagens
+    .accesskey = O
+account-settings-imap-maximum-connections =
+    .value = Número máximo de ligações ao servidor para colocar em cache
+    .accesskey = x
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = As preferências que especificam os 'namespaces' do seu servidor IMAP
+account-settings-imap-personal-namespace =
+    .value = 'Namespace' pessoal:
+    .accesskey = p
+account-settings-imap-public-namespace =
+    .value = Público (partilhado):
+    .accesskey = h
+account-settings-imap-other-users-namespace =
+    .value = Outros utilizadores:
+    .accesskey = t
+account-settings-imap-override-namespaces =
+    .label = Permitir ao servidor sobrepor estes namespaces
+    .accesskey = a
+account-settings-pop-inbox-description = Ao descarregar correio desta conta de servidor, utilizar a seguinte pasta para guardar as mensagens:
+account-settings-pop-inbox-current-account =
+    .label = Caixa de entrada para esta conta
+    .accesskey = s
+account-settings-pop-inbox-other-account =
+    .label = Caixa de entrada de outra conta
+    .accesskey = d
+account-settings-pop-include-server =
+    .label = Incluir este servidor na receção de correio
+    .accesskey = u

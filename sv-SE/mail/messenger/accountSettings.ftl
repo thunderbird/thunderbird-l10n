@@ -131,3 +131,162 @@ ews-oauthscopes-label =
 # Shown in Account Settings below the authentication method when OAuth2
 # settings are provided by an extension.
 oauth-provider-extension-info = OAuth2-inställningar tillhandahållna av tillägget: <a data-l10n-name="extension">{ $extensionName }</a>
+
+## Incoming server settings
+
+account-settings-server-document-title = Serverinställningar
+account-settings-server-type =
+    .value = Typ av teknik:
+account-settings-server-name =
+    .value = Servernamn:
+    .accesskey = S
+account-settings-user-name =
+    .value = Användarnamn:
+    .accesskey = n
+account-settings-port =
+    .value = Port:
+    .accesskey = P
+account-settings-default-port =
+    .value = Standard:
+account-settings-connection-security =
+    .value = Anslutningssäkerhet:
+    .accesskey = A
+account-settings-connection-security-none =
+    .label = Ingen
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Kontrollera var
+    .accesskey = K
+account-settings-minutes =
+    .value = minut om det kommit nya meddelanden
+account-settings-automatically-download-new-messages =
+    .label = Hämta alla nya meddelanden automatiskt
+    .accesskey = H
+account-settings-fetch-headers-only =
+    .label = Hämta endast rubrikerna
+    .accesskey = r
+account-settings-leave-messages-on-server =
+    .label = Lämna kvar meddelanden på servern
+    .accesskey = å
+account-settings-leave-messages-for =
+    .label = Som längst
+    .accesskey = o
+account-settings-days =
+    .value = dagar
+account-settings-leave-messages-until-deleted =
+    .label = Tills jag tar bort dem
+    .accesskey = j
+account-settings-move-to-trash =
+    .label = Flytta det till mappen:
+    .accesskey = F
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Fråga innan mer än
+    .accesskey = F
+account-settings-messages =
+    .value = meddelanden hämtas
+account-settings-always-authenticate =
+    .label = Begär alltid inloggning vid anslutning till denna server
+    .accesskey = e
+account-settings-message-storage = Lagring av meddelanden
+account-settings-empty-trash-on-exit =
+    .label = Töm papperskorgen vid stängning
+    .accesskey = v
+account-settings-message-store-type =
+    .value = Lagringstyp för meddelande:
+    .accesskey = t
+account-settings-message-store-mbox =
+    .label = Fil per mapp (mbox)
+account-settings-message-store-maildir =
+    .label = Fil per meddelande (maildir)
+account-settings-newsrc-file =
+    .value = News.rc-fil:
+account-settings-browse-newsrc =
+    .label = Bläddra…
+    .accesskey = d
+    .filepickertitle = Välj News.rc-fil
+account-settings-local-directory =
+    .value = Lokal katalog:
+account-settings-browse-local-directory =
+    .label = Bläddra…
+    .accesskey = B
+    .filepickertitle = Välj lokal katalog
+account-settings-default-text-encoding =
+    .value = Standardtextkodning:
+
+## Local Folders and RSS account settings
+
+account-settings-document-title = Kontoinställningar
+account-settings-title =
+    .value = Kontoinställningar
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Detta är ett specialkonto. Det finns ingen identitet knuten till det.
+account-settings-account-name =
+    .value = Kontonamn:
+    .accesskey = K
+account-settings-rss-server-settings = Serverinställningar
+account-settings-rss-enable-updates =
+    .label = Aktivera uppdateringar för alla RSS-kanaler
+    .accesskey = A
+account-settings-rss-new-feed-defaults = Standardinställningar för nya RSS-kanaler
+account-settings-rss-manage-subscriptions =
+    .label = Hantera prenumerationer…
+    .accesskey = a
+
+## Feed account wizard
+
+account-settings-rss-wizard-title = RSS-kanalguide
+account-settings-rss-default-account-name = Bloggar & nyhetskanaler
+
+## Advanced server settings
+
+account-settings-advanced-server-title = Avancerade kontoinställningar
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = IMAP-serverkatalog:
+    .accesskey = k
+account-settings-imap-show-subscribed-folders =
+    .label = Visa endast mappar du prenumererar på
+    .accesskey = V
+account-settings-imap-dual-use-folders =
+    .label = Servern kan hantera mappar med både undermappar och meddelanden
+    .accesskey = e
+account-settings-imap-maximum-connections =
+    .value = Maximala antalet serveranslutningar att cacha
+    .accesskey = M
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Här ställer du in namnrymderna (namespace) på IMAP-servern
+account-settings-imap-personal-namespace =
+    .value = Personlig:
+    .accesskey = P
+account-settings-imap-public-namespace =
+    .value = Publik (delad):
+    .accesskey = b
+account-settings-imap-other-users-namespace =
+    .value = Andra användares:
+    .accesskey = A
+account-settings-imap-override-namespaces =
+    .label = Tillåt att servern bestämmer
+    .accesskey = T
+account-settings-pop-inbox-description = När du hämtar e-post från det här kontots server, använd följande mapp för att lagra nya meddelanden:
+account-settings-pop-inbox-current-account =
+    .label = Inkorgen för det här kontot
+    .accesskey = h
+account-settings-pop-inbox-other-account =
+    .label = Inkorgen för ett annat konto
+    .accesskey = a
+account-settings-pop-include-server =
+    .label = Inkludera denna server när du hämtar ny e-post
+    .accesskey = I

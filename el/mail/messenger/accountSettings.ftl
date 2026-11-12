@@ -117,3 +117,162 @@ ews-oauthscopes-label =
 # Shown in Account Settings below the authentication method when OAuth2
 # settings are provided by an extension.
 oauth-provider-extension-info = Οι ρυθμίσεις OAuth2 παρέχονται από την επέκταση: <a data-l10n-name="extension">{ $extensionName }</a>
+
+## Incoming server settings
+
+account-settings-server-document-title = Ρυθμίσεις διακομιστή
+account-settings-server-type =
+    .value = Τύπος διακομιστή:
+account-settings-server-name =
+    .value = Όνομα διακομιστή:
+    .accesskey = δ
+account-settings-user-name =
+    .value = Όνομα χρήστη:
+    .accesskey = ν
+account-settings-port =
+    .value = Θύρα:
+    .accesskey = Θ
+account-settings-default-port =
+    .value = Προεπιλογή:
+account-settings-connection-security =
+    .value = Ασφάλεια σύνδεσης:
+    .accesskey = φ
+account-settings-connection-security-none =
+    .label = Καμία
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Έλεγχος για νέα μηνύματα κάθε
+    .accesskey = χ
+account-settings-minutes =
+    .value = λεπτά
+account-settings-automatically-download-new-messages =
+    .label = Αυτόματη λήψη νέων μηνυμάτων
+    .accesskey = υ
+account-settings-fetch-headers-only =
+    .label = Λήψη μόνο κεφαλίδων
+    .accesskey = φ
+account-settings-leave-messages-on-server =
+    .label = Διατήρηση μηνυμάτων στον διακομιστή
+    .accesskey = τ
+account-settings-leave-messages-for =
+    .label = Για έως
+    .accesskey = ω
+account-settings-days =
+    .value = ημέρες
+account-settings-leave-messages-until-deleted =
+    .label = Μέχρι να τα διαγράψω
+    .accesskey = γ
+account-settings-move-to-trash =
+    .label = Μετακίνηση στον φάκελο:
+    .accesskey = φ
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Ερώτηση πριν από τη λήψη περισσοτέρων από
+    .accesskey = ρ
+account-settings-messages =
+    .value = μηνύματα
+account-settings-always-authenticate =
+    .label = Να απαιτείται πάντα πιστοποίηση κατά τη σύνδεση με αυτόν τον διακομιστή
+    .accesskey = π
+account-settings-message-storage = Αποθήκευση μηνυμάτων
+account-settings-empty-trash-on-exit =
+    .label = Άδειασμα απορριμμάτων κατά την έξοδο
+    .accesskey = δ
+account-settings-message-store-type =
+    .value = Τρόπος αποθήκευσης μηνυμάτων:
+    .accesskey = τ
+account-settings-message-store-mbox =
+    .label = Αρχείο ανά φάκελο (mbox)
+account-settings-message-store-maildir =
+    .label = Αρχείο ανά μήνυμα (maildir)
+account-settings-newsrc-file =
+    .value = Αρχείο News.rc:
+account-settings-browse-newsrc =
+    .label = Περιήγηση…
+    .accesskey = ε
+    .filepickertitle = Επιλογή αρχείου News.rc
+account-settings-local-directory =
+    .value = Τοπικός κατάλογος:
+account-settings-browse-local-directory =
+    .label = Περιήγηση…
+    .accesskey = γ
+    .filepickertitle = Επιλογή τοπικού καταλόγου
+account-settings-default-text-encoding =
+    .value = Προεπιλεγμένη κωδικοποίηση χαρακτήρων:
+
+## Local Folders and RSS account settings
+
+account-settings-document-title = Ρυθμίσεις λογαριασμού
+account-settings-title =
+    .value = Ρυθμίσεις λογαριασμού
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Ο ακόλουθος λογαριασμός είναι ειδικός. Δεν υπάρχουν ταυτότητες που να σχετίζονται με αυτόν.
+account-settings-account-name =
+    .value = Όνομα λογαριασμού:
+    .accesskey = Ό
+account-settings-rss-server-settings = Ρυθμίσεις διακομιστή
+account-settings-rss-enable-updates =
+    .label = Ενεργοποίηση ενημερώσεων για όλες τις ροές
+    .accesskey = Ε
+account-settings-rss-new-feed-defaults = Προεπιλεγμένες ρυθμίσεις ροών ειδήσεων
+account-settings-rss-manage-subscriptions =
+    .label = Διαχείριση συνδρομών…
+    .accesskey = Δ
+
+## Feed account wizard
+
+account-settings-rss-wizard-title = Βοηθός λογαριασμών ροής
+account-settings-rss-default-account-name = Blog και ροές ειδήσεων
+
+## Advanced server settings
+
+account-settings-advanced-server-title = Σύνθετες ρυθμίσεις λογαριασμού
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = Κατάλογος διακομιστή IMAP:
+    .accesskey = γ
+account-settings-imap-show-subscribed-folders =
+    .label = Εμφάνιση μόνο εγγεγραμμένων φακέλων
+    .accesskey = λ
+account-settings-imap-dual-use-folders =
+    .label = Ο διακομιστής υποστηρίζει φακέλους με υποφακέλους και μηνύματα
+    .accesskey = σ
+account-settings-imap-maximum-connections =
+    .value = Μέγιστος αριθμός συνδέσεων διακομιστή στην προσωρινή μνήμη
+    .accesskey = Μ
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Αυτές οι προτιμήσεις καθορίζουν τους χώρους ονομάτων στον διακομιστή IMAP σας
+account-settings-imap-personal-namespace =
+    .value = Προσωπικός χώρος ονόματος:
+    .accesskey = ο
+account-settings-imap-public-namespace =
+    .value = Δημόσιος (κοινόχρηστος):
+    .accesskey = μ
+account-settings-imap-other-users-namespace =
+    .value = Άλλοι χρήστες:
+    .accesskey = λ
+account-settings-imap-override-namespaces =
+    .label = Να επιτρέπεται στον διακομιστή η παράκαμψη αυτών των χώρων ονομάτων
+    .accesskey = ρ
+account-settings-pop-inbox-description = Κατά τη λήψη αλληλογραφίας από τον διακομιστή του λογαριασμού, να γίνεται χρήση του εξής φακέλου για την αποθήκευση των νέων μηνυμάτων:
+account-settings-pop-inbox-current-account =
+    .label = Εισερχόμενα για αυτόν τον λογαριασμό
+    .accesskey = ε
+account-settings-pop-inbox-other-account =
+    .label = Εισερχόμενα για διαφορετικό λογαριασμό
+    .accesskey = δ
+account-settings-pop-include-server =
+    .label = Συμπερίληψη διακομιστή κατά τη λήψη νέων email
+    .accesskey = π

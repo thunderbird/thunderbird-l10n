@@ -131,3 +131,162 @@ ews-oauthscopes-label =
 # Shown in Account Settings below the authentication method when OAuth2
 # settings are provided by an extension.
 oauth-provider-extension-info = <a data-l10n-name="extension">{ $extensionName }</a> hedapenak emandako OAuth2 ezarpenak
+
+## Incoming server settings
+
+account-settings-server-document-title = Zerbitzariaren ezarpenak
+account-settings-server-type =
+    .value = Zerbitzari mota:
+account-settings-server-name =
+    .value = Zerbitzari-izena:
+    .accesskey = Z
+account-settings-user-name =
+    .value = Erabiltzaile-izena:
+    .accesskey = n
+account-settings-port =
+    .value = Ataka:
+    .accesskey = A
+account-settings-default-port =
+    .value = Lehenetsia:
+account-settings-connection-security =
+    .value = Konexioaren segurtasuna:
+    .accesskey = u
+account-settings-connection-security-none =
+    .label = Bat ere ez
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Begiratu mezurik dagoen
+    .accesskey = g
+account-settings-minutes =
+    .value = minutuan behin
+account-settings-automatically-download-new-messages =
+    .label = Deskargatu automatikoki mezu berriak
+    .accesskey = m
+account-settings-fetch-headers-only =
+    .label = Deskargatu goiburuak bakarrik
+    .accesskey = D
+account-settings-leave-messages-on-server =
+    .label = Utzi mezuak zerbitzarian
+    .accesskey = z
+account-settings-leave-messages-for =
+    .label = Gehienez
+    .accesskey = h
+account-settings-days =
+    .value = egunez
+account-settings-leave-messages-until-deleted =
+    .label = Nik ezabatu arte
+    .accesskey = e
+account-settings-move-to-trash =
+    .label = Mugitu karpeta honetara:
+    .accesskey = u
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Galdetu niri
+    .accesskey = e
+account-settings-messages =
+    .value = mezu baino gehiago deskargatzean
+account-settings-always-authenticate =
+    .label = Eskatu beti autentifikazioa zerbitzari honetara konektatzean
+    .accesskey = b
+account-settings-message-storage = Mezuen biltegiratzea
+account-settings-empty-trash-on-exit =
+    .label = Hustu zakarrontzia irtetean
+    .accesskey = r
+account-settings-message-store-type =
+    .value = Mezu biltegi mota:
+    .accesskey = m
+account-settings-message-store-mbox =
+    .label = Karpeta bakoitzeko fitxategi bat (mbox)
+account-settings-message-store-maildir =
+    .label = Mezu bakoitzeko fitxategi bat (maildir)
+account-settings-newsrc-file =
+    .value = News.rc fitxategia:
+account-settings-browse-newsrc =
+    .label = Arakatu…
+    .accesskey = u
+    .filepickertitle = Aukeratu News.rc fitxategia
+account-settings-local-directory =
+    .value = Direktorio lokala:
+account-settings-browse-local-directory =
+    .label = Arakatu…
+    .accesskey = A
+    .filepickertitle = Hautatu direktorio lokala
+account-settings-default-text-encoding =
+    .value = Testu kodeketa lehenetsia:
+
+## Local Folders and RSS account settings
+
+account-settings-document-title = Kontu-ezarpenak
+account-settings-title =
+    .value = Kontu-ezarpenak
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Ondorengoa kontu berezia da. Ez dago identitaterik honi lotuta.
+account-settings-account-name =
+    .value = Kontuaren izena:
+    .accesskey = n
+account-settings-rss-server-settings = Zerbitzariaren ezarpenak
+account-settings-rss-enable-updates =
+    .label = Gaitu eguneratzeak jario guztietarako
+    .accesskey = e
+account-settings-rss-new-feed-defaults = Ezarpen lehenetsiak jario berrietarako
+account-settings-rss-manage-subscriptions =
+    .label = Kudeatu harpidetzak…
+    .accesskey = K
+
+## Feed account wizard
+
+account-settings-rss-wizard-title = Jario-kontuaren morroia
+account-settings-rss-default-account-name = Blogen eta albisteen jarioak
+
+## Advanced server settings
+
+account-settings-advanced-server-title = Kontu-ezarpen aurreratuak
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = IMAP zerbitzariaren direktorioa:
+    .accesskey = d
+account-settings-imap-show-subscribed-folders =
+    .label = Erakutsi harpidetutako karpetak bakarrik
+    .accesskey = r
+account-settings-imap-dual-use-folders =
+    .label = Zerbitzariak azpikarpetak eta mezuak dituzten karpetak onartzen ditu
+    .accesskey = k
+account-settings-imap-maximum-connections =
+    .value = Cachean gordeko diren zerbitzari-konexio kopuru maximoa
+    .accesskey = m
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Hobespen hauek zure IMAP zerbitzariko izen-eremuak zehazten dituzte
+account-settings-imap-personal-namespace =
+    .value = Izen-eremu pertsonala:
+    .accesskey = p
+account-settings-imap-public-namespace =
+    .value = Publikoa (partekatua):
+    .accesskey = u
+account-settings-imap-other-users-namespace =
+    .value = Beste erabiltzaileak:
+    .accesskey = B
+account-settings-imap-override-namespaces =
+    .label = Onartu zerbitzariak izen-eremu hauek gainidaztea
+    .accesskey = a
+account-settings-pop-inbox-description = Kontu honetako zerbitzaritik mezuak jaistean, erabili ondorengo karpeta mezu berriak gordetzeko:
+account-settings-pop-inbox-current-account =
+    .label = Sarrera-ontzia kontu honetarako
+    .accesskey = s
+account-settings-pop-inbox-other-account =
+    .label = Beste kontu baten sarrera-ontzia
+    .accesskey = B
+account-settings-pop-include-server =
+    .label = Kontuan hartu zerbitzari hau posta berria jasotzerakoan
+    .accesskey = K

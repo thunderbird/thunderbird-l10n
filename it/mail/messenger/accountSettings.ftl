@@ -131,3 +131,162 @@ ews-oauthscopes-label =
 # Shown in Account Settings below the authentication method when OAuth2
 # settings are provided by an extension.
 oauth-provider-extension-info = Impostazioni OAuth2 fornite dall’estensione: <a data-l10n-name="extension">{ $extensionName }</a>
+
+## Incoming server settings
+
+account-settings-server-document-title = Impostazioni server
+account-settings-server-type =
+    .value = Tipo di server:
+account-settings-server-name =
+    .value = Nome server:
+    .accesskey = r
+account-settings-user-name =
+    .value = Nome utente:
+    .accesskey = N
+account-settings-port =
+    .value = Porta:
+    .accesskey = P
+account-settings-default-port =
+    .value = Predefinito:
+account-settings-connection-security =
+    .value = Sicurezza della connessione:
+    .accesskey = d
+account-settings-connection-security-none =
+    .label = Nessuna
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Controlla nuovi messaggi ogni
+    .accesskey = n
+account-settings-minutes =
+    .value = minuti
+account-settings-automatically-download-new-messages =
+    .label = Scarica automaticamente nuovi messaggi
+    .accesskey = t
+account-settings-fetch-headers-only =
+    .label = Preleva soltanto le intestazioni
+    .accesskey = e
+account-settings-leave-messages-on-server =
+    .label = Lascia i messaggi sul server
+    .accesskey = L
+account-settings-leave-messages-for =
+    .label = non più di
+    .accesskey = ù
+account-settings-days =
+    .value = giorni
+account-settings-leave-messages-until-deleted =
+    .label = finché non vengono eliminati
+    .accesskey = f
+account-settings-move-to-trash =
+    .label = Spostalo in questa cartella:
+    .accesskey = q
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Chiedi prima di scaricare più di
+    .accesskey = C
+account-settings-messages =
+    .value = messaggi
+account-settings-always-authenticate =
+    .label = Chiedi sempre l’autenticazione alla connessione a questo server
+    .accesskey = h
+account-settings-message-storage = Cartella messaggi
+account-settings-empty-trash-on-exit =
+    .label = Svuota Cestino all’uscita
+    .accesskey = c
+account-settings-message-store-type =
+    .value = Modalità di salvataggio dei messaggi:
+    .accesskey = T
+account-settings-message-store-mbox =
+    .label = File per cartella (mbox)
+account-settings-message-store-maildir =
+    .label = Un file per ogni messaggio (maildir)
+account-settings-newsrc-file =
+    .value = File News.rc:
+account-settings-browse-newsrc =
+    .label = Sfoglia…
+    .accesskey = o
+    .filepickertitle = Seleziona il file News.rc
+account-settings-local-directory =
+    .value = Cartella locale:
+account-settings-browse-local-directory =
+    .label = Sfoglia…
+    .accesskey = S
+    .filepickertitle = Scegliere la cartella locale
+account-settings-default-text-encoding =
+    .value = Codifica testo predefinita:
+
+## Local Folders and RSS account settings
+
+account-settings-document-title = Impostazioni account
+account-settings-title =
+    .value = Impostazioni account
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Questo è un account speciale. Non ci sono identità associate a esso.
+account-settings-account-name =
+    .value = Nome account:
+    .accesskey = N
+account-settings-rss-server-settings = Impostazioni server
+account-settings-rss-enable-updates =
+    .label = Attiva aggiornamenti per tutti i feed
+    .accesskey = A
+account-settings-rss-new-feed-defaults = Impostazioni predefinite per i nuovi feed
+account-settings-rss-manage-subscriptions =
+    .label = Gestione sottoscrizioni…
+    .accesskey = G
+
+## Feed account wizard
+
+account-settings-rss-wizard-title = Creazione nuovo account di feed
+account-settings-rss-default-account-name = Blog e feed delle news
+
+## Advanced server settings
+
+account-settings-advanced-server-title = Impostazioni avanzate per l’account
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = Cartella del server IMAP:
+    .accesskey = d
+account-settings-imap-show-subscribed-folders =
+    .label = Mostra solo le cartelle sottoscritte
+    .accesskey = r
+account-settings-imap-dual-use-folders =
+    .label = Il server supporta cartelle contenenti altre cartelle e messaggi
+    .accesskey = s
+account-settings-imap-maximum-connections =
+    .value = Numero massimo di collegamenti verso il server da tenere in cache
+    .accesskey = M
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Queste preferenze definiscono i domini sul server IMAP
+account-settings-imap-personal-namespace =
+    .value = Dominio personale:
+    .accesskey = P
+account-settings-imap-public-namespace =
+    .value = Pubblico (condiviso):
+    .accesskey = u
+account-settings-imap-other-users-namespace =
+    .value = Altri utenti:
+    .accesskey = A
+account-settings-imap-override-namespaces =
+    .label = Permetti al server di sovrascrivere questi domini
+    .accesskey = A
+account-settings-pop-inbox-description = Quando si scarica la posta dal server di questo account, utilizzare la seguente cartella per memorizzare i nuovi messaggi:
+account-settings-pop-inbox-current-account =
+    .label = Posta in arrivo per questo account
+    .accesskey = I
+account-settings-pop-inbox-other-account =
+    .label = Posta in arrivo di un altro account.
+    .accesskey = d
+account-settings-pop-include-server =
+    .label = Includi questo account durante la ricezione della posta
+    .accesskey = I

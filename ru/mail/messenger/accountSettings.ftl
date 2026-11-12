@@ -131,3 +131,162 @@ ews-oauthscopes-label =
 # Shown in Account Settings below the authentication method when OAuth2
 # settings are provided by an extension.
 oauth-provider-extension-info = Настройки OAuth2, предоставляемые расширением: <a data-l10n-name="extension">{ $extensionName }</a>
+
+## Incoming server settings
+
+account-settings-server-document-title = Параметры сервера
+account-settings-server-type =
+    .value = Тип сервера:
+account-settings-server-name =
+    .value = Имя сервера:
+    .accesskey = я
+account-settings-user-name =
+    .value = Имя пользователя:
+    .accesskey = м
+account-settings-port =
+    .value = Порт:
+    .accesskey = р
+account-settings-default-port =
+    .value = По умолчанию:
+account-settings-connection-security =
+    .value = Защита соединения:
+    .accesskey = щ
+account-settings-connection-security-none =
+    .label = Нет
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Проверять наличие новых сообщений каждые
+    .accesskey = к
+account-settings-minutes =
+    .value = минут
+account-settings-automatically-download-new-messages =
+    .label = Автоматически скачивать новые сообщения
+    .accesskey = а
+account-settings-fetch-headers-only =
+    .label = Загружать только заголовки сообщений
+    .accesskey = г
+account-settings-leave-messages-on-server =
+    .label = Оставлять копии сообщений на сервере
+    .accesskey = с
+account-settings-leave-messages-for =
+    .label = Не более
+    .accesskey = л
+account-settings-days =
+    .value = дней
+account-settings-leave-messages-until-deleted =
+    .label = Пока я не удалю их
+    .accesskey = у
+account-settings-move-to-trash =
+    .label = Переместить его в папку:
+    .accesskey = и
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Спрашивать перед скачиванием более чем
+    .accesskey = ш
+account-settings-messages =
+    .value = сообщений
+account-settings-always-authenticate =
+    .label = Всегда проводить аутентификацию при подключении к этому серверу
+    .accesskey = о
+account-settings-message-storage = Хранилище сообщений
+account-settings-empty-trash-on-exit =
+    .label = Опустошить при выходе папку «Удалённые»
+    .accesskey = ш
+account-settings-message-store-type =
+    .value = Тип хранилища сообщений:
+    .accesskey = х
+account-settings-message-store-mbox =
+    .label = Каждая папка в отдельном файле (mbox)
+account-settings-message-store-maildir =
+    .label = Каждое сообщение в отдельном файле (maildir)
+account-settings-newsrc-file =
+    .value = Файл News.rc:
+account-settings-browse-newsrc =
+    .label = Обзор…
+    .accesskey = з
+    .filepickertitle = Выбрать файл News.rc
+account-settings-local-directory =
+    .value = Локальный каталог:
+account-settings-browse-local-directory =
+    .label = Обзор…
+    .accesskey = б
+    .filepickertitle = Выбор локального каталога
+account-settings-default-text-encoding =
+    .value = Кодировка текста по умолчанию:
+
+## Local Folders and RSS account settings
+
+account-settings-document-title = Параметры учётной записи
+account-settings-title =
+    .value = Параметры учётной записи
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Эта учётная запись особенная. С ней не связаны никакие персональные данные.
+account-settings-account-name =
+    .value = Имя учётной записи:
+    .accesskey = м
+account-settings-rss-server-settings = Параметры сервера
+account-settings-rss-enable-updates =
+    .label = Включить обновления для всех лент новостей
+    .accesskey = ю
+account-settings-rss-new-feed-defaults = Настройки по умолчанию для новых лент новостей
+account-settings-rss-manage-subscriptions =
+    .label = Управление подписками…
+    .accesskey = п
+
+## Feed account wizard
+
+account-settings-rss-wizard-title = Мастер учётной записи лент новостей
+account-settings-rss-default-account-name = Блоги и ленты новостей
+
+## Advanced server settings
+
+account-settings-advanced-server-title = Дополнительные параметры учётной записи
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = Каталог IMAP-сервера:
+    .accesskey = а
+account-settings-imap-show-subscribed-folders =
+    .label = Показывать только папки на которые вы подписаны
+    .accesskey = о
+account-settings-imap-dual-use-folders =
+    .label = Сервер поддерживает папки, содержащие вложенные папки и сообщения
+    .accesskey = е
+account-settings-imap-maximum-connections =
+    .value = Максимальное число кешируемых соединений
+    .accesskey = к
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Эти настройки определяют пространства имён на вашем IMAP-сервере
+account-settings-imap-personal-namespace =
+    .value = Личное пространство имён:
+    .accesskey = ч
+account-settings-imap-public-namespace =
+    .value = Общее (совместно используемое):
+    .accesskey = б
+account-settings-imap-other-users-namespace =
+    .value = Другие пользователи:
+    .accesskey = у
+account-settings-imap-override-namespaces =
+    .label = Разрешить серверу перекрывать эти пространства имён
+    .accesskey = з
+account-settings-pop-inbox-description = При скачивании почты с сервера этой учётной записи, помещать новые сообщения в следующую папку:
+account-settings-pop-inbox-current-account =
+    .label = «Входящие» для этой учётной записи
+    .accesskey = д
+account-settings-pop-inbox-other-account =
+    .label = «Входящие» для другой учётной записи
+    .accesskey = х
+account-settings-pop-include-server =
+    .label = Загружать почту с данного сервера
+    .accesskey = ж

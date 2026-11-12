@@ -131,3 +131,162 @@ ews-oauthscopes-label =
 # Shown in Account Settings below the authentication method when OAuth2
 # settings are provided by an extension.
 oauth-provider-extension-info = Configurationes de OAuth2 fornite per le extension: <a data-l10n-name="extension">{ $extensionName }</a>
+
+## Incoming server settings
+
+account-settings-server-document-title = Configuration de servitor
+account-settings-server-type =
+    .value = Typo de servitor:
+account-settings-server-name =
+    .value = Nomine del servitor:
+    .accesskey = s
+account-settings-user-name =
+    .value = Nomine de usator:
+    .accesskey = N
+account-settings-port =
+    .value = Porta:
+    .accesskey = P
+account-settings-default-port =
+    .value = Predefinite:
+account-settings-connection-security =
+    .value = Securitate de connexion:
+    .accesskey = u
+account-settings-connection-security-none =
+    .label = Nulle
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Controlar nove messages cata
+    .accesskey = c
+account-settings-minutes =
+    .value = minutas
+account-settings-automatically-download-new-messages =
+    .label = Discargar automaticamente altere messages
+    .accesskey = m
+account-settings-fetch-headers-only =
+    .label = Reportar solo titulos
+    .accesskey = e
+account-settings-leave-messages-on-server =
+    .label = Lassar messages sur le servitor
+    .accesskey = g
+account-settings-leave-messages-for =
+    .label = Non plus de
+    .accesskey = o
+account-settings-days =
+    .value = dies
+account-settings-leave-messages-until-deleted =
+    .label = Usque io dele illos
+    .accesskey = d
+account-settings-move-to-trash =
+    .label = Displaciar lo a iste dossier:
+    .accesskey = o
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Me demandar ante discargar plus de
+    .accesskey = M
+account-settings-messages =
+    .value = messages
+account-settings-always-authenticate =
+    .label = Sempre demandar authentication quando se connecte a iste servitor
+    .accesskey = s
+account-settings-message-storage = Immagazinage de message
+account-settings-empty-trash-on-exit =
+    .label = Vacuar le corbe a papiro al exito
+    .accesskey = x
+account-settings-message-store-type =
+    .value = Typo de stockage del message:
+    .accesskey = T
+account-settings-message-store-mbox =
+    .label = File per dossier (mbox)
+account-settings-message-store-maildir =
+    .label = File per message (maildir)
+account-settings-newsrc-file =
+    .value = File news.rc:
+account-settings-browse-newsrc =
+    .label = Percurrer…
+    .accesskey = e
+    .filepickertitle = Seliger le file news.rc
+account-settings-local-directory =
+    .value = Directorio local:
+account-settings-browse-local-directory =
+    .label = Percurrer…
+    .accesskey = P
+    .filepickertitle = Selige directorio local
+account-settings-default-text-encoding =
+    .value = Codification del testo predefinite:
+
+## Local Folders and RSS account settings
+
+account-settings-document-title = Parametros de contos
+account-settings-title =
+    .value = Parametros de contos
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Le sequente es un conto special.  Illo non ha identitates associate.
+account-settings-account-name =
+    .value = Nomine del conto:
+    .accesskey = N
+account-settings-rss-server-settings = Parametros del servitor
+account-settings-rss-enable-updates =
+    .label = Activar actualisationes pro tote le fluxos
+    .accesskey = A
+account-settings-rss-new-feed-defaults = Parametros predefinite pro nove fluxos
+account-settings-rss-manage-subscriptions =
+    .label = Gerer le subscriptiones…
+    .accesskey = G
+
+## Feed account wizard
+
+account-settings-rss-wizard-title = Assistente de contos de flux
+account-settings-rss-default-account-name = Blogs e actualitates
+
+## Advanced server settings
+
+account-settings-advanced-server-title = Parametros avantiate de contos
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = Directorio del servitor IMAP:
+    .accesskey = d
+account-settings-imap-show-subscribed-folders =
+    .label = Monstrar solmente dossiers subscribite
+    .accesskey = r
+account-settings-imap-dual-use-folders =
+    .label = Le servitor supporta dossiers que contine subdossiers e messages
+    .accesskey = d
+account-settings-imap-maximum-connections =
+    .value = Numero maxime de connexiones al servitor a tener in cache
+    .accesskey = M
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Iste preferentias specifica le spatios de nomines sur le servitor IMAP
+account-settings-imap-personal-namespace =
+    .value = Spatio de nomines personal:
+    .accesskey = p
+account-settings-imap-public-namespace =
+    .value = Public (compartite):
+    .accesskey = u
+account-settings-imap-other-users-namespace =
+    .value = Altere usatores:
+    .accesskey = A
+account-settings-imap-override-namespaces =
+    .label = Permitter que le servitor supplanta iste spatios de nomines
+    .accesskey = s
+account-settings-pop-inbox-description = Quando se discarga posta del servitor de iste conto, mitter nove messages in iste dossier:
+account-settings-pop-inbox-current-account =
+    .label = Cassa de entrata pro iste conto
+    .accesskey = e
+account-settings-pop-inbox-other-account =
+    .label = Cassa de entrata de un altere conto
+    .accesskey = d
+account-settings-pop-include-server =
+    .label = Includer iste servitor durante le reception de nove posta
+    .accesskey = I

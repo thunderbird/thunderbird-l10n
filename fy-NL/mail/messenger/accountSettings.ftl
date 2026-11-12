@@ -131,3 +131,162 @@ ews-oauthscopes-label =
 # Shown in Account Settings below the authentication method when OAuth2
 # settings are provided by an extension.
 oauth-provider-extension-info = OAuth2-ynstellingen levere troch útwreiding: <a data-l10n-name="extension">{ $extensionName }</a>
+
+## Incoming server settings
+
+account-settings-server-document-title = Serverynstellingen
+account-settings-server-type =
+    .value = Servertype:
+account-settings-server-name =
+    .value = Servernamme:
+    .accesskey = S
+account-settings-user-name =
+    .value = Brûkersnamme:
+    .accesskey = n
+account-settings-port =
+    .value = Poarte:
+    .accesskey = P
+account-settings-default-port =
+    .value = Standert:
+account-settings-connection-security =
+    .value = Ferbiningsfeilichheid:
+    .accesskey = b
+account-settings-connection-security-none =
+    .label = Gjin
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Op nije berjochten kontrolearje nei elke
+    .accesskey = k
+account-settings-minutes =
+    .value = minuten
+account-settings-automatically-download-new-messages =
+    .label = Nije berjochten automatysk downloade
+    .accesskey = m
+account-settings-fetch-headers-only =
+    .label = Allinnich berjochtkoppen ophelje
+    .accesskey = k
+account-settings-leave-messages-on-server =
+    .label = Berjochten op de server stean litte
+    .accesskey = h
+account-settings-leave-messages-for =
+    .label = Foar maksimaal
+    .accesskey = k
+account-settings-days =
+    .value = dagen
+account-settings-leave-messages-until-deleted =
+    .label = Oant ik se fuortsmyt
+    .accesskey = i
+account-settings-move-to-trash =
+    .label = It nei it jiskefet ferpleatse
+    .accesskey = j
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = My freegje foar it downloaden fan mear as
+    .accesskey = f
+account-settings-messages =
+    .value = berjochten
+account-settings-always-authenticate =
+    .label = Altyd freegje om autentikaasje by ferbinen mei dizze server
+    .accesskey = z
+account-settings-message-storage = Berjochteûnthâld
+account-settings-empty-trash-on-exit =
+    .label = Jiskefet leechmeitsje by ôfsluten
+    .accesskey = f
+account-settings-message-store-type =
+    .value = Type berjochteûnthâld:
+    .accesskey = T
+account-settings-message-store-mbox =
+    .label = Ien bestân per map (mbox)
+account-settings-message-store-maildir =
+    .label = Ien bestân per berjocht (maildir)
+account-settings-newsrc-file =
+    .value = Newsrc-bestân:
+account-settings-browse-newsrc =
+    .label = Blêdzje…
+    .accesskey = e
+    .filepickertitle = Newsrc-bestân selektearje
+account-settings-local-directory =
+    .value = Lokale map:
+account-settings-browse-local-directory =
+    .label = Blêdzje…
+    .accesskey = B
+    .filepickertitle = Selektearje lokale map
+account-settings-default-text-encoding =
+    .value = Standert tekenkodearing:
+
+## Local Folders and RSS account settings
+
+account-settings-document-title = Accountynstellingen
+account-settings-title =
+    .value = Accountynstellingen
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Dit is in spesjaal account. Der binne gjin identiteiten mei ferbûn.
+account-settings-account-name =
+    .value = Accountnamme:
+    .accesskey = A
+account-settings-rss-server-settings = Serverynstellingen
+account-settings-rss-enable-updates =
+    .label = Fernijingen foar alle feeds ynskeakelje
+    .accesskey = F
+account-settings-rss-new-feed-defaults = Standertynstellingen foar nijsfeeds
+account-settings-rss-manage-subscriptions =
+    .label = Abonneminten beheare…
+    .accesskey = b
+
+## Feed account wizard
+
+account-settings-rss-wizard-title = Feedaccounthelper
+account-settings-rss-default-account-name = Blogs & Nijsfeeds
+
+## Advanced server settings
+
+account-settings-advanced-server-title = Avansearre accountynstellingen
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = IMAP-servermap
+    .accesskey = m
+account-settings-imap-show-subscribed-folders =
+    .label = Allinnich oanmelde mappen toane
+    .accesskey = t
+account-settings-imap-dual-use-folders =
+    .label = Server stipet mappen mei submappen en berjochten
+    .accesskey = a
+account-settings-imap-maximum-connections =
+    .value = Maksimum tal serverferbiningen yn de buffer
+    .accesskey = M
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Dizze ynstellingen omskriuwe de namespaces op jo IMAP-server
+account-settings-imap-personal-namespace =
+    .value = Persoanlike namespace:
+    .accesskey = e
+account-settings-imap-public-namespace =
+    .value = Publyklik (dield):
+    .accesskey = u
+account-settings-imap-other-users-namespace =
+    .value = Oare brûkers:
+    .accesskey = b
+account-settings-imap-override-namespaces =
+    .label = Server tastean om dizze namespaces te negearjen
+    .accesskey = T
+account-settings-pop-inbox-description = By it downloaden fan e-mail fan dizze POP3-server, de folgjende map foar nije e-mail brûke:
+account-settings-pop-inbox-current-account =
+    .label = Postfek YN fan dizze account
+    .accesskey = P
+account-settings-pop-inbox-other-account =
+    .label = Postfek YN fan in oar account
+    .accesskey = r
+account-settings-pop-include-server =
+    .label = Dizze server by it opheljen fan nije berjochten belûke
+    .accesskey = b

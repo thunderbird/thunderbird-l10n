@@ -131,3 +131,162 @@ ews-oauthscopes-label =
 # Shown in Account Settings below the authentication method when OAuth2
 # settings are provided by an extension.
 oauth-provider-extension-info = 由 <a data-l10n-name="extension">{ $extensionName }</a> 擴充套件提供的 OAuth2 設定
+
+## Incoming server settings
+
+account-settings-server-document-title = 伺服器設定
+account-settings-server-type =
+    .value = 伺服器類型：
+account-settings-server-name =
+    .value = 伺服器名稱：
+    .accesskey = S
+account-settings-user-name =
+    .value = 使用者名稱：
+    .accesskey = N
+account-settings-port =
+    .value = Port：
+    .accesskey = P
+account-settings-default-port =
+    .value = 預設：
+account-settings-connection-security =
+    .value = 連線安全性：
+    .accesskey = u
+account-settings-connection-security-none =
+    .label = 無
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = 每
+    .accesskey = y
+account-settings-minutes =
+    .value = 分鐘檢查新郵件
+account-settings-automatically-download-new-messages =
+    .label = 自動下載所有新郵件或文章
+    .accesskey = m
+account-settings-fetch-headers-only =
+    .label = 只讀取標頭資訊
+    .accesskey = e
+account-settings-leave-messages-on-server =
+    .label = 不刪除伺服器上的郵件
+    .accesskey = g
+account-settings-leave-messages-for =
+    .label = 最多
+    .accesskey = o
+account-settings-days =
+    .value = 天
+account-settings-leave-messages-until-deleted =
+    .label = 直到我將它們刪除
+    .accesskey = d
+account-settings-move-to-trash =
+    .label = 移動到此信件匣：
+    .accesskey = o
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = 要下載超過
+    .accesskey = m
+account-settings-messages =
+    .value = 封
+account-settings-always-authenticate =
+    .label = 連線到此伺服器時一律要求認證
+    .accesskey = w
+account-settings-message-storage = 郵件儲存
+account-settings-empty-trash-on-exit =
+    .label = 結束時清空垃圾桶
+    .accesskey = x
+account-settings-message-store-type =
+    .value = 訊息儲存方式：
+    .accesskey = T
+account-settings-message-store-mbox =
+    .label = 為每個信件匣建立一個檔案（mbox）
+account-settings-message-store-maildir =
+    .label = 為每封訊息建立檔案（maildir）
+account-settings-newsrc-file =
+    .value = News.rc 檔案:
+account-settings-browse-newsrc =
+    .label = 瀏覽…
+    .accesskey = e
+    .filepickertitle = 選擇 News.rc 檔案
+account-settings-local-directory =
+    .value = 本機目錄：
+account-settings-browse-local-directory =
+    .label = 瀏覽…
+    .accesskey = B
+    .filepickertitle = 選取本地目錄
+account-settings-default-text-encoding =
+    .value = 預設文字編碼:
+
+## Local Folders and RSS account settings
+
+account-settings-document-title = 帳號設定
+account-settings-title =
+    .value = 帳號設定
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = 這是沒有任何身份資訊的特殊帳號。
+account-settings-account-name =
+    .value = 帳號名稱：
+    .accesskey = n
+account-settings-rss-server-settings = 伺服器設定
+account-settings-rss-enable-updates =
+    .label = 開啟更新所有資訊來源
+    .accesskey = E
+account-settings-rss-new-feed-defaults = 新資訊來源的預設設定
+account-settings-rss-manage-subscriptions =
+    .label = 管理訂閱清單…
+    .accesskey = M
+
+## Feed account wizard
+
+account-settings-rss-wizard-title = 資訊來源帳號精靈
+account-settings-rss-default-account-name = 部落格與新聞來源
+
+## Advanced server settings
+
+account-settings-advanced-server-title = 進階帳號設定
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = IMAP 伺服器目錄：
+    .accesskey = d
+account-settings-imap-show-subscribed-folders =
+    .label = 只顯示已訂閱目錄
+    .accesskey = w
+account-settings-imap-dual-use-folders =
+    .label = 伺服器支援含子目錄及郵件的目錄
+    .accesskey = f
+account-settings-imap-maximum-connections =
+    .value = 快取的最大伺服器連線數
+    .accesskey = M
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = 下列設定指定您的 IMAP 伺服器上的命名空間 (namespace)
+account-settings-imap-personal-namespace =
+    .value = 個人命名空間:
+    .accesskey = P
+account-settings-imap-public-namespace =
+    .value = 公開 (共享) 空間:
+    .accesskey = u
+account-settings-imap-other-users-namespace =
+    .value = 其它使用者：
+    .accesskey = O
+account-settings-imap-override-namespaces =
+    .label = 允許伺服器強制蓋掉這些命名空間
+    .accesskey = A
+account-settings-pop-inbox-description = 自此帳號的伺服器下載郵件時，使用下列信件匣來儲存新訊息：
+account-settings-pop-inbox-current-account =
+    .label = 此帳號的收件匣
+    .accesskey = s
+account-settings-pop-inbox-other-account =
+    .label = 不同帳號的「收件匣」
+    .accesskey = d
+account-settings-pop-include-server =
+    .label = 檢查新郵件時包含此伺服器
+    .accesskey = I

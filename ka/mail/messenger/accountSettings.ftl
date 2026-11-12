@@ -131,3 +131,162 @@ ews-oauthscopes-label =
 # Shown in Account Settings below the authentication method when OAuth2
 # settings are provided by an extension.
 oauth-provider-extension-info = OAuth2-გამართვა მოწოდებული გაფართოების მიერ: <a data-l10n-name="extension">{ $extensionName }</a>
+
+## Incoming server settings
+
+account-settings-server-document-title = სერვერის პარამეტრები
+account-settings-server-type =
+    .value = სერვერის სახეობა:
+account-settings-server-name =
+    .value = სერვერის სახელი:
+    .accesskey = ე
+account-settings-user-name =
+    .value = სახელი:
+    .accesskey = ს
+account-settings-port =
+    .value = პორტი:
+    .accesskey = პ
+account-settings-default-port =
+    .value = ნაგულისხმევი:
+account-settings-connection-security =
+    .value = კავშირის უსაფრთხოება:
+    .accesskey = უ
+account-settings-connection-security-none =
+    .label = არა
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = ახალი წერილის შემოწმება ყოველ
+    .accesskey = ყ
+account-settings-minutes =
+    .value = წუთში
+account-settings-automatically-download-new-messages =
+    .label = ახალი წერილების თვითჩამოტვირთვა
+    .accesskey = ა
+account-settings-fetch-headers-only =
+    .label = მხოლოდ თავსართების კითხვა
+    .accesskey = კ
+account-settings-leave-messages-on-server =
+    .label = წერილების დატოვება სერვერზე
+    .accesskey = დ
+account-settings-leave-messages-for =
+    .label = არა უმეტეს
+    .accesskey = უ
+account-settings-days =
+    .value = დღისა
+account-settings-leave-messages-until-deleted =
+    .label = წაშლამდე ან მიღებულებიდან გადმოტანამდე
+    .accesskey = გ
+account-settings-move-to-trash =
+    .label = გადატანა მოცემულ საქაღალდეში:
+    .accesskey = ო
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = ნებართვა, წერილების ჩამოტვირთვამდე, რომელთა რაოდენობაც აჭარბებს
+    .accesskey = ნ
+account-settings-messages =
+    .value = ერთეულს
+account-settings-always-authenticate =
+    .label = ამ სერვერთან დაკავშირებისას, ანგარიშზე შესვლის მოთხოვნა ყოველ ჯერზე
+    .accesskey = დ
+account-settings-message-storage = წერილების საცავი
+account-settings-empty-trash-on-exit =
+    .label = ურნის გასუფთავება გასვლისას
+    .accesskey = უ
+account-settings-message-store-type =
+    .value = წერილის შენახვის სახე:
+    .accesskey = ხ
+account-settings-message-store-mbox =
+    .label = თითოეული საქაღალდე ფაილში (mbox)
+account-settings-message-store-maildir =
+    .label = თითოეული წერილი ფაილში (maildir)
+account-settings-newsrc-file =
+    .value = News.rc ფაილი:
+account-settings-browse-newsrc =
+    .label = ამორჩევა…
+    .accesskey = ე
+    .filepickertitle = აირჩიეთ News.rc ფაილი
+account-settings-local-directory =
+    .value = ადგილობრივი საქაღალდე:
+account-settings-browse-local-directory =
+    .label = ამორჩევა…
+    .accesskey = მ
+    .filepickertitle = ადგილობრივი საქაღალდის არჩევა
+account-settings-default-text-encoding =
+    .value = ტექსტის ნაგულისხმევი კოდირება:
+
+## Local Folders and RSS account settings
+
+account-settings-document-title = ანგარიშის პარამეტრები
+account-settings-title =
+    .value = ანგარიშის პარამეტრები
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = ეს საგანგებო ანგარიშია.  იგი არავის ვინაობაზე არაა მიბმული.
+account-settings-account-name =
+    .value = ანგარიშის სახელი:
+    .accesskey = N
+account-settings-rss-server-settings = სერვერის პარამეტრები
+account-settings-rss-enable-updates =
+    .label = განახლებების ჩართვა, ყველა არხისთვის
+    .accesskey = ჩ
+account-settings-rss-new-feed-defaults = ნაგულისხმევი პარამეტრები, სიახლეების არხებისთვის
+account-settings-rss-manage-subscriptions =
+    .label = ხელმოწერათა მართვა…
+    .accesskey = წ
+
+## Feed account wizard
+
+account-settings-rss-wizard-title = არხის ანგარიშის მეგზური
+account-settings-rss-default-account-name = ბლოგები და სიახლეთა არხები
+
+## Advanced server settings
+
+account-settings-advanced-server-title = ანგარიშის დამატებითი პარამეტრები
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = IMAP სერვერის საქაღალდე:
+    .accesskey = დ
+account-settings-imap-show-subscribed-folders =
+    .label = მხოლოდ გამოწერილი საქაღალდეების ჩვენება
+    .accesskey = წ
+account-settings-imap-dual-use-folders =
+    .label = სერვერი მუშაობს იმ საქაღალდეებთანაც, რომლებიც ქვესაქაღალდეებსა და წერილებს შეიცავენ
+    .accesskey = ქ
+account-settings-imap-maximum-connections =
+    .value = სერვერთან კავშირების დასაშვები რაოდენობა მარაგისთვის
+    .accesskey = მ
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = ეს პარამეტრები მიუთითებს თქვენი IMAP სერვერის სახელთა არეებს
+account-settings-imap-personal-namespace =
+    .value = სახელთა პირადი არე:
+    .accesskey = პ
+account-settings-imap-public-namespace =
+    .value = საზოგადო (ზიარი):
+    .accesskey = ზ
+account-settings-imap-other-users-namespace =
+    .value = სხვა მომხმარებლების:
+    .accesskey = ხ
+account-settings-imap-override-namespaces =
+    .label = სერვერისთვის ამ სახელთა არეების გადაფარვის ნების დართვა
+    .accesskey = ნ
+account-settings-pop-inbox-description = ანგარიშის სერვერიდან წერილების ჩამოტვირთვისას, მოცემული საქაღალდის გამოყენება მათ შესანახად:
+account-settings-pop-inbox-current-account =
+    .label = ანგარიშის საფოსტო ყუთი
+    .accesskey = ს
+account-settings-pop-inbox-other-account =
+    .label = მიღებული წერილების საქაღალდე სხვა ანგარიშისთვის
+    .accesskey = ხ
+account-settings-pop-include-server =
+    .label = სერვერის მითითება ახალი ფოსტის მიღებისას
+    .accesskey = თ

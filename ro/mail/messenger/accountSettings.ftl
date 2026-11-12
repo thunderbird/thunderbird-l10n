@@ -72,3 +72,161 @@ ews-oauthscopes-label =
 # Shown in Account Settings below the authentication method when OAuth2
 # settings are provided by an extension.
 oauth-provider-extension-info = Setări OAuth2 oferite de extensie: <a data-l10n-name="extension">{ $extensionName }</a>
+
+## Incoming server settings
+
+account-settings-server-type =
+    .value = Tipul serverului:
+account-settings-server-name =
+    .value = Numele serverului:
+    .accesskey = S
+account-settings-user-name =
+    .value = Nume de utilizator:
+    .accesskey = N
+account-settings-port =
+    .value = Port:
+    .accesskey = P
+account-settings-default-port =
+    .value = Implicit:
+account-settings-connection-security =
+    .value = Securitatea conexiunii:
+    .accesskey = u
+account-settings-connection-security-none =
+    .label = Niciuna
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Caută mesaje noi la fiecare
+    .accesskey = u
+account-settings-minutes =
+    .value = minute
+account-settings-automatically-download-new-messages =
+    .label = Descarcă automat mesajele noi
+    .accesskey = D
+account-settings-fetch-headers-only =
+    .label = Descarcă doar anteturile
+    .accesskey = D
+account-settings-leave-messages-on-server =
+    .label = Lasă mesajele pe server
+    .accesskey = g
+account-settings-leave-messages-for =
+    .label = Pentru cel mult
+    .accesskey = o
+account-settings-days =
+    .value = zile
+account-settings-leave-messages-until-deleted =
+    .label = Până le șterg eu
+    .accesskey = d
+account-settings-move-to-trash =
+    .label = Mută-l în coșul de gunoi
+    .accesskey = M
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Întreabă-mă înainte de a descărca mai mult de
+    .accesskey = m
+account-settings-messages =
+    .value = mesaje
+account-settings-always-authenticate =
+    .label = Solicită întotdeauna autentificare la conectarea la acest server
+    .accesskey = a
+account-settings-message-storage = Stocare de mesaje
+account-settings-empty-trash-on-exit =
+    .label = Golește coșul de gunoi la ieșire
+    .accesskey = G
+account-settings-message-store-type =
+    .value = Tipul de stocare al mesajelor:
+    .accesskey = T
+account-settings-message-store-mbox =
+    .label = Fișier per dosar (mbox)
+account-settings-message-store-maildir =
+    .label = Fișiere per mesaj (maildir)
+account-settings-newsrc-file =
+    .value = Fișier News.rc:
+account-settings-browse-newsrc =
+    .label = Răsfoiește…
+    .accesskey = e
+    .filepickertitle = Selectează fișierul News.rc
+account-settings-local-directory =
+    .value = Director local:
+account-settings-browse-local-directory =
+    .label = Răsfoiește…
+    .accesskey = f
+    .filepickertitle = Selectează directorul local
+account-settings-default-text-encoding =
+    .value = Codarea implicită pentru text:
+
+## Local Folders and RSS account settings
+
+account-settings-document-title = Setări pentru cont
+account-settings-title =
+    .value = Setări pentru cont
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Acesta este un cont special. Cu acesta nu sunt asociate identități.
+account-settings-account-name =
+    .value = Denumirea contului:
+    .accesskey = N
+account-settings-rss-server-settings = Setări pentru server
+account-settings-rss-enable-updates =
+    .label = Activează actualizările pentru toate fluxurile
+    .accesskey = E
+account-settings-rss-new-feed-defaults = Setări implicite pentru fluxurile de știri
+account-settings-rss-manage-subscriptions =
+    .label = Gestionează abonamente…
+    .accesskey = m
+
+## Feed account wizard
+
+account-settings-rss-wizard-title = Asistent conturi de flux
+account-settings-rss-default-account-name = Bloguri și fluxuri de știri
+
+## Advanced server settings
+
+account-settings-advanced-server-title = Setări avansate pentru cont
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = Director pe serverul IMAP:
+    .accesskey = D
+account-settings-imap-show-subscribed-folders =
+    .label = Afișează doar dosarele la care sunt abonat(ă)
+    .accesskey = b
+account-settings-imap-dual-use-folders =
+    .label = Serverul suportă dosare care conțin subdosare și mesaje
+    .accesskey = v
+account-settings-imap-maximum-connections =
+    .value = Număr maxim de conexiuni memorate temporar
+    .accesskey = x
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Aceste preferințe specifică spații de nume de pe serverul IMAP
+account-settings-imap-personal-namespace =
+    .value = Spațiu de nume personal:
+    .accesskey = P
+account-settings-imap-public-namespace =
+    .value = Public (partajat):
+    .accesskey = P
+account-settings-imap-other-users-namespace =
+    .value = Alți utilizatori:
+    .accesskey = O
+account-settings-imap-override-namespaces =
+    .label = Permite serverului să suprascrie aceste spații de nume
+    .accesskey = A
+account-settings-pop-inbox-description = Când se descarcă mesajele de serverul acestui cont, folosește următorul dosar pentru mesajele noi:
+account-settings-pop-inbox-current-account =
+    .label = Căsuță poștală pentru acest cont
+    .accesskey = s
+account-settings-pop-inbox-other-account =
+    .label = Căsuța poștală pentru cont diferit
+    .accesskey = d
+account-settings-pop-include-server =
+    .label = Include acest server la recepționarea mesajelor noi
+    .accesskey = I

@@ -131,3 +131,162 @@ ews-oauthscopes-label =
 # Shown in Account Settings below the authentication method when OAuth2
 # settings are provided by an extension.
 oauth-provider-extension-info = Nastavení OAuth2 poskytnuto rozšířením: <a data-l10n-name="extension">{ $extensionName }</a>
+
+## Incoming server settings
+
+account-settings-server-document-title = Nastavení serveru
+account-settings-server-type =
+    .value = Typ serveru:
+account-settings-server-name =
+    .value = Adresa serveru:
+    .accesskey = e
+account-settings-user-name =
+    .value = Uživatelské jméno:
+    .accesskey = J
+account-settings-port =
+    .value = Port:
+    .accesskey = o
+account-settings-default-port =
+    .value = Výchozí:
+account-settings-connection-security =
+    .value = Zabezpečení spojení:
+    .accesskey = b
+account-settings-connection-security-none =
+    .label = Žádné
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = Kontrolovat nové zprávy každých
+    .accesskey = K
+account-settings-minutes =
+    .value = minut
+account-settings-automatically-download-new-messages =
+    .label = Automaticky stahovat nové zprávy
+    .accesskey = m
+account-settings-fetch-headers-only =
+    .label = Stahovat pouze hlavičky zpráv
+    .accesskey = h
+account-settings-leave-messages-on-server =
+    .label = Ponechat zprávy na serveru
+    .accesskey = z
+account-settings-leave-messages-for =
+    .label = nejdéle po dobu
+    .accesskey = n
+account-settings-days =
+    .value = dnů
+account-settings-leave-messages-until-deleted =
+    .label = dokud je nesmažu
+    .accesskey = d
+account-settings-move-to-trash =
+    .label = Přesunout zprávu do této složky:
+    .accesskey = n
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Zobrazit dotaz před načtením více než
+    .accesskey = Z
+account-settings-messages =
+    .value = zpráv
+account-settings-always-authenticate =
+    .label = Při připojování na tento server vždy požadovat autentizaci
+    .accesskey = v
+account-settings-message-storage = Úložiště zpráv
+account-settings-empty-trash-on-exit =
+    .label = Při ukončení vysypat koš
+    .accesskey = u
+account-settings-message-store-type =
+    .value = Typ úložiště zpráv:
+    .accesskey = T
+account-settings-message-store-mbox =
+    .label = Soubor pro každou složku (mbox)
+account-settings-message-store-maildir =
+    .label = Soubor pro každou zprávu (maildir)
+account-settings-newsrc-file =
+    .value = Soubor News.rc:
+account-settings-browse-newsrc =
+    .label = Procházet…
+    .accesskey = r
+    .filepickertitle = Vyberte soubor News.rc
+account-settings-local-directory =
+    .value = Místní adresář:
+account-settings-browse-local-directory =
+    .label = Procházet…
+    .accesskey = P
+    .filepickertitle = Vyberte místní adresář
+account-settings-default-text-encoding =
+    .value = Výchozí znaková sada textu:
+
+## Local Folders and RSS account settings
+
+account-settings-document-title = Nastavení účtu
+account-settings-title =
+    .value = Nastavení účtu
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Toto je speciální účet. Tento účet nemá přiřazeny žádné identity.
+account-settings-account-name =
+    .value = Název účtu:
+    .accesskey = N
+account-settings-rss-server-settings = Nastavení serveru
+account-settings-rss-enable-updates =
+    .label = Povolit aktualizace pro všechny kanály
+    .accesskey = P
+account-settings-rss-new-feed-defaults = Výchozí nastavení pro nové kanály
+account-settings-rss-manage-subscriptions =
+    .label = Správce RSS kanálů…
+    .accesskey = S
+
+## Feed account wizard
+
+account-settings-rss-wizard-title = Průvodce vytvořením účtu pro kanály
+account-settings-rss-default-account-name = Kanály blogů a novinek
+
+## Advanced server settings
+
+account-settings-advanced-server-title = Rozšířené nastavení účtu
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = Adresář serveru IMAP:
+    .accesskey = A
+account-settings-imap-show-subscribed-folders =
+    .label = Zobrazit pouze odebírané složky
+    .accesskey = b
+account-settings-imap-dual-use-folders =
+    .label = Server podporuje složky, které obsahují podsložky se zprávami
+    .accesskey = S
+account-settings-imap-maximum-connections =
+    .value = Maximální počet spojení serveru do mezipaměti
+    .accesskey = M
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Tyto předvolby určují jmenné prostory na serveru IMAP
+account-settings-imap-personal-namespace =
+    .value = Osobní prostor:
+    .accesskey = O
+account-settings-imap-public-namespace =
+    .value = Veřejný (sdílený):
+    .accesskey = e
+account-settings-imap-other-users-namespace =
+    .value = Ostatní uživatelé:
+    .accesskey = u
+account-settings-imap-override-namespaces =
+    .label = Povolit serveru přepsat tyto jmenné prostory
+    .accesskey = P
+account-settings-pop-inbox-description = Staženou poštu ze serveru tohoto účtu uložit v následující složce:
+account-settings-pop-inbox-current-account =
+    .label = Doručená pošta v tomto účtu
+    .accesskey = d
+account-settings-pop-inbox-other-account =
+    .label = Doručená pošta v jiném účtu
+    .accesskey = r
+account-settings-pop-include-server =
+    .label = Při stahování nové pošty stahovat i z tohoto serveru
+    .accesskey = t
