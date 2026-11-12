@@ -53,9 +53,26 @@ account-settings-message-store-mbox =
     .label = Afaylu i wekaram(mbox)
 account-settings-message-store-maildir =
     .label = Afaylu i yizen (maildir)
+account-settings-newsrc-file =
+    .value = Afaylu News.rc:
+account-settings-browse-newsrc =
+    .label = Ḍum…
+    .accesskey = u
+    .filepickertitle = Fren afaylu News.rc
+account-settings-local-directory =
+    .value = Akaram adigan:
+account-settings-browse-local-directory =
+    .label = Ḍum…
+    .accesskey = Ḍ
+    .filepickertitle = Fren akaram adigan
+account-settings-default-text-encoding =
+    .value = Asettengel n uḍris amezwer:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Iɣewwaṛen amiḍan
+account-settings-title =
+    .value = Iɣewwaṛen amiḍan
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
