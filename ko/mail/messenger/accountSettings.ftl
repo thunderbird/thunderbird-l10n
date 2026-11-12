@@ -99,6 +99,7 @@ oauth-provider-extension-info = 확장 기능이 OAuth2 설정을 제공함: <a 
 
 ## Incoming server settings
 
+account-settings-server-document-title = 서버 설정
 account-settings-server-type =
     .value = 서버 종류:
 account-settings-server-name =
@@ -121,6 +122,13 @@ account-settings-connection-security-starttls =
     .label = STARTTLS
 account-settings-connection-security-ssl-tls =
     .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = 새 메시지 확인
+    .accesskey = y
+account-settings-minutes =
+    .value = 분 마다
 account-settings-automatically-download-new-messages =
     .label = 새 메시지를 자동으로 받아오기
     .accesskey = m
