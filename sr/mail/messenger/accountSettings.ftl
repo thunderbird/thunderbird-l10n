@@ -72,3 +72,24 @@ ews-oauthscopes-label =
 # Shown in Account Settings below the authentication method when OAuth2
 # settings are provided by an extension.
 oauth-provider-extension-info = OAuth2 подешавања која је обезбедио додатак: <a data-l10n-name="extension">{ $extensionName }</a>
+
+## Incoming server settings
+
+
+## Local Folders and RSS account settings
+
+account-settings-rss-enable-updates =
+    .label = Омогући ажурирања за све доводе
+    .accesskey = г
+account-settings-rss-new-feed-defaults = Подразумевана подешавања за нове доводе
+account-settings-rss-manage-subscriptions =
+    .label = Управљајте претплатама…
+    .accesskey = У
+
+## Feed account wizard
+
+account-settings-rss-wizard-title = Чаробњак за налоге довода
+account-settings-rss-default-account-name = Блогови и доводи вести
+
+## Advanced server settings
+
