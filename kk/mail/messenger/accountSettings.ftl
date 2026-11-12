@@ -137,6 +137,13 @@ oauth-provider-extension-info = OAuth2 параметрлері келесі к�
 
 ## Local Folders and RSS account settings
 
+account-settings-rss-enable-updates =
+    .label = Барлық таспалар үшін жаңартуларды іске қосу
+    .accesskey = е
+account-settings-rss-new-feed-defaults = Жаңа таспалар үшін бастапқы баптаулары
+account-settings-rss-manage-subscriptions =
+    .label = Жазылуларды басқару…
+    .accesskey = б
 
 ## Feed account wizard
 
