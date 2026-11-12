@@ -159,6 +159,12 @@ account-settings-connection-security-ssl-tls =
 account-settings-automatically-download-new-messages =
     .label = Discargar automaticamente altere messages
     .accesskey = m
+account-settings-fetch-headers-only =
+    .label = Reportar solo titulos
+    .accesskey = e
+account-settings-leave-messages-on-server =
+    .label = Lassar messages sur le servitor
+    .accesskey = g
 account-settings-leave-messages-for =
     .label = Non plus de
     .accesskey = o
@@ -167,6 +173,9 @@ account-settings-days =
 account-settings-leave-messages-until-deleted =
     .label = Usque io dele illos
     .accesskey = d
+account-settings-move-to-trash =
+    .label = Displaciar lo a iste dossier:
+    .accesskey = o
 # The label is followed by a numerical input and the message
 # account-settings-messages.
 account-settings-ask-before-download =
@@ -174,12 +183,40 @@ account-settings-ask-before-download =
     .accesskey = M
 account-settings-messages =
     .value = messages
+account-settings-always-authenticate =
+    .label = Sempre demandar authentication quando se connecte a iste servitor
+    .accesskey = s
 account-settings-message-storage = Immagazinage de message
+account-settings-empty-trash-on-exit =
+    .label = Vacuar le corbe a papiro al exito
+    .accesskey = x
+account-settings-message-store-type =
+    .value = Typo de stockage del message:
+    .accesskey = T
+account-settings-message-store-mbox =
+    .label = File per dossier (mbox)
+account-settings-message-store-maildir =
+    .label = File per message (maildir)
 account-settings-newsrc-file =
     .value = File news.rc:
+account-settings-browse-newsrc =
+    .label = Percurrer…
+    .accesskey = e
+    .filepickertitle = Seliger le file news.rc
+account-settings-local-directory =
+    .value = Directorio local:
+account-settings-browse-local-directory =
+    .label = Percurrer…
+    .accesskey = P
+    .filepickertitle = Selige directorio local
+account-settings-default-text-encoding =
+    .value = Codification del testo predefinite:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Parametros de contos
+account-settings-title =
+    .value = Parametros de contos
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
@@ -187,6 +224,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = Le sequente es un conto special.  Illo non ha identitates associate.
 account-settings-account-name =
     .value = Nomine del conto:
     .accesskey = N
