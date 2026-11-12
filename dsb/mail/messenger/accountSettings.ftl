@@ -180,6 +180,7 @@ account-settings-imap-other-users-namespace =
 account-settings-imap-override-namespaces =
     .label = Serweroju dowóliś toś te mjenjowe rumy pśepisaś
     .accesskey = m
+account-settings-pop-inbox-description = Gaž ześěgujośo e-mail wót serwera toś togo konta, wužywajśo slědujucy zarědnik, aby nowe powěsći składował:
 account-settings-pop-inbox-current-account =
     .label = Dochad posta za toś to konto
     .accesskey = t
