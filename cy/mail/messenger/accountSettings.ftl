@@ -131,3 +131,24 @@ ews-oauthscopes-label =
 # Shown in Account Settings below the authentication method when OAuth2
 # settings are provided by an extension.
 oauth-provider-extension-info = Gosodiadau OAuth2 estyniad: <a data-l10n-name="extension">{ $extensionName }</a>
+
+## Incoming server settings
+
+
+## Local Folders and RSS account settings
+
+account-settings-rss-enable-updates =
+    .label = Galluogi diweddariad i bob llif
+    .accesskey = G
+account-settings-rss-new-feed-defaults = Y Gosodiadau Rhagosodedig i Lif Newydd
+account-settings-rss-manage-subscriptions =
+    .label = Rheoli Tanysgrifiadau…
+    .accesskey = T
+
+## Feed account wizard
+
+account-settings-rss-wizard-title = Dewin Cyfrif Llif
+account-settings-rss-default-account-name = Blogiau a Llif Newyddion
+
+## Advanced server settings
+
