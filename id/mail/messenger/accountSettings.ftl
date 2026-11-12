@@ -72,3 +72,17 @@ ews-oauthscopes-label =
 # Shown in Account Settings below the authentication method when OAuth2
 # settings are provided by an extension.
 oauth-provider-extension-info = Pengaturan OAuth2 disediakan oleh ekstensi: <a data-l10n-name="extension">{ $extensionName }</a>
+
+## Incoming server settings
+
+
+## Local Folders and RSS account settings
+
+
+## Feed account wizard
+
+account-settings-rss-wizard-title = Wisaya Akun Umpan
+account-settings-rss-default-account-name = Feed Blog & Berita
+
+## Advanced server settings
+
