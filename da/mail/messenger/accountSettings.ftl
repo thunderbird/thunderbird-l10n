@@ -94,3 +94,40 @@ account-settings-rss-default-account-name = Feeds & blogs
 ## Advanced server settings
 
 account-settings-advanced-server-title = Avancerede kontoindstillinger
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = IMAP-servermappe:
+    .accesskey = I
+account-settings-imap-show-subscribed-folders =
+    .label = Vis kun mapper der abonneres på
+    .accesskey = V
+account-settings-imap-dual-use-folders =
+    .label = Serveren understøtter mapper med undermapper og meddelelser
+    .accesskey = u
+account-settings-imap-maximum-connections =
+    .value = Maksimalt antal serverforbindelser der tilsluttes
+    .accesskey = M
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Disse egenskaber angiver navneområder for din IMAP-server
+account-settings-imap-personal-namespace =
+    .value = Personligt navneområde:
+    .accesskey = P
+account-settings-imap-public-namespace =
+    .value = Offentlig (delt):
+    .accesskey = O
+account-settings-imap-other-users-namespace =
+    .value = Andre brugere:
+    .accesskey = A
+account-settings-imap-override-namespaces =
+    .label = Tillad serveren at se bort fra disse navneområder
+    .accesskey = n
+account-settings-pop-inbox-description = Når der hentes mails fra denne kontos server, så benyt følgende mapper til nye meddelelser:
+account-settings-pop-inbox-current-account =
+    .label = Indbakke for denne konto
+    .accesskey = I
+account-settings-pop-inbox-other-account =
+    .label = Indbakke for en anden konto
+    .accesskey = a
+account-settings-pop-include-server =
+    .label = Medtag denne konto, når der hentes nye meddelelser
+    .accesskey = M
