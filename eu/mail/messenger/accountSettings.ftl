@@ -152,3 +152,9 @@ account-settings-rss-default-account-name = Blogen eta albisteen jarioak
 
 ## Advanced server settings
 
+account-settings-imap-show-subscribed-folders =
+    .label = Erakutsi harpidetutako karpetak bakarrik
+    .accesskey = r
+account-settings-imap-dual-use-folders =
+    .label = Zerbitzariak azpikarpetak eta mezuak dituzten karpetak onartzen ditu
+    .accesskey = k
