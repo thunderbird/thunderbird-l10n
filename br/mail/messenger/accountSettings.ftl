@@ -5,9 +5,55 @@
 
 ## Incoming server settings
 
+account-settings-server-type =
+    .value = Rizh an dafariad :
+account-settings-server-name =
+    .value = Anv dafariad :
+    .accesskey = d
+account-settings-user-name =
+    .value = Anv arveriad :
+    .accesskey = n
+account-settings-port =
+    .value = Porzh:
+    .accesskey = P
+account-settings-default-port =
+    .value = Diouer:
+account-settings-automatically-download-new-messages =
+    .label = Pellgargañ ar c'hemennadennoù nevez ent emgefreek
+    .accesskey = m
+account-settings-move-to-trash =
+    .label = Dilec'hiañ hi en teuliad Lastez
+    .accesskey = i
+# The label is followed by a numerical input and the message
+# account-settings-messages.
+account-settings-ask-before-download =
+    .label = Goulenn ganin a-raok pellgargañ muioc'h eget
+    .accesskey = m
+account-settings-messages =
+    .value = a gemennadennoù
+account-settings-always-authenticate =
+    .label = Azgoulenn atav an dilesa pa vez kennasket ouzh an dafariad
+    .accesskey = t
+account-settings-message-storage = Kadaviñ ar c'hemennadennoù
+account-settings-empty-trash-on-exit =
+    .label = Goullonderiñ ar gest en ur guitaat
+    .accesskey = l
+account-settings-newsrc-file =
+    .value = Restr news.rc:
 
 ## Local Folders and RSS account settings
 
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
+account-settings-account-name =
+    .value = Anv kont :
+    .accesskey = A
+account-settings-rss-server-settings = Arventennoù an dafariad
 account-settings-rss-enable-updates =
     .label = Gweredekaat an hizivadurioù evit an holl lanvioù
     .accesskey = h
