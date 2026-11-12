@@ -78,3 +78,30 @@ account-settings-rss-default-account-name = Uutiset ja blogit
 
 ## Advanced server settings
 
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = IMAP-palvelinhakemisto:
+    .accesskey = I
+account-settings-imap-show-subscribed-folders =
+    .label = Näytä vain tilatut kansiot
+    .accesskey = N
+account-settings-imap-dual-use-folders =
+    .label = Palvelin tukee kansioita, joissa on alikansioita ja viestejä
+    .accesskey = P
+account-settings-imap-maximum-connections =
+    .value = Suurin sallittu määrä välimuistiin tallennettuja palvelinyhteyksiä
+    .accesskey = S
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Nämä asetukset määrittävät IMAP-palvelimesi nimiavaruudet
+account-settings-imap-personal-namespace =
+    .value = Käyttäjäkohtainen:
+    .accesskey = ä
+account-settings-imap-public-namespace =
+    .value = Julkinen (yhteiskäytössä):
+    .accesskey = u
+account-settings-imap-other-users-namespace =
+    .value = Muut käyttäjät:
+    .accesskey = M
+account-settings-imap-override-namespaces =
+    .label = Palvelin voi korvata nämä nimiavaruudet
+    .accesskey = a
