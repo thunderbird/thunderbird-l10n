@@ -78,6 +78,13 @@ oauth-provider-extension-info = OAuth2-innstillingar leverte av utvidinga: <a da
 
 ## Local Folders and RSS account settings
 
+account-settings-rss-enable-updates =
+    .label = Slå på oppdateringar for alle nyheitskjelder
+    .accesskey = S
+account-settings-rss-new-feed-defaults = Standardinnstillingar for nye nyheitskjelder
+account-settings-rss-manage-subscriptions =
+    .label = Handsame abonnement…
+    .accesskey = B
 
 ## Feed account wizard
 
