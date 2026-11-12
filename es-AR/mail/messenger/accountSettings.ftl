@@ -152,3 +152,4 @@ account-settings-rss-default-account-name = Blogs y canales de noticias
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = Configuración avanzada de cuentas
