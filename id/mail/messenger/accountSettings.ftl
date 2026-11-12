@@ -93,3 +93,31 @@ account-settings-rss-default-account-name = Feed Blog & Berita
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = Pengaturan Akun Canggih
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = Direktori server IMAP:
+    .accesskey = D
+account-settings-imap-show-subscribed-folders =
+    .label = Hanya tampilkan folder yang dilanggan
+    .accesskey = l
+account-settings-imap-dual-use-folders =
+    .label = Server mendukung folder yang berisi subfolder dan pesan
+    .accesskey = f
+account-settings-imap-maximum-connections =
+    .value = Jumlah sambungan maksimum ke server yang disimpan pada tembolok
+    .accesskey = m
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Pengaturan ini menentukan namespace pada server IMAP Anda
+account-settings-imap-personal-namespace =
+    .value = Namespace personal:
+    .accesskey = p
+account-settings-imap-public-namespace =
+    .value = Publik (berbagi-pakai):
+    .accesskey = b
+account-settings-imap-other-users-namespace =
+    .value = Pengguna Lain:
+    .accesskey = L
+account-settings-imap-override-namespaces =
+    .label = Izinkan server untuk mengganti namespace ini
+    .accesskey = I
