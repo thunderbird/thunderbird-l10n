@@ -152,6 +152,35 @@ account-settings-rss-default-account-name = Blogiau a Llif Newyddion
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = Gosodiadau Cyfrifon Uwch
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = Cyfeiriadur gweinydd IMAP:
+    .accesskey = g
+account-settings-imap-show-subscribed-folders =
+    .label = Dangos ffolderi tanysgrifiwyd iddynt
+    .accesskey = t
+account-settings-imap-dual-use-folders =
+    .label = Mae'r gweinydd yn cynnal ffolderi sy'n cynnwys is-ffolderi a negeseuon
+    .accesskey = f
+account-settings-imap-maximum-connections =
+    .value = Uchafswm cysylltiadau gweinydd i'r storfa
+    .accesskey = U
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Mae'r dewisiadau yn pennu bwlchenw ar eich gweinydd IMAP
+account-settings-imap-personal-namespace =
+    .value = Bwlchenw personol:
+    .accesskey = B
+account-settings-imap-public-namespace =
+    .value = Cyhoeddus (rhannu):
+    .accesskey = y
+account-settings-imap-other-users-namespace =
+    .value = Defnyddwyr Eraill:
+    .accesskey = D
+account-settings-imap-override-namespaces =
+    .label = Caniatáu i'r gweinydd i wrth-wneud y bylchau enw
+    .accesskey = C
+account-settings-pop-inbox-description = Wrth lwytho e-bost i lawr o weinydd y cyfrif, defnyddiwch y ffolder ganlynol i gadw’r negeseuon newydd:
 account-settings-pop-inbox-current-account =
     .label = Blwch Derbyn y cyfrif hwn
     .accesskey = c
