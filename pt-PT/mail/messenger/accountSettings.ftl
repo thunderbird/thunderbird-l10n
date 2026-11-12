@@ -157,6 +157,8 @@ account-settings-connection-security-ssl-tls =
 account-settings-leave-messages-on-server =
     .label = Manter mensagens no servidor
     .accesskey = v
+account-settings-days =
+    .value = dias
 # The label is followed by a numerical input and the message
 # account-settings-messages.
 account-settings-ask-before-download =
@@ -168,9 +170,26 @@ account-settings-always-authenticate =
     .label = Pedir sempre autenticação ao ligar a este servidor
     .accesskey = u
 account-settings-message-storage = Armazenamento de mensagens
+account-settings-newsrc-file =
+    .value = Ficheiro News.rc:
+account-settings-browse-newsrc =
+    .label = Procurar...
+    .accesskey = r
+    .filepickertitle = Selecione o ficheiro News.rc
+account-settings-local-directory =
+    .value = Diretório local:
+account-settings-browse-local-directory =
+    .label = Procurar...
+    .accesskey = P
+    .filepickertitle = Selecione o diretório local
+account-settings-default-text-encoding =
+    .value = Codificação predefinida:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Definições da conta
+account-settings-title =
+    .value = Definições da conta
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
