@@ -15,6 +15,19 @@ messenger-save-message-failed = ذخیرهٔ پیام ممکن نیست. لطف�
 # Variables:
 # $filename (String) - Full path of the file that already exists.
 messenger-file-exists = { $filename } از قبل وجود دارد. می‌خواهید جایگزین شود؟
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+folder-file-not-found = پروندهٔ «{ $folder }» در { $server } پیدا نشد. پرونده را بازیابی کنید یا پوشهٔ مقصد دیگری انتخاب کنید و سپس دوباره تلاش کنید.
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+folder-file-access-denied = دسترسی به «{ $folder }» در { $server } ممکن نیست. مجوزهای پروندهٔ این پوشه را بررسی کنید و سپس دوباره تلاش کنید.
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+# $errorCode (String) - The hexadecimal filesystem error code.
+folder-file-error = دسترسی به «{ $folder }» در { $server } ممکن نیست. بررسی کنید که پرونده‌های این پوشه در دسترس و قابل نوشتن باشند و سپس دوباره تلاش کنید. خطا: { $errorCode }
 
 ## Window controls
 
@@ -277,6 +290,8 @@ appmenu-save-as-file =
     .label = پرونده…
 appmenu-settings =
     .label = تنظیمات
+appmenu-accounts =
+    .label = حساب‌ها
 appmenu-addons-and-themes =
     .label = برافزاها و پوسته‌ها
 
@@ -496,6 +511,8 @@ spaces-context-switch-tab-item =
     .label = رفتن به { $tabName }
 settings-context-open-settings-item2 =
     .label = تنظیمات
+settings-context-open-accounts-item =
+    .label = حساب‌ها
 settings-context-open-account-settings-item2 =
     .label = تنظیمات حساب
 settings-context-open-addons-item2 =

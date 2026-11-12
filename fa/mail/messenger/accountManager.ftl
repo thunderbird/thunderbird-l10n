@@ -36,3 +36,4 @@ panel-settings-spam = تنظیمات هرزنامه
 # $account (String) - The account name.
 spam-settings-alert-message = مشکلی در تنظیمات هرزنامهٔ { $account } تشخیص داده شد. می‌خواهید پیش از ذخیرهٔ تغییرات آن‌ها را بازبینی کنید؟
 open-settings-sidebar-button = تنظیمات
+account-manager-document-title = حساب‌ها

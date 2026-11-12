@@ -10,6 +10,9 @@ category-list =
 pane-general-title = عمومی
 category-general =
     .tooltiptext = { pane-general-title }
+pane-notifications-title = آگاهی‌ها
+category-notifications =
+    .tooltiptext = { pane-notifications-title }
 pane-appearance-title = ظاهر
 category-appearance =
     .tooltiptext = { pane-appearance-title }
@@ -31,6 +34,10 @@ category-sync =
 pane-qr-export-title = برون‌ریزی برای تلفن همراه
 category-qr-export =
     .tooltiptext = برون‌ریزی برای تلفن همراه
+pane-beta-features-title = ویژگی‌های بتا
+category-beta-features =
+    .tooltiptext = { pane-beta-features-title }
+experimental-features-legend = ویژگی‌های آزمایشی
 general-language-and-fonts-header = زبان و قلم‌ها
 general-email-notifications-header = آگاهی‌های رایانامه
 general-incoming-mail-header = رایانامه‌های ورودی
@@ -116,6 +123,7 @@ update-in-progress-ok-button = &دور ریختن
 # Continue is the cancel button so pressing escape or using a platform standard
 # method of closing the UI will not discard the update.
 update-in-progress-cancel-button = &ادامه
+accounts-button = حساب‌ها
 account-button = تنظیمات حساب
 open-addons-sidebar-button = برافزاها و پوسته‌ها
 manual-storage-limit-label =
@@ -622,6 +630,7 @@ show-conversation-view-label =
     .label = نمایش نمای گفت‌وگو
     .accesskey = گ
 conversation-view-preview-description = این یک ویژگی پیش‌نمایش اولیه است. پیام‌های مرتبط را با هم گروه‌بندی می‌کند، اما ممکن است همیشه آن‌طور که انتظار می‌رود کار نکند.
+conversation-view-settings-link = پیکربندی نمای گفت‌وگو در ویژگی‌های بتا
 conversation-view-checkbox-label =
     .label = به‌کار انداختن نمای گفت‌وگو
     .accesskey = گ
@@ -669,6 +678,7 @@ new-calendar-legend = پنجرهٔ جدید رویداد تقویم
 new-calendar-checkbox-label =
     .label = نمایش رویدادهای تقویم در پنجرهٔ جدید
 new-calendar-checkbox-description = پنجرهٔ آزمایشی جدید تقویم برای دیدن رویدادها
+new-calendar-dialog-settings-link = پیکربندی پنجرهٔ جدید رویداد تقویم در ویژگی‌های بتا
 
 ## Compose Tab
 

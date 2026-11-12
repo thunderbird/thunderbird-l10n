@@ -102,6 +102,12 @@ compose-blocked-content-preferences-accesskey = P
 # $url - URL of the blocked resource
 compose-unblock-resource =
     .label = رفع مسدودی { $url }
+menuitem-resize-header-area =
+    .label = تغییر اندازهٔ ناحیهٔ سرآیند
+    .accesskey = ت
+compose-header-area-splitter =
+    .aria-description = برای تغییر اندازه از کلیدهای بالا و پایین استفاده کنید؛ همراه با Shift، گام‌ها بزرگ‌تر می‌شوند. برای رفتن به ویرایشگر Tab و برای رفتن به موضوع Shift+Tab را فشار دهید.
+    .aria-label = ناحیهٔ سرآیند
 
 ## Send Format
 

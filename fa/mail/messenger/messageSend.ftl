@@ -90,6 +90,13 @@ smtp-auth-hint-plain-to-encrypt = کارساز خروجی (SMTP) { $hostname } �
 smtp-auth-failure = احراز هویت با کارساز خروجی (SMTP) { $hostname } ممکن نیست. لطفاً گذرواژه را بررسی کنید و «روش احراز هویت» را در «تنظیمات حساب | کارساز خروجی (SMTP)» بازبینی کنید.
 # Variables:
 # $hostname - outgoing server hostname
+# $serverResponse - server response
+smtp-auth-oauth2-failure = احراز هویت در کارساز خروجی (SMTP) { $hostname } با OAuth2 ممکن نشد. پاسخ کارساز: { $serverResponse }
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-oauth2-failure-no-response = احراز هویت در کارساز خروجی (SMTP) { $hostname } با OAuth2 ممکن نشد.
+# Variables:
+# $hostname - outgoing server hostname
 smtp-auth-gssapi = کارساز خروجی (SMTP) { $hostname } بلیت Kerberos/GSSAPI را نپذیرفت. لطفاً بررسی کنید که به قلمرو Kerberos/GSSAPI وارد شده باشید.
 # Variables:
 # $hostname - outgoing server hostname

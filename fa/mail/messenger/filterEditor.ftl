@@ -33,6 +33,24 @@ filter-failure-move-failed = انتقال ناموفق بود
 filter-failure-copy-failed = رونوشت ناموفق بود
 filter-failure-action = اعمال کنش پالایه ناموفق بود
 # Variables:
+# $folder (String) - The URI of the destination folder.
+# $errorCode (String) - The hexadecimal error code for the batch.
+filter-copy-batch-failed = رونوشت پیام‌ها در { $folder } کامل نشد. ممکن است برخی پیام‌ها رونوشت شده باشند. خطا: { $errorCode }. شناسه‌های پیام‌های درخواستی: { filter-batch-message-ids }
+# Variables:
+# $folder (String) - The URI of the destination folder.
+# $errorCode (String) - The hexadecimal error code for the batch.
+filter-move-batch-failed = انتقال پیام‌ها به { $folder } کامل نشد. ممکن است برخی پیام‌ها رونوشت شده باشند، بی‌آنکه از پوشهٔ مبدأ برداشته شوند. خطا: { $errorCode }. شناسه‌های پیام‌های درخواستی: { filter-batch-message-ids }
+# Referenced by filter-copy-batch-failed and filter-move-batch-failed.
+# Variables:
+# $messageIds (String) - Up to 20 requested message IDs, separated by commas.
+# $count (Number) - The number of additional requested messages whose IDs are omitted.
+filter-batch-message-ids =
+    { $count ->
+        [0] { $messageIds }
+        [one] { $messageIds } و { $count } پیام دیگر
+       *[other] { $messageIds } و { $count } پیام دیگر
+    }
+# Variables:
 # $filterName (String) - The name of the filter that was applied.
 # $author (String) - The sender of the message.
 # $subject (String) - The subject line of the message.

@@ -33,6 +33,10 @@ about-addressbook-card-count = مجموع مخاطبان در { $name }: { $coun
 # Variables:
 # $count (Number) - The number of contacts in all address books.
 about-addressbook-card-count-all = مجموع مخاطبان در همهٔ دفترچه‌های نشانی: { $count }
+about-addressbook-books-context-new-contact =
+    .label = مخاطب جدید
+about-addressbook-books-context-new-list =
+    .label = فهرست جدید
 about-addressbook-books-context-properties =
     .label = ویژگی‌ها
 about-addressbook-books-context-edit-list =

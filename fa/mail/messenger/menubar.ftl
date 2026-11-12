@@ -12,6 +12,13 @@ system-tray-app-name = { -brand-full-name }
 menu-tools-settings =
     .label = تنظیمات
     .accesskey = ت
+menu-accounts =
+    .label = حساب‌ها
+    .accesskey =
+        { PLATFORM() ->
+            [linux] ح
+           *[other] ح
+        }
 menu-addons-and-themes =
     .label = برافزاها و پوسته‌ها
     .accesskey = ب

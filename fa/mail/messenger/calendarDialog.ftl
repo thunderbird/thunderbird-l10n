@@ -11,12 +11,21 @@ calendar-dialog-close-button =
     .title = بستن
 calendar-event-create-edit-dialog =
     .aria-label = رویداد
+calendar-event-title-input-new =
+    .aria-label = عنوان رویداد
+    .placeholder = رویداد جدید
+calendar-event-title-input-untitled =
+    .aria-label = عنوان رویداد
+    .placeholder = رویداد بی‌عنوان
+calendar-event-title-required = الزامی
+calendar-event-title-too-long = عنوان نباید بیش از ۱۸۰ نویسه باشد
 calendar-dialog-menu-button =
     .aria-label = گشودن منو
     .title = گشودن منو
 calendar-dialog-back-button =
     .aria-label = بازگشت
     .title = بازگشت
+calendar-event-create-edit-dialog-back-button = بازگشت
 calendar-dialog-date-row-icon =
     .alt = تاریخ و زمان
 calendar-dialog-date-row-recurring-icon =
@@ -136,6 +145,20 @@ calendar-prompt-all-events =
 calendar-prompt-delete-button = حذف
 calendar-dialog-edit-button = ویرایش
 calendar-event-create-edit-save-button = ذخیره
+calendar-event-calendar-selector =
+    .aria-label = تقویم
+calendar-event-save = ذخیره
+calendar-event-saving = در حال ذخیره…
+calendar-event-save-failed = ذخیرهٔ رویداد ممکن نشد. دوباره تلاش کنید.
+calendar-event-calendar-unavailable = این تقویم رویداد جدید نمی‌پذیرد. تقویم دیگری انتخاب کنید و دوباره تلاش کنید.
+# The status element announces Save progress and errors to screen readers.
+# Keep this message empty to clear the previous status text when Save is idle.
+calendar-event-save-idle = { "" }
+calendar-event-availability-selector =
+    .aria-label = در دسترس بودن
+calendar-event-availability-default = پیش‌گزیده
+calendar-event-availability-busy = مشغول
+calendar-event-availability-free = آزاد
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =
