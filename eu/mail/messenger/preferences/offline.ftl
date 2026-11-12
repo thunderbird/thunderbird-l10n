@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 offline-dialog-title = Lineaz kanpoko ezarpenak
+going-online-ask-send =
+    .label = Galdetu bidali aurretik
+    .accesskey = G
 autodetect-online-label =
     .label = Automatikoki jarraitu atzemandako lineako egoera
     .accesskey = a

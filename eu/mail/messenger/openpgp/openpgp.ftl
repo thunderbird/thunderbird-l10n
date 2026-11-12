@@ -790,6 +790,9 @@ key-in-message-body = Gakoa aurkitu da mezu gorputzean. Sakatu 'Gakoa inportatu'
 sig-mismatch = Errorea - sinadurak ez datoz bat
 invalid-email = Errorea - Posta elektroniko helbide baliogabea
 # Variables:
+#   $name (String) - File name of the attachment.
+attachment-pgp-key-import = ‘{ $name }’ eranskina OpenPGP gako-fitxategia dela dirudi. Bertan dauden gakoak inportatu nahi dituzu?
+# Variables:
 # $name (String) - File name of the attachment.
 attachment-pgp-key =
     Irekitzen ari zaren '{ $name }' eranskina badirudi OpenPGP gako fitxategi bat duela.

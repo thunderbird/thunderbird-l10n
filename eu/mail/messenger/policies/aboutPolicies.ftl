@@ -12,3 +12,6 @@ inactive-message = Enpresaren gidalerro zerbitzua ez dago aktibo.
 policy-name = Gidalerro izena
 policy-value = Gidalerro balioa
 policy-errors = Gidalerro erroreak
+# Shown under the name of a policy in the Active list when at least one of the
+# operations of that policy failed to apply. The Errors tab has the details.
+policy-not-fully-applied = Erabat aplikatu gabe

@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+spam-settings-title = Spam ezarpenak
+dialog-header-title =
+    .value = Spam ezarpenak
 move-message-other =
     .label = Beste bat:
     .accesskey = s
