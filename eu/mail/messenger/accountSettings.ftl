@@ -137,6 +137,13 @@ oauth-provider-extension-info = <a data-l10n-name="extension">{ $extensionName }
 
 ## Local Folders and RSS account settings
 
+account-settings-rss-enable-updates =
+    .label = Gaitu eguneratzeak jario guztietarako
+    .accesskey = e
+account-settings-rss-new-feed-defaults = Ezarpen lehenetsiak jario berrietarako
+account-settings-rss-manage-subscriptions =
+    .label = Kudeatu harpidetzak…
+    .accesskey = K
 
 ## Feed account wizard
 
