@@ -152,6 +152,7 @@ account-settings-rss-default-account-name = Blogen eta albisteen jarioak
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = Kontu-ezarpen aurreratuak
 # Do not translate "IMAP".
 account-settings-imap-server-directory =
     .value = IMAP zerbitzariaren direktorioa:
