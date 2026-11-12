@@ -134,6 +134,7 @@ oauth-provider-extension-info = OAuth2-გამართვა მოწოდ�
 
 ## Incoming server settings
 
+account-settings-server-document-title = სერვერის პარამეტრები
 account-settings-server-type =
     .value = სერვერის სახეობა:
 account-settings-server-name =
@@ -156,6 +157,13 @@ account-settings-connection-security-starttls =
     .label = STARTTLS
 account-settings-connection-security-ssl-tls =
     .label = SSL/TLS
+# The label is followed by a numerical input and the message
+# account-settings-minutes.
+account-settings-check-new-messages-every =
+    .label = ახალი წერილის შემოწმება ყოველ
+    .accesskey = ყ
+account-settings-minutes =
+    .value = წუთში
 account-settings-automatically-download-new-messages =
     .label = ახალი წერილების თვითჩამოტვირთვა
     .accesskey = ა
@@ -190,11 +198,33 @@ account-settings-message-storage = წერილების საცავ�
 account-settings-empty-trash-on-exit =
     .label = ურნის გასუფთავება გასვლისას
     .accesskey = უ
+account-settings-message-store-type =
+    .value = წერილის შენახვის სახე:
+    .accesskey = ხ
+account-settings-message-store-mbox =
+    .label = თითოეული საქაღალდე ფაილში (mbox)
+account-settings-message-store-maildir =
+    .label = თითოეული წერილი ფაილში (maildir)
 account-settings-newsrc-file =
     .value = News.rc ფაილი:
+account-settings-browse-newsrc =
+    .label = ამორჩევა…
+    .accesskey = ე
+    .filepickertitle = აირჩიეთ News.rc ფაილი
+account-settings-local-directory =
+    .value = ადგილობრივი საქაღალდე:
+account-settings-browse-local-directory =
+    .label = ამორჩევა…
+    .accesskey = მ
+    .filepickertitle = ადგილობრივი საქაღალდის არჩევა
+account-settings-default-text-encoding =
+    .value = ტექსტის ნაგულისხმევი კოდირება:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = ანგარიშის პარამეტრები
+account-settings-title =
+    .value = ანგარიშის პარამეტრები
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
@@ -202,6 +232,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = ეს საგანგებო ანგარიშია.  იგი არავის ვინაობაზე არაა მიბმული.
 account-settings-account-name =
     .value = ანგარიშის სახელი:
     .accesskey = N
