@@ -13,9 +13,24 @@ default-account-button =
 
 ## Incoming server settings
 
+account-settings-user-name =
+    .value = Імя карыстальніка:
+    .accesskey = і
+account-settings-port =
+    .value = Порт:
+    .accesskey = П
+account-settings-default-port =
+    .value = Змоўчны:
 
 ## Local Folders and RSS account settings
 
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
+# Variables:
+#   $accountName (String) - The name of the account.
+account-settings-title-with-name =
+    .value = { account-settings-document-title-with-name }
 account-settings-rss-enable-updates =
     .label = Уключыць абнаўленні для ўсіх стужак навін
     .accesskey = У
