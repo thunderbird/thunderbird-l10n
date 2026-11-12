@@ -94,6 +94,24 @@ account-settings-rss-default-account-name = Spletni dnevniki in viri novic
 ## Advanced server settings
 
 account-settings-advanced-server-title = Napredne nastavitve računa
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = Mapa strežnika IMAP:
+    .accesskey = M
+account-settings-imap-show-subscribed-folders =
+    .label = Pokaži le mape, na katere ste se naročili
+    .accesskey = P
+account-settings-imap-dual-use-folders =
+    .label = Strežnik podpira mape, ki vsebujejo podmape in sporočila
+    .accesskey = S
+account-settings-imap-maximum-connections =
+    .value = Največje število strežnikovih povezav v predpomnilniku
+    .accesskey = N
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Te lastnosti določajo imenski prostor na vašem strežniku IMAP
+account-settings-imap-personal-namespace =
+    .value = Osebni imenski prostor:
+    .accesskey = O
 account-settings-imap-public-namespace =
     .value = Javno (v skupni rabi):
     .accesskey = J
@@ -103,3 +121,6 @@ account-settings-imap-other-users-namespace =
 account-settings-imap-override-namespaces =
     .label = Omogoči strežniku, da razveljavi ta imenski prostor
     .accesskey = č
+account-settings-pop-include-server =
+    .label = Vključi ta strežnik pri prejemanju novih sporočil
+    .accesskey = i
