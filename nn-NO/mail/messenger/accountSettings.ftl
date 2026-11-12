@@ -96,6 +96,17 @@ account-settings-check-new-messages-every =
     .accesskey = r
 account-settings-minutes =
     .value = minutt
+account-settings-automatically-download-new-messages =
+    .label = Last ned nye meldingar automatisk
+    .accesskey = n
+account-settings-days =
+    .value = dagar
+account-settings-leave-messages-until-deleted =
+    .label = Heilt til eg slettar dei
+    .accesskey = H
+account-settings-move-to-trash =
+    .label = Flytt henne til denne mappa:
+    .accesskey = h
 # The label is followed by a numerical input and the message
 # account-settings-messages.
 account-settings-ask-before-download =
