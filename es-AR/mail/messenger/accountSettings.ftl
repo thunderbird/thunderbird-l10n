@@ -136,9 +136,63 @@ oauth-provider-extension-info = Configuración de OAuth2 proporcionada por la ex
 
 account-settings-server-type =
     .value = Tipo de servidor:
+account-settings-server-name =
+    .value = Servidor:
+    .accesskey = S
+account-settings-user-name =
+    .value = Nombre de usuario:
+    .accesskey = N
+account-settings-port =
+    .value = Puerto:
+    .accesskey = P
+account-settings-default-port =
+    .value = Predeterminado:
+account-settings-connection-security =
+    .value = Seguridad de la conexión:
+    .accesskey = u
+account-settings-connection-security-none =
+    .label = None
+account-settings-connection-security-starttls =
+    .label = STARTTLS
+account-settings-connection-security-ssl-tls =
+    .label = SSL/TLS
+account-settings-fetch-headers-only =
+    .label = Descargar sólo los encabezados
+    .accesskey = z
+account-settings-leave-messages-on-server =
+    .label = Dejar los mensajes en el servidor.
+    .accesskey = a
+account-settings-always-authenticate =
+    .label = Siempre solicitar autenticación cuando se conecte con este servidor
+    .accesskey = p
+account-settings-message-storage = Almacenamiento de mensajes
+account-settings-message-store-type =
+    .value = Tipo de almacenamiento de mensajes:
+    .accesskey = T
+account-settings-message-store-mbox =
+    .label = Un archivo por carpeta (mbox)
+account-settings-message-store-maildir =
+    .label = Un archivo por mensaje (maildir)
+account-settings-newsrc-file =
+    .value = Archivo News.rc:
+account-settings-browse-newsrc =
+    .label = Examinar…
+    .accesskey = E
+    .filepickertitle = Seleccione el archivo News.rc
+account-settings-local-directory =
+    .value = Directorio local:
+account-settings-browse-local-directory =
+    .label = Examinar…
+    .accesskey = x
+    .filepickertitle = Seleccione directorio local
+account-settings-default-text-encoding =
+    .value = Codificación de texto predeterminada:
 
 ## Local Folders and RSS account settings
 
+account-settings-document-title = Configuración de cuenta
+account-settings-title =
+    .value = Configuración de cuenta
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
@@ -146,6 +200,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
+account-settings-special-account-description = La siguiente cuenta es especial. No tiene identidades asociadas.
 account-settings-account-name =
     .value = Nombre de la cuenta:
     .accesskey = N
