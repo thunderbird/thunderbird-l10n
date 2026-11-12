@@ -145,3 +145,4 @@ account-settings-rss-default-account-name = Blogger og nyhetskilder
 
 ## Advanced server settings
 
+account-settings-advanced-server-title = Avanserte kontoinnstillinger
