@@ -8,6 +8,9 @@
 
 ## Local Folders and RSS account settings
 
+account-settings-rss-manage-subscriptions =
+    .label = …ਮੈਂਬਰੀ ਪਰਬੰਧ
+    .accesskey = M
 
 ## Feed account wizard
 
