@@ -51,6 +51,7 @@ account-settings-imap-other-users-namespace =
 account-settings-imap-override-namespaces =
     .label = Aotren an dafariad da flastrañ an egoroù envel-mañ
     .accesskey = A
+account-settings-pop-inbox-description = Pa vez pellgarget posteloù diouzh dafariad ar gont-mañ, arverañ an teuliad da heul evit kadaviñ kemennadennoù nevez:
 account-settings-pop-inbox-current-account =
     .label = Boest degemer evit ar gont-mañ
     .accesskey = g
