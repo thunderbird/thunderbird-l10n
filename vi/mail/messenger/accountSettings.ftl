@@ -152,3 +152,24 @@ account-settings-rss-default-account-name = Blog & nguồn cấp tin tức
 
 ## Advanced server settings
 
+# Do not translate "IMAP".
+account-settings-imap-server-directory =
+    .value = Thư mục máy chủ IMAP:
+    .accesskey = m
+account-settings-imap-show-subscribed-folders =
+    .label = Chỉ hiện các thư mục đang theo dõi
+    .accesskey = C
+account-settings-imap-dual-use-folders =
+    .label = Máy chủ hỗ trợ các thư mục có chứa thư mục con và thư
+    .accesskey = r
+account-settings-imap-maximum-connections =
+    .value = Số lượng kết nối tối đa từ máy chủ tới bộ đệm
+    .accesskey = S
+# Do not translate "IMAP".
+account-settings-imap-namespace-description = Những tùy chỉnh này chỉ định không gian tên trên máy chủ IMAP của bạn
+account-settings-imap-personal-namespace =
+    .value = Không gian tên Cá nhân:
+    .accesskey = K
+account-settings-imap-public-namespace =
+    .value = Công khai (đã chia sẻ):
+    .accesskey = s
