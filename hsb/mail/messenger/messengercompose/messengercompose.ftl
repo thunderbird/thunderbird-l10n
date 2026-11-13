@@ -102,6 +102,9 @@ compose-blocked-content-preferences-accesskey = N
 # $url - URL of the blocked resource
 compose-unblock-resource =
     .label = { $url } wjace njeblokować
+menuitem-resize-header-area =
+    .label = Wulkosć hłowoweho wobłuka změnić
+    .accesskey = h
 
 ## Send Format
 
