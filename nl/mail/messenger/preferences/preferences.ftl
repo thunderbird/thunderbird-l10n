@@ -10,6 +10,9 @@ category-list =
 pane-general-title = Algemeen
 category-general =
     .tooltiptext = { pane-general-title }
+pane-notifications-title = Notificaties
+category-notifications =
+    .tooltiptext = { pane-notifications-title }
 pane-appearance-title = Vormgeving
 category-appearance =
     .tooltiptext = { pane-appearance-title }
@@ -31,6 +34,9 @@ category-sync =
 pane-qr-export-title = Exporteren voor Mobiel
 category-qr-export =
     .tooltiptext = Exporteren voor Mobiel
+category-beta-features =
+    .tooltiptext = { pane-beta-features-title }
+experimental-features-legend = Experimentele functies
 general-language-and-fonts-header = Taal en lettertypen
 general-email-notifications-header = E-mailnotificaties
 general-incoming-mail-header = Inkomende berichten
@@ -116,6 +122,7 @@ update-in-progress-ok-button = &Verwerpen
 # Continue is the cancel button so pressing escape or using a platform standard
 # method of closing the UI will not discard the update.
 update-in-progress-cancel-button = &Doorgaan
+accounts-button = Accounts
 account-button = Accountinstellingen
 open-addons-sidebar-button = Add-ons en thema’s
 manual-storage-limit-label =
