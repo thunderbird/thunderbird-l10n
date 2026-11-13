@@ -75,6 +75,7 @@ oauth-provider-extension-info = OAuth2-innstillingar leverte av utvidinga: <a da
 
 ## Incoming server settings
 
+account-settings-server-document-title = Serverinnstillingar
 account-settings-server-type =
     .value = Servertype:
 account-settings-server-name =

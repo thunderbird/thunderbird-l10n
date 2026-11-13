@@ -11,12 +11,14 @@ calendar-dialog-close-button =
     .title = Lat att
 calendar-event-create-edit-dialog =
     .aria-label = Hending
+calendar-event-title-required = Påkravd
 calendar-dialog-menu-button =
     .aria-label = Opne meny
     .title = Opne meny
 calendar-dialog-back-button =
     .aria-label = Tilbake
     .title = Tilbake
+calendar-event-create-edit-dialog-back-button = Tilbake
 calendar-dialog-date-row-icon =
     .alt = Dato og tid
 calendar-dialog-date-row-recurring-icon =
@@ -134,6 +136,10 @@ calendar-prompt-this-event =
 calendar-prompt-all-events =
     .label = Alle hendingar
 calendar-prompt-delete-button = Slett
+calendar-event-calendar-selector =
+    .aria-label = Kalender
+calendar-event-save = Lagre
+calendar-event-saving = Lagrar…
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =
