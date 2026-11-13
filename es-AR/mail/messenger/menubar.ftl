@@ -16,8 +16,8 @@ menu-accounts =
     .label = Cuentas
     .accesskey =
         { PLATFORM() ->
-            [linux] C
-           *[other] C
+            [linux] a
+           *[other] n
         }
 menu-addons-and-themes =
     .label = Complementos y temas

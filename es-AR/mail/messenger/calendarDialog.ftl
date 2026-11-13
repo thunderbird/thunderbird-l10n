@@ -17,7 +17,7 @@ calendar-event-title-input-new =
 calendar-event-title-input-untitled =
     .aria-label = Título del evento
     .placeholder = Evento sin título
-calendar-event-title-required = Necesario
+calendar-event-title-required = Requerido
 calendar-event-title-too-long = El título no debe exceder los 180 caracteres
 calendar-dialog-menu-button =
     .aria-label = Abrir menú
@@ -150,13 +150,13 @@ calendar-event-calendar-selector =
     .aria-label = Calendario
 calendar-event-save = Guardar
 calendar-event-saving = Guardando…
-calendar-event-save-failed = El evento no pudo ser guardado. Probá de nuevo.
+calendar-event-save-failed = El evento no pudo ser guardado. Intente nuevamente.
 calendar-event-calendar-unavailable = Este calendario no acepta nuevos eventos. Seleccione otro calendario e intente nuevamente.
 calendar-event-availability-selector =
     .aria-label = Disponibilidad
 calendar-event-availability-default = Predeterminado
 calendar-event-availability-busy = Ocupado
-calendar-event-availability-free = Gratis
+calendar-event-availability-free = Libre
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =

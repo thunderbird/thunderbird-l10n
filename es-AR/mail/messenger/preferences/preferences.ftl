@@ -37,7 +37,7 @@ category-qr-export =
 pane-beta-features-title = Funciones beta
 category-beta-features =
     .tooltiptext = { pane-beta-features-title }
-experimental-features-legend = Características experimentales
+experimental-features-legend = Funciones experimentales
 general-language-and-fonts-header = Idioma y fuentes
 general-email-notifications-header = Notificaciones por correo electrónico
 general-incoming-mail-header = Correos electrónicos entrantes
@@ -682,7 +682,7 @@ new-calendar-legend = Diálogo de nuevo evento del calendario
 new-calendar-checkbox-label =
     .label = Ver eventos del calendario en el nuevo diálogo
 new-calendar-checkbox-description = Nuevo diálogo experimental de calendario para ver eventos
-new-calendar-dialog-settings-link = Configurar un nuevo diálogo de eventos del calendario en las funciones beta
+new-calendar-dialog-settings-link = Configurar un diálogo de nuevo evento de calendario en las funciones beta
 
 ## Compose Tab
 

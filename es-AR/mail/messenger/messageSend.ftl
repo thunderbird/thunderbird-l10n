@@ -91,10 +91,10 @@ smtp-auth-failure = No se puede autenticar al servidor SMTP { $hostname }. Verif
 # Variables:
 # $hostname - outgoing server hostname
 # $serverResponse - server response
-smtp-auth-oauth2-failure = No se puede autenticar al servidor saliente (SMTP) { $hostname } usando OAuth2. El servidor respondió: { $serverResponse }
+smtp-auth-oauth2-failure = No se puede autenticar en el servidor saliente (SMTP) { $hostname } usando OAuth2. El servidor respondió: { $serverResponse }
 # Variables:
 # $hostname - outgoing server hostname
-smtp-auth-oauth2-failure-no-response = No se puede autenticar al servidor saliente (SMTP) { $hostname } usando OAuth2.
+smtp-auth-oauth2-failure-no-response = No se pudo autenticar en el servidor saliente (SMTP) { $hostname } usando OAuth2.
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-gssapi = El ticket Kerberos/GSSAPI no fue aceptado por el servidor SMTP { $hostname }. Verifique que inició sesión en Kerberos/GSSAPI.
