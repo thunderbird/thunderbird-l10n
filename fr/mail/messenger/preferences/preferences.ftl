@@ -634,7 +634,7 @@ show-conversation-view-label =
     .label = Afficher le mode conversation
     .accesskey = m
 conversation-view-preview-description = Cette fonctionnalité est proposée en avant-première. Elle regroupe les messages associés, mais peut parfois ne pas fonctionner comme prévu.
-conversation-view-settings-link = Configuration du mode conversation dans les fonctionnalités bêta
+conversation-view-settings-link = Configurer le Mode conversation dans Fonctionnalités bêta
 conversation-view-checkbox-label =
     .label = Activer le mode conversation
     .accesskey = A
@@ -682,7 +682,7 @@ new-calendar-legend = Boîte de dialogue Nouvel évènement d’agenda
 new-calendar-checkbox-label =
     .label = Voir les évènements de l’agenda dans la nouvelle boîte de dialogue
 new-calendar-checkbox-description = Nouvelle boîte de dialogue expérimentale de l’agenda pour l’affichage d’évènements
-new-calendar-dialog-settings-link = Configurer un nouveau dialogue avec les évènements de l’agenda en fonctionnalités bêta
+new-calendar-dialog-settings-link = Configurer la nouvelle boîte de dialogue de création d’évènements dans Fonctionnalités bêta
 
 ## Compose Tab
 
