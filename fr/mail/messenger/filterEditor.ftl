@@ -47,8 +47,8 @@ filter-move-batch-failed = Impossible de terminer le déplacement des messages v
 filter-batch-message-ids =
     { $count ->
         [0] { $messageIds }
-        [one] { $messageIds }, et { $count } plus de message
-       *[other] { $messageIds } et { $count } plus de messages
+        [1] { $messageIds } et { $count } autre message
+       *[other] { $messageIds } et { $count } autres messages
     }
 # Variables:
 # $filterName (String) - The name of the filter that was applied.

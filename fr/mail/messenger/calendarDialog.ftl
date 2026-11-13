@@ -155,8 +155,8 @@ calendar-event-calendar-unavailable = Cet agenda n’accepte pas de nouveaux év
 calendar-event-availability-selector =
     .aria-label = Disponibilité
 calendar-event-availability-default = Par défaut
-calendar-event-availability-busy = Occupé
-calendar-event-availability-free = Gratuit
+calendar-event-availability-busy = Indisponible
+calendar-event-availability-free = Disponible
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =
