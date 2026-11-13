@@ -151,6 +151,9 @@ calendar-event-save = Speichern
 calendar-event-saving = Wird gespeichert…
 calendar-event-save-failed = Der Termin konnte nicht gespeichert werden. Versuchen Sie es erneut.
 calendar-event-calendar-unavailable = In diesem Kalender können keine neuen Termine erstellt werden. Wählen Sie einen anderen Kalender aus und versuchen Sie es erneut.
+# The status element announces Save progress and errors to screen readers.
+# Keep this message empty to clear the previous status text when Save is idle.
+calendar-event-save-idle = { "" }
 calendar-event-availability-selector =
     .aria-label = Verfügbarkeit
 calendar-event-availability-default = Standard

@@ -47,7 +47,7 @@ filter-move-batch-failed = Impossibile completare lo spostamento dei messaggi in
 filter-batch-message-ids =
     { $count ->
         [0] { $messageIds }
-        [one] { $messageIds } e altri { $count } messaggi
+        [one] { $messageIds } e { $count } altro messaggio
        *[other] { $messageIds } e altri { $count } messaggi
     }
 # Variables:

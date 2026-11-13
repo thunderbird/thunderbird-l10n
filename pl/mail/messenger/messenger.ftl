@@ -22,8 +22,12 @@ folder-file-not-found = Nie znaleziono pliku „{ $folder }” na serwerze { $se
 # Variables:
 # $folder (String) - The path of the destination folder within its account.
 # $server (String) - The name of the account containing the folder.
+folder-file-access-denied = Nie można uzyskać dostępu do folderu „{ $folder }” na serwerze { $server }. Sprawdź uprawnienia plików folderu i spróbuj ponownie.
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
 # $errorCode (String) - The hexadecimal filesystem error code.
-folder-file-error = Nie można uzyskać dostępu do „{ $folder }” na serwerze { $server }. Sprawdź, czy pliki folderu są dostępne i można je zapisywać, a następnie spróbuj ponownie. Błąd: { $errorCode }
+folder-file-error = Nie można uzyskać dostępu do folderu „{ $folder }” na serwerze { $server }. Sprawdź, czy pliki folderu są dostępne i można je zapisywać, a następnie spróbuj ponownie. Błąd: { $errorCode }
 
 ## Window controls
 

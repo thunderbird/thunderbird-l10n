@@ -33,6 +33,14 @@ filter-failure-move-failed = Flytt misslyckades
 filter-failure-copy-failed = Kopiering misslyckades
 filter-failure-action = Det gick inte att tillämpa filteråtgärden
 # Variables:
+# $folder (String) - The URI of the destination folder.
+# $errorCode (String) - The hexadecimal error code for the batch.
+filter-copy-batch-failed = Det gick inte att slutföra kopieringen av meddelanden till { $folder }. Vissa meddelanden kan ha kopierats. Fel: { $errorCode }. ID:n för begärda meddelanden: { filter-batch-message-ids }
+# Variables:
+# $folder (String) - The URI of the destination folder.
+# $errorCode (String) - The hexadecimal error code for the batch.
+filter-move-batch-failed = Det gick inte att slutföra flytten av meddelanden till { $folder }. Vissa meddelanden kan ha kopierats utan att tas bort från källmappen. Fel: { $errorCode }. Begärda meddelande-ID:n: { filter-batch-message-ids }
+# Variables:
 # $filterName (String) - The name of the filter that was applied.
 # $author (String) - The sender of the message.
 # $subject (String) - The subject line of the message.

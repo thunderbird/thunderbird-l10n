@@ -11,12 +11,21 @@ calendar-dialog-close-button =
     .title = Stäng
 calendar-event-create-edit-dialog =
     .aria-label = Händelse
+calendar-event-title-input-new =
+    .aria-label = Evenemangstitel
+    .placeholder = Nytt evenemang
+calendar-event-title-input-untitled =
+    .aria-label = Evenemangstitel
+    .placeholder = Icke namngivet evenemang
+calendar-event-title-required = Krävs
+calendar-event-title-too-long = Titeln får inte överstiga 180 tecken
 calendar-dialog-menu-button =
     .aria-label = Öppna meny
     .title = Öppna meny
 calendar-dialog-back-button =
     .aria-label = Tillbaka
     .title = Tillbaka
+calendar-event-create-edit-dialog-back-button = Tillbaka
 calendar-dialog-date-row-icon =
     .alt = Datum och tid
 calendar-dialog-date-row-recurring-icon =
@@ -136,6 +145,20 @@ calendar-prompt-all-events =
 calendar-prompt-delete-button = Ta bort
 calendar-dialog-edit-button = Redigera
 calendar-event-create-edit-save-button = Spara
+calendar-event-calendar-selector =
+    .aria-label = Kalender
+calendar-event-save = Spara
+calendar-event-saving = Sparar…
+calendar-event-save-failed = Evenemanget kunde inte sparas. Försök igen.
+calendar-event-calendar-unavailable = Denna kalender accepterar inte nya evenemang. Välj en annan kalender och försök igen.
+# The status element announces Save progress and errors to screen readers.
+# Keep this message empty to clear the previous status text when Save is idle.
+calendar-event-save-idle = { "" }
+calendar-event-availability-selector =
+    .aria-label = Tillgänglighet
+calendar-event-availability-default = Standard
+calendar-event-availability-busy = Upptagen
+calendar-event-availability-free = Ledig
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =

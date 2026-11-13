@@ -36,3 +36,4 @@ panel-settings-spam = Skräppostinställningar
 # $account (String) - The account name.
 spam-settings-alert-message = Problem upptäcktes med skräppostinställningarna för { $account }. Vill du granska dem innan du sparar ändringarna?
 open-settings-sidebar-button = Inställningar
+account-manager-document-title = Konton
