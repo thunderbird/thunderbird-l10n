@@ -102,6 +102,12 @@ compose-blocked-content-preferences-accesskey = N
 # $url - URL of the blocked resource
 compose-unblock-resource =
     .label = { $url } wěcej njeblokěrowaś
+menuitem-resize-header-area =
+    .label = Wjelikosć głowowego wobceŕka změniś
+    .accesskey = l
+compose-header-area-splitter =
+    .aria-description = Wužywajśo šypkowej tasće Górjej a Dołoj, aby wjelikosć změnił a tastu Umsch za wětše kšace. Tłocćo tabulatorowu tastu, aby do editora pśesunuł abo Umsch+tabulatorowa tasta, aby do póla Tema pśesunuł.
+    .aria-label = Głowowy wobceŕk
 
 ## Send Format
 

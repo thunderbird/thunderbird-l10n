@@ -292,6 +292,8 @@ appmenu-save-as-file =
     .label = Dataja…
 appmenu-settings =
     .label = Nastajenja
+appmenu-accounts =
+    .label = Konta
 appmenu-addons-and-themes =
     .label = Dodanki a drastwy
 
@@ -519,6 +521,8 @@ spaces-context-switch-tab-item =
     .label = K { $tabName } pśejś
 settings-context-open-settings-item2 =
     .label = Nastajenja
+settings-context-open-accounts-item =
+    .label = Konta
 settings-context-open-account-settings-item2 =
     .label = Kontowe nastajenja
 settings-context-open-addons-item2 =
