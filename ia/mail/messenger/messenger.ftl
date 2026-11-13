@@ -15,6 +15,15 @@ messenger-save-message-failed = Impossibile salvar le message. Verifica le nomin
 # Variables:
 # $filename (String) - Full path of the file that already exists.
 messenger-file-exists = { $filename } existe jam. Desira tu reimplaciar lo?
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+folder-file-access-denied = Impossibile acceder al “{ $folder }” sur { $server }. Verifica le permissos de file del plica, pois retenta.
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+# $errorCode (String) - The hexadecimal filesystem error code.
+folder-file-error = Impossibile acceder al “{ $folder }” sur { $server }. Verifica que le files del plica es disponibile e scribibile, pois retenta. Error: { $errorCode }
 
 ## Window controls
 

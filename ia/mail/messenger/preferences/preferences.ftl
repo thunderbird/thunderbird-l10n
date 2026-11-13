@@ -34,6 +34,7 @@ category-sync =
 pane-qr-export-title = Exportar pro apparatos mobile
 category-qr-export =
     .tooltiptext = Exportar pro apparatos mobile
+pane-beta-features-title = Functionalitates beta
 category-beta-features =
     .tooltiptext = { pane-beta-features-title }
 experimental-features-legend = Functionalitates experimental
