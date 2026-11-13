@@ -90,6 +90,13 @@ smtp-auth-hint-plain-to-encrypt = Сервер исходящей почты (SM
 smtp-auth-failure = Не удалось аутентифицироваться на Сервере исходящей почты (SMTP) «{ $hostname }». Пожалуйста, проверьте пароль, и проверьте «Метод аутентификации» в «Параметры учётной записи | Сервер исходящей почты (SMTP)».
 # Variables:
 # $hostname - outgoing server hostname
+# $serverResponse - server response
+smtp-auth-oauth2-failure = Не удалось аутентифицироваться на Сервере исходящей почты (SMTP) { $hostname } с помощью OAuth2. Сервер ответил: { $serverResponse }
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-oauth2-failure-no-response = Не удалось аутентифицироваться на Сервере исходящей почты (SMTP) { $hostname } с помощью OAuth2.
+# Variables:
+# $hostname - outgoing server hostname
 smtp-auth-gssapi = Мандат Kerberos/GSSAPI не был принят Сервером исходящей почты (SMTP) «{ $hostname }». Пожалуйста, проверьте, что вы вошли в Kerberos/GSSAPI realm.
 # Variables:
 # $hostname - outgoing server hostname

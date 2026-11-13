@@ -102,6 +102,12 @@ compose-blocked-content-preferences-accesskey = а
 # $url - URL of the blocked resource
 compose-unblock-resource =
     .label = Разблокировать { $url }
+menuitem-resize-header-area =
+    .label = Изменить размер области заголовка
+    .accesskey = К
+compose-header-area-splitter =
+    .aria-description = Используйте Вверх и Вниз для изменения размера, с Shift для увеличения шага. Нажмите Tab, чтобы перейти в редактор, или Shift+Tab, чтобы перейти в Тему.
+    .aria-label = Область заголовка
 
 ## Send Format
 

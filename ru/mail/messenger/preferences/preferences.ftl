@@ -10,6 +10,9 @@ category-list =
 pane-general-title = Основные
 category-general =
     .tooltiptext = { pane-general-title }
+pane-notifications-title = Уведомления
+category-notifications =
+    .tooltiptext = { pane-notifications-title }
 pane-appearance-title = Внешний вид
 category-appearance =
     .tooltiptext = { pane-appearance-title }
@@ -31,6 +34,10 @@ category-sync =
 pane-qr-export-title = Экспорт для мобильного
 category-qr-export =
     .tooltiptext = Экспорт для мобильного
+pane-beta-features-title = Возможности бета-версии
+category-beta-features =
+    .tooltiptext = { pane-beta-features-title }
+experimental-features-legend = Экспериментальные возможности
 general-language-and-fonts-header = Язык и шрифты
 general-email-notifications-header = Уведомления по электронной почте
 general-incoming-mail-header = Входящие сообщения
@@ -116,6 +123,7 @@ update-in-progress-ok-button = &Отменить
 # Continue is the cancel button so pressing escape or using a platform standard
 # method of closing the UI will not discard the update.
 update-in-progress-cancel-button = &Продолжить
+accounts-button = Учётные записи
 account-button = Параметры учётной записи
 open-addons-sidebar-button = Дополнения и темы
 manual-storage-limit-label =
@@ -626,6 +634,7 @@ show-conversation-view-label =
     .label = Показать в виде обсуждений
     .accesskey = c
 conversation-view-preview-description = Это ранняя функция предпросмотра. Она группирует связанные сообщения, но это может не всегда работать должным образом.
+conversation-view-settings-link = Настроить вид бесед в разделе «Бета-функции»
 conversation-view-checkbox-label =
     .label = Включить просмотр разговоров
     .accesskey = с
@@ -673,6 +682,7 @@ new-calendar-legend = Окно нового события календаря
 new-calendar-checkbox-label =
     .label = Просматривать события календаря в новом окне
 new-calendar-checkbox-description = Экспериментальное новое окно календаря для просмотра событий
+new-calendar-dialog-settings-link = Настроить окно создания события календаря в разделе «Бета-функции»
 
 ## Compose Tab
 

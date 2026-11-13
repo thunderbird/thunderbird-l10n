@@ -11,6 +11,7 @@ calendar-dialog-close-button =
     .title = Жабу
 calendar-event-create-edit-dialog =
     .aria-label = Оқиға
+calendar-event-title-required = Міндетті
 calendar-dialog-menu-button =
     .aria-label = Мәзірді ашу
     .title = Мәзірді ашу

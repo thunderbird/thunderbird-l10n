@@ -15,6 +15,19 @@ messenger-save-message-failed = Не удалось сохранить сооб�
 # Variables:
 # $filename (String) - Full path of the file that already exists.
 messenger-file-exists = «{ $filename }» уже существует. Заменить его?
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+folder-file-not-found = Не удалось найти файл для «{ $folder }» на { $server }. Восстановите файл или выберите другую папку и попробуйте снова.
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+folder-file-access-denied = Не удается получить доступ к «{ $folder }» на { $server }. Проверьте права доступа к файлу в папке и попробуйте снова.
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+# $errorCode (String) - The hexadecimal filesystem error code.
+folder-file-error = Не удается получить доступ к «{ $folder }» на { $server }. Убедитесь, что файлы в папке доступны и доступны для записи, и попробуйте снова. Ошибка: { $errorCode }
 
 ## Window controls
 
@@ -287,6 +300,8 @@ appmenu-save-as-file =
     .label = Файл…
 appmenu-settings =
     .label = Настройки
+appmenu-accounts =
+    .label = Учётные записи
 appmenu-addons-and-themes =
     .label = Дополнения и темы
 
@@ -510,6 +525,8 @@ spaces-context-switch-tab-item =
     .label = Переключиться на «{ $tabName }»
 settings-context-open-settings-item2 =
     .label = Настройки
+settings-context-open-accounts-item =
+    .label = Учётные записи
 settings-context-open-account-settings-item2 =
     .label = Настройки учётной записи
 settings-context-open-addons-item2 =
