@@ -15,6 +15,15 @@ messenger-save-message-failed = Wiadomość nie może zostać zapisana. Należy 
 # Variables:
 # $filename (String) - Full path of the file that already exists.
 messenger-file-exists = Plik { $filename } już istnieje. Czy na pewno zastąpić istniejący plik?
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+folder-file-not-found = Nie znaleziono pliku „{ $folder }” na serwerze { $server }. Przywróć plik lub wybierz inny folder docelowy, a następnie spróbuj ponownie.
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+# $errorCode (String) - The hexadecimal filesystem error code.
+folder-file-error = Nie można uzyskać dostępu do „{ $folder }” na serwerze { $server }. Sprawdź, czy pliki folderu są dostępne i można je zapisywać, a następnie spróbuj ponownie. Błąd: { $errorCode }
 
 ## Window controls
 
@@ -283,6 +292,8 @@ appmenu-save-as-file =
     .label = Plik…
 appmenu-settings =
     .label = Ustawienia
+appmenu-accounts =
+    .label = Konta
 appmenu-addons-and-themes =
     .label = Dodatki i motywy
 
@@ -503,6 +514,8 @@ spaces-context-switch-tab-item =
     .label = Przełącz na kartę „{ $tabName }”
 settings-context-open-settings-item2 =
     .label = Ustawienia
+settings-context-open-accounts-item =
+    .label = Konta
 settings-context-open-account-settings-item2 =
     .label = Ustawienia konta
 settings-context-open-addons-item2 =

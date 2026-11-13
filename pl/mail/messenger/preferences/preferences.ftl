@@ -10,6 +10,9 @@ category-list =
 pane-general-title = Ogólne
 category-general =
     .tooltiptext = { pane-general-title }
+pane-notifications-title = Powiadomienia
+category-notifications =
+    .tooltiptext = { pane-notifications-title }
 pane-appearance-title = Wygląd
 category-appearance =
     .tooltiptext = { pane-appearance-title }
@@ -31,6 +34,10 @@ category-sync =
 pane-qr-export-title = Eksportuj do wersji na telefon
 category-qr-export =
     .tooltiptext = Eksportuj do wersji na telefon
+pane-beta-features-title = Funkcje wersji beta
+category-beta-features =
+    .tooltiptext = { pane-beta-features-title }
+experimental-features-legend = Funkcje eksperymentalne
 general-language-and-fonts-header = Język i czcionki
 general-email-notifications-header = Powiadomienia e-mailowe
 general-incoming-mail-header = Poczta przychodząca
@@ -116,6 +123,7 @@ update-in-progress-ok-button = &Odrzuć
 # Continue is the cancel button so pressing escape or using a platform standard
 # method of closing the UI will not discard the update.
 update-in-progress-cancel-button = &Kontynuuj
+accounts-button = Konta
 account-button = Ustawienia kont
 open-addons-sidebar-button = Dodatki i motywy
 manual-storage-limit-label =
@@ -626,6 +634,7 @@ show-conversation-view-label =
     .label = Pokaż widok rozmowy
     .accesskey = P
 conversation-view-preview-description = To funkcja wczesnej wersji zapoznawczej. Grupuje ona powiązane wiadomości, ale może nie zawsze działać zgodnie z oczekiwaniami.
+conversation-view-settings-link = Konfigurowanie widoku konwersacji w funkcjach wersji beta
 conversation-view-checkbox-label =
     .label = Widok rozmowy
     .accesskey = r
@@ -673,6 +682,7 @@ new-calendar-legend = Nowe okno wydarzeń kalendarza
 new-calendar-checkbox-label =
     .label = Wyświetl wydarzenia kalendarza w nowym oknie
 new-calendar-checkbox-description = Eksperymentalne okno kalendarza do wyświetlania wydarzeń
+new-calendar-dialog-settings-link = Konfigurowanie nowego okna dialogowego wydarzenia w kalendarzu w funkcjach wersji beta
 
 ## Compose Tab
 

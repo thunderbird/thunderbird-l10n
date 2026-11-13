@@ -102,6 +102,12 @@ compose-blocked-content-preferences-accesskey = P
 # $url - URL of the blocked resource
 compose-unblock-resource =
     .label = Odblokuj „{ $url }”
+menuitem-resize-header-area =
+    .label = Zmień rozmiar obszaru nagłówka
+    .accesskey = r
+compose-header-area-splitter =
+    .aria-description = Użyj klawiszy strzałek w górę i w dół, aby zmienić rozmiar, a klawisza Shift – aby zwiększyć skok zmiany. Naciśnij klawisz Tab, aby przejść do edytora, lub Shift+Tab, aby przejść do pola „Temat”.
+    .aria-label = Obszar nagłówka
 
 ## Send Format
 

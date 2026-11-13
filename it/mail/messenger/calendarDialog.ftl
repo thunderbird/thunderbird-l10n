@@ -152,7 +152,7 @@ calendar-event-availability-selector =
     .aria-label = Disponibilità
 calendar-event-availability-default = Predefinito
 calendar-event-availability-busy = Occupato
-calendar-event-availability-free = Gratis
+calendar-event-availability-free = Libero
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =

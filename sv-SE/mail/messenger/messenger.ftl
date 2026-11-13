@@ -277,6 +277,8 @@ appmenu-save-as-file =
     .label = Arkiv…
 appmenu-settings =
     .label = Inställningar
+appmenu-accounts =
+    .label = Konton
 appmenu-addons-and-themes =
     .label = Tillägg och teman
 
@@ -496,6 +498,8 @@ spaces-context-switch-tab-item =
     .label = Växla till { $tabName }
 settings-context-open-settings-item2 =
     .label = Inställningar
+settings-context-open-accounts-item =
+    .label = Konton
 settings-context-open-account-settings-item2 =
     .label = Kontoinställningar
 settings-context-open-addons-item2 =

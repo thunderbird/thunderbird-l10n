@@ -91,7 +91,7 @@ smtp-auth-failure = Wystąpił błąd podczas wysyłania wiadomości: nie udało
 # Variables:
 # $hostname - outgoing server hostname
 # $serverResponse - server response
-smtp-auth-oauth2-failure = Uwierzytelnienie na serwerze poczty wychodzącej (SMTP) { $hostname } za pomocą OAuth2 się nie powiodło. Odpowiedź serwera: { $serverResponse }
+smtp-auth-oauth2-failure = Nie udało się uwierzytelnić na serwerze poczty wychodzącej (SMTP) { $hostname } za pomocą OAuth2. Odpowiedź serwera: { $serverResponse }
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-oauth2-failure-no-response = Nie udało się uwierzytelnić na serwerze poczty wychodzącej (SMTP) { $hostname } za pomocą OAuth2.
