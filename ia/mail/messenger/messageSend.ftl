@@ -90,6 +90,13 @@ smtp-auth-hint-plain-to-encrypt = Le servitor de exito (SMTP) { $hostname } non 
 smtp-auth-failure = Impossibile authenticar se al servitor de exito (SMTP) { $hostname }. Verifica le contrasigno e le ‘Methodo de authentication’ in ‘Parametros de contos | Servitor de exito (SMTP)’.
 # Variables:
 # $hostname - outgoing server hostname
+# $serverResponse - server response
+smtp-auth-oauth2-failure = Impossibile authenticar se al Servitor (SMTP) in exito { $hostname } mediante OAuth2. Le servitor respondeva: { $serverResponse }
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-oauth2-failure-no-response = Impossibile authenticar se al servitor (SMTP) in exito { $hostname } mediante OAuth2.
+# Variables:
+# $hostname - outgoing server hostname
 smtp-auth-gssapi = Le ticket Kerberos/GSSAPI non ha essite acceptate per le servitor de exito (SMTP) { $hostname }. Verifica que tu ha aperite session in le dominio Kerberos/GSSAPI.
 # Variables:
 # $hostname - outgoing server hostname
