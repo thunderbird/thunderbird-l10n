@@ -10,6 +10,9 @@ category-list =
 pane-general-title = General
 category-general =
     .tooltiptext = { pane-general-title }
+pane-notifications-title = Avisos
+category-notifications =
+    .tooltiptext = { pane-notifications-title }
 pane-appearance-title = Apparentia
 category-appearance =
     .tooltiptext = { pane-appearance-title }
@@ -31,6 +34,8 @@ category-sync =
 pane-qr-export-title = Exportar pro apparatos mobile
 category-qr-export =
     .tooltiptext = Exportar pro apparatos mobile
+category-beta-features =
+    .tooltiptext = { pane-beta-features-title }
 general-language-and-fonts-header = Lingua e typos de character
 general-email-notifications-header = Avisos de e-mail
 general-incoming-mail-header = Messages entrante
@@ -118,6 +123,7 @@ update-in-progress-ok-button = &Discartar
 # Continue is the cancel button so pressing escape or using a platform standard
 # method of closing the UI will not discard the update.
 update-in-progress-cancel-button = &Continuar
+accounts-button = Contos
 account-button = Parametros de contos
 open-addons-sidebar-button = Additivos e themas
 manual-storage-limit-label =

@@ -11,12 +11,14 @@ calendar-dialog-close-button =
     .title = Clauder
 calendar-event-create-edit-dialog =
     .aria-label = Evento
+calendar-event-title-required = Necessari
 calendar-dialog-menu-button =
     .aria-label = Aperir menu
     .title = Aperir menu
 calendar-dialog-back-button =
     .aria-label = Retro
     .title = Retro
+calendar-event-create-edit-dialog-back-button = Retro
 calendar-dialog-date-row-icon =
     .alt = Data e ora
 calendar-dialog-date-row-recurring-icon =
@@ -136,6 +138,18 @@ calendar-prompt-all-events =
 calendar-prompt-delete-button = Deler
 calendar-dialog-edit-button = Rediger
 calendar-event-create-edit-save-button = Salvar
+calendar-event-calendar-selector =
+    .aria-label = Agenda
+calendar-event-save = Salvar
+calendar-event-saving = Salvamento…
+# The status element announces Save progress and errors to screen readers.
+# Keep this message empty to clear the previous status text when Save is idle.
+calendar-event-save-idle = { "" }
+calendar-event-availability-selector =
+    .aria-label = Disponibilitate
+calendar-event-availability-default = Predefinite
+calendar-event-availability-busy = Occupate
+calendar-event-availability-free = Libere
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =

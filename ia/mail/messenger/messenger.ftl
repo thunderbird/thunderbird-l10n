@@ -277,6 +277,8 @@ appmenu-save-as-file =
     .label = File…
 appmenu-settings =
     .label = Parametros
+appmenu-accounts =
+    .label = Contos
 appmenu-addons-and-themes =
     .label = Additivos e themas
 
@@ -496,6 +498,8 @@ spaces-context-switch-tab-item =
     .label = Passar a { $tabName }
 settings-context-open-settings-item2 =
     .label = Parametros
+settings-context-open-accounts-item =
+    .label = Contos
 settings-context-open-account-settings-item2 =
     .label = Parametros de contos
 settings-context-open-addons-item2 =
