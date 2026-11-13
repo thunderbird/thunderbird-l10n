@@ -105,6 +105,9 @@ compose-unblock-resource =
 menuitem-resize-header-area =
     .label = Wulkosć hłowoweho wobłuka změnić
     .accesskey = h
+compose-header-area-splitter =
+    .aria-description = Wužiwajće kłokowej tasće Horje a Dele, zo byšće wulkosć změnił a tastu Umsch za wjetše kroki. Tłóčće tabulatorowu tastu, zo byšće do editora přesunył abo Umsch+tabulatorowa tasta, zo byšće do pola Tema přesunył.
+    .aria-label = Hłowowy wobłuk
 
 ## Send Format
 
