@@ -102,6 +102,12 @@ compose-blocked-content-preferences-accesskey = B
 # $url - URL of the blocked resource
 compose-unblock-resource =
     .label = { $url } tiltásának feloldása
+menuitem-resize-header-area =
+    .label = Fejlécterület átméretezése
+    .accesskey = F
+compose-header-area-splitter =
+    .aria-description = Használja a Fel és Le gombot az átméretezéshez, a Shift billentyűt a nagyobb lépésekhez. Nyomja meg a Tabot, hogy a szerkesztőbe, vagy a Shift+Tab billentyűt, hogy a tárgyhoz lépjen.
+    .aria-label = Fejlécterület
 
 ## Send Format
 

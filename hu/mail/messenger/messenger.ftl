@@ -15,6 +15,10 @@ messenger-save-message-failed = Nem lehetett a levelet menteni. Ellenőrizze a f
 # Variables:
 # $filename (String) - Full path of the file that already exists.
 messenger-file-exists = { $filename } már létezik. Felülírja?
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+folder-file-not-found = A(z) { $server } fiók „{ $folder }” mappájához tartozó fájl nem található. Állítsa helyre a fájlt, vagy válasszon másik célmappát, majd próbálja újra.
 
 ## Window controls
 

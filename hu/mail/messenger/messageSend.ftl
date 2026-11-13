@@ -90,6 +90,13 @@ smtp-auth-hint-plain-to-encrypt = A levélküldő (SMTP) kiszolgáló ({ $hostna
 smtp-auth-failure = Nem sikerült a hitelesítés a(z) { $hostname } levélküldő (SMTP) kiszolgálóhoz. Ellenőrizze a jelszót és a „Hitelesítési módszer” beállítást a „Postafiók beállításai | Levélküldő kiszolgáló (SMTP)” alatt.
 # Variables:
 # $hostname - outgoing server hostname
+# $serverResponse - server response
+smtp-auth-oauth2-failure = Nem sikerült az OAuth2 használatával történő hitelesítés a(z) { $hostname } kimenő levelezési kiszolgálóhoz (SMTP). A kiszolgáló válasza: { $serverResponse }
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-oauth2-failure-no-response = Nem sikerült az OAuth2 használatával történő hitelesítés a(z) { $hostname } kimenő levelezési kiszolgálóhoz (SMTP).
+# Variables:
+# $hostname - outgoing server hostname
 smtp-auth-gssapi = A Kerberos/GSSAPI jegyet nem fogadta el a(z) { $hostname } levélküldő (SMTP) kiszolgáló. Ellenőrizze, hogy be van-e jelentkezve a Kerberos/GSSAPI-tartományba.
 # Variables:
 # $hostname - outgoing server hostname

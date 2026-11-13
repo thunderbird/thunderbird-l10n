@@ -33,6 +33,10 @@ about-addressbook-card-count = Összes névjegy száma itt: { $name }: { $count 
 # Variables:
 # $count (Number) - The number of contacts in all address books.
 about-addressbook-card-count-all = Összes névjegy száma az összes címjegyzékben: { $count }
+about-addressbook-books-context-new-contact =
+    .label = Új névjegy
+about-addressbook-books-context-new-list =
+    .label = Új lista
 about-addressbook-books-context-properties =
     .label = Tulajdonságok
 about-addressbook-books-context-edit-list =

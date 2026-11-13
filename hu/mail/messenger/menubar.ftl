@@ -12,6 +12,13 @@ system-tray-app-name = { -brand-full-name }
 menu-tools-settings =
     .label = Beállítások
     .accesskey = B
+menu-accounts =
+    .label = Fiókok
+    .accesskey =
+        { PLATFORM() ->
+            [linux] F
+           *[other] F
+        }
 menu-addons-and-themes =
     .label = Kiegészítők és témák
     .accesskey = K

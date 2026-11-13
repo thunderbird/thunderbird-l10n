@@ -11,12 +11,21 @@ calendar-dialog-close-button =
     .title = Bezárás
 calendar-event-create-edit-dialog =
     .aria-label = Esemény
+calendar-event-title-input-new =
+    .aria-label = Esemény címe
+    .placeholder = Új esemény
+calendar-event-title-input-untitled =
+    .aria-label = Esemény címe
+    .placeholder = Névtelen esemény
+calendar-event-title-required = Kötelező
+calendar-event-title-too-long = A cím nem lehet hosszabb 180 karakternél
 calendar-dialog-menu-button =
     .aria-label = Menü megnyitása
     .title = Menü megnyitása
 calendar-dialog-back-button =
     .aria-label = Vissza
     .title = Vissza
+calendar-event-create-edit-dialog-back-button = Vissza
 calendar-dialog-date-row-icon =
     .alt = Dátum és idő
 calendar-dialog-date-row-recurring-icon =
@@ -137,6 +146,20 @@ calendar-prompt-all-events =
 calendar-prompt-delete-button = Törlés
 calendar-dialog-edit-button = Szerkesztés
 calendar-event-create-edit-save-button = Mentés
+calendar-event-calendar-selector =
+    .aria-label = Naptár
+calendar-event-save = Mentés
+calendar-event-saving = Mentés…
+calendar-event-save-failed = Az esemény nem menthető. Próbálja újra.
+calendar-event-calendar-unavailable = Ez a naptár nem fogad új eseményeket. Válasszon másik naptárat, és próbálja újra.
+# The status element announces Save progress and errors to screen readers.
+# Keep this message empty to clear the previous status text when Save is idle.
+calendar-event-save-idle = { "" }
+calendar-event-availability-selector =
+    .aria-label = Elérhetőség
+calendar-event-availability-default = Alapértelmezett
+calendar-event-availability-busy = Elfoglalt
+calendar-event-availability-free = Szabad
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =

@@ -36,3 +36,4 @@ panel-settings-spam = Levélszemét-beállítások
 # $account (String) - The account name.
 spam-settings-alert-message = Probléma észlelve a(z) { $account } levélszemét-beállításaival. Áttekinti őket a módosítások mentése előtt?
 open-settings-sidebar-button = Beállítások
+account-manager-document-title = Fiókok
