@@ -18,6 +18,7 @@ calendar-dialog-menu-button =
 calendar-dialog-back-button =
     .aria-label = Артқа
     .title = Артқа
+calendar-event-create-edit-dialog-back-button = Артқа
 calendar-dialog-date-row-icon =
     .alt = Күн мен уақыт
 calendar-dialog-date-row-recurring-icon =
@@ -137,6 +138,10 @@ calendar-prompt-all-events =
 calendar-prompt-delete-button = Өшіру
 calendar-dialog-edit-button = Түзету
 calendar-event-create-edit-save-button = Сақтау
+calendar-event-calendar-selector =
+    .aria-label = Күнтізбе
+calendar-event-save = Сақтау
+calendar-event-saving = Сақталуда…
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =
