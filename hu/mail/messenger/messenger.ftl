@@ -19,6 +19,15 @@ messenger-file-exists = { $filename } már létezik. Felülírja?
 # $folder (String) - The path of the destination folder within its account.
 # $server (String) - The name of the account containing the folder.
 folder-file-not-found = A(z) { $server } fiók „{ $folder }” mappájához tartozó fájl nem található. Állítsa helyre a fájlt, vagy válasszon másik célmappát, majd próbálja újra.
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+folder-file-access-denied = Nem érhető el a(z) { $server } fiók „{ $folder }” mappája. Ellenőrizze a mappa fájljogosultságait, majd próbálja újra.
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+# $errorCode (String) - The hexadecimal filesystem error code.
+folder-file-error = Nem érhető el a(z) { $server } fiók „{ $folder }” mappája. Ellenőrizze, hogy a mappa fájljai elérhetők és írhatók, majd próbálja újra. Hiba: { $errorCode }
 
 ## Window controls
 
@@ -282,6 +291,8 @@ appmenu-save-as-file =
     .label = Fájl…
 appmenu-settings =
     .label = Beállítások
+appmenu-accounts =
+    .label = Fiókok
 appmenu-addons-and-themes =
     .label = Kiegészítők és témák
 
@@ -501,6 +512,8 @@ spaces-context-switch-tab-item =
     .label = Váltás erre: { $tabName }
 settings-context-open-settings-item2 =
     .label = Beállítások
+settings-context-open-accounts-item =
+    .label = Fiókok
 settings-context-open-account-settings-item2 =
     .label = Fiókbeállítások
 settings-context-open-addons-item2 =

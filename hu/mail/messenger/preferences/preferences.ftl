@@ -10,6 +10,9 @@ category-list =
 pane-general-title = Általános
 category-general =
     .tooltiptext = { pane-general-title }
+pane-notifications-title = Értesítések
+category-notifications =
+    .tooltiptext = { pane-notifications-title }
 pane-appearance-title = Megjelenés
 category-appearance =
     .tooltiptext = { pane-appearance-title }
@@ -31,6 +34,10 @@ category-sync =
 pane-qr-export-title = Exportálás mobilra
 category-qr-export =
     .tooltiptext = Exportálás mobilra
+pane-beta-features-title = Béta funkciók
+category-beta-features =
+    .tooltiptext = { pane-beta-features-title }
+experimental-features-legend = Kísérleti funkciók
 general-language-and-fonts-header = Nyelv és betűkészletek
 general-email-notifications-header = E-mail-értesítések
 general-incoming-mail-header = Bejövő levelek
@@ -116,6 +123,7 @@ update-in-progress-ok-button = &Elvetés
 # Continue is the cancel button so pressing escape or using a platform standard
 # method of closing the UI will not discard the update.
 update-in-progress-cancel-button = &Folytatás
+accounts-button = Fiókok
 account-button = Fiókbeállítások
 open-addons-sidebar-button = Kiegészítők és témák
 manual-storage-limit-label =
@@ -626,6 +634,7 @@ show-conversation-view-label =
     .label = Beszélgetési nézet megjelenítése
     .accesskey = B
 conversation-view-preview-description = Ez egy korai előnézeti funkció. A kapcsolódó üzeneteket egybe csoportosítja, de lehet, hogy nem mindig az elvárt módon működik.
+conversation-view-settings-link = Beszélgetési nézet beállítása a béta funkciókban
 conversation-view-checkbox-label =
     .label = Beszélgetési nézet engedélyezése
     .accesskey = B
@@ -673,6 +682,7 @@ new-calendar-legend = Új naptáresemény párbeszédablak
 new-calendar-checkbox-label =
     .label = Naptáresemények megtekintése az új párbeszédablakban
 new-calendar-checkbox-description = Új kísérleti párbeszédablak a naptáresemények megtekintéséhez
+new-calendar-dialog-settings-link = Új naptáresemény párbeszédablakának beállítása a béta funkciókban
 
 ## Compose Tab
 
