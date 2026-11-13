@@ -34,6 +34,18 @@ filter-failure-sending-reply-aborted = Słanje wotmołwy je so přetorhnyło
 filter-failure-move-failed = Přesunjenje je so nimokuliło
 filter-failure-copy-failed = Kopěrowanje je so nimokuliło
 filter-failure-action = Nałožowanje filtroweje akcije njeje so poradźiło
+# Referenced by filter-copy-batch-failed and filter-move-batch-failed.
+# Variables:
+# $messageIds (String) - Up to 20 requested message IDs, separated by commas.
+# $count (Number) - The number of additional requested messages whose IDs are omitted.
+filter-batch-message-ids =
+    { $count ->
+        [0] { $messageIds }
+        [one] { $messageIds } a { $count } dalša powěsć
+        [two] { $messageIds } a { $count } dalšej powěsći
+        [few] { $messageIds } a { $count } dalše powěsće
+       *[other] { $messageIds } a { $count } dalšich powěsćow
+    }
 # Variables:
 # $filterName (String) - The name of the filter that was applied.
 # $author (String) - The sender of the message.

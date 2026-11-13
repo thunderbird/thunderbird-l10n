@@ -165,6 +165,7 @@ calendar-event-calendar-selector =
 calendar-event-save = Składować
 calendar-event-saving = Składuje so…
 calendar-event-save-failed = Podawk njeda so składować. Spytajće hišće raz.
+calendar-event-calendar-unavailable = Tuta protyka nowe podawki njeakceptuje. Wubjerće druhu protyku a spytajće hišće raz.
 # The status element announces Save progress and errors to screen readers.
 # Keep this message empty to clear the previous status text when Save is idle.
 calendar-event-save-idle = { "" }
