@@ -90,6 +90,13 @@ smtp-auth-hint-plain-to-encrypt = Den utgående servern (SMTP) { $hostname } til
 smtp-auth-failure = Kan inte autentisera till utgående server (SMTP) { $hostname }. Kontrollera lösenordet och kontrollera ‘Autentiseringsmetod’ i ‘Kontoinställningar | Server för utgående e-post’.
 # Variables:
 # $hostname - outgoing server hostname
+# $serverResponse - server response
+smtp-auth-oauth2-failure = Det gick inte att autentisera mot den utgående servern (SMTP) { $hostname } med OAuth2. Servern svarade: { $serverResponse }
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-oauth2-failure-no-response = Det gick inte att autentisera mot servern för utgående e-post (SMTP) { $hostname } med OAuth2.
+# Variables:
+# $hostname - outgoing server hostname
 smtp-auth-gssapi = Kerberos/GSSAPI biljetten accepterades inte av den utgående servern (SMTP) { $hostname }. Kontrollera att du är inloggad på Kerberos/GSSAPI-sfären.
 # Variables:
 # $hostname - outgoing server hostname

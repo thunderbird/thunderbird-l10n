@@ -102,6 +102,12 @@ compose-blocked-content-preferences-accesskey = n
 # $url - URL of the blocked resource
 compose-unblock-resource =
     .label = Avblockera { $url }
+menuitem-resize-header-area =
+    .label = Ändra storlek på rubrikfältet
+    .accesskey = n
+compose-header-area-splitter =
+    .aria-description = Använd Uppåt och Nedåt för att ändra storlek, med Shift för större steg. Tryck på Tabb för att flytta till redigeraren eller Shift+Tabb för att flytta till ämne.
+    .aria-label = Rubrikområde
 
 ## Send Format
 

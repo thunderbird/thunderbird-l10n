@@ -15,6 +15,19 @@ messenger-save-message-failed = Det gick inte att spara meddelandet. Kontrollera
 # Variables:
 # $filename (String) - Full path of the file that already exists.
 messenger-file-exists = Filen { $filename } finns redan. Vill du ersätta den?
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+folder-file-not-found = Filen för ”{ $folder }” på { $server } kunde inte hittas. Återställ filen eller välj en annan målmapp och försök sedan igen.
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+folder-file-access-denied = Det går inte att komma åt ”{ $folder }” på { $server }. Kontrollera mappens filbehörigheter och försök igen.
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+# $errorCode (String) - The hexadecimal filesystem error code.
+folder-file-error = Det går inte att komma åt ”{ $folder }” på { $server }. Kontrollera att filerna i mappen är tillgängliga och skrivbara och försök sedan igen. Fel: { $errorCode }
 
 ## Window controls
 

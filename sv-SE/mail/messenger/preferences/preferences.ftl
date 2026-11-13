@@ -630,6 +630,7 @@ show-conversation-view-label =
     .label = Visa konversationsvy
     .accesskey = V
 conversation-view-preview-description = Detta är en tidig förhandsgranskning. Den grupperar relaterade meddelanden, men det kanske inte alltid fungerar som förväntat.
+conversation-view-settings-link = Konfigurera konversationsvy i betafunktioner
 conversation-view-checkbox-label =
     .label = Aktivera konversationsvy
     .accesskey = k
@@ -677,6 +678,7 @@ new-calendar-legend = Ny dialogruta för kalenderhändelser
 new-calendar-checkbox-label =
     .label = Visa kalenderhändelser i den nya dialogrutan
 new-calendar-checkbox-description = Experimentell ny kalenderdialog för visning av händelser
+new-calendar-dialog-settings-link = Konfigurera dialogrutan för nya kalenderhändelser under betafunktioner
 
 ## Compose Tab
 
