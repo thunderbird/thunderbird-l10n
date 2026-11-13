@@ -286,6 +286,8 @@ appmenu-save-as-file =
     .label = Soubor…
 appmenu-settings =
     .label = Nastavení
+appmenu-accounts =
+    .label = Účty
 appmenu-addons-and-themes =
     .label = Doplňky a vzhledy
 
@@ -517,6 +519,8 @@ spaces-context-switch-tab-item =
     .label = Přepnout na panel { $tabName }
 settings-context-open-settings-item2 =
     .label = Nastavení
+settings-context-open-accounts-item =
+    .label = Účty
 settings-context-open-account-settings-item2 =
     .label = Nastavení účtu
 settings-context-open-addons-item2 =

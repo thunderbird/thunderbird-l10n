@@ -33,6 +33,10 @@ about-addressbook-card-count = Celkový počet kontaktů ve složce kontaktů { 
 # Variables:
 # $count (Number) - The number of contacts in all address books.
 about-addressbook-card-count-all = Celkový počet kontaktů ve všech složkách kontaktů: { $count }
+about-addressbook-books-context-new-contact =
+    .label = Nový kontakt
+about-addressbook-books-context-new-list =
+    .label = Nová skupina
 about-addressbook-books-context-properties =
     .label = Vlastnosti
 about-addressbook-books-context-edit-list =

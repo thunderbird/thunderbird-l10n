@@ -11,12 +11,21 @@ calendar-dialog-close-button =
     .title = Zavřít
 calendar-event-create-edit-dialog =
     .aria-label = Událost
+calendar-event-title-input-new =
+    .aria-label = Název události
+    .placeholder = Nová událost
+calendar-event-title-input-untitled =
+    .aria-label = Název události
+    .placeholder = Událost bez názvu
+calendar-event-title-required = Vyžadováno
+calendar-event-title-too-long = Název může mít nejvýše 180 znaků
 calendar-dialog-menu-button =
     .aria-label = Otevřít nabídku
     .title = Otevřít nabídku
 calendar-dialog-back-button =
     .aria-label = Zpět
     .title = Zpět
+calendar-event-create-edit-dialog-back-button = Zpět
 calendar-dialog-date-row-icon =
     .alt = Datum a čas
 calendar-dialog-date-row-recurring-icon =
@@ -151,6 +160,18 @@ calendar-prompt-all-events =
 calendar-prompt-delete-button = Smazat
 calendar-dialog-edit-button = Upravit
 calendar-event-create-edit-save-button = Uložit
+calendar-event-calendar-selector =
+    .aria-label = Kalendář
+calendar-event-save = Uložit
+calendar-event-saving = Ukládání…
+calendar-event-save-failed = Událost nebylo možné uložit. Zkuste to znovu.
+calendar-event-calendar-unavailable = Do tohoto kalendáře nelze přidávat nové události. Vyberte jiný kalendář a zkuste to znovu.
+# The status element announces Save progress and errors to screen readers.
+# Keep this message empty to clear the previous status text when Save is idle.
+calendar-event-save-idle = { "" }
+calendar-event-availability-selector =
+    .aria-label = Dostupnost
+calendar-event-availability-default = Výchozí
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =
