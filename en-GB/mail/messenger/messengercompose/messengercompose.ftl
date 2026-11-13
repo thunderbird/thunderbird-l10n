@@ -102,6 +102,12 @@ compose-blocked-content-preferences-accesskey = P
 # $url - URL of the blocked resource
 compose-unblock-resource =
     .label = Unblock { $url }
+menuitem-resize-header-area =
+    .label = Resize header area
+    .accesskey = R
+compose-header-area-splitter =
+    .aria-description = Use Up and Down to resize, with Shift for larger steps. Press Tab to move to the editor or Shift+Tab to move to Subject.
+    .aria-label = Header area
 
 ## Send Format
 

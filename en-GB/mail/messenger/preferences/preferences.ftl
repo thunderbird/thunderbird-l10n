@@ -10,6 +10,9 @@ category-list =
 pane-general-title = General
 category-general =
     .tooltiptext = { pane-general-title }
+pane-notifications-title = Notifications
+category-notifications =
+    .tooltiptext = { pane-notifications-title }
 pane-appearance-title = Appearance
 category-appearance =
     .tooltiptext = { pane-appearance-title }
@@ -31,6 +34,10 @@ category-sync =
 pane-qr-export-title = Export for Mobile
 category-qr-export =
     .tooltiptext = Export for Mobile
+pane-beta-features-title = Beta Features
+category-beta-features =
+    .tooltiptext = { pane-beta-features-title }
+experimental-features-legend = Experimental Features
 general-language-and-fonts-header = Language & Fonts
 general-email-notifications-header = Email notifications
 general-incoming-mail-header = Incoming Mails
@@ -116,6 +123,7 @@ update-in-progress-ok-button = &Discard
 # Continue is the cancel button so pressing escape or using a platform standard
 # method of closing the UI will not discard the update.
 update-in-progress-cancel-button = &Continue
+accounts-button = Accounts
 account-button = Account Settings
 open-addons-sidebar-button = Add-ons and Themes
 manual-storage-limit-label =
@@ -626,6 +634,7 @@ show-conversation-view-label =
     .label = Show conversation view
     .accesskey = c
 conversation-view-preview-description = This is an early preview feature. It groups related messages together, but it might not always work as expected.
+conversation-view-settings-link = Configure Conversation View in Beta Features
 conversation-view-checkbox-label =
     .label = Enable conversation view
     .accesskey = c
@@ -673,6 +682,7 @@ new-calendar-legend = New Calendar Event Dialogue
 new-calendar-checkbox-label =
     .label = View calendar events in the new dialogue
 new-calendar-checkbox-description = Experimental new calendar dialogue for viewing events
+new-calendar-dialog-settings-link = Configure New Calendar Event Dialog in Beta Features
 
 ## Compose Tab
 
