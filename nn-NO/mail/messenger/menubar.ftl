@@ -12,6 +12,13 @@ system-tray-app-name = { -brand-full-name }
 menu-tools-settings =
     .label = Innstillingar
     .accesskey = I
+menu-accounts =
+    .label = Kontoar
+    .accesskey =
+        { PLATFORM() ->
+            [linux] K
+           *[other] K
+        }
 menu-addons-and-themes =
     .label = Tillegg og tema
     .accesskey = T

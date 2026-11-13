@@ -266,6 +266,8 @@ appmenu-save-as-file =
     .label = Fil…
 appmenu-settings =
     .label = Innstillingar
+appmenu-accounts =
+    .label = Kontoar
 appmenu-addons-and-themes =
     .label = Tillegg og tema
 
@@ -481,6 +483,8 @@ spaces-context-switch-tab-item =
     .label = Byt til { $tabName }
 settings-context-open-settings-item2 =
     .label = Innstillingar
+settings-context-open-accounts-item =
+    .label = Kontoar
 settings-context-open-account-settings-item2 =
     .label = Kontoinnstillingar
 settings-context-open-addons-item2 =

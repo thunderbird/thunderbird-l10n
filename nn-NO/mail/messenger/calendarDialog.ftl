@@ -11,6 +11,12 @@ calendar-dialog-close-button =
     .title = Lat att
 calendar-event-create-edit-dialog =
     .aria-label = Hending
+calendar-event-title-input-new =
+    .aria-label = Namn på hending
+    .placeholder = Ny hending
+calendar-event-title-input-untitled =
+    .aria-label = Namn på hending
+    .placeholder = Namnlaus hending
 calendar-event-title-required = Påkravd
 calendar-dialog-menu-button =
     .aria-label = Opne meny
@@ -140,6 +146,11 @@ calendar-event-calendar-selector =
     .aria-label = Kalender
 calendar-event-save = Lagre
 calendar-event-saving = Lagrar…
+calendar-event-availability-selector =
+    .aria-label = Tilgjengelegheit
+calendar-event-availability-default = Standard
+calendar-event-availability-busy = Oppteken
+calendar-event-availability-free = Gratis
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =

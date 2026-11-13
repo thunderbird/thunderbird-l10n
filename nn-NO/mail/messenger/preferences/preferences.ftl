@@ -10,6 +10,9 @@ category-list =
 pane-general-title = Generelt
 category-general =
     .tooltiptext = { pane-general-title }
+pane-notifications-title = Varsel
+category-notifications =
+    .tooltiptext = { pane-notifications-title }
 pane-appearance-title = Utsjånad
 category-appearance =
     .tooltiptext = { pane-appearance-title }
@@ -31,6 +34,10 @@ category-sync =
 pane-qr-export-title = Eksporter til mobil
 category-qr-export =
     .tooltiptext = Eksporter til mobil
+pane-beta-features-title = Beta-funksjonar
+category-beta-features =
+    .tooltiptext = { pane-beta-features-title }
+experimental-features-legend = Eksperimentelle funksjonar
 general-language-and-fonts-header = Språk og skrifttypar
 general-incoming-mail-header = Innkomande e-postar
 general-files-and-attachment-header = Filer og vedlegg
@@ -95,6 +102,7 @@ update-in-progress-ok-button = &Avvis
 # Continue is the cancel button so pressing escape or using a platform standard
 # method of closing the UI will not discard the update.
 update-in-progress-cancel-button = &Fortset
+accounts-button = Kontoar
 account-button = Kontoinnstillingar
 open-addons-sidebar-button = Tillegg og tema
 
