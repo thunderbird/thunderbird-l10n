@@ -11,12 +11,21 @@ calendar-dialog-close-button =
     .title = Začinić
 calendar-event-create-edit-dialog =
     .aria-label = Podawk
+calendar-event-title-input-new =
+    .aria-label = Titul podawka
+    .placeholder = Nowy podawk
+calendar-event-title-input-untitled =
+    .aria-label = Titul podawka
+    .placeholder = Podawk bjez titula
+calendar-event-title-required = Trěbny
+calendar-event-title-too-long = Titul njesmě wjace hač 180 znamješkow měć
 calendar-dialog-menu-button =
     .aria-label = Meni wočinić
     .title = Meni wočinić
 calendar-dialog-back-button =
     .aria-label = Wróćo
     .title = Wróćo
+calendar-event-create-edit-dialog-back-button = Wróćo
 calendar-dialog-date-row-icon =
     .alt = Datum a čas
 calendar-dialog-date-row-recurring-icon =
@@ -151,6 +160,19 @@ calendar-prompt-all-events =
 calendar-prompt-delete-button = Zhašeć
 calendar-dialog-edit-button = Wobdźěłać
 calendar-event-create-edit-save-button = Składować
+calendar-event-calendar-selector =
+    .aria-label = Protyka
+calendar-event-save = Składować
+calendar-event-saving = Składuje so…
+calendar-event-save-failed = Podawk njeda so składować. Spytajće hišće raz.
+# The status element announces Save progress and errors to screen readers.
+# Keep this message empty to clear the previous status text when Save is idle.
+calendar-event-save-idle = { "" }
+calendar-event-availability-selector =
+    .aria-label = Disponujomnosć
+calendar-event-availability-default = Standard
+calendar-event-availability-busy = Aktiwny
+calendar-event-availability-free = Darmo
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =
