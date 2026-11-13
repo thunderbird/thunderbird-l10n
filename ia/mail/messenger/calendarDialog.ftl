@@ -11,7 +11,14 @@ calendar-dialog-close-button =
     .title = Clauder
 calendar-event-create-edit-dialog =
     .aria-label = Evento
+calendar-event-title-input-new =
+    .aria-label = Titulo del evento
+    .placeholder = Nove evento
+calendar-event-title-input-untitled =
+    .aria-label = Titulo del evento
+    .placeholder = Evento sin titulo
 calendar-event-title-required = Necessari
+calendar-event-title-too-long = Le titulo non debe exceder 180 characteres
 calendar-dialog-menu-button =
     .aria-label = Aperir menu
     .title = Aperir menu
@@ -142,6 +149,8 @@ calendar-event-calendar-selector =
     .aria-label = Agenda
 calendar-event-save = Salvar
 calendar-event-saving = Salvamento…
+calendar-event-save-failed = Le evento non poteva esser salvate. Retenta.
+calendar-event-calendar-unavailable = Iste agenda non accepta nove eventos. Elige un altere agenda e retenta.
 # The status element announces Save progress and errors to screen readers.
 # Keep this message empty to clear the previous status text when Save is idle.
 calendar-event-save-idle = { "" }
