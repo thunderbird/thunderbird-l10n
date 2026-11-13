@@ -636,6 +636,7 @@ show-conversation-view-label =
     .label = Monstrar vista del conversation
     .accesskey = c
 conversation-view-preview-description = Isto es un functionalitate de previsualisation precoce. Illo gruppa insimul le messages correlate, ma illo poterea non sempre functionar como expectate.
+conversation-view-settings-link = Configurar modalitate conversation in le functionalitates beta
 conversation-view-checkbox-label =
     .label = Activar vista de conversation
     .accesskey = c
@@ -683,6 +684,7 @@ new-calendar-legend = Fenestra de dialogo de Nove evento de agenda
 new-calendar-checkbox-label =
     .label = Vide eventos de agenda in le nove fenestra de dialogo
 new-calendar-checkbox-description = Nove fenestra de dialogo experimental de agenda pro visualisar eventos
+new-calendar-dialog-settings-link = Configurar le Fenestra de dialogo Nove evento de agenda in le Functionalitates beta
 
 ## Compose Tab
 

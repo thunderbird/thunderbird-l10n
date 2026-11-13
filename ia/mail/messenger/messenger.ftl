@@ -18,6 +18,10 @@ messenger-file-exists = { $filename } existe jam. Desira tu reimplaciar lo?
 # Variables:
 # $folder (String) - The path of the destination folder within its account.
 # $server (String) - The name of the account containing the folder.
+folder-file-not-found = Le file pro “{ $folder }” sur { $server } non poteva esser trovate. Restaura le file o elige un altere plica de destination, pois retenta.
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
 folder-file-access-denied = Impossibile acceder al “{ $folder }” sur { $server }. Verifica le permissos de file del plica, pois retenta.
 # Variables:
 # $folder (String) - The path of the destination folder within its account.
