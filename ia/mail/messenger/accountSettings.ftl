@@ -187,7 +187,7 @@ account-settings-move-to-trash =
 # The label is followed by a numerical input and the message
 # account-settings-messages.
 account-settings-ask-before-download =
-    .label = Me demandar ante discargar plus de
+    .label = Me demandar ante discargar plus que
     .accesskey = M
 account-settings-messages =
     .value = messages
@@ -218,7 +218,7 @@ account-settings-browse-local-directory =
     .label = Navigar…
     .accesskey = N
 account-settings-default-text-encoding =
-    .value = Codification del testo predefinite:
+    .value = Codification de texto predefinite:
 
 ## Local Folders and RSS account settings
 
@@ -264,10 +264,10 @@ account-settings-imap-dual-use-folders =
     .label = Le servitor supporta plicas que contine sub plicas e messages
     .accesskey = p
 account-settings-imap-maximum-connections =
-    .value = Numero maxime de connexiones al servitor a tener in cache
-    .accesskey = M
+    .value = Numero maxime de connexiones de servitor a tener in cache
+    .accesskey = m
 # Do not translate "IMAP".
-account-settings-imap-namespace-description = Iste preferentias specifica le spatios de nomines sur le servitor IMAP
+account-settings-imap-namespace-description = Iste preferentias specifica le spatios de nomines sur tu servitor IMAP
 account-settings-imap-personal-namespace =
     .value = Spatio de nomines personal:
     .accesskey = p

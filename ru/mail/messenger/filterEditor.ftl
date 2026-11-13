@@ -34,6 +34,10 @@ filter-failure-move-failed = Ошибка при перемещении
 filter-failure-copy-failed = Ошибка при копировании
 filter-failure-action = Не удалось применить фильтр
 # Variables:
+# $folder (String) - The URI of the destination folder.
+# $errorCode (String) - The hexadecimal error code for the batch.
+filter-copy-batch-failed = Не удалось завершить копирование сообщений в { $folder }. Некоторые сообщения могли быть скопированы. Ошибка: { $errorCode }. Запрошенные идентификаторы сообщений: { filter-batch-message-ids }
+# Variables:
 # $filterName (String) - The name of the filter that was applied.
 # $author (String) - The sender of the message.
 # $subject (String) - The subject line of the message.

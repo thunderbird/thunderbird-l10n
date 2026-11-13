@@ -36,3 +36,4 @@ panel-settings-spam = Параметры спама
 # $account (String) - The account name.
 spam-settings-alert-message = Обнаружена проблема с настройками спама для { $account }. Вы хотите просмотреть её перед сохранением изменений?
 open-settings-sidebar-button = Настройки
+account-manager-document-title = Учётные записи

@@ -11,12 +11,21 @@ calendar-dialog-close-button =
     .title = Закрыть
 calendar-event-create-edit-dialog =
     .aria-label = Событие
+calendar-event-title-input-new =
+    .aria-label = Заголовок события
+    .placeholder = Новое событие
+calendar-event-title-input-untitled =
+    .aria-label = Заголовок события
+    .placeholder = Безымянное событие
+calendar-event-title-required = Обязательно
+calendar-event-title-too-long = Заголовок не должен превышать 180 символов
 calendar-dialog-menu-button =
     .aria-label = Открыть меню
     .title = Открыть меню
 calendar-dialog-back-button =
     .aria-label = Назад
     .title = Назад
+calendar-event-create-edit-dialog-back-button = Назад
 calendar-dialog-date-row-icon =
     .alt = Дата и время
 calendar-dialog-date-row-recurring-icon =
@@ -144,6 +153,20 @@ calendar-prompt-all-events =
 calendar-prompt-delete-button = Удалить
 calendar-dialog-edit-button = Изменить
 calendar-event-create-edit-save-button = Сохранить
+calendar-event-calendar-selector =
+    .aria-label = Календарь
+calendar-event-save = Сохранить
+calendar-event-saving = Сохранение…
+calendar-event-save-failed = Не удалось сохранить событие. Попробуйте снова.
+calendar-event-calendar-unavailable = Этот календарь не принимает новые события. Выберите другой календарь и попробуйте снова.
+# The status element announces Save progress and errors to screen readers.
+# Keep this message empty to clear the previous status text when Save is idle.
+calendar-event-save-idle = { "" }
+calendar-event-availability-selector =
+    .aria-label = Доступность
+calendar-event-availability-default = По умолчанию
+calendar-event-availability-busy = Занят
+calendar-event-availability-free = Свободен
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =
