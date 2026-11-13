@@ -240,19 +240,19 @@ account-settings-rss-server-settings = Configuration de servitor
 account-settings-rss-enable-updates =
     .label = Activar actualisationes pro tote le fluxos
     .accesskey = A
-account-settings-rss-new-feed-defaults = Parametros predefinite pro nove fluxos
+account-settings-rss-new-feed-defaults = Parametros predefinite pro le nove fluxos
 account-settings-rss-manage-subscriptions =
-    .label = Gerer le subscriptiones…
+    .label = Gerer le abonamentos…
     .accesskey = G
 
 ## Feed account wizard
 
-account-settings-rss-wizard-title = Assistente de contos de flux
+account-settings-rss-wizard-title = Assistente de conto del fluxos
 account-settings-rss-default-account-name = Blogs e actualitates
 
 ## Advanced server settings
 
-account-settings-advanced-server-title = Parametros avantiate de contos
+account-settings-advanced-server-title = Parametros de conto avantiate
 # Do not translate "IMAP".
 account-settings-imap-server-directory =
     .value = Directorio del servitor IMAP:
