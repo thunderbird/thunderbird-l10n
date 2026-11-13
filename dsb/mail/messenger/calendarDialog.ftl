@@ -165,6 +165,15 @@ calendar-event-calendar-selector =
 calendar-event-save = Składowaś
 calendar-event-saving = Składujo se…
 calendar-event-save-failed = Tšojenje njedajo se składowaś. Wopytajśo hyšći raz.
+calendar-event-calendar-unavailable = Toś ten kalendaŕ nowe tšojenja njeakceptěrujo. Wubjeŕśo drugi kalendaŕ a wopytajśo hyšći raz.
+# The status element announces Save progress and errors to screen readers.
+# Keep this message empty to clear the previous status text when Save is idle.
+calendar-event-save-idle = { "" }
+calendar-event-availability-selector =
+    .aria-label = K-dispoziciji-byśe
+calendar-event-availability-default = Standard
+calendar-event-availability-busy = Zabrany
+calendar-event-availability-free = Dermo
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =
