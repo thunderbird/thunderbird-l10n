@@ -36,6 +36,7 @@ category-qr-export =
     .tooltiptext = Exportar pro apparatos mobile
 category-beta-features =
     .tooltiptext = { pane-beta-features-title }
+experimental-features-legend = Functionalitates experimental
 general-language-and-fonts-header = Lingua e typos de character
 general-email-notifications-header = Avisos de e-mail
 general-incoming-mail-header = Messages entrante
