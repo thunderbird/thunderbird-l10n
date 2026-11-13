@@ -33,6 +33,10 @@ filter-failure-move-failed = A moção falhou
 filter-failure-copy-failed = A cópia falhou
 filter-failure-action = Não foi possível aplicar a ação de filtro
 # Variables:
+# $folder (String) - The URI of the destination folder.
+# $errorCode (String) - The hexadecimal error code for the batch.
+filter-copy-batch-failed = Não foi possível concluir a cópia das mensagens para { $folder }. Algumas poderão ter sido copiadas. Erro: { $errorCode }. IDs das mensagens solicitadas: { filter-batch-message-ids }
+# Variables:
 # $filterName (String) - The name of the filter that was applied.
 # $author (String) - The sender of the message.
 # $subject (String) - The subject line of the message.

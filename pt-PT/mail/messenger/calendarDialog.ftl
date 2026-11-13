@@ -14,12 +14,18 @@ calendar-event-create-edit-dialog =
 calendar-event-title-input-new =
     .aria-label = Título do evento
     .placeholder = Novo evento
+calendar-event-title-input-untitled =
+    .aria-label = Título do evento
+    .placeholder = Evento sem título
+calendar-event-title-required = Obrigatório
+calendar-event-title-too-long = O título não deve exceder 180 caracteres
 calendar-dialog-menu-button =
     .aria-label = Abrir menu
     .title = Abrir menu
 calendar-dialog-back-button =
     .aria-label = Voltar
     .title = Voltar
+calendar-event-create-edit-dialog-back-button = Retroceder
 calendar-dialog-date-row-icon =
     .alt = Data e hora
 calendar-dialog-date-row-recurring-icon =
@@ -139,6 +145,20 @@ calendar-prompt-all-events =
 calendar-prompt-delete-button = Apagar
 calendar-dialog-edit-button = Editar
 calendar-event-create-edit-save-button = Guardar
+calendar-event-calendar-selector =
+    .aria-label = Calendário
+calendar-event-save = Guardar
+calendar-event-saving = A guardar...
+calendar-event-save-failed = Não foi possível guardar o evento. Tente novamente.
+calendar-event-calendar-unavailable = Este calendário não aceita novos eventos. Selecione outro calendário e tente novamente.
+# The status element announces Save progress and errors to screen readers.
+# Keep this message empty to clear the previous status text when Save is idle.
+calendar-event-save-idle = { "" }
+calendar-event-availability-selector =
+    .aria-label = Disponibilidade
+calendar-event-availability-default = Predefinição
+calendar-event-availability-busy = Ocupado
+calendar-event-availability-free = Livre
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =
