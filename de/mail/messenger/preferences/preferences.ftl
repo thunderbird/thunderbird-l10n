@@ -10,6 +10,9 @@ category-list =
 pane-general-title = Allgemein
 category-general =
     .tooltiptext = { pane-general-title }
+pane-notifications-title = Benachrichtigungen
+category-notifications =
+    .tooltiptext = { pane-notifications-title }
 pane-appearance-title = Erscheinungsbild
 category-appearance =
     .tooltiptext = { pane-appearance-title }
@@ -31,6 +34,10 @@ category-sync =
 pane-qr-export-title = Auf Mobilgerät exportieren
 category-qr-export =
     .tooltiptext = Auf Mobilgerät exportieren
+pane-beta-features-title = Beta-Funktionen
+category-beta-features =
+    .tooltiptext = { pane-beta-features-title }
+experimental-features-legend = Experimentelle Funktionen
 general-language-and-fonts-header = Sprache & Schriftarten
 general-email-notifications-header = E-Mail-Benachrichtigung
 general-incoming-mail-header = Eingehende E-Mail-Nachrichten
@@ -116,6 +123,7 @@ update-in-progress-ok-button = &Verwerfen
 # Continue is the cancel button so pressing escape or using a platform standard
 # method of closing the UI will not discard the update.
 update-in-progress-cancel-button = &Fortfahren
+accounts-button = Konten
 account-button = Konten-Einstellungen
 open-addons-sidebar-button = Erweiterungen und Themes
 manual-storage-limit-label =
@@ -626,6 +634,7 @@ show-conversation-view-label =
     .label = Gesprächsansicht anzeigen
     .accesskey = c
 conversation-view-preview-description = Diese Funktion befindet sich noch in einer frühen Vorschauphase. Sie fasst zusammengehörige Nachrichten zusammen, funktioniert aber möglicherweise nicht immer wie erwartet.
+conversation-view-settings-link = Konversationsansicht in Beta-Funktionen konfigurieren
 conversation-view-checkbox-label =
     .label = Themenansicht aktivieren
     .accesskey = T
@@ -673,6 +682,7 @@ new-calendar-legend = Dialog für neuen Kalendereintrag
 new-calendar-checkbox-label =
     .label = Kalendereinträge im neuen Dialog anzeigen
 new-calendar-checkbox-description = Experimenteller neuer Kalender-Dialog zum Anzeigen von Einträgen
+new-calendar-dialog-settings-link = Dialog für neues Kalender-Ereignis in Beta-Funktionen konfigurieren
 
 ## Compose Tab
 

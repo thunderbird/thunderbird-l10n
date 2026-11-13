@@ -37,6 +37,20 @@ filter-failure-action = Fehler beim Anwenden der Aktion für den Filter
 # $errorCode (String) - The hexadecimal error code for the batch.
 filter-copy-batch-failed = Das Kopieren der Nachrichten in { $ordner } konnte nicht abgeschlossen werden. Einige Nachrichten wurden möglicherweise kopiert. Fehler: { $errorCode }. Angeforderte Nachrichten-IDs: { filter-batch-message-ids }
 # Variables:
+# $folder (String) - The URI of the destination folder.
+# $errorCode (String) - The hexadecimal error code for the batch.
+filter-move-batch-failed = Die Nachrichten konnten nicht vollständig in { $folder } verschoben werden. Einige Nachrichten wurden möglicherweise kopiert, ohne aus dem Quellordner entfernt zu werden. Fehler: { $errorCode }. Angeforderte Nachrichten-IDs: { filter-batch-message-ids }
+# Referenced by filter-copy-batch-failed and filter-move-batch-failed.
+# Variables:
+# $messageIds (String) - Up to 20 requested message IDs, separated by commas.
+# $count (Number) - The number of additional requested messages whose IDs are omitted.
+filter-batch-message-ids =
+    { $count ->
+        [0] { $messageIds }
+        [one] { $messageIds } und { $count } weitere Nachricht
+       *[other] { $messageIds }, und { $count } weitere Nachrichten
+    }
+# Variables:
 # $filterName (String) - The name of the filter that was applied.
 # $author (String) - The sender of the message.
 # $subject (String) - The subject line of the message.

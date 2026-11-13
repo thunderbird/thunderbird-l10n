@@ -43,6 +43,10 @@ about-addressbook-card-count-all =
         [few] { $count } kontakty we wszystkich książkach adresowych
        *[many] { $count } kontaktów we wszystkich książkach adresowych
     }
+about-addressbook-books-context-new-contact =
+    .label = Nowy kontakt
+about-addressbook-books-context-new-list =
+    .label = Nowa lista
 about-addressbook-books-context-properties =
     .label = Właściwości
 about-addressbook-books-context-edit-list =

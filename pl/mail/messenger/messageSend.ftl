@@ -90,6 +90,13 @@ smtp-auth-hint-plain-to-encrypt = Serwer „{ $hostname }” poczty wychodzącej
 smtp-auth-failure = Wystąpił błąd podczas wysyłania wiadomości: nie udało się uwierzytelnić z serwerem „{ $hostname }” poczty wychodzącej (SMTP). Proszę sprawdzić hasło oraz metodę uwierzytelniania w Poczcie wychodzącej w Konfiguracji kont.
 # Variables:
 # $hostname - outgoing server hostname
+# $serverResponse - server response
+smtp-auth-oauth2-failure = Uwierzytelnienie na serwerze poczty wychodzącej (SMTP) { $hostname } za pomocą OAuth2 się nie powiodło. Odpowiedź serwera: { $serverResponse }
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-oauth2-failure-no-response = Nie udało się uwierzytelnić na serwerze poczty wychodzącej (SMTP) { $hostname } za pomocą OAuth2.
+# Variables:
+# $hostname - outgoing server hostname
 smtp-auth-gssapi = Uwierzytelnianie przy pomocy Kerberos/GSSAPI nie zostało zaakceptowane przez serwer SMTP { $hostname }. Proszę sprawdzić stan zalogowania do domeny Kerberos/GSSAPI.
 # Variables:
 # $hostname - outgoing server hostname
