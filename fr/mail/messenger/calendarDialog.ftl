@@ -152,6 +152,9 @@ calendar-event-save = Enregistrer
 calendar-event-saving = Enregistrement…
 calendar-event-save-failed = L’évènement n’a pas pu être enregistré. Veuillez réessayer.
 calendar-event-calendar-unavailable = Cet agenda n’accepte pas de nouveaux évènements. Sélectionnez un autre agenda et réessayez.
+# The status element announces Save progress and errors to screen readers.
+# Keep this message empty to clear the previous status text when Save is idle.
+calendar-event-save-idle = { "" }
 calendar-event-availability-selector =
     .aria-label = Disponibilité
 calendar-event-availability-default = Par défaut

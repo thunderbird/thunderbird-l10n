@@ -208,23 +208,23 @@ account-settings-message-store-maildir =
 account-settings-newsrc-file =
     .value = File news.rc:
 account-settings-browse-newsrc =
-    .filepickertitle = Seliger le file news.rc
-    .label = Percurrer…
-    .accesskey = e
+    .filepickertitle = Elige le file News.rc
+    .label = Navigar…
+    .accesskey = a
 account-settings-local-directory =
     .value = Directorio local:
 account-settings-browse-local-directory =
-    .filepickertitle = Selige directorio local
-    .label = Percurrer…
-    .accesskey = P
+    .filepickertitle = Eliger directorio local
+    .label = Navigar…
+    .accesskey = N
 account-settings-default-text-encoding =
     .value = Codification del testo predefinite:
 
 ## Local Folders and RSS account settings
 
-account-settings-document-title = Parametros de contos
+account-settings-document-title = Configurationes del conto
 account-settings-title =
-    .value = Parametros de contos
+    .value = Configurationes del conto
 # Variables:
 #   $accountName (String) - The name of the account.
 account-settings-document-title-with-name = { account-settings-document-title } - { $accountName }
@@ -232,7 +232,7 @@ account-settings-document-title-with-name = { account-settings-document-title } 
 #   $accountName (String) - The name of the account.
 account-settings-title-with-name =
     .value = { account-settings-document-title-with-name }
-account-settings-special-account-description = Le sequente es un conto special.  Illo non ha identitates associate.
+account-settings-special-account-description = Le sequente es un conto special. Il non ha alcun identitate associate con illo.
 account-settings-account-name =
     .value = Nomine del conto:
     .accesskey = N
