@@ -142,6 +142,14 @@ calendar-event-calendar-selector =
     .aria-label = Күнтізбе
 calendar-event-save = Сақтау
 calendar-event-saving = Сақталуда…
+# The status element announces Save progress and errors to screen readers.
+# Keep this message empty to clear the previous status text when Save is idle.
+calendar-event-save-idle = { "" }
+calendar-event-availability-selector =
+    .aria-label = Қолжетімділік
+calendar-event-availability-default = Бастапқы
+calendar-event-availability-busy = Бос емес
+calendar-event-availability-free = Бос
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =

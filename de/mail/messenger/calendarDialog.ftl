@@ -147,6 +147,11 @@ calendar-event-calendar-selector =
 calendar-event-save = Speichern
 calendar-event-saving = Wird gespeichert…
 calendar-event-save-failed = Der Termin konnte nicht gespeichert werden. Versuchen Sie es erneut.
+calendar-event-availability-selector =
+    .aria-label = Verfügbarkeit
+calendar-event-availability-default = Standard
+calendar-event-availability-busy = Beschäftigt
+calendar-event-availability-free = Verfügbar
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =

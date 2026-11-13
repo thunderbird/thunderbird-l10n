@@ -102,6 +102,12 @@ compose-blocked-content-preferences-accesskey = g
 # $url - URL of the blocked resource
 compose-unblock-resource =
     .label = Blockierung beenden von { $url }
+menuitem-resize-header-area =
+    .label = Größe des Kopfbereichs ändern
+    .accesskey = G
+compose-header-area-splitter =
+    .aria-description = Verwenden Sie die Auf- und Ab-Pfeiltasten, um die Größe anzupassen, und die Umschalttaste für größere Schritte. Drücken Sie die Tabulatortaste, um zum Editor zu wechseln, oder Umschalt+Tab, um zum Betreff zu wechseln.
+    .aria-label = Kopfbereich
 
 ## Send Format
 

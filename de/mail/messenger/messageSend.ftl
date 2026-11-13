@@ -90,6 +90,13 @@ smtp-auth-hint-plain-to-encrypt = Der SMTP-Server { $hostname } erlaubt die unge
 smtp-auth-failure = Der Postausgangs-Server (SMTP) { $hostname } kann nicht authentifiziert werden. Bitte überprüfen Sie das Passwort und die gewählte „Authentifizierungsmethode“ unter „Konten-Einstellungen | Postausgangs-Server (SMTP)“.
 # Variables:
 # $hostname - outgoing server hostname
+# $serverResponse - server response
+smtp-auth-oauth2-failure = Die Authentifizierung am Postausgangsserver (SMTP) { $hostname } über OAuth2 ist fehlgeschlagen. Der Server antwortete: { $serverResponse }
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-oauth2-failure-no-response = Die Authentifizierung am Postausgangsserver (SMTP) { $hostname } über OAuth2 ist fehlgeschlagen.
+# Variables:
+# $hostname - outgoing server hostname
 smtp-auth-gssapi = Das Kerberos/GSSAPI-Ticket wurde vom SMTP-Server { $hostname } nicht akzeptiert. Bitte stellen Sie sicher, dass Sie im Kerberos/GSSAPI-Bereich angemeldet sind.
 # Variables:
 # $hostname - outgoing server hostname

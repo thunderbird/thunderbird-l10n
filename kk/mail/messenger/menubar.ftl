@@ -12,6 +12,13 @@ system-tray-app-name = { -brand-full-name }
 menu-tools-settings =
     .label = Баптаулар
     .accesskey = а
+menu-accounts =
+    .label = Тіркелгілер
+    .accesskey =
+        { PLATFORM() ->
+            [linux] Т
+           *[other] к
+        }
 menu-addons-and-themes =
     .label = Қосымшалар және темалар
     .accesskey = е

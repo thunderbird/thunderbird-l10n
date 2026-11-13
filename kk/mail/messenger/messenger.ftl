@@ -277,6 +277,8 @@ appmenu-save-as-file =
     .label = Файл…
 appmenu-settings =
     .label = Баптаулар
+appmenu-accounts =
+    .label = Тіркелгілер
 appmenu-addons-and-themes =
     .label = Қосымшалар және темалар
 
@@ -496,6 +498,8 @@ spaces-context-switch-tab-item =
     .label = { $tabName } бетіне ауысу
 settings-context-open-settings-item2 =
     .label = Баптаулар
+settings-context-open-accounts-item =
+    .label = Тіркелгілер
 settings-context-open-account-settings-item2 =
     .label = Тіркелгі баптаулары
 settings-context-open-addons-item2 =

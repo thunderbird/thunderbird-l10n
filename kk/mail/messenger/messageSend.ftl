@@ -90,6 +90,13 @@ smtp-auth-hint-plain-to-encrypt = { $hostname } шығыс пошта серве
 smtp-auth-failure = { $hostname } шығыс пошта серверінде (SMTP) аутентификациядан өту мүмкін емес. Пароліңізді тексеріңіз, және "Тіркелгі баптаулары | Шығыс сервері (SMTP)" ішіндегі "Аутентификация тәсілін" тексеріңіз.
 # Variables:
 # $hostname - outgoing server hostname
+# $serverResponse - server response
+smtp-auth-oauth2-failure = OAuth2 арқылы { $hostname } шығыс серверіне (SMTP) аутентификациялау мүмкін емес. Сервер жауап берді: { $serverResponse }
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-oauth2-failure-no-response = OAuth2 арқылы { $hostname } шығыс серверіне (SMTP) аутентификациялау мүмкін емес.
+# Variables:
+# $hostname - outgoing server hostname
 smtp-auth-gssapi = { $hostname } шығыс пошта сервері (SMTP) Kerberos/GSSAPI билетін қабылдамады. Kerberos/GSSAPI доменіне кіргеніңізді тексеріңіз.
 # Variables:
 # $hostname - outgoing server hostname

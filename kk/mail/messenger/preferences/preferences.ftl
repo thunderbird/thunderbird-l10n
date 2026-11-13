@@ -10,6 +10,9 @@ category-list =
 pane-general-title = Жалпы
 category-general =
     .tooltiptext = { pane-general-title }
+pane-notifications-title = Хабарландырулар
+category-notifications =
+    .tooltiptext = { pane-notifications-title }
 pane-appearance-title = Сыртқы түрі
 category-appearance =
     .tooltiptext = { pane-appearance-title }
@@ -31,6 +34,9 @@ category-sync =
 pane-qr-export-title = Мобильді үшін экспорттау
 category-qr-export =
     .tooltiptext = Мобильді үшін экспорттау
+category-beta-features =
+    .tooltiptext = { pane-beta-features-title }
+experimental-features-legend = Эксперименталды мүмкіндіктер
 general-language-and-fonts-header = Тіл және қаріптер
 general-email-notifications-header = Эл. пошта хабарландырулары
 general-incoming-mail-header = Кіріс хабарламалар
@@ -116,6 +122,7 @@ update-in-progress-ok-button = Тай&дыру
 # Continue is the cancel button so pressing escape or using a platform standard
 # method of closing the UI will not discard the update.
 update-in-progress-cancel-button = Жалға&стыру
+accounts-button = Тіркелгілер
 account-button = Тіркелгі баптаулары
 open-addons-sidebar-button = Қосымшалар және темалар
 manual-storage-limit-label =
