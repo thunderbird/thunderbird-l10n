@@ -8,6 +8,14 @@
 filter-failure-move-failed = ההעברה נכשלה
 filter-failure-copy-failed = ההעתקה נכשלה
 # Variables:
+# $folder (String) - The URI of the destination folder.
+# $errorCode (String) - The hexadecimal error code for the batch.
+filter-copy-batch-failed = לא ניתן היה להשלים את העתקת ההודעות אל { $folder }. ייתכן שחלק מההודעות הועתקו. שגיאה: { $errorCode }. מזהי הודעה מבוקשים: { filter-batch-message-ids }
+# Variables:
+# $folder (String) - The URI of the destination folder.
+# $errorCode (String) - The hexadecimal error code for the batch.
+filter-move-batch-failed = לא ניתן היה להשלים את העברת ההודעות אל { $folder }. ייתכן שחלק מההודעות הועתקו אך לא הוסרו מתיקיית המקור. שגיאה: { $errorCode }. מזהי הודעה מבוקשים: { filter-batch-message-ids }
+# Variables:
 # $filterName (String) - The name of the filter that was applied.
 # $author (String) - The sender of the message.
 # $subject (String) - The subject line of the message.

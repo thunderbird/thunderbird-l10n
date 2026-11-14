@@ -5,3 +5,4 @@
 open-preferences-sidebar-button2 = הגדרות של { -brand-short-name }
 open-addons-sidebar-button = תוספות וערכות נושא
 open-settings-sidebar-button = הגדרות
+account-manager-document-title = חשבונות

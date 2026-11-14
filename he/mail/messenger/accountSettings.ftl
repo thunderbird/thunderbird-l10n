@@ -5,6 +5,7 @@
 
 ## Incoming server settings
 
+account-settings-server-document-title = הגדרות שרת
 account-settings-server-type =
     .value = סוג שרת:
 account-settings-server-name =

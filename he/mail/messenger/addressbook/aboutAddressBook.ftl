@@ -5,6 +5,10 @@
 
 ## Books
 
+about-addressbook-books-context-new-contact =
+    .label = איש קשר חדש
+about-addressbook-books-context-new-list =
+    .label = רשימה חדשה
 about-addressbook-books-context-properties =
     .label = מאפיינים
 about-addressbook-books-context-synchronize =
