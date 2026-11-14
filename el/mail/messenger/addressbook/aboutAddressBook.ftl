@@ -33,6 +33,10 @@ about-addressbook-card-count = Σύνολο επαφών στο «{ $name }»: {
 # Variables:
 # $count (Number) - The number of contacts in all address books.
 about-addressbook-card-count-all = Σύνολο επαφών σε όλα τα ευρετήρια: { $count }
+about-addressbook-books-context-new-contact =
+    .label = Νέα επαφή
+about-addressbook-books-context-new-list =
+    .label = Νέα λίστα
 about-addressbook-books-context-properties =
     .label = Ιδιότητες
 about-addressbook-books-context-edit-list =

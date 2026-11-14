@@ -17,6 +17,7 @@ calendar-dialog-menu-button =
 calendar-dialog-back-button =
     .aria-label = Πίσω
     .title = Πίσω
+calendar-event-create-edit-dialog-back-button = Πίσω
 calendar-dialog-date-row-icon =
     .alt = Ημερομηνία και ώρα
 calendar-dialog-date-row-recurring-icon =
@@ -136,6 +137,9 @@ calendar-prompt-all-events =
 calendar-prompt-delete-button = Διαγραφή
 calendar-dialog-edit-button = Επεξεργασία
 calendar-event-create-edit-save-button = Αποθήκευση
+calendar-event-calendar-selector =
+    .aria-label = Ημερολόγιο
+calendar-event-save = Αποθήκευση
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =
