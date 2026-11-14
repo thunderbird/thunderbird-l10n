@@ -35,11 +35,11 @@ filter-failure-action = Applicazione del filtro non riuscita
 # Variables:
 # $folder (String) - The URI of the destination folder.
 # $errorCode (String) - The hexadecimal error code for the batch.
-filter-copy-batch-failed = Impossibile completare la copia dei messaggi in { $folder }. Alcuni messaggi potrebbero essere stati copiati. Errore: { $errorCode }. ID messaggio richiesto: { filter-batch-message-ids }
+filter-copy-batch-failed = Impossibile completare la copia dei messaggi in { $folder }. Alcuni messaggi potrebbero essere stati copiati. Errore: { $errorCode }. ID messaggi richiesti: { filter-batch-message-ids }
 # Variables:
 # $folder (String) - The URI of the destination folder.
 # $errorCode (String) - The hexadecimal error code for the batch.
-filter-move-batch-failed = Impossibile completare lo spostamento dei messaggi in { $folder }. Alcuni messaggi potrebbero essere stati copiati senza essere rimossi dalla cartella di origine. Errore: { $errorCode }. ID messaggio richiesto: { filter-batch-message-ids }
+filter-move-batch-failed = Impossibile completare lo spostamento dei messaggi in { $folder }. Alcuni messaggi potrebbero essere stati copiati senza essere rimossi dalla cartella di origine. Errore: { $errorCode }. ID messaggi richiesti: { filter-batch-message-ids }
 # Referenced by filter-copy-batch-failed and filter-move-batch-failed.
 # Variables:
 # $messageIds (String) - Up to 20 requested message IDs, separated by commas.

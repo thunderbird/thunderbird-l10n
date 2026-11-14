@@ -148,6 +148,9 @@ calendar-event-save = Salva
 calendar-event-saving = Salvataggio…
 calendar-event-save-failed = Impossibile salvare l’evento. Riprova.
 calendar-event-calendar-unavailable = Questo calendario non accetta nuovi eventi. Seleziona un altro calendario e riprova.
+# The status element announces Save progress and errors to screen readers.
+# Keep this message empty to clear the previous status text when Save is idle.
+calendar-event-save-idle = { "" }
 calendar-event-availability-selector =
     .aria-label = Disponibilità
 calendar-event-availability-default = Predefinito
