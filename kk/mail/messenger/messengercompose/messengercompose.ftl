@@ -102,6 +102,12 @@ compose-blocked-content-preferences-accesskey = л
 # $url - URL of the blocked resource
 compose-unblock-resource =
     .label = { $url } блоктауын алып тастау
+menuitem-resize-header-area =
+    .label = Тақырып аймағының өлшемін өзгерту
+    .accesskey = р
+compose-header-area-splitter =
+    .aria-description = Өлшемін өзгерту үшін «Жоғары» және «Төмен» пернелерін, ал үлкенірек қадамдар үшін Shift пернелерін басыңыз. Редакторға өту үшін Tab пернелерін немесе Тақырыпқа өту үшін Shift+Tab пернелерін басыңыз.
+    .aria-label = Тақырып аймағы
 
 ## Send Format
 

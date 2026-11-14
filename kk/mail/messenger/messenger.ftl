@@ -15,6 +15,19 @@ messenger-save-message-failed = Хабарламаны сақтау мүмкін
 # Variables:
 # $filename (String) - Full path of the file that already exists.
 messenger-file-exists = { $filename } бар болып тұр. Оны алмастыру керек пе?
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+folder-file-not-found = { $server } серверіндегі “{ $folder }” үшін файл табылмады. Файлды қалпына келтіріңіз немесе басқа мақсатты буманы таңдап, қайталап көріңіз.
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+folder-file-access-denied = { $server } серверіндегі “{ $folder }” бумасына қол жеткізу мүмкін емес. Буманың файл рұқсаттарын тексеріп, қайталап көріңіз.
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+# $errorCode (String) - The hexadecimal filesystem error code.
+folder-file-error = { $server } серверіндегі “{ $folder }” бумасына қол жеткізу мүмкін емес. Бума файлдарының қолжетімді және жазылатынын тексеріп, қайталап көріңіз. Қате: { $errorCode }
 
 ## Window controls
 

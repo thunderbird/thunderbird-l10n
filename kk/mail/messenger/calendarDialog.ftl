@@ -11,7 +11,14 @@ calendar-dialog-close-button =
     .title = Жабу
 calendar-event-create-edit-dialog =
     .aria-label = Оқиға
+calendar-event-title-input-new =
+    .aria-label = Оқиға атауы
+    .placeholder = Жаңа оқиға
+calendar-event-title-input-untitled =
+    .aria-label = Оқиға атауы
+    .placeholder = Атаусыз оқиға
 calendar-event-title-required = Міндетті
+calendar-event-title-too-long = Атауы 180 таңбадан аспауы тиіс
 calendar-dialog-menu-button =
     .aria-label = Мәзірді ашу
     .title = Мәзірді ашу
@@ -142,6 +149,8 @@ calendar-event-calendar-selector =
     .aria-label = Күнтізбе
 calendar-event-save = Сақтау
 calendar-event-saving = Сақталуда…
+calendar-event-save-failed = Оқиғаны сақтау мүмкін болмады. Қайталап көріңіз.
+calendar-event-calendar-unavailable = Бұл күнтізбе жаңа оқиғаларды қабылдамайды. Басқа күнтізбені таңдап, қайталап көріңіз.
 # The status element announces Save progress and errors to screen readers.
 # Keep this message empty to clear the previous status text when Save is idle.
 calendar-event-save-idle = { "" }

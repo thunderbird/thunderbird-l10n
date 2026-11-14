@@ -34,6 +34,7 @@ category-sync =
 pane-qr-export-title = Мобильді үшін экспорттау
 category-qr-export =
     .tooltiptext = Мобильді үшін экспорттау
+pane-beta-features-title = Бета мүмкіндіктері
 category-beta-features =
     .tooltiptext = { pane-beta-features-title }
 experimental-features-legend = Эксперименталды мүмкіндіктер
@@ -633,6 +634,7 @@ show-conversation-view-label =
     .label = Сөйлесу көрінісін көрсету
     .accesskey = С
 conversation-view-preview-description = Бұл — ерте алдын ала қарау мүмкіндігі. Ол байланысты хабарламаларды бірге топтайды, бірақ әрқашан күтілгендей жұмыс істемеуі мүмкін.
+conversation-view-settings-link = Бета нұсқасындағы әңгіме көрінісін конфигурациялау мүмкіндіктері
 conversation-view-checkbox-label =
     .label = Сөйлесу режимін іске қосу
     .accesskey = е
@@ -680,6 +682,7 @@ new-calendar-legend = Жаңа күнтізбе оқиғасы сұхбат те
 new-calendar-checkbox-label =
     .label = Күнтізбе оқиғаларын жаңа сұхбат терезесінде қарау
 new-calendar-checkbox-description = Оқиғаларды қарауға арналған эксперименттік жаңа күнтізбе сұхбат терезесі
+new-calendar-dialog-settings-link = Бета нұсқасындағы жаңа күнтізбе оқиғасы сұхбатын конфигурациялау мүмкіндіктері
 
 ## Compose Tab
 
