@@ -102,6 +102,12 @@ compose-blocked-content-preferences-accesskey = I
 # $url - URL of the blocked resource
 compose-unblock-resource =
     .label = Fjern blokkering av { $url }
+menuitem-resize-header-area =
+    .label = Endre størrelsen på meldingshodeområdet
+    .accesskey = E
+compose-header-area-splitter =
+    .aria-description = Bruk pil opp og pil ned for å endre størrelsen, og hold inne «Shift» for større trinn. Trykk på «Tab» for å gå til redigeringsfeltet eller «Shift + Tab» for å gå til emnefeltet.
+    .aria-label = Meldingshodeområde
 
 ## Send Format
 

@@ -277,6 +277,8 @@ appmenu-save-as-file =
     .label = Fil…
 appmenu-settings =
     .label = Innstillinger
+appmenu-accounts =
+    .label = Kontoer
 appmenu-addons-and-themes =
     .label = Tillegg og temaer
 
