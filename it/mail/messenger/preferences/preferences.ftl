@@ -37,7 +37,7 @@ category-qr-export =
 pane-beta-features-title = Funzionalità beta
 category-beta-features =
     .tooltiptext = { pane-beta-features-title }
-experimental-features-legend = Funzioni sperimentali
+experimental-features-legend = Funzionalità sperimentali
 general-language-and-fonts-header = Lingua e caratteri
 general-email-notifications-header = Notifiche email
 general-incoming-mail-header = Posta in arrivo
@@ -634,7 +634,7 @@ show-conversation-view-label =
     .label = Mostra vista conversazione
     .accesskey = z
 conversation-view-preview-description = Questa funzionalità è ancora in fase di anteprima. Raggruppa i messaggi correlati, ma potrebbe non funzionare sempre come previsto.
-conversation-view-settings-link = Configura la vista conversazione nelle funzioni beta
+conversation-view-settings-link = Configura la vista conversazione nelle funzionalità beta
 conversation-view-checkbox-label =
     .label = Attiva vista conversazione
     .accesskey = A
@@ -682,7 +682,7 @@ new-calendar-legend = Finestra di dialogo per nuovo evento del calendario
 new-calendar-checkbox-label =
     .label = Visualizza gli eventi del calendario nella nuova finestra di dialogo
 new-calendar-checkbox-description = Versione sperimentale della finestra di dialogo del calendario per visualizzare gli eventi
-new-calendar-dialog-settings-link = Configura nuova finestra eventi del calendario nelle funzionalità beta
+new-calendar-dialog-settings-link = Configura la finestra di dialogo per nuovo evento del calendario nelle funzionalità beta
 
 ## Compose Tab
 

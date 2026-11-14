@@ -18,16 +18,16 @@ messenger-file-exists = { $filename } esiste. Sostituirlo?
 # Variables:
 # $folder (String) - The path of the destination folder within its account.
 # $server (String) - The name of the account containing the folder.
-folder-file-not-found = Impossibile trovare il file “{ $folder }” su { $server }. Ripristinare il file o scegliere un’altra cartella di destinazione, quindi riprovare.
+folder-file-not-found = Impossibile trovare il file “{ $folder }” su { $server }. Ripristina il file o scegli un’altra cartella di destinazione, quindi riprova.
 # Variables:
 # $folder (String) - The path of the destination folder within its account.
 # $server (String) - The name of the account containing the folder.
-folder-file-access-denied = Impossibile accedere a “{ $folder }” su { $server }. Verificare i permessi dei file della cartella, quindi riprovare.
+folder-file-access-denied = Impossibile accedere a “{ $folder }” su { $server }. Verifica i permessi dei file della cartella, quindi riprova.
 # Variables:
 # $folder (String) - The path of the destination folder within its account.
 # $server (String) - The name of the account containing the folder.
 # $errorCode (String) - The hexadecimal filesystem error code.
-folder-file-error = Impossibile accedere a “{ $folder }” su { $server }. Verificare che i file della cartella siano disponibili e scrivibili, quindi riprovare. Errore: { $errorCode }
+folder-file-error = Impossibile accedere a “{ $folder }” su { $server }. Verifica la disponibilità e i permessi di scrittura dei file della cartella, quindi riprova. Errore: { $errorCode }
 
 ## Window controls
 

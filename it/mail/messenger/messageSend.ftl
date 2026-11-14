@@ -91,10 +91,10 @@ smtp-auth-failure = Autenticazione non riuscita col server di posta in uscita (S
 # Variables:
 # $hostname - outgoing server hostname
 # $serverResponse - server response
-smtp-auth-oauth2-failure = Impossibile autenticarsi sul server in uscita (SMTP) { $hostname } utilizzando OAuth2. Il server ha risposto: { $serverResponse }
+smtp-auth-oauth2-failure = Impossibile autenticarsi sul server di posta in uscita (SMTP) { $hostname } utilizzando OAuth2. Il server ha risposto: { $serverResponse }
 # Variables:
 # $hostname - outgoing server hostname
-smtp-auth-oauth2-failure-no-response = Impossibile autenticarsi sul server in uscita (SMTP) { $hostname } utilizzando OAuth2.
+smtp-auth-oauth2-failure-no-response = Impossibile autenticarsi sul server di posta in uscita (SMTP) { $hostname } utilizzando OAuth2.
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-gssapi = Le credenziali Kerberos/GSSAP non sono state accettate dal server di posta in uscita (SMTP) { $hostname }. Controllare di essere autenticati nel dominio Kerberos/GSSAP.
