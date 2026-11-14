@@ -140,6 +140,10 @@ calendar-event-create-edit-save-button = Αποθήκευση
 calendar-event-calendar-selector =
     .aria-label = Ημερολόγιο
 calendar-event-save = Αποθήκευση
+calendar-event-saving = Αποθήκευση…
+calendar-event-availability-selector =
+    .aria-label = Διαθεσιμότητα
+calendar-event-availability-default = Προεπιλογή
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =

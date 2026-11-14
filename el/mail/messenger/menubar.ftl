@@ -12,6 +12,13 @@ system-tray-app-name = { -brand-full-name }
 menu-tools-settings =
     .label = Ρυθμίσεις
     .accesskey = θ
+menu-accounts =
+    .label = Λογαριασμοί
+    .accesskey =
+        { PLATFORM() ->
+            [linux] Λ
+           *[other] γ
+        }
 menu-addons-and-themes =
     .label = Πρόσθετα και θέματα
     .accesskey = ρ

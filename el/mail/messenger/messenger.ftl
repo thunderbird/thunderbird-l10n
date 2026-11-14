@@ -277,6 +277,8 @@ appmenu-save-as-file =
     .label = Αρχείο…
 appmenu-settings =
     .label = Ρυθμίσεις
+appmenu-accounts =
+    .label = Λογαριασμοί
 appmenu-addons-and-themes =
     .label = Πρόσθετα και θέματα
 
@@ -492,6 +494,8 @@ spaces-context-switch-tab-item =
     .label = Εναλλαγή σε { $tabName }
 settings-context-open-settings-item2 =
     .label = Ρυθμίσεις
+settings-context-open-accounts-item =
+    .label = Λογαριασμοί
 settings-context-open-account-settings-item2 =
     .label = Ρυθμίσεις λογαριασμού
 settings-context-open-addons-item2 =
