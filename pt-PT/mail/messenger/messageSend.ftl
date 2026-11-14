@@ -90,6 +90,13 @@ smtp-auth-hint-plain-to-encrypt = O servidor de envio (SMTP) { $hostname } não 
 smtp-auth-failure = Não foi possível efetuar a autenticação no servidor de envio (SMTP) { $hostname }. Por favor verifique a palavra-passe e o ‘Método de autenticação’ nas ‘Definições da conta | Servidor de envio (SMTP)’.
 # Variables:
 # $hostname - outgoing server hostname
+# $serverResponse - server response
+smtp-auth-oauth2-failure = Não foi possível autenticar no servidor de Envio (SMTP) { $hostname } usando OAuth2. O servidor respondeu: { $serverResponse }
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-oauth2-failure-no-response = Não foi possível autenticar no servidor de Envio (SMTP) { $hostname } usando OAuth2.
+# Variables:
+# $hostname - outgoing server hostname
 smtp-auth-gssapi = Os dados Kerberos/GSSAPI não foram aceites pelo servidor de envio (SMTP) { $hostname }. Por favor verifique se tem acesso aos dados Kerberos/GSSAPI.
 # Variables:
 # $hostname - outgoing server hostname
