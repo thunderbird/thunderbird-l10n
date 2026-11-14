@@ -703,6 +703,7 @@ preferences-doh-setting-automatic =
     .label = Automātiska aizsardzība (ieteicams) (D)
     .accesskey = D
 preferences-doh-automatic-desc = { -brand-short-name } automātiski šifrē adrešu meklēšanu, ja tāda ir pieejama. Pārslēdzas atpakaļ uz standarta tīkla meklēšanu, ja rodas savienojuma problēma vai ja to pieprasa VPN/pārvaldīts tīkls.
+preferences-doh-default-detailed-desc-4 = Izslēgt, ja ir aktīva VPN, vecāku kontrole vai uzņēmuma nostājas
 preferences-doh-increased-desc = Vienmēr izmanto izvēlēto pakalpojumu sniedzēju. Izmanto standarta savienojumu tikai tad, ja drošais pakalpojumu sniedzējs neizdodas.
 preferences-doh-setting-maximum =
     .label = Maksimāla aizsardzība
