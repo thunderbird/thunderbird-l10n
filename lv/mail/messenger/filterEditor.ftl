@@ -29,6 +29,21 @@ filter-failure-action = Neizdevās pielietot filtrēšanas darbību
 # $errorCode (String) - The hexadecimal error code for the batch.
 filter-copy-batch-failed = Nevarēja pabeigt ziņojumu kopēšanu uz “{ $folder }”. Daži ziņojumi var būt pārkopēti. Kļūda: { $errorCode }. Pieprasīto ziņojumu ID: { filter-batch-message-ids }
 # Variables:
+# $folder (String) - The URI of the destination folder.
+# $errorCode (String) - The hexadecimal error code for the batch.
+filter-move-batch-failed = Nevarēja pabeigt ziņojumu pārvietošanu uz “{ $folder }”. Daži ziņojumi var būt pārkopēti bez izņemšanas no avota mapes. Kļūda: { $errorCode }. Pieprasīto ziņojumu ID: { filter-batch-message-ids }
+# Referenced by filter-copy-batch-failed and filter-move-batch-failed.
+# Variables:
+# $messageIds (String) - Up to 20 requested message IDs, separated by commas.
+# $count (Number) - The number of additional requested messages whose IDs are omitted.
+filter-batch-message-ids =
+    { $count ->
+        [0] { $messageIds }
+        [zero] { $messageIds } un vēl { $count } ziņojumu
+        [one] { $messageIds } un vēl { $count } ziņojums
+       *[other] { $messageIds } un vēl { $count } ziņojumi
+    }
+# Variables:
 # $filterName (String) - The name of the filter that was applied.
 # $author (String) - The sender of the message.
 # $subject (String) - The subject line of the message.

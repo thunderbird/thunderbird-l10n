@@ -102,6 +102,12 @@ compose-blocked-content-preferences-accesskey = P
 # $url - URL of the blocked resource
 compose-unblock-resource =
     .label = Atliegt { $url }
+menuitem-resize-header-area =
+    .label = Mainīt galvenes apgabala lielumu
+    .accesskey = M
+compose-header-area-splitter =
+    .aria-description = Izmantot bultiņas uz augšu un leju, lai mainītu izmēru, turot Shift lielākiem soļiem. Nospiest Tab, lai pārvietotos uz labotāju vai Shift+Tab, lai pārvietotos uz tēmas lauku.
+    .aria-label = Galvenes apgabals
 
 ## Addressing widget
 

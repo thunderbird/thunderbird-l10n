@@ -9,6 +9,13 @@ system-tray-app-name = { -brand-full-name }
 menu-tools-settings =
     .label = Iestatījumi
     .accesskey = I
+menu-accounts =
+    .label = Konti
+    .accesskey =
+        { PLATFORM() ->
+            [linux] K
+           *[other] K
+        }
 menu-export-for-mobile =
     .label = Izgūt mobilajām ierīcēm…
     .accesskey = g

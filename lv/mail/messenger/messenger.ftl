@@ -15,6 +15,19 @@ messenger-save-message-failed = Ziņojumu nevar saglabāt. Lūgums pārbaudīt d
 # Variables:
 # $filename (String) - Full path of the file that already exists.
 messenger-file-exists = { $filename } jau pastāv. Vai aizvietot to?
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+folder-file-not-found = Nevarēja atrast “{ $folder }” datni serverī { $server }. Jāatjauno datne vai jāizvēlas cita mērķa mape, tad jāmēģina vēlreiz.
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+folder-file-access-denied = Nevar piekļūt “{ $folder }” serverī { $server }. Jāpārbauda mapes piekļuves atļaujas, tad jāmēģina vēlreiz.
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+# $errorCode (String) - The hexadecimal filesystem error code.
+folder-file-error = Nevar piekļūt “{ $folder }” serverī { $server }. Jāpārbauda, ka mapes datnes ir pieejamas un rakstāmas, tad jāmēģina vēlreiz. Kļūda: { $errorCode }
 
 ## Window controls
 
@@ -284,6 +297,8 @@ appmenu-save-as-file =
     .label = Datne...
 appmenu-settings =
     .label = Iestatījumi
+appmenu-accounts =
+    .label = Konti
 appmenu-addons-and-themes =
     .label = Papildinājumi un tēmas
 
@@ -370,6 +385,8 @@ spaces-toolbar-button-settings2 =
     .title = Iestatījumi
 settings-context-open-settings-item2 =
     .label = Iestatījumi
+settings-context-open-accounts-item =
+    .label = Konti
 settings-context-open-account-settings-item2 =
     .label = Konta iestatījumi
 

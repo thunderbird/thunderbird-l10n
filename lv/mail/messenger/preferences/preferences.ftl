@@ -10,6 +10,9 @@ category-list =
 pane-general-title = Vispārīgi
 category-general =
     .tooltiptext = { pane-general-title }
+pane-notifications-title = Paziņojumi
+category-notifications =
+    .tooltiptext = { pane-notifications-title }
 pane-appearance-title = Izskats
 category-appearance =
     .tooltiptext = { pane-appearance-title }
@@ -28,6 +31,10 @@ category-calendar =
 pane-qr-export-title = Izgūt mobilajām ierīcēm
 category-qr-export =
     .tooltiptext = Izgūt mobilajām ierīcēm
+pane-beta-features-title = Beta iespējas
+category-beta-features =
+    .tooltiptext = { pane-beta-features-title }
+experimental-features-legend = Izmēģinājuma iespējas
 general-language-and-fonts-header = Valoda un fonti
 general-incoming-mail-header = Ienākošais pasts
 general-files-and-attachment-header = Datnes un pielikumi
@@ -104,6 +111,7 @@ update-in-progress-ok-button = &Izmest
 # Continue is the cancel button so pressing escape or using a platform standard
 # method of closing the UI will not discard the update.
 update-in-progress-cancel-button = &Turpināt
+accounts-button = Konti
 account-button = Konta iestatījumi
 
 ## OS Authentication dialog

@@ -89,6 +89,13 @@ smtp-auth-hint-plain-to-encrypt = Šķiet, ka izejošais serveris (SMTP) { $host
 smtp-auth-failure = Neizdevās autentificēties izejošajā serverī (SMTP) { $hostname }. Lūdzu, pārbaudiet paroli un sadaļā ‘Konta iestatījumi | Izejošais serveris (SMTP) ‘ pārbaudiet 'Autentifikācijas veids'.’  ‘’.
 # Variables:
 # $hostname - outgoing server hostname
+# $serverResponse - server response
+smtp-auth-oauth2-failure = Nav iespējams autentificēties ar OAuth2 izejošajā serverī (SMTP) { $hostname }. Tas atbildēja: { $serverResponse }
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-oauth2-failure-no-response = Nav iespējams autentificēties ar OAuth2 izejošajā serverī (SMTP) { $hostname }.
+# Variables:
+# $hostname - outgoing server hostname
 smtp-auth-gssapi = Izejošais (SMTP) serveris { $hostname } nepieņēma Kerberos/GSSAPI biļeti. Lūdzu, pārbaudiet, vai esat pieteicies Kerberos/GSSAPI nozarojumā.
 # Variables:
 # $hostname - outgoing server hostname
