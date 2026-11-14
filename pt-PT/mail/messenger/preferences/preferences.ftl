@@ -10,6 +10,9 @@ category-list =
 pane-general-title = Geral
 category-general =
     .tooltiptext = { pane-general-title }
+pane-notifications-title = Notificações
+category-notifications =
+    .tooltiptext = { pane-notifications-title }
 pane-appearance-title = Aspeto
 category-appearance =
     .tooltiptext = { pane-appearance-title }
@@ -31,6 +34,10 @@ category-sync =
 pane-qr-export-title = Exportar para dispositivo móvel
 category-qr-export =
     .tooltiptext = Exportar para dispositivo móvel
+pane-beta-features-title = Funcionalidades Beta
+category-beta-features =
+    .tooltiptext = { pane-beta-features-title }
+experimental-features-legend = Funcionalidades Experimentais
 general-language-and-fonts-header = Idioma e tipos de letra
 general-email-notifications-header = Notificações por e-mail
 general-incoming-mail-header = Mensagens a receber
@@ -116,6 +123,7 @@ update-in-progress-ok-button = &Descartar
 # Continue is the cancel button so pressing escape or using a platform standard
 # method of closing the UI will not discard the update.
 update-in-progress-cancel-button = &Continuar
+accounts-button = Contas
 account-button = Definições de conta
 open-addons-sidebar-button = Complementos e temas
 manual-storage-limit-label =
@@ -626,6 +634,7 @@ show-conversation-view-label =
     .label = Mostrar vista de conversação
     .accesskey = c
 conversation-view-preview-description = Esta é uma funcionalidade em ante-estreia antecipada. Agrupa mensagens relacionadas, mas pode nem sempre funcionar como esperado.
+conversation-view-settings-link = Configurar a Vista de Conversação nas Funcionalidades Beta
 conversation-view-checkbox-label =
     .label = Ativar vista de conversação
     .accesskey = c
@@ -673,6 +682,7 @@ new-calendar-legend = Diálogo de novo evento de calendário
 new-calendar-checkbox-label =
     .label = Ver eventos de calendário no novo diálogo
 new-calendar-checkbox-description = Novo diálogo experimental de calendário para ver eventos
+new-calendar-dialog-settings-link = Configurar o Diálogo de Novo Evento do Calendário nas Funcionalidades Beta
 
 ## Compose Tab
 
