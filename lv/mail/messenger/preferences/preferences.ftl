@@ -464,6 +464,8 @@ condensed-addresses-label =
 table-layout-horizontal-scroll-label =
     .label = Atļaut līmenisku ritināšanu
     .accesskey = l
+conversation-view-settings-link = Sarunu skata konfigurēšana Beta iespējās
+new-calendar-dialog-settings-link = Jaunā kalendāra notikumu dialoglodziņa konfigurēšana Beta iespējās
 
 ## Compose Tab
 
