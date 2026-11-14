@@ -329,6 +329,8 @@ close-move-delete =
 condensed-addresses-label =
     .label = הצגת שמות תצוגה בלבד עבור אנשים בפנקס הכתובת שלי
     .accesskey = צ
+conversation-view-settings-link = הגדרת תצורה של תצוגת שיחה בתכונות Beta
+new-calendar-dialog-settings-link = הגדרת תצורה של תיבת דו־שיח חדשה לאירועי לוח שנה בתכונות Beta
 
 ## Compose Tab
 
