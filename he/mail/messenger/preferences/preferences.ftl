@@ -4,17 +4,25 @@
 
 close-button =
     .aria-label = סגירה
+pane-notifications-title = התרעות
+category-notifications =
+    .tooltiptext = { pane-notifications-title }
 pane-compose-title = חיבור הודעה
 category-compose =
     .tooltiptext = חיבור הודעה
 pane-chat-title = צ׳אט
 category-chat =
     .tooltiptext = צ׳אט
+pane-beta-features-title = תכונות Beta
+category-beta-features =
+    .tooltiptext = { pane-beta-features-title }
+experimental-features-legend = תכונות ניסיוניות
 manage-messenger-languages-button =
     .label = הגדרת חלופות…
     .accesskey = ח
 confirm-messenger-language-change-description = יש להפעיל את { -brand-short-name } מחדש כדי להחיל את השינויים האלה
 confirm-messenger-language-change-button = החלה והפעלה מחדש
+accounts-button = חשבונות
 
 ## General Tab
 

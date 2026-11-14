@@ -15,6 +15,19 @@ messenger-save-message-failed = לא ניתן לשמור את ההודעה. נא
 # Variables:
 # $filename (String) - Full path of the file that already exists.
 messenger-file-exists = { $filename } כבר קיים. האם ברצונך להחליפו?
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+folder-file-not-found = לא ניתן היה למצוא את הקובץ עבור ״{ $folder }״ ב־{ $server }. יש לשחזר את הקובץ או לבחור בתיקיית יעד אחרת, ולאחר מכן לנסות שוב.
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+folder-file-access-denied = לא ניתן לגשת ל־״{ $folder }״ ב־{ $server }. יש לבדוק את הרשאות הקובץ בתיקייה ולאחר מכן לנסות שוב.
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+# $errorCode (String) - The hexadecimal filesystem error code.
+folder-file-error = לא ניתן לגשת ל־״{ $folder }״ ב־{ $server }. יש לבדוק שהקבצים בתיקייה זמינים וניתנים לכתיבה, ולאחר מכן לנסות שוב. שגיאה: { $errorCode }
 
 ## Window controls
 
@@ -138,6 +151,8 @@ appmenu-save-as-file =
     .label = קובץ…
 appmenu-settings =
     .label = הגדרות
+appmenu-accounts =
+    .label = חשבונות
 appmenu-addons-and-themes =
     .label = תוספות וערכות נושא
 
@@ -171,6 +186,11 @@ caret-browsing-prompt-check-text = לא לשאול שוב.
 repair-text-encoding-button =
     .label = תיקון קידוד טקסט
     .tooltiptext = ניחוש קידוד הטקסט הנכון בהסתמך על תוכן ההודעה
+
+## Spaces toolbar
+
+settings-context-open-accounts-item =
+    .label = חשבונות
 
 ## Quick Filter Bar
 

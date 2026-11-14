@@ -8,6 +8,13 @@
 menu-tools-settings =
     .label = הגדרות
     .accesskey = ה
+menu-accounts =
+    .label = חשבונות
+    .accesskey =
+        { PLATFORM() ->
+            [linux] ח
+           *[other] ח
+        }
 menu-addons-and-themes =
     .label = תוספות וערכות נושא
     .accesskey = ת

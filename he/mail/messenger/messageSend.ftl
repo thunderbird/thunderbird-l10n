@@ -50,6 +50,13 @@ send-save-template-error-title = שגיאת שמירת תבנית
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-ssl = נראה כי השרת היוצא (SMTP) { $hostname } לא תומך בססמאות מוצפנות. אם הרגע הגדרת את החשבון, כדאי לשנות את ’שיטת האימות’ תחת ’הגדרות החשבון | שרת יוצא (SMTP)’ ל’ססמה רגילה’.
 # Variables:
+# $hostname - outgoing server hostname
+# $serverResponse - server response
+smtp-auth-oauth2-failure = לא ניתן לבצע אימות מול שרת הדואר היוצא (SMTP) { $hostname } באמצעות OAuth2. השרת הגיב: { $serverResponse }
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-oauth2-failure-no-response = לא ניתן לבצע אימות מול שרת הדואר היוצא (SMTP) { $hostname } באמצעות OAuth2.
+# Variables:
 # $serverResponse - server response
 smtp-server-error = אירעה שגיאה בעת שליחת דוא״ל: שגיאה בשרת היוצא (SMTP). תגובת השרת היא: { $serverResponse }.
 # Variables:

@@ -93,6 +93,12 @@ compose-blocked-content-preferences-accesskey = ע
 # $url - URL of the blocked resource
 compose-unblock-resource =
     .label = שחרור { $url }
+menuitem-resize-header-area =
+    .label = שינוי גודל אזור הכותרת
+    .accesskey = ש
+compose-header-area-splitter =
+    .aria-description = יש להשתמש במקשים Up ו־Down כדי לשנות את הגודל, עם המקש Shuft עבור צעדים גדולים יותר. יש ללחוץ על Tab כדי לעבור לעורך או על Shift+Tab כדי לעבור לנושא.
+    .aria-label = אזור הכותרת
 
 ## Addressing widget
 
