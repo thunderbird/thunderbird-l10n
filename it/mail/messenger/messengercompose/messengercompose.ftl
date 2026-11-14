@@ -106,8 +106,8 @@ menuitem-resize-header-area =
     .label = Ridimensiona l’area dell’intestazione
     .accesskey = R
 compose-header-area-splitter =
-    .aria-description = Utilizzare Su e Giù per ridimensionare, con Maiusc per i passaggi più grandi. Premi Tab per passare all’editor o Maiusc+Tab per passare all’Oggetto.
-    .aria-label = Area di intestazione
+    .aria-description = Utilizza i tasti "su" e "giù" per ridimensionare l’area, tenendo premuto Maiusc per aumentare il livello di ridimensionamento. Premi il tasto Tab per passare all’area di composizione o Maiusc+Tab per passare al campo dell’oggetto.
+    .aria-label = Area dell’intestazione
 
 ## Send Format
 
