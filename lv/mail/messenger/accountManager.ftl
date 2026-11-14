@@ -10,3 +10,4 @@ outgoing-server-settings-title = Izejošā servera iestatījumi
 panel-manage-spam = Pārvaldīt mēstules
 panel-settings-spam = Mēstuļu iestatījumi
 open-settings-sidebar-button = Iestatījumi
+account-manager-document-title = Konti
