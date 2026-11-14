@@ -5,6 +5,10 @@
 
 ## Books
 
+about-addressbook-books-context-new-contact =
+    .label = Jauna kontaktpersona
+about-addressbook-books-context-new-list =
+    .label = Jauns saraksts
 about-addressbook-books-context-export =
     .label = Izgūt…
 about-addressbook-books-context-delete =

@@ -8,9 +8,18 @@
 
 calendar-event-create-edit-dialog =
     .aria-label = Notikums
+calendar-event-title-input-new =
+    .aria-label = Notikuma virsraksts
+    .placeholder = Jauns notikums
+calendar-event-title-input-untitled =
+    .aria-label = Notikuma  virsraksts
+    .placeholder = Notikums bez nosaukuma
+calendar-event-title-required = Nepieciešams
+calendar-event-title-too-long = Virsraksts nedrīkst pāŗsniegt 180 rakstzīmju
 calendar-dialog-back-button =
     .aria-label = Atpakaļ
     .title = Atpakaļ
+calendar-event-create-edit-dialog-back-button = Atpakaļ
 calendar-dialog-attendees-too-many-guests = Viesu sarakstu nevar parādīt, jo tas satur vairāk nekā 50 viesu.
 calendar-dialog-add-reminder-button = Pievienot atgādinājumu
 calendar-dialog-reminder-select =
@@ -54,3 +63,17 @@ calendar-prompt-all-events =
 calendar-prompt-delete-button = Izdzēst
 calendar-dialog-edit-button = Labot
 calendar-event-create-edit-save-button = Saglabāt
+calendar-event-calendar-selector =
+    .aria-label = Kalendārs
+calendar-event-save = Saglabāt
+calendar-event-saving = Saglabā…
+calendar-event-save-failed = Notikumu nevarēja saglabāt. Jāmēģina vēlreiz.
+calendar-event-calendar-unavailable = Šajā kalendārā netiek pieņemti jauni notikumu. Jāatlasa cits kalendārs un jāmēģina vēlreiz.
+# The status element announces Save progress and errors to screen readers.
+# Keep this message empty to clear the previous status text when Save is idle.
+calendar-event-save-idle = { "" }
+calendar-event-availability-selector =
+    .aria-label = Pieejamība
+calendar-event-availability-default = Noklusējuma
+calendar-event-availability-busy = Aizņemts
+calendar-event-availability-free = Brīvs
