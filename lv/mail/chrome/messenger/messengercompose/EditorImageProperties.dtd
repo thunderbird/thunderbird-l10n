@@ -13,7 +13,7 @@
 <!ENTITY title.label "Rīka padoms:">
 <!ENTITY title.accessKey "R">
 <!ENTITY title.tooltip "HTML 'title' atribūts, kas tiek parādīts kā rīka padoms">
-<!ENTITY altText.label "Alternatīvais teksts:">
+<!ENTITY altText.label "Paskaidrojošais teksts:">
 <!ENTITY altText.accessKey "A">
 <!ENTITY altTextEditField.tooltip "Ievadiet tekstu, kas norāda attēla vietu">
 <!ENTITY noAltText.label "Neizmantot alternatīvo tekstu">
