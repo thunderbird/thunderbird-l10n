@@ -626,6 +626,7 @@ cookies-button =
 global-privacy-control-label =
     .label = Lūdziet tīmekļa vietnēm nepārdot un neizpaust personas datus
     .accesskey = n
+do-not-track-removal = Mēs vairs neatbalstām signālu “Neizsekot”
 passwords-registered-description = { -brand-short-name } var saglabāt reģistrēto kontu paroles.
 view-saved-passwords-button =
     .label = Skatīt saglabātās paroles…
