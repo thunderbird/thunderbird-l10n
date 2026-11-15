@@ -15,6 +15,19 @@ messenger-save-message-failed = Njeje móžno, powěsć składować. Prošu pře
 # Variables:
 # $filename (String) - Full path of the file that already exists.
 messenger-file-exists = { $filename } hižo eksistuje. Chceće ju narunać?
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+folder-file-not-found = Dataja za “{ $folder }” na { $server } njeda so namakać. Wobnowće dataju abo wubjerće druhi cilowy rjadowak a spytajće hišće raz.
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+folder-file-access-denied = Přistup k “{ $folder }” na { $server } móžny njeje. Přepruwujće datajowe prawa rjadowaka a spytajće potom hišće raz.
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+# $errorCode (String) - The hexadecimal filesystem error code.
+folder-file-error = Přistup k “{ $folder }” na { $server } móžny njeje. Kontrolujće, hač dataje rjadowaka su k dispoziciji a dadźa so popisać a spytajće potom hišće raz. Zmylk: { $errorCode }
 
 ## Window controls
 

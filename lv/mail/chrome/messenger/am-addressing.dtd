@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY addressing.label "Salikums &amp; adresēšana">
+<!ENTITY addressing.label "Sastādīšana un adresēšana">
 <!ENTITY addressingGroupTitle.label "Adresēšana">
 <!ENTITY addressingText.label "Meklējot adreses:">
 <!-- LOCALIZATION NOTE (override.label) : do not translate "LDAP" in below line -->
@@ -14,7 +14,7 @@
 <!ENTITY directories.label "Izmantot citu LDAP serveri:">
 <!ENTITY directories.accesskey "I">
 <!ENTITY directoriesNone.label "Nekas">
-<!ENTITY compositionGroupTitle.label "Kompozīcija">
+<!ENTITY compositionGroupTitle.label "Sastādīšana">
 <!-- LOCALIZATION NOTE (useHtml.label) : do not translate "html" in below line -->
 <!ENTITY useHtml.label "Salikt vēstules HTML formātā">
 <!ENTITY useHtml.accesskey "S">

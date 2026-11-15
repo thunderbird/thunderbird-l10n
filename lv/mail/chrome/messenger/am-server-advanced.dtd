@@ -20,7 +20,7 @@
 <!ENTITY publicNamespace.accesskey "u">
 <!ENTITY otherUsersNamespace.label "Citi lietotāji:">
 <!ENTITY otherUsersNamespace.accesskey "C">
-<!ENTITY overrideNamespaces.label "Ļaut serverim ignorēt šīs nosaukumvietas">
+<!ENTITY overrideNamespaces.label "Ļaut serverim neņemt vērā šīs vārdu telpas">
 <!ENTITY overrideNamespaces.accesskey "a">
 <!ENTITY pop3DeferringDesc.label "Kad lejupielādē pastu no šī konta servera, jaunu ziņojumu glabāšanai izmantot šo mapi:">
 <!ENTITY accountInbox.label "Šī konta iesūtne">

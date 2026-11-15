@@ -34,6 +34,10 @@ filter-failure-sending-reply-aborted = Słanje wotmołwy je so přetorhnyło
 filter-failure-move-failed = Přesunjenje je so nimokuliło
 filter-failure-copy-failed = Kopěrowanje je so nimokuliło
 filter-failure-action = Nałožowanje filtroweje akcije njeje so poradźiło
+# Variables:
+# $folder (String) - The URI of the destination folder.
+# $errorCode (String) - The hexadecimal error code for the batch.
+filter-copy-batch-failed = Kopěrowanje powěsćow do { $folder } njeda so dokónčić. Někotre powěsće su so snano kopěrowali. Zmylk: { $errorCode }. Požadane ID powěsćow: { filter-batch-message-ids }
 # Referenced by filter-copy-batch-failed and filter-move-batch-failed.
 # Variables:
 # $messageIds (String) - Up to 20 requested message IDs, separated by commas.

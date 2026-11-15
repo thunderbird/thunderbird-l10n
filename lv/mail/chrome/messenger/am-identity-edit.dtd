@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 <!ENTITY settingsTab.label "Iestatījumi">
 <!ENTITY copiesFoldersTab.label "Kopijas &amp; mapes">
-<!ENTITY addressingTab.label "Salikums &amp; adresēšana">
+<!ENTITY addressingTab.label "Sastādīšana un adresēšana">
 <!ENTITY publicData.label "Publiskie dati">
 <!ENTITY privateData.label "Privātie dati">
 <!ENTITY identityAlias.label "Identitātes etiķete:">

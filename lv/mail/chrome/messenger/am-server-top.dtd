@@ -43,7 +43,7 @@
 <!ENTITY deleteMessagePrefix.label "Kad dzēšat vēstuli:">
 <!ENTITY modelMoveToTrash.label "Pārvietot to uz šo mapi:">
 <!ENTITY modelMoveToTrash.accesskey "P">
-<!ENTITY modelMarkDeleted.label "Vienkārši atzīmēt to kā dzēstu">
+<!ENTITY modelMarkDeleted.label "Vienkārši atzīmēt to kā izdzēstu">
 <!ENTITY modelMarkDeleted.accesskey "V">
 <!ENTITY modelDeleteImmediately.label "Izdzēst uzreiz">
 <!ENTITY modelDeleteImmediately.accesskey "D">
