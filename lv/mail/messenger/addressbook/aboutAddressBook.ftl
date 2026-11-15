@@ -5,6 +5,9 @@
 
 ## Books
 
+all-address-books-row =
+    .title = Visas adrešu grāmatas
+all-address-books = Visas adrešu grāmatas
 about-addressbook-books-context-new-contact =
     .label = Jauna kontaktpersona
 about-addressbook-books-context-new-list =

@@ -15,6 +15,18 @@ button-continue = Turpināt
 button-export = Izgūt
 button-finish = Pabeigt
 
+## Import from file selections
+
+file-calendar = Ievietot kalendārus
+file-calendar-description = Jāatlasa datne, kas satur izgūtos kalendārus vai notikumus (.ics)
+file-addressbook = Ievietot adrešu grāmatas
+file-addressbook-description = Jāatlasa datne, kas satur izgūtās adrešu grāmatas un kontaktpersonas
+
+## Import from app profile steps
+
+items-pane-checkbox-address-books = Adrešu grāmatas
+items-pane-checkbox-calendars = Kalendāri
+
 ## Import from calendar file steps
 
 # $count (Number) - The number of items in the calendar file.
@@ -43,6 +55,7 @@ calendar-items-column-end = Beigas
 calendar-items-column-import-a11y =
     .aria-label = Ievietot
 calendar-items-column-import = Ievietot
+calendar-deselect-all-items = Noņemt atlasi visam
 
 ## Import dialog
 

@@ -169,12 +169,25 @@ proceed-delete =
     .label = Vienalga izdzēst
 cal-dav-request-status-code-string-500 = Iekšēja servera kļūda.
 cal-dav-request-status-code-string-503 = Iekšēja servera kļūda (Īslaicīgs servera darbības pārtraukums?).
+# "Skipping Operating System timezone 'Pacific/New_Country'."
+# Testing note: not easily testable.  May occur someday if (non-windows)
+# OS uses different version of ZoneInfo database which has a timezone name
+# that is not included in our current ZoneInfo database (or if the mapping
+# mapping from windows to ZoneInfo timezone ids does).
+# $timezone OS timezone id
+skipping-os-timezone = Izlaiž operētājsistēmas laika joslu “{ $timezone }”
+# "Skipping locale timezone 'America/New_Yawk'."
+# Testing note: Skipping occurs if a likely-timezone id is unknown or misspelled.
+# $timezone likely timezone id
+skipping-locale-timezone = Izlaiž lokalizācijas laika joslu “{ $timezone }”.
 calendar-tomorrow = Rīt
 # LOCALIZATION NOTE (alarm-tomorrow-at):
 # used for a display the date-time of an alarm like 'Tomorrow at Thu 2 Oct 2008 13:21'
 #    $datetime will be replaced with a date-time
 alarm-tomorrow-at = Rīt { $datetime }
 task-details-status-cancelled = Atcelts
+getting-calendar-info-common =
+    .label = Pārbauda kalendārus…
 # LOCALIZATION NOTE (error-code):
 #    $errorCode will be replaced with the number of an error code
 error-code = Kļūdas kods: { $errorCode }
@@ -221,6 +234,9 @@ calendar-context-delete-server =
 calendar-context-export =
     .label = Izgūt kalendāru
     .accesskey = I
+calendar-context-showall =
+    .label = Rādīt visus kalendārus
+    .accesskey = v
 calendar-task-details-priority = svarīgums
 calendar-task-details-priority-normal = Parasts
 calendar-task-details-category = kategorija

@@ -844,6 +844,7 @@ search-results-help-link = Vajadzīga palīdzība? Apmeklē <a data-l10n-name="u
 
 ## Sync Tab
 
+sync-signedout-description = Vienādo savus kontus, adrešu grāmatas, kalendārus, papildinājumus un iestatījumus visās savās ierīcēs!
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
 sync-signedout-account-signin-btn = Pieteikties Sync…
 # Variables:
@@ -852,8 +853,10 @@ sync-signedin-login-failure = Lūgums pieteikties, lai atjaunotu savienojumu ar 
 sync-pane-sign-in = Pieteikties
 sync-pane-cancel = Atcelt
 show-synced-learn-more = Uzzināt vairāk…
+show-synced-item-address = Adrešu grāmatas
+show-synced-item-calendar = Kalendāri
 show-synced-item-passwords = Paroles
-sync-disconnected-text = Vienādo visās savās ierīcēs savus e-pasta kontus, adrešu grāmatas, kalendārus un identitātes.
+sync-disconnected-text = Vienādo visās savās ierīcēs savus e-pasta kontus, adrešu grāmatas, kalendārus un identitātes!
 
 ## Mobile QR Export Pane
 

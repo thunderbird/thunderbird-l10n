@@ -145,6 +145,8 @@ folder-pane-mode-context-toggle-compact-mode =
 
 threadpane-column-header-select =
     .title = Pārslēgt visu vēstuļu atlasi
+threadpane-column-header-deselect-all =
+    .title = Noņemt atlasi visiem ziņojumiem
 threadpane-column-label-select =
     .label = Atlasīt vēstules
 threadpane-column-label-thread =

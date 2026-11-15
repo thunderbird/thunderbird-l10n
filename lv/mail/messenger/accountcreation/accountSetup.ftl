@@ -118,6 +118,8 @@ account-setup-found-address-books-description =
     }
 account-setup-button-finish = Pabeigt
     .accesskey = P
+account-setup-address-books-button = Adrešu grāmatas
+account-setup-calendars-button = Kalendāri
 
 ## Calendar synchronization dialog
 
