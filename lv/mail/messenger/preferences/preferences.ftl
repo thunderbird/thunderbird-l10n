@@ -209,6 +209,9 @@ mbox-store-label =
 maildir-store-label =
     .label = Viena datne katram ziņojumam (maildir)
 scrolling-legend = Ritināšana
+enable-autoscroll-label =
+    .label = Iespējot autoritināšanu
+    .accesskey = n
 autoscroll-label =
     .label = Lietot autoritināšanu
     .accesskey = r
@@ -465,6 +468,9 @@ table-layout-horizontal-scroll-label =
     .label = Atļaut līmenisku ritināšanu
     .accesskey = l
 conversation-view-settings-link = Sarunu skata konfigurēšana Beta iespējās
+conversation-view-checkbox-label =
+    .label = Iespējot sarunu skatu
+    .accesskey = r
 new-calendar-dialog-settings-link = Jaunā kalendāra notikumu dialoglodziņa konfigurēšana Beta iespējās
 
 ## Compose Tab
@@ -709,6 +715,7 @@ remote-content-images-label =
 
 ## DoH Section
 
+preferences-doh-group-message = Iespējot DNS caur HTTPS ar:
 preferences-doh-setting-automatic =
     .label = Automātiska aizsardzība (ieteicams) (D)
     .accesskey = D

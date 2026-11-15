@@ -14,6 +14,7 @@ policy-3rdparty = Iestatiet politikas, caur kurām chrome.storage.managed var pi
 policy-AppAutoUpdate = Ieslēdziet vai atslēdziet automātisku lietotnes atjaunošanu.
 policy-AppUpdateURL = Iestatiet pielāgotu lietotnes atjaunošanas URL.
 policy-Authentication = Iestatiet integrētu autentifikāciju vietnēm, kas to atbalsta.
+policy-BackgroundAppUpdate2 = Iespējot vai atspējot fona atjauninātāju.
 policy-BlockAboutAddons = Liegt piekļuvi papildinājumu pārvaldniekam (about:addons).
 policy-BlockAboutConfig = Liegt piekļuvi about:config lapai.
 policy-BlockAboutProfiles = Liegt piekļuvi about:profiles lapai.
