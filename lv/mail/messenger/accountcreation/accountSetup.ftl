@@ -71,6 +71,10 @@ account-setup-result-outgoing-existing = Izmantot esošo izejošo SMTP serveri
 #  $outgoing (String): The email/username used to log into the outgoing server
 account-setup-result-username-different = Ienākošais: { $incoming }, izejošais: { $outgoing }
 
+## Error messages
+
+account-setup-exchange-config-unverifiable = Iestatījumus nevarēja pārbaudīt. Ja lietotājvārds un parole ir pareiza, visticamāk, ka servera pārvaldītājs kontam ir atspējojis atlasītos iestatījumus. Jāmēģina atlasīt citu protokolu.
+
 ## Manual configuration area
 
 account-setup-manual-config-title = Pašrocīga konfigurēšana

@@ -26,6 +26,7 @@ file-addressbook-description = Jāatlasa datne, kas satur izgūtās adrešu grā
 
 items-pane-checkbox-address-books = Adrešu grāmatas
 items-pane-checkbox-calendars = Kalendāri
+items-pane-nothing-to-import = No atlasītā avota neko nevar ievietot.
 
 ## Import from calendar file steps
 
@@ -62,6 +63,7 @@ calendar-deselect-all-items = Noņemt atlasi visam
 # $progressPercent (string) - percent formatted progress (for example "10%")
 progress-pane-exporting2 = Izgūst… { $progressPercent }
 error-pane-title = Kļūda
+error-message-zip-file-too-big2 = Atlasītā ZIP datne ir lielāka nekā 2 GB. Lūgums vispirms to atspiest, tad ievietot no izvilktās mapes.
 error-message-failed = Ievietošana neparedzēti neizdevās, vairāk informācijas var būt pieejama kļūdu konsolē.
 error-export-failed = Izgūšana neparedzēti neizdevās, vairāk informācijas var būt pieejama kļūdu konsolē.
 

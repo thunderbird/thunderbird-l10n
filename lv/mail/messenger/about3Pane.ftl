@@ -290,6 +290,7 @@ apply-current-columns-to-folder-message = Vai pielietot pašreizējās mapes kol
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Vai pielietot pašreizējās mapes kolonnas { $name } un tās bērniem?
+message-list-placeholder-multiple-folders = Atlasītas vairākas mapes
 
 ## Confirmation prompts shown before deleting a folder.
 

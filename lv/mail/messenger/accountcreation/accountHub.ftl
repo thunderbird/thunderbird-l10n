@@ -52,6 +52,7 @@ account-hub-address-book-username-error-text = Lūgums ievadīt lietotājvārdu
 account-hub-address-book-name-error-text = Lūgums ievadīt vārdu
 account-hub-max-results-label = Lielākais pieļaujamais skaits iznākumā
 account-hub-email-manual-configuration = Pašrocīga konfigurēšana
+account-hub-email-skip-button = Izlaist
 account-hub-finding-sync-accounts = Konts izveidots. Atklāj adrešu grāmatas un kalendārus…
 account-hub-privacy-policy = Privātuma pamatnostādnes
 account-hub-welcome = Laipni lūdzam
@@ -73,6 +74,7 @@ account-hub-name-label = Pilns vārds
     .accesskey = v
 account-hub-lookup-email-configuration-title = Uzmeklē iestatījumus
 account-hub-find-settings-failed = { -brand-full-name } neizdevās atrast e-pasta konta iestatījumus.
+account-hub-exchange-config-unverifiable = Iestatījumus nevarēja pārbaudīt. Ja lietotājvārds un parole ir pareiza, visticamāk, ka servera pārvaldītājs kontam ir atspējojis atlasītos iestatījumus. Jāmēģina atlasīt citu protokolu.
 account-hub-creation-error-title = Kļūda konta izveidošanā
 account-hub-error-server-exists = Ienākošais serveris jau pastāv.
 account-hub-encryption-button = Pilnīga šifrēšana
@@ -108,7 +110,15 @@ account-hub-result-recommended-label = Ieteicams
 account-hub-edit-configuration = Labot konfigurāciju
 account-hub-config-success-title = Konta iestatījumi tika atrasti automātiski.
 account-hub-password-info = Tavi pieteikšanās dati tiks glabāti tikai vietēji datorā
+account-hub-sync-accounts-failure = { -brand-short-name } nevarēja izveidot savienojumu ar atlasītajiem pakalpojumiem
 account-hub-deselect-all = Noņemt atlasi visam
+# $count (Number) - The number of sync accounts selected.
+account-hub-sync-accounts-selected =
+    { $count ->
+        [one] { $count } atlasīts
+        [zero] { $count } atlasītu
+       *[other] { $count } atlasīti
+    }
 account-hub-email-added-success-links-title = Izpēti drošības un pielāgošanas iespējas:
 account-hub-email-error-text = Lūgums ievadīt derīgu e-pasta adresi
 account-hub-name-error-text = Lūgums ievadīt vārdu

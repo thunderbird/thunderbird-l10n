@@ -93,6 +93,14 @@ about-addressbook-confirm-delete-contacts-multi =
 
 ## Details
 
+# Variables:
+# $count (Number) - The number of selected items (will never be fewer than 2).
+about-addressbook-selection-mixed-header2 =
+    { $count ->
+        [zero] { $count } atlasītu adrešu grāmatas ierakstu
+        [one] { $count } atlasīts adrešu grāmatas ieraksts
+       *[other] { $count } atlasīti adrešu grāmatas ieraksti
+    }
 about-addressbook-details-edit-photo =
     .title = Labot kontaktpersonas fotoattēlu
 about-addressbook-search-action-button = Meklēt
