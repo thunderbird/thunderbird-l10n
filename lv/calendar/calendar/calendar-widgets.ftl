@@ -9,3 +9,9 @@ calendar-list-header = Kalendāri
 calendar-enable-button = Atļaut
 calendar-add-calendar = Pievienot kalendāru…
     .title = Izveidot vai abonēt kalendāru
+calendar-new-event-primary-button = Jauns notikums
+
+## Menu on calendar control bar
+
+calendar-control-bar-menu-button =
+    .title = Kalendāra izkārtojuma iespējas

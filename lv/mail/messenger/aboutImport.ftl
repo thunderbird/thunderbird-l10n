@@ -6,6 +6,7 @@ export-page-title = Izgūt
 
 ## Header
 
+import-calendar-title = Ievietot kalendāra datni
 export-profile = Izgūt
 
 ## Buttons

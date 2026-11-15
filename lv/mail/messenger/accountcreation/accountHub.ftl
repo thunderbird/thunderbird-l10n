@@ -22,6 +22,8 @@ account-hub-donate = Ziedot
 
 account-hub-email-setup-button = E-pasta konts
     .title = Iestati e-pasta kontu
+account-hub-calendar-setup-button = Kalendārs
+    .title = Iestatīt vietēju vai attālu kalendāru
 account-hub-import-setup-button = Ievietot
     .title = Ievietot dublētu profilu
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.

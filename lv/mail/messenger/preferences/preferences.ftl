@@ -490,6 +490,7 @@ account-hub-checkbox-description = Izmēģinājuma jauna pasta konta izveidošan
 account-hub-manual-config-checkbox-label =
     .label = Izmantot jauno Account Hub pašrocīgas konfigurēšanas plūsmu
     .accesskey = k
+new-calendar-legend = Jaunais kalendāra notikuma dialoglodziņš
 new-calendar-checkbox-description = Izmēģinājuma jauna kalendāra dialoglodziņš notikumu apskatīšanai
 new-calendar-dialog-settings-link = Jaunā kalendāra notikumu dialoglodziņa konfigurēšana Beta iespējās
 

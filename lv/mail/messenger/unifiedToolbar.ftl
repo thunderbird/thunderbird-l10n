@@ -28,6 +28,8 @@ toolbar-get-all-messages-menuitem =
 ## Unified Toolbar customization
 
 customize-title = Pielāgot rīkjoslas
+customize-space-tab-calendar = Kalendārs
+    .title = Kalendārs
 customize-space-tab-settings = Iestatījumi
     .title = Iestatījumi
 customize-change-appearance = Mainīt izskatu

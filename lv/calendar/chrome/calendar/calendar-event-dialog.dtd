@@ -8,5 +8,7 @@
 <!ENTITY event.menu.view.toolbars.customize.label "Pielāgot…">
 <!ENTITY event.toolbar.delete.label "Izdzēst">
 <!ENTITY event.toolbar.delete.tooltip "Izdzēst">
+<!ENTITY event.calendar.label "Kalendārs:">
 <!-- Recurrence dialog -->
 <!ENTITY recurrence.title.label "Labot atkārtošanos">
+<!ENTITY read.only.calendar.label "Kalendārs:">

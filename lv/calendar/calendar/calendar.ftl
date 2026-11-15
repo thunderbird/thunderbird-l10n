@@ -159,6 +159,8 @@ imip-bar-unsupported-text = Šajā ziņojumā ir ietverts notikums, ko šī { -b
 #    $hostApplication will be replaced with the name of the host application, e.g. 'Thunderbird'
 #    $fileName will be replaced with the name of the new copy of the file, e.g. 'local-2020-05-11T21-30-17.sqlite'
 too-new-schema-error-text = Jūsu kalendāra dati nav saderīgi ar šo { $hostApplication } versiju. Jūsu profilā esošie kalendāra dati ir atjaunināti, izmantojot jaunāku { $hostApplication } versiju. Ir izveidota datu faila dublējumkopija ar nosaukumu “{ $fileName }”. Turpināsim ar svaigi izveidotu datu failu.
+# event calendar name
+tooltip-cal-name = Kalendāra nosaukums:
 tooltip-due = Paredzēts:
 filepicker-title-import = Ievietot
 filepicker-title-export = Izgūt
@@ -169,6 +171,7 @@ proceed-delete =
     .label = Vienalga izdzēst
 cal-dav-request-status-code-string-500 = Iekšēja servera kļūda.
 cal-dav-request-status-code-string-503 = Iekšēja servera kļūda (Īslaicīgs servera darbības pārtraukums?).
+cal-dav-redirect-disable-calendar = Atspējot kalendāru
 # "Skipping Operating System timezone 'Pacific/New_Country'."
 # Testing note: not easily testable.  May occur someday if (non-windows)
 # OS uses different version of ZoneInfo database which has a timezone name
@@ -181,6 +184,9 @@ skipping-os-timezone = Izlaiž operētājsistēmas laika joslu “{ $timezone }�
 # $timezone likely timezone id
 skipping-locale-timezone = Izlaiž lokalizācijas laika joslu “{ $timezone }”.
 calendar-tomorrow = Rīt
+# Today pane
+events-only = Notikumi
+events-and-tasks = Notikumi un uzdevumi
 # LOCALIZATION NOTE (alarm-tomorrow-at):
 # used for a display the date-time of an alarm like 'Tomorrow at Thu 2 Oct 2008 13:21'
 #    $datetime will be replaced with a date-time
@@ -222,6 +228,13 @@ delete-event =
 # Accessible description of a grid calendar with no selected date
 minimonth-no-selected-date =
     .aria-label = Nav atlasīts datums
+# Used in the main menu and contextual menus.
+calendar-context-today-pane =
+    .label = Šodienas rūts
+    .accesskey = r
+calendar-context-new-event =
+    .label = Jauns notikums…
+    .accesskey = n
 calendar-context-delete-task =
     .label = Izdzēst uzdevumu
     .accesskey = d
@@ -231,6 +244,9 @@ calendar-context-delete-event =
 calendar-taskview-delete =
     .label = Izdzēst
     .tooltiptext = Izdzēst uzdevumu
+calendar-context-new-server =
+    .label = Jauns kalendārs…
+    .accesskey = J
 calendar-context-delete-server =
     .label = Izdzēst kalendāru…
     .accesskey = I
@@ -265,7 +281,19 @@ calendar-properties-offline-support =
     .label = Bezsaistes atbalsts
 calendar-properties-enable-calendar =
     .label = Iespējot šo kalendāru
+calendar-calendar =
+    .label = Kalendārs
+    .accesskey = K
+calendar-newevent-button =
+    .label = Jauns notikums
+    .tooltiptext = Izveidot jaunu notikumu
+calendar-todaypane-button =
+    .label = Šodienas rūts
+    .tooltiptext = Rādīt šodienas rūti
 calendar-properties-dialog-title = Labot kalendāru
+calendar-server-dialog-name-label =
+    .value = Kalendāra nosaukums:
+calendar-select-dialog-title = Atlasīt kalendāru
 calendar-error-code =
     .value = Kļūdas kods:
 calendar-error-prompt-title = Ir atgadījusies kļūda

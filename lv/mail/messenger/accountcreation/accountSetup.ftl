@@ -124,6 +124,8 @@ account-setup-button-finish = Pabeigt
     .accesskey = P
 account-setup-address-books-button = Adrešu grāmatas
 account-setup-calendars-button = Kalendāri
+account-setup-existing-calendar = Savienots
+    .title = Jau ir savienojums ar kalendāru
 
 ## Calendar synchronization dialog
 

@@ -381,6 +381,8 @@ spaces-toolbar-element =
     .aria-description = Stateniska rīkjosla, lai pārslēgtos starp dažādām vietām. Bultu taustiņi ir izmantojami, lai pārvietotos starp pieejamajām pogām.
     .aria-label = Vietu rīkjosla
     .toolbarname = Vietu rīkjosla
+spaces-toolbar-button-calendar2 =
+    .title = Kalendārs
 spaces-toolbar-button-settings2 =
     .title = Iestatījumi
 settings-context-open-settings-item2 =
@@ -497,8 +499,8 @@ ignored-subtheads-feedback =
 #    $count - the number of attachments
 attachment-view-attachment-count =
     { $count ->
-        [zero] { $count } pielikums
-        [one] { $count } pielikumi
+        [zero] { $count } pielikumu
+        [one] { $count } pielikums
        *[other] { $count } pielikumi
     }
 

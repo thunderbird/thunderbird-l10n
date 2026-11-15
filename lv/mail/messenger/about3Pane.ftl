@@ -8,6 +8,14 @@
 quick-filter-button =
     .title = Pārslēgt ātrās atsijāšanas joslu
 quick-filter-button-label = Ātrā atsijāšana
+# Variables:
+# $count (Number) - The number of messages in this folder.
+thread-pane-folder-message-count =
+    { $count ->
+        [zero] { $count } ziņojumu
+        [one] { $count } ziņojums
+       *[other] { $count } ziņojumi
+    }
 
 ## Quick Filter Bar
 
@@ -123,6 +131,8 @@ quick-filter-bar-gloda-upsell-line2 = Vēlreiz nospiediet ievades taustiņu, lai
 
 ## Folder pane
 
+folder-pane-get-messages-button =
+    .title = Iegūt ziņojumus
 folder-pane-get-all-messages-menuitem =
     .label = Saņemt visas vēstules
     .accesskey = S

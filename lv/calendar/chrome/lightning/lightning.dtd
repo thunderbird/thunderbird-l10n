@@ -2,9 +2,20 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
+<!-- Tools menu -->
+<!ENTITY lightning.preferencesLabel "Kalendārs">
+<!ENTITY lightning.menupopup.new.calendar.label "Kalendārs…">
+<!-- Open menu popup in File menu -->
+<!ENTITY lightning.menupopup.open.calendar.label "Kalendāra datne…">
+<!-- View Menu -->
+<!ENTITY lightning.menu.view.calendar.label "Kalendārs">
+<!-- Events and Tasks menu -->
+<!ENTITY lightning.menu.eventtask.label "Notikumi un uzdevumi">
 <!ENTITY lightning.calendarproperties.globalNotifications.label "Visaptverošie paziņojumu iestatījumi…">
 <!ENTITY lightning.imipbar.btnAdd.label "Pievienot">
 <!ENTITY lightning.imipbar.btnDelete.label "Izdzēst">
 <!ENTITY lightning.imipbar.btnDelete.tooltiptext "Izdzēst no kalendāra">
 <!ENTITY lightning.imipbar.btnDoNotShowImipBar.label "Nerādīt man šos ziņojumus">
+<!ENTITY lightning.imipbar.btnGoToCalendar.label "Kalendārs">
 <!ENTITY lightning.imipbar.btnMore.tooltiptext "Klikšķināt, lai parādītu vairāk iespēju">
+<!ENTITY todaypane.showTodayPane.label "Rādīt šodienas rūti">
