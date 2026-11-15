@@ -18,16 +18,16 @@ messenger-file-exists = { $filename } 已存在。您要取代它嗎？
 # Variables:
 # $folder (String) - The path of the destination folder within its account.
 # $server (String) - The name of the account containing the folder.
-folder-file-not-found = 找不到「{ $folder }」的檔案在 { $server }。還原檔案或選擇另一個目的資料夾後再試一次。
+folder-file-not-found = 找不到 { $server } 上的「{ $folder }」檔案。請還原該檔案，或選擇其他目的資料夾後再試一次。
 # Variables:
 # $folder (String) - The path of the destination folder within its account.
 # $server (String) - The name of the account containing the folder.
-folder-file-access-denied = 無法存取 { $server } 上的「{ $folder }」。請檢查信件匣的檔案權限後再試一次。
+folder-file-access-denied = 無法存取 { $server } 上的「{ $folder }」。請檢查該資料夾的檔案權限，然後再試一次。
 # Variables:
 # $folder (String) - The path of the destination folder within its account.
 # $server (String) - The name of the account containing the folder.
 # $errorCode (String) - The hexadecimal filesystem error code.
-folder-file-error = 無法存取 { $server } 上的「{ $folder }」。請檢查資料夾的檔案是否可用且可寫入然後再試一次。錯誤: { $errorCode }
+folder-file-error = 無法存取 { $server } 上的「{ $folder }」。請確認資料夾中的檔案可存取且可寫入，然後再試一次。錯誤：{ $errorCode }
 
 ## Window controls
 

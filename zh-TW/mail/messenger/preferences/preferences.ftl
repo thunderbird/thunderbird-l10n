@@ -34,7 +34,7 @@ category-sync =
 pane-qr-export-title = 匯出至行動版
 category-qr-export =
     .tooltiptext = 匯出至行動版
-pane-beta-features-title = Beta 測試版功能
+pane-beta-features-title = Beta 測試功能
 category-beta-features =
     .tooltiptext = { pane-beta-features-title }
 experimental-features-legend = 實驗功能
@@ -634,7 +634,7 @@ show-conversation-view-label =
     .label = 顯示對話畫面
     .accesskey = c
 conversation-view-preview-description = 這項功能仍處於早期預覽階段，可將相關訊息彙整在一起顯示，但不一定每次都能如預期運作。
-conversation-view-settings-link = 在 Beta 版功能中設定對話畫面
+conversation-view-settings-link = 在「Beta 測試功能」設定對話畫面
 conversation-view-checkbox-label =
     .label = 開啟對話畫面
     .accesskey = c
@@ -682,7 +682,7 @@ new-calendar-legend = 新版行事曆事件對話框
 new-calendar-checkbox-label =
     .label = 用新版對話框檢視行事曆事件
 new-calendar-checkbox-description = 用新版行事曆對話框檢視事件（實驗中）
-new-calendar-dialog-settings-link = Beta 功能中的設定新行事歷事件對話框
+new-calendar-dialog-settings-link = 在「Beta 測試功能」設定新增行事曆事件對話框
 
 ## Compose Tab
 
