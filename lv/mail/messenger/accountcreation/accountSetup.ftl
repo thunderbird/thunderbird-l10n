@@ -24,6 +24,8 @@ account-setup-email-warning-icon =
 account-setup-password-label = Parole
     .title = Izvēles, bet var tikt izmantota lietotājvārda pārbaudīšanai
     .accesskey = P
+account-setup-remember-password = Atcerēties paroli
+    .accesskey = c
 #   YOURDOMAIN refers to the Windows domain in ActiveDirectory. yourusername refers to the user's account name in Windows.
 account-setup-exchange-input =
     .placeholder = DOMENS\lietotajvards
@@ -51,6 +53,7 @@ account-setup-looking-up-exchange = Uzmeklē iestatījumus: Exchange serveris…
 
 account-setup-step4-image =
     .title = Savienojuma kļūda
+account-setup-privacy-footnote2 = Tavi pieteikšanās dati tiks glabāti tikai vietēji datorā.
 account-setup-selection-error = Nepieciešama palīdzība?
 account-setup-forum-help = Atbalsta forums
 account-setup-privacy-help = Privātuma pamatnostādnes
@@ -59,7 +62,7 @@ account-setup-privacy-help = Privātuma pamatnostādnes
 
 account-setup-result-imap-description = Glabā mapes un e-pasta ziņojumus vienādotus serverī
 account-setup-result-pop-description = Glabā mapes un e-pasta ziņojumus datorā
-account-setup-incoming-title = Ienākošie
+account-setup-incoming-title = Ienākošais
 account-setup-outgoing-title = Izejošais
 account-setup-username-title = Lietotājvārds
 account-setup-result-outgoing-existing = Izmantot esošo izejošo SMTP serveri
