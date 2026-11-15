@@ -33,6 +33,10 @@ about-addressbook-card-count = { $name }의 전체 연락처: { $count }개
 # Variables:
 # $count (Number) - The number of contacts in all address books.
 about-addressbook-card-count-all = 모든 주소록의 전체 연락처: { $count }개
+about-addressbook-books-context-new-contact =
+    .label = 새 연락처
+about-addressbook-books-context-new-list =
+    .label = 새 목록
 about-addressbook-books-context-properties =
     .label = 속성
 about-addressbook-books-context-edit-list =

@@ -11,12 +11,20 @@ calendar-dialog-close-button =
     .title = 닫기
 calendar-event-create-edit-dialog =
     .aria-label = 이벤트
+calendar-event-title-input-new =
+    .aria-label = 이벤트 제목
+    .placeholder = 새 이벤트
+calendar-event-title-input-untitled =
+    .aria-label = 이벤트 제목
+    .placeholder = 제목 없는 이벤트
+calendar-event-title-too-long = 제목은 180자를 넘지 않아야 합니다
 calendar-dialog-menu-button =
     .aria-label = 메뉴 열기
     .title = 메뉴 열기
 calendar-dialog-back-button =
     .aria-label = 뒤로
     .title = 뒤로
+calendar-event-create-edit-dialog-back-button = 뒤로
 calendar-dialog-date-row-icon =
     .alt = 날짜와 시간
 calendar-dialog-date-row-recurring-icon =
@@ -107,6 +115,20 @@ calendar-prompt-this-event =
 calendar-prompt-all-events =
     .label = 모든 이벤트
 calendar-prompt-delete-button = 삭제
+calendar-dialog-edit-button = 편집
+calendar-event-create-edit-save-button = 저장
+calendar-event-calendar-selector =
+    .aria-label = 달력
+calendar-event-save = 저장
+calendar-event-saving = 저장하는 중...
+calendar-event-save-failed = 이벤트를 저장할 수 없습니다. 다시 시도하세요.
+calendar-event-calendar-unavailable = 이 달력은 새 이벤트를 허용하지 않습니다. 다른 달력을 선택하고 다시 시도하세요.
+# The status element announces Save progress and errors to screen readers.
+# Keep this message empty to clear the previous status text when Save is idle.
+calendar-event-save-idle = { "" }
+calendar-event-availability-default = 기본
+calendar-event-availability-busy = 일정 있음
+calendar-event-availability-free = 일정 없음
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going = 참적 { $count }명
