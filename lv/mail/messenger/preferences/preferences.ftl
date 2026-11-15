@@ -156,7 +156,7 @@ new-message-arrival = Kad tiek saņemti jauni ziņojumi:
 mail-play-sound-label =
     .label =
         { PLATFORM() ->
-            [macos] Atskaņot sekojošu skaņas failu:
+            [macos] Atskaņot šo skaņas datni:
            *[other] Atskaņot skaņu
         }
     .accesskey = s
@@ -173,12 +173,14 @@ animated-alert-label =
 customize-alert-label =
     .label = Pielāgot…
     .accesskey = P
+biff-use-system-alert =
+    .label = Izmantot sistēmas paziņojumu
 mail-system-sound-label =
-    .label = Jauna pasta noklusētā sistēmas skaņa
-    .accesskey = s
+    .label = Sistēmas noklusējuma jauna pasta skaņa
+    .accesskey = n
 sound-file-picker-title = Izvēlēties skaņu
 mail-custom-sound-label =
-    .label = Izmantot sekojošu skaņas failu
+    .label = Izmantot šo skaņas datni
     .accesskey = I
 mail-browse-sound-button =
     .label = Pārlūkot...
@@ -332,7 +334,7 @@ display-width-legend = Vienkārša teksta vēstules
 convert-emoticons-label =
     .label = Rādīt emocijzīmes kā attēlus
     .accesskey = e
-display-text-label = Rādot citētas vienkārša teksta vēstules:
+display-text-label = Attēlojot citētus vienkārša teksta ziņojumus:
 style-label =
     .value = Stils:
     .accesskey = t
@@ -356,6 +358,8 @@ smaller-size-item =
 quoted-text-color =
     .label = Krāsa:
     .accesskey = K
+search-handler-table =
+    .placeholder = Atsijāt satura veidus un darbības
 download-folder-desktop = Darbvirsma
 download-folder-system = Manas lejupielādes
 download-choose-folder-title = Izvēlēties mapi
@@ -436,6 +440,9 @@ show-attachments-inline-label =
 mark-read-no-delay =
     .label = Uzreiz pēc parādīšanas
     .accesskey = p
+view-attachments-inline =
+    .label = Apskatīt pielikumus iekļauti
+    .accesskey = A
 
 ## Note: This will concatenate to "After viewing for [___] seconds",
 ## using (mark-read-after-viewing) and a number (seconds-label).
@@ -451,7 +458,7 @@ mark-read-after-viewing =
 ##
 
 open-msg-label =
-    .value = Atvērt vēstules:
+    .value = Ziņojumus atvērt:
 open-msg-tab =
     .label = Jaunā cilnē
     .accesskey = c
@@ -477,6 +484,13 @@ conversation-view-settings-link = Sarunu skata konfigurēšana Beta iespējās
 conversation-view-checkbox-label =
     .label = Iespējot sarunu skatu
     .accesskey = r
+conversation-view-checkbox-description = Uz Gloda balstīta izmēģinājuma iespēja. Izmanto uz savu atbildību
+label-experiment = Izmēģinājuma
+account-hub-checkbox-description = Izmēģinājuma jauna pasta konta izveidošanas plūsma
+account-hub-manual-config-checkbox-label =
+    .label = Izmantot jauno Account Hub pašrocīgas konfigurēšanas plūsmu
+    .accesskey = k
+new-calendar-checkbox-description = Izmēģinājuma jauna kalendāra dialoglodziņš notikumu apskatīšanai
 new-calendar-dialog-settings-link = Jaunā kalendāra notikumu dialoglodziņa konfigurēšana Beta iespējās
 
 ## Compose Tab
@@ -522,7 +536,7 @@ font-size-label =
     .value = Izmērs:
     .accesskey = I
 default-colors-label =
-    .label = Lietot lasītāja noklusētās krāsas
+    .label = Izmantot lasītāja noklusējuma krāsas
     .accesskey = n
 font-color-label =
     .value = Teksta krāsa:
@@ -774,7 +788,7 @@ away-message-label =
 send-typing-label =
     .label = Sarunās sūtīt rakstīšanas paziņojumu
     .accesskey = S
-notification-label = Kad pienāk jums adresētas ziņas:
+notification-label = Kad pienāk Tev sūtīti ziņojumi:
 show-notification-label =
     .label = Rādīt paziņojumu:
     .accesskey = R
@@ -802,10 +816,10 @@ chat-play-button =
     .label = Atskaņot
     .accesskey = s
 chat-system-sound-label =
-    .label = Sistēmas noklusētā jaunas ziņas skaņa
-    .accesskey = S
+    .label = Sistēmas noklusējuma jauna pasta skaņa
+    .accesskey = n
 chat-custom-sound-label =
-    .label = Izmantot sekojošu skaņas failu
+    .label = Izmantot šo skaņas datni
     .accesskey = I
 chat-browse-sound-button =
     .label = Pārlūkot...

@@ -97,5 +97,5 @@
 <!ENTITY CopyMessageId.accesskey "K">
 <!ENTITY OpenMessageForMsgId.label "Atvērt vēstuli ar ID">
 <!ENTITY OpenMessageForMsgId.accesskey "A">
-<!ENTITY OpenBrowserWithMsgId.label "Atvērt pārlūku ar vēstules ID">
+<!ENTITY OpenBrowserWithMsgId.label "Atvērt pārlūku ar ziņojuma ID">
 <!ENTITY OpenBrowserWithMsgId.accesskey "p">
