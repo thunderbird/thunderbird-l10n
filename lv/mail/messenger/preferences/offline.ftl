@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 offline-dialog-title = Nesaistes iestatījumi
+offline-startup-label = Kad atver { -brand-short-name }
 autodetect-online-label =
     .label = Automātiski sekot vai parādās tiešsaiste
     .accesskey = A
