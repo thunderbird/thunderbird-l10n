@@ -12,6 +12,13 @@ system-tray-app-name = { -brand-full-name }
 menu-tools-settings =
     .label = Ayarlar
     .accesskey = A
+menu-accounts =
+    .label = Hesaplar
+    .accesskey =
+        { PLATFORM() ->
+            [linux] H
+           *[other] H
+        }
 menu-addons-and-themes =
     .label = Eklentiler ve temalar
     .accesskey = E

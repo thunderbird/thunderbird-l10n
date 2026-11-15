@@ -33,6 +33,10 @@ about-addressbook-card-count = { $name } içindeki toplam kişi sayısı: { $cou
 # Variables:
 # $count (Number) - The number of contacts in all address books.
 about-addressbook-card-count-all = Adres defterlerindeki toplam kişi sayısı: { $count }
+about-addressbook-books-context-new-contact =
+    .label = Yeni kişi
+about-addressbook-books-context-new-list =
+    .label = Yeni liste
 about-addressbook-books-context-properties =
     .label = Özellikler
 about-addressbook-books-context-edit-list =

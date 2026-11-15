@@ -272,6 +272,8 @@ appmenu-save-as-file =
     .label = Dosya…
 appmenu-settings =
     .label = Ayarlar
+appmenu-accounts =
+    .label = Hesaplar
 appmenu-addons-and-themes =
     .label = Eklentiler ve temalar
 
@@ -491,6 +493,8 @@ spaces-context-switch-tab-item =
     .label = { $tabName } sekmesine geç
 settings-context-open-settings-item2 =
     .label = Ayarlar
+settings-context-open-accounts-item =
+    .label = Hesaplar
 settings-context-open-account-settings-item2 =
     .label = Hesap ayarları
 settings-context-open-addons-item2 =

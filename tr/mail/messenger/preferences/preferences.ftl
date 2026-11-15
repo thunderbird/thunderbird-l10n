@@ -10,6 +10,9 @@ category-list =
 pane-general-title = Genel
 category-general =
     .tooltiptext = { pane-general-title }
+pane-notifications-title = Bildirimler
+category-notifications =
+    .tooltiptext = { pane-notifications-title }
 pane-appearance-title = Görünüm
 category-appearance =
     .tooltiptext = { pane-appearance-title }
@@ -31,6 +34,8 @@ category-sync =
 pane-qr-export-title = Mobil için Dışa Aktar
 category-qr-export =
     .tooltiptext = Mobil cihazlar için dışa aktar
+category-beta-features =
+    .tooltiptext = { pane-beta-features-title }
 general-language-and-fonts-header = Dil ve yazı tipleri
 general-email-notifications-header = E-posta bildirimleri
 general-incoming-mail-header = Gelen E-postalar
@@ -115,6 +120,7 @@ update-in-progress-ok-button = &Vazgeç
 # Continue is the cancel button so pressing escape or using a platform standard
 # method of closing the UI will not discard the update.
 update-in-progress-cancel-button = &Devam et
+accounts-button = Hesaplar
 account-button = Hesap Ayarları
 open-addons-sidebar-button = Eklentiler ve Temalar
 manual-storage-limit-label =

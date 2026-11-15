@@ -11,12 +11,21 @@ calendar-dialog-close-button =
     .title = Kapat
 calendar-event-create-edit-dialog =
     .aria-label = Etkinlik
+calendar-event-title-input-new =
+    .aria-label = Etkinlik başlığı
+    .placeholder = Yeni etkinlik
+calendar-event-title-input-untitled =
+    .aria-label = Etkinlik başlığı
+    .placeholder = Başlıksız etkinlik
+calendar-event-title-required = Gerekli
+calendar-event-title-too-long = Başlık en fazla 180 karakter olabilir
 calendar-dialog-menu-button =
     .aria-label = Menüyü aç
     .title = Menüyü aç
 calendar-dialog-back-button =
     .aria-label = Geri
     .title = Geri
+calendar-event-create-edit-dialog-back-button = Geri
 calendar-dialog-date-row-icon =
     .alt = Tarih ve saat
 calendar-dialog-date-row-recurring-icon =
@@ -137,6 +146,20 @@ calendar-prompt-all-events =
 calendar-prompt-delete-button = Sil
 calendar-dialog-edit-button = Düzenle
 calendar-event-create-edit-save-button = Kaydet
+calendar-event-calendar-selector =
+    .aria-label = Takvim
+calendar-event-save = Kaydet
+calendar-event-saving = Kaydediliyor…
+calendar-event-save-failed = Etkinlik kaydedilemedi. Yeniden deneyin.
+calendar-event-calendar-unavailable = Bu takvim yeni etkinlik kabul etmiyor. Başka bir takvim seçip yeniden deneyin.
+# The status element announces Save progress and errors to screen readers.
+# Keep this message empty to clear the previous status text when Save is idle.
+calendar-event-save-idle = { "" }
+calendar-event-availability-selector =
+    .aria-label = Uygunluk
+calendar-event-availability-default = Varsayılan
+calendar-event-availability-busy = Meşgul
+calendar-event-availability-free = Müsait
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =
