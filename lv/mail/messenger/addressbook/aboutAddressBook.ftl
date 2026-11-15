@@ -9,6 +9,10 @@ about-addressbook-books-context-new-contact =
     .label = Jauna kontaktpersona
 about-addressbook-books-context-new-list =
     .label = Jauns saraksts
+about-addressbook-books-context-edit-list =
+    .label = Labot sarakstu
+about-addressbook-books-context-edit =
+    .label = Labot
 about-addressbook-books-context-export =
     .label = Izgūt…
 about-addressbook-books-context-delete =
@@ -86,7 +90,10 @@ about-addressbook-confirm-delete-contacts-multi =
 
 ## Details
 
+about-addressbook-details-edit-photo =
+    .title = Labot kontaktpersonas fotoattēlu
 about-addressbook-search-action-button = Meklēt
+about-addressbook-begin-edit-contact-button = Labot
 about-addressbook-delete-edit-contact-button = Izdzēst
 about-addressbook-cancel-edit-contact-button = Atcelt
 about-addressbook-details-email-addresses-header = E-pasta adreses

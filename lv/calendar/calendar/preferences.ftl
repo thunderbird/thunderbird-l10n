@@ -11,3 +11,4 @@ set-timezone-manually-radio-button =
 reminder-play-sound-checkbox =
     .label = Atskaņot
     .accesskey = A
+category-edit-label = Labot kategoriju

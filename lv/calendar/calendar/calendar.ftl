@@ -242,6 +242,7 @@ calendar-properties-offline-support =
     .label = Bezsaistes atbalsts
 calendar-properties-enable-calendar =
     .label = Iespējot šo kalendāru
+calendar-properties-dialog-title = Labot kalendāru
 calendar-error-code =
     .value = Kļūdas kods:
 calendar-error-prompt-title = Ir atgadījusies kļūda

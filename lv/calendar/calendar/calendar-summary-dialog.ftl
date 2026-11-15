@@ -3,7 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 calendar-summary-dialog-edit-button =
-    .label = Labod
+    .label = Labot
     .accesskey = L
 calendar-summary-dialog-edit-menu-button =
     .label = Labot
