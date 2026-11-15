@@ -852,6 +852,7 @@ sync-signedin-login-failure = Lūgums pieteikties, lai atjaunotu savienojumu ar 
 sync-pane-sign-in = Pieteikties
 sync-pane-cancel = Atcelt
 show-synced-learn-more = Uzzināt vairāk…
+show-synced-item-passwords = Paroles
 sync-disconnected-text = Vienādo visās savās ierīcēs savus e-pasta kontus, adrešu grāmatas, kalendārus un identitātes.
 
 ## Mobile QR Export Pane
@@ -867,6 +868,8 @@ qr-export-screen-privacy-tip = <strong>Padoms.</strong> Kamēr tiek rādīts QR 
 qr-export-security-legend = Drošība
 qr-export-security-warning = Savai drošībai lūgums pārliecināties, ka atrodies privātā vidē, un nolasi kvadrātkodus no uzticamiem avotiem.
 qr-export-back = Atpakaļ
+qr-export-summary-passwords-included = Iekļautās paroles
+qr-export-summary-passwords-excluded = Vērā neņemtās paroles
 qr-export-pane-header-mobile = Izgūt { -brand-product-name } mobilajai versijai
 qr-export-description-email-accounts = Pārsūtiet savus e-pasta kontus no šī datora uz { -brand-product-name } savā tālrunī, izmantojot QR kodu.
 qr-export-get-app-google-play = <a data-l10n-name="app-link">Iegūstiet { -brand-product-name } pakalpojumā Google Play</a>
