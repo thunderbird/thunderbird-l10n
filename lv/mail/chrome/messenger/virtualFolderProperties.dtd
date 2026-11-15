@@ -7,7 +7,7 @@
 <!ENTITY description.label "Izveidot kā apakšmapi iekš:">
 <!ENTITY description.accesskey "I">
 <!ENTITY searchTermCaption.label "Iestatiet šajā saglabātajā meklēšanas mapē izmantotos meklēšanas kritērijus:">
-<!ENTITY folderSelectionCaption.label "Atlasiet mapes meklēšanai:">
+<!ENTITY folderSelectionCaption.label "Atlasīt mapes meklēšanai: ">
 <!ENTITY chooseFoldersButton.label "Izvēlieties…">
 <!ENTITY chooseFoldersButton.accesskey "z">
 <!ENTITY searchOnline.label "Meklēt tiešsaistē (sniedz jaunākos IMAP un News mapju datus, bet palielina mapes atvēršanas laiku)">

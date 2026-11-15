@@ -510,9 +510,9 @@ extension-label =
 ## using (auto-save-label) and a number (auto-save-end).
 
 auto-save-label =
-    .label = Automātiski saglabāt katru
+    .label = Automātiski saglabāt ik pēc
     .accesskey = A
-auto-save-end = minūti
+auto-save-end = minūtēm
 
 ##
 
@@ -520,11 +520,11 @@ warn-on-send-accel-key =
     .label = Apstiprināt, ja vēstules sūtīšanai izmanto īsinājumtaustiņu
     .accesskey = A
 spellcheck-label =
-    .label = Pirms sūtīšanas pārbaudīt pareizrakstību
+    .label = Pirms nosūtīšanas pārbaudīt pareizrakstību
     .accesskey = P
 spellcheck-inline-label =
-    .label = Pareizrakstības pārbaude, rakstot
-    .accesskey = r
+    .label = Iespējot pareizrakstības pārbaudi rakstīšanas laikā
+    .accesskey = I
 language-popup-label =
     .value = Valoda:
     .accesskey = V
@@ -533,7 +533,7 @@ font-label =
     .value = Fonts:
     .accesskey = F
 font-size-label =
-    .value = Izmērs:
+    .value = Lielums:
     .accesskey = I
 default-colors-label =
     .label = Izmantot lasītāja noklusējuma krāsas

@@ -19,7 +19,7 @@
                 biffEnd.label   "minutes for new messages Check" -->
 <!ENTITY biffStart.label "Pārbaudīt, vai ir jauni ziņojumi katru ">
 <!ENTITY biffStart.accesskey "P">
-<!ENTITY biffEnd.label "minūti">
+<!ENTITY biffEnd.label "minūtes">
 <!ENTITY useIdleNotifications.label "Atļaut tūlītējus servera paziņojumus, kad tiek saņemti jauni ziņojumi">
 <!ENTITY useIdleNotifications.accesskey "K">
 <!ENTITY connectionSecurity.label "Savienojuma drošība:">

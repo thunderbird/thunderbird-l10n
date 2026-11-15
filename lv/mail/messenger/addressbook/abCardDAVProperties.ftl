@@ -13,9 +13,9 @@ carddav-refreshinterval-label =
 carddav-refreshinterval-minutes-value =
     .label =
         { $minutes ->
-            [zero] katru minūti
-            [one] katras { $minutes } minūtes
-           *[other] katras { $minutes } minūtes
+            [zero] ik pēc { $minutes } minūtēm
+            [one] ik pēc { $minutes } minūtes
+           *[other] ik pēc { $minutes } minūtēm
         }
 # Variables:
 #   $hours (integer) - Number of hours between address book synchronizations
