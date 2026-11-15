@@ -18,7 +18,7 @@ calendar-event-title-input-untitled =
     .aria-label = 事件標題
     .placeholder = 未命名事件
 calendar-event-title-required = 必填
-calendar-event-title-too-long = 標題不能超過 180 字元
+calendar-event-title-too-long = 標題長度不得超過 180 個字元
 calendar-dialog-menu-button =
     .aria-label = 開啟選單
     .title = 開啟選單
@@ -143,13 +143,16 @@ calendar-event-calendar-selector =
     .aria-label = 行事曆
 calendar-event-save = 儲存
 calendar-event-saving = 儲存中…
-calendar-event-save-failed = 無法儲存事件。重試。
-calendar-event-calendar-unavailable = 此行事歷不接受新事件。請選擇另一個行事歷後再試一次。
+calendar-event-save-failed = 無法儲存活動，請重試。
+calendar-event-calendar-unavailable = 無法在此行事曆新增活動。請選擇其他行事曆後再試一次。
+# The status element announces Save progress and errors to screen readers.
+# Keep this message empty to clear the previous status text when Save is idle.
+calendar-event-save-idle = { "" }
 calendar-event-availability-selector =
-    .aria-label = 可用性
+    .aria-label = 出席狀態
 calendar-event-availability-default = 預設
 calendar-event-availability-busy = 忙碌
-calendar-event-availability-free = 免費
+calendar-event-availability-free = 空閒
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =

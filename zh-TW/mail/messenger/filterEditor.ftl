@@ -31,11 +31,11 @@ filter-failure-action = 篩選操作套用失敗
 # Variables:
 # $folder (String) - The URI of the destination folder.
 # $errorCode (String) - The hexadecimal error code for the batch.
-filter-copy-batch-failed = 無法完成將訊息複製到 { $folder }。可能複制了一些訊息。錯誤: { $errorCode }。請求的訊息 ID: { filter-batch-message-ids }
+filter-copy-batch-failed = 無法完成將郵件複製到 { $folder }。部分郵件可能複製成功。錯誤：{ $errorCode }。要求的郵件 ID：{ filter-batch-message-ids }
 # Variables:
 # $folder (String) - The URI of the destination folder.
 # $errorCode (String) - The hexadecimal error code for the batch.
-filter-move-batch-failed = 無法完成將訊息移動到 { $folder }。某些郵件可能尚未被移除原始信件匣就已被複製。錯誤: { $errorCode }。請求的訊息 ID: { filter-batch-message-ids }
+filter-move-batch-failed = 無法完成將郵件移動至 { $folder }。部分郵件可能複製成功，但尚未從來源信件匣移除。錯誤：{ $errorCode }。請求的訊息 ID：{ filter-batch-message-ids }
 # Referenced by filter-copy-batch-failed and filter-move-batch-failed.
 # Variables:
 # $messageIds (String) - Up to 20 requested message IDs, separated by commas.
@@ -43,7 +43,7 @@ filter-move-batch-failed = 無法完成將訊息移動到 { $folder }。某些�
 filter-batch-message-ids =
     { $count ->
         [0] { $messageIds }
-       *[other] { $messageIds }和另外 { $count } 封訊息
+       *[other] { $messageIds } 和另 { $count } 封訊息
     }
 # Variables:
 # $filterName (String) - The name of the filter that was applied.

@@ -16,8 +16,8 @@ menu-accounts =
     .label = 帳號
     .accesskey =
         { PLATFORM() ->
-            [linux] 帳
-           *[other] 帳
+            [linux] A
+           *[other] n
         }
 menu-addons-and-themes =
     .label = 附加元件與佈景主題
