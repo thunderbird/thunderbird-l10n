@@ -39,6 +39,7 @@ account-settings-preferred-encryption-type = Vēlamā šifrēšanas tehnoloģija
 e2e-enable-enc =
     .label = Iespējot šifrēšanu jaunām ziņām
     .accesskey = m
+e2e-advanced-section = Paplašinātie iestatījumi
 openpgp-key-expiry-label =
     .label = Derīgums
 openpgp-key-id-label =

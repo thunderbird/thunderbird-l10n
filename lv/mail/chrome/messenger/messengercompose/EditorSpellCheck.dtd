@@ -22,7 +22,7 @@
 <!ENTITY stopButton.label "Apturēt">
 <!ENTITY stopButton.accessKey "A">
 <!ENTITY userDictionary.label "Personīgā vārdnīca:">
-<!ENTITY moreDictionaries.label "Lejuplādēt citas vārdnīcas…">
+<!ENTITY moreDictionaries.label "Lejuplādēt vairāk vārdnīcu…">
 <!ENTITY addToUserDictionaryButton.label "Pievienot vārdu">
 <!ENTITY addToUserDictionaryButton.accessKey "P">
 <!ENTITY editUserDictionaryButton.label "Labot…">

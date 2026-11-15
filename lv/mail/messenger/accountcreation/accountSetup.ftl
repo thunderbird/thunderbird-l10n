@@ -103,6 +103,7 @@ account-setup-error-server-exists = Ienākošais serveris jau pastāv.
 ## Success view
 
 account-setup-encryption-button = Pilnīga šifrēšana
+account-setup-dictionaries-button = Lejupielādēt vārdnīcas
 # Variables:
 # $count (Number) - The number of address books found during autoconfig.
 account-setup-found-address-books-description =
