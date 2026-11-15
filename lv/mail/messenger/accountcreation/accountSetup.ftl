@@ -70,6 +70,7 @@ account-setup-result-username-different = Ienākošais: { $incoming }, izejošai
 
 ## Manual configuration area
 
+account-setup-manual-config-title = Pašrocīga konfigurēšana
 account-setup-incoming-server-legend = Ienākošais serveris
 account-setup-port-label = Ports:
     .title = Iestatīt porta numuru 0 automātiskai noteikšanai
