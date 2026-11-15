@@ -101,6 +101,22 @@ about-addressbook-selection-mixed-header2 =
         [one] { $count } atlasīts adrešu grāmatas ieraksts
        *[other] { $count } atlasīti adrešu grāmatas ieraksti
     }
+# Variables:
+# $count (Number) - The number of selected contacts
+about-addressbook-selection-contacts-header2 =
+    { $count ->
+        [zero] { $count } atlasītu kontaktpersonu
+        [one] { $count } atlasīta kontaktpersona
+       *[other] { $count } atlasītas kontaktpersonas
+    }
+# Variables:
+# $count (Number) - The number of selected lists
+about-addressbook-selection-lists-header2 =
+    { $count ->
+        [zero] { $count } atlasītu sarakstu
+        [one] { $count } atlasīts saraksts
+       *[other] { $count } atlasīti saraksti
+    }
 about-addressbook-details-edit-photo =
     .title = Labot kontaktpersonas fotoattēlu
 about-addressbook-search-action-button = Meklēt

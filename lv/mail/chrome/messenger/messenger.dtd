@@ -105,7 +105,7 @@
 <!ENTITY showMessengerToolbarCmd.accesskey "r">
 <!ENTITY customizeToolbar.label "Pielāgot…">
 <!ENTITY customizeToolbar.accesskey "P">
-<!ENTITY messagePaneLayoutStyle.label "Izklājums">
+<!ENTITY messagePaneLayoutStyle.label "Izkārtojums">
 <!ENTITY messagePaneLayoutStyle.accesskey "I">
 <!ENTITY messagePaneClassic.label "Klasiskais skats">
 <!ENTITY messagePaneClassic.accesskey "K">

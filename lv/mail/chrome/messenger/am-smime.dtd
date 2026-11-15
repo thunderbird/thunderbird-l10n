@@ -31,6 +31,6 @@
 <!ENTITY certPicker.title "Izvēlieties sertifikātu">
 <!ENTITY certPicker.info "Sertifikāts:">
 <!ENTITY certPicker.detailsLabel "Izvēlētā sertifikāta detaļas:">
-<!ENTITY openpgpKey.message "Personiskā atslēga šifrēšanai un digitālajai parakstīšanai:">
+<!ENTITY openpgpKey.message "Personiskā atslēga šifrēšanai un cipariskai parakstīšanai:">
 <!ENTITY openpgpKey.button "Iestatīt personisko atslēgu…">
 <!ENTITY openpgpKey.accesskey "I">

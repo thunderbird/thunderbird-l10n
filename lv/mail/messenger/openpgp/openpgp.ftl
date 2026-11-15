@@ -230,6 +230,7 @@ openpgp-key-man-select-all-key =
     .key = A
 openpgp-key-man-key-details-key =
     .key = I
+openpgp-ign-addr-intro = Tu apstiprini šīs atslēgas izmantošanu šīm atlasītajām e-pasta adresēm:
 openpgp-key-details-signatures-tab =
     .label = Sertifikāti
 openpgp-key-details-structure-tab =

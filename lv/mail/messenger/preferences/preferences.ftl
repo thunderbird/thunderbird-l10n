@@ -863,6 +863,7 @@ sync-disconnected-text = Vienādo visās savās ierīcēs savus e-pasta kontus, 
 qr-export-pane-header = Izgūt kontus { -brand-product-name } Mobile
 qr-export-create = Izveidot kvadrātkodu savu kontu izgūšanai
 qr-export-select-accounts = Atlasīt, kurus kontus izgūt:
+qr-export-accounts-legend = E-pasta konti
 qr-export-passwords-legend = Paroles
 qr-export-include-passwords-label = Iekļaut kontu paroles QR kodā
 qr-export-web-sign-in-note = <strong>Piezīme.</strong> Kontiem, kas izmanto tīmekļa pieteikšanos (piemēram, Gmail vai Yahoo), ir nepieciešama atkārtota autentificēšanās Tavā ierīcē.

@@ -20,6 +20,8 @@ account-hub-donate = Ziedot
 
 ## Initial setup page
 
+account-hub-email-setup-button = E-pasta konts
+    .title = Iestati e-pasta kontu
 account-hub-import-setup-button = Ievietot
     .title = Ievietot dublētu profilu
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
@@ -111,6 +113,7 @@ account-hub-edit-configuration = Labot konfigurāciju
 account-hub-config-success-title = Konta iestatījumi tika atrasti automātiski.
 account-hub-password-info = Tavi pieteikšanās dati tiks glabāti tikai vietēji datorā
 account-hub-sync-accounts-failure = { -brand-short-name } nevarēja izveidot savienojumu ar atlasītajiem pakalpojumiem
+account-hub-email-added-success = Savienojums ar e-pasta kontu izveidots sekmīgi
 account-hub-deselect-all = Noņemt atlasi visam
 # $count (Number) - The number of sync accounts selected.
 account-hub-sync-accounts-selected =
@@ -120,6 +123,7 @@ account-hub-sync-accounts-selected =
        *[other] { $count } atlasīti
     }
 account-hub-email-added-success-links-title = Izpēti drošības un pielāgošanas iespējas:
+account-hub-signature-link = E-pasta ziņojumu paraksts
 account-hub-email-error-text = Lūgums ievadīt derīgu e-pasta adresi
 account-hub-name-error-text = Lūgums ievadīt vārdu
 account-hub-username-error-text = Lietotājvārds ir nepieciešams

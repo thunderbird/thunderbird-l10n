@@ -470,6 +470,27 @@ message-group-starred = Zvaigžņotas
 # there are more; for the From column in the threadpane message list.
 and-others = un citi.
 
+## Ignore threads
+
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-theads-feedback =
+    { $count ->
+        [zero] Atbildes uz { $count } atlasītajiem pavedieniem netiks rādītas.
+        [one] Atbildes uz { $count } atlasīto pavedienu netiks rādītas.
+       *[other] Atbildes uz { $count } atlasītajiem pavedieniem netiks rādītas.
+    }
+# Variables:
+#    $count - the number of threads that were selected
+#    $subject - the message thread title (subject)
+ignored-subtheads-feedback =
+    { $count ->
+        [zero] Atbildes uz { $count } atlasītajiem apakspavedieniem netiks rādītas.
+        [one] Atbildes uz { $count } atlasīto apakšpavedienu netiks rādītas.
+       *[other] Atbildes uz { $count } atlasītajiem apakšpavedieniem netiks rādītas.
+    }
+
 ## Attachments
 
 # Variables:
