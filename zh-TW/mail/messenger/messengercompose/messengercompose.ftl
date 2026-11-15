@@ -103,11 +103,11 @@ compose-blocked-content-preferences-accesskey = P
 compose-unblock-resource =
     .label = 解除封鎖 { $url }
 menuitem-resize-header-area =
-    .label = 調整標題區
-    .accesskey = 調
+    .label = 調整標頭區域大小
+    .accesskey = R
 compose-header-area-splitter =
-    .aria-description = 使用「上」或「下」來調整大小可使用 Shift 來調整大小。按 Tab 移動至編輯器或按 Shift+Tab 移動到主旨。
-    .aria-label = 標題區
+    .aria-description = 使用上下鍵來調整大小，按住 Shift 可用更大比例調整。按 Tab 鍵可移動至信件編輯器，或按 Shift+Tab 鍵可移動到主旨欄位。
+    .aria-label = 標頭區域
 
 ## Send Format
 
