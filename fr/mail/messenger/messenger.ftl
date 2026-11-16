@@ -22,12 +22,12 @@ folder-file-not-found = Le fichier pour « { $folder } » sur { $server } est 
 # Variables:
 # $folder (String) - The path of the destination folder within its account.
 # $server (String) - The name of the account containing the folder.
-folder-file-access-denied = Impossible d’accéder à « { $folder } » sur { $server }. Vérifiez les permissions de fichiers du dossier, puis réessayez.
+folder-file-access-denied = Impossible d’accéder à « { $folder } » sur { $server }. Vérifiez les droits d’accès aux fichiers du dossier, puis réessayez.
 # Variables:
 # $folder (String) - The path of the destination folder within its account.
 # $server (String) - The name of the account containing the folder.
 # $errorCode (String) - The hexadecimal filesystem error code.
-folder-file-error = Impossible d’accéder à « { $folder } » sur { $server }. Vérifiez que les fichiers du dossier sont disponibles et modifiables, puis réessayez. Erreur : { $errorCode }
+folder-file-error = Impossible d’accéder à « { $folder } » sur { $server }. Assurez-vous que les fichiers du dossier sont accessibles et peuvent être modifiés, puis réessayez. Erreur : { $errorCode }
 
 ## Window controls
 

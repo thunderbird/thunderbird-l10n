@@ -725,6 +725,7 @@ show-conversation-view-label =
     .label = Používat zobrazení Konverzace
     .accesskey = o
 conversation-view-preview-description = Tato funkce je zatím v rané fázi testování. Seskupuje související zprávy, ale nemusí vždy fungovat podle očekávání.
+conversation-view-settings-link = Nastavení zobrazení konverzace v sekci Beta funkce
 conversation-view-checkbox-label =
     .label = Povolit zobrazení Konverzace
     .accesskey = k
@@ -772,6 +773,7 @@ new-calendar-legend = Nový dialog události kalendáře
 new-calendar-checkbox-label =
     .label = Zobrazí události kalendáře v novém dialogu
 new-calendar-checkbox-description = Experimentální nový dialog kalendáře pro prohlížení událostí
+new-calendar-dialog-settings-link = Nastavení dialogu nové události kalendáře v sekci Beta funkce
 
 ## Compose Tab
 

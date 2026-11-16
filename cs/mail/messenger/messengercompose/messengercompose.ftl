@@ -102,6 +102,12 @@ compose-blocked-content-preferences-accesskey = v
 # $url - URL of the blocked resource
 compose-unblock-resource =
     .label = Odblokovat { $url }
+menuitem-resize-header-area =
+    .label = Změna velikosti oblasti záhlaví
+    .accesskey = Z
+compose-header-area-splitter =
+    .aria-description = Pomocí kláves Šipka nahoru a Šipka dolů můžete měnit velikost; stisknutím klávesy Shift provedete větší změnu. Stisknutím klávesy Tab přejdete do editoru, stisknutím Shift+Tab přejdete k předmětu.
+    .aria-label = Oblast záhlaví
 
 ## Send Format
 
