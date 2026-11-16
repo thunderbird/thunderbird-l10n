@@ -282,6 +282,7 @@ threadpane-column-label-unread-button =
     .label = Състояние на четене
 threadpane-cell-read-status =
     .aria-label = Състояние на четене
+threadpane-new-cell-label = Нов
 threadpane-read-cell-label = Прочетени
 threadpane-unread-cell-label = Непрочетени
 threadpane-column-header-a11y-sender =

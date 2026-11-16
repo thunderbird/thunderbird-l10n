@@ -111,6 +111,13 @@ calendar-items-column-title = Заглавие
 # The start date and time of each item.
 calendar-items-column-start-a11y =
     .aria-label = Начало
+calendar-items-column-start = Начало
+    .title = Сортиране по начало
+# The end date and time of each item.
+calendar-items-column-end-a11y =
+    .aria-label = Край
+calendar-items-column-end = Край
+    .title = Сортиране по край
 # The column of checkboxes, to choose which items to import.
 calendar-items-column-import-a11y =
     .aria-label = Внасяне
