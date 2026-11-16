@@ -33,6 +33,10 @@ about-addressbook-card-count = { $name } の連絡先合計: { $count } 件
 # Variables:
 # $count (Number) - The number of contacts in all address books.
 about-addressbook-card-count-all = すべてのアドレス帳の連絡先合計: { $count } 件
+about-addressbook-books-context-new-contact =
+    .label = 新規連絡先
+about-addressbook-books-context-new-list =
+    .label = 新規アドレスリスト
 about-addressbook-books-context-properties =
     .label = 情報
 about-addressbook-books-context-edit-list =
