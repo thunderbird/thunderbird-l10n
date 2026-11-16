@@ -117,6 +117,15 @@ update-in-progress-cancel-button = &Continuar
 accounts-button = Contas
 account-button = Configurações de contas
 open-addons-sidebar-button = Extensões e temas
+manual-storage-limit-label =
+    .label = Definir manualmente limites de armazenamento para arquivos temporários
+    .accesskey = m
+clear-temp-files-button =
+    .label = Limpar arquivos temporários
+    .accesskey = L
+clear-temp-files-shutdown-label =
+    .label = Limpar arquivos temporários quando o { -brand-short-name } fechar
+    .accesskey = f
 
 ## OS Authentication dialog
 
@@ -137,6 +146,9 @@ focus-search-shortcut =
 focus-search-shortcut-alt =
     .key = k
 general-legend = Página inicial do { -brand-short-name }
+show-start-page-label =
+    .label = Mostrar a página inicial ao abrir o { -brand-short-name }
+    .accesskey = M
 start-page-label =
     .label = Ao iniciar o { -brand-short-name }, abrir esta página no painel de mensagens:
     .accesskey = A
