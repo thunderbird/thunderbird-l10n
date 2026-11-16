@@ -15,6 +15,19 @@ messenger-save-message-failed = Kan het bericht niet opslaan. Controleer uw best
 # Variables:
 # $filename (String) - Full path of the file that already exists.
 messenger-file-exists = { $filename } bestaat al. Wilt u het vervangen?
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+folder-file-not-found = Het bestand voor ‘{ $folder }’ op { $server } kan niet worden gevonden. Herstel het bestand of kies een andere doelmap en probeer het opnieuw.
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+folder-file-access-denied = Kan ‘{ $folder }’ op { $server } niet openen. Controleer de bestandsrechten van de map en probeer het opnieuw.
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+# $errorCode (String) - The hexadecimal filesystem error code.
+folder-file-error = Kan ‘{ $folder }’ op { $server } niet openen. Controleer of de bestanden in de map beschikbaar en beschrijfbaar zijn en probeer het opnieuw. Fout: { $errorCode }
 
 ## Window controls
 

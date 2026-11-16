@@ -90,6 +90,13 @@ smtp-auth-hint-plain-to-encrypt = De uitgaande (SMTP-)server { $hostname } staat
 smtp-auth-failure = Kan niet authenticeren bij uitgaande (SMTP-)server { $hostname }. Controleer het wachtwoord en verifieer de ‘Authenticatiemethode’ in de ‘Accountinstellingen | Uitgaande server (SMTP)’.
 # Variables:
 # $hostname - outgoing server hostname
+# $serverResponse - server response
+smtp-auth-oauth2-failure = Kan niet authenticeren bij uitgaande (SMTP-)server { $hostname } via OAuth2. De server antwoordde: { $serverResponse }
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-oauth2-failure-no-response = Kan niet authenticeren bij uitgaande (SMTP-)server { $hostname } via OAuth2.
+# Variables:
+# $hostname - outgoing server hostname
 smtp-auth-gssapi = Het Kerberos/GSSAPI-ticket werd niet geaccepteerd door de uitgaande (SMTP-)server { $hostname }. Controleer of u bij de Kerberos/GSSAPI-realm bent aangemeld.
 # Variables:
 # $hostname - outgoing server hostname

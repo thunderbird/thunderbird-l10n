@@ -34,6 +34,7 @@ category-sync =
 pane-qr-export-title = Exporteren voor Mobiel
 category-qr-export =
     .tooltiptext = Exporteren voor Mobiel
+pane-beta-features-title = Betafuncties
 category-beta-features =
     .tooltiptext = { pane-beta-features-title }
 experimental-features-legend = Experimentele functies
@@ -645,6 +646,7 @@ show-conversation-view-label =
     .label = Conversatieweergave tonen
     .accesskey = C
 conversation-view-preview-description = Dit is een vroege voorbeeldfunctie. Het groepeert gerelateerde berichten, maar het werkt mogelijk niet altijd zoals verwacht.
+conversation-view-settings-link = Conversatieweergave configureren in Betafuncties
 conversation-view-checkbox-label =
     .label = Conversatieweergave inschakelen
     .accesskey = C
@@ -692,6 +694,7 @@ new-calendar-legend = Dialoogvenster Nieuwe agenda-gebeurtenis
 new-calendar-checkbox-label =
     .label = Agenda-gebeurtenissen in het nieuwe dialoogvenster bekijken
 new-calendar-checkbox-description = Experimenteel nieuw agendadialoogvenster voor het bekijken van gebeurtenissen
+new-calendar-dialog-settings-link = Dialoogvenster Nieuw agenda-evenement configureren in Betafuncties
 
 ## Compose Tab
 
