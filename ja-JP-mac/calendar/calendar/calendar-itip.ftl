@@ -96,6 +96,8 @@ imip-bar-counter-text = メッセージに招待への対案が含まれてい�
 imip-bar-disallowed-counter-text = メッセージに招待への対案が含まれていますが、この予定への提案は許可されていません。
 imip-bar-decline-counter-text = メッセージにあなたの対案への返信が含まれています。
 imip-bar-refresh-text = メッセージに含まれている予定に更新しますか？
+imip-bar-refresh-not-attendee-text = メッセージに含まれている予定に更新しますか？ ただし、これは予定の参加者から送信されたものではありません。
+imip-bar-refresh-not-organizer-text = メッセージに含まれている予定に更新しますか？ ただし、これは予定の主催者から送信されたものではありません。
 imip-bar-publish-text = メッセージに予定が含まれています。
 imip-bar-request-text = メッセージに参加依頼が含まれています。
 imip-bar-sent-text = メッセージに送信された予定が含まれています。
@@ -116,7 +118,7 @@ imip-bar-reply-to-recently-removed-item = メッセージに { $deletionTime } �
 #   $status (String) - The hexadecimal status code of the failed processing.
 imip-bar-processing-failed = メッセージの処理に失敗しました。状態: { $status }
 imip-bar-calendar-deactivated = メッセージに予定の情報が含まれています。この予定を扱うにはカレンダーを有効にしてください。
-imip-bar-not-writable = カレンダーに書き込みできないため参加依頼を処理できません。カレンダーの情報を確認してください。
+imip-bar-not-writable = カレンダーに書き込みできないため参加依頼を処理できません。カレンダーのプロパティを確認してください。
 imip-no-calendar-available = 利用できる書き込み可能なカレンダーはありません。
 
 ## Sending invitation emails

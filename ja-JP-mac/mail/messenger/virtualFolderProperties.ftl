@@ -10,10 +10,15 @@
 #   $count - number of chosen folders
 virtual-folder-sources-chosen = { $count } 個のフォルダーを選択しています
 virtual-folder-no-search-folders-selected = 検索対象フォルダーを 1 つ以上選択してください。
+virtual-folder-missing-value-title = 検索の値がありません
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+virtual-folder-missing-value-rule = この検索を保存する前に検索語 "{ $attribute } { $operator }" の値を入力してください。
 virtual-folder-properties-title = 新規検索フォルダー
 # Variables:
 #   $folderName (String): The name of the saved search folder.
-virtual-folder-properties-edit-title = 検索フォルダー { $folderName } の情報を変更
+virtual-folder-properties-edit-title = 検索フォルダー { $folderName } のプロパティを変更
 virtual-folder-name = 名前:
     .accesskey = N
 virtual-folder-description = 作成先:
