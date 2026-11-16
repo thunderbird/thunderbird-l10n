@@ -34,6 +34,25 @@ filter-failure-move-failed = Přesun se nezdařil
 filter-failure-copy-failed = Kopírování se nezdařilo
 filter-failure-action = Aplikování filtru selhalo
 # Variables:
+# $folder (String) - The URI of the destination folder.
+# $errorCode (String) - The hexadecimal error code for the batch.
+filter-copy-batch-failed = Zprávy se nepodařilo zkopírovat do složky { $folder }. Některé z nich však mohly být zkopírovány. Chyba: { $errorCode }. ID požadovaných zpráv: { filter-batch-message-ids }
+# Variables:
+# $folder (String) - The URI of the destination folder.
+# $errorCode (String) - The hexadecimal error code for the batch.
+filter-move-batch-failed = Přesun zpráv do složky { $folder } se nepodařilo dokončit. Některé zprávy mohly být zkopírovány, ale ne odstraněny ze zdrojové složky. Chyba: { $errorCode }. ID požadovaných zpráv: { filter-batch-message-ids }
+# Referenced by filter-copy-batch-failed and filter-move-batch-failed.
+# Variables:
+# $messageIds (String) - Up to 20 requested message IDs, separated by commas.
+# $count (Number) - The number of additional requested messages whose IDs are omitted.
+filter-batch-message-ids =
+    { $count ->
+        [0] { $messageIds }
+        [one] { $messageIds } a { $count } další zpráva
+        [few] { $messageIds } a { $count } další zprávy
+       *[other] { $messageIds } a { $count } dalších zpráv
+    }
+# Variables:
 # $filterName (String) - The name of the filter that was applied.
 # $author (String) - The sender of the message.
 # $subject (String) - The subject line of the message.

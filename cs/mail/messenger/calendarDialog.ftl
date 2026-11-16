@@ -172,6 +172,8 @@ calendar-event-save-idle = { "" }
 calendar-event-availability-selector =
     .aria-label = Dostupnost
 calendar-event-availability-default = Výchozí
+calendar-event-availability-busy = Zaneprázdněn
+calendar-event-availability-free = Volno
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =

@@ -90,6 +90,13 @@ smtp-auth-hint-plain-to-encrypt = SMTP server { $hostname } nepodporuje nezašif
 smtp-auth-failure = Autentizace k SMTP serveru { $hostname } se nezdařila. Zkontrolujte prosím heslo a nastavený ‘Způsob autentizace’ v ‘Nastavení účtu | Odchozí server (SMTP)’.
 # Variables:
 # $hostname - outgoing server hostname
+# $serverResponse - server response
+smtp-auth-oauth2-failure = K odchozímu serveru (SMTP) { $hostname } se nelze autentizovat pomocí OAuth2. Server odpověděl: { $serverResponse }
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-oauth2-failure-no-response = Ověření na serveru odchozí pošty (SMTP) { $hostname } pomocí OAuth2 se nezdařilo.
+# Variables:
+# $hostname - outgoing server hostname
 smtp-auth-gssapi = SMTP server { $hostname } nepřijal lístek Kerberos/GSSAPI. Zkontrolujte, zda jste přihlášení do domény Kerberos/GSSAPI.
 # Variables:
 # $hostname - outgoing server hostname

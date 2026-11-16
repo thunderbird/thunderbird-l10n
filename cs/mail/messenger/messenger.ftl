@@ -15,6 +15,19 @@ messenger-save-message-failed = Nelze uložit zprávu. Zkontrolujte prosím náz
 # Variables:
 # $filename (String) - Full path of the file that already exists.
 messenger-file-exists = { $filename } už existuje. Chcete ho nahradit?
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+folder-file-not-found = Soubor složky „{ $folder }“ v účtu { $server } se nepodařilo najít. Obnovte jej nebo vyberte jinou cílovou složku a zkuste to znovu.
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+folder-file-access-denied = Ke složce „{ $folder }“ na účtu { $server } nelze přistupovat. Zkontrolujte její přístupová oprávnění a zkuste to znovu.
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+# $errorCode (String) - The hexadecimal filesystem error code.
+folder-file-error = Ke složce „{ $folder }“ v účtu { $server } nelze přistupovat. Ověřte, že jsou její soubory dostupné a lze do nich zapisovat, a zkuste to znovu. Chyba: { $errorCode }
 
 ## Window controls
 
