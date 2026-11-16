@@ -103,11 +103,11 @@ compose-blocked-content-preferences-accesskey = e
 compose-unblock-resource =
     .label = Dadrwystro { $url }
 menuitem-resize-header-area =
-    .label = Newid maint ardal pennawd
+    .label = Newid maint ardal pennyn
     .accesskey = N
 compose-header-area-splitter =
-    .aria-description = Defnyddiwch Up and Down i newid maint, gyda Shift ar gyfer camau mwy. Pwyswch Tab i symud i'r golygydd neu Shift+Tab i symud i Subject.
-    .aria-label = Ardal pennawd
+    .aria-description = Defnyddiwch Up a Down i newid maint, gyda Shift ar gyfer camau mwy. Pwyswch Tab i symud i'r golygydd neu Shift+Tab i symud i'r Pwnc.
+    .aria-label = Ardal pennyn
 
 ## Send Format
 

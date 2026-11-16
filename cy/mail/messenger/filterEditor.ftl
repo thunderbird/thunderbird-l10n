@@ -39,11 +39,11 @@ filter-failure-action = Methu gosod y weithred hidlo
 # Variables:
 # $folder (String) - The URI of the destination folder.
 # $errorCode (String) - The hexadecimal error code for the batch.
-filter-copy-batch-failed = Methu â chwblhau copïo negeseuon i { $folder }. Mae'n bosibl bod rhai negeseuon wedi'u copïo. Gwall: { $errorCode }. IDau neges y gofynnwyd amdanynt: { filter-batch-message-ids }
+filter-copy-batch-failed = Wedi methu cwblhau copïo negeseuon i { $folder }. Mae'n bosibl bod rhai negeseuon wedi'u copïo. Gwall: { $errorCode }. IDau neges gofynnwyd amdanyn nhw: { filter-batch-message-ids }
 # Variables:
 # $folder (String) - The URI of the destination folder.
 # $errorCode (String) - The hexadecimal error code for the batch.
-filter-move-batch-failed = Methu â chwblhau symud negeseuon i { $folder }. Mae'n bosibl bod rhai negeseuon wedi'u copïo heb eu tynnu o'r ffolder ffynhonnell. Gwall: { $errorCode }. IDau neges y gofynnwyd amdanynt: { filter-batch-message-ids }
+filter-move-batch-failed = Wedi methu cwblhau symud negeseuon i { $folder }. Mae'n bosibl bod rhai negeseuon wedi'u copïo heb eu tynnu o'r ffolder ffynhonnell. Gwall: { $errorCode }. IDau neges gofynnwyd amdanyn nhw: { filter-batch-message-ids }
 # Referenced by filter-copy-batch-failed and filter-move-batch-failed.
 # Variables:
 # $messageIds (String) - Up to 20 requested message IDs, separated by commas.
@@ -52,7 +52,7 @@ filter-batch-message-ids =
     { $count ->
         [0] { $messageIds }
         [one] { $messageIds }, a { $count } neges arall
-        [zero] { $messageIds }, a { $count } neges arall
+        [zero] { $messageIds }, a { $count } negeseuon eraill
         [two] { $messageIds }, a { $count } neges arall
         [few] { $messageIds }, a { $count } neges arall
         [many] { $messageIds }, a { $count } neges arall

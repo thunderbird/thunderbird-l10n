@@ -91,10 +91,10 @@ smtp-auth-failure = Methu dilysu gweinydd Anfon (SMTP) { $hostname }. Gwiriwch e
 # Variables:
 # $hostname - outgoing server hostname
 # $serverResponse - server response
-smtp-auth-oauth2-failure = Methu dilysu i'r gweinydd sy'n mynd allan (SMTP) { $hostname } gan ddefnyddio OAuth2. Ymatebodd y gweinydd: { $serverResponse }
+smtp-auth-oauth2-failure = Wedi methu dilysu i'r gweinydd allan (SMTP) { $hostname } gan ddefnyddio OAuth2. Ymateb y gweinydd: { $serverResponse }
 # Variables:
 # $hostname - outgoing server hostname
-smtp-auth-oauth2-failure-no-response = Methu dilysu i'r gweinydd sy'n mynd allan (SMTP) { $hostname } gan ddefnyddio OAuth2.
+smtp-auth-oauth2-failure-no-response = Wedi methu dilysu i'r gweinydd allan (SMTP) { $hostname } gan ddefnyddio OAuth2.
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-gssapi = Nid yw'r tocyn Kerberos/GSSAPI ticket wedi'i dderbyn gan weinydd Anfon (SMTP) { $hostname }. Gwiriwch eich bod wedi eich mewngofnodi i gylch Kerberos/GSSAPI.
