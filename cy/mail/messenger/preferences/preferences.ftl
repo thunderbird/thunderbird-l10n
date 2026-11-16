@@ -682,7 +682,7 @@ new-calendar-legend = Deialog Digwyddiad Calendr Newydd
 new-calendar-checkbox-label =
     .label = Gweld digwyddiadau calendr yn y ddeialog newydd
 new-calendar-checkbox-description = Deialog calendr newydd arbrofol ar gyfer gwylio digwyddiadau
-new-calendar-dialog-settings-link = Ffurfweddu Deialog Digwyddiad Calendr Newydd yn Nodweddion Beta
+new-calendar-dialog-settings-link = Ffurfweddwch Ddeialog Digwyddiad Calendr Newydd yn Nodweddion Beta
 
 ## Compose Tab
 
