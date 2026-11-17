@@ -267,6 +267,7 @@ message-verification-request2 = { $user } vrea să verifice pe { $userReceiving 
 #    $reason is the reason given why the verification was cancelled.
 message-verification-cancel2 = { $user } a anulat verificarea cu motivul: { $reason }
 message-verification-done = Verificarea a fost finalizată.
+message-decryption-error2 = Conținuturile mesajului nu pot fi decriptate. Cheile de criptare vor fi resolicitate automat.
 message-decryption-error = Conținutul acestui mesaj nu a putut fi decriptat. Pentru a cere chei de criptare de la alte dispozitive de-ale tale, dă clic dreapta pe acest mesaj.
 message-decrypting = Se decriptează…
 message-redacted = Mesajul a fost redactat.

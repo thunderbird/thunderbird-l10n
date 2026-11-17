@@ -36,3 +36,4 @@ panel-settings-spam = Setări pentru mesaje nedorite
 # $account (String) - The account name.
 spam-settings-alert-message = A fost detectată o problemă cu setările pentru mesaje nedorite în { $account }. Vrei să le verifici înainte de a salva modificările?
 open-settings-sidebar-button = Setări
+account-manager-document-title = Conturi
