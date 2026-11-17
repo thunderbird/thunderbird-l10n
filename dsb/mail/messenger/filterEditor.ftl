@@ -34,6 +34,14 @@ filter-failure-sending-reply-aborted = Słanje wótegrona jo se pśetergnuło
 filter-failure-move-failed = Pśesunjenje njejo se raźiło
 filter-failure-copy-failed = Kopěrowanje njejo se raźiło
 filter-failure-action = Nałožowanje filtroweje akcije njejo se raźiło
+# Variables:
+# $folder (String) - The URI of the destination folder.
+# $errorCode (String) - The hexadecimal error code for the batch.
+filter-copy-batch-failed = Kopěrowanje powěsćow do { $folder } njedajo se dokóńcyś. Někotare powěsći su se snaź kopěrowali. Zmólka: { $errorCode }. Pominane ID powěsćow: { filter-batch-message-ids }
+# Variables:
+# $folder (String) - The URI of the destination folder.
+# $errorCode (String) - The hexadecimal error code for the batch.
+filter-move-batch-failed = Pśesunjenje powěsćow do { $folder } njedajo se dokóńcyś. Někotare powěsći su se snaź kopěrowali, bźez togo, aby se ze žrědłowego zarědnika wótwónoźeli. Zmólka: { $errorCode }. Pominane ID powěsćow: { filter-batch-message-ids }
 # Referenced by filter-copy-batch-failed and filter-move-batch-failed.
 # Variables:
 # $messageIds (String) - Up to 20 requested message IDs, separated by commas.

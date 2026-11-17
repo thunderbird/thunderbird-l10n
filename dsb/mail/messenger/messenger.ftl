@@ -15,6 +15,14 @@ messenger-save-message-failed = Njejo móžno, powěsć składowaś. Pśekontrol
 # Variables:
 # $filename (String) - Full path of the file that already exists.
 messenger-file-exists = { $filename } južo eksistěrujo. Cośo ju wuměniś?
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+folder-file-not-found = Dataja za “{ $folder }” na { $server } njedajo se namakaś. Wótnowśo dataju abo wubjeŕśo drugi celowy zarědnik a wopytajśo hyšći raz.
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+folder-file-access-denied = Pśistup k “{ $folder }” na { $server } njejo móžny. Pśeglědajśo datajowe pšawa zarědnika a wopytajśo pón hyšći raz.
 
 ## Window controls
 
