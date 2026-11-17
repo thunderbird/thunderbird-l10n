@@ -58,6 +58,13 @@ account-settings-offline-advanced-options =
     .accesskey = v
 account-settings-download-limits = Limite de descărcare
 account-settings-download-limits-description = Alege ce mesaje să fie stocate local pe acest calculator:
+account-settings-skip-large-messages =
+    .label = Nu descărca mesaje mai mari de:
+    .accesskey = m
+account-settings-deletion-description-imap = Setează reguli pentru ștergerea automată a mesajelor vechi atât de pe acest calculator, cât și de pe serverul de poștă electronică, pentru eliberare de spațiu.
+account-settings-set-deletion-rules =
+    .label = Setează regulile de ștergere
+    .accesskey = D
 delete-account-button =
     .label = Șterge
 default-account-button =
@@ -127,6 +134,7 @@ oauth-provider-extension-info = Setări OAuth2 oferite de extensie: <a data-l10n
 
 ## Incoming server settings
 
+account-settings-server-document-title = Setări server
 account-settings-server-type =
     .value = Tipul serverului:
 account-settings-server-name =

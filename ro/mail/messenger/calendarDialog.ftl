@@ -11,12 +11,21 @@ calendar-dialog-close-button =
     .title = Închide
 calendar-event-create-edit-dialog =
     .aria-label = Eveniment
+calendar-event-title-input-new =
+    .aria-label = Titlu eveniment
+    .placeholder = Eveniment nou
+calendar-event-title-input-untitled =
+    .aria-label = Titlu eveniment
+    .placeholder = Eveniment nedenumit
+calendar-event-title-required = Necesar
+calendar-event-title-too-long = Titlul nu trebuie să depășească 180 de caractere
 calendar-dialog-menu-button =
     .aria-label = Deschide meniul
     .title = Deschide meniul
 calendar-dialog-back-button =
     .aria-label = Înapoi
     .title = Înapoi
+calendar-event-create-edit-dialog-back-button = Înapoi
 calendar-dialog-date-row-icon =
     .alt = Data și ora
 calendar-dialog-date-row-recurring-icon =
@@ -141,6 +150,22 @@ calendar-prompt-this-event =
 calendar-prompt-all-events =
     .label = Toate evenimentele
 calendar-prompt-delete-button = Șterge
+calendar-dialog-edit-button = Editează
+calendar-event-create-edit-save-button = Salvează
+calendar-event-calendar-selector =
+    .aria-label = Calendar
+calendar-event-save = Salvează
+calendar-event-saving = Se salvează...
+calendar-event-save-failed = Evenimentul nu a putut fi salvat. Încearcă din nou.
+calendar-event-calendar-unavailable = Calendarul nu acceptă evenimente noi. Selectează alt calendar și încearcă din nou.
+# The status element announces Save progress and errors to screen readers.
+# Keep this message empty to clear the previous status text when Save is idle.
+calendar-event-save-idle = { "" }
+calendar-event-availability-selector =
+    .aria-label = Disponibilitate
+calendar-event-availability-default = ImplicitImplicit
+calendar-event-availability-busy = Ocupat
+calendar-event-availability-free = Liber
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =

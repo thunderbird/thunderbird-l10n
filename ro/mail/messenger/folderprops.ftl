@@ -38,6 +38,8 @@ folder-props-check-for-new-messages =
     .label = La descărcarea mesajelor pentru acest cont, verifică întotdeauna dosarul acesta
     .accesskey = c
 folder-props-rebuild-summary-explanation = Uneori fișierul index de dosar (.msf) se deteriorează și aparent lipsesc mesaje sau apar mesaje care au fost șterse; aceste probleme pot fi rezolvate prin repararea dosarului.
+folder-props-rebuild-summary-confirm-title = Repară dosarul
+folder-props-rebuild-summary-confirm-message = Repararea dosarului va șterge mesajele locale din el și va descărca copii noi de pe server, lăsând mesajele de pe server nemodificate. Este posibil să dureze ceva. Continui?
 
 ## Retention tab (see retention.ftl)
 ##

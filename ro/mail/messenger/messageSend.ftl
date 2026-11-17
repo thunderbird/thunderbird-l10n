@@ -90,6 +90,13 @@ smtp-auth-hint-plain-to-encrypt = Serverul de trimitere (SMTP) { $hostname } nu 
 smtp-auth-failure = Nu se poate efectua autentificarea la serverul de trimitere (SMTP) { $hostname }. Te rugăm să verifici parola și „Metoda de autentificare” în „Setările contului | Server de trimitere (SMTP)”.
 # Variables:
 # $hostname - outgoing server hostname
+# $serverResponse - server response
+smtp-auth-oauth2-failure = Nu putem autentifica serverul de trimitere (SMTP) { $hostname } folosind OAuth2. Serverul a răspuns: { $serverResponse }
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-oauth2-failure-no-response = Nu putem autentifica serverul de trimitere (SMTP) { $hostname } folosind OAuth2.
+# Variables:
+# $hostname - outgoing server hostname
 smtp-auth-gssapi = Certificatul Kerberos/GSSAPI nu a fost acceptat de serverul de trimitere (SMTP) { $hostname }. Te rugăm să verifici că ești autentificat la domeniul Kerberos/GSSAPI.
 # Variables:
 # $hostname - outgoing server hostname

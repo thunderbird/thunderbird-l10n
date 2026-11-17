@@ -33,6 +33,10 @@ about-addressbook-card-count = Total contacte în { $name }: { $count }
 # Variables:
 # $count (Number) - The number of contacts in all address books.
 about-addressbook-card-count-all = Total contacte în toate agendele: { $count }
+about-addressbook-books-context-new-contact =
+    .label = Persoană de contact nouă
+about-addressbook-books-context-new-list =
+    .label = Listă nouă
 about-addressbook-books-context-properties =
     .label = Proprietăți
 about-addressbook-books-context-edit-list =

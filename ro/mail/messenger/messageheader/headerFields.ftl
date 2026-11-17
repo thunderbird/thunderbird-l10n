@@ -97,6 +97,12 @@ message-header-address-in-address-book-button =
     .title = Editează contactul
 message-header-field-show-more = Mai multe
     .title = Afișează toți destinatarii
+message-ids-field-show-more = Afișează mai multe
+# Button shown in place of hidden items in a header field.
+# $count (Number) - The number of hidden items the button will show.
+message-header-field-show-count-more =
+    .aria-label = Afișează încă { $count }
+    .title = Afișează încă { $count }
 message-ids-field-show-all = Afișează tot
 
 ## Dark Message Mode

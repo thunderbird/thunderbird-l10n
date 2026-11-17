@@ -12,6 +12,13 @@ system-tray-app-name = { -brand-full-name }
 menu-tools-settings =
     .label = Setări
     .accesskey = e
+menu-accounts =
+    .label = Conturi
+    .accesskey =
+        { PLATFORM() ->
+            [linux] A
+           *[other] n
+        }
 menu-addons-and-themes =
     .label = Suplimente și teme
     .accesskey = A

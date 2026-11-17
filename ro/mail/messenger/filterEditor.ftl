@@ -34,6 +34,25 @@ filter-failure-move-failed = Mutarea a eșuat
 filter-failure-copy-failed = Copierea a eșuat
 filter-failure-action = Eșec de aplicare a acțiunii de filtrare
 # Variables:
+# $folder (String) - The URI of the destination folder.
+# $errorCode (String) - The hexadecimal error code for the batch.
+filter-copy-batch-failed = Nu s-a putut finaliza copierea mesajelor în { $folder }. Este posibil ca unele mesaje să fi fost copiate. Eroare: { $errorCode }. ID-uri mesaje solicitate: { filter-batch-message-ids }
+# Variables:
+# $folder (String) - The URI of the destination folder.
+# $errorCode (String) - The hexadecimal error code for the batch.
+filter-move-batch-failed = Nu s-a putut finaliza mutarea mesajelor în { $folder }. Este posibil ca unele mesaje să fi fost copiate fără să fi fost mutate din dosarul-sursă. Eroare: { $errorCode }. ID-uri mesaje solicitate: { filter-batch-message-ids }
+# Referenced by filter-copy-batch-failed and filter-move-batch-failed.
+# Variables:
+# $messageIds (String) - Up to 20 requested message IDs, separated by commas.
+# $count (Number) - The number of additional requested messages whose IDs are omitted.
+filter-batch-message-ids =
+    { $count ->
+        [0] { $messageIds }
+        [one] { $messageIds } și { $count } alt mesaj
+        [few] { $messageIds } și alte { $count } mesaje
+       *[other] { $messageIds } și alte { $count } de mesaje
+    }
+# Variables:
 # $filterName (String) - The name of the filter that was applied.
 # $author (String) - The sender of the message.
 # $subject (String) - The subject line of the message.
@@ -150,6 +169,10 @@ filter-running-message =
     Vrei să continui filtrarea?
 filter-stop-button = Oprește
 filter-continue-button = Continuă
+# Shown once at the end of a filter run the user started, when at least one
+# filter or action failed. The individual failures are in the filter log.
+filter-run-failed = Nu au putut fi aplicate unele filtre. Verifică jurnalul de filtre pentru detalii.
+filter-run-failed-open-log-button = Deschide jurnalul de filtre
 
 ## Filter Editor
 

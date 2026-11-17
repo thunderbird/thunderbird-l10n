@@ -15,6 +15,19 @@ messenger-save-message-failed = Nu se poate salva mesajul. Te rugăm să verific
 # Variables:
 # $filename (String) - Full path of the file that already exists.
 messenger-file-exists = { $filename } există deja. Vrei să-l înlocuiești?
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+folder-file-not-found = Nu s-a putut găsi fișierul pentru „{ $folder }” de pe { $server }. Restaurează dosarul sau alege alt dosar de destinație, apoi încearcă din nou.
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+folder-file-access-denied = Nu se poate accesa „{ $folder }” de pe { $server }. Verifică permisiunile fișierului din dosar și apoi încearcă din nou.
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+# $errorCode (String) - The hexadecimal filesystem error code.
+folder-file-error = Nu se poate accesa „{ $folder }” de pe { $server }. Verifică dacă fișierele dosarului sunt disponibile și cu drept de scriere, apoi încearcă din nou. Eroare: { $errorCode }
 
 ## Window controls
 
@@ -283,6 +296,8 @@ appmenu-save-as-file =
     .label = Fișier…
 appmenu-settings =
     .label = Setări
+appmenu-accounts =
+    .label = Conturi
 appmenu-addons-and-themes =
     .label = Suplimente și teme
 

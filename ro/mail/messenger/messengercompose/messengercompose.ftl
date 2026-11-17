@@ -102,6 +102,12 @@ compose-blocked-content-preferences-accesskey = P
 # $url - URL of the blocked resource
 compose-unblock-resource =
     .label = Deblochează { $url }
+menuitem-resize-header-area =
+    .label = Redimensionează zona de antet
+    .accesskey = R
+compose-header-area-splitter =
+    .aria-description = Folosește săgețile sus și jos pentru redimensionare, cu Shift pentru trepte mai  mari. Apasă Tab pentru mutare în editor sau Shift+Tab pentru mutare în Subiect.
+    .aria-label = Zonă antet
 
 ## Send Format
 
