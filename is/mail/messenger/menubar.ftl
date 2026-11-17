@@ -12,6 +12,13 @@ system-tray-app-name = { -brand-full-name }
 menu-tools-settings =
     .label = Stillingar
     .accesskey = i
+menu-accounts =
+    .label = Reikningar
+    .accesskey =
+        { PLATFORM() ->
+            [linux] a
+           *[other] n
+        }
 menu-addons-and-themes =
     .label = Viðbætur og þemu
     .accesskey = V

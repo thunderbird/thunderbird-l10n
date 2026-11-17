@@ -278,6 +278,8 @@ appmenu-save-as-file =
     .label = Skrá…
 appmenu-settings =
     .label = Stillingar
+appmenu-accounts =
+    .label = Reikningar
 appmenu-addons-and-themes =
     .label = Viðbætur og þemu
 
@@ -493,6 +495,8 @@ spaces-context-switch-tab-item =
     .label = Skipta yfir í { $tabName }
 settings-context-open-settings-item2 =
     .label = Stillingar
+settings-context-open-accounts-item =
+    .label = Reikningar
 settings-context-open-account-settings-item2 =
     .label = Stillingar reiknings
 settings-context-open-addons-item2 =

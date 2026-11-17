@@ -35,6 +35,7 @@ e2e-csr-include-email = Hafa tölvupóstfang ({ $email }) með í CSR (ráðlagt
 e2e-csr-success = Tókst að vista CSR í { $file }
 # $file A filename
 e2e-csr-failure = Tókst ekki að vista CSR í skrána { $file }
+e2e-default-message-encryption = Sjálfgefin dulritun skilaboða
 e2e-signing-description = Stafræn undirritun gerir viðtakendum kleift að staðfesta að skilaboðin hafi verið send af þér og að efni þeirra hafi ekki verið breytt. Dulrituð skilaboð eru sjálfgefið alltaf undirrituð.
 e2e-sign-message =
     .label = Undirrita ódulrituð skilaboð

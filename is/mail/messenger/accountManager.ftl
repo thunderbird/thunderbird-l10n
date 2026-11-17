@@ -36,3 +36,4 @@ panel-settings-spam = Stillingar fyrir ruslpóst
 # $account (String) - The account name.
 spam-settings-alert-message = Vandamál greindist í ruslpóststillingunum fyrir { $account }. Viltu yfirfara þær áður en þú vistar breytingarnar?
 open-settings-sidebar-button = Stillingar
+account-manager-document-title = Reikningar

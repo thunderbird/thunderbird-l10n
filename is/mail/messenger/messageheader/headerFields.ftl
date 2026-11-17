@@ -98,6 +98,11 @@ message-header-address-in-address-book-button =
 message-header-field-show-more = Meira
     .title = Sýna alla viðtakendur
 message-ids-field-show-more = Sýna meira
+# Button shown in place of hidden items in a header field.
+# $count (Number) - The number of hidden items the button will show.
+message-header-field-show-count-more =
+    .aria-label = Sýna { $count } í viðbót
+    .title = Sýna { $count } í viðbót
 message-ids-field-show-all = Birta allt
 
 ## Dark Message Mode

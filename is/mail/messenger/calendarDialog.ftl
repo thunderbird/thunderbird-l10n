@@ -11,6 +11,12 @@ calendar-dialog-close-button =
     .title = Loka
 calendar-event-create-edit-dialog =
     .aria-label = Atburður
+calendar-event-title-input-new =
+    .aria-label = Titill atburðar
+    .placeholder = Nýr atburður
+calendar-event-title-input-untitled =
+    .aria-label = Titill atburðar
+    .placeholder = Ónefndur atburður
 calendar-event-title-required = Nauðsynlegt
 calendar-event-title-too-long = Titill má ekki vera lengri en 180 stafir
 calendar-dialog-menu-button =
@@ -144,6 +150,13 @@ calendar-event-calendar-selector =
     .aria-label = Dagatal
 calendar-event-save = Vista
 calendar-event-saving = Vista…
+calendar-event-save-failed = Ekki var hægt að vista atburðinn. Reyndu aftur.
+calendar-event-calendar-unavailable = Þetta dagatal tekur ekki við nýjum atburðum. Veldu annað dagatal og reyndu aftur.
+calendar-event-availability-selector =
+    .aria-label = Framboð
+calendar-event-availability-default = Sjálfgefið
+calendar-event-availability-busy = Upptekin/n
+calendar-event-availability-free = Laus
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =
