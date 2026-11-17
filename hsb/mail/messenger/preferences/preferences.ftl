@@ -634,6 +634,7 @@ show-conversation-view-label =
     .label = Rozmołwny napohlad pokazać
     .accesskey = m
 conversation-view-preview-description = Tuta funkcije je hišće w zažnej fazy. Zeskupja podobne powěsće, ale móhła nic přeco kaž wočakowana fungować.
+conversation-view-settings-link = Konwersaciski napohlad we funkcijach Beta konfigurować
 conversation-view-checkbox-label =
     .label = Rozmołwny napohlad zmóžnić
     .accesskey = R

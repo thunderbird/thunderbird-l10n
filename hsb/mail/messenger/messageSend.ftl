@@ -90,6 +90,13 @@ smtp-auth-hint-plain-to-encrypt = Wuchadny serwer (SMTP) { $hostname } hesła z 
 smtp-auth-failure = Njeje móžno, wuchadny serwer (SMTP) { $hostname } awtentifikować. Prošu skontrolujće hesło, a přepruwujće ‘awtentifikacisku metodu’ w ‘Kontowe nastajenja | Wuchadny serwer (SMTP)’.
 # Variables:
 # $hostname - outgoing server hostname
+# $serverResponse - server response
+smtp-auth-oauth2-failure = Njeje móžno, na wuchadnym serwerje (SMTP) { $hostname } z pomocu OAuth2 awtentifikować. Serwer je wotmołwił: { $serverResponse }
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-oauth2-failure-no-response = Njeje móžno, na wuchadnym serwerje (SMTP) { $hostname } z pomocu OAuth2 awtentifikować.
+# Variables:
+# $hostname - outgoing server hostname
 smtp-auth-gssapi = Tiket Kerberos/GSSAPI njebu wot wuchadneho serwera (SMTP) { $hostname } akceptowany. Prošu skontrolujće, hač sće pola wobwoda Kerberos/GSSAPI přizjewjeny.
 # Variables:
 # $hostname - outgoing server hostname
