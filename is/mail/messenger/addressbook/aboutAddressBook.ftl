@@ -33,6 +33,10 @@ about-addressbook-card-count = Heildarfjöldi tengiliða í { $name }: { $count 
 # Variables:
 # $count (Number) - The number of contacts in all address books.
 about-addressbook-card-count-all = Heildarfjöldi tengiliða í öllum nafnaskrám: { $count }
+about-addressbook-books-context-new-contact =
+    .label = Nýr tengiliður
+about-addressbook-books-context-new-list =
+    .label = Nýr listi
 about-addressbook-books-context-properties =
     .label = Eiginleikar
 about-addressbook-books-context-edit-list =

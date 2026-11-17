@@ -11,12 +11,15 @@ calendar-dialog-close-button =
     .title = Loka
 calendar-event-create-edit-dialog =
     .aria-label = Atburður
+calendar-event-title-required = Nauðsynlegt
+calendar-event-title-too-long = Titill má ekki vera lengri en 180 stafir
 calendar-dialog-menu-button =
     .aria-label = Opna valmynd
     .title = Opna valmynd
 calendar-dialog-back-button =
     .aria-label = Til baka
     .title = Til baka
+calendar-event-create-edit-dialog-back-button = Til baka
 calendar-dialog-date-row-icon =
     .alt = Dagsetning og tími
 calendar-dialog-date-row-recurring-icon =
@@ -137,6 +140,10 @@ calendar-prompt-all-events =
 calendar-prompt-delete-button = Eyða
 calendar-dialog-edit-button = Breyta
 calendar-event-create-edit-save-button = Vista
+calendar-event-calendar-selector =
+    .aria-label = Dagatal
+calendar-event-save = Vista
+calendar-event-saving = Vista…
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =
