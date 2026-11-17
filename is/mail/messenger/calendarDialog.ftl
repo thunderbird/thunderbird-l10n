@@ -152,6 +152,9 @@ calendar-event-save = Vista
 calendar-event-saving = Vista…
 calendar-event-save-failed = Ekki var hægt að vista atburðinn. Reyndu aftur.
 calendar-event-calendar-unavailable = Þetta dagatal tekur ekki við nýjum atburðum. Veldu annað dagatal og reyndu aftur.
+# The status element announces Save progress and errors to screen readers.
+# Keep this message empty to clear the previous status text when Save is idle.
+calendar-event-save-idle = { "" }
 calendar-event-availability-selector =
     .aria-label = Framboð
 calendar-event-availability-default = Sjálfgefið

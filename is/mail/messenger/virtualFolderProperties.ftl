@@ -14,6 +14,11 @@ virtual-folder-sources-chosen =
        *[other] { $count } möppur valdar
     }
 virtual-folder-no-search-folders-selected = Þú verður að velja að minnsta eina möppu til að geta vistað möppuleit.
+virtual-folder-missing-value-title = Leitargildi vantar
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+virtual-folder-missing-value-rule = Sláðu inn gildi fyrir leitarorðið "{ $attribute } { $operator }" áður en þú vistar þessa leit.
 virtual-folder-properties-title = Ný vistuð leit
 # Variables:
 #   $folderName (String): The name of the saved search folder.

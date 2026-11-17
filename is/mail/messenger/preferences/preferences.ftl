@@ -34,6 +34,10 @@ category-sync =
 pane-qr-export-title = Útflutningur fyrir farsíma
 category-qr-export =
     .tooltiptext = Útflutningur fyrir farsíma
+pane-beta-features-title = Beta-þróunareiginleikar
+category-beta-features =
+    .tooltiptext = { pane-beta-features-title }
+experimental-features-legend = Tilraunakenndir eiginleikar
 general-language-and-fonts-header = Tungumál og letur
 general-email-notifications-header = Tölvupósttilkynningar
 general-incoming-mail-header = Póstur sem berst
@@ -119,6 +123,7 @@ update-in-progress-ok-button = Hen&da
 # Continue is the cancel button so pressing escape or using a platform standard
 # method of closing the UI will not discard the update.
 update-in-progress-cancel-button = &Halda áfram
+accounts-button = Reikningar
 account-button = Stillingar reiknings
 open-addons-sidebar-button = Viðbætur og þemu
 manual-storage-limit-label =

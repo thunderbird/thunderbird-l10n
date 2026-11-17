@@ -32,6 +32,16 @@ filter-failure-sending-reply-aborted = Hætt við að senda svar
 filter-failure-move-failed = Færsla mistókst
 filter-failure-copy-failed = Afritun mistókst
 filter-failure-action = Mistókst að beita síuaðgerðinni
+# Referenced by filter-copy-batch-failed and filter-move-batch-failed.
+# Variables:
+# $messageIds (String) - Up to 20 requested message IDs, separated by commas.
+# $count (Number) - The number of additional requested messages whose IDs are omitted.
+filter-batch-message-ids =
+    { $count ->
+        [0] { $messageIds }
+        [one] { $messageIds } og { $count } skilaboð til viðbótar
+       *[other] { $messageIds } og { $count } skilaboð til viðbótar
+    }
 # Variables:
 # $filterName (String) - The name of the filter that was applied.
 # $author (String) - The sender of the message.

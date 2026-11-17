@@ -267,6 +267,7 @@ message-verification-request2 = { $user } vill staðfesta { $userReceiving }.
 #    $reason is the reason given why the verification was cancelled.
 message-verification-cancel2 = { $user } hætti við staðfestinguna með ástæðunni: { $reason }
 message-verification-done = Staðfestingu lokið.
+message-decryption-error2 = Ekki tókst að afkóða efni þessa skilaboða. Beðið verður aftur sjálfkrafa um dulritunarlykla.
 message-decryption-error = Ekki tókst að afkóða innihald þessara skilaboða. Til að biðja um dulritunarlykla frá öðrum tækjum þínum skaltu hægrismella á þessi skilaboð.
 message-decrypting = Afkóðar...
 message-redacted = Skilaboðin voru ritstýrð.
