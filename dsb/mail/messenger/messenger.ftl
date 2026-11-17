@@ -23,6 +23,11 @@ folder-file-not-found = Dataja za “{ $folder }” na { $server } njedajo se na
 # $folder (String) - The path of the destination folder within its account.
 # $server (String) - The name of the account containing the folder.
 folder-file-access-denied = Pśistup k “{ $folder }” na { $server } njejo móžny. Pśeglědajśo datajowe pšawa zarědnika a wopytajśo pón hyšći raz.
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+# $errorCode (String) - The hexadecimal filesystem error code.
+folder-file-error = Pśistup k “{ $folder }” na { $server } njejo móžny. Kontrolěrujśo, lěc dataje zarědnika su k dispoziciji a daju se pópisaś a wopytajśo pón hyšći raz. Zmólka: { $errorCode }
 
 ## Window controls
 

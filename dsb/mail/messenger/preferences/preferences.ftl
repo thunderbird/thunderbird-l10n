@@ -634,6 +634,7 @@ show-conversation-view-label =
     .label = Rozgronowy naglěd pokazaś
     .accesskey = z
 conversation-view-preview-description = Toś ta funkcije jo hyšći w jěsnej fazy. Rědujo pódobne powěsći, ale mógła nic pśecej ako wótcakana funkcioněrowaś.
+conversation-view-settings-link = Konwersaciski naglěd we funkcijach Beta konfigurěrowaś
 conversation-view-checkbox-label =
     .label = Rozgronowy naglěd zmóžniś
     .accesskey = R
@@ -681,6 +682,7 @@ new-calendar-legend = Dialog za nowy kalendarjowe tšojenje
 new-calendar-checkbox-label =
     .label = Kalendarjowe tšojenja w nowem dialogu pokazaś
 new-calendar-checkbox-description = Eksperimentelny nowy kalendarjowy dialog za pokazowanje tšojenjow
+new-calendar-dialog-settings-link = Dialog za nowe kalenderowe tšojenja we funkcijach Beta konfigurěrowaś
 
 ## Compose Tab
 
