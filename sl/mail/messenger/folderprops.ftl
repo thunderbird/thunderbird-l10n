@@ -38,6 +38,7 @@ folder-props-check-for-new-messages =
     .label = Ob prejemu novih sporočil za ta račun vedno preveri to mapo
     .accesskey = u
 folder-props-rebuild-summary-explanation = Včasih se kazalo za mapo (. MSF) poškoduje in je videti, kot da sporočila manjkajo ali pa se izbrisana sporočila zopet pojavijo; če mapo popravite, teh problemov verjetno ne bo več.
+folder-props-rebuild-summary-confirm-title = Popravi mapo
 
 ## Retention tab (see retention.ftl)
 ##

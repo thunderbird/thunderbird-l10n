@@ -5,12 +5,20 @@
 toolbar-context-menu-menu-bar =
     .toolbarname = Vrstica z menijem
     .accesskey = m
+system-tray-app-name = { -brand-full-name }
 
 ## Tools Menu
 
 menu-tools-settings =
     .label = Nastavitve
     .accesskey = t
+menu-accounts =
+    .label = Računi
+    .accesskey =
+        { PLATFORM() ->
+            [linux] a
+           *[other] n
+        }
 menu-addons-and-themes =
     .label = Dodatki in teme
     .accesskey = D
@@ -156,6 +164,9 @@ file-new-newsgroup-account =
 file-new-addressbook =
     .label = Imenik
     .accesskey = I
+file-new-mailing-list =
+    .label = Dopisni seznam …
+    .accesskey = D
 file-new-local-addressbook =
     .label = Krajevni imenik
     .accesskey = i
