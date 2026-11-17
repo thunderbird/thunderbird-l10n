@@ -15,6 +15,19 @@ messenger-save-message-failed = It is net slagge om it berjocht te bewarjen. Kon
 # Variables:
 # $filename (String) - Full path of the file that already exists.
 messenger-file-exists = { $filename } bestiet al. Wolle jo it ferfange?
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+folder-file-not-found = It bestân foar ‘{ $folder }’ op { $server } kin net fûn wurde. Werstel it bestân of kies in oare doelmap, en probearje it dan opnij.
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+folder-file-access-denied = Kin gjin tagong krije ta ‘{ $folder }’ op { $server }. Kontrolearje de bestânsrjochten fan de map en probearje it opnij.
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+# $errorCode (String) - The hexadecimal filesystem error code.
+folder-file-error = Kin gjin tagong krije ta ‘{ $folder }’ op { $server }. Kontrolearje oft de bestannen yn de map beskikber en beskriuwber binne, en probearje it opnij. Flater: { $errorCode }
 
 ## Window controls
 

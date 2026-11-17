@@ -90,6 +90,13 @@ smtp-auth-hint-plain-to-encrypt = De útgeande (SMTP-)server { $hostname } stiet
 smtp-auth-failure = Kin net autentisearje by útgeande (SMTP-)server { $hostname }. Kontrolearje it wachtwurd en ferifiearje de ‘Autentikaasjemetoade’ yn de ‘Accountynstellingen | Utgeande server (SMTP)’.
 # Variables:
 # $hostname - outgoing server hostname
+# $serverResponse - server response
+smtp-auth-oauth2-failure = Kin net autentisearje by de útgeande  (SMTP-)server { $hostname } fia OAuth2. De server antwurde: { $serverResponse }
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-oauth2-failure-no-response = Kin net autentisearje by útgeande  (SMTP-)server { $hostname } fia OAuth2.
+# Variables:
+# $hostname - outgoing server hostname
 smtp-auth-gssapi = It Kerberos/GSSAPI-ticket waard net akseptearre troch de útgeande (SMTP-)server { $hostname }. Kontrolearje oft jo by de Kerberos/GSSAPI-realm oanmeld binne.
 # Variables:
 # $hostname - outgoing server hostname

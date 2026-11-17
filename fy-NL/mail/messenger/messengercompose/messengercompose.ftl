@@ -102,6 +102,12 @@ compose-blocked-content-preferences-accesskey = F
 # $url - URL of the blocked resource
 compose-unblock-resource =
     .label = { $url } deblokkearje
+menuitem-resize-header-area =
+    .label = Formaat fan headergebied wizigje
+    .accesskey = w
+compose-header-area-splitter =
+    .aria-description = Brûk Omheech en Omleech om de grutte oan te passen, mei Shift foar gruttere stappen. Druk op Tab om nei de bewurker te gean of Shift+Tab om nei Underwerp te gean.
+    .aria-label = Koptekstgebiet
 
 ## Send Format
 

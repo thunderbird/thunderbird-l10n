@@ -32,6 +32,14 @@ filter-failure-sending-reply-aborted = Antwurd ferstjoere ôfbrutsen
 filter-failure-move-failed = Ferpleatsen mislearre
 filter-failure-copy-failed = Kopiearjen mislearre
 filter-failure-action = De filteraksje is net tapast
+# Variables:
+# $folder (String) - The URI of the destination folder.
+# $errorCode (String) - The hexadecimal error code for the batch.
+filter-copy-batch-failed = Kin kopiearjen fan berjochten nei { $folder } net foltôgje. Guon berjochten binne mooglik kopiearre. Flater: { $errorCode }. Oanfrege berjocht-ID’s: { filter-batch-message-ids }
+# Variables:
+# $folder (String) - The URI of the destination folder.
+# $errorCode (String) - The hexadecimal error code for the batch.
+filter-move-batch-failed = Kin ferpleatsen fan berjochten nei { $folder } net foltôgje. Guon berjochten binne mooglik kopiearre sûnder dat se út de boarnemap fuortsmiten binne. Flater: { $errorCode }. Oanfrege berjocht-ID’s: { filter-batch-message-ids }
 # Referenced by filter-copy-batch-failed and filter-move-batch-failed.
 # Variables:
 # $messageIds (String) - Up to 20 requested message IDs, separated by commas.
