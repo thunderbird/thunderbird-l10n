@@ -682,6 +682,7 @@ new-calendar-legend = Dialog za nowy protykowy podawk
 new-calendar-checkbox-label =
     .label = Protykowe podawki w nowym dialogu pokazać
 new-calendar-checkbox-description = Eksperimentelny nowy protykowy dialog za pokazowanje podawkow
+new-calendar-dialog-settings-link = Dialog za nowe protykowe podawki we funkcijach Beta konfigurować
 
 ## Compose Tab
 
