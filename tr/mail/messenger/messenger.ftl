@@ -15,6 +15,19 @@ messenger-save-message-failed = İleti kaydedilemedi. Lütfen dosya adını kont
 # Variables:
 # $filename (String) - Full path of the file that already exists.
 messenger-file-exists = { $filename } zaten mevcut. Üstüne yazmak ister misiniz?
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+folder-file-not-found = “{ $folder }” klasörünün dosyası { $server } sunucusunda bulunamadı. Dosyayı geri yükleyin veya farklı bir hedef klasör seçip yeniden deneyin.
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+folder-file-access-denied = { $server } üzerindeki “{ $folder }” klasörüne erişilemiyor. Klasörün dosya izinlerini kontrol edip yeniden deneyin.
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+# $errorCode (String) - The hexadecimal filesystem error code.
+folder-file-error = { $server } üzerindeki “{ $folder }” klasörüne erişilemiyor. Klasördeki dosyaların erişilebilir ve yazılabilir olduğundan emin olup yeniden deneyin. Hata: { $errorCode }
 
 ## Window controls
 
