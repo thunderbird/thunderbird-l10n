@@ -36,6 +36,7 @@ policy-DisableFeedbackCommands = Dezactivează comenzile de transmitere de feedb
 policy-DisableFileLink = Dezactivează funcția Filelink.
 policy-DisableForgetButton = Împiedică accesul la butonul Uitare.
 policy-DisableFormHistory = Nu memora istoricul căutărilor și formularelor.
+policy-DisableMacOSUserPolicies = Ignoră politicile din preferințele utilizatorului și din profilurile de configurare de către utilizator pe macOS.
 policy-DisableMasterPasswordCreation = Dacă este adevărat, nu se poate crea o parolă generală.
 policy-DisableMessageForwardingFilters = Blochează redirecționarea automată a mesajelor prin filtrele de mesaje.
 policy-DisablePasswordReveal2 = Nu permite afișarea parolelor în date de autentificare salvate sau în câmpuri pentru parolă.

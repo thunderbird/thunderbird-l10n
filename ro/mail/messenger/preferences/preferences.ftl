@@ -10,6 +10,9 @@ category-list =
 pane-general-title = General
 category-general =
     .tooltiptext = { pane-general-title }
+pane-notifications-title = Notificări
+category-notifications =
+    .tooltiptext = { pane-notifications-title }
 pane-appearance-title = Aspect
 category-appearance =
     .tooltiptext = { pane-appearance-title }
@@ -31,6 +34,10 @@ category-sync =
 pane-qr-export-title = Export pentru mobil
 category-qr-export =
     .tooltiptext = Export pentru mobil
+pane-beta-features-title = Funcționalități Beta
+category-beta-features =
+    .tooltiptext = { pane-beta-features-title }
+experimental-features-legend = Funcționalități experimentale
 general-language-and-fonts-header = Limbă și fonturi
 general-email-notifications-header = Notificări prin e-mail
 general-incoming-mail-header = Mesaje primite
@@ -116,6 +123,7 @@ update-in-progress-ok-button = E&limină
 # Continue is the cancel button so pressing escape or using a platform standard
 # method of closing the UI will not discard the update.
 update-in-progress-cancel-button = C&ontinuă
+accounts-button = Conturi
 account-button = Setări cont
 open-addons-sidebar-button = Suplimente și teme
 manual-storage-limit-label =
@@ -626,6 +634,7 @@ show-conversation-view-label =
     .label = Afișare tip conversație
     .accesskey = c
 conversation-view-preview-description = Este o funcționalitate de previzualizare timpurie. Grupează mesaje corelate, dar este posibil să nu funcționeze întotdeauna conform așteptărilor.
+conversation-view-settings-link = Configurează afișarea conversațiilor în funcționalități Beta
 conversation-view-checkbox-label =
     .label = Activează vizualizarea tip conversație
     .accesskey = c
@@ -673,6 +682,7 @@ new-calendar-legend = Fereastră de dialog pentru eveniment nou din calendar
 new-calendar-checkbox-label =
     .label = Afișează evenimentele din calendar în noua fereastră de dialog
 new-calendar-checkbox-description = Fereastră de dialog în versiune experimentală pentru vizualizarea evenimentelor din calendar
+new-calendar-dialog-settings-link = Configurează caseta de dialog pentru evenimente noi în calendar în funcționalități Beta
 
 ## Compose Tab
 

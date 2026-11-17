@@ -15,6 +15,11 @@ virtual-folder-sources-chosen =
        *[other] { $count } dosare alese
     }
 virtual-folder-no-search-folders-selected = Trebuie să alegi cel puțin un dosar în care să cauți pentru fișierele salvate.
+virtual-folder-missing-value-title = Valoare de căutare lipsă
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+virtual-folder-missing-value-rule = Introdu o valoare pentru termenul de căutare „{ $attribute } { $operator }” înainte de a salva căutarea.
 virtual-folder-properties-title = Dosar nou pentru o căutare salvată
 # Variables:
 #   $folderName (String): The name of the saved search folder.

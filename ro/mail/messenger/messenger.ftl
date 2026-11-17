@@ -482,6 +482,10 @@ decrypt-and-copy-failures-multiple =
         [few] { $failures } din { $total } mesaje nu au putut fi decriptate și nu au fost copiate.
        *[other] { $failures } din { $total } de mesaje nu au putut fi decriptate și nu au fost copiate.
     }
+# Shown once at the end of a filter run the user started from the message
+# list, when at least one filter or action failed.
+apply-filters-failed = Aplicarea filtrului nu a fost finalizată cu succes. Verifică jurnalul de filtre pentru detalii.
+apply-filters-failed-open-log-button = Deschide jurnalul de filtre
 
 ## Spaces toolbar
 
@@ -517,6 +521,8 @@ spaces-context-switch-tab-item =
     .label = Treci la { $tabName }
 settings-context-open-settings-item2 =
     .label = Setări
+settings-context-open-accounts-item =
+    .label = Conturi
 settings-context-open-account-settings-item2 =
     .label = Setări cont
 settings-context-open-addons-item2 =
