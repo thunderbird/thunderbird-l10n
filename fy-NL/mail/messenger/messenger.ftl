@@ -278,6 +278,8 @@ appmenu-save-as-file =
     .label = Bestân…
 appmenu-settings =
     .label = Ynstellingen
+appmenu-accounts =
+    .label = Accounts
 appmenu-addons-and-themes =
     .label = Add-ons en tema’s
 
@@ -497,6 +499,8 @@ spaces-context-switch-tab-item =
     .label = Wikselje nei { $tabName }
 settings-context-open-settings-item2 =
     .label = Ynstellingen
+settings-context-open-accounts-item =
+    .label = Accounts
 settings-context-open-account-settings-item2 =
     .label = Accountynstellingen
 settings-context-open-addons-item2 =

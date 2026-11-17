@@ -32,6 +32,16 @@ filter-failure-sending-reply-aborted = Antwurd ferstjoere ôfbrutsen
 filter-failure-move-failed = Ferpleatsen mislearre
 filter-failure-copy-failed = Kopiearjen mislearre
 filter-failure-action = De filteraksje is net tapast
+# Referenced by filter-copy-batch-failed and filter-move-batch-failed.
+# Variables:
+# $messageIds (String) - Up to 20 requested message IDs, separated by commas.
+# $count (Number) - The number of additional requested messages whose IDs are omitted.
+filter-batch-message-ids =
+    { $count ->
+        [0] { $messageIds }
+        [one] { $messageIds }, en noch { $count } berjocht
+       *[other] { $messageIds }, en noch { $count } berjochten
+    }
 # Variables:
 # $filterName (String) - The name of the filter that was applied.
 # $author (String) - The sender of the message.

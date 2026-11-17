@@ -10,6 +10,9 @@ category-list =
 pane-general-title = Algemien
 category-general =
     .tooltiptext = { pane-general-title }
+pane-notifications-title = Notifikaasjes
+category-notifications =
+    .tooltiptext = { pane-notifications-title }
 pane-appearance-title = Uterlik
 category-appearance =
     .tooltiptext = { pane-appearance-title }
@@ -31,6 +34,10 @@ category-sync =
 pane-qr-export-title = Eksportearje foar mobyl
 category-qr-export =
     .tooltiptext = Eksportearje foar mobyl
+pane-beta-features-title = Betafunksjes
+category-beta-features =
+    .tooltiptext = { pane-beta-features-title }
+experimental-features-legend = Eksperimintele funksjes
 general-language-and-fonts-header = Taal en lettertypen
 general-email-notifications-header = E-mailnotifikaasjes
 general-incoming-mail-header = Ynkommende e-mailberjochten:
@@ -116,6 +123,7 @@ update-in-progress-ok-button = &Ferwerpe
 # Continue is the cancel button so pressing escape or using a platform standard
 # method of closing the UI will not discard the update.
 update-in-progress-cancel-button = &Trochgean
+accounts-button = Accounts
 account-button = Accountynstellingen
 open-addons-sidebar-button = Add-ons en tema’s
 manual-storage-limit-label =
@@ -626,6 +634,7 @@ show-conversation-view-label =
     .label = Konversaasjewerjefte toane
     .accesskey = K
 conversation-view-preview-description = Dit is in iere foarbyldfunksje. It groepearret relatearre berjochten, mar it wurket miskien net altyd sa’t ferwachte.
+conversation-view-settings-link = Petearwerjefte konfigurearje yn Betafunksjes
 conversation-view-checkbox-label =
     .label = Petearwerjefte ynskeakelje
     .accesskey = P
@@ -673,6 +682,7 @@ new-calendar-legend = Dialoochfinster Nije aginda-barren
 new-calendar-checkbox-label =
     .label = Aginda-barrens yn it nije dialoochfinster besjen
 new-calendar-checkbox-description = Eksperiminteel nij agindadialoochfinster foar it besjen fan barrens
+new-calendar-dialog-settings-link = Dialoochfinster Nij aginda-barren konfigurearje yn Betafunksjes
 
 ## Compose Tab
 

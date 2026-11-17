@@ -96,6 +96,7 @@ imip-bar-counter-text = Dit berjocht befettet in nij foarstel foar in útnûging
 imip-bar-disallowed-counter-text = Dit berjocht befettet in nij foarstel foar in útnûging ek al hawwe jo nije foarstellen foar dit evenemint net tastien.
 imip-bar-decline-counter-text = Dit berjocht befettet in antwurd op jo nije foarstel.
 imip-bar-refresh-text = Dit berjocht hat in barrensfraach.
+imip-bar-refresh-not-attendee-text = Dit berjocht freget om it bywurkjen fan in barren, mar it is net ferstjoerd troch in dielnimmer oan it barren.
 imip-bar-publish-text = Dit berjocht hat in barren.
 imip-bar-request-text = Dit berjocht hat in útnûging foar in barren.
 imip-bar-sent-text = Dit berjocht befettet in ferstjoerd barren.
