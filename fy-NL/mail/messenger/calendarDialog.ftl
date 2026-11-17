@@ -152,6 +152,9 @@ calendar-event-save = Bewarje
 calendar-event-saving = Bewarje…
 calendar-event-save-failed = It barren koe net bewarre wurde. Probearje it opnij.
 calendar-event-calendar-unavailable = Dizze aginda akseptearret gjin nije ôfspraken. Selektearje in oare aginda en probearje it opnij.
+# The status element announces Save progress and errors to screen readers.
+# Keep this message empty to clear the previous status text when Save is idle.
+calendar-event-save-idle = { "" }
 calendar-event-availability-selector =
     .aria-label = Beskikberheid
 calendar-event-availability-default = Standert
