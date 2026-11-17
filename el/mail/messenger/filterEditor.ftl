@@ -49,7 +49,7 @@ copied-message-log = αντιγράφηκε το μήνυμα με id={ $id } σ
 filter-missing-custom-action = Λείπει προσαρμοσμένη ενέργεια
 filter-action-log-priority = η προτεραιότητα άλλαξε
 filter-action-log-deleted = διαγράφηκε
-filter-action-log-read = σημειώθηκε ως αναγνωσμένο
+filter-action-log-read = επισημάνθηκε ως αναγνωσμένο
 filter-action-log-kill = το νήμα τερματίστηκε
 filter-action-log-watch = το νήμα παρακολουθείται
 filter-action-log-starred = με αστέρι
@@ -62,7 +62,7 @@ filter-action-log-spam = βαθμολογία ανεπιθύμητων
 filter-action-log-pop3-fetch = έγινε λήψη σώματος από διακομιστή POP3
 filter-action-log-tagged = με ετικέτα
 filter-action-log-ignore-subthread = αγνοημένο υπονήμα
-filter-action-log-unread = σημειώθηκε ως μη αναγνωσμένο
+filter-action-log-unread = επισημάνθηκε ως μη αναγνωσμένο
 # Variables:
 # $timestamp (String) - The timestamp of the log entry.
 # $message (String) - The actual log message.
