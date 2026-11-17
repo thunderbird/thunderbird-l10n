@@ -33,6 +33,10 @@ about-addressbook-card-count = Skupaj stikov v imeniku { $name }: { $count }
 # Variables:
 # $count (Number) - The number of contacts in all address books.
 about-addressbook-card-count-all = Skupaj stikov v vseh imenikih: { $count }
+about-addressbook-books-context-new-contact =
+    .label = Nov stik
+about-addressbook-books-context-new-list =
+    .label = Nov seznam
 about-addressbook-books-context-properties =
     .label = Lastnosti
 about-addressbook-books-context-edit-list =
