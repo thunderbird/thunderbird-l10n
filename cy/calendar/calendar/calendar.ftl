@@ -129,8 +129,12 @@ timezone-error = Cafwyd cylch amser anhysbys ac anniffiniedig wrth ddarllen { $f
 #    $filePath will be replaced with a file path pointing to a calendar
 duplicate-error =
     { $count ->
-        [one] Anwybyddwyd { $count } eitem(au) am eu bod yn bodoli yn y calendr cyrchfan ac yn { $filePath }.
-       *[other] Anwybyddwyd { $count } eitem(au) am eu bod yn bodoli yn y calendr cyrchfan ac yn { $filePath }.
+        [one] Anwybyddwyd { $count } eitem(au) gan eu bod yn bodoli yn y calendr cyrchfan a { $filePath }.
+        [zero] Anwybyddwyd { $count } eitem(au) gan eu bod yn bodoli yn y calendr cyrchfan a { $filePath }.
+        [two] Anwybyddwyd { $count } eitem(au) gan eu bod yn bodoli yn y calendr cyrchfan a { $filePath }.
+        [few] Anwybyddwyd { $count } eitem(au) gan eu bod yn bodoli yn y calendr cyrchfan a { $filePath }.
+        [many] Anwybyddwyd { $count } eitem(au) gan eu bod yn bodoli yn y calendr cyrchfan a { $filePath }.
+       *[other] Anwybyddwyd { $count } eitem(au) gan eu bod yn bodoli yn y calendr cyrchfan a { $filePath }.
     }
 # $location unknown calendar location
 unable-to-create-provider = Digwyddodd gwall wrth baratoi'r calendr sydd yn { $location } ar gyfer ei ddefnyddio. Ni fydd ar gael.
@@ -439,9 +443,12 @@ alarm-default-summary = Crynodeb Mozilla Rhagosodedig
 # $count number of months
 alarm-snooze-limit-exceeded =
     { $count ->
-        [zero] Nid oes modd i chi huno larwm am fwy nag { $count } mis.
-        [one] Nid oes modd i chi huno larwm am fwy na { $count } mis.
-       *[other] Nid oes modd i chi huno larwm am fwy na { $count } mis.
+        [one] Allwch chi ddim ailatgoffa larwm am fwy na { $count } mis.
+        [zero] Allwch chi ddim ailatgoffa larwm am fwy na { $count } mis.
+        [two] Allwch chi ddim ailatgoffa larwm am fwy na { $count } mis.
+        [few] Allwch chi ddim ailatgoffa larwm am fwy na { $count } mis.
+        [many] Allwch chi ddim ailatgoffa larwm am fwy na { $count } mis.
+       *[other] Allwch chi ddim ailatgoffa larwm am fwy na { $count } mis.
     }
 task-details-status-needs-action = Angen Gweithredu
 # LOCALIZATION NOTE (task-details-status-in-progress):
@@ -555,8 +562,11 @@ due-in-days =
 # $count count
 due-in-hours =
     { $count ->
-        [zero] { $count } awr
         [one] { $count } awr
+        [zero] { $count } awr
+        [two] { $count } awr
+        [few] { $count } awr
+        [many] { $count } awr
        *[other] { $count } awr
     }
 due-in-less-than-one-hour = < 1 awr

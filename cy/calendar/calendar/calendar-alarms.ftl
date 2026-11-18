@@ -37,16 +37,22 @@ reminder-custom-origin-end-after-task-dom =
 # $count max count
 reminder-error-max-count-reached-event =
     { $count ->
-        [zero] Mae gan y calendr gyfyngiad o { $count } rhybuddion i bob digwyddiad.
-        [one] Mae gan y calendr gyfyngiad o { $count } rhybudd i bob digwyddiad.
-       *[other] Mae gan y calendr gyfyngiad o { $count } rhybudd i bob digwyddiad.
+        [one] Mae gan y calendr a ddewiswyd gyfyngiad o { $count } nodyn atgoffa fesul digwyddiad.
+        [zero] Mae gan y calendr a ddewiswyd gyfyngiad o { $count } nodyn atgoffa fesul digwyddiad.
+        [two] Mae gan y calendr a ddewiswyd gyfyngiad o { $count } nodyn atgoffa fesul digwyddiad.
+        [few] Mae gan y calendr a ddewiswyd gyfyngiad o { $count } nodyn atgoffa fesul digwyddiad.
+        [many] Mae gan y calendr a ddewiswyd gyfyngiad o { $count } nodyn atgoffa fesul digwyddiad.
+       *[other] Mae gan y calendr a ddewiswyd gyfyngiad o { $count } nodyn atgoffa fesul digwyddiad.
     }
 # $count max count
 reminder-error-max-count-reached-task =
     { $count ->
-        [zero] Mae gan y calendr gyfyngiad o { $count } rhybudd i bob tasg.
-        [one] Mae gan y calendr gyfyngiad o { $count } rhybudd i bob tasg.
-       *[other] Mae gan y calendr gyfyngiad o { $count } rhybudd i bob tasg.
+        [one] Mae gan y calendr a ddewiswyd gyfyngiad o { $count } nodyn atgoffa fesul tasg.
+        [zero] Mae gan y calendr a ddewiswyd gyfyngiad o { $count } nodyn atgoffa fesul tasg.
+        [two] Mae gan y calendr a ddewiswyd gyfyngiad o { $count } nodyn atgoffa fesul tasg.
+        [few] Mae gan y calendr a ddewiswyd gyfyngiad o { $count } nodyn atgoffa fesul tasg.
+        [many] Mae gan y calendr a ddewiswyd gyfyngiad o { $count } nodyn atgoffa fesul tasg.
+       *[other] Mae gan y calendr a ddewiswyd gyfyngiad o { $count } nodyn atgoffa fesul tasg.
     }
 # LOCALIZATION NOTE (reminder-readonly-notification)
 # This notification will be presented in the alarm dialog if reminders for not
