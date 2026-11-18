@@ -136,18 +136,30 @@ unable-to-create-provider = Kalendāra, kas atrodas { $location }, sagatavošana
 # $timezone timezone name, $title item title, $datetime date-time
 unknown-timezone-in-item = “{ $title }” ir nezināma laika josla “{ $timezone }”. Tā tiek uzskatīt par “peldošu” vietējo laika joslu: { $datetime }
 timezone-errors-alert-title = Laika joslas kļūdas
+timezone-errors-see-console = Skatiet kļūdu konsoli: neatpazītas laika joslas tiek interpretētas kā “peldošā” vietējā laika josla.
 # The following strings are for the prompt to delete/unsubscribe from the calendar
 remove-calendar-title = Noņemt kalendāru
 remove-calendar-button-delete = Izdzēst kalendāru
+remove-calendar-button-unsubscribe = Atteikties no abonēšanas
+# LOCALIZATION NOTE (remove-calendar-message-delete-or-unsubscribe): Shown for
+# calendar where both deleting and unsubscribing is possible.
+# $name:  The name of a calendar
+remove-calendar-message-delete-or-unsubscribe = Vai vēlaties noņemt kalendāru “{ $name }”? Atsakoties no abonēšanas, kalendārs tiks noņemts no saraksta, savukārt dzēšot tiks neatgriezeniski izdzēsti arī tā dati.
 # LOCALIZATION NOTE (remove-calendar-message-delete): Shown for calendar where
 # deleting is the only option.
 # $name:  The name of a calendar
 remove-calendar-message-delete = Vai tiešām neatgriezeniski izdzēst kalendāru “{ $name }”?
+# LOCALIZATION NOTE (remove-calendar-message-unsubscribe): Shown for calendar
+# where unsubscribing is the only option.
+# $name:  The name of a calendar
+remove-calendar-message-unsubscribe = Vai vēlaties anulēt kalendāra “{ $name }” abonementu?
 # $title title
 week-title = { $title }. nedēļa
 # $title title
 week-title-label =
     .aria-label = { $title }. nedēļa
+calendar-none =
+    .label = Neviens
 # Variables:
 #   $fileName (String) - The backup file name, e.g. 'local-2020-05-11T21-30-17.sqlite'.
 too-new-dbschema-error-text = Jūsu kalendāra dati nav saderīgi ar šo { -brand-short-name } versiju. Jūsu profila kalendāra dati ir atjaunināti, izmantojot jaunāku { -brand-short-name } versiju. Ir izveidota datu faila dublējumkopija ar nosaukumu “{ $fileName }”. Turpinām ar jaunizveidotu datu failu.
@@ -159,9 +171,31 @@ imip-bar-unsupported-text = Šajā ziņojumā ir ietverts notikums, ko šī { -b
 #    $hostApplication will be replaced with the name of the host application, e.g. 'Thunderbird'
 #    $fileName will be replaced with the name of the new copy of the file, e.g. 'local-2020-05-11T21-30-17.sqlite'
 too-new-schema-error-text = Jūsu kalendāra dati nav saderīgi ar šo { $hostApplication } versiju. Jūsu profilā esošie kalendāra dati ir atjaunināti, izmantojot jaunāku { $hostApplication } versiju. Ir izveidota datu faila dublējumkopija ar nosaukumu “{ $fileName }”. Turpināsim ar svaigi izveidotu datu failu.
+# List of events or todos (unifinder)
+event-untitled = Bez nosaukuma
+# Tooltips of events or todos
+tooltip-title = Virsraksts:
+tooltip-location = Atrašanās vieta:
+# event date, usually an interval, such as
+#  Date: 7:00--8:00 Thu 9 Oct 2011
+#  Date: Thu 9 Oct 2000 -- Fri 10 Oct 2000
+tooltip-date = Datums:
 # event calendar name
 tooltip-cal-name = Kalendāra nosaukums:
+# event status: tentative, confirmed, cancelled
+tooltip-status = Statuss:
+# event organizer
+tooltip-organizer = Organizators:
+# task/todo fields
+# start date time, due date time, task priority number, completed date time
+tooltip-start = Sākums:
 tooltip-due = Paredzēts:
+tooltip-priority = Prioritāte:
+tooltip-percent = Pabeigts %:
+tooltip-completed = Pabeigts:
+# File commands and dialogs
+calendar-new = Jauns
+calendar-open = Atvērt
 filepicker-title-import = Ievietot
 filepicker-title-export = Izgūt
 item-modified-on-server-title = Vienums ir izmainīts serverī

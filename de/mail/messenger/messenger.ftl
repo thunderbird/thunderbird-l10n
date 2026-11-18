@@ -621,7 +621,7 @@ menu-delete-spam =
 
 folder-context-empty-spam =
     .label = Spam leeren
-    .accesskey = S
+    .accesskey = l
 
 ## Thread pane.
 
