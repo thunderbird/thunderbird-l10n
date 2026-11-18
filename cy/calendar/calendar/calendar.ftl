@@ -443,12 +443,12 @@ alarm-default-summary = Crynodeb Mozilla Rhagosodedig
 # $count number of months
 alarm-snooze-limit-exceeded =
     { $count ->
-        [one] Allwch chi ddim ailatgoffa larwm am fwy na { $count } mis.
-        [zero] Allwch chi ddim ailatgoffa larwm am fwy na { $count } mis.
-        [two] Allwch chi ddim ailatgoffa larwm am fwy na { $count } mis.
-        [few] Allwch chi ddim ailatgoffa larwm am fwy na { $count } mis.
-        [many] Allwch chi ddim ailatgoffa larwm am fwy na { $count } mis.
-       *[other] Allwch chi ddim ailatgoffa larwm am fwy na { $count } mis.
+        [one] Does dim modd cysgu larwm am fwy na { $count } mis.
+        [zero] Does dim modd cysgu larwm am fwy na { $count } mis.
+        [two] Does dim modd cysgu larwm am fwy na { $count } mis.
+        [few] Does dim modd cysgu larwm am fwy na { $count } mis.
+        [many] Does dim modd cysgu larwm am fwy na { $count } mis.
+       *[other] Does dim modd cysgu larwm am fwy na { $count } mis.
     }
 task-details-status-needs-action = Angen Gweithredu
 # LOCALIZATION NOTE (task-details-status-in-progress):
@@ -631,12 +631,12 @@ delete-event =
 calendar-properties-every-minute =
     .label =
         { $count ->
-            [one] Pob munud
-            [zero] Pob { $count } munud
-            [two] Pob { $count } munud
-            [few] Pob { $count } munud
-            [many] Pob { $count } munud
-           *[other] Pob { $count } munud
+            [one] Bob munud
+            [zero] Bob { $count } munud
+            [two] Bob { $count } funud
+            [few] Bob { $count } munud
+            [many] Bob { $count } munud
+           *[other] Bob { $count } munud
         }
 # LOCALIZATION NOTE (extract-using)
 # Used in message header

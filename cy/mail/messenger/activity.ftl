@@ -57,12 +57,12 @@ copied-messages-from-folder =
 #   $percentComplete - percentage of indexing that is complete
 gloda-indexing-status-exact =
     { $count ->
-        [one] Wrthi'n mynegeio { $msgNumber } o { $count } neges
-        [zero] Wrthi'n mynegeio { $msgNumber } o { $count } neges ({ $percentComplete }% wedi'i gwblhau)
-        [two] Wrthi'n mynegeio { $msgNumber } o { $count } neges ({ $percentComplete }% wedi'i gwblhau)
-        [few] Wrthi'n mynegeio { $msgNumber } o { $count } neges ({ $percentComplete }% wedi'i gwblhau)
-        [many] Wrthi'n mynegeio { $msgNumber } o { $count } neges ({ $percentComplete }% wedi'i gwblhau)
-       *[other] Wrthi'n mynegeio { $msgNumber } o { $count } neges ({ $percentComplete }% wedi'i gwblhau)
+        [one] Yn mynegeio { $msgNumber } o { $count } neges
+        [zero] Yn mynegeio { $msgNumber } o { $count } neges ({ $percentComplete }% wedi'i gwblhau)
+        [two] Yn mynegeio { $msgNumber } o { $count } neges ({ $percentComplete }% wedi'i gwblhau)
+        [few] Yn mynegeio { $msgNumber } o { $count } neges ({ $percentComplete }% wedi'i gwblhau)
+        [many] Yn mynegeio { $msgNumber } o { $count } neges ({ $percentComplete }% wedi'i gwblhau)
+       *[other] Yn mynegeio { $msgNumber } o { $count } neges ({ $percentComplete }% wedi'i gwblhau)
     }
 # Variables:
 #   $count - the total number of messages being indexed
@@ -71,12 +71,12 @@ gloda-indexing-status-exact =
 #   $folder - folder name
 gloda-indexing-folder-status-exact =
     { $count ->
-        [one] Wrthi'n mynegeio { $msgNumber } o { $count } neges yn { $folder }
-        [zero] Wrthi'n mynegeio { $msgNumber } o { $count } neges yn { $folder } ({ $percentComplete }% wedi'i gwblhau)
-        [two] Wrthi'n mynegeio { $msgNumber } o { $count } neges yn { $folder } ({ $percentComplete }% wedi'i gwblhau)
-        [few] Wrthi'n mynegeio { $msgNumber } o { $count } neges yn { $folder } ({ $percentComplete }% wedi'i gwblhau)
-        [many] Wrthi'n mynegeio { $msgNumber } o { $count } neges yn { $folder } ({ $percentComplete }% wedi'i gwblhau)
-       *[other] Wrthi'n mynegeio { $msgNumber } o { $count } neges yn { $folder } ({ $percentComplete }% wedi'i gwblhau)
+        [one] Yn mynegeio { $msgNumber } o { $count } neges yn { $folder }
+        [zero] Yn mynegeio { $msgNumber } o { $count } neges yn { $folder } ({ $percentComplete }% wedi'i gwblhau)
+        [two] Yn mynegeio { $msgNumber } o { $count } neges yn { $folder } ({ $percentComplete }% wedi'i gwblhau)
+        [few] Yn mynegeio { $msgNumber } o { $count } neges yn { $folder } ({ $percentComplete }% wedi'i gwblhau)
+        [many] Yn mynegeio { $msgNumber } o { $count } neges yn { $folder } ({ $percentComplete }% wedi'i gwblhau)
+       *[other] Yn mynegeio { $msgNumber } o { $count } neges yn { $folder } ({ $percentComplete }% wedi'i gwblhau)
     }
 # Variables:
 #   $count - number of messages

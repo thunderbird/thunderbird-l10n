@@ -10,9 +10,9 @@ recurrence-daily-every-nth =
     { $interval ->
         [one] bob dydd
         [zero] bob { $interval } diwrnod
-        [two] bob { $interval } diwrnod
+        [two] bob { $interval } ddiwrnod
         [few] bob { $interval } diwrnod
-        [many] bob { $interval } diwrnod
+        [many] bob { $interval } niwrnod
        *[other] bob { $interval } diwrnod
     }
 recurrence-every-weekday = pob diwrnod o'r wythnos
