@@ -7,9 +7,7 @@ account-setup-tab-title = Konfigurěrowanje konta
 ## Header
 
 account-setup-title = Nastajśo swóju eksistěrujucu e-mailowu adresu
-account-setup-description =
-    Aby swóju aktualnu e-mailowu adresu wužywał, zapódajśo swóje pśizjawjeńske daty.<br/>
-    { -brand-product-name } buźo awtomatiski za funkcioněrujuceju a dopóruconeju serweroweju konfiguraciju pytaś.
+account-setup-description = Aby swóju aktualnu e-mailowu adresu wužywał, zapódajśo swóje pśizjawjeńske daty.
 account-setup-secondary-description = { -brand-product-name } buźo awtomatiski za funkcioněrujuceju a dopóruconeju serweroweju konfiguraciju pytaś.
 account-setup-success-title = Konto jo se wuspěšnje załožyło
 account-setup-success-description = Móžośo toś to konto něnto z { -brand-short-name } wužywaś.
