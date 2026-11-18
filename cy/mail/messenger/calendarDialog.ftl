@@ -185,6 +185,37 @@ calendar-event-availability-selector =
 calendar-event-availability-default = Arferol
 calendar-event-availability-busy = Prysur
 calendar-event-availability-free = Rhydd
+calendar-event-prompt-edit-header = Golygu'r digwyddiad hwn neu holl ddigwyddiadau'r digwyddiad hwn?
+calendar-prompt-edit-confirm-button = Cadarnhau
+calendar-event-prompt-edit-title = Golygu digwyddiad
+
+## Category controls in the event create/edit dialog.
+
+calendar-event-categories = Categorïau
+calendar-event-add-category = Ychwanegu categori
+calendar-event-category-choices =
+    .aria-label = Categorïau sydd ar gael
+calendar-event-selected-categories =
+    .aria-label = Categorïau dethol
+calendar-event-remaining-categories =
+    .aria-label = Categorïau sy'n weddill
+# Variables:
+#   $category (String): The name of the category to remove.
+calendar-event-remove-category =
+    .aria-label = Dileu categori { $category }
+    .title = Dileu categori { $category }
+# Variables:
+#   $count (Number): The number of categories not shown in the summary.
+calendar-event-more-categories = +{ $count } arall
+    .aria-label =
+        { $count ->
+            [one] +{ $count } categori arall
+            [zero] +{ $count } categori arall
+            [two] +{ $count } categori arall
+            [few] +{ $count } categori arall
+            [many] +{ $count } categori arall
+           *[other] +{ $count } categori arall
+        }
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".

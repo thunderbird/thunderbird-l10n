@@ -160,6 +160,33 @@ calendar-event-availability-selector =
 calendar-event-availability-default = Par défaut
 calendar-event-availability-busy = Indisponible
 calendar-event-availability-free = Disponible
+calendar-event-prompt-edit-header = Modifier cet évènement ou toutes les occurrences de cet évènement ?
+calendar-prompt-edit-confirm-button = Confirmer
+calendar-event-prompt-edit-title = Modifier l’évènement
+
+## Category controls in the event create/edit dialog.
+
+calendar-event-categories = Catégories
+calendar-event-add-category = Ajouter une catégorie
+calendar-event-category-choices =
+    .aria-label = Catégories disponibles
+calendar-event-selected-categories =
+    .aria-label = Catégories sélectionnées
+calendar-event-remaining-categories =
+    .aria-label = Catégories restantes
+# Variables:
+#   $category (String): The name of the category to remove.
+calendar-event-remove-category =
+    .aria-label = Retirer la catégorie { $category }
+    .title = Retirer la catégorie { $category }
+# Variables:
+#   $count (Number): The number of categories not shown in the summary.
+calendar-event-more-categories = +{ $count } de plus
+    .aria-label =
+        { $count ->
+            [one] +{ $count } de catégorie en plus
+           *[other] +{ $count } de catégories supplémentaires
+        }
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".
