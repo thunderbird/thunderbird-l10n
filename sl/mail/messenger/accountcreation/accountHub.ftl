@@ -188,7 +188,6 @@ account-hub-result-security-starttls = STARTTLS
     .title = STARTTLS
 account-hub-result-no-encryption = Brez šifriranja
 account-hub-result-ssl = SSL/TLS
-account-hub-result-starttls = STARTTLS
 account-hub-credentials-wrong = Overitev ni uspela. Preverite uporabniško ime in geslo
 account-hub-result-username-label = Uporabniško ime
     .title = Uporabniško ime
@@ -285,7 +284,7 @@ account-hub-sync-accounts-found = { -brand-short-name } je odkril nekaj povezani
 account-hub-sync-accounts-not-found = { -brand-short-name } ni uspel najti povezanih storitev
 account-hub-sync-accounts-failure = { -brand-short-name } se ni uspel povezati s povezanimi storitvami
 account-hub-email-added-success = E-poštni račun uspešno povezan
-account-hub-config-test-success = Nastavitve so veljavne
+account-hub-config-test-success = { -brand-short-name } je našel pravilne nastavitve in jih posodobil.
 account-hub-select-all = Izberi vse
 account-hub-deselect-all = Počisti izbiro
 # $count (Number) - The number of sync accounts selected.
