@@ -7,9 +7,7 @@ account-setup-tab-title = Fiók beállítása
 ## Header
 
 account-setup-title = Meglévő e-mail fiók beállítása
-account-setup-description =
-    A jelenlegi e-mail-címe használatához ki kell töltenie a hitelesítő adatait.<br/>
-    A { -brand-product-name } automatikusan megkeresi a működő és ajánlott kiszolgálóbeállításokat.
+account-setup-description = A jelenlegi e-mail-címe használatához ki kell töltenie a hitelesítő adatait.
 account-setup-secondary-description = A { -brand-product-name } automatikusan megkeresi a kiszolgáló működő és ajánlott beállításait.
 account-setup-success-title = Fiók sikeresen létrehozva
 account-setup-success-description = Most már használhatja ezt a fiókot a { -brand-short-name }del.
