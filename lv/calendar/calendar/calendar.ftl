@@ -198,6 +198,31 @@ calendar-new = Jauns
 calendar-open = Atvērt
 filepicker-title-import = Ievietot
 filepicker-title-export = Izgūt
+# Filters for export/import/open file picker.  $wildmat will be replaced with
+# wildmat used to filter files by extension, such as (*.html; *.htm).
+filter-html = Tīmekļa lapa ({ $wildmat })
+# Remote calendar errors
+generic-error-title = Notikusi kļūda
+# $statusCode $statusCodeInfo status code info
+http-put-error =
+    Kalendāra datnes publicēšana neizdevās.
+    Statusa kods: { $statusCode }: { $statusCodeInfo }
+# $statusCode status code
+other-put-error =
+    Kalendāra datnes publicēšana neizdevās.
+    Statusa kods: 0x{ $statusCode }
+# LOCALIZATION NOTE (read-only-mode):
+# used for an message like 'There has been an error reading data for calendar: Home. It has been...'
+#    $name will be replaced with the name of a calendar
+read-only-mode = Lasot datus kalendāram { $name }, radās kļūda. Tas ir ievietots tikai lasīšanas režīmā, jo izmaiņas šajā kalendārā, visticamāk, izraisīs datu zudumu. Šo iestatījumu var mainīt, izvēloties “Rediģēt kalendāru”.
+# LOCALIZATION NOTE (disabled-mode):
+# used for an message like 'There has been an error reading data for calendar: Home. It has been...'
+#    $name will be replaced with the name of a calendar
+disabled-mode = Lasot kalendāra “{ $name }” datus, radās kļūda. Kalendārs ir atspējots, līdz to atkal varēs droši izmantot.
+# LOCALIZATION NOTE (minor-error):
+# used for an message like 'There has been an error reading data for calendar: Home. However this...'
+#    $name will be replaced with the name of a calendar
+minor-error = Lasot datus kalendāram { $name }, radās kļūda. Tomēr tiek uzskatīts, ka šī kļūda ir neliela, tāpēc programma mēģinās turpināt darbu.
 item-modified-on-server-title = Vienums ir izmainīts serverī
 calendar-conflicts-dialog =
     .buttonlabelcancel = Atmest izmaiņas un pārlādēt
