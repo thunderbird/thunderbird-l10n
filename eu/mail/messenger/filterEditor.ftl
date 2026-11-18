@@ -40,6 +40,16 @@ filter-copy-batch-failed = Ezin izan da mezuak { $folder } karpetara kopiatu. Ba
 # $folder (String) - The URI of the destination folder.
 # $errorCode (String) - The hexadecimal error code for the batch.
 filter-move-batch-failed = Ezin izan dira mezuak { $folder } karpetara mugitzen amaitu. Baliteke mezu batzuk jatorrizko karpetatik kendu gabe kopiatu izana. Errorea: { $errorCode }. Eskatutako mezuen IDak: { filter-batch-message-ids }
+# Referenced by filter-copy-batch-failed and filter-move-batch-failed.
+# Variables:
+# $messageIds (String) - Up to 20 requested message IDs, separated by commas.
+# $count (Number) - The number of additional requested messages whose IDs are omitted.
+filter-batch-message-ids =
+    { $count ->
+        [0] { $messageIds }
+        [one] { $messageIds }, eta mezu { $count } gehiago
+       *[other] { $messageIds }, eta { $count } mezu gehiago
+    }
 # Variables:
 # $filterName (String) - The name of the filter that was applied.
 # $author (String) - The sender of the message.

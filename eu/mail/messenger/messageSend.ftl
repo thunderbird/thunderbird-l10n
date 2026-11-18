@@ -90,6 +90,13 @@ smtp-auth-hint-plain-to-encrypt = { $hostname } SMTP irteera zerbitzariak ez dit
 smtp-auth-failure = Ezin izan da { $hostname } irteerako SMTP zerbitzariarekin autentifikatu. Egiaztatu pasahitza eta egiaztatu ‘Autentifikazio-metodoa’ aukera ‘Kontu-ezarpenak | Irteerako SMTP zerbitzaria’ atalean.
 # Variables:
 # $hostname - outgoing server hostname
+# $serverResponse - server response
+smtp-auth-oauth2-failure = Ezin izan da { $hostname } irteera-zerbitzarian (SMTP) autentifikatu OAuth2 erabiliz. Zerbitzariak hau erantzun du: { $serverResponse }
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-oauth2-failure-no-response = Ezin izan da { $hostname } irteera-zerbitzarian (SMTP) autentifikatu OAuth2 erabiliz.
+# Variables:
+# $hostname - outgoing server hostname
 smtp-auth-gssapi = { $hostname } irteerako SMTP zerbitzariak ez du Kerberos/GSSAPI tiketa onartu. Egiaztatu Kerberos/GSSAPI domeinuan saioa hasi duzula.
 # Variables:
 # $hostname - outgoing server hostname

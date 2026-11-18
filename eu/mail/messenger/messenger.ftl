@@ -15,6 +15,19 @@ messenger-save-message-failed = Ezin da mezua gorde. Egiaztatu fitxategi-izena e
 # Variables:
 # $filename (String) - Full path of the file that already exists.
 messenger-file-exists = { $filename } badago lehendik. Ordeztu nahi duzu?
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+folder-file-not-found = Ezin izan da aurkitu “{ $folder }” fitxategia { $server } zerbitzarian. Berreskuratu fitxategia edo hautatu beste helburu-karpeta bat, eta saiatu berriro.
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+folder-file-access-denied = Ezin da “{ $folder }” atzitu { $server } zerbitzarian. Egiaztatu karpetaren fitxategi-baimenak, eta saiatu berriro.
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+# $errorCode (String) - The hexadecimal filesystem error code.
+folder-file-error = Ezin da “{ $folder }” atzitu { $server } zerbitzarian. Egiaztatu karpetako fitxategiak eskuragarri daudela eta idazteko moduan daudela; ondoren, saiatu berriro. Errorea: { $errorCode }
 
 ## Window controls
 
@@ -278,6 +291,8 @@ appmenu-save-as-file =
     .label = Fitxategia…
 appmenu-settings =
     .label = Ezarpenak
+appmenu-accounts =
+    .label = Kontuak
 appmenu-addons-and-themes =
     .label = Gehigarriak eta itxurak
 
@@ -497,6 +512,8 @@ spaces-context-switch-tab-item =
     .label = Aldatu { $tabName }(e)ra
 settings-context-open-settings-item2 =
     .label = Ezarpenak
+settings-context-open-accounts-item =
+    .label = Kontuak
 settings-context-open-account-settings-item2 =
     .label = Kontu-ezarpenak
 settings-context-open-addons-item2 =

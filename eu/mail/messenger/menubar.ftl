@@ -12,6 +12,13 @@ system-tray-app-name = { -brand-full-name }
 menu-tools-settings =
     .label = Ezarpenak
     .accesskey = E
+menu-accounts =
+    .label = Kontuak
+    .accesskey =
+        { PLATFORM() ->
+            [linux] K
+           *[other] K
+        }
 menu-addons-and-themes =
     .label = Gehigarriak eta itxurak
     .accesskey = G

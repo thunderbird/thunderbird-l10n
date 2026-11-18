@@ -9,12 +9,19 @@ fonts-label-default =
     .label = Lehenetsia ({ $name })
 fonts-label-default-unnamed =
     .label = Lehenetsia
+fonts-character-set-legend =
+    .value = Karaktere-jokoa
+    .accesskey = K
+font-main-style-label =
+    .value = Letra-estilo nagusia:
+    .accesskey = L
 fonts-language-legend =
     .value = Letra-tipoa:
     .accesskey = t
 fonts-proportional-label =
     .value = Proportzionala:
     .accesskey = P
+text-font-options-dialog-title = Testu- eta letra-tipo-aukerak
 
 ## Languages
 
@@ -93,6 +100,9 @@ font-size-monospace-label =
 font-serif-label =
     .value = Serif:
     .accesskey = S
+sans-serif-font-label =
+    .value = Sans-serif letra-tipoa:
+    .accesskey = n
 font-sans-serif-label =
     .value = Sans-serif:
     .accesskey = n
@@ -113,6 +123,13 @@ use-document-fonts-checkbox =
     .accesskey = o
 use-fixed-width-plain-checkbox =
     .label = Erabili zabalera finkoko letra-tipoa testu-arrunteko mezuentzat
+    .accesskey = f
+message-font-permissions-legend = Mezuen letra-tipoen baimenak
+allow-incoming-fonts-checkbox =
+    .label = Baimendu sarrerako mezuei beren letra-tipoak erabiltzea
+    .accesskey = B
+display-fixed-width-plain-checkbox =
+    .label = Bistaratu testu arrunteko mezuak zabalera finkoko letra-tipo batean
     .accesskey = f
 
 ## Language settings

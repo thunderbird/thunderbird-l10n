@@ -102,6 +102,12 @@ compose-blocked-content-preferences-accesskey = H
 # $url - URL of the blocked resource
 compose-unblock-resource =
     .label = Desblokeatu { $url }
+menuitem-resize-header-area =
+    .label = Aldatu goiburu-eremuaren tamaina
+    .accesskey = A
+compose-header-area-splitter =
+    .aria-description = Erabili gora eta behera geziak tamaina aldatzeko; Shift tekla erabiliz, urrats handiagoak egingo dituzu. Sakatu Tab editorera joateko, edo Shift+Tab 'Gaia' eremura joateko.
+    .aria-label = Goiburu-eremua
 
 ## Send Format
 

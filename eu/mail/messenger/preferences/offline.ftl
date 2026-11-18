@@ -3,6 +3,22 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 offline-dialog-title = Lineaz kanpoko ezarpenak
+autodetect-connection-label =
+    .label = Aldatu moduak automatikoki Interneteko konexioa aurkitzean
+    .accesskey = A
+offline-startup-label = { -brand-short-name } irekitzean:
+status-radio-last-used =
+    .label = Erabili azken aldian erabilitako konexio-modua
+    .accesskey = z
+status-radio-ask-connect =
+    .label = Galdetu ea linean konektatu behar den
+    .accesskey = G
+status-radio-start-online =
+    .label = Hasi online
+    .accesskey = H
+status-radio-start-offline =
+    .label = Hasi lineaz kanpo
+    .accesskey = k
 going-online-ask-send =
     .label = Galdetu bidali aurretik
     .accesskey = G
