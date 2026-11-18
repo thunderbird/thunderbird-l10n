@@ -174,6 +174,7 @@ calendar-event-availability-selector =
 calendar-event-availability-default = Standard
 calendar-event-availability-busy = Aktiwny
 calendar-event-availability-free = Darmo
+calendar-event-prompt-edit-header = Tutón podawk abo wšě wustupowanja tutoho podawka wobdźěłać?
 calendar-prompt-edit-confirm-button = Wobkrućić
 calendar-event-prompt-edit-title = Podawk wobdźěłać
 
@@ -192,6 +193,16 @@ calendar-event-remaining-categories =
 calendar-event-remove-category =
     .aria-label = Kategoriju { $category } wotstronić
     .title = Kategoriju { $category } wotstronić
+# Variables:
+#   $count (Number): The number of categories not shown in the summary.
+calendar-event-more-categories = Wjace hač { $count }
+    .aria-label =
+        { $count ->
+            [one] Wjace hač { $count } kategorija
+            [two] Wjace hač { $count } kategoriji
+            [few] Wjace hač { $count } kategorije
+           *[other] Wjace hač { $count } kategorijow
+        }
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".

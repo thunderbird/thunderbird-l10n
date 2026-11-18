@@ -174,6 +174,35 @@ calendar-event-availability-selector =
 calendar-event-availability-default = Standard
 calendar-event-availability-busy = Zabrany
 calendar-event-availability-free = Dermo
+calendar-event-prompt-edit-header = Toś to tšojenje abo wšykne wustupowanja toś togo tšojenja wobźěłaś?
+calendar-prompt-edit-confirm-button = Wobkšuśiś
+calendar-event-prompt-edit-title = Tšojenje wobźěłaś
+
+## Category controls in the event create/edit dialog.
+
+calendar-event-categories = Kategorije
+calendar-event-add-category = Kategoriju pśidaś
+calendar-event-category-choices =
+    .aria-label = K dispoziciji stojece kategorije
+calendar-event-selected-categories =
+    .aria-label = Wubrane kategorije
+calendar-event-remaining-categories =
+    .aria-label = Zbytne kategorije
+# Variables:
+#   $category (String): The name of the category to remove.
+calendar-event-remove-category =
+    .aria-label = Kategoriju { $category } wótwónoźeś
+    .title = Kategoriju { $category } wótwónoźeś
+# Variables:
+#   $count (Number): The number of categories not shown in the summary.
+calendar-event-more-categories = Wěcej ako { $count }
+    .aria-label =
+        { $count ->
+            [one] Wěcej ako { $count } kategorija
+            [two] Wěcej ako { $count } kategoriji
+            [few] Wěcej ako { $count } kategorije
+           *[other] Wěcej ako { $count } kategorijow
+        }
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".
