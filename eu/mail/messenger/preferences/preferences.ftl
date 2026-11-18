@@ -630,11 +630,15 @@ table-layout-horizontal-scroll-label =
     .label = Baimendu korrirtze horizontala
     .accesskey = h
 conversation-view-legend = Elkarrizketa ikuspegia
+show-conversation-view-label =
+    .label = Erakutsi elkarrizketa ikuspegia
+    .accesskey = E
 conversation-view-checkbox-label =
     .label = Gaitu elkarrizketa ikuspegia
     .accesskey = e
 conversation-view-checkbox-description = Glodan oinarritutako funtzio esperimentala, zure arriskupean
 label-experiment = Esperimentala
+dark-mode-message-appearance = Mezuaren itxura
 dark-message-mode-legend = Mezu irakugailuaren estiloa
 dark-message-mode-checkbox-label =
     .label = Gaitu mezu ilun modua
@@ -643,6 +647,8 @@ dark-message-mode-description = Behartu mezuaren gorputza gai ilunei jarraitzera
 dark-message-mode-toggle-label =
     .label = Erakutsi mezu ilunaren moduaren etengailua
     .accesskey = e
+general-folder-settings-header = Karpeta ezarpenak
+recent-folders-legend = Azken karpetak
 dark-message-mode-toggle-description = Erakutsi mezu-goiburuan etengailu bat mezu ilunaren modua azkar desgaitzeko
 account-hub-legend = Kontu zentroa
 account-hub-checkbox-label =
@@ -844,6 +850,9 @@ forms-primary-pw-fips-title = Une honetan FIPS moduan zaude. FIPS moduak pasahit
 forms-master-pw-fips-desc = Pasahitz aldaketak huts egin du
 confirm-reset-junk-training-title = Berretsi
 confirm-reset-junk-training-message = Ziur iragazki moldakorraren trebatze datuak berrezarri nahi dituzula?
+certificate-ask-every =
+    .label = Galdetu beti
+    .accesskey = b
 phishing-description = { -brand-short-name }(e)k mezuak azter ditzake posta-iruzurrak bilatzeko, iruzur egiteko erabil daitezkeen oinarrizko teknikak begiratuz.
 phishing-label =
     .label = Esaidazu irakurtzen ari naizen mezua posta-iruzurra izan daitekeen
@@ -883,6 +892,7 @@ email-e2ee-auto-off-notify =
 email-e2ee-automatism-post =
     Erabaki automatikoak baliogabetu daitezke mezu bat idazterakoan zifratzea eskuz gaituz edo desgaituz.
     oharra: Zifratzea automatikoki gaituta dago beti zifratutako mezu bati erantzutean.
+email-content = Postaren edukia
 
 ## DoH Section
 
@@ -906,6 +916,9 @@ preferences-doh-status-not-active = Inaktibo ({ $reason })
 preferences-doh-group-message = Gaitu HTTPS gaineko DNSa ondorengoa erabiliz:
 preferences-doh-expand-section =
     .tooltiptext = Informazio gehiago
+preferences-doh-setting-maximum =
+    .label = Babes maximoa
+    .accesskey = m
 preferences-doh-setting-strict =
     .label = Babes maximoa
     .accesskey = m
@@ -1102,6 +1115,7 @@ qr-export-select-accounts = Hautatu zein kontu esportatu nahi dituzun:
 qr-export-no-accounts = Ez dituzu zure kontu guztiak ikusten? Baliteke kontu batzuk desgaituta egotea Androidek { -brand-product-name } onartzen ez duelako. <a data-l10n-name="account-support-link">Laguntza</a>
 qr-export-accounts-legend = Posta elektroniko kontuak
 qr-export-select-all-accounts = Hautatu dena
+qr-export-passwords-legend = Pasahitzak
 qr-export-security-legend = Segurtasuna
 qr-export-include-passwords = Sartu kontu guztien pasahitzak
 qr-export-oauth-warning = Zure kontuetako batzuek autentifikazio-metodo bat erabiltzen dute, eta baliteke zure gailu mugikorrean berriro autentifikazioa behar izatea. Baliteke zure pasahitzak berriro sartu behar izatea prozesu honetan zehar.
@@ -1155,6 +1169,9 @@ qr-export-more-accounts = Esportatu kontu gehiago
 ## Appearance Tab
 
 appearance-category-header = Itxura
+accent-color-legend = Nabarmentze kolorea
+accent-color-thunderbird =
+    .label = Thunderbird urdina
 accent-color-purple =
     .label = Morea
 accent-color-orange =
