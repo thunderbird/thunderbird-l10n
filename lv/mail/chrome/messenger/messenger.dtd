@@ -125,7 +125,7 @@
 <!ENTITY allFolders.accesskey "V">
 <!ENTITY unreadFolders.label "Nelasītas">
 <!ENTITY unreadFolders.accesskey "l">
-<!ENTITY compactVersion.label "Kompakts skats">
+<!ENTITY compactVersion.label "Ciešs skats">
 <!ENTITY compactVersion.accesskey "K">
 <!-- Sort Menu -->
 <!ENTITY sortMenu.label "Kārtot pēc">

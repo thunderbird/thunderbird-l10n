@@ -148,8 +148,8 @@ folder-pane-mode-header-recent = Nesenākās mapes
 folder-pane-mode-header-smart = Apvienotās mapes
 folder-pane-mode-header-tags = Birkas
 folder-pane-mode-context-toggle-compact-mode =
-    .label = Kompakts skats
-    .accesskey = K
+    .label = Ciešs skats
+    .accesskey = C
 
 ## Message thread pane
 
