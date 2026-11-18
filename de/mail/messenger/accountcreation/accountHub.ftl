@@ -297,7 +297,7 @@ account-hub-sync-accounts-found = { -brand-short-name } hat verbundene Dienste g
 account-hub-sync-accounts-not-found = { -brand-short-name } konnte keine verbundenen Dienste finden.
 account-hub-sync-accounts-failure = { -brand-short-name } konnte keine Verbindung zu den ausgewählten Diensten herstellen
 account-hub-email-added-success = E-Mail-Konto erfolgreich verbunden
-account-hub-config-test-success = Gültige Konfigurationseinstellungen
+account-hub-config-test-success = { -brand-short-name } hat die korrekten Einstellungen gefunden und aktualisiert.
 account-hub-select-all = Alle auswählen
 account-hub-deselect-all = Alle abwählen
 # $count (Number) - The number of sync accounts selected.
