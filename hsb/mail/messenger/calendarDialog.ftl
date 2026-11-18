@@ -174,6 +174,24 @@ calendar-event-availability-selector =
 calendar-event-availability-default = Standard
 calendar-event-availability-busy = Aktiwny
 calendar-event-availability-free = Darmo
+calendar-prompt-edit-confirm-button = Wobkrućić
+calendar-event-prompt-edit-title = Podawk wobdźěłać
+
+## Category controls in the event create/edit dialog.
+
+calendar-event-categories = Kategorije
+calendar-event-add-category = Kategoriju přidać
+calendar-event-category-choices =
+    .aria-label = K dispoziciji stejace kategorije
+calendar-event-selected-categories =
+    .aria-label = Wubrane kategorije
+calendar-event-remaining-categories =
+    .aria-label = Zbytne kategorije
+# Variables:
+#   $category (String): The name of the category to remove.
+calendar-event-remove-category =
+    .aria-label = Kategoriju { $category } wotstronić
+    .title = Kategoriju { $category } wotstronić
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".
