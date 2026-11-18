@@ -33,6 +33,14 @@ filter-failure-move-failed = Mugitzeak huts egin du
 filter-failure-copy-failed = Kopiatzeak huts egin du
 filter-failure-action = Huts egin du iragazkia aplikatzean
 # Variables:
+# $folder (String) - The URI of the destination folder.
+# $errorCode (String) - The hexadecimal error code for the batch.
+filter-copy-batch-failed = Ezin izan da mezuak { $folder } karpetara kopiatu. Baliteke mezu batzuk kopiatu izana. Errorea: { $errorCode }. Eskatutako mezuen IDak: { filter-batch-message-ids }
+# Variables:
+# $folder (String) - The URI of the destination folder.
+# $errorCode (String) - The hexadecimal error code for the batch.
+filter-move-batch-failed = Ezin izan dira mezuak { $folder } karpetara mugitzen amaitu. Baliteke mezu batzuk jatorrizko karpetatik kendu gabe kopiatu izana. Errorea: { $errorCode }. Eskatutako mezuen IDak: { filter-batch-message-ids }
+# Variables:
 # $filterName (String) - The name of the filter that was applied.
 # $author (String) - The sender of the message.
 # $subject (String) - The subject line of the message.

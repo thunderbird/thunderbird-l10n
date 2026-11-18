@@ -11,12 +11,21 @@ calendar-dialog-close-button =
     .title = Itxi
 calendar-event-create-edit-dialog =
     .aria-label = Gertaera
+calendar-event-title-input-new =
+    .aria-label = Gertaeraren izenburua
+    .placeholder = Gertaera berria
+calendar-event-title-input-untitled =
+    .aria-label = Gertaeraren izenburua
+    .placeholder = Izenburu gabeko gertaera
+calendar-event-title-required = Beharrezkoa
+calendar-event-title-too-long = Izenburuak ezin ditu 180 karaktere gainditu
 calendar-dialog-menu-button =
     .aria-label = Ireki menua
     .title = Ireki menua
 calendar-dialog-back-button =
     .aria-label = Atzera
     .title = Atzera
+calendar-event-create-edit-dialog-back-button = Atzera
 calendar-dialog-date-row-icon =
     .alt = Eguna eta ordua
 calendar-dialog-date-row-recurring-icon =
@@ -136,6 +145,20 @@ calendar-prompt-all-events =
 calendar-prompt-delete-button = Ezabatu
 calendar-dialog-edit-button = Editatu
 calendar-event-create-edit-save-button = Gorde
+calendar-event-calendar-selector =
+    .aria-label = Egutegia
+calendar-event-save = Gorde
+calendar-event-saving = Gordetzen…
+calendar-event-save-failed = Ezin izan da gertaera gorde. Saiatu berriro.
+calendar-event-calendar-unavailable = Egutegi honek ez ditu gertaera berriak onartzen. Hautatu beste egutegi bat eta saiatu berriro.
+# The status element announces Save progress and errors to screen readers.
+# Keep this message empty to clear the previous status text when Save is idle.
+calendar-event-save-idle = { "" }
+calendar-event-availability-selector =
+    .aria-label = Erabilgarritasuna
+calendar-event-availability-default = Lehenetsia
+calendar-event-availability-busy = Okupatuta
+calendar-event-availability-free = Libre
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =

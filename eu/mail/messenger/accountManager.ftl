@@ -36,3 +36,4 @@ panel-settings-spam = Spam ezarpenak
 # $account (String) - The account name.
 spam-settings-alert-message = Arazoa hauteman da { $account }-ren spam ezarpenekin. Berrikusi nahi dituzu aldaketak gorde aurretik?
 open-settings-sidebar-button = Ezarpenak
+account-manager-document-title = Kontuak
