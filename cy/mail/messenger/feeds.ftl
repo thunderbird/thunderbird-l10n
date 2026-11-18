@@ -6,17 +6,23 @@
 #   $count - number of feeds
 subscribe-opml-import-unique-feeds =
     { $count ->
-        [zero] Mewnforiwyd { $count } llif newydd nad ydych wedi tanysgrifio iddynt hyd yn hyn
-        [one] Mewnforiwyd { $count } llif newydd nad ydych wedi tanysgrifio iddynt hyd yn hyn
-       *[other] Mewnforiwyd { $count } llif newydd nad ydych wedi tanysgrifio iddynt hyd yn hyn
+        [one] Wedi mewnforio { $count } ffrwd newydd nad ydych wedi tanysgrifio iddo eisoes
+        [zero] Wedi mewnforio { $count } ffrwd newydd nad ydych wedi tanysgrifio iddyn nhw eisoes
+        [two] Wedi mewnforio { $count } ffrwd newydd nad ydych wedi tanysgrifio iddyn nhw eisoes
+        [few] Wedi mewnforio { $count } ffrwd newydd nad ydych wedi tanysgrifio iddyn nhw eisoes
+        [many] Wedi mewnforio { $count } ffrwd newydd nad ydych wedi tanysgrifio iddyn nhw eisoes
+       *[other] Wedi mewnforio { $count } ffrwd newydd nad ydych wedi tanysgrifio iddyn nhw eisoes
     }
 # Variables:
 #   $count - total number of elements found in the file
 subscribe-opml-import-found-feeds =
     { $count ->
-        [zero] (allan o { $count } enghraifft a gafwyd)
-        [one] (allan o { $count } enghraifft a gafwyd)
-       *[other] (allan o { $count } enghraifft a gafwyd)
+        [one] (allan o { $count } cofnod wedi'i ddarganfod)
+        [zero] (allan o { $count } cofnod wedi'u darganfod)
+        [two] (allan o { $count } gofnod wedi'u darganfod)
+        [few] (allan o { $count } cofnod wedi'u darganfod)
+        [many] (allan o { $count } chofnod wedi'u darganfod)
+       *[other] (allan o { $count } cofnod wedi'u darganfod)
     }
 # Variables:
 #   $count - the count of new imported entries

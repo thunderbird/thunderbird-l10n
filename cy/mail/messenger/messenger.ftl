@@ -103,18 +103,24 @@ open-windows-warning-confirmation-title = Cadarnhau
 #   $count - number of messages to open
 open-windows-warning-confirmation =
     { $count ->
-        [zero] Efallai bydd agor { $count } neges yn araf. Parhau?
-        [one] Efallai bydd agor { $count }neges yn araf. Parhau?
-       *[other] Efallai bydd agor { $count }neges yn araf. Parhau?
+        [one] Gall agor { $count } neges fod yn araf. Parhau?
+        [zero] Gall agor { $count } neges fod yn araf. Parhau?
+        [two] Gall agor { $count } neges fod yn araf. Parhau?
+        [few] Gall agor { $count } neges fod yn araf. Parhau?
+        [many] Gall agor { $count } neges fod yn araf. Parhau?
+       *[other] Gall agor { $count } neges fod yn araf. Parhau?
     }
 open-tabs-warning-confirmation-title = Cadarnhau
 # Variables:
 #   $count - number of messages to open
 open-tabs-warning-confirmation =
     { $count ->
-        [zero] Efallai bydd agor { $count } neges yn araf. Parhau?
-        [one] Efallai bydd agor { $count }neges yn araf. Parhau?
-       *[other] Efallai bydd agor { $count }neges yn araf. Parhau?
+        [one] Gall agor { $count } neges fod yn araf. Parhau?
+        [zero] Gall agor { $count } neges fod yn araf. Parhau?
+        [two] Gall agor { $count } neges fod yn araf. Parhau?
+        [few] Gall agor { $count } neges fod yn araf. Parhau?
+        [many] Gall agor { $count } neges fod yn araf. Parhau?
+       *[other] Gall agor { $count } neges fod yn araf. Parhau?
     }
 
 ## Sign-in window
@@ -191,9 +197,12 @@ menu-file-save-as-file =
 #   $count - number of messages to get
 menu-file-get-next-n-news-msgs =
     { $count ->
-        [zero] Estyn y { $count } Neges Newyddion Nesaf
-        [one] Estyn y { $count } Neges Newyddion Nesaf
-       *[other] Estyn y { $count } Neges Newyddion Nesaf
+        [one] Derbyn y { $count } Neges Newyddion Nesaf
+        [zero] Derbyn y { $count } Neges Newyddion Nesaf
+        [two] Derbyn y { $count } Neges Newyddion Nesaf
+        [few] Derbyn y { $count } Neges Newyddion Nesaf
+        [many] Derbyn y { $count } Neges Newyddion Nesaf
+       *[other] Derbyn y { $count } Neges Newyddion Nesaf
     }
 # Variables:
 # $count (Number) - One or more than one folder selected for compacting

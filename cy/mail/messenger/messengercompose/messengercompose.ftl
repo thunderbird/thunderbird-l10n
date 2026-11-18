@@ -609,9 +609,12 @@ cloud-file-deletion-error = Nid oedd anhawster wrth ddileu { $filename } o { $pr
 #   $count - the number of files being linked
 cloudfile-uploading-notification =
     { $count ->
-        [zero] Mae eich ffeil wedi'i chysylltu. Bydd yn ymddangos yng nghorff y neges ar ôl ei gwblhau.
-        [one] Mae eich ffeiliau wedi'u cysylltu. Byddant yn ymddangos yng nghorff y neges ar ôl ei gwblhau.
-       *[other] Mae eich ffeiliau wedi'u cysylltu. Byddant yn ymddangos yng nghorff y neges ar ôl ei gwblhau.
+        [one] Mae eich ffeil yn cael ei chysylltu. Bydd yn ymddangos yng nghorff y neges pan fydd wedi'i wneud.
+        [zero] Mae eich ffeiliau'n cael eu cysylltu. Byddan nhw'n ymddangos yng nghorff y neges pan fydd wedi'i wneud.
+        [two] Mae eich ffeiliau'n cael eu cysylltu. Byddan nhw'n ymddangos yng nghorff y neges pan fydd wedi'i wneud.
+        [few] Mae eich ffeiliau'n cael eu cysylltu. Byddan nhw'n ymddangos yng nghorff y neges pan fydd wedi'i wneud.
+        [many] Mae eich ffeiliau'n cael eu cysylltu. Byddan nhw'n ymddangos yng nghorff y neges pan fydd wedi'i wneud.
+       *[other] Mae eich ffeiliau'n cael eu cysylltu. Byddan nhw'n ymddangos yng nghorff y neges pan fydd wedi'i wneud.
     }
 # Variables:
 #   $count - the number big attached files

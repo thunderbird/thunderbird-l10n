@@ -94,9 +94,12 @@ gloda-indexed-folder =
 #   $count - number of seconds
 gloda-indexed-folder-status =
     { $count ->
-        [zero] { $count } eiliad wedi mynd heibio
-        [one] { $count } eiliad wedi mynd heibio
-       *[other] { $count } eiliad wedi mynd heibio
+        [one] Aeth { $count } eiliad heibio
+        [zero] Aeth { $count } eiliad heibio
+        [two] Aeth { $count } eiliad heibio
+        [few] Aeth { $count } eiliad heibio
+        [many] Aeth { $count } eiliad heibio
+       *[other] Aeth { $count } eiliad heibio
     }
 # Display line of the live Activity Manager process shown while a WebExtension
 # is actively sending messages via messages.sendMessage(). The running count is

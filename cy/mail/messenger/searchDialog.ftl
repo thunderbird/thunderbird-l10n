@@ -15,9 +15,12 @@ searching-message =
 matches-found =
     .value =
         { $count ->
-            [zero] wedi canfod { $count } sy'n cydweddu
-            [one] wedi canfod { $count } sy'n cydweddu
-           *[other] wedi canfod { $count } sy'n cydweddu
+            [one] Wedi canfod { $count } sy'n cyfateb
+            [zero] Wedi canfod { $count } sy'n cyfateb
+            [two] Wedi canfod { $count } sy'n cyfateb
+            [few] Wedi canfod { $count } sy'n cyfateb
+            [many] Wedi canfod { $count } sy'n cyfateb
+           *[other] Wedi canfod { $count } sy'n cyfateb
         }
 no-matches-found =
     .value = Heb ganfod cydweddiad

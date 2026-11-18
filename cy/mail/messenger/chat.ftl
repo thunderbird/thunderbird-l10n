@@ -44,7 +44,10 @@ chat-conv-invite-deny =
 #   $preview - the message preview to be shown in the notification, i.e. the first incoming message.
 bundled-message-preview =
     { $count ->
-        [zero] { $preview }… (a { $count } neges ychwanegol)
-        [one] { $preview }… (a { $count } neges ychwanegol)
-       *[other] { $preview }… (a { $count } neges ychwanegol)
+        [one] { $preview }… (a { $count } neges arall)
+        [zero] { $preview }… (a { $count } neges arall)
+        [two] { $preview }… (a { $count } neges arall)
+        [few] { $preview }… (a { $count } neges arall)
+        [many] { $preview }… (a { $count } neges arall)
+       *[other] { $preview }… (a { $count } neges arall)
     }

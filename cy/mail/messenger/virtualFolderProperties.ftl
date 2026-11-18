@@ -10,9 +10,12 @@
 #   $count - number of chosen folders
 virtual-folder-sources-chosen =
     { $count ->
-        [zero] Wedi dewis { $count } ffolder
-        [one] Wedi dewis { $count } ffolder
-       *[other] Wedi dewis { $count } ffolder
+        [one] { $count } ffolder wedi'i ddewis
+        [zero] { $count } ffolder wedi'u dewis
+        [two] { $count } ffolder wedi'u dewis
+        [few] { $count } ffolder wedi'u dewis
+        [many] { $count } ffolder wedi'u dewis
+       *[other] { $count } ffolder wedi'u dewis
     }
 virtual-folder-no-search-folders-selected = Rhaid dewis o leiaf un ffolder i chwilio am y ffolder chwilio a gadwyd.
 virtual-folder-missing-value-title = Gwerth Chwilio ar Goll

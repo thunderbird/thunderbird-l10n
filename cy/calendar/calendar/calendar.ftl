@@ -129,12 +129,12 @@ timezone-error = Cafwyd cylch amser anhysbys ac anniffiniedig wrth ddarllen { $f
 #    $filePath will be replaced with a file path pointing to a calendar
 duplicate-error =
     { $count ->
-        [one] Anwybyddwyd { $count } eitem(au) gan eu bod yn bodoli yn y calendr cyrchfan a { $filePath }.
-        [zero] Anwybyddwyd { $count } eitem(au) gan eu bod yn bodoli yn y calendr cyrchfan a { $filePath }.
-        [two] Anwybyddwyd { $count } eitem(au) gan eu bod yn bodoli yn y calendr cyrchfan a { $filePath }.
-        [few] Anwybyddwyd { $count } eitem(au) gan eu bod yn bodoli yn y calendr cyrchfan a { $filePath }.
-        [many] Anwybyddwyd { $count } eitem(au) gan eu bod yn bodoli yn y calendr cyrchfan a { $filePath }.
-       *[other] Anwybyddwyd { $count } eitem(au) gan eu bod yn bodoli yn y calendr cyrchfan a { $filePath }.
+        [one] Anwybyddwyd { $count } eitem gan ei fod yn bodoli yn y calendr cyrchfan a { $filePath }.
+        [zero] Anwybyddwyd { $count } eitem gan eu bod yn bodoli yn y calendr cyrchfan a { $filePath }.
+        [two] Anwybyddwyd { $count } eitem gan eu bod yn bodoli yn y calendr cyrchfan a { $filePath }.
+        [few] Anwybyddwyd { $count } eitem gan eu bod yn bodoli yn y calendr cyrchfan a { $filePath }.
+        [many] Anwybyddwyd { $count } eitem gan eu bod yn bodoli yn y calendr cyrchfan a { $filePath }.
+       *[other] Anwybyddwyd { $count } eitem gan eu bod yn bodoli yn y calendr cyrchfan a { $filePath }.
     }
 # $location unknown calendar location
 unable-to-create-provider = Digwyddodd gwall wrth baratoi'r calendr sydd yn { $location } ar gyfer ei ddefnyddio. Ni fydd ar gael.
