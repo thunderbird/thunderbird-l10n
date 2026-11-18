@@ -287,7 +287,7 @@ account-hub-sync-accounts-found = Daeth { -brand-short-name } o hyd i rai gwasan
 account-hub-sync-accounts-not-found = Nid oedd modd i { -brand-short-name } ddod o hyd i wasanaethau cysylltiedig
 account-hub-sync-accounts-failure = Nid oedd modd i { -brand-short-name } gysylltu'r gwasanaethau a ddewiswyd
 account-hub-email-added-success = Cyfrif e-bost wedi'i gysylltu'n llwyddiannus
-account-hub-config-test-success = Mae'r gosodiadau ffurfweddiad yn ddilys
+account-hub-config-test-success = Daeth { -brand-short-name } o hyd i'r gosodiadau cywir a'u diweddaru.
 account-hub-select-all = Dewis y cyfan
 account-hub-deselect-all = Dad-ddewis y cyfan
 # $count (Number) - The number of sync accounts selected.

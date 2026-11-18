@@ -7,9 +7,7 @@ account-setup-tab-title = Gosod Cyfrif
 ## Header
 
 account-setup-title = Gosod eich Cyfrif E-bost Cyfredol
-account-setup-description =
-    I ddefnyddio'ch cyfeiriad e-bost cyfredol, llenwch eich manylion. <br/>
-    Bydd { -brand-product-name } yn chwilio'n awtomatig am ffurfweddid gweinydd sy'n gweithio ac sy'n cael ei argymell.
+account-setup-description = I ddefnyddio'ch cyfeiriad e-bost presennol llenwch eich manylion adnabod.
 account-setup-secondary-description = Bydd { -brand-product-name } yn chwilio'n awtomatig am ffurfweddiad gweinydd sy'n gweithio ac sy'n cael ei argymell.
 account-setup-success-title = Cyfrif wedi'i greu'n llwyddiannus
 account-setup-success-description = Nawr gallwch chi ddefnyddio'r cyfrif hwn gyda { -brand-short-name }.

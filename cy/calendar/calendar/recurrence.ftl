@@ -186,9 +186,12 @@ recurrence-yearly-nth-of-nth =
 # e.g  "every 3 years the second Monday of March"
 recurrence-yearly-nth-on-nth-of =
     { $interval ->
-        [zero] { $ordinal } { $weekday } o bob { $month }
-        [one] pob { $interval } blwyddyn ar { $ordinal } { $weekday } o { $month }
-       *[other] pob { $interval } blwyddyn ar { $ordinal } { $weekday } o { $month }
+        [one] { $ordinal } { $weekday } o bob mis { $month }
+        [zero] bob { $interval } blynedd ar { $ordinal } { $weekday } o fis { $month }
+        [two] bob { $interval } flynedd ar { $ordinal } { $weekday } o fis { $month }
+        [few] bob { $interval } blynedd ar { $ordinal } { $weekday } o fis { $month }
+        [many] bob { $interval } mlynedd ar { $ordinal } { $weekday } o fis { $month }
+       *[other] bob { $interval } blynedd ar { $ordinal } { $weekday } o fis { $month }
     }
 # Variables:
 #   $ruleString - A rule as text
@@ -197,15 +200,12 @@ recurrence-yearly-nth-on-nth-of =
 # e.g. "Occurs the first Sunday of every 3 month effective 1/1/2009 for 5 times"
 recurrence-repeat-count-all-day =
     { $count ->
-        [zero]
-            Yn digwydd { $ruleString }
-            o { $startDate } am { $count } gwaith.
-        [one]
-            Yn digwydd { $ruleString }
-            o { $startDate } am { $count } gwaith.
-       *[other]
-            Yn digwydd { $ruleString }
-            o { $startDate } am { $count } gwaith.
+        [one] Yn digwydd { $ruleString } o'r { $startDate } am { $count } waith
+        [zero] Yn digwydd { $ruleString } o'r { $startDate } am { $count } gwaith
+        [two] Yn digwydd { $ruleString } o'r { $startDate } am { $count } waith
+        [few] Yn digwydd { $ruleString } o'r { $startDate } am { $count } gwaith
+        [many] Yn digwydd { $ruleString } o'r { $startDate } am { $count } gwaith
+       *[other] Yn digwydd { $ruleString } o'r { $startDate } am { $count } gwaith
     }
 # Variables:
 #   $ruleString - A rule as text
@@ -233,18 +233,12 @@ recurrence-details-infinite-all-day =
 #  from 5:00 PM to 6:00 PM"
 recurrence-repeat-count =
     { $count ->
-        [zero]
-            Yn digwydd { $ruleString }
-            o { $startDate } am { $count } gwaith
-            o { $startTime } hyd { $endTime }.
-        [one]
-            Yn digwydd { $ruleString }
-            o { $startDate } am { $count } gwaith
-            o { $startTime } hyd { $endTime }.
-       *[other]
-            Yn digwydd { $ruleString }
-            o { $startDate } am { $count } gwaith
-            o { $startTime } hyd { $endTime }.
+        [one] Yn digwydd { $ruleString } o'r { $startDate } am { $count } gwaith o { $startTime } hyd { $endTime }.
+        [zero] Yn digwydd { $ruleString } o'r { $startDate } am { $count } gwaith o { $startTime } hyd { $endTime }.
+        [two] Yn digwydd { $ruleString } o'r { $startDate } am { $count } gwaith o { $startTime } hyd { $endTime }.
+        [few] Yn digwydd { $ruleString } o'r { $startDate } am { $count } gwaith o { $startTime } hyd { $endTime }.
+        [many] Yn digwydd { $ruleString } o'r { $startDate } am { $count } gwaith o { $startTime } hyd { $endTime }.
+       *[other] Yn digwydd { $ruleString } o'r { $startDate } am { $count } gwaith o { $startTime } hyd { $endTime }.
     }
 # Variables:
 #   $ruleString - A rule as text

@@ -6,8 +6,11 @@
 #   $count -  total number of downloaded messages
 pop3-event-status-text =
     { $count ->
-        [zero] { $count } neges wedi'i lwytho i lawr
-        [one] { $count } neges wedi'u llwytho i lawr
+        [one] { $count } neges wedi'i llwytho i lawr
+        [zero] { $count } negeseuon wedi'u llwytho i lawr
+        [two] { $count } neges wedi'u llwytho i lawr
+        [few] { $count } neges wedi'u llwytho i lawr
+        [many] { $count } neges wedi'u llwytho i lawr
        *[other] { $count } neges wedi'u llwytho i lawr
     }
 # Variables:
@@ -15,9 +18,12 @@ pop3-event-status-text =
 #   $folderName - folder name
 deleted-messages-from-folder =
     { $count ->
-        [zero] Dilëwyd { $count } neges o { $folderName }
-        [one] Dilëwyd { $count } neges o { $folderName }
-       *[other] Dilëwyd { $count } neges o { $folderName }
+        [one] Wedi dileu { $count } neges o { $folderName }
+        [zero] Wedi dileu { $count } neges o { $folderName }
+        [two] Wedi dileu { $count } neges o { $folderName }
+        [few] Wedi dileu { $count } neges o { $folderName }
+        [many] Wedi dileu { $count } neges o { $folderName }
+       *[other] Wedi dileu { $count } neges o { $folderName }
     }
 # Variables:
 #   $count - number of messages
@@ -25,9 +31,12 @@ deleted-messages-from-folder =
 #   $destination - destination folder name
 moved-messages-from-folder =
     { $count ->
-        [zero] Symudwyd { $count } neges o { $source } i { $destination }
-        [one] Symudwyd { $count } neges o { $source } i { $destination }
-       *[other] Symudwyd { $count } neges o { $source } i { $destination }
+        [one] Wedi symud { $count } neges o { $source } i { $destination }
+        [zero] Wedi symud { $count } neges o { $source } i { $destination }
+        [two] Wedi symud { $count } neges o { $source } i { $destination }
+        [few] Wedi symud { $count } neges o { $source } i { $destination }
+        [many] Wedi symud { $count } neges o { $source } i { $destination }
+       *[other] Wedi symud { $count } neges o { $source } i { $destination }
     }
 # Variables:
 #   $count - number of messages
@@ -35,9 +44,12 @@ moved-messages-from-folder =
 #   $destination - destination folder name
 copied-messages-from-folder =
     { $count ->
-        [zero] Copïwyd { $count } neges o { $source } i { $destination }
-        [one] Copïwyd { $count } neges o { $source } i { $destination }
-       *[other] Copïwyd { $count } neges o { $source } i { $destination }
+        [one] Wedi copïo { $count } neges o { $source } i { $destination }
+        [zero] Wedi copïo { $count } neges o { $source } i { $destination }
+        [two] Wedi copïo { $count } neges o { $source } i { $destination }
+        [few] Wedi copïo { $count } neges o { $source } i { $destination }
+        [many] Wedi copïo { $count } neges o { $source } i { $destination }
+       *[other] Wedi copïo { $count } neges o { $source } i { $destination }
     }
 # Variables:
 #   $count - the total number of messages being indexed
@@ -45,9 +57,12 @@ copied-messages-from-folder =
 #   $percentComplete - percentage of indexing that is complete
 gloda-indexing-status-exact =
     { $count ->
-        [zero] Mynegeio { $msgNumber } o { $count } neges
-        [one] Mynegeio { $msgNumber } o { $count } neges (wedi cwblhau { $percentComplete }%)
-       *[other] Mynegeio { $msgNumber } o { $count } neges (wedi cwblhau { $percentComplete }%)
+        [one] Wrthi'n mynegeio { $msgNumber } o { $count } neges
+        [zero] Wrthi'n mynegeio { $msgNumber } o { $count } neges ({ $percentComplete }% wedi'i gwblhau)
+        [two] Wrthi'n mynegeio { $msgNumber } o { $count } neges ({ $percentComplete }% wedi'i gwblhau)
+        [few] Wrthi'n mynegeio { $msgNumber } o { $count } neges ({ $percentComplete }% wedi'i gwblhau)
+        [many] Wrthi'n mynegeio { $msgNumber } o { $count } neges ({ $percentComplete }% wedi'i gwblhau)
+       *[other] Wrthi'n mynegeio { $msgNumber } o { $count } neges ({ $percentComplete }% wedi'i gwblhau)
     }
 # Variables:
 #   $count - the total number of messages being indexed
@@ -56,19 +71,24 @@ gloda-indexing-status-exact =
 #   $folder - folder name
 gloda-indexing-folder-status-exact =
     { $count ->
-        [zero] Mynegeio { $msgNumber } o { $count } neges yn { $folder }
-        [one] Mynegeio { $msgNumber } o { $count } neges yn { $folder }
-        [two] (wedi cwblhau { $percentComplete }%)
-       *[other] (wedi cwblhau { $percentComplete }%)
+        [one] Wrthi'n mynegeio { $msgNumber } o { $count } neges yn { $folder }
+        [zero] Wrthi'n mynegeio { $msgNumber } o { $count } neges yn { $folder } ({ $percentComplete }% wedi'i gwblhau)
+        [two] Wrthi'n mynegeio { $msgNumber } o { $count } neges yn { $folder } ({ $percentComplete }% wedi'i gwblhau)
+        [few] Wrthi'n mynegeio { $msgNumber } o { $count } neges yn { $folder } ({ $percentComplete }% wedi'i gwblhau)
+        [many] Wrthi'n mynegeio { $msgNumber } o { $count } neges yn { $folder } ({ $percentComplete }% wedi'i gwblhau)
+       *[other] Wrthi'n mynegeio { $msgNumber } o { $count } neges yn { $folder } ({ $percentComplete }% wedi'i gwblhau)
     }
 # Variables:
 #   $count - number of messages
 #   $folder - folder name
 gloda-indexed-folder =
     { $count ->
-        [zero] Mynegewyd { $count } neges yn { $folder }
-        [one] Mynegewyd { $count } neges yn { $folder }
-       *[other] Mynegewyd { $count } neges yn { $folder }
+        [one] Wedi mynegeio { $count } neges yn { $folder }
+        [zero] Wedi mynegeio { $count } neges yn { $folder }
+        [two] Wedi mynegeio { $count } neges yn { $folder }
+        [few] Wedi mynegeio { $count } neges yn { $folder }
+        [many] Wedi mynegeio { $count } neges yn { $folder }
+       *[other] Wedi mynegeio { $count } neges yn { $folder }
     }
 # Variables:
 #   $count - number of seconds
