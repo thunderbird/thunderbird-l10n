@@ -287,7 +287,7 @@ account-hub-sync-accounts-found = { -brand-short-name } bazı bağlı servisler 
 account-hub-sync-accounts-not-found = { -brand-short-name } bağlı servisleri bulamadı
 account-hub-sync-accounts-failure = { -brand-short-name } seçilen servislere bağlanamadı
 account-hub-email-added-success = E-posta hesabı başarıyla bağlandı
-account-hub-config-test-success = Yapılandırma ayarları geçerli
+account-hub-config-test-success = { -brand-short-name } doğru ayarları buldu ve güncelledi.
 account-hub-select-all = Tümünü seç
 account-hub-deselect-all = Seçimi temizle
 # $count (Number) - The number of sync accounts selected.
