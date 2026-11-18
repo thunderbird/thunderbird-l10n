@@ -631,8 +631,11 @@ delete-event =
 calendar-properties-every-minute =
     .label =
         { $count ->
-            [zero] Pob munud
-            [one] Pob { $count } munud
+            [one] Pob munud
+            [zero] Pob { $count } munud
+            [two] Pob { $count } munud
+            [few] Pob { $count } munud
+            [many] Pob { $count } munud
            *[other] Pob { $count } munud
         }
 # LOCALIZATION NOTE (extract-using)
@@ -661,8 +664,11 @@ event-duration-menuitem-count-minutes =
 # $count (Number) - Number of hours, also used to determine the correct plural form.
 unit-hours =
     { $count ->
-        [zero] { $count } awr
         [one] { $count } awr
+        [zero] { $count } awr
+        [two] { $count } awr
+        [few] { $count } awr
+        [many] { $count } awr
        *[other] { $count } awr
     }
 event-duration-menuitem-count-hours =
@@ -684,8 +690,11 @@ event-duration-menuitem-count-days =
 # $count (Number) - Number of weeks, also used to determine the correct plural form.
 unit-weeks =
     { $count ->
-        [zero] { $count } wythnos
         [one] { $count } wythnos
+        [zero] { $count } wythnos
+        [two] { $count } wythnos
+        [few] { $count } wythnos
+        [many] { $count } wythnos
        *[other] { $count } wythnos
     }
 event-duration-menuitem-count-weeks =

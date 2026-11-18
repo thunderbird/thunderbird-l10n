@@ -8,9 +8,12 @@ recurrence-rule-too-complex = Manylion ailadrodd yn anhysbys
 #   $interval is a number, the recurrence interval
 recurrence-daily-every-nth =
     { $interval ->
-        [zero] pob diwrnod
-        [one] pob { $interval } diwrnod
-       *[other] pob { $interval } diwrnod
+        [one] bob dydd
+        [zero] bob { $interval } diwrnod
+        [two] bob { $interval } diwrnod
+        [few] bob { $interval } diwrnod
+        [many] bob { $interval } diwrnod
+       *[other] bob { $interval } diwrnod
     }
 recurrence-every-weekday = pob diwrnod o'r wythnos
 # Variables:
@@ -18,25 +21,34 @@ recurrence-every-weekday = pob diwrnod o'r wythnos
 #   $weekdays is a list of weekday names
 recurrence-weekly-every-nth-on =
     { $interval ->
-        [zero] pob { $weekdays }
-        [one] pob { $interval } wythnos ar { $weekdays }
-       *[other] pob { $interval } wythnos ar { $weekdays }
+        [one] bob { $weekdays }
+        [zero] bob { $interval } wythnos ar { $weekdays }
+        [two] bob { $interval } wythnos ar { $weekdays }
+        [few] bob { $interval } wythnos ar { $weekdays }
+        [many] bob { $interval } wythnos ar { $weekdays }
+       *[other] bob { $interval } wythnos ar { $weekdays }
     }
 # Variables:
 #  $interval is a number, the recurrence interval
 recurrence-weekly-every-nth =
     { $interval ->
-        [zero] pob wythnos
-        [one] pob { $interval } wythnos
-       *[other] pob { $interval } wythnos
+        [one] bob wythnos
+        [zero] bob { $interval } wythnos
+        [two] bob { $interval } wythnos
+        [few] bob { $interval } wythnos
+        [many] bob { $interval } wythnos
+       *[other] bob { $interval } wythnos
     }
 # Variables:
 #   $interval is a number, the recurrence interval
 recurrence-monthly-every-day-of-nth =
     { $interval ->
-        [zero] pob diwrnod o bob mis
-        [one] pob diwrnod o'r mis bob { $interval } mis
-       *[other] pob diwrnod o'r mis bob { $interval } mis
+        [one] bob dydd o bob mis
+        [zero] bob dydd o'r mis bob { $interval } mis
+        [two] bob dydd o'r mis bob { $interval } mis
+        [few] bob dydd o'r mis bob { $interval } mis
+        [many] bob dydd o'r mis bob { $interval } mis
+       *[other] bob dydd o'r mis bob { $interval } mis
     }
 recurrence-repeat-ordinal-1 = y cyntaf
 recurrence-repeat-ordinal-2 = yr ail
@@ -59,23 +71,32 @@ recurrence-ordinal-weekday = { $ordinal } { $weekday }
 #   $weekdays - weekday name(s)
 recurrence-monthly-every-of-every =
     { $interval ->
-        [zero] bob { $weekdays } o bob mis
-        [one] bob { $weekdays } o bob { $interval } mis
+        [one] bob { $weekdays } o bob mis
+        [zero] bob { $weekdays } o bob { $interval } mis
+        [two] bob { $weekdays } o bob { $interval } mis
+        [few] bob { $weekdays } o bob { $interval } mis
+        [many] bob { $weekdays } o bob { $interval } mis
        *[other] bob { $weekdays } o bob { $interval } mis
     }
 #  $weekdays - weekday name(s)
 #  $interval is a number, the recurrence interval
 recurrence-monthly-nth-of-every =
     { $interval ->
-        [zero] { $weekdays } o bob mis
-        [one] { $weekdays } o bob { $interval } mis
+        [one] { $weekdays } o bob mis
+        [zero] { $weekdays } o bob { $interval } mis
+        [two] { $weekdays } o bob { $interval } mis
+        [few] { $weekdays } o bob { $interval } mis
+        [many] { $weekdays } o bob { $interval } mis
        *[other] { $weekdays } o bob { $interval } mis
     }
 #  $interval is a number, the recurrence interval
 recurrence-monthly-last-day-of-nth =
     { $interval ->
-        [zero] diwrnod olaf y mis
-        [one] diwrnod olaf pob { $interval } mis
+        [one] diwrnod olaf y mis
+        [zero] diwrnod olaf pob { $interval } mis
+        [two] diwrnod olaf pob { $interval } fis
+        [few] diwrnod olaf pob { $interval } mis
+        [many] diwrnod olaf pob { $interval } mis
        *[other] diwrnod olaf pob { $interval } mis
     }
 recurrence-monthly-last-day = y diwrnod olaf
@@ -86,8 +107,11 @@ recurrence-monthly-last-day = y diwrnod olaf
 # e.g. "days 3, 6 and 9" or "days 3rd, 6th and 9th"
 recurrence-monthly-days-of-nth-day =
     { $count ->
-        [zero] diwrnod { $days }
         [one] diwrnod { $days }
+        [zero] diwrnod { $days }
+        [two] diwrnod { $days }
+        [few] diwrnod { $days }
+        [many] diwrnod { $days }
        *[other] diwrnod { $days }
     }
 # Variables:
@@ -97,8 +121,11 @@ recurrence-monthly-days-of-nth-day =
 # e.g. "days 3, 6, 9 and 12 of every 3 months"
 recurrence-monthly-days-of-nth =
     { $interval ->
-        [zero] { $monthlyDays } o bob mis
-        [one] { $monthlyDays } o bob { $interval } mis
+        [one] { $monthlyDays } o bob mis
+        [zero] { $monthlyDays } o bob { $interval } mis
+        [two] { $monthlyDays } o bob { $interval } fis
+        [few] { $monthlyDays } o bob { $interval } mis
+        [many] { $monthlyDays } o bob { $interval } mis
        *[other] { $monthlyDays } o bob { $interval } mis
     }
 # Edit recurrence window -> Recurrence pattern -> Yearly repeat rules
@@ -110,9 +137,12 @@ recurrence-monthly-days-of-nth =
 #      "every 2 years on December 8th"
 recurrence-yearly-nth-on =
     { $interval ->
-        [zero] pob { $month } { $monthDay }
-        [one] pob { $interval } blwyddyn ar { $month } { $monthDay }
-       *[other] pob { $interval } blwyddyn ar { $month } { $monthDay }
+        [one] bob { $month } { $monthDay }
+        [zero] bob { $interval } mlynedd ar { $month } { $monthDay }
+        [two] bob { $interval } flynedd ar { $month } { $monthDay }
+        [few] bob { $interval } blynedd ar { $month } { $monthDay }
+        [many] bob { $interval } mlynedd ar { $month } { $monthDay }
+       *[other] bob { $interval } blynedd ar { $month } { $monthDay }
     }
 # Edit recurrence window -> Recurrence pattern -> Yearly repeat rules
 # This string describes part of a yearly rule which includes every day of a month.
@@ -123,9 +153,12 @@ recurrence-yearly-nth-on =
 # e.g. "every 3 years every day of December"
 recurrence-yearly-every-day-of =
     { $interval ->
-        [zero] pob diwrnod o { $month }
-        [one] pob { $interval } blwyddyn pob diwrnod yn { $month }
-       *[other] pob { $interval } blwyddyn pob diwrnod yn { $month }
+        [one] bob dydd o fis { $month }
+        [zero] bob { $interval } blynedd bob dydd o fis { $month }
+        [two] bob { $interval } flynedd bob dydd o fis { $month }
+        [few] bob { $interval } blynedd bob dydd o fis { $month }
+        [many] bob { $interval } mlynedd bob dydd o fis { $month }
+       *[other] bob { $interval } blynedd bob dydd o fis { $month }
     }
 # Edit recurrence window -> Recurrence pattern -> Yearly repeat rules
 # Variables:
@@ -136,9 +169,12 @@ recurrence-yearly-every-day-of =
 # e.g  "every 3 years on every Thursday of March"
 recurrence-yearly-nth-of-nth =
     { $interval ->
-        [zero] pob { $weekday } o { $month }
-        [one] pob { $interval } blwyddyn ar bob { $weekday } of { $month }
-       *[other] pob { $interval } blwyddyn ar bob { $weekday } of { $month }
+        [one] pob { $weekday } o { $month }
+        [zero] bob { $interval } blwyddyn o bob { $weekday } o { $month }
+        [two] bob { $interval } flynedd o bob { $weekday } o { $month }
+        [few] bob { $interval } blynedd o bob { $weekday } o { $month }
+        [many] bob { $interval } mlynedd o bob { $weekday } o { $month }
+       *[other] bob { $interval } blynedd o bob { $weekday } o { $month }
     }
 # Edit recurrence window -> Recurrence pattern -> Yearly repeat rules
 # Variables:
