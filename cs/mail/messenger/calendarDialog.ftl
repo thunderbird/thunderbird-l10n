@@ -174,6 +174,10 @@ calendar-event-availability-selector =
 calendar-event-availability-default = Výchozí
 calendar-event-availability-busy = Zaneprázdněn
 calendar-event-availability-free = Volno
+
+## These strings are formatted as a list using Intl.Listformat,
+## resulting for example in "1 attending, 2 maybe, etc.".
+
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =

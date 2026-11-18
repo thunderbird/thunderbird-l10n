@@ -109,6 +109,10 @@ calendar-prompt-all-events =
 calendar-prompt-delete-button = Xoá
 calendar-dialog-edit-button = Chỉnh sửa
 calendar-event-create-edit-save-button = Lưu
+
+## These strings are formatted as a list using Intl.Listformat,
+## resulting for example in "1 attending, 2 maybe, etc.".
+
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going = { $count } tham dự

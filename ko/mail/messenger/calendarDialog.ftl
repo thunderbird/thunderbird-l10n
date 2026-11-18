@@ -129,6 +129,10 @@ calendar-event-save-idle = { "" }
 calendar-event-availability-default = 기본
 calendar-event-availability-busy = 일정 있음
 calendar-event-availability-free = 일정 없음
+
+## These strings are formatted as a list using Intl.Listformat,
+## resulting for example in "1 attending, 2 maybe, etc.".
+
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going = 참적 { $count }명

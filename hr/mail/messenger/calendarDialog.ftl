@@ -144,6 +144,10 @@ calendar-prompt-all-events =
 calendar-prompt-delete-button = Obriši
 calendar-dialog-edit-button = Uredi
 calendar-event-create-edit-save-button = Spremi
+
+## These strings are formatted as a list using Intl.Listformat,
+## resulting for example in "1 attending, 2 maybe, etc.".
+
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =

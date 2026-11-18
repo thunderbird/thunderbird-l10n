@@ -151,6 +151,10 @@ calendar-event-saving = Αποθήκευση…
 calendar-event-availability-selector =
     .aria-label = Διαθεσιμότητα
 calendar-event-availability-default = Προεπιλογή
+
+## These strings are formatted as a list using Intl.Listformat,
+## resulting for example in "1 attending, 2 maybe, etc.".
+
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =

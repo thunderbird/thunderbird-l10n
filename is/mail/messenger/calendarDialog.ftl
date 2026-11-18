@@ -160,6 +160,10 @@ calendar-event-availability-selector =
 calendar-event-availability-default = Sjálfgefið
 calendar-event-availability-busy = Upptekin/n
 calendar-event-availability-free = Laus
+
+## These strings are formatted as a list using Intl.Listformat,
+## resulting for example in "1 attending, 2 maybe, etc.".
+
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =

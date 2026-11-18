@@ -148,6 +148,10 @@ calendar-prompt-all-events =
 calendar-prompt-delete-button = Odstrániť
 calendar-dialog-edit-button = Upraviť
 calendar-event-create-edit-save-button = Uložiť
+
+## These strings are formatted as a list using Intl.Listformat,
+## resulting for example in "1 attending, 2 maybe, etc.".
+
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =

@@ -125,6 +125,10 @@ calendar-prompt-this-event =
 calendar-prompt-all-events =
     .label = Kaikki tapahtumat
 calendar-prompt-delete-button = Poista
+
+## These strings are formatted as a list using Intl.Listformat,
+## resulting for example in "1 attending, 2 maybe, etc.".
+
 # Variables:
 #   $count (Number): Number of guests that responded "attending".
 calendar-dialog-attendee-summary-going =
