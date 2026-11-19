@@ -277,7 +277,7 @@ account-hub-sync-accounts-found = { -brand-short-name } обнаружил не�
 account-hub-sync-accounts-not-found = { -brand-short-name } не удалось найти подключённые службы
 account-hub-sync-accounts-failure = { -brand-short-name } не удалось подключить выбранные службы
 account-hub-email-added-success = Учётная запись электронной почты успешно подключена
-account-hub-config-test-success = Параметры конфигурации действительны
+account-hub-config-test-success = { -brand-short-name } обнаружил правильные настройки и обновил их.
 account-hub-select-all = Выбрать все
 account-hub-deselect-all = Снять выделение
 # $count (Number) - The number of sync accounts selected.
