@@ -185,7 +185,7 @@ calendar-event-availability-selector =
 calendar-event-availability-default = Arferol
 calendar-event-availability-busy = Prysur
 calendar-event-availability-free = Rhydd
-calendar-event-prompt-edit-header = Golygu'r digwyddiad hwn neu holl ddigwyddiadau'r digwyddiad hwn?
+calendar-event-prompt-edit-header = Golygu'r digwyddiad hwn neu holl adegau'r digwyddiad hwn?
 calendar-prompt-edit-confirm-button = Cadarnhau
 calendar-event-prompt-edit-title = Golygu digwyddiad
 
@@ -196,7 +196,7 @@ calendar-event-add-category = Ychwanegu categori
 calendar-event-category-choices =
     .aria-label = Categorïau sydd ar gael
 calendar-event-selected-categories =
-    .aria-label = Categorïau dethol
+    .aria-label = Categorïau wedi'u dewis
 calendar-event-remaining-categories =
     .aria-label = Categorïau sy'n weddill
 # Variables:
@@ -211,9 +211,9 @@ calendar-event-more-categories = +{ $count } arall
         { $count ->
             [one] +{ $count } categori arall
             [zero] +{ $count } categori arall
-            [two] +{ $count } categori arall
-            [few] +{ $count } categori arall
-            [many] +{ $count } categori arall
+            [two] +{ $count } gategori arall
+            [few] +{ $count } chategori arall
+            [many] +{ $count } chategori arall
            *[other] +{ $count } categori arall
         }
 
