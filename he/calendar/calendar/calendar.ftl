@@ -361,7 +361,7 @@ html-prefix-description = תיאור
 # $task task
 html-task-completed = { $task } (הושלם)
 # Categories
-add-category = הוסף קטגוריה
+add-category = הוספת קטגוריה
 multiple-categories = מגוון קטגוריות
 calendar-today = היום
 calendar-tomorrow = מחר
