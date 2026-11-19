@@ -977,9 +977,24 @@ reset-spam-button =
     .accesskey = B
 confirm-reset-junk-training-title = Berretsi
 confirm-reset-junk-training-message = Ziur iragazki moldakorraren trebatze datuak berrezarri nahi dituzula?
+scam-detection-description = { -brand-short-name }ek mezuak aztertzen ditu, phishing-estekak eta posta elektronikoko iruzurren ohiko zantzuak bilatzeko.
+scam-detection-label =
+    .label = Abisatu iruzurra dirudien mezu elektroniko bat irakurtzean
+    .accesskey = A
+antivirus-check-description = Antibirus-softwareari sarrerako mezuak banaka aztertzeko aukera ematen dio, zure ordenagailuan gorde aurretik.
+antivirus-isolate-label =
+    .label = Baimendu antibirus-softwareari kutsatutako sarrerako mezu elektronikoak isolatzea
+    .accesskey = i
+certificate-verify-description = Zerbitzari batek zure nortasuna egiaztatzeko ziurtagiri bat eskatzen duenean:
+certificate-choose-auto =
+    .label = Aukeratu ziurtagiri bat automatikoki
+    .accesskey = A
 certificate-ask-every =
     .label = Galdetu beti
     .accesskey = b
+ocsp-check-label =
+    .label = Egiaztatu ziurtagiriak baliozkotzeko zerbitzariak (OCSP), ziurtagiriak oraindik zuzenak direla baieztatzeko.
+    .accesskey = E
 phishing-description = { -brand-short-name }(e)k mezuak azter ditzake posta-iruzurrak bilatzeko, iruzur egiteko erabil daitezkeen oinarrizko teknikak begiratuz.
 phishing-label =
     .label = Esaidazu irakurtzen ari naizen mezua posta-iruzurra izan daitekeen
@@ -1006,7 +1021,17 @@ security-devices-button =
     .accesskey = S
 email-e2ee-header = Muturretik muturrerako zifratzea posta elektronikoan
 account-settings = Kontu-ezarpenak
+email-e2ee-accounts-info = Zifratutako mezu elektronikoak zuk eta zure hartzaileek soilik irakur ditzakezue. Konfiguratu posta-kontuak eta identitateak muturretik muturrerako zifratzea erabiltzeko, <a data-l10n-name="account-settings-url">Kontuaren ezarpenak</a> atalean.
+email-e2ee-enable-accounts-info = Konfiguratu posta elektronikoko kontuak eta identitateak muturretik muturrerako zifratzerako, <a data-l10n-name="account-settings-url">Kontuaren ezarpenak</a> atalean.
 email-e2ee-automatism = Zifratzearen erabilera automatikoa
+email-e2ee-automatism-intro = { -brand-short-name } aplikazioak zifratzea gaitu dezake, baldin eta mezuaren hartzaile guztientzat onartutako gako edo ziurtagiri baliozkoak eskuragarri badaude.
+email-e2ee-turn-on =
+    .label = Gaitu automatikoki zifratzea posible denean
+email-e2ee-turn-off =
+    .label = Desgaitu automatikoki zifratzea hartzaileak aldatzen direnean eta zifratzea posible ez denean
+email-e2ee-turn-off-notify =
+    .label = Erakutsi jakinarazpen bat zifratzea automatikoki desgaitzen den bakoitzean
+email-e2ee-automatism-note = Oharra: Mezu bat idazten ari zaren bitartean, zifratzea eskuz ere aktiba edo desaktiba dezakezu. Zifratutako mezu bati erantzutean, zifratzea beti aktibatzen da.
 email-e2ee-automatism-pre =
     { -brand-short-name } lagun dezake zifratzea automatikoki gaituz edo desgaituz mezu elektroniko bat idazten duzun bitartean.
     Gaitu/desgaitu automatikoki korrespontsalen gako edo ziurtagiri baliozko eta onartuen erabilgarritasunean oinarritzen da.
@@ -1020,6 +1045,9 @@ email-e2ee-automatism-post =
     Erabaki automatikoak baliogabetu daitezke mezu bat idazterakoan zifratzea eskuz gaituz edo desgaituz.
     oharra: Zifratzea automatikoki gaituta dago beti zifratutako mezu bati erantzutean.
 email-content = Postaren edukia
+remote-content-images-label =
+    .label = Baimendu urruneko edukia (irudiak eta estiloak)
+    .accesskey = B
 
 ## DoH Section
 
@@ -1043,6 +1071,9 @@ preferences-doh-status-not-active = Inaktibo ({ $reason })
 preferences-doh-group-message = Gaitu HTTPS gaineko DNSa ondorengoa erabiliz:
 preferences-doh-expand-section =
     .tooltiptext = Informazio gehiago
+preferences-doh-setting-automatic =
+    .label = Babes automatikoa (Gomendatua)
+    .accesskey = B
 preferences-doh-automatic-desc = { -brand-short-name }ek automatikoki zifratzen ditu helbide-kontsultak, horretarako aukera dagoenean. Konexio-arazorik izanez gero, edo VPN batek edo kudeatutako sare batek hala eskatzen badu, sareko kontsulta estandarretara itzultzen da.
 preferences-doh-setting-default =
     .label = Babes lehenetsia
@@ -1276,6 +1307,9 @@ qr-export-accounts-legend = Posta elektroniko kontuak
 qr-export-select-all-accounts = Hautatu dena
 qr-export-passwords-legend = Pasahitzak
 qr-export-include-passwords-label = Sartu kontuen pasahitzak QR kodean
+qr-export-web-sign-in-note = <strong>Oharra:</strong> Web bidezko saio-hasiera erabiltzen duten kontuek (Gmail edo Yahoo, adibidez) berriro autentifikatzea eskatzen dute zure gailuan.
+qr-export-private-transfer-note = <strong>Transferentzia pribatua:</strong> Zure ezarpenak eta pasahitzak zuzenean pasatzen dira ordenagailu honetatik telefonora. Ez da ezer bidaltzen Mozillaren zerbitzarietara, ezta bertan gordetzen ere.
+qr-export-screen-privacy-tip = <strong>Aholkua:</strong> Mantendu pantaila besteen begietatik ezkutatuta QR kodea bistaratzen den bitartean.
 qr-export-security-legend = Segurtasuna
 qr-export-include-passwords = Sartu kontu guztien pasahitzak
 qr-export-oauth-warning = Zure kontuetako batzuek autentifikazio-metodo bat erabiltzen dute, eta baliteke zure gailu mugikorrean berriro autentifikazioa behar izatea. Baliteke zure pasahitzak berriro sartu behar izatea prozesu honetan zehar.
@@ -1325,6 +1359,8 @@ qr-export-summary-accounts =
 qr-export-summary-passwords-included = Pasahitzak barne
 qr-export-summary-passwords-excluded = Pasahitzak baztertuta
 qr-export-more-accounts = Esportatu kontu gehiago
+qr-export-pane-header-mobile = Esportatu { -brand-product-name } mugikorrera
+qr-export-description-email-accounts = Transferitu zure posta elektronikoko kontuak ordenagailu honetatik telefonoko { -brand-product-name } aplikaziora, QR kode bat erabiliz.
 
 ## Appearance Tab
 
