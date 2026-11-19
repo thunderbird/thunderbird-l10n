@@ -26,3 +26,10 @@ calendar-event-availability-selector =
 calendar-event-availability-default = ברירת מחדל
 calendar-event-availability-busy = עסוק
 calendar-event-availability-free = פנוי
+calendar-event-prompt-edit-header = לערוך את האירוע הזה או את כל המופעים שלו?
+calendar-prompt-edit-confirm-button = אישור
+calendar-event-prompt-edit-title = עריכת אירוע
+
+## Category controls in the event create/edit dialog.
+
+calendar-event-categories = קטגוריות
