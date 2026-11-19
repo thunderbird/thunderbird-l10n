@@ -1361,11 +1361,16 @@ qr-export-summary-passwords-excluded = Pasahitzak baztertuta
 qr-export-more-accounts = Esportatu kontu gehiago
 qr-export-pane-header-mobile = Esportatu { -brand-product-name } mugikorrera
 qr-export-description-email-accounts = Transferitu zure posta elektronikoko kontuak ordenagailu honetatik telefonoko { -brand-product-name } aplikaziora, QR kode bat erabiliz.
+qr-export-get-app-google-play = <a data-l10n-name="app-link">Eskuratu { -brand-product-name } Google Play-n</a>
+qr-export-select-accounts-title = Hautatu zein kontu esportatu nahi dituzun:
+qr-export-missing-accounts-support = Konturen bat falta da? Android-erako { -brand-product-name } aplikazioan onartzen ez diren kontuak ezin dira hautatu. <a data-l10n-name="account-support-link">Ikusi zein kontu-mota onartzen diren</a>
 
 ## Appearance Tab
 
 appearance-category-header = Itxura
 accent-color-legend = Nabarmentze kolorea
+accent-color-selection-label =
+    .value = Aukeratu kolorea botoi nagusirako eta nabarmentzeetarako
 accent-color-thunderbird =
     .label = Thunderbird urdina
 accent-color-purple =
