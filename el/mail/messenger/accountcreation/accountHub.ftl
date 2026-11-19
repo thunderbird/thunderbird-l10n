@@ -277,7 +277,7 @@ account-hub-sync-accounts-found = Το { -brand-short-name } βρήκε ορισ
 account-hub-sync-accounts-not-found = Το { -brand-short-name } δεν μπόρεσε να βρει συνδεδεμένες υπηρεσίες
 account-hub-sync-accounts-failure = Το { -brand-short-name } δεν μπόρεσε να συνδεθεί στις επιλεγμένες υπηρεσίες
 account-hub-email-added-success = Επιτυχής σύνδεση λογαριασμού email
-account-hub-config-test-success = Έγκυρες ρυθμίσεις παραμέτρων
+account-hub-config-test-success = Το { -brand-short-name } βρήκε τις σωστές ρυθμίσεις και τις ενημέρωσε.
 account-hub-select-all = Επιλογή όλων
 account-hub-deselect-all = Αποεπιλογή όλων
 # $count (Number) - The number of sync accounts selected.
