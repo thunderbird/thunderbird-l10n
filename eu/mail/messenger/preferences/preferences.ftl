@@ -1031,10 +1031,22 @@ preferences-doh-url-default =
 preferences-doh-url-custom =
     .label = Pertsonalizatua
     .accesskey = P
+preferences-doh-secure-header = DNS segurua (DNS HTTPS bidez)
+preferences-doh-secure-description = DNS seguruak { -brand-short-name }ek webguneak aurkitzeko bidaltzen dituen kontsulta-eskaerak zifratzen ditu; horrela, zure nabigazio-jarduera pribatu mantentzen du, sareko edozein monitorizaziotik babestuta.
 
 ## Keyservers
 
+email-e2ee-key-servers-legend = OpenPGP gako-zerbitzariak
+email-e2ee-key-servers-intro =
+    Gako-zerbitzari batek lehendik dauden gako publikoak jasotzen ditu, eta, ondoren, erabiltzaileen eskura jartzen ditu.
+    Zure gako publikoa argitaratzeko, bai eta besteen gakoak aurkitzeko eta eguneratzeko ere, aukera ematen du.
+email-e2ee-key-servers-use-following = Erabili ondorengo gako-zerbitzariak:
 email-e2ee-key-servers-add = Gehitu…
+email-e2ee-key-servers-reset = Berrezarri zerbitzari-zerrenda
+email-e2ee-key-servers-add-title = Gehitu gako-zerbitzaria
+email-e2ee-key-servers-add-text = Sartu gehitu beharreko gako-zerbitzariaren URLa.
+email-e2ee-key-servers-add-failed-title = Gako-zerbitzaria gehitzeak huts egin du
+email-e2ee-key-servers-add-failed-text = Ezin izan da emandako URLan dagoen gako-zerbitzari batera konektatu.
 
 ## Chat Tab
 
@@ -1131,6 +1143,7 @@ chat-variant-label =
 search-preferences-input2 =
     .placeholder = Bilatu ezarpenetan
     .style = width: 15.4em
+managed-by-organization-notice = { -brand-short-name } erakunde batek kudeatzen du.
 managed-notice = { -brand-short-name } zure erakundeak kudeatzen du.
 chat-theme-preview-default =
     .label = Lehenetsia
@@ -1206,6 +1219,7 @@ qr-export-no-accounts = Ez dituzu zure kontu guztiak ikusten? Baliteke kontu bat
 qr-export-accounts-legend = Posta elektroniko kontuak
 qr-export-select-all-accounts = Hautatu dena
 qr-export-passwords-legend = Pasahitzak
+qr-export-include-passwords-label = Sartu kontuen pasahitzak QR kodean
 qr-export-security-legend = Segurtasuna
 qr-export-include-passwords = Sartu kontu guztien pasahitzak
 qr-export-oauth-warning = Zure kontuetako batzuek autentifikazio-metodo bat erabiltzen dute, eta baliteke zure gailu mugikorrean berriro autentifikazioa behar izatea. Baliteke zure pasahitzak berriro sartu behar izatea prozesu honetan zehar.
