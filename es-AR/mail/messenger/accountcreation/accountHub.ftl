@@ -277,7 +277,7 @@ account-hub-sync-accounts-found = { -brand-short-name } encontró algunos servic
 account-hub-sync-accounts-not-found = { -brand-short-name } no pudo encontrar servicios conectados
 account-hub-sync-accounts-failure = { -brand-short-name } no pudo conectar los servicios seleccionados
 account-hub-email-added-success = Cuenta de correo electrónico conectada correctamente
-account-hub-config-test-success = Ajustes de configuración válidos
+account-hub-config-test-success = { -brand-short-name } encontró la configuración correcta y la actualizó.
 account-hub-select-all = Seleccionar todo
 account-hub-deselect-all = Deseleccionar todo
 # $count (Number) - The number of sync accounts selected.
