@@ -7,9 +7,7 @@ account-setup-tab-title = Account Setup
 ## Header
 
 account-setup-title = Set Up Your Existing Email Address
-account-setup-description =
-    To use your current email address fill in your credentials.<br/>
-    { -brand-product-name } will automatically search for a working and recommended server configuration.
+account-setup-description = To use your current email address fill in your credentials.
 account-setup-secondary-description = { -brand-product-name } will automatically search for a working and recommended server configuration.
 account-setup-success-title = Account successfully created
 account-setup-success-description = You can now use this account with { -brand-short-name }.

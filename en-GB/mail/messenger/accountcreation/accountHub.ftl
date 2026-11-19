@@ -277,7 +277,7 @@ account-hub-sync-accounts-found = { -brand-short-name } found some connected ser
 account-hub-sync-accounts-not-found = { -brand-short-name } was unable to find connected services
 account-hub-sync-accounts-failure = { -brand-short-name } was unable to connect the selected services
 account-hub-email-added-success = Email account connected successfully
-account-hub-config-test-success = Configuration settings valid
+account-hub-config-test-success = { -brand-short-name } found the correct settings and updated them.
 account-hub-select-all = Select all
 account-hub-deselect-all = Deselect all
 # $count (Number) - The number of sync accounts selected.
