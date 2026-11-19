@@ -50,7 +50,7 @@ policy-DNSOverHTTPS = Iestatīt DNS caur HTTPS.
 policy-DontCheckDefaultClient = Atspējot noklusējuma klienta pārbaudi pēc palaišanas.
 policy-DownloadDirectory = Iestatīt un noslēgt lejuplādes mapi.
 # “lock” means that the user won’t be able to change this setting
-policy-EnableTrackingProtection = Ļaut vai liegt satura bloķēšanu un pēc izvēles to noslēgt.
+policy-EnableTrackingProtection = Iespējot vai atspējot satura aizturēšanu un pēc izvēles to noslēgt.
 # “lock” means that the user won’t be able to change this setting
 policy-EncryptedMediaExtensions = Ieslēgt vai atslēgt šifrētos multivides paplašinājumus un pēc izvēles tos noslēgt.
 # A “locked” extension can’t be disabled or removed by the user. This policy
