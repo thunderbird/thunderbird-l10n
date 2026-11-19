@@ -159,6 +159,32 @@ calendar-event-availability-selector =
 calendar-event-availability-default = Lehenetsia
 calendar-event-availability-busy = Okupatuta
 calendar-event-availability-free = Libre
+calendar-prompt-edit-confirm-button = Berretsi
+calendar-event-prompt-edit-title = Editatu gertaera
+
+## Category controls in the event create/edit dialog.
+
+calendar-event-categories = Kategoriak
+calendar-event-add-category = Gehitu kategoria
+calendar-event-category-choices =
+    .aria-label = Eskura dauden kategoriak
+calendar-event-selected-categories =
+    .aria-label = Hautatutako kategoriak
+calendar-event-remaining-categories =
+    .aria-label = Gainerako kategoriak
+# Variables:
+#   $category (String): The name of the category to remove.
+calendar-event-remove-category =
+    .aria-label = Kendu { $category } kategoria
+    .title = Kendu { $category } kategoria
+# Variables:
+#   $count (Number): The number of categories not shown in the summary.
+calendar-event-more-categories = +{ $count } gehiago
+    .aria-label =
+        { $count ->
+            [one] + kategoria { $count } gehiago
+           *[other] +{ $count } kategoria gehiago
+        }
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".
