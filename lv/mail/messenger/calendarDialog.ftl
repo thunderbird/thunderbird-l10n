@@ -77,3 +77,31 @@ calendar-event-availability-selector =
 calendar-event-availability-default = Noklusējuma
 calendar-event-availability-busy = Aizņemts
 calendar-event-availability-free = Brīvs
+calendar-event-prompt-edit-header = Labot šo notikumu vai visus tā atkārtojumus?
+calendar-prompt-edit-confirm-button = Apstiprināt
+calendar-event-prompt-edit-title = Labot notikumu
+
+## Category controls in the event create/edit dialog.
+
+calendar-event-categories = Kategorijas
+calendar-event-add-category = Pievienot kategoriju
+calendar-event-category-choices =
+    .aria-label = Pieejamās kategorijas
+calendar-event-selected-categories =
+    .aria-label = Atlasītās kategorijas
+calendar-event-remaining-categories =
+    .aria-label = Atlikušās kategorijas
+# Variables:
+#   $category (String): The name of the category to remove.
+calendar-event-remove-category =
+    .aria-label = Noņemt kategoriju { $category }
+    .title = Noņemt kategoriju { $category }
+# Variables:
+#   $count (Number): The number of categories not shown in the summary.
+calendar-event-more-categories = + vēl { $count }
+    .aria-label =
+        { $count ->
+            [zero] + vēl { $count } kategoriju
+            [one] + vēl { $count } kategorija
+           *[other] + vēl { $count } kategorijas
+        }
