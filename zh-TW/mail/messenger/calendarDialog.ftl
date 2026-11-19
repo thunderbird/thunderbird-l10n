@@ -153,18 +153,18 @@ calendar-event-availability-selector =
 calendar-event-availability-default = 預設
 calendar-event-availability-busy = 忙碌
 calendar-event-availability-free = 空閒
-calendar-event-prompt-edit-header = 要編輯此事件或此事件的所有事件嗎
+calendar-event-prompt-edit-header = 只編輯這場事件，還是所有重複的事件？
 calendar-prompt-edit-confirm-button = 確認
 calendar-event-prompt-edit-title = 編輯事件
 
 ## Category controls in the event create/edit dialog.
 
 calendar-event-categories = 分類
-calendar-event-add-category = 新增類別
+calendar-event-add-category = 新增分類
 calendar-event-category-choices =
-    .aria-label = 可用的分類
+    .aria-label = 可用分類
 calendar-event-selected-categories =
-    .aria-label = 選取的分類
+    .aria-label = 選擇的分類
 calendar-event-remaining-categories =
     .aria-label = 剩餘分類
 # Variables:
@@ -174,10 +174,10 @@ calendar-event-remove-category =
     .title = 移除分類 { $category }
 # Variables:
 #   $count (Number): The number of categories not shown in the summary.
-calendar-event-more-categories = +{ $count } 個
+calendar-event-more-categories = +{ $count } 類
     .aria-label =
         { $count ->
-           *[other] 更多 { $count } 個分類
+           *[other] 還有 { $count } 個分類
         }
 
 ## These strings are formatted as a list using Intl.Listformat,
