@@ -133,6 +133,33 @@ calendar-prompt-all-events =
 calendar-prompt-delete-button = წაშლა
 calendar-dialog-edit-button = ჩასწორება
 calendar-event-create-edit-save-button = შენახვა
+calendar-event-prompt-edit-header = ეს ღონისძიება ჩასწორდეს, თუ ყოველი გასამართი ღონისძიება?
+calendar-prompt-edit-confirm-button = დასტური
+calendar-event-prompt-edit-title = ღონისძიების ჩასწორება
+
+## Category controls in the event create/edit dialog.
+
+calendar-event-categories = კატეგორიები
+calendar-event-add-category = კატეგორიის დამატება
+calendar-event-category-choices =
+    .aria-label = ხელმისაწვდომი კატეგორიები
+calendar-event-selected-categories =
+    .aria-label = შერჩეული კატეგორიები
+calendar-event-remaining-categories =
+    .aria-label = დარჩენილი კატეგორიები
+# Variables:
+#   $category (String): The name of the category to remove.
+calendar-event-remove-category =
+    .aria-label = მოცილდეს კატეგორია { $category }
+    .title = მოცილდეს კატეგორია { $category }
+# Variables:
+#   $count (Number): The number of categories not shown in the summary.
+calendar-event-more-categories = +{ $count } სხვა
+    .aria-label =
+        { $count ->
+            [one] +{ $count } სხვა კატეგორია
+           *[other] +{ $count } სხვა კატეგორია
+        }
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".
