@@ -151,6 +151,32 @@ calendar-event-saving = Αποθήκευση…
 calendar-event-availability-selector =
     .aria-label = Διαθεσιμότητα
 calendar-event-availability-default = Προεπιλογή
+calendar-prompt-edit-confirm-button = Επιβεβαίωση
+calendar-event-prompt-edit-title = Επεξεργασία εκδήλωσης
+
+## Category controls in the event create/edit dialog.
+
+calendar-event-categories = Κατηγορίες
+calendar-event-add-category = Προσθήκη κατηγορίας
+calendar-event-category-choices =
+    .aria-label = Διαθέσιμες κατηγορίες
+calendar-event-selected-categories =
+    .aria-label = Επιλεγμένες κατηγορίες
+calendar-event-remaining-categories =
+    .aria-label = Υπολειπόμενες κατηγορίες
+# Variables:
+#   $category (String): The name of the category to remove.
+calendar-event-remove-category =
+    .aria-label = Αφαίρεση κατηγορίας «{ $category }»
+    .title = Αφαίρεση κατηγορίας «{ $category }»
+# Variables:
+#   $count (Number): The number of categories not shown in the summary.
+calendar-event-more-categories = +{ $count } ακόμα
+    .aria-label =
+        { $count ->
+            [one] +{ $count } ακόμα κατηγορία
+           *[other] +{ $count } ακόμα κατηγορίες
+        }
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".

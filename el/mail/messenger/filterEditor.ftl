@@ -32,6 +32,16 @@ filter-failure-sending-reply-aborted = Η αποστολή απάντησης α
 filter-failure-move-failed = Αποτυχία μετακίνησης
 filter-failure-copy-failed = Αποτυχία αντιγραφής
 filter-failure-action = Αποτυχία εφαρμογής της ενέργειας φίλτρου
+# Referenced by filter-copy-batch-failed and filter-move-batch-failed.
+# Variables:
+# $messageIds (String) - Up to 20 requested message IDs, separated by commas.
+# $count (Number) - The number of additional requested messages whose IDs are omitted.
+filter-batch-message-ids =
+    { $count ->
+        [0] { $messageIds }
+        [one] { $messageIds } και { $count } ακόμα μήνυμα
+       *[other] { $messageIds } και { $count } ακόμα μηνύματα
+    }
 # Variables:
 # $filterName (String) - The name of the filter that was applied.
 # $author (String) - The sender of the message.
