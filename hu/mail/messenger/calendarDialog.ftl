@@ -160,6 +160,33 @@ calendar-event-availability-selector =
 calendar-event-availability-default = Alapértelmezett
 calendar-event-availability-busy = Elfoglalt
 calendar-event-availability-free = Szabad
+calendar-event-prompt-edit-header = Csak ezt az eseményt vagy az összes előfordulását szerkeszti?
+calendar-prompt-edit-confirm-button = Megerősítés
+calendar-event-prompt-edit-title = Esemény szerkesztése
+
+## Category controls in the event create/edit dialog.
+
+calendar-event-categories = Kategóriák
+calendar-event-add-category = Kategória hozzáadása
+calendar-event-category-choices =
+    .aria-label = Elérhető kategóriák
+calendar-event-selected-categories =
+    .aria-label = Kiválasztott kategóriák
+calendar-event-remaining-categories =
+    .aria-label = Hátralévő kategóriák
+# Variables:
+#   $category (String): The name of the category to remove.
+calendar-event-remove-category =
+    .aria-label = { $category } kategória eltávolítása
+    .title = { $category } kategória eltávolítása
+# Variables:
+#   $count (Number): The number of categories not shown in the summary.
+calendar-event-more-categories = +{ $count } további
+    .aria-label =
+        { $count ->
+            [one] +{ $count } további kategória
+           *[other] +{ $count } további kategória
+        }
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".
