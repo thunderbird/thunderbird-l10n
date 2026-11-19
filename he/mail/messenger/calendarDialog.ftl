@@ -33,3 +33,15 @@ calendar-event-prompt-edit-title = עריכת אירוע
 ## Category controls in the event create/edit dialog.
 
 calendar-event-categories = קטגוריות
+calendar-event-add-category = הוספת קטגוריה
+calendar-event-category-choices =
+    .aria-label = קטגוריות זמינות
+calendar-event-selected-categories =
+    .aria-label = קטגוריות נבחרות
+calendar-event-remaining-categories =
+    .aria-label = קטגוריות שנותרו
+# Variables:
+#   $category (String): The name of the category to remove.
+calendar-event-remove-category =
+    .aria-label = הסרת הקטגוריה { $category }
+    .title = הסרת הקטגוריה { $category }

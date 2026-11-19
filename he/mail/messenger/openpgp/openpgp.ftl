@@ -2,6 +2,9 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+account-settings-encrypt-draft-messages =
+    .label = הצפנת הודעות טיוטה
+    .accesskey = ה
 e2e-advanced-section = הגדרות מתקדמות
 openpgp-key-id-label =
     .label = מזהה מפתח
