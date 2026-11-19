@@ -224,10 +224,26 @@ disabled-mode = Lasot kalendāra “{ $name }” datus, radās kļūda. Kalendā
 #    $name will be replaced with the name of a calendar
 minor-error = Lasot datus kalendāram { $name }, radās kļūda. Tomēr tiek uzskatīts, ka šī kļūda ir neliela, tāpēc programma mēģinās turpināt darbu.
 item-modified-on-server-title = Vienums ir izmainīts serverī
+item-modified-on-server = Šis vienums serverī nesen ir mainīts.
+modify-will-lose-data = Iesniedzot izmaiņas, tiks pārrakstītas serverī veiktās izmaiņas.
+delete-will-lose-data = Dzēšot šo vienumu, tiks zaudētas serverī veiktās izmaiņas.
 calendar-conflicts-dialog =
     .buttonlabelcancel = Atmest izmaiņas un pārlādēt
+proceed-modify =
+    .label = Tomēr iesniegt manas izmaiņas
 proceed-delete =
     .label = Vienalga izdzēst
+# $name calendar name
+dav-not-dav = Resurss vietnē { $name } vai nu nav DAV kolekcija, vai arī nav pieejams.
+# $name calendar name
+dav-dav-not-cal-dav = Resurss vietnē { $name } ir DAV kolekcija, bet ne CalDAV kalendārs
+item-put-error = Saglabājot vienumu serverī, radās kļūda.
+item-delete-error = Dzēšot vienumu no servera, radās kļūda.
+cal-dav-request-error = Sūtot ielūgumu, radās kļūda.
+cal-dav-response-error = Sūtot atbildi, radās kļūda.
+# $statusCode status code
+cal-dav-request-status-code = Statusa kods: { $statusCode }
+cal-dav-request-status-code-string-generic = Pieprasījumu nevar apstrādāt.
 cal-dav-request-status-code-string-500 = Iekšēja servera kļūda.
 cal-dav-request-status-code-string-503 = Iekšēja servera kļūda (Īslaicīgs servera darbības pārtraukums?).
 cal-dav-redirect-disable-calendar = Atspējot kalendāru
