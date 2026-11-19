@@ -159,6 +159,20 @@ calendar-event-availability-selector =
 calendar-event-availability-default = Бастапқы
 calendar-event-availability-busy = Бос емес
 calendar-event-availability-free = Бос
+calendar-event-prompt-edit-header = Осы оқиғаны немесе осы оқиғаның барлық қайталануларын өңдеу керек пе?
+calendar-prompt-edit-confirm-button = Растау
+calendar-event-prompt-edit-title = Оқиғаны түзету
+
+## Category controls in the event create/edit dialog.
+
+calendar-event-categories = Санаттар
+calendar-event-add-category = Санат қосу
+calendar-event-category-choices =
+    .aria-label = Қолжетімді санаттар
+calendar-event-selected-categories =
+    .aria-label = Таңдалған санаттар
+calendar-event-remaining-categories =
+    .aria-label = Қалған санаттар
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".
