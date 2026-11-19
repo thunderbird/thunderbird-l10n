@@ -160,6 +160,33 @@ calendar-event-availability-selector =
 calendar-event-availability-default = Sjálfgefið
 calendar-event-availability-busy = Upptekin/n
 calendar-event-availability-free = Laus
+calendar-event-prompt-edit-header = Breyta bara þessum atburði eða öllum tilvikum hans?
+calendar-prompt-edit-confirm-button = Staðfesta
+calendar-event-prompt-edit-title = Breyta atburði
+
+## Category controls in the event create/edit dialog.
+
+calendar-event-categories = Flokkar
+calendar-event-add-category = Bæta við flokki
+calendar-event-category-choices =
+    .aria-label = Tiltækir flokkar
+calendar-event-selected-categories =
+    .aria-label = Valdir flokkar
+calendar-event-remaining-categories =
+    .aria-label = Eftirstandandi flokkar
+# Variables:
+#   $category (String): The name of the category to remove.
+calendar-event-remove-category =
+    .aria-label = Fjarlægja flokkinn { $category }
+    .title = Fjarlægja flokkinn { $category }
+# Variables:
+#   $count (Number): The number of categories not shown in the summary.
+calendar-event-more-categories = +{ $count } í viðbót
+    .aria-label =
+        { $count ->
+            [one] +{ $count } flokkur í viðbót
+           *[other] +{ $count } flokkar í viðbót
+        }
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".
