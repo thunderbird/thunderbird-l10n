@@ -173,6 +173,19 @@ calendar-event-selected-categories =
     .aria-label = Таңдалған санаттар
 calendar-event-remaining-categories =
     .aria-label = Қалған санаттар
+# Variables:
+#   $category (String): The name of the category to remove.
+calendar-event-remove-category =
+    .aria-label = { $category } санатын өшіру
+    .title = { $category } санатын өшіру
+# Variables:
+#   $count (Number): The number of categories not shown in the summary.
+calendar-event-more-categories = +тағы { $count }
+    .aria-label =
+        { $count ->
+            [one] +тағы { $count } санат
+           *[other] +тағы { $count } санат
+        }
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".
