@@ -11,12 +11,21 @@ calendar-dialog-close-button =
     .title = Zavrieť
 calendar-event-create-edit-dialog =
     .aria-label = Udalosť
+calendar-event-title-input-new =
+    .aria-label = Názov udalosti
+    .placeholder = Nová udalosť
+calendar-event-title-input-untitled =
+    .aria-label = Názov udalosti
+    .placeholder = Udalosť bez názvu
+calendar-event-title-required = Vyžadované
+calendar-event-title-too-long = Názov môže mať najviac 180 znakov
 calendar-dialog-menu-button =
     .aria-label = Otvoriť ponuku
     .title = Otvoriť ponuku
 calendar-dialog-back-button =
     .aria-label = Naspäť
     .title = Naspäť
+calendar-event-create-edit-dialog-back-button = Naspäť
 calendar-dialog-date-row-icon =
     .alt = Dátum a čas
 calendar-dialog-date-row-recurring-icon =
@@ -148,6 +157,28 @@ calendar-prompt-all-events =
 calendar-prompt-delete-button = Odstrániť
 calendar-dialog-edit-button = Upraviť
 calendar-event-create-edit-save-button = Uložiť
+calendar-event-calendar-selector =
+    .aria-label = Kalendár
+calendar-event-save = Uložiť
+calendar-event-saving = Ukladá sa…
+calendar-event-save-failed = Udalosť sa nepodarilo uložiť. Skúste to znovu.
+calendar-event-calendar-unavailable = Do tohto kalendára nemožno pridávať nové udalosti. Vyberte iný kalendár a skúste to znova.
+
+## Category controls in the event create/edit dialog.
+
+calendar-event-categories = Kategórie
+calendar-event-add-category = Pridať kategóriu
+calendar-event-category-choices =
+    .aria-label = Dostupné kategórie
+calendar-event-selected-categories =
+    .aria-label = Zvolené kategórie
+calendar-event-remaining-categories =
+    .aria-label = Zostávajúce kategórie
+# Variables:
+#   $category (String): The name of the category to remove.
+calendar-event-remove-category =
+    .aria-label = Odstrániť kategóriu { $category }
+    .title = Odstrániť kategóriu { $category }
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".

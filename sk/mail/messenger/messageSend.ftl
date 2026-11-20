@@ -90,6 +90,13 @@ smtp-auth-hint-plain-to-encrypt = Server pre odosielanie pošty (SMTP) { $hostna
 smtp-auth-failure = Overenie na serveri pre odosielanie pošty (SMTP) { $hostname } zlyhalo. Skontrolujte heslo a položku „Metóda overenia“ v časti „Nastavenia účtu | Server pre odosielanie pošty“.
 # Variables:
 # $hostname - outgoing server hostname
+# $serverResponse - server response
+smtp-auth-oauth2-failure = Overenie na serveri na odosielanie pošty (SMTP) { $hostname } pomocou OAuth2 zlyhalo. Server odpovedal: { $serverResponse }
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-oauth2-failure-no-response = Overenie na serveri pre odosielanie pošty (SMTP) { $hostname } pomocou OAuth2 zlyhalo.
+# Variables:
+# $hostname - outgoing server hostname
 smtp-auth-gssapi = Server pre odosielanie pošty (SMTP) { $hostname } neprijal lístok Kerberos/GSSAPI. Skontrolujte, či ste prihlásení do sféry Kerberos/GSSAPI.
 # Variables:
 # $hostname - outgoing server hostname
