@@ -277,7 +277,7 @@ account-hub-sync-accounts-found = { -brand-short-name } 找到一些連結的服
 account-hub-sync-accounts-not-found = { -brand-short-name } 找不到連結的服務
 account-hub-sync-accounts-failure = { -brand-short-name } 無法連結所選的服務
 account-hub-email-added-success = 成功連線至電子郵件帳號
-account-hub-config-test-success = 設定值有效
+account-hub-config-test-success = { -brand-short-name } 找到正確設定值，並已更新。
 account-hub-select-all = 選擇全部
 account-hub-deselect-all = 取消選擇全部
 # $count (Number) - The number of sync accounts selected.
