@@ -1112,3 +1112,4 @@ event-recurrence-forever =
 attendees-tab-label = Assistents ({ $count }):
 # $count - the number of attachments
 attachments-tab-label = Adjuncions ({ $count }):
+calendar-window-title-base = { -brand-full-name }
