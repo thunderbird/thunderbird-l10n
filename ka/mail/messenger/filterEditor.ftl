@@ -33,6 +33,24 @@ filter-failure-move-failed = გადატანა ვერ მოხერ�
 filter-failure-copy-failed = ასლის აღება ვერ მოხერხდა
 filter-failure-action = ფილტრის გამოყენება ვერ მოხერხდა
 # Variables:
+# $folder (String) - The URI of the destination folder.
+# $errorCode (String) - The hexadecimal error code for the batch.
+filter-copy-batch-failed = ვერ ასრულებს წერილების ასლების მიღებას { $folder }. წერილის ასლები შესაძლოა ნაწილობრივ გადატანილიყო. შეცდომა: { $errorCode }. მოთხოვნილი წერილების საცნობები: { filter-batch-message-ids }
+# Variables:
+# $folder (String) - The URI of the destination folder.
+# $errorCode (String) - The hexadecimal error code for the batch.
+filter-move-batch-failed = ვერ ასრულებს წერილების გადატანას { $folder }. წერილის ასლები შესაძლოა ნაწილობრივ გადატანილიყო საწყის საქაღალდეში წაუშლელად. შეცდომა: { $errorCode }. მოთხოვნილი წერილების საცნობები: { filter-batch-message-ids }
+# Referenced by filter-copy-batch-failed and filter-move-batch-failed.
+# Variables:
+# $messageIds (String) - Up to 20 requested message IDs, separated by commas.
+# $count (Number) - The number of additional requested messages whose IDs are omitted.
+filter-batch-message-ids =
+    { $count ->
+        [0] { $messageIds }
+        [one] { $messageIds } და { $count } სხვა წერილი
+       *[other] { $messageIds } და { $count } სხვა წერილი
+    }
+# Variables:
 # $filterName (String) - The name of the filter that was applied.
 # $author (String) - The sender of the message.
 # $subject (String) - The subject line of the message.

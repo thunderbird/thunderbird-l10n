@@ -15,6 +15,19 @@ messenger-save-message-failed = წერილს ვერ ვინახა�
 # Variables:
 # $filename (String) - Full path of the file that already exists.
 messenger-file-exists = { $filename } უკვე არსებობს. დავთანხმდე ზევიდან გადაწერას?
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+folder-file-not-found = ფაილი საქაღალდისთვის „{ $folder }“ ვერ მოიძებნა ანგარიშზე { $server }. აღადგინეთ ფაილი ან აირჩიეთ სხვა საქაღალდე დანიშნულების წერტილად, შემდეგ კი კვლავ სცადეთ.
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+folder-file-access-denied = მიუწვდომელია „{ $folder }“ ანგარიშზე { $server }. შეამოწმეთ საქაღალდის ფაილის ნებართვები და შემდეგ კვლავ სცადეთ.
+# Variables:
+# $folder (String) - The path of the destination folder within its account.
+# $server (String) - The name of the account containing the folder.
+# $errorCode (String) - The hexadecimal filesystem error code.
+folder-file-error = მიუწვდომელია „{ $folder }“ ანგარიშზე { $server }. შეამოწმეთ, რომ საქაღალდის ფაილები ხელმისაწვდომი და ჩაწერის ნებართვით იყოს, შემდეგ კვლავ სცადეთ. შეცდომა: { $errorCode }
 
 ## Window controls
 
@@ -265,6 +278,8 @@ appmenu-save-as-file =
     .label = ფაილი…
 appmenu-settings =
     .label = პარამეტრები
+appmenu-accounts =
+    .label = ანგარიშები
 appmenu-addons-and-themes =
     .label = დანამატები და თემები
 
@@ -484,6 +499,8 @@ spaces-context-switch-tab-item =
     .label = გადასვლა { $tabName }
 settings-context-open-settings-item2 =
     .label = პარამეტრები
+settings-context-open-accounts-item =
+    .label = ანგარიშები
 settings-context-open-account-settings-item2 =
     .label = ანგარიშის პარამეტრები
 settings-context-open-addons-item2 =

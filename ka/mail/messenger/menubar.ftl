@@ -12,6 +12,13 @@ system-tray-app-name = { -brand-full-name }
 menu-tools-settings =
     .label = პარამეტრები
     .accesskey = ე
+menu-accounts =
+    .label = ანგარიშები
+    .accesskey =
+        { PLATFORM() ->
+            [linux] ა
+           *[other] ნ
+        }
 menu-addons-and-themes =
     .label = დამატებები და თემები
     .accesskey = ტ

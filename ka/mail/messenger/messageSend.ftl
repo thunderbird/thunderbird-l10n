@@ -90,6 +90,13 @@ smtp-auth-hint-plain-to-encrypt = როგორც ჩანს, გამა�
 smtp-auth-failure = გამავალი სერვერის (SMTP) { $hostname } ანგარიშზე შესვლა, ვერ ხერხდება. გთხოვთ, გადაამოწმოთ პაროლი და ‘ანგარიშის შესვლის მეთოდი', ‘ანგარიშის პარამეტრებში | გამავალ სერვერზე (SMTP)’.
 # Variables:
 # $hostname - outgoing server hostname
+# $serverResponse - server response
+smtp-auth-oauth2-failure = ვერ ხერხდება შესვლის OAuth2-დამოწმება გამავალ სერვერზე (SMTP) { $hostname }. სერვერის პასუხია: { $serverResponse }
+# Variables:
+# $hostname - outgoing server hostname
+smtp-auth-oauth2-failure-no-response = ვერ ხერხდება შესვლის OAuth2-დამოწმება გამავალ სერვერზე (SMTP) { $hostname }.
+# Variables:
+# $hostname - outgoing server hostname
 smtp-auth-gssapi = Kerberos/GSSAPI ტალონი მიუღებელი აღმოჩნდა გამავალი სერვერისთვის (SMTP) { $hostname }. გთხოვთ გადაამოწმოთ ხართ თუ არა შესული Kerberos/GSSAPI realm-ში.
 # Variables:
 # $hostname - outgoing server hostname
