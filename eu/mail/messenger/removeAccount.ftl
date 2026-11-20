@@ -25,3 +25,45 @@ remove-data-chat-account-description = Kendu kontu honetarako elkarrizketen erre
 show-data-button =
     .label = Erakutsi datuen kokapena
     .accesskey = E
+# Variables:
+# $count (Number) - The number of outgoing servers to be removed.
+remove-outgoing-servers-checkbox =
+    .label =
+        { $count ->
+            [one] Kendu irteerako zerbitzaria
+           *[other] Kendu irteerako { $count } zerbitzari
+        }
+# Variables:
+# $count (Number) - The number of address books to be removed.
+remove-address-books-checkbox =
+    .label =
+        { $count ->
+            [one] Kendu helbide-liburua
+           *[other] Kendu { $count } helbide-liburu
+        }
+# Variables:
+# $count (Number) - The number of calendars to be removed.
+remove-calendars-checkbox =
+    .label =
+        { $count ->
+            [one] Kendu egutegia
+           *[other] Kendu { $count } egutegi
+        }
+# Variables:
+# $count (Number) - The number of passwords to be removed.
+remove-passwords-checkbox =
+    .label =
+        { $count ->
+            [one] Kendu pasahitza
+           *[other] Kendu { $count } pasahitz
+        }
+# Variables:
+# $count (Number) - The number of OAuth tokens to be removed.
+remove-oauth-tokens-checkbox =
+    .label =
+        { $count ->
+            [one] Kendu OAuth tokena
+           *[other] Kendu { $count } OAuth token
+        }
+remove-account-progress-success = Kontua ondo ezabatu da
+remove-account-progress-failure = Zerbait gaizki atera da! Ezin izan da kontua ezabatu.

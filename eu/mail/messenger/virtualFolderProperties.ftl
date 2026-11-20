@@ -15,6 +15,10 @@ virtual-folder-sources-chosen =
     }
 virtual-folder-no-search-folders-selected = Behintzat bilaketa-karpeta bat aukeratu behar duzu gordetako bilaketen karpeta bilatzeko.
 virtual-folder-missing-value-title = Bilaketa-balioa falta da
+# Variables:
+#   $attribute (String) - The search attribute name from the incomplete rule.
+#   $operator (String) - The search operator from the incomplete rule.
+virtual-folder-missing-value-rule = Sartu balio bat “{ $attribute } { $operator }” bilaketa-terminorako, bilaketa hau gorde aurretik.
 virtual-folder-properties-title = Gordetako bilaketa-karpeta berria
 # Variables:
 #   $folderName (String): The name of the saved search folder.
