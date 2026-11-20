@@ -159,6 +159,13 @@ calendar-event-availability-selector =
 calendar-event-availability-default = Predefinite
 calendar-event-availability-busy = Occupate
 calendar-event-availability-free = Libere
+calendar-prompt-edit-confirm-button = Confirmar
+calendar-event-prompt-edit-title = Rediger evento
+
+## Category controls in the event create/edit dialog.
+
+calendar-event-categories = Categorias
+calendar-event-add-category = Adder categoria
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".
