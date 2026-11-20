@@ -190,6 +190,15 @@ calendar-event-remaining-categories =
 calendar-event-remove-category =
     .aria-label = Odstrániť kategóriu { $category }
     .title = Odstrániť kategóriu { $category }
+# Variables:
+#   $count (Number): The number of categories not shown in the summary.
+calendar-event-more-categories = + ďalšie ({ $count })
+    .aria-label =
+        { $count ->
+            [one] + { $count } ďalšia kategória
+            [few] + { $count } ďalšie kategórie
+           *[other] + { $count } ďalších kategórií
+        }
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".

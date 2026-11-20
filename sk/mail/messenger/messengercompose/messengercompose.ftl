@@ -105,6 +105,9 @@ compose-unblock-resource =
 menuitem-resize-header-area =
     .label = Zmeniť veľkosť oblasti hlavičky
     .accesskey = Z
+compose-header-area-splitter =
+    .aria-description = Na zmenu veľkosti použite klávesy Hore a Dole, pre väčšie kroky stlačte kláves Shift. Stlačením klávesu Tab prejdite do editora alebo stlačením klávesu Shift+Tab prejdite na predmet.
+    .aria-label = Oblasť hlavičky
 
 ## Send Format
 
