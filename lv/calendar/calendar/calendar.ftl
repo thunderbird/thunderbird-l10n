@@ -244,8 +244,16 @@ cal-dav-response-error = Sūtot atbildi, radās kļūda.
 # $statusCode status code
 cal-dav-request-status-code = Statusa kods: { $statusCode }
 cal-dav-request-status-code-string-generic = Pieprasījumu nevar apstrādāt.
+cal-dav-request-status-code-string-400 = Pieprasījums satur nepareizu sintaksi un to nevar apstrādāt.
+cal-dav-request-status-code-string-403 = Lietotājam nav nepieciešamās atļaujas pieprasījuma izpildei.
+cal-dav-request-status-code-string-404 = Resurss nav atrasts.
+cal-dav-request-status-code-string-409 = Resursu konflikts.
+cal-dav-request-status-code-string-412 = Priekšnosacījums neizdevās.
 cal-dav-request-status-code-string-500 = Iekšēja servera kļūda.
+cal-dav-request-status-code-string-502 = Bojāta vārteja (starpniekservera konfigurācija?).
 cal-dav-request-status-code-string-503 = Iekšēja servera kļūda (Īslaicīgs servera darbības pārtraukums?).
+# $name name of calendar
+cal-dav-redirect-title = Vai atjaunināt kalendāra { $name } atrašanās vietu?
 cal-dav-redirect-disable-calendar = Atspējot kalendāru
 # "Skipping Operating System timezone 'Pacific/New_Country'."
 # Testing note: not easily testable.  May occur someday if (non-windows)
