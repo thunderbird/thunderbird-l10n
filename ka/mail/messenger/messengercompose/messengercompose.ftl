@@ -102,6 +102,12 @@ compose-blocked-content-preferences-accesskey = რ
 # $url - URL of the blocked resource
 compose-unblock-resource =
     .label = { $url } - შეზღუდვის მოხსნა
+menuitem-resize-header-area =
+    .label = თავსართის ზომის ცვლა
+    .accesskey = რ
+compose-header-area-splitter =
+    .aria-description = გამოიყენეთ Up ან Down ზომაცვლისთვის, ხოლო Shift უფრო დიდი ბიჯით ცვლისთვის. დაიხმარეთ Tab შესწორებაზე გადასვლისთვის ან Shift+Tab თემის ველში გადასვლისთვის.
+    .aria-label = თავსართის არე
 
 ## Send Format
 

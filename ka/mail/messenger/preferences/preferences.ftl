@@ -10,6 +10,9 @@ category-list =
 pane-general-title = ძირითადი
 category-general =
     .tooltiptext = { pane-general-title }
+pane-notifications-title = შეტყობინებები
+category-notifications =
+    .tooltiptext = { pane-notifications-title }
 pane-appearance-title = იერსახე
 category-appearance =
     .tooltiptext = { pane-appearance-title }
@@ -31,6 +34,10 @@ category-sync =
 pane-qr-export-title = გადატანა მობილურზე
 category-qr-export =
     .tooltiptext = გადატანა მობილურზე
+pane-beta-features-title = Beta-შესაძლებლობები
+category-beta-features =
+    .tooltiptext = { pane-beta-features-title }
+experimental-features-legend = საცდელი შესაძლებლობები
 general-language-and-fonts-header = ენა და შრიფტები
 general-email-notifications-header = ელფოსტის შეტყობინებები
 general-incoming-mail-header = შემოსული წერილები
@@ -116,6 +123,7 @@ update-in-progress-ok-button = &გაუქმება
 # Continue is the cancel button so pressing escape or using a platform standard
 # method of closing the UI will not discard the update.
 update-in-progress-cancel-button = &გაგრძელება
+accounts-button = ანგარიშები
 account-button = ანგარიშის პარამეტრები
 open-addons-sidebar-button = დამატებები და თემები
 manual-storage-limit-label =
@@ -626,6 +634,7 @@ show-conversation-view-label =
     .label = საუბრის ხედის ჩვენება
     .accesskey = უ
 conversation-view-preview-description = ეს ადრეული სახეა ამ შესაძლებლობისა. იგი აჯგუფებს დაკავშირებულ წერილებს ერთად, მაგრამ შესაძლოა, ყოველთვის სათანადოდ ვერ იმუშაოს.
+conversation-view-settings-link = სასაუბრო ხედის გამართვა Beta-შესაძლებლობებით
 conversation-view-checkbox-label =
     .label = მიმოწერის ხედის ჩართვა
     .accesskey = წ
@@ -673,6 +682,7 @@ new-calendar-legend = კალენდრის ახალი ღონი�
 new-calendar-checkbox-label =
     .label = კალენდრის ღონისძიებების ნახვა ახალ არე
 new-calendar-checkbox-description = კალენდრის ახალი საცდელი არე ღონისძიებების სანახავად
+new-calendar-dialog-settings-link = კალენდრის ახალი ღონისძიების არის გამართვა Beta-შესაძლებლობებით
 
 ## Compose Tab
 

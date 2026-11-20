@@ -277,7 +277,7 @@ account-hub-sync-accounts-found = { -brand-short-name } ახერხებს
 account-hub-sync-accounts-not-found = { -brand-short-name } ვერ ახერხებს მიერთებული მომსახურებების პოვნას
 account-hub-sync-accounts-failure = { -brand-short-name } ვერ ახერხებს მონიშნულ მომსახურებებთან დაკავშირებას
 account-hub-email-added-success = ელფოსტის ანგარიში დაკავშირებულია წარმატებით
-account-hub-config-test-success = გამართვის პარამეტრები მართებულია
+account-hub-config-test-success = { -brand-short-name } ახერხებს სანათადო გამართვის მოძიებას და უკვე განაახლა
 account-hub-select-all = ყველას მონიშვნა
 account-hub-deselect-all = მონიშვნის გაუქმება
 # $count (Number) - The number of sync accounts selected.

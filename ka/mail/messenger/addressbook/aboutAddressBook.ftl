@@ -33,6 +33,10 @@ about-addressbook-card-count = ხალხი, რომელთაც შე�
 # Variables:
 # $count (Number) - The number of contacts in all address books.
 about-addressbook-card-count-all = ხალხი სულ წიგნაკებში: { $count }
+about-addressbook-books-context-new-contact =
+    .label = ახალი პირი
+about-addressbook-books-context-new-list =
+    .label = ახალი სია
 about-addressbook-books-context-properties =
     .label = პარამეტრები
 about-addressbook-books-context-edit-list =
