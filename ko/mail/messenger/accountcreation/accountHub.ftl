@@ -277,7 +277,7 @@ account-hub-sync-accounts-found = { -brand-short-name }가 연결된 서비스�
 account-hub-sync-accounts-not-found = { -brand-short-name }가 연결된 서비스를 찾지 못했습니다
 account-hub-sync-accounts-failure = { -brand-short-name }가 선택한 서비스에 연결할 수 없습니다
 account-hub-email-added-success = 이메일 계정이 성공적으로 연결되었습니다.
-account-hub-config-test-success = 구성 설정이 유효함
+account-hub-config-test-success = { -brand-short-name }가 올바른 설정을 찾아 업데이트했습니다.
 account-hub-select-all = 모두 선택
 account-hub-deselect-all = 모두 선택 해제
 # $count (Number) - The number of sync accounts selected.

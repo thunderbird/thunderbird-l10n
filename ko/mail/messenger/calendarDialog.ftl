@@ -129,6 +129,8 @@ calendar-event-save-idle = { "" }
 calendar-event-availability-default = 기본
 calendar-event-availability-busy = 일정 있음
 calendar-event-availability-free = 일정 없음
+calendar-prompt-edit-confirm-button = 확인
+calendar-event-prompt-edit-title = 이벤트 편집
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".
