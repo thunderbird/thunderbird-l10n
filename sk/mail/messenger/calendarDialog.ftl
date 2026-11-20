@@ -163,6 +163,17 @@ calendar-event-save = Uložiť
 calendar-event-saving = Ukladá sa…
 calendar-event-save-failed = Udalosť sa nepodarilo uložiť. Skúste to znovu.
 calendar-event-calendar-unavailable = Do tohto kalendára nemožno pridávať nové udalosti. Vyberte iný kalendár a skúste to znova.
+# The status element announces Save progress and errors to screen readers.
+# Keep this message empty to clear the previous status text when Save is idle.
+calendar-event-save-idle = { "" }
+calendar-event-availability-selector =
+    .aria-label = Dostupnosť
+calendar-event-availability-default = Predvolená
+calendar-event-availability-busy = Zaneprázdnený
+calendar-event-availability-free = Voľný
+calendar-event-prompt-edit-header = Upraviť iba túto udalosť alebo všetky jej opakovania?
+calendar-prompt-edit-confirm-button = Potvrdiť
+calendar-event-prompt-edit-title = Upraviť udalosť
 
 ## Category controls in the event create/edit dialog.
 

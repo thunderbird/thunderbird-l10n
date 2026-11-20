@@ -254,6 +254,8 @@ cal-dav-request-status-code-string-502 = Bojāta vārteja (starpniekservera konf
 cal-dav-request-status-code-string-503 = Iekšēja servera kļūda (Īslaicīgs servera darbības pārtraukums?).
 # $name name of calendar
 cal-dav-redirect-title = Vai atjaunināt kalendāra { $name } atrašanās vietu?
+# $name name of calendar
+cal-dav-redirect-text = Pieprasījumi par { $name } tiek novirzīti uz jaunu atrašanās vietu. Vai vēlaties mainīt atrašanās vietu uz šādu vērtību?
 cal-dav-redirect-disable-calendar = Atspējot kalendāru
 # "Skipping Operating System timezone 'Pacific/New_Country'."
 # Testing note: not easily testable.  May occur someday if (non-windows)

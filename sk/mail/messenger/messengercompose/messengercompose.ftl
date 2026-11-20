@@ -102,6 +102,9 @@ compose-blocked-content-preferences-accesskey = M
 # $url - URL of the blocked resource
 compose-unblock-resource =
     .label = Odblokovať { $url }
+menuitem-resize-header-area =
+    .label = Zmeniť veľkosť oblasti hlavičky
+    .accesskey = Z
 
 ## Send Format
 

@@ -91,7 +91,7 @@ smtp-auth-failure = Overenie na serveri pre odosielanie pošty (SMTP) { $hostnam
 # Variables:
 # $hostname - outgoing server hostname
 # $serverResponse - server response
-smtp-auth-oauth2-failure = Overenie na serveri na odosielanie pošty (SMTP) { $hostname } pomocou OAuth2 zlyhalo. Server odpovedal: { $serverResponse }
+smtp-auth-oauth2-failure = Overenie na serveri pre odosielanie pošty (SMTP) { $hostname } pomocou OAuth2 zlyhalo. Server odpovedal: { $serverResponse }
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-oauth2-failure-no-response = Overenie na serveri pre odosielanie pošty (SMTP) { $hostname } pomocou OAuth2 zlyhalo.
