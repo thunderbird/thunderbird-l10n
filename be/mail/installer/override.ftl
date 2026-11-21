@@ -19,6 +19,8 @@
 ##   $ClickInstructions (String) - The instructions to proceed to the next step of the wizard (e.g. “Click Next to continue.”).
 ##   $FilePath (String) - The path of the file that couldn’t be written.
 
+nsis-setup-caption = Усталяванне { $BrandFullName }
+nsis-uninstall-caption = Высталяванне { $BrandFullName }
 nsis-back-btn = < Назад
     .accesskey = Н
 nsis-next-btn = Далей >
@@ -42,3 +44,61 @@ nsis-click-next = Пстрыкніце Далей для працягу.
 nsis-click-install = Пстрыкніце Усталяваць, каб пачаць усталяванне.
 nsis-click-uninstall = Пстрыкніце Высталяваць, каб пачаць высталяванне.
 nsis-completed = Скончана
+nsis-license-text-rb = Прачытайце, калі ласка, ліцэнзійнае пагадненне перад усталяваннем { $BrandFullNameDA }. Калі вы згодныя з усімі ўмовамі пагаднення, выберыце першы радок унізе. { $ClickInstructions }
+nsis-components-text = Пазначце часткі, якія вы хочаце ўсталяваць, і прыміце адзнакі з частак, якія не хочаце ўсталёўваць. { $ClickInstructions }
+nsis-components-sub-text2-no-inst-types = Выберыце часткі для ўсталявання:
+nsis-dir-text = Усталявальнік установіць { $BrandFullNameDA } у наступную папку. Каб зрабіць усталяванне ў іншую папку, пстрыкніце Агляд і выберыце іншую папку. { $ClickInstructions }
+nsis-dir-sub-text = Папка-прызначэнне
+nsis-dir-browse-text = Выберыце папку для ўсталявання { $BrandFullNameDA }:
+nsis-space-available = Даступная прастора:{ " " }
+nsis-space-required = Патрэбная прастора:{ " " }
+nsis-uninstalling-text = { $BrandFullNameDA } будзе высталяваны з наступнай папкі. { $ClickInstructions }
+nsis-uninstalling-sub-text = Высталяванне з:
+nsis-file-error =
+    Памылка адкрыцця файла для запісу:
+    
+    { $FilePath }
+    
+    Пстрыкніце Скід, каб перарваць усталяванне,
+    Паўтор, каб паспрабаваць зноў, ці
+    Ігнараваць, каб прапусціць гэты файл.
+nsis-file-error-no-ignore =
+    Памылка адкрыцця файла для запісу:
+    
+    { $FilePath }
+    
+    Пстрыкніце Паўтор, каб паспрабаваць зноў, ці
+    Скасаваць, каб спыніць усталяванне.
+nsis-cant-write = Немагчыма запісаць:{ " " }
+nsis-copy-failed = Няўдача капіявання
+nsis-copy-to = Капіяваць у{ " " }
+nsis-registering = Рэгістрацыя:{ " " }
+nsis-unregistering = Скасаванне рэгістрацыі:{ " " }
+nsis-symbol-not-found = Немагчыма знайсці сімвал:{ " " }
+nsis-could-not-load = Немагчыма загрузіць:{ " " }
+nsis-create-folder = Стварэнне папкі:{ " " }
+nsis-create-shortcut = Стварэнне выклічніка:{ " " }
+nsis-created-uninstaller = Створаны высталявальнік:{ " " }
+nsis-delete = Выдаленне файла:{ " " }
+nsis-delete-on-reboot = Выдаленне пасля перазагрузкі:{ " " }
+nsis-error-creating-shortcut = Памылка стварэння выклічніка:{ " " }
+nsis-error-creating = Памылка стварэння:{ " " }
+nsis-error-decompressing = Памылка выціскання даных! Усталявальнік пашкоджаны?
+nsis-error-registering = Памылка рэгістравання DLL
+nsis-exec-shell = ExecShell:{ " " }
+nsis-exec = Выкананне:{ " " }
+nsis-extract = Выманне:{ " " }
+nsis-error-writing = Выманне: памылка запісу файла{ " " }
+nsis-invalid-opcode = Усталявальнік пашкоджаны: недапушчальны код дзеяння
+nsis-no-ole = Няма OLE для:{ " " }
+nsis-output-folder = Папка запісу:{ " " }
+nsis-remove-folder = Выдаленне папкі:{ " " }
+nsis-rename-on-reboot = Перайменаваць пасля перазапуску:{ " " }
+nsis-rename = Перайменаваць:{ " " }
+nsis-skipped = Прапушчаны:{ " " }
+nsis-copy-details = Капіяваць падрабязнасці ў буфер абмену
+nsis-log-install = Метрыка ўсталявальнага працэсу
+nsis-byte = Б
+nsis-kilo = К
+nsis-mega = М
+nsis-giga = Г
