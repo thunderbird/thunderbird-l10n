@@ -77,12 +77,12 @@ error-create-directory-suffix =
     或按「重試」再試一次。
 un-confirm-page-title = 移除 { $BrandFullName }
 un-confirm-page-subtitle = 從您的電腦移除 { $BrandFullName }。
-un-confirm-uninstalled-from = 將自下列位置移除 { $BrandShortName }:
+un-confirm-uninstalled-from = 將自下列位置移除 { $BrandShortName }：
 un-confirm-click = 按「移除」繼續。
 banner-check-existing = 正在檢查現有的安裝…
 status-install-app = 正在安裝 { $BrandShortName }…
 status-uninstall-main = 正在移除 { $BrandShortName }…
-status-cleanup = 清理垃圾…
+status-cleanup = 正在清理鳥籠…
 # This string should fit in one line (approximately 65 characters).
 options-summary = 請選擇您想安裝的類型後按「下一步」。
 # This string should fit in one line (approximately 65 characters).
@@ -90,7 +90,7 @@ option-standard-desc = { $BrandShortName } 會安裝最常用的元件。
 option-standard-radio = 標準安裝
     .accesskey = S
 # This string should fit in two lines (approximately 65 characters per line).
-option-custom-desc = 您可以自己選擇安裝選項，建議進階使用者選用。
+option-custom-desc = 您可以自行選擇安裝選項，建議進階使用者選用。
 option-custom-radio = 自訂安裝
     .accesskey = C
 # This text replaces the Install button text on the summary page.
