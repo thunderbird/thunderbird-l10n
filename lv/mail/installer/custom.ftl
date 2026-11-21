@@ -57,42 +57,42 @@ warn-manually-close-app-uninstall =
 warn-manually-close-app-launch =
     { $BrandShortName } jau darbojas.
     
-    Pirms palaist tikko uzstādīto { $BrandShortName }, lūdzu, aizveriet veco versiju.
+    Lūgums aizvērt { $BrandShortName } pirms tikko uzstādītās versijas palaišanas.
 warn-write-access =
-    Lai rakstītu izvēlētajā uzstādīšanas mapē, jums nav pietiekamu tiesību.
+    Nav piekļuves, lai rakstītu uzstādīšanas mapē.
     
-    Spiediet Labi, lai izvēlētos citu mapi.
+    Jāklikšķina “Labi”, lai izvēlētos citu mapi.
 warn-disk-space =
-    Lai uzstādītu izvēlētajā vietā, jums nav pietiekami daudz brīvas diska vietas.
+    Nav pietiekami daudz brīvas vietas, lai uzstādītu šajā vietā.
     
-    Spiediet Labi, lai izvēlētos citu vietu.
-warn-min-supported-osver-msg = Atvainojiet, { $BrandShortName } nevar uzstādīt. Šai { $BrandShortName } versijai ir nepieciešama { $MinSupportedVer } vai jaunāka. Lūdzu, klikšķiniet uz pogas Labi, lai iegūtu papildu informāciju.
-warn-min-supported-cpu-msg = Atvainojiet, { $BrandShortName } nevar uzstādīt. Šai { $BrandShortName } versijai ir nepieciešams procesors ar { $MinSupportedCPU } atbalstu. Lūdzu, klikšķiniet uz pogas Labi, lai iegūtu papildu informāciju.
-warn-min-supported-osver-cpu-msg = Atvainojiet, { $BrandShortName } nevar uzstādīt. Šai { $BrandShortName } versijai ir nepieciešama { $MinSupportedVer } vai jaunāks un procesors ar { $MinSupportedCPU } atbalstu. Lūdzu, klikšķiniet uz pogas Labi, lai iegūtu papildu informāciju.
+    Jāklikšķina “Labi”, lai atlasītu citu vietu.
+warn-min-supported-osver-msg = Atvainojamies, { $BrandShortName } nevar uzstādīt! Šai { $BrandShortName } versijai ir nepieciešama { $MinSupportedVer } vai jaunāka. Lūgums klikšķināt uz pogas “Labi”, lai iegūtu papildu informāciju.
+warn-min-supported-cpu-msg = Atvainojamies, { $BrandShortName } nevar uzstādīt! Šai { $BrandShortName } versijai ir nepieciešams procesors ar { $MinSupportedCPU } atbalstu. Lūgums klikšķināt uz pogas “Labi”, lai iegūtu papildu informāciju.
+warn-min-supported-osver-cpu-msg = Atvainojamies, { $BrandShortName } nevar uzstādīt! Šai { $BrandShortName } versijai ir nepieciešama { $MinSupportedVer } vai jaunāka un procesors ar { $MinSupportedCPU } atbalstu. Lūgums klikšķināt uz pogas “Labi”, lai iegūtu papildu informāciju.
 warn-restart-required-uninstall = Dators ir jāpārsāknē, lai pabeigtu iepriekšējo { $BrandShortName } noņemšanu. Vai darīt to tagad?
 warn-restart-required-upgrade = Dators ir jāpārsāknē, lai pabeigtu iepriekšējo { $BrandShortName } jaunināšanu. Vai darīt to tagad?
-error-create-directory-prefix = Kļūda, veidojot mapi:
+error-create-directory-prefix = Kļūda mapes izveidošanā:
 error-create-directory-suffix =
-    Klikšķiniet uz Atcelt, lai pārtrauktu uzstādīšanu, vai
-    Atkārtot, lai mēģinātu vēlreiz.
+    Jāklikšķina uz “Atcelt”, lai pārtrauktu uzstādīšanu, vai
+    “Mēģināt vēlreiz”, lai mēģinātu vēlreiz.
 un-confirm-page-title = Noņemt { $BrandFullName }
-un-confirm-page-subtitle = Noņem { $BrandFullName } no jūsu datora.
-un-confirm-uninstalled-from = { $BrandShortName } tiks izņemts no sekojošas vietas:
-un-confirm-click = Klikšķiniet uz Noņemt, lai turpinātu.
+un-confirm-page-subtitle = Noņemt { $BrandFullName } no datora.
+un-confirm-uninstalled-from = { $BrandShortName } tiks noņemts no šīs vietas:
+un-confirm-click = Jāklikšķina uz "Noņemt", lai turpinātu.
 banner-check-existing = Pārbauda esošo uzstādījumu…
 status-install-app = Uzstāda { $BrandShortName }…
 status-uninstall-main = Noņem { $BrandShortName }…
 status-cleanup = Iztīra putnu būri…
 # This string should fit in one line (approximately 65 characters).
-options-summary = Izvēlies vēlamo iestatīšanas veidu, tad klikšķini “Nākamais”!
+options-summary = Jāizvēlas vēlamais iestatīšanas veids, tad jāklikšķina “Nākamais”.
 # This string should fit in one line (approximately 65 characters).
-option-standard-desc = { $BrandShortName } tiks uzstādīts biežāk lietotajā komplektācijā.
+option-standard-desc = { $BrandShortName } tiks uzstādīts ar visizmantotākajām iespējām.
 option-standard-radio = Standarta
     .accesskey = S
 # This string should fit in two lines (approximately 65 characters per line).
-option-custom-desc = Šajā režīmā jūs varat izvēlēties atsevišķas sastāvdaļas. Ieteicams pieredzējušiem lietotājiem.
+option-custom-desc = Var izvēlēties atsevišķas uzstādāmās iespējas. Ieteicams pieredzējušiem lietotājiem.
 option-custom-radio = Pielāgots
     .accesskey = P
 # This text replaces the Install button text on the summary page.
-upgrade-button = Atjaunot
-    .accesskey = A
+upgrade-button = Jaunināt
+    .accesskey = J

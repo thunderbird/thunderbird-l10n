@@ -22,14 +22,14 @@ mui-text-welcome-info-text =
     Pirms iestatīšanas uzsākšanas ir ieteicams aizvērt visas citas lietotnes. Tas ļaus atjaunināt vajadzīgās sistēmas datnes bez nepieciešamības pārsāknēt datoru.
     
     { $ClickInstructions }
-mui-text-components-title = Izvēlies sastāvdaļas
-mui-text-components-subtitle = Izvēlieties, kuras no { $BrandFullNameDA } iespējām jūs vēlaties uzstādīt.
+mui-text-components-title = Sastāvdaļu izvēlēšanās
+mui-text-components-subtitle = Izvēlies, kuras no { $BrandFullNameDA } iespējām uzstādīt!
 mui-innertext-components-description-title = Apraksts
 mui-innertext-components-description-info = Peles kursors jānovieto virs sastāvdaļas, lai redzētu tās aprakstu.
-mui-text-directory-title = Izvēlieties uzstādīšanas vietu
-mui-text-directory-subtitle = Izvēlies mapi, kurā vēlaties uzstādīt { $BrandFullNameDA }.
+mui-text-directory-title = Uzstādīšanas vietas izvēlēšanās
+mui-text-directory-subtitle = Izvēlies mapi, kurā vēlies uzstādīt { $BrandFullNameDA }!
 mui-text-installing-title = Uzstāda
-mui-text-installing-subtitle = Lūdzu, uzgaidiet, kamēr { $BrandFullNameDA } tiek uzstādīts.
+mui-text-installing-subtitle = Lūgums uzgaidīt, kamēr notiek { $BrandFullNameDA } uzstādīšana.
 mui-text-finish-title = Uzstādīšana pabeigta
 mui-text-finish-subtitle = Uzstādīšana ir sekmīgi pabeigta.
 mui-text-abort-title = Uzstādīšana atcelta
