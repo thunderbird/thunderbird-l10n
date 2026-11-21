@@ -148,6 +148,9 @@ calendar-event-calendar-selector =
     .aria-label = Ημερολόγιο
 calendar-event-save = Αποθήκευση
 calendar-event-saving = Αποθήκευση…
+# The status element announces Save progress and errors to screen readers.
+# Keep this message empty to clear the previous status text when Save is idle.
+calendar-event-save-idle = { "" }
 calendar-event-availability-selector =
     .aria-label = Διαθεσιμότητα
 calendar-event-availability-default = Προεπιλογή

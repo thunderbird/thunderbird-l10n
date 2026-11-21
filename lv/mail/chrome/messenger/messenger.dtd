@@ -586,7 +586,7 @@
 <!ENTITY columnChooser2.tooltip "Atlasiet rādāmās kolonnas">
 <!ENTITY selectColumn.tooltip "Pārslēgt visu vēstuļu atlasi">
 <!ENTITY threadColumn2.tooltip "Rādīt vēstuļu pavedienus">
-<!ENTITY fromColumn2.tooltip "Kārtot pēc formas">
+<!ENTITY fromColumn2.tooltip "Kārtot pēc sūtītāja">
 <!ENTITY recipientColumn2.tooltip "Kārtot pēc saņēmēja">
 <!ENTITY correspondentColumn2.tooltip "Kārtot pēc korespondentiem">
 <!ENTITY subjectColumn2.tooltip "Kārtot pēc tēmas">

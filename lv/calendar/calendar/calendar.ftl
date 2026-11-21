@@ -360,28 +360,142 @@ tz-fromos = Šī ZoneInfo laika josla tika atlasīta atbilstoši operētājsist�
 tz-from-locale =
     Šī ZoneInfo laika josla tika izvēlēta, pamatojoties uz operētājsistēmas laika joslas 
     saskaņošanu ar iespējamām laika joslām interneta lietotājiem, kas izmanto ASV angļu valodu.
+tz-from-known-timezones =
+    Šī ZoneInfo laika josla tika izvēlēta, pamatojoties uz operētājsistēmas laika joslas 
+    saskaņošanu ar zināmām laika joslām laika joslas ID alfabētiskā secībā.
 # Print Layout
 tasks-with-no-due-date = Uzdevumi, kuriem nav izpildes termiņa
 # Providers
 cal-dav-name = CalDAV
+ics-name-key = iCalendar (ICS)
+memory-name = Pagaidu (atmiņa)
+storage-name = Lokālais (SQLite)
+# Used in created html code for export
+html-prefix-title = Nosaukums
+html-prefix-when = Kad
+html-prefix-location = Atrašanās vieta
+html-prefix-description = Apraksts
+# $task task
+html-task-completed = { $uzdevums } (pabeigts)
+# Categories
+add-category = Pievienot kategoriju
+multiple-categories = Vairākas kategorijas
+no-categories = Neviens
+calendar-today = Šodien
 calendar-tomorrow = Rīt
+yesterday = Vakar
 # Today pane
 events-only = Notikumi
 events-and-tasks = Notikumi un uzdevumi
+tasks-only = Uzdevumi
+short-calendar-week = CW
+calendar-go = Iet
+# Some languages have different conjugations of 'next' and 'last'.  If yours
+# does not, simply repeat the value.  This will be used with day names, as in
+# 'next Sunday'.
+calendar-next1 = nākamais
+calendar-next2 = nākamais
+calendar-last1 = pēdējais
+calendar-last2 = pēdējais
+# Alarm Dialog
+# $count reminder count
+alarm-window-title-label =
+    { $count ->
+        [one] { $count } atgādinājums
+        [zero] { $count } atgādinājumi
+       *[other] { $count } atgādinājumi
+    }
+# LOCALIZATION NOTE (alarm-starts):
+# used for a display the start of an alarm like 'Starts:  Thu 2 Oct 2008 13:21'
+#    $datetime will be replaced with a date-time
+alarm-starts =
+    .value = Sākas: { $datetime }
+# LOCALIZATION NOTE (alarm-today-at):
+# used for a display the date-time of an alarm like 'Today at Thu 2 Oct 2008 13:21'
+#    $datetime will be replaced with a date-time
+alarm-today-at = Šodien plkst. { $datetime }
 # LOCALIZATION NOTE (alarm-tomorrow-at):
 # used for a display the date-time of an alarm like 'Tomorrow at Thu 2 Oct 2008 13:21'
 #    $datetime will be replaced with a date-time
 alarm-tomorrow-at = Rīt { $datetime }
+# LOCALIZATION NOTE (alarm-yesterday-at):
+# used for a display the date-time of an alarm like 'Yesterday at Thu 2 Oct 2008 13:21'
+#    $datetime will be replaced with a date-time
+alarm-yesterday-at = Vakar plkst. { $datetime }
+# Alarm interface strings
+# LOCALIZATION NOTE: These strings do not get displayed. They are only visible
+# when exporting an item with i.e a DISPLAY alarm, that doesn't have a
+# description set, or an EMAIL alarm that doesn't have a summary set.
+alarm-default-description = Mozilla noklusējuma apraksts
+alarm-default-summary = Mozilla noklusējuma kopsavilkums
+# $count number of months
+alarm-snooze-limit-exceeded =
+    { $count ->
+        [one] Modinātāju nevar atlikt ilgāk par { $count } mēnesi.
+        [zero] Modinātāju nevar atlikt ilgāk par { $count } mēnešiem.
+       *[other] Modinātāju nevar atlikt ilgāk par { $count } mēnešiem.
+    }
+task-details-status-needs-action = Jārīkojas
+# LOCALIZATION NOTE (task-details-status-in-progress):
+# used for a display of how much of a task is completed ' Complete'
+#    $percent will be replaced with the number of percentage completed
+task-details-status-in-progress = Pabeigts (% no pabeigta)
+task-details-status-completed = Pabeigts
+# LOCALIZATION NOTE (task-details-status-completed-on):
+# used for a display of completion date like 'Completed on Thu 2 Oct 2008 13:21'
+#    $datetime will be replaced with the completion date-time of the task
+task-details-status-completed-on = Pabeigts { $datetime }
 task-details-status-cancelled = Atcelts
 getting-calendar-info-common =
     .label = Pārbauda kalendārus…
+# LOCALIZATION NOTE (getting-calendar-info-detail):
+# used for a progress-display of processed like 'Checking Calendar 5 of 10'
+#    $index will be replaced with the index of the currently processed calendar
+#    $total will be replaced with the total numbers of calendars
+getting-calendar-info-detail =
+    .label = Kalendāra pārbaude: { $index } no { $total }
 # LOCALIZATION NOTE (error-code):
 #    $errorCode will be replaced with the number of an error code
 error-code = Kļūdas kods: { $errorCode }
 # LOCALIZATION NOTE (error-description):
 #    $errorDescription will be replaced with the description of an error
 error-description = Apraksts: { $errorDescription }
+# LOCALIZATION NOTE (error-writing):
+# used for an message like 'An error occurred when writing to the calendar Home!'
+#    $name will be replaced with the name of a calendar
+error-writing2 = Rakstot kalendārā { $name }, radās kļūda! Plašāku informāciju skatiet tālāk.
+# LOCALIZATION NOTE (error-writing-details):
+# This will be displayed in the detail section of the error dialog
+error-writing-details = Ja šo ziņojumu redzat pēc atgādinājuma atlikšanas vai noraidīšanas un tas attiecas uz kalendāru, kuram nevēlaties pievienot vai rediģēt notikumus, varat atzīmēt šo kalendāru kā tikai lasāmu, lai izvairītos no šādas pieredzes nākotnē. Lai to izdarītu, atveriet kalendāra rekvizītus, ar peles labo pogu noklikšķinot uz šī kalendāra sarakstā kalendāra vai uzdevumu skatā.
+# LOCALIZATION NOTE (tooltip-calendar-disabled):
+# used for an alert-message like 'The calendar Home is momentarily not available'
+#    $name will be replaced with the name of a calendar
+tooltip-calendar-disabled =
+    .title = Kalendārs { $name } šobrīd nav pieejams.
+# LOCALIZATION NOTE (tooltip-calendar-read-only):
+# used for an message like 'The calendar Home is readonly'
+#    $name will be replaced with the name of a calendar
+tooltip-calendar-read-only =
+    .title = Kalendārs { $name } ir tikai lasāms
+task-edit-instructions = Noklikšķiniet šeit, lai pievienotu jaunu uzdevumu
+task-edit-instructions-readonly = Lūdzu, atlasiet kalendāru, kurā var rakstīt
 task-edit-instructions-capability = Lūgums atlasīt kalendāru, kas atbalsta uzdevumus
+event-details-start-date = Sākums:
+event-details-end-date = Beigas:
+# LOCALIZATION NOTE (datetime-with-timezone):
+# used for a display of a date-time with timezone 'Thu 2 Oct 2008 13:21', Europe/Paris
+#    $datetime will be replaced with the completion date-time
+#    $timezone will be replaced with the name of the timezone
+datetime-with-timezone = { $datetime }, { $timezone }
+# LOCALIZATION NOTE (single-long-calendar-week):
+# used for display of calendar weeks in long form like 'Calendar Week 43'
+#    $index will be replaced with the index of the week
+single-long-calendar-week = Kalendāra nedēļa: { $index }
+# LOCALIZATION NOTE (single-calendar-week):
+# used for display of calendar weeks in short form like 'CW 43'
+#    $index will be replaced with the index of the week
+single-calendar-week = CW: { $index }
+    .title = Kalendāra nedēļa: { $index }
 # Shown after the items of a day in the calendar views, when the day has too
 # many items to display at once. Clicking it displays more of them.
 # Variables:
@@ -406,6 +520,9 @@ delete-item =
 delete-event =
     .label = Izdzēst notikumu
     .accesskey = d
+modify-conflict-prompt-message = Dialoglodziņā rediģējamais elements ir modificēts kopš tā atvēršanas.
+modify-conflict-prompt-button1 = Pārrakstīt citas izmaiņas
+modify-conflict-prompt-button2 = Atmest šīs izmaiņas
 # Accessible description of a grid calendar with no selected date
 minimonth-no-selected-date =
     .aria-label = Nav atlasīts datums
@@ -413,15 +530,27 @@ minimonth-no-selected-date =
 calendar-context-today-pane =
     .label = Šodienas rūts
     .accesskey = r
+calendar-context-open-event =
+    .label = Atvērt
+    .accesskey = A
+calendar-context-open-task =
+    .label = Atvērt uzdevumu…
+    .accesskey = A
 calendar-context-new-event =
     .label = Jauns notikums…
     .accesskey = n
+calendar-context-new-task =
+    .label = Jauns uzdevums…
+    .accesskey = J
 calendar-context-delete-task =
     .label = Izdzēst uzdevumu
     .accesskey = d
 calendar-context-delete-event =
     .label = Izdzēst notikumu
     .accesskey = d
+calendar-context-cut =
+    .label = Griezt
+    .accesskey = t
 calendar-taskview-delete =
     .label = Izdzēst
     .tooltiptext = Izdzēst uzdevumu
