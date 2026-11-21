@@ -17,8 +17,8 @@
 ##   $MinSupportedCPU (String) - The CPU feature required to run the application (e.g. SSE2).
 
 reg-app-desc = { $BrandShortName } är ett komplett e-postprogram. { $BrandShortName } stöder e-postprotokollen IMAP och POP, liksom meddelanden i HTML-format. Inbyggd skräppostkontroll, RSS-kapabel, kraftfull snabbsökning, automatisk stavningskontroll, global inkorg och avancerad meddelandefiltrering är några av { $BrandShortName }s många funktioner.
-context-options = { $BrandShortName }-inställningar
-    .accesskey = n
+context-options = Alternativ för { $BrandShortName }
+    .accesskey = A
 context-safe-mode = { $BrandShortName } felsäkert läge
     .accesskey = e
 options-page-title = Installationstyp
@@ -31,7 +31,7 @@ optional-components-desc = Programmet 'Maintenance Service' ger dig möjlighet a
 maintenance-service-checkbox-desc = Installera Maintenance Service
     .accesskey = M
 summary-page-title = Sammanfattning
-summary-page-subtitle = Klar att börja installera { $BrandShortName }
+summary-page-subtitle = Redo att börja installera { $BrandShortName }
 summary-installed-to = { $BrandShortName } kommer att installeras till följande plats:
 summary-reboot-required-install = Du kan behöva starta om datorn för att slutföra installationen.
 summary-reboot-required-uninstall = Du kan behöva starta om datorn för att slutföra avinstallationen.
