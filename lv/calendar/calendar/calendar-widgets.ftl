@@ -16,6 +16,10 @@ calendar-list-header = Kalendāri
 calendar-no-reminders-tooltip =
     .title = Kalendārs { $calendarName } ir apklusināts
 calendar-enable-button = Atļaut
+# Variables:
+#  $calendarName (String) - Calendar name as given by the user
+calendar-list-item-context-button =
+    .title = Kalendāra opcijas ($calendarName)
 calendar-add-calendar = Pievienot kalendāru…
     .title = Izveidot vai abonēt kalendāru
 calendar-new-event-primary-button = Jauns notikums
