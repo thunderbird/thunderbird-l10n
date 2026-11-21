@@ -16,6 +16,17 @@
 ##   $ClickInstructions (String) - The instructions to proceed to the next step of the wizard (e.g. “Click Next to continue.”).
 
 mui-text-welcome-info-title = { $BrandFullNameDA } のセットアップ
+mui-text-welcome-info-text =
+    このアシスタントでは { $BrandFullNameDA } のインストールをご案内します。
+    
+    セットアップを開始する前にすべてのプログラムを終了させることをお勧めします。そうすることでコンピューターを再起動することなく関連するシステムファイルを更新できます。
+    
+    { $ClickInstructions }
+mui-text-components-title = コンポーネントの選択
+mui-text-components-subtitle = インストールする { $BrandFullNameDA } の機能を選択してください。
+mui-innertext-components-description-title = コンポーネントの説明
+mui-innertext-components-description-info = コンポーネントをマウスでポイントすると説明が表示されます。
+mui-text-directory-title = インストール先の選択
 mui-text-directory-subtitle = { $BrandFullNameDA } をインストールするフォルダーを選択してください。
 mui-text-installing-title = インストールしています
 mui-text-installing-subtitle = { $BrandFullNameDA } のインストールが完了するまでしばらくお待ちください。
