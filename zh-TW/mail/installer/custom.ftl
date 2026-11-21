@@ -32,14 +32,14 @@ maintenance-service-checkbox-desc = 安裝維護服務
     .accesskey = M
 summary-page-title = 摘要
 summary-page-subtitle = 已經準備好要開始安裝 { $BrandShortName }
-summary-installed-to = { $BrandShortName } 會安裝到下列位置:
+summary-installed-to = { $BrandShortName } 會安裝到下列位置：
 summary-reboot-required-install = 可能需要重新啟動電腦才能完成安裝。
 summary-reboot-required-uninstall = 可能需要重新啟動電腦才能完成移除。
 summary-install-click = 按「安裝」繼續。
 summary-upgrade-click = 按「升級」繼續。
 launch-text = 立刻啟動 { $BrandFullName }
     .accesskey = L
-create-icons-desc = 為 { $BrandShortName } 建立圖示:
+create-icons-desc = 在下列位置為 { $BrandShortName } 建立圖示：
 icons-desktop = 於我的桌面
     .accesskey = d
 icons-startmenu = 於開始功能表的程式集中
@@ -49,11 +49,11 @@ icons-taskbar = 於我的工作列
 warn-manually-close-app-install =
     必須先關閉 { $BrandShortName } 才能繼續安裝程序。
     
-    請手動關閉 { $BrandShortName } 以繼續。
+    請關閉 { $BrandShortName } 以繼續。
 warn-manually-close-app-uninstall =
     必須先關閉 { $BrandShortName } 才能繼續移除程序。
     
-    請關閉 { $BrandShortName } 以繼續移除。
+    請關閉 { $BrandShortName } 以繼續。
 warn-manually-close-app-launch =
     { $BrandShortName } 正在執行。
     
@@ -63,13 +63,14 @@ warn-write-access =
     
     按「確定」選擇另一個目錄。
 warn-disk-space =
-    您沒有足夠的磁碟空間安裝到該位置。
+    您的磁碟空間不足，無法安裝到該位置。
+    
     按「確定」選擇另一個目錄。
-warn-min-supported-osver-msg = 很抱歉，無法安裝 { $BrandShortName }。此版本的 { $BrandShortName } 需要 { $MinSupportedVer } 或更新版本。請點擊確定按鈕取得更多資訊。
-warn-min-supported-cpu-msg = 很抱歉，無法安裝 { $BrandShortName }。此版本的 { $BrandShortName } 需要支援 { $MinSupportedCPU } 的中央處理器。請點擊確定按鈕取得更多資訊。
-warn-min-supported-osver-cpu-msg = 很抱歉，無法安裝 { $BrandShortName }。此版本的 { $BrandShortName } 需要 { $MinSupportedVer } 或更新版本以及支援 { $MinSupportedCPU } 的中央處理器。請點擊確定按鈕取得更多資訊。
-warn-restart-required-uninstall = 必須重新啟動電腦才能完成 { $BrandShortName } 的解除安裝程序。您要現在重開嗎？
-warn-restart-required-upgrade = 您的電腦必須重新啟動以完成升級 { $BrandShortName }。您想要立刻重新啟動電腦嗎？
+warn-min-supported-osver-msg = 很抱歉，無法安裝 { $BrandShortName }。此版本的 { $BrandShortName } 需要 { $MinSupportedVer } 或更新版本。請點擊「確定」按鈕取得更多資訊。
+warn-min-supported-cpu-msg = 很抱歉，無法安裝 { $BrandShortName }。此版本的 { $BrandShortName } 需要支援 { $MinSupportedCPU } 的中央處理器。請點擊「確定」按鈕取得更多資訊。
+warn-min-supported-osver-cpu-msg = 很抱歉，無法安裝 { $BrandShortName }。此版本的 { $BrandShortName } 需要 { $MinSupportedVer } 或更新版本以及支援 { $MinSupportedCPU } 的中央處理器。請點擊「確定」按鈕取得更多資訊。
+warn-restart-required-uninstall = 必須重新啟動電腦才能完成先前的 { $BrandShortName } 解除安裝程序。您要現在重開機嗎？
+warn-restart-required-upgrade = 必須重新啟動電腦才能完成先前的 { $BrandShortName } 升級。您要現在重開機嗎？
 error-create-directory-prefix = 建立目錄時發生錯誤：
 error-create-directory-suffix =
     按「取消」停止安裝
