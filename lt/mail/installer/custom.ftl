@@ -26,3 +26,6 @@ option-standard-radio = Numatytasis
 option-custom-desc = Galima parinkti diegiamus komponentus. Rekomenduotina patyrusiems naudotojams.
 option-custom-radio = Pasirinktinis
     .accesskey = r
+# This text replaces the Install button text on the summary page.
+upgrade-button = Naujinti
+    .accesskey = N
