@@ -45,3 +45,13 @@ calendar-event-remaining-categories =
 calendar-event-remove-category =
     .aria-label = הסרת הקטגוריה { $category }
     .title = הסרת הקטגוריה { $category }
+
+## Video row in the event create/edit dialog.
+
+calendar-event-video-label = וידאו
+calendar-event-video-url =
+    .aria-label = כתובת אתר של הוידאו
+    .placeholder = נא להכניס כתובת אתר של הוידאו
+calendar-event-video-url-clear =
+    .aria-label = ניקוי כתובת האתר של הוידאו
+    .title = ניקוי כתובת האתר של הוידאו

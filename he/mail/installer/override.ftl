@@ -59,16 +59,16 @@ nsis-file-error =
     
     { $FilePath }
     
-    יש ללחוץ על ביטול כדי לעצור את ההתקנה,
-    'נסה שוב' כדי לנסות שוב, או
-    'התעלמות' כדי לדלג על קובץ זה.
+    יש ללחוץ על ״ביטול״ כדי לעצור את ההתקנה,
+    ״נסה שוב״ כדי לנסות שוב, או
+    ״התעלמות״ כדי לדלג על קובץ זה.
 nsis-file-error-no-ignore =
     שגיאה בפתיחת קובץ לכתיבה:
     
     { $FilePath }
     
-    יש ללחוץ על 'נסה שוב' כדי לנסות שוב או
-    'ביטול' כדי לעצור את ההתקנה.
+    יש ללחוץ על ״נסה שוב״ כדי לנסות שוב או
+    ״ביטול״ כדי לעצור את ההתקנה.
 nsis-cant-write = לא ניתן לכתוב:{ " " }
 nsis-copy-failed = ההעתקה נכשלה
 nsis-copy-to = העתקה אל{ " " }
@@ -88,16 +88,16 @@ nsis-error-registering = שגיאה ברישום DLL
 nsis-exec-shell = ExecShell:{ " " }
 nsis-exec = בצע:{ " " }
 nsis-extract = חלץ:{ " " }
-nsis-error-writing = Extract: שגיאה בכתיבה לקובץ{ " " }
+nsis-error-writing = חילוץ: שגיאה בכתיבה לקובץ{ " " }
 nsis-invalid-opcode = קובץ ההתקנה פגום: opcode לא תקין
-nsis-no-ole = No OLE for:{ " " }
+nsis-no-ole = אין OLE עבור:{ " " }
 nsis-output-folder = תיקיית פלט:{ " " }
-nsis-remove-folder = הסר תיקייה:{ " " }
-nsis-rename-on-reboot = שנה שם באתחול:{ " " }
-nsis-rename = שנה שם:{ " " }
+nsis-remove-folder = הסרת תיקייה:{ " " }
+nsis-rename-on-reboot = שינוי שם באתחול:{ " " }
+nsis-rename = שינוי שם:{ " " }
 nsis-skipped = דילוג:{ " " }
-nsis-copy-details = העתק פרטים ללוח
-nsis-log-install = רשום מהלך התקנה
+nsis-copy-details = העתקת פרטים ללוח
+nsis-log-install = רישום תהליך ההתקנה
 nsis-byte = B
 nsis-kilo = K
 nsis-mega = M
