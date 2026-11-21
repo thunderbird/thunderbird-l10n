@@ -25,6 +25,17 @@ nsis-back-btn = < Indietro
     .accesskey = n
 nsis-next-btn = Avanti >
     .accesskey = A
+nsis-accept-btn = Accetto i termini dell’accordo di licenza
+    .accesskey = t
+nsis-dont-accept-btn = Non accetto i termini dell’accordo di licenza
+    .accesskey = o
+nsis-install-btn = Installa
+    .accesskey = I
+nsis-uninstall-btn = Disinstalla
+    .accesskey = D
+nsis-cancel-btn = Annulla
+nsis-close-btn = Chiudi
+    .accesskey = C
 nsis-browse-btn = Sfoglia…
     .accesskey = f
 nsis-show-details-btn = Mostra dettagli
@@ -41,6 +52,34 @@ nsis-dir-sub-text = Cartella di destinazione
 nsis-dir-browse-text = Scegliere la cartella in cui installare { $BrandFullNameDA }:
 nsis-space-available = Spazio disponibile:{ " " }
 nsis-space-required = Spazio richiesto:{ " " }
+nsis-uninstalling-text = { $BrandFullNameDA } sarà disinstallato dalla seguente cartella. { $ClickInstructions }
+nsis-uninstalling-sub-text = Disinstallazione da:
+nsis-file-error =
+    Errore nell’apertura di un file per la scrittura:
+    
+    { $FilePath }
+    
+    Fare clic su Annulla per terminare l’installazione,
+    Riprova per ritentare o
+    Ignora per saltare il file.
+nsis-file-error-no-ignore =
+    Errore nell’apertura di un file per la scrittura:
+    
+    { $FilePath }
+    
+    Fare clic su Riprova per ritentare o
+    Annulla per terminare l’installazione.
+nsis-cant-write = Scrittura non riuscita:{ " " }
+nsis-copy-failed = Copia non riuscita
+nsis-copy-to = Copia in{ " " }
+nsis-registering = Registrazione in corso:{ " " }
+nsis-unregistering = Deregistrazione in corso:{ " " }
+nsis-symbol-not-found = Impossibile trovare il simbolo:{ " " }
+nsis-could-not-load = Impossibile caricare:{ " " }
+nsis-create-folder = Creazione cartella:{ " " }
+nsis-create-shortcut = Creazione collegamento:{ " " }
+nsis-created-uninstaller = Creazione programma di disinstallazione:{ " " }
+nsis-delete = Eliminazione file:{ " " }
 nsis-delete-on-reboot = Elimina al riavvio:{ " " }
 nsis-error-creating-shortcut = Errore nella creazione del collegamento:{ " " }
 nsis-error-creating = Errore nella creazione:{ " " }
