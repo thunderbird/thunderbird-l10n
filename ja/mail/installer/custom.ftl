@@ -33,6 +33,8 @@ maintenance-service-checkbox-desc = Maintenance サービスをインストー�
 summary-page-title = セットアップ設定の確認
 summary-page-subtitle = { $BrandShortName } をインストールする準備ができました。
 summary-installed-to = 次の場所に { $BrandShortName } をインストールします:
+summary-reboot-required-install = インストールを完了するにはコンピューターの再起動が必要になることがあります。
+summary-reboot-required-uninstall = アンインストールを完了するにはコンピューターの再起動が必要になることがあります。
 summary-install-click = [インストール] をクリックするとインストールを開始します。
 summary-upgrade-click = [更新] をクリックするとアップグレードを開始します。
 launch-text = 今すぐ { $BrandFullName } を起動
@@ -83,3 +85,10 @@ options-summary = セットアップの種類を選択して、[次へ] をク�
 option-standard-desc = 最も一般的な構成で { $BrandShortName } をインストールします。
 option-standard-radio = 標準インストール
     .accesskey = S
+# This string should fit in two lines (approximately 65 characters per line).
+option-custom-desc = 構成を選択して { $BrandShortName } をインストールします。(上級ユーザー向け)
+option-custom-radio = カスタムインストール
+    .accesskey = C
+# This text replaces the Install button text on the summary page.
+upgrade-button = 更新
+    .accesskey = U
