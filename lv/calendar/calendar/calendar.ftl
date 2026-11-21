@@ -744,6 +744,9 @@ calendar-error-prompt-title = Ir atgadījusies kļūda
 calendar-extract-event-button =
     .label = Pievienot kā notikumu
     .tooltiptext = Izvilkt kalendāra informāciju no ziņojuma un pievienot to kalendāram kā notikumu
+calendar-extract-task-button =
+    .label = Pievienot kā uzdevumu
+    .tooltiptext = Izvilkt kalendāra informāciju no ziņojuma un pievienot to kalendāram kā uzdevumu
 new-event-input =
     .placeholder = Jauns notikums
 new-task-input =
@@ -784,6 +787,16 @@ sendandclose-button =
 saveandsend-button =
     .label = Saglabāt un nosūtīt
     .tooltiptext = Saglabāt un paziņot apmeklētājiem
+saveandsend-menu =
+    .label = Saglabāt un nosūtīt
+sendandclose-menu =
+    .label = Sūtīt un aizvērt
+event-recurrence-forever =
+    .label = Uz visiem laikiem
+# $count - the number of attendees
+attendees-tab-label = Dalībnieki ({ $count }):
+# $count - the number of attachments
+attachments-tab-label = Pielikumi ({ $count }):
 # Variables:
 #   $docTitle (String) - The date or view label for the current calendar view.
 calendar-window-title = { $docTitle } - { -brand-full-name }
