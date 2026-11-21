@@ -26,3 +26,6 @@ option-standard-radio = 기본 설치
 option-custom-desc = 사용자가 설치할 항목을 선택할 수 있습니다. 전문적인 사용자에게 권장합니다.
 option-custom-radio = 사용자 정의
     .accesskey = C
+# This text replaces the Install button text on the summary page.
+upgrade-button = 설치
+    .accesskey = U
