@@ -26,3 +26,6 @@ option-standard-radio = Обычная
 option-custom-desc = Вы можете самостоятельно выбрать компоненты для установки. Рекомендуется для опытных пользователей.
 option-custom-radio = Выборочная
     .accesskey = В
+# This text replaces the Install button text on the summary page.
+upgrade-button = Обновить
+    .accesskey = О
