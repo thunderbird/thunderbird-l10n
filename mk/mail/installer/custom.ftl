@@ -16,14 +16,14 @@
 ##   $MinSupportedVer (String) - The minimum supported version of Windows (e.g. Microsoft Windows 10).
 ##   $MinSupportedCPU (String) - The CPU feature required to run the application (e.g. SSE2).
 
-reg-app-desc = ${BrandShortName} е полнокрвна програма за е-пошта. ${BrandShortName} ги поддржува протоколите IMAP и POP, како и HTML форматирање на пораките. Модерните можности на ${BrandShortName} вклучуваат вградени контроли за отпадна пошта, RSS можности, моќно брзо пребарување, проверка на правопис за време на пишување, глобално сандаче и напредно филтрирање на пораките.
+reg-app-desc = ${ BrandShortName } е полнокрвна програма за е-пошта. ${ BrandShortName } ги поддржува протоколите IMAP и POP, како и HTML форматирање на пораките. Модерните можности на ${ BrandShortName } вклучуваат вградени контроли за отпадна пошта, RSS можности, моќно брзо пребарување, проверка на правопис за време на пишување, глобално сандаче и напредно филтрирање на пораките.
 options-page-title = Тип на инсталација
 options-page-subtitle = Одберете опции за инсталација
 shortcuts-page-title = Поврзување на кратенки
 shortcuts-page-subtitle = Креирај икони за програмата
 launch-text = Стартувај го $(^Name) веднаш
     .accesskey = С
-create-icons-desc = Креирај икони за ${BrandShortName}:
+create-icons-desc = Креирај икони за ${ BrandShortName }:
 icons-desktop = На мојата работна површина
     .accesskey = р
 icons-startmenu = Во папката за програми во менито Старт
@@ -36,13 +36,13 @@ warn-disk-space =
     Немате доволно празен простор на дискот да инсталирате на ова место.
     
     Кликнете на „Во ред“ за да изберете друга локација.
-status-install-app = Инсталирање на ${BrandShortName}…
-status-uninstall-main = Бришење на ${BrandShortName}…
+status-install-app = Инсталирање на ${ BrandShortName }…
+status-uninstall-main = Бришење на ${ BrandShortName }…
 status-cleanup = Чистење…
 # This string should fit in one line (approximately 65 characters).
 options-summary = Одберете го типот на инсталација и потоа кликнете „Напред“.
 # This string should fit in one line (approximately 65 characters).
-option-standard-desc = ${BrandShortName} ќе биде инсталиран со вообичаените опции.
+option-standard-desc = ${ BrandShortName } ќе биде инсталиран со вообичаените опции.
 option-standard-radio = Стандарден
     .accesskey = С
 # This string should fit in two lines (approximately 65 characters per line).

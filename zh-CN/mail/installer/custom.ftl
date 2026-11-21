@@ -67,8 +67,8 @@ warn-disk-space =
     
     请点击［确定］选择其他位置。
 warn-min-supported-osver-msg = 很抱歉，{ $BrandShortName } 无法安装。此版本的 { $BrandShortName } 需要 { $MinSupportedVer } 或更新版本。请点击［确定］按钮获得更多信息。
-warn-min-supported-cpu-msg = 很抱歉，{ $BrandShortName } 无法安装。此版本的 { $BrandShortName } 需要 {MinSupportedCPU} 处理器的支持。请点击［确定］按钮获得更多信息。
-warn-min-supported-osver-cpu-msg = 很抱歉，{ $BrandShortName } 无法安装。此版本的 { $BrandShortName } 需要 {MinSupportedVer} 或更新版本及 {MinSupportedCPU} 处理器的支持。请点击［确定］按钮获得更多信息。
+warn-min-supported-cpu-msg = 很抱歉，{ $BrandShortName } 无法安装。此版本的 { $BrandShortName } 需要 { MinSupportedCPU } 处理器的支持。请点击［确定］按钮获得更多信息。
+warn-min-supported-osver-cpu-msg = 很抱歉，{ $BrandShortName } 无法安装。此版本的 { $BrandShortName } 需要 { MinSupportedVer } 或更新版本及 { MinSupportedCPU } 处理器的支持。请点击［确定］按钮获得更多信息。
 warn-restart-required-uninstall = 您必须重新启动计算机以完成 { $BrandShortName } 的卸载。您想要现在就重新启动吗？
 warn-restart-required-upgrade = 您必须重新启动计算机以完成 { $BrandShortName } 的升级。您想要现在就重新启动吗？
 error-create-directory-prefix = 创建文件夹失败：
