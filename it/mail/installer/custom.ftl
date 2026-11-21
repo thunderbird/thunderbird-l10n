@@ -26,3 +26,6 @@ option-standard-radio = Standard
 option-custom-desc = Si potrà scegliere quali opzioni installare. Per utenti esperti.
 option-custom-radio = Personalizzata
     .accesskey = P
+# This text replaces the Install button text on the summary page.
+upgrade-button = Aggiorna
+    .accesskey = A
