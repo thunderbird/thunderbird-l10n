@@ -22,9 +22,9 @@ context-options = אפשרויות { $BrandShortName }
 context-safe-mode = הפעלת { $BrandShortName } במצב בטוח
     .accesskey = מ
 options-page-title = סוג התקנה
-options-page-subtitle = בחר אפשרויות התקנה
-shortcuts-page-title = צור קיצורי דרך
-shortcuts-page-subtitle = צור סמלים לתוכנה
+options-page-subtitle = בחירת אפשרויות התקנה
+shortcuts-page-title = יצירת קיצורי דרך
+shortcuts-page-subtitle = יצירת סמלים לתוכנה
 components-page-title = הגדרת רכיבי רשות
 components-page-subtitle = רכיבי רשות מומלצים
 optional-components-desc = שירות התחזוקה מאפשר לך לעדכן את { $BrandShortName } בשקט ברקע.
@@ -33,29 +33,31 @@ maintenance-service-checkbox-desc = התקנת שירות תחזוקה
 summary-page-title = סיכום
 summary-page-subtitle = מוכן להתחיל בהתקנה של { $BrandShortName }
 summary-installed-to = { $BrandShortName } יותקן במיקום הבא:
-summary-reboot-required-install = ייתכן ותידרש הפעלה מחדש של המחשב להשלמת ההתקנה.
-summary-reboot-required-uninstall = ייתכן שתידרש הפעלה מחדש של המחשב שלך כדי להשלים את ההסרה.
+summary-reboot-required-install = ייתכן שתידרש הפעלה מחדש של המחשב שלך להשלמת ההתקנה.
+summary-reboot-required-uninstall = ייתכן שתידרש הפעלה מחדש של המחשב שלך להשלמת ההסרה.
 summary-install-click = יש ללחוץ על ״התקנה” כדי להמשיך.
 summary-upgrade-click = יש ללחוץ על ״שדרוג” כדי להמשיך.
-launch-text = הפעל את { $BrandFullName } כעת
+launch-text = הפעלת { $BrandFullName } כעת
     .accesskey = L
-create-icons-desc = צור סמלים עבור { $BrandShortName }:
+create-icons-desc = יצירת סמלים עבור { $BrandShortName }:
 icons-desktop = על שולחן העבודה שלי
     .accesskey = ש
 icons-startmenu = בתפריט ההתחלה
     .accesskey = S
+icons-taskbar = בשורת המשימות שלי
+    .accesskey = ב
 warn-manually-close-app-install =
     { $BrandShortName } חייב להיסגר כדי להמשיך בהתקנה.
     
-    בבקשה סגור את { $BrandShortName } כדי להמשיך.
+    נא לסגור את { $BrandShortName } כדי להמשיך.
 warn-manually-close-app-uninstall =
     { $BrandFullName } חייב להיסגר כדי להמשיך בהסרה.
     
-    בבקשה סגור את { $BrandShortName } כדי להמשיך.
+    נא לסגור את { $BrandShortName } כדי להמשיך.
 warn-manually-close-app-launch =
-    { $BrandShortName } כבר רצה.
+    { $BrandShortName } כבר פועל.
     
-    בבקשה סגור את { $BrandShortName } לפני הפעלת הגרסה שהתקנת כעת.
+    נא לסגור את { $BrandShortName } לפני הפעלת הגרסה שהתקנת כעת.
 warn-write-access =
     אין לך הרשאות כתיבה לתיקיית ההתקנה.
     
