@@ -156,7 +156,7 @@ calendar-event-availability-selector =
 calendar-event-availability-default = Predefinito
 calendar-event-availability-busy = Occupato
 calendar-event-availability-free = Libero
-calendar-event-prompt-edit-header = Modificare questo evento o tutte le occorrenze di questo evento?
+calendar-event-prompt-edit-header = Modificare questo evento o tutte le sue occorrenze?
 calendar-prompt-edit-confirm-button = Conferma
 calendar-event-prompt-edit-title = Modifica evento
 
@@ -180,7 +180,7 @@ calendar-event-remove-category =
 calendar-event-more-categories = +{ $count } altre
     .aria-label =
         { $count ->
-            [one] +{ $count } altre categorie
+            [one] +{ $count } altra categoria
            *[other] +{ $count } altre categorie
         }
 
