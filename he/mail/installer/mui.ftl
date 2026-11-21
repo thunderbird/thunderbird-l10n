@@ -22,12 +22,12 @@ mui-text-welcome-info-text =
     מומלץ לסגור את כל היישומים האחרים לפני תחילת ההתקנה. דבר זה יאפשר עדכון קובצי מערכת רלוונטיים ללא צורך בהפעלה מחדש של המחשב.
     
     { $ClickInstructions }
-mui-text-components-title = בחר רכיבים
-mui-text-components-subtitle = בחר אלו תכונות של { $BrandFullNameDA } ברצונך להתקין.
+mui-text-components-title = בחירת רכיבים
+mui-text-components-subtitle = בחירה אילו תכונות של { $BrandFullNameDA } ברצונך להתקין.
 mui-innertext-components-description-title = תיאור
-mui-innertext-components-description-info = מקם את העכבר מעל רכיב כדי לראות את התיאור שלו.
-mui-text-directory-title = בחר מיקום התקנה
-mui-text-directory-subtitle = בחר את התיקייה בה ברצונך להתקין את { $BrandFullNameDA }.
+mui-innertext-components-description-info = יש למקם את העכבר מעל רכיב כדי לראות את התיאור שלו.
+mui-text-directory-title = בחירת מיקום התקנה
+mui-text-directory-subtitle = בחירת התיקייה בה ברצונך להתקין את { $BrandFullNameDA }.
 mui-text-installing-title = מתקין
 mui-text-installing-subtitle = נא להמתין בזמן ש־{ $BrandFullNameDA } מותקן.
 mui-text-finish-title = ההתקנה הושלמה
@@ -40,13 +40,13 @@ mui-text-finish-info-title = מסיים את אשף ההתקנה של { $BrandFu
 mui-text-finish-info-text =
     { $BrandFullNameDA } הותקן במחשב שלך.
     
-    יש ללחוץ על סיום כדי לסגור אשף זה.
+    יש ללחוץ על ״סיום״ כדי לסגור אשף זה.
 mui-text-finish-info-reboot = נדרשת הפעלה מחדש של המחשב כדי לסיים את ההתקנה של { $BrandFullNameDA }. האם ברצונך לבצע הפעלה מחדש כעת?
-mui-text-finish-rebootnow = הפעל מחדש כעת
+mui-text-finish-rebootnow = הפעלה מחדש כעת
 mui-text-finish-rebootlater = ברצוני לבצע הפעלה מחדש מאוחר יותר
-mui-text-startmenu-title = בחר תיקיית בתפריט "התחל"
-mui-text-startmenu-subtitle = בחר את התיקייה בתפריט "התחל" עבור קיצורי הדרך של { $BrandFullNameDA }.
-mui-innertext-startmenu-top = בחר את התיקייה בתפריט "התחל" בה אתה מעוניין ליצור קיצורי דרך לתוכנה. באפשרותך להכניס שם ליצירת תיקייה חדשה.
+mui-text-startmenu-title = בחירת תיקייה בתפריט ״התחל״
+mui-text-startmenu-subtitle = בחירת התיקייה בתפריט ״התחל״ עבור קיצורי הדרך של { $BrandFullNameDA }.
+mui-innertext-startmenu-top = יש לבחור בתיקייה בתפריט ״התחל״ בה ברצונך ליצור קיצורי דרך לתוכנה. באפשרותך להכניס שם ליצירת תיקייה חדשה.
 mui-text-abortwarning = האם ברצונך לצאת מתוכנית ההתקנה של { $BrandFullName }?
 mui-untext-welcome-info-title = ברוכים הבאים לאשף ההסרה של { $BrandFullNameDA }
 mui-untext-welcome-info-text =
@@ -56,7 +56,7 @@ mui-untext-welcome-info-text =
     
     { $ClickInstructions }
 mui-untext-confirm-title = הסרת { $BrandFullNameDA }
-mui-untext-confirm-subtitle = הסר את { $BrandFullNameDA } מהמחשב שלך.
+mui-untext-confirm-subtitle = הסרת { $BrandFullNameDA } מהמחשב שלך.
 mui-untext-uninstalling-title = מסיר
 mui-untext-uninstalling-subtitle = נא להמתין בזמן ההסרה של { $BrandFullNameDA }.
 mui-untext-finish-title = ההסרה הושלמה
@@ -67,6 +67,6 @@ mui-untext-finish-info-title = משלים את אשף ההסרה של { $BrandFu
 mui-untext-finish-info-text =
     { $BrandFullNameDA } הוסר מהמחשב שלך.
     
-    יש ללחוץ על סיום כדי לסגור אשף זה.
+    יש ללחוץ על ״סיום״ כדי לסגור אשף זה.
 mui-untext-finish-info-reboot = נדרשת הפעלה מחדש של המחשב לצורך סיום הסרה של { $BrandFullNameDA }. האם ברצונך לבצע הפעלה מחדש כעת?
 mui-untext-abortwarning = האם ברצונך לצאת מתוכנית ההסרה של { $BrandFullName }?

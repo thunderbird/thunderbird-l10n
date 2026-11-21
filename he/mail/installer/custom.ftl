@@ -61,27 +61,30 @@ warn-manually-close-app-launch =
 warn-write-access =
     אין לך הרשאות כתיבה לתיקיית ההתקנה.
     
-    לחץ על אישור כדי לבחור בתיקייה אחרת.
+    יש ללחוץ על אישור כדי לבחור בתיקייה אחרת.
 warn-disk-space =
     אין לך מספיק מקום פנוי כדי להתקין למיקום זה.
     
-    לחץ על אישור כדי לבחור במיקום אחר.
+    יש ללחוץ על אישור כדי לבחור במיקום אחר.
+warn-min-supported-osver-msg = מצטערים, לא ניתן להתקין את { $BrandShortName }. גרסה זו של { $BrandShortName } דורשת { $MinSupportedVer } ומעלה. נא ללחוץ על כפתור האישור למידע נוסף.
+warn-min-supported-cpu-msg = מצטערים, לא ניתן להתקין את { $BrandShortName }. גרסה זו של { $BrandShortName } דורשת מעבד עם תמיכה ב־{ $MinSupportedCPU }. נא ללחוץ על כפתור האישור למידע נוסף.
+warn-min-supported-osver-cpu-msg = מצטערים, לא ניתן להתקין את { $BrandShortName }. גרסה זו של { $BrandShortName } דורשת { $MinSupportedVer } ומעלה ומעבד עם תמיכה ב־{ $MinSupportedCPU }. נא ללחוץ על כפתור האישור למידע נוסף.
 warn-restart-required-uninstall = יש להפעיל את המחשב מחדש כדי להשלים הסרה קודמת של { $BrandShortName }. האם ברצונך להפעיל מחדש כעת?
 warn-restart-required-upgrade = יש להפעיל את המחשב מחדש כדי להשלים שידרוג גרסה קודמת של { $BrandShortName }. האם להפעיל מחדש כעת?
 error-create-directory-prefix = שגיאה ביצירת תיקייה:
 error-create-directory-suffix =
-    בחר 'ביטול' כדי להפסיק את ההתקנה
-    או 'נסה שוב' כדי לנסות שוב.
+    יש ללחוץ על ״ביטול״ כדי להפסיק את ההתקנה
+    או ״נסה שוב״ כדי לנסות שוב.
 un-confirm-page-title = הסרת { $BrandFullName }
-un-confirm-page-subtitle = הסר את { $BrandFullName } מהמחשב שלך.
+un-confirm-page-subtitle = הסרת { $BrandFullName } מהמחשב שלך.
 un-confirm-uninstalled-from = { $BrandShortName } יוסר מהמיקום הנוכחי:
-un-confirm-click = לחץ 'הסרה' כדי להמשיך.
+un-confirm-click = יש ללחוץ על ״הסרה״ כדי להמשיך.
 banner-check-existing = בודק התקנה קיימת…
 status-install-app = מתקין את { $BrandShortName }…
 status-uninstall-main = מסיר את { $BrandShortName }…
 status-cleanup = מנקה את הקן…
 # This string should fit in one line (approximately 65 characters).
-options-summary = בחר את סוג ההתקנה המועדפת, ואז לחץ על הבא.
+options-summary = יש לבחור בסוג ההתקנה המועדפת, ואז ללחוץ על הבא.
 # This string should fit in one line (approximately 65 characters).
 option-standard-desc = { $BrandShortName } יותקן עם האפשרויות הנפוצות ביותר.
 option-standard-radio = רגילה
