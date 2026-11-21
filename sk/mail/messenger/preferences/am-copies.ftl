@@ -4,6 +4,7 @@
 
 account-prefs-show-address-row-description = Ak chcete, aby sa pri vytváraní novej správy vždy zobrazoval riadok s adresou, nechajte pole adresy prázdne.
 account-prefs-sent-message-copies-description = Vyberte umiestnenie na ukladanie kópií odoslaných správ a nastavte pravidlá automatickej kópie alebo skrytej kópie
+account-prefs-sent-message-copies-graph-info = Poznámka: Microsoft Graph automaticky ukladá odoslané správy do priečinka Odoslaná pošta nastaveného na serveri.
 account-prefs-automatic-cc-bcc-description = Poznámka: Ak začiarknete tieto políčka, pri vytváraní nových správ sa automaticky pridajú riadky Kópia a Skrytá kópia.
 account-prefs-sent-folder-on =
     .label = Priečinok odoslanej pošty pre:

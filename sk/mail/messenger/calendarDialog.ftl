@@ -200,6 +200,16 @@ calendar-event-more-categories = + ďalšie ({ $count })
            *[other] + { $count } ďalších kategórií
         }
 
+## Video row in the event create/edit dialog.
+
+calendar-event-video-label = Video
+calendar-event-video-url =
+    .aria-label = Adresa URL videa
+    .placeholder = Zadajte adresu URL videa
+calendar-event-video-url-clear =
+    .aria-label = Odstrániť adresu URL videa
+    .title = Odstrániť adresu URL videa
+
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".
 
