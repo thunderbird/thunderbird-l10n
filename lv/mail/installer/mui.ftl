@@ -31,7 +31,7 @@ mui-text-directory-subtitle = Izvēlies mapi, kurā vēlies uzstādīt { $BrandF
 mui-text-installing-title = Uzstāda
 mui-text-installing-subtitle = Lūgums uzgaidīt, kamēr notiek { $BrandFullNameDA } uzstādīšana.
 mui-text-finish-title = Uzstādīšana pabeigta
-mui-text-finish-subtitle = Uzstādīšana ir sekmīgi pabeigta.
+mui-text-finish-subtitle = Uzstādīšana tika sekmīgi pabeigta.
 mui-text-abort-title = Uzstādīšana atcelta
 mui-text-abort-subtitle = Uzstādīšana netika sekmīgi pabeigta.
 mui-buttontext-finish = Pabeigt
@@ -44,23 +44,23 @@ mui-text-finish-info-text =
 mui-text-finish-info-reboot = Dators ir jāpārsāknē, lai pabeigtu { $BrandFullNameDA } uzstādīšanu. Vai darīt to tagad?
 mui-text-finish-rebootnow = Pārsāknēt tagad
 mui-text-finish-rebootlater = Vēlos pašrocīgi pārsāknēt vēlāk
-mui-text-startmenu-title = Izvēlieties Start izvēlnes mapi
-mui-text-startmenu-subtitle = Izvēlieties { $BrandFullNameDA } saīsņu Start izvēlnes mapi.
+mui-text-startmenu-title = Sākuma izvēlnes mapes izvēlēšanās
+mui-text-startmenu-subtitle = Izvēlies sākuma izvēlnes mapi { $BrandFullNameDA } īsinājumikonām!
 mui-innertext-startmenu-top = Jāatlasa sākuma izvēlnes mape, kurā izveidot programmas īsinājumikonas. Var arī ievadīt nosaukumu, lai izveidotu jaunu mapi.
-mui-text-abortwarning = Vai tiešām vēlaties pārtraukt { $BrandFullName } uzstādīšanu?
+mui-text-abortwarning = Vai tiešām izbeigt { $BrandFullName } iestatīšanu?
 mui-untext-welcome-info-title = Laipni lūdzam { $BrandFullNameDA } noņemšanas vednī
 mui-untext-welcome-info-text =
-    Šis vednis palīdzēs jums noņemt { $BrandFullNameDA }.
+    Šis vednis palīdzēs noņemt { $BrandFullNameDA }.
     
-    Pirms sākt noņemšanu, pārliecinieties, ka { $BrandFullNameDA } ir aizvērts.
+    Pirms noņemšanas uzsākšanas jāpārliecinās, ka { $BrandFullNameDA } ir aizvērts.
     
     { $ClickInstructions }
 mui-untext-confirm-title = Noņemt { $BrandFullNameDA }
-mui-untext-confirm-subtitle = Noņemt { $BrandFullNameDA } no jūsu datora.
+mui-untext-confirm-subtitle = Noņemt { $BrandFullNameDA } no datora.
 mui-untext-uninstalling-title = Noņem
-mui-untext-uninstalling-subtitle = Lūdzu, uzgaidiet, kamēr { $BrandFullNameDA } tiek noņemts.
+mui-untext-uninstalling-subtitle = Lūgums uzgaidīt, kamēr notiek { $BrandFullNameDA } noņemšana.
 mui-untext-finish-title = Noņemšana pabeigta
-mui-untext-finish-subtitle = Noņemšana ir sekmīgi pabeigta.
+mui-untext-finish-subtitle = Noņemšana tika sekmīgi pabeigta.
 mui-untext-abort-title = Noņemšana atcelta
 mui-untext-abort-subtitle = Noņemšana nav sekmīgi pabeigta.
 mui-untext-finish-info-title = Pabeidz { $BrandFullNameDA } noņemšanas vedni
@@ -69,4 +69,4 @@ mui-untext-finish-info-text =
     
     Spiest “Pabeigt”, lai aizvērtu šo vedni.
 mui-untext-finish-info-reboot = Dators ir jāpārsāknē, lai pabeigtu { $BrandFullNameDA } noņemšanu. Vai darīt to tagad?
-mui-untext-abortwarning = Vai tiešām vēlaties pārtraukt { $BrandFullName } noņemšanu?
+mui-untext-abortwarning = Vai tiešām izbeigt { $BrandFullName } noņemšanu?

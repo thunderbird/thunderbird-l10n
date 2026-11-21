@@ -38,47 +38,47 @@ nsis-close-btn = Aizvērt
     .accesskey = A
 nsis-browse-btn = Pārlūkot...
     .accesskey = r
-nsis-show-details-btn = Rādīt detaļas
-    .accesskey = d
+nsis-show-details-btn = Rādīt informāciju
+    .accesskey = i
 nsis-click-next = Spiest “Nākamais”, lai turpinātu.
-nsis-click-install = Lai sāktu uzstādīšanu, spiediet Uzstādīt.
-nsis-click-uninstall = Lai sāktu noņemšanu, spiediet Noņemt.
+nsis-click-install = Jāklikšķina “Uzstādīt”, lai uzsāktu uzstādīšanu.
+nsis-click-uninstall = Jāklikšķina “Noņemt”, lai uzsāktu noņemšanu.
 nsis-completed = Pabeigts
-nsis-license-text-rb = Lūdzu, pirms uzstādīšanas caurskatiet { $BrandFullNameDA } lietošanas nosacījumus. Ja piekrītat šiem nosacījumiem, izvēlieties pirmo no zemāk pieejamajām iespējām. { $ClickInstructions }
+nsis-license-text-rb = Lūgums pirms { $BrandFullNameDA } uzstādīšanas pārskatīt licences līgumu. Lai pieņemtu līguma nosacījumus, zemāk jāatlasa pirmā iespēja. { $ClickInstructions }
 nsis-components-text = Jāatzīmē sastāvdaļas, kuras ir vēlēšanās uzstādīt, un jānoņem atzīme no tām, kuras nav vēlēšanās uzstādīt. { $ClickInstructions }
 nsis-components-sub-text2-no-inst-types = Atlasi uzstādāmās sastāvdaļas:
-nsis-dir-text = { $BrandFullNameDA } tiks uzstādīts norādītajā mapē. Lai uzstādītu to citā vietā, spiediet Pārlūkot un izvēlieties citu mapi. { $ClickInstructions }
+nsis-dir-text = { $BrandFullNameDA } tiks uzstādīta zemāk esošajā mapē. Lai uzstādītu to citā vietā, jāspiež “Pārlūkot” un jāatlasa cita mape. { $ClickInstructions }
 nsis-dir-sub-text = Mērķa mape
-nsis-dir-browse-text = Izvēlieties mapi, kurā uzstādīt { $BrandFullNameDA }:
+nsis-dir-browse-text = Atlasi mapi, kurā uzstādīt { $BrandFullNameDA }:
 nsis-space-available = Brīva vieta:{ " " }
-nsis-space-required = Nepieciešama vieta:{ " " }
+nsis-space-required = Nepieciešamā diska vieta:{ " " }
 nsis-uninstalling-text = { $BrandFullNameDA } tiks noņemts no šīs mapes. { $ClickInstructions }
 nsis-uninstalling-sub-text = Noņem no:
 nsis-file-error =
-    Kļūda, atverot failu rakstīšanai:
+    Kļūda datnes atvēršanā rakstīšanai:
     
     { $FilePath }
     
-    Spiediet Pārtraukt, lai pārtrauktu uzstādīšanu,
-    Atkārtot, lai mēģinātu vēlreiz, vai
-    Ignorēt, lai izlaistu šo failu.
+    Jāklikšķina “Pārtraukt”, lai apstādinātu uzstādīšanu,
+    “Atkārtot”, lai mēģinātu vēlreiz, vai
+    “Neņemt vērā”, lai izlaistu šo datni.
 nsis-file-error-no-ignore =
-    Kļūda atverot failu rakstīšanai:
+    Kļūda datnes arvēršanā rakstīšanai:
     
     { $FilePath }
     
-    Spiediet Atkārtot, lai mēģinātu vēlreiz, vai
-    Atcelt, lai pārtrauktu uzstādīšanu.
-nsis-cant-write = Nevar ierakstīt:{ " " }
+    Jāklikšķina “Atkārtot”, lai mēģinātu vēlreiz, vai
+    “Atcelt”, lai apturētu uzstādīšanu.
+nsis-cant-write = Nevar rakstīt:{ " " }
 nsis-copy-failed = Kopēšana neizdevās
 nsis-copy-to = Kopēt uz{ " " }
 nsis-registering = Reģistrē:{ " " }
 nsis-unregistering = Atreģistrē:{ " " }
-nsis-symbol-not-found = Neizdevās atrast simbolu:{ " " }
-nsis-could-not-load = Neizdevās ielādēt:{ " " }
-nsis-create-folder = Veido mapi:{ " " }
-nsis-create-shortcut = Veido saīsni:{ " " }
-nsis-created-uninstaller = Veido noņēmēju:{ " " }
+nsis-symbol-not-found = Nevar atrast zīmi:{ " " }
+nsis-could-not-load = Nevarēja ielādēt:{ " " }
+nsis-create-folder = Izveido mapi:{ " " }
+nsis-create-shortcut = Izveido saīsni:{ " " }
+nsis-created-uninstaller = Izveido noņēmēju:{ " " }
 nsis-delete = Izdzēst datni:{ " " }
 nsis-delete-on-reboot = Izdzēst pēc pārsāknēšanas:{ " " }
 nsis-error-creating-shortcut = Kļūda, veidojot saīsni:{ " " }
