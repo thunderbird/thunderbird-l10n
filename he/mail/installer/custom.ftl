@@ -26,3 +26,6 @@ option-standard-radio = רגילה
 option-custom-desc = באפשרותך לבחור אפשרויות בודדות שיותקנו. מומלץ למשתמשים מנוסים.
 option-custom-radio = מותאמת אישית
     .accesskey = C
+# This text replaces the Install button text on the summary page.
+upgrade-button = שדרוג
+    .accesskey = ש
