@@ -4,6 +4,7 @@
 
 account-prefs-show-address-row-description = Wóstajśo adresowe pólo prozne, aby adresowu smužku pśecej pokazaś, gaž nowu powěsć zachopinaśo.
 account-prefs-sent-message-copies-description = Wubjeŕśo, źož maju se kopije pósłanych powěsćow składowaś a konfigurěrujśo awtomatiske pšawidła za Kopija/Schowana kopija
+account-prefs-sent-message-copies-graph-info = Glědajśo: Microsoft Graph pósłane powěsći awtomatiski w pódanem zarědniku Pósłane serwera składujo.
 account-prefs-automatic-cc-bcc-description = Glědajśo: Gaž toś te kontrolne kašćiki zmóžnjaśo, se smužce Kopija/Schowana kopija awtomatiski pśidawaju, gaž nowe powěsći pišośo.
 account-prefs-sent-folder-on =
     .label = Zarědnik Pósłany na:
