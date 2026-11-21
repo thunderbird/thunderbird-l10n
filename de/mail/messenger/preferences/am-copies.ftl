@@ -4,6 +4,7 @@
 
 account-prefs-show-address-row-description = Um beim Start einer neuen Nachricht immer ein bestimmtes Adressfeld ohne vorgegebene Empfänger anzuzeigen, muss dieses aktiviert und leer gelassen werden.
 account-prefs-sent-message-copies-description = Legen Sie fest, wo Kopien gesendeter Nachrichten gespeichert werden, und richten Sie automatische Cc-/Bcc-Regeln ein
+account-prefs-sent-message-copies-graph-info = Hinweis: Microsoft Graph legt gesendete Nachrichten automatisch im dafür vorgesehenen Ordner „Gesendete Elemente“ auf dem Server ab.
 account-prefs-automatic-cc-bcc-description = Hinweis: Wenn Sie diese Kontrollkästchen aktivieren, werden beim Verfassen neuer Nachrichten automatisch Cc-/Bcc-Zeilen hinzugefügt.
 account-prefs-sent-folder-on =
     .label = Ordner für gesendete Nachrichten unter:

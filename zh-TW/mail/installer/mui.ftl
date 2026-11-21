@@ -68,5 +68,5 @@ mui-untext-finish-info-text =
     已從您的電腦中移除 { $BrandFullNameDA }。
     
     按「完成」關閉本精靈。
-mui-untext-finish-info-reboot = 您需要重新啟動電腦才能完成 { $BrandFullNameDA } 的移除程序。您要現在重新啟動嗎？
-mui-untext-abortwarning = 您確定要離開 { $BrandFullName } 的移除程式？
+mui-untext-finish-info-reboot = 必須重新啟動電腦才能完成 { $BrandFullNameDA } 的移除程序。您要現在重開機嗎？
+mui-untext-abortwarning = 您確定要離開 { $BrandFullName } 移除程式？

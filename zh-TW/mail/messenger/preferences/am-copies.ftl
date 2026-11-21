@@ -4,7 +4,7 @@
 
 account-prefs-show-address-row-description = 將收件地址欄位留空，即可在寫新郵件時總是顯示信箱地址。
 account-prefs-sent-message-copies-description = 選擇寄件備份的儲存位置，並設定自動副本／密件副本規則
-account-prefs-sent-message-copies-graph-info = 注: Microsoft Graph 已寄出的郵件會自動儲存到伺服器上的指定「寄件備份」資料夾。
+account-prefs-sent-message-copies-graph-info = 註：Microsoft Graph 會自動將寄出的郵件儲存至伺服器指定的「寄件備份」信件匣。
 account-prefs-automatic-cc-bcc-description = 注意：勾選這些方塊後，撰寫新郵件時會自動新增副本／密件副本欄位。
 account-prefs-sent-folder-on =
     .label = 下列位置的「寄件備份」信件匣：
