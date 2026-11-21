@@ -180,6 +180,16 @@ calendar-event-more-categories = +{ $count } 類
            *[other] 還有 { $count } 個分類
         }
 
+## Video row in the event create/edit dialog.
+
+calendar-event-video-label = 影片
+calendar-event-video-url =
+    .aria-label = 影片網址
+    .placeholder = 請輸入影片網址
+calendar-event-video-url-clear =
+    .aria-label = 清除影片網址
+    .title = 清除影片網址
+
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".
 

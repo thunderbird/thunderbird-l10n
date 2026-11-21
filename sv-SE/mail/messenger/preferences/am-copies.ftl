@@ -4,6 +4,7 @@
 
 account-prefs-show-address-row-description = Lämna adressfältet tomt för att alltid visa adressraden när du börjar på ett nytt meddelande.
 account-prefs-sent-message-copies-description = Välj var kopior av skickade meddelanden ska sparas och konfigurera automatiska regler för kopia och dold kopia
+account-prefs-sent-message-copies-graph-info = Obs: Microsoft Graph sparar automatiskt skickade meddelanden i serverns angivna mapp för skickade objekt.
 account-prefs-automatic-cc-bcc-description = Obs! Om du markerar de här rutorna läggs rader för Kopia/Dold kopia automatiskt till när du skriver nya meddelanden.
 account-prefs-sent-folder-on =
     .label = Mapp för skickat:

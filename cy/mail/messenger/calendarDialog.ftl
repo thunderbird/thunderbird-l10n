@@ -217,6 +217,16 @@ calendar-event-more-categories = +{ $count } arall
            *[other] +{ $count } categori arall
         }
 
+## Video row in the event create/edit dialog.
+
+calendar-event-video-label = Fideo
+calendar-event-video-url =
+    .aria-label = URL fideo
+    .placeholder = Rhowch URL ar gyfer fideo
+calendar-event-video-url-clear =
+    .aria-label = Clirio URL fideo
+    .title = Clirio URL fideo
+
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".
 

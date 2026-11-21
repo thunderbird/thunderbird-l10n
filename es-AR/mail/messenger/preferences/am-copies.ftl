@@ -4,6 +4,7 @@
 
 account-prefs-show-address-row-description = Deje el campo de direcciones en blanco para mostrar siempre la fila de direcciones al iniciar un nuevo mensaje.
 account-prefs-sent-message-copies-description = Elegir dónde guardar copias de los mensajes enviados y configurar reglas automáticas Cc/Cco
+account-prefs-sent-message-copies-graph-info = Nota: Microsoft Graph guarda automáticamente los mensajes enviados en la carpeta Elementos enviados del servidor.
 account-prefs-automatic-cc-bcc-description = Nota: Al marcar estas casillas se agregan filas Cc/Cco automáticamente al redactar nuevos mensajes.
 account-prefs-sent-folder-on =
     .label = Carpeta enviada el:

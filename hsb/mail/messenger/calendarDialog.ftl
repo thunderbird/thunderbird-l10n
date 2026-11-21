@@ -204,6 +204,16 @@ calendar-event-more-categories = Wjace hač { $count }
            *[other] Wjace hač { $count } kategorijow
         }
 
+## Video row in the event create/edit dialog.
+
+calendar-event-video-label = Widejo
+calendar-event-video-url =
+    .aria-label = URL wideja
+    .placeholder = Zapodajće URL wideja
+calendar-event-video-url-clear =
+    .aria-label = URL wideja zhašeć
+    .title = URL wideja zhašeć
+
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".
 
