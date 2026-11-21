@@ -4,6 +4,7 @@
 
 account-prefs-show-address-row-description = Pozostaw puste pole adresu, aby zawsze wyświetlać wiersz adresu podczas rozpoczynania nowej wiadomości.
 account-prefs-sent-message-copies-description = Wybierz miejsce zapisywania kopii wysłanych wiadomości i skonfiguruj automatyczne reguły „Kopia”/„Ukryta kopia”
+account-prefs-sent-message-copies-graph-info = Uwaga: Microsoft Graph automatycznie zapisuje wysłane wiadomości w wyznaczonym na serwerze folderze „Elementy wysłane”.
 account-prefs-automatic-cc-bcc-description = Uwaga: zaznaczenie tych pól spowoduje automatyczne dodanie wierszy „Kopia”/„Ukryta kopia” podczas tworzenia nowych wiadomości.
 account-prefs-sent-folder-on =
     .label = folderze Wysłane konta:
