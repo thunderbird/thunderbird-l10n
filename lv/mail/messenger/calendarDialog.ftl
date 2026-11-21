@@ -112,3 +112,6 @@ calendar-event-video-label = Video
 calendar-event-video-url =
     .aria-label = Video URL
     .placeholder = Ievadi video URL
+calendar-event-video-url-clear =
+    .aria-label = Notīrīt video URL
+    .title = Notīrīt video URL

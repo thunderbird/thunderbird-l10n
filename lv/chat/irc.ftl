@@ -16,6 +16,7 @@ connection-error-time-out = Savienojumam iestājās noildze
 connection-error-invalid-username = { $username } nav atļauts lietotājvārds
 connection-error-invalid-password = Nederīga servera parole
 connection-error-password-required = Nepieciešama parole
+connection-error-invalid-user-password = Nederīga parole
 # LOCALIZATION NOTE (join-chat-*):
 #   These show up on the join chat menu. An underscore is for the access key.
 join-chat-channel = _Kanāls

@@ -351,6 +351,19 @@ tz-almost-matches-os-differ-at-mostaweek =
     atšķiras ne vairāk kā nedēļu no operētājsistēmas laika joslu pārejām.
     Datos var būt neatbilstības, piemēram, atšķirīgs sākuma datums,
     atšķirīgs noteikums vai aptuvens laiks noteikumam, kas nav Gregora kalendāra.
+tz-seems-to-matchos = Šogad šī ZoneInfo laika josla, šķiet, sakrīt ar operētājsistēmas laika joslu.
+# LOCALIZATION NOTE (tz-fromos):
+# used for a display of a chosen timezone
+#    $timezone will be replaced with the name of a timezone
+tz-fromos = Šī ZoneInfo laika josla tika atlasīta atbilstoši operētājsistēmas laika joslas identifikatoram “{ $timezone }”.
+# Localization note (tz-from-locale): Substitute name of your locale language.
+tz-from-locale =
+    Šī ZoneInfo laika josla tika izvēlēta, pamatojoties uz operētājsistēmas laika joslas 
+    saskaņošanu ar iespējamām laika joslām interneta lietotājiem, kas izmanto ASV angļu valodu.
+# Print Layout
+tasks-with-no-due-date = Uzdevumi, kuriem nav izpildes termiņa
+# Providers
+cal-dav-name = CalDAV
 calendar-tomorrow = Rīt
 # Today pane
 events-only = Notikumi

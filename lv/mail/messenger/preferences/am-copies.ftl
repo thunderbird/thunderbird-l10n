@@ -3,6 +3,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 account-prefs-sent-message-copies-description = Izvēlies, kur saglabāt nosūtīto ziņojumu kopijas, un iestati automātiskas Cc/Bcc kārtulas
+account-prefs-sent-message-copies-graph-info = Piezīme: Microsoft Graph nosūtītos ziņojumus automātiski saglabā šim nolūkam paredzētajā servera mapē “Nosūtītie vienumi”.
 account-prefs-automatic-cc-bcc-description = Piezīme: šo rūtiņu atzīmēšana ziņojumu sastādīšanā pievieno automātiskas Cc/Bcc rindas
 account-prefs-sent-folder-on =
     .label = Nosūtīto mape

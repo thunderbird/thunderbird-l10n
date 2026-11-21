@@ -178,6 +178,10 @@ calendar-event-more-categories = +{ $count } ακόμα
            *[other] +{ $count } ακόμα κατηγορίες
         }
 
+## Video row in the event create/edit dialog.
+
+calendar-event-video-label = Βίντεο
+
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".
 
