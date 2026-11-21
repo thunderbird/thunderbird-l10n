@@ -178,6 +178,14 @@ calendar-event-remaining-categories =
 calendar-event-remove-category =
     .aria-label = Ta bort kategori { $category }
     .title = Ta bort kategori { $category }
+# Variables:
+#   $count (Number): The number of categories not shown in the summary.
+calendar-event-more-categories = +{ $count } till
+    .aria-label =
+        { $count ->
+            [one] +{ $count } kategori till
+           *[other] +{ $count } kategorier till
+        }
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".
