@@ -16,42 +16,44 @@
 ##   $MinSupportedVer (String) - The minimum supported version of Windows (e.g. Microsoft Windows 10).
 ##   $MinSupportedCPU (String) - The CPU feature required to run the application (e.g. SSE2).
 
-reg-app-desc = { $BrandShortName } ir pilna e-pasta lietojumprogramma. { $BrandShortName } atbalsta IMAP un POP pasta protokolus, kā arī HTML pasta formatēšanu. { $BrandShortName } nodrošina tādas modernas darbības kā iebūvētas drazas pasta vadīklas, RSS iespējas, jaudīgu un ātru meklēšanu, pareizrakstības pārbaudi rakstīšanas laikā, globālo iesūtni un izvērstu vēstuļu filtrēšanu.
-context-options = { $BrandShortName } Iespējas
-    .accesskey = I
-context-safe-mode = { $BrandShortName } Drošais režīms
-    .accesskey = D
-options-page-title = Uzstādīšanas veids
-options-page-subtitle = Izvēlieties uzstādīšanas iestatījumus
-shortcuts-page-title = Iestatiet saīsnes
-shortcuts-page-subtitle = Izveidojiet programmas ikonas
-components-page-title = Iestatīt papildu sastāvdaļas
-components-page-subtitle = Ieteicamās izvēles sastāvdaļas
-optional-components-desc = Apkopes pakalpojums ļaus jums { $BrandShortName } klusi atjaunot fonā.
-maintenance-service-checkbox-desc = Uzstādīšanas un apkopes pakalpojums
+reg-app-desc = { $BrandShortName } ir pilnīga e-pasta lietotne. { $BrandShortName } atbalsta IMAP un POP pasta protokolus, kā arī HTML pasta formatēšanu. Iebūvētas drazas pasta vadīklas, RSS iespējas, jaudīga un ātra meklēšana, pareizrakstības pārbaude rakstīšanas laikā, visaptveroša iesūtne un paplašināta ziņojumu atsijāšana papildina { $BrandShortName } mūsdienīgo iespēju kopumu.
+context-options = { $BrandShortName } iespējas
+    .accesskey = i
+context-safe-mode = { $BrandShortName } drošais režīms
+    .accesskey = d
+options-page-title = Iestatīšanas veids
+options-page-subtitle = Iestatīšanas iespējas izvēlēšanās
+shortcuts-page-title = Saīšņu iestatīšana
+shortcuts-page-subtitle = Programmas ikonu izveidošana
+components-page-title = Papildu sastāvdaļu iestatīšana
+components-page-subtitle = Ieteicamās papildu sastāvdaļas
+optional-components-desc = Apkopes pakalpojums ļaus fonā nemanāmi atjaunināt { $BrandShortName }.
+maintenance-service-checkbox-desc = Uzstādīt apkopes pakalpojumu
     .accesskey = a
 summary-page-title = Kopsavilkums
-summary-page-subtitle = Gatavs sākat { $BrandShortName } uzstādīšanu
-summary-installed-to = { $BrandShortName } tiks uzstādīts šādā vietā:
+summary-page-subtitle = Viss gatavs { $BrandShortName } uzstādīšanai
+summary-installed-to = { $BrandShortName } tiks uzstādīts šajā vietā:
 summary-reboot-required-install = Var būt nepieciešams pārsāknēt datoru, lai pabeigtu uzstādīšanu.
 summary-reboot-required-uninstall = Var būt nepieciešams pārsāknēt datoru, lai pabeigtu noņemšanu.
-summary-install-click = Lai turpinātu, klikšķiniet uz Uzstādīt.
-summary-upgrade-click = Lai turpinātu, klikšķiniet uz Atjaunot.
+summary-install-click = Jāklikšķina “Uzstādīt”, lai turpinātu.
+summary-upgrade-click = Jāklikšķina uz “Jaunināt”, lai turpinātu.
 launch-text = Palaist { $BrandFullName } tagad
     .accesskey = P
-create-icons-desc = Izveidojiet ikonas priekš { $BrandShortName }:
+create-icons-desc = Izveidot { $BrandShortName } ikonas:
 icons-desktop = Uz manas darbvirsmas
     .accesskey = d
-icons-startmenu = Sākt izvēlnē Programmas
+icons-startmenu = Sākuma izvēlnes programmu mapē
     .accesskey = S
+icons-taskbar = Uzdevumjoslā
+    .accesskey = U
 warn-manually-close-app-install =
-    Lai turpinātu uzstādīšanu, { $BrandShortName } ir jāaizver
+    { $BrandShortName } ir jāaizver, lai turpinātu uzstādīšanu.
     
-    Lūdzu, aizveriet { $BrandShortName }, lai turpinātu.
+    Lūgums aizvērt { $BrandShortName }, lai turpinātu.
 warn-manually-close-app-uninstall =
-    Lai turpinātu noņemšanu, { $BrandShortName } ir jāaizver
+    { $BrandShortName } ir jāaizver, lai turpinātu noņemšanu.
     
-    Lūdzu, aizveriet { $BrandShortName }, lai turpinātu.
+    Lūgums aizvērt { $BrandShortName }, lai turpinātu.
 warn-manually-close-app-launch =
     { $BrandShortName } jau darbojas.
     
