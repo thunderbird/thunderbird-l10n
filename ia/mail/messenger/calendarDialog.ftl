@@ -187,6 +187,16 @@ calendar-event-more-categories = +{ $count } altere
            *[other] +{ $count } altere categorias
         }
 
+## Video row in the event create/edit dialog.
+
+calendar-event-video-label = Video
+calendar-event-video-url =
+    .aria-label = URL del vídeo
+    .placeholder = Insere un URL pro le vídeo
+calendar-event-video-url-clear =
+    .aria-label = Vacuar URL del vídeo
+    .title = Vacuar URL del vídeo
+
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".
 
