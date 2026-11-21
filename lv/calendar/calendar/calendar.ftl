@@ -200,6 +200,9 @@ filepicker-title-import = Ievietot
 filepicker-title-export = Izgūt
 # Filters for export/import/open file picker.  $wildmat will be replaced with
 # wildmat used to filter files by extension, such as (*.html; *.htm).
+filter-ics = iCalendar ({ $wildmat })
+# Filters for export/import/open file picker.  $wildmat will be replaced with
+# wildmat used to filter files by extension, such as (*.html; *.htm).
 filter-html = Tīmekļa lapa ({ $wildmat })
 # Remote calendar errors
 generic-error-title = Notikusi kļūda
@@ -223,6 +226,12 @@ disabled-mode = Lasot kalendāra “{ $name }” datus, radās kļūda. Kalendā
 # used for an message like 'There has been an error reading data for calendar: Home. However this...'
 #    $name will be replaced with the name of a calendar
 minor-error = Lasot datus kalendāram { $name }, radās kļūda. Tomēr tiek uzskatīts, ka šī kļūda ir neliela, tāpēc programma mēģinās turpināt darbu.
+# LOCALIZATION NOTE (still-read-only-error):
+# used for an message like 'There has been an error reading data for calendar: Home.'
+#    $name will be replaced with the name of a calendar
+still-read-only-error = Lasot kalendāra { $name } datus, radās kļūda.
+utf8-decode-error = Atšifrējot iCalendar (ics) datni kā UTF-8, radās kļūda. Pārbaudiet, vai datne, ieskaitot simbolus un diakritiskās burtus, ir kodēts, izmantojot UTF-8 rakstzīmju kodējumu.
+ics-malformed-error = iCalendar (ics) datnes parsēšana neizdevās. Pārbaudiet, vai datne atbilst iCalendar (ics) datnes sintaksei.
 item-modified-on-server-title = Vienums ir izmainīts serverī
 item-modified-on-server = Šis vienums serverī nesen ir mainīts.
 modify-will-lose-data = Iesniedzot izmaiņas, tiks pārrakstītas serverī veiktās izmaiņas.
@@ -257,6 +266,56 @@ cal-dav-redirect-title = Vai atjaunināt kalendāra { $name } atrašanās vietu?
 # $name name of calendar
 cal-dav-redirect-text = Pieprasījumi par { $name } tiek novirzīti uz jaunu atrašanās vietu. Vai vēlaties mainīt atrašanās vietu uz šādu vērtību?
 cal-dav-redirect-disable-calendar = Atspējot kalendāru
+# LOCALIZATION NOTE (likely-timezone):
+#   Translators, please put the most likely timezone(s) where the people using
+#   your locale will be.  Use the Olson ZoneInfo timezone name *in English*,
+#   ie "Europe/Paris", (continent or ocean)/(largest city in timezone).
+#   Order does not matter, except if two historically different zones now match,
+#   such as America/New_York and America/Toronto, will only find first listed.
+#   (Particularly needed to guess the most relevant timezones if there are
+#    similar timezones at the same June/December GMT offsets with alphabetically
+#    earlier ZoneInfo timezone names.  Sample explanations for English below.)
+# for english-US:
+#   America/Los_Angeles likelier than America/Dawson
+#   America/New_York    likelier than America/Detroit (NY for US-EasternTime)
+# for english:
+#   Europe/London   likelier than Atlantic/Canary
+#   Europe/Paris    likelier than Africa/Ceuta (for WestEuropeanTime)
+#   America/Halifax likelier than America/Glace_Bay (Canada-AtlanticTime)
+#   America/Mexico_City likelier than America/Cancun
+#   America/Argentina/Buenos_Aires likelier than America/Araguaina
+#   America/Sao_Paolo (may not recognize: summer-time dates change every year)
+#   Asia/Singapore  likelier than Antarctica/Casey
+#   Asia/Tokyo      likelier than Asia/Dili
+#   Africa/Lagos likelier than Africa/Algiers (for WestAfricanTime)
+#   Africa/Johannesburg likelier than Africa/Blantyre (for SouthAfricanStdTime)
+#   Africa/Nairobi likelier than Africa/Addis_Ababa (for EastAfricanTime)
+#   Australia/Brisbane likelier than Antarctica/DumontDUrville
+#   Australia/Sydney likelier than Australia/Currie or Australia/Hobart
+#   Pacific/Auckland likelier than Antarctica/McMurdo
+likely-timezone = Amerika/Ņujorka, Amerika/Čikāga, Amerika/Denvera, Amerika/Fīniksa, Amerika/Losandželosa, Amerika/Ankoridža, Amerika/Adaka, Klusā okeāna reģions/Honolulu, Amerika/Puertoriko, Amerika/Halifaksa, Amerika/Mehiko, Amerika/Argentīna/Buenosairesa, Amerika/Sanpaulu, Eiropa/Londona, Eiropa/Parīze, Āzija/Singapūra, Āzija/Tokija, Āfrika/Lagosa, Āfrika/Johanesburga, Āfrika/Nairobi, Austrālija/Brisbena, Austrālija/Sidneja, Klusā okeāna reģions/Oklenda
+# Guessed Timezone errors and warnings.
+# Testing note:
+# * remove preference for calendar.timezone.default in userprofile/prefs.js
+# * repeat
+#   - set OS timezone to a city (windows: click right on clock in taskbar)
+#   - restart
+#   - observe guess in error console and verify whether guessed timezone city
+#     makes sense for OS city.
+# 'Warning: Operating system timezone "E. South America Standard Time"
+#  no longer matches ZoneInfo timezone "America/Sao_Paulo".'
+# Testing notes:
+# - Brasil DST change dates are set every year by decree, so likely out of sync.
+# - Only appears on OSes from which timezone can be obtained
+#   (windows; or TZ env var, /etc/localtime target path, or line in
+#    /etc/timezone or /etc/sysconfig/clock contains ZoneInfo timezone id).
+# - Windows: turning off "Automatically adjust clock for daylight saving time"
+#   can also trigger this warning.
+# $timezone OS timezone id
+# $zoneInfoTimezoneId ZoneInfo timezone id
+warning-os-tz-no-match =
+    Brīdinājums: Operētājsistēmas laika josla “{ $timezone }” 
+    vairs neatbilst iekšējai ZoneInfo laika joslai “{ $zoneInfoTimezoneId }”.
 # "Skipping Operating System timezone 'Pacific/New_Country'."
 # Testing note: not easily testable.  May occur someday if (non-windows)
 # OS uses different version of ZoneInfo database which has a timezone name
@@ -268,6 +327,30 @@ skipping-os-timezone = Izlaiž operētājsistēmas laika joslu “{ $timezone }�
 # Testing note: Skipping occurs if a likely-timezone id is unknown or misspelled.
 # $timezone likely timezone id
 skipping-locale-timezone = Izlaiž lokalizācijas laika joslu “{ $timezone }”.
+# Testing note: "No match" timezones include Bucharest on W2k.
+# Brazil timezones may be "No match" (change every year, so often out of date,
+# and changes are often more than a week different).
+warning-using-floating-tz-no-match =
+    Brīdinājums: tiek izmantota “peldoša” laika josla.
+    Neviens ZoneInfo laika joslas datu neatbilst operētājsistēmas laika joslas datiem.
+# "Warning:  Using guessed timezone
+#    America/New York (UTC-0500/-0400).
+#    [rfc2445 summer daylight saving shift rules for timezone]
+#  This ZoneInfo timezone almost matches/seems to match..."
+#  This ZoneInfo timezone was chosen based on ... "
+# $timezone $offset $detail1 $detail2
+warning-using-guessedtz =
+    Brīdinājums: Tiek izmantota uzminēta laika josla
+    { $timezone } (UTC{ $offset }).
+    { $detail1 }
+    { $detail2 }
+# Testing note: "Almost match" timezones include Cairo on W2k.
+tz-almost-matches-os-differ-at-mostaweek =
+    Šī ZoneInfo laika josla gandrīz atbilst operētājsistēmas laika joslai.
+    Šim noteikumam nākamās pārejas starp vasaras un standarta laiku
+    atšķiras ne vairāk kā nedēļu no operētājsistēmas laika joslu pārejām.
+    Datos var būt neatbilstības, piemēram, atšķirīgs sākuma datums,
+    atšķirīgs noteikums vai aptuvens laiks noteikumam, kas nav Gregora kalendāra.
 calendar-tomorrow = Rīt
 # Today pane
 events-only = Notikumi
