@@ -16,3 +16,46 @@
 ##   $ClickInstructions (String) - The instructions to proceed to the next step of the wizard (e.g. “Click Next to continue.”).
 
 mui-text-welcome-info-title = { $BrandFullNameDA } のセットアップ
+mui-text-directory-subtitle = { $BrandFullNameDA } をインストールするフォルダーを選択してください。
+mui-text-installing-title = インストールしています
+mui-text-installing-subtitle = { $BrandFullNameDA } のインストールが完了するまでしばらくお待ちください。
+mui-text-finish-title = インストール完了
+mui-text-finish-subtitle = { $BrandFullNameDA } が正常にインストールされました。
+mui-text-abort-title = インストール中止
+mui-text-abort-subtitle = { $BrandFullNameDA } を正常にインストールできませんでした。
+mui-buttontext-finish = 完了
+    .accesskey = F
+mui-text-finish-info-title = { $BrandFullNameDA } のセットアップを完了します
+mui-text-finish-info-text =
+    コンピューターに { $BrandFullNameDA } がインストールされました。
+    
+    { "[" }完了] をクリックするとセットアップを終了します。
+mui-text-finish-info-reboot = { $BrandFullNameDA } のインストールを完了するにはコンピューターを再起動する必要があります。今すぐ再起動しますか？
+mui-text-finish-rebootnow = 今すぐ再起動する
+mui-text-finish-rebootlater = 後で再起動する
+mui-text-startmenu-title = プログラムフォルダーの選択
+mui-text-startmenu-subtitle = { $BrandFullNameDA } のショートカットをインストールするプログラムフォルダーを選択してください。
+mui-innertext-startmenu-top = プログラムのショートカットを作成するプログラムフォルダーを選択してください。フォルダー名を入力して新しいフォルダーを作成することもできます。
+mui-text-abortwarning = 本当に { $BrandFullName } のセットアップを終了しますか？
+mui-untext-welcome-info-title = { $BrandFullNameDA } のアンインストール
+mui-untext-welcome-info-text =
+    このウィザードでは { $BrandFullNameDA } のアンインストールをご案内します。
+    
+    アンインストールを開始する前に { $BrandFullNameDA } を終了させていることを確認してください。
+    
+    { $ClickInstructions }
+mui-untext-confirm-title = { $BrandFullNameDA } のアンインストール
+mui-untext-confirm-subtitle = コンピューターから { $BrandFullNameDA } を削除します。
+mui-untext-uninstalling-title = アンインストールしています
+mui-untext-uninstalling-subtitle = { $BrandFullNameDA } のアンインストールが完了するまでしばらくお待ちください。
+mui-untext-finish-title = アンインストール完了
+mui-untext-finish-subtitle = アンインストールは正常に完了しました。
+mui-untext-abort-title = アンインストール中止
+mui-untext-abort-subtitle = アンインストールは正常に完了できませんでした。
+mui-untext-finish-info-title = { $BrandFullNameDA } のアンインストールを完了します
+mui-untext-finish-info-text =
+    コンピューターから { $BrandFullNameDA } が削除されました。
+    
+    { "[" }完了] をクリックすると終了します。
+mui-untext-finish-info-reboot = { $BrandFullNameDA } のアンインストールを完了するにはコンピューターを再起動する必要があります。今すぐ再起動しますか？
+mui-untext-abortwarning = 本当に { $BrandFullName } のアンインストールを終了しますか？
