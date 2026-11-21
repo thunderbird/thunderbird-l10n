@@ -36,7 +36,7 @@ mui-text-abort-title = Uzstādīšana atcelta
 mui-text-abort-subtitle = Uzstādīšana netika sekmīgi pabeigta.
 mui-buttontext-finish = Pabeigt
     .accesskey = P
-mui-text-finish-info-title = Pabeidz { $BrandFullNameDA } uzstādīšana vedni
+mui-text-finish-info-title = Pabeidz { $BrandFullNameDA } iestatīšanas vedni
 mui-text-finish-info-text =
     { $BrandFullNameDA } tika uzstādīts datorā.
     
@@ -62,11 +62,11 @@ mui-untext-uninstalling-subtitle = Lūgums uzgaidīt, kamēr notiek { $BrandFull
 mui-untext-finish-title = Noņemšana pabeigta
 mui-untext-finish-subtitle = Noņemšana tika sekmīgi pabeigta.
 mui-untext-abort-title = Noņemšana atcelta
-mui-untext-abort-subtitle = Noņemšana nav sekmīgi pabeigta.
+mui-untext-abort-subtitle = Noņemšana netika sekmīgi pabeigta.
 mui-untext-finish-info-title = Pabeidz { $BrandFullNameDA } noņemšanas vedni
 mui-untext-finish-info-text =
     { $BrandFullNameDA } tika noņemts no datora.
     
-    Spiest “Pabeigt”, lai aizvērtu šo vedni.
+    Klikšķināt “Pabeigt”, lai aizvērtu šo vedni.
 mui-untext-finish-info-reboot = Dators ir jāpārsāknē, lai pabeigtu { $BrandFullNameDA } noņemšanu. Vai darīt to tagad?
 mui-untext-abortwarning = Vai tiešām izbeigt { $BrandFullName } noņemšanu?

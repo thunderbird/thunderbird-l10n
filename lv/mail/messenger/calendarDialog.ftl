@@ -105,3 +105,10 @@ calendar-event-more-categories = + vēl { $count }
             [one] + vēl { $count } kategorija
            *[other] + vēl { $count } kategorijas
         }
+
+## Video row in the event create/edit dialog.
+
+calendar-event-video-label = Video
+calendar-event-video-url =
+    .aria-label = Video URL
+    .placeholder = Ievadi video URL
