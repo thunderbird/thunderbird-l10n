@@ -159,6 +159,25 @@ calendar-event-availability-selector =
 calendar-event-availability-default = Standard
 calendar-event-availability-busy = Upptagen
 calendar-event-availability-free = Ledig
+calendar-event-prompt-edit-header = Vill du redigera den här händelsen eller alla förekomster?
+calendar-prompt-edit-confirm-button = Bekräfta
+calendar-event-prompt-edit-title = Redigera händelse
+
+## Category controls in the event create/edit dialog.
+
+calendar-event-categories = Kategorier
+calendar-event-add-category = Lägg till kategori
+calendar-event-category-choices =
+    .aria-label = Tillgängliga kategorier
+calendar-event-selected-categories =
+    .aria-label = Valda kategorier
+calendar-event-remaining-categories =
+    .aria-label = Återstående kategorier
+# Variables:
+#   $category (String): The name of the category to remove.
+calendar-event-remove-category =
+    .aria-label = Ta bort kategori { $category }
+    .title = Ta bort kategori { $category }
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".
