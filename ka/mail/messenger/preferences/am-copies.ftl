@@ -4,6 +4,7 @@
 
 account-prefs-show-address-row-description = დატოვეთ მისამართის ველი ცარიელი, რომ ყოველთვის გამოჩნდეს მისამართების რიგი ახალი წერილის შედგენისას.
 account-prefs-sent-message-copies-description = აირჩიეთ, სად შეინახოს გაგზავნილი წერილების ასლები და დააყენეთ თვითდაგზავნისას ჩვეულებრივი ან ფარული ასლების წესები
+account-prefs-sent-message-copies-graph-info = შენიშვნა: Microsoft Graph თავისთავად ინახავს გაგზავნილ წერილებს სერვერზე განკუთვნილ გაგზავნილი წერილების საქაღალდეში.
 account-prefs-automatic-cc-bcc-description = შენიშვნა: ამ ველების მონიშვნა თავისთავად ამატებს Cc/Bcc-ველებს ახალი წერილების შედგენისას.
 account-prefs-sent-folder-on =
     .label = გაგზავნილების საქაღალდე:
