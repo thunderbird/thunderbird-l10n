@@ -188,7 +188,7 @@ calendar-event-more-categories = +{ $count } altre
 
 calendar-event-video-label = Video
 calendar-event-video-url =
-    .aria-label = URL video
+    .aria-label = URL del video
     .placeholder = Inserisci l’URL del video
 calendar-event-video-url-clear =
     .aria-label = Cancella l’URL del video
