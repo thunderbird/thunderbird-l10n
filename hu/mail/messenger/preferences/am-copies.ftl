@@ -4,6 +4,7 @@
 
 account-prefs-show-address-row-description = Hagyja üresen a cím mezőt, hogy új üzenet indításakor mindig megjelenjen a címsor.
 account-prefs-sent-message-copies-description = Válasszon, hogy hová szeretné menteni az elküldött üzenetek másolatait, és állítson be automatikus másolati/rejtett másolati szabályokat
+account-prefs-sent-message-copies-graph-info = Megjegyzés: A Microsoft Graph az elküldött üzeneteket automatikusan a kiszolgáló által kijelölt Elküldött elemek mappába menti.
 account-prefs-automatic-cc-bcc-description = Megjegyzés: A jelölőnégyzetek bejelölésével új üzenetek írásakor automatikusan megjelennek a Másolat/Rejtett másolat sorok.
 account-prefs-sent-folder-on =
     .label = Elküldött elemek mappa ezen:
