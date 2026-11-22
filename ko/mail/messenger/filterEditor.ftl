@@ -29,6 +29,14 @@ filter-failure-move-failed = 이동 실패
 filter-failure-copy-failed = 복사 실패
 filter-failure-action = 필터 동작을 적용하지 못했습니다
 # Variables:
+# $folder (String) - The URI of the destination folder.
+# $errorCode (String) - The hexadecimal error code for the batch.
+filter-copy-batch-failed = { $folder }에 메시지 복사를 완료할 수 없습니다. 일부 메시지는 복사되었을 수 있습니다. 오류: { $errorCode }. 요청된 메시지 ID: { filter-batch-message-ids }
+# Variables:
+# $folder (String) - The URI of the destination folder.
+# $errorCode (String) - The hexadecimal error code for the batch.
+filter-move-batch-failed = { $folder }로 메시지 이동을 완료할 수 없습니다. 일부 메시지가 원본 폴더에서 제거되지 않고 복사되었을 수 있습니다. 오류: { $errorCode }. 요청된 메시지 ID: { filter-batch-message-ids }
+# Variables:
 # $filterName (String) - The name of the filter that was applied.
 # $author (String) - The sender of the message.
 # $subject (String) - The subject line of the message.
@@ -140,6 +148,10 @@ filter-running-message =
     계속 하시겠습니까?
 filter-stop-button = 중지
 filter-continue-button = 계속
+# Shown once at the end of a filter run the user started, when at least one
+# filter or action failed. The individual failures are in the filter log.
+filter-run-failed = 몇몇 필터는 적용할 수 없습니다. 자세한 내용은 필터 로그를 확인하세요.
+filter-run-failed-open-log-button = 필터 로그 열기
 
 ## Filter Editor
 
