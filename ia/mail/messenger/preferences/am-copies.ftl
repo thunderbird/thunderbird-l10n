@@ -4,6 +4,7 @@
 
 account-prefs-show-address-row-description = Lassar blanc le campo de adresse pro sempre monstrar le linea de adresse quando initia un nove message.
 account-prefs-sent-message-copies-description = Eliger ubi salvar copia del messages inviate, e configurar le regulas automatic pro Cc/Ccn
+account-prefs-sent-message-copies-graph-info = Nota: Microsoft Graph automaticamente salva messages inviate al plica Elementos inviate del servitor.
 account-prefs-automatic-cc-bcc-description = Nota: marcante iste quadratinos tu automaticamente adde rangos Cc/Ccn durante que tu compone nove messages.
 account-prefs-sent-folder-on =
     .label = Plica inviate sur:
