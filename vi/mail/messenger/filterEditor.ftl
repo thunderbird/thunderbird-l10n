@@ -29,6 +29,23 @@ filter-failure-move-failed = Di chuyển thất bại
 filter-failure-copy-failed = Sao chép thất bại
 filter-failure-action = Không thể áp dụng hành động lọc
 # Variables:
+# $folder (String) - The URI of the destination folder.
+# $errorCode (String) - The hexadecimal error code for the batch.
+filter-copy-batch-failed = Không thể hoàn tất việc sao chép thư vào { $folder }. Một số thư có thể đã được sao chép. Lỗi: { $errorCode }. ID thư được yêu cầu: { filter-batch-message-ids }
+# Variables:
+# $folder (String) - The URI of the destination folder.
+# $errorCode (String) - The hexadecimal error code for the batch.
+filter-move-batch-failed = Không thể hoàn tất việc di chuyển thư đến { $folder }. Một số thư có thể đã được sao chép mà chưa được xoá khỏi thư mục nguồn. Lỗi: { $errorCode }. ID thư được yêu cầu: { filter-batch-message-ids }
+# Referenced by filter-copy-batch-failed and filter-move-batch-failed.
+# Variables:
+# $messageIds (String) - Up to 20 requested message IDs, separated by commas.
+# $count (Number) - The number of additional requested messages whose IDs are omitted.
+filter-batch-message-ids =
+    { $count ->
+        [0] { $messageIds }
+       *[other] { $messageIds } và { $count } thư khác
+    }
+# Variables:
 # $filterName (String) - The name of the filter that was applied.
 # $author (String) - The sender of the message.
 # $subject (String) - The subject line of the message.

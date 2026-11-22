@@ -12,6 +12,13 @@ system-tray-app-name = { -brand-full-name }
 menu-tools-settings =
     .label = Cài đặt
     .accesskey = e
+menu-accounts =
+    .label = Tài khoản
+    .accesskey =
+        { PLATFORM() ->
+            [linux] A
+           *[other] n
+        }
 menu-addons-and-themes =
     .label = Tiện ích mở rộng và chủ đề
     .accesskey = A

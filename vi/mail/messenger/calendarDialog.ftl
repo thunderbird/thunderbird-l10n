@@ -11,12 +11,21 @@ calendar-dialog-close-button =
     .title = Đóng
 calendar-event-create-edit-dialog =
     .aria-label = Sự kiện
+calendar-event-title-input-new =
+    .aria-label = Tiêu đề sự kiện
+    .placeholder = Sự kiện mới
+calendar-event-title-input-untitled =
+    .aria-label = Tiêu đề sự kiện
+    .placeholder = Sự kiện không có tên
+calendar-event-title-required = Bắt buộc
+calendar-event-title-too-long = Tiêu đề không được vượt quá 180 ký tự
 calendar-dialog-menu-button =
     .aria-label = Mở menu
     .title = Mở menu
 calendar-dialog-back-button =
     .aria-label = Quay lại
     .title = Quay lại
+calendar-event-create-edit-dialog-back-button = Quay lại
 calendar-dialog-date-row-icon =
     .alt = Ngày và giờ
 calendar-dialog-date-row-recurring-icon =
@@ -109,6 +118,53 @@ calendar-prompt-all-events =
 calendar-prompt-delete-button = Xoá
 calendar-dialog-edit-button = Chỉnh sửa
 calendar-event-create-edit-save-button = Lưu
+calendar-event-calendar-selector =
+    .aria-label = Lịch
+calendar-event-save = Lưu
+calendar-event-saving = Đang lưu...
+calendar-event-save-failed = Không thể lưu sự kiện. Vui lòng thử lại.
+calendar-event-calendar-unavailable = Lịch này không chấp nhận sự kiện mới. Vui lòng chọn lịch khác và thử lại.
+# The status element announces Save progress and errors to screen readers.
+# Keep this message empty to clear the previous status text when Save is idle.
+calendar-event-save-idle = { "" }
+calendar-event-availability-selector =
+    .aria-label = Trạng thái tham dự
+calendar-event-availability-default = Mặc định
+calendar-event-availability-busy = Bận
+calendar-event-availability-free = Rảnh
+calendar-event-prompt-edit-header = Chỉnh sửa chỉ sự kiện này hay tất cả các lần xuất hiện của sự kiện này?
+calendar-prompt-edit-confirm-button = Xác nhận
+calendar-event-prompt-edit-title = Chỉnh sửa sự kiện
+
+## Category controls in the event create/edit dialog.
+
+calendar-event-categories = Danh mục
+calendar-event-add-category = Thêm danh mục
+calendar-event-category-choices =
+    .aria-label = Danh mục hiện có
+calendar-event-selected-categories =
+    .aria-label = Danh mục đã chọn
+calendar-event-remaining-categories =
+    .aria-label = Danh mục còn lại
+# Variables:
+#   $category (String): The name of the category to remove.
+calendar-event-remove-category =
+    .aria-label = Xoá danh mục { $category }
+    .title = Xoá danh mục { $category }
+# Variables:
+#   $count (Number): The number of categories not shown in the summary.
+calendar-event-more-categories = +{ $count } khác
+    .aria-label = +{ $count } danh mục khác
+
+## Video row in the event create/edit dialog.
+
+calendar-event-video-label = Video
+calendar-event-video-url =
+    .aria-label = URL video
+    .placeholder = Nhập URL video
+calendar-event-video-url-clear =
+    .aria-label = Xoá URL video
+    .title = Xoá URL video
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".

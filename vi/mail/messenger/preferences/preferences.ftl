@@ -10,6 +10,9 @@ category-list =
 pane-general-title = Tổng quát
 category-general =
     .tooltiptext = { pane-general-title }
+pane-notifications-title = Thông báo
+category-notifications =
+    .tooltiptext = { pane-notifications-title }
 pane-appearance-title = Diện mạo
 category-appearance =
     .tooltiptext = { pane-appearance-title }
@@ -31,6 +34,10 @@ category-sync =
 pane-qr-export-title = Xuất sang di động
 category-qr-export =
     .tooltiptext = Xuất sang di động
+pane-beta-features-title = Tính năng beta
+category-beta-features =
+    .tooltiptext = { pane-beta-features-title }
+experimental-features-legend = Tính năng thử nghiệm
 general-language-and-fonts-header = Ngôn ngữ & phông chữ
 general-email-notifications-header = Thông báo email
 general-incoming-mail-header = Thư đến:
@@ -116,6 +123,7 @@ update-in-progress-ok-button = &Loại bỏ
 # Continue is the cancel button so pressing escape or using a platform standard
 # method of closing the UI will not discard the update.
 update-in-progress-cancel-button = &Tiếp tục
+accounts-button = Tài khoản
 account-button = Cài đặt tài khoản
 open-addons-sidebar-button = Tiện ích mở rộng và chủ đề
 manual-storage-limit-label =
@@ -626,6 +634,7 @@ show-conversation-view-label =
     .label = Hiển thị chế độ hội thoại
     .accesskey = c
 conversation-view-preview-description = Đây là tính năng trong giai đoạn thử nghiệm. Nó nhóm các thư có liên quan lại với nhau, nhưng có thể không phải lúc nào cũng hoạt động như mong đợi.
+conversation-view-settings-link = Cấu hình chế độ Xem hội thoại trong Tính năng beta
 conversation-view-checkbox-label =
     .label = Bật chế độ xem hội thoại
     .accesskey = c
@@ -673,6 +682,7 @@ new-calendar-legend = Hộp thoại sự kiện lịch mới
 new-calendar-checkbox-label =
     .label = Xem các sự kiện lịch trong hộp thoại mới
 new-calendar-checkbox-description = Hộp thoại lịch mới mang tính thử nghiệm để xem sự kiện
+new-calendar-dialog-settings-link = Cấu hình hộp thoại Sự kiện lịch mới trong tính năng Beta
 
 ## Compose Tab
 

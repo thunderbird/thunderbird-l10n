@@ -36,3 +36,4 @@ panel-settings-spam = Cài đặt thư rác
 # $account (String) - The account name.
 spam-settings-alert-message = Đã phát hiện sự cố với cài đặt thư rác cho { $account }. Bạn có muốn xem lại trước khi lưu thay đổi không?
 open-settings-sidebar-button = Cài đặt
+account-manager-document-title = Tài khoản

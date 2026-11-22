@@ -33,6 +33,10 @@ about-addressbook-card-count = Tổng số liên hệ trong { $name }: { $count 
 # Variables:
 # $count (Number) - The number of contacts in all address books.
 about-addressbook-card-count-all = Tổng số liên hệ trong tất cả sổ địa chỉ: { $count }
+about-addressbook-books-context-new-contact =
+    .label = Liên hệ mới
+about-addressbook-books-context-new-list =
+    .label = Danh sách mới
 about-addressbook-books-context-properties =
     .label = Thuộc tính
 about-addressbook-books-context-edit-list =
