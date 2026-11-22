@@ -18,4 +18,5 @@
 <!ENTITY lightning.imipbar.btnDoNotShowImipBar.label "Nerādīt man šos ziņojumus">
 <!ENTITY lightning.imipbar.btnGoToCalendar.label "Kalendārs">
 <!ENTITY lightning.imipbar.btnMore.tooltiptext "Klikšķināt, lai parādītu vairāk iespēju">
+<!ENTITY lightning.imipbar.btnSaveCopy.tooltiptext "Saglabāt notikuma kopiju kalendārā neatkarīgi no atbildēšanas rīkotājam. Dalībnieku saraksts tiks notīrīts.">
 <!ENTITY todaypane.showTodayPane.label "Rādīt šodienas rūti">
