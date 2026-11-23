@@ -147,3 +147,25 @@
 <!ENTITY read.only.event.end.label "Beigt:">
 <!ENTITY read.only.task.due.label "Beigt:">
 <!ENTITY read.only.repeat.label "Atkārtot:">
+<!ENTITY read.only.location.label "Vieta:">
+<!ENTITY read.only.category.label "Kategorija:">
+<!-- Read-Only dialog -->
+<!ENTITY read.only.organizer.label "Rīkotājs:">
+<!ENTITY read.only.reminder.label "Atgādinājums:">
+<!ENTITY read.only.attachments.label "Pielikumi:">
+<!ENTITY read.only.attendees.label "Dalībnieki">
+<!ENTITY read.only.description.label "Apraksts">
+<!ENTITY read.only.link.label "Saistītā saite">
+<!-- Summary dialog -->
+<!ENTITY summary.dialog.saveclose.label "Saglabāt un aizvērt">
+<!ENTITY summary.dialog.saveclose.tooltiptext "Saglabāt izmaiņas un aizvērt logu, nemainot dalības statusu un nesūtot atbildi">
+<!ENTITY summary.dialog.accept.label "Piekrist">
+<!ENTITY summary.dialog.accept.tooltiptext "Pieņemt ielūgumu">
+<!ENTITY summary.dialog.tentative.label "Pagaidu">
+<!ENTITY summary.dialog.tentative.tooltiptext "Pieņemt ielūgumu ar pagaidu apstiprinājumu">
+<!ENTITY summary.dialog.decline.label "Noraidīt">
+<!ENTITY summary.dialog.decline.tooltiptext "Noraidīt ielūgumu">
+<!ENTITY summary.dialog.dontsend.label "Nesūtiet atbildi">
+<!ENTITY summary.dialog.dontsend.tooltiptext "Mainiet savu dalības statusu, nesūtot atbildi organizatoram, un aizveriet logu">
+<!ENTITY summary.dialog.send.label "Sūtīt atbildi tūlīt">
+<!ENTITY summary.dialog.send.tooltiptext "Nosūtīt atbildi organizatoram  un aizvērt logu">
