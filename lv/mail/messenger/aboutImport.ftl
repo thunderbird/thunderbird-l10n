@@ -6,6 +6,8 @@ export-page-title = Izgūt
 
 ## Header
 
+import-file-description = Izvēlieties importēt iepriekš dublētu profilu, adrešu grāmatas vai kalendārus.
+import-address-book-title = Ievietot adrešu grāmatas datni
 import-calendar-title = Ievietot kalendāra datni
 export-profile = Izgūt
 
