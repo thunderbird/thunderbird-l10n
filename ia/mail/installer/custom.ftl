@@ -31,10 +31,7 @@ optional-components-desc = Le servicio de mantenentia te permittera de actualisa
 maintenance-service-checkbox-desc = Installar le servicio de mantenentia
     .accesskey = m
 summary-page-title = Summario
-summary-page-subtitle = Preste pro installar { $BrandShortName }
 summary-installed-to = { $BrandShortName } essera installate in le sequente percurso:
-summary-reboot-required-install = Pote ser necessari reinitiar tu computator pro clauder le installation.
-summary-reboot-required-uninstall = Pote ser necessari reinitiar tu computator pro clauder le disinstallation.
 summary-install-click = Clicca sur Installar pro continuar.
 summary-upgrade-click = Clicca sur Actualisar pro continuar.
 launch-text = Lancear { $BrandFullName } ora
@@ -44,30 +41,10 @@ icons-desktop = Sur mi scriptorio
     .accesskey = s
 icons-startmenu = In mi dossier Programmas del menu Initiar
     .accesskey = P
-icons-taskbar = In mi barra del applicationes
-    .accesskey = a
-warn-manually-close-app-install =
-    { $BrandShortName } debe ser claudite pro proceder con le installation.
-    
-    Per favor claude { $BrandShortName } pro continuar.
-warn-manually-close-app-uninstall = { "" }
 warn-manually-close-app-launch =
     Un execution de { $BrandShortName } es ja in curso.
     
     Per favor claude { $BrandShortName } ante lancear le version que tu ha justo installate.
-warn-write-access =
-    Tu non ha accesso de scriptura al directorio de installation.
-    
-    Clicca sur OK pro seliger un altere directorio.
-warn-disk-space =
-    Tu non ha spatio de disco sufficiente pro installar in iste loco.
-    
-    Clicca sur OK pro seliger un altere loco.
-warn-min-supported-osver-msg = Nos lo regretta, { $BrandShortName } non pote ser installate. Iste version de { $BrandShortName } require { $MinSupportedVer } o plus nove. Per favor clicca sur le button OK informationes additional.
-warn-min-supported-cpu-msg = Nos lo regretta, { $BrandShortName } non pote ser installate. Iste version de { $BrandShortName } necessita un processor que admitte { $MinSupportedCPU }. Per favor clicca sur le button OK informationes additional.
-warn-min-supported-osver-cpu-msg = Nos lo regretta, { $BrandShortName } non pote ser installate. Iste version de { $BrandShortName } require { $MinSupportedVer } o plus nove e un processor que admitte { $MinSupportedCPU }. Per favor clicca sur le button OK informationes additional.
-warn-restart-required-uninstall = Tu computator debe ser reinitiate pro completar un previe disinstallation de { $BrandShortName }. Desira tu lo reinitiar ora?
-warn-restart-required-upgrade = Tu computator debe ser reinitiate pro completar un previe actualisation de { $BrandShortName }. Desira tu lo reinitiar ora?
 error-create-directory-prefix = Error durante le creation del directorio:
 error-create-directory-suffix =
     Clicca sur Cancellar pro interrumper le installation o
