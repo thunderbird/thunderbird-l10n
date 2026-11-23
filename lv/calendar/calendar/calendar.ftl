@@ -502,6 +502,23 @@ single-calendar-week = CW: { $index }
 #    $startIndex will be replaced with the index of the start-week
 #    $endIndex will be replaced with the index of the end-week
 several-long-calendar-weeks = Kalendāra nedēļas { $startIndex }-{ $endIndex }
+# LOCALIZATION NOTE (several-calendar-weeks):
+# used for display of calendar weeks in short form like 'CWs 43 - 45'
+#    $startIndex will be replaced with the index of the start-week
+#    $endIndex will be replaced with the index of the end-week
+several-calendar-weeks = KN: { $startIndex }-{ $endIndex }
+    .title = Kalendārās nedēļas { $startIndex }-{ $endIndex }
+# LOCALIZATION NOTE (multiweek-view-week):
+# Used for displaying the week number in the first day box of every week
+# in multiweek and month views.
+# It allows to localize the label with the week number in case your locale
+# requires it.
+# Take into account that this label is placed in the same room of the day label
+# inside the day boxes, exactly on left side, hence a possible string shouldn't
+# be too long otherwise it will create confusion between the week number and
+# the day number other than a possible crop when the window is resized.
+#    $number is a number from 1 to 53 that represents the week number.
+multiweek-view-week = N { $skaitlis }
 # Shown after the items of a day in the calendar views, when the day has too
 # many items to display at once. Clicking it displays more of them.
 # Variables:
@@ -512,11 +529,72 @@ calendar-view-more-items =
         [one] … un vēl { $count }
        *[other] … un vēl { $count }
     }
+# Task tree, "Due In" column.
+# LOCALIZATION NOTE (due-in-days, due-in-hours): Semi-colon list of plural
+# forms. See: http://developer.mozilla.org/en/Localization_and_Plurals
+# $count count
+due-in-days =
+    { $count ->
+        [one] { $count } dienā
+        [zero] { $count } dienas
+       *[other] { $count } dienas
+    }
+# $count count
+due-in-hours =
+    { $count ->
+        [one] { $count } stunda
+        [zero] { $count } stundas
+       *[other] { $count } stundas
+    }
+due-in-less-than-one-hour = < 1 stunda
+# LOCALIZATION NOTE (format-date-long):
+# used for display dates in long format like 'Mon 15 Oct 2008' when it's
+# impossible to retrieve the formatatted date from the OS.
+#    $dayName will be replaced with name of the day in short format;
+#    $dayIndex will be replaced with the day-index of the month, possibly followed by an ordinal symbol
+#         (depending on the string dayOrdinalSymbol in dateFormat.properties);
+#    $monthName will be replaced with the name of the month in short format;
+#    $year will be replaced with the year.
+format-date-long = { $dayName } { $dayIndex } { $monthName } { $year }
+# LOCALIZATION NOTE (day-header):
+# used for display the labels in the header of the days in day/week views in short
+# or long format. For example: 'Monday 6 Oct.' or 'Mon. 6 Oct.'
+#    $dayName will be replaced with name of the day in short or long format
+#    $dayIndex will be replaced with the day-index of the month, possibly followed by an ordinal symbol
+#         (depending on the string dayOrdinalSymbol in dateFormat.properties), plus the name
+#         of the month in short format (the day/month order depends on the OS settings).
+day-header = { $dayName } { $dayIndex }
+day-header-elem =
+    .label = { day-header }
 # LOCALIZATION NOTE (calendar-multiday-hour-slot):
 # Label for a time slot in the day/week calendar views.
 #    $date will be replaced with the day label, e.g. "Monday 6 Oct.";
 #    $time will be replaced with the time of the slot, e.g. "9:00 AM".
 calendar-multiday-hour-slot = { $date }, { $time }
+# LOCALIZATION NOTE (datetime-interval-task-without-date):
+# used for task without start and due date
+# (showed only in exported calendar in Html format)
+datetime-interval-task-without-date = nav sākuma vai beigu datuma
+# LOCALIZATION NOTE (datetime-interval-task-without-due-date):
+# used for intervals in task with only start date
+# displayed form is 'start date 5 Jan 2006 13:00'
+# (showed only in exported calendar in Html format)
+#    $date will be replaced with the date of the start date
+#    $time will be replaced with the time of the start date
+datetime-interval-task-without-due-date = Sākas { $date }{ $time }
+# LOCALIZATION NOTE (datetime-interval-task-without-start-date):
+# used for intervals in task with only due date
+# displayed form is 'due date 5 Jan 2006 13:00'
+# (showed only in exported calendar in Html format)
+#    $date will be replaced with the date of the due date
+#    $time will be replaced with the time of the due date
+datetime-interval-task-without-start-date = termiņš { $date } { $time }
+# LOCALIZATION NOTE (drag-label-tasks-with-only-entry-date
+#                    drag-label-tasks-with-only-due-date)
+# Labels that appear while dragging a task with only
+# entry date OR due date
+drag-label-tasks-with-only-entry-date = Sākuma laiks
+drag-label-tasks-with-only-due-date = Termiņš plkst.
 delete-task =
     .label = Izdzēst uzdevumu
     .accesskey = d
@@ -526,6 +604,139 @@ delete-item =
 delete-event =
     .label = Izdzēst notikumu
     .accesskey = d
+# $count count
+calendar-properties-every-minute =
+    .label =
+        { $count ->
+            [one] Katru minūti
+            [zero] Ik pēc { $count } minūtēm
+           *[other] Ik pēc { $count } minūtēm
+        }
+# LOCALIZATION NOTE (extract-using)
+# Used in message header
+#    $languageName will be replaced with language name from languageNames.properties
+extract-using = Izmantojot { $languageName }
+# LOCALIZATION NOTE (extract-using-region)
+# Used in message header
+#    $languageName will be replaced with language name from languageNames.properties
+#    $region will be replaced with region like US in en-US
+extract-using-region = Izmantojot { $languageName } ({ $region })
+# Variables:
+# $count (Number) - Number of minutes, also used to determine the correct plural form.
+unit-minutes =
+    { $count ->
+        [one] { $count } minūte
+        [zero] { $count } minūtes
+       *[other] { $count } minūtes
+    }
+event-duration-menuitem-count-minutes =
+    .label = { unit-minutes }
+# Variables:
+# $count (Number) - Number of hours, also used to determine the correct plural form.
+unit-hours =
+    { $count ->
+        [one] { $count } stunda
+        [zero] { $count } stundas
+       *[other] { $count } stundas
+    }
+event-duration-menuitem-count-hours =
+    .label = { unit-hours }
+# Variables:
+# $count (Number) - Number of days, also used to determine the correct plural form.
+unit-days =
+    { $count ->
+        [one] { $count } dienā
+        [zero] { $count } dienas
+       *[other] { $count } dienas
+    }
+event-duration-menuitem-count-days =
+    .label = { unit-days }
+# Variables:
+# $count (Number) - Number of weeks, also used to determine the correct plural form.
+unit-weeks =
+    { $count ->
+        [one] { $count } nedēļa
+        [zero] { $count } nedēļas
+       *[other] { $count } nedēļas
+    }
+event-duration-menuitem-count-weeks =
+    .label = { unit-weeks }
+# Variables:
+# $count (Number) - Number of minutes used to determine the correct plural form.
+event-duration-menuitem-minutes =
+    .label =
+        { $count ->
+            [one] minūte
+            [zero] minūtes
+           *[other] minūtes
+        }
+event-duration-label-minutes =
+    .value = { event-duration-menuitem-minutes.label }
+# Variables:
+# $count (Number) - Number of hours used to determine the correct plural form.
+event-duration-menuitem-hours =
+    .label =
+        { $count ->
+            [one] stunda
+            [zero] stundas
+           *[other] stundas
+        }
+event-duration-label-hours =
+    .value = { event-duration-menuitem-hours.label }
+# Variables:
+# $count (Number) - Number of days used to determine the correct plural form.
+event-duration-menuitem-days =
+    .label =
+        { $count ->
+            [one] diena
+            [zero] dienas
+           *[other] dienas
+        }
+event-duration-label-days =
+    .value = { event-duration-menuitem-days.label }
+# Variables:
+# $count (Number) - Number of weeks used to determine the correct plural form.
+event-duration-menuitem-weeks =
+    .label =
+        { $count ->
+            [one] nedēļa
+            [zero] nedēļas
+           *[other] nedēļas
+        }
+event-duration-label-weeks =
+    .value = { event-duration-menuitem-weeks.label }
+# LOCALIZATION NOTE (show-calendar)
+# Used in calendar list context menu
+#    $name will be replaced with the calendar name
+# uses the access key calendar.context.togglevisible.accesskey
+# $name calendar name
+show-calendar = Rādīt { $name }
+# $name calendar name
+hide-calendar = Slēpt { $name }
+# $name calendar name
+hide-calendar-title =
+    .title = Rādīt { $name }
+# $name calendar name
+show-calendar-title =
+    .title = Slēpt { $name }
+# Variables:
+# $name (String) - The calendar name
+show-calendar-name =
+    .label = Rādīt { $name }
+    .accesskey = R
+# Variables:
+# $name (String) - The calendar name
+hide-calendar-name =
+    .label = Slēpt { $name }
+    .accesskey = S
+# Variables:
+# $name (String) - The calendar name
+show-only-calendar-name =
+    .label = Rādīt tikai { $name }
+    .accesskey = t
+# LOCALIZATION NOTE (modify-conflict-*)
+# Used by the event dialog to resolve item modification conflicts.
+modify-conflict-prompt-title = Vienuma izmaiņu konflikts
 modify-conflict-prompt-message = Dialoglodziņā rediģējamais elements ir modificēts kopš tā atvēršanas.
 modify-conflict-prompt-button1 = Pārrakstīt citas izmaiņas
 modify-conflict-prompt-button2 = Atmest šīs izmaiņas
