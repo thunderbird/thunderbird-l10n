@@ -22,6 +22,8 @@ calendar-list-item-context-button =
     .title = Kalendāra opcijas ($calendarName)
 calendar-add-calendar = Pievienot kalendāru…
     .title = Izveidot vai abonēt kalendāru
+calendar-refresh-calendars =
+    .title = Atkārtoti ielādēt visus kalendārus un sinhronizēt izmaiņas
 calendar-new-event-primary-button = Jauns notikums
 calendar-new-task-primary-button = Jauns uzdevums
 

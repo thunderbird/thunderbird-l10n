@@ -8,6 +8,7 @@
 <!ENTITY newevent.from.label "No">
 <!ENTITY newevent.to.label "Kam">
 <!ENTITY newevent.status.label "Stāvoklis">
+<!ENTITY newevent.status.accesskey "S">
 <!ENTITY event.menu.item.delete.label "Izdzēst…">
 <!ENTITY event.menu.edit.label "Labot">
 <!ENTITY event.menu.view.toolbars.customize.label "Pielāgot…">

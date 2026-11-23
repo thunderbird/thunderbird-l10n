@@ -972,24 +972,110 @@ calendar-priority-high =
 calendar-tasks-view-minimonth =
     .label = Mēneša pārskats
     .accesskey = M
+calendar-tasks-view-calendarlist =
+    .label = Kalendāra saraksts
+    .accesskey = l
+calendar-tasks-view-filtertasks =
+    .label = Filtrēt uzdevumus
+    .accesskey = F
 calendar-properties-color =
     .value = Krāsa:
+calendar-properties-location =
+    .value = Vieta:
+calendar-properties-refresh =
+    .value = Atjaunināt kalendāru:
+calendar-properties-refresh-manual =
+    .label = Ar roku
+calendar-properties-read-only =
+    .label = Tikai lasāms
+calendar-properties-show-reminders =
+    .label = Rādīt atgādinājumus
 calendar-properties-offline-support =
     .label = Bezsaistes atbalsts
 calendar-properties-enable-calendar =
     .label = Iespējot šo kalendāru
+calendar-properties-provider-missing = Šī kalendāra pakalpojumu sniedzējs nav atrasts. Tā bieži notiek, ja daži papildinājumi ir atspējoti vai atinstalēti.
+calendar-properties-unsubscribe =
+    .buttonlabelextra1 = Atteikties
+    .buttonaccesskeyextra1 = U
+    .label = Atteikties
+    .accesskey = U
+calendar-alarm-dialog-title = Kalendāra atgādinājumi
+calendar-alarm-details =
+    .value = Detalizēta informācija…
+calendar-alarm-dismiss =
+    .label = Noraidīt
+calendar-alarm-dismiss-all =
+    .label = Noraidīt visus
+calendar-alarm-snooze-for =
+    .label = Atlikt uz laiku
+calendar-alarm-snooze-all-for =
+    .label = Atlikt visus uz laiku
+# Variables:
+# $count (Number) - The number of minutes to snooze.
+calendar-alarm-snooze-preset-minutes =
+    .label =
+        { $count ->
+            [one] { $count } minūte
+            [zero] { $count } minūtes
+           *[other] { $count } minūtes
+        }
+# Variables:
+# $count (Number) - The number of hours to snooze.
+calendar-alarm-snooze-preset-hours =
+    .label =
+        { $count ->
+            [one] { $count } stunda
+            [zero] { $count } stundas
+           *[other] { $count } stundas
+        }
+# Variables:
+# $count (Number) - The number of days to snooze.
+calendar-alarm-snooze-preset-days =
+    .label =
+        { $count ->
+            [one] { $count } diena
+            [zero] { $count } dienas
+           *[other] { $count } dienas
+        }
+# LOCALIZATION NOTE (calendar-alarm-snooze-cancel):
+# This string is not visible in the UI. It is read by screen readers when the
+# user focuses the "Cancel" button in the "Snooze for..." popup of the alarm dialog.
+calendar-alarm-snooze-cancel =
+    .aria-label = Atcelt atlikšanu
 calendar-calendar =
     .label = Kalendārs
     .accesskey = K
 calendar-newevent-button =
     .label = Jauns notikums
     .tooltiptext = Izveidot jaunu notikumu
+calendar-newtask-button =
+    .label = Jauns uzdevums
+    .tooltiptext = Izveidot jaunu uzdevumu
+calendar-unifinder-show-completed-todos =
+    .label = Rādīt pabeigtos uzdevumus
+calendar-display-todos-checkbox =
+    .label = Rādīt uzdevumus
+    .accesskey = k
+calendar-completed-tasks-checkbox =
+    .label = Rādīt pabeigtos uzdevumus
+    .accesskey = c
+calendar-only-workday-checkbox =
+    .label = Tikai darba nedēļas dienās
+    .accesskey = r
+calendar-orientation =
+    .label = Pagriezt skatu
+    .accesskey = o
 calendar-todaypane-button =
     .label = Šodienas rūts
     .tooltiptext = Rādīt šodienas rūti
+calendar-search-options-searchfor =
+    .value = satur
 calendar-properties-dialog-title = Labot kalendāru
 calendar-server-dialog-name-label =
     .value = Kalendāra nosaukums:
+calendar-publish-dialog-window-title = Kalendāra publicēšana
+calendar-publish-url-label = Publicēšanas URL
 calendar-publish-publish-dialog-button =
     .buttonlabelaccept = Publicēt
 calendar-publish-close-button = Aizvērt
