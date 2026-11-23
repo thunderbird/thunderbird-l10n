@@ -192,3 +192,4 @@ category-new-label = Jauna kategorija
 category-edit-label = Labot kategoriju
 category-overwrite-title = Brīdinājums: Dublikāts nosaukumā
 category-overwrite = Kategorija ar šādu nosaukumu jau pastāv. Vai vēlaties to pārrakstīt?
+category-blank-warning = Jums jāievada kategorijas nosaukums.

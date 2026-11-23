@@ -3,6 +3,11 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY event.title.label "Labot vienumu">
+<!ENTITY event.dialog.keepDurationButton.tooltip "Mainot beigu datumu, saglabājiet ilgumu">
+<!ENTITY event.dialog.keepDurationButton.accesskey "K">
+<!ENTITY newevent.from.label "No">
+<!ENTITY newevent.to.label "Kam">
+<!ENTITY newevent.status.label "Stāvoklis">
 <!ENTITY event.menu.item.delete.label "Izdzēst…">
 <!ENTITY event.menu.edit.label "Labot">
 <!ENTITY event.menu.view.toolbars.customize.label "Pielāgot…">
