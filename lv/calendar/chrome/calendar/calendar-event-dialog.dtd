@@ -9,6 +9,9 @@
 <!ENTITY event.toolbar.delete.label "Izdzēst">
 <!ENTITY event.toolbar.delete.tooltip "Izdzēst">
 <!ENTITY event.calendar.label "Kalendārs:">
+<!ENTITY event.reminder.1day.before.label "1 dienu pirms">
+<!ENTITY event.reminder.2days.before.label "2 dienas pirms">
 <!-- Recurrence dialog -->
 <!ENTITY recurrence.title.label "Labot atkārtošanos">
+<!ENTITY event.repeat.every.weekday.label "Ik darbdienu">
 <!ENTITY read.only.calendar.label "Kalendārs:">

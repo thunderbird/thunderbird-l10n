@@ -24,7 +24,25 @@ calendar-add-calendar = Pievienot kalendāru…
     .title = Izveidot vai abonēt kalendāru
 calendar-new-event-primary-button = Jauns notikums
 
+## Calendar navigation
+
+calendar-view-toggle-day = Diena
+    .title = Pārslēgties uz dienas skatu
+
 ## Menu on calendar control bar
 
 calendar-control-bar-menu-button =
     .title = Kalendāra izkārtojuma iespējas
+calendar-hide-weekends-option =
+    .label = Tikai darba nedēļas dienās
+calendar-define-workweek-option =
+    .label = Definējiet darba nedēļas dienas
+
+## Calendar Context Menu
+
+calendar-context-menu-previous-day =
+    .label = Iepriekšējā diena
+    .accesskey = I
+calendar-context-menu-next-day =
+    .label = Nākamajā dienā
+    .accesskey = N
