@@ -31,7 +31,10 @@ optional-components-desc = Le servicio de mantenentia te permittera de actualisa
 maintenance-service-checkbox-desc = Installar le servicio de mantenentia
     .accesskey = m
 summary-page-title = Summario
+summary-page-subtitle = Preste a initiar le installation de { $BrandShortName }
 summary-installed-to = { $BrandShortName } sera installate in le sequente position:
+summary-reboot-required-install = Pote esser necessari reinitialisar tu computator pro completar le installation.
+summary-reboot-required-uninstall = Pote esser necessari reinitialisar tu computator pro completar le disinstallation.
 summary-install-click = Clicca sur Installar pro continuar.
 summary-upgrade-click = Clicca sur Actualisar pro continuar.
 launch-text = Lancear { $BrandFullName } ora
@@ -41,10 +44,31 @@ icons-desktop = Sur mi scriptorio
     .accesskey = s
 icons-startmenu = In mi plica Programmas del menu Initiar
     .accesskey = P
+icons-taskbar = In mi barra del cargas
+    .accesskey = I
+warn-manually-close-app-install =
+    { $BrandShortName } debe esser claudite pro proceder con le installation.
+    
+    Claude { $BrandShortName } pro continuar.
+warn-manually-close-app-uninstall =
+    { $BrandShortName } debe esser claudite pro proceder con le disinstallation.
+    
+    Claude { $BrandShortName } pro continuar.
 warn-manually-close-app-launch =
     Un execution de { $BrandShortName } es ja in curso.
     
     Per favor claude { $BrandShortName } ante lancear le version que tu ha justo installate.
+warn-write-access =
+    Tu non ha accesso de scriptura al directorio de installation.
+    
+    Clicca sur OK pro eliger un altere directorio.
+warn-disk-space =
+    Tu non ha spatio de disco sufficiente pro installar in iste position.
+    
+    Clicca sur OK pro eliger un altere position.
+warn-min-supported-osver-msg = Nos lo regretta, { $BrandShortName } non pote esser installate. Iste version de { $BrandShortName } require { $MinSupportedVer } o plus nove. Per favor clicca sur le button OK pro informationes additional.
+warn-min-supported-cpu-msg = Nos lo regretta, { $BrandShortName } non pote esser installate. Iste version de { $BrandShortName } necessita un processor que admitte { $MinSupportedCPU }. Per favor clicca sur le button OK pro informationes additional.
+warn-min-supported-osver-cpu-msg = Nos lo regretta, { $BrandShortName } non pote esser installate. Iste version de { $BrandShortName } require { $MinSupportedVer } o plus nove e un processor que admitte { $MinSupportedCPU }. Clicca sur le button OK pro informationes additional.
 un-confirm-page-title = Disinstallar { $BrandFullName }
 un-confirm-page-subtitle = Remover { $BrandFullName } de tu computator.
 un-confirm-uninstalled-from = { $BrandShortName } essera disinstallate del sequente percurso:
