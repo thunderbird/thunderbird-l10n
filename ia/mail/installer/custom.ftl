@@ -45,10 +45,6 @@ warn-manually-close-app-launch =
     Un execution de { $BrandShortName } es ja in curso.
     
     Per favor claude { $BrandShortName } ante lancear le version que tu ha justo installate.
-error-create-directory-prefix = Error durante le creation del directorio:
-error-create-directory-suffix =
-    Clicca sur Cancellar pro interrumper le installation o
-    Retentar pro tentar de novo.
 un-confirm-page-title = Disinstallar { $BrandFullName }
 un-confirm-page-subtitle = Remover { $BrandFullName } de tu computator.
 un-confirm-uninstalled-from = { $BrandShortName } essera disinstallate del sequente percurso:
