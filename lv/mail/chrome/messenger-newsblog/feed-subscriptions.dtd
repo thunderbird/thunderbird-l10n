@@ -10,8 +10,8 @@
 <!ENTITY feedLocation.label "Plūsmas URL:">
 <!ENTITY feedLocation.accesskey "P">
 <!ENTITY feedLocation2.placeholder "Ievadiet pareizu plūsmas URL">
-<!ENTITY locationValidate.label "Validēt">
-<!ENTITY validateText.label "Pārbaudīt validāciju un iegūt derīgu URL.">
+<!ENTITY locationValidate.label "Apstiprināt">
+<!ENTITY validateText.label "Pārbaudīt apstiprināšanu un iegūt derīgu URL.">
 <!ENTITY feedFolder.label "Saglabāt rakstus iekš:">
 <!ENTITY feedFolder.accesskey "S">
 <!-- Account Settings and Subscription Dialog -->
