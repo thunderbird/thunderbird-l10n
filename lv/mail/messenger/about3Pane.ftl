@@ -83,6 +83,13 @@ quick-filter-bar-results =
     }
 quick-filter-bar-searching =
     .title = Meklē...
+# Keyboard shortcut for the text search box.
+# This should match quick-filter-bar-show in messenger.ftl.
+quick-filter-bar-search-shortcut =
+    { PLATFORM() ->
+        [macos] <kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>K</kbd>
+       *[other] <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>K</kbd>
+    }
 # This is the empty text for the text search box.
 # The goal is to convey to the user that typing in the box will filter the
 # messages and that there is a hotkey they can press to get to the box faster.

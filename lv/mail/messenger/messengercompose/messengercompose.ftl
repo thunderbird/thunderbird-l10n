@@ -152,6 +152,14 @@ compose-remove-address-row-title = Noņemt { $field } adreses
 compose-remove-address-row-prompt = Vai tiešām vēlaties noņemt { $field } adreses?
 compose-remove-address-row-button = Noņemt
 
+## Attachment widget
+
+ctrl-cmd-shift-pretty-prefix =
+    { PLATFORM() ->
+        [macos] ⇧ ⌘{ " " }
+       *[other] Ctrl+Shift+
+    }
+
 ## Reorder Attachment Panel
 
 button-return-receipt =

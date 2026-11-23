@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+account-prefs-show-address-row-description = Atstājiet adreses lauku tukšu, lai, sākot jaunu ziņojumu, vienmēr tiktu rādīta adreses rinda.
 account-prefs-sent-message-copies-description = Izvēlies, kur saglabāt nosūtīto ziņojumu kopijas, un iestati automātiskas Cc/Bcc kārtulas
 account-prefs-sent-message-copies-graph-info = Piezīme: Microsoft Graph nosūtītos ziņojumus automātiski saglabā šim nolūkam paredzētajā servera mapē “Nosūtītie vienumi”.
 account-prefs-automatic-cc-bcc-description = Piezīme: šo rūtiņu atzīmēšana ziņojumu sastādīšanā pievieno automātiskas Cc/Bcc rindas

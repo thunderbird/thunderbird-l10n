@@ -149,6 +149,7 @@ add-web-search-engine =
 remove-search-engine =
     .label = Noņemt
     .accesskey = N
+new-message-arrival-legend = Kad pienāk jauna ziņa:
 minimize-to-tray-label =
     .label = Minimizējot { -brand-short-name }, pārvietot to uz paplāti
     .accesskey = M
@@ -898,4 +899,10 @@ qr-export-missing-accounts-support = Trūkst konta? Kontus, kas netiek atbalstī
 ## Appearance Tab
 
 appearance-category-header = Izskats
+default-sort-newest-bottom =
+    .label = Jaunākie ziņojumi apakšā
+default-sort-new-messages-top =
+    .label = Jaunākie ziņojumi augšpusē
+default-sort-ascending-description = Jauni ziņojumi apakšā
+default-sort-descending-description = Jauni ziņojumi augšpusē
 apply-changes-prompt-message = Pielietot pašreizējos pavedienu veidošanas un kārtošanas iestatījumus visām mapēm?

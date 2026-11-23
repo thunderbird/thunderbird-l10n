@@ -3,6 +3,12 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Newsgroup Status Messages
+
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+no-new-messages = Grupā { $newsgroup } nav jaunu ziņojumu.
+
 ## Download Headers Dialog
 
 download-headers-dialog-title = Lejuplādēt galvenes

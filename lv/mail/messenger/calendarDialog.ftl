@@ -21,6 +21,16 @@ calendar-dialog-back-button =
     .title = Atpakaļ
 calendar-event-create-edit-dialog-back-button = Atpakaļ
 calendar-dialog-attendees-too-many-guests = Viesu sarakstu nevar parādīt, jo tas satur vairāk nekā 50 viesu.
+# Variables:
+#   $additionalCategories (Number): Number of categoires not shown.
+#   $categories (String): List of all categories.
+calendar-dialog-more-categories =
+    { $additionalCategories ->
+        [zero] +{ $additionalCategories } vairāk
+        [one] +{ $additionalCategories } vairāk
+       *[other] +{ $additionalCategories } vairāk
+    }
+    .title = { $categories }
 calendar-dialog-add-reminder-button = Pievienot atgādinājumu
 calendar-dialog-reminder-select =
     .aria-label = Atlasīt jaunu atgādinājuma ilgumu

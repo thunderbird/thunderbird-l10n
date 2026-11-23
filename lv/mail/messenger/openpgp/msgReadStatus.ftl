@@ -5,6 +5,13 @@
 
 ## Message Header Encryption Button
 
+#   $type (String) - the shortcut key defined in the message-header-show-security-info-key
+message-security-button =
+    .title =
+        { PLATFORM() ->
+            [macos] Rādīt ziņojuma drošību (⌃ ⌘ { message-header-show-security-info-key })
+           *[other] Rādīt ziņojuma drošību (Ctrl+Alt+{ message-header-show-security-info-key })
+        }
 openpgp-view-signer-key =
     .label = Skatīt parakstītāja atslēgu
 openpgp-view-your-encryption-key =

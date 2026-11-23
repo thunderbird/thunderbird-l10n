@@ -5,6 +5,9 @@
 spam-settings-title = Mēstuļu iestatījumi
 dialog-header-title =
     .value = Mēstuļu iestatījumi
+move-spam-message-menuitem =
+    .label = Pārvietot jaunās surogātpasta ziņas uz:
+    .accesskey = M
 move-message-other =
     .label = Cits:
     .accesskey = C
