@@ -22,6 +22,12 @@ menu-export-for-mobile =
 
 ## Help Menu
 
+menu-help-get-help =
+    .label = Meklēt palīdzību
+    .accesskey = H
+menu-help-get-release-help =
+    .label = Saņemiet palīdzību ar { -brand-short-name }
+    .accesskey = R
 system-tray-menuitem-quit =
     { PLATFORM() ->
         [windows] Iziet no { -brand-full-name }

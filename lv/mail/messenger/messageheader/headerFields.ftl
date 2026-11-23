@@ -2,6 +2,17 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+
+## Other message headers.
+## The field-separator is for screen readers to separate the field name from the field value.
+
+# Describes (i.e. http or mailto URL) how to post to the mailing list.
+list-id-list-post =
+    .label = Rakstīt
+    .accesskey = R
+
+##
+
 message-header-address-in-address-book-button =
     .title = Labot kontaktpersonu
 message-header-field-show-more = Vēl

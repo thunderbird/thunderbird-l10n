@@ -187,6 +187,10 @@ calendar-event-more-categories = +тағы { $count }
            *[other] +тағы { $count } санат
         }
 
+## Video row in the event create/edit dialog.
+
+calendar-event-video-label = Видео
+
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".
 

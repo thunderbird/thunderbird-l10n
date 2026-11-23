@@ -54,6 +54,8 @@ about-addressbook-column-label-emailaddresses2 =
 about-addressbook-cell-emailaddresses2 =
     .aria-label = E-pasta adreses
     .title = { $title }
+about-addressbook-cards-context-write =
+    .label = Rakstīt
 # Variables:
 # $count (Number) - The number of contacts and lists to be deleted. Always greater than 1.
 about-addressbook-confirm-delete-mixed = Vai tiešām izdzēst šīs { $count } kontaktpersonas un sarakstus?
@@ -119,6 +121,7 @@ about-addressbook-selection-lists-header2 =
     }
 about-addressbook-details-edit-photo =
     .title = Labot kontaktpersonas fotoattēlu
+about-addressbook-write-action-button = Rakstīt
 about-addressbook-search-action-button = Meklēt
 about-addressbook-begin-edit-contact-button = Labot
 about-addressbook-delete-edit-contact-button = Izdzēst

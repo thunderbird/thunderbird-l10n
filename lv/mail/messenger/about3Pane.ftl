@@ -132,12 +132,15 @@ quick-filter-bar-gloda-upsell-line2 = Vēlreiz nospiediet ievades taustiņu, lai
 ## Folder pane
 
 folder-pane-get-messages-button =
-    .title = Iegūt ziņojumus
+    .title = Saņemt ziņojumus
 folder-pane-get-all-messages-menuitem =
     .label = Saņemt visas vēstules
     .accesskey = S
 folder-pane-write-message-button = Jauns ziņojums
     .title = Sastādīt jaunu ziņojumu
+# Context menu item to toggle display of "Get messages" button in folder pane header
+folder-pane-header-context-toggle-get-messages =
+    .label = Rādīt “Saņemt ziņojumus”
 # Context menu item to toggle display of "New Message" button in folder pane header
 folder-pane-header-context-toggle-new-message =
     .label = Rādīt “Jauns ziņojums”
