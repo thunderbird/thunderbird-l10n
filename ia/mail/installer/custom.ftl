@@ -69,6 +69,12 @@ warn-disk-space =
 warn-min-supported-osver-msg = Nos lo regretta, { $BrandShortName } non pote esser installate. Iste version de { $BrandShortName } require { $MinSupportedVer } o plus nove. Per favor clicca sur le button OK pro informationes additional.
 warn-min-supported-cpu-msg = Nos lo regretta, { $BrandShortName } non pote esser installate. Iste version de { $BrandShortName } necessita un processor que admitte { $MinSupportedCPU }. Per favor clicca sur le button OK pro informationes additional.
 warn-min-supported-osver-cpu-msg = Nos lo regretta, { $BrandShortName } non pote esser installate. Iste version de { $BrandShortName } require { $MinSupportedVer } o plus nove e un processor que admitte { $MinSupportedCPU }. Clicca sur le button OK pro informationes additional.
+warn-restart-required-uninstall = Tu computator debe esser reinitialisate pro completar un previe disinstallation de { $BrandShortName }. Desira tu reinitialisar lo ora?
+warn-restart-required-upgrade = Tu computator debe esser reinitialisate pro completar un previe actualisation de { $BrandShortName }. Desira tu reinitialisar lo ora?
+error-create-directory-prefix = Error durante le creation del directorio:
+error-create-directory-suffix =
+    Clicca sur Cancellar pro interrumper le installation o
+    Retentar pro tentar de novo.
 un-confirm-page-title = Disinstallar { $BrandFullName }
 un-confirm-page-subtitle = Remover { $BrandFullName } de tu computator.
 un-confirm-uninstalled-from = { $BrandShortName } essera disinstallate del sequente percurso:
