@@ -19,7 +19,7 @@
 reg-app-desc = { $BrandShortName } es un application de e-mail plen de functionalitate. { $BrandShortName } supporta le protocollos de e-mail IMAP e POP, assi como le formatation de e-mail in HTML. Il ha etiam functiones pro combatter le messages indesirate, sequer syndicationes RSS, cercar efficace- e rapidemente, verificar le orthographia durante que tu scribe, combinar tu messages recipite in un cassa de entrata global, e componer filtros precise pro tu messages. Con tote isto, { $BrandShortName } dispone de un insimul de functionalitate complete e moderne.
 context-options = Optiones de { $BrandShortName }
     .accesskey = O
-context-safe-mode = { $BrandShortName } in modo secur
+context-safe-mode = { $BrandShortName } in modalitate secur
     .accesskey = s
 options-page-title = Typo de installation
 options-page-subtitle = Eliger le optiones de installation
