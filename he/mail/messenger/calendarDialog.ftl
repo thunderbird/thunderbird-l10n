@@ -45,6 +45,14 @@ calendar-event-remaining-categories =
 calendar-event-remove-category =
     .aria-label = הסרת הקטגוריה { $category }
     .title = הסרת הקטגוריה { $category }
+# Variables:
+#   $count (Number): The number of categories not shown in the summary.
+calendar-event-more-categories = ועוד { $count }
+    .aria-label =
+        { $count ->
+            [one] ועוד קטגוריה אחת
+           *[other] ועוד { $count } קטגוריות
+        }
 
 ## Video row in the event create/edit dialog.
 
