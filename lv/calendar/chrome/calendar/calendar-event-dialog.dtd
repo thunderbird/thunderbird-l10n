@@ -81,14 +81,69 @@
 <!ENTITY event.reminder.label "Atgādinājums:">
 <!ENTITY event.reminder.accesskey "m">
 <!ENTITY event.description.label "Apraksts:">
+<!ENTITY event.description.accesskey "p">
+<!ENTITY event.attachments.label "Pielikumi:">
+<!ENTITY event.attachments.accesskey "h">
+<!ENTITY event.attachments.menubutton.label "Pievienot">
+<!ENTITY event.attachments.menubutton.accesskey "A">
+<!ENTITY event.attachments.url.label "Tīmekļa lapa…">
+<!ENTITY event.attachments.url.accesskey "W">
+<!ENTITY event.attachments.popup.remove.label "Noņemt">
+<!ENTITY event.attachments.popup.remove.accesskey "R">
+<!ENTITY event.attachments.popup.open.label "Atvērt">
+<!ENTITY event.attachments.popup.open.accesskey "O">
+<!ENTITY event.attachments.popup.removeAll.label "Noņemt visu">
+<!ENTITY event.attachments.popup.removeAll.accesskey "A">
+<!ENTITY event.attachments.popup.attachPage.label "Pievienot tīmekļa lapu…">
+<!ENTITY event.attachments.popup.attachPage.accesskey "g">
+<!ENTITY event.url.label "Saistītā saite:">
+<!ENTITY event.priority2.label "Prioritāte:">
+<!ENTITY event.reminder.none.label "Bez atgādinājuma ">
+<!ENTITY event.reminder.0minutes.before.label "0 minūtes pirms">
+<!ENTITY event.reminder.5minutes.before.label "5 minūtes pirms">
+<!ENTITY event.reminder.15minutes.before.label "15 minūtes pirms">
+<!ENTITY event.reminder.30minutes.before.label "30 minūtes pirms">
+<!ENTITY event.reminder.1hour.before.label "1 stundu pirms">
+<!ENTITY event.reminder.2hours.before.label "2 stundas pirms">
+<!ENTITY event.reminder.12hours.before.label "12 stundas iepriekš">
 <!ENTITY event.reminder.1day.before.label "1 dienu pirms">
 <!ENTITY event.reminder.2days.before.label "2 dienas pirms">
+<!ENTITY event.reminder.1week.before.label "1 nedēļu iepriekš">
+<!ENTITY event.reminder.custom.label "Pielāgots...">
+<!ENTITY event.reminder.multiple.label "Vairāki atgādinājumi…">
+<!ENTITY event.statusbarpanel.freebusy.label "Laiks kā:">
+<!ENTITY event.statusbarpanel.privacy.label "Privātums:">
 <!-- Recurrence dialog -->
 <!ENTITY recurrence.title.label "Labot atkārtošanos">
+<!ENTITY event.repeat.does.not.repeat.label "Neatkārtojas">
+<!ENTITY event.repeat.daily.label "Ik dienas">
+<!ENTITY event.repeat.weekly.label "Katru nedēļu">
 <!ENTITY event.repeat.every.weekday.label "Ik darbdienu">
+<!ENTITY event.repeat.bi.weekly.label "Reizi divās nedēļās">
+<!ENTITY event.repeat.monthly.label "Ik mēnesi">
+<!ENTITY event.repeat.yearly.label "Katru gadu">
+<!ENTITY event.repeat.custom.label "Pielāgots...">
+<!ENTITY event.recurrence.pattern.label "Atkārtošanās modelis">
+<!ENTITY event.recurrence.occurs.label "Atkārtot">
+<!ENTITY event.recurrence.day.label "ikdienas">
+<!ENTITY event.recurrence.week.label "iknedēļas">
+<!ENTITY event.recurrence.month.label "ikmēneša">
+<!ENTITY event.recurrence.year.label "katru gadu">
 <!ENTITY repeat.units.days.both "Diena(-as)">
 <!ENTITY event.recurrence.pattern.every.weekday.label "Katru darba dienu">
 <!ENTITY event.recurrence.repeat.dayofmonth.label "Mēneša diena">
 <!ENTITY event.recurrence.repeat.recur.label "Atkārtoties dienā(-ās)">
 <!ENTITY event.recurrence.pattern.yearly.day.label "diena">
+<!ENTITY event.attendee.usertype.unknown "Nezināms">
+<!-- Timezone dialog -->
+<!ENTITY timezone.title.label "Lūdzu, norādiet laika joslu">
+<!ENTITY event.timezone.custom.label "Vairāk laika joslu…">
+<!-- Read-Only dialog -->
+<!ENTITY read.only.general.label "Vispārīgi">
+<!ENTITY read.only.title.label "Nosaukums:">
 <!ENTITY read.only.calendar.label "Kalendārs:">
+<!ENTITY read.only.event.start.label "Sākt ar:">
+<!ENTITY read.only.task.start.label "Sākt ar:">
+<!ENTITY read.only.event.end.label "Beigt:">
+<!ENTITY read.only.task.due.label "Beigt:">
+<!ENTITY read.only.repeat.label "Atkārtot:">
