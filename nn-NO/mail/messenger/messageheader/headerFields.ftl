@@ -97,6 +97,7 @@ message-header-address-in-address-book-button =
     .title = Rediger kontakt
 message-header-field-show-more = Meir
     .title = Vis alle mottakarar
+message-ids-field-show-more = Vis meir
 message-ids-field-show-all = Vis alle
 
 ## Dark Message Mode

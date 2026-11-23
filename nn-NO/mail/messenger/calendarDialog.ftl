@@ -142,6 +142,8 @@ calendar-prompt-this-event =
 calendar-prompt-all-events =
     .label = Alle hendingar
 calendar-prompt-delete-button = Slett
+calendar-dialog-edit-button = Rediger
+calendar-event-create-edit-save-button = Lagre
 calendar-event-calendar-selector =
     .aria-label = Kalender
 calendar-event-save = Lagre
@@ -151,6 +153,21 @@ calendar-event-availability-selector =
 calendar-event-availability-default = Standard
 calendar-event-availability-busy = Oppteken
 calendar-event-availability-free = Gratis
+calendar-prompt-edit-confirm-button = Stadfest
+calendar-event-prompt-edit-title = Rediger hending
+
+## Category controls in the event create/edit dialog.
+
+calendar-event-categories = Kategoriar
+calendar-event-add-category = Legg til kategori
+calendar-event-category-choices =
+    .aria-label = Tilgjengelege kategoriar
+calendar-event-selected-categories =
+    .aria-label = Valde kategoriar
+
+## Video row in the event create/edit dialog.
+
+calendar-event-video-label = Video
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".

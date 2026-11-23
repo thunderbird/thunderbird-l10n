@@ -3,6 +3,9 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 offline-dialog-title = Fråkopla-modus
+going-online-ask-send =
+    .label = Spør før du sender
+    .accesskey = S
 autodetect-online-label =
     .label = Automatisk følg oppdaga status på tilkopling
     .accesskey = d
