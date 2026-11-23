@@ -9,12 +9,78 @@
 <!ENTITY newevent.to.label "Kam">
 <!ENTITY newevent.status.label "Stāvoklis">
 <!ENTITY newevent.status.accesskey "S">
+<!ENTITY newevent.eventStatus.none.label "Nav norādīts">
+<!ENTITY newevent.eventStatus.none.accesskey "o">
+<!ENTITY newevent.todoStatus.none.label "Nav norādīts">
+<!ENTITY newevent.eventStatus.cancelled.label "Atcelts">
+<!ENTITY newevent.eventStatus.cancelled.accesskey "n">
+<!ENTITY newevent.todoStatus.cancelled.label "Atcelts">
+<!ENTITY newevent.status.tentative.label "Pagaidu">
+<!ENTITY newevent.status.tentative.accesskey "T">
+<!ENTITY newevent.status.confirmed.label "Apstiprināts">
+<!ENTITY event.menu.item.saveandclose.tab.accesskey "z">
 <!ENTITY event.menu.item.delete.label "Izdzēst…">
+<!ENTITY event.menu.item.delete.accesskey "D">
 <!ENTITY event.menu.edit.label "Labot">
+<!ENTITY event.menu.edit.accesskey "E">
+<!ENTITY event.menu.edit.undo.label "Atsaukt">
+<!ENTITY event.menu.edit.undo.accesskey "U">
+<!ENTITY event.menu.edit.redo.label "Atcelt atsaukšanu">
+<!ENTITY event.menu.edit.redo.accesskey "R">
+<!ENTITY event.menu.edit.cut.label "Griezt">
+<!ENTITY event.menu.edit.cut.accesskey "t">
+<!ENTITY event.menu.edit.copy.label "Kopēt">
+<!ENTITY event.menu.edit.copy.accesskey "C">
+<!ENTITY event.menu.edit.paste.label "Ielīmēt">
+<!ENTITY event.menu.edit.paste.accesskey "P">
+<!ENTITY event.menu.edit.select.all.label "Atlasīt visu">
+<!ENTITY event.menu.edit.select.all.accesskey "A">
+<!ENTITY event.menu.view.label "Skats">
+<!ENTITY event.menu.view.accesskey "V">
+<!ENTITY event.menu.view.toolbars.label "Rīkjoslas">
+<!ENTITY event.menu.view.toolbars.accesskey "T">
+<!ENTITY event.menu.view.toolbars.event.label "Notikumu rīkjosla">
+<!ENTITY event.menu.view.toolbars.event.accesskey "E">
 <!ENTITY event.menu.view.toolbars.customize.label "Pielāgot…">
+<!ENTITY event.menu.view.toolbars.customize.accesskey "C">
+<!ENTITY event.menu.options.label "Iestatījumi">
+<!ENTITY event.menu.options.accesskey "O">
+<!ENTITY event.menu.options.attendees.label "Uzaicināt dalībniekus…">
+<!ENTITY event.menu.options.attendees.accesskey "I">
+<!ENTITY event.menu.options.timezone2.label "Parādīt laika joslas">
+<!ENTITY event.menu.options.timezone2.accesskey "z">
+<!ENTITY event.menu.options.priority2.label "Prioritāte">
+<!ENTITY event.menu.options.priority2.accesskey "y">
+<!ENTITY event.menu.options.priority.notspecified.label "Nav norādīts">
+<!ENTITY event.menu.options.priority.notspecified.accesskey "o">
+<!ENTITY event.menu.options.priority.low.label "Zema">
+<!ENTITY event.menu.options.priority.low.accesskey "L">
+<!ENTITY event.menu.options.priority.normal.label "Parasta">
+<!ENTITY event.menu.options.priority.normal.accesskey "N">
+<!ENTITY event.menu.options.priority.high.label "Augsta">
+<!ENTITY event.menu.options.priority.high.accesskey "H">
+<!ENTITY event.menu.options.privacy.label "Privātums">
+<!ENTITY event.menu.options.privacy.accesskey "P">
+<!ENTITY event.menu.options.privacy.public.label "Publisks pasākums">
+<!ENTITY event.menu.options.privacy.public.accesskey "u">
+<!ENTITY event.menu.options.privacy.confidential.label "Rādīt tikai datumu un laiku">
+<!ENTITY event.menu.options.privacy.confidential.accesskey "S">
+<!ENTITY event.menu.options.privacy.private.label "Slēgts pasākums">
+<!ENTITY event.menu.options.privacy.private.accesskey "r">
+<!ENTITY event.menu.options.show.time.label "Rādīt laiku kā">
+<!ENTITY event.menu.options.show.time.accesskey "T">
+<!ENTITY event.menu.options.show.time.busy.label "Aizņemts">
+<!ENTITY event.menu.options.show.time.busy.accesskey "B">
 <!ENTITY event.toolbar.delete.label "Izdzēst">
 <!ENTITY event.toolbar.delete.tooltip "Izdzēst">
 <!ENTITY event.calendar.label "Kalendārs:">
+<!ENTITY event.repeat.label "Atkārtot:">
+<!ENTITY event.repeat.accesskey "R">
+<!ENTITY event.until.label "Līdz:">
+<!ENTITY event.until.accesskey "B">
+<!ENTITY event.reminder.label "Atgādinājums:">
+<!ENTITY event.reminder.accesskey "m">
+<!ENTITY event.description.label "Apraksts:">
 <!ENTITY event.reminder.1day.before.label "1 dienu pirms">
 <!ENTITY event.reminder.2days.before.label "2 dienas pirms">
 <!-- Recurrence dialog -->
