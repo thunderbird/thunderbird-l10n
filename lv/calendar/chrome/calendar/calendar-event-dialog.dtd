@@ -14,4 +14,9 @@
 <!-- Recurrence dialog -->
 <!ENTITY recurrence.title.label "Labot atkārtošanos">
 <!ENTITY event.repeat.every.weekday.label "Ik darbdienu">
+<!ENTITY repeat.units.days.both "Diena(-as)">
+<!ENTITY event.recurrence.pattern.every.weekday.label "Katru darba dienu">
+<!ENTITY event.recurrence.repeat.dayofmonth.label "Mēneša diena">
+<!ENTITY event.recurrence.repeat.recur.label "Atkārtoties dienā(-ās)">
+<!ENTITY event.recurrence.pattern.yearly.day.label "diena">
 <!ENTITY read.only.calendar.label "Kalendārs:">

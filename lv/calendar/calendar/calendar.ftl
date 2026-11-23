@@ -367,6 +367,7 @@ tz-from-known-timezones =
 tasks-with-no-due-date = Uzdevumi, kuriem nav izpildes termiņa
 # Providers
 cal-dav-name = CalDAV
+composite-name = Salikts objekts
 ics-name-key = iCalendar (ICS)
 memory-name = Pagaidu (atmiņa)
 storage-name = Lokālais (SQLite)
@@ -496,6 +497,11 @@ single-long-calendar-week = Kalendāra nedēļa: { $index }
 #    $index will be replaced with the index of the week
 single-calendar-week = CW: { $index }
     .title = Kalendāra nedēļa: { $index }
+# LOCALIZATION NOTE (several-long-calendar-weeks):
+# used for display of calendar weeks in long form like 'Calendar Weeks 43 - 45'
+#    $startIndex will be replaced with the index of the start-week
+#    $endIndex will be replaced with the index of the end-week
+several-long-calendar-weeks = Kalendāra nedēļas { $startIndex }-{ $endIndex }
 # Shown after the items of a day in the calendar views, when the day has too
 # many items to display at once. Clicking it displays more of them.
 # Variables:

@@ -127,6 +127,7 @@ about-addressbook-begin-edit-contact-button = Labot
 about-addressbook-delete-edit-contact-button = Izdzēst
 about-addressbook-cancel-edit-contact-button = Atcelt
 about-addressbook-details-email-addresses-header = E-pasta adreses
+about-addressbook-entry-name-birthday = Dzimšanas diena
 about-addressbook-photo-dialog-title =
     .aria-label = Pārvaldīt šīs kontaktpersonas fotoattēlu.
 about-addressbook-photo-cancel = Atcelt
