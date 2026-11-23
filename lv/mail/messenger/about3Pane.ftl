@@ -139,7 +139,7 @@ quick-filter-bar-gloda-upsell-line2 = Vēlreiz nospiediet ievades taustiņu, lai
 ## Folder pane
 
 folder-pane-get-messages-button =
-    .title = Saņemt ziņojumus
+    .title = Iegūt ziņojumus
 folder-pane-get-all-messages-menuitem =
     .label = Saņemt visas vēstules
     .accesskey = S
