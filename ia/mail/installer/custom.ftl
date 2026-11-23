@@ -31,7 +31,7 @@ optional-components-desc = Le servicio de mantenentia te permittera de actualisa
 maintenance-service-checkbox-desc = Installar le servicio de mantenentia
     .accesskey = m
 summary-page-title = Summario
-summary-installed-to = { $BrandShortName } essera installate in le sequente percurso:
+summary-installed-to = { $BrandShortName } sera installate in le sequente position:
 summary-install-click = Clicca sur Installar pro continuar.
 summary-upgrade-click = Clicca sur Actualisar pro continuar.
 launch-text = Lancear { $BrandFullName } ora
@@ -39,7 +39,7 @@ launch-text = Lancear { $BrandFullName } ora
 create-icons-desc = Crear icones pro { $BrandShortName }:
 icons-desktop = Sur mi scriptorio
     .accesskey = s
-icons-startmenu = In mi dossier Programmas del menu Initiar
+icons-startmenu = In mi plica Programmas del menu Initiar
     .accesskey = P
 warn-manually-close-app-launch =
     Un execution de { $BrandShortName } es ja in curso.
