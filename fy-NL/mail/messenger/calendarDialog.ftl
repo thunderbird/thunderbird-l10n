@@ -160,6 +160,43 @@ calendar-event-availability-selector =
 calendar-event-availability-default = Standert
 calendar-event-availability-busy = Beset
 calendar-event-availability-free = Beskikber
+calendar-event-prompt-edit-header = Dit barren of alle werhellingen fan dit barren bewurkje?
+calendar-prompt-edit-confirm-button = Befêstigje
+calendar-event-prompt-edit-title = Barren bewurkje
+
+## Category controls in the event create/edit dialog.
+
+calendar-event-categories = Kategoryen
+calendar-event-add-category = Kategory tafoegje
+calendar-event-category-choices =
+    .aria-label = Beskikbere kategoryen
+calendar-event-selected-categories =
+    .aria-label = Selektearre kategoryen
+calendar-event-remaining-categories =
+    .aria-label = Oerbleaune kategoryen
+# Variables:
+#   $category (String): The name of the category to remove.
+calendar-event-remove-category =
+    .aria-label = Kategory { $category } fuortsmite
+    .title = Kategory { $category } fuortsmite
+# Variables:
+#   $count (Number): The number of categories not shown in the summary.
+calendar-event-more-categories = + noch { $count }
+    .aria-label =
+        { $count ->
+            [one] + noch { $count } kategory
+           *[other] + noch { $count } kategoryen
+        }
+
+## Video row in the event create/edit dialog.
+
+calendar-event-video-label = Fideo
+calendar-event-video-url =
+    .aria-label = Fideo-URL
+    .placeholder = URL foar fideo ynfiere
+calendar-event-video-url-clear =
+    .aria-label = Fideo-URL wiskje
+    .title = Fideo-URL wiskje
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".

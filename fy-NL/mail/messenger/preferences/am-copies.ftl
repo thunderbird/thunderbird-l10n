@@ -4,6 +4,7 @@
 
 account-prefs-show-address-row-description = Lit it adresfjild leech om by it opstellen fan in nij berjocht altyd de adresrigel te toanen .
 account-prefs-sent-message-copies-description = Kies wêr’t jo kopyen fan ferstjoerde berjochten bewarje wolle en stel automatyske Cc/Bcc-regels yn
+account-prefs-sent-message-copies-graph-info = Opmerking: Microsoft Graph bewarret ferstjoerde berjochten automatysk yn de oanwiisde map Ferstjoerde items fan de server.
 account-prefs-automatic-cc-bcc-description = Opmerking: as jo dizze fakjes oanfinke, wurde automatyske Cc/Bcc-regels tafoege by it opstellen fan nije berjochten.
 account-prefs-sent-folder-on =
     .label = Map Ferstjoerd op:
