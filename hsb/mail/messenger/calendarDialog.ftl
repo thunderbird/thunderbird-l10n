@@ -182,6 +182,9 @@ calendar-event-prompt-edit-title = Podawk wobdźěłać
 
 calendar-event-categories = Kategorije
 calendar-event-add-category = Kategoriju přidać
+calendar-event-category-name =
+    .aria-label = Nowu kategoriju přidać
+    .placeholder = Nowu kategoriju přidać
 calendar-event-category-choices =
     .aria-label = K dispoziciji stejace kategorije
 calendar-event-selected-categories =
@@ -213,6 +216,47 @@ calendar-event-video-url =
 calendar-event-video-url-clear =
     .aria-label = URL wideja zhašeć
     .title = URL wideja zhašeć
+
+## Description controls in the event create/edit dialog.
+
+calendar-event-add-description = Wopisanje přidać
+calendar-description-formatting =
+    .aria-label = Tekstowe formatěrowanje
+calendar-description-bold =
+    .aria-label = Tučny
+    .title = Tučny
+calendar-description-italic =
+    .aria-label = Kursiwny
+    .title = Kursiwny
+calendar-description-bulleted-list =
+    .aria-label = Naličenje
+    .title = Naličenje
+calendar-description-numbered-list =
+    .aria-label = Čisłowana lisćina
+    .title = Čisłowana lisćina
+calendar-description-indent =
+    .aria-label = Zasunyć
+    .title = Zasunyć
+calendar-description-outdent =
+    .aria-label = Wusunyć
+    .title = Wusunyć
+calendar-description-link =
+    .aria-label = Wotkaz
+    .title = Wotkaz
+calendar-description-link-popup = Wotkaz
+calendar-description-remove-link = Wotkazy wotstronić
+calendar-description-cancel-link = Přetorhnyć
+calendar-description-input =
+    .aria-label = Wopisanje
+calendar-description-strikethrough =
+    .aria-label = Přešmórnjeny
+    .title = Přešmórnjeny
+calendar-description-undo =
+    .aria-label = Cofnyć
+    .title = Cofnyć
+calendar-description-redo =
+    .aria-label = Wospjetować
+    .title = Wospjetować
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".

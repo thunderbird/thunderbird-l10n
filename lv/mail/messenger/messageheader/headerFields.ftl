@@ -47,13 +47,52 @@ message-header-list-id-field = Saraksta ID:<span data-l10n-name="field-separator
 message-header-list-help-field = Palīdzības saraksts <span data-l10n-name="field-separator">:</span>
 message-header-list-unsubscribe-field = Atteikšanās no abonēšanas saraksts:<span data-l10n-name="field-separator">:</span>
 message-header-list-subscribe-field = Abonēt sarakstu<span data-l10n-name="field-separator">:</span>
+message-header-list-post-field = Publikāciju saraksts <span data-l10n-name="field-separator">:</span>
+message-header-list-owner-field = Saraksta īpašnieks <span data-l10n-name="field-separator">:</span>
+message-header-list-archive-field = Saraksta arhīvs <span data-l10n-name="field-separator">:</span>
+message-header-archived-at-field = Arhivēts: <span data-l10n-name="field-separator">:</span>
+# Describes (i.e. http or mailto URL) how to access help for the mailing list.
+list-id-context-list-help =
+    .label = Iegūt palīdzību
+    .accesskey = I
+# Describes (i.e. http or mailto URL) how to unsubscribe for the mailing list.
+list-id-list-unsubscribe =
+    .label = Atcelt abonēšanu…
+    .accesskey = u
+# Describes (i.e. http or mailto URL) how to (re)subscribe to the mailing list.
+list-id-list-subscribe =
+    .label = Abonēt…
+    .accesskey = A
 # Describes (i.e. http or mailto URL) how to post to the mailing list.
 list-id-list-post =
     .label = Rakstīt
     .accesskey = R
+# Describes (i.e. http or mailto URL) how to contact the admin of the mailing list.
+list-id-list-owner =
+    .label = Sazinieties ar administratoru…
+    .accesskey = r
+# Describes (i.e. http or mailto URL) how to access archives for the mailing list.
+list-id-list-archive =
+    .label = Arhīvu saraksts
+    .accesskey = s
+# Direct link to the archived form of an individual email message. RFC 5064.
+list-id-archived-at =
+    .label = Ziņojuma pastāvīgā saite
+    .accesskey = p
+# An additional email header field that the user has chosen to display. Unlike
+# the other headers, the name of this header is not expected to be localised
+# because it is generated from the raw field name found in the email header.
+#   $fieldName (String) - The field name.
+message-header-custom-field = { $fieldName }<span data-l10n-name="field-separator">:</span>
 
 ##
 
+message-header-address-in-address-book-icon2 =
+    .alt = Adrešu grāmatā
+message-header-address-not-in-address-book-icon2 =
+    .alt = Nav adrešu grāmatā
+message-header-address-not-in-address-book-button =
+    .title = Saglabāt šo adresi adrešu grāmatā
 message-header-address-in-address-book-button =
     .title = Labot kontaktpersonu
 message-header-field-show-more = Vēl
@@ -64,6 +103,14 @@ message-ids-field-show-more = Rādīt vairāk
 message-header-field-show-count-more =
     .aria-label = Rādīt vēl { $count }
     .title = Rādīt vēl { $count }
+message-ids-field-show-all = Rādīt visu
+
+## Dark Message Mode
+
+dark-message-mode-toggle-enabled =
+    .title = Atspējot tumšo ziņojumu režīmu
+dark-message-mode-toggle-disabled =
+    .title = Iespējot tumšo ziņojumu režīmu
 
 ## Spam filter
 
