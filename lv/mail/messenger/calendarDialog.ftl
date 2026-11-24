@@ -95,6 +95,9 @@ calendar-event-prompt-edit-title = Labot notikumu
 
 calendar-event-categories = Kategorijas
 calendar-event-add-category = Pievienot kategoriju
+calendar-event-category-name =
+    .aria-label = Pievienot jaunu kategoriju
+    .placeholder = Pievienot jaunu kategoriju
 calendar-event-category-choices =
     .aria-label = Pieejamās kategorijas
 calendar-event-selected-categories =
@@ -125,3 +128,61 @@ calendar-event-video-url =
 calendar-event-video-url-clear =
     .aria-label = Notīrīt video URL
     .title = Notīrīt video URL
+
+## Description controls in the event create/edit dialog.
+
+calendar-event-add-description = Pievienot aprakstu
+calendar-description-formatting =
+    .aria-label = Teksta formatēšana
+calendar-description-bold =
+    .aria-label = Treknraksts
+    .title = Treknraksts
+calendar-description-italic =
+    .aria-label = Kursīvs
+    .title = Kursīvs
+calendar-description-bulleted-list =
+    .aria-label = Aizzīmju saraksts
+    .title = Aizzīmju saraksts
+calendar-description-numbered-list =
+    .aria-label = Numurēts saraksts
+    .title = Numurēts saraksts
+calendar-description-indent =
+    .aria-label = Atkāpe
+    .title = Atkāpe
+calendar-description-outdent =
+    .aria-label = Pārkaru atkāpe
+    .title = Pārkaru atkāpe
+calendar-description-link =
+    .aria-label = Saite
+    .title = Saite
+calendar-description-link-popup = Saite
+calendar-description-link-address =
+    .aria-label = Saites adrese
+calendar-description-invalid-link = Ievadiet derīgu saites adresi.
+calendar-description-apply-link = Pievienot saiti
+calendar-description-remove-link = Noņemt saiti
+calendar-description-cancel-link = Atcelt
+calendar-description-input =
+    .aria-label = Apraksts
+calendar-description-frame =
+    .title = Apraksta labotājs
+calendar-description-strikethrough =
+    .aria-label = Pārsvītrots
+    .title = Pārsvītrots
+calendar-description-undo =
+    .aria-label = Atsaukt
+    .title = Atsaukt
+calendar-description-redo =
+    .aria-label = Atcelt atsaukšanu
+    .title = Atcelt atsaukšanu
+calendar-event-add-guests = Pievienot viesus
+calendar-event-add-guests-expand-icon =
+    .alt = Pievienot viesus
+# Variables:
+#   $count (Number): Number of invited guests, including the organizer.
+calendar-event-guests-invited =
+    { $count ->
+        [one] Uzaicināts { $count } viesis
+        [zero] Uzaicināti { $count } viesu
+       *[other] Uzaicināti { $count } viesi
+    }

@@ -40,7 +40,7 @@
 <!ENTITY lightning.imipbar.btnMore.label "Vairāk">
 <!ENTITY lightning.imipbar.btnMore.tooltiptext "Klikšķināt, lai parādītu vairāk iespēju">
 <!ENTITY lightning.imipbar.btnReconfirm2.label "Atkārtoti apstiprināt">
-<!ENTITY lightning.imipbar.btnReconfirm.tooltiptext "Nosūta atkārtotu apstiprinājumu organizatoram">
+<!ENTITY lightning.imipbar.btnReconfirm.tooltiptext "Nosūta atkārtotu apstiprinājumu rīkotājam">
 <!ENTITY lightning.imipbar.btnSaveCopy.tooltiptext "Saglabāt notikuma kopiju kalendārā neatkarīgi no atbildēšanas rīkotājam. Dalībnieku saraksts tiks notīrīts.">
 <!ENTITY todaypane.showMiniday.label "Rādīt mini dienu">
 <!ENTITY todaypane.showTodayPane.label "Rādīt šodienas rūti">

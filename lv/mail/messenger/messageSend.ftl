@@ -10,6 +10,7 @@ send-alert-followup-to-sender = Šīs vēstules autors ir pieprasījis atbildi n
 send-unable-to-save-template = Ziņojumu neizdevās saglabāt kā sagatavi.
 send-unable-to-save-draft = Ziņojumu neizdevās saglabāt kā melnrakstu.
 send-error-failed = Ziņojuma nosūtīšana neizdevās.
+send-error-configured-folder-missing = Nosūtīto ziņojumu glabāšanai atlasītā mape netika atrasta. Izvēlieties citu mapi un mēģiniet vēlreiz.
 send-unable-to-send-later = Atvainojamies, mēs nevarējām saglabāt ziņojumu nosūtīšanai vēlāk.
 # Variables:
 # $hostname - outgoing server hostname

@@ -374,6 +374,12 @@ message-header-undelete =
 # list, when at least one filter or action failed.
 apply-filters-failed = Atsijātāja izpilde beidzās nesekmīgi. Vairāk ir atrodams atsijātāju žurnālā.
 apply-filters-failed-open-log-button = Atvērt atsijātāju žurnālu
+archive-message-error-title = Arhivēšanas ziņojuma kļūda
+archive-message-error = Atlasītos ziņojumus nevarēja arhivēt.
+archive-folder-missing = Šīs identitātes arhīva mapi nevarēja atrast. Atlasiet citu mapi un mēģiniet vēlreiz.
+save-template-error-title = Veidnes saglabāšanas kļūda
+save-template-error = Ziņojumu nevarēja saglabāt kā veidni.
+template-folder-missing = Atlasīto veidņu mapi nevarēja atrast. Izvēlieties citu mapi un mēģiniet vēlreiz.
 
 ## Spaces toolbar
 
