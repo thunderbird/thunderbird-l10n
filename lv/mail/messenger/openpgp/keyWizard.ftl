@@ -81,7 +81,7 @@ openpgp-key-confirm = Veidot { $identity } publisko un privāto atslēgu?
 ## Import Key section
 
 openpgp-import-key-title = Ievietot esošu OpenPGP atslēgu
-openpgp-import-key-legend = Izvēlieties iepriekš dublēto failu.
+openpgp-import-key-legend = Jāatlasa iepriekš dublēta datne.
 openpgp-import-key-description = Jūs varat importēt personīgās atslēgas, kas izveidotas, izmantojot citu OpenPGP programmatūru.
 openpgp-import-key-info = Cita programmatūra var aprakstīt personīgo atslēgu, izmantojot citus nosaukumus, piemēram, savu atslēgu, slepeno atslēgu, privāto atslēgu vai atslēgu pāri.
 openpgp-import-key-list-description = Apstipriniet, kuras atslēgas uzskatīt par jūsu personīgajām atslēgām. Par personīgajām atslēgām drīkst izmantot tikai tās atslēgas, kuras pats esat izveidojis un kas parāda jūsu identitāti. Šo opciju var mainīt vēlāk Atslēgas īpašības dialogā.
