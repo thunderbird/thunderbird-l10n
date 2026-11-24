@@ -10,6 +10,7 @@ send-alert-followup-to-sender = The author of this message has requested that re
 send-unable-to-save-template = Unable to save your message as a template.
 send-unable-to-save-draft = Unable to save your message as a draft.
 send-error-failed = Sending of the message failed.
+send-error-configured-folder-missing = The folder selected for sent messages could not be found. Choose a different folder and try again.
 send-unable-to-send-later = Sorry, we were unable to save your message for sending later.
 # Variables:
 # $hostname - outgoing server hostname
