@@ -80,14 +80,33 @@ about-addressbook-sort-button2 =
     .title = Saraksta attēlošanas iespējas
 about-addressbook-name-format-display =
     .label = Attēlojamais vārds
+about-addressbook-name-format-firstlast =
+    .label = Vārds, uzvārds
+about-addressbook-name-format-lastfirst =
+    .label = Uzvārds, Vārds
+about-addressbook-sort-name-ascending =
+    .label = Kārtot pēc nosaukuma (A > Z)
+about-addressbook-sort-name-descending =
+    .label = Kārtot pēc nosaukuma (Z > A)
 about-addressbook-sort-email-ascending =
     .label = Kārtot pēc e-pasta adreses (A > Z)
 about-addressbook-sort-email-descending =
     .label = Kārtot pēc e-pasta adreses (Z > A)
+about-addressbook-table-layout =
+    .label = Tabulas izkārtojums
 
 ## Card column headers
 ## Each string is listed here twice, and the values should match.
 
+about-addressbook-column-header-generatedname2 = Vārds
+    .title = Kārtot pēc nosaukuma
+about-addressbook-column-label-generatedname2 =
+    .label = Vārds
+# Variables:
+# $title (String) - Contact name for tooltip.
+about-addressbook-cell-generatedname2 =
+    .aria-label = Vārds
+    .title = { $title }
 about-addressbook-column-header-a11y-emailaddresses2 =
     .aria-label = E-pasta adreses
 about-addressbook-column-header-emailaddresses2 = E-pasta adreses
@@ -99,6 +118,65 @@ about-addressbook-column-label-emailaddresses2 =
 about-addressbook-cell-emailaddresses2 =
     .aria-label = E-pasta adreses
     .title = { $title }
+about-addressbook-column-header-a11y-nickname2 =
+    .aria-label = Segvārds
+about-addressbook-column-header-nickname2 = Segvārds
+    .title = Kārtot pēc segvārda
+about-addressbook-column-label-nickname2 =
+    .label = Segvārds
+# Variables:
+# $title (String) - Contact nickname for tooltip.
+about-addressbook-cell-nickname2 =
+    .aria-label = Segvārds
+    .title = { $title }
+about-addressbook-column-header-a11y-phonenumbers2 =
+    .aria-label = Tālruņa numuri
+about-addressbook-column-header-phonenumbers2 = Tālruņa numuri
+    .title = Kārtot pēc tālruņa numuriem
+about-addressbook-column-label-phonenumbers2 =
+    .label = Tālruņa numuri
+# Variables:
+# $title (String) - Contact phone numbers for tooltip.
+about-addressbook-cell-phonenumbers2 =
+    .aria-label = Tālruņa numuri
+    .title = { $title }
+about-addressbook-column-header-a11y-addresses2 =
+    .aria-label = Adreses
+about-addressbook-column-header-addresses2 = Adreses
+    .title = Kārtot pēc adresēm
+about-addressbook-column-label-addresses2 =
+    .label = Adreses
+# Variables:
+# $title (String) - Contact addresses for tooltip.
+about-addressbook-cell-addresses2 =
+    .aria-label = Adreses
+    .title = { $title }
+about-addressbook-column-header-a11y-title2 =
+    .aria-label = Tituls
+about-addressbook-column-header-title2 = Tituls
+    .title = Kārtot pēc titula
+about-addressbook-column-label-title2 =
+    .label = Tituls
+# Variables:
+# $title (String) - Contact job title for tooltip.
+about-addressbook-cell-title2 =
+    .aria-label = Tituls
+    .title = { $title }
+about-addressbook-column-header-a11y-department2 =
+    .aria-label = Nodaļa
+about-addressbook-column-header-department2 = Nodaļa
+    .title = Kārtot pēc nodaļas
+about-addressbook-column-label-department2 =
+    .label = Nodaļa
+# Variables:
+# $title (String) - Contact department for tooltip.
+about-addressbook-cell-department2 =
+    .aria-label = Nodaļa
+    .title = { $title }
+about-addressbook-column-header-a11y-organization2 =
+    .aria-label = Organizācija
+about-addressbook-column-header-organization2 = Organizācija
+    .title = Kārtot pēc organizācijas
 about-addressbook-cards-context-write =
     .label = Rakstīt
 # Variables:
@@ -173,9 +251,21 @@ about-addressbook-delete-edit-contact-button = Izdzēst
 about-addressbook-cancel-edit-contact-button = Atcelt
 about-addressbook-details-email-addresses-header = E-pasta adreses
 about-addressbook-entry-name-birthday = Dzimšanas diena
+about-addressbook-entry-name-custom2 = Pielāgots 2
+about-addressbook-entry-name-custom3 = Pielāgots 3
+about-addressbook-entry-name-custom4 = Pielāgots 4
+about-addressbook-unsaved-changes-prompt-title = Nesaglabātās izmaiņas
+about-addressbook-unsaved-changes-prompt = Vai vēlaties saglabāt izmaiņas pirms iziešanas no rediģēšanas skata?
 about-addressbook-photo-dialog-title =
     .aria-label = Pārvaldīt šīs kontaktpersonas fotoattēlu.
+about-addressbook-photo-drop-target = Ievietojiet vai ielīmējiet fotoattēlu šeit vai noklikšķiniet, lai atlasītu datni.
+about-addressbook-photo-drop-loading = Notiek fotoattēla ielāde…
+about-addressbook-photo-drop-error = Neizdevās ielādēt fotoattēlu.
+about-addressbook-photo-filepicker-title = Atlasiet attēla datni
+about-addressbook-photo-discard = Atmest esošo fotoattēlu
 about-addressbook-photo-cancel = Atcelt
+about-addressbook-photo-save = Saglabāt
+about-addressbook-new-contact-key = N
 
 ## Address Book Search Dialog
 
