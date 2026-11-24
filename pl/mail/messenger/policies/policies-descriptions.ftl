@@ -14,6 +14,7 @@ policy-3rdparty = Ustawienie zasad, do których rozszerzenia WebExtension mają 
 policy-AppAutoUpdate = Włączenie lub wyłączenie automatycznego aktualizowania aplikacji.
 policy-AppUpdatePin = Uniemożliwienie programowi { -brand-short-name } aktualizowania poza podaną wersję.
 policy-AppUpdateURL = Ustawienie niestandardowego adresu URL aktualizacji programu.
+policy-Authentication2 = Skonfiguruj uwierzytelnianie zintegrowane dla witryn, które je obsługują, oraz określ, które schematy uwierzytelniania HTTP mają zostać wyłączone.
 policy-Authentication = Konfiguracja zintegrowanego uwierzytelniania dla witryn, które je obsługują.
 policy-BackgroundAppUpdate2 = Włączenie lub wyłączenie aktualizatora w tle.
 policy-BlockAboutAddons = Blokowanie dostępu do menedżera dodatków (about:addons).

@@ -485,6 +485,10 @@ apply-filters-failed = Zastosowanie filtrów nie zakończyło się pomyślnie. S
 apply-filters-failed-open-log-button = Otwórz dziennik filtrów
 archive-message-error-title = Błąd archiwizacji wiadomości
 archive-message-error = Nie udało się zarchiwizować wybranych wiadomości.
+archive-folder-missing = Nie znaleziono folderu archiwum dla tej tożsamości. Wybierz inny folder i spróbuj ponownie.
+save-template-error-title = Błąd zapisywania szablonu
+save-template-error = Nie udało się zapisać wiadomości jako szablonu.
+template-folder-missing = Nie znaleziono wybranego folderu szablonów. Wybierz inny folder i spróbuj ponownie.
 
 ## Spaces toolbar
 

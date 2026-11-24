@@ -13,7 +13,7 @@
 policy-3rdparty = Iestatiet politikas, caur kurām chrome.storage.managed var piekļūt WebExtensions.
 policy-AppAutoUpdate = Ieslēdziet vai atslēdziet automātisku lietotnes atjaunošanu.
 policy-AppUpdateURL = Iestatiet pielāgotu lietotnes atjaunošanas URL.
-policy-Authentication2 = Konfigurējiet integrēto autentifikāciju tīmekļa vietnēm, kas to atbalsta, un kuras HTTP autentifikācijas shēmas ir atspējotas.
+policy-Authentication2 = Konfigurē iekļauto autentificēšanos tīmekļvietnēm, kas to atbalsta un kuras HTTP autentificēšanas shēmas ir atspējotas.
 policy-Authentication = Iestatiet integrētu autentifikāciju vietnēm, kas to atbalsta.
 policy-BackgroundAppUpdate2 = Iespējot vai atspējot fona atjauninātāju.
 policy-BlockAboutAddons = Liegt piekļuvi papildinājumu pārvaldniekam (about:addons).
