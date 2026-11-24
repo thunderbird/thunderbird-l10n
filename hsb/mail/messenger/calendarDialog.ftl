@@ -266,6 +266,15 @@ calendar-description-redo =
 calendar-event-add-guests = Hosći přidać
 calendar-event-add-guests-expand-icon =
     .alt = Hosći přidać
+# Variables:
+#   $count (Number): Number of invited guests, including the organizer.
+calendar-event-guests-invited =
+    { $count ->
+        [one] { $count } hósć přeprošeny
+        [two] { $count } hosćej přeprošenej
+        [few] { $count } hosće přeprošeni
+       *[other] { $count } hosćow přeprošenych
+    }
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".

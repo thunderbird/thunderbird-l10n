@@ -483,6 +483,8 @@ decrypt-and-copy-failures-multiple =
 # list, when at least one filter or action failed.
 apply-filters-failed = Zastosowanie filtrów nie zakończyło się pomyślnie. Sprawdź dziennik filtrów, aby uzyskać szczegółowe informacje.
 apply-filters-failed-open-log-button = Otwórz dziennik filtrów
+archive-message-error-title = Błąd archiwizacji wiadomości
+archive-message-error = Nie udało się zarchiwizować wybranych wiadomości.
 
 ## Spaces toolbar
 

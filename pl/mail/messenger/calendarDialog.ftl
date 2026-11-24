@@ -175,6 +175,9 @@ calendar-event-prompt-edit-title = Edycja wydarzenia
 
 calendar-event-categories = Kategorie
 calendar-event-add-category = Dodaj kategorię
+calendar-event-category-name =
+    .aria-label = Dodaj nową kategorię
+    .placeholder = Dodaj nową kategorię
 calendar-event-category-choices =
     .aria-label = Dostępne kategorie
 calendar-event-selected-categories =
@@ -205,6 +208,64 @@ calendar-event-video-url =
 calendar-event-video-url-clear =
     .aria-label = Wyczyść adres URL wideo
     .title = Wyczyść adres URL wideo
+
+## Description controls in the event create/edit dialog.
+
+calendar-event-add-description = Dodaj opis
+calendar-description-formatting =
+    .aria-label = Formatowanie tekstu
+calendar-description-bold =
+    .aria-label = Pogrubienie
+    .title = Pogrubienie
+calendar-description-italic =
+    .aria-label = Kursywa
+    .title = Kursywa
+calendar-description-bulleted-list =
+    .aria-label = Lista wypunktowana
+    .title = Lista wypunktowana
+calendar-description-numbered-list =
+    .aria-label = Lista numerowana
+    .title = Lista numerowana
+calendar-description-indent =
+    .aria-label = Zwiększ wcięcie
+    .title = Zwiększ wcięcie
+calendar-description-outdent =
+    .aria-label = Zmniejsz wcięcie
+    .title = Zmniejsz wcięcie
+calendar-description-link =
+    .aria-label = Odnośnik
+    .title = Odnośnik
+calendar-description-link-popup = Odnośnik
+calendar-description-link-address =
+    .aria-label = Adres odnośnika
+calendar-description-invalid-link = Wpisz prawidłowy adres odnośnika.
+calendar-description-apply-link = Zastosuj odnośnik
+calendar-description-remove-link = Usuń odnośnik
+calendar-description-cancel-link = Anuluj
+calendar-description-input =
+    .aria-label = Opis
+calendar-description-frame =
+    .title = Edytor opisów
+calendar-description-strikethrough =
+    .aria-label = Przekreślenie
+    .title = Przekreślenie
+calendar-description-undo =
+    .aria-label = Cofnij
+    .title = Cofnij
+calendar-description-redo =
+    .aria-label = Przywróć
+    .title = Przywróć
+calendar-event-add-guests = Dodaj gości
+calendar-event-add-guests-expand-icon =
+    .alt = Dodaj gości
+# Variables:
+#   $count (Number): Number of invited guests, including the organizer.
+calendar-event-guests-invited =
+    { $count ->
+        [one] { $count } zaproszony gość
+        [few] { $count } zaproszonych gości
+       *[many] { $count } zaproszonych gości
+    }
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".

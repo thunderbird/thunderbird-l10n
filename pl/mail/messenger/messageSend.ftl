@@ -10,6 +10,7 @@ send-alert-followup-to-sender = Zgodnie z życzeniem autora, odpowiedzi na tę 
 send-unable-to-save-template = Nie można zapisać wiadomości jako szablonu.
 send-unable-to-save-draft = Nie można zapisać wiadomości jako szkicu.
 send-error-failed = Wysyłanie wiadomości się nie powiodło.
+send-error-configured-folder-missing = Nie znaleziono folderu wybranego do zapisania wysłanych wiadomości. Wybierz inny folder i spróbuj ponownie.
 send-unable-to-send-later = Niestety nie udało się zachować wiadomości w celu późniejszego jej wysłania.
 # Variables:
 # $hostname - outgoing server hostname
