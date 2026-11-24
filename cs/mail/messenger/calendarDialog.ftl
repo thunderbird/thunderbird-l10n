@@ -174,6 +174,31 @@ calendar-event-availability-selector =
 calendar-event-availability-default = Výchozí
 calendar-event-availability-busy = Zaneprázdněn
 calendar-event-availability-free = Volno
+calendar-prompt-edit-confirm-button = Potvrdit
+calendar-event-prompt-edit-title = Upravit událost
+
+## Category controls in the event create/edit dialog.
+
+calendar-event-categories = Kategorie
+calendar-event-add-category = Přidat kategorii
+calendar-event-category-name =
+    .aria-label = Přidat novou kategorii
+    .placeholder = Přidat novou kategorii
+calendar-event-category-choices =
+    .aria-label = Dostupné kategorie
+calendar-event-selected-categories =
+    .aria-label = Vybrané kategorie
+calendar-event-remaining-categories =
+    .aria-label = Zbývající kategorie
+# Variables:
+#   $category (String): The name of the category to remove.
+calendar-event-remove-category =
+    .aria-label = Odebrat kategorii { $category }
+    .title = Odebrat kategorii { $category }
+
+## Video row in the event create/edit dialog.
+
+calendar-event-video-label = Video
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".
