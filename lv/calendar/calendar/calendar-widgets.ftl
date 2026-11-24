@@ -19,7 +19,7 @@ calendar-enable-button = Atļaut
 # Variables:
 #  $calendarName (String) - Calendar name as given by the user
 calendar-list-item-context-button =
-    .title = Kalendāra opcijas ($calendarName)
+    .title = Kalendāra ($calendarName) iespējas
 calendar-add-calendar = Pievienot kalendāru…
     .title = Izveidot vai abonēt kalendāru
 calendar-refresh-calendars =
