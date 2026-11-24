@@ -2,31 +2,69 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, you can obtain one at http://mozilla.org/MPL/2.0/.
 
+about-addressbook-title = Adrešu grāmata
+
+## Toolbar
+
+about-addressbook-toolbar-add-address-book =
+    .label = Pievienot lokālo adrešu grāmatu
+about-addressbook-toolbar-add-carddav-address-book =
+    .label = Pievienot CardDAV adrešu grāmatu
+about-addressbook-toolbar-add-ldap-address-book =
+    .label = Pievienot LDAP adrešu grāmatu
+books-pane-create-contact-button = Jauns kontakts
+    .title = Izveidot jaunu kontaktu
+books-pane-add-book-button =
+    .title = Pievienot adrešu grāmatu
+books-pane-create-list-button =
+    .title = Izveidot jaunu adresātu sarakstu
+books-pane-import-button = Ievietot
+    .title = Importēt adrešu grāmatas
 
 ## Books
 
 all-address-books-row =
     .title = Visas adrešu grāmatas
 all-address-books = Visas adrešu grāmatas
+# Variables:
+# $name (String) - The name of the selected book/list.
+# $count (Number) - The number of contacts in the selected book/list.
+about-addressbook-card-count = Kopējais kontaktu skaits grupā { $name }: { $count }
+# Variables:
+# $count (Number) - The number of contacts in all address books.
+about-addressbook-card-count-all = Kopējais kontaktu skaits visās adrešu grāmatās: { $count }
 about-addressbook-books-context-new-contact =
     .label = Jauna kontaktpersona
 about-addressbook-books-context-new-list =
     .label = Jauns saraksts
+about-addressbook-books-context-properties =
+    .label = Īpašības
 about-addressbook-books-context-edit-list =
     .label = Labot sarakstu
+about-addressbook-books-context-synchronize =
+    .label = Vienādot
 about-addressbook-books-context-edit =
     .label = Labot
+about-addressbook-books-context-print =
+    .label = Drukāt…
 about-addressbook-books-context-export =
     .label = Izgūt…
 about-addressbook-books-context-delete =
     .label = Izdzēst
+about-addressbook-books-context-remove =
+    .label = Noņemt
+about-addressbook-books-context-startup-default =
+    .label = Noklusējuma sākšanas mape
 about-addressbook-confirm-delete-book-title = Izdzēst adrešu grāmatu
 # Variables:
 # $name (String) - Name of the address book to be deleted.
 about-addressbook-confirm-delete-book = Vai tiešām izdzēst { $name } un visas tā kontaktpersonas?
+about-addressbook-confirm-remove-remote-book-title = Noņemt adrešu grāmatu
 # Variables:
 # $name (String) - Name of the remote address book to be removed.
 about-addressbook-confirm-remove-remote-book = Vai tiešām noņemt { $name }?
+address-book-list =
+    .aria-label = Adrešu grāmatu saraksts
 
 ## Cards
 
@@ -35,6 +73,13 @@ about-addressbook-confirm-remove-remote-book = Vai tiešām noņemt { $name }?
 about-addressbook-search2 =
     .label = Meklēt { $name }
     .placeholder = Meklēt { $name }…
+about-addressbook-search-all2 =
+    .label = Meklēt visās adrešu grāmatās
+    .placeholder = Meklēt visās adrešu grāmatās…
+about-addressbook-sort-button2 =
+    .title = Saraksta attēlošanas iespējas
+about-addressbook-name-format-display =
+    .label = Attēlojamais vārds
 about-addressbook-sort-email-ascending =
     .label = Kārtot pēc e-pasta adreses (A > Z)
 about-addressbook-sort-email-descending =

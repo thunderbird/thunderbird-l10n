@@ -221,11 +221,11 @@ calendar-event-more-categories = +{ $count } arall
 
 calendar-event-video-label = Fideo
 calendar-event-video-url =
-    .aria-label = URL fideo
-    .placeholder = Rhowch URL ar gyfer fideo
+    .aria-label = URL y fideo
+    .placeholder = Rhowch URL ar gyfer y fideo
 calendar-event-video-url-clear =
-    .aria-label = Clirio URL fideo
-    .title = Clirio URL fideo
+    .aria-label = Clirio URL y fideo
+    .title = Clirio URL y fideo
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".
