@@ -139,8 +139,42 @@
 <!ENTITY event.remove.attendees.label2 "Noņemt visus dalībniekus">
 <!ENTITY event.remove.attendees.accesskey "r">
 <!ENTITY event.remove.attendee.label "Noņemt dalībnieku">
+<!ENTITY event.remove.attendee.accesskey "e">
+<!-- Toolbar -->
+<!ENTITY event.toolbar.save.label2 "Saglabāt">
+<!ENTITY event.toolbar.saveandclose.label "Saglabāt un aizvērt">
 <!ENTITY event.toolbar.delete.label "Izdzēst">
+<!ENTITY event.toolbar.attendees.label "Uzaicināt dalībniekus">
+<!ENTITY event.toolbar.privacy.label "Konfidencialitāte">
+<!ENTITY event.toolbar.save.tooltip2 "Saglabāt">
+<!ENTITY event.toolbar.saveandclose.tooltip "Saglabāt un aizvērt">
 <!ENTITY event.toolbar.delete.tooltip "Izdzēst">
+<!ENTITY event.toolbar.attendees.tooltip "Uzaicināt dalībniekus">
+<!ENTITY event.toolbar.attachments.tooltip "Pievienot pielikumus">
+<!ENTITY event.toolbar.privacy.tooltip "Mainīt privātuma iestatījumus">
+<!ENTITY event.toolbar.priority.tooltip "Mainīt prioritāti">
+<!ENTITY event.toolbar.status.tooltip "Mainīt statusu">
+<!ENTITY event.toolbar.freebusy.tooltip "Mainīt pieejamības laiku">
+<!-- Counter box
+     LOCALIZATON NOTE(counter.button.*)
+   - This is only visible in the UI if you have received a counterproposal before and are going to
+   - reschedule the event from the imipbar in the email view. Clicking on the buttons will only
+   - populate the form fields in the dialog, there's no other immediate action on clicking like with
+   - the imip bar. Rescheduling will happen after clicking on save&close as usual. This screenshot
+   - illustrates how it might look like: https://bugzilla.mozilla.org/attachment.cgi?id=8810121 -->
+<!ENTITY counter.button.proposal.label "Piemērot priekšlikumu">
+<!ENTITY counter.button.proposal.accesskey "p">
+<!ENTITY counter.button.proposal.tooltip2 "Pasākuma lauki tiks aizpildīti ar pretpriekšlikuma vērtībām; visi apmeklētāji tiks attiecīgi informēti tikai pēc saglabāšanas neatkarīgi no tā, vai veiktas papildu izmaiņas">
+<!ENTITY counter.button.original.label "Izmantot sākotnējos datus">
+<!ENTITY counter.button.original.accesskey "r">
+<!ENTITY counter.button.original.tooltip2 "Laukos tiks atjaunotas sākotnējā notikuma vērtības, kādas tās bija pirms pretpriekšlikuma izteikšanas">
+<!-- Main page -->
+<!ENTITY event.title.textbox.label "Nosaukums:">
+<!ENTITY event.title.textbox.accesskey "I">
+<!ENTITY event.location.label "Vieta:">
+<!ENTITY event.location.accesskey "L">
+<!ENTITY event.categories.label "Kategorija:">
+<!ENTITY event.categories.accesskey "y">
 <!ENTITY event.calendar.label "Kalendārs:">
 <!ENTITY event.repeat.label "Atkārtot:">
 <!ENTITY event.repeat.accesskey "R">
