@@ -188,6 +188,16 @@ calendar-event-more-categories = +{ $count } í viðbót
            *[other] +{ $count } flokkar í viðbót
         }
 
+## Video row in the event create/edit dialog.
+
+calendar-event-video-label = Myndskeið
+calendar-event-video-url =
+    .aria-label = Vefslóð myndskeiðs
+    .placeholder = Settu inn vefslóð fyrir myndskeiðið
+calendar-event-video-url-clear =
+    .aria-label = Hreinsa vefslóð myndskeiðs
+    .title = Hreinsa vefslóð myndskeiðs
+
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".
 
