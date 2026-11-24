@@ -175,7 +175,21 @@
 <!ENTITY event.location.accesskey "L">
 <!ENTITY event.categories.label "Kategorija:">
 <!ENTITY event.categories.accesskey "y">
+<!ENTITY event.categories.textbox.label "Pievienot jaunu kategoriju">
 <!ENTITY event.calendar.label "Kalendārs:">
+<!ENTITY event.calendar.accesskey "C">
+<!ENTITY event.attendees.label "Dalībnieki:">
+<!ENTITY event.attendees.accesskey "n">
+<!ENTITY event.from.label "Sākt:">
+<!ENTITY event.from.accesskey "S">
+<!ENTITY task.from.label "Sākt:">
+<!ENTITY task.from.accesskey "S">
+<!ENTITY event.to.label "Beigt:">
+<!ENTITY event.to.accesskey "u">
+<!ENTITY task.to.label "Izpildes datums:">
+<!ENTITY task.to.accesskey "u">
+<!ENTITY task.status.label "Stāvoklis:">
+<!ENTITY task.status.accesskey "a">
 <!ENTITY event.repeat.label "Atkārtot:">
 <!ENTITY event.repeat.accesskey "R">
 <!ENTITY event.until.label "Līdz:">
@@ -231,6 +245,7 @@
 <!ENTITY event.recurrence.week.label "iknedēļas">
 <!ENTITY event.recurrence.month.label "ikmēneša">
 <!ENTITY event.recurrence.year.label "katru gadu">
+<!ENTITY event.recurrence.pattern.every.label "Katru">
 <!ENTITY repeat.units.days.both "Diena(-as)">
 <!ENTITY event.recurrence.pattern.every.weekday.label "Katru darba dienu">
 <!ENTITY event.recurrence.pattern.weekly.every.label "Katru">

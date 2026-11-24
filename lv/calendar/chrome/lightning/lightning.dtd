@@ -11,6 +11,7 @@
 <!ENTITY lightning.menu.view.calendar.label "Kalendārs">
 <!-- Events and Tasks menu -->
 <!ENTITY lightning.menu.eventtask.label "Notikumi un uzdevumi">
+<!ENTITY lightning.calendarproperties.forceEmailScheduling.label "Dodiet priekšroku klienta puses epasta plānošanai">
 <!-- LOCALIZATON NOTE(lightning.calendarproperties.forceEmailScheduling.tooltiptext2)
      This is used in the calendar properties dialog for caldav calendars. -->
 <!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext2 "Šī opcija ir pieejama tikai tad, ja kalendāra serveris apstrādā plānošanu. Iespējojot to, varēsiet atgriezties pie standarta epasta plānošanas, nevis atstāt to servera ziņā.">
