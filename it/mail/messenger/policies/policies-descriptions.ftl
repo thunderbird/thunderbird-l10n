@@ -14,6 +14,7 @@ policy-3rdparty = Imposta criteri a cui le estensioni basate su tecnologia WebEx
 policy-AppAutoUpdate = Attiva o disattiva aggiornamenti automatici dell’applicazione.
 policy-AppUpdatePin = Impedisce l’aggiornamento di { -brand-short-name } a una versione superiore a quella indicata.
 policy-AppUpdateURL = Imposta URL personalizzato per aggiornamento applicazione.
+policy-Authentication2 = Configura l’autenticazione integrata per i siti web che la supportano e quali schemi di autenticazione HTTP sono disattivati.
 policy-Authentication = Configura autenticazione integrata per i siti in cui è supportata.
 policy-BackgroundAppUpdate2 = Attiva o disattiva il sistema di aggiornamento in background.
 policy-BlockAboutAddons = Blocca accesso al gestore componenti aggiuntivi (about:addons).

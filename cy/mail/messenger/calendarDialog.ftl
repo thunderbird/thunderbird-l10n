@@ -193,6 +193,9 @@ calendar-event-prompt-edit-title = Golygu digwyddiad
 
 calendar-event-categories = Categorïau
 calendar-event-add-category = Ychwanegu categori
+calendar-event-category-name =
+    .aria-label = Ychwanegu categori newydd
+    .placeholder = Ychwanegu categori newydd
 calendar-event-category-choices =
     .aria-label = Categorïau sydd ar gael
 calendar-event-selected-categories =
@@ -226,6 +229,67 @@ calendar-event-video-url =
 calendar-event-video-url-clear =
     .aria-label = Clirio URL y fideo
     .title = Clirio URL y fideo
+
+## Description controls in the event create/edit dialog.
+
+calendar-event-add-description = Ychwanegu disgrifiad
+calendar-description-formatting =
+    .aria-label = Fformatio testun
+calendar-description-bold =
+    .aria-label = Trwm
+    .title = Trwm
+calendar-description-italic =
+    .aria-label = Italig
+    .title = Italig
+calendar-description-bulleted-list =
+    .aria-label = Rhestr fwledi
+    .title = Rhestr fwledi
+calendar-description-numbered-list =
+    .aria-label = Rhestr wedi'i rhifo
+    .title = Rhestr wedi'i rhifo
+calendar-description-indent =
+    .aria-label = Mewnoliad
+    .title = Mewnoliad
+calendar-description-outdent =
+    .aria-label = Alloliad
+    .title = Alloliad
+calendar-description-link =
+    .aria-label = Dolen
+    .title = Dolen
+calendar-description-link-popup = Dolen
+calendar-description-link-address =
+    .aria-label = Cyfeiriad cyswllt
+calendar-description-invalid-link = Rhowch gyfeiriad cyswllt dilys.
+calendar-description-apply-link = Gwneud cais dolen
+calendar-description-remove-link = Dileu cyswllt
+calendar-description-cancel-link = Diddymu
+calendar-description-input =
+    .aria-label = Disgrifiad
+calendar-description-frame =
+    .title = Golygydd disgrifiad
+calendar-description-strikethrough =
+    .aria-label = Taro drwodd
+    .title = Taro drwodd
+calendar-description-undo =
+    .aria-label = Dadwneud
+    .title = Dadwneud
+calendar-description-redo =
+    .aria-label = Ailwneud
+    .title = Ailwneud
+calendar-event-add-guests = Ychwanegu gwesteion
+calendar-event-add-guests-expand-icon =
+    .alt = Ychwanegu gwesteion
+# Variables:
+#   $count (Number): Number of invited guests, including the organizer.
+calendar-event-guests-invited =
+    { $count ->
+        [one] { $count } gwestai wedi'i wahodd
+        [zero] { $count } o westeion wedi'u gwahodd
+        [two] { $count } o westeion wedi'u gwahodd
+        [few] { $count } o westeion wedi'u gwahodd
+        [many] { $count } o westeion wedi'u gwahodd
+       *[other] { $count } o westeion wedi'u gwahodd
+    }
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".

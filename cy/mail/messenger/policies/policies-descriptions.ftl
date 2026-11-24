@@ -14,6 +14,7 @@ policy-3rdparty = Gosod polisïau y gall WebExtensions gael mynediad atyn nhw tr
 policy-AppAutoUpdate = Galluogi neu analluogi diweddariad rhaglen awtomatig.
 policy-AppUpdatePin = Rhwystro { -brand-short-name } rhag cael ei ddiweddaru y tu hwnt i fersiwn penodedig.
 policy-AppUpdateURL = Gosod URL diweddaru ap cyfaddas.
+policy-Authentication2 = Ffurfweddu dilysiad integredig ar gyfer gwefannau sy'n ei gefnogi, a pha gynlluniau dilysu HTTP sy'n anabl.
 policy-Authentication = Ffurfweddu dilysu integredig ar gyfer gwefannau sy'n ei gefnogi.
 policy-BackgroundAppUpdate2 = Galluogi neu analluogi'r diweddarydd cefndir.
 policy-BlockAboutAddons = Rhwystro mynediad at y Rheolwr Ychwanegion (about:addons).

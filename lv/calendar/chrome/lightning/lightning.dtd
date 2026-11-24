@@ -11,13 +11,36 @@
 <!ENTITY lightning.menu.view.calendar.label "Kalendārs">
 <!-- Events and Tasks menu -->
 <!ENTITY lightning.menu.eventtask.label "Notikumi un uzdevumi">
+<!-- LOCALIZATON NOTE(lightning.calendarproperties.forceEmailScheduling.tooltiptext2)
+     This is used in the calendar properties dialog for caldav calendars. -->
+<!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext2 "Šī opcija ir pieejama tikai tad, ja kalendāra serveris apstrādā plānošanu. Iespējojot to, varēsiet atgriezties pie standarta epasta plānošanas, nevis atstāt to servera ziņā.">
+<!-- The notifications settings in the properties dialog -->
+<!ENTITY lightning.calendarproperties.notifications.label "Paziņojumi">
 <!ENTITY lightning.calendarproperties.globalNotifications.label "Visaptverošie paziņojumu iestatījumi…">
+<!-- iMIP Bar (meeting support) -->
+<!ENTITY lightning.imipbar.btnAccept.label "Pieņemt">
+<!ENTITY lightning.imipbar.btnAccept2.tooltiptext "Pieņemt pasākuma ielūgumu">
+<!ENTITY lightning.imipbar.btnAcceptRecurrences.label "Pieņemt visus">
+<!ENTITY lightning.imipbar.btnAcceptRecurrences2.tooltiptext "Pieņemt pasākuma ielūgumu visiem pasākuma gadījumiem">
 <!ENTITY lightning.imipbar.btnAdd.label "Pievienot">
+<!ENTITY lightning.imipbar.btnAdd.tooltiptext "Pievienot notikumu kalendāram">
+<!ENTITY lightning.imipbar.btnDecline.label "Noraidīt">
+<!ENTITY lightning.imipbar.btnDecline2.tooltiptext "Noraidīt pasākuma ielūgumu">
+<!ENTITY lightning.imipbar.btnDeclineRecurrences.label "Noraidīt visus">
+<!ENTITY lightning.imipbar.btnDeclineRecurrences2.tooltiptext "Noraidīt pasākuma ielūgumu visiem pasākuma gadījumiem">
+<!ENTITY lightning.imipbar.btnDeclineCounter.label "Noraidīt">
+<!ENTITY lightning.imipbar.btnDeclineCounter.tooltiptext "Noraidīt pretpriekšlikumu">
 <!ENTITY lightning.imipbar.btnDelete.label "Izdzēst">
 <!ENTITY lightning.imipbar.btnDelete.tooltiptext "Izdzēst no kalendāra">
+<!ENTITY lightning.imipbar.btnDetails.label "Sīkāka informācija...">
+<!ENTITY lightning.imipbar.btnDetails.tooltiptext "Rādīt pasākuma informāciju">
 <!ENTITY lightning.imipbar.btnDoNotShowImipBar.label "Nerādīt man šos ziņojumus">
 <!ENTITY lightning.imipbar.btnGoToCalendar.label "Kalendārs">
+<!ENTITY lightning.imipbar.btnGoToCalendar.tooltiptext "Dodieties uz kalendāra cilni">
+<!ENTITY lightning.imipbar.btnMore.label "Vairāk">
 <!ENTITY lightning.imipbar.btnMore.tooltiptext "Klikšķināt, lai parādītu vairāk iespēju">
+<!ENTITY lightning.imipbar.btnReconfirm2.label "Atkārtoti apstiprināt">
+<!ENTITY lightning.imipbar.btnReconfirm.tooltiptext "Nosūta atkārtotu apstiprinājumu organizatoram">
 <!ENTITY lightning.imipbar.btnSaveCopy.tooltiptext "Saglabāt notikuma kopiju kalendārā neatkarīgi no atbildēšanas rīkotājam. Dalībnieku saraksts tiks notīrīts.">
 <!ENTITY todaypane.showMiniday.label "Rādīt mini dienu">
 <!ENTITY todaypane.showTodayPane.label "Rādīt šodienas rūti">

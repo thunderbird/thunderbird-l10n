@@ -168,6 +168,9 @@ calendar-event-prompt-edit-title = Modifier l’évènement
 
 calendar-event-categories = Catégories
 calendar-event-add-category = Ajouter une catégorie
+calendar-event-category-name =
+    .aria-label = Ajouter une nouvelle catégorie
+    .placeholder = Ajouter une nouvelle catégorie
 calendar-event-category-choices =
     .aria-label = Catégories disponibles
 calendar-event-selected-categories =
@@ -197,6 +200,63 @@ calendar-event-video-url =
 calendar-event-video-url-clear =
     .aria-label = Effacer l’URL de la vidéo
     .title = Effacer l’URL de la vidéo
+
+## Description controls in the event create/edit dialog.
+
+calendar-event-add-description = Ajouter une description
+calendar-description-formatting =
+    .aria-label = Formatage du texte
+calendar-description-bold =
+    .aria-label = Gras
+    .title = Gras
+calendar-description-italic =
+    .aria-label = Italique
+    .title = Italique
+calendar-description-bulleted-list =
+    .aria-label = Liste à puces
+    .title = Liste à puces
+calendar-description-numbered-list =
+    .aria-label = Liste numérotée
+    .title = Liste numérotée
+calendar-description-indent =
+    .aria-label = Augmenter le retrait
+    .title = Augmenter le retrait
+calendar-description-outdent =
+    .aria-label = Diminuer le retrait
+    .title = Diminuer le retrait
+calendar-description-link =
+    .aria-label = Lien
+    .title = Lien
+calendar-description-link-popup = Lien
+calendar-description-link-address =
+    .aria-label = Adresse du lien
+calendar-description-invalid-link = Saisissez une adresse de lien valide.
+calendar-description-apply-link = Appliquer le lien
+calendar-description-remove-link = Supprimer le lien
+calendar-description-cancel-link = Annuler
+calendar-description-input =
+    .aria-label = Description
+calendar-description-frame =
+    .title = Éditeur de descriptions
+calendar-description-strikethrough =
+    .aria-label = Barré
+    .title = Barré
+calendar-description-undo =
+    .aria-label = Annuler
+    .title = Annuler
+calendar-description-redo =
+    .aria-label = Rétablir
+    .title = Rétablir
+calendar-event-add-guests = Ajouter des invités
+calendar-event-add-guests-expand-icon =
+    .alt = Ajouter des invités
+# Variables:
+#   $count (Number): Number of invited guests, including the organizer.
+calendar-event-guests-invited =
+    { $count ->
+        [one] { $count } invité
+       *[other] { $count } invités
+    }
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".

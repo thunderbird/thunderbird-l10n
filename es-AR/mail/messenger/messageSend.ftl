@@ -10,6 +10,7 @@ send-alert-followup-to-sender = El autor de este mensaje pidió que las respuest
 send-unable-to-save-template = No es posible guardar su mensaje como plantilla.
 send-unable-to-save-draft = No es posible guardar su mensaje como un borrador.
 send-error-failed = Falló el envío del mensaje.
+send-error-configured-folder-missing = No se pudo encontrar la carpeta seleccionada para los mensajes enviados. Elija una carpeta diferente e intente nuevamente.
 send-unable-to-send-later = No es posible guardar su mensaje para poder enviarlo más tarde.
 # Variables:
 # $hostname - outgoing server hostname

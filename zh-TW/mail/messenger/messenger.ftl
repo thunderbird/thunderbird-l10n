@@ -461,6 +461,12 @@ decrypt-and-copy-failures-multiple =
 # list, when at least one filter or action failed.
 apply-filters-failed = 篩選作業未成功完成。若需詳細資訊，請查看篩選紀錄。
 apply-filters-failed-open-log-button = 開啟篩選紀錄
+archive-message-error-title = 封存訊息錯誤
+archive-message-error = 無法備存選擇的郵件。
+archive-folder-missing = 找不到此身份的壓縮檔資料夾。請選擇另一個資料夾後再試一次。
+save-template-error-title = 儲存範本錯誤
+save-template-error = 無法將訊息儲存為範本。
+template-folder-missing = 找不到所選的範本資料夾。請選擇另一個資料夾後再試一次。
 
 ## Spaces toolbar
 

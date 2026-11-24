@@ -476,6 +476,12 @@ decrypt-and-copy-failures-multiple =
 # list, when at least one filter or action failed.
 apply-filters-failed = L’exécution des filtres ne s’est pas terminée correctement. Consultez le journal des filtres pour en savoir plus.
 apply-filters-failed-open-log-button = Ouvrir le journal des filtres
+archive-message-error-title = Erreur d’archivage de message
+archive-message-error = Les messages sélectionnés n’ont pas pu être archivés.
+archive-folder-missing = Le dossier d’archives de cette identité est introuvable. Sélectionnez un autre dossier et essayez à nouveau.
+save-template-error-title = Erreur d’enregistrement du modèle
+save-template-error = Le message n’a pas pu être enregistré comme modèle.
+template-folder-missing = Le dossier de modèles sélectionnés est introuvable. Choisissez un autre dossier et essayez à nouveau.
 
 ## Spaces toolbar
 

@@ -165,6 +165,9 @@ calendar-event-prompt-edit-title = Editar evento
 
 calendar-event-categories = Categorías
 calendar-event-add-category = Agregar categoría
+calendar-event-category-name =
+    .aria-label = Agregar una nueva categoría
+    .placeholder = Agregar una nueva categoría
 calendar-event-category-choices =
     .aria-label = Categorías disponibles
 calendar-event-selected-categories =
@@ -194,6 +197,63 @@ calendar-event-video-url =
 calendar-event-video-url-clear =
     .aria-label = Borrar URL del video
     .title = Borrar URL del video
+
+## Description controls in the event create/edit dialog.
+
+calendar-event-add-description = Agregar descripción
+calendar-description-formatting =
+    .aria-label = Formato de texto
+calendar-description-bold =
+    .aria-label = Negrita
+    .title = Negrita
+calendar-description-italic =
+    .aria-label = Itálica
+    .title = Itálica
+calendar-description-bulleted-list =
+    .aria-label = Lista con viñetas
+    .title = Lista con viñetas
+calendar-description-numbered-list =
+    .aria-label = Lista numerada
+    .title = Lista numerada
+calendar-description-indent =
+    .aria-label = Poner viñeta
+    .title = Poner viñeta
+calendar-description-outdent =
+    .aria-label = Sacar viñeta
+    .title = Sacar viñeta
+calendar-description-link =
+    .aria-label = Enlace
+    .title = Enlace
+calendar-description-link-popup = Enlace
+calendar-description-link-address =
+    .aria-label = Dirección del enlace
+calendar-description-invalid-link = Ingrese una dirección de enlace válida.
+calendar-description-apply-link = Aplicar enlace
+calendar-description-remove-link = Eliminar enlace
+calendar-description-cancel-link = Cancelar
+calendar-description-input =
+    .aria-label = Descripción
+calendar-description-frame =
+    .title = Editor de descripciones
+calendar-description-strikethrough =
+    .aria-label = Tachado
+    .title = Tachado
+calendar-description-undo =
+    .aria-label = Deshacer
+    .title = Deshacer
+calendar-description-redo =
+    .aria-label = Rehacer
+    .title = Rehacer
+calendar-event-add-guests = Agregar invitados
+calendar-event-add-guests-expand-icon =
+    .alt = Agregar invitados
+# Variables:
+#   $count (Number): Number of invited guests, including the organizer.
+calendar-event-guests-invited =
+    { $count ->
+        [one] { $count } invitado invitado
+       *[other] { $count } invitados invitados
+    }
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".

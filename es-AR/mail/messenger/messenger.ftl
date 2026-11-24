@@ -477,6 +477,12 @@ decrypt-and-copy-failures-multiple =
 # list, when at least one filter or action failed.
 apply-filters-failed = La ejecución del filtro no se completó exitosamente. Verifique el registro de filtro para más detalles.
 apply-filters-failed-open-log-button = Abrir registro de filtro
+archive-message-error-title = Error al archivar mensaje
+archive-message-error = Los mensajes seleccionados no pudieron ser archivados.
+archive-folder-missing = No se pudo encontrar la carpeta de archivos para esta identidad. Seleccione una carpeta diferente e intente nuevamente.
+save-template-error-title = Error al guardar la plantilla
+save-template-error = El mensaje no pudo guardarse como plantilla.
+template-folder-missing = No se pudo encontrar la carpeta de plantillas seleccionada. Elija una carpeta diferente e intente nuevamente.
 
 ## Spaces toolbar
 

@@ -161,6 +161,9 @@ calendar-event-prompt-edit-title = 編輯事件
 
 calendar-event-categories = 分類
 calendar-event-add-category = 新增分類
+calendar-event-category-name =
+    .aria-label = 新增分類
+    .placeholder = 新增分類
 calendar-event-category-choices =
     .aria-label = 可用分類
 calendar-event-selected-categories =
@@ -189,6 +192,62 @@ calendar-event-video-url =
 calendar-event-video-url-clear =
     .aria-label = 清除影片網址
     .title = 清除影片網址
+
+## Description controls in the event create/edit dialog.
+
+calendar-event-add-description = 新增描述
+calendar-description-formatting =
+    .aria-label = 文字格式
+calendar-description-bold =
+    .aria-label = 粗體字
+    .title = 粗體字
+calendar-description-italic =
+    .aria-label = 斜體字
+    .title = 斜體字
+calendar-description-bulleted-list =
+    .aria-label = 清單
+    .title = 清單
+calendar-description-numbered-list =
+    .aria-label = 數字清單
+    .title = 數字清單
+calendar-description-indent =
+    .aria-label = 縮排
+    .title = 縮排
+calendar-description-outdent =
+    .aria-label = 凸排
+    .title = 凸排
+calendar-description-link =
+    .aria-label = 鏈結
+    .title = 鏈結
+calendar-description-link-popup = 鏈結
+calendar-description-link-address =
+    .aria-label = 鏈結地址
+calendar-description-invalid-link = 請輸入有效的鏈結地址。
+calendar-description-apply-link = 套用鏈結
+calendar-description-remove-link = 移除鏈結
+calendar-description-cancel-link = 取消
+calendar-description-input =
+    .aria-label = 描述
+calendar-description-frame =
+    .title = 描述編輯器
+calendar-description-strikethrough =
+    .aria-label = 刪除線
+    .title = 刪除線
+calendar-description-undo =
+    .aria-label = 復原
+    .title = 復原
+calendar-description-redo =
+    .aria-label = 取消「復原」
+    .title = 取消「復原」
+calendar-event-add-guests = 新增訪客
+calendar-event-add-guests-expand-icon =
+    .alt = 新增訪客
+# Variables:
+#   $count (Number): Number of invited guests, including the organizer.
+calendar-event-guests-invited =
+    { $count ->
+       *[other] 已邀請 { $count } 位訪客
+    }
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".
