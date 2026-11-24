@@ -48,9 +48,83 @@ openpgp-key-assistant-invalid-title =
        *[other] Šīs atslēgas nevar izmantot, ja vien neiegūstat atjauninājumu.
     }
 openpgp-key-assistant-no-key-available = Atslēga nav pieejama.
+openpgp-key-assistant-multiple-keys = Ir pieejamas vairākas atslēgas.
+# Variables:
+# $count (Number) - The number of unaccepted keys.
+openpgp-key-assistant-key-unaccepted =
+    { $count ->
+        [one] Atslēga ir pieejama, bet tā vēl nav pieņemta.
+        [zero] Ir pieejamas vairākas atslēgas, taču neviena no tām vēl nav pieņemta.
+       *[other] Ir pieejamas vairākas atslēgas, taču neviena no tām vēl nav pieņemta.
+    }
+# Variables:
+# $date (String) - The expiration date of the key.
+openpgp-key-assistant-key-accepted-expired = Akceptētas atslēgas derīguma termiņš beidzās { $date }.
+openpgp-key-assistant-keys-accepted-expired = Vairākām pieņemtajām atslēgām ir beidzies derīguma termiņš.
+# Variables:
+# $date (String) - The expiration date of the key.
+openpgp-key-assistant-this-key-accepted-expired = Šī atslēga iepriekš tika pieņemta, bet tās derīguma termiņš beidzās { $date }.
+# Variables:
+# $date (String) - The expiration date of the key.
+openpgp-key-assistant-key-unaccepted-expired-one = Atslēgas derīguma termiņš beidzās { $date }.
+openpgp-key-assistant-key-unaccepted-expired-many = Vairākām atslēgām ir beidzies derīguma termiņš.
+openpgp-key-assistant-key-fingerprint = Atslēgas kontrolsumma
+# Variables:
+# $count (Number) - Number of key sources.
+openpgp-key-assistant-key-source =
+    { $count ->
+        [one] Avots
+        [zero] Pirmkodi
+       *[other] Pirmkodi
+    }
+openpgp-key-assistant-key-collected-attachment = epasta pielikums
+# Autocrypt is the name of a standard.
+openpgp-key-assistant-key-collected-autocrypt = Autokriptēšanas galvene
+openpgp-key-assistant-key-collected-keyserver = Atslēgu serveris
+# Web Key Directory (WKD) is a concept.
+openpgp-key-assistant-key-collected-wkd = Tīmekļa atslēgu mape
+# Do not translate GnuPG, it's a name of other software.
+openpgp-key-assistant-key-collected-gnupg = GnuPG atslēgu krātuve
+# Variables:
+# $count (Number) - Number of found keys.
+openpgp-key-assistant-keys-has-collected =
+    { $count ->
+        [one] Atslēga tika atrasta, bet tā vēl nav pieņemta.
+        [zero] Tika atrastas vairākas atslēgas, bet neviena no tām vēl nav pieņemta.
+       *[other] Tika atrastas vairākas atslēgas, bet neviena no tām vēl nav pieņemta.
+    }
 openpgp-key-assistant-key-rejected = Šī atslēga iepriekš ir tikusi noraidīta.
+openpgp-key-assistant-key-accepted-other = Šī atslēga iepriekš ir pieņemta citai epasta adresei.
+# Variables:
+# $recipient (String) - The email address of the recipient needing resolution.
+openpgp-key-assistant-resolve-discover-info = Atklājiet papildu vai atjauninātas atslēgas saņēmējam { $recipient } tiešsaistē vai importējiet tās no datnes.
+
+## Discovery section
+
+openpgp-key-assistant-discover-title = Notiek tiešsaistes atklāšana.
+# Variables:
+# $recipient (String) - The email address which we're discovering keys.
+openpgp-key-assistant-discover-keys = Notiek atslēgu meklēšana saņēmējam { $recipient }…
+# Variables:
+# $recipient (String) - The email address which we're discovering keys.
+openpgp-key-assistant-expired-key-update =
+    Ir atrasts atjauninājums vienai no iepriekš apstiprinātajām adreses { $recipient } atslēgām.
+    Tagad šo atslēgu var izmantot, jo tās  termiņš derīgums ir pagarināts.
 
 ## Dialog buttons
 
+openpgp-key-assistant-discover-online-button = Atklājiet publiskās atslēgas tiešsaistē…
+openpgp-key-assistant-import-keys-button = Ievietot publiskās atslēgas no datnes…
+openpgp-key-assistant-issue-resolve-button = Novērst…
+openpgp-key-assistant-view-key-button = Skatīt atslēgu…
+openpgp-key-assistant-recipients-show-button = Rādīt
+openpgp-key-assistant-recipients-hide-button = Slēpt
 openpgp-key-assistant-cancel-button = Atcelt
 openpgp-key-assistant-back-button = Atpakaļ
+openpgp-key-assistant-accept-button = Pieņemt
+openpgp-key-assistant-close-button = Aizvērt
+openpgp-key-assistant-disable-button = Atspējot šifrēšanu
+openpgp-key-assistant-confirm-button = Sūtīt šifrētu
+# Variables:
+# $date (String) - The key creation date.
+openpgp-key-assistant-key-created = izveidots { $date }
