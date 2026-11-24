@@ -7,11 +7,11 @@ account-settings = Konta iestatījumi
 #   $accounts (Number) - the number of configured accounts
 setup-title =
     { $accounts ->
-        [0] Izvēlieties, ko uzstādīt
-       *[other] Izveidot citu kontu
+        [0] Izvēlies, ko uzstādīt
+       *[other] Iestatīt citu kontu
     }
 about-title = Par { -brand-full-name }
-resources-title = Resursi
+resources-title = Avoti
 release-notes =
     .title = Par { -brand-full-name }
 email-label = E-pasta adrese
