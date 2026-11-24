@@ -3,9 +3,50 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
+## Header lists
+
+message-header-to-list-name = Kam
+message-header-from-list-name = No
+message-header-sender-list-name = Sūtītājs
+message-header-reply-to-list-name = Atbildēt uz
+message-header-cc-list-name = Kopija
+message-header-bcc-list-name = Slēpta kopija
+message-header-newsgroups-list-name = Ziņu grupas
+message-header-followup-to-list-name = Sekot
+message-header-tags-list-name = Birkas
+# List management header - RFC 2369.
+message-header-list-id = Saraksta ID
+# List management header - RFC 2369.
+message-header-list-help = Saraksta palīdzība
+# List management header - RFC 2369.
+message-header-list-unsubscribe = Atteikties no abonēšanas saraksta
+# List management header - RFC 2369.
+message-header-list-subscribe = Abonēšanas saraksts
+# List management header - RFC 2369.
+message-header-list-post = Publikāciju saraksts
+# List management header - RFC 2369.
+message-header-list-owner = Īpašnieku saraksts
+# List management header - RFC 2369.
+message-header-list-archive = Arhīvu saraksts
+# Direct link to the archived form of an individual email message - RFC 5064.
+message-header-archived-at = Arhivēts plkst.
+
 ## Other message headers.
 ## The field-separator is for screen readers to separate the field name from the field value.
 
+message-header-author-field = Autors<span data-l10n-name="field-separator">:</span>
+message-header-organization-field = Organizācija<span data-l10n-name="field-separator">:</span>
+message-header-subject-field = Tēma<span data-l10n-name="field-separator">:</span>
+message-header-date-field = Datums<span data-l10n-name="field-separator">:</span>
+message-header-user-agent-field = Lietotāja aģents <span data-l10n-name="field-separator">:</span>
+message-header-references-field = Atsauces<span data-l10n-name="field-separator">:</span>
+message-header-message-id-field = Ziņojuma ID: <span data-l10n-name="field-separator">:</span>
+message-header-in-reply-to-field = Atbildot uz :<span data-l10n-name="field-separator">:</span>
+message-header-website-field = Tīmekļa vietne<span data-l10n-name="field-separator">:</span>
+message-header-list-id-field = Saraksta ID:<span data-l10n-name="field-separator">:</span>
+message-header-list-help-field = Palīdzības saraksts <span data-l10n-name="field-separator">:</span>
+message-header-list-unsubscribe-field = Atteikšanās no abonēšanas saraksts:<span data-l10n-name="field-separator">:</span>
+message-header-list-subscribe-field = Abonēt sarakstu<span data-l10n-name="field-separator">:</span>
 # Describes (i.e. http or mailto URL) how to post to the mailing list.
 list-id-list-post =
     .label = Rakstīt
