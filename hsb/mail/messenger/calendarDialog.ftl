@@ -244,10 +244,16 @@ calendar-description-link =
     .aria-label = Wotkaz
     .title = Wotkaz
 calendar-description-link-popup = Wotkaz
+calendar-description-link-address =
+    .aria-label = Wotkazowa adresa
+calendar-description-invalid-link = Zapodajće płaćiwu wotkazowu adresu.
+calendar-description-apply-link = Wotkaz nałožić
 calendar-description-remove-link = Wotkazy wotstronić
 calendar-description-cancel-link = Přetorhnyć
 calendar-description-input =
     .aria-label = Wopisanje
+calendar-description-frame =
+    .title = Wopisowanski editor
 calendar-description-strikethrough =
     .aria-label = Přešmórnjeny
     .title = Přešmórnjeny
@@ -257,6 +263,9 @@ calendar-description-undo =
 calendar-description-redo =
     .aria-label = Wospjetować
     .title = Wospjetować
+calendar-event-add-guests = Hosći přidać
+calendar-event-add-guests-expand-icon =
+    .alt = Hosći přidać
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".
