@@ -4,7 +4,7 @@
 
 account-prefs-show-address-row-description = Gadael y maes cyfeiriad yn wag bob tro i ddangos y rhes cyfeiriad wrth gychwyn neges newydd.
 account-prefs-sent-message-copies-description = Dewis ble i gadw copïau o negeseuon a anfonwyd, a gosod rheolau Cc/Bcc awtomatig
-account-prefs-sent-message-copies-graph-info = Nodyn: Mae Microsoft Graph yn arbed negeseuon a anfonwyd yn awtomatig i ffolder Eitemau Anfonwyd dynodedig y gweinydd.
+account-prefs-sent-message-copies-graph-info = Nodyn: Mae Microsoft Graph yn cadw negeseuon anfonwyd yn awtomatig i ffolder Eitemau Anfonwyd dynodedig y gweinydd.
 account-prefs-automatic-cc-bcc-description = Nodyn: Mae ticio'r blychau hyn yn ychwanegu rhesi Cc/Bcc awtomatig wrth gyfansoddi negeseuon newydd.
 account-prefs-sent-folder-on =
     .label = Ffolder a anfonwyd ar:
