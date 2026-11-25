@@ -140,6 +140,14 @@ command-kick = { $commandName } &lt;userId&gt; [&lt;reason&gt;]: izspert lietot�
 # $commandName is the command name
 command-nick = { $commandName } &lt;display_name&gt;: nomainīt jūsu segvārdu.
 # $commandName is the command name
+command-op = { $commandName } &lt;userId&gt; [&lt;power level&gt;]: Definējiet lietotāja spēka līmeni. Ievadiet veselu skaitli: Lietotājs: 0, Moderators: 50 un Administrators: 100. Noklusējuma vērtība būs 50, ja netiek norādīts arguments. Nepieciešama atļauja, lai mainītu dalībnieka spēka līmeņus. Nedarbojas administratoriem, izņemot jūs pašu.
+# $commandName is the command name
+command-deop = { $commandName } &lt;userId&gt;: Atiestatīt lietotāju uz 0 spēka līmeni (Lietotājs). Nepieciešama atļauja, lai mainītu dalībnieka spēka līmeņus. Nedarbojas administratoriem, izņemot jūs pašu.
+# $commandName is the command name
+command-leave = { $commandName }: Iziet no pašreizējās telpas.
+# $commandName is the command name
+command-topic = { $commandName }&lt;topic&gt;: Iestata telpas tēmu. Lai mainītu telpas tēmu, ir nepieciešamas atļaujas.
+# $commandName is the command name
 command-join = { $commandName } & lt; roomId & gt ;: Pievienoties dotajai telpai.
 # LOCALIZATION NOTE (message-*):
 #    These are shown as system messages in the conversation.
