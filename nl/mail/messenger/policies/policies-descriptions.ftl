@@ -14,6 +14,7 @@ policy-3rdparty = Beleidsregels instellen zodat WebExtensions via chrome.storage
 policy-AppAutoUpdate = Automatische applicatie-update in- of uitschakelen.
 policy-AppUpdatePin = Voorkomen dat { -brand-short-name } wordt geüpdatet voorbij de opgegeven versie.
 policy-AppUpdateURL = Aangepaste app-update-URL instellen.
+policy-Authentication2 = Geïntegreerde authenticatie configureren voor websites die dit ondersteunen, en welke HTTP-authenticatieschema’s zijn uitgeschakeld.
 policy-Authentication = Geïntegreerde authenticatie configureren voor websites die dit ondersteunen.
 policy-BackgroundAppUpdate2 = Achtergrondupdates in- of uitschakelen.
 policy-BlockAboutAddons = Toegang tot de Add-onbeheerder (about:addons) blokkeren.

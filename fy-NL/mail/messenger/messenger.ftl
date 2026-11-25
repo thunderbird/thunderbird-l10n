@@ -477,7 +477,12 @@ decrypt-and-copy-failures-multiple =
 # list, when at least one filter or action failed.
 apply-filters-failed = De filterrun is net mei sukses foltôge. Kontrolearje it filterlochboek foar details.
 apply-filters-failed-open-log-button = Filterlochboek iepenje
+archive-message-error-title = Flater by argivearjen fan berjocht
+archive-message-error = De selektearre berjochten koene net argivearre wurde.
+archive-folder-missing = De argyfmap foar dizze identiteit koe net fûn wurde. Selektearje in oare map en probearje it opnij.
 save-template-error-title = Flater by bewarjen fan sjabloan
+save-template-error = It berjocht koe net as sjabloan bewarre wurde.
+template-folder-missing = De selektearre sjabloanemap koe net fûn wurde. Kies in oare map en probearje it opnij.
 
 ## Spaces toolbar
 

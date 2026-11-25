@@ -10,6 +10,7 @@ send-alert-followup-to-sender = De schrijver van dit bericht heeft gevraagd om a
 send-unable-to-save-template = Kan uw bericht niet als sjabloon opslaan.
 send-unable-to-save-draft = Kan uw bericht niet als concept opslaan.
 send-error-failed = Verzenden van het bericht is mislukt.
+send-error-configured-folder-missing = De geselecteerde map voor verzonden berichten kon niet worden gevonden. Kies een andere map en probeer het opnieuw.
 send-unable-to-send-later = Sorry, uw bericht kon niet worden opgeslagen voor latere verzending.
 # Variables:
 # $hostname - outgoing server hostname

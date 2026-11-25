@@ -477,7 +477,12 @@ decrypt-and-copy-failures-multiple =
 # list, when at least one filter or action failed.
 apply-filters-failed = De filterrun is niet met succes voltooid. Raadpleeg het filterlogboek voor details.
 apply-filters-failed-open-log-button = Filterlogboek openen
+archive-message-error-title = Fout bij archiveren van bericht
+archive-message-error = De geselecteerde berichten konden niet worden gearchiveerd.
+archive-folder-missing = De archiefmap voor deze identiteit kon niet worden gevonden. Selecteer een andere map en probeer het opnieuw.
 save-template-error-title = Fout bij opslaan van sjabloon
+save-template-error = Het bericht kon niet als sjabloon worden opgeslagen.
+template-folder-missing = De geselecteerde sjablonenmap kon niet worden gevonden. Kies een andere map en probeer het opnieuw.
 
 ## Spaces toolbar
 

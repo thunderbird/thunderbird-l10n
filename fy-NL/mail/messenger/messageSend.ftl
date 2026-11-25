@@ -10,6 +10,7 @@ send-alert-followup-to-sender = De skriuwer fan dit berjocht hat fersocht dat an
 send-unable-to-save-template = Kin jo berjocht net as sjabloan bewarje.
 send-unable-to-save-draft = Kin jo berjocht net as konsept bewarje.
 send-error-failed = Ferstjoeren fan it berjocht is mislearre.
+send-error-configured-folder-missing = De selektearre map foar ferstjoerde berjochten koe net fûn wurde. Kies in oare map en probearje it opnij.
 send-unable-to-send-later = Sorry, jo berjocht koe net bewarre wurde foar letter ferstjoeren.
 # Variables:
 # $hostname - outgoing server hostname
