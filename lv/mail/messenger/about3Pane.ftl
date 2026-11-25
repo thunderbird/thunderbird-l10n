@@ -46,6 +46,16 @@ quick-filter-bar-sticky =
 # a dropdown menu.
 quick-filter-bar-dropdown =
     .title = Ātrās atsijāšanas izvēlne
+quick-filter-bar-dropdown-unread =
+    .label = Nelasītas
+quick-filter-bar-dropdown-starred =
+    .label = Zvaigžņotas
+quick-filter-bar-dropdown-inaddrbook =
+    .label = Kontakti
+quick-filter-bar-dropdown-tags =
+    .label = Birkas
+quick-filter-bar-dropdown-attachment =
+    .label = Ar pielikumiem
 # The tooltip for the filter button that causes us to filter results to only
 # include unread messages.
 quick-filter-bar-unread =
@@ -97,6 +107,8 @@ quick-filter-bar-results =
         [one] { $count } vēstules
        *[other] { $count } vēstules
     }
+quick-filter-bar-search2 =
+    .label = Atlasīt ziņojumus
 quick-filter-bar-searching =
     .title = Meklē...
 # Keyboard shortcut for the text search box.
@@ -125,6 +137,10 @@ quick-filter-bar-boolean-mode-any =
 quick-filter-bar-boolean-mode-all =
     .label = Visi no
     .title = Ir jāatbilst visiem izvēlētajiem birku kritērijiem
+# The None tagging mode.
+quick-filter-bar-tag-mode-none =
+    .label = Tikai bez birkām
+    .title = Tikai ziņojumi bez birkām
 # This label explains what the sender/recipients/subject/body buttons do.
 # This string should ideally be kept short because the label and the text
 # filter buttons share their bar (that appears when there is text in the text
@@ -161,12 +177,29 @@ folder-pane-get-all-messages-menuitem =
     .accesskey = S
 folder-pane-write-message-button = Jauns ziņojums
     .title = Sastādīt jaunu ziņojumu
+folder-pane-more-menu-button =
+    .title = Mapju rūts opcijas
+# Context menu item to show/hide different folder types in the folder pane
+folder-pane-header-folder-modes =
+    .label = Mapju skata režīmi
 # Context menu item to toggle display of "Get messages" button in folder pane header
 folder-pane-header-context-toggle-get-messages =
     .label = Rādīt “Saņemt ziņojumus”
 # Context menu item to toggle display of "New Message" button in folder pane header
 folder-pane-header-context-toggle-new-message =
     .label = Rādīt “Jauns ziņojums”
+folder-pane-header-context-hide =
+    .label = Slēpt mapju rūts galveni
+folder-pane-show-total-toggle =
+    .label = Rādīt ziņojumu kopskaitu
+# Context menu item to show or hide folder sizes
+folder-pane-header-toggle-folder-size =
+    .label = Rādīt mapju izmērus
+# Context menu item to toggle display of full folder path in compact mode.
+folder-pane-header-toggle-full-path =
+    .label = Rādīt pilnu ceļu
+folder-pane-header-hide-local-folders =
+    .label = Paslēpt vietējās mapes
 folder-pane-mode-header-all = Visas mapes
 folder-pane-mode-header-unread = Nelasītās mapes
 folder-pane-mode-header-favorite = Izlases mapes
