@@ -242,6 +242,7 @@ mail-select-audio-button =
     .label = 選擇音訊檔…
     .accesskey = A
 sound-file-picker-title = 選取音效
+calendar-notification-settings-link = 行事曆通知
 chat-notification-settings-link = 聊天通知
 notifications-calendar-description = 提醒音效、對話框與錯過的提醒
 notifications-calendar-settings-link = 開啟行事曆設定
