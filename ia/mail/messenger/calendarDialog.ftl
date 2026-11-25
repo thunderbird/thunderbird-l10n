@@ -167,6 +167,9 @@ calendar-event-prompt-edit-title = Rediger evento
 
 calendar-event-categories = Categorias
 calendar-event-add-category = Adder categoria
+calendar-event-category-name =
+    .aria-label = Adder un nove categoria
+    .placeholder = Adder un nove categoria
 calendar-event-category-choices =
     .aria-label = Categorias disponibile
 calendar-event-selected-categories =
@@ -196,6 +199,32 @@ calendar-event-video-url =
 calendar-event-video-url-clear =
     .aria-label = Vacuar URL del vídeo
     .title = Vacuar URL del vídeo
+
+## Description controls in the event create/edit dialog.
+
+calendar-event-add-description = Adder description
+calendar-description-formatting =
+    .aria-label = Formato de texto
+calendar-description-italic =
+    .aria-label = Italico
+    .title = Italico
+calendar-description-indent =
+    .aria-label = Indentar
+    .title = Indentar
+calendar-description-outdent =
+    .aria-label = Disindentar
+    .title = Disindentar
+calendar-description-link =
+    .aria-label = Ligamine
+    .title = Ligamine
+calendar-description-link-popup = Ligamine
+calendar-description-cancel-link = Cancellar
+calendar-description-undo =
+    .aria-label = Disfacer
+    .title = Disfacer
+calendar-description-redo =
+    .aria-label = Refacer
+    .title = Refacer
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".

@@ -4,6 +4,7 @@
 
 account-prefs-show-address-row-description = Utzi helbide eremuak zuri betik ikusteko helbide errenkada mezu berri bat hastean.
 account-prefs-sent-message-copies-description = Aukeratu non gorde bidalitako mezuen kopiak, eta konfiguratu Cc/Bcc arau automatikoak
+account-prefs-sent-message-copies-graph-info = Oharra: Microsoft Graph-ek automatikoki gordetzen ditu bidalitako mezuak zerbitzariko «Bidalitako elementuak» karpetan.
 account-prefs-automatic-cc-bcc-description = Oharra: Lauki hauek markatzean, mezu berriak idaztean Cc/Bcc eremuak automatikoki gehitzen dira.
 account-prefs-sent-folder-on =
     .label = Bidalitakoen karpeta:

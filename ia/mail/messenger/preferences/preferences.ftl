@@ -637,6 +637,7 @@ show-conversation-view-label =
     .accesskey = c
 conversation-view-preview-description = Isto es un functionalitate de previsualisation precoce. Illo gruppa insimul le messages correlate, ma illo poterea non sempre functionar como expectate.
 conversation-view-settings-link = Configurar modalitate conversation in le functionalitates beta
+conversation-view-beta-badge = Beta
 conversation-view-checkbox-label =
     .label = Activar vista de conversation
     .accesskey = c
