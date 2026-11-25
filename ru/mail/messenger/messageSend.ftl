@@ -10,6 +10,7 @@ send-alert-followup-to-sender = Автор этого сообщения зап�
 send-unable-to-save-template = Не удалось сохранить сообщение как шаблон.
 send-unable-to-save-draft = Не удалось сохранить сообщение как черновик.
 send-error-failed = Ошибка отправления сообщения.
+send-error-configured-folder-missing = Не удалось найти папку, выбранную для отправленных сообщений. Выберите другую папку и попробуйте снова.
 send-unable-to-send-later = Извините, но нам не удалось сохранить сообщение для последующей отправки.
 # Variables:
 # $hostname - outgoing server hostname

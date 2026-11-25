@@ -490,6 +490,12 @@ decrypt-and-copy-failures-multiple =
 # list, when at least one filter or action failed.
 apply-filters-failed = Запуск фильтра завершился неуспешно. Для получения более подробной информации обратитесь к журналу фильтров.
 apply-filters-failed-open-log-button = Открыть журнал фильтров
+archive-message-error-title = Ошибка архивации сообщения
+archive-message-error = Не удалось заархивировать выделенные сообщения.
+archive-folder-missing = Папка архивов для этого адреса электронной почты не найдена. Выберите другую папку и попробуйте снова.
+save-template-error-title = Ошибка сохранения шаблона
+save-template-error = Сообщение не может быть сохранено как шаблон.
+template-folder-missing = Не удалось найти выбранную папку шаблонов. Выберите другую папку и попробуйте снова.
 
 ## Spaces toolbar
 

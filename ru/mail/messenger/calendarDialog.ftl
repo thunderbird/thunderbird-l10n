@@ -175,6 +175,9 @@ calendar-event-prompt-edit-title = Изменение события
 
 calendar-event-categories = Категории
 calendar-event-add-category = Добавить категорию
+calendar-event-category-name =
+    .aria-label = Добавить новую категорию
+    .placeholder = Добавить новую категорию
 calendar-event-category-choices =
     .aria-label = Доступные категории
 calendar-event-selected-categories =
@@ -205,6 +208,64 @@ calendar-event-video-url =
 calendar-event-video-url-clear =
     .aria-label = Очистить URL видео
     .title = Очистить URL видео
+
+## Description controls in the event create/edit dialog.
+
+calendar-event-add-description = Добавить описание
+calendar-description-formatting =
+    .aria-label = Форматирование текста
+calendar-description-bold =
+    .aria-label = Полужирный
+    .title = Полужирный
+calendar-description-italic =
+    .aria-label = Курсив
+    .title = Курсив
+calendar-description-bulleted-list =
+    .aria-label = Маркированный список
+    .title = Маркированный список
+calendar-description-numbered-list =
+    .aria-label = Нумерованный список
+    .title = Нумерованный список
+calendar-description-indent =
+    .aria-label = Сделать отступ
+    .title = Сделать отступ
+calendar-description-outdent =
+    .aria-label = Убрать отступ
+    .title = Убрать отступ
+calendar-description-link =
+    .aria-label = Ссылка
+    .title = Ссылка
+calendar-description-link-popup = Ссылка
+calendar-description-link-address =
+    .aria-label = Адрес ссылки
+calendar-description-invalid-link = Введите корректный адрес ссылки.
+calendar-description-apply-link = Применить ссылку
+calendar-description-remove-link = Удалить ссылку
+calendar-description-cancel-link = Отмена
+calendar-description-input =
+    .aria-label = Описание
+calendar-description-frame =
+    .title = Редактор описаний
+calendar-description-strikethrough =
+    .aria-label = Зачёркивание
+    .title = Зачёркивание
+calendar-description-undo =
+    .aria-label = Отменить
+    .title = Отменить
+calendar-description-redo =
+    .aria-label = Повторить
+    .title = Повторить
+calendar-event-add-guests = Добавить гостей
+calendar-event-add-guests-expand-icon =
+    .alt = Добавить гостей
+# Variables:
+#   $count (Number): Number of invited guests, including the organizer.
+calendar-event-guests-invited =
+    { $count ->
+        [one] Приглашен { $count } гость
+        [few] Приглашено { $count } гостя
+       *[many] Приглашено { $count } гостей
+    }
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".
