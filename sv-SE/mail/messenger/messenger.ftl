@@ -480,6 +480,8 @@ archive-message-error-title = Fel vid arkivering av meddelande
 archive-message-error = De markerade meddelandena kunde inte arkiveras.
 archive-folder-missing = Arkivmappen för denna identitet kunde inte hittas. Välj en annan mapp och försök igen.
 save-template-error-title = Fel vid sparande av mall
+save-template-error = Meddelandet kunde inte sparas som en mall.
+template-folder-missing = Mappen med de valda mallarna kunde inte hittas. Välj en annan mapp och försök igen.
 
 ## Spaces toolbar
 
