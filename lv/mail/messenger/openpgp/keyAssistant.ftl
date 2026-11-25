@@ -43,9 +43,10 @@ openpgp-key-assistant-valid-description = Atlasiet atslēgu, kuru vēlaties pie�
 # $numKeys (Number) - The number of available keys.
 openpgp-key-assistant-invalid-title =
     { $numKeys ->
-        [one] Šo atslēgu nevar izmantot, ja vien neiegūstat atjauninājumu.
-        [zero] Šīs atslēgas nevar izmantot, ja vien neiegūstat atjauninājumu.
-       *[other] Šīs atslēgas nevar izmantot, ja vien neiegūstat atjauninājumu.
+        [1] Šo atslēgu nevar izmantot, līdz neiegūsi atjauninājumu.
+        [zero] Šīs atslēgas nevar izmantot, līdz neiegūsi atjauninājumu.
+        [one] Šīs atslēgas nevar izmantot, līdz neiegūsi atjauninājumu.
+       *[other] Šīs atslēgas nevar izmantot, līdz neiegūsi atjauninājumu.
     }
 openpgp-key-assistant-no-key-available = Atslēga nav pieejama.
 openpgp-key-assistant-multiple-keys = Ir pieejamas vairākas atslēgas.
