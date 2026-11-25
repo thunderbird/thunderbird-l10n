@@ -167,6 +167,9 @@ calendar-event-prompt-edit-title = Termin bearbeiten
 
 calendar-event-categories = Kategorien
 calendar-event-add-category = Kategorie hinzufügen
+calendar-event-category-name =
+    .aria-label = Neue Kategorie hinzufügen
+    .placeholder = Neue Kategorie hinzufügen
 calendar-event-category-choices =
     .aria-label = Verfügbare Kategorien
 calendar-event-selected-categories =
@@ -196,6 +199,45 @@ calendar-event-video-url =
 calendar-event-video-url-clear =
     .aria-label = Video-URL löschen
     .title = Video-URL löschen
+
+## Description controls in the event create/edit dialog.
+
+calendar-event-add-description = Beschreibung hinzufügen
+calendar-description-formatting =
+    .aria-label = Textformatierung
+calendar-description-bold =
+    .aria-label = Fett
+    .title = Fett
+calendar-description-italic =
+    .aria-label = Kursiv
+    .title = Kursiv
+calendar-description-bulleted-list =
+    .aria-label = Liste mit Aufzählungszeichen
+    .title = Liste mit Aufzählungszeichen
+calendar-description-numbered-list =
+    .aria-label = Nummerierte Liste
+    .title = Nummerierte Liste
+calendar-description-link =
+    .aria-label = Link
+    .title = Link
+calendar-description-link-popup = Link
+calendar-description-remove-link = Link entfernen
+calendar-description-cancel-link = Abbrechen
+calendar-description-input =
+    .aria-label = Beschreibung
+calendar-description-undo =
+    .aria-label = Rückgängig
+    .title = Rückgängig
+calendar-description-redo =
+    .aria-label = Wiederherstellen
+    .title = Wiederherstellen
+# Variables:
+#   $count (Number): Number of invited guests, including the organizer.
+calendar-event-guests-invited =
+    { $count ->
+        [one] { $count } Gast eingeladen
+       *[other] { $count } Gäste eingeladen
+    }
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".
