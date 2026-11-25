@@ -168,6 +168,9 @@ calendar-event-prompt-edit-title = Esemény szerkesztése
 
 calendar-event-categories = Kategóriák
 calendar-event-add-category = Kategória hozzáadása
+calendar-event-category-name =
+    .aria-label = Új kategória hozzáadása
+    .placeholder = Új kategória hozzáadása
 calendar-event-category-choices =
     .aria-label = Elérhető kategóriák
 calendar-event-selected-categories =
@@ -197,6 +200,63 @@ calendar-event-video-url =
 calendar-event-video-url-clear =
     .aria-label = Videó webcímének törlése
     .title = Videó webcímének törlése
+
+## Description controls in the event create/edit dialog.
+
+calendar-event-add-description = Leírás hozzáadása
+calendar-description-formatting =
+    .aria-label = Szövegformázás
+calendar-description-bold =
+    .aria-label = Félkövér
+    .title = Félkövér
+calendar-description-italic =
+    .aria-label = Dőlt
+    .title = Dőlt
+calendar-description-bulleted-list =
+    .aria-label = Felsorolás
+    .title = Felsorolás
+calendar-description-numbered-list =
+    .aria-label = Számozott lista
+    .title = Számozott lista
+calendar-description-indent =
+    .aria-label = Behúzás
+    .title = Behúzás
+calendar-description-outdent =
+    .aria-label = Behúzás csökkentése
+    .title = Behúzás csökkentése
+calendar-description-link =
+    .aria-label = Hivatkozás
+    .title = Hivatkozás
+calendar-description-link-popup = Hivatkozás
+calendar-description-link-address =
+    .aria-label = Hivatkozás címe
+calendar-description-invalid-link = Adjon meg egy érvényes hivatkozáscímet.
+calendar-description-apply-link = Hivatkozás alkalmazása
+calendar-description-remove-link = Hivatkozás eltávolítása
+calendar-description-cancel-link = Mégse
+calendar-description-input =
+    .aria-label = Leírás
+calendar-description-frame =
+    .title = Leírásszerkesztő
+calendar-description-strikethrough =
+    .aria-label = Áthúzás
+    .title = Áthúzás
+calendar-description-undo =
+    .aria-label = Visszavonás
+    .title = Visszavonás
+calendar-description-redo =
+    .aria-label = Újra
+    .title = Újra
+calendar-event-add-guests = Vendégek hozzáadása
+calendar-event-add-guests-expand-icon =
+    .alt = Vendégek hozzáadása
+# Variables:
+#   $count (Number): Number of invited guests, including the organizer.
+calendar-event-guests-invited =
+    { $count ->
+        [one] { $count } vendég meghívva
+       *[other] { $count } vendég meghívva
+    }
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".

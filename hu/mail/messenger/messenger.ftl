@@ -477,6 +477,12 @@ decrypt-and-copy-failures-multiple =
 # list, when at least one filter or action failed.
 apply-filters-failed = A szűrő futtatása nem sikerült. A részleteket a szűrőnaplóban találja.
 apply-filters-failed-open-log-button = Szűrőnapló megnyitása
+archive-message-error-title = Üzenetarchiválási hiba
+archive-message-error = Nem sikerült archiválni a kijelölt üzeneteket.
+archive-folder-missing = Nem található az ehhez a személyazonossághoz tartozó archívummappa. Válasszon másik mappát, majd próbálja újra.
+save-template-error-title = Hiba a sablon mentésekor
+save-template-error = Nem sikerült sablonként menteni az üzenetet.
+template-folder-missing = A kijelölt sablonmappa nem található. Válasszon másik mappát, majd próbálja újra.
 
 ## Spaces toolbar
 

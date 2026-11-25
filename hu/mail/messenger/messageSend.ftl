@@ -10,6 +10,7 @@ send-alert-followup-to-sender = Az üzenet szerzője saját magát jelölte meg 
 send-unable-to-save-template = Nem lehet az üzenetet sablonként menteni.
 send-unable-to-save-draft = Nem lehet az üzenetet piszkozatként menteni.
 send-error-failed = Az üzenet küldése sikertelen.
+send-error-configured-folder-missing = Az elküldött üzenetekhez kiválasztott mappa nem található. Válasszon másik mappát, majd próbálja újra.
 send-unable-to-send-later = Elnézést, nem sikerült menteni az üzenetet a későbbi elküldéshez.
 # Variables:
 # $hostname - outgoing server hostname
