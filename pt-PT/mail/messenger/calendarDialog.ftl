@@ -167,6 +167,9 @@ calendar-event-prompt-edit-title = Editar evento
 
 calendar-event-categories = Categorias
 calendar-event-add-category = Adicionar categoria
+calendar-event-category-name =
+    .aria-label = Adicionar uma nova categoria
+    .placeholder = Adicionar uma nova categoria
 calendar-event-category-choices =
     .aria-label = Categorias disponíveis
 calendar-event-selected-categories =
@@ -196,6 +199,18 @@ calendar-event-video-url =
 calendar-event-video-url-clear =
     .aria-label = Limpar URL do vídeo
     .title = Limpar URL do vídeo
+
+## Description controls in the event create/edit dialog.
+
+calendar-event-add-description = Adicionar descrição
+calendar-description-formatting =
+    .aria-label = Formatação de texto
+calendar-description-bold =
+    .aria-label = Negrito
+    .title = Negrito
+calendar-description-italic =
+    .aria-label = Itálico
+    .title = Itálico
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".
