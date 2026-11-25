@@ -296,90 +296,165 @@ threadpane-column-header-sender = No
     .title = Kārtot pēc sūtītāja
 threadpane-column-label-sender =
     .label = No
+# Variables:
+# $title (String) - Message sender for tooltip.
+threadpane-cell-sender-title =
+    .aria-label = No
+    .title = { $title }
 threadpane-column-header-a11y-recipient =
     .aria-label = Saņēmējs
 threadpane-column-header-recipient = Saņēmējs
     .title = Kārtot pēc saņēmēja
 threadpane-column-label-recipient =
     .label = Saņēmējs
+# Variables:
+# $title (String) - Message recipient for tooltip.
+threadpane-cell-recipient-title =
+    .aria-label = Saņēmējs
+    .title = { $title }
 threadpane-column-header-a11y-correspondents =
     .aria-label = Korespondenti
 threadpane-column-header-correspondents = Korespondenti
     .title = Kārtot pēc korespondentiem
 threadpane-column-label-correspondents =
     .label = Korespondenti
+# Variables:
+# $title (String) - Message correspondents for tooltip.
+threadpane-cell-correspondents-title =
+    .aria-label = Korespondenti
+    .title = { $title }
 threadpane-column-header-a11y-subject =
     .aria-label = Temats
 threadpane-column-header-subject = Temats
     .title = Kārtot pēc tēmas
 threadpane-column-label-subject =
     .label = Temats
+# Variables:
+# $title (String) - Message subject for tooltip.
+threadpane-cell-subject-title =
+    .aria-label = Temats
+    .title = { $title }
 threadpane-column-header-a11y-date =
     .aria-label = Datums
 threadpane-column-header-date = Datums
     .title = Kārtot pēc datuma
 threadpane-column-label-date =
     .label = Datums
+# Variables:
+# $title (String) - Message date for tooltip.
+threadpane-cell-date-title =
+    .aria-label = Datums
+    .title = { $title }
 threadpane-column-header-a11y-received =
     .aria-label = Saņemts
 threadpane-column-header-received = Saņemts
     .title = Kārtot pēc saņemšanas laika
 threadpane-column-label-received =
     .label = Saņemts
+# Variables:
+# $title (String) - Message received date for tooltip.
+threadpane-cell-received-title =
+    .aria-label = Saņemts
+    .title = { $title }
 threadpane-column-header-a11y-status =
     .aria-label = Stāvoklis
 threadpane-column-header-status = Stāvoklis
     .title = Kārtot pēc stāvokļa
 threadpane-column-label-status =
     .label = Stāvoklis
+# Variables:
+# $title (String) - Message status for tooltip.
+threadpane-cell-status-title =
+    .aria-label = Statuss
+    .title = { $title }
 threadpane-column-header-a11y-size =
     .aria-label = Izmērs
 threadpane-column-header-size = Izmērs
     .title = Kārtot pēc izmēra
 threadpane-column-label-size =
     .label = Izmērs
+# Variables:
+# $title (String) - Message size for tooltip.
+threadpane-cell-size-title =
+    .aria-label = Izmērs
+    .title = { $title }
 threadpane-column-header-a11y-tags =
     .aria-label = Birka
 threadpane-column-header-tags = Birka
     .title = Kārtot pēc birkām
 threadpane-column-label-tags =
     .label = Birka
+# Variables:
+# $title (String) - Tags for tooltip.
+threadpane-cell-tags-title =
+    .aria-label = Birkas
+    .title = { $title }
 threadpane-column-header-a11y-account =
     .aria-label = Konts
 threadpane-column-header-account = Konts
     .title = Kārtot pēc konta
 threadpane-column-label-account =
     .label = Konts
+# Variables:
+# $title (String) - Message account for tooltip.
+threadpane-cell-account-title =
+    .aria-label = Konts
+    .title = { $title }
 threadpane-column-header-a11y-priority =
     .aria-label = Svarīgums
 threadpane-column-header-priority = Svarīgums
     .title = Kārtot pēc svarīguma
 threadpane-column-label-priority =
     .label = Svarīgums
+# Variables:
+# $title (String) - Priority for tooltip.
+threadpane-cell-priority-title =
+    .aria-label = Svarīgums
+    .title = { $title }
 threadpane-column-header-a11y-unread =
     .aria-label = Nelasītas
 threadpane-column-header-unread = Nelasītas
     .title = Nelasītu vēstuļu skaits pavedienā
 threadpane-column-label-unread =
     .label = Nelasītas
+# Variables:
+# $title (String) - Number of unread messages for tooltip.
+threadpane-cell-unread-title =
+    .aria-label = Neizlasīto skaits
+    .title = { $title }
 threadpane-column-header-a11y-total =
     .aria-label = Kopā
 threadpane-column-header-total = Kopā
     .title = Kopējais vēstuļu skaits pavedienā
 threadpane-column-label-total =
     .label = Kopā
+# Variables:
+# $title (String) - Total messages for tooltip.
+threadpane-cell-total-title =
+    .aria-label = Kopējais skaits
+    .title = { $title }
 threadpane-column-header-a11y-location =
     .aria-label = Atrašanās vieta
 threadpane-column-header-location = Atrašanās vieta
     .title = Kārtot pēc atrašanās vietas
 threadpane-column-label-location =
     .label = Atrašanās vieta
+# Variables:
+# $title (String) - Message location for tooltip.
+threadpane-cell-location-title =
+    .aria-label = Atrašanās vieta
+    .title = { $title }
 threadpane-column-header-a11y-id =
     .aria-label = Pieprasījums saņemts
 threadpane-column-header-id = Pieprasījums saņemts
     .title = Kārtot pēc pieprasījuma saņemšanas
 threadpane-column-label-id =
     .label = Pieprasījums saņemts
+# Variables:
+# $title (String) - Message id for tooltip.
+threadpane-cell-id-title =
+    .aria-label = Saņemts
+    .title = { $title }
 threadpane-column-header-a11y-delete =
     .aria-label = Izdzēst
 threadpane-column-header-delete =
@@ -388,6 +463,14 @@ threadpane-column-label-delete =
     .label = Izdzēst
 threadpane-cell-delete =
     .aria-label = Izdzēst
+# Variables:
+# $count (Number) - Number of replies in thread.
+threadpane-replies =
+    { $count ->
+        [one] { $count } atbilde
+        [zero] { $count } atbildes
+       *[other] { $count } atbildes
+    }
 threadpane-column-header-a11y-select =
     .aria-label = Atlasīt vēstules
 
@@ -396,12 +479,21 @@ threadpane-column-header-a11y-select =
 threadpane-message-new =
     .alt = Jauna ziņojuma rādītājs
     .title = Jauns ziņojums
+threadpane-message-replied =
+    .alt = Atbildes indikators
+    .title = Ziņojums atbildēts
+threadpane-message-redirected =
+    .alt = Pāradresēts indikators
+    .title = Ziņojums pāradresēts
 threadpane-message-forwarded =
     .alt = Pārsūtītais indikators
     .title = Ziņojums pārsūtīts
 threadpane-message-replied-forwarded =
     .alt = Atbildēto un pārsūtīto ziņojumu indikators
     .title = Ziņojums atbildēts un pārsūtīts
+threadpane-message-replied-redirected =
+    .alt = Atbildes un pāradresācijas indikators
+    .title = Ziņojums atbildēts un pāradresēts
 threadpane-message-forwarded-redirected =
     .alt = Pāradresācijas un novirzīšanas indikators
     .title = Ziņojums pārsūtīts un novirzīts
@@ -410,6 +502,8 @@ threadpane-message-replied-forwarded-redirected =
     .title = Ziņojums atbildēts, pārsūtīts un novirzīts
 apply-columns-to-menu =
     .label = Lietot kolonnas…
+apply-current-view-to-menu =
+    .label = Lietot pašreizējo skatu uz…
 apply-current-view-to-folder =
     .label = Mape...
 apply-current-view-to-folder-children =
@@ -417,12 +511,19 @@ apply-current-view-to-folder-children =
 
 ## Apply columns confirmation dialog
 
+apply-changes-to-folder-title = Lietot izmaiņas?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-message = Vai pielietot pašreizējās mapes kolonnas { $name }?
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-columns-to-folder-with-children-message = Vai pielietot pašreizējās mapes kolonnas { $name } un tās bērniem?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-message = Vai lietot pašreizējās mapes skatu uz { $name }?
+# Variables:
+#  $name (String): The name of the folder to apply to.
+apply-current-view-to-folder-with-children-message = Vai lietot pašreizējās mapes skatu uz { $name } un zemākām mapēm?
 message-list-placeholder-multiple-folders = Atlasītas vairākas mapes
 
 ## Confirmation prompts shown before deleting a folder.
