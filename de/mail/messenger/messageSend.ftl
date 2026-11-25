@@ -10,6 +10,7 @@ send-alert-followup-to-sender = Der Autor dieser Nachricht hat gebeten, dass Ant
 send-unable-to-save-template = Ihre Nachricht kann nicht als Vorlage gespeichert werden.
 send-unable-to-save-draft = Ihre Nachricht kann nicht als Entwurf gespeichert werden.
 send-error-failed = Senden der Nachricht fehlgeschlagen.
+send-error-configured-folder-missing = Der ausgewählte Ordner zum Speichern gesendeter Nachrichten wurde nicht gefunden. Wählen Sie einen anderen Ordner aus und versuchen Sie es erneut.
 send-unable-to-send-later = Ihre Nachricht konnte für den späteren Versand nicht gespeichert werden.
 # Variables:
 # $hostname - outgoing server hostname

@@ -477,6 +477,12 @@ decrypt-and-copy-failures-multiple =
 # list, when at least one filter or action failed.
 apply-filters-failed = Der Filterlauf konnte nicht erfolgreich abgeschlossen werden. Weitere Informationen finden Sie im Filterprotokoll.
 apply-filters-failed-open-log-button = Filterprotokoll öffnen
+archive-message-error-title = Nachricht konnte nicht archiviert werden
+archive-message-error = Die ausgewählten Nachrichten ließen sich nicht archivieren.
+archive-folder-missing = Der Archivordner dieser Identität konnte nicht gefunden werden. Wählen Sie einen anderen Ordner aus und versuchen Sie es erneut.
+save-template-error-title = Vorlage konnte nicht gespeichert werden
+save-template-error = Die Nachricht ließ sich nicht als Vorlage speichern.
+template-folder-missing = Der ausgewählte Vorlagenordner konnte nicht gefunden werden. Wählen Sie einen anderen Ordner aus und versuchen Sie es erneut.
 
 ## Spaces toolbar
 
