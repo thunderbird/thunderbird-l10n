@@ -646,7 +646,6 @@ show-conversation-view-label =
 conversation-view-limitations-description = Raggruppa i messaggi correlati in una conversazione. I nuovi messaggi potrebbero non essere visualizzati immediatamente nelle conversazioni e alcuni messaggi potrebbero apparire più di una volta.
 conversation-view-preview-description = Questa funzionalità è ancora in fase di anteprima. Raggruppa i messaggi correlati, ma potrebbe non funzionare sempre come previsto.
 conversation-view-settings-link = Configura la vista conversazione nelle funzionalità beta
-conversation-view-callout-description = Raggruppa i messaggi correlati in una conversazione.
 conversation-view-beta-badge = Beta
 conversation-view-try-beta-link = Provalo nelle funzioni beta
 conversation-view-checkbox-label =
