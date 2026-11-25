@@ -180,6 +180,7 @@ customize-alert-label =
     .accesskey = P
 biff-use-system-alert =
     .label = Izmantot sistēmas paziņojumu
+tray-icon-unread-description = Ieteicams, ja tiek izmantotas mazas uzdevumjoslas pogas
 mail-system-sound-label =
     .label = Sistēmas noklusējuma jauna pasta skaņa
     .accesskey = n
@@ -511,6 +512,8 @@ account-hub-manual-config-checkbox-label =
     .label = Izmantot jauno Account Hub pašrocīgas konfigurēšanas plūsmu
     .accesskey = k
 new-calendar-legend = Jaunais kalendāra notikuma dialoglodziņš
+new-calendar-checkbox-label =
+    .label = Skatīt kalendāra notikumus jaunajā dialoglodziņā
 new-calendar-checkbox-description = Izmēģinājuma jauna kalendāra dialoglodziņš notikumu apskatīšanai
 new-calendar-dialog-settings-link = Jaunā kalendāra notikumu dialoglodziņa konfigurēšana Beta iespējās
 
@@ -772,6 +775,9 @@ preferences-doh-setting-maximum =
     .accesskey = M
 preferences-doh-maximum-desc = Stingri nepieciešams šifrēts DNS. Tīmekļa vietnes netiks ielādētas, ja drošais savienojums neizdosies.
 preferences-doh-off-standard-desc = Izmanto standarta interneta pakalpojumu sniedzēju vai tīklu, lai meklētu tīmekļa adreses
+preferences-doh-checkbox-warn =
+    .label = Brīdināt, ja trešā puse aktīvi liedz drošo DNS
+    .accesskey = D
 preferences-doh-secure-header = Droša DNS (DNS, izmantojot HTTPS)
 preferences-doh-secure-description = Droša DNS sistēma šifrē meklēšanas pieprasījumus, ko { -brand-short-name } nosūta, lai atrastu tīmekļa vietnes, tādējādi pasargājot jūsu pārlūkošanas darbības no jebkādas tīkla uzraudzības.
 

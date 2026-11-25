@@ -37,6 +37,8 @@ toolbar-get-all-messages-menuitem =
 customize-title = Pielāgot rīkjoslas
 customize-space-tab-calendar = Kalendārs
     .title = Kalendārs
+customize-space-tab-tasks = Uzdevumi
+    .title = Uzdevumi
 customize-space-tab-settings = Iestatījumi
     .title = Iestatījumi
 customize-change-appearance = Mainīt izskatu
@@ -45,6 +47,7 @@ customize-cancel = Atcelt
 customize-search-bar2 =
     .label = Meklēšanas rīkjoslas pogas
     .placeholder = Meklēšanas rīkjoslas pogas…
+customize-palette-tasks-specific-title = Pieejams tikai Uzdevumu laukā
 customize-palette-settings-specific-title = Pieejams tikai iestatījumu vietai
 
 ## Unified toolbar customization target context menu

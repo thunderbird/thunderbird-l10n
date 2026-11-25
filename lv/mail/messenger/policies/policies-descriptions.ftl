@@ -12,6 +12,7 @@
 
 policy-3rdparty = Iestatiet politikas, caur kurām chrome.storage.managed var piekļūt WebExtensions.
 policy-AppAutoUpdate = Ieslēdziet vai atslēdziet automātisku lietotnes atjaunošanu.
+policy-AppUpdatePin = Neļaut { -brand-short-name } atjaunināt pēc norādītās versijas.
 policy-AppUpdateURL = Iestatiet pielāgotu lietotnes atjaunošanas URL.
 policy-Authentication2 = Konfigurē iekļauto autentificēšanos tīmekļvietnēm, kas to atbalsta un kuras HTTP autentificēšanas shēmas ir atspējotas.
 policy-Authentication = Iestatiet integrētu autentifikāciju vietnēm, kas to atbalsta.
@@ -83,6 +84,7 @@ policy-PasswordManagerEnabled = Ieslēgt paroļu saglabāšanu paroļu pārvaldn
 policy-PDFjs = Atslēgt vai iestatīt PDF.js, iebūvēto { -brand-short-name } PDF skatītāju.
 policy-Permissions2 = Iestatiet kameras, mikrofona, atrašanās vietas, paziņojumu un automātiskās atskaņošanas atļaujas.
 policy-Preferences = Iestatījumu vērtību apakškopas iestatīšana un noslēgšana.
+policy-PrimaryPassword = Pieprasīt vai aizliegt izmantot galveno paroli.
 policy-PromptForDownloadLocation = Vaicāt, kur saglabāt datnes, kad lejupielādē.
 policy-Proxy = Mainīt starpniekservera iestatījumus.
 policy-RequestedLocales = Iestatīt lietotnē pieprasīto lokalizāciju sarakstu izvēlētajā secībā.

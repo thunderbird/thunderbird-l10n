@@ -5,6 +5,7 @@
 account-encryption =
     .label = Tiešās saziņas šifrēšana
 account-otr-label = Ārpus ieraksta (OTR) ziņojumapmaiņa
+account-otr-description2 = { -brand-short-name } atbalsta pilnīgu šifrēšanu individuālām sarunām, pamatojoties uz OTR. Tas neļauj trešajām personām noklausīties sarunu. Šāda veida pilnīgu šifrēšanu var izmantot tikai tad, ja otra persona arī izmanto programmatūru, kas atbalsta OTR.
 otr-encryption-title = Pārbaudīta šifrēšana
 otr-encryption-caption = Lai ļautu citiem pārbaudīt jūsu identitāti OTR tērzēšanā, kopīgojiet savu OTR pirkstu nospiedumu, izmantojot citu, ārēju (ārpusjoslas) saziņas veidu.
 otr-fingerprint-label = Jūsu pirkstu nospiedums:

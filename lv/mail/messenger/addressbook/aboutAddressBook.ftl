@@ -245,6 +245,7 @@ about-addressbook-selection-lists-header2 =
 about-addressbook-details-edit-photo =
     .title = Labot kontaktpersonas fotoattēlu
 about-addressbook-write-action-button = Rakstīt
+about-addressbook-event-action-button = Notikums
 about-addressbook-search-action-button = Meklēt
 about-addressbook-begin-edit-contact-button = Labot
 about-addressbook-delete-edit-contact-button = Izdzēst

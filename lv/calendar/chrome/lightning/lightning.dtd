@@ -6,11 +6,13 @@
 <!ENTITY lightning.preferencesLabel "Kalendārs">
 <!-- New menu popup in File menu -->
 <!ENTITY lightning.menupopup.new.event.label "Notikums...">
+<!ENTITY lightning.menupopup.new.task.label "Uzdevums…">
 <!ENTITY lightning.menupopup.new.calendar.label "Kalendārs…">
 <!-- Open menu popup in File menu -->
 <!ENTITY lightning.menupopup.open.calendar.label "Kalendāra datne…">
 <!-- View Menu -->
 <!ENTITY lightning.menu.view.calendar.label "Kalendārs">
+<!ENTITY lightning.menu.view.tasks.label "Uzdevumi">
 <!-- Events and Tasks menu -->
 <!ENTITY lightning.menu.eventtask.label "Notikumi un uzdevumi">
 <!ENTITY lightning.calendarproperties.forceEmailScheduling.label "Dodiet priekšroku klienta puses epasta plānošanai">

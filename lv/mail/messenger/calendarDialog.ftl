@@ -21,6 +21,10 @@ calendar-dialog-back-button =
     .title = Atpakaļ
 calendar-event-create-edit-dialog-back-button = Atpakaļ
 calendar-dialog-attendees-too-many-guests = Viesu sarakstu nevar parādīt, jo tas satur vairāk nekā 50 viesu.
+calendar-dialog-menu-duplicate =
+    .label = Notikuma dublikāts
+calendar-dialog-menu-delete =
+    .label = Dzēst notikumu
 # Variables:
 #   $additionalCategories (Number): Number of categoires not shown.
 #   $categories (String): List of all categories.

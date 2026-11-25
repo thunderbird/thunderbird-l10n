@@ -4,3 +4,4 @@
 
 add-on-options-button =
     .title = Papildinājuma iespējas
+add-on-search-alternative-button-label = Atrodiet alternatīvu papildinājumu

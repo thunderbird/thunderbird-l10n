@@ -389,6 +389,8 @@ spaces-toolbar-element =
     .toolbarname = Vietu rīkjosla
 spaces-toolbar-button-calendar2 =
     .title = Kalendārs
+spaces-toolbar-button-tasks2 =
+    .title = Uzdevumi
 spaces-toolbar-button-settings2 =
     .title = Iestatījumi
 settings-context-open-settings-item2 =
@@ -402,6 +404,8 @@ settings-context-open-account-settings-item2 =
 
 spaces-pinned-button-menuitem-address-book2 =
     .label = { spaces-toolbar-button-address-book2.title }
+spaces-pinned-button-menuitem-tasks2 =
+    .label = { spaces-toolbar-button-tasks2.title }
 spaces-pinned-button-menuitem-settings2 =
     .label = { spaces-toolbar-button-settings2.title }
 

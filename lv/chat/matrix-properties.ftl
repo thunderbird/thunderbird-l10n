@@ -154,6 +154,8 @@ message-accepted-invite = { $user } pieņēma uzaicinājumu.
 #    $user is the name of the user who invited.
 #    $userWhoGotInvited is the name of the user who got invited.
 message-invited = { $user } uzaicnāja { $userWhoGotInvited }.
+#    $user is the name of the user who has prevented guests to join the room.
+message-guest-prevented = Lietotājs { $user } ir liedzis viesiem pievienoties telpai.
 message-decryption-error2 = Nevarēja atšifrēt šī ziņojuma saturu. Šifrēšanas atslēgas automātiski tiks atkārtoti pieprasītas.
 #    Label in the message context menu
 message-action-request-key = Atkārtoti pieprasīt atslēgas
