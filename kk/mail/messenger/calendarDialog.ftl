@@ -167,6 +167,9 @@ calendar-event-prompt-edit-title = Оқиғаны түзету
 
 calendar-event-categories = Санаттар
 calendar-event-add-category = Санат қосу
+calendar-event-category-name =
+    .aria-label = Жаңа санатты қосу
+    .placeholder = Жаңа санатты қосу
 calendar-event-category-choices =
     .aria-label = Қолжетімді санаттар
 calendar-event-selected-categories =
