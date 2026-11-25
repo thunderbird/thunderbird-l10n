@@ -185,6 +185,26 @@ calendar-event-more-categories = +{ $count } ακόμα
 
 calendar-event-video-label = Βίντεο
 
+## Description controls in the event create/edit dialog.
+
+calendar-description-apply-link = Εφαρμογή συνδέσμου
+calendar-description-remove-link = Αφαίρεση συνδέσμου
+calendar-description-cancel-link = Ακύρωση
+calendar-description-input =
+    .aria-label = Περιγραφή
+calendar-description-strikethrough =
+    .aria-label = Διαγράμμιση
+    .title = Διαγράμμιση
+calendar-description-undo =
+    .aria-label = Αναίρεση
+    .title = Αναίρεση
+calendar-description-redo =
+    .aria-label = Επανάληψη
+    .title = Επανάληψη
+calendar-event-add-guests = Προσθήκη προσκεκλημένων
+calendar-event-add-guests-expand-icon =
+    .alt = Προσθήκη προσκεκλημένων
+
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".
 
