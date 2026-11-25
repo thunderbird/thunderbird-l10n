@@ -1,2 +1,15 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!ENTITY reminderdialog.title "Iestatīt atgādinājumus">
 <!ENTITY reminder.add.label "Pievienot">
+<!ENTITY reminder.add.accesskey "A">
+<!ENTITY reminder.remove.label "Noņemt">
+<!ENTITY reminder.remove.accesskey "R">
+<!ENTITY reminder.reminderDetails.label "Atgādinājuma detaļas">
+<!ENTITY reminder.action.label "Izvēlieties atgādinājuma darbību">
+<!ENTITY reminder.action.alert.label "Rādīt brīdinājumu">
+<!ENTITY reminder.action.email.label "Sūtīt epastu">
+<!ENTITY alarm.units.minutes "minūtes">
+<!ENTITY alarm.units.hours "stundas">
 <!ENTITY alarm.units.days "dienas">

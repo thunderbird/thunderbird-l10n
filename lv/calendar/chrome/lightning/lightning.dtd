@@ -4,6 +4,8 @@
 
 <!-- Tools menu -->
 <!ENTITY lightning.preferencesLabel "Kalendārs">
+<!-- New menu popup in File menu -->
+<!ENTITY lightning.menupopup.new.event.label "Notikums...">
 <!ENTITY lightning.menupopup.new.calendar.label "Kalendārs…">
 <!-- Open menu popup in File menu -->
 <!ENTITY lightning.menupopup.open.calendar.label "Kalendāra datne…">
@@ -42,6 +44,11 @@
 <!ENTITY lightning.imipbar.btnMore.tooltiptext "Klikšķināt, lai parādītu vairāk iespēju">
 <!ENTITY lightning.imipbar.btnReconfirm2.label "Atkārtoti apstiprināt">
 <!ENTITY lightning.imipbar.btnReconfirm.tooltiptext "Nosūta atkārtotu apstiprinājumu rīkotājam">
+<!ENTITY lightning.imipbar.btnReschedule.tooltiptext "Pārplānot notikumu">
 <!ENTITY lightning.imipbar.btnSaveCopy.tooltiptext "Saglabāt notikuma kopiju kalendārā neatkarīgi no atbildēšanas rīkotājam. Dalībnieku saraksts tiks notīrīts.">
+<!ENTITY lightning.imipbar.btnTentative2.tooltiptext "Provizoriski pieņemt notikuma ielūgumu">
+<!ENTITY lightning.imipbar.btnTentativeRecurrences2.tooltiptext "Provizoriski pieņemt notikuma ielūgumu uz visiem gadījumiem">
+<!ENTITY lightning.imipbar.btnUpdate.tooltiptext "Atjaunināt notikumu kalendārā">
+<!ENTITY lightning.imipbar.description "Šajā ziņojumā ir ielūgums uz notikumu.">
 <!ENTITY todaypane.showMiniday.label "Rādīt mini dienu">
 <!ENTITY todaypane.showTodayPane.label "Rādīt šodienas rūti">
