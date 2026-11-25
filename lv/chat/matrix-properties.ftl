@@ -158,6 +158,14 @@ command-roomname = { $commandName } &lt;nosaukums&gt;: Iestata telpas nosaukumu.
 # $commandName is the command name
 command-detail = { $commandName }: Parādīt detalizētu informāciju par telpu.
 # $commandName is the command name
+command-addalias = { $commandName } &lt;alias&gt;: Izveido telpas aizstājvārdu. Telpas aizstājvārdam jābūt formātā ‘#localname:domain’. Lai pievienotu aizstājvārdus, nepieciešama atļauja.
+# $commandName is the command name
+command-removealias = { $commandName } &lt;alias&gt;: Noņem telpas aizstājvārdu. Telpas aizstājvārdam jābūt formātā “#localname:domain”. Nepieciešama atļauja aizstājvārdu noņemšanai.
+# $commandName is the command name
+command-upgraderoom = { $commandName } &lt;newVersion&gt;: Jaunina telpu uz norādīto versiju. Nepieciešama telpas jaunināšanas atļauja.
+# $commandName is the command name
+command-me = { $commandName } &lt;action&gt;: Izpildīt darbību.
+# $commandName is the command name
 command-join = { $commandName } & lt; roomId & gt ;: Pievienoties dotajai telpai.
 # LOCALIZATION NOTE (message-*):
 #    These are shown as system messages in the conversation.
@@ -172,9 +180,91 @@ message-accepted-invite = { $user } pieņēma uzaicinājumu.
 #    $user is the name of the user who invited.
 #    $userWhoGotInvited is the name of the user who got invited.
 message-invited = { $user } uzaicnāja { $userWhoGotInvited }.
+#    $user is the name of the user who changed their display name.
+#    $oldDisplayName is the old display name.
+#    $newDisplayName is the new display name.
+message-display-name-changed = { $user } nomainīja savu parādāmo vārdu no { $oldDisplayName } uz { $newDisplayName }.
+#    $user is the name of the user who set their display name.
+#    $changedName is the newly set display name.
+message-display-name-set = Lietotājs { $user } iestatīja savu parādāmo vārdu uz { $changedName }.
+#    $user is the name of the user who removed their display name.
+#    $nameRemoved is the old display name which has been removed.
+message-display-name-remove = Lietotājs { $user } noņēma savu parādāmo vārdu { $nameRemoved }.
+#    $user is the name of the user who has joined the room.
+message-joined = Lietotājs { $user } ir pievienojies telpai.
+#    $user is the name of the user who has rejected the invitation.
+message-rejected-invite = { $user } ir noraidījis ielūgumu.
+#    $user is the name of the user who has left the room.
+message-left = Lietotājs { $user } ir izgājis no telpas.
+#    $user is the name of the user who unbanned.
+#    $userUnbanned is the name of the user who got unbanned.
+message-unbanned = { $user } atcelts bloķējums { $userUnbanned }.
+#    $user is the name of the user who kicked.
+#    $userGotKicked is the name of the user who got kicked.
+message-kicked = { $user } izmests { $userGotKicked }.
+#    $user is the name of the user who kicked.
+#    $userGotKicked is the name of the user who got kicked.
+#    $reason is the reason for the kick.
+message-kicked-with-reason = { $user } izmeta { $userGotKicked }. Iemesls: { $reason }
+#    $user is the name of the user who withdrew invitation.
+#    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
+message-withdrew-invite = Lietotājs { $user } atsauca lietotāja { $userInvitationWithwaided } ielūgumu.
+#    $user is the name of the user who withdrew invitation.
+#    $userInvitationWithdrawn is the name of the user whose invitation has been withdrawn.
+#    $reason is the reason the invite was withdrawn.
+message-withdrew-invite-with-reason = Lietotājs { $user } atsauca lietotāja { $userInvitationWithwaided } ielūgumu. Iemesls: { $reason }
+#    $user is the name of the user who has removed the room name.
+message-room-name-remove = { $user } noņēma telpas nosaukumu.
+#    $user is the name of the user who changed the room name.
+#    $newRoomName is the new room name.
+message-room-name-changed = { $user } nomainīja telpas nosaukumu uz { $newRoomName }.
+#    $user is the name of the user who changed the power level.
+#    $powerLevelChanges is a list of "message-power-level-from-to" strings representing power level changes separated by commas
+#    power level changes, separated by commas if  there are multiple changes.
+message-power-level-changed = { $user } mainīja lietotāja { $powerLevelChanges } spēka līmeni.
+#    $user is the name of the target user whose power level has been changed.
+#    $oldPowerLevel is the old power level.
+#    $newPowerLevel is the new power level.
+message-power-level-from-to = { $user } no { $oldPowerLevel } uz { $newPowerLevel }
+#    $user is the name of the user who has allowed guests to join the room.
+message-guest-allowed = Lietotājs { $user } ir atļāvis viesiem pievienoties telpai.
 #    $user is the name of the user who has prevented guests to join the room.
 message-guest-prevented = Lietotājs { $user } ir liedzis viesiem pievienoties telpai.
+#    $user is the name of the user who has made future room history visible to anyone.
+message-history-anyone = Lietotājs { $user } padarīja telpas turpmāko vēsturi redzamu ikvienam.
+#    $user is the name of the user who has made future room history visible to all room members.
+message-history-shared = Lietotājs { $user } padarīja turpmāko telpas vēsturi redzamu visiem telpas dalībniekiem.
+#    $user is the name of the user who has made future room history visible to all room members, from the point they are invited.
+message-history-invited = Lietotājs { $user } padarīja turpmāko telpas vēsturi redzamu visiem telpas dalībniekiem no brīža, kad viņi ir uzaicināti.
+#    $user is the name of the user who has made future room history visible to all room members, from the point they joined.
+message-history-joined = { $user } padarīja turpmāko telpas vēsturi redzamu visiem telpas dalībniekiem no brīža, kad viņi pievienojās.
+#    $user is the name of the user who changed the address.
+#    $oldAddress is the old address.
+#    $newAddress is the new address.
+message-alias-main = { $user } iestatīja šīs telpas galveno adresi no { $oldAddress } uz { $newAddress }.
+#    $user is the name of the user who added the address.
+#    $addresses is a comma delimited list of added addresses.
+message-alias-added = { $user } pievienoja { $addresses } kā alternatīvu adresi šai telpai.
+#    $user is the name of the user who removed the address.
+#    $addresses is a comma delimited list of removed addresses.
+message-alias-removed = { $user } noņēma { $addresses } kā šīs telpas alternatīvo adresi.
+#    $user is the name of the user that edited the alias addresses.
+#    $removedAddresses is a comma delimited list of removed addresses.
+#    $addedAddresses is a comma delmited list of added addresses.
+message-alias-removed-and-added = Lietotājs { $user } noņēma { $removedAddresses } un pievienoja { $addedAddresses } kā šīs telpas adresi.
+message-space-not-supported = Šī telpa nav atbalstīta.
+message-encryption-start = Šīs sarunas ziņojumi tagad ir pilnībā šifrēti.
+#    $user is the name of the user who sent the verification request.
+#    $userReceiving is the name of the user that is receiving the verification request.
+message-verification-request2 = { $user } vēlas verificēt { $userReceiving }.
+#    $user is the name of the user who cancelled the verification request.
+#    $reason is the reason given why the verification was cancelled.
+message-verification-cancel2 = { $user } atcēla verifikāciju ar šādu iemeslu: { $reason }
+message-verification-done = Verifikācija pabeigta.
 message-decryption-error2 = Nevarēja atšifrēt šī ziņojuma saturu. Šifrēšanas atslēgas automātiski tiks atkārtoti pieprasītas.
+message-decryption-error = Nevarēja atšifrēt šī ziņojuma saturu. Lai pieprasītu šifrēšanas atslēgas no citām ierīcēm, ar peles labo pogu noklikšķiniet uz šī ziņojuma.
+message-decrypting = Atšifrēšana…
+message-redacted = Ziņojums tika rediģēts.
 #    Label in the message context menu
 message-action-request-key = Atkārtoti pieprasīt atslēgas
 message-action-cancel = Atcelt ziņojumu
