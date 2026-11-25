@@ -10,7 +10,7 @@ send-alert-followup-to-sender = 此訊息寄件者要求只能回信給他。如
 send-unable-to-save-template = 無法將您的訊息儲存為範本。
 send-unable-to-save-draft = 無法將您的訊息儲存為草稿。
 send-error-failed = 訊息傳送失敗。
-send-error-configured-folder-missing = 找不到用來寄出郵件的資料夾。請選擇另一個資料夾後再試一次。
+send-error-configured-folder-missing = 找不到指定用來儲存寄件備份的信件匣。請選擇其他信件匣後再試一次。
 send-unable-to-send-later = 抱歉，我們無法儲存您的郵件以後再寄。
 # Variables:
 # $hostname - outgoing server hostname
