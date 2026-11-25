@@ -16,6 +16,7 @@ languages-customize-select-language =
 languages-customize-add =
     .label = Pievienot
     .accesskey = P
+messenger-languages-dialog-title = { -brand-short-name } valodu iestatījumi
 messenger-languages-description = { -brand-short-name } rādīs pirmo valodu kā noklusējumu, un, ja nepieciešams, citas valodas norādītajā secībā.
 messenger-languages-search = Meklēt citas valodas…
 messenger-languages-searching =
