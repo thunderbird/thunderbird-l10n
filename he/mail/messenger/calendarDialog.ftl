@@ -88,3 +88,32 @@ calendar-description-link =
     .aria-label = קישור
     .title = קישור
 calendar-description-link-popup = קישור
+calendar-description-link-address =
+    .aria-label = כתובת הקישור
+calendar-description-invalid-link = נא למלא כתובת קישור תקנית.
+calendar-description-apply-link = החלת קישור
+calendar-description-remove-link = הסרת קישור
+calendar-description-cancel-link = ביטול
+calendar-description-input =
+    .aria-label = תיאור
+calendar-description-frame =
+    .title = עורך התיאורים
+calendar-description-strikethrough =
+    .aria-label = קו חוצה
+    .title = קו חוצה
+calendar-description-undo =
+    .aria-label = ביטול פעולה
+    .title = ביטול פעולה
+calendar-description-redo =
+    .aria-label = ביצוע שוב
+    .title = ביצוע שוב
+calendar-event-add-guests = הוספת אורחים
+calendar-event-add-guests-expand-icon =
+    .alt = הוספת אורחים
+# Variables:
+#   $count (Number): Number of invited guests, including the organizer.
+calendar-event-guests-invited =
+    { $count ->
+        [one] אורח אחד הוזמן
+       *[other] { $count } אורחים הוזמנו
+    }

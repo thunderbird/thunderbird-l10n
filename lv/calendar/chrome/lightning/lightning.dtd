@@ -32,7 +32,7 @@
 <!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext2 "Šī opcija ir pieejama tikai tad, ja kalendāra serveris apstrādā plānošanu. Iespējojot to, varēsiet atgriezties pie standarta epasta plānošanas, nevis atstāt to servera ziņā.">
 <!-- The notifications settings in the properties dialog -->
 <!ENTITY lightning.calendarproperties.notifications.label "Paziņojumi">
-<!ENTITY lightning.calendarproperties.globalNotifications.label "Visaptverošie paziņojumu iestatījumi…">
+<!ENTITY lightning.calendarproperties.globalNotifications.label "Visaptverošās paziņojumu izvēles…">
 <!-- iMIP Bar (meeting support) -->
 <!ENTITY lightning.imipbar.btnAccept.label "Pieņemt">
 <!ENTITY lightning.imipbar.btnAccept2.tooltiptext "Pieņemt pasākuma ielūgumu">
