@@ -68,5 +68,10 @@
 <!ENTITY lightning.imipbar.btnUpdate.label "Atjauninājums">
 <!ENTITY lightning.imipbar.btnUpdate.tooltiptext "Atjaunināt notikumu kalendārā">
 <!ENTITY lightning.imipbar.description "Šajā ziņojumā ir ielūgums uz notikumu.">
+<!ENTITY lightning.imipbar.btnSend.label "Sūtīt atbildi tūlīt">
+<!ENTITY lightning.imipbar.btnSend.tooltiptext "Nosūtīt atbildi organizatoram">
+<!ENTITY lightning.imipbar.btnSendSeries.tooltiptext "Nosūtīt organizatoram atbildi par visu pasākumu sēriju">
+<!ENTITY lightning.imipbar.btnDontSend.label "Nesūtiet atbildi">
+<!ENTITY lightning.imipbar.btnDontSend.tooltiptext "Mainīt dalības statusu, nesūtot atbildi organizatoram">
 <!ENTITY todaypane.showMiniday.label "Rādīt mini dienu">
 <!ENTITY todaypane.showTodayPane.label "Rādīt šodienas rūti">
