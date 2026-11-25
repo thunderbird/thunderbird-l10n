@@ -9,7 +9,7 @@ chat-autologin =
 chat-encryption-generic = Generig
 chat-encryption-log =
     .label = Cynnwys negeseuon wedi'u hamgryptio o'r dechrau i'r diwedd mewn cofnodion sgwrsio
-chat-encryption-label = Amgryptio Cynhenid o'r Dechrau i'r Diwedd
+chat-encryption-label = Amgryptio Mewnol o'r Dechrau i'r Diwedd
 # Variables:
 # $protocol (String) - Name of the chat protocol. Example: Matrix
 chat-encryption-description = Mae { $protocol } yn darparu amgryptio o'r dechrau i'r diwedd ar gyfer negeseuon sgwrsio. Mae hyn yn atal trydydd parti rhag clustfeinio ar sgyrsiau. Efallai y bydd angen camau gosod ychwanegol isod er mwyn i'r amgryptio fod yn weithredol.

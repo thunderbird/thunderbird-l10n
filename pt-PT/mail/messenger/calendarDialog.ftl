@@ -249,6 +249,13 @@ calendar-description-redo =
 calendar-event-add-guests = Adicionar convidados
 calendar-event-add-guests-expand-icon =
     .alt = Adicionar convidados
+# Variables:
+#   $count (Number): Number of invited guests, including the organizer.
+calendar-event-guests-invited =
+    { $count ->
+        [one] { $count } participante convidado
+       *[other] { $count } participantes convidados
+    }
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".

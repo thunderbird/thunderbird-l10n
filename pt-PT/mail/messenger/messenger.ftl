@@ -477,6 +477,9 @@ decrypt-and-copy-failures-multiple =
 # list, when at least one filter or action failed.
 apply-filters-failed = A execução do filtro não foi concluída com sucesso. Verifique o histórico do filtro para mais detalhes.
 apply-filters-failed-open-log-button = Abrir Histórico dos Filtros
+archive-message-error-title = Erro ao arquivar mensagem
+archive-message-error = As mensagens selecionadas não puderam ser arquivadas.
+archive-folder-missing = Não foi possível encontrar a pasta de arquivo para esta identidade. Selecione uma pasta diferente e tente novamente.
 
 ## Spaces toolbar
 

@@ -10,6 +10,7 @@ send-alert-followup-to-sender = O autor desta mensagem pediu que a resposta foss
 send-unable-to-save-template = Não foi possível guardar a sua mensagem como modelo.
 send-unable-to-save-draft = Não foi possível guardar a sua mensagem como rascunho.
 send-error-failed = Falha ao enviar mensagem.
+send-error-configured-folder-missing = Não foi possível encontrar a pasta selecionada para as mensagens enviadas. Escolha uma pasta diferente e tente novamente.
 send-unable-to-send-later = Desculpe mas não foi possível guardar a sua mensagem para envio posterior.
 # Variables:
 # $hostname - outgoing server hostname
