@@ -524,7 +524,52 @@ apply-current-view-to-folder-message = Vai lietot pašreizējās mapes skatu uz 
 # Variables:
 #  $name (String): The name of the folder to apply to.
 apply-current-view-to-folder-with-children-message = Vai lietot pašreizējās mapes skatu uz { $name } un zemākām mapēm?
+# Variables:
+# $total (Number) - Number of messages in thread.
+threadpane-sort-header-count =
+    { $total ->
+        [one] 1 vēstule
+        [zero] <span>{ $total }, <span> vēstules
+       *[other] <span>{ $total }, <span> vēstules
+    }
+threadpane-card-menu-button =
+    .title = Vēstuļu izvēlne
+message-list-placeholder-no-messages = Nav atrasts neviens vēstule
 message-list-placeholder-multiple-folders = Atlasītas vairākas mapes
+
+## Folder pane context menu
+
+# Variables:
+# $count (Number) - Number of selected folders.
+folder-pane-context-mark-folder-read =
+    .label =
+        { $count ->
+            [one] Atzīmēt mapi kā lasītu
+            [zero] Atzīmēt mapes kā izlasītas
+           *[other] Atzīmēt mapes kā izlasītas
+        }
+    .accesskey = k
+# Note: We also use the R accesskey for the Rename label but both can't be
+# visible at the same time, so it's safe.
+folder-pane-context-reset-sort =
+    .label = Atiestatīt mapju secību
+    .accesskey = s
+# Variables:
+# $count (Number) - One or more than one folder selected for compacting
+folder-pane-context-compact =
+    .label =
+        { $count ->
+            [1] Saspiesta mape
+            [zero] Saspiest mapes
+            [one] Saspiest mapi
+           *[other] Saspiest mapes
+        }
+    .accesskey = a
+# One or more servers selected for compacting ALL their folders. Only this or
+# folder-pane-context-compact string will appear at a time, not both.
+folder-pane-context-compact-all =
+    .label = Saspiest visas mapes
+    .accesskey = v
 
 ## Confirmation prompts shown before deleting a folder.
 

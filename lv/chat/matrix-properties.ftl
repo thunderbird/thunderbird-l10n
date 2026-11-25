@@ -150,6 +150,14 @@ command-topic = { $commandName }&lt;topic&gt;: Iestata telpas tēmu. Lai mainīt
 # $commandName is the command name
 command-unban = { $commandName } &lt;userId&gt;: Atcelt lietotāja, kuram ir aizliegta piekļuve telpai, bloķēšanu. Lietotāju bloķēšanai nepieciešama atļauja.
 # $commandName is the command name
+command-visibility = { $commandName } [&lt;visibility&gt;]: Iestata pašreizējās telpas redzamību pašreizējā mājas servera telpu direktorijā. Ievadiet veselu skaitli: Privāts: 0 un Publisks: 1. Noklusējuma vērtība būs Privāts (0), ja netiek norādīts arguments. Nepieciešama atļauja, lai mainītu telpas redzamību.
+# $commandName is the command name
+command-guest = { $commandName } &lt;viesu piekļuve&gt; &lt;vēstures redzamība&gt;: Iestatiet vieslietotāju piekļuvi pašreizējai telpai un tās vēstures redzamību. Ievadiet divus veselus skaitļus: pirmais norāda viesu piekļuvi (liegta: 0, atļauta: 1), bet otrais — vēstures redzamību (nav redzama: 0, ir redzama: 1). Nepieciešama atļauja mainīt vēstures redzamību.
+# $commandName is the command name
+command-roomname = { $commandName } &lt;nosaukums&gt;: Iestata telpas nosaukumu. Lai to mainītu, nepieciešama atļauja.
+# $commandName is the command name
+command-detail = { $commandName }: Parādīt detalizētu informāciju par telpu.
+# $commandName is the command name
 command-join = { $commandName } & lt; roomId & gt ;: Pievienoties dotajai telpai.
 # LOCALIZATION NOTE (message-*):
 #    These are shown as system messages in the conversation.
