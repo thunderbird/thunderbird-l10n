@@ -14,6 +14,7 @@ policy-3rdparty = Ange policyer som WebExtensions kan komma åt via chrome.stora
 policy-AppAutoUpdate = Aktivera eller inaktivera automatisk applikationsuppdatering.
 policy-AppUpdatePin = Förhindra att { -brand-short-name } uppdateras utöver den angivna versionen.
 policy-AppUpdateURL = Ange webbadress för anpassad appuppdatering.
+policy-Authentication2 = Konfigurera integrerad autentisering för webbplatser som stöder det och vilka HTTP-autentiseringsscheman som är inaktiverade.
 policy-Authentication = Konfigurera integrerad autentisering för webbplatser som stöder den.
 policy-BackgroundAppUpdate2 = Aktivera eller inaktivera uppdateringar i bakgrunden.
 policy-BlockAboutAddons = Blockera åtkomst till tilläggshanteraren (about:addons).
