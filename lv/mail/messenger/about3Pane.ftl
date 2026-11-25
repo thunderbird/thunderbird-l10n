@@ -206,38 +206,90 @@ folder-pane-mode-header-favorite = Izlases mapes
 folder-pane-mode-header-recent = Nesenākās mapes
 folder-pane-mode-header-smart = Apvienotās mapes
 folder-pane-mode-header-tags = Birkas
+folder-pane-mode-context-button =
+    .title = Mapju režīma iestatījumi
 folder-pane-mode-context-toggle-compact-mode =
     .label = Ciešs skats
     .accesskey = C
+folder-pane-mode-move-up =
+    .label = Pārcelt augstāk
+folder-pane-mode-move-down =
+    .label = Nolaist lejup
+# Variables:
+# $count (Number) - Number of unread messages.
+folder-pane-unread-aria-label =
+    { $count ->
+        [one] 1 nelasīta vēstule
+        [zero] { $count } nelasītas vēstules
+       *[other] { $count } nelasītas vēstules
+    }
+# Variables:
+# $count (Number) - Number of total messages.
+folder-pane-total-aria-label =
+    { $count ->
+        [one] 1 vēstule
+        [zero] Kopā { $count } vēstules
+       *[other] Kopā { $count } vēstules
+    }
 
 ## Message thread pane
 
 threadpane-column-header-select =
     .title = Pārslēgt visu vēstuļu atlasi
+threadpane-column-header-select-all =
+    .title = Iezīmēt visas vēstules
 threadpane-column-header-deselect-all =
     .title = Noņemt atlasi visiem ziņojumiem
 threadpane-column-label-select =
     .label = Atlasīt vēstules
+threadpane-cell-select =
+    .aria-label = Atlasīt vēstuli
+threadpane-column-header-a11y-thread =
+    .aria-label = Sarakstes statuss
+threadpane-column-header-thread =
+    .title = Rādīt vai paslēpt ziņojumu sarakstes
 threadpane-column-label-thread =
     .label = Pavediens
+threadpane-cell-thread =
+    .aria-label = Sarakstes statuss
 threadpane-column-header-a11y-flagged =
     .aria-label = Zvaigžņotas
 threadpane-column-header-flagged =
     .title = Kārtot pēc zvaigznītēm
 threadpane-column-label-flagged =
     .label = Zvaigžņotas
+threadpane-cell-flagged =
+    .aria-label = Zvaigžņotas
+threadpane-flagged-cell-label = Zvaigžņotas
 threadpane-column-header-a11y-attachments =
     .aria-label = Pielikumi
 threadpane-column-header-attachments =
     .title = Kārtot pēc pielikumiem
 threadpane-column-label-attachments =
     .label = Pielikumi
+threadpane-cell-attachments =
+    .aria-label = Pielikumi
+threadpane-attachments-cell-label = Pielikumi
 threadpane-column-header-a11y-spam =
     .aria-label = Mēstules
+threadpane-column-header-spam =
+    .title = Kārtot pēc mēstuļu statusa
 threadpane-column-label-spam =
     .label = Mēstules
+threadpane-cell-spam =
+    .aria-label = Mēstules
 threadpane-spam-cell-label = Mēstules
+threadpane-column-header-a11y-unread-button =
+    .aria-label = Izlasītas
+threadpane-column-header-unread-button =
+    .title = Izlasītas / Nelasītas
+threadpane-column-label-unread-button =
+    .label = Izlasītas
+threadpane-cell-read-status =
+    .aria-label = Izlasītas
 threadpane-new-cell-label = Jauns
+threadpane-read-cell-label = Lasīta
+threadpane-unread-cell-label = Nelasītas
 threadpane-column-header-a11y-sender =
     .aria-label = No
 threadpane-column-header-sender = No
