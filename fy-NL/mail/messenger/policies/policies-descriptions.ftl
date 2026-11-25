@@ -14,6 +14,7 @@ policy-3rdparty = Beliedsrigels ynstelle dy’t troch WebExtensions tagong hawwe
 policy-AppAutoUpdate = Automatyske applikaasjefernijing yn- of útskeakelje.
 policy-AppUpdatePin = Foarkomme dat { -brand-short-name } fernijd wurdt foarby de opjûne ferzje.
 policy-AppUpdateURL = Oanpaste app-fernijings-URL ynstelle.
+policy-Authentication2 = Yntegrearre autentikaasje konfigurearje foar websites dy’t dit stypje, en hokker HTTP-autentikaasjeskema’s útskeakele binne.
 policy-Authentication = Yntegrearre ferifikaasje konfigurearje foar websiden dy’t it stypje.
 policy-BackgroundAppUpdate2 = Eftergrûnfernijingen yn- of útskeakelje.
 policy-BlockAboutAddons = Tagong ta de add-ons-behearder (about:addons) blokkearje.
