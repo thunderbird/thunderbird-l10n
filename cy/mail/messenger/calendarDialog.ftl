@@ -258,15 +258,15 @@ calendar-description-link =
     .title = Dolen
 calendar-description-link-popup = Dolen
 calendar-description-link-address =
-    .aria-label = Cyfeiriad cyswllt
-calendar-description-invalid-link = Rhowch gyfeiriad cyswllt dilys.
-calendar-description-apply-link = Gwneud cais dolen
-calendar-description-remove-link = Dileu cyswllt
+    .aria-label = Cyfeiriad dolen
+calendar-description-invalid-link = Rhowch gyfeiriad dolen dilys.
+calendar-description-apply-link = Gosod dolen
+calendar-description-remove-link = Dileu dolen
 calendar-description-cancel-link = Diddymu
 calendar-description-input =
     .aria-label = Disgrifiad
 calendar-description-frame =
-    .title = Golygydd disgrifiad
+    .title = Golygydd disgrifiadau
 calendar-description-strikethrough =
     .aria-label = Taro drwodd
     .title = Taro drwodd
@@ -284,11 +284,11 @@ calendar-event-add-guests-expand-icon =
 calendar-event-guests-invited =
     { $count ->
         [one] { $count } gwestai wedi'i wahodd
-        [zero] { $count } o westeion wedi'u gwahodd
-        [two] { $count } o westeion wedi'u gwahodd
-        [few] { $count } o westeion wedi'u gwahodd
-        [many] { $count } o westeion wedi'u gwahodd
-       *[other] { $count } o westeion wedi'u gwahodd
+        [zero] { $count } gwestai wedi'u gwahodd
+        [two] { $count } westai wedi'u gwahodd
+        [few] { $count } gwestai wedi'u gwahodd
+        [many] { $count } gwestai wedi'u gwahodd
+       *[other] { $count } gwestai wedi'u gwahodd
     }
 
 ## These strings are formatted as a list using Intl.Listformat,

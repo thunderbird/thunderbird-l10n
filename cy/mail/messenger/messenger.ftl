@@ -522,11 +522,11 @@ decrypt-and-copy-failures-multiple =
 apply-filters-failed = Heb gwblhau rhedeg yr hidlydd yn llwyddiannus. Gwiriwch y cofnod hidlo am fanylion.
 apply-filters-failed-open-log-button = Agor Cofnod Hidlo
 archive-message-error-title = Gwall neges archif
-archive-message-error = Nid oedd modd archifo'r negeseuon a ddewiswyd.
-archive-folder-missing = Nid oedd modd dod o hyd i'r ffolder archifau ar gyfer yr hunaniaeth hon. Dewiswch ffolder gwahanol a rhowch gynnig arall arni.
+archive-message-error = Doedd dim modd archifo'r negeseuon dewiswyd.
+archive-folder-missing = Doedd dim modd dod o hyd i'r ffolder archifau ar gyfer yr hunaniaeth hon. Dewiswch ffolder gwahanol a rhowch gynnig arall arni.
 save-template-error-title = Cadw gwall templed
-save-template-error = Nid oedd modd cadw'r neges fel templed.
-template-folder-missing = Nid oedd modd dod o hyd i'r ffolder templedi a ddewiswyd. Dewiswch ffolder gwahanol a cheisiwch eto.
+save-template-error = Doedd dim modd cadw'r neges fel templed.
+template-folder-missing = Doedd dim modd dod o hyd i'r ffolder templedi dewiswyd. Dewiswch ffolder gwahanol a cheisio eto.
 
 ## Spaces toolbar
 

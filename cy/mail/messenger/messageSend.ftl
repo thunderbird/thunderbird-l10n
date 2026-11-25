@@ -10,7 +10,7 @@ send-alert-followup-to-sender = Mae awdur y neges yn gofyn bod ymateb yn cael ei
 send-unable-to-save-template = Methu cadw eich neges fel templed.
 send-unable-to-save-draft = Methu cadw eich negeseuon ar ffurf drafft.
 send-error-failed = Methwyd anfon neges.
-send-error-configured-folder-missing = Nid oedd modd dod o hyd i'r ffolder a ddewiswyd ar gyfer negeseuon a anfonwyd. Dewiswch ffolder gwahanol a cheisiwch eto.
+send-error-configured-folder-missing = Doedd dim modd dod o hyd i'r ffolder dewiswyd ar gyfer negeseuon anfonwyd. Dewiswch ffolder gwahanol a cheisio eto.
 send-unable-to-send-later = Ymddiheuriadau, nid oedd modd cadw eich neges i'w hanfon yn hwyrach.
 # Variables:
 # $hostname - outgoing server hostname
