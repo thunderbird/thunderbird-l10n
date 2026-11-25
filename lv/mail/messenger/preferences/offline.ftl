@@ -4,6 +4,10 @@
 
 offline-dialog-title = Nesaistes iestatījumi
 offline-startup-label = Kad atver { -brand-short-name }
+status-radio-start-offline =
+    .label = Sākt bezsaistē
+    .accesskey = S
+going-offline-prompt = Vai vēlaties lejupielādēt ziņojumus lasīšanai bezsaistē?
 autodetect-online-label =
     .label = Automātiski sekot vai parādās tiešsaiste
     .accesskey = A

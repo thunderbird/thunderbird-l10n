@@ -233,6 +233,9 @@ attachment-reminder-keywords-msg =
 # $link (string) - html a-tag for a link pointing to the web page of the provider
 cloud-file-service-provider-footer-single = Uzzināt vairāk par { $link }.
 cloud-file-connection-error-title = Savienojuma kļūda
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+cloud-file-connection-error = { -brand-short-name } ir bezsaistē. Nevarēja izveidot savienojumu ar { $provider }.
 cloud-file-authentication-error-title = Autentifikācijas kļūda
 # Variables:
 # $provider - name of the online storage service
