@@ -34,6 +34,9 @@ calendar-event-prompt-edit-title = עריכת אירוע
 
 calendar-event-categories = קטגוריות
 calendar-event-add-category = הוספת קטגוריה
+calendar-event-category-name =
+    .aria-label = הוספת קטגוריה חדשה
+    .placeholder = הוספת קטגוריה חדשה
 calendar-event-category-choices =
     .aria-label = קטגוריות זמינות
 calendar-event-selected-categories =
@@ -63,3 +66,25 @@ calendar-event-video-url =
 calendar-event-video-url-clear =
     .aria-label = ניקוי כתובת האתר של הוידאו
     .title = ניקוי כתובת האתר של הוידאו
+
+## Description controls in the event create/edit dialog.
+
+calendar-event-add-description = הוספת תיאור
+calendar-description-formatting =
+    .aria-label = עיצוב טקסט
+calendar-description-bold =
+    .aria-label = מודגש
+    .title = מודגש
+calendar-description-italic =
+    .aria-label = נטוי
+    .title = נטוי
+calendar-description-bulleted-list =
+    .aria-label = רשימת תבליטים
+    .title = רשימת תבליטים
+calendar-description-numbered-list =
+    .aria-label = רשימה ממוספרת
+    .title = רשימה ממוספרת
+calendar-description-link =
+    .aria-label = קישור
+    .title = קישור
+calendar-description-link-popup = קישור
