@@ -477,6 +477,12 @@ decrypt-and-copy-failures-multiple =
 # list, when at least one filter or action failed.
 apply-filters-failed = Iragazki-prozesua ez da behar bezala amaitu. Kontsultatu iragazkiaren erregistroa xehetasunak lortzeko.
 apply-filters-failed-open-log-button = Ireki iragazki-erregistroa
+archive-message-error-title = Mezua artxibatzean errorea
+archive-message-error = Aukeratutako mezuak ezin izan dira artxibatu.
+archive-folder-missing = Ezin izan da aurkitu identitate honetarako artxibo-karpeta. Hautatu beste karpeta bat eta saiatu berriro.
+save-template-error-title = Errorea txantiloia gordetzean
+save-template-error = Mezua ezin izan da txantiloi gisa gorde.
+template-folder-missing = Ezin izan da hautatutako txantiloien karpeta aurkitu. Aukeratu beste karpeta bat eta saiatu berriro.
 
 ## Spaces toolbar
 

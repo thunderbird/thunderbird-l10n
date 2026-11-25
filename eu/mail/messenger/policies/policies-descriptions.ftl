@@ -14,6 +14,7 @@ policy-3rdparty = Ezarri politikak WebExtension gehigarriek chrome.storage.manag
 policy-AppAutoUpdate = Gaitu edo desgaitu aplikazioaren eguneraketa automatikoa.
 policy-AppUpdatePin = Eragotzi { -brand-short-name } eguneratzea bertsio zehatz batetik aurrera.
 policy-AppUpdateURL = Ezarri aplikazioa-eguneraketen URL pertsonalizatua
+policy-Authentication2 = Konfiguratu autentifikazio integratua hori onartzen duten webguneetarako, eta zehaztu zein HTTP autentifikazio-eskema dauden desgaituta.
 policy-Authentication = Konfiguratu onartzen duten webguneentzat integratutako autentifikazioa.
 policy-BackgroundAppUpdate2 = Gaitu edo desgaitu atzeko planoko eguneraketak.
 policy-BlockAboutAddons = Blokeatu gehigarrien kudeatzailerako sarbidea (about:addons).

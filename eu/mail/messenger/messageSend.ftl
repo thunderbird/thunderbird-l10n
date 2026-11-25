@@ -10,6 +10,7 @@ send-alert-followup-to-sender = Mezuaren egileak erantzunak berari bakarrik bida
 send-unable-to-save-template = Ezin da mezua txantiloi gisa gorde.
 send-unable-to-save-draft = Ezin da mezua zirriborro gisa gorde.
 send-error-failed = Huts egin du mezua bidaltzeak.
+send-error-configured-folder-missing = Ezin izan da aurkitu bidalitako mezuentzat hautatutako karpeta. Aukeratu beste karpeta bat eta saiatu berriro.
 send-unable-to-send-later = Barkatu, ezin izan da zure irteerako mezua gorde.
 # Variables:
 # $hostname - outgoing server hostname

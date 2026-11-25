@@ -165,6 +165,9 @@ calendar-event-prompt-edit-title = Gebeurtenis bewerken
 
 calendar-event-categories = Categorieën
 calendar-event-add-category = Categorie toevoegen
+calendar-event-category-name =
+    .aria-label = Een nieuwe categorie toevoegen
+    .placeholder = Een nieuwe categorie toevoegen
 calendar-event-category-choices =
     .aria-label = Beschikbare categorieën
 calendar-event-selected-categories =
@@ -191,6 +194,63 @@ calendar-event-video-label = Video
 calendar-event-video-url-clear =
     .aria-label = Video-URL wissen
     .title = Video-URL wissen
+
+## Description controls in the event create/edit dialog.
+
+calendar-event-add-description = Voeg beschrijving toe
+calendar-description-formatting =
+    .aria-label = Tekstopmaak
+calendar-description-bold =
+    .aria-label = Vet
+    .title = Vet
+calendar-description-italic =
+    .aria-label = Cursief
+    .title = Cursief
+calendar-description-bulleted-list =
+    .aria-label = Opsommingslijst
+    .title = Opsommingslijst
+calendar-description-numbered-list =
+    .aria-label = Genummerde lijst
+    .title = Genummerde lijst
+calendar-description-indent =
+    .aria-label = Inspringen
+    .title = Inspringen
+calendar-description-outdent =
+    .aria-label = Uitspringen
+    .title = Uitspringen
+calendar-description-link =
+    .aria-label = Koppeling
+    .title = Koppeling
+calendar-description-link-popup = Koppeling
+calendar-description-link-address =
+    .aria-label = Adres koppelen
+calendar-description-invalid-link = Voer een geldig koppeladres in.
+calendar-description-apply-link = Koppeling toepassen
+calendar-description-remove-link = Koppeling verwijderen
+calendar-description-cancel-link = Annuleren
+calendar-description-input =
+    .aria-label = Beschrijving
+calendar-description-frame =
+    .title = Beschrijvingseditor
+calendar-description-strikethrough =
+    .aria-label = Doorhalen
+    .title = Doorhalen
+calendar-description-undo =
+    .aria-label = Ongedaan maken
+    .title = Ongedaan maken
+calendar-description-redo =
+    .aria-label = Opnieuw uitvoeren
+    .title = Opnieuw uitvoeren
+calendar-event-add-guests = Gasten toevoegen
+calendar-event-add-guests-expand-icon =
+    .alt = Gasten toevoegen
+# Variables:
+#   $count (Number): Number of invited guests, including the organizer.
+calendar-event-guests-invited =
+    { $count ->
+        [one] { $count } gast uitgenodigd
+       *[other] { $count } gasten uitgenodigd
+    }
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".

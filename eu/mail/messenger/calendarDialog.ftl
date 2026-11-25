@@ -166,6 +166,9 @@ calendar-event-prompt-edit-title = Editatu gertaera
 
 calendar-event-categories = Kategoriak
 calendar-event-add-category = Gehitu kategoria
+calendar-event-category-name =
+    .aria-label = Gehitu kategoria berria
+    .placeholder = Gehitu kategoria berria
 calendar-event-category-choices =
     .aria-label = Eskura dauden kategoriak
 calendar-event-selected-categories =
@@ -185,6 +188,66 @@ calendar-event-more-categories = +{ $count } gehiago
             [one] + kategoria { $count } gehiago
            *[other] +{ $count } kategoria gehiago
         }
+
+## Video row in the event create/edit dialog.
+
+calendar-event-video-label = Bideoa
+calendar-event-video-url =
+    .aria-label = Bideoaren URL
+    .placeholder = Sartu URL bideorako
+calendar-event-video-url-clear =
+    .aria-label = Garbitu bideo URL
+    .title = Garbitu bideo URL
+
+## Description controls in the event create/edit dialog.
+
+calendar-event-add-description = Gehitu azalpena
+calendar-description-formatting =
+    .aria-label = Testuaren formatua
+calendar-description-bold =
+    .aria-label = Lodia
+    .title = Lodia
+calendar-description-italic =
+    .aria-label = Etzana
+    .title = Etzana
+calendar-description-bulleted-list =
+    .aria-label = Buletdun zerrenda
+    .title = Buletdun zerrenda
+calendar-description-numbered-list =
+    .aria-label = Zenbakidun zerrenda
+    .title = Zenbakidun zerrenda
+calendar-description-indent =
+    .aria-label = koska jarri
+    .title = koska jarri
+calendar-description-outdent =
+    .aria-label = Atera
+    .title = Atera
+calendar-description-link =
+    .aria-label = Lotura
+    .title = Lotura
+calendar-description-link-popup = Lotura
+calendar-description-link-address =
+    .aria-label = Loturaren helbidea
+calendar-description-invalid-link = Idatzi lotura baten baliozko helbidea.
+calendar-description-apply-link = Erabili lotura
+calendar-description-remove-link = Kendu lotura
+calendar-description-cancel-link = Utzi
+calendar-description-input =
+    .aria-label = Azalpena
+calendar-description-frame =
+    .title = Azalpen editorea
+calendar-description-strikethrough =
+    .aria-label = Marratua
+    .title = Marratua
+calendar-description-undo =
+    .aria-label = Desegin
+    .title = Desegin
+calendar-description-redo =
+    .aria-label = Berregin
+    .title = Berregin
+calendar-event-add-guests = Gehitu gonbidatua
+calendar-event-add-guests-expand-icon =
+    .alt = Gehitu gonbidatuak
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".

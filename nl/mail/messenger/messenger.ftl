@@ -477,6 +477,7 @@ decrypt-and-copy-failures-multiple =
 # list, when at least one filter or action failed.
 apply-filters-failed = De filterrun is niet met succes voltooid. Raadpleeg het filterlogboek voor details.
 apply-filters-failed-open-log-button = Filterlogboek openen
+save-template-error-title = Fout bij opslaan van sjabloon
 
 ## Spaces toolbar
 
