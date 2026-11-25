@@ -168,6 +168,9 @@ calendar-event-prompt-edit-title = Barren bewurkje
 
 calendar-event-categories = Kategoryen
 calendar-event-add-category = Kategory tafoegje
+calendar-event-category-name =
+    .aria-label = In nije kategory tafoegje
+    .placeholder = In nije kategory tafoegje
 calendar-event-category-choices =
     .aria-label = Beskikbere kategoryen
 calendar-event-selected-categories =
@@ -197,6 +200,63 @@ calendar-event-video-url =
 calendar-event-video-url-clear =
     .aria-label = Fideo-URL wiskje
     .title = Fideo-URL wiskje
+
+## Description controls in the event create/edit dialog.
+
+calendar-event-add-description = Foegje beskriuwing ta
+calendar-description-formatting =
+    .aria-label = Tekstopmaak
+calendar-description-bold =
+    .aria-label = Fet
+    .title = Fet
+calendar-description-italic =
+    .aria-label = Skreef
+    .title = Skreef
+calendar-description-bulleted-list =
+    .aria-label = Opsommingslist
+    .title = Opsommingslist
+calendar-description-numbered-list =
+    .aria-label = Nûmere list
+    .title = Nûmere list
+calendar-description-indent =
+    .aria-label = Ynspringe
+    .title = Ynspringe
+calendar-description-outdent =
+    .aria-label = Utspringe
+    .title = Utspringe
+calendar-description-link =
+    .aria-label = Keppeling
+    .title = Keppeling
+calendar-description-link-popup = Keppeling
+calendar-description-link-address =
+    .aria-label = Adres keppelje
+calendar-description-invalid-link = Fier in jildich keppeladres yn.
+calendar-description-apply-link = Keppeling tapasse
+calendar-description-remove-link = Keppeling fuortsmite
+calendar-description-cancel-link = Annulearje
+calendar-description-input =
+    .aria-label = Beskriuwing
+calendar-description-frame =
+    .title = Beskriuwingsbewurker
+calendar-description-strikethrough =
+    .aria-label = Trochstreekje
+    .title = Trochstreekje
+calendar-description-undo =
+    .aria-label = Ungedien meitsje
+    .title = Ungedien meitsje
+calendar-description-redo =
+    .aria-label = Opnij útfiere
+    .title = Opnij útfiere
+calendar-event-add-guests = Gasten tafoegje
+calendar-event-add-guests-expand-icon =
+    .alt = Gasten tafoegje
+# Variables:
+#   $count (Number): Number of invited guests, including the organizer.
+calendar-event-guests-invited =
+    { $count ->
+        [one] { $count } gast útnûge
+       *[other] { $count } gasten útnûge
+    }
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".
