@@ -768,7 +768,7 @@
 <!ENTITY bringAllToFront.label "Nest visu uz priekšplānu">
 <!ENTITY zoomWindow.label "Tālummaiņa">
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
-<!ENTITY preferencesCmdMac2.label "Iestatījumi">
+<!ENTITY preferencesCmdMac2.label "Izvēles">
 <!-- Mac OS X Application Menu (Cocoa widgets) -->
 <!ENTITY preferencesCmdMac.commandkey ",">
 <!ENTITY preferencesCmdMac.modifiers "paātr">
