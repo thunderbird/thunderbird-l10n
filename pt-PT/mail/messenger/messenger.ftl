@@ -480,6 +480,9 @@ apply-filters-failed-open-log-button = Abrir Histórico dos Filtros
 archive-message-error-title = Erro ao arquivar mensagem
 archive-message-error = As mensagens selecionadas não puderam ser arquivadas.
 archive-folder-missing = Não foi possível encontrar a pasta de arquivo para esta identidade. Selecione uma pasta diferente e tente novamente.
+save-template-error-title = Erro ao guardar modelo
+save-template-error = Não foi possível guardar a mensagem como um modelo.
+template-folder-missing = A pasta de modelos selecionada não foi encontrada. Escolha uma pasta diferente e tente novamente.
 
 ## Spaces toolbar
 
