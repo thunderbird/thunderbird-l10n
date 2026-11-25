@@ -187,6 +187,15 @@ repair-text-encoding-button =
     .label = תיקון קידוד טקסט
     .tooltiptext = ניחוש קידוד הטקסט הנכון בהסתמך על תוכן ההודעה
 
+## error messages
+
+archive-message-error-title = שגיאת הודעה בארכיון
+archive-message-error = לא ניתן היה לאחסן את ההודעות שנבחרו בארכיון.
+archive-folder-missing = לא ניתן היה למצוא את תיקיית הארכיון עבור זהות זו. נא לבחור בתיקייה אחרת ולנסות שוב.
+save-template-error-title = שגיאת שמירת תבנית
+save-template-error = לא ניתן היה לשמור את ההודעה כתבנית.
+template-folder-missing = לא ניתן היה למצוא את תיקיית התבניות שנבחרה. נא לבחור בתיקייה אחרת ולנסות שוב.
+
 ## Spaces toolbar
 
 settings-context-open-accounts-item =

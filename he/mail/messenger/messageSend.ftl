@@ -9,6 +9,7 @@ send-alert-queued-delivery-failed = אירעה שגיאה בעת העברת הה
 send-unable-to-save-template = אין אפשרות לשמור את ההודעה שלך כתבנית.
 send-unable-to-save-draft = לא ניתן לשמור את ההודעה שלך כטיוטה.
 send-error-failed = שליחת ההודעה נכשלה.
+send-error-configured-folder-missing = לא ניתן היה למצוא את התיקייה שנבחרה עבור הודעות שנשלחו. נא לבחור בתיקייה אחרת ולנסות שוב.
 # Variables:
 # $hostname - outgoing server hostname
 send-error-smtp-unknown-server = אירעה שגיאה בעת שליחת דוא״ל: השרת היוצא (SMTP) { $hostname } אינו מוכר. יכול להיות שהשרת אינו מוגדר כראוי. נא לוודא שהגדרות השרת היוצא (SMTP) שלך נכונות ולנסות שוב.

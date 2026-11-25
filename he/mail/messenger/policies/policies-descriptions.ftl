@@ -12,8 +12,11 @@
 
 policy-3rdparty = הגדרת מדיניות שהרחבות WebExtensions יכולות לגשת אליהן באמצעות chrome.storage.managed.
 policy-AppAutoUpdate = הפעלה או השבתה של עדכון אוטומטי ליישום.
+policy-AppUpdatePin = למנוע מ־{ -brand-short-name } להתעדכן מעבר לגרסה שצוינה.
 policy-AppUpdateURL = הגדרת כתובת מותאמת אישית לעדכון היישום.
+policy-Authentication2 = הגדרת תצורה של אימות משולב עבור אתרים התומכים בו, ואילו סכמות אימות HTTP מושבתות.
 policy-Authentication = הגדרת אימות משולב לאתרים שתומכים בזה.
+policy-BackgroundAppUpdate2 = הפעלה או השבתה של שירות המעדכן ברקע.
 policy-BlockAboutAddons = חסימת הגישה למנהל התוספות (about:addons).
 policy-BlockAboutConfig = חסימת הגישה לעמוד about:config.
 policy-BlockAboutProfiles = חסימת הגישה לעמוד about:profiles.
