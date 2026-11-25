@@ -10,6 +10,7 @@ send-alert-followup-to-sender = Autor této zprávy požaduje odpověď zaslat p
 send-unable-to-save-template = Vaši zprávu nelze uložit jako šablonu.
 send-unable-to-save-draft = Vaši zprávu nelze uložit jako koncept.
 send-error-failed = Poslání zprávy selhalo.
+send-error-configured-folder-missing = Složku vybranou pro ukládání odeslaných zpráv se nepodařilo najít. Vyberte jinou složku a zkuste to znovu.
 send-unable-to-send-later = Omlouváme se, ale nedařilo se uložit zprávy pro pozdější odeslání.
 # Variables:
 # $hostname - outgoing server hostname

@@ -497,6 +497,8 @@ decrypt-and-copy-failures-multiple =
 # list, when at least one filter or action failed.
 apply-filters-failed = Filtrování se nepodařilo úspěšně dokončit. Podrobnosti najdete v protokolu filtrování.
 apply-filters-failed-open-log-button = Otevřít protokol filtrů
+archive-message-error-title = Zprávu se nepodařilo archivovat
+archive-message-error = Vybrané zprávy se nepodařilo archivovat.
 
 ## Spaces toolbar
 

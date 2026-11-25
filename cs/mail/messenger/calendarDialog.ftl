@@ -174,6 +174,7 @@ calendar-event-availability-selector =
 calendar-event-availability-default = Výchozí
 calendar-event-availability-busy = Zaneprázdněn
 calendar-event-availability-free = Volno
+calendar-event-prompt-edit-header = Upravit jen tuto událost, nebo všechny její opakování?
 calendar-prompt-edit-confirm-button = Potvrdit
 calendar-event-prompt-edit-title = Upravit událost
 
@@ -199,6 +200,70 @@ calendar-event-remove-category =
 ## Video row in the event create/edit dialog.
 
 calendar-event-video-label = Video
+calendar-event-video-url =
+    .aria-label = URL videa
+    .placeholder = Vložte URL adresu videa
+calendar-event-video-url-clear =
+    .aria-label = Vymazat URL adresu videa
+    .title = Vymazat URL adresu videa
+
+## Description controls in the event create/edit dialog.
+
+calendar-event-add-description = Přidat popis
+calendar-description-formatting =
+    .aria-label = Formátování textu
+calendar-description-bold =
+    .aria-label = Tučné
+    .title = Tučné
+calendar-description-italic =
+    .aria-label = Kurzíva
+    .title = Kurzíva
+calendar-description-bulleted-list =
+    .aria-label = Bodový seznam
+    .title = Bodový seznam
+calendar-description-numbered-list =
+    .aria-label = Číslovaný seznam
+    .title = Číslovaný seznam
+calendar-description-indent =
+    .aria-label = Zvětšit odsazení
+    .title = Zvětšit odsazení
+calendar-description-outdent =
+    .aria-label = Zmenšit odsazení
+    .title = Zmenšit odsazení
+calendar-description-link =
+    .aria-label = Odkaz
+    .title = Odkaz
+calendar-description-link-popup = Odkaz
+calendar-description-link-address =
+    .aria-label = Adresa odkazu
+calendar-description-invalid-link = Zadejte platnou adresu URL.
+calendar-description-apply-link = Použít odkaz
+calendar-description-remove-link = Odebrat odkaz
+calendar-description-cancel-link = Zrušit
+calendar-description-input =
+    .aria-label = Popis
+calendar-description-frame =
+    .title = Editor popisu
+calendar-description-strikethrough =
+    .aria-label = Přeškrtnuté
+    .title = Přeškrtnuté
+calendar-description-undo =
+    .aria-label = Zpět
+    .title = Zpět
+calendar-description-redo =
+    .aria-label = Znovu
+    .title = Znovu
+calendar-event-add-guests = Přidat hosty
+calendar-event-add-guests-expand-icon =
+    .alt = Přidat hosty
+# Variables:
+#   $count (Number): Number of invited guests, including the organizer.
+calendar-event-guests-invited =
+    { $count ->
+        [one] { $count } pozvaný host
+        [few] { $count } pozvaní hosté
+       *[other] { $count } pozvaných hostů
+    }
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".
