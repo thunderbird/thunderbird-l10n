@@ -167,6 +167,9 @@ calendar-event-prompt-edit-title = Redigera händelse
 
 calendar-event-categories = Kategorier
 calendar-event-add-category = Lägg till kategori
+calendar-event-category-name =
+    .aria-label = Lägg till ny kategori
+    .placeholder = Lägg till ny kategori
 calendar-event-category-choices =
     .aria-label = Tillgängliga kategorier
 calendar-event-selected-categories =
@@ -196,6 +199,31 @@ calendar-event-video-url =
 calendar-event-video-url-clear =
     .aria-label = Rensa video URL
     .title = Rensa video URL
+
+## Description controls in the event create/edit dialog.
+
+calendar-event-add-description = Lägg till beskrivning
+calendar-description-formatting =
+    .aria-label = Textformatering
+calendar-description-bold =
+    .aria-label = Fet
+    .title = Fet
+calendar-description-italic =
+    .aria-label = Kursiv
+    .title = Kursiv
+calendar-description-bulleted-list =
+    .aria-label = Punktlista
+    .title = Punktlista
+calendar-description-numbered-list =
+    .aria-label = Numrerad lista
+    .title = Numrerad lista
+calendar-description-link =
+    .aria-label = Länk
+    .title = Länk
+calendar-description-link-popup = Länk
+calendar-description-link-address =
+    .aria-label = Länkadress
+calendar-description-invalid-link = Ange en giltig länkadress.
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".

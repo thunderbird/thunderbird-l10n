@@ -182,6 +182,9 @@ calendar-event-prompt-edit-title = Tšojenje wobźěłaś
 
 calendar-event-categories = Kategorije
 calendar-event-add-category = Kategoriju pśidaś
+calendar-event-category-name =
+    .aria-label = Nowu kategoriju pśidaś
+    .placeholder = Nowu kategoriju pśidaś
 calendar-event-category-choices =
     .aria-label = K dispoziciji stojece kategorije
 calendar-event-selected-categories =
@@ -213,6 +216,53 @@ calendar-event-video-url =
 calendar-event-video-url-clear =
     .aria-label = URL wideo lašowaś
     .title = URL wideo lašowaś
+
+## Description controls in the event create/edit dialog.
+
+calendar-event-add-description = Wopisanje pśidaś
+calendar-description-formatting =
+    .aria-label = Tekstowe formatěrowanje
+calendar-description-bold =
+    .aria-label = Tucny
+    .title = Tucny
+calendar-description-italic =
+    .aria-label = Kursiwny
+    .title = Kursiwny
+calendar-description-bulleted-list =
+    .aria-label = Nalicenje
+    .title = Nalicenje
+calendar-description-numbered-list =
+    .aria-label = Numerěrowana lisćina
+    .title = Numerěrowana lisćina
+calendar-description-indent =
+    .aria-label = Zasunuś
+    .title = Zasunuś
+calendar-description-outdent =
+    .aria-label = Wusunuś
+    .title = Wusunuś
+calendar-description-link =
+    .aria-label = Wótkaz
+    .title = Wótkaz
+calendar-description-link-popup = Wótkaz
+calendar-description-link-address =
+    .aria-label = Wótkazowa adresa
+calendar-description-invalid-link = Zapódajśo płaśiwu wótkazowu adresu.
+calendar-description-apply-link = Wótkaz nałožyś
+calendar-description-remove-link = Wótkaz wótwónoźeś
+calendar-description-cancel-link = Pśetergnuś
+calendar-description-input =
+    .aria-label = Wopisanje
+calendar-description-frame =
+    .title = Editor wopisanja
+calendar-description-strikethrough =
+    .aria-label = Pśešmarnjony
+    .title = Pśešmarnjony
+calendar-description-undo =
+    .aria-label = Anulěrowaś
+    .title = Anulěrowaś
+calendar-description-redo =
+    .aria-label = Wóspjetowaś
+    .title = Wóspjetowaś
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".

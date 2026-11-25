@@ -747,7 +747,7 @@
 <!ENTITY spellAddDictionaries.label "Adicionar dicionários…">
 <!ENTITY spellAddDictionaries.accesskey "A">
 <!-- Content Pane Context Menu -->
-<!ENTITY saveLinkAsCmd.label "Salvar link como…">
+<!ENTITY saveLinkAsCmd.label "Salvar conteúdo do link como…">
 <!ENTITY saveLinkAsCmd.accesskey "k">
 <!ENTITY saveImageAsCmd.label "Salvar imagem como…">
 <!ENTITY saveImageAsCmd.accesskey "v">

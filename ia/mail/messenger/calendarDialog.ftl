@@ -230,6 +230,7 @@ calendar-description-undo =
 calendar-description-redo =
     .aria-label = Refacer
     .title = Refacer
+calendar-event-add-guests = Adder hospites
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".
