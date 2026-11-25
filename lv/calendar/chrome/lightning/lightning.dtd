@@ -73,5 +73,11 @@
 <!ENTITY lightning.imipbar.btnSendSeries.tooltiptext "Nosūtīt organizatoram atbildi par visu pasākumu sēriju">
 <!ENTITY lightning.imipbar.btnDontSend.label "Nesūtiet atbildi">
 <!ENTITY lightning.imipbar.btnDontSend.tooltiptext "Mainīt dalības statusu, nesūtot atbildi organizatoram">
+<!ENTITY lightning.imipbar.btnDontSendSeries.tooltiptext "Mainiet savu dalības statusu seriālā, nesūtot atbildi organizatoram">
+<!-- Account Central page -->
+<!ENTITY lightning.acctCentral.newCalendar.label "Izveidot jaunu kalendāru">
+<!-- today-pane-specific -->
+<!ENTITY todaypane.showMinimonth.label "Rādīt mazo mēneša kalendāru">
 <!ENTITY todaypane.showMiniday.label "Rādīt mini dienu">
+<!ENTITY todaypane.showNone.label "Nerādīt nevienu">
 <!ENTITY todaypane.showTodayPane.label "Rādīt šodienas rūti">
