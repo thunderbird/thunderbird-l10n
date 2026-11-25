@@ -680,6 +680,7 @@ max-recent-label = Maksimalna ličba najnowšich rjadowakow:
 beta-calendar-dialog-legend = Dialog za protykowy podawk
 beta-calendar-dialog-checkbox-label =
     .label = Protykowe podawki w nowym dialogu pokazać
+beta-calendar-dialog-callout-title = Dialog noweho protykoweho podawka
 account-hub-legend = Kontowy centrum
 account-hub-checkbox-label =
     .label = Konta w nowym kontowym centrumje załožić

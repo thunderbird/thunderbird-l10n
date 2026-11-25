@@ -499,6 +499,7 @@ decrypt-and-copy-failures-multiple =
 # list, when at least one filter or action failed.
 apply-filters-failed = Wuwjedźeny filter so wuspěšnje njedokónči. Pohladajće do protokola filtrow za podrobnosće.
 apply-filters-failed-open-log-button = Protokol filtrow wočinić
+archive-message-error-title = Zmylk při archiwowanju powěsće
 archive-message-error = Wubrane powěsće njedachu so archiwować.
 save-template-error-title = Zmylk při składowanju předłohi
 save-template-error = Powěsć njeda so jako předłoha składować.
