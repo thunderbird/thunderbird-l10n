@@ -263,6 +263,18 @@ calendar-description-undo =
 calendar-description-redo =
     .aria-label = Wóspjetowaś
     .title = Wóspjetowaś
+calendar-event-add-guests = Gósći pśidaś
+calendar-event-add-guests-expand-icon =
+    .alt = Gósći pśidaś
+# Variables:
+#   $count (Number): Number of invited guests, including the organizer.
+calendar-event-guests-invited =
+    { $count ->
+        [one] { $count } gósć pśepšosony
+        [two] { $count } gósća pśepšosonej
+        [few] { $count } gósći pśepšosone
+       *[other] { $count } gósći pśepšosone
+    }
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".

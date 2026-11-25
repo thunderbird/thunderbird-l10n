@@ -14,6 +14,7 @@ policy-3rdparty = Definir politicas que WebExtensions pote acceder via chrome.st
 policy-AppAutoUpdate = Activar o disactivar le actualisation automatic del application.
 policy-AppUpdatePin = Impedir a { -brand-short-name } de esser actualisate ultra un certe version
 policy-AppUpdateURL = Definir un URL de actualisation personalisate pro le application.
+policy-Authentication2 = Configura le authentication integrate pro sitos web que lo supporta, e qual schemas de authentication HTTP es disactivate.
 policy-Authentication = Configurar authentication integrate pro sitos web que lo supporta.
 policy-BackgroundAppUpdate2 = Activar o disactivar le actualisator in secunde plano.
 policy-BlockAboutAddons = Blocar accesso al Gestor de additivos (circa:additivos).

@@ -10,6 +10,7 @@ send-alert-followup-to-sender = Le autor de iste message ha requestate que respo
 send-unable-to-save-template = Impossibile salvar le message como modello.
 send-unable-to-save-draft = Impossibile salvar tu message como esbosso.
 send-error-failed = Invio del message fallite.
+send-error-configured-folder-missing = Le plica seligite pro messages inviate non poteva esser trovate. Elige un plica differente e retenta.
 send-unable-to-send-later = Desolate, nos non pote salvar tu message pro inviar lo postea.
 # Variables:
 # $hostname - outgoing server hostname

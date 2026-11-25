@@ -205,9 +205,18 @@ calendar-event-video-url-clear =
 calendar-event-add-description = Adder description
 calendar-description-formatting =
     .aria-label = Formato de texto
+calendar-description-bold =
+    .aria-label = Hardite
+    .title = Hardite
 calendar-description-italic =
     .aria-label = Italico
     .title = Italico
+calendar-description-bulleted-list =
+    .aria-label = Lista con punctos
+    .title = Lista con punctos
+calendar-description-numbered-list =
+    .aria-label = Lista numerate
+    .title = Lista numerate
 calendar-description-indent =
     .aria-label = Indentar
     .title = Indentar
@@ -218,9 +227,16 @@ calendar-description-link =
     .aria-label = Ligamine
     .title = Ligamine
 calendar-description-link-popup = Ligamine
+calendar-description-link-address =
+    .aria-label = Adresse de ligamine
+calendar-description-invalid-link = Insere un adresse de ligamine valide.
+calendar-description-apply-link = Applicar ligamine
+calendar-description-remove-link = Remover ligamine
 calendar-description-cancel-link = Cancellar
 calendar-description-input =
     .aria-label = Description
+calendar-description-frame =
+    .title = Editor de description
 calendar-description-strikethrough =
     .aria-label = Barrate
     .title = Barrate
@@ -231,6 +247,15 @@ calendar-description-redo =
     .aria-label = Refacer
     .title = Refacer
 calendar-event-add-guests = Adder hospites
+calendar-event-add-guests-expand-icon =
+    .alt = Adder hospites
+# Variables:
+#   $count (Number): Number of invited guests, including the organizer.
+calendar-event-guests-invited =
+    { $count ->
+        [one] { $count } hospite invitate
+       *[other] { $count } hospites invitate
+    }
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".

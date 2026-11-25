@@ -10,6 +10,7 @@ send-alert-followup-to-sender = Awtor toś teje powěsći jo pšosył, až wóte
 send-unable-to-save-template = Njejo móžno, wašu powěsć ako pśedłogu składowaś.
 send-unable-to-save-draft = Njejo móžno, wašu powěsć ako nacerjenje składowaś.
 send-error-failed = Słanje powěsći njejo se raźiło.
+send-error-configured-folder-missing = Zarědnik, kótaryž jo se za pósłane powěsću wubrał, njedajo se namakaś. Wubjeŕśo drugi zarědnik a wopytajśo hyšći raz.
 send-unable-to-send-later = Bóžko njejsmy mógli wašu powěsć za póznjejše słanje składowaś.
 # Variables:
 # $hostname - outgoing server hostname

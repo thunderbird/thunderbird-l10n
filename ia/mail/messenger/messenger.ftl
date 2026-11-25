@@ -476,6 +476,12 @@ decrypt-and-copy-failures-multiple =
 # list, when at least one filter or action failed.
 apply-filters-failed = Le execution del filtro non era completate con successo. Verifica le registro de filtros pro le detalios.
 apply-filters-failed-open-log-button = Aperir le registro de filtros
+archive-message-error-title = Error a archivar message
+archive-message-error = Le messages seligite non poteva esser archivate.
+archive-folder-missing = Le plica de archivos pro iste identitate non poteva esser trovate. Selige un plica differente e retenta.
+save-template-error-title = Salvar error de modello
+save-template-error = Le message non poteva esser salvate como modello.
+template-folder-missing = Le plica del modellos seligite non poteva esser trovate. Elige un plica differente e retenta.
 
 ## Spaces toolbar
 

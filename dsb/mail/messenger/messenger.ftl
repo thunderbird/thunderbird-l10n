@@ -499,6 +499,10 @@ decrypt-and-copy-failures-multiple =
 # list, when at least one filter or action failed.
 apply-filters-failed = Wuwjeźony filter njejo se wuspěšnje dokóńcył. Póglědajśo do protokola filtrow za drobnostki.
 apply-filters-failed-open-log-button = Protokol filtrow wócyniś
+archive-message-error-title = Zmólka pśi archiwěrowanju powěsći
+archive-message-error = Wubrane powěsćo njedaju se archiwěrowaś.
+save-template-error-title = Zmólka pśi składowanju pśedłogi
+save-template-error = Powěsć njedajo se ako pśedłoga składowaś.
 
 ## Spaces toolbar
 
