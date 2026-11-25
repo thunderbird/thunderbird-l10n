@@ -179,6 +179,9 @@ calendar-event-prompt-edit-title = Upraviť udalosť
 
 calendar-event-categories = Kategórie
 calendar-event-add-category = Pridať kategóriu
+calendar-event-category-name =
+    .aria-label = Pridať novú kategóriu
+    .placeholder = Pridať novú kategóriu
 calendar-event-category-choices =
     .aria-label = Dostupné kategórie
 calendar-event-selected-categories =
@@ -209,6 +212,34 @@ calendar-event-video-url =
 calendar-event-video-url-clear =
     .aria-label = Odstrániť adresu URL videa
     .title = Odstrániť adresu URL videa
+
+## Description controls in the event create/edit dialog.
+
+calendar-event-add-description = Pridať popis
+calendar-description-formatting =
+    .aria-label = Formát textu
+calendar-description-bold =
+    .aria-label = Tučné
+    .title = Tučné
+calendar-description-italic =
+    .aria-label = Kurzíva
+    .title = Kurzíva
+calendar-description-bulleted-list =
+    .aria-label = Zoznam s odrážkami
+    .title = Zoznam s odrážkami
+calendar-description-numbered-list =
+    .aria-label = Číslovaný zoznam
+    .title = Číslovaný zoznam
+calendar-description-indent =
+    .aria-label = Zmenšiť zarážku
+    .title = Zmenšiť zarážku
+calendar-description-outdent =
+    .aria-label = Zväčšiť zarážku
+    .title = Zväčšiť zarážku
+calendar-description-link =
+    .aria-label = Odkaz
+    .title = Odkaz
+calendar-description-link-popup = Odkaz
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".
