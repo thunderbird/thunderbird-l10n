@@ -15,7 +15,18 @@
 <!ENTITY lightning.menu.view.tasks.label "Uzdevumi">
 <!-- Events and Tasks menu -->
 <!ENTITY lightning.menu.eventtask.label "Notikumi un uzdevumi">
+<!-- properties dialog, calendar creation wizard
+     LOCALIZATON NOTE(lightning.calendarproperties.email.label,
+     lightning.calendarproperties.forceEmailScheduling.label)
+     These strings are used in the calendar wizard and the calendar properties dialog, but are only
+     displayed when setting/using a caldav calendar -->
+<!ENTITY lightning.calendarproperties.email.label "Epasts:">
 <!ENTITY lightning.calendarproperties.forceEmailScheduling.label "Dodiet priekšroku klienta puses epasta plānošanai">
+<!-- LOCALIZATON NOTE(lightning.calendarproperties.forceEmailScheduling.tooltiptext1,
+     lightning.calendarproperties.forceEmailScheduling.tooltiptext2)
+     - tooltiptext1 is used in the calendar wizard when setting a new caldav calendar
+     - tooltiptext2 is used in the calendar properties dialog for caldav calendars -->
+<!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext1 "Pagaidām šo funkciju var iespējot tikai pēc kalendāra iestatīšanas tā īpašību dialoglodziņā, ja kalendāra serveris rūpējas par plānošanu.">
 <!-- LOCALIZATON NOTE(lightning.calendarproperties.forceEmailScheduling.tooltiptext2)
      This is used in the calendar properties dialog for caldav calendars. -->
 <!ENTITY lightning.calendarproperties.forceEmailScheduling.tooltiptext2 "Šī opcija ir pieejama tikai tad, ja kalendāra serveris apstrādā plānošanu. Iespējojot to, varēsiet atgriezties pie standarta epasta plānošanas, nevis atstāt to servera ziņā.">
@@ -46,10 +57,15 @@
 <!ENTITY lightning.imipbar.btnMore.tooltiptext "Klikšķināt, lai parādītu vairāk iespēju">
 <!ENTITY lightning.imipbar.btnReconfirm2.label "Atkārtoti apstiprināt">
 <!ENTITY lightning.imipbar.btnReconfirm.tooltiptext "Nosūta atkārtotu apstiprinājumu rīkotājam">
+<!ENTITY lightning.imipbar.btnReschedule.label "Pārplānot">
 <!ENTITY lightning.imipbar.btnReschedule.tooltiptext "Pārplānot notikumu">
+<!ENTITY lightning.imipbar.btnSaveCopy.label "Saglabāt kopiju">
 <!ENTITY lightning.imipbar.btnSaveCopy.tooltiptext "Saglabāt notikuma kopiju kalendārā neatkarīgi no atbildēšanas rīkotājam. Dalībnieku saraksts tiks notīrīts.">
+<!ENTITY lightning.imipbar.btnTentative.label "Iespējams">
 <!ENTITY lightning.imipbar.btnTentative2.tooltiptext "Provizoriski pieņemt notikuma ielūgumu">
+<!ENTITY lightning.imipbar.btnTentativeRecurrences.label "Atzīmēt visus kā iespējamus">
 <!ENTITY lightning.imipbar.btnTentativeRecurrences2.tooltiptext "Provizoriski pieņemt notikuma ielūgumu uz visiem gadījumiem">
+<!ENTITY lightning.imipbar.btnUpdate.label "Atjauninājums">
 <!ENTITY lightning.imipbar.btnUpdate.tooltiptext "Atjaunināt notikumu kalendārā">
 <!ENTITY lightning.imipbar.description "Šajā ziņojumā ir ielūgums uz notikumu.">
 <!ENTITY todaypane.showMiniday.label "Rādīt mini dienu">

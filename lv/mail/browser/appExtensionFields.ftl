@@ -5,7 +5,10 @@
 
 ## Theme names and descriptions used in the Themes panel in about:addons
 
+# "Auto" is short for automatic. It can be localized without limitations.
+extension-default-theme-name-auto = Sistēmas motīvs — automātisks
+extension-default-theme-description = Ievērojiet operētājsistēmas iestatījumus pogām, izvēlnēm un logiem.
 extension-thunderbird-compact-light-name = Gaišs
-extension-thunderbird-compact-light-description = Tēma gaišā krāsā.
+extension-thunderbird-compact-light-description = Motīvs gaišā krāsā.
 extension-thunderbird-compact-dark-name = Tumšs
-extension-thunderbird-compact-dark-description = Tēma tumšā krāsā.
+extension-thunderbird-compact-dark-description = Motīvs tumšā krāsā.
