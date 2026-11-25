@@ -217,6 +217,12 @@ calendar-description-bulleted-list =
 calendar-description-numbered-list =
     .aria-label = Numrerad lista
     .title = Numrerad lista
+calendar-description-indent =
+    .aria-label = Öka indrag
+    .title = Öka indrag
+calendar-description-outdent =
+    .aria-label = Minska indrag
+    .title = Minska indrag
 calendar-description-link =
     .aria-label = Länk
     .title = Länk
@@ -224,6 +230,32 @@ calendar-description-link-popup = Länk
 calendar-description-link-address =
     .aria-label = Länkadress
 calendar-description-invalid-link = Ange en giltig länkadress.
+calendar-description-apply-link = Applicera länk
+calendar-description-remove-link = Ta bort länk
+calendar-description-cancel-link = Avbryt
+calendar-description-input =
+    .aria-label = Beskrivning
+calendar-description-frame =
+    .title = Beskrivningsredigerare
+calendar-description-strikethrough =
+    .aria-label = Genomstruken
+    .title = Genomstruken
+calendar-description-undo =
+    .aria-label = Ångra
+    .title = Ångra
+calendar-description-redo =
+    .aria-label = Gör om
+    .title = Gör om
+calendar-event-add-guests = Lägg till gäster
+calendar-event-add-guests-expand-icon =
+    .alt = Lägg till gäster
+# Variables:
+#   $count (Number): Number of invited guests, including the organizer.
+calendar-event-guests-invited =
+    { $count ->
+        [one] { $count } gäst inbjuden
+       *[other] { $count } gäster inbjudna
+    }
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".

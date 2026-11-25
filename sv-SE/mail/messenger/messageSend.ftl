@@ -10,6 +10,7 @@ send-alert-followup-to-sender = Författaren av meddelandet har begärt att svar
 send-unable-to-save-template = Det gick inte att spara meddelandet som en mall.
 send-unable-to-save-draft = Det gick inte att spara meddelandet som ett utkast.
 send-error-failed = Det gick inte att skicka meddelandet.
+send-error-configured-folder-missing = Mappen som valts för skickade meddelanden kunde inte hittas. Välj en annan mapp och försök igen.
 send-unable-to-send-later = Tyvärr kunde vi inte spara meddelandet för att kunna skicka det senare.
 # Variables:
 # $hostname - outgoing server hostname

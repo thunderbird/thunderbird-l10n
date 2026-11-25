@@ -476,6 +476,10 @@ decrypt-and-copy-failures-multiple =
 # list, when at least one filter or action failed.
 apply-filters-failed = Filterkörningen misslyckades. Mer information finns i filterloggen.
 apply-filters-failed-open-log-button = Öppna filterloggen
+archive-message-error-title = Fel vid arkivering av meddelande
+archive-message-error = De markerade meddelandena kunde inte arkiveras.
+archive-folder-missing = Arkivmappen för denna identitet kunde inte hittas. Välj en annan mapp och försök igen.
+save-template-error-title = Fel vid sparande av mall
 
 ## Spaces toolbar
 
