@@ -148,6 +148,8 @@ command-leave = { $commandName }: Iziet no pašreizējās telpas.
 # $commandName is the command name
 command-topic = { $commandName }&lt;topic&gt;: Iestata telpas tēmu. Lai mainītu telpas tēmu, ir nepieciešamas atļaujas.
 # $commandName is the command name
+command-unban = { $commandName } &lt;userId&gt;: Atcelt lietotāja, kuram ir aizliegta piekļuve telpai, bloķēšanu. Lietotāju bloķēšanai nepieciešama atļauja.
+# $commandName is the command name
 command-join = { $commandName } & lt; roomId & gt ;: Pievienoties dotajai telpai.
 # LOCALIZATION NOTE (message-*):
 #    These are shown as system messages in the conversation.

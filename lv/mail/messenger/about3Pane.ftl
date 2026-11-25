@@ -8,6 +8,8 @@
 quick-filter-button =
     .title = Pārslēgt ātrās atsijāšanas joslu
 quick-filter-button-label = Ātrā atsijāšana
+thread-pane-header-display-button =
+    .title = Vēstuļu saraksta skata iestatījumi
 # Variables:
 # $count (Number) - The number of messages in this folder.
 thread-pane-folder-message-count =
@@ -16,6 +18,20 @@ thread-pane-folder-message-count =
         [one] { $count } ziņojums
        *[other] { $count } ziņojumi
     }
+# Variables:
+# $count (Number) - The number of messages currently selected.
+thread-pane-folder-selected-count =
+    { $count ->
+        [zero] Atlasīti { $count }
+        [one] Atlasīts { $count }
+       *[other] Atlasīti { $count }
+    }
+thread-pane-header-context-table-view =
+    .label = Tabulas skats
+thread-pane-header-context-cards-view =
+    .label = Kartīšu skats
+thread-pane-header-context-hide =
+    .label = Slēpt ziņojumu saraksta galveni
 
 ## Quick Filter Bar
 
