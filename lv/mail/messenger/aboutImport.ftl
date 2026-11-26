@@ -2,10 +2,17 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, you can obtain one at http://mozilla.org/MPL/2.0/.
 
+import-page-title = Ievietot
 export-page-title = Izgūt
 
 ## Header
 
+import-start = Ievietošanas rīks
+import-start-title = Ievietojiet iestatījumus vai datus no lietotnes vai datnes.
+import-start-description = Izvēlieties avotu, no kura vēlaties ievietot datus. Vēlāk varēsiet norādīt, kuri dati jāievieto.
+import-from-app = Ievietot no lietotnes
+import-file = Ievietot no datnes
+import-file-title = Izvēlieties datni, kuras saturu ievietot.
 import-file-description = Izvēlieties importēt iepriekš dublētu profilu, adrešu grāmatas vai kalendārus.
 import-address-book-title = Ievietot adrešu grāmatas datni
 import-calendar-title = Ievietot kalendāra datni
@@ -17,6 +24,20 @@ button-back = Atpakaļ
 button-continue = Turpināt
 button-export = Izgūt
 button-finish = Pabeigt
+
+## Import from app steps
+
+app-name-thunderbird = Thunderbird
+app-name-seamonkey = SeaMonkey
+app-name-outlook = Outlook
+app-name-apple-mail = Apple Mail
+source-thunderbird = Importēt no citas { app-name-thunderbird } instalācijas
+source-thunderbird-description = Importēt iestatījumus, filtrus, ziņojumus un citus datus no { app-name-thunderbird } profila.
+source-seamonkey = Importēt no { app-name-seamonkey } instalācijas
+source-seamonkey-description = Importēt iestatījumus, filtrus, ziņojumus un citus datus no { app-name-seamonkey } profila.
+source-outlook = Ievietot no { app-name-outlook }
+source-outlook-description = Ievietot kontus, adrešu grāmatas un ziņojumus no { app-name-outlook }.
+source-apple-mail = Ievietot no { app-name-apple-mail }
 
 ## Import from file selections
 
