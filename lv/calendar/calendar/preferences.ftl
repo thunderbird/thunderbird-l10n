@@ -11,10 +11,10 @@ dateformat-label =
     .accesskey = D
 #   $date (String) - the formatted example date
 dateformat-long =
-    .label = Garš: { $datums }
+    .label = Garš: { $date }
 #   $date (String) - the formatted example date
 dateformat-short =
-    .label = Īss: { $datums }
+    .label = Īss: { $date }
 auto-detect-timezone-radio-button =
     .label = Automātiski noteikt laika joslu
 manually-set-timezone-radio-button =

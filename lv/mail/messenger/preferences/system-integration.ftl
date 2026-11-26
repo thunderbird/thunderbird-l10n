@@ -35,3 +35,4 @@ system-search-integration-label =
 check-on-startup-label =
     .label = Vienmēr veikt šo pārbaudi pēc{ -brand-short-name } palaišanas
     .accesskey = V
+system-settings-dialog-title = Sistēmas iestatījumi
