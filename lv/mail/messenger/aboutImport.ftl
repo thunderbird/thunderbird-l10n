@@ -101,6 +101,8 @@ addr-book-summary-description = Tiks izveidota jauna adrešu grāmata “{ $addr
 ## Import from calendar file steps
 
 import-from-calendar-file-desc = Izvēlieties iCalendar (.ics) failu, kuru vēlaties ievietot.
+calendar-items-title = Izvēlieties ievietojamos vienumus.
+calendar-items-loading = Notiek vienumu ielāde…
 # $count (Number) - The number of items in the calendar file.
 calendar-items-count =
     { $count ->
@@ -127,6 +129,10 @@ calendar-items-column-end = Beigas
 calendar-items-column-import-a11y =
     .aria-label = Ievietot
 calendar-items-column-import = Ievietot
+calendar-items-filter-input2 =
+    .label = Filtrēt ierakstus
+    .placeholder = Filtrēt ierakstus ...
+calendar-select-all-items = Atlasīt visu
 calendar-deselect-all-items = Noņemt atlasi visam
 
 ## Import dialog
