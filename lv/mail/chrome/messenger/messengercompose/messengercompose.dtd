@@ -31,7 +31,7 @@
 <!ENTITY saveAsCmd.label "Saglabāt kā">
 <!ENTITY saveAsCmd.accesskey "k">
 <!ENTITY saveAsFileCmd.label "Datne…">
-<!ENTITY saveAsFileCmd.accesskey "F">
+<!ENTITY saveAsFileCmd.accesskey "D">
 <!ENTITY saveAsDraftCmd.label "Melnraksts">
 <!ENTITY saveAsDraftCmd.accesskey "M">
 <!ENTITY saveAsTemplateCmd.label "Veidne">

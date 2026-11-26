@@ -78,6 +78,7 @@
 <!ENTITY lightning.acctCentral.newCalendar.label "Izveidot jaunu kalendāru">
 <!-- today-pane-specific -->
 <!ENTITY todaypane.showMinimonth.label "Rādīt mazo mēneša kalendāru">
+<!ENTITY todaypane.showMinimonth.accesskey "m">
 <!ENTITY todaypane.showMiniday.label "Rādīt mini dienu">
 <!ENTITY todaypane.showNone.label "Nerādīt nevienu">
 <!ENTITY todaypane.showTodayPane.label "Rādīt šodienas rūti">

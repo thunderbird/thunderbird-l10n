@@ -55,7 +55,7 @@
 <!ENTITY event.menu.item.new.task.label "Uzdevums">
 <!ENTITY event.menu.item.new.task.accesskey "T">
 <!ENTITY event.menu.item.new.message.label "Vēstule">
-<!ENTITY event.menu.item.new.message.accesskey "M">
+<!ENTITY event.menu.item.new.message.accesskey "V">
 <!ENTITY event.menu.item.new.contact.label "Adrešu grāmatas kontaktpersona">
 <!ENTITY event.menu.item.new.contact.accesskey "C">
 <!ENTITY event.menu.item.close.label "Aizvērt">
