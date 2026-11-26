@@ -4,6 +4,7 @@
 
 account-prefs-show-address-row-description = Laat het adresveld leeg om bij het opstellen van een nieuw bericht altijd de adresregel te tonen.
 account-prefs-sent-message-copies-description = Kies waar u kopieën van verzonden berichten wilt opslaan en stel automatische Cc/Bcc-regels in
+account-prefs-sent-message-copies-graph-info = Noot: Microsoft Graph slaat verzonden berichten automatisch op in de map Verzonden items van de server.
 account-prefs-automatic-cc-bcc-description = Noot: door deze vakjes aan te vinken worden automatisch Cc/Bcc-regels toegevoegd bij het opstellen van nieuwe berichten.
 account-prefs-sent-folder-on =
     .label = Map Verzonden op:

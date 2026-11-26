@@ -191,6 +191,9 @@ calendar-event-more-categories = + nog { $count }
 ## Video row in the event create/edit dialog.
 
 calendar-event-video-label = Video
+calendar-event-video-url =
+    .aria-label = Video-URL
+    .placeholder = Voer URL voor video in
 calendar-event-video-url-clear =
     .aria-label = Video-URL wissen
     .title = Video-URL wissen
