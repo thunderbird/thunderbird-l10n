@@ -687,6 +687,7 @@ beta-calendar-dialog-legend = კალენდრის ღონისძი�
 beta-calendar-dialog-checkbox-label =
     .label = კალენდრის ღონისძიებების ნახვა ახალ არეში
 beta-calendar-dialog-description = კალენდრის გადამუშავებული არე ღონისძიების დაწვრილებით სანახავად.
+beta-calendar-dialog-callout-title = კალენდრის ღონისძიების ახალი არე
 account-hub-legend = ანგარიშების ერთიანი არე
 account-hub-checkbox-label =
     .label = ანგარიშის შექმნისთვის ანგარიშების ახალი არე
