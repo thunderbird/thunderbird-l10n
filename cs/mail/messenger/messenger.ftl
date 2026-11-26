@@ -499,6 +499,8 @@ apply-filters-failed = Filtrování se nepodařilo úspěšně dokončit. Podrob
 apply-filters-failed-open-log-button = Otevřít protokol filtrů
 archive-message-error-title = Zprávu se nepodařilo archivovat
 archive-message-error = Vybrané zprávy se nepodařilo archivovat.
+save-template-error-title = Chyba při ukládání šablony
+save-template-error = Zprávu se nepodařilo uložit jako šablonu.
 
 ## Spaces toolbar
 
