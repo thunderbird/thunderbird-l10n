@@ -21,3 +21,10 @@ oauth-success-body = Šo logu var aizvērt.
 
 oauth-error-title = Pieteikšanos nevarēja pabeigt
 oauth-error-subtitle = { -brand-short-name } nevarēja pabeigt pieteikšanos ar šiem iestatījumiem.
+# New lines in the string will be converted into new lines in the output.
+# $linkStart (String) - Link prefix. Has to always be before $linkEnd. Has no visible content.
+# $linkEnd (String) - Link suffix. Has to always be after $linkStart. Has no visible content.
+oauth-error-body =
+    Atgriezieties pie { -brand-short-name }, pārskatiet sava konta konfigurācijas iestatījumus un mēģiniet vēlreiz.
+    
+    Ja problēma joprojām pastāv, skatiet sadaļu { $linkStart }Konta pierakstīšanās problēmu novēršana{ $linkEnd }, lai saņemtu palīdzību.

@@ -368,15 +368,70 @@ mail-context-messages-delete =
            *[other] Izdzēst atlasītās vēstules
         }
     .tooltiptext = { mail-context-messages-delete.label }
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-undelete =
+    .label =
+        { $count ->
+            [one] Atjaunot dzēsto vēstuli
+            [zero] Atjaunot dzēstās vēstules
+           *[other] Atjaunot dzēstās vēstules
+        }
+    .tooltiptext = { mail-context-messages-undelete.label }
+context-menu-decrypt-to-folder2 =
+    .label = Izveidot atšifrētu kopiju
+    .accesskey = š
 
 ## Message header pane
 
+other-action-redirect-msg =
+    .label = Pāradresācija
+other-action-copy-message-link =
+    .label = Kopēt ziņojuma saiti
+other-action-copy-news-link =
+    .label = Kopēt ziņu saiti
+message-header-msg-flagged =
+    .aria-label = Zvaigžņotas
+    .title = Zvaigžņotas
 message-header-delete =
     .label = Izdzēst
     .tooltiptext = Izdzēst šo ziņojumu
 message-header-undelete =
     .label = Atcelt izdzēšanu
     .tooltiptext = Atcelt šī ziņojuma izdzēšanu
+# Variables:
+# $address (String) - The email address of the recipient this picture belongs to.
+message-header-recipient-avatar =
+    .alt = Adreses { $address } profila attēls.
+
+## Message header customize panel
+
+message-header-customize-panel-title = Ziņojuma galvenes iestatījumi
+message-header-customize-button-style =
+    .value = Pogas stils
+    .accesskey = o
+message-header-button-style-default =
+    .label = Ikonas un teksts
+message-header-button-style-text =
+    .label = Teksts
+message-header-button-style-icons =
+    .label = Ikonas
+message-header-show-sender-full-address =
+    .label = Vienmēr rādīt sūtītāja pilnu adresi
+    .accesskey = p
+message-header-show-sender-full-address-description = Epasta adrese tiks rādīta zem parādāmā vārda.
+message-header-show-recipient-avatar =
+    .label = Rādīt sūtītāja profila attēlu
+    .accesskey = a
+message-header-show-big-avatar =
+    .label = Lielāks profila attēls
+    .accesskey = ā
+message-header-hide-label-column =
+    .label = Slēpt etiķešu kolonnu
+    .accesskey = i
+message-header-large-subject =
+    .label = Liels objekts
+    .accesskey = l
 
 ## error messages
 
@@ -462,6 +517,10 @@ mark-as-spam-action = Atzīmēt kā mēstuli
 
 ## Message list.
 
+menuitem-label-spam-percentage =
+    .label = Surogātpasta procentuālā daļa
+menuitem-label-spam-status =
+    .label = Surogātpasta statuss
 message-priority-lowest = Zemākā
 message-priority-low = Zema
 # Normal priority is often blank, depending on the consumers of these strings.
@@ -470,6 +529,7 @@ message-priority-high = Augsta
 message-priority-highest = Augstākā
 message-flag-replied = Atbildēja
 message-flag-forwarded = Pārsūtīja
+message-flag-redirected = Pāradresēts
 message-flag-new = Jauna
 message-flag-read = Lasīja
 message-flag-starred = Zvaigžņoja
@@ -491,6 +551,23 @@ message-group-starred = Zvaigžņotas
 # For multiple authors, add this abbreviation to the first author to indicate
 # there are more; for the From column in the threadpane message list.
 and-others = un citi.
+
+## Prompts
+
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-title = Tukša { $mape }?
+# Variables:
+# $folder (String) - The name of the selected folder.
+prompt-empty-folder-message = Vai dzēst visus ziņojumus un apakšmapes mapē { $folder }?
+prompt-dont-ask-again = Nejautājiet vēlreiz.
+
+## Spam commands
+
+# Variables:
+# $percentage (Number) - The percentage of completion of the spam analysis.
+spam-analysis-percentage = Surogātpasta analīze pabeigta par { NUMBER($percentage, maximumSignificantDigits: 2, style: "percent") }
+spam-processing-message = Surogātpasta ziņojumu apstrāde
 
 ## Ignore threads
 

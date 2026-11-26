@@ -13,6 +13,9 @@ multi-message-delete-button =
 multi-message-undelete-button =
     .label = Atcelt izdzēšanu
     .tooltiptext = Atcelt izdzēšanu
+multi-message-flagged-button =
+    .aria-label = Zvaigžņotas
+    .title = Zvaigžņotas
 # Variables:
 #   $count - total number of conversations (threads or solitary messages) selected
 num-conversations =

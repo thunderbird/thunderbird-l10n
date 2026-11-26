@@ -6,8 +6,32 @@
 ## Newsgroup Status Messages
 
 # Variables:
+# $count (Number) - Number of headers.
+# $newsgroup (String) - The name of the newsgroup.
+new-newsgroup-headers =
+    { $count ->
+        [one] Notiek { $count } galvenes lejupielāde vietnei { $newsgroup }…
+        [zero] Notiek { $count } galvenes lejupielāde vietnei { $newsgroup }…
+       *[other] Notiek { $count } galvenes lejupielāde vietnei { $newsgroup }…
+    }
+# Variables:
 # $newsgroup (String) - The name of the newsgroup.
 no-new-messages = Grupā { $newsgroup } nav jaunu ziņojumu.
+# Variables:
+# $count (Number) - Number of articles.
+# $newsgroup (String) - The name of the newsgroup.
+downloading-articles-for-offline =
+    { $count ->
+        [one] Notiek { $count } raksta lejupielāde par { $newsgroup }…
+        [zero] Notiek { $count } rakstu lejupielāde par { $newsgroup }…
+       *[other] Notiek { $count } rakstu lejupielāde par { $newsgroup }…
+    }
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+no-articles-to-download = Nav lejupielādējamu rakstu grupai { $newsgroup }.
+# Variables:
+# $newsgroup (String) - The name of the newsgroup.
+no-such-newsgroup = Ziņu grupa { $newsgroup } nav pieejama serverī.
 
 ## Download Headers Dialog
 

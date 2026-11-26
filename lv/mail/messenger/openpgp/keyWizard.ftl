@@ -23,6 +23,14 @@ radio-gnupg-key =
 ## Generate key section
 
 openpgp-generate-key-title = Veidot OpenPGP atslēgu
+openpgp-keygen-secret-protection = Slepenās atslēgas aizsardzība
+radio-keygen-no-protection =
+    .label = Neaizsargāts
+radio-keygen-protect-primary-pass =
+    .label = Aizsargājiet ar primāro paroli
+radio-keygen-passphrase-protection =
+    .label = Aizsargāt ar paroli:
+openpgp-passphrase-repeat = Apstipriniet paroli:
 openpgp-generate-key-info = <b>Atslēgu veidošana var ilgt vairākas minūtes.</b>Atslēgas veidošanas laikā nevar aizvērt lietotni. Tīmekļa pārlūkošanas vai disku noslogojošas darbību veikšana papildinās datora “nejaušības kopparaugu” un paātrinās virzību. Pēc atslēgu veidošanas pabeigšanas būs paziņojums.
 openpgp-keygen-expiry-title = atslēgu derīgums
 openpgp-keygen-expiry-description = Nosakiet jaunizveidotās atslēgas derīgumu. Ja nepieciešams, vēlāk varēsit mainīt datumu, lai to pagarinātu.
@@ -84,8 +92,17 @@ openpgp-import-key-title = Ievietot esošu OpenPGP atslēgu
 openpgp-import-key-legend = Jāatlasa iepriekš dublēta datne.
 openpgp-import-key-description = Jūs varat importēt personīgās atslēgas, kas izveidotas, izmantojot citu OpenPGP programmatūru.
 openpgp-import-key-info = Cita programmatūra var aprakstīt personīgo atslēgu, izmantojot citus nosaukumus, piemēram, savu atslēgu, slepeno atslēgu, privāto atslēgu vai atslēgu pāri.
+#   $count (Number) - the number of keys found in the selected files
+openpgp-import-key-list-amount-2 =
+    { $count ->
+        [one] { -brand-short-name } atrada vienu atslēgu, ko var importēt.
+        [zero] { -brand-short-name } atrada { $count } atslēgas, kuras var importēt.
+       *[other] { -brand-short-name } atrada { $count } atslēgas, kuras var importēt.
+    }
 openpgp-import-key-list-description = Apstipriniet, kuras atslēgas uzskatīt par jūsu personīgajām atslēgām. Par personīgajām atslēgām drīkst izmantot tikai tās atslēgas, kuras pats esat izveidojis un kas parāda jūsu identitāti. Šo opciju var mainīt vēlāk Atslēgas īpašības dialogā.
 openpgp-import-key-list-caption = Atslēgas, kas atzīmētas kā personīgās atslēgas, tiks piedāvātas tiešās saziņas šifrēšanai. Pārējās būs pieejamas Atslēgu pārvaldniekā.
+openpgp-import-keep-passphrases =
+    .label = Saglabāt paroles aizsardzību importētajām slepenajām atslēgām
 openpgp-passphrase-prompt-title = Nepieciešama parole
 openpgp-import-key-button =
     .label = Atlasiet importējamo failu…
@@ -114,3 +131,8 @@ openpgp-external-key-description = Iestatiet ārēju GnuPG atslēgu, ievadot ats
 openpgp-external-key-info = Turklāt ir jāizmanto atslēgu pārvaldnieks, lai ievietotu un pieņemtu atbilstošo publisko atslēgu.
 openpgp-external-key-warning = <b>Jūs varat iestatīt tikai vienu ārēju GnuPG atslēgu.</b> Jūsu iepriekšējais ieraksts tiks aizstāts.
 openpgp-external-key-label = Privātās atslēgas ID:
+openpgp-import-own-key-title = Importējiet savu publisko atslēgu
+#   $keyId (String) - The Key ID.
+openpgp-import-own-key-description = { -brand-short-name } nevarēja atrast publisko atslēgu ar ID { $keyId }. Lūdzu, importējiet to, lai turpinātu.
+#   $keyId (String) - The Key ID.
+openpgp-import-keyid-failed = Nevarēja importēt publisko atslēgu { $keyId } no šī faila.
