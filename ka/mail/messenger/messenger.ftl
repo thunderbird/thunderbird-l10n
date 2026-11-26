@@ -464,6 +464,12 @@ decrypt-and-copy-failures-multiple =
 # list, when at least one filter or action failed.
 apply-filters-failed = ფილტრის მისადაგება ვერ დასრულდა წარმატებით. იხილეთ ფილტრის აღრციხვები დაწვრილებით.
 apply-filters-failed-open-log-button = ფილტრის აღრიცხვების გახსნა
+archive-message-error-title = წერილის დაარქივების შეცდომა
+archive-message-error = შერჩეული წერილების დაარქივება ვერ მოხერხდა.
+archive-folder-missing = არქივების საქაღალდე ამ ვინაობისთვის ვერ მოიძებნა. აირჩიეთ სხვა საქაღალდე და კვლავ სცადეთ.
+save-template-error-title = შეცდომა ნიმუშის შენახვისას
+save-template-error = წერილის ნიმუშად შენახვა ვერ მოხერხდა.
+template-folder-missing = ნიმუშების წერილებისთვის შერჩეული საქაღალდე ვერ მოიძებნა. აირჩიეთ სხვა საქაღალდე და კვლავ სცადეთ.
 
 ## Spaces toolbar
 

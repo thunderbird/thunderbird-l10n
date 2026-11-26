@@ -223,6 +223,36 @@ calendar-description-outdent =
 calendar-description-link =
     .aria-label = ბმული
     .title = ბმული
+calendar-description-link-popup = ბმული
+calendar-description-link-address =
+    .aria-label = ბმულის მისამართი
+calendar-description-invalid-link = შეიყვანეთ ბმულსი მართებული მისამართი.
+calendar-description-apply-link = ბმულის გამოყენება
+calendar-description-remove-link = ბმულის მოცილება
+calendar-description-cancel-link = გაუქმება
+calendar-description-input =
+    .aria-label = აღწერილობა
+calendar-description-frame =
+    .title = აღწერილობის ჩასწორება
+calendar-description-strikethrough =
+    .aria-label = გადახაზვა
+    .title = გადახაზვა
+calendar-description-undo =
+    .aria-label = დაბრუნება
+    .title = დაბრუნება
+calendar-description-redo =
+    .aria-label = გამეორება
+    .title = გამეორება
+calendar-event-add-guests = სტუმრების დამატება
+calendar-event-add-guests-expand-icon =
+    .alt = სტუმრების დამატება
+# Variables:
+#   $count (Number): Number of invited guests, including the organizer.
+calendar-event-guests-invited =
+    { $count ->
+        [one] { $count } სტუმარია მოწვეული
+       *[other] { $count } სტუმარია მოწვეული
+    }
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".

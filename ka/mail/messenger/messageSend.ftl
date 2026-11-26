@@ -10,6 +10,7 @@ send-alert-followup-to-sender = შემოსული წერილის �
 send-unable-to-save-template = წერილის ნიმუშად შენახვა შეუძლებელია.
 send-unable-to-save-draft = წერილის წინასწარ ნამუშევრად შენახვა შეუძლებელია.
 send-error-failed = წერილის გაგზავნა ვერ მოხერხდა.
+send-error-configured-folder-missing = გაგზავნილი წერილებისთვის შერჩეული საქაღალდე ვერ მოიძებნა. აირჩიეთ სხვა საქაღალდე და კვლავ სცადეთ.
 send-unable-to-send-later = სამწუხაროდ, წერილის შენახვა მოგვიანებით გასაგზავნად, შეუძლებელია.
 # Variables:
 # $hostname - outgoing server hostname
