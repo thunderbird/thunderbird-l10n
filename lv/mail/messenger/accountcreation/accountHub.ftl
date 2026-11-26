@@ -201,8 +201,11 @@ account-hub-config-success-description-read-more = Jūs varat <a data-l10n-name=
 account-hub-password-info = Tavi pieteikšanās dati tiks glabāti tikai vietēji datorā
 account-hub-creating-account = Izveido kontu…
 account-hub-sync-accounts-found = { -brand-short-name } atrada vairākus piesaistītus pakalpojumus
+account-hub-sync-accounts-not-found = { -brand-short-name } neizdevās atrast piesaistītus pakalpojumus
 account-hub-sync-accounts-failure = { -brand-short-name } nevarēja izveidot savienojumu ar atlasītajiem pakalpojumiem
 account-hub-email-added-success = Savienojums ar e-pasta kontu izveidots sekmīgi
+account-hub-config-test-success = { -brand-short-name } atrada atbilstošos iestatījumus un tos atjaunināja.
+account-hub-select-all = Atlasīt visu
 account-hub-deselect-all = Noņemt atlasi visam
 # $count (Number) - The number of sync accounts selected.
 account-hub-sync-accounts-selected =
@@ -211,14 +214,45 @@ account-hub-sync-accounts-selected =
         [zero] { $count } atlasītu
        *[other] { $count } atlasīti
     }
+account-hub-no-address-books = Nav atrastas adrešu grāmatas
+account-hub-no-calendars = Nav atrasts neviens kalendārs
 account-hub-email-added-success-links-title = Izpēti drošības un pielāgošanas iespējas:
 account-hub-signature-link = E-pasta ziņojumu paraksts
 account-hub-email-error-text = Lūgums ievadīt derīgu e-pasta adresi
 account-hub-name-error-text = Lūgums ievadīt vārdu
+account-hub-hostname-error-text = Resursdatora nosaukums ir tukšs vai nederīgs. Atļauti ir tikai burti, cipari, - un .
+    .title = Resursdatora nosaukums ir tukšs vai nederīgs. Atļauti ir tikai burti, cipari, - un .
+account-hub-port-error-text = Porta numuram jābūt no 1 līdz 65535
+    .title = Porta numuram jābūt no 1 līdz 65535
 account-hub-username-error-text = Lietotājvārds ir nepieciešams
     .title = Lietotājvārds ir nepieciešams
 account-hub-manual-config-error-summary = Lūgums novērst šīs kļūdas:
+account-hub-oauth-pending = Gaida autorizāciju pieteikšanās uznirstošajā logā…
+account-hub-addon-install-button = Uzstādīt
+account-hub-addon-error = Papildinājumu neizdevās uzstādīt. Mēģiniet vēlreiz vai sazinieties ar papildinājuma autoru, lai saņemtu palīdzību.
+account-hub-select-security-warning = <span data-l10n-name="error-text">Brīdinājums: Atrasts nedrošs pasta serveris.</span> Šim serverim trūkst šifrēšanas, tāpēc jūsu parole un dati ir atklāti. Sazinieties ar administratoru, lai nodrošinātu savienojuma drošību, vai turpiniet uz savu atbildību. <a data-l10n-name="error-link">Plašāku informāciju skatiet bieži uzdoto jautājumu sadaļā.</a>
 account-hub-account-authentication-error = Autentificēšanās kļūda.
+account-hub-add-address-book = Pievienot adrešu grāmatu
+address-book-sync-existing-icon =
+    .alt = Vienādot adrešu grāmatu no esoša konta
+address-book-sync-existing = Vienādot datus no esoša konta
+address-book-add-remote-icon2 =
+    .alt = Pievienot attālo adrešu grāmatu
+address-book-add-remote-icon =
+    .alt = Pievienot jaunu attālo adrešu grāmatu
+address-book-add-remote = Pievienot attālo adrešu grāmatu
+address-book-add-remote-carddav-description = Izveidot savienojumu ar CardDAV adrešu grāmatu
+address-book-add-remote-description = Izveidot savienojumu ar attālo CardDav adrešu grāmatu
+address-book-add-local-icon =
+    .alt = Izveidojiet jaunu lokālo adrešu grāmatu
+address-book-add-local = Jauna lokālā adrešu grāmata
+address-book-add-local-description = Izveidojiet jaunu lokālo adrešu grāmatu savā ierīcē
+address-book-add-ldap-icon2 =
+    .alt = Pievienot LDAP adrešu grāmatu
+address-book-add-ldap-button = Pievienot LDAP adrešu grāmatu
+address-book-add-ldap-icon =
+    .alt = Izveidot savienojumu ar attālo LDAP adrešu grāmatu
+address-book-add-ldap = Jauna LDAP adrešu grāmata
 account-hub-local-error-text = Lūgums ievadīt adrešu grāmatas nosaukumu
 
 ## Exchange Type Manual Config Step

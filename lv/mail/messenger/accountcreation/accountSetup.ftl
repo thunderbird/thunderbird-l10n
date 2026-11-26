@@ -56,16 +56,32 @@ account-setup-step4-image =
     .title = Savienojuma kļūda
 account-setup-privacy-footnote2 = Tavi pieteikšanās dati tiks glabāti tikai vietēji datorā.
 account-setup-selection-error = Nepieciešama palīdzība?
+account-setup-documentation-help = Iestatīšanas dokumentācija
 account-setup-forum-help = Atbalsta forums
 account-setup-privacy-help = Privātuma pamatnostādnes
+account-setup-getting-started = Pirmie soļi
 
 ## Results area
 
+# Variables:
+#  $count (Number) - Number of available protocols.
+account-setup-results-area-title =
+    { $count ->
+        [one] Pieejamā konfigurācija
+        [zero] Pieejamās konfigurācijas
+       *[other] Pieejamās konfigurācijas
+    }
 account-setup-result-imap-description = Glabā mapes un e-pasta ziņojumus vienādotus serverī
 account-setup-result-pop-description = Glabā mapes un e-pasta ziņojumus datorā
+# Note: Exchange, Office365 are the name of products.
+account-setup-result-exchange2-description = Izmantojiet Microsoft Exchange serveri vai Office 365 mākoņpakalpojumus
 account-setup-incoming-title = Ienākošais
 account-setup-outgoing-title = Izejošais
 account-setup-username-title = Lietotājvārds
+account-setup-exchange-title = Serveris
+account-setup-result-no-encryption = Nešifrēts
+account-setup-result-ssl = SSL/TLS
+account-setup-result-starttls = STARTTLS
 account-setup-result-outgoing-existing = Izmantot esošo izejošo SMTP serveri
 # Variables:
 #  $incoming (String): The email/username used to log into the incoming server
@@ -74,25 +90,50 @@ account-setup-result-username-different = Ienākošais: { $incoming }, izejošai
 
 ## Error messages
 
+# Note: The reference to "janedoe" (Jane Doe) is the name of an example person. You will want to translate it to whatever example persons would be named in your language. In the example, AD is the name of the Windows domain, and this should usually not be translated.
+account-setup-credentials-incomplete = Autentifikācija neizdevās. Vai nu ievadītie akreditācijas dati ir nepareizi, vai arī pieteikšanās veikšanai ir nepieciešams atsevišķs lietotājvārds. Šis lietotājvārds parasti ir jūsu Windows domēna pieteikšanās vārds ar vai bez domēna (piemēram, janedoe vai AD\\janedoe).
+account-setup-credentials-wrong = Autentifikācija neizdevās. Lūdzu, pārbaudiet lietotājvārdu un paroli.
+account-setup-find-settings-failed = { -brand-short-name } neizdevās atrast jūsu epasta konta iestatījumus.
 account-setup-exchange-config-unverifiable = Iestatījumus nevarēja pārbaudīt. Ja lietotājvārds un parole ir pareiza, visticamāk, ka servera pārvaldītājs kontam ir atspējojis atlasītos iestatījumus. Jāmēģina atlasīt citu protokolu.
 
 ## Manual configuration area
 
 account-setup-manual-config-title = Pašrocīga konfigurēšana
 account-setup-incoming-server-legend = Ienākošais serveris
+account-setup-protocol-label = Protokols:
+account-setup-hostname-label = Resursdatora nosaukums:
 account-setup-port-label = Ports:
     .title = Iestatīt porta numuru 0 automātiskai noteikšanai
+account-setup-auto-description = { -brand-short-name } mēģinās automātiski noteikt tukšus laukus.
 account-setup-ssl-label = Savienojuma drošība:
 account-setup-outgoing-server-legend = Izejošais serveris
 
+## Incoming/Outgoing SSL Authentication options
+
+ssl-autodetect-option = Automātiska noteikšana
+ssl-no-authentication-option = Nav autentifikācijas
+ssl-cleartext-password-option = Parasta parole
+ssl-encrypted-password-option = Šifrēta parole
+
 ## Incoming/Outgoing SSL options
 
+ssl-noencryption-option = Neviens
+account-setup-auth-label = Autentifikācijas veids:
 account-setup-username-label = Lietotājvārds:
+account-setup-advanced-setup-button = Paplašināta konfigurācija
+    .accesskey = k
 
 ## Warning insecure server dialog
 
+account-setup-insecure-title = Brīdinājums!
 account-setup-insecure-incoming-title = Ienākošā iestatījumi:
 account-setup-insecure-outgoing-title = Izejošā iestatījumi:
+# Variables:
+#  $server (String): The name of the hostname of the server the user was trying to connect to.
+account-setup-warning-cleartext = <b>{ $server } </b> neizmanto šifrēšanu.
+account-setup-warning-cleartext-details = Nedroši pasta serveri neizmanto šifrētus savienojumus, lai aizsargātu jūsu paroles un privāto informāciju. Izveidojot savienojumu ar šo serveri, jūs varat atklāt savu paroli un privāto informāciju.
+account-setup-insecure-server-checkbox = Es apzinos riskus.
+    .accesskey = a
 
 ## Warning Exchange confirmation dialog
 
