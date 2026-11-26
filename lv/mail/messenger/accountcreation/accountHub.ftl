@@ -132,6 +132,14 @@ address-book-finding-remote-address-books = Meklē adrešu grāmatas…
 # $url (String) - URL of CardDAV endpoint we don't support.
 address-book-carddav-known-incompatible = Ir zināms, ka { $url } nav saderīgs ar { -brand-short-name }.
 address-book-carddav-connection-error = Savienojumu neizdevās izveidot.
+address-book-ldap-duplicate-error = LDAP mape ar šādu nosaukumu jau pastāv. Lūdzu, ievadiet citu nosaukumu.
+address-book-ldap-creation-error = LDAP mapi neizdevās izveidot.
+account-hub-email-setup-ews = Servera iestatījumi
+account-hub-result-exchange-url-label = Apmaiņas galapunkta URL
+account-hub-exchange-service-url-label = Ievadiet pakalpojuma URL
+account-hub-email-credentials-confirmation = Konta konfigurācija
+account-hub-result-unknown-hostname = Nezināms resursdatora nosaukums
+account-hub-result-unknown-cert = Neapstiprināts sertifikāts
 account-hub-email-manual-configuration = Pašrocīga konfigurēšana
 account-hub-email-skip-button = Izlaist
 account-hub-finding-sync-accounts = Konts izveidots. Atklāj adrešu grāmatas un kalendārus…
