@@ -285,6 +285,7 @@
 <!ENTITY event.freebusy.suggest.slot "Ieteikt laika intervālu:">
 <!ENTITY event.freebusy.button.next.slot "Nākamā intervāls">
 <!ENTITY event.freebusy.button.previous.slot "Iepriekšējais intervāls">
+<!ENTITY event.freebusy.zoom "Tālummaiņa:">
 <!ENTITY event.freebusy.legend.free "Brīvs">
 <!ENTITY event.freebusy.legend.busy "Aizņemts">
 <!ENTITY event.freebusy.legend.busy_tentative "Iespējams">

@@ -134,6 +134,19 @@ calendar-items-filter-input2 =
     .placeholder = Filtrēt ierakstus ...
 calendar-select-all-items = Atlasīt visu
 calendar-deselect-all-items = Noņemt atlasi visam
+calendar-target-title = Izvēlieties, kur ievietot atlasītos vienumus.
+# $targetCalendar (string) - name of the new calendar that would be created
+calendar-import-into-new-calendar2 = Izveidojiet jaunu kalendāru ar nosaukumu <strong>“{ $targetCalendar }”</strong>
+# $itemCount (number) - count of selected items (tasks, events) that will be imported
+# $targetCalendar (string) - name of the calendar the items will be imported into
+calendar-summary-title =
+    { $itemCount ->
+        [one] Ievietot { $itemCount } vienumu kalendārā “{ $targetCalendar }”
+        [zero] Ievietot { $itemCount } vienumus kalendārā “{ $targetCalendar }”
+       *[other] Ievietot { $itemCount } vienumus kalendārā “{ $targetCalendar }”
+    }
+# $targetCalendar (string) - name of the calendar that will be created
+calendar-summary-description = Tiks izveidots jauns kalendārs ar nosaukumu “{ $targetCalendar }”.
 
 ## Import dialog
 
