@@ -240,6 +240,36 @@ calendar-description-link =
     .aria-label = Odkaz
     .title = Odkaz
 calendar-description-link-popup = Odkaz
+calendar-description-link-address =
+    .aria-label = Adresa odkazu
+calendar-description-invalid-link = Zadajte platnú adresu odkazu.
+calendar-description-apply-link = Použiť odkaz
+calendar-description-remove-link = Odstrániť odkaz
+calendar-description-cancel-link = Zrušiť
+calendar-description-input =
+    .aria-label = Popis
+calendar-description-frame =
+    .title = Editor popisov
+calendar-description-strikethrough =
+    .aria-label = Prečiarknuté
+    .title = Prečiarknuté
+calendar-description-undo =
+    .aria-label = Späť
+    .title = Späť
+calendar-description-redo =
+    .aria-label = Znovu
+    .title = Znovu
+calendar-event-add-guests = Pozvať hostí
+calendar-event-add-guests-expand-icon =
+    .alt = Pozvať hostí
+# Variables:
+#   $count (Number): Number of invited guests, including the organizer.
+calendar-event-guests-invited =
+    { $count ->
+        [one] { $count } hosť pozvaný
+        [few] { $count } hostia pozvaní
+       *[other] { $count } hostí pozvaných
+    }
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".
