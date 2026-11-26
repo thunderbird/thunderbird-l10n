@@ -28,9 +28,9 @@
 <!ENTITY newIMContactCmd.label "Tērzēšanas kontakts…">
 <!ENTITY newIMContactCmd.accesskey "k">
 <!ENTITY newMessageCmd2.key "N">
-<!ENTITY newMessageCmd.key "M">
+<!ENTITY newMessageCmd.key "V">
 <!ENTITY newMessageCmd.label "Vēstule">
-<!ENTITY newMessageCmd.accesskey "V">
+<!ENTITY newMessageCmd.accesskey "m">
 <!ENTITY newContactCmd.label "Adrešu grāmatas kontakts…">
 <!ENTITY newContactCmd.accesskey "g">
 <!ENTITY openMenuCmd.label "Atvērt">
@@ -239,7 +239,7 @@
 <!ENTITY searchAddressesCmd.accesskey "a">
 <!-- Go Menu -->
 <!ENTITY goMenu.label "Iet">
-<!ENTITY goMenu.accesskey "G">
+<!ENTITY goMenu.accesskey "I">
 <!ENTITY nextMenu.label "Nākošais">
 <!ENTITY nextMenu.accesskey "N">
 <!ENTITY nextMsgCmd.label "Vēstule">

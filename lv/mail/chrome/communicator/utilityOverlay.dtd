@@ -4,11 +4,11 @@
 
 <!-- LOCALIZATION NOTE : FILE This file contains the global menu items -->
 <!ENTITY fileMenu.label "Datne">
-<!ENTITY fileMenu.accesskey "F">
+<!ENTITY fileMenu.accesskey "D">
 <!ENTITY newMenu.label "Jauns">
 <!ENTITY newMenu.accesskey "J">
 <!ENTITY editMenu.label "Labot">
-<!ENTITY editMenu.accesskey "R">
+<!ENTITY editMenu.accesskey "L">
 <!ENTITY undoCmd.label "Atsaukt">
 <!ENTITY undoCmd.accesskey "A">
 <!ENTITY redoCmd.label "Atcelt atsaukšanu">
@@ -20,7 +20,7 @@
 <!ENTITY viewToolbarsMenu.label "Rīkjoslas">
 <!ENTITY viewToolbarsMenu.accesskey "R">
 <!ENTITY showTaskbarCmd.label "Statusa josla">
-<!ENTITY showTaskbarCmd.accesskey "t">
+<!ENTITY showTaskbarCmd.accesskey "u">
 <!ENTITY closeCmd.label "Aizvērt">
 <!ENTITY closeCmd.key "W">
 <!ENTITY closeCmd.accesskey "A">
