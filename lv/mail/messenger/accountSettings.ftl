@@ -2,6 +2,10 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+account-settings-color-label = Krāsa:
+    .accesskey = K
+account-settings-reset-color-button =
+    .title = Atiestatīt krāsu
 account-settings-addressing-title =
     .value = E-pasta rakstīšana
 account-settings-compose-html =
@@ -63,6 +67,8 @@ account-settings-set-deletion-rules =
     .accesskey = d
 delete-account-button =
     .label = Izdzēst
+default-account-button =
+    .label = Iestatīt kā noklusēto
 outgoing-server-name = Izejošais serveris:
     .accesskey = I
 outgoing-server-edit =
@@ -98,6 +104,15 @@ oauth2-use-pkce =
 oauth2-use-system-browser =
     .label = Izmantot sistēmas tīmekļa pārlūku
     .accesskey = p
+ews-url-label =
+    .value = Resursdatora URL:
+    .accesskey = u
+ews-override-oauth-details =
+    .label = Ignorēt Office365 iestatījumus:
+    .accesskey = O
+ews-applicationid-label =
+    .value = Lietotnes ID:
+    .accesskey = L
 # Variables:
 #   $extensionName (String) - The display name of the extension providing
 #     the OAuth2 settings.
