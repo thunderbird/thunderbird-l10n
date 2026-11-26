@@ -289,14 +289,76 @@ cloud-file-unknown-account-tooltip = Augšupielādēts nezināmā Filelink kont�
 # Title for the html placeholder file.
 # $filename - name of the file
 cloud-file-placeholder-title = { $filename } — datnes saites pielikums
+# A text describing that the file was attached as a Filelink and can be downloaded
+# from the link shown below.
+# $filename - name of the file
+cloud-file-placeholder-intro = Datne { $filename } tika pievienots kā saite. To var lejupielādēt no tālāk norādītās saites.
+# A line of text describing how many uploaded files have been appended to this
+# message. Emphasis should be on sharing as opposed to attaching. This item is
+# used as a header to a list, hence the colon.
+# Variables:
+# $count (Number) - Number of files.
+cloud-file-count-header =
+    { $count ->
+        [one] Esmu saistījis { $count } datni ar šo epastu:
+        [zero] Esmu saistījis { $count } datnes ar šo epastu:
+       *[other] Esmu saistījis { $count } datnes ar šo epastu:
+    }
 # A text used in a footer, instructing the reader where to find additional
 # information about the used service provider.
 # $link (string) - html a-tag for a link pointing to the web page of the provider
 cloud-file-service-provider-footer-single = Uzzināt vairāk par { $link }.
+# A text used in a footer, instructing the reader where to find additional
+# information about the used service providers. Links for the used providers are
+# split into a comma separated list of the first n-1 providers and a single entry
+# at the end.
+# $firstLinks (string) - comma separated list of html a-tags pointing to web pages
+#                        of the first n-1 used providers
+# $lastLink (string) - html a-tag pointing the web page of the n-th used provider
+cloud-file-service-provider-footer-multiple = Uzziniet vairāk par { $firstLinks } un { $lastLink }.
+# Tooltip for an icon, indicating that the link is protected by a password.
+cloud-file-tooltip-password-protected-link = Paroles aizsargāta saite
+# Used in a list of stats about a specific file
+# Service - the used service provider to host the file (Filelink Service: BOX.com)
+# Size - the size of the file (Size: 4.2 MB)
+# Link - the link to the file (Link: https://some.provider.com)
+# Expiry Date - stating the date the link will expire (Expiry Date: 12.12.2022)
+# Download Limit - stating the maximum allowed downloads, before the link becomes invalid
+#                  (Download Limit: 6)
+cloud-file-template-service-name = Failu saišu pakalpojums:
+cloud-file-template-size = Izmērs:
+cloud-file-template-link = Saite:
+cloud-file-template-password-protected-link = Ar paroli aizsargāta saite:
+cloud-file-template-expiry-date = Derīguma termiņš:
+cloud-file-template-download-limit = Lejupielāžu ierobežojums:
 cloud-file-connection-error-title = Savienojuma kļūda
 # Variables:
 # $provider (string) - name of the online storage service that reported the error
 cloud-file-connection-error = { -brand-short-name } ir bezsaistē. Nevarēja izveidot savienojumu ar { $provider }.
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+# $filename (string) - name of the file that was uploaded and caused the error
+cloud-file-upload-error-with-custom-message-title = Neizdevās augšupielādēt { $filename } uz { $provider }
+cloud-file-rename-error-title = Pārdēvēšanas kļūda
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-rename-error = Pārdēvējot { $filename } pakalpojumā { $provider }, radās problēma.
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-rename-error-with-custom-message-title = Neizdevās pārdēvēt { $filename } pakalpojumā { $provider }
+# Variables:
+# $provider (string) - name of the online storage service that reported the error
+cloud-file-rename-not-supported = { $provider } neatbalsta jau augšupielādētu datņu pārdēvēšanu.
+cloud-file-attachment-error-title = Faila saites pielikuma kļūda
+# Variables:
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-attachment-error = Neizdevās atjaunināt faila saites pielikumu { $filename }, jo tā lokālais fails ir pārvietots vai dzēsts.
+cloud-file-account-error-title = Filelink konta kļūda
+# Variables:
+# $filename (string) - name of the file that was renamed and caused the error
+cloud-file-account-error = Neizdevās atjaunināt Filelink pielikumu { $filename }, jo tā Filelink konts ir dzēsts.
 cloud-file-authentication-error-title = Autentifikācijas kļūda
 # Variables:
 # $provider - name of the online storage service
@@ -368,6 +430,22 @@ cloud-file-uploaded-tooltip = Augšuplādēts uz { $provider }
 # Variables:
 # $provider - name of the online storage service
 cloud-file-attach-picker-title = Pievienot failu(-us) ar { $provider }
+
+## Link Preview
+
+link-preview-title = Saites priekšskatījums
+link-preview-description = { -brand-short-name } var pievienot iegultu priekšskatījumu, ielīmējot saites.
+link-preview-autoadd = Automātiski pievienot saišu priekšskatījumus, kad tas ir iespējams
+link-preview-replace-now = Vai pievienot šai saitei priekšskatījumu?
+link-preview-yes-replace = Jā
+
+## Dictionary selection popup
+
+spell-add-dictionaries =
+    .label = Pievienot vārdnīcas…
+    .accesskey = a
+subject-encription-icon =
+    .title = Tēma netiks šifrēta
 
 ## Compose toolbar buttons
 

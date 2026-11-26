@@ -358,6 +358,16 @@ context-menu-redirect-msg =
 # This menu item is for canceling an NNTP message
 context-menu-cancel-msg =
     .label = Atcelt ziņojumu
+# Variables:
+# $count (Number) - Number of selected messages.
+mail-context-messages-delete =
+    .label =
+        { $count ->
+            [one] Izdzēst vēstuli
+            [zero] Izdzēst atlasītās vēstules
+           *[other] Izdzēst atlasītās vēstules
+        }
+    .tooltiptext = { mail-context-messages-delete.label }
 
 ## Message header pane
 
