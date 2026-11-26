@@ -109,8 +109,29 @@ compose-header-area-splitter =
     .aria-description = Izmantot bultiņas uz augšu un leju, lai mainītu izmēru, turot Shift lielākiem soļiem. Nospiest Tab, lai pārvietotos uz labotāju vai Shift+Tab, lai pārvietotos uz tēmas lauku.
     .aria-label = Galvenes apgabals
 
+## Send Format
+
+compose-send-format-menu =
+    .label = Sūtīšanas formāts
+    .accesskey = f
+compose-send-auto-menu-item =
+    .label = Automātisks
+    .accesskey = A
+compose-send-both-menu-item =
+    .label = Gan HTML, gan vienkāršs teksts
+    .accesskey = G
+compose-send-html-menu-item =
+    .label = Tikai HTML
+    .accesskey = T
+compose-send-plain-menu-item =
+    .label = Tikai vienkāršs teksts
+    .accesskey = t
+
 ## Addressing widget
 
+#   $type (String) - the type of the addressing row
+remove-address-row-button =
+    .title = Noņemt { $type } lauku
 #   $type (String) - the type of the addressing row
 #   $count (Number) - the number of address pills currently present in the addressing row
 address-input-type-aria-label =
@@ -135,6 +156,13 @@ pill-tooltip-not-in-address-book = { $email } nav Tavā adrešu grāmatā
 pill-action-edit =
     .label = Labot adresi
     .accesskey = e
+#   $type (String) - the type of the addressing row, e.g. Cc, Bcc, etc.
+pill-action-select-all-sibling-pills =
+    .label = Atlasīt visas adreses šeit: { $type }
+    .accesskey = A
+pill-action-select-all-pills =
+    .label = Atlasīt visas adreses
+    .accesskey = s
 pill-action-move-to =
     .label = Pārvietot uz
     .accesskey = P
@@ -144,6 +172,9 @@ pill-action-move-cc =
 pill-action-move-bcc =
     .label = Pārvietot uz Slēpta kopija
     .accesskey = S
+pill-action-expand-list =
+    .label = Izvērst sarakstu
+    .accesskey = x
 # Variables:
 # $field - name of the addressing field being removed
 compose-remove-address-row-title = Noņemt { $field } adreses
@@ -159,6 +190,23 @@ ctrl-cmd-shift-pretty-prefix =
         [macos] ⇧ ⌘{ " " }
        *[other] Ctrl+Shift+
     }
+trigger-attachment-picker-key = A
+toggle-attachment-pane-key = V
+menuitem-toggle-attachment-pane =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key }
+    .label = Pielikumu rūts
+    .accesskey = m
+toolbar-button-add-attachment =
+    .label = Pievienot
+    .tooltiptext = Pievienot pielikumu ({ ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key })
+add-attachment-notification-reminder2 =
+    .label = Pievienot pielikumu…
+    .tooltiptext = { toolbar-button-add-attachment.tooltiptext }
+    .accesskey = P
+menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
+    .label = Datne(-es)…
+    .accesskey = D
 
 ## Reorder Attachment Panel
 
@@ -209,6 +257,8 @@ many-public-recipients-prompt-cancel = Atcelt nosūtīšanu
 
 ## Notifications
 
+encrypted-bcc-ignore-button = Saprotu
+auto-disable-e2ee-warning = Šim ziņojumam pilnīga šifrēšana tika automātiski atspējota.
 # Variables:
 #   $count - the number of files that will be unblocked
 blocked-content-message =
@@ -226,8 +276,19 @@ attachment-reminder-keywords-msg =
        *[other] Atrasti { $count } pielikuma atslēgvārdi:
     }
 
+## Editing
+
+compose-tool-button-remove-text-styling =
+    .tooltiptext = Noņemt teksta stilu
+
 ## Filelink
 
+# A text used in a tooltip of Filelink attachments, whose account has been
+# removed or is unknown.
+cloud-file-unknown-account-tooltip = Augšupielādēts nezināmā Filelink kontā.
+# Title for the html placeholder file.
+# $filename - name of the file
+cloud-file-placeholder-title = { $filename } — datnes saites pielikums
 # A text used in a footer, instructing the reader where to find additional
 # information about the used service provider.
 # $link (string) - html a-tag for a link pointing to the web page of the provider

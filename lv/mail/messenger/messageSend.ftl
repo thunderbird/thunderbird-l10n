@@ -76,6 +76,7 @@ send-undisclosed-recipients = neatklāti saņēmēji
 # Variables:
 # $recipient - recipient address
 smtp-error-illegal-local-part = Saņēmēja adreses { $recipient } lokālajā daļā ir rakstzīmes, kas nav ASCII, bet jūsu serveris neatbalsta SMTPUTF8. Lūdzu, nomainiet šo adresi un mēģiniet vēlreiz.
+smtp-error-no-recipients = SMTP piegādei netika norādīti adresāti.
 # Variables:
 # $hostname - outgoing server hostname
 smtp-auth-hint-encrypt-to-plain-no-ssl = Šķiet, ka izejošais serveris (SMTP) { $hostname } neatbalsta šifrētas paroles. Ja tikko izveidojāt kontu, sadaļā ‘Konta iestatījumi | Izejošais serveris’ pamēģiniet mainīt ‘Autentifikācijas veids’ uz ‘Parole, pārsūtīta nedroši’. Ja agrāk tas darbojās, bet tagad nedarbojas, iespējams, jūsu parole ir nozagta.
@@ -107,6 +108,9 @@ smtp-server-error = Sūtot e-pastu, radās kļūda: izejošā servera (SMTP) kļ
 # Variables:
 # $hostname - outgoing server hostname
 smtp-starttls-failed = Sūtot e-pastu, radās kļūda: Nevar izveidot drošu saiti ar izejošo serveri (SMTP) { $hostname }, izmantojot STARTTLS, jo tas neziņo par šo iespēju. Izslēdziet STARTTLS šim serverim vai sazinieties ar pakalpojumu sniedzēju.
+# Variables:
+# $serverResponse - server response
+smtp-too-many-recipients = Ziņojums netika nosūtīts, jo ir pārsniegts atļautais adresātu skaits. Serveris atbildēja: { $serverResponse }.
 # Variables:
 # $serverResponse - server response
 smtp-error-sending-from-command = Sūtot pastu, radās kļūda. Pasta serveris atbildēja: { $serverResponse }. Lūdzu, konta iestatījumos pārbaudiet, vai jūsu e-pasta adrese ir pareiza, un mēģiniet vēlreiz.

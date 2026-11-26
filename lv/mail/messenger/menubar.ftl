@@ -108,8 +108,71 @@ toolbar-not-spam-button =
     .label = Nav mēstules
     .tooltiptext = Atzīmēt atlasītos ziņojumus kā ne mēstules
 
+## View
+
+menu-view-repair-text-encoding =
+    .label = Labot teksta kodējumu
+    .accesskey = L
+
+## View / Folders
+
+menu-view-folders-toggle-header =
+    .label = Mapju rūts galvene
+    .accesskey = r
+
+## View / Layout
+
+menu-view-toggle-thread-pane-header =
+    .label = Vēstuļu saraksta galvene
+    .accesskey = g
+menu-font-size-label =
+    .label = Fonta izmērs
+    .accesskey = o
+menuitem-font-size-enlarge =
+    .label = Palielināt fonta lielumu
+    .accesskey = l
+menuitem-font-size-reduce =
+    .label = Samazināt fonta lielumu
+    .accesskey = m
+menuitem-font-size-reset =
+    .label = Atiestatīt fonta lielumu
+    .accesskey = a
+mail-uidensity-label =
+    .label = Blīvums
+    .accesskey = B
+mail-uidensity-compact =
+    .label = Saspiest
+    .accesskey = S
+mail-uidensity-default =
+    .label = Noklusējuma
+    .accesskey = k
+mail-uidensity-relaxed =
+    .label = Brīvs
+    .accesskey = r
+menu-spaces-toolbar-button =
+    .label = Stateniska rīkjosla, lai pārslēgtos starp dažādām vietām. Bultu taustiņi ir izmantojami, lai pārvietotos starp pieejamajām pogām.
+    .accesskey = t
+
 ## File
 
+file-new-email-account =
+    .label = Epasta konts…
+    .accesskey = E
+file-new-newsgroup-account =
+    .label = Ziņu grupas konts…
+    .accesskey = n
+file-new-addressbook =
+    .label = Adrešu grāmata
+    .accesskey = A
 file-new-mailing-list =
     .label = Adresātu saraksts…
     .accesskey = A
+file-new-local-addressbook =
+    .label = Vietējā adrešu grāmata
+    .accesskey = a
+file-new-carddav-addressbook =
+    .label = CardDav adrešu grāmata
+    .accesskey = C
+file-new-ldap-addressbook =
+    .label = LDAP adrešu grāmata
+    .accesskey = L
