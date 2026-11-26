@@ -277,7 +277,7 @@ account-hub-sync-accounts-found = { -brand-short-name } кейбір байла�
 account-hub-sync-accounts-not-found = { -brand-short-name } байланысқан қызметтерді таба алмады
 account-hub-sync-accounts-failure = { -brand-short-name } таңдалған қызметтерді байланыстыра алмады
 account-hub-email-added-success = Электрондық пошта тіркелгісі сәтті байланыстырылды
-account-hub-config-test-success = Конфигурация параметрлері жарамды
+account-hub-config-test-success = { -brand-short-name } дұрыс параметрлерді тауып, оларды жаңартты.
 account-hub-select-all = Барлығын таңдау
 account-hub-deselect-all = Барлығынан таңдауды алып тастау
 # $count (Number) - The number of sync accounts selected.
