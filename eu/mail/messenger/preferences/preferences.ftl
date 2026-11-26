@@ -646,6 +646,7 @@ conversation-view-limitations-description = Elkartu erlazionatutako mezuak elkar
 conversation-view-preview-description = Hau aurreikuspen-funtzio goiztiarra da. Erlazionatutako mezuak elkarrekin taldekatzen ditu, baina baliteke beti ez funtzionatzea espero bezala.
 conversation-view-settings-link = Konfiguratu elkarrizketa-ikuspegia Beta eginbideetan
 conversation-view-callout-description = Elkarrekin lotutako mezuak elkarrizketa batean bildu.
+conversation-view-beta-badge = Beta
 conversation-view-checkbox-label =
     .label = Gaitu elkarrizketa ikuspegia
     .accesskey = e
