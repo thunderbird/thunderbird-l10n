@@ -165,6 +165,7 @@ error-message-no-profile = Nav atrasts profils.
 
 ## <csv-field-map> element
 
+csv-first-row-contains-headers = Pirmajā rindā norādīti lauku nosaukumi
 csv-source-field = Avota lauks
 csv-source-first-record = Pirmais ieraksts
 csv-source-second-record = Otrais ieraksts

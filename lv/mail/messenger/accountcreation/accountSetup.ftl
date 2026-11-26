@@ -8,15 +8,26 @@ account-setup-tab-title = Konta iestatīšana
 
 account-setup-title = Iestati savu esošo e-pasta adresi
 account-setup-description = Lai izmantotu savu pašreizējo e-pasta adresi, jāievada savi pieteikšanās dati.
+account-setup-secondary-description = { -brand-product-name } automātiski meklēs darbojošos un ieteicamo servera konfigurāciju.
+account-setup-success-title = Konts veiksmīgi izveidots
+account-setup-success-description = Tagad šo kontu varat izmantot ar { -brand-short-name }.
+account-setup-success-secondary-description = Jūs varat uzlabot lietošanas pieredzi, savienojot saistītos pakalpojumus un konfigurējot papildu konta iestatījumus.
 
 ## Form fields
 
 account-setup-name-label = Tavs pilnais vārds
     .accesskey = p
+# Note: "John Doe" is a multiple-use name that is used when the true name of a person is unknown. We use this fake name as an input placeholder. Translators should update this to reflect the placeholder name of their language/country.
+account-setup-name-input =
+    .placeholder = Džons Doe
+account-setup-name-info-icon =
+    .title = Jūsu vārds, kā tas tiek rādīts citiem
 account-setup-name-warning-icon =
     .title = Lūgums ievadīt savu vārdu
 account-setup-email-label = E-pasta adrese
     .accesskey = E
+account-setup-email-input =
+    .placeholder = john.doe@example.com
 account-setup-email-info-icon =
     .title = Esošā e-pasta adrese
 account-setup-email-warning-icon =
@@ -26,14 +37,21 @@ account-setup-password-label = Parole
     .accesskey = P
 account-setup-remember-password = Atcerēties paroli
     .accesskey = c
+account-setup-exchange-label = Jūsu pieteikšanās
+    .accesskey = p
 #   YOURDOMAIN refers to the Windows domain in ActiveDirectory. yourusername refers to the user's account name in Windows.
 account-setup-exchange-input =
     .placeholder = DOMENS\lietotajvards
+#   Domain refers to the Windows domain in ActiveDirectory. We mean the user's login in Windows at the local corporate network.
+account-setup-exchange-info-icon =
+    .title = Domēna pieteikšanās
 
 ## Action buttons
 
 account-setup-button-cancel = Atcelt
     .accesskey = A
+account-setup-button-manual-config = Manuāla konfigurēšana
+    .accesskey = k
 account-setup-button-continue = Turpināt
     .accesskey = T
 

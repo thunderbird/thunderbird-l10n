@@ -194,18 +194,39 @@ account-hub-find-settings-failed = { -brand-full-name } neizdevās atrast e-past
 account-hub-exchange-config-unverifiable = Iestatījumus nevarēja pārbaudīt. Ja lietotājvārds un parole ir pareiza, visticamāk, ka servera pārvaldītājs kontam ir atspējojis atlasītos iestatījumus. Jāmēģina atlasīt citu protokolu.
 account-hub-advanced-setup-button = Paplašināta konfigurācija
     .accesskey = a
+# Variables:
+#  $domain (String): The name of the server where the configuration was found, e.g. rackspace.com.
+account-hub-exchange-dialog-question = { -brand-short-name } serverī { $domain } atrada jūsu konta konfigurācijas informāciju. Vai vēlaties turpināt un nosūtīt savus autentifikācijas datus?
 account-hub-creation-error-title = Kļūda konta izveidošanā
 account-hub-error-server-exists = Ienākošais serveris jau pastāv.
+account-hub-confirm-advanced-title = Apstiprināt paplašināto konfigurāciju
+account-hub-confirm-advanced-description = Šis dialoglodziņš tiks aizvērts un konts tiks izveidots ar pašreizējiem iestatījumiem, pat ja konfigurācija ir nepareiza. Vai vēlaties turpināt?
+account-hub-addon-install-title = Uzstādīt
 account-hub-encryption-button = Pilnīga šifrēšana
 account-hub-address-books-button = Adrešu grāmatas
 account-hub-calendars-button = Kalendāri
 account-hub-thundermail-button = Pieteikties ar Thundermail
 # Used as part of a divider between sign in button and a sign in form.
 account-hub-thundermail-divider-text = vai
+account-hub-manual-config-imap-title = IMAP iestatījumi
+account-hub-manual-config-pop3-title = POP3 iestatījumi
+account-hub-manual-config-review-settings-title = Pārbaudīt atjauninātos iestatījumus
 account-hub-manual-config-incoming-legend = Ienākošais serveris
 account-hub-manual-config-outgoing-legend = Izejošais serveris
 # Label for checkbox that will hide an outgoing username input if it's the same is the incoming
 account-hub-same-username-checkbox = Tāds pats lietotājvārds kā ienākošajam serverim
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-security-changed = Nevarēja atrast { $oldValue }, bet { $newValue } ir pieejama.
+# Variables:
+# $oldValue (String): The port requested before the configuration was tested.
+# $newValue (String): The port found after the configuration was tested.
+account-hub-manual-config-port-changed = Nevarēja sasniegt portu { $oldValue }, bet ports { $newValue } ir pieejams.
+# Variables:
+# $oldValue (String): The value requested before the configuration was tested.
+# $newValue (String): The value found after the configuration was tested.
+account-hub-manual-config-value-changed = Nevarēja izmantot { $oldValue }, bet { $newValue } ir pieejama.
 account-hub-protocol-imap = Vienādot vairākās ierīcēs
 account-hub-protocol-microsoft = Exchange vai Microsoft 365
 account-hub-protocol-pop3 = Lejupielādēt ierīcē
@@ -305,9 +326,42 @@ address-book-add-ldap-button = Pievienot LDAP adrešu grāmatu
 address-book-add-ldap-icon =
     .alt = Izveidot savienojumu ar attālo LDAP adrešu grāmatu
 address-book-add-ldap = Jauna LDAP adrešu grāmata
+address-book-add-ldap-description = Izveidot savienojumu ar attālo LDAP adrešu grāmatu
+# $addressBooks (Number) - The number of address books that can be synced from existing accounts.
+account-hub-address-book-sync-books-data =
+    { $addressBooks ->
+        [one] Pieejama 1 adrešu grāmata
+        [zero] Pieejamas { $addressBooks } adrešu grāmatas
+       *[other] Pieejamas { $addressBooks } adrešu grāmatas
+    }
+address-book-sync-existing-description = Iegūst esošos kontus…
+account-hub-select-address-book-account = Izvēlieties kontu ar adrešu grāmatām
+# $synced (Number) - The number of address books that are synced.
+# $available (Number) - The number of address books that can be synced.
+# $total (Number) - The total number of address books for this account.
+account-hub-account-address-book-count = { $synced } no { $total }
+    .title = { $synced } vienādota adrešu grāmatas, { $available } pieejamas
+account-hub-add-local-address-book = Izveidot lokālu adrešu grāmatu
+account-hub-local-address-book-label = Adrešu grāmatas nosaukums
 account-hub-local-error-text = Lūgums ievadīt adrešu grāmatas nosaukumu
+account-hub-sync-address-books = Vienādot esošās adrešu grāmatas
+account-hub-new-remote-address-book = Jauna attālā adrešu grāmata
 
 ## Exchange Type Manual Config Step
 
+account-hub-exchange-type-account-type = Konta veids
+account-hub-card-graph-title = Microsoft Graph
+account-hub-card-graph-description = Microsoft Graph ir moderna savienojuma metode pakalpojumam Microsoft 365.
+account-hub-card-ews-title = Exchange tīmekļa pakalpojumi
+account-hub-card-ews-tag = Mantojums
+account-hub-card-ews-description = Exchange tīmekļa pakalpojumi (EWS) izveido savienojumu ar Microsoft Exchange, lai vienādotu jūsu epastu.
+# This is shown after the type description, so "it" is referring to the type (either Microsoft Graph or Exchange Web Services).
+account-hub-card-recommended-description = Tas ir ieteicams, jo tas atbilst jūsu pakalpojuma URL.
 account-hub-exchange-type-username = Lietotājvārds
 account-hub-exchange-type-username-hint = Parasti e-pasta adrese vai Active Directory UPN.
+account-hub-exchange-type-authentication = Autentifikācijas veids
+# Checkbox that can be unchecked to use a custom OAuth config.
+account-hub-exchange-type-default-oauth = Izmantot noklusējuma Microsoft 365 Copilot autentifikācijas iestatījumus
+account-hub-exchange-type-oauth-tenant = Īrnieka ID
+account-hub-exchange-type-oauth-app = Lietotnes ID
+account-hub-exchange-type-title = Izvēlieties konta veidu
