@@ -177,11 +177,40 @@ about-addressbook-column-header-a11y-organization2 =
     .aria-label = Organizācija
 about-addressbook-column-header-organization2 = Organizācija
     .title = Kārtot pēc organizācijas
+about-addressbook-column-label-organization2 =
+    .label = Organizācija
+# Variables:
+# $title (String) - Contact organization for tooltip.
+about-addressbook-cell-organization2 =
+    .aria-label = Organizācija
+    .title = { $title }
+about-addressbook-column-header-a11y-addrbook2 =
+    .aria-label = Adrešu grāmata
+about-addressbook-column-header-addrbook2 = Adrešu grāmata
+    .title = Kārtot pēc adrešu grāmatas
+about-addressbook-column-label-addrbook2 =
+    .label = Adrešu grāmata
+# Variables:
+# $title (String) - Contact address for tooltip.
+about-addressbook-cell-addrbook2 =
+    .aria-label = Adrešu grāmata
+    .title = { $title }
 about-addressbook-cards-context-write =
     .label = Rakstīt
+# A suggested file name (without extension) for when the user exports multiple contacts.
+about-addressbook-export-selected-filename = Kontakti
+about-addressbook-confirm-delete-mixed-title = Dzēst kontaktpersonas un sarakstus
 # Variables:
 # $count (Number) - The number of contacts and lists to be deleted. Always greater than 1.
 about-addressbook-confirm-delete-mixed = Vai tiešām izdzēst šīs { $count } kontaktpersonas un sarakstus?
+# Variables:
+# $count (Number) - The number of lists to be deleted.
+about-addressbook-confirm-delete-lists-title =
+    { $count ->
+        [one] Dzēst sarakstu
+        [zero] Dzēst sarakstus
+       *[other] Dzēst sarakstus
+    }
 # Variables:
 # $count (Number) - The number of lists to be deleted.
 # $name (String) - The name of the list to be deleted, if $count is 1.
@@ -190,6 +219,14 @@ about-addressbook-confirm-delete-lists =
         [zero] Vai tiešām izdzēst { $count } sarakstu?
         [one] Vai tiešām izdzēst šo { $count } sarakstu?
        *[other] Vai tiešām izdzēst šos { $count } sarakstus?
+    }
+# Variables:
+# $count (Number) - The number of contacts to be removed.
+about-addressbook-confirm-remove-contacts-title =
+    { $count ->
+        [one] Noņemt kontaktu
+        [zero] Noņemt kontaktpersonas
+       *[other] Noņemt kontaktpersonas
     }
 # Variables:
 # $name (String) - The name of the contact to be removed.
@@ -205,6 +242,14 @@ about-addressbook-confirm-remove-contacts-multi =
        *[other] Vai tiešām noņemt šīs { $count } kontaktpersonas no { $list }?
     }
 # Variables:
+# $count (Number) - The number of contacts to be deleted.
+about-addressbook-confirm-delete-contacts-title =
+    { $count ->
+        [one] Dzēst kontaktu
+        [zero] Dzēst kontaktus
+       *[other] Dzēst kontaktus
+    }
+# Variables:
 # $name (String) - The name of the contact to be deleted.
 about-addressbook-confirm-delete-contacts-single = Vai tiešām izdzēst kontaktpersonu { $name }?
 # Variables:
@@ -215,6 +260,17 @@ about-addressbook-confirm-delete-contacts-multi =
         [one] Vai tiešām izdzēst šo { $count } kontaktpersonu?
        *[other] Vai tiešām izdzēst šīs { $count } kontaktpersonas?
     }
+about-addressbook-column-header-a11y-generatedname2 =
+    .aria-label = Nosaukums
+
+## Card list placeholder
+## Shown when there are no cards in the list
+
+about-addressbook-placeholder-empty-book = Nav pieejamu kontaktu
+about-addressbook-placeholder-new-contact = Jauns kontakts
+about-addressbook-placeholder-search-only = Šī adrešu grāmata rāda kontaktpersonas tikai pēc meklēšanas
+about-addressbook-placeholder-searching = Meklē...
+about-addressbook-placeholder-no-search-results = Nav atrasti kontakti
 
 ## Details
 
@@ -244,14 +300,37 @@ about-addressbook-selection-lists-header2 =
     }
 about-addressbook-details-edit-photo =
     .title = Labot kontaktpersonas fotoattēlu
+about-addressbook-new-contact-header = Jauns kontakts
 about-addressbook-write-action-button = Rakstīt
 about-addressbook-event-action-button = Notikums
 about-addressbook-search-action-button = Meklēt
+about-addressbook-new-list-action-button = Jauns saraksts
 about-addressbook-begin-edit-contact-button = Labot
 about-addressbook-delete-edit-contact-button = Izdzēst
 about-addressbook-cancel-edit-contact-button = Atcelt
+about-addressbook-save-edit-contact-button = Saglabāt
+about-addressbook-add-contact-to = Pievienot:
 about-addressbook-details-email-addresses-header = E-pasta adreses
+about-addressbook-details-phone-numbers-header = Tālruņa numuri
+about-addressbook-details-addresses-header = Adreses
+about-addressbook-details-notes-header = Piezīmes
+about-addressbook-details-impp-header = Tūlītējā ziņojumapmaiņa
+about-addressbook-details-websites-header = Tīmekļa vietnes
+about-addressbook-details-other-info-header = Cita informācija
+about-addressbook-entry-type-work = Darbs
+about-addressbook-entry-type-home = Mājas
+about-addressbook-entry-type-fax = Fakss
+# Or "Mobile"
+about-addressbook-entry-type-cell = Mobilais tālrunis
+about-addressbook-entry-type-pager = Peidžers
 about-addressbook-entry-name-birthday = Dzimšanas diena
+about-addressbook-entry-name-anniversary = Gadskārta
+about-addressbook-entry-name-title = Virsraksts
+about-addressbook-entry-name-role = Loma
+about-addressbook-entry-name-organization = Organizācija
+about-addressbook-entry-name-website = Tīmekļvietne
+about-addressbook-entry-name-time-zone = Laika josla
+about-addressbook-entry-name-custom1 = Pielāgots 1
 about-addressbook-entry-name-custom2 = Pielāgots 2
 about-addressbook-entry-name-custom3 = Pielāgots 3
 about-addressbook-entry-name-custom4 = Pielāgots 4

@@ -26,3 +26,6 @@ carddav-refreshinterval-hours-value =
             [one] katru { $hours } stundu
            *[other] katru { $hours } stundu
         }
+carddav-readonly-label =
+    .label = Tikai lasāms
+    .accesskey = T

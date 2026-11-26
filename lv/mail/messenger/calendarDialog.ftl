@@ -6,6 +6,9 @@
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".
 
+calendar-dialog-close-button =
+    .aria-label = Aizvērt
+    .title = Aizvērt
 calendar-event-create-edit-dialog =
     .aria-label = Notikums
 calendar-event-title-input-new =
@@ -16,10 +19,23 @@ calendar-event-title-input-untitled =
     .placeholder = Notikums bez nosaukuma
 calendar-event-title-required = Nepieciešams
 calendar-event-title-too-long = Virsraksts nedrīkst pāŗsniegt 180 rakstzīmju
+calendar-dialog-menu-button =
+    .aria-label = Atvērt izvēlni
+    .title = Atvērt izvēlni
 calendar-dialog-back-button =
     .aria-label = Atpakaļ
     .title = Atpakaļ
 calendar-event-create-edit-dialog-back-button = Atpakaļ
+calendar-dialog-date-row-icon =
+    .alt = Datums un laiks
+calendar-dialog-date-row-recurring-icon =
+    .alt = Atkārtojas
+calendar-dialog-location-row-icon =
+    .alt = Atrašanās vieta
+calendar-dialog-description-row-icon =
+    .alt = Apraksts
+calendar-dialog-reminders-row-icon =
+    .alt = Atgādinājumi
 calendar-dialog-attendees-too-many-guests = Viesu sarakstu nevar parādīt, jo tas satur vairāk nekā 50 viesu.
 calendar-dialog-menu-duplicate =
     .label = Notikuma dublikāts
