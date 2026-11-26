@@ -151,18 +151,38 @@ calendar-summary-description = Tiks izveidots jauns kalendārs ar nosaukumu “{
 ## Import dialog
 
 # $progressPercent (string) - percent formatted progress (for example "10%")
+progress-pane-importing2 = Ievieto… { $progressPercent }
+# $progressPercent (string) - percent formatted progress (for example "10%")
 progress-pane-exporting2 = Izgūst… { $progressPercent }
+progress-pane-finished-desc2 = Pabeigts.
 error-pane-title = Kļūda
 error-message-zip-file-too-big2 = Atlasītā ZIP datne ir lielāka nekā 2 GB. Lūgums vispirms to atspiest, tad ievietot no izvilktās mapes.
+error-message-extract-zip-file-failed2 = Neizdevās atspiest ZIP failu. Lūdzu, atspiediet to manuāli un pēc tam ievietojiet saturu no atspiestās mapes.
 error-message-failed = Ievietošana neparedzēti neizdevās, vairāk informācijas var būt pieejama kļūdu konsolē.
+error-failed-to-parse-ics-file = Datnē nav atrasts nekas ievietojams.
 error-export-failed = Izgūšana neparedzēti neizdevās, vairāk informācijas var būt pieejama kļūdu konsolē.
+error-message-no-profile = Nav atrasts profils.
+
+## <csv-field-map> element
+
+csv-source-field = Avota lauks
+csv-source-first-record = Pirmais ieraksts
+csv-source-second-record = Otrais ieraksts
+csv-target-field = Adrešu grāmatas lauks
 
 ## Export tab
 
+export-profile-title = Saglabājiet kontus, ziņojumus, adrešu grāmatas un iestatījumus ZIP failā.
+export-profile-description = Ja pašreizējā profila apjoms pārsniedz 2 GB, iesakām izveidot tā dublējumkopiju patstāvīgi.
+export-open-profile-folder = Atvērt profila mapi
 export-file-picker2 = Izgūt ZIP datnē
+export-brand-name = { -brand-product-name }
 
 ## Summary pane
 
+summary-pane-title = Ievietojamie dati
+summary-pane-start = Sākt ievietošanu
+summary-pane-warning = Kad ievietošana būs pabeigta, { -brand-product-name } būs jārestartē.
 summary-pane-start-over = Restartēt importēšanas rīku
 
 ## Footer area
