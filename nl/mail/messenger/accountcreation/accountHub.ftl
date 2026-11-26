@@ -277,7 +277,7 @@ account-hub-sync-accounts-found = { -brand-short-name } heeft enkele verbonden s
 account-hub-sync-accounts-not-found = { -brand-short-name } kon geen verbonden services vinden
 account-hub-sync-accounts-failure = { -brand-short-name } kon geen verbinding maken met de geselecteerde services
 account-hub-email-added-success = E-mailaccount met succes verbonden
-account-hub-config-test-success = Configuratie-instellingen geldig
+account-hub-config-test-success = { -brand-short-name } heeft de juiste instellingen gevonden en bijgewerkt.
 account-hub-select-all = Alles selecteren
 account-hub-deselect-all = Alles deselecteren
 # $count (Number) - The number of sync accounts selected.

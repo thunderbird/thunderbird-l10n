@@ -7,9 +7,7 @@ account-setup-tab-title = Account instellen
 ## Header
 
 account-setup-title = Uw bestaande e-mailadres instellen
-account-setup-description =
-    Vul om uw huidige e-mailadres te gebruiken uw aanmeldgegevens in.<br/>
-    { -brand-product-name } zoekt automatisch naar een werkende en aanbevolen serverconfiguratie.
+account-setup-description = Vul uw aanmeldgegevens in om uw huidige e-mailadres te gebruiken.
 account-setup-secondary-description = { -brand-product-name } zoekt automatisch naar een werkende en aanbevolen serverconfiguratie.
 account-setup-success-title = Account met succes aangemaakt
 account-setup-success-description = U kunt deze account nu gebruiken met { -brand-short-name }.
