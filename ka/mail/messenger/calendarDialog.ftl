@@ -164,6 +164,9 @@ calendar-event-prompt-edit-title = ღონისძიების ჩას�
 
 calendar-event-categories = კატეგორიები
 calendar-event-add-category = კატეგორიის დამატება
+calendar-event-category-name =
+    .aria-label = ახალი კატეგორიის დამატება
+    .placeholder = ახალი კატეგორიის დამატება
 calendar-event-category-choices =
     .aria-label = ხელმისაწვდომი კატეგორიები
 calendar-event-selected-categories =
@@ -193,6 +196,33 @@ calendar-event-video-url =
 calendar-event-video-url-clear =
     .aria-label = ვიდეოს URL-ს წაშლა
     .title = წაიშალოს ვიდეოს URL
+
+## Description controls in the event create/edit dialog.
+
+calendar-event-add-description = აღწერილობის დამატება
+calendar-description-formatting =
+    .aria-label = ტექსტის გაფორმება
+calendar-description-bold =
+    .aria-label = მუქი
+    .title = მუქი
+calendar-description-italic =
+    .aria-label = დახრილი
+    .title = დახრილი
+calendar-description-bulleted-list =
+    .aria-label = ბურთულიანი სია
+    .title = ბურთულიანი სია
+calendar-description-numbered-list =
+    .aria-label = დანომრილი სია
+    .title = დანომრილი სია
+calendar-description-indent =
+    .aria-label = შეწეული ხაზი
+    .title = შეწეული ხაზი
+calendar-description-outdent =
+    .aria-label = გამოწეული ხაზი
+    .title = გამოწეული ხაზი
+calendar-description-link =
+    .aria-label = ბმული
+    .title = ბმული
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".

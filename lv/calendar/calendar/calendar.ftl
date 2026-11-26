@@ -389,7 +389,7 @@ yesterday = Vakar
 events-only = Notikumi
 events-and-tasks = Notikumi un uzdevumi
 tasks-only = Uzdevumi
-short-calendar-week = CW
+short-calendar-week = KN
 calendar-go = Iet
 # Some languages have different conjugations of 'next' and 'last'.  If yours
 # does not, simply repeat the value.  This will be used with day names, as in
@@ -495,7 +495,7 @@ single-long-calendar-week = Kalendāra nedēļa: { $index }
 # LOCALIZATION NOTE (single-calendar-week):
 # used for display of calendar weeks in short form like 'CW 43'
 #    $index will be replaced with the index of the week
-single-calendar-week = CW: { $index }
+single-calendar-week = KN: { $index }
     .title = Kalendāra nedēļa: { $index }
 # LOCALIZATION NOTE (several-long-calendar-weeks):
 # used for display of calendar weeks in long form like 'Calendar Weeks 43 - 45'
