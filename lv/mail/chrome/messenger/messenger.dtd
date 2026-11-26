@@ -404,6 +404,7 @@
 <!ENTITY importCmd.label "Ievietot…">
 <!ENTITY importCmd.accesskey "I">
 <!ENTITY exportCmd.label "Izgūt…">
+<!ENTITY exportCmd.accesskey "x">
 <!ENTITY clearRecentHistory.label "Dzēst neseno vēsturi…">
 <!ENTITY clearRecentHistory.accesskey "D">
 <!ENTITY accountManagerCmd2.label "Konta iestatījumi">

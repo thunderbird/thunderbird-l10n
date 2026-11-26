@@ -166,12 +166,18 @@ command-upgraderoom = { $commandName } &lt;newVersion&gt;: Jaunina telpu uz nor�
 # $commandName is the command name
 command-me = { $commandName } &lt;action&gt;: Izpildīt darbību.
 # $commandName is the command name
+command-msg = { $commandName } &lt;userId&gt; &lt;message&gt;: Nosūtīt privātu ziņojumu norādītajam lietotājam.
+# $commandName is the command name
 command-join = { $commandName } & lt; roomId & gt ;: Pievienoties dotajai telpai.
 # LOCALIZATION NOTE (message-*):
 #    These are shown as system messages in the conversation.
 #    $user is the name of the user who banned.
 #    $userBanned is the name of the user who got banned.
 message-banned = { $user } liegts { $userBanned }.
+#    $user is the name of the user who banned.
+#    $userBanned is the name of the user who got banned.
+#    $reason is the reason the user was banned.
+message-banned-with-reason = Lietotājs { $user } ir bloķēts. Lietotājs { $userBanned }. Iemesls: { $reason }
 #    $user is the name of the user who accepted the invitation.
 #    $userWhoSent is the name of the user who sent the invitation.
 message-accepted-invite-for = { $user } pieņēma { $userWhoSent } uzaicinājumu.
@@ -265,6 +271,18 @@ message-decryption-error2 = Nevarēja atšifrēt šī ziņojuma saturu. Šifrē�
 message-decryption-error = Nevarēja atšifrēt šī ziņojuma saturu. Lai pieprasītu šifrēšanas atslēgas no citām ierīcēm, ar peles labo pogu noklikšķiniet uz šī ziņojuma.
 message-decrypting = Atšifrēšana…
 message-redacted = Ziņojums tika rediģēts.
+#    $userThatReacted is the username of the user that reacted.
+#    $userThatSentMessage is the username of the user that sent the message the reaction was added to.
+#    $reaction is the content (typically an emoji) of the reaction.
+message-reaction = { $userThatReacted } reaģēja uz { $userThatSentMessage } ar { $reaction }.
 #    Label in the message context menu
 message-action-request-key = Atkārtoti pieprasīt atslēgas
+#    Label in the message context menu
+message-action-redact = Rediģēt
+message-action-report = Ziņot par ziņojumu
+message-action-retry = Mēģināt nosūtīt vēlreiz
 message-action-cancel = Atcelt ziņojumu
+# LOCALIZATION NOTE (error-*)
+#    These are strings shown as system messages when an action the user took fails.
+#    $message is the message.
+error-send-message-failed = Sūtot jūsu ziņojumu “{ $message }”, radās kļūda.

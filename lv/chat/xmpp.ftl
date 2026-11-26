@@ -252,6 +252,14 @@ options-domain = Domēns
 #  This name is used whenever the name of the protocol is shown.
 gtalk-protocol-name = Google Talk
 odnoklassniki-protocol-name = Odnoklassniki
+# LOCALIZATION NOTE (gtalk-disabled):
+#  Google Talk was disabled on June 16, 2022. The message below is a localized
+#  error message to be displayed to users with Google Talk accounts.
+gtalk-disabled = Google Talk vairs netiek atbalstīts, jo Google ir atspējojis savu XMPP vārteju.
+# LOCALIZATION NOTE (odnoklassniki-disabled):
+#  Odnoklassniki disabled their XMPP gateway. The message below is a localized
+#  error message to be displayed to users with Odnoklassniki accounts.
+odnoklassniki-disabled = Odnoklassniki vairs netiek atbalstīts, jo Odnoklassniki ir atspējojis savu XMPP vārteju.
 # LOCALIZATION NOTE (command-*):
 #  These are the help messages for each command.
 # $commandName (String): command name
