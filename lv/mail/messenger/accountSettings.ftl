@@ -113,6 +113,18 @@ ews-override-oauth-details =
 ews-applicationid-label =
     .value = Lietotnes ID:
     .accesskey = L
+ews-tenantid-label =
+    .value = Īrnieka ID:
+    .accesskey = D
+ews-redirecturi-label =
+    .value = Pārvirzīšanas URI:
+    .accesskey = U
+ews-endpointhost-label =
+    .value = Galapunkta resursdators:
+    .accesskey = G
+ews-oauthscopes-label =
+    .value = OAuth tvērumi:
+    .accesskey = O
 # Variables:
 #   $extensionName (String) - The display name of the extension providing
 #     the OAuth2 settings.

@@ -4,3 +4,6 @@
 
 webext-experiment-warning = Ļaunprātīgi papildinājumi var nozagt jūsu privāto informāciju vai apdraudēt datoru. Uzstādiet šo papildinājumu tikai tad, ja uzticaties avotam.
 webext-perms-learn-more = Uzzināt vairāk
+# The "<>" is a placeholder for the add-on name, used by toolkit code which has
+# not yet been updated to use fluent placeholders.
+webext-install-suppressed-message-2 = Papildinājumu <> nevarēja instalēt, jo tas izmanto mantotus API, kurus šī { -brand-product-name } versija neatbalsta.

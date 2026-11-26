@@ -77,3 +77,42 @@ gloda-indexed-folder-status =
         [one] pagājušas { $count } sekundes
        *[other] pagājušas { $count } sekundes
     }
+# Display line of the live Activity Manager process shown while a WebExtension
+# is actively sending messages via messages.sendMessage(). The running count is
+# shown in the status line below.
+# Variables:
+#   $extensionName (String) - the extension's name
+extension-send-activity-live = Paplašinājums “{ $extensionName }” sūta neuzraudzītus ziņojumus.
+# Status line shown under extension-send-activity-live, updated after every send.
+# Variables:
+#   $count (Number) - number of messages sent so far in this batch
+extension-send-activity-progress =
+    { $count ->
+        [one] Nosūtīts ziņojums: { $count }
+        [zero] Nosūtīti { $count } ziņojumi
+       *[other] Nosūtīti { $count } ziņojumi
+    }
+# Permanent Activity Manager entry written when the live send process is
+# finalized, 10 seconds after the last send in a batch. The count and elapsed
+# time are carried in the status line below (extension-send-activity-event-status).
+# Variables:
+#   $extensionName (String) - the extension's name
+#   $count (Number) - number of messages sent in this batch
+extension-send-activity-event =
+    { $count ->
+        [one] Paplašinājums “{ $extensionName }” nosūtīja neuzraudzītu ziņojumu
+        [zero] Paplašinājums “{ $extensionName }” nosūtīja vairākus neuzraudzītus ziņojumus.
+       *[other] Paplašinājums “{ $extensionName }” nosūtīja vairākus neuzraudzītus ziņojumus.
+    }
+# Status line shown under extension-send-activity-event.
+# Reports how many messages were sent by the extension and how long the
+# completed send batch took.
+# Variables:
+#   $count (Number) - number of messages sent
+#   $time (String) - localized elapsed time
+extension-sent-activity-event-status =
+    { $count ->
+        [one] { $count } ziņojums (pagājušais laiks: { $time })
+        [zero] { $count } ziņojumi (pagājušais laiks: { $time })
+       *[other] { $count } ziņojumi (pagājušais laiks: { $time })
+    }

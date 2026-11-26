@@ -52,8 +52,14 @@ account-setup-button-cancel = Atcelt
     .accesskey = A
 account-setup-button-manual-config = Manuāla konfigurēšana
     .accesskey = k
+account-setup-button-stop = Apturēt
+    .accesskey = r
+account-setup-button-retest = Pārbaudīt vēlreiz
+    .accesskey = v
 account-setup-button-continue = Turpināt
     .accesskey = T
+account-setup-button-done = Gatavs
+    .accesskey = a
 
 ## Notifications
 
@@ -66,7 +72,13 @@ account-setup-looking-up-isp = Uzmeklē iestatījumus: e-pasta pakalpojumu snied
 account-setup-looking-up-db = Uzmeklē iestatījumus: Mozilla ISP datubāze…
 account-setup-looking-up-mx = Uzmeklē iestatījumus: ienākošā pasta domēns…
 account-setup-looking-up-exchange = Uzmeklē iestatījumus: Exchange serveris…
+account-setup-checking-password = Pārbaudu paroli…
+account-setup-installing-addon = Lejuplādēju un uzstādu spraudni…
+account-setup-success-half-manual = Pārbaudot doto serveri, tika atrasti šādi iestatījumi:
+account-setup-success-guess = Konfigurācija atrasta, izmēģinot bieži lietotus serveru nosaukumus.
 account-setup-success-guess-offline = Jūs esat bezsaistē. Dažus iestatījumus noteicām aptuveni, tāpēc jums būs jāievada pareizie iestatījumi.
+account-setup-success-password = Parole ir apstiprināta
+account-setup-success-addon = Papildinājums veiksmīgi uzstādīts.
 # Note: Do not translate or replace Mozilla. It stands for the public project mozilla.org, not Mozilla Corporation. The database is a generic, public domain facility usable by any client.
 account-setup-success-settings-db = Konfigurācija atrasta Mozilla ISP datubāzē.
 account-setup-success-settings-disk = Konfigurācija atrasta { -brand-short-name } instalācijā.
