@@ -493,6 +493,12 @@ decrypt-and-copy-failures-multiple =
 # list, when at least one filter or action failed.
 apply-filters-failed = Spracovanie filtrov sa nepodarilo dokončiť. Podrobnosti nájdete v protokole filtrovania.
 apply-filters-failed-open-log-button = Otvoriť protokol filtrovania
+archive-message-error-title = Chyba pri archivácii správy
+archive-message-error = Zvolené správy nebolo možné archivovať.
+archive-folder-missing = Priečinok s archívmi pre túto identitu sa nepodarilo nájsť. Vyberte iný priečinok a skúste to znova.
+save-template-error-title = Chyba pri ukladaní šablóny
+save-template-error = Správu nebolo možné uložiť ako šablónu.
+template-folder-missing = Zvolený priečinok so šablónami sa nepodarilo nájsť. Vyberte iný priečinok a skúste to znova.
 
 ## Spaces toolbar
 

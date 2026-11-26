@@ -10,6 +10,7 @@ send-alert-followup-to-sender = Autor tejto správy žiada, aby sa odpovede posi
 send-unable-to-save-template = Správu sa nepodarilo uložiť ako šablónu.
 send-unable-to-save-draft = Správu sa nepodarilo uložiť ako koncept.
 send-error-failed = Správu sa nepodarilo odoslať.
+send-error-configured-folder-missing = Priečinok určený na ukladanie odoslaných správ sa nepodarilo nájsť. Vyberte iný priečinok a skúste to znova.
 send-unable-to-send-later = Ospravedlňujeme sa, vašu správu nebolo možné uložiť na jej neskoršie odoslanie.
 # Variables:
 # $hostname - outgoing server hostname

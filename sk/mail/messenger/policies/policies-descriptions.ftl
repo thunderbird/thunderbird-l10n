@@ -14,6 +14,7 @@ policy-3rdparty = Nastaví, ku ktorým pravidlám majú prístup rozšírenia ce
 policy-AppAutoUpdate = Zapne alebo vypne automatické aktualizácie aplikácie.
 policy-AppUpdatePin = Zabráni aktualizácii { -brand-short-name(case: "gen") } nad rámec špecifikovanej verzie.
 policy-AppUpdateURL = Nastaví vlastnú URL adresu pre aktualizáciu aplikácie.
+policy-Authentication2 = Nastavte integrované overovanie pre webové stránky, ktoré ho podporujú, a určte, ktoré schémy overovania HTTP sa majú zakázať.
 policy-Authentication = Nakonfiguruje integrovanú autentifikáciu webových stránok, ktoré ju podporujú.
 policy-BackgroundAppUpdate2 = Povolí alebo zakáže aktualizácie na pozadí.
 policy-BlockAboutAddons = Zablokuje prístup ku správcovi doplnkov (about:addons).
