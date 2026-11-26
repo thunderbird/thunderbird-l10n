@@ -66,12 +66,41 @@ profile-source = Ievietot no profila
 profile-source-named = Ievietot no profila <strong>“{ $profileName }”</strong>
 profile-file-picker-directory = Atlasiet profila mapi
 profile-file-picker-archive = Atlasiet <strong>ZIP</strong> failu
+profile-file-picker-archive-description = ZIP datnei jābūt mazākam par 2 GB.
+profile-file-picker-archive-title = Izvēlieties ZIP datni (mazāku par 2 GB)
+items-pane-title2 = Izvēlieties, ko importēt:
+items-pane-directory = Katalogs:
+items-pane-profile-name = Profila nosaukums:
+items-pane-checkbox-accounts = Konti un iestatījumi
 items-pane-checkbox-address-books = Adrešu grāmatas
 items-pane-checkbox-calendars = Kalendāri
+items-pane-checkbox-mail-messages = Pasta vēstules
+items-pane-override = Esošie vai identiskie dati netiks pārrakstīti.
 items-pane-nothing-to-import = No atlasītā avota neko nevar ievietot.
+
+## Import from address book file steps
+
+import-from-addr-book-file-description = Izvēlieties datnes formātu, kurā ir jūsu adrešu grāmatas dati.
+addr-book-csv-file = Ar komatiem vai tab atdalīta datne (.csv, .tsv)
+addr-book-ldif-file = LDIF datne (.ldif)
+addr-book-vcard-file = vCard datne (.vcf, .vcard)
+addr-book-sqlite-file = SQLite datubāzes datne (.sqlite)
+addr-book-mab-file = Mork datubāzes datne (.mab)
+addr-book-file-picker = Atlasiet adrešu grāmatas datne
+addr-book-csv-field-map-title = Atbilstības lauku nosaukumi
+addr-book-csv-field-map-desc = Atlasiet adrešu grāmatas laukus, kas atbilst avota laukiem. Noņemiet atzīmi no laukiem, kurus nevēlaties ievietot.
+addr-book-directories-title = Izvēlieties, kur ievietot atlasītos datus
+addr-book-directories-pane-source = Avota fails:
+# $addressBookName (string) - name of the new address book that would be created.
+addr-book-import-into-new-directory2 = Izveidot jaunu adrešu grāmatu ar nosaukumu <strong>“{ $addressBookName }”</strong>
+# $addressBookName (string) - name of the address book to import into
+addr-book-summary-title = Ievietot atlasītos datus direktorijā “{ $addressBookName }”
+# $addressBookName (string) - name of the address book that will be created.
+addr-book-summary-description = Tiks izveidota jauna adrešu grāmata “{ $addressBookName }”.
 
 ## Import from calendar file steps
 
+import-from-calendar-file-desc = Izvēlieties iCalendar (.ics) failu, kuru vēlaties ievietot.
 # $count (Number) - The number of items in the calendar file.
 calendar-items-count =
     { $count ->
