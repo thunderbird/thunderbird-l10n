@@ -49,13 +49,29 @@ account-setup-looking-up-db = Uzmeklē iestatījumus: Mozilla ISP datubāze…
 account-setup-looking-up-mx = Uzmeklē iestatījumus: ienākošā pasta domēns…
 account-setup-looking-up-exchange = Uzmeklē iestatījumus: Exchange serveris…
 account-setup-success-guess-offline = Jūs esat bezsaistē. Dažus iestatījumus noteicām aptuveni, tāpēc jums būs jāievada pareizie iestatījumi.
+# Note: Do not translate or replace Mozilla. It stands for the public project mozilla.org, not Mozilla Corporation. The database is a generic, public domain facility usable by any client.
+account-setup-success-settings-db = Konfigurācija atrasta Mozilla ISP datubāzē.
+account-setup-success-settings-disk = Konfigurācija atrasta { -brand-short-name } instalācijā.
+account-setup-success-settings-isp = Konfigurācija atrasta pie epasta pakalpojumu sniedzēja.
+# Note: Microsoft Exchange is a product name.
+account-setup-success-settings-exchange = Iestatījumi atrasti Microsoft Exchange serverī
 
 ## Illustrations
 
+account-setup-step1-image =
+    .title = Sākotnējā iestatīšana
+account-setup-step2-image =
+    .title = Ielādē…
+account-setup-step3-image =
+    .title = Konfigurācija atrasta
 account-setup-step4-image =
     .title = Savienojuma kļūda
+account-setup-step5-image =
+    .title = Konts izveidots
 account-setup-privacy-footnote2 = Tavi pieteikšanās dati tiks glabāti tikai vietēji datorā.
+account-setup-selection-help = Neesat pārliecināts, ko izvēlēties?
 account-setup-selection-error = Nepieciešama palīdzība?
+account-setup-success-help = Neesat pārliecināts par saviem nākamajiem soļiem?
 account-setup-documentation-help = Iestatīšanas dokumentācija
 account-setup-forum-help = Atbalsta forums
 account-setup-privacy-help = Privātuma pamatnostādnes
@@ -207,12 +223,37 @@ account-setup-looking-up-calendars = Meklēju kalendārus…
 account-setup-address-books-button = Adrešu grāmatas
 account-setup-calendars-button = Kalendāri
 account-setup-connect-link = Savienojuma izveide
+account-setup-existing-address-book = Savienots
+    .title = Adrešu grāmata jau ir pievienota
 account-setup-existing-calendar = Savienots
     .title = Jau ir savienojums ar kalendāru
+account-setup-connect-all-calendars = Savienot visus kalendārus
+account-setup-connect-all-address-books = Savienot visas adrešu grāmatas
 
 ## Calendar synchronization dialog
 
+calendar-dialog-title = Savienot kalendāru
 calendar-dialog-cancel-button = Atcelt
     .accesskey = A
+calendar-dialog-confirm-button = Savienoties
+    .accesskey = n
+account-setup-calendar-name-label = Vārds
+account-setup-calendar-name-input =
+    .placeholder = Mans kalendārs
+account-setup-calendar-color-label = Krāsa
+account-setup-calendar-refresh-label = Atsvaidzināt
+account-setup-calendar-refresh-manual = Manuāli
+# Variables:
+# $count (Number) - Number of minutes in the calendar refresh interval.
+account-setup-calendar-refresh-interval =
+    { $count ->
+        [one] Katru minūti
+        [zero] Ik pēc { $count } minūtēm
+       *[other] Ik pēc { $count } minūtēm
+    }
+account-setup-calendar-read-only = Tikai lasāms
+    .accesskey = l
+account-setup-calendar-show-reminders = Rādīt atgādinājumus
+    .accesskey = a
 account-setup-calendar-offline-support = Bezsaistes atbalsts
     .accesskey = B

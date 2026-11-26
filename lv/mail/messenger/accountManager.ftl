@@ -2,6 +2,12 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+open-preferences-sidebar-button2 = { -brand-short-name } Iestatījumi
+open-addons-sidebar-button = Papildinājumi un Motīvi
+account-tree-add-account-button = Pievienot kontu
+account-tree-add-mail-account =
+    .label = Pasta konts…
+    .accesskey = k
 edit-vcard-dialog-cancel-button = Atcelt
     .accesskey = A
 outgoing-server-section-name = Izejošais serveris
