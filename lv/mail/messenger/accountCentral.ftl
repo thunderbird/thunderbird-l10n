@@ -36,6 +36,7 @@ newsgroups-label = Ziņu grupas
     .aria-label = Savienoties ar ziņu grupu
 newsgroups-description = { -brand-short-name } ļauj izveidot savienojumu ar kādām vien vēlaties ziņu grupām.
 import-title = Ievietot no citas programmas
+import-paragraph2 = { -brand-short-name } ļauj importēt epasta ziņojumus, adrešu grāmatas ierakstus, plūsmu abonementus, iestatījumus un/vai filtrus no citām epasta programmām un izplatītākajiem adrešu grāmatu formātiem.
 import-label = Ievietot
     .aria-label = Datu ievietošana no citām programmām
 about-paragraph = Thunderbird ir vadošais atvērtā pirmkoda, starpplatformu e-pasta un kalendāra klients, ko var bez maksas lietot gan personīgi, gan uzņēmējdarbībā. Mēs vēlamies, lai tas ir drošs un kļūst vēl labāks. Ziedojums ļaus mums pieņemt darbā izstrādātājus, maksāt par infrastruktūru un turpināt attīstīties.

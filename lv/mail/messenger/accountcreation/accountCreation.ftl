@@ -19,6 +19,7 @@ boolean-error = Nav būla
 no-number-error = Nav skaitlis
 number-too-large-error = Pārāk liels skaitlis
 number-too-small-error = Pārāk mazs skaitlis
+emailaddress-syntax-error = Nav derīga epasta adrese
 
 ## FetchHTTP.sys.mjs
 

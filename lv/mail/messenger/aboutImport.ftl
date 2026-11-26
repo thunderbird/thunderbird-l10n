@@ -38,9 +38,14 @@ source-seamonkey-description = Importēt iestatījumus, filtrus, ziņojumus un c
 source-outlook = Ievietot no { app-name-outlook }
 source-outlook-description = Ievietot kontus, adrešu grāmatas un ziņojumus no { app-name-outlook }.
 source-apple-mail = Ievietot no { app-name-apple-mail }
+source-apple-mail-description = Ievietot vēstules no { app-name-apple-mail }.
+source-file2 = Ievietot no datnes
+source-file-description = Izvēlieties datni, lai ievietotu adrešu grāmatas, kalendārus vai profila dublējumkopiju (ZIP failu).
 
 ## Import from file selections
 
+file-profile2 = Ievietot profilu no dublējumkopijas
+file-profile-description = Atlasiet iepriekš dublētu Thunderbird profilu (.zip)
 file-calendar = Ievietot kalendārus
 file-calendar-description = Jāatlasa datne, kas satur izgūtos kalendārus vai notikumus (.ics)
 file-addressbook = Ievietot adrešu grāmatas
@@ -48,6 +53,19 @@ file-addressbook-description = Jāatlasa datne, kas satur izgūtās adrešu grā
 
 ## Import from app profile steps
 
+from-app-thunderbird = Importēt no { app-name-thunderbird } profila
+from-app-seamonkey = Importēt no { app-name-seamonkey } profila
+from-app-outlook = Ievietot no { app-name-outlook }
+from-app-apple-mail = Ievietot no { app-name-apple-mail }
+profiles-pane-title-thunderbird = Ievietot iestatījumus un datus no { app-name-thunderbird } profila.
+profiles-pane-title-seamonkey = Ievietot iestatījumus un datus no { app-name-seamonkey } profila.
+profiles-pane-title-outlook = Ievietot datus no { app-name-outlook }.
+profiles-pane-title-apple-mail = Ievietot ziņojumus no { app-name-apple-mail }.
+profile-source = Ievietot no profila
+# $profileName (string) - name of the profile
+profile-source-named = Ievietot no profila <strong>“{ $profileName }”</strong>
+profile-file-picker-directory = Atlasiet profila mapi
+profile-file-picker-archive = Atlasiet <strong>ZIP</strong> failu
 items-pane-checkbox-address-books = Adrešu grāmatas
 items-pane-checkbox-calendars = Kalendāri
 items-pane-nothing-to-import = No atlasītā avota neko nevar ievietot.
@@ -95,8 +113,22 @@ error-export-failed = Izgūšana neparedzēti neizdevās, vairāk informācijas 
 
 export-file-picker2 = Izgūt ZIP datnē
 
+## Summary pane
+
+summary-pane-start-over = Restartēt importēšanas rīku
+
 ## Footer area
 
 footer-help = Nepieciešama palīdzība?
+footer-import-documentation = Ievietošanas dokumentācija
 footer-export-documentation = Izgūt dokumentāciju
 footer-support-forum = Atbalsta forums
+
+## Step navigation on top of the wizard pages
+
+step-list =
+    .aria-label = Ievietošanas soļi
+step-confirm = Apstiprināt
+# Variables:
+# $number (number) - step number
+step-count = { $number }

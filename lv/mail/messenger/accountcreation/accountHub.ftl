@@ -11,6 +11,7 @@
 
 account-hub-brand = { -brand-full-name }
 account-hub-welcome-line = Laipni lūdzam <span data-l10n-name="brand-name">{ -brand-full-name }</span>
+account-hub-title = Kontu centrs
 
 ## Footer
 
@@ -24,6 +25,14 @@ account-hub-email-setup-button = E-pasta konts
     .title = Iestati e-pasta kontu
 account-hub-calendar-setup-button = Kalendārs
     .title = Iestatīt vietēju vai attālu kalendāru
+account-hub-address-book-setup-button = Adrešu grāmata
+    .title = Lokālās vai attālās adrešu grāmatas iestatīšana
+account-hub-chat-setup-button = Tērzēšana
+    .title = Izveidojiet tērzēšanas kontu
+account-hub-feed-setup-button = RSS plūsma
+    .title = RSS plūsmas konta iestatīšana
+account-hub-newsgroup-setup-button = Ziņu grupa
+    .title = Izveidojiet ziņu grupas kontu
 account-hub-import-setup-button = Ievietot
     .title = Ievietot dublētu profilu
 # Note: "Sync" represents the Firefox Sync product so it shouldn't be translated.
@@ -31,10 +40,17 @@ account-hub-sync-button = Pieteikties Sync
 
 ## Email page
 
+account-hub-add-email-title = Pievienot savu kontu
+account-hub-manually-configure-email-title = Konta konfigurācijas iestatīšana
 account-hub-email-cancel-button = Atcelt
+account-hub-email-stop-button = Apstāties
 account-hub-email-back-button = Atpakaļ
+account-hub-email-retest-button = Pārbaudīt vēlreiz
 account-hub-email-finish-button = Pabeigt
+account-hub-email-manually-configure-button = Konfigurēt manuāli
 account-hub-email-continue-button = Turpināt
+account-hub-email-set-up-account-button = Izveidot kontu
+account-hub-email-confirm-button = Apstiprināt
 account-hub-result-incoming-legend = Ienākošie
 account-hub-result-outgoing-legend = Izejošais
 account-hub-all-servers-legend = Visi serveri
