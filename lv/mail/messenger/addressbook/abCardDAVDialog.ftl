@@ -8,7 +8,15 @@ carddav-dialog =
 carddav-username-label =
     .value = Lietotājvārds:
     .accesskey = L
+carddav-location-label =
+    .value = Atrašanās vieta:
+    .accesskey = A
+carddav-location =
+    .default-placeholder = Adrešu grāmatas servera URL vai resursdatora nosaukums
 carddav-loading = Uzmeklē iestatījumus…
+# Variables:
+# $url (String) - CardDAV endpoint hostname. For example "example.com".
+carddav-known-incompatible = Ir zināms, ka { $url } nav saderīgs ar { -brand-short-name }.
 carddav-connection-error = Neizdevās savienoties.
 carddav-none-found = Netika atrasta neviena adrešu grāmata, ko pievienot norādītajam kontam.
 carddav-already-added = Visas norādītā konta adrešu grāmatas jau ir pievienotas.

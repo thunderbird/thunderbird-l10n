@@ -134,26 +134,56 @@ account-setup-warning-cleartext = <b>{ $server } </b> neizmanto šifrēšanu.
 account-setup-warning-cleartext-details = Nedroši pasta serveri neizmanto šifrētus savienojumus, lai aizsargātu jūsu paroles un privāto informāciju. Izveidojot savienojumu ar šo serveri, jūs varat atklāt savu paroli un privāto informāciju.
 account-setup-insecure-server-checkbox = Es apzinos riskus.
     .accesskey = a
+account-setup-insecure-description = { -brand-short-name } var ļaut piekļūt jūsu pastam, izmantojot sniegtos iestatījumus. Par šiem savienojumiem jums jāsazinās ar administratoru vai epasta pakalpojumu sniedzēju. Plašāku informāciju skatiet Thunderbird bieži uzdotajos jautājumos.
+insecure-dialog-cancel-button = Mainīt iestatījumus
+    .accesskey = M
+insecure-dialog-confirm-button = Apstiprināt
+    .accesskey = A
 
 ## Warning Exchange confirmation dialog
 
+# Variables:
+#  $domain (String): The name of the server where the configuration was found, e.g. rackspace.com.
+exchange-dialog-question = { -brand-short-name } atrada jūsu konta iestatīšanas informāciju domēnā { $domain }. Vai vēlaties turpināt un iesniegt savus akreditācijas datus?
+exchange-dialog-confirm-button = Pieteikties
 exchange-dialog-cancel-button = Atcelt
 
 ## Dismiss account creation dialog
 
+exit-dialog-title = Nav konfigurēts epasta konts
 exit-dialog-description = Vai tiešām atcelt iestatīšanu? { -brand-short-name } joprojām var izmantot bez e-pasta konta, bet daudzas iespējas nebūs pieejamas.
+account-setup-no-account-checkbox = Izmantojiet { -brand-short-name } bez epasta konta
+    .accesskey = b
 exit-dialog-cancel-button = Turpināt iestatīšanu
     .accesskey = T
+exit-dialog-confirm-button = Iziet no iestatīšanas
+    .accesskey = I
 
 ## Alert dialogs
 
 account-setup-creation-error-title = Kļūda konta izveidošanā
 account-setup-error-server-exists = Ienākošais serveris jau pastāv.
+account-setup-confirm-advanced-title = Apstiprināt papildu konfigurāciju
+account-setup-confirm-advanced-description = Šis logs tiks aizvērts un tiks izveidots konts ar pašreizējiem iestatījumiem, pat ja iestatījumi ir nepareizi. Vai vēlaties turpināt?
+
+## Addon installation section
+
+account-setup-addon-install-title = Uzstādīt
+account-setup-addon-install-intro = Trešās puses pievienojumprogramma var ļaut jums piekļūt savam epasta kontam šajā serverī:
+account-setup-addon-no-protocol = Šis epasta serveris diemžēl neatbalsta atvērtos protokolus. { account-setup-addon-install-intro }
 
 ## Success view
 
+account-setup-settings-button = Konta iestatījumi
 account-setup-encryption-button = Pilnīga šifrēšana
+account-setup-signature-button = Pievienot parakstu
 account-setup-dictionaries-button = Lejupielādēt vārdnīcas
+account-setup-address-book-carddav-button = Izveidot savienojumu ar CardDAV adrešu grāmatu
+account-setup-address-book-ldap-button = Izveidot savienojumu ar LDAP adrešu grāmatu
+account-setup-calendar-button = Izveidot savienojumu ar attālo kalendāru
+account-setup-linked-services-title = Savienojiet savus saistītos pakalpojumus
+account-setup-linked-services-description = { -brand-short-name } atrada citus pakalpojumus, kas saistīti ar jūsu epasta kontu.
+account-setup-no-linked-description = Iestatiet citus pakalpojumus, lai maksimāli izmantotu savu { -brand-short-name } pieredzi.
 # Variables:
 # $count (Number) - The number of address books found during autoconfig.
 account-setup-found-address-books-description =
@@ -162,10 +192,21 @@ account-setup-found-address-books-description =
         [one] { -brand-short-name } atrada { $count } ar e-pasta kontu saistītu adrešu grāmatu
        *[other] { -brand-short-name } atrada { $count } ar e-pasta kontu saistītas adrešu grāmatas
     }
+# Variables:
+# $count (Number) - The number of calendars found during autoconfig.
+account-setup-found-calendars-description =
+    { $count ->
+        [one] { -brand-short-name } atrada vienu kalendāru, kas saistīts ar jūsu epasta kontu.
+        [zero] { -brand-short-name } atrada { $count } kalendārus, kas saistīti ar jūsu epasta kontu.
+       *[other] { -brand-short-name } atrada { $count } kalendārus, kas saistīti ar jūsu epasta kontu.
+    }
 account-setup-button-finish = Pabeigt
     .accesskey = P
+account-setup-looking-up-address-books = Meklē adrešu grāmatas…
+account-setup-looking-up-calendars = Meklēju kalendārus…
 account-setup-address-books-button = Adrešu grāmatas
 account-setup-calendars-button = Kalendāri
+account-setup-connect-link = Savienojuma izveide
 account-setup-existing-calendar = Savienots
     .title = Jau ir savienojums ar kalendāru
 
