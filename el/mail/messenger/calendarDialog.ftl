@@ -161,6 +161,9 @@ calendar-event-prompt-edit-title = Επεξεργασία εκδήλωσης
 
 calendar-event-categories = Κατηγορίες
 calendar-event-add-category = Προσθήκη κατηγορίας
+calendar-event-category-name =
+    .aria-label = Προσθήκη νέας κατηγορίας
+    .placeholder = Προσθήκη νέας κατηγορίας
 calendar-event-category-choices =
     .aria-label = Διαθέσιμες κατηγορίες
 calendar-event-selected-categories =
@@ -187,11 +190,41 @@ calendar-event-video-label = Βίντεο
 
 ## Description controls in the event create/edit dialog.
 
+calendar-event-add-description = Προσθήκη περιγραφής
+calendar-description-formatting =
+    .aria-label = Μορφοποίηση κειμένου
+calendar-description-bold =
+    .aria-label = Έντονη γραφή
+    .title = Έντονη γραφή
+calendar-description-italic =
+    .aria-label = Πλάγια γραφή
+    .title = Πλάγια γραφή
+calendar-description-bulleted-list =
+    .aria-label = Λίστα με κουκκίδες
+    .title = Λίστα με κουκκίδες
+calendar-description-numbered-list =
+    .aria-label = Αριθμημένη λίστα
+    .title = Αριθμημένη λίστα
+calendar-description-indent =
+    .aria-label = Εσοχή
+    .title = Εσοχή
+calendar-description-outdent =
+    .aria-label = Εξοχή
+    .title = Εξοχή
+calendar-description-link =
+    .aria-label = Σύνδεσμος
+    .title = Σύνδεσμος
+calendar-description-link-popup = Σύνδεσμος
+calendar-description-link-address =
+    .aria-label = Διεύθυνση συνδέσμου
+calendar-description-invalid-link = Εισαγάγετε μια έγκυρη διεύθυνση συνδέσμου.
 calendar-description-apply-link = Εφαρμογή συνδέσμου
 calendar-description-remove-link = Αφαίρεση συνδέσμου
 calendar-description-cancel-link = Ακύρωση
 calendar-description-input =
     .aria-label = Περιγραφή
+calendar-description-frame =
+    .title = Επεξεργασία περιγραφής
 calendar-description-strikethrough =
     .aria-label = Διαγράμμιση
     .title = Διαγράμμιση
@@ -204,6 +237,13 @@ calendar-description-redo =
 calendar-event-add-guests = Προσθήκη προσκεκλημένων
 calendar-event-add-guests-expand-icon =
     .alt = Προσθήκη προσκεκλημένων
+# Variables:
+#   $count (Number): Number of invited guests, including the organizer.
+calendar-event-guests-invited =
+    { $count ->
+        [one] Προσκλήθηκε { $count } άτομο
+       *[other] Προσκλήθηκαν { $count } άτομα
+    }
 
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".
