@@ -19,7 +19,7 @@
 <!ENTITY tableBorderSpacing.label "Bordos e spatiamento">
 <!ENTITY tableBorderWidth.label "Bordo:">
 <!ENTITY tableBorderWidth.accessKey "B">
-<!ENTITY tableSpacing.label "Spatiamento:">
+<!ENTITY tableSpacing.label "Distantia:">
 <!ENTITY tableSpacing.accessKey "S">
 <!ENTITY tablePadding.label "Margines:">
 <!ENTITY tablePadding.accessKey "M">
