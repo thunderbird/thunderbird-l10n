@@ -26,8 +26,41 @@ msgevent-rcvdmsg-not-private = No lietotāja { $name } saņemtais šifrētais zi
 msgevent-rcvdmsg-unreadable = No { $name } jūs saņēmāt neizlasāmu šifrētu ziņojumu.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
+msgevent-rcvdmsg-malformed = Jūs saņēmāt nepareizi noformētu datu ziņojumu no { $name }.
+# A Heartbeat is a technical message used to keep a connection alive.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+msgevent-log-heartbeat-rcvd = Sirdsdarbība saņemta no { $name }.
+# A Heartbeat is a technical message used to keep a connection alive.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+msgevent-log-heartbeat-sent = Sirdsdarbība nosūtīta lietotājam { $name }.
+# Do not translate 'OTR' (name of an encryption protocol)
+msgevent-rcvdmsg-general-err = Mēģinot aizsargāt jūsu sarunu, izmantojot OTR, radās negaidīta kļūda.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+#   $msg (string) - the message that was received.
+msgevent-rcvdmsg-unencrypted = Šis no { $name } saņemtais ziņojums nav šifrēts: { $msg }
+# Do not translate 'OTR' (name of an encryption protocol)
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+msgevent-rcvdmsg-unrecognized = Jūs esat saņēmis neatpazītu OTR ziņojumu no { $name }.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+msgevent-rcvdmsg-for-other-instance = { $name } ir nosūtījis ziņojumu, kas paredzēts citai sesijai. Ja esat pieteicies vairākas reizes, iespējams, ziņojumu ir saņēmusi cita sesija.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+context-gone-secure-private = Privāta saruna ar { $name } ir uzsākta.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+context-gone-secure-unverified = Uzsākta šifrēta, bet nepārbaudīta saruna ar lietotāju { $name }.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
 context-still-secure = Šifrētā saruna ar { $name } ir sekmīgi atsvaidzināta.
 error-enc = Šifrējot ziņojumu, radās kļūda.
+# Variables:
+#   $name (String) - the screen name of a chat contact person
+error-not-priv = Jūs nosūtījāt šifrētus datus lietotājam { $name }, kurš tos negaidīja.
 error-unreadable = Jūs nosūtījāt neizlasāmu šifrētu ziņojumu.
 error-malformed = Jūs nosūtījāt nepareizi veidotu datu ziņojumu.
 resent = [pārsūtīts]
