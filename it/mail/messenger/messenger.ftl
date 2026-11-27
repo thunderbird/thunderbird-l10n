@@ -478,10 +478,10 @@ apply-filters-failed = L’esecuzione dei filtri non è stata completata corrett
 apply-filters-failed-open-log-button = Apri Registro attività filtri
 archive-message-error-title = Errore durante l'archiviazione del messaggio
 archive-message-error = Impossibile archiviare i messaggi selezionati.
-archive-folder-missing = Impossibile trovare la cartella degli archivi per questa identità. Selezionare un’altra cartella e riprovare.
-save-template-error-title = Errore di salvataggio del modello
+archive-folder-missing = Impossibile trovare la cartella per l’archiviazione associata a questa identità. Seleziona un’altra cartella e riprova.
+save-template-error-title = Errore durante il salvataggio del modello
 save-template-error = Impossibile salvare il messaggio come modello.
-template-folder-missing = Impossibile trovare la cartella dei modelli selezionata. Scegli un’altra cartella e riprova.
+template-folder-missing = Impossibile trovare la cartella selezionata per i modelli. Scegli un’altra cartella e riprova.
 
 ## Spaces toolbar
 
