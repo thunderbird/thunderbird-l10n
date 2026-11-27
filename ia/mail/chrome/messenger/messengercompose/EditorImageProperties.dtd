@@ -47,7 +47,7 @@
 <!ENTITY wrapRightPopup.value "Incapsular a dextra">
 <!ENTITY wrapLeftPopup.value "Incapsular a sinistra">
 <!-- These controls are in the Spacing Box -->
-<!ENTITY spacingBox.label "Spatiamento">
+<!ENTITY spacingBox.label "Distantia">
 <!ENTITY leftRightEditField.label "Sinistra e dextra:">
 <!ENTITY leftRightEditField.accessKey "S">
 <!ENTITY topBottomEditField.label "Culmine e pede">

@@ -16,7 +16,7 @@
 <!ENTITY tableHeight.accessKey "t">
 <!ENTITY tableWidth.label "Largor:">
 <!ENTITY tableWidth.accessKey "L">
-<!ENTITY tableBorderSpacing.label "Bordos e spatiamento">
+<!ENTITY tableBorderSpacing.label "Bordos e distantia">
 <!ENTITY tableBorderWidth.label "Bordo:">
 <!ENTITY tableBorderWidth.accessKey "B">
 <!ENTITY tableSpacing.label "Distantia:">
