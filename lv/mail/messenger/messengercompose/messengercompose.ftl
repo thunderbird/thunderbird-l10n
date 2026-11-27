@@ -211,9 +211,52 @@ context-menuitem-attach-files =
     .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Pievienot datne(-es)…
     .accesskey = P
+# Note: Do not translate the term 'vCard'.
+context-menuitem-attach-vcard =
+    .label = Mana vCard
+    .accesskey = C
+context-menuitem-attach-openpgp-key =
+    .label = Mana OpenPGP publiskā atslēga
+    .accesskey = k
+#   $count (Number) - the number of attachments in the attachment bucket
+attachment-bucket-count-value =
+    { $count ->
+        [1] Pielikums — { $count }
+        [zero] { $count } pielikumi
+        [one] { $count } pielikumi
+       *[other] { $count } pielikumi
+    }
+attachment-area-show =
+    .title = Rādīt pielikumu rūti ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
+attachment-area-hide =
+    .title = Paslēpt pielikumu rūti ({ ctrl-cmd-shift-pretty-prefix }{ toggle-attachment-pane-key })
+
+## Variables:
+## $count (Number) - Number of files being dropped onto the composer.
+
+drop-file-label-attachment =
+    { $count ->
+        [one] Pievienot kā pielikumu
+        [zero] Pievienot kā pielikumus
+       *[other] Pievienot kā pielikumus
+    }
+drop-file-label-inline =
+    { $count ->
+        [one] Ievietot rindkopā
+        [zero] Ievietot rindkopā
+       *[other] Ievietot rindkopā
+    }
 
 ## Reorder Attachment Panel
 
+move-attachment-first-panel-button =
+    .label = Pacelt par pirmo
+move-attachment-left-panel-button =
+    .label = Pārvietot pa kreisi
+move-attachment-right-panel-button =
+    .label = Pārvietot pa labi
+move-attachment-last-panel-button =
+    .label = Pazemināt par pēdējo
 button-return-receipt =
     .label = Saņemšanas apliecinājums
     .tooltiptext = Šim ziņojumam pieprasīt saņemšanas apliecinājumu
@@ -248,15 +291,104 @@ encryption-options-smime =
 signing-toggle =
     .label = Parakstīt
     .tooltiptext = Šajā ziņojumā izmantot ciparu parakstīšanu
+menu-openpgp =
+    .label = OpenPGP
+    .accesskey = O
+menu-smime =
+    .label = S/MIME
+    .accesskey = S
+menu-encrypt =
+    .label = Šifrēt
+    .accesskey = Š
+menu-encrypt-subject =
+    .label = Šifrēt tēmu
+    .accesskey = i
+menu-sign =
+    .label = Digitāli parakstīt
+    .accesskey = D
+menu-manage-keys =
+    .label = Galvenais asistents
+    .accesskey = a
 menu-view-certificates =
     .label = Apskatīt saņēmēju sertifikātus
     .accesskey = A
+menu-open-key-manager =
+    .label = Atslēgu pārvaldnieks
+    .accesskey = p
+# Variables:
+# $addr (String) - Email address (which related to the currently selected
+#                  from address) which isn't set up to end-to-end encryption.
+openpgp-key-issue-notification-from = Jums nav iestatīta pilnīga šifrēšanas ziņojumu sūtīšana no { $addr }.
 # Variables:
 # $addr (String) - Email address with key issues.
 openpgp-key-issue-notification-single = Pilnīgai šifrēšanai ir nepieciešams novērst nebūšanas ar { $addr } atslēgu.
+# Variables:
+# $count (Number) - Number of recipients with key issues.
+openpgp-key-issue-notification-multi =
+    { $count ->
+        [zero] Pilnīgai šifrēšanai ir jāatrisina atslēgu problēmas { $count } adresātiem.
+        [one] Pilnīgai šifrēšanai ir jāatrisina atslēgu problēmas { $count } adresātam.
+       *[other] Pilnīgai šifrēšanai ir jāatrisina atslēgu problēmas { $count } adresātiem.
+    }
+# Variables:
+# $addr (String) - mail address with certificate issues.
+smime-cert-issue-notification-single = Pilnīgai šifrēšanai ir jāatrisina sertifikātu problēmas adresei { $addr }.
+# Variables:
+# $count (Number) - Number of recipients with certificate issues.
+smime-cert-issue-notification-multi =
+    { $count ->
+        [zero] Pilnīgai šifrēšanai ir jāatrisina sertifikātu problēmas { $count } saņēmējiem.
+        [one] Pilnīgai šifrēšanai ir jāatrisina sertifikātu problēmas { $count } saņēmējam.
+       *[other] Pilnīgai šifrēšanai ir jāatrisina sertifikātu problēmas { $count } saņēmējiem.
+    }
+key-notification-disable-encryption =
+    .label = Nešifrēt
+    .tooltiptext = Atspējot pilnīgu šifrēšanu
+    .accesskey = N
+key-notification-resolve =
+    .label = Novērst…
+    .tooltiptext = Atveriet OpenPGP atslēgu palīgu
+    .accesskey = o
+can-encrypt-smime-notification = Ir iespējama S/MIME pilnīga šifrēšana.
+can-encrypt-openpgp-notification = Ir iespējama OpenPGP pilnīga šifrēšana.
+can-e2e-encrypt-button =
+    .label = Šifrēt
+    .accesskey = Š
 
 ## Addressing Area
 
+to-address-row-label =
+    .value = Kam
+#   $key (String) - the shortcut key for this field
+show-to-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
+    .label = Uz lauku
+    .accesskey = U
+# No acceltext should be shown.
+# The label should match the show-to-row-button text.
+show-to-row-extra-menuitem =
+    .label = Kam
+    .accesskey = K
+#   $key (String) - the shortcut key for this field
+show-to-row-button = Kam
+    .title = Rādīt kam lauku ({ ctrl-cmd-shift-pretty-prefix }{ $key })
+cc-address-row-label =
+    .value = Kopija
+#   $key (String) - the shortcut key for this field
+show-cc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
+    .label = Kopijas lauks
+    .accesskey = p
+# No acceltext should be shown.
+# The label should match the show-cc-row-button text.
+show-cc-row-extra-menuitem =
+    .label = Kopija
+    .accesskey = p
+#   $key (String) - the shortcut key for this field
+show-cc-row-button = Kopija
+    .title = Rādīt kopijas lauku ({ ctrl-cmd-shift-pretty-prefix }{ $key })
+bcc-address-row-label =
+    .value = Slēpta kopija
 many-public-recipients-prompt-cancel = Atcelt nosūtīšanu
 
 ## Notifications
