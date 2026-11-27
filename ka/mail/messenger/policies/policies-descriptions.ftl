@@ -14,6 +14,7 @@ policy-3rdparty = დებულების მითითება, რი�
 policy-AppAutoUpdate = ჩართვა ან გამორთვა, აპლიკაციის თვითგანახლების.
 policy-AppUpdatePin = არ განახლდეს { -brand-short-name } მითითებული ვერსიის გარდა.
 policy-AppUpdateURL = პროგრამის გასაახლებელი URL-მისამართის დაყენება.
+policy-Authentication2 = ანგარიშის ჩაშენებული დამოწმების გამართვა ვებსაიტებისთვის, რომლებზეც მხარდაჭერილია და რომელთა დამოწმების HTTP-სქემებიც გათიშულია.
 policy-Authentication = ჩაშენებული დამოწმების გამართვა ვებსაიტებზე, რომლებზეც მხარდაჭერილია.
 policy-BackgroundAppUpdate2 = ფონური განახლების ჩართვა ან გამორთვა.
 policy-BlockAboutAddons = დამატებების მმართველთან წვდომის შეზღუდვა (about:addons).
