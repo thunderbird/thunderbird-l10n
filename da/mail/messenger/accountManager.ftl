@@ -36,3 +36,4 @@ panel-settings-spam = Spam-indstillinger
 # $account (String) - The account name.
 spam-settings-alert-message = Der er registreret et problem med spam-indstillingerne for { $account }. Vil du gennemgå dem, før du gemmer ændringerne?
 open-settings-sidebar-button = Indstillinger
+account-manager-document-title = Konti
