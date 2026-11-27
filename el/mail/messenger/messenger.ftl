@@ -459,6 +459,7 @@ decrypt-and-copy-failures-multiple =
         [one] { $failures } από { $total } μήνυμα δεν ήταν δυνατή η αποκρυπτογράφησή του και δεν αντιγράφηκε.
        *[other] { $failures } από { $total } μηνύματα δεν ήταν δυνατή η αποκρυπτογράφησή τους και δεν αντιγράφηκαν.
     }
+apply-filters-failed-open-log-button = Άνοιγμα αρχείου καταγραφής φίλτρου
 archive-message-error-title = Σφάλμα αρχειοθέτησης μηνύματος
 save-template-error-title = Σφάλμα αποθήκευσης προτύπου
 

@@ -263,8 +263,8 @@
 <!ENTITY underlineToolbarCmd.tooltip "Sottolineato">
 <!ENTITY bulletListToolbarCmd.tooltip "Crea o rimuovi l’elenco puntato">
 <!ENTITY numberListToolbarCmd.tooltip "Crea o rimuove l’elenco numerato">
-<!ENTITY outdentToolbarCmd.tooltip "Indentazione testo (verso sinistra)">
-<!ENTITY indentToolbarCmd.tooltip "Indentazione testo (verso destra)">
+<!ENTITY outdentToolbarCmd.tooltip "Riduci indentazione (sposta testo verso sinistra)">
+<!ENTITY indentToolbarCmd.tooltip "Aumenta indentazione (sposta testo verso destra)">
 <!ENTITY AlignPopupButton.tooltip "Imposta l’allineamento del testo">
 <!ENTITY InsertPopupButton.tooltip "Inserisci collegamento, immagine, separatore orizzontale o tabella">
 <!ENTITY alignLeftButton.tooltip "Allinea il testo lungo il margine sinistro">

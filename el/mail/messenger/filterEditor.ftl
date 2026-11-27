@@ -158,6 +158,7 @@ filter-running-message =
     Θέλετε να συνεχίσετε με την εφαρμογή φίλτρων;
 filter-stop-button = Διακοπή
 filter-continue-button = Συνέχεια
+filter-run-failed-open-log-button = Άνοιγμα αρχείου καταγραφής φίλτρου
 
 ## Filter Editor
 

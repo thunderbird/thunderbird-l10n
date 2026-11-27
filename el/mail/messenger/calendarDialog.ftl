@@ -154,6 +154,8 @@ calendar-event-save-idle = { "" }
 calendar-event-availability-selector =
     .aria-label = Διαθεσιμότητα
 calendar-event-availability-default = Προεπιλογή
+calendar-event-availability-busy = Απασχολημένος/-η
+calendar-event-availability-free = Διαθέσιμος/-η
 calendar-prompt-edit-confirm-button = Επιβεβαίωση
 calendar-event-prompt-edit-title = Επεξεργασία εκδήλωσης
 
@@ -187,6 +189,9 @@ calendar-event-more-categories = +{ $count } ακόμα
 ## Video row in the event create/edit dialog.
 
 calendar-event-video-label = Βίντεο
+calendar-event-video-url-clear =
+    .aria-label = Απαλοιφή URL βίντεο
+    .title = Απαλοιφή URL βίντεο
 
 ## Description controls in the event create/edit dialog.
 
