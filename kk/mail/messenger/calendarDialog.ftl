@@ -194,6 +194,12 @@ calendar-event-more-categories = +тағы { $count }
 
 calendar-event-video-label = Видео
 
+## Description controls in the event create/edit dialog.
+
+calendar-description-cancel-link = Бас тарту
+calendar-description-input =
+    .aria-label = Сипаттамасы
+
 ## These strings are formatted as a list using Intl.Listformat,
 ## resulting for example in "1 attending, 2 maybe, etc.".
 
