@@ -684,7 +684,6 @@ max-recent-label = Numero massimo di cartelle recenti:
     .accesskey = m
 beta-calendar-dialog-checkbox-label =
     .label = Visualizza gli eventi del calendario nella nuova finestra di dialogo
-beta-calendar-dialog-description = Una finestra di dialogo del calendario ridisegnata per visualizzare i dettagli degli eventi.
 beta-calendar-dialog-callout-title = Finestra di dialogo Nuovo evento del calendario
 account-hub-legend = Centro account
 account-hub-checkbox-label =
