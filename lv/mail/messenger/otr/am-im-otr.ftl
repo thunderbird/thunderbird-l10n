@@ -13,7 +13,12 @@ view-fingerprint-button =
     .label = Pārvaldīt kontaktu pirkstu nospiedumus
     .accesskey = P
 otr-settings-title = OTR iestatījumi
+otr-require-encryption =
+    .label = Divpusējām sarunām nepieciešama pilnīga šifrēšana
 otr-require-encryption-info =
     Kad nepieciešama tiešās saziņas šifrēšana, ziņojumi divpusējās sarunās
     netiks nosūtīti, ja vien tos nevarēs šifrēt. Saņemti nešifrēti ziņojumi
     netiks rādīti kā daļa no parastās sarunas un netiks reģistrēti.
+otr-verify-nudge =
+    .label = Vienmēr atgādināt man verificēt neverificētu kontaktpersonu
+otr-not-yet-available = pagaidām nav pieejams

@@ -8,10 +8,33 @@ e2e-intro-description-more = Atlasiet savu personīgo atslēgu, lai ieslēgtu Op
 e2e-csr-intro = Lai iegūtu jaunu personīgo S/MIME sertifikātu, ģenerējiet sertifikāta parakstīšanas pieprasījumu (CSR) un iesniedziet to sertifikācijas iestādei (CA).
 # Do not translate: S/MIME, CSR
 e2e-csr-intro-info = Atlasiet lokālo direktoriju un faila nosaukumu savam CSR failam un atbildiet uz tālāk minētajiem jautājumiem par algoritma un stipruma iestatīšanu.
+# A title for a dialog. Do not translate "CSR".
+e2e-csr-title = Ģenerēt CSR
 # A label for a button that proceeds to the next step
 e2e-csr-continue = Turpināt
 # A label for a button that goes back one step
 e2e-csr-back = Atpakaļ
+# Do not translate: CSR
+e2e-csr-button =
+    .label = Ģenerēt un saglabāt CSR failu kā…
+# Do not translate: CSR
+e2e-csr-select-title = CSR algoritms
+# Do not translate: RSA, ECC, S/MIME
+e2e-csr-select-alg = Jaunajam S/MIME sertifikātam izvēlieties RSA (ieteicams) vai ECC kā šifrēšanas algoritmu.
+# Do not translate: S/MIME
+e2e-csr-select-strength = Izvēlieties vēlamo šifrēšanas stiprumu (ātrāku darbību ar mazākiem skaitļiem vai labāku drošību ar lielākiem skaitļiem) jaunajam S/MIME sertifikātam vai saglabājiet noklusējuma iestatījumu.
+# $type is a cryptographic algorithm like RSA or ECC
+# $strength is a text that describes an additional property of the cryptographic parameter, such as a number for RSA, or the name of a cryptographic curve for ECC.
+# $file A filename
+# Do not translate: CSR
+e2e-csr-summary = { -brand-short-name } iestatījumos tiks ģenerēta jauna { $type } { $strength } slepenā atslēga. Šis process var aizņemt kādu laiku un izraisīt īslaicīgus nereaģēšanas gadījumus; lūdzu, esiet pacietīgi šīs darbības laikā. Pa to laiku tiks izveidots sertifikāta parakstīšanas pieprasījuma (CSR) fails, kas saglabāts kā { $file }.
+# $email An email address
+# Do not translate: CSR
+e2e-csr-include-email = Iekļaujiet epasta adresi ({ $email }) CSR (ieteicams)
+# $file A filename
+e2e-csr-success = CSR tika veiksmīgi saglabāts datnē { $file }
+# $file A filename
+e2e-csr-failure = Neizdevās saglabāt CSR failā { $file }
 e2e-default-message-encryption = Noklusējuma ziņojumu šifrēšana
 account-settings-encryption-default-off =
     .label = Pēc noklusējuma nešifrēt jaunus ziņojumus
@@ -43,13 +66,33 @@ account-settings-include-public-key-autocrypt =
     .label = Iekļaut šī konta publisko atslēgu ziņojumu galvenēs (saderībai ar Autocrypt)
     .accesskey = I
 account-settings-preferred-encryption-type = Vēlamā šifrēšanas tehnoloģija
+e2e-signing-description = Digitālais paraksts ļauj saņēmējiem pārliecināties, ka ziņojumu nosūtījāt jūs un tā saturs nav mainīts. Šifrēti ziņojumi vienmēr tiek parakstīti pēc noklusējuma.
+e2e-sign-message =
+    .label = Parakstīt nešifrētus ziņojumus
+    .accesskey = u
 e2e-disable-enc =
     .label = Atspējot šifrēšanu jauniem ziņojumiem
     .accesskey = D
 e2e-enable-enc =
     .label = Iespējot šifrēšanu jaunām ziņām
     .accesskey = m
+e2e-enable-description = Jūs varēsiet atspējot šifrēšanu atsevišķiem ziņojumiem.
 e2e-advanced-section = Paplašinātie iestatījumi
+e2e-attach-key =
+    .label = Pievienot manu publisko atslēgu, pievienojot OpenPGP digitālo parakstu
+    .accesskey = P
+e2e-encrypt-subject =
+    .label = Šifrēt OpenPGP ziņojumu tēmu
+    .accesskey = Š
+e2e-encrypt-drafts =
+    .label = Saglabāt melnrakstu ziņojumus šifrētā formātā
+    .accesskey = m
+# Do not translate "Autocrypt", it's the name of a standard.
+e2e-autocrypt-headers =
+    .label = Nosūtīt OpenPGP publisko(-ās) atslēgu(-as) epasta galvenēs, lai nodrošinātu saderību ar Autocrypt
+    .accesskey = t
+openpgp-key-created-label =
+    .label = Izveidots
 openpgp-key-expiry-label =
     .label = Derīgums
 openpgp-key-id-label =
@@ -61,6 +104,9 @@ openpgp-key-man-generate =
 openpgp-key-man-gen-revoke =
     .label = Atsaukšanas sertifikāts
     .accesskey = A
+openpgp-key-man-gen-revocation =
+    .label = Saglabāt atsaukšanas sertifikātu datnē
+    .accesskey = s
 openpgp-key-man-file-menu =
     .label = Datne
     .accesskey = D
@@ -541,6 +587,7 @@ fail-key-import = Kļūda - atslēgas importēšana neizdevās
 # $output (String) - File that writing was attempted to.
 file-write-failed = Neizdevās ierakstīt datnē { $output }
 no-pgp-block = Kļūda - nav atrasts derīgs bruņots OpenPGP datu bloks
+help-button = Palīdzība
 
 ## Strings used in trust.sys.mjs
 
@@ -561,6 +608,17 @@ import-key-file = Ievietot OpenPGP atslēgas datni
 import-rev-file = Ievietot OpenPGP atsaukšanas datni
 gnupg-file = GnuPG datnes
 import-keys-failed = Atslēgu importēšana neizdevās
+# Variables:
+# $key (String) - Key id to unlock.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2 = Ievadiet paroli, lai atbloķētu slepeno atslēgu ar ID { $key }, izveidota { $date }, { $username_and_email }
+# Variables:
+# $subkey (String) - Key id to unlock, which is a subkey.
+# $key (String) - This is the main key, to which the subkey belongs.
+# $date (String) - The date on which the key was created
+# $username_and_email (String) - The user name, and/or the email address which the key owner has set for the key.
+passphrase-prompt2-sub = Ievadiet paroli, lai atbloķētu slepeno atslēgu ar ID { $subkey }, kas ir atslēgas ID { $key } apakšatslēga, izveidota { $date }, { $username_and_email }
 file-to-big-to-import = Šī datne ir pārāk liela. Lūgums vienlaicīgi neievietot lielas atslēgu kopas.
 
 ## Strings used in enigmailKeygen.js
