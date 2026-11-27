@@ -207,6 +207,10 @@ menuitem-attach-files =
     .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
     .label = Datne(-es)…
     .accesskey = D
+context-menuitem-attach-files =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ trigger-attachment-picker-key }
+    .label = Pievienot datne(-es)…
+    .accesskey = P
 
 ## Reorder Attachment Panel
 

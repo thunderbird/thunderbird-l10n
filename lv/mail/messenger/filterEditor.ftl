@@ -5,6 +5,10 @@
 
 ## Filter List Dialog
 
+run-filter-before-spam =
+    .label = Atsijāt pirms mēstuļu noteikšanas
+run-filter-after-spam =
+    .label = Atsijāt pēc mēstuļu noteikšanas
 # Variables:
 #   $minutes - the number of minutes
 run-periodically =
@@ -15,6 +19,11 @@ run-periodically =
            *[other] Periodiski, ik pēc { $minutes } minūtēm
         }
     .accesskey = A
+# Variables:
+# $author (String) - The author of the message.
+# $subject (String) - The subject of the message.
+# $date (String) - The date of the message.
+spam-message-detection-log = Konstatēts surogātpasts no { $author } - { $subject } plkst. { $date }
 # Variables:
 # $errorMsg (String) - The error message about the action that failed.
 # $errorCode (String) - The hexadecimal error code.

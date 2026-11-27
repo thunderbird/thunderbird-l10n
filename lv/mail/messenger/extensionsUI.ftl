@@ -7,3 +7,7 @@ webext-perms-learn-more = Uzzināt vairāk
 # The "<>" is a placeholder for the add-on name, used by toolkit code which has
 # not yet been updated to use fluent placeholders.
 webext-install-suppressed-message-2 = Papildinājumu <> nevarēja instalēt, jo tas izmanto mantotus API, kurus šī { -brand-product-name } versija neatbalsta.
+webext-install-suppressed-details-2 = Papildinājumi ar mantotajām API var modificēt katru { -brand-product-name } daļu, un tie ir jāatjaunina, jāpārskata un jāapstiprina ikreiz, kad mainās pats { -brand-product-name }. Tāpēc šīs mantotās API atbalsta tikai { -brand-product-name } ESR, kurā tiek veiktas mazāk koda izmaiņas un kas saglabā stabilitāti visa 1 gada ESR cikla laikā.
+# Variables:
+#   $addonName (String): localized name of the extension that was just installed.
+addon-post-install-message = { $addonName } tika pievienots.
