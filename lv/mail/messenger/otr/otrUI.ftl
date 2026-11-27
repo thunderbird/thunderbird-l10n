@@ -47,6 +47,7 @@ state-generic-private = Pašreizējā saruna ir šifrēta un privāta.
 # Variables:
 #   $name (String) - the screen name of a chat contact person
 state-finished = { $name } ir beidzis šifrēto sarunu ar jums; jums vajadzētu darīt to pašu.
+state-not-private-label = Nedroša
 state-unverified-label = Nepārbaudīta
 state-private-label = Privāta
 state-finished-label = Pabeigta

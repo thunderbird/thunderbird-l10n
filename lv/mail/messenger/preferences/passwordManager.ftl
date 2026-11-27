@@ -3,6 +3,8 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 saved-logins-title = Saglabātie pieteikumvārdi
+focus-search-primary-shortcut =
+    .key = f
 copy-provider-url-cmd =
     .label = Kopēt URL
     .accesskey = K

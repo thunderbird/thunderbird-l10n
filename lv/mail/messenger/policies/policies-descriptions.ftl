@@ -24,6 +24,7 @@ policy-BlockAboutSupport = Liegt piekļuvi about:support lapai.
 policy-CaptivePortal = Ieslēgt vai atslēgt nebrīvā portāla atbalstu.
 policy-CertificatesDescription = Pievienot sertifikātus vai izmantot iebūvētos sertifikātus.
 policy-Cookies = Ļaut vai liegt vietnēm iestatīt sīkdatnes.
+policy-DisableBuiltinPDFViewer = Atspējojiet PDF.js, iebūvēto PDF skatītāju { -brand-short-name }.
 policy-DisabledCiphers = Liegt šifrus.
 policy-DefaultDownloadDirectory = Iestatīt noklusējuma lejupielādes mapi.
 policy-DisableAppUpdate = Liegt { -brand-short-name } atjaunošanu.
