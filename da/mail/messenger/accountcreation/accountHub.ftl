@@ -277,6 +277,7 @@ account-hub-sync-accounts-found = { -brand-short-name } fandt tilknyttede tjenes
 account-hub-sync-accounts-not-found = { -brand-short-name } kunne ikke finde nogen tilknyttede tjenester
 account-hub-sync-accounts-failure = { -brand-short-name } kunne ikke oprette forbindelse til de valgte tjenester
 account-hub-email-added-success = Mail-kontoen er tilsluttet
+account-hub-config-test-success = { -brand-short-name } fandt de korrekte indstillinger og opdaterede dem.
 account-hub-select-all = Vælg alle
 account-hub-deselect-all = Fravælg alle
 # $count (Number) - The number of sync accounts selected.
