@@ -179,7 +179,7 @@
 <!ENTITY increaseIndent.label "Aumenta indentazione">
 <!ENTITY increaseIndent.accesskey "u">
 <!ENTITY increaseIndent.key "]">
-<!ENTITY decreaseIndent.label "Diminuisci indentazione">
+<!ENTITY decreaseIndent.label "Riduci indentazione">
 <!ENTITY decreaseIndent.accesskey "z">
 <!ENTITY decreaseIndent.key "[">
 <!ENTITY colorsAndBackground.label "Sfondo e colori pagina…">
