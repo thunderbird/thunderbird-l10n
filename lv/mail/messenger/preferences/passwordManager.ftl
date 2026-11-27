@@ -5,6 +5,8 @@
 saved-logins-title = Saglabātie pieteikumvārdi
 focus-search-primary-shortcut =
     .key = f
+focus-search-alt-shortcut =
+    .key = k
 copy-provider-url-cmd =
     .label = Kopēt URL
     .accesskey = K
@@ -43,6 +45,9 @@ remove =
 import =
     .label = Ievietot…
     .accesskey = I
+password-close-button =
+    .label = Aizvērt
+    .accesskey = v
 show-passwords =
     .label = Rādīt paroles
     .accesskey = R
@@ -72,3 +77,10 @@ password-os-auth-dialog-message = Lai atklātu saglabātās paroles, pierādiet 
 password-os-auth-dialog-message-macosx = atklāt saglabātās paroles
 # Don't change this label.
 password-os-auth-dialog-caption = { -brand-full-name }
+# The macOS strings are preceded by the operating system with "Thunderbird is trying to ".
+# This message can be seen when attempting to disable osauth in about:preferences.
+password-os-auth-change-dialog-message =
+    { PLATFORM() ->
+        [macos] mainīt paroļu iestatījumus
+       *[other] { -brand-short-name } mēģina mainīt paroļu iestatījumus. Lai to atļautu, izmantojiet savas ierīces ierakstīšanos.
+    }

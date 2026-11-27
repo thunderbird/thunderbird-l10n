@@ -2,6 +2,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+permissions-dialog-title = Izņēmumi
 remote-content-permissions-title = Izņēmumi — attālais saturs
 remote-content-permissions-description = Var norādīt, no kurām tīmekļa vietnēm ir ļauts ielādēt attēlus un citu attālo saturu. Var arī atļaut visu attālo saturu, vadoties pēc sūtītāja e-pasta adreses. Jāievada pārvaldāmās vietnes vai e-pasta adrese tad jāklikšķina “Liegt” vai “Atļaut”.
 cookie-permissions-title = Izņēmumi — sīkdatnes
