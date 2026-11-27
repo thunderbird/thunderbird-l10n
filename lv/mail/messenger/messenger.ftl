@@ -432,6 +432,9 @@ message-header-hide-label-column =
 message-header-large-subject =
     .label = Liels objekts
     .accesskey = l
+message-header-all-headers =
+    .label = Rādīt visu izejas koda virsrakstus
+    .accesskey = ā
 
 ## error messages
 

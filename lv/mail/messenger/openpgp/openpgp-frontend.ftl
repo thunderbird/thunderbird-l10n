@@ -34,6 +34,10 @@ openpgp-broken-exchange-info = Šī ir OpenPGP vēstule, kuru, acīmredzot, ir s
 openpgp-broken-exchange-repair =
     .label = Labot vēstuli
 openpgp-broken-exchange-wait = Lūdzu, uzgaidiet…
+openpgp-has-nested-encrypted-parts = Šajā ziņojumā ir iekļautas papildu šifrētas daļas.
+openpgp-show-encrypted-parts = Atšifrēt un parādīt
+openpgp-has-nested-signed-parts = Dažas šī ziņojuma daļas var būt digitāli parakstītas.
+openpgp-show-signed-parts = Atvērt un parādīt
 openpgp-cannot-decrypt-because-mdc =
     Šis ir šifrēts ziņojums, kurā ir izmantots vecs un ievainojams mehānisms.
     Tas varētu būt izmainīts pārsūtīšanas laikā ar nodomu nozagt tā saturu.
@@ -44,3 +48,4 @@ openpgp-partially-encrypted =
     Vēstules daļas kas jau ir parādītas un ir lasāmas nav šifrētas.
     Klikšķinot uz atšifrēšanas pogas, tiks parādīts šifrētās daļas saturs.
 openpgp-partial-decrypt-button = Atšifrēt
+openpgp-unexpected-key-for-you = Brīdinājums: Šajā ziņojumā ir nezināma OpenPGP atslēga, kas attiecas uz vienu no jūsu e-pasta adresēm. Ja šī nav viena no jūsu atslēgām, tas varētu būt mēģinājums apmānīt citus korespondentus.

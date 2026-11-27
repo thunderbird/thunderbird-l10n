@@ -389,10 +389,53 @@ show-cc-row-button = Kopija
     .title = Rādīt kopijas lauku ({ ctrl-cmd-shift-pretty-prefix }{ $key })
 bcc-address-row-label =
     .value = Slēpta kopija
+#   $key (String) - the shortcut key for this field
+show-bcc-row-main-menuitem =
+    .acceltext = { ctrl-cmd-shift-pretty-prefix }{ $key }
+    .label = Slēptās kopijas lauks
+    .accesskey = S
+# No acceltext should be shown.
+# The label should match the show-bcc-row-button text.
+show-bcc-row-extra-menuitem =
+    .label = Slēpta kopija
+    .accesskey = S
+#   $key (String) - the shortcut key for this field
+show-bcc-row-button = Slēpta kopija
+    .title = Rādīt slēptās kopijas lauku ({ ctrl-cmd-shift-pretty-prefix }{ $key })
+extra-address-rows-menu-button =
+    .title = Citi adresācijas lauki, kas jāparāda
+public-recipients-notice-single = Jūsu ziņojumam ir publisks adresāts. Jūs varat izvairīties no adresāta atklāšanas, tā vietā izmantojot slēpto kopiju (Bcc).
+# Variables:
+# $count (Number) - the count of addresses in the "To" and "Cc" fields.
+public-recipients-notice-multi =
+    { $count ->
+        [zero] { $count } adresāti laukā “Kam” un “Kopija” redzēs viens otra adresi. Jūs varat izvairīties no adresātu atklāšanas, tā vietā izmantojot “Bcc”.
+        [one] { $count } adresāti laukā “Kam” un “Kopija” redzēs viens otra adresi. Jūs varat izvairīties no adresātu atklāšanas, tā vietā izmantojot “Bcc”.
+       *[other] { $count } adresāti laukā “Kam” un “Kopija” redzēs viens otra adresi. Jūs varat izvairīties no adresātu atklāšanas, tā vietā izmantojot “Bcc”.
+    }
+many-public-recipients-bcc =
+    .label = Izmantojiet slēpto kopiju
+    .accesskey = u
+many-public-recipients-ignore =
+    .label = Saglabāt adresātus publiski
+    .accesskey = k
+many-public-recipients-prompt-title = Pārāk daudz publisku saņēmēju
+#   $count (Number) - the count of addresses in the public recipients fields.
+many-public-recipients-prompt-msg =
+    { $count ->
+        [one] Jūsu ziņojumam ir publisks adresāts. Tas varētu būt saistīts ar privātuma problēmām. To var novērst, pārvietojot adresātu no Kam/Kopija uz Diskrēto kopiju.
+        [zero] Jūsu ziņojumam ir { $count } publiski adresāti, kuri varēs redzēt viens otra adreses. Tas varētu būt saistīts ar privātumu. Jūs varat izvairīties no adresātu atklāšanas, pārvietojot adresātus no Kam/Kopija uz Diskrēto kopiju.
+       *[other] Jūsu ziņojumam ir { $count } publiski adresāti, kuri varēs redzēt viens otra adreses. Tas varētu būt saistīts ar privātumu. Jūs varat izvairīties no adresātu atklāšanas, pārvietojot adresātus no Kam/Kopija uz Diskrēto kopiju.
+    }
 many-public-recipients-prompt-cancel = Atcelt nosūtīšanu
+many-public-recipients-prompt-send = Sūtīt jebkurā gadījumā
 
 ## Notifications
 
+# Variables:
+# $identity (string) - The name of the used identity, most likely an email address.
+compose-missing-identity-warning = Netika atrasta unikāla identitāte, kas atbilstu sūtītāja adresei. Ziņojums tiks nosūtīts, izmantojot pašreizējo sūtītāja lauku un identitātes { $identity } iestatījumus.
+encrypted-bcc-warning = Sūtot šifrētu ziņojumu, adresāti sadaļā “Bcc” netiek pilnībā paslēpti. Iespējams, visi adresāti varēs tos identificēt.
 encrypted-bcc-ignore-button = Saprotu
 auto-disable-e2ee-warning = Šim ziņojumam pilnīga šifrēšana tika automātiski atspējota.
 # Variables:

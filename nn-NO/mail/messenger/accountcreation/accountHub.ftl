@@ -277,7 +277,7 @@ account-hub-sync-accounts-found = { -brand-short-name } fann nokre tilkopla tene
 account-hub-sync-accounts-not-found = { -brand-short-name } fann ikkje tilkopla tenester
 account-hub-sync-accounts-failure = { -brand-short-name } klarte ikkje å kople til dei valde tenestene
 account-hub-email-added-success = E-postkonto tilkopla
-account-hub-config-test-success = Gyldige konfigurasjonsinnstillingar
+account-hub-config-test-success = { -brand-short-name } fann korrekte innstillingar og oppdaterte dei.
 account-hub-select-all = Merk alle
 account-hub-deselect-all = Merk ingen
 # $count (Number) - The number of sync accounts selected.

@@ -4,6 +4,10 @@
 
 e2e-intro-description = Lai nosūtītu šifrētas vai digitāli parakstītas vēstules, jums jāiestata šifrēšanas tehnoloģija: OpenPGP vai S/MIME.
 e2e-intro-description-more = Atlasiet savu personīgo atslēgu, lai ieslēgtu OpenPGP, vai personīgo sertifikātu, lai ieslēgtu S/MIME lietošanu. Personīgajai atslēgai vai sertifikātam jums ir attiecīgā slepenā atslēga.
+# Do not translate: S/MIME, CSR, CA
+e2e-csr-intro = Lai iegūtu jaunu personīgo S/MIME sertifikātu, ģenerējiet sertifikāta parakstīšanas pieprasījumu (CSR) un iesniedziet to sertifikācijas iestādei (CA).
+# Do not translate: S/MIME, CSR
+e2e-csr-intro-info = Atlasiet lokālo direktoriju un faila nosaukumu savam CSR failam un atbildiet uz tālāk minētajiem jautājumiem par algoritma un stipruma iestatīšanu.
 # A label for a button that proceeds to the next step
 e2e-csr-continue = Turpināt
 # A label for a button that goes back one step
