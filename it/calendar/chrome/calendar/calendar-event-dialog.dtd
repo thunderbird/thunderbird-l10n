@@ -227,7 +227,7 @@
 <!ENTITY event.reminder.1week.before.label "1 settimana prima">
 <!ENTITY event.reminder.custom.label "Personalizzato…">
 <!ENTITY event.reminder.multiple.label "Promemoria multipli…">
-<!ENTITY event.statusbarpanel.freebusy.label "Tempo come:">
+<!ENTITY event.statusbarpanel.freebusy.label "Visualizza come:">
 <!ENTITY event.statusbarpanel.privacy.label "Privacy:">
 <!-- Recurrence dialog -->
 <!ENTITY recurrence.title.label "Modifica ricorrenza">

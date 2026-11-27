@@ -1088,7 +1088,7 @@ item-menu-label-task =
     .accesskey = A
 # Link Location Dialog
 specify-link-location = Specificare il percorso del collegamento
-enter-link-location = Inserire una pagina web o un percorso a un documento.
+enter-link-location = Inserire l’indirizzo di una pagina web o il percorso di un documento.
 # Attach File Dialog
 # Variables:
 #   $providerName - The FileLink provider display name

@@ -222,7 +222,7 @@ calendar-description-link =
     .title = Link
 calendar-description-link-popup = Link
 calendar-description-link-address =
-    .aria-label = Indirizzo del link
+    .aria-label = Indirizzo link
 calendar-description-invalid-link = Inserire un indirizzo valido.
 calendar-description-apply-link = Applica link
 calendar-description-remove-link = Rimuovi link
@@ -230,7 +230,7 @@ calendar-description-cancel-link = Annulla
 calendar-description-input =
     .aria-label = Descrizione
 calendar-description-frame =
-    .title = Editor delle descrizioni
+    .title = Editor della descrizione
 calendar-description-strikethrough =
     .aria-label = Barrato
     .title = Barrato
@@ -247,8 +247,8 @@ calendar-event-add-guests-expand-icon =
 #   $count (Number): Number of invited guests, including the organizer.
 calendar-event-guests-invited =
     { $count ->
-        [one] { $count } invitati invitati
-       *[other] { $count } ospiti invitati
+        [one] { $count } invitato
+       *[other] { $count } invitati
     }
 
 ## These strings are formatted as a list using Intl.Listformat,

@@ -476,7 +476,7 @@ decrypt-and-copy-failures-multiple =
 # list, when at least one filter or action failed.
 apply-filters-failed = L’esecuzione dei filtri non è stata completata correttamente. Controllare il registro di attività dei filtri per dettagli.
 apply-filters-failed-open-log-button = Apri Registro attività filtri
-archive-message-error-title = Errore nel messaggio di archiviazione
+archive-message-error-title = Errore durante l'archiviazione del messaggio
 archive-message-error = Impossibile archiviare i messaggi selezionati.
 archive-folder-missing = Impossibile trovare la cartella degli archivi per questa identità. Selezionare un’altra cartella e riprovare.
 save-template-error-title = Errore di salvataggio del modello
