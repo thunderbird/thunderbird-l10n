@@ -36,11 +36,36 @@ calendar-dialog-description-row-icon =
     .alt = Apraksts
 calendar-dialog-reminders-row-icon =
     .alt = Atgādinājumi
+calendar-dialog-attendees-row-icon =
+    .alt = Viesi
+# Variables:
+#   $count (Number): Number of guests.
+calendar-dialog-attendee-count =
+    { $count ->
+        [one] { $count } Viesis
+        [zero] { $count } viesi
+       *[other] { $count } viesi
+    }
+calendar-dialog-attendee-organizer = Rīkotājs
+calendar-dialog-attendee-optional = Pēc izvēles
+calendar-dialog-icon-attending =
+    .alt = Apmeklējot
+calendar-dialog-icon-declined =
+    .alt = Noraidīts
+calendar-dialog-icon-maybe =
+    .alt = Varbūt
+calendar-dialog-attendees-expand-icon =
+    .alt = Rādīt visus viesus
 calendar-dialog-attendees-too-many-guests = Viesu sarakstu nevar parādīt, jo tas satur vairāk nekā 50 viesu.
+calendar-dialog-description-label = Apraksts
+calendar-dialog-description-expand-icon =
+    .alt = Rādīt pilnu aprakstu
 calendar-dialog-menu-duplicate =
     .label = Notikuma dublikāts
 calendar-dialog-menu-delete =
     .label = Dzēst notikumu
+calendar-dialog-menu-print =
+    .label = Drukāt
 # Variables:
 #   $additionalCategories (Number): Number of categoires not shown.
 #   $categories (String): List of all categories.

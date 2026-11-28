@@ -20,12 +20,19 @@ xpinstall-prompt-dont-allow =
 xpinstall-prompt-never-allow =
     .label = Nekad neļaut
     .accesskey = N
+# Long text in this context make the dropdown menu extend awkwardly to the left,
+# avoid a localization that's significantly longer than the English version.
+xpinstall-prompt-never-allow-and-report =
+    .label = Ziņot par aizdomīgu vietni
+    .accesskey = Z
 # Accessibility Note:
 # Be sure you do not choose an accesskey that is used elsewhere in the active context (e.g. main menu bar, submenu of the warning popup button)
 # See https://website-archive.mozilla.org/www.mozilla.org/access/access/keyboard/ for details
 xpinstall-prompt-install =
     .label = Turpināt uzstādīšanu
     .accesskey = C
+site-permission-install-first-prompt-midi-header = Šī vietne pieprasa piekļuvi MIDI (mūzikas instrumentu ciparsaskarne) ierīcēm. Ierīces piekļuvi var ieslēgt, uzinstalējot papildinājumu.
+site-permission-install-first-prompt-midi-message = Šīs piekļuves drošība netiek garantēta. Turpiniet tikai tad, ja uzticaties šai vietnei.
 xpinstall-disabled-locked = Jūsu sistēmas administrators ir liedzis programmatūras uzstādīšanu.
 xpinstall-disabled = Programmatūras uzstādīšana ir liegta. Klikšķiniet Ļaut un mēģiniet vēlreiz.
 xpinstall-disabled-button =
@@ -38,6 +45,7 @@ xpinstall-disabled-button =
 addon-install-blocked-by-policy = { $addonName } ({ $addonId }) ir bloķējis jūsu sistēmas administrators.
 # This message is shown when the installation of add-ons from a domain is blocked by enterprise policy.
 addon-domain-blocked-by-policy = Jūsu sistēmas administrators neļāva šai vietnei lūgt instalēt programmatūru jūsu datorā.
+addon-install-full-screen-blocked = Papildinājumu instalēšana nav atļauta pilnekrāna režīmā vai pirms tā pāriešanas.
 # Variables:
 #   $addonName (String): the localized name of the sideloaded add-on.
 webext-perms-sideload-menu-item = { $addonName } pievienots { -brand-short-name }
@@ -47,6 +55,14 @@ webext-perms-update-menu-item = { $addonName } nepieciešamas jaunas atļaujas
 
 ## Add-on removal warning
 
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
+addon-removal-title = Vai noņemt { $name }?
+# Variables:
+#   $name (String): the name of the extension which is about to be removed.
+addon-removal-message = Vai noņemt { $name } no { -brand-shorter-name }?
+addon-removal-button = Noņemt
+addon-removal-abuse-report-checkbox = Ziņot par šo paplašinājumu { -vendor-short-name }
 # Variables:
 #   $addonCount (Number): the number of add-ons being downloaded
 addon-downloading-and-verifying =
@@ -91,6 +107,7 @@ addon-install-error-incorrect-hash = Šo papildinājumu nevar uzstādīt, jo tas
 addon-install-error-corrupt-file = Papildinājumu no šīs vietnes nevar uzstādīt, jo tas izskatās bojāts.
 addon-install-error-file-access = { $addonName } nevar uzstādīt, jo { -brand-short-name } nevar mainīt nepieciešamo failu.
 addon-install-error-not-signed = { -brand-short-name } liedza vietnei uzstādīt nepārbaudītu papildinājumu.
+addon-install-error-invalid-domain = Papildinājumu { $addonName } nevar instalēt no šīs vietas.
 addon-local-install-error-network-failure = Šo papildinājumu nevarēja uzstādīt datņu sistēmas kļūdas dēļ.
 addon-local-install-error-incorrect-hash = Šo papildinājumu nevar uzstādīt, jo tas neatbilst gaidāmajam papildinājumam { -brand-short-name }.
 addon-local-install-error-corrupt-file = Šo papildinājumu nevar uzstādīt, jo tas izskatās bojāts.
