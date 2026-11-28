@@ -435,6 +435,15 @@ message-header-large-subject =
 message-header-all-headers =
     .label = Rādīt visu izejas koda virsrakstus
     .accesskey = ā
+message-header-dark-message-toggle =
+    .label = Rādīt tumšā ziņojuma režīma pārslēgu
+    .accesskey = t
+
+## Action Button Context Menu
+
+toolbar-context-menu-manage-extension =
+    .label = Pārvaldīt paplašinājumu
+    .accesskey = š
 
 ## error messages
 

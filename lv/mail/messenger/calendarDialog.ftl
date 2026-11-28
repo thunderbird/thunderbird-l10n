@@ -66,6 +66,9 @@ calendar-dialog-menu-delete =
     .label = Dzēst notikumu
 calendar-dialog-menu-print =
     .label = Drukāt
+calendar-dialog-menu =
+    .aria-label = Papildu darbību izvēlne
+    .title = Papildu darbību izvēlne
 # Variables:
 #   $additionalCategories (Number): Number of categoires not shown.
 #   $categories (String): List of all categories.
@@ -76,6 +79,8 @@ calendar-dialog-more-categories =
        *[other] +{ $additionalCategories } vairāk
     }
     .title = { $categories }
+calendar-dialog-delete-reminder-button =
+    .alt = Noņemt atgādinājumu
 calendar-dialog-add-reminder-button = Pievienot atgādinājumu
 calendar-dialog-reminder-select =
     .aria-label = Atlasīt jaunu atgādinājuma ilgumu
@@ -106,8 +111,38 @@ calendar-dialog-reminder-days-before =
        *[other] Pirms { $count } dienām
     }
 calendar-dialog-reminder-week-before = Pirms 1 nedēļas
+# Variables:
+#   $count (Number): Number of reminders.
+calendar-dialog-reminder-count =
+    { $count ->
+        [one] Atgādinājums
+        [zero] { $count } atgādinājumi
+       *[other] { $count } atgādinājumi
+    }
+calendar-dialog-accept = Došanās
+    .title = Došanās
+calendar-dialog-accept-tentative = Varbūt
+    .title = Varbūt
+calendar-dialog-decline = Neiešu
+    .title = Neiešu
+calendar-dialog-join-meeting-button = Pievienoties sapulcei
+calendar-dialog-join-meeting-row-icon =
+    .alt = Pievienoties sapulcei
+calendar-dialog-attachments-row-icon =
+    .alt = Pielikumi
+calendar-dialog-attachments-label = Pielikumi
+calendar-dialog-attachment-link-icon =
+    .alt = Saistīts pielikums
 calendar-dialog-attachments-expand-icon =
     .alt = Rādīt visus pielikumus
+# Variables:
+#   $count (Number): Number of attachments.
+calendar-dialog-attachments-summary-label =
+    { $count ->
+        [one] Pielikums — { $count }
+        [zero] { $count } pielikumi
+       *[other] { $count } pielikumi
+    }
 calendar-event-prompt-delete-title = Izdzēst notikumu
 calendar-event-prompt-delete-header = Neatgriezeniski noņemt šo(s) notikumu(s)?
 calendar-single-event-prompt-delete-header = Neatgriezeniski noņemt šo notikumu?
@@ -230,4 +265,40 @@ calendar-event-guests-invited =
         [one] Uzaicināts { $count } viesis
         [zero] Uzaicināti { $count } viesu
        *[other] Uzaicināti { $count } viesi
+    }
+
+## These strings are formatted as a list using Intl.Listformat,
+## resulting for example in "1 attending, 2 maybe, etc.".
+
+# Variables:
+#   $count (Number): Number of guests that responded "attending".
+calendar-dialog-attendee-summary-going =
+    { $count ->
+        [one] { $count } apmeklē
+        [zero] { $count } apmeklē
+       *[other] { $count } apmeklē
+    }
+# Variables:
+#   $count (Number): Number of guests that responded "maybe".
+calendar-dialog-attendee-summary-maybe =
+    { $count ->
+        [one] { $count } varbūt
+        [zero] { $count } varbūt
+       *[other] { $count } varbūt
+    }
+# Variables:
+#   $count (Number): Number of guests that responded "declined".
+calendar-dialog-attendee-summary-declined =
+    { $count ->
+        [one] { $count } noraidīts
+        [zero] { $count } noraidīts
+       *[other] { $count } noraidīts
+    }
+# Variables:
+#   $count (Number): Number of guests whose response is pending (didn't reply yet).
+calendar-dialog-attendee-summary-pending =
+    { $count ->
+        [one] { $count } gaida
+        [zero] { $count } gaida
+       *[other] { $count } gaida
     }

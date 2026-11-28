@@ -27,3 +27,6 @@ webext-perms-description-messagesUpdate = Mainiet vēstules īpašības un birka
 webext-perms-description-messages-send = Automātiski un bez vizuāla paziņojuma masveidā sūtīt epasta vēstules jūsu vārdā. Papildinājuma sūtīšanas vēsturi varat pārskatīt aktivitāšu pārvaldniekā.
 webext-perms-description-messages-save = Saglabājiet vēstules kā melnrakstus vai veidnes programmatiski, bez jūsu iejaukšanās
 webext-perms-description-messagesTags = Vēstules birku izveide, modificēšana un dzēšana
+webext-perms-description-messagesTagsList = Skatīt ziņojumu birku sarakstu
+webext-perms-description-sensitiveDataUpload = Pārsūtīt jūtīgus lietotāja datus (ja ir piešķirta piekļuve) uz attālu serveri turpmākai apstrādei
+webext-perms-description-messengerSettings = Lasīt { -brand-short-name } iestatījumus

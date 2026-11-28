@@ -28,7 +28,31 @@ cert-error-inline-domain-mismatch =
 #   $not-after (string) - Certificate is not valid after this time.
 cert-error-inline-expired =
     .title = Savienojuma kļūda. { $hostname } sertifikāta derīguma termiņš beidzās { $not-after }. Noklikšķiniet, lai atvērtu servera drošības iestatījumus.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+#   $not-before (string) - Certificate is not valid before this time.
+cert-error-inline-not-yet-valid =
+    .title = Savienojuma kļūda. { $hostname } sertifikāts nebūs derīgs līdz { $not-before }. Noklikšķiniet, lai atvērtu servera drošības iestatījumus.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server with certificate error.
+cert-error-inline-untrusted-default =
+    .title = Savienojuma kļūda. { $hostname } sertifikāts nenāk no uzticama avota. Noklikšķiniet, lai atvērtu servera drošības iestatījumus.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of the server.
+cert-error-inline-ssl-connection-error =
+    .title = Izveidojot savienojumu ar { $hostname }, radās kļūda.
+certificate-check-test-button = Pārbaudīt savienojumu ar serveri
 certificate-check-view-button = Apskatīt sertifikātu
+certificate-check-add-exception-button = Pievienot izņēmumu
+certificate-check-remove-exception-button = Noņemt izņēmumu
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-checking = Tiek pārbaudīts savienojums ar serveri { $hostname }…
 # Variables:
 #   $hostname (string) - Hostname (and possibly port) of a server.
 certificate-test-success = Sekmīgi izveidots drošs savienojums ar { $hostname }.
+certificate-check-exception-added = Pievienots sertifikāta izņēmums.
+certificate-check-exception-removed = Sertifikāta izņēmums ir noņemts.
+# Variables:
+#   $hostname (string) - Hostname (and possibly port) of a server.
+certificate-check-exception-exists = Pastāv sertifikāta izņēmums { $hostname } .
