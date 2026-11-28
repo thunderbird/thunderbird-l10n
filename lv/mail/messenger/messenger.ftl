@@ -444,6 +444,20 @@ message-header-dark-message-toggle =
 toolbar-context-menu-manage-extension =
     .label = Pārvaldīt paplašinājumu
     .accesskey = š
+toolbar-context-menu-remove-extension =
+    .label = Noņemt paplašinājumu
+    .accesskey = e
+
+## Add-on removal warning
+
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
+addon-removal-title = Vai noņemt { $name }?
+addon-removal-confirmation-button = Noņemt
+# Variables:
+#  $name (String): The name of the add-on that will be removed.
+addon-removal-confirmation-message = Vai noņemt { $name }, kā arī tā konfigurāciju un datus no { -brand-short-name }?
+caret-browsing-prompt-title = Pārlūkošana ar kursoru
 
 ## error messages
 
